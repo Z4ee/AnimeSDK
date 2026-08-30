@@ -6,12 +6,12 @@
 
 namespace UnityEngine { class Transform; }
 
-#define SCENENLIGHTMANAGER_TRANSFORMEXPORTDATA_METHOD_1_7900DB25C44BBC9B_OFFSET UNITYSDK_OFFSET(0xDD45810)
-#define SCENENLIGHTMANAGER_TRANSFORMEXPORTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xDD45750)
+#define SCENENLIGHTMANAGER_TRANSFORMEXPORTDATA_METHOD_1_7900DB25C44BBC9B_OFFSET UNITYSDK_OFFSET(0xE910CC0)
+#define SCENENLIGHTMANAGER_TRANSFORMEXPORTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xE910C00)
 
 namespace ScenenLightManager
 {
-	inline static constexpr unsigned int TransformExportData_TypeDefinitionIndex = 47291;
+	inline static constexpr unsigned int TransformExportData_TypeDefinitionIndex = 49571;
 
 	class TransformExportData : public ::System::Object
 	{

@@ -6,20 +6,20 @@
 namespace System { class String; }
 namespace System { class Type; }
 
-#define UNITYENGINE_TIMELINE_TRACKCLIPTYPEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFD9120)
+#define UNITYENGINE_TIMELINE_TRACKCLIPTYPEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1ECE02C0)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int TrackClipTypeAttribute_TypeDefinitionIndex = 36701;
+	inline static constexpr unsigned int TrackClipTypeAttribute_TypeDefinitionIndex = 37560;
 
 	class TrackClipTypeAttribute : public ::System::Attribute
 	{
 	public:
-		::System::String* showIfMethod; // 0x10
-		::System::Type* inspectedType; // 0x18
-		::UnityEngine::Timeline::CreateClipFlags clipFlags; // 0x20
-		::System::Boolean allowAutoCreate; // 0x24
-		::System::Boolean isHideSubClass; // 0x25
+		::System::Type* inspectedType; // 0x10
+		::System::String* showIfMethod; // 0x18
+		::System::Boolean isHideSubClass; // 0x20
+		::System::Boolean allowAutoCreate; // 0x21
+		::UnityEngine::Timeline::CreateClipFlags clipFlags; // 0x24
 
 		::System::Void _ctor(::System::Type* a1, ::System::Boolean a2, ::UnityEngine::Timeline::CreateClipFlags a3, ::System::String* a4, ::System::Boolean a5)
 		{

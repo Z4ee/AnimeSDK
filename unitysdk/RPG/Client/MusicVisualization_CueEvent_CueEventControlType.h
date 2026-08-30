@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MusicVisualization_CueEvent_CueEventControlType_TypeDefinitionIndex = 67645;
+	inline static constexpr unsigned int MusicVisualization_CueEvent_CueEventControlType_TypeDefinitionIndex = 70768;
 
 	enum class MusicVisualization_CueEvent_CueEventControlType : ::System::Int32
 	{

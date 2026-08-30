@@ -4,33 +4,33 @@
 #include "unitysdk/UnityEngine/Matrix4x4.h"
 #include "unitysdk/UnityEngine/RenderTextureFormat.h"
 
-#define RPG_CUSTOMRP_SHADOWUTILSEXT_GET_FORCESHADOWPOINTSAMPLING_OFFSET UNITYSDK_OFFSET(0x1AABFBA0)
-#define RPG_CUSTOMRP_SHADOWUTILSEXT_GET_SHADOWFORMAT_OFFSET UNITYSDK_OFFSET(0x1AABFB70)
-#define RPG_CUSTOMRP_SHADOWUTILSEXT_INIT_OFFSET UNITYSDK_OFFSET(0x1AABFBE0)
-#define RPG_CUSTOMRP_SHADOWUTILSEXT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AABFD30)
+#define RPG_CUSTOMRP_SHADOWUTILSEXT_GET_FORCESHADOWPOINTSAMPLING_OFFSET UNITYSDK_OFFSET(0x1C6F0DA0)
+#define RPG_CUSTOMRP_SHADOWUTILSEXT_GET_SHADOWFORMAT_OFFSET UNITYSDK_OFFSET(0x1C6F0D70)
+#define RPG_CUSTOMRP_SHADOWUTILSEXT_INIT_OFFSET UNITYSDK_OFFSET(0x1C6F0DE0)
+#define RPG_CUSTOMRP_SHADOWUTILSEXT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C6F0F30)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int ShadowUtilsExt_TypeDefinitionIndex = 36352;
+	inline static constexpr unsigned int ShadowUtilsExt_TypeDefinitionIndex = 37211;
 
 	class ShadowUtilsExt : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::RenderTextureFormat* StaticGet__ShadowmapFormat()
+		static ::UnityEngine::Matrix4x4* StaticGet__textureScaleAndBias()
 		{
-			return (::UnityEngine::RenderTextureFormat*)Il2CppClass::FromTypeDefinitionIndex(ShadowUtilsExt_TypeDefinitionIndex)->GetStaticField(0x13DD0);
-		}
-		static ::System::Boolean* StaticGet__ForceShadowPointSampling()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ShadowUtilsExt_TypeDefinitionIndex)->GetStaticField(0x13DD4);
+			return (::UnityEngine::Matrix4x4*)Il2CppClass::FromTypeDefinitionIndex(ShadowUtilsExt_TypeDefinitionIndex)->GetStaticField(0xFAD0);
 		}
 		static ::System::Boolean* StaticGet_usesReversedZBuffer()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ShadowUtilsExt_TypeDefinitionIndex)->GetStaticField(0x13DD5);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ShadowUtilsExt_TypeDefinitionIndex)->GetStaticField(0xFB10);
 		}
-		static ::UnityEngine::Matrix4x4* StaticGet__textureScaleAndBias()
+		static ::System::Boolean* StaticGet__ForceShadowPointSampling()
 		{
-			return (::UnityEngine::Matrix4x4*)Il2CppClass::FromTypeDefinitionIndex(ShadowUtilsExt_TypeDefinitionIndex)->GetStaticField(0x13DD8);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ShadowUtilsExt_TypeDefinitionIndex)->GetStaticField(0xFB11);
+		}
+		static ::UnityEngine::RenderTextureFormat* StaticGet__ShadowmapFormat()
+		{
+			return (::UnityEngine::RenderTextureFormat*)Il2CppClass::FromTypeDefinitionIndex(ShadowUtilsExt_TypeDefinitionIndex)->GetStaticField(0xFB14);
 		}
 
 		static ::System::Void _cctor()

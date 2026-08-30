@@ -6,24 +6,24 @@ namespace RPG::Client { class RogueTournHexData; }
 namespace RPG::GameCore { class RogueTournHexRow; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_ROGUETOURNHEXDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD445BD0)
-#define RPG_CLIENT_ROGUETOURNHEXDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD445C10)
-#define RPG_CLIENT_ROGUETOURNHEXDATA___C__GETALLDATAS_B__41_0_OFFSET UNITYSDK_OFFSET(0xD445C20)
+#define RPG_CLIENT_ROGUETOURNHEXDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xDF62160)
+#define RPG_CLIENT_ROGUETOURNHEXDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0xDF621A0)
+#define RPG_CLIENT_ROGUETOURNHEXDATA___C__GETALLDATAS_B__41_0_OFFSET UNITYSDK_OFFSET(0xDF621B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournHexData___c_TypeDefinitionIndex = 64674;
+	inline static constexpr unsigned int RogueTournHexData___c_TypeDefinitionIndex = 67670;
 
 	class RogueTournHexData___c : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::RogueTournHexData___c** StaticGet___9()
 		{
-			return (::RPG::Client::RogueTournHexData___c**)Il2CppClass::FromTypeDefinitionIndex(RogueTournHexData___c_TypeDefinitionIndex)->GetStaticField(0x2B8D0);
+			return (::RPG::Client::RogueTournHexData___c**)Il2CppClass::FromTypeDefinitionIndex(RogueTournHexData___c_TypeDefinitionIndex)->GetStaticField(0x13540);
 		}
 		static ::System::Func_2<::RPG::GameCore::RogueTournHexRow*, ::RPG::Client::RogueTournHexData*>** StaticGet___9__41_0()
 		{
-			return (::System::Func_2<::RPG::GameCore::RogueTournHexRow*, ::RPG::Client::RogueTournHexData*>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournHexData___c_TypeDefinitionIndex)->GetStaticField(0x2B8D8);
+			return (::System::Func_2<::RPG::GameCore::RogueTournHexRow*, ::RPG::Client::RogueTournHexData*>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournHexData___c_TypeDefinitionIndex)->GetStaticField(0x13548);
 		}
 
 		static ::System::Void _cctor()

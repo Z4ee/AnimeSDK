@@ -5,24 +5,24 @@
 namespace MiHoYo::SDK::Console { class ConsoleRealNameDialog; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_CONSOLE_CONSOLEREALNAMEDIALOG___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19C01FA0)
-#define MIHOYO_SDK_CONSOLE_CONSOLEREALNAMEDIALOG___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19C01FE0)
-#define MIHOYO_SDK_CONSOLE_CONSOLEREALNAMEDIALOG___C__SHOW_B__16_0_OFFSET UNITYSDK_OFFSET(0x19C01FF0)
+#define MIHOYO_SDK_CONSOLE_CONSOLEREALNAMEDIALOG___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B792870)
+#define MIHOYO_SDK_CONSOLE_CONSOLEREALNAMEDIALOG___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7928B0)
+#define MIHOYO_SDK_CONSOLE_CONSOLEREALNAMEDIALOG___C__SHOW_B__16_0_OFFSET UNITYSDK_OFFSET(0x1B7928C0)
 
 namespace MiHoYo::SDK::Console
 {
-	inline static constexpr unsigned int ConsoleRealNameDialog___c_TypeDefinitionIndex = 8680;
+	inline static constexpr unsigned int ConsoleRealNameDialog___c_TypeDefinitionIndex = 8948;
 
 	class ConsoleRealNameDialog___c : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::MiHoYo::SDK::Console::ConsoleRealNameDialog*>** StaticGet___9__16_0()
 		{
-			return (::System::Action_1<::MiHoYo::SDK::Console::ConsoleRealNameDialog*>**)Il2CppClass::FromTypeDefinitionIndex(ConsoleRealNameDialog___c_TypeDefinitionIndex)->GetStaticField(0x19BA0);
+			return (::System::Action_1<::MiHoYo::SDK::Console::ConsoleRealNameDialog*>**)Il2CppClass::FromTypeDefinitionIndex(ConsoleRealNameDialog___c_TypeDefinitionIndex)->GetStaticField(0xAFC0);
 		}
 		static ::MiHoYo::SDK::Console::ConsoleRealNameDialog___c** StaticGet___9()
 		{
-			return (::MiHoYo::SDK::Console::ConsoleRealNameDialog___c**)Il2CppClass::FromTypeDefinitionIndex(ConsoleRealNameDialog___c_TypeDefinitionIndex)->GetStaticField(0x19BA8);
+			return (::MiHoYo::SDK::Console::ConsoleRealNameDialog___c**)Il2CppClass::FromTypeDefinitionIndex(ConsoleRealNameDialog___c_TypeDefinitionIndex)->GetStaticField(0xAFC8);
 		}
 
 		static ::System::Void _cctor()

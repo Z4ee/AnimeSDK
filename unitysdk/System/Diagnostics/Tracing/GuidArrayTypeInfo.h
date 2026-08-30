@@ -8,13 +8,13 @@ namespace System { class String; }
 namespace System::Diagnostics::Tracing { class TraceLoggingDataCollector; }
 namespace System::Diagnostics::Tracing { class TraceLoggingMetadataCollector; }
 
-#define SYSTEM_DIAGNOSTICS_TRACING_GUIDARRAYTYPEINFO_WRITEDATA_OFFSET UNITYSDK_OFFSET(0x1A0E4B50)
-#define SYSTEM_DIAGNOSTICS_TRACING_GUIDARRAYTYPEINFO_WRITEMETADATA_OFFSET UNITYSDK_OFFSET(0x1A0E4B00)
-#define SYSTEM_DIAGNOSTICS_TRACING_GUIDARRAYTYPEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0E4D00)
+#define SYSTEM_DIAGNOSTICS_TRACING_GUIDARRAYTYPEINFO_WRITEDATA_OFFSET UNITYSDK_OFFSET(0x1BCEC300)
+#define SYSTEM_DIAGNOSTICS_TRACING_GUIDARRAYTYPEINFO_WRITEMETADATA_OFFSET UNITYSDK_OFFSET(0x1BCEC2B0)
+#define SYSTEM_DIAGNOSTICS_TRACING_GUIDARRAYTYPEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1BCEC4B0)
 
 namespace System::Diagnostics::Tracing
 {
-	inline static constexpr unsigned int GuidArrayTypeInfo_TypeDefinitionIndex = 1645;
+	inline static constexpr unsigned int GuidArrayTypeInfo_TypeDefinitionIndex = 1652;
 
 	class GuidArrayTypeInfo : public ::System::Diagnostics::Tracing::TraceLoggingTypeInfo_1<::Il2CppArray<::System::Guid>*>
 	{

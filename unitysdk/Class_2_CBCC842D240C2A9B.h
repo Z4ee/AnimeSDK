@@ -1,0 +1,38 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_AA89D5B25CEB7681.h"
+#include "unitysdk/RPG/Client/LittleGame/RoadRash/EEngineState.h"
+
+class Class_0_16E4307DCC419505_1263;
+class Class_2_230F5EDDB35DAEBA;
+
+#define CLASS_2_CBCC842D240C2A9B_METHOD_2_2885FF30FB82A641_OFFSET UNITYSDK_OFFSET(0xB40EF00)
+#define CLASS_2_CBCC842D240C2A9B_METHOD_2_571A19E730B0A059_OFFSET UNITYSDK_OFFSET(0xB40EE90)
+#define CLASS_2_CBCC842D240C2A9B_METHOD_2_A763E17EB1C741E8_OFFSET UNITYSDK_OFFSET(0xB40F000)
+#define CLASS_2_CBCC842D240C2A9B__CTOR_OFFSET UNITYSDK_OFFSET(0xB40F0A0)
+
+inline static constexpr unsigned int Class_2_CBCC842D240C2A9B_TypeDefinitionIndex = 75421;
+
+class Class_2_CBCC842D240C2A9B : public ::Class_1_AA89D5B25CEB7681
+{
+public:
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_CBCC842D240C2A9B__CTOR_OFFSET))(this);
+	}
+
+	::System::Boolean Method_2_571A19E730B0A059(::Class_2_230F5EDDB35DAEBA* a1, ::Class_0_16E4307DCC419505_1263* a2)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::Class_2_230F5EDDB35DAEBA*, ::Class_0_16E4307DCC419505_1263*))((::PBYTE)hIl2Cpp + CLASS_2_CBCC842D240C2A9B_METHOD_2_571A19E730B0A059_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_2_2885FF30FB82A641(::Class_2_230F5EDDB35DAEBA* a1, ::Class_0_16E4307DCC419505_1263* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_2_230F5EDDB35DAEBA*, ::Class_0_16E4307DCC419505_1263*))((::PBYTE)hIl2Cpp + CLASS_2_CBCC842D240C2A9B_METHOD_2_2885FF30FB82A641_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_2_A763E17EB1C741E8(::Class_2_230F5EDDB35DAEBA* a1, ::RPG::Client::LittleGame::RoadRash::EEngineState a2, ::Class_0_16E4307DCC419505_1263* a3)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_2_230F5EDDB35DAEBA*, ::RPG::Client::LittleGame::RoadRash::EEngineState, ::Class_0_16E4307DCC419505_1263*))((::PBYTE)hIl2Cpp + CLASS_2_CBCC842D240C2A9B_METHOD_2_A763E17EB1C741E8_OFFSET))(this, a1, a2, a3);
+	}
+};

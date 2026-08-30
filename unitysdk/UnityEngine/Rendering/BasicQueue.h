@@ -5,11 +5,11 @@
 namespace UnityEngine::Rendering { class QueueData; }
 namespace UnityEngine::Rendering { template <typename T> class CreateObj_1; }
 
-#define UNITYENGINE_RENDERING_BASICQUEUE_HASDATA_OFFSET UNITYSDK_OFFSET(0x30170)
+#define UNITYENGINE_RENDERING_BASICQUEUE_HASDATA_OFFSET UNITYSDK_OFFSET(0x32030)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int BasicQueue_TypeDefinitionIndex = 34067;
+	inline static constexpr unsigned int BasicQueue_TypeDefinitionIndex = 34834;
 
 	struct alignas(8) BasicQueue
 	{

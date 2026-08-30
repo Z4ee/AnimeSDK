@@ -6,20 +6,20 @@
 
 namespace RPG::GameCore { class GameEntity; }
 
-#define RPG_GAMECORE_LEVELLOSEHP_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xDAD9620)
-#define RPG_GAMECORE_LEVELLOSEHP_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xDAD95D0)
-#define RPG_GAMECORE_LEVELLOSEHP_INIT_OFFSET UNITYSDK_OFFSET(0xDAD9560)
-#define RPG_GAMECORE_LEVELLOSEHP__CTOR_OFFSET UNITYSDK_OFFSET(0xDAD9670)
+#define RPG_GAMECORE_LEVELLOSEHP_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE698870)
+#define RPG_GAMECORE_LEVELLOSEHP_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE698820)
+#define RPG_GAMECORE_LEVELLOSEHP_INIT_OFFSET UNITYSDK_OFFSET(0xE6987B0)
+#define RPG_GAMECORE_LEVELLOSEHP__CTOR_OFFSET UNITYSDK_OFFSET(0xE6988C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelLoseHP_TypeDefinitionIndex = 54247;
+	inline static constexpr unsigned int LevelLoseHP_TypeDefinitionIndex = 56968;
 
 	class LevelLoseHP : public ::Class_1_BF7A075734D15E98
 	{
 	public:
-		::RPG::GameCore::GameEntity* Attacker; // 0x18
-		::RPG::GameCore::GameEntity* Target; // 0x20
+		::RPG::GameCore::GameEntity* Target; // 0x18
+		::RPG::GameCore::GameEntity* Attacker; // 0x20
 		::RPG::GameCore::FixPoint Damage; // 0x28
 
 		::System::Void _ctor()

@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace UnityEngine { class Texture; }
 
-#define RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_TEXTUREPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0xD5FE710)
+#define RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_TEXTUREPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0xE14B8D0)
 
 namespace RPG::Client::TAUtils
 {
-	inline static constexpr unsigned int ComputeMaterial_TextureProperty_TypeDefinitionIndex = 70207;
+	inline static constexpr unsigned int ComputeMaterial_TextureProperty_TypeDefinitionIndex = 73506;
 
 	class ComputeMaterial_TextureProperty : public ::System::Object
 	{

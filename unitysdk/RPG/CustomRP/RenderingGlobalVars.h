@@ -30,429 +30,429 @@ namespace UnityEngine { class RenderTexture; }
 namespace UnityEngine { class Renderer; }
 namespace UnityEngine::Rendering { class IRPData; }
 
-#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_ADDACTOR_OFFSET UNITYSDK_OFFSET(0x1AAB6650)
-#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_ADDAMBIENTVOLUMNE_OFFSET UNITYSDK_OFFSET(0x1AAB6A60)
-#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_ADDFLAG_OFFSET UNITYSDK_OFFSET(0x1AAB6830)
-#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_ATTACHRENDERS_OFFSET UNITYSDK_OFFSET(0x1AAB6910)
-#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_CHECKSPRBATCHOPT_OFFSET UNITYSDK_OFFSET(0x1AAB58F0)
-#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_CLEANUPSHADOWCACHE_OFFSET UNITYSDK_OFFSET(0x1AAB6D40)
-#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_DECDITHER_OFFSET UNITYSDK_OFFSET(0x1AAB6C40)
-#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_ENDUIPP_OFFSET UNITYSDK_OFFSET(0x1AAB7060)
-#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_FORCEUPDATESCENESHADOW_OFFSET UNITYSDK_OFFSET(0x1AAB6D50)
-#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_GETCAMERAVERISON_OFFSET UNITYSDK_OFFSET(0x1AAB6CB0)
-#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_GET_SHADOWCENTERGO_OFFSET UNITYSDK_OFFSET(0x1AAB70B0)
-#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_GET_USESRPBATCH_OFFSET UNITYSDK_OFFSET(0x1AAB71A0)
-#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_GET_VALIDLOCALREFLECTION_OFFSET UNITYSDK_OFFSET(0x1AAB71B0)
-#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_HIDEACTOR_OFFSET UNITYSDK_OFFSET(0x1AAB67E0)
-#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_INCDITHER_OFFSET UNITYSDK_OFFSET(0x1AAB6C10)
-#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_INCREASECAMERAVERSION_OFFSET UNITYSDK_OFFSET(0x1AAB6CE0)
-#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_ISFORCECSMPERFRAME_OFFSET UNITYSDK_OFFSET(0x1AAB7140)
-#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_ONCHANGEENV_OFFSET UNITYSDK_OFFSET(0x1AAB6550)
-#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_ONENTERSCENE_OFFSET UNITYSDK_OFFSET(0x1AAB6090)
-#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_ONLEAVESCENE_OFFSET UNITYSDK_OFFSET(0x1AAB6160)
-#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_ONQUIT_OFFSET UNITYSDK_OFFSET(0x1AAB6620)
-#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_QUERYACTOR_OFFSET UNITYSDK_OFFSET(0x1AAB6A50)
-#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_REFRESHACTORRENDER_OFFSET UNITYSDK_OFFSET(0x1AAB6880)
-#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_REFRESHACTOR_OFFSET UNITYSDK_OFFSET(0x1AAB6850)
-#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_REGISTERCRPDATA_OFFSET UNITYSDK_OFFSET(0x1AAB7300)
-#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_REMOVEABOVEOFFSET_OFFSET UNITYSDK_OFFSET(0x1AAB69F0)
-#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_REMOVEACTOR_OFFSET UNITYSDK_OFFSET(0x1AAB6770)
-#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_REMOVEAMBIENTVOLUMNE_OFFSET UNITYSDK_OFFSET(0x1AAB6B60)
-#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_REMOVEFLAG_OFFSET UNITYSDK_OFFSET(0x1AAB6840)
-#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_SETABOVEOFFSET_OFFSET UNITYSDK_OFFSET(0x1AAB6720)
-#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_SETCACHEPOSITION_OFFSET UNITYSDK_OFFSET(0x1AAB69A0)
-#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_SETENABLEINDOORCHARACTERSHADOW_OFFSET UNITYSDK_OFFSET(0x1AAB6E20)
-#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_SETOBJLOCALLIGHT_OFFSET UNITYSDK_OFFSET(0x1AAB6A30)
-#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_SETSHADOWPROBEBLEND_OFFSET UNITYSDK_OFFSET(0x1AAB6D10)
-#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_SET_SHADOWCENTERGO_OFFSET UNITYSDK_OFFSET(0x1AAB70E0)
-#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_STARTUIPP_OFFSET UNITYSDK_OFFSET(0x1AAB6E50)
-#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_UNREGISTERCRPDATA_OFFSET UNITYSDK_OFFSET(0x1AAB7540)
-#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_UPDATEALLCRPDATA_OFFSET UNITYSDK_OFFSET(0x1AAB75B0)
-#define RPG_CUSTOMRP_RENDERINGGLOBALVARS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AAB5910)
-#define RPG_CUSTOMRP_RENDERINGGLOBALVARS__CLEARCRPDATA_OFFSET UNITYSDK_OFFSET(0x1AAB6420)
-#define RPG_CUSTOMRP_RENDERINGGLOBALVARS__INIT_OFFSET UNITYSDK_OFFSET(0x1AAB58E0)
-#define RPG_CUSTOMRP_RENDERINGGLOBALVARS__ONLEAVESCENE_OFFSET UNITYSDK_OFFSET(0x1AAB5900)
-#define RPG_CUSTOMRP_RENDERINGGLOBALVARS__ONSCENELOADED_OFFSET UNITYSDK_OFFSET(0x1AAB78A0)
-#define RPG_CUSTOMRP_RENDERINGGLOBALVARS__ONSCENEUNLOADED_OFFSET UNITYSDK_OFFSET(0x1AAB78D0)
+#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_ADDACTOR_OFFSET UNITYSDK_OFFSET(0x1C6E7C10)
+#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_ADDAMBIENTVOLUMNE_OFFSET UNITYSDK_OFFSET(0x1C6E8020)
+#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_ADDFLAG_OFFSET UNITYSDK_OFFSET(0x1C6E7DF0)
+#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_ATTACHRENDERS_OFFSET UNITYSDK_OFFSET(0x1C6E7ED0)
+#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_CHECKSPRBATCHOPT_OFFSET UNITYSDK_OFFSET(0x1C6E6EB0)
+#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_CLEANUPSHADOWCACHE_OFFSET UNITYSDK_OFFSET(0x1C6E8300)
+#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_DECDITHER_OFFSET UNITYSDK_OFFSET(0x1C6E8200)
+#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_ENDUIPP_OFFSET UNITYSDK_OFFSET(0x1C6E8620)
+#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_FORCEUPDATESCENESHADOW_OFFSET UNITYSDK_OFFSET(0x1C6E8310)
+#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_GETCAMERAVERISON_OFFSET UNITYSDK_OFFSET(0x1C6E8270)
+#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_GET_SHADOWCENTERGO_OFFSET UNITYSDK_OFFSET(0x1C6E8670)
+#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_GET_USESRPBATCH_OFFSET UNITYSDK_OFFSET(0x1C6E8760)
+#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_GET_VALIDLOCALREFLECTION_OFFSET UNITYSDK_OFFSET(0x1C6E8770)
+#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_HIDEACTOR_OFFSET UNITYSDK_OFFSET(0x1C6E7DA0)
+#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_INCDITHER_OFFSET UNITYSDK_OFFSET(0x1C6E81D0)
+#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_INCREASECAMERAVERSION_OFFSET UNITYSDK_OFFSET(0x1C6E82A0)
+#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_ISFORCECSMPERFRAME_OFFSET UNITYSDK_OFFSET(0x1C6E8700)
+#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_ONCHANGEENV_OFFSET UNITYSDK_OFFSET(0x1C6E7B10)
+#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_ONENTERSCENE_OFFSET UNITYSDK_OFFSET(0x1C6E7650)
+#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_ONLEAVESCENE_OFFSET UNITYSDK_OFFSET(0x1C6E7720)
+#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_ONQUIT_OFFSET UNITYSDK_OFFSET(0x1C6E7BE0)
+#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_QUERYACTOR_OFFSET UNITYSDK_OFFSET(0x1C6E8010)
+#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_REFRESHACTORRENDER_OFFSET UNITYSDK_OFFSET(0x1C6E7E40)
+#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_REFRESHACTOR_OFFSET UNITYSDK_OFFSET(0x1C6E7E10)
+#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_REGISTERCRPDATA_OFFSET UNITYSDK_OFFSET(0x1C6E88C0)
+#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_REMOVEABOVEOFFSET_OFFSET UNITYSDK_OFFSET(0x1C6E7FB0)
+#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_REMOVEACTOR_OFFSET UNITYSDK_OFFSET(0x1C6E7D30)
+#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_REMOVEAMBIENTVOLUMNE_OFFSET UNITYSDK_OFFSET(0x1C6E8120)
+#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_REMOVEFLAG_OFFSET UNITYSDK_OFFSET(0x1C6E7E00)
+#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_SETABOVEOFFSET_OFFSET UNITYSDK_OFFSET(0x1C6E7CE0)
+#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_SETCACHEPOSITION_OFFSET UNITYSDK_OFFSET(0x1C6E7F60)
+#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_SETENABLEINDOORCHARACTERSHADOW_OFFSET UNITYSDK_OFFSET(0x1C6E83E0)
+#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_SETOBJLOCALLIGHT_OFFSET UNITYSDK_OFFSET(0x1C6E7FF0)
+#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_SETSHADOWPROBEBLEND_OFFSET UNITYSDK_OFFSET(0x1C6E82D0)
+#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_SET_SHADOWCENTERGO_OFFSET UNITYSDK_OFFSET(0x1C6E86A0)
+#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_STARTUIPP_OFFSET UNITYSDK_OFFSET(0x1C6E8410)
+#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_UNREGISTERCRPDATA_OFFSET UNITYSDK_OFFSET(0x1C6E8B00)
+#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_UPDATEALLCRPDATA_OFFSET UNITYSDK_OFFSET(0x1C6E8B70)
+#define RPG_CUSTOMRP_RENDERINGGLOBALVARS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C6E6ED0)
+#define RPG_CUSTOMRP_RENDERINGGLOBALVARS__CLEARCRPDATA_OFFSET UNITYSDK_OFFSET(0x1C6E79E0)
+#define RPG_CUSTOMRP_RENDERINGGLOBALVARS__INIT_OFFSET UNITYSDK_OFFSET(0x1C6E6EA0)
+#define RPG_CUSTOMRP_RENDERINGGLOBALVARS__ONLEAVESCENE_OFFSET UNITYSDK_OFFSET(0x1C6E6EC0)
+#define RPG_CUSTOMRP_RENDERINGGLOBALVARS__ONSCENELOADED_OFFSET UNITYSDK_OFFSET(0x1C6E8E60)
+#define RPG_CUSTOMRP_RENDERINGGLOBALVARS__ONSCENEUNLOADED_OFFSET UNITYSDK_OFFSET(0x1C6E8E90)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int RenderingGlobalVars_TypeDefinitionIndex = 36099;
+	inline static constexpr unsigned int RenderingGlobalVars_TypeDefinitionIndex = 36958;
 
 	class RenderingGlobalVars : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::PassTagID* StaticGet_ForwardEmission()
-		{
-			return (::UnityEngine::PassTagID*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x3B90);
-		}
-		static ::UnityEngine::PassTagID* StaticGet_LightingGBufferEyeHair()
-		{
-			return (::UnityEngine::PassTagID*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x3BA0);
-		}
-		static ::System::Collections::Generic::Dictionary_2<::UnityEngine::Behaviour*, ::UnityEngine::Rendering::IRPData*>** StaticGet__CRPDataCache()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::UnityEngine::Behaviour*, ::UnityEngine::Rendering::IRPData*>**)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x3BB0);
-		}
-		static ::RPG::CustomRP::AvatarEffectInfo** StaticGet_AvatarEffectsHalfRes()
-		{
-			return (::RPG::CustomRP::AvatarEffectInfo**)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x3BB8);
-		}
-		static ::UnityEngine::PassTagID* StaticGet__Scene_Lux_Emission_()
-		{
-			return (::UnityEngine::PassTagID*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x3BC0);
-		}
-		static ::PlaneReflectionProxy** StaticGet_PlaneReflectionProxy()
-		{
-			return (::PlaneReflectionProxy**)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x3BD0);
-		}
-		static ::UnityEngine::PassTagID* StaticGet_CustomRPTransparent2()
-		{
-			return (::UnityEngine::PassTagID*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x3BD8);
-		}
 		static ::UnityEngine::PassTagID* StaticGet_CustomForwardOpaque()
 		{
-			return (::UnityEngine::PassTagID*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x3BE8);
-		}
-		static ::Il2CppArray<::UnityEngine::Matrix4x4>** StaticGet_capsules()
-		{
-			return (::Il2CppArray<::UnityEngine::Matrix4x4>**)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x3BF8);
-		}
-		static ::RPG::CustomRP::AvatarEffectInfo** StaticGet_AvatarEffects()
-		{
-			return (::RPG::CustomRP::AvatarEffectInfo**)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x3C00);
-		}
-		static ::UnityEngine::GameObject** StaticGet__shadowCenterGo()
-		{
-			return (::UnityEngine::GameObject**)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x3C08);
-		}
-		static ::RPG::CustomRP::BlackboardMgr** StaticGet_blackboardMgr()
-		{
-			return (::RPG::CustomRP::BlackboardMgr**)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x3C10);
-		}
-		static ::UnityEngine::RenderTexture** StaticGet__UIPPRT()
-		{
-			return (::UnityEngine::RenderTexture**)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x3C18);
-		}
-		static ::RPG::CustomRP::IEngineEnvSystem** StaticGet_engienEnvSystem()
-		{
-			return (::RPG::CustomRP::IEngineEnvSystem**)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x3C20);
+			return (::UnityEngine::PassTagID*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x20E0);
 		}
 		static ::System::Collections::Generic::List_1<::RPG::CustomRP::IPlaneReflection*>** StaticGet_localReflection()
 		{
-			return (::System::Collections::Generic::List_1<::RPG::CustomRP::IPlaneReflection*>**)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x3C28);
-		}
-		static ::UnityEngine::PassTagID* StaticGet_CustomRPTransparent()
-		{
-			return (::UnityEngine::PassTagID*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x3C30);
+			return (::System::Collections::Generic::List_1<::RPG::CustomRP::IPlaneReflection*>**)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x20F0);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::UnityEngine::Behaviour*, ::UnityEngine::Rendering::IRPData*>** StaticGet__CRPDisableDataCache()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::UnityEngine::Behaviour*, ::UnityEngine::Rendering::IRPData*>**)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x3C40);
+			return (::System::Collections::Generic::Dictionary_2<::UnityEngine::Behaviour*, ::UnityEngine::Rendering::IRPData*>**)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x20F8);
 		}
-		static ::System::UInt32* StaticGet_AdditionalReflectionCasterRLM()
+		static ::RPG::CustomRP::IEngineEnvSystem** StaticGet_engienEnvSystem()
 		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x27F0);
+			return (::RPG::CustomRP::IEngineEnvSystem**)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x2100);
 		}
-		static ::System::Boolean* StaticGet_RTSupported_ARGBFloat()
+		static ::UnityEngine::PassTagID* StaticGet__Scene_Lux_Emission_()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x27F4);
+			return (::UnityEngine::PassTagID*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x2108);
 		}
-		static ::System::Boolean* StaticGet_EnableIndoorCharacterShadow()
+		static ::UnityEngine::PassTagID* StaticGet_LightingGBufferEyeHair()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x27F5);
+			return (::UnityEngine::PassTagID*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x2118);
 		}
-		static ::System::Boolean* StaticGet_ForceNoCSMBlend()
+		static ::System::Collections::Generic::Dictionary_2<::UnityEngine::Behaviour*, ::UnityEngine::Rendering::IRPData*>** StaticGet__CRPDataCache()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x27F6);
+			return (::System::Collections::Generic::Dictionary_2<::UnityEngine::Behaviour*, ::UnityEngine::Rendering::IRPData*>**)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x2128);
 		}
-		static ::System::Boolean* StaticGet_DisablePOSMOpt()
+		static ::UnityEngine::PassTagID* StaticGet_ForwardEmission()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x27F7);
+			return (::UnityEngine::PassTagID*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x2130);
 		}
-		static ::System::UInt32* StaticGet_SSRReflactorRenderingLayerMask()
+		static ::UnityEngine::RenderTexture** StaticGet__UIPPRT()
 		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x27F8);
+			return (::UnityEngine::RenderTexture**)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x2140);
 		}
-		static ::System::Boolean* StaticGet_DebugForceCSMPerFrame()
+		static ::RPG::CustomRP::AvatarEffectInfo** StaticGet_AvatarEffectsHalfRes()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x27FC);
+			return (::RPG::CustomRP::AvatarEffectInfo**)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x2148);
 		}
-		static ::System::Boolean* StaticGet_RTSupported_R10G10B10A2()
+		static ::Il2CppArray<::UnityEngine::Matrix4x4>** StaticGet_capsules()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x27FD);
+			return (::Il2CppArray<::UnityEngine::Matrix4x4>**)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x2150);
 		}
-		static ::System::Boolean* StaticGet_OnePassShadowOnlyResolve()
+		static ::RPG::CustomRP::AvatarEffectInfo** StaticGet_AvatarEffects()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x27FE);
+			return (::RPG::CustomRP::AvatarEffectInfo**)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x2158);
 		}
-		static ::System::Boolean* StaticGet_DrawRefectorPass()
+		static ::UnityEngine::PassTagID* StaticGet_CustomRPTransparent()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x27FF);
+			return (::UnityEngine::PassTagID*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x2160);
 		}
-		static ::System::UInt32* StaticGet_ReflectorRenderingLayerMask()
+		static ::UnityEngine::GameObject** StaticGet__shadowCenterGo()
 		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x2800);
+			return (::UnityEngine::GameObject**)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x2170);
 		}
-		static ::System::Single* StaticGet_PerObjectShadowHighQulityRange()
+		static ::PlaneReflectionProxy** StaticGet_PlaneReflectionProxy()
 		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x2804);
+			return (::PlaneReflectionProxy**)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x2178);
 		}
-		static ::System::Int32* StaticGet__LastLightLevel()
+		static ::RPG::CustomRP::BlackboardMgr** StaticGet_blackboardMgr()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x2808);
+			return (::RPG::CustomRP::BlackboardMgr**)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x2180);
 		}
-		static ::System::UInt32* StaticGet_TransparentPreDapthLayerMask()
+		static ::UnityEngine::PassTagID* StaticGet_CustomRPTransparent2()
 		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x280C);
-		}
-		static ::RPG::CustomRP::EProbeResOverride* StaticGet_ProbeResOverride()
-		{
-			return (::RPG::CustomRP::EProbeResOverride*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x2810);
-		}
-		static ::System::Boolean* StaticGet_RTSupported_ARGBHalf()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x2814);
-		}
-		static ::System::Boolean* StaticGet_DisableMainCamera()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x2815);
-		}
-		static ::System::Boolean* StaticGet_DisableLocalLightLerp()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x2816);
-		}
-		static ::System::Boolean* StaticGet_IsUnLimitShadowCount()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x2817);
-		}
-		static ::System::Single* StaticGet_PlanarReflectionRTScale()
-		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x2818);
-		}
-		static ::System::UInt32* StaticGet_DynamicShadowRenderingLayerMask()
-		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x281C);
-		}
-		static ::System::Int32* StaticGet_CharacterDefaultStencil()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x2820);
-		}
-		static ::UnityEngine::Color* StaticGet_IndoorSceneLightColor()
-		{
-			return (::UnityEngine::Color*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x2824);
-		}
-		static ::System::UInt32* StaticGet_AddtionalDepthRenderingLayerMask()
-		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x2834);
-		}
-		static ::System::Int32* StaticGet_StoryCharacterCount()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x2838);
-		}
-		static ::System::Single* StaticGet_GaussBlurScale()
-		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x283C);
-		}
-		static ::System::Int32* StaticGet_CameraChangedVersion()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x2840);
-		}
-		static ::System::UInt32* StaticGet_AvatarEffectPropExRenderingLayerMask()
-		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x2844);
-		}
-		static ::System::Int32* StaticGet_AdvCharaStencilFace()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x2848);
-		}
-		static ::System::Boolean* StaticGet_DrawOutline()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x284C);
-		}
-		static ::System::Boolean* StaticGet_EnableViewportMask()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x284D);
-		}
-		static ::System::Boolean* StaticGet_EnableSkillRadial()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x284E);
-		}
-		static ::System::Boolean* StaticGet_DebugDisableVSM()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x284F);
-		}
-		static ::System::UInt32* StaticGet_ExclusiveShadowCasterRenderingLayerMask()
-		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x2850);
-		}
-		static ::System::Int32* StaticGet_DisableUpdate()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x2854);
-		}
-		static ::RPG::CustomRP::EPlaneReflectionMode* StaticGet_PlaneReflectionMode()
-		{
-			return (::RPG::CustomRP::EPlaneReflectionMode*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x2858);
-		}
-		static ::System::Boolean* StaticGet_FlushEnvCmdNoMainCamera()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x285C);
-		}
-		static ::System::Boolean* StaticGet_needForceUpdateEnv()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x285D);
-		}
-		static ::System::Boolean* StaticGet_DeferProbe()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x285E);
-		}
-		static ::System::Boolean* StaticGet_EnablePostProcessing()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x285F);
-		}
-		static ::System::Boolean* StaticGet_DebugNewResolutionConfig()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x2860);
-		}
-		static ::System::Boolean* StaticGet_ForwardUpdateShadow()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x2861);
-		}
-		static ::System::Boolean* StaticGet_LockShadowCenterGo()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x2862);
-		}
-		static ::System::Boolean* StaticGet_Enable_Update_Bounds()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x2863);
-		}
-		static ::System::Boolean* StaticGet_AlwaysUpdateReflection()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x2864);
-		}
-		static ::System::Boolean* StaticGet_RTSupported_R10G11B11UF()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x2865);
-		}
-		static ::System::Boolean* StaticGet_EnableDetachable()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x2866);
-		}
-		static ::System::UInt32* StaticGet_DisableCullingRenderingLayerMask()
-		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x2868);
-		}
-		static ::System::Int32* StaticGet_Bounds_Upd_Frequecy()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x286C);
-		}
-		static ::System::Int32* StaticGet_capsuleCount()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x2870);
-		}
-		static ::System::UInt32* StaticGet_ReflectorCasterRenderingLayerMask()
-		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x2874);
+			return (::UnityEngine::PassTagID*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x2188);
 		}
 		static ::System::Boolean* StaticGet_MaskCSMBlend()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x2878);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0xB60);
 		}
-		static ::System::Boolean* StaticGet_DisableLowQualityEyeHairStencil()
+		static ::System::Boolean* StaticGet_DisableLocalLightLerp()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x2879);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0xB61);
 		}
-		static ::System::Boolean* StaticGet_capsuleAOUseHizMip()
+		static ::System::Boolean* StaticGet_DrawRefectorPass()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x287A);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0xB62);
 		}
-		static ::System::Boolean* StaticGet_WaterMarkEnable()
+		static ::System::Boolean* StaticGet_OnePassShadowOnlyResolve()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x287B);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0xB63);
 		}
-		static ::System::UInt32* StaticGet_PreDepthAlphaTestLayerMask()
+		static ::System::UInt32* StaticGet_AddtionalDepthRenderingLayerMask()
 		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x287C);
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0xB64);
+		}
+		static ::System::Int32* StaticGet_Bounds_Upd_Frequecy()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0xB68);
+		}
+		static ::System::Boolean* StaticGet_DebugNewResolutionConfig()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0xB6C);
 		}
 		static ::System::Boolean* StaticGet_IsStoryMode()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x2880);
-		}
-		static ::System::Boolean* StaticGet_CSMBlend()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x2881);
-		}
-		static ::System::Boolean* StaticGet_EnableSSR()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x2882);
-		}
-		static ::System::Boolean* StaticGet_RenderAddLight()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x2883);
-		}
-		static ::System::Int32* StaticGet_StencilMonsterStart()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x2884);
-		}
-		static ::System::UInt32* StaticGet_ShadowReceiverRenderingLayerMask()
-		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x2888);
-		}
-		static ::System::UInt32* StaticGet_DefaultRenderingLayerMask()
-		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x288C);
-		}
-		static ::System::Int32* StaticGet_DisableLocalMainLight()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x2890);
-		}
-		static ::System::Int32* StaticGet_CharacterDitherCounter()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x2894);
-		}
-		static ::UnityEngine::Vector4* StaticGet_capsuleColor()
-		{
-			return (::UnityEngine::Vector4*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x2898);
-		}
-		static ::System::Boolean* StaticGet_DrawOpaqueObjects()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x28A8);
-		}
-		static ::System::Boolean* StaticGet_EnableShadowProbeBlend()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x28A9);
-		}
-		static ::System::Boolean* StaticGet_DrawTransparentObjects()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x28AA);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0xB6D);
 		}
 		static ::System::Boolean* StaticGet_EnableSkipDraw()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x28AB);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0xB6E);
+		}
+		static ::System::Boolean* StaticGet_EnableSkillRadial()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0xB6F);
+		}
+		static ::System::Int32* StaticGet_DisableUpdate()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0xB70);
+		}
+		static ::System::Int32* StaticGet__LastLightLevel()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0xB74);
 		}
 		static ::System::Single* StaticGet_ignoreMainLightLimit()
 		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x28AC);
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0xB78);
 		}
-		static ::RPG::CustomRP::BlurParam* StaticGet_PlaneBlurParam()
+		static ::System::UInt32* StaticGet_AdditionalReflectionCasterRLM()
 		{
-			return (::RPG::CustomRP::BlurParam*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x28B0);
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0xB7C);
 		}
-		static ::System::Int32* StaticGet_StencilCharacterStart()
+		static ::System::Boolean* StaticGet_DebugDisableVSM()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x28B8);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0xB80);
 		}
-		static ::System::UInt32* StaticGet_ShadowCasterRenderingLayerMask()
+		static ::System::Boolean* StaticGet_EnableShadowProbeBlend()
 		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x28BC);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0xB81);
 		}
-		static ::System::UInt32* StaticGet_LocalShadowCasterRenderingLayerMask()
+		static ::System::Boolean* StaticGet_DrawOutline()
 		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x28C0);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0xB82);
+		}
+		static ::System::Boolean* StaticGet_IsUnLimitShadowCount()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0xB83);
+		}
+		static ::System::UInt32* StaticGet_TransparentPreDapthLayerMask()
+		{
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0xB84);
+		}
+		static ::System::Boolean* StaticGet_DisableLowQualityEyeHairStencil()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0xB88);
+		}
+		static ::System::Boolean* StaticGet_DebugForceCSMPerFrame()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0xB89);
+		}
+		static ::System::Boolean* StaticGet_RTSupported_R10G11B11UF()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0xB8A);
+		}
+		static ::System::UInt32* StaticGet_ReflectorCasterRenderingLayerMask()
+		{
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0xB8C);
+		}
+		static ::System::Single* StaticGet_PerObjectShadowHighQulityRange()
+		{
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0xB90);
+		}
+		static ::System::Boolean* StaticGet_DrawTransparentObjects()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0xB94);
+		}
+		static ::System::Boolean* StaticGet_CSMBlend()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0xB95);
+		}
+		static ::System::Boolean* StaticGet_RTSupported_ARGBHalf()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0xB96);
+		}
+		static ::System::Boolean* StaticGet_AlwaysUpdateReflection()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0xB97);
+		}
+		static ::UnityEngine::Vector4* StaticGet_capsuleColor()
+		{
+			return (::UnityEngine::Vector4*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0xB98);
+		}
+		static ::System::Boolean* StaticGet_EnableDetachable()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0xBA8);
+		}
+		static ::System::Boolean* StaticGet_DeferProbe()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0xBA9);
+		}
+		static ::System::Boolean* StaticGet_EnablePostProcessing()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0xBAA);
+		}
+		static ::System::Boolean* StaticGet_EnableViewportMask()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0xBAB);
+		}
+		static ::System::Int32* StaticGet_AdvCharaStencilFace()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0xBAC);
+		}
+		static ::System::UInt32* StaticGet_SSRReflactorRenderingLayerMask()
+		{
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0xBB0);
+		}
+		static ::System::UInt32* StaticGet_DefaultRenderingLayerMask()
+		{
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0xBB4);
+		}
+		static ::System::UInt32* StaticGet_ShadowReceiverRenderingLayerMask()
+		{
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0xBB8);
+		}
+		static ::System::Int32* StaticGet_CharacterDefaultStencil()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0xBBC);
+		}
+		static ::RPG::CustomRP::EProbeResOverride* StaticGet_ProbeResOverride()
+		{
+			return (::RPG::CustomRP::EProbeResOverride*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0xBC0);
+		}
+		static ::System::Int32* StaticGet_StoryCharacterCount()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0xBC4);
+		}
+		static ::UnityEngine::Color* StaticGet_IndoorSceneLightColor()
+		{
+			return (::UnityEngine::Color*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0xBC8);
+		}
+		static ::System::UInt32* StaticGet_ReflectorRenderingLayerMask()
+		{
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0xBD8);
+		}
+		static ::System::UInt32* StaticGet_DisableCullingRenderingLayerMask()
+		{
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0xBDC);
+		}
+		static ::System::Single* StaticGet_PlanarReflectionRTScale()
+		{
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0xBE0);
+		}
+		static ::System::UInt32* StaticGet_PreDepthAlphaTestLayerMask()
+		{
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0xBE4);
+		}
+		static ::System::Boolean* StaticGet_DrawOpaqueObjects()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0xBE8);
+		}
+		static ::System::Boolean* StaticGet_capsuleAOUseHizMip()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0xBE9);
+		}
+		static ::System::Boolean* StaticGet_FlushEnvCmdNoMainCamera()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0xBEA);
+		}
+		static ::System::Boolean* StaticGet_ForceNoCSMBlend()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0xBEB);
+		}
+		static ::System::Int32* StaticGet_StencilMonsterStart()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0xBEC);
+		}
+		static ::System::Int32* StaticGet_DisableLocalMainLight()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0xBF0);
 		}
 		static ::System::UInt32* StaticGet_MotionVectorsRenderingLayerMask()
 		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0x28C4);
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0xBF4);
+		}
+		static ::System::Boolean* StaticGet_RTSupported_R10G10B10A2()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0xBF8);
+		}
+		static ::System::Boolean* StaticGet_RenderAddLight()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0xBF9);
+		}
+		static ::System::Boolean* StaticGet_needForceUpdateEnv()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0xBFA);
+		}
+		static ::System::Boolean* StaticGet_EnableSSR()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0xBFB);
+		}
+		static ::System::Single* StaticGet_GaussBlurScale()
+		{
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0xBFC);
+		}
+		static ::System::UInt32* StaticGet_ExclusiveShadowCasterRenderingLayerMask()
+		{
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0xC00);
+		}
+		static ::System::UInt32* StaticGet_ShadowCasterRenderingLayerMask()
+		{
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0xC04);
+		}
+		static ::RPG::CustomRP::EPlaneReflectionMode* StaticGet_PlaneReflectionMode()
+		{
+			return (::RPG::CustomRP::EPlaneReflectionMode*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0xC08);
+		}
+		static ::System::UInt32* StaticGet_DynamicShadowRenderingLayerMask()
+		{
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0xC0C);
+		}
+		static ::System::Int32* StaticGet_StencilCharacterStart()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0xC10);
+		}
+		static ::System::Boolean* StaticGet_RTSupported_ARGBFloat()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0xC14);
+		}
+		static ::System::Boolean* StaticGet_EnableIndoorCharacterShadow()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0xC15);
+		}
+		static ::System::Boolean* StaticGet_DisableMainCamera()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0xC16);
+		}
+		static ::System::Boolean* StaticGet_ForwardUpdateShadow()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0xC17);
+		}
+		static ::System::Int32* StaticGet_CharacterDitherCounter()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0xC18);
+		}
+		static ::System::Int32* StaticGet_capsuleCount()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0xC1C);
+		}
+		static ::System::UInt32* StaticGet_AvatarEffectPropExRenderingLayerMask()
+		{
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0xC20);
+		}
+		static ::System::Boolean* StaticGet_DisablePOSMOpt()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0xC24);
+		}
+		static ::System::Boolean* StaticGet_WaterMarkEnable()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0xC25);
+		}
+		static ::System::Boolean* StaticGet_Enable_Update_Bounds()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0xC26);
+		}
+		static ::System::Boolean* StaticGet_LockShadowCenterGo()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0xC27);
+		}
+		static ::System::Int32* StaticGet_CameraChangedVersion()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0xC28);
+		}
+		static ::System::UInt32* StaticGet_LocalShadowCasterRenderingLayerMask()
+		{
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0xC2C);
+		}
+		static ::RPG::CustomRP::BlurParam* StaticGet_PlaneBlurParam()
+		{
+			return (::RPG::CustomRP::BlurParam*)Il2CppClass::FromTypeDefinitionIndex(RenderingGlobalVars_TypeDefinitionIndex)->GetStaticField(0xC30);
 		}
 		// static const ::System::Single PROBE_OFFSET_Y; // 0x0
 		// static const ::System::Single BattleShadowHightQulityRange; // 0x0

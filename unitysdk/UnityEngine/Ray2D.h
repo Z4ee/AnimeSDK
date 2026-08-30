@@ -5,20 +5,26 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_RAY2D_GET_DIRECTION_OFFSET UNITYSDK_OFFSET(0x6010)
-#define UNITYENGINE_RAY2D_GET_ORIGIN_OFFSET UNITYSDK_OFFSET(0x5AA0)
-#define UNITYENGINE_RAY2D_SET_DIRECTION_OFFSET UNITYSDK_OFFSET(0x3A2A720)
-#define UNITYENGINE_RAY2D_SET_ORIGIN_OFFSET UNITYSDK_OFFSET(0xC630)
-#define UNITYENGINE_RAY2D_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3A2A7B0)
+#define UNITYENGINE_RAY2D_GET_DIRECTION_OFFSET UNITYSDK_OFFSET(0x6020)
+#define UNITYENGINE_RAY2D_GET_ORIGIN_OFFSET UNITYSDK_OFFSET(0x5AB0)
+#define UNITYENGINE_RAY2D_SET_DIRECTION_OFFSET UNITYSDK_OFFSET(0x3BBC960)
+#define UNITYENGINE_RAY2D_SET_ORIGIN_OFFSET UNITYSDK_OFFSET(0xC610)
+#define UNITYENGINE_RAY2D_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3BBC9F0)
+#define UNITYENGINE_RAY2D__CTOR_OFFSET UNITYSDK_OFFSET(0x3BBC8D0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int Ray2D_TypeDefinitionIndex = 4071;
+	inline static constexpr unsigned int Ray2D_TypeDefinitionIndex = 4079;
 
 	struct alignas(4) Ray2D
 	{
 		::UnityEngine::Vector2 m_Origin; // 0x10
 		::UnityEngine::Vector2 m_Direction; // 0x18
+
+		::System::Void _ctor(::UnityEngine::Vector2 a1, ::UnityEngine::Vector2 a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + UNITYENGINE_RAY2D__CTOR_OFFSET))(this, a1, a2);
+		}
 
 		::UnityEngine::Vector2 get_origin()
 		{

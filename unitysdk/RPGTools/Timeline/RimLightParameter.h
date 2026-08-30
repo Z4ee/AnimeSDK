@@ -6,7 +6,7 @@
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int RimLightParameter_TypeDefinitionIndex = 46649;
+	inline static constexpr unsigned int RimLightParameter_TypeDefinitionIndex = 48894;
 
 	struct alignas(4) RimLightParameter
 	{

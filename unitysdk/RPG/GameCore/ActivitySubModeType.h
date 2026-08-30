@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivitySubModeType_TypeDefinitionIndex = 53496;
+	inline static constexpr unsigned int ActivitySubModeType_TypeDefinitionIndex = 56210;
 
 	enum class ActivitySubModeType : ::System::Int32
 	{

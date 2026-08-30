@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_SIMPLETALKINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B8D9390)
-#define RPG_GAMECORE_SIMPLETALKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8D9580)
+#define RPG_GAMECORE_SIMPLETALKINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D535100)
+#define RPG_GAMECORE_SIMPLETALKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5352F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SimpleTalkInfo_TypeDefinitionIndex = 23527;
+	inline static constexpr unsigned int SimpleTalkInfo_TypeDefinitionIndex = 24112;
 
 	class SimpleTalkInfo : public ::RPG::GameCore::JsonConfig
 	{

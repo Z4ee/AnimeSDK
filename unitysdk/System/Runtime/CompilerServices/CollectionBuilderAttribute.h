@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace System { class Type; }
 
-#define SYSTEM_RUNTIME_COMPILERSERVICES_COLLECTIONBUILDERATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CA14D00)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_COLLECTIONBUILDERATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E6BF620)
 
 namespace System::Runtime::CompilerServices
 {
-	inline static constexpr unsigned int CollectionBuilderAttribute_TypeDefinitionIndex = 6964;
+	inline static constexpr unsigned int CollectionBuilderAttribute_TypeDefinitionIndex = 6576;
 
 	class CollectionBuilderAttribute : public ::System::Attribute
 	{

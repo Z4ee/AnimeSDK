@@ -2,28 +2,28 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_8F6B7DD531607BB1_METHOD_1_1DA89DF9585853CF_OFFSET UNITYSDK_OFFSET(0x1A31DF30)
-#define CLASS_1_8F6B7DD531607BB1_METHOD_1_CE34EA208837238D_1_OFFSET UNITYSDK_OFFSET(0x1A31DED0)
-#define CLASS_1_8F6B7DD531607BB1_METHOD_1_CE34EA208837238D_OFFSET UNITYSDK_OFFSET(0x1A31DD30)
-#define CLASS_1_8F6B7DD531607BB1_METHOD_1_F188D2CB5CA2E712_OFFSET UNITYSDK_OFFSET(0x1A31E0E0)
-#define CLASS_1_8F6B7DD531607BB1__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A31E2A0)
+#define CLASS_1_8F6B7DD531607BB1_METHOD_1_1DA89DF9585853CF_OFFSET UNITYSDK_OFFSET(0x1BF2B6B0)
+#define CLASS_1_8F6B7DD531607BB1_METHOD_1_CE34EA208837238D_1_OFFSET UNITYSDK_OFFSET(0x1BF2B650)
+#define CLASS_1_8F6B7DD531607BB1_METHOD_1_CE34EA208837238D_OFFSET UNITYSDK_OFFSET(0x1BF2B4B0)
+#define CLASS_1_8F6B7DD531607BB1_METHOD_1_F188D2CB5CA2E712_OFFSET UNITYSDK_OFFSET(0x1BF2B860)
+#define CLASS_1_8F6B7DD531607BB1__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BF2BA20)
 
-inline static constexpr unsigned int Class_1_8F6B7DD531607BB1_TypeDefinitionIndex = 39221;
+inline static constexpr unsigned int Class_1_8F6B7DD531607BB1_TypeDefinitionIndex = 40093;
 
 class Class_1_8F6B7DD531607BB1 : public ::System::Object
 {
 public:
-	static ::System::Boolean* StaticGet_Field_1_0()
+	static ::System::Boolean* StaticGet_BOJFKDPCKGI()
 	{
-		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_8F6B7DD531607BB1_TypeDefinitionIndex)->GetStaticField(0x6E80);
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_8F6B7DD531607BB1_TypeDefinitionIndex)->GetStaticField(0x7930);
 	}
-	static ::System::Boolean* StaticGet_Field_1_1()
+	static ::System::Boolean* StaticGet_KOOHOOAPILD()
 	{
-		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_8F6B7DD531607BB1_TypeDefinitionIndex)->GetStaticField(0x6E81);
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_8F6B7DD531607BB1_TypeDefinitionIndex)->GetStaticField(0x7931);
 	}
-	static ::System::Boolean* StaticGet_Field_1_2()
+	static ::System::Boolean* StaticGet_EOANOCIBEAM()
 	{
-		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_8F6B7DD531607BB1_TypeDefinitionIndex)->GetStaticField(0x6E82);
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_8F6B7DD531607BB1_TypeDefinitionIndex)->GetStaticField(0x7932);
 	}
 
 	static ::System::Void _cctor()

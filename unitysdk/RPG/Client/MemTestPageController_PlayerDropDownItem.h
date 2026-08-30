@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_MEMTESTPAGECONTROLLER_PLAYERDROPDOWNITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xCB9D440)
+#define RPG_CLIENT_MEMTESTPAGECONTROLLER_PLAYERDROPDOWNITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xD690FC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MemTestPageController_PlayerDropDownItem_TypeDefinitionIndex = 69503;
+	inline static constexpr unsigned int MemTestPageController_PlayerDropDownItem_TypeDefinitionIndex = 72731;
 
 	class MemTestPageController_PlayerDropDownItem : public ::System::Object
 	{

@@ -8,18 +8,18 @@ class Class_1_D294488719556168;
 class Class_2_7EA45D2647F35CDD;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_4C203A1FE99C454C__CTOR_OFFSET UNITYSDK_OFFSET(0x1534A910)
+#define CLASS_1_4C203A1FE99C454C__CTOR_OFFSET UNITYSDK_OFFSET(0x162C2290)
 
-inline static constexpr unsigned int Class_1_4C203A1FE99C454C_TypeDefinitionIndex = 75582;
+inline static constexpr unsigned int Class_1_4C203A1FE99C454C_TypeDefinitionIndex = 79215;
 
 class Class_1_4C203A1FE99C454C : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::Class_1_D294488719556168*>* Field_1_0; // 0x10
-	::Class_2_7EA45D2647F35CDD* Field_1_1; // 0x18
-	::RPG::Client::FateRin::BattleAddCardReason Field_1_2; // 0x20
-	::RPG::GameCore::FateRinCardPileType Field_1_3; // 0x24
-	::RPG::GameCore::FateRinCardPileType Field_1_4; // 0x26
+	::System::Collections::Generic::List_1<::Class_1_D294488719556168*>* PIBKHIILLLF; // 0x10
+	::Class_2_7EA45D2647F35CDD* ELIMDKMMGBO; // 0x18
+	::RPG::Client::FateRin::BattleAddCardReason KDHPKOFLNFM; // 0x20
+	::RPG::GameCore::FateRinCardPileType CHPHAMGMKBO; // 0x24
+	::RPG::GameCore::FateRinCardPileType CCFDOHBOHMG; // 0x26
 
 	::System::Void _ctor(::Class_2_7EA45D2647F35CDD* a1, ::System::Collections::Generic::List_1<::Class_1_D294488719556168*>* a2, ::RPG::GameCore::FateRinCardPileType a3, ::RPG::GameCore::FateRinCardPileType a4, ::RPG::Client::FateRin::BattleAddCardReason a5)
 	{

@@ -8,22 +8,22 @@
 class Class_0_16E4307DCC419505_37;
 namespace UnityEngine { class Transform; }
 
-#define CLASS_2_70E038C54BE7E016_METHOD_2_3BCA2FBA8A14D9B5_OFFSET UNITYSDK_OFFSET(0x105DA850)
-#define CLASS_2_70E038C54BE7E016_METHOD_2_A0374C870A27A45B_OFFSET UNITYSDK_OFFSET(0x105DA680)
-#define CLASS_2_70E038C54BE7E016_METHOD_2_C50B93169B85DAEA_OFFSET UNITYSDK_OFFSET(0x105DA800)
-#define CLASS_2_70E038C54BE7E016__CTOR_OFFSET UNITYSDK_OFFSET(0x105DAB40)
+#define CLASS_2_70E038C54BE7E016_METHOD_2_3BCA2FBA8A14D9B5_OFFSET UNITYSDK_OFFSET(0x114D83F0)
+#define CLASS_2_70E038C54BE7E016_METHOD_2_A0374C870A27A45B_OFFSET UNITYSDK_OFFSET(0x114D8220)
+#define CLASS_2_70E038C54BE7E016_METHOD_2_C50B93169B85DAEA_OFFSET UNITYSDK_OFFSET(0x114D83A0)
+#define CLASS_2_70E038C54BE7E016__CTOR_OFFSET UNITYSDK_OFFSET(0x114D86E0)
 
-inline static constexpr unsigned int Class_2_70E038C54BE7E016_TypeDefinitionIndex = 72632;
+inline static constexpr unsigned int Class_2_70E038C54BE7E016_TypeDefinitionIndex = 76068;
 
 class Class_2_70E038C54BE7E016 : public ::Class_1_D22BBD5AAECFE505
 {
 public:
-	::UnityEngine::Transform* Field_2_0; // 0x18
-	::System::Single Field_2_1; // 0x20
-	::RPG::Client::LittleGame::TransformInterpolateMode Field_2_2; // 0x24
-	::UnityEngine::Vector3 Field_2_3; // 0x28
-	::UnityEngine::Quaternion Field_2_4; // 0x34
-	::UnityEngine::Vector3 Field_2_5; // 0x44
+	::UnityEngine::Transform* PDJGEDNLBKJ; // 0x18
+	::UnityEngine::Vector3 PIDMDPCMHKE; // 0x20
+	::RPG::Client::LittleGame::TransformInterpolateMode PHOKGMINOOB; // 0x2C
+	::UnityEngine::Quaternion NMBCMMJMIPA; // 0x30
+	::UnityEngine::Vector3 PGJJCGGBCKK; // 0x40
+	::System::Single GGBKHGGBIBA; // 0x4C
 
 	::System::Void _ctor()
 	{

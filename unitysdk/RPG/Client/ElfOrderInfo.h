@@ -2,21 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_ELFORDERINFO_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC3858A0)
-#define RPG_CLIENT_ELFORDERINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xC3858E0)
+#define RPG_CLIENT_ELFORDERINFO_DISPOSE_OFFSET UNITYSDK_OFFSET(0xCE56C30)
+#define RPG_CLIENT_ELFORDERINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xCE56C70)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ElfOrderInfo_TypeDefinitionIndex = 60952;
+	inline static constexpr unsigned int ElfOrderInfo_TypeDefinitionIndex = 63805;
 
 	class ElfOrderInfo : public ::System::Object
 	{
 	public:
-		::System::UInt32 RecipeLevel; // 0x10
-		::System::Int32 ChefRuntimeID; // 0x14
-		::System::Single CookedTime; // 0x18
-		::System::Single CookTime; // 0x1C
-		::System::UInt32 RecipeID; // 0x20
+		::System::UInt32 RecipeID; // 0x10
+		::System::Single CookTime; // 0x14
+		::System::UInt32 RecipeLevel; // 0x18
+		::System::Single CookedTime; // 0x1C
+		::System::Int32 ChefRuntimeID; // 0x20
 
 		::System::Void _ctor()
 		{

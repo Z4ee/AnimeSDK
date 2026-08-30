@@ -5,22 +5,22 @@
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define CLASS_2_E24B019EE8F08EE8___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xB5EFBF0)
-#define CLASS_2_E24B019EE8F08EE8___C__CTOR_OFFSET UNITYSDK_OFFSET(0xB5EFC20)
-#define CLASS_2_E24B019EE8F08EE8___C___CREATEMONSTERHUDBUFFPANEL_B__3_0_OFFSET UNITYSDK_OFFSET(0xB5EFC30)
+#define CLASS_2_E24B019EE8F08EE8___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xBFEE2C0)
+#define CLASS_2_E24B019EE8F08EE8___C__CTOR_OFFSET UNITYSDK_OFFSET(0xBFEE2F0)
+#define CLASS_2_E24B019EE8F08EE8___C___CREATEMONSTERHUDBUFFPANEL_B__3_0_OFFSET UNITYSDK_OFFSET(0xBFEE300)
 
-inline static constexpr unsigned int Class_2_E24B019EE8F08EE8___c_TypeDefinitionIndex = 68540;
+inline static constexpr unsigned int Class_2_E24B019EE8F08EE8___c_TypeDefinitionIndex = 71737;
 
 class Class_2_E24B019EE8F08EE8___c : public ::System::Object
 {
 public:
-	static ::Class_2_E24B019EE8F08EE8___c** StaticGet___9()
-	{
-		return (::Class_2_E24B019EE8F08EE8___c**)Il2CppClass::FromTypeDefinitionIndex(Class_2_E24B019EE8F08EE8___c_TypeDefinitionIndex)->GetStaticField(0x6BDF0);
-	}
 	static ::System::Func_2<::RPG::GameCore::TurnBasedModifierInstance*, ::System::Boolean>** StaticGet___9__3_0()
 	{
-		return (::System::Func_2<::RPG::GameCore::TurnBasedModifierInstance*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_E24B019EE8F08EE8___c_TypeDefinitionIndex)->GetStaticField(0x6BDF8);
+		return (::System::Func_2<::RPG::GameCore::TurnBasedModifierInstance*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_E24B019EE8F08EE8___c_TypeDefinitionIndex)->GetStaticField(0x6A0F0);
+	}
+	static ::Class_2_E24B019EE8F08EE8___c** StaticGet___9()
+	{
+		return (::Class_2_E24B019EE8F08EE8___c**)Il2CppClass::FromTypeDefinitionIndex(Class_2_E24B019EE8F08EE8___c_TypeDefinitionIndex)->GetStaticField(0x6A0F8);
 	}
 
 	static ::System::Void _cctor()

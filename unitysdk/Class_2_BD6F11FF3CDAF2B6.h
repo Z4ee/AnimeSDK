@@ -8,18 +8,18 @@ namespace Entitas { class IEntity; }
 namespace Entitas::VisualDebugging::Unity { class EntityBehaviour; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_2_BD6F11FF3CDAF2B6_DEACTIVATE_OFFSET UNITYSDK_OFFSET(0xB4CB0C0)
-#define CLASS_2_BD6F11FF3CDAF2B6_METHOD_2_AEFF7F3E842C9D98_OFFSET UNITYSDK_OFFSET(0xB4CB4A0)
-#define CLASS_2_BD6F11FF3CDAF2B6_ONENTITYCREATED_OFFSET UNITYSDK_OFFSET(0xB4CB260)
-#define CLASS_2_BD6F11FF3CDAF2B6__CTOR_OFFSET UNITYSDK_OFFSET(0xB4CAF40)
+#define CLASS_2_BD6F11FF3CDAF2B6_DEACTIVATE_OFFSET UNITYSDK_OFFSET(0xBEBA6F0)
+#define CLASS_2_BD6F11FF3CDAF2B6_METHOD_2_AEFF7F3E842C9D98_OFFSET UNITYSDK_OFFSET(0xBEBAAD0)
+#define CLASS_2_BD6F11FF3CDAF2B6_ONENTITYCREATED_OFFSET UNITYSDK_OFFSET(0xBEBA890)
+#define CLASS_2_BD6F11FF3CDAF2B6__CTOR_OFFSET UNITYSDK_OFFSET(0xBEBA570)
 
-inline static constexpr unsigned int Class_2_BD6F11FF3CDAF2B6_TypeDefinitionIndex = 73298;
+inline static constexpr unsigned int Class_2_BD6F11FF3CDAF2B6_TypeDefinitionIndex = 76777;
 
 class Class_2_BD6F11FF3CDAF2B6 : public ::Entitas::VisualDebugging::Unity::ContextObserver
 {
 public:
-	::System::Collections::Generic::Dictionary_2<::Entitas::IEntity*, ::Entitas::VisualDebugging::Unity::EntityBehaviour*>* Field_2_0; // 0x38
-	::Class_2_80F8710F847F1248* Field_2_1; // 0x40
+	::System::Collections::Generic::Dictionary_2<::Entitas::IEntity*, ::Entitas::VisualDebugging::Unity::EntityBehaviour*>* HIHDEEBFGIL; // 0x38
+	::Class_2_80F8710F847F1248* EEFMDEHLLFI; // 0x40
 
 	::System::Void _ctor(::Entitas::IContext* a1)
 	{

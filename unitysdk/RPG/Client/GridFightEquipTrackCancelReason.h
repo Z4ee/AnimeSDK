@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightEquipTrackCancelReason_TypeDefinitionIndex = 62398;
+	inline static constexpr unsigned int GridFightEquipTrackCancelReason_TypeDefinitionIndex = 65383;
 
 	enum class GridFightEquipTrackCancelReason : ::System::Int32
 	{

@@ -4,12 +4,13 @@
 
 namespace UnityEngine { class Object; }
 
-#define UNITYENGINE_ASSETBUNDLEREQUEST_GET_ASSET_OFFSET UNITYSDK_OFFSET(0x1CFF2880)
-#define UNITYENGINE_ASSETBUNDLEREQUEST__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFF2890)
+#define UNITYENGINE_ASSETBUNDLEREQUEST_GET_ALLASSETS_OFFSET UNITYSDK_OFFSET(0x1ECF9C00)
+#define UNITYENGINE_ASSETBUNDLEREQUEST_GET_ASSET_OFFSET UNITYSDK_OFFSET(0x1ECF9BF0)
+#define UNITYENGINE_ASSETBUNDLEREQUEST__CTOR_OFFSET UNITYSDK_OFFSET(0x1ECF9C10)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int AssetBundleRequest_TypeDefinitionIndex = 5698;
+	inline static constexpr unsigned int AssetBundleRequest_TypeDefinitionIndex = 5759;
 
 	class AssetBundleRequest : public ::UnityEngine::AsyncOperation
 	{
@@ -22,6 +23,11 @@ namespace UnityEngine
 		::UnityEngine::Object* get_asset()
 		{
 			return ((::UnityEngine::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_ASSETBUNDLEREQUEST_GET_ASSET_OFFSET))(this);
+		}
+
+		::Il2CppArray<::UnityEngine::Object*>* get_allAssets()
+		{
+			return ((::Il2CppArray<::UnityEngine::Object*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_ASSETBUNDLEREQUEST_GET_ALLASSETS_OFFSET))(this);
 		}
 	};
 }

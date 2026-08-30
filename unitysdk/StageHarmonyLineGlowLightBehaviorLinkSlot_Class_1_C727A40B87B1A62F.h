@@ -4,14 +4,14 @@
 
 namespace RPG::Client { class LineGlowLightMonoPlugin; }
 
-#define STAGEHARMONYLINEGLOWLIGHTBEHAVIORLINKSLOT_CLASS_1_C727A40B87B1A62F__CTOR_OFFSET UNITYSDK_OFFSET(0xDD660F0)
+#define STAGEHARMONYLINEGLOWLIGHTBEHAVIORLINKSLOT_CLASS_1_C727A40B87B1A62F__CTOR_OFFSET UNITYSDK_OFFSET(0xE93E930)
 
-inline static constexpr unsigned int StageHarmonyLineGlowLightBehaviorLinkSlot_Class_1_C727A40B87B1A62F_TypeDefinitionIndex = 45585;
+inline static constexpr unsigned int StageHarmonyLineGlowLightBehaviorLinkSlot_Class_1_C727A40B87B1A62F_TypeDefinitionIndex = 47836;
 
 class StageHarmonyLineGlowLightBehaviorLinkSlot_Class_1_C727A40B87B1A62F : public ::System::Object
 {
 public:
-	::RPG::Client::LineGlowLightMonoPlugin* Field_1_0; // 0x10
+	::RPG::Client::LineGlowLightMonoPlugin* JNDFNOIIIAG; // 0x10
 
 	::System::Void _ctor()
 	{

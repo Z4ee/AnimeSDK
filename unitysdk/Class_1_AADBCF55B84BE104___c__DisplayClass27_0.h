@@ -6,10 +6,10 @@ class Class_1_AADBCF55B84BE104;
 namespace RPG::Client { class BaseLobby; }
 namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
 
-#define CLASS_1_AADBCF55B84BE104___C__DISPLAYCLASS27_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1566F920)
-#define CLASS_1_AADBCF55B84BE104___C__DISPLAYCLASS27_0__TRYJOINLOBBY_B__0_OFFSET UNITYSDK_OFFSET(0x1566FF80)
+#define CLASS_1_AADBCF55B84BE104___C__DISPLAYCLASS27_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB69F180)
+#define CLASS_1_AADBCF55B84BE104___C__DISPLAYCLASS27_0__TRYJOINLOBBY_B__0_OFFSET UNITYSDK_OFFSET(0xB69F740)
 
-inline static constexpr unsigned int Class_1_AADBCF55B84BE104___c__DisplayClass27_0_TypeDefinitionIndex = 60276;
+inline static constexpr unsigned int Class_1_AADBCF55B84BE104___c__DisplayClass27_0_TypeDefinitionIndex = 63124;
 
 class Class_1_AADBCF55B84BE104___c__DisplayClass27_0 : public ::System::Object
 {

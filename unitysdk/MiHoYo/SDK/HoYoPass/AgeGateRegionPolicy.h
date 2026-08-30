@@ -5,19 +5,19 @@
 namespace System { class String; }
 namespace System { template <typename T> class Func_1; }
 
-#define MIHOYO_SDK_HOYOPASS_AGEGATEREGIONPOLICY_GET_GETCONFIRMDIALOGTEXT_OFFSET UNITYSDK_OFFSET(0x19CF31B0)
-#define MIHOYO_SDK_HOYOPASS_AGEGATEREGIONPOLICY_GET_REGION_OFFSET UNITYSDK_OFFSET(0x19CF31A0)
-#define MIHOYO_SDK_HOYOPASS_AGEGATEREGIONPOLICY__CTOR_OFFSET UNITYSDK_OFFSET(0x19CF31C0)
+#define MIHOYO_SDK_HOYOPASS_AGEGATEREGIONPOLICY_GET_GETCONFIRMDIALOGTEXT_OFFSET UNITYSDK_OFFSET(0x1B94C970)
+#define MIHOYO_SDK_HOYOPASS_AGEGATEREGIONPOLICY_GET_REGION_OFFSET UNITYSDK_OFFSET(0x1B94C960)
+#define MIHOYO_SDK_HOYOPASS_AGEGATEREGIONPOLICY__CTOR_OFFSET UNITYSDK_OFFSET(0x1B94C980)
 
 namespace MiHoYo::SDK::HoYoPass
 {
-	inline static constexpr unsigned int AgeGateRegionPolicy_TypeDefinitionIndex = 8221;
+	inline static constexpr unsigned int AgeGateRegionPolicy_TypeDefinitionIndex = 8227;
 
 	class AgeGateRegionPolicy : public ::System::Object
 	{
 	public:
-		::System::Func_1<::System::String*>* _GetConfirmDialogText_k__BackingField; // 0x10
-		::System::String* _Region_k__BackingField; // 0x18
+		::System::String* _Region_k__BackingField; // 0x10
+		::System::Func_1<::System::String*>* _GetConfirmDialogText_k__BackingField; // 0x18
 
 		::System::Void _ctor(::System::String* a1, ::System::Func_1<::System::String*>* a2)
 		{

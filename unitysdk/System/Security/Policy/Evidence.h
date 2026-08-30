@@ -6,22 +6,22 @@ namespace System { class Array; }
 namespace System::Collections { class ArrayList; }
 namespace System::Collections { class IEnumerator; }
 
-#define SYSTEM_SECURITY_POLICY_EVIDENCE_COPYTO_OFFSET UNITYSDK_OFFSET(0x19FDB3D0)
-#define SYSTEM_SECURITY_POLICY_EVIDENCE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x19FDB630)
-#define SYSTEM_SECURITY_POLICY_EVIDENCE_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x19FDB2A0)
-#define SYSTEM_SECURITY_POLICY_EVIDENCE_GET_ISSYNCHRONIZED_OFFSET UNITYSDK_OFFSET(0x19FDB3B0)
-#define SYSTEM_SECURITY_POLICY_EVIDENCE_GET_SYNCROOT_OFFSET UNITYSDK_OFFSET(0x19FDB3C0)
-#define SYSTEM_SECURITY_POLICY_EVIDENCE__CTOR_OFFSET UNITYSDK_OFFSET(0x19FDB290)
+#define SYSTEM_SECURITY_POLICY_EVIDENCE_COPYTO_OFFSET UNITYSDK_OFFSET(0x1BBE0D50)
+#define SYSTEM_SECURITY_POLICY_EVIDENCE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1BBE0FB0)
+#define SYSTEM_SECURITY_POLICY_EVIDENCE_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x1BBE0C20)
+#define SYSTEM_SECURITY_POLICY_EVIDENCE_GET_ISSYNCHRONIZED_OFFSET UNITYSDK_OFFSET(0x1BBE0D30)
+#define SYSTEM_SECURITY_POLICY_EVIDENCE_GET_SYNCROOT_OFFSET UNITYSDK_OFFSET(0x1BBE0D40)
+#define SYSTEM_SECURITY_POLICY_EVIDENCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BBE0C10)
 
 namespace System::Security::Policy
 {
-	inline static constexpr unsigned int Evidence_TypeDefinitionIndex = 950;
+	inline static constexpr unsigned int Evidence_TypeDefinitionIndex = 957;
 
 	class Evidence : public ::System::Object
 	{
 	public:
-		::System::Collections::ArrayList* assemblyEvidenceList; // 0x10
-		::System::Collections::ArrayList* hostEvidenceList; // 0x18
+		::System::Collections::ArrayList* hostEvidenceList; // 0x10
+		::System::Collections::ArrayList* assemblyEvidenceList; // 0x18
 		::System::Boolean _locked; // 0x20
 
 		::System::Void _ctor()

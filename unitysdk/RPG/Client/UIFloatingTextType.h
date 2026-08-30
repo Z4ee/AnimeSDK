@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIFloatingTextType_TypeDefinitionIndex = 69094;
+	inline static constexpr unsigned int UIFloatingTextType_TypeDefinitionIndex = 72294;
 
 	enum class UIFloatingTextType : ::System::Int32
 	{

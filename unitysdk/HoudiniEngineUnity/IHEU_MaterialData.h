@@ -8,7 +8,7 @@ namespace UnityEngine { class Material; }
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int IHEU_MaterialData_TypeDefinitionIndex = 38410;
+	inline static constexpr unsigned int IHEU_MaterialData_TypeDefinitionIndex = 39269;
 
 	class IHEU_MaterialData
 	{

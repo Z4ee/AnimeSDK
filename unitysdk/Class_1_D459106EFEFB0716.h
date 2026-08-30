@@ -8,34 +8,34 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TransformComponent; }
 namespace System { class String; }
 
-#define CLASS_1_D459106EFEFB0716_METHOD_1_0B2B6008BD1006E8_OFFSET UNITYSDK_OFFSET(0x155BB6C0)
-#define CLASS_1_D459106EFEFB0716_METHOD_1_948A43AE709EF68A_OFFSET UNITYSDK_OFFSET(0x155BB4E0)
-#define CLASS_1_D459106EFEFB0716_METHOD_1_9D9CF8F6C2342EE5_OFFSET UNITYSDK_OFFSET(0x155BBC60)
-#define CLASS_1_D459106EFEFB0716_METHOD_1_B5EA5DD8B4C0957C_OFFSET UNITYSDK_OFFSET(0x155BB460)
-#define CLASS_1_D459106EFEFB0716_METHOD_1_E29A6A61C6FD21D1_OFFSET UNITYSDK_OFFSET(0x155BB820)
-#define CLASS_1_D459106EFEFB0716__CTOR_OFFSET UNITYSDK_OFFSET(0x155BBF10)
+#define CLASS_1_D459106EFEFB0716_METHOD_1_0B2B6008BD1006E8_OFFSET UNITYSDK_OFFSET(0xB5E2FE0)
+#define CLASS_1_D459106EFEFB0716_METHOD_1_948A43AE709EF68A_OFFSET UNITYSDK_OFFSET(0xB5E2E00)
+#define CLASS_1_D459106EFEFB0716_METHOD_1_9D9CF8F6C2342EE5_OFFSET UNITYSDK_OFFSET(0xB5E3580)
+#define CLASS_1_D459106EFEFB0716_METHOD_1_B5EA5DD8B4C0957C_OFFSET UNITYSDK_OFFSET(0xB5E2D80)
+#define CLASS_1_D459106EFEFB0716_METHOD_1_E29A6A61C6FD21D1_OFFSET UNITYSDK_OFFSET(0xB5E3140)
+#define CLASS_1_D459106EFEFB0716__CTOR_OFFSET UNITYSDK_OFFSET(0xB5E3830)
 
-inline static constexpr unsigned int Class_1_D459106EFEFB0716_TypeDefinitionIndex = 51723;
+inline static constexpr unsigned int Class_1_D459106EFEFB0716_TypeDefinitionIndex = 54407;
 
 class Class_1_D459106EFEFB0716 : public ::System::Object
 {
 public:
-	::RPG::GameCore::GameEntity* Field_1_0; // 0x10
-	::System::String* Field_1_1; // 0x18
-	::RPG::GameCore::GameEntity* Field_1_2; // 0x20
-	::System::Single Field_1_3; // 0x28
-	::RPG::MVector3 Field_1_4; // 0x2C
-	::System::Single Field_1_5; // 0x38
-	::RPG::MVector3 Field_1_6; // 0x3C
-	::System::Single Field_1_7; // 0x48
-	::System::Single Field_1_8; // 0x4C
-	::System::Single Field_1_9; // 0x50
-	::System::Single Field_1_10; // 0x54
-	::RPG::GameCore::RtBattleAnimMoveOption Field_1_11; // 0x58
-	::System::Boolean Field_1_12; // 0x5C
-	::RPG::MVector3 Field_1_13; // 0x60
-	::System::Single Field_1_14; // 0x6C
-	::RPG::MVector3 Field_1_15; // 0x70
+	::RPG::GameCore::GameEntity* KDPPFKNCKIL; // 0x10
+	::System::String* GBIOGILHAHO; // 0x18
+	::RPG::GameCore::GameEntity* MCLLALGABAB; // 0x20
+	::System::Single FMHMAHCNDGB; // 0x28
+	::RPG::MVector3 KEBGGHNKODJ; // 0x2C
+	::RPG::GameCore::RtBattleAnimMoveOption ALEGIFEHGLH; // 0x38
+	::System::Single KJIOHLANNHA; // 0x3C
+	::System::Single NNNAGHMNFKB; // 0x40
+	::System::Single ACCBAMDABCA; // 0x44
+	::System::Single HJLOCBLHNLD; // 0x48
+	::System::Boolean NPEHDAMFOCH; // 0x4C
+	::System::Single DLOECBHBAGB; // 0x50
+	::System::Single HJKMFPPHEJH; // 0x54
+	::RPG::MVector3 HFPGLABPMMO; // 0x58
+	::RPG::MVector3 LOFKEOFNMKA; // 0x64
+	::RPG::MVector3 FJBPOFJPFNP; // 0x70
 
 	::System::Void _ctor()
 	{

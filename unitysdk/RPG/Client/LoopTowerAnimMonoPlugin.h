@@ -9,12 +9,12 @@ namespace RPG::GameCore { class VCameraShakeV2; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_LOOPTOWERANIMMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xCA2E7F0)
-#define RPG_CLIENT_LOOPTOWERANIMMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xCA2E840)
+#define RPG_CLIENT_LOOPTOWERANIMMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xD596D40)
+#define RPG_CLIENT_LOOPTOWERANIMMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xD596D90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LoopTowerAnimMonoPlugin_TypeDefinitionIndex = 67728;
+	inline static constexpr unsigned int LoopTowerAnimMonoPlugin_TypeDefinitionIndex = 70888;
 
 	class LoopTowerAnimMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::LoopTowerAnimBehavior*>
 	{

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByDeployPuzzleBasePointIsAnswer; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_C2ED78187848E279_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15484160)
-#define CLASS_3_C2ED78187848E279__CTOR_OFFSET UNITYSDK_OFFSET(0x15484130)
+#define CLASS_3_C2ED78187848E279_EVALUATE_OFFSET UNITYSDK_OFFSET(0x163CF0A0)
+#define CLASS_3_C2ED78187848E279__CTOR_OFFSET UNITYSDK_OFFSET(0x163CF070)
 
-inline static constexpr unsigned int Class_3_C2ED78187848E279_TypeDefinitionIndex = 55399;
+inline static constexpr unsigned int Class_3_C2ED78187848E279_TypeDefinitionIndex = 58130;
 
 class Class_3_C2ED78187848E279 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByDeployPuzzleBasePointIsAnswer*>
 {

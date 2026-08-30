@@ -5,31 +5,31 @@
 namespace MiHoYo::SDK::Win { class MiHoYoSDKHTTPServer; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_WIN_HTTPSERVERMANAGER_INIT_OFFSET UNITYSDK_OFFSET(0x19ECC340)
-#define MIHOYO_SDK_WIN_HTTPSERVERMANAGER_SETHTTPSERVERENABLE_OFFSET UNITYSDK_OFFSET(0x19ECC310)
-#define MIHOYO_SDK_WIN_HTTPSERVERMANAGER_START_OFFSET UNITYSDK_OFFSET(0x19ECC5D0)
-#define MIHOYO_SDK_WIN_HTTPSERVERMANAGER_STOP_OFFSET UNITYSDK_OFFSET(0x19ECC7F0)
-#define MIHOYO_SDK_WIN_HTTPSERVERMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x19ECCAC0)
-#define MIHOYO_SDK_WIN_HTTPSERVERMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x19ECCAB0)
+#define MIHOYO_SDK_WIN_HTTPSERVERMANAGER_INIT_OFFSET UNITYSDK_OFFSET(0x1B850CB0)
+#define MIHOYO_SDK_WIN_HTTPSERVERMANAGER_SETHTTPSERVERENABLE_OFFSET UNITYSDK_OFFSET(0x1B850C80)
+#define MIHOYO_SDK_WIN_HTTPSERVERMANAGER_START_OFFSET UNITYSDK_OFFSET(0x1B851080)
+#define MIHOYO_SDK_WIN_HTTPSERVERMANAGER_STOP_OFFSET UNITYSDK_OFFSET(0x1B851610)
+#define MIHOYO_SDK_WIN_HTTPSERVERMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B851950)
+#define MIHOYO_SDK_WIN_HTTPSERVERMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B851940)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int HTTPServerManager_TypeDefinitionIndex = 9098;
+	inline static constexpr unsigned int HTTPServerManager_TypeDefinitionIndex = 9377;
 
 	class HTTPServerManager : public ::System::Object
 	{
 	public:
 		static ::MiHoYo::SDK::Win::HTTPServerManager** StaticGet_Instance()
 		{
-			return (::MiHoYo::SDK::Win::HTTPServerManager**)Il2CppClass::FromTypeDefinitionIndex(HTTPServerManager_TypeDefinitionIndex)->GetStaticField(0x2F230);
+			return (::MiHoYo::SDK::Win::HTTPServerManager**)Il2CppClass::FromTypeDefinitionIndex(HTTPServerManager_TypeDefinitionIndex)->GetStaticField(0x2C2B0);
 		}
 		static ::MiHoYo::SDK::Win::MiHoYoSDKHTTPServer** StaticGet_server()
 		{
-			return (::MiHoYo::SDK::Win::MiHoYoSDKHTTPServer**)Il2CppClass::FromTypeDefinitionIndex(HTTPServerManager_TypeDefinitionIndex)->GetStaticField(0x2F238);
+			return (::MiHoYo::SDK::Win::MiHoYoSDKHTTPServer**)Il2CppClass::FromTypeDefinitionIndex(HTTPServerManager_TypeDefinitionIndex)->GetStaticField(0x2C2B8);
 		}
 		static ::System::Boolean* StaticGet_isUsingHttpServer()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(HTTPServerManager_TypeDefinitionIndex)->GetStaticField(0x8120);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(HTTPServerManager_TypeDefinitionIndex)->GetStaticField(0xCB30);
 		}
 		// static const ::System::String* ServerResourcesPath; // 0x0
 		// static const ::System::Int32 Port = 0x4C5; // 0x0

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AliveStateMask_TypeDefinitionIndex = 10150;
+	inline static constexpr unsigned int AliveStateMask_TypeDefinitionIndex = 10486;
 
 	enum class AliveStateMask : ::System::UInt16
 	{

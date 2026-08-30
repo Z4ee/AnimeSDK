@@ -1,59 +1,46 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/GameCore/TimeRewindState.h"
+#include "unitysdk/RPG/GameCore/AbilityLinearProperty.h"
+#include "unitysdk/RPG/GameCore/AbilityLinearPropertyWithOverride.h"
+#include "unitysdk/RPG/GameCore/FixPoint.h"
+#include "unitysdk/RPG/GameCore/HealFormulaType.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_43BD383C98B4C0C5_128_Class_3_50D343C44D28BEFB_5;
-class Class_1_F65DC6656DEF8159;
-namespace RPG::Client { class EntityTimelineControlNode; }
-namespace RPG::Client { class EntityTimelineControlTrackInfo; }
-namespace RPG::GameCore { class EntityTimeRewindComponent; }
-namespace RPG::GameCore { class GameEntity; }
-namespace System { class Action; }
-namespace System { template <typename T1, typename T2> class Action_2; }
-namespace System { template <typename T1, typename T2> class Func_2; }
-namespace System { template <typename T> class Action_1; }
+class Class_3_BB8B7764D3497776;
 
-#define CLASS_1_43BD383C98B4C0C5_128_DISPOSE_OFFSET UNITYSDK_OFFSET(0xDB805D0)
-#define CLASS_1_43BD383C98B4C0C5_128__CTOR_OFFSET UNITYSDK_OFFSET(0xDB80650)
+#define CLASS_1_43BD383C98B4C0C5_128__CTOR_OFFSET UNITYSDK_OFFSET(0x152C7A10)
 
-inline static constexpr unsigned int Class_1_43BD383C98B4C0C5_128_TypeDefinitionIndex = 58084;
+inline static constexpr unsigned int Class_1_43BD383C98B4C0C5_128_TypeDefinitionIndex = 54064;
 
 class Class_1_43BD383C98B4C0C5_128 : public ::System::Object
 {
 public:
-	::System::Action_1<::System::Boolean>* Field_1_0; // 0x10
-	::System::Action* Field_1_1; // 0x18
-	::RPG::GameCore::GameEntity* Field_1_2; // 0x20
-	::System::Action_1<::System::Single>* Field_1_3; // 0x28
-	::System::Action* Field_1_4; // 0x30
-	::System::Action_2<::System::Single, ::System::Single>* Field_1_5; // 0x38
-	::RPG::Client::EntityTimelineControlTrackInfo* Field_1_6; // 0x40
-	::Class_1_43BD383C98B4C0C5_128_Class_3_50D343C44D28BEFB_5* Field_1_7; // 0x48
-	::System::Action* Field_1_8; // 0x50
-	::System::Action* Field_1_9; // 0x58
-	::System::Action_1<::RPG::GameCore::TimeRewindState>* Field_1_10; // 0x60
-	::System::Action* Field_1_11; // 0x68
-	::System::Action_1<::RPG::Client::EntityTimelineControlNode*>* Field_1_12; // 0x70
-	::System::Action* Field_1_13; // 0x78
-	::System::Action_1<::System::Boolean>* Field_1_14; // 0x80
-	::System::Action* Field_1_15; // 0x88
-	::System::Action* Field_1_16; // 0x90
-	::RPG::GameCore::EntityTimeRewindComponent* Field_1_17; // 0x98
-	::System::Action_1<::System::Boolean>* Field_1_18; // 0xA0
-	::Class_1_F65DC6656DEF8159* Field_1_19; // 0xA8
-	::System::Action_2<::RPG::Client::EntityTimelineControlNode*, ::System::Boolean>* Field_1_20; // 0xB0
-	::System::Action_1<::RPG::Client::EntityTimelineControlNode*>* Field_1_21; // 0xB8
-	::System::Action* Field_1_22; // 0xC0
-	::System::Func_2<::RPG::Client::EntityTimelineControlNode*, ::System::Boolean>* Field_1_23; // 0xC8
+	::Class_3_BB8B7764D3497776* CFOAICLAMHO; // 0x10
+	::Class_3_BB8B7764D3497776* MCLLALGABAB; // 0x18
+	::RPG::GameCore::FixPoint BNNONJNHNJC; // 0x20
+	::RPG::GameCore::FixPoint ADMLFGINDGP; // 0x28
+	::RPG::GameCore::FixPoint OHGNGNMJCEF; // 0x30
+	::RPG::GameCore::HealFormulaType HMCMMAINFDA; // 0x38
+	::System::Boolean IBHCHCFKBEP; // 0x3C
+	::RPG::GameCore::FixPoint JALMAHOCDNO; // 0x40
+	::RPG::GameCore::FixPoint KOEONAHJCOA; // 0x48
+	::RPG::GameCore::FixPoint FMJDPKFGCLP; // 0x50
+	::RPG::GameCore::FixPoint MIDOEHHGKMN; // 0x58
+	::RPG::GameCore::FixPoint FBIJGGIOLNO; // 0x60
+	::RPG::GameCore::FixPoint HOLDMJDNDDK; // 0x68
+	::RPG::GameCore::AbilityLinearProperty NMMOOCJILEC; // 0x70
+	::RPG::GameCore::FixPoint IFGMPDAOMIK; // 0xB8
+	::RPG::GameCore::AbilityLinearPropertyWithOverride LDOFJCKEJHB; // 0xC0
+	::RPG::GameCore::FixPoint NBEEPDPFAHG; // 0x110
+	::RPG::GameCore::FixPoint FGBPFGEECBB; // 0x118
+	::RPG::GameCore::FixPoint DIPCHCFIPDB; // 0x120
+	::RPG::GameCore::FixPoint IBEHAPHPEBB; // 0x128
+	::RPG::GameCore::FixPoint NLJKCNHAMDP; // 0x130
+	::RPG::GameCore::FixPoint PINNPLKBABH; // 0x138
+	::RPG::GameCore::FixPoint NJKBGEFFIIE; // 0x140
 
 	::System::Void _ctor()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_43BD383C98B4C0C5_128__CTOR_OFFSET))(this);
-	}
-
-	::System::Void Dispose()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_43BD383C98B4C0C5_128_DISPOSE_OFFSET))(this);
 	}
 };

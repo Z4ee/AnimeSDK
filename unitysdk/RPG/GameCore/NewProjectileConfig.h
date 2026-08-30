@@ -9,13 +9,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_NEWPROJECTILECONFIG_METHOD_2_1FDD6AE005C7BFF6_OFFSET UNITYSDK_OFFSET(0x1B670A50)
-#define RPG_GAMECORE_NEWPROJECTILECONFIG_METHOD_2_9CDE6A8A9A441772_OFFSET UNITYSDK_OFFSET(0x1B671FE0)
-#define RPG_GAMECORE_NEWPROJECTILECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B671F40)
+#define RPG_GAMECORE_NEWPROJECTILECONFIG_METHOD_2_6FD033DDD43209DF_OFFSET UNITYSDK_OFFSET(0x1D2F37A0)
+#define RPG_GAMECORE_NEWPROJECTILECONFIG_METHOD_2_9CDE6A8A9A441772_OFFSET UNITYSDK_OFFSET(0x1D2F4D30)
+#define RPG_GAMECORE_NEWPROJECTILECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2F4C90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int NewProjectileConfig_TypeDefinitionIndex = 15047;
+	inline static constexpr unsigned int NewProjectileConfig_TypeDefinitionIndex = 15483;
 
 	class NewProjectileConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -57,9 +57,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_NEWPROJECTILECONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_1FDD6AE005C7BFF6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::NewProjectileConfig*& a2)
+		static ::System::Void Method_2_6FD033DDD43209DF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::NewProjectileConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::NewProjectileConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_NEWPROJECTILECONFIG_METHOD_2_1FDD6AE005C7BFF6_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::NewProjectileConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_NEWPROJECTILECONFIG_METHOD_2_6FD033DDD43209DF_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_2_9CDE6A8A9A441772(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::NewProjectileConfig* a2)

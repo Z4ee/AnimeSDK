@@ -9,26 +9,26 @@
 
 namespace System { class String; }
 
-#define CLASS_1_6545FC19FD7354A7_CLASS_1_41B104475EBB8850__CTOR_OFFSET UNITYSDK_OFFSET(0x11FC1670)
+#define CLASS_1_6545FC19FD7354A7_CLASS_1_41B104475EBB8850__CTOR_OFFSET UNITYSDK_OFFSET(0x134FB3F0)
 
-inline static constexpr unsigned int Class_1_6545FC19FD7354A7_Class_1_41B104475EBB8850_TypeDefinitionIndex = 57997;
+inline static constexpr unsigned int Class_1_6545FC19FD7354A7_Class_1_41B104475EBB8850_TypeDefinitionIndex = 60818;
 
 class Class_1_6545FC19FD7354A7_Class_1_41B104475EBB8850 : public ::System::Object
 {
 public:
-	::System::String* Field_1_0; // 0x10
-	::System::Nullable_1<::Struct_2_127EAB4936C75FCC> Field_1_1; // 0x18
-	::System::Nullable_1<::Struct_2_4C8316D252AABDF5> Field_1_2; // 0x30
-	::System::String* Field_1_3; // 0x58
-	::UnityEngine::Vector3 Field_1_4; // 0x60
-	::UnityEngine::Quaternion Field_1_5; // 0x6C
-	::System::Boolean Field_1_6; // 0x7C
-	::System::Boolean Field_1_7; // 0x7D
-	::System::Boolean Field_1_8; // 0x7E
-	::System::Boolean Field_1_9; // 0x7F
-	::System::Boolean Field_1_10; // 0x80
-	::System::Boolean Field_1_11; // 0x81
-	::System::Boolean Field_1_12; // 0x82
+	::System::Nullable_1<::Struct_2_127EAB4936C75FCC> OHLEJJEOKBP; // 0x10
+	::System::Nullable_1<::Struct_2_4C8316D252AABDF5> INEJMACHPIJ; // 0x28
+	::System::String* DKNMIJKJKHF; // 0x50
+	::System::String* GEDFIDJOHOG; // 0x58
+	::UnityEngine::Quaternion NMELCPIOKNO; // 0x60
+	::UnityEngine::Vector3 BBFOLEOPPPL; // 0x70
+	::System::Boolean GNHPNHJJCBF; // 0x7C
+	::System::Boolean JAHFGCPKFOC; // 0x7D
+	::System::Boolean KDKJKJBMDAF; // 0x7E
+	::System::Boolean DCPPNHHBHEE; // 0x7F
+	::System::Boolean FLDJCKMHBMD; // 0x80
+	::System::Boolean FGCBJIKAHMN; // 0x81
+	::System::Boolean KNBCNKCEELE; // 0x82
 
 	::System::Void _ctor()
 	{

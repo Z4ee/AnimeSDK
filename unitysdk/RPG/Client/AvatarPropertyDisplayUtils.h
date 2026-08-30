@@ -6,11 +6,11 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_AVATARPROPERTYDISPLAYUTILS_FORMATDISPLAYDATABYTYPE_OFFSET UNITYSDK_OFFSET(0xBE07850)
+#define RPG_CLIENT_AVATARPROPERTYDISPLAYUTILS_FORMATDISPLAYDATABYTYPE_OFFSET UNITYSDK_OFFSET(0xC83BF10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AvatarPropertyDisplayUtils_TypeDefinitionIndex = 60092;
+	inline static constexpr unsigned int AvatarPropertyDisplayUtils_TypeDefinitionIndex = 62938;
 
 	class AvatarPropertyDisplayUtils : public ::System::Object
 	{

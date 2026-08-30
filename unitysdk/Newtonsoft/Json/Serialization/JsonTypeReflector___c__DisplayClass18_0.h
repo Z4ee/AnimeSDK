@@ -6,12 +6,12 @@ namespace Newtonsoft::Json { class JsonConverter; }
 namespace System { class Type; }
 namespace System { template <typename T> class Func_1; }
 
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONTYPEREFLECTOR___C__DISPLAYCLASS18_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A2ECE20)
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONTYPEREFLECTOR___C__DISPLAYCLASS18_0__GETJSONCONVERTERCREATOR_B__0_OFFSET UNITYSDK_OFFSET(0x1A2ED2C0)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONTYPEREFLECTOR___C__DISPLAYCLASS18_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BEF54C0)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONTYPEREFLECTOR___C__DISPLAYCLASS18_0__GETJSONCONVERTERCREATOR_B__0_OFFSET UNITYSDK_OFFSET(0x1BEF5960)
 
 namespace Newtonsoft::Json::Serialization
 {
-	inline static constexpr unsigned int JsonTypeReflector___c__DisplayClass18_0_TypeDefinitionIndex = 9407;
+	inline static constexpr unsigned int JsonTypeReflector___c__DisplayClass18_0_TypeDefinitionIndex = 9686;
 
 	class JsonTypeReflector___c__DisplayClass18_0 : public ::System::Object
 	{

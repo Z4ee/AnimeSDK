@@ -7,21 +7,21 @@ namespace RPG::Client::PixAir { class PixAirEquipInstance; }
 namespace RPG::Client::PixAir { class PixAirGameSession; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_PIXAIR_PIXAIREQUIPSHOWUPGRADEVIEWACTION_FINISH_OFFSET UNITYSDK_OFFSET(0xCFBE860)
-#define RPG_CLIENT_PIXAIR_PIXAIREQUIPSHOWUPGRADEVIEWACTION_GET_NODECASE_OFFSET UNITYSDK_OFFSET(0xCFBE8E0)
-#define RPG_CLIENT_PIXAIR_PIXAIREQUIPSHOWUPGRADEVIEWACTION_START_OFFSET UNITYSDK_OFFSET(0xCFBE660)
-#define RPG_CLIENT_PIXAIR_PIXAIREQUIPSHOWUPGRADEVIEWACTION__CTOR_OFFSET UNITYSDK_OFFSET(0xCFBE640)
-#define RPG_CLIENT_PIXAIR_PIXAIREQUIPSHOWUPGRADEVIEWACTION__ONDIALOGEXIT_OFFSET UNITYSDK_OFFSET(0xCFBE810)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPSHOWUPGRADEVIEWACTION_FINISH_OFFSET UNITYSDK_OFFSET(0xDAFDC40)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPSHOWUPGRADEVIEWACTION_GET_NODECASE_OFFSET UNITYSDK_OFFSET(0xDAFDCC0)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPSHOWUPGRADEVIEWACTION_START_OFFSET UNITYSDK_OFFSET(0xDAFDA40)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPSHOWUPGRADEVIEWACTION__CTOR_OFFSET UNITYSDK_OFFSET(0xDAFDA20)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPSHOWUPGRADEVIEWACTION__ONDIALOGEXIT_OFFSET UNITYSDK_OFFSET(0xDAFDBF0)
 
 namespace RPG::Client::PixAir
 {
-	inline static constexpr unsigned int PixAirEquipShowUpgradeViewAction_TypeDefinitionIndex = 75258;
+	inline static constexpr unsigned int PixAirEquipShowUpgradeViewAction_TypeDefinitionIndex = 78805;
 
 	class PixAirEquipShowUpgradeViewAction : public ::RPG::Client::PixAir::BasePixAirPendingAction
 	{
 	public:
-		::RPG::Client::PixAir::PixAirGameSession* _GameSession; // 0x18
-		::System::Collections::Generic::List_1<::RPG::Client::PixAir::PixAirEquipInstance*>* _EquipList; // 0x20
+		::System::Collections::Generic::List_1<::RPG::Client::PixAir::PixAirEquipInstance*>* _EquipList; // 0x18
+		::RPG::Client::PixAir::PixAirGameSession* _GameSession; // 0x20
 
 		::System::Void _ctor(::System::Collections::Generic::List_1<::RPG::Client::PixAir::PixAirEquipInstance*>* a1, ::RPG::Client::PixAir::PixAirGameSession* a2)
 		{

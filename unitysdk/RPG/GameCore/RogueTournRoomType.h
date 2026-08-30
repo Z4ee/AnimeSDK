@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueTournRoomType_TypeDefinitionIndex = 10247;
+	inline static constexpr unsigned int RogueTournRoomType_TypeDefinitionIndex = 10584;
 
 	enum class RogueTournRoomType : ::System::Int32
 	{
@@ -22,5 +22,6 @@ namespace RPG::GameCore
 		Hidden = 12,
 		Conversion = 13,
 		Blank = 14,
+		Puman = 15,
 	};
 }

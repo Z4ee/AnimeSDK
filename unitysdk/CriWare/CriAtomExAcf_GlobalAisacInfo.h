@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define CRIWARE_CRIATOMEXACF_GLOBALAISACINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x2D190B0)
+#define CRIWARE_CRIATOMEXACF_GLOBALAISACINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x2DFF330)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExAcf_GlobalAisacInfo_TypeDefinitionIndex = 37876;
+	inline static constexpr unsigned int CriAtomExAcf_GlobalAisacInfo_TypeDefinitionIndex = 38735;
 
 	struct alignas(8) CriAtomExAcf_GlobalAisacInfo
 	{

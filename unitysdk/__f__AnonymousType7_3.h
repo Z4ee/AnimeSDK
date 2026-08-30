@@ -1,0 +1,16 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+namespace System { class String; }
+
+inline static constexpr unsigned int __f__AnonymousType7_3_TypeDefinitionIndex = 47511;
+
+template <typename _doc_id_j__TPar, typename _sheet_id_j__TPar, typename _range_address_j__TPar>
+class __f__AnonymousType7_3 : public ::System::Object
+{
+public:
+	_doc_id_j__TPar _doc_id_i__Field; // 0x0
+	_sheet_id_j__TPar _sheet_id_i__Field; // 0x0
+	_range_address_j__TPar _range_address_i__Field; // 0x0
+};

@@ -4,7 +4,7 @@
 
 namespace System::Collections::ObjectModel
 {
-	inline static constexpr unsigned int ObservableCollection_1_SimpleMonitor_TypeDefinitionIndex = 3002;
+	inline static constexpr unsigned int ObservableCollection_1_SimpleMonitor_TypeDefinitionIndex = 3009;
 
 	template <typename T>
 	class ObservableCollection_1_SimpleMonitor : public ::System::Object

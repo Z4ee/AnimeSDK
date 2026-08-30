@@ -7,12 +7,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class AssistSkillUIConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SKILLUICONFIG_METHOD_2_22C6E7F91ABF035A_OFFSET UNITYSDK_OFFSET(0x1B8DDFA0)
-#define RPG_GAMECORE_SKILLUICONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8DF7C0)
+#define RPG_GAMECORE_SKILLUICONFIG_METHOD_2_22C6E7F91ABF035A_OFFSET UNITYSDK_OFFSET(0x1D539FE0)
+#define RPG_GAMECORE_SKILLUICONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D53B800)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SkillUIConfig_TypeDefinitionIndex = 17462;
+	inline static constexpr unsigned int SkillUIConfig_TypeDefinitionIndex = 17979;
 
 	class SkillUIConfig : public ::RPG::GameCore::JsonConfig
 	{

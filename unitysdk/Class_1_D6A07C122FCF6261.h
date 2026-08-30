@@ -5,21 +5,21 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define CLASS_1_D6A07C122FCF6261_METHOD_1_BCDCD4E94D23A046_OFFSET UNITYSDK_OFFSET(0x1AE812A0)
-#define CLASS_1_D6A07C122FCF6261__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE81510)
+#define CLASS_1_D6A07C122FCF6261_METHOD_1_BCDCD4E94D23A046_OFFSET UNITYSDK_OFFSET(0x1CAD8F20)
+#define CLASS_1_D6A07C122FCF6261__CTOR_OFFSET UNITYSDK_OFFSET(0x1CAD9190)
 
-inline static constexpr unsigned int Class_1_D6A07C122FCF6261_TypeDefinitionIndex = 14549;
+inline static constexpr unsigned int Class_1_D6A07C122FCF6261_TypeDefinitionIndex = 14970;
 
 class Class_1_D6A07C122FCF6261 : public ::System::Object
 {
 public:
-	::System::String* Field_1_0; // 0x10
-	::System::String* Field_1_1; // 0x18
-	::System::String* Field_1_2; // 0x20
-	::System::String* Field_1_3; // 0x28
-	::System::String* Field_1_4; // 0x30
-	::System::String* Field_1_5; // 0x38
-	::System::String* Field_1_6; // 0x40
+	::System::String* MEDEFCIKNLA; // 0x10
+	::System::String* BFLIFKBEOPJ; // 0x18
+	::System::String* APNFMFEMPNI; // 0x20
+	::System::String* KACPIAGHKMN; // 0x28
+	::System::String* LGNKFIIEICM; // 0x30
+	::System::String* EOAHMJFOLHD; // 0x38
+	::System::String* BIEJJCIFBGA; // 0x40
 
 	::System::Void _ctor()
 	{

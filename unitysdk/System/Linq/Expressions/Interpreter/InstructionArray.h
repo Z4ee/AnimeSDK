@@ -8,11 +8,11 @@ namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Linq::Expressions::Interpreter { class Instruction; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INSTRUCTIONARRAY__CTOR_OFFSET UNITYSDK_OFFSET(0x3A0E880)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INSTRUCTIONARRAY__CTOR_OFFSET UNITYSDK_OFFSET(0x3B9ED90)
 
 namespace System::Linq::Expressions::Interpreter
 {
-	inline static constexpr unsigned int InstructionArray_TypeDefinitionIndex = 3426;
+	inline static constexpr unsigned int InstructionArray_TypeDefinitionIndex = 3434;
 
 	struct alignas(8) InstructionArray
 	{

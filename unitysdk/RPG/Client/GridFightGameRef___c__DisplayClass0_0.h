@@ -4,8 +4,8 @@
 
 class Class_1_296A7AC90F028539;
 class Class_1_89740498BBACFF75;
-class Class_1_92B1BD6FC8375724;
-class Class_1_92B1BD6FC8375724_Class_1_084C324841B5505D;
+class Class_1_AC6C63F15E9794D3;
+class Class_1_AC6C63F15E9794D3_Class_1_084C324841B5505D;
 namespace RPG::Client { class GridFightGameRef; }
 namespace RPG::Client { class GridFightGameRefData; }
 namespace RPG::Client { template <typename T> class GridFightGameRefHttpRspBody_1; }
@@ -13,23 +13,23 @@ namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC732C50)
-#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS0_0__SENDGRIDFIGHTGETFAVOURLISTGAMEREFREQ_B__0_OFFSET UNITYSDK_OFFSET(0xC73D850)
-#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS0_0__SENDGRIDFIGHTGETFAVOURLISTGAMEREFREQ_B__1_OFFSET UNITYSDK_OFFSET(0xC73D880)
-#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS0_0__SENDGRIDFIGHTGETFAVOURLISTGAMEREFREQ_B__2_OFFSET UNITYSDK_OFFSET(0xC73D940)
-#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS0_0__SENDGRIDFIGHTGETFAVOURLISTGAMEREFREQ_B__3_OFFSET UNITYSDK_OFFSET(0xC73D980)
+#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD1B9880)
+#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS0_0__SENDGRIDFIGHTGETFAVOURLISTGAMEREFREQ_B__0_OFFSET UNITYSDK_OFFSET(0xD1C4CD0)
+#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS0_0__SENDGRIDFIGHTGETFAVOURLISTGAMEREFREQ_B__1_OFFSET UNITYSDK_OFFSET(0xD1C4D00)
+#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS0_0__SENDGRIDFIGHTGETFAVOURLISTGAMEREFREQ_B__2_OFFSET UNITYSDK_OFFSET(0xD1C4DC0)
+#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS0_0__SENDGRIDFIGHTGETFAVOURLISTGAMEREFREQ_B__3_OFFSET UNITYSDK_OFFSET(0xD1C4E00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightGameRef___c__DisplayClass0_0_TypeDefinitionIndex = 61778;
+	inline static constexpr unsigned int GridFightGameRef___c__DisplayClass0_0_TypeDefinitionIndex = 64762;
 
 	class GridFightGameRef___c__DisplayClass0_0 : public ::System::Object
 	{
 	public:
-		::Class_1_92B1BD6FC8375724_Class_1_084C324841B5505D* sendParams; // 0x10
+		::Class_1_AC6C63F15E9794D3_Class_1_084C324841B5505D* sendParams; // 0x10
 		::RPG::Client::GridFightGameRef* __4__this; // 0x18
-		::Class_1_92B1BD6FC8375724* req; // 0x20
-		::System::Action_1<::System::Collections::Generic::List_1<::RPG::Client::GridFightGameRefData*>*>* callback; // 0x28
+		::System::Action_1<::System::Collections::Generic::List_1<::RPG::Client::GridFightGameRefData*>*>* callback; // 0x20
+		::Class_1_AC6C63F15E9794D3* req; // 0x28
 
 		::System::Void _ctor()
 		{

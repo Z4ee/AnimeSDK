@@ -6,14 +6,14 @@
 namespace System { class String; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_SYSTEMEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x19FE1EE0)
-#define SYSTEM_SYSTEMEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x19FE2200)
-#define SYSTEM_SYSTEMEXCEPTION__CTOR_3_OFFSET UNITYSDK_OFFSET(0x19FE2140)
-#define SYSTEM_SYSTEMEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x19FE70C0)
+#define SYSTEM_SYSTEMEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1BBE78D0)
+#define SYSTEM_SYSTEMEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1BBE7BF0)
+#define SYSTEM_SYSTEMEXCEPTION__CTOR_3_OFFSET UNITYSDK_OFFSET(0x1BBE7B30)
+#define SYSTEM_SYSTEMEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1BBECB50)
 
 namespace System
 {
-	inline static constexpr unsigned int SystemException_TypeDefinitionIndex = 332;
+	inline static constexpr unsigned int SystemException_TypeDefinitionIndex = 335;
 
 	class SystemException : public ::System::Exception
 	{

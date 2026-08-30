@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_DEFAULTBINDER_BINDERSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0B43A0)
+#define SYSTEM_DEFAULTBINDER_BINDERSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BCBBA50)
 
 namespace System
 {

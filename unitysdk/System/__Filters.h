@@ -4,11 +4,11 @@
 
 namespace System::Reflection { class MemberInfo; }
 
-#define SYSTEM___FILTERS_FILTERATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1A07FB50)
-#define SYSTEM___FILTERS_FILTERIGNORECASE_OFFSET UNITYSDK_OFFSET(0x1A080330)
-#define SYSTEM___FILTERS_FILTERNAME_OFFSET UNITYSDK_OFFSET(0x1A0800D0)
-#define SYSTEM___FILTERS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A080580)
-#define SYSTEM___FILTERS__CTOR_OFFSET UNITYSDK_OFFSET(0x1A080570)
+#define SYSTEM___FILTERS_FILTERATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1BC872B0)
+#define SYSTEM___FILTERS_FILTERIGNORECASE_OFFSET UNITYSDK_OFFSET(0x1BC87AC0)
+#define SYSTEM___FILTERS_FILTERNAME_OFFSET UNITYSDK_OFFSET(0x1BC87830)
+#define SYSTEM___FILTERS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BC87D10)
+#define SYSTEM___FILTERS__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC87D00)
 
 namespace System
 {
@@ -19,7 +19,7 @@ namespace System
 	public:
 		static ::System::__Filters** StaticGet_Instance()
 		{
-			return (::System::__Filters**)Il2CppClass::FromTypeDefinitionIndex(__Filters_TypeDefinitionIndex)->GetStaticField(0x60);
+			return (::System::__Filters**)Il2CppClass::FromTypeDefinitionIndex(__Filters_TypeDefinitionIndex)->GetStaticField(0x15290);
 		}
 
 		::System::Void _ctor()

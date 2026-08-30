@@ -6,12 +6,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ROGUEMIRACLEEFFECTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B772630)
-#define RPG_GAMECORE_ROGUEMIRACLEEFFECTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B772880)
+#define RPG_GAMECORE_ROGUEMIRACLEEFFECTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3F5700)
+#define RPG_GAMECORE_ROGUEMIRACLEEFFECTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3F5950)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueMiracleEffectRow_TypeDefinitionIndex = 14114;
+	inline static constexpr unsigned int RogueMiracleEffectRow_TypeDefinitionIndex = 14534;
 
 	class RogueMiracleEffectRow : public ::System::Object
 	{

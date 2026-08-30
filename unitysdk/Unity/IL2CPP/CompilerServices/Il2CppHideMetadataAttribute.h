@@ -3,11 +3,11 @@
 #include "unitysdk/System/Attribute.h"
 #include "unitysdk/Unity/IL2CPP/CompilerServices/Il2CppHideMetadataTypes.h"
 
-#define UNITY_IL2CPP_COMPILERSERVICES_IL2CPPHIDEMETADATAATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFFD060)
+#define UNITY_IL2CPP_COMPILERSERVICES_IL2CPPHIDEMETADATAATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1ED04490)
 
 namespace Unity::IL2CPP::CompilerServices
 {
-	inline static constexpr unsigned int Il2CppHideMetadataAttribute_TypeDefinitionIndex = 3962;
+	inline static constexpr unsigned int Il2CppHideMetadataAttribute_TypeDefinitionIndex = 3970;
 
 	class Il2CppHideMetadataAttribute : public ::System::Attribute
 	{

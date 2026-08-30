@@ -5,12 +5,12 @@
 namespace RPG::Client { class TransferMandatoryParametersBehavior; }
 namespace System { class String; }
 
-#define RPG_CLIENT_TRANSFERMANDATORYPARAMETERSMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xD7310D0)
-#define RPG_CLIENT_TRANSFERMANDATORYPARAMETERSMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xD731120)
+#define RPG_CLIENT_TRANSFERMANDATORYPARAMETERSMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xE283620)
+#define RPG_CLIENT_TRANSFERMANDATORYPARAMETERSMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xE283670)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TransferMandatoryParametersMonoPlugin_TypeDefinitionIndex = 67159;
+	inline static constexpr unsigned int TransferMandatoryParametersMonoPlugin_TypeDefinitionIndex = 70278;
 
 	class TransferMandatoryParametersMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::TransferMandatoryParametersBehavior*>
 	{

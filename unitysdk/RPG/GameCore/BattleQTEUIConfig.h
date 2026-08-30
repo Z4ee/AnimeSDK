@@ -7,12 +7,12 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_BATTLEQTEUICONFIG_METHOD_2_B7E1BF105869A688_OFFSET UNITYSDK_OFFSET(0x1B203D40)
-#define RPG_GAMECORE_BATTLEQTEUICONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B203FF0)
+#define RPG_GAMECORE_BATTLEQTEUICONFIG_METHOD_2_54FD53255CA60E38_OFFSET UNITYSDK_OFFSET(0x1CE7EF60)
+#define RPG_GAMECORE_BATTLEQTEUICONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE7F230)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleQTEUIConfig_TypeDefinitionIndex = 22510;
+	inline static constexpr unsigned int BattleQTEUIConfig_TypeDefinitionIndex = 23082;
 
 	class BattleQTEUIConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -29,9 +29,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEQTEUICONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_B7E1BF105869A688(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BattleQTEUIConfig*& a2)
+		static ::System::Void Method_2_54FD53255CA60E38(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BattleQTEUIConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BattleQTEUIConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEQTEUICONFIG_METHOD_2_B7E1BF105869A688_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BattleQTEUIConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEQTEUICONFIG_METHOD_2_54FD53255CA60E38_OFFSET))(a1, a2);
 		}
 	};
 }

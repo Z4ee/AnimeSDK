@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_CA217ABF4E3B4F3F.h"
+#include "unitysdk/Class_1_34917908B7833130.h"
 #include "unitysdk/RPG/GameCore/RogueTitanType.h"
 
 namespace RPG::Client { class LocalizedText; }
@@ -11,39 +11,39 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 namespace UnityEngine { class Animator; }
 namespace UnityEngine::UI { class Image; }
 
-#define CLASS_2_9B97BC1FA2EDDEBE_METHOD_2_047914517574764A_OFFSET UNITYSDK_OFFSET(0x11FA3350)
-#define CLASS_2_9B97BC1FA2EDDEBE_METHOD_2_1CBB0D1F7AEE7F0E_OFFSET UNITYSDK_OFFSET(0x11FA32F0)
-#define CLASS_2_9B97BC1FA2EDDEBE_METHOD_2_2D7EF60D795B28AE_OFFSET UNITYSDK_OFFSET(0x11FA2C70)
-#define CLASS_2_9B97BC1FA2EDDEBE_METHOD_2_BDED79D5C4FAAACD_OFFSET UNITYSDK_OFFSET(0x11FA36B0)
-#define CLASS_2_9B97BC1FA2EDDEBE_METHOD_2_BF9C25E762BD53B3_OFFSET UNITYSDK_OFFSET(0x11FA2BB0)
-#define CLASS_2_9B97BC1FA2EDDEBE__CCTOR_OFFSET UNITYSDK_OFFSET(0x11FA37E0)
-#define CLASS_2_9B97BC1FA2EDDEBE__CTOR_OFFSET UNITYSDK_OFFSET(0x11FA3790)
-#define CLASS_2_9B97BC1FA2EDDEBE__ONBIND_OFFSET UNITYSDK_OFFSET(0x11FA2AD0)
+#define CLASS_2_9B97BC1FA2EDDEBE_METHOD_2_047914517574764A_OFFSET UNITYSDK_OFFSET(0x12E8B010)
+#define CLASS_2_9B97BC1FA2EDDEBE_METHOD_2_1CBB0D1F7AEE7F0E_OFFSET UNITYSDK_OFFSET(0x12E8AFB0)
+#define CLASS_2_9B97BC1FA2EDDEBE_METHOD_2_2D7EF60D795B28AE_OFFSET UNITYSDK_OFFSET(0x12E8A920)
+#define CLASS_2_9B97BC1FA2EDDEBE_METHOD_2_BDED79D5C4FAAACD_OFFSET UNITYSDK_OFFSET(0x12E8B370)
+#define CLASS_2_9B97BC1FA2EDDEBE_METHOD_2_BF9C25E762BD53B3_OFFSET UNITYSDK_OFFSET(0x12E8A860)
+#define CLASS_2_9B97BC1FA2EDDEBE__CCTOR_OFFSET UNITYSDK_OFFSET(0x12E8B4A0)
+#define CLASS_2_9B97BC1FA2EDDEBE__CTOR_OFFSET UNITYSDK_OFFSET(0x12E8B450)
+#define CLASS_2_9B97BC1FA2EDDEBE__ONBIND_OFFSET UNITYSDK_OFFSET(0x12E8A780)
 
-inline static constexpr unsigned int Class_2_9B97BC1FA2EDDEBE_TypeDefinitionIndex = 69052;
+inline static constexpr unsigned int Class_2_9B97BC1FA2EDDEBE_TypeDefinitionIndex = 72251;
 
-class Class_2_9B97BC1FA2EDDEBE : public ::Class_1_CA217ABF4E3B4F3F
+class Class_2_9B97BC1FA2EDDEBE : public ::Class_1_34917908B7833130
 {
 public:
-	static ::System::Int32* StaticGet_Field_2_0()
+	static ::System::Int32* StaticGet_PAFPPCAMLDF()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_2_9B97BC1FA2EDDEBE_TypeDefinitionIndex)->GetStaticField(0x4770);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_2_9B97BC1FA2EDDEBE_TypeDefinitionIndex)->GetStaticField(0x13040);
 	}
-	static ::System::Int32* StaticGet_Field_2_1()
+	static ::System::Int32* StaticGet_HEFPDOBFKGF()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_2_9B97BC1FA2EDDEBE_TypeDefinitionIndex)->GetStaticField(0x4774);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_2_9B97BC1FA2EDDEBE_TypeDefinitionIndex)->GetStaticField(0x13044);
 	}
-	static ::System::Int32* StaticGet_Field_2_2()
+	static ::System::Int32* StaticGet_NLGNEJMAGIG()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_2_9B97BC1FA2EDDEBE_TypeDefinitionIndex)->GetStaticField(0x4778);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_2_9B97BC1FA2EDDEBE_TypeDefinitionIndex)->GetStaticField(0x13048);
 	}
-	::RPG::Client::LocalizedText* Field_2_3; // 0x60
-	::UnityEngine::UI::Image* Field_2_4; // 0x68
-	::System::Collections::Generic::HashSet_1<::System::UInt32>* Field_2_5; // 0x70
-	::UnityEngine::Animator* Field_2_6; // 0x78
-	::System::UInt32 Field_2_7; // 0x80
-	::System::Boolean Field_2_8; // 0x84
-	::RPG::GameCore::RogueTitanType Field_2_9; // 0x88
+	::System::Collections::Generic::HashSet_1<::System::UInt32>* MPBEGICPCAI; // 0x60
+	::UnityEngine::UI::Image* HPCAJDKDMEI; // 0x68
+	::UnityEngine::Animator* APPGGMLEPLN; // 0x70
+	::RPG::Client::LocalizedText* DLNBAPDCFLI; // 0x78
+	::RPG::GameCore::RogueTitanType EOPLFIBLPHF; // 0x80
+	::System::Boolean FMNEEONAMNO; // 0x84
+	::System::UInt32 IACHHFMCKMC; // 0x88
 
 	::System::Void _ctor()
 	{

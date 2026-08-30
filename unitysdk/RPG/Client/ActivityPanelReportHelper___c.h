@@ -5,24 +5,24 @@
 namespace RPG::Client { class ActivityTagData; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_ACTIVITYPANELREPORTHELPER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xBC41BF0)
-#define RPG_CLIENT_ACTIVITYPANELREPORTHELPER___C__CTOR_OFFSET UNITYSDK_OFFSET(0xBC41C30)
-#define RPG_CLIENT_ACTIVITYPANELREPORTHELPER___C__REPORTSHOWRESIDENTACTIVITYDETAIL_B__8_0_OFFSET UNITYSDK_OFFSET(0xBC41C40)
+#define RPG_CLIENT_ACTIVITYPANELREPORTHELPER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC661440)
+#define RPG_CLIENT_ACTIVITYPANELREPORTHELPER___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC661480)
+#define RPG_CLIENT_ACTIVITYPANELREPORTHELPER___C__REPORTSHOWRESIDENTACTIVITYDETAIL_B__8_0_OFFSET UNITYSDK_OFFSET(0xC661490)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityPanelReportHelper___c_TypeDefinitionIndex = 58969;
+	inline static constexpr unsigned int ActivityPanelReportHelper___c_TypeDefinitionIndex = 61804;
 
 	class ActivityPanelReportHelper___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::RPG::Client::ActivityTagData*, ::System::UInt32>** StaticGet___9__8_0()
 		{
-			return (::System::Func_2<::RPG::Client::ActivityTagData*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(ActivityPanelReportHelper___c_TypeDefinitionIndex)->GetStaticField(0x444D0);
+			return (::System::Func_2<::RPG::Client::ActivityTagData*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(ActivityPanelReportHelper___c_TypeDefinitionIndex)->GetStaticField(0x63240);
 		}
 		static ::RPG::Client::ActivityPanelReportHelper___c** StaticGet___9()
 		{
-			return (::RPG::Client::ActivityPanelReportHelper___c**)Il2CppClass::FromTypeDefinitionIndex(ActivityPanelReportHelper___c_TypeDefinitionIndex)->GetStaticField(0x444D8);
+			return (::RPG::Client::ActivityPanelReportHelper___c**)Il2CppClass::FromTypeDefinitionIndex(ActivityPanelReportHelper___c_TypeDefinitionIndex)->GetStaticField(0x63248);
 		}
 
 		static ::System::Void _cctor()

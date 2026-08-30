@@ -2,35 +2,35 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-class Class_1_4C501FFF2580446A;
+class Class_1_1D2FF45AB3D519C6;
 namespace RPG::GameCore { class GameEntity; }
 namespace System::Collections::Generic { template <typename T> class LinkedListNode_1; }
 
-#define STRUCT_2_FA7629C824961FD2_METHOD_2_1D4018D4200358D0_OFFSET UNITYSDK_OFFSET(0x2D05360)
-#define STRUCT_2_FA7629C824961FD2_METHOD_2_2A6B87C525933554_OFFSET UNITYSDK_OFFSET(0x2D053C0)
-#define STRUCT_2_FA7629C824961FD2_METHOD_2_88FDFD429374B36A_OFFSET UNITYSDK_OFFSET(0x2D05470)
-#define STRUCT_2_FA7629C824961FD2_METHOD_2_E63F710C44A60FED_OFFSET UNITYSDK_OFFSET(0x2D05410)
+#define STRUCT_2_FA7629C824961FD2_METHOD_2_1D4018D4200358D0_OFFSET UNITYSDK_OFFSET(0x2DEDA70)
+#define STRUCT_2_FA7629C824961FD2_METHOD_2_2A6B87C525933554_OFFSET UNITYSDK_OFFSET(0x2DEDAD0)
+#define STRUCT_2_FA7629C824961FD2_METHOD_2_88FDFD429374B36A_OFFSET UNITYSDK_OFFSET(0x2DEDB80)
+#define STRUCT_2_FA7629C824961FD2_METHOD_2_E63F710C44A60FED_OFFSET UNITYSDK_OFFSET(0x2DEDB20)
 
-inline static constexpr unsigned int Struct_2_FA7629C824961FD2_TypeDefinitionIndex = 55237;
+inline static constexpr unsigned int Struct_2_FA7629C824961FD2_TypeDefinitionIndex = 57961;
 
 struct alignas(8) Struct_2_FA7629C824961FD2
 {
-	::Class_1_4C501FFF2580446A* Field_2_0; // 0x10
-	::System::Collections::Generic::LinkedListNode_1<::RPG::GameCore::GameEntity*>* Field_2_1; // 0x18
+	::Class_1_1D2FF45AB3D519C6* NDJEAPFGBOD; // 0x10
+	::System::Collections::Generic::LinkedListNode_1<::RPG::GameCore::GameEntity*>* LKFELOKEOIG; // 0x18
 
 	::System::Boolean Method_2_1D4018D4200358D0()
 	{
 		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_FA7629C824961FD2_METHOD_2_1D4018D4200358D0_OFFSET))(this);
 	}
 
-	::System::Boolean Method_2_2A6B87C525933554(::Class_1_4C501FFF2580446A* a1)
+	::System::Boolean Method_2_2A6B87C525933554(::Class_1_1D2FF45AB3D519C6* a1)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::Class_1_4C501FFF2580446A*))((::PBYTE)hIl2Cpp + STRUCT_2_FA7629C824961FD2_METHOD_2_2A6B87C525933554_OFFSET))(this, a1);
+		return ((::System::Boolean(*)(::PVOID, ::Class_1_1D2FF45AB3D519C6*))((::PBYTE)hIl2Cpp + STRUCT_2_FA7629C824961FD2_METHOD_2_2A6B87C525933554_OFFSET))(this, a1);
 	}
 
-	::System::Void Method_2_E63F710C44A60FED(::Class_1_4C501FFF2580446A* a1, ::System::Collections::Generic::LinkedListNode_1<::RPG::GameCore::GameEntity*>* a2)
+	::System::Void Method_2_E63F710C44A60FED(::Class_1_1D2FF45AB3D519C6* a1, ::System::Collections::Generic::LinkedListNode_1<::RPG::GameCore::GameEntity*>* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_1_4C501FFF2580446A*, ::System::Collections::Generic::LinkedListNode_1<::RPG::GameCore::GameEntity*>*))((::PBYTE)hIl2Cpp + STRUCT_2_FA7629C824961FD2_METHOD_2_E63F710C44A60FED_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::Class_1_1D2FF45AB3D519C6*, ::System::Collections::Generic::LinkedListNode_1<::RPG::GameCore::GameEntity*>*))((::PBYTE)hIl2Cpp + STRUCT_2_FA7629C824961FD2_METHOD_2_E63F710C44A60FED_OFFSET))(this, a1, a2);
 	}
 
 	::System::Collections::Generic::LinkedListNode_1<::RPG::GameCore::GameEntity*>* Method_2_88FDFD429374B36A()

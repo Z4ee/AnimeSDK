@@ -1,20 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_CA217ABF4E3B4F3F.h"
+#include "unitysdk/Class_1_34917908B7833130.h"
 
 namespace System { class String; }
 namespace UnityEngine::UI { class Image; }
 
-#define CLASS_2_A12205C602394C2F_METHOD_2_4D92CAACEA159BBF_OFFSET UNITYSDK_OFFSET(0x15290BB0)
-#define CLASS_2_A12205C602394C2F__CTOR_OFFSET UNITYSDK_OFFSET(0x15290C80)
-#define CLASS_2_A12205C602394C2F__ONBIND_OFFSET UNITYSDK_OFFSET(0x15290B30)
+#define CLASS_2_A12205C602394C2F_METHOD_2_4D92CAACEA159BBF_OFFSET UNITYSDK_OFFSET(0x161FF680)
+#define CLASS_2_A12205C602394C2F__CTOR_OFFSET UNITYSDK_OFFSET(0x161FF750)
+#define CLASS_2_A12205C602394C2F__ONBIND_OFFSET UNITYSDK_OFFSET(0x161FF600)
 
-inline static constexpr unsigned int Class_2_A12205C602394C2F_TypeDefinitionIndex = 68115;
+inline static constexpr unsigned int Class_2_A12205C602394C2F_TypeDefinitionIndex = 71291;
 
-class Class_2_A12205C602394C2F : public ::Class_1_CA217ABF4E3B4F3F
+class Class_2_A12205C602394C2F : public ::Class_1_34917908B7833130
 {
 public:
-	::UnityEngine::UI::Image* Field_2_0; // 0x60
+	::UnityEngine::UI::Image* LPMHMLOGPPN; // 0x60
 
 	::System::Void _ctor()
 	{

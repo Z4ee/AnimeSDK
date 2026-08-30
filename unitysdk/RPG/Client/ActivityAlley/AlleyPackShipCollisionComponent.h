@@ -6,18 +6,18 @@
 namespace System { template <typename T1, typename T2> class Tuple_2; }
 namespace UnityEngine { class Collider; }
 
-#define RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKSHIPCOLLISIONCOMPONENT_CHECKBOUNDINTERSECT_OFFSET UNITYSDK_OFFSET(0xBAE8510)
-#define RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKSHIPCOLLISIONCOMPONENT_INIT_OFFSET UNITYSDK_OFFSET(0xBAE6B30)
-#define RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKSHIPCOLLISIONCOMPONENT__CTOR_OFFSET UNITYSDK_OFFSET(0xBAF28E0)
+#define RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKSHIPCOLLISIONCOMPONENT_CHECKBOUNDINTERSECT_OFFSET UNITYSDK_OFFSET(0xC4C2550)
+#define RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKSHIPCOLLISIONCOMPONENT_INIT_OFFSET UNITYSDK_OFFSET(0xC4C0B80)
+#define RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKSHIPCOLLISIONCOMPONENT__CTOR_OFFSET UNITYSDK_OFFSET(0xC4CC950)
 
 namespace RPG::Client::ActivityAlley
 {
-	inline static constexpr unsigned int AlleyPackShipCollisionComponent_TypeDefinitionIndex = 70698;
+	inline static constexpr unsigned int AlleyPackShipCollisionComponent_TypeDefinitionIndex = 73997;
 
 	class AlleyPackShipCollisionComponent : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		::UnityEngine::Collider* Field_5_0; // 0x18
+		::UnityEngine::Collider* MLJOMELBBMM; // 0x18
 
 		::System::Void _ctor()
 		{

@@ -4,19 +4,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_PLANETFESRAISECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B6C38E0)
-#define RPG_GAMECORE_PLANETFESRAISECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6C3A20)
+#define RPG_GAMECORE_PLANETFESRAISECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D345800)
+#define RPG_GAMECORE_PLANETFESRAISECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D345940)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlanetFesRaiseConfigRow_TypeDefinitionIndex = 11776;
+	inline static constexpr unsigned int PlanetFesRaiseConfigRow_TypeDefinitionIndex = 12165;
 
 	class PlanetFesRaiseConfigRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 RaiseCurveID; // 0x10
+		::System::UInt32 GoldCost; // 0x10
 		::System::UInt32 RaiseValue; // 0x14
-		::System::UInt32 GoldCost; // 0x18
+		::System::UInt32 RaiseCurveID; // 0x18
 
 		::System::Void _ctor()
 		{

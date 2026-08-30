@@ -5,11 +5,11 @@
 namespace Google::Protobuf { class IExtensionValue; }
 namespace System { class Type; }
 
-#define GOOGLE_PROTOBUF_EXTENSION_GET_FIELDNUMBER_OFFSET UNITYSDK_OFFSET(0x197C6960)
+#define GOOGLE_PROTOBUF_EXTENSION_GET_FIELDNUMBER_OFFSET UNITYSDK_OFFSET(0x1B351B50)
 
 namespace Google::Protobuf
 {
-	inline static constexpr unsigned int Extension_TypeDefinitionIndex = 5375;
+	inline static constexpr unsigned int Extension_TypeDefinitionIndex = 5364;
 
 	class Extension : public ::System::Object
 	{

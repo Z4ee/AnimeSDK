@@ -6,12 +6,12 @@
 namespace RPG::Client::ActivityIdleLive { class SpEquipInventoryDisplayData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_SPEQUIPINVENTORYDISPLAYDATA___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBBDE4E0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_SPEQUIPINVENTORYDISPLAYDATA___C__DISPLAYCLASS2_0__WEARSTRONGESTEQUIPS_B__0_OFFSET UNITYSDK_OFFSET(0xBBDF130)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_SPEQUIPINVENTORYDISPLAYDATA___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC5FC4E0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_SPEQUIPINVENTORYDISPLAYDATA___C__DISPLAYCLASS2_0__WEARSTRONGESTEQUIPS_B__0_OFFSET UNITYSDK_OFFSET(0xC5FD130)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int SpEquipInventoryDisplayData___c__DisplayClass2_0_TypeDefinitionIndex = 71833;
+	inline static constexpr unsigned int SpEquipInventoryDisplayData___c__DisplayClass2_0_TypeDefinitionIndex = 75139;
 
 	class SpEquipInventoryDisplayData___c__DisplayClass2_0 : public ::System::Object
 	{

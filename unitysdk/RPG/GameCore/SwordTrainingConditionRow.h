@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_SWORDTRAININGCONDITIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B935120)
-#define RPG_GAMECORE_SWORDTRAININGCONDITIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9352B0)
+#define RPG_GAMECORE_SWORDTRAININGCONDITIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D5923E0)
+#define RPG_GAMECORE_SWORDTRAININGCONDITIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D592570)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SwordTrainingConditionRow_TypeDefinitionIndex = 11985;
+	inline static constexpr unsigned int SwordTrainingConditionRow_TypeDefinitionIndex = 12374;
 
 	class SwordTrainingConditionRow : public ::System::Object
 	{

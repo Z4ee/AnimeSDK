@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class BaseChimeraDuelValueGetter; }
 
-#define RPG_GAMECORE_CHIMERADUELPROBILITYCOMPAREPREDICATE_METHOD_2_EEC130A68813D901_OFFSET UNITYSDK_OFFSET(0x1B34FBB0)
-#define RPG_GAMECORE_CHIMERADUELPROBILITYCOMPAREPREDICATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B34FCE0)
+#define RPG_GAMECORE_CHIMERADUELPROBILITYCOMPAREPREDICATE_METHOD_2_EEC130A68813D901_OFFSET UNITYSDK_OFFSET(0x1CFCC490)
+#define RPG_GAMECORE_CHIMERADUELPROBILITYCOMPAREPREDICATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFCC5C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraDuelProbilityComparePredicate_TypeDefinitionIndex = 15368;
+	inline static constexpr unsigned int ChimeraDuelProbilityComparePredicate_TypeDefinitionIndex = 15805;
 
 	class ChimeraDuelProbilityComparePredicate : public ::RPG::GameCore::JsonConfig
 	{

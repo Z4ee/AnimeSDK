@@ -4,12 +4,12 @@
 #include "unitysdk/HoudiniEngineUnity/HAPI_XYZOrder.h"
 #include "unitysdk/System/ValueType.h"
 
-#define HOUDINIENGINEUNITY_HAPI_TRANSFORMEULER_INIT_OFFSET UNITYSDK_OFFSET(0x2E9EFE0)
-#define HOUDINIENGINEUNITY_HAPI_TRANSFORMEULER__CTOR_OFFSET UNITYSDK_OFFSET(0x2E9EF50)
+#define HOUDINIENGINEUNITY_HAPI_TRANSFORMEULER_INIT_OFFSET UNITYSDK_OFFSET(0x2FD2320)
+#define HOUDINIENGINEUNITY_HAPI_TRANSFORMEULER__CTOR_OFFSET UNITYSDK_OFFSET(0x2FD2290)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HAPI_TransformEuler_TypeDefinitionIndex = 38335;
+	inline static constexpr unsigned int HAPI_TransformEuler_TypeDefinitionIndex = 39194;
 
 	struct alignas(8) HAPI_TransformEuler
 	{

@@ -5,12 +5,12 @@
 
 namespace System { class String; }
 
-#define HOUDINIENGINEUNITY_HEU_HANDLEPARAMBINDING_ISEQUIVALENTTO_OFFSET UNITYSDK_OFFSET(0x198785C0)
-#define HOUDINIENGINEUNITY_HEU_HANDLEPARAMBINDING__CTOR_OFFSET UNITYSDK_OFFSET(0x19877350)
+#define HOUDINIENGINEUNITY_HEU_HANDLEPARAMBINDING_ISEQUIVALENTTO_OFFSET UNITYSDK_OFFSET(0x1B403CC0)
+#define HOUDINIENGINEUNITY_HEU_HANDLEPARAMBINDING__CTOR_OFFSET UNITYSDK_OFFSET(0x1B402B70)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_HandleParamBinding_TypeDefinitionIndex = 38372;
+	inline static constexpr unsigned int HEU_HandleParamBinding_TypeDefinitionIndex = 39231;
 
 	class HEU_HandleParamBinding : public ::System::Object
 	{

@@ -5,16 +5,16 @@
 class Class_2_48488E8DBD9F6BCE;
 namespace RPG::GameCore { class DiceCombatTaskConfig_StackAdditiveProperty; }
 
-#define CLASS_2_767B5D7E22B81FCC_METHOD_2_D3129FE8DF635B48_OFFSET UNITYSDK_OFFSET(0x1A66FC50)
-#define CLASS_2_767B5D7E22B81FCC__CTOR_OFFSET UNITYSDK_OFFSET(0x1A66FC40)
+#define CLASS_2_767B5D7E22B81FCC_METHOD_2_D3129FE8DF635B48_OFFSET UNITYSDK_OFFSET(0x1C27F9D0)
+#define CLASS_2_767B5D7E22B81FCC__CTOR_OFFSET UNITYSDK_OFFSET(0x1C27F9C0)
 
-inline static constexpr unsigned int Class_2_767B5D7E22B81FCC_TypeDefinitionIndex = 34749;
+inline static constexpr unsigned int Class_2_767B5D7E22B81FCC_TypeDefinitionIndex = 35610;
 
 class Class_2_767B5D7E22B81FCC : public ::Class_1_B55037134F9E6688
 {
 public:
-	::Class_2_48488E8DBD9F6BCE* Field_2_0; // 0x18
-	::RPG::GameCore::DiceCombatTaskConfig_StackAdditiveProperty* Field_2_1; // 0x20
+	::RPG::GameCore::DiceCombatTaskConfig_StackAdditiveProperty* IGHAHBNLIJA; // 0x18
+	::Class_2_48488E8DBD9F6BCE* EEFMDEHLLFI; // 0x20
 
 	::System::Void _ctor(::RPG::GameCore::DiceCombatTaskConfig_StackAdditiveProperty* a1, ::Class_2_48488E8DBD9F6BCE* a2)
 	{

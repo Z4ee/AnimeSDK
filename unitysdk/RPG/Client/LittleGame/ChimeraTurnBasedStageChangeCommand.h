@@ -6,18 +6,18 @@
 namespace RPG::Client::Prop { class ChimeraBattlePuzzleBoard; }
 namespace System { class Action; }
 
-#define RPG_CLIENT_LITTLEGAME_CHIMERATURNBASEDSTAGECHANGECOMMAND_EXECUTE_OFFSET UNITYSDK_OFFSET(0xC98D050)
-#define RPG_CLIENT_LITTLEGAME_CHIMERATURNBASEDSTAGECHANGECOMMAND__CTOR_OFFSET UNITYSDK_OFFSET(0xC98D0A0)
+#define RPG_CLIENT_LITTLEGAME_CHIMERATURNBASEDSTAGECHANGECOMMAND_EXECUTE_OFFSET UNITYSDK_OFFSET(0xD4CD240)
+#define RPG_CLIENT_LITTLEGAME_CHIMERATURNBASEDSTAGECHANGECOMMAND__CTOR_OFFSET UNITYSDK_OFFSET(0xD4CD290)
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int ChimeraTurnBasedStageChangeCommand_TypeDefinitionIndex = 72724;
+	inline static constexpr unsigned int ChimeraTurnBasedStageChangeCommand_TypeDefinitionIndex = 76160;
 
 	class ChimeraTurnBasedStageChangeCommand : public ::System::Object
 	{
 	public:
-		::System::UInt32 _TurnIndex; // 0x10
-		::RPG::GameCore::ChimeraTurnBasedStage NewStage; // 0x14
+		::RPG::GameCore::ChimeraTurnBasedStage NewStage; // 0x10
+		::System::UInt32 _TurnIndex; // 0x14
 
 		::System::Void _ctor(::RPG::GameCore::ChimeraTurnBasedStage a1, ::System::UInt32 a2)
 		{

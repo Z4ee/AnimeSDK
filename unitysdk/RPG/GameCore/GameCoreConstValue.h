@@ -45,19 +45,19 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_GAMECORE_GAMECORECONSTVALUE_CHECKMODIFIEREVENTCANRECALL_OFFSET UNITYSDK_OFFSET(0x1B4C2060)
-#define RPG_GAMECORE_GAMECORECONSTVALUE_FINDMODIFIERCUSTOMEVENTCONFIG_OFFSET UNITYSDK_OFFSET(0x1B4C1540)
-#define RPG_GAMECORE_GAMECORECONSTVALUE_FINDMODIFIERCUSTOMEVENTGROUP_OFFSET UNITYSDK_OFFSET(0x1B4C16D0)
-#define RPG_GAMECORE_GAMECORECONSTVALUE_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B4B2E10)
-#define RPG_GAMECORE_GAMECORECONSTVALUE_GETPROPERTYADSORPTIONCONFIG_OFFSET UNITYSDK_OFFSET(0x1B4C21C0)
-#define RPG_GAMECORE_GAMECORECONSTVALUE_GET_REVERSEDMODIFIERSTATUSTYPEIMMUNEMAP_OFFSET UNITYSDK_OFFSET(0x1B4C1C60)
-#define RPG_GAMECORE_GAMECORECONSTVALUE_GET_REVERSEMODIFIERBEHAVIORFLAGIMMUNEMAP_OFFSET UNITYSDK_OFFSET(0x1B4C1860)
-#define RPG_GAMECORE_GAMECORECONSTVALUE_ISINCHARACTERIDGROUP_OFFSET UNITYSDK_OFFSET(0x1B4C2450)
-#define RPG_GAMECORE_GAMECORECONSTVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4C1240)
+#define RPG_GAMECORE_GAMECORECONSTVALUE_CHECKMODIFIEREVENTCANRECALL_OFFSET UNITYSDK_OFFSET(0x1D13C160)
+#define RPG_GAMECORE_GAMECORECONSTVALUE_FINDMODIFIERCUSTOMEVENTCONFIG_OFFSET UNITYSDK_OFFSET(0x1D13B640)
+#define RPG_GAMECORE_GAMECORECONSTVALUE_FINDMODIFIERCUSTOMEVENTGROUP_OFFSET UNITYSDK_OFFSET(0x1D13B7D0)
+#define RPG_GAMECORE_GAMECORECONSTVALUE_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D12C2F0)
+#define RPG_GAMECORE_GAMECORECONSTVALUE_GETPROPERTYADSORPTIONCONFIG_OFFSET UNITYSDK_OFFSET(0x1D13C2C0)
+#define RPG_GAMECORE_GAMECORECONSTVALUE_GET_REVERSEDMODIFIERSTATUSTYPEIMMUNEMAP_OFFSET UNITYSDK_OFFSET(0x1D13BD60)
+#define RPG_GAMECORE_GAMECORECONSTVALUE_GET_REVERSEMODIFIERBEHAVIORFLAGIMMUNEMAP_OFFSET UNITYSDK_OFFSET(0x1D13B960)
+#define RPG_GAMECORE_GAMECORECONSTVALUE_ISINCHARACTERIDGROUP_OFFSET UNITYSDK_OFFSET(0x1D13C550)
+#define RPG_GAMECORE_GAMECORECONSTVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D13B340)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GameCoreConstValue_TypeDefinitionIndex = 16433;
+	inline static constexpr unsigned int GameCoreConstValue_TypeDefinitionIndex = 16923;
 
 	class GameCoreConstValue : public ::RPG::GameCore::JsonConfig
 	{
@@ -209,12 +209,14 @@ namespace RPG::GameCore
 		::System::Single AbortMoveSkipRootMotionThreshTime; // 0x3DC
 		::System::String* EmptyAvatarPrefabPath; // 0x3E0
 		::Il2CppArray<::RPG::GameCore::CharacterIDGroupConfig*>* CharacterIDGroups; // 0x3E8
-		::Class_1_1C30CE192ABE4C54* GlobalAliasLookup; // 0x3F0
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::ModifierBehaviorFlag, ::System::Collections::Generic::List_1<::RPG::GameCore::ModifierBehaviorFlag>*>* _reverseModifierBehaviorFlagImmuneMap; // 0x3F8
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::EnumStatusType, ::System::Collections::Generic::List_1<::RPG::GameCore::ModifierBehaviorFlag>*>* _reversedModifierStatusTypeImmuneMap; // 0x400
-		::Il2CppArray<::System::UInt32>* _ForbidRecallModifierEventMask; // 0x408
-		::Il2CppArray<::RPG::GameCore::PropertyAdsorptionConfig*>* _PropertyAdsorptionThreshArray; // 0x410
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::System::UInt32>*>* _CharacterIDGroupMap; // 0x418
+		::System::String* NpcMonsterInvasionCommonAbility; // 0x3F0
+		::Il2CppArray<::System::String*>* MonsterInvasionSeq; // 0x3F8
+		::Class_1_1C30CE192ABE4C54* GlobalAliasLookup; // 0x400
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::ModifierBehaviorFlag, ::System::Collections::Generic::List_1<::RPG::GameCore::ModifierBehaviorFlag>*>* _reverseModifierBehaviorFlagImmuneMap; // 0x408
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::EnumStatusType, ::System::Collections::Generic::List_1<::RPG::GameCore::ModifierBehaviorFlag>*>* _reversedModifierStatusTypeImmuneMap; // 0x410
+		::Il2CppArray<::System::UInt32>* _ForbidRecallModifierEventMask; // 0x418
+		::Il2CppArray<::RPG::GameCore::PropertyAdsorptionConfig*>* _PropertyAdsorptionThreshArray; // 0x420
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::System::UInt32>*>* _CharacterIDGroupMap; // 0x428
 
 		::System::Void _ctor()
 		{

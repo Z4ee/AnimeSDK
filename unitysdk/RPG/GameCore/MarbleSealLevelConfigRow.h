@@ -5,22 +5,22 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MARBLESEALLEVELCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B5BFEE0)
-#define RPG_GAMECORE_MARBLESEALLEVELCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5C01D0)
+#define RPG_GAMECORE_MARBLESEALLEVELCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D23C530)
+#define RPG_GAMECORE_MARBLESEALLEVELCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D23C820)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MarbleSealLevelConfigRow_TypeDefinitionIndex = 11439;
+	inline static constexpr unsigned int MarbleSealLevelConfigRow_TypeDefinitionIndex = 11828;
 
 	class MarbleSealLevelConfigRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* SkillParamList; // 0x10
-		::RPG::Client::TextID LevelUpDesc; // 0x18
+		::RPG::Client::TextID LevelUpTitle; // 0x18
 		::System::UInt32 ID; // 0x28
-		::System::UInt32 UnlockSkillID; // 0x2C
-		::System::UInt32 Level; // 0x30
-		::RPG::Client::TextID LevelUpTitle; // 0x38
+		::System::UInt32 Level; // 0x2C
+		::System::UInt32 UnlockSkillID; // 0x30
+		::RPG::Client::TextID LevelUpDesc; // 0x38
 
 		::System::Void _ctor()
 		{

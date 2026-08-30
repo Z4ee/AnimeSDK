@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByViewModeSwitchEmptyServant; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_03A2E882C942AB94_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB6722C0)
-#define CLASS_3_03A2E882C942AB94__CTOR_OFFSET UNITYSDK_OFFSET(0xB672290)
+#define CLASS_3_03A2E882C942AB94_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC077340)
+#define CLASS_3_03A2E882C942AB94__CTOR_OFFSET UNITYSDK_OFFSET(0xC077310)
 
-inline static constexpr unsigned int Class_3_03A2E882C942AB94_TypeDefinitionIndex = 50744;
+inline static constexpr unsigned int Class_3_03A2E882C942AB94_TypeDefinitionIndex = 53426;
 
 class Class_3_03A2E882C942AB94 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByViewModeSwitchEmptyServant*>
 {

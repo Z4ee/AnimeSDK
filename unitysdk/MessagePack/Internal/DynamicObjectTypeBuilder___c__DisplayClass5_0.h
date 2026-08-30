@@ -5,12 +5,12 @@
 namespace MessagePack::Internal { class ObjectSerializationInfo_EmittableMember; }
 namespace System { class Type; }
 
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS5_0__BUILDCUSTOMFORMATTERFIELD_B__1_OFFSET UNITYSDK_OFFSET(0x19B17E20)
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19B0CA20)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS5_0__BUILDCUSTOMFORMATTERFIELD_B__1_OFFSET UNITYSDK_OFFSET(0x1B6A7000)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B69BB20)
 
 namespace MessagePack::Internal
 {
-	inline static constexpr unsigned int DynamicObjectTypeBuilder___c__DisplayClass5_0_TypeDefinitionIndex = 7290;
+	inline static constexpr unsigned int DynamicObjectTypeBuilder___c__DisplayClass5_0_TypeDefinitionIndex = 7276;
 
 	class DynamicObjectTypeBuilder___c__DisplayClass5_0 : public ::System::Object
 	{

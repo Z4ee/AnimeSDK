@@ -9,25 +9,25 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace XLua { class LuaTable; }
 
-#define RPG_CLIENT_POPUPMENUPROXY_HIDE_OFFSET UNITYSDK_OFFSET(0xD0B9970)
-#define RPG_CLIENT_POPUPMENUPROXY_INITDELEGATE_OFFSET UNITYSDK_OFFSET(0xD0B99D0)
-#define RPG_CLIENT_POPUPMENUPROXY_SETOPTIONS_OFFSET UNITYSDK_OFFSET(0xD0B9830)
-#define RPG_CLIENT_POPUPMENUPROXY_SETPOSITION_OFFSET UNITYSDK_OFFSET(0xD0B98A0)
-#define RPG_CLIENT_POPUPMENUPROXY_SHOW_OFFSET UNITYSDK_OFFSET(0xD0B9910)
-#define RPG_CLIENT_POPUPMENUPROXY__CTOR_OFFSET UNITYSDK_OFFSET(0xD0B9820)
+#define RPG_CLIENT_POPUPMENUPROXY_HIDE_OFFSET UNITYSDK_OFFSET(0xDBBC2B0)
+#define RPG_CLIENT_POPUPMENUPROXY_INITDELEGATE_OFFSET UNITYSDK_OFFSET(0xDBBC310)
+#define RPG_CLIENT_POPUPMENUPROXY_SETOPTIONS_OFFSET UNITYSDK_OFFSET(0xDBBC170)
+#define RPG_CLIENT_POPUPMENUPROXY_SETPOSITION_OFFSET UNITYSDK_OFFSET(0xDBBC1E0)
+#define RPG_CLIENT_POPUPMENUPROXY_SHOW_OFFSET UNITYSDK_OFFSET(0xDBBC250)
+#define RPG_CLIENT_POPUPMENUPROXY__CTOR_OFFSET UNITYSDK_OFFSET(0xDBBC160)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PopupMenuProxy_TypeDefinitionIndex = 69214;
+	inline static constexpr unsigned int PopupMenuProxy_TypeDefinitionIndex = 72414;
 
 	class PopupMenuProxy : public ::System::Object
 	{
 	public:
-		::System::Action_2<::XLua::LuaTable*, ::UnityEngine::Vector2>* _SetPositionDelegate; // 0x10
-		::System::Action_1<::XLua::LuaTable*>* _ShowDelegate; // 0x18
-		::System::Action_2<::XLua::LuaTable*, ::System::Collections::Generic::List_1<::RPG::Client::PopupMenuProxy_Option*>*>* _SetOptionsDelegate; // 0x20
+		::System::Action_2<::XLua::LuaTable*, ::System::Collections::Generic::List_1<::RPG::Client::PopupMenuProxy_Option*>*>* _SetOptionsDelegate; // 0x10
+		::System::Action_1<::XLua::LuaTable*>* _HideDelegate; // 0x18
+		::System::Action_2<::XLua::LuaTable*, ::UnityEngine::Vector2>* _SetPositionDelegate; // 0x20
 		::XLua::LuaTable* _LuaPopupMenuPanel; // 0x28
-		::System::Action_1<::XLua::LuaTable*>* _HideDelegate; // 0x30
+		::System::Action_1<::XLua::LuaTable*>* _ShowDelegate; // 0x30
 
 		::System::Void _ctor(::XLua::LuaTable* a1)
 		{

@@ -4,23 +4,23 @@
 
 namespace System::Collections { class Queue; }
 
-#define SYSTEM_COLLECTIONS_QUEUE_QUEUEENUMERATOR_CLONE_OFFSET UNITYSDK_OFFSET(0x19FBB180)
-#define SYSTEM_COLLECTIONS_QUEUE_QUEUEENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x19FBB2F0)
-#define SYSTEM_COLLECTIONS_QUEUE_QUEUEENUMERATOR_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x19FBB220)
-#define SYSTEM_COLLECTIONS_QUEUE_QUEUEENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x19FBB3B0)
-#define SYSTEM_COLLECTIONS_QUEUE_QUEUEENUMERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x19FBAE10)
+#define SYSTEM_COLLECTIONS_QUEUE_QUEUEENUMERATOR_CLONE_OFFSET UNITYSDK_OFFSET(0x1BBC01A0)
+#define SYSTEM_COLLECTIONS_QUEUE_QUEUEENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1BBC0310)
+#define SYSTEM_COLLECTIONS_QUEUE_QUEUEENUMERATOR_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1BBC0240)
+#define SYSTEM_COLLECTIONS_QUEUE_QUEUEENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1BBC03D0)
+#define SYSTEM_COLLECTIONS_QUEUE_QUEUEENUMERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1BBBFE50)
 
 namespace System::Collections
 {
-	inline static constexpr unsigned int Queue_QueueEnumerator_TypeDefinitionIndex = 1489;
+	inline static constexpr unsigned int Queue_QueueEnumerator_TypeDefinitionIndex = 1496;
 
 	class Queue_QueueEnumerator : public ::System::Object
 	{
 	public:
-		::System::Object* currentElement; // 0x10
-		::System::Collections::Queue* _q; // 0x18
-		::System::Int32 _index; // 0x20
-		::System::Int32 _version; // 0x24
+		::System::Collections::Queue* _q; // 0x10
+		::System::Object* currentElement; // 0x18
+		::System::Int32 _version; // 0x20
+		::System::Int32 _index; // 0x24
 
 		::System::Void _ctor(::System::Collections::Queue* a1)
 		{

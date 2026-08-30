@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_821;
+class Class_0_16E4307DCC419505_872;
 namespace System { class String; }
 
-#define CLASS_2_CAC1E7415A6E0BA8___C__DISPLAYCLASS9_0__COMPILE_B__0_OFFSET UNITYSDK_OFFSET(0x1555FE30)
-#define CLASS_2_CAC1E7415A6E0BA8___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1555FDA0)
+#define CLASS_2_CAC1E7415A6E0BA8___C__DISPLAYCLASS9_0__COMPILE_B__0_OFFSET UNITYSDK_OFFSET(0xB583800)
+#define CLASS_2_CAC1E7415A6E0BA8___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB583770)
 
-inline static constexpr unsigned int Class_2_CAC1E7415A6E0BA8___c__DisplayClass9_0_TypeDefinitionIndex = 62356;
+inline static constexpr unsigned int Class_2_CAC1E7415A6E0BA8___c__DisplayClass9_0_TypeDefinitionIndex = 65341;
 
 class Class_2_CAC1E7415A6E0BA8___c__DisplayClass9_0 : public ::System::Object
 {
@@ -20,8 +20,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_CAC1E7415A6E0BA8___C__DISPLAYCLASS9_0__CTOR_OFFSET))(this);
 	}
 
-	::System::Boolean _Compile_b__0(::Class_0_16E4307DCC419505_821* a1)
+	::System::Boolean _Compile_b__0(::Class_0_16E4307DCC419505_872* a1)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::Class_0_16E4307DCC419505_821*))((::PBYTE)hIl2Cpp + CLASS_2_CAC1E7415A6E0BA8___C__DISPLAYCLASS9_0__COMPILE_B__0_OFFSET))(this, a1);
+		return ((::System::Boolean(*)(::PVOID, ::Class_0_16E4307DCC419505_872*))((::PBYTE)hIl2Cpp + CLASS_2_CAC1E7415A6E0BA8___C__DISPLAYCLASS9_0__COMPILE_B__0_OFFSET))(this, a1);
 	}
 };

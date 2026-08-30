@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 
 namespace RPG::Client::FateRin::Card
 {
-	inline static constexpr unsigned int IFateRinCardDeckSectionViewModel_TypeDefinitionIndex = 76172;
+	inline static constexpr unsigned int IFateRinCardDeckSectionViewModel_TypeDefinitionIndex = 79805;
 
 	class IFateRinCardDeckSectionViewModel
 	{

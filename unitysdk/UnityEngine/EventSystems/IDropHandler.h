@@ -5,7 +5,7 @@ namespace UnityEngine::EventSystems { class PointerEventData; }
 
 namespace UnityEngine::EventSystems
 {
-	inline static constexpr unsigned int IDropHandler_TypeDefinitionIndex = 6081;
+	inline static constexpr unsigned int IDropHandler_TypeDefinitionIndex = 6911;
 
 	class IDropHandler
 	{

@@ -5,12 +5,12 @@
 namespace System::Collections::ObjectModel { template <typename T> class ReadOnlyCollection_1; }
 namespace System::Linq::Expressions { class Expression; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_SWITCHCASE_GET_BODY_OFFSET UNITYSDK_OFFSET(0x1CAC1EA0)
-#define SYSTEM_LINQ_EXPRESSIONS_SWITCHCASE_GET_TESTVALUES_OFFSET UNITYSDK_OFFSET(0x1CAC1E90)
+#define SYSTEM_LINQ_EXPRESSIONS_SWITCHCASE_GET_BODY_OFFSET UNITYSDK_OFFSET(0x1E76B860)
+#define SYSTEM_LINQ_EXPRESSIONS_SWITCHCASE_GET_TESTVALUES_OFFSET UNITYSDK_OFFSET(0x1E76B850)
 
 namespace System::Linq::Expressions
 {
-	inline static constexpr unsigned int SwitchCase_TypeDefinitionIndex = 3267;
+	inline static constexpr unsigned int SwitchCase_TypeDefinitionIndex = 3275;
 
 	class SwitchCase : public ::System::Object
 	{

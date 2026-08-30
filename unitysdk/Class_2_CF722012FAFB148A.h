@@ -7,10 +7,10 @@ namespace RPG::GameCore { class TargetFetchAliveSourceEntity; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_CF722012FAFB148A_TRANSFORM_OFFSET UNITYSDK_OFFSET(0xCDA1D20)
-#define CLASS_2_CF722012FAFB148A__CTOR_OFFSET UNITYSDK_OFFSET(0xCDA1D00)
+#define CLASS_2_CF722012FAFB148A_TRANSFORM_OFFSET UNITYSDK_OFFSET(0xDA9C820)
+#define CLASS_2_CF722012FAFB148A__CTOR_OFFSET UNITYSDK_OFFSET(0xDA9C800)
 
-inline static constexpr unsigned int Class_2_CF722012FAFB148A_TypeDefinitionIndex = 56514;
+inline static constexpr unsigned int Class_2_CF722012FAFB148A_TypeDefinitionIndex = 59298;
 
 class Class_2_CF722012FAFB148A : public ::RPG::GameCore::TargetSeqOperationImpl_1<::RPG::GameCore::TargetFetchAliveSourceEntity*>
 {

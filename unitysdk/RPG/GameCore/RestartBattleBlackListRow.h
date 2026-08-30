@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_RESTARTBATTLEBLACKLISTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B7257B0)
-#define RPG_GAMECORE_RESTARTBATTLEBLACKLISTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B725850)
+#define RPG_GAMECORE_RESTARTBATTLEBLACKLISTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3A7D60)
+#define RPG_GAMECORE_RESTARTBATTLEBLACKLISTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3A7E00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RestartBattleBlackListRow_TypeDefinitionIndex = 14568;
+	inline static constexpr unsigned int RestartBattleBlackListRow_TypeDefinitionIndex = 15002;
 
 	class RestartBattleBlackListRow : public ::System::Object
 	{

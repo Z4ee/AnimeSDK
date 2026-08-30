@@ -8,12 +8,12 @@ namespace RPG::GameCore { class AdventureModifierConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_ADVENTUREABILITYCONFIGLIST_METHOD_2_324E3E07166E73E2_OFFSET UNITYSDK_OFFSET(0x1B1691F0)
-#define RPG_GAMECORE_ADVENTUREABILITYCONFIGLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x1B169330)
+#define RPG_GAMECORE_ADVENTUREABILITYCONFIGLIST_METHOD_2_324E3E07166E73E2_OFFSET UNITYSDK_OFFSET(0x1CDE0690)
+#define RPG_GAMECORE_ADVENTUREABILITYCONFIGLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x1CDE07D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureAbilityConfigList_TypeDefinitionIndex = 16728;
+	inline static constexpr unsigned int AdventureAbilityConfigList_TypeDefinitionIndex = 17230;
 
 	class AdventureAbilityConfigList : public ::RPG::GameCore::JsonConfig
 	{

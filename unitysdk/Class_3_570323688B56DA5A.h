@@ -6,17 +6,17 @@ namespace RPG::Client { class RuntimeGroupManager; }
 namespace RPG::GameCore { class AdvCreateGroupEntity; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_570323688B56DA5A_DISPOSE_OFFSET UNITYSDK_OFFSET(0x156A0A50)
-#define CLASS_3_570323688B56DA5A_METHOD_3_60B5931C93B2E56E_OFFSET UNITYSDK_OFFSET(0x156A0F40)
-#define CLASS_3_570323688B56DA5A_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x156A0AA0)
-#define CLASS_3_570323688B56DA5A__CTOR_OFFSET UNITYSDK_OFFSET(0x156A0A20)
+#define CLASS_3_570323688B56DA5A_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB6DD820)
+#define CLASS_3_570323688B56DA5A_METHOD_3_60B5931C93B2E56E_OFFSET UNITYSDK_OFFSET(0xB6DDD20)
+#define CLASS_3_570323688B56DA5A_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB6DD870)
+#define CLASS_3_570323688B56DA5A__CTOR_OFFSET UNITYSDK_OFFSET(0xB6DD7F0)
 
-inline static constexpr unsigned int Class_3_570323688B56DA5A_TypeDefinitionIndex = 55300;
+inline static constexpr unsigned int Class_3_570323688B56DA5A_TypeDefinitionIndex = 58024;
 
 class Class_3_570323688B56DA5A : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AdvCreateGroupEntity*>
 {
 public:
-	::RPG::Client::RuntimeGroupManager* Field_3_0; // 0x28
+	::RPG::Client::RuntimeGroupManager* KDCJFIMPKLP; // 0x28
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::AdvCreateGroupEntity* a2)
 	{

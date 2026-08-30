@@ -9,17 +9,17 @@ namespace System { class Action; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_2F344C3347FF7120_METHOD_1_2401CA1C0D55DAA6_OFFSET UNITYSDK_OFFSET(0x15360D20)
-#define CLASS_1_2F344C3347FF7120_METHOD_1_6F67B14F69ED36E8_OFFSET UNITYSDK_OFFSET(0x15360BF0)
-#define CLASS_1_2F344C3347FF7120_METHOD_1_89F4C36FF7979D31_OFFSET UNITYSDK_OFFSET(0x15360A40)
-#define CLASS_1_2F344C3347FF7120_METHOD_1_F49D4359EF0E5544_OFFSET UNITYSDK_OFFSET(0x15360AD0)
+#define CLASS_1_2F344C3347FF7120_METHOD_1_2401CA1C0D55DAA6_OFFSET UNITYSDK_OFFSET(0x162D92A0)
+#define CLASS_1_2F344C3347FF7120_METHOD_1_6F67B14F69ED36E8_OFFSET UNITYSDK_OFFSET(0x162D9170)
+#define CLASS_1_2F344C3347FF7120_METHOD_1_89F4C36FF7979D31_OFFSET UNITYSDK_OFFSET(0x162D8FC0)
+#define CLASS_1_2F344C3347FF7120_METHOD_1_F49D4359EF0E5544_OFFSET UNITYSDK_OFFSET(0x162D9050)
 
-inline static constexpr unsigned int Class_1_2F344C3347FF7120_TypeDefinitionIndex = 59235;
+inline static constexpr unsigned int Class_1_2F344C3347FF7120_TypeDefinitionIndex = 62070;
 
 class Class_1_2F344C3347FF7120 : public ::System::Object
 {
 public:
-	// static const ::System::String* Field_1_0; // 0x0
+	// static const ::System::String* KHGMBLINPMP; // 0x0
 
 	static ::RPG::GameCore::LevelGraphComponent* Method_1_89F4C36FF7979D31(::RPG::Client::SwordTrainingPerformanceType a1, ::System::Collections::Generic::List_1<::RPG::GameCore::PerformanceIDPair*>* a2, ::System::Action* a3)
 	{

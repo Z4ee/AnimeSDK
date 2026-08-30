@@ -5,17 +5,17 @@
 namespace RPG::Client::Promises { class Promise; }
 namespace System { class Action; }
 
-#define CLASS_2_4D507DAF1C6DAEA9___C__DISPLAYCLASS4_1__CTOR_OFFSET UNITYSDK_OFFSET(0x14678FC0)
-#define CLASS_2_4D507DAF1C6DAEA9___C__DISPLAYCLASS4_1___PLAYFORMULASTORY_B__1_OFFSET UNITYSDK_OFFSET(0x14678FD0)
-#define CLASS_2_4D507DAF1C6DAEA9___C__DISPLAYCLASS4_1___PLAYFORMULASTORY_B__2_OFFSET UNITYSDK_OFFSET(0x146790E0)
+#define CLASS_2_4D507DAF1C6DAEA9___C__DISPLAYCLASS4_1__CTOR_OFFSET UNITYSDK_OFFSET(0x154E2CA0)
+#define CLASS_2_4D507DAF1C6DAEA9___C__DISPLAYCLASS4_1___PLAYFORMULASTORY_B__1_OFFSET UNITYSDK_OFFSET(0x154E2CB0)
+#define CLASS_2_4D507DAF1C6DAEA9___C__DISPLAYCLASS4_1___PLAYFORMULASTORY_B__2_OFFSET UNITYSDK_OFFSET(0x154E2DC0)
 
-inline static constexpr unsigned int Class_2_4D507DAF1C6DAEA9___c__DisplayClass4_1_TypeDefinitionIndex = 64643;
+inline static constexpr unsigned int Class_2_4D507DAF1C6DAEA9___c__DisplayClass4_1_TypeDefinitionIndex = 67639;
 
 class Class_2_4D507DAF1C6DAEA9___c__DisplayClass4_1 : public ::System::Object
 {
 public:
-	::RPG::Client::Promises::Promise* promise; // 0x10
-	::System::Action* __9__2; // 0x18
+	::System::Action* __9__2; // 0x10
+	::RPG::Client::Promises::Promise* promise; // 0x18
 
 	::System::Void _ctor()
 	{

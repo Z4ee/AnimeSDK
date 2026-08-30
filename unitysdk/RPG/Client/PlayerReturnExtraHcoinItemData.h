@@ -2,21 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_PLAYERRETURNEXTRAHCOINITEMDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xD0AF9C0)
-#define RPG_CLIENT_PLAYERRETURNEXTRAHCOINITEMDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xD0AFAB0)
+#define RPG_CLIENT_PLAYERRETURNEXTRAHCOINITEMDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xDBB2370)
+#define RPG_CLIENT_PLAYERRETURNEXTRAHCOINITEMDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xDBB2430)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlayerReturnExtraHcoinItemData_TypeDefinitionIndex = 59129;
+	inline static constexpr unsigned int PlayerReturnExtraHcoinItemData_TypeDefinitionIndex = 61964;
 
 	class PlayerReturnExtraHcoinItemData : public ::System::Object
 	{
 	public:
-		::System::UInt32 CurrentProgressHcoin; // 0x10
-		::System::Single ExtraHcoinUIProgressRatio; // 0x14
+		::System::Single ExtraHcoinUIProgressRatio; // 0x10
+		::System::UInt32 HcoinThreshold; // 0x14
 		::System::UInt32 ExtraHcoinNum; // 0x18
-		::System::UInt32 HcoinThreshold; // 0x1C
-		::System::Single BeginUIRatio; // 0x20
+		::System::Single BeginUIRatio; // 0x1C
+		::System::UInt32 CurrentProgressHcoin; // 0x20
 
 		::System::Void _ctor()
 		{

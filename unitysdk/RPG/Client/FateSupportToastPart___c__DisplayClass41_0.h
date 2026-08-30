@@ -6,18 +6,18 @@ namespace RPG::Client { class ActivityData; }
 namespace RPG::Client { class FateSupportToastPart; }
 namespace RPG::Client { class ScheduleData; }
 
-#define RPG_CLIENT_FATESUPPORTTOASTPART___C__DISPLAYCLASS41_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC5BB300)
-#define RPG_CLIENT_FATESUPPORTTOASTPART___C__DISPLAYCLASS41_0___DETECTACTIVITYTIMELIMITSCHEDULE_B__0_OFFSET UNITYSDK_OFFSET(0xC5BBB40)
+#define RPG_CLIENT_FATESUPPORTTOASTPART___C__DISPLAYCLASS41_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD03DD30)
+#define RPG_CLIENT_FATESUPPORTTOASTPART___C__DISPLAYCLASS41_0___DETECTACTIVITYTIMELIMITSCHEDULE_B__0_OFFSET UNITYSDK_OFFSET(0xD03E570)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FateSupportToastPart___c__DisplayClass41_0_TypeDefinitionIndex = 61246;
+	inline static constexpr unsigned int FateSupportToastPart___c__DisplayClass41_0_TypeDefinitionIndex = 64227;
 
 	class FateSupportToastPart___c__DisplayClass41_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::ActivityData* activityData; // 0x10
-		::RPG::Client::FateSupportToastPart* __4__this; // 0x18
+		::RPG::Client::FateSupportToastPart* __4__this; // 0x10
+		::RPG::Client::ActivityData* activityData; // 0x18
 		::System::Boolean isImmediatelyOpened; // 0x20
 
 		::System::Void _ctor()

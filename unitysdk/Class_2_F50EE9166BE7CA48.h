@@ -1,25 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_CA217ABF4E3B4F3F.h"
+#include "unitysdk/Class_1_34917908B7833130.h"
 
 namespace System { class String; }
 namespace UnityEngine { class Animator; }
 
-#define CLASS_2_F50EE9166BE7CA48_METHOD_2_2450CFC043E97F54_OFFSET UNITYSDK_OFFSET(0x14560F40)
-#define CLASS_2_F50EE9166BE7CA48_METHOD_2_B1936CE4DA97AA45_OFFSET UNITYSDK_OFFSET(0x14561100)
-#define CLASS_2_F50EE9166BE7CA48_METHOD_2_EADDF1782C977BCA_OFFSET UNITYSDK_OFFSET(0x14560FF0)
-#define CLASS_2_F50EE9166BE7CA48__CTOR_OFFSET UNITYSDK_OFFSET(0x145611B0)
-#define CLASS_2_F50EE9166BE7CA48__ONBIND_OFFSET UNITYSDK_OFFSET(0x14560EE0)
+#define CLASS_2_F50EE9166BE7CA48_METHOD_2_2450CFC043E97F54_OFFSET UNITYSDK_OFFSET(0x153D81D0)
+#define CLASS_2_F50EE9166BE7CA48_METHOD_2_B1936CE4DA97AA45_OFFSET UNITYSDK_OFFSET(0x153D8390)
+#define CLASS_2_F50EE9166BE7CA48_METHOD_2_EADDF1782C977BCA_OFFSET UNITYSDK_OFFSET(0x153D8280)
+#define CLASS_2_F50EE9166BE7CA48__CTOR_OFFSET UNITYSDK_OFFSET(0x153D8440)
+#define CLASS_2_F50EE9166BE7CA48__ONBIND_OFFSET UNITYSDK_OFFSET(0x153D8170)
 
-inline static constexpr unsigned int Class_2_F50EE9166BE7CA48_TypeDefinitionIndex = 68564;
+inline static constexpr unsigned int Class_2_F50EE9166BE7CA48_TypeDefinitionIndex = 71761;
 
-class Class_2_F50EE9166BE7CA48 : public ::Class_1_CA217ABF4E3B4F3F
+class Class_2_F50EE9166BE7CA48 : public ::Class_1_34917908B7833130
 {
 public:
-	// static const ::System::String* Field_2_0; // 0x0
-	// static const ::System::String* Field_2_1; // 0x0
-	::UnityEngine::Animator* Field_2_2; // 0x60
-	::System::Boolean Field_2_3; // 0x68
+	// static const ::System::String* AMKNNFCOBDG; // 0x0
+	// static const ::System::String* NMDMPOOFGFD; // 0x0
+	::UnityEngine::Animator* APPGGMLEPLN; // 0x60
+	::System::Boolean AKBPNMEFGAO; // 0x68
 
 	::System::Void _ctor()
 	{

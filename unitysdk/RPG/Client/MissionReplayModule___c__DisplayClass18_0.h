@@ -5,12 +5,12 @@
 namespace RPG::Client { class AdventureModule_PerformanceReplayInfo; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_MISSIONREPLAYMODULE___C__DISPLAYCLASS18_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCC123B0)
-#define RPG_CLIENT_MISSIONREPLAYMODULE___C__DISPLAYCLASS18_0___TRYSTARTREPLAYMISSION_B__0_OFFSET UNITYSDK_OFFSET(0xCC137E0)
+#define RPG_CLIENT_MISSIONREPLAYMODULE___C__DISPLAYCLASS18_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD7113A0)
+#define RPG_CLIENT_MISSIONREPLAYMODULE___C__DISPLAYCLASS18_0___TRYSTARTREPLAYMISSION_B__0_OFFSET UNITYSDK_OFFSET(0xD7127D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MissionReplayModule___c__DisplayClass18_0_TypeDefinitionIndex = 63261;
+	inline static constexpr unsigned int MissionReplayModule___c__DisplayClass18_0_TypeDefinitionIndex = 66246;
 
 	class MissionReplayModule___c__DisplayClass18_0 : public ::System::Object
 	{

@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_ITEMCOMPOSEMODULE___C__DISPLAYCLASS31_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC907A20)
-#define RPG_CLIENT_ITEMCOMPOSEMODULE___C__DISPLAYCLASS31_0___REFRESHUNLOCKMAINTYPEVIEWED_B__0_OFFSET UNITYSDK_OFFSET(0xC907CB0)
+#define RPG_CLIENT_ITEMCOMPOSEMODULE___C__DISPLAYCLASS31_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD42D4B0)
+#define RPG_CLIENT_ITEMCOMPOSEMODULE___C__DISPLAYCLASS31_0___REFRESHUNLOCKMAINTYPEVIEWED_B__0_OFFSET UNITYSDK_OFFSET(0xD42D740)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ItemComposeModule___c__DisplayClass31_0_TypeDefinitionIndex = 62831;
+	inline static constexpr unsigned int ItemComposeModule___c__DisplayClass31_0_TypeDefinitionIndex = 65816;
 
 	class ItemComposeModule___c__DisplayClass31_0 : public ::System::Object
 	{

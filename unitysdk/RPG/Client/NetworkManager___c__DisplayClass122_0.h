@@ -6,18 +6,18 @@ namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Threading { class SynchronizationContext; }
 
-#define RPG_CLIENT_NETWORKMANAGER___C__DISPLAYCLASS122_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCED4470)
-#define RPG_CLIENT_NETWORKMANAGER___C__DISPLAYCLASS122_0__PINGBYUDP_B__0_OFFSET UNITYSDK_OFFSET(0xCED4480)
+#define RPG_CLIENT_NETWORKMANAGER___C__DISPLAYCLASS122_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD9CD7C0)
+#define RPG_CLIENT_NETWORKMANAGER___C__DISPLAYCLASS122_0__PINGBYUDP_B__0_OFFSET UNITYSDK_OFFSET(0xD9CD7D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int NetworkManager___c__DisplayClass122_0_TypeDefinitionIndex = 66262;
+	inline static constexpr unsigned int NetworkManager___c__DisplayClass122_0_TypeDefinitionIndex = 69336;
 
 	class NetworkManager___c__DisplayClass122_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::Promises::Promise_1<::System::Collections::Generic::IList_1<::System::UInt64>*>* result; // 0x10
-		::System::Threading::SynchronizationContext* current; // 0x18
+		::System::Threading::SynchronizationContext* current; // 0x10
+		::RPG::Client::Promises::Promise_1<::System::Collections::Generic::IList_1<::System::UInt64>*>* result; // 0x18
 
 		::System::Void _ctor()
 		{

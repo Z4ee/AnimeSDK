@@ -5,15 +5,15 @@
 
 namespace RPG { template <typename T> class PoolList_1; }
 
-#define CLASS_1_2F53A4DB48E676DC_CLEAR_OFFSET UNITYSDK_OFFSET(0x1A954E20)
-#define CLASS_1_2F53A4DB48E676DC__CTOR_OFFSET UNITYSDK_OFFSET(0x1A954EA0)
+#define CLASS_1_2F53A4DB48E676DC_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C592AF0)
+#define CLASS_1_2F53A4DB48E676DC__CTOR_OFFSET UNITYSDK_OFFSET(0x1C592B70)
 
-inline static constexpr unsigned int Class_1_2F53A4DB48E676DC_TypeDefinitionIndex = 40003;
+inline static constexpr unsigned int Class_1_2F53A4DB48E676DC_TypeDefinitionIndex = 40882;
 
 class Class_1_2F53A4DB48E676DC : public ::System::Object
 {
 public:
-	::RPG::PoolList_1<::Struct_2_09BA741879A02AC6>* Field_1_0; // 0x10
+	::RPG::PoolList_1<::Struct_2_09BA741879A02AC6>* DKCCDMFPIHJ; // 0x10
 
 	::System::Void _ctor()
 	{

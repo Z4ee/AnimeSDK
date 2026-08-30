@@ -8,21 +8,21 @@ namespace RPG::Client { class GridFightShopBuyEvent; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_5FA8339464381844_METHOD_1_180F24D8B44F5842_OFFSET UNITYSDK_OFFSET(0x14556350)
-#define CLASS_1_5FA8339464381844_METHOD_1_6F8804967587ECFD_OFFSET UNITYSDK_OFFSET(0x145569C0)
-#define CLASS_1_5FA8339464381844_METHOD_1_D0BD1377F2594D33_OFFSET UNITYSDK_OFFSET(0x145568F0)
-#define CLASS_1_5FA8339464381844_METHOD_1_F15BB39D73E654DD_OFFSET UNITYSDK_OFFSET(0x14555FD0)
-#define CLASS_1_5FA8339464381844__CTOR_OFFSET UNITYSDK_OFFSET(0x14556D90)
+#define CLASS_1_5FA8339464381844_METHOD_1_180F24D8B44F5842_OFFSET UNITYSDK_OFFSET(0x153CD3F0)
+#define CLASS_1_5FA8339464381844_METHOD_1_6F8804967587ECFD_OFFSET UNITYSDK_OFFSET(0x153CDA60)
+#define CLASS_1_5FA8339464381844_METHOD_1_D0BD1377F2594D33_OFFSET UNITYSDK_OFFSET(0x153CD990)
+#define CLASS_1_5FA8339464381844_METHOD_1_F15BB39D73E654DD_OFFSET UNITYSDK_OFFSET(0x153CD070)
+#define CLASS_1_5FA8339464381844__CTOR_OFFSET UNITYSDK_OFFSET(0x153CDE30)
 
-inline static constexpr unsigned int Class_1_5FA8339464381844_TypeDefinitionIndex = 62252;
+inline static constexpr unsigned int Class_1_5FA8339464381844_TypeDefinitionIndex = 65237;
 
 class Class_1_5FA8339464381844 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::RPG::Client::GridFightRole*>* Field_1_0; // 0x10
-	::System::Collections::Generic::List_1<::RPG::Client::GridFightProjection*>* Field_1_1; // 0x18
-	::System::Collections::Generic::IList_1<::System::UInt32>* Field_1_2; // 0x20
-	::System::Boolean Field_1_3; // 0x28
+	::System::Collections::Generic::List_1<::RPG::Client::GridFightRole*>* GOCMAHJOLLG; // 0x10
+	::System::Collections::Generic::List_1<::RPG::Client::GridFightProjection*>* NJDOCHMAFIB; // 0x18
+	::System::Collections::Generic::IList_1<::System::UInt32>* PGFDBFCHODC; // 0x20
+	::System::Boolean DGHDBGKGJFE; // 0x28
 
 	::System::Void _ctor()
 	{

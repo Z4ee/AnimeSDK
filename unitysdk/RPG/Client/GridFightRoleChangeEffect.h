@@ -7,21 +7,21 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace UnityEngine { class Animation; }
 
-#define RPG_CLIENT_GRIDFIGHTROLECHANGEEFFECT_METHOD_6_7E0102A7D81125F5_OFFSET UNITYSDK_OFFSET(0xC7C9930)
-#define RPG_CLIENT_GRIDFIGHTROLECHANGEEFFECT_ONCREATE_OFFSET UNITYSDK_OFFSET(0xC7C9670)
-#define RPG_CLIENT_GRIDFIGHTROLECHANGEEFFECT_PLAY_OFFSET UNITYSDK_OFFSET(0xC7C9800)
-#define RPG_CLIENT_GRIDFIGHTROLECHANGEEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0xC7C9A20)
+#define RPG_CLIENT_GRIDFIGHTROLECHANGEEFFECT_METHOD_6_7E0102A7D81125F5_OFFSET UNITYSDK_OFFSET(0xD2FE360)
+#define RPG_CLIENT_GRIDFIGHTROLECHANGEEFFECT_ONCREATE_OFFSET UNITYSDK_OFFSET(0xD2FE0A0)
+#define RPG_CLIENT_GRIDFIGHTROLECHANGEEFFECT_PLAY_OFFSET UNITYSDK_OFFSET(0xD2FE230)
+#define RPG_CLIENT_GRIDFIGHTROLECHANGEEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0xD2FE450)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightRoleChangeEffect_TypeDefinitionIndex = 61578;
+	inline static constexpr unsigned int GridFightRoleChangeEffect_TypeDefinitionIndex = 64562;
 
 	class GridFightRoleChangeEffect : public ::RPG::Client::GridFightMemberEffect
 	{
 	public:
-		::UnityEngine::Animation* Field_6_0; // 0x38
-		::System::Single Field_6_1; // 0x40
-		::System::Action* Field_6_2; // 0x48
+		::UnityEngine::Animation* KCOAILOHDND; // 0x38
+		::System::Single HDHPNOOMAGE; // 0x40
+		::System::Action* OOBALIFBOCA; // 0x48
 
 		::System::Void _ctor()
 		{

@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class RectTransform; }
 
-#define RPG_CLIENT_MONOTABCONTROL_LAYOUTITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xCD269E0)
+#define RPG_CLIENT_MONOTABCONTROL_LAYOUTITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xD869400)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoTabControl_LayoutItem_TypeDefinitionIndex = 69326;
+	inline static constexpr unsigned int MonoTabControl_LayoutItem_TypeDefinitionIndex = 72534;
 
 	class MonoTabControl_LayoutItem : public ::System::Object
 	{

@@ -5,23 +5,23 @@
 class Class_1_EA5A5E4D07C4CF2B_4;
 namespace RPG::Client::ChenLingBattle { class GridIndex; }
 
-#define RPG_CLIENT_CHENLINGBATTLE_EFFECTCHANGEDATA_CREATEBYDEATH_OFFSET UNITYSDK_OFFSET(0xC05A140)
-#define RPG_CLIENT_CHENLINGBATTLE_EFFECTCHANGEDATA_CREATEBYEFFECT_OFFSET UNITYSDK_OFFSET(0xC05A0A0)
-#define RPG_CLIENT_CHENLINGBATTLE_EFFECTCHANGEDATA_CREATEBYGRID_OFFSET UNITYSDK_OFFSET(0xC05A1E0)
-#define RPG_CLIENT_CHENLINGBATTLE_EFFECTCHANGEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xC05A080)
+#define RPG_CLIENT_CHENLINGBATTLE_EFFECTCHANGEDATA_CREATEBYDEATH_OFFSET UNITYSDK_OFFSET(0xCB06DF0)
+#define RPG_CLIENT_CHENLINGBATTLE_EFFECTCHANGEDATA_CREATEBYEFFECT_OFFSET UNITYSDK_OFFSET(0xCB06D50)
+#define RPG_CLIENT_CHENLINGBATTLE_EFFECTCHANGEDATA_CREATEBYGRID_OFFSET UNITYSDK_OFFSET(0xCB06E90)
+#define RPG_CLIENT_CHENLINGBATTLE_EFFECTCHANGEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xCB06D30)
 
 namespace RPG::Client::ChenLingBattle
 {
-	inline static constexpr unsigned int EffectChangeData_TypeDefinitionIndex = 72333;
+	inline static constexpr unsigned int EffectChangeData_TypeDefinitionIndex = 75769;
 
 	class EffectChangeData : public ::System::Object
 	{
 	public:
 		::RPG::Client::ChenLingBattle::GridIndex* GridIndex; // 0x10
-		::System::UInt64 EffectUniqueID; // 0x18
-		::System::UInt32 EntityUniqueID; // 0x20
-		::System::Boolean IsLevelUp; // 0x24
+		::System::UInt32 EntityUniqueID; // 0x18
+		::System::UInt64 EffectUniqueID; // 0x20
 		::System::UInt32 ChangeValue; // 0x28
+		::System::Boolean IsLevelUp; // 0x2C
 
 		::System::Void _ctor(::System::UInt64 a1, ::System::UInt32 a2, ::RPG::Client::ChenLingBattle::GridIndex* a3, ::System::UInt32 a4, ::System::Boolean a5)
 		{

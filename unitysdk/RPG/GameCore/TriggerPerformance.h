@@ -8,13 +8,13 @@ namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class LevelGraphValueSource; }
 namespace RPG::GameCore { class TriggerPerformanceMask; }
 
-#define RPG_GAMECORE_TRIGGERPERFORMANCE_METHOD_3_2747CB4C075D352D_OFFSET UNITYSDK_OFFSET(0x1B9A7500)
-#define RPG_GAMECORE_TRIGGERPERFORMANCE_METHOD_3_A026AB60F99F9F50_OFFSET UNITYSDK_OFFSET(0x1B9A7540)
-#define RPG_GAMECORE_TRIGGERPERFORMANCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9A7530)
+#define RPG_GAMECORE_TRIGGERPERFORMANCE_METHOD_3_2747CB4C075D352D_OFFSET UNITYSDK_OFFSET(0x1D603520)
+#define RPG_GAMECORE_TRIGGERPERFORMANCE_METHOD_3_A026AB60F99F9F50_OFFSET UNITYSDK_OFFSET(0x1D603560)
+#define RPG_GAMECORE_TRIGGERPERFORMANCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D603550)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TriggerPerformance_TypeDefinitionIndex = 19516;
+	inline static constexpr unsigned int TriggerPerformance_TypeDefinitionIndex = 20062;
 
 	class TriggerPerformance : public ::RPG::GameCore::TaskConfig
 	{

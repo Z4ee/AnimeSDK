@@ -6,16 +6,16 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_15270CF16E280E0D_METHOD_1_8AD517D2CEAA9C38_OFFSET UNITYSDK_OFFSET(0xB9710A0)
-#define CLASS_1_15270CF16E280E0D_METHOD_1_CAA1387F8D547DBB_OFFSET UNITYSDK_OFFSET(0xB970D30)
-#define CLASS_1_15270CF16E280E0D__CTOR_OFFSET UNITYSDK_OFFSET(0xB971470)
+#define CLASS_1_15270CF16E280E0D_METHOD_1_8AD517D2CEAA9C38_OFFSET UNITYSDK_OFFSET(0xC382A70)
+#define CLASS_1_15270CF16E280E0D_METHOD_1_CAA1387F8D547DBB_OFFSET UNITYSDK_OFFSET(0xC382700)
+#define CLASS_1_15270CF16E280E0D__CTOR_OFFSET UNITYSDK_OFFSET(0xC382E50)
 
-inline static constexpr unsigned int Class_1_15270CF16E280E0D_TypeDefinitionIndex = 58350;
+inline static constexpr unsigned int Class_1_15270CF16E280E0D_TypeDefinitionIndex = 61177;
 
 class Class_1_15270CF16E280E0D : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::System::String*>* Field_1_0; // 0x10
+	::System::Collections::Generic::List_1<::System::String*>* DJPBMFOFJIB; // 0x10
 
 	::System::Void _ctor()
 	{

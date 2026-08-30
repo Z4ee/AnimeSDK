@@ -7,13 +7,13 @@ namespace RPG::GameCore { class TargetEvaluator; }
 namespace SimpleJSON { class JSONNode; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CRPVIRTUALCAMERATARGETCONFIG_METHOD_2_44A12B82E7D13EE4_OFFSET UNITYSDK_OFFSET(0x1B2EF510)
-#define RPG_GAMECORE_CRPVIRTUALCAMERATARGETCONFIG_METHOD_2_F70FCBEA5B35EFC2_OFFSET UNITYSDK_OFFSET(0x1B2EF2E0)
-#define RPG_GAMECORE_CRPVIRTUALCAMERATARGETCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B2EF500)
+#define RPG_GAMECORE_CRPVIRTUALCAMERATARGETCONFIG_METHOD_2_44A12B82E7D13EE4_OFFSET UNITYSDK_OFFSET(0x1CF6B0B0)
+#define RPG_GAMECORE_CRPVIRTUALCAMERATARGETCONFIG_METHOD_2_A26F0C8D0B89058B_OFFSET UNITYSDK_OFFSET(0x1CF6AE60)
+#define RPG_GAMECORE_CRPVIRTUALCAMERATARGETCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF6B0A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CRPVirtualCameraTargetConfig_TypeDefinitionIndex = 22068;
+	inline static constexpr unsigned int CRPVirtualCameraTargetConfig_TypeDefinitionIndex = 22636;
 
 	class CRPVirtualCameraTargetConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -29,9 +29,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CRPVIRTUALCAMERATARGETCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_F70FCBEA5B35EFC2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CRPVirtualCameraTargetConfig*& a2)
+		static ::System::Void Method_2_A26F0C8D0B89058B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CRPVirtualCameraTargetConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CRPVirtualCameraTargetConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CRPVIRTUALCAMERATARGETCONFIG_METHOD_2_F70FCBEA5B35EFC2_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CRPVirtualCameraTargetConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CRPVIRTUALCAMERATARGETCONFIG_METHOD_2_A26F0C8D0B89058B_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_2_44A12B82E7D13EE4(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::CRPVirtualCameraTargetConfig*& a2)

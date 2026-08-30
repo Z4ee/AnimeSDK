@@ -2,29 +2,29 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_90889A2023AB884E_2_GET_ISPRVBATTLEWIN_OFFSET UNITYSDK_OFFSET(0xB467B00)
-#define CLASS_1_90889A2023AB884E_2_SET_ISPRVBATTLEWIN_OFFSET UNITYSDK_OFFSET(0xB467B10)
-#define CLASS_1_90889A2023AB884E_2__CTOR_OFFSET UNITYSDK_OFFSET(0xB467B20)
+#define CLASS_1_90889A2023AB884E_2_GET_ISDISPLAYONLY_OFFSET UNITYSDK_OFFSET(0x15B67470)
+#define CLASS_1_90889A2023AB884E_2_SET_ISDISPLAYONLY_OFFSET UNITYSDK_OFFSET(0x15B67480)
+#define CLASS_1_90889A2023AB884E_2__CTOR_OFFSET UNITYSDK_OFFSET(0x15B67490)
 
-inline static constexpr unsigned int Class_1_90889A2023AB884E_2_TypeDefinitionIndex = 71433;
+inline static constexpr unsigned int Class_1_90889A2023AB884E_2_TypeDefinitionIndex = 52213;
 
 class Class_1_90889A2023AB884E_2 : public ::System::Object
 {
 public:
-	::System::Boolean _IsPrvBattleWin_k__BackingField; // 0x10
+	::System::Boolean _IsDisplayOnly_k__BackingField; // 0x10
 
 	::System::Void _ctor()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_90889A2023AB884E_2__CTOR_OFFSET))(this);
 	}
 
-	::System::Boolean get_IsPrvBattleWin()
+	::System::Boolean get_IsDisplayOnly()
 	{
-		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_90889A2023AB884E_2_GET_ISPRVBATTLEWIN_OFFSET))(this);
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_90889A2023AB884E_2_GET_ISDISPLAYONLY_OFFSET))(this);
 	}
 
-	::System::Void set_IsPrvBattleWin(::System::Boolean a1)
+	::System::Void set_IsDisplayOnly(::System::Boolean a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_90889A2023AB884E_2_SET_ISPRVBATTLEWIN_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_90889A2023AB884E_2_SET_ISDISPLAYONLY_OFFSET))(this, a1);
 	}
 };

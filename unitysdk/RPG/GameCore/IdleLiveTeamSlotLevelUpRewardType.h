@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveTeamSlotLevelUpRewardType_TypeDefinitionIndex = 11270;
+	inline static constexpr unsigned int IdleLiveTeamSlotLevelUpRewardType_TypeDefinitionIndex = 11659;
 
 	enum class IdleLiveTeamSlotLevelUpRewardType : ::System::Int32
 	{

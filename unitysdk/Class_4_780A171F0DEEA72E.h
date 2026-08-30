@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ChangeMonsterUIDisplay; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_4_780A171F0DEEA72E_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x14CE4270)
-#define CLASS_4_780A171F0DEEA72E__CTOR_OFFSET UNITYSDK_OFFSET(0x14CE4240)
+#define CLASS_4_780A171F0DEEA72E_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15BA9780)
+#define CLASS_4_780A171F0DEEA72E__CTOR_OFFSET UNITYSDK_OFFSET(0x15BA9750)
 
-inline static constexpr unsigned int Class_4_780A171F0DEEA72E_TypeDefinitionIndex = 52439;
+inline static constexpr unsigned int Class_4_780A171F0DEEA72E_TypeDefinitionIndex = 55135;
 
 class Class_4_780A171F0DEEA72E : public ::Class_3_4A000A8A4722E95D
 {

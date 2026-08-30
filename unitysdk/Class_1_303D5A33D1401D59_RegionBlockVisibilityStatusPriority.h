@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Class_1_303D5A33D1401D59_RegionBlockVisibilityStatusPriority_TypeDefinitionIndex = 70391;
+inline static constexpr unsigned int Class_1_303D5A33D1401D59_RegionBlockVisibilityStatusPriority_TypeDefinitionIndex = 73802;
 
 enum class Class_1_303D5A33D1401D59_RegionBlockVisibilityStatusPriority : ::System::Int32
 {

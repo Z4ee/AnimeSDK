@@ -1,0 +1,76 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/MapRotation/HideNpcState.h"
+#include "unitysdk/RPG/Client/MapRotation/LogicVisibleState.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/UnityEngine/Quaternion.h"
+#include "unitysdk/UnityEngine/Vector3.h"
+
+namespace RPG::Client { class MapNpcDef; }
+namespace RPG::GameCore { class GameEntity; }
+namespace System { class String; }
+
+#define CLASS_2_B105BEE67D1C2502_CLASS_1_ACE5DCAE36A0D610_CLEAR_OFFSET UNITYSDK_OFFSET(0xC17B570)
+#define CLASS_2_B105BEE67D1C2502_CLASS_1_ACE5DCAE36A0D610_METHOD_1_497833CF065C1894_OFFSET UNITYSDK_OFFSET(0xC1785B0)
+#define CLASS_2_B105BEE67D1C2502_CLASS_1_ACE5DCAE36A0D610_METHOD_1_4DA6D4A624E42CAB_OFFSET UNITYSDK_OFFSET(0xC172FE0)
+#define CLASS_2_B105BEE67D1C2502_CLASS_1_ACE5DCAE36A0D610_METHOD_1_89D1F247B9D324EE_OFFSET UNITYSDK_OFFSET(0xC1759F0)
+#define CLASS_2_B105BEE67D1C2502_CLASS_1_ACE5DCAE36A0D610_METHOD_1_9E9F8437B1DEE0FC_OFFSET UNITYSDK_OFFSET(0xC1758C0)
+#define CLASS_2_B105BEE67D1C2502_CLASS_1_ACE5DCAE36A0D610_METHOD_1_A6544B958241856F_OFFSET UNITYSDK_OFFSET(0xC177E80)
+#define CLASS_2_B105BEE67D1C2502_CLASS_1_ACE5DCAE36A0D610_METHOD_1_B1936CE4DA97AA45_OFFSET UNITYSDK_OFFSET(0xC1784D0)
+#define CLASS_2_B105BEE67D1C2502_CLASS_1_ACE5DCAE36A0D610__CTOR_OFFSET UNITYSDK_OFFSET(0xC1758B0)
+
+inline static constexpr unsigned int Class_2_B105BEE67D1C2502_Class_1_ACE5DCAE36A0D610_TypeDefinitionIndex = 60703;
+
+class Class_2_B105BEE67D1C2502_Class_1_ACE5DCAE36A0D610 : public ::System::Object
+{
+public:
+	::System::String* POECNOICAHL; // 0x10
+	::System::String* JLCLCMGLKKG; // 0x18
+	::RPG::Client::MapNpcDef* ODOBMHNHNEB; // 0x20
+	::RPG::GameCore::GameEntity* GGKGFABFGFE; // 0x28
+	::System::UInt32 GJPPHJMHBPF; // 0x30
+	::System::Int32 PNOPMIDGGKD; // 0x34
+	::RPG::Client::MapRotation::LogicVisibleState LPKPKFLDBGM; // 0x38
+	::RPG::Client::MapRotation::HideNpcState KDMKOHIAOBJ; // 0x3C
+	::System::Boolean OCEMLKIOEEH; // 0x40
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_B105BEE67D1C2502_CLASS_1_ACE5DCAE36A0D610__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Clear()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_B105BEE67D1C2502_CLASS_1_ACE5DCAE36A0D610_CLEAR_OFFSET))(this);
+	}
+
+	::System::Boolean Method_1_4DA6D4A624E42CAB()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_B105BEE67D1C2502_CLASS_1_ACE5DCAE36A0D610_METHOD_1_4DA6D4A624E42CAB_OFFSET))(this);
+	}
+
+	::System::Void Method_1_B1936CE4DA97AA45()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_B105BEE67D1C2502_CLASS_1_ACE5DCAE36A0D610_METHOD_1_B1936CE4DA97AA45_OFFSET))(this);
+	}
+
+	::System::Void Method_1_497833CF065C1894()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_B105BEE67D1C2502_CLASS_1_ACE5DCAE36A0D610_METHOD_1_497833CF065C1894_OFFSET))(this);
+	}
+
+	::System::Void Method_1_89D1F247B9D324EE()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_B105BEE67D1C2502_CLASS_1_ACE5DCAE36A0D610_METHOD_1_89D1F247B9D324EE_OFFSET))(this);
+	}
+
+	::System::Void Method_1_A6544B958241856F()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_B105BEE67D1C2502_CLASS_1_ACE5DCAE36A0D610_METHOD_1_A6544B958241856F_OFFSET))(this);
+	}
+
+	::System::Void Method_1_9E9F8437B1DEE0FC(::UnityEngine::Vector3 a1, ::UnityEngine::Quaternion a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Quaternion))((::PBYTE)hIl2Cpp + CLASS_2_B105BEE67D1C2502_CLASS_1_ACE5DCAE36A0D610_METHOD_1_9E9F8437B1DEE0FC_OFFSET))(this, a1, a2);
+	}
+};

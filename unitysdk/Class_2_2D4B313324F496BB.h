@@ -8,20 +8,20 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 
-#define CLASS_2_2D4B313324F496BB_METHOD_2_064020A3A0759DB9_OFFSET UNITYSDK_OFFSET(0x14A5D6A0)
-#define CLASS_2_2D4B313324F496BB_METHOD_2_095CC99FF0D58B0C_OFFSET UNITYSDK_OFFSET(0x14A5D4E0)
-#define CLASS_2_2D4B313324F496BB_METHOD_2_2450CFC043E97F54_OFFSET UNITYSDK_OFFSET(0x14A5D620)
-#define CLASS_2_2D4B313324F496BB__CTOR_OFFSET UNITYSDK_OFFSET(0x14A5D890)
+#define CLASS_2_2D4B313324F496BB_METHOD_2_064020A3A0759DB9_OFFSET UNITYSDK_OFFSET(0x158F2930)
+#define CLASS_2_2D4B313324F496BB_METHOD_2_095CC99FF0D58B0C_OFFSET UNITYSDK_OFFSET(0x158F2770)
+#define CLASS_2_2D4B313324F496BB_METHOD_2_2450CFC043E97F54_OFFSET UNITYSDK_OFFSET(0x158F28B0)
+#define CLASS_2_2D4B313324F496BB__CTOR_OFFSET UNITYSDK_OFFSET(0x158F2B20)
 
-inline static constexpr unsigned int Class_2_2D4B313324F496BB_TypeDefinitionIndex = 45684;
+inline static constexpr unsigned int Class_2_2D4B313324F496BB_TypeDefinitionIndex = 47935;
 
 class Class_2_2D4B313324F496BB : public ::RPG::Client::MusicVisualization_SpectrumEffectElementVisualBase
 {
 public:
-	::UnityEngine::MaterialPropertyBlock* Field_2_0; // 0x20
-	::System::String* Field_2_1; // 0x28
-	::System::Boolean Field_2_2; // 0x30
-	::System::Int32 Field_2_3; // 0x34
+	::UnityEngine::MaterialPropertyBlock* DNCLJJLAFKA; // 0x20
+	::System::String* HMELFPDPCFC; // 0x28
+	::System::Int32 ONMOHCJHJPN; // 0x30
+	::System::Boolean IDBEBIDMHME; // 0x34
 
 	::System::Void _ctor()
 	{

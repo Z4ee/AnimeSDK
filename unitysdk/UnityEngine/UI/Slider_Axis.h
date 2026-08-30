@@ -3,7 +3,7 @@
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int Slider_Axis_TypeDefinitionIndex = 6007;
+	inline static constexpr unsigned int Slider_Axis_TypeDefinitionIndex = 6837;
 
 	enum class Slider_Axis : ::System::Int32
 	{

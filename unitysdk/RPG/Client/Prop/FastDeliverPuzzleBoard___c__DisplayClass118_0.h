@@ -4,12 +4,12 @@
 
 namespace RPG::GameCore { class CharacterVisibleComponent; }
 
-#define RPG_CLIENT_PROP_FASTDELIVERPUZZLEBOARD___C__DISPLAYCLASS118_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD15F670)
-#define RPG_CLIENT_PROP_FASTDELIVERPUZZLEBOARD___C__DISPLAYCLASS118_0__ONPUZZLEPREFINISH_B__0_OFFSET UNITYSDK_OFFSET(0xD160D40)
+#define RPG_CLIENT_PROP_FASTDELIVERPUZZLEBOARD___C__DISPLAYCLASS118_0__CTOR_OFFSET UNITYSDK_OFFSET(0xDC63C50)
+#define RPG_CLIENT_PROP_FASTDELIVERPUZZLEBOARD___C__DISPLAYCLASS118_0__ONPUZZLEPREFINISH_B__0_OFFSET UNITYSDK_OFFSET(0xDC65330)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int FastDeliverPuzzleBoard___c__DisplayClass118_0_TypeDefinitionIndex = 74627;
+	inline static constexpr unsigned int FastDeliverPuzzleBoard___c__DisplayClass118_0_TypeDefinitionIndex = 78112;
 
 	class FastDeliverPuzzleBoard___c__DisplayClass118_0 : public ::System::Object
 	{

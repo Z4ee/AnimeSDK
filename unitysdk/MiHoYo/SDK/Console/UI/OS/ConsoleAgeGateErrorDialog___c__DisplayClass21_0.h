@@ -5,12 +5,12 @@
 namespace MiHoYo::SDK::Console::UI::OS { class ConsoleAgeGateErrorDialog; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_CONSOLE_UI_OS_CONSOLEAGEGATEERRORDIALOG___C__DISPLAYCLASS21_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19CD5350)
-#define MIHOYO_SDK_CONSOLE_UI_OS_CONSOLEAGEGATEERRORDIALOG___C__DISPLAYCLASS21_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x19CD56D0)
+#define MIHOYO_SDK_CONSOLE_UI_OS_CONSOLEAGEGATEERRORDIALOG___C__DISPLAYCLASS21_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B92E1F0)
+#define MIHOYO_SDK_CONSOLE_UI_OS_CONSOLEAGEGATEERRORDIALOG___C__DISPLAYCLASS21_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1B92E570)
 
 namespace MiHoYo::SDK::Console::UI::OS
 {
-	inline static constexpr unsigned int ConsoleAgeGateErrorDialog___c__DisplayClass21_0_TypeDefinitionIndex = 8703;
+	inline static constexpr unsigned int ConsoleAgeGateErrorDialog___c__DisplayClass21_0_TypeDefinitionIndex = 8971;
 
 	class ConsoleAgeGateErrorDialog___c__DisplayClass21_0 : public ::System::Object
 	{

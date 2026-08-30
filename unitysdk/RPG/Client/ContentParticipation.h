@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ContentParticipation_TypeDefinitionIndex = 59402;
+	inline static constexpr unsigned int ContentParticipation_TypeDefinitionIndex = 62237;
 
 	enum class ContentParticipation : ::System::Int32
 	{

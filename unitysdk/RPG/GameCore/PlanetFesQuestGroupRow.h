@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_PLANETFESQUESTGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B6C33E0)
-#define RPG_GAMECORE_PLANETFESQUESTGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6C3580)
+#define RPG_GAMECORE_PLANETFESQUESTGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D345300)
+#define RPG_GAMECORE_PLANETFESQUESTGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3454A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlanetFesQuestGroupRow_TypeDefinitionIndex = 11755;
+	inline static constexpr unsigned int PlanetFesQuestGroupRow_TypeDefinitionIndex = 12144;
 
 	class PlanetFesQuestGroupRow : public ::System::Object
 	{

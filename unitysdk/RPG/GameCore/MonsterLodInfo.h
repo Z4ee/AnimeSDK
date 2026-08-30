@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MONSTERLODINFO_METHOD_2_1D433E9AF2243E34_OFFSET UNITYSDK_OFFSET(0x1B62E500)
-#define RPG_GAMECORE_MONSTERLODINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1B62E620)
+#define RPG_GAMECORE_MONSTERLODINFO_METHOD_2_1D433E9AF2243E34_OFFSET UNITYSDK_OFFSET(0x1D2D4320)
+#define RPG_GAMECORE_MONSTERLODINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2D4440)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MonsterLodInfo_TypeDefinitionIndex = 18356;
+	inline static constexpr unsigned int MonsterLodInfo_TypeDefinitionIndex = 18880;
 
 	class MonsterLodInfo : public ::RPG::GameCore::JsonConfig
 	{

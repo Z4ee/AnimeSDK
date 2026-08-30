@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_MEMBERDESCRIPTORCOMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0x1CC90060)
-#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_MEMBERDESCRIPTORCOMPARER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CC90240)
-#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_MEMBERDESCRIPTORCOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC90230)
+#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_MEMBERDESCRIPTORCOMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0x1E93B040)
+#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_MEMBERDESCRIPTORCOMPARER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E93B220)
+#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_MEMBERDESCRIPTORCOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E93B210)
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int TypeDescriptor_MemberDescriptorComparer_TypeDefinitionIndex = 2633;
+	inline static constexpr unsigned int TypeDescriptor_MemberDescriptorComparer_TypeDefinitionIndex = 2640;
 
 	class TypeDescriptor_MemberDescriptorComparer : public ::System::Object
 	{
 	public:
 		static ::System::ComponentModel::TypeDescriptor_MemberDescriptorComparer** StaticGet_Instance()
 		{
-			return (::System::ComponentModel::TypeDescriptor_MemberDescriptorComparer**)Il2CppClass::FromTypeDefinitionIndex(TypeDescriptor_MemberDescriptorComparer_TypeDefinitionIndex)->GetStaticField(0x2A8A0);
+			return (::System::ComponentModel::TypeDescriptor_MemberDescriptorComparer**)Il2CppClass::FromTypeDefinitionIndex(TypeDescriptor_MemberDescriptorComparer_TypeDefinitionIndex)->GetStaticField(0x34AE0);
 		}
 
 		::System::Void _ctor()

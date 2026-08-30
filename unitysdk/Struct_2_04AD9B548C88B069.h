@@ -3,13 +3,13 @@
 #include "unitysdk/System/ReadOnlyMemory_1.h"
 #include "unitysdk/System/ValueType.h"
 
-#define STRUCT_2_04AD9B548C88B069__CTOR_OFFSET UNITYSDK_OFFSET(0x2DA1F50)
+#define STRUCT_2_04AD9B548C88B069__CTOR_OFFSET UNITYSDK_OFFSET(0x2E50B00)
 
-inline static constexpr unsigned int Struct_2_04AD9B548C88B069_TypeDefinitionIndex = 35341;
+inline static constexpr unsigned int Struct_2_04AD9B548C88B069_TypeDefinitionIndex = 36202;
 
 struct alignas(8) Struct_2_04AD9B548C88B069
 {
-	::System::ReadOnlyMemory_1<::System::Byte> Field_2_0; // 0x10
+	::System::ReadOnlyMemory_1<::System::Byte> DKEJNELHLKI; // 0x10
 
 	::System::Void _ctor(::System::ReadOnlyMemory_1<::System::Byte> a1)
 	{

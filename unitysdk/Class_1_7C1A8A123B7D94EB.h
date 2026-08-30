@@ -7,19 +7,19 @@
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_1_7C1A8A123B7D94EB__CTOR_OFFSET UNITYSDK_OFFSET(0x14447810)
+#define CLASS_1_7C1A8A123B7D94EB__CTOR_OFFSET UNITYSDK_OFFSET(0x15270430)
 
-inline static constexpr unsigned int Class_1_7C1A8A123B7D94EB_TypeDefinitionIndex = 49522;
+inline static constexpr unsigned int Class_1_7C1A8A123B7D94EB_TypeDefinitionIndex = 52180;
 
 class Class_1_7C1A8A123B7D94EB : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::UnityEngine::Transform*>* Field_1_0; // 0x10
-	::UnityEngine::Transform* Field_1_1; // 0x18
-	::System::Collections::Generic::List_1<::UnityEngine::Matrix4x4>* Field_1_2; // 0x20
-	::System::Int32 Field_1_3; // 0x28
-	::UnityEngine::Vector3 Field_1_4; // 0x2C
-	::System::Boolean Field_1_5; // 0x38
+	::UnityEngine::Transform* KBBHFADBJCP; // 0x10
+	::System::Collections::Generic::List_1<::UnityEngine::Matrix4x4>* ONDPCNNKLOE; // 0x18
+	::System::Collections::Generic::List_1<::UnityEngine::Transform*>* KJEBCFIOPHB; // 0x20
+	::UnityEngine::Vector3 HDKDECNKEEC; // 0x28
+	::System::Int32 IGCDCFGJMCL; // 0x34
+	::System::Boolean AAAHCOIMADJ; // 0x38
 
 	::System::Void _ctor()
 	{

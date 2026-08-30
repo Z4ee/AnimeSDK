@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SYSTEM_DIAGNOSTICS_CODEANALYSIS_NOTNULLWHENATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x19B4C060)
+#define SYSTEM_DIAGNOSTICS_CODEANALYSIS_NOTNULLWHENATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF1A050)
 
 namespace System::Diagnostics::CodeAnalysis
 {
-	inline static constexpr unsigned int NotNullWhenAttribute_TypeDefinitionIndex = 7489;
+	inline static constexpr unsigned int NotNullWhenAttribute_TypeDefinitionIndex = 35221;
 
 	class NotNullWhenAttribute : public ::System::Attribute
 	{

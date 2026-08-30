@@ -3,7 +3,7 @@
 
 namespace Epic::OnlineServices::Metrics
 {
-	inline static constexpr unsigned int MetricsAccountIdType_TypeDefinitionIndex = 43465;
+	inline static constexpr unsigned int MetricsAccountIdType_TypeDefinitionIndex = 45647;
 
 	enum class MetricsAccountIdType : ::System::Int32
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MoveToPositionUpdateMode_TypeDefinitionIndex = 54396;
+	inline static constexpr unsigned int MoveToPositionUpdateMode_TypeDefinitionIndex = 57117;
 
 	enum class MoveToPositionUpdateMode : ::System::Int32
 	{

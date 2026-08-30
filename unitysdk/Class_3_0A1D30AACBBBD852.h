@@ -6,15 +6,15 @@ class Class_2_F1C3EBA366E084A2;
 namespace RPG::GameCore { class ST_ByContainAbnormalState; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_0A1D30AACBBBD852_EVALUATE_OFFSET UNITYSDK_OFFSET(0xAEFC910)
-#define CLASS_3_0A1D30AACBBBD852__CTOR_OFFSET UNITYSDK_OFFSET(0xAEFC850)
+#define CLASS_3_0A1D30AACBBBD852_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB8AA870)
+#define CLASS_3_0A1D30AACBBBD852__CTOR_OFFSET UNITYSDK_OFFSET(0xB8AA7B0)
 
-inline static constexpr unsigned int Class_3_0A1D30AACBBBD852_TypeDefinitionIndex = 49811;
+inline static constexpr unsigned int Class_3_0A1D30AACBBBD852_TypeDefinitionIndex = 52471;
 
 class Class_3_0A1D30AACBBBD852 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ST_ByContainAbnormalState*>
 {
 public:
-	::Class_2_F1C3EBA366E084A2* Field_3_0; // 0x28
+	::Class_2_F1C3EBA366E084A2* BBGDGPNAAJM; // 0x28
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ST_ByContainAbnormalState* a2)
 	{

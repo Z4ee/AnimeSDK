@@ -35,14 +35,14 @@ namespace RPG::GameCore { class LevelTriggerInfo; }
 namespace RPG::GameCore { class SOConfigInfo; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_LEVELNPCINFO_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x1B55F420)
-#define RPG_GAMECORE_LEVELNPCINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B55F2C0)
-#define RPG_GAMECORE_LEVELNPCINFO_GETSERIESID_OFFSET UNITYSDK_OFFSET(0x1B5612E0)
-#define RPG_GAMECORE_LEVELNPCINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1B55F380)
+#define RPG_GAMECORE_LEVELNPCINFO_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x1D1D8AC0)
+#define RPG_GAMECORE_LEVELNPCINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D1D8960)
+#define RPG_GAMECORE_LEVELNPCINFO_GETSERIESID_OFFSET UNITYSDK_OFFSET(0x1D1DA850)
+#define RPG_GAMECORE_LEVELNPCINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1D8A20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelNPCInfo_TypeDefinitionIndex = 16590;
+	inline static constexpr unsigned int LevelNPCInfo_TypeDefinitionIndex = 17082;
 
 	class LevelNPCInfo : public ::RPG::GameCore::NamedLevelObjectInfo
 	{
@@ -91,36 +91,39 @@ namespace RPG::GameCore
 		::RPG::GameCore::LevelNPCUseAnimationType DefaultAnimationType; // 0x160
 		::System::UInt32 DefaultIdleFreeStyleMotionID; // 0x164
 		::System::String* FreeStyleAnimGraphName; // 0x168
-		::Il2CppArray<::RPG::GameCore::EffectConfig*>* AdditiveResidentEffect; // 0x170
-		::System::UInt32 OverrideSeriesID; // 0x178
-		::System::Boolean IsMapContent; // 0x17C
-		::System::UInt32 MiniMapIconType; // 0x180
-		::System::Boolean IsNeedFade; // 0x184
-		::System::Boolean IsInitialHidden; // 0x185
-		::Il2CppArray<::System::String*>* InitialHiddenNodeList; // 0x188
-		::RPG::GameCore::LevelDialogInfo* Dialog; // 0x190
-		::RPG::GameCore::JsonEnum* InteractIconType; // 0x198
-		::System::Boolean DialogueTriggerSkipFakeAvatar; // 0x1A0
-		::RPG::GameCore::LevelNPCOverrideBehaviorType OverrideBehaviorType; // 0x1A4
-		::RPG::GameCore::LevelNPCOverrideBehaviorParameter* OverrideBehaviorParameter; // 0x1A8
-		::Il2CppArray<::System::String*>* OverrideReplaceMaterialKeyList; // 0x1B0
-		::System::UInt32 NearestTeleportMappingInfoID; // 0x1B8
-		::System::UInt32 RaidID; // 0x1BC
-		::Il2CppArray<::System::UInt32>* ActivityMapConditionIDList; // 0x1C0
-		::Il2CppArray<::RPG::GameCore::LevelEntityReferenceInfo*>* CameraCenterEntityList; // 0x1C8
-		::RPG::GameCore::LevelEntityVCameraConfig* CameraConfig; // 0x1D0
-		::System::String* SFXOnLoad; // 0x1D8
-		::Il2CppArray<::RPG::GameCore::LevelNPCNearbyConfig*>* NearByConfigs; // 0x1E0
-		::RPG::GameCore::LevelNPCNearbyAnimConfig* NearbyAnimConfig; // 0x1E8
-		::RPG::GameCore::LevelNPCNearbyEventConfig* NearbyEventConfig; // 0x1F0
-		::RPG::GameCore::LevelNPCSpawnConfig* SpawnConfig; // 0x1F8
-		::RPG::GameCore::LevelNPCModelPresetConfig* ModelPresetConfig; // 0x200
-		::System::String* FloatingTemplateName; // 0x208
-		::System::Boolean IsFloatingOverride; // 0x210
-		::RPG::GameCore::AdventureCharacterFloatingConfig* FloatingConfig; // 0x218
-		::System::Boolean IsClientOnly; // 0x220
-		::System::UInt32 SoundProfileOverrideID; // 0x224
-		::RPG::GameCore::LevelEntityHoyoTagContainerOverrideConfig* TagOverrideConfig; // 0x228
+		::System::Boolean EnableExtendLayerFreeStyle; // 0x170
+		::System::String* ExtendLayerFreeStyleLayerName; // 0x178
+		::System::UInt32 ExtendLayerFreeStyleMotionID; // 0x180
+		::Il2CppArray<::RPG::GameCore::EffectConfig*>* AdditiveResidentEffect; // 0x188
+		::System::UInt32 OverrideSeriesID; // 0x190
+		::System::Boolean IsMapContent; // 0x194
+		::System::UInt32 MiniMapIconType; // 0x198
+		::System::Boolean IsNeedFade; // 0x19C
+		::System::Boolean IsInitialHidden; // 0x19D
+		::Il2CppArray<::System::String*>* InitialHiddenNodeList; // 0x1A0
+		::RPG::GameCore::LevelDialogInfo* Dialog; // 0x1A8
+		::RPG::GameCore::JsonEnum* InteractIconType; // 0x1B0
+		::System::Boolean DialogueTriggerSkipFakeAvatar; // 0x1B8
+		::RPG::GameCore::LevelNPCOverrideBehaviorType OverrideBehaviorType; // 0x1BC
+		::RPG::GameCore::LevelNPCOverrideBehaviorParameter* OverrideBehaviorParameter; // 0x1C0
+		::Il2CppArray<::System::String*>* OverrideReplaceMaterialKeyList; // 0x1C8
+		::System::UInt32 NearestTeleportMappingInfoID; // 0x1D0
+		::System::UInt32 RaidID; // 0x1D4
+		::Il2CppArray<::System::UInt32>* ActivityMapConditionIDList; // 0x1D8
+		::Il2CppArray<::RPG::GameCore::LevelEntityReferenceInfo*>* CameraCenterEntityList; // 0x1E0
+		::RPG::GameCore::LevelEntityVCameraConfig* CameraConfig; // 0x1E8
+		::System::String* SFXOnLoad; // 0x1F0
+		::Il2CppArray<::RPG::GameCore::LevelNPCNearbyConfig*>* NearByConfigs; // 0x1F8
+		::RPG::GameCore::LevelNPCNearbyAnimConfig* NearbyAnimConfig; // 0x200
+		::RPG::GameCore::LevelNPCNearbyEventConfig* NearbyEventConfig; // 0x208
+		::RPG::GameCore::LevelNPCSpawnConfig* SpawnConfig; // 0x210
+		::RPG::GameCore::LevelNPCModelPresetConfig* ModelPresetConfig; // 0x218
+		::System::String* FloatingTemplateName; // 0x220
+		::System::Boolean IsFloatingOverride; // 0x228
+		::RPG::GameCore::AdventureCharacterFloatingConfig* FloatingConfig; // 0x230
+		::System::Boolean IsClientOnly; // 0x238
+		::System::UInt32 SoundProfileOverrideID; // 0x23C
+		::RPG::GameCore::LevelEntityHoyoTagContainerOverrideConfig* TagOverrideConfig; // 0x240
 
 		::System::Void _ctor()
 		{

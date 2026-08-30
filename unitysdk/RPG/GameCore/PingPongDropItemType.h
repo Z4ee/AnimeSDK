@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PingPongDropItemType_TypeDefinitionIndex = 16310;
+	inline static constexpr unsigned int PingPongDropItemType_TypeDefinitionIndex = 16794;
 
 	enum class PingPongDropItemType : ::System::Int32
 	{

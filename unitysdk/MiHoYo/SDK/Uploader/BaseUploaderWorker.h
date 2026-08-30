@@ -5,11 +5,11 @@
 namespace MiHoYo::SDK::Uploader { class UploadCallbackAction; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_UPLOADER_BASEUPLOADERWORKER__CTOR_OFFSET UNITYSDK_OFFSET(0xAB818E0)
+#define MIHOYO_SDK_UPLOADER_BASEUPLOADERWORKER__CTOR_OFFSET UNITYSDK_OFFSET(0xB2C5C40)
 
 namespace MiHoYo::SDK::Uploader
 {
-	inline static constexpr unsigned int BaseUploaderWorker_TypeDefinitionIndex = 44882;
+	inline static constexpr unsigned int BaseUploaderWorker_TypeDefinitionIndex = 47118;
 
 	class BaseUploaderWorker : public ::System::Object
 	{

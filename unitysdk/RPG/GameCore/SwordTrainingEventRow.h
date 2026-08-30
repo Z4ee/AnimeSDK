@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_SWORDTRAININGEVENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B935CB0)
-#define RPG_GAMECORE_SWORDTRAININGEVENTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B936070)
+#define RPG_GAMECORE_SWORDTRAININGEVENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D592F70)
+#define RPG_GAMECORE_SWORDTRAININGEVENTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D593330)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SwordTrainingEventRow_TypeDefinitionIndex = 11991;
+	inline static constexpr unsigned int SwordTrainingEventRow_TypeDefinitionIndex = 12380;
 
 	class SwordTrainingEventRow : public ::System::Object
 	{
@@ -20,9 +20,9 @@ namespace RPG::GameCore
 		::System::String* EventImage; // 0x18
 		::RPG::Client::TextID TalkEventText1; // 0x20
 		::RPG::Client::TextID TalkEventText2; // 0x30
-		::System::UInt32 EventID; // 0x40
-		::RPG::Client::TextID EventDesc; // 0x48
-		::RPG::Client::TextID TalkEventText3; // 0x58
+		::RPG::Client::TextID TalkEventText3; // 0x40
+		::System::UInt32 EventID; // 0x50
+		::RPG::Client::TextID EventDesc; // 0x58
 
 		::System::Void _ctor()
 		{

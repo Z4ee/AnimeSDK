@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_FATEPARAMETERCONFIGBASE_METHOD_5_74EB8AE98716BE3A_OFFSET UNITYSDK_OFFSET(0x1B40D830)
-#define RPG_GAMECORE_FATEPARAMETERCONFIGBASE_METHOD_5_D376E01E6990C5D6_OFFSET UNITYSDK_OFFSET(0x1B40D1B0)
-#define RPG_GAMECORE_FATEPARAMETERCONFIGBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B40CB40)
+#define RPG_GAMECORE_FATEPARAMETERCONFIGBASE_METHOD_5_342672872B828A4B_OFFSET UNITYSDK_OFFSET(0x1D08EBA0)
+#define RPG_GAMECORE_FATEPARAMETERCONFIGBASE_METHOD_5_74EB8AE98716BE3A_OFFSET UNITYSDK_OFFSET(0x1D08F2B0)
+#define RPG_GAMECORE_FATEPARAMETERCONFIGBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D08DE20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FateParameterConfigBase_TypeDefinitionIndex = 15971;
+	inline static constexpr unsigned int FateParameterConfigBase_TypeDefinitionIndex = 16447;
 
 	class FateParameterConfigBase : public ::RPG::GameCore::PlayerParameterConfigBase
 	{
@@ -20,9 +20,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FATEPARAMETERCONFIGBASE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_5_D376E01E6990C5D6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FateParameterConfigBase*& a2)
+		static ::System::Void Method_5_342672872B828A4B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FateParameterConfigBase*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FateParameterConfigBase*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FATEPARAMETERCONFIGBASE_METHOD_5_D376E01E6990C5D6_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FateParameterConfigBase*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FATEPARAMETERCONFIGBASE_METHOD_5_342672872B828A4B_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_5_74EB8AE98716BE3A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FateParameterConfigBase* a2)

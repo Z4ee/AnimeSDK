@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/InControl/NativeDeviceProfiles/Xbox360DriverMacNativeProfile.h"
 
-#define INCONTROL_NATIVEDEVICEPROFILES_THRUSTMASTERFERRARI458RACINGWHEELMACNATIVEPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x199C7310)
-#define INCONTROL_NATIVEDEVICEPROFILES_THRUSTMASTERFERRARI458RACINGWHEELMACNATIVEPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x199C73C0)
+#define INCONTROL_NATIVEDEVICEPROFILES_THRUSTMASTERFERRARI458RACINGWHEELMACNATIVEPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x1B556110)
+#define INCONTROL_NATIVEDEVICEPROFILES_THRUSTMASTERFERRARI458RACINGWHEELMACNATIVEPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5561C0)
 
 namespace InControl::NativeDeviceProfiles
 {
-	inline static constexpr unsigned int ThrustmasterFerrari458RacingWheelMacNativeProfile_TypeDefinitionIndex = 39083;
+	inline static constexpr unsigned int ThrustmasterFerrari458RacingWheelMacNativeProfile_TypeDefinitionIndex = 39942;
 
 	class ThrustmasterFerrari458RacingWheelMacNativeProfile : public ::InControl::NativeDeviceProfiles::Xbox360DriverMacNativeProfile
 	{

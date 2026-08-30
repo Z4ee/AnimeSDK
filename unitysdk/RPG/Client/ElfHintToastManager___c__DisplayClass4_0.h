@@ -6,22 +6,22 @@ namespace RPG::Client { class ElfRestaurantProgressData; }
 namespace RPG::Client { class UserPrefs; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ELFHINTTOASTMANAGER___C__DISPLAYCLASS4_0__CHECKRESTAURANTUPGRADEHINTS_B__0_OFFSET UNITYSDK_OFFSET(0xC3846A0)
-#define RPG_CLIENT_ELFHINTTOASTMANAGER___C__DISPLAYCLASS4_0__CHECKRESTAURANTUPGRADEHINTS_B__1_OFFSET UNITYSDK_OFFSET(0xC384840)
-#define RPG_CLIENT_ELFHINTTOASTMANAGER___C__DISPLAYCLASS4_0__CHECKRESTAURANTUPGRADEHINTS_B__2_OFFSET UNITYSDK_OFFSET(0xC3849E0)
-#define RPG_CLIENT_ELFHINTTOASTMANAGER___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC3840F0)
+#define RPG_CLIENT_ELFHINTTOASTMANAGER___C__DISPLAYCLASS4_0__CHECKRESTAURANTUPGRADEHINTS_B__0_OFFSET UNITYSDK_OFFSET(0xCE55A30)
+#define RPG_CLIENT_ELFHINTTOASTMANAGER___C__DISPLAYCLASS4_0__CHECKRESTAURANTUPGRADEHINTS_B__1_OFFSET UNITYSDK_OFFSET(0xCE55BD0)
+#define RPG_CLIENT_ELFHINTTOASTMANAGER___C__DISPLAYCLASS4_0__CHECKRESTAURANTUPGRADEHINTS_B__2_OFFSET UNITYSDK_OFFSET(0xCE55D70)
+#define RPG_CLIENT_ELFHINTTOASTMANAGER___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCE55480)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ElfHintToastManager___c__DisplayClass4_0_TypeDefinitionIndex = 60910;
+	inline static constexpr unsigned int ElfHintToastManager___c__DisplayClass4_0_TypeDefinitionIndex = 63763;
 
 	class ElfHintToastManager___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::UInt32>* unlockedUnpurchasedDecoratorIDs; // 0x10
-		::RPG::Client::UserPrefs* userPrefs; // 0x18
-		::RPG::Client::ElfRestaurantProgressData* currentProgressData; // 0x20
-		::System::Collections::Generic::List_1<::System::UInt32>* unlockedUnpurchasedTableIDs; // 0x28
+		::RPG::Client::ElfRestaurantProgressData* currentProgressData; // 0x10
+		::System::Collections::Generic::List_1<::System::UInt32>* unlockedUnpurchasedDecoratorIDs; // 0x18
+		::System::Collections::Generic::List_1<::System::UInt32>* unlockedUnpurchasedTableIDs; // 0x20
+		::RPG::Client::UserPrefs* userPrefs; // 0x28
 
 		::System::Void _ctor()
 		{

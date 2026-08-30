@@ -6,7 +6,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int CRPRectShadowSerialize_TypeDefinitionIndex = 4247;
+	inline static constexpr unsigned int CRPRectShadowSerialize_TypeDefinitionIndex = 4257;
 
 	struct alignas(4) CRPRectShadowSerialize
 	{

@@ -7,12 +7,12 @@ namespace RPG::AvatarSystem { class IAvatar; }
 namespace RPG::Client { class RelicItemData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_1D95EF1836E9FE9D_METHOD_1_82CC5AD0311D7326_OFFSET UNITYSDK_OFFSET(0xB21B220)
-#define CLASS_1_1D95EF1836E9FE9D_METHOD_1_CDCFDBAD9CFEE76B_OFFSET UNITYSDK_OFFSET(0xB21B350)
-#define CLASS_1_1D95EF1836E9FE9D_METHOD_1_D96CA4C410EE8CB9_OFFSET UNITYSDK_OFFSET(0xB21B2F0)
-#define CLASS_1_1D95EF1836E9FE9D__CTOR_OFFSET UNITYSDK_OFFSET(0xB21B530)
+#define CLASS_1_1D95EF1836E9FE9D_METHOD_1_82CC5AD0311D7326_OFFSET UNITYSDK_OFFSET(0xBBEFE40)
+#define CLASS_1_1D95EF1836E9FE9D_METHOD_1_98152831CDDAA490_OFFSET UNITYSDK_OFFSET(0xBBEFF70)
+#define CLASS_1_1D95EF1836E9FE9D_METHOD_1_D96CA4C410EE8CB9_OFFSET UNITYSDK_OFFSET(0xBBEFF10)
+#define CLASS_1_1D95EF1836E9FE9D__CTOR_OFFSET UNITYSDK_OFFSET(0xBBF0180)
 
-inline static constexpr unsigned int Class_1_1D95EF1836E9FE9D_TypeDefinitionIndex = 63865;
+inline static constexpr unsigned int Class_1_1D95EF1836E9FE9D_TypeDefinitionIndex = 66856;
 
 class Class_1_1D95EF1836E9FE9D : public ::System::Object
 {
@@ -32,8 +32,8 @@ public:
 		return ((::RPG::Client::RelicSmartSuit::RankType(*)(::PVOID, ::RPG::AvatarSystem::IAvatar*, ::System::Collections::Generic::List_1<::RPG::Client::RelicItemData*>*))((::PBYTE)hIl2Cpp + CLASS_1_1D95EF1836E9FE9D_METHOD_1_D96CA4C410EE8CB9_OFFSET))(this, a1, a2);
 	}
 
-	::System::Boolean Method_1_CDCFDBAD9CFEE76B(::RPG::AvatarSystem::IAvatar* a1, ::System::Collections::Generic::List_1<::System::UInt32>* a2)
+	::System::Boolean Method_1_98152831CDDAA490(::RPG::AvatarSystem::IAvatar* a1, ::System::Collections::Generic::List_1<::System::UInt32>* a2)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::RPG::AvatarSystem::IAvatar*, ::System::Collections::Generic::List_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + CLASS_1_1D95EF1836E9FE9D_METHOD_1_CDCFDBAD9CFEE76B_OFFSET))(this, a1, a2);
+		return ((::System::Boolean(*)(::PVOID, ::RPG::AvatarSystem::IAvatar*, ::System::Collections::Generic::List_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + CLASS_1_1D95EF1836E9FE9D_METHOD_1_98152831CDDAA490_OFFSET))(this, a1, a2);
 	}
 };

@@ -6,16 +6,16 @@ namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class Renderer; }
 
-#define RPG_CLIENT_MONOEFFECTSERIALBELLCONTROL_METHOD_5_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0xCCD1270)
-#define RPG_CLIENT_MONOEFFECTSERIALBELLCONTROL_METHOD_5_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0xCCD1130)
-#define RPG_CLIENT_MONOEFFECTSERIALBELLCONTROL_METHOD_5_E068CA3AB067589D_OFFSET UNITYSDK_OFFSET(0xCCD11A0)
-#define RPG_CLIENT_MONOEFFECTSERIALBELLCONTROL_ONENABLE_OFFSET UNITYSDK_OFFSET(0xCCD1380)
-#define RPG_CLIENT_MONOEFFECTSERIALBELLCONTROL_UPDATE_OFFSET UNITYSDK_OFFSET(0xCCD13F0)
-#define RPG_CLIENT_MONOEFFECTSERIALBELLCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0xCCD1720)
+#define RPG_CLIENT_MONOEFFECTSERIALBELLCONTROL_METHOD_5_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0xD7D1E70)
+#define RPG_CLIENT_MONOEFFECTSERIALBELLCONTROL_METHOD_5_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0xD7D1D30)
+#define RPG_CLIENT_MONOEFFECTSERIALBELLCONTROL_METHOD_5_E068CA3AB067589D_OFFSET UNITYSDK_OFFSET(0xD7D1DA0)
+#define RPG_CLIENT_MONOEFFECTSERIALBELLCONTROL_ONENABLE_OFFSET UNITYSDK_OFFSET(0xD7D1F80)
+#define RPG_CLIENT_MONOEFFECTSERIALBELLCONTROL_UPDATE_OFFSET UNITYSDK_OFFSET(0xD7D1FF0)
+#define RPG_CLIENT_MONOEFFECTSERIALBELLCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0xD7D2320)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectSerialBellControl_TypeDefinitionIndex = 67579;
+	inline static constexpr unsigned int MonoEffectSerialBellControl_TypeDefinitionIndex = 70702;
 
 	class MonoEffectSerialBellControl : public ::UnityEngine::MonoBehaviour
 	{
@@ -24,26 +24,26 @@ namespace RPG::Client
 		::System::Int32 currentNote; // 0x20
 		::System::Single FadeoutTime; // 0x24
 		::UnityEngine::AnimationCurve* NoteProgress; // 0x28
-		::UnityEngine::MaterialPropertyBlock* Field_5_4; // 0x30
-		::System::Int32 Field_5_5; // 0x38
-		::System::Int32 Field_5_6; // 0x3C
-		::System::Int32 Field_5_7; // 0x40
-		::System::Int32 Field_5_8; // 0x44
-		::System::Int32 Field_5_9; // 0x48
-		::System::Int32 Field_5_10; // 0x4C
-		::System::Int32 Field_5_11; // 0x50
-		::System::Int32 Field_5_12; // 0x54
-		::System::Int32 Field_5_13; // 0x58
-		::System::Int32 Field_5_14; // 0x5C
-		::System::Int32 Field_5_15; // 0x60
-		::System::Single Field_5_16; // 0x64
-		::System::Single Field_5_17; // 0x68
-		::System::Single Field_5_18; // 0x6C
-		::System::Single Field_5_19; // 0x70
-		::System::Single Field_5_20; // 0x74
-		::System::Single Field_5_21; // 0x78
-		::System::Single Field_5_22; // 0x7C
-		::System::Single Field_5_23; // 0x80
+		::UnityEngine::MaterialPropertyBlock* KHFINMBNGBE; // 0x30
+		::System::Int32 OBFLGGMDEKE; // 0x38
+		::System::Int32 GGFFDAFDBGH; // 0x3C
+		::System::Int32 JNDKLMLGOGG; // 0x40
+		::System::Int32 AJHDDBBBICA; // 0x44
+		::System::Int32 AOIGIJAONOM; // 0x48
+		::System::Int32 NCANHCCICDI; // 0x4C
+		::System::Int32 HKJIPCOIIGO; // 0x50
+		::System::Int32 FNNEIGBAJED; // 0x54
+		::System::Int32 DDCMANELBKO; // 0x58
+		::System::Int32 PAPKGEDJGEP; // 0x5C
+		::System::Int32 LDBLCMHPNEC; // 0x60
+		::System::Single JIIDCLDINPH; // 0x64
+		::System::Single IJHEOJJKOOG; // 0x68
+		::System::Single DBDPFOPJJNF; // 0x6C
+		::System::Single HEOLFDBALGB; // 0x70
+		::System::Single DDHBFEKMBLI; // 0x74
+		::System::Single JHLBCECAOCF; // 0x78
+		::System::Single GPODLAPNFKM; // 0x7C
+		::System::Single IJAFEBFHHAL; // 0x80
 
 		::System::Void _ctor()
 		{

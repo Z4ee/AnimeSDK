@@ -4,12 +4,12 @@
 
 namespace System { class Object; }
 
-#define SYSTEM_REFLECTION_EMIT_LABEL_EQUALS_OFFSET UNITYSDK_OFFSET(0x39DED60)
-#define SYSTEM_REFLECTION_EMIT_LABEL_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x5EF0)
+#define SYSTEM_REFLECTION_EMIT_LABEL_EQUALS_OFFSET UNITYSDK_OFFSET(0x3B6E870)
+#define SYSTEM_REFLECTION_EMIT_LABEL_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x5F00)
 
 namespace System::Reflection::Emit
 {
-	inline static constexpr unsigned int Label_TypeDefinitionIndex = 645;
+	inline static constexpr unsigned int Label_TypeDefinitionIndex = 648;
 
 	struct alignas(4) Label
 	{

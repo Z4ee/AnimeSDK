@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int StandaloneWebResources_IndexEntry_TypeDefinitionIndex = 37408;
+	inline static constexpr unsigned int StandaloneWebResources_IndexEntry_TypeDefinitionIndex = 38267;
 
 	struct alignas(8) StandaloneWebResources_IndexEntry
 	{

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_THREADING__THREADPOOLWAITCALLBACK_PERFORMWAITCALLBACK_OFFSET UNITYSDK_OFFSET(0x1A0545F0)
+#define SYSTEM_THREADING__THREADPOOLWAITCALLBACK_PERFORMWAITCALLBACK_OFFSET UNITYSDK_OFFSET(0x1BC5B640)
 
 namespace System::Threading
 {
-	inline static constexpr unsigned int _ThreadPoolWaitCallback_TypeDefinitionIndex = 859;
+	inline static constexpr unsigned int _ThreadPoolWaitCallback_TypeDefinitionIndex = 863;
 
 	class _ThreadPoolWaitCallback : public ::System::Object
 	{

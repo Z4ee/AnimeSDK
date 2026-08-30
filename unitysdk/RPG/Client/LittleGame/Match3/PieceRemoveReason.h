@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame::Match3
 {
-	inline static constexpr unsigned int PieceRemoveReason_TypeDefinitionIndex = 40453;
+	inline static constexpr unsigned int PieceRemoveReason_TypeDefinitionIndex = 41391;
 
 	enum class PieceRemoveReason : ::System::Int32
 	{

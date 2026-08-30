@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_MATCHTHREEUTILS___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCB66E20)
-#define RPG_CLIENT_MATCHTHREEUTILS___C__DISPLAYCLASS3_0__JOINANDOPENLOBBY_B__0_OFFSET UNITYSDK_OFFSET(0xCB68810)
+#define RPG_CLIENT_MATCHTHREEUTILS___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD657830)
+#define RPG_CLIENT_MATCHTHREEUTILS___C__DISPLAYCLASS3_0__JOINANDOPENLOBBY_B__0_OFFSET UNITYSDK_OFFSET(0xD6592A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MatchThreeUtils___c__DisplayClass3_0_TypeDefinitionIndex = 63043;
+	inline static constexpr unsigned int MatchThreeUtils___c__DisplayClass3_0_TypeDefinitionIndex = 66028;
 
 	class MatchThreeUtils___c__DisplayClass3_0 : public ::System::Object
 	{

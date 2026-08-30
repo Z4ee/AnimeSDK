@@ -4,50 +4,50 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_RENDERING_FREECAMERA_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1CEF2CF0)
-#define UNITYENGINE_RENDERING_FREECAMERA_REGISTERINPUTS_OFFSET UNITYSDK_OFFSET(0x1CEF2D00)
-#define UNITYENGINE_RENDERING_FREECAMERA_UPDATE_OFFSET UNITYSDK_OFFSET(0x1CEF2D10)
-#define UNITYENGINE_RENDERING_FREECAMERA__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CEF3770)
-#define UNITYENGINE_RENDERING_FREECAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x1CEF3750)
+#define UNITYENGINE_RENDERING_FREECAMERA_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1EBFA560)
+#define UNITYENGINE_RENDERING_FREECAMERA_REGISTERINPUTS_OFFSET UNITYSDK_OFFSET(0x1EBFA570)
+#define UNITYENGINE_RENDERING_FREECAMERA_UPDATE_OFFSET UNITYSDK_OFFSET(0x1EBFA580)
+#define UNITYENGINE_RENDERING_FREECAMERA__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EBFAFE0)
+#define UNITYENGINE_RENDERING_FREECAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x1EBFAFC0)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int FreeCamera_TypeDefinitionIndex = 34033;
+	inline static constexpr unsigned int FreeCamera_TypeDefinitionIndex = 34800;
 
 	class FreeCamera : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		static ::System::String** StaticGet_kRightStickY()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(FreeCamera_TypeDefinitionIndex)->GetStaticField(0x487B0);
-		}
-		static ::System::String** StaticGet_kRightStickX()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(FreeCamera_TypeDefinitionIndex)->GetStaticField(0x487B8);
-		}
-		static ::System::String** StaticGet_kHorizontal()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(FreeCamera_TypeDefinitionIndex)->GetStaticField(0x487C0);
-		}
-		static ::System::String** StaticGet_kYAxis()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(FreeCamera_TypeDefinitionIndex)->GetStaticField(0x487C8);
-		}
-		static ::System::String** StaticGet_kSpeedAxis()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(FreeCamera_TypeDefinitionIndex)->GetStaticField(0x487D0);
-		}
-		static ::System::String** StaticGet_kMouseX()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(FreeCamera_TypeDefinitionIndex)->GetStaticField(0x487D8);
-		}
-		static ::System::String** StaticGet_kMouseY()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(FreeCamera_TypeDefinitionIndex)->GetStaticField(0x487E0);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(FreeCamera_TypeDefinitionIndex)->GetStaticField(0x60960);
 		}
 		static ::System::String** StaticGet_kVertical()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(FreeCamera_TypeDefinitionIndex)->GetStaticField(0x487E8);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(FreeCamera_TypeDefinitionIndex)->GetStaticField(0x60968);
+		}
+		static ::System::String** StaticGet_kMouseY()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(FreeCamera_TypeDefinitionIndex)->GetStaticField(0x60970);
+		}
+		static ::System::String** StaticGet_kYAxis()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(FreeCamera_TypeDefinitionIndex)->GetStaticField(0x60978);
+		}
+		static ::System::String** StaticGet_kMouseX()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(FreeCamera_TypeDefinitionIndex)->GetStaticField(0x60980);
+		}
+		static ::System::String** StaticGet_kHorizontal()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(FreeCamera_TypeDefinitionIndex)->GetStaticField(0x60988);
+		}
+		static ::System::String** StaticGet_kRightStickX()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(FreeCamera_TypeDefinitionIndex)->GetStaticField(0x60990);
+		}
+		static ::System::String** StaticGet_kSpeedAxis()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(FreeCamera_TypeDefinitionIndex)->GetStaticField(0x60998);
 		}
 		::System::Single m_LookSpeedController; // 0x18
 		::System::Single m_LookSpeedMouse; // 0x1C

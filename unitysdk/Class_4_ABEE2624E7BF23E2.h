@@ -4,9 +4,9 @@
 
 namespace RPG::Client { class BattleGamePhaseInitParams; }
 
-#define CLASS_4_ABEE2624E7BF23E2__CTOR_OFFSET UNITYSDK_OFFSET(0x1197B2D0)
+#define CLASS_4_ABEE2624E7BF23E2__CTOR_OFFSET UNITYSDK_OFFSET(0x12856BA0)
 
-inline static constexpr unsigned int Class_4_ABEE2624E7BF23E2_TypeDefinitionIndex = 67917;
+inline static constexpr unsigned int Class_4_ABEE2624E7BF23E2_TypeDefinitionIndex = 71090;
 
 class Class_4_ABEE2624E7BF23E2 : public ::RPG::Client::BattleGamePhase
 {

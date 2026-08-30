@@ -8,21 +8,21 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Text { class StringBuilder; }
 
-#define STRUCT_2_64F26B9ED0181D80_METHOD_2_6676B536AB0BDA5B_OFFSET UNITYSDK_OFFSET(0x140250)
-#define STRUCT_2_64F26B9ED0181D80_METHOD_2_8F658EF3CF4B7FEE_OFFSET UNITYSDK_OFFSET(0x1402A0)
-#define STRUCT_2_64F26B9ED0181D80__CCTOR_OFFSET UNITYSDK_OFFSET(0xB99C030)
+#define STRUCT_2_64F26B9ED0181D80_METHOD_2_4ACC56B3341873DA_OFFSET UNITYSDK_OFFSET(0x145C60)
+#define STRUCT_2_64F26B9ED0181D80_METHOD_2_6676B536AB0BDA5B_OFFSET UNITYSDK_OFFSET(0x145C10)
+#define STRUCT_2_64F26B9ED0181D80__CCTOR_OFFSET UNITYSDK_OFFSET(0xC3B6590)
 
-inline static constexpr unsigned int Struct_2_64F26B9ED0181D80_TypeDefinitionIndex = 56372;
+inline static constexpr unsigned int Struct_2_64F26B9ED0181D80_TypeDefinitionIndex = 59154;
 
 struct alignas(8) Struct_2_64F26B9ED0181D80
 {
-	static ::Il2CppArray<::RPG::GameCore::AbilityProperty>** StaticGet_Field_2_0()
+	static ::Il2CppArray<::RPG::GameCore::AbilityProperty>** StaticGet_FPECNMCINKN()
 	{
-		return (::Il2CppArray<::RPG::GameCore::AbilityProperty>**)Il2CppClass::FromTypeDefinitionIndex(Struct_2_64F26B9ED0181D80_TypeDefinitionIndex)->GetStaticField(0x29820);
+		return (::Il2CppArray<::RPG::GameCore::AbilityProperty>**)Il2CppClass::FromTypeDefinitionIndex(Struct_2_64F26B9ED0181D80_TypeDefinitionIndex)->GetStaticField(0x54BE0);
 	}
-	// static const ::System::Int32 Field_2_1 = 0x1B; // 0x0
-	::System::UInt32 Field_2_2; // 0x10
-	::Struct_2_64F26B9ED0181D80__PropertyRawValues_e__FixedBuffer Field_2_3; // 0x18
+	// static const ::System::Int32 AIBKIIGHLBM = 0x1B; // 0x0
+	::System::UInt32 CEGOPEIKDLA; // 0x10
+	::Struct_2_64F26B9ED0181D80__PropertyRawValues_e__FixedBuffer PDPFAANPNGG; // 0x18
 
 	static ::System::Void _cctor()
 	{
@@ -34,8 +34,8 @@ struct alignas(8) Struct_2_64F26B9ED0181D80
 		return ((::System::Boolean(*)(::PVOID, ::Struct_2_64F26B9ED0181D80, ::System::Collections::Generic::List_1<::System::String*>*))((::PBYTE)hIl2Cpp + STRUCT_2_64F26B9ED0181D80_METHOD_2_6676B536AB0BDA5B_OFFSET))(this, a1, a2);
 	}
 
-	::System::Void Method_2_8F658EF3CF4B7FEE(::System::Text::StringBuilder* a1)
+	::System::Void Method_2_4ACC56B3341873DA(::System::Text::StringBuilder* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Text::StringBuilder*))((::PBYTE)hIl2Cpp + STRUCT_2_64F26B9ED0181D80_METHOD_2_8F658EF3CF4B7FEE_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::System::Text::StringBuilder*))((::PBYTE)hIl2Cpp + STRUCT_2_64F26B9ED0181D80_METHOD_2_4ACC56B3341873DA_OFFSET))(this, a1);
 	}
 };

@@ -1,30 +1,30 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_43BD383C98B4C0C5_199.h"
+#include "unitysdk/Class_1_43BD383C98B4C0C5_213.h"
 #include "unitysdk/System/Nullable_1.h"
 
-class Class_1_F9FBCC956DFCF137_25;
+class Class_1_F9FBCC956DFCF137_27;
 class Class_1_FD611945730E269E;
 namespace System::Collections::Generic { template <typename T> class Queue_1; }
 
-#define CLASS_2_B60FBEECFFB607DC_METHOD_2_98FE8344617B99D4_OFFSET UNITYSDK_OFFSET(0xAF02ED0)
-#define CLASS_2_B60FBEECFFB607DC__CTOR_OFFSET UNITYSDK_OFFSET(0xAF02F70)
+#define CLASS_2_B60FBEECFFB607DC_METHOD_2_98FE8344617B99D4_OFFSET UNITYSDK_OFFSET(0xB8B3D50)
+#define CLASS_2_B60FBEECFFB607DC__CTOR_OFFSET UNITYSDK_OFFSET(0xB8B3DF0)
 
-inline static constexpr unsigned int Class_2_B60FBEECFFB607DC_TypeDefinitionIndex = 73719;
+inline static constexpr unsigned int Class_2_B60FBEECFFB607DC_TypeDefinitionIndex = 77203;
 
-class Class_2_B60FBEECFFB607DC : public ::Class_1_43BD383C98B4C0C5_199
+class Class_2_B60FBEECFFB607DC : public ::Class_1_43BD383C98B4C0C5_213
 {
 public:
-	::System::Collections::Generic::Queue_1<::System::Int32>* Field_2_0; // 0x10
-	::System::Nullable_1<::System::Int32> Field_2_1; // 0x18
+	::System::Collections::Generic::Queue_1<::System::Int32>* OGFDEMELINC; // 0x10
+	::System::Nullable_1<::System::Int32> MCLLALGABAB; // 0x18
 
 	::System::Void _ctor()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_B60FBEECFFB607DC__CTOR_OFFSET))(this);
 	}
 
-	::Class_1_FD611945730E269E* Method_2_98FE8344617B99D4(::Class_1_F9FBCC956DFCF137_25* a1)
+	::Class_1_FD611945730E269E* Method_2_98FE8344617B99D4(::Class_1_F9FBCC956DFCF137_27* a1)
 	{
-		return ((::Class_1_FD611945730E269E*(*)(::PVOID, ::Class_1_F9FBCC956DFCF137_25*))((::PBYTE)hIl2Cpp + CLASS_2_B60FBEECFFB607DC_METHOD_2_98FE8344617B99D4_OFFSET))(this, a1);
+		return ((::Class_1_FD611945730E269E*(*)(::PVOID, ::Class_1_F9FBCC956DFCF137_27*))((::PBYTE)hIl2Cpp + CLASS_2_B60FBEECFFB607DC_METHOD_2_98FE8344617B99D4_OFFSET))(this, a1);
 	}
 };

@@ -5,22 +5,22 @@
 namespace RPG::GameCore { class PlanetFesAnimComposite; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define CLASS_3_1843F34CD870B329___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xBD61730)
-#define CLASS_3_1843F34CD870B329___C__CTOR_OFFSET UNITYSDK_OFFSET(0xBD61770)
-#define CLASS_3_1843F34CD870B329___C___GETRANDOMANIMCOMPOSITE_B__3_0_OFFSET UNITYSDK_OFFSET(0xBD61780)
+#define CLASS_3_1843F34CD870B329___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC7C4E70)
+#define CLASS_3_1843F34CD870B329___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC7C4EB0)
+#define CLASS_3_1843F34CD870B329___C___GETRANDOMANIMCOMPOSITE_B__3_0_OFFSET UNITYSDK_OFFSET(0xC7C4EC0)
 
-inline static constexpr unsigned int Class_3_1843F34CD870B329___c_TypeDefinitionIndex = 55679;
+inline static constexpr unsigned int Class_3_1843F34CD870B329___c_TypeDefinitionIndex = 58410;
 
 class Class_3_1843F34CD870B329___c : public ::System::Object
 {
 public:
-	static ::System::Func_2<::RPG::GameCore::PlanetFesAnimComposite*, ::System::Int32>** StaticGet___9__3_0()
-	{
-		return (::System::Func_2<::RPG::GameCore::PlanetFesAnimComposite*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Class_3_1843F34CD870B329___c_TypeDefinitionIndex)->GetStaticField(0x51BD0);
-	}
 	static ::Class_3_1843F34CD870B329___c** StaticGet___9()
 	{
-		return (::Class_3_1843F34CD870B329___c**)Il2CppClass::FromTypeDefinitionIndex(Class_3_1843F34CD870B329___c_TypeDefinitionIndex)->GetStaticField(0x51BD8);
+		return (::Class_3_1843F34CD870B329___c**)Il2CppClass::FromTypeDefinitionIndex(Class_3_1843F34CD870B329___c_TypeDefinitionIndex)->GetStaticField(0x530A0);
+	}
+	static ::System::Func_2<::RPG::GameCore::PlanetFesAnimComposite*, ::System::Int32>** StaticGet___9__3_0()
+	{
+		return (::System::Func_2<::RPG::GameCore::PlanetFesAnimComposite*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Class_3_1843F34CD870B329___c_TypeDefinitionIndex)->GetStaticField(0x530A8);
 	}
 
 	static ::System::Void _cctor()

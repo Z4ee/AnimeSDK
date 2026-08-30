@@ -2,17 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_PENACONYENDMOSTCHRONICLESCALEANIMDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xCF517D0)
+#define RPG_CLIENT_PENACONYENDMOSTCHRONICLESCALEANIMDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xDA4F1C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PenaconyEndmostChronicleScaleAnimData_TypeDefinitionIndex = 63165;
+	inline static constexpr unsigned int PenaconyEndmostChronicleScaleAnimData_TypeDefinitionIndex = 66150;
 
 	class PenaconyEndmostChronicleScaleAnimData : public ::System::Object
 	{
 	public:
-		::System::Single Time; // 0x10
-		::System::Single Scale; // 0x14
+		::System::Single Scale; // 0x10
+		::System::Single Time; // 0x14
 
 		::System::Void _ctor()
 		{

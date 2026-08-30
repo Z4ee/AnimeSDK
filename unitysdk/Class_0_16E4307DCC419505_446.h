@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/GameCore/FixPoint.h"
-#include "unitysdk/RPG/GameCore/RtAIBehaviorState.h"
-#include "unitysdk/RPG/GameCore/RtAIBehaviorStopReason.h"
+#include "unitysdk/System/ValueTuple_2.h"
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_446_TypeDefinitionIndex = 51621;
+namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
+
+inline static constexpr unsigned int Class_0_16E4307DCC419505_446_TypeDefinitionIndex = 52238;
 
 class Class_0_16E4307DCC419505_446
 {

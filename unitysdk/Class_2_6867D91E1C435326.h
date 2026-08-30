@@ -9,27 +9,27 @@ namespace RPG::Client { class PipelineCameraGlobalConfig; }
 namespace System { class Action; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_2_6867D91E1C435326_METHOD_2_1A347B31430AE3E5_OFFSET UNITYSDK_OFFSET(0x14995730)
-#define CLASS_2_6867D91E1C435326_METHOD_2_1D4018D4200358D0_OFFSET UNITYSDK_OFFSET(0x14995220)
-#define CLASS_2_6867D91E1C435326_METHOD_2_403471F48BCD5219_OFFSET UNITYSDK_OFFSET(0x149957F0)
-#define CLASS_2_6867D91E1C435326_METHOD_2_6CCE405DE11B0CE1_OFFSET UNITYSDK_OFFSET(0x14995280)
-#define CLASS_2_6867D91E1C435326_METHOD_2_890E4C98F02C8F26_OFFSET UNITYSDK_OFFSET(0x14995A70)
-#define CLASS_2_6867D91E1C435326_METHOD_2_89D1F247B9D324EE_OFFSET UNITYSDK_OFFSET(0x149956A0)
-#define CLASS_2_6867D91E1C435326_METHOD_2_DC13DCFA502E580F_OFFSET UNITYSDK_OFFSET(0x14995570)
-#define CLASS_2_6867D91E1C435326__CTOR_OFFSET UNITYSDK_OFFSET(0x14994FE0)
+#define CLASS_2_6867D91E1C435326_METHOD_2_1A347B31430AE3E5_OFFSET UNITYSDK_OFFSET(0x15823600)
+#define CLASS_2_6867D91E1C435326_METHOD_2_1D4018D4200358D0_OFFSET UNITYSDK_OFFSET(0x158230F0)
+#define CLASS_2_6867D91E1C435326_METHOD_2_403471F48BCD5219_OFFSET UNITYSDK_OFFSET(0x158236C0)
+#define CLASS_2_6867D91E1C435326_METHOD_2_6CCE405DE11B0CE1_OFFSET UNITYSDK_OFFSET(0x15823150)
+#define CLASS_2_6867D91E1C435326_METHOD_2_890E4C98F02C8F26_OFFSET UNITYSDK_OFFSET(0x15823940)
+#define CLASS_2_6867D91E1C435326_METHOD_2_89D1F247B9D324EE_OFFSET UNITYSDK_OFFSET(0x15823570)
+#define CLASS_2_6867D91E1C435326_METHOD_2_DC13DCFA502E580F_OFFSET UNITYSDK_OFFSET(0x15823440)
+#define CLASS_2_6867D91E1C435326__CTOR_OFFSET UNITYSDK_OFFSET(0x15822EB0)
 
-inline static constexpr unsigned int Class_2_6867D91E1C435326_TypeDefinitionIndex = 66503;
+inline static constexpr unsigned int Class_2_6867D91E1C435326_TypeDefinitionIndex = 69596;
 
 class Class_2_6867D91E1C435326 : public ::Class_1_4A7F3B1CD6560F7E
 {
 public:
-	static ::System::Int32* StaticGet_Field_2_0()
+	static ::System::Int32* StaticGet_COEMCOBPMKD()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_2_6867D91E1C435326_TypeDefinitionIndex)->GetStaticField(0x13F30);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_2_6867D91E1C435326_TypeDefinitionIndex)->GetStaticField(0x12010);
 	}
-	::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Action*>* Field_2_1; // 0x38
-	::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Action*>* Field_2_2; // 0x40
-	::System::Int32 Field_2_3; // 0x48
+	::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Action*>* CAFMAJOMAGN; // 0x38
+	::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Action*>* IALCJKLBKOF; // 0x40
+	::System::Int32 NLNABHMIKKN; // 0x48
 
 	::System::Void _ctor(::RPG::Client::PipelineCameraEngine* a1, ::RPG::Client::CameraModuleConfigCollection* a2, ::RPG::Client::PipelineCameraGlobalConfig* a3, ::RPG::Client::CameraDataAndFlags* a4)
 	{

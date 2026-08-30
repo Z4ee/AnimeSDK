@@ -7,20 +7,20 @@ namespace RPG::Client { class FloorConnectivityData_EdgeInfo; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_FLOORCONNECTIVITYDATA_VERTEXINFO_TOSTRING_OFFSET UNITYSDK_OFFSET(0xC620830)
-#define RPG_CLIENT_FLOORCONNECTIVITYDATA_VERTEXINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xC620480)
+#define RPG_CLIENT_FLOORCONNECTIVITYDATA_VERTEXINFO_TOSTRING_OFFSET UNITYSDK_OFFSET(0xD0A58C0)
+#define RPG_CLIENT_FLOORCONNECTIVITYDATA_VERTEXINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xD0A5510)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FloorConnectivityData_VertexInfo_TypeDefinitionIndex = 61310;
+	inline static constexpr unsigned int FloorConnectivityData_VertexInfo_TypeDefinitionIndex = 64291;
 
 	class FloorConnectivityData_VertexInfo : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::RPG::Client::FloorConnectivityData_EdgeInfo*>* EdgesFromCurVertex; // 0x10
-		::RPG::Client::FloorConnectivityData_EdgeConnectionInfo* WildcardPoint; // 0x18
-		::System::Boolean IsVisited; // 0x20
-		::System::UInt32 CurFloorID; // 0x24
+		::RPG::Client::FloorConnectivityData_EdgeConnectionInfo* WildcardPoint; // 0x10
+		::System::Collections::Generic::List_1<::RPG::Client::FloorConnectivityData_EdgeInfo*>* EdgesFromCurVertex; // 0x18
+		::System::UInt32 CurFloorID; // 0x20
+		::System::Boolean IsVisited; // 0x24
 
 		::System::Void _ctor(::System::UInt32 a1)
 		{

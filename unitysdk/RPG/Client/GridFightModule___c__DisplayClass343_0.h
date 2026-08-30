@@ -4,12 +4,12 @@
 
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_GRIDFIGHTMODULE___C__DISPLAYCLASS343_0__CHECKCUSTOMTEXTHASFORBIDDENWORD_B__0_OFFSET UNITYSDK_OFFSET(0xC792020)
-#define RPG_CLIENT_GRIDFIGHTMODULE___C__DISPLAYCLASS343_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC78FF00)
+#define RPG_CLIENT_GRIDFIGHTMODULE___C__DISPLAYCLASS343_0__CHECKCUSTOMTEXTHASFORBIDDENWORD_B__0_OFFSET UNITYSDK_OFFSET(0xD21A8D0)
+#define RPG_CLIENT_GRIDFIGHTMODULE___C__DISPLAYCLASS343_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD218760)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightModule___c__DisplayClass343_0_TypeDefinitionIndex = 61950;
+	inline static constexpr unsigned int GridFightModule___c__DisplayClass343_0_TypeDefinitionIndex = 64934;
 
 	class GridFightModule___c__DisplayClass343_0 : public ::System::Object
 	{

@@ -7,18 +7,18 @@ namespace RPG::GameCore { class SkillConfig; }
 namespace RPG::GameCore { class TurnBasedAbilityComponent; }
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 
-#define RPG_GAMECORE_GAMEPLAYSTATIC___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0xDA9ACF0)
-#define RPG_GAMECORE_GAMEPLAYSTATIC___C__DISPLAYCLASS8_0__SOLVESTANCEWEAKNESSPRESHOW_B__0_OFFSET UNITYSDK_OFFSET(0xDAA8910)
+#define RPG_GAMECORE_GAMEPLAYSTATIC___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0xE6599F0)
+#define RPG_GAMECORE_GAMEPLAYSTATIC___C__DISPLAYCLASS8_0__SOLVESTANCEWEAKNESSPRESHOW_B__0_OFFSET UNITYSDK_OFFSET(0xE667790)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GamePlayStatic___c__DisplayClass8_0_TypeDefinitionIndex = 56418;
+	inline static constexpr unsigned int GamePlayStatic___c__DisplayClass8_0_TypeDefinitionIndex = 59202;
 
 	class GamePlayStatic___c__DisplayClass8_0 : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::SkillConfig* pSkillConfig; // 0x10
-		::RPG::GameCore::TurnBasedAbilityComponent* pAttackerAbilityCharacter; // 0x18
+		::RPG::GameCore::TurnBasedAbilityComponent* pAttackerAbilityCharacter; // 0x10
+		::RPG::GameCore::SkillConfig* pSkillConfig; // 0x18
 		::RPG::GameCore::TurnBasedAbilityComponent* pTargetTurnBasedAbility; // 0x20
 		::RPG::GameCore::AttackDamageType addweaknessList; // 0x28
 

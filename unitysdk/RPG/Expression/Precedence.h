@@ -3,7 +3,7 @@
 
 namespace RPG::Expression
 {
-	inline static constexpr unsigned int Precedence_TypeDefinitionIndex = 10020;
+	inline static constexpr unsigned int Precedence_TypeDefinitionIndex = 10356;
 
 	enum class Precedence : ::System::Int32
 	{

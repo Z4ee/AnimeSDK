@@ -5,9 +5,9 @@
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define PREFABPERFCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xBA75900)
+#define PREFABPERFCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xC494210)
 
-inline static constexpr unsigned int PrefabPerfConfig_TypeDefinitionIndex = 45687;
+inline static constexpr unsigned int PrefabPerfConfig_TypeDefinitionIndex = 47938;
 
 class PrefabPerfConfig : public ::UnityEngine::ScriptableObject
 {

@@ -7,13 +7,13 @@ namespace RPG::Client { class BezierCurve; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_PATHANIMATION_INIT_OFFSET UNITYSDK_OFFSET(0xCF47290)
-#define RPG_CLIENT_PATHANIMATION_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xCF47680)
-#define RPG_CLIENT_PATHANIMATION__CTOR_OFFSET UNITYSDK_OFFSET(0xCF47EB0)
+#define RPG_CLIENT_PATHANIMATION_INIT_OFFSET UNITYSDK_OFFSET(0xDA44C80)
+#define RPG_CLIENT_PATHANIMATION_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xDA45070)
+#define RPG_CLIENT_PATHANIMATION__CTOR_OFFSET UNITYSDK_OFFSET(0xDA458A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PathAnimation_TypeDefinitionIndex = 67535;
+	inline static constexpr unsigned int PathAnimation_TypeDefinitionIndex = 70658;
 
 	class PathAnimation : public ::UnityEngine::MonoBehaviour
 	{
@@ -30,11 +30,11 @@ namespace RPG::Client
 		::System::Single _AllLength; // 0x54
 		::UnityEngine::Transform* _EndNode; // 0x58
 		::System::Boolean _OneNode; // 0x60
-		::UnityEngine::Vector3 Field_5_12; // 0x64
-		::UnityEngine::Vector3 Field_5_13; // 0x70
-		::UnityEngine::Vector3 Field_5_14; // 0x7C
-		::UnityEngine::Vector3 Field_5_15; // 0x88
-		::UnityEngine::Vector3 Field_5_16; // 0x94
+		::UnityEngine::Vector3 PDJBFBPEHFE; // 0x64
+		::UnityEngine::Vector3 NAMGGEJCDMP; // 0x70
+		::UnityEngine::Vector3 BCMKELFLKGG; // 0x7C
+		::UnityEngine::Vector3 KNPLGCHFPOI; // 0x88
+		::UnityEngine::Vector3 KPJIAJKIPKN; // 0x94
 
 		::System::Void _ctor()
 		{

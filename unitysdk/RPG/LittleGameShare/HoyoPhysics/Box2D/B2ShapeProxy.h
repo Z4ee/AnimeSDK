@@ -6,7 +6,7 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2ShapeProxy_TypeDefinitionIndex = 35219;
+	inline static constexpr unsigned int B2ShapeProxy_TypeDefinitionIndex = 36080;
 
 	struct alignas(4) B2ShapeProxy
 	{

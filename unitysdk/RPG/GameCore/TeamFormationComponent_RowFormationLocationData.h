@@ -6,23 +6,23 @@
 class Class_2_BF927CBEA754F6BE;
 namespace System { class String; }
 
-#define RPG_GAMECORE_TEAMFORMATIONCOMPONENT_ROWFORMATIONLOCATIONDATA_RESET_OFFSET UNITYSDK_OFFSET(0xDBD2C90)
-#define RPG_GAMECORE_TEAMFORMATIONCOMPONENT_ROWFORMATIONLOCATIONDATA_TOSTRING_OFFSET UNITYSDK_OFFSET(0xDBD2C30)
-#define RPG_GAMECORE_TEAMFORMATIONCOMPONENT_ROWFORMATIONLOCATIONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xDBD2C20)
+#define RPG_GAMECORE_TEAMFORMATIONCOMPONENT_ROWFORMATIONLOCATIONDATA_RESET_OFFSET UNITYSDK_OFFSET(0xE748820)
+#define RPG_GAMECORE_TEAMFORMATIONCOMPONENT_ROWFORMATIONLOCATIONDATA_TOSTRING_OFFSET UNITYSDK_OFFSET(0xE7487C0)
+#define RPG_GAMECORE_TEAMFORMATIONCOMPONENT_ROWFORMATIONLOCATIONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xE7487B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TeamFormationComponent_RowFormationLocationData_TypeDefinitionIndex = 55136;
+	inline static constexpr unsigned int TeamFormationComponent_RowFormationLocationData_TypeDefinitionIndex = 57859;
 
 	class TeamFormationComponent_RowFormationLocationData : public ::System::Object
 	{
 	public:
 		::Class_2_BF927CBEA754F6BE* FormationComponent; // 0x10
 		::RPG::MVector3 LocalFormationOffset; // 0x18
-		::System::Boolean IgnoreFormationRefresh; // 0x24
-		::System::Single RandomZOffset; // 0x28
-		::System::Single FixedZOffset; // 0x2C
-		::System::Int32 RowIndex; // 0x30
+		::System::Single FixedZOffset; // 0x24
+		::System::Int32 RowIndex; // 0x28
+		::System::Single RandomZOffset; // 0x2C
+		::System::Boolean IgnoreFormationRefresh; // 0x30
 
 		::System::Void _ctor(::System::Int32 a1)
 		{

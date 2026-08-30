@@ -5,25 +5,25 @@
 namespace System { class String; }
 namespace System::Text { class StringBuilder; }
 
-#define SYSTEM_SECURITY_UTIL_TOKENIZER_STRINGMAKER_COMPARESTRINGANDCHARS_OFFSET UNITYSDK_OFFSET(0x19FE6FC0)
-#define SYSTEM_SECURITY_UTIL_TOKENIZER_STRINGMAKER_HASHCHARARRAY_OFFSET UNITYSDK_OFFSET(0x19FE6EB0)
-#define SYSTEM_SECURITY_UTIL_TOKENIZER_STRINGMAKER_HASHSTRING_OFFSET UNITYSDK_OFFSET(0x19FE6E00)
-#define SYSTEM_SECURITY_UTIL_TOKENIZER_STRINGMAKER_MAKESTRING_OFFSET UNITYSDK_OFFSET(0x19FDDE20)
-#define SYSTEM_SECURITY_UTIL_TOKENIZER_STRINGMAKER__CTOR_OFFSET UNITYSDK_OFFSET(0x19FE6F80)
+#define SYSTEM_SECURITY_UTIL_TOKENIZER_STRINGMAKER_COMPARESTRINGANDCHARS_OFFSET UNITYSDK_OFFSET(0x1BBECA50)
+#define SYSTEM_SECURITY_UTIL_TOKENIZER_STRINGMAKER_HASHCHARARRAY_OFFSET UNITYSDK_OFFSET(0x1BBEC930)
+#define SYSTEM_SECURITY_UTIL_TOKENIZER_STRINGMAKER_HASHSTRING_OFFSET UNITYSDK_OFFSET(0x1BBEC880)
+#define SYSTEM_SECURITY_UTIL_TOKENIZER_STRINGMAKER_MAKESTRING_OFFSET UNITYSDK_OFFSET(0x1BBE37B0)
+#define SYSTEM_SECURITY_UTIL_TOKENIZER_STRINGMAKER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BBECA00)
 
 namespace System::Security::Util
 {
-	inline static constexpr unsigned int Tokenizer_StringMaker_TypeDefinitionIndex = 970;
+	inline static constexpr unsigned int Tokenizer_StringMaker_TypeDefinitionIndex = 977;
 
 	class Tokenizer_StringMaker : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::Char>* _outChars; // 0x10
-		::System::Text::StringBuilder* _outStringBuilder; // 0x18
-		::Il2CppArray<::System::String*>* aStrings; // 0x20
-		::System::Int32 _outIndex; // 0x28
-		::System::UInt32 cStringsMax; // 0x2C
-		::System::UInt32 cStringsUsed; // 0x30
+		::Il2CppArray<::System::String*>* aStrings; // 0x18
+		::System::Text::StringBuilder* _outStringBuilder; // 0x20
+		::System::UInt32 cStringsUsed; // 0x28
+		::System::Int32 _outIndex; // 0x2C
+		::System::UInt32 cStringsMax; // 0x30
 
 		::System::Void _ctor()
 		{

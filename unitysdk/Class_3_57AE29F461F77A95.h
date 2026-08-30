@@ -6,15 +6,15 @@
 namespace RPG::GameCore { class CalcPitchAngle; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_57AE29F461F77A95_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1462E090)
-#define CLASS_3_57AE29F461F77A95__CTOR_OFFSET UNITYSDK_OFFSET(0x1462DFB0)
+#define CLASS_3_57AE29F461F77A95_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1567C840)
+#define CLASS_3_57AE29F461F77A95__CTOR_OFFSET UNITYSDK_OFFSET(0x1567C760)
 
-inline static constexpr unsigned int Class_3_57AE29F461F77A95_TypeDefinitionIndex = 53815;
+inline static constexpr unsigned int Class_3_57AE29F461F77A95_TypeDefinitionIndex = 56535;
 
 class Class_3_57AE29F461F77A95 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::CalcPitchAngle*>
 {
 public:
-	::RPG::GameCore::StringHash Field_3_0; // 0x28
+	::RPG::GameCore::StringHash DIJHOMCLPEG; // 0x28
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::CalcPitchAngle* a2)
 	{

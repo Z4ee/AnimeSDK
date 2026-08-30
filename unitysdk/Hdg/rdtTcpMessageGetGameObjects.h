@@ -10,7 +10,7 @@ namespace System::IO { class BinaryWriter; }
 
 namespace Hdg
 {
-	inline static constexpr unsigned int rdtTcpMessageGetGameObjects_TypeDefinitionIndex = 45209;
+	inline static constexpr unsigned int rdtTcpMessageGetGameObjects_TypeDefinitionIndex = 47445;
 
 	struct alignas(1) rdtTcpMessageGetGameObjects
 	{

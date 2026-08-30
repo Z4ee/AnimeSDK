@@ -1,43 +1,43 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_CA217ABF4E3B4F3F.h"
+#include "unitysdk/Class_1_34917908B7833130.h"
 #include "unitysdk/Class_3_A2BC57CDDA246645_Mode.h"
 
 class Class_1_AB817CB39E494C61;
 class Class_1_DDDB57AA67C3A9EA;
-class Class_2_9CCF2DE66246229E;
+class Class_2_4835C9A345E71E46;
 namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
 namespace UnityEngine { class Animation; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_2_96B9D8A88A7E78BD_METHOD_2_1ABF1CBED7A4AF0A_OFFSET UNITYSDK_OFFSET(0xBA06250)
-#define CLASS_2_96B9D8A88A7E78BD_METHOD_2_5857FF99C65608F5_OFFSET UNITYSDK_OFFSET(0xBA06660)
-#define CLASS_2_96B9D8A88A7E78BD_METHOD_2_6CB1D198EE7238C6_OFFSET UNITYSDK_OFFSET(0xBA065E0)
-#define CLASS_2_96B9D8A88A7E78BD_METHOD_2_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0xBA061A0)
-#define CLASS_2_96B9D8A88A7E78BD_METHOD_2_C27BA6BD7BDCF785_OFFSET UNITYSDK_OFFSET(0xBA06420)
-#define CLASS_2_96B9D8A88A7E78BD__CTOR_OFFSET UNITYSDK_OFFSET(0xBA06710)
-#define CLASS_2_96B9D8A88A7E78BD__ONBIND_OFFSET UNITYSDK_OFFSET(0xBA05ED0)
-#define CLASS_2_96B9D8A88A7E78BD__ONDISPOSE_OFFSET UNITYSDK_OFFSET(0xBA063D0)
+#define CLASS_2_96B9D8A88A7E78BD_METHOD_2_1ABF1CBED7A4AF0A_OFFSET UNITYSDK_OFFSET(0xC425BC0)
+#define CLASS_2_96B9D8A88A7E78BD_METHOD_2_5857FF99C65608F5_OFFSET UNITYSDK_OFFSET(0xC425FE0)
+#define CLASS_2_96B9D8A88A7E78BD_METHOD_2_6CB1D198EE7238C6_OFFSET UNITYSDK_OFFSET(0xC425F60)
+#define CLASS_2_96B9D8A88A7E78BD_METHOD_2_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0xC425B10)
+#define CLASS_2_96B9D8A88A7E78BD_METHOD_2_C27BA6BD7BDCF785_OFFSET UNITYSDK_OFFSET(0xC425DA0)
+#define CLASS_2_96B9D8A88A7E78BD__CTOR_OFFSET UNITYSDK_OFFSET(0xC426080)
+#define CLASS_2_96B9D8A88A7E78BD__ONBIND_OFFSET UNITYSDK_OFFSET(0xC425840)
+#define CLASS_2_96B9D8A88A7E78BD__ONDISPOSE_OFFSET UNITYSDK_OFFSET(0xC425D50)
 
-inline static constexpr unsigned int Class_2_96B9D8A88A7E78BD_TypeDefinitionIndex = 68083;
+inline static constexpr unsigned int Class_2_96B9D8A88A7E78BD_TypeDefinitionIndex = 71258;
 
-class Class_2_96B9D8A88A7E78BD : public ::Class_1_CA217ABF4E3B4F3F
+class Class_2_96B9D8A88A7E78BD : public ::Class_1_34917908B7833130
 {
 public:
-	// static const ::System::String* Field_2_0; // 0x0
-	::Class_2_9CCF2DE66246229E* Field_2_1; // 0x60
-	::UnityEngine::Transform* Field_2_2; // 0x68
-	::UnityEngine::Animation* Field_2_3; // 0x70
-	::UnityEngine::Transform* Field_2_4; // 0x78
-	::UnityEngine::Transform* Field_2_5; // 0x80
-	::UnityEngine::Transform* Field_2_6; // 0x88
-	::UnityEngine::Transform* Field_2_7; // 0x90
-	::Class_1_AB817CB39E494C61* Field_2_8; // 0x98
-	::UnityEngine::Transform* Field_2_9; // 0xA0
-	::System::Single Field_2_10; // 0xA8
-	::System::Boolean Field_2_11; // 0xAC
-	::Class_3_A2BC57CDDA246645_Mode Field_2_12; // 0xB0
+	// static const ::System::String* NFENFKACJNL; // 0x0
+	::UnityEngine::Transform* PGLBOIHNJPJ; // 0x60
+	::UnityEngine::Transform* MDBBPBBMCEG; // 0x68
+	::UnityEngine::Transform* AMJPKCBOLEK; // 0x70
+	::UnityEngine::Transform* KMHLHECIMOF; // 0x78
+	::UnityEngine::Animation* MBONPFHGDFB; // 0x80
+	::Class_1_AB817CB39E494C61* PKIGHMIMJLF; // 0x88
+	::UnityEngine::Transform* DFKPFBCFOJJ; // 0x90
+	::UnityEngine::Transform* HLADPKLGPEI; // 0x98
+	::Class_2_4835C9A345E71E46* FGPADGFFLIC; // 0xA0
+	::Class_3_A2BC57CDDA246645_Mode BHJDJDPLCLP; // 0xA8
+	::System::Boolean JIEJLKLFJOL; // 0xAC
+	::System::Single DPLDFNFHAJL; // 0xB0
 
 	::System::Void _ctor()
 	{

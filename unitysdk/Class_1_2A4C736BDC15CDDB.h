@@ -11,40 +11,40 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_2A4C736BDC15CDDB_METHOD_1_00CCE68E4D98532D_OFFSET UNITYSDK_OFFSET(0xADBA670)
-#define CLASS_1_2A4C736BDC15CDDB_METHOD_1_0D5D95392C4A525B_OFFSET UNITYSDK_OFFSET(0xADBAB50)
-#define CLASS_1_2A4C736BDC15CDDB_METHOD_1_166CD2DFBCC5F848_OFFSET UNITYSDK_OFFSET(0xADB9870)
-#define CLASS_1_2A4C736BDC15CDDB_METHOD_1_194806AB94858578_OFFSET UNITYSDK_OFFSET(0xADB9A40)
-#define CLASS_1_2A4C736BDC15CDDB_METHOD_1_89D1F247B9D324EE_OFFSET UNITYSDK_OFFSET(0xADBA540)
-#define CLASS_1_2A4C736BDC15CDDB_METHOD_1_91F67260608B561B_OFFSET UNITYSDK_OFFSET(0xADB98F0)
-#define CLASS_1_2A4C736BDC15CDDB_METHOD_1_A9325C3E854E0776_OFFSET UNITYSDK_OFFSET(0xADBB7B0)
-#define CLASS_1_2A4C736BDC15CDDB_METHOD_1_B5DCA959860D884A_OFFSET UNITYSDK_OFFSET(0xADBB240)
-#define CLASS_1_2A4C736BDC15CDDB__CCTOR_OFFSET UNITYSDK_OFFSET(0xADBBD80)
+#define CLASS_1_2A4C736BDC15CDDB_METHOD_1_00CCE68E4D98532D_OFFSET UNITYSDK_OFFSET(0xB719040)
+#define CLASS_1_2A4C736BDC15CDDB_METHOD_1_0D5D95392C4A525B_OFFSET UNITYSDK_OFFSET(0xB719520)
+#define CLASS_1_2A4C736BDC15CDDB_METHOD_1_166CD2DFBCC5F848_OFFSET UNITYSDK_OFFSET(0xB718280)
+#define CLASS_1_2A4C736BDC15CDDB_METHOD_1_194806AB94858578_OFFSET UNITYSDK_OFFSET(0xB718450)
+#define CLASS_1_2A4C736BDC15CDDB_METHOD_1_89D1F247B9D324EE_OFFSET UNITYSDK_OFFSET(0xB718F10)
+#define CLASS_1_2A4C736BDC15CDDB_METHOD_1_91F67260608B561B_OFFSET UNITYSDK_OFFSET(0xB718300)
+#define CLASS_1_2A4C736BDC15CDDB_METHOD_1_A9325C3E854E0776_OFFSET UNITYSDK_OFFSET(0xB71A180)
+#define CLASS_1_2A4C736BDC15CDDB_METHOD_1_B5DCA959860D884A_OFFSET UNITYSDK_OFFSET(0xB719C10)
+#define CLASS_1_2A4C736BDC15CDDB__CCTOR_OFFSET UNITYSDK_OFFSET(0xB71A750)
 
-inline static constexpr unsigned int Class_1_2A4C736BDC15CDDB_TypeDefinitionIndex = 66358;
+inline static constexpr unsigned int Class_1_2A4C736BDC15CDDB_TypeDefinitionIndex = 69450;
 
 class Class_1_2A4C736BDC15CDDB : public ::System::Object
 {
 public:
-	static ::System::String** StaticGet_Field_1_0()
+	static ::System::String** StaticGet_LGFBAECDFID()
 	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_2A4C736BDC15CDDB_TypeDefinitionIndex)->GetStaticField(0x4EEA0);
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_2A4C736BDC15CDDB_TypeDefinitionIndex)->GetStaticField(0x66D80);
 	}
-	static ::System::String** StaticGet_Field_1_1()
+	static ::System::String** StaticGet_FGIHAOPOACK()
 	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_2A4C736BDC15CDDB_TypeDefinitionIndex)->GetStaticField(0x4EEA8);
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_2A4C736BDC15CDDB_TypeDefinitionIndex)->GetStaticField(0x66D88);
 	}
-	static ::System::Collections::Generic::HashSet_1<::System::Int32>** StaticGet_Field_1_2()
+	static ::Class_1_2A4C736BDC15CDDB_Class_1_6EF01436BBEB928C** StaticGet_LKGHPDODGDI()
 	{
-		return (::System::Collections::Generic::HashSet_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_2A4C736BDC15CDDB_TypeDefinitionIndex)->GetStaticField(0x4EEB0);
+		return (::Class_1_2A4C736BDC15CDDB_Class_1_6EF01436BBEB928C**)Il2CppClass::FromTypeDefinitionIndex(Class_1_2A4C736BDC15CDDB_TypeDefinitionIndex)->GetStaticField(0x66D90);
 	}
-	static ::Class_1_2A4C736BDC15CDDB_Class_1_6EF01436BBEB928C** StaticGet_Field_1_3()
+	static ::System::Collections::Generic::HashSet_1<::System::Int32>** StaticGet_EHNDHPCDNEH()
 	{
-		return (::Class_1_2A4C736BDC15CDDB_Class_1_6EF01436BBEB928C**)Il2CppClass::FromTypeDefinitionIndex(Class_1_2A4C736BDC15CDDB_TypeDefinitionIndex)->GetStaticField(0x4EEB8);
+		return (::System::Collections::Generic::HashSet_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_2A4C736BDC15CDDB_TypeDefinitionIndex)->GetStaticField(0x66D98);
 	}
-	static ::System::String** StaticGet_Field_1_4()
+	static ::System::String** StaticGet_DHICLHDHNDN()
 	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_2A4C736BDC15CDDB_TypeDefinitionIndex)->GetStaticField(0x4EEC0);
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_2A4C736BDC15CDDB_TypeDefinitionIndex)->GetStaticField(0x66DA0);
 	}
 
 	static ::System::Void _cctor()

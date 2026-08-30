@@ -4,13 +4,13 @@
 
 namespace System::Reflection { class PropertyInfo; }
 
-#define SRF_HELPERS_PROPERTYREFERENCE___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C9FE810)
-#define SRF_HELPERS_PROPERTYREFERENCE___C__DISPLAYCLASS14_0___CTOR_B__0_OFFSET UNITYSDK_OFFSET(0x1C9FECE0)
-#define SRF_HELPERS_PROPERTYREFERENCE___C__DISPLAYCLASS14_0___CTOR_B__1_OFFSET UNITYSDK_OFFSET(0x1C9FEF20)
+#define SRF_HELPERS_PROPERTYREFERENCE___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1E6A9570)
+#define SRF_HELPERS_PROPERTYREFERENCE___C__DISPLAYCLASS14_0___CTOR_B__0_OFFSET UNITYSDK_OFFSET(0x1E6A9A40)
+#define SRF_HELPERS_PROPERTYREFERENCE___C__DISPLAYCLASS14_0___CTOR_B__1_OFFSET UNITYSDK_OFFSET(0x1E6A9C80)
 
 namespace SRF::Helpers
 {
-	inline static constexpr unsigned int PropertyReference___c__DisplayClass14_0_TypeDefinitionIndex = 33994;
+	inline static constexpr unsigned int PropertyReference___c__DisplayClass14_0_TypeDefinitionIndex = 34761;
 
 	class PropertyReference___c__DisplayClass14_0 : public ::System::Object
 	{

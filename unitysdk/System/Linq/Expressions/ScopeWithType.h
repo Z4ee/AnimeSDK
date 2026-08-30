@@ -9,13 +9,13 @@ namespace System::Linq::Expressions { class BlockExpression; }
 namespace System::Linq::Expressions { class Expression; }
 namespace System::Linq::Expressions { class ParameterExpression; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_SCOPEWITHTYPE_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1CABF300)
-#define SYSTEM_LINQ_EXPRESSIONS_SCOPEWITHTYPE_REWRITE_OFFSET UNITYSDK_OFFSET(0x1CABF310)
-#define SYSTEM_LINQ_EXPRESSIONS_SCOPEWITHTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CABF290)
+#define SYSTEM_LINQ_EXPRESSIONS_SCOPEWITHTYPE_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1E768CC0)
+#define SYSTEM_LINQ_EXPRESSIONS_SCOPEWITHTYPE_REWRITE_OFFSET UNITYSDK_OFFSET(0x1E768CD0)
+#define SYSTEM_LINQ_EXPRESSIONS_SCOPEWITHTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E768C50)
 
 namespace System::Linq::Expressions
 {
-	inline static constexpr unsigned int ScopeWithType_TypeDefinitionIndex = 3193;
+	inline static constexpr unsigned int ScopeWithType_TypeDefinitionIndex = 3201;
 
 	class ScopeWithType : public ::System::Linq::Expressions::ScopeN
 	{

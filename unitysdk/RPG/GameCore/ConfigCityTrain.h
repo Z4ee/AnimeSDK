@@ -7,12 +7,12 @@ namespace RPG::GameCore { class ConfigGetOffTrain; }
 namespace RPG::GameCore { class ConfigGetOnTrain; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CONFIGCITYTRAIN_METHOD_2_8E2278D13F676A12_OFFSET UNITYSDK_OFFSET(0x1B37BBA0)
-#define RPG_GAMECORE_CONFIGCITYTRAIN__CTOR_OFFSET UNITYSDK_OFFSET(0x1B37C2D0)
+#define RPG_GAMECORE_CONFIGCITYTRAIN_METHOD_2_8E2278D13F676A12_OFFSET UNITYSDK_OFFSET(0x1CFF8CE0)
+#define RPG_GAMECORE_CONFIGCITYTRAIN__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFF9410)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ConfigCityTrain_TypeDefinitionIndex = 16245;
+	inline static constexpr unsigned int ConfigCityTrain_TypeDefinitionIndex = 16729;
 
 	class ConfigCityTrain : public ::RPG::GameCore::JsonConfig
 	{

@@ -6,15 +6,15 @@ class Class_2_B5B8C0745497F797_Class_1_FA4172D5B6616996;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class ParticleSystem; }
 
-#define CLASS_2_B5B8C0745497F797_CLASS_1_9AEC13984F2929EB__CTOR_OFFSET UNITYSDK_OFFSET(0xB6CED10)
+#define CLASS_2_B5B8C0745497F797_CLASS_1_9AEC13984F2929EB__CTOR_OFFSET UNITYSDK_OFFSET(0xC135B00)
 
-inline static constexpr unsigned int Class_2_B5B8C0745497F797_Class_1_9AEC13984F2929EB_TypeDefinitionIndex = 66752;
+inline static constexpr unsigned int Class_2_B5B8C0745497F797_Class_1_9AEC13984F2929EB_TypeDefinitionIndex = 69854;
 
 class Class_2_B5B8C0745497F797_Class_1_9AEC13984F2929EB : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::Class_2_B5B8C0745497F797_Class_1_FA4172D5B6616996*>* Field_1_0; // 0x10
-	::UnityEngine::ParticleSystem* Field_1_1; // 0x18
+	::System::Collections::Generic::List_1<::Class_2_B5B8C0745497F797_Class_1_FA4172D5B6616996*>* FFHGLILNAHO; // 0x10
+	::UnityEngine::ParticleSystem* BMLFFCLALIC; // 0x18
 
 	::System::Void _ctor(::UnityEngine::ParticleSystem* a1)
 	{

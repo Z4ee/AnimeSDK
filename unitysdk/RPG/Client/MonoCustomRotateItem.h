@@ -6,12 +6,12 @@
 
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_MONOCUSTOMROTATEITEM_TICK_OFFSET UNITYSDK_OFFSET(0xCC48660)
-#define RPG_CLIENT_MONOCUSTOMROTATEITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xCC487E0)
+#define RPG_CLIENT_MONOCUSTOMROTATEITEM_TICK_OFFSET UNITYSDK_OFFSET(0xD747750)
+#define RPG_CLIENT_MONOCUSTOMROTATEITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xD7478D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoCustomRotateItem_TypeDefinitionIndex = 65704;
+	inline static constexpr unsigned int MonoCustomRotateItem_TypeDefinitionIndex = 68741;
 
 	class MonoCustomRotateItem : public ::UnityEngine::MonoBehaviour
 	{
@@ -19,8 +19,8 @@ namespace RPG::Client
 		::UnityEngine::Transform* root; // 0x18
 		::System::Single rotateSpeed; // 0x20
 		::UnityEngine::Vector2 rotateTimeRange; // 0x24
-		::System::Single Field_5_3; // 0x2C
-		::UnityEngine::Vector3 Field_5_4; // 0x30
+		::System::Single BCGHNNBGMCM; // 0x2C
+		::UnityEngine::Vector3 NOKOFCBMICO; // 0x30
 
 		::System::Void _ctor()
 		{

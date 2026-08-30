@@ -7,19 +7,19 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_LITTLEWHEELFUNCCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B58C6C0)
-#define RPG_GAMECORE_LITTLEWHEELFUNCCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B58CD10)
+#define RPG_GAMECORE_LITTLEWHEELFUNCCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D207B40)
+#define RPG_GAMECORE_LITTLEWHEELFUNCCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D208190)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LittleWheelFuncConfigRow_TypeDefinitionIndex = 12828;
+	inline static constexpr unsigned int LittleWheelFuncConfigRow_TypeDefinitionIndex = 13219;
 
 	class LittleWheelFuncConfigRow : public ::System::Object
 	{
 	public:
 		::System::String* IconPath; // 0x10
-		::RPG::GameCore::ShortCutWheelGotoType LittleWheelFuncID; // 0x18
-		::RPG::GameCore::LittleWheelType Type; // 0x1C
+		::RPG::GameCore::LittleWheelType Type; // 0x18
+		::RPG::GameCore::ShortCutWheelGotoType LittleWheelFuncID; // 0x1C
 
 		::System::Void _ctor()
 		{

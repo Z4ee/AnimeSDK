@@ -7,17 +7,17 @@
 
 namespace System { class String; }
 
-#define STRUCT_2_DC33E550141EBFE3__CTOR_1_OFFSET UNITYSDK_OFFSET(0x87EC0)
-#define STRUCT_2_DC33E550141EBFE3__CTOR_OFFSET UNITYSDK_OFFSET(0x87EB0)
+#define STRUCT_2_DC33E550141EBFE3__CTOR_1_OFFSET UNITYSDK_OFFSET(0x8C970)
+#define STRUCT_2_DC33E550141EBFE3__CTOR_OFFSET UNITYSDK_OFFSET(0x8C960)
 
-inline static constexpr unsigned int Struct_2_DC33E550141EBFE3_TypeDefinitionIndex = 70642;
+inline static constexpr unsigned int Struct_2_DC33E550141EBFE3_TypeDefinitionIndex = 73941;
 
 struct alignas(8) Struct_2_DC33E550141EBFE3
 {
-	::RPG::Client::Sample::SampleViewType Field_2_0; // 0x10
-	::RPG::Client::Sample::SampleViewRule Field_2_1; // 0x14
-	::RPG::Client::Sample::SampleViewUnit Field_2_2; // 0x18
-	::System::String* Field_2_3; // 0x20
+	::RPG::Client::Sample::SampleViewType PDHLOHFDKPJ; // 0x10
+	::RPG::Client::Sample::SampleViewRule AOIPGBJJHJN; // 0x14
+	::RPG::Client::Sample::SampleViewUnit FKLAHKIOCMG; // 0x18
+	::System::String* LFDPPGHEBDN; // 0x20
 
 	::System::Void _ctor(::RPG::Client::Sample::SampleViewType a1, ::System::String* a2)
 	{

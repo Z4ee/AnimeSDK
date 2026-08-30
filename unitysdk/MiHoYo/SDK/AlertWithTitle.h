@@ -8,27 +8,27 @@ namespace System { class String; }
 namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class Text; }
 
-#define MIHOYO_SDK_ALERTWITHTITLE_AWAKE_OFFSET UNITYSDK_OFFSET(0x19BA11A0)
-#define MIHOYO_SDK_ALERTWITHTITLE_HIDE_OFFSET UNITYSDK_OFFSET(0x19BA1A00)
-#define MIHOYO_SDK_ALERTWITHTITLE_ONTAPCONFIRM_OFFSET UNITYSDK_OFFSET(0x19BA1A40)
-#define MIHOYO_SDK_ALERTWITHTITLE_SHOW_OFFSET UNITYSDK_OFFSET(0x19BA17F0)
-#define MIHOYO_SDK_ALERTWITHTITLE_START_OFFSET UNITYSDK_OFFSET(0x19BA1630)
-#define MIHOYO_SDK_ALERTWITHTITLE__CTOR_OFFSET UNITYSDK_OFFSET(0x19BA1AA0)
+#define MIHOYO_SDK_ALERTWITHTITLE_AWAKE_OFFSET UNITYSDK_OFFSET(0x1B7308C0)
+#define MIHOYO_SDK_ALERTWITHTITLE_HIDE_OFFSET UNITYSDK_OFFSET(0x1B731120)
+#define MIHOYO_SDK_ALERTWITHTITLE_ONTAPCONFIRM_OFFSET UNITYSDK_OFFSET(0x1B731160)
+#define MIHOYO_SDK_ALERTWITHTITLE_SHOW_OFFSET UNITYSDK_OFFSET(0x1B730F10)
+#define MIHOYO_SDK_ALERTWITHTITLE_START_OFFSET UNITYSDK_OFFSET(0x1B730D50)
+#define MIHOYO_SDK_ALERTWITHTITLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7311C0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int AlertWithTitle_TypeDefinitionIndex = 7948;
+	inline static constexpr unsigned int AlertWithTitle_TypeDefinitionIndex = 7952;
 
 	class AlertWithTitle : public ::MiHoYo::SDK::UIElement
 	{
 	public:
 		static ::MiHoYo::SDK::UIManager** StaticGet_manager()
 		{
-			return (::MiHoYo::SDK::UIManager**)Il2CppClass::FromTypeDefinitionIndex(AlertWithTitle_TypeDefinitionIndex)->GetStaticField(0xF2F0);
+			return (::MiHoYo::SDK::UIManager**)Il2CppClass::FromTypeDefinitionIndex(AlertWithTitle_TypeDefinitionIndex)->GetStaticField(0x3D20);
 		}
 		static ::MiHoYo::SDK::AlertWithTitle** StaticGet_Instance()
 		{
-			return (::MiHoYo::SDK::AlertWithTitle**)Il2CppClass::FromTypeDefinitionIndex(AlertWithTitle_TypeDefinitionIndex)->GetStaticField(0xF2F8);
+			return (::MiHoYo::SDK::AlertWithTitle**)Il2CppClass::FromTypeDefinitionIndex(AlertWithTitle_TypeDefinitionIndex)->GetStaticField(0x3D28);
 		}
 		// static const ::System::String* PrefabName; // 0x0
 		// static const ::System::String* DialogPath; // 0x0

@@ -3,7 +3,7 @@
 
 namespace Entitas
 {
-	inline static constexpr unsigned int ITearDownSystem_TypeDefinitionIndex = 9713;
+	inline static constexpr unsigned int ITearDownSystem_TypeDefinitionIndex = 9992;
 
 	class ITearDownSystem
 	{

@@ -4,35 +4,35 @@
 
 namespace RPG::Client { class RPGProfilerMarker; }
 
-#define RPG_CLIENT_MAIN_AWAKE_OFFSET UNITYSDK_OFFSET(0xCA39DF0)
-#define RPG_CLIENT_MAIN_FIXEDUPDATE_OFFSET UNITYSDK_OFFSET(0xCA3A360)
-#define RPG_CLIENT_MAIN_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xCA3A3B0)
-#define RPG_CLIENT_MAIN_ONAPPLICATIONFOCUS_OFFSET UNITYSDK_OFFSET(0xCA3A130)
-#define RPG_CLIENT_MAIN_ONAPPLICATIONPAUSE_OFFSET UNITYSDK_OFFSET(0xCA3A1B0)
-#define RPG_CLIENT_MAIN_ONAPPLICATIONQUIT_OFFSET UNITYSDK_OFFSET(0xCA3A230)
-#define RPG_CLIENT_MAIN_START_OFFSET UNITYSDK_OFFSET(0xCA39FC0)
-#define RPG_CLIENT_MAIN_UPDATE_OFFSET UNITYSDK_OFFSET(0xCA3A2C0)
-#define RPG_CLIENT_MAIN__CCTOR_OFFSET UNITYSDK_OFFSET(0xCA3A440)
-#define RPG_CLIENT_MAIN__CTOR_OFFSET UNITYSDK_OFFSET(0xCA3A430)
+#define RPG_CLIENT_MAIN_AWAKE_OFFSET UNITYSDK_OFFSET(0xD5A2FB0)
+#define RPG_CLIENT_MAIN_FIXEDUPDATE_OFFSET UNITYSDK_OFFSET(0xD5A3520)
+#define RPG_CLIENT_MAIN_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xD5A3570)
+#define RPG_CLIENT_MAIN_ONAPPLICATIONFOCUS_OFFSET UNITYSDK_OFFSET(0xD5A32F0)
+#define RPG_CLIENT_MAIN_ONAPPLICATIONPAUSE_OFFSET UNITYSDK_OFFSET(0xD5A3370)
+#define RPG_CLIENT_MAIN_ONAPPLICATIONQUIT_OFFSET UNITYSDK_OFFSET(0xD5A33F0)
+#define RPG_CLIENT_MAIN_START_OFFSET UNITYSDK_OFFSET(0xD5A3180)
+#define RPG_CLIENT_MAIN_UPDATE_OFFSET UNITYSDK_OFFSET(0xD5A3480)
+#define RPG_CLIENT_MAIN__CCTOR_OFFSET UNITYSDK_OFFSET(0xD5A3600)
+#define RPG_CLIENT_MAIN__CTOR_OFFSET UNITYSDK_OFFSET(0xD5A35F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Main_TypeDefinitionIndex = 65240;
+	inline static constexpr unsigned int Main_TypeDefinitionIndex = 68252;
 
 	class Main : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::RPG::Client::RPGProfilerMarker** StaticGet_UpdateMainMarker()
-		{
-			return (::RPG::Client::RPGProfilerMarker**)Il2CppClass::FromTypeDefinitionIndex(Main_TypeDefinitionIndex)->GetStaticField(0x449E0);
-		}
 		static ::RPG::Client::RPGProfilerMarker** StaticGet_UpdatePhysicsSyncTransformsMarker()
 		{
-			return (::RPG::Client::RPGProfilerMarker**)Il2CppClass::FromTypeDefinitionIndex(Main_TypeDefinitionIndex)->GetStaticField(0x449E8);
+			return (::RPG::Client::RPGProfilerMarker**)Il2CppClass::FromTypeDefinitionIndex(Main_TypeDefinitionIndex)->GetStaticField(0x64ED0);
 		}
 		static ::RPG::Client::RPGProfilerMarker** StaticGet_LateUpdateMainMarker()
 		{
-			return (::RPG::Client::RPGProfilerMarker**)Il2CppClass::FromTypeDefinitionIndex(Main_TypeDefinitionIndex)->GetStaticField(0x449F0);
+			return (::RPG::Client::RPGProfilerMarker**)Il2CppClass::FromTypeDefinitionIndex(Main_TypeDefinitionIndex)->GetStaticField(0x64ED8);
+		}
+		static ::RPG::Client::RPGProfilerMarker** StaticGet_UpdateMainMarker()
+		{
+			return (::RPG::Client::RPGProfilerMarker**)Il2CppClass::FromTypeDefinitionIndex(Main_TypeDefinitionIndex)->GetStaticField(0x64EE0);
 		}
 		::System::Int32 _lastFixedUpdateFrameCount; // 0x18
 

@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define SYSTEM_REFLECTION_ASSEMBLYCOPYRIGHTATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1831E0)
+#define SYSTEM_REFLECTION_ASSEMBLYCOPYRIGHTATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD8AE00)
 
 namespace System::Reflection
 {
-	inline static constexpr unsigned int AssemblyCopyrightAttribute_TypeDefinitionIndex = 537;
+	inline static constexpr unsigned int AssemblyCopyrightAttribute_TypeDefinitionIndex = 540;
 
 	class AssemblyCopyrightAttribute : public ::System::Attribute
 	{

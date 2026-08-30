@@ -5,20 +5,20 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_RECHARGEBENEFITDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B708940)
-#define RPG_GAMECORE_RECHARGEBENEFITDATAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B708B20)
+#define RPG_GAMECORE_RECHARGEBENEFITDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D38A9C0)
+#define RPG_GAMECORE_RECHARGEBENEFITDATAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D38ABA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RechargeBenefitDataRow_TypeDefinitionIndex = 14035;
+	inline static constexpr unsigned int RechargeBenefitDataRow_TypeDefinitionIndex = 14455;
 
 	class RechargeBenefitDataRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 BenefitID; // 0x10
-		::RPG::Client::TextID GiftName; // 0x18
-		::System::UInt32 Reward; // 0x28
-		::System::UInt32 ConsumeNum; // 0x2C
+		::System::UInt32 ConsumeNum; // 0x10
+		::System::UInt32 Reward; // 0x14
+		::System::UInt32 BenefitID; // 0x18
+		::RPG::Client::TextID GiftName; // 0x20
 
 		::System::Void _ctor()
 		{

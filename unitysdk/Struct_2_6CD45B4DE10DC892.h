@@ -4,15 +4,15 @@
 
 namespace RPG::GameCore { class TaskContext; }
 
-#define STRUCT_2_6CD45B4DE10DC892_METHOD_2_FF35922B674791EC_OFFSET UNITYSDK_OFFSET(0x2D03470)
-#define STRUCT_2_6CD45B4DE10DC892__CTOR_OFFSET UNITYSDK_OFFSET(0x2D03440)
+#define STRUCT_2_6CD45B4DE10DC892_METHOD_2_FF35922B674791EC_OFFSET UNITYSDK_OFFSET(0x2DEC820)
+#define STRUCT_2_6CD45B4DE10DC892__CTOR_OFFSET UNITYSDK_OFFSET(0x2DEC7F0)
 
-inline static constexpr unsigned int Struct_2_6CD45B4DE10DC892_TypeDefinitionIndex = 53651;
+inline static constexpr unsigned int Struct_2_6CD45B4DE10DC892_TypeDefinitionIndex = 56370;
 
 struct alignas(8) Struct_2_6CD45B4DE10DC892
 {
-	::RPG::GameCore::TaskContext* Field_2_0; // 0x10
-	::System::Int32 Field_2_1; // 0x18
+	::RPG::GameCore::TaskContext* OBKLPOKMIEA; // 0x10
+	::System::Int32 GJJDIEGKODJ; // 0x18
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1)
 	{

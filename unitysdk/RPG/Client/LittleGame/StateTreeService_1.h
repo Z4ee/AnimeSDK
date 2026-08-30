@@ -8,7 +8,7 @@ namespace System { class String; }
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int StateTreeService_1_TypeDefinitionIndex = 72621;
+	inline static constexpr unsigned int StateTreeService_1_TypeDefinitionIndex = 76057;
 
 	template <typename TEntity>
 	class StateTreeService_1 : public ::System::Object

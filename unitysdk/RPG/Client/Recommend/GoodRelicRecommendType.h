@@ -3,7 +3,7 @@
 
 namespace RPG::Client::Recommend
 {
-	inline static constexpr unsigned int GoodRelicRecommendType_TypeDefinitionIndex = 71061;
+	inline static constexpr unsigned int GoodRelicRecommendType_TypeDefinitionIndex = 74360;
 
 	enum class GoodRelicRecommendType : ::System::Int32
 	{

@@ -3,7 +3,7 @@
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int Selectable_SelectionState_TypeDefinitionIndex = 6001;
+	inline static constexpr unsigned int Selectable_SelectionState_TypeDefinitionIndex = 6831;
 
 	enum class Selectable_SelectionState : ::System::Int32
 	{

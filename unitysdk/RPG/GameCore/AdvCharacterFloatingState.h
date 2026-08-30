@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvCharacterFloatingState_TypeDefinitionIndex = 54497;
+	inline static constexpr unsigned int AdvCharacterFloatingState_TypeDefinitionIndex = 57218;
 
 	enum class AdvCharacterFloatingState : ::System::Int32
 	{

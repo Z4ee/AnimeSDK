@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SwitchPhotoGraphMode; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_63336D767068CBC5_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB451100)
-#define CLASS_3_63336D767068CBC5__CTOR_OFFSET UNITYSDK_OFFSET(0xB4510D0)
+#define CLASS_3_63336D767068CBC5_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBE3A0C0)
+#define CLASS_3_63336D767068CBC5__CTOR_OFFSET UNITYSDK_OFFSET(0xBE3A090)
 
-inline static constexpr unsigned int Class_3_63336D767068CBC5_TypeDefinitionIndex = 50895;
+inline static constexpr unsigned int Class_3_63336D767068CBC5_TypeDefinitionIndex = 53579;
 
 class Class_3_63336D767068CBC5 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SwitchPhotoGraphMode*>
 {

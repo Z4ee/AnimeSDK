@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TriggerCustomPhotoGraphCondition; }
 
-#define CLASS_3_17BE9D521AA08CC3_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC25E1A0)
-#define CLASS_3_17BE9D521AA08CC3__CTOR_OFFSET UNITYSDK_OFFSET(0xC25E170)
+#define CLASS_3_17BE9D521AA08CC3_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCD16AE0)
+#define CLASS_3_17BE9D521AA08CC3__CTOR_OFFSET UNITYSDK_OFFSET(0xCD16AB0)
 
-inline static constexpr unsigned int Class_3_17BE9D521AA08CC3_TypeDefinitionIndex = 51018;
+inline static constexpr unsigned int Class_3_17BE9D521AA08CC3_TypeDefinitionIndex = 53702;
 
 class Class_3_17BE9D521AA08CC3 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::TriggerCustomPhotoGraphCondition*>
 {

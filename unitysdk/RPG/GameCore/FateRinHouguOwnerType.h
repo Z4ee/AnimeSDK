@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FateRinHouguOwnerType_TypeDefinitionIndex = 11132;
+	inline static constexpr unsigned int FateRinHouguOwnerType_TypeDefinitionIndex = 11521;
 
 	enum class FateRinHouguOwnerType : ::System::Int32
 	{

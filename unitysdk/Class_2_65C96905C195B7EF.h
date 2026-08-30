@@ -5,16 +5,16 @@
 class Class_2_48488E8DBD9F6BCE;
 namespace RPG::GameCore { class DiceCombatTaskConfig_AttackEffect_Cutin; }
 
-#define CLASS_2_65C96905C195B7EF_METHOD_2_B1936CE4DA97AA45_OFFSET UNITYSDK_OFFSET(0x1A4C7680)
-#define CLASS_2_65C96905C195B7EF__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4C7670)
+#define CLASS_2_65C96905C195B7EF_METHOD_2_B1936CE4DA97AA45_OFFSET UNITYSDK_OFFSET(0x1C0D7170)
+#define CLASS_2_65C96905C195B7EF__CTOR_OFFSET UNITYSDK_OFFSET(0x1C0D7160)
 
-inline static constexpr unsigned int Class_2_65C96905C195B7EF_TypeDefinitionIndex = 34758;
+inline static constexpr unsigned int Class_2_65C96905C195B7EF_TypeDefinitionIndex = 35619;
 
 class Class_2_65C96905C195B7EF : public ::Class_1_B55037134F9E6688
 {
 public:
-	::Class_2_48488E8DBD9F6BCE* Field_2_0; // 0x18
-	::RPG::GameCore::DiceCombatTaskConfig_AttackEffect_Cutin* Field_2_1; // 0x20
+	::Class_2_48488E8DBD9F6BCE* EEFMDEHLLFI; // 0x18
+	::RPG::GameCore::DiceCombatTaskConfig_AttackEffect_Cutin* IGHAHBNLIJA; // 0x20
 
 	::System::Void _ctor(::RPG::GameCore::DiceCombatTaskConfig_AttackEffect_Cutin* a1, ::Class_2_48488E8DBD9F6BCE* a2)
 	{

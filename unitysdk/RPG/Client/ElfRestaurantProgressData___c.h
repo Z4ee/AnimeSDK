@@ -5,24 +5,24 @@
 namespace RPG::Client { class ElfRestaurantDayData; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_ELFRESTAURANTPROGRESSDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC3B6100)
-#define RPG_CLIENT_ELFRESTAURANTPROGRESSDATA___C__CREATE_B__0_0_OFFSET UNITYSDK_OFFSET(0xC3B6140)
-#define RPG_CLIENT_ELFRESTAURANTPROGRESSDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC3B6130)
+#define RPG_CLIENT_ELFRESTAURANTPROGRESSDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xCE87B60)
+#define RPG_CLIENT_ELFRESTAURANTPROGRESSDATA___C__CREATE_B__0_0_OFFSET UNITYSDK_OFFSET(0xCE87BA0)
+#define RPG_CLIENT_ELFRESTAURANTPROGRESSDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0xCE87B90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ElfRestaurantProgressData___c_TypeDefinitionIndex = 60933;
+	inline static constexpr unsigned int ElfRestaurantProgressData___c_TypeDefinitionIndex = 63786;
 
 	class ElfRestaurantProgressData___c : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::ElfRestaurantProgressData___c** StaticGet___9()
 		{
-			return (::RPG::Client::ElfRestaurantProgressData___c**)Il2CppClass::FromTypeDefinitionIndex(ElfRestaurantProgressData___c_TypeDefinitionIndex)->GetStaticField(0x69270);
+			return (::RPG::Client::ElfRestaurantProgressData___c**)Il2CppClass::FromTypeDefinitionIndex(ElfRestaurantProgressData___c_TypeDefinitionIndex)->GetStaticField(0x656D0);
 		}
 		static ::System::Comparison_1<::RPG::Client::ElfRestaurantDayData*>** StaticGet___9__0_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::ElfRestaurantDayData*>**)Il2CppClass::FromTypeDefinitionIndex(ElfRestaurantProgressData___c_TypeDefinitionIndex)->GetStaticField(0x69278);
+			return (::System::Comparison_1<::RPG::Client::ElfRestaurantDayData*>**)Il2CppClass::FromTypeDefinitionIndex(ElfRestaurantProgressData___c_TypeDefinitionIndex)->GetStaticField(0x656D8);
 		}
 
 		static ::System::Void _cctor()

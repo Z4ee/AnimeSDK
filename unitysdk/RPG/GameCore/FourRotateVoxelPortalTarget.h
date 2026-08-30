@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class FiveDimPortalTarget; }
 
-#define RPG_GAMECORE_FOURROTATEVOXELPORTALTARGET_METHOD_2_1A91E51F7903E79F_OFFSET UNITYSDK_OFFSET(0x1B49ED60)
-#define RPG_GAMECORE_FOURROTATEVOXELPORTALTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x1B49EEB0)
+#define RPG_GAMECORE_FOURROTATEVOXELPORTALTARGET_METHOD_2_1A91E51F7903E79F_OFFSET UNITYSDK_OFFSET(0x1D117760)
+#define RPG_GAMECORE_FOURROTATEVOXELPORTALTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1178B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FourRotateVoxelPortalTarget_TypeDefinitionIndex = 16099;
+	inline static constexpr unsigned int FourRotateVoxelPortalTarget_TypeDefinitionIndex = 16577;
 
 	class FourRotateVoxelPortalTarget : public ::RPG::GameCore::JsonConfig
 	{

@@ -7,14 +7,14 @@ namespace UnityEngine::Events { template <typename T> class UnityAction_1; }
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineStoryboard___O_TypeDefinitionIndex = 37601;
+	inline static constexpr unsigned int CinemachineStoryboard___O_TypeDefinitionIndex = 38460;
 
 	class CinemachineStoryboard___O : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::Events::UnityAction_1<::Cinemachine::CinemachineBrain*>** StaticGet__0___StaticBlendingHandler()
 		{
-			return (::UnityEngine::Events::UnityAction_1<::Cinemachine::CinemachineBrain*>**)Il2CppClass::FromTypeDefinitionIndex(CinemachineStoryboard___O_TypeDefinitionIndex)->GetStaticField(0x32A0);
+			return (::UnityEngine::Events::UnityAction_1<::Cinemachine::CinemachineBrain*>**)Il2CppClass::FromTypeDefinitionIndex(CinemachineStoryboard___O_TypeDefinitionIndex)->GetStaticField(0x54F80);
 		}
 	};
 }

@@ -6,12 +6,12 @@ namespace RPG::Client::Promises { class IPromise; }
 namespace System { template <typename T> class Func_1; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define RPG_CLIENT_PROMISES_PROMISE___C__DISPLAYCLASS63_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1AA29BA0)
-#define RPG_CLIENT_PROMISES_PROMISE___C__DISPLAYCLASS63_0__THENSEQUENCE_B__0_OFFSET UNITYSDK_OFFSET(0x1AA2B5A0)
+#define RPG_CLIENT_PROMISES_PROMISE___C__DISPLAYCLASS63_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C65C150)
+#define RPG_CLIENT_PROMISES_PROMISE___C__DISPLAYCLASS63_0__THENSEQUENCE_B__0_OFFSET UNITYSDK_OFFSET(0x1C65DB80)
 
 namespace RPG::Client::Promises
 {
-	inline static constexpr unsigned int Promise___c__DisplayClass63_0_TypeDefinitionIndex = 9586;
+	inline static constexpr unsigned int Promise___c__DisplayClass63_0_TypeDefinitionIndex = 9865;
 
 	class Promise___c__DisplayClass63_0 : public ::System::Object
 	{

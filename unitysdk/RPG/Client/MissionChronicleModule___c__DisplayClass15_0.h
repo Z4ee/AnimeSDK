@@ -5,12 +5,12 @@
 namespace RPG::Client { class MissionChronicleMainPathData; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define RPG_CLIENT_MISSIONCHRONICLEMODULE___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCBD6EF0)
-#define RPG_CLIENT_MISSIONCHRONICLEMODULE___C__DISPLAYCLASS15_0___SETCONNECTIONWAYDATA_B__0_OFFSET UNITYSDK_OFFSET(0xCBD7830)
+#define RPG_CLIENT_MISSIONCHRONICLEMODULE___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD6D3A80)
+#define RPG_CLIENT_MISSIONCHRONICLEMODULE___C__DISPLAYCLASS15_0___SETCONNECTIONWAYDATA_B__0_OFFSET UNITYSDK_OFFSET(0xD6D4470)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MissionChronicleModule___c__DisplayClass15_0_TypeDefinitionIndex = 63152;
+	inline static constexpr unsigned int MissionChronicleModule___c__DisplayClass15_0_TypeDefinitionIndex = 66137;
 
 	class MissionChronicleModule___c__DisplayClass15_0 : public ::System::Object
 	{

@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class MapRotationChargerIconConfig; }
 namespace RPG::GameCore { class MapRotationVolumeIconConfig; }
 
-#define RPG_GAMECORE_MAP3DICONCONFIG_METHOD_2_0D9E6A2D6F64F87B_OFFSET UNITYSDK_OFFSET(0x1B5A4190)
-#define RPG_GAMECORE_MAP3DICONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5A4320)
+#define RPG_GAMECORE_MAP3DICONCONFIG_METHOD_2_0D9E6A2D6F64F87B_OFFSET UNITYSDK_OFFSET(0x1D2207E0)
+#define RPG_GAMECORE_MAP3DICONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D220970)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int Map3DIconConfig_TypeDefinitionIndex = 16358;
+	inline static constexpr unsigned int Map3DIconConfig_TypeDefinitionIndex = 16846;
 
 	class Map3DIconConfig : public ::RPG::GameCore::JsonConfig
 	{

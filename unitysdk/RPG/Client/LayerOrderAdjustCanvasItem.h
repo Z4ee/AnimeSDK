@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class Canvas; }
 
-#define RPG_CLIENT_LAYERORDERADJUSTCANVASITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xC9127B0)
+#define RPG_CLIENT_LAYERORDERADJUSTCANVASITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xD4382D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LayerOrderAdjustCanvasItem_TypeDefinitionIndex = 69725;
+	inline static constexpr unsigned int LayerOrderAdjustCanvasItem_TypeDefinitionIndex = 72980;
 
 	class LayerOrderAdjustCanvasItem : public ::System::Object
 	{

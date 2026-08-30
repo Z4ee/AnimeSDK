@@ -7,7 +7,7 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIMap3DContainer_IPoseTransformProvider_TypeDefinitionIndex = 65980;
+	inline static constexpr unsigned int UIMap3DContainer_IPoseTransformProvider_TypeDefinitionIndex = 69019;
 
 	class UIMap3DContainer_IPoseTransformProvider
 	{

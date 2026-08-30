@@ -8,16 +8,16 @@ namespace RPG::GameCore { class RtTargetMapEmptyGridNearby; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_E64E3F8D6B0CACB2_METHOD_2_2A6B87C525933554_OFFSET UNITYSDK_OFFSET(0xCDBFED0)
-#define CLASS_2_E64E3F8D6B0CACB2_TRANSFORM_OFFSET UNITYSDK_OFFSET(0xCDBF450)
-#define CLASS_2_E64E3F8D6B0CACB2__CTOR_OFFSET UNITYSDK_OFFSET(0xCDBF430)
+#define CLASS_2_E64E3F8D6B0CACB2_METHOD_2_2A6B87C525933554_OFFSET UNITYSDK_OFFSET(0xDABAAD0)
+#define CLASS_2_E64E3F8D6B0CACB2_TRANSFORM_OFFSET UNITYSDK_OFFSET(0xDABA050)
+#define CLASS_2_E64E3F8D6B0CACB2__CTOR_OFFSET UNITYSDK_OFFSET(0xDABA030)
 
-inline static constexpr unsigned int Class_2_E64E3F8D6B0CACB2_TypeDefinitionIndex = 51341;
+inline static constexpr unsigned int Class_2_E64E3F8D6B0CACB2_TypeDefinitionIndex = 54025;
 
 class Class_2_E64E3F8D6B0CACB2 : public ::RPG::GameCore::TargetSeqOperationImpl_1<::RPG::GameCore::RtTargetMapEmptyGridNearby*>
 {
 public:
-	::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* Field_2_0; // 0x18
+	::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* DDKPMIIJMPB; // 0x18
 
 	::System::Void _ctor(::RPG::GameCore::RtTargetMapEmptyGridNearby* a1)
 	{

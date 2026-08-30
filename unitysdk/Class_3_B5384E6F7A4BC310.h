@@ -7,16 +7,16 @@ class Class_2_21AD365C113DC484;
 class Class_2_F3C45F1FC7349B6E;
 namespace RPG::GameCore { class CakeRaceCheckAndSaveTargetsPredicateConfig; }
 
-#define CLASS_3_B5384E6F7A4BC310_ISMATCHIMPL_OFFSET UNITYSDK_OFFSET(0x1A49BAB0)
-#define CLASS_3_B5384E6F7A4BC310_METHOD_3_6D4B878302A2C58E_OFFSET UNITYSDK_OFFSET(0x1A49BA00)
-#define CLASS_3_B5384E6F7A4BC310__CTOR_OFFSET UNITYSDK_OFFSET(0x1A49BA90)
+#define CLASS_3_B5384E6F7A4BC310_ISMATCHIMPL_OFFSET UNITYSDK_OFFSET(0x1C0AB640)
+#define CLASS_3_B5384E6F7A4BC310_METHOD_3_6D4B878302A2C58E_OFFSET UNITYSDK_OFFSET(0x1C0AB590)
+#define CLASS_3_B5384E6F7A4BC310__CTOR_OFFSET UNITYSDK_OFFSET(0x1C0AB620)
 
-inline static constexpr unsigned int Class_3_B5384E6F7A4BC310_TypeDefinitionIndex = 35870;
+inline static constexpr unsigned int Class_3_B5384E6F7A4BC310_TypeDefinitionIndex = 36731;
 
 class Class_3_B5384E6F7A4BC310 : public ::RPG::Client::LittleGameShare::CakeRaceCore::CakeRaceCoreBasePredicate_1<::RPG::GameCore::CakeRaceCheckAndSaveTargetsPredicateConfig*>
 {
 public:
-	::Class_1_3E663F02593BDAF0* Field_3_0; // 0x20
+	::Class_1_3E663F02593BDAF0* LMDHPABCOAB; // 0x20
 
 	::System::Void _ctor(::RPG::GameCore::CakeRaceCheckAndSaveTargetsPredicateConfig* a1, ::Class_2_F3C45F1FC7349B6E* a2)
 	{

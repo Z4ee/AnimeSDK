@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_PLURALITYSTANCEBARSETTING_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B6D5900)
-#define RPG_GAMECORE_PLURALITYSTANCEBARSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6D5B20)
+#define RPG_GAMECORE_PLURALITYSTANCEBARSETTING_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3576D0)
+#define RPG_GAMECORE_PLURALITYSTANCEBARSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3578F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PluralityStanceBarSetting_TypeDefinitionIndex = 16465;
+	inline static constexpr unsigned int PluralityStanceBarSetting_TypeDefinitionIndex = 16955;
 
 	class PluralityStanceBarSetting : public ::RPG::GameCore::JsonConfig
 	{

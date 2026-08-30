@@ -7,18 +7,18 @@ namespace Google::Protobuf::Reflection { class FieldDescriptor; }
 namespace Google::Protobuf::Reflection { class FieldDescriptorProto; }
 namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 
-#define GOOGLE_PROTOBUF_REFLECTION_EXTENSIONCOLLECTION___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x197E82D0)
-#define GOOGLE_PROTOBUF_REFLECTION_EXTENSIONCOLLECTION___C__DISPLAYCLASS3_0___CTOR_B__0_OFFSET UNITYSDK_OFFSET(0x197E9E10)
+#define GOOGLE_PROTOBUF_REFLECTION_EXTENSIONCOLLECTION___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B373500)
+#define GOOGLE_PROTOBUF_REFLECTION_EXTENSIONCOLLECTION___C__DISPLAYCLASS3_0___CTOR_B__0_OFFSET UNITYSDK_OFFSET(0x1B375040)
 
 namespace Google::Protobuf::Reflection
 {
-	inline static constexpr unsigned int ExtensionCollection___c__DisplayClass3_0_TypeDefinitionIndex = 5543;
+	inline static constexpr unsigned int ExtensionCollection___c__DisplayClass3_0_TypeDefinitionIndex = 5532;
 
 	class ExtensionCollection___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::Google::Protobuf::Extension*>* extensions; // 0x10
-		::Google::Protobuf::Reflection::MessageDescriptor* message; // 0x18
+		::Google::Protobuf::Reflection::MessageDescriptor* message; // 0x10
+		::Il2CppArray<::Google::Protobuf::Extension*>* extensions; // 0x18
 
 		::System::Void _ctor()
 		{

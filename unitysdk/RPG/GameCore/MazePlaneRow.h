@@ -6,24 +6,24 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MAZEPLANEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B5E1240)
-#define RPG_GAMECORE_MAZEPLANEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5E1A00)
+#define RPG_GAMECORE_MAZEPLANEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D25D950)
+#define RPG_GAMECORE_MAZEPLANEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D25E110)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MazePlaneRow_TypeDefinitionIndex = 13521;
+	inline static constexpr unsigned int MazePlaneRow_TypeDefinitionIndex = 13938;
 
 	class MazePlaneRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* FloorIDList; // 0x10
-		::System::UInt32 PlaneID; // 0x18
-		::System::UInt32 StartFloorID; // 0x1C
-		::RPG::GameCore::PlaneType PlaneType; // 0x20
-		::System::UInt32 SubType; // 0x24
-		::System::UInt32 WorldID; // 0x28
-		::System::UInt32 MazePoolType; // 0x2C
-		::RPG::Client::TextID PlaneName; // 0x30
+		::System::UInt32 StartFloorID; // 0x18
+		::System::UInt32 WorldID; // 0x1C
+		::RPG::Client::TextID PlaneName; // 0x20
+		::System::UInt32 PlaneID; // 0x30
+		::System::UInt32 SubType; // 0x34
+		::System::UInt32 MazePoolType; // 0x38
+		::RPG::GameCore::PlaneType PlaneType; // 0x3C
 
 		::System::Void _ctor()
 		{

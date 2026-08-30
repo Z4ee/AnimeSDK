@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHENLINGRAGEMODECONFIG_METHOD_2_DD176627956ED3B5_OFFSET UNITYSDK_OFFSET(0x1B32E620)
-#define RPG_GAMECORE_CHENLINGRAGEMODECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B33C240)
+#define RPG_GAMECORE_CHENLINGRAGEMODECONFIG_METHOD_2_DD176627956ED3B5_OFFSET UNITYSDK_OFFSET(0x1CFAA9C0)
+#define RPG_GAMECORE_CHENLINGRAGEMODECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFB85E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingRageModeConfig_TypeDefinitionIndex = 15078;
+	inline static constexpr unsigned int ChenLingRageModeConfig_TypeDefinitionIndex = 15515;
 
 	class ChenLingRageModeConfig : public ::RPG::GameCore::JsonConfig
 	{

@@ -2,23 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_330;
+class Class_0_16E4307DCC419505_351;
 namespace RPG::GameCore { class DynamicValue; }
 namespace System { class String; }
 
-#define CLASS_1_E624DBC1E7B713C4_1_METHOD_1_128774387667156B_OFFSET UNITYSDK_OFFSET(0x1AAD6FC0)
-#define CLASS_1_E624DBC1E7B713C4_1_METHOD_1_8F26EE4498D391BC_OFFSET UNITYSDK_OFFSET(0x1AAD6F50)
-#define CLASS_1_E624DBC1E7B713C4_1__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AAD7010)
-#define CLASS_1_E624DBC1E7B713C4_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1AAD7000)
+#define CLASS_1_E624DBC1E7B713C4_1_METHOD_1_128774387667156B_OFFSET UNITYSDK_OFFSET(0x1C708170)
+#define CLASS_1_E624DBC1E7B713C4_1_METHOD_1_8F26EE4498D391BC_OFFSET UNITYSDK_OFFSET(0x1C708100)
+#define CLASS_1_E624DBC1E7B713C4_1__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C7081C0)
+#define CLASS_1_E624DBC1E7B713C4_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1C7081B0)
 
-inline static constexpr unsigned int Class_1_E624DBC1E7B713C4_1_TypeDefinitionIndex = 42385;
+inline static constexpr unsigned int Class_1_E624DBC1E7B713C4_1_TypeDefinitionIndex = 43996;
 
 class Class_1_E624DBC1E7B713C4_1 : public ::System::Object
 {
 public:
-	static ::Class_0_16E4307DCC419505_330** StaticGet_Field_1_0()
+	static ::Class_0_16E4307DCC419505_351** StaticGet_FMJPMFEDIJL()
 	{
-		return (::Class_0_16E4307DCC419505_330**)Il2CppClass::FromTypeDefinitionIndex(Class_1_E624DBC1E7B713C4_1_TypeDefinitionIndex)->GetStaticField(0x1220);
+		return (::Class_0_16E4307DCC419505_351**)Il2CppClass::FromTypeDefinitionIndex(Class_1_E624DBC1E7B713C4_1_TypeDefinitionIndex)->GetStaticField(0x13E0);
 	}
 
 	::System::Void _ctor()

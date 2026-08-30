@@ -7,12 +7,12 @@
 namespace RPG::Client { class CharacterMonoAvatar; }
 namespace RPGTools::Timeline { class CharacterLookAtTiltData; }
 
-#define RPGTOOLS_TIMELINE_CHARACTERLOOKATTILTBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xDCAC290)
-#define RPGTOOLS_TIMELINE_CHARACTERLOOKATTILTBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xDCAC5E0)
+#define RPGTOOLS_TIMELINE_CHARACTERLOOKATTILTBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xE82C810)
+#define RPGTOOLS_TIMELINE_CHARACTERLOOKATTILTBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xE82CB60)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int CharacterLookAtTiltBehaviour_TypeDefinitionIndex = 46204;
+	inline static constexpr unsigned int CharacterLookAtTiltBehaviour_TypeDefinitionIndex = 48438;
 
 	class CharacterLookAtTiltBehaviour : public ::RPGTools::Timeline::CustomEventBehaviour
 	{

@@ -5,18 +5,18 @@
 class Class_1_7B4E9156998275BE;
 namespace System { template <typename T> class Action_1; }
 
-#define CLASS_1_547FBBCFF4F06610_METHOD_1_0AB718BEE9EA06D7_OFFSET UNITYSDK_OFFSET(0x15456860)
-#define CLASS_1_547FBBCFF4F06610__CCTOR_OFFSET UNITYSDK_OFFSET(0x15456900)
-#define CLASS_1_547FBBCFF4F06610__CTOR_OFFSET UNITYSDK_OFFSET(0x154569E0)
+#define CLASS_1_547FBBCFF4F06610_METHOD_1_0AB718BEE9EA06D7_OFFSET UNITYSDK_OFFSET(0x163A1470)
+#define CLASS_1_547FBBCFF4F06610__CCTOR_OFFSET UNITYSDK_OFFSET(0x163A1510)
+#define CLASS_1_547FBBCFF4F06610__CTOR_OFFSET UNITYSDK_OFFSET(0x163A15F0)
 
-inline static constexpr unsigned int Class_1_547FBBCFF4F06610_TypeDefinitionIndex = 45921;
+inline static constexpr unsigned int Class_1_547FBBCFF4F06610_TypeDefinitionIndex = 50142;
 
 class Class_1_547FBBCFF4F06610 : public ::System::Object
 {
 public:
-	static ::System::Action_1<::Class_1_7B4E9156998275BE*>** StaticGet_Field_1_0()
+	static ::System::Action_1<::Class_1_7B4E9156998275BE*>** StaticGet_BEJJCPGEMIG()
 	{
-		return (::System::Action_1<::Class_1_7B4E9156998275BE*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_547FBBCFF4F06610_TypeDefinitionIndex)->GetStaticField(0x2F1E0);
+		return (::System::Action_1<::Class_1_7B4E9156998275BE*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_547FBBCFF4F06610_TypeDefinitionIndex)->GetStaticField(0x5AA50);
 	}
 
 	static ::System::Void _cctor()

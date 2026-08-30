@@ -11,31 +11,31 @@ namespace System { template <typename T1, typename T2, typename T3> class Action
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEPOINT_FIELDTYPES_GETFIELD_OFFSET UNITYSDK_OFFSET(0x1A402150)
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEPOINT_FIELDTYPES_GETTYPE_OFFSET UNITYSDK_OFFSET(0x1A403D60)
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEPOINT_FIELDTYPES_INDEXOFFIELDRELATIVE_OFFSET UNITYSDK_OFFSET(0x1A404C40)
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEPOINT_FIELDTYPES_REGISTER_OFFSET UNITYSDK_OFFSET(0x1A404A90)
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEPOINT_FIELDTYPES_SETFIELD_OFFSET UNITYSDK_OFFSET(0x1A402570)
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEPOINT_FIELDTYPES__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A403DF0)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEPOINT_FIELDTYPES_GETFIELD_OFFSET UNITYSDK_OFFSET(0x1C011430)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEPOINT_FIELDTYPES_GETTYPE_OFFSET UNITYSDK_OFFSET(0x1C013040)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEPOINT_FIELDTYPES_INDEXOFFIELDRELATIVE_OFFSET UNITYSDK_OFFSET(0x1C013F50)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEPOINT_FIELDTYPES_REGISTER_OFFSET UNITYSDK_OFFSET(0x1C013DA0)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEPOINT_FIELDTYPES_SETFIELD_OFFSET UNITYSDK_OFFSET(0x1C0118B0)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEPOINT_FIELDTYPES__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C0130D0)
 
 namespace BansheeGz::BGSpline::Curve
 {
-	inline static constexpr unsigned int BGCurvePoint_FieldTypes_TypeDefinitionIndex = 34469;
+	inline static constexpr unsigned int BGCurvePoint_FieldTypes_TypeDefinitionIndex = 35330;
 
 	class BGCurvePoint_FieldTypes : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Action_3<::BansheeGz::BGSpline::Curve::BGCurvePoint_FieldsValues*, ::System::Int32, ::System::Object*>*>** StaticGet_type2fieldSetter()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Action_3<::BansheeGz::BGSpline::Curve::BGCurvePoint_FieldsValues*, ::System::Int32, ::System::Object*>*>**)Il2CppClass::FromTypeDefinitionIndex(BGCurvePoint_FieldTypes_TypeDefinitionIndex)->GetStaticField(0x4F760);
+			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Action_3<::BansheeGz::BGSpline::Curve::BGCurvePoint_FieldsValues*, ::System::Int32, ::System::Object*>*>**)Il2CppClass::FromTypeDefinitionIndex(BGCurvePoint_FieldTypes_TypeDefinitionIndex)->GetStaticField(0x63DF0);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Func_3<::BansheeGz::BGSpline::Curve::BGCurvePoint_FieldsValues*, ::System::Int32, ::System::Object*>*>** StaticGet_type2fieldGetter()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Func_3<::BansheeGz::BGSpline::Curve::BGCurvePoint_FieldsValues*, ::System::Int32, ::System::Object*>*>**)Il2CppClass::FromTypeDefinitionIndex(BGCurvePoint_FieldTypes_TypeDefinitionIndex)->GetStaticField(0x4F768);
+			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Func_3<::BansheeGz::BGSpline::Curve::BGCurvePoint_FieldsValues*, ::System::Int32, ::System::Object*>*>**)Il2CppClass::FromTypeDefinitionIndex(BGCurvePoint_FieldTypes_TypeDefinitionIndex)->GetStaticField(0x63DF8);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::BansheeGz::BGSpline::Curve::BGCurvePointField_TypeEnum, ::System::Type*>** StaticGet_type2Type()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::BansheeGz::BGSpline::Curve::BGCurvePointField_TypeEnum, ::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(BGCurvePoint_FieldTypes_TypeDefinitionIndex)->GetStaticField(0x4F770);
+			return (::System::Collections::Generic::Dictionary_2<::BansheeGz::BGSpline::Curve::BGCurvePointField_TypeEnum, ::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(BGCurvePoint_FieldTypes_TypeDefinitionIndex)->GetStaticField(0x63E00);
 		}
 
 		static ::System::Void _cctor()

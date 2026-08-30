@@ -10,7 +10,7 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int NpcBodyEyeConfig_TypeDefinitionIndex = 57386;
+	inline static constexpr unsigned int NpcBodyEyeConfig_TypeDefinitionIndex = 60188;
 
 	struct alignas(8) NpcBodyEyeConfig
 	{

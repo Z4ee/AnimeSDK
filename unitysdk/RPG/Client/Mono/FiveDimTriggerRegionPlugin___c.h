@@ -5,24 +5,24 @@
 namespace RPG::Client::Mono { class FiveDimTriggerRegionPlugin; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_MONO_FIVEDIMTRIGGERREGIONPLUGIN___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xCC2EE40)
-#define RPG_CLIENT_MONO_FIVEDIMTRIGGERREGIONPLUGIN___C__CTOR_OFFSET UNITYSDK_OFFSET(0xCC2EE80)
-#define RPG_CLIENT_MONO_FIVEDIMTRIGGERREGIONPLUGIN___C__GET__ONTRANSFORMCHANGECLOSURE_B__5_0_OFFSET UNITYSDK_OFFSET(0xCC2EE90)
+#define RPG_CLIENT_MONO_FIVEDIMTRIGGERREGIONPLUGIN___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD72DE80)
+#define RPG_CLIENT_MONO_FIVEDIMTRIGGERREGIONPLUGIN___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD72DEC0)
+#define RPG_CLIENT_MONO_FIVEDIMTRIGGERREGIONPLUGIN___C__GET__ONTRANSFORMCHANGECLOSURE_B__5_0_OFFSET UNITYSDK_OFFSET(0xD72DED0)
 
 namespace RPG::Client::Mono
 {
-	inline static constexpr unsigned int FiveDimTriggerRegionPlugin___c_TypeDefinitionIndex = 72115;
+	inline static constexpr unsigned int FiveDimTriggerRegionPlugin___c_TypeDefinitionIndex = 75551;
 
 	class FiveDimTriggerRegionPlugin___c : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::RPG::Client::Mono::FiveDimTriggerRegionPlugin*>** StaticGet___9__5_0()
-		{
-			return (::System::Action_1<::RPG::Client::Mono::FiveDimTriggerRegionPlugin*>**)Il2CppClass::FromTypeDefinitionIndex(FiveDimTriggerRegionPlugin___c_TypeDefinitionIndex)->GetStaticField(0x55F90);
-		}
 		static ::RPG::Client::Mono::FiveDimTriggerRegionPlugin___c** StaticGet___9()
 		{
-			return (::RPG::Client::Mono::FiveDimTriggerRegionPlugin___c**)Il2CppClass::FromTypeDefinitionIndex(FiveDimTriggerRegionPlugin___c_TypeDefinitionIndex)->GetStaticField(0x55F98);
+			return (::RPG::Client::Mono::FiveDimTriggerRegionPlugin___c**)Il2CppClass::FromTypeDefinitionIndex(FiveDimTriggerRegionPlugin___c_TypeDefinitionIndex)->GetStaticField(0x55F0);
+		}
+		static ::System::Action_1<::RPG::Client::Mono::FiveDimTriggerRegionPlugin*>** StaticGet___9__5_0()
+		{
+			return (::System::Action_1<::RPG::Client::Mono::FiveDimTriggerRegionPlugin*>**)Il2CppClass::FromTypeDefinitionIndex(FiveDimTriggerRegionPlugin___c_TypeDefinitionIndex)->GetStaticField(0x55F8);
 		}
 
 		static ::System::Void _cctor()

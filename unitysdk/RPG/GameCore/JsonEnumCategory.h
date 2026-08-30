@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int JsonEnumCategory_TypeDefinitionIndex = 10163;
+	inline static constexpr unsigned int JsonEnumCategory_TypeDefinitionIndex = 10499;
 
 	enum class JsonEnumCategory : ::System::Int32
 	{
@@ -28,5 +28,6 @@ namespace RPG::GameCore
 		CollisionLayer = 18,
 		ModifierBehaviorFlag = 19,
 		DialogueIconType = 20,
+		ExpeditionBattleCustomType = 21,
 	};
 }

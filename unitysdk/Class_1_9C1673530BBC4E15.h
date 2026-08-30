@@ -4,16 +4,16 @@
 
 class Class_1_CEF50BC26E0B42E9;
 
-#define CLASS_1_9C1673530BBC4E15_GET_CAMERACONTROLLER_OFFSET UNITYSDK_OFFSET(0xB477480)
-#define CLASS_1_9C1673530BBC4E15__CTOR_OFFSET UNITYSDK_OFFSET(0xB477490)
+#define CLASS_1_9C1673530BBC4E15_GET_CAMERACONTROLLER_OFFSET UNITYSDK_OFFSET(0xBE64080)
+#define CLASS_1_9C1673530BBC4E15__CTOR_OFFSET UNITYSDK_OFFSET(0xBE64090)
 
-inline static constexpr unsigned int Class_1_9C1673530BBC4E15_TypeDefinitionIndex = 74522;
+inline static constexpr unsigned int Class_1_9C1673530BBC4E15_TypeDefinitionIndex = 78007;
 
 class Class_1_9C1673530BBC4E15 : public ::System::Object
 {
 public:
 	::Class_1_CEF50BC26E0B42E9* _CameraController_k__BackingField; // 0x10
-	::System::Boolean Field_1_1; // 0x18
+	::System::Boolean MMAEKKAKCLH; // 0x18
 
 	::System::Void _ctor()
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MaterialSubmitterState_TypeDefinitionIndex = 59050;
+	inline static constexpr unsigned int MaterialSubmitterState_TypeDefinitionIndex = 61885;
 
 	enum class MaterialSubmitterState : ::System::Int32
 	{

@@ -9,16 +9,16 @@ namespace System { class String; }
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_PROP_FASTDELIVERPUZZLEENTITYDATA_GET_ISROTATEFINISH_OFFSET UNITYSDK_OFFSET(0xD163570)
-#define RPG_CLIENT_PROP_FASTDELIVERPUZZLEENTITYDATA_METHOD_5_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0xD1630B0)
-#define RPG_CLIENT_PROP_FASTDELIVERPUZZLEENTITYDATA_SET_ISROTATEFINISH_OFFSET UNITYSDK_OFFSET(0xD163580)
-#define RPG_CLIENT_PROP_FASTDELIVERPUZZLEENTITYDATA_STARTROTATE_OFFSET UNITYSDK_OFFSET(0xD162BD0)
-#define RPG_CLIENT_PROP_FASTDELIVERPUZZLEENTITYDATA_TICK_OFFSET UNITYSDK_OFFSET(0xD163110)
-#define RPG_CLIENT_PROP_FASTDELIVERPUZZLEENTITYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xD163590)
+#define RPG_CLIENT_PROP_FASTDELIVERPUZZLEENTITYDATA_GET_ISROTATEFINISH_OFFSET UNITYSDK_OFFSET(0xDC67B50)
+#define RPG_CLIENT_PROP_FASTDELIVERPUZZLEENTITYDATA_METHOD_5_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0xDC67690)
+#define RPG_CLIENT_PROP_FASTDELIVERPUZZLEENTITYDATA_SET_ISROTATEFINISH_OFFSET UNITYSDK_OFFSET(0xDC67B60)
+#define RPG_CLIENT_PROP_FASTDELIVERPUZZLEENTITYDATA_STARTROTATE_OFFSET UNITYSDK_OFFSET(0xDC671B0)
+#define RPG_CLIENT_PROP_FASTDELIVERPUZZLEENTITYDATA_TICK_OFFSET UNITYSDK_OFFSET(0xDC676F0)
+#define RPG_CLIENT_PROP_FASTDELIVERPUZZLEENTITYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xDC67B70)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int FastDeliverPuzzleEntityData_TypeDefinitionIndex = 74631;
+	inline static constexpr unsigned int FastDeliverPuzzleEntityData_TypeDefinitionIndex = 78116;
 
 	class FastDeliverPuzzleEntityData : public ::UnityEngine::MonoBehaviour
 	{
@@ -30,16 +30,16 @@ namespace RPG::Client::Prop
 		::System::Single AvgRotatePitchSpeed; // 0x20
 		::UnityEngine::AnimationCurve* RotateCurve; // 0x28
 		::System::Boolean _IsRotateFinish_k__BackingField; // 0x30
-		::UnityEngine::GameObject* Field_5_7; // 0x38
-		::System::Single Field_5_8; // 0x40
-		::System::Single Field_5_9; // 0x44
-		::System::Single Field_5_10; // 0x48
-		::System::Single Field_5_11; // 0x4C
-		::System::Single Field_5_12; // 0x50
-		::UnityEngine::Quaternion Field_5_13; // 0x54
-		::UnityEngine::Quaternion Field_5_14; // 0x64
-		::RPG::GameCore::GameEntity* Field_5_15; // 0x78
-		::System::Boolean Field_5_16; // 0x80
+		::UnityEngine::GameObject* IMCHJKBFJJC; // 0x38
+		::System::Single FFNOCJKBKDL; // 0x40
+		::System::Single JHHPBJDEPBF; // 0x44
+		::System::Single PGMIOKKLHIE; // 0x48
+		::System::Single LLFHLPALDBA; // 0x4C
+		::System::Single JBNDKDDDIIH; // 0x50
+		::UnityEngine::Quaternion PJLFPNAGCGJ; // 0x54
+		::UnityEngine::Quaternion IKIHHCLHILH; // 0x64
+		::RPG::GameCore::GameEntity* CFKHNPGEAJA; // 0x78
+		::System::Boolean AAOIBDGEKNM; // 0x80
 
 		::System::Void _ctor()
 		{

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class PropSetSceneTVMenu; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_BAC0AA7B4C6E7115_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xAFDB720)
-#define CLASS_3_BAC0AA7B4C6E7115__CTOR_OFFSET UNITYSDK_OFFSET(0xAFDB6F0)
+#define CLASS_3_BAC0AA7B4C6E7115_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB9950C0)
+#define CLASS_3_BAC0AA7B4C6E7115__CTOR_OFFSET UNITYSDK_OFFSET(0xB995090)
 
-inline static constexpr unsigned int Class_3_BAC0AA7B4C6E7115_TypeDefinitionIndex = 55766;
+inline static constexpr unsigned int Class_3_BAC0AA7B4C6E7115_TypeDefinitionIndex = 58497;
 
 class Class_3_BAC0AA7B4C6E7115 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::PropSetSceneTVMenu*>
 {

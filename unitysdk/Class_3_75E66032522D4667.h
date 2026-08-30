@@ -8,19 +8,19 @@ namespace RPGTools::Timeline { class CharacterFullBodyClip; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_3_75E66032522D4667_METHOD_3_0CACDFAF951A2118_OFFSET UNITYSDK_OFFSET(0x146B3BA0)
-#define CLASS_3_75E66032522D4667_METHOD_3_AA7E3074254D484A_OFFSET UNITYSDK_OFFSET(0x146B3320)
-#define CLASS_3_75E66032522D4667_METHOD_3_EDB27C1AE53E0E20_OFFSET UNITYSDK_OFFSET(0x146B3A20)
-#define CLASS_3_75E66032522D4667__CTOR_OFFSET UNITYSDK_OFFSET(0x146B3DA0)
+#define CLASS_3_75E66032522D4667_METHOD_3_0CACDFAF951A2118_OFFSET UNITYSDK_OFFSET(0x1551F140)
+#define CLASS_3_75E66032522D4667_METHOD_3_AA7E3074254D484A_OFFSET UNITYSDK_OFFSET(0x1551E8C0)
+#define CLASS_3_75E66032522D4667_METHOD_3_EDB27C1AE53E0E20_OFFSET UNITYSDK_OFFSET(0x1551EFC0)
+#define CLASS_3_75E66032522D4667__CTOR_OFFSET UNITYSDK_OFFSET(0x1551F340)
 
-inline static constexpr unsigned int Class_3_75E66032522D4667_TypeDefinitionIndex = 46185;
+inline static constexpr unsigned int Class_3_75E66032522D4667_TypeDefinitionIndex = 48419;
 
 class Class_3_75E66032522D4667 : public ::RPGTools::Timeline::CustomEventBehaviour
 {
 public:
-	::RPGTools::Timeline::CharacterFullBodyClip* Field_3_0; // 0x20
-	::Il2CppArray<::RPGTools::Timeline::CharacterFullBodyChainData*>* Field_3_1; // 0x28
-	::Class_1_945ACFB1FEBC7A2C_17* Field_3_2; // 0x30
+	::Class_1_945ACFB1FEBC7A2C_17* EABKOHGCHFP; // 0x20
+	::RPGTools::Timeline::CharacterFullBodyClip* PJCDEGEDNFA; // 0x28
+	::Il2CppArray<::RPGTools::Timeline::CharacterFullBodyChainData*>* MMAEKLBBLOD; // 0x30
 
 	::System::Void _ctor()
 	{

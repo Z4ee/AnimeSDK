@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class FiveDimBaseEventAction; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FOURROTATEVOXELENTRANCECONFIG_METHOD_3_06A7E16DF53DDC7A_OFFSET UNITYSDK_OFFSET(0x1B49B9E0)
-#define RPG_GAMECORE_FOURROTATEVOXELENTRANCECONFIG_METHOD_3_71B985BE64C77ACF_OFFSET UNITYSDK_OFFSET(0x1B49B940)
-#define RPG_GAMECORE_FOURROTATEVOXELENTRANCECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B49B9A0)
+#define RPG_GAMECORE_FOURROTATEVOXELENTRANCECONFIG_METHOD_3_06A7E16DF53DDC7A_OFFSET UNITYSDK_OFFSET(0x1D1140D0)
+#define RPG_GAMECORE_FOURROTATEVOXELENTRANCECONFIG_METHOD_3_AB83FC38234AAC02_OFFSET UNITYSDK_OFFSET(0x1D114080)
+#define RPG_GAMECORE_FOURROTATEVOXELENTRANCECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1140C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FourRotateVoxelEntranceConfig_TypeDefinitionIndex = 16100;
+	inline static constexpr unsigned int FourRotateVoxelEntranceConfig_TypeDefinitionIndex = 16578;
 
 	class FourRotateVoxelEntranceConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
@@ -30,9 +30,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FOURROTATEVOXELENTRANCECONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_71B985BE64C77ACF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FourRotateVoxelEntranceConfig*& a2)
+		static ::System::Void Method_3_AB83FC38234AAC02(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FourRotateVoxelEntranceConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FourRotateVoxelEntranceConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FOURROTATEVOXELENTRANCECONFIG_METHOD_3_71B985BE64C77ACF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FourRotateVoxelEntranceConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FOURROTATEVOXELENTRANCECONFIG_METHOD_3_AB83FC38234AAC02_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_06A7E16DF53DDC7A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FourRotateVoxelEntranceConfig* a2)

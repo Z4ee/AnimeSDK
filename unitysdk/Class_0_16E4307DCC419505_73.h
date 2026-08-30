@@ -4,7 +4,7 @@
 
 class Class_2_68C34B5C1C40C2FF_1;
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_73_TypeDefinitionIndex = 35580;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_73_TypeDefinitionIndex = 36441;
 
 class Class_0_16E4307DCC419505_73
 {

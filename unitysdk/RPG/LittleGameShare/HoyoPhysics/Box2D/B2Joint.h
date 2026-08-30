@@ -5,29 +5,29 @@
 #include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2JointType.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2JOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A6DD940)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2JOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x1C2ED740)
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2Joint_TypeDefinitionIndex = 35145;
+	inline static constexpr unsigned int B2Joint_TypeDefinitionIndex = 36006;
 
 	class B2Joint : public ::System::Object
 	{
 	public:
 		::System::Object* userData; // 0x10
-		::RPG::LittleGameShare::HoyoPhysics::Box2D::B2FixedArray2_1<::RPG::LittleGameShare::HoyoPhysics::Box2D::B2JointEdge> edges; // 0x18
-		::System::Boolean isMarked; // 0x30
-		::System::Boolean collideConnected; // 0x31
-		::System::UInt16 generation; // 0x32
-		::System::Int32 islandPrev; // 0x34
-		::RPG::LittleGameShare::HoyoPhysics::Box2D::B2JointType type; // 0x38
-		::System::Int32 setIndex; // 0x3C
-		::System::Int32 islandNext; // 0x40
-		::System::Single drawScale; // 0x44
-		::System::Int32 jointId; // 0x48
-		::System::Int32 islandId; // 0x4C
-		::System::Int32 colorIndex; // 0x50
-		::System::Int32 localIndex; // 0x54
+		::System::Int32 islandPrev; // 0x18
+		::System::Int32 localIndex; // 0x1C
+		::System::Int32 jointId; // 0x20
+		::RPG::LittleGameShare::HoyoPhysics::Box2D::B2JointType type; // 0x24
+		::System::Int32 setIndex; // 0x28
+		::RPG::LittleGameShare::HoyoPhysics::Box2D::B2FixedArray2_1<::RPG::LittleGameShare::HoyoPhysics::Box2D::B2JointEdge> edges; // 0x2C
+		::System::Int32 islandId; // 0x44
+		::System::Int32 colorIndex; // 0x48
+		::System::Int32 islandNext; // 0x4C
+		::System::Single drawScale; // 0x50
+		::System::Boolean collideConnected; // 0x54
+		::System::Boolean isMarked; // 0x55
+		::System::UInt16 generation; // 0x56
 
 		::System::Void _ctor()
 		{

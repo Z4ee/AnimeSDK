@@ -9,13 +9,13 @@ namespace System { class String; }
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_SHIFTCAMERALOOKATCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xDD189C0)
-#define RPGTOOLS_TIMELINE_SHIFTCAMERALOOKATCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xDD189B0)
-#define RPGTOOLS_TIMELINE_SHIFTCAMERALOOKATCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xDD18B50)
+#define RPGTOOLS_TIMELINE_SHIFTCAMERALOOKATCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8E2B80)
+#define RPGTOOLS_TIMELINE_SHIFTCAMERALOOKATCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE8E2B70)
+#define RPGTOOLS_TIMELINE_SHIFTCAMERALOOKATCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xE8E2CE0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int ShiftCameraLookAtClip_TypeDefinitionIndex = 46057;
+	inline static constexpr unsigned int ShiftCameraLookAtClip_TypeDefinitionIndex = 48281;
 
 	class ShiftCameraLookAtClip : public ::UnityEngine::Playables::PlayableAsset
 	{

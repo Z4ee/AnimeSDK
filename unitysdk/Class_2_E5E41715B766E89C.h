@@ -1,27 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_CA217ABF4E3B4F3F.h"
+#include "unitysdk/Class_1_34917908B7833130.h"
 #include "unitysdk/RPG/Client/BattleTargetStatus.h"
 
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_2_E5E41715B766E89C_METHOD_2_078D85152011B919_OFFSET UNITYSDK_OFFSET(0xB756ED0)
-#define CLASS_2_E5E41715B766E89C_METHOD_2_726F914217BA3008_OFFSET UNITYSDK_OFFSET(0xB756D90)
-#define CLASS_2_E5E41715B766E89C_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xB756D50)
-#define CLASS_2_E5E41715B766E89C__CTOR_OFFSET UNITYSDK_OFFSET(0xB756F50)
-#define CLASS_2_E5E41715B766E89C__ONBIND_OFFSET UNITYSDK_OFFSET(0xB756BF0)
+#define CLASS_2_E5E41715B766E89C_METHOD_2_078D85152011B919_OFFSET UNITYSDK_OFFSET(0xC15F750)
+#define CLASS_2_E5E41715B766E89C_METHOD_2_726F914217BA3008_OFFSET UNITYSDK_OFFSET(0xC15F610)
+#define CLASS_2_E5E41715B766E89C_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xC15F5D0)
+#define CLASS_2_E5E41715B766E89C__CTOR_OFFSET UNITYSDK_OFFSET(0xC15F7D0)
+#define CLASS_2_E5E41715B766E89C__ONBIND_OFFSET UNITYSDK_OFFSET(0xC15F470)
 
-inline static constexpr unsigned int Class_2_E5E41715B766E89C_TypeDefinitionIndex = 68583;
+inline static constexpr unsigned int Class_2_E5E41715B766E89C_TypeDefinitionIndex = 71780;
 
-class Class_2_E5E41715B766E89C : public ::Class_1_CA217ABF4E3B4F3F
+class Class_2_E5E41715B766E89C : public ::Class_1_34917908B7833130
 {
 public:
-	// static const ::System::String* Field_2_0; // 0x0
-	::UnityEngine::Transform* Field_2_1; // 0x60
-	::UnityEngine::Transform* Field_2_2; // 0x68
-	::UnityEngine::Transform* Field_2_3; // 0x70
-	::RPG::Client::BattleTargetStatus Field_2_4; // 0x78
+	// static const ::System::String* DJCBDJMACFH; // 0x0
+	::UnityEngine::Transform* HNALEMBOBFE; // 0x60
+	::UnityEngine::Transform* PCAEEEKLOJM; // 0x68
+	::UnityEngine::Transform* KPJPDALFIIN; // 0x70
+	::RPG::Client::BattleTargetStatus LODNGAGNLCB; // 0x78
 
 	::System::Void _ctor()
 	{

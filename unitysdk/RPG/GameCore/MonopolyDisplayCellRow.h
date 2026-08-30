@@ -7,22 +7,22 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MONOPOLYDISPLAYCELLROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B615D40)
-#define RPG_GAMECORE_MONOPOLYDISPLAYCELLROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B616020)
+#define RPG_GAMECORE_MONOPOLYDISPLAYCELLROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D2BB580)
+#define RPG_GAMECORE_MONOPOLYDISPLAYCELLROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2BB860)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MonopolyDisplayCellRow_TypeDefinitionIndex = 11582;
+	inline static constexpr unsigned int MonopolyDisplayCellRow_TypeDefinitionIndex = 11971;
 
 	class MonopolyDisplayCellRow : public ::System::Object
 	{
 	public:
 		::System::String* IconPath; // 0x10
-		::RPG::GameCore::MonopolyDisplayCellType Type; // 0x18
-		::RPG::Client::TextID CellName; // 0x20
-		::System::UInt32 DisplaySort; // 0x30
-		::System::UInt32 DisplayID; // 0x34
-		::RPG::Client::TextID CellDesc; // 0x38
+		::RPG::Client::TextID CellDesc; // 0x18
+		::System::UInt32 DisplaySort; // 0x28
+		::RPG::GameCore::MonopolyDisplayCellType Type; // 0x2C
+		::RPG::Client::TextID CellName; // 0x30
+		::System::UInt32 DisplayID; // 0x40
 
 		::System::Void _ctor()
 		{

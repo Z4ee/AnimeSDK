@@ -2,29 +2,29 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define STRUCT_2_E8C1B530F552FEF0_METHOD_2_284A00008B880FD6_OFFSET UNITYSDK_OFFSET(0x2CFCB90)
-#define STRUCT_2_E8C1B530F552FEF0_METHOD_2_B31AD72F99F92A8B_OFFSET UNITYSDK_OFFSET(0x2CFCC90)
-#define STRUCT_2_E8C1B530F552FEF0_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x2CFCC20)
-#define STRUCT_2_E8C1B530F552FEF0__CTOR_OFFSET UNITYSDK_OFFSET(0x2CFCBE0)
+#define STRUCT_2_E8C1B530F552FEF0_METHOD_2_284A00008B880FD6_OFFSET UNITYSDK_OFFSET(0x2DE58F0)
+#define STRUCT_2_E8C1B530F552FEF0_METHOD_2_B31AD72F99F92A8B_OFFSET UNITYSDK_OFFSET(0x2DE59F0)
+#define STRUCT_2_E8C1B530F552FEF0_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x2DE5980)
+#define STRUCT_2_E8C1B530F552FEF0__CTOR_OFFSET UNITYSDK_OFFSET(0x2DE5940)
 
-inline static constexpr unsigned int Struct_2_E8C1B530F552FEF0_TypeDefinitionIndex = 70647;
+inline static constexpr unsigned int Struct_2_E8C1B530F552FEF0_TypeDefinitionIndex = 73946;
 
 struct alignas(8) Struct_2_E8C1B530F552FEF0
 {
-	::System::Int32 Field_2_0; // 0x10
-	::System::Double Field_2_1; // 0x18
-	::System::Double Field_2_2; // 0x20
-	::System::Double Field_2_3; // 0x28
-	::System::Int32 Field_2_4; // 0x30
-	::System::Int32 Field_2_5; // 0x34
-	::System::Int32 Field_2_6; // 0x38
-	::System::Int32 Field_2_7; // 0x3C
-	::System::Int32 Field_2_8; // 0x40
-	::System::Int32 Field_2_9; // 0x44
-	::System::Int32 Field_2_10; // 0x48
-	::System::Int32 Field_2_11; // 0x4C
-	::System::Int32 Field_2_12; // 0x50
-	::System::Int32 Field_2_13; // 0x54
+	::System::Int32 HCDEOKNIGKG; // 0x10
+	::System::Double NKAACMGNNPK; // 0x18
+	::System::Double EFNAJMADAHM; // 0x20
+	::System::Double HCELABHKPJD; // 0x28
+	::System::Int32 GLEBPCFAPMP; // 0x30
+	::System::Int32 COCBDJEDAJM; // 0x34
+	::System::Int32 GOKAENLDALA; // 0x38
+	::System::Int32 EFAFKFONJHP; // 0x3C
+	::System::Int32 CLPNGEGJBBE; // 0x40
+	::System::Int32 CJLLPFOCFFB; // 0x44
+	::System::Int32 NGNKBNOADPG; // 0x48
+	::System::Int32 JCJDJNEDOFB; // 0x4C
+	::System::Int32 PHBJAEBBCCL; // 0x50
+	::System::Int32 DBBHPLODDKK; // 0x54
 
 	::System::Void _ctor(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Int32 a5)
 	{

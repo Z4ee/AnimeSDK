@@ -7,20 +7,20 @@ namespace MiHoYo::SDK::PS { class BindingManagerPSCN; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_PS_BINDINGMANAGERPSCN___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19D7FCA0)
-#define MIHOYO_SDK_PS_BINDINGMANAGERPSCN___C__DISPLAYCLASS9_0__GETCAPTCHACODE_B__0_OFFSET UNITYSDK_OFFSET(0x19D82F50)
-#define MIHOYO_SDK_PS_BINDINGMANAGERPSCN___C__DISPLAYCLASS9_0__GETCAPTCHACODE_B__1_OFFSET UNITYSDK_OFFSET(0x19D83120)
+#define MIHOYO_SDK_PS_BINDINGMANAGERPSCN___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA3C460)
+#define MIHOYO_SDK_PS_BINDINGMANAGERPSCN___C__DISPLAYCLASS9_0__GETCAPTCHACODE_B__0_OFFSET UNITYSDK_OFFSET(0x1BA3F6E0)
+#define MIHOYO_SDK_PS_BINDINGMANAGERPSCN___C__DISPLAYCLASS9_0__GETCAPTCHACODE_B__1_OFFSET UNITYSDK_OFFSET(0x1BA3F8B0)
 
 namespace MiHoYo::SDK::PS
 {
-	inline static constexpr unsigned int BindingManagerPSCN___c__DisplayClass9_0_TypeDefinitionIndex = 8569;
+	inline static constexpr unsigned int BindingManagerPSCN___c__DisplayClass9_0_TypeDefinitionIndex = 8836;
 
 	class BindingManagerPSCN___c__DisplayClass9_0 : public ::System::Object
 	{
 	public:
 		::System::String* input; // 0x10
-		::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* OnCaptchaResponse; // 0x18
-		::MiHoYo::SDK::PS::BindingManagerPSCN* __4__this; // 0x20
+		::MiHoYo::SDK::PS::BindingManagerPSCN* __4__this; // 0x18
+		::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* OnCaptchaResponse; // 0x20
 
 		::System::Void _ctor()
 		{

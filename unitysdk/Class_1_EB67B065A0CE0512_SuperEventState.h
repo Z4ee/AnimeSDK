@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Class_1_EB67B065A0CE0512_SuperEventState_TypeDefinitionIndex = 73309;
+inline static constexpr unsigned int Class_1_EB67B065A0CE0512_SuperEventState_TypeDefinitionIndex = 76788;
 
 enum class Class_1_EB67B065A0CE0512_SuperEventState : ::System::Int32
 {

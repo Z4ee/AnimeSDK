@@ -4,9 +4,9 @@
 
 namespace System { class String; }
 
-inline static constexpr unsigned int Struct_2_7734F33592BF49F6_1_TypeDefinitionIndex = 66666;
+inline static constexpr unsigned int Struct_2_7734F33592BF49F6_1_TypeDefinitionIndex = 69767;
 
 struct alignas(8) Struct_2_7734F33592BF49F6_1
 {
-	::System::String* Field_2_0; // 0x10
+	::System::String* NMPPLGNEELO; // 0x10
 };

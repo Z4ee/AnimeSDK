@@ -5,19 +5,19 @@
 namespace UnityEngine { class MeshCollider; }
 namespace UnityEngine { class PolygonCollider2D; }
 
-#define RPG_CLIENT_BASECUSTOMCOLLIDER_METHOD_5_59DCF204E71C8F21_OFFSET UNITYSDK_OFFSET(0xBE23F80)
-#define RPG_CLIENT_BASECUSTOMCOLLIDER_METHOD_5_890064904909C587_OFFSET UNITYSDK_OFFSET(0xBE240A0)
-#define RPG_CLIENT_BASECUSTOMCOLLIDER__CTOR_OFFSET UNITYSDK_OFFSET(0xBE241C0)
+#define RPG_CLIENT_BASECUSTOMCOLLIDER_METHOD_5_59DCF204E71C8F21_OFFSET UNITYSDK_OFFSET(0xC8C1980)
+#define RPG_CLIENT_BASECUSTOMCOLLIDER_METHOD_5_890064904909C587_OFFSET UNITYSDK_OFFSET(0xC8C1AA0)
+#define RPG_CLIENT_BASECUSTOMCOLLIDER__CTOR_OFFSET UNITYSDK_OFFSET(0xC8C1BC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BaseCustomCollider_TypeDefinitionIndex = 65826;
+	inline static constexpr unsigned int BaseCustomCollider_TypeDefinitionIndex = 68865;
 
 	class BaseCustomCollider : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		::UnityEngine::MeshCollider* Field_5_0; // 0x18
-		::UnityEngine::PolygonCollider2D* Field_5_1; // 0x20
+		::UnityEngine::MeshCollider* BACKGGIMDIO; // 0x18
+		::UnityEngine::PolygonCollider2D* AKDDGKMEKGO; // 0x20
 
 		::System::Void _ctor()
 		{

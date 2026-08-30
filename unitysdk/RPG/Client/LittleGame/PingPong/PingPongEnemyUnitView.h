@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_LITTLEGAME_PINGPONG_PINGPONGENEMYUNITVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0xC9DEF40)
+#define RPG_CLIENT_LITTLEGAME_PINGPONG_PINGPONGENEMYUNITVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0xD522F10)
 
 namespace RPG::Client::LittleGame::PingPong
 {
-	inline static constexpr unsigned int PingPongEnemyUnitView_TypeDefinitionIndex = 72766;
+	inline static constexpr unsigned int PingPongEnemyUnitView_TypeDefinitionIndex = 76202;
 
 	class PingPongEnemyUnitView : public ::RPG::Client::LittleGame::PingPong::PingPongView
 	{

@@ -7,14 +7,14 @@ namespace System { template <typename T> class Action_1; }
 
 namespace InControl
 {
-	inline static constexpr unsigned int InControlManager___O_TypeDefinitionIndex = 38660;
+	inline static constexpr unsigned int InControlManager___O_TypeDefinitionIndex = 39519;
 
 	class InControlManager___O : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::InControl::LogMessage>** StaticGet__0___LogMessage()
 		{
-			return (::System::Action_1<::InControl::LogMessage>**)Il2CppClass::FromTypeDefinitionIndex(InControlManager___O_TypeDefinitionIndex)->GetStaticField(0x1B1D0);
+			return (::System::Action_1<::InControl::LogMessage>**)Il2CppClass::FromTypeDefinitionIndex(InControlManager___O_TypeDefinitionIndex)->GetStaticField(0x23E0);
 		}
 	};
 }

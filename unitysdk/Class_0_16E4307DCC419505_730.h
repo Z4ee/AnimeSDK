@@ -1,10 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/AvatarUpgradePart.h"
 
-namespace RPG::AvatarSystem { class IAvatar; }
+namespace RPG::Client { class MapDistrictDef; }
+namespace RPG::Client { class MapEntityDef; }
+namespace RPG::Client { class MapNpcDef; }
+namespace RPG::Client { class MapPropDef; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_730_TypeDefinitionIndex = 60063;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_730_TypeDefinitionIndex = 62190;
 
 class Class_0_16E4307DCC419505_730
 {

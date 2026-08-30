@@ -9,11 +9,11 @@ namespace RPG::Client::LittleGame::CakeRace { class CakeRaceCameraMonoView; }
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_LITTLEGAME_CAKERACE_CAKERACEFIELDMONOVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0xC96C1C0)
+#define RPG_CLIENT_LITTLEGAME_CAKERACE_CAKERACEFIELDMONOVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0xD4AC320)
 
 namespace RPG::Client::LittleGame::CakeRace
 {
-	inline static constexpr unsigned int CakeRaceFieldMonoView_TypeDefinitionIndex = 74198;
+	inline static constexpr unsigned int CakeRaceFieldMonoView_TypeDefinitionIndex = 77682;
 
 	class CakeRaceFieldMonoView : public ::RPG::Client::LittleGame::CakeRace::CakeRaceMonoView
 	{

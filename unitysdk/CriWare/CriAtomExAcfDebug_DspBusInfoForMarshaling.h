@@ -4,11 +4,11 @@
 #include "unitysdk/CriWare/CriAtom_SpeakerMapping.h"
 #include "unitysdk/System/ValueType.h"
 
-#define CRIWARE_CRIATOMEXACFDEBUG_DSPBUSINFOFORMARSHALING_CONVERT_OFFSET UNITYSDK_OFFSET(0x2D19C90)
+#define CRIWARE_CRIATOMEXACFDEBUG_DSPBUSINFOFORMARSHALING_CONVERT_OFFSET UNITYSDK_OFFSET(0x2DFFB80)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExAcfDebug_DspBusInfoForMarshaling_TypeDefinitionIndex = 38030;
+	inline static constexpr unsigned int CriAtomExAcfDebug_DspBusInfoForMarshaling_TypeDefinitionIndex = 38889;
 
 	struct alignas(8) CriAtomExAcfDebug_DspBusInfoForMarshaling
 	{

@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/InControl/InputDeviceProfile.h"
 
-#define INCONTROL_UNITYDEVICEPROFILES_XIAOMIMACUNITYPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x19AC21F0)
-#define INCONTROL_UNITYDEVICEPROFILES_XIAOMIMACUNITYPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x19AC3440)
+#define INCONTROL_UNITYDEVICEPROFILES_XIAOMIMACUNITYPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x1B651030)
+#define INCONTROL_UNITYDEVICEPROFILES_XIAOMIMACUNITYPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B652280)
 
 namespace InControl::UnityDeviceProfiles
 {
-	inline static constexpr unsigned int XiaomiMacUnityProfile_TypeDefinitionIndex = 38879;
+	inline static constexpr unsigned int XiaomiMacUnityProfile_TypeDefinitionIndex = 39738;
 
 	class XiaomiMacUnityProfile : public ::InControl::InputDeviceProfile
 	{

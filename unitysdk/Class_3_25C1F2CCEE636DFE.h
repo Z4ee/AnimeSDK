@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AdvSetTargetAlertValue; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_25C1F2CCEE636DFE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xD386520)
-#define CLASS_3_25C1F2CCEE636DFE__CTOR_OFFSET UNITYSDK_OFFSET(0xD3864F0)
+#define CLASS_3_25C1F2CCEE636DFE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE047660)
+#define CLASS_3_25C1F2CCEE636DFE__CTOR_OFFSET UNITYSDK_OFFSET(0xE047630)
 
-inline static constexpr unsigned int Class_3_25C1F2CCEE636DFE_TypeDefinitionIndex = 50115;
+inline static constexpr unsigned int Class_3_25C1F2CCEE636DFE_TypeDefinitionIndex = 52777;
 
 class Class_3_25C1F2CCEE636DFE : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AdvSetTargetAlertValue*>
 {

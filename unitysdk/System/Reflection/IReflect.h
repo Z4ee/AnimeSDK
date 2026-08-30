@@ -3,7 +3,7 @@
 
 namespace System::Reflection
 {
-	inline static constexpr unsigned int IReflect_TypeDefinitionIndex = 564;
+	inline static constexpr unsigned int IReflect_TypeDefinitionIndex = 567;
 
 	class IReflect
 	{

@@ -3,7 +3,7 @@
 
 namespace RPGTools::Timeline::Emotion
 {
-	inline static constexpr unsigned int PoseDataType_TypeDefinitionIndex = 46947;
+	inline static constexpr unsigned int PoseDataType_TypeDefinitionIndex = 49193;
 
 	enum class PoseDataType : ::System::Int32
 	{

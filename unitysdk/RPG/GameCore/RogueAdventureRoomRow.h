@@ -5,19 +5,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ROGUEADVENTUREROOMROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B73A790)
-#define RPG_GAMECORE_ROGUEADVENTUREROOMROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B73A900)
+#define RPG_GAMECORE_ROGUEADVENTUREROOMROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3BDAB0)
+#define RPG_GAMECORE_ROGUEADVENTUREROOMROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3BDC20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueAdventureRoomRow_TypeDefinitionIndex = 14126;
+	inline static constexpr unsigned int RogueAdventureRoomRow_TypeDefinitionIndex = 14546;
 
 	class RogueAdventureRoomRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 RoomID; // 0x10
-		::RPG::GameCore::RogueAdventureGameplayType AdventureType; // 0x14
-		::System::UInt32 ParamGroupID; // 0x18
+		::RPG::GameCore::RogueAdventureGameplayType AdventureType; // 0x10
+		::System::UInt32 ParamGroupID; // 0x14
+		::System::UInt32 RoomID; // 0x18
 
 		::System::Void _ctor()
 		{

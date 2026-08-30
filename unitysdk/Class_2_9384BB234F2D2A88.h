@@ -1,20 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_CA217ABF4E3B4F3F.h"
+#include "unitysdk/Class_1_34917908B7833130.h"
 
 class Class_1_6CE70F4211D79CD5_6;
 namespace RPG::Client { class LocalizedText; }
 
-#define CLASS_2_9384BB234F2D2A88_METHOD_2_970F83AA36AAD910_OFFSET UNITYSDK_OFFSET(0x151BA040)
-#define CLASS_2_9384BB234F2D2A88__CTOR_OFFSET UNITYSDK_OFFSET(0x151BA150)
-#define CLASS_2_9384BB234F2D2A88__ONBIND_OFFSET UNITYSDK_OFFSET(0x151B9FC0)
+#define CLASS_2_9384BB234F2D2A88_METHOD_2_970F83AA36AAD910_OFFSET UNITYSDK_OFFSET(0x160E1500)
+#define CLASS_2_9384BB234F2D2A88__CTOR_OFFSET UNITYSDK_OFFSET(0x160E1610)
+#define CLASS_2_9384BB234F2D2A88__ONBIND_OFFSET UNITYSDK_OFFSET(0x160E1480)
 
-inline static constexpr unsigned int Class_2_9384BB234F2D2A88_TypeDefinitionIndex = 68369;
+inline static constexpr unsigned int Class_2_9384BB234F2D2A88_TypeDefinitionIndex = 71550;
 
-class Class_2_9384BB234F2D2A88 : public ::Class_1_CA217ABF4E3B4F3F
+class Class_2_9384BB234F2D2A88 : public ::Class_1_34917908B7833130
 {
 public:
-	::RPG::Client::LocalizedText* Field_2_0; // 0x60
+	::RPG::Client::LocalizedText* GEPFFDDHPAI; // 0x60
 
 	::System::Void _ctor()
 	{

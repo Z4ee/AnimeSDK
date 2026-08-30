@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_PIXAIR_PIXAIREQUIPITEMCONTROL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xCFBBF70)
-#define RPG_CLIENT_PIXAIR_PIXAIREQUIPITEMCONTROL___C__CTOR_OFFSET UNITYSDK_OFFSET(0xCFBBFB0)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPITEMCONTROL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xDAFB350)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPITEMCONTROL___C__CTOR_OFFSET UNITYSDK_OFFSET(0xDAFB390)
 
 namespace RPG::Client::PixAir
 {
-	inline static constexpr unsigned int PixAirEquipItemControl___c_TypeDefinitionIndex = 75202;
+	inline static constexpr unsigned int PixAirEquipItemControl___c_TypeDefinitionIndex = 78749;
 
 	class PixAirEquipItemControl___c : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::PixAir::PixAirEquipItemControl___c** StaticGet___9()
 		{
-			return (::RPG::Client::PixAir::PixAirEquipItemControl___c**)Il2CppClass::FromTypeDefinitionIndex(PixAirEquipItemControl___c_TypeDefinitionIndex)->GetStaticField(0x68920);
+			return (::RPG::Client::PixAir::PixAirEquipItemControl___c**)Il2CppClass::FromTypeDefinitionIndex(PixAirEquipItemControl___c_TypeDefinitionIndex)->GetStaticField(0x594E0);
 		}
 
 		static ::System::Void _cctor()

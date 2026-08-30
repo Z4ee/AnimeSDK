@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class JsonEnum; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_DIALOGUEICONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B3A8C80)
-#define RPG_GAMECORE_DIALOGUEICONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3A9270)
+#define RPG_GAMECORE_DIALOGUEICONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D026F80)
+#define RPG_GAMECORE_DIALOGUEICONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D027570)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DialogueIconRow_TypeDefinitionIndex = 12639;
+	inline static constexpr unsigned int DialogueIconRow_TypeDefinitionIndex = 13030;
 
 	class DialogueIconRow : public ::System::Object
 	{

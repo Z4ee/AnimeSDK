@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_7BFB07C3AB2D97E4_1;
+class Class_1_7BFB07C3AB2D97E4_2;
 namespace RPG::Client { class RogueFormulaData; }
 
-#define RPG_CLIENT_ROGUEFORMULAINFO___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD398BC0)
-#define RPG_CLIENT_ROGUEFORMULAINFO___C__DISPLAYCLASS5_0__REMOVEFORMULAITEM_B__0_OFFSET UNITYSDK_OFFSET(0xD39C530)
+#define RPG_CLIENT_ROGUEFORMULAINFO___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0xDEB4FB0)
+#define RPG_CLIENT_ROGUEFORMULAINFO___C__DISPLAYCLASS5_0__REMOVEFORMULAITEM_B__0_OFFSET UNITYSDK_OFFSET(0xDEB7A80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueFormulaInfo___c__DisplayClass5_0_TypeDefinitionIndex = 64224;
+	inline static constexpr unsigned int RogueFormulaInfo___c__DisplayClass5_0_TypeDefinitionIndex = 67219;
 
 	class RogueFormulaInfo___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:
-		::Class_1_7BFB07C3AB2D97E4_1* formulaProto; // 0x10
+		::Class_1_7BFB07C3AB2D97E4_2* formulaProto; // 0x10
 
 		::System::Void _ctor()
 		{

@@ -7,7 +7,7 @@ namespace RPG::GameCore { template <typename T> class GameComponentPool_1; }
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GameComponentPool_1_TypeDefinitionIndex = 55001;
+	inline static constexpr unsigned int GameComponentPool_1_TypeDefinitionIndex = 57725;
 
 	template <typename T>
 	class GameComponentPool_1 : public ::System::Object

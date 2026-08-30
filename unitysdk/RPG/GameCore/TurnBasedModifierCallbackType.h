@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TurnBasedModifierCallbackType_TypeDefinitionIndex = 52195;
+	inline static constexpr unsigned int TurnBasedModifierCallbackType_TypeDefinitionIndex = 54881;
 
 	enum class TurnBasedModifierCallbackType : ::System::Byte
 	{

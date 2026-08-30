@@ -5,22 +5,22 @@
 namespace RPG::Client::TeamTowers { class TeamTowersDepartmentData; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define CLASS_1_7EEA5E93C4D09894___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xAE7F2E0)
-#define CLASS_1_7EEA5E93C4D09894___C__CTOR_OFFSET UNITYSDK_OFFSET(0xAE7F320)
-#define CLASS_1_7EEA5E93C4D09894___C__GET_PVECOMPLETE_B__24_0_OFFSET UNITYSDK_OFFSET(0xAE7F330)
+#define CLASS_1_7EEA5E93C4D09894___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xB824230)
+#define CLASS_1_7EEA5E93C4D09894___C__CTOR_OFFSET UNITYSDK_OFFSET(0xB824270)
+#define CLASS_1_7EEA5E93C4D09894___C__GET_PVECOMPLETE_B__24_0_OFFSET UNITYSDK_OFFSET(0xB824280)
 
-inline static constexpr unsigned int Class_1_7EEA5E93C4D09894___c_TypeDefinitionIndex = 75067;
+inline static constexpr unsigned int Class_1_7EEA5E93C4D09894___c_TypeDefinitionIndex = 78565;
 
 class Class_1_7EEA5E93C4D09894___c : public ::System::Object
 {
 public:
 	static ::Class_1_7EEA5E93C4D09894___c** StaticGet___9()
 	{
-		return (::Class_1_7EEA5E93C4D09894___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_7EEA5E93C4D09894___c_TypeDefinitionIndex)->GetStaticField(0x57AE0);
+		return (::Class_1_7EEA5E93C4D09894___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_7EEA5E93C4D09894___c_TypeDefinitionIndex)->GetStaticField(0xD610);
 	}
 	static ::System::Func_2<::RPG::Client::TeamTowers::TeamTowersDepartmentData*, ::System::Boolean>** StaticGet___9__24_0()
 	{
-		return (::System::Func_2<::RPG::Client::TeamTowers::TeamTowersDepartmentData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_7EEA5E93C4D09894___c_TypeDefinitionIndex)->GetStaticField(0x57AE8);
+		return (::System::Func_2<::RPG::Client::TeamTowers::TeamTowersDepartmentData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_7EEA5E93C4D09894___c_TypeDefinitionIndex)->GetStaticField(0xD618);
 	}
 
 	static ::System::Void _cctor()

@@ -2,25 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_54A71F2B374F1F5D_9_METHOD_1_5790A55946AA509D_OFFSET UNITYSDK_OFFSET(0x14C09300)
-#define CLASS_1_54A71F2B374F1F5D_9_METHOD_1_A239DF324AF4215D_OFFSET UNITYSDK_OFFSET(0x14C091D0)
-#define CLASS_1_54A71F2B374F1F5D_9__CTOR_OFFSET UNITYSDK_OFFSET(0x14C09350)
+namespace System { class String; }
+namespace System { template <typename T1, typename T2> class Action_2; }
+namespace System { template <typename T1, typename T2> class Func_2; }
 
-inline static constexpr unsigned int Class_1_54A71F2B374F1F5D_9_TypeDefinitionIndex = 53969;
+#define CLASS_1_54A71F2B374F1F5D_9_METHOD_1_5790A55946AA509D_OFFSET UNITYSDK_OFFSET(0x1E5C5D10)
+
+inline static constexpr unsigned int Class_1_54A71F2B374F1F5D_9_TypeDefinitionIndex = 42394;
 
 class Class_1_54A71F2B374F1F5D_9 : public ::System::Object
 {
 public:
-	::System::Void _ctor()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_54A71F2B374F1F5D_9__CTOR_OFFSET))(this);
-	}
-
-	static ::System::Void Method_1_A239DF324AF4215D()
-	{
-		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CLASS_1_54A71F2B374F1F5D_9_METHOD_1_A239DF324AF4215D_OFFSET))();
-	}
-
 	static ::System::Void Method_1_5790A55946AA509D()
 	{
 		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CLASS_1_54A71F2B374F1F5D_9_METHOD_1_5790A55946AA509D_OFFSET))();

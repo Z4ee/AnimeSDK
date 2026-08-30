@@ -5,7 +5,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LookAtExtraConfig_TypeDefinitionIndex = 65271;
+	inline static constexpr unsigned int LookAtExtraConfig_TypeDefinitionIndex = 68283;
 
 	struct alignas(4) LookAtExtraConfig
 	{

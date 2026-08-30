@@ -6,16 +6,16 @@ class Class_1_8F58629771D14EB4;
 class Class_2_2E8C3F3A14243FF8;
 namespace RPG::Client::CakeRace { class CakeRaceLoanPrepareData; }
 
-#define CLASS_2_2E8C3F3A14243FF8___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB108810)
-#define CLASS_2_2E8C3F3A14243FF8___C__DISPLAYCLASS9_0___TRYSHOWLOANPERFORMENCE_B__0_OFFSET UNITYSDK_OFFSET(0xB109370)
+#define CLASS_2_2E8C3F3A14243FF8___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBA89EF0)
+#define CLASS_2_2E8C3F3A14243FF8___C__DISPLAYCLASS9_0___TRYSHOWLOANPERFORMENCE_B__0_OFFSET UNITYSDK_OFFSET(0xBA8AA50)
 
-inline static constexpr unsigned int Class_2_2E8C3F3A14243FF8___c__DisplayClass9_0_TypeDefinitionIndex = 72551;
+inline static constexpr unsigned int Class_2_2E8C3F3A14243FF8___c__DisplayClass9_0_TypeDefinitionIndex = 75987;
 
 class Class_2_2E8C3F3A14243FF8___c__DisplayClass9_0 : public ::System::Object
 {
 public:
-	::Class_1_8F58629771D14EB4* loanServerSyncData; // 0x10
-	::Class_2_2E8C3F3A14243FF8* __4__this; // 0x18
+	::Class_2_2E8C3F3A14243FF8* __4__this; // 0x10
+	::Class_1_8F58629771D14EB4* loanServerSyncData; // 0x18
 	::RPG::Client::CakeRace::CakeRaceLoanPrepareData* prepareData; // 0x20
 
 	::System::Void _ctor()

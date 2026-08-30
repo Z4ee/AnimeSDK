@@ -3,16 +3,16 @@
 #include "unitysdk/RPG/Client/LittleGameShare/CakeRaceCore/CakeRacePlayerState.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_98D5D46C62B8FEA0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A5C0110)
+#define CLASS_1_98D5D46C62B8FEA0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C1CFBF0)
 
-inline static constexpr unsigned int Class_1_98D5D46C62B8FEA0_TypeDefinitionIndex = 35683;
+inline static constexpr unsigned int Class_1_98D5D46C62B8FEA0_TypeDefinitionIndex = 36544;
 
 class Class_1_98D5D46C62B8FEA0 : public ::System::Object
 {
 public:
-	::System::UInt32 Field_1_0; // 0x10
-	::System::Boolean Field_1_1; // 0x14
-	::RPG::Client::LittleGameShare::CakeRaceCore::CakeRacePlayerState Field_1_2; // 0x18
+	::System::UInt32 LJMNNBMALLL; // 0x10
+	::RPG::Client::LittleGameShare::CakeRaceCore::CakeRacePlayerState MEPFOEEGBEA; // 0x14
+	::System::Boolean KEOKEELBKHI; // 0x18
 
 	::System::Void _ctor()
 	{

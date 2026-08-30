@@ -7,12 +7,12 @@ namespace System { class Type; }
 namespace System::Linq::Expressions { class Expression; }
 namespace System::Linq::Expressions { class TypeBinaryExpression; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_CONSTANTCHECK_ANALYZETYPEIS_1_OFFSET UNITYSDK_OFFSET(0x1CA31A90)
-#define SYSTEM_LINQ_EXPRESSIONS_CONSTANTCHECK_ANALYZETYPEIS_OFFSET UNITYSDK_OFFSET(0x1CA31A60)
+#define SYSTEM_LINQ_EXPRESSIONS_CONSTANTCHECK_ANALYZETYPEIS_1_OFFSET UNITYSDK_OFFSET(0x1E6DBC00)
+#define SYSTEM_LINQ_EXPRESSIONS_CONSTANTCHECK_ANALYZETYPEIS_OFFSET UNITYSDK_OFFSET(0x1E6DBBE0)
 
 namespace System::Linq::Expressions
 {
-	inline static constexpr unsigned int ConstantCheck_TypeDefinitionIndex = 3199;
+	inline static constexpr unsigned int ConstantCheck_TypeDefinitionIndex = 3207;
 
 	class ConstantCheck : public ::System::Object
 	{

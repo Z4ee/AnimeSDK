@@ -8,12 +8,12 @@ namespace System { class Type; }
 namespace System::Reflection { class MethodInfo; }
 namespace System::Reflection { class MonoEvent; }
 
-#define SYSTEM_REFLECTION_MONOEVENTINFO_GETEVENTINFO_OFFSET UNITYSDK_OFFSET(0x1A194CC0)
-#define SYSTEM_REFLECTION_MONOEVENTINFO_GET_EVENT_INFO_OFFSET UNITYSDK_OFFSET(0x1A195040)
+#define SYSTEM_REFLECTION_MONOEVENTINFO_GETEVENTINFO_OFFSET UNITYSDK_OFFSET(0x1BD9CB00)
+#define SYSTEM_REFLECTION_MONOEVENTINFO_GET_EVENT_INFO_OFFSET UNITYSDK_OFFSET(0x1BD9CE80)
 
 namespace System::Reflection
 {
-	inline static constexpr unsigned int MonoEventInfo_TypeDefinitionIndex = 611;
+	inline static constexpr unsigned int MonoEventInfo_TypeDefinitionIndex = 614;
 
 	struct alignas(8) MonoEventInfo
 	{

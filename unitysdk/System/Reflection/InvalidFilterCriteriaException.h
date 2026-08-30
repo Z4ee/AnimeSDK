@@ -6,13 +6,13 @@
 namespace System { class String; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_REFLECTION_INVALIDFILTERCRITERIAEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A18F750)
-#define SYSTEM_REFLECTION_INVALIDFILTERCRITERIAEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1A18F7C0)
-#define SYSTEM_REFLECTION_INVALIDFILTERCRITERIAEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1A18F6B0)
+#define SYSTEM_REFLECTION_INVALIDFILTERCRITERIAEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1BD97460)
+#define SYSTEM_REFLECTION_INVALIDFILTERCRITERIAEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1BD974D0)
+#define SYSTEM_REFLECTION_INVALIDFILTERCRITERIAEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD973C0)
 
 namespace System::Reflection
 {
-	inline static constexpr unsigned int InvalidFilterCriteriaException_TypeDefinitionIndex = 563;
+	inline static constexpr unsigned int InvalidFilterCriteriaException_TypeDefinitionIndex = 566;
 
 	class InvalidFilterCriteriaException : public ::System::ApplicationException
 	{

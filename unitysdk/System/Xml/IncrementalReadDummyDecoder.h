@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Xml/IncrementalReadDecoder.h"
 
-#define SYSTEM_XML_INCREMENTALREADDUMMYDECODER_DECODE_OFFSET UNITYSDK_OFFSET(0x1CB329C0)
-#define SYSTEM_XML_INCREMENTALREADDUMMYDECODER_GET_ISFULL_OFFSET UNITYSDK_OFFSET(0x1CB329B0)
-#define SYSTEM_XML_INCREMENTALREADDUMMYDECODER__CTOR_OFFSET UNITYSDK_OFFSET(0x1CB329D0)
+#define SYSTEM_XML_INCREMENTALREADDUMMYDECODER_DECODE_OFFSET UNITYSDK_OFFSET(0x1E7DC9F0)
+#define SYSTEM_XML_INCREMENTALREADDUMMYDECODER_GET_ISFULL_OFFSET UNITYSDK_OFFSET(0x1E7DC9E0)
+#define SYSTEM_XML_INCREMENTALREADDUMMYDECODER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7DCA00)
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int IncrementalReadDummyDecoder_TypeDefinitionIndex = 1811;
+	inline static constexpr unsigned int IncrementalReadDummyDecoder_TypeDefinitionIndex = 1818;
 
 	class IncrementalReadDummyDecoder : public ::System::Xml::IncrementalReadDecoder
 	{

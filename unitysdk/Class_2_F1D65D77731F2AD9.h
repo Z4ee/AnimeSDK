@@ -2,21 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/GridFightGameModifier.h"
 
-class Class_1_1A05043E9AD1C5D3;
+class Class_1_B8E6D5AD8534D123;
 namespace System::Collections::Generic { template <typename T1, typename T2> class IDictionary_2; }
 
-#define CLASS_2_F1D65D77731F2AD9_METHOD_2_4621B9C22DF126F2_OFFSET UNITYSDK_OFFSET(0x145F46E0)
-#define CLASS_2_F1D65D77731F2AD9_METHOD_2_4B581D26F198C904_OFFSET UNITYSDK_OFFSET(0x145F4640)
-#define CLASS_2_F1D65D77731F2AD9__CTOR_OFFSET UNITYSDK_OFFSET(0x145F4630)
+#define CLASS_2_F1D65D77731F2AD9_METHOD_2_4621B9C22DF126F2_OFFSET UNITYSDK_OFFSET(0x154A1C70)
+#define CLASS_2_F1D65D77731F2AD9_METHOD_2_4B581D26F198C904_OFFSET UNITYSDK_OFFSET(0x154A1BD0)
+#define CLASS_2_F1D65D77731F2AD9__CTOR_OFFSET UNITYSDK_OFFSET(0x154A1BC0)
 
-inline static constexpr unsigned int Class_2_F1D65D77731F2AD9_TypeDefinitionIndex = 62083;
+inline static constexpr unsigned int Class_2_F1D65D77731F2AD9_TypeDefinitionIndex = 65067;
 
 class Class_2_F1D65D77731F2AD9 : public ::RPG::Client::GridFightGameModifier
 {
 public:
-	::System::Void _ctor(::Class_1_1A05043E9AD1C5D3* a1)
+	::System::Void _ctor(::Class_1_B8E6D5AD8534D123* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_1_1A05043E9AD1C5D3*))((::PBYTE)hIl2Cpp + CLASS_2_F1D65D77731F2AD9__CTOR_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::Class_1_B8E6D5AD8534D123*))((::PBYTE)hIl2Cpp + CLASS_2_F1D65D77731F2AD9__CTOR_OFFSET))(this, a1);
 	}
 
 	::System::Collections::Generic::IDictionary_2<::System::UInt32, ::System::UInt32>* Method_2_4B581D26F198C904()

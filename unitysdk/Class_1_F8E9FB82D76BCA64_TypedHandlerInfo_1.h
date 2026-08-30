@@ -8,7 +8,7 @@ class Class_1_CE89E018B1132F67_1;
 class Class_1_F8E9FB82D76BCA64_Class_3_11CBDCA989A0D873;
 template <typename T> class Class_1_F8E9FB82D76BCA64_TypedPacketHandler_1;
 
-inline static constexpr unsigned int Class_1_F8E9FB82D76BCA64_TypedHandlerInfo_1_TypeDefinitionIndex = 35413;
+inline static constexpr unsigned int Class_1_F8E9FB82D76BCA64_TypedHandlerInfo_1_TypeDefinitionIndex = 36274;
 
 template <typename TRsp>
 class Class_1_F8E9FB82D76BCA64_TypedHandlerInfo_1 : public ::System::Object

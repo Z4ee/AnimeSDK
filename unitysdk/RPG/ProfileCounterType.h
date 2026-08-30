@@ -3,7 +3,7 @@
 
 namespace RPG
 {
-	inline static constexpr unsigned int ProfileCounterType_TypeDefinitionIndex = 33729;
+	inline static constexpr unsigned int ProfileCounterType_TypeDefinitionIndex = 34495;
 
 	enum class ProfileCounterType : ::System::Int32
 	{

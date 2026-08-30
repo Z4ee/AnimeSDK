@@ -4,7 +4,7 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
-inline static constexpr unsigned int Class_3_B40B82316B003D8B_InstanceRelativeData_TypeDefinitionIndex = 67171;
+inline static constexpr unsigned int Class_3_B40B82316B003D8B_InstanceRelativeData_TypeDefinitionIndex = 70290;
 
 struct alignas(4) Class_3_B40B82316B003D8B_InstanceRelativeData
 {

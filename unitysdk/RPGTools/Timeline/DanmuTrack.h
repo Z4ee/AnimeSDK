@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Timeline/TrackAsset.h"
 
-#define RPGTOOLS_TIMELINE_DANMUTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xDCB9670)
+#define RPGTOOLS_TIMELINE_DANMUTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xE83A420)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int DanmuTrack_TypeDefinitionIndex = 46289;
+	inline static constexpr unsigned int DanmuTrack_TypeDefinitionIndex = 48523;
 
 	class DanmuTrack : public ::UnityEngine::Timeline::TrackAsset
 	{

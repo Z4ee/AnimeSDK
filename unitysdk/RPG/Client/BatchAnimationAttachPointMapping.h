@@ -6,19 +6,19 @@ namespace RPG::Client { class BatchAnimationAttachPointMapping_AttachPoint; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_CLIENT_BATCHANIMATIONATTACHPOINTMAPPING_AWAKE_OFFSET UNITYSDK_OFFSET(0xBE34D80)
-#define RPG_CLIENT_BATCHANIMATIONATTACHPOINTMAPPING_GETBONEINDEX_OFFSET UNITYSDK_OFFSET(0xBE34C80)
-#define RPG_CLIENT_BATCHANIMATIONATTACHPOINTMAPPING__CTOR_OFFSET UNITYSDK_OFFSET(0xBE34E80)
+#define RPG_CLIENT_BATCHANIMATIONATTACHPOINTMAPPING_AWAKE_OFFSET UNITYSDK_OFFSET(0xC8D2AD0)
+#define RPG_CLIENT_BATCHANIMATIONATTACHPOINTMAPPING_GETBONEINDEX_OFFSET UNITYSDK_OFFSET(0xC8D2A00)
+#define RPG_CLIENT_BATCHANIMATIONATTACHPOINTMAPPING__CTOR_OFFSET UNITYSDK_OFFSET(0xC8D2BD0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BatchAnimationAttachPointMapping_TypeDefinitionIndex = 66385;
+	inline static constexpr unsigned int BatchAnimationAttachPointMapping_TypeDefinitionIndex = 69478;
 
 	class BatchAnimationAttachPointMapping : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::Il2CppArray<::RPG::Client::BatchAnimationAttachPointMapping_AttachPoint*>* AttachPoints; // 0x18
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>* Field_5_1; // 0x20
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>* MKCGIFNCPFC; // 0x20
 
 		::System::Void _ctor()
 		{

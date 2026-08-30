@@ -12,20 +12,20 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Mesh; }
 
-#define CLASS_1_12E55A35B5C4C6D2_METHOD_1_0DA2366A4A7DBAA7_OFFSET UNITYSDK_OFFSET(0x14CE89D0)
-#define CLASS_1_12E55A35B5C4C6D2__CTOR_OFFSET UNITYSDK_OFFSET(0x14CE8710)
+#define CLASS_1_12E55A35B5C4C6D2_METHOD_1_0DA2366A4A7DBAA7_OFFSET UNITYSDK_OFFSET(0x15BAE080)
+#define CLASS_1_12E55A35B5C4C6D2__CTOR_OFFSET UNITYSDK_OFFSET(0x15BADDA0)
 
-inline static constexpr unsigned int Class_1_12E55A35B5C4C6D2_TypeDefinitionIndex = 67070;
+inline static constexpr unsigned int Class_1_12E55A35B5C4C6D2_TypeDefinitionIndex = 70177;
 
 class Class_1_12E55A35B5C4C6D2 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::Dictionary_2<::RPG::Client::LiteInstancedItem::ItemPrototype*, ::RPG::Client::LiteInstancedItem::ItemPrototype*>* Field_1_0; // 0x10
-	::System::Collections::Generic::List_1<::Class_1_2FF4295849ECC7AF*>* Field_1_1; // 0x18
-	::System::Collections::Generic::List_1<::UnityEngine::Material*>* Field_1_2; // 0x20
-	::System::Collections::Generic::Dictionary_2<::RPG::Client::LiteInstancedItem::ItemPrototype*, ::RPG::Client::LiteInstancedItem::ItemPrototype*>* Field_1_3; // 0x28
-	::Class_1_B044F82CBFAD3D4B* Field_1_4; // 0x30
-	::System::Collections::Generic::Dictionary_2<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::Mesh*, ::UnityEngine::Material*>, ::System::Collections::Generic::List_1<::RPG::Client::TimeSpaceCrisscrossIRIMonoPlugin_TSCInstanceData*>*>* Field_1_5; // 0x38
+	::System::Collections::Generic::List_1<::Class_1_2FF4295849ECC7AF*>* MBKGKIIBIML; // 0x10
+	::System::Collections::Generic::Dictionary_2<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::Mesh*, ::UnityEngine::Material*>, ::System::Collections::Generic::List_1<::RPG::Client::TimeSpaceCrisscrossIRIMonoPlugin_TSCInstanceData*>*>* JHLFLOGEECG; // 0x18
+	::System::Collections::Generic::List_1<::UnityEngine::Material*>* NBAFHMOKMHJ; // 0x20
+	::System::Collections::Generic::Dictionary_2<::RPG::Client::LiteInstancedItem::ItemPrototype*, ::RPG::Client::LiteInstancedItem::ItemPrototype*>* JPBKHEDJFBD; // 0x28
+	::Class_1_B044F82CBFAD3D4B* EBILLBOENIN; // 0x30
+	::System::Collections::Generic::Dictionary_2<::RPG::Client::LiteInstancedItem::ItemPrototype*, ::RPG::Client::LiteInstancedItem::ItemPrototype*>* BEOFJIBAJKA; // 0x38
 
 	::System::Void _ctor()
 	{

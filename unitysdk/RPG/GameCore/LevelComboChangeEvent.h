@@ -3,20 +3,20 @@
 #include "unitysdk/RPG/GameCore/EventType.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_GAMECORE_LEVELCOMBOCHANGEEVENT_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xDAC99F0)
-#define RPG_GAMECORE_LEVELCOMBOCHANGEEVENT_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xDAC99A0)
-#define RPG_GAMECORE_LEVELCOMBOCHANGEEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0xDAC9A40)
+#define RPG_GAMECORE_LEVELCOMBOCHANGEEVENT_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE6885D0)
+#define RPG_GAMECORE_LEVELCOMBOCHANGEEVENT_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE688580)
+#define RPG_GAMECORE_LEVELCOMBOCHANGEEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0xE688620)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelComboChangeEvent_TypeDefinitionIndex = 54270;
+	inline static constexpr unsigned int LevelComboChangeEvent_TypeDefinitionIndex = 56991;
 
 	class LevelComboChangeEvent : public ::System::Object
 	{
 	public:
-		::System::Int32 ComboGear; // 0x10
+		::System::Single ComboBarRatio; // 0x10
 		::System::Single DamageAddedRatio; // 0x14
-		::System::Single ComboBarRatio; // 0x18
+		::System::Int32 ComboGear; // 0x18
 
 		::System::Void _ctor()
 		{

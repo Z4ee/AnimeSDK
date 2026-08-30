@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace XLua
 {
-	inline static constexpr unsigned int Utils_MethodKey_TypeDefinitionIndex = 48011;
+	inline static constexpr unsigned int Utils_MethodKey_TypeDefinitionIndex = 50597;
 
 	struct alignas(8) Utils_MethodKey
 	{

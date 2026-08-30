@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterVisibleReason_TypeDefinitionIndex = 54667;
+	inline static constexpr unsigned int CharacterVisibleReason_TypeDefinitionIndex = 57388;
 
 	enum class CharacterVisibleReason : ::System::Byte
 	{
@@ -25,26 +25,27 @@ namespace RPG::GameCore
 		PhotoGraph = 0xF,
 		MapRotation = 0x10,
 		MapRotationEffect = 0x11,
-		IsometricView = 0x12,
-		GroupVisibility = 0x13,
-		PuzzleMotion = 0x14,
-		MonsterResetPos = 0x15,
-		PerformanceDebug = 0x16,
-		TrainParty = 0x17,
-		Skill = 0x18,
-		EraFlipDeviceControl = 0x19,
-		FiveDimGame = 0x1A,
-		CharacterFormation = 0x1B,
-		TeamFormation = 0x1C,
-		Departed = 0x1D,
-		GlobalControl = 0x1E,
-		EffectLoading = 0x1F,
-		FollowFieldEfx = 0x20,
-		Teleport = 0x21,
-		AnimEvent = 0x22,
-		BlockDither = 0x23,
-		Activity = 0x24,
-		SummonUnit = 0x25,
-		CakeCatch = 0x26,
+		MapRotationGroupUnload = 0x12,
+		IsometricView = 0x13,
+		GroupVisibility = 0x14,
+		PuzzleMotion = 0x15,
+		MonsterResetPos = 0x16,
+		PerformanceDebug = 0x17,
+		TrainParty = 0x18,
+		Skill = 0x19,
+		EraFlipDeviceControl = 0x1A,
+		FiveDimGame = 0x1B,
+		CharacterFormation = 0x1C,
+		TeamFormation = 0x1D,
+		Departed = 0x1E,
+		GlobalControl = 0x1F,
+		EffectLoading = 0x20,
+		FollowFieldEfx = 0x21,
+		Teleport = 0x22,
+		AnimEvent = 0x23,
+		BlockDither = 0x24,
+		Activity = 0x25,
+		SummonUnit = 0x26,
+		CakeCatch = 0x27,
 	};
 }

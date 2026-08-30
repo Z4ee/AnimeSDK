@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_AVATARPROPERTYOVERRIDEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B1D1320)
-#define RPG_GAMECORE_AVATARPROPERTYOVERRIDEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1D1A40)
+#define RPG_GAMECORE_AVATARPROPERTYOVERRIDEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CE48810)
+#define RPG_GAMECORE_AVATARPROPERTYOVERRIDEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE48F30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AvatarPropertyOverrideRow_TypeDefinitionIndex = 12239;
+	inline static constexpr unsigned int AvatarPropertyOverrideRow_TypeDefinitionIndex = 12628;
 
 	class AvatarPropertyOverrideRow : public ::System::Object
 	{

@@ -4,7 +4,7 @@
 
 namespace System::Net::NetworkInformation
 {
-	inline static constexpr unsigned int AlignmentUnion_TypeDefinitionIndex = 2958;
+	inline static constexpr unsigned int AlignmentUnion_TypeDefinitionIndex = 2965;
 
 	struct alignas(8) AlignmentUnion
 	{

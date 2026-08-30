@@ -7,25 +7,25 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class AvatarPropertyValue; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_GRIDFIGHTTRAITBEOVERRIDECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B4F1AB0)
-#define RPG_GAMECORE_GRIDFIGHTTRAITBEOVERRIDECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4F1EC0)
+#define RPG_GAMECORE_GRIDFIGHTTRAITBEOVERRIDECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D16B340)
+#define RPG_GAMECORE_GRIDFIGHTTRAITBEOVERRIDECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D16B750)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightTraitBEOverrideConfigRow_TypeDefinitionIndex = 13209;
+	inline static constexpr unsigned int GridFightTraitBEOverrideConfigRow_TypeDefinitionIndex = 13600;
 
 	class GridFightTraitBEOverrideConfigRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* OverrideSkillIDList; // 0x10
-		::Il2CppArray<::RPG::GameCore::AvatarPropertyValue*>* OverrideBEProperty; // 0x18
+		::System::String* AbilityName; // 0x18
 		::System::String* SpecialIconPath; // 0x20
-		::System::String* AbilityName; // 0x28
-		::RPG::Client::TextID TraitTitleDesc; // 0x30
-		::RPG::Client::TextID OneWordDesc; // 0x40
-		::RPG::Client::TextID OneWordDescSimple; // 0x50
-		::System::UInt32 TraitLayer; // 0x60
-		::System::UInt32 TraitID; // 0x64
+		::Il2CppArray<::RPG::GameCore::AvatarPropertyValue*>* OverrideBEProperty; // 0x28
+		::System::UInt32 TraitLayer; // 0x30
+		::System::UInt32 TraitID; // 0x34
+		::RPG::Client::TextID TraitTitleDesc; // 0x38
+		::RPG::Client::TextID OneWordDescSimple; // 0x48
+		::RPG::Client::TextID OneWordDesc; // 0x58
 
 		::System::Void _ctor()
 		{

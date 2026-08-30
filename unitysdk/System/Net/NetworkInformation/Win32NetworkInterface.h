@@ -3,23 +3,23 @@
 #include "unitysdk/System/Net/NetworkInformation/Win32_FIXED_INFO.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_NET_NETWORKINFORMATION_WIN32NETWORKINTERFACE_GETNETWORKPARAMS_OFFSET UNITYSDK_OFFSET(0x1CCFD520)
-#define SYSTEM_NET_NETWORKINFORMATION_WIN32NETWORKINTERFACE_GET_FIXEDINFO_OFFSET UNITYSDK_OFFSET(0x1CCFD130)
+#define SYSTEM_NET_NETWORKINFORMATION_WIN32NETWORKINTERFACE_GETNETWORKPARAMS_OFFSET UNITYSDK_OFFSET(0x1E9A8C60)
+#define SYSTEM_NET_NETWORKINFORMATION_WIN32NETWORKINTERFACE_GET_FIXEDINFO_OFFSET UNITYSDK_OFFSET(0x1E9A8870)
 
 namespace System::Net::NetworkInformation
 {
-	inline static constexpr unsigned int Win32NetworkInterface_TypeDefinitionIndex = 2956;
+	inline static constexpr unsigned int Win32NetworkInterface_TypeDefinitionIndex = 2963;
 
 	class Win32NetworkInterface : public ::System::Object
 	{
 	public:
 		static ::System::Net::NetworkInformation::Win32_FIXED_INFO* StaticGet_fixedInfo()
 		{
-			return (::System::Net::NetworkInformation::Win32_FIXED_INFO*)Il2CppClass::FromTypeDefinitionIndex(Win32NetworkInterface_TypeDefinitionIndex)->GetStaticField(0x2D880);
+			return (::System::Net::NetworkInformation::Win32_FIXED_INFO*)Il2CppClass::FromTypeDefinitionIndex(Win32NetworkInterface_TypeDefinitionIndex)->GetStaticField(0x1E1A0);
 		}
 		static ::System::Boolean* StaticGet_initialized()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Win32NetworkInterface_TypeDefinitionIndex)->GetStaticField(0x7E70);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Win32NetworkInterface_TypeDefinitionIndex)->GetStaticField(0xA260);
 		}
 
 		static ::System::Int32 GetNetworkParams(::System::IntPtr a1, ::System::Int32& a2)

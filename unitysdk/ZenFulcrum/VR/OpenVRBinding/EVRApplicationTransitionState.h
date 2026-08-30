@@ -3,7 +3,7 @@
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int EVRApplicationTransitionState_TypeDefinitionIndex = 37088;
+	inline static constexpr unsigned int EVRApplicationTransitionState_TypeDefinitionIndex = 37947;
 
 	enum class EVRApplicationTransitionState : ::System::Int32
 	{

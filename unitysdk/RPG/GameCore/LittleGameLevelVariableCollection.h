@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class LittleGameLevelVariable; }
 
-#define RPG_GAMECORE_LITTLEGAMELEVELVARIABLECOLLECTION_METHOD_2_F1A4E1C43B42CC04_OFFSET UNITYSDK_OFFSET(0x1B587D90)
-#define RPG_GAMECORE_LITTLEGAMELEVELVARIABLECOLLECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5893D0)
+#define RPG_GAMECORE_LITTLEGAMELEVELVARIABLECOLLECTION_METHOD_2_F1A4E1C43B42CC04_OFFSET UNITYSDK_OFFSET(0x1D2031C0)
+#define RPG_GAMECORE_LITTLEGAMELEVELVARIABLECOLLECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D204850)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LittleGameLevelVariableCollection_TypeDefinitionIndex = 18158;
+	inline static constexpr unsigned int LittleGameLevelVariableCollection_TypeDefinitionIndex = 18682;
 
 	class LittleGameLevelVariableCollection : public ::RPG::GameCore::JsonConfig
 	{

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class WolfBroSetupCameraAxis; }
 
-#define CLASS_3_72DA7A57C89AF0AF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xAF5EF70)
-#define CLASS_3_72DA7A57C89AF0AF__CTOR_OFFSET UNITYSDK_OFFSET(0xAF5EF40)
+#define CLASS_3_72DA7A57C89AF0AF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB9106C0)
+#define CLASS_3_72DA7A57C89AF0AF__CTOR_OFFSET UNITYSDK_OFFSET(0xB910690)
 
-inline static constexpr unsigned int Class_3_72DA7A57C89AF0AF_TypeDefinitionIndex = 56330;
+inline static constexpr unsigned int Class_3_72DA7A57C89AF0AF_TypeDefinitionIndex = 59112;
 
 class Class_3_72DA7A57C89AF0AF : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::WolfBroSetupCameraAxis*>
 {

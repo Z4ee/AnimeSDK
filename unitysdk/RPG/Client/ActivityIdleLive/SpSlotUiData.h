@@ -6,27 +6,27 @@
 namespace RPG::Client::ActivityIdleLive { class SpecialEquip; }
 namespace System { class String; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_SPSLOTUIDATA_GET_ISEMPTY_OFFSET UNITYSDK_OFFSET(0xBBE20B0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_SPSLOTUIDATA_GET_ISLOCKED_OFFSET UNITYSDK_OFFSET(0xBBE20F0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_SPSLOTUIDATA_GET_ISSLOTHASAVATAR_OFFSET UNITYSDK_OFFSET(0xBBE20E0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_SPSLOTUIDATA_GET_OWNEDAVATARICON_OFFSET UNITYSDK_OFFSET(0xBBE20D0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_SPSLOTUIDATA_GET_SPEQUIP_OFFSET UNITYSDK_OFFSET(0xBBE20C0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_SPSLOTUIDATA_GET_UNLOCKHINT_OFFSET UNITYSDK_OFFSET(0xBBE2100)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_SPSLOTUIDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xBBDF8B0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_SPSLOTUIDATA_GET_ISEMPTY_OFFSET UNITYSDK_OFFSET(0xC6004E0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_SPSLOTUIDATA_GET_ISLOCKED_OFFSET UNITYSDK_OFFSET(0xC600520)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_SPSLOTUIDATA_GET_ISSLOTHASAVATAR_OFFSET UNITYSDK_OFFSET(0xC600510)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_SPSLOTUIDATA_GET_OWNEDAVATARICON_OFFSET UNITYSDK_OFFSET(0xC600500)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_SPSLOTUIDATA_GET_SPEQUIP_OFFSET UNITYSDK_OFFSET(0xC6004F0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_SPSLOTUIDATA_GET_UNLOCKHINT_OFFSET UNITYSDK_OFFSET(0xC600530)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_SPSLOTUIDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xC5FD940)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int SpSlotUiData_TypeDefinitionIndex = 71835;
+	inline static constexpr unsigned int SpSlotUiData_TypeDefinitionIndex = 75141;
 
 	class SpSlotUiData : public ::System::Object
 	{
 	public:
 		::System::String* _OwnedAvatarIcon_k__BackingField; // 0x10
 		::RPG::Client::ActivityIdleLive::SpecialEquip* _SpEquip_k__BackingField; // 0x18
-		::System::Boolean _IsLocked_k__BackingField; // 0x20
-		::System::Boolean _IsEmpty_k__BackingField; // 0x21
-		::System::Boolean _IsSlotHasAvatar_k__BackingField; // 0x22
-		::RPG::Client::TextID _UnlockHint_k__BackingField; // 0x28
+		::RPG::Client::TextID _UnlockHint_k__BackingField; // 0x20
+		::System::Boolean _IsEmpty_k__BackingField; // 0x30
+		::System::Boolean _IsLocked_k__BackingField; // 0x31
+		::System::Boolean _IsSlotHasAvatar_k__BackingField; // 0x32
 
 		::System::Void _ctor(::RPG::Client::ActivityIdleLive::SpecialEquip* a1, ::System::String* a2, ::System::Boolean a3, ::System::Boolean a4, ::RPG::Client::TextID a5)
 		{

@@ -5,12 +5,12 @@
 
 namespace MiHoYo::SDK { class OverseaProtocol; }
 
-#define MIHOYO_SDK_OVERSEAPROTOCOL___C__DISPLAYCLASS27_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19D5C0E0)
-#define MIHOYO_SDK_OVERSEAPROTOCOL___C__DISPLAYCLASS27_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x19D5E410)
+#define MIHOYO_SDK_OVERSEAPROTOCOL___C__DISPLAYCLASS27_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9B8FA0)
+#define MIHOYO_SDK_OVERSEAPROTOCOL___C__DISPLAYCLASS27_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1B9BB2D0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int OverseaProtocol___c__DisplayClass27_0_TypeDefinitionIndex = 8203;
+	inline static constexpr unsigned int OverseaProtocol___c__DisplayClass27_0_TypeDefinitionIndex = 8209;
 
 	class OverseaProtocol___c__DisplayClass27_0 : public ::System::Object
 	{

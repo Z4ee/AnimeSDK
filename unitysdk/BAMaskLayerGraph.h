@@ -7,25 +7,25 @@ class BADefaultGraph;
 namespace UnityEngine::Rendering { class BAGraphAsset; }
 namespace UnityEngine::Rendering { class BatchAnimationInstance; }
 
-#define BAMASKLAYERGRAPH_GETGRAPH_OFFSET UNITYSDK_OFFSET(0x1AA2CD50)
-#define BAMASKLAYERGRAPH_GET_OFFSET UNITYSDK_OFFSET(0x1AA2CBF0)
-#define BAMASKLAYERGRAPH_INIT_OFFSET UNITYSDK_OFFSET(0x1AA2CA40)
-#define BAMASKLAYERGRAPH_PLAYCLIP_OFFSET UNITYSDK_OFFSET(0x1AA2CC00)
-#define BAMASKLAYERGRAPH__CTOR_OFFSET UNITYSDK_OFFSET(0x1AA2CA30)
+#define BAMASKLAYERGRAPH_GETGRAPH_OFFSET UNITYSDK_OFFSET(0x1C65F260)
+#define BAMASKLAYERGRAPH_GET_OFFSET UNITYSDK_OFFSET(0x1C65F100)
+#define BAMASKLAYERGRAPH_INIT_OFFSET UNITYSDK_OFFSET(0x1C65EF70)
+#define BAMASKLAYERGRAPH_PLAYCLIP_OFFSET UNITYSDK_OFFSET(0x1C65F110)
+#define BAMASKLAYERGRAPH__CTOR_OFFSET UNITYSDK_OFFSET(0x1C65EF60)
 
-inline static constexpr unsigned int BAMaskLayerGraph_TypeDefinitionIndex = 35918;
+inline static constexpr unsigned int BAMaskLayerGraph_TypeDefinitionIndex = 36779;
 
 class BAMaskLayerGraph : public ::System::Object
 {
 public:
 	static ::BAMaskLayerGraph** StaticGet__Graph()
 	{
-		return (::BAMaskLayerGraph**)Il2CppClass::FromTypeDefinitionIndex(BAMaskLayerGraph_TypeDefinitionIndex)->GetStaticField(0x61320);
+		return (::BAMaskLayerGraph**)Il2CppClass::FromTypeDefinitionIndex(BAMaskLayerGraph_TypeDefinitionIndex)->GetStaticField(0x2F0A0);
 	}
 	::UnityEngine::Rendering::BAGraphAsset* _boneMaskGraph; // 0x10
-	::UnityEngine::Rendering::BANodeHash maskClipNode; // 0x18
-	::UnityEngine::Rendering::BANodeHash sampleMaskNode; // 0x20
-	::UnityEngine::Rendering::BANodeHash outputNode; // 0x28
+	::UnityEngine::Rendering::BANodeHash outputNode; // 0x18
+	::UnityEngine::Rendering::BANodeHash maskClipNode; // 0x20
+	::UnityEngine::Rendering::BANodeHash sampleMaskNode; // 0x28
 
 	::System::Void _ctor()
 	{

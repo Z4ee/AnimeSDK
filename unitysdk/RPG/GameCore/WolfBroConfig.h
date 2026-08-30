@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class WolfBroCartoonGunConfig; }
 
-#define RPG_GAMECORE_WOLFBROCONFIG_METHOD_2_4EF4FDECA57190B8_OFFSET UNITYSDK_OFFSET(0x1B9F5B70)
-#define RPG_GAMECORE_WOLFBROCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9F5D30)
+#define RPG_GAMECORE_WOLFBROCONFIG_METHOD_2_4EF4FDECA57190B8_OFFSET UNITYSDK_OFFSET(0x1D6B2890)
+#define RPG_GAMECORE_WOLFBROCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6B2A50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WolfBroConfig_TypeDefinitionIndex = 16339;
+	inline static constexpr unsigned int WolfBroConfig_TypeDefinitionIndex = 16827;
 
 	class WolfBroConfig : public ::RPG::GameCore::JsonConfig
 	{

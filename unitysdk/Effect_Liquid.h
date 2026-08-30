@@ -8,17 +8,17 @@
 namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class Renderer; }
 
-#define EFFECT_LIQUID_METHOD_5_18C814F7EBE15C92_OFFSET UNITYSDK_OFFSET(0x144C1A80)
-#define EFFECT_LIQUID_METHOD_5_35A1A641353400E6_OFFSET UNITYSDK_OFFSET(0x144C2860)
-#define EFFECT_LIQUID_METHOD_5_6BA807A89A617D97_OFFSET UNITYSDK_OFFSET(0x144C1B10)
-#define EFFECT_LIQUID_METHOD_5_8CA88D55ECEFAD59_1_OFFSET UNITYSDK_OFFSET(0x144C1950)
-#define EFFECT_LIQUID_METHOD_5_8CA88D55ECEFAD59_OFFSET UNITYSDK_OFFSET(0x144C17E0)
-#define EFFECT_LIQUID_METHOD_5_C0ED0C6E5E939750_OFFSET UNITYSDK_OFFSET(0x144C26E0)
-#define EFFECT_LIQUID_START_OFFSET UNITYSDK_OFFSET(0x144C1790)
-#define EFFECT_LIQUID_UPDATE_OFFSET UNITYSDK_OFFSET(0x144C1C20)
-#define EFFECT_LIQUID__CTOR_OFFSET UNITYSDK_OFFSET(0x144C2AB0)
+#define EFFECT_LIQUID_METHOD_5_18C814F7EBE15C92_OFFSET UNITYSDK_OFFSET(0x152F30D0)
+#define EFFECT_LIQUID_METHOD_5_35A1A641353400E6_OFFSET UNITYSDK_OFFSET(0x152F3EB0)
+#define EFFECT_LIQUID_METHOD_5_6BA807A89A617D97_OFFSET UNITYSDK_OFFSET(0x152F3160)
+#define EFFECT_LIQUID_METHOD_5_8CA88D55ECEFAD59_1_OFFSET UNITYSDK_OFFSET(0x152F2FA0)
+#define EFFECT_LIQUID_METHOD_5_8CA88D55ECEFAD59_OFFSET UNITYSDK_OFFSET(0x152F2E30)
+#define EFFECT_LIQUID_METHOD_5_C0ED0C6E5E939750_OFFSET UNITYSDK_OFFSET(0x152F3D30)
+#define EFFECT_LIQUID_START_OFFSET UNITYSDK_OFFSET(0x152F2DE0)
+#define EFFECT_LIQUID_UPDATE_OFFSET UNITYSDK_OFFSET(0x152F3270)
+#define EFFECT_LIQUID__CTOR_OFFSET UNITYSDK_OFFSET(0x152F4100)
 
-inline static constexpr unsigned int Effect_Liquid_TypeDefinitionIndex = 45662;
+inline static constexpr unsigned int Effect_Liquid_TypeDefinitionIndex = 47913;
 
 class Effect_Liquid : public ::UnityEngine::MonoBehaviour
 {
@@ -31,24 +31,24 @@ public:
 	::System::Single DampingScale; // 0x34
 	::System::Single k; // 0x38
 	::System::Single OutForceClamp; // 0x3C
-	::Il2CppArray<::UnityEngine::Vector3>* Field_5_8; // 0x40
-	::Il2CppArray<::UnityEngine::Vector3>* Field_5_9; // 0x48
-	::Il2CppArray<::UnityEngine::Vector3>* Field_5_10; // 0x50
-	::Il2CppArray<::UnityEngine::Vector3>* Field_5_11; // 0x58
-	::Il2CppArray<::UnityEngine::Vector3>* Field_5_12; // 0x60
-	::Il2CppArray<::UnityEngine::Vector3>* Field_5_13; // 0x68
-	::Il2CppArray<::UnityEngine::Vector3>* Field_5_14; // 0x70
-	::Il2CppArray<::UnityEngine::Vector3>* Field_5_15; // 0x78
-	::UnityEngine::Vector3 Field_5_16; // 0x80
-	::UnityEngine::Vector3 Field_5_17; // 0x8C
-	::UnityEngine::Vector3 Field_5_18; // 0x98
-	::UnityEngine::Quaternion Field_5_19; // 0xA4
-	::System::Single Field_5_20; // 0xB4
-	::System::Single Field_5_21; // 0xB8
-	::UnityEngine::Vector3 Field_5_22; // 0xBC
-	::System::Single Field_5_23; // 0xC8
-	::UnityEngine::Renderer* Field_5_24; // 0xD0
-	::UnityEngine::MaterialPropertyBlock* Field_5_25; // 0xD8
+	::Il2CppArray<::UnityEngine::Vector3>* JAIBKGHGPML; // 0x40
+	::Il2CppArray<::UnityEngine::Vector3>* CPGBLFAMMHI; // 0x48
+	::Il2CppArray<::UnityEngine::Vector3>* HEGEMHEKBJG; // 0x50
+	::Il2CppArray<::UnityEngine::Vector3>* NOPAKCFBJLB; // 0x58
+	::Il2CppArray<::UnityEngine::Vector3>* EHAMFDOKMDE; // 0x60
+	::Il2CppArray<::UnityEngine::Vector3>* KFMDDEAELMI; // 0x68
+	::Il2CppArray<::UnityEngine::Vector3>* FKLOGPJNHDC; // 0x70
+	::Il2CppArray<::UnityEngine::Vector3>* AEEMOBDNNLC; // 0x78
+	::UnityEngine::Vector3 DGFFNHJOFKP; // 0x80
+	::UnityEngine::Vector3 DDOMPJAFJMA; // 0x8C
+	::UnityEngine::Vector3 NJLJMPNJBJM; // 0x98
+	::UnityEngine::Quaternion NODODOMHAGN; // 0xA4
+	::System::Single CMGAHOCIDDE; // 0xB4
+	::System::Single EHHIGCABMNJ; // 0xB8
+	::UnityEngine::Vector3 EDEJBLKNMNB; // 0xBC
+	::System::Single MHKPMPIFHIM; // 0xC8
+	::UnityEngine::Renderer* JAMDAALMOAL; // 0xD0
+	::UnityEngine::MaterialPropertyBlock* DNCLJJLAFKA; // 0xD8
 
 	::System::Void _ctor()
 	{

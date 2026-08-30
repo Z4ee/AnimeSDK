@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityPanelBtnGoClickReportGuideType_TypeDefinitionIndex = 58966;
+	inline static constexpr unsigned int ActivityPanelBtnGoClickReportGuideType_TypeDefinitionIndex = 61801;
 
 	enum class ActivityPanelBtnGoClickReportGuideType : ::System::Int32
 	{

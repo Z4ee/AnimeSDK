@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class ItemData; }
 
-#define RPG_CLIENT_AVATAREIDOLONHELPER_GETEIDOLONITEMID_OFFSET UNITYSDK_OFFSET(0xBDDE840)
-#define RPG_CLIENT_AVATAREIDOLONHELPER_GETEIDOLONUNLOCKITEMDATA_OFFSET UNITYSDK_OFFSET(0xBDDE660)
+#define RPG_CLIENT_AVATAREIDOLONHELPER_GETEIDOLONITEMID_OFFSET UNITYSDK_OFFSET(0xC806200)
+#define RPG_CLIENT_AVATAREIDOLONHELPER_GETEIDOLONUNLOCKITEMDATA_OFFSET UNITYSDK_OFFSET(0xC806020)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AvatarEidolonHelper_TypeDefinitionIndex = 59875;
+	inline static constexpr unsigned int AvatarEidolonHelper_TypeDefinitionIndex = 62721;
 
 	class AvatarEidolonHelper : public ::System::Object
 	{

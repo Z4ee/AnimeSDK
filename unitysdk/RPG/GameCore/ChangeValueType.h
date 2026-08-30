@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChangeValueType_TypeDefinitionIndex = 23822;
+	inline static constexpr unsigned int ChangeValueType_TypeDefinitionIndex = 24410;
 
 	enum class ChangeValueType : ::System::Int32
 	{

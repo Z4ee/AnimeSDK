@@ -13,41 +13,41 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MAZEBUFFROW_FROMBINARYWITHOUTNEW_OFFSET UNITYSDK_OFFSET(0x1B5D9C40)
-#define RPG_GAMECORE_MAZEBUFFROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B5DA490)
-#define RPG_GAMECORE_MAZEBUFFROW_FROMTABLEOFFSET_OFFSET UNITYSDK_OFFSET(0x1B5DB980)
-#define RPG_GAMECORE_MAZEBUFFROW_RESET_OFFSET UNITYSDK_OFFSET(0x1B5DB9E0)
-#define RPG_GAMECORE_MAZEBUFFROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5DBA30)
+#define RPG_GAMECORE_MAZEBUFFROW_FROMBINARYWITHOUTNEW_OFFSET UNITYSDK_OFFSET(0x1D256310)
+#define RPG_GAMECORE_MAZEBUFFROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D256B60)
+#define RPG_GAMECORE_MAZEBUFFROW_FROMTABLEOFFSET_OFFSET UNITYSDK_OFFSET(0x1D258050)
+#define RPG_GAMECORE_MAZEBUFFROW_RESET_OFFSET UNITYSDK_OFFSET(0x1D2580B0)
+#define RPG_GAMECORE_MAZEBUFFROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2580F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MazeBuffRow_TypeDefinitionIndex = 13504;
+	inline static constexpr unsigned int MazeBuffRow_TypeDefinitionIndex = 13921;
 
 	class MazeBuffRow : public ::System::Object
 	{
 	public:
-		::System::String* BuffIcon; // 0x10
-		::System::String* ModifierName; // 0x18
-		::System::String* BuffEffect; // 0x20
-		::System::String* InBattleBindingKey; // 0x28
+		::System::String* InBattleBindingKey; // 0x10
+		::System::String* BuffEffect; // 0x18
+		::System::String* ModifierName; // 0x20
+		::System::String* BuffIcon; // 0x28
 		::Il2CppArray<::RPG::GameCore::FixPoint>* ParamList; // 0x30
-		::RPG::Client::TextID BuffDescBattle; // 0x38
+		::RPG::Client::TextID BuffDesc; // 0x38
 		::System::UInt32 Lv; // 0x48
-		::RPG::GameCore::EnumStatusType MazeBuffIconType; // 0x4C
-		::RPG::GameCore::MazeBuffType MazeBuffType; // 0x50
-		::RPG::GameCore::MazeBuffInBattleBindingType InBattleBindingType; // 0x54
-		::RPG::Client::TextID BuffDesc; // 0x58
-		::RPG::GameCore::MazeBuffDisplayType DisplayType; // 0x68
-		::System::UInt32 MazeBuffPool; // 0x6C
+		::System::UInt32 BuffDescParamByAvatarSkillID; // 0x4C
+		::RPG::GameCore::MazeBuffInBattleBindingType InBattleBindingType; // 0x50
+		::RPG::GameCore::MazeBuffDisplayType DisplayType; // 0x54
+		::RPG::GameCore::EnumStatusType MazeBuffIconType; // 0x58
+		::RPG::Client::TextID BuffName; // 0x60
 		::System::UInt32 LvMax; // 0x70
-		::System::Boolean IsDisplayEnvInLevel; // 0x74
-		::RPG::GameCore::MazeBuffUseType UseType; // 0x78
-		::System::UInt32 BuffDescParamByAvatarSkillID; // 0x7C
-		::System::UInt32 BuffSeries; // 0x80
-		::RPG::Client::TextID BuffName; // 0x88
-		::System::UInt32 ID; // 0x98
-		::System::UInt32 BuffRarity; // 0x9C
-		::RPG::Client::TextID BuffSimpleDesc; // 0xA0
+		::RPG::GameCore::MazeBuffUseType UseType; // 0x74
+		::System::UInt32 BuffSeries; // 0x78
+		::RPG::GameCore::MazeBuffType MazeBuffType; // 0x7C
+		::RPG::Client::TextID BuffSimpleDesc; // 0x80
+		::RPG::Client::TextID BuffDescBattle; // 0x90
+		::System::UInt32 MazeBuffPool; // 0xA0
+		::System::UInt32 BuffRarity; // 0xA4
+		::System::Boolean IsDisplayEnvInLevel; // 0xA8
+		::System::UInt32 ID; // 0xAC
 
 		::System::Void _ctor()
 		{

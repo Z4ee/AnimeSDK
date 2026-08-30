@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EAdventureAppearMode_TypeDefinitionIndex = 54444;
+	inline static constexpr unsigned int EAdventureAppearMode_TypeDefinitionIndex = 57165;
 
 	enum class EAdventureAppearMode : ::System::Int32
 	{

@@ -5,12 +5,12 @@
 namespace MiHoYo::SDK::HoYoPass { class LoginManager; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS46_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19D0A1A0)
-#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS46_0__ONHOYOPASSLOGSTRATEGYUPDATE_B__0_OFFSET UNITYSDK_OFFSET(0x19D14F50)
+#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS46_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B95F490)
+#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS46_0__ONHOYOPASSVERIFICATION_B__0_OFFSET UNITYSDK_OFFSET(0x1B96F3F0)
 
 namespace MiHoYo::SDK::HoYoPass
 {
-	inline static constexpr unsigned int LoginManager___c__DisplayClass46_0_TypeDefinitionIndex = 8273;
+	inline static constexpr unsigned int LoginManager___c__DisplayClass46_0_TypeDefinitionIndex = 8278;
 
 	class LoginManager___c__DisplayClass46_0 : public ::System::Object
 	{
@@ -23,9 +23,9 @@ namespace MiHoYo::SDK::HoYoPass
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS46_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _OnHoYoPassLogStrategyUpdate_b__0()
+		::System::Void _OnHoYoPassVerification_b__0()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS46_0__ONHOYOPASSLOGSTRATEGYUPDATE_B__0_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS46_0__ONHOYOPASSVERIFICATION_B__0_OFFSET))(this);
 		}
 	};
 }

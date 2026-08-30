@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetMunicipalStreamCenter; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_FEC36004FBA5BA92_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1442FC50)
-#define CLASS_3_FEC36004FBA5BA92__CTOR_OFFSET UNITYSDK_OFFSET(0x1442FC20)
+#define CLASS_3_FEC36004FBA5BA92_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15256F90)
+#define CLASS_3_FEC36004FBA5BA92__CTOR_OFFSET UNITYSDK_OFFSET(0x15256F60)
 
-inline static constexpr unsigned int Class_3_FEC36004FBA5BA92_TypeDefinitionIndex = 55936;
+inline static constexpr unsigned int Class_3_FEC36004FBA5BA92_TypeDefinitionIndex = 58708;
 
 class Class_3_FEC36004FBA5BA92 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetMunicipalStreamCenter*>
 {

@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FlagSwitch_1_TypeDefinitionIndex = 57253;
+	inline static constexpr unsigned int FlagSwitch_1_TypeDefinitionIndex = 60051;
 
 	template <typename T>
 	class FlagSwitch_1 : public ::System::Object

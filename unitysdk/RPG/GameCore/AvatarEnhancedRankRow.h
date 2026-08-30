@@ -5,23 +5,23 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_AVATARENHANCEDRANKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B1C4E80)
-#define RPG_GAMECORE_AVATARENHANCEDRANKROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1C5230)
+#define RPG_GAMECORE_AVATARENHANCEDRANKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CE3C3B0)
+#define RPG_GAMECORE_AVATARENHANCEDRANKROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE3C760)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AvatarEnhancedRankRow_TypeDefinitionIndex = 12312;
+	inline static constexpr unsigned int AvatarEnhancedRankRow_TypeDefinitionIndex = 12701;
 
 	class AvatarEnhancedRankRow : public ::System::Object
 	{
 	public:
 		::RPG::Client::TextID Comment01; // 0x10
-		::RPG::Client::TextID Comment02; // 0x20
-		::System::UInt32 RankID; // 0x30
-		::System::UInt32 AvatarID; // 0x34
-		::RPG::Client::TextID RankDescBefore; // 0x38
-		::RPG::Client::TextID RankDescAfter; // 0x48
-		::System::UInt32 CommentIndex; // 0x58
+		::System::UInt32 RankID; // 0x20
+		::System::UInt32 AvatarID; // 0x24
+		::RPG::Client::TextID Comment02; // 0x28
+		::RPG::Client::TextID RankDescAfter; // 0x38
+		::System::UInt32 CommentIndex; // 0x48
+		::RPG::Client::TextID RankDescBefore; // 0x50
 
 		::System::Void _ctor()
 		{

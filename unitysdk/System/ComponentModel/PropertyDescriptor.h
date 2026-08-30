@@ -9,21 +9,21 @@ namespace System { class Type; }
 namespace System::Collections { class IList; }
 namespace System::ComponentModel { class TypeConverter; }
 
-#define SYSTEM_COMPONENTMODEL_PROPERTYDESCRIPTOR_EQUALS_OFFSET UNITYSDK_OFFSET(0x1CC7B0E0)
-#define SYSTEM_COMPONENTMODEL_PROPERTYDESCRIPTOR_FILLATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x1CC7B300)
-#define SYSTEM_COMPONENTMODEL_PROPERTYDESCRIPTOR_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1CC7B310)
-#define SYSTEM_COMPONENTMODEL_PROPERTYDESCRIPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC7B0D0)
+#define SYSTEM_COMPONENTMODEL_PROPERTYDESCRIPTOR_EQUALS_OFFSET UNITYSDK_OFFSET(0x1E925D90)
+#define SYSTEM_COMPONENTMODEL_PROPERTYDESCRIPTOR_FILLATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x1E925FE0)
+#define SYSTEM_COMPONENTMODEL_PROPERTYDESCRIPTOR_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1E925FF0)
+#define SYSTEM_COMPONENTMODEL_PROPERTYDESCRIPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1E925D80)
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int PropertyDescriptor_TypeDefinitionIndex = 2610;
+	inline static constexpr unsigned int PropertyDescriptor_TypeDefinitionIndex = 2617;
 
 	class PropertyDescriptor : public ::System::ComponentModel::MemberDescriptor
 	{
 	public:
 		::System::ComponentModel::TypeConverter* converter; // 0x60
-		::Il2CppArray<::System::Type*>* editorTypes; // 0x68
-		::Il2CppArray<::System::Object*>* editors; // 0x70
+		::Il2CppArray<::System::Object*>* editors; // 0x68
+		::Il2CppArray<::System::Type*>* editorTypes; // 0x70
 		::System::Int32 editorCount; // 0x78
 
 		::System::Void _ctor(::System::String* a1, ::Il2CppArray<::System::Attribute*>* a2)

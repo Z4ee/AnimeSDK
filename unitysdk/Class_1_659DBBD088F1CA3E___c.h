@@ -6,27 +6,27 @@ class Class_2_AEE59ED8DADEC1A1;
 namespace RPG::GameCore { class DiceCombatV2SingleDialogPerformance; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define CLASS_1_659DBBD088F1CA3E___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A516840)
-#define CLASS_1_659DBBD088F1CA3E___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A516880)
-#define CLASS_1_659DBBD088F1CA3E___C__SELECTDIALOGPERFORMANCETOPLAY_B__17_0_OFFSET UNITYSDK_OFFSET(0x1A5168D0)
-#define CLASS_1_659DBBD088F1CA3E___C___ISGENDERMATCHED_B__10_0_OFFSET UNITYSDK_OFFSET(0x1A516890)
+#define CLASS_1_659DBBD088F1CA3E___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C126590)
+#define CLASS_1_659DBBD088F1CA3E___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1C1265D0)
+#define CLASS_1_659DBBD088F1CA3E___C__SELECTDIALOGPERFORMANCETOPLAY_B__17_0_OFFSET UNITYSDK_OFFSET(0x1C126620)
+#define CLASS_1_659DBBD088F1CA3E___C___ISGENDERMATCHED_B__10_0_OFFSET UNITYSDK_OFFSET(0x1C1265E0)
 
-inline static constexpr unsigned int Class_1_659DBBD088F1CA3E___c_TypeDefinitionIndex = 34927;
+inline static constexpr unsigned int Class_1_659DBBD088F1CA3E___c_TypeDefinitionIndex = 35788;
 
 class Class_1_659DBBD088F1CA3E___c : public ::System::Object
 {
 public:
 	static ::System::Func_2<::Class_2_AEE59ED8DADEC1A1*, ::System::Boolean>** StaticGet___9__10_0()
 	{
-		return (::System::Func_2<::Class_2_AEE59ED8DADEC1A1*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_659DBBD088F1CA3E___c_TypeDefinitionIndex)->GetStaticField(0x51590);
-	}
-	static ::Class_1_659DBBD088F1CA3E___c** StaticGet___9()
-	{
-		return (::Class_1_659DBBD088F1CA3E___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_659DBBD088F1CA3E___c_TypeDefinitionIndex)->GetStaticField(0x51598);
+		return (::System::Func_2<::Class_2_AEE59ED8DADEC1A1*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_659DBBD088F1CA3E___c_TypeDefinitionIndex)->GetStaticField(0xE290);
 	}
 	static ::System::Func_2<::RPG::GameCore::DiceCombatV2SingleDialogPerformance*, ::System::Int32>** StaticGet___9__17_0()
 	{
-		return (::System::Func_2<::RPG::GameCore::DiceCombatV2SingleDialogPerformance*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_659DBBD088F1CA3E___c_TypeDefinitionIndex)->GetStaticField(0x515A0);
+		return (::System::Func_2<::RPG::GameCore::DiceCombatV2SingleDialogPerformance*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_659DBBD088F1CA3E___c_TypeDefinitionIndex)->GetStaticField(0xE298);
+	}
+	static ::Class_1_659DBBD088F1CA3E___c** StaticGet___9()
+	{
+		return (::Class_1_659DBBD088F1CA3E___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_659DBBD088F1CA3E___c_TypeDefinitionIndex)->GetStaticField(0xE2A0);
 	}
 
 	static ::System::Void _cctor()

@@ -5,19 +5,19 @@
 namespace RPG::GameCore { class AdventureCharacterFloatingConfig; }
 namespace System { class String; }
 
-#define CLASS_3_5BC81A09635C2756_METHOD_3_06A2B758FCB8A24E_OFFSET UNITYSDK_OFFSET(0x1525C870)
-#define CLASS_3_5BC81A09635C2756_METHOD_3_DD097FF280AB68FC_OFFSET UNITYSDK_OFFSET(0x1525C7B0)
-#define CLASS_3_5BC81A09635C2756__CTOR_OFFSET UNITYSDK_OFFSET(0x1525C910)
+#define CLASS_3_5BC81A09635C2756_METHOD_3_06A2B758FCB8A24E_OFFSET UNITYSDK_OFFSET(0x161C9090)
+#define CLASS_3_5BC81A09635C2756_METHOD_3_DD097FF280AB68FC_OFFSET UNITYSDK_OFFSET(0x161C8FD0)
+#define CLASS_3_5BC81A09635C2756__CTOR_OFFSET UNITYSDK_OFFSET(0x161C9130)
 
-inline static constexpr unsigned int Class_3_5BC81A09635C2756_TypeDefinitionIndex = 46177;
+inline static constexpr unsigned int Class_3_5BC81A09635C2756_TypeDefinitionIndex = 48411;
 
 class Class_3_5BC81A09635C2756 : public ::RPGTools::Timeline::CustomEventBehaviour
 {
 public:
-	::RPG::GameCore::AdventureCharacterFloatingConfig* Field_3_0; // 0x20
-	::System::String* Field_3_1; // 0x28
-	::System::String* Field_3_2; // 0x30
-	::System::Boolean Field_3_3; // 0x38
+	::RPG::GameCore::AdventureCharacterFloatingConfig* EABKOHGCHFP; // 0x20
+	::System::String* BJCBMNHOAGO; // 0x28
+	::System::String* PPADBOEOBBB; // 0x30
+	::System::Boolean OLKJHCDPIPB; // 0x38
 
 	::System::Void _ctor()
 	{

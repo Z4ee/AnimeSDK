@@ -1,0 +1,81 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/TextID.h"
+#include "unitysdk/RPG/GameCore/FixPoint.h"
+#include "unitysdk/System/Object.h"
+
+namespace RPG::Client { class ExpeditionBattleBuff; }
+namespace System { class String; }
+
+#define RPG_CLIENT_EXPEDITIONBATTLEBUFFRECORDVIEWMODEL_GET_BUFFDATAISPERCENT_OFFSET UNITYSDK_OFFSET(0xCEF74D0)
+#define RPG_CLIENT_EXPEDITIONBATTLEBUFFRECORDVIEWMODEL_GET_BUFFDESC_OFFSET UNITYSDK_OFFSET(0xCEF7390)
+#define RPG_CLIENT_EXPEDITIONBATTLEBUFFRECORDVIEWMODEL_GET_BUFFICON_OFFSET UNITYSDK_OFFSET(0xCEF7280)
+#define RPG_CLIENT_EXPEDITIONBATTLEBUFFRECORDVIEWMODEL_GET_BUFFNAME_OFFSET UNITYSDK_OFFSET(0xCEF72D0)
+#define RPG_CLIENT_EXPEDITIONBATTLEBUFFRECORDVIEWMODEL_GET_BUFFPARAMS_OFFSET UNITYSDK_OFFSET(0xCEF73F0)
+#define RPG_CLIENT_EXPEDITIONBATTLEBUFFRECORDVIEWMODEL_GET_BUFFRANKDESC_OFFSET UNITYSDK_OFFSET(0xCEF7330)
+#define RPG_CLIENT_EXPEDITIONBATTLEBUFFRECORDVIEWMODEL_GET_BUFFRANK_OFFSET UNITYSDK_OFFSET(0xCEF7480)
+#define RPG_CLIENT_EXPEDITIONBATTLEBUFFRECORDVIEWMODEL_GET_BUFFVALUE_OFFSET UNITYSDK_OFFSET(0xCEF7440)
+#define RPG_CLIENT_EXPEDITIONBATTLEBUFFRECORDVIEWMODEL_GET_ISSPECIAL_OFFSET UNITYSDK_OFFSET(0xCEF7520)
+#define RPG_CLIENT_EXPEDITIONBATTLEBUFFRECORDVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xCEF7580)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int ExpeditionBattleBuffRecordViewModel_TypeDefinitionIndex = 64004;
+
+	class ExpeditionBattleBuffRecordViewModel : public ::System::Object
+	{
+	public:
+		::RPG::Client::ExpeditionBattleBuff* _Buff; // 0x10
+		::System::UInt64 _BuffValue; // 0x18
+
+		::System::Void _ctor(::RPG::Client::ExpeditionBattleBuff* a1, ::System::UInt64 a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ExpeditionBattleBuff*, ::System::UInt64))((::PBYTE)hIl2Cpp + RPG_CLIENT_EXPEDITIONBATTLEBUFFRECORDVIEWMODEL__CTOR_OFFSET))(this, a1, a2);
+		}
+
+		::System::String* get_BuffIcon()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EXPEDITIONBATTLEBUFFRECORDVIEWMODEL_GET_BUFFICON_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_BuffName()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EXPEDITIONBATTLEBUFFRECORDVIEWMODEL_GET_BUFFNAME_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_BuffRankDesc()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EXPEDITIONBATTLEBUFFRECORDVIEWMODEL_GET_BUFFRANKDESC_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_BuffDesc()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EXPEDITIONBATTLEBUFFRECORDVIEWMODEL_GET_BUFFDESC_OFFSET))(this);
+		}
+
+		::Il2CppArray<::RPG::GameCore::FixPoint>* get_BuffParams()
+		{
+			return ((::Il2CppArray<::RPG::GameCore::FixPoint>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EXPEDITIONBATTLEBUFFRECORDVIEWMODEL_GET_BUFFPARAMS_OFFSET))(this);
+		}
+
+		::System::UInt64 get_BuffValue()
+		{
+			return ((::System::UInt64(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EXPEDITIONBATTLEBUFFRECORDVIEWMODEL_GET_BUFFVALUE_OFFSET))(this);
+		}
+
+		::System::UInt64 get_BuffRank()
+		{
+			return ((::System::UInt64(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EXPEDITIONBATTLEBUFFRECORDVIEWMODEL_GET_BUFFRANK_OFFSET))(this);
+		}
+
+		::System::Boolean get_BuffDataIsPercent()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EXPEDITIONBATTLEBUFFRECORDVIEWMODEL_GET_BUFFDATAISPERCENT_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsSpecial()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EXPEDITIONBATTLEBUFFRECORDVIEWMODEL_GET_ISSPECIAL_OFFSET))(this);
+		}
+	};
+}

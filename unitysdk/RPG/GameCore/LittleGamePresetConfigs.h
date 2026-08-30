@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class LittleGameEntityPreset; }
 
-#define RPG_GAMECORE_LITTLEGAMEPRESETCONFIGS_METHOD_2_D99EB94DD1EB7C29_OFFSET UNITYSDK_OFFSET(0x1B589D70)
-#define RPG_GAMECORE_LITTLEGAMEPRESETCONFIGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1B589E90)
+#define RPG_GAMECORE_LITTLEGAMEPRESETCONFIGS_METHOD_2_D99EB94DD1EB7C29_OFFSET UNITYSDK_OFFSET(0x1D2051F0)
+#define RPG_GAMECORE_LITTLEGAMEPRESETCONFIGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D205310)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LittleGamePresetConfigs_TypeDefinitionIndex = 18174;
+	inline static constexpr unsigned int LittleGamePresetConfigs_TypeDefinitionIndex = 18698;
 
 	class LittleGamePresetConfigs : public ::RPG::GameCore::JsonConfig
 	{

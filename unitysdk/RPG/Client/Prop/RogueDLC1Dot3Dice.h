@@ -8,28 +8,28 @@
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_PROP_ROGUEDLC1DOT3DICE_DESPAWNED_OFFSET UNITYSDK_OFFSET(0xD1FEFD0)
-#define RPG_CLIENT_PROP_ROGUEDLC1DOT3DICE_METHOD_5_7646FFE662147970_OFFSET UNITYSDK_OFFSET(0xD1FEDA0)
-#define RPG_CLIENT_PROP_ROGUEDLC1DOT3DICE_METHOD_5_AA169839CB93802A_OFFSET UNITYSDK_OFFSET(0xD1FE4A0)
-#define RPG_CLIENT_PROP_ROGUEDLC1DOT3DICE_METHOD_5_B7F8E0B4AF22DEA3_OFFSET UNITYSDK_OFFSET(0xD1FE8D0)
-#define RPG_CLIENT_PROP_ROGUEDLC1DOT3DICE_RESETDICE_OFFSET UNITYSDK_OFFSET(0xD1FE840)
-#define RPG_CLIENT_PROP_ROGUEDLC1DOT3DICE_SPAWNED_OFFSET UNITYSDK_OFFSET(0xD1FEF50)
-#define RPG_CLIENT_PROP_ROGUEDLC1DOT3DICE_STARTROTATE_1_OFFSET UNITYSDK_OFFSET(0xD1FEE00)
-#define RPG_CLIENT_PROP_ROGUEDLC1DOT3DICE_STARTROTATE_OFFSET UNITYSDK_OFFSET(0xD1FE5F0)
-#define RPG_CLIENT_PROP_ROGUEDLC1DOT3DICE_UPDATE_OFFSET UNITYSDK_OFFSET(0xD1FE420)
-#define RPG_CLIENT_PROP_ROGUEDLC1DOT3DICE__CCTOR_OFFSET UNITYSDK_OFFSET(0xD200A30)
-#define RPG_CLIENT_PROP_ROGUEDLC1DOT3DICE__CTOR_OFFSET UNITYSDK_OFFSET(0xD1FF040)
+#define RPG_CLIENT_PROP_ROGUEDLC1DOT3DICE_DESPAWNED_OFFSET UNITYSDK_OFFSET(0xDD03A20)
+#define RPG_CLIENT_PROP_ROGUEDLC1DOT3DICE_METHOD_5_7646FFE662147970_OFFSET UNITYSDK_OFFSET(0xDD037F0)
+#define RPG_CLIENT_PROP_ROGUEDLC1DOT3DICE_METHOD_5_AA169839CB93802A_OFFSET UNITYSDK_OFFSET(0xDD02EF0)
+#define RPG_CLIENT_PROP_ROGUEDLC1DOT3DICE_METHOD_5_B7F8E0B4AF22DEA3_OFFSET UNITYSDK_OFFSET(0xDD03320)
+#define RPG_CLIENT_PROP_ROGUEDLC1DOT3DICE_RESETDICE_OFFSET UNITYSDK_OFFSET(0xDD03290)
+#define RPG_CLIENT_PROP_ROGUEDLC1DOT3DICE_SPAWNED_OFFSET UNITYSDK_OFFSET(0xDD039A0)
+#define RPG_CLIENT_PROP_ROGUEDLC1DOT3DICE_STARTROTATE_1_OFFSET UNITYSDK_OFFSET(0xDD03850)
+#define RPG_CLIENT_PROP_ROGUEDLC1DOT3DICE_STARTROTATE_OFFSET UNITYSDK_OFFSET(0xDD03040)
+#define RPG_CLIENT_PROP_ROGUEDLC1DOT3DICE_UPDATE_OFFSET UNITYSDK_OFFSET(0xDD02E70)
+#define RPG_CLIENT_PROP_ROGUEDLC1DOT3DICE__CCTOR_OFFSET UNITYSDK_OFFSET(0xDD05480)
+#define RPG_CLIENT_PROP_ROGUEDLC1DOT3DICE__CTOR_OFFSET UNITYSDK_OFFSET(0xDD03A90)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int RogueDLC1Dot3Dice_TypeDefinitionIndex = 74995;
+	inline static constexpr unsigned int RogueDLC1Dot3Dice_TypeDefinitionIndex = 78480;
 
 	class RogueDLC1Dot3Dice : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::System::Single* StaticGet_Field_5_0()
+		static ::System::Single* StaticGet_DCIBODDDBEL()
 		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(RogueDLC1Dot3Dice_TypeDefinitionIndex)->GetStaticField(0x4790);
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(RogueDLC1Dot3Dice_TypeDefinitionIndex)->GetStaticField(0x14E70);
 		}
 		::System::Int32 RotateRound; // 0x18
 		::System::Int32 RerollRotateRound; // 0x1C
@@ -39,23 +39,23 @@ namespace RPG::Client::Prop
 		::System::Int32 TargetIndex; // 0x2C
 		::UnityEngine::AnimationCurve* StretchCurve; // 0x30
 		::UnityEngine::AnimationCurve* RerollStretchCurve; // 0x38
-		::UnityEngine::Quaternion Field_5_9; // 0x40
-		::RPG::Client::Prop::RogueDLC1Dot3Dice_Phase Field_5_10; // 0x50
-		::System::Single Field_5_11; // 0x54
-		::System::Int32 Field_5_12; // 0x58
-		::UnityEngine::AnimationCurve* Field_5_13; // 0x60
-		::System::Int32 Field_5_14; // 0x68
-		::System::Single Field_5_15; // 0x6C
-		::System::Single Field_5_16; // 0x70
-		::System::Single Field_5_17; // 0x74
-		::UnityEngine::Vector3 Field_5_18; // 0x78
-		::UnityEngine::Vector3 Field_5_19; // 0x84
-		::UnityEngine::Vector3 Field_5_20; // 0x90
-		::UnityEngine::Vector3 Field_5_21; // 0x9C
-		::UnityEngine::Vector3 Field_5_22; // 0xA8
-		::UnityEngine::Vector3 Field_5_23; // 0xB4
-		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* Field_5_24; // 0xC0
-		::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::UnityEngine::Vector3>*>* Field_5_25; // 0xC8
+		::UnityEngine::Quaternion MJLMPONJALF; // 0x40
+		::RPG::Client::Prop::RogueDLC1Dot3Dice_Phase KAEFGGECBDO; // 0x50
+		::System::Single DNEAPBILMFH; // 0x54
+		::System::Int32 ILLABOABODJ; // 0x58
+		::UnityEngine::AnimationCurve* ILAAPIFJEGL; // 0x60
+		::System::Int32 AJHCOEBHBKI; // 0x68
+		::System::Single MLJHEPFKDOG; // 0x6C
+		::System::Single FFGIMFJILCG; // 0x70
+		::System::Single KMHPABMAHGG; // 0x74
+		::UnityEngine::Vector3 CFMGDONGJNH; // 0x78
+		::UnityEngine::Vector3 KHBBEIPDPJL; // 0x84
+		::UnityEngine::Vector3 NKJIPJBCAPA; // 0x90
+		::UnityEngine::Vector3 BECMDKFMBCP; // 0x9C
+		::UnityEngine::Vector3 EGEMNJMINKL; // 0xA8
+		::UnityEngine::Vector3 DDCDAGJGLPM; // 0xB4
+		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* JKJGJHJPFFB; // 0xC0
+		::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::UnityEngine::Vector3>*>* KIMIJDFMFPD; // 0xC8
 
 		::System::Void _ctor()
 		{

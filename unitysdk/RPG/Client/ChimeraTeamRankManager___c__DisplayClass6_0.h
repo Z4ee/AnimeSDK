@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class ChimeraTeamData; }
 
-#define RPG_CLIENT_CHIMERATEAMRANKMANAGER___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC162090)
-#define RPG_CLIENT_CHIMERATEAMRANKMANAGER___C__DISPLAYCLASS6_0__GETCHIMERATEAMDATA_B__0_OFFSET UNITYSDK_OFFSET(0xC163080)
+#define RPG_CLIENT_CHIMERATEAMRANKMANAGER___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCC17790)
+#define RPG_CLIENT_CHIMERATEAMRANKMANAGER___C__DISPLAYCLASS6_0__GETCHIMERATEAMDATA_B__0_OFFSET UNITYSDK_OFFSET(0xCC18780)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraTeamRankManager___c__DisplayClass6_0_TypeDefinitionIndex = 60651;
+	inline static constexpr unsigned int ChimeraTeamRankManager___c__DisplayClass6_0_TypeDefinitionIndex = 63504;
 
 	class ChimeraTeamRankManager___c__DisplayClass6_0 : public ::System::Object
 	{

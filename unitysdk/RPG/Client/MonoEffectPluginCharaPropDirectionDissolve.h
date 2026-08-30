@@ -13,14 +13,14 @@ namespace UnityEngine { class Renderer; }
 namespace UnityEngine { class Shader; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPDIRECTIONDISSOLVE_INIT_OFFSET UNITYSDK_OFFSET(0xCC99870)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPDIRECTIONDISSOLVE_UNINIT_OFFSET UNITYSDK_OFFSET(0xCC99910)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPDIRECTIONDISSOLVE_UPDATEPROPERTY_OFFSET UNITYSDK_OFFSET(0xCC99960)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPDIRECTIONDISSOLVE__CTOR_OFFSET UNITYSDK_OFFSET(0xCC9A770)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPDIRECTIONDISSOLVE_INIT_OFFSET UNITYSDK_OFFSET(0xD798E10)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPDIRECTIONDISSOLVE_UNINIT_OFFSET UNITYSDK_OFFSET(0xD798EB0)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPDIRECTIONDISSOLVE_UPDATEPROPERTY_OFFSET UNITYSDK_OFFSET(0xD798F00)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPDIRECTIONDISSOLVE__CTOR_OFFSET UNITYSDK_OFFSET(0xD799D10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginCharaPropDirectionDissolve_TypeDefinitionIndex = 66818;
+	inline static constexpr unsigned int MonoEffectPluginCharaPropDirectionDissolve_TypeDefinitionIndex = 69920;
 
 	class MonoEffectPluginCharaPropDirectionDissolve : public ::RPG::Client::MonoEffectPluginCharaPropBase
 	{
@@ -39,7 +39,7 @@ namespace RPG::Client
 		::UnityEngine::Color DissolveOutlineColor2; // 0x80
 		::System::Boolean Toggle_DissolveOutlineSmoothStep; // 0x90
 		::UnityEngine::Vector2 DissolveOutlineSmoothStep; // 0x94
-		::Il2CppArray<::System::Boolean>* Field_6_14; // 0xA0
+		::Il2CppArray<::System::Boolean>* JAAFPHPEJOJ; // 0xA0
 
 		::System::Void _ctor()
 		{

@@ -6,17 +6,17 @@
 namespace RPG { template <typename T1, typename T2> class PoolDictionary_2; }
 namespace System { class String; }
 
-#define CLASS_1_69C7B9DFD5B449A1_CLEAR_OFFSET UNITYSDK_OFFSET(0x1A7173F0)
-#define CLASS_1_69C7B9DFD5B449A1_METHOD_1_1D1B889025773E2C_OFFSET UNITYSDK_OFFSET(0x1A717240)
-#define CLASS_1_69C7B9DFD5B449A1__CTOR_OFFSET UNITYSDK_OFFSET(0x1A717450)
+#define CLASS_1_69C7B9DFD5B449A1_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C327540)
+#define CLASS_1_69C7B9DFD5B449A1_METHOD_1_1D1B889025773E2C_OFFSET UNITYSDK_OFFSET(0x1C327390)
+#define CLASS_1_69C7B9DFD5B449A1__CTOR_OFFSET UNITYSDK_OFFSET(0x1C3275A0)
 
-inline static constexpr unsigned int Class_1_69C7B9DFD5B449A1_TypeDefinitionIndex = 40701;
+inline static constexpr unsigned int Class_1_69C7B9DFD5B449A1_TypeDefinitionIndex = 41654;
 
 class Class_1_69C7B9DFD5B449A1 : public ::System::Object
 {
 public:
-	::RPG::PoolDictionary_2<::System::String*, ::RPG::Client::LittleGame::FiveDim::ComponentInvisibleReason>* Field_1_0; // 0x10
-	::RPG::Client::LittleGame::FiveDim::ComponentInvisibleReason Field_1_1; // 0x18
+	::RPG::PoolDictionary_2<::System::String*, ::RPG::Client::LittleGame::FiveDim::ComponentInvisibleReason>* BGDHPALMHEL; // 0x10
+	::RPG::Client::LittleGame::FiveDim::ComponentInvisibleReason ALHKDENIFKH; // 0x18
 
 	::System::Void _ctor()
 	{

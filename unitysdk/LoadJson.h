@@ -4,9 +4,9 @@
 
 namespace System { class String; }
 
-#define LOADJSON__CTOR_OFFSET UNITYSDK_OFFSET(0xAFC5C50)
+#define LOADJSON__CTOR_OFFSET UNITYSDK_OFFSET(0xB97EED0)
 
-inline static constexpr unsigned int LoadJson_TypeDefinitionIndex = 45800;
+inline static constexpr unsigned int LoadJson_TypeDefinitionIndex = 48052;
 
 class LoadJson : public ::UnityEngine::MonoBehaviour
 {

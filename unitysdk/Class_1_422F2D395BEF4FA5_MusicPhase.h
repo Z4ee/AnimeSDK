@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Class_1_422F2D395BEF4FA5_MusicPhase_TypeDefinitionIndex = 57480;
+inline static constexpr unsigned int Class_1_422F2D395BEF4FA5_MusicPhase_TypeDefinitionIndex = 60297;
 
 enum class Class_1_422F2D395BEF4FA5_MusicPhase : ::System::Int32
 {

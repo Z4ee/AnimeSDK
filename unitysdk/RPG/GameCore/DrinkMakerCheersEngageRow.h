@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_DRINKMAKERCHEERSENGAGEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B3C06A0)
-#define RPG_GAMECORE_DRINKMAKERCHEERSENGAGEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3C0910)
+#define RPG_GAMECORE_DRINKMAKERCHEERSENGAGEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D03EA50)
+#define RPG_GAMECORE_DRINKMAKERCHEERSENGAGEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D03ECC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DrinkMakerCheersEngageRow_TypeDefinitionIndex = 12710;
+	inline static constexpr unsigned int DrinkMakerCheersEngageRow_TypeDefinitionIndex = 13101;
 
 	class DrinkMakerCheersEngageRow : public ::System::Object
 	{

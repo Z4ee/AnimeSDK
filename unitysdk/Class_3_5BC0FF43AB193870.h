@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class InfiniteWaveSortByActivity340; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_5BC0FF43AB193870_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB3BB4D0)
-#define CLASS_3_5BC0FF43AB193870__CTOR_OFFSET UNITYSDK_OFFSET(0xB3BB4A0)
+#define CLASS_3_5BC0FF43AB193870_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBD4FBC0)
+#define CLASS_3_5BC0FF43AB193870__CTOR_OFFSET UNITYSDK_OFFSET(0xBD4FB90)
 
-inline static constexpr unsigned int Class_3_5BC0FF43AB193870_TypeDefinitionIndex = 52633;
+inline static constexpr unsigned int Class_3_5BC0FF43AB193870_TypeDefinitionIndex = 55332;
 
 class Class_3_5BC0FF43AB193870 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::InfiniteWaveSortByActivity340*>
 {

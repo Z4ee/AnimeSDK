@@ -7,25 +7,25 @@ namespace RPG::GameCore { class AdventureCharacterFloatingTemplateConfigs; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_AB63D022BB2ED992_METHOD_1_5151C030EB44257F_OFFSET UNITYSDK_OFFSET(0xD5D0E20)
-#define CLASS_1_AB63D022BB2ED992_METHOD_1_5790A55946AA509D_OFFSET UNITYSDK_OFFSET(0xD5D0D80)
-#define CLASS_1_AB63D022BB2ED992_METHOD_1_BF5E2DCAE0BF038A_OFFSET UNITYSDK_OFFSET(0xD5D0B60)
-#define CLASS_1_AB63D022BB2ED992_METHOD_1_F8C7231308CD2C82_OFFSET UNITYSDK_OFFSET(0xD5D0DD0)
+#define CLASS_1_AB63D022BB2ED992_METHOD_1_5151C030EB44257F_OFFSET UNITYSDK_OFFSET(0xE2CFA80)
+#define CLASS_1_AB63D022BB2ED992_METHOD_1_5790A55946AA509D_OFFSET UNITYSDK_OFFSET(0xE2CF9E0)
+#define CLASS_1_AB63D022BB2ED992_METHOD_1_BF5E2DCAE0BF038A_OFFSET UNITYSDK_OFFSET(0xE2CF7C0)
+#define CLASS_1_AB63D022BB2ED992_METHOD_1_F8C7231308CD2C82_OFFSET UNITYSDK_OFFSET(0xE2CFA30)
 
-inline static constexpr unsigned int Class_1_AB63D022BB2ED992_TypeDefinitionIndex = 69950;
+inline static constexpr unsigned int Class_1_AB63D022BB2ED992_TypeDefinitionIndex = 73207;
 
 class Class_1_AB63D022BB2ED992 : public ::System::Object
 {
 public:
-	static ::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::AdventureCharacterFloatingTemplateConfig*>** StaticGet_Field_1_0()
+	static ::RPG::GameCore::AdventureCharacterFloatingTemplateConfigs** StaticGet_IGHAHBNLIJA()
 	{
-		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::AdventureCharacterFloatingTemplateConfig*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_AB63D022BB2ED992_TypeDefinitionIndex)->GetStaticField(0x631F0);
+		return (::RPG::GameCore::AdventureCharacterFloatingTemplateConfigs**)Il2CppClass::FromTypeDefinitionIndex(Class_1_AB63D022BB2ED992_TypeDefinitionIndex)->GetStaticField(0x67270);
 	}
-	static ::RPG::GameCore::AdventureCharacterFloatingTemplateConfigs** StaticGet_Field_1_1()
+	static ::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::AdventureCharacterFloatingTemplateConfig*>** StaticGet_GMIOIPNILMI()
 	{
-		return (::RPG::GameCore::AdventureCharacterFloatingTemplateConfigs**)Il2CppClass::FromTypeDefinitionIndex(Class_1_AB63D022BB2ED992_TypeDefinitionIndex)->GetStaticField(0x631F8);
+		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::AdventureCharacterFloatingTemplateConfig*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_AB63D022BB2ED992_TypeDefinitionIndex)->GetStaticField(0x67278);
 	}
-	// static const ::System::String* Field_1_2; // 0x0
+	// static const ::System::String* ICEPLFPKAHC; // 0x0
 
 	static ::System::Void Method_1_BF5E2DCAE0BF038A()
 	{

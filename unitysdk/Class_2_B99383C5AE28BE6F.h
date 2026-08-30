@@ -5,18 +5,18 @@
 namespace System { class String; }
 namespace UnityEngine { class RectTransform; }
 
-#define CLASS_2_B99383C5AE28BE6F_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xC245A40)
-#define CLASS_2_B99383C5AE28BE6F_METHOD_2_DA1BF2C227DC3D86_OFFSET UNITYSDK_OFFSET(0xC2459F0)
-#define CLASS_2_B99383C5AE28BE6F__CTOR_OFFSET UNITYSDK_OFFSET(0xC245AD0)
+#define CLASS_2_B99383C5AE28BE6F_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xCCDC270)
+#define CLASS_2_B99383C5AE28BE6F_METHOD_2_DA1BF2C227DC3D86_OFFSET UNITYSDK_OFFSET(0xCCDC220)
+#define CLASS_2_B99383C5AE28BE6F__CTOR_OFFSET UNITYSDK_OFFSET(0xCCDC300)
 
-inline static constexpr unsigned int Class_2_B99383C5AE28BE6F_TypeDefinitionIndex = 69213;
+inline static constexpr unsigned int Class_2_B99383C5AE28BE6F_TypeDefinitionIndex = 72413;
 
 class Class_2_B99383C5AE28BE6F : public ::Class_1_A167209E71412818
 {
 public:
-	::UnityEngine::RectTransform* Field_2_0; // 0x18
-	::UnityEngine::RectTransform* Field_2_1; // 0x20
-	::UnityEngine::RectTransform* Field_2_2; // 0x28
+	::UnityEngine::RectTransform* AJJDFOMKAGF; // 0x18
+	::UnityEngine::RectTransform* ADDAFGMEKBJ; // 0x20
+	::UnityEngine::RectTransform* GMIHBHIFIJF; // 0x28
 
 	::System::Void _ctor()
 	{

@@ -10,28 +10,28 @@ namespace RPG::GameCore { class RogueDLC1Dot3AdventureRoomManage; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_D62D971476946AF9_DISPOSE_OFFSET UNITYSDK_OFFSET(0xAEA4780)
-#define CLASS_2_D62D971476946AF9_METHOD_2_7AB2A7695E303980_OFFSET UNITYSDK_OFFSET(0xAEA4C60)
-#define CLASS_2_D62D971476946AF9_METHOD_2_D754D5F3490FC4F3_OFFSET UNITYSDK_OFFSET(0xAEA7130)
-#define CLASS_2_D62D971476946AF9_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xAEA4820)
-#define CLASS_2_D62D971476946AF9_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xAEA70E0)
-#define CLASS_2_D62D971476946AF9_TICK_OFFSET UNITYSDK_OFFSET(0xAEA47C0)
-#define CLASS_2_D62D971476946AF9__CCTOR_OFFSET UNITYSDK_OFFSET(0xAEA7650)
-#define CLASS_2_D62D971476946AF9__CTOR_OFFSET UNITYSDK_OFFSET(0xAEA4730)
+#define CLASS_2_D62D971476946AF9_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB84A050)
+#define CLASS_2_D62D971476946AF9_METHOD_2_7AB2A7695E303980_OFFSET UNITYSDK_OFFSET(0xB84A530)
+#define CLASS_2_D62D971476946AF9_METHOD_2_D754D5F3490FC4F3_OFFSET UNITYSDK_OFFSET(0xB84CA30)
+#define CLASS_2_D62D971476946AF9_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB84A0F0)
+#define CLASS_2_D62D971476946AF9_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB84C9E0)
+#define CLASS_2_D62D971476946AF9_TICK_OFFSET UNITYSDK_OFFSET(0xB84A090)
+#define CLASS_2_D62D971476946AF9__CCTOR_OFFSET UNITYSDK_OFFSET(0xB84CF50)
+#define CLASS_2_D62D971476946AF9__CTOR_OFFSET UNITYSDK_OFFSET(0xB84A000)
 
-inline static constexpr unsigned int Class_2_D62D971476946AF9_TypeDefinitionIndex = 55829;
+inline static constexpr unsigned int Class_2_D62D971476946AF9_TypeDefinitionIndex = 58595;
 
 class Class_2_D62D971476946AF9 : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	static ::System::Collections::Generic::List_1<::UnityEngine::Vector3>** StaticGet_Field_2_0()
+	static ::System::Collections::Generic::List_1<::UnityEngine::Vector3>** StaticGet_LGCFDMOGACA()
 	{
-		return (::System::Collections::Generic::List_1<::UnityEngine::Vector3>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_D62D971476946AF9_TypeDefinitionIndex)->GetStaticField(0x5C6C0);
+		return (::System::Collections::Generic::List_1<::UnityEngine::Vector3>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_D62D971476946AF9_TypeDefinitionIndex)->GetStaticField(0x12410);
 	}
-	::RPG::GameCore::TaskContext* Field_2_1; // 0x18
-	::RPG::GameCore::RogueDLC1Dot3AdventureRoomManage* Field_2_2; // 0x20
-	::RPG::Client::AdventurePhase* Field_2_3; // 0x28
-	::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* Field_2_4; // 0x30
+	::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* OLHGEGCKCBE; // 0x18
+	::RPG::Client::AdventurePhase* FPILJLGACHP; // 0x20
+	::RPG::GameCore::RogueDLC1Dot3AdventureRoomManage* OFKGLJOAMLD; // 0x28
+	::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x30
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::RogueDLC1Dot3AdventureRoomManage* a2)
 	{

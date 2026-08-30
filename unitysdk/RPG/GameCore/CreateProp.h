@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class GroupEntityInfo; }
 
-#define RPG_GAMECORE_CREATEPROP_METHOD_3_8E9BACE566CBF0C5_OFFSET UNITYSDK_OFFSET(0x1B38C1B0)
-#define RPG_GAMECORE_CREATEPROP_METHOD_3_91D785871090E5E0_OFFSET UNITYSDK_OFFSET(0x1B38C1F0)
-#define RPG_GAMECORE_CREATEPROP__CTOR_OFFSET UNITYSDK_OFFSET(0x1B38C1E0)
+#define RPG_GAMECORE_CREATEPROP_METHOD_3_0DD96093B32ECE7C_OFFSET UNITYSDK_OFFSET(0x1D009200)
+#define RPG_GAMECORE_CREATEPROP_METHOD_3_BB02D4F6A39BC5A9_OFFSET UNITYSDK_OFFSET(0x1D009230)
+#define RPG_GAMECORE_CREATEPROP__CTOR_OFFSET UNITYSDK_OFFSET(0x1D009460)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CreateProp_TypeDefinitionIndex = 21140;
+	inline static constexpr unsigned int CreateProp_TypeDefinitionIndex = 21699;
 
 	class CreateProp : public ::RPG::GameCore::TaskConfig
 	{
@@ -26,14 +26,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATEPROP__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_8E9BACE566CBF0C5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CreateProp*& a2)
+		static ::System::Void Method_3_0DD96093B32ECE7C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CreateProp*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CreateProp*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATEPROP_METHOD_3_8E9BACE566CBF0C5_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CreateProp*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATEPROP_METHOD_3_0DD96093B32ECE7C_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_91D785871090E5E0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CreateProp* a2)
+		static ::System::Void Method_3_BB02D4F6A39BC5A9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CreateProp* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CreateProp*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATEPROP_METHOD_3_91D785871090E5E0_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CreateProp*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATEPROP_METHOD_3_BB02D4F6A39BC5A9_OFFSET))(a1, a2);
 		}
 	};
 }

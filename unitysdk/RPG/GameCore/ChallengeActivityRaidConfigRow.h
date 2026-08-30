@@ -5,21 +5,21 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHALLENGEACTIVITYRAIDCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B303FB0)
-#define RPG_GAMECORE_CHALLENGEACTIVITYRAIDCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B304680)
+#define RPG_GAMECORE_CHALLENGEACTIVITYRAIDCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CF7FE30)
+#define RPG_GAMECORE_CHALLENGEACTIVITYRAIDCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF80500)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChallengeActivityRaidConfigRow_TypeDefinitionIndex = 12451;
+	inline static constexpr unsigned int ChallengeActivityRaidConfigRow_TypeDefinitionIndex = 12842;
 
 	class ChallengeActivityRaidConfigRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* MonsterList; // 0x10
 		::System::String* IconPath; // 0x18
-		::System::UInt32 ScheduleDataID; // 0x20
+		::System::UInt32 ScoringGroupID; // 0x20
 		::System::UInt32 ChallengeID; // 0x24
-		::System::UInt32 ScoringGroupID; // 0x28
+		::System::UInt32 ScheduleDataID; // 0x28
 
 		::System::Void _ctor()
 		{

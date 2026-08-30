@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class OverrideSelectDarkTeamEntityCamera; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_DAEB88CF0A99CC63_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xAEB8BE0)
-#define CLASS_3_DAEB88CF0A99CC63__CTOR_OFFSET UNITYSDK_OFFSET(0xAEB8BB0)
+#define CLASS_3_DAEB88CF0A99CC63_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB862510)
+#define CLASS_3_DAEB88CF0A99CC63__CTOR_OFFSET UNITYSDK_OFFSET(0xB8624E0)
 
-inline static constexpr unsigned int Class_3_DAEB88CF0A99CC63_TypeDefinitionIndex = 52743;
+inline static constexpr unsigned int Class_3_DAEB88CF0A99CC63_TypeDefinitionIndex = 55443;
 
 class Class_3_DAEB88CF0A99CC63 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::OverrideSelectDarkTeamEntityCamera*>
 {

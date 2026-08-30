@@ -8,20 +8,20 @@ namespace System::Reflection { class MethodBase; }
 namespace XLua { class ObjectTranslator; }
 namespace XLua { class OverloadMethodWrap; }
 
-#define XLUA_LISTMETHODWRAPCREATOR_CHECKARGS_OFFSET UNITYSDK_OFFSET(0x13D96850)
-#define XLUA_LISTMETHODWRAPCREATOR_CREATEWRAP_GETCOUNT_OFFSET UNITYSDK_OFFSET(0x13D96A10)
-#define XLUA_LISTMETHODWRAPCREATOR__CCTOR_OFFSET UNITYSDK_OFFSET(0x13D96760)
+#define XLUA_LISTMETHODWRAPCREATOR_CHECKARGS_OFFSET UNITYSDK_OFFSET(0x14B1FCA0)
+#define XLUA_LISTMETHODWRAPCREATOR_CREATEWRAP_GETCOUNT_OFFSET UNITYSDK_OFFSET(0x14B1FE60)
+#define XLUA_LISTMETHODWRAPCREATOR__CCTOR_OFFSET UNITYSDK_OFFSET(0x14B1FBB0)
 
 namespace XLua
 {
-	inline static constexpr unsigned int ListMethodWrapCreator_TypeDefinitionIndex = 47976;
+	inline static constexpr unsigned int ListMethodWrapCreator_TypeDefinitionIndex = 50559;
 
 	class ListMethodWrapCreator : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::HashSet_1<::System::Type*>** StaticGet__ValidTypes()
 		{
-			return (::System::Collections::Generic::HashSet_1<::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(ListMethodWrapCreator_TypeDefinitionIndex)->GetStaticField(0x6C1B0);
+			return (::System::Collections::Generic::HashSet_1<::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(ListMethodWrapCreator_TypeDefinitionIndex)->GetStaticField(0x64CF0);
 		}
 
 		static ::System::Void _cctor()

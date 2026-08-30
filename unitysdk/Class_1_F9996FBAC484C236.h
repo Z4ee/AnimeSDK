@@ -7,27 +7,27 @@ class Class_1_945ACFB1FEBC7A2C_20;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_F9996FBAC484C236_METHOD_1_6929C20FCC70C1A3_OFFSET UNITYSDK_OFFSET(0x15219D40)
-#define CLASS_1_F9996FBAC484C236_METHOD_1_70C46DA5B4B87346_1_OFFSET UNITYSDK_OFFSET(0x15219B50)
-#define CLASS_1_F9996FBAC484C236_METHOD_1_70C46DA5B4B87346_OFFSET UNITYSDK_OFFSET(0x152198C0)
-#define CLASS_1_F9996FBAC484C236_METHOD_1_BC10E4695016E354_OFFSET UNITYSDK_OFFSET(0x15219AB0)
-#define CLASS_1_F9996FBAC484C236__CTOR_OFFSET UNITYSDK_OFFSET(0x15219B40)
+#define CLASS_1_F9996FBAC484C236_METHOD_1_6929C20FCC70C1A3_OFFSET UNITYSDK_OFFSET(0x16184FF0)
+#define CLASS_1_F9996FBAC484C236_METHOD_1_70C46DA5B4B87346_1_OFFSET UNITYSDK_OFFSET(0x16184E00)
+#define CLASS_1_F9996FBAC484C236_METHOD_1_70C46DA5B4B87346_OFFSET UNITYSDK_OFFSET(0x16184B70)
+#define CLASS_1_F9996FBAC484C236_METHOD_1_BC10E4695016E354_OFFSET UNITYSDK_OFFSET(0x16184D60)
+#define CLASS_1_F9996FBAC484C236__CTOR_OFFSET UNITYSDK_OFFSET(0x16184DF0)
 
-inline static constexpr unsigned int Class_1_F9996FBAC484C236_TypeDefinitionIndex = 53034;
+inline static constexpr unsigned int Class_1_F9996FBAC484C236_TypeDefinitionIndex = 55739;
 
 class Class_1_F9996FBAC484C236 : public ::System::Object
 {
 public:
-	// static const ::System::String* Field_1_0; // 0x0
-	// static const ::System::String* Field_1_1; // 0x0
-	// static const ::System::String* Field_1_2; // 0x0
-	// static const ::System::String* Field_1_3; // 0x0
-	// static const ::System::String* Field_1_4; // 0x0
-	// static const ::System::String* Field_1_5; // 0x0
-	// static const ::System::String* Field_1_6; // 0x0
-	// static const ::System::String* Field_1_7; // 0x0
-	::System::UInt32 Field_1_8; // 0x10
-	::System::UInt32 Field_1_9; // 0x14
+	// static const ::System::String* AEABFPFMGNP; // 0x0
+	// static const ::System::String* FAMLNMBECBH; // 0x0
+	// static const ::System::String* HPIEGMBLCII; // 0x0
+	// static const ::System::String* OMONEPMDEDN; // 0x0
+	// static const ::System::String* KKECJAAPEFL; // 0x0
+	// static const ::System::String* MAMJKNMIHJG; // 0x0
+	// static const ::System::String* MLFCBPOGMMB; // 0x0
+	// static const ::System::String* HBMKEGDABJJ; // 0x0
+	::System::UInt32 DIABMCKDNEM; // 0x10
+	::System::UInt32 ONJFHCJFPND; // 0x14
 
 	::System::Void _ctor()
 	{

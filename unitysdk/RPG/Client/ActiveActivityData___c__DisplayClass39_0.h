@@ -4,12 +4,12 @@
 
 namespace System { class Action; }
 
-#define RPG_CLIENT_ACTIVEACTIVITYDATA___C__DISPLAYCLASS39_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBAD31A0)
-#define RPG_CLIENT_ACTIVEACTIVITYDATA___C__DISPLAYCLASS39_0__USEACTIVEITEMWITHCALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0xBAD31D0)
+#define RPG_CLIENT_ACTIVEACTIVITYDATA___C__DISPLAYCLASS39_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC4AD250)
+#define RPG_CLIENT_ACTIVEACTIVITYDATA___C__DISPLAYCLASS39_0__USEACTIVEITEMWITHCALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0xC4AD280)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActiveActivityData___c__DisplayClass39_0_TypeDefinitionIndex = 58642;
+	inline static constexpr unsigned int ActiveActivityData___c__DisplayClass39_0_TypeDefinitionIndex = 61473;
 
 	class ActiveActivityData___c__DisplayClass39_0 : public ::System::Object
 	{

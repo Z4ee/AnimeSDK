@@ -7,12 +7,12 @@ namespace RPG::AvatarSystem::Property { template <typename T> class PropertyModi
 namespace RPG::Client::ActivityIdleLive { class IdleLiveTeamAvatarData; }
 namespace RPG::Client::ActivityIdleLive { template <typename T> class IdleLiveModifierBuilder_1; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO___C__DISPLAYCLASS41_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBB7A320)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO___C__DISPLAYCLASS41_0___BUILDMODIFIERBUILDERS_B__0_OFFSET UNITYSDK_OFFSET(0xBB7B3D0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO___C__DISPLAYCLASS41_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC5991A0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO___C__DISPLAYCLASS41_0___BUILDMODIFIERBUILDERS_B__0_OFFSET UNITYSDK_OFFSET(0xC59A230)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveBaseTeamInfo___c__DisplayClass41_0_TypeDefinitionIndex = 71494;
+	inline static constexpr unsigned int IdleLiveBaseTeamInfo___c__DisplayClass41_0_TypeDefinitionIndex = 74800;
 
 	class IdleLiveBaseTeamInfo___c__DisplayClass41_0 : public ::System::Object
 	{

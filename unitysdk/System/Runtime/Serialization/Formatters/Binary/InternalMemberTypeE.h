@@ -3,7 +3,7 @@
 
 namespace System::Runtime::Serialization::Formatters::Binary
 {
-	inline static constexpr unsigned int InternalMemberTypeE_TypeDefinitionIndex = 1167;
+	inline static constexpr unsigned int InternalMemberTypeE_TypeDefinitionIndex = 1174;
 
 	enum class InternalMemberTypeE : ::System::Int32
 	{

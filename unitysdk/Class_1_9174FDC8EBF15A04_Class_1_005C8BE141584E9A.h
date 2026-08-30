@@ -6,19 +6,19 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_9174FDC8EBF15A04_CLASS_1_005C8BE141584E9A_GET_BUBBLETEXT_OFFSET UNITYSDK_OFFSET(0xB312AD0)
-#define CLASS_1_9174FDC8EBF15A04_CLASS_1_005C8BE141584E9A_GET_PROBABILITY_OFFSET UNITYSDK_OFFSET(0xB312AB0)
-#define CLASS_1_9174FDC8EBF15A04_CLASS_1_005C8BE141584E9A_GET_STATETOPLAY_OFFSET UNITYSDK_OFFSET(0xB312AC0)
-#define CLASS_1_9174FDC8EBF15A04_CLASS_1_005C8BE141584E9A__CTOR_OFFSET UNITYSDK_OFFSET(0xB312920)
+#define CLASS_1_9174FDC8EBF15A04_CLASS_1_005C8BE141584E9A_GET_BUBBLETEXT_OFFSET UNITYSDK_OFFSET(0xBCFB020)
+#define CLASS_1_9174FDC8EBF15A04_CLASS_1_005C8BE141584E9A_GET_PROBABILITY_OFFSET UNITYSDK_OFFSET(0xBCFB000)
+#define CLASS_1_9174FDC8EBF15A04_CLASS_1_005C8BE141584E9A_GET_STATETOPLAY_OFFSET UNITYSDK_OFFSET(0xBCFB010)
+#define CLASS_1_9174FDC8EBF15A04_CLASS_1_005C8BE141584E9A__CTOR_OFFSET UNITYSDK_OFFSET(0xBCFAE70)
 
-inline static constexpr unsigned int Class_1_9174FDC8EBF15A04_Class_1_005C8BE141584E9A_TypeDefinitionIndex = 71790;
+inline static constexpr unsigned int Class_1_9174FDC8EBF15A04_Class_1_005C8BE141584E9A_TypeDefinitionIndex = 75096;
 
 class Class_1_9174FDC8EBF15A04_Class_1_005C8BE141584E9A : public ::System::Object
 {
 public:
 	::System::Collections::Generic::List_1<::System::String*>* _StateToPlay_k__BackingField; // 0x10
-	::System::Single _Probability_k__BackingField; // 0x18
-	::RPG::Client::TextID _BubbleText_k__BackingField; // 0x20
+	::RPG::Client::TextID _BubbleText_k__BackingField; // 0x18
+	::System::Single _Probability_k__BackingField; // 0x28
 
 	::System::Void _ctor(::System::Single a1, ::System::Collections::Generic::List_1<::System::String*>* a2, ::RPG::Client::TextID a3)
 	{

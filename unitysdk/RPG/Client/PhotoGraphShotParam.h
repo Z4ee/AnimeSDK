@@ -6,11 +6,11 @@ namespace RPG::Client { class PhotoGraphAimContainer_PhotoGraphAim; }
 namespace RPG::GameCore { class GameEntity; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_PHOTOGRAPHSHOTPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xCF79390)
+#define RPG_CLIENT_PHOTOGRAPHSHOTPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xDA78CA0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PhotoGraphShotParam_TypeDefinitionIndex = 58199;
+	inline static constexpr unsigned int PhotoGraphShotParam_TypeDefinitionIndex = 61026;
 
 	class PhotoGraphShotParam : public ::System::Object
 	{

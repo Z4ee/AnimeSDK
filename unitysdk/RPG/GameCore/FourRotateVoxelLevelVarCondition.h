@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_FOURROTATEVOXELLEVELVARCONDITION_METHOD_2_0C4AA925F6007526_OFFSET UNITYSDK_OFFSET(0x1B49DD40)
-#define RPG_GAMECORE_FOURROTATEVOXELLEVELVARCONDITION__CTOR_OFFSET UNITYSDK_OFFSET(0x1B49DEC0)
+#define RPG_GAMECORE_FOURROTATEVOXELLEVELVARCONDITION_METHOD_2_8AA07897FD677C0F_OFFSET UNITYSDK_OFFSET(0x1D116670)
+#define RPG_GAMECORE_FOURROTATEVOXELLEVELVARCONDITION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D116810)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FourRotateVoxelLevelVarCondition_TypeDefinitionIndex = 16118;
+	inline static constexpr unsigned int FourRotateVoxelLevelVarCondition_TypeDefinitionIndex = 16602;
 
 	class FourRotateVoxelLevelVarCondition : public ::RPG::GameCore::JsonConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FOURROTATEVOXELLEVELVARCONDITION__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_0C4AA925F6007526(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FourRotateVoxelLevelVarCondition*& a2)
+		static ::System::Void Method_2_8AA07897FD677C0F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FourRotateVoxelLevelVarCondition*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FourRotateVoxelLevelVarCondition*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FOURROTATEVOXELLEVELVARCONDITION_METHOD_2_0C4AA925F6007526_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FourRotateVoxelLevelVarCondition*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FOURROTATEVOXELLEVELVARCONDITION_METHOD_2_8AA07897FD677C0F_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -7,17 +7,17 @@ namespace RPG::Client { class OnAssetOperationDelegate; }
 namespace System { class String; }
 namespace System { class Type; }
 
-#define STRUCT_2_710A4BB1F3B3A759_METHOD_2_E8FA925EB945395B_OFFSET UNITYSDK_OFFSET(0x1A389DF0)
-#define STRUCT_2_710A4BB1F3B3A759_METHOD_2_EBCF2A6CC19F5164_OFFSET UNITYSDK_OFFSET(0x1A389E60)
+#define STRUCT_2_710A4BB1F3B3A759_METHOD_2_E8FA925EB945395B_OFFSET UNITYSDK_OFFSET(0x1BF984D0)
+#define STRUCT_2_710A4BB1F3B3A759_METHOD_2_EBCF2A6CC19F5164_OFFSET UNITYSDK_OFFSET(0x1BF98540)
 
-inline static constexpr unsigned int Struct_2_710A4BB1F3B3A759_TypeDefinitionIndex = 39218;
+inline static constexpr unsigned int Struct_2_710A4BB1F3B3A759_TypeDefinitionIndex = 40090;
 
 struct alignas(8) Struct_2_710A4BB1F3B3A759
 {
-	::System::String* Field_2_0; // 0x10
-	::System::Type* Field_2_1; // 0x18
-	::RPG::Client::OpType Field_2_2; // 0x20
-	::RPG::Client::OnAssetOperationDelegate* Field_2_3; // 0x28
+	::System::String* GKHIHPGCLIK; // 0x10
+	::System::Type* EPGPJMHNBON; // 0x18
+	::RPG::Client::OpType NCKLLHBKJCE; // 0x20
+	::RPG::Client::OnAssetOperationDelegate* BLPGAACJCMP; // 0x28
 
 	static ::Struct_2_710A4BB1F3B3A759 Method_2_E8FA925EB945395B(::System::String* a1, ::System::Type* a2)
 	{

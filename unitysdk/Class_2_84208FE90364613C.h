@@ -4,16 +4,16 @@
 
 namespace RPG::Client::ChenLingBattle { class ChenLingBattleGameContext; }
 
-#define CLASS_2_84208FE90364613C_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x11993DC0)
-#define CLASS_2_84208FE90364613C__CTOR_OFFSET UNITYSDK_OFFSET(0x11993F00)
+#define CLASS_2_84208FE90364613C_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x12E73F80)
+#define CLASS_2_84208FE90364613C__CTOR_OFFSET UNITYSDK_OFFSET(0x12E740C0)
 
-inline static constexpr unsigned int Class_2_84208FE90364613C_TypeDefinitionIndex = 72355;
+inline static constexpr unsigned int Class_2_84208FE90364613C_TypeDefinitionIndex = 75791;
 
 class Class_2_84208FE90364613C : public ::Class_1_3713064DEE761936
 {
 public:
-	::RPG::Client::ChenLingBattle::ChenLingBattleGameContext* Field_2_0; // 0x20
-	::System::UInt64 Field_2_1; // 0x28
+	::RPG::Client::ChenLingBattle::ChenLingBattleGameContext* FGHLCBFGPEE; // 0x20
+	::System::UInt64 BIHIHHKEKLB; // 0x28
 
 	::System::Void _ctor(::RPG::Client::ChenLingBattle::ChenLingBattleGameContext* a1, ::System::UInt64 a2)
 	{

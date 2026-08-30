@@ -4,18 +4,18 @@
 
 namespace RPG::GameCore { class ModifierBehaviorVisual; }
 
-#define STRUCT_2_A25CEB9B9DE4C363_METHOD_2_06D28953BC3F3ADA_OFFSET UNITYSDK_OFFSET(0x8A250)
-#define STRUCT_2_A25CEB9B9DE4C363_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x8A200)
-#define STRUCT_2_A25CEB9B9DE4C363_METHOD_2_D106F72D44DD6D80_OFFSET UNITYSDK_OFFSET(0x8A1F0)
+#define STRUCT_2_A25CEB9B9DE4C363_METHOD_2_06D28953BC3F3ADA_OFFSET UNITYSDK_OFFSET(0x8EC80)
+#define STRUCT_2_A25CEB9B9DE4C363_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x8EC30)
+#define STRUCT_2_A25CEB9B9DE4C363_METHOD_2_D106F72D44DD6D80_OFFSET UNITYSDK_OFFSET(0x8EC20)
 
-inline static constexpr unsigned int Struct_2_A25CEB9B9DE4C363_TypeDefinitionIndex = 54352;
+inline static constexpr unsigned int Struct_2_A25CEB9B9DE4C363_TypeDefinitionIndex = 57073;
 
 struct alignas(4) Struct_2_A25CEB9B9DE4C363
 {
-	::System::Single Field_2_0; // 0x10
-	::System::Single Field_2_1; // 0x14
-	::System::Int32 Field_2_2; // 0x18
-	::System::Single Field_2_3; // 0x1C
+	::System::Single PIDMDPCMHKE; // 0x10
+	::System::Single MHHIPFFPKBP; // 0x14
+	::System::Int32 CEFFDPAOGAA; // 0x18
+	::System::Single NJEPANHBDNB; // 0x1C
 
 	::System::Single Method_2_D106F72D44DD6D80(::System::Single a1, ::RPG::GameCore::ModifierBehaviorVisual* a2)
 	{

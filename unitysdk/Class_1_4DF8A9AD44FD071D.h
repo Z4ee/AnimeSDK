@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_43BD383C98B4C0C5_199;
+class Class_1_43BD383C98B4C0C5_213;
 class Class_1_E518B582305CCAFF;
-class Class_1_F9FBCC956DFCF137_25;
+class Class_1_F9FBCC956DFCF137_27;
 class Class_2_B66C1067C0468FBB;
 class Class_2_FB9CF047C8AEAA83;
 namespace RPG::Client::LittleGame::ChimeraDuel { class ChimeraDuelChimeraCache; }
@@ -13,39 +13,39 @@ namespace System { class Action; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_4DF8A9AD44FD071D_EXECUTE_OFFSET UNITYSDK_OFFSET(0xB5951B0)
-#define CLASS_1_4DF8A9AD44FD071D_GET_COMMANDS_OFFSET UNITYSDK_OFFSET(0xB594FF0)
-#define CLASS_1_4DF8A9AD44FD071D_METHOD_1_513D34FAFFB1AAB4_OFFSET UNITYSDK_OFFSET(0xB595050)
-#define CLASS_1_4DF8A9AD44FD071D_METHOD_1_A27DC2C5A103933A_OFFSET UNITYSDK_OFFSET(0xB5950E0)
-#define CLASS_1_4DF8A9AD44FD071D_METHOD_1_F8B73ECE7F883AC1_OFFSET UNITYSDK_OFFSET(0xB5955F0)
-#define CLASS_1_4DF8A9AD44FD071D_SET_COMMANDS_OFFSET UNITYSDK_OFFSET(0xB595000)
-#define CLASS_1_4DF8A9AD44FD071D_TICK_OFFSET UNITYSDK_OFFSET(0xB595580)
-#define CLASS_1_4DF8A9AD44FD071D__CTOR_OFFSET UNITYSDK_OFFSET(0xB595010)
+#define CLASS_1_4DF8A9AD44FD071D_EXECUTE_OFFSET UNITYSDK_OFFSET(0xBF8EBF0)
+#define CLASS_1_4DF8A9AD44FD071D_GET_COMMANDS_OFFSET UNITYSDK_OFFSET(0xBF8EA30)
+#define CLASS_1_4DF8A9AD44FD071D_METHOD_1_513D34FAFFB1AAB4_OFFSET UNITYSDK_OFFSET(0xBF8EA90)
+#define CLASS_1_4DF8A9AD44FD071D_METHOD_1_A27DC2C5A103933A_OFFSET UNITYSDK_OFFSET(0xBF8EB20)
+#define CLASS_1_4DF8A9AD44FD071D_METHOD_1_F8B73ECE7F883AC1_OFFSET UNITYSDK_OFFSET(0xBF8F030)
+#define CLASS_1_4DF8A9AD44FD071D_SET_COMMANDS_OFFSET UNITYSDK_OFFSET(0xBF8EA40)
+#define CLASS_1_4DF8A9AD44FD071D_TICK_OFFSET UNITYSDK_OFFSET(0xBF8EFC0)
+#define CLASS_1_4DF8A9AD44FD071D__CTOR_OFFSET UNITYSDK_OFFSET(0xBF8EA50)
 
-inline static constexpr unsigned int Class_1_4DF8A9AD44FD071D_TypeDefinitionIndex = 73692;
+inline static constexpr unsigned int Class_1_4DF8A9AD44FD071D_TypeDefinitionIndex = 77176;
 
 class Class_1_4DF8A9AD44FD071D : public ::System::Object
 {
 public:
-	// static const ::System::String* Field_1_0; // 0x0
-	::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache* Field_1_1; // 0x10
-	::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache* Field_1_2; // 0x18
-	::System::Collections::Generic::List_1<::Class_1_43BD383C98B4C0C5_199*>* _Commands_k__BackingField; // 0x20
-	::Class_1_E518B582305CCAFF* Field_1_4; // 0x28
+	// static const ::System::String* IBLNAGJPJHJ; // 0x0
+	::System::Collections::Generic::List_1<::Class_1_43BD383C98B4C0C5_213*>* _Commands_k__BackingField; // 0x10
+	::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache* ICMGDNGCFAA; // 0x18
+	::Class_1_E518B582305CCAFF* HFOFIODMFGB; // 0x20
+	::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache* CMOLKFPJDLE; // 0x28
 
-	::System::Void _ctor(::System::Collections::Generic::List_1<::Class_1_43BD383C98B4C0C5_199*>* a1, ::Class_2_B66C1067C0468FBB* a2, ::Class_2_B66C1067C0468FBB* a3, ::Class_2_FB9CF047C8AEAA83* a4)
+	::System::Void _ctor(::System::Collections::Generic::List_1<::Class_1_43BD383C98B4C0C5_213*>* a1, ::Class_2_B66C1067C0468FBB* a2, ::Class_2_B66C1067C0468FBB* a3, ::Class_2_FB9CF047C8AEAA83* a4)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::Class_1_43BD383C98B4C0C5_199*>*, ::Class_2_B66C1067C0468FBB*, ::Class_2_B66C1067C0468FBB*, ::Class_2_FB9CF047C8AEAA83*))((::PBYTE)hIl2Cpp + CLASS_1_4DF8A9AD44FD071D__CTOR_OFFSET))(this, a1, a2, a3, a4);
+		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::Class_1_43BD383C98B4C0C5_213*>*, ::Class_2_B66C1067C0468FBB*, ::Class_2_B66C1067C0468FBB*, ::Class_2_FB9CF047C8AEAA83*))((::PBYTE)hIl2Cpp + CLASS_1_4DF8A9AD44FD071D__CTOR_OFFSET))(this, a1, a2, a3, a4);
 	}
 
-	::System::Collections::Generic::List_1<::Class_1_43BD383C98B4C0C5_199*>* get_Commands()
+	::System::Collections::Generic::List_1<::Class_1_43BD383C98B4C0C5_213*>* get_Commands()
 	{
-		return ((::System::Collections::Generic::List_1<::Class_1_43BD383C98B4C0C5_199*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_4DF8A9AD44FD071D_GET_COMMANDS_OFFSET))(this);
+		return ((::System::Collections::Generic::List_1<::Class_1_43BD383C98B4C0C5_213*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_4DF8A9AD44FD071D_GET_COMMANDS_OFFSET))(this);
 	}
 
-	::System::Void set_Commands(::System::Collections::Generic::List_1<::Class_1_43BD383C98B4C0C5_199*>* a1)
+	::System::Void set_Commands(::System::Collections::Generic::List_1<::Class_1_43BD383C98B4C0C5_213*>* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::Class_1_43BD383C98B4C0C5_199*>*))((::PBYTE)hIl2Cpp + CLASS_1_4DF8A9AD44FD071D_SET_COMMANDS_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::Class_1_43BD383C98B4C0C5_213*>*))((::PBYTE)hIl2Cpp + CLASS_1_4DF8A9AD44FD071D_SET_COMMANDS_OFFSET))(this, a1);
 	}
 
 	static ::RPG::GameCore::ChimeraDuelNodeContainer* Method_1_513D34FAFFB1AAB4()
@@ -58,9 +58,9 @@ public:
 		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CLASS_1_4DF8A9AD44FD071D_METHOD_1_A27DC2C5A103933A_OFFSET))();
 	}
 
-	::System::Void Execute(::Class_1_F9FBCC956DFCF137_25* a1, ::System::Action* a2)
+	::System::Void Execute(::Class_1_F9FBCC956DFCF137_27* a1, ::System::Action* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_1_F9FBCC956DFCF137_25*, ::System::Action*))((::PBYTE)hIl2Cpp + CLASS_1_4DF8A9AD44FD071D_EXECUTE_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::Class_1_F9FBCC956DFCF137_27*, ::System::Action*))((::PBYTE)hIl2Cpp + CLASS_1_4DF8A9AD44FD071D_EXECUTE_OFFSET))(this, a1, a2);
 	}
 
 	::System::Void Tick(::System::Single a1)

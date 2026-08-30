@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByCompareMusicRhythmSongID; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_918440CFC01C02F5_EVALUATE_OFFSET UNITYSDK_OFFSET(0xF1EB090)
-#define CLASS_3_918440CFC01C02F5__CTOR_OFFSET UNITYSDK_OFFSET(0xF1EB060)
+#define CLASS_3_918440CFC01C02F5_EVALUATE_OFFSET UNITYSDK_OFFSET(0x134BA770)
+#define CLASS_3_918440CFC01C02F5__CTOR_OFFSET UNITYSDK_OFFSET(0x134BA740)
 
-inline static constexpr unsigned int Class_3_918440CFC01C02F5_TypeDefinitionIndex = 52078;
+inline static constexpr unsigned int Class_3_918440CFC01C02F5_TypeDefinitionIndex = 54763;
 
 class Class_3_918440CFC01C02F5 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByCompareMusicRhythmSongID*>
 {

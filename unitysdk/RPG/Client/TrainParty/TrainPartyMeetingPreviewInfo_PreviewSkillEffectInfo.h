@@ -5,11 +5,11 @@
 namespace RPG::Client::TrainParty { class TrainPartyPassengerSkillInfo; }
 namespace RPG::GameCore { class TrainPartySkillEffectRow; }
 
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYMEETINGPREVIEWINFO_PREVIEWSKILLEFFECTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x27340)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYMEETINGPREVIEWINFO_PREVIEWSKILLEFFECTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x27330)
 
 namespace RPG::Client::TrainParty
 {
-	inline static constexpr unsigned int TrainPartyMeetingPreviewInfo_PreviewSkillEffectInfo_TypeDefinitionIndex = 70937;
+	inline static constexpr unsigned int TrainPartyMeetingPreviewInfo_PreviewSkillEffectInfo_TypeDefinitionIndex = 74236;
 
 	struct alignas(8) TrainPartyMeetingPreviewInfo_PreviewSkillEffectInfo
 	{

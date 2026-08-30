@@ -12,38 +12,38 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Events { class UnityAction; }
 namespace UnityEngine::Playables { class PlayableDirector; }
 
-#define CLASS_1_36264895A759B0FF_METHOD_1_08DCF72FBE01FF99_OFFSET UNITYSDK_OFFSET(0x11985590)
-#define CLASS_1_36264895A759B0FF_METHOD_1_30D1209326FA87FC_OFFSET UNITYSDK_OFFSET(0x11985B20)
-#define CLASS_1_36264895A759B0FF_METHOD_1_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x119857B0)
-#define CLASS_1_36264895A759B0FF_METHOD_1_85C746F74910D9C1_OFFSET UNITYSDK_OFFSET(0x11985CF0)
-#define CLASS_1_36264895A759B0FF_METHOD_1_BA05915D19667892_OFFSET UNITYSDK_OFFSET(0x11985C10)
-#define CLASS_1_36264895A759B0FF_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x11985BC0)
-#define CLASS_1_36264895A759B0FF_METHOD_1_CB707514D8A9DDDB_OFFSET UNITYSDK_OFFSET(0x11985810)
-#define CLASS_1_36264895A759B0FF_METHOD_1_D94FD23FDC64EBE6_OFFSET UNITYSDK_OFFSET(0x11985C90)
-#define CLASS_1_36264895A759B0FF__CTOR_OFFSET UNITYSDK_OFFSET(0x11985570)
+#define CLASS_1_36264895A759B0FF_METHOD_1_08DCF72FBE01FF99_OFFSET UNITYSDK_OFFSET(0x1286BB50)
+#define CLASS_1_36264895A759B0FF_METHOD_1_30D1209326FA87FC_OFFSET UNITYSDK_OFFSET(0x1286C170)
+#define CLASS_1_36264895A759B0FF_METHOD_1_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x1286BD70)
+#define CLASS_1_36264895A759B0FF_METHOD_1_85C746F74910D9C1_OFFSET UNITYSDK_OFFSET(0x1286C340)
+#define CLASS_1_36264895A759B0FF_METHOD_1_BA05915D19667892_OFFSET UNITYSDK_OFFSET(0x1286C260)
+#define CLASS_1_36264895A759B0FF_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x1286C210)
+#define CLASS_1_36264895A759B0FF_METHOD_1_D94FD23FDC64EBE6_OFFSET UNITYSDK_OFFSET(0x1286C2E0)
+#define CLASS_1_36264895A759B0FF_METHOD_1_EEF0744B559AC089_OFFSET UNITYSDK_OFFSET(0x1286BDD0)
+#define CLASS_1_36264895A759B0FF__CTOR_OFFSET UNITYSDK_OFFSET(0x1286BB30)
 
-inline static constexpr unsigned int Class_1_36264895A759B0FF_TypeDefinitionIndex = 46700;
+inline static constexpr unsigned int Class_1_36264895A759B0FF_TypeDefinitionIndex = 48946;
 
 class Class_1_36264895A759B0FF : public ::System::Object
 {
 public:
-	::System::String* Field_1_0; // 0x10
-	::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* Field_1_1; // 0x18
-	::UnityEngine::Playables::PlayableDirector* Field_1_2; // 0x20
-	::System::String* Field_1_3; // 0x28
-	::UnityEngine::Events::UnityAction* Field_1_4; // 0x30
-	::System::Action_1<::UnityEngine::Playables::PlayableDirector*>* Field_1_5; // 0x38
-	::UnityEngine::GameObject* Field_1_6; // 0x40
-	::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* Field_1_7; // 0x48
-	::System::Collections::Generic::Dictionary_2<::UnityEngine::GameObject*, ::UnityEngine::GameObject*>* Field_1_8; // 0x50
-	::System::Double Field_1_9; // 0x58
-	::System::Single Field_1_10; // 0x60
-	::System::Int32 Field_1_11; // 0x64
-	::System::UInt32 Field_1_12; // 0x68
-	::System::UInt32 Field_1_13; // 0x6C
-	::Class_1_36264895A759B0FF_DirectorState Field_1_14; // 0x70
-	::System::Double Field_1_15; // 0x78
-	::System::Double Field_1_16; // 0x80
+	::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* DAMHMJPFPDN; // 0x10
+	::System::Collections::Generic::Dictionary_2<::UnityEngine::GameObject*, ::UnityEngine::GameObject*>* IEFMDBOGJFA; // 0x18
+	::System::String* DKMKBPLKNDC; // 0x20
+	::UnityEngine::Playables::PlayableDirector* LDALFGDPLLF; // 0x28
+	::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* MCBALJMOIKL; // 0x30
+	::UnityEngine::Events::UnityAction* FMNFMLKMHHL; // 0x38
+	::System::Action_1<::UnityEngine::Playables::PlayableDirector*>* NOLDNHOCOLH; // 0x40
+	::System::String* FEBCMBILJMP; // 0x48
+	::UnityEngine::GameObject* IHOJMGFDIHL; // 0x50
+	::System::Double JNJEDNMKCKI; // 0x58
+	::System::Int32 PHFMCACHFIJ; // 0x60
+	::System::Double CKGKCODHELK; // 0x68
+	::System::Single AJKNDBOBHFK; // 0x70
+	::System::UInt32 OOFOCLJKNCM; // 0x74
+	::Class_1_36264895A759B0FF_DirectorState MEPFOEEGBEA; // 0x78
+	::System::UInt32 BMELGCPFLNA; // 0x7C
+	::System::Double GKBFJPGEIJK; // 0x80
 
 	::System::Void _ctor(::UnityEngine::Playables::PlayableDirector* a1)
 	{
@@ -85,8 +85,8 @@ public:
 		return ((::System::Double(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_36264895A759B0FF_METHOD_1_85C746F74910D9C1_OFFSET))(this);
 	}
 
-	::System::Single Method_1_CB707514D8A9DDDB()
+	::System::Single Method_1_EEF0744B559AC089()
 	{
-		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_36264895A759B0FF_METHOD_1_CB707514D8A9DDDB_OFFSET))(this);
+		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_36264895A759B0FF_METHOD_1_EEF0744B559AC089_OFFSET))(this);
 	}
 };

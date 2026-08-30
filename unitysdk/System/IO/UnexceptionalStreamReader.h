@@ -6,29 +6,29 @@ namespace System { class String; }
 namespace System::IO { class Stream; }
 namespace System::Text { class Encoding; }
 
-#define SYSTEM_IO_UNEXCEPTIONALSTREAMREADER_CHECKEOL_OFFSET UNITYSDK_OFFSET(0x1A160280)
-#define SYSTEM_IO_UNEXCEPTIONALSTREAMREADER_PEEK_OFFSET UNITYSDK_OFFSET(0x1A15FF20)
-#define SYSTEM_IO_UNEXCEPTIONALSTREAMREADER_READLINE_OFFSET UNITYSDK_OFFSET(0x1A160500)
-#define SYSTEM_IO_UNEXCEPTIONALSTREAMREADER_READTOEND_OFFSET UNITYSDK_OFFSET(0x1A160590)
-#define SYSTEM_IO_UNEXCEPTIONALSTREAMREADER_READ_1_OFFSET UNITYSDK_OFFSET(0x1A160040)
-#define SYSTEM_IO_UNEXCEPTIONALSTREAMREADER_READ_OFFSET UNITYSDK_OFFSET(0x1A15FFB0)
-#define SYSTEM_IO_UNEXCEPTIONALSTREAMREADER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A15FDD0)
-#define SYSTEM_IO_UNEXCEPTIONALSTREAMREADER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A15FEB0)
+#define SYSTEM_IO_UNEXCEPTIONALSTREAMREADER_CHECKEOL_OFFSET UNITYSDK_OFFSET(0x1BD67C80)
+#define SYSTEM_IO_UNEXCEPTIONALSTREAMREADER_PEEK_OFFSET UNITYSDK_OFFSET(0x1BD67920)
+#define SYSTEM_IO_UNEXCEPTIONALSTREAMREADER_READLINE_OFFSET UNITYSDK_OFFSET(0x1BD67F00)
+#define SYSTEM_IO_UNEXCEPTIONALSTREAMREADER_READTOEND_OFFSET UNITYSDK_OFFSET(0x1BD67F90)
+#define SYSTEM_IO_UNEXCEPTIONALSTREAMREADER_READ_1_OFFSET UNITYSDK_OFFSET(0x1BD67A40)
+#define SYSTEM_IO_UNEXCEPTIONALSTREAMREADER_READ_OFFSET UNITYSDK_OFFSET(0x1BD679B0)
+#define SYSTEM_IO_UNEXCEPTIONALSTREAMREADER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BD677D0)
+#define SYSTEM_IO_UNEXCEPTIONALSTREAMREADER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD678B0)
 
 namespace System::IO
 {
-	inline static constexpr unsigned int UnexceptionalStreamReader_TypeDefinitionIndex = 725;
+	inline static constexpr unsigned int UnexceptionalStreamReader_TypeDefinitionIndex = 728;
 
 	class UnexceptionalStreamReader : public ::System::IO::StreamReader
 	{
 	public:
 		static ::Il2CppArray<::System::Boolean>** StaticGet_newline()
 		{
-			return (::Il2CppArray<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UnexceptionalStreamReader_TypeDefinitionIndex)->GetStaticField(0xDCD0);
+			return (::Il2CppArray<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UnexceptionalStreamReader_TypeDefinitionIndex)->GetStaticField(0xCF60);
 		}
 		static ::System::Char* StaticGet_newlineChar()
 		{
-			return (::System::Char*)Il2CppClass::FromTypeDefinitionIndex(UnexceptionalStreamReader_TypeDefinitionIndex)->GetStaticField(0x4D90);
+			return (::System::Char*)Il2CppClass::FromTypeDefinitionIndex(UnexceptionalStreamReader_TypeDefinitionIndex)->GetStaticField(0x3FA0);
 		}
 
 		static ::System::Void _cctor()

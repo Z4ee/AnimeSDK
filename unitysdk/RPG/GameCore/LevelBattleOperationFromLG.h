@@ -4,19 +4,19 @@
 #include "unitysdk/RPG/GameCore/LevelGraphOperationType.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_GAMECORE_LEVELBATTLEOPERATIONFROMLG_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xDAC7A10)
-#define RPG_GAMECORE_LEVELBATTLEOPERATIONFROMLG_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xDAC79C0)
-#define RPG_GAMECORE_LEVELBATTLEOPERATIONFROMLG__CTOR_OFFSET UNITYSDK_OFFSET(0xDAC79B0)
+#define RPG_GAMECORE_LEVELBATTLEOPERATIONFROMLG_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE6863C0)
+#define RPG_GAMECORE_LEVELBATTLEOPERATIONFROMLG_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE686370)
+#define RPG_GAMECORE_LEVELBATTLEOPERATIONFROMLG__CTOR_OFFSET UNITYSDK_OFFSET(0xE686360)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelBattleOperationFromLG_TypeDefinitionIndex = 54204;
+	inline static constexpr unsigned int LevelBattleOperationFromLG_TypeDefinitionIndex = 56925;
 
 	class LevelBattleOperationFromLG : public ::System::Object
 	{
 	public:
-		::System::UInt32 Param; // 0x10
-		::RPG::GameCore::LevelGraphOperationType OperationType; // 0x14
+		::RPG::GameCore::LevelGraphOperationType OperationType; // 0x10
+		::System::UInt32 Param; // 0x14
 
 		::System::Void _ctor(::RPG::GameCore::LevelGraphOperationType a1, ::System::UInt32 a2)
 		{

@@ -5,18 +5,18 @@
 namespace RPG::Client { class ChimeraTeamData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_D8B1A59B07648EF3_DISPOSE_OFFSET UNITYSDK_OFFSET(0x151D4320)
-#define CLASS_1_D8B1A59B07648EF3_METHOD_1_34A0F0635B7F1CFC_OFFSET UNITYSDK_OFFSET(0x151D4590)
-#define CLASS_1_D8B1A59B07648EF3_METHOD_1_5B54BCEEEE5A67F7_OFFSET UNITYSDK_OFFSET(0x151D4390)
-#define CLASS_1_D8B1A59B07648EF3__CTOR_OFFSET UNITYSDK_OFFSET(0x151D45D0)
+#define CLASS_1_D8B1A59B07648EF3_DISPOSE_OFFSET UNITYSDK_OFFSET(0x160FC8E0)
+#define CLASS_1_D8B1A59B07648EF3_METHOD_1_34A0F0635B7F1CFC_OFFSET UNITYSDK_OFFSET(0x160FCB50)
+#define CLASS_1_D8B1A59B07648EF3_METHOD_1_5B54BCEEEE5A67F7_OFFSET UNITYSDK_OFFSET(0x160FC950)
+#define CLASS_1_D8B1A59B07648EF3__CTOR_OFFSET UNITYSDK_OFFSET(0x160FCB90)
 
-inline static constexpr unsigned int Class_1_D8B1A59B07648EF3_TypeDefinitionIndex = 60655;
+inline static constexpr unsigned int Class_1_D8B1A59B07648EF3_TypeDefinitionIndex = 63508;
 
 class Class_1_D8B1A59B07648EF3 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::RPG::Client::ChimeraTeamData*>* Field_1_0; // 0x10
-	::System::UInt32 Field_1_1; // 0x18
+	::System::Collections::Generic::List_1<::RPG::Client::ChimeraTeamData*>* NGPGDNHGPPD; // 0x10
+	::System::UInt32 PPGBOMAHHEO; // 0x18
 
 	::System::Void _ctor()
 	{

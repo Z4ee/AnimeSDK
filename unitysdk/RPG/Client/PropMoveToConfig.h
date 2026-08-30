@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_PROPMOVETOCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xD26ABC0)
+#define RPG_CLIENT_PROPMOVETOCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xDD6F3F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PropMoveToConfig_TypeDefinitionIndex = 65594;
+	inline static constexpr unsigned int PropMoveToConfig_TypeDefinitionIndex = 68610;
 
 	class PropMoveToConfig : public ::UnityEngine::MonoBehaviour
 	{

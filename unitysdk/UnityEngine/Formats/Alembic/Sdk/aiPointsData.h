@@ -6,7 +6,7 @@
 
 namespace UnityEngine::Formats::Alembic::Sdk
 {
-	inline static constexpr unsigned int aiPointsData_TypeDefinitionIndex = 42496;
+	inline static constexpr unsigned int aiPointsData_TypeDefinitionIndex = 44678;
 
 	struct alignas(8) aiPointsData
 	{

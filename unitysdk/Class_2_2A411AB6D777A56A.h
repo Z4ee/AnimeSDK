@@ -7,23 +7,23 @@ class Class_1_D33B7D6901AE39E9;
 namespace RPG::Client { class AchievementData; }
 namespace RPG::GameCore { class MovieGameConstConfig; }
 
-#define CLASS_2_2A411AB6D777A56A_METHOD_2_F8EC267083B75509_OFFSET UNITYSDK_OFFSET(0x1477FB60)
-#define CLASS_2_2A411AB6D777A56A__CTOR_OFFSET UNITYSDK_OFFSET(0x1477F9E0)
+#define CLASS_2_2A411AB6D777A56A_METHOD_2_F8EC267083B75509_OFFSET UNITYSDK_OFFSET(0x155F4680)
+#define CLASS_2_2A411AB6D777A56A__CTOR_OFFSET UNITYSDK_OFFSET(0x155F4500)
 
-inline static constexpr unsigned int Class_2_2A411AB6D777A56A_TypeDefinitionIndex = 72688;
+inline static constexpr unsigned int Class_2_2A411AB6D777A56A_TypeDefinitionIndex = 76124;
 
 class Class_2_2A411AB6D777A56A : public ::Class_1_FD893FD36F6A3A6D_2
 {
 public:
-	::RPG::Client::AchievementData* Field_2_0; // 0x18
-	::RPG::Client::AchievementData* Field_2_1; // 0x20
-	::RPG::Client::AchievementData* Field_2_2; // 0x28
-	::RPG::GameCore::MovieGameConstConfig* Field_2_3; // 0x30
-	::RPG::Client::AchievementData* Field_2_4; // 0x38
-	::RPG::Client::AchievementData* Field_2_5; // 0x40
-	::RPG::Client::AchievementData* Field_2_6; // 0x48
-	::RPG::Client::AchievementData* Field_2_7; // 0x50
-	::RPG::Client::AchievementData* Field_2_8; // 0x58
+	::RPG::Client::AchievementData* GKMPLOCPNML; // 0x18
+	::RPG::Client::AchievementData* ECIKBNDOLIE; // 0x20
+	::RPG::Client::AchievementData* LFEONCLDPNC; // 0x28
+	::RPG::Client::AchievementData* FGGMNKBLPEK; // 0x30
+	::RPG::GameCore::MovieGameConstConfig* POIDJMHLKJN; // 0x38
+	::RPG::Client::AchievementData* PEJCKNIOJAP; // 0x40
+	::RPG::Client::AchievementData* LPEJGOIKMBA; // 0x48
+	::RPG::Client::AchievementData* JCCAJEIKLLI; // 0x50
+	::RPG::Client::AchievementData* FJBMPELICHA; // 0x58
 
 	::System::Void _ctor(::Class_1_D33B7D6901AE39E9* a1, ::RPG::GameCore::MovieGameConstConfig* a2)
 	{

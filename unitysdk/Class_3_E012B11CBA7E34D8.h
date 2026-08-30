@@ -5,10 +5,10 @@
 namespace RPG::Client { class ByCompareMatchThreeV2BirdLocation; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_E012B11CBA7E34D8_EVALUATE_OFFSET UNITYSDK_OFFSET(0xAF4F0A0)
-#define CLASS_3_E012B11CBA7E34D8__CTOR_OFFSET UNITYSDK_OFFSET(0xAF4F070)
+#define CLASS_3_E012B11CBA7E34D8_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB9007E0)
+#define CLASS_3_E012B11CBA7E34D8__CTOR_OFFSET UNITYSDK_OFFSET(0xB9007B0)
 
-inline static constexpr unsigned int Class_3_E012B11CBA7E34D8_TypeDefinitionIndex = 50607;
+inline static constexpr unsigned int Class_3_E012B11CBA7E34D8_TypeDefinitionIndex = 53288;
 
 class Class_3_E012B11CBA7E34D8 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::Client::ByCompareMatchThreeV2BirdLocation*>
 {

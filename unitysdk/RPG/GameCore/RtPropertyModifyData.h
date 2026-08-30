@@ -4,11 +4,11 @@
 #include "unitysdk/RPG/GameCore/RtAbilityProperty.h"
 #include "unitysdk/System/ValueType.h"
 
-#define RPG_GAMECORE_RTPROPERTYMODIFYDATA_EQUALS_OFFSET UNITYSDK_OFFSET(0x155E80)
+#define RPG_GAMECORE_RTPROPERTYMODIFYDATA_EQUALS_OFFSET UNITYSDK_OFFSET(0x15CB40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtPropertyModifyData_TypeDefinitionIndex = 51262;
+	inline static constexpr unsigned int RtPropertyModifyData_TypeDefinitionIndex = 53946;
 
 	struct alignas(8) RtPropertyModifyData
 	{

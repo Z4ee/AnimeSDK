@@ -14,12 +14,12 @@ namespace RPG::GameCore { class StageVolumeConfigV2; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_STAGEREGIONCONFIG_METHOD_2_FE71183D156F1774_OFFSET UNITYSDK_OFFSET(0x1B9002E0)
-#define RPG_GAMECORE_STAGEREGIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9006D0)
+#define RPG_GAMECORE_STAGEREGIONCONFIG_METHOD_2_FE71183D156F1774_OFFSET UNITYSDK_OFFSET(0x1D55C400)
+#define RPG_GAMECORE_STAGEREGIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D55C7F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StageRegionConfig_TypeDefinitionIndex = 18443;
+	inline static constexpr unsigned int StageRegionConfig_TypeDefinitionIndex = 18967;
 
 	class StageRegionConfig : public ::RPG::GameCore::JsonConfig
 	{

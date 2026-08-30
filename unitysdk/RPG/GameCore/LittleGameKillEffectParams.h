@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_LITTLEGAMEKILLEFFECTPARAMS_METHOD_2_27F693061CBBDBBD_OFFSET UNITYSDK_OFFSET(0x1B587920)
-#define RPG_GAMECORE_LITTLEGAMEKILLEFFECTPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x1B587AE0)
+#define RPG_GAMECORE_LITTLEGAMEKILLEFFECTPARAMS_METHOD_2_27F693061CBBDBBD_OFFSET UNITYSDK_OFFSET(0x1D202D50)
+#define RPG_GAMECORE_LITTLEGAMEKILLEFFECTPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D202F10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LittleGameKillEffectParams_TypeDefinitionIndex = 18144;
+	inline static constexpr unsigned int LittleGameKillEffectParams_TypeDefinitionIndex = 18668;
 
 	class LittleGameKillEffectParams : public ::RPG::GameCore::JsonConfig
 	{

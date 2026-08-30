@@ -11,7 +11,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ConfigDataPoolListPolymorphic_1_TypeDefinitionIndex = 10439;
+	inline static constexpr unsigned int ConfigDataPoolListPolymorphic_1_TypeDefinitionIndex = 10780;
 
 	template <typename TWrapper>
 	struct ConfigDataPoolListPolymorphic_1

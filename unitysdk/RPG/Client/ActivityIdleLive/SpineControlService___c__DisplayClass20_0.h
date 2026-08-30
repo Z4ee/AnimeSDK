@@ -5,12 +5,12 @@
 
 namespace RPG::Client::ActivityIdleLive { class SpineControlService; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_SPINECONTROLSERVICE___C__DISPLAYCLASS20_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBBE4310)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_SPINECONTROLSERVICE___C__DISPLAYCLASS20_0___BUILDTRIGGERS_B__0_OFFSET UNITYSDK_OFFSET(0xBBE4920)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_SPINECONTROLSERVICE___C__DISPLAYCLASS20_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC602A10)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_SPINECONTROLSERVICE___C__DISPLAYCLASS20_0___BUILDTRIGGERS_B__0_OFFSET UNITYSDK_OFFSET(0xC603020)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int SpineControlService___c__DisplayClass20_0_TypeDefinitionIndex = 71786;
+	inline static constexpr unsigned int SpineControlService___c__DisplayClass20_0_TypeDefinitionIndex = 75092;
 
 	class SpineControlService___c__DisplayClass20_0 : public ::System::Object
 	{

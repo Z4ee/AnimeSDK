@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define HOUDINIENGINEUNITY_HAPI_BOXINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x2E9DFE0)
+#define HOUDINIENGINEUNITY_HAPI_BOXINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x2FD1320)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HAPI_BoxInfo_TypeDefinitionIndex = 38360;
+	inline static constexpr unsigned int HAPI_BoxInfo_TypeDefinitionIndex = 39219;
 
 	struct alignas(8) HAPI_BoxInfo
 	{

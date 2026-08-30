@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define RPGTOOLS_TIMELINE_VFX_EYEPROTECTIONPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x158D70)
+#define RPGTOOLS_TIMELINE_VFX_EYEPROTECTIONPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x15FA90)
 
 namespace RPGTools::Timeline::VFX
 {
-	inline static constexpr unsigned int EyeProtectionParameter_TypeDefinitionIndex = 46906;
+	inline static constexpr unsigned int EyeProtectionParameter_TypeDefinitionIndex = 49152;
 
 	struct alignas(4) EyeProtectionParameter
 	{

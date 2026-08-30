@@ -4,12 +4,12 @@
 
 namespace RPG::Client::Promises { class Promise; }
 
-#define RPG_CLIENT_MISSIONCHRONICLEMODULE___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCBD4090)
-#define RPG_CLIENT_MISSIONCHRONICLEMODULE___C__DISPLAYCLASS1_0__PREPARECHRONICLEMISSIONDATA_B__0_OFFSET UNITYSDK_OFFSET(0xCBD7870)
+#define RPG_CLIENT_MISSIONCHRONICLEMODULE___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD6D0570)
+#define RPG_CLIENT_MISSIONCHRONICLEMODULE___C__DISPLAYCLASS1_0__PREPARECHRONICLEMISSIONDATA_B__0_OFFSET UNITYSDK_OFFSET(0xD6D44A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MissionChronicleModule___c__DisplayClass1_0_TypeDefinitionIndex = 63153;
+	inline static constexpr unsigned int MissionChronicleModule___c__DisplayClass1_0_TypeDefinitionIndex = 66138;
 
 	class MissionChronicleModule___c__DisplayClass1_0 : public ::System::Object
 	{

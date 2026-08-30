@@ -3,17 +3,17 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define STRUCT_2_CE0F7493A677433B_METHOD_2_823422828276EFD9_OFFSET UNITYSDK_OFFSET(0x1535D0)
-#define STRUCT_2_CE0F7493A677433B_METHOD_2_D7F0936662AC1A47_OFFSET UNITYSDK_OFFSET(0x1535B0)
+#define STRUCT_2_CE0F7493A677433B_METHOD_2_823422828276EFD9_OFFSET UNITYSDK_OFFSET(0x15BE20)
+#define STRUCT_2_CE0F7493A677433B_METHOD_2_D7F0936662AC1A47_OFFSET UNITYSDK_OFFSET(0x15BE00)
 
-inline static constexpr unsigned int Struct_2_CE0F7493A677433B_TypeDefinitionIndex = 74935;
+inline static constexpr unsigned int Struct_2_CE0F7493A677433B_TypeDefinitionIndex = 78420;
 
 struct alignas(4) Struct_2_CE0F7493A677433B
 {
-	::UnityEngine::Vector3 Field_2_0; // 0x10
-	::UnityEngine::Vector3 Field_2_1; // 0x1C
-	::System::Single Field_2_2; // 0x28
-	::System::Single Field_2_3; // 0x2C
+	::UnityEngine::Vector3 FACGMPEJDEF; // 0x10
+	::UnityEngine::Vector3 GFOOPMANHJJ; // 0x1C
+	::System::Single BJBIBMDPCNP; // 0x28
+	::System::Single PKDMBIMLJPH; // 0x2C
 
 	::UnityEngine::Vector3 Method_2_D7F0936662AC1A47(::System::Single a1)
 	{

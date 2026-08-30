@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_OPTIONTRIGGERINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B67F660)
-#define RPG_GAMECORE_OPTIONTRIGGERINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1B67F830)
+#define RPG_GAMECORE_OPTIONTRIGGERINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D301830)
+#define RPG_GAMECORE_OPTIONTRIGGERINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1D301A00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int OptionTriggerInfo_TypeDefinitionIndex = 20790;
+	inline static constexpr unsigned int OptionTriggerInfo_TypeDefinitionIndex = 21346;
 
 	class OptionTriggerInfo : public ::RPG::GameCore::JsonConfig
 	{

@@ -4,15 +4,17 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class AdventureCharacterConfig; }
+namespace RPG::GameCore { class CharacterConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SKINCHARACTEROVERRIDECONFIG_METHOD_2_0C4BB4EBBCE268F5_OFFSET UNITYSDK_OFFSET(0x1B8DFAC0)
-#define RPG_GAMECORE_SKINCHARACTEROVERRIDECONFIG_METHOD_2_2728F94EAFB58187_OFFSET UNITYSDK_OFFSET(0x1B8DF7D0)
-#define RPG_GAMECORE_SKINCHARACTEROVERRIDECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8DFAB0)
+#define RPG_GAMECORE_SKINCHARACTEROVERRIDECONFIG_METHOD_2_0C4BB4EBBCE268F5_OFFSET UNITYSDK_OFFSET(0x1D53BBB0)
+#define RPG_GAMECORE_SKINCHARACTEROVERRIDECONFIG_METHOD_2_2728F94EAFB58187_OFFSET UNITYSDK_OFFSET(0x1D53B810)
+#define RPG_GAMECORE_SKINCHARACTEROVERRIDECONFIG_METHOD_2_F10BF4AA0497B46D_OFFSET UNITYSDK_OFFSET(0x1D53BC10)
+#define RPG_GAMECORE_SKINCHARACTEROVERRIDECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D53BBA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SkinCharacterOverrideConfig_TypeDefinitionIndex = 16760;
+	inline static constexpr unsigned int SkinCharacterOverrideConfig_TypeDefinitionIndex = 17262;
 
 	class SkinCharacterOverrideConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -23,6 +25,8 @@ namespace RPG::GameCore
 		::Il2CppArray<::System::String*>* AnimEventConfigList; // 0x28
 		::System::Boolean OverrideAnimEventConfigListInPerformance; // 0x30
 		::Il2CppArray<::System::String*>* AnimEventConfigListInPerformance; // 0x38
+		::System::Boolean OverrideAnimEventConfigListInBattle; // 0x40
+		::Il2CppArray<::System::String*>* AnimEventConfigListInBattle; // 0x48
 
 		::System::Void _ctor()
 		{
@@ -37,6 +41,11 @@ namespace RPG::GameCore
 		::System::Void Method_2_0C4BB4EBBCE268F5(::RPG::GameCore::AdventureCharacterConfig* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::AdventureCharacterConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKINCHARACTEROVERRIDECONFIG_METHOD_2_0C4BB4EBBCE268F5_OFFSET))(this, a1);
+		}
+
+		::System::Void Method_2_F10BF4AA0497B46D(::RPG::GameCore::CharacterConfig* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::CharacterConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKINCHARACTEROVERRIDECONFIG_METHOD_2_F10BF4AA0497B46D_OFFSET))(this, a1);
 		}
 	};
 }

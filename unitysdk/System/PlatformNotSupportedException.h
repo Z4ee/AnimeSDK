@@ -6,13 +6,13 @@
 namespace System { class String; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_PLATFORMNOTSUPPORTEDEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A180090)
-#define SYSTEM_PLATFORMNOTSUPPORTEDEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1A180100)
-#define SYSTEM_PLATFORMNOTSUPPORTEDEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1A17FFF0)
+#define SYSTEM_PLATFORMNOTSUPPORTEDEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1BD87C90)
+#define SYSTEM_PLATFORMNOTSUPPORTEDEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1BD87D00)
+#define SYSTEM_PLATFORMNOTSUPPORTEDEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD87BF0)
 
 namespace System
 {
-	inline static constexpr unsigned int PlatformNotSupportedException_TypeDefinitionIndex = 313;
+	inline static constexpr unsigned int PlatformNotSupportedException_TypeDefinitionIndex = 316;
 
 	class PlatformNotSupportedException : public ::System::NotSupportedException
 	{

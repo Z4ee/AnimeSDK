@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_SKILLDETAILINFODIALOGINITPARAM_RELATEDSKILLDETAILPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xD516590)
+#define RPG_CLIENT_SKILLDETAILINFODIALOGINITPARAM_RELATEDSKILLDETAILPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xE0A5FB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SkillDetailInfoDialogInitParam_RelatedSkillDetailParam_TypeDefinitionIndex = 68860;
+	inline static constexpr unsigned int SkillDetailInfoDialogInitParam_RelatedSkillDetailParam_TypeDefinitionIndex = 72058;
 
 	class SkillDetailInfoDialogInitParam_RelatedSkillDetailParam : public ::System::Object
 	{

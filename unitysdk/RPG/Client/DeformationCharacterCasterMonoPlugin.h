@@ -4,37 +4,31 @@
 
 namespace RPG::Client { class DeformationCharacterCasterBehavior; }
 namespace RPG::Client { class DeformationCharacterCasterMonoPlugin_DeformationCasterTransform; }
+namespace RPG::Client { class DeformationCharacterCasterMonoPlugin_RegisteredCasterInfo; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_DEFORMATIONCHARACTERCASTERMONOPLUGIN_BIND_OFFSET UNITYSDK_OFFSET(0xC1DF8A0)
-#define RPG_CLIENT_DEFORMATIONCHARACTERCASTERMONOPLUGIN_UNBIND_OFFSET UNITYSDK_OFFSET(0xC1DFC60)
-#define RPG_CLIENT_DEFORMATIONCHARACTERCASTERMONOPLUGIN__CCTOR_OFFSET UNITYSDK_OFFSET(0xC1DFD00)
-#define RPG_CLIENT_DEFORMATIONCHARACTERCASTERMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xC1DFCC0)
+#define RPG_CLIENT_DEFORMATIONCHARACTERCASTERMONOPLUGIN_BIND_OFFSET UNITYSDK_OFFSET(0xCC9D270)
+#define RPG_CLIENT_DEFORMATIONCHARACTERCASTERMONOPLUGIN_GET_REGISTEREDCASTERINFOS_OFFSET UNITYSDK_OFFSET(0xCC9D350)
+#define RPG_CLIENT_DEFORMATIONCHARACTERCASTERMONOPLUGIN_UNBIND_OFFSET UNITYSDK_OFFSET(0xCC9D2F0)
+#define RPG_CLIENT_DEFORMATIONCHARACTERCASTERMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xCC9D360)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DeformationCharacterCasterMonoPlugin_TypeDefinitionIndex = 67121;
+	inline static constexpr unsigned int DeformationCharacterCasterMonoPlugin_TypeDefinitionIndex = 70233;
 
 	class DeformationCharacterCasterMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::DeformationCharacterCasterBehavior*>
 	{
 	public:
-		static ::Il2CppArray<::System::String*>** StaticGet_Field_7_0()
-		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(DeformationCharacterCasterMonoPlugin_TypeDefinitionIndex)->GetStaticField(0x64C40);
-		}
-		::System::String* BoneName; // 0x30
-		::System::Collections::Generic::List_1<::RPG::Client::DeformationCharacterCasterMonoPlugin_DeformationCasterTransform*>* DeformationCasterList; // 0x38
+		::System::Boolean OverrideAutoBind; // 0x30
+		::System::String* BoneName; // 0x38
+		::System::Collections::Generic::List_1<::RPG::Client::DeformationCharacterCasterMonoPlugin_DeformationCasterTransform*>* DeformationCasterList; // 0x40
+		::System::Collections::Generic::List_1<::RPG::Client::DeformationCharacterCasterMonoPlugin_RegisteredCasterInfo*>* _RegisteredCasterInfos_k__BackingField; // 0x48
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DEFORMATIONCHARACTERCASTERMONOPLUGIN__CTOR_OFFSET))(this);
-		}
-
-		static ::System::Void _cctor()
-		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_DEFORMATIONCHARACTERCASTERMONOPLUGIN__CCTOR_OFFSET))();
 		}
 
 		::System::Void Bind(::UnityEngine::GameObject* a1, ::Il2CppArray<::System::String*>* a2)
@@ -45,6 +39,11 @@ namespace RPG::Client
 		::System::Void Unbind()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DEFORMATIONCHARACTERCASTERMONOPLUGIN_UNBIND_OFFSET))(this);
+		}
+
+		::System::Collections::Generic::List_1<::RPG::Client::DeformationCharacterCasterMonoPlugin_RegisteredCasterInfo*>* get_RegisteredCasterInfos()
+		{
+			return ((::System::Collections::Generic::List_1<::RPG::Client::DeformationCharacterCasterMonoPlugin_RegisteredCasterInfo*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DEFORMATIONCHARACTERCASTERMONOPLUGIN_GET_REGISTEREDCASTERINFOS_OFFSET))(this);
 		}
 	};
 }

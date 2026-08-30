@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FateRinCaseBoardEffectTargetSlot_TypeDefinitionIndex = 23592;
+	inline static constexpr unsigned int FateRinCaseBoardEffectTargetSlot_TypeDefinitionIndex = 24177;
 
 	enum class FateRinCaseBoardEffectTargetSlot : ::System::Int32
 	{

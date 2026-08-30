@@ -12,29 +12,29 @@ namespace RPG::GameCore { class RtModifierCallbackConfig; }
 namespace RPG::GameCore { class TaskConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_RTMODIFIERCONFIG_METHOD_3_17E28D96F5D35177_OFFSET UNITYSDK_OFFSET(0x1B7BFC20)
-#define RPG_GAMECORE_RTMODIFIERCONFIG_METHOD_3_9E44E6F8EAB9EA1D_OFFSET UNITYSDK_OFFSET(0x1B7BFB80)
-#define RPG_GAMECORE_RTMODIFIERCONFIG_METHOD_3_9F91AECC294331DD_OFFSET UNITYSDK_OFFSET(0x1B7C0450)
-#define RPG_GAMECORE_RTMODIFIERCONFIG_METHOD_3_A95C7D9BBBD85EEB_OFFSET UNITYSDK_OFFSET(0x1B7C03A0)
-#define RPG_GAMECORE_RTMODIFIERCONFIG_METHOD_3_AA0E071F299C1742_OFFSET UNITYSDK_OFFSET(0x1B7C0290)
-#define RPG_GAMECORE_RTMODIFIERCONFIG_METHOD_3_B49F6902F02AD973_OFFSET UNITYSDK_OFFSET(0x1B7C01F0)
-#define RPG_GAMECORE_RTMODIFIERCONFIG_METHOD_3_FFB102BD9EB3B306_OFFSET UNITYSDK_OFFSET(0x1B7C03F0)
-#define RPG_GAMECORE_RTMODIFIERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7BFBE0)
+#define RPG_GAMECORE_RTMODIFIERCONFIG_METHOD_3_17E28D96F5D35177_OFFSET UNITYSDK_OFFSET(0x1D4AE610)
+#define RPG_GAMECORE_RTMODIFIERCONFIG_METHOD_3_9E44E6F8EAB9EA1D_OFFSET UNITYSDK_OFFSET(0x1D4AE570)
+#define RPG_GAMECORE_RTMODIFIERCONFIG_METHOD_3_9F91AECC294331DD_OFFSET UNITYSDK_OFFSET(0x1D4AEE40)
+#define RPG_GAMECORE_RTMODIFIERCONFIG_METHOD_3_A95C7D9BBBD85EEB_OFFSET UNITYSDK_OFFSET(0x1D4AED90)
+#define RPG_GAMECORE_RTMODIFIERCONFIG_METHOD_3_AA0E071F299C1742_OFFSET UNITYSDK_OFFSET(0x1D4AEC80)
+#define RPG_GAMECORE_RTMODIFIERCONFIG_METHOD_3_B49F6902F02AD973_OFFSET UNITYSDK_OFFSET(0x1D4AEBE0)
+#define RPG_GAMECORE_RTMODIFIERCONFIG_METHOD_3_FFB102BD9EB3B306_OFFSET UNITYSDK_OFFSET(0x1D4AEDE0)
+#define RPG_GAMECORE_RTMODIFIERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D4AE5D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtModifierConfig_TypeDefinitionIndex = 16944;
+	inline static constexpr unsigned int RtModifierConfig_TypeDefinitionIndex = 17446;
 
 	class RtModifierConfig : public ::RPG::GameCore::ModifierConfig
 	{
 	public:
-		static ::Il2CppArray<::System::String*>** StaticGet__RtModifierEventNameList()
-		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(RtModifierConfig_TypeDefinitionIndex)->GetStaticField(0x6C310);
-		}
 		static ::Il2CppArray<::System::String*>** StaticGet__RtModifierEventPriorityNameList()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(RtModifierConfig_TypeDefinitionIndex)->GetStaticField(0x6C318);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(RtModifierConfig_TypeDefinitionIndex)->GetStaticField(0x6CDD0);
+		}
+		static ::Il2CppArray<::System::String*>** StaticGet__RtModifierEventNameList()
+		{
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(RtModifierConfig_TypeDefinitionIndex)->GetStaticField(0x6CDD8);
 		}
 		::RPG::GameCore::FixPoint LifeTime; // 0x38
 		::System::Int32 MaxLayer; // 0x40

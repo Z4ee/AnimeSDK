@@ -5,19 +5,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ROGUETOURNBUFFGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B7914C0)
-#define RPG_GAMECORE_ROGUETOURNBUFFGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B791620)
+#define RPG_GAMECORE_ROGUETOURNBUFFGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D414B80)
+#define RPG_GAMECORE_ROGUETOURNBUFFGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D414CE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueTournBuffGroupRow_TypeDefinitionIndex = 14430;
+	inline static constexpr unsigned int RogueTournBuffGroupRow_TypeDefinitionIndex = 14850;
 
 	class RogueTournBuffGroupRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* RogueBuffDrop; // 0x10
-		::System::UInt32 RogueBuffGroupID; // 0x18
-		::RPG::GameCore::RogueTournMode TournMode; // 0x1C
+		::RPG::GameCore::RogueTournMode TournMode; // 0x18
+		::System::UInt32 RogueBuffGroupID; // 0x1C
 
 		::System::Void _ctor()
 		{

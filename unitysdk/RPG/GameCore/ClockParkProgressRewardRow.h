@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_CLOCKPARKPROGRESSREWARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B3669F0)
-#define RPG_GAMECORE_CLOCKPARKPROGRESSREWARDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B366F50)
+#define RPG_GAMECORE_CLOCKPARKPROGRESSREWARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CFE3B50)
+#define RPG_GAMECORE_CLOCKPARKPROGRESSREWARDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFE40F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ClockParkProgressRewardRow_TypeDefinitionIndex = 10805;
+	inline static constexpr unsigned int ClockParkProgressRewardRow_TypeDefinitionIndex = 11180;
 
 	class ClockParkProgressRewardRow : public ::System::Object
 	{

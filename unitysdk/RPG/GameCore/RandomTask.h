@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_RANDOMTASK_METHOD_3_F3631EE4B85CE5D5_OFFSET UNITYSDK_OFFSET(0x1B704B70)
-#define RPG_GAMECORE_RANDOMTASK_METHOD_3_F5C4800831608FD9_OFFSET UNITYSDK_OFFSET(0x1B704BC0)
-#define RPG_GAMECORE_RANDOMTASK__CTOR_OFFSET UNITYSDK_OFFSET(0x1B704BB0)
+#define RPG_GAMECORE_RANDOMTASK_METHOD_3_F5C4800831608FD9_OFFSET UNITYSDK_OFFSET(0x1D386C40)
+#define RPG_GAMECORE_RANDOMTASK_METHOD_3_F7745909B32D6A0C_OFFSET UNITYSDK_OFFSET(0x1D386C00)
+#define RPG_GAMECORE_RANDOMTASK__CTOR_OFFSET UNITYSDK_OFFSET(0x1D386C30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RandomTask_TypeDefinitionIndex = 20481;
+	inline static constexpr unsigned int RandomTask_TypeDefinitionIndex = 21033;
 
 	class RandomTask : public ::RPG::GameCore::TaskConfig
 	{
@@ -20,9 +20,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RANDOMTASK__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_F3631EE4B85CE5D5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RandomTask*& a2)
+		static ::System::Void Method_3_F7745909B32D6A0C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RandomTask*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RandomTask*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RANDOMTASK_METHOD_3_F3631EE4B85CE5D5_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RandomTask*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RANDOMTASK_METHOD_3_F7745909B32D6A0C_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_F5C4800831608FD9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RandomTask* a2)

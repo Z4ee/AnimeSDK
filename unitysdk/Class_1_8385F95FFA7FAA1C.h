@@ -9,25 +9,25 @@ class Class_1_F684F955DBCEA1AB;
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_1_8385F95FFA7FAA1C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A84E4E0)
+#define CLASS_1_8385F95FFA7FAA1C__CTOR_OFFSET UNITYSDK_OFFSET(0x1C47F550)
 
-inline static constexpr unsigned int Class_1_8385F95FFA7FAA1C_TypeDefinitionIndex = 40611;
+inline static constexpr unsigned int Class_1_8385F95FFA7FAA1C_TypeDefinitionIndex = 41549;
 
 class Class_1_8385F95FFA7FAA1C : public ::System::Object
 {
 public:
-	::Class_0_16E4307DCC419505_107* Field_1_0; // 0x10
-	::UnityEngine::Transform* Field_1_1; // 0x18
-	::UnityEngine::GameObject* Field_1_2; // 0x20
-	::Class_1_F684F955DBCEA1AB* Field_1_3; // 0x28
-	::UnityEngine::GameObject* Field_1_4; // 0x30
-	::UnityEngine::Vector3 Field_1_5; // 0x38
-	::System::Boolean Field_1_6; // 0x44
-	::UnityEngine::Quaternion Field_1_7; // 0x48
-	::UnityEngine::Vector3 Field_1_8; // 0x58
-	::UnityEngine::Vector3 Field_1_9; // 0x64
-	::UnityEngine::Vector3 Field_1_10; // 0x70
-	::UnityEngine::Quaternion Field_1_11; // 0x7C
+	::UnityEngine::GameObject* BOFGHEHAMKC; // 0x10
+	::Class_1_F684F955DBCEA1AB* IJDAJGKLAKH; // 0x18
+	::UnityEngine::Transform* NJGPHAIEOBP; // 0x20
+	::Class_0_16E4307DCC419505_107* ODPDOBEGCOE; // 0x28
+	::UnityEngine::GameObject* PBPHJKOGPBA; // 0x30
+	::UnityEngine::Vector3 MBEHLMNAFKL; // 0x38
+	::UnityEngine::Vector3 GFEOBHAAGJL; // 0x44
+	::UnityEngine::Vector3 PGJPJLJOGFN; // 0x50
+	::System::Boolean IJGHLLIBDKI; // 0x5C
+	::UnityEngine::Quaternion GJMALPAMOAC; // 0x60
+	::UnityEngine::Vector3 BNDDLHFKMPO; // 0x70
+	::UnityEngine::Quaternion IJECOIOPNFN; // 0x7C
 
 	::System::Void _ctor()
 	{

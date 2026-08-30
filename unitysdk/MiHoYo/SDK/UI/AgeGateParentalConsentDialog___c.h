@@ -5,24 +5,24 @@
 namespace MiHoYo::SDK::UI { class AgeGateParentalConsentDialog; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_UI_AGEGATEPARENTALCONSENTDIALOG___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19E26C80)
-#define MIHOYO_SDK_UI_AGEGATEPARENTALCONSENTDIALOG___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19E26CC0)
-#define MIHOYO_SDK_UI_AGEGATEPARENTALCONSENTDIALOG___C__SHOW_B__45_0_OFFSET UNITYSDK_OFFSET(0x19E26CD0)
+#define MIHOYO_SDK_UI_AGEGATEPARENTALCONSENTDIALOG___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BAE3A70)
+#define MIHOYO_SDK_UI_AGEGATEPARENTALCONSENTDIALOG___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1BAE3AB0)
+#define MIHOYO_SDK_UI_AGEGATEPARENTALCONSENTDIALOG___C__SHOW_B__45_0_OFFSET UNITYSDK_OFFSET(0x1BAE3AC0)
 
 namespace MiHoYo::SDK::UI
 {
-	inline static constexpr unsigned int AgeGateParentalConsentDialog___c_TypeDefinitionIndex = 8319;
+	inline static constexpr unsigned int AgeGateParentalConsentDialog___c_TypeDefinitionIndex = 8336;
 
 	class AgeGateParentalConsentDialog___c : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::MiHoYo::SDK::UI::AgeGateParentalConsentDialog*>** StaticGet___9__45_0()
-		{
-			return (::System::Action_1<::MiHoYo::SDK::UI::AgeGateParentalConsentDialog*>**)Il2CppClass::FromTypeDefinitionIndex(AgeGateParentalConsentDialog___c_TypeDefinitionIndex)->GetStaticField(0x2A5D0);
-		}
 		static ::MiHoYo::SDK::UI::AgeGateParentalConsentDialog___c** StaticGet___9()
 		{
-			return (::MiHoYo::SDK::UI::AgeGateParentalConsentDialog___c**)Il2CppClass::FromTypeDefinitionIndex(AgeGateParentalConsentDialog___c_TypeDefinitionIndex)->GetStaticField(0x2A5D8);
+			return (::MiHoYo::SDK::UI::AgeGateParentalConsentDialog___c**)Il2CppClass::FromTypeDefinitionIndex(AgeGateParentalConsentDialog___c_TypeDefinitionIndex)->GetStaticField(0x276A0);
+		}
+		static ::System::Action_1<::MiHoYo::SDK::UI::AgeGateParentalConsentDialog*>** StaticGet___9__45_0()
+		{
+			return (::System::Action_1<::MiHoYo::SDK::UI::AgeGateParentalConsentDialog*>**)Il2CppClass::FromTypeDefinitionIndex(AgeGateParentalConsentDialog___c_TypeDefinitionIndex)->GetStaticField(0x276A8);
 		}
 
 		static ::System::Void _cctor()

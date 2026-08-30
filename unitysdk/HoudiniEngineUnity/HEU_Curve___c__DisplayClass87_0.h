@@ -7,20 +7,20 @@
 namespace HoudiniEngineUnity { class CurveNodeData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define HOUDINIENGINEUNITY_HEU_CURVE___C__DISPLAYCLASS87_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19851100)
-#define HOUDINIENGINEUNITY_HEU_CURVE___C__DISPLAYCLASS87_0__UPDATECURVEINPUTFORCURVEPARTS_B__0_OFFSET UNITYSDK_OFFSET(0x198535C0)
+#define HOUDINIENGINEUNITY_HEU_CURVE___C__DISPLAYCLASS87_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3DC640)
+#define HOUDINIENGINEUNITY_HEU_CURVE___C__DISPLAYCLASS87_0__UPDATECURVEINPUTFORCURVEPARTS_B__0_OFFSET UNITYSDK_OFFSET(0x1B3DEB20)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_Curve___c__DisplayClass87_0_TypeDefinitionIndex = 38229;
+	inline static constexpr unsigned int HEU_Curve___c__DisplayClass87_0_TypeDefinitionIndex = 39088;
 
 	class HEU_Curve___c__DisplayClass87_0 : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* positions; // 0x10
+		::System::Collections::Generic::List_1<::UnityEngine::Quaternion>* rotations; // 0x10
 		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* scales; // 0x18
-		::System::Collections::Generic::List_1<::UnityEngine::Quaternion>* rotations; // 0x20
-		::System::Collections::Generic::List_1<::System::Int32>* curveCountIndices; // 0x28
+		::System::Collections::Generic::List_1<::System::Int32>* curveCountIndices; // 0x20
+		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* positions; // 0x28
 		::System::Boolean hasRotations; // 0x30
 		::System::Boolean hasScales; // 0x31
 

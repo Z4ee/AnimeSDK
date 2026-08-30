@@ -6,12 +6,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_RESTAURANTFARMCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B7288F0)
-#define RPG_GAMECORE_RESTAURANTFARMCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B728B70)
+#define RPG_GAMECORE_RESTAURANTFARMCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3AAEA0)
+#define RPG_GAMECORE_RESTAURANTFARMCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3AB120)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RestaurantFarmConfigRow_TypeDefinitionIndex = 10981;
+	inline static constexpr unsigned int RestaurantFarmConfigRow_TypeDefinitionIndex = 11356;
 
 	class RestaurantFarmConfigRow : public ::System::Object
 	{

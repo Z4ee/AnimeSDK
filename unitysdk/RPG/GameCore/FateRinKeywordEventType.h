@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FateRinKeywordEventType_TypeDefinitionIndex = 53453;
+	inline static constexpr unsigned int FateRinKeywordEventType_TypeDefinitionIndex = 56167;
 
 	enum class FateRinKeywordEventType : ::System::Byte
 	{

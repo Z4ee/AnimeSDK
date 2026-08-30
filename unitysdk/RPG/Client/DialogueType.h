@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DialogueType_TypeDefinitionIndex = 60760;
+	inline static constexpr unsigned int DialogueType_TypeDefinitionIndex = 63613;
 
 	enum class DialogueType : ::System::Int32
 	{

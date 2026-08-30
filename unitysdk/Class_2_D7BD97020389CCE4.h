@@ -6,15 +6,15 @@ class Class_2_21AD365C113DC484;
 class Class_2_F3C45F1FC7349B6E;
 namespace RPG::GameCore { class CakeRaceActionSpawnAbility; }
 
-#define CLASS_2_D7BD97020389CCE4_METHOD_2_1A8FE672C458334F_OFFSET UNITYSDK_OFFSET(0x1A488030)
-#define CLASS_2_D7BD97020389CCE4__CTOR_OFFSET UNITYSDK_OFFSET(0x1A488020)
+#define CLASS_2_D7BD97020389CCE4_METHOD_2_1A8FE672C458334F_OFFSET UNITYSDK_OFFSET(0x1C097B60)
+#define CLASS_2_D7BD97020389CCE4__CTOR_OFFSET UNITYSDK_OFFSET(0x1C097B50)
 
-inline static constexpr unsigned int Class_2_D7BD97020389CCE4_TypeDefinitionIndex = 35825;
+inline static constexpr unsigned int Class_2_D7BD97020389CCE4_TypeDefinitionIndex = 36686;
 
 class Class_2_D7BD97020389CCE4 : public ::Class_1_E559374AC4E5AD13
 {
 public:
-	::RPG::GameCore::CakeRaceActionSpawnAbility* Field_2_0; // 0x10
+	::RPG::GameCore::CakeRaceActionSpawnAbility* IGHAHBNLIJA; // 0x10
 
 	::System::Void _ctor(::RPG::GameCore::CakeRaceActionSpawnAbility* a1)
 	{

@@ -8,23 +8,23 @@ namespace RPG::GameCore { class RetargetList; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_ECE2DCB3A896678F_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB58AE60)
-#define CLASS_2_ECE2DCB3A896678F_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB58B060)
-#define CLASS_2_ECE2DCB3A896678F_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB58B820)
-#define CLASS_2_ECE2DCB3A896678F_TICK_OFFSET UNITYSDK_OFFSET(0xB58B520)
-#define CLASS_2_ECE2DCB3A896678F__CTOR_OFFSET UNITYSDK_OFFSET(0xB58AC90)
+#define CLASS_2_ECE2DCB3A896678F_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBF836C0)
+#define CLASS_2_ECE2DCB3A896678F_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBF838C0)
+#define CLASS_2_ECE2DCB3A896678F_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBF84080)
+#define CLASS_2_ECE2DCB3A896678F_TICK_OFFSET UNITYSDK_OFFSET(0xBF83D80)
+#define CLASS_2_ECE2DCB3A896678F__CTOR_OFFSET UNITYSDK_OFFSET(0xBF834F0)
 
-inline static constexpr unsigned int Class_2_ECE2DCB3A896678F_TypeDefinitionIndex = 52819;
+inline static constexpr unsigned int Class_2_ECE2DCB3A896678F_TypeDefinitionIndex = 55522;
 
 class Class_2_ECE2DCB3A896678F : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::RPG::GameCore::RetargetList* Field_2_0; // 0x18
-	::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* Field_2_1; // 0x20
-	::Class_3_07C3C4D2990C49EE* Field_2_2; // 0x28
-	::Class_3_07C3C4D2990C49EE* Field_2_3; // 0x30
-	::Class_1_5F51D4049EA87B7B* Field_2_4; // 0x38
-	::RPG::GameCore::TaskContext* Field_2_5; // 0x40
+	::Class_3_07C3C4D2990C49EE* ABLEHPJLDDM; // 0x18
+	::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* BLOMOEJJCIK; // 0x20
+	::Class_1_5F51D4049EA87B7B* LLHKOFLJFCH; // 0x28
+	::Class_3_07C3C4D2990C49EE* FNLJDEPHGFK; // 0x30
+	::RPG::GameCore::RetargetList* OFKGLJOAMLD; // 0x38
+	::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x40
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::RetargetList* a2)
 	{

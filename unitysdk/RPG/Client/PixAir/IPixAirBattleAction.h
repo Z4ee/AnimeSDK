@@ -8,7 +8,7 @@ namespace RPG::Client::PixAir { class PixAirGameBattleRoundData; }
 
 namespace RPG::Client::PixAir
 {
-	inline static constexpr unsigned int IPixAirBattleAction_TypeDefinitionIndex = 75251;
+	inline static constexpr unsigned int IPixAirBattleAction_TypeDefinitionIndex = 78798;
 
 	class IPixAirBattleAction
 	{

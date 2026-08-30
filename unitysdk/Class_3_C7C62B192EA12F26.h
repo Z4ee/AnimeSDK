@@ -6,19 +6,19 @@ namespace RPG::Client { class ElfFarmGameplayManager; }
 namespace RPG::GameCore { class ElfFarmGameplayInit; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_C7C62B192EA12F26_DISPOSE_OFFSET UNITYSDK_OFFSET(0x147142A0)
-#define CLASS_3_C7C62B192EA12F26_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x14714300)
-#define CLASS_3_C7C62B192EA12F26_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x14714470)
-#define CLASS_3_C7C62B192EA12F26__CTOR_OFFSET UNITYSDK_OFFSET(0x14714270)
+#define CLASS_3_C7C62B192EA12F26_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15580B20)
+#define CLASS_3_C7C62B192EA12F26_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15580B80)
+#define CLASS_3_C7C62B192EA12F26_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15580CF0)
+#define CLASS_3_C7C62B192EA12F26__CTOR_OFFSET UNITYSDK_OFFSET(0x15580AF0)
 
-inline static constexpr unsigned int Class_3_C7C62B192EA12F26_TypeDefinitionIndex = 50350;
+inline static constexpr unsigned int Class_3_C7C62B192EA12F26_TypeDefinitionIndex = 53013;
 
 class Class_3_C7C62B192EA12F26 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ElfFarmGameplayInit*>
 {
 public:
-	::RPG::Client::ElfFarmGameplayManager* Field_3_0; // 0x28
-	::RPG::GameCore::ElfFarmGameplayInit* Field_3_1; // 0x30
-	::RPG::GameCore::TaskContext* Field_3_2; // 0x38
+	::RPG::GameCore::ElfFarmGameplayInit* OFKGLJOAMLD; // 0x28
+	::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x30
+	::RPG::Client::ElfFarmGameplayManager* PNMFAOJNNIC; // 0x38
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ElfFarmGameplayInit* a2)
 	{

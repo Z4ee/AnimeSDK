@@ -8,24 +8,24 @@ namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class RectTransform; }
 
-#define RPG_CLIENT_TARGETINRECTVIEWHELPER_METHOD_5_7A50CDD4EBE01E4D_OFFSET UNITYSDK_OFFSET(0xD618BF0)
-#define RPG_CLIENT_TARGETINRECTVIEWHELPER_METHOD_5_95D8F4A57CDDC3AF_OFFSET UNITYSDK_OFFSET(0xD617760)
-#define RPG_CLIENT_TARGETINRECTVIEWHELPER_START_OFFSET UNITYSDK_OFFSET(0xD617590)
-#define RPG_CLIENT_TARGETINRECTVIEWHELPER_UPDATE_OFFSET UNITYSDK_OFFSET(0xD617990)
-#define RPG_CLIENT_TARGETINRECTVIEWHELPER__CTOR_OFFSET UNITYSDK_OFFSET(0xD618DC0)
+#define RPG_CLIENT_TARGETINRECTVIEWHELPER_METHOD_5_7A50CDD4EBE01E4D_OFFSET UNITYSDK_OFFSET(0xE168730)
+#define RPG_CLIENT_TARGETINRECTVIEWHELPER_METHOD_5_95D8F4A57CDDC3AF_OFFSET UNITYSDK_OFFSET(0xE1672D0)
+#define RPG_CLIENT_TARGETINRECTVIEWHELPER_START_OFFSET UNITYSDK_OFFSET(0xE167100)
+#define RPG_CLIENT_TARGETINRECTVIEWHELPER_UPDATE_OFFSET UNITYSDK_OFFSET(0xE167500)
+#define RPG_CLIENT_TARGETINRECTVIEWHELPER__CTOR_OFFSET UNITYSDK_OFFSET(0xE168900)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TargetInRectViewHelper_TypeDefinitionIndex = 66348;
+	inline static constexpr unsigned int TargetInRectViewHelper_TypeDefinitionIndex = 69440;
 
 	class TargetInRectViewHelper : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		::UnityEngine::GameObject* Field_5_0; // 0x18
-		::UnityEngine::GameObject* Field_5_1; // 0x20
-		::UnityEngine::GameObject* Field_5_2; // 0x28
-		::UnityEngine::GameObject* Field_5_3; // 0x30
-		::UnityEngine::RectTransform* Field_5_4; // 0x38
+		::UnityEngine::GameObject* IAOBJIMIMJB; // 0x18
+		::UnityEngine::GameObject* AFLMJMMOHHH; // 0x20
+		::UnityEngine::GameObject* DJCJLMCNKPA; // 0x28
+		::UnityEngine::GameObject* ILNEJCEKDJC; // 0x30
+		::UnityEngine::RectTransform* PGGPJFHBIFO; // 0x38
 		::UnityEngine::GameObject* LookAtTarget; // 0x40
 		::UnityEngine::Vector2 Size; // 0x48
 		::UnityEngine::Vector3 NodeOffect; // 0x50

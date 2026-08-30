@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FateRinCaseBoardRelationType_TypeDefinitionIndex = 15590;
+	inline static constexpr unsigned int FateRinCaseBoardRelationType_TypeDefinitionIndex = 16059;
 
 	enum class FateRinCaseBoardRelationType : ::System::Int32
 	{

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CRIWARE_CRIMANA_SETTINGS_SETDECODESKIPPINGENABLED_OFFSET UNITYSDK_OFFSET(0x15779D50)
+#define CRIWARE_CRIMANA_SETTINGS_SETDECODESKIPPINGENABLED_OFFSET UNITYSDK_OFFSET(0x16504A00)
 
 namespace CriWare::CriMana
 {
-	inline static constexpr unsigned int Settings_TypeDefinitionIndex = 38057;
+	inline static constexpr unsigned int Settings_TypeDefinitionIndex = 38916;
 
 	class Settings : public ::System::Object
 	{

@@ -5,12 +5,12 @@
 namespace InControl { class InputDevice; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define INCONTROL_INPUTDEVICEMANAGER_DESTROY_OFFSET UNITYSDK_OFFSET(0x1996A830)
-#define INCONTROL_INPUTDEVICEMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1996A840)
+#define INCONTROL_INPUTDEVICEMANAGER_DESTROY_OFFSET UNITYSDK_OFFSET(0x1B4F94F0)
+#define INCONTROL_INPUTDEVICEMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4F9500)
 
 namespace InControl
 {
-	inline static constexpr unsigned int InputDeviceManager_TypeDefinitionIndex = 38685;
+	inline static constexpr unsigned int InputDeviceManager_TypeDefinitionIndex = 39544;
 
 	class InputDeviceManager : public ::System::Object
 	{

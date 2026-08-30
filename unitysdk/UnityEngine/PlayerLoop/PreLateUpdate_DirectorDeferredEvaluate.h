@@ -4,7 +4,7 @@
 
 namespace UnityEngine::PlayerLoop
 {
-	inline static constexpr unsigned int PreLateUpdate_DirectorDeferredEvaluate_TypeDefinitionIndex = 4605;
+	inline static constexpr unsigned int PreLateUpdate_DirectorDeferredEvaluate_TypeDefinitionIndex = 4615;
 
 	struct alignas(1) PreLateUpdate_DirectorDeferredEvaluate
 	{

@@ -5,9 +5,9 @@
 class HipplenBuilderTimeAsset_TimeConfig;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define HIPPLENBUILDERTIMEASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x14BDEE50)
+#define HIPPLENBUILDERTIMEASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x15ADF370)
 
-inline static constexpr unsigned int HipplenBuilderTimeAsset_TypeDefinitionIndex = 45445;
+inline static constexpr unsigned int HipplenBuilderTimeAsset_TypeDefinitionIndex = 47695;
 
 class HipplenBuilderTimeAsset : public ::UnityEngine::ScriptableObject
 {

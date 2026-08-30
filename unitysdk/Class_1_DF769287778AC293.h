@@ -8,24 +8,24 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Text { class StringBuilder; }
 
-#define CLASS_1_DF769287778AC293_METHOD_1_5BF44407DD8AE9FB_OFFSET UNITYSDK_OFFSET(0x15435F50)
-#define CLASS_1_DF769287778AC293_METHOD_1_A53A08945959EB6D_OFFSET UNITYSDK_OFFSET(0x15435BE0)
-#define CLASS_1_DF769287778AC293_METHOD_1_D67BAA276D731371_OFFSET UNITYSDK_OFFSET(0x15436970)
-#define CLASS_1_DF769287778AC293__CTOR_OFFSET UNITYSDK_OFFSET(0x15436D10)
+#define CLASS_1_DF769287778AC293_METHOD_1_5BF44407DD8AE9FB_OFFSET UNITYSDK_OFFSET(0x1637BD20)
+#define CLASS_1_DF769287778AC293_METHOD_1_A53A08945959EB6D_OFFSET UNITYSDK_OFFSET(0x1637B9B0)
+#define CLASS_1_DF769287778AC293_METHOD_1_D67BAA276D731371_OFFSET UNITYSDK_OFFSET(0x1637C720)
+#define CLASS_1_DF769287778AC293__CTOR_OFFSET UNITYSDK_OFFSET(0x1637CAC0)
 
-inline static constexpr unsigned int Class_1_DF769287778AC293_TypeDefinitionIndex = 56375;
+inline static constexpr unsigned int Class_1_DF769287778AC293_TypeDefinitionIndex = 59157;
 
 class Class_1_DF769287778AC293 : public ::System::Object
 {
 public:
-	static ::Il2CppArray<::System::Byte>** StaticGet_Field_1_0()
+	static ::Il2CppArray<::System::Byte>** StaticGet_DMMAEFCLCHK()
 	{
-		return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_DF769287778AC293_TypeDefinitionIndex)->GetStaticField(0x2E1E0);
+		return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_DF769287778AC293_TypeDefinitionIndex)->GetStaticField(0x58BC0);
 	}
-	::System::Collections::Generic::List_1<::Struct_2_64F26B9ED0181D80>* Field_1_1; // 0x10
-	::System::UInt32 Field_1_2; // 0x18
-	::System::UInt32 Field_1_3; // 0x1C
-	::System::UInt32 Field_1_4; // 0x20
+	::System::Collections::Generic::List_1<::Struct_2_64F26B9ED0181D80>* CNJNGIOGGKH; // 0x10
+	::System::UInt32 FGIGJGGFIOP; // 0x18
+	::System::UInt32 AMCPMEAOJJK; // 0x1C
+	::System::UInt32 KAPJNJDCACL; // 0x20
 
 	::System::Void _ctor()
 	{

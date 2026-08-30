@@ -6,15 +6,15 @@ class Class_2_21AD365C113DC484;
 class Class_2_F3C45F1FC7349B6E;
 namespace RPG::GameCore { class CakeRaceActionOverrideBaseWaitTime; }
 
-#define CLASS_2_CCA7BCED9DCC8C98_METHOD_2_28135C4E1CF36226_OFFSET UNITYSDK_OFFSET(0x1A592880)
-#define CLASS_2_CCA7BCED9DCC8C98__CTOR_OFFSET UNITYSDK_OFFSET(0x1A5765A0)
+#define CLASS_2_CCA7BCED9DCC8C98_METHOD_2_28135C4E1CF36226_OFFSET UNITYSDK_OFFSET(0x1C1A2780)
+#define CLASS_2_CCA7BCED9DCC8C98__CTOR_OFFSET UNITYSDK_OFFSET(0x1C186400)
 
-inline static constexpr unsigned int Class_2_CCA7BCED9DCC8C98_TypeDefinitionIndex = 35842;
+inline static constexpr unsigned int Class_2_CCA7BCED9DCC8C98_TypeDefinitionIndex = 36703;
 
 class Class_2_CCA7BCED9DCC8C98 : public ::Class_1_E559374AC4E5AD13
 {
 public:
-	::RPG::GameCore::CakeRaceActionOverrideBaseWaitTime* Field_2_0; // 0x10
+	::RPG::GameCore::CakeRaceActionOverrideBaseWaitTime* DMGMNNJMAHF; // 0x10
 
 	::System::Void _ctor(::RPG::GameCore::CakeRaceActionOverrideBaseWaitTime* a1)
 	{

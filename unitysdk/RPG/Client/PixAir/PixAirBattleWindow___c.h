@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_PIXAIR_PIXAIRBATTLEWINDOW___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xCFAEB20)
-#define RPG_CLIENT_PIXAIR_PIXAIRBATTLEWINDOW___C__CTOR_OFFSET UNITYSDK_OFFSET(0xCFAEB60)
+#define RPG_CLIENT_PIXAIR_PIXAIRBATTLEWINDOW___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xDAEE1E0)
+#define RPG_CLIENT_PIXAIR_PIXAIRBATTLEWINDOW___C__CTOR_OFFSET UNITYSDK_OFFSET(0xDAEE220)
 
 namespace RPG::Client::PixAir
 {
-	inline static constexpr unsigned int PixAirBattleWindow___c_TypeDefinitionIndex = 75210;
+	inline static constexpr unsigned int PixAirBattleWindow___c_TypeDefinitionIndex = 78757;
 
 	class PixAirBattleWindow___c : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::PixAir::PixAirBattleWindow___c** StaticGet___9()
 		{
-			return (::RPG::Client::PixAir::PixAirBattleWindow___c**)Il2CppClass::FromTypeDefinitionIndex(PixAirBattleWindow___c_TypeDefinitionIndex)->GetStaticField(0x68690);
+			return (::RPG::Client::PixAir::PixAirBattleWindow___c**)Il2CppClass::FromTypeDefinitionIndex(PixAirBattleWindow___c_TypeDefinitionIndex)->GetStaticField(0x58AC0);
 		}
 
 		static ::System::Void _cctor()

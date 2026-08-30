@@ -6,17 +6,17 @@ namespace RPG::Client { class IAdventureSettingConflictShowInfo; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_DF95282726A91A64_METHOD_1_5CC3E83085F8132A_OFFSET UNITYSDK_OFFSET(0xB715BE0)
-#define CLASS_1_DF95282726A91A64_METHOD_1_5CEC4607322705E5_OFFSET UNITYSDK_OFFSET(0xB715B20)
-#define CLASS_1_DF95282726A91A64_METHOD_1_C6E14CE377D03CE0_OFFSET UNITYSDK_OFFSET(0xB715B70)
-#define CLASS_1_DF95282726A91A64__CTOR_OFFSET UNITYSDK_OFFSET(0xB715CB0)
+#define CLASS_1_DF95282726A91A64_METHOD_1_5CC3E83085F8132A_OFFSET UNITYSDK_OFFSET(0xC0E4500)
+#define CLASS_1_DF95282726A91A64_METHOD_1_5CEC4607322705E5_OFFSET UNITYSDK_OFFSET(0xC0E4420)
+#define CLASS_1_DF95282726A91A64_METHOD_1_F00C9C530ADB1CA9_OFFSET UNITYSDK_OFFSET(0xC0E4470)
+#define CLASS_1_DF95282726A91A64__CTOR_OFFSET UNITYSDK_OFFSET(0xC0E45D0)
 
-inline static constexpr unsigned int Class_1_DF95282726A91A64_TypeDefinitionIndex = 61294;
+inline static constexpr unsigned int Class_1_DF95282726A91A64_TypeDefinitionIndex = 64275;
 
 class Class_1_DF95282726A91A64 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::System::String*>* Field_1_0; // 0x10
+	::System::Collections::Generic::List_1<::System::String*>* BMHFJFONNKC; // 0x10
 
 	::System::Void _ctor()
 	{
@@ -28,9 +28,9 @@ public:
 		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_DF95282726A91A64_METHOD_1_5CEC4607322705E5_OFFSET))(this);
 	}
 
-	::System::Boolean Method_1_C6E14CE377D03CE0(::System::String* a1)
+	::System::Boolean Method_1_F00C9C530ADB1CA9(::System::String* a1)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_DF95282726A91A64_METHOD_1_C6E14CE377D03CE0_OFFSET))(this, a1);
+		return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_DF95282726A91A64_METHOD_1_F00C9C530ADB1CA9_OFFSET))(this, a1);
 	}
 
 	::RPG::Client::IAdventureSettingConflictShowInfo* Method_1_5CC3E83085F8132A(::System::String* a1, ::System::String* a2)

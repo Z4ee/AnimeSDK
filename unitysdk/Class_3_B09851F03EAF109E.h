@@ -6,15 +6,15 @@ class Class_2_21055A9FA74B791E;
 namespace RPG::GameCore { class ST_ByInAIStatus; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_B09851F03EAF109E_EVALUATE_OFFSET UNITYSDK_OFFSET(0x14CFF340)
-#define CLASS_3_B09851F03EAF109E__CTOR_OFFSET UNITYSDK_OFFSET(0x14CFF280)
+#define CLASS_3_B09851F03EAF109E_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15BC4F50)
+#define CLASS_3_B09851F03EAF109E__CTOR_OFFSET UNITYSDK_OFFSET(0x15BC4E90)
 
-inline static constexpr unsigned int Class_3_B09851F03EAF109E_TypeDefinitionIndex = 49824;
+inline static constexpr unsigned int Class_3_B09851F03EAF109E_TypeDefinitionIndex = 52484;
 
 class Class_3_B09851F03EAF109E : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ST_ByInAIStatus*>
 {
 public:
-	::Class_2_21055A9FA74B791E* Field_3_0; // 0x28
+	::Class_2_21055A9FA74B791E* PJLGDHFHFLO; // 0x28
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ST_ByInAIStatus* a2)
 	{

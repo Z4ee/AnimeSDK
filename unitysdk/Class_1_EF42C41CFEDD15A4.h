@@ -5,23 +5,23 @@
 namespace RPG::Client::Prop { class ChimeraBattlePuzzleBoard; }
 namespace System { class Action; }
 
-#define CLASS_1_EF42C41CFEDD15A4_GET_ISFINISHED_OFFSET UNITYSDK_OFFSET(0xB6C4720)
-#define CLASS_1_EF42C41CFEDD15A4_METHOD_1_25E18DDE0F75BD81_OFFSET UNITYSDK_OFFSET(0xB6C40A0)
-#define CLASS_1_EF42C41CFEDD15A4_METHOD_1_B877181B6123B7F6_OFFSET UNITYSDK_OFFSET(0xB6C44D0)
-#define CLASS_1_EF42C41CFEDD15A4_SET_ISFINISHED_OFFSET UNITYSDK_OFFSET(0xB6C4730)
-#define CLASS_1_EF42C41CFEDD15A4__CTOR_OFFSET UNITYSDK_OFFSET(0xB6C3EA0)
+#define CLASS_1_EF42C41CFEDD15A4_GET_ISFINISHED_OFFSET UNITYSDK_OFFSET(0xC12B590)
+#define CLASS_1_EF42C41CFEDD15A4_METHOD_1_25E18DDE0F75BD81_OFFSET UNITYSDK_OFFSET(0xC12AF10)
+#define CLASS_1_EF42C41CFEDD15A4_METHOD_1_B877181B6123B7F6_OFFSET UNITYSDK_OFFSET(0xC12B340)
+#define CLASS_1_EF42C41CFEDD15A4_SET_ISFINISHED_OFFSET UNITYSDK_OFFSET(0xC12B5A0)
+#define CLASS_1_EF42C41CFEDD15A4__CTOR_OFFSET UNITYSDK_OFFSET(0xC12AD10)
 
-inline static constexpr unsigned int Class_1_EF42C41CFEDD15A4_TypeDefinitionIndex = 74483;
+inline static constexpr unsigned int Class_1_EF42C41CFEDD15A4_TypeDefinitionIndex = 77968;
 
 class Class_1_EF42C41CFEDD15A4 : public ::System::Object
 {
 public:
-	::System::Action* Field_1_0; // 0x10
-	::RPG::Client::Prop::ChimeraBattlePuzzleBoard* Field_1_1; // 0x18
-	::System::Single Field_1_2; // 0x20
-	::System::Boolean _IsFinished_k__BackingField; // 0x24
-	::System::Single Field_1_4; // 0x28
-	::System::Int32 Field_1_5; // 0x2C
+	::System::Action* MECKBKLEHAN; // 0x10
+	::RPG::Client::Prop::ChimeraBattlePuzzleBoard* NHNHKBJJKPP; // 0x18
+	::System::Single FOMCKBAHCFM; // 0x20
+	::System::Int32 GGDBFECPDPF; // 0x24
+	::System::Boolean _IsFinished_k__BackingField; // 0x28
+	::System::Single MFLNKDOADDG; // 0x2C
 
 	::System::Void _ctor(::System::Single a1, ::System::Int32 a2, ::RPG::Client::Prop::ChimeraBattlePuzzleBoard* a3, ::System::Action* a4)
 	{

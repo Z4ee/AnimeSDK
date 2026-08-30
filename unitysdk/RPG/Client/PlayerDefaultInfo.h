@@ -4,38 +4,38 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_PLAYERDEFAULTINFO_GETHEADICONID_OFFSET UNITYSDK_OFFSET(0xD0A2C50)
-#define RPG_CLIENT_PLAYERDEFAULTINFO_GET_HEADICONID_OFFSET UNITYSDK_OFFSET(0xD0A2100)
-#define RPG_CLIENT_PLAYERDEFAULTINFO_GET_PERSONALCARDID_OFFSET UNITYSDK_OFFSET(0xD0A1EA0)
-#define RPG_CLIENT_PLAYERDEFAULTINFO_GET_SIGNATURE_OFFSET UNITYSDK_OFFSET(0xD0A2330)
-#define RPG_CLIENT_PLAYERDEFAULTINFO_SET_HEADICONID_OFFSET UNITYSDK_OFFSET(0xD0A21D0)
-#define RPG_CLIENT_PLAYERDEFAULTINFO_SET_PERSONALCARDID_OFFSET UNITYSDK_OFFSET(0xD0A2040)
-#define RPG_CLIENT_PLAYERDEFAULTINFO_SET_SIGNATURE_OFFSET UNITYSDK_OFFSET(0xD0A2440)
-#define RPG_CLIENT_PLAYERDEFAULTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xD0A2C40)
-#define RPG_CLIENT_PLAYERDEFAULTINFO__GETDEFAULTSIGNATURE_OFFSET UNITYSDK_OFFSET(0xD0A2D70)
+#define RPG_CLIENT_PLAYERDEFAULTINFO_GETHEADICONID_OFFSET UNITYSDK_OFFSET(0xDBA5570)
+#define RPG_CLIENT_PLAYERDEFAULTINFO_GET_HEADICONID_OFFSET UNITYSDK_OFFSET(0xDBA4A20)
+#define RPG_CLIENT_PLAYERDEFAULTINFO_GET_PERSONALCARDID_OFFSET UNITYSDK_OFFSET(0xDBA47C0)
+#define RPG_CLIENT_PLAYERDEFAULTINFO_GET_SIGNATURE_OFFSET UNITYSDK_OFFSET(0xDBA4C50)
+#define RPG_CLIENT_PLAYERDEFAULTINFO_SET_HEADICONID_OFFSET UNITYSDK_OFFSET(0xDBA4AF0)
+#define RPG_CLIENT_PLAYERDEFAULTINFO_SET_PERSONALCARDID_OFFSET UNITYSDK_OFFSET(0xDBA4960)
+#define RPG_CLIENT_PLAYERDEFAULTINFO_SET_SIGNATURE_OFFSET UNITYSDK_OFFSET(0xDBA4D60)
+#define RPG_CLIENT_PLAYERDEFAULTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xDBA5560)
+#define RPG_CLIENT_PLAYERDEFAULTINFO__GETDEFAULTSIGNATURE_OFFSET UNITYSDK_OFFSET(0xDBA5690)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlayerDefaultInfo_TypeDefinitionIndex = 63719;
+	inline static constexpr unsigned int PlayerDefaultInfo_TypeDefinitionIndex = 66704;
 
 	class PlayerDefaultInfo : public ::System::Object
 	{
 	public:
-		static ::System::String** StaticGet__CacheLanguageType()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(PlayerDefaultInfo_TypeDefinitionIndex)->GetStaticField(0x694F0);
-		}
 		static ::System::String** StaticGet__DEFAULTSIGNATURE()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(PlayerDefaultInfo_TypeDefinitionIndex)->GetStaticField(0x694F8);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(PlayerDefaultInfo_TypeDefinitionIndex)->GetStaticField(0x60D60);
+		}
+		static ::System::String** StaticGet__CacheLanguageType()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(PlayerDefaultInfo_TypeDefinitionIndex)->GetStaticField(0x60D68);
 		}
 		static ::System::UInt32* StaticGet__DEFAULTHEADICONID()
 		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(PlayerDefaultInfo_TypeDefinitionIndex)->GetStaticField(0x147A0);
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(PlayerDefaultInfo_TypeDefinitionIndex)->GetStaticField(0x13D60);
 		}
 		::System::String* _Signature; // 0x10
-		::System::UInt32 _PersonalCardID; // 0x18
-		::System::UInt32 _HeadIconID; // 0x1C
+		::System::UInt32 _HeadIconID; // 0x18
+		::System::UInt32 _PersonalCardID; // 0x1C
 
 		::System::Void _ctor()
 		{

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ConvincePanelActive; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_01A930BB44DD8C6D_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB1DFF60)
-#define CLASS_3_01A930BB44DD8C6D__CTOR_OFFSET UNITYSDK_OFFSET(0xB1DFF30)
+#define CLASS_3_01A930BB44DD8C6D_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBBB3F20)
+#define CLASS_3_01A930BB44DD8C6D__CTOR_OFFSET UNITYSDK_OFFSET(0xBBB3EF0)
 
-inline static constexpr unsigned int Class_3_01A930BB44DD8C6D_TypeDefinitionIndex = 50321;
+inline static constexpr unsigned int Class_3_01A930BB44DD8C6D_TypeDefinitionIndex = 52984;
 
 class Class_3_01A930BB44DD8C6D : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ConvincePanelActive*>
 {

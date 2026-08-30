@@ -3,7 +3,7 @@
 
 namespace HedgehogTeam::EasyTouch
 {
-	inline static constexpr unsigned int QuickSwipe_ActionTriggering_TypeDefinitionIndex = 38115;
+	inline static constexpr unsigned int QuickSwipe_ActionTriggering_TypeDefinitionIndex = 38974;
 
 	enum class QuickSwipe_ActionTriggering : ::System::Int32
 	{

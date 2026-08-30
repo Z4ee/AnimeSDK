@@ -5,23 +5,23 @@
 #include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_4F029BEB084628A6;
+class Class_1_5CFC3AE61DDB76FA;
 class Class_2_1DB6C02CA182EEBA;
 namespace RPG::GameCore { class FateBattleManager; }
 
-#define RPG_GAMECORE_FATEBATTLEMANAGER___C__DISPLAYCLASS32_0__CTOR_OFFSET UNITYSDK_OFFSET(0xDA83220)
-#define RPG_GAMECORE_FATEBATTLEMANAGER___C__DISPLAYCLASS32_0___APPLYFATEBUFF_B__0_OFFSET UNITYSDK_OFFSET(0xDA84D60)
+#define RPG_GAMECORE_FATEBATTLEMANAGER___C__DISPLAYCLASS32_0__CTOR_OFFSET UNITYSDK_OFFSET(0xE641E10)
+#define RPG_GAMECORE_FATEBATTLEMANAGER___C__DISPLAYCLASS32_0___APPLYFATEBUFF_B__0_OFFSET UNITYSDK_OFFSET(0xE6438D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FateBattleManager___c__DisplayClass32_0_TypeDefinitionIndex = 53560;
+	inline static constexpr unsigned int FateBattleManager___c__DisplayClass32_0_TypeDefinitionIndex = 56274;
 
 	class FateBattleManager___c__DisplayClass32_0 : public ::System::Object
 	{
 	public:
 		::Class_2_1DB6C02CA182EEBA* pInstance; // 0x10
-		::RPG::GameCore::FateBattleManager* __4__this; // 0x18
-		::Class_1_4F029BEB084628A6* pFateBuffData; // 0x20
+		::Class_1_5CFC3AE61DDB76FA* pFateBuffData; // 0x18
+		::RPG::GameCore::FateBattleManager* __4__this; // 0x20
 
 		::System::Void _ctor()
 		{

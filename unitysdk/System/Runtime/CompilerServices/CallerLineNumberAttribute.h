@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SYSTEM_RUNTIME_COMPILERSERVICES_CALLERLINENUMBERATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1B3760)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_CALLERLINENUMBERATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDBB660)
 
 namespace System::Runtime::CompilerServices
 {
-	inline static constexpr unsigned int CallerLineNumberAttribute_TypeDefinitionIndex = 1353;
+	inline static constexpr unsigned int CallerLineNumberAttribute_TypeDefinitionIndex = 1360;
 
 	class CallerLineNumberAttribute : public ::System::Attribute
 	{

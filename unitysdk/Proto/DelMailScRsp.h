@@ -11,41 +11,41 @@ namespace Google::Protobuf::Collections { template <typename T> class RepeatedFi
 namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 namespace System { class String; }
 
-#define PROTO_DELMAILSCRSP_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1BC66120)
-#define PROTO_DELMAILSCRSP_CLONE_OFFSET UNITYSDK_OFFSET(0x1BC65C90)
-#define PROTO_DELMAILSCRSP_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1BC65DF0)
-#define PROTO_DELMAILSCRSP_EQUALS_OFFSET UNITYSDK_OFFSET(0x1BC65CF0)
-#define PROTO_DELMAILSCRSP_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1BC65EE0)
-#define PROTO_DELMAILSCRSP_GET_IDLIST_OFFSET UNITYSDK_OFFSET(0x1BC65CE0)
-#define PROTO_DELMAILSCRSP_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x1BC65B70)
-#define PROTO_DELMAILSCRSP_GET_RETCODE_OFFSET UNITYSDK_OFFSET(0x1BC65CC0)
-#define PROTO_DELMAILSCRSP_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1BC66250)
-#define PROTO_DELMAILSCRSP_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1BC66200)
-#define PROTO_DELMAILSCRSP_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1BC65BA0)
-#define PROTO_DELMAILSCRSP_SET_RETCODE_OFFSET UNITYSDK_OFFSET(0x1BC65CD0)
-#define PROTO_DELMAILSCRSP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1BC65FE0)
-#define PROTO_DELMAILSCRSP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1BC66040)
-#define PROTO_DELMAILSCRSP__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BC66410)
-#define PROTO_DELMAILSCRSP__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1BC65C00)
-#define PROTO_DELMAILSCRSP__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC65BB0)
+#define PROTO_DELMAILSCRSP_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1D932F30)
+#define PROTO_DELMAILSCRSP_CLONE_OFFSET UNITYSDK_OFFSET(0x1D932AA0)
+#define PROTO_DELMAILSCRSP_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1D932C00)
+#define PROTO_DELMAILSCRSP_EQUALS_OFFSET UNITYSDK_OFFSET(0x1D932B00)
+#define PROTO_DELMAILSCRSP_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1D932CF0)
+#define PROTO_DELMAILSCRSP_GET_IDLIST_OFFSET UNITYSDK_OFFSET(0x1D932AD0)
+#define PROTO_DELMAILSCRSP_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x1D932980)
+#define PROTO_DELMAILSCRSP_GET_RETCODE_OFFSET UNITYSDK_OFFSET(0x1D932AE0)
+#define PROTO_DELMAILSCRSP_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1D933070)
+#define PROTO_DELMAILSCRSP_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1D933020)
+#define PROTO_DELMAILSCRSP_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1D9329B0)
+#define PROTO_DELMAILSCRSP_SET_RETCODE_OFFSET UNITYSDK_OFFSET(0x1D932AF0)
+#define PROTO_DELMAILSCRSP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1D932DF0)
+#define PROTO_DELMAILSCRSP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1D932E50)
+#define PROTO_DELMAILSCRSP__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D933220)
+#define PROTO_DELMAILSCRSP__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1D932A10)
+#define PROTO_DELMAILSCRSP__CTOR_OFFSET UNITYSDK_OFFSET(0x1D9329C0)
 
 namespace Proto
 {
-	inline static constexpr unsigned int DelMailScRsp_TypeDefinitionIndex = 29232;
+	inline static constexpr unsigned int DelMailScRsp_TypeDefinitionIndex = 29965;
 
 	class DelMailScRsp : public ::System::Object
 	{
 	public:
-		static ::Google::Protobuf::FieldCodec_1<::System::UInt32>** StaticGet__repeated_idList_codec()
-		{
-			return (::Google::Protobuf::FieldCodec_1<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(DelMailScRsp_TypeDefinitionIndex)->GetStaticField(0x3C5B0);
-		}
 		static ::Google::Protobuf::MessageParser_1<::Proto::DelMailScRsp*>** StaticGet__parser()
 		{
-			return (::Google::Protobuf::MessageParser_1<::Proto::DelMailScRsp*>**)Il2CppClass::FromTypeDefinitionIndex(DelMailScRsp_TypeDefinitionIndex)->GetStaticField(0x3C5B8);
+			return (::Google::Protobuf::MessageParser_1<::Proto::DelMailScRsp*>**)Il2CppClass::FromTypeDefinitionIndex(DelMailScRsp_TypeDefinitionIndex)->GetStaticField(0x57BD0);
 		}
-		// static const ::System::Int32 RetcodeFieldNumber = 0xC; // 0x0
-		// static const ::System::Int32 IdListFieldNumber = 0x2; // 0x0
+		static ::Google::Protobuf::FieldCodec_1<::System::UInt32>** StaticGet__repeated_idList_codec()
+		{
+			return (::Google::Protobuf::FieldCodec_1<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(DelMailScRsp_TypeDefinitionIndex)->GetStaticField(0x57BD8);
+		}
+		// static const ::System::Int32 IdListFieldNumber = 0xA; // 0x0
+		// static const ::System::Int32 RetcodeFieldNumber = 0x7; // 0x0
 		::Google::Protobuf::UnknownFieldSet* _unknownFields; // 0x10
 		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* idList_; // 0x18
 		::System::UInt32 retcode_; // 0x20
@@ -80,6 +80,11 @@ namespace Proto
 			return ((::Proto::DelMailScRsp*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_DELMAILSCRSP_CLONE_OFFSET))(this);
 		}
 
+		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* get_IdList()
+		{
+			return ((::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_DELMAILSCRSP_GET_IDLIST_OFFSET))(this);
+		}
+
 		::System::UInt32 get_Retcode()
 		{
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_DELMAILSCRSP_GET_RETCODE_OFFSET))(this);
@@ -88,11 +93,6 @@ namespace Proto
 		::System::Void set_Retcode(::System::UInt32 a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_DELMAILSCRSP_SET_RETCODE_OFFSET))(this, a1);
-		}
-
-		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* get_IdList()
-		{
-			return ((::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_DELMAILSCRSP_GET_IDLIST_OFFSET))(this);
 		}
 
 		::System::Boolean Equals(::System::Object* a1)

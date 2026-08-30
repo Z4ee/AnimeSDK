@@ -5,24 +5,24 @@
 namespace RPG::GameCore { class AvatarPropertyValue; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_GRIDFIGHTROLESTARCONFIG___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC7DD210)
-#define RPG_CLIENT_GRIDFIGHTROLESTARCONFIG___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC7DD250)
-#define RPG_CLIENT_GRIDFIGHTROLESTARCONFIG___C__GET_HPADDEDRATIO2_B__32_0_OFFSET UNITYSDK_OFFSET(0xC7DD260)
+#define RPG_CLIENT_GRIDFIGHTROLESTARCONFIG___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD310930)
+#define RPG_CLIENT_GRIDFIGHTROLESTARCONFIG___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD310970)
+#define RPG_CLIENT_GRIDFIGHTROLESTARCONFIG___C__GET_HPADDEDRATIO2_B__32_0_OFFSET UNITYSDK_OFFSET(0xD310980)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightRoleStarConfig___c_TypeDefinitionIndex = 62198;
+	inline static constexpr unsigned int GridFightRoleStarConfig___c_TypeDefinitionIndex = 65183;
 
 	class GridFightRoleStarConfig___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::GridFightRoleStarConfig___c** StaticGet___9()
-		{
-			return (::RPG::Client::GridFightRoleStarConfig___c**)Il2CppClass::FromTypeDefinitionIndex(GridFightRoleStarConfig___c_TypeDefinitionIndex)->GetStaticField(0x2C660);
-		}
 		static ::System::Func_2<::RPG::GameCore::AvatarPropertyValue*, ::System::Boolean>** StaticGet___9__32_0()
 		{
-			return (::System::Func_2<::RPG::GameCore::AvatarPropertyValue*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(GridFightRoleStarConfig___c_TypeDefinitionIndex)->GetStaticField(0x2C668);
+			return (::System::Func_2<::RPG::GameCore::AvatarPropertyValue*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(GridFightRoleStarConfig___c_TypeDefinitionIndex)->GetStaticField(0x47970);
+		}
+		static ::RPG::Client::GridFightRoleStarConfig___c** StaticGet___9()
+		{
+			return (::RPG::Client::GridFightRoleStarConfig___c**)Il2CppClass::FromTypeDefinitionIndex(GridFightRoleStarConfig___c_TypeDefinitionIndex)->GetStaticField(0x47978);
 		}
 
 		static ::System::Void _cctor()

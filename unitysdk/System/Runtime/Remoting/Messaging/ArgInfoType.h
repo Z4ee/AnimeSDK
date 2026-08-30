@@ -3,7 +3,7 @@
 
 namespace System::Runtime::Remoting::Messaging
 {
-	inline static constexpr unsigned int ArgInfoType_TypeDefinitionIndex = 1289;
+	inline static constexpr unsigned int ArgInfoType_TypeDefinitionIndex = 1296;
 
 	enum class ArgInfoType : ::System::Byte
 	{

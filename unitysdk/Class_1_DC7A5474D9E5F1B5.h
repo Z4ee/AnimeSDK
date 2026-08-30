@@ -9,26 +9,26 @@ namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_1_DC7A5474D9E5F1B5_METHOD_1_0F7CBACDC48E7772_OFFSET UNITYSDK_OFFSET(0xB6B9380)
-#define CLASS_1_DC7A5474D9E5F1B5_METHOD_1_1808E1CF7A125519_OFFSET UNITYSDK_OFFSET(0xB6B95A0)
-#define CLASS_1_DC7A5474D9E5F1B5_METHOD_1_2685B6183E614529_OFFSET UNITYSDK_OFFSET(0xB6B9540)
-#define CLASS_1_DC7A5474D9E5F1B5_METHOD_1_E3DE31A03057E055_OFFSET UNITYSDK_OFFSET(0xB6B9600)
-#define CLASS_1_DC7A5474D9E5F1B5__CTOR_OFFSET UNITYSDK_OFFSET(0xB6B9340)
+#define CLASS_1_DC7A5474D9E5F1B5_METHOD_1_0F7CBACDC48E7772_OFFSET UNITYSDK_OFFSET(0xC11FE90)
+#define CLASS_1_DC7A5474D9E5F1B5_METHOD_1_1808E1CF7A125519_OFFSET UNITYSDK_OFFSET(0xC1200B0)
+#define CLASS_1_DC7A5474D9E5F1B5_METHOD_1_2685B6183E614529_OFFSET UNITYSDK_OFFSET(0xC120050)
+#define CLASS_1_DC7A5474D9E5F1B5_METHOD_1_E3DE31A03057E055_OFFSET UNITYSDK_OFFSET(0xC120110)
+#define CLASS_1_DC7A5474D9E5F1B5__CTOR_OFFSET UNITYSDK_OFFSET(0xC11FE50)
 
-inline static constexpr unsigned int Class_1_DC7A5474D9E5F1B5_TypeDefinitionIndex = 75122;
+inline static constexpr unsigned int Class_1_DC7A5474D9E5F1B5_TypeDefinitionIndex = 78619;
 
 class Class_1_DC7A5474D9E5F1B5 : public ::System::Object
 {
 public:
-	::System::String* Field_1_0; // 0x10
-	::UnityEngine::Transform* Field_1_1; // 0x18
-	::Class_1_DEBCF596D13A3389* Field_1_2; // 0x20
-	::UnityEngine::GameObject* Field_1_3; // 0x28
-	::System::Single Field_1_4; // 0x30
-	::UnityEngine::Vector3 Field_1_5; // 0x34
-	::System::Boolean Field_1_6; // 0x40
-	::System::Boolean Field_1_7; // 0x41
-	::System::Single Field_1_8; // 0x44
+	::System::String* OINCGJJMAEF; // 0x10
+	::UnityEngine::Transform* GKNBCPMJHMN; // 0x18
+	::Class_1_DEBCF596D13A3389* OLNEEDIAGBF; // 0x20
+	::UnityEngine::GameObject* LBNBPMIFDHI; // 0x28
+	::System::Single BPAIDCADMDO; // 0x30
+	::System::Single NNIIGDIAEED; // 0x34
+	::System::Boolean JAGGOIIDFJE; // 0x38
+	::System::Boolean IHJGGKCKGKH; // 0x39
+	::UnityEngine::Vector3 MIFKHBDOGLN; // 0x3C
 
 	::System::Void _ctor(::System::String* a1, ::UnityEngine::Vector3 a2, ::System::Single a3, ::UnityEngine::Transform* a4, ::System::Boolean a5, ::System::Boolean a6)
 	{

@@ -5,12 +5,12 @@
 namespace ScenenLightManager { class BaseComponentExportData; }
 namespace ScenenLightManager { class VolumetricLightBeam_ExportData; }
 
-#define SCENENLIGHTMANAGER_VOLUMETRICLIGHTBEAM_SCENELIGHTEXPORTDATA_METHOD_3_5E6C930E38E03A19_OFFSET UNITYSDK_OFFSET(0xDD45980)
-#define SCENENLIGHTMANAGER_VOLUMETRICLIGHTBEAM_SCENELIGHTEXPORTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xDD45990)
+#define SCENENLIGHTMANAGER_VOLUMETRICLIGHTBEAM_SCENELIGHTEXPORTDATA_METHOD_3_5E6C930E38E03A19_OFFSET UNITYSDK_OFFSET(0xE910E30)
+#define SCENENLIGHTMANAGER_VOLUMETRICLIGHTBEAM_SCENELIGHTEXPORTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xE910E40)
 
 namespace ScenenLightManager
 {
-	inline static constexpr unsigned int VolumetricLightBeam_SceneLightExportData_TypeDefinitionIndex = 47200;
+	inline static constexpr unsigned int VolumetricLightBeam_SceneLightExportData_TypeDefinitionIndex = 49480;
 
 	class VolumetricLightBeam_SceneLightExportData : public ::ScenenLightManager::BaseSceneLightExportData
 	{

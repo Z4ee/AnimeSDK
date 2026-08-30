@@ -6,16 +6,16 @@
 
 namespace RPG::Client { class WolfBroGunPlayTargetActionConfig_SetPos; }
 
-#define CLASS_3_CB88259603D7AFEC_METHOD_3_2685B6183E614529_OFFSET UNITYSDK_OFFSET(0xCACFAF0)
-#define CLASS_3_CB88259603D7AFEC_METHOD_3_E7EF6BC52B28648C_OFFSET UNITYSDK_OFFSET(0xCACF940)
-#define CLASS_3_CB88259603D7AFEC__CTOR_OFFSET UNITYSDK_OFFSET(0xCACFB50)
+#define CLASS_3_CB88259603D7AFEC_METHOD_3_2685B6183E614529_OFFSET UNITYSDK_OFFSET(0xD26D000)
+#define CLASS_3_CB88259603D7AFEC_METHOD_3_E7EF6BC52B28648C_OFFSET UNITYSDK_OFFSET(0xD26CE50)
+#define CLASS_3_CB88259603D7AFEC__CTOR_OFFSET UNITYSDK_OFFSET(0xD26D060)
 
-inline static constexpr unsigned int Class_3_CB88259603D7AFEC_TypeDefinitionIndex = 65621;
+inline static constexpr unsigned int Class_3_CB88259603D7AFEC_TypeDefinitionIndex = 68658;
 
 class Class_3_CB88259603D7AFEC : public ::RPG::Client::WolfBroGunPlayTargetActionTemplate_1<::RPG::Client::WolfBroGunPlayTargetActionConfig_SetPos*>
 {
 public:
-	::System::Nullable_1<::UnityEngine::Vector2> Field_3_0; // 0x28
+	::System::Nullable_1<::UnityEngine::Vector2> LJLDPMLBAJB; // 0x28
 
 	::System::Void _ctor()
 	{

@@ -8,20 +8,20 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MIHOYO_SDK_BASE_ABTESTPLATFORM_ABTESTCLIENT_REQUESTABTESTCONFIG_OFFSET UNITYSDK_OFFSET(0x19BA3B40)
-#define MIHOYO_SDK_BASE_ABTESTPLATFORM_ABTESTCLIENT__CCTOR_OFFSET UNITYSDK_OFFSET(0x19BA4520)
-#define MIHOYO_SDK_BASE_ABTESTPLATFORM_ABTESTCLIENT__CTOR_OFFSET UNITYSDK_OFFSET(0x19BA3B30)
+#define MIHOYO_SDK_BASE_ABTESTPLATFORM_ABTESTCLIENT_REQUESTABTESTCONFIG_OFFSET UNITYSDK_OFFSET(0x1B7332A0)
+#define MIHOYO_SDK_BASE_ABTESTPLATFORM_ABTESTCLIENT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B733C80)
+#define MIHOYO_SDK_BASE_ABTESTPLATFORM_ABTESTCLIENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B733290)
 
 namespace MiHoYo::SDK::Base::ABTestPlatform
 {
-	inline static constexpr unsigned int ABTestClient_TypeDefinitionIndex = 8527;
+	inline static constexpr unsigned int ABTestClient_TypeDefinitionIndex = 8794;
 
 	class ABTestClient : public ::System::Object
 	{
 	public:
 		static ::MiHoYo::SDK::Base::ABTestPlatform::ABTestClient** StaticGet_Instance()
 		{
-			return (::MiHoYo::SDK::Base::ABTestPlatform::ABTestClient**)Il2CppClass::FromTypeDefinitionIndex(ABTestClient_TypeDefinitionIndex)->GetStaticField(0xF3A0);
+			return (::MiHoYo::SDK::Base::ABTestPlatform::ABTestClient**)Il2CppClass::FromTypeDefinitionIndex(ABTestClient_TypeDefinitionIndex)->GetStaticField(0x4050);
 		}
 
 		::System::Void _ctor()

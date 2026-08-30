@@ -6,31 +6,31 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Text { class StringBuilder; }
 
-#define CLASS_1_FB0DB21CD002050B_METHOD_1_41A074549EF25F63_OFFSET UNITYSDK_OFFSET(0x1A38E990)
-#define CLASS_1_FB0DB21CD002050B_METHOD_1_8B328B669368F123_OFFSET UNITYSDK_OFFSET(0x1A38E5E0)
-#define CLASS_1_FB0DB21CD002050B_METHOD_1_8F7825DAFFB9B517_OFFSET UNITYSDK_OFFSET(0x1A38EAC0)
-#define CLASS_1_FB0DB21CD002050B__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A38EE60)
+#define CLASS_1_FB0DB21CD002050B_METHOD_1_41A074549EF25F63_OFFSET UNITYSDK_OFFSET(0x1BF9D000)
+#define CLASS_1_FB0DB21CD002050B_METHOD_1_739DB9F245C7FAD0_OFFSET UNITYSDK_OFFSET(0x1BF9D130)
+#define CLASS_1_FB0DB21CD002050B_METHOD_1_8B328B669368F123_OFFSET UNITYSDK_OFFSET(0x1BF9CC50)
+#define CLASS_1_FB0DB21CD002050B__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BF9D500)
 
-inline static constexpr unsigned int Class_1_FB0DB21CD002050B_TypeDefinitionIndex = 39205;
+inline static constexpr unsigned int Class_1_FB0DB21CD002050B_TypeDefinitionIndex = 40077;
 
 class Class_1_FB0DB21CD002050B : public ::System::Object
 {
 public:
-	static ::System::Collections::Generic::Dictionary_2<::System::UInt64, ::System::String*>** StaticGet_Field_1_0()
+	static ::System::Collections::Generic::Dictionary_2<::System::UInt64, ::System::String*>** StaticGet_BFDMLAFFNCG()
 	{
-		return (::System::Collections::Generic::Dictionary_2<::System::UInt64, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_FB0DB21CD002050B_TypeDefinitionIndex)->GetStaticField(0x263B0);
+		return (::System::Collections::Generic::Dictionary_2<::System::UInt64, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_FB0DB21CD002050B_TypeDefinitionIndex)->GetStaticField(0x17BC0);
 	}
-	static ::System::Text::StringBuilder** StaticGet_Field_1_1()
+	static ::System::Text::StringBuilder** StaticGet_LIOJKFIGGIJ()
 	{
-		return (::System::Text::StringBuilder**)Il2CppClass::FromTypeDefinitionIndex(Class_1_FB0DB21CD002050B_TypeDefinitionIndex)->GetStaticField(0x263B8);
+		return (::System::Text::StringBuilder**)Il2CppClass::FromTypeDefinitionIndex(Class_1_FB0DB21CD002050B_TypeDefinitionIndex)->GetStaticField(0x17BC8);
 	}
-	static ::System::Boolean* StaticGet_Field_1_2()
+	static ::System::Int32* StaticGet_GIBBAFIIBAI()
 	{
-		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_FB0DB21CD002050B_TypeDefinitionIndex)->GetStaticField(0x7540);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_FB0DB21CD002050B_TypeDefinitionIndex)->GetStaticField(0x8DC0);
 	}
-	static ::System::Int32* StaticGet_Field_1_3()
+	static ::System::Boolean* StaticGet_KLICCELODLB()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_FB0DB21CD002050B_TypeDefinitionIndex)->GetStaticField(0x7544);
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_FB0DB21CD002050B_TypeDefinitionIndex)->GetStaticField(0x8DC4);
 	}
 
 	static ::System::Void _cctor()
@@ -48,8 +48,8 @@ public:
 		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CLASS_1_FB0DB21CD002050B_METHOD_1_41A074549EF25F63_OFFSET))();
 	}
 
-	static ::System::Void Method_1_8F7825DAFFB9B517()
+	static ::System::Void Method_1_739DB9F245C7FAD0()
 	{
-		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CLASS_1_FB0DB21CD002050B_METHOD_1_8F7825DAFFB9B517_OFFSET))();
+		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CLASS_1_FB0DB21CD002050B_METHOD_1_739DB9F245C7FAD0_OFFSET))();
 	}
 };

@@ -5,31 +5,31 @@
 class Class_1_0DD0086A20E51DD0;
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ACTIVITYDICECOMBATAIGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B105BA0)
-#define RPG_GAMECORE_ACTIVITYDICECOMBATAIGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B105FA0)
+#define RPG_GAMECORE_ACTIVITYDICECOMBATAIGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CD7C2D0)
+#define RPG_GAMECORE_ACTIVITYDICECOMBATAIGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD7C6D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityDiceCombatAIGroupRow_TypeDefinitionIndex = 10872;
+	inline static constexpr unsigned int ActivityDiceCombatAIGroupRow_TypeDefinitionIndex = 11247;
 
 	class ActivityDiceCombatAIGroupRow : public ::System::Object
 	{
 	public:
-		::Class_1_0DD0086A20E51DD0* PrepareFinishWaitTimeRange; // 0x10
-		::Class_1_0DD0086A20E51DD0* ExchangeWaitTimeRange; // 0x18
-		::Class_1_0DD0086A20E51DD0* UseTacticsCardWaitTimeRange; // 0x20
-		::Class_1_0DD0086A20E51DD0* PrepareCancelWaitTimeRange; // 0x28
-		::Class_1_0DD0086A20E51DD0* BuyTacticsCardWaitTimeRange; // 0x30
-		::Class_1_0DD0086A20E51DD0* SelectTimeRange; // 0x38
-		::System::UInt32 RerollMaxAttack; // 0x40
-		::System::Single SelectWrongRate; // 0x44
-		::System::Single ColorfulDiceWeight; // 0x48
-		::System::UInt32 AIGroupID; // 0x4C
-		::System::Single SkillWeight; // 0x50
-		::System::UInt32 RerollMaxDefend; // 0x54
-		::System::Single SpecialRuleWeight; // 0x58
-		::System::Single Quantile; // 0x5C
-		::System::Boolean CanUseTactics; // 0x60
+		::Class_1_0DD0086A20E51DD0* PrepareCancelWaitTimeRange; // 0x10
+		::Class_1_0DD0086A20E51DD0* SelectTimeRange; // 0x18
+		::Class_1_0DD0086A20E51DD0* ExchangeWaitTimeRange; // 0x20
+		::Class_1_0DD0086A20E51DD0* BuyTacticsCardWaitTimeRange; // 0x28
+		::Class_1_0DD0086A20E51DD0* UseTacticsCardWaitTimeRange; // 0x30
+		::Class_1_0DD0086A20E51DD0* PrepareFinishWaitTimeRange; // 0x38
+		::System::Single SelectWrongRate; // 0x40
+		::System::Single Quantile; // 0x44
+		::System::Single SpecialRuleWeight; // 0x48
+		::System::Boolean CanUseTactics; // 0x4C
+		::System::Single ColorfulDiceWeight; // 0x50
+		::System::UInt32 RerollMaxAttack; // 0x54
+		::System::Single SkillWeight; // 0x58
+		::System::UInt32 RerollMaxDefend; // 0x5C
+		::System::UInt32 AIGroupID; // 0x60
 
 		::System::Void _ctor()
 		{

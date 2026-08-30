@@ -7,25 +7,25 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_PIXAIRSTAGEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B6B69A0)
-#define RPG_GAMECORE_PIXAIRSTAGEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6B6D90)
+#define RPG_GAMECORE_PIXAIRSTAGEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3388E0)
+#define RPG_GAMECORE_PIXAIRSTAGEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D338CD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PixAirStageRow_TypeDefinitionIndex = 11657;
+	inline static constexpr unsigned int PixAirStageRow_TypeDefinitionIndex = 12046;
 
 	class PixAirStageRow : public ::System::Object
 	{
 	public:
-		::System::String* IconPath; // 0x10
-		::Il2CppArray<::System::UInt32>* PreStageList; // 0x18
-		::Il2CppArray<::System::UInt32>* AreaIDList; // 0x20
-		::RPG::Client::TextID RewardTip; // 0x28
+		::Il2CppArray<::System::UInt32>* PreStageList; // 0x10
+		::Il2CppArray<::System::UInt32>* AreaIDList; // 0x18
+		::System::String* IconPath; // 0x20
+		::RPG::Client::TextID Name; // 0x28
 		::RPG::Client::TextID MechanismTip; // 0x38
-		::System::UInt32 StageID; // 0x48
-		::System::UInt32 UnlockScore; // 0x4C
-		::RPG::GameCore::PixAirStageType Type; // 0x50
-		::RPG::Client::TextID Name; // 0x58
+		::RPG::Client::TextID RewardTip; // 0x48
+		::System::UInt32 StageID; // 0x58
+		::RPG::GameCore::PixAirStageType Type; // 0x5C
+		::System::UInt32 UnlockScore; // 0x60
 
 		::System::Void _ctor()
 		{

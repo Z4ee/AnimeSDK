@@ -4,14 +4,14 @@
 
 namespace RPG::GameCore { class JsonEnum; }
 
-#define CLASS_1_3E2D01EE3DA54F49__CTOR_OFFSET UNITYSDK_OFFSET(0x1485CC30)
+#define CLASS_1_3E2D01EE3DA54F49__CTOR_OFFSET UNITYSDK_OFFSET(0x1571F580)
 
-inline static constexpr unsigned int Class_1_3E2D01EE3DA54F49_TypeDefinitionIndex = 55190;
+inline static constexpr unsigned int Class_1_3E2D01EE3DA54F49_TypeDefinitionIndex = 57913;
 
 class Class_1_3E2D01EE3DA54F49 : public ::System::Object
 {
 public:
-	::RPG::GameCore::JsonEnum* Field_1_0; // 0x10
+	::RPG::GameCore::JsonEnum* NHALJPDONCP; // 0x10
 
 	::System::Void _ctor()
 	{

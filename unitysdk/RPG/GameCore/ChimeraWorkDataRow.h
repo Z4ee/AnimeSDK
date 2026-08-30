@@ -6,23 +6,23 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHIMERAWORKDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B358D70)
-#define RPG_GAMECORE_CHIMERAWORKDATAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B359050)
+#define RPG_GAMECORE_CHIMERAWORKDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CFD5110)
+#define RPG_GAMECORE_CHIMERAWORKDATAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFD53F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraWorkDataRow_TypeDefinitionIndex = 12543;
+	inline static constexpr unsigned int ChimeraWorkDataRow_TypeDefinitionIndex = 12934;
 
 	class ChimeraWorkDataRow : public ::System::Object
 	{
 	public:
-		::System::String* WorkIcon; // 0x10
+		::System::String* WorkPrefab; // 0x10
 		::System::String* JsonConfig; // 0x18
-		::System::String* WorkPrefab; // 0x20
-		::System::UInt32 WorkID; // 0x28
-		::System::Single Atk; // 0x2C
-		::System::UInt32 WorkValue; // 0x30
-		::System::UInt32 DisplayID; // 0x34
+		::System::String* WorkIcon; // 0x20
+		::System::Single Atk; // 0x28
+		::System::UInt32 WorkID; // 0x2C
+		::System::UInt32 DisplayID; // 0x30
+		::System::UInt32 WorkValue; // 0x34
 		::System::Single Hp; // 0x38
 		::RPG::GameCore::ChimeraWorkType Tag; // 0x3C
 

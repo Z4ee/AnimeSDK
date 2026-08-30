@@ -9,33 +9,33 @@ namespace RPG::Client { class DecalPuzzle; }
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_FREEDECAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC627A50)
-#define RPG_CLIENT_FREEDECAL_GET_ISFINISH_OFFSET UNITYSDK_OFFSET(0xC6280E0)
-#define RPG_CLIENT_FREEDECAL_GET_SPEED_OFFSET UNITYSDK_OFFSET(0xC628100)
-#define RPG_CLIENT_FREEDECAL_ISMOVED_OFFSET UNITYSDK_OFFSET(0xC627C00)
-#define RPG_CLIENT_FREEDECAL_PLAYFADEIN_OFFSET UNITYSDK_OFFSET(0xC627DA0)
-#define RPG_CLIENT_FREEDECAL_SETCHECKLIST_OFFSET UNITYSDK_OFFSET(0xC627AA0)
-#define RPG_CLIENT_FREEDECAL_SETFINISH_OFFSET UNITYSDK_OFFSET(0xC627F20)
-#define RPG_CLIENT_FREEDECAL_SET_ISFINISH_OFFSET UNITYSDK_OFFSET(0xC6280D0)
-#define RPG_CLIENT_FREEDECAL_SET_SPEED_OFFSET UNITYSDK_OFFSET(0xC6280F0)
-#define RPG_CLIENT_FREEDECAL_UPDATE_OFFSET UNITYSDK_OFFSET(0xC627950)
-#define RPG_CLIENT_FREEDECAL__CCTOR_OFFSET UNITYSDK_OFFSET(0xC628150)
-#define RPG_CLIENT_FREEDECAL__CTOR_OFFSET UNITYSDK_OFFSET(0xC628110)
+#define RPG_CLIENT_FREEDECAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0xD0ACCC0)
+#define RPG_CLIENT_FREEDECAL_GET_ISFINISH_OFFSET UNITYSDK_OFFSET(0xD0AD360)
+#define RPG_CLIENT_FREEDECAL_GET_SPEED_OFFSET UNITYSDK_OFFSET(0xD0AD380)
+#define RPG_CLIENT_FREEDECAL_ISMOVED_OFFSET UNITYSDK_OFFSET(0xD0ACE70)
+#define RPG_CLIENT_FREEDECAL_PLAYFADEIN_OFFSET UNITYSDK_OFFSET(0xD0AD010)
+#define RPG_CLIENT_FREEDECAL_SETCHECKLIST_OFFSET UNITYSDK_OFFSET(0xD0ACD10)
+#define RPG_CLIENT_FREEDECAL_SETFINISH_OFFSET UNITYSDK_OFFSET(0xD0AD190)
+#define RPG_CLIENT_FREEDECAL_SET_ISFINISH_OFFSET UNITYSDK_OFFSET(0xD0AD350)
+#define RPG_CLIENT_FREEDECAL_SET_SPEED_OFFSET UNITYSDK_OFFSET(0xD0AD370)
+#define RPG_CLIENT_FREEDECAL_UPDATE_OFFSET UNITYSDK_OFFSET(0xD0ACBC0)
+#define RPG_CLIENT_FREEDECAL__CCTOR_OFFSET UNITYSDK_OFFSET(0xD0AD3E0)
+#define RPG_CLIENT_FREEDECAL__CTOR_OFFSET UNITYSDK_OFFSET(0xD0AD390)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FreeDecal_TypeDefinitionIndex = 65791;
+	inline static constexpr unsigned int FreeDecal_TypeDefinitionIndex = 68829;
 
 	class FreeDecal : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::System::String** StaticGet_Field_5_0()
+		static ::System::String** StaticGet_EHJFHMEKFDI()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(FreeDecal_TypeDefinitionIndex)->GetStaticField(0x1A150);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(FreeDecal_TypeDefinitionIndex)->GetStaticField(0x14AA0);
 		}
-		static ::System::String** StaticGet_Field_5_1()
+		static ::System::String** StaticGet_INHDCOPAFPF()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(FreeDecal_TypeDefinitionIndex)->GetStaticField(0x1A158);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(FreeDecal_TypeDefinitionIndex)->GetStaticField(0x14AA8);
 		}
 		::System::Boolean _IsFinish_k__BackingField; // 0x18
 		::System::Single _Speed_k__BackingField; // 0x1C
@@ -45,7 +45,7 @@ namespace RPG::Client
 		::RPG::Client::DecalPuzzle* OwnerDecalPuzzle; // 0x30
 		::Il2CppArray<::UnityEngine::GameObject*>* CheckList; // 0x38
 		::Il2CppArray<::UnityEngine::Vector3>* OriginPosList; // 0x40
-		::Class_1_D27BF54F25500E5F* Field_5_10; // 0x48
+		::Class_1_D27BF54F25500E5F* DHEHFOHPELI; // 0x48
 
 		::System::Void _ctor()
 		{

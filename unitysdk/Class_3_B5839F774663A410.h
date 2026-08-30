@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetBossHPStanceChangeType; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_B5839F774663A410_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x11974B70)
-#define CLASS_3_B5839F774663A410__CTOR_OFFSET UNITYSDK_OFFSET(0x11974B40)
+#define CLASS_3_B5839F774663A410_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x12850410)
+#define CLASS_3_B5839F774663A410__CTOR_OFFSET UNITYSDK_OFFSET(0x128503E0)
 
-inline static constexpr unsigned int Class_3_B5839F774663A410_TypeDefinitionIndex = 52855;
+inline static constexpr unsigned int Class_3_B5839F774663A410_TypeDefinitionIndex = 55558;
 
 class Class_3_B5839F774663A410 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetBossHPStanceChangeType*>
 {

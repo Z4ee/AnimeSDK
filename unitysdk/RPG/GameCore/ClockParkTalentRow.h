@@ -7,12 +7,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ClockParkUnlockCost; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CLOCKPARKTALENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B36DE00)
-#define RPG_GAMECORE_CLOCKPARKTALENTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B36E570)
+#define RPG_GAMECORE_CLOCKPARKTALENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CFEAEA0)
+#define RPG_GAMECORE_CLOCKPARKTALENTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFEB610)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ClockParkTalentRow_TypeDefinitionIndex = 10791;
+	inline static constexpr unsigned int ClockParkTalentRow_TypeDefinitionIndex = 11166;
 
 	class ClockParkTalentRow : public ::System::Object
 	{
@@ -20,8 +20,8 @@ namespace RPG::GameCore
 		::RPG::GameCore::ClockParkUnlockCost* TalentUnlockCost; // 0x10
 		::System::String* TalentDesc; // 0x18
 		::System::String* ImgPath; // 0x20
-		::System::UInt32 ActivityTalentID; // 0x28
-		::System::UInt32 TalentBuffID; // 0x2C
+		::System::UInt32 TalentBuffID; // 0x28
+		::System::UInt32 ActivityTalentID; // 0x2C
 		::RPG::Client::TextID TalentTitle; // 0x30
 
 		::System::Void _ctor()

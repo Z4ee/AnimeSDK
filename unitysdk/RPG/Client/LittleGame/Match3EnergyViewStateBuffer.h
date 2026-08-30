@@ -2,25 +2,25 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_378;
+class Class_0_16E4307DCC419505_413;
 namespace System { class Action; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_LITTLEGAME_MATCH3ENERGYVIEWSTATEBUFFER_EXECUTESEQUENCE_OFFSET UNITYSDK_OFFSET(0xC9D3AF0)
-#define RPG_CLIENT_LITTLEGAME_MATCH3ENERGYVIEWSTATEBUFFER__CTOR_OFFSET UNITYSDK_OFFSET(0xC9D3BF0)
-#define RPG_CLIENT_LITTLEGAME_MATCH3ENERGYVIEWSTATEBUFFER__ONSEQUENCEFINISH_OFFSET UNITYSDK_OFFSET(0xC9D3BA0)
+#define RPG_CLIENT_LITTLEGAME_MATCH3ENERGYVIEWSTATEBUFFER_EXECUTESEQUENCE_OFFSET UNITYSDK_OFFSET(0xD517AB0)
+#define RPG_CLIENT_LITTLEGAME_MATCH3ENERGYVIEWSTATEBUFFER__CTOR_OFFSET UNITYSDK_OFFSET(0xD517BB0)
+#define RPG_CLIENT_LITTLEGAME_MATCH3ENERGYVIEWSTATEBUFFER__ONSEQUENCEFINISH_OFFSET UNITYSDK_OFFSET(0xD517B60)
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int Match3EnergyViewStateBuffer_TypeDefinitionIndex = 72657;
+	inline static constexpr unsigned int Match3EnergyViewStateBuffer_TypeDefinitionIndex = 76093;
 
 	class Match3EnergyViewStateBuffer : public ::System::Object
 	{
 	public:
-		::System::Func_2<::System::UInt32, ::Class_0_16E4307DCC419505_378*>* GenIncreaseCommand; // 0x10
-		::Class_0_16E4307DCC419505_378* CommandSequence; // 0x18
+		::Class_0_16E4307DCC419505_413* CommandSequence; // 0x10
+		::Class_0_16E4307DCC419505_413* IncreaseCommand; // 0x18
 		::System::Action* OnFinishIncrease; // 0x20
-		::Class_0_16E4307DCC419505_378* IncreaseCommand; // 0x28
+		::System::Func_2<::System::UInt32, ::Class_0_16E4307DCC419505_413*>* GenIncreaseCommand; // 0x28
 		::System::Boolean CanDecrease; // 0x30
 		::System::Boolean WaitIncrease; // 0x31
 
@@ -29,9 +29,9 @@ namespace RPG::Client::LittleGame
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_MATCH3ENERGYVIEWSTATEBUFFER__CTOR_OFFSET))(this);
 		}
 
-		::System::Void ExecuteSequence(::Class_0_16E4307DCC419505_378* a1)
+		::System::Void ExecuteSequence(::Class_0_16E4307DCC419505_413* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_378*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_MATCH3ENERGYVIEWSTATEBUFFER_EXECUTESEQUENCE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_413*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_MATCH3ENERGYVIEWSTATEBUFFER_EXECUTESEQUENCE_OFFSET))(this, a1);
 		}
 
 		::System::Void _OnSequenceFinish(::System::Boolean a1)

@@ -7,12 +7,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class BaseChimeraDuelEntitiesSelectorConfig; }
 namespace RPG::GameCore { class BaseChimeraDuelValueGetter; }
 
-#define RPG_GAMECORE_CHIMERADUELEVENTLISTENER_METHOD_2_FCC9381C9B733BFD_OFFSET UNITYSDK_OFFSET(0x1B348E60)
-#define RPG_GAMECORE_CHIMERADUELEVENTLISTENER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B349010)
+#define RPG_GAMECORE_CHIMERADUELEVENTLISTENER_METHOD_2_FCC9381C9B733BFD_OFFSET UNITYSDK_OFFSET(0x1CFC5940)
+#define RPG_GAMECORE_CHIMERADUELEVENTLISTENER__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFC5AF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraDuelEventListener_TypeDefinitionIndex = 15412;
+	inline static constexpr unsigned int ChimeraDuelEventListener_TypeDefinitionIndex = 15849;
 
 	class ChimeraDuelEventListener : public ::RPG::GameCore::JsonConfig
 	{

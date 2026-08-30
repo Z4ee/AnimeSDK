@@ -4,14 +4,14 @@
 
 namespace RPG::GameCore { class GameEntity; }
 
-#define CLASS_3_F6DFB2BAE5E8B052_STRUCT_2_2B48AF9AE7A4107B_COMPARETO_OFFSET UNITYSDK_OFFSET(0x2D08980)
+#define CLASS_3_F6DFB2BAE5E8B052_STRUCT_2_2B48AF9AE7A4107B_COMPARETO_OFFSET UNITYSDK_OFFSET(0x2DF11B0)
 
-inline static constexpr unsigned int Class_3_F6DFB2BAE5E8B052_Struct_2_2B48AF9AE7A4107B_TypeDefinitionIndex = 51468;
+inline static constexpr unsigned int Class_3_F6DFB2BAE5E8B052_Struct_2_2B48AF9AE7A4107B_TypeDefinitionIndex = 54152;
 
 struct alignas(8) Class_3_F6DFB2BAE5E8B052_Struct_2_2B48AF9AE7A4107B
 {
-	::RPG::GameCore::GameEntity* Field_2_0; // 0x10
-	::System::Single Field_2_1; // 0x18
+	::RPG::GameCore::GameEntity* MCLLALGABAB; // 0x10
+	::System::Single MNDFOPKBHKP; // 0x18
 
 	::System::Int32 CompareTo(::Class_3_F6DFB2BAE5E8B052_Struct_2_2B48AF9AE7A4107B a1)
 	{

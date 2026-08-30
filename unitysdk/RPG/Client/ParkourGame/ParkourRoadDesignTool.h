@@ -6,23 +6,23 @@ namespace RPG::Client::ParkourGame { class MonoParkourRoad; }
 namespace RPG::Client::ParkourGame { class MonoParkourRoadMap; }
 namespace System { class String; }
 
-#define RPG_CLIENT_PARKOURGAME_PARKOURROADDESIGNTOOL_GET_CURPARKOURROADMAP_OFFSET UNITYSDK_OFFSET(0xCF32E50)
-#define RPG_CLIENT_PARKOURGAME_PARKOURROADDESIGNTOOL_METHOD_5_D02B3014C645DD1B_OFFSET UNITYSDK_OFFSET(0xCF330C0)
-#define RPG_CLIENT_PARKOURGAME_PARKOURROADDESIGNTOOL_ONDRAWGIZMOSSELECTED_OFFSET UNITYSDK_OFFSET(0xCF32F30)
-#define RPG_CLIENT_PARKOURGAME_PARKOURROADDESIGNTOOL__CTOR_OFFSET UNITYSDK_OFFSET(0xCF331C0)
+#define RPG_CLIENT_PARKOURGAME_PARKOURROADDESIGNTOOL_GET_CURPARKOURROADMAP_OFFSET UNITYSDK_OFFSET(0xDA307B0)
+#define RPG_CLIENT_PARKOURGAME_PARKOURROADDESIGNTOOL_METHOD_5_D02B3014C645DD1B_OFFSET UNITYSDK_OFFSET(0xDA30A20)
+#define RPG_CLIENT_PARKOURGAME_PARKOURROADDESIGNTOOL_ONDRAWGIZMOSSELECTED_OFFSET UNITYSDK_OFFSET(0xDA30890)
+#define RPG_CLIENT_PARKOURGAME_PARKOURROADDESIGNTOOL__CTOR_OFFSET UNITYSDK_OFFSET(0xDA30B20)
 
 namespace RPG::Client::ParkourGame
 {
-	inline static constexpr unsigned int ParkourRoadDesignTool_TypeDefinitionIndex = 70821;
+	inline static constexpr unsigned int ParkourRoadDesignTool_TypeDefinitionIndex = 74120;
 
 	class ParkourRoadDesignTool : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		::RPG::Client::ParkourGame::MonoParkourRoadMap* Field_5_0; // 0x18
+		::RPG::Client::ParkourGame::MonoParkourRoadMap* FEOIFLFOIOF; // 0x18
 		::System::Single RoadMinDistance; // 0x20
 		::System::Single RoadMaxDistance; // 0x24
 		::System::Boolean Update; // 0x28
-		::Il2CppArray<::RPG::Client::ParkourGame::MonoParkourRoad*>* Field_5_4; // 0x30
+		::Il2CppArray<::RPG::Client::ParkourGame::MonoParkourRoad*>* HAEBADKILLO; // 0x30
 
 		::System::Void _ctor()
 		{

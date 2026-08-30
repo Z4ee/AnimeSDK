@@ -5,18 +5,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_CHENLINGACTIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B327020)
-#define RPG_GAMECORE_CHENLINGACTIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B327160)
+#define RPG_GAMECORE_CHENLINGACTIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CFA33C0)
+#define RPG_GAMECORE_CHENLINGACTIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFA3500)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingActionRow_TypeDefinitionIndex = 10700;
+	inline static constexpr unsigned int ChenLingActionRow_TypeDefinitionIndex = 11075;
 
 	class ChenLingActionRow : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::ChenLingActionType ActionType; // 0x10
-		::System::UInt32 ID; // 0x14
+		::System::UInt32 ID; // 0x10
+		::RPG::GameCore::ChenLingActionType ActionType; // 0x14
 
 		::System::Void _ctor()
 		{

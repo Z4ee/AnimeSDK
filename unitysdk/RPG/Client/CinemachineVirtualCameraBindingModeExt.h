@@ -10,16 +10,16 @@ namespace Cinemachine { class CinemachineTransposer; }
 namespace Cinemachine { class CinemachineVirtualCamera; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_CINEMACHINEVIRTUALCAMERABINDINGMODEEXT_ACTIVE_OFFSET UNITYSDK_OFFSET(0xC16CC50)
-#define RPG_CLIENT_CINEMACHINEVIRTUALCAMERABINDINGMODEEXT_DEACTIVE_OFFSET UNITYSDK_OFFSET(0xC16CCF0)
-#define RPG_CLIENT_CINEMACHINEVIRTUALCAMERABINDINGMODEEXT_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xC16BF30)
-#define RPG_CLIENT_CINEMACHINEVIRTUALCAMERABINDINGMODEEXT_METHOD_5_0076C796B2045359_OFFSET UNITYSDK_OFFSET(0xC16C1E0)
-#define RPG_CLIENT_CINEMACHINEVIRTUALCAMERABINDINGMODEEXT_REFRESHVCAM_OFFSET UNITYSDK_OFFSET(0xC16BFB0)
-#define RPG_CLIENT_CINEMACHINEVIRTUALCAMERABINDINGMODEEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xC16CD40)
+#define RPG_CLIENT_CINEMACHINEVIRTUALCAMERABINDINGMODEEXT_ACTIVE_OFFSET UNITYSDK_OFFSET(0xCC22690)
+#define RPG_CLIENT_CINEMACHINEVIRTUALCAMERABINDINGMODEEXT_DEACTIVE_OFFSET UNITYSDK_OFFSET(0xCC22730)
+#define RPG_CLIENT_CINEMACHINEVIRTUALCAMERABINDINGMODEEXT_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xCC219A0)
+#define RPG_CLIENT_CINEMACHINEVIRTUALCAMERABINDINGMODEEXT_METHOD_5_0076C796B2045359_OFFSET UNITYSDK_OFFSET(0xCC21C20)
+#define RPG_CLIENT_CINEMACHINEVIRTUALCAMERABINDINGMODEEXT_REFRESHVCAM_OFFSET UNITYSDK_OFFSET(0xCC21A20)
+#define RPG_CLIENT_CINEMACHINEVIRTUALCAMERABINDINGMODEEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xCC22780)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CinemachineVirtualCameraBindingModeExt_TypeDefinitionIndex = 65280;
+	inline static constexpr unsigned int CinemachineVirtualCameraBindingModeExt_TypeDefinitionIndex = 68292;
 
 	class CinemachineVirtualCameraBindingModeExt : public ::UnityEngine::MonoBehaviour
 	{
@@ -34,14 +34,14 @@ namespace RPG::Client
 		::UnityEngine::Vector3 RuntimeAimOffset; // 0x4C
 		::System::Single RuntimeCameraRotateOffset; // 0x58
 		::System::Single AnchorOffsetModifier; // 0x5C
-		::UnityEngine::Vector3 Field_5_10; // 0x60
-		::UnityEngine::Transform* Field_5_11; // 0x70
-		::UnityEngine::Transform* Field_5_12; // 0x78
-		::UnityEngine::Transform* Field_5_13; // 0x80
-		::Cinemachine::CinemachineVirtualCamera* Field_5_14; // 0x88
-		::Cinemachine::CinemachineTransposer* Field_5_15; // 0x90
-		::Cinemachine::CinemachineComposer* Field_5_16; // 0x98
-		::Cinemachine::CinemachineBrain* Field_5_17; // 0xA0
+		::UnityEngine::Vector3 DBIHKHHFDGO; // 0x60
+		::UnityEngine::Transform* GAELCMCKBKO; // 0x70
+		::UnityEngine::Transform* EJCIMGEICHG; // 0x78
+		::UnityEngine::Transform* GMIHCNJFHKC; // 0x80
+		::Cinemachine::CinemachineVirtualCamera* BNIKLBICGKJ; // 0x88
+		::Cinemachine::CinemachineTransposer* APNKLHBIEFF; // 0x90
+		::Cinemachine::CinemachineComposer* CEHOKINKPIM; // 0x98
+		::Cinemachine::CinemachineBrain* HKNDPKIJEDN; // 0xA0
 
 		::System::Void _ctor()
 		{

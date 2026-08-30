@@ -4,7 +4,7 @@
 
 namespace System::Diagnostics::Tracing
 {
-	inline static constexpr unsigned int ConcurrentSet_2_TypeDefinitionIndex = 1582;
+	inline static constexpr unsigned int ConcurrentSet_2_TypeDefinitionIndex = 1589;
 
 	template <typename KeyType, typename ItemType>
 	struct ConcurrentSet_2

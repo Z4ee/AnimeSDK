@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Microsoft/Win32/SafeHandles/SafeHandleZeroOrMinusOneIsInvalid.h"
 
-#define MICROSOFT_WIN32_SAFEHANDLES_SAFEMEMORYMAPPEDFILEHANDLE_RELEASEHANDLE_OFFSET UNITYSDK_OFFSET(0x1CA15B10)
-#define MICROSOFT_WIN32_SAFEHANDLES_SAFEMEMORYMAPPEDFILEHANDLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CA15A80)
+#define MICROSOFT_WIN32_SAFEHANDLES_SAFEMEMORYMAPPEDFILEHANDLE_RELEASEHANDLE_OFFSET UNITYSDK_OFFSET(0x1E6C0430)
+#define MICROSOFT_WIN32_SAFEHANDLES_SAFEMEMORYMAPPEDFILEHANDLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E6C03A0)
 
 namespace Microsoft::Win32::SafeHandles
 {
-	inline static constexpr unsigned int SafeMemoryMappedFileHandle_TypeDefinitionIndex = 3087;
+	inline static constexpr unsigned int SafeMemoryMappedFileHandle_TypeDefinitionIndex = 3095;
 
 	class SafeMemoryMappedFileHandle : public ::Microsoft::Win32::SafeHandles::SafeHandleZeroOrMinusOneIsInvalid
 	{

@@ -6,13 +6,13 @@
 namespace System { class String; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_REFLECTION_AMBIGUOUSMATCHEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A180EC0)
-#define SYSTEM_REFLECTION_AMBIGUOUSMATCHEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1A180F30)
-#define SYSTEM_REFLECTION_AMBIGUOUSMATCHEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1A180E50)
+#define SYSTEM_REFLECTION_AMBIGUOUSMATCHEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1BD88AC0)
+#define SYSTEM_REFLECTION_AMBIGUOUSMATCHEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1BD88B30)
+#define SYSTEM_REFLECTION_AMBIGUOUSMATCHEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD88A50)
 
 namespace System::Reflection
 {
-	inline static constexpr unsigned int AmbiguousMatchException_TypeDefinitionIndex = 536;
+	inline static constexpr unsigned int AmbiguousMatchException_TypeDefinitionIndex = 539;
 
 	class AmbiguousMatchException : public ::System::SystemException
 	{

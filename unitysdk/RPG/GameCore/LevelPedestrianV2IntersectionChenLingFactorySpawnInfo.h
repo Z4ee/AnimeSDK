@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class LevelPedestrianV2RoadEntryInfo; }
 
-#define RPG_GAMECORE_LEVELPEDESTRIANV2INTERSECTIONCHENLINGFACTORYSPAWNINFO_METHOD_2_BE550E0906BC9813_OFFSET UNITYSDK_OFFSET(0x1B56D820)
-#define RPG_GAMECORE_LEVELPEDESTRIANV2INTERSECTIONCHENLINGFACTORYSPAWNINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1B56D9A0)
+#define RPG_GAMECORE_LEVELPEDESTRIANV2INTERSECTIONCHENLINGFACTORYSPAWNINFO_METHOD_2_E70E01BC3B1E8D0A_OFFSET UNITYSDK_OFFSET(0x1D1E7460)
+#define RPG_GAMECORE_LEVELPEDESTRIANV2INTERSECTIONCHENLINGFACTORYSPAWNINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1E7600)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelPedestrianV2IntersectionChenLingFactorySpawnInfo_TypeDefinitionIndex = 16616;
+	inline static constexpr unsigned int LevelPedestrianV2IntersectionChenLingFactorySpawnInfo_TypeDefinitionIndex = 17108;
 
 	class LevelPedestrianV2IntersectionChenLingFactorySpawnInfo : public ::RPG::GameCore::JsonConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPEDESTRIANV2INTERSECTIONCHENLINGFACTORYSPAWNINFO__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_BE550E0906BC9813(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelPedestrianV2IntersectionChenLingFactorySpawnInfo*& a2)
+		static ::System::Void Method_2_E70E01BC3B1E8D0A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelPedestrianV2IntersectionChenLingFactorySpawnInfo*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelPedestrianV2IntersectionChenLingFactorySpawnInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPEDESTRIANV2INTERSECTIONCHENLINGFACTORYSPAWNINFO_METHOD_2_BE550E0906BC9813_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelPedestrianV2IntersectionChenLingFactorySpawnInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPEDESTRIANV2INTERSECTIONCHENLINGFACTORYSPAWNINFO_METHOD_2_E70E01BC3B1E8D0A_OFFSET))(a1, a2);
 		}
 	};
 }

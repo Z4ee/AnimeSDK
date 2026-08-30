@@ -5,23 +5,23 @@
 
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define RPG_CUSTOMRP_VOLUMETRICFOGCONTROLLER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1AAC37E0)
-#define RPG_CUSTOMRP_VOLUMETRICFOGCONTROLLER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1AAC3990)
-#define RPG_CUSTOMRP_VOLUMETRICFOGCONTROLLER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1AAC3930)
-#define RPG_CUSTOMRP_VOLUMETRICFOGCONTROLLER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1AAC38B0)
-#define RPG_CUSTOMRP_VOLUMETRICFOGCONTROLLER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AAC3A80)
-#define RPG_CUSTOMRP_VOLUMETRICFOGCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1AAC39F0)
+#define RPG_CUSTOMRP_VOLUMETRICFOGCONTROLLER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1C6F49F0)
+#define RPG_CUSTOMRP_VOLUMETRICFOGCONTROLLER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1C6F4BA0)
+#define RPG_CUSTOMRP_VOLUMETRICFOGCONTROLLER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1C6F4B40)
+#define RPG_CUSTOMRP_VOLUMETRICFOGCONTROLLER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1C6F4AC0)
+#define RPG_CUSTOMRP_VOLUMETRICFOGCONTROLLER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C6F4C90)
+#define RPG_CUSTOMRP_VOLUMETRICFOGCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C6F4C00)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int VolumetricFogController_TypeDefinitionIndex = 36194;
+	inline static constexpr unsigned int VolumetricFogController_TypeDefinitionIndex = 37053;
 
 	class VolumetricFogController : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		static ::System::Collections::Generic::HashSet_1<::RPG::CustomRP::VolumetricFogController*>** StaticGet__instances()
 		{
-			return (::System::Collections::Generic::HashSet_1<::RPG::CustomRP::VolumetricFogController*>**)Il2CppClass::FromTypeDefinitionIndex(VolumetricFogController_TypeDefinitionIndex)->GetStaticField(0x63390);
+			return (::System::Collections::Generic::HashSet_1<::RPG::CustomRP::VolumetricFogController*>**)Il2CppClass::FromTypeDefinitionIndex(VolumetricFogController_TypeDefinitionIndex)->GetStaticField(0x420D0);
 		}
 		::System::Boolean Enable; // 0x18
 		::System::Single StartDistance; // 0x1C

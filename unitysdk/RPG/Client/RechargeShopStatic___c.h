@@ -7,29 +7,29 @@ namespace RPG::GameCore { class ItemConfig; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_RECHARGESHOPSTATIC___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD2CE190)
-#define RPG_CLIENT_RECHARGESHOPSTATIC___C__COLLECTANDSORTITEMS_B__16_0_OFFSET UNITYSDK_OFFSET(0xD2CE1D0)
-#define RPG_CLIENT_RECHARGESHOPSTATIC___C__COLLECTANDSORTITEMS_B__16_1_OFFSET UNITYSDK_OFFSET(0xD2CE200)
-#define RPG_CLIENT_RECHARGESHOPSTATIC___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD2CE1C0)
+#define RPG_CLIENT_RECHARGESHOPSTATIC___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xDE0D020)
+#define RPG_CLIENT_RECHARGESHOPSTATIC___C__COLLECTANDSORTITEMS_B__16_0_OFFSET UNITYSDK_OFFSET(0xDE0D060)
+#define RPG_CLIENT_RECHARGESHOPSTATIC___C__COLLECTANDSORTITEMS_B__16_1_OFFSET UNITYSDK_OFFSET(0xDE0D090)
+#define RPG_CLIENT_RECHARGESHOPSTATIC___C__CTOR_OFFSET UNITYSDK_OFFSET(0xDE0D050)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RechargeShopStatic___c_TypeDefinitionIndex = 63816;
+	inline static constexpr unsigned int RechargeShopStatic___c_TypeDefinitionIndex = 66801;
 
 	class RechargeShopStatic___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::UInt32>, ::RPG::GameCore::ItemConfig*>** StaticGet___9__16_0()
-		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::UInt32>, ::RPG::GameCore::ItemConfig*>**)Il2CppClass::FromTypeDefinitionIndex(RechargeShopStatic___c_TypeDefinitionIndex)->GetStaticField(0x1C990);
-		}
 		static ::RPG::Client::RechargeShopStatic___c** StaticGet___9()
 		{
-			return (::RPG::Client::RechargeShopStatic___c**)Il2CppClass::FromTypeDefinitionIndex(RechargeShopStatic___c_TypeDefinitionIndex)->GetStaticField(0x1C998);
+			return (::RPG::Client::RechargeShopStatic___c**)Il2CppClass::FromTypeDefinitionIndex(RechargeShopStatic___c_TypeDefinitionIndex)->GetStaticField(0x5EB60);
 		}
 		static ::System::Comparison_1<::RPG::GameCore::ItemConfig*>** StaticGet___9__16_1()
 		{
-			return (::System::Comparison_1<::RPG::GameCore::ItemConfig*>**)Il2CppClass::FromTypeDefinitionIndex(RechargeShopStatic___c_TypeDefinitionIndex)->GetStaticField(0x1C9A0);
+			return (::System::Comparison_1<::RPG::GameCore::ItemConfig*>**)Il2CppClass::FromTypeDefinitionIndex(RechargeShopStatic___c_TypeDefinitionIndex)->GetStaticField(0x5EB68);
+		}
+		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::UInt32>, ::RPG::GameCore::ItemConfig*>** StaticGet___9__16_0()
+		{
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::UInt32>, ::RPG::GameCore::ItemConfig*>**)Il2CppClass::FromTypeDefinitionIndex(RechargeShopStatic___c_TypeDefinitionIndex)->GetStaticField(0x5EB70);
 		}
 
 		static ::System::Void _cctor()

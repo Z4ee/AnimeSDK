@@ -5,22 +5,22 @@
 class SceneLightVolume;
 namespace System { template <typename T> class Comparison_1; }
 
-#define EDITORLIGHTPREVIEWER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x144BF9D0)
-#define EDITORLIGHTPREVIEWER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x144BFA10)
-#define EDITORLIGHTPREVIEWER___C__GETACTIVESCENELIGHTVOLUME_B__55_0_OFFSET UNITYSDK_OFFSET(0x144BFA20)
+#define EDITORLIGHTPREVIEWER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x152F1000)
+#define EDITORLIGHTPREVIEWER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x152F1040)
+#define EDITORLIGHTPREVIEWER___C__GETACTIVESCENELIGHTVOLUME_B__55_0_OFFSET UNITYSDK_OFFSET(0x152F1050)
 
-inline static constexpr unsigned int EditorLightPreviewer___c_TypeDefinitionIndex = 45554;
+inline static constexpr unsigned int EditorLightPreviewer___c_TypeDefinitionIndex = 47804;
 
 class EditorLightPreviewer___c : public ::System::Object
 {
 public:
 	static ::EditorLightPreviewer___c** StaticGet___9()
 	{
-		return (::EditorLightPreviewer___c**)Il2CppClass::FromTypeDefinitionIndex(EditorLightPreviewer___c_TypeDefinitionIndex)->GetStaticField(0x37030);
+		return (::EditorLightPreviewer___c**)Il2CppClass::FromTypeDefinitionIndex(EditorLightPreviewer___c_TypeDefinitionIndex)->GetStaticField(0x64BC0);
 	}
 	static ::System::Comparison_1<::SceneLightVolume*>** StaticGet___9__55_0()
 	{
-		return (::System::Comparison_1<::SceneLightVolume*>**)Il2CppClass::FromTypeDefinitionIndex(EditorLightPreviewer___c_TypeDefinitionIndex)->GetStaticField(0x37038);
+		return (::System::Comparison_1<::SceneLightVolume*>**)Il2CppClass::FromTypeDefinitionIndex(EditorLightPreviewer___c_TypeDefinitionIndex)->GetStaticField(0x64BC8);
 	}
 
 	static ::System::Void _cctor()

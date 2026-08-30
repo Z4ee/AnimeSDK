@@ -5,17 +5,17 @@
 namespace MessagePack { class IFormatterResolver; }
 namespace MessagePack::Formatters { template <typename T> class IMessagePackFormatter_1; }
 
-#define CLASS_1_ECDF8B8E76D570B0__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A4776C0)
-#define CLASS_1_ECDF8B8E76D570B0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4776B0)
+#define CLASS_1_ECDF8B8E76D570B0__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C087060)
+#define CLASS_1_ECDF8B8E76D570B0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C087050)
 
-inline static constexpr unsigned int Class_1_ECDF8B8E76D570B0_TypeDefinitionIndex = 35659;
+inline static constexpr unsigned int Class_1_ECDF8B8E76D570B0_TypeDefinitionIndex = 36520;
 
 class Class_1_ECDF8B8E76D570B0 : public ::System::Object
 {
 public:
-	static ::MessagePack::IFormatterResolver** StaticGet_Field_1_0()
+	static ::MessagePack::IFormatterResolver** StaticGet_FMJPMFEDIJL()
 	{
-		return (::MessagePack::IFormatterResolver**)Il2CppClass::FromTypeDefinitionIndex(Class_1_ECDF8B8E76D570B0_TypeDefinitionIndex)->GetStaticField(0x53850);
+		return (::MessagePack::IFormatterResolver**)Il2CppClass::FromTypeDefinitionIndex(Class_1_ECDF8B8E76D570B0_TypeDefinitionIndex)->GetStaticField(0x1820);
 	}
 
 	::System::Void _ctor()

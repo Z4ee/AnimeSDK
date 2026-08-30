@@ -3,17 +3,17 @@
 #include "unitysdk/RPG/GameCore/EventType.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_8CF94E0F14A91ED3_1_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x15034D80)
-#define CLASS_1_8CF94E0F14A91ED3_1_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x15034D30)
-#define CLASS_1_8CF94E0F14A91ED3_1__CTOR_OFFSET UNITYSDK_OFFSET(0x15034D20)
+#define CLASS_1_8CF94E0F14A91ED3_1_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x15CE9D10)
+#define CLASS_1_8CF94E0F14A91ED3_1_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x15CE9CC0)
+#define CLASS_1_8CF94E0F14A91ED3_1__CTOR_OFFSET UNITYSDK_OFFSET(0x15CE9CB0)
 
-inline static constexpr unsigned int Class_1_8CF94E0F14A91ED3_1_TypeDefinitionIndex = 54090;
+inline static constexpr unsigned int Class_1_8CF94E0F14A91ED3_1_TypeDefinitionIndex = 56811;
 
 class Class_1_8CF94E0F14A91ED3_1 : public ::System::Object
 {
 public:
-	::System::UInt32 Field_1_0; // 0x10
-	::System::UInt32 Field_1_1; // 0x14
+	::System::UInt32 GNOCBLOMLAC; // 0x10
+	::System::UInt32 DOCIPOEABOM; // 0x14
 
 	::System::Void _ctor(::System::UInt32 a1, ::System::UInt32 a2)
 	{

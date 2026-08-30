@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int CustomPropMoveType_TypeDefinitionIndex = 40943;
+	inline static constexpr unsigned int CustomPropMoveType_TypeDefinitionIndex = 41902;
 
 	enum class CustomPropMoveType : ::System::Int32
 	{

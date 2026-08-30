@@ -3,7 +3,7 @@
 
 namespace RPG::Client::CityCarFlow
 {
-	inline static constexpr unsigned int ECityCarFlowIntersectionSignState_TypeDefinitionIndex = 76812;
+	inline static constexpr unsigned int ECityCarFlowIntersectionSignState_TypeDefinitionIndex = 80852;
 
 	enum class ECityCarFlowIntersectionSignState : ::System::Int32
 	{

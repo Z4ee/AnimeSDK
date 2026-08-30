@@ -6,16 +6,16 @@ namespace UnityEngine { class CanvasGroup; }
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI { class Text; }
 
-#define CLASS_2_A1E038C9E9F68E59_CLASS_1_152E032112DD3242__CTOR_OFFSET UNITYSDK_OFFSET(0xB355340)
+#define CLASS_2_A1E038C9E9F68E59_CLASS_1_152E032112DD3242__CTOR_OFFSET UNITYSDK_OFFSET(0xBD311C0)
 
-inline static constexpr unsigned int Class_2_A1E038C9E9F68E59_Class_1_152E032112DD3242_TypeDefinitionIndex = 69605;
+inline static constexpr unsigned int Class_2_A1E038C9E9F68E59_Class_1_152E032112DD3242_TypeDefinitionIndex = 72842;
 
 class Class_2_A1E038C9E9F68E59_Class_1_152E032112DD3242 : public ::System::Object
 {
 public:
-	::UnityEngine::CanvasGroup* Field_1_0; // 0x10
-	::UnityEngine::UI::Text* Field_1_1; // 0x18
-	::UnityEngine::Transform* Field_1_2; // 0x20
+	::UnityEngine::UI::Text* NJLHJAGNHKM; // 0x10
+	::UnityEngine::Transform* AGNIKDCLNPI; // 0x18
+	::UnityEngine::CanvasGroup* KHGEBMPAFNA; // 0x20
 
 	::System::Void _ctor()
 	{

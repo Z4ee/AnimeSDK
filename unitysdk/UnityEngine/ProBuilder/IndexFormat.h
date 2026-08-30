@@ -3,7 +3,7 @@
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int IndexFormat_TypeDefinitionIndex = 41598;
+	inline static constexpr unsigned int IndexFormat_TypeDefinitionIndex = 43209;
 
 	enum class IndexFormat : ::System::Int32
 	{

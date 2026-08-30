@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class PumanHuntTriggerEscapeEvent; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_9E4FC2BDB8148FDC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x151A8AC0)
-#define CLASS_3_9E4FC2BDB8148FDC__CTOR_OFFSET UNITYSDK_OFFSET(0x151A8A90)
+#define CLASS_3_9E4FC2BDB8148FDC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x160C1900)
+#define CLASS_3_9E4FC2BDB8148FDC__CTOR_OFFSET UNITYSDK_OFFSET(0x160C18D0)
 
-inline static constexpr unsigned int Class_3_9E4FC2BDB8148FDC_TypeDefinitionIndex = 50763;
+inline static constexpr unsigned int Class_3_9E4FC2BDB8148FDC_TypeDefinitionIndex = 53445;
 
 class Class_3_9E4FC2BDB8148FDC : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::PumanHuntTriggerEscapeEvent*>
 {

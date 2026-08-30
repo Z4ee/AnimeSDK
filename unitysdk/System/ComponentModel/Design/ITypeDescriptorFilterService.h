@@ -6,7 +6,7 @@ namespace System::ComponentModel { class IComponent; }
 
 namespace System::ComponentModel::Design
 {
-	inline static constexpr unsigned int ITypeDescriptorFilterService_TypeDefinitionIndex = 2652;
+	inline static constexpr unsigned int ITypeDescriptorFilterService_TypeDefinitionIndex = 2659;
 
 	class ITypeDescriptorFilterService
 	{

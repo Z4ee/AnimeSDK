@@ -4,10 +4,10 @@
 
 namespace System { class String; }
 
-#define CLASS_3_EA1C7084CC73F614_GET_ROLEUID_OFFSET UNITYSDK_OFFSET(0x14A91C00)
-#define CLASS_3_EA1C7084CC73F614__CTOR_OFFSET UNITYSDK_OFFSET(0x14A91BC0)
+#define CLASS_3_EA1C7084CC73F614_GET_ROLEUID_OFFSET UNITYSDK_OFFSET(0x159291A0)
+#define CLASS_3_EA1C7084CC73F614__CTOR_OFFSET UNITYSDK_OFFSET(0x15929160)
 
-inline static constexpr unsigned int Class_3_EA1C7084CC73F614_TypeDefinitionIndex = 61640;
+inline static constexpr unsigned int Class_3_EA1C7084CC73F614_TypeDefinitionIndex = 64624;
 
 class Class_3_EA1C7084CC73F614 : public ::System::ComponentModel::PropertyChangedEventArgs
 {

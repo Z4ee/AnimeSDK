@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_FDFA365FE186E8F2_6;
+class Class_1_FDFA365FE186E8F2_7;
 namespace RPG::Client { class ActivityBenefitV2Round; }
 namespace RPG::Client { class ScheduleTask; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
@@ -10,22 +10,22 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_BFF1DA2C4D50F81F_METHOD_1_256303B15A3BB162_OFFSET UNITYSDK_OFFSET(0xB9F8DD0)
-#define CLASS_1_BFF1DA2C4D50F81F_METHOD_1_739DB9F245C7FAD0_OFFSET UNITYSDK_OFFSET(0xB9F8730)
-#define CLASS_1_BFF1DA2C4D50F81F_METHOD_1_8389A972740050D0_OFFSET UNITYSDK_OFFSET(0xB9F8A60)
-#define CLASS_1_BFF1DA2C4D50F81F_METHOD_1_898CAF31EC6C83C1_OFFSET UNITYSDK_OFFSET(0xB9F8140)
-#define CLASS_1_BFF1DA2C4D50F81F_METHOD_1_E6C7D6104577BCA9_OFFSET UNITYSDK_OFFSET(0xB9F8100)
-#define CLASS_1_BFF1DA2C4D50F81F__CTOR_OFFSET UNITYSDK_OFFSET(0xB9F9260)
+#define CLASS_1_BFF1DA2C4D50F81F_METHOD_1_256303B15A3BB162_OFFSET UNITYSDK_OFFSET(0xC4173D0)
+#define CLASS_1_BFF1DA2C4D50F81F_METHOD_1_739DB9F245C7FAD0_OFFSET UNITYSDK_OFFSET(0xC416D30)
+#define CLASS_1_BFF1DA2C4D50F81F_METHOD_1_8389A972740050D0_OFFSET UNITYSDK_OFFSET(0xC417060)
+#define CLASS_1_BFF1DA2C4D50F81F_METHOD_1_898CAF31EC6C83C1_OFFSET UNITYSDK_OFFSET(0xC416740)
+#define CLASS_1_BFF1DA2C4D50F81F_METHOD_1_E6C7D6104577BCA9_OFFSET UNITYSDK_OFFSET(0xC416700)
+#define CLASS_1_BFF1DA2C4D50F81F__CTOR_OFFSET UNITYSDK_OFFSET(0xC417860)
 
-inline static constexpr unsigned int Class_1_BFF1DA2C4D50F81F_TypeDefinitionIndex = 58668;
+inline static constexpr unsigned int Class_1_BFF1DA2C4D50F81F_TypeDefinitionIndex = 61499;
 
 class Class_1_BFF1DA2C4D50F81F : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::RPG::Client::ActivityBenefitV2Round*>* Field_1_0; // 0x10
-	::System::Collections::Generic::List_1<::System::UInt32>* Field_1_1; // 0x18
-	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::ScheduleTask*>* Field_1_2; // 0x20
-	::System::UInt32 Field_1_3; // 0x28
+	::System::Collections::Generic::List_1<::System::UInt32>* JJACEJGDPAK; // 0x10
+	::System::Collections::Generic::List_1<::RPG::Client::ActivityBenefitV2Round*>* JBMFDPFFBGC; // 0x18
+	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::ScheduleTask*>* BMMCEEADIAJ; // 0x20
+	::System::UInt32 NFLNCFNGOAD; // 0x28
 
 	::System::Void _ctor()
 	{
@@ -52,8 +52,8 @@ public:
 		return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_1_BFF1DA2C4D50F81F_METHOD_1_8389A972740050D0_OFFSET))(this, a1);
 	}
 
-	::System::Void Method_1_256303B15A3BB162(::Class_1_FDFA365FE186E8F2_6* a1)
+	::System::Void Method_1_256303B15A3BB162(::Class_1_FDFA365FE186E8F2_7* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_1_FDFA365FE186E8F2_6*))((::PBYTE)hIl2Cpp + CLASS_1_BFF1DA2C4D50F81F_METHOD_1_256303B15A3BB162_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::Class_1_FDFA365FE186E8F2_7*))((::PBYTE)hIl2Cpp + CLASS_1_BFF1DA2C4D50F81F_METHOD_1_256303B15A3BB162_OFFSET))(this, a1);
 	}
 };

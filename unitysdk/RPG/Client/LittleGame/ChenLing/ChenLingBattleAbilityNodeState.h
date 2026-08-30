@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame::ChenLing
 {
-	inline static constexpr unsigned int ChenLingBattleAbilityNodeState_TypeDefinitionIndex = 73910;
+	inline static constexpr unsigned int ChenLingBattleAbilityNodeState_TypeDefinitionIndex = 77394;
 
 	enum class ChenLingBattleAbilityNodeState : ::System::Int32
 	{

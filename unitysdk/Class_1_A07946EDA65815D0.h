@@ -3,14 +3,14 @@
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_280;
+class Class_0_16E4307DCC419505_255;
 namespace Entitas { class IEntity; }
 namespace RPG::GameCore { class BaseLittleGameAbilityValueGetterConfig; }
 
-#define CLASS_1_A07946EDA65815D0_GETVALUE_OFFSET UNITYSDK_OFFSET(0xB62C8E0)
-#define CLASS_1_A07946EDA65815D0__CTOR_OFFSET UNITYSDK_OFFSET(0xB62CB50)
+#define CLASS_1_A07946EDA65815D0_GETVALUE_OFFSET UNITYSDK_OFFSET(0xC0302F0)
+#define CLASS_1_A07946EDA65815D0__CTOR_OFFSET UNITYSDK_OFFSET(0xC030560)
 
-inline static constexpr unsigned int Class_1_A07946EDA65815D0_TypeDefinitionIndex = 73452;
+inline static constexpr unsigned int Class_1_A07946EDA65815D0_TypeDefinitionIndex = 76931;
 
 class Class_1_A07946EDA65815D0 : public ::System::Object
 {
@@ -20,8 +20,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_A07946EDA65815D0__CTOR_OFFSET))(this);
 	}
 
-	::RPG::GameCore::FixPoint GetValue(::Class_0_16E4307DCC419505_280* a1, ::Entitas::IEntity* a2, ::RPG::GameCore::BaseLittleGameAbilityValueGetterConfig* a3)
+	::RPG::GameCore::FixPoint GetValue(::Class_0_16E4307DCC419505_255* a1, ::Entitas::IEntity* a2, ::RPG::GameCore::BaseLittleGameAbilityValueGetterConfig* a3)
 	{
-		return ((::RPG::GameCore::FixPoint(*)(::PVOID, ::Class_0_16E4307DCC419505_280*, ::Entitas::IEntity*, ::RPG::GameCore::BaseLittleGameAbilityValueGetterConfig*))((::PBYTE)hIl2Cpp + CLASS_1_A07946EDA65815D0_GETVALUE_OFFSET))(this, a1, a2, a3);
+		return ((::RPG::GameCore::FixPoint(*)(::PVOID, ::Class_0_16E4307DCC419505_255*, ::Entitas::IEntity*, ::RPG::GameCore::BaseLittleGameAbilityValueGetterConfig*))((::PBYTE)hIl2Cpp + CLASS_1_A07946EDA65815D0_GETVALUE_OFFSET))(this, a1, a2, a3);
 	}
 };

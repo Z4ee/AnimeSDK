@@ -4,14 +4,14 @@
 
 namespace RPG::GameCore { class FiveDimPlayerMoveModifierConfig; }
 
-#define CLASS_1_0C6B8EABC5182B4B__CTOR_OFFSET UNITYSDK_OFFSET(0x1A9DAD30)
+#define CLASS_1_0C6B8EABC5182B4B__CTOR_OFFSET UNITYSDK_OFFSET(0x1C6234B0)
 
-inline static constexpr unsigned int Class_1_0C6B8EABC5182B4B_TypeDefinitionIndex = 40859;
+inline static constexpr unsigned int Class_1_0C6B8EABC5182B4B_TypeDefinitionIndex = 41816;
 
 class Class_1_0C6B8EABC5182B4B : public ::System::Object
 {
 public:
-	::RPG::GameCore::FiveDimPlayerMoveModifierConfig* Field_1_0; // 0x10
+	::RPG::GameCore::FiveDimPlayerMoveModifierConfig* ALMAIAIDFHM; // 0x10
 
 	::System::Void _ctor()
 	{

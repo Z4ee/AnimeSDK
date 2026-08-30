@@ -4,17 +4,17 @@
 
 namespace UnityEngine { class Transform; }
 
-#define CLASS_1_CA48F56DCEF4E4D6_CLASS_1_36A0020EEB62E831__CTOR_1_OFFSET UNITYSDK_OFFSET(0xAD14CF0)
-#define CLASS_1_CA48F56DCEF4E4D6_CLASS_1_36A0020EEB62E831__CTOR_OFFSET UNITYSDK_OFFSET(0xAD14CE0)
+#define CLASS_1_CA48F56DCEF4E4D6_CLASS_1_36A0020EEB62E831__CTOR_1_OFFSET UNITYSDK_OFFSET(0xB461250)
+#define CLASS_1_CA48F56DCEF4E4D6_CLASS_1_36A0020EEB62E831__CTOR_OFFSET UNITYSDK_OFFSET(0xB461240)
 
-inline static constexpr unsigned int Class_1_CA48F56DCEF4E4D6_Class_1_36A0020EEB62E831_TypeDefinitionIndex = 63018;
+inline static constexpr unsigned int Class_1_CA48F56DCEF4E4D6_Class_1_36A0020EEB62E831_TypeDefinitionIndex = 66003;
 
 class Class_1_CA48F56DCEF4E4D6_Class_1_36A0020EEB62E831 : public ::System::Object
 {
 public:
-	::System::Object* Field_1_0; // 0x10
-	::UnityEngine::Transform* Field_1_1; // 0x18
-	::System::Boolean Field_1_2; // 0x20
+	::System::Object* JPHGPKBOHPE; // 0x10
+	::UnityEngine::Transform* DHIPFJBEJPI; // 0x18
+	::System::Boolean HNOBLPHCDBN; // 0x20
 
 	::System::Void _ctor(::UnityEngine::Transform* a1, ::System::Object* a2)
 	{

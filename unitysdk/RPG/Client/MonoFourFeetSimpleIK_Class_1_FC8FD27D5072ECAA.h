@@ -6,21 +6,21 @@
 namespace RPG::Client { class MonoFourFeetSimpleIK_OriginTransform; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_MONOFOURFEETSIMPLEIK_CLASS_1_FC8FD27D5072ECAA_METHOD_1_1290EA767C459179_OFFSET UNITYSDK_OFFSET(0xCCED000)
-#define RPG_CLIENT_MONOFOURFEETSIMPLEIK_CLASS_1_FC8FD27D5072ECAA_METHOD_1_33ACA6CB2ABC73F7_OFFSET UNITYSDK_OFFSET(0xCCEC8C0)
-#define RPG_CLIENT_MONOFOURFEETSIMPLEIK_CLASS_1_FC8FD27D5072ECAA__CTOR_OFFSET UNITYSDK_OFFSET(0xCCEC200)
+#define RPG_CLIENT_MONOFOURFEETSIMPLEIK_CLASS_1_FC8FD27D5072ECAA_METHOD_1_1290EA767C459179_OFFSET UNITYSDK_OFFSET(0xD82F5B0)
+#define RPG_CLIENT_MONOFOURFEETSIMPLEIK_CLASS_1_FC8FD27D5072ECAA_METHOD_1_33ACA6CB2ABC73F7_OFFSET UNITYSDK_OFFSET(0xD82EE40)
+#define RPG_CLIENT_MONOFOURFEETSIMPLEIK_CLASS_1_FC8FD27D5072ECAA__CTOR_OFFSET UNITYSDK_OFFSET(0xD82E750)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoFourFeetSimpleIK_Class_1_FC8FD27D5072ECAA_TypeDefinitionIndex = 65545;
+	inline static constexpr unsigned int MonoFourFeetSimpleIK_Class_1_FC8FD27D5072ECAA_TypeDefinitionIndex = 68560;
 
 	class MonoFourFeetSimpleIK_Class_1_FC8FD27D5072ECAA : public ::System::Object
 	{
 	public:
-		::RPG::Client::MonoFourFeetSimpleIK_OriginTransform* Field_1_0; // 0x10
-		::UnityEngine::Transform* Field_1_1; // 0x18
-		::System::Single Field_1_2; // 0x20
-		::UnityEngine::Quaternion Field_1_3; // 0x24
+		::UnityEngine::Transform* DHIPFJBEJPI; // 0x10
+		::RPG::Client::MonoFourFeetSimpleIK_OriginTransform* DICDJJOJKGF; // 0x18
+		::UnityEngine::Quaternion DGKOGKGKHJG; // 0x20
+		::System::Single APAKCBFMCAB; // 0x30
 
 		::System::Void _ctor(::RPG::Client::MonoFourFeetSimpleIK_OriginTransform* a1, ::UnityEngine::Transform* a2)
 		{

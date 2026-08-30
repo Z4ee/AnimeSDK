@@ -5,20 +5,20 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_NAVMAPSUBTABROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B66E920)
-#define RPG_GAMECORE_NAVMAPSUBTABROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B66EF10)
+#define RPG_GAMECORE_NAVMAPSUBTABROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D2F15F0)
+#define RPG_GAMECORE_NAVMAPSUBTABROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2F1C20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int NavMapSubTabRow_TypeDefinitionIndex = 13482;
+	inline static constexpr unsigned int NavMapSubTabRow_TypeDefinitionIndex = 13897;
 
 	class NavMapSubTabRow : public ::System::Object
 	{
 	public:
 		::System::String* UnlockConditionExpression; // 0x10
-		::System::UInt32 MenuSortID; // 0x18
-		::System::UInt32 NavMapTabID; // 0x1C
-		::System::UInt32 FloorID; // 0x20
+		::System::UInt32 FloorID; // 0x18
+		::System::UInt32 MenuSortID; // 0x1C
+		::System::UInt32 NavMapTabID; // 0x20
 
 		::System::Void _ctor()
 		{

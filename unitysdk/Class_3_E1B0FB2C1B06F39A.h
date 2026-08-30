@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ActiveCommonSkillPool; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_E1B0FB2C1B06F39A_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB39E260)
-#define CLASS_3_E1B0FB2C1B06F39A__CTOR_OFFSET UNITYSDK_OFFSET(0xB39E230)
+#define CLASS_3_E1B0FB2C1B06F39A_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBE01160)
+#define CLASS_3_E1B0FB2C1B06F39A__CTOR_OFFSET UNITYSDK_OFFSET(0xBE01130)
 
-inline static constexpr unsigned int Class_3_E1B0FB2C1B06F39A_TypeDefinitionIndex = 52324;
+inline static constexpr unsigned int Class_3_E1B0FB2C1B06F39A_TypeDefinitionIndex = 55014;
 
 class Class_3_E1B0FB2C1B06F39A : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ActiveCommonSkillPool*>
 {

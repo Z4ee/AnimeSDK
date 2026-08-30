@@ -4,23 +4,23 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_FANTASTICSTORYBUFFROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B406E20)
-#define RPG_GAMECORE_FANTASTICSTORYBUFFROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4070A0)
+#define RPG_GAMECORE_FANTASTICSTORYBUFFROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D0886D0)
+#define RPG_GAMECORE_FANTASTICSTORYBUFFROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D088950)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FantasticStoryBuffRow_TypeDefinitionIndex = 11062;
+	inline static constexpr unsigned int FantasticStoryBuffRow_TypeDefinitionIndex = 11451;
 
 	class FantasticStoryBuffRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* AvailableBattleID; // 0x10
-		::System::UInt32 MazebuffID; // 0x18
-		::System::Boolean ClientShowAvailableTips; // 0x1C
-		::System::UInt32 BuffSlot; // 0x20
-		::System::UInt32 BuffID; // 0x24
-		::System::UInt32 UnlockChapterID; // 0x28
-		::System::UInt32 ActivityModuleID; // 0x2C
+		::System::UInt32 BuffID; // 0x18
+		::System::UInt32 UnlockChapterID; // 0x1C
+		::System::UInt32 MazebuffID; // 0x20
+		::System::UInt32 BuffSlot; // 0x24
+		::System::UInt32 ActivityModuleID; // 0x28
+		::System::Boolean ClientShowAvailableTips; // 0x2C
 
 		::System::Void _ctor()
 		{

@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class RogueMagicUnitDataItem; }
 
-#define RPG_CLIENT_ROGUEMAGICSCEPTERDATAITEM___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD3C8A90)
-#define RPG_CLIENT_ROGUEMAGICSCEPTERDATAITEM___C__DISPLAYCLASS15_0__FINDHAVINGUNITBYUNITID_B__0_OFFSET UNITYSDK_OFFSET(0xD3C9D70)
+#define RPG_CLIENT_ROGUEMAGICSCEPTERDATAITEM___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0xDEE30C0)
+#define RPG_CLIENT_ROGUEMAGICSCEPTERDATAITEM___C__DISPLAYCLASS15_0__FINDHAVINGUNITBYUNITID_B__0_OFFSET UNITYSDK_OFFSET(0xDEE3F10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueMagicScepterDataItem___c__DisplayClass15_0_TypeDefinitionIndex = 64426;
+	inline static constexpr unsigned int RogueMagicScepterDataItem___c__DisplayClass15_0_TypeDefinitionIndex = 67422;
 
 	class RogueMagicScepterDataItem___c__DisplayClass15_0 : public ::System::Object
 	{

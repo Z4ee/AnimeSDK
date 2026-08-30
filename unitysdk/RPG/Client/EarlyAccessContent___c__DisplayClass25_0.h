@@ -4,12 +4,12 @@
 
 class Class_1_F730B69FCB9EE042;
 
-#define RPG_CLIENT_EARLYACCESSCONTENT___C__DISPLAYCLASS25_0__CONTAINSDIMENSION_B__0_OFFSET UNITYSDK_OFFSET(0xC2E7E00)
-#define RPG_CLIENT_EARLYACCESSCONTENT___C__DISPLAYCLASS25_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC2E62E0)
+#define RPG_CLIENT_EARLYACCESSCONTENT___C__DISPLAYCLASS25_0__CONTAINSDIMENSION_B__0_OFFSET UNITYSDK_OFFSET(0xCDB9190)
+#define RPG_CLIENT_EARLYACCESSCONTENT___C__DISPLAYCLASS25_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCDB7670)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EarlyAccessContent___c__DisplayClass25_0_TypeDefinitionIndex = 60853;
+	inline static constexpr unsigned int EarlyAccessContent___c__DisplayClass25_0_TypeDefinitionIndex = 63706;
 
 	class EarlyAccessContent___c__DisplayClass25_0 : public ::System::Object
 	{

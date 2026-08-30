@@ -6,12 +6,12 @@ class Class_1_482F3423DE650EAD;
 namespace RPG::Client { class WolfBroGunTargetProjectile; }
 namespace System { class String; }
 
-#define RPG_CLIENT_WOLFBROGUNPLAYTARGETACTIONCONFIG_SCATTERFIRE_METHOD_2_47FCE72550F759BF_OFFSET UNITYSDK_OFFSET(0xD8B7A10)
-#define RPG_CLIENT_WOLFBROGUNPLAYTARGETACTIONCONFIG_SCATTERFIRE__CTOR_OFFSET UNITYSDK_OFFSET(0xD8B7A90)
+#define RPG_CLIENT_WOLFBROGUNPLAYTARGETACTIONCONFIG_SCATTERFIRE_METHOD_2_47FCE72550F759BF_OFFSET UNITYSDK_OFFSET(0xE42E100)
+#define RPG_CLIENT_WOLFBROGUNPLAYTARGETACTIONCONFIG_SCATTERFIRE__CTOR_OFFSET UNITYSDK_OFFSET(0xE42E180)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int WolfBroGunPlayTargetActionConfig_ScatterFire_TypeDefinitionIndex = 65643;
+	inline static constexpr unsigned int WolfBroGunPlayTargetActionConfig_ScatterFire_TypeDefinitionIndex = 68680;
 
 	class WolfBroGunPlayTargetActionConfig_ScatterFire : public ::RPG::Client::WolfBroGunPlayTargetActionConfig
 	{

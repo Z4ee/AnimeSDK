@@ -8,28 +8,28 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Collections::Specialized { class NotifyCollectionChangedEventArgs; }
 namespace System::ComponentModel { class PropertyChangedEventArgs; }
 
-#define RPG_CLIENT_GRIDFIGHTORBCHANGECOLLECTOR_CONTAINSORBTYPE_OFFSET UNITYSDK_OFFSET(0xC7994F0)
-#define RPG_CLIENT_GRIDFIGHTORBCHANGECOLLECTOR_GET_ADDORBLIST_OFFSET UNITYSDK_OFFSET(0xC79A3C0)
-#define RPG_CLIENT_GRIDFIGHTORBCHANGECOLLECTOR_GET_REMOVEORBLIST_OFFSET UNITYSDK_OFFSET(0xC79A450)
-#define RPG_CLIENT_GRIDFIGHTORBCHANGECOLLECTOR_GET_UPDATEPRESENTUIDLIST_OFFSET UNITYSDK_OFFSET(0xC79A4E0)
-#define RPG_CLIENT_GRIDFIGHTORBCHANGECOLLECTOR_ONCOLLECTIONCHANGEDEVENTHANDLER_OFFSET UNITYSDK_OFFSET(0xC799880)
-#define RPG_CLIENT_GRIDFIGHTORBCHANGECOLLECTOR_ONPROPERTYCHANGEDEVENTHANDLER_OFFSET UNITYSDK_OFFSET(0xC799580)
-#define RPG_CLIENT_GRIDFIGHTORBCHANGECOLLECTOR_RESET_OFFSET UNITYSDK_OFFSET(0xC7992B0)
-#define RPG_CLIENT_GRIDFIGHTORBCHANGECOLLECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0xC79A570)
+#define RPG_CLIENT_GRIDFIGHTORBCHANGECOLLECTOR_CONTAINSORBTYPE_OFFSET UNITYSDK_OFFSET(0xD221B60)
+#define RPG_CLIENT_GRIDFIGHTORBCHANGECOLLECTOR_GET_ADDORBLIST_OFFSET UNITYSDK_OFFSET(0xD222960)
+#define RPG_CLIENT_GRIDFIGHTORBCHANGECOLLECTOR_GET_REMOVEORBLIST_OFFSET UNITYSDK_OFFSET(0xD2229F0)
+#define RPG_CLIENT_GRIDFIGHTORBCHANGECOLLECTOR_GET_UPDATEPRESENTUIDLIST_OFFSET UNITYSDK_OFFSET(0xD222A80)
+#define RPG_CLIENT_GRIDFIGHTORBCHANGECOLLECTOR_ONCOLLECTIONCHANGEDEVENTHANDLER_OFFSET UNITYSDK_OFFSET(0xD221E20)
+#define RPG_CLIENT_GRIDFIGHTORBCHANGECOLLECTOR_ONPROPERTYCHANGEDEVENTHANDLER_OFFSET UNITYSDK_OFFSET(0xD221BF0)
+#define RPG_CLIENT_GRIDFIGHTORBCHANGECOLLECTOR_RESET_OFFSET UNITYSDK_OFFSET(0xD221920)
+#define RPG_CLIENT_GRIDFIGHTORBCHANGECOLLECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0xD222B10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightOrbChangeCollector_TypeDefinitionIndex = 61635;
+	inline static constexpr unsigned int GridFightOrbChangeCollector_TypeDefinitionIndex = 64619;
 
 	class GridFightOrbChangeCollector : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::HashSet_1<::System::UInt32>* RemovePresentUIDs; // 0x10
-		::System::Collections::Generic::HashSet_1<::System::UInt32>* UpdatePresentUIDs; // 0x18
-		::System::Collections::Generic::HashSet_1<::System::UInt32>* AddOrbUIDs; // 0x20
-		::System::Collections::Generic::HashSet_1<::RPG::GameCore::GridFightOrbType>* UpdatedOrbTypes; // 0x28
-		::System::Collections::Generic::HashSet_1<::System::UInt32>* AddPresentUIDs; // 0x30
-		::System::Collections::Generic::HashSet_1<::System::UInt32>* RemoveOrbUIDs; // 0x38
+		::System::Collections::Generic::HashSet_1<::System::UInt32>* AddPresentUIDs; // 0x10
+		::System::Collections::Generic::HashSet_1<::System::UInt32>* RemovePresentUIDs; // 0x18
+		::System::Collections::Generic::HashSet_1<::RPG::GameCore::GridFightOrbType>* UpdatedOrbTypes; // 0x20
+		::System::Collections::Generic::HashSet_1<::System::UInt32>* AddOrbUIDs; // 0x28
+		::System::Collections::Generic::HashSet_1<::System::UInt32>* RemoveOrbUIDs; // 0x30
+		::System::Collections::Generic::HashSet_1<::System::UInt32>* UpdatePresentUIDs; // 0x38
 
 		::System::Void _ctor()
 		{

@@ -3,7 +3,7 @@
 
 namespace RPG::Client::FateRin::Battle
 {
-	inline static constexpr unsigned int FateRinCenterStyle_TypeDefinitionIndex = 75900;
+	inline static constexpr unsigned int FateRinCenterStyle_TypeDefinitionIndex = 79533;
 
 	enum class FateRinCenterStyle : ::System::Int32
 	{

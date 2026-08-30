@@ -8,13 +8,13 @@ namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class TriggerValidGuestConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ADVSETUPCUSTOMTASKTRIGGER_METHOD_3_08AD533224B1CD59_OFFSET UNITYSDK_OFFSET(0x1B165160)
-#define RPG_GAMECORE_ADVSETUPCUSTOMTASKTRIGGER_METHOD_3_A8FD16AD33D4A51C_OFFSET UNITYSDK_OFFSET(0x1B1651A0)
-#define RPG_GAMECORE_ADVSETUPCUSTOMTASKTRIGGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B165190)
+#define RPG_GAMECORE_ADVSETUPCUSTOMTASKTRIGGER_METHOD_3_08AD533224B1CD59_OFFSET UNITYSDK_OFFSET(0x1CDDC5A0)
+#define RPG_GAMECORE_ADVSETUPCUSTOMTASKTRIGGER_METHOD_3_A8FD16AD33D4A51C_OFFSET UNITYSDK_OFFSET(0x1CDDC5E0)
+#define RPG_GAMECORE_ADVSETUPCUSTOMTASKTRIGGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1CDDC5D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvSetupCustomTaskTrigger_TypeDefinitionIndex = 19750;
+	inline static constexpr unsigned int AdvSetupCustomTaskTrigger_TypeDefinitionIndex = 20296;
 
 	class AdvSetupCustomTaskTrigger : public ::RPG::GameCore::TaskConfig
 	{
@@ -27,6 +27,7 @@ namespace RPG::GameCore
 		::System::Boolean DisableAfterTriggered; // 0x40
 		::System::Boolean IsOverrideValidGuestConfig; // 0x41
 		::RPG::GameCore::TriggerValidGuestConfig* OverridedValidGuestConfig; // 0x48
+		::System::Boolean AllowSeachEntityInParent; // 0x50
 
 		::System::Void _ctor()
 		{

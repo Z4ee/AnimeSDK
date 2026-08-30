@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class LevelBattleAreaInfo; }
 
-#define RPG_GAMECORE_DYNAMICLOADBATTLEAREACONFIG_METHOD_3_2733813B69AC3A08_OFFSET UNITYSDK_OFFSET(0x1B3CE620)
-#define RPG_GAMECORE_DYNAMICLOADBATTLEAREACONFIG_METHOD_3_666C35EC8A6ED57E_OFFSET UNITYSDK_OFFSET(0x1B3CE5A0)
-#define RPG_GAMECORE_DYNAMICLOADBATTLEAREACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3CE600)
+#define RPG_GAMECORE_DYNAMICLOADBATTLEAREACONFIG_METHOD_3_8B69CA91FE573207_OFFSET UNITYSDK_OFFSET(0x1D04C920)
+#define RPG_GAMECORE_DYNAMICLOADBATTLEAREACONFIG_METHOD_3_B6858DA48901388B_OFFSET UNITYSDK_OFFSET(0x1D04C980)
+#define RPG_GAMECORE_DYNAMICLOADBATTLEAREACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D04C960)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DynamicLoadBattleAreaConfig_TypeDefinitionIndex = 18412;
+	inline static constexpr unsigned int DynamicLoadBattleAreaConfig_TypeDefinitionIndex = 18936;
 
 	class DynamicLoadBattleAreaConfig : public ::RPG::GameCore::DynamicLoadBlockDataList
 	{
@@ -23,14 +23,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DYNAMICLOADBATTLEAREACONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_666C35EC8A6ED57E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DynamicLoadBattleAreaConfig*& a2)
+		static ::System::Void Method_3_8B69CA91FE573207(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DynamicLoadBattleAreaConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DynamicLoadBattleAreaConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DYNAMICLOADBATTLEAREACONFIG_METHOD_3_666C35EC8A6ED57E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DynamicLoadBattleAreaConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DYNAMICLOADBATTLEAREACONFIG_METHOD_3_8B69CA91FE573207_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_2733813B69AC3A08(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DynamicLoadBattleAreaConfig* a2)
+		static ::System::Void Method_3_B6858DA48901388B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DynamicLoadBattleAreaConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DynamicLoadBattleAreaConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DYNAMICLOADBATTLEAREACONFIG_METHOD_3_2733813B69AC3A08_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DynamicLoadBattleAreaConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DYNAMICLOADBATTLEAREACONFIG_METHOD_3_B6858DA48901388B_OFFSET))(a1, a2);
 		}
 	};
 }

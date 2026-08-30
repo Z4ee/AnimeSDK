@@ -1,11 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/ValueTuple_2.h"
 
-class Class_1_413D5A0FF338BAB8;
-class Class_1_D2C97E5E9F60802E;
-class Class_2_68CB91321C3E76A7;
+class Class_0_16E4307DCC419505_1208;
+namespace System { template <typename T1, typename T2> class Func_2; }
+namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_1209_TypeDefinitionIndex = 73345;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_1209_TypeDefinitionIndex = 74415;
 
 class Class_0_16E4307DCC419505_1209
 {

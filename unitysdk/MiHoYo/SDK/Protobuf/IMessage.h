@@ -7,7 +7,7 @@ namespace MiHoYo::SDK::Protobuf::Reflection { class MessageDescriptor; }
 
 namespace MiHoYo::SDK::Protobuf
 {
-	inline static constexpr unsigned int IMessage_TypeDefinitionIndex = 34286;
+	inline static constexpr unsigned int IMessage_TypeDefinitionIndex = 35053;
 
 	class IMessage
 	{

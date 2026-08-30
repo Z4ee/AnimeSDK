@@ -7,20 +7,20 @@
 namespace RPG::GameCore { class AdventureSkillData; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ADVENTURESKILLSLOTDATA_GET_SKILLINDEX_OFFSET UNITYSDK_OFFSET(0xD95D940)
-#define RPG_GAMECORE_ADVENTURESKILLSLOTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xD978280)
+#define RPG_GAMECORE_ADVENTURESKILLSLOTDATA_GET_SKILLINDEX_OFFSET UNITYSDK_OFFSET(0xE4D1F30)
+#define RPG_GAMECORE_ADVENTURESKILLSLOTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xE4F4330)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureSkillSlotData_TypeDefinitionIndex = 54318;
+	inline static constexpr unsigned int AdventureSkillSlotData_TypeDefinitionIndex = 57039;
 
 	class AdventureSkillSlotData : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::AdventureSkillData* SkillData; // 0x10
 		::System::String* SkillBtnPrefabPath; // 0x18
-		::System::Boolean TaskInputOnly; // 0x20
-		::RPG::GameCore::AdventureSkillType Slot; // 0x24
+		::RPG::GameCore::AdventureSkillType Slot; // 0x20
+		::System::Boolean TaskInputOnly; // 0x24
 		::RPG::GameCore::AdventureSkillSlotState State; // 0x28
 
 		::System::Void _ctor()

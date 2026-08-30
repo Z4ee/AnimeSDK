@@ -7,22 +7,22 @@ namespace RPG::GameCore { class PropComponent; }
 namespace RPG::GameCore { class PropStartPuzzle; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_2_931C9EC817881A2A_DISPOSE_OFFSET UNITYSDK_OFFSET(0xAD53D30)
-#define CLASS_2_931C9EC817881A2A_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xAD53A40)
-#define CLASS_2_931C9EC817881A2A_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xAD53CB0)
-#define CLASS_2_931C9EC817881A2A_TICK_OFFSET UNITYSDK_OFFSET(0xAD53E50)
-#define CLASS_2_931C9EC817881A2A__CTOR_OFFSET UNITYSDK_OFFSET(0xAD539B0)
+#define CLASS_2_931C9EC817881A2A_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB4CFEE0)
+#define CLASS_2_931C9EC817881A2A_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB4CFBF0)
+#define CLASS_2_931C9EC817881A2A_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB4CFE60)
+#define CLASS_2_931C9EC817881A2A_TICK_OFFSET UNITYSDK_OFFSET(0xB4D0000)
+#define CLASS_2_931C9EC817881A2A__CTOR_OFFSET UNITYSDK_OFFSET(0xB4CFB60)
 
-inline static constexpr unsigned int Class_2_931C9EC817881A2A_TypeDefinitionIndex = 55776;
+inline static constexpr unsigned int Class_2_931C9EC817881A2A_TypeDefinitionIndex = 58507;
 
 class Class_2_931C9EC817881A2A : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::Class_3_07C3C4D2990C49EE* Field_2_0; // 0x18
-	::RPG::GameCore::PropComponent* Field_2_1; // 0x20
-	::RPG::GameCore::TaskContext* Field_2_2; // 0x28
-	::RPG::GameCore::PropStartPuzzle* Field_2_3; // 0x30
-	::System::Boolean Field_2_4; // 0x38
+	::Class_3_07C3C4D2990C49EE* EDBPHODBFCP; // 0x18
+	::RPG::GameCore::PropComponent* IKHBMOJMEEM; // 0x20
+	::RPG::GameCore::PropStartPuzzle* IGHAHBNLIJA; // 0x28
+	::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x30
+	::System::Boolean KBJACNAMHBA; // 0x38
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::PropStartPuzzle* a2)
 	{

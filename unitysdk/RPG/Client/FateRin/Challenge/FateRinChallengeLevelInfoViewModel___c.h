@@ -4,24 +4,24 @@
 
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_FATERIN_CHALLENGE_FATERINCHALLENGELEVELINFOVIEWMODEL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC4CBDC0)
-#define RPG_CLIENT_FATERIN_CHALLENGE_FATERINCHALLENGELEVELINFOVIEWMODEL___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC4CBE00)
-#define RPG_CLIENT_FATERIN_CHALLENGE_FATERINCHALLENGELEVELINFOVIEWMODEL___C__GETSELECTINGBUFFCOUNT_B__4_0_OFFSET UNITYSDK_OFFSET(0xC4CBE10)
+#define RPG_CLIENT_FATERIN_CHALLENGE_FATERINCHALLENGELEVELINFOVIEWMODEL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD000B20)
+#define RPG_CLIENT_FATERIN_CHALLENGE_FATERINCHALLENGELEVELINFOVIEWMODEL___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD000B60)
+#define RPG_CLIENT_FATERIN_CHALLENGE_FATERINCHALLENGELEVELINFOVIEWMODEL___C__GETSELECTINGBUFFCOUNT_B__4_0_OFFSET UNITYSDK_OFFSET(0xD000B70)
 
 namespace RPG::Client::FateRin::Challenge
 {
-	inline static constexpr unsigned int FateRinChallengeLevelInfoViewModel___c_TypeDefinitionIndex = 76075;
+	inline static constexpr unsigned int FateRinChallengeLevelInfoViewModel___c_TypeDefinitionIndex = 79708;
 
 	class FateRinChallengeLevelInfoViewModel___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::System::Boolean, ::System::Boolean>** StaticGet___9__4_0()
 		{
-			return (::System::Func_2<::System::Boolean, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(FateRinChallengeLevelInfoViewModel___c_TypeDefinitionIndex)->GetStaticField(0xC420);
+			return (::System::Func_2<::System::Boolean, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(FateRinChallengeLevelInfoViewModel___c_TypeDefinitionIndex)->GetStaticField(0x9760);
 		}
 		static ::RPG::Client::FateRin::Challenge::FateRinChallengeLevelInfoViewModel___c** StaticGet___9()
 		{
-			return (::RPG::Client::FateRin::Challenge::FateRinChallengeLevelInfoViewModel___c**)Il2CppClass::FromTypeDefinitionIndex(FateRinChallengeLevelInfoViewModel___c_TypeDefinitionIndex)->GetStaticField(0xC428);
+			return (::RPG::Client::FateRin::Challenge::FateRinChallengeLevelInfoViewModel___c**)Il2CppClass::FromTypeDefinitionIndex(FateRinChallengeLevelInfoViewModel___c_TypeDefinitionIndex)->GetStaticField(0x9768);
 		}
 
 		static ::System::Void _cctor()

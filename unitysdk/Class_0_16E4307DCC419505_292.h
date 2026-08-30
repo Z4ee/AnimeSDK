@@ -1,11 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/GameFramework/FileSystem/FileSystemAccess.h"
+#include "unitysdk/RPG/Client/Multithread/NodeState.h"
+#include "unitysdk/Unity/Jobs/JobHandle.h"
 
-class Class_1_95D2CEDB3F77EDE5;
-namespace System { class String; }
+class Class_0_16E4307DCC419505_291;
+namespace System::Collections::Generic { template <typename T> class List_1; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_292_TypeDefinitionIndex = 41261;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_292_TypeDefinitionIndex = 42177;
 
 class Class_0_16E4307DCC419505_292
 {

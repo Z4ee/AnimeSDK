@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByIsContainModifier; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_0EA35BD54EC07D1D_EVALUATE_OFFSET UNITYSDK_OFFSET(0x148F3D30)
-#define CLASS_3_0EA35BD54EC07D1D__CTOR_OFFSET UNITYSDK_OFFSET(0x148F3D00)
+#define CLASS_3_0EA35BD54EC07D1D_EVALUATE_OFFSET UNITYSDK_OFFSET(0x157B9210)
+#define CLASS_3_0EA35BD54EC07D1D__CTOR_OFFSET UNITYSDK_OFFSET(0x157B91E0)
 
-inline static constexpr unsigned int Class_3_0EA35BD54EC07D1D_TypeDefinitionIndex = 52168;
+inline static constexpr unsigned int Class_3_0EA35BD54EC07D1D_TypeDefinitionIndex = 54854;
 
 class Class_3_0EA35BD54EC07D1D : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByIsContainModifier*>
 {

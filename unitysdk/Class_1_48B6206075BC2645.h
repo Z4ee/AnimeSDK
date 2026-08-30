@@ -6,16 +6,16 @@
 namespace RPG::Client { class IAvatarSkinData; }
 namespace RPG::Client { template <typename T1, typename T2> class LRUCache_2; }
 
-#define CLASS_1_48B6206075BC2645_METHOD_1_0B683A6711C0D5F7_OFFSET UNITYSDK_OFFSET(0xB0D68B0)
-#define CLASS_1_48B6206075BC2645_METHOD_1_120B8A5AEEE4ED9E_OFFSET UNITYSDK_OFFSET(0xB0D6930)
-#define CLASS_1_48B6206075BC2645__CTOR_OFFSET UNITYSDK_OFFSET(0xB0D69B0)
+#define CLASS_1_48B6206075BC2645_METHOD_1_0B683A6711C0D5F7_OFFSET UNITYSDK_OFFSET(0xBA502F0)
+#define CLASS_1_48B6206075BC2645_METHOD_1_120B8A5AEEE4ED9E_OFFSET UNITYSDK_OFFSET(0xBA50370)
+#define CLASS_1_48B6206075BC2645__CTOR_OFFSET UNITYSDK_OFFSET(0xBA503F0)
 
-inline static constexpr unsigned int Class_1_48B6206075BC2645_TypeDefinitionIndex = 60012;
+inline static constexpr unsigned int Class_1_48B6206075BC2645_TypeDefinitionIndex = 62858;
 
 class Class_1_48B6206075BC2645 : public ::System::Object
 {
 public:
-	::RPG::Client::LRUCache_2<::Struct_2_137AB23E3A00ECA1_1, ::RPG::Client::IAvatarSkinData*>* Field_1_0; // 0x10
+	::RPG::Client::LRUCache_2<::Struct_2_137AB23E3A00ECA1_1, ::RPG::Client::IAvatarSkinData*>* BDBOGJHLEIG; // 0x10
 
 	::System::Void _ctor()
 	{

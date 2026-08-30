@@ -4,12 +4,12 @@
 
 namespace Newtonsoft::Json::Utilities { template <typename T1, typename T2> class MethodCall_2; }
 
-#define NEWTONSOFT_JSON_SERIALIZATION_DEFAULTCONTRACTRESOLVER___C__DISPLAYCLASS64_0__CREATESHOULDSERIALIZETEST_B__0_OFFSET UNITYSDK_OFFSET(0x1A2C9BD0)
-#define NEWTONSOFT_JSON_SERIALIZATION_DEFAULTCONTRACTRESOLVER___C__DISPLAYCLASS64_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A2C8BF0)
+#define NEWTONSOFT_JSON_SERIALIZATION_DEFAULTCONTRACTRESOLVER___C__DISPLAYCLASS64_0__CREATESHOULDSERIALIZETEST_B__0_OFFSET UNITYSDK_OFFSET(0x1BED2210)
+#define NEWTONSOFT_JSON_SERIALIZATION_DEFAULTCONTRACTRESOLVER___C__DISPLAYCLASS64_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BED1220)
 
 namespace Newtonsoft::Json::Serialization
 {
-	inline static constexpr unsigned int DefaultContractResolver___c__DisplayClass64_0_TypeDefinitionIndex = 9375;
+	inline static constexpr unsigned int DefaultContractResolver___c__DisplayClass64_0_TypeDefinitionIndex = 9654;
 
 	class DefaultContractResolver___c__DisplayClass64_0 : public ::System::Object
 	{

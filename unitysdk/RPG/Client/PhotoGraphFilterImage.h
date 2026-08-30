@@ -7,73 +7,73 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class RenderTexture; }
 namespace UnityEngine { class Texture; }
 
-#define RPG_CLIENT_PHOTOGRAPHFILTERIMAGE_AWAKE_OFFSET UNITYSDK_OFFSET(0xCF73160)
-#define RPG_CLIENT_PHOTOGRAPHFILTERIMAGE_GETTEXTURE_OFFSET UNITYSDK_OFFSET(0xCF73960)
-#define RPG_CLIENT_PHOTOGRAPHFILTERIMAGE_GET_MAINTEXTURE_OFFSET UNITYSDK_OFFSET(0xCF739F0)
-#define RPG_CLIENT_PHOTOGRAPHFILTERIMAGE_GET_MATERIALFORRENDERING_OFFSET UNITYSDK_OFFSET(0xCF73280)
-#define RPG_CLIENT_PHOTOGRAPHFILTERIMAGE_INITWITHFILTERCONFIG_OFFSET UNITYSDK_OFFSET(0xCF736F0)
-#define RPG_CLIENT_PHOTOGRAPHFILTERIMAGE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xCF731F0)
-#define RPG_CLIENT_PHOTOGRAPHFILTERIMAGE_RESETFILTER_OFFSET UNITYSDK_OFFSET(0xCF73330)
-#define RPG_CLIENT_PHOTOGRAPHFILTERIMAGE_SETFILTERALPHA_OFFSET UNITYSDK_OFFSET(0xCF73630)
-#define RPG_CLIENT_PHOTOGRAPHFILTERIMAGE_SETFILTERLUT_OFFSET UNITYSDK_OFFSET(0xCF73570)
-#define RPG_CLIENT_PHOTOGRAPHFILTERIMAGE_SETTEXTURE_OFFSET UNITYSDK_OFFSET(0xCF732E0)
-#define RPG_CLIENT_PHOTOGRAPHFILTERIMAGE__CCTOR_OFFSET UNITYSDK_OFFSET(0xCF73B00)
-#define RPG_CLIENT_PHOTOGRAPHFILTERIMAGE__CTOR_OFFSET UNITYSDK_OFFSET(0xCF73A70)
+#define RPG_CLIENT_PHOTOGRAPHFILTERIMAGE_AWAKE_OFFSET UNITYSDK_OFFSET(0xDA72860)
+#define RPG_CLIENT_PHOTOGRAPHFILTERIMAGE_GETTEXTURE_OFFSET UNITYSDK_OFFSET(0xDA73060)
+#define RPG_CLIENT_PHOTOGRAPHFILTERIMAGE_GET_MAINTEXTURE_OFFSET UNITYSDK_OFFSET(0xDA730F0)
+#define RPG_CLIENT_PHOTOGRAPHFILTERIMAGE_GET_MATERIALFORRENDERING_OFFSET UNITYSDK_OFFSET(0xDA72980)
+#define RPG_CLIENT_PHOTOGRAPHFILTERIMAGE_INITWITHFILTERCONFIG_OFFSET UNITYSDK_OFFSET(0xDA72DF0)
+#define RPG_CLIENT_PHOTOGRAPHFILTERIMAGE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xDA728F0)
+#define RPG_CLIENT_PHOTOGRAPHFILTERIMAGE_RESETFILTER_OFFSET UNITYSDK_OFFSET(0xDA72A30)
+#define RPG_CLIENT_PHOTOGRAPHFILTERIMAGE_SETFILTERALPHA_OFFSET UNITYSDK_OFFSET(0xDA72D30)
+#define RPG_CLIENT_PHOTOGRAPHFILTERIMAGE_SETFILTERLUT_OFFSET UNITYSDK_OFFSET(0xDA72C70)
+#define RPG_CLIENT_PHOTOGRAPHFILTERIMAGE_SETTEXTURE_OFFSET UNITYSDK_OFFSET(0xDA729E0)
+#define RPG_CLIENT_PHOTOGRAPHFILTERIMAGE__CCTOR_OFFSET UNITYSDK_OFFSET(0xDA73200)
+#define RPG_CLIENT_PHOTOGRAPHFILTERIMAGE__CTOR_OFFSET UNITYSDK_OFFSET(0xDA73170)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PhotoGraphFilterImage_TypeDefinitionIndex = 66320;
+	inline static constexpr unsigned int PhotoGraphFilterImage_TypeDefinitionIndex = 69412;
 
 	class PhotoGraphFilterImage : public ::UnityEngine::UI::RawImage
 	{
 	public:
 		static ::System::Int32* StaticGet__ShaderID_Lightness()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PhotoGraphFilterImage_TypeDefinitionIndex)->GetStaticField(0x14410);
-		}
-		static ::System::Int32* StaticGet__ShaderID_Hue()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PhotoGraphFilterImage_TypeDefinitionIndex)->GetStaticField(0x14414);
-		}
-		static ::System::Int32* StaticGet__ShaderID_Saturation()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PhotoGraphFilterImage_TypeDefinitionIndex)->GetStaticField(0x14418);
-		}
-		static ::System::Int32* StaticGet__ShaderID_FilterIntensity()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PhotoGraphFilterImage_TypeDefinitionIndex)->GetStaticField(0x1441C);
-		}
-		static ::System::Int32* StaticGet__ShaderID_ColorizeEnable()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PhotoGraphFilterImage_TypeDefinitionIndex)->GetStaticField(0x14420);
-		}
-		static ::System::Int32* StaticGet__ShaderID_Contrast()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PhotoGraphFilterImage_TypeDefinitionIndex)->GetStaticField(0x14424);
-		}
-		static ::System::Int32* StaticGet__ShaderID_Brightness()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PhotoGraphFilterImage_TypeDefinitionIndex)->GetStaticField(0x14428);
-		}
-		static ::System::Int32* StaticGet__ShaderID_LightnessColorize()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PhotoGraphFilterImage_TypeDefinitionIndex)->GetStaticField(0x1442C);
-		}
-		static ::System::Int32* StaticGet__ShaderID_SaturationColorize()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PhotoGraphFilterImage_TypeDefinitionIndex)->GetStaticField(0x14430);
-		}
-		static ::System::Int32* StaticGet__ShaderID_LUTEnable()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PhotoGraphFilterImage_TypeDefinitionIndex)->GetStaticField(0x14434);
-		}
-		static ::System::Int32* StaticGet__ShaderID_LUT()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PhotoGraphFilterImage_TypeDefinitionIndex)->GetStaticField(0x14438);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PhotoGraphFilterImage_TypeDefinitionIndex)->GetStaticField(0x11A50);
 		}
 		static ::System::Int32* StaticGet__ShaderID_HueColorize()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PhotoGraphFilterImage_TypeDefinitionIndex)->GetStaticField(0x1443C);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PhotoGraphFilterImage_TypeDefinitionIndex)->GetStaticField(0x11A54);
+		}
+		static ::System::Int32* StaticGet__ShaderID_Saturation()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PhotoGraphFilterImage_TypeDefinitionIndex)->GetStaticField(0x11A58);
+		}
+		static ::System::Int32* StaticGet__ShaderID_LUT()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PhotoGraphFilterImage_TypeDefinitionIndex)->GetStaticField(0x11A5C);
+		}
+		static ::System::Int32* StaticGet__ShaderID_LightnessColorize()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PhotoGraphFilterImage_TypeDefinitionIndex)->GetStaticField(0x11A60);
+		}
+		static ::System::Int32* StaticGet__ShaderID_SaturationColorize()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PhotoGraphFilterImage_TypeDefinitionIndex)->GetStaticField(0x11A64);
+		}
+		static ::System::Int32* StaticGet__ShaderID_FilterIntensity()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PhotoGraphFilterImage_TypeDefinitionIndex)->GetStaticField(0x11A68);
+		}
+		static ::System::Int32* StaticGet__ShaderID_Brightness()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PhotoGraphFilterImage_TypeDefinitionIndex)->GetStaticField(0x11A6C);
+		}
+		static ::System::Int32* StaticGet__ShaderID_Contrast()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PhotoGraphFilterImage_TypeDefinitionIndex)->GetStaticField(0x11A70);
+		}
+		static ::System::Int32* StaticGet__ShaderID_ColorizeEnable()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PhotoGraphFilterImage_TypeDefinitionIndex)->GetStaticField(0x11A74);
+		}
+		static ::System::Int32* StaticGet__ShaderID_LUTEnable()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PhotoGraphFilterImage_TypeDefinitionIndex)->GetStaticField(0x11A78);
+		}
+		static ::System::Int32* StaticGet__ShaderID_Hue()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PhotoGraphFilterImage_TypeDefinitionIndex)->GetStaticField(0x11A7C);
 		}
 		::System::Boolean IsChangedAfterSave; // 0x108
 		::UnityEngine::Material* _MaterialInstance; // 0x110

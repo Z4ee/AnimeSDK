@@ -10,12 +10,12 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 template <typename T> class Class_1_CD5FEF010EE849C3;
 
-inline static constexpr unsigned int Class_1_E7E32423D479125F_TypeDefinitionIndex = 41245;
+inline static constexpr unsigned int Class_1_E7E32423D479125F_TypeDefinitionIndex = 42205;
 
 template <typename TKey, typename TValue>
 class Class_1_E7E32423D479125F : public ::System::Object
 {
 public:
-	::Class_1_CD5FEF010EE849C3<TValue>* Field_1_0; // 0x0
-	::System::Collections::Generic::Dictionary_2<TKey, ::Struct_2_33629F49DC550CC8<TValue>>* Field_1_1; // 0x0
+	::Class_1_CD5FEF010EE849C3<TValue>* LALGCEKCFKN; // 0x0
+	::System::Collections::Generic::Dictionary_2<TKey, ::Struct_2_33629F49DC550CC8<TValue>>* LJIEMPNKOAI; // 0x0
 };

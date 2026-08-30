@@ -7,25 +7,25 @@ namespace UnityEngine::ProBuilder::Poly2Tri { class DTSweepConstraint; }
 namespace UnityEngine::ProBuilder::Poly2Tri { class DelaunayTriangle; }
 namespace UnityEngine::ProBuilder::Poly2Tri { class TriangulationPoint; }
 
-#define UNITYENGINE_PROBUILDER_POLY2TRI_DTSWEEPDEBUGCONTEXT_CLEAR_OFFSET UNITYSDK_OFFSET(0x1CDC04C0)
-#define UNITYENGINE_PROBUILDER_POLY2TRI_DTSWEEPDEBUGCONTEXT_SET_ACTIVECONSTRAINT_OFFSET UNITYSDK_OFFSET(0x1CDB8F40)
-#define UNITYENGINE_PROBUILDER_POLY2TRI_DTSWEEPDEBUGCONTEXT_SET_ACTIVENODE_OFFSET UNITYSDK_OFFSET(0x1CDB9F00)
-#define UNITYENGINE_PROBUILDER_POLY2TRI_DTSWEEPDEBUGCONTEXT_SET_ACTIVEPOINT_OFFSET UNITYSDK_OFFSET(0x1CDC0470)
-#define UNITYENGINE_PROBUILDER_POLY2TRI_DTSWEEPDEBUGCONTEXT_SET_PRIMARYTRIANGLE_OFFSET UNITYSDK_OFFSET(0x1CDBB420)
-#define UNITYENGINE_PROBUILDER_POLY2TRI_DTSWEEPDEBUGCONTEXT_SET_SECONDARYTRIANGLE_OFFSET UNITYSDK_OFFSET(0x1CDBD800)
+#define UNITYENGINE_PROBUILDER_POLY2TRI_DTSWEEPDEBUGCONTEXT_CLEAR_OFFSET UNITYSDK_OFFSET(0x1EAC7F10)
+#define UNITYENGINE_PROBUILDER_POLY2TRI_DTSWEEPDEBUGCONTEXT_SET_ACTIVECONSTRAINT_OFFSET UNITYSDK_OFFSET(0x1EAC09C0)
+#define UNITYENGINE_PROBUILDER_POLY2TRI_DTSWEEPDEBUGCONTEXT_SET_ACTIVENODE_OFFSET UNITYSDK_OFFSET(0x1EAC1980)
+#define UNITYENGINE_PROBUILDER_POLY2TRI_DTSWEEPDEBUGCONTEXT_SET_ACTIVEPOINT_OFFSET UNITYSDK_OFFSET(0x1EAC7EC0)
+#define UNITYENGINE_PROBUILDER_POLY2TRI_DTSWEEPDEBUGCONTEXT_SET_PRIMARYTRIANGLE_OFFSET UNITYSDK_OFFSET(0x1EAC2EA0)
+#define UNITYENGINE_PROBUILDER_POLY2TRI_DTSWEEPDEBUGCONTEXT_SET_SECONDARYTRIANGLE_OFFSET UNITYSDK_OFFSET(0x1EAC5270)
 
 namespace UnityEngine::ProBuilder::Poly2Tri
 {
-	inline static constexpr unsigned int DTSweepDebugContext_TypeDefinitionIndex = 36588;
+	inline static constexpr unsigned int DTSweepDebugContext_TypeDefinitionIndex = 37447;
 
 	class DTSweepDebugContext : public ::UnityEngine::ProBuilder::Poly2Tri::TriangulationDebugContext
 	{
 	public:
-		::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* _primaryTriangle; // 0x18
-		::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* _activeNode; // 0x20
-		::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* _activePoint; // 0x28
-		::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* _secondaryTriangle; // 0x30
-		::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint* _activeConstraint; // 0x38
+		::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint* _activeConstraint; // 0x18
+		::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* _activePoint; // 0x20
+		::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* _primaryTriangle; // 0x28
+		::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* _activeNode; // 0x30
+		::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* _secondaryTriangle; // 0x38
 
 		::System::Void set_PrimaryTriangle(::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* a1)
 		{

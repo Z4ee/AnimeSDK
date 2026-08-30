@@ -6,16 +6,16 @@
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::AI { class NavMeshAgent; }
 
-#define RPG_CLIENT_FIRSTVIEWCAMERA_AWAKE_OFFSET UNITYSDK_OFFSET(0xC5E4C10)
-#define RPG_CLIENT_FIRSTVIEWCAMERA_SETDESTINATION_OFFSET UNITYSDK_OFFSET(0xC5E4B90)
-#define RPG_CLIENT_FIRSTVIEWCAMERA_SETTARGETCAMERA_OFFSET UNITYSDK_OFFSET(0xC5E4B40)
-#define RPG_CLIENT_FIRSTVIEWCAMERA_START_OFFSET UNITYSDK_OFFSET(0xC5E4CA0)
-#define RPG_CLIENT_FIRSTVIEWCAMERA_UPDATE_OFFSET UNITYSDK_OFFSET(0xC5E4D30)
-#define RPG_CLIENT_FIRSTVIEWCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0xC5E5580)
+#define RPG_CLIENT_FIRSTVIEWCAMERA_AWAKE_OFFSET UNITYSDK_OFFSET(0xD067FA0)
+#define RPG_CLIENT_FIRSTVIEWCAMERA_SETDESTINATION_OFFSET UNITYSDK_OFFSET(0xD067F20)
+#define RPG_CLIENT_FIRSTVIEWCAMERA_SETTARGETCAMERA_OFFSET UNITYSDK_OFFSET(0xD067ED0)
+#define RPG_CLIENT_FIRSTVIEWCAMERA_START_OFFSET UNITYSDK_OFFSET(0xD068030)
+#define RPG_CLIENT_FIRSTVIEWCAMERA_UPDATE_OFFSET UNITYSDK_OFFSET(0xD0680C0)
+#define RPG_CLIENT_FIRSTVIEWCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0xD068910)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FirstViewCamera_TypeDefinitionIndex = 57401;
+	inline static constexpr unsigned int FirstViewCamera_TypeDefinitionIndex = 60203;
 
 	class FirstViewCamera : public ::UnityEngine::MonoBehaviour
 	{
@@ -24,16 +24,16 @@ namespace RPG::Client
 		::System::Single sensitivityY; // 0x1C
 		::System::Single minimumY; // 0x20
 		::System::Single maximumY; // 0x24
-		::System::Single Field_5_4; // 0x28
+		::System::Single EFCLPPHFEGN; // 0x28
 		::System::Boolean MoveSwtichOn; // 0x2C
 		::System::Boolean RotationSwtichOn; // 0x2D
 		::UnityEngine::AI::NavMeshAgent* AgentPlayer; // 0x30
 		::System::Single MoveSpeed; // 0x38
 		::UnityEngine::Transform* TargetPosition; // 0x40
-		::System::Boolean Field_5_10; // 0x48
-		::System::Single Field_5_11; // 0x4C
-		::System::Single Field_5_12; // 0x50
-		::UnityEngine::Transform* Field_5_13; // 0x58
+		::System::Boolean HILIFDNEHGG; // 0x48
+		::System::Single BBABAMDIFKJ; // 0x4C
+		::System::Single CAMIAKJJLDD; // 0x50
+		::UnityEngine::Transform* CPBAACCBCMI; // 0x58
 
 		::System::Void _ctor()
 		{

@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int MusicVisualization_SpectrumEffectElementTransGeneral_AxisMode_TypeDefinitionIndex = 45686;
+inline static constexpr unsigned int MusicVisualization_SpectrumEffectElementTransGeneral_AxisMode_TypeDefinitionIndex = 47937;
 
 enum class MusicVisualization_SpectrumEffectElementTransGeneral_AxisMode : ::System::Int32
 {

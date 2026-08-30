@@ -4,11 +4,11 @@
 
 namespace RPGTools::Octree::Generation { class OctreeData; }
 
-#define RPGTOOLS_OCTREE_GENERATION_OCTREEASSET__CTOR_OFFSET UNITYSDK_OFFSET(0xDC8BAD0)
+#define RPGTOOLS_OCTREE_GENERATION_OCTREEASSET__CTOR_OFFSET UNITYSDK_OFFSET(0xE807CE0)
 
 namespace RPGTools::Octree::Generation
 {
-	inline static constexpr unsigned int OctreeAsset_TypeDefinitionIndex = 47057;
+	inline static constexpr unsigned int OctreeAsset_TypeDefinitionIndex = 49320;
 
 	class OctreeAsset : public ::UnityEngine::ScriptableObject
 	{

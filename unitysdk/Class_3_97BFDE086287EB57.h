@@ -5,11 +5,11 @@
 namespace RPG::GameCore { class ShowBattleVersusBarCountDownEffect; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_97BFDE086287EB57_DISPOSE_OFFSET UNITYSDK_OFFSET(0xF1D7A80)
-#define CLASS_3_97BFDE086287EB57_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF1D7AC0)
-#define CLASS_3_97BFDE086287EB57__CTOR_OFFSET UNITYSDK_OFFSET(0xF1D7A50)
+#define CLASS_3_97BFDE086287EB57_DISPOSE_OFFSET UNITYSDK_OFFSET(0xF3F7060)
+#define CLASS_3_97BFDE086287EB57_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF3F70A0)
+#define CLASS_3_97BFDE086287EB57__CTOR_OFFSET UNITYSDK_OFFSET(0xF3F7030)
 
-inline static constexpr unsigned int Class_3_97BFDE086287EB57_TypeDefinitionIndex = 53913;
+inline static constexpr unsigned int Class_3_97BFDE086287EB57_TypeDefinitionIndex = 56634;
 
 class Class_3_97BFDE086287EB57 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ShowBattleVersusBarCountDownEffect*>
 {

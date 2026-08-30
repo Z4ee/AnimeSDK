@@ -4,30 +4,30 @@
 
 namespace System { class String; }
 
-#define ZXING_ONED_CODE39READER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D2EA200)
+#define ZXING_ONED_CODE39READER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EFF5BD0)
 
 namespace ZXing::OneD
 {
-	inline static constexpr unsigned int Code39Reader_TypeDefinitionIndex = 6488;
+	inline static constexpr unsigned int Code39Reader_TypeDefinitionIndex = 7033;
 
 	class Code39Reader : public ::ZXing::OneD::OneDReader
 	{
 	public:
 		static ::System::String** StaticGet_CHECK_DIGIT_STRING()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Code39Reader_TypeDefinitionIndex)->GetStaticField(0x21F0);
-		}
-		static ::System::String** StaticGet_ALPHABET_STRING()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Code39Reader_TypeDefinitionIndex)->GetStaticField(0x21F8);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Code39Reader_TypeDefinitionIndex)->GetStaticField(0x27250);
 		}
 		static ::Il2CppArray<::System::Int32>** StaticGet_CHARACTER_ENCODINGS()
 		{
-			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Code39Reader_TypeDefinitionIndex)->GetStaticField(0x2200);
+			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Code39Reader_TypeDefinitionIndex)->GetStaticField(0x27258);
+		}
+		static ::System::String** StaticGet_ALPHABET_STRING()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Code39Reader_TypeDefinitionIndex)->GetStaticField(0x27260);
 		}
 		static ::System::Int32* StaticGet_ASTERISK_ENCODING()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Code39Reader_TypeDefinitionIndex)->GetStaticField(0xE40);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Code39Reader_TypeDefinitionIndex)->GetStaticField(0xB8B0);
 		}
 
 		static ::System::Void _cctor()

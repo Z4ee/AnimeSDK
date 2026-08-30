@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Class_1_692EBCC218350A0A_CrowdLoadState_TypeDefinitionIndex = 66141;
+inline static constexpr unsigned int Class_1_692EBCC218350A0A_CrowdLoadState_TypeDefinitionIndex = 69181;
 
 enum class Class_1_692EBCC218350A0A_CrowdLoadState : ::System::Int32
 {

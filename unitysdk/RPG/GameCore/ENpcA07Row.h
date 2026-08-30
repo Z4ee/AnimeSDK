@@ -5,20 +5,20 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ENPCA07ROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B3D2920)
-#define RPG_GAMECORE_ENPCA07ROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3D2B70)
+#define RPG_GAMECORE_ENPCA07ROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D050BF0)
+#define RPG_GAMECORE_ENPCA07ROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D050E40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ENpcA07Row_TypeDefinitionIndex = 12751;
+	inline static constexpr unsigned int ENpcA07Row_TypeDefinitionIndex = 13142;
 
 	class ENpcA07Row : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* AddList; // 0x10
-		::System::String* ResMapConfigPath; // 0x18
-		::System::String* AdvJsonOverride; // 0x20
-		::System::String* BattleJsonOverride; // 0x28
+		::System::String* BattleJsonOverride; // 0x18
+		::System::String* ResMapConfigPath; // 0x20
+		::System::String* AdvJsonOverride; // 0x28
 		::System::UInt32 ID2; // 0x30
 		::System::UInt32 ID1; // 0x34
 

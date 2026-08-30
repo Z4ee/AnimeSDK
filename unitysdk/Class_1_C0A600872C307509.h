@@ -2,28 +2,28 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_1195;
+class Class_0_16E4307DCC419505_1255;
 namespace RPG::Client::ActivityIdleLive { class IdleLiveTickManager; }
 
-#define CLASS_1_C0A600872C307509_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15469310)
-#define CLASS_1_C0A600872C307509_METHOD_1_D27D607691A6D4E3_OFFSET UNITYSDK_OFFSET(0x154692B0)
-#define CLASS_1_C0A600872C307509__CTOR_OFFSET UNITYSDK_OFFSET(0x15469240)
+#define CLASS_1_C0A600872C307509_DISPOSE_OFFSET UNITYSDK_OFFSET(0x163B4150)
+#define CLASS_1_C0A600872C307509_METHOD_1_D27D607691A6D4E3_OFFSET UNITYSDK_OFFSET(0x163B40F0)
+#define CLASS_1_C0A600872C307509__CTOR_OFFSET UNITYSDK_OFFSET(0x163B4080)
 
-inline static constexpr unsigned int Class_1_C0A600872C307509_TypeDefinitionIndex = 71843;
+inline static constexpr unsigned int Class_1_C0A600872C307509_TypeDefinitionIndex = 75149;
 
 class Class_1_C0A600872C307509 : public ::System::Object
 {
 public:
-	::RPG::Client::ActivityIdleLive::IdleLiveTickManager* Field_1_0; // 0x10
+	::RPG::Client::ActivityIdleLive::IdleLiveTickManager* ONANOCKIKOK; // 0x10
 
 	::System::Void _ctor()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_C0A600872C307509__CTOR_OFFSET))(this);
 	}
 
-	::System::Void Method_1_D27D607691A6D4E3(::Class_0_16E4307DCC419505_1195* a1)
+	::System::Void Method_1_D27D607691A6D4E3(::Class_0_16E4307DCC419505_1255* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_1195*))((::PBYTE)hIl2Cpp + CLASS_1_C0A600872C307509_METHOD_1_D27D607691A6D4E3_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_1255*))((::PBYTE)hIl2Cpp + CLASS_1_C0A600872C307509_METHOD_1_D27D607691A6D4E3_OFFSET))(this, a1);
 	}
 
 	::System::Void Dispose()

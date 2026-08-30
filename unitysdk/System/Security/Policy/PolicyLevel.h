@@ -9,22 +9,22 @@ namespace System::Collections { class Hashtable; }
 namespace System::Security { class SecurityElement; }
 namespace System::Security::Policy { class CodeGroup; }
 
-#define SYSTEM_SECURITY_POLICY_POLICYLEVEL__CTOR_OFFSET UNITYSDK_OFFSET(0x19FDBCC0)
+#define SYSTEM_SECURITY_POLICY_POLICYLEVEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1BBE1640)
 
 namespace System::Security::Policy
 {
-	inline static constexpr unsigned int PolicyLevel_TypeDefinitionIndex = 953;
+	inline static constexpr unsigned int PolicyLevel_TypeDefinitionIndex = 960;
 
 	class PolicyLevel : public ::System::Object
 	{
 	public:
-		::System::Security::Policy::CodeGroup* root_code_group; // 0x10
-		::System::String* _location; // 0x18
-		::System::String* label; // 0x20
-		::System::Collections::ArrayList* named_permission_sets; // 0x28
-		::System::Security::SecurityElement* xml; // 0x30
-		::System::Collections::Hashtable* fullNames; // 0x38
-		::System::Collections::ArrayList* full_trust_assemblies; // 0x40
+		::System::Collections::ArrayList* named_permission_sets; // 0x10
+		::System::String* label; // 0x18
+		::System::String* _location; // 0x20
+		::System::Collections::ArrayList* full_trust_assemblies; // 0x28
+		::System::Collections::Hashtable* fullNames; // 0x30
+		::System::Security::Policy::CodeGroup* root_code_group; // 0x38
+		::System::Security::SecurityElement* xml; // 0x40
 		::System::Security::PolicyLevelType _type; // 0x48
 
 		::System::Void _ctor()

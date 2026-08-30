@@ -5,27 +5,27 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_PIXAIREQUIPLEVELROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B6B4180)
-#define RPG_GAMECORE_PIXAIREQUIPLEVELROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6B46F0)
+#define RPG_GAMECORE_PIXAIREQUIPLEVELROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3360C0)
+#define RPG_GAMECORE_PIXAIREQUIPLEVELROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D336630)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PixAirEquipLevelRow_TypeDefinitionIndex = 11687;
+	inline static constexpr unsigned int PixAirEquipLevelRow_TypeDefinitionIndex = 12076;
 
 	class PixAirEquipLevelRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* SkillList; // 0x10
-		::RPG::GameCore::FixPoint ChargePower; // 0x18
+		::RPG::GameCore::FixPoint ShieldPower; // 0x18
 		::RPG::GameCore::FixPoint MultiPower; // 0x20
-		::RPG::GameCore::FixPoint BurnPower; // 0x28
-		::RPG::GameCore::FixPoint CoolDown; // 0x30
-		::RPG::GameCore::FixPoint HastePower; // 0x38
-		::RPG::GameCore::FixPoint DamagePower; // 0x40
-		::System::UInt32 EquipID; // 0x48
-		::System::UInt32 EquipLevel; // 0x4C
-		::RPG::GameCore::FixPoint JamPower; // 0x50
-		::RPG::GameCore::FixPoint ShieldPower; // 0x58
+		::RPG::GameCore::FixPoint HastePower; // 0x28
+		::RPG::GameCore::FixPoint ChargePower; // 0x30
+		::System::UInt32 EquipID; // 0x38
+		::System::UInt32 EquipLevel; // 0x3C
+		::RPG::GameCore::FixPoint JamPower; // 0x40
+		::RPG::GameCore::FixPoint CoolDown; // 0x48
+		::RPG::GameCore::FixPoint BurnPower; // 0x50
+		::RPG::GameCore::FixPoint DamagePower; // 0x58
 
 		::System::Void _ctor()
 		{

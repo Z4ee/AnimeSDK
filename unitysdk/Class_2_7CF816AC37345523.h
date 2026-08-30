@@ -1,25 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_CA217ABF4E3B4F3F.h"
+#include "unitysdk/Class_1_34917908B7833130.h"
 
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI { class Image; }
 namespace UnityEngine::UI { class Text; }
 
-#define CLASS_2_7CF816AC37345523_METHOD_2_F6DF67569CE8FE27_OFFSET UNITYSDK_OFFSET(0x156A2590)
-#define CLASS_2_7CF816AC37345523__CTOR_OFFSET UNITYSDK_OFFSET(0x156A2810)
-#define CLASS_2_7CF816AC37345523__ONBIND_OFFSET UNITYSDK_OFFSET(0x156A23C0)
+#define CLASS_2_7CF816AC37345523_METHOD_2_F6DF67569CE8FE27_OFFSET UNITYSDK_OFFSET(0xB6DF360)
+#define CLASS_2_7CF816AC37345523__CTOR_OFFSET UNITYSDK_OFFSET(0xB6DF5F0)
+#define CLASS_2_7CF816AC37345523__ONBIND_OFFSET UNITYSDK_OFFSET(0xB6DF190)
 
-inline static constexpr unsigned int Class_2_7CF816AC37345523_TypeDefinitionIndex = 68158;
+inline static constexpr unsigned int Class_2_7CF816AC37345523_TypeDefinitionIndex = 71336;
 
-class Class_2_7CF816AC37345523 : public ::Class_1_CA217ABF4E3B4F3F
+class Class_2_7CF816AC37345523 : public ::Class_1_34917908B7833130
 {
 public:
-	::UnityEngine::Transform* Field_2_0; // 0x60
-	::UnityEngine::UI::Image* Field_2_1; // 0x68
-	::UnityEngine::UI::Text* Field_2_2; // 0x70
-	::UnityEngine::Transform* Field_2_3; // 0x78
-	::UnityEngine::Transform* Field_2_4; // 0x80
+	::UnityEngine::UI::Image* HPCAJDKDMEI; // 0x60
+	::UnityEngine::Transform* FCDDMEAANPH; // 0x68
+	::UnityEngine::Transform* AOKHJDHAAKP; // 0x70
+	::UnityEngine::Transform* LHIBEDODAHA; // 0x78
+	::UnityEngine::UI::Text* EGAEPHINFAP; // 0x80
 
 	::System::Void _ctor()
 	{

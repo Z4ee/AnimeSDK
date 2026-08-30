@@ -6,11 +6,11 @@
 
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_POSCONSTRAINTBONES__CTOR_OFFSET UNITYSDK_OFFSET(0xD0B9A60)
+#define RPG_CLIENT_POSCONSTRAINTBONES__CTOR_OFFSET UNITYSDK_OFFSET(0xDBBC3A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PosConstraintBones_TypeDefinitionIndex = 67100;
+	inline static constexpr unsigned int PosConstraintBones_TypeDefinitionIndex = 70207;
 
 	class PosConstraintBones : public ::System::Object
 	{

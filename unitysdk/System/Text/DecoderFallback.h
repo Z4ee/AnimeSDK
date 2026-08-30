@@ -4,29 +4,29 @@
 
 namespace System::Text { class DecoderFallbackBuffer; }
 
-#define SYSTEM_TEXT_DECODERFALLBACK_GET_EXCEPTIONFALLBACK_OFFSET UNITYSDK_OFFSET(0x1A002870)
-#define SYSTEM_TEXT_DECODERFALLBACK_GET_INTERNALSYNCOBJECT_OFFSET UNITYSDK_OFFSET(0x1A002820)
-#define SYSTEM_TEXT_DECODERFALLBACK_GET_REPLACEMENTFALLBACK_OFFSET UNITYSDK_OFFSET(0x19FFE870)
-#define SYSTEM_TEXT_DECODERFALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0022A0)
+#define SYSTEM_TEXT_DECODERFALLBACK_GET_EXCEPTIONFALLBACK_OFFSET UNITYSDK_OFFSET(0x1BC08310)
+#define SYSTEM_TEXT_DECODERFALLBACK_GET_INTERNALSYNCOBJECT_OFFSET UNITYSDK_OFFSET(0x1BC082C0)
+#define SYSTEM_TEXT_DECODERFALLBACK_GET_REPLACEMENTFALLBACK_OFFSET UNITYSDK_OFFSET(0x1BC043A0)
+#define SYSTEM_TEXT_DECODERFALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC07DD0)
 
 namespace System::Text
 {
-	inline static constexpr unsigned int DecoderFallback_TypeDefinitionIndex = 470;
+	inline static constexpr unsigned int DecoderFallback_TypeDefinitionIndex = 473;
 
 	class DecoderFallback : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet_s_InternalSyncObject()
 		{
-			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(DecoderFallback_TypeDefinitionIndex)->GetStaticField(0x1BDE0);
-		}
-		static ::System::Text::DecoderFallback** StaticGet_replacementFallback()
-		{
-			return (::System::Text::DecoderFallback**)Il2CppClass::FromTypeDefinitionIndex(DecoderFallback_TypeDefinitionIndex)->GetStaticField(0x1BDE8);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(DecoderFallback_TypeDefinitionIndex)->GetStaticField(0x10500);
 		}
 		static ::System::Text::DecoderFallback** StaticGet_exceptionFallback()
 		{
-			return (::System::Text::DecoderFallback**)Il2CppClass::FromTypeDefinitionIndex(DecoderFallback_TypeDefinitionIndex)->GetStaticField(0x1BDF0);
+			return (::System::Text::DecoderFallback**)Il2CppClass::FromTypeDefinitionIndex(DecoderFallback_TypeDefinitionIndex)->GetStaticField(0x10508);
+		}
+		static ::System::Text::DecoderFallback** StaticGet_replacementFallback()
+		{
+			return (::System::Text::DecoderFallback**)Il2CppClass::FromTypeDefinitionIndex(DecoderFallback_TypeDefinitionIndex)->GetStaticField(0x10510);
 		}
 		::System::Boolean bIsMicrosoftBestFitFallback; // 0x10
 

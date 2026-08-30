@@ -6,11 +6,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define RPG_CLIENT_CRPSHADOWSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0xBEDBF30)
+#define RPG_CLIENT_CRPSHADOWSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0xC97F8D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CRPShadowSettings_TypeDefinitionIndex = 64918;
+	inline static constexpr unsigned int CRPShadowSettings_TypeDefinitionIndex = 67925;
 
 	class CRPShadowSettings : public ::System::Object
 	{

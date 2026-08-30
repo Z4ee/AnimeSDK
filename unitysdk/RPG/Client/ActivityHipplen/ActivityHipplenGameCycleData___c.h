@@ -5,24 +5,24 @@
 namespace RPG::Client::ActivityHipplen { class ActivityHipplenTraitData; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENGAMECYCLEDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xBB23C20)
-#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENGAMECYCLEDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0xBB23C60)
-#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENGAMECYCLEDATA___C__GETSORTEDTRAITLIST_B__4_0_OFFSET UNITYSDK_OFFSET(0xBB23C70)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENGAMECYCLEDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC541970)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENGAMECYCLEDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC5419B0)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENGAMECYCLEDATA___C__GETSORTEDTRAITLIST_B__4_0_OFFSET UNITYSDK_OFFSET(0xC5419C0)
 
 namespace RPG::Client::ActivityHipplen
 {
-	inline static constexpr unsigned int ActivityHipplenGameCycleData___c_TypeDefinitionIndex = 71897;
+	inline static constexpr unsigned int ActivityHipplenGameCycleData___c_TypeDefinitionIndex = 75203;
 
 	class ActivityHipplenGameCycleData___c : public ::System::Object
 	{
 	public:
 		static ::System::Comparison_1<::RPG::Client::ActivityHipplen::ActivityHipplenTraitData*>** StaticGet___9__4_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::ActivityHipplen::ActivityHipplenTraitData*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityHipplenGameCycleData___c_TypeDefinitionIndex)->GetStaticField(0x36370);
+			return (::System::Comparison_1<::RPG::Client::ActivityHipplen::ActivityHipplenTraitData*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityHipplenGameCycleData___c_TypeDefinitionIndex)->GetStaticField(0x63650);
 		}
 		static ::RPG::Client::ActivityHipplen::ActivityHipplenGameCycleData___c** StaticGet___9()
 		{
-			return (::RPG::Client::ActivityHipplen::ActivityHipplenGameCycleData___c**)Il2CppClass::FromTypeDefinitionIndex(ActivityHipplenGameCycleData___c_TypeDefinitionIndex)->GetStaticField(0x36378);
+			return (::RPG::Client::ActivityHipplen::ActivityHipplenGameCycleData___c**)Il2CppClass::FromTypeDefinitionIndex(ActivityHipplenGameCycleData___c_TypeDefinitionIndex)->GetStaticField(0x63658);
 		}
 
 		static ::System::Void _cctor()

@@ -4,24 +4,24 @@
 
 namespace System { class Action; }
 
-#define MIHOYO_SDK_WIN_USERCENTERMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19CB09E0)
-#define MIHOYO_SDK_WIN_USERCENTERMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19CB0A20)
-#define MIHOYO_SDK_WIN_USERCENTERMANAGER___C__ONGETUNIWEBVIEWMESSAGE_B__16_0_OFFSET UNITYSDK_OFFSET(0x19CB0A30)
+#define MIHOYO_SDK_WIN_USERCENTERMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B904EA0)
+#define MIHOYO_SDK_WIN_USERCENTERMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B904EE0)
+#define MIHOYO_SDK_WIN_USERCENTERMANAGER___C__ONGETUNIWEBVIEWMESSAGE_B__16_0_OFFSET UNITYSDK_OFFSET(0x1B904EF0)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int UserCenterManager___c_TypeDefinitionIndex = 9144;
+	inline static constexpr unsigned int UserCenterManager___c_TypeDefinitionIndex = 9423;
 
 	class UserCenterManager___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__16_0()
-		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UserCenterManager___c_TypeDefinitionIndex)->GetStaticField(0x33B50);
-		}
 		static ::MiHoYo::SDK::Win::UserCenterManager___c** StaticGet___9()
 		{
-			return (::MiHoYo::SDK::Win::UserCenterManager___c**)Il2CppClass::FromTypeDefinitionIndex(UserCenterManager___c_TypeDefinitionIndex)->GetStaticField(0x33B58);
+			return (::MiHoYo::SDK::Win::UserCenterManager___c**)Il2CppClass::FromTypeDefinitionIndex(UserCenterManager___c_TypeDefinitionIndex)->GetStaticField(0x38E90);
+		}
+		static ::System::Action** StaticGet___9__16_0()
+		{
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UserCenterManager___c_TypeDefinitionIndex)->GetStaticField(0x38E98);
 		}
 
 		static ::System::Void _cctor()

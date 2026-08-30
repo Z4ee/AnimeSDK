@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlaneSlice_PlaneSide_TypeDefinitionIndex = 67543;
+	inline static constexpr unsigned int PlaneSlice_PlaneSide_TypeDefinitionIndex = 70666;
 
 	enum class PlaneSlice_PlaneSide : ::System::Int32
 	{

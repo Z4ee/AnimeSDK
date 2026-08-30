@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ACTIVITYQUESTREWARDTABROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B128F40)
-#define RPG_GAMECORE_ACTIVITYQUESTREWARDTABROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B129570)
+#define RPG_GAMECORE_ACTIVITYQUESTREWARDTABROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CD9F6C0)
+#define RPG_GAMECORE_ACTIVITYQUESTREWARDTABROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD9FCF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityQuestRewardTabRow_TypeDefinitionIndex = 11835;
+	inline static constexpr unsigned int ActivityQuestRewardTabRow_TypeDefinitionIndex = 12224;
 
 	class ActivityQuestRewardTabRow : public ::System::Object
 	{

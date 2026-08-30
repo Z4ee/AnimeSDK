@@ -8,19 +8,19 @@ namespace MiHoYo::SDK::Win { class GooglePCManager; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_WIN_GOOGLEPCMANAGER___C__DISPLAYCLASS21_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19EBC330)
-#define MIHOYO_SDK_WIN_GOOGLEPCMANAGER___C__DISPLAYCLASS21_0__GETPRODUCTLIST_B__0_OFFSET UNITYSDK_OFFSET(0x19EBF140)
+#define MIHOYO_SDK_WIN_GOOGLEPCMANAGER___C__DISPLAYCLASS21_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8412D0)
+#define MIHOYO_SDK_WIN_GOOGLEPCMANAGER___C__DISPLAYCLASS21_0__GETPRODUCTLIST_B__0_OFFSET UNITYSDK_OFFSET(0x1B843F10)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int GooglePCManager___c__DisplayClass21_0_TypeDefinitionIndex = 9007;
+	inline static constexpr unsigned int GooglePCManager___c__DisplayClass21_0_TypeDefinitionIndex = 9277;
 
 	class GooglePCManager___c__DisplayClass21_0 : public ::System::Object
 	{
 	public:
-		::MiHoYo::SDK::JSONArray* productArray; // 0x10
-		::MiHoYo::SDK::Win::GooglePCManager* __4__this; // 0x18
-		::System::Action_1<::System::String*>* callback; // 0x20
+		::MiHoYo::SDK::Win::GooglePCManager* __4__this; // 0x10
+		::System::Action_1<::System::String*>* callback; // 0x18
+		::MiHoYo::SDK::JSONArray* productArray; // 0x20
 
 		::System::Void _ctor()
 		{

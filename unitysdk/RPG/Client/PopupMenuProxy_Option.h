@@ -6,11 +6,11 @@
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_POPUPMENUPROXY_OPTION__CTOR_OFFSET UNITYSDK_OFFSET(0xD0B9A50)
+#define RPG_CLIENT_POPUPMENUPROXY_OPTION__CTOR_OFFSET UNITYSDK_OFFSET(0xDBBC390)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PopupMenuProxy_Option_TypeDefinitionIndex = 69215;
+	inline static constexpr unsigned int PopupMenuProxy_Option_TypeDefinitionIndex = 72415;
 
 	class PopupMenuProxy_Option : public ::System::Object
 	{

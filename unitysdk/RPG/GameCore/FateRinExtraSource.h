@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FateRinExtraSource_TypeDefinitionIndex = 53441;
+	inline static constexpr unsigned int FateRinExtraSource_TypeDefinitionIndex = 56155;
 
 	enum class FateRinExtraSource : ::System::Byte
 	{

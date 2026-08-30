@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AdvByPerceiveValueReachMax; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_8D28DAF3728C8A2C_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC25ED80)
-#define CLASS_3_8D28DAF3728C8A2C__CTOR_OFFSET UNITYSDK_OFFSET(0xC25ED50)
+#define CLASS_3_8D28DAF3728C8A2C_EVALUATE_OFFSET UNITYSDK_OFFSET(0xCD176D0)
+#define CLASS_3_8D28DAF3728C8A2C__CTOR_OFFSET UNITYSDK_OFFSET(0xCD176A0)
 
-inline static constexpr unsigned int Class_3_8D28DAF3728C8A2C_TypeDefinitionIndex = 50694;
+inline static constexpr unsigned int Class_3_8D28DAF3728C8A2C_TypeDefinitionIndex = 53376;
 
 class Class_3_8D28DAF3728C8A2C : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::AdvByPerceiveValueReachMax*>
 {

@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_SHOWUIBEHAVIOUR_METHOD_3_8CA05BCD86E125DF_OFFSET UNITYSDK_OFFSET(0xDD1A900)
-#define RPGTOOLS_TIMELINE_SHOWUIBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xDD1A970)
+#define RPGTOOLS_TIMELINE_SHOWUIBEHAVIOUR_METHOD_3_8CA05BCD86E125DF_OFFSET UNITYSDK_OFFSET(0xE8E53D0)
+#define RPGTOOLS_TIMELINE_SHOWUIBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xE8E5440)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int ShowUIBehaviour_TypeDefinitionIndex = 46617;
+	inline static constexpr unsigned int ShowUIBehaviour_TypeDefinitionIndex = 48862;
 
 	class ShowUIBehaviour : public ::RPGTools::Timeline::CustomEventBehaviour
 	{

@@ -7,21 +7,21 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_PIXAIREVENTOPTIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B6B4A60)
-#define RPG_GAMECORE_PIXAIREVENTOPTIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6B4D10)
+#define RPG_GAMECORE_PIXAIREVENTOPTIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3369A0)
+#define RPG_GAMECORE_PIXAIREVENTOPTIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D336C50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PixAirEventOptionRow_TypeDefinitionIndex = 11681;
+	inline static constexpr unsigned int PixAirEventOptionRow_TypeDefinitionIndex = 12070;
 
 	class PixAirEventOptionRow : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::PixAirBasicType, ::System::UInt32>* BasicCost; // 0x10
-		::RPG::Client::TextID OptionDescribe; // 0x18
-		::RPG::Client::TextID OptionEffectDesc; // 0x28
-		::System::UInt32 OptionID; // 0x38
-		::System::UInt32 ContentID; // 0x3C
+		::System::UInt32 OptionID; // 0x18
+		::System::UInt32 ContentID; // 0x1C
+		::RPG::Client::TextID OptionDescribe; // 0x20
+		::RPG::Client::TextID OptionEffectDesc; // 0x30
 
 		::System::Void _ctor()
 		{

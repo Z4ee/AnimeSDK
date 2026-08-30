@@ -8,23 +8,23 @@ namespace RPG::GameCore { class StartEffectAim; }
 namespace RPG::GameCore { class TaskContext; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_2_EC787CB9BCB73BEB_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB963DC0)
-#define CLASS_2_EC787CB9BCB73BEB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB963E00)
-#define CLASS_2_EC787CB9BCB73BEB_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB9641F0)
-#define CLASS_2_EC787CB9BCB73BEB_TICK_OFFSET UNITYSDK_OFFSET(0xB964240)
-#define CLASS_2_EC787CB9BCB73BEB__CTOR_OFFSET UNITYSDK_OFFSET(0xB963DB0)
+#define CLASS_2_EC787CB9BCB73BEB_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC374FF0)
+#define CLASS_2_EC787CB9BCB73BEB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC375030)
+#define CLASS_2_EC787CB9BCB73BEB_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC375430)
+#define CLASS_2_EC787CB9BCB73BEB_TICK_OFFSET UNITYSDK_OFFSET(0xC375480)
+#define CLASS_2_EC787CB9BCB73BEB__CTOR_OFFSET UNITYSDK_OFFSET(0xC374FE0)
 
-inline static constexpr unsigned int Class_2_EC787CB9BCB73BEB_TypeDefinitionIndex = 53141;
+inline static constexpr unsigned int Class_2_EC787CB9BCB73BEB_TypeDefinitionIndex = 55853;
 
 class Class_2_EC787CB9BCB73BEB : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::Class_1_D27BF54F25500E5F* Field_2_0; // 0x18
-	::RPG::GameCore::StartEffectAim* Field_2_1; // 0x20
-	::RPG::GameCore::TaskContext* Field_2_2; // 0x28
-	::UnityEngine::Transform* Field_2_3; // 0x30
-	::UnityEngine::Quaternion Field_2_4; // 0x38
-	::UnityEngine::Quaternion Field_2_5; // 0x48
+	::Class_1_D27BF54F25500E5F* BICMFAKJPCI; // 0x18
+	::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+	::UnityEngine::Transform* LPEOHKHOLEP; // 0x28
+	::RPG::GameCore::StartEffectAim* OFKGLJOAMLD; // 0x30
+	::UnityEngine::Quaternion KHDDKPNOAMK; // 0x38
+	::UnityEngine::Quaternion MGFPKGIOKEN; // 0x48
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::StartEffectAim* a2)
 	{

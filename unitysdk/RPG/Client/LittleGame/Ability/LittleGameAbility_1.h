@@ -2,14 +2,14 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_280;
+class Class_0_16E4307DCC419505_255;
 class Class_3_07C3C4D2990C49EE;
 namespace RPG::GameCore { class LittleGameAbilityConfig; }
 namespace RPG::GameCore { class TaskContext; }
 
 namespace RPG::Client::LittleGame::Ability
 {
-	inline static constexpr unsigned int LittleGameAbility_1_TypeDefinitionIndex = 73412;
+	inline static constexpr unsigned int LittleGameAbility_1_TypeDefinitionIndex = 76891;
 
 	template <typename TEntity>
 	class LittleGameAbility_1 : public ::System::Object

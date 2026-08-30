@@ -7,18 +7,18 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define CLASS_3_9DE74F67AFB5CC0C_METHOD_3_5FDBC3ED1A2E374E_OFFSET UNITYSDK_OFFSET(0x1B47E430)
-#define CLASS_3_9DE74F67AFB5CC0C_METHOD_3_FAE3758F0912001F_OFFSET UNITYSDK_OFFSET(0x1B47E470)
-#define CLASS_3_9DE74F67AFB5CC0C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B47E460)
+#define CLASS_3_9DE74F67AFB5CC0C_METHOD_3_5FDBC3ED1A2E374E_OFFSET UNITYSDK_OFFSET(0x1D0D2060)
+#define CLASS_3_9DE74F67AFB5CC0C_METHOD_3_FAE3758F0912001F_OFFSET UNITYSDK_OFFSET(0x1D0D20A0)
+#define CLASS_3_9DE74F67AFB5CC0C__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0D2090)
 
-inline static constexpr unsigned int Class_3_9DE74F67AFB5CC0C_TypeDefinitionIndex = 19118;
+inline static constexpr unsigned int Class_3_9DE74F67AFB5CC0C_TypeDefinitionIndex = 19659;
 
 class Class_3_9DE74F67AFB5CC0C : public ::RPG::GameCore::TaskConfig
 {
 public:
-	::RPG::GameCore::DynamicFloat* Field_3_0; // 0x18
-	::RPG::GameCore::PropertyModifyFunction Field_3_1; // 0x20
-	::RPG::GameCore::FateRinModePropertyType Field_3_2; // 0x24
+	::RPG::GameCore::DynamicFloat* AJHHCOHFIFA; // 0x18
+	::RPG::GameCore::FateRinModePropertyType FODBMMCKAEN; // 0x20
+	::RPG::GameCore::PropertyModifyFunction DNKFJMBHINL; // 0x24
 
 	::System::Void _ctor()
 	{

@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_ELFENTERNEXTDAYHINT__CTOR_OFFSET UNITYSDK_OFFSET(0xC364D40)
+#define RPG_CLIENT_ELFENTERNEXTDAYHINT__CTOR_OFFSET UNITYSDK_OFFSET(0xCE36350)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ElfEnterNextDayHint_TypeDefinitionIndex = 60899;
+	inline static constexpr unsigned int ElfEnterNextDayHint_TypeDefinitionIndex = 63752;
 
 	class ElfEnterNextDayHint : public ::System::Object
 	{

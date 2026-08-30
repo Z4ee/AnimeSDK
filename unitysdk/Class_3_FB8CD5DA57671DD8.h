@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByCompareWaveCount; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_FB8CD5DA57671DD8_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB396640)
-#define CLASS_3_FB8CD5DA57671DD8__CTOR_OFFSET UNITYSDK_OFFSET(0xB396610)
+#define CLASS_3_FB8CD5DA57671DD8_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBDF9540)
+#define CLASS_3_FB8CD5DA57671DD8__CTOR_OFFSET UNITYSDK_OFFSET(0xBDF9510)
 
-inline static constexpr unsigned int Class_3_FB8CD5DA57671DD8_TypeDefinitionIndex = 52115;
+inline static constexpr unsigned int Class_3_FB8CD5DA57671DD8_TypeDefinitionIndex = 54801;
 
 class Class_3_FB8CD5DA57671DD8 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByCompareWaveCount*>
 {

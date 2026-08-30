@@ -4,11 +4,11 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D { class B2World; }
 
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2JOINTID__CTOR_OFFSET UNITYSDK_OFFSET(0x39E7400)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2JOINTID__CTOR_OFFSET UNITYSDK_OFFSET(0x3B77160)
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2JointId_TypeDefinitionIndex = 35150;
+	inline static constexpr unsigned int B2JointId_TypeDefinitionIndex = 36011;
 
 	struct alignas(8) B2JointId
 	{

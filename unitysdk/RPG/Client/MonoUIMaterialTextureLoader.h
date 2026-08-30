@@ -8,13 +8,13 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class Sprite; }
 namespace UnityEngine::UI { class Image; }
 
-#define RPG_CLIENT_MONOUIMATERIALTEXTURELOADER_AWAKE_OFFSET UNITYSDK_OFFSET(0xCD39BE0)
-#define RPG_CLIENT_MONOUIMATERIALTEXTURELOADER_ONENABLE_OFFSET UNITYSDK_OFFSET(0xCD39D10)
-#define RPG_CLIENT_MONOUIMATERIALTEXTURELOADER__CTOR_OFFSET UNITYSDK_OFFSET(0xCD39E90)
+#define RPG_CLIENT_MONOUIMATERIALTEXTURELOADER_AWAKE_OFFSET UNITYSDK_OFFSET(0xD87C5D0)
+#define RPG_CLIENT_MONOUIMATERIALTEXTURELOADER_ONENABLE_OFFSET UNITYSDK_OFFSET(0xD87C730)
+#define RPG_CLIENT_MONOUIMATERIALTEXTURELOADER__CTOR_OFFSET UNITYSDK_OFFSET(0xD87C8B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoUIMaterialTextureLoader_TypeDefinitionIndex = 65905;
+	inline static constexpr unsigned int MonoUIMaterialTextureLoader_TypeDefinitionIndex = 68944;
 
 	class MonoUIMaterialTextureLoader : public ::UnityEngine::MonoBehaviour
 	{
@@ -22,7 +22,7 @@ namespace RPG::Client
 		::UnityEngine::UI::Image* ImageCompSrc; // 0x18
 		::UnityEngine::Sprite* SpriteSrc; // 0x20
 		::System::Collections::Generic::List_1<::System::String*>* TextureNames; // 0x28
-		::UnityEngine::Material* Field_5_3; // 0x30
+		::UnityEngine::Material* IMOHCDHKBAJ; // 0x30
 
 		::System::Void _ctor()
 		{

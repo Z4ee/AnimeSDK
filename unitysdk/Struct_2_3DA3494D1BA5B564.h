@@ -5,10 +5,10 @@
 namespace System { class String; }
 namespace UnityEngine { class RuntimeAnimatorController; }
 
-inline static constexpr unsigned int Struct_2_3DA3494D1BA5B564_TypeDefinitionIndex = 65311;
+inline static constexpr unsigned int Struct_2_3DA3494D1BA5B564_TypeDefinitionIndex = 68323;
 
 struct alignas(8) Struct_2_3DA3494D1BA5B564
 {
-	::System::String* Field_2_0; // 0x10
-	::UnityEngine::RuntimeAnimatorController* Field_2_1; // 0x18
+	::System::String* CJAPCLPFONL; // 0x10
+	::UnityEngine::RuntimeAnimatorController* KOCKDONAILB; // 0x18
 };

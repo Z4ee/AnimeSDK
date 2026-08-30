@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetLevel; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_DAFD4E1DC7FE6DCE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB22CEB0)
-#define CLASS_3_DAFD4E1DC7FE6DCE__CTOR_OFFSET UNITYSDK_OFFSET(0xB22CE80)
+#define CLASS_3_DAFD4E1DC7FE6DCE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBC02680)
+#define CLASS_3_DAFD4E1DC7FE6DCE__CTOR_OFFSET UNITYSDK_OFFSET(0xBC02650)
 
-inline static constexpr unsigned int Class_3_DAFD4E1DC7FE6DCE_TypeDefinitionIndex = 53016;
+inline static constexpr unsigned int Class_3_DAFD4E1DC7FE6DCE_TypeDefinitionIndex = 55721;
 
 class Class_3_DAFD4E1DC7FE6DCE : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetLevel*>
 {

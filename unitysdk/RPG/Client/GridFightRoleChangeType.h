@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightRoleChangeType_TypeDefinitionIndex = 62271;
+	inline static constexpr unsigned int GridFightRoleChangeType_TypeDefinitionIndex = 65256;
 
 	enum class GridFightRoleChangeType : ::System::Int32
 	{

@@ -6,40 +6,40 @@ namespace RPG::Client { class SmellPathGraph; }
 namespace RPG::Client { class SpecialVisionSystem; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_4FF4F44114B6FC55_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB0820E0)
-#define CLASS_1_4FF4F44114B6FC55_METHOD_1_12395559324BC8AF_OFFSET UNITYSDK_OFFSET(0xB081E60)
-#define CLASS_1_4FF4F44114B6FC55_METHOD_1_3D84789139E72A57_OFFSET UNITYSDK_OFFSET(0xB081AD0)
-#define CLASS_1_4FF4F44114B6FC55_METHOD_1_4E216924B49DDDE1_OFFSET UNITYSDK_OFFSET(0xB081BB0)
-#define CLASS_1_4FF4F44114B6FC55_METHOD_1_6E6682ED9FD6F719_OFFSET UNITYSDK_OFFSET(0xB081C20)
-#define CLASS_1_4FF4F44114B6FC55_METHOD_1_DF2A78D8DB25ED05_OFFSET UNITYSDK_OFFSET(0xB081F90)
-#define CLASS_1_4FF4F44114B6FC55__CTOR_OFFSET UNITYSDK_OFFSET(0xB081A90)
+#define CLASS_1_4FF4F44114B6FC55_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB9F9500)
+#define CLASS_1_4FF4F44114B6FC55_METHOD_1_0D372435D9CAE4BC_OFFSET UNITYSDK_OFFSET(0xB9F9380)
+#define CLASS_1_4FF4F44114B6FC55_METHOD_1_12395559324BC8AF_OFFSET UNITYSDK_OFFSET(0xB9F9220)
+#define CLASS_1_4FF4F44114B6FC55_METHOD_1_3C41C8366FDBF4CE_OFFSET UNITYSDK_OFFSET(0xB9F8E10)
+#define CLASS_1_4FF4F44114B6FC55_METHOD_1_4C7CCCA8D3F1B5F6_OFFSET UNITYSDK_OFFSET(0xB9F8F20)
+#define CLASS_1_4FF4F44114B6FC55_METHOD_1_A27DC2C5A103933A_OFFSET UNITYSDK_OFFSET(0xB9F8FB0)
+#define CLASS_1_4FF4F44114B6FC55__CTOR_OFFSET UNITYSDK_OFFSET(0xB9F8DD0)
 
-inline static constexpr unsigned int Class_1_4FF4F44114B6FC55_TypeDefinitionIndex = 58218;
+inline static constexpr unsigned int Class_1_4FF4F44114B6FC55_TypeDefinitionIndex = 61045;
 
 class Class_1_4FF4F44114B6FC55 : public ::System::Object
 {
 public:
-	::RPG::Client::SpecialVisionSystem* Field_1_0; // 0x10
-	::System::Collections::Generic::List_1<::RPG::Client::SmellPathGraph*>* Field_1_1; // 0x18
+	::RPG::Client::SpecialVisionSystem* CGKCJPPHKPK; // 0x10
+	::System::Collections::Generic::List_1<::RPG::Client::SmellPathGraph*>* FKJEEFFNHEJ; // 0x18
 
 	::System::Void _ctor(::RPG::Client::SpecialVisionSystem* a1)
 	{
 		return ((::System::Void(*)(::PVOID, ::RPG::Client::SpecialVisionSystem*))((::PBYTE)hIl2Cpp + CLASS_1_4FF4F44114B6FC55__CTOR_OFFSET))(this, a1);
 	}
 
-	::System::Void Method_1_3D84789139E72A57(::RPG::Client::SmellPathGraph* a1)
+	::System::Void Method_1_3C41C8366FDBF4CE(::RPG::Client::SmellPathGraph* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::Client::SmellPathGraph*))((::PBYTE)hIl2Cpp + CLASS_1_4FF4F44114B6FC55_METHOD_1_3D84789139E72A57_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::SmellPathGraph*))((::PBYTE)hIl2Cpp + CLASS_1_4FF4F44114B6FC55_METHOD_1_3C41C8366FDBF4CE_OFFSET))(this, a1);
 	}
 
-	::System::Void Method_1_4E216924B49DDDE1(::RPG::Client::SmellPathGraph* a1)
+	::System::Void Method_1_4C7CCCA8D3F1B5F6(::RPG::Client::SmellPathGraph* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::Client::SmellPathGraph*))((::PBYTE)hIl2Cpp + CLASS_1_4FF4F44114B6FC55_METHOD_1_4E216924B49DDDE1_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::SmellPathGraph*))((::PBYTE)hIl2Cpp + CLASS_1_4FF4F44114B6FC55_METHOD_1_4C7CCCA8D3F1B5F6_OFFSET))(this, a1);
 	}
 
-	::System::Void Method_1_6E6682ED9FD6F719()
+	::System::Void Method_1_A27DC2C5A103933A()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_4FF4F44114B6FC55_METHOD_1_6E6682ED9FD6F719_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_4FF4F44114B6FC55_METHOD_1_A27DC2C5A103933A_OFFSET))(this);
 	}
 
 	::System::Void Method_1_12395559324BC8AF(::System::Boolean a1)
@@ -47,9 +47,9 @@ public:
 		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_4FF4F44114B6FC55_METHOD_1_12395559324BC8AF_OFFSET))(this, a1);
 	}
 
-	::System::Void Method_1_DF2A78D8DB25ED05()
+	::System::Void Method_1_0D372435D9CAE4BC()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_4FF4F44114B6FC55_METHOD_1_DF2A78D8DB25ED05_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_4FF4F44114B6FC55_METHOD_1_0D372435D9CAE4BC_OFFSET))(this);
 	}
 
 	::System::Void Dispose()

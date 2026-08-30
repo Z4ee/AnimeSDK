@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class ChallengeGroupData; }
 
-#define RPG_CLIENT_CHALLENGEMODULE___C__DISPLAYCLASS89_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBF9D7E0)
-#define RPG_CLIENT_CHALLENGEMODULE___C__DISPLAYCLASS89_0__GETCHALLENGEGROUPDATA_B__0_OFFSET UNITYSDK_OFFSET(0xBFA4D00)
+#define RPG_CLIENT_CHALLENGEMODULE___C__DISPLAYCLASS89_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCA9B000)
+#define RPG_CLIENT_CHALLENGEMODULE___C__DISPLAYCLASS89_0__GETCHALLENGEGROUPDATA_B__0_OFFSET UNITYSDK_OFFSET(0xCA9B010)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChallengeModule___c__DisplayClass89_0_TypeDefinitionIndex = 60316;
+	inline static constexpr unsigned int ChallengeModule___c__DisplayClass89_0_TypeDefinitionIndex = 63165;
 
 	class ChallengeModule___c__DisplayClass89_0 : public ::System::Object
 	{

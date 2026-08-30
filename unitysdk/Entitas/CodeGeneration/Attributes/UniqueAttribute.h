@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define ENTITAS_CODEGENERATION_ATTRIBUTES_UNIQUEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x157A6BA0)
+#define ENTITAS_CODEGENERATION_ATTRIBUTES_UNIQUEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x165318D0)
 
 namespace Entitas::CodeGeneration::Attributes
 {
-	inline static constexpr unsigned int UniqueAttribute_TypeDefinitionIndex = 9752;
+	inline static constexpr unsigned int UniqueAttribute_TypeDefinitionIndex = 10031;
 
 	class UniqueAttribute : public ::System::Attribute
 	{

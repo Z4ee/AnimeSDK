@@ -6,20 +6,20 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_GACHACEILINGCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B4A7A80)
-#define RPG_GAMECORE_GACHACEILINGCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4A80A0)
+#define RPG_GAMECORE_GACHACEILINGCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D120C50)
+#define RPG_GAMECORE_GACHACEILINGCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D121270)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GachaCeilingConfigRow_TypeDefinitionIndex = 12857;
+	inline static constexpr unsigned int GachaCeilingConfigRow_TypeDefinitionIndex = 13248;
 
 	class GachaCeilingConfigRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* CeilingItemList; // 0x10
-		::RPG::GameCore::GachaType GachaType; // 0x18
+		::RPG::GameCore::CeilingType CeilingType; // 0x18
 		::System::UInt32 CeilingNum; // 0x1C
-		::RPG::GameCore::CeilingType CeilingType; // 0x20
+		::RPG::GameCore::GachaType GachaType; // 0x20
 
 		::System::Void _ctor()
 		{

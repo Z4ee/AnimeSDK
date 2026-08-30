@@ -5,13 +5,13 @@
 namespace RPG::Client { class TeamData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_UPGRADEMAINLINETEAMLISTPROVIDER_CREATE_OFFSET UNITYSDK_OFFSET(0xD81F020)
-#define RPG_CLIENT_UPGRADEMAINLINETEAMLISTPROVIDER_GETTEAMS_OFFSET UNITYSDK_OFFSET(0xD81F090)
-#define RPG_CLIENT_UPGRADEMAINLINETEAMLISTPROVIDER__CTOR_OFFSET UNITYSDK_OFFSET(0xD81F010)
+#define RPG_CLIENT_UPGRADEMAINLINETEAMLISTPROVIDER_CREATE_OFFSET UNITYSDK_OFFSET(0xE3D2FC0)
+#define RPG_CLIENT_UPGRADEMAINLINETEAMLISTPROVIDER_GETTEAMS_OFFSET UNITYSDK_OFFSET(0xE3D3030)
+#define RPG_CLIENT_UPGRADEMAINLINETEAMLISTPROVIDER__CTOR_OFFSET UNITYSDK_OFFSET(0xE3D2FB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UpgradeMainlineTeamListProvider_TypeDefinitionIndex = 65109;
+	inline static constexpr unsigned int UpgradeMainlineTeamListProvider_TypeDefinitionIndex = 68117;
 
 	class UpgradeMainlineTeamListProvider : public ::System::Object
 	{

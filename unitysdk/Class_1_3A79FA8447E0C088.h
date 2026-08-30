@@ -7,24 +7,24 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define CLASS_1_3A79FA8447E0C088_METHOD_1_0E3C9CE42200F670_OFFSET UNITYSDK_OFFSET(0x1AC40220)
-#define CLASS_1_3A79FA8447E0C088__CTOR_OFFSET UNITYSDK_OFFSET(0x1AC40650)
+#define CLASS_1_3A79FA8447E0C088_METHOD_1_0E3C9CE42200F670_OFFSET UNITYSDK_OFFSET(0x1C8856A0)
+#define CLASS_1_3A79FA8447E0C088__CTOR_OFFSET UNITYSDK_OFFSET(0x1C885AD0)
 
-inline static constexpr unsigned int Class_1_3A79FA8447E0C088_TypeDefinitionIndex = 10919;
+inline static constexpr unsigned int Class_1_3A79FA8447E0C088_TypeDefinitionIndex = 11294;
 
 class Class_1_3A79FA8447E0C088 : public ::System::Object
 {
 public:
-	::Il2CppArray<::System::UInt32>* Field_1_0; // 0x10
-	::Il2CppArray<::System::Int32>* Field_1_1; // 0x18
-	::System::String* Field_1_2; // 0x20
-	::RPG::Client::TextID Field_1_3; // 0x28
-	::System::Int32 Field_1_4; // 0x38
-	::RPG::Client::TextID Field_1_5; // 0x40
-	::System::UInt32 Field_1_6; // 0x50
-	::System::UInt32 Field_1_7; // 0x54
-	::RPG::GameCore::TacticsCardType Field_1_8; // 0x58
-	::System::UInt32 Field_1_9; // 0x5C
+	::Il2CppArray<::System::UInt32>* PGAMJHMNLLN; // 0x10
+	::System::String* MJPKBIGCFOM; // 0x18
+	::Il2CppArray<::System::Int32>* PBLPLDJKPEI; // 0x20
+	::RPG::Client::TextID OENAMINOLLF; // 0x28
+	::System::UInt32 PHFMCACHFIJ; // 0x38
+	::RPG::GameCore::TacticsCardType GMPGDEINODK; // 0x3C
+	::System::Int32 PMIEAEGJNMJ; // 0x40
+	::System::UInt32 DODGNGAGMMG; // 0x44
+	::System::UInt32 CCMBLCMCIPD; // 0x48
+	::RPG::Client::TextID NMAHGFAPENI; // 0x50
 
 	::System::Void _ctor()
 	{

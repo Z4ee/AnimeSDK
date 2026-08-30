@@ -13,29 +13,29 @@ namespace RPG::GameCore { class TurnInsertActionUIConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_3_83EA74218EFDDF83_METHOD_3_0C897AFF22BC8629_OFFSET UNITYSDK_OFFSET(0x1B45CC20)
-#define CLASS_3_83EA74218EFDDF83_METHOD_3_BA57C68CB1B6BDFC_OFFSET UNITYSDK_OFFSET(0x1B489CE0)
-#define CLASS_3_83EA74218EFDDF83__CTOR_OFFSET UNITYSDK_OFFSET(0x1B45CB60)
+#define CLASS_3_83EA74218EFDDF83_METHOD_3_0C897AFF22BC8629_OFFSET UNITYSDK_OFFSET(0x1D0AFEB0)
+#define CLASS_3_83EA74218EFDDF83_METHOD_3_BA57C68CB1B6BDFC_OFFSET UNITYSDK_OFFSET(0x1D0DD8A0)
+#define CLASS_3_83EA74218EFDDF83__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0AFDF0)
 
-inline static constexpr unsigned int Class_3_83EA74218EFDDF83_TypeDefinitionIndex = 21794;
+inline static constexpr unsigned int Class_3_83EA74218EFDDF83_TypeDefinitionIndex = 22358;
 
 class Class_3_83EA74218EFDDF83 : public ::RPG::GameCore::TaskConfig
 {
 public:
-	::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::DynamicFloat*>* Field_3_0; // 0x18
-	::Class_2_68C34B5C1C40C2FF* Field_3_1; // 0x20
-	::RPG::GameCore::TurnInsertActionUIConfig* Field_3_2; // 0x28
-	::Il2CppArray<::RPG::GameCore::DynamicString*>* Field_3_3; // 0x30
-	::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::DynamicString*>* Field_3_4; // 0x38
-	::RPG::GameCore::JsonEnum* Field_3_5; // 0x40
-	::RPG::GameCore::TargetEvaluator* Field_3_6; // 0x48
-	::RPG::GameCore::TargetEvaluator* Field_3_7; // 0x50
-	::RPG::GameCore::DynamicFloat* Field_3_8; // 0x58
-	::Il2CppArray<::RPG::GameCore::TaskConfig*>* Field_3_9; // 0x60
-	::System::String* Field_3_10; // 0x68
-	::Il2CppArray<::RPG::GameCore::ModifierBehaviorFlag>* Field_3_11; // 0x70
-	::System::Boolean Field_3_12; // 0x78
-	::System::Boolean Field_3_13; // 0x79
+	::System::String* MAGLCBLICBG; // 0x18
+	::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x20
+	::RPG::GameCore::JsonEnum* AGOHEFBOPNO; // 0x28
+	::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::DynamicString*>* BGCBMIGIAMM; // 0x30
+	::Class_2_68C34B5C1C40C2FF* IHHIHDEHBIJ; // 0x38
+	::Il2CppArray<::RPG::GameCore::DynamicString*>* PJGLPMGOLPK; // 0x40
+	::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::DynamicFloat*>* FMCJJBALBEN; // 0x48
+	::Il2CppArray<::RPG::GameCore::ModifierBehaviorFlag>* HMOBDKGBECE; // 0x50
+	::Il2CppArray<::RPG::GameCore::TaskConfig*>* OMFLDIGGPHC; // 0x58
+	::RPG::GameCore::DynamicFloat* CKLLHFKPACB; // 0x60
+	::RPG::GameCore::TurnInsertActionUIConfig* OLOKHEMMGOH; // 0x68
+	::RPG::GameCore::TargetEvaluator* MAGHKLPOJJJ; // 0x70
+	::System::Boolean LENIKLCJOHE; // 0x78
+	::System::Boolean LGKDFBLIOBP; // 0x79
 
 	::System::Void _ctor()
 	{

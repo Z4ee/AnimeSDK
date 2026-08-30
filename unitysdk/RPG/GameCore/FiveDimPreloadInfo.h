@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIVEDIMPRELOADINFO_METHOD_2_6F0B68A23C34D7F7_OFFSET UNITYSDK_OFFSET(0x1B440BB0)
-#define RPG_GAMECORE_FIVEDIMPRELOADINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1B440CE0)
+#define RPG_GAMECORE_FIVEDIMPRELOADINFO_METHOD_2_6F0B68A23C34D7F7_OFFSET UNITYSDK_OFFSET(0x1D0F9FF0)
+#define RPG_GAMECORE_FIVEDIMPRELOADINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0FA120)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimPreloadInfo_TypeDefinitionIndex = 16074;
+	inline static constexpr unsigned int FiveDimPreloadInfo_TypeDefinitionIndex = 16550;
 
 	class FiveDimPreloadInfo : public ::RPG::GameCore::JsonConfig
 	{

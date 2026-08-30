@@ -6,19 +6,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define CLASS_1_27B56D19ACB88C10_METHOD_1_E9A2160FD348DB23_OFFSET UNITYSDK_OFFSET(0x1AFA3C60)
-#define CLASS_1_27B56D19ACB88C10__CTOR_OFFSET UNITYSDK_OFFSET(0x1AFA3EC0)
+#define CLASS_1_27B56D19ACB88C10_METHOD_1_E9A2160FD348DB23_OFFSET UNITYSDK_OFFSET(0x1CC05BD0)
+#define CLASS_1_27B56D19ACB88C10__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC05E30)
 
-inline static constexpr unsigned int Class_1_27B56D19ACB88C10_TypeDefinitionIndex = 10916;
+inline static constexpr unsigned int Class_1_27B56D19ACB88C10_TypeDefinitionIndex = 11291;
 
 class Class_1_27B56D19ACB88C10 : public ::System::Object
 {
 public:
-	::Il2CppArray<::System::UInt32>* Field_1_0; // 0x10
-	::System::UInt32 Field_1_1; // 0x18
-	::RPG::GameCore::TacticsPointConditionType Field_1_2; // 0x1C
-	::System::UInt32 Field_1_3; // 0x20
-	::RPG::Client::TextID Field_1_4; // 0x28
+	::Il2CppArray<::System::UInt32>* BEEFBPGJJOD; // 0x10
+	::RPG::GameCore::TacticsPointConditionType LOAGIPDPLFM; // 0x18
+	::System::UInt32 PHFMCACHFIJ; // 0x1C
+	::System::UInt32 BDGECKGNFFM; // 0x20
+	::RPG::Client::TextID KEGANNHEKHA; // 0x28
 
 	::System::Void _ctor()
 	{

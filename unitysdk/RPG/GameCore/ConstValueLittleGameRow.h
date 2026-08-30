@@ -6,18 +6,18 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicValue; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CONSTVALUELITTLEGAMEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B381070)
-#define RPG_GAMECORE_CONSTVALUELITTLEGAMEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3811E0)
+#define RPG_GAMECORE_CONSTVALUELITTLEGAMEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CFFE1E0)
+#define RPG_GAMECORE_CONSTVALUELITTLEGAMEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFFE350)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ConstValueLittleGameRow_TypeDefinitionIndex = 12594;
+	inline static constexpr unsigned int ConstValueLittleGameRow_TypeDefinitionIndex = 12985;
 
 	class ConstValueLittleGameRow : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::DynamicValue* Value; // 0x10
-		::System::String* ConstValueName; // 0x18
+		::System::String* ConstValueName; // 0x10
+		::RPG::GameCore::DynamicValue* Value; // 0x18
 
 		::System::Void _ctor()
 		{

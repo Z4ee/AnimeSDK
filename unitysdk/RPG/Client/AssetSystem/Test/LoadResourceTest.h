@@ -7,34 +7,34 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class Queue_1; }
 namespace System::IO { class StreamWriter; }
 
-#define RPG_CLIENT_ASSETSYSTEM_TEST_LOADRESOURCETEST_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0xBDA9010)
-#define RPG_CLIENT_ASSETSYSTEM_TEST_LOADRESOURCETEST_METHOD_5_749948B663FCCCEF_OFFSET UNITYSDK_OFFSET(0xBDA9330)
-#define RPG_CLIENT_ASSETSYSTEM_TEST_LOADRESOURCETEST_SET_INSTANCE_OFFSET UNITYSDK_OFFSET(0xBDA9020)
-#define RPG_CLIENT_ASSETSYSTEM_TEST_LOADRESOURCETEST_START_OFFSET UNITYSDK_OFFSET(0xBDA9030)
-#define RPG_CLIENT_ASSETSYSTEM_TEST_LOADRESOURCETEST_UPDATE_OFFSET UNITYSDK_OFFSET(0xBDA99A0)
-#define RPG_CLIENT_ASSETSYSTEM_TEST_LOADRESOURCETEST__CTOR_OFFSET UNITYSDK_OFFSET(0xBDAA750)
-#define RPG_CLIENT_ASSETSYSTEM_TEST_LOADRESOURCETEST__ONASYNCLOADFINISH_OFFSET UNITYSDK_OFFSET(0xBDA9FE0)
+#define RPG_CLIENT_ASSETSYSTEM_TEST_LOADRESOURCETEST_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0xC77FB90)
+#define RPG_CLIENT_ASSETSYSTEM_TEST_LOADRESOURCETEST_METHOD_5_749948B663FCCCEF_OFFSET UNITYSDK_OFFSET(0xC77FEB0)
+#define RPG_CLIENT_ASSETSYSTEM_TEST_LOADRESOURCETEST_SET_INSTANCE_OFFSET UNITYSDK_OFFSET(0xC77FBA0)
+#define RPG_CLIENT_ASSETSYSTEM_TEST_LOADRESOURCETEST_START_OFFSET UNITYSDK_OFFSET(0xC77FBB0)
+#define RPG_CLIENT_ASSETSYSTEM_TEST_LOADRESOURCETEST_UPDATE_OFFSET UNITYSDK_OFFSET(0xC780520)
+#define RPG_CLIENT_ASSETSYSTEM_TEST_LOADRESOURCETEST__CTOR_OFFSET UNITYSDK_OFFSET(0xC7812D0)
+#define RPG_CLIENT_ASSETSYSTEM_TEST_LOADRESOURCETEST__ONASYNCLOADFINISH_OFFSET UNITYSDK_OFFSET(0xC780B60)
 
 namespace RPG::Client::AssetSystem::Test
 {
-	inline static constexpr unsigned int LoadResourceTest_TypeDefinitionIndex = 76879;
+	inline static constexpr unsigned int LoadResourceTest_TypeDefinitionIndex = 80919;
 
 	class LoadResourceTest : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		static ::RPG::Client::AssetSystem::Test::LoadResourceTest** StaticGet__Instance_k__BackingField()
 		{
-			return (::RPG::Client::AssetSystem::Test::LoadResourceTest**)Il2CppClass::FromTypeDefinitionIndex(LoadResourceTest_TypeDefinitionIndex)->GetStaticField(0x4EE70);
+			return (::RPG::Client::AssetSystem::Test::LoadResourceTest**)Il2CppClass::FromTypeDefinitionIndex(LoadResourceTest_TypeDefinitionIndex)->GetStaticField(0x657E0);
 		}
-		static ::System::String** StaticGet_Field_5_1()
+		static ::System::String** StaticGet_FDCBOKOGCPJ()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(LoadResourceTest_TypeDefinitionIndex)->GetStaticField(0x4EE78);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(LoadResourceTest_TypeDefinitionIndex)->GetStaticField(0x657E8);
 		}
-		::System::Collections::Generic::Queue_1<::System::String*>* Field_5_2; // 0x18
-		::System::Boolean Field_5_3; // 0x20
-		::System::Single Field_5_4; // 0x24
-		::System::String* Field_5_5; // 0x28
-		::System::IO::StreamWriter* Field_5_6; // 0x30
+		::System::Collections::Generic::Queue_1<::System::String*>* FOAJPMJDPKG; // 0x18
+		::System::Boolean LCFIJAJJKNK; // 0x20
+		::System::Single GFNIFELHFHG; // 0x24
+		::System::String* MIMMGIMPAKB; // 0x28
+		::System::IO::StreamWriter* IADACDFOAJC; // 0x30
 		::System::Boolean isRunninsg; // 0x38
 
 		::System::Void _ctor()

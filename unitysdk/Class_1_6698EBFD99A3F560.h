@@ -4,19 +4,19 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/ValueTuple_2.h"
 
-#define CLASS_1_6698EBFD99A3F560_METHOD_1_2B6D9B0FD6D07F9B_OFFSET UNITYSDK_OFFSET(0x1A80F3A0)
-#define CLASS_1_6698EBFD99A3F560__CTOR_OFFSET UNITYSDK_OFFSET(0x1A80F3E0)
+#define CLASS_1_6698EBFD99A3F560_METHOD_1_2B6D9B0FD6D07F9B_OFFSET UNITYSDK_OFFSET(0x1C439220)
+#define CLASS_1_6698EBFD99A3F560__CTOR_OFFSET UNITYSDK_OFFSET(0x1C439270)
 
-inline static constexpr unsigned int Class_1_6698EBFD99A3F560_TypeDefinitionIndex = 40091;
+inline static constexpr unsigned int Class_1_6698EBFD99A3F560_TypeDefinitionIndex = 40970;
 
 class Class_1_6698EBFD99A3F560 : public ::System::Object
 {
 public:
-	::System::UInt32 Field_1_0; // 0x10
-	::System::UInt32 Field_1_1; // 0x14
-	::System::Boolean Field_1_2; // 0x18
-	::RPG::Client::LittleGame::Match3::PerformMark Field_1_3; // 0x1C
-	::System::UInt32 Field_1_4; // 0x20
+	::System::UInt32 ONPIPJNFCDO; // 0x10
+	::System::UInt32 DFEJABODPGM; // 0x14
+	::System::UInt32 FOPFDKNDOFL; // 0x18
+	::System::Boolean AIAMHOBEECJ; // 0x1C
+	::RPG::Client::LittleGame::Match3::PerformMark NCAMLFJOLML; // 0x20
 
 	::System::Void _ctor()
 	{

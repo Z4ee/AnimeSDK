@@ -6,23 +6,23 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MONSTERGUIDEPHASECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B62D5C0)
-#define RPG_GAMECORE_MONSTERGUIDEPHASECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B62D920)
+#define RPG_GAMECORE_MONSTERGUIDEPHASECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D2D3180)
+#define RPG_GAMECORE_MONSTERGUIDEPHASECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2D34E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MonsterGuidePhaseConfigRow_TypeDefinitionIndex = 13677;
+	inline static constexpr unsigned int MonsterGuidePhaseConfigRow_TypeDefinitionIndex = 14094;
 
 	class MonsterGuidePhaseConfigRow : public ::System::Object
 	{
 	public:
 		::System::String* PhasePic; // 0x10
 		::Il2CppArray<::System::UInt32>* SkillList; // 0x18
-		::System::UInt32 Difficulty; // 0x20
-		::System::UInt32 PhaseID; // 0x24
-		::RPG::Client::TextID PhaseName; // 0x28
-		::RPG::Client::TextID PhaseDescription; // 0x38
-		::RPG::Client::TextID PhaseAnswer; // 0x48
+		::RPG::Client::TextID PhaseDescription; // 0x20
+		::RPG::Client::TextID PhaseName; // 0x30
+		::RPG::Client::TextID PhaseAnswer; // 0x40
+		::System::UInt32 PhaseID; // 0x50
+		::System::UInt32 Difficulty; // 0x54
 
 		::System::Void _ctor()
 		{

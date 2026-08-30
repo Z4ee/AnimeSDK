@@ -6,12 +6,12 @@
 namespace System { class String; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define UNITYENGINE_MISSINGREFERENCEEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1D0375B0)
-#define UNITYENGINE_MISSINGREFERENCEEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D037510)
+#define UNITYENGINE_MISSINGREFERENCEEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1ED3EC30)
+#define UNITYENGINE_MISSINGREFERENCEEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1ED3EB90)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int MissingReferenceException_TypeDefinitionIndex = 4334;
+	inline static constexpr unsigned int MissingReferenceException_TypeDefinitionIndex = 4344;
 
 	class MissingReferenceException : public ::System::Exception
 	{

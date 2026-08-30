@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TutorialPlayerActionType_TypeDefinitionIndex = 23952;
+	inline static constexpr unsigned int TutorialPlayerActionType_TypeDefinitionIndex = 24540;
 
 	enum class TutorialPlayerActionType : ::System::Int32
 	{
@@ -14,5 +14,6 @@ namespace RPG::GameCore
 		ShortClick = 4,
 		ActionRelease = 5,
 		NodePress = 6,
+		NodeRelease = 7,
 	};
 }

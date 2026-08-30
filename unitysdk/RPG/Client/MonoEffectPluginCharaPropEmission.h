@@ -10,14 +10,14 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class Renderer; }
 namespace UnityEngine { class Shader; }
 
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPEMISSION_INIT_OFFSET UNITYSDK_OFFSET(0xCC9F1C0)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPEMISSION_UNINIT_OFFSET UNITYSDK_OFFSET(0xCC9F4D0)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPEMISSION_UPDATEPROPERTY_OFFSET UNITYSDK_OFFSET(0xCC9F260)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPEMISSION__CTOR_OFFSET UNITYSDK_OFFSET(0xCC9F520)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPEMISSION_INIT_OFFSET UNITYSDK_OFFSET(0xD79E760)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPEMISSION_UNINIT_OFFSET UNITYSDK_OFFSET(0xD79EA70)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPEMISSION_UPDATEPROPERTY_OFFSET UNITYSDK_OFFSET(0xD79E800)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPEMISSION__CTOR_OFFSET UNITYSDK_OFFSET(0xD79EAC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginCharaPropEmission_TypeDefinitionIndex = 66820;
+	inline static constexpr unsigned int MonoEffectPluginCharaPropEmission_TypeDefinitionIndex = 69922;
 
 	class MonoEffectPluginCharaPropEmission : public ::RPG::Client::MonoEffectPluginCharaPropBase
 	{
@@ -26,7 +26,7 @@ namespace RPG::Client
 		::System::Single _EmissionThreshold; // 0x44
 		::System::Boolean Toggle_EmissionIntensity; // 0x48
 		::System::Single _EmissionIntensity; // 0x4C
-		::Il2CppArray<::System::Boolean>* Field_6_4; // 0x50
+		::Il2CppArray<::System::Boolean>* LKIKPHKAFJB; // 0x50
 
 		::System::Void _ctor()
 		{

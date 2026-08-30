@@ -5,15 +5,15 @@
 class Class_1_D8BECDCE48063EC7;
 namespace RPG::GameCore { class DiceCombatPredicateConfig_HasModifier; }
 
-#define CLASS_3_802FD8D2AFA8FA6F_METHOD_3_B8817F4F77EFC234_OFFSET UNITYSDK_OFFSET(0x1A4B2A30)
-#define CLASS_3_802FD8D2AFA8FA6F__CTOR_OFFSET UNITYSDK_OFFSET(0x1A480900)
+#define CLASS_3_802FD8D2AFA8FA6F_METHOD_3_B8817F4F77EFC234_OFFSET UNITYSDK_OFFSET(0x1C0C2510)
+#define CLASS_3_802FD8D2AFA8FA6F__CTOR_OFFSET UNITYSDK_OFFSET(0x1C090300)
 
-inline static constexpr unsigned int Class_3_802FD8D2AFA8FA6F_TypeDefinitionIndex = 34810;
+inline static constexpr unsigned int Class_3_802FD8D2AFA8FA6F_TypeDefinitionIndex = 35671;
 
 class Class_3_802FD8D2AFA8FA6F : public ::Class_2_98A798C0C96648F9
 {
 public:
-	::RPG::GameCore::DiceCombatPredicateConfig_HasModifier* Field_3_0; // 0x30
+	::RPG::GameCore::DiceCombatPredicateConfig_HasModifier* KAHEOAGLBJN; // 0x30
 
 	::System::Void _ctor(::RPG::GameCore::DiceCombatPredicateConfig_HasModifier* a1, ::Class_1_D8BECDCE48063EC7* a2)
 	{

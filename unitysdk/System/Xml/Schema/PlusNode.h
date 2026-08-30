@@ -4,13 +4,13 @@
 
 namespace System::Xml::Schema { class BitSet; }
 
-#define SYSTEM_XML_SCHEMA_PLUSNODE_CONSTRUCTPOS_OFFSET UNITYSDK_OFFSET(0x1CB52E90)
-#define SYSTEM_XML_SCHEMA_PLUSNODE_GET_ISNULLABLE_OFFSET UNITYSDK_OFFSET(0x1CB530B0)
-#define SYSTEM_XML_SCHEMA_PLUSNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CB50900)
+#define SYSTEM_XML_SCHEMA_PLUSNODE_CONSTRUCTPOS_OFFSET UNITYSDK_OFFSET(0x1E7FCF30)
+#define SYSTEM_XML_SCHEMA_PLUSNODE_GET_ISNULLABLE_OFFSET UNITYSDK_OFFSET(0x1E7FD150)
+#define SYSTEM_XML_SCHEMA_PLUSNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7FA9A0)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int PlusNode_TypeDefinitionIndex = 2068;
+	inline static constexpr unsigned int PlusNode_TypeDefinitionIndex = 2075;
 
 	class PlusNode : public ::System::Xml::Schema::InteriorNode
 	{

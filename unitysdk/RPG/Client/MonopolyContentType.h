@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonopolyContentType_TypeDefinitionIndex = 63335;
+	inline static constexpr unsigned int MonopolyContentType_TypeDefinitionIndex = 66320;
 
 	enum class MonopolyContentType : ::System::Int32
 	{

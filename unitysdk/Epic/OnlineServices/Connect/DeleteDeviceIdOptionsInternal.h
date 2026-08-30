@@ -6,12 +6,12 @@ namespace Epic::OnlineServices::Connect { class DeleteDeviceIdOptions; }
 namespace System { class Object; }
 
 #define EPIC_ONLINESERVICES_CONNECT_DELETEDEVICEIDOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1020)
-#define EPIC_ONLINESERVICES_CONNECT_DELETEDEVICEIDOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x35D30)
-#define EPIC_ONLINESERVICES_CONNECT_DELETEDEVICEIDOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x1EB0)
+#define EPIC_ONLINESERVICES_CONNECT_DELETEDEVICEIDOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x37BF0)
+#define EPIC_ONLINESERVICES_CONNECT_DELETEDEVICEIDOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x1EC0)
 
 namespace Epic::OnlineServices::Connect
 {
-	inline static constexpr unsigned int DeleteDeviceIdOptionsInternal_TypeDefinitionIndex = 43949;
+	inline static constexpr unsigned int DeleteDeviceIdOptionsInternal_TypeDefinitionIndex = 46131;
 
 	struct alignas(4) DeleteDeviceIdOptionsInternal
 	{

@@ -6,29 +6,29 @@ namespace RPG::Client::FateRin::Challenge { class FateRinBattlePauseChallengeBuf
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_FATERIN_CHALLENGE_FATERINBATTLEPAUSECHALLENGEVIEWMODEL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC4C8260)
-#define RPG_CLIENT_FATERIN_CHALLENGE_FATERINBATTLEPAUSECHALLENGEVIEWMODEL___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC4C82A0)
-#define RPG_CLIENT_FATERIN_CHALLENGE_FATERINBATTLEPAUSECHALLENGEVIEWMODEL___C___BUILDINFO_B__1_0_OFFSET UNITYSDK_OFFSET(0xC4C82B0)
-#define RPG_CLIENT_FATERIN_CHALLENGE_FATERINBATTLEPAUSECHALLENGEVIEWMODEL___C___BUILDINFO_B__1_1_OFFSET UNITYSDK_OFFSET(0xC4C84E0)
+#define RPG_CLIENT_FATERIN_CHALLENGE_FATERINBATTLEPAUSECHALLENGEVIEWMODEL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xCFFCFB0)
+#define RPG_CLIENT_FATERIN_CHALLENGE_FATERINBATTLEPAUSECHALLENGEVIEWMODEL___C__CTOR_OFFSET UNITYSDK_OFFSET(0xCFFCFF0)
+#define RPG_CLIENT_FATERIN_CHALLENGE_FATERINBATTLEPAUSECHALLENGEVIEWMODEL___C___BUILDINFO_B__1_0_OFFSET UNITYSDK_OFFSET(0xCFFD000)
+#define RPG_CLIENT_FATERIN_CHALLENGE_FATERINBATTLEPAUSECHALLENGEVIEWMODEL___C___BUILDINFO_B__1_1_OFFSET UNITYSDK_OFFSET(0xCFFD230)
 
 namespace RPG::Client::FateRin::Challenge
 {
-	inline static constexpr unsigned int FateRinBattlePauseChallengeViewModel___c_TypeDefinitionIndex = 76071;
+	inline static constexpr unsigned int FateRinBattlePauseChallengeViewModel___c_TypeDefinitionIndex = 79704;
 
 	class FateRinBattlePauseChallengeViewModel___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::RPG::Client::FateRin::Challenge::FateRinBattlePauseChallengeBuffViewModel*, ::System::Boolean>** StaticGet___9__1_1()
 		{
-			return (::System::Func_2<::RPG::Client::FateRin::Challenge::FateRinBattlePauseChallengeBuffViewModel*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(FateRinBattlePauseChallengeViewModel___c_TypeDefinitionIndex)->GetStaticField(0xC380);
-		}
-		static ::RPG::Client::FateRin::Challenge::FateRinBattlePauseChallengeViewModel___c** StaticGet___9()
-		{
-			return (::RPG::Client::FateRin::Challenge::FateRinBattlePauseChallengeViewModel___c**)Il2CppClass::FromTypeDefinitionIndex(FateRinBattlePauseChallengeViewModel___c_TypeDefinitionIndex)->GetStaticField(0xC388);
+			return (::System::Func_2<::RPG::Client::FateRin::Challenge::FateRinBattlePauseChallengeBuffViewModel*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(FateRinBattlePauseChallengeViewModel___c_TypeDefinitionIndex)->GetStaticField(0x9640);
 		}
 		static ::System::Comparison_1<::RPG::Client::FateRin::Challenge::FateRinBattlePauseChallengeBuffViewModel*>** StaticGet___9__1_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::FateRin::Challenge::FateRinBattlePauseChallengeBuffViewModel*>**)Il2CppClass::FromTypeDefinitionIndex(FateRinBattlePauseChallengeViewModel___c_TypeDefinitionIndex)->GetStaticField(0xC390);
+			return (::System::Comparison_1<::RPG::Client::FateRin::Challenge::FateRinBattlePauseChallengeBuffViewModel*>**)Il2CppClass::FromTypeDefinitionIndex(FateRinBattlePauseChallengeViewModel___c_TypeDefinitionIndex)->GetStaticField(0x9648);
+		}
+		static ::RPG::Client::FateRin::Challenge::FateRinBattlePauseChallengeViewModel___c** StaticGet___9()
+		{
+			return (::RPG::Client::FateRin::Challenge::FateRinBattlePauseChallengeViewModel___c**)Il2CppClass::FromTypeDefinitionIndex(FateRinBattlePauseChallengeViewModel___c_TypeDefinitionIndex)->GetStaticField(0x9650);
 		}
 
 		static ::System::Void _cctor()

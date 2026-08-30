@@ -3,15 +3,15 @@
 #include "unitysdk/System/ValueTuple_2.h"
 #include "unitysdk/System/ValueType.h"
 
-#define CLASS_1_F581D47F54331173_STRUCT_2_8B3BF61F24F117DF_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x2D050F0)
+#define CLASS_1_F581D47F54331173_STRUCT_2_8B3BF61F24F117DF_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x2DED740)
 
-inline static constexpr unsigned int Class_1_F581D47F54331173_Struct_2_8B3BF61F24F117DF_TypeDefinitionIndex = 72682;
+inline static constexpr unsigned int Class_1_F581D47F54331173_Struct_2_8B3BF61F24F117DF_TypeDefinitionIndex = 76118;
 
 struct alignas(4) Class_1_F581D47F54331173_Struct_2_8B3BF61F24F117DF
 {
-	::System::Boolean Field_2_0; // 0x10
-	::System::ValueTuple_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>> Field_2_1; // 0x14
-	::System::Single Field_2_2; // 0x24
+	::System::Boolean OHAKMNKICDE; // 0x10
+	::System::ValueTuple_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>> NOJAHOAGBHB; // 0x14
+	::System::Single ILDLJANNNEJ; // 0x24
 
 	::System::Void Method_2_CA373AA1C7054598()
 	{

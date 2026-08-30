@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class EnableLocalPlayerIgnoreTimeRewindCollision; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_9395A87E70376041_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x145E36B0)
-#define CLASS_3_9395A87E70376041__CTOR_OFFSET UNITYSDK_OFFSET(0x145E3680)
+#define CLASS_3_9395A87E70376041_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15490970)
+#define CLASS_3_9395A87E70376041__CTOR_OFFSET UNITYSDK_OFFSET(0x15490940)
 
-inline static constexpr unsigned int Class_3_9395A87E70376041_TypeDefinitionIndex = 50945;
+inline static constexpr unsigned int Class_3_9395A87E70376041_TypeDefinitionIndex = 53629;
 
 class Class_3_9395A87E70376041 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::EnableLocalPlayerIgnoreTimeRewindCollision*>
 {

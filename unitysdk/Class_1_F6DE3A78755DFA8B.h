@@ -5,8 +5,8 @@
 #include "unitysdk/Struct_2_BAC064D277DD99F1.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_384;
-class Class_0_16E4307DCC419505_410;
+class Class_0_16E4307DCC419505_419;
+class Class_0_16E4307DCC419505_446;
 class Class_1_EFF03B82D1C2B1F6;
 namespace RPG::AvatarSystem::Property { template <typename T> class IPropertyModifierProvider_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
@@ -14,28 +14,28 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-#define CLASS_1_F6DE3A78755DFA8B_EXPORTPROFILE_OFFSET UNITYSDK_OFFSET(0xB4D6070)
-#define CLASS_1_F6DE3A78755DFA8B_GET_PROPERTYMODIFIERPROVIDER_OFFSET UNITYSDK_OFFSET(0xB4D59F0)
-#define CLASS_1_F6DE3A78755DFA8B_GET_SKILLLEVELPROVIDER_OFFSET UNITYSDK_OFFSET(0xB4D5A10)
-#define CLASS_1_F6DE3A78755DFA8B_GET_VERSION_OFFSET UNITYSDK_OFFSET(0xB4D59D0)
-#define CLASS_1_F6DE3A78755DFA8B_IMPORTPROFILE_OFFSET UNITYSDK_OFFSET(0xB4D5B30)
-#define CLASS_1_F6DE3A78755DFA8B_METHOD_1_0B94DB5209A9BBA6_OFFSET UNITYSDK_OFFSET(0xB4D6190)
-#define CLASS_1_F6DE3A78755DFA8B_METHOD_1_0F89F90781BC6846_OFFSET UNITYSDK_OFFSET(0xB4D6390)
-#define CLASS_1_F6DE3A78755DFA8B_SET_PROPERTYMODIFIERPROVIDER_OFFSET UNITYSDK_OFFSET(0xB4D5A00)
-#define CLASS_1_F6DE3A78755DFA8B_SET_SKILLLEVELPROVIDER_OFFSET UNITYSDK_OFFSET(0xB4D5A20)
-#define CLASS_1_F6DE3A78755DFA8B_SET_VERSION_OFFSET UNITYSDK_OFFSET(0xB4D59E0)
-#define CLASS_1_F6DE3A78755DFA8B__CTOR_OFFSET UNITYSDK_OFFSET(0xB4D5A30)
+#define CLASS_1_F6DE3A78755DFA8B_EXPORTPROFILE_OFFSET UNITYSDK_OFFSET(0xBEC5590)
+#define CLASS_1_F6DE3A78755DFA8B_GET_PROPERTYMODIFIERPROVIDER_OFFSET UNITYSDK_OFFSET(0xBEC4F10)
+#define CLASS_1_F6DE3A78755DFA8B_GET_SKILLLEVELPROVIDER_OFFSET UNITYSDK_OFFSET(0xBEC4F30)
+#define CLASS_1_F6DE3A78755DFA8B_GET_VERSION_OFFSET UNITYSDK_OFFSET(0xBEC4EF0)
+#define CLASS_1_F6DE3A78755DFA8B_IMPORTPROFILE_OFFSET UNITYSDK_OFFSET(0xBEC5050)
+#define CLASS_1_F6DE3A78755DFA8B_METHOD_1_0B94DB5209A9BBA6_OFFSET UNITYSDK_OFFSET(0xBEC56B0)
+#define CLASS_1_F6DE3A78755DFA8B_METHOD_1_0F89F90781BC6846_OFFSET UNITYSDK_OFFSET(0xBEC58B0)
+#define CLASS_1_F6DE3A78755DFA8B_SET_PROPERTYMODIFIERPROVIDER_OFFSET UNITYSDK_OFFSET(0xBEC4F20)
+#define CLASS_1_F6DE3A78755DFA8B_SET_SKILLLEVELPROVIDER_OFFSET UNITYSDK_OFFSET(0xBEC4F40)
+#define CLASS_1_F6DE3A78755DFA8B_SET_VERSION_OFFSET UNITYSDK_OFFSET(0xBEC4F00)
+#define CLASS_1_F6DE3A78755DFA8B__CTOR_OFFSET UNITYSDK_OFFSET(0xBEC4F50)
 
-inline static constexpr unsigned int Class_1_F6DE3A78755DFA8B_TypeDefinitionIndex = 49586;
+inline static constexpr unsigned int Class_1_F6DE3A78755DFA8B_TypeDefinitionIndex = 52244;
 
 class Class_1_F6DE3A78755DFA8B : public ::System::Object
 {
 public:
-	::System::Collections::Generic::IReadOnlyList_1<::RPG::GameCore::AvatarSkillTreeAnchorType>* Field_1_0; // 0x10
-	::System::Collections::Generic::Dictionary_2<::RPG::GameCore::AvatarSkillTreeAnchorType, ::Struct_2_BAC064D277DD99F1>* Field_1_1; // 0x18
-	::System::Collections::Generic::IReadOnlyDictionary_2<::RPG::GameCore::AvatarSkillTreeAnchorType, ::Struct_2_BAC064D277DD99F1>* Field_1_2; // 0x20
-	::Class_0_16E4307DCC419505_410* _SkillLevelProvider_k__BackingField; // 0x28
-	::RPG::AvatarSystem::Property::IPropertyModifierProvider_1<::RPG::GameCore::FixPoint>* _PropertyModifierProvider_k__BackingField; // 0x30
+	::System::Collections::Generic::IReadOnlyDictionary_2<::RPG::GameCore::AvatarSkillTreeAnchorType, ::Struct_2_BAC064D277DD99F1>* EJDPMHENIAC; // 0x10
+	::System::Collections::Generic::IReadOnlyList_1<::RPG::GameCore::AvatarSkillTreeAnchorType>* AAKHNJLJJLM; // 0x18
+	::Class_0_16E4307DCC419505_446* _SkillLevelProvider_k__BackingField; // 0x20
+	::RPG::AvatarSystem::Property::IPropertyModifierProvider_1<::RPG::GameCore::FixPoint>* _PropertyModifierProvider_k__BackingField; // 0x28
+	::System::Collections::Generic::Dictionary_2<::RPG::GameCore::AvatarSkillTreeAnchorType, ::Struct_2_BAC064D277DD99F1>* NIBABJHIMLD; // 0x30
 	::System::UInt32 _Version_k__BackingField; // 0x38
 
 	::System::Void _ctor(::System::Collections::Generic::IReadOnlyList_1<::RPG::GameCore::AvatarSkillTreeAnchorType>* a1, ::System::Collections::Generic::IReadOnlyDictionary_2<::RPG::GameCore::AvatarSkillTreeAnchorType, ::Struct_2_BAC064D277DD99F1>* a2)
@@ -63,14 +63,14 @@ public:
 		return ((::System::Void(*)(::PVOID, ::RPG::AvatarSystem::Property::IPropertyModifierProvider_1<::RPG::GameCore::FixPoint>*))((::PBYTE)hIl2Cpp + CLASS_1_F6DE3A78755DFA8B_SET_PROPERTYMODIFIERPROVIDER_OFFSET))(this, a1);
 	}
 
-	::Class_0_16E4307DCC419505_410* get_SkillLevelProvider()
+	::Class_0_16E4307DCC419505_446* get_SkillLevelProvider()
 	{
-		return ((::Class_0_16E4307DCC419505_410*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F6DE3A78755DFA8B_GET_SKILLLEVELPROVIDER_OFFSET))(this);
+		return ((::Class_0_16E4307DCC419505_446*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F6DE3A78755DFA8B_GET_SKILLLEVELPROVIDER_OFFSET))(this);
 	}
 
-	::System::Void set_SkillLevelProvider(::Class_0_16E4307DCC419505_410* a1)
+	::System::Void set_SkillLevelProvider(::Class_0_16E4307DCC419505_446* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_410*))((::PBYTE)hIl2Cpp + CLASS_1_F6DE3A78755DFA8B_SET_SKILLLEVELPROVIDER_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_446*))((::PBYTE)hIl2Cpp + CLASS_1_F6DE3A78755DFA8B_SET_SKILLLEVELPROVIDER_OFFSET))(this, a1);
 	}
 
 	::System::Void ImportProfile(::Class_1_EFF03B82D1C2B1F6* a1)
@@ -78,9 +78,9 @@ public:
 		return ((::System::Void(*)(::PVOID, ::Class_1_EFF03B82D1C2B1F6*))((::PBYTE)hIl2Cpp + CLASS_1_F6DE3A78755DFA8B_IMPORTPROFILE_OFFSET))(this, a1);
 	}
 
-	::System::Void ExportProfile(::Class_0_16E4307DCC419505_384* a1)
+	::System::Void ExportProfile(::Class_0_16E4307DCC419505_419* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_384*))((::PBYTE)hIl2Cpp + CLASS_1_F6DE3A78755DFA8B_EXPORTPROFILE_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_419*))((::PBYTE)hIl2Cpp + CLASS_1_F6DE3A78755DFA8B_EXPORTPROFILE_OFFSET))(this, a1);
 	}
 
 	::System::Boolean Method_1_0B94DB5209A9BBA6(::RPG::GameCore::AvatarSkillTreeAnchorType a1, ::Struct_2_BAC064D277DD99F1& a2)

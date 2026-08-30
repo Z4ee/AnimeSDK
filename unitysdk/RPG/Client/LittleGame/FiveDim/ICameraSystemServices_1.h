@@ -9,17 +9,18 @@
 
 class Class_0_16E4307DCC419505_116;
 class Class_0_16E4307DCC419505_189;
-class Class_0_16E4307DCC419505_235;
+class Class_0_16E4307DCC419505_240;
 namespace Entitas { template <typename T> class ICollector_1; }
 namespace Entitas { template <typename T> class IGroup_1; }
 namespace RPG::GameCore { class FiveDimGlobalCameraConfig; }
 namespace RPG::GameCore { class FiveDimMoveBakedConfig; }
+namespace RPG::GameCore { class FiveDimMoveConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class ICollection_1; }
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int ICameraSystemServices_1_TypeDefinitionIndex = 41005;
+	inline static constexpr unsigned int ICameraSystemServices_1_TypeDefinitionIndex = 41964;
 
 	template <typename T>
 	class ICameraSystemServices_1

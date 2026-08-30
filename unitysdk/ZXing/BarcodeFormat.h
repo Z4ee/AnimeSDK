@@ -3,7 +3,7 @@
 
 namespace ZXing
 {
-	inline static constexpr unsigned int BarcodeFormat_TypeDefinitionIndex = 6494;
+	inline static constexpr unsigned int BarcodeFormat_TypeDefinitionIndex = 7039;
 
 	enum class BarcodeFormat : ::System::Int32
 	{

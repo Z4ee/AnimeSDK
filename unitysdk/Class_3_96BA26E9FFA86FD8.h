@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetTrashSummonHUDState; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_96BA26E9FFA86FD8_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xAD88270)
-#define CLASS_3_96BA26E9FFA86FD8__CTOR_OFFSET UNITYSDK_OFFSET(0xAD88240)
+#define CLASS_3_96BA26E9FFA86FD8_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB7E6A90)
+#define CLASS_3_96BA26E9FFA86FD8__CTOR_OFFSET UNITYSDK_OFFSET(0xB7E6A60)
 
-inline static constexpr unsigned int Class_3_96BA26E9FFA86FD8_TypeDefinitionIndex = 45819;
+inline static constexpr unsigned int Class_3_96BA26E9FFA86FD8_TypeDefinitionIndex = 48071;
 
 class Class_3_96BA26E9FFA86FD8 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetTrashSummonHUDState*>
 {

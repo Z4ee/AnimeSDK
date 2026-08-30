@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SilverWolf999UltraSkillScreenEffectType_TypeDefinitionIndex = 23838;
+	inline static constexpr unsigned int SilverWolf999UltraSkillScreenEffectType_TypeDefinitionIndex = 24426;
 
 	enum class SilverWolf999UltraSkillScreenEffectType : ::System::Int32
 	{

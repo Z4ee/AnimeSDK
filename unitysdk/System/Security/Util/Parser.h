@@ -8,22 +8,22 @@ namespace System::Security { class SecurityElement; }
 namespace System::Security::Util { class Tokenizer; }
 namespace System::Security::Util { class TokenizerStream; }
 
-#define SYSTEM_SECURITY_UTIL_PARSER_DETERMINEFORMAT_OFFSET UNITYSDK_OFFSET(0x19FE3960)
-#define SYSTEM_SECURITY_UTIL_PARSER_GETREQUIREDSIZES_OFFSET UNITYSDK_OFFSET(0x19FE2420)
-#define SYSTEM_SECURITY_UTIL_PARSER_GETTOPELEMENT_OFFSET UNITYSDK_OFFSET(0x19FE23F0)
-#define SYSTEM_SECURITY_UTIL_PARSER_PARSECONTENTS_OFFSET UNITYSDK_OFFSET(0x19FE56D0)
-#define SYSTEM_SECURITY_UTIL_PARSER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x19FE60F0)
-#define SYSTEM_SECURITY_UTIL_PARSER__CTOR_OFFSET UNITYSDK_OFFSET(0x19FE5FB0)
+#define SYSTEM_SECURITY_UTIL_PARSER_DETERMINEFORMAT_OFFSET UNITYSDK_OFFSET(0x1BBE9360)
+#define SYSTEM_SECURITY_UTIL_PARSER_GETREQUIREDSIZES_OFFSET UNITYSDK_OFFSET(0x1BBE7E20)
+#define SYSTEM_SECURITY_UTIL_PARSER_GETTOPELEMENT_OFFSET UNITYSDK_OFFSET(0x1BBE7DF0)
+#define SYSTEM_SECURITY_UTIL_PARSER_PARSECONTENTS_OFFSET UNITYSDK_OFFSET(0x1BBEB0F0)
+#define SYSTEM_SECURITY_UTIL_PARSER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1BBEBB70)
+#define SYSTEM_SECURITY_UTIL_PARSER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BBEBA30)
 
 namespace System::Security::Util
 {
-	inline static constexpr unsigned int Parser_TypeDefinitionIndex = 967;
+	inline static constexpr unsigned int Parser_TypeDefinitionIndex = 974;
 
 	class Parser : public ::System::Object
 	{
 	public:
-		::System::Security::Util::Tokenizer* _t; // 0x10
-		::System::Security::SecurityDocument* _doc; // 0x18
+		::System::Security::SecurityDocument* _doc; // 0x10
+		::System::Security::Util::Tokenizer* _t; // 0x18
 
 		::System::Void _ctor(::System::Security::Util::Tokenizer* a1)
 		{

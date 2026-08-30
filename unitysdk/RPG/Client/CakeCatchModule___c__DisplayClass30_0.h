@@ -5,18 +5,18 @@
 class Class_1_1CB713CB61EC5443_2;
 namespace RPG::Client { class CakeCatchModule; }
 
-#define RPG_CLIENT_CAKECATCHMODULE___C__DISPLAYCLASS30_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBEFA420)
-#define RPG_CLIENT_CAKECATCHMODULE___C__DISPLAYCLASS30_0___ONTRAINCAKECATCHSEARCHSCRSP_B__0_OFFSET UNITYSDK_OFFSET(0xBEFA430)
+#define RPG_CLIENT_CAKECATCHMODULE___C__DISPLAYCLASS30_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC99A930)
+#define RPG_CLIENT_CAKECATCHMODULE___C__DISPLAYCLASS30_0___ONTRAINCAKECATCHSEARCHSCRSP_B__0_OFFSET UNITYSDK_OFFSET(0xC99EAE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CakeCatchModule___c__DisplayClass30_0_TypeDefinitionIndex = 60187;
+	inline static constexpr unsigned int CakeCatchModule___c__DisplayClass30_0_TypeDefinitionIndex = 63035;
 
 	class CakeCatchModule___c__DisplayClass30_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::CakeCatchModule* __4__this; // 0x10
-		::Class_1_1CB713CB61EC5443_2* rsp; // 0x18
+		::Class_1_1CB713CB61EC5443_2* rsp; // 0x10
+		::RPG::Client::CakeCatchModule* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

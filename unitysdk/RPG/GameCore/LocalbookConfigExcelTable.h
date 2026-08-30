@@ -11,45 +11,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_LOCALBOOKCONFIGEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1B592320)
-#define RPG_GAMECORE_LOCALBOOKCONFIGEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1B5921F0)
-#define RPG_GAMECORE_LOCALBOOKCONFIGEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1B591EE0)
-#define RPG_GAMECORE_LOCALBOOKCONFIGEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1B592190)
-#define RPG_GAMECORE_LOCALBOOKCONFIGEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1B592470)
-#define RPG_GAMECORE_LOCALBOOKCONFIGEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1B591F60)
-#define RPG_GAMECORE_LOCALBOOKCONFIGEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1B5924B0)
-#define RPG_GAMECORE_LOCALBOOKCONFIGEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B592680)
-#define RPG_GAMECORE_LOCALBOOKCONFIGEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1B5929E0)
-#define RPG_GAMECORE_LOCALBOOKCONFIGEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B592D00)
-#define RPG_GAMECORE_LOCALBOOKCONFIGEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1B5925E0)
-#define RPG_GAMECORE_LOCALBOOKCONFIGEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1B592540)
+#define RPG_GAMECORE_LOCALBOOKCONFIGEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1D20D7E0)
+#define RPG_GAMECORE_LOCALBOOKCONFIGEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1D20D6B0)
+#define RPG_GAMECORE_LOCALBOOKCONFIGEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1D20D3A0)
+#define RPG_GAMECORE_LOCALBOOKCONFIGEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1D20D650)
+#define RPG_GAMECORE_LOCALBOOKCONFIGEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1D20D930)
+#define RPG_GAMECORE_LOCALBOOKCONFIGEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D20D420)
+#define RPG_GAMECORE_LOCALBOOKCONFIGEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1D20D970)
+#define RPG_GAMECORE_LOCALBOOKCONFIGEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D20DB40)
+#define RPG_GAMECORE_LOCALBOOKCONFIGEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1D20DEA0)
+#define RPG_GAMECORE_LOCALBOOKCONFIGEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D20E1C0)
+#define RPG_GAMECORE_LOCALBOOKCONFIGEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1D20DAA0)
+#define RPG_GAMECORE_LOCALBOOKCONFIGEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D20DA00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LocalbookConfigExcelTable_TypeDefinitionIndex = 12411;
+	inline static constexpr unsigned int LocalbookConfigExcelTable_TypeDefinitionIndex = 12802;
 
 	class LocalbookConfigExcelTable : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::LocalbookConfigRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::LocalbookConfigRow*>**)Il2CppClass::FromTypeDefinitionIndex(LocalbookConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x458E0);
-		}
-		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
-		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(LocalbookConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x458E8);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::LocalbookConfigRow*>**)Il2CppClass::FromTypeDefinitionIndex(LocalbookConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x51DF0);
 		}
 		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(LocalbookConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x458F0);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(LocalbookConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x51DF8);
+		}
+		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
+		{
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(LocalbookConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x51E00);
 		}
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(LocalbookConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0xB320);
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(LocalbookConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x11260);
 		}
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(LocalbookConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0xB321);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(LocalbookConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x11261);
 		}
 
 		static ::System::Void _cctor()

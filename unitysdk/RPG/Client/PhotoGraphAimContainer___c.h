@@ -5,24 +5,24 @@
 namespace RPG::Client { class PhotoGraphAimContainer_PhotoGraphAim; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_PHOTOGRAPHAIMCONTAINER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xCF6F1D0)
-#define RPG_CLIENT_PHOTOGRAPHAIMCONTAINER___C__CTOR_OFFSET UNITYSDK_OFFSET(0xCF6F210)
-#define RPG_CLIENT_PHOTOGRAPHAIMCONTAINER___C___ACQUIREAIM_B__17_0_OFFSET UNITYSDK_OFFSET(0xCF6F220)
+#define RPG_CLIENT_PHOTOGRAPHAIMCONTAINER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xDA6E8D0)
+#define RPG_CLIENT_PHOTOGRAPHAIMCONTAINER___C__CTOR_OFFSET UNITYSDK_OFFSET(0xDA6E910)
+#define RPG_CLIENT_PHOTOGRAPHAIMCONTAINER___C___ACQUIREAIM_B__17_0_OFFSET UNITYSDK_OFFSET(0xDA6E920)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PhotoGraphAimContainer___c_TypeDefinitionIndex = 66301;
+	inline static constexpr unsigned int PhotoGraphAimContainer___c_TypeDefinitionIndex = 69393;
 
 	class PhotoGraphAimContainer___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::PhotoGraphAimContainer___c** StaticGet___9()
-		{
-			return (::RPG::Client::PhotoGraphAimContainer___c**)Il2CppClass::FromTypeDefinitionIndex(PhotoGraphAimContainer___c_TypeDefinitionIndex)->GetStaticField(0x679E0);
-		}
 		static ::System::Func_2<::RPG::Client::PhotoGraphAimContainer_PhotoGraphAim*, ::System::Boolean>** StaticGet___9__17_0()
 		{
-			return (::System::Func_2<::RPG::Client::PhotoGraphAimContainer_PhotoGraphAim*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(PhotoGraphAimContainer___c_TypeDefinitionIndex)->GetStaticField(0x679E8);
+			return (::System::Func_2<::RPG::Client::PhotoGraphAimContainer_PhotoGraphAim*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(PhotoGraphAimContainer___c_TypeDefinitionIndex)->GetStaticField(0x53A60);
+		}
+		static ::RPG::Client::PhotoGraphAimContainer___c** StaticGet___9()
+		{
+			return (::RPG::Client::PhotoGraphAimContainer___c**)Il2CppClass::FromTypeDefinitionIndex(PhotoGraphAimContainer___c_TypeDefinitionIndex)->GetStaticField(0x53A68);
 		}
 
 		static ::System::Void _cctor()

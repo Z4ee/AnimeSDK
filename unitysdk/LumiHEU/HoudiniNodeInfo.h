@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define LUMIHEU_HOUDININODEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xAA81750)
+#define LUMIHEU_HOUDININODEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xB1A4D40)
 
 namespace LumiHEU
 {
-	inline static constexpr unsigned int HoudiniNodeInfo_TypeDefinitionIndex = 45139;
+	inline static constexpr unsigned int HoudiniNodeInfo_TypeDefinitionIndex = 47375;
 
 	class HoudiniNodeInfo : public ::UnityEngine::MonoBehaviour
 	{

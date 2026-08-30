@@ -3,17 +3,17 @@
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_ELFPROGRESSATTRIBUTEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xC3871E0)
+#define RPG_CLIENT_ELFPROGRESSATTRIBUTEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xCE58570)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ElfProgressAttributeData_TypeDefinitionIndex = 60927;
+	inline static constexpr unsigned int ElfProgressAttributeData_TypeDefinitionIndex = 63780;
 
 	class ElfProgressAttributeData : public ::System::Object
 	{
 	public:
-		::RPG::Client::TextID AttributeName; // 0x10
-		::System::Single AttributeValue; // 0x20
+		::System::Single AttributeValue; // 0x10
+		::RPG::Client::TextID AttributeName; // 0x18
 
 		::System::Void _ctor()
 		{

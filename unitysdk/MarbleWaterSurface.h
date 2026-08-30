@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define MARBLEWATERSURFACE__CTOR_OFFSET UNITYSDK_OFFSET(0xB1EC490)
+#define MARBLEWATERSURFACE__CTOR_OFFSET UNITYSDK_OFFSET(0xBBC05A0)
 
-inline static constexpr unsigned int MarbleWaterSurface_TypeDefinitionIndex = 45354;
+inline static constexpr unsigned int MarbleWaterSurface_TypeDefinitionIndex = 47600;
 
 class MarbleWaterSurface : public ::UnityEngine::MonoBehaviour
 {

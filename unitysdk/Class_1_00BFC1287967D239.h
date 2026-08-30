@@ -7,16 +7,16 @@ class Class_1_E8ECC4E6ADAEEA66;
 namespace RPG::GameCore { class GameEntity; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_00BFC1287967D239_CLEAR_OFFSET UNITYSDK_OFFSET(0x1546FBD0)
-#define CLASS_1_00BFC1287967D239_METHOD_1_E382BDB16AE42CAA_OFFSET UNITYSDK_OFFSET(0x1546FCE0)
-#define CLASS_1_00BFC1287967D239__CTOR_OFFSET UNITYSDK_OFFSET(0x1546FE40)
+#define CLASS_1_00BFC1287967D239_CLEAR_OFFSET UNITYSDK_OFFSET(0x163BA940)
+#define CLASS_1_00BFC1287967D239_METHOD_1_E382BDB16AE42CAA_OFFSET UNITYSDK_OFFSET(0x163BAA50)
+#define CLASS_1_00BFC1287967D239__CTOR_OFFSET UNITYSDK_OFFSET(0x163BABB0)
 
-inline static constexpr unsigned int Class_1_00BFC1287967D239_TypeDefinitionIndex = 55146;
+inline static constexpr unsigned int Class_1_00BFC1287967D239_TypeDefinitionIndex = 57869;
 
 class Class_1_00BFC1287967D239 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::Class_1_E8ECC4E6ADAEEA66*>* Field_1_0; // 0x10
+	::System::Collections::Generic::List_1<::Class_1_E8ECC4E6ADAEEA66*>* KONGEOCCIHA; // 0x10
 
 	::System::Void _ctor()
 	{

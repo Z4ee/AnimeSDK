@@ -1,22 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_CA217ABF4E3B4F3F.h"
+#include "unitysdk/Class_1_34917908B7833130.h"
 
 namespace System { class String; }
 namespace UnityEngine { class Animation; }
 
-#define CLASS_2_BE37E8E5B7815649_METHOD_2_9AF9F778CB2EF62A_OFFSET UNITYSDK_OFFSET(0x145A1B80)
-#define CLASS_2_BE37E8E5B7815649__CTOR_OFFSET UNITYSDK_OFFSET(0x145A1C20)
-#define CLASS_2_BE37E8E5B7815649__ONBIND_OFFSET UNITYSDK_OFFSET(0x145A1B20)
+#define CLASS_2_BE37E8E5B7815649_METHOD_2_9AF9F778CB2EF62A_OFFSET UNITYSDK_OFFSET(0x1541EBE0)
+#define CLASS_2_BE37E8E5B7815649__CTOR_OFFSET UNITYSDK_OFFSET(0x1541EC80)
+#define CLASS_2_BE37E8E5B7815649__ONBIND_OFFSET UNITYSDK_OFFSET(0x1541EB80)
 
-inline static constexpr unsigned int Class_2_BE37E8E5B7815649_TypeDefinitionIndex = 68646;
+inline static constexpr unsigned int Class_2_BE37E8E5B7815649_TypeDefinitionIndex = 71844;
 
-class Class_2_BE37E8E5B7815649 : public ::Class_1_CA217ABF4E3B4F3F
+class Class_2_BE37E8E5B7815649 : public ::Class_1_34917908B7833130
 {
 public:
-	// static const ::System::String* Field_2_0; // 0x0
-	// static const ::System::String* Field_2_1; // 0x0
-	::UnityEngine::Animation* Field_2_2; // 0x60
+	// static const ::System::String* PJGPDOBIALF; // 0x0
+	// static const ::System::String* FBMLNNHEALE; // 0x0
+	::UnityEngine::Animation* JPHOOFFIAAH; // 0x60
 
 	::System::Void _ctor()
 	{

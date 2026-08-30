@@ -4,21 +4,21 @@
 
 namespace System { class String; }
 
-#define SYSTEM_IO_TEXTREADER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A15C900)
-#define SYSTEM_IO_TEXTREADER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A15C930)
-#define SYSTEM_IO_TEXTREADER___C___CCTOR_B__22_0_OFFSET UNITYSDK_OFFSET(0x1A15C940)
-#define SYSTEM_IO_TEXTREADER___C___CCTOR_B__22_1_OFFSET UNITYSDK_OFFSET(0x1A15CA00)
+#define SYSTEM_IO_TEXTREADER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BD64300)
+#define SYSTEM_IO_TEXTREADER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD64330)
+#define SYSTEM_IO_TEXTREADER___C___CCTOR_B__22_0_OFFSET UNITYSDK_OFFSET(0x1BD64340)
+#define SYSTEM_IO_TEXTREADER___C___CCTOR_B__22_1_OFFSET UNITYSDK_OFFSET(0x1BD64400)
 
 namespace System::IO
 {
-	inline static constexpr unsigned int TextReader___c_TypeDefinitionIndex = 697;
+	inline static constexpr unsigned int TextReader___c_TypeDefinitionIndex = 700;
 
 	class TextReader___c : public ::System::Object
 	{
 	public:
 		static ::System::IO::TextReader___c** StaticGet___9()
 		{
-			return (::System::IO::TextReader___c**)Il2CppClass::FromTypeDefinitionIndex(TextReader___c_TypeDefinitionIndex)->GetStaticField(0xD990);
+			return (::System::IO::TextReader___c**)Il2CppClass::FromTypeDefinitionIndex(TextReader___c_TypeDefinitionIndex)->GetStaticField(0xCD50);
 		}
 
 		static ::System::Void _cctor()

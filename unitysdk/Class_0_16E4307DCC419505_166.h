@@ -5,7 +5,7 @@
 class Class_1_76C7E08195ED7984;
 namespace RPG { template <typename T> class PoolList_1; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_166_TypeDefinitionIndex = 39705;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_166_TypeDefinitionIndex = 40578;
 
 class Class_0_16E4307DCC419505_166
 {

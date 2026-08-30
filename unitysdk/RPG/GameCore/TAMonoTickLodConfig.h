@@ -7,12 +7,12 @@ namespace RPG::GameCore { class TAMonoTickLodTemplate; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_TAMONOTICKLODCONFIG_METHOD_2_7F615F36E74A2526_OFFSET UNITYSDK_OFFSET(0x1B93EDA0)
-#define RPG_GAMECORE_TAMONOTICKLODCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B93EE80)
+#define RPG_GAMECORE_TAMONOTICKLODCONFIG_METHOD_2_7F615F36E74A2526_OFFSET UNITYSDK_OFFSET(0x1D59BEF0)
+#define RPG_GAMECORE_TAMONOTICKLODCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D59BFD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TAMonoTickLodConfig_TypeDefinitionIndex = 18449;
+	inline static constexpr unsigned int TAMonoTickLodConfig_TypeDefinitionIndex = 18974;
 
 	class TAMonoTickLodConfig : public ::RPG::GameCore::JsonConfig
 	{

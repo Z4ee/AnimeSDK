@@ -3,26 +3,26 @@
 #include "unitysdk/RPG/Client/NavMap/NavNodeConditionParamType.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_1164;
+class Class_0_16E4307DCC419505_1222;
 namespace RPG::Client::NavMap { class IMapDataSource; }
 namespace RPG::GameCore { class LevelNavNodeConditionInfo; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_6B14D0631D156EC3_METHOD_1_13119A4EA31B735D_OFFSET UNITYSDK_OFFSET(0xBFE7910)
-#define CLASS_1_6B14D0631D156EC3_METHOD_1_649C3F0ABF636A99_OFFSET UNITYSDK_OFFSET(0xBFE7690)
-#define CLASS_1_6B14D0631D156EC3_METHOD_1_B7512089642D5F1C_OFFSET UNITYSDK_OFFSET(0xBFE7450)
-#define CLASS_1_6B14D0631D156EC3_METHOD_1_F05BB774F3080AE5_OFFSET UNITYSDK_OFFSET(0xBFE7540)
-#define CLASS_1_6B14D0631D156EC3__CTOR_OFFSET UNITYSDK_OFFSET(0xBFE7500)
+#define CLASS_1_6B14D0631D156EC3_METHOD_1_13119A4EA31B735D_OFFSET UNITYSDK_OFFSET(0xCA68760)
+#define CLASS_1_6B14D0631D156EC3_METHOD_1_649C3F0ABF636A99_OFFSET UNITYSDK_OFFSET(0xCA684E0)
+#define CLASS_1_6B14D0631D156EC3_METHOD_1_B7512089642D5F1C_OFFSET UNITYSDK_OFFSET(0xCA682A0)
+#define CLASS_1_6B14D0631D156EC3_METHOD_1_F05BB774F3080AE5_OFFSET UNITYSDK_OFFSET(0xCA68390)
+#define CLASS_1_6B14D0631D156EC3__CTOR_OFFSET UNITYSDK_OFFSET(0xCA68350)
 
-inline static constexpr unsigned int Class_1_6B14D0631D156EC3_TypeDefinitionIndex = 71174;
+inline static constexpr unsigned int Class_1_6B14D0631D156EC3_TypeDefinitionIndex = 74473;
 
 class Class_1_6B14D0631D156EC3 : public ::System::Object
 {
 public:
-	::RPG::Client::NavMap::IMapDataSource* Field_1_0; // 0x10
-	::System::Collections::Generic::Dictionary_2<::RPG::Client::NavMap::NavNodeConditionParamType, ::System::Object*>* Field_1_1; // 0x18
-	::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_1164*>* Field_1_2; // 0x20
+	::System::Collections::Generic::Dictionary_2<::RPG::Client::NavMap::NavNodeConditionParamType, ::System::Object*>* ILDKEOAMPAO; // 0x10
+	::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_1222*>* GGGKAACPPJF; // 0x18
+	::RPG::Client::NavMap::IMapDataSource* PBDGDLLLHMA; // 0x20
 
 	::System::Void _ctor()
 	{

@@ -8,19 +8,19 @@ namespace RPG::GameCore { class TAMonoTickLodTemplate; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_C5AD4785D6103ABB_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB0EF220)
-#define CLASS_1_C5AD4785D6103ABB_METHOD_1_73DE55699C2EC611_OFFSET UNITYSDK_OFFSET(0xB0EEF90)
-#define CLASS_1_C5AD4785D6103ABB_METHOD_1_AD66F2D94501BF2B_OFFSET UNITYSDK_OFFSET(0xB0EED80)
-#define CLASS_1_C5AD4785D6103ABB_METHOD_1_E79EF21F0A1F4065_OFFSET UNITYSDK_OFFSET(0xB0EF160)
-#define CLASS_1_C5AD4785D6103ABB__CTOR_OFFSET UNITYSDK_OFFSET(0xB0EF2D0)
+#define CLASS_1_C5AD4785D6103ABB_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBA6DDA0)
+#define CLASS_1_C5AD4785D6103ABB_METHOD_1_73DE55699C2EC611_OFFSET UNITYSDK_OFFSET(0xBA6DB10)
+#define CLASS_1_C5AD4785D6103ABB_METHOD_1_AD66F2D94501BF2B_OFFSET UNITYSDK_OFFSET(0xBA6D900)
+#define CLASS_1_C5AD4785D6103ABB_METHOD_1_E79EF21F0A1F4065_OFFSET UNITYSDK_OFFSET(0xBA6DCE0)
+#define CLASS_1_C5AD4785D6103ABB__CTOR_OFFSET UNITYSDK_OFFSET(0xBA6DE50)
 
-inline static constexpr unsigned int Class_1_C5AD4785D6103ABB_TypeDefinitionIndex = 70576;
+inline static constexpr unsigned int Class_1_C5AD4785D6103ABB_TypeDefinitionIndex = 73875;
 
 class Class_1_C5AD4785D6103ABB : public ::System::Object
 {
 public:
-	::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::TAMonoTickLodTemplate*>* Field_1_0; // 0x10
-	::System::Collections::Generic::Dictionary_2<::System::String*, ::Class_1_AE2E5C61B0ECF371*>* Field_1_1; // 0x18
+	::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::TAMonoTickLodTemplate*>* OHJMJNBIAJL; // 0x10
+	::System::Collections::Generic::Dictionary_2<::System::String*, ::Class_1_AE2E5C61B0ECF371*>* PEBDCPDBOJJ; // 0x18
 
 	::System::Void _ctor()
 	{

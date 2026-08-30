@@ -3,7 +3,7 @@
 
 namespace System::Diagnostics::Tracing
 {
-	inline static constexpr unsigned int EventFieldFormat_TypeDefinitionIndex = 1593;
+	inline static constexpr unsigned int EventFieldFormat_TypeDefinitionIndex = 1600;
 
 	enum class EventFieldFormat : ::System::Int32
 	{

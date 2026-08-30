@@ -7,18 +7,18 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class StageRow; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_4_14270264688A00C9_METHOD_4_1AD51778485AD495_OFFSET UNITYSDK_OFFSET(0x14B8F980)
-#define CLASS_4_14270264688A00C9_METHOD_4_D614052883633F12_OFFSET UNITYSDK_OFFSET(0x14B8EC70)
-#define CLASS_4_14270264688A00C9_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x14B8E990)
-#define CLASS_4_14270264688A00C9__CTOR_OFFSET UNITYSDK_OFFSET(0x14B8E970)
+#define CLASS_4_14270264688A00C9_METHOD_4_1AD51778485AD495_OFFSET UNITYSDK_OFFSET(0x15A8A540)
+#define CLASS_4_14270264688A00C9_METHOD_4_D614052883633F12_OFFSET UNITYSDK_OFFSET(0x15A89630)
+#define CLASS_4_14270264688A00C9_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15A89350)
+#define CLASS_4_14270264688A00C9__CTOR_OFFSET UNITYSDK_OFFSET(0x15A89330)
 
-inline static constexpr unsigned int Class_4_14270264688A00C9_TypeDefinitionIndex = 55461;
+inline static constexpr unsigned int Class_4_14270264688A00C9_TypeDefinitionIndex = 58192;
 
 class Class_4_14270264688A00C9 : public ::Class_3_778D44A66A0719FE
 {
 public:
-	::RPG::GameCore::CreateBattleEventFromGridFightBackend* Field_4_0; // 0x40
-	::RPG::GameCore::GameEntity* Field_4_1; // 0x48
+	::RPG::GameCore::CreateBattleEventFromGridFightBackend* CGCGDKLLBPL; // 0x40
+	::RPG::GameCore::GameEntity* MAFEOONDEOD; // 0x48
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::CreateBattleEventFromGridFightBackend* a2)
 	{

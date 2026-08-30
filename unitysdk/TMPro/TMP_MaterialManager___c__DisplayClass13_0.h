@@ -5,12 +5,12 @@
 namespace TMPro { class TMP_MaterialManager_MaskingMaterial; }
 namespace UnityEngine { class Material; }
 
-#define TMPRO_TMP_MATERIALMANAGER___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF491F0)
-#define TMPRO_TMP_MATERIALMANAGER___C__DISPLAYCLASS13_0__RELEASEBASEMATERIAL_B__0_OFFSET UNITYSDK_OFFSET(0x1CF4AE20)
+#define TMPRO_TMP_MATERIALMANAGER___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1EC4FDC0)
+#define TMPRO_TMP_MATERIALMANAGER___C__DISPLAYCLASS13_0__RELEASEBASEMATERIAL_B__0_OFFSET UNITYSDK_OFFSET(0x1EC519F0)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TMP_MaterialManager___c__DisplayClass13_0_TypeDefinitionIndex = 41814;
+	inline static constexpr unsigned int TMP_MaterialManager___c__DisplayClass13_0_TypeDefinitionIndex = 43425;
 
 	class TMP_MaterialManager___c__DisplayClass13_0 : public ::System::Object
 	{

@@ -3,12 +3,12 @@
 #include "unitysdk/System/RuntimeType.h"
 #include "unitysdk/System/RuntimeTypeHandle.h"
 
-#define SYSTEM_REFLECTIONONLYTYPE_GET_TYPEHANDLE_OFFSET UNITYSDK_OFFSET(0x1A19ED50)
-#define SYSTEM_REFLECTIONONLYTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A19ED20)
+#define SYSTEM_REFLECTIONONLYTYPE_GET_TYPEHANDLE_OFFSET UNITYSDK_OFFSET(0x1BDA6B70)
+#define SYSTEM_REFLECTIONONLYTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDA6B40)
 
 namespace System
 {
-	inline static constexpr unsigned int ReflectionOnlyType_TypeDefinitionIndex = 321;
+	inline static constexpr unsigned int ReflectionOnlyType_TypeDefinitionIndex = 324;
 
 	class ReflectionOnlyType : public ::System::RuntimeType
 	{

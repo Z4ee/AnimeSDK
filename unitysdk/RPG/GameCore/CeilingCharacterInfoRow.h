@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_CEILINGCHARACTERINFOROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B302DB0)
-#define RPG_GAMECORE_CEILINGCHARACTERINFOROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3033F0)
+#define RPG_GAMECORE_CEILINGCHARACTERINFOROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CF7EC30)
+#define RPG_GAMECORE_CEILINGCHARACTERINFOROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF7F270)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CeilingCharacterInfoRow_TypeDefinitionIndex = 12859;
+	inline static constexpr unsigned int CeilingCharacterInfoRow_TypeDefinitionIndex = 13250;
 
 	class CeilingCharacterInfoRow : public ::System::Object
 	{

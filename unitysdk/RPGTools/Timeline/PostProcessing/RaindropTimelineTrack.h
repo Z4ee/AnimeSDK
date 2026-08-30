@@ -6,12 +6,12 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_RAINDROPTIMELINETRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xDD09F90)
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_RAINDROPTIMELINETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xDD0A140)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_RAINDROPTIMELINETRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xE8D3F80)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_RAINDROPTIMELINETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xE8D4130)
 
 namespace RPGTools::Timeline::PostProcessing
 {
-	inline static constexpr unsigned int RaindropTimelineTrack_TypeDefinitionIndex = 46815;
+	inline static constexpr unsigned int RaindropTimelineTrack_TypeDefinitionIndex = 49061;
 
 	class RaindropTimelineTrack : public ::UnityEngine::Timeline::TrackAsset
 	{

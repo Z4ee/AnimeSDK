@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetMainLightOffsetType_TypeDefinitionIndex = 23878;
+	inline static constexpr unsigned int SetMainLightOffsetType_TypeDefinitionIndex = 24465;
 
 	enum class SetMainLightOffsetType : ::System::Int32
 	{

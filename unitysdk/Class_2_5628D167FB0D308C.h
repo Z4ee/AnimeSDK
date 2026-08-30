@@ -3,14 +3,14 @@
 #include "unitysdk/EnviromentSystemV2Space/EnvConfigType.h"
 #include "unitysdk/System/Attribute.h"
 
-#define CLASS_2_5628D167FB0D308C__CTOR_OFFSET UNITYSDK_OFFSET(0xB731AB0)
+#define CLASS_2_5628D167FB0D308C__CTOR_OFFSET UNITYSDK_OFFSET(0xC100600)
 
-inline static constexpr unsigned int Class_2_5628D167FB0D308C_TypeDefinitionIndex = 47476;
+inline static constexpr unsigned int Class_2_5628D167FB0D308C_TypeDefinitionIndex = 49756;
 
 class Class_2_5628D167FB0D308C : public ::System::Attribute
 {
 public:
-	::EnviromentSystemV2Space::EnvConfigType Field_2_0; // 0x10
+	::EnviromentSystemV2Space::EnvConfigType GPNFGFGMGAD; // 0x10
 
 	::System::Void _ctor(::EnviromentSystemV2Space::EnvConfigType a1)
 	{

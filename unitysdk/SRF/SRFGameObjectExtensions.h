@@ -5,12 +5,12 @@
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define SRF_SRFGAMEOBJECTEXTENSIONS_SETLAYERINTERNAL_OFFSET UNITYSDK_OFFSET(0x1CA028D0)
-#define SRF_SRFGAMEOBJECTEXTENSIONS_SETLAYERRECURSIVE_OFFSET UNITYSDK_OFFSET(0x1CA028A0)
+#define SRF_SRFGAMEOBJECTEXTENSIONS_SETLAYERINTERNAL_OFFSET UNITYSDK_OFFSET(0x1E6AD630)
+#define SRF_SRFGAMEOBJECTEXTENSIONS_SETLAYERRECURSIVE_OFFSET UNITYSDK_OFFSET(0x1E6AD600)
 
 namespace SRF
 {
-	inline static constexpr unsigned int SRFGameObjectExtensions_TypeDefinitionIndex = 33933;
+	inline static constexpr unsigned int SRFGameObjectExtensions_TypeDefinitionIndex = 34700;
 
 	class SRFGameObjectExtensions : public ::System::Object
 	{

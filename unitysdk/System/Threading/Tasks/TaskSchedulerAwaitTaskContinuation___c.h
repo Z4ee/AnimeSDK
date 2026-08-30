@@ -4,24 +4,24 @@
 
 namespace System { template <typename T> class Action_1; }
 
-#define SYSTEM_THREADING_TASKS_TASKSCHEDULERAWAITTASKCONTINUATION___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A04AEA0)
-#define SYSTEM_THREADING_TASKS_TASKSCHEDULERAWAITTASKCONTINUATION___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A04AEE0)
-#define SYSTEM_THREADING_TASKS_TASKSCHEDULERAWAITTASKCONTINUATION___C__RUN_B__2_0_OFFSET UNITYSDK_OFFSET(0x1A04AEF0)
+#define SYSTEM_THREADING_TASKS_TASKSCHEDULERAWAITTASKCONTINUATION___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BC51AA0)
+#define SYSTEM_THREADING_TASKS_TASKSCHEDULERAWAITTASKCONTINUATION___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC51AE0)
+#define SYSTEM_THREADING_TASKS_TASKSCHEDULERAWAITTASKCONTINUATION___C__RUN_B__2_0_OFFSET UNITYSDK_OFFSET(0x1BC51AF0)
 
 namespace System::Threading::Tasks
 {
-	inline static constexpr unsigned int TaskSchedulerAwaitTaskContinuation___c_TypeDefinitionIndex = 919;
+	inline static constexpr unsigned int TaskSchedulerAwaitTaskContinuation___c_TypeDefinitionIndex = 924;
 
 	class TaskSchedulerAwaitTaskContinuation___c : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::System::Object*>** StaticGet___9__2_0()
-		{
-			return (::System::Action_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(TaskSchedulerAwaitTaskContinuation___c_TypeDefinitionIndex)->GetStaticField(0x20D50);
-		}
 		static ::System::Threading::Tasks::TaskSchedulerAwaitTaskContinuation___c** StaticGet___9()
 		{
-			return (::System::Threading::Tasks::TaskSchedulerAwaitTaskContinuation___c**)Il2CppClass::FromTypeDefinitionIndex(TaskSchedulerAwaitTaskContinuation___c_TypeDefinitionIndex)->GetStaticField(0x20D58);
+			return (::System::Threading::Tasks::TaskSchedulerAwaitTaskContinuation___c**)Il2CppClass::FromTypeDefinitionIndex(TaskSchedulerAwaitTaskContinuation___c_TypeDefinitionIndex)->GetStaticField(0x13DF0);
+		}
+		static ::System::Action_1<::System::Object*>** StaticGet___9__2_0()
+		{
+			return (::System::Action_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(TaskSchedulerAwaitTaskContinuation___c_TypeDefinitionIndex)->GetStaticField(0x13DF8);
 		}
 
 		static ::System::Void _cctor()

@@ -4,12 +4,12 @@
 
 namespace RPG::Client::TAUtils { class MaterialPropertiesCollection_Property; }
 
-#define RPG_CLIENT_TAUTILS_MATERIALPROPERTIESCOLLECTION___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD5FEB90)
-#define RPG_CLIENT_TAUTILS_MATERIALPROPERTIESCOLLECTION___C__DISPLAYCLASS5_0__REMOVE_B__0_OFFSET UNITYSDK_OFFSET(0xD601870)
+#define RPG_CLIENT_TAUTILS_MATERIALPROPERTIESCOLLECTION___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0xE14BD50)
+#define RPG_CLIENT_TAUTILS_MATERIALPROPERTIESCOLLECTION___C__DISPLAYCLASS5_0__REMOVE_B__0_OFFSET UNITYSDK_OFFSET(0xE14EA40)
 
 namespace RPG::Client::TAUtils
 {
-	inline static constexpr unsigned int MaterialPropertiesCollection___c__DisplayClass5_0_TypeDefinitionIndex = 70223;
+	inline static constexpr unsigned int MaterialPropertiesCollection___c__DisplayClass5_0_TypeDefinitionIndex = 73522;
 
 	class MaterialPropertiesCollection___c__DisplayClass5_0 : public ::System::Object
 	{

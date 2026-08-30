@@ -7,38 +7,38 @@
 namespace RPG::GameCore { class GameEntity; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_1_D52D4C3F14D3FD6A_GET_ISACTIVE_OFFSET UNITYSDK_OFFSET(0xCDADCF0)
-#define CLASS_1_D52D4C3F14D3FD6A_METHOD_1_464AA4A03ADE696E_OFFSET UNITYSDK_OFFSET(0xCDAD370)
-#define CLASS_1_D52D4C3F14D3FD6A_METHOD_1_5E5FAAAE21B44BAE_OFFSET UNITYSDK_OFFSET(0xCDADC30)
-#define CLASS_1_D52D4C3F14D3FD6A_METHOD_1_85F1BBDD911176D9_OFFSET UNITYSDK_OFFSET(0xCDACDC0)
-#define CLASS_1_D52D4C3F14D3FD6A_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xCDAD310)
-#define CLASS_1_D52D4C3F14D3FD6A_METHOD_1_DD4A44352957FDD8_OFFSET UNITYSDK_OFFSET(0xCDAD430)
-#define CLASS_1_D52D4C3F14D3FD6A_METHOD_1_FF639A4CF295D530_OFFSET UNITYSDK_OFFSET(0xCDAD640)
-#define CLASS_1_D52D4C3F14D3FD6A_SET_ISACTIVE_OFFSET UNITYSDK_OFFSET(0xCDADD00)
-#define CLASS_1_D52D4C3F14D3FD6A__CTOR_OFFSET UNITYSDK_OFFSET(0xCDADD10)
+#define CLASS_1_D52D4C3F14D3FD6A_GET_ISACTIVE_OFFSET UNITYSDK_OFFSET(0xDAA88B0)
+#define CLASS_1_D52D4C3F14D3FD6A_METHOD_1_464AA4A03ADE696E_OFFSET UNITYSDK_OFFSET(0xDAA7F30)
+#define CLASS_1_D52D4C3F14D3FD6A_METHOD_1_5E5FAAAE21B44BAE_OFFSET UNITYSDK_OFFSET(0xDAA87F0)
+#define CLASS_1_D52D4C3F14D3FD6A_METHOD_1_85F1BBDD911176D9_OFFSET UNITYSDK_OFFSET(0xDAA7980)
+#define CLASS_1_D52D4C3F14D3FD6A_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xDAA7EC0)
+#define CLASS_1_D52D4C3F14D3FD6A_METHOD_1_DD4A44352957FDD8_OFFSET UNITYSDK_OFFSET(0xDAA7FF0)
+#define CLASS_1_D52D4C3F14D3FD6A_METHOD_1_FF639A4CF295D530_OFFSET UNITYSDK_OFFSET(0xDAA8200)
+#define CLASS_1_D52D4C3F14D3FD6A_SET_ISACTIVE_OFFSET UNITYSDK_OFFSET(0xDAA88C0)
+#define CLASS_1_D52D4C3F14D3FD6A__CTOR_OFFSET UNITYSDK_OFFSET(0xDAA88D0)
 
-inline static constexpr unsigned int Class_1_D52D4C3F14D3FD6A_TypeDefinitionIndex = 54508;
+inline static constexpr unsigned int Class_1_D52D4C3F14D3FD6A_TypeDefinitionIndex = 57229;
 
 class Class_1_D52D4C3F14D3FD6A : public ::System::Object
 {
 public:
-	// static const ::System::Single Field_1_0; // 0x0
-	// static const ::System::Single Field_1_1; // 0x0
-	::RPG::GameCore::GameEntity* Field_1_2; // 0x10
-	::UnityEngine::Transform* Field_1_3; // 0x18
-	::UnityEngine::Transform* Field_1_4; // 0x20
-	::RPG::GameCore::GameEntity* Field_1_5; // 0x28
-	::System::Boolean _IsActive_k__BackingField; // 0x30
-	::System::Single Field_1_7; // 0x34
-	::System::Single Field_1_8; // 0x38
-	::System::Single Field_1_9; // 0x3C
-	::System::Single Field_1_10; // 0x40
-	::System::Single Field_1_11; // 0x44
-	::System::Single Field_1_12; // 0x48
-	::System::Single Field_1_13; // 0x4C
-	::System::Single Field_1_14; // 0x50
-	::System::Single Field_1_15; // 0x54
-	::System::Single Field_1_16; // 0x58
+	// static const ::System::Single ALNFBJNICCK; // 0x0
+	// static const ::System::Single EOBGHFMMGCM; // 0x0
+	::UnityEngine::Transform* AFIBNIPMICJ; // 0x10
+	::UnityEngine::Transform* OIGGFCOBKCG; // 0x18
+	::RPG::GameCore::GameEntity* OJAHLJGABMJ; // 0x20
+	::RPG::GameCore::GameEntity* CFKHNPGEAJA; // 0x28
+	::System::Single JKEDDIHDHFH; // 0x30
+	::System::Single CBDKIJBKBCO; // 0x34
+	::System::Single DADDDKFPJGK; // 0x38
+	::System::Single CGJOJELIIMC; // 0x3C
+	::System::Single ANBAHMFOPCI; // 0x40
+	::System::Single DFGGPBBAAIH; // 0x44
+	::System::Single NBOJCABFJJH; // 0x48
+	::System::Single NAJDBLCPLBH; // 0x4C
+	::System::Single DAPNPMJMPIO; // 0x50
+	::System::Single LOFDNKOBKBO; // 0x54
+	::System::Boolean _IsActive_k__BackingField; // 0x58
 
 	::System::Void _ctor()
 	{

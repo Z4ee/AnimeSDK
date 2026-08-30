@@ -6,20 +6,20 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_BATTLEPASSADVERTISEMENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B1FDBF0)
-#define RPG_GAMECORE_BATTLEPASSADVERTISEMENTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1FE300)
+#define RPG_GAMECORE_BATTLEPASSADVERTISEMENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CE78CF0)
+#define RPG_GAMECORE_BATTLEPASSADVERTISEMENTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE79400)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattlePassAdvertisementRow_TypeDefinitionIndex = 12394;
+	inline static constexpr unsigned int BattlePassAdvertisementRow_TypeDefinitionIndex = 12783;
 
 	class BattlePassAdvertisementRow : public ::System::Object
 	{
 	public:
 		::System::String* IconBundlePath; // 0x10
-		::RPG::Client::TextID Desc; // 0x18
-		::RPG::Client::TextID Title; // 0x28
-		::System::UInt32 ID; // 0x38
+		::System::UInt32 ID; // 0x18
+		::RPG::Client::TextID Title; // 0x20
+		::RPG::Client::TextID Desc; // 0x30
 
 		::System::Void _ctor()
 		{

@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace RPG::Client::FateRin
 {
-	inline static constexpr unsigned int IFateRinExtraEffectViewModel_TypeDefinitionIndex = 75669;
+	inline static constexpr unsigned int IFateRinExtraEffectViewModel_TypeDefinitionIndex = 79302;
 
 	class IFateRinExtraEffectViewModel
 	{

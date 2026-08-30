@@ -14,12 +14,12 @@ namespace RPG::GameCore { class MapRotationTextConfig; }
 namespace RPG::GameCore { class PlayerEnergyConfig; }
 namespace RPG::GameCore { class SpecialNPCEffectConfig; }
 
-#define RPG_GAMECORE_MAPROTATIONGLOBALCONFIG_METHOD_2_B1A60D9A469540DF_OFFSET UNITYSDK_OFFSET(0x1B5AA130)
-#define RPG_GAMECORE_MAPROTATIONGLOBALCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5AA450)
+#define RPG_GAMECORE_MAPROTATIONGLOBALCONFIG_METHOD_2_B1A60D9A469540DF_OFFSET UNITYSDK_OFFSET(0x1D226920)
+#define RPG_GAMECORE_MAPROTATIONGLOBALCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D226C40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MapRotationGlobalConfig_TypeDefinitionIndex = 16360;
+	inline static constexpr unsigned int MapRotationGlobalConfig_TypeDefinitionIndex = 16848;
 
 	class MapRotationGlobalConfig : public ::RPG::GameCore::JsonConfig
 	{

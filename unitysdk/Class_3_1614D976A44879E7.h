@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class RtByCanMove; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_1614D976A44879E7_EVALUATE_OFFSET UNITYSDK_OFFSET(0x14831400)
-#define CLASS_3_1614D976A44879E7__CTOR_OFFSET UNITYSDK_OFFSET(0x148313D0)
+#define CLASS_3_1614D976A44879E7_EVALUATE_OFFSET UNITYSDK_OFFSET(0x156F26C0)
+#define CLASS_3_1614D976A44879E7__CTOR_OFFSET UNITYSDK_OFFSET(0x156F2690)
 
-inline static constexpr unsigned int Class_3_1614D976A44879E7_TypeDefinitionIndex = 51704;
+inline static constexpr unsigned int Class_3_1614D976A44879E7_TypeDefinitionIndex = 54388;
 
 class Class_3_1614D976A44879E7 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::RtByCanMove*>
 {

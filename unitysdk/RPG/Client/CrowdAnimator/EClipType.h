@@ -3,7 +3,7 @@
 
 namespace RPG::Client::CrowdAnimator
 {
-	inline static constexpr unsigned int EClipType_TypeDefinitionIndex = 70326;
+	inline static constexpr unsigned int EClipType_TypeDefinitionIndex = 73626;
 
 	enum class EClipType : ::System::Int32
 	{

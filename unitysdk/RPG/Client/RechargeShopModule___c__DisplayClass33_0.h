@@ -6,18 +6,18 @@
 namespace RPG::Client { class RechargeShopModule; }
 namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 
-#define RPG_CLIENT_RECHARGESHOPMODULE___C__DISPLAYCLASS33_0__BUYGIFT_B__0_OFFSET UNITYSDK_OFFSET(0xD2CDDA0)
-#define RPG_CLIENT_RECHARGESHOPMODULE___C__DISPLAYCLASS33_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD2CD0D0)
+#define RPG_CLIENT_RECHARGESHOPMODULE___C__DISPLAYCLASS33_0__BUYGIFT_B__0_OFFSET UNITYSDK_OFFSET(0xDE0CC30)
+#define RPG_CLIENT_RECHARGESHOPMODULE___C__DISPLAYCLASS33_0__CTOR_OFFSET UNITYSDK_OFFSET(0xDE0BEF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RechargeShopModule___c__DisplayClass33_0_TypeDefinitionIndex = 63813;
+	inline static constexpr unsigned int RechargeShopModule___c__DisplayClass33_0_TypeDefinitionIndex = 66798;
 
 	class RechargeShopModule___c__DisplayClass33_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::Promises::Promise_1<::System::Boolean>* promise; // 0x10
-		::RPG::Client::RechargeShopModule* __4__this; // 0x18
+		::RPG::Client::RechargeShopModule* __4__this; // 0x10
+		::RPG::Client::Promises::Promise_1<::System::Boolean>* promise; // 0x18
 
 		::System::Void _ctor()
 		{

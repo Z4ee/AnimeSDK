@@ -6,12 +6,12 @@ namespace RPG::Client { class PlanetFesFloatingCoin; }
 namespace RPG::Client { class PlanetFesFloatingController; }
 namespace System { class Action; }
 
-#define RPG_CLIENT_PLANETFESFLOATINGCONTROLLER___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD00B0F0)
-#define RPG_CLIENT_PLANETFESFLOATINGCONTROLLER___C__DISPLAYCLASS19_0__DOFLYCOINEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0xD00D0D0)
+#define RPG_CLIENT_PLANETFESFLOATINGCONTROLLER___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0xDB49F20)
+#define RPG_CLIENT_PLANETFESFLOATINGCONTROLLER___C__DISPLAYCLASS19_0__DOFLYCOINEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0xDB4C0E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlanetFesFloatingController___c__DisplayClass19_0_TypeDefinitionIndex = 63535;
+	inline static constexpr unsigned int PlanetFesFloatingController___c__DisplayClass19_0_TypeDefinitionIndex = 66520;
 
 	class PlanetFesFloatingController___c__DisplayClass19_0 : public ::System::Object
 	{

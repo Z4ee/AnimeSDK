@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define XLUA_TEMPLATEENGINE_TEMPLATEFORMATEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1437EA70)
+#define XLUA_TEMPLATEENGINE_TEMPLATEFORMATEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1516C0B0)
 
 namespace XLua::TemplateEngine
 {
-	inline static constexpr unsigned int TemplateFormatException_TypeDefinitionIndex = 48027;
+	inline static constexpr unsigned int TemplateFormatException_TypeDefinitionIndex = 50618;
 
 	class TemplateFormatException : public ::System::Exception
 	{

@@ -3,12 +3,12 @@
 #include "unitysdk/CriWare/CriWarePS5_AudioPortType.h"
 #include "unitysdk/System/ValueType.h"
 
-#define CRIWARE_CRIATOMEXASRRACK_PLATFORMCONFIGPS5_DEFAULT_OFFSET UNITYSDK_OFFSET(0x157364B0)
-#define CRIWARE_CRIATOMEXASRRACK_PLATFORMCONFIGPS5_ISSUPPORTEDPLATFORM_OFFSET UNITYSDK_OFFSET(0x2D1A3C0)
+#define CRIWARE_CRIATOMEXASRRACK_PLATFORMCONFIGPS5_DEFAULT_OFFSET UNITYSDK_OFFSET(0x164C1190)
+#define CRIWARE_CRIATOMEXASRRACK_PLATFORMCONFIGPS5_ISSUPPORTEDPLATFORM_OFFSET UNITYSDK_OFFSET(0x2E002B0)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExAsrRack_PlatformConfigPS5_TypeDefinitionIndex = 37760;
+	inline static constexpr unsigned int CriAtomExAsrRack_PlatformConfigPS5_TypeDefinitionIndex = 38619;
 
 	struct alignas(4) CriAtomExAsrRack_PlatformConfigPS5
 	{

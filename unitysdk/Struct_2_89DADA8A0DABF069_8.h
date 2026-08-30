@@ -4,10 +4,10 @@
 #include "unitysdk/RPG/MVector3.h"
 #include "unitysdk/System/ValueType.h"
 
-inline static constexpr unsigned int Struct_2_89DADA8A0DABF069_8_TypeDefinitionIndex = 6627;
+inline static constexpr unsigned int Struct_2_89DADA8A0DABF069_8_TypeDefinitionIndex = 6239;
 
 struct alignas(4) Struct_2_89DADA8A0DABF069_8
 {
-	::Dest::Math::IntersectionTypes Field_2_0; // 0x10
-	::RPG::MVector3 Field_2_1; // 0x14
+	::Dest::Math::IntersectionTypes DLMLMAGCHJK; // 0x10
+	::RPG::MVector3 KCBPBMOJOKJ; // 0x14
 };

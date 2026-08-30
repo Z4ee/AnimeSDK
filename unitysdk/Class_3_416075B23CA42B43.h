@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TryStartConnectUltraSkillFrameCapture; }
 
-#define CLASS_3_416075B23CA42B43_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x148DEE70)
-#define CLASS_3_416075B23CA42B43__CTOR_OFFSET UNITYSDK_OFFSET(0x148DEE40)
+#define CLASS_3_416075B23CA42B43_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x157A4270)
+#define CLASS_3_416075B23CA42B43__CTOR_OFFSET UNITYSDK_OFFSET(0x157A4240)
 
-inline static constexpr unsigned int Class_3_416075B23CA42B43_TypeDefinitionIndex = 53246;
+inline static constexpr unsigned int Class_3_416075B23CA42B43_TypeDefinitionIndex = 55960;
 
 class Class_3_416075B23CA42B43 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::TryStartConnectUltraSkillFrameCapture*>
 {

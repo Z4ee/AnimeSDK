@@ -3,7 +3,7 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-inline static constexpr unsigned int WaveInteract_TypeDefinitionIndex = 45701;
+inline static constexpr unsigned int WaveInteract_TypeDefinitionIndex = 47952;
 
 struct alignas(4) WaveInteract
 {

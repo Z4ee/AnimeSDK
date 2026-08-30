@@ -4,13 +4,13 @@
 
 namespace RPG::Client { class OnAssetOperationDelegate; }
 
-inline static constexpr unsigned int Class_1_A0302E9AE0B8A2B9___O_TypeDefinitionIndex = 56743;
+inline static constexpr unsigned int Class_1_A0302E9AE0B8A2B9___O_TypeDefinitionIndex = 59530;
 
 class Class_1_A0302E9AE0B8A2B9___O : public ::System::Object
 {
 public:
 	static ::RPG::Client::OnAssetOperationDelegate** StaticGet__0____OnAsyncLoadFinish()
 	{
-		return (::RPG::Client::OnAssetOperationDelegate**)Il2CppClass::FromTypeDefinitionIndex(Class_1_A0302E9AE0B8A2B9___O_TypeDefinitionIndex)->GetStaticField(0x2B6C0);
+		return (::RPG::Client::OnAssetOperationDelegate**)Il2CppClass::FromTypeDefinitionIndex(Class_1_A0302E9AE0B8A2B9___O_TypeDefinitionIndex)->GetStaticField(0x129C0);
 	}
 };

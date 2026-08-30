@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MESSAGEPACK_INTERNAL_UNSAFEREFDESERIALIZEHELPER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x19AE1700)
+#define MESSAGEPACK_INTERNAL_UNSAFEREFDESERIALIZEHELPER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1B670590)
 
 namespace MessagePack::Internal
 {
-	inline static constexpr unsigned int UnsafeRefDeserializeHelper_TypeDefinitionIndex = 7266;
+	inline static constexpr unsigned int UnsafeRefDeserializeHelper_TypeDefinitionIndex = 7252;
 
 	class UnsafeRefDeserializeHelper : public ::System::Object
 	{

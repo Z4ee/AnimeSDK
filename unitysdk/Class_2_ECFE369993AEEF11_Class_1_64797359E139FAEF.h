@@ -8,22 +8,22 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_2_ECFE369993AEEF11_CLASS_1_64797359E139FAEF_METHOD_1_4867D67F27947ACE_OFFSET UNITYSDK_OFFSET(0xB0C0ED0)
-#define CLASS_2_ECFE369993AEEF11_CLASS_1_64797359E139FAEF_METHOD_1_B1936CE4DA97AA45_OFFSET UNITYSDK_OFFSET(0xB0C1D90)
-#define CLASS_2_ECFE369993AEEF11_CLASS_1_64797359E139FAEF_METHOD_1_EADDF1782C977BCA_OFFSET UNITYSDK_OFFSET(0xB0C1360)
-#define CLASS_2_ECFE369993AEEF11_CLASS_1_64797359E139FAEF__CTOR_OFFSET UNITYSDK_OFFSET(0xB0C19A0)
+#define CLASS_2_ECFE369993AEEF11_CLASS_1_64797359E139FAEF_METHOD_1_4867D67F27947ACE_OFFSET UNITYSDK_OFFSET(0xBA3A240)
+#define CLASS_2_ECFE369993AEEF11_CLASS_1_64797359E139FAEF_METHOD_1_B1936CE4DA97AA45_OFFSET UNITYSDK_OFFSET(0xBA3B100)
+#define CLASS_2_ECFE369993AEEF11_CLASS_1_64797359E139FAEF_METHOD_1_EADDF1782C977BCA_OFFSET UNITYSDK_OFFSET(0xBA3A6D0)
+#define CLASS_2_ECFE369993AEEF11_CLASS_1_64797359E139FAEF__CTOR_OFFSET UNITYSDK_OFFSET(0xBA3AD10)
 
-inline static constexpr unsigned int Class_2_ECFE369993AEEF11_Class_1_64797359E139FAEF_TypeDefinitionIndex = 66731;
+inline static constexpr unsigned int Class_2_ECFE369993AEEF11_Class_1_64797359E139FAEF_TypeDefinitionIndex = 69833;
 
 class Class_2_ECFE369993AEEF11_Class_1_64797359E139FAEF : public ::System::Object
 {
 public:
-	::UnityEngine::Material* Field_1_0; // 0x10
-	::UnityEngine::Transform* Field_1_1; // 0x18
-	::UnityEngine::GameObject* Field_1_2; // 0x20
-	::RPG::Client::CharacterEffect* Field_1_3; // 0x28
-	::UnityEngine::Material* Field_1_4; // 0x30
-	::UnityEngine::Vector3 Field_1_5; // 0x38
+	::UnityEngine::GameObject* GIGLHCOCKMP; // 0x10
+	::UnityEngine::Material* DOLIHDOBGEI; // 0x18
+	::UnityEngine::Transform* LEMMBOLAPII; // 0x20
+	::UnityEngine::Material* EEOCHLOPPCH; // 0x28
+	::RPG::Client::CharacterEffect* FIJPFBNGMJL; // 0x30
+	::UnityEngine::Vector3 GBELOEHECEC; // 0x38
 
 	::System::Void _ctor(::UnityEngine::Transform* a1, ::UnityEngine::GameObject* a2, ::UnityEngine::Transform* a3, ::System::Single a4, ::RPG::Client::CharacterEffect* a5)
 	{

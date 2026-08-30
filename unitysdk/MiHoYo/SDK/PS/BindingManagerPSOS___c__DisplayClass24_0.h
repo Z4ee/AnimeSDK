@@ -6,19 +6,19 @@ namespace MiHoYo::SDK { class NetworkResponseModel; }
 namespace MiHoYo::SDK::PS { class BindingManagerPSOS; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_PS_BINDINGMANAGERPSOS___C__DISPLAYCLASS24_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19D842A0)
-#define MIHOYO_SDK_PS_BINDINGMANAGERPSOS___C__DISPLAYCLASS24_0__PERFORMBINDINGFLOW_B__0_OFFSET UNITYSDK_OFFSET(0x19D875D0)
-#define MIHOYO_SDK_PS_BINDINGMANAGERPSOS___C__DISPLAYCLASS24_0__PERFORMBINDINGFLOW_B__1_OFFSET UNITYSDK_OFFSET(0x19D87C70)
+#define MIHOYO_SDK_PS_BINDINGMANAGERPSOS___C__DISPLAYCLASS24_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA40880)
+#define MIHOYO_SDK_PS_BINDINGMANAGERPSOS___C__DISPLAYCLASS24_0__PERFORMBINDINGFLOW_B__0_OFFSET UNITYSDK_OFFSET(0x1BA43B50)
+#define MIHOYO_SDK_PS_BINDINGMANAGERPSOS___C__DISPLAYCLASS24_0__PERFORMBINDINGFLOW_B__1_OFFSET UNITYSDK_OFFSET(0x1BA441F0)
 
 namespace MiHoYo::SDK::PS
 {
-	inline static constexpr unsigned int BindingManagerPSOS___c__DisplayClass24_0_TypeDefinitionIndex = 8573;
+	inline static constexpr unsigned int BindingManagerPSOS___c__DisplayClass24_0_TypeDefinitionIndex = 8840;
 
 	class BindingManagerPSOS___c__DisplayClass24_0 : public ::System::Object
 	{
 	public:
-		::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* OnLoginResult; // 0x10
-		::MiHoYo::SDK::PS::BindingManagerPSOS* __4__this; // 0x18
+		::MiHoYo::SDK::PS::BindingManagerPSOS* __4__this; // 0x10
+		::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* OnLoginResult; // 0x18
 
 		::System::Void _ctor()
 		{

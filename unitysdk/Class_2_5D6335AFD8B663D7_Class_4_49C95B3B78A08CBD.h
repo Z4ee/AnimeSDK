@@ -6,20 +6,20 @@ class Class_2_5D6335AFD8B663D7_Class_4_49C95B3B78A08CBD_Class_1_179F7F62501D8665
 namespace RPG::Client { class MonoValueEvaluateConfigure_FloatEvaluator; }
 namespace RPG::Client { class MonoValueEvaluateConfigure_FloatEvaluator_PingPong; }
 
-#define CLASS_2_5D6335AFD8B663D7_CLASS_4_49C95B3B78A08CBD_GET_CURRENTVALUE_OFFSET UNITYSDK_OFFSET(0x152F06C0)
-#define CLASS_2_5D6335AFD8B663D7_CLASS_4_49C95B3B78A08CBD_METHOD_4_72441113E013E70D_OFFSET UNITYSDK_OFFSET(0x152F04C0)
-#define CLASS_2_5D6335AFD8B663D7_CLASS_4_49C95B3B78A08CBD__CTOR_OFFSET UNITYSDK_OFFSET(0x152F0110)
+#define CLASS_2_5D6335AFD8B663D7_CLASS_4_49C95B3B78A08CBD_GET_CURRENTVALUE_OFFSET UNITYSDK_OFFSET(0x162658C0)
+#define CLASS_2_5D6335AFD8B663D7_CLASS_4_49C95B3B78A08CBD_METHOD_4_72441113E013E70D_OFFSET UNITYSDK_OFFSET(0x162656C0)
+#define CLASS_2_5D6335AFD8B663D7_CLASS_4_49C95B3B78A08CBD__CTOR_OFFSET UNITYSDK_OFFSET(0x16265310)
 
-inline static constexpr unsigned int Class_2_5D6335AFD8B663D7_Class_4_49C95B3B78A08CBD_TypeDefinitionIndex = 54861;
+inline static constexpr unsigned int Class_2_5D6335AFD8B663D7_Class_4_49C95B3B78A08CBD_TypeDefinitionIndex = 57582;
 
 class Class_2_5D6335AFD8B663D7_Class_4_49C95B3B78A08CBD : public ::Class_2_5D6335AFD8B663D7_FloatEvaluatorTemplate_1<::RPG::Client::MonoValueEvaluateConfigure_FloatEvaluator_PingPong*>
 {
 public:
-	::System::Single Field_4_0; // 0x38
-	::System::Single Field_4_1; // 0x3C
-	::System::Single Field_4_2; // 0x40
-	::System::Single Field_4_3; // 0x44
-	::System::Single Field_4_4; // 0x48
+	::System::Single AIKAPJELHNK; // 0x38
+	::System::Single NPINECOCALC; // 0x3C
+	::System::Single KFGBCLJCCCI; // 0x40
+	::System::Single MHJBLFKKCIC; // 0x44
+	::System::Single HBDJCFFDGDD; // 0x48
 
 	::System::Void _ctor(::Class_2_5D6335AFD8B663D7_Class_4_49C95B3B78A08CBD_Class_1_179F7F62501D8665* a1, ::RPG::Client::MonoValueEvaluateConfigure_FloatEvaluator* a2)
 	{

@@ -7,19 +7,19 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ROGUECOMMONMODETITLEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B748090)
-#define RPG_GAMECORE_ROGUECOMMONMODETITLEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7486B0)
+#define RPG_GAMECORE_ROGUECOMMONMODETITLEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3CB210)
+#define RPG_GAMECORE_ROGUECOMMONMODETITLEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3CB830)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueCommonModeTitleRow_TypeDefinitionIndex = 14095;
+	inline static constexpr unsigned int RogueCommonModeTitleRow_TypeDefinitionIndex = 14515;
 
 	class RogueCommonModeTitleRow : public ::System::Object
 	{
 	public:
 		::System::String* TitleIconPath; // 0x10
-		::RPG::GameCore::RogueSubMode SubMode; // 0x18
-		::RPG::Client::TextID TitleTextmapID; // 0x20
+		::RPG::Client::TextID TitleTextmapID; // 0x18
+		::RPG::GameCore::RogueSubMode SubMode; // 0x28
 
 		::System::Void _ctor()
 		{

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ModifyAdventureCharacterRunSpeedRatio; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_240DE770DD6D5780_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xD05AB30)
-#define CLASS_3_240DE770DD6D5780__CTOR_OFFSET UNITYSDK_OFFSET(0xD05AB00)
+#define CLASS_3_240DE770DD6D5780_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xDD9F1C0)
+#define CLASS_3_240DE770DD6D5780__CTOR_OFFSET UNITYSDK_OFFSET(0xDD9F190)
 
-inline static constexpr unsigned int Class_3_240DE770DD6D5780_TypeDefinitionIndex = 50616;
+inline static constexpr unsigned int Class_3_240DE770DD6D5780_TypeDefinitionIndex = 53297;
 
 class Class_3_240DE770DD6D5780 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ModifyAdventureCharacterRunSpeedRatio*>
 {

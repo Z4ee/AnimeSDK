@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Formats::Alembic::Sdk
 {
-	inline static constexpr unsigned int aePropertyType_TypeDefinitionIndex = 42461;
+	inline static constexpr unsigned int aePropertyType_TypeDefinitionIndex = 44643;
 
 	enum class aePropertyType : ::System::Int32
 	{

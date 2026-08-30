@@ -6,13 +6,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_SETMONSTERHUDVISIBLETYPE_METHOD_3_3C1EE7C01010C189_OFFSET UNITYSDK_OFFSET(0x1B8ABE30)
-#define RPG_GAMECORE_SETMONSTERHUDVISIBLETYPE_METHOD_3_9776F3A31F97E9C6_OFFSET UNITYSDK_OFFSET(0x1B8ABDF0)
-#define RPG_GAMECORE_SETMONSTERHUDVISIBLETYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8ABE20)
+#define RPG_GAMECORE_SETMONSTERHUDVISIBLETYPE_METHOD_3_46AD088A5AB14C12_OFFSET UNITYSDK_OFFSET(0x1D507AD0)
+#define RPG_GAMECORE_SETMONSTERHUDVISIBLETYPE_METHOD_3_DE5EB9C9342219C7_OFFSET UNITYSDK_OFFSET(0x1D507B10)
+#define RPG_GAMECORE_SETMONSTERHUDVISIBLETYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D507B00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetMonsterHUDVisibleType_TypeDefinitionIndex = 21998;
+	inline static constexpr unsigned int SetMonsterHUDVisibleType_TypeDefinitionIndex = 22564;
 
 	class SetMonsterHUDVisibleType : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,14 +25,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETMONSTERHUDVISIBLETYPE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_9776F3A31F97E9C6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetMonsterHUDVisibleType*& a2)
+		static ::System::Void Method_3_46AD088A5AB14C12(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetMonsterHUDVisibleType*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetMonsterHUDVisibleType*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETMONSTERHUDVISIBLETYPE_METHOD_3_9776F3A31F97E9C6_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetMonsterHUDVisibleType*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETMONSTERHUDVISIBLETYPE_METHOD_3_46AD088A5AB14C12_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_3C1EE7C01010C189(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetMonsterHUDVisibleType* a2)
+		static ::System::Void Method_3_DE5EB9C9342219C7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetMonsterHUDVisibleType* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetMonsterHUDVisibleType*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETMONSTERHUDVISIBLETYPE_METHOD_3_3C1EE7C01010C189_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetMonsterHUDVisibleType*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETMONSTERHUDVISIBLETYPE_METHOD_3_DE5EB9C9342219C7_OFFSET))(a1, a2);
 		}
 	};
 }

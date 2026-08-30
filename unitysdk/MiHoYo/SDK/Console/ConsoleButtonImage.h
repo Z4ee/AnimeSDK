@@ -4,12 +4,12 @@
 
 namespace UnityEngine { class Sprite; }
 
-#define MIHOYO_SDK_CONSOLE_CONSOLEBUTTONIMAGE_AWAKE_OFFSET UNITYSDK_OFFSET(0x19BFDB70)
-#define MIHOYO_SDK_CONSOLE_CONSOLEBUTTONIMAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x19BFDE30)
+#define MIHOYO_SDK_CONSOLE_CONSOLEBUTTONIMAGE_AWAKE_OFFSET UNITYSDK_OFFSET(0x1B78DE90)
+#define MIHOYO_SDK_CONSOLE_CONSOLEBUTTONIMAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B78E1D0)
 
 namespace MiHoYo::SDK::Console
 {
-	inline static constexpr unsigned int ConsoleButtonImage_TypeDefinitionIndex = 8675;
+	inline static constexpr unsigned int ConsoleButtonImage_TypeDefinitionIndex = 8942;
 
 	class ConsoleButtonImage : public ::UnityEngine::MonoBehaviour
 	{

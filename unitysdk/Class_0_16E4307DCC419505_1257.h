@@ -1,7 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/ActivityHipplen/ActivityHipplenEffectSource.h"
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_1257_TypeDefinitionIndex = 75252;
+class Class_1_637CF5391C15E01B;
+namespace RPG::Client::ActivityHipplen { class ActivityHipplenEffectResultData; }
+namespace System::Collections::Generic { template <typename T> class IList_1; }
+
+inline static constexpr unsigned int Class_0_16E4307DCC419505_1257_TypeDefinitionIndex = 75193;
 
 class Class_0_16E4307DCC419505_1257
 {

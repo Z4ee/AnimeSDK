@@ -5,24 +5,24 @@
 namespace RPG::GameCore { class AvatarDemoModuleConfigRow; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_ROLETRIALUTILS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD4B01B0)
-#define RPG_CLIENT_ROLETRIALUTILS___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD4B01E0)
-#define RPG_CLIENT_ROLETRIALUTILS___C__GETSORTEDAVATARDEMOLIST_B__0_0_OFFSET UNITYSDK_OFFSET(0xD4B01F0)
+#define RPG_CLIENT_ROLETRIALUTILS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xDFD56D0)
+#define RPG_CLIENT_ROLETRIALUTILS___C__CTOR_OFFSET UNITYSDK_OFFSET(0xDFD5700)
+#define RPG_CLIENT_ROLETRIALUTILS___C__GETSORTEDAVATARDEMOLIST_B__0_0_OFFSET UNITYSDK_OFFSET(0xDFD5710)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RoleTrialUtils___c_TypeDefinitionIndex = 64879;
+	inline static constexpr unsigned int RoleTrialUtils___c_TypeDefinitionIndex = 67886;
 
 	class RoleTrialUtils___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::RPG::GameCore::AvatarDemoModuleConfigRow*>** StaticGet___9__0_0()
-		{
-			return (::System::Comparison_1<::RPG::GameCore::AvatarDemoModuleConfigRow*>**)Il2CppClass::FromTypeDefinitionIndex(RoleTrialUtils___c_TypeDefinitionIndex)->GetStaticField(0x2F3B0);
-		}
 		static ::RPG::Client::RoleTrialUtils___c** StaticGet___9()
 		{
-			return (::RPG::Client::RoleTrialUtils___c**)Il2CppClass::FromTypeDefinitionIndex(RoleTrialUtils___c_TypeDefinitionIndex)->GetStaticField(0x2F3B8);
+			return (::RPG::Client::RoleTrialUtils___c**)Il2CppClass::FromTypeDefinitionIndex(RoleTrialUtils___c_TypeDefinitionIndex)->GetStaticField(0x1BB40);
+		}
+		static ::System::Comparison_1<::RPG::GameCore::AvatarDemoModuleConfigRow*>** StaticGet___9__0_0()
+		{
+			return (::System::Comparison_1<::RPG::GameCore::AvatarDemoModuleConfigRow*>**)Il2CppClass::FromTypeDefinitionIndex(RoleTrialUtils___c_TypeDefinitionIndex)->GetStaticField(0x1BB48);
 		}
 
 		static ::System::Void _cctor()

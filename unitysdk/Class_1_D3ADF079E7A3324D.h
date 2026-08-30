@@ -6,18 +6,18 @@
 
 class Class_1_B4CDE3278E4B50C2;
 
-#define CLASS_1_D3ADF079E7A3324D__CTOR_1_OFFSET UNITYSDK_OFFSET(0xBA0F620)
-#define CLASS_1_D3ADF079E7A3324D__CTOR_2_OFFSET UNITYSDK_OFFSET(0xBA0F630)
-#define CLASS_1_D3ADF079E7A3324D__CTOR_OFFSET UNITYSDK_OFFSET(0xBA0F610)
+#define CLASS_1_D3ADF079E7A3324D__CTOR_1_OFFSET UNITYSDK_OFFSET(0xC42FE90)
+#define CLASS_1_D3ADF079E7A3324D__CTOR_2_OFFSET UNITYSDK_OFFSET(0xC42FEA0)
+#define CLASS_1_D3ADF079E7A3324D__CTOR_OFFSET UNITYSDK_OFFSET(0xC42FE80)
 
-inline static constexpr unsigned int Class_1_D3ADF079E7A3324D_TypeDefinitionIndex = 68000;
+inline static constexpr unsigned int Class_1_D3ADF079E7A3324D_TypeDefinitionIndex = 71173;
 
 class Class_1_D3ADF079E7A3324D : public ::System::Object
 {
 public:
-	::Class_1_B4CDE3278E4B50C2* Field_1_0; // 0x10
-	::UnityEngine::Vector2 Field_1_1; // 0x18
-	::RPG::Client::ActionBarEventAction Field_1_2; // 0x20
+	::Class_1_B4CDE3278E4B50C2* DEKMFELPCBO; // 0x10
+	::RPG::Client::ActionBarEventAction ENGGCENAFPM; // 0x18
+	::UnityEngine::Vector2 PECPBEOHOJC; // 0x1C
 
 	::System::Void _ctor()
 	{

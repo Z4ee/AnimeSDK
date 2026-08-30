@@ -11,26 +11,26 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_2579FB4605A70564_METHOD_1_10DB45458716A26C_OFFSET UNITYSDK_OFFSET(0x149AA5D0)
-#define CLASS_1_2579FB4605A70564_METHOD_1_1C82B039E54ECF07_OFFSET UNITYSDK_OFFSET(0x149AA010)
-#define CLASS_1_2579FB4605A70564_METHOD_1_4A21111363FD2A52_OFFSET UNITYSDK_OFFSET(0x149AA7C0)
-#define CLASS_1_2579FB4605A70564_METHOD_1_5677B3C4D9FDEB86_OFFSET UNITYSDK_OFFSET(0x149A9F70)
-#define CLASS_1_2579FB4605A70564_METHOD_1_793B1016BDC8E72B_OFFSET UNITYSDK_OFFSET(0x149AA100)
-#define CLASS_1_2579FB4605A70564_METHOD_1_95A267D56BC01B4E_OFFSET UNITYSDK_OFFSET(0x149AA520)
-#define CLASS_1_2579FB4605A70564_METHOD_1_B4B010DEA6CE98E6_OFFSET UNITYSDK_OFFSET(0x149A9B70)
-#define CLASS_1_2579FB4605A70564_METHOD_1_E7EF6BC52B28648C_OFFSET UNITYSDK_OFFSET(0x149AA6D0)
-#define CLASS_1_2579FB4605A70564_METHOD_1_F76634D7CF93A6C6_OFFSET UNITYSDK_OFFSET(0x149AA950)
-#define CLASS_1_2579FB4605A70564__CTOR_OFFSET UNITYSDK_OFFSET(0x149AAA50)
+#define CLASS_1_2579FB4605A70564_METHOD_1_10DB45458716A26C_OFFSET UNITYSDK_OFFSET(0x1583A490)
+#define CLASS_1_2579FB4605A70564_METHOD_1_1C82B039E54ECF07_OFFSET UNITYSDK_OFFSET(0x15839ED0)
+#define CLASS_1_2579FB4605A70564_METHOD_1_4A21111363FD2A52_OFFSET UNITYSDK_OFFSET(0x1583A680)
+#define CLASS_1_2579FB4605A70564_METHOD_1_5677B3C4D9FDEB86_OFFSET UNITYSDK_OFFSET(0x15839E30)
+#define CLASS_1_2579FB4605A70564_METHOD_1_793B1016BDC8E72B_OFFSET UNITYSDK_OFFSET(0x15839FC0)
+#define CLASS_1_2579FB4605A70564_METHOD_1_95A267D56BC01B4E_OFFSET UNITYSDK_OFFSET(0x1583A3E0)
+#define CLASS_1_2579FB4605A70564_METHOD_1_95DC66B1D26C06DD_OFFSET UNITYSDK_OFFSET(0x1583A810)
+#define CLASS_1_2579FB4605A70564_METHOD_1_B4B010DEA6CE98E6_OFFSET UNITYSDK_OFFSET(0x15839A30)
+#define CLASS_1_2579FB4605A70564_METHOD_1_E7EF6BC52B28648C_OFFSET UNITYSDK_OFFSET(0x1583A590)
+#define CLASS_1_2579FB4605A70564__CTOR_OFFSET UNITYSDK_OFFSET(0x1583A8E0)
 
-inline static constexpr unsigned int Class_1_2579FB4605A70564_TypeDefinitionIndex = 53967;
+inline static constexpr unsigned int Class_1_2579FB4605A70564_TypeDefinitionIndex = 56688;
 
 class Class_1_2579FB4605A70564 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::TaskListTemplate*>* Field_1_0; // 0x10
-	::Il2CppArray<::RPG::GameCore::EntityColliderHeightCameraConfig*>* Field_1_1; // 0x18
-	::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::Class_3_07C3C4D2990C49EE*>*>* Field_1_2; // 0x20
-	::System::Collections::Generic::Dictionary_2<::RPG::GameCore::EntityColliderHeightCameraConfig*, ::System::Collections::Generic::List_1<::Class_3_07C3C4D2990C49EE*>*>* Field_1_3; // 0x28
+	::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::Class_3_07C3C4D2990C49EE*>*>* OEFCCNOANPG; // 0x10
+	::Il2CppArray<::RPG::GameCore::EntityColliderHeightCameraConfig*>* DMFJJCIDECA; // 0x18
+	::System::Collections::Generic::Dictionary_2<::RPG::GameCore::EntityColliderHeightCameraConfig*, ::System::Collections::Generic::List_1<::Class_3_07C3C4D2990C49EE*>*>* JJDFKGPAJOM; // 0x20
+	::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::TaskListTemplate*>* DFFCIHEFNGG; // 0x28
 
 	::System::Void _ctor()
 	{
@@ -67,9 +67,9 @@ public:
 		return ((::System::Void(*)(::PVOID, ::Il2CppArray<::RPG::GameCore::TaskListTemplate*>*, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_2579FB4605A70564_METHOD_1_4A21111363FD2A52_OFFSET))(this, a1, a2);
 	}
 
-	::System::Void Method_1_F76634D7CF93A6C6(::Il2CppArray<::RPG::GameCore::TaskListTemplate*>* a1)
+	::System::Void Method_1_95DC66B1D26C06DD(::Il2CppArray<::RPG::GameCore::TaskListTemplate*>* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::Il2CppArray<::RPG::GameCore::TaskListTemplate*>*))((::PBYTE)hIl2Cpp + CLASS_1_2579FB4605A70564_METHOD_1_F76634D7CF93A6C6_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::Il2CppArray<::RPG::GameCore::TaskListTemplate*>*))((::PBYTE)hIl2Cpp + CLASS_1_2579FB4605A70564_METHOD_1_95DC66B1D26C06DD_OFFSET))(this, a1);
 	}
 
 	::RPG::GameCore::EntityColliderHeightCameraConfig* Method_1_5677B3C4D9FDEB86(::System::Single a1)

@@ -6,26 +6,26 @@
 
 namespace System { class String; }
 
-#define SYSTEM_DIAGNOSTICS_TRACING_NAMEINFO_COMPARE_1_OFFSET UNITYSDK_OFFSET(0x1A0EB610)
-#define SYSTEM_DIAGNOSTICS_TRACING_NAMEINFO_COMPARE_2_OFFSET UNITYSDK_OFFSET(0x1A0EB510)
-#define SYSTEM_DIAGNOSTICS_TRACING_NAMEINFO_COMPARE_OFFSET UNITYSDK_OFFSET(0x1A0EB4E0)
-#define SYSTEM_DIAGNOSTICS_TRACING_NAMEINFO_RESERVEEVENTIDSBELOW_OFFSET UNITYSDK_OFFSET(0x1A0E2690)
-#define SYSTEM_DIAGNOSTICS_TRACING_NAMEINFO__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A0EB630)
-#define SYSTEM_DIAGNOSTICS_TRACING_NAMEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0EB3A0)
+#define SYSTEM_DIAGNOSTICS_TRACING_NAMEINFO_COMPARE_1_OFFSET UNITYSDK_OFFSET(0x1BCF2E10)
+#define SYSTEM_DIAGNOSTICS_TRACING_NAMEINFO_COMPARE_2_OFFSET UNITYSDK_OFFSET(0x1BCF2D10)
+#define SYSTEM_DIAGNOSTICS_TRACING_NAMEINFO_COMPARE_OFFSET UNITYSDK_OFFSET(0x1BCF2CE0)
+#define SYSTEM_DIAGNOSTICS_TRACING_NAMEINFO_RESERVEEVENTIDSBELOW_OFFSET UNITYSDK_OFFSET(0x1BCE9E30)
+#define SYSTEM_DIAGNOSTICS_TRACING_NAMEINFO__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BCF2E30)
+#define SYSTEM_DIAGNOSTICS_TRACING_NAMEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1BCF2BA0)
 
 namespace System::Diagnostics::Tracing
 {
-	inline static constexpr unsigned int NameInfo_TypeDefinitionIndex = 1600;
+	inline static constexpr unsigned int NameInfo_TypeDefinitionIndex = 1607;
 
 	class NameInfo : public ::System::Diagnostics::Tracing::ConcurrentSetItem_2<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Diagnostics::Tracing::EventTags>, ::System::Diagnostics::Tracing::NameInfo*>
 	{
 	public:
 		static ::System::Int32* StaticGet_lastIdentity()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(NameInfo_TypeDefinitionIndex)->GetStaticField(0x3580);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(NameInfo_TypeDefinitionIndex)->GetStaticField(0x3EB0);
 		}
-		::Il2CppArray<::System::Byte>* nameMetadata; // 0x10
-		::System::String* name; // 0x18
+		::System::String* name; // 0x10
+		::Il2CppArray<::System::Byte>* nameMetadata; // 0x18
 		::System::Diagnostics::Tracing::EventTags tags; // 0x20
 		::System::Int32 identity; // 0x24
 

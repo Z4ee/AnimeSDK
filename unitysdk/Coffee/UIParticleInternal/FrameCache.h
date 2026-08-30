@@ -8,19 +8,19 @@ namespace System { class String; }
 namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define COFFEE_UIPARTICLEINTERNAL_FRAMECACHE_CLEARALLCACHE_OFFSET UNITYSDK_OFFSET(0x157136A0)
-#define COFFEE_UIPARTICLEINTERNAL_FRAMECACHE__CCTOR_OFFSET UNITYSDK_OFFSET(0x157134A0)
+#define COFFEE_UIPARTICLEINTERNAL_FRAMECACHE_CLEARALLCACHE_OFFSET UNITYSDK_OFFSET(0x1649E430)
+#define COFFEE_UIPARTICLEINTERNAL_FRAMECACHE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1649E230)
 
 namespace Coffee::UIParticleInternal
 {
-	inline static constexpr unsigned int FrameCache_TypeDefinitionIndex = 42327;
+	inline static constexpr unsigned int FrameCache_TypeDefinitionIndex = 43938;
 
 	class FrameCache : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::Coffee::UIParticleInternal::FrameCache_IFrameCache*>** StaticGet_s_Caches()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::Coffee::UIParticleInternal::FrameCache_IFrameCache*>**)Il2CppClass::FromTypeDefinitionIndex(FrameCache_TypeDefinitionIndex)->GetStaticField(0x1180);
+			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::Coffee::UIParticleInternal::FrameCache_IFrameCache*>**)Il2CppClass::FromTypeDefinitionIndex(FrameCache_TypeDefinitionIndex)->GetStaticField(0x1340);
 		}
 
 		static ::System::Void _cctor()

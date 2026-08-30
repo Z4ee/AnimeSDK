@@ -5,19 +5,19 @@
 namespace RPG::Client { class BattleGamePhaseInitParams; }
 namespace RPG::Client::Promises { class Promise; }
 
-#define RPG_CLIENT_BATTLELINEUPGAMEPHASE___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBE7BE70)
-#define RPG_CLIENT_BATTLELINEUPGAMEPHASE___C__DISPLAYCLASS8_0___ENTERBATTLEWITHMAZEINFONEXTFRAME_B__0_OFFSET UNITYSDK_OFFSET(0xBE7BE80)
-#define RPG_CLIENT_BATTLELINEUPGAMEPHASE___C__DISPLAYCLASS8_0___ENTERBATTLEWITHMAZEINFONEXTFRAME_B__1_OFFSET UNITYSDK_OFFSET(0xBE7BEA0)
+#define RPG_CLIENT_BATTLELINEUPGAMEPHASE___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC91D400)
+#define RPG_CLIENT_BATTLELINEUPGAMEPHASE___C__DISPLAYCLASS8_0___ENTERBATTLEWITHMAZEINFONEXTFRAME_B__0_OFFSET UNITYSDK_OFFSET(0xC91D410)
+#define RPG_CLIENT_BATTLELINEUPGAMEPHASE___C__DISPLAYCLASS8_0___ENTERBATTLEWITHMAZEINFONEXTFRAME_B__1_OFFSET UNITYSDK_OFFSET(0xC91D430)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BattleLineupGamePhase___c__DisplayClass8_0_TypeDefinitionIndex = 58256;
+	inline static constexpr unsigned int BattleLineupGamePhase___c__DisplayClass8_0_TypeDefinitionIndex = 61083;
 
 	class BattleLineupGamePhase___c__DisplayClass8_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::Promises::Promise* preloadPromise; // 0x10
-		::RPG::Client::BattleGamePhaseInitParams* param; // 0x18
+		::RPG::Client::BattleGamePhaseInitParams* param; // 0x10
+		::RPG::Client::Promises::Promise* preloadPromise; // 0x18
 
 		::System::Void _ctor()
 		{

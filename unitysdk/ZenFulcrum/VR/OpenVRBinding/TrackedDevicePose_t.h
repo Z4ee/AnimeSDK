@@ -7,7 +7,7 @@
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int TrackedDevicePose_t_TypeDefinitionIndex = 37121;
+	inline static constexpr unsigned int TrackedDevicePose_t_TypeDefinitionIndex = 37980;
 
 	struct alignas(4) TrackedDevicePose_t
 	{

@@ -4,7 +4,7 @@
 
 namespace XLua::Cast
 {
-	inline static constexpr unsigned int Any_1_TypeDefinitionIndex = 48031;
+	inline static constexpr unsigned int Any_1_TypeDefinitionIndex = 50622;
 
 	template <typename T>
 	class Any_1 : public ::System::Object

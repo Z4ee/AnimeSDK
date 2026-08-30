@@ -8,12 +8,12 @@ namespace System::Collections::Generic { template <typename T> class LinkedList_
 namespace System::Runtime::CompilerServices { template <typename T1, typename T2> class ConditionalWeakTable_2; }
 namespace System::Runtime::CompilerServices { template <typename T1, typename T2> class ConditionalWeakTable_2_CreateValueCallback; }
 
-inline static constexpr unsigned int Class_1_7A66407CD5C66F37_TypeDefinitionIndex = 41402;
+inline static constexpr unsigned int Class_1_7A66407CD5C66F37_TypeDefinitionIndex = 42362;
 
 template <typename TKey, typename TValue>
 class Class_1_7A66407CD5C66F37 : public ::System::Object
 {
 public:
-	::System::Runtime::CompilerServices::ConditionalWeakTable_2<TKey, TValue>* Field_1_0; // 0x0
-	::System::Collections::Generic::LinkedList_1<::System::WeakReference_1<TKey>*>* Field_1_1; // 0x0
+	::System::Runtime::CompilerServices::ConditionalWeakTable_2<TKey, TValue>* GPICKMNAFNA; // 0x0
+	::System::Collections::Generic::LinkedList_1<::System::WeakReference_1<TKey>*>* CPGCODEGPEO; // 0x0
 };

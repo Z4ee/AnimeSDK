@@ -3,16 +3,16 @@
 #include "unitysdk/RPG/Client/LittleGame/FiveDim/PropMoveState.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_A4E44269CE779F8B_METHOD_1_AB06A1CAAF2FB12A_OFFSET UNITYSDK_OFFSET(0x1A717B10)
+#define CLASS_1_A4E44269CE779F8B_METHOD_1_AB06A1CAAF2FB12A_OFFSET UNITYSDK_OFFSET(0x1C327CD0)
 
-inline static constexpr unsigned int Class_1_A4E44269CE779F8B_TypeDefinitionIndex = 40972;
+inline static constexpr unsigned int Class_1_A4E44269CE779F8B_TypeDefinitionIndex = 41931;
 
 class Class_1_A4E44269CE779F8B : public ::System::Object
 {
 public:
-	// static const ::System::Single Field_1_0; // 0x0
-	// static const ::System::Single Field_1_1; // 0x0
-	// static const ::System::Single Field_1_2; // 0x0
+	// static const ::System::Single MOHGGKOIIFE; // 0x0
+	// static const ::System::Single AJKGNFKKIPP; // 0x0
+	// static const ::System::Single JLGGIEDFAGG; // 0x0
 
 	static ::System::Boolean Method_1_AB06A1CAAF2FB12A(::RPG::Client::LittleGame::FiveDim::PropMoveState a1)
 	{

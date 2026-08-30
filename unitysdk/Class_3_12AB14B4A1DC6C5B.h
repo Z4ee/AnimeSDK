@@ -5,25 +5,25 @@
 namespace System { class String; }
 namespace UnityEngine { class Animation; }
 
-#define CLASS_3_12AB14B4A1DC6C5B_METHOD_3_078D85152011B919_OFFSET UNITYSDK_OFFSET(0x14452B60)
-#define CLASS_3_12AB14B4A1DC6C5B_METHOD_3_848FDD59AB054F3D_OFFSET UNITYSDK_OFFSET(0x14452C40)
-#define CLASS_3_12AB14B4A1DC6C5B_METHOD_3_F07808AF19FA033A_OFFSET UNITYSDK_OFFSET(0x14452CD0)
-#define CLASS_3_12AB14B4A1DC6C5B__CCTOR_OFFSET UNITYSDK_OFFSET(0x14452DC0)
-#define CLASS_3_12AB14B4A1DC6C5B__CTOR_OFFSET UNITYSDK_OFFSET(0x14452D80)
-#define CLASS_3_12AB14B4A1DC6C5B__ONBIND_OFFSET UNITYSDK_OFFSET(0x14452B00)
+#define CLASS_3_12AB14B4A1DC6C5B_METHOD_3_078D85152011B919_OFFSET UNITYSDK_OFFSET(0x1527D0E0)
+#define CLASS_3_12AB14B4A1DC6C5B_METHOD_3_848FDD59AB054F3D_OFFSET UNITYSDK_OFFSET(0x1527D1C0)
+#define CLASS_3_12AB14B4A1DC6C5B_METHOD_3_F07808AF19FA033A_OFFSET UNITYSDK_OFFSET(0x1527D250)
+#define CLASS_3_12AB14B4A1DC6C5B__CCTOR_OFFSET UNITYSDK_OFFSET(0x1527D340)
+#define CLASS_3_12AB14B4A1DC6C5B__CTOR_OFFSET UNITYSDK_OFFSET(0x1527D300)
+#define CLASS_3_12AB14B4A1DC6C5B__ONBIND_OFFSET UNITYSDK_OFFSET(0x1527D080)
 
-inline static constexpr unsigned int Class_3_12AB14B4A1DC6C5B_TypeDefinitionIndex = 68602;
+inline static constexpr unsigned int Class_3_12AB14B4A1DC6C5B_TypeDefinitionIndex = 71800;
 
 class Class_3_12AB14B4A1DC6C5B : public ::Class_2_8D452416EAB7B077
 {
 public:
-	static ::System::String** StaticGet_Field_3_0()
+	static ::System::String** StaticGet_DJCBDJMACFH()
 	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_3_12AB14B4A1DC6C5B_TypeDefinitionIndex)->GetStaticField(0x31020);
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_3_12AB14B4A1DC6C5B_TypeDefinitionIndex)->GetStaticField(0x7310);
 	}
-	// static const ::System::String* Field_3_1; // 0x0
-	// static const ::System::String* Field_3_2; // 0x0
-	::UnityEngine::Animation* Field_3_3; // 0xD0
+	// static const ::System::String* IIFENECAOBG; // 0x0
+	// static const ::System::String* CGNGHKIIGCM; // 0x0
+	::UnityEngine::Animation* JPHOOFFIAAH; // 0xD0
 
 	::System::Void _ctor()
 	{

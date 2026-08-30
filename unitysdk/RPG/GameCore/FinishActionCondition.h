@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_FINISHACTIONCONDITION_METHOD_2_A463AA56A373C28A_OFFSET UNITYSDK_OFFSET(0x1B419280)
-#define RPG_GAMECORE_FINISHACTIONCONDITION__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4192C0)
+#define RPG_GAMECORE_FINISHACTIONCONDITION_METHOD_2_A463AA56A373C28A_OFFSET UNITYSDK_OFFSET(0x1D09AB90)
+#define RPG_GAMECORE_FINISHACTIONCONDITION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D09ABD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FinishActionCondition_TypeDefinitionIndex = 18265;
+	inline static constexpr unsigned int FinishActionCondition_TypeDefinitionIndex = 18789;
 
 	class FinishActionCondition : public ::RPG::GameCore::JsonConfig
 	{

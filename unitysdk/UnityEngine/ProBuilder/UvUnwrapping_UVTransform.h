@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_PROBUILDER_UVUNWRAPPING_UVTRANSFORM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3A1D700)
+#define UNITYENGINE_PROBUILDER_UVUNWRAPPING_UVTRANSFORM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3BAEF40)
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int UvUnwrapping_UVTransform_TypeDefinitionIndex = 41644;
+	inline static constexpr unsigned int UvUnwrapping_UVTransform_TypeDefinitionIndex = 43255;
 
 	struct alignas(4) UvUnwrapping_UVTransform
 	{

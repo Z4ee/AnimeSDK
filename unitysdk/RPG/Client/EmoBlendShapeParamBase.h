@@ -5,12 +5,12 @@
 namespace RPG::Client { class MonoEmoBlendShapesController; }
 namespace System { class String; }
 
-#define RPG_CLIENT_EMOBLENDSHAPEPARAMBASE_GET_BLENDSHAPENAMES_OFFSET UNITYSDK_OFFSET(0xC3C3B00)
-#define RPG_CLIENT_EMOBLENDSHAPEPARAMBASE__CTOR_OFFSET UNITYSDK_OFFSET(0xC3C3AF0)
+#define RPG_CLIENT_EMOBLENDSHAPEPARAMBASE_GET_BLENDSHAPENAMES_OFFSET UNITYSDK_OFFSET(0xCE95540)
+#define RPG_CLIENT_EMOBLENDSHAPEPARAMBASE__CTOR_OFFSET UNITYSDK_OFFSET(0xCE95530)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EmoBlendShapeParamBase_TypeDefinitionIndex = 67943;
+	inline static constexpr unsigned int EmoBlendShapeParamBase_TypeDefinitionIndex = 71116;
 
 	class EmoBlendShapeParamBase : public ::System::Object
 	{

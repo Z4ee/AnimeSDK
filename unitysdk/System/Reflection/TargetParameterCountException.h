@@ -6,13 +6,13 @@
 namespace System { class String; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_REFLECTION_TARGETPARAMETERCOUNTEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A19E250)
-#define SYSTEM_REFLECTION_TARGETPARAMETERCOUNTEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1A19E2C0)
-#define SYSTEM_REFLECTION_TARGETPARAMETERCOUNTEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1A19E1B0)
+#define SYSTEM_REFLECTION_TARGETPARAMETERCOUNTEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1BDA6070)
+#define SYSTEM_REFLECTION_TARGETPARAMETERCOUNTEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1BDA60E0)
+#define SYSTEM_REFLECTION_TARGETPARAMETERCOUNTEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDA5FD0)
 
 namespace System::Reflection
 {
-	inline static constexpr unsigned int TargetParameterCountException_TypeDefinitionIndex = 586;
+	inline static constexpr unsigned int TargetParameterCountException_TypeDefinitionIndex = 589;
 
 	class TargetParameterCountException : public ::System::ApplicationException
 	{

@@ -5,18 +5,18 @@
 class Class_1_849EE5CF9026AE9F;
 namespace UnityEngine::UI { class Image; }
 
-#define RPG_CLIENT_MONOIMAGEDANMUVIEW_AWAKE_OFFSET UNITYSDK_OFFSET(0xCCF2850)
-#define RPG_CLIENT_MONOIMAGEDANMUVIEW_INITIALIZE_OFFSET UNITYSDK_OFFSET(0xCCF2900)
-#define RPG_CLIENT_MONOIMAGEDANMUVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0xCCF29B0)
+#define RPG_CLIENT_MONOIMAGEDANMUVIEW_AWAKE_OFFSET UNITYSDK_OFFSET(0xD834E20)
+#define RPG_CLIENT_MONOIMAGEDANMUVIEW_INITIALIZE_OFFSET UNITYSDK_OFFSET(0xD834EF0)
+#define RPG_CLIENT_MONOIMAGEDANMUVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0xD834FA0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoImageDanmuView_TypeDefinitionIndex = 65877;
+	inline static constexpr unsigned int MonoImageDanmuView_TypeDefinitionIndex = 68916;
 
 	class MonoImageDanmuView : public ::RPG::Client::MonoDanmuViewBase
 	{
 	public:
-		::UnityEngine::UI::Image* Field_6_0; // 0x20
+		::UnityEngine::UI::Image* JLHDCKNHDJH; // 0x20
 
 		::System::Void _ctor()
 		{

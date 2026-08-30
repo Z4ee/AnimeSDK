@@ -6,16 +6,16 @@ class Class_1_2594562E2DDF2BC6;
 namespace RPG::Client { class CakeRaceStartGameData; }
 namespace RPG::Client::Promises { class IPromise; }
 
-#define CLASS_1_2594562E2DDF2BC6___C__DISPLAYCLASS25_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD364CD0)
-#define CLASS_1_2594562E2DDF2BC6___C__DISPLAYCLASS25_0__TRYSTARTGAME_B__0_OFFSET UNITYSDK_OFFSET(0xD365C70)
+#define CLASS_1_2594562E2DDF2BC6___C__DISPLAYCLASS25_0__CTOR_OFFSET UNITYSDK_OFFSET(0xE025310)
+#define CLASS_1_2594562E2DDF2BC6___C__DISPLAYCLASS25_0__TRYSTARTGAME_B__0_OFFSET UNITYSDK_OFFSET(0xE0262B0)
 
-inline static constexpr unsigned int Class_1_2594562E2DDF2BC6___c__DisplayClass25_0_TypeDefinitionIndex = 72540;
+inline static constexpr unsigned int Class_1_2594562E2DDF2BC6___c__DisplayClass25_0_TypeDefinitionIndex = 75976;
 
 class Class_1_2594562E2DDF2BC6___c__DisplayClass25_0 : public ::System::Object
 {
 public:
-	::Class_1_2594562E2DDF2BC6* __4__this; // 0x10
-	::RPG::Client::CakeRaceStartGameData* startGameData; // 0x18
+	::RPG::Client::CakeRaceStartGameData* startGameData; // 0x10
+	::Class_1_2594562E2DDF2BC6* __4__this; // 0x18
 
 	::System::Void _ctor()
 	{

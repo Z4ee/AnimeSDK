@@ -8,26 +8,26 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 namespace System::Linq::Expressions { class ExpressionVisitor; }
 namespace System::Reflection { class PropertyInfo; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INDEXEXPRESSION_ACCEPT_OFFSET UNITYSDK_OFFSET(0x1CA63A70)
-#define SYSTEM_LINQ_EXPRESSIONS_INDEXEXPRESSION_GETARGUMENT_OFFSET UNITYSDK_OFFSET(0x1CA2BB00)
-#define SYSTEM_LINQ_EXPRESSIONS_INDEXEXPRESSION_GET_ARGUMENTCOUNT_OFFSET UNITYSDK_OFFSET(0x1CA2B9D0)
-#define SYSTEM_LINQ_EXPRESSIONS_INDEXEXPRESSION_GET_INDEXER_OFFSET UNITYSDK_OFFSET(0x1CA63A60)
-#define SYSTEM_LINQ_EXPRESSIONS_INDEXEXPRESSION_GET_NODETYPE_OFFSET UNITYSDK_OFFSET(0x1CA638C0)
-#define SYSTEM_LINQ_EXPRESSIONS_INDEXEXPRESSION_GET_OBJECT_OFFSET UNITYSDK_OFFSET(0x1CA63A50)
-#define SYSTEM_LINQ_EXPRESSIONS_INDEXEXPRESSION_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1CA638D0)
-#define SYSTEM_LINQ_EXPRESSIONS_INDEXEXPRESSION_REWRITE_OFFSET UNITYSDK_OFFSET(0x1CA62810)
-#define SYSTEM_LINQ_EXPRESSIONS_INDEXEXPRESSION__CTOR_OFFSET UNITYSDK_OFFSET(0x1CA4AF90)
+#define SYSTEM_LINQ_EXPRESSIONS_INDEXEXPRESSION_ACCEPT_OFFSET UNITYSDK_OFFSET(0x1E70D410)
+#define SYSTEM_LINQ_EXPRESSIONS_INDEXEXPRESSION_GETARGUMENT_OFFSET UNITYSDK_OFFSET(0x1E6D5E00)
+#define SYSTEM_LINQ_EXPRESSIONS_INDEXEXPRESSION_GET_ARGUMENTCOUNT_OFFSET UNITYSDK_OFFSET(0x1E6D5CD0)
+#define SYSTEM_LINQ_EXPRESSIONS_INDEXEXPRESSION_GET_INDEXER_OFFSET UNITYSDK_OFFSET(0x1E70D400)
+#define SYSTEM_LINQ_EXPRESSIONS_INDEXEXPRESSION_GET_NODETYPE_OFFSET UNITYSDK_OFFSET(0x1E70D260)
+#define SYSTEM_LINQ_EXPRESSIONS_INDEXEXPRESSION_GET_OBJECT_OFFSET UNITYSDK_OFFSET(0x1E70D3F0)
+#define SYSTEM_LINQ_EXPRESSIONS_INDEXEXPRESSION_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1E70D270)
+#define SYSTEM_LINQ_EXPRESSIONS_INDEXEXPRESSION_REWRITE_OFFSET UNITYSDK_OFFSET(0x1E70C1B0)
+#define SYSTEM_LINQ_EXPRESSIONS_INDEXEXPRESSION__CTOR_OFFSET UNITYSDK_OFFSET(0x1E6F5020)
 
 namespace System::Linq::Expressions
 {
-	inline static constexpr unsigned int IndexExpression_TypeDefinitionIndex = 3216;
+	inline static constexpr unsigned int IndexExpression_TypeDefinitionIndex = 3224;
 
 	class IndexExpression : public ::System::Linq::Expressions::Expression
 	{
 	public:
-		::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>* _arguments; // 0x10
-		::System::Linq::Expressions::Expression* _Object_k__BackingField; // 0x18
-		::System::Reflection::PropertyInfo* _Indexer_k__BackingField; // 0x20
+		::System::Reflection::PropertyInfo* _Indexer_k__BackingField; // 0x10
+		::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>* _arguments; // 0x18
+		::System::Linq::Expressions::Expression* _Object_k__BackingField; // 0x20
 
 		::System::Void _ctor(::System::Linq::Expressions::Expression* a1, ::System::Reflection::PropertyInfo* a2, ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>* a3)
 		{

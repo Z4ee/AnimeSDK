@@ -5,7 +5,7 @@ namespace RPG::Client { class RogueTournPersonaRoomCardDeckInfo; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IRogueTournPersonaRoomCardDeckInfoProvider_TypeDefinitionIndex = 64312;
+	inline static constexpr unsigned int IRogueTournPersonaRoomCardDeckInfoProvider_TypeDefinitionIndex = 67307;
 
 	class IRogueTournPersonaRoomCardDeckInfoProvider
 	{

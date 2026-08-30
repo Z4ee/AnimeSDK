@@ -3,18 +3,18 @@
 #include "unitysdk/RPG/Client/Prop/CommandRobotPuzzleBlockType.h"
 #include "unitysdk/System/ValueType.h"
 
-#define STRUCT_2_9FD29C41345F95C8_METHOD_2_1D4018D4200358D0_OFFSET UNITYSDK_OFFSET(0x151640)
-#define STRUCT_2_9FD29C41345F95C8_METHOD_2_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0x1516B0)
-#define STRUCT_2_9FD29C41345F95C8_METHOD_2_B5DDF0ABC5A6834C_OFFSET UNITYSDK_OFFSET(0x151630)
+#define STRUCT_2_9FD29C41345F95C8_METHOD_2_1D4018D4200358D0_OFFSET UNITYSDK_OFFSET(0x157F40)
+#define STRUCT_2_9FD29C41345F95C8_METHOD_2_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0x157FB0)
+#define STRUCT_2_9FD29C41345F95C8_METHOD_2_B5DDF0ABC5A6834C_OFFSET UNITYSDK_OFFSET(0x157F30)
 
-inline static constexpr unsigned int Struct_2_9FD29C41345F95C8_TypeDefinitionIndex = 74558;
+inline static constexpr unsigned int Struct_2_9FD29C41345F95C8_TypeDefinitionIndex = 78043;
 
 struct alignas(4) Struct_2_9FD29C41345F95C8
 {
-	::RPG::Client::Prop::CommandRobotPuzzleBlockType Field_2_0; // 0x10
-	::System::Int32 Field_2_1; // 0x14
-	::System::Boolean Field_2_2; // 0x18
-	::System::Int32 Field_2_3; // 0x1C
+	::RPG::Client::Prop::CommandRobotPuzzleBlockType CFGEJHAOKED; // 0x10
+	::System::Int32 CGDPPGNJFGC; // 0x14
+	::System::Boolean KPJGDHLENIP; // 0x18
+	::System::Int32 CMFODKOCKEF; // 0x1C
 
 	::System::Void Method_2_B5DDF0ABC5A6834C(::RPG::Client::Prop::CommandRobotPuzzleBlockType a1, ::System::Int32 a2)
 	{

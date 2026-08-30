@@ -5,12 +5,12 @@
 
 namespace RPG::Client::ActivityIdleLive { class IdleLiveAvatarData; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEAVATARINFO___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBB6F2C0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEAVATARINFO___C__DISPLAYCLASS10_0__GETAVATARSBYPOSTYPE_B__0_OFFSET UNITYSDK_OFFSET(0xBB6F6A0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEAVATARINFO___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC58D520)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEAVATARINFO___C__DISPLAYCLASS10_0__GETAVATARSBYPOSTYPE_B__0_OFFSET UNITYSDK_OFFSET(0xC58D920)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveAvatarInfo___c__DisplayClass10_0_TypeDefinitionIndex = 71472;
+	inline static constexpr unsigned int IdleLiveAvatarInfo___c__DisplayClass10_0_TypeDefinitionIndex = 74778;
 
 	class IdleLiveAvatarInfo___c__DisplayClass10_0 : public ::System::Object
 	{

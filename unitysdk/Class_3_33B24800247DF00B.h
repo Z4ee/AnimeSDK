@@ -6,15 +6,15 @@ namespace RPG::GameCore { class PropComponent; }
 namespace RPG::GameCore { class PropDestructReset; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_33B24800247DF00B_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x155307C0)
-#define CLASS_3_33B24800247DF00B__CTOR_OFFSET UNITYSDK_OFFSET(0x15530790)
+#define CLASS_3_33B24800247DF00B_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB535E00)
+#define CLASS_3_33B24800247DF00B__CTOR_OFFSET UNITYSDK_OFFSET(0xB535DD0)
 
-inline static constexpr unsigned int Class_3_33B24800247DF00B_TypeDefinitionIndex = 50748;
+inline static constexpr unsigned int Class_3_33B24800247DF00B_TypeDefinitionIndex = 53430;
 
 class Class_3_33B24800247DF00B : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::PropDestructReset*>
 {
 public:
-	::RPG::GameCore::PropComponent* Field_3_0; // 0x28
+	::RPG::GameCore::PropComponent* PMIBEAIGLAO; // 0x28
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::PropDestructReset* a2)
 	{

@@ -3,7 +3,7 @@
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int Clipping_OutCode_TypeDefinitionIndex = 41541;
+	inline static constexpr unsigned int Clipping_OutCode_TypeDefinitionIndex = 43152;
 
 	enum class Clipping_OutCode : ::System::Int32
 	{

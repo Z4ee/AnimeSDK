@@ -4,22 +4,22 @@
 
 namespace System { class Action; }
 
-#define CLASS_1_30AB994DC28D8209___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x146C83E0)
-#define CLASS_1_30AB994DC28D8209___C__CTOR_OFFSET UNITYSDK_OFFSET(0x146C8410)
-#define CLASS_1_30AB994DC28D8209___C___CLOSESCREENTRANSFER_B__23_0_OFFSET UNITYSDK_OFFSET(0x146C8420)
+#define CLASS_1_30AB994DC28D8209___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15533CB0)
+#define CLASS_1_30AB994DC28D8209___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15533CE0)
+#define CLASS_1_30AB994DC28D8209___C___CLOSESCREENTRANSFER_B__24_0_OFFSET UNITYSDK_OFFSET(0x15533CF0)
 
-inline static constexpr unsigned int Class_1_30AB994DC28D8209___c_TypeDefinitionIndex = 63195;
+inline static constexpr unsigned int Class_1_30AB994DC28D8209___c_TypeDefinitionIndex = 66180;
 
 class Class_1_30AB994DC28D8209___c : public ::System::Object
 {
 public:
+	static ::System::Action** StaticGet___9__24_0()
+	{
+		return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(Class_1_30AB994DC28D8209___c_TypeDefinitionIndex)->GetStaticField(0x4580);
+	}
 	static ::Class_1_30AB994DC28D8209___c** StaticGet___9()
 	{
-		return (::Class_1_30AB994DC28D8209___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_30AB994DC28D8209___c_TypeDefinitionIndex)->GetStaticField(0x4DC70);
-	}
-	static ::System::Action** StaticGet___9__23_0()
-	{
-		return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(Class_1_30AB994DC28D8209___c_TypeDefinitionIndex)->GetStaticField(0x4DC78);
+		return (::Class_1_30AB994DC28D8209___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_30AB994DC28D8209___c_TypeDefinitionIndex)->GetStaticField(0x4588);
 	}
 
 	static ::System::Void _cctor()
@@ -32,8 +32,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_30AB994DC28D8209___C__CTOR_OFFSET))(this);
 	}
 
-	::System::Void __CloseScreenTransfer_b__23_0()
+	::System::Void __CloseScreenTransfer_b__24_0()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_30AB994DC28D8209___C___CLOSESCREENTRANSFER_B__23_0_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_30AB994DC28D8209___C___CLOSESCREENTRANSFER_B__24_0_OFFSET))(this);
 	}
 };

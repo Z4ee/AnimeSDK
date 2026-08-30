@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class MiConditionConfigBase; }
 namespace RPG::GameCore { class TextDynamicParamBase; }
 
-#define RPG_GAMECORE_FATETEXTDYNAMICPARAMCONFIG_METHOD_2_348EAD798C0464DE_OFFSET UNITYSDK_OFFSET(0x1B40F620)
-#define RPG_GAMECORE_FATETEXTDYNAMICPARAMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B40F7A0)
+#define RPG_GAMECORE_FATETEXTDYNAMICPARAMCONFIG_METHOD_2_348EAD798C0464DE_OFFSET UNITYSDK_OFFSET(0x1D08CEC0)
+#define RPG_GAMECORE_FATETEXTDYNAMICPARAMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0910A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FateTextDynamicParamConfig_TypeDefinitionIndex = 15993;
+	inline static constexpr unsigned int FateTextDynamicParamConfig_TypeDefinitionIndex = 16469;
 
 	class FateTextDynamicParamConfig : public ::RPG::GameCore::JsonConfig
 	{

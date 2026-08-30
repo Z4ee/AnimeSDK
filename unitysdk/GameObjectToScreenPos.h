@@ -5,18 +5,18 @@
 
 namespace UnityEngine { class Transform; }
 
-#define GAMEOBJECTTOSCREENPOS_START_OFFSET UNITYSDK_OFFSET(0x149DDA30)
-#define GAMEOBJECTTOSCREENPOS_UPDATE_OFFSET UNITYSDK_OFFSET(0x149DDA80)
-#define GAMEOBJECTTOSCREENPOS__CTOR_OFFSET UNITYSDK_OFFSET(0x149DE110)
+#define GAMEOBJECTTOSCREENPOS_START_OFFSET UNITYSDK_OFFSET(0x1586FD80)
+#define GAMEOBJECTTOSCREENPOS_UPDATE_OFFSET UNITYSDK_OFFSET(0x1586FDD0)
+#define GAMEOBJECTTOSCREENPOS__CTOR_OFFSET UNITYSDK_OFFSET(0x15870460)
 
-inline static constexpr unsigned int GameObjectToScreenPos_TypeDefinitionIndex = 45486;
+inline static constexpr unsigned int GameObjectToScreenPos_TypeDefinitionIndex = 47736;
 
 class GameObjectToScreenPos : public ::UnityEngine::MonoBehaviour
 {
 public:
 	::UnityEngine::Vector3 posSS; // 0x18
 	::UnityEngine::Vector3 OffsetRotation; // 0x24
-	::UnityEngine::Transform* Field_5_2; // 0x30
+	::UnityEngine::Transform* PDJGEDNLBKJ; // 0x30
 
 	::System::Void _ctor()
 	{

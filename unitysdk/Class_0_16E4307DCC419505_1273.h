@@ -1,11 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/FixPoint.h"
 
-namespace RPG::Client { class QuestData; }
-namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
-namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
+class Class_1_E87E20A464EBF92F;
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_1273_TypeDefinitionIndex = 75773;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_1273_TypeDefinitionIndex = 76890;
 
 class Class_0_16E4307DCC419505_1273
 {

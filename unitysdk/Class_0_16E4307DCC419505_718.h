@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/TextID.h"
 
-namespace RPG::Client { class AssistantTipsData; }
-namespace System::Collections::Generic { template <typename T> class List_1; }
+class Class_0_16E4307DCC419505_717;
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_718_TypeDefinitionIndex = 59685;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_718_TypeDefinitionIndex = 61775;
 
 class Class_0_16E4307DCC419505_718
 {

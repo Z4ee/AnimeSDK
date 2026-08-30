@@ -4,11 +4,11 @@
 
 namespace UnityEngine::Timeline { class TrackAsset; }
 
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_BASEPLAYABLEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xDCFAFF0)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_BASEPLAYABLEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xE8C4AE0)
 
 namespace RPGTools::Timeline::PostProcessing
 {
-	inline static constexpr unsigned int BasePlayableBehaviour_TypeDefinitionIndex = 46740;
+	inline static constexpr unsigned int BasePlayableBehaviour_TypeDefinitionIndex = 48986;
 
 	class BasePlayableBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{

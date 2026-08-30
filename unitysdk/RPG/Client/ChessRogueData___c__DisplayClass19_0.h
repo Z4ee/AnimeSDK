@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class ChessRogueModifierDataItem; }
 
-#define RPG_CLIENT_CHESSROGUEDATA___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC0ECAC0)
-#define RPG_CLIENT_CHESSROGUEDATA___C__DISPLAYCLASS19_0___TRYREMOVEROGUEMODIFIER_B__0_OFFSET UNITYSDK_OFFSET(0xC0ECAF0)
+#define RPG_CLIENT_CHESSROGUEDATA___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCBA2A70)
+#define RPG_CLIENT_CHESSROGUEDATA___C__DISPLAYCLASS19_0___TRYREMOVEROGUEMODIFIER_B__0_OFFSET UNITYSDK_OFFSET(0xCBA2AA0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChessRogueData___c__DisplayClass19_0_TypeDefinitionIndex = 63937;
+	inline static constexpr unsigned int ChessRogueData___c__DisplayClass19_0_TypeDefinitionIndex = 66928;
 
 	class ChessRogueData___c__DisplayClass19_0 : public ::System::Object
 	{

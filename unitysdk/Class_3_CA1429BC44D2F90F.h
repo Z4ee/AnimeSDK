@@ -6,19 +6,19 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define CLASS_3_CA1429BC44D2F90F_METHOD_3_400CD15A8456AED9_OFFSET UNITYSDK_OFFSET(0x1AC5A650)
-#define CLASS_3_CA1429BC44D2F90F_METHOD_3_7F22A781A9156478_OFFSET UNITYSDK_OFFSET(0x1AC5A690)
-#define CLASS_3_CA1429BC44D2F90F__CTOR_OFFSET UNITYSDK_OFFSET(0x1AC5A680)
+#define CLASS_3_CA1429BC44D2F90F_METHOD_3_400CD15A8456AED9_OFFSET UNITYSDK_OFFSET(0x1C8A1600)
+#define CLASS_3_CA1429BC44D2F90F_METHOD_3_7F22A781A9156478_OFFSET UNITYSDK_OFFSET(0x1C8A1640)
+#define CLASS_3_CA1429BC44D2F90F__CTOR_OFFSET UNITYSDK_OFFSET(0x1C8A1630)
 
-inline static constexpr unsigned int Class_3_CA1429BC44D2F90F_TypeDefinitionIndex = 21893;
+inline static constexpr unsigned int Class_3_CA1429BC44D2F90F_TypeDefinitionIndex = 22457;
 
 class Class_3_CA1429BC44D2F90F : public ::RPG::GameCore::TaskConfig
 {
 public:
-	::RPG::GameCore::TargetEvaluator* Field_3_0; // 0x18
-	::System::String* Field_3_1; // 0x20
-	::System::String* Field_3_2; // 0x28
-	::System::String* Field_3_3; // 0x30
+	::System::String* OFINIELALIP; // 0x18
+	::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x20
+	::System::String* FMKKJGKFHHF; // 0x28
+	::System::String* FOGOFODLIFL; // 0x30
 
 	::System::Void _ctor()
 	{

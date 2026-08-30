@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/InControl/NativeDeviceProfiles/Xbox360DriverMacNativeProfile.h"
 
-#define INCONTROL_NATIVEDEVICEPROFILES_MAYFLASHMAGICNSMACNATIVEPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x19999280)
-#define INCONTROL_NATIVEDEVICEPROFILES_MAYFLASHMAGICNSMACNATIVEPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x19999300)
+#define INCONTROL_NATIVEDEVICEPROFILES_MAYFLASHMAGICNSMACNATIVEPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x1B528080)
+#define INCONTROL_NATIVEDEVICEPROFILES_MAYFLASHMAGICNSMACNATIVEPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B528100)
 
 namespace InControl::NativeDeviceProfiles
 {
-	inline static constexpr unsigned int MayflashMagicNSMacNativeProfile_TypeDefinitionIndex = 39036;
+	inline static constexpr unsigned int MayflashMagicNSMacNativeProfile_TypeDefinitionIndex = 39895;
 
 	class MayflashMagicNSMacNativeProfile : public ::InControl::NativeDeviceProfiles::Xbox360DriverMacNativeProfile
 	{

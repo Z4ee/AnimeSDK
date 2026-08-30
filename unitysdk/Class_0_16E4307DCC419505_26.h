@@ -12,7 +12,7 @@ class Class_1_DA07E1104B209103;
 class Class_2_28E21688BAEA91E6;
 namespace System { class String; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_26_TypeDefinitionIndex = 34733;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_26_TypeDefinitionIndex = 35594;
 
 class Class_0_16E4307DCC419505_26
 {

@@ -7,26 +7,26 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_AETHERDIVIDEPASSIVESKILLROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B189CF0)
-#define RPG_GAMECORE_AETHERDIVIDEPASSIVESKILLROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B18A510)
+#define RPG_GAMECORE_AETHERDIVIDEPASSIVESKILLROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CE010D0)
+#define RPG_GAMECORE_AETHERDIVIDEPASSIVESKILLROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE01930)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AetherDividePassiveSkillRow_TypeDefinitionIndex = 10553;
+	inline static constexpr unsigned int AetherDividePassiveSkillRow_TypeDefinitionIndex = 10894;
 
 	class AetherDividePassiveSkillRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* SimpleExtraEffectIDList; // 0x10
-		::Il2CppArray<::RPG::GameCore::FixPoint>* SimpleParamList; // 0x18
-		::System::String* AbilityName; // 0x20
-		::Il2CppArray<::RPG::GameCore::FixPoint>* ParamList; // 0x28
-		::Il2CppArray<::System::UInt32>* ExtraEffectIDList; // 0x30
-		::System::String* ItemDescription; // 0x38
-		::System::String* PassiveSkillDescription; // 0x40
-		::System::String* PassiveSkillName; // 0x48
-		::RPG::GameCore::AetherPassiveSkillType PassiveSkillType; // 0x50
-		::System::UInt32 Rarity; // 0x54
+		::Il2CppArray<::RPG::GameCore::FixPoint>* SimpleParamList; // 0x10
+		::Il2CppArray<::System::UInt32>* ExtraEffectIDList; // 0x18
+		::System::String* ItemDescription; // 0x20
+		::System::String* AbilityName; // 0x28
+		::System::String* PassiveSkillDescription; // 0x30
+		::System::String* PassiveSkillName; // 0x38
+		::Il2CppArray<::System::UInt32>* SimpleExtraEffectIDList; // 0x40
+		::Il2CppArray<::RPG::GameCore::FixPoint>* ParamList; // 0x48
+		::System::UInt32 Rarity; // 0x50
+		::RPG::GameCore::AetherPassiveSkillType PassiveSkillType; // 0x54
 		::System::UInt32 ItemID; // 0x58
 
 		::System::Void _ctor()

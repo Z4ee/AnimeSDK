@@ -8,11 +8,11 @@
 namespace System { class String; }
 namespace UnityEngine { class Shader; }
 
-#define RPG_CLIENT_PROPERTYOVERRIDEVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0xD26DD70)
+#define RPG_CLIENT_PROPERTYOVERRIDEVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0xDD72600)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PropertyOverrideValue_TypeDefinitionIndex = 67821;
+	inline static constexpr unsigned int PropertyOverrideValue_TypeDefinitionIndex = 70989;
 
 	class PropertyOverrideValue : public ::System::Object
 	{

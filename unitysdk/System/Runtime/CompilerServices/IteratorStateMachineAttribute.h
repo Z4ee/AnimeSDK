@@ -4,11 +4,11 @@
 
 namespace System { class Type; }
 
-#define SYSTEM_RUNTIME_COMPILERSERVICES_ITERATORSTATEMACHINEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1B3B70)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_ITERATORSTATEMACHINEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDBBA70)
 
 namespace System::Runtime::CompilerServices
 {
-	inline static constexpr unsigned int IteratorStateMachineAttribute_TypeDefinitionIndex = 1358;
+	inline static constexpr unsigned int IteratorStateMachineAttribute_TypeDefinitionIndex = 1365;
 
 	class IteratorStateMachineAttribute : public ::System::Runtime::CompilerServices::StateMachineAttribute
 	{

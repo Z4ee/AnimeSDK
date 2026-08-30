@@ -4,7 +4,7 @@
 
 namespace System::Buffers
 {
-	inline static constexpr unsigned int IMemoryOwner_1_TypeDefinitionIndex = 4976;
+	inline static constexpr unsigned int IMemoryOwner_1_TypeDefinitionIndex = 4988;
 
 	template <typename T>
 	class IMemoryOwner_1

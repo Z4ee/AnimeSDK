@@ -4,11 +4,11 @@
 
 namespace MiHoYo::SDK { class MiHoYoSDKUserDataModel; }
 
-#define MIHOYO_SDK_MIHOYOSDKACCOUNTINFOMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xAADF8E0)
+#define MIHOYO_SDK_MIHOYOSDKACCOUNTINFOMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xB220230)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MiHoYoSDKAccountInfoModel_TypeDefinitionIndex = 44607;
+	inline static constexpr unsigned int MiHoYoSDKAccountInfoModel_TypeDefinitionIndex = 46793;
 
 	class MiHoYoSDKAccountInfoModel : public ::System::Object
 	{

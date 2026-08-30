@@ -6,16 +6,16 @@ class Class_3_07C3C4D2990C49EE;
 namespace RPG::GameCore { class RtCreateTrigger; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_2C5AD437E9FDF62C_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1566C700)
-#define CLASS_3_2C5AD437E9FDF62C_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1566C7D0)
-#define CLASS_3_2C5AD437E9FDF62C__CTOR_OFFSET UNITYSDK_OFFSET(0x1566C660)
+#define CLASS_3_2C5AD437E9FDF62C_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB69C090)
+#define CLASS_3_2C5AD437E9FDF62C_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB69C160)
+#define CLASS_3_2C5AD437E9FDF62C__CTOR_OFFSET UNITYSDK_OFFSET(0xB69BFF0)
 
-inline static constexpr unsigned int Class_3_2C5AD437E9FDF62C_TypeDefinitionIndex = 51362;
+inline static constexpr unsigned int Class_3_2C5AD437E9FDF62C_TypeDefinitionIndex = 54046;
 
 class Class_3_2C5AD437E9FDF62C : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::RtCreateTrigger*>
 {
 public:
-	::Class_3_07C3C4D2990C49EE* Field_3_0; // 0x28
+	::Class_3_07C3C4D2990C49EE* OODBJDPKKKF; // 0x28
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::RtCreateTrigger* a2)
 	{

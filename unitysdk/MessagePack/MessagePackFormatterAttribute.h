@@ -5,18 +5,18 @@
 namespace System { class Object; }
 namespace System { class Type; }
 
-#define MESSAGEPACK_MESSAGEPACKFORMATTERATTRIBUTE_GET_ARGUMENTS_OFFSET UNITYSDK_OFFSET(0x19AD3700)
-#define MESSAGEPACK_MESSAGEPACKFORMATTERATTRIBUTE_GET_FORMATTERTYPE_OFFSET UNITYSDK_OFFSET(0x19AD36F0)
+#define MESSAGEPACK_MESSAGEPACKFORMATTERATTRIBUTE_GET_ARGUMENTS_OFFSET UNITYSDK_OFFSET(0x1B662550)
+#define MESSAGEPACK_MESSAGEPACKFORMATTERATTRIBUTE_GET_FORMATTERTYPE_OFFSET UNITYSDK_OFFSET(0x1B662540)
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int MessagePackFormatterAttribute_TypeDefinitionIndex = 6550;
+	inline static constexpr unsigned int MessagePackFormatterAttribute_TypeDefinitionIndex = 6162;
 
 	class MessagePackFormatterAttribute : public ::System::Attribute
 	{
 	public:
-		::Il2CppArray<::System::Object*>* _Arguments_k__BackingField; // 0x10
-		::System::Type* _FormatterType_k__BackingField; // 0x18
+		::System::Type* _FormatterType_k__BackingField; // 0x10
+		::Il2CppArray<::System::Object*>* _Arguments_k__BackingField; // 0x18
 
 		::System::Type* get_FormatterType()
 		{

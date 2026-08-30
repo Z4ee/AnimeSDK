@@ -3,7 +3,7 @@
 
 namespace System::Security
 {
-	inline static constexpr unsigned int PolicyLevelType_TypeDefinitionIndex = 940;
+	inline static constexpr unsigned int PolicyLevelType_TypeDefinitionIndex = 947;
 
 	enum class PolicyLevelType : ::System::Int32
 	{

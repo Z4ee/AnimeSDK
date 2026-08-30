@@ -5,18 +5,18 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/Unity/Collections/NativeArray_1.h"
 
-#define STRUCT_2_E4C0B765BB81CBBA_DISPOSE_OFFSET UNITYSDK_OFFSET(0x2D096B0)
-#define STRUCT_2_E4C0B765BB81CBBA_EXECUTE_OFFSET UNITYSDK_OFFSET(0x2D096C0)
-#define STRUCT_2_E4C0B765BB81CBBA_METHOD_2_86B7446F35DAA9F7_OFFSET UNITYSDK_OFFSET(0x2D096A0)
+#define STRUCT_2_E4C0B765BB81CBBA_DISPOSE_OFFSET UNITYSDK_OFFSET(0x2DF1B90)
+#define STRUCT_2_E4C0B765BB81CBBA_EXECUTE_OFFSET UNITYSDK_OFFSET(0x2DF1BA0)
+#define STRUCT_2_E4C0B765BB81CBBA_METHOD_2_86B7446F35DAA9F7_OFFSET UNITYSDK_OFFSET(0x2DF1B80)
 
-inline static constexpr unsigned int Struct_2_E4C0B765BB81CBBA_TypeDefinitionIndex = 67874;
+inline static constexpr unsigned int Struct_2_E4C0B765BB81CBBA_TypeDefinitionIndex = 71047;
 
 struct alignas(8) Struct_2_E4C0B765BB81CBBA
 {
-	// static const ::System::Int32 Field_2_0 = 0x10; // 0x0
-	::Unity::Collections::NativeArray_1<::Struct_2_984AA94FB23486F9_2> Field_2_1; // 0x10
-	::Unity::Collections::NativeArray_1<::Struct_2_5C05B865B0E3235A_2> Field_2_2; // 0x20
-	::System::Int32 Field_2_3; // 0x30
+	// static const ::System::Int32 IGCLEBENFLJ = 0x10; // 0x0
+	::Unity::Collections::NativeArray_1<::Struct_2_984AA94FB23486F9_2> CFKLAGBPLHC; // 0x10
+	::Unity::Collections::NativeArray_1<::Struct_2_5C05B865B0E3235A_2> NMLLPDBFLHN; // 0x20
+	::System::Int32 MHBLAKKMAFK; // 0x30
 
 	::System::Void Method_2_86B7446F35DAA9F7()
 	{

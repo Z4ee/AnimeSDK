@@ -4,7 +4,7 @@
 
 namespace CriWare::CriMana
 {
-	inline static constexpr unsigned int EventPoint_TypeDefinitionIndex = 38056;
+	inline static constexpr unsigned int EventPoint_TypeDefinitionIndex = 38915;
 
 	struct alignas(8) EventPoint
 	{

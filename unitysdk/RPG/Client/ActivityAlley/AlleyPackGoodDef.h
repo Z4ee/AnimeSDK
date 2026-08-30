@@ -6,18 +6,18 @@
 namespace RPG::GameCore { class AlleyPackGoodItemConfig; }
 namespace System { class String; }
 
-#define RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKGOODDEF__CTOR_OFFSET UNITYSDK_OFFSET(0xBAF1550)
+#define RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKGOODDEF__CTOR_OFFSET UNITYSDK_OFFSET(0xC4CB5C0)
 
 namespace RPG::Client::ActivityAlley
 {
-	inline static constexpr unsigned int AlleyPackGoodDef_TypeDefinitionIndex = 70706;
+	inline static constexpr unsigned int AlleyPackGoodDef_TypeDefinitionIndex = 74005;
 
 	class AlleyPackGoodDef : public ::System::Object
 	{
 	public:
-		::System::String* SettleAudioEvent; // 0x10
+		::System::String* RotateAudioEvent; // 0x10
 		::RPG::GameCore::AlleyPackGoodItemConfig* Config; // 0x18
-		::System::String* RotateAudioEvent; // 0x20
+		::System::String* SettleAudioEvent; // 0x20
 		::RPG::GameCore::AlleyPackGoodsTypeEnum Type; // 0x28
 		::System::UInt32 GoodID; // 0x2C
 

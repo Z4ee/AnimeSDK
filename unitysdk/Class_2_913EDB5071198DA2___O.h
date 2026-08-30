@@ -4,13 +4,13 @@
 
 namespace RPG::Client { class NotifyHandler; }
 
-inline static constexpr unsigned int Class_2_913EDB5071198DA2___O_TypeDefinitionIndex = 70810;
+inline static constexpr unsigned int Class_2_913EDB5071198DA2___O_TypeDefinitionIndex = 74109;
 
 class Class_2_913EDB5071198DA2___O : public ::System::Object
 {
 public:
 	static ::RPG::Client::NotifyHandler** StaticGet__0___StartGame()
 	{
-		return (::RPG::Client::NotifyHandler**)Il2CppClass::FromTypeDefinitionIndex(Class_2_913EDB5071198DA2___O_TypeDefinitionIndex)->GetStaticField(0x61A10);
+		return (::RPG::Client::NotifyHandler**)Il2CppClass::FromTypeDefinitionIndex(Class_2_913EDB5071198DA2___O_TypeDefinitionIndex)->GetStaticField(0x27B40);
 	}
 };

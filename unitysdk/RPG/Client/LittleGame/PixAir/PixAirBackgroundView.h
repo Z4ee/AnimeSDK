@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/LittleGame/PixAir/BasePixAirView.h"
 
-#define RPG_CLIENT_LITTLEGAME_PIXAIR_PIXAIRBACKGROUNDVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0xC9DF5A0)
+#define RPG_CLIENT_LITTLEGAME_PIXAIR_PIXAIRBACKGROUNDVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0xD541DE0)
 
 namespace RPG::Client::LittleGame::PixAir
 {
-	inline static constexpr unsigned int PixAirBackgroundView_TypeDefinitionIndex = 73368;
+	inline static constexpr unsigned int PixAirBackgroundView_TypeDefinitionIndex = 76847;
 
 	class PixAirBackgroundView : public ::RPG::Client::LittleGame::PixAir::BasePixAirView
 	{

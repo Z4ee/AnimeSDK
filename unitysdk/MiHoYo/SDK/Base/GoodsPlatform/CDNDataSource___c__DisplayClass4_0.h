@@ -7,12 +7,12 @@ namespace MiHoYo::SDK { class NetworkResponseModel; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 
-#define MIHOYO_SDK_BASE_GOODSPLATFORM_CDNDATASOURCE___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19BA5A30)
-#define MIHOYO_SDK_BASE_GOODSPLATFORM_CDNDATASOURCE___C__DISPLAYCLASS4_0__REQUESTALLSONYPRODUCTID_B__0_OFFSET UNITYSDK_OFFSET(0x19BA61F0)
+#define MIHOYO_SDK_BASE_GOODSPLATFORM_CDNDATASOURCE___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B735160)
+#define MIHOYO_SDK_BASE_GOODSPLATFORM_CDNDATASOURCE___C__DISPLAYCLASS4_0__REQUESTALLSONYPRODUCTID_B__0_OFFSET UNITYSDK_OFFSET(0x1B735920)
 
 namespace MiHoYo::SDK::Base::GoodsPlatform
 {
-	inline static constexpr unsigned int CDNDataSource___c__DisplayClass4_0_TypeDefinitionIndex = 8511;
+	inline static constexpr unsigned int CDNDataSource___c__DisplayClass4_0_TypeDefinitionIndex = 8778;
 
 	class CDNDataSource___c__DisplayClass4_0 : public ::System::Object
 	{

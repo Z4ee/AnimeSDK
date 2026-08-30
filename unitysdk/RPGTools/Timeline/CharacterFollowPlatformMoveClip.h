@@ -10,13 +10,13 @@ namespace RPGTools::Story { class EditorPerformanceCharacterConfig; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_CHARACTERFOLLOWPLATFORMMOVECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xDCAA2B0)
-#define RPGTOOLS_TIMELINE_CHARACTERFOLLOWPLATFORMMOVECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xDCAA2A0)
-#define RPGTOOLS_TIMELINE_CHARACTERFOLLOWPLATFORMMOVECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xDCAA440)
+#define RPGTOOLS_TIMELINE_CHARACTERFOLLOWPLATFORMMOVECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE82A770)
+#define RPGTOOLS_TIMELINE_CHARACTERFOLLOWPLATFORMMOVECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE82A760)
+#define RPGTOOLS_TIMELINE_CHARACTERFOLLOWPLATFORMMOVECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xE82A900)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int CharacterFollowPlatformMoveClip_TypeDefinitionIndex = 46181;
+	inline static constexpr unsigned int CharacterFollowPlatformMoveClip_TypeDefinitionIndex = 48415;
 
 	class CharacterFollowPlatformMoveClip : public ::UnityEngine::Playables::PlayableAsset
 	{

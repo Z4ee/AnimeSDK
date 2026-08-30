@@ -4,9 +4,9 @@
 
 namespace System::Reflection { class MethodInfo; }
 
-#define CLASS_1_1A878ADA0ED401B8_METHOD_1_935CA4347384090C_OFFSET UNITYSDK_OFFSET(0x152324F0)
+#define CLASS_1_1A878ADA0ED401B8_METHOD_1_935CA4347384090C_OFFSET UNITYSDK_OFFSET(0x1619D750)
 
-inline static constexpr unsigned int Class_1_1A878ADA0ED401B8_TypeDefinitionIndex = 57421;
+inline static constexpr unsigned int Class_1_1A878ADA0ED401B8_TypeDefinitionIndex = 60223;
 
 class Class_1_1A878ADA0ED401B8 : public ::System::Object
 {

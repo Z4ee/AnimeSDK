@@ -9,24 +9,24 @@ namespace RPG::Client { class FollowRotateGameObject; }
 namespace RPG::GameCore { class GameEntity; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_FOLLOWROTATE_AWAKEINEDITOR_OFFSET UNITYSDK_OFFSET(0xC625730)
-#define RPG_CLIENT_FOLLOWROTATE_ONENABLE_OFFSET UNITYSDK_OFFSET(0xC625770)
-#define RPG_CLIENT_FOLLOWROTATE_SETOWNER_OFFSET UNITYSDK_OFFSET(0xC625450)
-#define RPG_CLIENT_FOLLOWROTATE_UPDATE_OFFSET UNITYSDK_OFFSET(0xC625B20)
-#define RPG_CLIENT_FOLLOWROTATE__CTOR_OFFSET UNITYSDK_OFFSET(0xC6253E0)
+#define RPG_CLIENT_FOLLOWROTATE_AWAKEINEDITOR_OFFSET UNITYSDK_OFFSET(0xD0AA7C0)
+#define RPG_CLIENT_FOLLOWROTATE_ONENABLE_OFFSET UNITYSDK_OFFSET(0xD0AA800)
+#define RPG_CLIENT_FOLLOWROTATE_SETOWNER_OFFSET UNITYSDK_OFFSET(0xD0AA4E0)
+#define RPG_CLIENT_FOLLOWROTATE_UPDATE_OFFSET UNITYSDK_OFFSET(0xD0AABB0)
+#define RPG_CLIENT_FOLLOWROTATE__CTOR_OFFSET UNITYSDK_OFFSET(0xD0AA470)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FollowRotate_TypeDefinitionIndex = 65383;
+	inline static constexpr unsigned int FollowRotate_TypeDefinitionIndex = 68395;
 
 	class FollowRotate : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::System::Collections::Generic::List_1<::RPG::Client::FollowRotateGameObject*>* followRotateGameObjects; // 0x18
-		::UnityEngine::Vector3 Field_5_1; // 0x20
-		::UnityEngine::Quaternion Field_5_2; // 0x2C
-		::TransformVersionTracker* Field_5_3; // 0x40
-		::RPG::GameCore::GameEntity* Field_5_4; // 0x48
+		::UnityEngine::Vector3 OOBFMPOPELN; // 0x20
+		::UnityEngine::Quaternion NPAEFOFGGIE; // 0x2C
+		::TransformVersionTracker* IJGFNFFMDJI; // 0x40
+		::RPG::GameCore::GameEntity* CFKHNPGEAJA; // 0x48
 
 		::System::Void _ctor()
 		{

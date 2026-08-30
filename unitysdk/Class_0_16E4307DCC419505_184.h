@@ -4,7 +4,7 @@
 class Class_1_9E9E805FDD041FD9;
 namespace RPG::GameCore { class HoyoTagContainer; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_184_TypeDefinitionIndex = 39724;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_184_TypeDefinitionIndex = 40597;
 
 class Class_0_16E4307DCC419505_184
 {

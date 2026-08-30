@@ -1,23 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_2_A48F3719AA1CF200_38.h"
+#include "unitysdk/Class_2_A48F3719AA1CF200_39.h"
 #include "unitysdk/RPG/Client/TextID.h"
 
 namespace RPG::Client::LittleGame::CakeRace { class CakeRaceTalkBubbleMonoView; }
 
-#define CLASS_3_43F8BD128E804CC3_METHOD_3_DB549928E9497557_OFFSET UNITYSDK_OFFSET(0xD879170)
-#define CLASS_3_43F8BD128E804CC3_ONCLEAR_OFFSET UNITYSDK_OFFSET(0xD8793B0)
-#define CLASS_3_43F8BD128E804CC3_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0xD879210)
-#define CLASS_3_43F8BD128E804CC3__CTOR_OFFSET UNITYSDK_OFFSET(0xD879430)
+#define CLASS_3_43F8BD128E804CC3_METHOD_3_DB549928E9497557_OFFSET UNITYSDK_OFFSET(0xE5CD350)
+#define CLASS_3_43F8BD128E804CC3_ONCLEAR_OFFSET UNITYSDK_OFFSET(0xE5CD590)
+#define CLASS_3_43F8BD128E804CC3_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0xE5CD3F0)
+#define CLASS_3_43F8BD128E804CC3__CTOR_OFFSET UNITYSDK_OFFSET(0xE5CD610)
 
-inline static constexpr unsigned int Class_3_43F8BD128E804CC3_TypeDefinitionIndex = 74214;
+inline static constexpr unsigned int Class_3_43F8BD128E804CC3_TypeDefinitionIndex = 77698;
 
-class Class_3_43F8BD128E804CC3 : public ::Class_2_A48F3719AA1CF200_38
+class Class_3_43F8BD128E804CC3 : public ::Class_2_A48F3719AA1CF200_39
 {
 public:
-	::RPG::Client::LittleGame::CakeRace::CakeRaceTalkBubbleMonoView* Field_3_0; // 0x20
-	::System::Boolean Field_3_1; // 0x28
-	::RPG::Client::TextID Field_3_2; // 0x30
+	::RPG::Client::LittleGame::CakeRace::CakeRaceTalkBubbleMonoView* OFHPEPANKAL; // 0x20
+	::System::Boolean FMNEEONAMNO; // 0x28
+	::RPG::Client::TextID DIDPADKMCAL; // 0x30
 
 	::System::Void _ctor()
 	{

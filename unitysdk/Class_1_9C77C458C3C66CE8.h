@@ -7,38 +7,38 @@ namespace ScenenLightManager { class SceneLightManagerConfigDataNew; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_9C77C458C3C66CE8_METHOD_1_221B9BA554DC9DA0_OFFSET UNITYSDK_OFFSET(0x14767DD0)
-#define CLASS_1_9C77C458C3C66CE8_METHOD_1_24004AE9192CF7E7_OFFSET UNITYSDK_OFFSET(0x14767A90)
-#define CLASS_1_9C77C458C3C66CE8_METHOD_1_531C9B5445577CF3_OFFSET UNITYSDK_OFFSET(0x14767C30)
-#define CLASS_1_9C77C458C3C66CE8_METHOD_1_76AAE40741F092B2_OFFSET UNITYSDK_OFFSET(0x147679D0)
-#define CLASS_1_9C77C458C3C66CE8_METHOD_1_7E0102A7D81125F5_OFFSET UNITYSDK_OFFSET(0x14767F00)
-#define CLASS_1_9C77C458C3C66CE8_METHOD_1_AD7F2B248E93305B_OFFSET UNITYSDK_OFFSET(0x14767910)
-#define CLASS_1_9C77C458C3C66CE8_METHOD_1_B1936CE4DA97AA45_OFFSET UNITYSDK_OFFSET(0x14766F10)
-#define CLASS_1_9C77C458C3C66CE8_METHOD_1_B29205EE7F7B640C_OFFSET UNITYSDK_OFFSET(0x14767020)
-#define CLASS_1_9C77C458C3C66CE8_METHOD_1_CE18697B63E52504_OFFSET UNITYSDK_OFFSET(0x14766E90)
-#define CLASS_1_9C77C458C3C66CE8__CCTOR_OFFSET UNITYSDK_OFFSET(0x147681B0)
-#define CLASS_1_9C77C458C3C66CE8__CTOR_OFFSET UNITYSDK_OFFSET(0x147681A0)
+#define CLASS_1_9C77C458C3C66CE8_METHOD_1_221B9BA554DC9DA0_OFFSET UNITYSDK_OFFSET(0x155D82A0)
+#define CLASS_1_9C77C458C3C66CE8_METHOD_1_24004AE9192CF7E7_OFFSET UNITYSDK_OFFSET(0x155D7F60)
+#define CLASS_1_9C77C458C3C66CE8_METHOD_1_531C9B5445577CF3_OFFSET UNITYSDK_OFFSET(0x155D8100)
+#define CLASS_1_9C77C458C3C66CE8_METHOD_1_76AAE40741F092B2_OFFSET UNITYSDK_OFFSET(0x155D7EA0)
+#define CLASS_1_9C77C458C3C66CE8_METHOD_1_7E0102A7D81125F5_OFFSET UNITYSDK_OFFSET(0x155D83D0)
+#define CLASS_1_9C77C458C3C66CE8_METHOD_1_AD7F2B248E93305B_OFFSET UNITYSDK_OFFSET(0x155D7DE0)
+#define CLASS_1_9C77C458C3C66CE8_METHOD_1_B1936CE4DA97AA45_OFFSET UNITYSDK_OFFSET(0x155D7400)
+#define CLASS_1_9C77C458C3C66CE8_METHOD_1_B29205EE7F7B640C_OFFSET UNITYSDK_OFFSET(0x155D7510)
+#define CLASS_1_9C77C458C3C66CE8_METHOD_1_CE18697B63E52504_OFFSET UNITYSDK_OFFSET(0x155D7380)
+#define CLASS_1_9C77C458C3C66CE8__CCTOR_OFFSET UNITYSDK_OFFSET(0x155D8680)
+#define CLASS_1_9C77C458C3C66CE8__CTOR_OFFSET UNITYSDK_OFFSET(0x155D8670)
 
-inline static constexpr unsigned int Class_1_9C77C458C3C66CE8_TypeDefinitionIndex = 47238;
+inline static constexpr unsigned int Class_1_9C77C458C3C66CE8_TypeDefinitionIndex = 49518;
 
 class Class_1_9C77C458C3C66CE8 : public ::System::Object
 {
 public:
-	static ::ScenenLightManager::SceneLightManagerConfigDataNew** StaticGet_Field_1_0()
+	static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>** StaticGet_JCGBLEAGAAO()
 	{
-		return (::ScenenLightManager::SceneLightManagerConfigDataNew**)Il2CppClass::FromTypeDefinitionIndex(Class_1_9C77C458C3C66CE8_TypeDefinitionIndex)->GetStaticField(0x1620);
+		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_9C77C458C3C66CE8_TypeDefinitionIndex)->GetStaticField(0x129F0);
 	}
-	static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>** StaticGet_Field_1_1()
+	static ::System::Collections::Generic::Dictionary_2<::System::String*, ::SceneLightManagerConfigData_StageData*>** StaticGet_JLPNPPJIJPE()
 	{
-		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_9C77C458C3C66CE8_TypeDefinitionIndex)->GetStaticField(0x1628);
+		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::SceneLightManagerConfigData_StageData*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_9C77C458C3C66CE8_TypeDefinitionIndex)->GetStaticField(0x129F8);
 	}
-	static ::System::Collections::Generic::Dictionary_2<::System::String*, ::SceneLightManagerConfigData_StageData*>** StaticGet_Field_1_2()
+	static ::ScenenLightManager::SceneLightManagerConfigDataNew** StaticGet_EABKOHGCHFP()
 	{
-		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::SceneLightManagerConfigData_StageData*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_9C77C458C3C66CE8_TypeDefinitionIndex)->GetStaticField(0x1630);
+		return (::ScenenLightManager::SceneLightManagerConfigDataNew**)Il2CppClass::FromTypeDefinitionIndex(Class_1_9C77C458C3C66CE8_TypeDefinitionIndex)->GetStaticField(0x12A00);
 	}
-	static ::System::Boolean* StaticGet_Field_1_3()
+	static ::System::Boolean* StaticGet_CCAKCJBCOMJ()
 	{
-		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_9C77C458C3C66CE8_TypeDefinitionIndex)->GetStaticField(0xA10);
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_9C77C458C3C66CE8_TypeDefinitionIndex)->GetStaticField(0x7B30);
 	}
 
 	::System::Void _ctor()

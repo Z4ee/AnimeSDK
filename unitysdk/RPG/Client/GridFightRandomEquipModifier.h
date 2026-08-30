@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/GridFightGameModifier.h"
 
-class Class_1_1A05043E9AD1C5D3;
+class Class_1_B8E6D5AD8534D123;
 
-#define RPG_CLIENT_GRIDFIGHTRANDOMEQUIPMODIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0xC7C08C0)
+#define RPG_CLIENT_GRIDFIGHTRANDOMEQUIPMODIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0xD2F5130)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightRandomEquipModifier_TypeDefinitionIndex = 62079;
+	inline static constexpr unsigned int GridFightRandomEquipModifier_TypeDefinitionIndex = 65063;
 
 	class GridFightRandomEquipModifier : public ::RPG::Client::GridFightGameModifier
 	{
 	public:
-		::System::Void _ctor(::Class_1_1A05043E9AD1C5D3* a1)
+		::System::Void _ctor(::Class_1_B8E6D5AD8534D123* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_1A05043E9AD1C5D3*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTRANDOMEQUIPMODIFIER__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Class_1_B8E6D5AD8534D123*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTRANDOMEQUIPMODIFIER__CTOR_OFFSET))(this, a1);
 		}
 	};
 }

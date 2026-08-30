@@ -5,11 +5,11 @@
 
 namespace HoudiniEngineUnity { class Test_HAPI_Transform; }
 
-#define HOUDINIENGINEUNITY_TEST_HAPI_TRANSFORM_EXTENSIONS_TOTESTOBJECT_OFFSET UNITYSDK_OFFSET(0x199252F0)
+#define HOUDINIENGINEUNITY_TEST_HAPI_TRANSFORM_EXTENSIONS_TOTESTOBJECT_OFFSET UNITYSDK_OFFSET(0x1B4B0540)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int Test_HAPI_Transform_Extensions_TypeDefinitionIndex = 38545;
+	inline static constexpr unsigned int Test_HAPI_Transform_Extensions_TypeDefinitionIndex = 39404;
 
 	class Test_HAPI_Transform_Extensions : public ::System::Object
 	{

@@ -11,11 +11,11 @@ class LocalAmbientVolume_ExtraExportData;
 namespace System { class String; }
 namespace UnityEngine { class Gradient; }
 
-#define SCENENLIGHTMANAGER_LOCALAMBIENTVOLUME_EXPORTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xDD44EE0)
+#define SCENENLIGHTMANAGER_LOCALAMBIENTVOLUME_EXPORTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xE910390)
 
 namespace ScenenLightManager
 {
-	inline static constexpr unsigned int LocalAmbientVolume_ExportData_TypeDefinitionIndex = 47250;
+	inline static constexpr unsigned int LocalAmbientVolume_ExportData_TypeDefinitionIndex = 49530;
 
 	class LocalAmbientVolume_ExportData : public ::ScenenLightManager::BaseComponentExportData
 	{

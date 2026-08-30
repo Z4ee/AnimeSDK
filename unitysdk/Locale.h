@@ -4,9 +4,9 @@
 
 namespace System { class String; }
 
-#define LOCALE_GETTEXT_OFFSET UNITYSDK_OFFSET(0x19F11FA0)
+#define LOCALE_GETTEXT_OFFSET UNITYSDK_OFFSET(0x1BB16A80)
 
-inline static constexpr unsigned int Locale_TypeDefinitionIndex = 2249;
+inline static constexpr unsigned int Locale_TypeDefinitionIndex = 2256;
 
 class Locale : public ::System::Object
 {

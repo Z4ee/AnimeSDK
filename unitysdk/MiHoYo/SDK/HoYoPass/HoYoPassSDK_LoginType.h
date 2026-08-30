@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK::HoYoPass
 {
-	inline static constexpr unsigned int HoYoPassSDK_LoginType_TypeDefinitionIndex = 8234;
+	inline static constexpr unsigned int HoYoPassSDK_LoginType_TypeDefinitionIndex = 8240;
 
 	enum class HoYoPassSDK_LoginType : ::System::Int32
 	{
@@ -16,5 +16,6 @@ namespace MiHoYo::SDK::HoYoPass
 		Twitter = 6,
 		Steam = 7,
 		NonExclusiveSteam = 8,
+		Xbox = 9,
 	};
 }

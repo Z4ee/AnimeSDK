@@ -5,18 +5,18 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define CLASS_3_55CC0EE55645EF46_METHOD_3_387C40D074FB1980_OFFSET UNITYSDK_OFFSET(0x1BA65470)
-#define CLASS_3_55CC0EE55645EF46_METHOD_3_825AC3CA23639A85_OFFSET UNITYSDK_OFFSET(0x1BA654B0)
-#define CLASS_3_55CC0EE55645EF46__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA654A0)
+#define CLASS_3_55CC0EE55645EF46_METHOD_3_387C40D074FB1980_OFFSET UNITYSDK_OFFSET(0x1C782240)
+#define CLASS_3_55CC0EE55645EF46_METHOD_3_825AC3CA23639A85_OFFSET UNITYSDK_OFFSET(0x1C782280)
+#define CLASS_3_55CC0EE55645EF46__CTOR_OFFSET UNITYSDK_OFFSET(0x1C782270)
 
-inline static constexpr unsigned int Class_3_55CC0EE55645EF46_TypeDefinitionIndex = 9891;
+inline static constexpr unsigned int Class_3_55CC0EE55645EF46_TypeDefinitionIndex = 10178;
 
 class Class_3_55CC0EE55645EF46 : public ::RPG::GameCore::TaskConfig
 {
 public:
-	::Il2CppArray<::RPG::GameCore::TaskConfig*>* Field_3_0; // 0x18
-	::RPG::GameCore::DynamicFloat* Field_3_1; // 0x20
-	::Il2CppArray<::RPG::GameCore::TaskConfig*>* Field_3_2; // 0x28
+	::Il2CppArray<::RPG::GameCore::TaskConfig*>* PAHHNMLMNLN; // 0x18
+	::Il2CppArray<::RPG::GameCore::TaskConfig*>* LCGICBCPMLO; // 0x20
+	::RPG::GameCore::DynamicFloat* FMLGGKAFMKC; // 0x28
 
 	::System::Void _ctor()
 	{

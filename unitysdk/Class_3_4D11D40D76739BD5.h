@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AdvForceHideBillboard; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_4D11D40D76739BD5_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x14676540)
-#define CLASS_3_4D11D40D76739BD5__CTOR_OFFSET UNITYSDK_OFFSET(0x14676510)
+#define CLASS_3_4D11D40D76739BD5_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x154E0210)
+#define CLASS_3_4D11D40D76739BD5__CTOR_OFFSET UNITYSDK_OFFSET(0x154E01E0)
 
-inline static constexpr unsigned int Class_3_4D11D40D76739BD5_TypeDefinitionIndex = 49989;
+inline static constexpr unsigned int Class_3_4D11D40D76739BD5_TypeDefinitionIndex = 52650;
 
 class Class_3_4D11D40D76739BD5 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AdvForceHideBillboard*>
 {

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class StartAdvSkillCombo; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_9A9668D5AE8C95DB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xD03B6B0)
-#define CLASS_3_9A9668D5AE8C95DB__CTOR_OFFSET UNITYSDK_OFFSET(0xD03B680)
+#define CLASS_3_9A9668D5AE8C95DB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xDD77540)
+#define CLASS_3_9A9668D5AE8C95DB__CTOR_OFFSET UNITYSDK_OFFSET(0xDD77510)
 
-inline static constexpr unsigned int Class_3_9A9668D5AE8C95DB_TypeDefinitionIndex = 56087;
+inline static constexpr unsigned int Class_3_9A9668D5AE8C95DB_TypeDefinitionIndex = 58862;
 
 class Class_3_9A9668D5AE8C95DB : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::StartAdvSkillCombo*>
 {

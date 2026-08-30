@@ -7,34 +7,34 @@ namespace RPG::Client::TrainParty { class TrainPartyPassengerStatusRankConfig; }
 namespace System { template <typename T> class Comparison_1; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD720790)
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD7207C0)
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERMANAGER___C__GETALLPASSENGERLIST_B__22_0_OFFSET UNITYSDK_OFFSET(0xD7207D0)
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERMANAGER___C__GET_LEADERPASSENGERDATA_B__46_0_OFFSET UNITYSDK_OFFSET(0xD7209D0)
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERMANAGER___C___INITPASSENGERSTATUSRANKCONFIG_B__29_0_OFFSET UNITYSDK_OFFSET(0xD7208C0)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xE272C30)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0xE272C60)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERMANAGER___C__GETALLPASSENGERLIST_B__22_0_OFFSET UNITYSDK_OFFSET(0xE272C70)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERMANAGER___C__GET_LEADERPASSENGERDATA_B__46_0_OFFSET UNITYSDK_OFFSET(0xE272E70)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERMANAGER___C___INITPASSENGERSTATUSRANKCONFIG_B__29_0_OFFSET UNITYSDK_OFFSET(0xE272D60)
 
 namespace RPG::Client::TrainParty
 {
-	inline static constexpr unsigned int TrainPartyPassengerManager___c_TypeDefinitionIndex = 70949;
+	inline static constexpr unsigned int TrainPartyPassengerManager___c_TypeDefinitionIndex = 74248;
 
 	class TrainPartyPassengerManager___c : public ::System::Object
 	{
 	public:
-		static ::System::Predicate_1<::RPG::Client::TrainParty::TrainPartyPassengerData*>** StaticGet___9__46_0()
-		{
-			return (::System::Predicate_1<::RPG::Client::TrainParty::TrainPartyPassengerData*>**)Il2CppClass::FromTypeDefinitionIndex(TrainPartyPassengerManager___c_TypeDefinitionIndex)->GetStaticField(0x48160);
-		}
 		static ::System::Comparison_1<::RPG::Client::TrainParty::TrainPartyPassengerData*>** StaticGet___9__22_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::TrainParty::TrainPartyPassengerData*>**)Il2CppClass::FromTypeDefinitionIndex(TrainPartyPassengerManager___c_TypeDefinitionIndex)->GetStaticField(0x48168);
+			return (::System::Comparison_1<::RPG::Client::TrainParty::TrainPartyPassengerData*>**)Il2CppClass::FromTypeDefinitionIndex(TrainPartyPassengerManager___c_TypeDefinitionIndex)->GetStaticField(0x5D660);
 		}
-		static ::RPG::Client::TrainParty::TrainPartyPassengerManager___c** StaticGet___9()
+		static ::System::Predicate_1<::RPG::Client::TrainParty::TrainPartyPassengerData*>** StaticGet___9__46_0()
 		{
-			return (::RPG::Client::TrainParty::TrainPartyPassengerManager___c**)Il2CppClass::FromTypeDefinitionIndex(TrainPartyPassengerManager___c_TypeDefinitionIndex)->GetStaticField(0x48170);
+			return (::System::Predicate_1<::RPG::Client::TrainParty::TrainPartyPassengerData*>**)Il2CppClass::FromTypeDefinitionIndex(TrainPartyPassengerManager___c_TypeDefinitionIndex)->GetStaticField(0x5D668);
 		}
 		static ::System::Comparison_1<::RPG::Client::TrainParty::TrainPartyPassengerStatusRankConfig*>** StaticGet___9__29_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::TrainParty::TrainPartyPassengerStatusRankConfig*>**)Il2CppClass::FromTypeDefinitionIndex(TrainPartyPassengerManager___c_TypeDefinitionIndex)->GetStaticField(0x48178);
+			return (::System::Comparison_1<::RPG::Client::TrainParty::TrainPartyPassengerStatusRankConfig*>**)Il2CppClass::FromTypeDefinitionIndex(TrainPartyPassengerManager___c_TypeDefinitionIndex)->GetStaticField(0x5D670);
+		}
+		static ::RPG::Client::TrainParty::TrainPartyPassengerManager___c** StaticGet___9()
+		{
+			return (::RPG::Client::TrainParty::TrainPartyPassengerManager___c**)Il2CppClass::FromTypeDefinitionIndex(TrainPartyPassengerManager___c_TypeDefinitionIndex)->GetStaticField(0x5D678);
 		}
 
 		static ::System::Void _cctor()

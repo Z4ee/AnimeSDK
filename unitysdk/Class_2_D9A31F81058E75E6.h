@@ -5,16 +5,16 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class IDictionary_2; }
 
-#define CLASS_2_D9A31F81058E75E6_METHOD_2_F978A1D172468895_OFFSET UNITYSDK_OFFSET(0x15058220)
-#define CLASS_2_D9A31F81058E75E6__CTOR_OFFSET UNITYSDK_OFFSET(0x150580B0)
+#define CLASS_2_D9A31F81058E75E6_METHOD_2_F978A1D172468895_OFFSET UNITYSDK_OFFSET(0x16112FE0)
+#define CLASS_2_D9A31F81058E75E6__CTOR_OFFSET UNITYSDK_OFFSET(0x16112E70)
 
-inline static constexpr unsigned int Class_2_D9A31F81058E75E6_TypeDefinitionIndex = 76858;
+inline static constexpr unsigned int Class_2_D9A31F81058E75E6_TypeDefinitionIndex = 80898;
 
 class Class_2_D9A31F81058E75E6 : public ::Class_1_FAF146B3D74C3C3F
 {
 public:
-	::System::Int32 Field_2_0; // 0x20
-	::System::Int64 Field_2_1; // 0x28
+	::System::Int32 GBKFPMBPIGP; // 0x20
+	::System::Int64 GDBJDAOOCOH; // 0x28
 
 	::System::Void _ctor(::System::Int32 a1, ::System::Int32 a2, ::System::String* a3, ::System::Collections::Generic::IDictionary_2<::System::String*, ::System::String*>* a4)
 	{

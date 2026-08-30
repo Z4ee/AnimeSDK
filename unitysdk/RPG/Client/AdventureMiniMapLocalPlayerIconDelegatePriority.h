@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AdventureMiniMapLocalPlayerIconDelegatePriority_TypeDefinitionIndex = 65983;
+	inline static constexpr unsigned int AdventureMiniMapLocalPlayerIconDelegatePriority_TypeDefinitionIndex = 69022;
 
 	enum class AdventureMiniMapLocalPlayerIconDelegatePriority : ::System::Int32
 	{

@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define SYSTEM_REFLECTION_DEFAULTMEMBERATTRIBUTE_GET_MEMBERNAME_OFFSET UNITYSDK_OFFSET(0x1A188420)
-#define SYSTEM_REFLECTION_DEFAULTMEMBERATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A188410)
+#define SYSTEM_REFLECTION_DEFAULTMEMBERATTRIBUTE_GET_MEMBERNAME_OFFSET UNITYSDK_OFFSET(0x1BD90130)
+#define SYSTEM_REFLECTION_DEFAULTMEMBERATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD90120)
 
 namespace System::Reflection
 {
-	inline static constexpr unsigned int DefaultMemberAttribute_TypeDefinitionIndex = 556;
+	inline static constexpr unsigned int DefaultMemberAttribute_TypeDefinitionIndex = 559;
 
 	class DefaultMemberAttribute : public ::System::Attribute
 	{

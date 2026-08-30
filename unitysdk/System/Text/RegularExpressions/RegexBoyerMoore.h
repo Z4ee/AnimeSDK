@@ -5,28 +5,28 @@
 namespace System { class String; }
 namespace System::Globalization { class CultureInfo; }
 
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXBOYERMOORE_ISMATCH_OFFSET UNITYSDK_OFFSET(0x1CD4AC10)
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXBOYERMOORE_MATCHPATTERN_OFFSET UNITYSDK_OFFSET(0x1CD4A980)
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXBOYERMOORE_SCAN_OFFSET UNITYSDK_OFFSET(0x1CD4AC80)
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXBOYERMOORE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1CD4B020)
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXBOYERMOORE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD4A120)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXBOYERMOORE_ISMATCH_OFFSET UNITYSDK_OFFSET(0x1E9F7260)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXBOYERMOORE_MATCHPATTERN_OFFSET UNITYSDK_OFFSET(0x1E9F6FD0)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXBOYERMOORE_SCAN_OFFSET UNITYSDK_OFFSET(0x1E9F72D0)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXBOYERMOORE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9F7670)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXBOYERMOORE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E9F6760)
 
 namespace System::Text::RegularExpressions
 {
-	inline static constexpr unsigned int RegexBoyerMoore_TypeDefinitionIndex = 2495;
+	inline static constexpr unsigned int RegexBoyerMoore_TypeDefinitionIndex = 2502;
 
 	class RegexBoyerMoore : public ::System::Object
 	{
 	public:
-		::System::String* _pattern; // 0x10
+		::Il2CppArray<::Il2CppArray<::System::Int32>*>* _negativeUnicode; // 0x10
 		::Il2CppArray<::System::Int32>* _negativeASCII; // 0x18
 		::Il2CppArray<::System::Int32>* _positive; // 0x20
-		::Il2CppArray<::Il2CppArray<::System::Int32>*>* _negativeUnicode; // 0x28
-		::System::Globalization::CultureInfo* _culture; // 0x30
-		::System::Int32 _lowASCII; // 0x38
-		::System::Boolean _rightToLeft; // 0x3C
-		::System::Boolean _caseInsensitive; // 0x3D
-		::System::Int32 _highASCII; // 0x40
+		::System::Globalization::CultureInfo* _culture; // 0x28
+		::System::String* _pattern; // 0x30
+		::System::Boolean _caseInsensitive; // 0x38
+		::System::Boolean _rightToLeft; // 0x39
+		::System::Int32 _highASCII; // 0x3C
+		::System::Int32 _lowASCII; // 0x40
 
 		::System::Void _ctor(::System::String* a1, ::System::Boolean a2, ::System::Boolean a3, ::System::Globalization::CultureInfo* a4)
 		{

@@ -7,21 +7,21 @@ namespace RPG::GameCore { class StartMissionCameraTemplate; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class String; }
 
-#define CLASS_2_96BDB32C565CCA22_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB430670)
-#define CLASS_2_96BDB32C565CCA22_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB430850)
-#define CLASS_2_96BDB32C565CCA22_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB430710)
-#define CLASS_2_96BDB32C565CCA22_TICK_OFFSET UNITYSDK_OFFSET(0xB4307A0)
-#define CLASS_2_96BDB32C565CCA22__CTOR_OFFSET UNITYSDK_OFFSET(0xB42FB60)
+#define CLASS_2_96BDB32C565CCA22_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBDC6D60)
+#define CLASS_2_96BDB32C565CCA22_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBDC6F40)
+#define CLASS_2_96BDB32C565CCA22_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBDC6E00)
+#define CLASS_2_96BDB32C565CCA22_TICK_OFFSET UNITYSDK_OFFSET(0xBDC6E90)
+#define CLASS_2_96BDB32C565CCA22__CTOR_OFFSET UNITYSDK_OFFSET(0xBDC6250)
 
-inline static constexpr unsigned int Class_2_96BDB32C565CCA22_TypeDefinitionIndex = 56098;
+inline static constexpr unsigned int Class_2_96BDB32C565CCA22_TypeDefinitionIndex = 58873;
 
 class Class_2_96BDB32C565CCA22 : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	// static const ::System::String* Field_2_0; // 0x0
-	::Class_2_6180D94999EC13F6* Field_2_1; // 0x18
-	::RPG::GameCore::StartMissionCameraTemplate* Field_2_2; // 0x20
-	::RPG::GameCore::TaskContext* Field_2_3; // 0x28
+	// static const ::System::String* DLKGKBHGLOP; // 0x0
+	::Class_2_6180D94999EC13F6* PFJBJDCKGMG; // 0x18
+	::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+	::RPG::GameCore::StartMissionCameraTemplate* OFKGLJOAMLD; // 0x28
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::StartMissionCameraTemplate* a2)
 	{

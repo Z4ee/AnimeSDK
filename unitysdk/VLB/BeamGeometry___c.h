@@ -7,24 +7,24 @@ namespace System { template <typename T1, typename T2, typename T3> class Action
 namespace UnityEngine { class Camera; }
 namespace VLB { class BeamGeometry; }
 
-#define VLB_BEAMGEOMETRY___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xDDC4C80)
-#define VLB_BEAMGEOMETRY___C__CTOR_OFFSET UNITYSDK_OFFSET(0xDDC4CB0)
-#define VLB_BEAMGEOMETRY___C__GET_ONBEGINCAMERARENDERINGHANDLER_B__29_0_OFFSET UNITYSDK_OFFSET(0xDDC4CC0)
+#define VLB_BEAMGEOMETRY___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xE99E220)
+#define VLB_BEAMGEOMETRY___C__CTOR_OFFSET UNITYSDK_OFFSET(0xE99E250)
+#define VLB_BEAMGEOMETRY___C__GET_ONBEGINCAMERARENDERINGHANDLER_B__29_0_OFFSET UNITYSDK_OFFSET(0xE99E260)
 
 namespace VLB
 {
-	inline static constexpr unsigned int BeamGeometry___c_TypeDefinitionIndex = 47144;
+	inline static constexpr unsigned int BeamGeometry___c_TypeDefinitionIndex = 49410;
 
 	class BeamGeometry___c : public ::System::Object
 	{
 	public:
 		static ::VLB::BeamGeometry___c** StaticGet___9()
 		{
-			return (::VLB::BeamGeometry___c**)Il2CppClass::FromTypeDefinitionIndex(BeamGeometry___c_TypeDefinitionIndex)->GetStaticField(0x6BE80);
+			return (::VLB::BeamGeometry___c**)Il2CppClass::FromTypeDefinitionIndex(BeamGeometry___c_TypeDefinitionIndex)->GetStaticField(0x54EF0);
 		}
 		static ::System::Action_3<::VLB::BeamGeometry*, ::UnityEngine::Rendering::ScriptableRenderContext, ::UnityEngine::Camera*>** StaticGet___9__29_0()
 		{
-			return (::System::Action_3<::VLB::BeamGeometry*, ::UnityEngine::Rendering::ScriptableRenderContext, ::UnityEngine::Camera*>**)Il2CppClass::FromTypeDefinitionIndex(BeamGeometry___c_TypeDefinitionIndex)->GetStaticField(0x6BE88);
+			return (::System::Action_3<::VLB::BeamGeometry*, ::UnityEngine::Rendering::ScriptableRenderContext, ::UnityEngine::Camera*>**)Il2CppClass::FromTypeDefinitionIndex(BeamGeometry___c_TypeDefinitionIndex)->GetStaticField(0x54EF8);
 		}
 
 		static ::System::Void _cctor()

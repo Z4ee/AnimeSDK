@@ -5,12 +5,12 @@
 namespace RPG::Client::DiceCombat { class DiceCombatBattlePlayerInfo; }
 namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLEPLAYERINFO___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC209740)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLEPLAYERINFO___C__DISPLAYCLASS7_0__SETDICESELECTEDCHANGEDCALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0xC20B670)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLEPLAYERINFO___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCCC8A70)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLEPLAYERINFO___C__DISPLAYCLASS7_0__SETDICESELECTEDCHANGEDCALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0xCCCA9A0)
 
 namespace RPG::Client::DiceCombat
 {
-	inline static constexpr unsigned int DiceCombatBattlePlayerInfo___c__DisplayClass7_0_TypeDefinitionIndex = 72133;
+	inline static constexpr unsigned int DiceCombatBattlePlayerInfo___c__DisplayClass7_0_TypeDefinitionIndex = 75569;
 
 	class DiceCombatBattlePlayerInfo___c__DisplayClass7_0 : public ::System::Object
 	{

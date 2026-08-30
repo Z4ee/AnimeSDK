@@ -6,12 +6,12 @@
 
 namespace RPG::Client { class MonoEffect; }
 
-#define RPG_GAMECORE_ABILITYSTATIC___C__DISPLAYCLASS79_0__COMMONPROCESSADVENTUREHITEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0xD932C80)
-#define RPG_GAMECORE_ABILITYSTATIC___C__DISPLAYCLASS79_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD905250)
+#define RPG_GAMECORE_ABILITYSTATIC___C__DISPLAYCLASS79_0__COMMONPROCESSADVENTUREHITEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0xE4AE390)
+#define RPG_GAMECORE_ABILITYSTATIC___C__DISPLAYCLASS79_0__CTOR_OFFSET UNITYSDK_OFFSET(0xE480350)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AbilityStatic___c__DisplayClass79_0_TypeDefinitionIndex = 51936;
+	inline static constexpr unsigned int AbilityStatic___c__DisplayClass79_0_TypeDefinitionIndex = 54620;
 
 	class AbilityStatic___c__DisplayClass79_0 : public ::System::Object
 	{

@@ -6,21 +6,21 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MUSEUMCOMMENTSROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B63C6E0)
-#define RPG_GAMECORE_MUSEUMCOMMENTSROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B63C9E0)
+#define RPG_GAMECORE_MUSEUMCOMMENTSROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D2E2660)
+#define RPG_GAMECORE_MUSEUMCOMMENTSROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2E2960)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MuseumCommentsRow_TypeDefinitionIndex = 13734;
+	inline static constexpr unsigned int MuseumCommentsRow_TypeDefinitionIndex = 14151;
 
 	class MuseumCommentsRow : public ::System::Object
 	{
 	public:
 		::System::String* CommentIconPath; // 0x10
-		::RPG::Client::TextID CommentName; // 0x18
-		::RPG::Client::TextID CommentContent; // 0x28
-		::System::UInt32 CommentID; // 0x38
-		::System::UInt32 AreaID; // 0x3C
+		::System::UInt32 CommentID; // 0x18
+		::System::UInt32 AreaID; // 0x1C
+		::RPG::Client::TextID CommentContent; // 0x20
+		::RPG::Client::TextID CommentName; // 0x30
 		::System::Boolean IsPositive; // 0x40
 
 		::System::Void _ctor()

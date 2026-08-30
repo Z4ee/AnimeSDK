@@ -6,40 +6,40 @@ namespace System { class String; }
 namespace UnityEngine { class ComputeShader; }
 namespace UnityEngine { class Object; }
 
-#define CLASS_1_73C8737BBC515635_METHOD_1_88FC2BD4BA0B1192_OFFSET UNITYSDK_OFFSET(0xAF5ED20)
-#define CLASS_1_73C8737BBC515635_METHOD_1_8B50C99A62E03A3E_OFFSET UNITYSDK_OFFSET(0xAF5ECC0)
-#define CLASS_1_73C8737BBC515635_METHOD_1_E55199F4E71DB1AE_OFFSET UNITYSDK_OFFSET(0xAF5EC40)
-#define CLASS_1_73C8737BBC515635__CCTOR_OFFSET UNITYSDK_OFFSET(0xAF5EC20)
+#define CLASS_1_73C8737BBC515635_METHOD_1_88FC2BD4BA0B1192_OFFSET UNITYSDK_OFFSET(0xB910470)
+#define CLASS_1_73C8737BBC515635_METHOD_1_8B50C99A62E03A3E_OFFSET UNITYSDK_OFFSET(0xB910410)
+#define CLASS_1_73C8737BBC515635_METHOD_1_E55199F4E71DB1AE_OFFSET UNITYSDK_OFFSET(0xB910390)
+#define CLASS_1_73C8737BBC515635__CCTOR_OFFSET UNITYSDK_OFFSET(0xB910370)
 
-inline static constexpr unsigned int Class_1_73C8737BBC515635_TypeDefinitionIndex = 70306;
+inline static constexpr unsigned int Class_1_73C8737BBC515635_TypeDefinitionIndex = 73606;
 
 class Class_1_73C8737BBC515635 : public ::System::Object
 {
 public:
-	static ::System::Int32* StaticGet_Field_1_0()
+	static ::System::Int32* StaticGet_LIPHEJCBPBD()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_73C8737BBC515635_TypeDefinitionIndex)->GetStaticField(0x6DC0);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_73C8737BBC515635_TypeDefinitionIndex)->GetStaticField(0xA770);
 	}
-	static ::System::Boolean* StaticGet_Field_1_1()
+	static ::System::Boolean* StaticGet_DFKKLPMLNGH()
 	{
-		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_73C8737BBC515635_TypeDefinitionIndex)->GetStaticField(0x6DC4);
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_73C8737BBC515635_TypeDefinitionIndex)->GetStaticField(0xA774);
 	}
-	static ::System::Boolean* StaticGet_Field_1_2()
+	static ::System::Boolean* StaticGet_GKNCPKCLMPJ()
 	{
-		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_73C8737BBC515635_TypeDefinitionIndex)->GetStaticField(0x6DC5);
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_73C8737BBC515635_TypeDefinitionIndex)->GetStaticField(0xA775);
 	}
-	// static const ::System::Single Field_1_3; // 0x0
-	// static const ::System::Single Field_1_4; // 0x0
-	// static const ::System::Int32 Field_1_5 = 0x400; // 0x0
-	// static const ::System::Int32 Field_1_6 = 0x20; // 0x0
-	// static const ::System::String* Field_1_7; // 0x0
-	// static const ::System::String* Field_1_8; // 0x0
-	// static const ::System::String* Field_1_9; // 0x0
-	// static const ::System::String* Field_1_10; // 0x0
-	// static const ::System::String* Field_1_11; // 0x0
-	// static const ::System::String* Field_1_12; // 0x0
-	// static const ::System::String* Field_1_13; // 0x0
-	// static const ::System::String* Field_1_14; // 0x0
+	// static const ::System::Single HEFNCMFOKLG; // 0x0
+	// static const ::System::Single ABCJMLEBDMF; // 0x0
+	// static const ::System::Int32 DIELFCLPFIM = 0x400; // 0x0
+	// static const ::System::Int32 GOHMKFABOFC = 0x20; // 0x0
+	// static const ::System::String* JECKIIMJHCM; // 0x0
+	// static const ::System::String* ILMPMHJHELJ; // 0x0
+	// static const ::System::String* DAPLHPKANIG; // 0x0
+	// static const ::System::String* LFEGPKAFEBJ; // 0x0
+	// static const ::System::String* PDGLBLKPEOM; // 0x0
+	// static const ::System::String* INPAEJJLKNL; // 0x0
+	// static const ::System::String* GDGMKFHNCHH; // 0x0
+	// static const ::System::String* AAMLBKACGNJ; // 0x0
 
 	static ::System::Void _cctor()
 	{

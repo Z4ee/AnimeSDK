@@ -4,36 +4,36 @@
 
 namespace System { class Action; }
 namespace UnityEngine { class RenderTexture; }
-namespace UnityEngine::UI { class Image; }
+namespace UnityEngine::UI { class Text; }
 
-#define RPG_CLIENT_PHOTOGRAPHUTILS___C__DISPLAYCLASS120_0__ASYNCADDIMAGEWATERMARK_B__0_OFFSET UNITYSDK_OFFSET(0xCF9B570)
-#define RPG_CLIENT_PHOTOGRAPHUTILS___C__DISPLAYCLASS120_0__ASYNCADDIMAGEWATERMARK_B__1_OFFSET UNITYSDK_OFFSET(0xCF9B5D0)
-#define RPG_CLIENT_PHOTOGRAPHUTILS___C__DISPLAYCLASS120_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCF96F90)
+#define RPG_CLIENT_PHOTOGRAPHUTILS___C__DISPLAYCLASS120_0__ASYNCADDTEXTWATERMARK_B__0_OFFSET UNITYSDK_OFFSET(0xDADA240)
+#define RPG_CLIENT_PHOTOGRAPHUTILS___C__DISPLAYCLASS120_0__ASYNCADDTEXTWATERMARK_B__1_OFFSET UNITYSDK_OFFSET(0xDADA2A0)
+#define RPG_CLIENT_PHOTOGRAPHUTILS___C__DISPLAYCLASS120_0__CTOR_OFFSET UNITYSDK_OFFSET(0xDAD5DF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PhotoGraphUtils___c__DisplayClass120_0_TypeDefinitionIndex = 66337;
+	inline static constexpr unsigned int PhotoGraphUtils___c__DisplayClass120_0_TypeDefinitionIndex = 69430;
 
 	class PhotoGraphUtils___c__DisplayClass120_0 : public ::System::Object
 	{
 	public:
-		::System::Action* finishCallback; // 0x10
-		::UnityEngine::RenderTexture* rt; // 0x18
-		::UnityEngine::UI::Image* img; // 0x20
+		::UnityEngine::UI::Text* text; // 0x10
+		::System::Action* finishCallback; // 0x18
+		::UnityEngine::RenderTexture* rt; // 0x20
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHOTOGRAPHUTILS___C__DISPLAYCLASS120_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _AsyncAddImageWaterMark_b__0()
+		::System::Void _AsyncAddTextWaterMark_b__0()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHOTOGRAPHUTILS___C__DISPLAYCLASS120_0__ASYNCADDIMAGEWATERMARK_B__0_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHOTOGRAPHUTILS___C__DISPLAYCLASS120_0__ASYNCADDTEXTWATERMARK_B__0_OFFSET))(this);
 		}
 
-		::System::Void _AsyncAddImageWaterMark_b__1()
+		::System::Void _AsyncAddTextWaterMark_b__1()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHOTOGRAPHUTILS___C__DISPLAYCLASS120_0__ASYNCADDIMAGEWATERMARK_B__1_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHOTOGRAPHUTILS___C__DISPLAYCLASS120_0__ASYNCADDTEXTWATERMARK_B__1_OFFSET))(this);
 		}
 	};
 }

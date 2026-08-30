@@ -8,39 +8,39 @@ namespace System { class Action; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_ALLEYMODULE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xBD30A10)
-#define RPG_CLIENT_ALLEYMODULE___C__CTOR_OFFSET UNITYSDK_OFFSET(0xBD30A40)
-#define RPG_CLIENT_ALLEYMODULE___C___INITEVENTINFO_B__31_0_OFFSET UNITYSDK_OFFSET(0xBD30A60)
-#define RPG_CLIENT_ALLEYMODULE___C___INITRENOWNINFO_B__30_0_OFFSET UNITYSDK_OFFSET(0xBD30A50)
-#define RPG_CLIENT_ALLEYMODULE___C___ONALLEYEVENTCHANGENOTIFY_B__152_0_OFFSET UNITYSDK_OFFSET(0xBD30AA0)
-#define RPG_CLIENT_ALLEYMODULE___C___TRYGENERATEALLEYMAPGRIDDATA_B__308_0_OFFSET UNITYSDK_OFFSET(0xBD30AB0)
+#define RPG_CLIENT_ALLEYMODULE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC756390)
+#define RPG_CLIENT_ALLEYMODULE___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC7563C0)
+#define RPG_CLIENT_ALLEYMODULE___C___INITEVENTINFO_B__31_0_OFFSET UNITYSDK_OFFSET(0xC7563E0)
+#define RPG_CLIENT_ALLEYMODULE___C___INITRENOWNINFO_B__30_0_OFFSET UNITYSDK_OFFSET(0xC7563D0)
+#define RPG_CLIENT_ALLEYMODULE___C___ONALLEYEVENTCHANGENOTIFY_B__152_0_OFFSET UNITYSDK_OFFSET(0xC756420)
+#define RPG_CLIENT_ALLEYMODULE___C___TRYGENERATEALLEYMAPGRIDDATA_B__308_0_OFFSET UNITYSDK_OFFSET(0xC756430)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AlleyModule___c_TypeDefinitionIndex = 59491;
+	inline static constexpr unsigned int AlleyModule___c_TypeDefinitionIndex = 62330;
 
 	class AlleyModule___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::RPG::Client::AlleyEventInfo>** StaticGet___9__31_0()
+		static ::System::Func_2<::System::Int32, ::System::Boolean>** StaticGet___9__30_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::AlleyEventInfo>**)Il2CppClass::FromTypeDefinitionIndex(AlleyModule___c_TypeDefinitionIndex)->GetStaticField(0x4BBA0);
+			return (::System::Func_2<::System::Int32, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(AlleyModule___c_TypeDefinitionIndex)->GetStaticField(0x65480);
 		}
 		static ::System::Action** StaticGet___9__152_0()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(AlleyModule___c_TypeDefinitionIndex)->GetStaticField(0x4BBA8);
-		}
-		static ::System::Func_2<::System::Int32, ::System::Boolean>** StaticGet___9__30_0()
-		{
-			return (::System::Func_2<::System::Int32, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(AlleyModule___c_TypeDefinitionIndex)->GetStaticField(0x4BBB0);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(AlleyModule___c_TypeDefinitionIndex)->GetStaticField(0x65488);
 		}
 		static ::RPG::Client::AlleyModule___c** StaticGet___9()
 		{
-			return (::RPG::Client::AlleyModule___c**)Il2CppClass::FromTypeDefinitionIndex(AlleyModule___c_TypeDefinitionIndex)->GetStaticField(0x4BBB8);
+			return (::RPG::Client::AlleyModule___c**)Il2CppClass::FromTypeDefinitionIndex(AlleyModule___c_TypeDefinitionIndex)->GetStaticField(0x65490);
+		}
+		static ::System::Comparison_1<::RPG::Client::AlleyEventInfo>** StaticGet___9__31_0()
+		{
+			return (::System::Comparison_1<::RPG::Client::AlleyEventInfo>**)Il2CppClass::FromTypeDefinitionIndex(AlleyModule___c_TypeDefinitionIndex)->GetStaticField(0x65498);
 		}
 		static ::System::Comparison_1<::RPG::Client::AlleyGridItemData*>** StaticGet___9__308_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::AlleyGridItemData*>**)Il2CppClass::FromTypeDefinitionIndex(AlleyModule___c_TypeDefinitionIndex)->GetStaticField(0x4BBC0);
+			return (::System::Comparison_1<::RPG::Client::AlleyGridItemData*>**)Il2CppClass::FromTypeDefinitionIndex(AlleyModule___c_TypeDefinitionIndex)->GetStaticField(0x654A0);
 		}
 
 		static ::System::Void _cctor()

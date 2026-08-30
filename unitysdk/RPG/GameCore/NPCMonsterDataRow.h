@@ -7,25 +7,25 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_NPCMONSTERDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B66C230)
-#define RPG_GAMECORE_NPCMONSTERDATAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B66CA30)
+#define RPG_GAMECORE_NPCMONSTERDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D2EEE00)
+#define RPG_GAMECORE_NPCMONSTERDATAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2EF640)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int NPCMonsterDataRow_TypeDefinitionIndex = 13760;
+	inline static constexpr unsigned int NPCMonsterDataRow_TypeDefinitionIndex = 14177;
 
 	class NPCMonsterDataRow : public ::System::Object
 	{
 	public:
-		::System::String* DefaultAIPath; // 0x10
-		::System::String* JsonPath; // 0x18
+		::System::String* JsonPath; // 0x10
+		::System::String* DefaultAIPath; // 0x18
 		::System::String* ConfigEntityPath; // 0x20
-		::RPG::Client::TextID NPCName; // 0x28
-		::System::UInt32 PrototypeID; // 0x38
-		::System::UInt32 ID; // 0x3C
-		::RPG::GameCore::MonsterRank Rank; // 0x40
-		::System::Boolean IsMazeLink; // 0x44
-		::System::UInt32 MiniMapIconType; // 0x48
+		::System::UInt32 ID; // 0x28
+		::System::Boolean IsMazeLink; // 0x2C
+		::RPG::Client::TextID NPCName; // 0x30
+		::System::UInt32 PrototypeID; // 0x40
+		::System::UInt32 MiniMapIconType; // 0x44
+		::RPG::GameCore::MonsterRank Rank; // 0x48
 		::System::UInt32 MappingInfoID; // 0x4C
 
 		::System::Void _ctor()

@@ -3,7 +3,7 @@
 
 namespace VLB
 {
-	inline static constexpr unsigned int OccluderDimensions_TypeDefinitionIndex = 47153;
+	inline static constexpr unsigned int OccluderDimensions_TypeDefinitionIndex = 49419;
 
 	enum class OccluderDimensions : ::System::Int32
 	{

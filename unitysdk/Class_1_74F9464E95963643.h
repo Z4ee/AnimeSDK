@@ -5,15 +5,15 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_74F9464E95963643__CTOR_OFFSET UNITYSDK_OFFSET(0x1A84C840)
+#define CLASS_1_74F9464E95963643__CTOR_OFFSET UNITYSDK_OFFSET(0x1C47D690)
 
-inline static constexpr unsigned int Class_1_74F9464E95963643_TypeDefinitionIndex = 40421;
+inline static constexpr unsigned int Class_1_74F9464E95963643_TypeDefinitionIndex = 41359;
 
 class Class_1_74F9464E95963643 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::UnityEngine::Vector3>* Field_1_0; // 0x10
-	::System::UInt32 Field_1_1; // 0x18
+	::System::Collections::Generic::List_1<::UnityEngine::Vector3>* DKGLDKILPIF; // 0x10
+	::System::UInt32 CIHDMACAGPN; // 0x18
 
 	::System::Void _ctor()
 	{

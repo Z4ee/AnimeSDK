@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DesignerUserPrefsDomain_TypeDefinitionIndex = 23689;
+	inline static constexpr unsigned int DesignerUserPrefsDomain_TypeDefinitionIndex = 24274;
 
 	enum class DesignerUserPrefsDomain : ::System::Int32
 	{

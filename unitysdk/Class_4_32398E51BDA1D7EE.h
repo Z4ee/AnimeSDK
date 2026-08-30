@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AddClientMazeBuff; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_4_32398E51BDA1D7EE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBAB90C0)
-#define CLASS_4_32398E51BDA1D7EE__CTOR_OFFSET UNITYSDK_OFFSET(0xBAB9070)
+#define CLASS_4_32398E51BDA1D7EE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC51A9C0)
+#define CLASS_4_32398E51BDA1D7EE__CTOR_OFFSET UNITYSDK_OFFSET(0xC51A970)
 
-inline static constexpr unsigned int Class_4_32398E51BDA1D7EE_TypeDefinitionIndex = 55287;
+inline static constexpr unsigned int Class_4_32398E51BDA1D7EE_TypeDefinitionIndex = 58011;
 
 class Class_4_32398E51BDA1D7EE : public ::RPG::GameCore::AddMazeBuffBaseTask_1<::RPG::GameCore::AddClientMazeBuff*>
 {

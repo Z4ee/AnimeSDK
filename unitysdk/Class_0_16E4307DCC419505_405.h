@@ -1,10 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-class Class_0_16E4307DCC419505_404;
-class Class_1_34489C07F511839D;
+class Class_3_18B5478E38C2806D;
+namespace System { class String; }
+namespace UnityEngine { class Object; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_405_TypeDefinitionIndex = 49561;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_405_TypeDefinitionIndex = 50155;
 
 class Class_0_16E4307DCC419505_405
 {

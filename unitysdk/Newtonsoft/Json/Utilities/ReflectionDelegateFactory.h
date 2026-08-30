@@ -13,11 +13,11 @@ namespace System::Reflection { class MemberInfo; }
 namespace System::Reflection { class MethodBase; }
 namespace System::Reflection { class PropertyInfo; }
 
-#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONDELEGATEFACTORY__CTOR_OFFSET UNITYSDK_OFFSET(0x1A2FD710)
+#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONDELEGATEFACTORY__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF05F90)
 
 namespace Newtonsoft::Json::Utilities
 {
-	inline static constexpr unsigned int ReflectionDelegateFactory_TypeDefinitionIndex = 9298;
+	inline static constexpr unsigned int ReflectionDelegateFactory_TypeDefinitionIndex = 9577;
 
 	class ReflectionDelegateFactory : public ::System::Object
 	{

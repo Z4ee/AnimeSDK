@@ -1,26 +1,31 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
-#include "unitysdk/UnityChan/SpringManager_BoneTag.h"
-#include "unitysdk/UnityEngine/Vector3.h"
 
-inline static constexpr unsigned int Struct_2_52A902145F5BE513_2_TypeDefinitionIndex = 45890;
+namespace RPG { template <typename T> class PoolList_1; }
+namespace System { class String; }
+
+inline static constexpr unsigned int Struct_2_52A902145F5BE513_2_TypeDefinitionIndex = 41795;
 
 struct alignas(8) Struct_2_52A902145F5BE513_2
 {
-	::UnityEngine::Vector3 Field_2_0; // 0x10
-	::System::Single Field_2_1; // 0x1C
-	::UnityEngine::Vector3 Field_2_2; // 0x20
-	::System::Single Field_2_3; // 0x2C
-	::UnityEngine::Vector3 Field_2_4; // 0x30
-	::System::Single Field_2_5; // 0x3C
-	::System::Single Field_2_6; // 0x40
-	::System::Single Field_2_7; // 0x44
-	::UnityChan::SpringManager_BoneTag Field_2_8; // 0x48
-	::System::Boolean Field_2_9; // 0x4C
-	::UnityEngine::Vector3 Field_2_10; // 0x50
-	::System::Single Field_2_11; // 0x5C
-	::System::UInt32 Field_2_12; // 0x60
-	::System::UInt64 Field_2_13; // 0x68
-	::System::Boolean Field_2_14; // 0x70
+	::System::Boolean MKBPAMPGLKI; // 0x10
+	::System::Boolean MLCBDNLDIPE; // 0x11
+	::System::UInt32 GCELLOCKJGP; // 0x14
+	::System::Boolean BABDLDNHHID; // 0x18
+	::System::Boolean HKAOBNNNNOC; // 0x19
+	::System::Boolean OEAPJMEGFCG; // 0x1A
+	::System::Boolean IGNEAJLLKJA; // 0x1B
+	::System::Int32 BONHPINDADB; // 0x1C
+	::System::Int32 OPNOJADGKMG; // 0x20
+	::System::Boolean CJNDNPLIIDJ; // 0x24
+	::System::Boolean OIIILBDJCOK; // 0x25
+	::System::Boolean AMPPLENMCLH; // 0x26
+	::System::Boolean BHLMBHAAPMF; // 0x27
+	::System::Boolean OLBOOLIHPDO; // 0x28
+	::System::Boolean GIPKCFAMOLP; // 0x29
+	::System::Int32 KNGOCBHIKEG; // 0x2C
+	::System::Int32 NJGHANCIPAM; // 0x30
+	::System::Int32 LPDKBGNFOCJ; // 0x34
+	::RPG::PoolList_1<::System::String*>* HEFPJDNENIE; // 0x38
 };

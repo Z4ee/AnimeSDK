@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetAdvEffectBGCurve; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_01865727DCC08879_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x153E2650)
-#define CLASS_3_01865727DCC08879__CTOR_OFFSET UNITYSDK_OFFSET(0x153E2620)
+#define CLASS_3_01865727DCC08879_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1631DA70)
+#define CLASS_3_01865727DCC08879__CTOR_OFFSET UNITYSDK_OFFSET(0x1631DA40)
 
-inline static constexpr unsigned int Class_3_01865727DCC08879_TypeDefinitionIndex = 52839;
+inline static constexpr unsigned int Class_3_01865727DCC08879_TypeDefinitionIndex = 55542;
 
 class Class_3_01865727DCC08879 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetAdvEffectBGCurve*>
 {

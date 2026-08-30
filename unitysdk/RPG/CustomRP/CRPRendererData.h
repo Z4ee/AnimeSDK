@@ -13,62 +13,67 @@ namespace RPG::CustomRP { class CRPRendererData_CRPDebugResources; }
 namespace RPG::CustomRP { class CRPRendererData_CRPShaderResources; }
 namespace RPG::CustomRP { class CRPRendererData_CRPTextureResources; }
 namespace RPG::CustomRP { class DebugRTName; }
+namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Shader; }
 
-#define RPG_CUSTOMRP_CRPRENDERERDATA_GETDEFAULTMATERIAL_OFFSET UNITYSDK_OFFSET(0x1AA4FE20)
-#define RPG_CUSTOMRP_CRPRENDERERDATA_GETDEFAULTSHADER_OFFSET UNITYSDK_OFFSET(0x1AA4FFA0)
-#define RPG_CUSTOMRP_CRPRENDERERDATA_GETMATID_OFFSET UNITYSDK_OFFSET(0x1AA439D0)
-#define RPG_CUSTOMRP_CRPRENDERERDATA_GETMAT_OFFSET UNITYSDK_OFFSET(0x1AA4FDF0)
-#define RPG_CUSTOMRP_CRPRENDERERDATA_INITMAT_1_OFFSET UNITYSDK_OFFSET(0x1AA3BCE0)
-#define RPG_CUSTOMRP_CRPRENDERERDATA_INITMAT_OFFSET UNITYSDK_OFFSET(0x1AA4FFC0)
-#define RPG_CUSTOMRP_CRPRENDERERDATA_RELOADRES_OFFSET UNITYSDK_OFFSET(0x1AA4FBA0)
-#define RPG_CUSTOMRP_CRPRENDERERDATA_UNITMAT_OFFSET UNITYSDK_OFFSET(0x1AA40AA0)
-#define RPG_CUSTOMRP_CRPRENDERERDATA_UPDATECHAREYESTENCIL_OFFSET UNITYSDK_OFFSET(0x1AA4FBC0)
-#define RPG_CUSTOMRP_CRPRENDERERDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AA50160)
-#define RPG_CUSTOMRP_CRPRENDERERDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1AA500C0)
+#define RPG_CUSTOMRP_CRPRENDERERDATA_GETDEFAULTMATERIAL_OFFSET UNITYSDK_OFFSET(0x1C681A40)
+#define RPG_CUSTOMRP_CRPRENDERERDATA_GETDEFAULTSHADER_OFFSET UNITYSDK_OFFSET(0x1C681BC0)
+#define RPG_CUSTOMRP_CRPRENDERERDATA_GETMATID_OFFSET UNITYSDK_OFFSET(0x1C6750D0)
+#define RPG_CUSTOMRP_CRPRENDERERDATA_GETMAT_OFFSET UNITYSDK_OFFSET(0x1C681970)
+#define RPG_CUSTOMRP_CRPRENDERERDATA_INITMAT_1_OFFSET UNITYSDK_OFFSET(0x1C66D500)
+#define RPG_CUSTOMRP_CRPRENDERERDATA_INITMAT_OFFSET UNITYSDK_OFFSET(0x1C681BE0)
+#define RPG_CUSTOMRP_CRPRENDERERDATA_OVERRIDEDEFERLIGHTINGMATERIAL_OFFSET UNITYSDK_OFFSET(0x1C6819A0)
+#define RPG_CUSTOMRP_CRPRENDERERDATA_RELOADRES_OFFSET UNITYSDK_OFFSET(0x1C681710)
+#define RPG_CUSTOMRP_CRPRENDERERDATA_UNITMAT_OFFSET UNITYSDK_OFFSET(0x1C6722F0)
+#define RPG_CUSTOMRP_CRPRENDERERDATA_UPDATECHAREYESTENCIL_OFFSET UNITYSDK_OFFSET(0x1C681730)
+#define RPG_CUSTOMRP_CRPRENDERERDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C681D80)
+#define RPG_CUSTOMRP_CRPRENDERERDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1C681CE0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int CRPRendererData_TypeDefinitionIndex = 36316;
+	inline static constexpr unsigned int CRPRendererData_TypeDefinitionIndex = 37175;
 
 	class CRPRendererData : public ::RPG::CustomRP::CRPRendererDataBase
 	{
 	public:
+		static ::System::UInt32* StaticGet_Flag_ShadowHalfRes()
+		{
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(CRPRendererData_TypeDefinitionIndex)->GetStaticField(0xDB30);
+		}
 		static ::System::UInt32* StaticGet_Flag_StencilDebug()
 		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(CRPRendererData_TypeDefinitionIndex)->GetStaticField(0x11620);
-		}
-		static ::System::UInt32* StaticGet_Flag_PreAOPass()
-		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(CRPRendererData_TypeDefinitionIndex)->GetStaticField(0x11624);
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(CRPRendererData_TypeDefinitionIndex)->GetStaticField(0xDB34);
 		}
 		static ::System::UInt32* StaticGet_Flag_PreLightMRTPass()
 		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(CRPRendererData_TypeDefinitionIndex)->GetStaticField(0x11628);
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(CRPRendererData_TypeDefinitionIndex)->GetStaticField(0xDB38);
 		}
-		static ::System::UInt32* StaticGet_Flag_ShadowHalfRes()
+		static ::System::UInt32* StaticGet_Flag_PreAOPass()
 		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(CRPRendererData_TypeDefinitionIndex)->GetStaticField(0x1162C);
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(CRPRendererData_TypeDefinitionIndex)->GetStaticField(0xDB3C);
 		}
-		::RPG::CustomRP::CRPRendererData_CRPShaderResources* shaders; // 0x28
-		::RPG::CustomRP::CRPRendererData_CRPComputeResources* computes; // 0x30
-		::RPG::CustomRP::CRPRendererData_CRPDebugResources* debugs; // 0x38
-		::RPG::CustomRP::CRPRendererData_CRPTextureResources* textures; // 0x40
-		::RPG::CustomRP::FlagMask flag; // 0x48
-		::System::Collections::Generic::List_1<::RPG::CustomRP::DebugRTName*>* debugRTs; // 0x50
-		::UnityEngine::Rendering::CRPPreConfig PreConfig; // 0x58
-		::UnityEngine::Material* CharDummyMat; // 0x80
-		::UnityEngine::Rendering::CRPPassStencil _CharHairStencil; // 0x88
-		::System::Int32 _CharHairShaderID; // 0xFC
-		::UnityEngine::PassTagID _HairPass0; // 0x100
-		::UnityEngine::PassTagID _HairPass1; // 0x110
-		::Il2CppArray<::UnityEngine::Material*>* _materialsCache; // 0x120
-		::UnityEngine::Material* DefaultMaterial; // 0x128
-		::UnityEngine::Material* UIDefaultMaterial; // 0x130
-		::UnityEngine::Material* EmptyDefaultMat; // 0x138
-		::UnityEngine::Material* GLESDummyDepth; // 0x140
+		::System::Action_1<::UnityEngine::Material*>* _onDeferLightingMaterialOverride; // 0x28
+		::System::Action* _onDeferLightingMaterialRestore; // 0x30
+		::RPG::CustomRP::CRPRendererData_CRPShaderResources* shaders; // 0x38
+		::RPG::CustomRP::CRPRendererData_CRPComputeResources* computes; // 0x40
+		::RPG::CustomRP::CRPRendererData_CRPDebugResources* debugs; // 0x48
+		::RPG::CustomRP::CRPRendererData_CRPTextureResources* textures; // 0x50
+		::RPG::CustomRP::FlagMask flag; // 0x58
+		::System::Collections::Generic::List_1<::RPG::CustomRP::DebugRTName*>* debugRTs; // 0x60
+		::UnityEngine::Rendering::CRPPreConfig PreConfig; // 0x68
+		::UnityEngine::Material* CharDummyMat; // 0x90
+		::UnityEngine::Rendering::CRPPassStencil _CharHairStencil; // 0x98
+		::System::Int32 _CharHairShaderID; // 0x10C
+		::UnityEngine::PassTagID _HairPass0; // 0x110
+		::UnityEngine::PassTagID _HairPass1; // 0x120
+		::Il2CppArray<::UnityEngine::Material*>* _materialsCache; // 0x130
+		::UnityEngine::Material* DefaultMaterial; // 0x138
+		::UnityEngine::Material* UIDefaultMaterial; // 0x140
+		::UnityEngine::Material* EmptyDefaultMat; // 0x148
+		::UnityEngine::Material* GLESDummyDepth; // 0x150
 
 		::System::Void _ctor()
 		{
@@ -98,6 +103,11 @@ namespace RPG::CustomRP
 		::System::Int32 GetMatID(::RPG::CustomRP::PipelineMat a1)
 		{
 			return ((::System::Int32(*)(::PVOID, ::RPG::CustomRP::PipelineMat))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CRPRENDERERDATA_GETMATID_OFFSET))(this, a1);
+		}
+
+		::System::Void OverrideDeferLightingMaterial(::UnityEngine::Material* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Material*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CRPRENDERERDATA_OVERRIDEDEFERLIGHTINGMATERIAL_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Material* GetDefaultMaterial(::RPG::CustomRP::DefaultMatType a1)

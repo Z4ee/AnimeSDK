@@ -6,21 +6,21 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System::Runtime::Remoting::Activation { class IConstructionCallMessage; }
 
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_CONSTRUCTIONCALLDICTIONARY_GETMETHODPROPERTY_OFFSET UNITYSDK_OFFSET(0x1A1D5650)
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_CONSTRUCTIONCALLDICTIONARY_SETMETHODPROPERTY_OFFSET UNITYSDK_OFFSET(0x1A1D61B0)
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_CONSTRUCTIONCALLDICTIONARY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A1D6740)
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_CONSTRUCTIONCALLDICTIONARY__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1D4080)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_CONSTRUCTIONCALLDICTIONARY_GETMETHODPROPERTY_OFFSET UNITYSDK_OFFSET(0x1BDDD860)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_CONSTRUCTIONCALLDICTIONARY_SETMETHODPROPERTY_OFFSET UNITYSDK_OFFSET(0x1BDDE3C0)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_CONSTRUCTIONCALLDICTIONARY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BDDE960)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_CONSTRUCTIONCALLDICTIONARY__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDDC260)
 
 namespace System::Runtime::Remoting::Messaging
 {
-	inline static constexpr unsigned int ConstructionCallDictionary_TypeDefinitionIndex = 1301;
+	inline static constexpr unsigned int ConstructionCallDictionary_TypeDefinitionIndex = 1308;
 
 	class ConstructionCallDictionary : public ::System::Runtime::Remoting::Messaging::MessageDictionary
 	{
 	public:
 		static ::Il2CppArray<::System::String*>** StaticGet_InternalKeys()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ConstructionCallDictionary_TypeDefinitionIndex)->GetStaticField(0x10E50);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ConstructionCallDictionary_TypeDefinitionIndex)->GetStaticField(0x13920);
 		}
 
 		::System::Void _ctor(::System::Runtime::Remoting::Activation::IConstructionCallMessage* a1)

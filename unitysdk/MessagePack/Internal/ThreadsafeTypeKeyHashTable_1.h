@@ -8,7 +8,7 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace MessagePack::Internal
 {
-	inline static constexpr unsigned int ThreadsafeTypeKeyHashTable_1_TypeDefinitionIndex = 7260;
+	inline static constexpr unsigned int ThreadsafeTypeKeyHashTable_1_TypeDefinitionIndex = 7246;
 
 	template <typename TValue>
 	class ThreadsafeTypeKeyHashTable_1 : public ::System::Object

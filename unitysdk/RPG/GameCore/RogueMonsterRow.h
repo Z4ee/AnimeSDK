@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ROGUEMONSTERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B77A290)
-#define RPG_GAMECORE_ROGUEMONSTERROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B77B6B0)
+#define RPG_GAMECORE_ROGUEMONSTERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3FD8E0)
+#define RPG_GAMECORE_ROGUEMONSTERROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3FED00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueMonsterRow_TypeDefinitionIndex = 14100;
+	inline static constexpr unsigned int RogueMonsterRow_TypeDefinitionIndex = 14520;
 
 	class RogueMonsterRow : public ::System::Object
 	{

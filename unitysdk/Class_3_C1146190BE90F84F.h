@@ -7,27 +7,27 @@ class Class_2_EC14A02625BF0181;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace System { class String; }
 
-#define CLASS_3_C1146190BE90F84F_METHOD_3_28DFC52A1206DD2C_OFFSET UNITYSDK_OFFSET(0x1AEE2CA0)
-#define CLASS_3_C1146190BE90F84F_METHOD_3_E024E0080A08A9C9_OFFSET UNITYSDK_OFFSET(0x1AEE2CF0)
-#define CLASS_3_C1146190BE90F84F__CTOR_OFFSET UNITYSDK_OFFSET(0x1AEE2CE0)
+#define CLASS_3_C1146190BE90F84F_METHOD_3_28DFC52A1206DD2C_OFFSET UNITYSDK_OFFSET(0x1CB3DA40)
+#define CLASS_3_C1146190BE90F84F_METHOD_3_E024E0080A08A9C9_OFFSET UNITYSDK_OFFSET(0x1CB3DA90)
+#define CLASS_3_C1146190BE90F84F__CTOR_OFFSET UNITYSDK_OFFSET(0x1CB3DA80)
 
-inline static constexpr unsigned int Class_3_C1146190BE90F84F_TypeDefinitionIndex = 22043;
+inline static constexpr unsigned int Class_3_C1146190BE90F84F_TypeDefinitionIndex = 22610;
 
 class Class_3_C1146190BE90F84F : public ::RPG::GameCore::TaskConfig
 {
 public:
-	::Class_2_EC14A02625BF0181* Field_3_0; // 0x18
-	::RPG::GameCore::DynamicFloat* Field_3_1; // 0x20
-	::RPG::GameCore::DynamicFloat* Field_3_2; // 0x28
-	::System::String* Field_3_3; // 0x30
-	::RPG::GameCore::DynamicFloat* Field_3_4; // 0x38
-	::Class_2_EC14A02625BF0181* Field_3_5; // 0x40
-	::RPG::GameCore::DynamicFloat* Field_3_6; // 0x48
-	::RPG::GameCore::DynamicFloat* Field_3_7; // 0x50
-	::RPG::GameCore::DynamicFloat* Field_3_8; // 0x58
-	::System::Boolean Field_3_9; // 0x60
-	::System::Boolean Field_3_10; // 0x61
-	::System::Boolean Field_3_11; // 0x62
+	::RPG::GameCore::DynamicFloat* DPOADEGJFJN; // 0x18
+	::RPG::GameCore::DynamicFloat* PDELICMHBEG; // 0x20
+	::System::String* EMHGEGEGJEI; // 0x28
+	::RPG::GameCore::DynamicFloat* MKAIFLDPHGD; // 0x30
+	::RPG::GameCore::DynamicFloat* MEMDDBLODBL; // 0x38
+	::RPG::GameCore::DynamicFloat* NJKLFNLALJL; // 0x40
+	::Class_2_EC14A02625BF0181* IDJADOBDIFG; // 0x48
+	::RPG::GameCore::DynamicFloat* JPEIKNPHGBB; // 0x50
+	::Class_2_EC14A02625BF0181* HJKLHEIOJBG; // 0x58
+	::System::Boolean GKIOLMEAOJC; // 0x60
+	::System::Boolean LPJDKNICJAM; // 0x61
+	::System::Boolean IBDLGGNNJMP; // 0x62
 
 	::System::Void _ctor()
 	{

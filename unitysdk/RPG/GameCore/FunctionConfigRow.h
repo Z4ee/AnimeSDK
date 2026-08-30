@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 class Class_1_A88C3AAF0DD46F4C_10;
 
-#define RPG_GAMECORE_FUNCTIONCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B4A57A0)
-#define RPG_GAMECORE_FUNCTIONCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4A59A0)
+#define RPG_GAMECORE_FUNCTIONCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D11E970)
+#define RPG_GAMECORE_FUNCTIONCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D11EB70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FunctionConfigRow_TypeDefinitionIndex = 12818;
+	inline static constexpr unsigned int FunctionConfigRow_TypeDefinitionIndex = 13209;
 
 	class FunctionConfigRow : public ::System::Object
 	{

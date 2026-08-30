@@ -7,12 +7,12 @@
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_GLOBALMAININTENSITYTIMELINETRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xDCDF180)
-#define RPGTOOLS_TIMELINE_GLOBALMAININTENSITYTIMELINETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xDCDF230)
+#define RPGTOOLS_TIMELINE_GLOBALMAININTENSITYTIMELINETRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE85FD90)
+#define RPGTOOLS_TIMELINE_GLOBALMAININTENSITYTIMELINETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xE85FE40)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int GlobalMainIntensityTimelineTrack_TypeDefinitionIndex = 46682;
+	inline static constexpr unsigned int GlobalMainIntensityTimelineTrack_TypeDefinitionIndex = 48927;
 
 	class GlobalMainIntensityTimelineTrack : public ::UnityEngine::Timeline::TrackAsset
 	{

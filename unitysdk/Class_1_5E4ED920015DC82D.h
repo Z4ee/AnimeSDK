@@ -8,19 +8,19 @@ namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
-template <typename T> class Class_1_5E4ED920015DC82D_Class_3_B6136C2F127116DF;
+template <typename T> class Class_1_5E4ED920015DC82D_Class_3_B6136C2F127116DF_1;
 
-#define CLASS_1_5E4ED920015DC82D_DISPOSE_OFFSET UNITYSDK_OFFSET(0xAD5B5A0)
-#define CLASS_1_5E4ED920015DC82D_METHOD_1_F33FA80583E449C6_OFFSET UNITYSDK_OFFSET(0xAD5B490)
-#define CLASS_1_5E4ED920015DC82D__CTOR_OFFSET UNITYSDK_OFFSET(0xAD5B6F0)
+#define CLASS_1_5E4ED920015DC82D_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB4E8400)
+#define CLASS_1_5E4ED920015DC82D_METHOD_1_F33FA80583E449C6_OFFSET UNITYSDK_OFFSET(0xB4E82F0)
+#define CLASS_1_5E4ED920015DC82D__CTOR_OFFSET UNITYSDK_OFFSET(0xB4E8550)
 
-inline static constexpr unsigned int Class_1_5E4ED920015DC82D_TypeDefinitionIndex = 45905;
+inline static constexpr unsigned int Class_1_5E4ED920015DC82D_TypeDefinitionIndex = 50102;
 
 class Class_1_5E4ED920015DC82D : public ::System::Object
 {
 public:
-	::System::Collections::Generic::Dictionary_2<::System::UInt16, ::System::Collections::Generic::List_1<::System::Action_2<::System::UInt16, ::System::Object*>*>*>* Field_1_0; // 0x10
-	::System::Collections::Generic::Dictionary_2<::System::UInt16, ::RPG::Client::Promises::IPromiseInfo*>* Field_1_1; // 0x18
+	::System::Collections::Generic::Dictionary_2<::System::UInt16, ::RPG::Client::Promises::IPromiseInfo*>* FIMFDOLGEBE; // 0x10
+	::System::Collections::Generic::Dictionary_2<::System::UInt16, ::System::Collections::Generic::List_1<::System::Action_2<::System::UInt16, ::System::Object*>*>*>* HFAEJDDKEOJ; // 0x18
 
 	::System::Void _ctor()
 	{

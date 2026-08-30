@@ -5,22 +5,22 @@
 
 namespace RPG::GameCore { class LevelNavNodeConditionInfos; }
 
-#define CLASS_1_16783D700FF01CF4__CTOR_OFFSET UNITYSDK_OFFSET(0x1547BA10)
+#define CLASS_1_16783D700FF01CF4__CTOR_OFFSET UNITYSDK_OFFSET(0x163C67E0)
 
-inline static constexpr unsigned int Class_1_16783D700FF01CF4_TypeDefinitionIndex = 61301;
+inline static constexpr unsigned int Class_1_16783D700FF01CF4_TypeDefinitionIndex = 64282;
 
 class Class_1_16783D700FF01CF4 : public ::System::Object
 {
 public:
-	::Il2CppArray<::RPG::GameCore::LevelNavNodeConditionInfos*>* Field_1_0; // 0x10
-	::System::UInt32 Field_1_1; // 0x18
-	::System::UInt32 Field_1_2; // 0x1C
-	::RPG::Client::FiveDimNavTransitType Field_1_3; // 0x20
-	::System::UInt32 Field_1_4; // 0x24
-	::System::Boolean Field_1_5; // 0x28
-	::System::UInt32 Field_1_6; // 0x2C
-	::System::UInt32 Field_1_7; // 0x30
-	::System::UInt32 Field_1_8; // 0x34
+	::Il2CppArray<::RPG::GameCore::LevelNavNodeConditionInfos*>* ENFHFDNJAGC; // 0x10
+	::System::UInt32 GFBJJBJEBOG; // 0x18
+	::System::UInt32 ACIIMADPMPL; // 0x1C
+	::System::UInt32 DHOGDNEMDKN; // 0x20
+	::System::Boolean HDFCLOAGEHB; // 0x24
+	::System::UInt32 CFAINNFGCMB; // 0x28
+	::System::UInt32 NCBBOGCEBAP; // 0x2C
+	::RPG::Client::FiveDimNavTransitType KILKHAIIEPF; // 0x30
+	::System::UInt32 FKEMNAJNCJH; // 0x34
 
 	::System::Void _ctor()
 	{

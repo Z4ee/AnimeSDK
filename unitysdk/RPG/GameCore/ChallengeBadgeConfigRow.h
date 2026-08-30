@@ -8,28 +8,28 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHALLENGEBADGECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B305580)
-#define RPG_GAMECORE_CHALLENGEBADGECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B305A20)
+#define RPG_GAMECORE_CHALLENGEBADGECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CF81400)
+#define RPG_GAMECORE_CHALLENGEBADGECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF818A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChallengeBadgeConfigRow_TypeDefinitionIndex = 12459;
+	inline static constexpr unsigned int ChallengeBadgeConfigRow_TypeDefinitionIndex = 12850;
 
 	class ChallengeBadgeConfigRow : public ::System::Object
 	{
 	public:
-		::System::String* IconFigurePath; // 0x10
-		::System::String* Prefab; // 0x18
-		::System::String* IconMiddlePath; // 0x20
-		::System::String* IconItemPath; // 0x28
-		::RPG::Client::TextID ComeFromText; // 0x30
-		::RPG::GameCore::BadgeChallengeType Type; // 0x40
-		::System::UInt32 ComeFromGoto; // 0x44
-		::RPG::Client::TextID Name; // 0x48
-		::System::UInt32 ChallengePeakGroupID; // 0x58
-		::RPG::GameCore::BadgeType ChallengePeakLevel; // 0x5C
-		::RPG::Client::TextID Desc; // 0x60
-		::System::UInt32 BadgeID; // 0x70
+		::System::String* Prefab; // 0x10
+		::System::String* IconFigurePath; // 0x18
+		::System::String* IconItemPath; // 0x20
+		::System::String* IconMiddlePath; // 0x28
+		::System::UInt32 BadgeID; // 0x30
+		::RPG::GameCore::BadgeType ChallengePeakLevel; // 0x34
+		::System::UInt32 ChallengePeakGroupID; // 0x38
+		::RPG::GameCore::BadgeChallengeType Type; // 0x3C
+		::RPG::Client::TextID ComeFromText; // 0x40
+		::System::UInt32 ComeFromGoto; // 0x50
+		::RPG::Client::TextID Name; // 0x58
+		::RPG::Client::TextID Desc; // 0x68
 
 		::System::Void _ctor()
 		{

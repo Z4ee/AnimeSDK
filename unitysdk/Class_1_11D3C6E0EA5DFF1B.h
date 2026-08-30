@@ -6,17 +6,17 @@ class Class_1_D33B7D6901AE39E9;
 class Class_2_FD51057495DB654F;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_11D3C6E0EA5DFF1B_CLEANUP_OFFSET UNITYSDK_OFFSET(0x1A786F40)
-#define CLASS_1_11D3C6E0EA5DFF1B_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1A7878F0)
-#define CLASS_1_11D3C6E0EA5DFF1B__CTOR_OFFSET UNITYSDK_OFFSET(0x1A786F30)
+#define CLASS_1_11D3C6E0EA5DFF1B_CLEANUP_OFFSET UNITYSDK_OFFSET(0x1C3AD710)
+#define CLASS_1_11D3C6E0EA5DFF1B_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1C3AE0C0)
+#define CLASS_1_11D3C6E0EA5DFF1B__CTOR_OFFSET UNITYSDK_OFFSET(0x1C3AD700)
 
-inline static constexpr unsigned int Class_1_11D3C6E0EA5DFF1B_TypeDefinitionIndex = 39615;
+inline static constexpr unsigned int Class_1_11D3C6E0EA5DFF1B_TypeDefinitionIndex = 40488;
 
 class Class_1_11D3C6E0EA5DFF1B : public ::System::Object
 {
 public:
-	::Class_1_D33B7D6901AE39E9* Field_1_0; // 0x10
-	::System::Collections::Generic::List_1<::Class_2_FD51057495DB654F*>* Field_1_1; // 0x18
+	::Class_1_D33B7D6901AE39E9* MBKIEFPKECG; // 0x10
+	::System::Collections::Generic::List_1<::Class_2_FD51057495DB654F*>* PICPKMADHBH; // 0x18
 
 	::System::Void _ctor(::Class_1_D33B7D6901AE39E9* a1)
 	{

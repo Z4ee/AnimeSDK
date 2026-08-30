@@ -8,18 +8,18 @@ namespace RPG::Client::LittleGame::FiveDim { class FiveDimView_Class_1_6020EABE4
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMGRIDPROPVIEW_CLASS_1_5843CB20A0A19F99_CLEAR_OFFSET UNITYSDK_OFFSET(0xC9AE890)
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMGRIDPROPVIEW_CLASS_1_5843CB20A0A19F99__CTOR_OFFSET UNITYSDK_OFFSET(0xC9AE9D0)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMGRIDPROPVIEW_CLASS_1_5843CB20A0A19F99_CLEAR_OFFSET UNITYSDK_OFFSET(0xD4EB4E0)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMGRIDPROPVIEW_CLASS_1_5843CB20A0A19F99__CTOR_OFFSET UNITYSDK_OFFSET(0xD4EB620)
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int FiveDimGridPropView_Class_1_5843CB20A0A19F99_TypeDefinitionIndex = 73235;
+	inline static constexpr unsigned int FiveDimGridPropView_Class_1_5843CB20A0A19F99_TypeDefinitionIndex = 76711;
 
 	class FiveDimGridPropView_Class_1_5843CB20A0A19F99 : public ::System::Object
 	{
 	public:
-		::RPG::PoolDictionary_2<::System::String*, ::RPG::PoolList_1<::RPG::Client::LittleGame::FiveDim::FiveDimView_Class_1_6020EABE4EF866AD*>*>* Field_1_0; // 0x10
-		::UnityEngine::GameObject* Field_1_1; // 0x18
+		::UnityEngine::GameObject* OAGHFEOLJOH; // 0x10
+		::RPG::PoolDictionary_2<::System::String*, ::RPG::PoolList_1<::RPG::Client::LittleGame::FiveDim::FiveDimView_Class_1_6020EABE4EF866AD*>*>* ODFADCFOJKH; // 0x18
 
 		::System::Void _ctor()
 		{

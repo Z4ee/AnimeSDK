@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TeamTowersPlayerInputType_TypeDefinitionIndex = 23707;
+	inline static constexpr unsigned int TeamTowersPlayerInputType_TypeDefinitionIndex = 24292;
 
 	enum class TeamTowersPlayerInputType : ::System::Int32
 	{

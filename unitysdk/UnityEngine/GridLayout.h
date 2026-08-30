@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Behaviour.h"
 
-#define UNITYENGINE_GRIDLAYOUT_DONOTHING_OFFSET UNITYSDK_OFFSET(0x1D070700)
+#define UNITYENGINE_GRIDLAYOUT_DONOTHING_OFFSET UNITYSDK_OFFSET(0x1ED7A580)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int GridLayout_TypeDefinitionIndex = 5206;
+	inline static constexpr unsigned int GridLayout_TypeDefinitionIndex = 5151;
 
 	class GridLayout : public ::UnityEngine::Behaviour
 	{

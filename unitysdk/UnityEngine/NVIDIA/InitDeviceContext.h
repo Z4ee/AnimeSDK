@@ -7,12 +7,12 @@ namespace System { class String; }
 namespace UnityEngine::NVIDIA { class NativeStr; }
 namespace UnityEngine::NVIDIA { template <typename T> class NativeData_1; }
 
-#define UNITYENGINE_NVIDIA_INITDEVICECONTEXT_GETINITCMDPTR_OFFSET UNITYSDK_OFFSET(0x1D09FE60)
-#define UNITYENGINE_NVIDIA_INITDEVICECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D09FB40)
+#define UNITYENGINE_NVIDIA_INITDEVICECONTEXT_GETINITCMDPTR_OFFSET UNITYSDK_OFFSET(0x1EDA9F30)
+#define UNITYENGINE_NVIDIA_INITDEVICECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1EDA9C10)
 
 namespace UnityEngine::NVIDIA
 {
-	inline static constexpr unsigned int InitDeviceContext_TypeDefinitionIndex = 5012;
+	inline static constexpr unsigned int InitDeviceContext_TypeDefinitionIndex = 5024;
 
 	class InitDeviceContext : public ::System::Object
 	{

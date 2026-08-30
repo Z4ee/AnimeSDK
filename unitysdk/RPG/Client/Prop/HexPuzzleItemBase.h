@@ -3,17 +3,17 @@
 #include "unitysdk/RPG/Client/Prop/InteractPuzzleItemBase.h"
 #include "unitysdk/Struct_2_32361ACFB28DADC0.h"
 
-#define RPG_CLIENT_PROP_HEXPUZZLEITEMBASE_GET_COORD_OFFSET UNITYSDK_OFFSET(0xD16ABE0)
-#define RPG_CLIENT_PROP_HEXPUZZLEITEMBASE__CTOR_OFFSET UNITYSDK_OFFSET(0xD16AC30)
+#define RPG_CLIENT_PROP_HEXPUZZLEITEMBASE_GET_COORD_OFFSET UNITYSDK_OFFSET(0xDC6F1C0)
+#define RPG_CLIENT_PROP_HEXPUZZLEITEMBASE__CTOR_OFFSET UNITYSDK_OFFSET(0xDC6F210)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int HexPuzzleItemBase_TypeDefinitionIndex = 74657;
+	inline static constexpr unsigned int HexPuzzleItemBase_TypeDefinitionIndex = 78142;
 
 	class HexPuzzleItemBase : public ::RPG::Client::Prop::InteractPuzzleItemBase
 	{
 	public:
-		::Struct_2_32361ACFB28DADC0 Field_6_0; // 0x28
+		::Struct_2_32361ACFB28DADC0 HOGCHABAPFK; // 0x28
 
 		::System::Void _ctor()
 		{

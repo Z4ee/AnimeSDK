@@ -6,12 +6,12 @@
 namespace HoudiniEngineUnity { class CurveNodeData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define HOUDINIENGINEUNITY_HEU_CURVE___C__DISPLAYCLASS60_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1984A250)
-#define HOUDINIENGINEUNITY_HEU_CURVE___C__DISPLAYCLASS60_0__GETALLPOINTS_B__0_OFFSET UNITYSDK_OFFSET(0x19853530)
+#define HOUDINIENGINEUNITY_HEU_CURVE___C__DISPLAYCLASS60_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3D5790)
+#define HOUDINIENGINEUNITY_HEU_CURVE___C__DISPLAYCLASS60_0__GETALLPOINTS_B__0_OFFSET UNITYSDK_OFFSET(0x1B3DEA90)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_Curve___c__DisplayClass60_0_TypeDefinitionIndex = 38228;
+	inline static constexpr unsigned int HEU_Curve___c__DisplayClass60_0_TypeDefinitionIndex = 39087;
 
 	class HEU_Curve___c__DisplayClass60_0 : public ::System::Object
 	{

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AdvChaseBailuSetDoor; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_7FD1B77F48DE2F5F_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB4B6260)
-#define CLASS_3_7FD1B77F48DE2F5F__CTOR_OFFSET UNITYSDK_OFFSET(0xB4B6230)
+#define CLASS_3_7FD1B77F48DE2F5F_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBEA5670)
+#define CLASS_3_7FD1B77F48DE2F5F__CTOR_OFFSET UNITYSDK_OFFSET(0xBEA5640)
 
-inline static constexpr unsigned int Class_3_7FD1B77F48DE2F5F_TypeDefinitionIndex = 49955;
+inline static constexpr unsigned int Class_3_7FD1B77F48DE2F5F_TypeDefinitionIndex = 52616;
 
 class Class_3_7FD1B77F48DE2F5F : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AdvChaseBailuSetDoor*>
 {

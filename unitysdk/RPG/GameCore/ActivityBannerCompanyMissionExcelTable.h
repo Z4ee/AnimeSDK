@@ -11,45 +11,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_ACTIVITYBANNERCOMPANYMISSIONEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1B103130)
-#define RPG_GAMECORE_ACTIVITYBANNERCOMPANYMISSIONEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1B103000)
-#define RPG_GAMECORE_ACTIVITYBANNERCOMPANYMISSIONEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1B102CF0)
-#define RPG_GAMECORE_ACTIVITYBANNERCOMPANYMISSIONEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1B102FA0)
-#define RPG_GAMECORE_ACTIVITYBANNERCOMPANYMISSIONEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1B103280)
-#define RPG_GAMECORE_ACTIVITYBANNERCOMPANYMISSIONEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1B102D70)
-#define RPG_GAMECORE_ACTIVITYBANNERCOMPANYMISSIONEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1B1032C0)
-#define RPG_GAMECORE_ACTIVITYBANNERCOMPANYMISSIONEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B103490)
-#define RPG_GAMECORE_ACTIVITYBANNERCOMPANYMISSIONEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1B103960)
-#define RPG_GAMECORE_ACTIVITYBANNERCOMPANYMISSIONEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B103C80)
-#define RPG_GAMECORE_ACTIVITYBANNERCOMPANYMISSIONEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1B1033F0)
-#define RPG_GAMECORE_ACTIVITYBANNERCOMPANYMISSIONEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1B103350)
+#define RPG_GAMECORE_ACTIVITYBANNERCOMPANYMISSIONEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1CD79820)
+#define RPG_GAMECORE_ACTIVITYBANNERCOMPANYMISSIONEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1CD796F0)
+#define RPG_GAMECORE_ACTIVITYBANNERCOMPANYMISSIONEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1CD793E0)
+#define RPG_GAMECORE_ACTIVITYBANNERCOMPANYMISSIONEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1CD79690)
+#define RPG_GAMECORE_ACTIVITYBANNERCOMPANYMISSIONEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1CD79970)
+#define RPG_GAMECORE_ACTIVITYBANNERCOMPANYMISSIONEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1CD79460)
+#define RPG_GAMECORE_ACTIVITYBANNERCOMPANYMISSIONEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1CD799B0)
+#define RPG_GAMECORE_ACTIVITYBANNERCOMPANYMISSIONEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CD79B80)
+#define RPG_GAMECORE_ACTIVITYBANNERCOMPANYMISSIONEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1CD7A050)
+#define RPG_GAMECORE_ACTIVITYBANNERCOMPANYMISSIONEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CD7A370)
+#define RPG_GAMECORE_ACTIVITYBANNERCOMPANYMISSIONEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1CD79AE0)
+#define RPG_GAMECORE_ACTIVITYBANNERCOMPANYMISSIONEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1CD79A40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityBannerCompanyMissionExcelTable_TypeDefinitionIndex = 10588;
+	inline static constexpr unsigned int ActivityBannerCompanyMissionExcelTable_TypeDefinitionIndex = 10963;
 
 	class ActivityBannerCompanyMissionExcelTable : public ::System::Object
 	{
 	public:
+		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
+		{
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityBannerCompanyMissionExcelTable_TypeDefinitionIndex)->GetStaticField(0x52CA0);
+		}
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityBannerCompanyMissionExcelTable_TypeDefinitionIndex)->GetStaticField(0x1BC70);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityBannerCompanyMissionExcelTable_TypeDefinitionIndex)->GetStaticField(0x52CA8);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ActivityBannerCompanyMissionRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ActivityBannerCompanyMissionRow*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityBannerCompanyMissionExcelTable_TypeDefinitionIndex)->GetStaticField(0x1BC78);
-		}
-		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
-		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityBannerCompanyMissionExcelTable_TypeDefinitionIndex)->GetStaticField(0x1BC80);
-		}
-		static ::System::Boolean* StaticGet_isDataLoaded()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ActivityBannerCompanyMissionExcelTable_TypeDefinitionIndex)->GetStaticField(0x6450);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ActivityBannerCompanyMissionRow*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityBannerCompanyMissionExcelTable_TypeDefinitionIndex)->GetStaticField(0x52CB0);
 		}
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(ActivityBannerCompanyMissionExcelTable_TypeDefinitionIndex)->GetStaticField(0x6451);
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(ActivityBannerCompanyMissionExcelTable_TypeDefinitionIndex)->GetStaticField(0x11570);
+		}
+		static ::System::Boolean* StaticGet_isDataLoaded()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ActivityBannerCompanyMissionExcelTable_TypeDefinitionIndex)->GetStaticField(0x11571);
 		}
 
 		static ::System::Void _cctor()

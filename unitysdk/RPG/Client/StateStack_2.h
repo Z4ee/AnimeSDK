@@ -9,7 +9,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int StateStack_2_TypeDefinitionIndex = 67028;
+	inline static constexpr unsigned int StateStack_2_TypeDefinitionIndex = 70133;
 
 	template <typename T, typename KEY>
 	class StateStack_2 : public ::System::Object

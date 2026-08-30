@@ -6,16 +6,16 @@ class Class_1_5F51D4049EA87B7B;
 namespace RPG::GameCore { class AdvFilterNearbyMonsters; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_1CAD9764E7A551F7_DISPOSE_OFFSET UNITYSDK_OFFSET(0x14C3D620)
-#define CLASS_3_1CAD9764E7A551F7_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x14C3CF70)
-#define CLASS_3_1CAD9764E7A551F7__CTOR_OFFSET UNITYSDK_OFFSET(0x14C3CF40)
+#define CLASS_3_1CAD9764E7A551F7_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15AFA300)
+#define CLASS_3_1CAD9764E7A551F7_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15AF9C50)
+#define CLASS_3_1CAD9764E7A551F7__CTOR_OFFSET UNITYSDK_OFFSET(0x15AF9C20)
 
-inline static constexpr unsigned int Class_3_1CAD9764E7A551F7_TypeDefinitionIndex = 49987;
+inline static constexpr unsigned int Class_3_1CAD9764E7A551F7_TypeDefinitionIndex = 52648;
 
 class Class_3_1CAD9764E7A551F7 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AdvFilterNearbyMonsters*>
 {
 public:
-	::Class_1_5F51D4049EA87B7B* Field_3_0; // 0x28
+	::Class_1_5F51D4049EA87B7B* PAEHDGLDOMH; // 0x28
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::AdvFilterNearbyMonsters* a2)
 	{

@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIVEDIMRTPCCONFIG_METHOD_2_BDD4A582CCB26203_OFFSET UNITYSDK_OFFSET(0x1B444240)
-#define RPG_GAMECORE_FIVEDIMRTPCCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4444B0)
+#define RPG_GAMECORE_FIVEDIMRTPCCONFIG_METHOD_2_BDD4A582CCB26203_OFFSET UNITYSDK_OFFSET(0x1D0FD6B0)
+#define RPG_GAMECORE_FIVEDIMRTPCCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0FD920)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimRTPCConfig_TypeDefinitionIndex = 16061;
+	inline static constexpr unsigned int FiveDimRTPCConfig_TypeDefinitionIndex = 16537;
 
 	class FiveDimRTPCConfig : public ::RPG::GameCore::JsonConfig
 	{

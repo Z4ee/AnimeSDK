@@ -7,7 +7,7 @@ namespace RPG::Client::LittleGame { template <typename T> class IEntityScaledTim
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int BaseBillBoardSystem_1_TypeDefinitionIndex = 72961;
+	inline static constexpr unsigned int BaseBillBoardSystem_1_TypeDefinitionIndex = 76435;
 
 	template <typename T>
 	class BaseBillBoardSystem_1 : public ::System::Object

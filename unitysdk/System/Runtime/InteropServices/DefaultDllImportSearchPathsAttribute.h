@@ -3,11 +3,11 @@
 #include "unitysdk/System/Attribute.h"
 #include "unitysdk/System/Runtime/InteropServices/DllImportSearchPath.h"
 
-#define SYSTEM_RUNTIME_INTEROPSERVICES_DEFAULTDLLIMPORTSEARCHPATHSATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1B4C00)
+#define SYSTEM_RUNTIME_INTEROPSERVICES_DEFAULTDLLIMPORTSEARCHPATHSATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDBCB20)
 
 namespace System::Runtime::InteropServices
 {
-	inline static constexpr unsigned int DefaultDllImportSearchPathsAttribute_TypeDefinitionIndex = 1413;
+	inline static constexpr unsigned int DefaultDllImportSearchPathsAttribute_TypeDefinitionIndex = 1420;
 
 	class DefaultDllImportSearchPathsAttribute : public ::System::Attribute
 	{

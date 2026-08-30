@@ -7,20 +7,20 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ROGUEDLCENTRANCEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B757AC0)
-#define RPG_GAMECORE_ROGUEDLCENTRANCEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7582B0)
+#define RPG_GAMECORE_ROGUEDLCENTRANCEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3DABC0)
+#define RPG_GAMECORE_ROGUEDLCENTRANCEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3DB370)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueDLCEntranceRow_TypeDefinitionIndex = 14218;
+	inline static constexpr unsigned int RogueDLCEntranceRow_TypeDefinitionIndex = 14638;
 
 	class RogueDLCEntranceRow : public ::System::Object
 	{
 	public:
-		::System::String* SwitchBannerImgPath; // 0x10
-		::System::String* ButtonPath; // 0x18
-		::Il2CppArray<::System::UInt32>* RewardList; // 0x20
-		::System::String* PatternBgPath; // 0x28
+		::System::String* ButtonPath; // 0x10
+		::System::String* SwitchBannerImgPath; // 0x18
+		::System::String* PatternBgPath; // 0x20
+		::Il2CppArray<::System::UInt32>* RewardList; // 0x28
 		::RPG::Client::TextID SubTypeTitle; // 0x30
 		::System::UInt32 ID; // 0x40
 		::RPG::GameCore::RogueSubMode SubType; // 0x44

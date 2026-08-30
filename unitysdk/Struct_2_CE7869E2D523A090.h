@@ -5,16 +5,16 @@
 
 namespace RPG::Client { class BAPartVariantRef; }
 
-#define STRUCT_2_CE7869E2D523A090_METHOD_2_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x81D60)
+#define STRUCT_2_CE7869E2D523A090_METHOD_2_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x86E60)
 
-inline static constexpr unsigned int Struct_2_CE7869E2D523A090_TypeDefinitionIndex = 66392;
+inline static constexpr unsigned int Struct_2_CE7869E2D523A090_TypeDefinitionIndex = 69485;
 
 struct alignas(8) Struct_2_CE7869E2D523A090
 {
-	::UnityEngine::Rendering::BAVariantKey Field_2_0; // 0x10
-	::System::Int32 Field_2_1; // 0x20
-	::RPG::Client::BAPartVariantRef* Field_2_2; // 0x28
-	::System::Boolean Field_2_3; // 0x30
+	::UnityEngine::Rendering::BAVariantKey FJFOPHFLGKG; // 0x10
+	::System::Int32 NOIEMNLMACN; // 0x20
+	::RPG::Client::BAPartVariantRef* AJHEFIIPFFK; // 0x28
+	::System::Boolean KFJDMBPBOBP; // 0x30
 
 	::System::Void Method_2_4343F372F34C05BF()
 	{

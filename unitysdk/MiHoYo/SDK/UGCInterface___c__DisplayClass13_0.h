@@ -8,20 +8,20 @@ namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MIHOYO_SDK_UGCINTERFACE___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0xAB78860)
-#define MIHOYO_SDK_UGCINTERFACE___C__DISPLAYCLASS13_0__HTTPGETBINARY_B__0_OFFSET UNITYSDK_OFFSET(0xAB7D000)
-#define MIHOYO_SDK_UGCINTERFACE___C__DISPLAYCLASS13_0__HTTPGETBINARY_B__1_OFFSET UNITYSDK_OFFSET(0xAB7D280)
+#define MIHOYO_SDK_UGCINTERFACE___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB2BCBE0)
+#define MIHOYO_SDK_UGCINTERFACE___C__DISPLAYCLASS13_0__HTTPGETBINARY_B__0_OFFSET UNITYSDK_OFFSET(0xB2C1340)
+#define MIHOYO_SDK_UGCINTERFACE___C__DISPLAYCLASS13_0__HTTPGETBINARY_B__1_OFFSET UNITYSDK_OFFSET(0xB2C15C0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int UGCInterface___c__DisplayClass13_0_TypeDefinitionIndex = 44710;
+	inline static constexpr unsigned int UGCInterface___c__DisplayClass13_0_TypeDefinitionIndex = 46896;
 
 	class UGCInterface___c__DisplayClass13_0 : public ::System::Object
 	{
 	public:
-		::System::Action_1<::MiHoYo::SDK::UGCInterface_UgcBinaryResponseModel*>* callback; // 0x10
-		::MiHoYo::SDK::UGCInterface* __4__this; // 0x18
-		::System::String* strTaskId; // 0x20
+		::MiHoYo::SDK::UGCInterface* __4__this; // 0x10
+		::System::String* strTaskId; // 0x18
+		::System::Action_1<::MiHoYo::SDK::UGCInterface_UgcBinaryResponseModel*>* callback; // 0x20
 
 		::System::Void _ctor()
 		{

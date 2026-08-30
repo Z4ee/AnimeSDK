@@ -5,7 +5,7 @@
 
 namespace InControl
 {
-	inline static constexpr unsigned int IMouseProvider_TypeDefinitionIndex = 38707;
+	inline static constexpr unsigned int IMouseProvider_TypeDefinitionIndex = 39566;
 
 	class IMouseProvider
 	{

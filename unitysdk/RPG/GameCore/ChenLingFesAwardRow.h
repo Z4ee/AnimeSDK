@@ -4,21 +4,21 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_CHENLINGFESAWARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B3359B0)
-#define RPG_GAMECORE_CHENLINGFESAWARDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B335BA0)
+#define RPG_GAMECORE_CHENLINGFESAWARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CFB1D50)
+#define RPG_GAMECORE_CHENLINGFESAWARDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFB1F40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingFesAwardRow_TypeDefinitionIndex = 10715;
+	inline static constexpr unsigned int ChenLingFesAwardRow_TypeDefinitionIndex = 11090;
 
 	class ChenLingFesAwardRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 ExtraItem; // 0x10
+		::System::UInt32 ExtendNum; // 0x10
 		::System::UInt32 AdjustNum; // 0x14
-		::System::UInt32 ID; // 0x18
+		::System::UInt32 ExtraItem; // 0x18
 		::System::UInt32 RerollNum; // 0x1C
-		::System::UInt32 ExtendNum; // 0x20
+		::System::UInt32 ID; // 0x20
 
 		::System::Void _ctor()
 		{

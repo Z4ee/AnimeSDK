@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_NETUTIL_HTTPRESPONSE__CTOR_OFFSET UNITYSDK_OFFSET(0x19D4F4E0)
+#define MIHOYO_SDK_NETUTIL_HTTPRESPONSE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9AC0F0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int NetUtil_HttpResponse_TypeDefinitionIndex = 8137;
+	inline static constexpr unsigned int NetUtil_HttpResponse_TypeDefinitionIndex = 8142;
 
 	class NetUtil_HttpResponse : public ::System::Object
 	{

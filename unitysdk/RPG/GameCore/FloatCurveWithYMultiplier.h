@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class FloatCurve; }
 
-#define RPG_GAMECORE_FLOATCURVEWITHYMULTIPLIER_METHOD_2_32B91A6B07FC6A7C_OFFSET UNITYSDK_OFFSET(0x1B445380)
-#define RPG_GAMECORE_FLOATCURVEWITHYMULTIPLIER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B451180)
+#define RPG_GAMECORE_FLOATCURVEWITHYMULTIPLIER_METHOD_2_32B91A6B07FC6A7C_OFFSET UNITYSDK_OFFSET(0x1D10B2A0)
+#define RPG_GAMECORE_FLOATCURVEWITHYMULTIPLIER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D10B380)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FloatCurveWithYMultiplier_TypeDefinitionIndex = 15997;
+	inline static constexpr unsigned int FloatCurveWithYMultiplier_TypeDefinitionIndex = 16473;
 
 	class FloatCurveWithYMultiplier : public ::RPG::GameCore::JsonConfig
 	{

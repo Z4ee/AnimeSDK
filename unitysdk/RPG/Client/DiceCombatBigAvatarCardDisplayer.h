@@ -16,76 +16,76 @@ namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI { class Image; }
 namespace UnityEngine::UI { class ScrollRect; }
 
-#define RPG_CLIENT_DICECOMBATBIGAVATARCARDDISPLAYER_CREATE_OFFSET UNITYSDK_OFFSET(0xC291E00)
-#define RPG_CLIENT_DICECOMBATBIGAVATARCARDDISPLAYER_FOCUSONSPECIALDICEICON_OFFSET UNITYSDK_OFFSET(0xC294D90)
-#define RPG_CLIENT_DICECOMBATBIGAVATARCARDDISPLAYER_ONDISPOSE_OFFSET UNITYSDK_OFFSET(0xC295580)
-#define RPG_CLIENT_DICECOMBATBIGAVATARCARDDISPLAYER_REMOVECOLOR_OFFSET UNITYSDK_OFFSET(0xC295120)
-#define RPG_CLIENT_DICECOMBATBIGAVATARCARDDISPLAYER_SETUPVIEW_OFFSET UNITYSDK_OFFSET(0xC293300)
-#define RPG_CLIENT_DICECOMBATBIGAVATARCARDDISPLAYER__ASYNCLOADSPRITETO_OFFSET UNITYSDK_OFFSET(0xC295860)
-#define RPG_CLIENT_DICECOMBATBIGAVATARCARDDISPLAYER__BIND_OFFSET UNITYSDK_OFFSET(0xC291EC0)
-#define RPG_CLIENT_DICECOMBATBIGAVATARCARDDISPLAYER__CCTOR_OFFSET UNITYSDK_OFFSET(0xC295C80)
-#define RPG_CLIENT_DICECOMBATBIGAVATARCARDDISPLAYER__CTOR_OFFSET UNITYSDK_OFFSET(0xC291EB0)
-#define RPG_CLIENT_DICECOMBATBIGAVATARCARDDISPLAYER__ONREMOVECOLORMATTWEENTICK_OFFSET UNITYSDK_OFFSET(0xC295AC0)
-#define RPG_CLIENT_DICECOMBATBIGAVATARCARDDISPLAYER__SETUPAVAILABLEDICEVIEW_OFFSET UNITYSDK_OFFSET(0xC2945E0)
-#define RPG_CLIENT_DICECOMBATBIGAVATARCARDDISPLAYER__SETUPLEVELVIEW_OFFSET UNITYSDK_OFFSET(0xC293BF0)
-#define RPG_CLIENT_DICECOMBATBIGAVATARCARDDISPLAYER__SETUPREMOVECOLORMAT_OFFSET UNITYSDK_OFFSET(0xC295170)
-#define RPG_CLIENT_DICECOMBATBIGAVATARCARDDISPLAYER__SETUPSTARVIEW_OFFSET UNITYSDK_OFFSET(0xC294340)
-#define RPG_CLIENT_DICECOMBATBIGAVATARCARDDISPLAYER__STARTREMOVECOLOR_OFFSET UNITYSDK_OFFSET(0xC295400)
+#define RPG_CLIENT_DICECOMBATBIGAVATARCARDDISPLAYER_CREATE_OFFSET UNITYSDK_OFFSET(0xCD62B40)
+#define RPG_CLIENT_DICECOMBATBIGAVATARCARDDISPLAYER_FOCUSONSPECIALDICEICON_OFFSET UNITYSDK_OFFSET(0xCD65AF0)
+#define RPG_CLIENT_DICECOMBATBIGAVATARCARDDISPLAYER_ONDISPOSE_OFFSET UNITYSDK_OFFSET(0xCD662E0)
+#define RPG_CLIENT_DICECOMBATBIGAVATARCARDDISPLAYER_REMOVECOLOR_OFFSET UNITYSDK_OFFSET(0xCD65E80)
+#define RPG_CLIENT_DICECOMBATBIGAVATARCARDDISPLAYER_SETUPVIEW_OFFSET UNITYSDK_OFFSET(0xCD64060)
+#define RPG_CLIENT_DICECOMBATBIGAVATARCARDDISPLAYER__ASYNCLOADSPRITETO_OFFSET UNITYSDK_OFFSET(0xCD665B0)
+#define RPG_CLIENT_DICECOMBATBIGAVATARCARDDISPLAYER__BIND_OFFSET UNITYSDK_OFFSET(0xCD62C00)
+#define RPG_CLIENT_DICECOMBATBIGAVATARCARDDISPLAYER__CCTOR_OFFSET UNITYSDK_OFFSET(0xCD669D0)
+#define RPG_CLIENT_DICECOMBATBIGAVATARCARDDISPLAYER__CTOR_OFFSET UNITYSDK_OFFSET(0xCD62BF0)
+#define RPG_CLIENT_DICECOMBATBIGAVATARCARDDISPLAYER__ONREMOVECOLORMATTWEENTICK_OFFSET UNITYSDK_OFFSET(0xCD66810)
+#define RPG_CLIENT_DICECOMBATBIGAVATARCARDDISPLAYER__SETUPAVAILABLEDICEVIEW_OFFSET UNITYSDK_OFFSET(0xCD65350)
+#define RPG_CLIENT_DICECOMBATBIGAVATARCARDDISPLAYER__SETUPLEVELVIEW_OFFSET UNITYSDK_OFFSET(0xCD64950)
+#define RPG_CLIENT_DICECOMBATBIGAVATARCARDDISPLAYER__SETUPREMOVECOLORMAT_OFFSET UNITYSDK_OFFSET(0xCD65ED0)
+#define RPG_CLIENT_DICECOMBATBIGAVATARCARDDISPLAYER__SETUPSTARVIEW_OFFSET UNITYSDK_OFFSET(0xCD650B0)
+#define RPG_CLIENT_DICECOMBATBIGAVATARCARDDISPLAYER__STARTREMOVECOLOR_OFFSET UNITYSDK_OFFSET(0xCD66160)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DiceCombatBigAvatarCardDisplayer_TypeDefinitionIndex = 60761;
+	inline static constexpr unsigned int DiceCombatBigAvatarCardDisplayer_TypeDefinitionIndex = 63614;
 
 	class DiceCombatBigAvatarCardDisplayer : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::String*>** StaticGet__LEVEL_STYLE_MAP()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(DiceCombatBigAvatarCardDisplayer_TypeDefinitionIndex)->GetStaticField(0x666E0);
-		}
 		static ::System::String** StaticGet__REMOVE_COLOR_MAT_PATH()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(DiceCombatBigAvatarCardDisplayer_TypeDefinitionIndex)->GetStaticField(0x666E8);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(DiceCombatBigAvatarCardDisplayer_TypeDefinitionIndex)->GetStaticField(0x61DA0);
 		}
-		static ::System::UInt32* StaticGet__CARD_MAX_RARE()
+		static ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::String*>** StaticGet__LEVEL_STYLE_MAP()
 		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(DiceCombatBigAvatarCardDisplayer_TypeDefinitionIndex)->GetStaticField(0x142A0);
+			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(DiceCombatBigAvatarCardDisplayer_TypeDefinitionIndex)->GetStaticField(0x61DA8);
 		}
 		static ::System::UInt32* StaticGet__DICE_MAX_RARE()
 		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(DiceCombatBigAvatarCardDisplayer_TypeDefinitionIndex)->GetStaticField(0x142A4);
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(DiceCombatBigAvatarCardDisplayer_TypeDefinitionIndex)->GetStaticField(0x13F90);
 		}
-		::UnityEngine::UI::Image* _ImgAvatarLevelFrame2; // 0x10
-		::RPG::Client::UIValueChangeAnimation* _ValueChanger; // 0x18
-		::Il2CppArray<::UnityEngine::Transform*>* _NodeStars; // 0x20
-		::Il2CppArray<::UnityEngine::Transform*>* _NodeLevels; // 0x28
-		::UnityEngine::UI::Image* _ImgHighLevelAvatarBg; // 0x30
-		::UnityEngine::Transform* _NodeStarItemContent; // 0x38
-		::UnityEngine::Material* _RemoveColorMat; // 0x40
-		::UnityEngine::UI::Image* _ImgAvatarLevelFrame3; // 0x48
-		::UnityEngine::Transform* _RemoveColorMatWhiteListRoot; // 0x50
-		::Il2CppArray<::UnityEngine::UI::Image*>* _ImgLevelFrames; // 0x58
-		::UnityEngine::Transform* _NodeLevel2; // 0x60
-		::UnityEngine::Transform* _NodeLevel3; // 0x68
-		::System::Collections::Generic::List_1<::RPG::Client::DiceCombatDiceRarityIconDisplayer*>* _RareIconPanelList; // 0x70
-		::RPG::Client::MonoUIColorSwitcher* _ColorSwitcher; // 0x78
-		::Il2CppArray<::UnityEngine::UI::Image*>* _ImgAvatars; // 0x80
-		::RPG::Client::LocalizedText* _TxtHp; // 0x88
-		::RPG::Client::LocalizedText* _TxtAtk; // 0x90
-		::UnityEngine::Transform* _Root; // 0x98
-		::UnityEngine::UI::Image* _ImgAvatarLevel1; // 0xA0
+		static ::System::UInt32* StaticGet__CARD_MAX_RARE()
+		{
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(DiceCombatBigAvatarCardDisplayer_TypeDefinitionIndex)->GetStaticField(0x13F94);
+		}
+		::UnityEngine::UI::Image* _ImgAvatarLevelFrame3; // 0x10
+		::UnityEngine::Transform* _NodeDiceValueItemContent; // 0x18
+		::RPG::Client::LocalizedText* _TxtSkillDesc; // 0x20
+		::UnityEngine::Transform* _Root; // 0x28
+		::RPG::Client::UIValueChangeAnimation* _ValueChanger; // 0x30
+		::Il2CppArray<::UnityEngine::UI::Image*>* _ImgLevelFrames; // 0x38
+		::UnityEngine::UI::Image* _ImgHighLevelAvatarBg; // 0x40
+		::UnityEngine::UI::Image* _ImgAvatarLevel1; // 0x48
+		::UnityEngine::Material* _InstRemoveColorMat; // 0x50
+		::System::Collections::Generic::List_1<::RPG::Client::DiceCombatDiceRarityIconDisplayer*>* _RareIconPanelList; // 0x58
+		::RPG::Client::DiceCombat::IDiceCombatAvatarInfo* _AvatarInfo; // 0x60
+		::RPG::Client::LocalizedText* _TxtAtk; // 0x68
+		::UnityEngine::Material* _RemoveColorMat; // 0x70
+		::Il2CppArray<::UnityEngine::Transform*>* _NodeStars; // 0x78
+		::Il2CppArray<::UnityEngine::Transform*>* _NodeLevels; // 0x80
+		::UnityEngine::UI::Image* _ImgAvatarLevelFrame2; // 0x88
+		::System::Collections::Generic::List_1<::UnityEngine::Object*>* _LoadedResources; // 0x90
+		::UnityEngine::UI::ScrollRect* _ScrollViewSkillDesc; // 0x98
+		::UnityEngine::UI::Image* _ImgAvatarLevel2; // 0xA0
 		::UnityEngine::Transform* _NodeLevel1; // 0xA8
-		::UnityEngine::UI::Image* _ImgAvatarLevel2; // 0xB0
-		::UnityEngine::UI::ScrollRect* _ScrollViewSkillDesc; // 0xB8
-		::System::Collections::Generic::List_1<::UnityEngine::Object*>* _LoadedResources; // 0xC0
-		::UnityEngine::UI::Image* _ImgAvatarLevelFrame1; // 0xC8
-		::RPG::Client::LocalizedText* _TxtAvatarName; // 0xD0
-		::RPG::Client::DiceCombat::IDiceCombatAvatarInfo* _AvatarInfo; // 0xD8
-		::UnityEngine::UI::Image* _ImgAvatarLevel3; // 0xE0
-		::RPG::Client::LocalizedText* _TxtDef; // 0xE8
-		::UnityEngine::Transform* _NodeDiceValueItemContent; // 0xF0
-		::UnityEngine::Material* _InstRemoveColorMat; // 0xF8
-		::RPG::Client::LocalizedText* _TxtSkillDesc; // 0x100
+		::RPG::Client::MonoUIColorSwitcher* _ColorSwitcher; // 0xB0
+		::UnityEngine::Transform* _NodeLevel2; // 0xB8
+		::UnityEngine::Transform* _NodeStarItemContent; // 0xC0
+		::RPG::Client::LocalizedText* _TxtDef; // 0xC8
+		::RPG::Client::LocalizedText* _TxtHp; // 0xD0
+		::UnityEngine::UI::Image* _ImgAvatarLevelFrame1; // 0xD8
+		::RPG::Client::LocalizedText* _TxtAvatarName; // 0xE0
+		::Il2CppArray<::UnityEngine::UI::Image*>* _ImgAvatars; // 0xE8
+		::UnityEngine::Transform* _RemoveColorMatWhiteListRoot; // 0xF0
+		::UnityEngine::Transform* _NodeLevel3; // 0xF8
+		::UnityEngine::UI::Image* _ImgAvatarLevel3; // 0x100
 		::System::UInt32 _TargetAvatarLevel; // 0x108
 
 		::System::Void _ctor()

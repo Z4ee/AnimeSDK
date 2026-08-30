@@ -4,11 +4,11 @@
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define RPGTOOLS_TIMELINE_CAMERADATA__CTOR_OFFSET UNITYSDK_OFFSET(0xDCA5010)
+#define RPGTOOLS_TIMELINE_CAMERADATA__CTOR_OFFSET UNITYSDK_OFFSET(0xE825180)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int CameraData_TypeDefinitionIndex = 46656;
+	inline static constexpr unsigned int CameraData_TypeDefinitionIndex = 48901;
 
 	class CameraData : public ::System::Object
 	{

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TimeRewindForbidSelect; }
 
-#define CLASS_3_8CAB821AD8CA3740_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB1DB1E0)
-#define CLASS_3_8CAB821AD8CA3740__CTOR_OFFSET UNITYSDK_OFFSET(0xB1DB1B0)
+#define CLASS_3_8CAB821AD8CA3740_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBBAF3A0)
+#define CLASS_3_8CAB821AD8CA3740__CTOR_OFFSET UNITYSDK_OFFSET(0xBBAF370)
 
-inline static constexpr unsigned int Class_3_8CAB821AD8CA3740_TypeDefinitionIndex = 50972;
+inline static constexpr unsigned int Class_3_8CAB821AD8CA3740_TypeDefinitionIndex = 53656;
 
 class Class_3_8CAB821AD8CA3740 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::TimeRewindForbidSelect*>
 {

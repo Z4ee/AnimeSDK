@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueModifierQueryableFactorType_TypeDefinitionIndex = 17230;
+	inline static constexpr unsigned int RogueModifierQueryableFactorType_TypeDefinitionIndex = 17746;
 
 	enum class RogueModifierQueryableFactorType : ::System::Int32
 	{
@@ -35,5 +35,6 @@ namespace RPG::GameCore
 		StyleExpGain = 25,
 		StyleLevelUpRequiredExp = 26,
 		HexEquipmentCount = 27,
+		StyleMazeBuffLevel = 28,
 	};
 }

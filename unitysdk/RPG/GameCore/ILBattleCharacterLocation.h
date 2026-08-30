@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ILBattleCharacterLocation_TypeDefinitionIndex = 10211;
+	inline static constexpr unsigned int ILBattleCharacterLocation_TypeDefinitionIndex = 10547;
 
 	enum class ILBattleCharacterLocation : ::System::Int32
 	{

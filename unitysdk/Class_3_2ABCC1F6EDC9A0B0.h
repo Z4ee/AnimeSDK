@@ -7,18 +7,18 @@ namespace RPG::GameCore { class ST_Side_PlayBubbleTalk; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class String; }
 
-#define CLASS_3_2ABCC1F6EDC9A0B0_METHOD_3_D98BA75FC67827C5_OFFSET UNITYSDK_OFFSET(0x154436C0)
-#define CLASS_3_2ABCC1F6EDC9A0B0_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x154431C0)
-#define CLASS_3_2ABCC1F6EDC9A0B0_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x154437C0)
-#define CLASS_3_2ABCC1F6EDC9A0B0__CTOR_OFFSET UNITYSDK_OFFSET(0x15443190)
+#define CLASS_3_2ABCC1F6EDC9A0B0_METHOD_3_D98BA75FC67827C5_OFFSET UNITYSDK_OFFSET(0x1638DE60)
+#define CLASS_3_2ABCC1F6EDC9A0B0_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1638D960)
+#define CLASS_3_2ABCC1F6EDC9A0B0_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1638DF60)
+#define CLASS_3_2ABCC1F6EDC9A0B0__CTOR_OFFSET UNITYSDK_OFFSET(0x1638D930)
 
-inline static constexpr unsigned int Class_3_2ABCC1F6EDC9A0B0_TypeDefinitionIndex = 49866;
+inline static constexpr unsigned int Class_3_2ABCC1F6EDC9A0B0_TypeDefinitionIndex = 52527;
 
 class Class_3_2ABCC1F6EDC9A0B0 : public ::RPG::GameCore::ST_Task_1<::RPG::GameCore::ST_Side_PlayBubbleTalk*>
 {
 public:
-	::System::String* Field_3_0; // 0x28
-	::System::Boolean Field_3_1; // 0x30
+	::System::String* IJMGEMMNNPI; // 0x28
+	::System::Boolean GMBPKGHNFJO; // 0x30
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ST_Side_PlayBubbleTalk* a2)
 	{

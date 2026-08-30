@@ -6,11 +6,11 @@ namespace Cinemachine { class CinemachineDollyCart; }
 namespace Cinemachine { class CinemachineVirtualCamera; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOVECAMERAINFO_GET_ISFINISH_OFFSET UNITYSDK_OFFSET(0xB1F1830)
-#define MOVECAMERAINFO_METHOD_1_E727F9956B5BD78B_OFFSET UNITYSDK_OFFSET(0xB1F1760)
-#define MOVECAMERAINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xB1F1840)
+#define MOVECAMERAINFO_GET_ISFINISH_OFFSET UNITYSDK_OFFSET(0xBBC5E50)
+#define MOVECAMERAINFO_METHOD_1_E727F9956B5BD78B_OFFSET UNITYSDK_OFFSET(0xBBC5D80)
+#define MOVECAMERAINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xBBC5E60)
 
-inline static constexpr unsigned int MoveCameraInfo_TypeDefinitionIndex = 45478;
+inline static constexpr unsigned int MoveCameraInfo_TypeDefinitionIndex = 47728;
 
 class MoveCameraInfo : public ::System::Object
 {

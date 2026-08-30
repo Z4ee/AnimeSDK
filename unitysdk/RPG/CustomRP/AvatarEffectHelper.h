@@ -11,29 +11,29 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class Renderer; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define RPG_CUSTOMRP_AVATAREFFECTHELPER_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1AA35CD0)
-#define RPG_CUSTOMRP_AVATAREFFECTHELPER_HASEFFECT_OFFSET UNITYSDK_OFFSET(0x1AA35C60)
-#define RPG_CUSTOMRP_AVATAREFFECTHELPER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AA370A0)
-#define RPG_CUSTOMRP_AVATAREFFECTHELPER__CTOR_OFFSET UNITYSDK_OFFSET(0x1AA35BD0)
-#define RPG_CUSTOMRP_AVATAREFFECTHELPER__EXECUTE_OFFSET UNITYSDK_OFFSET(0x1AA35F20)
-#define RPG_CUSTOMRP_AVATAREFFECTHELPER__ISRENDERINVALID_OFFSET UNITYSDK_OFFSET(0x1AA36C80)
-#define RPG_CUSTOMRP_AVATAREFFECTHELPER__RENDEREFFECT_OFFSET UNITYSDK_OFFSET(0x1AA36D40)
-#define RPG_CUSTOMRP_AVATAREFFECTHELPER__RENDERMATGROUP_OFFSET UNITYSDK_OFFSET(0x1AA36A40)
+#define RPG_CUSTOMRP_AVATAREFFECTHELPER_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1C6679A0)
+#define RPG_CUSTOMRP_AVATAREFFECTHELPER_HASEFFECT_OFFSET UNITYSDK_OFFSET(0x1C667930)
+#define RPG_CUSTOMRP_AVATAREFFECTHELPER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C668D70)
+#define RPG_CUSTOMRP_AVATAREFFECTHELPER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C6678A0)
+#define RPG_CUSTOMRP_AVATAREFFECTHELPER__EXECUTE_OFFSET UNITYSDK_OFFSET(0x1C667BF0)
+#define RPG_CUSTOMRP_AVATAREFFECTHELPER__ISRENDERINVALID_OFFSET UNITYSDK_OFFSET(0x1C668950)
+#define RPG_CUSTOMRP_AVATAREFFECTHELPER__RENDEREFFECT_OFFSET UNITYSDK_OFFSET(0x1C668A10)
+#define RPG_CUSTOMRP_AVATAREFFECTHELPER__RENDERMATGROUP_OFFSET UNITYSDK_OFFSET(0x1C668710)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int AvatarEffectHelper_TypeDefinitionIndex = 36043;
+	inline static constexpr unsigned int AvatarEffectHelper_TypeDefinitionIndex = 36904;
 
 	class AvatarEffectHelper : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::System::Int32>** StaticGet_PassTagIDs()
 		{
-			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(AvatarEffectHelper_TypeDefinitionIndex)->GetStaticField(0x61800);
+			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(AvatarEffectHelper_TypeDefinitionIndex)->GetStaticField(0x2F750);
 		}
 		::System::Collections::Generic::List_1<::RPG::CustomRP::AvatarEffectHelper_DrawCmd>* _DrawByLightModeCmds; // 0x10
-		::System::Boolean _AfterTransparent; // 0x18
-		::System::UInt32 _RenderLayerMask; // 0x1C
+		::System::UInt32 _RenderLayerMask; // 0x18
+		::System::Boolean _AfterTransparent; // 0x1C
 
 		::System::Void _ctor(::System::Boolean a1)
 		{

@@ -4,11 +4,11 @@
 
 namespace UnityEngine::UI { class ScrollRect; }
 
-#define RPG_CLIENT_SCROLLRECTEXTENSIONS_FORCEUPDATECANSCROLL_OFFSET UNITYSDK_OFFSET(0xD4DF920)
+#define RPG_CLIENT_SCROLLRECTEXTENSIONS_FORCEUPDATECANSCROLL_OFFSET UNITYSDK_OFFSET(0xE06F200)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ScrollRectExtensions_TypeDefinitionIndex = 69475;
+	inline static constexpr unsigned int ScrollRectExtensions_TypeDefinitionIndex = 72703;
 
 	class ScrollRectExtensions : public ::System::Object
 	{

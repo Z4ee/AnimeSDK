@@ -3,7 +3,7 @@
 
 namespace RPG::Client::Motions
 {
-	inline static constexpr unsigned int MotionFlag_TypeDefinitionIndex = 70131;
+	inline static constexpr unsigned int MotionFlag_TypeDefinitionIndex = 73430;
 
 	enum class MotionFlag : ::System::UInt16
 	{

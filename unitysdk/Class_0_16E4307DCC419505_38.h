@@ -5,7 +5,7 @@ class Class_0_16E4307DCC419505_37;
 class Class_0_16E4307DCC419505_39;
 namespace Entitas { class IEntity; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_38_TypeDefinitionIndex = 35303;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_38_TypeDefinitionIndex = 36164;
 
 class Class_0_16E4307DCC419505_38
 {

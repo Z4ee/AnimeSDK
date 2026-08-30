@@ -8,39 +8,39 @@ namespace RPG::Client::FateRin::Card { class IFateRinHandbookCardTabViewModel; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_FATERIN_CARD_FATERINHANDBOOKCARDVIEWMODEL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC4B64A0)
-#define RPG_CLIENT_FATERIN_CARD_FATERINHANDBOOKCARDVIEWMODEL___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC4B64E0)
-#define RPG_CLIENT_FATERIN_CARD_FATERINHANDBOOKCARDVIEWMODEL___C___GETCARDVIEWMODELLISTBYTABOWNERTYPE_B__5_0_OFFSET UNITYSDK_OFFSET(0xC4B6990)
-#define RPG_CLIENT_FATERIN_CARD_FATERINHANDBOOKCARDVIEWMODEL___C___REFRESHVIEWMODEL_B__3_0_OFFSET UNITYSDK_OFFSET(0xC4B64F0)
-#define RPG_CLIENT_FATERIN_CARD_FATERINHANDBOOKCARDVIEWMODEL___C___REFRESHVIEWMODEL_B__3_1_OFFSET UNITYSDK_OFFSET(0xC4B6510)
-#define RPG_CLIENT_FATERIN_CARD_FATERINHANDBOOKCARDVIEWMODEL___C___REFRESHVIEWMODEL_B__3_2_OFFSET UNITYSDK_OFFSET(0xC4B6530)
+#define RPG_CLIENT_FATERIN_CARD_FATERINHANDBOOKCARDVIEWMODEL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xCFEC140)
+#define RPG_CLIENT_FATERIN_CARD_FATERINHANDBOOKCARDVIEWMODEL___C__CTOR_OFFSET UNITYSDK_OFFSET(0xCFEC180)
+#define RPG_CLIENT_FATERIN_CARD_FATERINHANDBOOKCARDVIEWMODEL___C___GETCARDVIEWMODELLISTBYTABOWNERTYPE_B__5_0_OFFSET UNITYSDK_OFFSET(0xCFEC630)
+#define RPG_CLIENT_FATERIN_CARD_FATERINHANDBOOKCARDVIEWMODEL___C___REFRESHVIEWMODEL_B__3_0_OFFSET UNITYSDK_OFFSET(0xCFEC190)
+#define RPG_CLIENT_FATERIN_CARD_FATERINHANDBOOKCARDVIEWMODEL___C___REFRESHVIEWMODEL_B__3_1_OFFSET UNITYSDK_OFFSET(0xCFEC1B0)
+#define RPG_CLIENT_FATERIN_CARD_FATERINHANDBOOKCARDVIEWMODEL___C___REFRESHVIEWMODEL_B__3_2_OFFSET UNITYSDK_OFFSET(0xCFEC1D0)
 
 namespace RPG::Client::FateRin::Card
 {
-	inline static constexpr unsigned int FateRinHandbookCardViewModel___c_TypeDefinitionIndex = 76233;
+	inline static constexpr unsigned int FateRinHandbookCardViewModel___c_TypeDefinitionIndex = 79866;
 
 	class FateRinHandbookCardViewModel___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::FateRin::Card::FateRinHandbookCardViewModel___c** StaticGet___9()
-		{
-			return (::RPG::Client::FateRin::Card::FateRinHandbookCardViewModel___c**)Il2CppClass::FromTypeDefinitionIndex(FateRinHandbookCardViewModel___c_TypeDefinitionIndex)->GetStaticField(0xA220);
-		}
 		static ::System::Comparison_1<::RPG::Client::FateRin::Card::IFateRinHandbookCardTabViewModel*>** StaticGet___9__3_2()
 		{
-			return (::System::Comparison_1<::RPG::Client::FateRin::Card::IFateRinHandbookCardTabViewModel*>**)Il2CppClass::FromTypeDefinitionIndex(FateRinHandbookCardViewModel___c_TypeDefinitionIndex)->GetStaticField(0xA228);
+			return (::System::Comparison_1<::RPG::Client::FateRin::Card::IFateRinHandbookCardTabViewModel*>**)Il2CppClass::FromTypeDefinitionIndex(FateRinHandbookCardViewModel___c_TypeDefinitionIndex)->GetStaticField(0x3E50);
 		}
 		static ::System::Func_2<::RPG::Client::FateRin::Card::IFateRinHandbookCardOwnerViewModel*, ::RPG::GameCore::FateRinHouguOwnerType>** StaticGet___9__3_1()
 		{
-			return (::System::Func_2<::RPG::Client::FateRin::Card::IFateRinHandbookCardOwnerViewModel*, ::RPG::GameCore::FateRinHouguOwnerType>**)Il2CppClass::FromTypeDefinitionIndex(FateRinHandbookCardViewModel___c_TypeDefinitionIndex)->GetStaticField(0xA230);
+			return (::System::Func_2<::RPG::Client::FateRin::Card::IFateRinHandbookCardOwnerViewModel*, ::RPG::GameCore::FateRinHouguOwnerType>**)Il2CppClass::FromTypeDefinitionIndex(FateRinHandbookCardViewModel___c_TypeDefinitionIndex)->GetStaticField(0x3E58);
+		}
+		static ::RPG::Client::FateRin::Card::FateRinHandbookCardViewModel___c** StaticGet___9()
+		{
+			return (::RPG::Client::FateRin::Card::FateRinHandbookCardViewModel___c**)Il2CppClass::FromTypeDefinitionIndex(FateRinHandbookCardViewModel___c_TypeDefinitionIndex)->GetStaticField(0x3E60);
 		}
 		static ::System::Func_2<::RPG::Client::FateRin::Card::IFateRinHandbookCardOwnerViewModel*, ::System::Boolean>** StaticGet___9__5_0()
 		{
-			return (::System::Func_2<::RPG::Client::FateRin::Card::IFateRinHandbookCardOwnerViewModel*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(FateRinHandbookCardViewModel___c_TypeDefinitionIndex)->GetStaticField(0xA238);
+			return (::System::Func_2<::RPG::Client::FateRin::Card::IFateRinHandbookCardOwnerViewModel*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(FateRinHandbookCardViewModel___c_TypeDefinitionIndex)->GetStaticField(0x3E68);
 		}
 		static ::System::Func_2<::RPG::Client::FateRin::Card::IFateRinHandbookCardOwnerViewModel*, ::System::Boolean>** StaticGet___9__3_0()
 		{
-			return (::System::Func_2<::RPG::Client::FateRin::Card::IFateRinHandbookCardOwnerViewModel*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(FateRinHandbookCardViewModel___c_TypeDefinitionIndex)->GetStaticField(0xA240);
+			return (::System::Func_2<::RPG::Client::FateRin::Card::IFateRinHandbookCardOwnerViewModel*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(FateRinHandbookCardViewModel___c_TypeDefinitionIndex)->GetStaticField(0x3E70);
 		}
 
 		static ::System::Void _cctor()

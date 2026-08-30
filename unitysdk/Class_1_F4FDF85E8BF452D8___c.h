@@ -12,42 +12,42 @@ namespace RPG::GameCore::Match3 { class MatchThree1v1AIScoreAspectConfig; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define CLASS_1_F4FDF85E8BF452D8___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A916A40)
-#define CLASS_1_F4FDF85E8BF452D8___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A916A80)
-#define CLASS_1_F4FDF85E8BF452D8___C___CTOR_B__0_1_OFFSET UNITYSDK_OFFSET(0x1A916A90)
-#define CLASS_1_F4FDF85E8BF452D8___C___CTOR_B__0_2_OFFSET UNITYSDK_OFFSET(0x1A916AB0)
-#define CLASS_1_F4FDF85E8BF452D8___C___CTOR_B__0_3_OFFSET UNITYSDK_OFFSET(0x1A916AD0)
-#define CLASS_1_F4FDF85E8BF452D8___C___GENPROPSIMULATEINFO_SELECTBREAKSTYLE_B__31_0_OFFSET UNITYSDK_OFFSET(0x1A916B30)
-#define CLASS_1_F4FDF85E8BF452D8___C___MAKECHOICE_B__18_0_OFFSET UNITYSDK_OFFSET(0x1A916AF0)
+#define CLASS_1_F4FDF85E8BF452D8___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C553A20)
+#define CLASS_1_F4FDF85E8BF452D8___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1C553A60)
+#define CLASS_1_F4FDF85E8BF452D8___C___CTOR_B__0_1_OFFSET UNITYSDK_OFFSET(0x1C553A70)
+#define CLASS_1_F4FDF85E8BF452D8___C___CTOR_B__0_2_OFFSET UNITYSDK_OFFSET(0x1C553A90)
+#define CLASS_1_F4FDF85E8BF452D8___C___CTOR_B__0_3_OFFSET UNITYSDK_OFFSET(0x1C553AB0)
+#define CLASS_1_F4FDF85E8BF452D8___C___GENPROPSIMULATEINFO_SELECTBREAKSTYLE_B__31_0_OFFSET UNITYSDK_OFFSET(0x1C553B10)
+#define CLASS_1_F4FDF85E8BF452D8___C___MAKECHOICE_B__18_0_OFFSET UNITYSDK_OFFSET(0x1C553AD0)
 
-inline static constexpr unsigned int Class_1_F4FDF85E8BF452D8___c_TypeDefinitionIndex = 40482;
+inline static constexpr unsigned int Class_1_F4FDF85E8BF452D8___c_TypeDefinitionIndex = 41420;
 
 class Class_1_F4FDF85E8BF452D8___c : public ::System::Object
 {
 public:
 	static ::System::Comparison_1<::System::ValueTuple_4<::System::UInt32, ::System::UInt32, ::System::UInt32, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>>** StaticGet___9__31_0()
 	{
-		return (::System::Comparison_1<::System::ValueTuple_4<::System::UInt32, ::System::UInt32, ::System::UInt32, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_F4FDF85E8BF452D8___c_TypeDefinitionIndex)->GetStaticField(0x345F0);
-	}
-	static ::Class_1_F4FDF85E8BF452D8___c** StaticGet___9()
-	{
-		return (::Class_1_F4FDF85E8BF452D8___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_F4FDF85E8BF452D8___c_TypeDefinitionIndex)->GetStaticField(0x345F8);
-	}
-	static ::System::Comparison_1<::Class_1_A46ED100713943F0*>** StaticGet___9__18_0()
-	{
-		return (::System::Comparison_1<::Class_1_A46ED100713943F0*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_F4FDF85E8BF452D8___c_TypeDefinitionIndex)->GetStaticField(0x34600);
-	}
-	static ::System::Func_2<::RPG::GameCore::Match3::MatchThree1v1AIPropPriorityConfig*, ::RPG::GameCore::MatchThreePropType>** StaticGet___9__0_2()
-	{
-		return (::System::Func_2<::RPG::GameCore::Match3::MatchThree1v1AIPropPriorityConfig*, ::RPG::GameCore::MatchThreePropType>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_F4FDF85E8BF452D8___c_TypeDefinitionIndex)->GetStaticField(0x34608);
+		return (::System::Comparison_1<::System::ValueTuple_4<::System::UInt32, ::System::UInt32, ::System::UInt32, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_F4FDF85E8BF452D8___c_TypeDefinitionIndex)->GetStaticField(0x3D560);
 	}
 	static ::System::Func_2<::RPG::GameCore::Match3::MatchThree1v1AIPropPriorityConfig*, ::System::UInt32>** StaticGet___9__0_3()
 	{
-		return (::System::Func_2<::RPG::GameCore::Match3::MatchThree1v1AIPropPriorityConfig*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_F4FDF85E8BF452D8___c_TypeDefinitionIndex)->GetStaticField(0x34610);
+		return (::System::Func_2<::RPG::GameCore::Match3::MatchThree1v1AIPropPriorityConfig*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_F4FDF85E8BF452D8___c_TypeDefinitionIndex)->GetStaticField(0x3D568);
+	}
+	static ::System::Comparison_1<::Class_1_A46ED100713943F0*>** StaticGet___9__18_0()
+	{
+		return (::System::Comparison_1<::Class_1_A46ED100713943F0*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_F4FDF85E8BF452D8___c_TypeDefinitionIndex)->GetStaticField(0x3D570);
+	}
+	static ::Class_1_F4FDF85E8BF452D8___c** StaticGet___9()
+	{
+		return (::Class_1_F4FDF85E8BF452D8___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_F4FDF85E8BF452D8___c_TypeDefinitionIndex)->GetStaticField(0x3D578);
+	}
+	static ::System::Func_2<::RPG::GameCore::Match3::MatchThree1v1AIPropPriorityConfig*, ::RPG::GameCore::MatchThreePropType>** StaticGet___9__0_2()
+	{
+		return (::System::Func_2<::RPG::GameCore::Match3::MatchThree1v1AIPropPriorityConfig*, ::RPG::GameCore::MatchThreePropType>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_F4FDF85E8BF452D8___c_TypeDefinitionIndex)->GetStaticField(0x3D580);
 	}
 	static ::System::Func_2<::RPG::GameCore::Match3::MatchThree1v1AIScoreAspectConfig*, ::RPG::GameCore::Match3::MatchThree1v1AIScoreApsect>** StaticGet___9__0_1()
 	{
-		return (::System::Func_2<::RPG::GameCore::Match3::MatchThree1v1AIScoreAspectConfig*, ::RPG::GameCore::Match3::MatchThree1v1AIScoreApsect>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_F4FDF85E8BF452D8___c_TypeDefinitionIndex)->GetStaticField(0x34618);
+		return (::System::Func_2<::RPG::GameCore::Match3::MatchThree1v1AIScoreAspectConfig*, ::RPG::GameCore::Match3::MatchThree1v1AIScoreApsect>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_F4FDF85E8BF452D8___c_TypeDefinitionIndex)->GetStaticField(0x3D588);
 	}
 
 	static ::System::Void _cctor()

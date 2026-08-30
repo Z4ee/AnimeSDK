@@ -7,12 +7,12 @@ namespace RPG::Client { class Effect_ElectricChainV2AnimationBindingBehavior; }
 namespace RPG::Client::ElectricChainV2 { class Effect_ElectricChainV2; }
 namespace System { class String; }
 
-#define RPG_CLIENT_EFFECT_ELECTRICCHAINV2ANIMATIONBINDING_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xC306470)
-#define RPG_CLIENT_EFFECT_ELECTRICCHAINV2ANIMATIONBINDING__CTOR_OFFSET UNITYSDK_OFFSET(0xC3064C0)
+#define RPG_CLIENT_EFFECT_ELECTRICCHAINV2ANIMATIONBINDING_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xCDD7890)
+#define RPG_CLIENT_EFFECT_ELECTRICCHAINV2ANIMATIONBINDING__CTOR_OFFSET UNITYSDK_OFFSET(0xCDD78E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_ElectricChainV2AnimationBinding_TypeDefinitionIndex = 67307;
+	inline static constexpr unsigned int Effect_ElectricChainV2AnimationBinding_TypeDefinitionIndex = 70429;
 
 	class Effect_ElectricChainV2AnimationBinding : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::Effect_ElectricChainV2AnimationBindingBehavior*>
 	{

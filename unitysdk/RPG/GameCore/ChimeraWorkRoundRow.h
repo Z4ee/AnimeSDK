@@ -6,25 +6,25 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHIMERAWORKROUNDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B359A40)
-#define RPG_GAMECORE_CHIMERAWORKROUNDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B359DC0)
+#define RPG_GAMECORE_CHIMERAWORKROUNDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CFD5DE0)
+#define RPG_GAMECORE_CHIMERAWORKROUNDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFD6160)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraWorkRoundRow_TypeDefinitionIndex = 12526;
+	inline static constexpr unsigned int ChimeraWorkRoundRow_TypeDefinitionIndex = 12917;
 
 	class ChimeraWorkRoundRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* NewChimeraList; // 0x10
-		::Il2CppArray<::System::UInt32>* WorkList; // 0x18
-		::Il2CppArray<::System::UInt32>* RecommendedArrangementPresets; // 0x20
-		::System::String* ArrangeHintImage; // 0x28
-		::Il2CppArray<::System::UInt32>* OptionList; // 0x30
-		::System::Boolean IsSSR; // 0x38
-		::RPG::Client::TextID WarningText; // 0x40
-		::System::UInt32 RoundID; // 0x50
-		::System::UInt32 DisplayTeamID; // 0x54
+		::Il2CppArray<::System::UInt32>* OptionList; // 0x10
+		::Il2CppArray<::System::UInt32>* RecommendedArrangementPresets; // 0x18
+		::System::String* ArrangeHintImage; // 0x20
+		::Il2CppArray<::System::UInt32>* WorkList; // 0x28
+		::Il2CppArray<::System::UInt32>* NewChimeraList; // 0x30
+		::System::UInt32 RoundID; // 0x38
+		::System::Boolean IsSSR; // 0x3C
+		::System::UInt32 DisplayTeamID; // 0x40
+		::RPG::Client::TextID WarningText; // 0x48
 
 		::System::Void _ctor()
 		{

@@ -6,12 +6,12 @@ namespace RPG::Client::ActivityIdleLive { class IdleLiveFuncUnlockFly; }
 namespace RPG::Client::ActivityIdleLive { class IdleLiveFuncUnlockFlyService; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEFUNCUNLOCKFLYSERVICE___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBB9B980)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEFUNCUNLOCKFLYSERVICE___C__DISPLAYCLASS6_0__SHOWFUNCUNLOCKFLY_B__0_OFFSET UNITYSDK_OFFSET(0xBB9BA80)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEFUNCUNLOCKFLYSERVICE___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC5B9490)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEFUNCUNLOCKFLYSERVICE___C__DISPLAYCLASS6_0__SHOWFUNCUNLOCKFLY_B__0_OFFSET UNITYSDK_OFFSET(0xC5B9590)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveFuncUnlockFlyService___c__DisplayClass6_0_TypeDefinitionIndex = 71688;
+	inline static constexpr unsigned int IdleLiveFuncUnlockFlyService___c__DisplayClass6_0_TypeDefinitionIndex = 74994;
 
 	class IdleLiveFuncUnlockFlyService___c__DisplayClass6_0 : public ::System::Object
 	{

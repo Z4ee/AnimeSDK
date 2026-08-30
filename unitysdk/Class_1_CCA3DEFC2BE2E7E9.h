@@ -5,15 +5,15 @@
 
 namespace RPG::AvatarSystem::Property { template <typename T> class IPropertyModifier_1; }
 
-#define CLASS_1_CCA3DEFC2BE2E7E9_METHOD_1_742C5F75B6A79647_OFFSET UNITYSDK_OFFSET(0xDEAA2C0)
-#define CLASS_1_CCA3DEFC2BE2E7E9__CTOR_OFFSET UNITYSDK_OFFSET(0xDEAA2B0)
+#define CLASS_1_CCA3DEFC2BE2E7E9_METHOD_1_742C5F75B6A79647_OFFSET UNITYSDK_OFFSET(0xED86B30)
+#define CLASS_1_CCA3DEFC2BE2E7E9__CTOR_OFFSET UNITYSDK_OFFSET(0xED86B20)
 
-inline static constexpr unsigned int Class_1_CCA3DEFC2BE2E7E9_TypeDefinitionIndex = 59766;
+inline static constexpr unsigned int Class_1_CCA3DEFC2BE2E7E9_TypeDefinitionIndex = 62612;
 
 class Class_1_CCA3DEFC2BE2E7E9 : public ::System::Object
 {
 public:
-	::RPG::AvatarSystem::Property::IPropertyModifier_1<::RPG::GameCore::FixPoint>* Field_1_0; // 0x10
+	::RPG::AvatarSystem::Property::IPropertyModifier_1<::RPG::GameCore::FixPoint>* GAJHLFGLCCK; // 0x10
 
 	::System::Void _ctor(::RPG::AvatarSystem::Property::IPropertyModifier_1<::RPG::GameCore::FixPoint>* a1)
 	{

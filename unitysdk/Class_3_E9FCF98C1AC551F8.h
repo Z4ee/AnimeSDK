@@ -7,20 +7,20 @@ namespace RPG::Client::LittleGame { class ElfRestaurantGameEntity; }
 namespace RPG::GameCore { class ST_Main_ElfCustomerProcessEvent; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_E9FCF98C1AC551F8_DISPOSE_OFFSET UNITYSDK_OFFSET(0x155B3750)
-#define CLASS_3_E9FCF98C1AC551F8_METHOD_3_C6E189DB7C68A13E_OFFSET UNITYSDK_OFFSET(0x155B32F0)
-#define CLASS_3_E9FCF98C1AC551F8_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x155B3090)
-#define CLASS_3_E9FCF98C1AC551F8_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x155B36A0)
-#define CLASS_3_E9FCF98C1AC551F8_TICK_OFFSET UNITYSDK_OFFSET(0x155B36F0)
-#define CLASS_3_E9FCF98C1AC551F8__CTOR_OFFSET UNITYSDK_OFFSET(0x155B3060)
+#define CLASS_3_E9FCF98C1AC551F8_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB5DAD80)
+#define CLASS_3_E9FCF98C1AC551F8_METHOD_3_E49DAE6FD7CD796D_OFFSET UNITYSDK_OFFSET(0xB5DA910)
+#define CLASS_3_E9FCF98C1AC551F8_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB5DA6B0)
+#define CLASS_3_E9FCF98C1AC551F8_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB5DACD0)
+#define CLASS_3_E9FCF98C1AC551F8_TICK_OFFSET UNITYSDK_OFFSET(0xB5DAD20)
+#define CLASS_3_E9FCF98C1AC551F8__CTOR_OFFSET UNITYSDK_OFFSET(0xB5DA680)
 
-inline static constexpr unsigned int Class_3_E9FCF98C1AC551F8_TypeDefinitionIndex = 49783;
+inline static constexpr unsigned int Class_3_E9FCF98C1AC551F8_TypeDefinitionIndex = 52443;
 
 class Class_3_E9FCF98C1AC551F8 : public ::RPG::GameCore::ST_Task_1<::RPG::GameCore::ST_Main_ElfCustomerProcessEvent*>
 {
 public:
-	::RPG::Client::ElfRestaurantGameInstance* Field_3_0; // 0x28
-	::RPG::Client::LittleGame::ElfRestaurantGameEntity* Field_3_1; // 0x30
+	::RPG::Client::ElfRestaurantGameInstance* MIJMIIENKAK; // 0x28
+	::RPG::Client::LittleGame::ElfRestaurantGameEntity* PCPOJALEGGF; // 0x30
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ST_Main_ElfCustomerProcessEvent* a2)
 	{
@@ -47,8 +47,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_E9FCF98C1AC551F8_DISPOSE_OFFSET))(this);
 	}
 
-	::System::Boolean Method_3_C6E189DB7C68A13E()
+	::System::Boolean Method_3_E49DAE6FD7CD796D()
 	{
-		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_E9FCF98C1AC551F8_METHOD_3_C6E189DB7C68A13E_OFFSET))(this);
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_E9FCF98C1AC551F8_METHOD_3_E49DAE6FD7CD796D_OFFSET))(this);
 	}
 };

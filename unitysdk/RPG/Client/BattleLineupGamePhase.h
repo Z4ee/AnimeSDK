@@ -4,7 +4,7 @@
 #include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_298;
+class Class_0_16E4307DCC419505_305;
 class Class_1_118030333D39EAFB;
 class Class_1_6B41D5D37BA0605F;
 class Class_1_DD365D3DF2F2F979;
@@ -13,52 +13,52 @@ namespace RPG::GameCore { class BattleLineupData; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 
-#define RPG_CLIENT_BATTLELINEUPGAMEPHASE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBE7AAE0)
-#define RPG_CLIENT_BATTLELINEUPGAMEPHASE_ENTERBATTLEWITHMAZEINFO_OFFSET UNITYSDK_OFFSET(0xBE7AD60)
-#define RPG_CLIENT_BATTLELINEUPGAMEPHASE_ENTERBATTLEWITHREPLAYINFO_OFFSET UNITYSDK_OFFSET(0xBE7BA20)
-#define RPG_CLIENT_BATTLELINEUPGAMEPHASE_ENTERREPLAYWITHMAZEINFO_OFFSET UNITYSDK_OFFSET(0xBE7B6D0)
-#define RPG_CLIENT_BATTLELINEUPGAMEPHASE_ENTER_OFFSET UNITYSDK_OFFSET(0xBE7AB30)
-#define RPG_CLIENT_BATTLELINEUPGAMEPHASE_GETENVIROMNENTPROFILEBYPLANEANDFLOOR_OFFSET UNITYSDK_OFFSET(0xBE7AD10)
-#define RPG_CLIENT_BATTLELINEUPGAMEPHASE_GETGAMEPHASETYPE_OFFSET UNITYSDK_OFFSET(0xBE7B450)
-#define RPG_CLIENT_BATTLELINEUPGAMEPHASE_GET_ISBATTLEENTERING_OFFSET UNITYSDK_OFFSET(0xBE7BDB0)
-#define RPG_CLIENT_BATTLELINEUPGAMEPHASE_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xBE7B360)
-#define RPG_CLIENT_BATTLELINEUPGAMEPHASE_LEAVE_OFFSET UNITYSDK_OFFSET(0xBE7B3C0)
-#define RPG_CLIENT_BATTLELINEUPGAMEPHASE_TICK_OFFSET UNITYSDK_OFFSET(0xBE7B300)
-#define RPG_CLIENT_BATTLELINEUPGAMEPHASE__CTOR_OFFSET UNITYSDK_OFFSET(0xBE7AAD0)
-#define RPG_CLIENT_BATTLELINEUPGAMEPHASE__ENTERBATTLEWITHMAZEINFONEXTFRAME_OFFSET UNITYSDK_OFFSET(0xBE7B5B0)
-#define RPG_CLIENT_BATTLELINEUPGAMEPHASE__ENTERREPLAYWITHMAZEINFONEXTFRAME_OFFSET UNITYSDK_OFFSET(0xBE7B640)
-#define RPG_CLIENT_BATTLELINEUPGAMEPHASE__ENTER_B__2_0_OFFSET UNITYSDK_OFFSET(0xBE7BDC0)
-#define RPG_CLIENT_BATTLELINEUPGAMEPHASE__INITUI_OFFSET UNITYSDK_OFFSET(0xBE7B4A0)
+#define RPG_CLIENT_BATTLELINEUPGAMEPHASE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC91C040)
+#define RPG_CLIENT_BATTLELINEUPGAMEPHASE_ENTERBATTLEWITHMAZEINFO_OFFSET UNITYSDK_OFFSET(0xC91C2C0)
+#define RPG_CLIENT_BATTLELINEUPGAMEPHASE_ENTERBATTLEWITHREPLAYINFO_OFFSET UNITYSDK_OFFSET(0xC91CFA0)
+#define RPG_CLIENT_BATTLELINEUPGAMEPHASE_ENTERREPLAYWITHMAZEINFO_OFFSET UNITYSDK_OFFSET(0xC91CC40)
+#define RPG_CLIENT_BATTLELINEUPGAMEPHASE_ENTER_OFFSET UNITYSDK_OFFSET(0xC91C090)
+#define RPG_CLIENT_BATTLELINEUPGAMEPHASE_GETENVIROMNENTPROFILEBYPLANEANDFLOOR_OFFSET UNITYSDK_OFFSET(0xC91C270)
+#define RPG_CLIENT_BATTLELINEUPGAMEPHASE_GETGAMEPHASETYPE_OFFSET UNITYSDK_OFFSET(0xC91C9C0)
+#define RPG_CLIENT_BATTLELINEUPGAMEPHASE_GET_ISBATTLEENTERING_OFFSET UNITYSDK_OFFSET(0xC91D340)
+#define RPG_CLIENT_BATTLELINEUPGAMEPHASE_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xC91C8D0)
+#define RPG_CLIENT_BATTLELINEUPGAMEPHASE_LEAVE_OFFSET UNITYSDK_OFFSET(0xC91C930)
+#define RPG_CLIENT_BATTLELINEUPGAMEPHASE_TICK_OFFSET UNITYSDK_OFFSET(0xC91C870)
+#define RPG_CLIENT_BATTLELINEUPGAMEPHASE__CTOR_OFFSET UNITYSDK_OFFSET(0xC91C030)
+#define RPG_CLIENT_BATTLELINEUPGAMEPHASE__ENTERBATTLEWITHMAZEINFONEXTFRAME_OFFSET UNITYSDK_OFFSET(0xC91CB20)
+#define RPG_CLIENT_BATTLELINEUPGAMEPHASE__ENTERREPLAYWITHMAZEINFONEXTFRAME_OFFSET UNITYSDK_OFFSET(0xC91CBB0)
+#define RPG_CLIENT_BATTLELINEUPGAMEPHASE__ENTER_B__2_0_OFFSET UNITYSDK_OFFSET(0xC91D350)
+#define RPG_CLIENT_BATTLELINEUPGAMEPHASE__INITUI_OFFSET UNITYSDK_OFFSET(0xC91CA10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BattleLineupGamePhase_TypeDefinitionIndex = 58255;
+	inline static constexpr unsigned int BattleLineupGamePhase_TypeDefinitionIndex = 61082;
 
 	class BattleLineupGamePhase : public ::System::Object
 	{
 	public:
 		static ::Class_1_DD365D3DF2F2F979** StaticGet_LastInitParam()
 		{
-			return (::Class_1_DD365D3DF2F2F979**)Il2CppClass::FromTypeDefinitionIndex(BattleLineupGamePhase_TypeDefinitionIndex)->GetStaticField(0x56DD0);
+			return (::Class_1_DD365D3DF2F2F979**)Il2CppClass::FromTypeDefinitionIndex(BattleLineupGamePhase_TypeDefinitionIndex)->GetStaticField(0xC860);
 		}
-		::System::String* _EnviroProfile; // 0x10
-		::RPG::GameCore::BattleLineupData* _BattleLineupData; // 0x18
-		::Class_1_118030333D39EAFB* _ReplayData; // 0x20
-		::System::String* _ReplayPath; // 0x28
-		::Class_1_DD365D3DF2F2F979* _InitParam; // 0x30
-		::RPG::Client::EnvironmentSystem* _EnvironmentSystem; // 0x38
-		::System::Boolean _Simulate; // 0x40
-		::System::Boolean _SkipVerify; // 0x41
-		::System::Boolean _DirectKill; // 0x42
-		::System::Boolean _AutoBattle; // 0x43
-		::System::Boolean _IsBattleEntering; // 0x44
-		::System::Boolean TriggerBattleFromDevPage; // 0x45
-		::System::UInt32 _BattleAreaID; // 0x48
-		::System::UInt32 _UnifiedBattleAreaID; // 0x4C
-		::System::UInt32 _GroupID; // 0x50
+		::Class_1_118030333D39EAFB* _ReplayData; // 0x10
+		::RPG::Client::EnvironmentSystem* _EnvironmentSystem; // 0x18
+		::System::String* _EnviroProfile; // 0x20
+		::RPG::GameCore::BattleLineupData* _BattleLineupData; // 0x28
+		::System::String* _ReplayPath; // 0x30
+		::Class_1_DD365D3DF2F2F979* _InitParam; // 0x38
+		::System::UInt32 _PlaneID; // 0x40
+		::System::Boolean TriggerBattleFromDevPage; // 0x44
+		::System::Boolean _Simulate; // 0x45
+		::System::UInt32 _GroupID; // 0x48
+		::System::Boolean _DirectKill; // 0x4C
+		::System::Boolean _AutoBattle; // 0x4D
+		::System::Boolean _IsBattleEntering; // 0x4E
+		::System::Boolean _SkipVerify; // 0x4F
+		::System::UInt32 _UnifiedBattleAreaID; // 0x50
 		::System::UInt32 _FloorID; // 0x54
 		::System::Nullable_1<::System::Int32> _LogicRandomSeedOverride; // 0x58
-		::System::UInt32 _PlaneID; // 0x60
+		::System::UInt32 _BattleAreaID; // 0x60
 
 		::System::Void _ctor(::Class_1_DD365D3DF2F2F979* a1)
 		{
@@ -100,14 +100,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLELINEUPGAMEPHASE__INITUI_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::IEnumerator_1<::Class_0_16E4307DCC419505_298*>* _EnterBattleWithMazeInfoNextFrame()
+		::System::Collections::Generic::IEnumerator_1<::Class_0_16E4307DCC419505_305*>* _EnterBattleWithMazeInfoNextFrame()
 		{
-			return ((::System::Collections::Generic::IEnumerator_1<::Class_0_16E4307DCC419505_298*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLELINEUPGAMEPHASE__ENTERBATTLEWITHMAZEINFONEXTFRAME_OFFSET))(this);
+			return ((::System::Collections::Generic::IEnumerator_1<::Class_0_16E4307DCC419505_305*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLELINEUPGAMEPHASE__ENTERBATTLEWITHMAZEINFONEXTFRAME_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::IEnumerator_1<::Class_0_16E4307DCC419505_298*>* _EnterReplayWithMazeInfoNextFrame()
+		::System::Collections::Generic::IEnumerator_1<::Class_0_16E4307DCC419505_305*>* _EnterReplayWithMazeInfoNextFrame()
 		{
-			return ((::System::Collections::Generic::IEnumerator_1<::Class_0_16E4307DCC419505_298*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLELINEUPGAMEPHASE__ENTERREPLAYWITHMAZEINFONEXTFRAME_OFFSET))(this);
+			return ((::System::Collections::Generic::IEnumerator_1<::Class_0_16E4307DCC419505_305*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLELINEUPGAMEPHASE__ENTERREPLAYWITHMAZEINFONEXTFRAME_OFFSET))(this);
 		}
 
 		static ::System::String* GetEnviromnentProfileByPlaneAndFloor(::System::UInt32 a1, ::System::UInt32 a2)

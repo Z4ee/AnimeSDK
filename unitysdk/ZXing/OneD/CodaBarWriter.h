@@ -4,32 +4,32 @@
 
 namespace System { class String; }
 
-#define ZXING_ONED_CODABARWRITER_ENCODE_OFFSET UNITYSDK_OFFSET(0x1D2E39A0)
-#define ZXING_ONED_CODABARWRITER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D2E4500)
-#define ZXING_ONED_CODABARWRITER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2E3670)
+#define ZXING_ONED_CODABARWRITER_ENCODE_OFFSET UNITYSDK_OFFSET(0x1EFEF370)
+#define ZXING_ONED_CODABARWRITER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EFEFED0)
+#define ZXING_ONED_CODABARWRITER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EFEF040)
 
 namespace ZXing::OneD
 {
-	inline static constexpr unsigned int CodaBarWriter_TypeDefinitionIndex = 6423;
+	inline static constexpr unsigned int CodaBarWriter_TypeDefinitionIndex = 6968;
 
 	class CodaBarWriter : public ::ZXing::OneD::OneDimensionalCodeWriter
 	{
 	public:
 		static ::Il2CppArray<::System::Char>** StaticGet_CHARS_WHICH_ARE_TEN_LENGTH_EACH_AFTER_DECODED()
 		{
-			return (::Il2CppArray<::System::Char>**)Il2CppClass::FromTypeDefinitionIndex(CodaBarWriter_TypeDefinitionIndex)->GetStaticField(0x2070);
-		}
-		static ::Il2CppArray<::System::Char>** StaticGet_ALT_START_END_CHARS()
-		{
-			return (::Il2CppArray<::System::Char>**)Il2CppClass::FromTypeDefinitionIndex(CodaBarWriter_TypeDefinitionIndex)->GetStaticField(0x2078);
+			return (::Il2CppArray<::System::Char>**)Il2CppClass::FromTypeDefinitionIndex(CodaBarWriter_TypeDefinitionIndex)->GetStaticField(0x27120);
 		}
 		static ::Il2CppArray<::System::Char>** StaticGet_START_END_CHARS()
 		{
-			return (::Il2CppArray<::System::Char>**)Il2CppClass::FromTypeDefinitionIndex(CodaBarWriter_TypeDefinitionIndex)->GetStaticField(0x2080);
+			return (::Il2CppArray<::System::Char>**)Il2CppClass::FromTypeDefinitionIndex(CodaBarWriter_TypeDefinitionIndex)->GetStaticField(0x27128);
+		}
+		static ::Il2CppArray<::System::Char>** StaticGet_ALT_START_END_CHARS()
+		{
+			return (::Il2CppArray<::System::Char>**)Il2CppClass::FromTypeDefinitionIndex(CodaBarWriter_TypeDefinitionIndex)->GetStaticField(0x27130);
 		}
 		static ::System::Char* StaticGet_DEFAULT_GUARD()
 		{
-			return (::System::Char*)Il2CppClass::FromTypeDefinitionIndex(CodaBarWriter_TypeDefinitionIndex)->GetStaticField(0xE20);
+			return (::System::Char*)Il2CppClass::FromTypeDefinitionIndex(CodaBarWriter_TypeDefinitionIndex)->GetStaticField(0xB870);
 		}
 
 		::System::Void _ctor()

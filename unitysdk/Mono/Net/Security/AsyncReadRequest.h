@@ -5,12 +5,12 @@
 
 namespace Mono::Net::Security { class MobileAuthenticatedStream; }
 
-#define MONO_NET_SECURITY_ASYNCREADREQUEST_RUN_OFFSET UNITYSDK_OFFSET(0x1CC50470)
-#define MONO_NET_SECURITY_ASYNCREADREQUEST__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC50400)
+#define MONO_NET_SECURITY_ASYNCREADREQUEST_RUN_OFFSET UNITYSDK_OFFSET(0x1E8FAB70)
+#define MONO_NET_SECURITY_ASYNCREADREQUEST__CTOR_OFFSET UNITYSDK_OFFSET(0x1E8FAB00)
 
 namespace Mono::Net::Security
 {
-	inline static constexpr unsigned int AsyncReadRequest_TypeDefinitionIndex = 2425;
+	inline static constexpr unsigned int AsyncReadRequest_TypeDefinitionIndex = 2432;
 
 	class AsyncReadRequest : public ::Mono::Net::Security::AsyncReadOrWriteRequest
 	{

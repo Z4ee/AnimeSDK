@@ -5,28 +5,28 @@
 namespace System::Runtime::CompilerServices { template <typename T1, typename T2> class ConditionalWeakTable_2; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define CLASS_1_AF6F124E17C06501_METHOD_1_1A010C928AC92A68_OFFSET UNITYSDK_OFFSET(0x1BAD1F00)
-#define CLASS_1_AF6F124E17C06501_METHOD_1_3FA4CE7CF842B8D8_OFFSET UNITYSDK_OFFSET(0x1BAD1B20)
-#define CLASS_1_AF6F124E17C06501_METHOD_1_40F8548F21298F1D_OFFSET UNITYSDK_OFFSET(0x1BAD1CD0)
-#define CLASS_1_AF6F124E17C06501_METHOD_1_BFBBE8A6FE167A6A_OFFSET UNITYSDK_OFFSET(0x1BAD1EA0)
-#define CLASS_1_AF6F124E17C06501_METHOD_1_F06595BF7728A1A0_OFFSET UNITYSDK_OFFSET(0x1BAD1C50)
-#define CLASS_1_AF6F124E17C06501__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BAD1F50)
+#define CLASS_1_AF6F124E17C06501_METHOD_1_1A010C928AC92A68_OFFSET UNITYSDK_OFFSET(0x1D75D9B0)
+#define CLASS_1_AF6F124E17C06501_METHOD_1_3FA4CE7CF842B8D8_OFFSET UNITYSDK_OFFSET(0x1D75D5D0)
+#define CLASS_1_AF6F124E17C06501_METHOD_1_40F8548F21298F1D_OFFSET UNITYSDK_OFFSET(0x1D75D780)
+#define CLASS_1_AF6F124E17C06501_METHOD_1_BFBBE8A6FE167A6A_OFFSET UNITYSDK_OFFSET(0x1D75D950)
+#define CLASS_1_AF6F124E17C06501_METHOD_1_F06595BF7728A1A0_OFFSET UNITYSDK_OFFSET(0x1D75D700)
+#define CLASS_1_AF6F124E17C06501__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D75DA00)
 
-inline static constexpr unsigned int Class_1_AF6F124E17C06501_TypeDefinitionIndex = 6704;
+inline static constexpr unsigned int Class_1_AF6F124E17C06501_TypeDefinitionIndex = 6316;
 
 class Class_1_AF6F124E17C06501 : public ::System::Object
 {
 public:
-	static ::System::Runtime::CompilerServices::ConditionalWeakTable_2<::System::Object*, ::System::Runtime::Serialization::SerializationInfo*>** StaticGet_Field_1_0()
+	static ::System::Runtime::CompilerServices::ConditionalWeakTable_2<::System::Object*, ::System::Runtime::Serialization::SerializationInfo*>** StaticGet_JOOMJIJLHBK()
 	{
-		return (::System::Runtime::CompilerServices::ConditionalWeakTable_2<::System::Object*, ::System::Runtime::Serialization::SerializationInfo*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_AF6F124E17C06501_TypeDefinitionIndex)->GetStaticField(0x5AD0);
+		return (::System::Runtime::CompilerServices::ConditionalWeakTable_2<::System::Object*, ::System::Runtime::Serialization::SerializationInfo*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_AF6F124E17C06501_TypeDefinitionIndex)->GetStaticField(0x20630);
 	}
-	static ::Il2CppArray<::System::Int32>** StaticGet_Field_1_1()
+	static ::Il2CppArray<::System::Int32>** StaticGet_OJFBPIFNHKN()
 	{
-		return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_AF6F124E17C06501_TypeDefinitionIndex)->GetStaticField(0x5AD8);
+		return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_AF6F124E17C06501_TypeDefinitionIndex)->GetStaticField(0x20638);
 	}
-	// static const ::System::Int32 Field_1_2 = 0x65; // 0x0
-	// static const ::System::Int32 Field_1_3 = 0x7FEFFFFD; // 0x0
+	// static const ::System::Int32 BGFIKHHKMEP = 0x65; // 0x0
+	// static const ::System::Int32 ODAMHEBJGBO = 0x7FEFFFFD; // 0x0
 
 	static ::System::Void _cctor()
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::Client::FateRin
 {
-	inline static constexpr unsigned int BattleAddCardReason_TypeDefinitionIndex = 75581;
+	inline static constexpr unsigned int BattleAddCardReason_TypeDefinitionIndex = 79214;
 
 	enum class BattleAddCardReason : ::System::Int32
 	{

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SYSTEM_RUNTIME_COMPILERSERVICES_CALLERMEMBERNAMEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1B3770)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_CALLERMEMBERNAMEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDBB670)
 
 namespace System::Runtime::CompilerServices
 {
-	inline static constexpr unsigned int CallerMemberNameAttribute_TypeDefinitionIndex = 1354;
+	inline static constexpr unsigned int CallerMemberNameAttribute_TypeDefinitionIndex = 1361;
 
 	class CallerMemberNameAttribute : public ::System::Attribute
 	{

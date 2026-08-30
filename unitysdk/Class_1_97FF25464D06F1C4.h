@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/GameCore/GroupCategory.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_97FF25464D06F1C4_METHOD_1_1A4BC247898434D2_OFFSET UNITYSDK_OFFSET(0xAFDFCB0)
+#define CLASS_1_97FF25464D06F1C4_METHOD_1_1A4BC247898434D2_OFFSET UNITYSDK_OFFSET(0xB999590)
 
-inline static constexpr unsigned int Class_1_97FF25464D06F1C4_TypeDefinitionIndex = 59439;
+inline static constexpr unsigned int Class_1_97FF25464D06F1C4_TypeDefinitionIndex = 62278;
 
 class Class_1_97FF25464D06F1C4 : public ::System::Object
 {

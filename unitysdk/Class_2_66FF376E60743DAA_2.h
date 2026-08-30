@@ -5,16 +5,16 @@
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define CLASS_2_66FF376E60743DAA_2_FILLRSPCMDIDSTO_OFFSET UNITYSDK_OFFSET(0x14BF4450)
-#define CLASS_2_66FF376E60743DAA_2__CTOR_OFFSET UNITYSDK_OFFSET(0x14BF4430)
-#define CLASS_2_66FF376E60743DAA_2__DOCHECKIMPL_OFFSET UNITYSDK_OFFSET(0x14BF44E0)
+#define CLASS_2_66FF376E60743DAA_2_FILLRSPCMDIDSTO_OFFSET UNITYSDK_OFFSET(0x1598A430)
+#define CLASS_2_66FF376E60743DAA_2__CTOR_OFFSET UNITYSDK_OFFSET(0x1598A410)
+#define CLASS_2_66FF376E60743DAA_2__DOCHECKIMPL_OFFSET UNITYSDK_OFFSET(0x1598A4C0)
 
-inline static constexpr unsigned int Class_2_66FF376E60743DAA_2_TypeDefinitionIndex = 57220;
+inline static constexpr unsigned int Class_2_66FF376E60743DAA_2_TypeDefinitionIndex = 60018;
 
 class Class_2_66FF376E60743DAA_2 : public ::RPG::Client::SyncCheckItemBase
 {
 public:
-	::System::UInt32 Field_2_0; // 0x10
+	::System::UInt32 OLONOGJLCJJ; // 0x10
 
 	::System::Void _ctor(::System::Object* a1)
 	{

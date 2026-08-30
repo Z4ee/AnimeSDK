@@ -5,17 +5,17 @@
 namespace EnviromentSystem { class EnviromentClip_OnEnvironmentClipLoadDelegate; }
 namespace EnviromentSystem { class EnviromentProfile; }
 
-#define ENVIROMENTSYSTEM_ENVIROMENTPROFILE___C__DISPLAYCLASS31_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1450D1C0)
+#define ENVIROMENTSYSTEM_ENVIROMENTPROFILE___C__DISPLAYCLASS31_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1533F660)
 
 namespace EnviromentSystem
 {
-	inline static constexpr unsigned int EnviromentProfile___c__DisplayClass31_0_TypeDefinitionIndex = 47732;
+	inline static constexpr unsigned int EnviromentProfile___c__DisplayClass31_0_TypeDefinitionIndex = 50013;
 
 	class EnviromentProfile___c__DisplayClass31_0 : public ::System::Object
 	{
 	public:
-		::EnviromentSystem::EnviromentProfile* __4__this; // 0x10
-		::EnviromentSystem::EnviromentClip_OnEnvironmentClipLoadDelegate* onLoadFinish; // 0x18
+		::EnviromentSystem::EnviromentClip_OnEnvironmentClipLoadDelegate* onLoadFinish; // 0x10
+		::EnviromentSystem::EnviromentProfile* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

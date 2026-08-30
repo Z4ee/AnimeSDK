@@ -2,21 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_COLLECTIONS_GENERIC_OBJECTEQUALITYCOMPARER_SYSTEM_COLLECTIONS_IEQUALITYCOMPARER_EQUALS_OFFSET UNITYSDK_OFFSET(0x19FB2BF0)
-#define SYSTEM_COLLECTIONS_GENERIC_OBJECTEQUALITYCOMPARER_SYSTEM_COLLECTIONS_IEQUALITYCOMPARER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x19FB2B50)
-#define SYSTEM_COLLECTIONS_GENERIC_OBJECTEQUALITYCOMPARER__CCTOR_OFFSET UNITYSDK_OFFSET(0x19FB2CA0)
-#define SYSTEM_COLLECTIONS_GENERIC_OBJECTEQUALITYCOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x19FB2B40)
+#define SYSTEM_COLLECTIONS_GENERIC_OBJECTEQUALITYCOMPARER_SYSTEM_COLLECTIONS_IEQUALITYCOMPARER_EQUALS_OFFSET UNITYSDK_OFFSET(0x1BBB7C20)
+#define SYSTEM_COLLECTIONS_GENERIC_OBJECTEQUALITYCOMPARER_SYSTEM_COLLECTIONS_IEQUALITYCOMPARER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1BBB7B80)
+#define SYSTEM_COLLECTIONS_GENERIC_OBJECTEQUALITYCOMPARER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BBB7CD0)
+#define SYSTEM_COLLECTIONS_GENERIC_OBJECTEQUALITYCOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BBB7B70)
 
 namespace System::Collections::Generic
 {
-	inline static constexpr unsigned int ObjectEqualityComparer_TypeDefinitionIndex = 1536;
+	inline static constexpr unsigned int ObjectEqualityComparer_TypeDefinitionIndex = 1543;
 
 	class ObjectEqualityComparer : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::ObjectEqualityComparer** StaticGet_Default()
 		{
-			return (::System::Collections::Generic::ObjectEqualityComparer**)Il2CppClass::FromTypeDefinitionIndex(ObjectEqualityComparer_TypeDefinitionIndex)->GetStaticField(0x3E50);
+			return (::System::Collections::Generic::ObjectEqualityComparer**)Il2CppClass::FromTypeDefinitionIndex(ObjectEqualityComparer_TypeDefinitionIndex)->GetStaticField(0x7940);
 		}
 
 		::System::Void _ctor()

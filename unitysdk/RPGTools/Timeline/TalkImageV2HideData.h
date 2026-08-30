@@ -6,21 +6,21 @@ namespace RPG::GameCore { class PerformanceBgImagePanelConfig; }
 namespace RPGTools::Timeline { class TalkImageV2HideClip; }
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_TALKIMAGEV2HIDEDATA_SETUP_OFFSET UNITYSDK_OFFSET(0xDD29AB0)
-#define RPGTOOLS_TIMELINE_TALKIMAGEV2HIDEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xDD29AA0)
-#define RPGTOOLS_TIMELINE_TALKIMAGEV2HIDEDATA__GETFADESPEED_OFFSET UNITYSDK_OFFSET(0xDD29FA0)
-#define RPGTOOLS_TIMELINE_TALKIMAGEV2HIDEDATA__GETPANELCONFIG_OFFSET UNITYSDK_OFFSET(0xDD29DD0)
+#define RPGTOOLS_TIMELINE_TALKIMAGEV2HIDEDATA_SETUP_OFFSET UNITYSDK_OFFSET(0xE8F4A40)
+#define RPGTOOLS_TIMELINE_TALKIMAGEV2HIDEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xE8F4A30)
+#define RPGTOOLS_TIMELINE_TALKIMAGEV2HIDEDATA__GETFADESPEED_OFFSET UNITYSDK_OFFSET(0xE8F4F30)
+#define RPGTOOLS_TIMELINE_TALKIMAGEV2HIDEDATA__GETPANELCONFIG_OFFSET UNITYSDK_OFFSET(0xE8F4D60)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int TalkImageV2HideData_TypeDefinitionIndex = 46599;
+	inline static constexpr unsigned int TalkImageV2HideData_TypeDefinitionIndex = 48844;
 
 	class TalkImageV2HideData : public ::System::Object
 	{
 	public:
 		::System::String* PanelType; // 0x10
-		::System::UInt32 PanelIndex; // 0x18
-		::System::Single FadeSpeed; // 0x1C
+		::System::Single FadeSpeed; // 0x18
+		::System::UInt32 PanelIndex; // 0x1C
 
 		::System::Void _ctor()
 		{

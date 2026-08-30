@@ -4,11 +4,11 @@
 
 namespace RPGTools::Timeline::PostProcessing { class AdditionalColorGradingTimelineBehaviour; }
 
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_ADDITIONALCOLORGRADINGTIMELINECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xDCFADF0)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_ADDITIONALCOLORGRADINGTIMELINECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xE8C48C0)
 
 namespace RPGTools::Timeline::PostProcessing
 {
-	inline static constexpr unsigned int AdditionalColorGradingTimelineClip_TypeDefinitionIndex = 46738;
+	inline static constexpr unsigned int AdditionalColorGradingTimelineClip_TypeDefinitionIndex = 48984;
 
 	class AdditionalColorGradingTimelineClip : public ::RPGTools::Timeline::PostProcessing::BaseTimelineClip_1<::RPGTools::Timeline::PostProcessing::AdditionalColorGradingTimelineBehaviour*>
 	{

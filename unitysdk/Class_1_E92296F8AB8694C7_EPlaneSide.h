@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Class_1_E92296F8AB8694C7_EPlaneSide_TypeDefinitionIndex = 66568;
+inline static constexpr unsigned int Class_1_E92296F8AB8694C7_EPlaneSide_TypeDefinitionIndex = 69661;
 
 enum class Class_1_E92296F8AB8694C7_EPlaneSide : ::System::Int32
 {

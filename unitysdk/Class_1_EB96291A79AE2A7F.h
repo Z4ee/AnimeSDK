@@ -4,20 +4,20 @@
 #include "unitysdk/UnityEngine/ConsoleVariableBoolProperty.h"
 #include "unitysdk/UnityEngine/ConsoleVariableIntProperty.h"
 
-#define CLASS_1_EB96291A79AE2A7F__CCTOR_OFFSET UNITYSDK_OFFSET(0xB1E6C40)
+#define CLASS_1_EB96291A79AE2A7F__CCTOR_OFFSET UNITYSDK_OFFSET(0xBBBAD50)
 
-inline static constexpr unsigned int Class_1_EB96291A79AE2A7F_TypeDefinitionIndex = 66788;
+inline static constexpr unsigned int Class_1_EB96291A79AE2A7F_TypeDefinitionIndex = 69890;
 
 class Class_1_EB96291A79AE2A7F : public ::System::Object
 {
 public:
-	static ::UnityEngine::ConsoleVariableBoolProperty* StaticGet_Field_1_0()
+	static ::UnityEngine::ConsoleVariableIntProperty* StaticGet_GFMGCKBFNOJ()
 	{
-		return (::UnityEngine::ConsoleVariableBoolProperty*)Il2CppClass::FromTypeDefinitionIndex(Class_1_EB96291A79AE2A7F_TypeDefinitionIndex)->GetStaticField(0x581D0);
+		return (::UnityEngine::ConsoleVariableIntProperty*)Il2CppClass::FromTypeDefinitionIndex(Class_1_EB96291A79AE2A7F_TypeDefinitionIndex)->GetStaticField(0xCA30);
 	}
-	static ::UnityEngine::ConsoleVariableIntProperty* StaticGet_Field_1_1()
+	static ::UnityEngine::ConsoleVariableBoolProperty* StaticGet_MOKKDBFNLGM()
 	{
-		return (::UnityEngine::ConsoleVariableIntProperty*)Il2CppClass::FromTypeDefinitionIndex(Class_1_EB96291A79AE2A7F_TypeDefinitionIndex)->GetStaticField(0x581E0);
+		return (::UnityEngine::ConsoleVariableBoolProperty*)Il2CppClass::FromTypeDefinitionIndex(Class_1_EB96291A79AE2A7F_TypeDefinitionIndex)->GetStaticField(0xCA40);
 	}
 
 	static ::System::Void _cctor()

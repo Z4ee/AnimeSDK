@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class UnBindPropsCablelines; }
 
-#define CLASS_3_20DC4B73A2E4B26D_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15204F50)
-#define CLASS_3_20DC4B73A2E4B26D__CTOR_OFFSET UNITYSDK_OFFSET(0x15204F20)
+#define CLASS_3_20DC4B73A2E4B26D_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x161704B0)
+#define CLASS_3_20DC4B73A2E4B26D__CTOR_OFFSET UNITYSDK_OFFSET(0x16170480)
 
-inline static constexpr unsigned int Class_3_20DC4B73A2E4B26D_TypeDefinitionIndex = 56206;
+inline static constexpr unsigned int Class_3_20DC4B73A2E4B26D_TypeDefinitionIndex = 58988;
 
 class Class_3_20DC4B73A2E4B26D : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::UnBindPropsCablelines*>
 {

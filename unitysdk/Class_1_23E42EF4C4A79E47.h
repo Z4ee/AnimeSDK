@@ -5,15 +5,15 @@
 
 namespace RPG::GameCore { class FiveDimGravityWalkBoardConfig; }
 
-#define CLASS_1_23E42EF4C4A79E47__CTOR_OFFSET UNITYSDK_OFFSET(0x1A955A80)
+#define CLASS_1_23E42EF4C4A79E47__CTOR_OFFSET UNITYSDK_OFFSET(0x1C593BA0)
 
-inline static constexpr unsigned int Class_1_23E42EF4C4A79E47_TypeDefinitionIndex = 40884;
+inline static constexpr unsigned int Class_1_23E42EF4C4A79E47_TypeDefinitionIndex = 41841;
 
 class Class_1_23E42EF4C4A79E47 : public ::System::Object
 {
 public:
-	::RPG::GameCore::FiveDimGravityWalkBoardConfig* Field_1_0; // 0x10
-	::Struct_2_BBFE20496CC14816 Field_1_1; // 0x18
+	::RPG::GameCore::FiveDimGravityWalkBoardConfig* EABKOHGCHFP; // 0x10
+	::Struct_2_BBFE20496CC14816 BPAPBAFOMCH; // 0x18
 
 	::System::Void _ctor()
 	{

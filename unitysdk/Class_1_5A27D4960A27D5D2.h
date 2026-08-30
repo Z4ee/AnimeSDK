@@ -4,14 +4,14 @@
 
 namespace RPG::GameCore { class ChimeraAbilityPassive; }
 
-#define CLASS_1_5A27D4960A27D5D2__CTOR_OFFSET UNITYSDK_OFFSET(0x1A905740)
+#define CLASS_1_5A27D4960A27D5D2__CTOR_OFFSET UNITYSDK_OFFSET(0x1C541330)
 
-inline static constexpr unsigned int Class_1_5A27D4960A27D5D2_TypeDefinitionIndex = 39525;
+inline static constexpr unsigned int Class_1_5A27D4960A27D5D2_TypeDefinitionIndex = 40398;
 
 class Class_1_5A27D4960A27D5D2 : public ::System::Object
 {
 public:
-	::Il2CppArray<::RPG::GameCore::ChimeraAbilityPassive*>* Field_1_0; // 0x10
+	::Il2CppArray<::RPG::GameCore::ChimeraAbilityPassive*>* PIMNOEDFJGM; // 0x10
 
 	::System::Void _ctor()
 	{

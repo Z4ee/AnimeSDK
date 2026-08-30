@@ -6,12 +6,12 @@
 class Class_1_EAF7984A8FAD6BE4;
 namespace UnityEngine { class AnimationCurve; }
 
-#define ENVIROMENTSYSTEMV2SPACE_LAYOUTFLOATCURVEPROPERTYDATA_METHOD_4_CF780FC3D0CB1833_OFFSET UNITYSDK_OFFSET(0x14533530)
-#define ENVIROMENTSYSTEMV2SPACE_LAYOUTFLOATCURVEPROPERTYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x14533610)
+#define ENVIROMENTSYSTEMV2SPACE_LAYOUTFLOATCURVEPROPERTYDATA_METHOD_4_CF780FC3D0CB1833_OFFSET UNITYSDK_OFFSET(0x153660D0)
+#define ENVIROMENTSYSTEMV2SPACE_LAYOUTFLOATCURVEPROPERTYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x153661B0)
 
 namespace EnviromentSystemV2Space
 {
-	inline static constexpr unsigned int LayoutFloatCurvePropertyData_TypeDefinitionIndex = 47519;
+	inline static constexpr unsigned int LayoutFloatCurvePropertyData_TypeDefinitionIndex = 49800;
 
 	class LayoutFloatCurvePropertyData : public ::EnviromentSystemV2Space::LayoutPropertyData_1<::UnityEngine::AnimationCurve*>
 	{

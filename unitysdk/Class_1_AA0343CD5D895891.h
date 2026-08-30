@@ -3,14 +3,14 @@
 #include "unitysdk/RPG/GameCore/Match3/GridTag.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_AA0343CD5D895891__CTOR_OFFSET UNITYSDK_OFFSET(0x152C9310)
+#define CLASS_1_AA0343CD5D895891__CTOR_OFFSET UNITYSDK_OFFSET(0x1623DFF0)
 
-inline static constexpr unsigned int Class_1_AA0343CD5D895891_TypeDefinitionIndex = 63013;
+inline static constexpr unsigned int Class_1_AA0343CD5D895891_TypeDefinitionIndex = 65998;
 
 class Class_1_AA0343CD5D895891 : public ::System::Object
 {
 public:
-	::RPG::GameCore::Match3::GridTag Field_1_0; // 0x10
+	::RPG::GameCore::Match3::GridTag BKFKAGDNGNN; // 0x10
 
 	::System::Void _ctor()
 	{

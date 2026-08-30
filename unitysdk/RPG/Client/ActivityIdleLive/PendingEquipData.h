@@ -6,13 +6,13 @@ class Class_1_A0F414D2CF643E56_4;
 namespace RPG::Client::ActivityIdleLive { class IdleLiveEquipmentData; }
 namespace RPG::Client::ActivityIdleLive { class SpecialEquip; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_PENDINGEQUIPDATA_GETSLOTIDENTIFYID_OFFSET UNITYSDK_OFFSET(0xBBDAA00)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_PENDINGEQUIPDATA_GET_ISSPECIAL_OFFSET UNITYSDK_OFFSET(0xBBDA9B0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_PENDINGEQUIPDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xBBDAC30)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_PENDINGEQUIPDATA_GETSLOTIDENTIFYID_OFFSET UNITYSDK_OFFSET(0xC5F8900)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_PENDINGEQUIPDATA_GET_ISSPECIAL_OFFSET UNITYSDK_OFFSET(0xC5F88B0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_PENDINGEQUIPDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xC5F8B30)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int PendingEquipData_TypeDefinitionIndex = 71623;
+	inline static constexpr unsigned int PendingEquipData_TypeDefinitionIndex = 74929;
 
 	class PendingEquipData : public ::System::Object
 	{
@@ -20,9 +20,9 @@ namespace RPG::Client::ActivityIdleLive
 		::RPG::Client::ActivityIdleLive::SpecialEquip* _EquipSpecial; // 0x10
 		::Class_1_A0F414D2CF643E56_4* Equip; // 0x18
 		::RPG::Client::ActivityIdleLive::IdleLiveEquipmentData* _EquipNormal; // 0x20
-		::System::UInt32 ConfirmedNum; // 0x28
-		::System::UInt32 TotalNum; // 0x2C
-		::System::UInt32 Power; // 0x30
+		::System::UInt32 TotalNum; // 0x28
+		::System::UInt32 Power; // 0x2C
+		::System::UInt32 ConfirmedNum; // 0x30
 
 		::System::Void _ctor()
 		{

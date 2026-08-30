@@ -3,7 +3,7 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2NormalType_TypeDefinitionIndex = 35175;
+	inline static constexpr unsigned int B2NormalType_TypeDefinitionIndex = 36036;
 
 	enum class B2NormalType : ::System::Int32
 	{

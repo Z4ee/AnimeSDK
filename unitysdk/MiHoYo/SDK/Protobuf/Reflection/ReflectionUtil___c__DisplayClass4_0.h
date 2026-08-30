@@ -5,12 +5,12 @@
 namespace MiHoYo::SDK::Protobuf { class IMessage; }
 namespace System::Reflection { class MethodInfo; }
 
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_REFLECTIONUTIL___C__DISPLAYCLASS4_0__CREATEACTIONIMESSAGE_B__0_OFFSET UNITYSDK_OFFSET(0x19B81860)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_REFLECTIONUTIL___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19B81660)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_REFLECTIONUTIL___C__DISPLAYCLASS4_0__CREATEACTIONIMESSAGE_B__0_OFFSET UNITYSDK_OFFSET(0x1B710F10)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_REFLECTIONUTIL___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B710D10)
 
 namespace MiHoYo::SDK::Protobuf::Reflection
 {
-	inline static constexpr unsigned int ReflectionUtil___c__DisplayClass4_0_TypeDefinitionIndex = 34415;
+	inline static constexpr unsigned int ReflectionUtil___c__DisplayClass4_0_TypeDefinitionIndex = 35182;
 
 	class ReflectionUtil___c__DisplayClass4_0 : public ::System::Object
 	{

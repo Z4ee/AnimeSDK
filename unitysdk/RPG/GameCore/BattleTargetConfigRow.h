@@ -9,31 +9,31 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_BATTLETARGETCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B206410)
-#define RPG_GAMECORE_BATTLETARGETCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B206EA0)
+#define RPG_GAMECORE_BATTLETARGETCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CE81670)
+#define RPG_GAMECORE_BATTLETARGETCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE82100)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleTargetConfigRow_TypeDefinitionIndex = 12365;
+	inline static constexpr unsigned int BattleTargetConfigRow_TypeDefinitionIndex = 12754;
 
 	class BattleTargetConfigRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* MultiTarget; // 0x10
-		::Il2CppArray<::RPG::GameCore::BattleTargetIconType>* MultiTargetIconType; // 0x18
-		::Il2CppArray<::System::UInt32>* HintStep; // 0x20
-		::System::String* AbilityName; // 0x28
-		::RPG::Client::TextID TargetName; // 0x30
-		::RPG::GameCore::ParamType ParamType; // 0x40
-		::System::UInt32 ID; // 0x44
-		::RPG::GameCore::BattleTargetIconType IconType; // 0x48
-		::System::UInt32 IsShowProgress; // 0x4C
-		::System::Boolean ShowInScoreCounter; // 0x50
-		::System::Boolean SkipWhenSuccessOnEnterBattle; // 0x51
-		::System::Boolean IsFixableHeight; // 0x52
-		::System::UInt32 IconNum; // 0x54
-		::RPG::GameCore::BattleTargetConfigType Type; // 0x58
-		::System::UInt32 TargetParam; // 0x5C
+		::Il2CppArray<::RPG::GameCore::BattleTargetIconType>* MultiTargetIconType; // 0x10
+		::Il2CppArray<::System::UInt32>* MultiTarget; // 0x18
+		::System::String* AbilityName; // 0x20
+		::Il2CppArray<::System::UInt32>* HintStep; // 0x28
+		::System::UInt32 ID; // 0x30
+		::RPG::GameCore::BattleTargetConfigType Type; // 0x34
+		::RPG::GameCore::ParamType ParamType; // 0x38
+		::System::UInt32 TargetParam; // 0x3C
+		::RPG::GameCore::BattleTargetIconType IconType; // 0x40
+		::System::UInt32 IconNum; // 0x44
+		::System::UInt32 IsShowProgress; // 0x48
+		::System::Boolean SkipWhenSuccessOnEnterBattle; // 0x4C
+		::System::Boolean ShowInScoreCounter; // 0x4D
+		::System::Boolean IsFixableHeight; // 0x4E
+		::RPG::Client::TextID TargetName; // 0x50
 		::RPG::Client::TextID TargetNameSimple; // 0x60
 
 		::System::Void _ctor()

@@ -4,15 +4,15 @@
 
 namespace RPG::Client { class MatchThreeBoard; }
 
-#define CLASS_2_980BB27C20DEC196_CLEAR_OFFSET UNITYSDK_OFFSET(0x14737BF0)
-#define CLASS_2_980BB27C20DEC196__CTOR_OFFSET UNITYSDK_OFFSET(0x14737C40)
+#define CLASS_2_980BB27C20DEC196_CLEAR_OFFSET UNITYSDK_OFFSET(0x155A5080)
+#define CLASS_2_980BB27C20DEC196__CTOR_OFFSET UNITYSDK_OFFSET(0x155A50D0)
 
-inline static constexpr unsigned int Class_2_980BB27C20DEC196_TypeDefinitionIndex = 62910;
+inline static constexpr unsigned int Class_2_980BB27C20DEC196_TypeDefinitionIndex = 65895;
 
 class Class_2_980BB27C20DEC196 : public ::Class_1_3713064DEE761936
 {
 public:
-	::RPG::Client::MatchThreeBoard* Field_2_0; // 0x20
+	::RPG::Client::MatchThreeBoard* GAIENNLBCMM; // 0x20
 
 	::System::Void _ctor()
 	{

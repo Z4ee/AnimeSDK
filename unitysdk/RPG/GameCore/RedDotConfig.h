@@ -7,12 +7,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class RedDotGroupConfig; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_REDDOTCONFIG_METHOD_2_050379D7C7E41D0D_OFFSET UNITYSDK_OFFSET(0x1B70CA90)
-#define RPG_GAMECORE_REDDOTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B70CB90)
+#define RPG_GAMECORE_REDDOTCONFIG_METHOD_2_050379D7C7E41D0D_OFFSET UNITYSDK_OFFSET(0x1D38ED00)
+#define RPG_GAMECORE_REDDOTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D38EE00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RedDotConfig_TypeDefinitionIndex = 23551;
+	inline static constexpr unsigned int RedDotConfig_TypeDefinitionIndex = 24136;
 
 	class RedDotConfig : public ::RPG::GameCore::JsonConfig
 	{

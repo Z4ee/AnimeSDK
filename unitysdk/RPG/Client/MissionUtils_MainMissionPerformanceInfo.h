@@ -4,11 +4,11 @@
 
 namespace RPG::GameCore { class PerformanceSortedItem; }
 
-#define RPG_CLIENT_MISSIONUTILS_MAINMISSIONPERFORMANCEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xCC1C080)
+#define RPG_CLIENT_MISSIONUTILS_MAINMISSIONPERFORMANCEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xD71AFB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MissionUtils_MainMissionPerformanceInfo_TypeDefinitionIndex = 63246;
+	inline static constexpr unsigned int MissionUtils_MainMissionPerformanceInfo_TypeDefinitionIndex = 66231;
 
 	class MissionUtils_MainMissionPerformanceInfo : public ::System::Object
 	{

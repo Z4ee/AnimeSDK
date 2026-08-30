@@ -3,11 +3,11 @@
 #include "unitysdk/UnityEngine/Events/UnityEvent_1.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define RPG_CLIENT_UIMONOJOYSTICK_JOYSTICKDRAGEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0xD7E28D0)
+#define RPG_CLIENT_UIMONOJOYSTICK_JOYSTICKDRAGEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0xE388E30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIMonoJoyStick_JoyStickDragEvent_TypeDefinitionIndex = 69527;
+	inline static constexpr unsigned int UIMonoJoyStick_JoyStickDragEvent_TypeDefinitionIndex = 72755;
 
 	class UIMonoJoyStick_JoyStickDragEvent : public ::UnityEngine::Events::UnityEvent_1<::UnityEngine::Vector2>
 	{

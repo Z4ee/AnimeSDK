@@ -4,20 +4,20 @@
 
 namespace System::Reflection { class FieldInfo; }
 
-#define SYSTEM_RUNTIME_SERIALIZATION_VALUETYPEFIXUPINFO_GET_CONTAINERID_OFFSET UNITYSDK_OFFSET(0x1A22C8B0)
-#define SYSTEM_RUNTIME_SERIALIZATION_VALUETYPEFIXUPINFO_GET_PARENTFIELD_OFFSET UNITYSDK_OFFSET(0x1A22C8C0)
-#define SYSTEM_RUNTIME_SERIALIZATION_VALUETYPEFIXUPINFO_GET_PARENTINDEX_OFFSET UNITYSDK_OFFSET(0x1A22C8D0)
-#define SYSTEM_RUNTIME_SERIALIZATION_VALUETYPEFIXUPINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1A2205D0)
+#define SYSTEM_RUNTIME_SERIALIZATION_VALUETYPEFIXUPINFO_GET_CONTAINERID_OFFSET UNITYSDK_OFFSET(0x1BE35450)
+#define SYSTEM_RUNTIME_SERIALIZATION_VALUETYPEFIXUPINFO_GET_PARENTFIELD_OFFSET UNITYSDK_OFFSET(0x1BE35460)
+#define SYSTEM_RUNTIME_SERIALIZATION_VALUETYPEFIXUPINFO_GET_PARENTINDEX_OFFSET UNITYSDK_OFFSET(0x1BE35470)
+#define SYSTEM_RUNTIME_SERIALIZATION_VALUETYPEFIXUPINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE290E0)
 
 namespace System::Runtime::Serialization
 {
-	inline static constexpr unsigned int ValueTypeFixupInfo_TypeDefinitionIndex = 1132;
+	inline static constexpr unsigned int ValueTypeFixupInfo_TypeDefinitionIndex = 1139;
 
 	class ValueTypeFixupInfo : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::Int32>* m_parentIndex; // 0x10
-		::System::Reflection::FieldInfo* m_parentField; // 0x18
+		::System::Reflection::FieldInfo* m_parentField; // 0x10
+		::Il2CppArray<::System::Int32>* m_parentIndex; // 0x18
 		::System::Int64 m_containerID; // 0x20
 
 		::System::Void _ctor(::System::Int64 a1, ::System::Reflection::FieldInfo* a2, ::Il2CppArray<::System::Int32>* a3)

@@ -5,15 +5,15 @@
 
 namespace RPG::GameCore { class AnchorInfo; }
 
-#define CLASS_2_E3394C1EB3F3E0EB_METHOD_2_EB45FB3C158A0779_OFFSET UNITYSDK_OFFSET(0x14420580)
-#define CLASS_2_E3394C1EB3F3E0EB__CTOR_OFFSET UNITYSDK_OFFSET(0x144206C0)
+#define CLASS_2_E3394C1EB3F3E0EB_METHOD_2_EB45FB3C158A0779_OFFSET UNITYSDK_OFFSET(0x152455C0)
+#define CLASS_2_E3394C1EB3F3E0EB__CTOR_OFFSET UNITYSDK_OFFSET(0x15245700)
 
-inline static constexpr unsigned int Class_2_E3394C1EB3F3E0EB_TypeDefinitionIndex = 54752;
+inline static constexpr unsigned int Class_2_E3394C1EB3F3E0EB_TypeDefinitionIndex = 57473;
 
 class Class_2_E3394C1EB3F3E0EB : public ::Class_1_38A71F76592AF3BC
 {
 public:
-	::RPG::GameCore::AnchorInfo* Field_2_0; // 0x20
+	::RPG::GameCore::AnchorInfo* MOGKHAKCONH; // 0x20
 
 	::System::Void _ctor()
 	{

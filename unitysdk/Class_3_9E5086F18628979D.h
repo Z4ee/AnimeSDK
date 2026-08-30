@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AdventureSetAttackTargetMonsterDie; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_9E5086F18628979D_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1533DD40)
-#define CLASS_3_9E5086F18628979D__CTOR_OFFSET UNITYSDK_OFFSET(0x1533DD10)
+#define CLASS_3_9E5086F18628979D_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x162B5700)
+#define CLASS_3_9E5086F18628979D__CTOR_OFFSET UNITYSDK_OFFSET(0x162B56D0)
 
-inline static constexpr unsigned int Class_3_9E5086F18628979D_TypeDefinitionIndex = 50143;
+inline static constexpr unsigned int Class_3_9E5086F18628979D_TypeDefinitionIndex = 52805;
 
 class Class_3_9E5086F18628979D : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AdventureSetAttackTargetMonsterDie*>
 {

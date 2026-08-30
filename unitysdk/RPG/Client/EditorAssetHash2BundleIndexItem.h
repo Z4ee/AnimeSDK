@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_EDITORASSETHASH2BUNDLEINDEXITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1A3C5E10)
+#define RPG_CLIENT_EDITORASSETHASH2BUNDLEINDEXITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1BFD4DC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EditorAssetHash2BundleIndexItem_TypeDefinitionIndex = 39292;
+	inline static constexpr unsigned int EditorAssetHash2BundleIndexItem_TypeDefinitionIndex = 40165;
 
 	class EditorAssetHash2BundleIndexItem : public ::System::Object
 	{

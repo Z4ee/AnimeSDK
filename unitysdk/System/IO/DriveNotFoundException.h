@@ -6,13 +6,13 @@
 namespace System { class String; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_IO_DRIVENOTFOUNDEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A140A90)
-#define SYSTEM_IO_DRIVENOTFOUNDEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1A140B00)
-#define SYSTEM_IO_DRIVENOTFOUNDEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1409F0)
+#define SYSTEM_IO_DRIVENOTFOUNDEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1BD48440)
+#define SYSTEM_IO_DRIVENOTFOUNDEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1BD484B0)
+#define SYSTEM_IO_DRIVENOTFOUNDEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD483A0)
 
 namespace System::IO
 {
-	inline static constexpr unsigned int DriveNotFoundException_TypeDefinitionIndex = 664;
+	inline static constexpr unsigned int DriveNotFoundException_TypeDefinitionIndex = 667;
 
 	class DriveNotFoundException : public ::System::IO::IOException
 	{

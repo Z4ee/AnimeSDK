@@ -4,7 +4,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SpaceZooUtils_SpaceZooFeatureCombination_TypeDefinitionIndex = 64964;
+	inline static constexpr unsigned int SpaceZooUtils_SpaceZooFeatureCombination_TypeDefinitionIndex = 67971;
 
 	struct alignas(4) SpaceZooUtils_SpaceZooFeatureCombination
 	{

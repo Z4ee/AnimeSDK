@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EnviromentControlPriority_TypeDefinitionIndex = 23574;
+	inline static constexpr unsigned int EnviromentControlPriority_TypeDefinitionIndex = 24159;
 
 	enum class EnviromentControlPriority : ::System::Int32
 	{

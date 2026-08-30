@@ -5,12 +5,12 @@
 class Class_1_23C1B7E6B450FFB8_5;
 namespace RPG::Client { class GridFightTraitConfigBase; }
 
-#define RPG_CLIENT_GRIDFIGHTTRAITDAMAGESTATISTICINFO_GET_TRAITCONFIG_OFFSET UNITYSDK_OFFSET(0xC843A20)
-#define RPG_CLIENT_GRIDFIGHTTRAITDAMAGESTATISTICINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xC843820)
+#define RPG_CLIENT_GRIDFIGHTTRAITDAMAGESTATISTICINFO_GET_TRAITCONFIG_OFFSET UNITYSDK_OFFSET(0xD35F780)
+#define RPG_CLIENT_GRIDFIGHTTRAITDAMAGESTATISTICINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xD35F580)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightTraitDamageStatisticInfo_TypeDefinitionIndex = 61492;
+	inline static constexpr unsigned int GridFightTraitDamageStatisticInfo_TypeDefinitionIndex = 64476;
 
 	class GridFightTraitDamageStatisticInfo : public ::RPG::Client::GridFightDamageStatisticInfo
 	{

@@ -5,12 +5,12 @@
 
 namespace RPG::Client::ActivityIdleLive { class IdleLiveTeamAvatarData; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO___C__DISPLAYCLASS19_0__CHECKHASAVATARCANDEPLOY_B__2_OFFSET UNITYSDK_OFFSET(0xBB7B170)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBB73490)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO___C__DISPLAYCLASS19_0__CHECKHASAVATARCANDEPLOY_B__2_OFFSET UNITYSDK_OFFSET(0xC599FD0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC592070)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveBaseTeamInfo___c__DisplayClass19_0_TypeDefinitionIndex = 71490;
+	inline static constexpr unsigned int IdleLiveBaseTeamInfo___c__DisplayClass19_0_TypeDefinitionIndex = 74796;
 
 	class IdleLiveBaseTeamInfo___c__DisplayClass19_0 : public ::System::Object
 	{

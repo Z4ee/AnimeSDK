@@ -6,20 +6,20 @@
 namespace System { class String; }
 namespace System::Xml::Schema { class NamespaceList; }
 
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAANY_BUILDNAMESPACELIST_OFFSET UNITYSDK_OFFSET(0x1CB739E0)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAANY_GET_NAMESPACELIST_OFFSET UNITYSDK_OFFSET(0x1CB739D0)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAANY_SET_PROCESSCONTENTS_OFFSET UNITYSDK_OFFSET(0x1CB739C0)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAANY__CTOR_OFFSET UNITYSDK_OFFSET(0x1CB73A40)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAANY_BUILDNAMESPACELIST_OFFSET UNITYSDK_OFFSET(0x1E81DCA0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAANY_GET_NAMESPACELIST_OFFSET UNITYSDK_OFFSET(0x1E81DC90)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAANY_SET_PROCESSCONTENTS_OFFSET UNITYSDK_OFFSET(0x1E81DC80)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAANY__CTOR_OFFSET UNITYSDK_OFFSET(0x1E81DD00)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int XmlSchemaAny_TypeDefinitionIndex = 2178;
+	inline static constexpr unsigned int XmlSchemaAny_TypeDefinitionIndex = 2185;
 
 	class XmlSchemaAny : public ::System::Xml::Schema::XmlSchemaParticle
 	{
 	public:
-		::System::Xml::Schema::NamespaceList* namespaceList; // 0x38
-		::System::String* ns; // 0x40
+		::System::String* ns; // 0x38
+		::System::Xml::Schema::NamespaceList* namespaceList; // 0x40
 		::System::Xml::Schema::XmlSchemaContentProcessing processContents; // 0x48
 
 		::System::Void _ctor()

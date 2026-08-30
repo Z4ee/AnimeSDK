@@ -5,22 +5,22 @@
 
 namespace System { template <typename T> class Predicate_1; }
 
-#define EMBREEDEBUGTOOL___C__CASTRAYGRID_B__19_0_OFFSET UNITYSDK_OFFSET(0xA9F0FD0)
-#define EMBREEDEBUGTOOL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xA9F0F80)
-#define EMBREEDEBUGTOOL___C__CTOR_OFFSET UNITYSDK_OFFSET(0xA9F0FC0)
+#define EMBREEDEBUGTOOL___C__CASTRAYGRID_B__19_0_OFFSET UNITYSDK_OFFSET(0xB113F90)
+#define EMBREEDEBUGTOOL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xB113F40)
+#define EMBREEDEBUGTOOL___C__CTOR_OFFSET UNITYSDK_OFFSET(0xB113F80)
 
-inline static constexpr unsigned int EmbreeDebugTool___c_TypeDefinitionIndex = 42598;
+inline static constexpr unsigned int EmbreeDebugTool___c_TypeDefinitionIndex = 44780;
 
 class EmbreeDebugTool___c : public ::System::Object
 {
 public:
-	static ::EmbreeDebugTool___c** StaticGet___9()
-	{
-		return (::EmbreeDebugTool___c**)Il2CppClass::FromTypeDefinitionIndex(EmbreeDebugTool___c_TypeDefinitionIndex)->GetStaticField(0x61890);
-	}
 	static ::System::Predicate_1<::RPG::Embree::EmbreeRaycastAPI_RayHitResult>** StaticGet___9__19_0()
 	{
-		return (::System::Predicate_1<::RPG::Embree::EmbreeRaycastAPI_RayHitResult>**)Il2CppClass::FromTypeDefinitionIndex(EmbreeDebugTool___c_TypeDefinitionIndex)->GetStaticField(0x61898);
+		return (::System::Predicate_1<::RPG::Embree::EmbreeRaycastAPI_RayHitResult>**)Il2CppClass::FromTypeDefinitionIndex(EmbreeDebugTool___c_TypeDefinitionIndex)->GetStaticField(0x201A0);
+	}
+	static ::EmbreeDebugTool___c** StaticGet___9()
+	{
+		return (::EmbreeDebugTool___c**)Il2CppClass::FromTypeDefinitionIndex(EmbreeDebugTool___c_TypeDefinitionIndex)->GetStaticField(0x201A8);
 	}
 
 	static ::System::Void _cctor()

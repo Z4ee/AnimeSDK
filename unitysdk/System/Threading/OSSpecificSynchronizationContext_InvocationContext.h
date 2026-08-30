@@ -4,12 +4,12 @@
 
 namespace System::Threading { class SendOrPostCallback; }
 
-#define SYSTEM_THREADING_OSSPECIFICSYNCHRONIZATIONCONTEXT_INVOCATIONCONTEXT_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A036E30)
-#define SYSTEM_THREADING_OSSPECIFICSYNCHRONIZATIONCONTEXT_INVOCATIONCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A036E10)
+#define SYSTEM_THREADING_OSSPECIFICSYNCHRONIZATIONCONTEXT_INVOCATIONCONTEXT_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BC3D5C0)
+#define SYSTEM_THREADING_OSSPECIFICSYNCHRONIZATIONCONTEXT_INVOCATIONCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC3D5A0)
 
 namespace System::Threading
 {
-	inline static constexpr unsigned int OSSpecificSynchronizationContext_InvocationContext_TypeDefinitionIndex = 842;
+	inline static constexpr unsigned int OSSpecificSynchronizationContext_InvocationContext_TypeDefinitionIndex = 846;
 
 	class OSSpecificSynchronizationContext_InvocationContext : public ::System::Object
 	{

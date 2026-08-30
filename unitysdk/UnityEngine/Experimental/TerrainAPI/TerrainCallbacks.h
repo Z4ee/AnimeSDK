@@ -8,8 +8,8 @@ namespace UnityEngine { class TerrainData; }
 namespace UnityEngine::Experimental::TerrainAPI { class TerrainCallbacks_HeightmapChangedCallback; }
 namespace UnityEngine::Experimental::TerrainAPI { class TerrainCallbacks_TextureChangedCallback; }
 
-#define UNITYENGINE_EXPERIMENTAL_TERRAINAPI_TERRAINCALLBACKS_INVOKEHEIGHTMAPCHANGEDCALLBACK_OFFSET UNITYSDK_OFFSET(0x1D0CB620)
-#define UNITYENGINE_EXPERIMENTAL_TERRAINAPI_TERRAINCALLBACKS_INVOKETEXTURECHANGEDCALLBACK_OFFSET UNITYSDK_OFFSET(0x1D0CB740)
+#define UNITYENGINE_EXPERIMENTAL_TERRAINAPI_TERRAINCALLBACKS_INVOKEHEIGHTMAPCHANGEDCALLBACK_OFFSET UNITYSDK_OFFSET(0x1EDD5730)
+#define UNITYENGINE_EXPERIMENTAL_TERRAINAPI_TERRAINCALLBACKS_INVOKETEXTURECHANGEDCALLBACK_OFFSET UNITYSDK_OFFSET(0x1EDD5850)
 
 namespace UnityEngine::Experimental::TerrainAPI
 {
@@ -20,11 +20,11 @@ namespace UnityEngine::Experimental::TerrainAPI
 	public:
 		static ::UnityEngine::Experimental::TerrainAPI::TerrainCallbacks_TextureChangedCallback** StaticGet_textureChanged()
 		{
-			return (::UnityEngine::Experimental::TerrainAPI::TerrainCallbacks_TextureChangedCallback**)Il2CppClass::FromTypeDefinitionIndex(TerrainCallbacks_TypeDefinitionIndex)->GetStaticField(0x330);
+			return (::UnityEngine::Experimental::TerrainAPI::TerrainCallbacks_TextureChangedCallback**)Il2CppClass::FromTypeDefinitionIndex(TerrainCallbacks_TypeDefinitionIndex)->GetStaticField(0x250);
 		}
 		static ::UnityEngine::Experimental::TerrainAPI::TerrainCallbacks_HeightmapChangedCallback** StaticGet_heightmapChanged()
 		{
-			return (::UnityEngine::Experimental::TerrainAPI::TerrainCallbacks_HeightmapChangedCallback**)Il2CppClass::FromTypeDefinitionIndex(TerrainCallbacks_TypeDefinitionIndex)->GetStaticField(0x338);
+			return (::UnityEngine::Experimental::TerrainAPI::TerrainCallbacks_HeightmapChangedCallback**)Il2CppClass::FromTypeDefinitionIndex(TerrainCallbacks_TypeDefinitionIndex)->GetStaticField(0x258);
 		}
 
 		static ::System::Void InvokeHeightmapChangedCallback(::UnityEngine::TerrainData* a1, ::UnityEngine::RectInt a2, ::System::Boolean a3)

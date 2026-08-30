@@ -3,21 +3,21 @@
 #include "unitysdk/System/Net/Sockets/IPProtectionLevel.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_NET_CONFIGURATION_SETTINGSSECTIONINTERNAL_GET_IPV6ENABLED_OFFSET UNITYSDK_OFFSET(0x1CCADF40)
-#define SYSTEM_NET_CONFIGURATION_SETTINGSSECTIONINTERNAL_GET_SECTION_OFFSET UNITYSDK_OFFSET(0x1CCADF10)
-#define SYSTEM_NET_CONFIGURATION_SETTINGSSECTIONINTERNAL__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CCADF60)
-#define SYSTEM_NET_CONFIGURATION_SETTINGSSECTIONINTERNAL__CTOR_OFFSET UNITYSDK_OFFSET(0x1CCADF50)
+#define SYSTEM_NET_CONFIGURATION_SETTINGSSECTIONINTERNAL_GET_IPV6ENABLED_OFFSET UNITYSDK_OFFSET(0x1E958F80)
+#define SYSTEM_NET_CONFIGURATION_SETTINGSSECTIONINTERNAL_GET_SECTION_OFFSET UNITYSDK_OFFSET(0x1E958F50)
+#define SYSTEM_NET_CONFIGURATION_SETTINGSSECTIONINTERNAL__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E958FA0)
+#define SYSTEM_NET_CONFIGURATION_SETTINGSSECTIONINTERNAL__CTOR_OFFSET UNITYSDK_OFFSET(0x1E958F90)
 
 namespace System::Net::Configuration
 {
-	inline static constexpr unsigned int SettingsSectionInternal_TypeDefinitionIndex = 2972;
+	inline static constexpr unsigned int SettingsSectionInternal_TypeDefinitionIndex = 2979;
 
 	class SettingsSectionInternal : public ::System::Object
 	{
 	public:
 		static ::System::Net::Configuration::SettingsSectionInternal** StaticGet_instance()
 		{
-			return (::System::Net::Configuration::SettingsSectionInternal**)Il2CppClass::FromTypeDefinitionIndex(SettingsSectionInternal_TypeDefinitionIndex)->GetStaticField(0x2B670);
+			return (::System::Net::Configuration::SettingsSectionInternal**)Il2CppClass::FromTypeDefinitionIndex(SettingsSectionInternal_TypeDefinitionIndex)->GetStaticField(0x1E650);
 		}
 		::System::Boolean HttpListenerUnescapeRequestUrl; // 0x10
 		::System::Net::Sockets::IPProtectionLevel IPProtectionLevel; // 0x14

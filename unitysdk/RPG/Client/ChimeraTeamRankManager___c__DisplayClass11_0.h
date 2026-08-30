@@ -6,12 +6,12 @@ namespace RPG::Client { class ChimeraTeamData; }
 namespace System { template <typename T> class Predicate_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_CHIMERATEAMRANKMANAGER___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC162700)
-#define RPG_CLIENT_CHIMERATEAMRANKMANAGER___C__DISPLAYCLASS11_0___SORTTEAMDATA_B__0_OFFSET UNITYSDK_OFFSET(0xC162FF0)
+#define RPG_CLIENT_CHIMERATEAMRANKMANAGER___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCC17E00)
+#define RPG_CLIENT_CHIMERATEAMRANKMANAGER___C__DISPLAYCLASS11_0___SORTTEAMDATA_B__0_OFFSET UNITYSDK_OFFSET(0xCC186F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraTeamRankManager___c__DisplayClass11_0_TypeDefinitionIndex = 60649;
+	inline static constexpr unsigned int ChimeraTeamRankManager___c__DisplayClass11_0_TypeDefinitionIndex = 63502;
 
 	class ChimeraTeamRankManager___c__DisplayClass11_0 : public ::System::Object
 	{

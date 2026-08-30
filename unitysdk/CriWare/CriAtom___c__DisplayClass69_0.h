@@ -6,12 +6,12 @@ namespace CriWare { class CriAtom; }
 namespace CriWare { class CriAtomCueSheet; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define CRIWARE_CRIATOM___C__DISPLAYCLASS69_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15719DB0)
-#define CRIWARE_CRIATOM___C__DISPLAYCLASS69_0__MARGECUESHEET_B__0_OFFSET UNITYSDK_OFFSET(0x1571A820)
+#define CRIWARE_CRIATOM___C__DISPLAYCLASS69_0__CTOR_OFFSET UNITYSDK_OFFSET(0x164A4AC0)
+#define CRIWARE_CRIATOM___C__DISPLAYCLASS69_0__MARGECUESHEET_B__0_OFFSET UNITYSDK_OFFSET(0x164A5510)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtom___c__DisplayClass69_0_TypeDefinitionIndex = 37753;
+	inline static constexpr unsigned int CriAtom___c__DisplayClass69_0_TypeDefinitionIndex = 38612;
 
 	class CriAtom___c__DisplayClass69_0 : public ::System::Object
 	{

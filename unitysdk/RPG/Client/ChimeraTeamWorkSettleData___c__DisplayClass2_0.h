@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class ChimeraWorkSettleData; }
 
-#define RPG_CLIENT_CHIMERATEAMWORKSETTLEDATA___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC163970)
-#define RPG_CLIENT_CHIMERATEAMWORKSETTLEDATA___C__DISPLAYCLASS2_0__GETCHIMERAWORKSETTLEDATA_B__0_OFFSET UNITYSDK_OFFSET(0xC1641F0)
+#define RPG_CLIENT_CHIMERATEAMWORKSETTLEDATA___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCC19070)
+#define RPG_CLIENT_CHIMERATEAMWORKSETTLEDATA___C__DISPLAYCLASS2_0__GETCHIMERAWORKSETTLEDATA_B__0_OFFSET UNITYSDK_OFFSET(0xCC198F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraTeamWorkSettleData___c__DisplayClass2_0_TypeDefinitionIndex = 60664;
+	inline static constexpr unsigned int ChimeraTeamWorkSettleData___c__DisplayClass2_0_TypeDefinitionIndex = 63517;
 
 	class ChimeraTeamWorkSettleData___c__DisplayClass2_0 : public ::System::Object
 	{

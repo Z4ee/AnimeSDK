@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ShopGoodsMap; }
 
-#define RPG_GAMECORE_ALLEYSHOPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B19DB30)
-#define RPG_GAMECORE_ALLEYSHOPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B19E1D0)
+#define RPG_GAMECORE_ALLEYSHOPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CE14F20)
+#define RPG_GAMECORE_ALLEYSHOPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE15730)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AlleyShopRow_TypeDefinitionIndex = 12118;
+	inline static constexpr unsigned int AlleyShopRow_TypeDefinitionIndex = 12507;
 
 	class AlleyShopRow : public ::System::Object
 	{
@@ -18,8 +18,8 @@ namespace RPG::GameCore
 		::Il2CppArray<::System::UInt32>* EnergyColor; // 0x10
 		::Il2CppArray<::RPG::GameCore::ShopGoodsMap*>* ShopGoods; // 0x18
 		::System::UInt32 ShopID; // 0x20
-		::System::UInt32 ShopEnergy; // 0x24
-		::System::UInt32 ShopBox; // 0x28
+		::System::UInt32 ShopBox; // 0x24
+		::System::UInt32 ShopEnergy; // 0x28
 
 		::System::Void _ctor()
 		{

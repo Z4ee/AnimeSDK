@@ -7,12 +7,12 @@ namespace RPG::Client { class GridFightEquipItemData; }
 namespace RPG::Client { class GridFightTraitElationEffect; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTCOMBINATION_GET_TARGETROLEUNIQUEID_OFFSET UNITYSDK_OFFSET(0xC6E6940)
-#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTCOMBINATION__CTOR_OFFSET UNITYSDK_OFFSET(0xC6E6B80)
+#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTCOMBINATION_GET_TARGETROLEUNIQUEID_OFFSET UNITYSDK_OFFSET(0xD16F100)
+#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTCOMBINATION__CTOR_OFFSET UNITYSDK_OFFSET(0xD1670E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightEquipCraftCombination_TypeDefinitionIndex = 61587;
+	inline static constexpr unsigned int GridFightEquipCraftCombination_TypeDefinitionIndex = 64571;
 
 	class GridFightEquipCraftCombination : public ::System::Object
 	{

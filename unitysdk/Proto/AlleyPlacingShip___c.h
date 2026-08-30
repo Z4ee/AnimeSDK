@@ -4,20 +4,20 @@
 
 namespace Proto { class AlleyPlacingShip; }
 
-#define PROTO_ALLEYPLACINGSHIP___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BC5FF30)
-#define PROTO_ALLEYPLACINGSHIP___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC5FF70)
-#define PROTO_ALLEYPLACINGSHIP___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1BC5FF80)
+#define PROTO_ALLEYPLACINGSHIP___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D92E470)
+#define PROTO_ALLEYPLACINGSHIP___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1D92E4B0)
+#define PROTO_ALLEYPLACINGSHIP___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1D92E4C0)
 
 namespace Proto
 {
-	inline static constexpr unsigned int AlleyPlacingShip___c_TypeDefinitionIndex = 25222;
+	inline static constexpr unsigned int AlleyPlacingShip___c_TypeDefinitionIndex = 25811;
 
 	class AlleyPlacingShip___c : public ::System::Object
 	{
 	public:
 		static ::Proto::AlleyPlacingShip___c** StaticGet___9()
 		{
-			return (::Proto::AlleyPlacingShip___c**)Il2CppClass::FromTypeDefinitionIndex(AlleyPlacingShip___c_TypeDefinitionIndex)->GetStaticField(0x3B740);
+			return (::Proto::AlleyPlacingShip___c**)Il2CppClass::FromTypeDefinitionIndex(AlleyPlacingShip___c_TypeDefinitionIndex)->GetStaticField(0x572B0);
 		}
 
 		static ::System::Void _cctor()

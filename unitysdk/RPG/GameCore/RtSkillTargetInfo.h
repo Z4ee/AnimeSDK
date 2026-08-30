@@ -8,12 +8,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class PredicateConfig; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_RTSKILLTARGETINFO_METHOD_2_B5E34214AB415E53_OFFSET UNITYSDK_OFFSET(0x1B7C20B0)
-#define RPG_GAMECORE_RTSKILLTARGETINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7C30B0)
+#define RPG_GAMECORE_RTSKILLTARGETINFO_METHOD_2_B5E34214AB415E53_OFFSET UNITYSDK_OFFSET(0x1D4B0AA0)
+#define RPG_GAMECORE_RTSKILLTARGETINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1D4B1A90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtSkillTargetInfo_TypeDefinitionIndex = 16955;
+	inline static constexpr unsigned int RtSkillTargetInfo_TypeDefinitionIndex = 17457;
 
 	class RtSkillTargetInfo : public ::RPG::GameCore::JsonConfig
 	{

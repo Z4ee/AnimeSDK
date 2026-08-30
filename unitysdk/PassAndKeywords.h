@@ -4,9 +4,9 @@
 
 namespace System { class String; }
 
-#define PASSANDKEYWORDS__CTOR_OFFSET UNITYSDK_OFFSET(0xBA74950)
+#define PASSANDKEYWORDS__CTOR_OFFSET UNITYSDK_OFFSET(0xC493260)
 
-inline static constexpr unsigned int PassAndKeywords_TypeDefinitionIndex = 45638;
+inline static constexpr unsigned int PassAndKeywords_TypeDefinitionIndex = 47889;
 
 class PassAndKeywords : public ::System::Object
 {

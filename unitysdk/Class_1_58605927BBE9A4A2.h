@@ -11,42 +11,42 @@ namespace RPG::GameCore { class AdventureCharacterController; }
 namespace RPG::GameCore { class GameEntity; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_1_58605927BBE9A4A2_METHOD_1_5B53C9AD9293CBEC_OFFSET UNITYSDK_OFFSET(0x1550CD80)
-#define CLASS_1_58605927BBE9A4A2_METHOD_1_7663268A7EE11871_OFFSET UNITYSDK_OFFSET(0x1550D270)
-#define CLASS_1_58605927BBE9A4A2_METHOD_1_AA169839CB93802A_OFFSET UNITYSDK_OFFSET(0x1550D1E0)
-#define CLASS_1_58605927BBE9A4A2_METHOD_1_CA373AA1C7054598_1_OFFSET UNITYSDK_OFFSET(0x1550D1A0)
-#define CLASS_1_58605927BBE9A4A2_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x1550C880)
-#define CLASS_1_58605927BBE9A4A2_METHOD_1_E926BF38832D60E1_OFFSET UNITYSDK_OFFSET(0x1550C960)
-#define CLASS_1_58605927BBE9A4A2__CTOR_OFFSET UNITYSDK_OFFSET(0x1550E5C0)
+#define CLASS_1_58605927BBE9A4A2_METHOD_1_5B53C9AD9293CBEC_OFFSET UNITYSDK_OFFSET(0xB50EA00)
+#define CLASS_1_58605927BBE9A4A2_METHOD_1_7663268A7EE11871_OFFSET UNITYSDK_OFFSET(0xB50EF00)
+#define CLASS_1_58605927BBE9A4A2_METHOD_1_AA169839CB93802A_OFFSET UNITYSDK_OFFSET(0xB50EE70)
+#define CLASS_1_58605927BBE9A4A2_METHOD_1_CA373AA1C7054598_1_OFFSET UNITYSDK_OFFSET(0xB50EE30)
+#define CLASS_1_58605927BBE9A4A2_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xB50E4C0)
+#define CLASS_1_58605927BBE9A4A2_METHOD_1_E926BF38832D60E1_OFFSET UNITYSDK_OFFSET(0xB50E5B0)
+#define CLASS_1_58605927BBE9A4A2__CTOR_OFFSET UNITYSDK_OFFSET(0xB510260)
 
-inline static constexpr unsigned int Class_1_58605927BBE9A4A2_TypeDefinitionIndex = 54506;
+inline static constexpr unsigned int Class_1_58605927BBE9A4A2_TypeDefinitionIndex = 57227;
 
 class Class_1_58605927BBE9A4A2 : public ::System::Object
 {
 public:
-	::RPG::GameCore::GameEntity* Field_1_0; // 0x10
-	::UnityEngine::Transform* Field_1_1; // 0x18
-	::UnityEngine::Transform* Field_1_2; // 0x20
-	::Class_2_D7A74C083376D5D6* Field_1_3; // 0x28
-	::RPG::Client::CameraBlendCurve* Field_1_4; // 0x30
-	::RPG::GameCore::GameEntity* Field_1_5; // 0x38
-	::RPG::Client::CameraBlendCurve* Field_1_6; // 0x40
-	::UnityEngine::Transform* Field_1_7; // 0x48
-	::RPG::GameCore::AdventureCharacterController* Field_1_8; // 0x50
-	::RPG::GameCore::AdventureLinearMovementControlType Field_1_9; // 0x58
-	::System::Single Field_1_10; // 0x5C
-	::System::Single Field_1_11; // 0x60
-	::System::Single Field_1_12; // 0x64
-	::System::Boolean Field_1_13; // 0x68
-	::System::Boolean Field_1_14; // 0x69
-	::System::Boolean Field_1_15; // 0x6A
-	::System::Boolean Field_1_16; // 0x6B
-	::UnityEngine::Vector3 Field_1_17; // 0x6C
-	::System::Single Field_1_18; // 0x78
-	::System::Single Field_1_19; // 0x7C
-	::System::Single Field_1_20; // 0x80
-	::UnityEngine::Vector3 Field_1_21; // 0x84
-	::System::Single Field_1_22; // 0x90
+	::RPG::GameCore::GameEntity* KCKEHDGBGGG; // 0x10
+	::RPG::Client::CameraBlendCurve* LAKBFMFNOHK; // 0x18
+	::UnityEngine::Transform* AFIBNIPMICJ; // 0x20
+	::RPG::Client::CameraBlendCurve* HDJMDBIPKOE; // 0x28
+	::UnityEngine::Transform* OIGGFCOBKCG; // 0x30
+	::Class_2_D7A74C083376D5D6* IBMFKOCNMIK; // 0x38
+	::UnityEngine::Transform* OPJNNDIALDC; // 0x40
+	::RPG::GameCore::GameEntity* ICHEDAEHEBG; // 0x48
+	::RPG::GameCore::AdventureCharacterController* CACEADPJLPB; // 0x50
+	::System::Single HBDJCFFDGDD; // 0x58
+	::UnityEngine::Vector3 EFLBANLKKAP; // 0x5C
+	::UnityEngine::Vector3 BJNKIKNBFOJ; // 0x68
+	::System::Single LMCBEIHGLDF; // 0x74
+	::System::Single KLJCDDBJHNE; // 0x78
+	::System::Boolean MKLDGMLAONP; // 0x7C
+	::System::Boolean FNAEPHCKFLK; // 0x7D
+	::System::Boolean CAGCHKJHMPD; // 0x7E
+	::System::Boolean EIPEBNHHIAJ; // 0x7F
+	::RPG::GameCore::AdventureLinearMovementControlType LFKIIDAMHEJ; // 0x80
+	::System::Single KKPEIMJKION; // 0x84
+	::System::Single OMGMEIBDAOC; // 0x88
+	::System::Single PHGOEPOKMGE; // 0x8C
+	::System::Single BLNLEHMDCGL; // 0x90
 
 	::System::Void _ctor()
 	{

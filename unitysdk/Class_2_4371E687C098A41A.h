@@ -1,22 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_43BD383C98B4C0C5_204.h"
+#include "unitysdk/Class_1_43BD383C98B4C0C5_218.h"
 #include "unitysdk/RPG/Client/Prop/LogisticsRobotState.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define CLASS_2_4371E687C098A41A__CTOR_OFFSET UNITYSDK_OFFSET(0x151D4630)
+#define CLASS_2_4371E687C098A41A__CTOR_OFFSET UNITYSDK_OFFSET(0x160FCBF0)
 
-inline static constexpr unsigned int Class_2_4371E687C098A41A_TypeDefinitionIndex = 74986;
+inline static constexpr unsigned int Class_2_4371E687C098A41A_TypeDefinitionIndex = 78471;
 
-class Class_2_4371E687C098A41A : public ::Class_1_43BD383C98B4C0C5_204
+class Class_2_4371E687C098A41A : public ::Class_1_43BD383C98B4C0C5_218
 {
 public:
-	::UnityEngine::Vector3 Field_2_0; // 0x10
-	::System::Int32 Field_2_1; // 0x1C
-	::UnityEngine::Quaternion Field_2_2; // 0x20
-	::RPG::Client::Prop::LogisticsRobotState Field_2_3; // 0x30
-	::System::Boolean Field_2_4; // 0x34
+	::UnityEngine::Quaternion CCAHBOJLPAC; // 0x10
+	::UnityEngine::Vector3 LCGNINJHEMI; // 0x20
+	::System::Int32 KCKMILLHIIA; // 0x2C
+	::System::Boolean HDFBNKLCAMN; // 0x30
+	::RPG::Client::Prop::LogisticsRobotState MEPFOEEGBEA; // 0x34
 
 	::System::Void _ctor()
 	{

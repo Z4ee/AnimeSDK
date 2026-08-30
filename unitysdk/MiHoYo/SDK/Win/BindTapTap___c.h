@@ -5,24 +5,24 @@
 namespace MiHoYo::SDK::Win { class BindTapTap; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_WIN_BINDTAPTAP___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19E79350)
-#define MIHOYO_SDK_WIN_BINDTAPTAP___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19E79390)
-#define MIHOYO_SDK_WIN_BINDTAPTAP___C__SHOW_B__14_0_OFFSET UNITYSDK_OFFSET(0x19E793A0)
+#define MIHOYO_SDK_WIN_BINDTAPTAP___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B7FAAA0)
+#define MIHOYO_SDK_WIN_BINDTAPTAP___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7FAAE0)
+#define MIHOYO_SDK_WIN_BINDTAPTAP___C__SHOW_B__14_0_OFFSET UNITYSDK_OFFSET(0x1B7FAAF0)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int BindTapTap___c_TypeDefinitionIndex = 9172;
+	inline static constexpr unsigned int BindTapTap___c_TypeDefinitionIndex = 9451;
 
 	class BindTapTap___c : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::MiHoYo::SDK::Win::BindTapTap*>** StaticGet___9__14_0()
-		{
-			return (::System::Action_1<::MiHoYo::SDK::Win::BindTapTap*>**)Il2CppClass::FromTypeDefinitionIndex(BindTapTap___c_TypeDefinitionIndex)->GetStaticField(0x2CBD0);
-		}
 		static ::MiHoYo::SDK::Win::BindTapTap___c** StaticGet___9()
 		{
-			return (::MiHoYo::SDK::Win::BindTapTap___c**)Il2CppClass::FromTypeDefinitionIndex(BindTapTap___c_TypeDefinitionIndex)->GetStaticField(0x2CBD8);
+			return (::MiHoYo::SDK::Win::BindTapTap___c**)Il2CppClass::FromTypeDefinitionIndex(BindTapTap___c_TypeDefinitionIndex)->GetStaticField(0x26160);
+		}
+		static ::System::Action_1<::MiHoYo::SDK::Win::BindTapTap*>** StaticGet___9__14_0()
+		{
+			return (::System::Action_1<::MiHoYo::SDK::Win::BindTapTap*>**)Il2CppClass::FromTypeDefinitionIndex(BindTapTap___c_TypeDefinitionIndex)->GetStaticField(0x26168);
 		}
 
 		static ::System::Void _cctor()

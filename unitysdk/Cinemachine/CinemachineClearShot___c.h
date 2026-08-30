@@ -5,24 +5,24 @@
 
 namespace System { template <typename T> class Comparison_1; }
 
-#define CINEMACHINE_CINEMACHINECLEARSHOT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x156C20C0)
-#define CINEMACHINE_CINEMACHINECLEARSHOT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x156C2100)
-#define CINEMACHINE_CINEMACHINECLEARSHOT___C__RANDOMIZE_B__47_0_OFFSET UNITYSDK_OFFSET(0x156C2110)
+#define CINEMACHINE_CINEMACHINECLEARSHOT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1644B790)
+#define CINEMACHINE_CINEMACHINECLEARSHOT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1644B7D0)
+#define CINEMACHINE_CINEMACHINECLEARSHOT___C__RANDOMIZE_B__47_0_OFFSET UNITYSDK_OFFSET(0x1644B7E0)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineClearShot___c_TypeDefinitionIndex = 37570;
+	inline static constexpr unsigned int CinemachineClearShot___c_TypeDefinitionIndex = 38429;
 
 	class CinemachineClearShot___c : public ::System::Object
 	{
 	public:
 		static ::Cinemachine::CinemachineClearShot___c** StaticGet___9()
 		{
-			return (::Cinemachine::CinemachineClearShot___c**)Il2CppClass::FromTypeDefinitionIndex(CinemachineClearShot___c_TypeDefinitionIndex)->GetStaticField(0x2290);
+			return (::Cinemachine::CinemachineClearShot___c**)Il2CppClass::FromTypeDefinitionIndex(CinemachineClearShot___c_TypeDefinitionIndex)->GetStaticField(0x53AE0);
 		}
 		static ::System::Comparison_1<::Cinemachine::CinemachineClearShot_Pair>** StaticGet___9__47_0()
 		{
-			return (::System::Comparison_1<::Cinemachine::CinemachineClearShot_Pair>**)Il2CppClass::FromTypeDefinitionIndex(CinemachineClearShot___c_TypeDefinitionIndex)->GetStaticField(0x2298);
+			return (::System::Comparison_1<::Cinemachine::CinemachineClearShot_Pair>**)Il2CppClass::FromTypeDefinitionIndex(CinemachineClearShot___c_TypeDefinitionIndex)->GetStaticField(0x53AE8);
 		}
 
 		static ::System::Void _cctor()

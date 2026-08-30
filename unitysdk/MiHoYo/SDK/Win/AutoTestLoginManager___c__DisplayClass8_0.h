@@ -8,12 +8,12 @@ namespace MiHoYo::SDK::Win { class AutoTestLoginManager; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_WIN_AUTOTESTLOGINMANAGER___C__DISPLAYCLASS8_0__COMBOLOGIN_B__0_OFFSET UNITYSDK_OFFSET(0x19E5EBF0)
-#define MIHOYO_SDK_WIN_AUTOTESTLOGINMANAGER___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19E5D100)
+#define MIHOYO_SDK_WIN_AUTOTESTLOGINMANAGER___C__DISPLAYCLASS8_0__COMBOLOGIN_B__0_OFFSET UNITYSDK_OFFSET(0x1B7E0330)
+#define MIHOYO_SDK_WIN_AUTOTESTLOGINMANAGER___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7DE840)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int AutoTestLoginManager___c__DisplayClass8_0_TypeDefinitionIndex = 8938;
+	inline static constexpr unsigned int AutoTestLoginManager___c__DisplayClass8_0_TypeDefinitionIndex = 9208;
 
 	class AutoTestLoginManager___c__DisplayClass8_0 : public ::System::Object
 	{

@@ -10,26 +10,26 @@ namespace RPG::GameCore { class PropComponent; }
 namespace RPG::GameCore { class PuzzleBoxmanInBoard; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_2_0DB70661728938D1_DISPOSE_OFFSET UNITYSDK_OFFSET(0xAF4A990)
-#define CLASS_2_0DB70661728938D1_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xAF4A8F0)
-#define CLASS_2_0DB70661728938D1_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xAF4A940)
-#define CLASS_2_0DB70661728938D1_TICK_OFFSET UNITYSDK_OFFSET(0xAF4AAF0)
-#define CLASS_2_0DB70661728938D1__CTOR_OFFSET UNITYSDK_OFFSET(0xAF4A6F0)
+#define CLASS_2_0DB70661728938D1_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB8FC1A0)
+#define CLASS_2_0DB70661728938D1_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB8FC100)
+#define CLASS_2_0DB70661728938D1_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB8FC150)
+#define CLASS_2_0DB70661728938D1_TICK_OFFSET UNITYSDK_OFFSET(0xB8FC300)
+#define CLASS_2_0DB70661728938D1__CTOR_OFFSET UNITYSDK_OFFSET(0xB8FBF10)
 
-inline static constexpr unsigned int Class_2_0DB70661728938D1_TypeDefinitionIndex = 55786;
+inline static constexpr unsigned int Class_2_0DB70661728938D1_TypeDefinitionIndex = 58517;
 
 class Class_2_0DB70661728938D1 : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::RPG::GameCore::TaskContext* Field_2_0; // 0x18
-	::Class_1_F3391C70DC37088D* Field_2_1; // 0x20
-	::RPG::Client::Prop::BoxmanPuzzleBoard* Field_2_2; // 0x28
-	::Class_1_F3391C70DC37088D* Field_2_3; // 0x30
-	::Class_3_07C3C4D2990C49EE* Field_2_4; // 0x38
-	::RPG::GameCore::PuzzleBoxmanInBoard* Field_2_5; // 0x40
-	::Class_3_07C3C4D2990C49EE* Field_2_6; // 0x48
-	::RPG::GameCore::PropComponent* Field_2_7; // 0x50
-	::RPG::Client::Prop::BoxmanPuzzlePlayerInBoardState Field_2_8; // 0x58
+	::RPG::GameCore::PuzzleBoxmanInBoard* IGHAHBNLIJA; // 0x18
+	::Class_3_07C3C4D2990C49EE* BHENBGMFOLJ; // 0x20
+	::Class_3_07C3C4D2990C49EE* GBEAGJJBPAN; // 0x28
+	::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x30
+	::RPG::GameCore::PropComponent* ALMDGNBNPLB; // 0x38
+	::RPG::Client::Prop::BoxmanPuzzleBoard* CCAHGFIABKE; // 0x40
+	::Class_1_F3391C70DC37088D* KLOAHJPKECK; // 0x48
+	::Class_1_F3391C70DC37088D* EEMAFOMJMEB; // 0x50
+	::RPG::Client::Prop::BoxmanPuzzlePlayerInBoardState OHOMIFJPGFE; // 0x58
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::PuzzleBoxmanInBoard* a2)
 	{

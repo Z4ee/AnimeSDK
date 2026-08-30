@@ -7,16 +7,16 @@ namespace RPG::GameCore { class GridFightManager; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class IDictionary_2; }
 
-#define CLASS_1_ED7BEDE3EDAFF4F7_METHOD_1_9D784544B3F2B98A_OFFSET UNITYSDK_OFFSET(0x15240DE0)
-#define CLASS_1_ED7BEDE3EDAFF4F7_METHOD_1_DDDB3490E38FF95F_OFFSET UNITYSDK_OFFSET(0x15240C60)
-#define CLASS_1_ED7BEDE3EDAFF4F7__CTOR_OFFSET UNITYSDK_OFFSET(0x15240C50)
+#define CLASS_1_ED7BEDE3EDAFF4F7_METHOD_1_9D784544B3F2B98A_OFFSET UNITYSDK_OFFSET(0x161ACF40)
+#define CLASS_1_ED7BEDE3EDAFF4F7_METHOD_1_DDDB3490E38FF95F_OFFSET UNITYSDK_OFFSET(0x161ACDC0)
+#define CLASS_1_ED7BEDE3EDAFF4F7__CTOR_OFFSET UNITYSDK_OFFSET(0x161ACDB0)
 
-inline static constexpr unsigned int Class_1_ED7BEDE3EDAFF4F7_TypeDefinitionIndex = 62376;
+inline static constexpr unsigned int Class_1_ED7BEDE3EDAFF4F7_TypeDefinitionIndex = 65361;
 
 class Class_1_ED7BEDE3EDAFF4F7 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::IDictionary_2<::System::String*, ::RPG::GameCore::FixPoint>* Field_1_0; // 0x10
+	::System::Collections::Generic::IDictionary_2<::System::String*, ::RPG::GameCore::FixPoint>* CCLGKDICBNH; // 0x10
 
 	::System::Void _ctor(::System::Collections::Generic::IDictionary_2<::System::String*, ::RPG::GameCore::FixPoint>* a1)
 	{

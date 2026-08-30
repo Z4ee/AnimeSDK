@@ -5,9 +5,9 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TriggerEffectListForUI; }
 
-#define CLASS_3_F4DCF16BE33D8615__CTOR_OFFSET UNITYSDK_OFFSET(0xB357800)
+#define CLASS_3_F4DCF16BE33D8615__CTOR_OFFSET UNITYSDK_OFFSET(0xBD33720)
 
-inline static constexpr unsigned int Class_3_F4DCF16BE33D8615_TypeDefinitionIndex = 53205;
+inline static constexpr unsigned int Class_3_F4DCF16BE33D8615_TypeDefinitionIndex = 55919;
 
 class Class_3_F4DCF16BE33D8615 : public ::Class_2_86255F20D04C1150
 {

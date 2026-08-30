@@ -6,39 +6,39 @@ namespace RPG::Client::FateRin::HouguMap { class FateRinHouguMapFight; }
 namespace RPG::Client::FateRin::HouguMap { class HouguMapFightViewModel; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_FATERIN_HOUGUMAP_FATERINHOUGUMAPVIEWMODEL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC4D5B20)
-#define RPG_CLIENT_FATERIN_HOUGUMAP_FATERINHOUGUMAPVIEWMODEL___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC4D5B60)
-#define RPG_CLIENT_FATERIN_HOUGUMAP_FATERINHOUGUMAPVIEWMODEL___C__GET_ISALLNORMALFIGHTSFINISHED_B__12_0_OFFSET UNITYSDK_OFFSET(0xC4D5CB0)
-#define RPG_CLIENT_FATERIN_HOUGUMAP_FATERINHOUGUMAPVIEWMODEL___C___BUILDFIGHTVIEWMODELS_B__3_0_OFFSET UNITYSDK_OFFSET(0xC4D5B70)
-#define RPG_CLIENT_FATERIN_HOUGUMAP_FATERINHOUGUMAPVIEWMODEL___C___BUILDFIGHTVIEWMODELS_B__3_2_OFFSET UNITYSDK_OFFSET(0xC4D5BA0)
-#define RPG_CLIENT_FATERIN_HOUGUMAP_FATERINHOUGUMAPVIEWMODEL___C___BUILDFIGHTVIEWMODELS_B__3_3_OFFSET UNITYSDK_OFFSET(0xC4D5C50)
+#define RPG_CLIENT_FATERIN_HOUGUMAP_FATERINHOUGUMAPVIEWMODEL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD00ACD0)
+#define RPG_CLIENT_FATERIN_HOUGUMAP_FATERINHOUGUMAPVIEWMODEL___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD00AD10)
+#define RPG_CLIENT_FATERIN_HOUGUMAP_FATERINHOUGUMAPVIEWMODEL___C__GET_ISALLNORMALFIGHTSFINISHED_B__12_0_OFFSET UNITYSDK_OFFSET(0xD00AE60)
+#define RPG_CLIENT_FATERIN_HOUGUMAP_FATERINHOUGUMAPVIEWMODEL___C___BUILDFIGHTVIEWMODELS_B__3_0_OFFSET UNITYSDK_OFFSET(0xD00AD20)
+#define RPG_CLIENT_FATERIN_HOUGUMAP_FATERINHOUGUMAPVIEWMODEL___C___BUILDFIGHTVIEWMODELS_B__3_2_OFFSET UNITYSDK_OFFSET(0xD00AD50)
+#define RPG_CLIENT_FATERIN_HOUGUMAP_FATERINHOUGUMAPVIEWMODEL___C___BUILDFIGHTVIEWMODELS_B__3_3_OFFSET UNITYSDK_OFFSET(0xD00AE00)
 
 namespace RPG::Client::FateRin::HouguMap
 {
-	inline static constexpr unsigned int FateRinHouguMapViewModel___c_TypeDefinitionIndex = 75809;
+	inline static constexpr unsigned int FateRinHouguMapViewModel___c_TypeDefinitionIndex = 79442;
 
 	class FateRinHouguMapViewModel___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::Client::FateRin::HouguMap::FateRinHouguMapFight*, ::System::Boolean>** StaticGet___9__3_0()
+		static ::System::Func_2<::RPG::Client::FateRin::HouguMap::HouguMapFightViewModel*, ::System::Boolean>** StaticGet___9__12_0()
 		{
-			return (::System::Func_2<::RPG::Client::FateRin::HouguMap::FateRinHouguMapFight*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(FateRinHouguMapViewModel___c_TypeDefinitionIndex)->GetStaticField(0xC700);
+			return (::System::Func_2<::RPG::Client::FateRin::HouguMap::HouguMapFightViewModel*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(FateRinHouguMapViewModel___c_TypeDefinitionIndex)->GetStaticField(0xA370);
 		}
 		static ::System::Func_2<::RPG::Client::FateRin::HouguMap::HouguMapFightViewModel*, ::System::Boolean>** StaticGet___9__3_3()
 		{
-			return (::System::Func_2<::RPG::Client::FateRin::HouguMap::HouguMapFightViewModel*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(FateRinHouguMapViewModel___c_TypeDefinitionIndex)->GetStaticField(0xC708);
-		}
-		static ::System::Func_2<::RPG::Client::FateRin::HouguMap::HouguMapFightViewModel*, ::System::Boolean>** StaticGet___9__12_0()
-		{
-			return (::System::Func_2<::RPG::Client::FateRin::HouguMap::HouguMapFightViewModel*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(FateRinHouguMapViewModel___c_TypeDefinitionIndex)->GetStaticField(0xC710);
+			return (::System::Func_2<::RPG::Client::FateRin::HouguMap::HouguMapFightViewModel*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(FateRinHouguMapViewModel___c_TypeDefinitionIndex)->GetStaticField(0xA378);
 		}
 		static ::RPG::Client::FateRin::HouguMap::FateRinHouguMapViewModel___c** StaticGet___9()
 		{
-			return (::RPG::Client::FateRin::HouguMap::FateRinHouguMapViewModel___c**)Il2CppClass::FromTypeDefinitionIndex(FateRinHouguMapViewModel___c_TypeDefinitionIndex)->GetStaticField(0xC718);
+			return (::RPG::Client::FateRin::HouguMap::FateRinHouguMapViewModel___c**)Il2CppClass::FromTypeDefinitionIndex(FateRinHouguMapViewModel___c_TypeDefinitionIndex)->GetStaticField(0xA380);
 		}
 		static ::System::Func_2<::RPG::Client::FateRin::HouguMap::HouguMapFightViewModel*, ::System::Boolean>** StaticGet___9__3_2()
 		{
-			return (::System::Func_2<::RPG::Client::FateRin::HouguMap::HouguMapFightViewModel*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(FateRinHouguMapViewModel___c_TypeDefinitionIndex)->GetStaticField(0xC720);
+			return (::System::Func_2<::RPG::Client::FateRin::HouguMap::HouguMapFightViewModel*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(FateRinHouguMapViewModel___c_TypeDefinitionIndex)->GetStaticField(0xA388);
+		}
+		static ::System::Func_2<::RPG::Client::FateRin::HouguMap::FateRinHouguMapFight*, ::System::Boolean>** StaticGet___9__3_0()
+		{
+			return (::System::Func_2<::RPG::Client::FateRin::HouguMap::FateRinHouguMapFight*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(FateRinHouguMapViewModel___c_TypeDefinitionIndex)->GetStaticField(0xA390);
 		}
 
 		static ::System::Void _cctor()

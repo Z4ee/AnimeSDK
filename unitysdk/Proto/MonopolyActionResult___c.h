@@ -4,20 +4,20 @@
 
 namespace Proto { class MonopolyActionResult; }
 
-#define PROTO_MONOPOLYACTIONRESULT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BC82CB0)
-#define PROTO_MONOPOLYACTIONRESULT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC82CF0)
-#define PROTO_MONOPOLYACTIONRESULT___C___CCTOR_B__53_0_OFFSET UNITYSDK_OFFSET(0x1BC82D00)
+#define PROTO_MONOPOLYACTIONRESULT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D96EE40)
+#define PROTO_MONOPOLYACTIONRESULT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1D96EE80)
+#define PROTO_MONOPOLYACTIONRESULT___C___CCTOR_B__53_0_OFFSET UNITYSDK_OFFSET(0x1D96EE90)
 
 namespace Proto
 {
-	inline static constexpr unsigned int MonopolyActionResult___c_TypeDefinitionIndex = 29777;
+	inline static constexpr unsigned int MonopolyActionResult___c_TypeDefinitionIndex = 30518;
 
 	class MonopolyActionResult___c : public ::System::Object
 	{
 	public:
 		static ::Proto::MonopolyActionResult___c** StaticGet___9()
 		{
-			return (::Proto::MonopolyActionResult___c**)Il2CppClass::FromTypeDefinitionIndex(MonopolyActionResult___c_TypeDefinitionIndex)->GetStaticField(0x42320);
+			return (::Proto::MonopolyActionResult___c**)Il2CppClass::FromTypeDefinitionIndex(MonopolyActionResult___c_TypeDefinitionIndex)->GetStaticField(0x5ABD0);
 		}
 
 		static ::System::Void _cctor()

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FateTraitType_TypeDefinitionIndex = 11110;
+	inline static constexpr unsigned int FateTraitType_TypeDefinitionIndex = 11499;
 
 	enum class FateTraitType : ::System::Int32
 	{

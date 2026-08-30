@@ -6,20 +6,20 @@
 
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_REFERENCEPOOL_AUTORELEASEREFERENCEOBJECTCOLLECTORREGISTRY_GET_OFFSET UNITYSDK_OFFSET(0x1A30E2A0)
-#define RPG_REFERENCEPOOL_AUTORELEASEREFERENCEOBJECTCOLLECTORREGISTRY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A30E3F0)
-#define RPG_REFERENCEPOOL_AUTORELEASEREFERENCEOBJECTCOLLECTORREGISTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1A30E3E0)
+#define RPG_REFERENCEPOOL_AUTORELEASEREFERENCEOBJECTCOLLECTORREGISTRY_GET_OFFSET UNITYSDK_OFFSET(0x1BF1BCB0)
+#define RPG_REFERENCEPOOL_AUTORELEASEREFERENCEOBJECTCOLLECTORREGISTRY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BF1BE00)
+#define RPG_REFERENCEPOOL_AUTORELEASEREFERENCEOBJECTCOLLECTORREGISTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF1BDF0)
 
 namespace RPG
 {
-	inline static constexpr unsigned int ReferencePool_AutoReleaseReferenceObjectCollectorRegistry_TypeDefinitionIndex = 5628;
+	inline static constexpr unsigned int ReferencePool_AutoReleaseReferenceObjectCollectorRegistry_TypeDefinitionIndex = 5617;
 
 	class ReferencePool_AutoReleaseReferenceObjectCollectorRegistry : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::RuntimeTypeHandle, ::RPG::ReferencePool_AutoReleaseReferenceObjectDatas>** StaticGet_AutoReleaseRefrenceDataDic()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::RuntimeTypeHandle, ::RPG::ReferencePool_AutoReleaseReferenceObjectDatas>**)Il2CppClass::FromTypeDefinitionIndex(ReferencePool_AutoReleaseReferenceObjectCollectorRegistry_TypeDefinitionIndex)->GetStaticField(0x3E0);
+			return (::System::Collections::Generic::Dictionary_2<::System::RuntimeTypeHandle, ::RPG::ReferencePool_AutoReleaseReferenceObjectDatas>**)Il2CppClass::FromTypeDefinitionIndex(ReferencePool_AutoReleaseReferenceObjectCollectorRegistry_TypeDefinitionIndex)->GetStaticField(0x2E0);
 		}
 
 		::System::Void _ctor()

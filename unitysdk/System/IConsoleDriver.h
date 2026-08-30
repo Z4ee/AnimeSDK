@@ -4,7 +4,7 @@
 
 namespace System
 {
-	inline static constexpr unsigned int IConsoleDriver_TypeDefinitionIndex = 398;
+	inline static constexpr unsigned int IConsoleDriver_TypeDefinitionIndex = 401;
 
 	class IConsoleDriver
 	{

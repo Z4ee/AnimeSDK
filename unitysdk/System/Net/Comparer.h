@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_NET_COMPARER_SYSTEM_COLLECTIONS_ICOMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0x1CCAD790)
-#define SYSTEM_NET_COMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x1CCAD830)
+#define SYSTEM_NET_COMPARER_SYSTEM_COLLECTIONS_ICOMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0x1E9587D0)
+#define SYSTEM_NET_COMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E958870)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int Comparer_TypeDefinitionIndex = 2792;
+	inline static constexpr unsigned int Comparer_TypeDefinitionIndex = 2799;
 
 	class Comparer : public ::System::Object
 	{

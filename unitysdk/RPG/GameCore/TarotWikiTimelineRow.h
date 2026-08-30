@@ -5,22 +5,22 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_TAROTWIKITIMELINEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B964300)
-#define RPG_GAMECORE_TAROTWIKITIMELINEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B964590)
+#define RPG_GAMECORE_TAROTWIKITIMELINEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D5C1490)
+#define RPG_GAMECORE_TAROTWIKITIMELINEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5C1720)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TarotWikiTimelineRow_TypeDefinitionIndex = 14635;
+	inline static constexpr unsigned int TarotWikiTimelineRow_TypeDefinitionIndex = 15071;
 
 	class TarotWikiTimelineRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* DataList; // 0x10
-		::System::UInt32 UnlockID; // 0x18
-		::System::UInt32 ID; // 0x1C
-		::RPG::Client::TextID Title; // 0x20
+		::RPG::Client::TextID Title; // 0x18
+		::System::UInt32 SpecialType; // 0x28
+		::System::UInt32 ID; // 0x2C
 		::System::Single Progress; // 0x30
-		::System::UInt32 SpecialType; // 0x34
+		::System::UInt32 UnlockID; // 0x34
 
 		::System::Void _ctor()
 		{

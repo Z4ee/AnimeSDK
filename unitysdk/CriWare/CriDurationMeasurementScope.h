@@ -9,7 +9,7 @@ namespace System { class String; }
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriDurationMeasurementScope_TypeDefinitionIndex = 37980;
+	inline static constexpr unsigned int CriDurationMeasurementScope_TypeDefinitionIndex = 38839;
 
 	struct alignas(1) CriDurationMeasurementScope
 	{

@@ -5,12 +5,12 @@
 class Class_1_0471857D35382E2E;
 namespace RPG::Client::FateRin::Battle { class FateRinBattleEnemyHudSingleViewModel; }
 
-#define RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEENEMYHUDVIEWMODEL___C__DISPLAYCLASS13_1__CTOR_OFFSET UNITYSDK_OFFSET(0xC47EC50)
-#define RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEENEMYHUDVIEWMODEL___C__DISPLAYCLASS13_1___REFRESHVIEWMODEL_B__1_OFFSET UNITYSDK_OFFSET(0xC47EF70)
+#define RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEENEMYHUDVIEWMODEL___C__DISPLAYCLASS13_1__CTOR_OFFSET UNITYSDK_OFFSET(0xCF64BA0)
+#define RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEENEMYHUDVIEWMODEL___C__DISPLAYCLASS13_1___REFRESHVIEWMODEL_B__1_OFFSET UNITYSDK_OFFSET(0xCF64EC0)
 
 namespace RPG::Client::FateRin::Battle
 {
-	inline static constexpr unsigned int FateRinBattleEnemyHudViewModel___c__DisplayClass13_1_TypeDefinitionIndex = 75912;
+	inline static constexpr unsigned int FateRinBattleEnemyHudViewModel___c__DisplayClass13_1_TypeDefinitionIndex = 79545;
 
 	class FateRinBattleEnemyHudViewModel___c__DisplayClass13_1 : public ::System::Object
 	{

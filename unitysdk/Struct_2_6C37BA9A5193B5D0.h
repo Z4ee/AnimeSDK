@@ -5,14 +5,14 @@
 
 namespace RPG::GameCore { class GameEntity; }
 
-#define STRUCT_2_6C37BA9A5193B5D0_EQUALS_OFFSET UNITYSDK_OFFSET(0x2D088E0)
+#define STRUCT_2_6C37BA9A5193B5D0_EQUALS_OFFSET UNITYSDK_OFFSET(0x2DF1110)
 
-inline static constexpr unsigned int Struct_2_6C37BA9A5193B5D0_TypeDefinitionIndex = 55231;
+inline static constexpr unsigned int Struct_2_6C37BA9A5193B5D0_TypeDefinitionIndex = 57955;
 
 struct alignas(8) Struct_2_6C37BA9A5193B5D0
 {
-	::RPG::GameCore::GameEntity* Field_2_0; // 0x10
-	::RPG::GameCore::EntityDestroyWaitReason Field_2_1; // 0x18
+	::RPG::GameCore::GameEntity* DKIHKFBHADB; // 0x10
+	::RPG::GameCore::EntityDestroyWaitReason KDHPKOFLNFM; // 0x18
 
 	::System::Boolean Equals(::Struct_2_6C37BA9A5193B5D0 a1)
 	{

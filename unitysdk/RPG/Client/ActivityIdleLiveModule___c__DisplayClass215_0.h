@@ -3,19 +3,19 @@
 #include "unitysdk/System/Object.h"
 
 class Class_1_82DE034E4ED86DE3;
-class Class_1_BB4B99DE4C2501EC_8;
+class Class_1_BB4B99DE4C2501EC_9;
 
-#define RPG_CLIENT_ACTIVITYIDLELIVEMODULE___C__DISPLAYCLASS215_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBBF1B40)
-#define RPG_CLIENT_ACTIVITYIDLELIVEMODULE___C__DISPLAYCLASS215_0___UPDATECHAPTERRECORDDATA_B__0_OFFSET UNITYSDK_OFFSET(0xBBF6700)
+#define RPG_CLIENT_ACTIVITYIDLELIVEMODULE___C__DISPLAYCLASS215_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC614BC0)
+#define RPG_CLIENT_ACTIVITYIDLELIVEMODULE___C__DISPLAYCLASS215_0___UPDATECHAPTERRECORDDATA_B__0_OFFSET UNITYSDK_OFFSET(0xC614BD0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityIdleLiveModule___c__DisplayClass215_0_TypeDefinitionIndex = 58803;
+	inline static constexpr unsigned int ActivityIdleLiveModule___c__DisplayClass215_0_TypeDefinitionIndex = 61634;
 
 	class ActivityIdleLiveModule___c__DisplayClass215_0 : public ::System::Object
 	{
 	public:
-		::Class_1_BB4B99DE4C2501EC_8* serverChapterRecord; // 0x10
+		::Class_1_BB4B99DE4C2501EC_9* serverChapterRecord; // 0x10
 
 		::System::Void _ctor()
 		{

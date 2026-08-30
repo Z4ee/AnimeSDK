@@ -1,24 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_2_A48F3719AA1CF200_38.h"
+#include "unitysdk/Class_2_A48F3719AA1CF200_39.h"
 #include "unitysdk/RPG/Client/LittleGame/CakeRace/CakeRaceEventType.h"
 
 class Class_3_FA020C2C23A72B3F;
 namespace System { class Object; }
 
-#define CLASS_3_99A1044F6AC0B983_METHOD_3_DB256E149BD163CA_OFFSET UNITYSDK_OFFSET(0x146BC610)
-#define CLASS_3_99A1044F6AC0B983_ONCLEAR_OFFSET UNITYSDK_OFFSET(0x146BC740)
-#define CLASS_3_99A1044F6AC0B983_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x146BC6B0)
-#define CLASS_3_99A1044F6AC0B983__CTOR_OFFSET UNITYSDK_OFFSET(0x146BC7C0)
+#define CLASS_3_99A1044F6AC0B983_METHOD_3_DB256E149BD163CA_OFFSET UNITYSDK_OFFSET(0x15527B20)
+#define CLASS_3_99A1044F6AC0B983_ONCLEAR_OFFSET UNITYSDK_OFFSET(0x15527C50)
+#define CLASS_3_99A1044F6AC0B983_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x15527BC0)
+#define CLASS_3_99A1044F6AC0B983__CTOR_OFFSET UNITYSDK_OFFSET(0x15527CD0)
 
-inline static constexpr unsigned int Class_3_99A1044F6AC0B983_TypeDefinitionIndex = 74215;
+inline static constexpr unsigned int Class_3_99A1044F6AC0B983_TypeDefinitionIndex = 77699;
 
-class Class_3_99A1044F6AC0B983 : public ::Class_2_A48F3719AA1CF200_38
+class Class_3_99A1044F6AC0B983 : public ::Class_2_A48F3719AA1CF200_39
 {
 public:
-	::System::Object* Field_3_0; // 0x20
-	::Class_3_FA020C2C23A72B3F* Field_3_1; // 0x28
-	::RPG::Client::LittleGame::CakeRace::CakeRaceEventType Field_3_2; // 0x30
+	::Class_3_FA020C2C23A72B3F* PDENFEFCAGN; // 0x20
+	::System::Object* EPJJGFNHKEM; // 0x28
+	::RPG::Client::LittleGame::CakeRace::CakeRaceEventType GPIKLKPPMDG; // 0x30
 
 	::System::Void _ctor()
 	{

@@ -7,14 +7,17 @@
 
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
+namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_BATTLEPERFORM_BPCHARACTERSWITCHANCHORCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xDC9C3F0)
-#define RPGTOOLS_TIMELINE_BATTLEPERFORM_BPCHARACTERSWITCHANCHORCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xDC9C3E0)
-#define RPGTOOLS_TIMELINE_BATTLEPERFORM_BPCHARACTERSWITCHANCHORCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xDC9C550)
+#define RPGTOOLS_TIMELINE_BATTLEPERFORM_BPCHARACTERSWITCHANCHORCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE81C3E0)
+#define RPGTOOLS_TIMELINE_BATTLEPERFORM_BPCHARACTERSWITCHANCHORCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE81C300)
+#define RPGTOOLS_TIMELINE_BATTLEPERFORM_BPCHARACTERSWITCHANCHORCLIP_UNITYENGINE_TIMELINE_ICUSTOMTIMELINECLIPGUI_OVERRIDEDISPLAYNAME_OFFSET UNITYSDK_OFFSET(0xE81C310)
+#define RPGTOOLS_TIMELINE_BATTLEPERFORM_BPCHARACTERSWITCHANCHORCLIP_UNITYENGINE_TIMELINE_ICUSTOMTIMELINECLIPGUI_OVERRIDEDURATION_OFFSET UNITYSDK_OFFSET(0xE81C380)
+#define RPGTOOLS_TIMELINE_BATTLEPERFORM_BPCHARACTERSWITCHANCHORCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xE81C570)
 
 namespace RPGTools::Timeline::BattlePerform
 {
-	inline static constexpr unsigned int BPCharacterSwitchAnchorClip_TypeDefinitionIndex = 47012;
+	inline static constexpr unsigned int BPCharacterSwitchAnchorClip_TypeDefinitionIndex = 49268;
 
 	class BPCharacterSwitchAnchorClip : public ::UnityEngine::Playables::PlayableAsset
 	{
@@ -31,6 +34,16 @@ namespace RPGTools::Timeline::BattlePerform
 		::UnityEngine::Timeline::ClipCaps get_clipCaps()
 		{
 			return ((::UnityEngine::Timeline::ClipCaps(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_BATTLEPERFORM_BPCHARACTERSWITCHANCHORCLIP_GET_CLIPCAPS_OFFSET))(this);
+		}
+
+		::System::Boolean UnityEngine_Timeline_ICustomTimelineClipGUI_OverrideDisplayName(::UnityEngine::Timeline::TimelineClip* a1, ::System::String*& a2)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Timeline::TimelineClip*, ::System::String*&))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_BATTLEPERFORM_BPCHARACTERSWITCHANCHORCLIP_UNITYENGINE_TIMELINE_ICUSTOMTIMELINECLIPGUI_OVERRIDEDISPLAYNAME_OFFSET))(this, a1, a2);
+		}
+
+		::System::Boolean UnityEngine_Timeline_ICustomTimelineClipGUI_OverrideDuration(::UnityEngine::Timeline::TimelineClip* a1, ::System::Double& a2)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Timeline::TimelineClip*, ::System::Double&))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_BATTLEPERFORM_BPCHARACTERSWITCHANCHORCLIP_UNITYENGINE_TIMELINE_ICUSTOMTIMELINECLIPGUI_OVERRIDEDURATION_OFFSET))(this, a1, a2);
 		}
 
 		::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2)

@@ -11,7 +11,7 @@ namespace System::Collections::Generic { template <typename T> class LinkedList_
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LRUCache_2_TypeDefinitionIndex = 33856;
+	inline static constexpr unsigned int LRUCache_2_TypeDefinitionIndex = 34623;
 
 	template <typename TKey, typename TValue>
 	class LRUCache_2 : public ::System::Object

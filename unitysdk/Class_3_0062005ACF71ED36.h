@@ -7,20 +7,20 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define CLASS_3_0062005ACF71ED36_METHOD_3_18338215AC7BEB04_OFFSET UNITYSDK_OFFSET(0x1AF37480)
-#define CLASS_3_0062005ACF71ED36_METHOD_3_F32CA7BD1D486055_OFFSET UNITYSDK_OFFSET(0x1AF37430)
-#define CLASS_3_0062005ACF71ED36__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF37470)
+#define CLASS_3_0062005ACF71ED36_METHOD_3_18338215AC7BEB04_OFFSET UNITYSDK_OFFSET(0x1CB94A00)
+#define CLASS_3_0062005ACF71ED36_METHOD_3_F32CA7BD1D486055_OFFSET UNITYSDK_OFFSET(0x1CB949B0)
+#define CLASS_3_0062005ACF71ED36__CTOR_OFFSET UNITYSDK_OFFSET(0x1CB949F0)
 
-inline static constexpr unsigned int Class_3_0062005ACF71ED36_TypeDefinitionIndex = 21803;
+inline static constexpr unsigned int Class_3_0062005ACF71ED36_TypeDefinitionIndex = 22367;
 
 class Class_3_0062005ACF71ED36 : public ::RPG::GameCore::TaskConfig
 {
 public:
-	::RPG::GameCore::TargetEvaluator* Field_3_0; // 0x18
-	::System::Boolean Field_3_1; // 0x20
-	::System::Boolean Field_3_2; // 0x21
-	::RPG::GameCore::ElationTimeAtmosphereShowNumberType Field_3_3; // 0x24
-	::RPG::GameCore::ElationTimeAtmosphereType Field_3_4; // 0x28
+	::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x18
+	::System::Boolean GNDCCBNILML; // 0x20
+	::System::Boolean FGFILICHKOH; // 0x21
+	::RPG::GameCore::ElationTimeAtmosphereType GMPGDEINODK; // 0x24
+	::RPG::GameCore::ElationTimeAtmosphereShowNumberType CBFGKOPANAK; // 0x28
 
 	::System::Void _ctor()
 	{

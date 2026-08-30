@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-class Class_1_FF677E2885AA4E67;
-namespace RPG::Client { class IRogueTournGameSettleResultComposition; }
+namespace RPG::Client { class IRogueTournPersonaRoomCardInGame; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_937_TypeDefinitionIndex = 64830;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_937_TypeDefinitionIndex = 67033;
 
 class Class_0_16E4307DCC419505_937
 {

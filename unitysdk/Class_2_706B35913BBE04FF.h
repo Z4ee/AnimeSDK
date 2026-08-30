@@ -9,27 +9,27 @@ namespace RPG::GameCore { class FateRinStageSpecifiedDeckEntry; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_2_706B35913BBE04FF_METHOD_2_6A8A97495A142AD1_OFFSET UNITYSDK_OFFSET(0x1AB2EEA0)
-#define CLASS_2_706B35913BBE04FF__CTOR_OFFSET UNITYSDK_OFFSET(0x1AB2F330)
+#define CLASS_2_706B35913BBE04FF_METHOD_2_6A8A97495A142AD1_OFFSET UNITYSDK_OFFSET(0x1C765040)
+#define CLASS_2_706B35913BBE04FF__CTOR_OFFSET UNITYSDK_OFFSET(0x1C7654D0)
 
-inline static constexpr unsigned int Class_2_706B35913BBE04FF_TypeDefinitionIndex = 17421;
+inline static constexpr unsigned int Class_2_706B35913BBE04FF_TypeDefinitionIndex = 17938;
 
 class Class_2_706B35913BBE04FF : public ::RPG::GameCore::JsonConfig
 {
 public:
-	::Il2CppArray<::RPG::GameCore::FateRinStageSpecifiedDeckEntry*>* Field_2_0; // 0x10
-	::System::String* Field_2_1; // 0x18
-	::Il2CppArray<::System::UInt32>* Field_2_2; // 0x20
-	::Il2CppArray<::System::UInt32>* Field_2_3; // 0x28
-	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::FateRinMonsterHitBoxOffsetEntry*>* Field_2_4; // 0x30
-	::System::String* Field_2_5; // 0x38
-	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Class_2_558C0D911459BA9F*>* Field_2_6; // 0x40
-	::System::String* Field_2_7; // 0x48
-	::System::Single Field_2_8; // 0x50
-	::System::UInt32 Field_2_9; // 0x54
-	::System::UInt32 Field_2_10; // 0x58
-	::System::UInt32 Field_2_11; // 0x5C
-	::System::Single Field_2_12; // 0x60
+	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Class_2_558C0D911459BA9F*>* EECOOEBAPEB; // 0x10
+	::Il2CppArray<::System::UInt32>* JFKAEFCAEGN; // 0x18
+	::System::String* HOHBFFNDIKF; // 0x20
+	::System::String* HCLJHPDOFKH; // 0x28
+	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::FateRinMonsterHitBoxOffsetEntry*>* KAKOEADOGFO; // 0x30
+	::Il2CppArray<::System::UInt32>* DLPLLLENNHN; // 0x38
+	::System::String* KHFBNGDEJGK; // 0x40
+	::Il2CppArray<::RPG::GameCore::FateRinStageSpecifiedDeckEntry*>* MLDEGKEPEJB; // 0x48
+	::System::UInt32 AAFBCHNAKNJ; // 0x50
+	::System::UInt32 BMFPFMDJOMO; // 0x54
+	::System::UInt32 AAPBHIJNEMM; // 0x58
+	::System::Single JFMJJKDBCEC; // 0x5C
+	::System::Single BMKPADMOOCP; // 0x60
 
 	::System::Void _ctor()
 	{

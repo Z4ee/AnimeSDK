@@ -5,24 +5,24 @@
 namespace RPG::Client::ActivityIdleLive { class IdleLiveGachaWorldTagConfig; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGACHAPOOLCONFIG___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xBB9ECE0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGACHAPOOLCONFIG___C__CREATE_B__0_0_OFFSET UNITYSDK_OFFSET(0xBB9ED20)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGACHAPOOLCONFIG___C__CTOR_OFFSET UNITYSDK_OFFSET(0xBB9ED10)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGACHAPOOLCONFIG___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC5BC8C0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGACHAPOOLCONFIG___C__CREATE_B__0_0_OFFSET UNITYSDK_OFFSET(0xC5BC900)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGACHAPOOLCONFIG___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC5BC8F0)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveGachaPoolConfig___c_TypeDefinitionIndex = 71647;
+	inline static constexpr unsigned int IdleLiveGachaPoolConfig___c_TypeDefinitionIndex = 74953;
 
 	class IdleLiveGachaPoolConfig___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::ActivityIdleLive::IdleLiveGachaPoolConfig___c** StaticGet___9()
-		{
-			return (::RPG::Client::ActivityIdleLive::IdleLiveGachaPoolConfig___c**)Il2CppClass::FromTypeDefinitionIndex(IdleLiveGachaPoolConfig___c_TypeDefinitionIndex)->GetStaticField(0x39F90);
-		}
 		static ::System::Func_2<::System::UInt32, ::RPG::Client::ActivityIdleLive::IdleLiveGachaWorldTagConfig*>** StaticGet___9__0_0()
 		{
-			return (::System::Func_2<::System::UInt32, ::RPG::Client::ActivityIdleLive::IdleLiveGachaWorldTagConfig*>**)Il2CppClass::FromTypeDefinitionIndex(IdleLiveGachaPoolConfig___c_TypeDefinitionIndex)->GetStaticField(0x39F98);
+			return (::System::Func_2<::System::UInt32, ::RPG::Client::ActivityIdleLive::IdleLiveGachaWorldTagConfig*>**)Il2CppClass::FromTypeDefinitionIndex(IdleLiveGachaPoolConfig___c_TypeDefinitionIndex)->GetStaticField(0x5CCD0);
+		}
+		static ::RPG::Client::ActivityIdleLive::IdleLiveGachaPoolConfig___c** StaticGet___9()
+		{
+			return (::RPG::Client::ActivityIdleLive::IdleLiveGachaPoolConfig___c**)Il2CppClass::FromTypeDefinitionIndex(IdleLiveGachaPoolConfig___c_TypeDefinitionIndex)->GetStaticField(0x5CCD8);
 		}
 
 		static ::System::Void _cctor()

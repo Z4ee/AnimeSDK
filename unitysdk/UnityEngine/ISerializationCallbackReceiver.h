@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ISerializationCallbackReceiver_TypeDefinitionIndex = 4363;
+	inline static constexpr unsigned int ISerializationCallbackReceiver_TypeDefinitionIndex = 4373;
 
 	class ISerializationCallbackReceiver
 	{

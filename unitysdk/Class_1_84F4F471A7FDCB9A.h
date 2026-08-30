@@ -8,18 +8,18 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class Component; }
 
-#define CLASS_1_84F4F471A7FDCB9A_METHOD_1_674F73509924BD16_OFFSET UNITYSDK_OFFSET(0x1514E6E0)
-#define CLASS_1_84F4F471A7FDCB9A_METHOD_1_6DA51058A1E24D64_OFFSET UNITYSDK_OFFSET(0x1514E440)
-#define CLASS_1_84F4F471A7FDCB9A_METHOD_1_98BEB9260DFF39C3_OFFSET UNITYSDK_OFFSET(0x1514E580)
-#define CLASS_1_84F4F471A7FDCB9A__CTOR_OFFSET UNITYSDK_OFFSET(0x1514E9B0)
+#define CLASS_1_84F4F471A7FDCB9A_METHOD_1_674F73509924BD16_OFFSET UNITYSDK_OFFSET(0x160649A0)
+#define CLASS_1_84F4F471A7FDCB9A_METHOD_1_6DA51058A1E24D64_OFFSET UNITYSDK_OFFSET(0x16064700)
+#define CLASS_1_84F4F471A7FDCB9A_METHOD_1_98BEB9260DFF39C3_OFFSET UNITYSDK_OFFSET(0x16064840)
+#define CLASS_1_84F4F471A7FDCB9A__CTOR_OFFSET UNITYSDK_OFFSET(0x16064C70)
 
-inline static constexpr unsigned int Class_1_84F4F471A7FDCB9A_TypeDefinitionIndex = 63019;
+inline static constexpr unsigned int Class_1_84F4F471A7FDCB9A_TypeDefinitionIndex = 66004;
 
 class Class_1_84F4F471A7FDCB9A : public ::System::Object
 {
 public:
-	::System::Collections::Generic::Dictionary_2<::System::String*, ::Class_1_CA48F56DCEF4E4D6*>* Field_1_0; // 0x10
-	::System::Collections::Generic::Dictionary_2<::System::Int32, ::Class_1_CA48F56DCEF4E4D6*>* Field_1_1; // 0x18
+	::System::Collections::Generic::Dictionary_2<::System::String*, ::Class_1_CA48F56DCEF4E4D6*>* EDOMPLHAILA; // 0x10
+	::System::Collections::Generic::Dictionary_2<::System::Int32, ::Class_1_CA48F56DCEF4E4D6*>* KEKLDOLJKBF; // 0x18
 
 	::System::Void _ctor()
 	{

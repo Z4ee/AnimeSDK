@@ -3,7 +3,7 @@
 
 namespace System::Globalization
 {
-	inline static constexpr unsigned int TimeSpanParse_TimeSpanThrowStyle_TypeDefinitionIndex = 769;
+	inline static constexpr unsigned int TimeSpanParse_TimeSpanThrowStyle_TypeDefinitionIndex = 772;
 
 	enum class TimeSpanParse_TimeSpanThrowStyle : ::System::Int32
 	{

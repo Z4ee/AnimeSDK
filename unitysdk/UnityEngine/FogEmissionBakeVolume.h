@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Behaviour.h"
 
-#define UNITYENGINE_FOGEMISSIONBAKEVOLUME_GET_INTENSITY_OFFSET UNITYSDK_OFFSET(0x1D01C360)
-#define UNITYENGINE_FOGEMISSIONBAKEVOLUME_SET_INTENSITY_OFFSET UNITYSDK_OFFSET(0x1D01C370)
+#define UNITYENGINE_FOGEMISSIONBAKEVOLUME_GET_INTENSITY_OFFSET UNITYSDK_OFFSET(0x1ED23980)
+#define UNITYENGINE_FOGEMISSIONBAKEVOLUME_SET_INTENSITY_OFFSET UNITYSDK_OFFSET(0x1ED23990)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int FogEmissionBakeVolume_TypeDefinitionIndex = 4259;
+	inline static constexpr unsigned int FogEmissionBakeVolume_TypeDefinitionIndex = 4269;
 
 	class FogEmissionBakeVolume : public ::UnityEngine::Behaviour
 	{

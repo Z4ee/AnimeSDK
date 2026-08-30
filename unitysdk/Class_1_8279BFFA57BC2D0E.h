@@ -9,25 +9,25 @@
 
 namespace System { class String; }
 
-#define CLASS_1_8279BFFA57BC2D0E__CTOR_OFFSET UNITYSDK_OFFSET(0x14C0BB70)
+#define CLASS_1_8279BFFA57BC2D0E__CTOR_OFFSET UNITYSDK_OFFSET(0x15CBFE40)
 
-inline static constexpr unsigned int Class_1_8279BFFA57BC2D0E_TypeDefinitionIndex = 53075;
+inline static constexpr unsigned int Class_1_8279BFFA57BC2D0E_TypeDefinitionIndex = 55782;
 
 class Class_1_8279BFFA57BC2D0E : public ::System::Object
 {
 public:
-	::System::String* Field_1_0; // 0x10
-	::System::String* Field_1_1; // 0x18
-	::System::Boolean Field_1_2; // 0x20
-	::System::Nullable_1<::System::Boolean> Field_1_3; // 0x21
-	::System::Nullable_1<::System::Boolean> Field_1_4; // 0x23
-	::RPG::GameCore::VersusBarEffectType Field_1_5; // 0x28
-	::RPG::GameCore::VersusBarReasonTipType Field_1_6; // 0x2C
-	::RPG::Client::TextID Field_1_7; // 0x30
-	::RPG::GameCore::FixPoint Field_1_8; // 0x40
-	::System::Nullable_1<::RPG::GameCore::FixPoint> Field_1_9; // 0x48
-	::System::Nullable_1<::RPG::GameCore::FixPoint> Field_1_10; // 0x58
-	::System::Nullable_1<::RPG::GameCore::FixPoint> Field_1_11; // 0x68
+	::System::String* PDPFAPMCMMI; // 0x10
+	::System::String* AJHFKOGFFOP; // 0x18
+	::RPG::GameCore::VersusBarEffectType GLKADJGGONI; // 0x20
+	::RPG::GameCore::VersusBarReasonTipType PLAOODOLLAI; // 0x24
+	::System::Boolean BECLGNONOID; // 0x28
+	::System::Nullable_1<::System::Boolean> LEFMBOJIBDM; // 0x29
+	::System::Nullable_1<::System::Boolean> FEDOIDAMKEI; // 0x2B
+	::RPG::GameCore::FixPoint JCCPFJKEALD; // 0x30
+	::RPG::Client::TextID FFFAFHAPNII; // 0x38
+	::System::Nullable_1<::RPG::GameCore::FixPoint> EFJAHDEMACL; // 0x48
+	::System::Nullable_1<::RPG::GameCore::FixPoint> BCCHCNNIEDB; // 0x58
+	::System::Nullable_1<::RPG::GameCore::FixPoint> HOELGLIGJMC; // 0x68
 
 	::System::Void _ctor()
 	{

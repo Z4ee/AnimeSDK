@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class EventLookUpConfig; }
 
-#define RPG_GAMECORE_SOUNDBANKLOOKUPCONFIG_METHOD_2_FE47A9DAE5F72BF9_OFFSET UNITYSDK_OFFSET(0x1B8E0D50)
-#define RPG_GAMECORE_SOUNDBANKLOOKUPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8E0E40)
+#define RPG_GAMECORE_SOUNDBANKLOOKUPCONFIG_METHOD_2_FE47A9DAE5F72BF9_OFFSET UNITYSDK_OFFSET(0x1D53CE80)
+#define RPG_GAMECORE_SOUNDBANKLOOKUPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D53CF70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SoundBankLookUpConfig_TypeDefinitionIndex = 15740;
+	inline static constexpr unsigned int SoundBankLookUpConfig_TypeDefinitionIndex = 16216;
 
 	class SoundBankLookUpConfig : public ::RPG::GameCore::JsonConfig
 	{

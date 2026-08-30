@@ -6,29 +6,29 @@ class Class_1_0471857D35382E2E;
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEHUDENEMYSTATUSDETAILVIEWMODEL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC493990)
-#define RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEHUDENEMYSTATUSDETAILVIEWMODEL___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC4939D0)
-#define RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEHUDENEMYSTATUSDETAILVIEWMODEL___C___REFRESHLINKEINFO_B__11_0_OFFSET UNITYSDK_OFFSET(0xC4939E0)
-#define RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEHUDENEMYSTATUSDETAILVIEWMODEL___C___REFRESHLINKEINFO_B__11_1_OFFSET UNITYSDK_OFFSET(0xC493A00)
+#define RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEHUDENEMYSTATUSDETAILVIEWMODEL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xCF7AFE0)
+#define RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEHUDENEMYSTATUSDETAILVIEWMODEL___C__CTOR_OFFSET UNITYSDK_OFFSET(0xCF7B020)
+#define RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEHUDENEMYSTATUSDETAILVIEWMODEL___C___REFRESHLINKEINFO_B__11_0_OFFSET UNITYSDK_OFFSET(0xCF7B030)
+#define RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEHUDENEMYSTATUSDETAILVIEWMODEL___C___REFRESHLINKEINFO_B__11_1_OFFSET UNITYSDK_OFFSET(0xCF7B050)
 
 namespace RPG::Client::FateRin::Battle
 {
-	inline static constexpr unsigned int FateRinBattleHudEnemyStatusDetailViewModel___c_TypeDefinitionIndex = 75953;
+	inline static constexpr unsigned int FateRinBattleHudEnemyStatusDetailViewModel___c_TypeDefinitionIndex = 79586;
 
 	class FateRinBattleHudEnemyStatusDetailViewModel___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::FateRin::Battle::FateRinBattleHudEnemyStatusDetailViewModel___c** StaticGet___9()
+		static ::System::Func_2<::Class_1_0471857D35382E2E*, ::System::String*>** StaticGet___9__11_0()
 		{
-			return (::RPG::Client::FateRin::Battle::FateRinBattleHudEnemyStatusDetailViewModel___c**)Il2CppClass::FromTypeDefinitionIndex(FateRinBattleHudEnemyStatusDetailViewModel___c_TypeDefinitionIndex)->GetStaticField(0x6700);
+			return (::System::Func_2<::Class_1_0471857D35382E2E*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(FateRinBattleHudEnemyStatusDetailViewModel___c_TypeDefinitionIndex)->GetStaticField(0x66F40);
 		}
 		static ::System::Func_2<::System::String*, ::System::Boolean>** StaticGet___9__11_1()
 		{
-			return (::System::Func_2<::System::String*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(FateRinBattleHudEnemyStatusDetailViewModel___c_TypeDefinitionIndex)->GetStaticField(0x6708);
+			return (::System::Func_2<::System::String*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(FateRinBattleHudEnemyStatusDetailViewModel___c_TypeDefinitionIndex)->GetStaticField(0x66F48);
 		}
-		static ::System::Func_2<::Class_1_0471857D35382E2E*, ::System::String*>** StaticGet___9__11_0()
+		static ::RPG::Client::FateRin::Battle::FateRinBattleHudEnemyStatusDetailViewModel___c** StaticGet___9()
 		{
-			return (::System::Func_2<::Class_1_0471857D35382E2E*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(FateRinBattleHudEnemyStatusDetailViewModel___c_TypeDefinitionIndex)->GetStaticField(0x6710);
+			return (::RPG::Client::FateRin::Battle::FateRinBattleHudEnemyStatusDetailViewModel___c**)Il2CppClass::FromTypeDefinitionIndex(FateRinBattleHudEnemyStatusDetailViewModel___c_TypeDefinitionIndex)->GetStaticField(0x66F50);
 		}
 
 		static ::System::Void _cctor()

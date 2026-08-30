@@ -7,7 +7,7 @@ namespace System { class Object; }
 
 namespace Collections::Pooled
 {
-	inline static constexpr unsigned int PooledListForStruct_1_Enumerator_TypeDefinitionIndex = 5097;
+	inline static constexpr unsigned int PooledListForStruct_1_Enumerator_TypeDefinitionIndex = 5110;
 
 	template <typename T>
 	struct PooledListForStruct_1_Enumerator

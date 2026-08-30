@@ -4,21 +4,21 @@
 #include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 
-#define MONO_SECURITY_INTERFACE_VALIDATIONRESULT_GET_TRUSTED_OFFSET UNITYSDK_OFFSET(0x19F23190)
-#define MONO_SECURITY_INTERFACE_VALIDATIONRESULT_GET_USERDENIED_OFFSET UNITYSDK_OFFSET(0x19F231A0)
-#define MONO_SECURITY_INTERFACE_VALIDATIONRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x19F23170)
+#define MONO_SECURITY_INTERFACE_VALIDATIONRESULT_GET_TRUSTED_OFFSET UNITYSDK_OFFSET(0x1BB27CA0)
+#define MONO_SECURITY_INTERFACE_VALIDATIONRESULT_GET_USERDENIED_OFFSET UNITYSDK_OFFSET(0x1BB27CB0)
+#define MONO_SECURITY_INTERFACE_VALIDATIONRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB27C80)
 
 namespace Mono::Security::Interface
 {
-	inline static constexpr unsigned int ValidationResult_TypeDefinitionIndex = 2277;
+	inline static constexpr unsigned int ValidationResult_TypeDefinitionIndex = 2284;
 
 	class ValidationResult : public ::System::Object
 	{
 	public:
-		::System::Nullable_1<::Mono::Security::Interface::MonoSslPolicyErrors> policy_errors; // 0x10
-		::System::Int32 error_code; // 0x18
-		::System::Boolean trusted; // 0x1C
-		::System::Boolean user_denied; // 0x1D
+		::System::Boolean user_denied; // 0x10
+		::System::Boolean trusted; // 0x11
+		::System::Nullable_1<::Mono::Security::Interface::MonoSslPolicyErrors> policy_errors; // 0x14
+		::System::Int32 error_code; // 0x1C
 
 		::System::Void _ctor(::System::Boolean a1, ::System::Boolean a2, ::System::Int32 a3, ::System::Nullable_1<::Mono::Security::Interface::MonoSslPolicyErrors> a4)
 		{

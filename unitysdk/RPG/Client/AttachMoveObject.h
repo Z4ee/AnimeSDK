@@ -5,11 +5,11 @@
 namespace RPG::Client { class LoopSceneMoveObject; }
 namespace System { class String; }
 
-#define RPG_CLIENT_ATTACHMOVEOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0xBDB2880)
+#define RPG_CLIENT_ATTACHMOVEOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0xC7890D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AttachMoveObject_TypeDefinitionIndex = 65793;
+	inline static constexpr unsigned int AttachMoveObject_TypeDefinitionIndex = 68831;
 
 	class AttachMoveObject : public ::System::Object
 	{

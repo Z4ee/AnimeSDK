@@ -7,10 +7,10 @@ namespace RPG::GameCore { class TargetFetchMazeBuffTargets; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_3_A455A27DFD3F7DDE_8_EVALUATE_OFFSET UNITYSDK_OFFSET(0xAFE6910)
-#define CLASS_3_A455A27DFD3F7DDE_8__CTOR_OFFSET UNITYSDK_OFFSET(0xAFE68A0)
+#define CLASS_3_A455A27DFD3F7DDE_8_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB9A02F0)
+#define CLASS_3_A455A27DFD3F7DDE_8__CTOR_OFFSET UNITYSDK_OFFSET(0xB9A0280)
 
-inline static constexpr unsigned int Class_3_A455A27DFD3F7DDE_8_TypeDefinitionIndex = 56597;
+inline static constexpr unsigned int Class_3_A455A27DFD3F7DDE_8_TypeDefinitionIndex = 59381;
 
 class Class_3_A455A27DFD3F7DDE_8 : public ::RPG::GameCore::TargetEvaluatorImpl_1<::RPG::GameCore::TargetFetchMazeBuffTargets*>
 {

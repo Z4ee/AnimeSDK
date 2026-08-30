@@ -6,7 +6,7 @@ class Class_1_9AD828BA811E7C7A;
 class Class_1_CE89E018B1132F67_1;
 class Class_1_F8E9FB82D76BCA64_Class_3_11CBDCA989A0D873;
 
-inline static constexpr unsigned int Class_1_F8E9FB82D76BCA64_Class_0_16E7307DCC43CB2C_2_TypeDefinitionIndex = 35411;
+inline static constexpr unsigned int Class_1_F8E9FB82D76BCA64_Class_0_16E7307DCC43CB2C_2_TypeDefinitionIndex = 36272;
 
 class Class_1_F8E9FB82D76BCA64_Class_0_16E7307DCC43CB2C_2
 {

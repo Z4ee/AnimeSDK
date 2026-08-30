@@ -7,12 +7,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TimeRewindSpreadEffConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TIMEREWINDATTACHEFF_METHOD_2_84544CE0FDCC3441_OFFSET UNITYSDK_OFFSET(0x1B971BA0)
-#define RPG_GAMECORE_TIMEREWINDATTACHEFF__CTOR_OFFSET UNITYSDK_OFFSET(0x1B971E00)
+#define RPG_GAMECORE_TIMEREWINDATTACHEFF_METHOD_2_84544CE0FDCC3441_OFFSET UNITYSDK_OFFSET(0x1D5CEE30)
+#define RPG_GAMECORE_TIMEREWINDATTACHEFF__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5CF090)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TimeRewindAttachEff_TypeDefinitionIndex = 15955;
+	inline static constexpr unsigned int TimeRewindAttachEff_TypeDefinitionIndex = 16431;
 
 	class TimeRewindAttachEff : public ::RPG::GameCore::JsonConfig
 	{

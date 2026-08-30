@@ -3,7 +3,7 @@
 
 namespace System
 {
-	inline static constexpr unsigned int TypeCode_TypeDefinitionIndex = 434;
+	inline static constexpr unsigned int TypeCode_TypeDefinitionIndex = 437;
 
 	enum class TypeCode : ::System::Int32
 	{

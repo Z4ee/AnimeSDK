@@ -3,7 +3,7 @@
 
 namespace Epic::OnlineServices::RTC
 {
-	inline static constexpr unsigned int JoinRoomFlags_TypeDefinitionIndex = 43194;
+	inline static constexpr unsigned int JoinRoomFlags_TypeDefinitionIndex = 45376;
 
 	enum class JoinRoomFlags : ::System::UInt32
 	{

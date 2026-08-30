@@ -6,43 +6,43 @@ namespace System { class String; }
 namespace UnityEngine { class Animator; }
 namespace UnityEngine { class GameObject; }
 
-#define CLASS_1_10C1CA4432641F33_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15668590)
-#define CLASS_1_10C1CA4432641F33_METHOD_1_1CD1133DC003C11C_OFFSET UNITYSDK_OFFSET(0x15668720)
-#define CLASS_1_10C1CA4432641F33_METHOD_1_B1936CE4DA97AA45_1_OFFSET UNITYSDK_OFFSET(0x15668680)
-#define CLASS_1_10C1CA4432641F33_METHOD_1_B1936CE4DA97AA45_OFFSET UNITYSDK_OFFSET(0x156685E0)
-#define CLASS_1_10C1CA4432641F33__CCTOR_OFFSET UNITYSDK_OFFSET(0x15668820)
-#define CLASS_1_10C1CA4432641F33__CTOR_OFFSET UNITYSDK_OFFSET(0x156683A0)
+#define CLASS_1_10C1CA4432641F33_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB697EF0)
+#define CLASS_1_10C1CA4432641F33_METHOD_1_1CD1133DC003C11C_OFFSET UNITYSDK_OFFSET(0xB698080)
+#define CLASS_1_10C1CA4432641F33_METHOD_1_B1936CE4DA97AA45_1_OFFSET UNITYSDK_OFFSET(0xB697FE0)
+#define CLASS_1_10C1CA4432641F33_METHOD_1_B1936CE4DA97AA45_OFFSET UNITYSDK_OFFSET(0xB697F40)
+#define CLASS_1_10C1CA4432641F33__CCTOR_OFFSET UNITYSDK_OFFSET(0xB698180)
+#define CLASS_1_10C1CA4432641F33__CTOR_OFFSET UNITYSDK_OFFSET(0xB697D00)
 
-inline static constexpr unsigned int Class_1_10C1CA4432641F33_TypeDefinitionIndex = 75028;
+inline static constexpr unsigned int Class_1_10C1CA4432641F33_TypeDefinitionIndex = 78513;
 
 class Class_1_10C1CA4432641F33 : public ::System::Object
 {
 public:
-	static ::System::String** StaticGet_Field_1_0()
+	static ::System::String** StaticGet_HFJLGKGPKOM()
 	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_10C1CA4432641F33_TypeDefinitionIndex)->GetStaticField(0x49300);
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_10C1CA4432641F33_TypeDefinitionIndex)->GetStaticField(0x65A10);
 	}
-	static ::System::Int32* StaticGet_Field_1_1()
+	static ::System::Int32* StaticGet_OMDPHFLEHEF()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_10C1CA4432641F33_TypeDefinitionIndex)->GetStaticField(0xC490);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_10C1CA4432641F33_TypeDefinitionIndex)->GetStaticField(0x14F30);
 	}
-	static ::System::Int32* StaticGet_Field_1_2()
+	static ::System::Int32* StaticGet_GPDFLOGAMIP()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_10C1CA4432641F33_TypeDefinitionIndex)->GetStaticField(0xC494);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_10C1CA4432641F33_TypeDefinitionIndex)->GetStaticField(0x14F34);
 	}
-	static ::System::Int32* StaticGet_Field_1_3()
+	static ::System::Int32* StaticGet_PBAEAGEPDCH()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_10C1CA4432641F33_TypeDefinitionIndex)->GetStaticField(0xC498);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_10C1CA4432641F33_TypeDefinitionIndex)->GetStaticField(0x14F38);
 	}
-	static ::System::Int32* StaticGet_Field_1_4()
+	static ::System::Int32* StaticGet_ECOIODPLNOO()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_10C1CA4432641F33_TypeDefinitionIndex)->GetStaticField(0xC49C);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_10C1CA4432641F33_TypeDefinitionIndex)->GetStaticField(0x14F3C);
 	}
-	static ::System::Int32* StaticGet_Field_1_5()
+	static ::System::Int32* StaticGet_NPHHMJPMMHM()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_10C1CA4432641F33_TypeDefinitionIndex)->GetStaticField(0xC4A0);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_10C1CA4432641F33_TypeDefinitionIndex)->GetStaticField(0x14F40);
 	}
-	::UnityEngine::Animator* Field_1_6; // 0x10
+	::UnityEngine::Animator* MABMPCKBKNI; // 0x10
 
 	::System::Void _ctor(::UnityEngine::GameObject* a1)
 	{

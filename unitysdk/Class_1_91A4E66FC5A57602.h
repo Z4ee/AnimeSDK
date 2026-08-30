@@ -5,16 +5,16 @@
 class Class_1_67AC247E5B257456;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_91A4E66FC5A57602__CTOR_OFFSET UNITYSDK_OFFSET(0xADBDCE0)
+#define CLASS_1_91A4E66FC5A57602__CTOR_OFFSET UNITYSDK_OFFSET(0xB71C6B0)
 
-inline static constexpr unsigned int Class_1_91A4E66FC5A57602_TypeDefinitionIndex = 45285;
+inline static constexpr unsigned int Class_1_91A4E66FC5A57602_TypeDefinitionIndex = 47523;
 
 class Class_1_91A4E66FC5A57602 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Class_1_67AC247E5B257456*>* Field_1_0; // 0x10
-	::System::UInt32 Field_1_1; // 0x18
-	::System::Boolean Field_1_2; // 0x1C
+	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Class_1_67AC247E5B257456*>* NBBLDEMCCGN; // 0x10
+	::System::Boolean GPDAOCJAIGE; // 0x18
+	::System::UInt32 LLDCHLHNADA; // 0x1C
 
 	::System::Void _ctor(::System::UInt32 a1, ::System::Boolean a2)
 	{

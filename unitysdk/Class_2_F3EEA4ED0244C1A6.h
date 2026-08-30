@@ -5,15 +5,15 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define CLASS_2_F3EEA4ED0244C1A6_METHOD_2_C84679B76D518F24_OFFSET UNITYSDK_OFFSET(0x1B48E700)
-#define CLASS_2_F3EEA4ED0244C1A6__CTOR_OFFSET UNITYSDK_OFFSET(0x1B48E7E0)
+#define CLASS_2_F3EEA4ED0244C1A6_METHOD_2_C84679B76D518F24_OFFSET UNITYSDK_OFFSET(0x1D2723C0)
+#define CLASS_2_F3EEA4ED0244C1A6__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2724A0)
 
-inline static constexpr unsigned int Class_2_F3EEA4ED0244C1A6_TypeDefinitionIndex = 21961;
+inline static constexpr unsigned int Class_2_F3EEA4ED0244C1A6_TypeDefinitionIndex = 22525;
 
 class Class_2_F3EEA4ED0244C1A6 : public ::RPG::GameCore::JsonConfig
 {
 public:
-	::RPG::GameCore::ElationPointChangePopUIStyle Field_2_0; // 0x10
+	::RPG::GameCore::ElationPointChangePopUIStyle BJHMJLEBMGO; // 0x10
 
 	::System::Void _ctor()
 	{

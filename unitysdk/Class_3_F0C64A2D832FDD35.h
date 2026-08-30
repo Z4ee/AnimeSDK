@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetPhainonChargePoint; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_F0C64A2D832FDD35_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x147F39C0)
-#define CLASS_3_F0C64A2D832FDD35__CTOR_OFFSET UNITYSDK_OFFSET(0x147F3990)
+#define CLASS_3_F0C64A2D832FDD35_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15672D30)
+#define CLASS_3_F0C64A2D832FDD35__CTOR_OFFSET UNITYSDK_OFFSET(0x15672D00)
 
-inline static constexpr unsigned int Class_3_F0C64A2D832FDD35_TypeDefinitionIndex = 53044;
+inline static constexpr unsigned int Class_3_F0C64A2D832FDD35_TypeDefinitionIndex = 55750;
 
 class Class_3_F0C64A2D832FDD35 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetPhainonChargePoint*>
 {

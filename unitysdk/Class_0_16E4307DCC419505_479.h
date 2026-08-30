@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/GameCore/RtMoveStopReason.h"
 
-class Class_0_16E4307DCC419505_458;
+class Class_2_FC12FDC7914CFFD8;
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_479_TypeDefinitionIndex = 51567;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_479_TypeDefinitionIndex = 53915;
 
 class Class_0_16E4307DCC419505_479
 {

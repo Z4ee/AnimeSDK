@@ -9,12 +9,12 @@ namespace System::Runtime::Remoting { class ObjRef; }
 namespace System::Runtime::Remoting::Contexts { class Context; }
 namespace System::Runtime::Remoting::Proxies { class RealProxy; }
 
-#define SYSTEM_RUNTIME_REMOTING_PROXIES_PROXYATTRIBUTE_CREATEINSTANCE_OFFSET UNITYSDK_OFFSET(0x1A1E8370)
-#define SYSTEM_RUNTIME_REMOTING_PROXIES_PROXYATTRIBUTE_CREATEPROXY_OFFSET UNITYSDK_OFFSET(0x1A1E87C0)
+#define SYSTEM_RUNTIME_REMOTING_PROXIES_PROXYATTRIBUTE_CREATEINSTANCE_OFFSET UNITYSDK_OFFSET(0x1BDF0BC0)
+#define SYSTEM_RUNTIME_REMOTING_PROXIES_PROXYATTRIBUTE_CREATEPROXY_OFFSET UNITYSDK_OFFSET(0x1BDF1010)
 
 namespace System::Runtime::Remoting::Proxies
 {
-	inline static constexpr unsigned int ProxyAttribute_TypeDefinitionIndex = 1227;
+	inline static constexpr unsigned int ProxyAttribute_TypeDefinitionIndex = 1234;
 
 	class ProxyAttribute : public ::System::Attribute
 	{

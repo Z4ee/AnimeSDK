@@ -3,7 +3,7 @@
 
 namespace HkrpgProtoLog
 {
-	inline static constexpr unsigned int PlayerActionType_TypeDefinitionIndex = 24178;
+	inline static constexpr unsigned int PlayerActionType_TypeDefinitionIndex = 24767;
 
 	enum class PlayerActionType : ::System::Int32
 	{
@@ -58,6 +58,7 @@ namespace HkrpgProtoLog
 		PlayerActionMoveCheckFailedReport = 1011,
 		PlayerActionBattleFailedReport = 1012,
 		PlayerActionSecurityReport = 1013,
+		PlayerActionClientVideoSetting = 1014,
 		PlayerActionAvatarPromotion = 1101,
 		PlayerActionAvatarAdd = 1103,
 		PlayerActionAvatarUseExpItem = 1104,
@@ -808,6 +809,10 @@ namespace HkrpgProtoLog
 		PlayerActionRogueTournPersonaStyleGiftSelectRefresh = 6266,
 		PlayerActionRogueTournPersonaRoomCardReroll = 6267,
 		PlayerActionRogueTournMiracleStatusChange = 6268,
+		PlayerActionRogueTournPersonaStyleSelectRefresh = 6269,
+		PlayerActionRogueTournPersonaAncientCoinChange = 6270,
+		PlayerActionRogueTournPersonaLeverageBondSettle = 6271,
+		PlayerActionRogueTournPersonaLeverageBondRepayRecord = 6272,
 		PlayerActionRogueWorkbenchReforgeFormula = 6281,
 		PlayerActionRogueWorkbenchReforgeMiracle = 6282,
 		PlayerActionRogueWorkbenchComposeMiracle = 6283,
@@ -1199,6 +1204,14 @@ namespace HkrpgProtoLog
 		PlayerActionLimaoNewsTriggerOfficeEvent = 7495,
 		PlayerActionLimaoNewsFinishOfficeEvent = 7496,
 		PlayerActionLimaoNewsUpvoteContent = 7497,
+		PlayerActionLimaoNewsFinishWork = 7498,
+		PlayerActionLimaoNewsFinishPlan = 7499,
+		PlayerActionLimaoNewsActivatePlan = 7500,
+		PlayerActionLimaoNewsEnterPlanPhase = 7501,
+		PlayerActionLimaoNewsFinishPlanPhase = 7502,
+		PlayerActionLimaoNewsStartWork = 7503,
+		PlayerActionLimaoNewsAdvanceWork = 7504,
+		PlayerActionLimaoNewsFinishEmployeeCheckOption = 7505,
 		PlayerActionChenLingBattleActivatePrivilege = 7506,
 		PlayerActionChenLingBattleConquerLevelUp = 7507,
 		PlayerActionChenLingBattleStartStage = 7508,
@@ -1225,6 +1238,12 @@ namespace HkrpgProtoLog
 		PlayerActionRelicPresetPlanSave = 7581,
 		PlayerActionRelicPresetPlanDelete = 7582,
 		PlayerActionRelicPresetPlanModifyName = 7583,
+		PlayerActionB51RacingStartMatch = 7591,
+		PlayerActionB51RacingEndMatch = 7592,
+		PlayerActionB51RacingStartDay = 7593,
+		PlayerActionB51RacingFinishDay = 7594,
+		PlayerActionB51RacingCarLiveryChange = 7595,
+		PlayerActionB51RacingDevelopAction = 7596,
 		PlayerActionPixAirUnlockPlane = 7611,
 		PlayerActionPixAirStageStart = 7612,
 		PlayerActionPixAirBattleGen = 7613,

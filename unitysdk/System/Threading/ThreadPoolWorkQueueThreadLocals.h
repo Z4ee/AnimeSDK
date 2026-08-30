@@ -6,13 +6,13 @@ namespace System { class Random; }
 namespace System::Threading { class ThreadPoolWorkQueue; }
 namespace System::Threading { class ThreadPoolWorkQueue_WorkStealingQueue; }
 
-#define SYSTEM_THREADING_THREADPOOLWORKQUEUETHREADLOCALS_CLEANUP_OFFSET UNITYSDK_OFFSET(0x1A04FCB0)
-#define SYSTEM_THREADING_THREADPOOLWORKQUEUETHREADLOCALS_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1A04FD80)
-#define SYSTEM_THREADING_THREADPOOLWORKQUEUETHREADLOCALS__CTOR_OFFSET UNITYSDK_OFFSET(0x1A04E040)
+#define SYSTEM_THREADING_THREADPOOLWORKQUEUETHREADLOCALS_CLEANUP_OFFSET UNITYSDK_OFFSET(0x1BC56C90)
+#define SYSTEM_THREADING_THREADPOOLWORKQUEUETHREADLOCALS_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1BC56D90)
+#define SYSTEM_THREADING_THREADPOOLWORKQUEUETHREADLOCALS__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC55060)
 
 namespace System::Threading
 {
-	inline static constexpr unsigned int ThreadPoolWorkQueueThreadLocals_TypeDefinitionIndex = 858;
+	inline static constexpr unsigned int ThreadPoolWorkQueueThreadLocals_TypeDefinitionIndex = 862;
 
 	class ThreadPoolWorkQueueThreadLocals : public ::System::Object
 	{
@@ -21,8 +21,8 @@ namespace System::Threading
 		{
 			return (::System::Threading::ThreadPoolWorkQueueThreadLocals**)Il2CppClass::FromTypeDefinitionIndex(ThreadPoolWorkQueueThreadLocals_TypeDefinitionIndex)->GetStaticField(0x0);
 		}
-		::System::Threading::ThreadPoolWorkQueue* workQueue; // 0x10
-		::System::Random* random; // 0x18
+		::System::Random* random; // 0x10
+		::System::Threading::ThreadPoolWorkQueue* workQueue; // 0x18
 		::System::Threading::ThreadPoolWorkQueue_WorkStealingQueue* workStealingQueue; // 0x20
 
 		::System::Void _ctor(::System::Threading::ThreadPoolWorkQueue* a1)

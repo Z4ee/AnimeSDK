@@ -8,13 +8,13 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class MeshFilter; }
 
-#define RPG_CLIENT_ACHERONSPACESLICER_METHOD_5_2045BA2947DBDBCE_OFFSET UNITYSDK_OFFSET(0xBA81940)
-#define RPG_CLIENT_ACHERONSPACESLICER_METHOD_5_81FEFD1B22CE37A2_OFFSET UNITYSDK_OFFSET(0xBA81DE0)
-#define RPG_CLIENT_ACHERONSPACESLICER__CTOR_OFFSET UNITYSDK_OFFSET(0xBA82150)
+#define RPG_CLIENT_ACHERONSPACESLICER_METHOD_5_2045BA2947DBDBCE_OFFSET UNITYSDK_OFFSET(0xC4A0500)
+#define RPG_CLIENT_ACHERONSPACESLICER_METHOD_5_81FEFD1B22CE37A2_OFFSET UNITYSDK_OFFSET(0xC4A09A0)
+#define RPG_CLIENT_ACHERONSPACESLICER__CTOR_OFFSET UNITYSDK_OFFSET(0xC4A0D10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AcheronSpaceSlicer_TypeDefinitionIndex = 67197;
+	inline static constexpr unsigned int AcheronSpaceSlicer_TypeDefinitionIndex = 70316;
 
 	class AcheronSpaceSlicer : public ::UnityEngine::MonoBehaviour
 	{
@@ -24,8 +24,8 @@ namespace RPG::Client
 		::System::Collections::Generic::List_1<::UnityEngine::MeshFilter*>* SliceTargets; // 0x38
 		::System::Single SliceDistance; // 0x40
 		::System::Boolean NeedHull; // 0x44
-		::Class_1_D0ED0CDEA61AA610* Field_5_5; // 0x48
-		::System::Collections::Generic::List_1<::UnityEngine::MeshFilter*>* Field_5_6; // 0x50
+		::Class_1_D0ED0CDEA61AA610* FMMDMJNDLPE; // 0x48
+		::System::Collections::Generic::List_1<::UnityEngine::MeshFilter*>* MIPBBLIKBCD; // 0x50
 
 		::System::Void _ctor()
 		{

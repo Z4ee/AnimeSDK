@@ -3,15 +3,15 @@
 #include "unitysdk/Class_1_C0259C461ECB54D1.h"
 #include "unitysdk/UnityEngine/NetworkReachability.h"
 
-#define CLASS_2_005D093BBE616C11_METHOD_2_5B56B56BFFE4CC00_OFFSET UNITYSDK_OFFSET(0x15574EB0)
-#define CLASS_2_005D093BBE616C11__CTOR_OFFSET UNITYSDK_OFFSET(0x15574F60)
+#define CLASS_2_005D093BBE616C11_METHOD_2_5B56B56BFFE4CC00_OFFSET UNITYSDK_OFFSET(0xB59A3E0)
+#define CLASS_2_005D093BBE616C11__CTOR_OFFSET UNITYSDK_OFFSET(0xB59A490)
 
-inline static constexpr unsigned int Class_2_005D093BBE616C11_TypeDefinitionIndex = 58371;
+inline static constexpr unsigned int Class_2_005D093BBE616C11_TypeDefinitionIndex = 61198;
 
 class Class_2_005D093BBE616C11 : public ::Class_1_C0259C461ECB54D1
 {
 public:
-	::UnityEngine::NetworkReachability Field_2_0; // 0x20
+	::UnityEngine::NetworkReachability MEPFOEEGBEA; // 0x20
 
 	::System::Void _ctor()
 	{

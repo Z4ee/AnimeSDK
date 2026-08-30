@@ -4,10 +4,10 @@
 
 namespace RPG::Client { class FightPlayer; }
 
-#define CLASS_1_6A9EF6A57FAD498C___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB9E8E10)
-#define CLASS_1_6A9EF6A57FAD498C___C__DISPLAYCLASS16_0__GETPLAYER_B__0_OFFSET UNITYSDK_OFFSET(0xB9E8F10)
+#define CLASS_1_6A9EF6A57FAD498C___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC407310)
+#define CLASS_1_6A9EF6A57FAD498C___C__DISPLAYCLASS16_0__GETPLAYER_B__0_OFFSET UNITYSDK_OFFSET(0xC407410)
 
-inline static constexpr unsigned int Class_1_6A9EF6A57FAD498C___c__DisplayClass16_0_TypeDefinitionIndex = 66254;
+inline static constexpr unsigned int Class_1_6A9EF6A57FAD498C___c__DisplayClass16_0_TypeDefinitionIndex = 69326;
 
 class Class_1_6A9EF6A57FAD498C___c__DisplayClass16_0 : public ::System::Object
 {

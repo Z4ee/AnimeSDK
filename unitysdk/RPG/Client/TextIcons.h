@@ -18,72 +18,72 @@ namespace UnityEngine::Pooled { template <typename T> class PooledList_1; }
 namespace UnityEngine::UI { class Text; }
 namespace UnityEngine::UI { class VertexHelper; }
 
-#define RPG_CLIENT_TEXTICONS_CLEAR_OFFSET UNITYSDK_OFFSET(0xD67BB40)
-#define RPG_CLIENT_TEXTICONS_CULL_OFFSET UNITYSDK_OFFSET(0xD67BA80)
-#define RPG_CLIENT_TEXTICONS_GET_ICONS_OFFSET UNITYSDK_OFFSET(0xD679200)
-#define RPG_CLIENT_TEXTICONS_METHOD_5_151E25A63D14DDB0_OFFSET UNITYSDK_OFFSET(0xD679590)
-#define RPG_CLIENT_TEXTICONS_METHOD_5_1AD65660482C5A23_OFFSET UNITYSDK_OFFSET(0xD67FF00)
-#define RPG_CLIENT_TEXTICONS_METHOD_5_508D4DD02D3DB74E_OFFSET UNITYSDK_OFFSET(0xD67A1D0)
-#define RPG_CLIENT_TEXTICONS_METHOD_5_9799E6C85CA57A57_OFFSET UNITYSDK_OFFSET(0xD67E020)
-#define RPG_CLIENT_TEXTICONS_METHOD_5_E3C6744E0B066898_OFFSET UNITYSDK_OFFSET(0xD67F160)
-#define RPG_CLIENT_TEXTICONS_METHOD_5_E876C8B6D3B840A6_OFFSET UNITYSDK_OFFSET(0xD67C550)
-#define RPG_CLIENT_TEXTICONS_METHOD_5_EC0BCC59F80EF3FE_OFFSET UNITYSDK_OFFSET(0xD67C1C0)
-#define RPG_CLIENT_TEXTICONS_METHOD_5_F63FE1AA9633F811_OFFSET UNITYSDK_OFFSET(0xD67B490)
-#define RPG_CLIENT_TEXTICONS_METHOD_5_F740F753EED2BABD_OFFSET UNITYSDK_OFFSET(0xD67D730)
-#define RPG_CLIENT_TEXTICONS_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xD679800)
-#define RPG_CLIENT_TEXTICONS_ONENABLE_OFFSET UNITYSDK_OFFSET(0xD679290)
-#define RPG_CLIENT_TEXTICONS_SETCLIPRECT_OFFSET UNITYSDK_OFFSET(0xD67BAE0)
-#define RPG_CLIENT_TEXTICONS_SET_ICONS_OFFSET UNITYSDK_OFFSET(0xD679240)
-#define RPG_CLIENT_TEXTICONS_UPDATEGEOMETRY_OFFSET UNITYSDK_OFFSET(0xD67A3C0)
-#define RPG_CLIENT_TEXTICONS_UPDATEMATERIAL_OFFSET UNITYSDK_OFFSET(0xD67B850)
-#define RPG_CLIENT_TEXTICONS__BUILDICONATLAS_B__13_0_OFFSET UNITYSDK_OFFSET(0xD680130)
-#define RPG_CLIENT_TEXTICONS__BUILDICONATLAS_B__13_1_OFFSET UNITYSDK_OFFSET(0xD680180)
-#define RPG_CLIENT_TEXTICONS__CTOR_OFFSET UNITYSDK_OFFSET(0xD6800F0)
+#define RPG_CLIENT_TEXTICONS_CLEAR_OFFSET UNITYSDK_OFFSET(0xE1CB850)
+#define RPG_CLIENT_TEXTICONS_CULL_OFFSET UNITYSDK_OFFSET(0xE1CB790)
+#define RPG_CLIENT_TEXTICONS_GET_ICONS_OFFSET UNITYSDK_OFFSET(0xE1C8F40)
+#define RPG_CLIENT_TEXTICONS_METHOD_5_151E25A63D14DDB0_OFFSET UNITYSDK_OFFSET(0xE1C92A0)
+#define RPG_CLIENT_TEXTICONS_METHOD_5_1AD65660482C5A23_OFFSET UNITYSDK_OFFSET(0xE1CFBF0)
+#define RPG_CLIENT_TEXTICONS_METHOD_5_508D4DD02D3DB74E_OFFSET UNITYSDK_OFFSET(0xE1C9EE0)
+#define RPG_CLIENT_TEXTICONS_METHOD_5_9799E6C85CA57A57_OFFSET UNITYSDK_OFFSET(0xE1CDD10)
+#define RPG_CLIENT_TEXTICONS_METHOD_5_E3C6744E0B066898_OFFSET UNITYSDK_OFFSET(0xE1CEE50)
+#define RPG_CLIENT_TEXTICONS_METHOD_5_E876C8B6D3B840A6_OFFSET UNITYSDK_OFFSET(0xE1CC260)
+#define RPG_CLIENT_TEXTICONS_METHOD_5_EC0BCC59F80EF3FE_OFFSET UNITYSDK_OFFSET(0xE1CBED0)
+#define RPG_CLIENT_TEXTICONS_METHOD_5_F63FE1AA9633F811_OFFSET UNITYSDK_OFFSET(0xE1CB1A0)
+#define RPG_CLIENT_TEXTICONS_METHOD_5_F740F753EED2BABD_OFFSET UNITYSDK_OFFSET(0xE1CD420)
+#define RPG_CLIENT_TEXTICONS_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xE1C9510)
+#define RPG_CLIENT_TEXTICONS_ONENABLE_OFFSET UNITYSDK_OFFSET(0xE1C8FD0)
+#define RPG_CLIENT_TEXTICONS_SETCLIPRECT_OFFSET UNITYSDK_OFFSET(0xE1CB7F0)
+#define RPG_CLIENT_TEXTICONS_SET_ICONS_OFFSET UNITYSDK_OFFSET(0xE1C8F80)
+#define RPG_CLIENT_TEXTICONS_UPDATEGEOMETRY_OFFSET UNITYSDK_OFFSET(0xE1CA0D0)
+#define RPG_CLIENT_TEXTICONS_UPDATEMATERIAL_OFFSET UNITYSDK_OFFSET(0xE1CB560)
+#define RPG_CLIENT_TEXTICONS__BUILDICONATLAS_B__13_0_OFFSET UNITYSDK_OFFSET(0xE1CFE20)
+#define RPG_CLIENT_TEXTICONS__BUILDICONATLAS_B__13_1_OFFSET UNITYSDK_OFFSET(0xE1CFE70)
+#define RPG_CLIENT_TEXTICONS__CTOR_OFFSET UNITYSDK_OFFSET(0xE1CFDE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TextIcons_TypeDefinitionIndex = 69389;
+	inline static constexpr unsigned int TextIcons_TypeDefinitionIndex = 72604;
 
 	class TextIcons : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::UI::VertexHelper*>** StaticGet_Field_5_0()
+		static ::UnityEngine::Mesh** StaticGet_MJJPAPGBALA()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::UI::VertexHelper*>**)Il2CppClass::FromTypeDefinitionIndex(TextIcons_TypeDefinitionIndex)->GetStaticField(0x423E0);
+			return (::UnityEngine::Mesh**)Il2CppClass::FromTypeDefinitionIndex(TextIcons_TypeDefinitionIndex)->GetStaticField(0x4A110);
 		}
-		static ::UnityEngine::Material** StaticGet_Field_5_1()
+		static ::UnityEngine::Material** StaticGet_NJPALBPLPIJ()
 		{
-			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(TextIcons_TypeDefinitionIndex)->GetStaticField(0x423E8);
+			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(TextIcons_TypeDefinitionIndex)->GetStaticField(0x4A118);
 		}
-		static ::UnityEngine::Texture** StaticGet_Field_5_2()
+		static ::Il2CppArray<::UnityEngine::UIVertex>** StaticGet_EKJGCDIEEHB()
 		{
-			return (::UnityEngine::Texture**)Il2CppClass::FromTypeDefinitionIndex(TextIcons_TypeDefinitionIndex)->GetStaticField(0x423F0);
+			return (::Il2CppArray<::UnityEngine::UIVertex>**)Il2CppClass::FromTypeDefinitionIndex(TextIcons_TypeDefinitionIndex)->GetStaticField(0x4A120);
 		}
-		static ::Il2CppArray<::UnityEngine::UIVertex>** StaticGet_Field_5_3()
+		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::UI::VertexHelper*>** StaticGet_NMGAADNPIOG()
 		{
-			return (::Il2CppArray<::UnityEngine::UIVertex>**)Il2CppClass::FromTypeDefinitionIndex(TextIcons_TypeDefinitionIndex)->GetStaticField(0x423F8);
+			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::UI::VertexHelper*>**)Il2CppClass::FromTypeDefinitionIndex(TextIcons_TypeDefinitionIndex)->GetStaticField(0x4A128);
 		}
-		static ::UnityEngine::Mesh** StaticGet_Field_5_4()
+		static ::UnityEngine::Texture** StaticGet_CPOFKPJOCEF()
 		{
-			return (::UnityEngine::Mesh**)Il2CppClass::FromTypeDefinitionIndex(TextIcons_TypeDefinitionIndex)->GetStaticField(0x42400);
+			return (::UnityEngine::Texture**)Il2CppClass::FromTypeDefinitionIndex(TextIcons_TypeDefinitionIndex)->GetStaticField(0x4A130);
 		}
-		static ::System::Int32* StaticGet_Field_5_5()
+		static ::System::Int32* StaticGet_AOMGOGBFECA()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TextIcons_TypeDefinitionIndex)->GetStaticField(0xA750);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TextIcons_TypeDefinitionIndex)->GetStaticField(0x11050);
 		}
-		// static const ::System::Int32 Field_5_6 = 0x4; // 0x0
+		// static const ::System::Int32 LHCKIKNCDPE = 0x4; // 0x0
 		::Il2CppArray<::UnityEngine::Sprite*>* m_Icons; // 0x18
-		::UnityEngine::UI::Text* Field_5_8; // 0x20
-		::Il2CppArray<::UnityEngine::Vector4>* Field_5_9; // 0x28
-		::UnityEngine::Texture* Field_5_10; // 0x30
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::RPG::Client::TextIcons_Class_1_DE8146FD159B95CF*>* Field_5_11; // 0x38
-		::Il2CppArray<::RPG::Client::TextIcons_Struct_2_126A1A9085C0C7D8>* Field_5_12; // 0x40
-		::Il2CppArray<::System::Single>* Field_5_13; // 0x48
-		::UnityEngine::Rect Field_5_14; // 0x50
-		::UnityEngine::Material* Field_5_15; // 0x60
-		::System::Int32 Field_5_16; // 0x68
-		::System::Int32 Field_5_17; // 0x6C
-		::UnityEngine::Experimental::Rendering::GraphicsFormat Field_5_18; // 0x70
+		::UnityEngine::UI::Text* HAPMAPAJMOC; // 0x20
+		::Il2CppArray<::UnityEngine::Vector4>* GGABAIOMHPE; // 0x28
+		::UnityEngine::Texture* AJLNAFOHFJP; // 0x30
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::RPG::Client::TextIcons_Class_1_DE8146FD159B95CF*>* AMGJPHOPMOM; // 0x38
+		::Il2CppArray<::RPG::Client::TextIcons_Struct_2_126A1A9085C0C7D8>* CHNBCOANIJA; // 0x40
+		::Il2CppArray<::System::Single>* DIDCHGMBHLI; // 0x48
+		::UnityEngine::Rect CAOMNOEAJCC; // 0x50
+		::UnityEngine::Material* ELKGDBPFCMI; // 0x60
+		::System::Int32 OMAOFBNHCFL; // 0x68
+		::System::Int32 NNIFBDFMHKI; // 0x6C
+		::UnityEngine::Experimental::Rendering::GraphicsFormat DIEDAENPFLG; // 0x70
 
 		::System::Void _ctor()
 		{

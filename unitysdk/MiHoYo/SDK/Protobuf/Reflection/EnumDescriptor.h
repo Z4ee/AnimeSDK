@@ -10,19 +10,19 @@ namespace System { class String; }
 namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_ENUMDESCRIPTOR_GET_NAME_OFFSET UNITYSDK_OFFSET(0x19B6A290)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_ENUMDESCRIPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x19B6A040)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_ENUMDESCRIPTOR_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1B6F9910)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_ENUMDESCRIPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6F96C0)
 
 namespace MiHoYo::SDK::Protobuf::Reflection
 {
-	inline static constexpr unsigned int EnumDescriptor_TypeDefinitionIndex = 34390;
+	inline static constexpr unsigned int EnumDescriptor_TypeDefinitionIndex = 35157;
 
 	class EnumDescriptor : public ::MiHoYo::SDK::Protobuf::Reflection::DescriptorBase
 	{
 	public:
-		::System::Type* clrType; // 0x28
+		::MiHoYo::SDK::Protobuf::Reflection::EnumDescriptorProto* proto; // 0x28
 		::System::Collections::Generic::IList_1<::MiHoYo::SDK::Protobuf::Reflection::EnumValueDescriptor*>* values; // 0x30
-		::MiHoYo::SDK::Protobuf::Reflection::EnumDescriptorProto* proto; // 0x38
+		::System::Type* clrType; // 0x38
 		::MiHoYo::SDK::Protobuf::Reflection::MessageDescriptor* containingType; // 0x40
 
 		::System::Void _ctor(::MiHoYo::SDK::Protobuf::Reflection::EnumDescriptorProto* a1, ::MiHoYo::SDK::Protobuf::Reflection::FileDescriptor* a2, ::MiHoYo::SDK::Protobuf::Reflection::MessageDescriptor* a3, ::System::Int32 a4, ::System::Type* a5)

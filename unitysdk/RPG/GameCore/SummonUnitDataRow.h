@@ -8,26 +8,26 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_SUMMONUNITDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B9299C0)
-#define RPG_GAMECORE_SUMMONUNITDATAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B929DD0)
+#define RPG_GAMECORE_SUMMONUNITDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D586C00)
+#define RPG_GAMECORE_SUMMONUNITDATAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D587010)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SummonUnitDataRow_TypeDefinitionIndex = 14600;
+	inline static constexpr unsigned int SummonUnitDataRow_TypeDefinitionIndex = 15036;
 
 	class SummonUnitDataRow : public ::System::Object
 	{
 	public:
 		::System::String* JsonPath; // 0x10
-		::RPG::GameCore::SummonerType SummonerType; // 0x18
-		::System::UInt32 MaxSummonCount; // 0x1C
-		::System::Boolean DestroyOnEnterBattle; // 0x20
-		::System::Boolean IsClient; // 0x21
-		::System::Boolean IsTeamSummon; // 0x22
-		::System::Boolean RemoveMazeBuffOnDestroy; // 0x23
-		::RPG::Client::TextID DefaultName; // 0x28
-		::System::UInt32 ID; // 0x38
-		::RPG::GameCore::SummonUnitUniqueGroup UniqueGroup; // 0x3C
+		::System::UInt32 MaxSummonCount; // 0x18
+		::RPG::GameCore::SummonUnitUniqueGroup UniqueGroup; // 0x1C
+		::System::Boolean RemoveMazeBuffOnDestroy; // 0x20
+		::System::Boolean IsTeamSummon; // 0x21
+		::System::Boolean IsClient; // 0x22
+		::System::Boolean DestroyOnEnterBattle; // 0x23
+		::System::UInt32 ID; // 0x24
+		::RPG::GameCore::SummonerType SummonerType; // 0x28
+		::RPG::Client::TextID DefaultName; // 0x30
 
 		::System::Void _ctor()
 		{

@@ -9,26 +9,26 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { template <typename T> class Action_1; }
 
-#define CLASS_3_689FB23C2A8CF001_DISPOSE_OFFSET UNITYSDK_OFFSET(0xAD15E10)
-#define CLASS_3_689FB23C2A8CF001_METHOD_3_79DFE051D7769B1A_OFFSET UNITYSDK_OFFSET(0xAD16FE0)
-#define CLASS_3_689FB23C2A8CF001_METHOD_3_98D7467AE0BEC3C1_OFFSET UNITYSDK_OFFSET(0xAD16EC0)
-#define CLASS_3_689FB23C2A8CF001_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xAD161E0)
-#define CLASS_3_689FB23C2A8CF001__CTOR_OFFSET UNITYSDK_OFFSET(0xAD159B0)
+#define CLASS_3_689FB23C2A8CF001_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB4623C0)
+#define CLASS_3_689FB23C2A8CF001_METHOD_3_79DFE051D7769B1A_OFFSET UNITYSDK_OFFSET(0xB4635A0)
+#define CLASS_3_689FB23C2A8CF001_METHOD_3_98D7467AE0BEC3C1_OFFSET UNITYSDK_OFFSET(0xB463480)
+#define CLASS_3_689FB23C2A8CF001_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB462790)
+#define CLASS_3_689FB23C2A8CF001__CTOR_OFFSET UNITYSDK_OFFSET(0xB461F60)
 
-inline static constexpr unsigned int Class_3_689FB23C2A8CF001_TypeDefinitionIndex = 52358;
+inline static constexpr unsigned int Class_3_689FB23C2A8CF001_TypeDefinitionIndex = 55048;
 
 class Class_3_689FB23C2A8CF001 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AttachAvatarChange*>
 {
 public:
-	::System::Action_1<::RPG::GameCore::GameEntity*>* Field_3_0; // 0x28
-	::Class_3_07C3C4D2990C49EE* Field_3_1; // 0x30
-	::Class_3_07C3C4D2990C49EE* Field_3_2; // 0x38
-	::Class_3_07C3C4D2990C49EE* Field_3_3; // 0x40
-	::Class_3_07C3C4D2990C49EE* Field_3_4; // 0x48
-	::Class_3_07C3C4D2990C49EE* Field_3_5; // 0x50
-	::RPG::GameCore::AvatarChangeTemplate* Field_3_6; // 0x58
-	::System::Action_1<::RPG::GameCore::GameEntity*>* Field_3_7; // 0x60
-	::Class_3_07C3C4D2990C49EE* Field_3_8; // 0x68
+	::Class_3_07C3C4D2990C49EE* KBLLLKLEIOD; // 0x28
+	::Class_3_07C3C4D2990C49EE* IOIINLJHFHH; // 0x30
+	::Class_3_07C3C4D2990C49EE* FEINADIKCAB; // 0x38
+	::System::Action_1<::RPG::GameCore::GameEntity*>* CLOMEGLHGOE; // 0x40
+	::Class_3_07C3C4D2990C49EE* IEEKLAMGHKI; // 0x48
+	::Class_3_07C3C4D2990C49EE* OMBIIGIJFIA; // 0x50
+	::System::Action_1<::RPG::GameCore::GameEntity*>* LLHCINBIBMJ; // 0x58
+	::Class_3_07C3C4D2990C49EE* FGKOGMMBNFG; // 0x60
+	::RPG::GameCore::AvatarChangeTemplate* JILGFHGMAAC; // 0x68
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::AttachAvatarChange* a2)
 	{

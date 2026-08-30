@@ -7,12 +7,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class StageVolumeConfigV2; }
 
-#define RPG_GAMECORE_STAGEREGIONCONNECTION_METHOD_2_EA2CB7BE152764C7_OFFSET UNITYSDK_OFFSET(0x1B900830)
-#define RPG_GAMECORE_STAGEREGIONCONNECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1B900CB0)
+#define RPG_GAMECORE_STAGEREGIONCONNECTION_METHOD_2_EA2CB7BE152764C7_OFFSET UNITYSDK_OFFSET(0x1D55C950)
+#define RPG_GAMECORE_STAGEREGIONCONNECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D55CDD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StageRegionConnection_TypeDefinitionIndex = 18439;
+	inline static constexpr unsigned int StageRegionConnection_TypeDefinitionIndex = 18963;
 
 	class StageRegionConnection : public ::RPG::GameCore::JsonConfig
 	{

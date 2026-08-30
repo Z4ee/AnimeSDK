@@ -7,7 +7,7 @@
 
 namespace System::Buffers
 {
-	inline static constexpr unsigned int MemoryManager_1_TypeDefinitionIndex = 4977;
+	inline static constexpr unsigned int MemoryManager_1_TypeDefinitionIndex = 4989;
 
 	template <typename T>
 	class MemoryManager_1 : public ::System::Object

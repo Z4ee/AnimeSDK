@@ -6,18 +6,18 @@ namespace System { class Type; }
 namespace System::Reflection { class MethodInfo; }
 template <typename T1, typename T2> class Class_3_B60F6C2F126D2E26;
 
-#define SOFA_CORE_MESSAGING_INTERNALS_OPENDELEGATEHELPER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C91E860)
+#define SOFA_CORE_MESSAGING_INTERNALS_OPENDELEGATEHELPER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E5C8980)
 
 namespace Sofa::Core::Messaging::Internals
 {
-	inline static constexpr unsigned int OpenDelegateHelper_TypeDefinitionIndex = 41476;
+	inline static constexpr unsigned int OpenDelegateHelper_TypeDefinitionIndex = 42469;
 
 	class OpenDelegateHelper : public ::System::Object
 	{
 	public:
 		static ::System::Reflection::MethodInfo** StaticGet__CreateOpenHandlerCoreMethod()
 		{
-			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(OpenDelegateHelper_TypeDefinitionIndex)->GetStaticField(0x4C3B0);
+			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(OpenDelegateHelper_TypeDefinitionIndex)->GetStaticField(0x54B80);
 		}
 
 		static ::System::Void _cctor()

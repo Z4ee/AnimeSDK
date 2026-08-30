@@ -1,0 +1,143 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Sofa/BaseSofaControl.h"
+
+class Class_0_16E4307DCC419505_1406;
+class Class_0_16E4307DCC419505_1418;
+class Class_1_CDD2EAFBD3BB1707;
+namespace RPG::Client { class AnimatorButton; }
+namespace RPG::Client { class LocalizedText; }
+namespace RPG::Client { class MonoAnimationTrigger; }
+namespace RPG::Client::B51Racing { class B51RacingCarDriverSelectPageViewModel; }
+namespace RPG::Client::B51Racing { class B51RacingCarStatItemControl; }
+namespace RPG::Client::B51Racing { class B51RacingDevelopValueIconListControl; }
+namespace System { class String; }
+namespace UnityEngine { class Animation; }
+namespace UnityEngine { class GameObject; }
+namespace UnityEngine::UI { class Image; }
+
+#define RPG_CLIENT_B51RACING_B51RACINGCARDRIVERSELECTPAGECONTROL_ONGOCLICK_OFFSET UNITYSDK_OFFSET(0xC85D3B0)
+#define RPG_CLIENT_B51RACING_B51RACINGCARDRIVERSELECTPAGECONTROL_ONSTATINFOCLICK_OFFSET UNITYSDK_OFFSET(0xC85D560)
+#define RPG_CLIENT_B51RACING_B51RACINGCARDRIVERSELECTPAGECONTROL_ONTABSELECT_OFFSET UNITYSDK_OFFSET(0xC85C890)
+#define RPG_CLIENT_B51RACING_B51RACINGCARDRIVERSELECTPAGECONTROL_SETUPVIEW_OFFSET UNITYSDK_OFFSET(0xC85C7D0)
+#define RPG_CLIENT_B51RACING_B51RACINGCARDRIVERSELECTPAGECONTROL__BINDANIMTRIGGERCALLBACK_OFFSET UNITYSDK_OFFSET(0xC85C710)
+#define RPG_CLIENT_B51RACING_B51RACINGCARDRIVERSELECTPAGECONTROL__BINDSTATITEMCONTROLS_OFFSET UNITYSDK_OFFSET(0xC85C2A0)
+#define RPG_CLIENT_B51RACING_B51RACINGCARDRIVERSELECTPAGECONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0xC85D740)
+#define RPG_CLIENT_B51RACING_B51RACINGCARDRIVERSELECTPAGECONTROL__GETCONSTCONFIG_OFFSET UNITYSDK_OFFSET(0xC85D670)
+#define RPG_CLIENT_B51RACING_B51RACINGCARDRIVERSELECTPAGECONTROL__GETREADYPAGESERVICE_OFFSET UNITYSDK_OFFSET(0xC85D4B0)
+#define RPG_CLIENT_B51RACING_B51RACINGCARDRIVERSELECTPAGECONTROL__GETWINDOWSERVICE_OFFSET UNITYSDK_OFFSET(0xC85D5C0)
+#define RPG_CLIENT_B51RACING_B51RACINGCARDRIVERSELECTPAGECONTROL__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0xC85C070)
+#define RPG_CLIENT_B51RACING_B51RACINGCARDRIVERSELECTPAGECONTROL__PLAYSWITCHTABANIM_OFFSET UNITYSDK_OFFSET(0xC85D340)
+#define RPG_CLIENT_B51RACING_B51RACINGCARDRIVERSELECTPAGECONTROL__REFRESHBTNARROWVIEW_OFFSET UNITYSDK_OFFSET(0xC85C9F0)
+#define RPG_CLIENT_B51RACING_B51RACINGCARDRIVERSELECTPAGECONTROL__REFRESHBTNGOSTATE_OFFSET UNITYSDK_OFFSET(0xC85CE60)
+#define RPG_CLIENT_B51RACING_B51RACINGCARDRIVERSELECTPAGECONTROL__REFRESHDRIVERINFO_OFFSET UNITYSDK_OFFSET(0xC85D000)
+#define RPG_CLIENT_B51RACING_B51RACINGCARDRIVERSELECTPAGECONTROL__REFRESHDRIVERNAME_OFFSET UNITYSDK_OFFSET(0xC85CCE0)
+#define RPG_CLIENT_B51RACING_B51RACINGCARDRIVERSELECTPAGECONTROL___BINDANIMTRIGGERCALLBACK_B__13_0_OFFSET UNITYSDK_OFFSET(0xC85D780)
+
+namespace RPG::Client::B51Racing
+{
+	inline static constexpr unsigned int B51RacingCarDriverSelectPageControl_TypeDefinitionIndex = 80505;
+
+	class B51RacingCarDriverSelectPageControl : public ::Sofa::BaseSofaControl
+	{
+	public:
+		// static const ::System::Int32 _STAT_ITEM_COUNT = 0x5; // 0x0
+		::UnityEngine::UI::Image* _AvatarImage; // 0x38
+		::RPG::Client::LocalizedText* _AvatarNameText; // 0x40
+		::RPG::Client::B51Racing::B51RacingDevelopValueIconListControl* _BonusIconListControl; // 0x48
+		::Il2CppArray<::RPG::Client::B51Racing::B51RacingCarStatItemControl*>* _StatItemControls; // 0x50
+		::UnityEngine::GameObject* _BtnLeftArrowGo; // 0x58
+		::UnityEngine::GameObject* _BtnRightArrowGo; // 0x60
+		::RPG::Client::AnimatorButton* _BtnGo; // 0x68
+		::RPG::Client::LocalizedText* _BtnGoText; // 0x70
+		::UnityEngine::Animation* _AnimRoot; // 0x78
+		::RPG::Client::MonoAnimationTrigger* _AnimTriggerRoot; // 0x80
+		::Class_1_CDD2EAFBD3BB1707* _ConstConfig; // 0x88
+		::System::Boolean _IsFirstTabSelect; // 0x90
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_B51RACINGCARDRIVERSELECTPAGECONTROL__CTOR_OFFSET))(this);
+		}
+
+		::System::Void _OnInitializeComponent()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_B51RACINGCARDRIVERSELECTPAGECONTROL__ONINITIALIZECOMPONENT_OFFSET))(this);
+		}
+
+		::System::Void _BindStatItemControls(::System::String* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_B51RACINGCARDRIVERSELECTPAGECONTROL__BINDSTATITEMCONTROLS_OFFSET))(this, a1);
+		}
+
+		::System::Void _BindAnimTriggerCallback()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_B51RACINGCARDRIVERSELECTPAGECONTROL__BINDANIMTRIGGERCALLBACK_OFFSET))(this);
+		}
+
+		::System::Void SetupView()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_B51RACINGCARDRIVERSELECTPAGECONTROL_SETUPVIEW_OFFSET))(this);
+		}
+
+		::System::Void OnTabSelect(::System::Int32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_B51RACINGCARDRIVERSELECTPAGECONTROL_ONTABSELECT_OFFSET))(this, a1);
+		}
+
+		::System::Boolean OnGoClick()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_B51RACINGCARDRIVERSELECTPAGECONTROL_ONGOCLICK_OFFSET))(this);
+		}
+
+		::System::Void OnStatInfoClick()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_B51RACINGCARDRIVERSELECTPAGECONTROL_ONSTATINFOCLICK_OFFSET))(this);
+		}
+
+		::System::Void _RefreshDriverName(::RPG::Client::B51Racing::B51RacingCarDriverSelectPageViewModel* a1, ::System::Int32 a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::B51Racing::B51RacingCarDriverSelectPageViewModel*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_B51RACINGCARDRIVERSELECTPAGECONTROL__REFRESHDRIVERNAME_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void _RefreshBtnArrowView(::RPG::Client::B51Racing::B51RacingCarDriverSelectPageViewModel* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::B51Racing::B51RacingCarDriverSelectPageViewModel*))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_B51RACINGCARDRIVERSELECTPAGECONTROL__REFRESHBTNARROWVIEW_OFFSET))(this, a1);
+		}
+
+		::System::Void _RefreshDriverInfo()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_B51RACINGCARDRIVERSELECTPAGECONTROL__REFRESHDRIVERINFO_OFFSET))(this);
+		}
+
+		::System::Void _RefreshBtnGoState(::RPG::Client::B51Racing::B51RacingCarDriverSelectPageViewModel* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::B51Racing::B51RacingCarDriverSelectPageViewModel*))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_B51RACINGCARDRIVERSELECTPAGECONTROL__REFRESHBTNGOSTATE_OFFSET))(this, a1);
+		}
+
+		::System::Void _PlaySwitchTabAnim()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_B51RACINGCARDRIVERSELECTPAGECONTROL__PLAYSWITCHTABANIM_OFFSET))(this);
+		}
+
+		::Class_0_16E4307DCC419505_1406* _GetWindowService()
+		{
+			return ((::Class_0_16E4307DCC419505_1406*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_B51RACINGCARDRIVERSELECTPAGECONTROL__GETWINDOWSERVICE_OFFSET))(this);
+		}
+
+		::Class_1_CDD2EAFBD3BB1707* _GetConstConfig()
+		{
+			return ((::Class_1_CDD2EAFBD3BB1707*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_B51RACINGCARDRIVERSELECTPAGECONTROL__GETCONSTCONFIG_OFFSET))(this);
+		}
+
+		::Class_0_16E4307DCC419505_1418* _GetReadyPageService()
+		{
+			return ((::Class_0_16E4307DCC419505_1418*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_B51RACINGCARDRIVERSELECTPAGECONTROL__GETREADYPAGESERVICE_OFFSET))(this);
+		}
+
+		::System::Void __BindAnimTriggerCallback_b__13_0(::System::String* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_B51RACINGCARDRIVERSELECTPAGECONTROL___BINDANIMTRIGGERCALLBACK_B__13_0_OFFSET))(this, a1);
+		}
+	};
+}

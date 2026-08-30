@@ -5,20 +5,20 @@
 class Class_1_21C7581DFE99F091_34;
 namespace RPG::GameCore { class DrinkMakerRequestRow; }
 
-#define RPG_CLIENT_DRINKMAKERBARREQUEST_CREATE_OFFSET UNITYSDK_OFFSET(0xC2AFFE0)
-#define RPG_CLIENT_DRINKMAKERBARREQUEST__CTOR_OFFSET UNITYSDK_OFFSET(0xC2B51F0)
+#define RPG_CLIENT_DRINKMAKERBARREQUEST_CREATE_OFFSET UNITYSDK_OFFSET(0xCD80B90)
+#define RPG_CLIENT_DRINKMAKERBARREQUEST__CTOR_OFFSET UNITYSDK_OFFSET(0xCD85DA0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DrinkMakerBarRequest_TypeDefinitionIndex = 60796;
+	inline static constexpr unsigned int DrinkMakerBarRequest_TypeDefinitionIndex = 63649;
 
 	class DrinkMakerBarRequest : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::DrinkMakerRequestRow* Row; // 0x10
 		::System::UInt32 GainTip; // 0x18
-		::System::Boolean IsSuccess; // 0x1C
-		::System::UInt32 RequestID; // 0x20
+		::System::UInt32 RequestID; // 0x1C
+		::System::Boolean IsSuccess; // 0x20
 
 		::System::Void _ctor()
 		{

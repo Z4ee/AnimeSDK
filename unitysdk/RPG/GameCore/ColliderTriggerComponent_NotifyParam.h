@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_GAMECORE_COLLIDERTRIGGERCOMPONENT_NOTIFYPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xDA17C40)
+#define RPG_GAMECORE_COLLIDERTRIGGERCOMPONENT_NOTIFYPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xE594970)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ColliderTriggerComponent_NotifyParam_TypeDefinitionIndex = 54935;
+	inline static constexpr unsigned int ColliderTriggerComponent_NotifyParam_TypeDefinitionIndex = 57659;
 
 	class ColliderTriggerComponent_NotifyParam : public ::System::Object
 	{

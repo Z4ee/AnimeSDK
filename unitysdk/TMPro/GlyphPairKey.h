@@ -4,12 +4,12 @@
 
 namespace TMPro { class TMP_GlyphPairAdjustmentRecord; }
 
-#define TMPRO_GLYPHPAIRKEY__CTOR_1_OFFSET UNITYSDK_OFFSET(0x3A208B0)
-#define TMPRO_GLYPHPAIRKEY__CTOR_OFFSET UNITYSDK_OFFSET(0x3A20890)
+#define TMPRO_GLYPHPAIRKEY__CTOR_1_OFFSET UNITYSDK_OFFSET(0x3BB2040)
+#define TMPRO_GLYPHPAIRKEY__CTOR_OFFSET UNITYSDK_OFFSET(0x3BB2020)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int GlyphPairKey_TypeDefinitionIndex = 41789;
+	inline static constexpr unsigned int GlyphPairKey_TypeDefinitionIndex = 43400;
 
 	struct alignas(4) GlyphPairKey
 	{

@@ -1,30 +1,30 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_DB663931210BBC27_16.h"
+#include "unitysdk/Enum_3_DB663931210BBC27_17.h"
 #include "unitysdk/System/Object.h"
 
 namespace RPG::Client { class BattlePassRewardPointData; }
 namespace RPG::GameCore { class BattlePassLevelRewardRow; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_BATTLEPASSLEVELREWARDDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xBE83D20)
-#define RPG_CLIENT_BATTLEPASSLEVELREWARDDATA_GETREWARDIDS_OFFSET UNITYSDK_OFFSET(0xBE835C0)
-#define RPG_CLIENT_BATTLEPASSLEVELREWARDDATA_HASAVAILABLE_OFFSET UNITYSDK_OFFSET(0xBE833B0)
-#define RPG_CLIENT_BATTLEPASSLEVELREWARDDATA_TRYGETOPTIONPOINT_OFFSET UNITYSDK_OFFSET(0xBE83850)
-#define RPG_CLIENT_BATTLEPASSLEVELREWARDDATA_UPDATEREWARDSTATUS_OFFSET UNITYSDK_OFFSET(0xBE839F0)
-#define RPG_CLIENT_BATTLEPASSLEVELREWARDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xBE84160)
+#define RPG_CLIENT_BATTLEPASSLEVELREWARDDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xC9257D0)
+#define RPG_CLIENT_BATTLEPASSLEVELREWARDDATA_GETREWARDIDS_OFFSET UNITYSDK_OFFSET(0xC924F70)
+#define RPG_CLIENT_BATTLEPASSLEVELREWARDDATA_HASAVAILABLE_OFFSET UNITYSDK_OFFSET(0xC924D00)
+#define RPG_CLIENT_BATTLEPASSLEVELREWARDDATA_TRYGETOPTIONPOINT_OFFSET UNITYSDK_OFFSET(0xC925290)
+#define RPG_CLIENT_BATTLEPASSLEVELREWARDDATA_UPDATEREWARDSTATUS_OFFSET UNITYSDK_OFFSET(0xC925430)
+#define RPG_CLIENT_BATTLEPASSLEVELREWARDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xC925C10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BattlePassLevelRewardData_TypeDefinitionIndex = 60112;
+	inline static constexpr unsigned int BattlePassLevelRewardData_TypeDefinitionIndex = 62958;
 
 	class BattlePassLevelRewardData : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::RPG::Client::BattlePassRewardPointData*>* PaidRewardPoints; // 0x10
-		::RPG::Client::BattlePassRewardPointData* FreeRewardPoint; // 0x18
-		::System::UInt32 Level; // 0x20
-		::System::Boolean IsSpecial; // 0x24
+		::RPG::Client::BattlePassRewardPointData* FreeRewardPoint; // 0x10
+		::System::Collections::Generic::List_1<::RPG::Client::BattlePassRewardPointData*>* PaidRewardPoints; // 0x18
+		::System::Boolean IsSpecial; // 0x20
+		::System::UInt32 Level; // 0x24
 
 		::System::Void _ctor()
 		{
@@ -36,9 +36,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEPASSLEVELREWARDDATA_HASAVAILABLE_OFFSET))(this, a1);
 		}
 
-		::System::Collections::Generic::List_1<::System::UInt32>* GetRewardIDs(::Enum_3_DB663931210BBC27_16 a1)
+		::System::Collections::Generic::List_1<::System::UInt32>* GetRewardIDs(::Enum_3_DB663931210BBC27_17 a1)
 		{
-			return ((::System::Collections::Generic::List_1<::System::UInt32>*(*)(::PVOID, ::Enum_3_DB663931210BBC27_16))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEPASSLEVELREWARDDATA_GETREWARDIDS_OFFSET))(this, a1);
+			return ((::System::Collections::Generic::List_1<::System::UInt32>*(*)(::PVOID, ::Enum_3_DB663931210BBC27_17))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEPASSLEVELREWARDDATA_GETREWARDIDS_OFFSET))(this, a1);
 		}
 
 		::System::Boolean TryGetOptionPoint(::RPG::Client::BattlePassRewardPointData*& a1)

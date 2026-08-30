@@ -3,7 +3,7 @@
 
 namespace System::Threading
 {
-	inline static constexpr unsigned int EventResetMode_TypeDefinitionIndex = 823;
+	inline static constexpr unsigned int EventResetMode_TypeDefinitionIndex = 826;
 
 	enum class EventResetMode : ::System::Int32
 	{

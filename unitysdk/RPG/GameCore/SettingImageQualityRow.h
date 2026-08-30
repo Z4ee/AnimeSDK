@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_SETTINGIMAGEQUALITYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B8BB280)
-#define RPG_GAMECORE_SETTINGIMAGEQUALITYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8BBCB0)
+#define RPG_GAMECORE_SETTINGIMAGEQUALITYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D517010)
+#define RPG_GAMECORE_SETTINGIMAGEQUALITYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D517A40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SettingImageQualityRow_TypeDefinitionIndex = 14508;
+	inline static constexpr unsigned int SettingImageQualityRow_TypeDefinitionIndex = 14929;
 
 	class SettingImageQualityRow : public ::System::Object
 	{

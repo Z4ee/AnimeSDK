@@ -5,11 +5,11 @@
 namespace RPG::GameCore { class AdventureSkillConfig; }
 namespace RPG::GameCore { class MazeSkillRow; }
 
-#define RPG_GAMECORE_ADVENTURESKILLDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xD978270)
+#define RPG_GAMECORE_ADVENTURESKILLDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xE4F4320)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureSkillData_TypeDefinitionIndex = 54317;
+	inline static constexpr unsigned int AdventureSkillData_TypeDefinitionIndex = 57038;
 
 	class AdventureSkillData : public ::System::Object
 	{

@@ -1,9 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/EInflateIntent.h"
 
-namespace System { class String; }
-
-inline static constexpr unsigned int Class_0_16E4307DCC419505_1023_TypeDefinitionIndex = 67962;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_1023_TypeDefinitionIndex = 68645;
 
 class Class_0_16E4307DCC419505_1023
 {

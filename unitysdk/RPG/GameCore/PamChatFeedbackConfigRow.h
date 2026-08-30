@@ -5,18 +5,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_PAMCHATFEEDBACKCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B685BE0)
-#define RPG_GAMECORE_PAMCHATFEEDBACKCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B685D60)
+#define RPG_GAMECORE_PAMCHATFEEDBACKCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D307D90)
+#define RPG_GAMECORE_PAMCHATFEEDBACKCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D307F10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PamChatFeedbackConfigRow_TypeDefinitionIndex = 13786;
+	inline static constexpr unsigned int PamChatFeedbackConfigRow_TypeDefinitionIndex = 14203;
 
 	class PamChatFeedbackConfigRow : public ::System::Object
 	{
 	public:
-		::RPG::Client::TextID Name; // 0x10
-		::System::UInt32 ID; // 0x20
+		::System::UInt32 ID; // 0x10
+		::RPG::Client::TextID Name; // 0x18
 
 		::System::Void _ctor()
 		{

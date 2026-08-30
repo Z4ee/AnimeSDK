@@ -3,20 +3,20 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/RaycastHit.h"
 
-#define UNITYENGINE_EVENTSYSTEMS_PHYSICSRAYCASTER_RAYCASTHITCOMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0x1D102990)
-#define UNITYENGINE_EVENTSYSTEMS_PHYSICSRAYCASTER_RAYCASTHITCOMPARER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D102A00)
-#define UNITYENGINE_EVENTSYSTEMS_PHYSICSRAYCASTER_RAYCASTHITCOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1029F0)
+#define UNITYENGINE_EVENTSYSTEMS_PHYSICSRAYCASTER_RAYCASTHITCOMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0x1EE0CC50)
+#define UNITYENGINE_EVENTSYSTEMS_PHYSICSRAYCASTER_RAYCASTHITCOMPARER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EE0CCC0)
+#define UNITYENGINE_EVENTSYSTEMS_PHYSICSRAYCASTER_RAYCASTHITCOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EE0CCB0)
 
 namespace UnityEngine::EventSystems
 {
-	inline static constexpr unsigned int PhysicsRaycaster_RaycastHitComparer_TypeDefinitionIndex = 6114;
+	inline static constexpr unsigned int PhysicsRaycaster_RaycastHitComparer_TypeDefinitionIndex = 6944;
 
 	class PhysicsRaycaster_RaycastHitComparer : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::EventSystems::PhysicsRaycaster_RaycastHitComparer** StaticGet_instance()
 		{
-			return (::UnityEngine::EventSystems::PhysicsRaycaster_RaycastHitComparer**)Il2CppClass::FromTypeDefinitionIndex(PhysicsRaycaster_RaycastHitComparer_TypeDefinitionIndex)->GetStaticField(0x47030);
+			return (::UnityEngine::EventSystems::PhysicsRaycaster_RaycastHitComparer**)Il2CppClass::FromTypeDefinitionIndex(PhysicsRaycaster_RaycastHitComparer_TypeDefinitionIndex)->GetStaticField(0x245F0);
 		}
 
 		::System::Void _ctor()

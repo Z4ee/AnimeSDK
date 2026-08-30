@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FateRinCaseBoardAvatarType_TypeDefinitionIndex = 10194;
+	inline static constexpr unsigned int FateRinCaseBoardAvatarType_TypeDefinitionIndex = 10530;
 
 	enum class FateRinCaseBoardAvatarType : ::System::Int32
 	{

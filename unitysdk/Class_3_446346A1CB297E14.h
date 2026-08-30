@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetEffectAutoLayoutScale; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_446346A1CB297E14_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC26C950)
-#define CLASS_3_446346A1CB297E14__CTOR_OFFSET UNITYSDK_OFFSET(0xC26C920)
+#define CLASS_3_446346A1CB297E14_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCF8DB10)
+#define CLASS_3_446346A1CB297E14__CTOR_OFFSET UNITYSDK_OFFSET(0xCF8DAE0)
 
-inline static constexpr unsigned int Class_3_446346A1CB297E14_TypeDefinitionIndex = 52978;
+inline static constexpr unsigned int Class_3_446346A1CB297E14_TypeDefinitionIndex = 55683;
 
 class Class_3_446346A1CB297E14 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetEffectAutoLayoutScale*>
 {

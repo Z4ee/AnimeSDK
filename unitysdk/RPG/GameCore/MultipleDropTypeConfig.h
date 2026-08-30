@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MultipleDropTypeConfig_TypeDefinitionIndex = 11069;
+	inline static constexpr unsigned int MultipleDropTypeConfig_TypeDefinitionIndex = 11458;
 
 	enum class MultipleDropTypeConfig : ::System::Int32
 	{

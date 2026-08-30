@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LockHoyoGroupReason_TypeDefinitionIndex = 59323;
+	inline static constexpr unsigned int LockHoyoGroupReason_TypeDefinitionIndex = 62158;
 
 	enum class LockHoyoGroupReason : ::System::UInt32
 	{

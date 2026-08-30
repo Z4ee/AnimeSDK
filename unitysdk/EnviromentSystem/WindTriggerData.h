@@ -6,12 +6,12 @@
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define ENVIROMENTSYSTEM_WINDTRIGGERDATA_METHOD_2_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x2CFD950)
-#define ENVIROMENTSYSTEM_WINDTRIGGERDATA_METHOD_2_DFCBD1685FB122E4_OFFSET UNITYSDK_OFFSET(0x2CFD940)
+#define ENVIROMENTSYSTEM_WINDTRIGGERDATA_METHOD_2_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x2DE6750)
+#define ENVIROMENTSYSTEM_WINDTRIGGERDATA_METHOD_2_DFCBD1685FB122E4_OFFSET UNITYSDK_OFFSET(0x2DE6740)
 
 namespace EnviromentSystem
 {
-	inline static constexpr unsigned int WindTriggerData_TypeDefinitionIndex = 47774;
+	inline static constexpr unsigned int WindTriggerData_TypeDefinitionIndex = 50055;
 
 	struct alignas(8) WindTriggerData
 	{

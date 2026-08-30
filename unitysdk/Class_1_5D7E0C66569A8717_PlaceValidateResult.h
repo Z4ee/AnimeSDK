@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Class_1_5D7E0C66569A8717_PlaceValidateResult_TypeDefinitionIndex = 73803;
+inline static constexpr unsigned int Class_1_5D7E0C66569A8717_PlaceValidateResult_TypeDefinitionIndex = 77287;
 
 enum class Class_1_5D7E0C66569A8717_PlaceValidateResult : ::System::Int32
 {

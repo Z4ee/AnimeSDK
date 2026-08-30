@@ -5,18 +5,18 @@
 namespace RPG::GameCore { class ST_Main_Wait; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_8BA3ABAFCB7BD6A2_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x145A4010)
-#define CLASS_3_8BA3ABAFCB7BD6A2_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x145A4060)
-#define CLASS_3_8BA3ABAFCB7BD6A2_TICK_OFFSET UNITYSDK_OFFSET(0x145A40B0)
-#define CLASS_3_8BA3ABAFCB7BD6A2__CTOR_OFFSET UNITYSDK_OFFSET(0x145A3FD0)
+#define CLASS_3_8BA3ABAFCB7BD6A2_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15421030)
+#define CLASS_3_8BA3ABAFCB7BD6A2_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15421080)
+#define CLASS_3_8BA3ABAFCB7BD6A2_TICK_OFFSET UNITYSDK_OFFSET(0x154210D0)
+#define CLASS_3_8BA3ABAFCB7BD6A2__CTOR_OFFSET UNITYSDK_OFFSET(0x15420FF0)
 
-inline static constexpr unsigned int Class_3_8BA3ABAFCB7BD6A2_TypeDefinitionIndex = 49846;
+inline static constexpr unsigned int Class_3_8BA3ABAFCB7BD6A2_TypeDefinitionIndex = 52507;
 
 class Class_3_8BA3ABAFCB7BD6A2 : public ::RPG::GameCore::ST_Task_1<::RPG::GameCore::ST_Main_Wait*>
 {
 public:
-	::System::Single Field_3_0; // 0x28
-	::System::Single Field_3_1; // 0x2C
+	::System::Single PGMIOKKLHIE; // 0x28
+	::System::Single HBDJCFFDGDD; // 0x2C
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ST_Main_Wait* a2)
 	{

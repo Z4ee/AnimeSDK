@@ -7,12 +7,12 @@
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_LENSDISTORTIONTIMELINETRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xDD057C0)
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_LENSDISTORTIONTIMELINETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xDD05870)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_LENSDISTORTIONTIMELINETRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8CF7B0)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_LENSDISTORTIONTIMELINETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xE8CF860)
 
 namespace RPGTools::Timeline::PostProcessing
 {
-	inline static constexpr unsigned int LensDistortionTimelineTrack_TypeDefinitionIndex = 46787;
+	inline static constexpr unsigned int LensDistortionTimelineTrack_TypeDefinitionIndex = 49033;
 
 	class LensDistortionTimelineTrack : public ::RPGTools::Timeline::PostProcessing::PostProcessTimelineTrack
 	{

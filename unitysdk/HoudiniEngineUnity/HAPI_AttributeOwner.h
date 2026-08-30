@@ -3,7 +3,7 @@
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HAPI_AttributeOwner_TypeDefinitionIndex = 38307;
+	inline static constexpr unsigned int HAPI_AttributeOwner_TypeDefinitionIndex = 39166;
 
 	enum class HAPI_AttributeOwner : ::System::Int32
 	{

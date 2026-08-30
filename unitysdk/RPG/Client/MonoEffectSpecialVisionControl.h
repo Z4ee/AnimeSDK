@@ -6,15 +6,15 @@
 namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class Renderer; }
 
-#define RPG_CLIENT_MONOEFFECTSPECIALVISIONCONTROL_METHOD_5_C7BF9C1E6A78DCAB_OFFSET UNITYSDK_OFFSET(0xCCD17F0)
-#define RPG_CLIENT_MONOEFFECTSPECIALVISIONCONTROL_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xCCD1C90)
-#define RPG_CLIENT_MONOEFFECTSPECIALVISIONCONTROL_ONENABLE_OFFSET UNITYSDK_OFFSET(0xCCD1740)
-#define RPG_CLIENT_MONOEFFECTSPECIALVISIONCONTROL_UPDATE_OFFSET UNITYSDK_OFFSET(0xCCD1BB0)
-#define RPG_CLIENT_MONOEFFECTSPECIALVISIONCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0xCCD1CF0)
+#define RPG_CLIENT_MONOEFFECTSPECIALVISIONCONTROL_METHOD_5_C7BF9C1E6A78DCAB_OFFSET UNITYSDK_OFFSET(0xD7D23F0)
+#define RPG_CLIENT_MONOEFFECTSPECIALVISIONCONTROL_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xD7D2890)
+#define RPG_CLIENT_MONOEFFECTSPECIALVISIONCONTROL_ONENABLE_OFFSET UNITYSDK_OFFSET(0xD7D2340)
+#define RPG_CLIENT_MONOEFFECTSPECIALVISIONCONTROL_UPDATE_OFFSET UNITYSDK_OFFSET(0xD7D27B0)
+#define RPG_CLIENT_MONOEFFECTSPECIALVISIONCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0xD7D28F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectSpecialVisionControl_TypeDefinitionIndex = 67580;
+	inline static constexpr unsigned int MonoEffectSpecialVisionControl_TypeDefinitionIndex = 70703;
 
 	class MonoEffectSpecialVisionControl : public ::UnityEngine::MonoBehaviour
 	{
@@ -29,9 +29,9 @@ namespace RPG::Client
 		::UnityEngine::Color scannedPuzzleColor; // 0x70
 		::UnityEngine::Color scannedLineColor; // 0x80
 		::System::Single scannedIntensity; // 0x90
-		::UnityEngine::MaterialPropertyBlock* Field_5_10; // 0x98
-		::UnityEngine::MaterialPropertyBlock* Field_5_11; // 0xA0
-		::UnityEngine::MaterialPropertyBlock* Field_5_12; // 0xA8
+		::UnityEngine::MaterialPropertyBlock* FFOFHKFFPBJ; // 0x98
+		::UnityEngine::MaterialPropertyBlock* DHBPIKDKGON; // 0xA0
+		::UnityEngine::MaterialPropertyBlock* CKIFFJIBCHB; // 0xA8
 
 		::System::Void _ctor()
 		{

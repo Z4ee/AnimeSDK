@@ -4,10 +4,10 @@
 
 namespace RPG::Client { class ShowAttackTimeParam; }
 
-#define CLASS_1_AB817CB39E494C61___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0xAFD1FD0)
-#define CLASS_1_AB817CB39E494C61___C__DISPLAYCLASS8_0__GETATTACKTIME_B__0_OFFSET UNITYSDK_OFFSET(0xAFD8270)
+#define CLASS_1_AB817CB39E494C61___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB98B910)
+#define CLASS_1_AB817CB39E494C61___C__DISPLAYCLASS8_0__GETATTACKTIME_B__0_OFFSET UNITYSDK_OFFSET(0xB991C40)
 
-inline static constexpr unsigned int Class_1_AB817CB39E494C61___c__DisplayClass8_0_TypeDefinitionIndex = 67997;
+inline static constexpr unsigned int Class_1_AB817CB39E494C61___c__DisplayClass8_0_TypeDefinitionIndex = 71170;
 
 class Class_1_AB817CB39E494C61___c__DisplayClass8_0 : public ::System::Object
 {

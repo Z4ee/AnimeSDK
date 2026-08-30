@@ -7,7 +7,7 @@ namespace UnityEngine::UIElements { class VisualElement; }
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int FocusController_FocusedElement_TypeDefinitionIndex = 6138;
+	inline static constexpr unsigned int FocusController_FocusedElement_TypeDefinitionIndex = 5871;
 
 	struct alignas(8) FocusController_FocusedElement
 	{

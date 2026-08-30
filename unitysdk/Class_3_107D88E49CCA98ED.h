@@ -6,22 +6,22 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace System { class String; }
 
-#define CLASS_3_107D88E49CCA98ED_METHOD_3_14F2FC46FC687955_OFFSET UNITYSDK_OFFSET(0x1AB2EAC0)
-#define CLASS_3_107D88E49CCA98ED_METHOD_3_9327C2B359D1FC32_OFFSET UNITYSDK_OFFSET(0x1AB2EBA0)
-#define CLASS_3_107D88E49CCA98ED__CTOR_OFFSET UNITYSDK_OFFSET(0x1AB2EB40)
+#define CLASS_3_107D88E49CCA98ED_METHOD_3_14F2FC46FC687955_OFFSET UNITYSDK_OFFSET(0x1C764C60)
+#define CLASS_3_107D88E49CCA98ED_METHOD_3_9327C2B359D1FC32_OFFSET UNITYSDK_OFFSET(0x1C764D40)
+#define CLASS_3_107D88E49CCA98ED__CTOR_OFFSET UNITYSDK_OFFSET(0x1C764CE0)
 
-inline static constexpr unsigned int Class_3_107D88E49CCA98ED_TypeDefinitionIndex = 9890;
+inline static constexpr unsigned int Class_3_107D88E49CCA98ED_TypeDefinitionIndex = 10177;
 
 class Class_3_107D88E49CCA98ED : public ::RPG::GameCore::TaskConfig
 {
 public:
-	::Il2CppArray<::System::String*>* Field_3_0; // 0x18
-	::Il2CppArray<::System::String*>* Field_3_1; // 0x20
-	::System::String* Field_3_2; // 0x28
-	::System::String* Field_3_3; // 0x30
-	::System::String* Field_3_4; // 0x38
-	::RPG::GameCore::DynamicFloat* Field_3_5; // 0x40
-	::System::String* Field_3_6; // 0x48
+	::System::String* NGLHBNHGFOF; // 0x18
+	::Il2CppArray<::System::String*>* BCBNHCLDDFH; // 0x20
+	::System::String* NNODOGJBAJM; // 0x28
+	::RPG::GameCore::DynamicFloat* FMLGGKAFMKC; // 0x30
+	::Il2CppArray<::System::String*>* NLDPAJFCHIL; // 0x38
+	::System::String* GCENKLGDENI; // 0x40
+	::System::String* AEIGKENAOJO; // 0x48
 
 	::System::Void _ctor()
 	{

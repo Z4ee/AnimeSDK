@@ -4,10 +4,10 @@
 
 namespace RPG::GameCore { class ItemConfig; }
 
-#define CLASS_1_F5CF9301368CB8A4_COMPARE_OFFSET UNITYSDK_OFFSET(0x145C8540)
-#define CLASS_1_F5CF9301368CB8A4__CTOR_OFFSET UNITYSDK_OFFSET(0x145C8610)
+#define CLASS_1_F5CF9301368CB8A4_COMPARE_OFFSET UNITYSDK_OFFSET(0x15475390)
+#define CLASS_1_F5CF9301368CB8A4__CTOR_OFFSET UNITYSDK_OFFSET(0x15475460)
 
-inline static constexpr unsigned int Class_1_F5CF9301368CB8A4_TypeDefinitionIndex = 58955;
+inline static constexpr unsigned int Class_1_F5CF9301368CB8A4_TypeDefinitionIndex = 61790;
 
 class Class_1_F5CF9301368CB8A4 : public ::System::Object
 {

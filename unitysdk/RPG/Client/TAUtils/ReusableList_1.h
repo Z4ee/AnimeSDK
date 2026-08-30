@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::TAUtils
 {
-	inline static constexpr unsigned int ReusableList_1_TypeDefinitionIndex = 70233;
+	inline static constexpr unsigned int ReusableList_1_TypeDefinitionIndex = 73533;
 
 	template <typename T>
 	class ReusableList_1 : public ::System::Object

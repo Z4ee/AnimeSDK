@@ -4,7 +4,7 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int ShaderRemoteTest_TypeDefinitionIndex = 36207;
+	inline static constexpr unsigned int ShaderRemoteTest_TypeDefinitionIndex = 37066;
 
 	class ShaderRemoteTest : public ::System::Object
 	{

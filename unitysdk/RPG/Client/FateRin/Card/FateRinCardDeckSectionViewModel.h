@@ -3,8 +3,8 @@
 #include "unitysdk/RPG/Client/FateRin/BaseViewModel.h"
 #include "unitysdk/RPG/GameCore/FateRinHouguOwnerType.h"
 
-class Class_0_16E4307DCC419505_1289;
-class Class_0_16E4307DCC419505_1304;
+class Class_0_16E4307DCC419505_1370;
+class Class_0_16E4307DCC419505_1385;
 class Class_1_C85C4DAB350DD5FC_2;
 namespace RPG::Client::FateRin::Card { class IFateRinCardOwnerViewModel; }
 namespace RPG::Client::FateRin::Card { class IFateRinSystemCardViewModel; }
@@ -12,15 +12,15 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_FATERIN_CARD_FATERINCARDDECKSECTIONVIEWMODEL_GET_CARDS_OFFSET UNITYSDK_OFFSET(0xC4AC750)
-#define RPG_CLIENT_FATERIN_CARD_FATERINCARDDECKSECTIONVIEWMODEL_GET_OWNER_OFFSET UNITYSDK_OFFSET(0xC4AC730)
-#define RPG_CLIENT_FATERIN_CARD_FATERINCARDDECKSECTIONVIEWMODEL_SET_OWNER_OFFSET UNITYSDK_OFFSET(0xC4AC740)
-#define RPG_CLIENT_FATERIN_CARD_FATERINCARDDECKSECTIONVIEWMODEL_TRYREMOVECARD_OFFSET UNITYSDK_OFFSET(0xC4AC620)
-#define RPG_CLIENT_FATERIN_CARD_FATERINCARDDECKSECTIONVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xC4AC1C0)
+#define RPG_CLIENT_FATERIN_CARD_FATERINCARDDECKSECTIONVIEWMODEL_GET_CARDS_OFFSET UNITYSDK_OFFSET(0xCFE1710)
+#define RPG_CLIENT_FATERIN_CARD_FATERINCARDDECKSECTIONVIEWMODEL_GET_OWNER_OFFSET UNITYSDK_OFFSET(0xCFE16F0)
+#define RPG_CLIENT_FATERIN_CARD_FATERINCARDDECKSECTIONVIEWMODEL_SET_OWNER_OFFSET UNITYSDK_OFFSET(0xCFE1700)
+#define RPG_CLIENT_FATERIN_CARD_FATERINCARDDECKSECTIONVIEWMODEL_TRYREMOVECARD_OFFSET UNITYSDK_OFFSET(0xCFE15E0)
+#define RPG_CLIENT_FATERIN_CARD_FATERINCARDDECKSECTIONVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xCFE1180)
 
 namespace RPG::Client::FateRin::Card
 {
-	inline static constexpr unsigned int FateRinCardDeckSectionViewModel_TypeDefinitionIndex = 76173;
+	inline static constexpr unsigned int FateRinCardDeckSectionViewModel_TypeDefinitionIndex = 79806;
 
 	class FateRinCardDeckSectionViewModel : public ::RPG::Client::FateRin::BaseViewModel
 	{
@@ -28,9 +28,9 @@ namespace RPG::Client::FateRin::Card
 		::RPG::Client::FateRin::Card::IFateRinCardOwnerViewModel* _Owner_k__BackingField; // 0x20
 		::System::Collections::Generic::List_1<::RPG::Client::FateRin::Card::IFateRinSystemCardViewModel*>* _Cards; // 0x28
 
-		::System::Void _ctor(::RPG::GameCore::FateRinHouguOwnerType a1, ::System::Collections::Generic::IEnumerable_1<::Class_1_C85C4DAB350DD5FC_2*>* a2, ::Class_0_16E4307DCC419505_1304* a3, ::Class_0_16E4307DCC419505_1289* a4)
+		::System::Void _ctor(::RPG::GameCore::FateRinHouguOwnerType a1, ::System::Collections::Generic::IEnumerable_1<::Class_1_C85C4DAB350DD5FC_2*>* a2, ::Class_0_16E4307DCC419505_1385* a3, ::Class_0_16E4307DCC419505_1370* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::FateRinHouguOwnerType, ::System::Collections::Generic::IEnumerable_1<::Class_1_C85C4DAB350DD5FC_2*>*, ::Class_0_16E4307DCC419505_1304*, ::Class_0_16E4307DCC419505_1289*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_CARD_FATERINCARDDECKSECTIONVIEWMODEL__CTOR_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::FateRinHouguOwnerType, ::System::Collections::Generic::IEnumerable_1<::Class_1_C85C4DAB350DD5FC_2*>*, ::Class_0_16E4307DCC419505_1385*, ::Class_0_16E4307DCC419505_1370*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_CARD_FATERINCARDDECKSECTIONVIEWMODEL__CTOR_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Boolean TryRemoveCard(::System::UInt32 a1)

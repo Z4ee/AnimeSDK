@@ -3,7 +3,7 @@
 
 namespace System
 {
-	inline static constexpr unsigned int RuntimeType_MemberListType_TypeDefinitionIndex = 319;
+	inline static constexpr unsigned int RuntimeType_MemberListType_TypeDefinitionIndex = 322;
 
 	enum class RuntimeType_MemberListType : ::System::Int32
 	{

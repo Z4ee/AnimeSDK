@@ -6,12 +6,12 @@
 
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define UNITYENGINE_PROBUILDER_EDGELOOKUP___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE074E0)
-#define UNITYENGINE_PROBUILDER_EDGELOOKUP___C__DISPLAYCLASS16_0__GETEDGELOOKUP_B__0_OFFSET UNITYSDK_OFFSET(0x1CE07A80)
+#define UNITYENGINE_PROBUILDER_EDGELOOKUP___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1EB0EF80)
+#define UNITYENGINE_PROBUILDER_EDGELOOKUP___C__DISPLAYCLASS16_0__GETEDGELOOKUP_B__0_OFFSET UNITYSDK_OFFSET(0x1EB0F520)
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int EdgeLookup___c__DisplayClass16_0_TypeDefinitionIndex = 41550;
+	inline static constexpr unsigned int EdgeLookup___c__DisplayClass16_0_TypeDefinitionIndex = 43161;
 
 	class EdgeLookup___c__DisplayClass16_0 : public ::System::Object
 	{

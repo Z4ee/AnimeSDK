@@ -5,11 +5,11 @@
 namespace MiHoYo::SDK::PluginUI { class MiHoYoSDKBridgeUIListItem; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MIHOYO_SDK_PLUGINUI_MIHOYOSDKBRIDGEUILIST__CTOR_OFFSET UNITYSDK_OFFSET(0xAB4A360)
+#define MIHOYO_SDK_PLUGINUI_MIHOYOSDKBRIDGEUILIST__CTOR_OFFSET UNITYSDK_OFFSET(0xB28AA30)
 
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int MiHoYoSDKBridgeUIList_TypeDefinitionIndex = 45015;
+	inline static constexpr unsigned int MiHoYoSDKBridgeUIList_TypeDefinitionIndex = 47251;
 
 	class MiHoYoSDKBridgeUIList : public ::MiHoYo::SDK::PluginUI::MiHoYoSDKBridgeUIElement
 	{

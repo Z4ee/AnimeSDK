@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetMuseumProjectorState; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_FA727329980A66EB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xAD55710)
-#define CLASS_3_FA727329980A66EB__CTOR_OFFSET UNITYSDK_OFFSET(0xAD556E0)
+#define CLASS_3_FA727329980A66EB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB4E2630)
+#define CLASS_3_FA727329980A66EB__CTOR_OFFSET UNITYSDK_OFFSET(0xB4E2600)
 
-inline static constexpr unsigned int Class_3_FA727329980A66EB_TypeDefinitionIndex = 50821;
+inline static constexpr unsigned int Class_3_FA727329980A66EB_TypeDefinitionIndex = 53503;
 
 class Class_3_FA727329980A66EB : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetMuseumProjectorState*>
 {

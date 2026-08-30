@@ -9,19 +9,19 @@ namespace RPG::GameCore { class PropRow; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define CLASS_1_AFC3C7A272BDF32C___C__DISPLAYCLASS7_0__CREATEPROP_B__0_OFFSET UNITYSDK_OFFSET(0xBA6C9C0)
-#define CLASS_1_AFC3C7A272BDF32C___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBA69770)
+#define CLASS_1_AFC3C7A272BDF32C___C__DISPLAYCLASS7_0__CREATEPROP_B__0_OFFSET UNITYSDK_OFFSET(0xC48B2D0)
+#define CLASS_1_AFC3C7A272BDF32C___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC488030)
 
-inline static constexpr unsigned int Class_1_AFC3C7A272BDF32C___c__DisplayClass7_0_TypeDefinitionIndex = 58039;
+inline static constexpr unsigned int Class_1_AFC3C7A272BDF32C___c__DisplayClass7_0_TypeDefinitionIndex = 60866;
 
 class Class_1_AFC3C7A272BDF32C___c__DisplayClass7_0 : public ::System::Object
 {
 public:
-	::Class_1_AFC3C7A272BDF32C* __4__this; // 0x10
-	::RPG::Client::MapPropDef* mapPropDef; // 0x18
-	::System::String* uniqueName; // 0x20
-	::System::String* friendlyName; // 0x28
-	::RPG::GameCore::PropRow* pProp; // 0x30
+	::System::String* friendlyName; // 0x10
+	::Class_1_AFC3C7A272BDF32C* __4__this; // 0x18
+	::RPG::Client::MapPropDef* mapPropDef; // 0x20
+	::RPG::GameCore::PropRow* pProp; // 0x28
+	::System::String* uniqueName; // 0x30
 	::System::Action_1<::RPG::GameCore::GameEntity*>* onLoadFinish; // 0x38
 
 	::System::Void _ctor()

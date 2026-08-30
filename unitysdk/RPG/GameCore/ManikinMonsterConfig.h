@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MANIKINMONSTERCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B5A2DE0)
-#define RPG_GAMECORE_MANIKINMONSTERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5A30C0)
+#define RPG_GAMECORE_MANIKINMONSTERCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D21F430)
+#define RPG_GAMECORE_MANIKINMONSTERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D21F710)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ManikinMonsterConfig_TypeDefinitionIndex = 16782;
+	inline static constexpr unsigned int ManikinMonsterConfig_TypeDefinitionIndex = 17284;
 
 	class ManikinMonsterConfig : public ::RPG::GameCore::JsonConfig
 	{

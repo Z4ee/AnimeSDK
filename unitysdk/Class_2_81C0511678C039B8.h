@@ -6,17 +6,17 @@ namespace RPG::Client { class SceneTV; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_2_81C0511678C039B8_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB1CA420)
-#define CLASS_2_81C0511678C039B8_METHOD_2_BEAEA4AE248F74C2_OFFSET UNITYSDK_OFFSET(0xB1CA5B0)
-#define CLASS_2_81C0511678C039B8_METHOD_2_F7300E87EC49A206_OFFSET UNITYSDK_OFFSET(0xB1CA1C0)
-#define CLASS_2_81C0511678C039B8__CTOR_OFFSET UNITYSDK_OFFSET(0xB1CA140)
+#define CLASS_2_81C0511678C039B8_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBB9D530)
+#define CLASS_2_81C0511678C039B8_METHOD_2_BEAEA4AE248F74C2_OFFSET UNITYSDK_OFFSET(0xBB9D6C0)
+#define CLASS_2_81C0511678C039B8_METHOD_2_F7300E87EC49A206_OFFSET UNITYSDK_OFFSET(0xBB9D2D0)
+#define CLASS_2_81C0511678C039B8__CTOR_OFFSET UNITYSDK_OFFSET(0xBB9D250)
 
-inline static constexpr unsigned int Class_2_81C0511678C039B8_TypeDefinitionIndex = 54796;
+inline static constexpr unsigned int Class_2_81C0511678C039B8_TypeDefinitionIndex = 57517;
 
 class Class_2_81C0511678C039B8 : public ::RPG::GameCore::GameComponentBase
 {
 public:
-	::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::Client::SceneTV*>* Field_2_0; // 0x18
+	::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::Client::SceneTV*>* KOHPIBKEHBL; // 0x18
 
 	::System::Void _ctor()
 	{

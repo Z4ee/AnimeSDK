@@ -13,7 +13,7 @@ namespace System { template <typename T1, typename T2, typename T3> class Action
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int SimpleEventService_1_TypeDefinitionIndex = 72609;
+	inline static constexpr unsigned int SimpleEventService_1_TypeDefinitionIndex = 76045;
 
 	template <typename TEntity>
 	class SimpleEventService_1 : public ::System::Object

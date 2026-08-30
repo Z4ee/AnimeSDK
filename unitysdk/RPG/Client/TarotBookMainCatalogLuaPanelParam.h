@@ -4,11 +4,11 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_TAROTBOOKMAINCATALOGLUAPANELPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xD6203C0)
+#define RPG_CLIENT_TAROTBOOKMAINCATALOGLUAPANELPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xE16FFA0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TarotBookMainCatalogLuaPanelParam_TypeDefinitionIndex = 69188;
+	inline static constexpr unsigned int TarotBookMainCatalogLuaPanelParam_TypeDefinitionIndex = 72388;
 
 	class TarotBookMainCatalogLuaPanelParam : public ::RPG::Client::BookletLuaPanelParam
 	{

@@ -1,19 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_71AA90D596A09AC8_9.h"
+#include "unitysdk/Enum_3_71AA90D596A09AC8_10.h"
 #include "unitysdk/System/Object.h"
 
 class Class_1_00C1046829D4D237;
 
-#define CLASS_1_6CCF78AD1D4E6598___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14AC0E30)
-#define CLASS_1_6CCF78AD1D4E6598___C__DISPLAYCLASS8_0___CHECKDIRTYREFRESHMODIFIER_B__0_OFFSET UNITYSDK_OFFSET(0x14AC1000)
+#define CLASS_1_6CCF78AD1D4E6598___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x159A6D10)
+#define CLASS_1_6CCF78AD1D4E6598___C__DISPLAYCLASS8_0___CHECKDIRTYREFRESHMODIFIER_B__0_OFFSET UNITYSDK_OFFSET(0x159A6EF0)
 
-inline static constexpr unsigned int Class_1_6CCF78AD1D4E6598___c__DisplayClass8_0_TypeDefinitionIndex = 72475;
+inline static constexpr unsigned int Class_1_6CCF78AD1D4E6598___c__DisplayClass8_0_TypeDefinitionIndex = 75911;
 
 class Class_1_6CCF78AD1D4E6598___c__DisplayClass8_0 : public ::System::Object
 {
 public:
-	::Enum_3_71AA90D596A09AC8_9 attrType; // 0x10
+	::Enum_3_71AA90D596A09AC8_10 attrType; // 0x10
 
 	::System::Void _ctor()
 	{

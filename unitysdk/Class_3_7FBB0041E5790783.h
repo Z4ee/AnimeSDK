@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class OpticalIllusionSetOpCount; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_7FBB0041E5790783_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB2FCE90)
-#define CLASS_3_7FBB0041E5790783__CTOR_OFFSET UNITYSDK_OFFSET(0xB2FCE60)
+#define CLASS_3_7FBB0041E5790783_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBCE5340)
+#define CLASS_3_7FBB0041E5790783__CTOR_OFFSET UNITYSDK_OFFSET(0xBCE5310)
 
-inline static constexpr unsigned int Class_3_7FBB0041E5790783_TypeDefinitionIndex = 50637;
+inline static constexpr unsigned int Class_3_7FBB0041E5790783_TypeDefinitionIndex = 53318;
 
 class Class_3_7FBB0041E5790783 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::OpticalIllusionSetOpCount*>
 {

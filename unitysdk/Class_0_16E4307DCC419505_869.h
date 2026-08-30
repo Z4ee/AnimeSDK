@@ -1,9 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-namespace RPG::Client { class ChessRogueDiceSurfaceDisplayData; }
+class Class_0_16E4307DCC419505_855;
+namespace RPG::Client { class GridFightConsumableInfo_GridFightConsumableItemUseParam; }
+namespace RPG::Client { class GridFightConsumableItemData; }
+namespace System { class String; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_869_TypeDefinitionIndex = 63950;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_869_TypeDefinitionIndex = 64964;
 
 class Class_0_16E4307DCC419505_869
 {

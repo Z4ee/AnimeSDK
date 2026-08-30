@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LightningStrikeAreDisableReason_TypeDefinitionIndex = 23684;
+	inline static constexpr unsigned int LightningStrikeAreDisableReason_TypeDefinitionIndex = 24269;
 
 	enum class LightningStrikeAreDisableReason : ::System::UInt32
 	{

@@ -7,22 +7,22 @@
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_A6FB168C249C0919_METHOD_1_0F925D28301F6B4C_OFFSET UNITYSDK_OFFSET(0xAE39A40)
-#define CLASS_1_A6FB168C249C0919_METHOD_1_7699FFD511FB900F_OFFSET UNITYSDK_OFFSET(0xAE39910)
-#define CLASS_1_A6FB168C249C0919__CCTOR_OFFSET UNITYSDK_OFFSET(0xAE39B00)
+#define CLASS_1_A6FB168C249C0919_METHOD_1_0F925D28301F6B4C_OFFSET UNITYSDK_OFFSET(0xB79D100)
+#define CLASS_1_A6FB168C249C0919_METHOD_1_7699FFD511FB900F_OFFSET UNITYSDK_OFFSET(0xB79CFD0)
+#define CLASS_1_A6FB168C249C0919__CCTOR_OFFSET UNITYSDK_OFFSET(0xB79D1C0)
 
-inline static constexpr unsigned int Class_1_A6FB168C249C0919_TypeDefinitionIndex = 55264;
+inline static constexpr unsigned int Class_1_A6FB168C249C0919_TypeDefinitionIndex = 57988;
 
 class Class_1_A6FB168C249C0919 : public ::System::Object
 {
 public:
-	static ::System::Collections::Generic::List_1<::Struct_2_A5B50644ACC1F734>** StaticGet_Field_1_0()
+	static ::System::Collections::Generic::List_1<::Struct_2_A5B50644ACC1F734>** StaticGet_GBKLAKDLIBA()
 	{
-		return (::System::Collections::Generic::List_1<::Struct_2_A5B50644ACC1F734>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_A6FB168C249C0919_TypeDefinitionIndex)->GetStaticField(0x53D30);
+		return (::System::Collections::Generic::List_1<::Struct_2_A5B50644ACC1F734>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_A6FB168C249C0919_TypeDefinitionIndex)->GetStaticField(0x6030);
 	}
-	static ::System::Collections::Generic::Dictionary_2<::System::RuntimeTypeHandle, ::System::Int32>** StaticGet_Field_1_1()
+	static ::System::Collections::Generic::Dictionary_2<::System::RuntimeTypeHandle, ::System::Int32>** StaticGet_NOGJPJJOMHL()
 	{
-		return (::System::Collections::Generic::Dictionary_2<::System::RuntimeTypeHandle, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_A6FB168C249C0919_TypeDefinitionIndex)->GetStaticField(0x53D38);
+		return (::System::Collections::Generic::Dictionary_2<::System::RuntimeTypeHandle, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_A6FB168C249C0919_TypeDefinitionIndex)->GetStaticField(0x6038);
 	}
 
 	static ::System::Void _cctor()

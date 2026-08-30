@@ -9,27 +9,27 @@ class Class_1_E754E66360B8422F;
 namespace RPG::GameCore { class ILBattleStageConfigRow; }
 namespace RPG::GameCore { class RtBattleStageConfig; }
 
-#define CLASS_1_0ED7108EB7D9E344__CTOR_OFFSET UNITYSDK_OFFSET(0x14607890)
+#define CLASS_1_0ED7108EB7D9E344__CTOR_OFFSET UNITYSDK_OFFSET(0x15388E40)
 
-inline static constexpr unsigned int Class_1_0ED7108EB7D9E344_TypeDefinitionIndex = 51811;
+inline static constexpr unsigned int Class_1_0ED7108EB7D9E344_TypeDefinitionIndex = 54495;
 
 class Class_1_0ED7108EB7D9E344 : public ::System::Object
 {
 public:
-	::Class_1_06D1599651D94205* Field_1_0; // 0x10
-	::Il2CppArray<::Class_1_7AB88D713F5121B3_43*>* Field_1_1; // 0x18
-	::RPG::GameCore::ILBattleStageConfigRow* Field_1_2; // 0x20
-	::Il2CppArray<::System::UInt32>* Field_1_3; // 0x28
-	::Il2CppArray<::System::UInt32>* Field_1_4; // 0x30
-	::RPG::GameCore::RtBattleStageConfig* Field_1_5; // 0x38
-	::Il2CppArray<::Class_1_E754E66360B8422F*>* Field_1_6; // 0x40
-	::Il2CppArray<::Class_1_6B9FBCAC09C5F877*>* Field_1_7; // 0x48
-	::System::UInt32 Field_1_8; // 0x50
-	::System::UInt32 Field_1_9; // 0x54
-	::System::UInt32 Field_1_10; // 0x58
-	::System::UInt64 Field_1_11; // 0x60
-	::System::Boolean Field_1_12; // 0x68
-	::System::Int32 Field_1_13; // 0x6C
+	::Il2CppArray<::Class_1_E754E66360B8422F*>* EMBCKHPBDAG; // 0x10
+	::Il2CppArray<::Class_1_7AB88D713F5121B3_43*>* BOAOMLMNLBN; // 0x18
+	::Class_1_06D1599651D94205* BNDMKABKPDL; // 0x20
+	::Il2CppArray<::System::UInt32>* LIILGKFIKEO; // 0x28
+	::RPG::GameCore::ILBattleStageConfigRow* KHIOIHDMPJB; // 0x30
+	::Il2CppArray<::System::UInt32>* IDFJLAOIJNG; // 0x38
+	::Il2CppArray<::Class_1_6B9FBCAC09C5F877*>* CNIJIJMEPEF; // 0x40
+	::RPG::GameCore::RtBattleStageConfig* NDKBFJGABBH; // 0x48
+	::System::Int32 HOGEMAHFFEF; // 0x50
+	::System::UInt32 LCHLDHNIILN; // 0x54
+	::System::UInt32 EEBLMLAEFHO; // 0x58
+	::System::UInt32 GMLENIEKBKC; // 0x5C
+	::System::Boolean JMGPHNKLFDO; // 0x60
+	::System::UInt64 DGFEHGOFFGL; // 0x68
 
 	::System::Void _ctor()
 	{

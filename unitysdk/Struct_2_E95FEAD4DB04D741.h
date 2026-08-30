@@ -8,21 +8,21 @@ namespace RPG::GameCore { class GameEntity; }
 namespace System { class Action; }
 namespace System { template <typename T> class Action_1; }
 
-#define STRUCT_2_E95FEAD4DB04D741_METHOD_2_6BCCD96CA5DBC362_OFFSET UNITYSDK_OFFSET(0x2D01D00)
-#define STRUCT_2_E95FEAD4DB04D741_METHOD_2_B8D78066278407A6_OFFSET UNITYSDK_OFFSET(0x2D01C50)
-#define STRUCT_2_E95FEAD4DB04D741_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x2D01CB0)
+#define STRUCT_2_E95FEAD4DB04D741_METHOD_2_6BCCD96CA5DBC362_OFFSET UNITYSDK_OFFSET(0x2DEAC90)
+#define STRUCT_2_E95FEAD4DB04D741_METHOD_2_B8D78066278407A6_OFFSET UNITYSDK_OFFSET(0x2DEABE0)
+#define STRUCT_2_E95FEAD4DB04D741_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x2DEAC40)
 
-inline static constexpr unsigned int Struct_2_E95FEAD4DB04D741_TypeDefinitionIndex = 57597;
+inline static constexpr unsigned int Struct_2_E95FEAD4DB04D741_TypeDefinitionIndex = 60414;
 
 struct alignas(8) Struct_2_E95FEAD4DB04D741
 {
-	::UnityEngine::Vector3 Field_2_0; // 0x10
-	::UnityEngine::Quaternion Field_2_1; // 0x1C
-	::UnityEngine::Vector3 Field_2_2; // 0x2C
-	::UnityEngine::Quaternion Field_2_3; // 0x38
-	::System::Single Field_2_4; // 0x48
-	::System::Action_1<::System::Boolean>* Field_2_5; // 0x50
-	::System::Action* Field_2_6; // 0x58
+	::UnityEngine::Vector3 CEOCJBPLDOG; // 0x10
+	::UnityEngine::Quaternion GFFPECJEGAG; // 0x1C
+	::UnityEngine::Vector3 GOINMCEPJLA; // 0x2C
+	::UnityEngine::Quaternion GPOAGGCILMF; // 0x38
+	::System::Single IEHPFADHJFD; // 0x48
+	::System::Action_1<::System::Boolean>* IMDLGFPMPEK; // 0x50
+	::System::Action* HKHDLACNBOK; // 0x58
 
 	::System::Void Method_2_B8D78066278407A6(::RPG::GameCore::GameEntity* a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Quaternion a3, ::System::Single a4, ::System::Action_1<::System::Boolean>* a5)
 	{

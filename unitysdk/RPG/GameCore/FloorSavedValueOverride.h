@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_FLOORSAVEDVALUEOVERRIDE_METHOD_2_E13950717E34196E_OFFSET UNITYSDK_OFFSET(0x1B453690)
-#define RPG_GAMECORE_FLOORSAVEDVALUEOVERRIDE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4537E0)
+#define RPG_GAMECORE_FLOORSAVEDVALUEOVERRIDE_METHOD_2_E13950717E34196E_OFFSET UNITYSDK_OFFSET(0x1D10D890)
+#define RPG_GAMECORE_FLOORSAVEDVALUEOVERRIDE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D10D9E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FloorSavedValueOverride_TypeDefinitionIndex = 19518;
+	inline static constexpr unsigned int FloorSavedValueOverride_TypeDefinitionIndex = 20064;
 
 	class FloorSavedValueOverride : public ::RPG::GameCore::JsonConfig
 	{

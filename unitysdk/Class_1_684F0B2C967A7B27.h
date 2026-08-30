@@ -5,25 +5,25 @@
 
 class Class_2_E450C4D97FC83888;
 
-#define CLASS_1_684F0B2C967A7B27__CTOR_OFFSET UNITYSDK_OFFSET(0x1A88A2F0)
+#define CLASS_1_684F0B2C967A7B27__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4BB720)
 
-inline static constexpr unsigned int Class_1_684F0B2C967A7B27_TypeDefinitionIndex = 40017;
+inline static constexpr unsigned int Class_1_684F0B2C967A7B27_TypeDefinitionIndex = 40896;
 
 class Class_1_684F0B2C967A7B27 : public ::System::Object
 {
 public:
-	::Class_2_E450C4D97FC83888* Field_1_0; // 0x10
-	::UnityEngine::Vector3 Field_1_1; // 0x18
-	::System::UInt32 Field_1_2; // 0x24
-	::UnityEngine::Vector3 Field_1_3; // 0x28
-	::UnityEngine::Vector3 Field_1_4; // 0x34
-	::UnityEngine::Vector3 Field_1_5; // 0x40
-	::System::UInt32 Field_1_6; // 0x4C
-	::System::Single Field_1_7; // 0x50
-	::System::UInt32 Field_1_8; // 0x54
-	::System::Boolean Field_1_9; // 0x58
-	::System::Boolean Field_1_10; // 0x59
-	::UnityEngine::Vector3 Field_1_11; // 0x5C
+	::Class_2_E450C4D97FC83888* HEIHBJEEGPB; // 0x10
+	::System::UInt32 KFGLDLFBFFB; // 0x18
+	::System::Boolean KPJGDHLENIP; // 0x1C
+	::System::Boolean KAGICIAJEEA; // 0x1D
+	::System::UInt32 FLIEDGKFNOL; // 0x20
+	::UnityEngine::Vector3 LAADLNFMBCP; // 0x24
+	::UnityEngine::Vector3 JBNJNLAKOGA; // 0x30
+	::UnityEngine::Vector3 IGDPLGAGAHF; // 0x3C
+	::System::UInt32 GAHFPGCPAJA; // 0x48
+	::UnityEngine::Vector3 MKILIBDLKAP; // 0x4C
+	::System::Single GAFENHHEBPG; // 0x58
+	::UnityEngine::Vector3 GIGBFNIOCPF; // 0x5C
 
 	::System::Void _ctor()
 	{

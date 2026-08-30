@@ -2,22 +2,22 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_1F04219C135F5E9F;
+class Class_1_0297570DE15B35AE;
 namespace RPG { template <typename T> class PoolList_1; }
 
-#define CLASS_1_CB93BA65C1FA482A_CLEAR_OFFSET UNITYSDK_OFFSET(0x1A88A530)
-#define CLASS_1_CB93BA65C1FA482A_ONALLOC_OFFSET UNITYSDK_OFFSET(0x1A88A5C0)
-#define CLASS_1_CB93BA65C1FA482A_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x1A88A6D0)
-#define CLASS_1_CB93BA65C1FA482A__CTOR_OFFSET UNITYSDK_OFFSET(0x1A88A710)
+#define CLASS_1_CB93BA65C1FA482A_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C4BB960)
+#define CLASS_1_CB93BA65C1FA482A_ONALLOC_OFFSET UNITYSDK_OFFSET(0x1C4BB9F0)
+#define CLASS_1_CB93BA65C1FA482A_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x1C4BBB00)
+#define CLASS_1_CB93BA65C1FA482A__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4BBB40)
 
-inline static constexpr unsigned int Class_1_CB93BA65C1FA482A_TypeDefinitionIndex = 40966;
+inline static constexpr unsigned int Class_1_CB93BA65C1FA482A_TypeDefinitionIndex = 41925;
 
 class Class_1_CB93BA65C1FA482A : public ::System::Object
 {
 public:
-	::RPG::PoolList_1<::System::UInt32>* Field_1_0; // 0x10
-	::RPG::PoolList_1<::System::UInt32>* Field_1_1; // 0x18
-	::Class_1_1F04219C135F5E9F* Field_1_2; // 0x20
+	::RPG::PoolList_1<::System::UInt32>* OALMIOJOEAB; // 0x10
+	::RPG::PoolList_1<::System::UInt32>* LJKPKIBFJJD; // 0x18
+	::Class_1_0297570DE15B35AE* LCAHACFMHGK; // 0x20
 
 	::System::Void _ctor()
 	{

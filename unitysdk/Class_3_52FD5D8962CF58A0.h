@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ForcePlayerMoveForwardOnly; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_52FD5D8962CF58A0_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x14C3B900)
-#define CLASS_3_52FD5D8962CF58A0__CTOR_OFFSET UNITYSDK_OFFSET(0x14C3B8D0)
+#define CLASS_3_52FD5D8962CF58A0_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15AF8620)
+#define CLASS_3_52FD5D8962CF58A0__CTOR_OFFSET UNITYSDK_OFFSET(0x15AF85F0)
 
-inline static constexpr unsigned int Class_3_52FD5D8962CF58A0_TypeDefinitionIndex = 55547;
+inline static constexpr unsigned int Class_3_52FD5D8962CF58A0_TypeDefinitionIndex = 58278;
 
 class Class_3_52FD5D8962CF58A0 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ForcePlayerMoveForwardOnly*>
 {

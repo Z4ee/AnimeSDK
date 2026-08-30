@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame::ChenLingFes
 {
-	inline static constexpr unsigned int GameDayState_TypeDefinitionIndex = 73782;
+	inline static constexpr unsigned int GameDayState_TypeDefinitionIndex = 77266;
 
 	enum class GameDayState : ::System::Int32
 	{

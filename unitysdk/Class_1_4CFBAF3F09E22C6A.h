@@ -4,26 +4,26 @@
 
 namespace System { class String; }
 
-#define CLASS_1_4CFBAF3F09E22C6A_METHOD_1_126AB3935214AA22_OFFSET UNITYSDK_OFFSET(0x14A9F270)
-#define CLASS_1_4CFBAF3F09E22C6A_METHOD_1_3CE8A1831DA14AB7_OFFSET UNITYSDK_OFFSET(0x14A9F3C0)
-#define CLASS_1_4CFBAF3F09E22C6A_METHOD_1_D335C42499186977_OFFSET UNITYSDK_OFFSET(0x14A9F280)
-#define CLASS_1_4CFBAF3F09E22C6A__CCTOR_OFFSET UNITYSDK_OFFSET(0x14A9F4E0)
-#define CLASS_1_4CFBAF3F09E22C6A__CTOR_OFFSET UNITYSDK_OFFSET(0x14A9F4D0)
+#define CLASS_1_4CFBAF3F09E22C6A_METHOD_1_126AB3935214AA22_OFFSET UNITYSDK_OFFSET(0x15936960)
+#define CLASS_1_4CFBAF3F09E22C6A_METHOD_1_3CE8A1831DA14AB7_OFFSET UNITYSDK_OFFSET(0x15936AB0)
+#define CLASS_1_4CFBAF3F09E22C6A_METHOD_1_D335C42499186977_OFFSET UNITYSDK_OFFSET(0x15936970)
+#define CLASS_1_4CFBAF3F09E22C6A__CCTOR_OFFSET UNITYSDK_OFFSET(0x15936BD0)
+#define CLASS_1_4CFBAF3F09E22C6A__CTOR_OFFSET UNITYSDK_OFFSET(0x15936BC0)
 
-inline static constexpr unsigned int Class_1_4CFBAF3F09E22C6A_TypeDefinitionIndex = 58475;
+inline static constexpr unsigned int Class_1_4CFBAF3F09E22C6A_TypeDefinitionIndex = 61305;
 
 class Class_1_4CFBAF3F09E22C6A : public ::System::Object
 {
 public:
-	static ::System::String** StaticGet_Field_1_0()
+	static ::System::String** StaticGet_EOOMOFHGOBI()
 	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_4CFBAF3F09E22C6A_TypeDefinitionIndex)->GetStaticField(0x68C00);
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_4CFBAF3F09E22C6A_TypeDefinitionIndex)->GetStaticField(0x644D0);
 	}
-	// static const ::System::String* Field_1_1; // 0x0
-	// static const ::System::String* Field_1_2; // 0x0
-	// static const ::System::String* Field_1_3; // 0x0
-	// static const ::System::String* Field_1_4; // 0x0
-	// static const ::System::String* Field_1_5; // 0x0
+	// static const ::System::String* NGGKBANBKEO; // 0x0
+	// static const ::System::String* KMFALPBKAGC; // 0x0
+	// static const ::System::String* CJMKLLAPEJD; // 0x0
+	// static const ::System::String* FAPNHKLEJBG; // 0x0
+	// static const ::System::String* HPOBCLBMJNM; // 0x0
 
 	::System::Void _ctor()
 	{

@@ -5,24 +5,24 @@
 
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_FATERIN_REDDOT_FATERINDECKEDITREDDOTFILTER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC4DA160)
-#define RPG_CLIENT_FATERIN_REDDOT_FATERINDECKEDITREDDOTFILTER___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC4DA1A0)
-#define RPG_CLIENT_FATERIN_REDDOT_FATERINDECKEDITREDDOTFILTER___C__GETSUBKEYS_B__1_0_OFFSET UNITYSDK_OFFSET(0xC4DA1B0)
+#define RPG_CLIENT_FATERIN_REDDOT_FATERINDECKEDITREDDOTFILTER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD00F2B0)
+#define RPG_CLIENT_FATERIN_REDDOT_FATERINDECKEDITREDDOTFILTER___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD00F2F0)
+#define RPG_CLIENT_FATERIN_REDDOT_FATERINDECKEDITREDDOTFILTER___C__GETSUBKEYS_B__1_0_OFFSET UNITYSDK_OFFSET(0xD00F300)
 
 namespace RPG::Client::FateRin::RedDot
 {
-	inline static constexpr unsigned int FateRinDeckEditRedDotFilter___c_TypeDefinitionIndex = 75782;
+	inline static constexpr unsigned int FateRinDeckEditRedDotFilter___c_TypeDefinitionIndex = 79415;
 
 	class FateRinDeckEditRedDotFilter___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::RPG::GameCore::FateRinHouguOwnerType, ::System::UInt32>** StaticGet___9__1_0()
 		{
-			return (::System::Func_2<::RPG::GameCore::FateRinHouguOwnerType, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(FateRinDeckEditRedDotFilter___c_TypeDefinitionIndex)->GetStaticField(0xC960);
+			return (::System::Func_2<::RPG::GameCore::FateRinHouguOwnerType, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(FateRinDeckEditRedDotFilter___c_TypeDefinitionIndex)->GetStaticField(0xAA10);
 		}
 		static ::RPG::Client::FateRin::RedDot::FateRinDeckEditRedDotFilter___c** StaticGet___9()
 		{
-			return (::RPG::Client::FateRin::RedDot::FateRinDeckEditRedDotFilter___c**)Il2CppClass::FromTypeDefinitionIndex(FateRinDeckEditRedDotFilter___c_TypeDefinitionIndex)->GetStaticField(0xC968);
+			return (::RPG::Client::FateRin::RedDot::FateRinDeckEditRedDotFilter___c**)Il2CppClass::FromTypeDefinitionIndex(FateRinDeckEditRedDotFilter___c_TypeDefinitionIndex)->GetStaticField(0xAA18);
 		}
 
 		static ::System::Void _cctor()

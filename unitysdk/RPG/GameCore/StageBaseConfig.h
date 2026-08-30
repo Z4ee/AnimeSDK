@@ -15,20 +15,21 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_GAMECORE_STAGEBASECONFIG_GET_ACTIVEBLOCKNODECONFIGLIST_OFFSET UNITYSDK_OFFSET(0x1B8F6D90)
-#define RPG_GAMECORE_STAGEBASECONFIG_GET_ENABLENORMDISTANCELODTEMPLATE_OFFSET UNITYSDK_OFFSET(0x1B8F6DC0)
-#define RPG_GAMECORE_STAGEBASECONFIG_GET_PVSENABLEREGIONFILTER_OFFSET UNITYSDK_OFFSET(0x1B8F6E00)
-#define RPG_GAMECORE_STAGEBASECONFIG_METHOD_2_083097FD55C01C7C_OFFSET UNITYSDK_OFFSET(0x1B8F4140)
-#define RPG_GAMECORE_STAGEBASECONFIG_METHOD_2_55A28B6BCEC0AF48_OFFSET UNITYSDK_OFFSET(0x1B8F5370)
-#define RPG_GAMECORE_STAGEBASECONFIG_METHOD_2_6515B8E85F9252EF_OFFSET UNITYSDK_OFFSET(0x1B8F6D60)
-#define RPG_GAMECORE_STAGEBASECONFIG_METHOD_2_656AD50600B8086B_OFFSET UNITYSDK_OFFSET(0x1B8F6C20)
-#define RPG_GAMECORE_STAGEBASECONFIG_METHOD_2_E571030E1521E138_OFFSET UNITYSDK_OFFSET(0x1B8F5090)
-#define RPG_GAMECORE_STAGEBASECONFIG_METHOD_2_F68FDA814249780B_OFFSET UNITYSDK_OFFSET(0x1B8F4000)
-#define RPG_GAMECORE_STAGEBASECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8F4130)
+#define RPG_GAMECORE_STAGEBASECONFIG_GET_ACTIVEBLOCKNODECONFIGLIST_OFFSET UNITYSDK_OFFSET(0x1D5531D0)
+#define RPG_GAMECORE_STAGEBASECONFIG_GET_ENABLENORMDISTANCELODTEMPLATE_OFFSET UNITYSDK_OFFSET(0x1D553210)
+#define RPG_GAMECORE_STAGEBASECONFIG_GET_PVSENABLEREGIONFILTER_OFFSET UNITYSDK_OFFSET(0x1D553250)
+#define RPG_GAMECORE_STAGEBASECONFIG_METHOD_2_083097FD55C01C7C_OFFSET UNITYSDK_OFFSET(0x1D5504C0)
+#define RPG_GAMECORE_STAGEBASECONFIG_METHOD_2_55A28B6BCEC0AF48_OFFSET UNITYSDK_OFFSET(0x1D551770)
+#define RPG_GAMECORE_STAGEBASECONFIG_METHOD_2_6515B8E85F9252EF_OFFSET UNITYSDK_OFFSET(0x1D5531A0)
+#define RPG_GAMECORE_STAGEBASECONFIG_METHOD_2_656AD50600B8086B_OFFSET UNITYSDK_OFFSET(0x1D553060)
+#define RPG_GAMECORE_STAGEBASECONFIG_METHOD_2_832295EC279E5994_OFFSET UNITYSDK_OFFSET(0x1D553200)
+#define RPG_GAMECORE_STAGEBASECONFIG_METHOD_2_E571030E1521E138_OFFSET UNITYSDK_OFFSET(0x1D551490)
+#define RPG_GAMECORE_STAGEBASECONFIG_METHOD_2_F68FDA814249780B_OFFSET UNITYSDK_OFFSET(0x1D550380)
+#define RPG_GAMECORE_STAGEBASECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5504B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StageBaseConfig_TypeDefinitionIndex = 18386;
+	inline static constexpr unsigned int StageBaseConfig_TypeDefinitionIndex = 18910;
 
 	class StageBaseConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -41,19 +42,21 @@ namespace RPG::GameCore
 		::Il2CppArray<::RPG::GameCore::BlockNodeConfig*>* BlockNodeConfigList; // 0x38
 		::Il2CppArray<::RPG::GameCore::StageIslandConfig*>* IslandConfigList; // 0x40
 		::Il2CppArray<::System::String*>* AliasConfigList; // 0x48
-		::System::String* VolumeConfigPath; // 0x50
-		::System::Single OfflineCullingCellSize; // 0x58
-		::System::String* PVSMetaDataPath; // 0x60
-		::System::Int32 UsePVS; // 0x68
-		::System::Boolean UseSplittingItem; // 0x6C
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* ExternalConfigPaths; // 0x70
-		::RPG::GameCore::HoyoTagContainer* StageFeatureTags; // 0x78
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::GraphicQuality, ::RPG::GameCore::StageGrassOverrideConfig*>* GrassOverrideConfigs; // 0x80
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* OverrideStageLodConfig; // 0x88
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* OverrideStageNormDistanceLodConfig; // 0x90
-		::RPG::GameCore::StageVersionData* StageVersionData; // 0x98
-		::RPG::GameCore::SubStageData* SubStageData; // 0xA0
-		::System::Collections::Generic::List_1<::RPG::GameCore::BlockNodeConfig*>* _ActiveBlockNodeConfig; // 0xA8
+		::Il2CppArray<::System::String*>* SharedAliasConfigList; // 0x50
+		::Il2CppArray<::System::String*>* BlockOverlayConfigList; // 0x58
+		::System::String* VolumeConfigPath; // 0x60
+		::System::Single OfflineCullingCellSize; // 0x68
+		::System::String* PVSMetaDataPath; // 0x70
+		::System::Int32 UsePVS; // 0x78
+		::System::Boolean UseSplittingItem; // 0x7C
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* ExternalConfigPaths; // 0x80
+		::RPG::GameCore::HoyoTagContainer* StageFeatureTags; // 0x88
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::GraphicQuality, ::RPG::GameCore::StageGrassOverrideConfig*>* GrassOverrideConfigs; // 0x90
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* OverrideStageLodConfig; // 0x98
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* OverrideStageNormDistanceLodConfig; // 0xA0
+		::RPG::GameCore::StageVersionData* StageVersionData; // 0xA8
+		::RPG::GameCore::SubStageData* SubStageData; // 0xB0
+		::System::Collections::Generic::List_1<::RPG::GameCore::BlockNodeConfig*>* _ActiveBlockNodeConfig; // 0xB8
 
 		::System::Void _ctor()
 		{
@@ -93,6 +96,11 @@ namespace RPG::GameCore
 		::System::Collections::Generic::List_1<::RPG::GameCore::BlockNodeConfig*>* get_ActiveBlockNodeConfigList()
 		{
 			return ((::System::Collections::Generic::List_1<::RPG::GameCore::BlockNodeConfig*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STAGEBASECONFIG_GET_ACTIVEBLOCKNODECONFIGLIST_OFFSET))(this);
+		}
+
+		::System::Void Method_2_832295EC279E5994()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STAGEBASECONFIG_METHOD_2_832295EC279E5994_OFFSET))(this);
 		}
 
 		::System::Boolean get_EnableNormDistanceLodTemplate()

@@ -6,18 +6,18 @@ namespace RPG::Client { class GridFightModule; }
 namespace System { class Action; }
 namespace System { class String; }
 
-#define RPG_CLIENT_GRIDFIGHTMODULE___C__DISPLAYCLASS212_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC791DE0)
-#define RPG_CLIENT_GRIDFIGHTMODULE___C__DISPLAYCLASS212_0___DOWNLOADCDNFILE_B__0_OFFSET UNITYSDK_OFFSET(0xC791DF0)
+#define RPG_CLIENT_GRIDFIGHTMODULE___C__DISPLAYCLASS212_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD21A690)
+#define RPG_CLIENT_GRIDFIGHTMODULE___C__DISPLAYCLASS212_0___DOWNLOADCDNFILE_B__0_OFFSET UNITYSDK_OFFSET(0xD21A6A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightModule___c__DisplayClass212_0_TypeDefinitionIndex = 61948;
+	inline static constexpr unsigned int GridFightModule___c__DisplayClass212_0_TypeDefinitionIndex = 64932;
 
 	class GridFightModule___c__DisplayClass212_0 : public ::System::Object
 	{
 	public:
-		::System::Action* callback; // 0x10
-		::RPG::Client::GridFightModule* __4__this; // 0x18
+		::RPG::Client::GridFightModule* __4__this; // 0x10
+		::System::Action* callback; // 0x18
 
 		::System::Void _ctor()
 		{

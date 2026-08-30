@@ -7,12 +7,12 @@ namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define SYSTEM_RUNTIME_SERIALIZATION_SAFESERIALIZATIONEVENTARGS_GET_SERIALIZEDSTATES_OFFSET UNITYSDK_OFFSET(0x1A227260)
-#define SYSTEM_RUNTIME_SERIALIZATION_SAFESERIALIZATIONEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1A227200)
+#define SYSTEM_RUNTIME_SERIALIZATION_SAFESERIALIZATIONEVENTARGS_GET_SERIALIZEDSTATES_OFFSET UNITYSDK_OFFSET(0x1BE2FDA0)
+#define SYSTEM_RUNTIME_SERIALIZATION_SAFESERIALIZATIONEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE2FD40)
 
 namespace System::Runtime::Serialization
 {
-	inline static constexpr unsigned int SafeSerializationEventArgs_TypeDefinitionIndex = 1110;
+	inline static constexpr unsigned int SafeSerializationEventArgs_TypeDefinitionIndex = 1117;
 
 	class SafeSerializationEventArgs : public ::System::EventArgs
 	{

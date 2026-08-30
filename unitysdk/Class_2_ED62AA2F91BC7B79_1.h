@@ -8,20 +8,20 @@ namespace RPG::GameCore { class BaseModifierInstance_ModifierEffectData; }
 namespace RPG::GameCore { class GameEntity; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_ED62AA2F91BC7B79_1_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x14831870)
-#define CLASS_2_ED62AA2F91BC7B79_1_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x14831820)
-#define CLASS_2_ED62AA2F91BC7B79_1_METHOD_2_68BC90F65C30506D_OFFSET UNITYSDK_OFFSET(0x14831640)
-#define CLASS_2_ED62AA2F91BC7B79_1_METHOD_2_911AFE007C1C4454_OFFSET UNITYSDK_OFFSET(0x14831720)
-#define CLASS_2_ED62AA2F91BC7B79_1__CTOR_OFFSET UNITYSDK_OFFSET(0x148318C0)
+#define CLASS_2_ED62AA2F91BC7B79_1_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x156F2B30)
+#define CLASS_2_ED62AA2F91BC7B79_1_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x156F2AE0)
+#define CLASS_2_ED62AA2F91BC7B79_1_METHOD_2_68BC90F65C30506D_OFFSET UNITYSDK_OFFSET(0x156F2900)
+#define CLASS_2_ED62AA2F91BC7B79_1_METHOD_2_911AFE007C1C4454_OFFSET UNITYSDK_OFFSET(0x156F29E0)
+#define CLASS_2_ED62AA2F91BC7B79_1__CTOR_OFFSET UNITYSDK_OFFSET(0x156F2B80)
 
-inline static constexpr unsigned int Class_2_ED62AA2F91BC7B79_1_TypeDefinitionIndex = 54057;
+inline static constexpr unsigned int Class_2_ED62AA2F91BC7B79_1_TypeDefinitionIndex = 56778;
 
 class Class_2_ED62AA2F91BC7B79_1 : public ::Class_1_BF7A075734D15E98
 {
 public:
-	::System::Collections::Generic::List_1<::RPG::GameCore::BaseModifierInstance_ModifierEffectData*>* Field_2_0; // 0x18
-	::RPG::GameCore::GameEntity* Field_2_1; // 0x20
-	::RPG::GameCore::BaseModifierInstance* Field_2_2; // 0x28
+	::RPG::GameCore::GameEntity* MCLLALGABAB; // 0x18
+	::RPG::GameCore::BaseModifierInstance* CEAGEFBHKDH; // 0x20
+	::System::Collections::Generic::List_1<::RPG::GameCore::BaseModifierInstance_ModifierEffectData*>* MAOOGNLNKIB; // 0x28
 
 	::System::Void _ctor()
 	{

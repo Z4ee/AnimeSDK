@@ -6,16 +6,16 @@ class Class_1_F3F244B8F91CE2D0;
 namespace RPG::Client::DiceCombat { class DiceCombatShopPageParam; }
 namespace RPG::Client::Promises { class IPromise; }
 
-#define CLASS_1_F3F244B8F91CE2D0___C__DISPLAYCLASS27_0__CTOR_OFFSET UNITYSDK_OFFSET(0xADF1320)
-#define CLASS_1_F3F244B8F91CE2D0___C__DISPLAYCLASS27_0__HANDLESHOWSHOPPAGE_B__0_OFFSET UNITYSDK_OFFSET(0xADF4AB0)
+#define CLASS_1_F3F244B8F91CE2D0___C__DISPLAYCLASS27_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB753960)
+#define CLASS_1_F3F244B8F91CE2D0___C__DISPLAYCLASS27_0__HANDLESHOWSHOPPAGE_B__0_OFFSET UNITYSDK_OFFSET(0xB7570F0)
 
-inline static constexpr unsigned int Class_1_F3F244B8F91CE2D0___c__DisplayClass27_0_TypeDefinitionIndex = 72199;
+inline static constexpr unsigned int Class_1_F3F244B8F91CE2D0___c__DisplayClass27_0_TypeDefinitionIndex = 75635;
 
 class Class_1_F3F244B8F91CE2D0___c__DisplayClass27_0 : public ::System::Object
 {
 public:
-	::RPG::Client::DiceCombat::DiceCombatShopPageParam* param; // 0x10
-	::Class_1_F3F244B8F91CE2D0* __4__this; // 0x18
+	::Class_1_F3F244B8F91CE2D0* __4__this; // 0x10
+	::RPG::Client::DiceCombat::DiceCombatShopPageParam* param; // 0x18
 
 	::System::Void _ctor()
 	{

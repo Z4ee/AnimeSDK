@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define UNITYENGINE_RENDERING_QUEUEDATA_FREE_OFFSET UNITYSDK_OFFSET(0x1CEF7850)
-#define UNITYENGINE_RENDERING_QUEUEDATA_GET_OFFSET UNITYSDK_OFFSET(0x1CEF7830)
-#define UNITYENGINE_RENDERING_QUEUEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1CEF7840)
+#define UNITYENGINE_RENDERING_QUEUEDATA_FREE_OFFSET UNITYSDK_OFFSET(0x1EBFF100)
+#define UNITYENGINE_RENDERING_QUEUEDATA_GET_OFFSET UNITYSDK_OFFSET(0x1EBFF0E0)
+#define UNITYENGINE_RENDERING_QUEUEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1EBFF0F0)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int QueueData_TypeDefinitionIndex = 34066;
+	inline static constexpr unsigned int QueueData_TypeDefinitionIndex = 34833;
 
 	class QueueData : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::Rendering::QueueData** StaticGet_free()
 		{
-			return (::UnityEngine::Rendering::QueueData**)Il2CppClass::FromTypeDefinitionIndex(QueueData_TypeDefinitionIndex)->GetStaticField(0x48960);
+			return (::UnityEngine::Rendering::QueueData**)Il2CppClass::FromTypeDefinitionIndex(QueueData_TypeDefinitionIndex)->GetStaticField(0x60AB0);
 		}
 		::UnityEngine::Rendering::QueueData* next; // 0x10
 		::System::Object* obj; // 0x18

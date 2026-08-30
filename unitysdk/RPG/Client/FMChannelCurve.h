@@ -4,12 +4,12 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_FMCHANNELCURVE_METHOD_1_5CCDFA1325D1189C_OFFSET UNITYSDK_OFFSET(0xC42A540)
-#define RPG_CLIENT_FMCHANNELCURVE__CTOR_OFFSET UNITYSDK_OFFSET(0xC42A5F0)
+#define RPG_CLIENT_FMCHANNELCURVE_METHOD_1_5CCDFA1325D1189C_OFFSET UNITYSDK_OFFSET(0xCF0F490)
+#define RPG_CLIENT_FMCHANNELCURVE__CTOR_OFFSET UNITYSDK_OFFSET(0xCF0F540)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FMChannelCurve_TypeDefinitionIndex = 67140;
+	inline static constexpr unsigned int FMChannelCurve_TypeDefinitionIndex = 70253;
 
 	class FMChannelCurve : public ::System::Object
 	{

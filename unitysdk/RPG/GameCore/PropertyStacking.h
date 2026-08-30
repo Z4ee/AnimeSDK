@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropertyStacking_TypeDefinitionIndex = 53805;
+	inline static constexpr unsigned int PropertyStacking_TypeDefinitionIndex = 56525;
 
 	enum class PropertyStacking : ::System::Int32
 	{

@@ -5,9 +5,9 @@
 class Class_1_E577B5580A99D425_4;
 namespace RPG::Client { class RogueGambleBaseFunc; }
 
-#define CLASS_1_1FC251129656EA01_METHOD_1_589210B8A34C3ED3_OFFSET UNITYSDK_OFFSET(0x1454FB30)
+#define CLASS_1_1FC251129656EA01_METHOD_1_589210B8A34C3ED3_OFFSET UNITYSDK_OFFSET(0x153C6B40)
 
-inline static constexpr unsigned int Class_1_1FC251129656EA01_TypeDefinitionIndex = 64228;
+inline static constexpr unsigned int Class_1_1FC251129656EA01_TypeDefinitionIndex = 67223;
 
 class Class_1_1FC251129656EA01 : public ::System::Object
 {

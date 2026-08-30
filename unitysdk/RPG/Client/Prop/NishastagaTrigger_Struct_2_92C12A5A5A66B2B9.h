@@ -8,12 +8,12 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int NishastagaTrigger_Struct_2_92C12A5A5A66B2B9_TypeDefinitionIndex = 75004;
+	inline static constexpr unsigned int NishastagaTrigger_Struct_2_92C12A5A5A66B2B9_TypeDefinitionIndex = 78489;
 
 	struct alignas(8) NishastagaTrigger_Struct_2_92C12A5A5A66B2B9
 	{
-		::RPG::GameCore::PropComponent* Field_2_0; // 0x10
-		::System::String* Field_2_1; // 0x18
-		::UnityEngine::Transform* Field_2_2; // 0x20
+		::RPG::GameCore::PropComponent* AJCAIHAOEIL; // 0x10
+		::System::String* LKMEJMPPEBN; // 0x18
+		::UnityEngine::Transform* HFLDHJHJNCF; // 0x20
 	};
 }

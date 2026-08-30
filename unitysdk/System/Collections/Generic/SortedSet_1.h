@@ -6,6 +6,7 @@
 #include "unitysdk/System/Runtime/Serialization/StreamingContext.h"
 
 namespace System { class Array; }
+namespace System { template <typename T> class Predicate_1; }
 namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T> class IComparer_1; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
@@ -17,7 +18,7 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System::Collections::Generic
 {
-	inline static constexpr unsigned int SortedSet_1_TypeDefinitionIndex = 3033;
+	inline static constexpr unsigned int SortedSet_1_TypeDefinitionIndex = 3040;
 
 	template <typename T>
 	class SortedSet_1 : public ::System::Object

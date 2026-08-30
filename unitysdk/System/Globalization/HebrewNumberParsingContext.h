@@ -3,11 +3,11 @@
 #include "unitysdk/System/Globalization/HebrewNumber_HS.h"
 #include "unitysdk/System/ValueType.h"
 
-#define SYSTEM_GLOBALIZATION_HEBREWNUMBERPARSINGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x39DBCD0)
+#define SYSTEM_GLOBALIZATION_HEBREWNUMBERPARSINGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x3B6B800)
 
 namespace System::Globalization
 {
-	inline static constexpr unsigned int HebrewNumberParsingContext_TypeDefinitionIndex = 750;
+	inline static constexpr unsigned int HebrewNumberParsingContext_TypeDefinitionIndex = 753;
 
 	struct alignas(4) HebrewNumberParsingContext
 	{

@@ -5,39 +5,40 @@
 namespace System { class String; }
 namespace System { class Uri; }
 
-#define SYSTEM_URIBUILDER_EQUALS_OFFSET UNITYSDK_OFFSET(0x1CD7AFA0)
-#define SYSTEM_URIBUILDER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1CD7B060)
-#define SYSTEM_URIBUILDER_GET_QUERY_OFFSET UNITYSDK_OFFSET(0x1CD7A9F0)
-#define SYSTEM_URIBUILDER_GET_URI_OFFSET UNITYSDK_OFFSET(0x1CD7AB70)
-#define SYSTEM_URIBUILDER_INIT_OFFSET UNITYSDK_OFFSET(0x1CD7A300)
-#define SYSTEM_URIBUILDER_SETFIELDSFROMURI_OFFSET UNITYSDK_OFFSET(0x1CD7A620)
-#define SYSTEM_URIBUILDER_SET_HOST_OFFSET UNITYSDK_OFFSET(0x1CD7A850)
-#define SYSTEM_URIBUILDER_SET_PATH_OFFSET UNITYSDK_OFFSET(0x1CD7A900)
-#define SYSTEM_URIBUILDER_SET_QUERY_OFFSET UNITYSDK_OFFSET(0x1CD7AA00)
-#define SYSTEM_URIBUILDER_SET_SCHEME_OFFSET UNITYSDK_OFFSET(0x1CD7AA50)
-#define SYSTEM_URIBUILDER_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1CD7AC00)
-#define SYSTEM_URIBUILDER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1CD7A160)
-#define SYSTEM_URIBUILDER__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1CD7A530)
-#define SYSTEM_URIBUILDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD7A0D0)
+#define SYSTEM_URIBUILDER_EQUALS_OFFSET UNITYSDK_OFFSET(0x1EA277B0)
+#define SYSTEM_URIBUILDER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1EA27870)
+#define SYSTEM_URIBUILDER_GET_QUERY_OFFSET UNITYSDK_OFFSET(0x1EA271F0)
+#define SYSTEM_URIBUILDER_GET_URI_OFFSET UNITYSDK_OFFSET(0x1EA27370)
+#define SYSTEM_URIBUILDER_INIT_OFFSET UNITYSDK_OFFSET(0x1EA26AF0)
+#define SYSTEM_URIBUILDER_SETFIELDSFROMURI_OFFSET UNITYSDK_OFFSET(0x1EA26DF0)
+#define SYSTEM_URIBUILDER_SET_FRAGMENT_OFFSET UNITYSDK_OFFSET(0x1EA26FF0)
+#define SYSTEM_URIBUILDER_SET_HOST_OFFSET UNITYSDK_OFFSET(0x1EA27040)
+#define SYSTEM_URIBUILDER_SET_PATH_OFFSET UNITYSDK_OFFSET(0x1EA27100)
+#define SYSTEM_URIBUILDER_SET_QUERY_OFFSET UNITYSDK_OFFSET(0x1EA27200)
+#define SYSTEM_URIBUILDER_SET_SCHEME_OFFSET UNITYSDK_OFFSET(0x1EA27250)
+#define SYSTEM_URIBUILDER_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA27400)
+#define SYSTEM_URIBUILDER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1EA26940)
+#define SYSTEM_URIBUILDER__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1EA26CF0)
+#define SYSTEM_URIBUILDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA268A0)
 
 namespace System
 {
-	inline static constexpr unsigned int UriBuilder_TypeDefinitionIndex = 2450;
+	inline static constexpr unsigned int UriBuilder_TypeDefinitionIndex = 2457;
 
 	class UriBuilder : public ::System::Object
 	{
 	public:
 		::System::String* _password; // 0x10
-		::System::String* _host; // 0x18
-		::System::String* _path; // 0x20
-		::System::String* _scheme; // 0x28
-		::System::Uri* _uri; // 0x30
-		::System::String* _fragment; // 0x38
-		::System::String* _schemeDelimiter; // 0x40
+		::System::String* _fragment; // 0x18
+		::System::String* _query; // 0x20
+		::System::Uri* _uri; // 0x28
+		::System::String* _scheme; // 0x30
+		::System::String* _path; // 0x38
+		::System::String* _host; // 0x40
 		::System::String* _username; // 0x48
-		::System::String* _query; // 0x50
-		::System::Boolean _changed; // 0x58
-		::System::Int32 _port; // 0x5C
+		::System::String* _schemeDelimiter; // 0x50
+		::System::Int32 _port; // 0x58
+		::System::Boolean _changed; // 0x5C
 
 		::System::Void _ctor()
 		{
@@ -57,6 +58,11 @@ namespace System
 		::System::Void Init(::System::Uri* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Uri*))((::PBYTE)hIl2Cpp + SYSTEM_URIBUILDER_INIT_OFFSET))(this, a1);
+		}
+
+		::System::Void set_Fragment(::System::String* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_URIBUILDER_SET_FRAGMENT_OFFSET))(this, a1);
 		}
 
 		::System::Void set_Host(::System::String* a1)

@@ -7,12 +7,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_BATTLEPAUSEENVIRONMENTDATA_METHOD_2_A35EA56B133CF7BD_OFFSET UNITYSDK_OFFSET(0x1B201210)
-#define RPG_GAMECORE_BATTLEPAUSEENVIRONMENTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B201480)
+#define RPG_GAMECORE_BATTLEPAUSEENVIRONMENTDATA_METHOD_2_A35EA56B133CF7BD_OFFSET UNITYSDK_OFFSET(0x1CE7C310)
+#define RPG_GAMECORE_BATTLEPAUSEENVIRONMENTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE7C580)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattlePauseEnvironmentData_TypeDefinitionIndex = 21980;
+	inline static constexpr unsigned int BattlePauseEnvironmentData_TypeDefinitionIndex = 22545;
 
 	class BattlePauseEnvironmentData : public ::RPG::GameCore::JsonConfig
 	{

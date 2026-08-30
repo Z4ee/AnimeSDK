@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Class_2_4E16CDADF83ADCA4_TeleportState_TypeDefinitionIndex = 72078;
+inline static constexpr unsigned int Class_2_4E16CDADF83ADCA4_TeleportState_TypeDefinitionIndex = 75385;
 
 enum class Class_2_4E16CDADF83ADCA4_TeleportState : ::System::Int32
 {

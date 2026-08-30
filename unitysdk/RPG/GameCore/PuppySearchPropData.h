@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_PUPPYSEARCHPROPDATA_METHOD_2_91678DA9CCF20B26_OFFSET UNITYSDK_OFFSET(0x1B6F5A20)
-#define RPG_GAMECORE_PUPPYSEARCHPROPDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6F5B20)
+#define RPG_GAMECORE_PUPPYSEARCHPROPDATA_METHOD_2_F18ED0756F9C8C91_OFFSET UNITYSDK_OFFSET(0x1D377A80)
+#define RPG_GAMECORE_PUPPYSEARCHPROPDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1D377BB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PuppySearchPropData_TypeDefinitionIndex = 16877;
+	inline static constexpr unsigned int PuppySearchPropData_TypeDefinitionIndex = 17379;
 
 	class PuppySearchPropData : public ::RPG::GameCore::JsonConfig
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PUPPYSEARCHPROPDATA__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_91678DA9CCF20B26(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PuppySearchPropData*& a2)
+		static ::System::Void Method_2_F18ED0756F9C8C91(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PuppySearchPropData*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PuppySearchPropData*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PUPPYSEARCHPROPDATA_METHOD_2_91678DA9CCF20B26_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PuppySearchPropData*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PUPPYSEARCHPROPDATA_METHOD_2_F18ED0756F9C8C91_OFFSET))(a1, a2);
 		}
 	};
 }

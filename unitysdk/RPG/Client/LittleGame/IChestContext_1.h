@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int IChestContext_1_TypeDefinitionIndex = 39780;
+	inline static constexpr unsigned int IChestContext_1_TypeDefinitionIndex = 40655;
 
 	template <typename TEntity>
 	class IChestContext_1

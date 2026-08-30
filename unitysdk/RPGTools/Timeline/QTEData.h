@@ -7,11 +7,11 @@ namespace RPG::Client { class QTEUIData; }
 namespace RPGTools::Timeline { class QTEMissionCustomValue; }
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_QTEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xDD10810)
+#define RPGTOOLS_TIMELINE_QTEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xE8DA850)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int QTEData_TypeDefinitionIndex = 46485;
+	inline static constexpr unsigned int QTEData_TypeDefinitionIndex = 48720;
 
 	class QTEData : public ::System::Object
 	{

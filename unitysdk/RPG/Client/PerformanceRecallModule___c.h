@@ -4,24 +4,24 @@
 
 namespace System { class Action; }
 
-#define RPG_CLIENT_PERFORMANCERECALLMODULE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xCF5AB50)
-#define RPG_CLIENT_PERFORMANCERECALLMODULE___C__CTOR_OFFSET UNITYSDK_OFFSET(0xCF5AB90)
-#define RPG_CLIENT_PERFORMANCERECALLMODULE___C___REFRESHUNLOCKEDCONDITIONDATA_B__23_0_OFFSET UNITYSDK_OFFSET(0xCF5ABA0)
+#define RPG_CLIENT_PERFORMANCERECALLMODULE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xDA58A40)
+#define RPG_CLIENT_PERFORMANCERECALLMODULE___C__CTOR_OFFSET UNITYSDK_OFFSET(0xDA58A70)
+#define RPG_CLIENT_PERFORMANCERECALLMODULE___C___REFRESHUNLOCKEDCONDITIONDATA_B__23_0_OFFSET UNITYSDK_OFFSET(0xDA58A80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PerformanceRecallModule___c_TypeDefinitionIndex = 63489;
+	inline static constexpr unsigned int PerformanceRecallModule___c_TypeDefinitionIndex = 66474;
 
 	class PerformanceRecallModule___c : public ::System::Object
 	{
 	public:
 		static ::System::Action** StaticGet___9__23_0()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(PerformanceRecallModule___c_TypeDefinitionIndex)->GetStaticField(0x67680);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(PerformanceRecallModule___c_TypeDefinitionIndex)->GetStaticField(0x52790);
 		}
 		static ::RPG::Client::PerformanceRecallModule___c** StaticGet___9()
 		{
-			return (::RPG::Client::PerformanceRecallModule___c**)Il2CppClass::FromTypeDefinitionIndex(PerformanceRecallModule___c_TypeDefinitionIndex)->GetStaticField(0x67688);
+			return (::RPG::Client::PerformanceRecallModule___c**)Il2CppClass::FromTypeDefinitionIndex(PerformanceRecallModule___c_TypeDefinitionIndex)->GetStaticField(0x52798);
 		}
 
 		static ::System::Void _cctor()

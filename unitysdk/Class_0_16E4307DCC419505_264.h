@@ -1,25 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/LittleGame/FiveDim/AcquireFiveDimPlayerBeatBackReason.h"
-#include "unitysdk/RPG/Client/LittleGame/FiveDim/AcquireFiveDimPlayerRebornReason.h"
-#include "unitysdk/RPG/Client/LittleGame/FiveDim/FiveDimEnterType.h"
-#include "unitysdk/RPG/Client/LittleGame/FiveDim/FiveDimExitType.h"
-#include "unitysdk/RPG/Client/LittleGame/FiveDim/FiveDimMiniGameEnterType.h"
-#include "unitysdk/RPG/Client/LittleGame/FiveDim/FiveDimMiniGameExitType.h"
-#include "unitysdk/RPG/Client/LittleGame/FiveDim/FiveDimPlayerInteractType.h"
-#include "unitysdk/RPG/Client/LittleGame/FiveDim/FiveDimStatisticPlayerActionType.h"
-#include "unitysdk/RPG/Client/LittleGame/Move/MoveState.h"
-#include "unitysdk/RPG/GameCore/FiveDimGameplayMode.h"
+#include "unitysdk/RPG/Client/LittleGame/FiveDim/PhantomPlayerAssetLoadState.h"
 
-class Class_2_B9E8C2EEAA5C96EC;
-namespace RPG { template <typename T1, typename T2> class PoolDictionary_2; }
-namespace System { class String; }
-namespace System { template <typename T1, typename T2> class Tuple_2; }
-namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
-namespace UnityEngine { class Collider; }
-namespace UnityEngine { class Collision; }
+namespace RPG::Client::LittleGame::FiveDim { class PhantomPlayerFrameAsset; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_264_TypeDefinitionIndex = 41018;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_264_TypeDefinitionIndex = 41772;
 
 class Class_0_16E4307DCC419505_264
 {

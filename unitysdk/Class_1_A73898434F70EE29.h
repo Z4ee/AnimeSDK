@@ -7,21 +7,21 @@ class Class_1_D70A30D666F20D90;
 class Class_1_E7175D70942CF05A;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_A73898434F70EE29_METHOD_1_3929B78E4BE3F573_OFFSET UNITYSDK_OFFSET(0xCACB800)
-#define CLASS_1_A73898434F70EE29_METHOD_1_861DFC6C6D85A3EC_OFFSET UNITYSDK_OFFSET(0xCACB2C0)
-#define CLASS_1_A73898434F70EE29_METHOD_1_ED79705457B92B5C_OFFSET UNITYSDK_OFFSET(0xCACB1A0)
-#define CLASS_1_A73898434F70EE29__CTOR_OFFSET UNITYSDK_OFFSET(0xCACBEE0)
+#define CLASS_1_A73898434F70EE29_METHOD_1_3929B78E4BE3F573_OFFSET UNITYSDK_OFFSET(0xD268DD0)
+#define CLASS_1_A73898434F70EE29_METHOD_1_861DFC6C6D85A3EC_OFFSET UNITYSDK_OFFSET(0xD268890)
+#define CLASS_1_A73898434F70EE29_METHOD_1_ED79705457B92B5C_OFFSET UNITYSDK_OFFSET(0xD268770)
+#define CLASS_1_A73898434F70EE29__CTOR_OFFSET UNITYSDK_OFFSET(0xD2694B0)
 
-inline static constexpr unsigned int Class_1_A73898434F70EE29_TypeDefinitionIndex = 70532;
+inline static constexpr unsigned int Class_1_A73898434F70EE29_TypeDefinitionIndex = 73830;
 
 class Class_1_A73898434F70EE29 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::Class_1_E7175D70942CF05A*>* Field_1_0; // 0x10
-	::System::Collections::Generic::List_1<::Class_1_E7175D70942CF05A*>* Field_1_1; // 0x18
-	::System::Collections::Generic::List_1<::Class_1_E7175D70942CF05A*>* Field_1_2; // 0x20
-	::System::Collections::Generic::List_1<::Class_1_E7175D70942CF05A*>* Field_1_3; // 0x28
-	::System::Int32 Field_1_4; // 0x30
+	::System::Collections::Generic::List_1<::Class_1_E7175D70942CF05A*>* GOHNCBINDCI; // 0x10
+	::System::Collections::Generic::List_1<::Class_1_E7175D70942CF05A*>* LPIBDLKBGKL; // 0x18
+	::System::Collections::Generic::List_1<::Class_1_E7175D70942CF05A*>* OBLMEGIMIJI; // 0x20
+	::System::Collections::Generic::List_1<::Class_1_E7175D70942CF05A*>* AIKFNODPNMA; // 0x28
+	::System::Int32 FFJJHDLMFHF; // 0x30
 
 	::System::Void _ctor()
 	{

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_FATERIN_FATERINSUPPORTSTATIC_ISGUIDEVIDEOAVAILABLE_OFFSET UNITYSDK_OFFSET(0xC4D4910)
+#define RPG_CLIENT_FATERIN_FATERINSUPPORTSTATIC_ISGUIDEVIDEOAVAILABLE_OFFSET UNITYSDK_OFFSET(0xD009AC0)
 
 namespace RPG::Client::FateRin
 {
-	inline static constexpr unsigned int FateRinSupportStatic_TypeDefinitionIndex = 75676;
+	inline static constexpr unsigned int FateRinSupportStatic_TypeDefinitionIndex = 79309;
 
 	class FateRinSupportStatic : public ::System::Object
 	{

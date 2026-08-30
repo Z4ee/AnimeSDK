@@ -5,12 +5,12 @@
 
 class Class_1_349BE0BAA6D56377;
 
-#define RPG_CLIENT_ROGUETOURNDIFFICULTYCOMPDATA___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD430DA0)
-#define RPG_CLIENT_ROGUETOURNDIFFICULTYCOMPDATA___C__DISPLAYCLASS2_0__GETALLDATABYTOURN_B__0_OFFSET UNITYSDK_OFFSET(0xD431080)
+#define RPG_CLIENT_ROGUETOURNDIFFICULTYCOMPDATA___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0xDF4CB20)
+#define RPG_CLIENT_ROGUETOURNDIFFICULTYCOMPDATA___C__DISPLAYCLASS2_0__GETALLDATABYTOURN_B__0_OFFSET UNITYSDK_OFFSET(0xDF4CE20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournDifficultyCompData___c__DisplayClass2_0_TypeDefinitionIndex = 64586;
+	inline static constexpr unsigned int RogueTournDifficultyCompData___c__DisplayClass2_0_TypeDefinitionIndex = 67582;
 
 	class RogueTournDifficultyCompData___c__DisplayClass2_0 : public ::System::Object
 	{

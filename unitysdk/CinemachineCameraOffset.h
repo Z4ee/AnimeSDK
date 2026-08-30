@@ -7,10 +7,10 @@
 
 namespace Cinemachine { class CinemachineVirtualCameraBase; }
 
-#define CINEMACHINECAMERAOFFSET_POSTPIPELINESTAGECALLBACK_OFFSET UNITYSDK_OFFSET(0x15705410)
-#define CINEMACHINECAMERAOFFSET__CTOR_OFFSET UNITYSDK_OFFSET(0x157058E0)
+#define CINEMACHINECAMERAOFFSET_POSTPIPELINESTAGECALLBACK_OFFSET UNITYSDK_OFFSET(0x1648ED40)
+#define CINEMACHINECAMERAOFFSET__CTOR_OFFSET UNITYSDK_OFFSET(0x1648F210)
 
-inline static constexpr unsigned int CinemachineCameraOffset_TypeDefinitionIndex = 37555;
+inline static constexpr unsigned int CinemachineCameraOffset_TypeDefinitionIndex = 38414;
 
 class CinemachineCameraOffset : public ::Cinemachine::CinemachineExtension
 {

@@ -6,11 +6,11 @@ namespace RPG::Client { class GridFightTrait; }
 namespace RPG::Client { class GridFightTraitRemarkLineEffectBase; }
 namespace RPG::GameCore { class GridFightTraitRemarkRow; }
 
-#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEEFFECTFACTORY_CREATEEFFECT_OFFSET UNITYSDK_OFFSET(0xC84A4E0)
+#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEEFFECTFACTORY_CREATEEFFECT_OFFSET UNITYSDK_OFFSET(0xD366950)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightTraitRemarkLineEffectFactory_TypeDefinitionIndex = 62549;
+	inline static constexpr unsigned int GridFightTraitRemarkLineEffectFactory_TypeDefinitionIndex = 65534;
 
 	class GridFightTraitRemarkLineEffectFactory : public ::System::Object
 	{

@@ -8,29 +8,29 @@ namespace System::Threading { class ThreadPoolWorkQueue_QueueSegment; }
 namespace System::Threading { class ThreadPoolWorkQueue_WorkStealingQueue; }
 namespace System::Threading { template <typename T> class ThreadPoolWorkQueue_SparseArray_1; }
 
-#define SYSTEM_THREADING_THREADPOOLWORKQUEUE_DEQUEUE_OFFSET UNITYSDK_OFFSET(0x1A04EB80)
-#define SYSTEM_THREADING_THREADPOOLWORKQUEUE_DISPATCH_OFFSET UNITYSDK_OFFSET(0x1A04F1C0)
-#define SYSTEM_THREADING_THREADPOOLWORKQUEUE_ENQUEUE_OFFSET UNITYSDK_OFFSET(0x1A04DA90)
-#define SYSTEM_THREADING_THREADPOOLWORKQUEUE_ENSURECURRENTTHREADHASQUEUE_OFFSET UNITYSDK_OFFSET(0x1A04DF60)
-#define SYSTEM_THREADING_THREADPOOLWORKQUEUE_ENSURETHREADREQUESTED_OFFSET UNITYSDK_OFFSET(0x1A04E1A0)
-#define SYSTEM_THREADING_THREADPOOLWORKQUEUE_LOCALFINDANDPOP_OFFSET UNITYSDK_OFFSET(0x1A04DC50)
-#define SYSTEM_THREADING_THREADPOOLWORKQUEUE_MARKTHREADREQUESTSATISFIED_OFFSET UNITYSDK_OFFSET(0x1A04E200)
-#define SYSTEM_THREADING_THREADPOOLWORKQUEUE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A04F8D0)
-#define SYSTEM_THREADING_THREADPOOLWORKQUEUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A04DEE0)
+#define SYSTEM_THREADING_THREADPOOLWORKQUEUE_DEQUEUE_OFFSET UNITYSDK_OFFSET(0x1BC55BA0)
+#define SYSTEM_THREADING_THREADPOOLWORKQUEUE_DISPATCH_OFFSET UNITYSDK_OFFSET(0x1BC561E0)
+#define SYSTEM_THREADING_THREADPOOLWORKQUEUE_ENQUEUE_OFFSET UNITYSDK_OFFSET(0x1BC54AB0)
+#define SYSTEM_THREADING_THREADPOOLWORKQUEUE_ENSURECURRENTTHREADHASQUEUE_OFFSET UNITYSDK_OFFSET(0x1BC54F80)
+#define SYSTEM_THREADING_THREADPOOLWORKQUEUE_ENSURETHREADREQUESTED_OFFSET UNITYSDK_OFFSET(0x1BC551C0)
+#define SYSTEM_THREADING_THREADPOOLWORKQUEUE_LOCALFINDANDPOP_OFFSET UNITYSDK_OFFSET(0x1BC54C70)
+#define SYSTEM_THREADING_THREADPOOLWORKQUEUE_MARKTHREADREQUESTSATISFIED_OFFSET UNITYSDK_OFFSET(0x1BC55220)
+#define SYSTEM_THREADING_THREADPOOLWORKQUEUE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BC568B0)
+#define SYSTEM_THREADING_THREADPOOLWORKQUEUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC54F00)
 
 namespace System::Threading
 {
-	inline static constexpr unsigned int ThreadPoolWorkQueue_TypeDefinitionIndex = 854;
+	inline static constexpr unsigned int ThreadPoolWorkQueue_TypeDefinitionIndex = 858;
 
 	class ThreadPoolWorkQueue : public ::System::Object
 	{
 	public:
 		static ::System::Threading::ThreadPoolWorkQueue_SparseArray_1<::System::Threading::ThreadPoolWorkQueue_WorkStealingQueue*>** StaticGet_allThreadQueues()
 		{
-			return (::System::Threading::ThreadPoolWorkQueue_SparseArray_1<::System::Threading::ThreadPoolWorkQueue_WorkStealingQueue*>**)Il2CppClass::FromTypeDefinitionIndex(ThreadPoolWorkQueue_TypeDefinitionIndex)->GetStaticField(0x20E90);
+			return (::System::Threading::ThreadPoolWorkQueue_SparseArray_1<::System::Threading::ThreadPoolWorkQueue_WorkStealingQueue*>**)Il2CppClass::FromTypeDefinitionIndex(ThreadPoolWorkQueue_TypeDefinitionIndex)->GetStaticField(0x13F40);
 		}
-		::System::Threading::ThreadPoolWorkQueue_QueueSegment* queueTail; // 0x10
-		::System::Threading::ThreadPoolWorkQueue_QueueSegment* queueHead; // 0x18
+		::System::Threading::ThreadPoolWorkQueue_QueueSegment* queueHead; // 0x10
+		::System::Threading::ThreadPoolWorkQueue_QueueSegment* queueTail; // 0x18
 		::System::Int32 numOutstandingThreadRequests; // 0x20
 
 		::System::Void _ctor()

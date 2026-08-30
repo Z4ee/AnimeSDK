@@ -6,17 +6,17 @@
 namespace System { class String; }
 namespace UnityEngine { class Material; }
 
-#define EFFECT_UVANIMATION_START_OFFSET UNITYSDK_OFFSET(0x144C3940)
-#define EFFECT_UVANIMATION_UPDATE_OFFSET UNITYSDK_OFFSET(0x144C3A10)
-#define EFFECT_UVANIMATION__CTOR_OFFSET UNITYSDK_OFFSET(0x144C3BA0)
+#define EFFECT_UVANIMATION_START_OFFSET UNITYSDK_OFFSET(0x152F4F90)
+#define EFFECT_UVANIMATION_UPDATE_OFFSET UNITYSDK_OFFSET(0x152F5060)
+#define EFFECT_UVANIMATION__CTOR_OFFSET UNITYSDK_OFFSET(0x152F51F0)
 
-inline static constexpr unsigned int Effect_UVAnimation_TypeDefinitionIndex = 45667;
+inline static constexpr unsigned int Effect_UVAnimation_TypeDefinitionIndex = 47918;
 
 class Effect_UVAnimation : public ::UnityEngine::MonoBehaviour
 {
 public:
 	::UnityEngine::Material* mat; // 0x18
-	::UnityEngine::Vector2 Field_5_1; // 0x20
+	::UnityEngine::Vector2 EBNNHNGHIHP; // 0x20
 	::System::Single scrollX; // 0x28
 	::System::Single scrollY; // 0x2C
 	::System::String* TexName; // 0x30

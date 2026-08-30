@@ -4,21 +4,21 @@
 
 namespace System { class String; }
 
-#define CLASS_1_079E7911E4334C20_METHOD_1_025ED737F0A1C294_OFFSET UNITYSDK_OFFSET(0x1A30E5F0)
-#define CLASS_1_079E7911E4334C20_METHOD_1_9123E7AE4C1ABB04_OFFSET UNITYSDK_OFFSET(0x1A30EB40)
-#define CLASS_1_079E7911E4334C20_METHOD_1_B3C2857DD971A23C_OFFSET UNITYSDK_OFFSET(0x1A30E4E0)
-#define CLASS_1_079E7911E4334C20__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A30EC20)
+#define CLASS_1_079E7911E4334C20_METHOD_1_025ED737F0A1C294_OFFSET UNITYSDK_OFFSET(0x1BF1C000)
+#define CLASS_1_079E7911E4334C20_METHOD_1_9123E7AE4C1ABB04_OFFSET UNITYSDK_OFFSET(0x1BF1C550)
+#define CLASS_1_079E7911E4334C20_METHOD_1_B3C2857DD971A23C_OFFSET UNITYSDK_OFFSET(0x1BF1BEF0)
+#define CLASS_1_079E7911E4334C20__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BF1C630)
 
-inline static constexpr unsigned int Class_1_079E7911E4334C20_TypeDefinitionIndex = 39346;
+inline static constexpr unsigned int Class_1_079E7911E4334C20_TypeDefinitionIndex = 40219;
 
 class Class_1_079E7911E4334C20 : public ::System::Object
 {
 public:
-	static ::Il2CppArray<::System::UInt32>** StaticGet_Field_1_0()
+	static ::Il2CppArray<::System::UInt32>** StaticGet_OEAPCKKBJHG()
 	{
-		return (::Il2CppArray<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_079E7911E4334C20_TypeDefinitionIndex)->GetStaticField(0x22F40);
+		return (::Il2CppArray<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_079E7911E4334C20_TypeDefinitionIndex)->GetStaticField(0x105E0);
 	}
-	// static const ::System::UInt32 Field_1_1 = 0x9E3779B9; // 0x0
+	// static const ::System::UInt32 MPEKOHMJBPB = 0x9E3779B9; // 0x0
 
 	static ::System::Void _cctor()
 	{

@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_SETTINGDISPLAYMODEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B8BA3B0)
-#define RPG_GAMECORE_SETTINGDISPLAYMODEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8BADE0)
+#define RPG_GAMECORE_SETTINGDISPLAYMODEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D516140)
+#define RPG_GAMECORE_SETTINGDISPLAYMODEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D516B70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SettingDisplayModeRow_TypeDefinitionIndex = 14507;
+	inline static constexpr unsigned int SettingDisplayModeRow_TypeDefinitionIndex = 14928;
 
 	class SettingDisplayModeRow : public ::System::Object
 	{

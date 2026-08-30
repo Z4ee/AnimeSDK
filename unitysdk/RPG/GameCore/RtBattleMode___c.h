@@ -6,29 +6,29 @@ class Class_1_17628DBDBD20BE6F;
 class Class_1_D9413DC99216F54F;
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_GAMECORE_RTBATTLEMODE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xDB25670)
-#define RPG_GAMECORE_RTBATTLEMODE___C__CTOR_OFFSET UNITYSDK_OFFSET(0xDB256B0)
-#define RPG_GAMECORE_RTBATTLEMODE___C__ONPREINIT_B__83_0_OFFSET UNITYSDK_OFFSET(0xDB256C0)
-#define RPG_GAMECORE_RTBATTLEMODE___C__ONPREINIT_B__83_1_OFFSET UNITYSDK_OFFSET(0xDB256E0)
+#define RPG_GAMECORE_RTBATTLEMODE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xE6E5230)
+#define RPG_GAMECORE_RTBATTLEMODE___C__CTOR_OFFSET UNITYSDK_OFFSET(0xE6E5270)
+#define RPG_GAMECORE_RTBATTLEMODE___C__ONPREINIT_B__83_0_OFFSET UNITYSDK_OFFSET(0xE6E5280)
+#define RPG_GAMECORE_RTBATTLEMODE___C__ONPREINIT_B__83_1_OFFSET UNITYSDK_OFFSET(0xE6E52A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtBattleMode___c_TypeDefinitionIndex = 51800;
+	inline static constexpr unsigned int RtBattleMode___c_TypeDefinitionIndex = 54484;
 
 	class RtBattleMode___c : public ::System::Object
 	{
 	public:
+		static ::System::Action_1<::Class_1_17628DBDBD20BE6F*>** StaticGet___9__83_1()
+		{
+			return (::System::Action_1<::Class_1_17628DBDBD20BE6F*>**)Il2CppClass::FromTypeDefinitionIndex(RtBattleMode___c_TypeDefinitionIndex)->GetStaticField(0x12840);
+		}
 		static ::RPG::GameCore::RtBattleMode___c** StaticGet___9()
 		{
-			return (::RPG::GameCore::RtBattleMode___c**)Il2CppClass::FromTypeDefinitionIndex(RtBattleMode___c_TypeDefinitionIndex)->GetStaticField(0x65FF0);
+			return (::RPG::GameCore::RtBattleMode___c**)Il2CppClass::FromTypeDefinitionIndex(RtBattleMode___c_TypeDefinitionIndex)->GetStaticField(0x12848);
 		}
 		static ::System::Action_1<::Class_1_D9413DC99216F54F*>** StaticGet___9__83_0()
 		{
-			return (::System::Action_1<::Class_1_D9413DC99216F54F*>**)Il2CppClass::FromTypeDefinitionIndex(RtBattleMode___c_TypeDefinitionIndex)->GetStaticField(0x65FF8);
-		}
-		static ::System::Action_1<::Class_1_17628DBDBD20BE6F*>** StaticGet___9__83_1()
-		{
-			return (::System::Action_1<::Class_1_17628DBDBD20BE6F*>**)Il2CppClass::FromTypeDefinitionIndex(RtBattleMode___c_TypeDefinitionIndex)->GetStaticField(0x66000);
+			return (::System::Action_1<::Class_1_D9413DC99216F54F*>**)Il2CppClass::FromTypeDefinitionIndex(RtBattleMode___c_TypeDefinitionIndex)->GetStaticField(0x12850);
 		}
 
 		static ::System::Void _cctor()

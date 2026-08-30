@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ParticleSystemTrailMode_TypeDefinitionIndex = 5789;
+	inline static constexpr unsigned int ParticleSystemTrailMode_TypeDefinitionIndex = 5274;
 
 	enum class ParticleSystemTrailMode : ::System::Int32
 	{

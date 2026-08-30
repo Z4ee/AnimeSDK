@@ -5,7 +5,7 @@
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomEx_FormatInfo_TypeDefinitionIndex = 37808;
+	inline static constexpr unsigned int CriAtomEx_FormatInfo_TypeDefinitionIndex = 38667;
 
 	struct alignas(8) CriAtomEx_FormatInfo
 	{

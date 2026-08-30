@@ -6,32 +6,32 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ACTIVITYPARKOURAICONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B123DA0)
-#define RPG_GAMECORE_ACTIVITYPARKOURAICONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1242F0)
+#define RPG_GAMECORE_ACTIVITYPARKOURAICONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CD9A4E0)
+#define RPG_GAMECORE_ACTIVITYPARKOURAICONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD9AA30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityParkourAIConfigRow_TypeDefinitionIndex = 11633;
+	inline static constexpr unsigned int ActivityParkourAIConfigRow_TypeDefinitionIndex = 12022;
 
 	class ActivityParkourAIConfigRow : public ::System::Object
 	{
 	public:
 		::System::String* PrefabPath; // 0x10
 		::System::String* ResPath; // 0x18
-		::System::Single SkillItemScore; // 0x20
+		::System::Single SwitchRoadScore; // 0x20
 		::System::Single SpeedUpRegionScore; // 0x24
-		::System::UInt32 ID; // 0x28
-		::System::Single AIPlayerScore; // 0x2C
-		::System::Single ActionIntervalTime; // 0x30
-		::System::Single NearPlayerScore; // 0x34
-		::System::Single SwitchRoadScore; // 0x38
-		::System::Single SlowDownRegionScore; // 0x3C
-		::System::Single LocalPlayerScore; // 0x40
-		::RPG::Client::TextID Name; // 0x48
-		::System::Single ObstacleScore; // 0x58
-		::System::UInt32 CalcStepCnt; // 0x5C
-		::System::Single LeavePlayerScore; // 0x60
-		::System::Single SpeedItemScore; // 0x64
+		::System::Single NearPlayerScore; // 0x28
+		::System::Single ActionIntervalTime; // 0x2C
+		::System::Single ObstacleScore; // 0x30
+		::System::Single AIPlayerScore; // 0x34
+		::System::Single SlowDownRegionScore; // 0x38
+		::System::Single SpeedItemScore; // 0x3C
+		::System::Single SkillItemScore; // 0x40
+		::System::UInt32 CalcStepCnt; // 0x44
+		::System::Single LeavePlayerScore; // 0x48
+		::System::UInt32 ID; // 0x4C
+		::System::Single LocalPlayerScore; // 0x50
+		::RPG::Client::TextID Name; // 0x58
 
 		::System::Void _ctor()
 		{

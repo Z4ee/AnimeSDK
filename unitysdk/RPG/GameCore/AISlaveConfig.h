@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_AISLAVECONFIG_METHOD_2_999D75FFA63B561E_OFFSET UNITYSDK_OFFSET(0x1B0F1260)
-#define RPG_GAMECORE_AISLAVECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0F13D0)
+#define RPG_GAMECORE_AISLAVECONFIG_METHOD_2_999D75FFA63B561E_OFFSET UNITYSDK_OFFSET(0x1CD677F0)
+#define RPG_GAMECORE_AISLAVECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD67960)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AISlaveConfig_TypeDefinitionIndex = 16544;
+	inline static constexpr unsigned int AISlaveConfig_TypeDefinitionIndex = 17036;
 
 	class AISlaveConfig : public ::RPG::GameCore::JsonConfig
 	{

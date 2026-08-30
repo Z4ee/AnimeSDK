@@ -18,234 +18,234 @@ namespace UnityEngine::Playables { class PlayableDirector; }
 namespace UnityEngine::UI { class Image; }
 namespace UnityEngine::UI { class Text; }
 
-#define CLASS_1_611B47E192B9D09A_METHOD_1_054FEA4718D8370C_OFFSET UNITYSDK_OFFSET(0xAF07800)
-#define CLASS_1_611B47E192B9D09A_METHOD_1_0A70D7B849A494C5_1_OFFSET UNITYSDK_OFFSET(0xAF053D0)
-#define CLASS_1_611B47E192B9D09A_METHOD_1_0A70D7B849A494C5_2_OFFSET UNITYSDK_OFFSET(0xAF05560)
-#define CLASS_1_611B47E192B9D09A_METHOD_1_0A70D7B849A494C5_OFFSET UNITYSDK_OFFSET(0xAF05240)
-#define CLASS_1_611B47E192B9D09A_METHOD_1_10E682F51C1A047C_OFFSET UNITYSDK_OFFSET(0xAF05E90)
-#define CLASS_1_611B47E192B9D09A_METHOD_1_128774387667156B_OFFSET UNITYSDK_OFFSET(0xAF045C0)
-#define CLASS_1_611B47E192B9D09A_METHOD_1_2C0B30E6D49270C5_OFFSET UNITYSDK_OFFSET(0xAF07330)
-#define CLASS_1_611B47E192B9D09A_METHOD_1_2E167B2EE069C337_OFFSET UNITYSDK_OFFSET(0xAF07960)
-#define CLASS_1_611B47E192B9D09A_METHOD_1_3E8A1FBDB0ECC40F_OFFSET UNITYSDK_OFFSET(0xAF04840)
-#define CLASS_1_611B47E192B9D09A_METHOD_1_5700CA1B9161463C_OFFSET UNITYSDK_OFFSET(0xAF072B0)
-#define CLASS_1_611B47E192B9D09A_METHOD_1_60881D6F248432DF_OFFSET UNITYSDK_OFFSET(0xAF07190)
-#define CLASS_1_611B47E192B9D09A_METHOD_1_6D5F59BCE8B4A09A_1_OFFSET UNITYSDK_OFFSET(0xAF04720)
-#define CLASS_1_611B47E192B9D09A_METHOD_1_6D5F59BCE8B4A09A_2_OFFSET UNITYSDK_OFFSET(0xAF04920)
-#define CLASS_1_611B47E192B9D09A_METHOD_1_6D5F59BCE8B4A09A_OFFSET UNITYSDK_OFFSET(0xAF04600)
-#define CLASS_1_611B47E192B9D09A_METHOD_1_73250EF5F9006ADB_OFFSET UNITYSDK_OFFSET(0xAF05A10)
-#define CLASS_1_611B47E192B9D09A_METHOD_1_78AAEE97CA3CECB5_OFFSET UNITYSDK_OFFSET(0xAF078B0)
-#define CLASS_1_611B47E192B9D09A_METHOD_1_81C32BFBC4CC6809_1_OFFSET UNITYSDK_OFFSET(0xAF05D00)
-#define CLASS_1_611B47E192B9D09A_METHOD_1_81C32BFBC4CC6809_2_OFFSET UNITYSDK_OFFSET(0xAF06BE0)
-#define CLASS_1_611B47E192B9D09A_METHOD_1_81C32BFBC4CC6809_3_OFFSET UNITYSDK_OFFSET(0xAF06F90)
-#define CLASS_1_611B47E192B9D09A_METHOD_1_81C32BFBC4CC6809_OFFSET UNITYSDK_OFFSET(0xAF056F0)
-#define CLASS_1_611B47E192B9D09A_METHOD_1_868B43028BDC3BFA_OFFSET UNITYSDK_OFFSET(0xAF07490)
-#define CLASS_1_611B47E192B9D09A_METHOD_1_8D9772F6745C5D7B_OFFSET UNITYSDK_OFFSET(0xAF07410)
-#define CLASS_1_611B47E192B9D09A_METHOD_1_95C9A8D45FEC5B17_OFFSET UNITYSDK_OFFSET(0xAF032D0)
-#define CLASS_1_611B47E192B9D09A_METHOD_1_9A1B06354B33D3B8_OFFSET UNITYSDK_OFFSET(0xAF07750)
-#define CLASS_1_611B47E192B9D09A_METHOD_1_9E0833B0D6566F28_OFFSET UNITYSDK_OFFSET(0xAF04A40)
-#define CLASS_1_611B47E192B9D09A_METHOD_1_A3B7CAD9C0181EC4_1_OFFSET UNITYSDK_OFFSET(0xAF06380)
-#define CLASS_1_611B47E192B9D09A_METHOD_1_A3B7CAD9C0181EC4_2_OFFSET UNITYSDK_OFFSET(0xAF06510)
-#define CLASS_1_611B47E192B9D09A_METHOD_1_A3B7CAD9C0181EC4_3_OFFSET UNITYSDK_OFFSET(0xAF066A0)
-#define CLASS_1_611B47E192B9D09A_METHOD_1_A3B7CAD9C0181EC4_4_OFFSET UNITYSDK_OFFSET(0xAF06830)
-#define CLASS_1_611B47E192B9D09A_METHOD_1_A3B7CAD9C0181EC4_OFFSET UNITYSDK_OFFSET(0xAF05BA0)
-#define CLASS_1_611B47E192B9D09A_METHOD_1_B429995FEDE6996E_10_OFFSET UNITYSDK_OFFSET(0xAF06E80)
-#define CLASS_1_611B47E192B9D09A_METHOD_1_B429995FEDE6996E_1_OFFSET UNITYSDK_OFFSET(0xAF04BE0)
-#define CLASS_1_611B47E192B9D09A_METHOD_1_B429995FEDE6996E_2_OFFSET UNITYSDK_OFFSET(0xAF04CF0)
-#define CLASS_1_611B47E192B9D09A_METHOD_1_B429995FEDE6996E_3_OFFSET UNITYSDK_OFFSET(0xAF04E00)
-#define CLASS_1_611B47E192B9D09A_METHOD_1_B429995FEDE6996E_4_OFFSET UNITYSDK_OFFSET(0xAF04F10)
-#define CLASS_1_611B47E192B9D09A_METHOD_1_B429995FEDE6996E_5_OFFSET UNITYSDK_OFFSET(0xAF05020)
-#define CLASS_1_611B47E192B9D09A_METHOD_1_B429995FEDE6996E_6_OFFSET UNITYSDK_OFFSET(0xAF05130)
-#define CLASS_1_611B47E192B9D09A_METHOD_1_B429995FEDE6996E_7_OFFSET UNITYSDK_OFFSET(0xAF069C0)
-#define CLASS_1_611B47E192B9D09A_METHOD_1_B429995FEDE6996E_8_OFFSET UNITYSDK_OFFSET(0xAF06AD0)
-#define CLASS_1_611B47E192B9D09A_METHOD_1_B429995FEDE6996E_9_OFFSET UNITYSDK_OFFSET(0xAF06D70)
-#define CLASS_1_611B47E192B9D09A_METHOD_1_B429995FEDE6996E_OFFSET UNITYSDK_OFFSET(0xAF04AD0)
-#define CLASS_1_611B47E192B9D09A_METHOD_1_C38ADD3CBD8C83FF_1_OFFSET UNITYSDK_OFFSET(0xAF076E0)
-#define CLASS_1_611B47E192B9D09A_METHOD_1_C38ADD3CBD8C83FF_OFFSET UNITYSDK_OFFSET(0xAF07660)
-#define CLASS_1_611B47E192B9D09A_METHOD_1_E69758BC72874DFF_OFFSET UNITYSDK_OFFSET(0xAF07120)
-#define CLASS_1_611B47E192B9D09A_METHOD_1_F1D1A26F60E3337D_OFFSET UNITYSDK_OFFSET(0xAF05880)
+#define CLASS_1_611B47E192B9D09A_METHOD_1_054FEA4718D8370C_OFFSET UNITYSDK_OFFSET(0xB8B85F0)
+#define CLASS_1_611B47E192B9D09A_METHOD_1_0A70D7B849A494C5_1_OFFSET UNITYSDK_OFFSET(0xB8B61C0)
+#define CLASS_1_611B47E192B9D09A_METHOD_1_0A70D7B849A494C5_2_OFFSET UNITYSDK_OFFSET(0xB8B6350)
+#define CLASS_1_611B47E192B9D09A_METHOD_1_0A70D7B849A494C5_OFFSET UNITYSDK_OFFSET(0xB8B6030)
+#define CLASS_1_611B47E192B9D09A_METHOD_1_10E682F51C1A047C_OFFSET UNITYSDK_OFFSET(0xB8B6C80)
+#define CLASS_1_611B47E192B9D09A_METHOD_1_128774387667156B_OFFSET UNITYSDK_OFFSET(0xB8B53B0)
+#define CLASS_1_611B47E192B9D09A_METHOD_1_2C0B30E6D49270C5_OFFSET UNITYSDK_OFFSET(0xB8B8120)
+#define CLASS_1_611B47E192B9D09A_METHOD_1_2E167B2EE069C337_OFFSET UNITYSDK_OFFSET(0xB8B8750)
+#define CLASS_1_611B47E192B9D09A_METHOD_1_3E8A1FBDB0ECC40F_OFFSET UNITYSDK_OFFSET(0xB8B5630)
+#define CLASS_1_611B47E192B9D09A_METHOD_1_5700CA1B9161463C_OFFSET UNITYSDK_OFFSET(0xB8B80A0)
+#define CLASS_1_611B47E192B9D09A_METHOD_1_60881D6F248432DF_OFFSET UNITYSDK_OFFSET(0xB8B7F80)
+#define CLASS_1_611B47E192B9D09A_METHOD_1_6D5F59BCE8B4A09A_1_OFFSET UNITYSDK_OFFSET(0xB8B5510)
+#define CLASS_1_611B47E192B9D09A_METHOD_1_6D5F59BCE8B4A09A_2_OFFSET UNITYSDK_OFFSET(0xB8B5710)
+#define CLASS_1_611B47E192B9D09A_METHOD_1_6D5F59BCE8B4A09A_OFFSET UNITYSDK_OFFSET(0xB8B53F0)
+#define CLASS_1_611B47E192B9D09A_METHOD_1_73250EF5F9006ADB_OFFSET UNITYSDK_OFFSET(0xB8B6800)
+#define CLASS_1_611B47E192B9D09A_METHOD_1_78AAEE97CA3CECB5_OFFSET UNITYSDK_OFFSET(0xB8B86A0)
+#define CLASS_1_611B47E192B9D09A_METHOD_1_81C32BFBC4CC6809_1_OFFSET UNITYSDK_OFFSET(0xB8B6AF0)
+#define CLASS_1_611B47E192B9D09A_METHOD_1_81C32BFBC4CC6809_2_OFFSET UNITYSDK_OFFSET(0xB8B79D0)
+#define CLASS_1_611B47E192B9D09A_METHOD_1_81C32BFBC4CC6809_3_OFFSET UNITYSDK_OFFSET(0xB8B7D80)
+#define CLASS_1_611B47E192B9D09A_METHOD_1_81C32BFBC4CC6809_OFFSET UNITYSDK_OFFSET(0xB8B64E0)
+#define CLASS_1_611B47E192B9D09A_METHOD_1_868B43028BDC3BFA_OFFSET UNITYSDK_OFFSET(0xB8B8280)
+#define CLASS_1_611B47E192B9D09A_METHOD_1_8D9772F6745C5D7B_OFFSET UNITYSDK_OFFSET(0xB8B8200)
+#define CLASS_1_611B47E192B9D09A_METHOD_1_95C9A8D45FEC5B17_OFFSET UNITYSDK_OFFSET(0xB8B4150)
+#define CLASS_1_611B47E192B9D09A_METHOD_1_9A1B06354B33D3B8_OFFSET UNITYSDK_OFFSET(0xB8B8540)
+#define CLASS_1_611B47E192B9D09A_METHOD_1_9E0833B0D6566F28_OFFSET UNITYSDK_OFFSET(0xB8B5830)
+#define CLASS_1_611B47E192B9D09A_METHOD_1_A3B7CAD9C0181EC4_1_OFFSET UNITYSDK_OFFSET(0xB8B7170)
+#define CLASS_1_611B47E192B9D09A_METHOD_1_A3B7CAD9C0181EC4_2_OFFSET UNITYSDK_OFFSET(0xB8B7300)
+#define CLASS_1_611B47E192B9D09A_METHOD_1_A3B7CAD9C0181EC4_3_OFFSET UNITYSDK_OFFSET(0xB8B7490)
+#define CLASS_1_611B47E192B9D09A_METHOD_1_A3B7CAD9C0181EC4_4_OFFSET UNITYSDK_OFFSET(0xB8B7620)
+#define CLASS_1_611B47E192B9D09A_METHOD_1_A3B7CAD9C0181EC4_OFFSET UNITYSDK_OFFSET(0xB8B6990)
+#define CLASS_1_611B47E192B9D09A_METHOD_1_B429995FEDE6996E_10_OFFSET UNITYSDK_OFFSET(0xB8B7C70)
+#define CLASS_1_611B47E192B9D09A_METHOD_1_B429995FEDE6996E_1_OFFSET UNITYSDK_OFFSET(0xB8B59D0)
+#define CLASS_1_611B47E192B9D09A_METHOD_1_B429995FEDE6996E_2_OFFSET UNITYSDK_OFFSET(0xB8B5AE0)
+#define CLASS_1_611B47E192B9D09A_METHOD_1_B429995FEDE6996E_3_OFFSET UNITYSDK_OFFSET(0xB8B5BF0)
+#define CLASS_1_611B47E192B9D09A_METHOD_1_B429995FEDE6996E_4_OFFSET UNITYSDK_OFFSET(0xB8B5D00)
+#define CLASS_1_611B47E192B9D09A_METHOD_1_B429995FEDE6996E_5_OFFSET UNITYSDK_OFFSET(0xB8B5E10)
+#define CLASS_1_611B47E192B9D09A_METHOD_1_B429995FEDE6996E_6_OFFSET UNITYSDK_OFFSET(0xB8B5F20)
+#define CLASS_1_611B47E192B9D09A_METHOD_1_B429995FEDE6996E_7_OFFSET UNITYSDK_OFFSET(0xB8B77B0)
+#define CLASS_1_611B47E192B9D09A_METHOD_1_B429995FEDE6996E_8_OFFSET UNITYSDK_OFFSET(0xB8B78C0)
+#define CLASS_1_611B47E192B9D09A_METHOD_1_B429995FEDE6996E_9_OFFSET UNITYSDK_OFFSET(0xB8B7B60)
+#define CLASS_1_611B47E192B9D09A_METHOD_1_B429995FEDE6996E_OFFSET UNITYSDK_OFFSET(0xB8B58C0)
+#define CLASS_1_611B47E192B9D09A_METHOD_1_C38ADD3CBD8C83FF_1_OFFSET UNITYSDK_OFFSET(0xB8B84D0)
+#define CLASS_1_611B47E192B9D09A_METHOD_1_C38ADD3CBD8C83FF_OFFSET UNITYSDK_OFFSET(0xB8B8450)
+#define CLASS_1_611B47E192B9D09A_METHOD_1_E69758BC72874DFF_OFFSET UNITYSDK_OFFSET(0xB8B7F10)
+#define CLASS_1_611B47E192B9D09A_METHOD_1_F1D1A26F60E3337D_OFFSET UNITYSDK_OFFSET(0xB8B6670)
 
-inline static constexpr unsigned int Class_1_611B47E192B9D09A_TypeDefinitionIndex = 46722;
+inline static constexpr unsigned int Class_1_611B47E192B9D09A_TypeDefinitionIndex = 48968;
 
 class Class_1_611B47E192B9D09A : public ::System::Object
 {
 public:
-	static ::UnityEngine::Transform** StaticGet_Field_1_0()
+	static ::UnityEngine::Transform** StaticGet_NAFDDKLMGLL()
 	{
-		return (::UnityEngine::Transform**)Il2CppClass::FromTypeDefinitionIndex(Class_1_611B47E192B9D09A_TypeDefinitionIndex)->GetStaticField(0x5EAE0);
+		return (::UnityEngine::Transform**)Il2CppClass::FromTypeDefinitionIndex(Class_1_611B47E192B9D09A_TypeDefinitionIndex)->GetStaticField(0x19F40);
 	}
-	static ::UnityEngine::UI::Image** StaticGet_Field_1_1()
+	static ::UnityEngine::UI::Image** StaticGet_MEPIKEFJLHG()
 	{
-		return (::UnityEngine::UI::Image**)Il2CppClass::FromTypeDefinitionIndex(Class_1_611B47E192B9D09A_TypeDefinitionIndex)->GetStaticField(0x5EAE8);
+		return (::UnityEngine::UI::Image**)Il2CppClass::FromTypeDefinitionIndex(Class_1_611B47E192B9D09A_TypeDefinitionIndex)->GetStaticField(0x19F48);
 	}
-	static ::UnityEngine::Transform** StaticGet_Field_1_2()
+	static ::RPG::Client::LocalizedText** StaticGet_APAPIBBMKDL()
 	{
-		return (::UnityEngine::Transform**)Il2CppClass::FromTypeDefinitionIndex(Class_1_611B47E192B9D09A_TypeDefinitionIndex)->GetStaticField(0x5EAF0);
+		return (::RPG::Client::LocalizedText**)Il2CppClass::FromTypeDefinitionIndex(Class_1_611B47E192B9D09A_TypeDefinitionIndex)->GetStaticField(0x19F50);
 	}
-	static ::UnityEngine::UI::Image** StaticGet_Field_1_3()
+	static ::UnityEngine::Canvas** StaticGet_EPOABONPPGJ()
 	{
-		return (::UnityEngine::UI::Image**)Il2CppClass::FromTypeDefinitionIndex(Class_1_611B47E192B9D09A_TypeDefinitionIndex)->GetStaticField(0x5EAF8);
+		return (::UnityEngine::Canvas**)Il2CppClass::FromTypeDefinitionIndex(Class_1_611B47E192B9D09A_TypeDefinitionIndex)->GetStaticField(0x19F58);
 	}
-	static ::RPG::Client::ClientOnlyCommonConfig** StaticGet_Field_1_4()
+	static ::UnityEngine::Transform** StaticGet_DGNBNJFKJLK()
 	{
-		return (::RPG::Client::ClientOnlyCommonConfig**)Il2CppClass::FromTypeDefinitionIndex(Class_1_611B47E192B9D09A_TypeDefinitionIndex)->GetStaticField(0x5EB00);
+		return (::UnityEngine::Transform**)Il2CppClass::FromTypeDefinitionIndex(Class_1_611B47E192B9D09A_TypeDefinitionIndex)->GetStaticField(0x19F60);
 	}
-	static ::UnityEngine::Transform** StaticGet_Field_1_5()
+	static ::UnityEngine::Transform** StaticGet_BGPIFFEJIJL()
 	{
-		return (::UnityEngine::Transform**)Il2CppClass::FromTypeDefinitionIndex(Class_1_611B47E192B9D09A_TypeDefinitionIndex)->GetStaticField(0x5EB08);
+		return (::UnityEngine::Transform**)Il2CppClass::FromTypeDefinitionIndex(Class_1_611B47E192B9D09A_TypeDefinitionIndex)->GetStaticField(0x19F68);
 	}
-	static ::UnityEngine::Transform** StaticGet_Field_1_6()
+	static ::RPG::Client::LocalizedText** StaticGet_IGKJFIBBOFE()
 	{
-		return (::UnityEngine::Transform**)Il2CppClass::FromTypeDefinitionIndex(Class_1_611B47E192B9D09A_TypeDefinitionIndex)->GetStaticField(0x5EB10);
+		return (::RPG::Client::LocalizedText**)Il2CppClass::FromTypeDefinitionIndex(Class_1_611B47E192B9D09A_TypeDefinitionIndex)->GetStaticField(0x19F70);
 	}
-	static ::UnityEngine::Transform** StaticGet_Field_1_7()
+	static ::UnityEngine::Transform** StaticGet_EJIKHNFJGFI()
 	{
-		return (::UnityEngine::Transform**)Il2CppClass::FromTypeDefinitionIndex(Class_1_611B47E192B9D09A_TypeDefinitionIndex)->GetStaticField(0x5EB18);
+		return (::UnityEngine::Transform**)Il2CppClass::FromTypeDefinitionIndex(Class_1_611B47E192B9D09A_TypeDefinitionIndex)->GetStaticField(0x19F78);
 	}
-	static ::RPG::Client::LocalizedText** StaticGet_Field_1_8()
+	static ::UnityEngine::Transform** StaticGet_LIGEMMPFLKI()
 	{
-		return (::RPG::Client::LocalizedText**)Il2CppClass::FromTypeDefinitionIndex(Class_1_611B47E192B9D09A_TypeDefinitionIndex)->GetStaticField(0x5EB20);
+		return (::UnityEngine::Transform**)Il2CppClass::FromTypeDefinitionIndex(Class_1_611B47E192B9D09A_TypeDefinitionIndex)->GetStaticField(0x19F80);
 	}
-	static ::RPG::Client::LocalizedText** StaticGet_Field_1_9()
+	static ::UnityEngine::UI::Image** StaticGet_MFMPHLIAAIH()
 	{
-		return (::RPG::Client::LocalizedText**)Il2CppClass::FromTypeDefinitionIndex(Class_1_611B47E192B9D09A_TypeDefinitionIndex)->GetStaticField(0x5EB28);
+		return (::UnityEngine::UI::Image**)Il2CppClass::FromTypeDefinitionIndex(Class_1_611B47E192B9D09A_TypeDefinitionIndex)->GetStaticField(0x19F88);
 	}
-	static ::UnityEngine::Transform** StaticGet_Field_1_10()
+	static ::RPG::Client::DebugPerformanceInfoPanel** StaticGet_FNNJPCLHMPC()
 	{
-		return (::UnityEngine::Transform**)Il2CppClass::FromTypeDefinitionIndex(Class_1_611B47E192B9D09A_TypeDefinitionIndex)->GetStaticField(0x5EB30);
+		return (::RPG::Client::DebugPerformanceInfoPanel**)Il2CppClass::FromTypeDefinitionIndex(Class_1_611B47E192B9D09A_TypeDefinitionIndex)->GetStaticField(0x19F90);
 	}
-	static ::UnityEngine::UI::Text** StaticGet_Field_1_11()
+	static ::UnityEngine::Transform** StaticGet_JPICPJEINDC()
 	{
-		return (::UnityEngine::UI::Text**)Il2CppClass::FromTypeDefinitionIndex(Class_1_611B47E192B9D09A_TypeDefinitionIndex)->GetStaticField(0x5EB38);
+		return (::UnityEngine::Transform**)Il2CppClass::FromTypeDefinitionIndex(Class_1_611B47E192B9D09A_TypeDefinitionIndex)->GetStaticField(0x19F98);
 	}
-	static ::UnityEngine::Transform** StaticGet_Field_1_12()
+	static ::UnityEngine::UI::Image** StaticGet_AFJIGEDHIPO()
 	{
-		return (::UnityEngine::Transform**)Il2CppClass::FromTypeDefinitionIndex(Class_1_611B47E192B9D09A_TypeDefinitionIndex)->GetStaticField(0x5EB40);
+		return (::UnityEngine::UI::Image**)Il2CppClass::FromTypeDefinitionIndex(Class_1_611B47E192B9D09A_TypeDefinitionIndex)->GetStaticField(0x19FA0);
 	}
-	static ::RPG::Client::DebugPerformanceInfoPanel** StaticGet_Field_1_13()
+	static ::UnityEngine::Transform** StaticGet_NIKFDIBDGGJ()
 	{
-		return (::RPG::Client::DebugPerformanceInfoPanel**)Il2CppClass::FromTypeDefinitionIndex(Class_1_611B47E192B9D09A_TypeDefinitionIndex)->GetStaticField(0x5EB48);
+		return (::UnityEngine::Transform**)Il2CppClass::FromTypeDefinitionIndex(Class_1_611B47E192B9D09A_TypeDefinitionIndex)->GetStaticField(0x19FA8);
 	}
-	static ::UnityEngine::Canvas** StaticGet_Field_1_14()
+	static ::RPG::Client::LocalizedText** StaticGet_MBMGNOAGGJO()
 	{
-		return (::UnityEngine::Canvas**)Il2CppClass::FromTypeDefinitionIndex(Class_1_611B47E192B9D09A_TypeDefinitionIndex)->GetStaticField(0x5EB50);
+		return (::RPG::Client::LocalizedText**)Il2CppClass::FromTypeDefinitionIndex(Class_1_611B47E192B9D09A_TypeDefinitionIndex)->GetStaticField(0x19FB0);
 	}
-	static ::RPG::Client::LocalizedText** StaticGet_Field_1_15()
+	static ::UnityEngine::Playables::PlayableDirector** StaticGet_OPNHINPCKOJ()
 	{
-		return (::RPG::Client::LocalizedText**)Il2CppClass::FromTypeDefinitionIndex(Class_1_611B47E192B9D09A_TypeDefinitionIndex)->GetStaticField(0x5EB58);
+		return (::UnityEngine::Playables::PlayableDirector**)Il2CppClass::FromTypeDefinitionIndex(Class_1_611B47E192B9D09A_TypeDefinitionIndex)->GetStaticField(0x19FB8);
 	}
-	static ::UnityEngine::Transform** StaticGet_Field_1_16()
+	static ::UnityEngine::UI::Text** StaticGet_IOLCFAPCPDP()
 	{
-		return (::UnityEngine::Transform**)Il2CppClass::FromTypeDefinitionIndex(Class_1_611B47E192B9D09A_TypeDefinitionIndex)->GetStaticField(0x5EB60);
+		return (::UnityEngine::UI::Text**)Il2CppClass::FromTypeDefinitionIndex(Class_1_611B47E192B9D09A_TypeDefinitionIndex)->GetStaticField(0x19FC0);
 	}
-	static ::UnityEngine::Transform** StaticGet_Field_1_17()
+	static ::RPG::Client::ClientOnlyCommonConfig** StaticGet_FJEPLGBIAOH()
 	{
-		return (::UnityEngine::Transform**)Il2CppClass::FromTypeDefinitionIndex(Class_1_611B47E192B9D09A_TypeDefinitionIndex)->GetStaticField(0x5EB68);
+		return (::RPG::Client::ClientOnlyCommonConfig**)Il2CppClass::FromTypeDefinitionIndex(Class_1_611B47E192B9D09A_TypeDefinitionIndex)->GetStaticField(0x19FC8);
 	}
-	static ::UnityEngine::UI::Text** StaticGet_Field_1_18()
+	static ::UnityEngine::UI::Text** StaticGet_FLMOCLGKGLI()
 	{
-		return (::UnityEngine::UI::Text**)Il2CppClass::FromTypeDefinitionIndex(Class_1_611B47E192B9D09A_TypeDefinitionIndex)->GetStaticField(0x5EB70);
+		return (::UnityEngine::UI::Text**)Il2CppClass::FromTypeDefinitionIndex(Class_1_611B47E192B9D09A_TypeDefinitionIndex)->GetStaticField(0x19FD0);
 	}
-	static ::UnityEngine::Transform** StaticGet_Field_1_19()
+	static ::UnityEngine::Transform** StaticGet_DOLBOABHAAM()
 	{
-		return (::UnityEngine::Transform**)Il2CppClass::FromTypeDefinitionIndex(Class_1_611B47E192B9D09A_TypeDefinitionIndex)->GetStaticField(0x5EB78);
+		return (::UnityEngine::Transform**)Il2CppClass::FromTypeDefinitionIndex(Class_1_611B47E192B9D09A_TypeDefinitionIndex)->GetStaticField(0x19FD8);
 	}
-	static ::UnityEngine::UI::Text** StaticGet_Field_1_20()
+	static ::UnityEngine::Transform** StaticGet_LHFCECHDELD()
 	{
-		return (::UnityEngine::UI::Text**)Il2CppClass::FromTypeDefinitionIndex(Class_1_611B47E192B9D09A_TypeDefinitionIndex)->GetStaticField(0x5EB80);
+		return (::UnityEngine::Transform**)Il2CppClass::FromTypeDefinitionIndex(Class_1_611B47E192B9D09A_TypeDefinitionIndex)->GetStaticField(0x19FE0);
 	}
-	static ::UnityEngine::UI::Image** StaticGet_Field_1_21()
+	static ::UnityEngine::UI::Image** StaticGet_IEPFFCEBCDB()
 	{
-		return (::UnityEngine::UI::Image**)Il2CppClass::FromTypeDefinitionIndex(Class_1_611B47E192B9D09A_TypeDefinitionIndex)->GetStaticField(0x5EB88);
+		return (::UnityEngine::UI::Image**)Il2CppClass::FromTypeDefinitionIndex(Class_1_611B47E192B9D09A_TypeDefinitionIndex)->GetStaticField(0x19FE8);
 	}
-	static ::UnityEngine::Transform** StaticGet_Field_1_22()
+	static ::RPG::Client::LocalizedText** StaticGet_AACOHEKCIDH()
 	{
-		return (::UnityEngine::Transform**)Il2CppClass::FromTypeDefinitionIndex(Class_1_611B47E192B9D09A_TypeDefinitionIndex)->GetStaticField(0x5EB90);
+		return (::RPG::Client::LocalizedText**)Il2CppClass::FromTypeDefinitionIndex(Class_1_611B47E192B9D09A_TypeDefinitionIndex)->GetStaticField(0x19FF0);
 	}
-	static ::UnityEngine::UI::Image** StaticGet_Field_1_23()
+	static ::UnityEngine::Transform** StaticGet_CPPMPGJCFMJ()
 	{
-		return (::UnityEngine::UI::Image**)Il2CppClass::FromTypeDefinitionIndex(Class_1_611B47E192B9D09A_TypeDefinitionIndex)->GetStaticField(0x5EB98);
+		return (::UnityEngine::Transform**)Il2CppClass::FromTypeDefinitionIndex(Class_1_611B47E192B9D09A_TypeDefinitionIndex)->GetStaticField(0x19FF8);
 	}
-	static ::UnityEngine::Transform** StaticGet_Field_1_24()
+	static ::UnityEngine::UI::Image** StaticGet_BJKCBOCLKBL()
 	{
-		return (::UnityEngine::Transform**)Il2CppClass::FromTypeDefinitionIndex(Class_1_611B47E192B9D09A_TypeDefinitionIndex)->GetStaticField(0x5EBA0);
+		return (::UnityEngine::UI::Image**)Il2CppClass::FromTypeDefinitionIndex(Class_1_611B47E192B9D09A_TypeDefinitionIndex)->GetStaticField(0x1A000);
 	}
-	static ::UnityEngine::UI::Image** StaticGet_Field_1_25()
+	static ::UnityEngine::Transform** StaticGet_PAECDBJLLCM()
 	{
-		return (::UnityEngine::UI::Image**)Il2CppClass::FromTypeDefinitionIndex(Class_1_611B47E192B9D09A_TypeDefinitionIndex)->GetStaticField(0x5EBA8);
+		return (::UnityEngine::Transform**)Il2CppClass::FromTypeDefinitionIndex(Class_1_611B47E192B9D09A_TypeDefinitionIndex)->GetStaticField(0x1A008);
 	}
-	static ::UnityEngine::Playables::PlayableDirector** StaticGet_Field_1_26()
+	static ::CriWare::CriManaMovieMaterial** StaticGet_BAFJFDKDPON()
 	{
-		return (::UnityEngine::Playables::PlayableDirector**)Il2CppClass::FromTypeDefinitionIndex(Class_1_611B47E192B9D09A_TypeDefinitionIndex)->GetStaticField(0x5EBB0);
+		return (::CriWare::CriManaMovieMaterial**)Il2CppClass::FromTypeDefinitionIndex(Class_1_611B47E192B9D09A_TypeDefinitionIndex)->GetStaticField(0x1A010);
 	}
-	static ::RPG::Client::LocalizedText** StaticGet_Field_1_27()
+	static ::UnityEngine::Transform** StaticGet_LLADEPHOPBE()
 	{
-		return (::RPG::Client::LocalizedText**)Il2CppClass::FromTypeDefinitionIndex(Class_1_611B47E192B9D09A_TypeDefinitionIndex)->GetStaticField(0x5EBB8);
+		return (::UnityEngine::Transform**)Il2CppClass::FromTypeDefinitionIndex(Class_1_611B47E192B9D09A_TypeDefinitionIndex)->GetStaticField(0x1A018);
 	}
-	static ::UnityEngine::Transform** StaticGet_Field_1_28()
+	static ::UnityEngine::UI::Text** StaticGet_JDCABDNBIPH()
 	{
-		return (::UnityEngine::Transform**)Il2CppClass::FromTypeDefinitionIndex(Class_1_611B47E192B9D09A_TypeDefinitionIndex)->GetStaticField(0x5EBC0);
+		return (::UnityEngine::UI::Text**)Il2CppClass::FromTypeDefinitionIndex(Class_1_611B47E192B9D09A_TypeDefinitionIndex)->GetStaticField(0x1A020);
 	}
-	static ::UnityEngine::Transform** StaticGet_Field_1_29()
+	static ::UnityEngine::Transform** StaticGet_PLADJIEFFBI()
 	{
-		return (::UnityEngine::Transform**)Il2CppClass::FromTypeDefinitionIndex(Class_1_611B47E192B9D09A_TypeDefinitionIndex)->GetStaticField(0x5EBC8);
+		return (::UnityEngine::Transform**)Il2CppClass::FromTypeDefinitionIndex(Class_1_611B47E192B9D09A_TypeDefinitionIndex)->GetStaticField(0x1A028);
 	}
-	static ::UnityEngine::Transform** StaticGet_Field_1_30()
+	static ::UnityEngine::Transform** StaticGet_KGDOGDLMELJ()
 	{
-		return (::UnityEngine::Transform**)Il2CppClass::FromTypeDefinitionIndex(Class_1_611B47E192B9D09A_TypeDefinitionIndex)->GetStaticField(0x5EBD0);
+		return (::UnityEngine::Transform**)Il2CppClass::FromTypeDefinitionIndex(Class_1_611B47E192B9D09A_TypeDefinitionIndex)->GetStaticField(0x1A030);
 	}
-	static ::RPG::Client::LocalizedText** StaticGet_Field_1_31()
+	static ::UnityEngine::Transform** StaticGet_EAOPEAJHBKG()
 	{
-		return (::RPG::Client::LocalizedText**)Il2CppClass::FromTypeDefinitionIndex(Class_1_611B47E192B9D09A_TypeDefinitionIndex)->GetStaticField(0x5EBD8);
+		return (::UnityEngine::Transform**)Il2CppClass::FromTypeDefinitionIndex(Class_1_611B47E192B9D09A_TypeDefinitionIndex)->GetStaticField(0x1A038);
 	}
-	static ::CriWare::CriManaMovieMaterial** StaticGet_Field_1_32()
+	static ::UnityEngine::Transform** StaticGet_JILDIDPIJJH()
 	{
-		return (::CriWare::CriManaMovieMaterial**)Il2CppClass::FromTypeDefinitionIndex(Class_1_611B47E192B9D09A_TypeDefinitionIndex)->GetStaticField(0x5EBE0);
+		return (::UnityEngine::Transform**)Il2CppClass::FromTypeDefinitionIndex(Class_1_611B47E192B9D09A_TypeDefinitionIndex)->GetStaticField(0x1A040);
 	}
-	static ::UnityEngine::Transform** StaticGet_Field_1_33()
+	static ::RPG::Client::LocalizedText** StaticGet_CCDJOLNPLBJ()
 	{
-		return (::UnityEngine::Transform**)Il2CppClass::FromTypeDefinitionIndex(Class_1_611B47E192B9D09A_TypeDefinitionIndex)->GetStaticField(0x5EBE8);
+		return (::RPG::Client::LocalizedText**)Il2CppClass::FromTypeDefinitionIndex(Class_1_611B47E192B9D09A_TypeDefinitionIndex)->GetStaticField(0x1A048);
 	}
-	static ::System::Boolean* StaticGet_Field_1_34()
+	static ::System::Boolean* StaticGet_BPFJNDHIFLD()
 	{
-		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_611B47E192B9D09A_TypeDefinitionIndex)->GetStaticField(0x108E0);
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_611B47E192B9D09A_TypeDefinitionIndex)->GetStaticField(0x93B0);
 	}
-	static ::System::Boolean* StaticGet_Field_1_35()
+	static ::System::Boolean* StaticGet_PCMDPHMBOHC()
 	{
-		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_611B47E192B9D09A_TypeDefinitionIndex)->GetStaticField(0x108E1);
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_611B47E192B9D09A_TypeDefinitionIndex)->GetStaticField(0x93B1);
 	}
-	// static const ::System::String* Field_1_36; // 0x0
-	// static const ::System::String* Field_1_37; // 0x0
-	// static const ::System::String* Field_1_38; // 0x0
-	// static const ::System::String* Field_1_39; // 0x0
-	// static const ::System::String* Field_1_40; // 0x0
-	// static const ::System::String* Field_1_41; // 0x0
-	// static const ::System::String* Field_1_42; // 0x0
-	// static const ::System::String* Field_1_43; // 0x0
-	// static const ::System::String* Field_1_44; // 0x0
-	// static const ::System::String* Field_1_45; // 0x0
-	// static const ::System::String* Field_1_46; // 0x0
-	// static const ::System::String* Field_1_47; // 0x0
-	// static const ::System::String* Field_1_48; // 0x0
-	// static const ::System::String* Field_1_49; // 0x0
-	// static const ::System::String* Field_1_50; // 0x0
-	// static const ::System::String* Field_1_51; // 0x0
-	// static const ::System::String* Field_1_52; // 0x0
-	// static const ::System::String* Field_1_53; // 0x0
-	// static const ::System::String* Field_1_54; // 0x0
-	// static const ::System::String* Field_1_55; // 0x0
-	// static const ::System::String* Field_1_56; // 0x0
-	// static const ::System::String* Field_1_57; // 0x0
-	// static const ::System::String* Field_1_58; // 0x0
-	// static const ::System::String* Field_1_59; // 0x0
-	// static const ::System::String* Field_1_60; // 0x0
-	// static const ::System::String* Field_1_61; // 0x0
-	// static const ::System::String* Field_1_62; // 0x0
-	// static const ::System::String* Field_1_63; // 0x0
-	// static const ::System::String* Field_1_64; // 0x0
-	// static const ::System::String* Field_1_65; // 0x0
-	// static const ::System::String* Field_1_66; // 0x0
-	// static const ::System::String* Field_1_67; // 0x0
-	// static const ::System::String* Field_1_68; // 0x0
+	// static const ::System::String* GGDHBBDCAOG; // 0x0
+	// static const ::System::String* PCLNMFLHKFP; // 0x0
+	// static const ::System::String* HEKAGCELHGA; // 0x0
+	// static const ::System::String* NNMOCJLNCHL; // 0x0
+	// static const ::System::String* EAFCLNAGBFF; // 0x0
+	// static const ::System::String* PABFBJMMJNM; // 0x0
+	// static const ::System::String* BMPANFMOJLG; // 0x0
+	// static const ::System::String* KANPLMMFFNC; // 0x0
+	// static const ::System::String* JBNJDECCPMP; // 0x0
+	// static const ::System::String* BGCKKGGFILM; // 0x0
+	// static const ::System::String* JLKJFPFEBAA; // 0x0
+	// static const ::System::String* GGMMLOOIBOO; // 0x0
+	// static const ::System::String* AFEAAFIDLEB; // 0x0
+	// static const ::System::String* BINLFPLLLLE; // 0x0
+	// static const ::System::String* KNDOCDEJNHA; // 0x0
+	// static const ::System::String* DIDDMPKFKCA; // 0x0
+	// static const ::System::String* DAMMIAOPKFJ; // 0x0
+	// static const ::System::String* DPHLEEGFOAE; // 0x0
+	// static const ::System::String* PDKKNEMGDGJ; // 0x0
+	// static const ::System::String* EOEIDFDIAFE; // 0x0
+	// static const ::System::String* FLBAJMJJBHN; // 0x0
+	// static const ::System::String* GDINDNGOJNM; // 0x0
+	// static const ::System::String* LLDCBLLCIAO; // 0x0
+	// static const ::System::String* EJMGPHHLFOO; // 0x0
+	// static const ::System::String* EBOPMIILAEJ; // 0x0
+	// static const ::System::String* LKGCNDOJKAK; // 0x0
+	// static const ::System::String* IKPJGNCOOFB; // 0x0
+	// static const ::System::String* LPKNHLOHMKM; // 0x0
+	// static const ::System::String* DABLLMCAEBN; // 0x0
+	// static const ::System::String* DJKOOFKGNGI; // 0x0
+	// static const ::System::String* KEMCJDMAIOP; // 0x0
+	// static const ::System::String* EFGOAOPNPCB; // 0x0
+	// static const ::System::String* CJOACMMCHJP; // 0x0
 
 	static ::System::String* Method_1_128774387667156B()
 	{

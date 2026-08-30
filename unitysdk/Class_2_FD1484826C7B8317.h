@@ -1,29 +1,29 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_CA217ABF4E3B4F3F.h"
+#include "unitysdk/Class_1_34917908B7833130.h"
 #include "unitysdk/RPG/Client/AcheronPowerNodeState.h"
 
 namespace System { class String; }
 namespace UnityEngine { class Animation; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_2_FD1484826C7B8317_METHOD_2_14045882BC5C6CA9_OFFSET UNITYSDK_OFFSET(0xAE80E80)
-#define CLASS_2_FD1484826C7B8317_METHOD_2_1A6C778433F4964B_OFFSET UNITYSDK_OFFSET(0xAE80D30)
-#define CLASS_2_FD1484826C7B8317__CTOR_OFFSET UNITYSDK_OFFSET(0xAE80ED0)
-#define CLASS_2_FD1484826C7B8317__ONBIND_OFFSET UNITYSDK_OFFSET(0xAE80C20)
+#define CLASS_2_FD1484826C7B8317_METHOD_2_14045882BC5C6CA9_OFFSET UNITYSDK_OFFSET(0xB826930)
+#define CLASS_2_FD1484826C7B8317_METHOD_2_1A6C778433F4964B_OFFSET UNITYSDK_OFFSET(0xB8267E0)
+#define CLASS_2_FD1484826C7B8317__CTOR_OFFSET UNITYSDK_OFFSET(0xB826980)
+#define CLASS_2_FD1484826C7B8317__ONBIND_OFFSET UNITYSDK_OFFSET(0xB8266D0)
 
-inline static constexpr unsigned int Class_2_FD1484826C7B8317_TypeDefinitionIndex = 68598;
+inline static constexpr unsigned int Class_2_FD1484826C7B8317_TypeDefinitionIndex = 71796;
 
-class Class_2_FD1484826C7B8317 : public ::Class_1_CA217ABF4E3B4F3F
+class Class_2_FD1484826C7B8317 : public ::Class_1_34917908B7833130
 {
 public:
-	// static const ::System::String* Field_2_0; // 0x0
-	// static const ::System::String* Field_2_1; // 0x0
-	// static const ::System::String* Field_2_2; // 0x0
-	::UnityEngine::Transform* Field_2_3; // 0x60
-	::UnityEngine::Animation* Field_2_4; // 0x68
-	::UnityEngine::Transform* Field_2_5; // 0x70
-	::System::Boolean Field_2_6; // 0x78
+	// static const ::System::String* FBJEELGJKLK; // 0x0
+	// static const ::System::String* IJHFOIAGGDI; // 0x0
+	// static const ::System::String* PFBDHNPIBOH; // 0x0
+	::UnityEngine::Transform* GHGAKNDLKGM; // 0x60
+	::UnityEngine::Transform* CBFEKJKIHLN; // 0x68
+	::UnityEngine::Animation* JPHOOFFIAAH; // 0x70
+	::System::Boolean IAPJFCPEOBL; // 0x78
 
 	::System::Void _ctor()
 	{

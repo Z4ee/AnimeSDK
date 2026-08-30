@@ -6,28 +6,28 @@
 namespace Mono::Math { class BigInteger; }
 namespace Mono::Security::Cryptography { class RSAManaged_KeyGeneratedEventHandler; }
 
-#define MONO_SECURITY_CRYPTOGRAPHY_RSAMANAGED_EXPORTPARAMETERS_OFFSET UNITYSDK_OFFSET(0x19F21A40)
-#define MONO_SECURITY_CRYPTOGRAPHY_RSAMANAGED_GENERATEKEYPAIR_OFFSET UNITYSDK_OFFSET(0x19F21210)
-#define MONO_SECURITY_CRYPTOGRAPHY_RSAMANAGED_GETPADDEDVALUE_OFFSET UNITYSDK_OFFSET(0x19F21DB0)
-#define MONO_SECURITY_CRYPTOGRAPHY_RSAMANAGED_GET_PUBLICONLY_OFFSET UNITYSDK_OFFSET(0x19F219B0)
-#define MONO_SECURITY_CRYPTOGRAPHY_RSAMANAGED_IMPORTPARAMETERS_OFFSET UNITYSDK_OFFSET(0x19F21E30)
+#define MONO_SECURITY_CRYPTOGRAPHY_RSAMANAGED_EXPORTPARAMETERS_OFFSET UNITYSDK_OFFSET(0x1BB26550)
+#define MONO_SECURITY_CRYPTOGRAPHY_RSAMANAGED_GENERATEKEYPAIR_OFFSET UNITYSDK_OFFSET(0x1BB25D20)
+#define MONO_SECURITY_CRYPTOGRAPHY_RSAMANAGED_GETPADDEDVALUE_OFFSET UNITYSDK_OFFSET(0x1BB268C0)
+#define MONO_SECURITY_CRYPTOGRAPHY_RSAMANAGED_GET_PUBLICONLY_OFFSET UNITYSDK_OFFSET(0x1BB264C0)
+#define MONO_SECURITY_CRYPTOGRAPHY_RSAMANAGED_IMPORTPARAMETERS_OFFSET UNITYSDK_OFFSET(0x1BB26940)
 
 namespace Mono::Security::Cryptography
 {
-	inline static constexpr unsigned int RSAManaged_TypeDefinitionIndex = 2304;
+	inline static constexpr unsigned int RSAManaged_TypeDefinitionIndex = 2311;
 
 	class RSAManaged : public ::System::Security::Cryptography::RSA
 	{
 	public:
-		::Mono::Math::BigInteger* n; // 0x20
-		::Mono::Math::BigInteger* qInv; // 0x28
-		::Mono::Math::BigInteger* p; // 0x30
-		::Mono::Math::BigInteger* e; // 0x38
-		::Mono::Math::BigInteger* d; // 0x40
-		::Mono::Security::Cryptography::RSAManaged_KeyGeneratedEventHandler* KeyGenerated; // 0x48
-		::Mono::Math::BigInteger* q; // 0x50
-		::Mono::Math::BigInteger* dp; // 0x58
-		::Mono::Math::BigInteger* dq; // 0x60
+		::Mono::Math::BigInteger* e; // 0x20
+		::Mono::Math::BigInteger* p; // 0x28
+		::Mono::Math::BigInteger* dp; // 0x30
+		::Mono::Math::BigInteger* q; // 0x38
+		::Mono::Security::Cryptography::RSAManaged_KeyGeneratedEventHandler* KeyGenerated; // 0x40
+		::Mono::Math::BigInteger* d; // 0x48
+		::Mono::Math::BigInteger* qInv; // 0x50
+		::Mono::Math::BigInteger* dq; // 0x58
+		::Mono::Math::BigInteger* n; // 0x60
 		::System::Boolean keypairGenerated; // 0x68
 		::System::Boolean m_disposed; // 0x69
 		::System::Boolean isCRTpossible; // 0x6A

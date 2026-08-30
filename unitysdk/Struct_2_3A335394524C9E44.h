@@ -16,43 +16,43 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class String; }
 
-#define STRUCT_2_3A335394524C9E44_METHOD_2_27653FB6B6B1E605_OFFSET UNITYSDK_OFFSET(0x152EAFC0)
-#define STRUCT_2_3A335394524C9E44_METHOD_2_286318E3803E84AB_1_OFFSET UNITYSDK_OFFSET(0x2D0DF70)
-#define STRUCT_2_3A335394524C9E44_METHOD_2_286318E3803E84AB_OFFSET UNITYSDK_OFFSET(0x2D0DF40)
-#define STRUCT_2_3A335394524C9E44_METHOD_2_636FF97CF37B078B_OFFSET UNITYSDK_OFFSET(0x2D0DF30)
-#define STRUCT_2_3A335394524C9E44_METHOD_2_925B6EF9634A264B_OFFSET UNITYSDK_OFFSET(0x2D0DF20)
-#define STRUCT_2_3A335394524C9E44_METHOD_2_F08BDA898C1AE19E_OFFSET UNITYSDK_OFFSET(0x2D0DF10)
+#define STRUCT_2_3A335394524C9E44_METHOD_2_27653FB6B6B1E605_OFFSET UNITYSDK_OFFSET(0x16260290)
+#define STRUCT_2_3A335394524C9E44_METHOD_2_286318E3803E84AB_1_OFFSET UNITYSDK_OFFSET(0x2DF6D40)
+#define STRUCT_2_3A335394524C9E44_METHOD_2_286318E3803E84AB_OFFSET UNITYSDK_OFFSET(0x2DF6D10)
+#define STRUCT_2_3A335394524C9E44_METHOD_2_636FF97CF37B078B_OFFSET UNITYSDK_OFFSET(0x2DF6D00)
+#define STRUCT_2_3A335394524C9E44_METHOD_2_925B6EF9634A264B_OFFSET UNITYSDK_OFFSET(0x2DF6CF0)
+#define STRUCT_2_3A335394524C9E44_METHOD_2_F08BDA898C1AE19E_OFFSET UNITYSDK_OFFSET(0x2DF6CE0)
 
-inline static constexpr unsigned int Struct_2_3A335394524C9E44_TypeDefinitionIndex = 51954;
+inline static constexpr unsigned int Struct_2_3A335394524C9E44_TypeDefinitionIndex = 54638;
 
 struct alignas(8) Struct_2_3A335394524C9E44
 {
-	::RPG::GameCore::AttackType Field_2_0; // 0x10
-	::RPG::GameCore::AttackDamageType Field_2_1; // 0x14
-	::System::Single Field_2_2; // 0x18
-	::System::Single Field_2_3; // 0x1C
-	::System::Single Field_2_4; // 0x20
-	::RPG::MVector3 Field_2_5; // 0x24
-	::RPG::MVector3 Field_2_6; // 0x30
-	::System::String* Field_2_7; // 0x40
-	::RPG::GameCore::TeamType Field_2_8; // 0x48
-	::System::Single Field_2_9; // 0x4C
-	::System::Single Field_2_10; // 0x50
-	::System::Boolean Field_2_11; // 0x54
-	::RPG::Client::TextID Field_2_12; // 0x58
-	::System::Boolean Field_2_13; // 0x68
-	::System::Boolean Field_2_14; // 0x69
-	::System::String* Field_2_15; // 0x70
-	::RPG::MVector3 Field_2_16; // 0x78
-	::System::Nullable_1<::RPG::GameCore::FixPoint> Field_2_17; // 0x88
-	::System::Nullable_1<::System::UInt32> Field_2_18; // 0x98
-	::System::Single Field_2_19; // 0xA0
-	::System::String* Field_2_20; // 0xA8
-	::System::Nullable_1<::RPG::GameCore::ElementDamageType> Field_2_21; // 0xB0
-	::System::String* Field_2_22; // 0xB8
-	::System::Boolean Field_2_23; // 0xC0
-	::System::Boolean Field_2_24; // 0xC1
-	::System::Boolean Field_2_25; // 0xC2
+	::RPG::GameCore::AttackType HIFKEKCELFB; // 0x10
+	::RPG::GameCore::AttackDamageType PAIECOBACKB; // 0x14
+	::System::Single MDKBODIBCDC; // 0x18
+	::System::Single ELIFOHAHNHA; // 0x1C
+	::System::Single GNJLNCCPFOG; // 0x20
+	::RPG::MVector3 ACGINICEHML; // 0x24
+	::RPG::MVector3 PMPIDAPFIHE; // 0x30
+	::System::String* IFNAGLOMHBK; // 0x40
+	::RPG::GameCore::TeamType BEGKIKOGEOD; // 0x48
+	::System::Single IEHPFADHJFD; // 0x4C
+	::System::Single NEMDKBKDFDN; // 0x50
+	::System::Boolean JECHCGIBKCH; // 0x54
+	::RPG::Client::TextID ENNKPIBOJLE; // 0x58
+	::System::Boolean GCMDDOMIPPH; // 0x68
+	::System::Boolean CPFEDPAGDFF; // 0x69
+	::System::String* HFLDHJHJNCF; // 0x70
+	::RPG::MVector3 MCKNKIMMPCC; // 0x78
+	::System::Nullable_1<::RPG::GameCore::FixPoint> PGANAAKKMOA; // 0x88
+	::System::Nullable_1<::System::UInt32> LIHDDCJDALN; // 0x98
+	::System::Single HFBFNLKGIDN; // 0xA0
+	::System::String* MAOMFGBJACJ; // 0xA8
+	::System::Nullable_1<::RPG::GameCore::ElementDamageType> DOGLPHFNGPK; // 0xB0
+	::System::String* OCMJCIFFBHF; // 0xB8
+	::System::Boolean PBOJPLGNLKD; // 0xC0
+	::System::Boolean JAHAMKOPFHG; // 0xC1
+	::System::Boolean EGGMAJKNIGC; // 0xC2
 
 	::System::Void Method_2_F08BDA898C1AE19E(::RPG::GameCore::GameEntity* a1, ::RPG::GameCore::DamageDisplayData* a2, ::RPG::GameCore::TaskContext* a3)
 	{

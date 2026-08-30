@@ -5,12 +5,12 @@
 namespace System { class Object; }
 namespace System::Linq::Expressions::Interpreter { class InterpretedFrame; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_GREATERTHANINSTRUCTION_GREATERTHANUINT32_RUN_OFFSET UNITYSDK_OFFSET(0x1CA77310)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_GREATERTHANINSTRUCTION_GREATERTHANUINT32__CTOR_OFFSET UNITYSDK_OFFSET(0x1CA764C0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_GREATERTHANINSTRUCTION_GREATERTHANUINT32_RUN_OFFSET UNITYSDK_OFFSET(0x1E720C70)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_GREATERTHANINSTRUCTION_GREATERTHANUINT32__CTOR_OFFSET UNITYSDK_OFFSET(0x1E71FE20)
 
 namespace System::Linq::Expressions::Interpreter
 {
-	inline static constexpr unsigned int GreaterThanInstruction_GreaterThanUInt32_TypeDefinitionIndex = 3400;
+	inline static constexpr unsigned int GreaterThanInstruction_GreaterThanUInt32_TypeDefinitionIndex = 3408;
 
 	class GreaterThanInstruction_GreaterThanUInt32 : public ::System::Linq::Expressions::Interpreter::GreaterThanInstruction
 	{

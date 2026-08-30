@@ -5,13 +5,13 @@
 
 namespace UnityEngine { class Sprite; }
 
-#define RPG_CLIENT_MINIMAPVOLUME_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xCBCCC70)
-#define RPG_CLIENT_MINIMAPVOLUME_ONENABLE_OFFSET UNITYSDK_OFFSET(0xCBCCB90)
-#define RPG_CLIENT_MINIMAPVOLUME__CTOR_OFFSET UNITYSDK_OFFSET(0xCBCCE50)
+#define RPG_CLIENT_MINIMAPVOLUME_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xD6C8740)
+#define RPG_CLIENT_MINIMAPVOLUME_ONENABLE_OFFSET UNITYSDK_OFFSET(0xD6C8660)
+#define RPG_CLIENT_MINIMAPVOLUME__CTOR_OFFSET UNITYSDK_OFFSET(0xD6C8920)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MinimapVolume_TypeDefinitionIndex = 65460;
+	inline static constexpr unsigned int MinimapVolume_TypeDefinitionIndex = 68475;
 
 	class MinimapVolume : public ::UnityEngine::MonoBehaviour
 	{
@@ -21,7 +21,7 @@ namespace RPG::Client
 		::UnityEngine::Sprite* MiniMapImage; // 0x30
 		::System::Single Scale; // 0x38
 		::System::Boolean CombineLayerAutomatic; // 0x3C
-		::System::Int32 Field_5_5; // 0x40
+		::System::Int32 KFLLNFLBIFC; // 0x40
 
 		::System::Void _ctor()
 		{

@@ -7,11 +7,11 @@ class Class_2_F3C45F1FC7349B6E;
 namespace RPG::GameCore { class CakeRaceCircleTargetSelectorConfig; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-#define CLASS_3_6A665B60C44397ED_METHOD_3_683E052542D637D5_OFFSET UNITYSDK_OFFSET(0x1A495BA0)
-#define CLASS_3_6A665B60C44397ED_METHOD_3_6A9D030F966B3EEF_OFFSET UNITYSDK_OFFSET(0x1A49EA80)
-#define CLASS_3_6A665B60C44397ED__CTOR_OFFSET UNITYSDK_OFFSET(0x1A49EA50)
+#define CLASS_3_6A665B60C44397ED_METHOD_3_683E052542D637D5_OFFSET UNITYSDK_OFFSET(0x1C0A5740)
+#define CLASS_3_6A665B60C44397ED_METHOD_3_6A9D030F966B3EEF_OFFSET UNITYSDK_OFFSET(0x1C0AE660)
+#define CLASS_3_6A665B60C44397ED__CTOR_OFFSET UNITYSDK_OFFSET(0x1C0AE630)
 
-inline static constexpr unsigned int Class_3_6A665B60C44397ED_TypeDefinitionIndex = 35875;
+inline static constexpr unsigned int Class_3_6A665B60C44397ED_TypeDefinitionIndex = 36736;
 
 class Class_3_6A665B60C44397ED : public ::RPG::Client::LittleGameShare::CakeRaceCore::CakeRaceCoreBaseSelector_1<::RPG::GameCore::CakeRaceCircleTargetSelectorConfig*>
 {

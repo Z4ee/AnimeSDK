@@ -7,12 +7,12 @@ namespace RPG::GameCore { class BattleLineupEquipmentConfig; }
 namespace RPG::GameCore { class BattleLineupSkillTreePoint; }
 namespace RPG::GameCore { class LineupAvatarDynamicParamItem; }
 
-#define RPG_GAMECORE_BATTLELINEUPAVATARCONFIG_METHOD_2_3AD21B586C5B5537_OFFSET UNITYSDK_OFFSET(0x1B1FC970)
-#define RPG_GAMECORE_BATTLELINEUPAVATARCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1FCE40)
+#define RPG_GAMECORE_BATTLELINEUPAVATARCONFIG_METHOD_2_3AD21B586C5B5537_OFFSET UNITYSDK_OFFSET(0x1CE77A70)
+#define RPG_GAMECORE_BATTLELINEUPAVATARCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE77F40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleLineupAvatarConfig_TypeDefinitionIndex = 17397;
+	inline static constexpr unsigned int BattleLineupAvatarConfig_TypeDefinitionIndex = 17914;
 
 	class BattleLineupAvatarConfig : public ::RPG::GameCore::JsonConfig
 	{

@@ -9,13 +9,13 @@ namespace RPG::GameCore { class BaseChenLingBattleValueGetter; }
 namespace RPG::GameCore { class ChenLingBattleAirMotionConfig; }
 namespace RPG::GameCore { class ChenLingBattleEffectConfig; }
 
-#define RPG_GAMECORE_CHENLINGBATTLEABILITY_SPLIT_METHOD_3_46DE5E90F19987EE_OFFSET UNITYSDK_OFFSET(0x1B32A840)
-#define RPG_GAMECORE_CHENLINGBATTLEABILITY_SPLIT_METHOD_3_77C5B0FC05C44497_OFFSET UNITYSDK_OFFSET(0x1B32A7E0)
-#define RPG_GAMECORE_CHENLINGBATTLEABILITY_SPLIT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B32A830)
+#define RPG_GAMECORE_CHENLINGBATTLEABILITY_SPLIT_METHOD_3_46DE5E90F19987EE_OFFSET UNITYSDK_OFFSET(0x1CFA6BE0)
+#define RPG_GAMECORE_CHENLINGBATTLEABILITY_SPLIT_METHOD_3_77C5B0FC05C44497_OFFSET UNITYSDK_OFFSET(0x1CFA6B80)
+#define RPG_GAMECORE_CHENLINGBATTLEABILITY_SPLIT__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFA6BD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingBattleAbility_Split_TypeDefinitionIndex = 15136;
+	inline static constexpr unsigned int ChenLingBattleAbility_Split_TypeDefinitionIndex = 15573;
 
 	class ChenLingBattleAbility_Split : public ::RPG::GameCore::BaseChenLingBattleAbilityNodeConfig
 	{

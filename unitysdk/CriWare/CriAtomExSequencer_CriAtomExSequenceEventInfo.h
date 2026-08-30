@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExSequencer_CriAtomExSequenceEventInfo_TypeDefinitionIndex = 37841;
+	inline static constexpr unsigned int CriAtomExSequencer_CriAtomExSequenceEventInfo_TypeDefinitionIndex = 38700;
 
 	struct alignas(8) CriAtomExSequencer_CriAtomExSequenceEventInfo
 	{

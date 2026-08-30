@@ -9,7 +9,7 @@ namespace System { template <typename T1, typename T2, typename T3> class Action
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int BaseEventActionSystem_1___c_TypeDefinitionIndex = 73142;
+	inline static constexpr unsigned int BaseEventActionSystem_1___c_TypeDefinitionIndex = 76618;
 
 	template <typename T>
 	class BaseEventActionSystem_1___c : public ::System::Object

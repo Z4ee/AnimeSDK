@@ -6,23 +6,23 @@ namespace RPG::Client { class ParticleSystemGroup; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class ParticleSystemRenderer; }
 
-#define RPG_CLIENT_PARTICLESYSTEMCHILDGROUP_METHOD_5_83BE0299944D0F77_OFFSET UNITYSDK_OFFSET(0xCF45A70)
-#define RPG_CLIENT_PARTICLESYSTEMCHILDGROUP_METHOD_5_E876C8B6D3B840A6_OFFSET UNITYSDK_OFFSET(0xCF455D0)
-#define RPG_CLIENT_PARTICLESYSTEMCHILDGROUP_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xCF45B00)
-#define RPG_CLIENT_PARTICLESYSTEMCHILDGROUP_ONPARENTGROUPALPHACHANGE_OFFSET UNITYSDK_OFFSET(0xCF45190)
-#define RPG_CLIENT_PARTICLESYSTEMCHILDGROUP_START_OFFSET UNITYSDK_OFFSET(0xCF45580)
-#define RPG_CLIENT_PARTICLESYSTEMCHILDGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0xCF45E30)
+#define RPG_CLIENT_PARTICLESYSTEMCHILDGROUP_METHOD_5_83BE0299944D0F77_OFFSET UNITYSDK_OFFSET(0xDA43460)
+#define RPG_CLIENT_PARTICLESYSTEMCHILDGROUP_METHOD_5_E876C8B6D3B840A6_OFFSET UNITYSDK_OFFSET(0xDA42FC0)
+#define RPG_CLIENT_PARTICLESYSTEMCHILDGROUP_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xDA434F0)
+#define RPG_CLIENT_PARTICLESYSTEMCHILDGROUP_ONPARENTGROUPALPHACHANGE_OFFSET UNITYSDK_OFFSET(0xDA42B80)
+#define RPG_CLIENT_PARTICLESYSTEMCHILDGROUP_START_OFFSET UNITYSDK_OFFSET(0xDA42F70)
+#define RPG_CLIENT_PARTICLESYSTEMCHILDGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0xDA43820)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ParticleSystemChildGroup_TypeDefinitionIndex = 65935;
+	inline static constexpr unsigned int ParticleSystemChildGroup_TypeDefinitionIndex = 68974;
 
 	class ParticleSystemChildGroup : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		::System::Collections::Generic::List_1<::RPG::Client::ParticleSystemGroup*>* Field_5_0; // 0x18
-		::System::Collections::Generic::List_1<::UnityEngine::ParticleSystemRenderer*>* Field_5_1; // 0x20
-		::RPG::Client::ParticleSystemGroup* Field_5_2; // 0x28
+		::System::Collections::Generic::List_1<::RPG::Client::ParticleSystemGroup*>* MAOLIHGPIBE; // 0x18
+		::System::Collections::Generic::List_1<::UnityEngine::ParticleSystemRenderer*>* JKPMONKOGMC; // 0x20
+		::RPG::Client::ParticleSystemGroup* NGHFFBMAABI; // 0x28
 
 		::System::Void _ctor()
 		{

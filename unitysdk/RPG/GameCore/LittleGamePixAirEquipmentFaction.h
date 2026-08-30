@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LittleGamePixAirEquipmentFaction_TypeDefinitionIndex = 23699;
+	inline static constexpr unsigned int LittleGamePixAirEquipmentFaction_TypeDefinitionIndex = 24284;
 
 	enum class LittleGamePixAirEquipmentFaction : ::System::Int32
 	{

@@ -5,11 +5,11 @@
 namespace HoudiniEngineUnity { class HEU_OutputAttribute; }
 namespace System { class String; }
 
-#define HOUDINIENGINEUNITY_HEU_OUTPUTATTRIBUTEDICTIONARY__CTOR_OFFSET UNITYSDK_OFFSET(0x198C32C0)
+#define HOUDINIENGINEUNITY_HEU_OUTPUTATTRIBUTEDICTIONARY__CTOR_OFFSET UNITYSDK_OFFSET(0x1B44EF30)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_OutputAttributeDictionary_TypeDefinitionIndex = 38273;
+	inline static constexpr unsigned int HEU_OutputAttributeDictionary_TypeDefinitionIndex = 39132;
 
 	class HEU_OutputAttributeDictionary : public ::HoudiniEngineUnity::HEU_SerializableDictionary_2<::System::String*, ::HoudiniEngineUnity::HEU_OutputAttribute*>
 	{

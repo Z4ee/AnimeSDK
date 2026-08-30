@@ -7,19 +7,19 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class NPCDataRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ENTITYMANAGEREXTENSION___C__DISPLAYCLASS9_0__CLIENTCREATEMAPNPC_B__0_OFFSET UNITYSDK_OFFSET(0xDA4D7F0)
-#define RPG_GAMECORE_ENTITYMANAGEREXTENSION___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0xDA2BA30)
+#define RPG_GAMECORE_ENTITYMANAGEREXTENSION___C__DISPLAYCLASS9_0__CLIENTCREATEMAPNPC_B__0_OFFSET UNITYSDK_OFFSET(0xE60C300)
+#define RPG_GAMECORE_ENTITYMANAGEREXTENSION___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0xE5EA170)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EntityManagerExtension___c__DisplayClass9_0_TypeDefinitionIndex = 55213;
+	inline static constexpr unsigned int EntityManagerExtension___c__DisplayClass9_0_TypeDefinitionIndex = 57937;
 
 	class EntityManagerExtension___c__DisplayClass9_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::MapNpcDef* npcDef; // 0x10
-		::RPG::GameCore::NPCDataRow* npcRow; // 0x18
-		::System::String* aiPath; // 0x20
+		::RPG::GameCore::NPCDataRow* npcRow; // 0x10
+		::System::String* aiPath; // 0x18
+		::RPG::Client::MapNpcDef* npcDef; // 0x20
 		::System::Boolean isAIPathEmpty; // 0x28
 
 		::System::Void _ctor()

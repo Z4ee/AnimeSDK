@@ -5,15 +5,15 @@
 namespace RPG::GameCore { class CreateBattleEventEntityFromStage; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_4_F319A0B161FEC6F4_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCAC2DE0)
-#define CLASS_4_F319A0B161FEC6F4__CTOR_OFFSET UNITYSDK_OFFSET(0xCAC2DC0)
+#define CLASS_4_F319A0B161FEC6F4_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xD2603C0)
+#define CLASS_4_F319A0B161FEC6F4__CTOR_OFFSET UNITYSDK_OFFSET(0xD2603A0)
 
-inline static constexpr unsigned int Class_4_F319A0B161FEC6F4_TypeDefinitionIndex = 55460;
+inline static constexpr unsigned int Class_4_F319A0B161FEC6F4_TypeDefinitionIndex = 58191;
 
 class Class_4_F319A0B161FEC6F4 : public ::Class_3_778D44A66A0719FE
 {
 public:
-	::RPG::GameCore::CreateBattleEventEntityFromStage* Field_4_0; // 0x40
+	::RPG::GameCore::CreateBattleEventEntityFromStage* OFKGLJOAMLD; // 0x40
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::CreateBattleEventEntityFromStage* a2)
 	{

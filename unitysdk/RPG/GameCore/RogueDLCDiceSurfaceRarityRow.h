@@ -5,18 +5,18 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ROGUEDLCDICESURFACERARITYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B756900)
-#define RPG_GAMECORE_ROGUEDLCDICESURFACERARITYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B756F40)
+#define RPG_GAMECORE_ROGUEDLCDICESURFACERARITYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3D9A00)
+#define RPG_GAMECORE_ROGUEDLCDICESURFACERARITYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3DA040)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueDLCDiceSurfaceRarityRow_TypeDefinitionIndex = 14160;
+	inline static constexpr unsigned int RogueDLCDiceSurfaceRarityRow_TypeDefinitionIndex = 14580;
 
 	class RogueDLCDiceSurfaceRarityRow : public ::System::Object
 	{
 	public:
-		::System::String* DiceSurfaceRarityImage; // 0x10
-		::System::String* NameColor; // 0x18
+		::System::String* NameColor; // 0x10
+		::System::String* DiceSurfaceRarityImage; // 0x18
 		::System::UInt32 Rarity; // 0x20
 
 		::System::Void _ctor()

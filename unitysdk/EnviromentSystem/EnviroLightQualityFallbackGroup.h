@@ -10,21 +10,21 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define ENVIROMENTSYSTEM_ENVIROLIGHTQUALITYFALLBACKGROUP_METHOD_3_95EAF395E6F95EA4_OFFSET UNITYSDK_OFFSET(0x144ED4E0)
-#define ENVIROMENTSYSTEM_ENVIROLIGHTQUALITYFALLBACKGROUP_METHOD_3_BE94804ECFD1BEAC_OFFSET UNITYSDK_OFFSET(0x144ECB10)
-#define ENVIROMENTSYSTEM_ENVIROLIGHTQUALITYFALLBACKGROUP__CCTOR_OFFSET UNITYSDK_OFFSET(0x144EDD20)
-#define ENVIROMENTSYSTEM_ENVIROLIGHTQUALITYFALLBACKGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x144EC770)
+#define ENVIROMENTSYSTEM_ENVIROLIGHTQUALITYFALLBACKGROUP_METHOD_3_95EAF395E6F95EA4_OFFSET UNITYSDK_OFFSET(0x1531F820)
+#define ENVIROMENTSYSTEM_ENVIROLIGHTQUALITYFALLBACKGROUP_METHOD_3_BE94804ECFD1BEAC_OFFSET UNITYSDK_OFFSET(0x1531EE50)
+#define ENVIROMENTSYSTEM_ENVIROLIGHTQUALITYFALLBACKGROUP__CCTOR_OFFSET UNITYSDK_OFFSET(0x15320070)
+#define ENVIROMENTSYSTEM_ENVIROLIGHTQUALITYFALLBACKGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1531E980)
 
 namespace EnviromentSystem
 {
-	inline static constexpr unsigned int EnviroLightQualityFallbackGroup_TypeDefinitionIndex = 47767;
+	inline static constexpr unsigned int EnviroLightQualityFallbackGroup_TypeDefinitionIndex = 50048;
 
 	class EnviroLightQualityFallbackGroup : public ::EnviromentSystem::EnviroBoolProperty
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::EnviromentSystem::EnviromentPropertiesID, ::System::String*>** StaticGet_PropertyGroupNameDic()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::EnviromentSystem::EnviromentPropertiesID, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(EnviroLightQualityFallbackGroup_TypeDefinitionIndex)->GetStaticField(0x37CC0);
+			return (::System::Collections::Generic::Dictionary_2<::EnviromentSystem::EnviromentPropertiesID, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(EnviroLightQualityFallbackGroup_TypeDefinitionIndex)->GetStaticField(0x64EF0);
 		}
 		::EnviromentSystem::EnviromentPropertiesID highProperty; // 0x60
 		::EnviromentSystem::EnviromentPropertiesID middleProperty; // 0x64

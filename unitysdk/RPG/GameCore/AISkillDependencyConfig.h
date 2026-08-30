@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_AISKILLDEPENDENCYCONFIG_METHOD_2_A46AA0C89233FBC0_OFFSET UNITYSDK_OFFSET(0x1B0F1100)
-#define RPG_GAMECORE_AISKILLDEPENDENCYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0F1250)
+#define RPG_GAMECORE_AISKILLDEPENDENCYCONFIG_METHOD_2_A46AA0C89233FBC0_OFFSET UNITYSDK_OFFSET(0x1CD67690)
+#define RPG_GAMECORE_AISKILLDEPENDENCYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD677E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AISkillDependencyConfig_TypeDefinitionIndex = 15006;
+	inline static constexpr unsigned int AISkillDependencyConfig_TypeDefinitionIndex = 15442;
 
 	class AISkillDependencyConfig : public ::RPG::GameCore::JsonConfig
 	{

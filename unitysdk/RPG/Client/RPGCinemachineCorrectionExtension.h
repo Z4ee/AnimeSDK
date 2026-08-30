@@ -7,21 +7,21 @@
 
 namespace Cinemachine { class CinemachineVirtualCameraBase; }
 
-#define RPG_CLIENT_RPGCINEMACHINECORRECTIONEXTENSION_POSTPIPELINESTAGECALLBACK_OFFSET UNITYSDK_OFFSET(0xD28B250)
-#define RPG_CLIENT_RPGCINEMACHINECORRECTIONEXTENSION_SETENABLE_OFFSET UNITYSDK_OFFSET(0xD28B200)
-#define RPG_CLIENT_RPGCINEMACHINECORRECTIONEXTENSION__CTOR_OFFSET UNITYSDK_OFFSET(0xD28B4D0)
+#define RPG_CLIENT_RPGCINEMACHINECORRECTIONEXTENSION_POSTPIPELINESTAGECALLBACK_OFFSET UNITYSDK_OFFSET(0xDDCA030)
+#define RPG_CLIENT_RPGCINEMACHINECORRECTIONEXTENSION_SETENABLE_OFFSET UNITYSDK_OFFSET(0xDDC9FE0)
+#define RPG_CLIENT_RPGCINEMACHINECORRECTIONEXTENSION__CTOR_OFFSET UNITYSDK_OFFSET(0xDDCA2B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RPGCinemachineCorrectionExtension_TypeDefinitionIndex = 66571;
+	inline static constexpr unsigned int RPGCinemachineCorrectionExtension_TypeDefinitionIndex = 69666;
 
 	class RPGCinemachineCorrectionExtension : public ::Cinemachine::CinemachineExtension
 	{
 	public:
 		::UnityEngine::Vector2 InputPitchRange; // 0x28
 		::System::Single InitYAxisRatio; // 0x30
-		::System::Boolean Field_6_2; // 0x34
-		::System::Boolean Field_6_3; // 0x35
+		::System::Boolean MPDAKDBKKJL; // 0x34
+		::System::Boolean MOKNCFJICIC; // 0x35
 
 		::System::Void _ctor()
 		{

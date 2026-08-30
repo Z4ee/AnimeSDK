@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MINIEMOEFFECTNODEVISIBLE_METHOD_2_00DF941BF7B88851_OFFSET UNITYSDK_OFFSET(0x1B5F86A0)
-#define RPG_GAMECORE_MINIEMOEFFECTNODEVISIBLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5F8800)
+#define RPG_GAMECORE_MINIEMOEFFECTNODEVISIBLE_METHOD_2_00DF941BF7B88851_OFFSET UNITYSDK_OFFSET(0x1D29DBC0)
+#define RPG_GAMECORE_MINIEMOEFFECTNODEVISIBLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D29DD20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MiniEmoEffectNodeVisible_TypeDefinitionIndex = 21055;
+	inline static constexpr unsigned int MiniEmoEffectNodeVisible_TypeDefinitionIndex = 21613;
 
 	class MiniEmoEffectNodeVisible : public ::RPG::GameCore::JsonConfig
 	{

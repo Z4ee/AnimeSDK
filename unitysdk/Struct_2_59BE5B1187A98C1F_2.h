@@ -5,10 +5,10 @@
 class Class_1_C3BFABD739F08E23;
 class Class_1_D7976A8B64BD43B9;
 
-inline static constexpr unsigned int Struct_2_59BE5B1187A98C1F_2_TypeDefinitionIndex = 68225;
+inline static constexpr unsigned int Struct_2_59BE5B1187A98C1F_2_TypeDefinitionIndex = 71406;
 
 struct alignas(8) Struct_2_59BE5B1187A98C1F_2
 {
-	::Class_1_D7976A8B64BD43B9* Field_2_0; // 0x10
-	::Class_1_C3BFABD739F08E23* Field_2_1; // 0x18
+	::Class_1_D7976A8B64BD43B9* KGHJMJDENKJ; // 0x10
+	::Class_1_C3BFABD739F08E23* NNACKOBKFGE; // 0x18
 };

@@ -6,15 +6,15 @@ class Class_2_21AD365C113DC484;
 class Class_2_F3C45F1FC7349B6E;
 namespace RPG::GameCore { class CakeRaceActionChangeCurSectionNormalCell; }
 
-#define CLASS_2_61F7418FC4E0AE83_METHOD_2_03B70CCB3BA1FD4A_OFFSET UNITYSDK_OFFSET(0x1A42ACE0)
-#define CLASS_2_61F7418FC4E0AE83__CTOR_OFFSET UNITYSDK_OFFSET(0x1A42ACD0)
+#define CLASS_2_61F7418FC4E0AE83_METHOD_2_03B70CCB3BA1FD4A_OFFSET UNITYSDK_OFFSET(0x1C03A0D0)
+#define CLASS_2_61F7418FC4E0AE83__CTOR_OFFSET UNITYSDK_OFFSET(0x1C03A0C0)
 
-inline static constexpr unsigned int Class_2_61F7418FC4E0AE83_TypeDefinitionIndex = 35831;
+inline static constexpr unsigned int Class_2_61F7418FC4E0AE83_TypeDefinitionIndex = 36692;
 
 class Class_2_61F7418FC4E0AE83 : public ::Class_1_E559374AC4E5AD13
 {
 public:
-	::RPG::GameCore::CakeRaceActionChangeCurSectionNormalCell* Field_2_0; // 0x10
+	::RPG::GameCore::CakeRaceActionChangeCurSectionNormalCell* ECFIHBEJFJN; // 0x10
 
 	::System::Void _ctor(::RPG::GameCore::CakeRaceActionChangeCurSectionNormalCell* a1)
 	{

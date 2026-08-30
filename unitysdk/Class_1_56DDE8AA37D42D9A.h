@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/GameCore/PuzzleTutorialType.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_56DDE8AA37D42D9A_METHOD_1_18B391C2BDAD2224_OFFSET UNITYSDK_OFFSET(0x153F7F90)
+#define CLASS_1_56DDE8AA37D42D9A_METHOD_1_18B391C2BDAD2224_OFFSET UNITYSDK_OFFSET(0x163342E0)
 
-inline static constexpr unsigned int Class_1_56DDE8AA37D42D9A_TypeDefinitionIndex = 74830;
+inline static constexpr unsigned int Class_1_56DDE8AA37D42D9A_TypeDefinitionIndex = 78315;
 
 class Class_1_56DDE8AA37D42D9A : public ::System::Object
 {

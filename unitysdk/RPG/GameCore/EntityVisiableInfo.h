@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ENTITYVISIABLEINFO_METHOD_2_92512B14B844A479_OFFSET UNITYSDK_OFFSET(0x1B3EEAA0)
-#define RPG_GAMECORE_ENTITYVISIABLEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3EEB90)
+#define RPG_GAMECORE_ENTITYVISIABLEINFO_METHOD_2_92512B14B844A479_OFFSET UNITYSDK_OFFSET(0x1D06D1A0)
+#define RPG_GAMECORE_ENTITYVISIABLEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1D06D290)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EntityVisiableInfo_TypeDefinitionIndex = 21047;
+	inline static constexpr unsigned int EntityVisiableInfo_TypeDefinitionIndex = 21605;
 
 	class EntityVisiableInfo : public ::RPG::GameCore::JsonConfig
 	{

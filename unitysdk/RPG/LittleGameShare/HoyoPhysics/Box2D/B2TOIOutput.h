@@ -6,7 +6,7 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2TOIOutput_TypeDefinitionIndex = 35240;
+	inline static constexpr unsigned int B2TOIOutput_TypeDefinitionIndex = 36101;
 
 	struct alignas(4) B2TOIOutput
 	{

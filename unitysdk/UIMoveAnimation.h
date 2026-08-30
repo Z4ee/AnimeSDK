@@ -5,18 +5,18 @@
 
 namespace UnityEngine { class RectTransform; }
 
-#define UIMOVEANIMATION_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xDDB7350)
-#define UIMOVEANIMATION_START_OFFSET UNITYSDK_OFFSET(0xDDB7190)
-#define UIMOVEANIMATION__CTOR_OFFSET UNITYSDK_OFFSET(0xDDB75E0)
+#define UIMOVEANIMATION_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xE9900E0)
+#define UIMOVEANIMATION_START_OFFSET UNITYSDK_OFFSET(0xE98FF00)
+#define UIMOVEANIMATION__CTOR_OFFSET UNITYSDK_OFFSET(0xE990370)
 
-inline static constexpr unsigned int UIMoveAnimation_TypeDefinitionIndex = 45493;
+inline static constexpr unsigned int UIMoveAnimation_TypeDefinitionIndex = 47743;
 
 class UIMoveAnimation : public ::UnityEngine::MonoBehaviour
 {
 public:
-	::UnityEngine::Vector3 Field_5_0; // 0x18
-	::UnityEngine::RectTransform* Field_5_1; // 0x28
-	::System::Single Field_5_2; // 0x30
+	::UnityEngine::Vector3 IKDPLPEAHDD; // 0x18
+	::UnityEngine::RectTransform* IGLNACMFMHF; // 0x28
+	::System::Single BPBAOFEOGOM; // 0x30
 
 	::System::Void _ctor()
 	{

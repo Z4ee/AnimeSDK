@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_TIMELINECONTROLGAMEPLAYERCONFIGASSET__CTOR_OFFSET UNITYSDK_OFFSET(0xD6D4370)
+#define RPG_CLIENT_TIMELINECONTROLGAMEPLAYERCONFIGASSET__CTOR_OFFSET UNITYSDK_OFFSET(0xE223D20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TimelineControlGamePlayerConfigAsset_TypeDefinitionIndex = 57716;
+	inline static constexpr unsigned int TimelineControlGamePlayerConfigAsset_TypeDefinitionIndex = 60534;
 
 	class TimelineControlGamePlayerConfigAsset : public ::RPG::Client::TimelineControlGameCharacterConfigAsset
 	{

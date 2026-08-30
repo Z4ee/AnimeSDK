@@ -30,119 +30,119 @@ namespace UnityEngine { class Object; }
 namespace UnityEngine { class TextGenerator; }
 namespace UnityEngine::Pooled { template <typename T> class PooledList_1; }
 
-#define RPG_CLIENT_SIMPLETEXTMANAGERMONO_AWAKE_OFFSET UNITYSDK_OFFSET(0xD5058B0)
-#define RPG_CLIENT_SIMPLETEXTMANAGERMONO_GENERATETEXTMESH_OFFSET UNITYSDK_OFFSET(0xD500FA0)
-#define RPG_CLIENT_SIMPLETEXTMANAGERMONO_GET_DEFAULTTEXTGENERATIONSETTINGS_OFFSET UNITYSDK_OFFSET(0xD5026B0)
-#define RPG_CLIENT_SIMPLETEXTMANAGERMONO_GET_SDFGENERATOR_OFFSET UNITYSDK_OFFSET(0xD4FEB40)
-#define RPG_CLIENT_SIMPLETEXTMANAGERMONO_METHOD_5_1968254790725541_OFFSET UNITYSDK_OFFSET(0xD509E40)
-#define RPG_CLIENT_SIMPLETEXTMANAGERMONO_METHOD_5_4C409DF5E54C7553_OFFSET UNITYSDK_OFFSET(0xD5029D0)
-#define RPG_CLIENT_SIMPLETEXTMANAGERMONO_METHOD_5_50A40B1E30978D4D_OFFSET UNITYSDK_OFFSET(0xD509570)
-#define RPG_CLIENT_SIMPLETEXTMANAGERMONO_METHOD_5_51CFFE2AF748ECD7_OFFSET UNITYSDK_OFFSET(0xD505DF0)
-#define RPG_CLIENT_SIMPLETEXTMANAGERMONO_METHOD_5_52C9A41EF07B6497_OFFSET UNITYSDK_OFFSET(0xD50EB80)
-#define RPG_CLIENT_SIMPLETEXTMANAGERMONO_METHOD_5_59238DC2200E9C17_OFFSET UNITYSDK_OFFSET(0xD506660)
-#define RPG_CLIENT_SIMPLETEXTMANAGERMONO_METHOD_5_61B136594A4551CD_OFFSET UNITYSDK_OFFSET(0xD502FA0)
-#define RPG_CLIENT_SIMPLETEXTMANAGERMONO_METHOD_5_6EFD3243E63860C6_OFFSET UNITYSDK_OFFSET(0xD50F1D0)
-#define RPG_CLIENT_SIMPLETEXTMANAGERMONO_METHOD_5_76B481793BBB8B18_OFFSET UNITYSDK_OFFSET(0xD508440)
-#define RPG_CLIENT_SIMPLETEXTMANAGERMONO_METHOD_5_79E2D1959C17629D_OFFSET UNITYSDK_OFFSET(0xD50B610)
-#define RPG_CLIENT_SIMPLETEXTMANAGERMONO_METHOD_5_7F2F2302B542D18A_OFFSET UNITYSDK_OFFSET(0xD508120)
-#define RPG_CLIENT_SIMPLETEXTMANAGERMONO_METHOD_5_7FBFC04DB341E38F_OFFSET UNITYSDK_OFFSET(0xD508270)
-#define RPG_CLIENT_SIMPLETEXTMANAGERMONO_METHOD_5_84C4B29CED539C51_OFFSET UNITYSDK_OFFSET(0xD50B1E0)
-#define RPG_CLIENT_SIMPLETEXTMANAGERMONO_METHOD_5_89343B500C41249D_OFFSET UNITYSDK_OFFSET(0xD50EEF0)
-#define RPG_CLIENT_SIMPLETEXTMANAGERMONO_METHOD_5_9E52EF4365554D75_OFFSET UNITYSDK_OFFSET(0xD507240)
-#define RPG_CLIENT_SIMPLETEXTMANAGERMONO_METHOD_5_A6F857A5871E9AC4_OFFSET UNITYSDK_OFFSET(0xD50A430)
-#define RPG_CLIENT_SIMPLETEXTMANAGERMONO_METHOD_5_B11A8F18EBB41ACE_OFFSET UNITYSDK_OFFSET(0xD50F240)
-#define RPG_CLIENT_SIMPLETEXTMANAGERMONO_METHOD_5_DB32A5537537503B_OFFSET UNITYSDK_OFFSET(0xD50A1A0)
-#define RPG_CLIENT_SIMPLETEXTMANAGERMONO_METHOD_5_DC7497A58B0677FC_OFFSET UNITYSDK_OFFSET(0xD50B470)
-#define RPG_CLIENT_SIMPLETEXTMANAGERMONO_METHOD_5_F9326FB93A1F02CB_OFFSET UNITYSDK_OFFSET(0xD50EC00)
-#define RPG_CLIENT_SIMPLETEXTMANAGERMONO_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xD505F60)
-#define RPG_CLIENT_SIMPLETEXTMANAGERMONO_ONENABLE_OFFSET UNITYSDK_OFFSET(0xD505940)
-#define RPG_CLIENT_SIMPLETEXTMANAGERMONO_ONTRANSFORMPARENTCHANGED_OFFSET UNITYSDK_OFFSET(0xD506610)
-#define RPG_CLIENT_SIMPLETEXTMANAGERMONO_SETBATCHORDERDIRTY_OFFSET UNITYSDK_OFFSET(0xD4FF760)
-#define RPG_CLIENT_SIMPLETEXTMANAGERMONO_SETTRACKDIRTY_OFFSET UNITYSDK_OFFSET(0xD4FE800)
-#define RPG_CLIENT_SIMPLETEXTMANAGERMONO_SETTRACKFONTDIRTY_OFFSET UNITYSDK_OFFSET(0xD4FE970)
-#define RPG_CLIENT_SIMPLETEXTMANAGERMONO_UPDATEBATCH_OFFSET UNITYSDK_OFFSET(0xD502800)
-#define RPG_CLIENT_SIMPLETEXTMANAGERMONO__AWAKE_G__SETUP_4_0_OFFSET UNITYSDK_OFFSET(0xD505910)
-#define RPG_CLIENT_SIMPLETEXTMANAGERMONO__CCTOR_OFFSET UNITYSDK_OFFSET(0xD50F6A0)
-#define RPG_CLIENT_SIMPLETEXTMANAGERMONO__CTOR_OFFSET UNITYSDK_OFFSET(0xD50F3C0)
-#define RPG_CLIENT_SIMPLETEXTMANAGERMONO__UPDATETRACKEDTEXT_G__UPDATEIMPL_16_0_OFFSET UNITYSDK_OFFSET(0xD507520)
+#define RPG_CLIENT_SIMPLETEXTMANAGERMONO_AWAKE_OFFSET UNITYSDK_OFFSET(0xE0952B0)
+#define RPG_CLIENT_SIMPLETEXTMANAGERMONO_GENERATETEXTMESH_OFFSET UNITYSDK_OFFSET(0xE0909A0)
+#define RPG_CLIENT_SIMPLETEXTMANAGERMONO_GET_DEFAULTTEXTGENERATIONSETTINGS_OFFSET UNITYSDK_OFFSET(0xE0920B0)
+#define RPG_CLIENT_SIMPLETEXTMANAGERMONO_GET_SDFGENERATOR_OFFSET UNITYSDK_OFFSET(0xE08E4B0)
+#define RPG_CLIENT_SIMPLETEXTMANAGERMONO_METHOD_5_1968254790725541_OFFSET UNITYSDK_OFFSET(0xE099840)
+#define RPG_CLIENT_SIMPLETEXTMANAGERMONO_METHOD_5_4C409DF5E54C7553_OFFSET UNITYSDK_OFFSET(0xE0923D0)
+#define RPG_CLIENT_SIMPLETEXTMANAGERMONO_METHOD_5_50A40B1E30978D4D_OFFSET UNITYSDK_OFFSET(0xE098F70)
+#define RPG_CLIENT_SIMPLETEXTMANAGERMONO_METHOD_5_51CFFE2AF748ECD7_OFFSET UNITYSDK_OFFSET(0xE0957F0)
+#define RPG_CLIENT_SIMPLETEXTMANAGERMONO_METHOD_5_52C9A41EF07B6497_OFFSET UNITYSDK_OFFSET(0xE09E580)
+#define RPG_CLIENT_SIMPLETEXTMANAGERMONO_METHOD_5_59238DC2200E9C17_OFFSET UNITYSDK_OFFSET(0xE096060)
+#define RPG_CLIENT_SIMPLETEXTMANAGERMONO_METHOD_5_61B136594A4551CD_OFFSET UNITYSDK_OFFSET(0xE0929A0)
+#define RPG_CLIENT_SIMPLETEXTMANAGERMONO_METHOD_5_6EFD3243E63860C6_OFFSET UNITYSDK_OFFSET(0xE09EBD0)
+#define RPG_CLIENT_SIMPLETEXTMANAGERMONO_METHOD_5_76B481793BBB8B18_OFFSET UNITYSDK_OFFSET(0xE097E40)
+#define RPG_CLIENT_SIMPLETEXTMANAGERMONO_METHOD_5_79E2D1959C17629D_OFFSET UNITYSDK_OFFSET(0xE09B010)
+#define RPG_CLIENT_SIMPLETEXTMANAGERMONO_METHOD_5_7F2F2302B542D18A_OFFSET UNITYSDK_OFFSET(0xE097B20)
+#define RPG_CLIENT_SIMPLETEXTMANAGERMONO_METHOD_5_7FBFC04DB341E38F_OFFSET UNITYSDK_OFFSET(0xE097C70)
+#define RPG_CLIENT_SIMPLETEXTMANAGERMONO_METHOD_5_84C4B29CED539C51_OFFSET UNITYSDK_OFFSET(0xE09ABE0)
+#define RPG_CLIENT_SIMPLETEXTMANAGERMONO_METHOD_5_89343B500C41249D_OFFSET UNITYSDK_OFFSET(0xE09E8F0)
+#define RPG_CLIENT_SIMPLETEXTMANAGERMONO_METHOD_5_9E52EF4365554D75_OFFSET UNITYSDK_OFFSET(0xE096C40)
+#define RPG_CLIENT_SIMPLETEXTMANAGERMONO_METHOD_5_A6F857A5871E9AC4_OFFSET UNITYSDK_OFFSET(0xE099E30)
+#define RPG_CLIENT_SIMPLETEXTMANAGERMONO_METHOD_5_B11A8F18EBB41ACE_OFFSET UNITYSDK_OFFSET(0xE09EC40)
+#define RPG_CLIENT_SIMPLETEXTMANAGERMONO_METHOD_5_DB32A5537537503B_OFFSET UNITYSDK_OFFSET(0xE099BA0)
+#define RPG_CLIENT_SIMPLETEXTMANAGERMONO_METHOD_5_DC7497A58B0677FC_OFFSET UNITYSDK_OFFSET(0xE09AE70)
+#define RPG_CLIENT_SIMPLETEXTMANAGERMONO_METHOD_5_F9326FB93A1F02CB_OFFSET UNITYSDK_OFFSET(0xE09E600)
+#define RPG_CLIENT_SIMPLETEXTMANAGERMONO_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xE095960)
+#define RPG_CLIENT_SIMPLETEXTMANAGERMONO_ONENABLE_OFFSET UNITYSDK_OFFSET(0xE095340)
+#define RPG_CLIENT_SIMPLETEXTMANAGERMONO_ONTRANSFORMPARENTCHANGED_OFFSET UNITYSDK_OFFSET(0xE096010)
+#define RPG_CLIENT_SIMPLETEXTMANAGERMONO_SETBATCHORDERDIRTY_OFFSET UNITYSDK_OFFSET(0xE08F100)
+#define RPG_CLIENT_SIMPLETEXTMANAGERMONO_SETTRACKDIRTY_OFFSET UNITYSDK_OFFSET(0xE08E170)
+#define RPG_CLIENT_SIMPLETEXTMANAGERMONO_SETTRACKFONTDIRTY_OFFSET UNITYSDK_OFFSET(0xE08E2E0)
+#define RPG_CLIENT_SIMPLETEXTMANAGERMONO_UPDATEBATCH_OFFSET UNITYSDK_OFFSET(0xE092200)
+#define RPG_CLIENT_SIMPLETEXTMANAGERMONO__AWAKE_G__SETUP_4_0_OFFSET UNITYSDK_OFFSET(0xE095310)
+#define RPG_CLIENT_SIMPLETEXTMANAGERMONO__CCTOR_OFFSET UNITYSDK_OFFSET(0xE09F0A0)
+#define RPG_CLIENT_SIMPLETEXTMANAGERMONO__CTOR_OFFSET UNITYSDK_OFFSET(0xE09EDC0)
+#define RPG_CLIENT_SIMPLETEXTMANAGERMONO__UPDATETRACKEDTEXT_G__UPDATEIMPL_16_0_OFFSET UNITYSDK_OFFSET(0xE096F20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SimpleTextManagerMono_TypeDefinitionIndex = 69362;
+	inline static constexpr unsigned int SimpleTextManagerMono_TypeDefinitionIndex = 72570;
 
 	class SimpleTextManagerMono : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::Collections::Pooled::PooledList_1<::RPG::Client::SimpleTextManagerMono*>** StaticGet_Field_5_0()
+		static ::Collections::Pooled::PooledList_1<::RPG::Client::SimpleTextManagerMono*>** StaticGet_DFIEIMEAIAP()
 		{
-			return (::Collections::Pooled::PooledList_1<::RPG::Client::SimpleTextManagerMono*>**)Il2CppClass::FromTypeDefinitionIndex(SimpleTextManagerMono_TypeDefinitionIndex)->GetStaticField(0x32560);
+			return (::Collections::Pooled::PooledList_1<::RPG::Client::SimpleTextManagerMono*>**)Il2CppClass::FromTypeDefinitionIndex(SimpleTextManagerMono_TypeDefinitionIndex)->GetStaticField(0x25970);
+		}
+		static ::Unity::Profiling::ProfilerMarker* StaticGet_GPKFNIPPBHC()
+		{
+			return (::Unity::Profiling::ProfilerMarker*)Il2CppClass::FromTypeDefinitionIndex(SimpleTextManagerMono_TypeDefinitionIndex)->GetStaticField(0xB340);
 		}
 		static ::System::Int32* StaticGet_Layer()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SimpleTextManagerMono_TypeDefinitionIndex)->GetStaticField(0x8740);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SimpleTextManagerMono_TypeDefinitionIndex)->GetStaticField(0xB348);
 		}
-		static ::System::Int32* StaticGet_Field_5_2()
+		static ::System::Int32* StaticGet_JMCAODFDFNH()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SimpleTextManagerMono_TypeDefinitionIndex)->GetStaticField(0x8744);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SimpleTextManagerMono_TypeDefinitionIndex)->GetStaticField(0xB34C);
 		}
-		static ::Unity::Profiling::ProfilerMarker* StaticGet_Field_5_3()
+		static ::Unity::Profiling::ProfilerMarker* StaticGet_EJBNEGFPJOH()
 		{
-			return (::Unity::Profiling::ProfilerMarker*)Il2CppClass::FromTypeDefinitionIndex(SimpleTextManagerMono_TypeDefinitionIndex)->GetStaticField(0x8748);
+			return (::Unity::Profiling::ProfilerMarker*)Il2CppClass::FromTypeDefinitionIndex(SimpleTextManagerMono_TypeDefinitionIndex)->GetStaticField(0xB350);
 		}
-		static ::Unity::Profiling::ProfilerMarker* StaticGet_Field_5_4()
+		static ::System::Int32* StaticGet_PDBEDDNEHKH()
 		{
-			return (::Unity::Profiling::ProfilerMarker*)Il2CppClass::FromTypeDefinitionIndex(SimpleTextManagerMono_TypeDefinitionIndex)->GetStaticField(0x8750);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SimpleTextManagerMono_TypeDefinitionIndex)->GetStaticField(0xB358);
 		}
-		static ::Unity::Profiling::ProfilerMarker* StaticGet_Field_5_5()
+		static ::System::Int32* StaticGet_KDJLFBKOFIF()
 		{
-			return (::Unity::Profiling::ProfilerMarker*)Il2CppClass::FromTypeDefinitionIndex(SimpleTextManagerMono_TypeDefinitionIndex)->GetStaticField(0x8758);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SimpleTextManagerMono_TypeDefinitionIndex)->GetStaticField(0xB35C);
 		}
-		static ::System::Int32* StaticGet_Field_5_6()
+		static ::Unity::Profiling::ProfilerMarker* StaticGet_MFMPAAHOCGP()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SimpleTextManagerMono_TypeDefinitionIndex)->GetStaticField(0x8760);
+			return (::Unity::Profiling::ProfilerMarker*)Il2CppClass::FromTypeDefinitionIndex(SimpleTextManagerMono_TypeDefinitionIndex)->GetStaticField(0xB360);
 		}
-		static ::System::Int32* StaticGet_Field_5_7()
+		static ::System::Int32* StaticGet_IMIHBONNNGA()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SimpleTextManagerMono_TypeDefinitionIndex)->GetStaticField(0x8764);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SimpleTextManagerMono_TypeDefinitionIndex)->GetStaticField(0xB368);
 		}
-		static ::System::Int32* StaticGet_Field_5_8()
+		static ::System::Int32* StaticGet_OFCOJGEKMML()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SimpleTextManagerMono_TypeDefinitionIndex)->GetStaticField(0x8768);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SimpleTextManagerMono_TypeDefinitionIndex)->GetStaticField(0xB36C);
 		}
-		static ::System::Int32* StaticGet_Field_5_9()
+		static ::System::Int32* StaticGet_JNHEIPBJAJF()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SimpleTextManagerMono_TypeDefinitionIndex)->GetStaticField(0x876C);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SimpleTextManagerMono_TypeDefinitionIndex)->GetStaticField(0xB370);
 		}
-		static ::System::Int32* StaticGet_Field_5_10()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SimpleTextManagerMono_TypeDefinitionIndex)->GetStaticField(0x8770);
-		}
-		// static const ::System::Int32 Field_5_11 = 0x60; // 0x0
-		::UnityEngine::TextGenerator* Field_5_12; // 0x18
-		::UnityEngine::Material* Field_5_13; // 0x20
-		::UnityEngine::Material* Field_5_14; // 0x28
-		::System::Collections::Generic::Dictionary_2<::UnityEngine::Font*, ::UnityEngine::Material*>* Field_5_15; // 0x30
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::UnityEngine::Font*, ::System::Int32>, ::RPG::Client::SimpleTextManagerMono_Class_1_7F572A2075EA0638*>* Field_5_16; // 0x38
-		::RPG::Client::SimpleTextManagerMono_Class_1_AEB38CCB65A662DA* Field_5_17; // 0x40
-		::UnityEngine::Canvas* Field_5_18; // 0x48
-		::RPG::Client::SimpleTextTextureConfig* Field_5_19; // 0x50
-		::Il2CppArray<::UnityEngine::Vector3>* Field_5_20; // 0x58
-		::Il2CppArray<::UnityEngine::Color32>* Field_5_21; // 0x60
-		::Il2CppArray<::UnityEngine::Vector4>* Field_5_22; // 0x68
-		::Il2CppArray<::UnityEngine::Vector4>* Field_5_23; // 0x70
-		::Il2CppArray<::UnityEngine::Vector4>* Field_5_24; // 0x78
-		::Il2CppArray<::UnityEngine::Vector4>* Field_5_25; // 0x80
-		::Il2CppArray<::UnityEngine::Vector4>* Field_5_26; // 0x88
-		::Il2CppArray<::System::Int32>* Field_5_27; // 0x90
-		::System::Int32 Field_5_28; // 0x98
-		::Il2CppArray<::System::ValueTuple_2<::System::Int32, ::System::Int32>>* Field_5_29; // 0xA0
-		::System::Collections::Generic::Dictionary_2<::UnityEngine::Font*, ::Collections::Pooled::PooledList_1<::RPG::Client::SimpleText*>*>* Field_5_30; // 0xA8
-		::System::Func_3<::RPG::Client::SimpleText*, ::RPG::Client::SimpleText*, ::System::Int32>* Field_5_31; // 0xB0
-		::System::Boolean Field_5_32; // 0xB8
-		::System::Boolean Field_5_33; // 0xB9
-		::System::Boolean Field_5_34; // 0xBA
-		::System::Boolean Field_5_35; // 0xBB
-		::RPG::Client::SimpleTextManagerMono_BatchState Field_5_36; // 0xBC
+		// static const ::System::Int32 DEJIGGDHACD = 0x60; // 0x0
+		::UnityEngine::TextGenerator* MAJPAJNLKNM; // 0x18
+		::UnityEngine::Material* DDONFNGMNOI; // 0x20
+		::UnityEngine::Material* CGHKHJEBJNP; // 0x28
+		::System::Collections::Generic::Dictionary_2<::UnityEngine::Font*, ::UnityEngine::Material*>* MMAIKIMKCJF; // 0x30
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::UnityEngine::Font*, ::System::Int32>, ::RPG::Client::SimpleTextManagerMono_Class_1_7F572A2075EA0638*>* ENILFCNHPAN; // 0x38
+		::RPG::Client::SimpleTextManagerMono_Class_1_AEB38CCB65A662DA* BCLKFHBHBEM; // 0x40
+		::UnityEngine::Canvas* HEDBJGFDNBN; // 0x48
+		::RPG::Client::SimpleTextTextureConfig* FMHLDDIPMHI; // 0x50
+		::Il2CppArray<::UnityEngine::Vector3>* HCJLAGALICG; // 0x58
+		::Il2CppArray<::UnityEngine::Color32>* CGHNCPBLNBL; // 0x60
+		::Il2CppArray<::UnityEngine::Vector4>* EPBJOHGCDEM; // 0x68
+		::Il2CppArray<::UnityEngine::Vector4>* JEKNOKFKNHK; // 0x70
+		::Il2CppArray<::UnityEngine::Vector4>* GDNHIIPPKFJ; // 0x78
+		::Il2CppArray<::UnityEngine::Vector4>* KEDFADOILHI; // 0x80
+		::Il2CppArray<::UnityEngine::Vector4>* KMFDJOMMONG; // 0x88
+		::Il2CppArray<::System::Int32>* MBJCFDJCLNM; // 0x90
+		::System::Int32 KGKLENNICOL; // 0x98
+		::Il2CppArray<::System::ValueTuple_2<::System::Int32, ::System::Int32>>* ELFCMCHGFPG; // 0xA0
+		::System::Collections::Generic::Dictionary_2<::UnityEngine::Font*, ::Collections::Pooled::PooledList_1<::RPG::Client::SimpleText*>*>* MALFNOKKIGG; // 0xA8
+		::System::Func_3<::RPG::Client::SimpleText*, ::RPG::Client::SimpleText*, ::System::Int32>* OPLAGNIIBEC; // 0xB0
+		::System::Boolean HENBOOJOPFO; // 0xB8
+		::System::Boolean PAAFBPDANIB; // 0xB9
+		::System::Boolean DNKKPLDAACH; // 0xBA
+		::System::Boolean OMJCHOFKBME; // 0xBB
+		::RPG::Client::SimpleTextManagerMono_BatchState JIDAOBNPCDD; // 0xBC
 
 		::System::Void _ctor()
 		{

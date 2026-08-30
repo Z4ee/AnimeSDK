@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_AIRSHIPCONFIG_METHOD_2_1E886CC3FDA3250B_OFFSET UNITYSDK_OFFSET(0x1B1918A0)
-#define RPG_GAMECORE_AIRSHIPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B191BE0)
+#define RPG_GAMECORE_AIRSHIPCONFIG_METHOD_2_1E886CC3FDA3250B_OFFSET UNITYSDK_OFFSET(0x1CE08D00)
+#define RPG_GAMECORE_AIRSHIPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE09040)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AirshipConfig_TypeDefinitionIndex = 16259;
+	inline static constexpr unsigned int AirshipConfig_TypeDefinitionIndex = 16743;
 
 	class AirshipConfig : public ::RPG::GameCore::JsonConfig
 	{

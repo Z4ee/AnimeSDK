@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TravelBrochurePasterType_TypeDefinitionIndex = 14842;
+	inline static constexpr unsigned int TravelBrochurePasterType_TypeDefinitionIndex = 15278;
 
 	enum class TravelBrochurePasterType : ::System::Int32
 	{

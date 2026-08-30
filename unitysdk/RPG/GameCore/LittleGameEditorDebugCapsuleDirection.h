@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LittleGameEditorDebugCapsuleDirection_TypeDefinitionIndex = 18124;
+	inline static constexpr unsigned int LittleGameEditorDebugCapsuleDirection_TypeDefinitionIndex = 18648;
 
 	enum class LittleGameEditorDebugCapsuleDirection : ::System::Int32
 	{

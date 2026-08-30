@@ -5,22 +5,22 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define RPG_CLIENT_GPUPARTICLEOCCLUDER_METHOD_5_062295FD6E4F57FD_OFFSET UNITYSDK_OFFSET(0xC698B00)
-#define RPG_CLIENT_GPUPARTICLEOCCLUDER_METHOD_5_BDD86D5220C39E4E_OFFSET UNITYSDK_OFFSET(0xC698C40)
-#define RPG_CLIENT_GPUPARTICLEOCCLUDER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xC698A60)
-#define RPG_CLIENT_GPUPARTICLEOCCLUDER_ONENABLE_OFFSET UNITYSDK_OFFSET(0xC698470)
-#define RPG_CLIENT_GPUPARTICLEOCCLUDER_REFRESHDISTANCETOCAMERA_OFFSET UNITYSDK_OFFSET(0xC698F40)
-#define RPG_CLIENT_GPUPARTICLEOCCLUDER__CTOR_OFFSET UNITYSDK_OFFSET(0xC699180)
+#define RPG_CLIENT_GPUPARTICLEOCCLUDER_METHOD_5_062295FD6E4F57FD_OFFSET UNITYSDK_OFFSET(0xD120810)
+#define RPG_CLIENT_GPUPARTICLEOCCLUDER_METHOD_5_CF00617FE35FAA7C_OFFSET UNITYSDK_OFFSET(0xD120950)
+#define RPG_CLIENT_GPUPARTICLEOCCLUDER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xD120770)
+#define RPG_CLIENT_GPUPARTICLEOCCLUDER_ONENABLE_OFFSET UNITYSDK_OFFSET(0xD120180)
+#define RPG_CLIENT_GPUPARTICLEOCCLUDER_REFRESHDISTANCETOCAMERA_OFFSET UNITYSDK_OFFSET(0xD120BD0)
+#define RPG_CLIENT_GPUPARTICLEOCCLUDER__CTOR_OFFSET UNITYSDK_OFFSET(0xD120E10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GpuParticleOccluder_TypeDefinitionIndex = 66669;
+	inline static constexpr unsigned int GpuParticleOccluder_TypeDefinitionIndex = 69770;
 
 	class GpuParticleOccluder : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::System::Single DistanceToCamera; // 0x18
-		::RPG::Client::GpuParticleOccluder_OBB Field_5_1; // 0x20
+		::RPG::Client::GpuParticleOccluder_OBB EKGEOOAKELB; // 0x20
 		::UnityEngine::Matrix4x4 WorldToCccluder; // 0x60
 
 		::System::Void _ctor()
@@ -43,9 +43,9 @@ namespace RPG::Client
 			return ((::System::Single(*)(::PVOID, ::RPG::Client::GpuParticleOccluder_OBB, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_GPUPARTICLEOCCLUDER_METHOD_5_062295FD6E4F57FD_OFFSET))(this, a1, a2);
 		}
 
-		::UnityEngine::Vector3 Method_5_BDD86D5220C39E4E(::RPG::Client::GpuParticleOccluder_OBB a1, ::UnityEngine::Vector3 a2)
+		::UnityEngine::Vector3 Method_5_CF00617FE35FAA7C(::RPG::Client::GpuParticleOccluder_OBB a1, ::UnityEngine::Vector3 a2)
 		{
-			return ((::UnityEngine::Vector3(*)(::PVOID, ::RPG::Client::GpuParticleOccluder_OBB, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_GPUPARTICLEOCCLUDER_METHOD_5_BDD86D5220C39E4E_OFFSET))(this, a1, a2);
+			return ((::UnityEngine::Vector3(*)(::PVOID, ::RPG::Client::GpuParticleOccluder_OBB, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_GPUPARTICLEOCCLUDER_METHOD_5_CF00617FE35FAA7C_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void RefreshDistanceToCamera(::UnityEngine::Vector3 a1)

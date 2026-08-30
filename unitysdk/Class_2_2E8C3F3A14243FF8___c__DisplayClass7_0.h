@@ -7,17 +7,17 @@ class Class_2_2E8C3F3A14243FF8;
 namespace RPG::Client::CakeRace { class CakeRaceLoanPrepareData; }
 namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
 
-#define CLASS_2_2E8C3F3A14243FF8___C__DISPLAYCLASS7_0__CONFIRMLOAN_B__0_OFFSET UNITYSDK_OFFSET(0xB1092A0)
-#define CLASS_2_2E8C3F3A14243FF8___C__DISPLAYCLASS7_0__CONFIRMLOAN_B__1_OFFSET UNITYSDK_OFFSET(0xB109340)
-#define CLASS_2_2E8C3F3A14243FF8___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB108250)
+#define CLASS_2_2E8C3F3A14243FF8___C__DISPLAYCLASS7_0__CONFIRMLOAN_B__0_OFFSET UNITYSDK_OFFSET(0xBA8A980)
+#define CLASS_2_2E8C3F3A14243FF8___C__DISPLAYCLASS7_0__CONFIRMLOAN_B__1_OFFSET UNITYSDK_OFFSET(0xBA8AA20)
+#define CLASS_2_2E8C3F3A14243FF8___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBA89930)
 
-inline static constexpr unsigned int Class_2_2E8C3F3A14243FF8___c__DisplayClass7_0_TypeDefinitionIndex = 72550;
+inline static constexpr unsigned int Class_2_2E8C3F3A14243FF8___c__DisplayClass7_0_TypeDefinitionIndex = 75986;
 
 class Class_2_2E8C3F3A14243FF8___c__DisplayClass7_0 : public ::System::Object
 {
 public:
-	::Class_2_2E8C3F3A14243FF8* __4__this; // 0x10
-	::RPG::Client::CakeRace::CakeRaceLoanPrepareData* prepareData; // 0x18
+	::RPG::Client::CakeRace::CakeRaceLoanPrepareData* prepareData; // 0x10
+	::Class_2_2E8C3F3A14243FF8* __4__this; // 0x18
 
 	::System::Void _ctor()
 	{

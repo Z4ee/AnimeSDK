@@ -5,12 +5,12 @@
 namespace RPG::Client { class ItemDisplayData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEMESSAGESERVICE_TAKEMESSAGEREWARD_OFFSET UNITYSDK_OFFSET(0xBBB2ED0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEMESSAGESERVICE__CTOR_OFFSET UNITYSDK_OFFSET(0xBBB30A0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEMESSAGESERVICE_TAKEMESSAGEREWARD_OFFSET UNITYSDK_OFFSET(0xC5D1170)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEMESSAGESERVICE__CTOR_OFFSET UNITYSDK_OFFSET(0xC5D1340)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveMessageService_TypeDefinitionIndex = 71765;
+	inline static constexpr unsigned int IdleLiveMessageService_TypeDefinitionIndex = 75071;
 
 	class IdleLiveMessageService : public ::System::Object
 	{

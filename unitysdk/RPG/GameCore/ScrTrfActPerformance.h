@@ -13,13 +13,13 @@ namespace RPG::GameCore { class DestroyNPC; }
 namespace RPG::GameCore { class DestroyProp; }
 namespace RPG::GameCore { class SwitchCharacterAnchor; }
 
-#define RPG_GAMECORE_SCRTRFACTPERFORMANCE_METHOD_3_22AD36682DDA1FEC_OFFSET UNITYSDK_OFFSET(0x1B87B430)
-#define RPG_GAMECORE_SCRTRFACTPERFORMANCE_METHOD_3_64C607A8117A4873_OFFSET UNITYSDK_OFFSET(0x1B87B3F0)
-#define RPG_GAMECORE_SCRTRFACTPERFORMANCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B87B420)
+#define RPG_GAMECORE_SCRTRFACTPERFORMANCE_METHOD_3_38B761F18348C36A_OFFSET UNITYSDK_OFFSET(0x1D4D6C30)
+#define RPG_GAMECORE_SCRTRFACTPERFORMANCE_METHOD_3_CC882AEB9EC3DBB5_OFFSET UNITYSDK_OFFSET(0x1D4D6C70)
+#define RPG_GAMECORE_SCRTRFACTPERFORMANCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D4D6C60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ScrTrfActPerformance_TypeDefinitionIndex = 21144;
+	inline static constexpr unsigned int ScrTrfActPerformance_TypeDefinitionIndex = 21703;
 
 	class ScrTrfActPerformance : public ::RPG::GameCore::ScreenTransferBaseAction
 	{
@@ -40,14 +40,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SCRTRFACTPERFORMANCE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_64C607A8117A4873(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ScrTrfActPerformance*& a2)
+		static ::System::Void Method_3_38B761F18348C36A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ScrTrfActPerformance*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ScrTrfActPerformance*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SCRTRFACTPERFORMANCE_METHOD_3_64C607A8117A4873_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ScrTrfActPerformance*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SCRTRFACTPERFORMANCE_METHOD_3_38B761F18348C36A_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_22AD36682DDA1FEC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ScrTrfActPerformance* a2)
+		static ::System::Void Method_3_CC882AEB9EC3DBB5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ScrTrfActPerformance* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ScrTrfActPerformance*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SCRTRFACTPERFORMANCE_METHOD_3_22AD36682DDA1FEC_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ScrTrfActPerformance*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SCRTRFACTPERFORMANCE_METHOD_3_CC882AEB9EC3DBB5_OFFSET))(a1, a2);
 		}
 	};
 }

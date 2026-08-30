@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_CA217ABF4E3B4F3F.h"
+#include "unitysdk/Class_1_34917908B7833130.h"
 
 namespace RPG::Client { class StaticListView; }
 namespace RPG::Client { class StaticListViewItem; }
@@ -15,33 +15,33 @@ namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class GridLayoutGroup; }
 namespace XLua { class LuaTable; }
 
-#define CLASS_2_CD381B1B388F57C8_METHOD_2_33531301A55BB22F_1_OFFSET UNITYSDK_OFFSET(0x14425640)
-#define CLASS_2_CD381B1B388F57C8_METHOD_2_33531301A55BB22F_OFFSET UNITYSDK_OFFSET(0x144253B0)
-#define CLASS_2_CD381B1B388F57C8_METHOD_2_508D4DD02D3DB74E_OFFSET UNITYSDK_OFFSET(0x14424F00)
-#define CLASS_2_CD381B1B388F57C8_METHOD_2_7472ED7EFF6BB817_OFFSET UNITYSDK_OFFSET(0x14425460)
-#define CLASS_2_CD381B1B388F57C8_METHOD_2_C3CD621FE895B79A_OFFSET UNITYSDK_OFFSET(0x14424CA0)
-#define CLASS_2_CD381B1B388F57C8_METHOD_2_C706B1EC6D2E1C64_OFFSET UNITYSDK_OFFSET(0x14425020)
-#define CLASS_2_CD381B1B388F57C8_METHOD_2_E667163374BFDBAF_OFFSET UNITYSDK_OFFSET(0x14425140)
-#define CLASS_2_CD381B1B388F57C8__CTOR_OFFSET UNITYSDK_OFFSET(0x144256F0)
-#define CLASS_2_CD381B1B388F57C8__ONBIND_OFFSET UNITYSDK_OFFSET(0x144249F0)
+#define CLASS_2_CD381B1B388F57C8_METHOD_2_33531301A55BB22F_1_OFFSET UNITYSDK_OFFSET(0x1524A650)
+#define CLASS_2_CD381B1B388F57C8_METHOD_2_33531301A55BB22F_OFFSET UNITYSDK_OFFSET(0x1524A3C0)
+#define CLASS_2_CD381B1B388F57C8_METHOD_2_508D4DD02D3DB74E_OFFSET UNITYSDK_OFFSET(0x15249F10)
+#define CLASS_2_CD381B1B388F57C8_METHOD_2_7472ED7EFF6BB817_OFFSET UNITYSDK_OFFSET(0x1524A470)
+#define CLASS_2_CD381B1B388F57C8_METHOD_2_C3CD621FE895B79A_OFFSET UNITYSDK_OFFSET(0x15249CB0)
+#define CLASS_2_CD381B1B388F57C8_METHOD_2_C706B1EC6D2E1C64_OFFSET UNITYSDK_OFFSET(0x1524A030)
+#define CLASS_2_CD381B1B388F57C8_METHOD_2_E667163374BFDBAF_OFFSET UNITYSDK_OFFSET(0x1524A150)
+#define CLASS_2_CD381B1B388F57C8__CTOR_OFFSET UNITYSDK_OFFSET(0x1524A700)
+#define CLASS_2_CD381B1B388F57C8__ONBIND_OFFSET UNITYSDK_OFFSET(0x15249A00)
 
-inline static constexpr unsigned int Class_2_CD381B1B388F57C8_TypeDefinitionIndex = 68988;
+inline static constexpr unsigned int Class_2_CD381B1B388F57C8_TypeDefinitionIndex = 72187;
 
-class Class_2_CD381B1B388F57C8 : public ::Class_1_CA217ABF4E3B4F3F
+class Class_2_CD381B1B388F57C8 : public ::Class_1_34917908B7833130
 {
 public:
-	// static const ::System::String* Field_2_0; // 0x0
-	// static const ::System::Single Field_2_1; // 0x0
-	// static const ::System::Single Field_2_2; // 0x0
-	::UnityEngine::UI::GridLayoutGroup* Field_2_3; // 0x60
-	::RPG::Client::StaticListView* Field_2_4; // 0x68
-	::RPG::GameCore::GridFightManager* Field_2_5; // 0x70
-	::UnityEngine::UI::Button* Field_2_6; // 0x78
-	::RPG::GameCore::BattleInstance* Field_2_7; // 0x80
-	::System::Collections::Generic::List_1<::RPG::GameCore::BattleGridFightAvatarData*>* Field_2_8; // 0x88
-	::UnityEngine::UI::Button* Field_2_9; // 0x90
-	::UnityEngine::Animation* Field_2_10; // 0x98
-	::System::Boolean Field_2_11; // 0xA0
+	// static const ::System::String* DJCBDJMACFH; // 0x0
+	// static const ::System::Single IOAGJCLKELH; // 0x0
+	// static const ::System::Single OJMDMIEOKDI; // 0x0
+	::System::Collections::Generic::List_1<::RPG::GameCore::BattleGridFightAvatarData*>* HCMEOAMDOJA; // 0x60
+	::UnityEngine::UI::GridLayoutGroup* MBCDOOEGKKF; // 0x68
+	::RPG::GameCore::GridFightManager* LKIGACIFAAA; // 0x70
+	::UnityEngine::UI::Button* ACHGKGCEDEH; // 0x78
+	::RPG::GameCore::BattleInstance* IFKCCHIFMOC; // 0x80
+	::UnityEngine::UI::Button* MDFBLLAGKPF; // 0x88
+	::RPG::Client::StaticListView* MHLINDENENF; // 0x90
+	::UnityEngine::Animation* LEEJFLHCOPK; // 0x98
+	::System::Boolean OEBHPNCLIAH; // 0xA0
 
 	::System::Void _ctor()
 	{

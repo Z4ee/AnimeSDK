@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CompatKey_TypeDefinitionIndex = 59431;
+	inline static constexpr unsigned int CompatKey_TypeDefinitionIndex = 62270;
 
 	enum class CompatKey : ::System::Int32
 	{

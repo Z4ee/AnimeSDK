@@ -7,17 +7,17 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_3_2D7DFAB849E602CE_METHOD_3_2630ACAA1C726FBD_OFFSET UNITYSDK_OFFSET(0x1AB0BCA0)
-#define CLASS_3_2D7DFAB849E602CE_METHOD_3_428CB3C2C99844DC_OFFSET UNITYSDK_OFFSET(0x1AB0BCE0)
-#define CLASS_3_2D7DFAB849E602CE__CTOR_OFFSET UNITYSDK_OFFSET(0x1AB0BCD0)
+#define CLASS_3_2D7DFAB849E602CE_METHOD_3_2630ACAA1C726FBD_OFFSET UNITYSDK_OFFSET(0x1C740380)
+#define CLASS_3_2D7DFAB849E602CE_METHOD_3_428CB3C2C99844DC_OFFSET UNITYSDK_OFFSET(0x1C7403C0)
+#define CLASS_3_2D7DFAB849E602CE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C7403B0)
 
-inline static constexpr unsigned int Class_3_2D7DFAB849E602CE_TypeDefinitionIndex = 22515;
+inline static constexpr unsigned int Class_3_2D7DFAB849E602CE_TypeDefinitionIndex = 23087;
 
 class Class_3_2D7DFAB849E602CE : public ::RPG::GameCore::TaskConfig
 {
 public:
-	::System::String* Field_3_0; // 0x18
-	::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::DynamicFloat*>* Field_3_1; // 0x20
+	::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::DynamicFloat*>* CHLBKIKJFLC; // 0x18
+	::System::String* OELMOCMDEJI; // 0x20
 
 	::System::Void _ctor()
 	{

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CRIWARE_CRIATOMCONFIG_WEBGLWEBAUDIOVOICEPOOLCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1571C090)
+#define CRIWARE_CRIATOMCONFIG_WEBGLWEBAUDIOVOICEPOOLCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x164A6D80)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomConfig_WebGLWebAudioVoicePoolConfig_TypeDefinitionIndex = 38012;
+	inline static constexpr unsigned int CriAtomConfig_WebGLWebAudioVoicePoolConfig_TypeDefinitionIndex = 38871;
 
 	class CriAtomConfig_WebGLWebAudioVoicePoolConfig : public ::System::Object
 	{

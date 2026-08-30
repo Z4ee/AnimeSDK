@@ -5,12 +5,12 @@
 
 namespace RPG::Client { class EvolveBuildTypeGearsDetail; }
 
-#define RPG_CLIENT_EVOLVEBUILDGEARSMIXDETAIL___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC4046D0)
-#define RPG_CLIENT_EVOLVEBUILDGEARSMIXDETAIL___C__DISPLAYCLASS4_0___REFRESHMIXDETAILS_B__0_OFFSET UNITYSDK_OFFSET(0xC4049C0)
+#define RPG_CLIENT_EVOLVEBUILDGEARSMIXDETAIL___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCED8950)
+#define RPG_CLIENT_EVOLVEBUILDGEARSMIXDETAIL___C__DISPLAYCLASS4_0___REFRESHMIXDETAILS_B__0_OFFSET UNITYSDK_OFFSET(0xCED8A10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EvolveBuildGearsMixDetail___c__DisplayClass4_0_TypeDefinitionIndex = 60989;
+	inline static constexpr unsigned int EvolveBuildGearsMixDetail___c__DisplayClass4_0_TypeDefinitionIndex = 63842;
 
 	class EvolveBuildGearsMixDetail___c__DisplayClass4_0 : public ::System::Object
 	{

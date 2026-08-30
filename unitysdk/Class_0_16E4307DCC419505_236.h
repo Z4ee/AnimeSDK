@@ -1,9 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Vector4.h"
 
-class Class_2_FD51057495DB654F;
-
-inline static constexpr unsigned int Class_0_16E4307DCC419505_236_TypeDefinitionIndex = 39996;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_236_TypeDefinitionIndex = 41152;
 
 class Class_0_16E4307DCC419505_236
 {

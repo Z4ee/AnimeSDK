@@ -5,22 +5,22 @@
 class Class_1_D19C1BC41AA7C3FC_Class_1_E31A8B64E4DA2485;
 namespace System { class String; }
 
-#define CLASS_1_D19C1BC41AA7C3FC_METHOD_1_25F90D4C940D48BE_OFFSET UNITYSDK_OFFSET(0xAF5CE10)
-#define CLASS_1_D19C1BC41AA7C3FC__CTOR_OFFSET UNITYSDK_OFFSET(0xAF5CDF0)
+#define CLASS_1_D19C1BC41AA7C3FC_METHOD_1_25F90D4C940D48BE_OFFSET UNITYSDK_OFFSET(0xB90E560)
+#define CLASS_1_D19C1BC41AA7C3FC__CTOR_OFFSET UNITYSDK_OFFSET(0xB90E540)
 
-inline static constexpr unsigned int Class_1_D19C1BC41AA7C3FC_TypeDefinitionIndex = 61772;
+inline static constexpr unsigned int Class_1_D19C1BC41AA7C3FC_TypeDefinitionIndex = 64756;
 
 class Class_1_D19C1BC41AA7C3FC : public ::System::Object
 {
 public:
-	::System::String* Title; // 0x10
-	::Il2CppArray<::Class_1_D19C1BC41AA7C3FC_Class_1_E31A8B64E4DA2485*>* RoleList; // 0x18
-	::System::UInt32 PlayerLevel; // 0x20
-	::System::UInt32 SectionID; // 0x24
+	::Il2CppArray<::Class_1_D19C1BC41AA7C3FC_Class_1_E31A8B64E4DA2485*>* RoleList; // 0x10
+	::System::String* Title; // 0x18
+	::System::UInt32 CampID; // 0x20
+	::System::UInt32 DivisiionID; // 0x24
 	::System::UInt32 ChapterID; // 0x28
-	::System::UInt32 DivisiionID; // 0x2C
+	::System::UInt32 PlayerLevel; // 0x2C
 	::System::UInt32 UID; // 0x30
-	::System::UInt32 CampID; // 0x34
+	::System::UInt32 SectionID; // 0x34
 
 	::System::Void _ctor()
 	{

@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/ImmediateTaskBase_1.h"
 
-class Class_1_BB62CC0FD1E45ADE_8;
+class Class_1_BB62CC0FD1E45ADE_9;
 namespace RPG::GameCore { class ShowBattleWhiteboxImage; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_1EDDC95F443137CA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x155C32E0)
-#define CLASS_3_1EDDC95F443137CA__CTOR_OFFSET UNITYSDK_OFFSET(0x155C32B0)
+#define CLASS_3_1EDDC95F443137CA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB5EAD00)
+#define CLASS_3_1EDDC95F443137CA__CTOR_OFFSET UNITYSDK_OFFSET(0xB5EACD0)
 
-inline static constexpr unsigned int Class_3_1EDDC95F443137CA_TypeDefinitionIndex = 55991;
+inline static constexpr unsigned int Class_3_1EDDC95F443137CA_TypeDefinitionIndex = 58766;
 
 class Class_3_1EDDC95F443137CA : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ShowBattleWhiteboxImage*>
 {
 public:
-	::Class_1_BB62CC0FD1E45ADE_8* Field_3_0; // 0x28
+	::Class_1_BB62CC0FD1E45ADE_9* DMFEKIIDMFL; // 0x28
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ShowBattleWhiteboxImage* a2)
 	{

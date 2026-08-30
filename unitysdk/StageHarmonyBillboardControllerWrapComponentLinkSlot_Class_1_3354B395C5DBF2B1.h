@@ -4,14 +4,14 @@
 
 namespace RPG::Client { class BillboardController; }
 
-#define STAGEHARMONYBILLBOARDCONTROLLERWRAPCOMPONENTLINKSLOT_CLASS_1_3354B395C5DBF2B1__CTOR_OFFSET UNITYSDK_OFFSET(0xDD5F420)
+#define STAGEHARMONYBILLBOARDCONTROLLERWRAPCOMPONENTLINKSLOT_CLASS_1_3354B395C5DBF2B1__CTOR_OFFSET UNITYSDK_OFFSET(0xE937C60)
 
-inline static constexpr unsigned int StageHarmonyBillboardControllerWrapComponentLinkSlot_Class_1_3354B395C5DBF2B1_TypeDefinitionIndex = 45569;
+inline static constexpr unsigned int StageHarmonyBillboardControllerWrapComponentLinkSlot_Class_1_3354B395C5DBF2B1_TypeDefinitionIndex = 47820;
 
 class StageHarmonyBillboardControllerWrapComponentLinkSlot_Class_1_3354B395C5DBF2B1 : public ::System::Object
 {
 public:
-	::RPG::Client::BillboardController* Field_1_0; // 0x10
+	::RPG::Client::BillboardController* JNDFNOIIIAG; // 0x10
 
 	::System::Void _ctor()
 	{

@@ -8,16 +8,16 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class ModifyActionDelay; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_8B5E802B539F9BED_METHOD_3_13DA53339159C697_OFFSET UNITYSDK_OFFSET(0xCAF6920)
-#define CLASS_3_8B5E802B539F9BED_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCAF6420)
-#define CLASS_3_8B5E802B539F9BED__CTOR_OFFSET UNITYSDK_OFFSET(0xCAF63F0)
+#define CLASS_3_8B5E802B539F9BED_METHOD_3_13DA53339159C697_OFFSET UNITYSDK_OFFSET(0xD7ECAC0)
+#define CLASS_3_8B5E802B539F9BED_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xD7EC5C0)
+#define CLASS_3_8B5E802B539F9BED__CTOR_OFFSET UNITYSDK_OFFSET(0xD7EC590)
 
-inline static constexpr unsigned int Class_3_8B5E802B539F9BED_TypeDefinitionIndex = 52690;
+inline static constexpr unsigned int Class_3_8B5E802B539F9BED_TypeDefinitionIndex = 55389;
 
 class Class_3_8B5E802B539F9BED : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ModifyActionDelay*>
 {
 public:
-	::RPG::FuncBinder_4<::RPG::GameCore::GameEntity*, ::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint>* Field_3_0; // 0x28
+	::RPG::FuncBinder_4<::RPG::GameCore::GameEntity*, ::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint>* ONFNEAPDKDG; // 0x28
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ModifyActionDelay* a2)
 	{

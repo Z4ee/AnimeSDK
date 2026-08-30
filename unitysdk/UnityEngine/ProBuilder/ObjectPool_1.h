@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int ObjectPool_1_TypeDefinitionIndex = 41578;
+	inline static constexpr unsigned int ObjectPool_1_TypeDefinitionIndex = 43189;
 
 	template <typename T>
 	class ObjectPool_1 : public ::System::Object

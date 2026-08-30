@@ -9,18 +9,18 @@ namespace RPG::GameCore { class BaseLittleGameAbilityValueGetterConfig; }
 namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_1E1630E070C4D708_DISPOSE_OFFSET UNITYSDK_OFFSET(0xAF54260)
-#define CLASS_1_1E1630E070C4D708_METHOD_1_008568C4B76C327D_OFFSET UNITYSDK_OFFSET(0xAF54300)
-#define CLASS_1_1E1630E070C4D708_METHOD_1_A239DF324AF4215D_OFFSET UNITYSDK_OFFSET(0xAF53B30)
-#define CLASS_1_1E1630E070C4D708__CTOR_OFFSET UNITYSDK_OFFSET(0xAF53A90)
+#define CLASS_1_1E1630E070C4D708_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB9059C0)
+#define CLASS_1_1E1630E070C4D708_METHOD_1_008568C4B76C327D_OFFSET UNITYSDK_OFFSET(0xB905A60)
+#define CLASS_1_1E1630E070C4D708_METHOD_1_A239DF324AF4215D_OFFSET UNITYSDK_OFFSET(0xB905290)
+#define CLASS_1_1E1630E070C4D708__CTOR_OFFSET UNITYSDK_OFFSET(0xB9051F0)
 
-inline static constexpr unsigned int Class_1_1E1630E070C4D708_TypeDefinitionIndex = 73440;
+inline static constexpr unsigned int Class_1_1E1630E070C4D708_TypeDefinitionIndex = 76919;
 
 class Class_1_1E1630E070C4D708 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::Dictionary_2<::System::Type*, ::Class_1_1E1630E070C4D708_Class_3_50D343C44D28BEFB_13*>* Field_1_0; // 0x10
-	::System::Boolean Field_1_1; // 0x18
+	::System::Collections::Generic::Dictionary_2<::System::Type*, ::Class_1_1E1630E070C4D708_Class_3_50D343C44D28BEFB_13*>* BBCBMBIGEPH; // 0x10
+	::System::Boolean LINNHMPNCJG; // 0x18
 
 	::System::Void _ctor()
 	{

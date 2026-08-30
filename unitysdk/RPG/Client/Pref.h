@@ -6,29 +6,29 @@ class Class_1_E970EC5EEB7EA2D9;
 namespace System { class String; }
 namespace System { class Type; }
 
-#define RPG_CLIENT_PREF_CHANGEPREFSWRAPPER_OFFSET UNITYSDK_OFFSET(0x1C8EDEB0)
-#define RPG_CLIENT_PREF_CHANGETOSERVERPREFS_OFFSET UNITYSDK_OFFSET(0x1C8EDE30)
-#define RPG_CLIENT_PREF_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C8EDD80)
-#define RPG_CLIENT_PREF_GET_ISDIRTY_OFFSET UNITYSDK_OFFSET(0x1C8EDF10)
-#define RPG_CLIENT_PREF_GET_KEY_OFFSET UNITYSDK_OFFSET(0x1C8EDF00)
-#define RPG_CLIENT_PREF_SETDIRTY_OFFSET UNITYSDK_OFFSET(0x1C8EDE20)
-#define RPG_CLIENT_PREF_TRYSETSERVERPERFRELOAD_OFFSET UNITYSDK_OFFSET(0x1C8EDEC0)
-#define RPG_CLIENT_PREF__CTOR_OFFSET UNITYSDK_OFFSET(0x1C8EE1F0)
+#define RPG_CLIENT_PREF_CHANGEPREFSWRAPPER_OFFSET UNITYSDK_OFFSET(0x1E594420)
+#define RPG_CLIENT_PREF_CHANGETOSERVERPREFS_OFFSET UNITYSDK_OFFSET(0x1E5943A0)
+#define RPG_CLIENT_PREF_CLEAR_OFFSET UNITYSDK_OFFSET(0x1E5942F0)
+#define RPG_CLIENT_PREF_GET_ISDIRTY_OFFSET UNITYSDK_OFFSET(0x1E594480)
+#define RPG_CLIENT_PREF_GET_KEY_OFFSET UNITYSDK_OFFSET(0x1E594470)
+#define RPG_CLIENT_PREF_SETDIRTY_OFFSET UNITYSDK_OFFSET(0x1E594390)
+#define RPG_CLIENT_PREF_TRYSETSERVERPERFRELOAD_OFFSET UNITYSDK_OFFSET(0x1E594430)
+#define RPG_CLIENT_PREF__CTOR_OFFSET UNITYSDK_OFFSET(0x1E594760)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Pref_TypeDefinitionIndex = 33886;
+	inline static constexpr unsigned int Pref_TypeDefinitionIndex = 34653;
 
 	class Pref : public ::System::Object
 	{
 	public:
-		::System::Object* _Value; // 0x10
-		::System::Type* _ValueType; // 0x18
-		::Class_1_E970EC5EEB7EA2D9* _PlayerPrefs; // 0x20
-		::System::String* _Key; // 0x28
-		::System::Object* _DefaultValue; // 0x30
-		::System::Boolean _Dirty; // 0x38
-		::System::Boolean _Loaded; // 0x39
+		::System::Object* _DefaultValue; // 0x10
+		::Class_1_E970EC5EEB7EA2D9* _PlayerPrefs; // 0x18
+		::System::Object* _Value; // 0x20
+		::System::Type* _ValueType; // 0x28
+		::System::String* _Key; // 0x30
+		::System::Boolean _Loaded; // 0x38
+		::System::Boolean _Dirty; // 0x39
 
 		::System::Void _ctor()
 		{

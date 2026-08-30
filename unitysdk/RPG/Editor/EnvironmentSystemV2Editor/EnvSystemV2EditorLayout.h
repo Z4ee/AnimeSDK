@@ -6,12 +6,12 @@ namespace RPG::Editor::EnvironmentSystemV2Editor { class EnvEditorCategory; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_EDITOR_ENVIRONMENTSYSTEMV2EDITOR_ENVSYSTEMV2EDITORLAYOUT_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0xD8E8840)
-#define RPG_EDITOR_ENVIRONMENTSYSTEMV2EDITOR_ENVSYSTEMV2EDITORLAYOUT__CTOR_OFFSET UNITYSDK_OFFSET(0xD8E8850)
+#define RPG_EDITOR_ENVIRONMENTSYSTEMV2EDITOR_ENVSYSTEMV2EDITORLAYOUT_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0xE4636C0)
+#define RPG_EDITOR_ENVIRONMENTSYSTEMV2EDITOR_ENVSYSTEMV2EDITORLAYOUT__CTOR_OFFSET UNITYSDK_OFFSET(0xE4636D0)
 
 namespace RPG::Editor::EnvironmentSystemV2Editor
 {
-	inline static constexpr unsigned int EnvSystemV2EditorLayout_TypeDefinitionIndex = 49709;
+	inline static constexpr unsigned int EnvSystemV2EditorLayout_TypeDefinitionIndex = 52367;
 
 	class EnvSystemV2EditorLayout : public ::UnityEngine::ScriptableObject
 	{

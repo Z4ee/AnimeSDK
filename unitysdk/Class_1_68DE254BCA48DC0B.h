@@ -5,19 +5,19 @@
 namespace RPG::Client::Promises { class Promise; }
 namespace RPG::GameCore { class ChimeraShowJumpText; }
 
-#define CLASS_1_68DE254BCA48DC0B_METHOD_1_8F9DF3D751E1E0BF_OFFSET UNITYSDK_OFFSET(0xEB57E70)
-#define CLASS_1_68DE254BCA48DC0B_METHOD_1_B06F516E4459C742_OFFSET UNITYSDK_OFFSET(0xEB57EB0)
-#define CLASS_1_68DE254BCA48DC0B__CTOR_OFFSET UNITYSDK_OFFSET(0xEB57E30)
+#define CLASS_1_68DE254BCA48DC0B_METHOD_1_8F9DF3D751E1E0BF_OFFSET UNITYSDK_OFFSET(0xFA62330)
+#define CLASS_1_68DE254BCA48DC0B_METHOD_1_B06F516E4459C742_OFFSET UNITYSDK_OFFSET(0xFA62370)
+#define CLASS_1_68DE254BCA48DC0B__CTOR_OFFSET UNITYSDK_OFFSET(0xFA622F0)
 
-inline static constexpr unsigned int Class_1_68DE254BCA48DC0B_TypeDefinitionIndex = 74462;
+inline static constexpr unsigned int Class_1_68DE254BCA48DC0B_TypeDefinitionIndex = 77947;
 
 class Class_1_68DE254BCA48DC0B : public ::System::Object
 {
 public:
-	::RPG::Client::Promises::Promise* Field_1_0; // 0x10
-	::RPG::GameCore::ChimeraShowJumpText* Field_1_1; // 0x18
-	::System::UInt32 Field_1_2; // 0x20
-	::System::UInt32 Field_1_3; // 0x24
+	::RPG::Client::Promises::Promise* KKHPFDBFKHH; // 0x10
+	::RPG::GameCore::ChimeraShowJumpText* IGHAHBNLIJA; // 0x18
+	::System::UInt32 AJLJMGEEKOJ; // 0x20
+	::System::UInt32 NCBAPGKFFJA; // 0x24
 
 	::System::Void _ctor(::RPG::GameCore::ChimeraShowJumpText* a1, ::System::UInt32 a2, ::System::UInt32 a3)
 	{

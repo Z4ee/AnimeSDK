@@ -7,10 +7,10 @@ namespace RPG::Client { class MonoEffect; }
 namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
 
-#define CLASS_2_788F897604A31585___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14C41960)
-#define CLASS_2_788F897604A31585___C__DISPLAYCLASS5_0__ONTASKBEGIN_B__0_OFFSET UNITYSDK_OFFSET(0x14C42070)
+#define CLASS_2_788F897604A31585___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15AFE6D0)
+#define CLASS_2_788F897604A31585___C__DISPLAYCLASS5_0__ONTASKBEGIN_B__0_OFFSET UNITYSDK_OFFSET(0x15AFEDF0)
 
-inline static constexpr unsigned int Class_2_788F897604A31585___c__DisplayClass5_0_TypeDefinitionIndex = 53239;
+inline static constexpr unsigned int Class_2_788F897604A31585___c__DisplayClass5_0_TypeDefinitionIndex = 55953;
 
 class Class_2_788F897604A31585___c__DisplayClass5_0 : public ::System::Object
 {

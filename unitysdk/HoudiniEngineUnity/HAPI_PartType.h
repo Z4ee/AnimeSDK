@@ -3,7 +3,7 @@
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HAPI_PartType_TypeDefinitionIndex = 38316;
+	inline static constexpr unsigned int HAPI_PartType_TypeDefinitionIndex = 39175;
 
 	enum class HAPI_PartType : ::System::Int32
 	{

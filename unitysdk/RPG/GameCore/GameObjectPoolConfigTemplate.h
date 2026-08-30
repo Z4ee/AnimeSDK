@@ -7,12 +7,12 @@ namespace RPG::GameCore { class GameObjectPoolGroupConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_GAMEOBJECTPOOLCONFIGTEMPLATE_METHOD_2_573E27F21737D51D_OFFSET UNITYSDK_OFFSET(0x1B4C33E0)
-#define RPG_GAMECORE_GAMEOBJECTPOOLCONFIGTEMPLATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4C36C0)
+#define RPG_GAMECORE_GAMEOBJECTPOOLCONFIGTEMPLATE_METHOD_2_573E27F21737D51D_OFFSET UNITYSDK_OFFSET(0x1D13D9C0)
+#define RPG_GAMECORE_GAMEOBJECTPOOLCONFIGTEMPLATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D13DCA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GameObjectPoolConfigTemplate_TypeDefinitionIndex = 17531;
+	inline static constexpr unsigned int GameObjectPoolConfigTemplate_TypeDefinitionIndex = 18049;
 
 	class GameObjectPoolConfigTemplate : public ::RPG::GameCore::JsonConfig
 	{

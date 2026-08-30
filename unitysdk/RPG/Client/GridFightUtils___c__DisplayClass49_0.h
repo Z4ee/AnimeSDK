@@ -6,13 +6,13 @@ namespace RPG::GameCore { class DynamicValue; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_GRIDFIGHTUTILS___C__DISPLAYCLASS49_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC85EEE0)
-#define RPG_CLIENT_GRIDFIGHTUTILS___C__DISPLAYCLASS49_0__GETHACKEQUIPRANK_B__0_OFFSET UNITYSDK_OFFSET(0xC860A50)
-#define RPG_CLIENT_GRIDFIGHTUTILS___C__DISPLAYCLASS49_0__GETHACKEQUIPRANK_B__1_OFFSET UNITYSDK_OFFSET(0xC860B60)
+#define RPG_CLIENT_GRIDFIGHTUTILS___C__DISPLAYCLASS49_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD37AC80)
+#define RPG_CLIENT_GRIDFIGHTUTILS___C__DISPLAYCLASS49_0__GETHACKEQUIPRANK_B__0_OFFSET UNITYSDK_OFFSET(0xD37C7C0)
+#define RPG_CLIENT_GRIDFIGHTUTILS___C__DISPLAYCLASS49_0__GETHACKEQUIPRANK_B__1_OFFSET UNITYSDK_OFFSET(0xD37C8D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightUtils___c__DisplayClass49_0_TypeDefinitionIndex = 61963;
+	inline static constexpr unsigned int GridFightUtils___c__DisplayClass49_0_TypeDefinitionIndex = 64947;
 
 	class GridFightUtils___c__DisplayClass49_0 : public ::System::Object
 	{

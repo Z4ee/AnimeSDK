@@ -6,7 +6,7 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::Client::SequentialPanelContainer
 {
-	inline static constexpr unsigned int IPanelItem_TypeDefinitionIndex = 71301;
+	inline static constexpr unsigned int IPanelItem_TypeDefinitionIndex = 74607;
 
 	class IPanelItem
 	{

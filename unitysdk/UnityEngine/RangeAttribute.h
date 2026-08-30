@@ -2,17 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/PropertyAttribute.h"
 
-#define UNITYENGINE_RANGEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0431D0)
+#define UNITYENGINE_RANGEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1ED4A8A0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int RangeAttribute_TypeDefinitionIndex = 4230;
+	inline static constexpr unsigned int RangeAttribute_TypeDefinitionIndex = 4240;
 
 	class RangeAttribute : public ::UnityEngine::PropertyAttribute
 	{
 	public:
-		::System::Single min; // 0x10
-		::System::Single max; // 0x14
+		::System::Single max; // 0x10
+		::System::Single min; // 0x14
 
 		::System::Void _ctor(::System::Single a1, ::System::Single a2)
 		{

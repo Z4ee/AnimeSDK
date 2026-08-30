@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define SYSTEM_RUNTIME_COMPILERSERVICES_CALLERARGUMENTEXPRESSIONATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2BD140)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_CALLERARGUMENTEXPRESSIONATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EFC8CF0)
 
 namespace System::Runtime::CompilerServices
 {
-	inline static constexpr unsigned int CallerArgumentExpressionAttribute_TypeDefinitionIndex = 6327;
+	inline static constexpr unsigned int CallerArgumentExpressionAttribute_TypeDefinitionIndex = 6072;
 
 	class CallerArgumentExpressionAttribute : public ::System::Attribute
 	{

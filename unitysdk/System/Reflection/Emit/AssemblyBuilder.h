@@ -8,13 +8,13 @@ namespace System::Reflection { class AssemblyName; }
 namespace System::Reflection::Emit { class CustomAttributeBuilder; }
 namespace System::Reflection::Emit { class ModuleBuilder; }
 
-#define SYSTEM_REFLECTION_EMIT_ASSEMBLYBUILDER_DEFINEDYNAMICASSEMBLY_OFFSET UNITYSDK_OFFSET(0x1A188430)
-#define SYSTEM_REFLECTION_EMIT_ASSEMBLYBUILDER_DEFINEDYNAMICMODULE_OFFSET UNITYSDK_OFFSET(0x1A188480)
-#define SYSTEM_REFLECTION_EMIT_ASSEMBLYBUILDER_SETCUSTOMATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1A1884D0)
+#define SYSTEM_REFLECTION_EMIT_ASSEMBLYBUILDER_DEFINEDYNAMICASSEMBLY_OFFSET UNITYSDK_OFFSET(0x1BD90140)
+#define SYSTEM_REFLECTION_EMIT_ASSEMBLYBUILDER_DEFINEDYNAMICMODULE_OFFSET UNITYSDK_OFFSET(0x1BD90190)
+#define SYSTEM_REFLECTION_EMIT_ASSEMBLYBUILDER_SETCUSTOMATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1BD901E0)
 
 namespace System::Reflection::Emit
 {
-	inline static constexpr unsigned int AssemblyBuilder_TypeDefinitionIndex = 636;
+	inline static constexpr unsigned int AssemblyBuilder_TypeDefinitionIndex = 639;
 
 	class AssemblyBuilder : public ::System::Reflection::Assembly
 	{

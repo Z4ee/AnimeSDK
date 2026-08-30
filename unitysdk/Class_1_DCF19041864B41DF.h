@@ -8,18 +8,18 @@ namespace RPG::GameCore { class LevelEntityUseSkill; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_DCF19041864B41DF_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15591990)
-#define CLASS_1_DCF19041864B41DF_METHOD_1_75EA96520C4270C5_OFFSET UNITYSDK_OFFSET(0x155917A0)
-#define CLASS_1_DCF19041864B41DF_METHOD_1_C6BDAA055BD4DF0E_OFFSET UNITYSDK_OFFSET(0x15591A20)
-#define CLASS_1_DCF19041864B41DF__CTOR_OFFSET UNITYSDK_OFFSET(0x15591CF0)
+#define CLASS_1_DCF19041864B41DF_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB5B7400)
+#define CLASS_1_DCF19041864B41DF_METHOD_1_75EA96520C4270C5_OFFSET UNITYSDK_OFFSET(0xB5B7210)
+#define CLASS_1_DCF19041864B41DF_METHOD_1_C6BDAA055BD4DF0E_OFFSET UNITYSDK_OFFSET(0xB5B7490)
+#define CLASS_1_DCF19041864B41DF__CTOR_OFFSET UNITYSDK_OFFSET(0xB5B7760)
 
-inline static constexpr unsigned int Class_1_DCF19041864B41DF_TypeDefinitionIndex = 53667;
+inline static constexpr unsigned int Class_1_DCF19041864B41DF_TypeDefinitionIndex = 56386;
 
 class Class_1_DCF19041864B41DF : public ::System::Object
 {
 public:
-	// static const ::System::Int32 Field_1_0 = 0x5; // 0x0
-	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::Class_1_DCF19041864B41DF_Struct_2_D731FF4936FF71BD>*>* Field_1_1; // 0x10
+	// static const ::System::Int32 JHPLFAOKPOP = 0x5; // 0x0
+	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::Class_1_DCF19041864B41DF_Struct_2_D731FF4936FF71BD>*>* IPPGDPNDNBK; // 0x10
 
 	::System::Void _ctor()
 	{

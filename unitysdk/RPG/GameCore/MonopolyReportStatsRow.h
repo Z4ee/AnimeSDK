@@ -5,18 +5,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MONOPOLYREPORTSTATSROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B6251F0)
-#define RPG_GAMECORE_MONOPOLYREPORTSTATSROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B625830)
+#define RPG_GAMECORE_MONOPOLYREPORTSTATSROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D2CAB30)
+#define RPG_GAMECORE_MONOPOLYREPORTSTATSROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2CB170)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MonopolyReportStatsRow_TypeDefinitionIndex = 11605;
+	inline static constexpr unsigned int MonopolyReportStatsRow_TypeDefinitionIndex = 11994;
 
 	class MonopolyReportStatsRow : public ::System::Object
 	{
 	public:
-		::RPG::Client::TextID Title; // 0x10
-		::System::UInt32 ID; // 0x20
+		::System::UInt32 ID; // 0x10
+		::RPG::Client::TextID Title; // 0x18
 
 		::System::Void _ctor()
 		{

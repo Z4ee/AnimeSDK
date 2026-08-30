@@ -6,27 +6,27 @@
 namespace RPG::Client { class GridFightRole; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define CLASS_1_A2C50125AFB75162___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x11FB4010)
-#define CLASS_1_A2C50125AFB75162___C__CTOR_OFFSET UNITYSDK_OFFSET(0x11FB4050)
-#define CLASS_1_A2C50125AFB75162___C___GETTEAMSPEEDSUM_B__4_0_OFFSET UNITYSDK_OFFSET(0x11FB4060)
-#define CLASS_1_A2C50125AFB75162___C___GETTEAMSPEEDSUM_B__4_1_OFFSET UNITYSDK_OFFSET(0x11FB40C0)
+#define CLASS_1_A2C50125AFB75162___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x12E9C340)
+#define CLASS_1_A2C50125AFB75162___C__CTOR_OFFSET UNITYSDK_OFFSET(0x12E9C380)
+#define CLASS_1_A2C50125AFB75162___C___GETTEAMSPEEDSUM_B__4_0_OFFSET UNITYSDK_OFFSET(0x12E9C390)
+#define CLASS_1_A2C50125AFB75162___C___GETTEAMSPEEDSUM_B__4_1_OFFSET UNITYSDK_OFFSET(0x12E9C3F0)
 
-inline static constexpr unsigned int Class_1_A2C50125AFB75162___c_TypeDefinitionIndex = 62457;
+inline static constexpr unsigned int Class_1_A2C50125AFB75162___c_TypeDefinitionIndex = 65442;
 
 class Class_1_A2C50125AFB75162___c : public ::System::Object
 {
 public:
-	static ::System::Func_2<::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint>** StaticGet___9__4_1()
-	{
-		return (::System::Func_2<::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_A2C50125AFB75162___c_TypeDefinitionIndex)->GetStaticField(0xC7C0);
-	}
 	static ::System::Func_2<::RPG::Client::GridFightRole*, ::System::Boolean>** StaticGet___9__4_0()
 	{
-		return (::System::Func_2<::RPG::Client::GridFightRole*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_A2C50125AFB75162___c_TypeDefinitionIndex)->GetStaticField(0xC7C8);
+		return (::System::Func_2<::RPG::Client::GridFightRole*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_A2C50125AFB75162___c_TypeDefinitionIndex)->GetStaticField(0x5CE50);
 	}
 	static ::Class_1_A2C50125AFB75162___c** StaticGet___9()
 	{
-		return (::Class_1_A2C50125AFB75162___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_A2C50125AFB75162___c_TypeDefinitionIndex)->GetStaticField(0xC7D0);
+		return (::Class_1_A2C50125AFB75162___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_A2C50125AFB75162___c_TypeDefinitionIndex)->GetStaticField(0x5CE58);
+	}
+	static ::System::Func_2<::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint>** StaticGet___9__4_1()
+	{
+		return (::System::Func_2<::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_A2C50125AFB75162___c_TypeDefinitionIndex)->GetStaticField(0x5CE60);
 	}
 
 	static ::System::Void _cctor()

@@ -6,23 +6,23 @@
 
 namespace RPG::GameCore { class ChenLingFesPosition; }
 
-#define CLASS_1_5AF45EC9C8E21EF3_METHOD_1_391A84BCD9F51317_1_OFFSET UNITYSDK_OFFSET(0x1A8ABAF0)
-#define CLASS_1_5AF45EC9C8E21EF3_METHOD_1_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0x1A8ABAA0)
-#define CLASS_1_5AF45EC9C8E21EF3__CTOR_OFFSET UNITYSDK_OFFSET(0x1A8ABB40)
+#define CLASS_1_5AF45EC9C8E21EF3_METHOD_1_391A84BCD9F51317_1_OFFSET UNITYSDK_OFFSET(0x1C4DCE90)
+#define CLASS_1_5AF45EC9C8E21EF3_METHOD_1_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0x1C4DCE40)
+#define CLASS_1_5AF45EC9C8E21EF3__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4DCEE0)
 
-inline static constexpr unsigned int Class_1_5AF45EC9C8E21EF3_TypeDefinitionIndex = 41106;
+inline static constexpr unsigned int Class_1_5AF45EC9C8E21EF3_TypeDefinitionIndex = 42066;
 
 class Class_1_5AF45EC9C8E21EF3 : public ::System::Object
 {
 public:
-	::RPG::GameCore::ChenLingFesPosition* Field_1_0; // 0x10
-	::System::Boolean Field_1_1; // 0x18
-	::System::Boolean Field_1_2; // 0x19
-	::System::UInt32 Field_1_3; // 0x1C
-	::RPG::GameCore::ChenLingFesCellType Field_1_4; // 0x20
-	::System::UInt32 Field_1_5; // 0x24
-	::System::Int32 Field_1_6; // 0x28
-	::RPG::GameCore::ChenLingFesDirection Field_1_7; // 0x2C
+	::RPG::GameCore::ChenLingFesPosition* FOCNBOANONM; // 0x10
+	::System::UInt32 CENIOCNLPCC; // 0x18
+	::System::UInt32 PHFMCACHFIJ; // 0x1C
+	::RPG::GameCore::ChenLingFesDirection PDMOFFGHMJF; // 0x20
+	::System::Boolean MNBBCAMDGDI; // 0x24
+	::System::Boolean DPKBLOIGNHD; // 0x25
+	::System::Int32 DJCOAFFJAID; // 0x28
+	::RPG::GameCore::ChenLingFesCellType GDIGGOLJIBJ; // 0x2C
 
 	::System::Void _ctor()
 	{

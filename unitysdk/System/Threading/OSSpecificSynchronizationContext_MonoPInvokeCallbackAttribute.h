@@ -4,11 +4,11 @@
 
 namespace System { class Type; }
 
-#define SYSTEM_THREADING_OSSPECIFICSYNCHRONIZATIONCONTEXT_MONOPINVOKECALLBACKATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A037020)
+#define SYSTEM_THREADING_OSSPECIFICSYNCHRONIZATIONCONTEXT_MONOPINVOKECALLBACKATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC3D7B0)
 
 namespace System::Threading
 {
-	inline static constexpr unsigned int OSSpecificSynchronizationContext_MonoPInvokeCallbackAttribute_TypeDefinitionIndex = 841;
+	inline static constexpr unsigned int OSSpecificSynchronizationContext_MonoPInvokeCallbackAttribute_TypeDefinitionIndex = 845;
 
 	class OSSpecificSynchronizationContext_MonoPInvokeCallbackAttribute : public ::System::Attribute
 	{

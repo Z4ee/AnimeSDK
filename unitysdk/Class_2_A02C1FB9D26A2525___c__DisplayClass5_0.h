@@ -4,17 +4,17 @@
 
 class Class_2_A02C1FB9D26A2525;
 
-#define CLASS_2_A02C1FB9D26A2525___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14892690)
-#define CLASS_2_A02C1FB9D26A2525___C__DISPLAYCLASS5_0___ONBATTLEGAMEPAGEONTURNAVATARCHANGEBEGIN_B__0_OFFSET UNITYSDK_OFFSET(0x14892C20)
+#define CLASS_2_A02C1FB9D26A2525___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15755940)
+#define CLASS_2_A02C1FB9D26A2525___C__DISPLAYCLASS5_0___ONBATTLEGAMEPAGEONTURNAVATARCHANGEBEGIN_B__0_OFFSET UNITYSDK_OFFSET(0x15755ED0)
 
-inline static constexpr unsigned int Class_2_A02C1FB9D26A2525___c__DisplayClass5_0_TypeDefinitionIndex = 68942;
+inline static constexpr unsigned int Class_2_A02C1FB9D26A2525___c__DisplayClass5_0_TypeDefinitionIndex = 72141;
 
 class Class_2_A02C1FB9D26A2525___c__DisplayClass5_0 : public ::System::Object
 {
 public:
 	::Class_2_A02C1FB9D26A2525* __4__this; // 0x10
-	::System::UInt32 avatarID; // 0x18
-	::System::UInt32 ultraSkillID; // 0x1C
+	::System::UInt32 ultraSkillID; // 0x18
+	::System::UInt32 avatarID; // 0x1C
 
 	::System::Void _ctor()
 	{

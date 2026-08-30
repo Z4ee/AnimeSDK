@@ -11,19 +11,19 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class Renderer; }
 namespace UnityEngine { class Texture; }
 
-#define RPG_CLIENT_EFFECT_MATERIALPROPERTYSETTER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xC329C60)
-#define RPG_CLIENT_EFFECT_MATERIALPROPERTYSETTER_METHOD_5_3E522F4B992303E1_OFFSET UNITYSDK_OFFSET(0xC329CD0)
-#define RPG_CLIENT_EFFECT_MATERIALPROPERTYSETTER_ONENABLE_OFFSET UNITYSDK_OFFSET(0xC329BB0)
-#define RPG_CLIENT_EFFECT_MATERIALPROPERTYSETTER__CTOR_OFFSET UNITYSDK_OFFSET(0xC32A770)
+#define RPG_CLIENT_EFFECT_MATERIALPROPERTYSETTER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xCDFB0C0)
+#define RPG_CLIENT_EFFECT_MATERIALPROPERTYSETTER_METHOD_5_3E522F4B992303E1_OFFSET UNITYSDK_OFFSET(0xCDFB130)
+#define RPG_CLIENT_EFFECT_MATERIALPROPERTYSETTER_ONENABLE_OFFSET UNITYSDK_OFFSET(0xCDFB010)
+#define RPG_CLIENT_EFFECT_MATERIALPROPERTYSETTER__CTOR_OFFSET UNITYSDK_OFFSET(0xCDFBBD0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_MaterialPropertySetter_TypeDefinitionIndex = 67353;
+	inline static constexpr unsigned int Effect_MaterialPropertySetter_TypeDefinitionIndex = 70475;
 
 	class Effect_MaterialPropertySetter : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		// static const ::System::Int32 Field_5_0 = 0x3; // 0x0
+		// static const ::System::Int32 DHMOCLKMBNF = 0x3; // 0x0
 		::Il2CppArray<::UnityEngine::Material*>* materials; // 0x18
 		::System::Collections::Generic::List_1<::System::Int32>* matEnableID; // 0x20
 		::System::Boolean OnlyFirstUpdate; // 0x28
@@ -42,10 +42,10 @@ namespace RPG::Client
 		::UnityEngine::Vector4 VectorData; // 0x80
 		::System::Boolean Toggle_TexData; // 0x90
 		::UnityEngine::Texture* TexData; // 0x98
-		::UnityEngine::Renderer* Field_5_19; // 0xA0
-		::System::Boolean Field_5_20; // 0xA8
-		::System::Boolean Field_5_21; // 0xA9
-		::Il2CppArray<::UnityEngine::Texture*>* Field_5_22; // 0xB0
+		::UnityEngine::Renderer* OMPBEGMFNGM; // 0xA0
+		::System::Boolean FDFLPGLNFKE; // 0xA8
+		::System::Boolean FJFHCLHPNNG; // 0xA9
+		::Il2CppArray<::UnityEngine::Texture*>* GGOFFDKMJAG; // 0xB0
 
 		::System::Void _ctor()
 		{

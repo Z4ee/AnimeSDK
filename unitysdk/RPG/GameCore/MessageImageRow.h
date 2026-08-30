@@ -5,18 +5,18 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MESSAGEIMAGEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B5F1400)
-#define RPG_GAMECORE_MESSAGEIMAGEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5F1A40)
+#define RPG_GAMECORE_MESSAGEIMAGEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D26D890)
+#define RPG_GAMECORE_MESSAGEIMAGEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D26DE50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MessageImageRow_TypeDefinitionIndex = 13881;
+	inline static constexpr unsigned int MessageImageRow_TypeDefinitionIndex = 14301;
 
 	class MessageImageRow : public ::System::Object
 	{
 	public:
-		::System::String* FemaleImagePath; // 0x10
-		::System::String* ImagePath; // 0x18
+		::System::String* ImagePath; // 0x10
+		::System::String* FemaleImagePath; // 0x18
 		::System::UInt32 ID; // 0x20
 
 		::System::Void _ctor()

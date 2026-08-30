@@ -9,14 +9,14 @@ namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class SkinnedMeshRenderer; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_DANHENGLONG_LATETICK_OFFSET UNITYSDK_OFFSET(0xC1D8A90)
-#define RPG_CLIENT_DANHENGLONG_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xC1D8A00)
-#define RPG_CLIENT_DANHENGLONG_ONENABLE_OFFSET UNITYSDK_OFFSET(0xC1D8930)
-#define RPG_CLIENT_DANHENGLONG__CTOR_OFFSET UNITYSDK_OFFSET(0xC1D9970)
+#define RPG_CLIENT_DANHENGLONG_LATETICK_OFFSET UNITYSDK_OFFSET(0xCC945C0)
+#define RPG_CLIENT_DANHENGLONG_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xCC94530)
+#define RPG_CLIENT_DANHENGLONG_ONENABLE_OFFSET UNITYSDK_OFFSET(0xCC94460)
+#define RPG_CLIENT_DANHENGLONG__CTOR_OFFSET UNITYSDK_OFFSET(0xCC954A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DanHengLong_TypeDefinitionIndex = 67244;
+	inline static constexpr unsigned int DanHengLong_TypeDefinitionIndex = 70366;
 
 	class DanHengLong : public ::UnityEngine::MonoBehaviour
 	{
@@ -30,17 +30,17 @@ namespace RPG::Client
 		::UnityEngine::Transform* BodyRootBone; // 0x48
 		::UnityEngine::Vector4 FlowOffset; // 0x50
 		::System::Boolean DissolveOn; // 0x60
-		::System::Boolean Field_5_9; // 0x61
+		::System::Boolean NLFGAJKECML; // 0x61
 		::System::Single DissolveRate; // 0x64
 		::UnityEngine::Vector4 DissolveST; // 0x68
 		::UnityEngine::Vector4 DistortionST; // 0x78
 		::System::Single DissolveDistortionIntensity; // 0x88
 		::System::Single DissolveOutlineSize1; // 0x8C
 		::System::Boolean UsingDitherAlpha; // 0x90
-		::System::Boolean Field_5_16; // 0x91
+		::System::Boolean EMKCNDJHHLG; // 0x91
 		::System::Single DitherAlpha; // 0x94
-		::UnityEngine::MaterialPropertyBlock* Field_5_18; // 0x98
-		::UnityEngine::Vector4 Field_5_19; // 0xA0
+		::UnityEngine::MaterialPropertyBlock* BMCPFHADPKJ; // 0x98
+		::UnityEngine::Vector4 JICDKECICFE; // 0xA0
 		::UnityEngine::Transform* _RootMNode; // 0xB0
 		::UnityEngine::Transform* _BodyGoRootNode; // 0xB8
 		::UnityEngine::Transform* _HeadNode; // 0xC0

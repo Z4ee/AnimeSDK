@@ -4,20 +4,20 @@
 #include "unitysdk/RPG/GameCore/Match3/PieceTag.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_1D65C84443DC695F_METHOD_1_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0x152F1AA0)
-#define CLASS_1_1D65C84443DC695F__CTOR_OFFSET UNITYSDK_OFFSET(0x152C9280)
+#define CLASS_1_1D65C84443DC695F_METHOD_1_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0x16266CF0)
+#define CLASS_1_1D65C84443DC695F__CTOR_OFFSET UNITYSDK_OFFSET(0x1623DF60)
 
-inline static constexpr unsigned int Class_1_1D65C84443DC695F_TypeDefinitionIndex = 63021;
+inline static constexpr unsigned int Class_1_1D65C84443DC695F_TypeDefinitionIndex = 66006;
 
 class Class_1_1D65C84443DC695F : public ::System::Object
 {
 public:
-	// static const ::System::UInt32 Field_1_0 = 0x6; // 0x0
-	// static const ::System::UInt32 Field_1_1 = 0xE; // 0x0
-	::System::Boolean Field_1_2; // 0x10
-	::System::UInt32 Field_1_3; // 0x14
-	::RPG::GameCore::Match3::PieceTag Field_1_4; // 0x18
-	::RPG::GameCore::Match3::BombType Field_1_5; // 0x1C
+	// static const ::System::UInt32 OILFOBJDFHB = 0x6; // 0x0
+	// static const ::System::UInt32 FCNHJLJMIMI = 0xE; // 0x0
+	::RPG::GameCore::Match3::PieceTag BNEPAJPMFEI; // 0x10
+	::System::Boolean HEPNDFHHHEG; // 0x14
+	::RPG::GameCore::Match3::BombType FEKGEPDLOCE; // 0x18
+	::System::UInt32 KLOEJIMMPJM; // 0x1C
 
 	::System::Void _ctor()
 	{

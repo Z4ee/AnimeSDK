@@ -6,16 +6,16 @@ class Class_1_EFDEDB2BC2764B7D;
 namespace RPG::GameCore { class MarbleByAnd; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_3_5A0BE00A19A9BDCF_METHOD_3_DDB0310B80AE817B_OFFSET UNITYSDK_OFFSET(0x1A7D7A00)
-#define CLASS_3_5A0BE00A19A9BDCF__CTOR_OFFSET UNITYSDK_OFFSET(0x1A7D7850)
+#define CLASS_3_5A0BE00A19A9BDCF_METHOD_3_DDB0310B80AE817B_OFFSET UNITYSDK_OFFSET(0x1C3FE7C0)
+#define CLASS_3_5A0BE00A19A9BDCF__CTOR_OFFSET UNITYSDK_OFFSET(0x1C3CE8E0)
 
-inline static constexpr unsigned int Class_3_5A0BE00A19A9BDCF_TypeDefinitionIndex = 40562;
+inline static constexpr unsigned int Class_3_5A0BE00A19A9BDCF_TypeDefinitionIndex = 41500;
 
 class Class_3_5A0BE00A19A9BDCF : public ::Class_2_A047D65884258648
 {
 public:
-	::System::Collections::Generic::List_1<::Class_2_A047D65884258648*>* Field_3_0; // 0x30
-	::RPG::GameCore::MarbleByAnd* Field_3_1; // 0x38
+	::System::Collections::Generic::List_1<::Class_2_A047D65884258648*>* HLOLHEMPFHF; // 0x30
+	::RPG::GameCore::MarbleByAnd* IGHAHBNLIJA; // 0x38
 
 	::System::Void _ctor(::RPG::GameCore::MarbleByAnd* a1, ::Class_1_EFDEDB2BC2764B7D* a2)
 	{

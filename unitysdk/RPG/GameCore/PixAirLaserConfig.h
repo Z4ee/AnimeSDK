@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_PIXAIRLASERCONFIG_METHOD_2_1E7D275DC9535EDF_OFFSET UNITYSDK_OFFSET(0x1B6B5200)
-#define RPG_GAMECORE_PIXAIRLASERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6B53F0)
+#define RPG_GAMECORE_PIXAIRLASERCONFIG_METHOD_2_1E7D275DC9535EDF_OFFSET UNITYSDK_OFFSET(0x1D337140)
+#define RPG_GAMECORE_PIXAIRLASERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D337330)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PixAirLaserConfig_TypeDefinitionIndex = 20601;
+	inline static constexpr unsigned int PixAirLaserConfig_TypeDefinitionIndex = 21153;
 
 	class PixAirLaserConfig : public ::RPG::GameCore::JsonConfig
 	{

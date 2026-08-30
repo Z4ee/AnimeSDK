@@ -6,16 +6,16 @@ class Class_2_250DE1D032671F25;
 namespace UnityEngine { class Object; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_2_250DE1D032671F25___C__DISPLAYCLASS31_0__ASYNCLOAD_B__0_OFFSET UNITYSDK_OFFSET(0xC27EDE0)
-#define CLASS_2_250DE1D032671F25___C__DISPLAYCLASS31_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC27B600)
+#define CLASS_2_250DE1D032671F25___C__DISPLAYCLASS31_0__ASYNCLOAD_B__0_OFFSET UNITYSDK_OFFSET(0xCFA1230)
+#define CLASS_2_250DE1D032671F25___C__DISPLAYCLASS31_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCF9DA00)
 
-inline static constexpr unsigned int Class_2_250DE1D032671F25___c__DisplayClass31_0_TypeDefinitionIndex = 70500;
+inline static constexpr unsigned int Class_2_250DE1D032671F25___c__DisplayClass31_0_TypeDefinitionIndex = 73787;
 
 class Class_2_250DE1D032671F25___c__DisplayClass31_0 : public ::System::Object
 {
 public:
-	::Class_2_250DE1D032671F25* __4__this; // 0x10
-	::UnityEngine::Transform* parent; // 0x18
+	::UnityEngine::Transform* parent; // 0x10
+	::Class_2_250DE1D032671F25* __4__this; // 0x18
 
 	::System::Void _ctor()
 	{

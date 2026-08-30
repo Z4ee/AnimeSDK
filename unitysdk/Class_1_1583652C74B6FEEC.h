@@ -6,19 +6,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define CLASS_1_1583652C74B6FEEC_METHOD_1_417A218C63D0B3DA_OFFSET UNITYSDK_OFFSET(0x1B044E50)
-#define CLASS_1_1583652C74B6FEEC__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0450E0)
+#define CLASS_1_1583652C74B6FEEC_METHOD_1_417A218C63D0B3DA_OFFSET UNITYSDK_OFFSET(0x1CCBDF10)
+#define CLASS_1_1583652C74B6FEEC__CTOR_OFFSET UNITYSDK_OFFSET(0x1CCBE1A0)
 
-inline static constexpr unsigned int Class_1_1583652C74B6FEEC_TypeDefinitionIndex = 12004;
+inline static constexpr unsigned int Class_1_1583652C74B6FEEC_TypeDefinitionIndex = 12393;
 
 class Class_1_1583652C74B6FEEC : public ::System::Object
 {
 public:
-	::Il2CppArray<::System::UInt32>* Field_1_0; // 0x10
-	::RPG::GameCore::TeamTowersStatisticType Field_1_1; // 0x18
-	::System::Boolean Field_1_2; // 0x1C
-	::System::UInt32 Field_1_3; // 0x20
-	::RPG::Client::TextID Field_1_4; // 0x28
+	::Il2CppArray<::System::UInt32>* PBLPLDJKPEI; // 0x10
+	::RPG::GameCore::TeamTowersStatisticType GMPGDEINODK; // 0x18
+	::RPG::Client::TextID NMAHGFAPENI; // 0x20
+	::System::Boolean GNLGHALIPLD; // 0x30
+	::System::UInt32 PHFMCACHFIJ; // 0x34
 
 	::System::Void _ctor()
 	{

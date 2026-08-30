@@ -9,32 +9,32 @@ class Class_0_16E4307DCC419505_28;
 namespace RPG::LittleGameShare::HoyoPhysics { class PhysicsCollider2DFilterConfig; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_42B54079EEFA03CA_METHOD_1_226898160D5BAF87_OFFSET UNITYSDK_OFFSET(0x1A5ABC90)
-#define CLASS_1_42B54079EEFA03CA_METHOD_1_43B83DD8EA6E2ABE_OFFSET UNITYSDK_OFFSET(0x1A5ABDE0)
-#define CLASS_1_42B54079EEFA03CA_METHOD_1_EA3118990667B298_OFFSET UNITYSDK_OFFSET(0x1A5ABD60)
-#define CLASS_1_42B54079EEFA03CA_METHOD_1_F31EEB0864385EB3_OFFSET UNITYSDK_OFFSET(0x1A5AC690)
-#define CLASS_1_42B54079EEFA03CA__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A5AC980)
-#define CLASS_1_42B54079EEFA03CA__CTOR_OFFSET UNITYSDK_OFFSET(0x1A5AC970)
+#define CLASS_1_42B54079EEFA03CA_METHOD_1_226898160D5BAF87_OFFSET UNITYSDK_OFFSET(0x1C1BBAC0)
+#define CLASS_1_42B54079EEFA03CA_METHOD_1_43B83DD8EA6E2ABE_OFFSET UNITYSDK_OFFSET(0x1C1BBC10)
+#define CLASS_1_42B54079EEFA03CA_METHOD_1_EA3118990667B298_OFFSET UNITYSDK_OFFSET(0x1C1BBB90)
+#define CLASS_1_42B54079EEFA03CA_METHOD_1_F31EEB0864385EB3_OFFSET UNITYSDK_OFFSET(0x1C1BC4C0)
+#define CLASS_1_42B54079EEFA03CA__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C1BC7B0)
+#define CLASS_1_42B54079EEFA03CA__CTOR_OFFSET UNITYSDK_OFFSET(0x1C1BC7A0)
 
-inline static constexpr unsigned int Class_1_42B54079EEFA03CA_TypeDefinitionIndex = 35629;
+inline static constexpr unsigned int Class_1_42B54079EEFA03CA_TypeDefinitionIndex = 36490;
 
 class Class_1_42B54079EEFA03CA : public ::System::Object
 {
 public:
-	static ::RPG::LittleGameShare::HoyoPhysics::PhysicsCollider2DFilterConfig** StaticGet_Field_1_0()
+	static ::RPG::LittleGameShare::HoyoPhysics::PhysicsCollider2DFilterConfig** StaticGet_FFPMCODFHPG()
 	{
-		return (::RPG::LittleGameShare::HoyoPhysics::PhysicsCollider2DFilterConfig**)Il2CppClass::FromTypeDefinitionIndex(Class_1_42B54079EEFA03CA_TypeDefinitionIndex)->GetStaticField(0x52750);
+		return (::RPG::LittleGameShare::HoyoPhysics::PhysicsCollider2DFilterConfig**)Il2CppClass::FromTypeDefinitionIndex(Class_1_42B54079EEFA03CA_TypeDefinitionIndex)->GetStaticField(0x176D0);
 	}
-	static ::RPG::LittleGameShare::HoyoPhysics::PhysicsCollider2DFilterConfig** StaticGet_Field_1_1()
+	static ::RPG::LittleGameShare::HoyoPhysics::PhysicsCollider2DFilterConfig** StaticGet_JKBDFGBDFDD()
 	{
-		return (::RPG::LittleGameShare::HoyoPhysics::PhysicsCollider2DFilterConfig**)Il2CppClass::FromTypeDefinitionIndex(Class_1_42B54079EEFA03CA_TypeDefinitionIndex)->GetStaticField(0x52758);
+		return (::RPG::LittleGameShare::HoyoPhysics::PhysicsCollider2DFilterConfig**)Il2CppClass::FromTypeDefinitionIndex(Class_1_42B54079EEFA03CA_TypeDefinitionIndex)->GetStaticField(0x176D8);
 	}
-	// static const ::System::Single Field_1_2; // 0x0
-	// static const ::System::Single Field_1_3; // 0x0
-	// static const ::System::Single Field_1_4; // 0x0
-	// static const ::System::Single Field_1_5; // 0x0
-	// static const ::System::Single Field_1_6; // 0x0
-	// static const ::System::Single Field_1_7; // 0x0
+	// static const ::System::Single GHAIJJDAOJG; // 0x0
+	// static const ::System::Single EDPCLCAFFIC; // 0x0
+	// static const ::System::Single CNDOACOACMN; // 0x0
+	// static const ::System::Single BAPPEMADOGN; // 0x0
+	// static const ::System::Single EOBPGKJGFLM; // 0x0
+	// static const ::System::Single NEBNKADKJGM; // 0x0
 
 	::System::Void _ctor()
 	{

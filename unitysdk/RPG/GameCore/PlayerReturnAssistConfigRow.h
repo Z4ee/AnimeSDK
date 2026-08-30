@@ -5,19 +5,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_PLAYERRETURNASSISTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B6D0280)
-#define RPG_GAMECORE_PLAYERRETURNASSISTCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6D0430)
+#define RPG_GAMECORE_PLAYERRETURNASSISTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3521A0)
+#define RPG_GAMECORE_PLAYERRETURNASSISTCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D352350)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlayerReturnAssistConfigRow_TypeDefinitionIndex = 13959;
+	inline static constexpr unsigned int PlayerReturnAssistConfigRow_TypeDefinitionIndex = 14377;
 
 	class PlayerReturnAssistConfigRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* AssistAvatarList; // 0x10
-		::System::UInt32 AssistGroupID; // 0x18
-		::RPG::Client::TextID TeamDes; // 0x20
+		::RPG::Client::TextID TeamDes; // 0x18
+		::System::UInt32 AssistGroupID; // 0x28
 
 		::System::Void _ctor()
 		{

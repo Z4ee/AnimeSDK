@@ -5,19 +5,19 @@
 class Class_1_7DC23325A7BADE20;
 namespace RPG::Client::CatGod { class CatGodViewModel; }
 
-#define RPG_CLIENT_CATGOD_CATGODVIEWMODEL___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBF486C0)
-#define RPG_CLIENT_CATGOD_CATGODVIEWMODEL___C__DISPLAYCLASS0_0___CTOR_B__0_OFFSET UNITYSDK_OFFSET(0xBF48710)
-#define RPG_CLIENT_CATGOD_CATGODVIEWMODEL___C__DISPLAYCLASS0_0___CTOR_B__1_OFFSET UNITYSDK_OFFSET(0xBF48820)
+#define RPG_CLIENT_CATGOD_CATGODVIEWMODEL___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC9EDCE0)
+#define RPG_CLIENT_CATGOD_CATGODVIEWMODEL___C__DISPLAYCLASS0_0___CTOR_B__0_OFFSET UNITYSDK_OFFSET(0xC9EDD30)
+#define RPG_CLIENT_CATGOD_CATGODVIEWMODEL___C__DISPLAYCLASS0_0___CTOR_B__1_OFFSET UNITYSDK_OFFSET(0xC9EDE40)
 
 namespace RPG::Client::CatGod
 {
-	inline static constexpr unsigned int CatGodViewModel___c__DisplayClass0_0_TypeDefinitionIndex = 76692;
+	inline static constexpr unsigned int CatGodViewModel___c__DisplayClass0_0_TypeDefinitionIndex = 80329;
 
 	class CatGodViewModel___c__DisplayClass0_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::CatGod::CatGodViewModel* __4__this; // 0x10
-		::Class_1_7DC23325A7BADE20* catGodService; // 0x18
+		::Class_1_7DC23325A7BADE20* catGodService; // 0x10
+		::RPG::Client::CatGod::CatGodViewModel* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

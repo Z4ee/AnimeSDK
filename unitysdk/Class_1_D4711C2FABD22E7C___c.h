@@ -5,22 +5,22 @@
 namespace RPG::Client { class EvolveBuildCard; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define CLASS_1_D4711C2FABD22E7C___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x154E79E0)
-#define CLASS_1_D4711C2FABD22E7C___C__CREATECARDS_B__1_0_OFFSET UNITYSDK_OFFSET(0x154E7A20)
-#define CLASS_1_D4711C2FABD22E7C___C__CTOR_OFFSET UNITYSDK_OFFSET(0x154E7A10)
+#define CLASS_1_D4711C2FABD22E7C___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x16436D80)
+#define CLASS_1_D4711C2FABD22E7C___C__CREATECARDS_B__1_0_OFFSET UNITYSDK_OFFSET(0x16436DC0)
+#define CLASS_1_D4711C2FABD22E7C___C__CTOR_OFFSET UNITYSDK_OFFSET(0x16436DB0)
 
-inline static constexpr unsigned int Class_1_D4711C2FABD22E7C___c_TypeDefinitionIndex = 61003;
+inline static constexpr unsigned int Class_1_D4711C2FABD22E7C___c_TypeDefinitionIndex = 63856;
 
 class Class_1_D4711C2FABD22E7C___c : public ::System::Object
 {
 public:
-	static ::System::Comparison_1<::RPG::Client::EvolveBuildCard*>** StaticGet___9__1_0()
-	{
-		return (::System::Comparison_1<::RPG::Client::EvolveBuildCard*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_D4711C2FABD22E7C___c_TypeDefinitionIndex)->GetStaticField(0x34A10);
-	}
 	static ::Class_1_D4711C2FABD22E7C___c** StaticGet___9()
 	{
-		return (::Class_1_D4711C2FABD22E7C___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_D4711C2FABD22E7C___c_TypeDefinitionIndex)->GetStaticField(0x34A18);
+		return (::Class_1_D4711C2FABD22E7C___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_D4711C2FABD22E7C___c_TypeDefinitionIndex)->GetStaticField(0x5C330);
+	}
+	static ::System::Comparison_1<::RPG::Client::EvolveBuildCard*>** StaticGet___9__1_0()
+	{
+		return (::System::Comparison_1<::RPG::Client::EvolveBuildCard*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_D4711C2FABD22E7C___c_TypeDefinitionIndex)->GetStaticField(0x5C338);
 	}
 
 	static ::System::Void _cctor()

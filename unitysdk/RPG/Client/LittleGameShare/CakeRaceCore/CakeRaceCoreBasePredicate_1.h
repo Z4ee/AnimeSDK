@@ -7,7 +7,7 @@ class Class_2_F3C45F1FC7349B6E;
 
 namespace RPG::Client::LittleGameShare::CakeRaceCore
 {
-	inline static constexpr unsigned int CakeRaceCoreBasePredicate_1_TypeDefinitionIndex = 35858;
+	inline static constexpr unsigned int CakeRaceCoreBasePredicate_1_TypeDefinitionIndex = 36719;
 
 	template <typename T>
 	class CakeRaceCoreBasePredicate_1 : public ::Class_1_43BD383C98B4C0C5_19

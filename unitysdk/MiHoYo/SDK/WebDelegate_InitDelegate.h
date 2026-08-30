@@ -7,14 +7,14 @@ namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_WEBDELEGATE_INITDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x19E54770)
-#define MIHOYO_SDK_WEBDELEGATE_INITDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x19E547F0)
-#define MIHOYO_SDK_WEBDELEGATE_INITDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x19E512B0)
-#define MIHOYO_SDK_WEBDELEGATE_INITDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x19E546F0)
+#define MIHOYO_SDK_WEBDELEGATE_INITDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BB14BE0)
+#define MIHOYO_SDK_WEBDELEGATE_INITDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BB14C80)
+#define MIHOYO_SDK_WEBDELEGATE_INITDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BB117A0)
+#define MIHOYO_SDK_WEBDELEGATE_INITDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB14B60)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int WebDelegate_InitDelegate_TypeDefinitionIndex = 7766;
+	inline static constexpr unsigned int WebDelegate_InitDelegate_TypeDefinitionIndex = 7767;
 
 	class WebDelegate_InitDelegate : public ::System::MulticastDelegate
 	{
@@ -24,14 +24,14 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEBDELEGATE_INITDELEGATE__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Object* Invoke(::System::String* a1, ::System::Boolean a2, ::System::Int32 a3)
+		::System::Object* Invoke(::System::String* a1, ::System::Boolean a2, ::System::Int32 a3, ::System::Boolean a4)
 		{
-			return ((::System::Object*(*)(::PVOID, ::System::String*, ::System::Boolean, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEBDELEGATE_INITDELEGATE_INVOKE_OFFSET))(this, a1, a2, a3);
+			return ((::System::Object*(*)(::PVOID, ::System::String*, ::System::Boolean, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEBDELEGATE_INITDELEGATE_INVOKE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::String* a1, ::System::Boolean a2, ::System::Int32 a3, ::System::AsyncCallback* a4, ::System::Object* a5)
+		::System::IAsyncResult* BeginInvoke(::System::String* a1, ::System::Boolean a2, ::System::Int32 a3, ::System::Boolean a4, ::System::AsyncCallback* a5, ::System::Object* a6)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::String*, ::System::Boolean, ::System::Int32, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEBDELEGATE_INITDELEGATE_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::String*, ::System::Boolean, ::System::Int32, ::System::Boolean, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEBDELEGATE_INITDELEGATE_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
 		::System::Object* EndInvoke(::System::IAsyncResult* a1)

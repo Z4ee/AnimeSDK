@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int InsertMonsterPoolType_TypeDefinitionIndex = 23864;
+	inline static constexpr unsigned int InsertMonsterPoolType_TypeDefinitionIndex = 24452;
 
 	enum class InsertMonsterPoolType : ::System::Int32
 	{

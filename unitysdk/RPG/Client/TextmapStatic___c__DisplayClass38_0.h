@@ -5,12 +5,12 @@
 namespace System { class String; }
 namespace System::Text::RegularExpressions { class Match; }
 
-#define RPG_CLIENT_TEXTMAPSTATIC___C__DISPLAYCLASS38_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD690A20)
-#define RPG_CLIENT_TEXTMAPSTATIC___C__DISPLAYCLASS38_0___COMPILETEXTICONSPATTERN_B__1_OFFSET UNITYSDK_OFFSET(0xD693A60)
+#define RPG_CLIENT_TEXTMAPSTATIC___C__DISPLAYCLASS38_0__CTOR_OFFSET UNITYSDK_OFFSET(0xE1E0770)
+#define RPG_CLIENT_TEXTMAPSTATIC___C__DISPLAYCLASS38_0___COMPILETEXTICONSPATTERN_B__1_OFFSET UNITYSDK_OFFSET(0xE1E3790)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TextmapStatic___c__DisplayClass38_0_TypeDefinitionIndex = 69627;
+	inline static constexpr unsigned int TextmapStatic___c__DisplayClass38_0_TypeDefinitionIndex = 72865;
 
 	class TextmapStatic___c__DisplayClass38_0 : public ::System::Object
 	{

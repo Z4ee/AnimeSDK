@@ -5,27 +5,27 @@
 class Class_1_411C76A6422C8F62;
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 
-#define CLASS_1_5B05EC78D0816D29_METHOD_1_1867A77AD573DAEB_OFFSET UNITYSDK_OFFSET(0xD37C870)
-#define CLASS_1_5B05EC78D0816D29_METHOD_1_73B962BA57A31C9C_OFFSET UNITYSDK_OFFSET(0xD37CB80)
-#define CLASS_1_5B05EC78D0816D29_METHOD_1_C0F35A31FAC15CA9_OFFSET UNITYSDK_OFFSET(0xD37CAC0)
-#define CLASS_1_5B05EC78D0816D29_METHOD_1_C40015A0A4C9A5BF_OFFSET UNITYSDK_OFFSET(0xD37CA30)
-#define CLASS_1_5B05EC78D0816D29_METHOD_1_FD452F8CB078528B_OFFSET UNITYSDK_OFFSET(0xD37C920)
-#define CLASS_1_5B05EC78D0816D29__CCTOR_OFFSET UNITYSDK_OFFSET(0xD37CCA0)
+#define CLASS_1_5B05EC78D0816D29_METHOD_1_1867A77AD573DAEB_OFFSET UNITYSDK_OFFSET(0xE03D160)
+#define CLASS_1_5B05EC78D0816D29_METHOD_1_73B962BA57A31C9C_OFFSET UNITYSDK_OFFSET(0xE03D470)
+#define CLASS_1_5B05EC78D0816D29_METHOD_1_C0F35A31FAC15CA9_OFFSET UNITYSDK_OFFSET(0xE03D3B0)
+#define CLASS_1_5B05EC78D0816D29_METHOD_1_C40015A0A4C9A5BF_OFFSET UNITYSDK_OFFSET(0xE03D320)
+#define CLASS_1_5B05EC78D0816D29_METHOD_1_FD452F8CB078528B_OFFSET UNITYSDK_OFFSET(0xE03D210)
+#define CLASS_1_5B05EC78D0816D29__CCTOR_OFFSET UNITYSDK_OFFSET(0xE03D590)
 
-inline static constexpr unsigned int Class_1_5B05EC78D0816D29_TypeDefinitionIndex = 65418;
+inline static constexpr unsigned int Class_1_5B05EC78D0816D29_TypeDefinitionIndex = 68432;
 
 class Class_1_5B05EC78D0816D29 : public ::System::Object
 {
 public:
-	static ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::UInt32, ::Class_1_411C76A6422C8F62*>** StaticGet_Field_1_0()
+	static ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::UInt32, ::Class_1_411C76A6422C8F62*>** StaticGet_CIMODNKAAPF()
 	{
-		return (::System::Collections::Concurrent::ConcurrentDictionary_2<::System::UInt32, ::Class_1_411C76A6422C8F62*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_5B05EC78D0816D29_TypeDefinitionIndex)->GetStaticField(0x61E20);
+		return (::System::Collections::Concurrent::ConcurrentDictionary_2<::System::UInt32, ::Class_1_411C76A6422C8F62*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_5B05EC78D0816D29_TypeDefinitionIndex)->GetStaticField(0x66F80);
 	}
-	static ::System::UInt32* StaticGet_Field_1_1()
+	static ::System::UInt32* StaticGet_AEGGLFIFGML()
 	{
-		return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_5B05EC78D0816D29_TypeDefinitionIndex)->GetStaticField(0x116E0);
+		return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_5B05EC78D0816D29_TypeDefinitionIndex)->GetStaticField(0x15460);
 	}
-	// static const ::System::UInt32 Field_1_2 = 0x0; // 0x0
+	// static const ::System::UInt32 PMIDCJIDKKD = 0x0; // 0x0
 
 	static ::System::Void _cctor()
 	{

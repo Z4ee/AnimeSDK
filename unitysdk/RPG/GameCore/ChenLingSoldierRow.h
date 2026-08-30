@@ -7,29 +7,29 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHENLINGSOLDIERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B33C740)
-#define RPG_GAMECORE_CHENLINGSOLDIERROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B33CCC0)
+#define RPG_GAMECORE_CHENLINGSOLDIERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CFB8AE0)
+#define RPG_GAMECORE_CHENLINGSOLDIERROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFB9060)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingSoldierRow_TypeDefinitionIndex = 10662;
+	inline static constexpr unsigned int ChenLingSoldierRow_TypeDefinitionIndex = 11037;
 
 	class ChenLingSoldierRow : public ::System::Object
 	{
 	public:
-		::System::String* ModelPath; // 0x10
-		::Il2CppArray<::System::UInt32>* PromotionConditionList; // 0x18
-		::Il2CppArray<::System::UInt32>* SkillIDList; // 0x20
-		::System::String* SmallIconOutlinePath; // 0x28
-		::Il2CppArray<::System::UInt32>* AtkSkillIDList; // 0x30
-		::System::String* SmallIconPath; // 0x38
-		::RPG::Client::TextID Name; // 0x40
-		::System::Boolean IsOnlyForEnemy; // 0x50
-		::RPG::Client::TextID PromotionSkillDesc; // 0x58
-		::System::UInt32 InitialMaxLevel; // 0x68
-		::System::UInt32 ID; // 0x6C
-		::RPG::GameCore::ChenLingBattleInitPosition Position; // 0x70
-		::System::UInt32 PromotionEffectID; // 0x74
+		::Il2CppArray<::System::UInt32>* PromotionConditionList; // 0x10
+		::System::String* SmallIconOutlinePath; // 0x18
+		::Il2CppArray<::System::UInt32>* AtkSkillIDList; // 0x20
+		::System::String* SmallIconPath; // 0x28
+		::System::String* ModelPath; // 0x30
+		::Il2CppArray<::System::UInt32>* SkillIDList; // 0x38
+		::System::UInt32 ID; // 0x40
+		::RPG::GameCore::ChenLingBattleInitPosition Position; // 0x44
+		::System::UInt32 PromotionEffectID; // 0x48
+		::System::Boolean IsOnlyForEnemy; // 0x4C
+		::System::UInt32 InitialMaxLevel; // 0x50
+		::RPG::Client::TextID Name; // 0x58
+		::RPG::Client::TextID PromotionSkillDesc; // 0x68
 		::RPG::Client::TextID SkillDesc; // 0x78
 
 		::System::Void _ctor()

@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class BattleCollegeAimData; }
 
-#define RPG_CLIENT_BATTLECOLLEGEDATA___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBE50980)
-#define RPG_CLIENT_BATTLECOLLEGEDATA___C__DISPLAYCLASS5_0__INDEXOFAIMDATA_B__0_OFFSET UNITYSDK_OFFSET(0xBE50D80)
+#define RPG_CLIENT_BATTLECOLLEGEDATA___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC8F17E0)
+#define RPG_CLIENT_BATTLECOLLEGEDATA___C__DISPLAYCLASS5_0__INDEXOFAIMDATA_B__0_OFFSET UNITYSDK_OFFSET(0xC8F1BE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BattleCollegeData___c__DisplayClass5_0_TypeDefinitionIndex = 60099;
+	inline static constexpr unsigned int BattleCollegeData___c__DisplayClass5_0_TypeDefinitionIndex = 62945;
 
 	class BattleCollegeData___c__DisplayClass5_0 : public ::System::Object
 	{

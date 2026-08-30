@@ -2,41 +2,41 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_333B902B2174BECA_2;
+class Class_1_333B902B2174BECA_1;
 namespace RPG::Client::ChenLingBattle { class CardConfig; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_CHENLINGBATTLE_SHOPREFRESHINFO_CREATEBYPROTO_OFFSET UNITYSDK_OFFSET(0xC065620)
-#define RPG_CLIENT_CHENLINGBATTLE_SHOPREFRESHINFO_GET_BOUGHTCARDINDICES_OFFSET UNITYSDK_OFFSET(0xC067720)
-#define RPG_CLIENT_CHENLINGBATTLE_SHOPREFRESHINFO_GET_CARDCONFIGS_OFFSET UNITYSDK_OFFSET(0xC067700)
-#define RPG_CLIENT_CHENLINGBATTLE_SHOPREFRESHINFO_GET_DISCOUNTPERCENT_OFFSET UNITYSDK_OFFSET(0xC067740)
-#define RPG_CLIENT_CHENLINGBATTLE_SHOPREFRESHINFO_GET_REFRESHCOST_OFFSET UNITYSDK_OFFSET(0xC0676E0)
-#define RPG_CLIENT_CHENLINGBATTLE_SHOPREFRESHINFO_SET_BOUGHTCARDINDICES_OFFSET UNITYSDK_OFFSET(0xC067730)
-#define RPG_CLIENT_CHENLINGBATTLE_SHOPREFRESHINFO_SET_CARDCONFIGS_OFFSET UNITYSDK_OFFSET(0xC067710)
-#define RPG_CLIENT_CHENLINGBATTLE_SHOPREFRESHINFO_SET_DISCOUNTPERCENT_OFFSET UNITYSDK_OFFSET(0xC067750)
-#define RPG_CLIENT_CHENLINGBATTLE_SHOPREFRESHINFO_SET_REFRESHCOST_OFFSET UNITYSDK_OFFSET(0xC0676F0)
-#define RPG_CLIENT_CHENLINGBATTLE_SHOPREFRESHINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xC0676C0)
+#define RPG_CLIENT_CHENLINGBATTLE_SHOPREFRESHINFO_CREATEBYPROTO_OFFSET UNITYSDK_OFFSET(0xCB123A0)
+#define RPG_CLIENT_CHENLINGBATTLE_SHOPREFRESHINFO_GET_BOUGHTCARDINDICES_OFFSET UNITYSDK_OFFSET(0xCB144A0)
+#define RPG_CLIENT_CHENLINGBATTLE_SHOPREFRESHINFO_GET_CARDCONFIGS_OFFSET UNITYSDK_OFFSET(0xCB14480)
+#define RPG_CLIENT_CHENLINGBATTLE_SHOPREFRESHINFO_GET_DISCOUNTPERCENT_OFFSET UNITYSDK_OFFSET(0xCB144C0)
+#define RPG_CLIENT_CHENLINGBATTLE_SHOPREFRESHINFO_GET_REFRESHCOST_OFFSET UNITYSDK_OFFSET(0xCB14460)
+#define RPG_CLIENT_CHENLINGBATTLE_SHOPREFRESHINFO_SET_BOUGHTCARDINDICES_OFFSET UNITYSDK_OFFSET(0xCB144B0)
+#define RPG_CLIENT_CHENLINGBATTLE_SHOPREFRESHINFO_SET_CARDCONFIGS_OFFSET UNITYSDK_OFFSET(0xCB14490)
+#define RPG_CLIENT_CHENLINGBATTLE_SHOPREFRESHINFO_SET_DISCOUNTPERCENT_OFFSET UNITYSDK_OFFSET(0xCB144D0)
+#define RPG_CLIENT_CHENLINGBATTLE_SHOPREFRESHINFO_SET_REFRESHCOST_OFFSET UNITYSDK_OFFSET(0xCB14470)
+#define RPG_CLIENT_CHENLINGBATTLE_SHOPREFRESHINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xCB14440)
 
 namespace RPG::Client::ChenLingBattle
 {
-	inline static constexpr unsigned int ShopRefreshInfo_TypeDefinitionIndex = 72407;
+	inline static constexpr unsigned int ShopRefreshInfo_TypeDefinitionIndex = 75843;
 
 	class ShopRefreshInfo : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::UInt32>* _BoughtCardIndices_k__BackingField; // 0x10
-		::System::Collections::Generic::List_1<::RPG::Client::ChenLingBattle::CardConfig*>* _CardConfigs_k__BackingField; // 0x18
-		::System::UInt32 _DiscountPercent_k__BackingField; // 0x20
-		::System::UInt32 _RefreshCost_k__BackingField; // 0x24
+		::System::Collections::Generic::List_1<::RPG::Client::ChenLingBattle::CardConfig*>* _CardConfigs_k__BackingField; // 0x10
+		::System::Collections::Generic::List_1<::System::UInt32>* _BoughtCardIndices_k__BackingField; // 0x18
+		::System::UInt32 _RefreshCost_k__BackingField; // 0x20
+		::System::UInt32 _DiscountPercent_k__BackingField; // 0x24
 
 		::System::Void _ctor(::System::UInt32 a1, ::System::Collections::Generic::List_1<::RPG::Client::ChenLingBattle::CardConfig*>* a2, ::System::Collections::Generic::List_1<::System::UInt32>* a3, ::System::UInt32 a4)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Collections::Generic::List_1<::RPG::Client::ChenLingBattle::CardConfig*>*, ::System::Collections::Generic::List_1<::System::UInt32>*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_SHOPREFRESHINFO__CTOR_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		static ::RPG::Client::ChenLingBattle::ShopRefreshInfo* CreateByProto(::Class_1_333B902B2174BECA_2* a1)
+		static ::RPG::Client::ChenLingBattle::ShopRefreshInfo* CreateByProto(::Class_1_333B902B2174BECA_1* a1)
 		{
-			return ((::RPG::Client::ChenLingBattle::ShopRefreshInfo*(*)(::Class_1_333B902B2174BECA_2*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_SHOPREFRESHINFO_CREATEBYPROTO_OFFSET))(a1);
+			return ((::RPG::Client::ChenLingBattle::ShopRefreshInfo*(*)(::Class_1_333B902B2174BECA_1*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_SHOPREFRESHINFO_CREATEBYPROTO_OFFSET))(a1);
 		}
 
 		::System::UInt32 get_RefreshCost()

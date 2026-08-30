@@ -7,12 +7,12 @@
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_ADDITIONALCOLORGRADINGTIMELINETRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xDCFAE60)
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_ADDITIONALCOLORGRADINGTIMELINETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xDCFAF10)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_ADDITIONALCOLORGRADINGTIMELINETRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8C4950)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_ADDITIONALCOLORGRADINGTIMELINETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xE8C4A00)
 
 namespace RPGTools::Timeline::PostProcessing
 {
-	inline static constexpr unsigned int AdditionalColorGradingTimelineTrack_TypeDefinitionIndex = 46739;
+	inline static constexpr unsigned int AdditionalColorGradingTimelineTrack_TypeDefinitionIndex = 48985;
 
 	class AdditionalColorGradingTimelineTrack : public ::UnityEngine::Timeline::TrackAsset
 	{

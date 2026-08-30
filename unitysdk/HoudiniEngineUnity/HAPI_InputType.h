@@ -3,7 +3,7 @@
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HAPI_InputType_TypeDefinitionIndex = 38317;
+	inline static constexpr unsigned int HAPI_InputType_TypeDefinitionIndex = 39176;
 
 	enum class HAPI_InputType : ::System::Int32
 	{

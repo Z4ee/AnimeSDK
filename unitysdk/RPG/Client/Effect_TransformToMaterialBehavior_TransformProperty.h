@@ -6,12 +6,12 @@
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_EFFECT_TRANSFORMTOMATERIALBEHAVIOR_TRANSFORMPROPERTY_METHOD_2_289133ED16ED02FB_OFFSET UNITYSDK_OFFSET(0xC353020)
-#define RPG_CLIENT_EFFECT_TRANSFORMTOMATERIALBEHAVIOR_TRANSFORMPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0xC353110)
+#define RPG_CLIENT_EFFECT_TRANSFORMTOMATERIALBEHAVIOR_TRANSFORMPROPERTY_METHOD_2_289133ED16ED02FB_OFFSET UNITYSDK_OFFSET(0xCE24500)
+#define RPG_CLIENT_EFFECT_TRANSFORMTOMATERIALBEHAVIOR_TRANSFORMPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0xCE245F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_TransformToMaterialBehavior_TransformProperty_TypeDefinitionIndex = 67415;
+	inline static constexpr unsigned int Effect_TransformToMaterialBehavior_TransformProperty_TypeDefinitionIndex = 70537;
 
 	class Effect_TransformToMaterialBehavior_TransformProperty : public ::RPG::Client::TAUtils::MaterialPropertiesCollection_Property
 	{

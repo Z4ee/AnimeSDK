@@ -13,7 +13,7 @@ namespace System::IO { template <typename T> class SearchResultHandler_1; }
 
 namespace System::IO
 {
-	inline static constexpr unsigned int FileSystemEnumerableIterator_1_TypeDefinitionIndex = 671;
+	inline static constexpr unsigned int FileSystemEnumerableIterator_1_TypeDefinitionIndex = 674;
 
 	template <typename TSource>
 	class FileSystemEnumerableIterator_1 : public ::System::IO::Iterator_1<TSource>

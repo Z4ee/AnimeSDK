@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_CLOSEUPSHOTPROCEDURECONFIG_METHOD_2_35F8BED0A63117EE_OFFSET UNITYSDK_OFFSET(0x1B36F5D0)
-#define RPG_GAMECORE_CLOSEUPSHOTPROCEDURECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B36FDB0)
+#define RPG_GAMECORE_CLOSEUPSHOTPROCEDURECONFIG_METHOD_2_35F8BED0A63117EE_OFFSET UNITYSDK_OFFSET(0x1CFEC580)
+#define RPG_GAMECORE_CLOSEUPSHOTPROCEDURECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFECEF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CloseupShotProcedureConfig_TypeDefinitionIndex = 15764;
+	inline static constexpr unsigned int CloseupShotProcedureConfig_TypeDefinitionIndex = 16240;
 
 	class CloseupShotProcedureConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -38,7 +38,12 @@ namespace RPG::GameCore
 		::System::Boolean UseLightTeamOffsetByTeamWidth; // 0x68
 		::System::Boolean UseDarkTeamOffsetByTeamWidth; // 0x69
 		::System::Boolean InspectAimVisibleForDynamicOffset; // 0x6A
-		::System::Boolean ApplyMonsterDynamicOffset; // 0x6B
+		::System::Single DynamicOffsetScaleBlendTime; // 0x6C
+		::RPG::GameCore::VCameraBlendType DynamicOffsetScaleBlendType; // 0x70
+		::System::String* DynamicOffsetScaleBlendCurvePath; // 0x78
+		::System::Single TimelineYLimit; // 0x80
+		::System::Boolean ApplyResolutionDelta; // 0x84
+		::System::Boolean ApplyMonsterDynamicOffset; // 0x85
 
 		::System::Void _ctor()
 		{

@@ -1,27 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_CA217ABF4E3B4F3F.h"
+#include "unitysdk/Class_1_34917908B7833130.h"
 
 class Class_1_6CE70F4211D79CD5_5;
 namespace RPG::Client { class LocalizedText; }
 namespace RPG::Client { class UIValueChangeAnimation; }
 namespace UnityEngine::UI { class Image; }
 
-#define CLASS_2_0768C54531906C87_METHOD_2_0865E94460F11643_OFFSET UNITYSDK_OFFSET(0xB4EDE40)
-#define CLASS_2_0768C54531906C87_METHOD_2_2A38E69140BEF946_OFFSET UNITYSDK_OFFSET(0xB4EDF30)
-#define CLASS_2_0768C54531906C87_METHOD_2_D2A08F3D951A0C1D_OFFSET UNITYSDK_OFFSET(0xB4EE120)
-#define CLASS_2_0768C54531906C87__CTOR_OFFSET UNITYSDK_OFFSET(0xB4EE210)
-#define CLASS_2_0768C54531906C87__ONBIND_OFFSET UNITYSDK_OFFSET(0xB4EDD80)
+#define CLASS_2_0768C54531906C87_METHOD_2_0865E94460F11643_OFFSET UNITYSDK_OFFSET(0xBEDD960)
+#define CLASS_2_0768C54531906C87_METHOD_2_2A38E69140BEF946_OFFSET UNITYSDK_OFFSET(0xBEDDA50)
+#define CLASS_2_0768C54531906C87_METHOD_2_D2A08F3D951A0C1D_OFFSET UNITYSDK_OFFSET(0xBEDDC40)
+#define CLASS_2_0768C54531906C87__CTOR_OFFSET UNITYSDK_OFFSET(0xBEDDD30)
+#define CLASS_2_0768C54531906C87__ONBIND_OFFSET UNITYSDK_OFFSET(0xBEDD8A0)
 
-inline static constexpr unsigned int Class_2_0768C54531906C87_TypeDefinitionIndex = 68368;
+inline static constexpr unsigned int Class_2_0768C54531906C87_TypeDefinitionIndex = 71549;
 
-class Class_2_0768C54531906C87 : public ::Class_1_CA217ABF4E3B4F3F
+class Class_2_0768C54531906C87 : public ::Class_1_34917908B7833130
 {
 public:
-	::RPG::Client::UIValueChangeAnimation* Field_2_0; // 0x60
-	::UnityEngine::UI::Image* Field_2_1; // 0x68
-	::RPG::Client::LocalizedText* Field_2_2; // 0x70
-	::System::Boolean Field_2_3; // 0x78
+	::RPG::Client::LocalizedText* PKANBKHJHNP; // 0x60
+	::UnityEngine::UI::Image* JLHDCKNHDJH; // 0x68
+	::RPG::Client::UIValueChangeAnimation* CGJKPIEFBKB; // 0x70
+	::System::Boolean IDBEBIDMHME; // 0x78
 
 	::System::Void _ctor()
 	{

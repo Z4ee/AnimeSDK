@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByPhotoGraphConditionSuccess; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_EE07782E7BA33276_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15563DC0)
-#define CLASS_3_EE07782E7BA33276__CTOR_OFFSET UNITYSDK_OFFSET(0x15563D90)
+#define CLASS_3_EE07782E7BA33276_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB587A90)
+#define CLASS_3_EE07782E7BA33276__CTOR_OFFSET UNITYSDK_OFFSET(0xB587A60)
 
-inline static constexpr unsigned int Class_3_EE07782E7BA33276_TypeDefinitionIndex = 50737;
+inline static constexpr unsigned int Class_3_EE07782E7BA33276_TypeDefinitionIndex = 53419;
 
 class Class_3_EE07782E7BA33276 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByPhotoGraphConditionSuccess*>
 {

@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_ED790DAC948A65A9_18.h"
+#include "unitysdk/Enum_3_ED790DAC948A65A9_19.h"
 #include "unitysdk/System/Object.h"
 
 namespace Google::Protobuf { class CodedInputStream; }
@@ -13,80 +13,80 @@ namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 namespace Proto { class ItemList; }
 namespace System { class String; }
 
-#define PROTO_CLIENTMAIL_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1BC65030)
-#define PROTO_CLIENTMAIL_CLONE_OFFSET UNITYSDK_OFFSET(0x1BC64430)
-#define PROTO_CLIENTMAIL_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1BC646A0)
-#define PROTO_CLIENTMAIL_EQUALS_OFFSET UNITYSDK_OFFSET(0x1BC64670)
-#define PROTO_CLIENTMAIL_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1BC64890)
-#define PROTO_CLIENTMAIL_GET_ATTACHMENT_OFFSET UNITYSDK_OFFSET(0x1BC644C0)
-#define PROTO_CLIENTMAIL_GET_CONTENT_OFFSET UNITYSDK_OFFSET(0x1BC645F0)
-#define PROTO_CLIENTMAIL_GET_EXPIRETIME_OFFSET UNITYSDK_OFFSET(0x1BC645C0)
-#define PROTO_CLIENTMAIL_GET_ID_OFFSET UNITYSDK_OFFSET(0x1BC64460)
-#define PROTO_CLIENTMAIL_GET_ISREAD_OFFSET UNITYSDK_OFFSET(0x1BC64650)
-#define PROTO_CLIENTMAIL_GET_MAILTYPE_OFFSET UNITYSDK_OFFSET(0x1BC644A0)
-#define PROTO_CLIENTMAIL_GET_PARALIST_OFFSET UNITYSDK_OFFSET(0x1BC645E0)
-#define PROTO_CLIENTMAIL_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x1BC64260)
-#define PROTO_CLIENTMAIL_GET_SENDER_OFFSET UNITYSDK_OFFSET(0x1BC644E0)
-#define PROTO_CLIENTMAIL_GET_TEMPLATEID_OFFSET UNITYSDK_OFFSET(0x1BC64480)
-#define PROTO_CLIENTMAIL_GET_TIME_OFFSET UNITYSDK_OFFSET(0x1BC64540)
-#define PROTO_CLIENTMAIL_GET_TITLE_OFFSET UNITYSDK_OFFSET(0x1BC64560)
-#define PROTO_CLIENTMAIL_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1BC656A0)
-#define PROTO_CLIENTMAIL_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1BC65510)
-#define PROTO_CLIENTMAIL_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1BC64290)
-#define PROTO_CLIENTMAIL_SET_ATTACHMENT_OFFSET UNITYSDK_OFFSET(0x1BC644D0)
-#define PROTO_CLIENTMAIL_SET_CONTENT_OFFSET UNITYSDK_OFFSET(0x1BC64600)
-#define PROTO_CLIENTMAIL_SET_EXPIRETIME_OFFSET UNITYSDK_OFFSET(0x1BC645D0)
-#define PROTO_CLIENTMAIL_SET_ID_OFFSET UNITYSDK_OFFSET(0x1BC64470)
-#define PROTO_CLIENTMAIL_SET_ISREAD_OFFSET UNITYSDK_OFFSET(0x1BC64660)
-#define PROTO_CLIENTMAIL_SET_MAILTYPE_OFFSET UNITYSDK_OFFSET(0x1BC644B0)
-#define PROTO_CLIENTMAIL_SET_SENDER_OFFSET UNITYSDK_OFFSET(0x1BC644F0)
-#define PROTO_CLIENTMAIL_SET_TEMPLATEID_OFFSET UNITYSDK_OFFSET(0x1BC64490)
-#define PROTO_CLIENTMAIL_SET_TIME_OFFSET UNITYSDK_OFFSET(0x1BC64550)
-#define PROTO_CLIENTMAIL_SET_TITLE_OFFSET UNITYSDK_OFFSET(0x1BC64570)
-#define PROTO_CLIENTMAIL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1BC64B30)
-#define PROTO_CLIENTMAIL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1BC64B90)
-#define PROTO_CLIENTMAIL__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BC65960)
-#define PROTO_CLIENTMAIL__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1BC64300)
-#define PROTO_CLIENTMAIL__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC642A0)
+#define PROTO_CLIENTMAIL_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1D931E60)
+#define PROTO_CLIENTMAIL_CLONE_OFFSET UNITYSDK_OFFSET(0x1D931330)
+#define PROTO_CLIENTMAIL_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1D9315A0)
+#define PROTO_CLIENTMAIL_EQUALS_OFFSET UNITYSDK_OFFSET(0x1D931570)
+#define PROTO_CLIENTMAIL_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1D9316D0)
+#define PROTO_CLIENTMAIL_GET_ATTACHMENT_OFFSET UNITYSDK_OFFSET(0x1D931550)
+#define PROTO_CLIENTMAIL_GET_CONTENT_OFFSET UNITYSDK_OFFSET(0x1D931400)
+#define PROTO_CLIENTMAIL_GET_EXPIRETIME_OFFSET UNITYSDK_OFFSET(0x1D9313C0)
+#define PROTO_CLIENTMAIL_GET_ID_OFFSET UNITYSDK_OFFSET(0x1D931530)
+#define PROTO_CLIENTMAIL_GET_ISREAD_OFFSET UNITYSDK_OFFSET(0x1D931380)
+#define PROTO_CLIENTMAIL_GET_MAILTYPE_OFFSET UNITYSDK_OFFSET(0x1D931360)
+#define PROTO_CLIENTMAIL_GET_PARALIST_OFFSET UNITYSDK_OFFSET(0x1D931460)
+#define PROTO_CLIENTMAIL_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x1D931160)
+#define PROTO_CLIENTMAIL_GET_SENDER_OFFSET UNITYSDK_OFFSET(0x1D9314D0)
+#define PROTO_CLIENTMAIL_GET_TEMPLATEID_OFFSET UNITYSDK_OFFSET(0x1D9313A0)
+#define PROTO_CLIENTMAIL_GET_TIME_OFFSET UNITYSDK_OFFSET(0x1D9313E0)
+#define PROTO_CLIENTMAIL_GET_TITLE_OFFSET UNITYSDK_OFFSET(0x1D931470)
+#define PROTO_CLIENTMAIL_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1D9324E0)
+#define PROTO_CLIENTMAIL_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1D932340)
+#define PROTO_CLIENTMAIL_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1D931190)
+#define PROTO_CLIENTMAIL_SET_ATTACHMENT_OFFSET UNITYSDK_OFFSET(0x1D931560)
+#define PROTO_CLIENTMAIL_SET_CONTENT_OFFSET UNITYSDK_OFFSET(0x1D931410)
+#define PROTO_CLIENTMAIL_SET_EXPIRETIME_OFFSET UNITYSDK_OFFSET(0x1D9313D0)
+#define PROTO_CLIENTMAIL_SET_ID_OFFSET UNITYSDK_OFFSET(0x1D931540)
+#define PROTO_CLIENTMAIL_SET_ISREAD_OFFSET UNITYSDK_OFFSET(0x1D931390)
+#define PROTO_CLIENTMAIL_SET_MAILTYPE_OFFSET UNITYSDK_OFFSET(0x1D931370)
+#define PROTO_CLIENTMAIL_SET_SENDER_OFFSET UNITYSDK_OFFSET(0x1D9314E0)
+#define PROTO_CLIENTMAIL_SET_TEMPLATEID_OFFSET UNITYSDK_OFFSET(0x1D9313B0)
+#define PROTO_CLIENTMAIL_SET_TIME_OFFSET UNITYSDK_OFFSET(0x1D9313F0)
+#define PROTO_CLIENTMAIL_SET_TITLE_OFFSET UNITYSDK_OFFSET(0x1D931480)
+#define PROTO_CLIENTMAIL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1D931960)
+#define PROTO_CLIENTMAIL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1D9319C0)
+#define PROTO_CLIENTMAIL__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D9327B0)
+#define PROTO_CLIENTMAIL__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1D931200)
+#define PROTO_CLIENTMAIL__CTOR_OFFSET UNITYSDK_OFFSET(0x1D9311A0)
 
 namespace Proto
 {
-	inline static constexpr unsigned int ClientMail_TypeDefinitionIndex = 29222;
+	inline static constexpr unsigned int ClientMail_TypeDefinitionIndex = 29955;
 
 	class ClientMail : public ::System::Object
 	{
 	public:
 		static ::Google::Protobuf::FieldCodec_1<::System::String*>** StaticGet__repeated_paraList_codec()
 		{
-			return (::Google::Protobuf::FieldCodec_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ClientMail_TypeDefinitionIndex)->GetStaticField(0x3C220);
+			return (::Google::Protobuf::FieldCodec_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ClientMail_TypeDefinitionIndex)->GetStaticField(0x578B0);
 		}
 		static ::Google::Protobuf::MessageParser_1<::Proto::ClientMail*>** StaticGet__parser()
 		{
-			return (::Google::Protobuf::MessageParser_1<::Proto::ClientMail*>**)Il2CppClass::FromTypeDefinitionIndex(ClientMail_TypeDefinitionIndex)->GetStaticField(0x3C228);
+			return (::Google::Protobuf::MessageParser_1<::Proto::ClientMail*>**)Il2CppClass::FromTypeDefinitionIndex(ClientMail_TypeDefinitionIndex)->GetStaticField(0x578B8);
 		}
-		// static const ::System::Int32 IdFieldNumber = 0x1; // 0x0
-		// static const ::System::Int32 TemplateIdFieldNumber = 0xC; // 0x0
-		// static const ::System::Int32 MailTypeFieldNumber = 0x6; // 0x0
-		// static const ::System::Int32 AttachmentFieldNumber = 0x8; // 0x0
-		// static const ::System::Int32 SenderFieldNumber = 0xB; // 0x0
-		// static const ::System::Int32 TimeFieldNumber = 0x9; // 0x0
-		// static const ::System::Int32 TitleFieldNumber = 0x5; // 0x0
-		// static const ::System::Int32 ExpireTimeFieldNumber = 0x2; // 0x0
-		// static const ::System::Int32 ParaListFieldNumber = 0xF; // 0x0
+		// static const ::System::Int32 MailTypeFieldNumber = 0x2; // 0x0
+		// static const ::System::Int32 IsReadFieldNumber = 0x1; // 0x0
+		// static const ::System::Int32 TemplateIdFieldNumber = 0x7; // 0x0
+		// static const ::System::Int32 ExpireTimeFieldNumber = 0xE; // 0x0
+		// static const ::System::Int32 TimeFieldNumber = 0xF; // 0x0
 		// static const ::System::Int32 ContentFieldNumber = 0x4; // 0x0
-		// static const ::System::Int32 IsReadFieldNumber = 0x3; // 0x0
-		::System::String* content_; // 0x10
-		::Google::Protobuf::Collections::RepeatedField_1<::System::String*>* paraList_; // 0x18
-		::Proto::ItemList* attachment_; // 0x20
-		::System::String* sender_; // 0x28
-		::Google::Protobuf::UnknownFieldSet* _unknownFields; // 0x30
-		::System::String* title_; // 0x38
+		// static const ::System::Int32 ParaListFieldNumber = 0xA; // 0x0
+		// static const ::System::Int32 TitleFieldNumber = 0x3; // 0x0
+		// static const ::System::Int32 SenderFieldNumber = 0x6; // 0x0
+		// static const ::System::Int32 IdFieldNumber = 0x8; // 0x0
+		// static const ::System::Int32 AttachmentFieldNumber = 0xC; // 0x0
+		::System::String* title_; // 0x10
+		::Google::Protobuf::UnknownFieldSet* _unknownFields; // 0x18
+		::System::String* sender_; // 0x20
+		::Google::Protobuf::Collections::RepeatedField_1<::System::String*>* paraList_; // 0x28
+		::Proto::ItemList* attachment_; // 0x30
+		::System::String* content_; // 0x38
 		::System::Int64 expireTime_; // 0x40
 		::System::Boolean isRead_; // 0x48
-		::System::UInt32 templateId_; // 0x4C
-		::System::Int64 time_; // 0x50
-		::System::UInt32 id_; // 0x58
-		::Enum_3_ED790DAC948A65A9_18 mailType_; // 0x5C
+		::System::UInt32 id_; // 0x4C
+		::System::UInt32 templateId_; // 0x50
+		::Enum_3_ED790DAC948A65A9_19 mailType_; // 0x54
+		::System::Int64 time_; // 0x58
 
 		::System::Void _ctor()
 		{
@@ -118,14 +118,24 @@ namespace Proto
 			return ((::Proto::ClientMail*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_CLIENTMAIL_CLONE_OFFSET))(this);
 		}
 
-		::System::UInt32 get_Id()
+		::Enum_3_ED790DAC948A65A9_19 get_MailType()
 		{
-			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_CLIENTMAIL_GET_ID_OFFSET))(this);
+			return ((::Enum_3_ED790DAC948A65A9_19(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_CLIENTMAIL_GET_MAILTYPE_OFFSET))(this);
 		}
 
-		::System::Void set_Id(::System::UInt32 a1)
+		::System::Void set_MailType(::Enum_3_ED790DAC948A65A9_19 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_CLIENTMAIL_SET_ID_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Enum_3_ED790DAC948A65A9_19))((::PBYTE)hIl2Cpp + PROTO_CLIENTMAIL_SET_MAILTYPE_OFFSET))(this, a1);
+		}
+
+		::System::Boolean get_IsRead()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_CLIENTMAIL_GET_ISREAD_OFFSET))(this);
+		}
+
+		::System::Void set_IsRead(::System::Boolean a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + PROTO_CLIENTMAIL_SET_ISREAD_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_TemplateId()
@@ -138,34 +148,14 @@ namespace Proto
 			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_CLIENTMAIL_SET_TEMPLATEID_OFFSET))(this, a1);
 		}
 
-		::Enum_3_ED790DAC948A65A9_18 get_MailType()
+		::System::Int64 get_ExpireTime()
 		{
-			return ((::Enum_3_ED790DAC948A65A9_18(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_CLIENTMAIL_GET_MAILTYPE_OFFSET))(this);
+			return ((::System::Int64(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_CLIENTMAIL_GET_EXPIRETIME_OFFSET))(this);
 		}
 
-		::System::Void set_MailType(::Enum_3_ED790DAC948A65A9_18 a1)
+		::System::Void set_ExpireTime(::System::Int64 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Enum_3_ED790DAC948A65A9_18))((::PBYTE)hIl2Cpp + PROTO_CLIENTMAIL_SET_MAILTYPE_OFFSET))(this, a1);
-		}
-
-		::Proto::ItemList* get_Attachment()
-		{
-			return ((::Proto::ItemList*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_CLIENTMAIL_GET_ATTACHMENT_OFFSET))(this);
-		}
-
-		::System::Void set_Attachment(::Proto::ItemList* a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::Proto::ItemList*))((::PBYTE)hIl2Cpp + PROTO_CLIENTMAIL_SET_ATTACHMENT_OFFSET))(this, a1);
-		}
-
-		::System::String* get_Sender()
-		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_CLIENTMAIL_GET_SENDER_OFFSET))(this);
-		}
-
-		::System::Void set_Sender(::System::String* a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + PROTO_CLIENTMAIL_SET_SENDER_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Int64))((::PBYTE)hIl2Cpp + PROTO_CLIENTMAIL_SET_EXPIRETIME_OFFSET))(this, a1);
 		}
 
 		::System::Int64 get_Time()
@@ -178,31 +168,6 @@ namespace Proto
 			return ((::System::Void(*)(::PVOID, ::System::Int64))((::PBYTE)hIl2Cpp + PROTO_CLIENTMAIL_SET_TIME_OFFSET))(this, a1);
 		}
 
-		::System::String* get_Title()
-		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_CLIENTMAIL_GET_TITLE_OFFSET))(this);
-		}
-
-		::System::Void set_Title(::System::String* a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + PROTO_CLIENTMAIL_SET_TITLE_OFFSET))(this, a1);
-		}
-
-		::System::Int64 get_ExpireTime()
-		{
-			return ((::System::Int64(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_CLIENTMAIL_GET_EXPIRETIME_OFFSET))(this);
-		}
-
-		::System::Void set_ExpireTime(::System::Int64 a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::Int64))((::PBYTE)hIl2Cpp + PROTO_CLIENTMAIL_SET_EXPIRETIME_OFFSET))(this, a1);
-		}
-
-		::Google::Protobuf::Collections::RepeatedField_1<::System::String*>* get_ParaList()
-		{
-			return ((::Google::Protobuf::Collections::RepeatedField_1<::System::String*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_CLIENTMAIL_GET_PARALIST_OFFSET))(this);
-		}
-
 		::System::String* get_Content()
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_CLIENTMAIL_GET_CONTENT_OFFSET))(this);
@@ -213,14 +178,49 @@ namespace Proto
 			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + PROTO_CLIENTMAIL_SET_CONTENT_OFFSET))(this, a1);
 		}
 
-		::System::Boolean get_IsRead()
+		::Google::Protobuf::Collections::RepeatedField_1<::System::String*>* get_ParaList()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_CLIENTMAIL_GET_ISREAD_OFFSET))(this);
+			return ((::Google::Protobuf::Collections::RepeatedField_1<::System::String*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_CLIENTMAIL_GET_PARALIST_OFFSET))(this);
 		}
 
-		::System::Void set_IsRead(::System::Boolean a1)
+		::System::String* get_Title()
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + PROTO_CLIENTMAIL_SET_ISREAD_OFFSET))(this, a1);
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_CLIENTMAIL_GET_TITLE_OFFSET))(this);
+		}
+
+		::System::Void set_Title(::System::String* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + PROTO_CLIENTMAIL_SET_TITLE_OFFSET))(this, a1);
+		}
+
+		::System::String* get_Sender()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_CLIENTMAIL_GET_SENDER_OFFSET))(this);
+		}
+
+		::System::Void set_Sender(::System::String* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + PROTO_CLIENTMAIL_SET_SENDER_OFFSET))(this, a1);
+		}
+
+		::System::UInt32 get_Id()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_CLIENTMAIL_GET_ID_OFFSET))(this);
+		}
+
+		::System::Void set_Id(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_CLIENTMAIL_SET_ID_OFFSET))(this, a1);
+		}
+
+		::Proto::ItemList* get_Attachment()
+		{
+			return ((::Proto::ItemList*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_CLIENTMAIL_GET_ATTACHMENT_OFFSET))(this);
+		}
+
+		::System::Void set_Attachment(::Proto::ItemList* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Proto::ItemList*))((::PBYTE)hIl2Cpp + PROTO_CLIENTMAIL_SET_ATTACHMENT_OFFSET))(this, a1);
 		}
 
 		::System::Boolean Equals(::System::Object* a1)

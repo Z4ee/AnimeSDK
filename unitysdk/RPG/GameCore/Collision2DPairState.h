@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int Collision2DPairState_TypeDefinitionIndex = 51205;
+	inline static constexpr unsigned int Collision2DPairState_TypeDefinitionIndex = 53889;
 
 	enum class Collision2DPairState : ::System::Int32
 	{

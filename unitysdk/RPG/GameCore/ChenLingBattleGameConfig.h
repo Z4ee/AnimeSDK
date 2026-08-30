@@ -12,12 +12,12 @@ namespace RPG::GameCore { class ChenLingBattleScoreSoldierConfig; }
 namespace RPG::GameCore { class ChenLingDeathEffectConfig; }
 namespace RPG::GameCore { class ChenLingRageModeConfig; }
 
-#define RPG_GAMECORE_CHENLINGBATTLEGAMECONFIG_METHOD_2_30EE7D2A2FE8B411_OFFSET UNITYSDK_OFFSET(0x1B32D640)
-#define RPG_GAMECORE_CHENLINGBATTLEGAMECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B32DDD0)
+#define RPG_GAMECORE_CHENLINGBATTLEGAMECONFIG_METHOD_2_30EE7D2A2FE8B411_OFFSET UNITYSDK_OFFSET(0x1CFA99E0)
+#define RPG_GAMECORE_CHENLINGBATTLEGAMECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFAA170)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingBattleGameConfig_TypeDefinitionIndex = 15076;
+	inline static constexpr unsigned int ChenLingBattleGameConfig_TypeDefinitionIndex = 15513;
 
 	class ChenLingBattleGameConfig : public ::RPG::GameCore::JsonConfig
 	{

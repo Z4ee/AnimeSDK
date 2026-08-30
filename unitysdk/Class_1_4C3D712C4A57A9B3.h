@@ -2,29 +2,29 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_F9FBCC956DFCF137_25;
+class Class_1_F9FBCC956DFCF137_27;
 namespace RPG::Client { class ChimeraDuelGameSessionChimera; }
 namespace System { class Action; }
 
-#define CLASS_1_4C3D712C4A57A9B3_EXECUTE_OFFSET UNITYSDK_OFFSET(0xCD99270)
-#define CLASS_1_4C3D712C4A57A9B3_TICK_OFFSET UNITYSDK_OFFSET(0xCD99320)
-#define CLASS_1_4C3D712C4A57A9B3__CTOR_OFFSET UNITYSDK_OFFSET(0xCD99260)
+#define CLASS_1_4C3D712C4A57A9B3_EXECUTE_OFFSET UNITYSDK_OFFSET(0xDA91DC0)
+#define CLASS_1_4C3D712C4A57A9B3_TICK_OFFSET UNITYSDK_OFFSET(0xDA91E70)
+#define CLASS_1_4C3D712C4A57A9B3__CTOR_OFFSET UNITYSDK_OFFSET(0xDA91DB0)
 
-inline static constexpr unsigned int Class_1_4C3D712C4A57A9B3_TypeDefinitionIndex = 74393;
+inline static constexpr unsigned int Class_1_4C3D712C4A57A9B3_TypeDefinitionIndex = 77878;
 
 class Class_1_4C3D712C4A57A9B3 : public ::System::Object
 {
 public:
-	::RPG::Client::ChimeraDuelGameSessionChimera* Field_1_0; // 0x10
+	::RPG::Client::ChimeraDuelGameSessionChimera* NOKJFPPOHKM; // 0x10
 
 	::System::Void _ctor(::RPG::Client::ChimeraDuelGameSessionChimera* a1)
 	{
 		return ((::System::Void(*)(::PVOID, ::RPG::Client::ChimeraDuelGameSessionChimera*))((::PBYTE)hIl2Cpp + CLASS_1_4C3D712C4A57A9B3__CTOR_OFFSET))(this, a1);
 	}
 
-	::System::Void Execute(::Class_1_F9FBCC956DFCF137_25* a1, ::System::Action* a2)
+	::System::Void Execute(::Class_1_F9FBCC956DFCF137_27* a1, ::System::Action* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_1_F9FBCC956DFCF137_25*, ::System::Action*))((::PBYTE)hIl2Cpp + CLASS_1_4C3D712C4A57A9B3_EXECUTE_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::Class_1_F9FBCC956DFCF137_27*, ::System::Action*))((::PBYTE)hIl2Cpp + CLASS_1_4C3D712C4A57A9B3_EXECUTE_OFFSET))(this, a1, a2);
 	}
 
 	::System::Void Tick(::System::Single a1)

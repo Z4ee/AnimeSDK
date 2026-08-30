@@ -5,14 +5,14 @@
 #include "unitysdk/RPG/GameCore/BattleExtraPropertyAddition.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 
-#define CLASS_2_27AF3F8D0A0E5985__CTOR_OFFSET UNITYSDK_OFFSET(0xD5BCCF0)
+#define CLASS_2_27AF3F8D0A0E5985__CTOR_OFFSET UNITYSDK_OFFSET(0xE2B9120)
 
-inline static constexpr unsigned int Class_2_27AF3F8D0A0E5985_TypeDefinitionIndex = 53797;
+inline static constexpr unsigned int Class_2_27AF3F8D0A0E5985_TypeDefinitionIndex = 56517;
 
 class Class_2_27AF3F8D0A0E5985 : public ::Class_1_B37E32AE995F430C
 {
 public:
-	::Il2CppArray<::RPG::GameCore::AvatarSkillTreePointTriggerKey>* Field_2_0; // 0x28
+	::Il2CppArray<::RPG::GameCore::AvatarSkillTreePointTriggerKey>* BJOKOIFLDCF; // 0x28
 
 	::System::Void _ctor(::RPG::GameCore::BattleExtraPropertyAddition a1, ::RPG::GameCore::FixPoint a2, ::Il2CppArray<::System::UInt32>* a3)
 	{

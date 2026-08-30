@@ -6,22 +6,22 @@
 namespace RPG::GameCore { class EvolveGearConfig; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_48FE7ED9C7C8C788_CLASS_1_0B550233887B05A3_METHOD_1_0126EC166C1B1051_OFFSET UNITYSDK_OFFSET(0xB1D8460)
-#define CLASS_1_48FE7ED9C7C8C788_CLASS_1_0B550233887B05A3_METHOD_1_A36150C5DCC8409E_OFFSET UNITYSDK_OFFSET(0xB1D85C0)
-#define CLASS_1_48FE7ED9C7C8C788_CLASS_1_0B550233887B05A3__CTOR_OFFSET UNITYSDK_OFFSET(0xB1D86A0)
+#define CLASS_1_48FE7ED9C7C8C788_CLASS_1_0B550233887B05A3_METHOD_1_0126EC166C1B1051_OFFSET UNITYSDK_OFFSET(0xBBAC5E0)
+#define CLASS_1_48FE7ED9C7C8C788_CLASS_1_0B550233887B05A3_METHOD_1_A36150C5DCC8409E_OFFSET UNITYSDK_OFFSET(0xBBAC740)
+#define CLASS_1_48FE7ED9C7C8C788_CLASS_1_0B550233887B05A3__CTOR_OFFSET UNITYSDK_OFFSET(0xBBAC820)
 
-inline static constexpr unsigned int Class_1_48FE7ED9C7C8C788_Class_1_0B550233887B05A3_TypeDefinitionIndex = 53554;
+inline static constexpr unsigned int Class_1_48FE7ED9C7C8C788_Class_1_0B550233887B05A3_TypeDefinitionIndex = 56268;
 
 class Class_1_48FE7ED9C7C8C788_Class_1_0B550233887B05A3 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::RPG::GameCore::EvolveGearConfig*>* Field_1_0; // 0x10
-	::RPG::GameCore::FixPoint Field_1_1; // 0x18
-	::RPG::GameCore::FixPoint Field_1_2; // 0x20
-	::RPG::GameCore::FixPoint Field_1_3; // 0x28
-	::RPG::GameCore::FixPoint Field_1_4; // 0x30
-	::System::UInt32 Field_1_5; // 0x38
-	::System::UInt32 Field_1_6; // 0x3C
+	::System::Collections::Generic::List_1<::RPG::GameCore::EvolveGearConfig*>* BPGFCIEAJKG; // 0x10
+	::RPG::GameCore::FixPoint LHPPOCJCPIA; // 0x18
+	::RPG::GameCore::FixPoint DGDEGJPPFLK; // 0x20
+	::System::UInt32 ILGNCEELEJJ; // 0x28
+	::System::UInt32 LDFEJAAOLKB; // 0x2C
+	::RPG::GameCore::FixPoint PBJFNFPPJEI; // 0x30
+	::RPG::GameCore::FixPoint ENBFEFCDLAH; // 0x38
 
 	::System::Void _ctor()
 	{

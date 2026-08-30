@@ -5,24 +5,24 @@
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define CLOUDGAME_MAILBOX_IME___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19B92F10)
-#define CLOUDGAME_MAILBOX_IME___C__CONNECT_B__3_0_OFFSET UNITYSDK_OFFSET(0x19B92F60)
-#define CLOUDGAME_MAILBOX_IME___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19B92F50)
+#define CLOUDGAME_MAILBOX_IME___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B7225D0)
+#define CLOUDGAME_MAILBOX_IME___C__CONNECT_B__3_0_OFFSET UNITYSDK_OFFSET(0x1B722620)
+#define CLOUDGAME_MAILBOX_IME___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B722610)
 
 namespace CloudGame::MailBox
 {
-	inline static constexpr unsigned int Ime___c_TypeDefinitionIndex = 7502;
+	inline static constexpr unsigned int Ime___c_TypeDefinitionIndex = 7488;
 
 	class Ime___c : public ::System::Object
 	{
 	public:
 		static ::CloudGame::MailBox::Ime___c** StaticGet___9()
 		{
-			return (::CloudGame::MailBox::Ime___c**)Il2CppClass::FromTypeDefinitionIndex(Ime___c_TypeDefinitionIndex)->GetStaticField(0xE810);
+			return (::CloudGame::MailBox::Ime___c**)Il2CppClass::FromTypeDefinitionIndex(Ime___c_TypeDefinitionIndex)->GetStaticField(0x1850);
 		}
 		static ::System::Action_1<::System::String*>** StaticGet___9__3_0()
 		{
-			return (::System::Action_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Ime___c_TypeDefinitionIndex)->GetStaticField(0xE818);
+			return (::System::Action_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Ime___c_TypeDefinitionIndex)->GetStaticField(0x1858);
 		}
 
 		static ::System::Void _cctor()

@@ -4,15 +4,15 @@
 
 namespace System { class Action; }
 
-#define CLASS_2_782BEED4B457999A_METHOD_2_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0xC261E70)
-#define CLASS_2_782BEED4B457999A__CTOR_OFFSET UNITYSDK_OFFSET(0xC261E10)
+#define CLASS_2_782BEED4B457999A_METHOD_2_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0xCD1AFB0)
+#define CLASS_2_782BEED4B457999A__CTOR_OFFSET UNITYSDK_OFFSET(0xCD1AF50)
 
-inline static constexpr unsigned int Class_2_782BEED4B457999A_TypeDefinitionIndex = 58408;
+inline static constexpr unsigned int Class_2_782BEED4B457999A_TypeDefinitionIndex = 61238;
 
 class Class_2_782BEED4B457999A : public ::System::Exception
 {
 public:
-	::System::Action* Field_2_0; // 0x88
+	::System::Action* EAOILKHLOIP; // 0x88
 
 	::System::Void _ctor(::System::Action* a1)
 	{

@@ -5,20 +5,20 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_TITANATLASVOICEPOOLROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B9756C0)
-#define RPG_GAMECORE_TITANATLASVOICEPOOLROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B975850)
+#define RPG_GAMECORE_TITANATLASVOICEPOOLROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D5D2950)
+#define RPG_GAMECORE_TITANATLASVOICEPOOLROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5D2AE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TitanAtlasVoicePoolRow_TypeDefinitionIndex = 14692;
+	inline static constexpr unsigned int TitanAtlasVoicePoolRow_TypeDefinitionIndex = 15128;
 
 	class TitanAtlasVoicePoolRow : public ::System::Object
 	{
 	public:
 		::System::String* AudioEvent; // 0x10
-		::System::UInt32 TitanVoiceID; // 0x18
-		::System::UInt32 Weight; // 0x1C
-		::System::UInt32 TitanVoicePoolID; // 0x20
+		::System::UInt32 TitanVoicePoolID; // 0x18
+		::System::UInt32 TitanVoiceID; // 0x1C
+		::System::UInt32 Weight; // 0x20
 
 		::System::Void _ctor()
 		{

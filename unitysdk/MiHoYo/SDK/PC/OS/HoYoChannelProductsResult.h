@@ -5,18 +5,18 @@
 namespace MiHoYo::SDK::PC::OS { class ProductData; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELPRODUCTSRESULT_FROMJSON_OFFSET UNITYSDK_OFFSET(0x19D74990)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELPRODUCTSRESULT_TOJSON_OFFSET UNITYSDK_OFFSET(0x19D74980)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELPRODUCTSRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x19D749D0)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELPRODUCTSRESULT_FROMJSON_OFFSET UNITYSDK_OFFSET(0x1BA27480)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELPRODUCTSRESULT_TOJSON_OFFSET UNITYSDK_OFFSET(0x1BA27470)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELPRODUCTSRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA274C0)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int HoYoChannelProductsResult_TypeDefinitionIndex = 8472;
+	inline static constexpr unsigned int HoYoChannelProductsResult_TypeDefinitionIndex = 8540;
 
 	class HoYoChannelProductsResult : public ::MiHoYo::SDK::PC::OS::HoYoChannelBaseResult
 	{
 	public:
-		::Il2CppArray<::MiHoYo::SDK::PC::OS::ProductData*>* products; // 0x28
+		::Il2CppArray<::MiHoYo::SDK::PC::OS::ProductData*>* products; // 0x30
 
 		::System::Void _ctor()
 		{

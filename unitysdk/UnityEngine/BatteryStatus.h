@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int BatteryStatus_TypeDefinitionIndex = 4377;
+	inline static constexpr unsigned int BatteryStatus_TypeDefinitionIndex = 4387;
 
 	enum class BatteryStatus : ::System::Int32
 	{

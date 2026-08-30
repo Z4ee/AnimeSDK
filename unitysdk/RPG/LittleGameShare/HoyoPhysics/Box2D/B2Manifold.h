@@ -7,7 +7,7 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2Manifold_TypeDefinitionIndex = 35156;
+	inline static constexpr unsigned int B2Manifold_TypeDefinitionIndex = 36017;
 
 	struct alignas(4) B2Manifold
 	{

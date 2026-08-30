@@ -11,26 +11,26 @@ namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class Image; }
 namespace UnityEngine::UI { class RawImage; }
 
-#define CLASS_2_A1E038C9E9F68E59_METHOD_2_0865E94460F11643_OFFSET UNITYSDK_OFFSET(0xB354F40)
-#define CLASS_2_A1E038C9E9F68E59_METHOD_2_DA1BF2C227DC3D86_OFFSET UNITYSDK_OFFSET(0xB354EF0)
-#define CLASS_2_A1E038C9E9F68E59__CTOR_OFFSET UNITYSDK_OFFSET(0xB355350)
+#define CLASS_2_A1E038C9E9F68E59_METHOD_2_0865E94460F11643_OFFSET UNITYSDK_OFFSET(0xBD30DC0)
+#define CLASS_2_A1E038C9E9F68E59_METHOD_2_DA1BF2C227DC3D86_OFFSET UNITYSDK_OFFSET(0xBD30D70)
+#define CLASS_2_A1E038C9E9F68E59__CTOR_OFFSET UNITYSDK_OFFSET(0xBD311D0)
 
-inline static constexpr unsigned int Class_2_A1E038C9E9F68E59_TypeDefinitionIndex = 69604;
+inline static constexpr unsigned int Class_2_A1E038C9E9F68E59_TypeDefinitionIndex = 72841;
 
 class Class_2_A1E038C9E9F68E59 : public ::Class_1_A167209E71412818
 {
 public:
-	::UnityEngine::UI::AspectRatioFitter* Field_2_0; // 0x18
-	::UnityEngine::UI::Button* Field_2_1; // 0x20
-	::UnityEngine::UI::Button* Field_2_2; // 0x28
-	::UnityEngine::UI::AspectRatioFitter* Field_2_3; // 0x30
-	::UnityEngine::UI::Button* Field_2_4; // 0x38
-	::UnityEngine::GameObject* Field_2_5; // 0x40
-	::UnityEngine::UI::Button* Field_2_6; // 0x48
-	::Il2CppArray<::Class_2_A1E038C9E9F68E59_Class_1_152E032112DD3242*>* Field_2_7; // 0x50
-	::UnityEngine::Transform* Field_2_8; // 0x58
-	::UnityEngine::UI::RawImage* Field_2_9; // 0x60
-	::UnityEngine::UI::Image* Field_2_10; // 0x68
+	::UnityEngine::UI::AspectRatioFitter* AFMOKBNCLKK; // 0x18
+	::UnityEngine::UI::AspectRatioFitter* BBGGMKDMDNG; // 0x20
+	::UnityEngine::UI::Button* ILJAPGEMAEC; // 0x28
+	::UnityEngine::UI::RawImage* JOAJLEHAHDI; // 0x30
+	::UnityEngine::UI::Button* JEOIHFIIPDJ; // 0x38
+	::UnityEngine::UI::Button* DIBBFLDNFKF; // 0x40
+	::UnityEngine::UI::Image* AJMIIBNLHNO; // 0x48
+	::UnityEngine::GameObject* DGAFJKMJFMC; // 0x50
+	::UnityEngine::Transform* LMHMPGIKBEB; // 0x58
+	::UnityEngine::UI::Button* DEIHEPPPHGA; // 0x60
+	::Il2CppArray<::Class_2_A1E038C9E9F68E59_Class_1_152E032112DD3242*>* CNCABJHFCLM; // 0x68
 
 	::System::Void _ctor()
 	{

@@ -7,18 +7,18 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_PIXAIRSKILLROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B6B6790)
-#define RPG_GAMECORE_PIXAIRSKILLROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6B6990)
+#define RPG_GAMECORE_PIXAIRSKILLROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3386D0)
+#define RPG_GAMECORE_PIXAIRSKILLROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3388D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PixAirSkillRow_TypeDefinitionIndex = 11691;
+	inline static constexpr unsigned int PixAirSkillRow_TypeDefinitionIndex = 12080;
 
 	class PixAirSkillRow : public ::System::Object
 	{
 	public:
-		::System::String* JsonConfig; // 0x10
-		::Il2CppArray<::RPG::GameCore::FixPoint>* SkillParams; // 0x18
+		::Il2CppArray<::RPG::GameCore::FixPoint>* SkillParams; // 0x10
+		::System::String* JsonConfig; // 0x18
 		::RPG::Client::TextID Desc; // 0x20
 		::System::UInt32 ID; // 0x30
 

@@ -4,12 +4,13 @@
 
 namespace System { class Type; }
 
-#define SYSTEM_RUNTIME_COMPILERSERVICES_STATEMACHINEATTRIBUTE_SET_STATEMACHINETYPE_OFFSET UNITYSDK_OFFSET(0x1A1B4070)
-#define SYSTEM_RUNTIME_COMPILERSERVICES_STATEMACHINEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1B3140)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_STATEMACHINEATTRIBUTE_GET_STATEMACHINETYPE_OFFSET UNITYSDK_OFFSET(0x1BDBBF80)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_STATEMACHINEATTRIBUTE_SET_STATEMACHINETYPE_OFFSET UNITYSDK_OFFSET(0x1BDBBF90)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_STATEMACHINEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDBB020)
 
 namespace System::Runtime::CompilerServices
 {
-	inline static constexpr unsigned int StateMachineAttribute_TypeDefinitionIndex = 1361;
+	inline static constexpr unsigned int StateMachineAttribute_TypeDefinitionIndex = 1368;
 
 	class StateMachineAttribute : public ::System::Attribute
 	{
@@ -19,6 +20,11 @@ namespace System::Runtime::CompilerServices
 		::System::Void _ctor(::System::Type* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_COMPILERSERVICES_STATEMACHINEATTRIBUTE__CTOR_OFFSET))(this, a1);
+		}
+
+		::System::Type* get_StateMachineType()
+		{
+			return ((::System::Type*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_COMPILERSERVICES_STATEMACHINEATTRIBUTE_GET_STATEMACHINETYPE_OFFSET))(this);
 		}
 
 		::System::Void set_StateMachineType(::System::Type* a1)

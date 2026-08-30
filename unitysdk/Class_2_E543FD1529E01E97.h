@@ -1,0 +1,95 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_34917908B7833130.h"
+#include "unitysdk/RPG/GameCore/StageInvasionMonsterState.h"
+#include "unitysdk/RPG/GameCore/StageInvasionMonsterUIData.h"
+#include "unitysdk/Struct_2_96F8F0A04B900A9E.h"
+
+class Class_1_4FBAE6148E0D2FAE;
+class Class_2_D8EC95091C764984;
+namespace RPG::GameCore { class GameEntity; }
+namespace System { class Object; }
+
+#define CLASS_2_E543FD1529E01E97_AUTOBINDCALLBACK_OFFSET UNITYSDK_OFFSET(0xC148BE0)
+#define CLASS_2_E543FD1529E01E97_AUTOREMOVECALLBACK_OFFSET UNITYSDK_OFFSET(0xC148CD0)
+#define CLASS_2_E543FD1529E01E97_METHOD_2_0D7638DBC93E5002_OFFSET UNITYSDK_OFFSET(0xC148660)
+#define CLASS_2_E543FD1529E01E97_METHOD_2_2ED6C3773AA1E488_OFFSET UNITYSDK_OFFSET(0xC1488F0)
+#define CLASS_2_E543FD1529E01E97_METHOD_2_37AAD22DF1C75EBA_OFFSET UNITYSDK_OFFSET(0xC148940)
+#define CLASS_2_E543FD1529E01E97_METHOD_2_41A074549EF25F63_OFFSET UNITYSDK_OFFSET(0xC1487B0)
+#define CLASS_2_E543FD1529E01E97_METHOD_2_464F9487BF0D77F8_OFFSET UNITYSDK_OFFSET(0xC148AA0)
+#define CLASS_2_E543FD1529E01E97_METHOD_2_6BCEDD4814D8A8D9_OFFSET UNITYSDK_OFFSET(0xC148510)
+#define CLASS_2_E543FD1529E01E97_METHOD_2_8BB2D5BC0E84FB3B_OFFSET UNITYSDK_OFFSET(0xC148A10)
+#define CLASS_2_E543FD1529E01E97_ONACQUIRE_OFFSET UNITYSDK_OFFSET(0xC148610)
+#define CLASS_2_E543FD1529E01E97_ONRETURN_OFFSET UNITYSDK_OFFSET(0xC1485B0)
+#define CLASS_2_E543FD1529E01E97__CTOR_OFFSET UNITYSDK_OFFSET(0xC148DA0)
+
+inline static constexpr unsigned int Class_2_E543FD1529E01E97_TypeDefinitionIndex = 71731;
+
+class Class_2_E543FD1529E01E97 : public ::Class_1_34917908B7833130
+{
+public:
+	::Class_2_D8EC95091C764984* IOOAKAGEMAO; // 0x60
+	::Class_1_4FBAE6148E0D2FAE* CMEJGFPKMAC; // 0x68
+	::RPG::GameCore::GameEntity* KAKEIDJDNHJ; // 0x70
+	::System::Boolean KICAHMGNMED; // 0x78
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_E543FD1529E01E97__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Method_2_6BCEDD4814D8A8D9(::Struct_2_96F8F0A04B900A9E a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Struct_2_96F8F0A04B900A9E))((::PBYTE)hIl2Cpp + CLASS_2_E543FD1529E01E97_METHOD_2_6BCEDD4814D8A8D9_OFFSET))(this, a1);
+	}
+
+	::System::Void OnReturn()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_E543FD1529E01E97_ONRETURN_OFFSET))(this);
+	}
+
+	::System::Void OnAcquire(::RPG::GameCore::GameEntity* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + CLASS_2_E543FD1529E01E97_ONACQUIRE_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_41A074549EF25F63()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_E543FD1529E01E97_METHOD_2_41A074549EF25F63_OFFSET))(this);
+	}
+
+	::System::Void Method_2_2ED6C3773AA1E488()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_E543FD1529E01E97_METHOD_2_2ED6C3773AA1E488_OFFSET))(this);
+	}
+
+	::System::Void Method_2_37AAD22DF1C75EBA(::RPG::GameCore::StageInvasionMonsterUIData a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::StageInvasionMonsterUIData))((::PBYTE)hIl2Cpp + CLASS_2_E543FD1529E01E97_METHOD_2_37AAD22DF1C75EBA_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_0D7638DBC93E5002()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_E543FD1529E01E97_METHOD_2_0D7638DBC93E5002_OFFSET))(this);
+	}
+
+	::RPG::GameCore::StageInvasionMonsterState Method_2_8BB2D5BC0E84FB3B()
+	{
+		return ((::RPG::GameCore::StageInvasionMonsterState(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_E543FD1529E01E97_METHOD_2_8BB2D5BC0E84FB3B_OFFSET))(this);
+	}
+
+	::System::Void Method_2_464F9487BF0D77F8(::System::Object* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_2_E543FD1529E01E97_METHOD_2_464F9487BF0D77F8_OFFSET))(this, a1);
+	}
+
+	::System::Void AutoBindCallback()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_E543FD1529E01E97_AUTOBINDCALLBACK_OFFSET))(this);
+	}
+
+	::System::Void AutoRemoveCallback()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_E543FD1529E01E97_AUTOREMOVECALLBACK_OFFSET))(this);
+	}
+};

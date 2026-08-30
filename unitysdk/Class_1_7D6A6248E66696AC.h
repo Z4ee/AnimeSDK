@@ -2,25 +2,25 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_7D6A6248E66696AC_METHOD_1_1279F46566DF7356_OFFSET UNITYSDK_OFFSET(0xDB74940)
-#define CLASS_1_7D6A6248E66696AC_METHOD_1_264105AD04A3525E_1_OFFSET UNITYSDK_OFFSET(0xDB749E0)
-#define CLASS_1_7D6A6248E66696AC_METHOD_1_264105AD04A3525E_OFFSET UNITYSDK_OFFSET(0xDB748E0)
-#define CLASS_1_7D6A6248E66696AC_METHOD_1_C167FF70038E50EC_OFFSET UNITYSDK_OFFSET(0xDB747E0)
-#define CLASS_1_7D6A6248E66696AC__CTOR_OFFSET UNITYSDK_OFFSET(0xDB74A40)
+#define CLASS_1_7D6A6248E66696AC_METHOD_1_1279F46566DF7356_OFFSET UNITYSDK_OFFSET(0xE88BEB0)
+#define CLASS_1_7D6A6248E66696AC_METHOD_1_264105AD04A3525E_1_OFFSET UNITYSDK_OFFSET(0xE88BF50)
+#define CLASS_1_7D6A6248E66696AC_METHOD_1_264105AD04A3525E_OFFSET UNITYSDK_OFFSET(0xE88BE50)
+#define CLASS_1_7D6A6248E66696AC_METHOD_1_C167FF70038E50EC_OFFSET UNITYSDK_OFFSET(0xE88BD50)
+#define CLASS_1_7D6A6248E66696AC__CTOR_OFFSET UNITYSDK_OFFSET(0xE88BFB0)
 
-inline static constexpr unsigned int Class_1_7D6A6248E66696AC_TypeDefinitionIndex = 69615;
+inline static constexpr unsigned int Class_1_7D6A6248E66696AC_TypeDefinitionIndex = 72852;
 
 class Class_1_7D6A6248E66696AC : public ::System::Object
 {
 public:
-	// static const ::System::Char Field_1_0; // 0x0
-	// static const ::System::Char Field_1_1; // 0x0
-	// static const ::System::Char Field_1_2; // 0x0
-	// static const ::System::Char Field_1_3; // 0x0
-	// static const ::System::Char Field_1_4; // 0x0
-	// static const ::System::Char Field_1_5; // 0x0
-	// static const ::System::Char Field_1_6; // 0x0
-	// static const ::System::Char Field_1_7; // 0x0
+	// static const ::System::Char PMMHCOKDCGM; // 0x0
+	// static const ::System::Char JPEHIOFGFPE; // 0x0
+	// static const ::System::Char PHHHEFJJICP; // 0x0
+	// static const ::System::Char HPDCIKOJFAJ; // 0x0
+	// static const ::System::Char GOOJKAKPAJF; // 0x0
+	// static const ::System::Char GNBCKPLPMHN; // 0x0
+	// static const ::System::Char OELPEHJMEOK; // 0x0
+	// static const ::System::Char DFJBLPBFBJF; // 0x0
 
 	::System::Void _ctor()
 	{

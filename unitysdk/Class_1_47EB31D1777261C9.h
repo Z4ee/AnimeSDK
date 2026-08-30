@@ -6,9 +6,9 @@
 class Class_1_1C30CE192ABE4C54;
 namespace RPG::GameCore { class ComplexSkillAISourcePropertyFormation; }
 
-#define CLASS_1_47EB31D1777261C9_METHOD_1_90122CA105F442E8_OFFSET UNITYSDK_OFFSET(0x145873D0)
+#define CLASS_1_47EB31D1777261C9_METHOD_1_90122CA105F442E8_OFFSET UNITYSDK_OFFSET(0x15401C80)
 
-inline static constexpr unsigned int Class_1_47EB31D1777261C9_TypeDefinitionIndex = 51892;
+inline static constexpr unsigned int Class_1_47EB31D1777261C9_TypeDefinitionIndex = 54576;
 
 class Class_1_47EB31D1777261C9 : public ::System::Object
 {

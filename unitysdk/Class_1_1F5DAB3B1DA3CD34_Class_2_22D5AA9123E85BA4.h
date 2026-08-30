@@ -5,16 +5,16 @@
 namespace RPG::Client { class ScheduleData; }
 namespace RPG::Client { class ScheduleModule; }
 
-#define CLASS_1_1F5DAB3B1DA3CD34_CLASS_2_22D5AA9123E85BA4_METHOD_2_008BA1B73E63DA2C_OFFSET UNITYSDK_OFFSET(0xCD90140)
-#define CLASS_1_1F5DAB3B1DA3CD34_CLASS_2_22D5AA9123E85BA4__CTOR_OFFSET UNITYSDK_OFFSET(0xCD900E0)
+#define CLASS_1_1F5DAB3B1DA3CD34_CLASS_2_22D5AA9123E85BA4_METHOD_2_008BA1B73E63DA2C_OFFSET UNITYSDK_OFFSET(0xD81CC80)
+#define CLASS_1_1F5DAB3B1DA3CD34_CLASS_2_22D5AA9123E85BA4__CTOR_OFFSET UNITYSDK_OFFSET(0xD81CC20)
 
-inline static constexpr unsigned int Class_1_1F5DAB3B1DA3CD34_Class_2_22D5AA9123E85BA4_TypeDefinitionIndex = 64893;
+inline static constexpr unsigned int Class_1_1F5DAB3B1DA3CD34_Class_2_22D5AA9123E85BA4_TypeDefinitionIndex = 67900;
 
 class Class_1_1F5DAB3B1DA3CD34_Class_2_22D5AA9123E85BA4 : public ::Class_1_1F5DAB3B1DA3CD34
 {
 public:
-	::RPG::Client::ScheduleModule* Field_2_0; // 0x10
-	::System::UInt32 Field_2_1; // 0x18
+	::RPG::Client::ScheduleModule* DHPKGNANJED; // 0x10
+	::System::UInt32 IAADOLHKODN; // 0x18
 
 	::System::Void _ctor(::RPG::Client::ScheduleModule* a1, ::System::UInt32 a2)
 	{

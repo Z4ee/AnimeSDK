@@ -5,11 +5,11 @@
 namespace UnityEngine::Rendering { class BatchAnimation; }
 namespace UnityEngine::Rendering { class BatchAnimationClip; }
 
-#define UNITYENGINE_RENDERING_BLENDBATCHANIMSYNTHESIZER_BLENDSYNTHESIZERSETUPEX_OFFSET UNITYSDK_OFFSET(0x1D04BCD0)
+#define UNITYENGINE_RENDERING_BLENDBATCHANIMSYNTHESIZER_BLENDSYNTHESIZERSETUPEX_OFFSET UNITYSDK_OFFSET(0x1ED53520)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int BlendBatchAnimSynthesizer_TypeDefinitionIndex = 4778;
+	inline static constexpr unsigned int BlendBatchAnimSynthesizer_TypeDefinitionIndex = 4788;
 
 	class BlendBatchAnimSynthesizer : public ::System::Object
 	{

@@ -9,27 +9,27 @@ namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class ParticleSystem; }
 
-#define RPG_CLIENT_MONOEFFECTPLUGINSHOWNUMBER_DISPOSEPLUGIN_OFFSET UNITYSDK_OFFSET(0xCCC7E10)
-#define RPG_CLIENT_MONOEFFECTPLUGINSHOWNUMBER_METHOD_6_86889F095D50CF32_OFFSET UNITYSDK_OFFSET(0xCCC7AC0)
-#define RPG_CLIENT_MONOEFFECTPLUGINSHOWNUMBER_METHOD_6_EA672F77F1086A27_OFFSET UNITYSDK_OFFSET(0xCCC7F90)
-#define RPG_CLIENT_MONOEFFECTPLUGINSHOWNUMBER_RESETPLUGIN_OFFSET UNITYSDK_OFFSET(0xCCC7190)
-#define RPG_CLIENT_MONOEFFECTPLUGINSHOWNUMBER__CTOR_OFFSET UNITYSDK_OFFSET(0xCCC8020)
+#define RPG_CLIENT_MONOEFFECTPLUGINSHOWNUMBER_DISPOSEPLUGIN_OFFSET UNITYSDK_OFFSET(0xD7C8BD0)
+#define RPG_CLIENT_MONOEFFECTPLUGINSHOWNUMBER_METHOD_6_86889F095D50CF32_OFFSET UNITYSDK_OFFSET(0xD7C8880)
+#define RPG_CLIENT_MONOEFFECTPLUGINSHOWNUMBER_METHOD_6_EA672F77F1086A27_OFFSET UNITYSDK_OFFSET(0xD7C8D50)
+#define RPG_CLIENT_MONOEFFECTPLUGINSHOWNUMBER_RESETPLUGIN_OFFSET UNITYSDK_OFFSET(0xD7C7F50)
+#define RPG_CLIENT_MONOEFFECTPLUGINSHOWNUMBER__CTOR_OFFSET UNITYSDK_OFFSET(0xD7C8DE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginShowNumber_TypeDefinitionIndex = 66970;
+	inline static constexpr unsigned int MonoEffectPluginShowNumber_TypeDefinitionIndex = 70075;
 
 	class MonoEffectPluginShowNumber : public ::RPG::Client::MonoEffectPluginBase
 	{
 	public:
 		::System::String* DynamicValueName; // 0x28
-		::UnityEngine::GameObject* Field_6_1; // 0x30
-		::UnityEngine::GameObject* Field_6_2; // 0x38
-		::UnityEngine::GameObject* Field_6_3; // 0x40
-		::UnityEngine::ParticleSystem* Field_6_4; // 0x48
-		::UnityEngine::ParticleSystem* Field_6_5; // 0x50
-		::System::UInt32 Field_6_6; // 0x58
-		::System::UInt32 Field_6_7; // 0x5C
+		::UnityEngine::GameObject* OBJFPKGDNKG; // 0x30
+		::UnityEngine::GameObject* BIMMKGAAKFJ; // 0x38
+		::UnityEngine::GameObject* BHIHBEHCNBN; // 0x40
+		::UnityEngine::ParticleSystem* KPNJFKIALJC; // 0x48
+		::UnityEngine::ParticleSystem* BLDCAHDJGNA; // 0x50
+		::System::UInt32 FLPHNONEHNE; // 0x58
+		::System::UInt32 KDKJHGLKGPK; // 0x5C
 
 		::System::Void _ctor()
 		{

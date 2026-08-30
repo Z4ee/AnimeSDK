@@ -8,32 +8,32 @@ namespace RPG::GameCore { class AvatarPropertyValue; }
 namespace RPG::GameCore { class ItemConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SWORDTRAININGSKILLROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B939060)
-#define RPG_GAMECORE_SWORDTRAININGSKILLROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B939630)
+#define RPG_GAMECORE_SWORDTRAININGSKILLROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D596320)
+#define RPG_GAMECORE_SWORDTRAININGSKILLROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5968F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SwordTrainingSkillRow_TypeDefinitionIndex = 11970;
+	inline static constexpr unsigned int SwordTrainingSkillRow_TypeDefinitionIndex = 12359;
 
 	class SwordTrainingSkillRow : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::ItemConfig* Cost; // 0x10
 		::Il2CppArray<::System::UInt32>* NextSkillIDList; // 0x18
-		::Il2CppArray<::System::Single>* ParamList; // 0x20
-		::Il2CppArray<::RPG::GameCore::AvatarPropertyValue*>* AvatarStatusAddList; // 0x28
-		::System::String* SkillIcon; // 0x30
-		::RPG::Client::TextID SkillName; // 0x38
-		::RPG::Client::TextID SkillTag; // 0x48
-		::System::UInt32 MazeBuffID; // 0x58
-		::System::UInt32 Condition; // 0x5C
-		::RPG::Client::TextID SkillDesc; // 0x60
-		::System::UInt32 SkillTypeID; // 0x70
-		::System::UInt32 SkillStatusLevel; // 0x74
-		::System::UInt32 Rare; // 0x78
+		::System::String* SkillIcon; // 0x20
+		::Il2CppArray<::System::Single>* ParamList; // 0x28
+		::Il2CppArray<::RPG::GameCore::AvatarPropertyValue*>* AvatarStatusAddList; // 0x30
+		::System::UInt32 Condition; // 0x38
+		::System::UInt32 SkillTypeID; // 0x3C
+		::RPG::Client::TextID SkillName; // 0x40
+		::System::UInt32 SkillPower; // 0x50
+		::System::UInt32 SkillID; // 0x54
+		::RPG::Client::TextID SkillTag; // 0x58
+		::RPG::Client::TextID SkillDesc; // 0x68
+		::System::UInt32 SkillStatusLevel; // 0x78
 		::System::UInt32 SkillRank; // 0x7C
-		::System::UInt32 SkillID; // 0x80
-		::System::UInt32 SkillPower; // 0x84
+		::System::UInt32 MazeBuffID; // 0x80
+		::System::UInt32 Rare; // 0x84
 
 		::System::Void _ctor()
 		{

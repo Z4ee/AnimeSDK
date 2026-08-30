@@ -9,11 +9,11 @@ namespace System { template <typename T> class WeakReference_1; }
 namespace UnityEngine { class Texture; }
 namespace UnityEngine::Pooled { template <typename T> class PooledList_1; }
 
-#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_RUNTIMEATLAS_BLOCK_FREE_OFFSET UNITYSDK_OFFSET(0x3A413D0)
+#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_RUNTIMEATLAS_BLOCK_FREE_OFFSET UNITYSDK_OFFSET(0x3BD4A60)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int RuntimeAtlasManager_RuntimeAtlas_Block_TypeDefinitionIndex = 5976;
+	inline static constexpr unsigned int RuntimeAtlasManager_RuntimeAtlas_Block_TypeDefinitionIndex = 6806;
 
 	struct alignas(8) RuntimeAtlasManager_RuntimeAtlas_Block
 	{

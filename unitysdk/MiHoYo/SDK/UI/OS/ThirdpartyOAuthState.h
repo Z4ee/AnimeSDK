@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK::UI::OS
 {
-	inline static constexpr unsigned int ThirdpartyOAuthState_TypeDefinitionIndex = 8402;
+	inline static constexpr unsigned int ThirdpartyOAuthState_TypeDefinitionIndex = 8425;
 
 	enum class ThirdpartyOAuthState : ::System::Int32
 	{

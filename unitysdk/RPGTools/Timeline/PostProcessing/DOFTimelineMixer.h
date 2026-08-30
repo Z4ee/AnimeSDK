@@ -7,12 +7,12 @@
 namespace RPG::CustomRP { class RPGDepthOfField; }
 namespace System { class Object; }
 
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_DOFTIMELINEMIXER_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xDD03950)
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_DOFTIMELINEMIXER__CTOR_OFFSET UNITYSDK_OFFSET(0xDD04560)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_DOFTIMELINEMIXER_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xE8CD5C0)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_DOFTIMELINEMIXER__CTOR_OFFSET UNITYSDK_OFFSET(0xE8CE1D0)
 
 namespace RPGTools::Timeline::PostProcessing
 {
-	inline static constexpr unsigned int DOFTimelineMixer_TypeDefinitionIndex = 46778;
+	inline static constexpr unsigned int DOFTimelineMixer_TypeDefinitionIndex = 49024;
 
 	class DOFTimelineMixer : public ::RPGTools::Timeline::PostProcessing::BasePlayableBehaviour_1<::RPG::CustomRP::RPGDepthOfField*>
 	{

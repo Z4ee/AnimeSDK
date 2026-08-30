@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class HipplenRequireStatGrade; }
 
-#define RPG_GAMECORE_HIPPLENHINTWEIGHTCONFIG_METHOD_2_76AE44B0A75AE613_OFFSET UNITYSDK_OFFSET(0x1B517B30)
-#define RPG_GAMECORE_HIPPLENHINTWEIGHTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B517CC0)
+#define RPG_GAMECORE_HIPPLENHINTWEIGHTCONFIG_METHOD_2_76AE44B0A75AE613_OFFSET UNITYSDK_OFFSET(0x1D1910C0)
+#define RPG_GAMECORE_HIPPLENHINTWEIGHTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D191250)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HipplenHintWeightConfig_TypeDefinitionIndex = 16128;
+	inline static constexpr unsigned int HipplenHintWeightConfig_TypeDefinitionIndex = 16612;
 
 	class HipplenHintWeightConfig : public ::RPG::GameCore::JsonConfig
 	{

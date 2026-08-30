@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int BoundsDrawer_BoundsDrawerInspectorMode_TypeDefinitionIndex = 45496;
+inline static constexpr unsigned int BoundsDrawer_BoundsDrawerInspectorMode_TypeDefinitionIndex = 47746;
 
 enum class BoundsDrawer_BoundsDrawerInspectorMode : ::System::Int32
 {

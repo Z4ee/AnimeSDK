@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class LittleGameEvent; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIVEDIMSPLINEMOVEPOINT_METHOD_2_9362A82156713A28_OFFSET UNITYSDK_OFFSET(0x1B44ACE0)
-#define RPG_GAMECORE_FIVEDIMSPLINEMOVEPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B44AE80)
+#define RPG_GAMECORE_FIVEDIMSPLINEMOVEPOINT_METHOD_2_9362A82156713A28_OFFSET UNITYSDK_OFFSET(0x1D1042A0)
+#define RPG_GAMECORE_FIVEDIMSPLINEMOVEPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D104440)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimSplineMovePoint_TypeDefinitionIndex = 17829;
+	inline static constexpr unsigned int FiveDimSplineMovePoint_TypeDefinitionIndex = 18348;
 
 	class FiveDimSplineMovePoint : public ::RPG::GameCore::JsonConfig
 	{

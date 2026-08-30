@@ -1,12 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/NavMap/NavAreaType.h"
-#include "unitysdk/UnityEngine/Vector3.h"
+#include "unitysdk/UnityEngine/UI/GridLayoutGroup_RowColumnPair.h"
 
-class Class_0_16E4307DCC419505_1152;
-namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
+namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+namespace UnityEngine { class RectTransform; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_1153_TypeDefinitionIndex = 71127;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_1153_TypeDefinitionIndex = 72586;
 
 class Class_0_16E4307DCC419505_1153
 {

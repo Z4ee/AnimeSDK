@@ -5,24 +5,24 @@
 
 namespace RPG { template <typename T> class PoolHashSet_1; }
 
-#define CLASS_2_9AE1988822FB0067_CLEAR_OFFSET UNITYSDK_OFFSET(0x1A79D740)
-#define CLASS_2_9AE1988822FB0067_ONALLOC_OFFSET UNITYSDK_OFFSET(0x1A79D650)
-#define CLASS_2_9AE1988822FB0067__CTOR_OFFSET UNITYSDK_OFFSET(0x1A79D800)
+#define CLASS_2_9AE1988822FB0067_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C3C38D0)
+#define CLASS_2_9AE1988822FB0067_ONALLOC_OFFSET UNITYSDK_OFFSET(0x1C3C37E0)
+#define CLASS_2_9AE1988822FB0067__CTOR_OFFSET UNITYSDK_OFFSET(0x1C3C3980)
 
-inline static constexpr unsigned int Class_2_9AE1988822FB0067_TypeDefinitionIndex = 40935;
+inline static constexpr unsigned int Class_2_9AE1988822FB0067_TypeDefinitionIndex = 41894;
 
 class Class_2_9AE1988822FB0067 : public ::Class_1_0A3B9FD0FE703FDC
 {
 public:
-	::RPG::PoolHashSet_1<::System::Int32>* Field_2_0; // 0x338
-	::System::Int32 Field_2_1; // 0x340
-	::System::Boolean Field_2_2; // 0x344
-	::System::Boolean Field_2_3; // 0x345
-	::System::Boolean Field_2_4; // 0x346
-	::UnityEngine::Vector3 Field_2_5; // 0x348
-	::System::Boolean Field_2_6; // 0x354
-	::System::Boolean Field_2_7; // 0x355
-	::System::Int32 Field_2_8; // 0x358
+	::RPG::PoolHashSet_1<::System::Int32>* IDOGNEJAOHB; // 0x338
+	::System::Int32 MKBEABBPCJE; // 0x340
+	::System::Boolean HAJKKJJKOFK; // 0x344
+	::System::Boolean BPJLDFOFFOM; // 0x345
+	::System::Boolean LEONIHNBBHF; // 0x346
+	::System::Int32 LPLJOOKLAEG; // 0x348
+	::UnityEngine::Vector3 CBKGAFODLKL; // 0x34C
+	::System::Boolean HFJKJFAABIF; // 0x358
+	::System::Boolean ILHCJFKCHBM; // 0x359
 
 	::System::Void _ctor()
 	{

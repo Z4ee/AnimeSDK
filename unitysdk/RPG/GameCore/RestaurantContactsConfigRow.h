@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_RESTAURANTCONTACTSCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B726E00)
-#define RPG_GAMECORE_RESTAURANTCONTACTSCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B726FA0)
+#define RPG_GAMECORE_RESTAURANTCONTACTSCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3A93B0)
+#define RPG_GAMECORE_RESTAURANTCONTACTSCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3A9550)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RestaurantContactsConfigRow_TypeDefinitionIndex = 10999;
+	inline static constexpr unsigned int RestaurantContactsConfigRow_TypeDefinitionIndex = 11374;
 
 	class RestaurantContactsConfigRow : public ::System::Object
 	{

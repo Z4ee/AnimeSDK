@@ -12,31 +12,31 @@ namespace UnityEngine::Pooled { template <typename T> class PooledList_1; }
 namespace UnityEngine::UI { class Text; }
 namespace UnityEngine::UI { class VertexHelper; }
 
-#define RPG_CLIENT_MOTIONS_MANUALCTRLTEXTMOTION_METHOD_7_17BB6E91B2585477_OFFSET UNITYSDK_OFFSET(0xCD7C4D0)
-#define RPG_CLIENT_MOTIONS_MANUALCTRLTEXTMOTION_METHOD_7_AD6DFF3647AB2AE7_OFFSET UNITYSDK_OFFSET(0xCD7BE10)
-#define RPG_CLIENT_MOTIONS_MANUALCTRLTEXTMOTION_METHOD_7_E7EF6BC52B28648C_OFFSET UNITYSDK_OFFSET(0xCD7C330)
-#define RPG_CLIENT_MOTIONS_MANUALCTRLTEXTMOTION_MODIFYMESH_OFFSET UNITYSDK_OFFSET(0xCD7BC80)
-#define RPG_CLIENT_MOTIONS_MANUALCTRLTEXTMOTION_UPDATE_OFFSET UNITYSDK_OFFSET(0xCD7C1C0)
-#define RPG_CLIENT_MOTIONS_MANUALCTRLTEXTMOTION__CTOR_OFFSET UNITYSDK_OFFSET(0xCD7C750)
+#define RPG_CLIENT_MOTIONS_MANUALCTRLTEXTMOTION_METHOD_7_17BB6E91B2585477_OFFSET UNITYSDK_OFFSET(0xD8BF710)
+#define RPG_CLIENT_MOTIONS_MANUALCTRLTEXTMOTION_METHOD_7_AD6DFF3647AB2AE7_OFFSET UNITYSDK_OFFSET(0xD8BF080)
+#define RPG_CLIENT_MOTIONS_MANUALCTRLTEXTMOTION_METHOD_7_E3DE31A03057E055_OFFSET UNITYSDK_OFFSET(0xD8BF5A0)
+#define RPG_CLIENT_MOTIONS_MANUALCTRLTEXTMOTION_MODIFYMESH_OFFSET UNITYSDK_OFFSET(0xD8BEEF0)
+#define RPG_CLIENT_MOTIONS_MANUALCTRLTEXTMOTION_UPDATE_OFFSET UNITYSDK_OFFSET(0xD8BF430)
+#define RPG_CLIENT_MOTIONS_MANUALCTRLTEXTMOTION__CTOR_OFFSET UNITYSDK_OFFSET(0xD8BF990)
 
 namespace RPG::Client::Motions
 {
-	inline static constexpr unsigned int ManualCtrlTextMotion_TypeDefinitionIndex = 70135;
+	inline static constexpr unsigned int ManualCtrlTextMotion_TypeDefinitionIndex = 73434;
 
 	class ManualCtrlTextMotion : public ::UnityEngine::UI::BaseMeshEffect
 	{
 	public:
-		// static const ::System::String* Field_7_0; // 0x0
+		// static const ::System::String* KHHLHOCDBBM; // 0x0
 		::System::Int32 visibleCharCount; // 0x20
 		::System::Boolean enable; // 0x24
 		::System::Boolean showOutline; // 0x25
 		::UnityEngine::Color effectColor; // 0x28
 		::UnityEngine::Vector2 effectDistance; // 0x38
 		::System::Boolean useGraphicAlpha; // 0x40
-		::UnityEngine::UI::Text* Field_7_7; // 0x48
-		::Class_1_57FDA42592C5189D* Field_7_8; // 0x50
-		::System::Single Field_7_9; // 0x58
-		::System::Boolean Field_7_10; // 0x5C
+		::UnityEngine::UI::Text* PMGCDJEFFIL; // 0x48
+		::Class_1_57FDA42592C5189D* BKIBLEGOACO; // 0x50
+		::System::Single EMCGACPENFP; // 0x58
+		::System::Boolean HDJOGGDMCIO; // 0x5C
 
 		::System::Void _ctor()
 		{
@@ -53,9 +53,9 @@ namespace RPG::Client::Motions
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MOTIONS_MANUALCTRLTEXTMOTION_UPDATE_OFFSET))(this);
 		}
 
-		::System::Void Method_7_E7EF6BC52B28648C()
+		::System::Void Method_7_E3DE31A03057E055()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MOTIONS_MANUALCTRLTEXTMOTION_METHOD_7_E7EF6BC52B28648C_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MOTIONS_MANUALCTRLTEXTMOTION_METHOD_7_E3DE31A03057E055_OFFSET))(this);
 		}
 
 		::System::Void Method_7_AD6DFF3647AB2AE7(::UnityEngine::UI::VertexHelper* a1, ::UnityEngine::Color a2, ::UnityEngine::Vector2 a3, ::System::Boolean a4)

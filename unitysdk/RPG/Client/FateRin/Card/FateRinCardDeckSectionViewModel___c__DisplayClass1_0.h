@@ -4,12 +4,12 @@
 
 namespace RPG::Client::FateRin::Card { class IFateRinSystemCardViewModel; }
 
-#define RPG_CLIENT_FATERIN_CARD_FATERINCARDDECKSECTIONVIEWMODEL___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC4AC720)
-#define RPG_CLIENT_FATERIN_CARD_FATERINCARDDECKSECTIONVIEWMODEL___C__DISPLAYCLASS1_0__TRYREMOVECARD_B__0_OFFSET UNITYSDK_OFFSET(0xC4AC850)
+#define RPG_CLIENT_FATERIN_CARD_FATERINCARDDECKSECTIONVIEWMODEL___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCFE16E0)
+#define RPG_CLIENT_FATERIN_CARD_FATERINCARDDECKSECTIONVIEWMODEL___C__DISPLAYCLASS1_0__TRYREMOVECARD_B__0_OFFSET UNITYSDK_OFFSET(0xCFE1810)
 
 namespace RPG::Client::FateRin::Card
 {
-	inline static constexpr unsigned int FateRinCardDeckSectionViewModel___c__DisplayClass1_0_TypeDefinitionIndex = 76174;
+	inline static constexpr unsigned int FateRinCardDeckSectionViewModel___c__DisplayClass1_0_TypeDefinitionIndex = 79807;
 
 	class FateRinCardDeckSectionViewModel___c__DisplayClass1_0 : public ::System::Object
 	{

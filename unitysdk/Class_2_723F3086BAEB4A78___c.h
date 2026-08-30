@@ -5,22 +5,22 @@
 
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define CLASS_2_723F3086BAEB4A78___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A5D8FE0)
-#define CLASS_2_723F3086BAEB4A78___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A5D9020)
-#define CLASS_2_723F3086BAEB4A78___C___TRYADDCOLORDICEMODIFIER_B__4_0_OFFSET UNITYSDK_OFFSET(0x1A5D9030)
+#define CLASS_2_723F3086BAEB4A78___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C1E8B20)
+#define CLASS_2_723F3086BAEB4A78___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1C1E8B60)
+#define CLASS_2_723F3086BAEB4A78___C___TRYADDCOLORDICEMODIFIER_B__4_0_OFFSET UNITYSDK_OFFSET(0x1C1E8B70)
 
-inline static constexpr unsigned int Class_2_723F3086BAEB4A78___c_TypeDefinitionIndex = 34875;
+inline static constexpr unsigned int Class_2_723F3086BAEB4A78___c_TypeDefinitionIndex = 35736;
 
 class Class_2_723F3086BAEB4A78___c : public ::System::Object
 {
 public:
 	static ::Class_2_723F3086BAEB4A78___c** StaticGet___9()
 	{
-		return (::Class_2_723F3086BAEB4A78___c**)Il2CppClass::FromTypeDefinitionIndex(Class_2_723F3086BAEB4A78___c_TypeDefinitionIndex)->GetStaticField(0x584B0);
+		return (::Class_2_723F3086BAEB4A78___c**)Il2CppClass::FromTypeDefinitionIndex(Class_2_723F3086BAEB4A78___c_TypeDefinitionIndex)->GetStaticField(0x19370);
 	}
 	static ::System::Func_2<::System::UInt32, ::RPG::GameCore::FixPoint>** StaticGet___9__4_0()
 	{
-		return (::System::Func_2<::System::UInt32, ::RPG::GameCore::FixPoint>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_723F3086BAEB4A78___c_TypeDefinitionIndex)->GetStaticField(0x584B8);
+		return (::System::Func_2<::System::UInt32, ::RPG::GameCore::FixPoint>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_723F3086BAEB4A78___c_TypeDefinitionIndex)->GetStaticField(0x19378);
 	}
 
 	static ::System::Void _cctor()

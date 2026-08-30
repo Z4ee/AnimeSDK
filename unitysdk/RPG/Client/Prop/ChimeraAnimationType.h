@@ -3,7 +3,7 @@
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraAnimationType_TypeDefinitionIndex = 74438;
+	inline static constexpr unsigned int ChimeraAnimationType_TypeDefinitionIndex = 77923;
 
 	enum class ChimeraAnimationType : ::System::Int32
 	{

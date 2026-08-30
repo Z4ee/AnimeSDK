@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ITEMCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B53E9D0)
-#define RPG_GAMECORE_ITEMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B53EAC0)
+#define RPG_GAMECORE_ITEMCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D1B8080)
+#define RPG_GAMECORE_ITEMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1B8170)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ItemConfig_TypeDefinitionIndex = 12573;
+	inline static constexpr unsigned int ItemConfig_TypeDefinitionIndex = 12964;
 
 	class ItemConfig : public ::System::Object
 	{

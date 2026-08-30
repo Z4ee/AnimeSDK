@@ -7,13 +7,13 @@
 namespace RPG::Client { class GridFightAugmentConfig; }
 namespace RPG::Client { class GridFightPortalData; }
 
-#define RPG_CLIENT_GRIDFIGHTBONUSSRCINFO_GET_HASSRCNAME_OFFSET UNITYSDK_OFFSET(0xC6C7010)
-#define RPG_CLIENT_GRIDFIGHTBONUSSRCINFO_GET_SRCNAME_OFFSET UNITYSDK_OFFSET(0xC6C7070)
-#define RPG_CLIENT_GRIDFIGHTBONUSSRCINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xC6C7190)
+#define RPG_CLIENT_GRIDFIGHTBONUSSRCINFO_GET_HASSRCNAME_OFFSET UNITYSDK_OFFSET(0xD14F1C0)
+#define RPG_CLIENT_GRIDFIGHTBONUSSRCINFO_GET_SRCNAME_OFFSET UNITYSDK_OFFSET(0xD14F220)
+#define RPG_CLIENT_GRIDFIGHTBONUSSRCINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xD14F340)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightBonusSrcInfo_TypeDefinitionIndex = 61464;
+	inline static constexpr unsigned int GridFightBonusSrcInfo_TypeDefinitionIndex = 64448;
 
 	class GridFightBonusSrcInfo : public ::System::Object
 	{

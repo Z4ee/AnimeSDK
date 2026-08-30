@@ -6,21 +6,21 @@ namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class Collider; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_PROP_PADSPUZZLETRIGGER_ONTRIGGERENTER_OFFSET UNITYSDK_OFFSET(0xD1D71F0)
-#define RPG_CLIENT_PROP_PADSPUZZLETRIGGER_ONTRIGGEREXIT_OFFSET UNITYSDK_OFFSET(0xD1D7270)
-#define RPG_CLIENT_PROP_PADSPUZZLETRIGGER_START_OFFSET UNITYSDK_OFFSET(0xD1D7150)
-#define RPG_CLIENT_PROP_PADSPUZZLETRIGGER__CTOR_OFFSET UNITYSDK_OFFSET(0xD1D72F0)
+#define RPG_CLIENT_PROP_PADSPUZZLETRIGGER_ONTRIGGERENTER_OFFSET UNITYSDK_OFFSET(0xDCDBA70)
+#define RPG_CLIENT_PROP_PADSPUZZLETRIGGER_ONTRIGGEREXIT_OFFSET UNITYSDK_OFFSET(0xDCDBAF0)
+#define RPG_CLIENT_PROP_PADSPUZZLETRIGGER_START_OFFSET UNITYSDK_OFFSET(0xDCDB9D0)
+#define RPG_CLIENT_PROP_PADSPUZZLETRIGGER__CTOR_OFFSET UNITYSDK_OFFSET(0xDCDBB70)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int PadsPuzzleTrigger_TypeDefinitionIndex = 74787;
+	inline static constexpr unsigned int PadsPuzzleTrigger_TypeDefinitionIndex = 78272;
 
 	class PadsPuzzleTrigger : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::System::Action_1<::UnityEngine::GameObject*>* onEnter; // 0x18
 		::System::Action_1<::UnityEngine::GameObject*>* onLeave; // 0x20
-		::UnityEngine::Collider* Field_5_2; // 0x28
+		::UnityEngine::Collider* PCBNMJBCPJP; // 0x28
 
 		::System::Void _ctor()
 		{

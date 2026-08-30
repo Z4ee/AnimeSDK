@@ -7,12 +7,12 @@ namespace RPG::GameCore { class CharacterFaceExpressionConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_CHARACTERFACEEXPRESSIONMAPPINGCONFIG_METHOD_2_500161B55037D8A8_OFFSET UNITYSDK_OFFSET(0x1B31A7E0)
-#define RPG_GAMECORE_CHARACTERFACEEXPRESSIONMAPPINGCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B31A8C0)
+#define RPG_GAMECORE_CHARACTERFACEEXPRESSIONMAPPINGCONFIG_METHOD_2_500161B55037D8A8_OFFSET UNITYSDK_OFFSET(0x1CF96800)
+#define RPG_GAMECORE_CHARACTERFACEEXPRESSIONMAPPINGCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF968E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterFaceExpressionMappingConfig_TypeDefinitionIndex = 16753;
+	inline static constexpr unsigned int CharacterFaceExpressionMappingConfig_TypeDefinitionIndex = 17255;
 
 	class CharacterFaceExpressionMappingConfig : public ::RPG::GameCore::JsonConfig
 	{

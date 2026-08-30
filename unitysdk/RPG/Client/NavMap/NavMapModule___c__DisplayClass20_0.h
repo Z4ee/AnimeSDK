@@ -10,22 +10,22 @@ namespace RPG::Client::NavMap { class UniverseData; }
 namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define RPG_CLIENT_NAVMAP_NAVMAPMODULE___C__DISPLAYCLASS20_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCE630B0)
-#define RPG_CLIENT_NAVMAP_NAVMAPMODULE___C__DISPLAYCLASS20_0__GETCARTOGRAPHERMAPPINGINFOIDIN_B__0_OFFSET UNITYSDK_OFFSET(0xCE6BEA0)
+#define RPG_CLIENT_NAVMAP_NAVMAPMODULE___C__DISPLAYCLASS20_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD963670)
+#define RPG_CLIENT_NAVMAP_NAVMAPMODULE___C__DISPLAYCLASS20_0__GETCARTOGRAPHERMAPPINGINFOIDIN_B__0_OFFSET UNITYSDK_OFFSET(0xD96C210)
 
 namespace RPG::Client::NavMap
 {
-	inline static constexpr unsigned int NavMapModule___c__DisplayClass20_0_TypeDefinitionIndex = 71197;
+	inline static constexpr unsigned int NavMapModule___c__DisplayClass20_0_TypeDefinitionIndex = 74496;
 
 	class NavMapModule___c__DisplayClass20_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::NavMap::NavMapModule* __4__this; // 0x10
-		::RPG::Client::NavMap::UniverseData* universe; // 0x18
-		::RPG::Client::NavMap::SubTabData* subTab; // 0x20
+		::RPG::Client::NavMap::UniverseData* universe; // 0x10
+		::RPG::Client::NavMap::SubTabData* subTab; // 0x18
+		::RPG::Client::NavMap::NavMapModule* __4__this; // 0x20
 		::System::UInt32 floorID; // 0x28
-		::System::UInt32 mappingInfoID; // 0x2C
-		::System::UInt32 groupID; // 0x30
+		::System::UInt32 groupID; // 0x2C
+		::System::UInt32 mappingInfoID; // 0x30
 
 		::System::Void _ctor()
 		{

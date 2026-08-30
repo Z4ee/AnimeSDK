@@ -5,13 +5,13 @@
 namespace System::Collections::Generic { template <typename T> class Stack_1; }
 namespace UnityEngine::UIElements { class EventCallbackList; }
 
-#define UNITYENGINE_UIELEMENTS_EVENTCALLBACKLISTPOOL_GET_OFFSET UNITYSDK_OFFSET(0x1D0DEFD0)
-#define UNITYENGINE_UIELEMENTS_EVENTCALLBACKLISTPOOL_RELEASE_OFFSET UNITYSDK_OFFSET(0x1D0DF110)
-#define UNITYENGINE_UIELEMENTS_EVENTCALLBACKLISTPOOL__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0DF1C0)
+#define UNITYENGINE_UIELEMENTS_EVENTCALLBACKLISTPOOL_GET_OFFSET UNITYSDK_OFFSET(0x1EDE9160)
+#define UNITYENGINE_UIELEMENTS_EVENTCALLBACKLISTPOOL_RELEASE_OFFSET UNITYSDK_OFFSET(0x1EDE92A0)
+#define UNITYENGINE_UIELEMENTS_EVENTCALLBACKLISTPOOL__CTOR_OFFSET UNITYSDK_OFFSET(0x1EDE9350)
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int EventCallbackListPool_TypeDefinitionIndex = 6194;
+	inline static constexpr unsigned int EventCallbackListPool_TypeDefinitionIndex = 5927;
 
 	class EventCallbackListPool : public ::System::Object
 	{

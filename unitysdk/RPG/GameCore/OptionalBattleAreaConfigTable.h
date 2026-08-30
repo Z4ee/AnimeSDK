@@ -7,12 +7,12 @@ namespace RPG::GameCore { class DynamicLoadBattleAreaConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_OPTIONALBATTLEAREACONFIGTABLE_METHOD_2_F6B78CA9FCC87DD6_OFFSET UNITYSDK_OFFSET(0x1B67F840)
-#define RPG_GAMECORE_OPTIONALBATTLEAREACONFIGTABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B67F940)
+#define RPG_GAMECORE_OPTIONALBATTLEAREACONFIGTABLE_METHOD_2_F6B78CA9FCC87DD6_OFFSET UNITYSDK_OFFSET(0x1D301A10)
+#define RPG_GAMECORE_OPTIONALBATTLEAREACONFIGTABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D301B10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int OptionalBattleAreaConfigTable_TypeDefinitionIndex = 18413;
+	inline static constexpr unsigned int OptionalBattleAreaConfigTable_TypeDefinitionIndex = 18937;
 
 	class OptionalBattleAreaConfigTable : public ::RPG::GameCore::JsonConfig
 	{

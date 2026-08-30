@@ -5,29 +5,29 @@
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace TMPro { class TMP_GlyphPairAdjustmentRecord; }
 
-#define TMPRO_TMP_FONTFEATURETABLE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CF33650)
-#define TMPRO_TMP_FONTFEATURETABLE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF33690)
-#define TMPRO_TMP_FONTFEATURETABLE___C__SORTGLYPHPAIRADJUSTMENTRECORDS_B__6_0_OFFSET UNITYSDK_OFFSET(0x1CF336A0)
-#define TMPRO_TMP_FONTFEATURETABLE___C__SORTGLYPHPAIRADJUSTMENTRECORDS_B__6_1_OFFSET UNITYSDK_OFFSET(0x1CF336C0)
+#define TMPRO_TMP_FONTFEATURETABLE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EC3AE80)
+#define TMPRO_TMP_FONTFEATURETABLE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1EC3AEC0)
+#define TMPRO_TMP_FONTFEATURETABLE___C__SORTGLYPHPAIRADJUSTMENTRECORDS_B__6_0_OFFSET UNITYSDK_OFFSET(0x1EC3AED0)
+#define TMPRO_TMP_FONTFEATURETABLE___C__SORTGLYPHPAIRADJUSTMENTRECORDS_B__6_1_OFFSET UNITYSDK_OFFSET(0x1EC3AEF0)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TMP_FontFeatureTable___c_TypeDefinitionIndex = 41784;
+	inline static constexpr unsigned int TMP_FontFeatureTable___c_TypeDefinitionIndex = 43395;
 
 	class TMP_FontFeatureTable___c : public ::System::Object
 	{
 	public:
+		static ::TMPro::TMP_FontFeatureTable___c** StaticGet___9()
+		{
+			return (::TMPro::TMP_FontFeatureTable___c**)Il2CppClass::FromTypeDefinitionIndex(TMP_FontFeatureTable___c_TypeDefinitionIndex)->GetStaticField(0x42A0);
+		}
 		static ::System::Func_2<::TMPro::TMP_GlyphPairAdjustmentRecord*, ::System::UInt32>** StaticGet___9__6_0()
 		{
-			return (::System::Func_2<::TMPro::TMP_GlyphPairAdjustmentRecord*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(TMP_FontFeatureTable___c_TypeDefinitionIndex)->GetStaticField(0x53590);
+			return (::System::Func_2<::TMPro::TMP_GlyphPairAdjustmentRecord*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(TMP_FontFeatureTable___c_TypeDefinitionIndex)->GetStaticField(0x42A8);
 		}
 		static ::System::Func_2<::TMPro::TMP_GlyphPairAdjustmentRecord*, ::System::UInt32>** StaticGet___9__6_1()
 		{
-			return (::System::Func_2<::TMPro::TMP_GlyphPairAdjustmentRecord*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(TMP_FontFeatureTable___c_TypeDefinitionIndex)->GetStaticField(0x53598);
-		}
-		static ::TMPro::TMP_FontFeatureTable___c** StaticGet___9()
-		{
-			return (::TMPro::TMP_FontFeatureTable___c**)Il2CppClass::FromTypeDefinitionIndex(TMP_FontFeatureTable___c_TypeDefinitionIndex)->GetStaticField(0x535A0);
+			return (::System::Func_2<::TMPro::TMP_GlyphPairAdjustmentRecord*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(TMP_FontFeatureTable___c_TypeDefinitionIndex)->GetStaticField(0x42B0);
 		}
 
 		static ::System::Void _cctor()

@@ -9,12 +9,12 @@
 namespace RPG::Client { class EnvWindReceiverBehavior; }
 namespace System { class String; }
 
-#define RPG_CLIENT_ENVWINDRECEIVERMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xC3D7C10)
-#define RPG_CLIENT_ENVWINDRECEIVERMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xC3D7C60)
+#define RPG_CLIENT_ENVWINDRECEIVERMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xCEA8C70)
+#define RPG_CLIENT_ENVWINDRECEIVERMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xCEA8CC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EnvWindReceiverMonoPlugin_TypeDefinitionIndex = 67858;
+	inline static constexpr unsigned int EnvWindReceiverMonoPlugin_TypeDefinitionIndex = 71031;
 
 	class EnvWindReceiverMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::EnvWindReceiverBehavior*>
 	{

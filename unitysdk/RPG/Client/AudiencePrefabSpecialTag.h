@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/Client/EAudiencePrefabSpecialTag.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_AUDIENCEPREFABSPECIALTAG__CTOR_OFFSET UNITYSDK_OFFSET(0xBDBD690)
+#define RPG_CLIENT_AUDIENCEPREFABSPECIALTAG__CTOR_OFFSET UNITYSDK_OFFSET(0xC793F80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AudiencePrefabSpecialTag_TypeDefinitionIndex = 66051;
+	inline static constexpr unsigned int AudiencePrefabSpecialTag_TypeDefinitionIndex = 69090;
 
 	class AudiencePrefabSpecialTag : public ::System::Object
 	{

@@ -8,7 +8,7 @@ namespace System { class Object; }
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdapterEnumerator64_2_TypeDefinitionIndex = 10510;
+	inline static constexpr unsigned int AdapterEnumerator64_2_TypeDefinitionIndex = 10851;
 
 	template <typename TIndexKey, typename TRow>
 	struct AdapterEnumerator64_2

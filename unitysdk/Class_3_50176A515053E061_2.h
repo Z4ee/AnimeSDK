@@ -4,10 +4,10 @@
 
 namespace RPG::Client { class WolfBroGunPlayTargetActionConfig_BossAvatar; }
 
-#define CLASS_3_50176A515053E061_2_METHOD_3_F0BD65B017F2AC0B_OFFSET UNITYSDK_OFFSET(0x15048840)
-#define CLASS_3_50176A515053E061_2__CTOR_OFFSET UNITYSDK_OFFSET(0x150488F0)
+#define CLASS_3_50176A515053E061_2_METHOD_3_F0BD65B017F2AC0B_OFFSET UNITYSDK_OFFSET(0x15CFE4B0)
+#define CLASS_3_50176A515053E061_2__CTOR_OFFSET UNITYSDK_OFFSET(0x15CFE560)
 
-inline static constexpr unsigned int Class_3_50176A515053E061_2_TypeDefinitionIndex = 65633;
+inline static constexpr unsigned int Class_3_50176A515053E061_2_TypeDefinitionIndex = 68670;
 
 class Class_3_50176A515053E061_2 : public ::RPG::Client::WolfBroGunPlayTargetActionTemplate_1<::RPG::Client::WolfBroGunPlayTargetActionConfig_BossAvatar*>
 {

@@ -5,29 +5,29 @@
 namespace RPG::Client { class GridFightPrayQuest; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_GRIDFIGHTFATEPRAYTRAITEFFECT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC705E50)
-#define RPG_CLIENT_GRIDFIGHTFATEPRAYTRAITEFFECT___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC705E90)
-#define RPG_CLIENT_GRIDFIGHTFATEPRAYTRAITEFFECT___C__GET_COMPLETEDQUESTCOUNT_B__18_0_OFFSET UNITYSDK_OFFSET(0xC705EC0)
-#define RPG_CLIENT_GRIDFIGHTFATEPRAYTRAITEFFECT___C__ONUPDATE_B__1_0_OFFSET UNITYSDK_OFFSET(0xC705EA0)
+#define RPG_CLIENT_GRIDFIGHTFATEPRAYTRAITEFFECT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD18E0E0)
+#define RPG_CLIENT_GRIDFIGHTFATEPRAYTRAITEFFECT___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD18E120)
+#define RPG_CLIENT_GRIDFIGHTFATEPRAYTRAITEFFECT___C__GET_COMPLETEDQUESTCOUNT_B__18_0_OFFSET UNITYSDK_OFFSET(0xD18E150)
+#define RPG_CLIENT_GRIDFIGHTFATEPRAYTRAITEFFECT___C__ONUPDATE_B__1_0_OFFSET UNITYSDK_OFFSET(0xD18E130)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightFatePrayTraitEffect___c_TypeDefinitionIndex = 62463;
+	inline static constexpr unsigned int GridFightFatePrayTraitEffect___c_TypeDefinitionIndex = 65448;
 
 	class GridFightFatePrayTraitEffect___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::Client::GridFightPrayQuest*, ::System::Boolean>** StaticGet___9__1_0()
-		{
-			return (::System::Func_2<::RPG::Client::GridFightPrayQuest*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(GridFightFatePrayTraitEffect___c_TypeDefinitionIndex)->GetStaticField(0x24880);
-		}
 		static ::RPG::Client::GridFightFatePrayTraitEffect___c** StaticGet___9()
 		{
-			return (::RPG::Client::GridFightFatePrayTraitEffect___c**)Il2CppClass::FromTypeDefinitionIndex(GridFightFatePrayTraitEffect___c_TypeDefinitionIndex)->GetStaticField(0x24888);
+			return (::RPG::Client::GridFightFatePrayTraitEffect___c**)Il2CppClass::FromTypeDefinitionIndex(GridFightFatePrayTraitEffect___c_TypeDefinitionIndex)->GetStaticField(0x2B400);
 		}
 		static ::System::Func_2<::RPG::Client::GridFightPrayQuest*, ::System::Boolean>** StaticGet___9__18_0()
 		{
-			return (::System::Func_2<::RPG::Client::GridFightPrayQuest*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(GridFightFatePrayTraitEffect___c_TypeDefinitionIndex)->GetStaticField(0x24890);
+			return (::System::Func_2<::RPG::Client::GridFightPrayQuest*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(GridFightFatePrayTraitEffect___c_TypeDefinitionIndex)->GetStaticField(0x2B408);
+		}
+		static ::System::Func_2<::RPG::Client::GridFightPrayQuest*, ::System::Boolean>** StaticGet___9__1_0()
+		{
+			return (::System::Func_2<::RPG::Client::GridFightPrayQuest*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(GridFightFatePrayTraitEffect___c_TypeDefinitionIndex)->GetStaticField(0x2B410);
 		}
 
 		static ::System::Void _cctor()

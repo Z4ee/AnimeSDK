@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByIsBattleReStart; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_8E2692315A9CEB4D_EVALUATE_OFFSET UNITYSDK_OFFSET(0x14977C10)
-#define CLASS_3_8E2692315A9CEB4D__CTOR_OFFSET UNITYSDK_OFFSET(0x14977BE0)
+#define CLASS_3_8E2692315A9CEB4D_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15804F10)
+#define CLASS_3_8E2692315A9CEB4D__CTOR_OFFSET UNITYSDK_OFFSET(0x15804EE0)
 
-inline static constexpr unsigned int Class_3_8E2692315A9CEB4D_TypeDefinitionIndex = 52162;
+inline static constexpr unsigned int Class_3_8E2692315A9CEB4D_TypeDefinitionIndex = 54848;
 
 class Class_3_8E2692315A9CEB4D : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByIsBattleReStart*>
 {

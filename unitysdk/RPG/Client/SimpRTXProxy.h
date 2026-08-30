@@ -11,12 +11,12 @@
 namespace UnityEngine { class Texture2D; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_SIMPRTXPROXY_METHOD_1_8ACAC425340483C4_OFFSET UNITYSDK_OFFSET(0xD4FE050)
-#define RPG_CLIENT_SIMPRTXPROXY__CTOR_OFFSET UNITYSDK_OFFSET(0xD4FE300)
+#define RPG_CLIENT_SIMPRTXPROXY_METHOD_1_8ACAC425340483C4_OFFSET UNITYSDK_OFFSET(0xE08D9C0)
+#define RPG_CLIENT_SIMPRTXPROXY__CTOR_OFFSET UNITYSDK_OFFSET(0xE08DC70)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SimpRTXProxy_TypeDefinitionIndex = 67044;
+	inline static constexpr unsigned int SimpRTXProxy_TypeDefinitionIndex = 70149;
 
 	class SimpRTXProxy : public ::System::Object
 	{

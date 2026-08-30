@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_CLIENT_CLOUDPLAYERPREFS_DATA__CTOR_OFFSET UNITYSDK_OFFSET(0xC18A0F0)
+#define RPG_CLIENT_CLOUDPLAYERPREFS_DATA__CTOR_OFFSET UNITYSDK_OFFSET(0xCC40350)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CloudPlayerPrefs_Data_TypeDefinitionIndex = 56642;
+	inline static constexpr unsigned int CloudPlayerPrefs_Data_TypeDefinitionIndex = 59427;
 
 	class CloudPlayerPrefs_Data : public ::System::Object
 	{

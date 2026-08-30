@@ -4,19 +4,19 @@
 
 namespace System { class String; }
 
-#define SYSTEM_NET_UNSAFENCLNATIVEMETHODS_HTTPAPI_HTTP_REQUEST_HEADER_ID_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1CD196D0)
-#define SYSTEM_NET_UNSAFENCLNATIVEMETHODS_HTTPAPI_HTTP_REQUEST_HEADER_ID__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CD19760)
+#define SYSTEM_NET_UNSAFENCLNATIVEMETHODS_HTTPAPI_HTTP_REQUEST_HEADER_ID_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9C5BE0)
+#define SYSTEM_NET_UNSAFENCLNATIVEMETHODS_HTTPAPI_HTTP_REQUEST_HEADER_ID__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E9C5C70)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int UnsafeNclNativeMethods_HttpApi_HTTP_REQUEST_HEADER_ID_TypeDefinitionIndex = 2810;
+	inline static constexpr unsigned int UnsafeNclNativeMethods_HttpApi_HTTP_REQUEST_HEADER_ID_TypeDefinitionIndex = 2817;
 
 	class UnsafeNclNativeMethods_HttpApi_HTTP_REQUEST_HEADER_ID : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::System::String*>** StaticGet_m_Strings()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(UnsafeNclNativeMethods_HttpApi_HTTP_REQUEST_HEADER_ID_TypeDefinitionIndex)->GetStaticField(0x2E7B0);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(UnsafeNclNativeMethods_HttpApi_HTTP_REQUEST_HEADER_ID_TypeDefinitionIndex)->GetStaticField(0x20AA0);
 		}
 
 		static ::System::Void _cctor()

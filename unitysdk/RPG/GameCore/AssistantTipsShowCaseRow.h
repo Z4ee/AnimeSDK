@@ -5,19 +5,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ASSISTANTTIPSSHOWCASEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B1B36F0)
-#define RPG_GAMECORE_ASSISTANTTIPSSHOWCASEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1B3850)
+#define RPG_GAMECORE_ASSISTANTTIPSSHOWCASEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CE2AC10)
+#define RPG_GAMECORE_ASSISTANTTIPSSHOWCASEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE2AD70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AssistantTipsShowCaseRow_TypeDefinitionIndex = 12195;
+	inline static constexpr unsigned int AssistantTipsShowCaseRow_TypeDefinitionIndex = 12584;
 
 	class AssistantTipsShowCaseRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* TipsIDList; // 0x10
-		::System::UInt32 ID; // 0x18
-		::RPG::GameCore::AssistantShowCaseType ShowCase; // 0x1C
+		::RPG::GameCore::AssistantShowCaseType ShowCase; // 0x18
+		::System::UInt32 ID; // 0x1C
 
 		::System::Void _ctor()
 		{

@@ -5,16 +5,16 @@
 class Class_1_D8BECDCE48063EC7;
 namespace RPG::GameCore { class DiceCombatTaskConfig_WriteCustomValue_DiceCountAfterSelect; }
 
-#define CLASS_2_1662256E43A84C1D_METHOD_2_33E2FA8E6403B93D_OFFSET UNITYSDK_OFFSET(0x1A63A700)
-#define CLASS_2_1662256E43A84C1D__CTOR_OFFSET UNITYSDK_OFFSET(0x1A63A6F0)
+#define CLASS_2_1662256E43A84C1D_METHOD_2_33E2FA8E6403B93D_OFFSET UNITYSDK_OFFSET(0x1C24A450)
+#define CLASS_2_1662256E43A84C1D__CTOR_OFFSET UNITYSDK_OFFSET(0x1C24A440)
 
-inline static constexpr unsigned int Class_2_1662256E43A84C1D_TypeDefinitionIndex = 34823;
+inline static constexpr unsigned int Class_2_1662256E43A84C1D_TypeDefinitionIndex = 35684;
 
 class Class_2_1662256E43A84C1D : public ::Class_1_B55037134F9E6688
 {
 public:
-	::Class_1_D8BECDCE48063EC7* Field_2_0; // 0x18
-	::RPG::GameCore::DiceCombatTaskConfig_WriteCustomValue_DiceCountAfterSelect* Field_2_1; // 0x20
+	::RPG::GameCore::DiceCombatTaskConfig_WriteCustomValue_DiceCountAfterSelect* IGHAHBNLIJA; // 0x18
+	::Class_1_D8BECDCE48063EC7* EEFMDEHLLFI; // 0x20
 
 	::System::Void _ctor(::RPG::GameCore::DiceCombatTaskConfig_WriteCustomValue_DiceCountAfterSelect* a1, ::Class_1_D8BECDCE48063EC7* a2)
 	{

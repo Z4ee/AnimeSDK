@@ -4,7 +4,7 @@
 
 namespace System { class String; }
 
-inline static constexpr unsigned int IRI_HlodData_StageMatLutKeyValuePair_TypeDefinitionIndex = 45387;
+inline static constexpr unsigned int IRI_HlodData_StageMatLutKeyValuePair_TypeDefinitionIndex = 47637;
 
 struct alignas(8) IRI_HlodData_StageMatLutKeyValuePair
 {

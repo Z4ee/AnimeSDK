@@ -2,29 +2,29 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_395;
+class Class_0_16E4307DCC419505_430;
 class Class_1_71EAE0D13B3DF503;
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-#define CLASS_1_B3B329E8E3BAC557_GET_DRESSEDENPCF07_OFFSET UNITYSDK_OFFSET(0xBA314A0)
-#define CLASS_1_B3B329E8E3BAC557_GET_ENPCF07IDS_OFFSET UNITYSDK_OFFSET(0xBA31490)
-#define CLASS_1_B3B329E8E3BAC557_METHOD_1_791D4B1CD66F90F0_1_OFFSET UNITYSDK_OFFSET(0xBA31590)
-#define CLASS_1_B3B329E8E3BAC557_METHOD_1_791D4B1CD66F90F0_OFFSET UNITYSDK_OFFSET(0xBA314D0)
-#define CLASS_1_B3B329E8E3BAC557_SET_DRESSEDENPCF07_OFFSET UNITYSDK_OFFSET(0xBA314B0)
-#define CLASS_1_B3B329E8E3BAC557__CTOR_OFFSET UNITYSDK_OFFSET(0xBA314C0)
+#define CLASS_1_B3B329E8E3BAC557_GET_DRESSEDENPCF07_OFFSET UNITYSDK_OFFSET(0xC454290)
+#define CLASS_1_B3B329E8E3BAC557_GET_ENPCF07IDS_OFFSET UNITYSDK_OFFSET(0xC454280)
+#define CLASS_1_B3B329E8E3BAC557_METHOD_1_791D4B1CD66F90F0_1_OFFSET UNITYSDK_OFFSET(0xC454380)
+#define CLASS_1_B3B329E8E3BAC557_METHOD_1_791D4B1CD66F90F0_OFFSET UNITYSDK_OFFSET(0xC4542C0)
+#define CLASS_1_B3B329E8E3BAC557_SET_DRESSEDENPCF07_OFFSET UNITYSDK_OFFSET(0xC4542A0)
+#define CLASS_1_B3B329E8E3BAC557__CTOR_OFFSET UNITYSDK_OFFSET(0xC4542B0)
 
-inline static constexpr unsigned int Class_1_B3B329E8E3BAC557_TypeDefinitionIndex = 49545;
+inline static constexpr unsigned int Class_1_B3B329E8E3BAC557_TypeDefinitionIndex = 52203;
 
 class Class_1_B3B329E8E3BAC557 : public ::System::Object
 {
 public:
-	::Class_0_16E4307DCC419505_395* Field_1_0; // 0x10
-	::Class_1_71EAE0D13B3DF503* _DressedENpcF07_k__BackingField; // 0x18
+	::Class_1_71EAE0D13B3DF503* _DressedENpcF07_k__BackingField; // 0x10
+	::Class_0_16E4307DCC419505_430* NMOPFNGFPPB; // 0x18
 	::System::Collections::Generic::IReadOnlyList_1<::System::UInt32>* _ENpcF07Ids_k__BackingField; // 0x20
 
-	::System::Void _ctor(::Class_0_16E4307DCC419505_395* a1, ::System::Collections::Generic::IReadOnlyList_1<::System::UInt32>* a2)
+	::System::Void _ctor(::Class_0_16E4307DCC419505_430* a1, ::System::Collections::Generic::IReadOnlyList_1<::System::UInt32>* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_395*, ::System::Collections::Generic::IReadOnlyList_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + CLASS_1_B3B329E8E3BAC557__CTOR_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_430*, ::System::Collections::Generic::IReadOnlyList_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + CLASS_1_B3B329E8E3BAC557__CTOR_OFFSET))(this, a1, a2);
 	}
 
 	::System::Collections::Generic::IReadOnlyList_1<::System::UInt32>* get_ENpcF07Ids()

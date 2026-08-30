@@ -2,29 +2,37 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_FF80A1ACD786CECB_3_GET_OPTIONINDEX_OFFSET UNITYSDK_OFFSET(0xAFE41E0)
-#define CLASS_1_FF80A1ACD786CECB_3_SET_OPTIONINDEX_OFFSET UNITYSDK_OFFSET(0xAFE41F0)
-#define CLASS_1_FF80A1ACD786CECB_3__CTOR_OFFSET UNITYSDK_OFFSET(0xAFE4200)
+namespace System { class String; }
 
-inline static constexpr unsigned int Class_1_FF80A1ACD786CECB_3_TypeDefinitionIndex = 71957;
+#define CLASS_1_FF80A1ACD786CECB_3_GET_DELTA_OFFSET UNITYSDK_OFFSET(0xB914940)
+#define CLASS_1_FF80A1ACD786CECB_3_TOSTRING_OFFSET UNITYSDK_OFFSET(0xB914820)
+#define CLASS_1_FF80A1ACD786CECB_3_TRIGGERACTION_OFFSET UNITYSDK_OFFSET(0xB9148D0)
+#define CLASS_1_FF80A1ACD786CECB_3__CTOR_OFFSET UNITYSDK_OFFSET(0xB914810)
+
+inline static constexpr unsigned int Class_1_FF80A1ACD786CECB_3_TypeDefinitionIndex = 67065;
 
 class Class_1_FF80A1ACD786CECB_3 : public ::System::Object
 {
 public:
-	::System::Int32 _OptionIndex_k__BackingField; // 0x10
+	::System::Int32 _Delta_k__BackingField; // 0x10
 
-	::System::Void _ctor()
+	::System::Void _ctor(::System::Int32 a1)
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_FF80A1ACD786CECB_3__CTOR_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_FF80A1ACD786CECB_3__CTOR_OFFSET))(this, a1);
 	}
 
-	::System::Int32 get_OptionIndex()
+	::System::String* ToString()
 	{
-		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_FF80A1ACD786CECB_3_GET_OPTIONINDEX_OFFSET))(this);
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_FF80A1ACD786CECB_3_TOSTRING_OFFSET))(this);
 	}
 
-	::System::Void set_OptionIndex(::System::Int32 a1)
+	::System::Void TriggerAction()
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_FF80A1ACD786CECB_3_SET_OPTIONINDEX_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_FF80A1ACD786CECB_3_TRIGGERACTION_OFFSET))(this);
+	}
+
+	::System::Int32 get_Delta()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_FF80A1ACD786CECB_3_GET_DELTA_OFFSET))(this);
 	}
 };

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/LittleGame/PingPong/PingPongView.h"
 
-#define RPG_CLIENT_LITTLEGAME_PINGPONG_PINGPONGRACKETVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0xC9DEF90)
+#define RPG_CLIENT_LITTLEGAME_PINGPONG_PINGPONGRACKETVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0xD522F60)
 
 namespace RPG::Client::LittleGame::PingPong
 {
-	inline static constexpr unsigned int PingPongRacketView_TypeDefinitionIndex = 72769;
+	inline static constexpr unsigned int PingPongRacketView_TypeDefinitionIndex = 76205;
 
 	class PingPongRacketView : public ::RPG::Client::LittleGame::PingPong::PingPongView
 	{

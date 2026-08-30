@@ -5,20 +5,20 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_VIDEOCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B9DD800)
-#define RPG_GAMECORE_VIDEOCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9DE200)
+#define RPG_GAMECORE_VIDEOCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D69A330)
+#define RPG_GAMECORE_VIDEOCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D69AD30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int VideoConfigRow_TypeDefinitionIndex = 14806;
+	inline static constexpr unsigned int VideoConfigRow_TypeDefinitionIndex = 15242;
 
 	class VideoConfigRow : public ::System::Object
 	{
 	public:
 		::System::String* CaptionPath; // 0x10
 		::System::String* VideoPath; // 0x18
-		::System::Boolean IsPlayerInvolved; // 0x20
-		::System::UInt32 VideoID; // 0x24
+		::System::UInt32 VideoID; // 0x20
+		::System::Boolean IsPlayerInvolved; // 0x24
 
 		::System::Void _ctor()
 		{

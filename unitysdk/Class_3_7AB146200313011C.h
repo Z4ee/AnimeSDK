@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TriggerSoundHit; }
 
-#define CLASS_3_7AB146200313011C_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB4011F0)
-#define CLASS_3_7AB146200313011C__CTOR_OFFSET UNITYSDK_OFFSET(0xB4011C0)
+#define CLASS_3_7AB146200313011C_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBD97270)
+#define CLASS_3_7AB146200313011C__CTOR_OFFSET UNITYSDK_OFFSET(0xBD97240)
 
-inline static constexpr unsigned int Class_3_7AB146200313011C_TypeDefinitionIndex = 53933;
+inline static constexpr unsigned int Class_3_7AB146200313011C_TypeDefinitionIndex = 56654;
 
 class Class_3_7AB146200313011C : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::TriggerSoundHit*>
 {

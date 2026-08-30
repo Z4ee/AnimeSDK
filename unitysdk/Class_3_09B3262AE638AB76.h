@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class RotateRubikCube; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_09B3262AE638AB76_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x11FAF2E0)
-#define CLASS_3_09B3262AE638AB76__CTOR_OFFSET UNITYSDK_OFFSET(0x11FAF2B0)
+#define CLASS_3_09B3262AE638AB76_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x12E97380)
+#define CLASS_3_09B3262AE638AB76__CTOR_OFFSET UNITYSDK_OFFSET(0x12E97350)
 
-inline static constexpr unsigned int Class_3_09B3262AE638AB76_TypeDefinitionIndex = 55877;
+inline static constexpr unsigned int Class_3_09B3262AE638AB76_TypeDefinitionIndex = 58649;
 
 class Class_3_09B3262AE638AB76 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::RotateRubikCube*>
 {

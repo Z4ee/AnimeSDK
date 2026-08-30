@@ -3,7 +3,7 @@
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int XmlNodeChangedAction_TypeDefinitionIndex = 1898;
+	inline static constexpr unsigned int XmlNodeChangedAction_TypeDefinitionIndex = 1905;
 
 	enum class XmlNodeChangedAction : ::System::Int32
 	{

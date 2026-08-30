@@ -6,18 +6,18 @@ namespace RPG::Client { class PlanetFesFloatingController; }
 namespace RPG::Client { class PlanetFesTimedEffect; }
 namespace System { class Action; }
 
-#define RPG_CLIENT_PLANETFESFLOATINGCONTROLLER___C__DISPLAYCLASS27_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD00CCB0)
-#define RPG_CLIENT_PLANETFESFLOATINGCONTROLLER___C__DISPLAYCLASS27_0__DOADDEVENTEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0xD00D370)
+#define RPG_CLIENT_PLANETFESFLOATINGCONTROLLER___C__DISPLAYCLASS27_0__CTOR_OFFSET UNITYSDK_OFFSET(0xDB4BB00)
+#define RPG_CLIENT_PLANETFESFLOATINGCONTROLLER___C__DISPLAYCLASS27_0__DOADDEVENTEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0xDB4C380)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlanetFesFloatingController___c__DisplayClass27_0_TypeDefinitionIndex = 63542;
+	inline static constexpr unsigned int PlanetFesFloatingController___c__DisplayClass27_0_TypeDefinitionIndex = 66527;
 
 	class PlanetFesFloatingController___c__DisplayClass27_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::PlanetFesFloatingController* __4__this; // 0x10
-		::System::Action* onFinish; // 0x18
+		::System::Action* onFinish; // 0x10
+		::RPG::Client::PlanetFesFloatingController* __4__this; // 0x18
 		::RPG::Client::PlanetFesTimedEffect* addEffect; // 0x20
 
 		::System::Void _ctor()

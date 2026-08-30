@@ -7,23 +7,23 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 template <typename T1, typename T2> class Class_1_534AF681CC2BD5FD_1;
 
-#define CLASS_2_87F9839A308D3BC3_CREATENATIVEDICTIONARY_OFFSET UNITYSDK_OFFSET(0x1B0D7890)
-#define CLASS_2_87F9839A308D3BC3_READROW_OFFSET UNITYSDK_OFFSET(0x1B0D78F0)
-#define CLASS_2_87F9839A308D3BC3__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B0D7950)
-#define CLASS_2_87F9839A308D3BC3__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0D7840)
+#define CLASS_2_87F9839A308D3BC3_CREATENATIVEDICTIONARY_OFFSET UNITYSDK_OFFSET(0x1CD430B0)
+#define CLASS_2_87F9839A308D3BC3_READROW_OFFSET UNITYSDK_OFFSET(0x1CD43110)
+#define CLASS_2_87F9839A308D3BC3__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CD43170)
+#define CLASS_2_87F9839A308D3BC3__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD43060)
 
-inline static constexpr unsigned int Class_2_87F9839A308D3BC3_TypeDefinitionIndex = 10474;
+inline static constexpr unsigned int Class_2_87F9839A308D3BC3_TypeDefinitionIndex = 10815;
 
 class Class_2_87F9839A308D3BC3 : public ::RPG::GameCore::BaseConfigHeader_1<::System::UInt64>
 {
 public:
-	static ::Class_2_87F9839A308D3BC3** StaticGet_Field_2_0()
+	static ::Class_2_87F9839A308D3BC3** StaticGet_OBNANPFLCOO()
 	{
-		return (::Class_2_87F9839A308D3BC3**)Il2CppClass::FromTypeDefinitionIndex(Class_2_87F9839A308D3BC3_TypeDefinitionIndex)->GetStaticField(0x6B00);
+		return (::Class_2_87F9839A308D3BC3**)Il2CppClass::FromTypeDefinitionIndex(Class_2_87F9839A308D3BC3_TypeDefinitionIndex)->GetStaticField(0x28DB0);
 	}
-	static ::Class_1_534AF681CC2BD5FD_1<::System::UInt64, ::RPG::GameCore::BaseConfigHeader_1_NativeRowInfo<::System::UInt64>>** StaticGet_Field_2_1()
+	static ::Class_1_534AF681CC2BD5FD_1<::System::UInt64, ::RPG::GameCore::BaseConfigHeader_1_NativeRowInfo<::System::UInt64>>** StaticGet_LLFPDGEEGCD()
 	{
-		return (::Class_1_534AF681CC2BD5FD_1<::System::UInt64, ::RPG::GameCore::BaseConfigHeader_1_NativeRowInfo<::System::UInt64>>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_87F9839A308D3BC3_TypeDefinitionIndex)->GetStaticField(0x6B08);
+		return (::Class_1_534AF681CC2BD5FD_1<::System::UInt64, ::RPG::GameCore::BaseConfigHeader_1_NativeRowInfo<::System::UInt64>>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_87F9839A308D3BC3_TypeDefinitionIndex)->GetStaticField(0x28DB8);
 	}
 
 	::System::Void _ctor(::System::String* a1)

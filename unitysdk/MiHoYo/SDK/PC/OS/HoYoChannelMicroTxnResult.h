@@ -4,20 +4,20 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELMICROTXNRESULT_FROMJSON_OFFSET UNITYSDK_OFFSET(0x19D74910)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELMICROTXNRESULT_TOJSON_OFFSET UNITYSDK_OFFSET(0x19D74900)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELMICROTXNRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x19D74950)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELMICROTXNRESULT_FROMJSON_OFFSET UNITYSDK_OFFSET(0x1BA27350)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELMICROTXNRESULT_TOJSON_OFFSET UNITYSDK_OFFSET(0x1BA27340)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELMICROTXNRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA27390)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int HoYoChannelMicroTxnResult_TypeDefinitionIndex = 8484;
+	inline static constexpr unsigned int HoYoChannelMicroTxnResult_TypeDefinitionIndex = 8643;
 
 	class HoYoChannelMicroTxnResult : public ::MiHoYo::SDK::PC::OS::HoYoChannelBaseResult
 	{
 	public:
-		::System::UInt32 appId; // 0x28
-		::System::String* orderId; // 0x30
-		::System::Boolean authorized; // 0x38
+		::System::UInt32 appId; // 0x30
+		::System::String* orderId; // 0x38
+		::System::Boolean authorized; // 0x40
 
 		::System::Void _ctor()
 		{

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class DestroySummonUnit; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_6A7C5BFBAFD96C8B_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB659090)
-#define CLASS_3_6A7C5BFBAFD96C8B__CTOR_OFFSET UNITYSDK_OFFSET(0xB659060)
+#define CLASS_3_6A7C5BFBAFD96C8B_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC05DC40)
+#define CLASS_3_6A7C5BFBAFD96C8B__CTOR_OFFSET UNITYSDK_OFFSET(0xC05DC10)
 
-inline static constexpr unsigned int Class_3_6A7C5BFBAFD96C8B_TypeDefinitionIndex = 55500;
+inline static constexpr unsigned int Class_3_6A7C5BFBAFD96C8B_TypeDefinitionIndex = 58231;
 
 class Class_3_6A7C5BFBAFD96C8B : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::DestroySummonUnit*>
 {

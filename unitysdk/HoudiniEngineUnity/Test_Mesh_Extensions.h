@@ -6,13 +6,13 @@ namespace HoudiniEngineUnity { class Test_Mesh; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Mesh; }
 
-#define HOUDINIENGINEUNITY_TEST_MESH_EXTENSIONS_TOTESTOBJECT_1_OFFSET UNITYSDK_OFFSET(0x199276B0)
-#define HOUDINIENGINEUNITY_TEST_MESH_EXTENSIONS_TOTESTOBJECT_2_OFFSET UNITYSDK_OFFSET(0x199277D0)
-#define HOUDINIENGINEUNITY_TEST_MESH_EXTENSIONS_TOTESTOBJECT_OFFSET UNITYSDK_OFFSET(0x19926940)
+#define HOUDINIENGINEUNITY_TEST_MESH_EXTENSIONS_TOTESTOBJECT_1_OFFSET UNITYSDK_OFFSET(0x1B4B2900)
+#define HOUDINIENGINEUNITY_TEST_MESH_EXTENSIONS_TOTESTOBJECT_2_OFFSET UNITYSDK_OFFSET(0x1B4B2A20)
+#define HOUDINIENGINEUNITY_TEST_MESH_EXTENSIONS_TOTESTOBJECT_OFFSET UNITYSDK_OFFSET(0x1B4B1B90)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int Test_Mesh_Extensions_TypeDefinitionIndex = 38579;
+	inline static constexpr unsigned int Test_Mesh_Extensions_TypeDefinitionIndex = 39438;
 
 	class Test_Mesh_Extensions : public ::System::Object
 	{

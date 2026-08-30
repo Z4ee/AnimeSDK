@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ITEMGIFTPACKDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B543490)
-#define RPG_GAMECORE_ITEMGIFTPACKDATAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5436A0)
+#define RPG_GAMECORE_ITEMGIFTPACKDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D1BCB40)
+#define RPG_GAMECORE_ITEMGIFTPACKDATAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1BCD50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ItemGiftPackDataRow_TypeDefinitionIndex = 13375;
+	inline static constexpr unsigned int ItemGiftPackDataRow_TypeDefinitionIndex = 13766;
 
 	class ItemGiftPackDataRow : public ::System::Object
 	{

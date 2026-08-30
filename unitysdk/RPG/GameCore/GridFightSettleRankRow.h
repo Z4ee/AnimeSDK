@@ -6,21 +6,21 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_GRIDFIGHTSETTLERANKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B4ED1F0)
-#define RPG_GAMECORE_GRIDFIGHTSETTLERANKROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4ED420)
+#define RPG_GAMECORE_GRIDFIGHTSETTLERANKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D166A80)
+#define RPG_GAMECORE_GRIDFIGHTSETTLERANKROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D166CB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightSettleRankRow_TypeDefinitionIndex = 12935;
+	inline static constexpr unsigned int GridFightSettleRankRow_TypeDefinitionIndex = 13326;
 
 	class GridFightSettleRankRow : public ::System::Object
 	{
 	public:
 		::RPG::Client::TextID RankName; // 0x10
-		::System::UInt32 Rank_RightInterval; // 0x20
-		::System::UInt32 ID; // 0x24
-		::System::UInt32 Rank_LeftInterval; // 0x28
-		::RPG::GameCore::GridFightSettleRankType SettleRankType; // 0x2C
+		::RPG::GameCore::GridFightSettleRankType SettleRankType; // 0x20
+		::System::UInt32 Rank_LeftInterval; // 0x24
+		::System::UInt32 Rank_RightInterval; // 0x28
+		::System::UInt32 ID; // 0x2C
 
 		::System::Void _ctor()
 		{

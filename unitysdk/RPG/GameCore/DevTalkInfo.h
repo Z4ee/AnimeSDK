@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_DEVTALKINFO_METHOD_2_1BD0C0DC0C858228_OFFSET UNITYSDK_OFFSET(0x1B3A3790)
-#define RPG_GAMECORE_DEVTALKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3A3910)
+#define RPG_GAMECORE_DEVTALKINFO_METHOD_2_1BD0C0DC0C858228_OFFSET UNITYSDK_OFFSET(0x1D021AC0)
+#define RPG_GAMECORE_DEVTALKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1D021C40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DevTalkInfo_TypeDefinitionIndex = 20338;
+	inline static constexpr unsigned int DevTalkInfo_TypeDefinitionIndex = 20888;
 
 	class DevTalkInfo : public ::RPG::GameCore::JsonConfig
 	{

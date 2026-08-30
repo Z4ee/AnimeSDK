@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LockableList_1_TypeDefinitionIndex = 51235;
+	inline static constexpr unsigned int LockableList_1_TypeDefinitionIndex = 53919;
 
 	template <typename T>
 	class LockableList_1 : public ::System::Object

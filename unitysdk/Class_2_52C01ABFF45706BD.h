@@ -4,15 +4,15 @@
 #include "unitysdk/Class_1_2EDC9A17B260920E_TriggerType.h"
 #include "unitysdk/RPG/Client/ActivityHipplen/ActivityHipplenEffectSource.h"
 
-class Class_0_16E4307DCC419505_1197;
+class Class_0_16E4307DCC419505_1257;
 class Class_1_69DB8A72C044FA28;
 namespace RPG::Client::ActivityHipplen { class ActivityHipplenEffectResultData; }
 
-#define CLASS_2_52C01ABFF45706BD_METHOD_2_05B97BA51729EA53_OFFSET UNITYSDK_OFFSET(0x143E6920)
-#define CLASS_2_52C01ABFF45706BD_METHOD_2_2A1ECCAD60FE5D2E_OFFSET UNITYSDK_OFFSET(0x143E68C0)
-#define CLASS_2_52C01ABFF45706BD__CTOR_OFFSET UNITYSDK_OFFSET(0x143E6910)
+#define CLASS_2_52C01ABFF45706BD_METHOD_2_05B97BA51729EA53_OFFSET UNITYSDK_OFFSET(0x15204D60)
+#define CLASS_2_52C01ABFF45706BD_METHOD_2_2A1ECCAD60FE5D2E_OFFSET UNITYSDK_OFFSET(0x15204D00)
+#define CLASS_2_52C01ABFF45706BD__CTOR_OFFSET UNITYSDK_OFFSET(0x15204D50)
 
-inline static constexpr unsigned int Class_2_52C01ABFF45706BD_TypeDefinitionIndex = 71881;
+inline static constexpr unsigned int Class_2_52C01ABFF45706BD_TypeDefinitionIndex = 75187;
 
 class Class_2_52C01ABFF45706BD : public ::Class_1_2EDC9A17B260920E
 {
@@ -27,8 +27,8 @@ public:
 		return ((::Class_1_2EDC9A17B260920E_TriggerType(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_52C01ABFF45706BD_METHOD_2_2A1ECCAD60FE5D2E_OFFSET))(this);
 	}
 
-	::System::Void Method_2_05B97BA51729EA53(::Class_0_16E4307DCC419505_1197* a1, ::RPG::Client::ActivityHipplen::ActivityHipplenEffectResultData* a2)
+	::System::Void Method_2_05B97BA51729EA53(::Class_0_16E4307DCC419505_1257* a1, ::RPG::Client::ActivityHipplen::ActivityHipplenEffectResultData* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_1197*, ::RPG::Client::ActivityHipplen::ActivityHipplenEffectResultData*))((::PBYTE)hIl2Cpp + CLASS_2_52C01ABFF45706BD_METHOD_2_05B97BA51729EA53_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_1257*, ::RPG::Client::ActivityHipplen::ActivityHipplenEffectResultData*))((::PBYTE)hIl2Cpp + CLASS_2_52C01ABFF45706BD_METHOD_2_05B97BA51729EA53_OFFSET))(this, a1, a2);
 	}
 };

@@ -10,16 +10,16 @@ namespace UnityEngine { class RenderTexture; }
 namespace UnityEngine { class Shader; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define RPG_CUSTOMRP_UIPOSTPROCESSCMD_EXECUTE_OFFSET UNITYSDK_OFFSET(0xD8D3ED0)
-#define RPG_CUSTOMRP_UIPOSTPROCESSCMD_GET_KEY_OFFSET UNITYSDK_OFFSET(0xD8D3EC0)
-#define RPG_CUSTOMRP_UIPOSTPROCESSCMD_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xD8D3C80)
-#define RPG_CUSTOMRP_UIPOSTPROCESSCMD_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xD8D3E00)
-#define RPG_CUSTOMRP_UIPOSTPROCESSCMD_ONENABLE_OFFSET UNITYSDK_OFFSET(0xD8D3B40)
-#define RPG_CUSTOMRP_UIPOSTPROCESSCMD__CTOR_OFFSET UNITYSDK_OFFSET(0xD8D4570)
+#define RPG_CUSTOMRP_UIPOSTPROCESSCMD_EXECUTE_OFFSET UNITYSDK_OFFSET(0xE44EDC0)
+#define RPG_CUSTOMRP_UIPOSTPROCESSCMD_GET_KEY_OFFSET UNITYSDK_OFFSET(0xE44EDB0)
+#define RPG_CUSTOMRP_UIPOSTPROCESSCMD_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xE44EB70)
+#define RPG_CUSTOMRP_UIPOSTPROCESSCMD_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xE44ECF0)
+#define RPG_CUSTOMRP_UIPOSTPROCESSCMD_ONENABLE_OFFSET UNITYSDK_OFFSET(0xE44EA30)
+#define RPG_CUSTOMRP_UIPOSTPROCESSCMD__CTOR_OFFSET UNITYSDK_OFFSET(0xE44F460)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int UIPostProcessCmd_TypeDefinitionIndex = 49502;
+	inline static constexpr unsigned int UIPostProcessCmd_TypeDefinitionIndex = 52160;
 
 	class UIPostProcessCmd : public ::UnityEngine::MonoBehaviour
 	{
@@ -32,9 +32,9 @@ namespace RPG::CustomRP
 		::System::Single frequency; // 0x40
 		::System::Single useGrayColor; // 0x44
 		::System::Single colorScale; // 0x48
-		::UnityEngine::RenderTexture* Field_5_8; // 0x50
-		::UnityEngine::RenderTexture* Field_5_9; // 0x58
-		::UnityEngine::RenderTextureDescriptor Field_5_10; // 0x60
+		::UnityEngine::RenderTexture* BOCOPMCBMOI; // 0x50
+		::UnityEngine::RenderTexture* GELKFADFLAJ; // 0x58
+		::UnityEngine::RenderTextureDescriptor FBFJGMKFDCC; // 0x60
 
 		::System::Void _ctor()
 		{

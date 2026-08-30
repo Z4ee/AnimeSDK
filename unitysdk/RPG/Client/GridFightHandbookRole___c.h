@@ -6,29 +6,29 @@ namespace RPG::Client { class GridFightTraitConfig; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Linq { template <typename T1, typename T2> class IGrouping_2; }
 
-#define RPG_CLIENT_GRIDFIGHTHANDBOOKROLE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC7754B0)
-#define RPG_CLIENT_GRIDFIGHTHANDBOOKROLE___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC7754F0)
-#define RPG_CLIENT_GRIDFIGHTHANDBOOKROLE___C__GETMERGEDTRAITCONFIGS_B__15_0_OFFSET UNITYSDK_OFFSET(0xC775500)
-#define RPG_CLIENT_GRIDFIGHTHANDBOOKROLE___C__GETMERGEDTRAITCONFIGS_B__15_1_OFFSET UNITYSDK_OFFSET(0xC775560)
+#define RPG_CLIENT_GRIDFIGHTHANDBOOKROLE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD1FC770)
+#define RPG_CLIENT_GRIDFIGHTHANDBOOKROLE___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD1FC7B0)
+#define RPG_CLIENT_GRIDFIGHTHANDBOOKROLE___C__GETMERGEDTRAITCONFIGS_B__15_0_OFFSET UNITYSDK_OFFSET(0xD1FC7C0)
+#define RPG_CLIENT_GRIDFIGHTHANDBOOKROLE___C__GETMERGEDTRAITCONFIGS_B__15_1_OFFSET UNITYSDK_OFFSET(0xD1FC820)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightHandbookRole___c_TypeDefinitionIndex = 61975;
+	inline static constexpr unsigned int GridFightHandbookRole___c_TypeDefinitionIndex = 64959;
 
 	class GridFightHandbookRole___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::GridFightHandbookRole___c** StaticGet___9()
+		static ::System::Func_2<::RPG::Client::GridFightTraitConfig*, ::System::UInt32>** StaticGet___9__15_0()
 		{
-			return (::RPG::Client::GridFightHandbookRole___c**)Il2CppClass::FromTypeDefinitionIndex(GridFightHandbookRole___c_TypeDefinitionIndex)->GetStaticField(0x28C40);
+			return (::System::Func_2<::RPG::Client::GridFightTraitConfig*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(GridFightHandbookRole___c_TypeDefinitionIndex)->GetStaticField(0x3B520);
 		}
 		static ::System::Func_2<::System::Linq::IGrouping_2<::System::UInt32, ::RPG::Client::GridFightTraitConfig*>*, ::RPG::Client::GridFightTraitConfig*>** StaticGet___9__15_1()
 		{
-			return (::System::Func_2<::System::Linq::IGrouping_2<::System::UInt32, ::RPG::Client::GridFightTraitConfig*>*, ::RPG::Client::GridFightTraitConfig*>**)Il2CppClass::FromTypeDefinitionIndex(GridFightHandbookRole___c_TypeDefinitionIndex)->GetStaticField(0x28C48);
+			return (::System::Func_2<::System::Linq::IGrouping_2<::System::UInt32, ::RPG::Client::GridFightTraitConfig*>*, ::RPG::Client::GridFightTraitConfig*>**)Il2CppClass::FromTypeDefinitionIndex(GridFightHandbookRole___c_TypeDefinitionIndex)->GetStaticField(0x3B528);
 		}
-		static ::System::Func_2<::RPG::Client::GridFightTraitConfig*, ::System::UInt32>** StaticGet___9__15_0()
+		static ::RPG::Client::GridFightHandbookRole___c** StaticGet___9()
 		{
-			return (::System::Func_2<::RPG::Client::GridFightTraitConfig*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(GridFightHandbookRole___c_TypeDefinitionIndex)->GetStaticField(0x28C50);
+			return (::RPG::Client::GridFightHandbookRole___c**)Il2CppClass::FromTypeDefinitionIndex(GridFightHandbookRole___c_TypeDefinitionIndex)->GetStaticField(0x3B530);
 		}
 
 		static ::System::Void _cctor()

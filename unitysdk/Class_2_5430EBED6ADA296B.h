@@ -6,21 +6,21 @@ namespace RPG::Client { class UIController; }
 namespace RPG::GameCore { class ShowSwordTrainingConfirmGiveUpDialog; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_2_5430EBED6ADA296B_DISPOSE_OFFSET UNITYSDK_OFFSET(0xEB6F8A0)
-#define CLASS_2_5430EBED6ADA296B_METHOD_2_1CD1133DC003C11C_OFFSET UNITYSDK_OFFSET(0xEB6F700)
-#define CLASS_2_5430EBED6ADA296B_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xEB6F540)
-#define CLASS_2_5430EBED6ADA296B_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xEB6F850)
-#define CLASS_2_5430EBED6ADA296B_TICK_OFFSET UNITYSDK_OFFSET(0xEB6F8F0)
-#define CLASS_2_5430EBED6ADA296B__CTOR_OFFSET UNITYSDK_OFFSET(0xEB6F530)
+#define CLASS_2_5430EBED6ADA296B_DISPOSE_OFFSET UNITYSDK_OFFSET(0xFA7A570)
+#define CLASS_2_5430EBED6ADA296B_METHOD_2_9D9CF8F6C2342EE5_OFFSET UNITYSDK_OFFSET(0xFA7A400)
+#define CLASS_2_5430EBED6ADA296B_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xFA7A240)
+#define CLASS_2_5430EBED6ADA296B_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xFA7A520)
+#define CLASS_2_5430EBED6ADA296B_TICK_OFFSET UNITYSDK_OFFSET(0xFA7A5C0)
+#define CLASS_2_5430EBED6ADA296B__CTOR_OFFSET UNITYSDK_OFFSET(0xFA7A230)
 
-inline static constexpr unsigned int Class_2_5430EBED6ADA296B_TypeDefinitionIndex = 53103;
+inline static constexpr unsigned int Class_2_5430EBED6ADA296B_TypeDefinitionIndex = 55811;
 
 class Class_2_5430EBED6ADA296B : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::RPG::Client::UIController* Field_2_0; // 0x18
-	::RPG::GameCore::TaskContext* Field_2_1; // 0x20
-	::RPG::GameCore::ShowSwordTrainingConfirmGiveUpDialog* Field_2_2; // 0x28
+	::RPG::Client::UIController* OGOFNHAGOPO; // 0x18
+	::RPG::GameCore::ShowSwordTrainingConfirmGiveUpDialog* OFKGLJOAMLD; // 0x20
+	::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x28
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ShowSwordTrainingConfirmGiveUpDialog* a2)
 	{
@@ -32,9 +32,9 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_5430EBED6ADA296B_ONTASKBEGIN_OFFSET))(this);
 	}
 
-	::System::Void Method_2_1CD1133DC003C11C(::System::Boolean a1)
+	::System::Void Method_2_9D9CF8F6C2342EE5(::System::Boolean a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_2_5430EBED6ADA296B_METHOD_2_1CD1133DC003C11C_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_2_5430EBED6ADA296B_METHOD_2_9D9CF8F6C2342EE5_OFFSET))(this, a1);
 	}
 
 	::System::Void OnTaskReset()

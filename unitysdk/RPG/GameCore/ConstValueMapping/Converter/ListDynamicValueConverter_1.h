@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::GameCore::ConstValueMapping::Converter
 {
-	inline static constexpr unsigned int ListDynamicValueConverter_1_TypeDefinitionIndex = 42414;
+	inline static constexpr unsigned int ListDynamicValueConverter_1_TypeDefinitionIndex = 44025;
 
 	template <typename T>
 	class ListDynamicValueConverter_1 : public ::System::Object

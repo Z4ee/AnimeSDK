@@ -6,12 +6,12 @@
 
 namespace RPG::GameCore { class SwordTrainingStatusRow; }
 
-#define RPG_CLIENT_SWORDTRAININGSTATUSDISPLAYDATA_GETDISPLAYNAME_OFFSET UNITYSDK_OFFSET(0xD5F1380)
-#define RPG_CLIENT_SWORDTRAININGSTATUSDISPLAYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xD5F1360)
+#define RPG_CLIENT_SWORDTRAININGSTATUSDISPLAYDATA_GETDISPLAYNAME_OFFSET UNITYSDK_OFFSET(0xE13E820)
+#define RPG_CLIENT_SWORDTRAININGSTATUSDISPLAYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xE13E800)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SwordTrainingStatusDisplayData_TypeDefinitionIndex = 59183;
+	inline static constexpr unsigned int SwordTrainingStatusDisplayData_TypeDefinitionIndex = 62018;
 
 	class SwordTrainingStatusDisplayData : public ::RPG::Client::SwordTrainingConditionDisplayData
 	{

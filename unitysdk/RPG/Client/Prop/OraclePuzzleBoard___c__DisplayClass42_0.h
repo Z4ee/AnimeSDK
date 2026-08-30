@@ -5,18 +5,18 @@
 namespace RPG::Client::Prop { class OraclePuzzleBoard; }
 namespace RPG::Client::Prop { class OraclePuzzleItem; }
 
-#define RPG_CLIENT_PROP_ORACLEPUZZLEBOARD___C__DISPLAYCLASS42_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD1C66E0)
-#define RPG_CLIENT_PROP_ORACLEPUZZLEBOARD___C__DISPLAYCLASS42_0__ONSELECTITEM_B__0_OFFSET UNITYSDK_OFFSET(0xD1CA6D0)
+#define RPG_CLIENT_PROP_ORACLEPUZZLEBOARD___C__DISPLAYCLASS42_0__CTOR_OFFSET UNITYSDK_OFFSET(0xDCCEBB0)
+#define RPG_CLIENT_PROP_ORACLEPUZZLEBOARD___C__DISPLAYCLASS42_0__ONSELECTITEM_B__0_OFFSET UNITYSDK_OFFSET(0xDCCEBC0)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int OraclePuzzleBoard___c__DisplayClass42_0_TypeDefinitionIndex = 74768;
+	inline static constexpr unsigned int OraclePuzzleBoard___c__DisplayClass42_0_TypeDefinitionIndex = 78253;
 
 	class OraclePuzzleBoard___c__DisplayClass42_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::Prop::OraclePuzzleBoard* __4__this; // 0x10
-		::RPG::Client::Prop::OraclePuzzleItem* oracleItem; // 0x18
+		::RPG::Client::Prop::OraclePuzzleItem* oracleItem; // 0x10
+		::RPG::Client::Prop::OraclePuzzleBoard* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

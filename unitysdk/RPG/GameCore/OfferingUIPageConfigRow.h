@@ -5,24 +5,24 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_OFFERINGUIPAGECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B679580)
-#define RPG_GAMECORE_OFFERINGUIPAGECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B679A60)
+#define RPG_GAMECORE_OFFERINGUIPAGECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D2FB630)
+#define RPG_GAMECORE_OFFERINGUIPAGECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2FBB10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int OfferingUIPageConfigRow_TypeDefinitionIndex = 13773;
+	inline static constexpr unsigned int OfferingUIPageConfigRow_TypeDefinitionIndex = 14190;
 
 	class OfferingUIPageConfigRow : public ::System::Object
 	{
 	public:
-		::RPG::Client::TextID CostTitle; // 0x10
-		::RPG::Client::TextID LevelTitle; // 0x20
+		::RPG::Client::TextID LevelTitle; // 0x10
+		::RPG::Client::TextID LongTailDesc; // 0x20
 		::RPG::Client::TextID LongTailTitle; // 0x30
-		::System::UInt32 ID; // 0x40
-		::RPG::Client::TextID SubmitBtnName; // 0x48
-		::RPG::Client::TextID MaxTip; // 0x58
-		::RPG::Client::TextID Name; // 0x68
-		::RPG::Client::TextID LongTailDesc; // 0x78
+		::RPG::Client::TextID SubmitBtnName; // 0x40
+		::RPG::Client::TextID Name; // 0x50
+		::RPG::Client::TextID MaxTip; // 0x60
+		::RPG::Client::TextID CostTitle; // 0x70
+		::System::UInt32 ID; // 0x80
 
 		::System::Void _ctor()
 		{

@@ -4,15 +4,15 @@
 
 namespace System { class String; }
 
-#define CLASS_2_60E87BC9A034C702_GET_MESSAGE_OFFSET UNITYSDK_OFFSET(0xBA57A00)
-#define CLASS_2_60E87BC9A034C702__CTOR_OFFSET UNITYSDK_OFFSET(0xBA57990)
+#define CLASS_2_60E87BC9A034C702_GET_MESSAGE_OFFSET UNITYSDK_OFFSET(0xC474C40)
+#define CLASS_2_60E87BC9A034C702__CTOR_OFFSET UNITYSDK_OFFSET(0xC474BD0)
 
-inline static constexpr unsigned int Class_2_60E87BC9A034C702_TypeDefinitionIndex = 47831;
+inline static constexpr unsigned int Class_2_60E87BC9A034C702_TypeDefinitionIndex = 50415;
 
 class Class_2_60E87BC9A034C702 : public ::System::Exception
 {
 public:
-	::System::Int32 Field_2_0; // 0x88
+	::System::Int32 EOONMIGPBEF; // 0x88
 
 	::System::Void _ctor(::System::Int32 a1, ::System::String* a2)
 	{

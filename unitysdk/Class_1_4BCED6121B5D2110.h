@@ -5,17 +5,17 @@
 namespace RPG::Client::Promises { class Promise; }
 namespace RPG::GameCore { class ChimeraBattleShowNPCTalkBubble; }
 
-#define CLASS_1_4BCED6121B5D2110_METHOD_1_8F9DF3D751E1E0BF_OFFSET UNITYSDK_OFFSET(0xB066320)
-#define CLASS_1_4BCED6121B5D2110_METHOD_1_D1305BC17A89C222_OFFSET UNITYSDK_OFFSET(0xB0661E0)
-#define CLASS_1_4BCED6121B5D2110__CTOR_OFFSET UNITYSDK_OFFSET(0xB0661A0)
+#define CLASS_1_4BCED6121B5D2110_METHOD_1_8F9DF3D751E1E0BF_OFFSET UNITYSDK_OFFSET(0xBAC0940)
+#define CLASS_1_4BCED6121B5D2110_METHOD_1_D1305BC17A89C222_OFFSET UNITYSDK_OFFSET(0xBAC0800)
+#define CLASS_1_4BCED6121B5D2110__CTOR_OFFSET UNITYSDK_OFFSET(0xBAC07C0)
 
-inline static constexpr unsigned int Class_1_4BCED6121B5D2110_TypeDefinitionIndex = 74453;
+inline static constexpr unsigned int Class_1_4BCED6121B5D2110_TypeDefinitionIndex = 77938;
 
 class Class_1_4BCED6121B5D2110 : public ::System::Object
 {
 public:
-	::RPG::Client::Promises::Promise* Field_1_0; // 0x10
-	::RPG::GameCore::ChimeraBattleShowNPCTalkBubble* Field_1_1; // 0x18
+	::RPG::Client::Promises::Promise* KKHPFDBFKHH; // 0x10
+	::RPG::GameCore::ChimeraBattleShowNPCTalkBubble* IGHAHBNLIJA; // 0x18
 
 	::System::Void _ctor(::RPG::GameCore::ChimeraBattleShowNPCTalkBubble* a1)
 	{

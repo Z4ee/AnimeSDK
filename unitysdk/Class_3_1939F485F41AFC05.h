@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class PropReplaceTVTexture; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_1939F485F41AFC05_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xAF9B1D0)
-#define CLASS_3_1939F485F41AFC05__CTOR_OFFSET UNITYSDK_OFFSET(0xAF9B1A0)
+#define CLASS_3_1939F485F41AFC05_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB94E0B0)
+#define CLASS_3_1939F485F41AFC05__CTOR_OFFSET UNITYSDK_OFFSET(0xB94E080)
 
-inline static constexpr unsigned int Class_3_1939F485F41AFC05_TypeDefinitionIndex = 50754;
+inline static constexpr unsigned int Class_3_1939F485F41AFC05_TypeDefinitionIndex = 53436;
 
 class Class_3_1939F485F41AFC05 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::PropReplaceTVTexture*>
 {

@@ -7,20 +7,20 @@ namespace RPG::Client { class RogueSiteData; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_73B9079F533003D4_METHOD_2_087E38163DAC2360_OFFSET UNITYSDK_OFFSET(0x1560D340)
-#define CLASS_2_73B9079F533003D4_METHOD_2_A7C4A6FA5DA2B20C_OFFSET UNITYSDK_OFFSET(0x1560CE50)
-#define CLASS_2_73B9079F533003D4_METHOD_2_F9B6DBA30D57FE77_OFFSET UNITYSDK_OFFSET(0x1560D9B0)
-#define CLASS_2_73B9079F533003D4_SETUPDATA_OFFSET UNITYSDK_OFFSET(0x1560C630)
-#define CLASS_2_73B9079F533003D4_TRYFINDNEXTPOINT_OFFSET UNITYSDK_OFFSET(0x1560D5F0)
-#define CLASS_2_73B9079F533003D4__CTOR_OFFSET UNITYSDK_OFFSET(0x1560DA70)
+#define CLASS_2_73B9079F533003D4_METHOD_2_087E38163DAC2360_OFFSET UNITYSDK_OFFSET(0xB6391D0)
+#define CLASS_2_73B9079F533003D4_METHOD_2_A7C4A6FA5DA2B20C_OFFSET UNITYSDK_OFFSET(0xB638CE0)
+#define CLASS_2_73B9079F533003D4_METHOD_2_F9B6DBA30D57FE77_OFFSET UNITYSDK_OFFSET(0xB639840)
+#define CLASS_2_73B9079F533003D4_SETUPDATA_OFFSET UNITYSDK_OFFSET(0xB6384C0)
+#define CLASS_2_73B9079F533003D4_TRYFINDNEXTPOINT_OFFSET UNITYSDK_OFFSET(0xB639480)
+#define CLASS_2_73B9079F533003D4__CTOR_OFFSET UNITYSDK_OFFSET(0xB639900)
 
-inline static constexpr unsigned int Class_2_73B9079F533003D4_TypeDefinitionIndex = 61316;
+inline static constexpr unsigned int Class_2_73B9079F533003D4_TypeDefinitionIndex = 64297;
 
 class Class_2_73B9079F533003D4 : public ::RPG::Client::FloorConnectivityData
 {
 public:
-	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::System::UInt32>*>* Field_2_0; // 0x40
-	::System::Collections::Generic::List_1<::RPG::Client::RogueSiteData*>* Field_2_1; // 0x48
+	::System::Collections::Generic::List_1<::RPG::Client::RogueSiteData*>* DPNAHECJMBC; // 0x40
+	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::System::UInt32>*>* EKACEGACALB; // 0x48
 
 	::System::Void _ctor()
 	{

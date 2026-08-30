@@ -22,13 +22,14 @@ namespace RPG::GameCore { class TriggerValidGuestConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_GAMECORE_PROPCONFIG_METHOD_2_0AB84CB3665AAE0E_OFFSET UNITYSDK_OFFSET(0x1B6DE570)
-#define RPG_GAMECORE_PROPCONFIG_METHOD_2_894B217F2342BC66_OFFSET UNITYSDK_OFFSET(0x1B6DE7F0)
-#define RPG_GAMECORE_PROPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6DF200)
+#define RPG_GAMECORE_PROPCONFIG_METHOD_2_894B217F2342BC66_OFFSET UNITYSDK_OFFSET(0x1D360850)
+#define RPG_GAMECORE_PROPCONFIG_METHOD_2_A39AC06517AEB503_OFFSET UNITYSDK_OFFSET(0x1D360580)
+#define RPG_GAMECORE_PROPCONFIG_METHOD_2_CE571A0AD6B45B00_OFFSET UNITYSDK_OFFSET(0x1D360560)
+#define RPG_GAMECORE_PROPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D361260)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropConfig_TypeDefinitionIndex = 14868;
+	inline static constexpr unsigned int PropConfig_TypeDefinitionIndex = 15304;
 
 	class PropConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -71,9 +72,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPCONFIG__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean Method_2_0AB84CB3665AAE0E()
+		static ::System::Boolean Method_2_CE571A0AD6B45B00(::RPG::GameCore::AnimGroupEventConfig* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPCONFIG_METHOD_2_0AB84CB3665AAE0E_OFFSET))(this);
+			return ((::System::Boolean(*)(::RPG::GameCore::AnimGroupEventConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPCONFIG_METHOD_2_CE571A0AD6B45B00_OFFSET))(a1);
+		}
+
+		::System::Boolean Method_2_A39AC06517AEB503()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPCONFIG_METHOD_2_A39AC06517AEB503_OFFSET))(this);
 		}
 
 		static ::System::Void Method_2_894B217F2342BC66(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropConfig*& a2)

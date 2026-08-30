@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/InControl/InputDeviceProfile.h"
 
-#define INCONTROL_NATIVEDEVICEPROFILES_DUALSENSEMFINATIVEPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x1997A0D0)
-#define INCONTROL_NATIVEDEVICEPROFILES_DUALSENSEMFINATIVEPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x1997B3B0)
+#define INCONTROL_NATIVEDEVICEPROFILES_DUALSENSEMFINATIVEPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x1B508ED0)
+#define INCONTROL_NATIVEDEVICEPROFILES_DUALSENSEMFINATIVEPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B50A1B0)
 
 namespace InControl::NativeDeviceProfiles
 {
-	inline static constexpr unsigned int DualSenseMFiNativeProfile_TypeDefinitionIndex = 39092;
+	inline static constexpr unsigned int DualSenseMFiNativeProfile_TypeDefinitionIndex = 39951;
 
 	class DualSenseMFiNativeProfile : public ::InControl::InputDeviceProfile
 	{

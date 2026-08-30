@@ -10,6 +10,7 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class FiveDimEditorLoadStageConfig; }
 namespace RPG::GameCore { class FiveDimExtraLevelGraphConfig; }
 namespace RPG::GameCore { class FiveDimLevelAudioConfig; }
+namespace RPG::GameCore { class FiveDimMusicJumpConfig; }
 namespace RPG::GameCore { class FiveDimTrainLevelConfig; }
 namespace RPG::GameCore { class FiveDimWaterReflectionLevelConfig; }
 namespace RPG::GameCore { class HoyoTagContainer; }
@@ -17,13 +18,13 @@ namespace RPG::GameCore { class MiniGameCollectCoinConfig; }
 namespace RPG::GameCore { class MiniGameFlappyBirdConfig; }
 namespace RPG::GameCore { class MiniGameHundredFloorConfig; }
 
-#define RPG_GAMECORE_FIVEDIMLEVELSETTINGS_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x1B435180)
-#define RPG_GAMECORE_FIVEDIMLEVELSETTINGS_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B435130)
-#define RPG_GAMECORE_FIVEDIMLEVELSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1B435170)
+#define RPG_GAMECORE_FIVEDIMLEVELSETTINGS_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x1D0EE730)
+#define RPG_GAMECORE_FIVEDIMLEVELSETTINGS_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D0EE6E0)
+#define RPG_GAMECORE_FIVEDIMLEVELSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0EE720)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimLevelSettings_TypeDefinitionIndex = 17784;
+	inline static constexpr unsigned int FiveDimLevelSettings_TypeDefinitionIndex = 18302;
 
 	class FiveDimLevelSettings : public ::RPG::GameCore::LittleGameLevelSettings
 	{
@@ -36,20 +37,22 @@ namespace RPG::GameCore
 		::System::Boolean LightFollowCameraDir; // 0x2A
 		::System::UInt32 AvatarID; // 0x2C
 		::RPG::GameCore::FiveDimLevelAudioConfig* LevelAudioConfig; // 0x30
-		::RPG::GameCore::FiveDimGameplayMode GameplayMode; // 0x38
-		::System::Single WaterLevel; // 0x3C
-		::RPG::GameCore::FiveDimWaterReflectionLevelConfig* WaterLevelConfig; // 0x40
-		::RPG::GameCore::MiniGameCollectCoinConfig* CollectCoinConfig; // 0x48
-		::RPG::GameCore::MiniGameFlappyBirdConfig* FlappyBirdConfig; // 0x50
-		::RPG::GameCore::FiveDimEditorLoadStageConfig* EditorLoadStageConfig; // 0x58
-		::RPG::GameCore::FiveDimTrainLevelConfig* TrainConfig; // 0x60
-		::RPG::GameCore::MiniGameHundredFloorConfig* HundredFloorConfig; // 0x68
-		::RPG::GameCore::FiveDimDifficulty Difficulty; // 0x70
-		::RPG::Client::TextID SimpleGameLevelTips; // 0x78
-		::RPG::Client::TextID SimepleGameLevelDesc; // 0x88
-		::System::Boolean CameraCullingOptimization; // 0x98
-		::System::Boolean EnableEffectSimulateInSurface; // 0x99
-		::RPG::GameCore::FiveDimCustomScreenTransferStyle LoadingViewStyle; // 0x9C
+		::RPG::GameCore::FiveDimMusicJumpConfig* MusicJumpConfig; // 0x38
+		::RPG::GameCore::FiveDimGameplayMode GameplayMode; // 0x40
+		::System::Single WaterLevel; // 0x44
+		::RPG::GameCore::FiveDimWaterReflectionLevelConfig* WaterLevelConfig; // 0x48
+		::RPG::GameCore::MiniGameCollectCoinConfig* CollectCoinConfig; // 0x50
+		::RPG::GameCore::MiniGameFlappyBirdConfig* FlappyBirdConfig; // 0x58
+		::RPG::GameCore::FiveDimEditorLoadStageConfig* EditorLoadStageConfig; // 0x60
+		::RPG::GameCore::FiveDimTrainLevelConfig* TrainConfig; // 0x68
+		::RPG::GameCore::MiniGameHundredFloorConfig* HundredFloorConfig; // 0x70
+		::RPG::GameCore::FiveDimDifficulty Difficulty; // 0x78
+		::RPG::Client::TextID SimpleGameLevelTips; // 0x80
+		::RPG::Client::TextID SimepleGameLevelDesc; // 0x90
+		::System::Boolean CameraCullingOptimization; // 0xA0
+		::System::Boolean EnableEffectSimulateInSurface; // 0xA1
+		::System::Boolean UnlimitedJumpEnergy; // 0xA2
+		::RPG::GameCore::FiveDimCustomScreenTransferStyle LoadingViewStyle; // 0xA4
 
 		::System::Void _ctor()
 		{

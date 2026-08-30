@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_CHARACTERSTORYMOVE_STORYMOVESEQUENCECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xDCAFE20)
+#define RPGTOOLS_TIMELINE_CHARACTERSTORYMOVE_STORYMOVESEQUENCECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xE830620)
 
 namespace RPGTools::Timeline::CharacterStoryMove
 {
-	inline static constexpr unsigned int StoryMoveSequenceClip_TypeDefinitionIndex = 46922;
+	inline static constexpr unsigned int StoryMoveSequenceClip_TypeDefinitionIndex = 49168;
 
 	class StoryMoveSequenceClip : public ::System::Object
 	{

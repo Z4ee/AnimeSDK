@@ -1,0 +1,78 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMGAMEPADDASHHELPER_CALCGAMEPADDASHDIRECTION_OFFSET UNITYSDK_OFFSET(0xD4E34C0)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMGAMEPADDASHHELPER_GET_DASHANGLE_OFFSET UNITYSDK_OFFSET(0xD4E3460)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMGAMEPADDASHHELPER_GET_DIRECTIONX_OFFSET UNITYSDK_OFFSET(0xD4E3480)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMGAMEPADDASHHELPER_GET_DIRECTIONY_OFFSET UNITYSDK_OFFSET(0xD4E34A0)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMGAMEPADDASHHELPER_GET_HASINPUT_OFFSET UNITYSDK_OFFSET(0xD4E3440)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMGAMEPADDASHHELPER_SET_DASHANGLE_OFFSET UNITYSDK_OFFSET(0xD4E3470)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMGAMEPADDASHHELPER_SET_DIRECTIONX_OFFSET UNITYSDK_OFFSET(0xD4E3490)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMGAMEPADDASHHELPER_SET_DIRECTIONY_OFFSET UNITYSDK_OFFSET(0xD4E34B0)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMGAMEPADDASHHELPER_SET_HASINPUT_OFFSET UNITYSDK_OFFSET(0xD4E3450)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMGAMEPADDASHHELPER__CTOR_OFFSET UNITYSDK_OFFSET(0xD4E3860)
+
+namespace RPG::Client::LittleGame::FiveDim
+{
+	inline static constexpr unsigned int FiveDimGamepadDashHelper_TypeDefinitionIndex = 76738;
+
+	class FiveDimGamepadDashHelper : public ::System::Object
+	{
+	public:
+		::System::Single _DashAngle_k__BackingField; // 0x10
+		::System::Boolean _HasInput_k__BackingField; // 0x14
+		::System::Single _DirectionX_k__BackingField; // 0x18
+		::System::Single _DirectionY_k__BackingField; // 0x1C
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMGAMEPADDASHHELPER__CTOR_OFFSET))(this);
+		}
+
+		::System::Boolean get_HasInput()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMGAMEPADDASHHELPER_GET_HASINPUT_OFFSET))(this);
+		}
+
+		::System::Void set_HasInput(::System::Boolean a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMGAMEPADDASHHELPER_SET_HASINPUT_OFFSET))(this, a1);
+		}
+
+		::System::Single get_DashAngle()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMGAMEPADDASHHELPER_GET_DASHANGLE_OFFSET))(this);
+		}
+
+		::System::Void set_DashAngle(::System::Single a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMGAMEPADDASHHELPER_SET_DASHANGLE_OFFSET))(this, a1);
+		}
+
+		::System::Single get_DirectionX()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMGAMEPADDASHHELPER_GET_DIRECTIONX_OFFSET))(this);
+		}
+
+		::System::Void set_DirectionX(::System::Single a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMGAMEPADDASHHELPER_SET_DIRECTIONX_OFFSET))(this, a1);
+		}
+
+		::System::Single get_DirectionY()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMGAMEPADDASHHELPER_GET_DIRECTIONY_OFFSET))(this);
+		}
+
+		::System::Void set_DirectionY(::System::Single a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMGAMEPADDASHHELPER_SET_DIRECTIONY_OFFSET))(this, a1);
+		}
+
+		::System::Void CalcGamepadDashDirection(::System::Single a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMGAMEPADDASHHELPER_CALCGAMEPADDASHDIRECTION_OFFSET))(this, a1);
+		}
+	};
+}

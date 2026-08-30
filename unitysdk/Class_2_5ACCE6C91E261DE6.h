@@ -7,23 +7,23 @@ class Class_3_1E4F9B0ED3BF21DE;
 namespace RPG { template <typename T> class PoolHashSet_1; }
 namespace UnityEngine { class Collider; }
 
-#define CLASS_2_5ACCE6C91E261DE6_CLEAR_OFFSET UNITYSDK_OFFSET(0x1A8A5DF0)
-#define CLASS_2_5ACCE6C91E261DE6_METHOD_2_8660C3A27B56FE60_OFFSET UNITYSDK_OFFSET(0x1A8A5EB0)
-#define CLASS_2_5ACCE6C91E261DE6_ONALLOC_OFFSET UNITYSDK_OFFSET(0x1A8A5CD0)
-#define CLASS_2_5ACCE6C91E261DE6__CTOR_OFFSET UNITYSDK_OFFSET(0x1A8A6260)
+#define CLASS_2_5ACCE6C91E261DE6_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C4D7150)
+#define CLASS_2_5ACCE6C91E261DE6_METHOD_2_8660C3A27B56FE60_OFFSET UNITYSDK_OFFSET(0x1C4D7240)
+#define CLASS_2_5ACCE6C91E261DE6_ONALLOC_OFFSET UNITYSDK_OFFSET(0x1C4D7030)
+#define CLASS_2_5ACCE6C91E261DE6__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4D75F0)
 
-inline static constexpr unsigned int Class_2_5ACCE6C91E261DE6_TypeDefinitionIndex = 40932;
+inline static constexpr unsigned int Class_2_5ACCE6C91E261DE6_TypeDefinitionIndex = 41891;
 
 class Class_2_5ACCE6C91E261DE6 : public ::Class_1_0A3B9FD0FE703FDC
 {
 public:
-	::RPG::PoolHashSet_1<::System::Int32>* Field_2_0; // 0x338
-	::RPG::PoolHashSet_1<::UnityEngine::Collider*>* Field_2_1; // 0x340
-	::System::Boolean Field_2_2; // 0x348
-	::System::Boolean Field_2_3; // 0x349
-	::System::Single Field_2_4; // 0x34C
-	::System::Single Field_2_5; // 0x350
-	::UnityEngine::Vector3 Field_2_6; // 0x354
+	::RPG::PoolHashSet_1<::System::Int32>* NCIHCMEFKMP; // 0x338
+	::RPG::PoolHashSet_1<::UnityEngine::Collider*>* NILFBBGIHGI; // 0x340
+	::System::Single GPGIEFKLNKA; // 0x348
+	::UnityEngine::Vector3 KEJAHHOADEC; // 0x34C
+	::System::Boolean FKDDHNAOOHJ; // 0x358
+	::System::Boolean OCPOPEDLBBI; // 0x359
+	::System::Single MFALMACPJPJ; // 0x35C
 
 	::System::Void _ctor()
 	{

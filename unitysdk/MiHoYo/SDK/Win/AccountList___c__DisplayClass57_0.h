@@ -5,18 +5,18 @@
 namespace MiHoYo::SDK::Win { class AccountList; }
 namespace UnityEngine { class GameObject; }
 
-#define MIHOYO_SDK_WIN_ACCOUNTLIST___C__DISPLAYCLASS57_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19E5A450)
-#define MIHOYO_SDK_WIN_ACCOUNTLIST___C__DISPLAYCLASS57_0__DELETEACCOUNT_B__0_OFFSET UNITYSDK_OFFSET(0x19E5A770)
+#define MIHOYO_SDK_WIN_ACCOUNTLIST___C__DISPLAYCLASS57_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7DBB10)
+#define MIHOYO_SDK_WIN_ACCOUNTLIST___C__DISPLAYCLASS57_0__DELETEACCOUNT_B__0_OFFSET UNITYSDK_OFFSET(0x1B7DBE90)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int AccountList___c__DisplayClass57_0_TypeDefinitionIndex = 8964;
+	inline static constexpr unsigned int AccountList___c__DisplayClass57_0_TypeDefinitionIndex = 9234;
 
 	class AccountList___c__DisplayClass57_0 : public ::System::Object
 	{
 	public:
-		::MiHoYo::SDK::Win::AccountList* __4__this; // 0x10
-		::UnityEngine::GameObject* gameObject; // 0x18
+		::UnityEngine::GameObject* gameObject; // 0x10
+		::MiHoYo::SDK::Win::AccountList* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

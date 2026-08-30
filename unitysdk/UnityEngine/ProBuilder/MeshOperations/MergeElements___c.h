@@ -6,24 +6,24 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace UnityEngine::ProBuilder { class Face; }
 
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MERGEELEMENTS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CE62AC0)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MERGEELEMENTS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE62B00)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MERGEELEMENTS___C__MERGE_B__1_0_OFFSET UNITYSDK_OFFSET(0x1CE62B10)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MERGEELEMENTS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EB6A970)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MERGEELEMENTS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1EB6A9B0)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MERGEELEMENTS___C__MERGE_B__1_0_OFFSET UNITYSDK_OFFSET(0x1EB6A9C0)
 
 namespace UnityEngine::ProBuilder::MeshOperations
 {
-	inline static constexpr unsigned int MergeElements___c_TypeDefinitionIndex = 41699;
+	inline static constexpr unsigned int MergeElements___c_TypeDefinitionIndex = 43310;
 
 	class MergeElements___c : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::ProBuilder::MeshOperations::MergeElements___c** StaticGet___9()
-		{
-			return (::UnityEngine::ProBuilder::MeshOperations::MergeElements___c**)Il2CppClass::FromTypeDefinitionIndex(MergeElements___c_TypeDefinitionIndex)->GetStaticField(0x4F550);
-		}
 		static ::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::IEnumerable_1<::System::Int32>*>** StaticGet___9__1_0()
 		{
-			return (::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::IEnumerable_1<::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(MergeElements___c_TypeDefinitionIndex)->GetStaticField(0x4F558);
+			return (::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::IEnumerable_1<::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(MergeElements___c_TypeDefinitionIndex)->GetStaticField(0x5E1E0);
+		}
+		static ::UnityEngine::ProBuilder::MeshOperations::MergeElements___c** StaticGet___9()
+		{
+			return (::UnityEngine::ProBuilder::MeshOperations::MergeElements___c**)Il2CppClass::FromTypeDefinitionIndex(MergeElements___c_TypeDefinitionIndex)->GetStaticField(0x5E1E8);
 		}
 
 		static ::System::Void _cctor()

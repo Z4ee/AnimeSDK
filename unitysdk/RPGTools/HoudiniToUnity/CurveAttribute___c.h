@@ -7,29 +7,29 @@ namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPGTOOLS_HOUDINITOUNITY_CURVEATTRIBUTE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xABA2490)
-#define RPGTOOLS_HOUDINITOUNITY_CURVEATTRIBUTE___C__CTOR_OFFSET UNITYSDK_OFFSET(0xABA24D0)
-#define RPGTOOLS_HOUDINITOUNITY_CURVEATTRIBUTE___C__ONAFTERDESERIALIZE_B__28_0_OFFSET UNITYSDK_OFFSET(0xABA2540)
-#define RPGTOOLS_HOUDINITOUNITY_CURVEATTRIBUTE___C__SORTSPLITPOINTS_B__23_0_OFFSET UNITYSDK_OFFSET(0xABA24E0)
+#define RPGTOOLS_HOUDINITOUNITY_CURVEATTRIBUTE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xB2E6950)
+#define RPGTOOLS_HOUDINITOUNITY_CURVEATTRIBUTE___C__CTOR_OFFSET UNITYSDK_OFFSET(0xB2E6990)
+#define RPGTOOLS_HOUDINITOUNITY_CURVEATTRIBUTE___C__ONAFTERDESERIALIZE_B__28_0_OFFSET UNITYSDK_OFFSET(0xB2E6A00)
+#define RPGTOOLS_HOUDINITOUNITY_CURVEATTRIBUTE___C__SORTSPLITPOINTS_B__23_0_OFFSET UNITYSDK_OFFSET(0xB2E69A0)
 
 namespace RPGTools::HoudiniToUnity
 {
-	inline static constexpr unsigned int CurveAttribute___c_TypeDefinitionIndex = 45158;
+	inline static constexpr unsigned int CurveAttribute___c_TypeDefinitionIndex = 47394;
 
 	class CurveAttribute___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::System::Single, ::System::String*>** StaticGet___9__28_0()
 		{
-			return (::System::Func_2<::System::Single, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(CurveAttribute___c_TypeDefinitionIndex)->GetStaticField(0x20CE0);
+			return (::System::Func_2<::System::Single, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(CurveAttribute___c_TypeDefinitionIndex)->GetStaticField(0x5E050);
 		}
 		static ::RPGTools::HoudiniToUnity::CurveAttribute___c** StaticGet___9()
 		{
-			return (::RPGTools::HoudiniToUnity::CurveAttribute___c**)Il2CppClass::FromTypeDefinitionIndex(CurveAttribute___c_TypeDefinitionIndex)->GetStaticField(0x20CE8);
+			return (::RPGTools::HoudiniToUnity::CurveAttribute___c**)Il2CppClass::FromTypeDefinitionIndex(CurveAttribute___c_TypeDefinitionIndex)->GetStaticField(0x5E058);
 		}
 		static ::System::Comparison_1<::System::ValueTuple_2<::System::Single, ::System::String*>>** StaticGet___9__23_0()
 		{
-			return (::System::Comparison_1<::System::ValueTuple_2<::System::Single, ::System::String*>>**)Il2CppClass::FromTypeDefinitionIndex(CurveAttribute___c_TypeDefinitionIndex)->GetStaticField(0x20CF0);
+			return (::System::Comparison_1<::System::ValueTuple_2<::System::Single, ::System::String*>>**)Il2CppClass::FromTypeDefinitionIndex(CurveAttribute___c_TypeDefinitionIndex)->GetStaticField(0x5E060);
 		}
 
 		static ::System::Void _cctor()

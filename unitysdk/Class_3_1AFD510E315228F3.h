@@ -10,32 +10,32 @@ namespace UnityEngine { class Animation; }
 namespace UnityEngine { class AnimationClip; }
 namespace UnityEngine { class Camera; }
 
-#define CLASS_3_1AFD510E315228F3_METHOD_3_151E25A63D14DDB0_OFFSET UNITYSDK_OFFSET(0x14C52310)
-#define CLASS_3_1AFD510E315228F3_METHOD_3_CD332CB50EA0A277_OFFSET UNITYSDK_OFFSET(0x14C51930)
-#define CLASS_3_1AFD510E315228F3_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x14C51DB0)
-#define CLASS_3_1AFD510E315228F3_ONGRAPHSTOP_OFFSET UNITYSDK_OFFSET(0x14C52280)
-#define CLASS_3_1AFD510E315228F3_ONPLAYABLEDESTROY_OFFSET UNITYSDK_OFFSET(0x14C52090)
-#define CLASS_3_1AFD510E315228F3_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x14C51880)
-#define CLASS_3_1AFD510E315228F3__CTOR_OFFSET UNITYSDK_OFFSET(0x14C523C0)
+#define CLASS_3_1AFD510E315228F3_METHOD_3_151E25A63D14DDB0_OFFSET UNITYSDK_OFFSET(0x15B0FA70)
+#define CLASS_3_1AFD510E315228F3_METHOD_3_CD332CB50EA0A277_OFFSET UNITYSDK_OFFSET(0x15B0F090)
+#define CLASS_3_1AFD510E315228F3_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x15B0F510)
+#define CLASS_3_1AFD510E315228F3_ONGRAPHSTOP_OFFSET UNITYSDK_OFFSET(0x15B0F9E0)
+#define CLASS_3_1AFD510E315228F3_ONPLAYABLEDESTROY_OFFSET UNITYSDK_OFFSET(0x15B0F7F0)
+#define CLASS_3_1AFD510E315228F3_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x15B0EFE0)
+#define CLASS_3_1AFD510E315228F3__CTOR_OFFSET UNITYSDK_OFFSET(0x15B0FB20)
 
-inline static constexpr unsigned int Class_3_1AFD510E315228F3_TypeDefinitionIndex = 46654;
+inline static constexpr unsigned int Class_3_1AFD510E315228F3_TypeDefinitionIndex = 48899;
 
 class Class_3_1AFD510E315228F3 : public ::RPGTools::Timeline::RecoverablePlayableBehaviour
 {
 public:
-	// static const ::System::Single Field_3_0; // 0x0
-	// static const ::System::Single Field_3_1; // 0x0
-	::UnityEngine::Camera* Field_3_2; // 0x18
-	::UnityEngine::AnimationClip* Field_3_3; // 0x20
-	::RPGTools::Timeline::CameraData* Field_3_4; // 0x28
-	::UnityEngine::Animation* Field_3_5; // 0x30
-	::System::Single Field_3_6; // 0x38
-	::System::Double Field_3_7; // 0x40
-	::System::Boolean Field_3_8; // 0x48
-	::System::Single Field_3_9; // 0x4C
-	::System::Double Field_3_10; // 0x50
-	::System::Single Field_3_11; // 0x58
-	::System::Single Field_3_12; // 0x5C
+	// static const ::System::Single PNIJINJNLOI; // 0x0
+	// static const ::System::Single ABJLMHCJJPF; // 0x0
+	::UnityEngine::AnimationClip* EHAGPHLMPEJ; // 0x18
+	::UnityEngine::Animation* KECNBLFGCAL; // 0x20
+	::UnityEngine::Camera* FGAEINFODPA; // 0x28
+	::RPGTools::Timeline::CameraData* IJDAJGKLAKH; // 0x30
+	::System::Boolean DACMFGDHIMN; // 0x38
+	::System::Single IPOMOEDEBGI; // 0x3C
+	::System::Single MFIKOOOBMFL; // 0x40
+	::System::Single IGHOFMLBICF; // 0x44
+	::System::Double LLICGDGPMJL; // 0x48
+	::System::Single PFECIOFGLKM; // 0x50
+	::System::Double EPOLJCOBFFC; // 0x58
 
 	::System::Void _ctor()
 	{

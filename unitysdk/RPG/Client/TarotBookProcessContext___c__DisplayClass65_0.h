@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class TarotBookStory; }
 
-#define RPG_CLIENT_TAROTBOOKPROCESSCONTEXT___C__DISPLAYCLASS65_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD62D440)
-#define RPG_CLIENT_TAROTBOOKPROCESSCONTEXT___C__DISPLAYCLASS65_0__GETPOOLSTORYCOUNTOFCHARACTER_B__0_OFFSET UNITYSDK_OFFSET(0xD62EA40)
+#define RPG_CLIENT_TAROTBOOKPROCESSCONTEXT___C__DISPLAYCLASS65_0__CTOR_OFFSET UNITYSDK_OFFSET(0xE17CDF0)
+#define RPG_CLIENT_TAROTBOOKPROCESSCONTEXT___C__DISPLAYCLASS65_0__GETPOOLSTORYCOUNTOFCHARACTER_B__0_OFFSET UNITYSDK_OFFSET(0xE17E480)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TarotBookProcessContext___c__DisplayClass65_0_TypeDefinitionIndex = 65058;
+	inline static constexpr unsigned int TarotBookProcessContext___c__DisplayClass65_0_TypeDefinitionIndex = 68066;
 
 	class TarotBookProcessContext___c__DisplayClass65_0 : public ::System::Object
 	{

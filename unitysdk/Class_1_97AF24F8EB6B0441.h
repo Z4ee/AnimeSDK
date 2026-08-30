@@ -6,18 +6,18 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define CLASS_1_97AF24F8EB6B0441__CTOR_OFFSET UNITYSDK_OFFSET(0x1A95A0E0)
+#define CLASS_1_97AF24F8EB6B0441__CTOR_OFFSET UNITYSDK_OFFSET(0x1C598200)
 
-inline static constexpr unsigned int Class_1_97AF24F8EB6B0441_TypeDefinitionIndex = 39614;
+inline static constexpr unsigned int Class_1_97AF24F8EB6B0441_TypeDefinitionIndex = 40487;
 
 class Class_1_97AF24F8EB6B0441 : public ::System::Object
 {
 public:
-	::UnityEngine::Vector3 Field_1_0; // 0x10
-	::RPG::GameCore::LittleGameEntityType Field_1_1; // 0x1C
-	::RPG::Client::LittleGame::SmartObjectState Field_1_2; // 0x20
-	::RPG::GameCore::LittleGameSmartObjectSlotGroup Field_1_3; // 0x24
-	::UnityEngine::Vector3 Field_1_4; // 0x28
+	::RPG::GameCore::LittleGameEntityType FJMDDKCCPMM; // 0x10
+	::RPG::GameCore::LittleGameSmartObjectSlotGroup DBALOLNOLGL; // 0x14
+	::UnityEngine::Vector3 BBFOLEOPPPL; // 0x18
+	::RPG::Client::LittleGame::SmartObjectState MEPFOEEGBEA; // 0x24
+	::UnityEngine::Vector3 NMELCPIOKNO; // 0x28
 
 	::System::Void _ctor()
 	{

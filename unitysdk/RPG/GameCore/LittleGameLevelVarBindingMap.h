@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class LittleGameLevelVarBinding; }
 
-#define RPG_GAMECORE_LITTLEGAMELEVELVARBINDINGMAP_METHOD_2_37B472C4731F0FFD_OFFSET UNITYSDK_OFFSET(0x1B588690)
-#define RPG_GAMECORE_LITTLEGAMELEVELVARBINDINGMAP__CTOR_OFFSET UNITYSDK_OFFSET(0x1B588750)
+#define RPG_GAMECORE_LITTLEGAMELEVELVARBINDINGMAP_METHOD_2_37B472C4731F0FFD_OFFSET UNITYSDK_OFFSET(0x1D203B10)
+#define RPG_GAMECORE_LITTLEGAMELEVELVARBINDINGMAP__CTOR_OFFSET UNITYSDK_OFFSET(0x1D203BD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LittleGameLevelVarBindingMap_TypeDefinitionIndex = 18149;
+	inline static constexpr unsigned int LittleGameLevelVarBindingMap_TypeDefinitionIndex = 18673;
 
 	class LittleGameLevelVarBindingMap : public ::RPG::GameCore::JsonConfig
 	{

@@ -5,15 +5,15 @@
 class Class_1_EFDEDB2BC2764B7D;
 namespace RPG::GameCore { class MarbleByImmuneAttackBack; }
 
-#define CLASS_3_B76C6ADD8A83B6DB_METHOD_3_A3FAE12D7B6ACD62_OFFSET UNITYSDK_OFFSET(0x1A872B90)
-#define CLASS_3_B76C6ADD8A83B6DB__CTOR_OFFSET UNITYSDK_OFFSET(0x1A872B70)
+#define CLASS_3_B76C6ADD8A83B6DB_METHOD_3_A3FAE12D7B6ACD62_OFFSET UNITYSDK_OFFSET(0x1C4A3EE0)
+#define CLASS_3_B76C6ADD8A83B6DB__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4A3EC0)
 
-inline static constexpr unsigned int Class_3_B76C6ADD8A83B6DB_TypeDefinitionIndex = 40582;
+inline static constexpr unsigned int Class_3_B76C6ADD8A83B6DB_TypeDefinitionIndex = 41520;
 
 class Class_3_B76C6ADD8A83B6DB : public ::Class_2_A047D65884258648
 {
 public:
-	::RPG::GameCore::MarbleByImmuneAttackBack* Field_3_0; // 0x30
+	::RPG::GameCore::MarbleByImmuneAttackBack* IGHAHBNLIJA; // 0x30
 
 	::System::Void _ctor(::RPG::GameCore::MarbleByImmuneAttackBack* a1, ::Class_1_EFDEDB2BC2764B7D* a2)
 	{

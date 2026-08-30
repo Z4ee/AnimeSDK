@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/TextID.h"
 
-namespace RPG::AvatarSystem { class IAvatar; }
-namespace RPG::Client { class GridFightRole; }
+namespace System { class String; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_824_TypeDefinitionIndex = 62262;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_824_TypeDefinitionIndex = 63497;
 
 class Class_0_16E4307DCC419505_824
 {

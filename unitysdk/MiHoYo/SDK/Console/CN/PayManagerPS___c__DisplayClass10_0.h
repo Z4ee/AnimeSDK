@@ -7,19 +7,19 @@ namespace MiHoYo::SDK { class ConsoleDelegate_ProductsCallback; }
 namespace MiHoYo::SDK::Console::CN { class PayManagerPS; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_CONSOLE_CN_PAYMANAGERPS___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19BE6530)
-#define MIHOYO_SDK_CONSOLE_CN_PAYMANAGERPS___C__DISPLAYCLASS10_0__TRYGETPRODUCTS_B__0_OFFSET UNITYSDK_OFFSET(0x19BE9E40)
-#define MIHOYO_SDK_CONSOLE_CN_PAYMANAGERPS___C__DISPLAYCLASS10_0__TRYGETPRODUCTS_B__1_OFFSET UNITYSDK_OFFSET(0x19BEA0E0)
+#define MIHOYO_SDK_CONSOLE_CN_PAYMANAGERPS___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B776750)
+#define MIHOYO_SDK_CONSOLE_CN_PAYMANAGERPS___C__DISPLAYCLASS10_0__TRYGETPRODUCTS_B__0_OFFSET UNITYSDK_OFFSET(0x1B77A060)
+#define MIHOYO_SDK_CONSOLE_CN_PAYMANAGERPS___C__DISPLAYCLASS10_0__TRYGETPRODUCTS_B__1_OFFSET UNITYSDK_OFFSET(0x1B77A300)
 
 namespace MiHoYo::SDK::Console::CN
 {
-	inline static constexpr unsigned int PayManagerPS___c__DisplayClass10_0_TypeDefinitionIndex = 8792;
+	inline static constexpr unsigned int PayManagerPS___c__DisplayClass10_0_TypeDefinitionIndex = 9062;
 
 	class PayManagerPS___c__DisplayClass10_0 : public ::System::Object
 	{
 	public:
-		::MiHoYo::SDK::Console::CN::PayManagerPS* __4__this; // 0x10
-		::Il2CppArray<::System::String*>* productLabels; // 0x18
+		::Il2CppArray<::System::String*>* productLabels; // 0x10
+		::MiHoYo::SDK::Console::CN::PayManagerPS* __4__this; // 0x18
 		::MiHoYo::SDK::ConsoleDelegate_ProductsCallback* __9__1; // 0x20
 
 		::System::Void _ctor()

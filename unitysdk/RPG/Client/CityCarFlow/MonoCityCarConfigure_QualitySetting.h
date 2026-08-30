@@ -4,7 +4,7 @@
 
 namespace RPG::Client::CityCarFlow
 {
-	inline static constexpr unsigned int MonoCityCarConfigure_QualitySetting_TypeDefinitionIndex = 76802;
+	inline static constexpr unsigned int MonoCityCarConfigure_QualitySetting_TypeDefinitionIndex = 80842;
 
 	struct alignas(4) MonoCityCarConfigure_QualitySetting
 	{

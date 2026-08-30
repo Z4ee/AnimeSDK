@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ChangeBattleEventOwner; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_DDF7BB8821D05F5E_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xD878870)
-#define CLASS_3_DDF7BB8821D05F5E__CTOR_OFFSET UNITYSDK_OFFSET(0xD878840)
+#define CLASS_3_DDF7BB8821D05F5E_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE5CC390)
+#define CLASS_3_DDF7BB8821D05F5E__CTOR_OFFSET UNITYSDK_OFFSET(0xE5CC360)
 
-inline static constexpr unsigned int Class_3_DDF7BB8821D05F5E_TypeDefinitionIndex = 55419;
+inline static constexpr unsigned int Class_3_DDF7BB8821D05F5E_TypeDefinitionIndex = 58150;
 
 class Class_3_DDF7BB8821D05F5E : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ChangeBattleEventOwner*>
 {

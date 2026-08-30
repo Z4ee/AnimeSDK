@@ -5,15 +5,16 @@
 #include "unitysdk/RPG/Client/PedestrianMemberExternalConfig_BatchAnimation_SpecialAnim.h"
 #include "unitysdk/RVO/EAsyncNavMeshAgentPriority.h"
 
+namespace RPG::Client { class BatchAnimationGraphMaskLayerConfig; }
 namespace System { class String; }
 namespace UnityEngine { class ScriptableObject; }
 
-#define RPG_CLIENT_PEDESTRIANMEMBEREXTERNALCONFIG_BATCHANIMATION_GET_SPECIALTAG_OFFSET UNITYSDK_OFFSET(0xCF4CBA0)
-#define RPG_CLIENT_PEDESTRIANMEMBEREXTERNALCONFIG_BATCHANIMATION__CTOR_OFFSET UNITYSDK_OFFSET(0xCF4CBB0)
+#define RPG_CLIENT_PEDESTRIANMEMBEREXTERNALCONFIG_BATCHANIMATION_GET_SPECIALTAG_OFFSET UNITYSDK_OFFSET(0xDA4A590)
+#define RPG_CLIENT_PEDESTRIANMEMBEREXTERNALCONFIG_BATCHANIMATION__CTOR_OFFSET UNITYSDK_OFFSET(0xDA4A5A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PedestrianMemberExternalConfig_BatchAnimation_TypeDefinitionIndex = 66172;
+	inline static constexpr unsigned int PedestrianMemberExternalConfig_BatchAnimation_TypeDefinitionIndex = 69213;
 
 	class PedestrianMemberExternalConfig_BatchAnimation : public ::RPG::Client::IPedestrianMemberExternalConfig
 	{
@@ -26,9 +27,11 @@ namespace RPG::Client
 		::System::Single ColliderRadius; // 0x2C
 		::System::Single ModelScale; // 0x30
 		::Il2CppArray<::RPG::Client::PedestrianMemberExternalConfig_BatchAnimation_SpecialAnim>* SpecialAnims; // 0x38
-		::UnityEngine::ScriptableObject* VariantCollection; // 0x40
-		::System::Boolean UseDynamicWorldUp; // 0x48
-		::RVO::EAsyncNavMeshAgentPriority NavMeshPriority; // 0x4C
+		::RPG::Client::BatchAnimationGraphMaskLayerConfig* MaskLayerConfig; // 0x40
+		::UnityEngine::ScriptableObject* VariantCollection; // 0x48
+		::System::Boolean UseDynamicWorldUp; // 0x50
+		::System::Boolean ForbidDitherWithPlayer; // 0x51
+		::RVO::EAsyncNavMeshAgentPriority NavMeshPriority; // 0x54
 
 		::System::Void _ctor()
 		{

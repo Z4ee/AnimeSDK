@@ -17,44 +17,44 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_22B8FDC4E33ACC56_METHOD_1_2372762F4122DEB8_OFFSET UNITYSDK_OFFSET(0x14958D60)
-#define CLASS_1_22B8FDC4E33ACC56_METHOD_1_3FDF11107F41111E_OFFSET UNITYSDK_OFFSET(0x14958DD0)
-#define CLASS_1_22B8FDC4E33ACC56_METHOD_1_A85C48C9FFC0CF55_OFFSET UNITYSDK_OFFSET(0x14958760)
-#define CLASS_1_22B8FDC4E33ACC56_METHOD_1_DCEFF804A18F7728_OFFSET UNITYSDK_OFFSET(0x14958AD0)
-#define CLASS_1_22B8FDC4E33ACC56_METHOD_1_FCEBEAD2390B94D2_OFFSET UNITYSDK_OFFSET(0x149589A0)
-#define CLASS_1_22B8FDC4E33ACC56__CTOR_OFFSET UNITYSDK_OFFSET(0x14959B20)
+#define CLASS_1_22B8FDC4E33ACC56_METHOD_1_2372762F4122DEB8_OFFSET UNITYSDK_OFFSET(0x157E1840)
+#define CLASS_1_22B8FDC4E33ACC56_METHOD_1_546CAA3EBBF2E065_OFFSET UNITYSDK_OFFSET(0x157E18B0)
+#define CLASS_1_22B8FDC4E33ACC56_METHOD_1_A85C48C9FFC0CF55_OFFSET UNITYSDK_OFFSET(0x157E1240)
+#define CLASS_1_22B8FDC4E33ACC56_METHOD_1_DCEFF804A18F7728_OFFSET UNITYSDK_OFFSET(0x157E15B0)
+#define CLASS_1_22B8FDC4E33ACC56_METHOD_1_FCEBEAD2390B94D2_OFFSET UNITYSDK_OFFSET(0x157E1480)
+#define CLASS_1_22B8FDC4E33ACC56__CTOR_OFFSET UNITYSDK_OFFSET(0x157E2610)
 
-inline static constexpr unsigned int Class_1_22B8FDC4E33ACC56_TypeDefinitionIndex = 53760;
+inline static constexpr unsigned int Class_1_22B8FDC4E33ACC56_TypeDefinitionIndex = 56480;
 
 class Class_1_22B8FDC4E33ACC56 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::RPG::GameCore::BattleGridFightTeamTraitData*>* Field_1_0; // 0x10
-	::System::Collections::Generic::List_1<::Class_1_9015B34004B876E5*>* Field_1_1; // 0x18
-	::System::Collections::Generic::List_1<::RPG::GameCore::BattleGridFightAvatarData*>* Field_1_2; // 0x20
-	::System::Collections::Generic::List_1<::Class_1_D17272E82AE804C2_29*>* Field_1_3; // 0x28
-	::System::Collections::Generic::List_1<::RPG::GameCore::BattleGridFightTeamTraitData*>* Field_1_4; // 0x30
-	::Class_1_2AEC7C4C0F203579* Field_1_5; // 0x38
-	::Class_1_12ABE890CAA92AB9* Field_1_6; // 0x40
-	::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::FixPoint>* Field_1_7; // 0x48
-	::System::Collections::Generic::List_1<::Class_1_9015B34004B876E5_1*>* Field_1_8; // 0x50
-	::System::Collections::Generic::List_1<::Class_1_AE4553DBAC72BB2D*>* Field_1_9; // 0x58
-	::System::Collections::Generic::List_1<::RPG::GameCore::LineUpCharacter*>* Field_1_10; // 0x60
-	::System::Collections::Generic::List_1<::RPG::GameCore::BattleGridFightTeamTraitData*>* Field_1_11; // 0x68
-	::RPG::GameCore::FixPoint Field_1_12; // 0x70
-	::System::UInt32 Field_1_13; // 0x78
-	::System::UInt32 Field_1_14; // 0x7C
-	::System::UInt32 Field_1_15; // 0x80
-	::System::UInt32 Field_1_16; // 0x84
-	::System::UInt32 Field_1_17; // 0x88
-	::System::UInt32 Field_1_18; // 0x8C
-	::System::UInt32 Field_1_19; // 0x90
-	::System::Boolean Field_1_20; // 0x94
-	::System::UInt32 Field_1_21; // 0x98
-	::System::UInt32 Field_1_22; // 0x9C
-	::System::UInt32 Field_1_23; // 0xA0
-	::System::UInt32 Field_1_24; // 0xA4
-	::System::UInt32 Field_1_25; // 0xA8
+	::System::Collections::Generic::List_1<::Class_1_9015B34004B876E5_1*>* BHLMEOBLIDG; // 0x10
+	::System::Collections::Generic::List_1<::RPG::GameCore::BattleGridFightTeamTraitData*>* MAOCICGPNOE; // 0x18
+	::System::Collections::Generic::List_1<::Class_1_AE4553DBAC72BB2D*>* AHKBIHOGBJB; // 0x20
+	::System::Collections::Generic::List_1<::RPG::GameCore::BattleGridFightTeamTraitData*>* PNLOHHEENGI; // 0x28
+	::Class_1_2AEC7C4C0F203579* KAEJCAMAIIE; // 0x30
+	::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::FixPoint>* FCDAMKENCCE; // 0x38
+	::Class_1_12ABE890CAA92AB9* HLFDLAIDABN; // 0x40
+	::System::Collections::Generic::List_1<::Class_1_9015B34004B876E5*>* KIACPLNFMLH; // 0x48
+	::System::Collections::Generic::List_1<::Class_1_D17272E82AE804C2_29*>* KCOMPKMJCMC; // 0x50
+	::System::Collections::Generic::List_1<::RPG::GameCore::BattleGridFightAvatarData*>* LEOOKBHBABM; // 0x58
+	::System::Collections::Generic::List_1<::RPG::GameCore::BattleGridFightTeamTraitData*>* GOBDPJABGEH; // 0x60
+	::System::Collections::Generic::List_1<::RPG::GameCore::LineUpCharacter*>* JOBFPOMPGOC; // 0x68
+	::System::UInt32 LDFEJAAOLKB; // 0x70
+	::System::UInt32 LODNFLMBIEH; // 0x74
+	::RPG::GameCore::FixPoint PKANAKAEJBF; // 0x78
+	::System::UInt32 CJCCMAACJDB; // 0x80
+	::System::UInt32 NFBJINKLLLK; // 0x84
+	::System::UInt32 AACGBEBGDPE; // 0x88
+	::System::UInt32 KOMFCJAFGPA; // 0x8C
+	::System::UInt32 BHFNGFHKKMF; // 0x90
+	::System::Boolean OHJAOGJDJPO; // 0x94
+	::System::UInt32 HBPDNKBPOKL; // 0x98
+	::System::UInt32 EHNJDIDABHD; // 0x9C
+	::System::UInt32 MLHLNECCDPD; // 0xA0
+	::System::UInt32 LIFBHELMEAI; // 0xA4
+	::System::UInt32 OOFPAKJPBAL; // 0xA8
 
 	::System::Void _ctor()
 	{
@@ -81,8 +81,8 @@ public:
 		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_22B8FDC4E33ACC56_METHOD_1_2372762F4122DEB8_OFFSET))(this);
 	}
 
-	::Class_1_22B8FDC4E33ACC56* Method_1_3FDF11107F41111E()
+	::Class_1_22B8FDC4E33ACC56* Method_1_546CAA3EBBF2E065()
 	{
-		return ((::Class_1_22B8FDC4E33ACC56*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_22B8FDC4E33ACC56_METHOD_1_3FDF11107F41111E_OFFSET))(this);
+		return ((::Class_1_22B8FDC4E33ACC56*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_22B8FDC4E33ACC56_METHOD_1_546CAA3EBBF2E065_OFFSET))(this);
 	}
 };

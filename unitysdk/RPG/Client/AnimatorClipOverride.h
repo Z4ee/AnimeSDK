@@ -5,19 +5,19 @@
 class Class_2_42AE0E6E31F59F96;
 namespace RPG::Client { class AnimatorClipOverride_AnimClipOverride; }
 
-#define RPG_CLIENT_ANIMATORCLIPOVERRIDE_AWAKE_OFFSET UNITYSDK_OFFSET(0xBD8E9D0)
-#define RPG_CLIENT_ANIMATORCLIPOVERRIDE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xBD8EAF0)
-#define RPG_CLIENT_ANIMATORCLIPOVERRIDE__CTOR_OFFSET UNITYSDK_OFFSET(0xBD8EB50)
+#define RPG_CLIENT_ANIMATORCLIPOVERRIDE_AWAKE_OFFSET UNITYSDK_OFFSET(0xC7655D0)
+#define RPG_CLIENT_ANIMATORCLIPOVERRIDE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xC7656F0)
+#define RPG_CLIENT_ANIMATORCLIPOVERRIDE__CTOR_OFFSET UNITYSDK_OFFSET(0xC765750)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AnimatorClipOverride_TypeDefinitionIndex = 67199;
+	inline static constexpr unsigned int AnimatorClipOverride_TypeDefinitionIndex = 70318;
 
 	class AnimatorClipOverride : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::Il2CppArray<::RPG::Client::AnimatorClipOverride_AnimClipOverride*>* AnimClipOverrides; // 0x18
-		::Class_2_42AE0E6E31F59F96* Field_5_1; // 0x20
+		::Class_2_42AE0E6E31F59F96* KADDKEGNCHE; // 0x20
 
 		::System::Void _ctor()
 		{

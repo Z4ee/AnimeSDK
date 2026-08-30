@@ -7,31 +7,31 @@ namespace System { class Exception; }
 namespace System::Threading { class ManualResetEvent; }
 namespace System::Threading { class WaitHandle; }
 
-#define SYSTEM_NET_HTTPSTREAMASYNCRESULT_COMPLETE_1_OFFSET UNITYSDK_OFFSET(0x1CCE81A0)
-#define SYSTEM_NET_HTTPSTREAMASYNCRESULT_COMPLETE_OFFSET UNITYSDK_OFFSET(0x1CCE8190)
-#define SYSTEM_NET_HTTPSTREAMASYNCRESULT_GET_ASYNCSTATE_OFFSET UNITYSDK_OFFSET(0x1CCE82B0)
-#define SYSTEM_NET_HTTPSTREAMASYNCRESULT_GET_ASYNCWAITHANDLE_OFFSET UNITYSDK_OFFSET(0x1CCE82C0)
-#define SYSTEM_NET_HTTPSTREAMASYNCRESULT_GET_COMPLETEDSYNCHRONOUSLY_OFFSET UNITYSDK_OFFSET(0x1CCE83B0)
-#define SYSTEM_NET_HTTPSTREAMASYNCRESULT_GET_ISCOMPLETED_OFFSET UNITYSDK_OFFSET(0x1CCE83C0)
-#define SYSTEM_NET_HTTPSTREAMASYNCRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x1CCE8470)
+#define SYSTEM_NET_HTTPSTREAMASYNCRESULT_COMPLETE_1_OFFSET UNITYSDK_OFFSET(0x1E993580)
+#define SYSTEM_NET_HTTPSTREAMASYNCRESULT_COMPLETE_OFFSET UNITYSDK_OFFSET(0x1E993570)
+#define SYSTEM_NET_HTTPSTREAMASYNCRESULT_GET_ASYNCSTATE_OFFSET UNITYSDK_OFFSET(0x1E993690)
+#define SYSTEM_NET_HTTPSTREAMASYNCRESULT_GET_ASYNCWAITHANDLE_OFFSET UNITYSDK_OFFSET(0x1E9936A0)
+#define SYSTEM_NET_HTTPSTREAMASYNCRESULT_GET_COMPLETEDSYNCHRONOUSLY_OFFSET UNITYSDK_OFFSET(0x1E993790)
+#define SYSTEM_NET_HTTPSTREAMASYNCRESULT_GET_ISCOMPLETED_OFFSET UNITYSDK_OFFSET(0x1E9937A0)
+#define SYSTEM_NET_HTTPSTREAMASYNCRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x1E993850)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int HttpStreamAsyncResult_TypeDefinitionIndex = 2849;
+	inline static constexpr unsigned int HttpStreamAsyncResult_TypeDefinitionIndex = 2856;
 
 	class HttpStreamAsyncResult : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::Byte>* Buffer; // 0x10
-		::System::Object* State; // 0x18
-		::System::Exception* Error; // 0x20
+		::System::Exception* Error; // 0x18
+		::System::Object* State; // 0x20
 		::System::Object* locker; // 0x28
 		::System::AsyncCallback* Callback; // 0x30
 		::System::Threading::ManualResetEvent* handle; // 0x38
-		::System::Int32 Offset; // 0x40
-		::System::Boolean completed; // 0x44
-		::System::Int32 Count; // 0x48
-		::System::Int32 SynchRead; // 0x4C
+		::System::Int32 Count; // 0x40
+		::System::Int32 SynchRead; // 0x44
+		::System::Boolean completed; // 0x48
+		::System::Int32 Offset; // 0x4C
 
 		::System::Void _ctor()
 		{

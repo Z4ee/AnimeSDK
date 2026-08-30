@@ -4,12 +4,12 @@
 
 namespace RPG::Client::Prop { class OraclePuzzleBoard; }
 
-#define RPG_CLIENT_PROP_ORACLEPUZZLEBOARD___C__DISPLAYCLASS68_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD1C95C0)
-#define RPG_CLIENT_PROP_ORACLEPUZZLEBOARD___C__DISPLAYCLASS68_0___STARTPUZZLEPANELTRANSITION_B__0_OFFSET UNITYSDK_OFFSET(0xD1CA710)
+#define RPG_CLIENT_PROP_ORACLEPUZZLEBOARD___C__DISPLAYCLASS68_0__CTOR_OFFSET UNITYSDK_OFFSET(0xDCCD8D0)
+#define RPG_CLIENT_PROP_ORACLEPUZZLEBOARD___C__DISPLAYCLASS68_0___STARTPUZZLEPANELTRANSITION_B__0_OFFSET UNITYSDK_OFFSET(0xDCCEC00)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int OraclePuzzleBoard___c__DisplayClass68_0_TypeDefinitionIndex = 74769;
+	inline static constexpr unsigned int OraclePuzzleBoard___c__DisplayClass68_0_TypeDefinitionIndex = 78254;
 
 	class OraclePuzzleBoard___c__DisplayClass68_0 : public ::System::Object
 	{

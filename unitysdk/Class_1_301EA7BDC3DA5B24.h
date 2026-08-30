@@ -5,15 +5,15 @@
 
 namespace RPG::Client::ActivityIdleLive { class IdleLiveEquipmentData; }
 
-#define CLASS_1_301EA7BDC3DA5B24_METHOD_1_A661A5233B13C332_OFFSET UNITYSDK_OFFSET(0x1455D680)
-#define CLASS_1_301EA7BDC3DA5B24__CTOR_OFFSET UNITYSDK_OFFSET(0x1455D740)
+#define CLASS_1_301EA7BDC3DA5B24_METHOD_1_A661A5233B13C332_OFFSET UNITYSDK_OFFSET(0x153D46E0)
+#define CLASS_1_301EA7BDC3DA5B24__CTOR_OFFSET UNITYSDK_OFFSET(0x153D47A0)
 
-inline static constexpr unsigned int Class_1_301EA7BDC3DA5B24_TypeDefinitionIndex = 71787;
+inline static constexpr unsigned int Class_1_301EA7BDC3DA5B24_TypeDefinitionIndex = 75093;
 
 class Class_1_301EA7BDC3DA5B24 : public ::System::Object
 {
 public:
-	::RPG::Client::TextID Field_1_0; // 0x10
+	::RPG::Client::TextID NMAHGFAPENI; // 0x10
 
 	::System::Void _ctor()
 	{

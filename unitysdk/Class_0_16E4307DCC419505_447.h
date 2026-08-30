@@ -1,11 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/GameCore/AntiLockHPStrength.h"
-#include "unitysdk/RPG/GameCore/FixPoint.h"
-#include "unitysdk/Struct_2_87C8F594A107C13B.h"
-#include "unitysdk/System/Nullable_1.h"
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_447_TypeDefinitionIndex = 51251;
+class Class_0_16E4307DCC419505_438;
+class Class_0_16E4307DCC419505_443;
+class Class_0_16E4307DCC419505_445;
+class Class_0_16E4307DCC419505_446;
+namespace RPG::AvatarSystem { class AvatarServant; }
+
+inline static constexpr unsigned int Class_0_16E4307DCC419505_447_TypeDefinitionIndex = 52226;
 
 class Class_0_16E4307DCC419505_447
 {

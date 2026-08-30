@@ -4,14 +4,14 @@
 
 namespace System { class Type; }
 
-#define CLASS_2_2B5D33C75C48332B_2__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0B8870)
+#define CLASS_2_2B5D33C75C48332B_2__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD23CB0)
 
-inline static constexpr unsigned int Class_2_2B5D33C75C48332B_2_TypeDefinitionIndex = 24150;
+inline static constexpr unsigned int Class_2_2B5D33C75C48332B_2_TypeDefinitionIndex = 24739;
 
 class Class_2_2B5D33C75C48332B_2 : public ::System::Attribute
 {
 public:
-	::System::Type* Field_2_0; // 0x10
+	::System::Type* GMPGDEINODK; // 0x10
 
 	::System::Void _ctor(::System::Type* a1)
 	{

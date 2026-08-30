@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Struct_2_34510A46798C627E.h"
 #include "unitysdk/Struct_2_395B739A1AC58399.h"
-#include "unitysdk/Struct_2_52A902145F5BE513_2.h"
+#include "unitysdk/Struct_2_52A902145F5BE513_3.h"
 #include "unitysdk/Struct_2_E223907A17AC5B62.h"
 #include "unitysdk/Struct_2_FBA4730A60751401_2.h"
 #include "unitysdk/System/ValueType.h"
@@ -18,35 +18,35 @@ namespace UnityChan { class SpringManager; }
 namespace UnityChan { class SpringManager_Class_1_44494F1EF855DA72; }
 namespace UnityEngine { class Transform; }
 
-#define STRUCT_2_9FC3BF6B16C6AFE6_EXECUTE_OFFSET UNITYSDK_OFFSET(0x13F9A0)
-#define STRUCT_2_9FC3BF6B16C6AFE6_METHOD_2_4855D279E0E27DA8_OFFSET UNITYSDK_OFFSET(0x13F940)
-#define STRUCT_2_9FC3BF6B16C6AFE6_METHOD_2_61909647484BF836_OFFSET UNITYSDK_OFFSET(0x13F980)
-#define STRUCT_2_9FC3BF6B16C6AFE6_METHOD_2_86214CC42818EBDF_OFFSET UNITYSDK_OFFSET(0x13F970)
-#define STRUCT_2_9FC3BF6B16C6AFE6_METHOD_2_962DD24A11E58471_OFFSET UNITYSDK_OFFSET(0x13F950)
-#define STRUCT_2_9FC3BF6B16C6AFE6_METHOD_2_9BC4F885A8B30EA4_OFFSET UNITYSDK_OFFSET(0x13F9B0)
-#define STRUCT_2_9FC3BF6B16C6AFE6_METHOD_2_D1F7091E98F361B5_OFFSET UNITYSDK_OFFSET(0x13F990)
-#define STRUCT_2_9FC3BF6B16C6AFE6_METHOD_2_FBF2CB29FD3B55E6_OFFSET UNITYSDK_OFFSET(0x13F960)
+#define STRUCT_2_9FC3BF6B16C6AFE6_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1452D0)
+#define STRUCT_2_9FC3BF6B16C6AFE6_METHOD_2_4855D279E0E27DA8_OFFSET UNITYSDK_OFFSET(0x145270)
+#define STRUCT_2_9FC3BF6B16C6AFE6_METHOD_2_61909647484BF836_OFFSET UNITYSDK_OFFSET(0x1452B0)
+#define STRUCT_2_9FC3BF6B16C6AFE6_METHOD_2_86214CC42818EBDF_OFFSET UNITYSDK_OFFSET(0x1452A0)
+#define STRUCT_2_9FC3BF6B16C6AFE6_METHOD_2_962DD24A11E58471_OFFSET UNITYSDK_OFFSET(0x145280)
+#define STRUCT_2_9FC3BF6B16C6AFE6_METHOD_2_9BC4F885A8B30EA4_OFFSET UNITYSDK_OFFSET(0x1452E0)
+#define STRUCT_2_9FC3BF6B16C6AFE6_METHOD_2_D1F7091E98F361B5_OFFSET UNITYSDK_OFFSET(0x1452C0)
+#define STRUCT_2_9FC3BF6B16C6AFE6_METHOD_2_FBF2CB29FD3B55E6_OFFSET UNITYSDK_OFFSET(0x145290)
 
-inline static constexpr unsigned int Struct_2_9FC3BF6B16C6AFE6_TypeDefinitionIndex = 45896;
+inline static constexpr unsigned int Struct_2_9FC3BF6B16C6AFE6_TypeDefinitionIndex = 48150;
 
 struct alignas(8) Struct_2_9FC3BF6B16C6AFE6
 {
-	::Unity::Collections::NativeArray_1<::Struct_2_E223907A17AC5B62> Field_2_0; // 0x10
-	::Unity::Collections::NativeArray_1<::Struct_2_52A902145F5BE513_2> Field_2_1; // 0x20
-	::Unity::Collections::NativeArray_1<::Struct_2_34510A46798C627E> Field_2_2; // 0x30
-	::Unity::Collections::NativeArray_1<::Struct_2_FBA4730A60751401_2> Field_2_3; // 0x40
-	::Unity::Collections::NativeArray_1<::UnityEngine::Quaternion> Field_2_4; // 0x50
-	::Unity::Collections::NativeArray_1<::Struct_2_395B739A1AC58399> Field_2_5; // 0x60
-	::UnityEngine::Vector3 Field_2_6; // 0x70
-	::UnityEngine::Vector3 Field_2_7; // 0x7C
-	::UnityEngine::Vector3 Field_2_8; // 0x88
-	::UnityEngine::Vector3 Field_2_9; // 0x94
-	::System::Single Field_2_10; // 0xA0
-	::System::Single Field_2_11; // 0xA4
-	::System::Boolean Field_2_12; // 0xA8
-	::System::Boolean Field_2_13; // 0xA9
-	::System::Collections::Generic::Dictionary_2<::UnityChan::SpringManager_BoneTag, ::UnityChan::SpringManager_Class_1_44494F1EF855DA72*>* Field_2_14; // 0xB0
-	::System::Boolean Field_2_15; // 0xB8
+	::Unity::Collections::NativeArray_1<::Struct_2_E223907A17AC5B62> OEDFGINIBHP; // 0x10
+	::Unity::Collections::NativeArray_1<::Struct_2_52A902145F5BE513_3> CPAFKBKEIKG; // 0x20
+	::Unity::Collections::NativeArray_1<::Struct_2_34510A46798C627E> PEHIFANNKEJ; // 0x30
+	::Unity::Collections::NativeArray_1<::Struct_2_FBA4730A60751401_2> BAGAKKJLCOH; // 0x40
+	::Unity::Collections::NativeArray_1<::UnityEngine::Quaternion> OKPLAHOLOKL; // 0x50
+	::Unity::Collections::NativeArray_1<::Struct_2_395B739A1AC58399> PAGIMFKDNLA; // 0x60
+	::UnityEngine::Vector3 PJOCJGEKFEF; // 0x70
+	::UnityEngine::Vector3 MGIOBFEIGOF; // 0x7C
+	::UnityEngine::Vector3 IJCPNMBHBMM; // 0x88
+	::UnityEngine::Vector3 CNLCKCNJLMI; // 0x94
+	::System::Single JNDDLHHBFCL; // 0xA0
+	::System::Single GBJBPHEGNDK; // 0xA4
+	::System::Boolean BPFALJILIHM; // 0xA8
+	::System::Boolean JIOPIDCGGFH; // 0xA9
+	::System::Collections::Generic::Dictionary_2<::UnityChan::SpringManager_BoneTag, ::UnityChan::SpringManager_Class_1_44494F1EF855DA72*>* JMJAOAMFACD; // 0xB0
+	::System::Boolean LGLHPNPJJKH; // 0xB8
 
 	::System::Void Method_2_4855D279E0E27DA8(::System::Collections::Generic::List_1<::UnityEngine::Transform*>* a1)
 	{

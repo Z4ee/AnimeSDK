@@ -7,20 +7,20 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ILBATTLEAVATARTAGCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B520630)
-#define RPG_GAMECORE_ILBATTLEAVATARTAGCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B520830)
+#define RPG_GAMECORE_ILBATTLEAVATARTAGCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D199C80)
+#define RPG_GAMECORE_ILBATTLEAVATARTAGCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D199E80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ILBattleAvatarTagConfigRow_TypeDefinitionIndex = 13288;
+	inline static constexpr unsigned int ILBattleAvatarTagConfigRow_TypeDefinitionIndex = 13679;
 
 	class ILBattleAvatarTagConfigRow : public ::System::Object
 	{
 	public:
-		::System::String* IconPath; // 0x10
-		::System::String* AssociatedStatusId; // 0x18
-		::RPG::Client::TextID Name; // 0x20
-		::RPG::GameCore::ILBattleAvatarTag ID; // 0x30
+		::System::String* AssociatedStatusId; // 0x10
+		::System::String* IconPath; // 0x18
+		::RPG::GameCore::ILBattleAvatarTag ID; // 0x20
+		::RPG::Client::TextID Name; // 0x28
 
 		::System::Void _ctor()
 		{

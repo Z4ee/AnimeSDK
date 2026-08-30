@@ -4,7 +4,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int BANodeHash_TypeDefinitionIndex = 4779;
+	inline static constexpr unsigned int BANodeHash_TypeDefinitionIndex = 4789;
 
 	struct alignas(4) BANodeHash
 	{

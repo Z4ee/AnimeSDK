@@ -6,16 +6,16 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define CLASS_1_637CF5391C15E01B_METHOD_1_76CE385B21223156_OFFSET UNITYSDK_OFFSET(0x1AB2A6E0)
-#define CLASS_1_637CF5391C15E01B__CTOR_OFFSET UNITYSDK_OFFSET(0x1AB2A820)
+#define CLASS_1_637CF5391C15E01B_METHOD_1_76CE385B21223156_OFFSET UNITYSDK_OFFSET(0x1C760840)
+#define CLASS_1_637CF5391C15E01B__CTOR_OFFSET UNITYSDK_OFFSET(0x1C760980)
 
-inline static constexpr unsigned int Class_1_637CF5391C15E01B_TypeDefinitionIndex = 11220;
+inline static constexpr unsigned int Class_1_637CF5391C15E01B_TypeDefinitionIndex = 11609;
 
 class Class_1_637CF5391C15E01B : public ::System::Object
 {
 public:
-	::System::String* Field_1_0; // 0x10
-	::RPG::GameCore::HipplenConditionType Field_1_1; // 0x18
+	::System::String* NNACKOBKFGE; // 0x10
+	::RPG::GameCore::HipplenConditionType GMPGDEINODK; // 0x18
 
 	::System::Void _ctor()
 	{

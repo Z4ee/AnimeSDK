@@ -7,17 +7,17 @@ namespace RPG::GameCore { class LevelUIComponent; }
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI { class Text; }
 
-#define CLASS_1_74B8C02E4E1D6950__CTOR_OFFSET UNITYSDK_OFFSET(0x1518D300)
+#define CLASS_1_74B8C02E4E1D6950__CTOR_OFFSET UNITYSDK_OFFSET(0x160A5080)
 
-inline static constexpr unsigned int Class_1_74B8C02E4E1D6950_TypeDefinitionIndex = 68568;
+inline static constexpr unsigned int Class_1_74B8C02E4E1D6950_TypeDefinitionIndex = 71765;
 
 class Class_1_74B8C02E4E1D6950 : public ::System::Object
 {
 public:
-	::RPG::GameCore::LevelUIComponent* Field_1_0; // 0x10
-	::UnityEngine::UI::Text* Field_1_1; // 0x18
-	::UnityEngine::Transform* Field_1_2; // 0x20
-	::Class_1_1E32D594CE469049* Field_1_3; // 0x28
+	::UnityEngine::Transform* MJPMAPNJMNE; // 0x10
+	::Class_1_1E32D594CE469049* IDJEEOFELEJ; // 0x18
+	::UnityEngine::UI::Text* IABIKOKLBLJ; // 0x20
+	::RPG::GameCore::LevelUIComponent* DFHKMAHPJIB; // 0x28
 
 	::System::Void _ctor()
 	{

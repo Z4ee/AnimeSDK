@@ -7,12 +7,12 @@ namespace System { class Action; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCENODEVARIANTLISTCONTROL___C__DISPLAYCLASS23_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBF58EB0)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCENODEVARIANTLISTCONTROL___C__DISPLAYCLASS23_0___BINDITEMS_B__0_OFFSET UNITYSDK_OFFSET(0xBF59230)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCENODEVARIANTLISTCONTROL___C__DISPLAYCLASS23_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC9FE2F0)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCENODEVARIANTLISTCONTROL___C__DISPLAYCLASS23_0___BINDITEMS_B__0_OFFSET UNITYSDK_OFFSET(0xC9FE690)
 
 namespace RPG::Client::Challenge::Tierce
 {
-	inline static constexpr unsigned int ChallengeTierceNodeVariantListControl___c__DisplayClass23_0_TypeDefinitionIndex = 76573;
+	inline static constexpr unsigned int ChallengeTierceNodeVariantListControl___c__DisplayClass23_0_TypeDefinitionIndex = 80205;
 
 	class ChallengeTierceNodeVariantListControl___c__DisplayClass23_0 : public ::System::Object
 	{

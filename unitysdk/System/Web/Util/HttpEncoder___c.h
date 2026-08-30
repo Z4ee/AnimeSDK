@@ -4,20 +4,20 @@
 
 namespace System::Web::Util { class HttpEncoder; }
 
-#define SYSTEM_WEB_UTIL_HTTPENCODER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CD84AB0)
-#define SYSTEM_WEB_UTIL_HTTPENCODER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD84AF0)
-#define SYSTEM_WEB_UTIL_HTTPENCODER___C___CCTOR_B__13_0_OFFSET UNITYSDK_OFFSET(0x1CD84B00)
+#define SYSTEM_WEB_UTIL_HTTPENCODER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EA31300)
+#define SYSTEM_WEB_UTIL_HTTPENCODER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA31340)
+#define SYSTEM_WEB_UTIL_HTTPENCODER___C___CCTOR_B__13_0_OFFSET UNITYSDK_OFFSET(0x1EA31350)
 
 namespace System::Web::Util
 {
-	inline static constexpr unsigned int HttpEncoder___c_TypeDefinitionIndex = 2660;
+	inline static constexpr unsigned int HttpEncoder___c_TypeDefinitionIndex = 2667;
 
 	class HttpEncoder___c : public ::System::Object
 	{
 	public:
 		static ::System::Web::Util::HttpEncoder___c** StaticGet___9()
 		{
-			return (::System::Web::Util::HttpEncoder___c**)Il2CppClass::FromTypeDefinitionIndex(HttpEncoder___c_TypeDefinitionIndex)->GetStaticField(0x30D30);
+			return (::System::Web::Util::HttpEncoder___c**)Il2CppClass::FromTypeDefinitionIndex(HttpEncoder___c_TypeDefinitionIndex)->GetStaticField(0x28850);
 		}
 
 		static ::System::Void _cctor()

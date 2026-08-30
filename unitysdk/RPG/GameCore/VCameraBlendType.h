@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int VCameraBlendType_TypeDefinitionIndex = 15786;
+	inline static constexpr unsigned int VCameraBlendType_TypeDefinitionIndex = 16262;
 
 	enum class VCameraBlendType : ::System::Int32
 	{

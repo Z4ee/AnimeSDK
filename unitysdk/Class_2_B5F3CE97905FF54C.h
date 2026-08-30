@@ -7,15 +7,15 @@ namespace System { class Action; }
 namespace System { class Object; }
 namespace System::Reflection { class MethodInfo; }
 
-#define CLASS_2_B5F3CE97905FF54C_INTERNALINVOKE_OFFSET UNITYSDK_OFFSET(0x15211080)
-#define CLASS_2_B5F3CE97905FF54C__CTOR_OFFSET UNITYSDK_OFFSET(0x15211010)
+#define CLASS_2_B5F3CE97905FF54C_INTERNALINVOKE_OFFSET UNITYSDK_OFFSET(0x1617C350)
+#define CLASS_2_B5F3CE97905FF54C__CTOR_OFFSET UNITYSDK_OFFSET(0x1617C2D0)
 
-inline static constexpr unsigned int Class_2_B5F3CE97905FF54C_TypeDefinitionIndex = 69793;
+inline static constexpr unsigned int Class_2_B5F3CE97905FF54C_TypeDefinitionIndex = 73051;
 
 class Class_2_B5F3CE97905FF54C : public ::Class_1_6AB058C99D483032
 {
 public:
-	::System::Action* Field_2_0; // 0x18
+	::System::Action* KFCIMLKKMEE; // 0x18
 
 	::System::Void _ctor(::System::Object* a1, ::System::Reflection::MethodInfo* a2, ::RPG::Client::NotifyType a3)
 	{

@@ -5,20 +5,20 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_GRIDFIGHTTRAITMAZEBUFFPLUSCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B4F3810)
-#define RPG_GAMECORE_GRIDFIGHTTRAITMAZEBUFFPLUSCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4F39F0)
+#define RPG_GAMECORE_GRIDFIGHTTRAITMAZEBUFFPLUSCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D16D0A0)
+#define RPG_GAMECORE_GRIDFIGHTTRAITMAZEBUFFPLUSCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D16D280)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightTraitMazebuffPlusConfigRow_TypeDefinitionIndex = 13174;
+	inline static constexpr unsigned int GridFightTraitMazebuffPlusConfigRow_TypeDefinitionIndex = 13565;
 
 	class GridFightTraitMazebuffPlusConfigRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::RPG::GameCore::FixPoint>* ShowStanceList; // 0x10
-		::Il2CppArray<::RPG::GameCore::FixPoint>* BEParamList; // 0x18
-		::System::UInt32 StanceDamageDisplay; // 0x20
-		::System::UInt32 MazebuffID; // 0x24
+		::Il2CppArray<::RPG::GameCore::FixPoint>* BEParamList; // 0x10
+		::Il2CppArray<::RPG::GameCore::FixPoint>* ShowStanceList; // 0x18
+		::System::UInt32 MazebuffID; // 0x20
+		::System::UInt32 StanceDamageDisplay; // 0x24
 
 		::System::Void _ctor()
 		{

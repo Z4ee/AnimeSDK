@@ -5,29 +5,29 @@
 namespace RPG::Client { class SubMissionData; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_NAVMAP_ICONCOLLECTORBASE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xCE56D10)
-#define RPG_CLIENT_NAVMAP_ICONCOLLECTORBASE___C__CTOR_OFFSET UNITYSDK_OFFSET(0xCE56D50)
-#define RPG_CLIENT_NAVMAP_ICONCOLLECTORBASE___C___COLLECTMAINNAVMAPTRACKINGMISSIONICON_B__23_0_OFFSET UNITYSDK_OFFSET(0xCE56D60)
-#define RPG_CLIENT_NAVMAP_ICONCOLLECTORBASE___C___COLLECTSUBNAVMAPTRACKINGMISSIONICON_B__24_0_OFFSET UNITYSDK_OFFSET(0xCE56DD0)
+#define RPG_CLIENT_NAVMAP_ICONCOLLECTORBASE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD956ED0)
+#define RPG_CLIENT_NAVMAP_ICONCOLLECTORBASE___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD956F00)
+#define RPG_CLIENT_NAVMAP_ICONCOLLECTORBASE___C___COLLECTMAINNAVMAPTRACKINGMISSIONICON_B__23_0_OFFSET UNITYSDK_OFFSET(0xD956F10)
+#define RPG_CLIENT_NAVMAP_ICONCOLLECTORBASE___C___COLLECTSUBNAVMAPTRACKINGMISSIONICON_B__24_0_OFFSET UNITYSDK_OFFSET(0xD956F80)
 
 namespace RPG::Client::NavMap
 {
-	inline static constexpr unsigned int IconCollectorBase___c_TypeDefinitionIndex = 71101;
+	inline static constexpr unsigned int IconCollectorBase___c_TypeDefinitionIndex = 74400;
 
 	class IconCollectorBase___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::RPG::Client::SubMissionData*>** StaticGet___9__24_0()
-		{
-			return (::System::Comparison_1<::RPG::Client::SubMissionData*>**)Il2CppClass::FromTypeDefinitionIndex(IconCollectorBase___c_TypeDefinitionIndex)->GetStaticField(0x631D0);
-		}
 		static ::System::Comparison_1<::RPG::Client::SubMissionData*>** StaticGet___9__23_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::SubMissionData*>**)Il2CppClass::FromTypeDefinitionIndex(IconCollectorBase___c_TypeDefinitionIndex)->GetStaticField(0x631D8);
+			return (::System::Comparison_1<::RPG::Client::SubMissionData*>**)Il2CppClass::FromTypeDefinitionIndex(IconCollectorBase___c_TypeDefinitionIndex)->GetStaticField(0x2AE50);
 		}
 		static ::RPG::Client::NavMap::IconCollectorBase___c** StaticGet___9()
 		{
-			return (::RPG::Client::NavMap::IconCollectorBase___c**)Il2CppClass::FromTypeDefinitionIndex(IconCollectorBase___c_TypeDefinitionIndex)->GetStaticField(0x631E0);
+			return (::RPG::Client::NavMap::IconCollectorBase___c**)Il2CppClass::FromTypeDefinitionIndex(IconCollectorBase___c_TypeDefinitionIndex)->GetStaticField(0x2AE58);
+		}
+		static ::System::Comparison_1<::RPG::Client::SubMissionData*>** StaticGet___9__24_0()
+		{
+			return (::System::Comparison_1<::RPG::Client::SubMissionData*>**)Il2CppClass::FromTypeDefinitionIndex(IconCollectorBase___c_TypeDefinitionIndex)->GetStaticField(0x2AE60);
 		}
 
 		static ::System::Void _cctor()

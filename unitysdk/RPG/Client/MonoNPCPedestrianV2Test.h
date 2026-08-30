@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define RPG_CLIENT_MONONPCPEDESTRIANV2TEST__CTOR_OFFSET UNITYSDK_OFFSET(0xCD0C5A0)
+#define RPG_CLIENT_MONONPCPEDESTRIANV2TEST__CTOR_OFFSET UNITYSDK_OFFSET(0xD84ED30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoNPCPedestrianV2Test_TypeDefinitionIndex = 66160;
+	inline static constexpr unsigned int MonoNPCPedestrianV2Test_TypeDefinitionIndex = 69201;
 
 	class MonoNPCPedestrianV2Test : public ::UnityEngine::MonoBehaviour
 	{

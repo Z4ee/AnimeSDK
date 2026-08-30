@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Class_2_00007E9796694121_ForceEntityLodReason_TypeDefinitionIndex = 54688;
+inline static constexpr unsigned int Class_2_00007E9796694121_ForceEntityLodReason_TypeDefinitionIndex = 57409;
 
 enum class Class_2_00007E9796694121_ForceEntityLodReason : ::System::Int32
 {

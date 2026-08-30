@@ -7,21 +7,21 @@ namespace Google::Protobuf { class ExtensionRegistry; }
 namespace Google::Protobuf { class IMessage; }
 namespace System { template <typename T> class Func_1; }
 
-#define GOOGLE_PROTOBUF_MESSAGEPARSER_CHECKMERGEDREQUIREDFIELDS_OFFSET UNITYSDK_OFFSET(0x197D5BA0)
-#define GOOGLE_PROTOBUF_MESSAGEPARSER_GET_DISCARDUNKNOWNFIELDS_OFFSET UNITYSDK_OFFSET(0x197D5B70)
-#define GOOGLE_PROTOBUF_MESSAGEPARSER_GET_EXTENSIONS_OFFSET UNITYSDK_OFFSET(0x197D5B80)
-#define GOOGLE_PROTOBUF_MESSAGEPARSER_PARSEFROM_OFFSET UNITYSDK_OFFSET(0x197D2970)
-#define GOOGLE_PROTOBUF_MESSAGEPARSER__CTOR_OFFSET UNITYSDK_OFFSET(0x197D5B90)
+#define GOOGLE_PROTOBUF_MESSAGEPARSER_CHECKMERGEDREQUIREDFIELDS_OFFSET UNITYSDK_OFFSET(0x1B360D70)
+#define GOOGLE_PROTOBUF_MESSAGEPARSER_GET_DISCARDUNKNOWNFIELDS_OFFSET UNITYSDK_OFFSET(0x1B360D40)
+#define GOOGLE_PROTOBUF_MESSAGEPARSER_GET_EXTENSIONS_OFFSET UNITYSDK_OFFSET(0x1B360D50)
+#define GOOGLE_PROTOBUF_MESSAGEPARSER_PARSEFROM_OFFSET UNITYSDK_OFFSET(0x1B35DB30)
+#define GOOGLE_PROTOBUF_MESSAGEPARSER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B360D60)
 
 namespace Google::Protobuf
 {
-	inline static constexpr unsigned int MessageParser_TypeDefinitionIndex = 5412;
+	inline static constexpr unsigned int MessageParser_TypeDefinitionIndex = 5401;
 
 	class MessageParser : public ::System::Object
 	{
 	public:
-		::System::Func_1<::Google::Protobuf::IMessage*>* factory; // 0x10
-		::Google::Protobuf::ExtensionRegistry* _Extensions_k__BackingField; // 0x18
+		::Google::Protobuf::ExtensionRegistry* _Extensions_k__BackingField; // 0x10
+		::System::Func_1<::Google::Protobuf::IMessage*>* factory; // 0x18
 		::System::Boolean _DiscardUnknownFields_k__BackingField; // 0x20
 
 		::System::Void _ctor(::System::Func_1<::Google::Protobuf::IMessage*>* a1, ::System::Boolean a2, ::Google::Protobuf::ExtensionRegistry* a3)

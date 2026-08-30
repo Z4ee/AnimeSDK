@@ -4,19 +4,19 @@
 
 namespace System { class String; }
 
-#define SYSTEM_TIMETYPE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1A057170)
-#define SYSTEM_TIMETYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A057160)
+#define SYSTEM_TIMETYPE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1BC5E1E0)
+#define SYSTEM_TIMETYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC5E1D0)
 
 namespace System
 {
-	inline static constexpr unsigned int TimeType_TypeDefinitionIndex = 433;
+	inline static constexpr unsigned int TimeType_TypeDefinitionIndex = 436;
 
 	class TimeType : public ::System::Object
 	{
 	public:
 		::System::String* Name; // 0x10
-		::System::Boolean IsDst; // 0x18
-		::System::Int32 Offset; // 0x1C
+		::System::Int32 Offset; // 0x18
+		::System::Boolean IsDst; // 0x1C
 
 		::System::Void _ctor(::System::Int32 a1, ::System::Boolean a2, ::System::String* a3)
 		{

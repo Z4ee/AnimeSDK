@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/Client/LittleGame/PixAir/PixAirEquipInteractionType.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_LITTLEGAME_PIXAIR_PIXAIREQUIPINTERACTIONNOTIFYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xC9E3010)
+#define RPG_CLIENT_LITTLEGAME_PIXAIR_PIXAIREQUIPINTERACTIONNOTIFYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xD545830)
 
 namespace RPG::Client::LittleGame::PixAir
 {
-	inline static constexpr unsigned int PixAirEquipInteractionNotifyData_TypeDefinitionIndex = 73338;
+	inline static constexpr unsigned int PixAirEquipInteractionNotifyData_TypeDefinitionIndex = 76817;
 
 	class PixAirEquipInteractionNotifyData : public ::System::Object
 	{

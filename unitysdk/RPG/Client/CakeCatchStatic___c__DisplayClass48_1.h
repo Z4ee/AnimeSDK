@@ -5,12 +5,12 @@
 namespace RPG::Client { class CakeCatchStatic___c__DisplayClass48_0; }
 namespace RPG::GameCore { class LevelGraphComponent; }
 
-#define RPG_CLIENT_CAKECATCHSTATIC___C__DISPLAYCLASS48_1__CTOR_OFFSET UNITYSDK_OFFSET(0xBEFC780)
-#define RPG_CLIENT_CAKECATCHSTATIC___C__DISPLAYCLASS48_1__STARTCAKEPERFORMANCE_B__0_OFFSET UNITYSDK_OFFSET(0xBEFE000)
+#define RPG_CLIENT_CAKECATCHSTATIC___C__DISPLAYCLASS48_1__CTOR_OFFSET UNITYSDK_OFFSET(0xC9A0750)
+#define RPG_CLIENT_CAKECATCHSTATIC___C__DISPLAYCLASS48_1__STARTCAKEPERFORMANCE_B__0_OFFSET UNITYSDK_OFFSET(0xC9A1B60)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CakeCatchStatic___c__DisplayClass48_1_TypeDefinitionIndex = 60193;
+	inline static constexpr unsigned int CakeCatchStatic___c__DisplayClass48_1_TypeDefinitionIndex = 63041;
 
 	class CakeCatchStatic___c__DisplayClass48_1 : public ::System::Object
 	{

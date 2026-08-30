@@ -1,27 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/GameCore/FateLevelParamType.h"
+#include "unitysdk/Struct_2_BABB143454D17CA6.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_2787ABBB14E52A15;
+class Class_1_7E72B772E0973369;
+namespace RPG::Client { class ExpeditionBattleTeam; }
 
-#define CLASS_1_F9FBCC956DFCF137_17_METHOD_1_A6609BBCD97F5BCD_OFFSET UNITYSDK_OFFSET(0x14A44150)
-#define CLASS_1_F9FBCC956DFCF137_17__CTOR_OFFSET UNITYSDK_OFFSET(0x14A44140)
+#define CLASS_1_F9FBCC956DFCF137_17_METHOD_1_FFCB3E2DEAF6CE16_OFFSET UNITYSDK_OFFSET(0xBF5ADF0)
+#define CLASS_1_F9FBCC956DFCF137_17__CTOR_OFFSET UNITYSDK_OFFSET(0xBF5ADE0)
 
-inline static constexpr unsigned int Class_1_F9FBCC956DFCF137_17_TypeDefinitionIndex = 61114;
+inline static constexpr unsigned int Class_1_F9FBCC956DFCF137_17_TypeDefinitionIndex = 64002;
 
 class Class_1_F9FBCC956DFCF137_17 : public ::System::Object
 {
 public:
-	::Class_1_2787ABBB14E52A15* Field_1_0; // 0x10
+	::Class_1_7E72B772E0973369* OEOGNEPBADO; // 0x10
 
-	::System::Void _ctor(::Class_1_2787ABBB14E52A15* a1)
+	::System::Void _ctor(::Class_1_7E72B772E0973369* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_1_2787ABBB14E52A15*))((::PBYTE)hIl2Cpp + CLASS_1_F9FBCC956DFCF137_17__CTOR_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::Class_1_7E72B772E0973369*))((::PBYTE)hIl2Cpp + CLASS_1_F9FBCC956DFCF137_17__CTOR_OFFSET))(this, a1);
 	}
 
-	::System::Double Method_1_A6609BBCD97F5BCD(::RPG::GameCore::FateLevelParamType a1)
+	::RPG::Client::ExpeditionBattleTeam* Method_1_FFCB3E2DEAF6CE16(::Struct_2_BABB143454D17CA6 a1)
 	{
-		return ((::System::Double(*)(::PVOID, ::RPG::GameCore::FateLevelParamType))((::PBYTE)hIl2Cpp + CLASS_1_F9FBCC956DFCF137_17_METHOD_1_A6609BBCD97F5BCD_OFFSET))(this, a1);
+		return ((::RPG::Client::ExpeditionBattleTeam*(*)(::PVOID, ::Struct_2_BABB143454D17CA6))((::PBYTE)hIl2Cpp + CLASS_1_F9FBCC956DFCF137_17_METHOD_1_FFCB3E2DEAF6CE16_OFFSET))(this, a1);
 	}
 };

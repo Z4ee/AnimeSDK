@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EvolveBuildGearManager_DebugCsvMode_TypeDefinitionIndex = 53532;
+	inline static constexpr unsigned int EvolveBuildGearManager_DebugCsvMode_TypeDefinitionIndex = 56246;
 
 	enum class EvolveBuildGearManager_DebugCsvMode : ::System::Int32
 	{

@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Matrix4x4.h"
 
-#define CLASS_1_D2971FC759E3F87F_METHOD_1_F14BD637F2D057CE_OFFSET UNITYSDK_OFFSET(0x14C14A80)
-#define CLASS_1_D2971FC759E3F87F__CTOR_OFFSET UNITYSDK_OFFSET(0x14C14B00)
+#define CLASS_1_D2971FC759E3F87F_METHOD_1_F14BD637F2D057CE_OFFSET UNITYSDK_OFFSET(0x15CC8D50)
+#define CLASS_1_D2971FC759E3F87F__CTOR_OFFSET UNITYSDK_OFFSET(0x15CC8DD0)
 
-inline static constexpr unsigned int Class_1_D2971FC759E3F87F_TypeDefinitionIndex = 70342;
+inline static constexpr unsigned int Class_1_D2971FC759E3F87F_TypeDefinitionIndex = 73642;
 
 class Class_1_D2971FC759E3F87F : public ::System::Object
 {

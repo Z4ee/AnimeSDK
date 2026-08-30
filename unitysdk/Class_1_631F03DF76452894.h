@@ -13,40 +13,40 @@ namespace System { template <typename T1, typename T2> class Action_2; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_1_631F03DF76452894_CLEAR_OFFSET UNITYSDK_OFFSET(0x1A883F30)
-#define CLASS_1_631F03DF76452894_METHOD_1_9636FCCD0F2A7398_OFFSET UNITYSDK_OFFSET(0x1A884140)
-#define CLASS_1_631F03DF76452894_ONALLOC_OFFSET UNITYSDK_OFFSET(0x1A884070)
-#define CLASS_1_631F03DF76452894_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x1A884100)
-#define CLASS_1_631F03DF76452894__CTOR_OFFSET UNITYSDK_OFFSET(0x1A884320)
+#define CLASS_1_631F03DF76452894_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C4B5350)
+#define CLASS_1_631F03DF76452894_METHOD_1_9636FCCD0F2A7398_OFFSET UNITYSDK_OFFSET(0x1C4B5560)
+#define CLASS_1_631F03DF76452894_ONALLOC_OFFSET UNITYSDK_OFFSET(0x1C4B5490)
+#define CLASS_1_631F03DF76452894_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x1C4B5520)
+#define CLASS_1_631F03DF76452894__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4B5740)
 
-inline static constexpr unsigned int Class_1_631F03DF76452894_TypeDefinitionIndex = 39551;
+inline static constexpr unsigned int Class_1_631F03DF76452894_TypeDefinitionIndex = 40424;
 
 class Class_1_631F03DF76452894 : public ::System::Object
 {
 public:
-	::System::String* Field_1_0; // 0x10
-	::System::String* Field_1_1; // 0x18
-	::System::String* Field_1_2; // 0x20
-	::Struct_2_16F410D309DC331F Field_1_3; // 0x28
-	::UnityEngine::GameObject* Field_1_4; // 0x50
-	::System::String* Field_1_5; // 0x58
-	::System::Action_2<::Entitas::IEntity*, ::UnityEngine::GameObject*>* Field_1_6; // 0x60
-	::UnityEngine::Transform* Field_1_7; // 0x68
-	::RPG::PoolList_1<::Struct_2_16F410D309DC331F>* Field_1_8; // 0x70
-	::Class_0_16E4307DCC419505_109* Field_1_9; // 0x78
-	::UnityEngine::Vector3 Field_1_10; // 0x80
-	::UnityEngine::Vector3 Field_1_11; // 0x8C
-	::System::Boolean Field_1_12; // 0x98
-	::System::Boolean Field_1_13; // 0x99
-	::System::Boolean Field_1_14; // 0x9A
-	::System::Boolean Field_1_15; // 0x9B
-	::UnityEngine::Vector3 Field_1_16; // 0x9C
-	::System::Boolean Field_1_17; // 0xA8
-	::System::Boolean Field_1_18; // 0xA9
-	::System::Boolean Field_1_19; // 0xAA
-	::System::Boolean Field_1_20; // 0xAB
-	::UnityEngine::Quaternion Field_1_21; // 0xAC
-	::UnityEngine::Vector3 Field_1_22; // 0xBC
+	::RPG::PoolList_1<::Struct_2_16F410D309DC331F>* IHGCGCKCAGH; // 0x10
+	::System::String* NIDFIGFJJLL; // 0x18
+	::UnityEngine::GameObject* HKNLMDCOCCF; // 0x20
+	::UnityEngine::Transform* CIMHBBGGADG; // 0x28
+	::Struct_2_16F410D309DC331F KIBGNCPDHLJ; // 0x30
+	::Class_0_16E4307DCC419505_109* CLOIOELOOFJ; // 0x58
+	::System::String* FCDAFMMLHEM; // 0x60
+	::System::String* BAHLDFMIJFG; // 0x68
+	::System::Action_2<::Entitas::IEntity*, ::UnityEngine::GameObject*>* CLOEGAGOONL; // 0x70
+	::System::String* CDEEHGCEOKN; // 0x78
+	::UnityEngine::Vector3 POHDKIIOAJB; // 0x80
+	::UnityEngine::Vector3 LBJPPLGGBNN; // 0x8C
+	::System::Boolean CHKMCEFAKHG; // 0x98
+	::System::Boolean IHJIDOPOABB; // 0x99
+	::System::Boolean BMMEKMLPJNK; // 0x9A
+	::System::Boolean LIFNOFJAKCC; // 0x9B
+	::UnityEngine::Vector3 LDDBFJDDNJO; // 0x9C
+	::System::Boolean CCBPFKBAFPN; // 0xA8
+	::System::Boolean MGBDJNCJCOL; // 0xA9
+	::System::Boolean DAMGODKAAKO; // 0xAA
+	::System::Boolean LBOEPCGMCJF; // 0xAB
+	::UnityEngine::Quaternion KHOPAMJJINE; // 0xAC
+	::UnityEngine::Vector3 IOAMJMEEHMN; // 0xBC
 
 	::System::Void _ctor()
 	{

@@ -3,10 +3,10 @@
 #include "unitysdk/RPG/Client/MockAnimator.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 
-#define CLASS_2_6938DAB0F1F7CE49_METHOD_2_982A20B755038310_OFFSET UNITYSDK_OFFSET(0x1548E2C0)
-#define CLASS_2_6938DAB0F1F7CE49__CTOR_OFFSET UNITYSDK_OFFSET(0x1548E310)
+#define CLASS_2_6938DAB0F1F7CE49_METHOD_2_982A20B755038310_OFFSET UNITYSDK_OFFSET(0x163D9110)
+#define CLASS_2_6938DAB0F1F7CE49__CTOR_OFFSET UNITYSDK_OFFSET(0x163D9160)
 
-inline static constexpr unsigned int Class_2_6938DAB0F1F7CE49_TypeDefinitionIndex = 72594;
+inline static constexpr unsigned int Class_2_6938DAB0F1F7CE49_TypeDefinitionIndex = 76030;
 
 class Class_2_6938DAB0F1F7CE49 : public ::RPG::Client::MockAnimator
 {

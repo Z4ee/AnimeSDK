@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LoaderState_TypeDefinitionIndex = 39215;
+	inline static constexpr unsigned int LoaderState_TypeDefinitionIndex = 40087;
 
 	enum class LoaderState : ::System::Int32
 	{

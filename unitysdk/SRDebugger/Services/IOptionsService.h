@@ -9,7 +9,7 @@ namespace System::Collections::Generic { template <typename T> class ICollection
 
 namespace SRDebugger::Services
 {
-	inline static constexpr unsigned int IOptionsService_TypeDefinitionIndex = 36512;
+	inline static constexpr unsigned int IOptionsService_TypeDefinitionIndex = 37371;
 
 	class IOptionsService
 	{

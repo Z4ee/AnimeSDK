@@ -5,24 +5,24 @@
 namespace RPG::GameCore { class GridFightVictoryBonusConfigRow; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_GRIDFIGHTPLAYER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC7B22D0)
-#define RPG_CLIENT_GRIDFIGHTPLAYER___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC7B2310)
-#define RPG_CLIENT_GRIDFIGHTPLAYER___C__GETVICTORYRULES_B__38_0_OFFSET UNITYSDK_OFFSET(0xC7B2320)
+#define RPG_CLIENT_GRIDFIGHTPLAYER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD2E4760)
+#define RPG_CLIENT_GRIDFIGHTPLAYER___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD2E47A0)
+#define RPG_CLIENT_GRIDFIGHTPLAYER___C__GETVICTORYRULES_B__38_0_OFFSET UNITYSDK_OFFSET(0xD2E47B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightPlayer___c_TypeDefinitionIndex = 62149;
+	inline static constexpr unsigned int GridFightPlayer___c_TypeDefinitionIndex = 65133;
 
 	class GridFightPlayer___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::GridFightPlayer___c** StaticGet___9()
-		{
-			return (::RPG::Client::GridFightPlayer___c**)Il2CppClass::FromTypeDefinitionIndex(GridFightPlayer___c_TypeDefinitionIndex)->GetStaticField(0x2AB80);
-		}
 		static ::System::Comparison_1<::RPG::GameCore::GridFightVictoryBonusConfigRow*>** StaticGet___9__38_0()
 		{
-			return (::System::Comparison_1<::RPG::GameCore::GridFightVictoryBonusConfigRow*>**)Il2CppClass::FromTypeDefinitionIndex(GridFightPlayer___c_TypeDefinitionIndex)->GetStaticField(0x2AB88);
+			return (::System::Comparison_1<::RPG::GameCore::GridFightVictoryBonusConfigRow*>**)Il2CppClass::FromTypeDefinitionIndex(GridFightPlayer___c_TypeDefinitionIndex)->GetStaticField(0x41DA0);
+		}
+		static ::RPG::Client::GridFightPlayer___c** StaticGet___9()
+		{
+			return (::RPG::Client::GridFightPlayer___c**)Il2CppClass::FromTypeDefinitionIndex(GridFightPlayer___c_TypeDefinitionIndex)->GetStaticField(0x41DA8);
 		}
 
 		static ::System::Void _cctor()

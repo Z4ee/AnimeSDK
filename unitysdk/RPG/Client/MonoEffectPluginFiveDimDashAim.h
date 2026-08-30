@@ -1,0 +1,55 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/MonoEffectPluginBase.h"
+
+class Class_1_0CF1228B0978AEEF;
+class Class_2_B9E8C2EEAA5C96EC;
+
+#define RPG_CLIENT_MONOEFFECTPLUGINFIVEDIMDASHAIM_DISPOSEPLUGIN_OFFSET UNITYSDK_OFFSET(0xD7BB120)
+#define RPG_CLIENT_MONOEFFECTPLUGINFIVEDIMDASHAIM_INIT_OFFSET UNITYSDK_OFFSET(0xD7BB190)
+#define RPG_CLIENT_MONOEFFECTPLUGINFIVEDIMDASHAIM_METHOD_6_508D4DD02D3DB74E_OFFSET UNITYSDK_OFFSET(0xD7BB2D0)
+#define RPG_CLIENT_MONOEFFECTPLUGINFIVEDIMDASHAIM_RESETPLUGIN_OFFSET UNITYSDK_OFFSET(0xD7BB0D0)
+#define RPG_CLIENT_MONOEFFECTPLUGINFIVEDIMDASHAIM_TICK_OFFSET UNITYSDK_OFFSET(0xD7BBB60)
+#define RPG_CLIENT_MONOEFFECTPLUGINFIVEDIMDASHAIM__CTOR_OFFSET UNITYSDK_OFFSET(0xD7BBBC0)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int MonoEffectPluginFiveDimDashAim_TypeDefinitionIndex = 69989;
+
+	class MonoEffectPluginFiveDimDashAim : public ::RPG::Client::MonoEffectPluginBase
+	{
+	public:
+		::Class_2_B9E8C2EEAA5C96EC* ACJGKBDLCMF; // 0x28
+		::Class_1_0CF1228B0978AEEF* JHGFHAFJLPC; // 0x30
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINFIVEDIMDASHAIM__CTOR_OFFSET))(this);
+		}
+
+		::System::Void ResetPlugin()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINFIVEDIMDASHAIM_RESETPLUGIN_OFFSET))(this);
+		}
+
+		::System::Void DisposePlugin()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINFIVEDIMDASHAIM_DISPOSEPLUGIN_OFFSET))(this);
+		}
+
+		::System::Void Init(::Class_2_B9E8C2EEAA5C96EC* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_2_B9E8C2EEAA5C96EC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINFIVEDIMDASHAIM_INIT_OFFSET))(this, a1);
+		}
+
+		::System::Void Tick(::System::Single a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINFIVEDIMDASHAIM_TICK_OFFSET))(this, a1);
+		}
+
+		::System::Void Method_6_508D4DD02D3DB74E()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINFIVEDIMDASHAIM_METHOD_6_508D4DD02D3DB74E_OFFSET))(this);
+		}
+	};
+}

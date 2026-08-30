@@ -4,15 +4,15 @@
 
 namespace System { class Type; }
 
-#define CLASS_2_2B5D33C75C48332B_8_METHOD_2_A99467CE9479C990_OFFSET UNITYSDK_OFFSET(0x1478A040)
-#define CLASS_2_2B5D33C75C48332B_8__CTOR_OFFSET UNITYSDK_OFFSET(0x1478A030)
+#define CLASS_2_2B5D33C75C48332B_8_METHOD_2_A99467CE9479C990_OFFSET UNITYSDK_OFFSET(0x155FEBA0)
+#define CLASS_2_2B5D33C75C48332B_8__CTOR_OFFSET UNITYSDK_OFFSET(0x155FEB90)
 
-inline static constexpr unsigned int Class_2_2B5D33C75C48332B_8_TypeDefinitionIndex = 47661;
+inline static constexpr unsigned int Class_2_2B5D33C75C48332B_8_TypeDefinitionIndex = 49942;
 
 class Class_2_2B5D33C75C48332B_8 : public ::System::Attribute
 {
 public:
-	::System::Type* Field_2_0; // 0x10
+	::System::Type* JIPILKCKFBL; // 0x10
 
 	::System::Void _ctor(::System::Type* a1)
 	{

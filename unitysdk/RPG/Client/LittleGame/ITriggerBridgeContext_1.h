@@ -5,7 +5,7 @@ namespace Entitas { template <typename T> class IMatcher_1; }
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int ITriggerBridgeContext_1_TypeDefinitionIndex = 39828;
+	inline static constexpr unsigned int ITriggerBridgeContext_1_TypeDefinitionIndex = 40703;
 
 	template <typename TEntity>
 	class ITriggerBridgeContext_1

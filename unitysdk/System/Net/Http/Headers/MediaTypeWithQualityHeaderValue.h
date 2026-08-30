@@ -7,13 +7,13 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Net::Http::Headers { class Lexer; }
 
-#define SYSTEM_NET_HTTP_HEADERS_MEDIATYPEWITHQUALITYHEADERVALUE_TRYPARSEELEMENT_OFFSET UNITYSDK_OFFSET(0x1CAE3FC0)
-#define SYSTEM_NET_HTTP_HEADERS_MEDIATYPEWITHQUALITYHEADERVALUE_TRYPARSE_OFFSET UNITYSDK_OFFSET(0x1CAE40F0)
-#define SYSTEM_NET_HTTP_HEADERS_MEDIATYPEWITHQUALITYHEADERVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CAE3FB0)
+#define SYSTEM_NET_HTTP_HEADERS_MEDIATYPEWITHQUALITYHEADERVALUE_TRYPARSEELEMENT_OFFSET UNITYSDK_OFFSET(0x1E78D940)
+#define SYSTEM_NET_HTTP_HEADERS_MEDIATYPEWITHQUALITYHEADERVALUE_TRYPARSE_OFFSET UNITYSDK_OFFSET(0x1E78DA70)
+#define SYSTEM_NET_HTTP_HEADERS_MEDIATYPEWITHQUALITYHEADERVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E78D930)
 
 namespace System::Net::Http::Headers
 {
-	inline static constexpr unsigned int MediaTypeWithQualityHeaderValue_TypeDefinitionIndex = 3796;
+	inline static constexpr unsigned int MediaTypeWithQualityHeaderValue_TypeDefinitionIndex = 3804;
 
 	class MediaTypeWithQualityHeaderValue : public ::System::Net::Http::Headers::MediaTypeHeaderValue
 	{

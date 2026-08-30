@@ -3,7 +3,7 @@
 
 namespace Unity::Collections
 {
-	inline static constexpr unsigned int Allocator_TypeDefinitionIndex = 3976;
+	inline static constexpr unsigned int Allocator_TypeDefinitionIndex = 3984;
 
 	enum class Allocator : ::System::Int32
 	{

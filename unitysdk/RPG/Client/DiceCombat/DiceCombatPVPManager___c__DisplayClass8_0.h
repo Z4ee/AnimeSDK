@@ -10,13 +10,13 @@ namespace RPG::Client::DiceCombat { class DiceCombatPVPManager; }
 namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
 namespace System { template <typename T> class Func_1; }
 
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATPVPMANAGER___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC2186C0)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATPVPMANAGER___C__DISPLAYCLASS8_0__ENTERPVPLOBBY_B__0_OFFSET UNITYSDK_OFFSET(0xC21AFA0)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATPVPMANAGER___C__DISPLAYCLASS8_0__ENTERPVPLOBBY_B__1_OFFSET UNITYSDK_OFFSET(0xC21B0C0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATPVPMANAGER___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCD2BED0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATPVPMANAGER___C__DISPLAYCLASS8_0__ENTERPVPLOBBY_B__0_OFFSET UNITYSDK_OFFSET(0xCD2E7F0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATPVPMANAGER___C__DISPLAYCLASS8_0__ENTERPVPLOBBY_B__1_OFFSET UNITYSDK_OFFSET(0xCD2E920)
 
 namespace RPG::Client::DiceCombat
 {
-	inline static constexpr unsigned int DiceCombatPVPManager___c__DisplayClass8_0_TypeDefinitionIndex = 72228;
+	inline static constexpr unsigned int DiceCombatPVPManager___c__DisplayClass8_0_TypeDefinitionIndex = 75664;
 
 	class DiceCombatPVPManager___c__DisplayClass8_0 : public ::System::Object
 	{

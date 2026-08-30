@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Diagnostics/ForcedCrashCategory.h"
 
-#define UNITYENGINE_DIAGNOSTICS_UTILS_FORCECRASH_OFFSET UNITYSDK_OFFSET(0x1D018300)
+#define UNITYENGINE_DIAGNOSTICS_UTILS_FORCECRASH_OFFSET UNITYSDK_OFFSET(0x1ED1F8D0)
 
 namespace UnityEngine::Diagnostics
 {
-	inline static constexpr unsigned int Utils_TypeDefinitionIndex = 4911;
+	inline static constexpr unsigned int Utils_TypeDefinitionIndex = 4923;
 
 	class Utils : public ::System::Object
 	{

@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class ChimeraEvaluationData; }
 
-#define RPG_CLIENT_CHIMERAEVALUATIONDISPLAYDATA_COMPARETO_OFFSET UNITYSDK_OFFSET(0xC1413D0)
-#define RPG_CLIENT_CHIMERAEVALUATIONDISPLAYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xC141440)
+#define RPG_CLIENT_CHIMERAEVALUATIONDISPLAYDATA_COMPARETO_OFFSET UNITYSDK_OFFSET(0xCBF6F50)
+#define RPG_CLIENT_CHIMERAEVALUATIONDISPLAYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xCBF6FC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraEvaluationDisplayData_TypeDefinitionIndex = 60696;
+	inline static constexpr unsigned int ChimeraEvaluationDisplayData_TypeDefinitionIndex = 63549;
 
 	class ChimeraEvaluationDisplayData : public ::System::Object
 	{

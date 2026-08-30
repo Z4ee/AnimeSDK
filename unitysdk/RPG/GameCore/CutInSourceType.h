@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CutInSourceType_TypeDefinitionIndex = 23809;
+	inline static constexpr unsigned int CutInSourceType_TypeDefinitionIndex = 24397;
 
 	enum class CutInSourceType : ::System::Int32
 	{

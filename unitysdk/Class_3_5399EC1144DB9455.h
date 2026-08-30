@@ -5,17 +5,17 @@
 namespace RPG::GameCore { class StartAdvTutorialGraph; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_5399EC1144DB9455_DISPOSE_OFFSET UNITYSDK_OFFSET(0x11FDFAE0)
-#define CLASS_3_5399EC1144DB9455_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x11FDFB20)
-#define CLASS_3_5399EC1144DB9455_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x11FDFC80)
-#define CLASS_3_5399EC1144DB9455__CTOR_OFFSET UNITYSDK_OFFSET(0x11FDFAB0)
+#define CLASS_3_5399EC1144DB9455_DISPOSE_OFFSET UNITYSDK_OFFSET(0x13502180)
+#define CLASS_3_5399EC1144DB9455_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x135021C0)
+#define CLASS_3_5399EC1144DB9455_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x13502320)
+#define CLASS_3_5399EC1144DB9455__CTOR_OFFSET UNITYSDK_OFFSET(0x13502150)
 
-inline static constexpr unsigned int Class_3_5399EC1144DB9455_TypeDefinitionIndex = 56088;
+inline static constexpr unsigned int Class_3_5399EC1144DB9455_TypeDefinitionIndex = 58863;
 
 class Class_3_5399EC1144DB9455 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::StartAdvTutorialGraph*>
 {
 public:
-	::System::Boolean Field_3_0; // 0x28
+	::System::Boolean EJDEKKEOHBE; // 0x28
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::StartAdvTutorialGraph* a2)
 	{

@@ -5,24 +5,24 @@
 namespace RPG::Client { class RenderTestPageContext_AnimationDropDownItem; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_RENDERTESTPAGECONTEXT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD322A30)
-#define RPG_CLIENT_RENDERTESTPAGECONTEXT___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD322A70)
-#define RPG_CLIENT_RENDERTESTPAGECONTEXT___C___INITANIMATIONDROPDOWN_B__55_0_OFFSET UNITYSDK_OFFSET(0xD322A80)
+#define RPG_CLIENT_RENDERTESTPAGECONTEXT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xDE638D0)
+#define RPG_CLIENT_RENDERTESTPAGECONTEXT___C__CTOR_OFFSET UNITYSDK_OFFSET(0xDE63910)
+#define RPG_CLIENT_RENDERTESTPAGECONTEXT___C___INITANIMATIONDROPDOWN_B__55_0_OFFSET UNITYSDK_OFFSET(0xDE63920)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RenderTestPageContext___c_TypeDefinitionIndex = 69555;
+	inline static constexpr unsigned int RenderTestPageContext___c_TypeDefinitionIndex = 72783;
 
 	class RenderTestPageContext___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::RPG::Client::RenderTestPageContext_AnimationDropDownItem*>** StaticGet___9__55_0()
-		{
-			return (::System::Comparison_1<::RPG::Client::RenderTestPageContext_AnimationDropDownItem*>**)Il2CppClass::FromTypeDefinitionIndex(RenderTestPageContext___c_TypeDefinitionIndex)->GetStaticField(0x21DD0);
-		}
 		static ::RPG::Client::RenderTestPageContext___c** StaticGet___9()
 		{
-			return (::RPG::Client::RenderTestPageContext___c**)Il2CppClass::FromTypeDefinitionIndex(RenderTestPageContext___c_TypeDefinitionIndex)->GetStaticField(0x21DD8);
+			return (::RPG::Client::RenderTestPageContext___c**)Il2CppClass::FromTypeDefinitionIndex(RenderTestPageContext___c_TypeDefinitionIndex)->GetStaticField(0x61580);
+		}
+		static ::System::Comparison_1<::RPG::Client::RenderTestPageContext_AnimationDropDownItem*>** StaticGet___9__55_0()
+		{
+			return (::System::Comparison_1<::RPG::Client::RenderTestPageContext_AnimationDropDownItem*>**)Il2CppClass::FromTypeDefinitionIndex(RenderTestPageContext___c_TypeDefinitionIndex)->GetStaticField(0x61588);
 		}
 
 		static ::System::Void _cctor()

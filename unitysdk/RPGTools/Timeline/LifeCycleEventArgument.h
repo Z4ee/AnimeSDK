@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_LIFECYCLEEVENTARGUMENT__CTOR_OFFSET UNITYSDK_OFFSET(0xDCE4F70)
+#define RPGTOOLS_TIMELINE_LIFECYCLEEVENTARGUMENT__CTOR_OFFSET UNITYSDK_OFFSET(0xE865F20)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int LifeCycleEventArgument_TypeDefinitionIndex = 46378;
+	inline static constexpr unsigned int LifeCycleEventArgument_TypeDefinitionIndex = 48613;
 
 	class LifeCycleEventArgument : public ::System::Object
 	{

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_ROGUETOASTMIRACLEBROKENPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xD407C40)
+#define RPG_CLIENT_ROGUETOASTMIRACLEBROKENPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xDF23A90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueToastMiracleBrokenParam_TypeDefinitionIndex = 64025;
+	inline static constexpr unsigned int RogueToastMiracleBrokenParam_TypeDefinitionIndex = 67016;
 
 	class RogueToastMiracleBrokenParam : public ::System::Object
 	{

@@ -4,18 +4,18 @@
 
 namespace IRIClusterBuilder::Test { class IRICarTestManager; }
 
-#define IRICLUSTERBUILDER_TEST_IRICARTESTMANAGER___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15249E00)
-#define IRICLUSTERBUILDER_TEST_IRICARTESTMANAGER___C__DISPLAYCLASS15_0__RELOADVOLUMETEMPLATES_B__0_OFFSET UNITYSDK_OFFSET(0x1524DBE0)
+#define IRICLUSTERBUILDER_TEST_IRICARTESTMANAGER___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0x161B6090)
+#define IRICLUSTERBUILDER_TEST_IRICARTESTMANAGER___C__DISPLAYCLASS15_0__RELOADVOLUMETEMPLATES_B__0_OFFSET UNITYSDK_OFFSET(0x161B9F30)
 
 namespace IRIClusterBuilder::Test
 {
-	inline static constexpr unsigned int IRICarTestManager___c__DisplayClass15_0_TypeDefinitionIndex = 45999;
+	inline static constexpr unsigned int IRICarTestManager___c__DisplayClass15_0_TypeDefinitionIndex = 48223;
 
 	class IRICarTestManager___c__DisplayClass15_0 : public ::System::Object
 	{
 	public:
-		::IRIClusterBuilder::Test::IRICarTestManager* __4__this; // 0x10
-		::Il2CppArray<::System::Byte>* assetBundleData; // 0x18
+		::Il2CppArray<::System::Byte>* assetBundleData; // 0x10
+		::IRIClusterBuilder::Test::IRICarTestManager* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

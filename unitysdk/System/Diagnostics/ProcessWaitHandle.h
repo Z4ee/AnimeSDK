@@ -4,11 +4,11 @@
 
 namespace Microsoft::Win32::SafeHandles { class SafeProcessHandle; }
 
-#define SYSTEM_DIAGNOSTICS_PROCESSWAITHANDLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC97B70)
+#define SYSTEM_DIAGNOSTICS_PROCESSWAITHANDLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E942B00)
 
 namespace System::Diagnostics
 {
-	inline static constexpr unsigned int ProcessWaitHandle_TypeDefinitionIndex = 2547;
+	inline static constexpr unsigned int ProcessWaitHandle_TypeDefinitionIndex = 2554;
 
 	class ProcessWaitHandle : public ::System::Threading::WaitHandle
 	{

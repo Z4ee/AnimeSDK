@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/PropertyAttribute.h"
 
-#define CINEMACHINE_VCAMTARGETPROPERTYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x15705400)
+#define CINEMACHINE_VCAMTARGETPROPERTYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1648ED30)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int VcamTargetPropertyAttribute_TypeDefinitionIndex = 37669;
+	inline static constexpr unsigned int VcamTargetPropertyAttribute_TypeDefinitionIndex = 38528;
 
 	class VcamTargetPropertyAttribute : public ::UnityEngine::PropertyAttribute
 	{

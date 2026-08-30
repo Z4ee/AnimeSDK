@@ -3,7 +3,7 @@
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int PadTriggerType_TypeDefinitionIndex = 74798;
+	inline static constexpr unsigned int PadTriggerType_TypeDefinitionIndex = 78283;
 
 	enum class PadTriggerType : ::System::Int32
 	{

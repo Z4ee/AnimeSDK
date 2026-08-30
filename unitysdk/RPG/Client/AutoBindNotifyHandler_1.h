@@ -10,7 +10,7 @@ namespace System::Reflection { class MethodInfo; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AutoBindNotifyHandler_1_TypeDefinitionIndex = 69794;
+	inline static constexpr unsigned int AutoBindNotifyHandler_1_TypeDefinitionIndex = 73052;
 
 	template <typename T>
 	class AutoBindNotifyHandler_1 : public ::Class_1_6AB058C99D483032

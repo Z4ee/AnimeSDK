@@ -6,12 +6,12 @@ namespace RPG::Client::Promises { class IPendingPromise; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace UnityEngine { class RectTransform; }
 
-#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINADDCARDTOPILEFLOWVIEW___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC4E2580)
-#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINADDCARDTOPILEFLOWVIEW___C__DISPLAYCLASS10_0___PLAYADDCARDTOPILEFLOW_B__0_OFFSET UNITYSDK_OFFSET(0xC4E3B50)
+#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINADDCARDTOPILEFLOWVIEW___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD017CA0)
+#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINADDCARDTOPILEFLOWVIEW___C__DISPLAYCLASS10_0___PLAYADDCARDTOPILEFLOW_B__0_OFFSET UNITYSDK_OFFSET(0xD019270)
 
 namespace RPG::Client::FateRin::View::Battle
 {
-	inline static constexpr unsigned int FateRinAddCardToPileFlowView___c__DisplayClass10_0_TypeDefinitionIndex = 75699;
+	inline static constexpr unsigned int FateRinAddCardToPileFlowView___c__DisplayClass10_0_TypeDefinitionIndex = 79332;
 
 	class FateRinAddCardToPileFlowView___c__DisplayClass10_0 : public ::System::Object
 	{

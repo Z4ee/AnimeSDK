@@ -4,24 +4,24 @@
 
 namespace System { class Action; }
 
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSPOSTVIEWMODEL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC953880)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSPOSTVIEWMODEL___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC9538C0)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSPOSTVIEWMODEL___C__SHOWSUBMITTEDPOSTWINDOW_B__74_0_OFFSET UNITYSDK_OFFSET(0xC9538D0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSPOSTVIEWMODEL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD48A690)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSPOSTVIEWMODEL___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD48A6D0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSPOSTVIEWMODEL___C__SHOWSUBMITTEDPOSTWINDOW_B__74_0_OFFSET UNITYSDK_OFFSET(0xD48A6E0)
 
 namespace RPG::Client::LimaoNews
 {
-	inline static constexpr unsigned int LimaoNewsPostViewModel___c_TypeDefinitionIndex = 75538;
+	inline static constexpr unsigned int LimaoNewsPostViewModel___c_TypeDefinitionIndex = 79148;
 
 	class LimaoNewsPostViewModel___c : public ::System::Object
 	{
 	public:
 		static ::System::Action** StaticGet___9__74_0()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(LimaoNewsPostViewModel___c_TypeDefinitionIndex)->GetStaticField(0x37BC0);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(LimaoNewsPostViewModel___c_TypeDefinitionIndex)->GetStaticField(0x61270);
 		}
 		static ::RPG::Client::LimaoNews::LimaoNewsPostViewModel___c** StaticGet___9()
 		{
-			return (::RPG::Client::LimaoNews::LimaoNewsPostViewModel___c**)Il2CppClass::FromTypeDefinitionIndex(LimaoNewsPostViewModel___c_TypeDefinitionIndex)->GetStaticField(0x37BC8);
+			return (::RPG::Client::LimaoNews::LimaoNewsPostViewModel___c**)Il2CppClass::FromTypeDefinitionIndex(LimaoNewsPostViewModel___c_TypeDefinitionIndex)->GetStaticField(0x61278);
 		}
 
 		static ::System::Void _cctor()

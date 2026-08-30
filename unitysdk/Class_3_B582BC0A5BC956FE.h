@@ -7,16 +7,16 @@ class Class_3_1BE1C9B95DC77FA5;
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_3_B582BC0A5BC956FE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x144A3C90)
-#define CLASS_3_B582BC0A5BC956FE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x144A3CD0)
-#define CLASS_3_B582BC0A5BC956FE__CTOR_OFFSET UNITYSDK_OFFSET(0x144A3C20)
+#define CLASS_3_B582BC0A5BC956FE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x152D4E50)
+#define CLASS_3_B582BC0A5BC956FE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x152D4E90)
+#define CLASS_3_B582BC0A5BC956FE__CTOR_OFFSET UNITYSDK_OFFSET(0x152D4DE0)
 
-inline static constexpr unsigned int Class_3_B582BC0A5BC956FE_TypeDefinitionIndex = 51423;
+inline static constexpr unsigned int Class_3_B582BC0A5BC956FE_TypeDefinitionIndex = 54107;
 
 class Class_3_B582BC0A5BC956FE : public ::RPG::GameCore::ImmediateTaskBase_1<::Class_3_1BE1C9B95DC77FA5*>
 {
 public:
-	::System::Collections::Generic::List_1<::Class_2_291F7DA21A504FC4*>* Field_3_0; // 0x28
+	::System::Collections::Generic::List_1<::Class_2_291F7DA21A504FC4*>* JBBCKPOAHCL; // 0x28
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::Class_3_1BE1C9B95DC77FA5* a2)
 	{

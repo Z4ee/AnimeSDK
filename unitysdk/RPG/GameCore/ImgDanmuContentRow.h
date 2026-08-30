@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_IMGDANMUCONTENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B52C9A0)
-#define RPG_GAMECORE_IMGDANMUCONTENTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B52CAD0)
+#define RPG_GAMECORE_IMGDANMUCONTENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D1A5FF0)
+#define RPG_GAMECORE_IMGDANMUCONTENTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1A6120)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ImgDanmuContentRow_TypeDefinitionIndex = 14584;
+	inline static constexpr unsigned int ImgDanmuContentRow_TypeDefinitionIndex = 15020;
 
 	class ImgDanmuContentRow : public ::System::Object
 	{

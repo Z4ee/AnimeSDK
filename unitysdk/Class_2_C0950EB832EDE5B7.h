@@ -6,16 +6,16 @@
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define CLASS_2_C0950EB832EDE5B7_FILLNOTIFYTYPESTO_OFFSET UNITYSDK_OFFSET(0xAD3F1B0)
-#define CLASS_2_C0950EB832EDE5B7__CTOR_OFFSET UNITYSDK_OFFSET(0xAD3F240)
-#define CLASS_2_C0950EB832EDE5B7__DOCHECKIMPL_OFFSET UNITYSDK_OFFSET(0xAD3F260)
+#define CLASS_2_C0950EB832EDE5B7_FILLNOTIFYTYPESTO_OFFSET UNITYSDK_OFFSET(0xB48BEF0)
+#define CLASS_2_C0950EB832EDE5B7__CTOR_OFFSET UNITYSDK_OFFSET(0xB48BF80)
+#define CLASS_2_C0950EB832EDE5B7__DOCHECKIMPL_OFFSET UNITYSDK_OFFSET(0xB48BFA0)
 
-inline static constexpr unsigned int Class_2_C0950EB832EDE5B7_TypeDefinitionIndex = 57223;
+inline static constexpr unsigned int Class_2_C0950EB832EDE5B7_TypeDefinitionIndex = 60021;
 
 class Class_2_C0950EB832EDE5B7 : public ::RPG::Client::AsyncCheckItemBase
 {
 public:
-	::System::UInt32 Field_2_0; // 0x10
+	::System::UInt32 CLHLFGJGGCH; // 0x10
 
 	::System::Void _ctor(::System::Object* a1)
 	{

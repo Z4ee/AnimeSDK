@@ -7,42 +7,42 @@ namespace RPG::Client { class PunkLordHonor; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Linq { template <typename T1, typename T2> class IGrouping_2; }
 
-#define CLASS_1_1893C61DB9820D93___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x149AECC0)
-#define CLASS_1_1893C61DB9820D93___C__CTOR_OFFSET UNITYSDK_OFFSET(0x149AED00)
-#define CLASS_1_1893C61DB9820D93___C__GENERATEHONORLIST_B__0_0_OFFSET UNITYSDK_OFFSET(0x149AED10)
-#define CLASS_1_1893C61DB9820D93___C__GENERATEHONORLIST_B__0_1_OFFSET UNITYSDK_OFFSET(0x149AED30)
-#define CLASS_1_1893C61DB9820D93___C__GENERATEHONORLIST_B__0_2_OFFSET UNITYSDK_OFFSET(0x149AEFD0)
-#define CLASS_1_1893C61DB9820D93___C__GENERATEHONORLIST_B__0_3_OFFSET UNITYSDK_OFFSET(0x149AEFF0)
-#define CLASS_1_1893C61DB9820D93___C__GENERATEHONORLIST_B__0_4_OFFSET UNITYSDK_OFFSET(0x149AEFB0)
+#define CLASS_1_1893C61DB9820D93___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1583EB60)
+#define CLASS_1_1893C61DB9820D93___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1583EBA0)
+#define CLASS_1_1893C61DB9820D93___C__GENERATEHONORLIST_B__0_0_OFFSET UNITYSDK_OFFSET(0x1583EBB0)
+#define CLASS_1_1893C61DB9820D93___C__GENERATEHONORLIST_B__0_1_OFFSET UNITYSDK_OFFSET(0x1583EBD0)
+#define CLASS_1_1893C61DB9820D93___C__GENERATEHONORLIST_B__0_2_OFFSET UNITYSDK_OFFSET(0x1583EE70)
+#define CLASS_1_1893C61DB9820D93___C__GENERATEHONORLIST_B__0_3_OFFSET UNITYSDK_OFFSET(0x1583EE90)
+#define CLASS_1_1893C61DB9820D93___C__GENERATEHONORLIST_B__0_4_OFFSET UNITYSDK_OFFSET(0x1583EE50)
 
-inline static constexpr unsigned int Class_1_1893C61DB9820D93___c_TypeDefinitionIndex = 63778;
+inline static constexpr unsigned int Class_1_1893C61DB9820D93___c_TypeDefinitionIndex = 66763;
 
 class Class_1_1893C61DB9820D93___c : public ::System::Object
 {
 public:
-	static ::System::Func_2<::RPG::Client::PunkLordHonor*, ::System::UInt32>** StaticGet___9__0_3()
-	{
-		return (::System::Func_2<::RPG::Client::PunkLordHonor*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_1893C61DB9820D93___c_TypeDefinitionIndex)->GetStaticField(0x64330);
-	}
 	static ::System::Func_2<::Class_1_C222160220C38EC4*, ::System::UInt32>** StaticGet___9__0_2()
 	{
-		return (::System::Func_2<::Class_1_C222160220C38EC4*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_1893C61DB9820D93___c_TypeDefinitionIndex)->GetStaticField(0x64338);
-	}
-	static ::System::Func_2<::Class_1_C222160220C38EC4*, ::System::UInt32>** StaticGet___9__0_0()
-	{
-		return (::System::Func_2<::Class_1_C222160220C38EC4*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_1893C61DB9820D93___c_TypeDefinitionIndex)->GetStaticField(0x64340);
-	}
-	static ::System::Func_2<::Class_1_C222160220C38EC4*, ::System::Int64>** StaticGet___9__0_4()
-	{
-		return (::System::Func_2<::Class_1_C222160220C38EC4*, ::System::Int64>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_1893C61DB9820D93___c_TypeDefinitionIndex)->GetStaticField(0x64348);
-	}
-	static ::System::Func_2<::System::Linq::IGrouping_2<::System::UInt32, ::Class_1_C222160220C38EC4*>*, ::Class_1_C222160220C38EC4*>** StaticGet___9__0_1()
-	{
-		return (::System::Func_2<::System::Linq::IGrouping_2<::System::UInt32, ::Class_1_C222160220C38EC4*>*, ::Class_1_C222160220C38EC4*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_1893C61DB9820D93___c_TypeDefinitionIndex)->GetStaticField(0x64350);
+		return (::System::Func_2<::Class_1_C222160220C38EC4*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_1893C61DB9820D93___c_TypeDefinitionIndex)->GetStaticField(0x58500);
 	}
 	static ::Class_1_1893C61DB9820D93___c** StaticGet___9()
 	{
-		return (::Class_1_1893C61DB9820D93___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_1893C61DB9820D93___c_TypeDefinitionIndex)->GetStaticField(0x64358);
+		return (::Class_1_1893C61DB9820D93___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_1893C61DB9820D93___c_TypeDefinitionIndex)->GetStaticField(0x58508);
+	}
+	static ::System::Func_2<::Class_1_C222160220C38EC4*, ::System::Int64>** StaticGet___9__0_4()
+	{
+		return (::System::Func_2<::Class_1_C222160220C38EC4*, ::System::Int64>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_1893C61DB9820D93___c_TypeDefinitionIndex)->GetStaticField(0x58510);
+	}
+	static ::System::Func_2<::System::Linq::IGrouping_2<::System::UInt32, ::Class_1_C222160220C38EC4*>*, ::Class_1_C222160220C38EC4*>** StaticGet___9__0_1()
+	{
+		return (::System::Func_2<::System::Linq::IGrouping_2<::System::UInt32, ::Class_1_C222160220C38EC4*>*, ::Class_1_C222160220C38EC4*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_1893C61DB9820D93___c_TypeDefinitionIndex)->GetStaticField(0x58518);
+	}
+	static ::System::Func_2<::RPG::Client::PunkLordHonor*, ::System::UInt32>** StaticGet___9__0_3()
+	{
+		return (::System::Func_2<::RPG::Client::PunkLordHonor*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_1893C61DB9820D93___c_TypeDefinitionIndex)->GetStaticField(0x58520);
+	}
+	static ::System::Func_2<::Class_1_C222160220C38EC4*, ::System::UInt32>** StaticGet___9__0_0()
+	{
+		return (::System::Func_2<::Class_1_C222160220C38EC4*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_1893C61DB9820D93___c_TypeDefinitionIndex)->GetStaticField(0x58528);
 	}
 
 	static ::System::Void _cctor()

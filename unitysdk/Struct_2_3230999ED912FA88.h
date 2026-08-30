@@ -6,16 +6,16 @@
 namespace System { class Action; }
 namespace System { template <typename T> class Action_1; }
 
-inline static constexpr unsigned int Struct_2_3230999ED912FA88_TypeDefinitionIndex = 70561;
+inline static constexpr unsigned int Struct_2_3230999ED912FA88_TypeDefinitionIndex = 73860;
 
 struct alignas(8) Struct_2_3230999ED912FA88
 {
-	::System::Boolean Field_2_0; // 0x10
-	::UnityEngine::Vector3 Field_2_1; // 0x14
-	::System::Action* Field_2_2; // 0x20
-	::System::Action_1<::System::Int32>* Field_2_3; // 0x28
-	::System::Action* Field_2_4; // 0x30
-	::System::Int32 Field_2_5; // 0x38
-	::System::Boolean Field_2_6; // 0x3C
-	::System::Boolean Field_2_7; // 0x3D
+	::System::Boolean NLDLLPECLCH; // 0x10
+	::UnityEngine::Vector3 BHCMCMADHBF; // 0x14
+	::System::Action* CLJEBKODGHK; // 0x20
+	::System::Action_1<::System::Int32>* OBJOJMJDGMI; // 0x28
+	::System::Action* AHEEAFKFALM; // 0x30
+	::System::Int32 GJDJFANOAEP; // 0x38
+	::System::Boolean HLFEMFMHOJL; // 0x3C
+	::System::Boolean HNKFDNPJAIB; // 0x3D
 };

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CruiseSpeedSignType_TypeDefinitionIndex = 23799;
+	inline static constexpr unsigned int CruiseSpeedSignType_TypeDefinitionIndex = 24387;
 
 	enum class CruiseSpeedSignType : ::System::Int32
 	{

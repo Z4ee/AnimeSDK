@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_RESTAURANTQUESTGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B72AD50)
-#define RPG_GAMECORE_RESTAURANTQUESTGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B72B0C0)
+#define RPG_GAMECORE_RESTAURANTQUESTGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3AD300)
+#define RPG_GAMECORE_RESTAURANTQUESTGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3AD670)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RestaurantQuestGroupRow_TypeDefinitionIndex = 11001;
+	inline static constexpr unsigned int RestaurantQuestGroupRow_TypeDefinitionIndex = 11376;
 
 	class RestaurantQuestGroupRow : public ::System::Object
 	{
@@ -21,8 +21,8 @@ namespace RPG::GameCore
 		::Il2CppArray<::System::UInt32>* QuestIDList; // 0x20
 		::RPG::Client::TextID Content; // 0x28
 		::RPG::Client::TextID CharacterName; // 0x38
-		::System::UInt32 QuestGroupID; // 0x48
-		::RPG::Client::TextID Name; // 0x50
+		::RPG::Client::TextID Name; // 0x48
+		::System::UInt32 QuestGroupID; // 0x58
 
 		::System::Void _ctor()
 		{

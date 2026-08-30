@@ -3,7 +3,7 @@
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int GridLayoutGroup_Axis_TypeDefinitionIndex = 5931;
+	inline static constexpr unsigned int GridLayoutGroup_Axis_TypeDefinitionIndex = 6761;
 
 	enum class GridLayoutGroup_Axis : ::System::Int32
 	{

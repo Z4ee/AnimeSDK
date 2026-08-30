@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ACTIVITYQUESTTABGROUPUIROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B129580)
-#define RPG_GAMECORE_ACTIVITYQUESTTABGROUPUIROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B129700)
+#define RPG_GAMECORE_ACTIVITYQUESTTABGROUPUIROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CD9FD00)
+#define RPG_GAMECORE_ACTIVITYQUESTTABGROUPUIROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD9FE80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityQuestTabGroupUIRow_TypeDefinitionIndex = 11839;
+	inline static constexpr unsigned int ActivityQuestTabGroupUIRow_TypeDefinitionIndex = 12228;
 
 	class ActivityQuestTabGroupUIRow : public ::System::Object
 	{

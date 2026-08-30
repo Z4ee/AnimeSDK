@@ -9,44 +9,44 @@ namespace RPG::GameCore { class EvolveBuildGearEquipInfo; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_EVOLVEBUILDUTILS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC41FCC0)
-#define RPG_CLIENT_EVOLVEBUILDUTILS___C__COUNTUNLOCKEDSLOTNUM_B__18_0_OFFSET UNITYSDK_OFFSET(0xC4201B0)
-#define RPG_CLIENT_EVOLVEBUILDUTILS___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC41FD00)
-#define RPG_CLIENT_EVOLVEBUILDUTILS___C__GETSORTEDGEAREQUIPINFO_B__1_0_OFFSET UNITYSDK_OFFSET(0xC41FD10)
-#define RPG_CLIENT_EVOLVEBUILDUTILS___C__GETSORTEDMIXDATASC_B__8_0_OFFSET UNITYSDK_OFFSET(0xC41FF60)
-#define RPG_CLIENT_EVOLVEBUILDUTILS___C__GETSORTEDMIXDATA_B__7_0_OFFSET UNITYSDK_OFFSET(0xC41FD40)
-#define RPG_CLIENT_EVOLVEBUILDUTILS___C__SLOTINFOS2GEAREQUIPINFOS_B__17_0_OFFSET UNITYSDK_OFFSET(0xC420180)
+#define RPG_CLIENT_EVOLVEBUILDUTILS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xCEF4A20)
+#define RPG_CLIENT_EVOLVEBUILDUTILS___C__COUNTUNLOCKEDSLOTNUM_B__18_0_OFFSET UNITYSDK_OFFSET(0xCEF4F10)
+#define RPG_CLIENT_EVOLVEBUILDUTILS___C__CTOR_OFFSET UNITYSDK_OFFSET(0xCEF4A60)
+#define RPG_CLIENT_EVOLVEBUILDUTILS___C__GETSORTEDGEAREQUIPINFO_B__1_0_OFFSET UNITYSDK_OFFSET(0xCEF4A70)
+#define RPG_CLIENT_EVOLVEBUILDUTILS___C__GETSORTEDMIXDATASC_B__8_0_OFFSET UNITYSDK_OFFSET(0xCEF4CC0)
+#define RPG_CLIENT_EVOLVEBUILDUTILS___C__GETSORTEDMIXDATA_B__7_0_OFFSET UNITYSDK_OFFSET(0xCEF4AA0)
+#define RPG_CLIENT_EVOLVEBUILDUTILS___C__SLOTINFOS2GEAREQUIPINFOS_B__17_0_OFFSET UNITYSDK_OFFSET(0xCEF4EE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EvolveBuildUtils___c_TypeDefinitionIndex = 61023;
+	inline static constexpr unsigned int EvolveBuildUtils___c_TypeDefinitionIndex = 63876;
 
 	class EvolveBuildUtils___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::Class_1_997BC107281E8D79*, ::System::Boolean>** StaticGet___9__18_0()
+		static ::RPG::Client::EvolveBuildUtils___c** StaticGet___9()
 		{
-			return (::System::Func_2<::Class_1_997BC107281E8D79*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(EvolveBuildUtils___c_TypeDefinitionIndex)->GetStaticField(0x1920);
+			return (::RPG::Client::EvolveBuildUtils___c**)Il2CppClass::FromTypeDefinitionIndex(EvolveBuildUtils___c_TypeDefinitionIndex)->GetStaticField(0x66460);
 		}
 		static ::System::Comparison_1<::RPG::Client::EvolveBuildMixData*>** StaticGet___9__7_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::EvolveBuildMixData*>**)Il2CppClass::FromTypeDefinitionIndex(EvolveBuildUtils___c_TypeDefinitionIndex)->GetStaticField(0x1928);
+			return (::System::Comparison_1<::RPG::Client::EvolveBuildMixData*>**)Il2CppClass::FromTypeDefinitionIndex(EvolveBuildUtils___c_TypeDefinitionIndex)->GetStaticField(0x66468);
 		}
-		static ::System::Comparison_1<::RPG::Client::EvolveBuildScMixData*>** StaticGet___9__8_0()
+		static ::System::Func_2<::Class_1_997BC107281E8D79*, ::System::Boolean>** StaticGet___9__18_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::EvolveBuildScMixData*>**)Il2CppClass::FromTypeDefinitionIndex(EvolveBuildUtils___c_TypeDefinitionIndex)->GetStaticField(0x1930);
-		}
-		static ::RPG::Client::EvolveBuildUtils___c** StaticGet___9()
-		{
-			return (::RPG::Client::EvolveBuildUtils___c**)Il2CppClass::FromTypeDefinitionIndex(EvolveBuildUtils___c_TypeDefinitionIndex)->GetStaticField(0x1938);
-		}
-		static ::System::Func_2<::RPG::GameCore::EvolveBuildGearEquipInfo*, ::System::UInt32>** StaticGet___9__1_0()
-		{
-			return (::System::Func_2<::RPG::GameCore::EvolveBuildGearEquipInfo*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(EvolveBuildUtils___c_TypeDefinitionIndex)->GetStaticField(0x1940);
+			return (::System::Func_2<::Class_1_997BC107281E8D79*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(EvolveBuildUtils___c_TypeDefinitionIndex)->GetStaticField(0x66470);
 		}
 		static ::System::Func_2<::Class_1_997BC107281E8D79*, ::System::Boolean>** StaticGet___9__17_0()
 		{
-			return (::System::Func_2<::Class_1_997BC107281E8D79*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(EvolveBuildUtils___c_TypeDefinitionIndex)->GetStaticField(0x1948);
+			return (::System::Func_2<::Class_1_997BC107281E8D79*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(EvolveBuildUtils___c_TypeDefinitionIndex)->GetStaticField(0x66478);
+		}
+		static ::System::Comparison_1<::RPG::Client::EvolveBuildScMixData*>** StaticGet___9__8_0()
+		{
+			return (::System::Comparison_1<::RPG::Client::EvolveBuildScMixData*>**)Il2CppClass::FromTypeDefinitionIndex(EvolveBuildUtils___c_TypeDefinitionIndex)->GetStaticField(0x66480);
+		}
+		static ::System::Func_2<::RPG::GameCore::EvolveBuildGearEquipInfo*, ::System::UInt32>** StaticGet___9__1_0()
+		{
+			return (::System::Func_2<::RPG::GameCore::EvolveBuildGearEquipInfo*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(EvolveBuildUtils___c_TypeDefinitionIndex)->GetStaticField(0x66488);
 		}
 
 		static ::System::Void _cctor()

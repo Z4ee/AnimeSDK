@@ -6,12 +6,12 @@
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Mesh; }
 
-#define RPG_CLIENT_EFFECT_KALEIDOSCOPEANIMATORBEHAVIOR_PARTICLEDATA_METHOD_1_A3FAE12D7B6ACD62_OFFSET UNITYSDK_OFFSET(0xC31F910)
-#define RPG_CLIENT_EFFECT_KALEIDOSCOPEANIMATORBEHAVIOR_PARTICLEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xC31F980)
+#define RPG_CLIENT_EFFECT_KALEIDOSCOPEANIMATORBEHAVIOR_PARTICLEDATA_METHOD_1_A3FAE12D7B6ACD62_OFFSET UNITYSDK_OFFSET(0xCDF0D60)
+#define RPG_CLIENT_EFFECT_KALEIDOSCOPEANIMATORBEHAVIOR_PARTICLEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xCDF0DD0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_KaleidoscopeAnimatorBehavior_ParticleData_TypeDefinitionIndex = 67335;
+	inline static constexpr unsigned int Effect_KaleidoscopeAnimatorBehavior_ParticleData_TypeDefinitionIndex = 70457;
 
 	class Effect_KaleidoscopeAnimatorBehavior_ParticleData : public ::System::Object
 	{

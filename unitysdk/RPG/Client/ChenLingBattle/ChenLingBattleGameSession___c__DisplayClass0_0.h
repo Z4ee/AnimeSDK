@@ -4,12 +4,12 @@
 
 namespace RPG::Client::ChenLingBattle { class HandCard; }
 
-#define RPG_CLIENT_CHENLINGBATTLE_CHENLINGBATTLEGAMESESSION___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC045940)
-#define RPG_CLIENT_CHENLINGBATTLE_CHENLINGBATTLEGAMESESSION___C__DISPLAYCLASS0_0__GETHANDCARD_B__0_OFFSET UNITYSDK_OFFSET(0xC054610)
+#define RPG_CLIENT_CHENLINGBATTLE_CHENLINGBATTLEGAMESESSION___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCAF2890)
+#define RPG_CLIENT_CHENLINGBATTLE_CHENLINGBATTLEGAMESESSION___C__DISPLAYCLASS0_0__GETHANDCARD_B__0_OFFSET UNITYSDK_OFFSET(0xCB01690)
 
 namespace RPG::Client::ChenLingBattle
 {
-	inline static constexpr unsigned int ChenLingBattleGameSession___c__DisplayClass0_0_TypeDefinitionIndex = 72417;
+	inline static constexpr unsigned int ChenLingBattleGameSession___c__DisplayClass0_0_TypeDefinitionIndex = 75853;
 
 	class ChenLingBattleGameSession___c__DisplayClass0_0 : public ::System::Object
 	{

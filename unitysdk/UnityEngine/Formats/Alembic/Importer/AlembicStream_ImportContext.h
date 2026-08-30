@@ -5,11 +5,11 @@
 
 namespace UnityEngine::Formats::Alembic::Importer { class AlembicTreeNode; }
 
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAM_IMPORTCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1CDA46E0)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAM_IMPORTCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1EAAC120)
 
 namespace UnityEngine::Formats::Alembic::Importer
 {
-	inline static constexpr unsigned int AlembicStream_ImportContext_TypeDefinitionIndex = 42544;
+	inline static constexpr unsigned int AlembicStream_ImportContext_TypeDefinitionIndex = 44726;
 
 	class AlembicStream_ImportContext : public ::System::Object
 	{

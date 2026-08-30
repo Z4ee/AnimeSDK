@@ -6,25 +6,25 @@
 namespace RPG::Client::FateRin::Battle { class FateRinBattleHudHandCardViewModel; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_FC4084FAA415554E_COMPARE_OFFSET UNITYSDK_OFFSET(0x14B03A80)
-#define CLASS_1_FC4084FAA415554E_METHOD_1_2EDA16D440BF0346_OFFSET UNITYSDK_OFFSET(0x14B04100)
-#define CLASS_1_FC4084FAA415554E__CCTOR_OFFSET UNITYSDK_OFFSET(0x14B04310)
-#define CLASS_1_FC4084FAA415554E__CTOR_OFFSET UNITYSDK_OFFSET(0x14B04300)
+#define CLASS_1_FC4084FAA415554E_COMPARE_OFFSET UNITYSDK_OFFSET(0x159F4B60)
+#define CLASS_1_FC4084FAA415554E_METHOD_1_2EDA16D440BF0346_OFFSET UNITYSDK_OFFSET(0x159F51E0)
+#define CLASS_1_FC4084FAA415554E__CCTOR_OFFSET UNITYSDK_OFFSET(0x159F53F0)
+#define CLASS_1_FC4084FAA415554E__CTOR_OFFSET UNITYSDK_OFFSET(0x159F53E0)
 
-inline static constexpr unsigned int Class_1_FC4084FAA415554E_TypeDefinitionIndex = 76032;
+inline static constexpr unsigned int Class_1_FC4084FAA415554E_TypeDefinitionIndex = 79665;
 
 class Class_1_FC4084FAA415554E : public ::System::Object
 {
 public:
-	static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::FateRinCardCasterSource, ::System::Int32>** StaticGet_Field_1_0()
+	static ::Class_1_FC4084FAA415554E** StaticGet_FMJPMFEDIJL()
 	{
-		return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::FateRinCardCasterSource, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_FC4084FAA415554E_TypeDefinitionIndex)->GetStaticField(0x5850);
+		return (::Class_1_FC4084FAA415554E**)Il2CppClass::FromTypeDefinitionIndex(Class_1_FC4084FAA415554E_TypeDefinitionIndex)->GetStaticField(0x55620);
 	}
-	static ::Class_1_FC4084FAA415554E** StaticGet_Field_1_1()
+	static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::FateRinCardCasterSource, ::System::Int32>** StaticGet_HCIBEFAHKCO()
 	{
-		return (::Class_1_FC4084FAA415554E**)Il2CppClass::FromTypeDefinitionIndex(Class_1_FC4084FAA415554E_TypeDefinitionIndex)->GetStaticField(0x5858);
+		return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::FateRinCardCasterSource, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_FC4084FAA415554E_TypeDefinitionIndex)->GetStaticField(0x55628);
 	}
-	// static const ::System::UInt32 Field_1_2 = 0x7DE; // 0x0
+	// static const ::System::UInt32 CJOPNPHOMMM = 0x7DE; // 0x0
 
 	::System::Void _ctor()
 	{

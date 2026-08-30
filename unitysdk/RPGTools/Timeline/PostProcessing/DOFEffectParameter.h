@@ -5,11 +5,11 @@
 
 namespace RPG::CustomRP { class RPGDepthOfField; }
 
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_DOFEFFECTPARAMETER_METHOD_2_09A78223DBE4A2A6_OFFSET UNITYSDK_OFFSET(0x158400)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_DOFEFFECTPARAMETER_METHOD_2_09A78223DBE4A2A6_OFFSET UNITYSDK_OFFSET(0x15F120)
 
 namespace RPGTools::Timeline::PostProcessing
 {
-	inline static constexpr unsigned int DOFEffectParameter_TypeDefinitionIndex = 46773;
+	inline static constexpr unsigned int DOFEffectParameter_TypeDefinitionIndex = 49019;
 
 	struct alignas(4) DOFEffectParameter
 	{

@@ -6,12 +6,12 @@
 
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_YCORRECTIONENABLEMIXER_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xDD3B920)
-#define RPGTOOLS_TIMELINE_YCORRECTIONENABLEMIXER__CTOR_OFFSET UNITYSDK_OFFSET(0xDD3BD00)
+#define RPGTOOLS_TIMELINE_YCORRECTIONENABLEMIXER_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xE906D50)
+#define RPGTOOLS_TIMELINE_YCORRECTIONENABLEMIXER__CTOR_OFFSET UNITYSDK_OFFSET(0xE907130)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int YCorrectionEnableMixer_TypeDefinitionIndex = 46628;
+	inline static constexpr unsigned int YCorrectionEnableMixer_TypeDefinitionIndex = 48873;
 
 	class YCorrectionEnableMixer : public ::UnityEngine::Playables::PlayableBehaviour
 	{

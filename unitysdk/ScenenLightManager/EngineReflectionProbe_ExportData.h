@@ -9,11 +9,11 @@
 
 namespace System { class String; }
 
-#define SCENENLIGHTMANAGER_ENGINEREFLECTIONPROBE_EXPORTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xDD42E00)
+#define SCENENLIGHTMANAGER_ENGINEREFLECTIONPROBE_EXPORTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xE90E2B0)
 
 namespace ScenenLightManager
 {
-	inline static constexpr unsigned int EngineReflectionProbe_ExportData_TypeDefinitionIndex = 47248;
+	inline static constexpr unsigned int EngineReflectionProbe_ExportData_TypeDefinitionIndex = 49528;
 
 	class EngineReflectionProbe_ExportData : public ::ScenenLightManager::BaseComponentExportData
 	{

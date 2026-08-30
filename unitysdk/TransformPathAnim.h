@@ -8,14 +8,14 @@
 namespace RPG::Client { class BezierCurve; }
 namespace UnityEngine { class Transform; }
 
-#define TRANSFORMPATHANIM_GET_ARTBOUNDFULL_OFFSET UNITYSDK_OFFSET(0xDDB5740)
-#define TRANSFORMPATHANIM_GET_ARTBOUND_OFFSET UNITYSDK_OFFSET(0xDDB5B80)
-#define TRANSFORMPATHANIM_METHOD_5_C638E91FC0D3A13A_OFFSET UNITYSDK_OFFSET(0xDDB4FB0)
-#define TRANSFORMPATHANIM_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0xDDB5140)
-#define TRANSFORMPATHANIM_UPDATE_OFFSET UNITYSDK_OFFSET(0xDDB51A0)
-#define TRANSFORMPATHANIM__CTOR_OFFSET UNITYSDK_OFFSET(0xDDB5C30)
+#define TRANSFORMPATHANIM_GET_ARTBOUNDFULL_OFFSET UNITYSDK_OFFSET(0xE98E460)
+#define TRANSFORMPATHANIM_GET_ARTBOUND_OFFSET UNITYSDK_OFFSET(0xE98E8A0)
+#define TRANSFORMPATHANIM_METHOD_5_C638E91FC0D3A13A_OFFSET UNITYSDK_OFFSET(0xE98DCD0)
+#define TRANSFORMPATHANIM_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0xE98DE60)
+#define TRANSFORMPATHANIM_UPDATE_OFFSET UNITYSDK_OFFSET(0xE98DEC0)
+#define TRANSFORMPATHANIM__CTOR_OFFSET UNITYSDK_OFFSET(0xE98E950)
 
-inline static constexpr unsigned int TransformPathAnim_TypeDefinitionIndex = 45652;
+inline static constexpr unsigned int TransformPathAnim_TypeDefinitionIndex = 47903;
 
 class TransformPathAnim : public ::UnityEngine::MonoBehaviour
 {
@@ -33,8 +33,8 @@ public:
 	::System::Single AutoPlaySpeed; // 0x64
 	::System::Boolean ProgressControl; // 0x68
 	::System::Single CurrentProgress; // 0x6C
-	::UnityEngine::Vector3 Field_5_13; // 0x70
-	::UnityEngine::Quaternion Field_5_14; // 0x7C
+	::UnityEngine::Vector3 BCJIIOELICG; // 0x70
+	::UnityEngine::Quaternion AIIALNAMCLJ; // 0x7C
 
 	::System::Void _ctor()
 	{

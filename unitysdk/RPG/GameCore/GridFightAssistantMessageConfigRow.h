@@ -6,24 +6,24 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_GRIDFIGHTASSISTANTMESSAGECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B4D1390)
-#define RPG_GAMECORE_GRIDFIGHTASSISTANTMESSAGECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4D1710)
+#define RPG_GAMECORE_GRIDFIGHTASSISTANTMESSAGECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D14AE30)
+#define RPG_GAMECORE_GRIDFIGHTASSISTANTMESSAGECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D14B1B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightAssistantMessageConfigRow_TypeDefinitionIndex = 12937;
+	inline static constexpr unsigned int GridFightAssistantMessageConfigRow_TypeDefinitionIndex = 13328;
 
 	class GridFightAssistantMessageConfigRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::Int32>* TypePara; // 0x10
-		::System::UInt32 ID; // 0x18
+		::System::Int32 Priority; // 0x18
 		::System::UInt32 EndDivisionID; // 0x1C
-		::System::Int32 Priority; // 0x20
-		::RPG::GameCore::GridFightAssistantType AssistantMessageType; // 0x24
-		::System::Int32 ExclusiveID; // 0x28
-		::System::Int32 Interval; // 0x2C
-		::RPG::Client::TextID Description; // 0x30
+		::System::Int32 ExclusiveID; // 0x20
+		::System::UInt32 ID; // 0x24
+		::RPG::Client::TextID Description; // 0x28
+		::RPG::GameCore::GridFightAssistantType AssistantMessageType; // 0x38
+		::System::Int32 Interval; // 0x3C
 
 		::System::Void _ctor()
 		{

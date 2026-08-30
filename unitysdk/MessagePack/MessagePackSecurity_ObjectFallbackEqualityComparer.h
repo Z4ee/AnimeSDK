@@ -8,25 +8,25 @@ namespace System { template <typename T> class Lazy_1; }
 namespace System::Collections { class IEqualityComparer; }
 namespace System::Reflection { class MethodInfo; }
 
-#define MESSAGEPACK_MESSAGEPACKSECURITY_OBJECTFALLBACKEQUALITYCOMPARER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x19B34850)
-#define MESSAGEPACK_MESSAGEPACKSECURITY_OBJECTFALLBACKEQUALITYCOMPARER_SYSTEM_COLLECTIONS_GENERIC_IEQUALITYCOMPARER_SYSTEM_OBJECT__EQUALS_OFFSET UNITYSDK_OFFSET(0x19B34610)
-#define MESSAGEPACK_MESSAGEPACKSECURITY_OBJECTFALLBACKEQUALITYCOMPARER_SYSTEM_COLLECTIONS_IEQUALITYCOMPARER_EQUALS_OFFSET UNITYSDK_OFFSET(0x19B34700)
-#define MESSAGEPACK_MESSAGEPACKSECURITY_OBJECTFALLBACKEQUALITYCOMPARER__CCTOR_OFFSET UNITYSDK_OFFSET(0x19B34D90)
-#define MESSAGEPACK_MESSAGEPACKSECURITY_OBJECTFALLBACKEQUALITYCOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x19B32D60)
+#define MESSAGEPACK_MESSAGEPACKSECURITY_OBJECTFALLBACKEQUALITYCOMPARER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1B6C3990)
+#define MESSAGEPACK_MESSAGEPACKSECURITY_OBJECTFALLBACKEQUALITYCOMPARER_SYSTEM_COLLECTIONS_GENERIC_IEQUALITYCOMPARER_SYSTEM_OBJECT__EQUALS_OFFSET UNITYSDK_OFFSET(0x1B6C37B0)
+#define MESSAGEPACK_MESSAGEPACKSECURITY_OBJECTFALLBACKEQUALITYCOMPARER_SYSTEM_COLLECTIONS_IEQUALITYCOMPARER_EQUALS_OFFSET UNITYSDK_OFFSET(0x1B6C3870)
+#define MESSAGEPACK_MESSAGEPACKSECURITY_OBJECTFALLBACKEQUALITYCOMPARER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B6C3ED0)
+#define MESSAGEPACK_MESSAGEPACKSECURITY_OBJECTFALLBACKEQUALITYCOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6C1F10)
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int MessagePackSecurity_ObjectFallbackEqualityComparer_TypeDefinitionIndex = 7164;
+	inline static constexpr unsigned int MessagePackSecurity_ObjectFallbackEqualityComparer_TypeDefinitionIndex = 7150;
 
 	class MessagePackSecurity_ObjectFallbackEqualityComparer : public ::System::Object
 	{
 	public:
 		static ::System::Lazy_1<::System::Reflection::MethodInfo*>** StaticGet_GetHashCollisionResistantEqualityComparerOpenGenericMethod()
 		{
-			return (::System::Lazy_1<::System::Reflection::MethodInfo*>**)Il2CppClass::FromTypeDefinitionIndex(MessagePackSecurity_ObjectFallbackEqualityComparer_TypeDefinitionIndex)->GetStaticField(0xD9E0);
+			return (::System::Lazy_1<::System::Reflection::MethodInfo*>**)Il2CppClass::FromTypeDefinitionIndex(MessagePackSecurity_ObjectFallbackEqualityComparer_TypeDefinitionIndex)->GetStaticField(0x2E460);
 		}
-		::MessagePack::Internal::ThreadsafeTypeKeyHashTable_1<::System::Collections::IEqualityComparer*>* equalityComparerCache; // 0x10
-		::MessagePack::MessagePackSecurity* security; // 0x18
+		::MessagePack::MessagePackSecurity* security; // 0x10
+		::MessagePack::Internal::ThreadsafeTypeKeyHashTable_1<::System::Collections::IEqualityComparer*>* equalityComparerCache; // 0x18
 
 		::System::Void _ctor(::MessagePack::MessagePackSecurity* a1)
 		{

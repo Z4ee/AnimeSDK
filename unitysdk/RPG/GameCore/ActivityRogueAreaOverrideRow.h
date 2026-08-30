@@ -5,21 +5,21 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_ACTIVITYROGUEAREAOVERRIDEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B132F50)
-#define RPG_GAMECORE_ACTIVITYROGUEAREAOVERRIDEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B133150)
+#define RPG_GAMECORE_ACTIVITYROGUEAREAOVERRIDEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CDA9770)
+#define RPG_GAMECORE_ACTIVITYROGUEAREAOVERRIDEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CDA9970)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityRogueAreaOverrideRow_TypeDefinitionIndex = 11866;
+	inline static constexpr unsigned int ActivityRogueAreaOverrideRow_TypeDefinitionIndex = 12255;
 
 	class ActivityRogueAreaOverrideRow : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* ScoreMap; // 0x10
-		::System::UInt32 RecommendLevel; // 0x18
+		::System::UInt32 RecommendSkillTreePoints; // 0x18
 		::System::UInt32 WorldLevel; // 0x1C
-		::System::UInt32 RogueAreaID; // 0x20
-		::System::UInt32 RecommendSkillTreePoints; // 0x24
+		::System::UInt32 RecommendLevel; // 0x20
+		::System::UInt32 RogueAreaID; // 0x24
 
 		::System::Void _ctor()
 		{

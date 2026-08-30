@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/SwordTraining/SwordTrainingEffectSource.h"
+#include "unitysdk/RPG/Client/Textmap/Parameter/MetricNumberFormatMode.h"
 
-namespace RPG::Client { class SwordTrainingStatusChangeInfo; }
+namespace System { class String; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_1175_TypeDefinitionIndex = 71399;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_1175_TypeDefinitionIndex = 73287;
 
 class Class_0_16E4307DCC419505_1175
 {

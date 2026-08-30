@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TimeRewindControlManagerActiveReason_TypeDefinitionIndex = 58103;
+	inline static constexpr unsigned int TimeRewindControlManagerActiveReason_TypeDefinitionIndex = 60930;
 
 	enum class TimeRewindControlManagerActiveReason : ::System::Int32
 	{

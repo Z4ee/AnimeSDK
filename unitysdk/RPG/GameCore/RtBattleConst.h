@@ -13,21 +13,21 @@ namespace RPG::GameCore { class TaskConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_RTBATTLECONST_METHOD_2_0EA072BBD5F3CC4C_OFFSET UNITYSDK_OFFSET(0x1B7AAC30)
-#define RPG_GAMECORE_RTBATTLECONST_METHOD_2_5790A55946AA509D_OFFSET UNITYSDK_OFFSET(0x1B7AB4A0)
-#define RPG_GAMECORE_RTBATTLECONST_METHOD_2_832295EC279E5994_OFFSET UNITYSDK_OFFSET(0x1B7AB520)
-#define RPG_GAMECORE_RTBATTLECONST__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7AB470)
+#define RPG_GAMECORE_RTBATTLECONST_METHOD_2_0EA072BBD5F3CC4C_OFFSET UNITYSDK_OFFSET(0x1D499BA0)
+#define RPG_GAMECORE_RTBATTLECONST_METHOD_2_5790A55946AA509D_OFFSET UNITYSDK_OFFSET(0x1D49AAB0)
+#define RPG_GAMECORE_RTBATTLECONST_METHOD_2_832295EC279E5994_OFFSET UNITYSDK_OFFSET(0x1D49AB30)
+#define RPG_GAMECORE_RTBATTLECONST__CTOR_OFFSET UNITYSDK_OFFSET(0x1D49A3E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtBattleConst_TypeDefinitionIndex = 17315;
+	inline static constexpr unsigned int RtBattleConst_TypeDefinitionIndex = 17832;
 
 	class RtBattleConst : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		static ::RPG::GameCore::RtBattleConst** StaticGet_Config()
 		{
-			return (::RPG::GameCore::RtBattleConst**)Il2CppClass::FromTypeDefinitionIndex(RtBattleConst_TypeDefinitionIndex)->GetStaticField(0x33720);
+			return (::RPG::GameCore::RtBattleConst**)Il2CppClass::FromTypeDefinitionIndex(RtBattleConst_TypeDefinitionIndex)->GetStaticField(0x6E10);
 		}
 		::System::String* MainLevelGraphPath; // 0x10
 		::RPG::GameCore::FixPoint BaseTimeScale; // 0x18

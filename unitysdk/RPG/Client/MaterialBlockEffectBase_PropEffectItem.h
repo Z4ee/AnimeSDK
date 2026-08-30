@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace UnityEngine { class Renderer; }
 
-#define RPG_CLIENT_MATERIALBLOCKEFFECTBASE_PROPEFFECTITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xCB87D70)
+#define RPG_CLIENT_MATERIALBLOCKEFFECTBASE_PROPEFFECTITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xD67B9A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MaterialBlockEffectBase_PropEffectItem_TypeDefinitionIndex = 67490;
+	inline static constexpr unsigned int MaterialBlockEffectBase_PropEffectItem_TypeDefinitionIndex = 70613;
 
 	class MaterialBlockEffectBase_PropEffectItem : public ::System::Object
 	{

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Configuration/ConfigurationElementCollection.h"
 
-#define SYSTEM_NET_CONFIGURATION_BYPASSELEMENTCOLLECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1CCAD840)
+#define SYSTEM_NET_CONFIGURATION_BYPASSELEMENTCOLLECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1E958880)
 
 namespace System::Net::Configuration
 {
-	inline static constexpr unsigned int BypassElementCollection_TypeDefinitionIndex = 3066;
+	inline static constexpr unsigned int BypassElementCollection_TypeDefinitionIndex = 3074;
 
 	class BypassElementCollection : public ::System::Configuration::ConfigurationElementCollection
 	{

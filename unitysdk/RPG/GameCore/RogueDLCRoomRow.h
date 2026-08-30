@@ -5,19 +5,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ROGUEDLCROOMROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B75CAD0)
-#define RPG_GAMECORE_ROGUEDLCROOMROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B75CC60)
+#define RPG_GAMECORE_ROGUEDLCROOMROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3DFB90)
+#define RPG_GAMECORE_ROGUEDLCROOMROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3DFD20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueDLCRoomRow_TypeDefinitionIndex = 14192;
+	inline static constexpr unsigned int RogueDLCRoomRow_TypeDefinitionIndex = 14612;
 
 	class RogueDLCRoomRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* RogueRoomSections; // 0x10
-		::RPG::GameCore::RogueSubMode RogueSubMode; // 0x18
-		::System::UInt32 RogueRoomID; // 0x1C
+		::System::UInt32 RogueRoomID; // 0x18
+		::RPG::GameCore::RogueSubMode RogueSubMode; // 0x1C
 
 		::System::Void _ctor()
 		{

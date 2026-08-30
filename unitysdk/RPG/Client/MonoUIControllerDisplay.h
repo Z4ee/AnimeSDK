@@ -4,18 +4,18 @@
 
 namespace RPG::Client { class UIController; }
 
-#define RPG_CLIENT_MONOUICONTROLLERDISPLAY_INIT_OFFSET UNITYSDK_OFFSET(0xCD38180)
-#define RPG_CLIENT_MONOUICONTROLLERDISPLAY_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xCD381D0)
-#define RPG_CLIENT_MONOUICONTROLLERDISPLAY__CTOR_OFFSET UNITYSDK_OFFSET(0xCD38220)
+#define RPG_CLIENT_MONOUICONTROLLERDISPLAY_INIT_OFFSET UNITYSDK_OFFSET(0xD87AB70)
+#define RPG_CLIENT_MONOUICONTROLLERDISPLAY_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xD87ABC0)
+#define RPG_CLIENT_MONOUICONTROLLERDISPLAY__CTOR_OFFSET UNITYSDK_OFFSET(0xD87AC10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoUIControllerDisplay_TypeDefinitionIndex = 69712;
+	inline static constexpr unsigned int MonoUIControllerDisplay_TypeDefinitionIndex = 72967;
 
 	class MonoUIControllerDisplay : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		::RPG::Client::UIController* Field_5_0; // 0x18
+		::RPG::Client::UIController* CPIIOIPAAKK; // 0x18
 
 		::System::Void _ctor()
 		{

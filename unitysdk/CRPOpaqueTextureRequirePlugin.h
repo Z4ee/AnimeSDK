@@ -3,19 +3,19 @@
 #include "unitysdk/CRPOpaqueTextureRequirePlugin_CaptureType.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define CRPOPAQUETEXTUREREQUIREPLUGIN_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xD05B860)
-#define CRPOPAQUETEXTUREREQUIREPLUGIN_ONENABLE_OFFSET UNITYSDK_OFFSET(0xD05B5C0)
-#define CRPOPAQUETEXTUREREQUIREPLUGIN__CCTOR_OFFSET UNITYSDK_OFFSET(0xD05BA20)
-#define CRPOPAQUETEXTUREREQUIREPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xD05BA10)
+#define CRPOPAQUETEXTUREREQUIREPLUGIN_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xDD9FED0)
+#define CRPOPAQUETEXTUREREQUIREPLUGIN_ONENABLE_OFFSET UNITYSDK_OFFSET(0xDD9FC30)
+#define CRPOPAQUETEXTUREREQUIREPLUGIN__CCTOR_OFFSET UNITYSDK_OFFSET(0xDDA0090)
+#define CRPOPAQUETEXTUREREQUIREPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xDDA0080)
 
-inline static constexpr unsigned int CRPOpaqueTextureRequirePlugin_TypeDefinitionIndex = 45534;
+inline static constexpr unsigned int CRPOpaqueTextureRequirePlugin_TypeDefinitionIndex = 47784;
 
 class CRPOpaqueTextureRequirePlugin : public ::UnityEngine::MonoBehaviour
 {
 public:
-	static ::System::Int32* StaticGet_Field_5_0()
+	static ::System::Int32* StaticGet_GCOHFDBEJMP()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CRPOpaqueTextureRequirePlugin_TypeDefinitionIndex)->GetStaticField(0x10B90);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CRPOpaqueTextureRequirePlugin_TypeDefinitionIndex)->GetStaticField(0x152C0);
 	}
 	::System::Boolean CaptureAfterOpaque; // 0x18
 	::CRPOpaqueTextureRequirePlugin_CaptureType CapType; // 0x1C

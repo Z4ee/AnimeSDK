@@ -7,17 +7,17 @@
 namespace RPG::GameCore { class SetDynamicValueByRandom; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_9709B882D3B8C7C6_METHOD_3_3ABECAF2523BBBAF_OFFSET UNITYSDK_OFFSET(0xB122300)
-#define CLASS_3_9709B882D3B8C7C6_METHOD_3_64F76641A31F82C6_OFFSET UNITYSDK_OFFSET(0xB122A20)
-#define CLASS_3_9709B882D3B8C7C6_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB1221F0)
-#define CLASS_3_9709B882D3B8C7C6__CTOR_OFFSET UNITYSDK_OFFSET(0xB122110)
+#define CLASS_3_9709B882D3B8C7C6_METHOD_3_3ABECAF2523BBBAF_1_OFFSET UNITYSDK_OFFSET(0xBAE84F0)
+#define CLASS_3_9709B882D3B8C7C6_METHOD_3_3ABECAF2523BBBAF_OFFSET UNITYSDK_OFFSET(0xBAE8C10)
+#define CLASS_3_9709B882D3B8C7C6_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBAE83E0)
+#define CLASS_3_9709B882D3B8C7C6__CTOR_OFFSET UNITYSDK_OFFSET(0xBAE8300)
 
-inline static constexpr unsigned int Class_3_9709B882D3B8C7C6_TypeDefinitionIndex = 52948;
+inline static constexpr unsigned int Class_3_9709B882D3B8C7C6_TypeDefinitionIndex = 55653;
 
 class Class_3_9709B882D3B8C7C6 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetDynamicValueByRandom*>
 {
 public:
-	::RPG::GameCore::StringHash Field_3_0; // 0x28
+	::RPG::GameCore::StringHash DIJHOMCLPEG; // 0x28
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SetDynamicValueByRandom* a2)
 	{
@@ -29,13 +29,13 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_9709B882D3B8C7C6_ONTASKBEGIN_OFFSET))(this);
 	}
 
-	::RPG::GameCore::FixPoint Method_3_64F76641A31F82C6()
-	{
-		return ((::RPG::GameCore::FixPoint(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_9709B882D3B8C7C6_METHOD_3_64F76641A31F82C6_OFFSET))(this);
-	}
-
 	::RPG::GameCore::FixPoint Method_3_3ABECAF2523BBBAF()
 	{
 		return ((::RPG::GameCore::FixPoint(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_9709B882D3B8C7C6_METHOD_3_3ABECAF2523BBBAF_OFFSET))(this);
+	}
+
+	::RPG::GameCore::FixPoint Method_3_3ABECAF2523BBBAF_1()
+	{
+		return ((::RPG::GameCore::FixPoint(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_9709B882D3B8C7C6_METHOD_3_3ABECAF2523BBBAF_1_OFFSET))(this);
 	}
 };

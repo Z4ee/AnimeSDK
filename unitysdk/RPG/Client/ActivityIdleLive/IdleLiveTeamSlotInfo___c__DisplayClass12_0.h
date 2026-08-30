@@ -4,18 +4,18 @@
 
 namespace RPG::Client::ActivityIdleLive { class IdleLiveTeamSlotLevelUpReward; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMSLOTINFO___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBBD0370)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMSLOTINFO___C__DISPLAYCLASS12_0__GETNEXTLEVELUPREWARD_B__0_OFFSET UNITYSDK_OFFSET(0xBBD06B0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMSLOTINFO___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC5EE070)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMSLOTINFO___C__DISPLAYCLASS12_0__GETNEXTLEVELUPREWARD_B__0_OFFSET UNITYSDK_OFFSET(0xC5EE420)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveTeamSlotInfo___c__DisplayClass12_0_TypeDefinitionIndex = 71502;
+	inline static constexpr unsigned int IdleLiveTeamSlotInfo___c__DisplayClass12_0_TypeDefinitionIndex = 74808;
 
 	class IdleLiveTeamSlotInfo___c__DisplayClass12_0 : public ::System::Object
 	{
 	public:
-		::System::UInt32 level; // 0x10
-		::System::UInt32 limitLevel; // 0x14
+		::System::UInt32 limitLevel; // 0x10
+		::System::UInt32 level; // 0x14
 
 		::System::Void _ctor()
 		{

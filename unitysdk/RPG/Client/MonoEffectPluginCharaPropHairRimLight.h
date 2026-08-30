@@ -12,14 +12,14 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class Renderer; }
 namespace UnityEngine { class Shader; }
 
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPHAIRRIMLIGHT_INIT_OFFSET UNITYSDK_OFFSET(0xCCA29B0)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPHAIRRIMLIGHT_UNINIT_OFFSET UNITYSDK_OFFSET(0xCCA3250)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPHAIRRIMLIGHT_UPDATEPROPERTY_OFFSET UNITYSDK_OFFSET(0xCCA2A50)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPHAIRRIMLIGHT__CTOR_OFFSET UNITYSDK_OFFSET(0xCCA32A0)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPHAIRRIMLIGHT_INIT_OFFSET UNITYSDK_OFFSET(0xD7A1F50)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPHAIRRIMLIGHT_UNINIT_OFFSET UNITYSDK_OFFSET(0xD7A27F0)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPHAIRRIMLIGHT_UPDATEPROPERTY_OFFSET UNITYSDK_OFFSET(0xD7A1FF0)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPHAIRRIMLIGHT__CTOR_OFFSET UNITYSDK_OFFSET(0xD7A2840)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginCharaPropHairRimLight_TypeDefinitionIndex = 66827;
+	inline static constexpr unsigned int MonoEffectPluginCharaPropHairRimLight_TypeDefinitionIndex = 69929;
 
 	class MonoEffectPluginCharaPropHairRimLight : public ::RPG::Client::MonoEffectPluginCharaPropBase
 	{
@@ -44,7 +44,7 @@ namespace RPG::Client
 		::UnityEngine::Vector4 _FresnelBSI; // 0xA8
 		::System::Boolean Toggle_FresnelColorStrength; // 0xB8
 		::System::Single _FresnelColorStrength; // 0xBC
-		::Il2CppArray<::System::Boolean>* Field_6_20; // 0xC0
+		::Il2CppArray<::System::Boolean>* LKIKPHKAFJB; // 0xC0
 
 		::System::Void _ctor()
 		{

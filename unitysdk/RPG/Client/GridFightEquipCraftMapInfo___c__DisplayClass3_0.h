@@ -7,12 +7,12 @@ namespace RPG::Client { class GridFightEquipCraftRecipe; }
 namespace RPG::Client { class GridFightEquipCraftRecipeCollection; }
 template <typename T1, typename T2> class __f__AnonymousType1_2;
 
-#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTMAPINFO___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC6E75A0)
-#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTMAPINFO___C__DISPLAYCLASS3_0__GETRECIPESCONTAINSITEM_B__2_OFFSET UNITYSDK_OFFSET(0xC6E8430)
+#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTMAPINFO___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD16FC80)
+#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTMAPINFO___C__DISPLAYCLASS3_0__GETRECIPESCONTAINSITEM_B__2_OFFSET UNITYSDK_OFFSET(0xD1707B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightEquipCraftMapInfo___c__DisplayClass3_0_TypeDefinitionIndex = 61596;
+	inline static constexpr unsigned int GridFightEquipCraftMapInfo___c__DisplayClass3_0_TypeDefinitionIndex = 64580;
 
 	class GridFightEquipCraftMapInfo___c__DisplayClass3_0 : public ::System::Object
 	{

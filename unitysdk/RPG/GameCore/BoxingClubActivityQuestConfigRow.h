@@ -5,20 +5,20 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_BOXINGCLUBACTIVITYQUESTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B2161D0)
-#define RPG_GAMECORE_BOXINGCLUBACTIVITYQUESTCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B216370)
+#define RPG_GAMECORE_BOXINGCLUBACTIVITYQUESTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CE913C0)
+#define RPG_GAMECORE_BOXINGCLUBACTIVITYQUESTCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE91560)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BoxingClubActivityQuestConfigRow_TypeDefinitionIndex = 12425;
+	inline static constexpr unsigned int BoxingClubActivityQuestConfigRow_TypeDefinitionIndex = 12816;
 
 	class BoxingClubActivityQuestConfigRow : public ::System::Object
 	{
 	public:
-		::System::String* Name; // 0x10
-		::Il2CppArray<::System::UInt32>* QuestList; // 0x18
-		::System::UInt32 ChallengeID; // 0x20
-		::System::UInt32 ID; // 0x24
+		::Il2CppArray<::System::UInt32>* QuestList; // 0x10
+		::System::String* Name; // 0x18
+		::System::UInt32 ID; // 0x20
+		::System::UInt32 ChallengeID; // 0x24
 
 		::System::Void _ctor()
 		{

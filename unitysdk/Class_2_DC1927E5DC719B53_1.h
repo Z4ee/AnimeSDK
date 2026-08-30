@@ -1,20 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_CA217ABF4E3B4F3F.h"
+#include "unitysdk/Class_1_34917908B7833130.h"
 #include "unitysdk/Struct_2_96F8F0A04B900A9E.h"
 
 namespace RPG::GameCore { class GameEntity; }
 
-#define CLASS_2_DC1927E5DC719B53_1_METHOD_2_8CE0803574BB66D7_OFFSET UNITYSDK_OFFSET(0xB154690)
-#define CLASS_2_DC1927E5DC719B53_1__CTOR_OFFSET UNITYSDK_OFFSET(0xB1546F0)
-#define CLASS_2_DC1927E5DC719B53_1__ONBIND_OFFSET UNITYSDK_OFFSET(0xB1545D0)
+#define CLASS_2_DC1927E5DC719B53_1_METHOD_2_8CE0803574BB66D7_OFFSET UNITYSDK_OFFSET(0xBB1CF30)
+#define CLASS_2_DC1927E5DC719B53_1__CTOR_OFFSET UNITYSDK_OFFSET(0xBB1CF90)
+#define CLASS_2_DC1927E5DC719B53_1__ONBIND_OFFSET UNITYSDK_OFFSET(0xBB1CE70)
 
-inline static constexpr unsigned int Class_2_DC1927E5DC719B53_1_TypeDefinitionIndex = 68978;
+inline static constexpr unsigned int Class_2_DC1927E5DC719B53_1_TypeDefinitionIndex = 72177;
 
-class Class_2_DC1927E5DC719B53_1 : public ::Class_1_CA217ABF4E3B4F3F
+class Class_2_DC1927E5DC719B53_1 : public ::Class_1_34917908B7833130
 {
 public:
-	::RPG::GameCore::GameEntity* Field_2_0; // 0x60
+	::RPG::GameCore::GameEntity* JDOAGFALGGA; // 0x60
 
 	::System::Void _ctor()
 	{

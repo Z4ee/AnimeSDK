@@ -7,22 +7,22 @@
 class Class_6_95BA83EAA68188A1;
 namespace System { class String; }
 
-#define CLASS_1_6F9830BFC98BF7B6_METHOD_1_B79653A53657F2B4_OFFSET UNITYSDK_OFFSET(0x1528EAB0)
-#define CLASS_1_6F9830BFC98BF7B6_METHOD_1_B98A585080E2577F_OFFSET UNITYSDK_OFFSET(0x1528E970)
-#define CLASS_1_6F9830BFC98BF7B6__CTOR_OFFSET UNITYSDK_OFFSET(0x1528E7A0)
+#define CLASS_1_6F9830BFC98BF7B6_METHOD_1_B79653A53657F2B4_OFFSET UNITYSDK_OFFSET(0x161FD570)
+#define CLASS_1_6F9830BFC98BF7B6_METHOD_1_B98A585080E2577F_OFFSET UNITYSDK_OFFSET(0x161FD430)
+#define CLASS_1_6F9830BFC98BF7B6__CTOR_OFFSET UNITYSDK_OFFSET(0x161FD260)
 
-inline static constexpr unsigned int Class_1_6F9830BFC98BF7B6_TypeDefinitionIndex = 75692;
+inline static constexpr unsigned int Class_1_6F9830BFC98BF7B6_TypeDefinitionIndex = 79325;
 
 class Class_1_6F9830BFC98BF7B6 : public ::System::Object
 {
 public:
-	::Class_6_95BA83EAA68188A1* Field_1_0; // 0x10
-	::Class_6_95BA83EAA68188A1* Field_1_1; // 0x18
-	::System::String* Field_1_2; // 0x20
-	::System::String* Field_1_3; // 0x28
-	::System::Single Field_1_4; // 0x30
-	::System::Single Field_1_5; // 0x34
-	::UnityEngine::Vector3 Field_1_6; // 0x38
+	::Class_6_95BA83EAA68188A1* EAFNFCALNPF; // 0x10
+	::System::String* IOOAAMGICKC; // 0x18
+	::System::String* IOABPJAFBOJ; // 0x20
+	::Class_6_95BA83EAA68188A1* KMJDIEJMGLI; // 0x28
+	::UnityEngine::Vector3 AGDMFOBNDLG; // 0x30
+	::System::Single JCDKACJFACD; // 0x3C
+	::System::Single NDKKKNKFAPH; // 0x40
 
 	::System::Void _ctor(::UnityEngine::Vector3 a1, ::System::Single a2, ::System::Single a3, ::System::String* a4, ::System::String* a5)
 	{

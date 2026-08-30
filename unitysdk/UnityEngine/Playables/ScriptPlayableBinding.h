@@ -9,12 +9,12 @@ namespace System { class String; }
 namespace System { class Type; }
 namespace UnityEngine { class Object; }
 
-#define UNITYENGINE_PLAYABLES_SCRIPTPLAYABLEBINDING_CREATESCRIPTOUTPUT_OFFSET UNITYSDK_OFFSET(0x1D03DA90)
-#define UNITYENGINE_PLAYABLES_SCRIPTPLAYABLEBINDING_CREATE_OFFSET UNITYSDK_OFFSET(0x1D03DA00)
+#define UNITYENGINE_PLAYABLES_SCRIPTPLAYABLEBINDING_CREATESCRIPTOUTPUT_OFFSET UNITYSDK_OFFSET(0x1ED45160)
+#define UNITYENGINE_PLAYABLES_SCRIPTPLAYABLEBINDING_CREATE_OFFSET UNITYSDK_OFFSET(0x1ED450D0)
 
 namespace UnityEngine::Playables
 {
-	inline static constexpr unsigned int ScriptPlayableBinding_TypeDefinitionIndex = 4908;
+	inline static constexpr unsigned int ScriptPlayableBinding_TypeDefinitionIndex = 4920;
 
 	class ScriptPlayableBinding : public ::System::Object
 	{

@@ -8,20 +8,20 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_BODYPARTMAPPING_AWAKE_OFFSET UNITYSDK_OFFSET(0xBEBC610)
-#define RPG_CLIENT_BODYPARTMAPPING_FINDBODYPART_OFFSET UNITYSDK_OFFSET(0xBEBC750)
-#define RPG_CLIENT_BODYPARTMAPPING_GETALLBODYPART_OFFSET UNITYSDK_OFFSET(0xBEBC8A0)
-#define RPG_CLIENT_BODYPARTMAPPING__CTOR_OFFSET UNITYSDK_OFFSET(0xBEBC590)
+#define RPG_CLIENT_BODYPARTMAPPING_AWAKE_OFFSET UNITYSDK_OFFSET(0xC95DF20)
+#define RPG_CLIENT_BODYPARTMAPPING_FINDBODYPART_OFFSET UNITYSDK_OFFSET(0xC95E060)
+#define RPG_CLIENT_BODYPARTMAPPING_GETALLBODYPART_OFFSET UNITYSDK_OFFSET(0xC95E1B0)
+#define RPG_CLIENT_BODYPARTMAPPING__CTOR_OFFSET UNITYSDK_OFFSET(0xC95DEA0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BodyPartMapping_TypeDefinitionIndex = 65325;
+	inline static constexpr unsigned int BodyPartMapping_TypeDefinitionIndex = 68337;
 
 	class BodyPartMapping : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::System::Collections::Generic::List_1<::RPG::Client::AttachPoint*>* BodyParts; // 0x18
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::Transform*>* Field_5_1; // 0x20
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::Transform*>* KALHKIMLAJJ; // 0x20
 
 		::System::Void _ctor()
 		{

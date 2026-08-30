@@ -4,7 +4,7 @@
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HAPI_ImageFileFormat_TypeDefinitionIndex = 38352;
+	inline static constexpr unsigned int HAPI_ImageFileFormat_TypeDefinitionIndex = 39211;
 
 	struct alignas(4) HAPI_ImageFileFormat
 	{

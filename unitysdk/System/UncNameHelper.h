@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define SYSTEM_UNCNAMEHELPER_ISVALID_OFFSET UNITYSDK_OFFSET(0x1CD66DB0)
-#define SYSTEM_UNCNAMEHELPER_PARSECANONICALNAME_OFFSET UNITYSDK_OFFSET(0x1CD66DA0)
+#define SYSTEM_UNCNAMEHELPER_ISVALID_OFFSET UNITYSDK_OFFSET(0x1EA13630)
+#define SYSTEM_UNCNAMEHELPER_PARSECANONICALNAME_OFFSET UNITYSDK_OFFSET(0x1EA13620)
 
 namespace System
 {
-	inline static constexpr unsigned int UncNameHelper_TypeDefinitionIndex = 2476;
+	inline static constexpr unsigned int UncNameHelper_TypeDefinitionIndex = 2483;
 
 	class UncNameHelper : public ::System::Object
 	{

@@ -5,19 +5,19 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_ROGUETOURNLAYERROOMROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B79D1F0)
-#define RPG_GAMECORE_ROGUETOURNLAYERROOMROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B79D430)
+#define RPG_GAMECORE_ROGUETOURNLAYERROOMROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D48B8C0)
+#define RPG_GAMECORE_ROGUETOURNLAYERROOMROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D48BB00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueTournLayerRoomRow_TypeDefinitionIndex = 14373;
+	inline static constexpr unsigned int RogueTournLayerRoomRow_TypeDefinitionIndex = 14793;
 
 	class RogueTournLayerRoomRow : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* Door1; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* Door3; // 0x18
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* Door2; // 0x20
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* Door2; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* Door1; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* Door3; // 0x20
 		::System::UInt32 RoomIndex; // 0x28
 		::System::UInt32 LayerID; // 0x2C
 

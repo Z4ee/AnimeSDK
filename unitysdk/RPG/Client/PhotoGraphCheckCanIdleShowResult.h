@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PhotoGraphCheckCanIdleShowResult_TypeDefinitionIndex = 66347;
+	inline static constexpr unsigned int PhotoGraphCheckCanIdleShowResult_TypeDefinitionIndex = 69439;
 
 	enum class PhotoGraphCheckCanIdleShowResult : ::System::Int32
 	{

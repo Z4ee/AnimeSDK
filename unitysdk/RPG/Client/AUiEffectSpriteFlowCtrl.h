@@ -6,34 +6,34 @@
 namespace UnityEngine { class Material; }
 namespace UnityEngine::UI { class Image; }
 
-#define RPG_CLIENT_AUIEFFECTSPRITEFLOWCTRL_FIXEDUPDATE_OFFSET UNITYSDK_OFFSET(0xBA7C4D0)
-#define RPG_CLIENT_AUIEFFECTSPRITEFLOWCTRL_GETMATERIALFORRENDERING_OFFSET UNITYSDK_OFFSET(0xBA7C650)
-#define RPG_CLIENT_AUIEFFECTSPRITEFLOWCTRL_GET_IMAGE_OFFSET UNITYSDK_OFFSET(0xBA7C280)
-#define RPG_CLIENT_AUIEFFECTSPRITEFLOWCTRL_INITVALUE_OFFSET UNITYSDK_OFFSET(0xBA7C3E0)
-#define RPG_CLIENT_AUIEFFECTSPRITEFLOWCTRL_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xBA7C330)
-#define RPG_CLIENT_AUIEFFECTSPRITEFLOWCTRL_RESET_OFFSET UNITYSDK_OFFSET(0xBA7C390)
-#define RPG_CLIENT_AUIEFFECTSPRITEFLOWCTRL__CTOR_OFFSET UNITYSDK_OFFSET(0xBA7CA40)
+#define RPG_CLIENT_AUIEFFECTSPRITEFLOWCTRL_FIXEDUPDATE_OFFSET UNITYSDK_OFFSET(0xC49ADF0)
+#define RPG_CLIENT_AUIEFFECTSPRITEFLOWCTRL_GETMATERIALFORRENDERING_OFFSET UNITYSDK_OFFSET(0xC49AF70)
+#define RPG_CLIENT_AUIEFFECTSPRITEFLOWCTRL_GET_IMAGE_OFFSET UNITYSDK_OFFSET(0xC49AB80)
+#define RPG_CLIENT_AUIEFFECTSPRITEFLOWCTRL_INITVALUE_OFFSET UNITYSDK_OFFSET(0xC49AD00)
+#define RPG_CLIENT_AUIEFFECTSPRITEFLOWCTRL_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xC49AC50)
+#define RPG_CLIENT_AUIEFFECTSPRITEFLOWCTRL_RESET_OFFSET UNITYSDK_OFFSET(0xC49ACB0)
+#define RPG_CLIENT_AUIEFFECTSPRITEFLOWCTRL__CTOR_OFFSET UNITYSDK_OFFSET(0xC49B410)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AUiEffectSpriteFlowCtrl_TypeDefinitionIndex = 69218;
+	inline static constexpr unsigned int AUiEffectSpriteFlowCtrl_TypeDefinitionIndex = 72418;
 
 	class AUiEffectSpriteFlowCtrl : public ::UnityEngine::EventSystems::UIBehaviour
 	{
 	public:
-		::System::Int32 Field_6_0; // 0x18
-		::System::Int32 Field_6_1; // 0x1C
-		::System::Int32 Field_6_2; // 0x20
-		::System::Int32 Field_6_3; // 0x24
-		::UnityEngine::UI::Image* Field_6_4; // 0x28
-		::System::Single Field_6_5; // 0x30
-		::System::Single Field_6_6; // 0x34
-		::System::Single Field_6_7; // 0x38
-		::UnityEngine::Color Field_6_8; // 0x3C
-		::UnityEngine::Material* Field_6_9; // 0x50
-		::UnityEngine::Material* Field_6_10; // 0x58
-		::System::Boolean Field_6_11; // 0x60
-		::System::Boolean Field_6_12; // 0x61
+		::System::Int32 DIBEGMMJJAK; // 0x18
+		::System::Int32 LOIKLCOEOEO; // 0x1C
+		::System::Int32 CPGHMJLFNNC; // 0x20
+		::System::Int32 BPPCHBAOKFD; // 0x24
+		::UnityEngine::UI::Image* JLHDCKNHDJH; // 0x28
+		::System::Single KEAJNEBPACK; // 0x30
+		::System::Single LFNMBHDAOLP; // 0x34
+		::System::Single BFOCCLAAKOP; // 0x38
+		::UnityEngine::Color POLPCFAIEJC; // 0x3C
+		::UnityEngine::Material* FAALBBDOFIL; // 0x50
+		::UnityEngine::Material* KLAEOKPPDHD; // 0x58
+		::System::Boolean FDAFLPCLCEJ; // 0x60
+		::System::Boolean AGPKPMAEIFH; // 0x61
 		::UnityEngine::Material* FlowMaterial; // 0x68
 		::System::Single OffsetPos; // 0x70
 		::System::Single Angle; // 0x74

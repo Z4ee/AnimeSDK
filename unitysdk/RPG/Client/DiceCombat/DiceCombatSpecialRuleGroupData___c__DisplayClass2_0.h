@@ -4,12 +4,12 @@
 
 namespace RPG::Client::DiceCombat { class DiceCombatSpecialRuleData; }
 
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATSPECIALRULEGROUPDATA___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC224290)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATSPECIALRULEGROUPDATA___C__DISPLAYCLASS2_0__PINSPECIALRULEBYID_B__0_OFFSET UNITYSDK_OFFSET(0xC224370)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATSPECIALRULEGROUPDATA___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCD37AC0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATSPECIALRULEGROUPDATA___C__DISPLAYCLASS2_0__PINSPECIALRULEBYID_B__0_OFFSET UNITYSDK_OFFSET(0xCD37BA0)
 
 namespace RPG::Client::DiceCombat
 {
-	inline static constexpr unsigned int DiceCombatSpecialRuleGroupData___c__DisplayClass2_0_TypeDefinitionIndex = 72176;
+	inline static constexpr unsigned int DiceCombatSpecialRuleGroupData___c__DisplayClass2_0_TypeDefinitionIndex = 75612;
 
 	class DiceCombatSpecialRuleGroupData___c__DisplayClass2_0 : public ::System::Object
 	{

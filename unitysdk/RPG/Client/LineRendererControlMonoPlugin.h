@@ -7,12 +7,12 @@ namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class LineRenderer; }
 
-#define RPG_CLIENT_LINERENDERERCONTROLMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xC965DF0)
-#define RPG_CLIENT_LINERENDERERCONTROLMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xC965E40)
+#define RPG_CLIENT_LINERENDERERCONTROLMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xD4A3380)
+#define RPG_CLIENT_LINERENDERERCONTROLMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xD4A33D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LineRendererControlMonoPlugin_TypeDefinitionIndex = 67486;
+	inline static constexpr unsigned int LineRendererControlMonoPlugin_TypeDefinitionIndex = 70609;
 
 	class LineRendererControlMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::LineRendererControlBehavior*>
 	{

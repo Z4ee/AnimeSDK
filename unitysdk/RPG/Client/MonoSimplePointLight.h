@@ -8,15 +8,15 @@
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Renderer; }
 
-#define RPG_CLIENT_MONOSIMPLEPOINTLIGHT_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xCD209F0)
-#define RPG_CLIENT_MONOSIMPLEPOINTLIGHT_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xCD208B0)
-#define RPG_CLIENT_MONOSIMPLEPOINTLIGHT_ONDRAWGIZMOSSELECTED_OFFSET UNITYSDK_OFFSET(0xCD20C40)
-#define RPG_CLIENT_MONOSIMPLEPOINTLIGHT_ONENABLE_OFFSET UNITYSDK_OFFSET(0xCD20850)
-#define RPG_CLIENT_MONOSIMPLEPOINTLIGHT__CTOR_OFFSET UNITYSDK_OFFSET(0xCD20CF0)
+#define RPG_CLIENT_MONOSIMPLEPOINTLIGHT_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xD8633B0)
+#define RPG_CLIENT_MONOSIMPLEPOINTLIGHT_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xD863270)
+#define RPG_CLIENT_MONOSIMPLEPOINTLIGHT_ONDRAWGIZMOSSELECTED_OFFSET UNITYSDK_OFFSET(0xD863600)
+#define RPG_CLIENT_MONOSIMPLEPOINTLIGHT_ONENABLE_OFFSET UNITYSDK_OFFSET(0xD863210)
+#define RPG_CLIENT_MONOSIMPLEPOINTLIGHT__CTOR_OFFSET UNITYSDK_OFFSET(0xD8636B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoSimplePointLight_TypeDefinitionIndex = 67636;
+	inline static constexpr unsigned int MonoSimplePointLight_TypeDefinitionIndex = 70759;
 
 	class MonoSimplePointLight : public ::UnityEngine::MonoBehaviour
 	{
@@ -27,9 +27,9 @@ namespace RPG::Client
 		::UnityEngine::Color color; // 0x28
 		::System::Single intensity; // 0x38
 		::UnityEngine::Color gizmoColor; // 0x3C
-		::UnityEngine::Material* Field_5_6; // 0x50
-		::UnityEngine::Vector4 Field_5_7; // 0x58
-		::UnityEngine::Color Field_5_8; // 0x68
+		::UnityEngine::Material* PCANJIIKLDC; // 0x50
+		::UnityEngine::Vector4 CMBOFBIKFHL; // 0x58
+		::UnityEngine::Color ACLMOHPHCNP; // 0x68
 
 		::System::Void _ctor()
 		{

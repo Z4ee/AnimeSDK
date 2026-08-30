@@ -12,74 +12,74 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 template <typename T1, typename T2> class __f__AnonymousType2_2;
 
-#define RPG_CLIENT_RECHARGESHOPMODULE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD2CDB30)
-#define RPG_CLIENT_RECHARGESHOPMODULE___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD2CDB60)
-#define RPG_CLIENT_RECHARGESHOPMODULE___C__GETSHOPGIFTSBYSHOPID_B__36_0_OFFSET UNITYSDK_OFFSET(0xD2CDD80)
-#define RPG_CLIENT_RECHARGESHOPMODULE___C__GETSHOPGIFTSBYSHOPID_B__36_1_OFFSET UNITYSDK_OFFSET(0xD2CDD90)
-#define RPG_CLIENT_RECHARGESHOPMODULE___C__REDDOTISGIFTREWARDING_B__4_0_OFFSET UNITYSDK_OFFSET(0xD2CDD00)
-#define RPG_CLIENT_RECHARGESHOPMODULE___C__REDDOTVISITREWARDINGGIFTPACKS_B__2_0_OFFSET UNITYSDK_OFFSET(0xD2CDB70)
-#define RPG_CLIENT_RECHARGESHOPMODULE___C__REDDOTVISITREWARDINGGIFTPACKS_B__2_1_OFFSET UNITYSDK_OFFSET(0xD2CDBA0)
-#define RPG_CLIENT_RECHARGESHOPMODULE___C__REDDOTVISITREWARDINGGIFTPACKS_B__2_2_OFFSET UNITYSDK_OFFSET(0xD2CDC50)
-#define RPG_CLIENT_RECHARGESHOPMODULE___C__REDDOTVISITREWARDINGGIFTPACKS_B__2_3_OFFSET UNITYSDK_OFFSET(0xD2CDCB0)
-#define RPG_CLIENT_RECHARGESHOPMODULE___C__REDDOTVISITREWARDINGGIFTPACKS_B__2_4_OFFSET UNITYSDK_OFFSET(0xD2CDCE0)
-#define RPG_CLIENT_RECHARGESHOPMODULE___C__REQUESTDATA_B__24_0_OFFSET UNITYSDK_OFFSET(0xD2CDD20)
-#define RPG_CLIENT_RECHARGESHOPMODULE___C___ONGETRECHARGEGIFTINFOSCRSP_B__31_0_OFFSET UNITYSDK_OFFSET(0xD2CDD60)
-#define RPG_CLIENT_RECHARGESHOPMODULE___C___REQUESTDATA_B__26_1_OFFSET UNITYSDK_OFFSET(0xD2CDD50)
+#define RPG_CLIENT_RECHARGESHOPMODULE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xDE0C9C0)
+#define RPG_CLIENT_RECHARGESHOPMODULE___C__CTOR_OFFSET UNITYSDK_OFFSET(0xDE0C9F0)
+#define RPG_CLIENT_RECHARGESHOPMODULE___C__GETSHOPGIFTSBYSHOPID_B__36_0_OFFSET UNITYSDK_OFFSET(0xDE0CC10)
+#define RPG_CLIENT_RECHARGESHOPMODULE___C__GETSHOPGIFTSBYSHOPID_B__36_1_OFFSET UNITYSDK_OFFSET(0xDE0CC20)
+#define RPG_CLIENT_RECHARGESHOPMODULE___C__REDDOTISGIFTREWARDING_B__4_0_OFFSET UNITYSDK_OFFSET(0xDE0CB90)
+#define RPG_CLIENT_RECHARGESHOPMODULE___C__REDDOTVISITREWARDINGGIFTPACKS_B__2_0_OFFSET UNITYSDK_OFFSET(0xDE0CA00)
+#define RPG_CLIENT_RECHARGESHOPMODULE___C__REDDOTVISITREWARDINGGIFTPACKS_B__2_1_OFFSET UNITYSDK_OFFSET(0xDE0CA30)
+#define RPG_CLIENT_RECHARGESHOPMODULE___C__REDDOTVISITREWARDINGGIFTPACKS_B__2_2_OFFSET UNITYSDK_OFFSET(0xDE0CAE0)
+#define RPG_CLIENT_RECHARGESHOPMODULE___C__REDDOTVISITREWARDINGGIFTPACKS_B__2_3_OFFSET UNITYSDK_OFFSET(0xDE0CB40)
+#define RPG_CLIENT_RECHARGESHOPMODULE___C__REDDOTVISITREWARDINGGIFTPACKS_B__2_4_OFFSET UNITYSDK_OFFSET(0xDE0CB70)
+#define RPG_CLIENT_RECHARGESHOPMODULE___C__REQUESTDATA_B__24_0_OFFSET UNITYSDK_OFFSET(0xDE0CBB0)
+#define RPG_CLIENT_RECHARGESHOPMODULE___C___ONGETRECHARGEGIFTINFOSCRSP_B__31_0_OFFSET UNITYSDK_OFFSET(0xDE0CBF0)
+#define RPG_CLIENT_RECHARGESHOPMODULE___C___REQUESTDATA_B__26_1_OFFSET UNITYSDK_OFFSET(0xDE0CBE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RechargeShopModule___c_TypeDefinitionIndex = 63812;
+	inline static constexpr unsigned int RechargeShopModule___c_TypeDefinitionIndex = 66797;
 
 	class RechargeShopModule___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::Client::RechargeGiftData*, ::System::Collections::Generic::IEnumerable_1<::RPG::Client::RechargeGiftRewardData*>*>** StaticGet___9__2_1()
-		{
-			return (::System::Func_2<::RPG::Client::RechargeGiftData*, ::System::Collections::Generic::IEnumerable_1<::RPG::Client::RechargeGiftRewardData*>*>**)Il2CppClass::FromTypeDefinitionIndex(RechargeShopModule___c_TypeDefinitionIndex)->GetStaticField(0x1C760);
-		}
-		static ::System::Func_2<::System::ValueTuple_2<::System::UInt32, ::RPG::Client::RechargeGiftData*>, ::System::UInt32>** StaticGet___9__36_0()
-		{
-			return (::System::Func_2<::System::ValueTuple_2<::System::UInt32, ::RPG::Client::RechargeGiftData*>, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(RechargeShopModule___c_TypeDefinitionIndex)->GetStaticField(0x1C768);
-		}
-		static ::System::Action_1<::System::Boolean>** StaticGet___9__24_0()
-		{
-			return (::System::Action_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(RechargeShopModule___c_TypeDefinitionIndex)->GetStaticField(0x1C770);
-		}
-		static ::System::Func_2<::RPG::Client::RechargeGiftData*, ::System::Boolean>** StaticGet___9__2_0()
-		{
-			return (::System::Func_2<::RPG::Client::RechargeGiftData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(RechargeShopModule___c_TypeDefinitionIndex)->GetStaticField(0x1C778);
-		}
-		static ::System::Func_2<::__f__AnonymousType2_2<::RPG::Client::RechargeGiftData*, ::RPG::Client::RechargeGiftRewardData*>*, ::System::Boolean>** StaticGet___9__2_3()
-		{
-			return (::System::Func_2<::__f__AnonymousType2_2<::RPG::Client::RechargeGiftData*, ::RPG::Client::RechargeGiftRewardData*>*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(RechargeShopModule___c_TypeDefinitionIndex)->GetStaticField(0x1C780);
-		}
-		static ::System::Func_2<::RPG::Client::RechargeGiftRewardData*, ::System::Boolean>** StaticGet___9__4_0()
-		{
-			return (::System::Func_2<::RPG::Client::RechargeGiftRewardData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(RechargeShopModule___c_TypeDefinitionIndex)->GetStaticField(0x1C788);
-		}
 		static ::System::Func_2<::Class_1_EF89D87B2C044B50_1*, ::System::UInt32>** StaticGet___9__31_0()
 		{
-			return (::System::Func_2<::Class_1_EF89D87B2C044B50_1*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(RechargeShopModule___c_TypeDefinitionIndex)->GetStaticField(0x1C790);
-		}
-		static ::System::Func_2<::System::Boolean, ::System::Boolean>** StaticGet___9__26_1()
-		{
-			return (::System::Func_2<::System::Boolean, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(RechargeShopModule___c_TypeDefinitionIndex)->GetStaticField(0x1C798);
-		}
-		static ::System::Func_2<::__f__AnonymousType2_2<::RPG::Client::RechargeGiftData*, ::RPG::Client::RechargeGiftRewardData*>*, ::RPG::Client::RechargeGiftRewardData*>** StaticGet___9__2_4()
-		{
-			return (::System::Func_2<::__f__AnonymousType2_2<::RPG::Client::RechargeGiftData*, ::RPG::Client::RechargeGiftRewardData*>*, ::RPG::Client::RechargeGiftRewardData*>**)Il2CppClass::FromTypeDefinitionIndex(RechargeShopModule___c_TypeDefinitionIndex)->GetStaticField(0x1C7A0);
-		}
-		static ::System::Func_3<::RPG::Client::RechargeGiftData*, ::RPG::Client::RechargeGiftRewardData*, ::__f__AnonymousType2_2<::RPG::Client::RechargeGiftData*, ::RPG::Client::RechargeGiftRewardData*>*>** StaticGet___9__2_2()
-		{
-			return (::System::Func_3<::RPG::Client::RechargeGiftData*, ::RPG::Client::RechargeGiftRewardData*, ::__f__AnonymousType2_2<::RPG::Client::RechargeGiftData*, ::RPG::Client::RechargeGiftRewardData*>*>**)Il2CppClass::FromTypeDefinitionIndex(RechargeShopModule___c_TypeDefinitionIndex)->GetStaticField(0x1C7A8);
+			return (::System::Func_2<::Class_1_EF89D87B2C044B50_1*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(RechargeShopModule___c_TypeDefinitionIndex)->GetStaticField(0x5EB00);
 		}
 		static ::System::Func_2<::System::ValueTuple_2<::System::UInt32, ::RPG::Client::RechargeGiftData*>, ::RPG::Client::RechargeGiftData*>** StaticGet___9__36_1()
 		{
-			return (::System::Func_2<::System::ValueTuple_2<::System::UInt32, ::RPG::Client::RechargeGiftData*>, ::RPG::Client::RechargeGiftData*>**)Il2CppClass::FromTypeDefinitionIndex(RechargeShopModule___c_TypeDefinitionIndex)->GetStaticField(0x1C7B0);
+			return (::System::Func_2<::System::ValueTuple_2<::System::UInt32, ::RPG::Client::RechargeGiftData*>, ::RPG::Client::RechargeGiftData*>**)Il2CppClass::FromTypeDefinitionIndex(RechargeShopModule___c_TypeDefinitionIndex)->GetStaticField(0x5EB08);
+		}
+		static ::System::Func_2<::System::ValueTuple_2<::System::UInt32, ::RPG::Client::RechargeGiftData*>, ::System::UInt32>** StaticGet___9__36_0()
+		{
+			return (::System::Func_2<::System::ValueTuple_2<::System::UInt32, ::RPG::Client::RechargeGiftData*>, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(RechargeShopModule___c_TypeDefinitionIndex)->GetStaticField(0x5EB10);
+		}
+		static ::System::Func_2<::RPG::Client::RechargeGiftData*, ::System::Collections::Generic::IEnumerable_1<::RPG::Client::RechargeGiftRewardData*>*>** StaticGet___9__2_1()
+		{
+			return (::System::Func_2<::RPG::Client::RechargeGiftData*, ::System::Collections::Generic::IEnumerable_1<::RPG::Client::RechargeGiftRewardData*>*>**)Il2CppClass::FromTypeDefinitionIndex(RechargeShopModule___c_TypeDefinitionIndex)->GetStaticField(0x5EB18);
+		}
+		static ::System::Func_2<::RPG::Client::RechargeGiftRewardData*, ::System::Boolean>** StaticGet___9__4_0()
+		{
+			return (::System::Func_2<::RPG::Client::RechargeGiftRewardData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(RechargeShopModule___c_TypeDefinitionIndex)->GetStaticField(0x5EB20);
 		}
 		static ::RPG::Client::RechargeShopModule___c** StaticGet___9()
 		{
-			return (::RPG::Client::RechargeShopModule___c**)Il2CppClass::FromTypeDefinitionIndex(RechargeShopModule___c_TypeDefinitionIndex)->GetStaticField(0x1C7B8);
+			return (::RPG::Client::RechargeShopModule___c**)Il2CppClass::FromTypeDefinitionIndex(RechargeShopModule___c_TypeDefinitionIndex)->GetStaticField(0x5EB28);
+		}
+		static ::System::Func_2<::System::Boolean, ::System::Boolean>** StaticGet___9__26_1()
+		{
+			return (::System::Func_2<::System::Boolean, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(RechargeShopModule___c_TypeDefinitionIndex)->GetStaticField(0x5EB30);
+		}
+		static ::System::Action_1<::System::Boolean>** StaticGet___9__24_0()
+		{
+			return (::System::Action_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(RechargeShopModule___c_TypeDefinitionIndex)->GetStaticField(0x5EB38);
+		}
+		static ::System::Func_2<::RPG::Client::RechargeGiftData*, ::System::Boolean>** StaticGet___9__2_0()
+		{
+			return (::System::Func_2<::RPG::Client::RechargeGiftData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(RechargeShopModule___c_TypeDefinitionIndex)->GetStaticField(0x5EB40);
+		}
+		static ::System::Func_2<::__f__AnonymousType2_2<::RPG::Client::RechargeGiftData*, ::RPG::Client::RechargeGiftRewardData*>*, ::RPG::Client::RechargeGiftRewardData*>** StaticGet___9__2_4()
+		{
+			return (::System::Func_2<::__f__AnonymousType2_2<::RPG::Client::RechargeGiftData*, ::RPG::Client::RechargeGiftRewardData*>*, ::RPG::Client::RechargeGiftRewardData*>**)Il2CppClass::FromTypeDefinitionIndex(RechargeShopModule___c_TypeDefinitionIndex)->GetStaticField(0x5EB48);
+		}
+		static ::System::Func_3<::RPG::Client::RechargeGiftData*, ::RPG::Client::RechargeGiftRewardData*, ::__f__AnonymousType2_2<::RPG::Client::RechargeGiftData*, ::RPG::Client::RechargeGiftRewardData*>*>** StaticGet___9__2_2()
+		{
+			return (::System::Func_3<::RPG::Client::RechargeGiftData*, ::RPG::Client::RechargeGiftRewardData*, ::__f__AnonymousType2_2<::RPG::Client::RechargeGiftData*, ::RPG::Client::RechargeGiftRewardData*>*>**)Il2CppClass::FromTypeDefinitionIndex(RechargeShopModule___c_TypeDefinitionIndex)->GetStaticField(0x5EB50);
+		}
+		static ::System::Func_2<::__f__AnonymousType2_2<::RPG::Client::RechargeGiftData*, ::RPG::Client::RechargeGiftRewardData*>*, ::System::Boolean>** StaticGet___9__2_3()
+		{
+			return (::System::Func_2<::__f__AnonymousType2_2<::RPG::Client::RechargeGiftData*, ::RPG::Client::RechargeGiftRewardData*>*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(RechargeShopModule___c_TypeDefinitionIndex)->GetStaticField(0x5EB58);
 		}
 
 		static ::System::Void _cctor()

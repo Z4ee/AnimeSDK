@@ -7,18 +7,18 @@ namespace MiHoYo::SDK { class GameRoleModel; }
 namespace MiHoYo::SDK::Console::CN { class PayManagerPS; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_CONSOLE_CN_PAYMANAGERPS___C__DISPLAYCLASS9_0__CHECKCONSOLEPAY_B__0_OFFSET UNITYSDK_OFFSET(0x19BEA8E0)
-#define MIHOYO_SDK_CONSOLE_CN_PAYMANAGERPS___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19BE6450)
+#define MIHOYO_SDK_CONSOLE_CN_PAYMANAGERPS___C__DISPLAYCLASS9_0__CHECKCONSOLEPAY_B__0_OFFSET UNITYSDK_OFFSET(0x1B77AB00)
+#define MIHOYO_SDK_CONSOLE_CN_PAYMANAGERPS___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B776670)
 
 namespace MiHoYo::SDK::Console::CN
 {
-	inline static constexpr unsigned int PayManagerPS___c__DisplayClass9_0_TypeDefinitionIndex = 8790;
+	inline static constexpr unsigned int PayManagerPS___c__DisplayClass9_0_TypeDefinitionIndex = 9060;
 
 	class PayManagerPS___c__DisplayClass9_0 : public ::System::Object
 	{
 	public:
-		::MiHoYo::SDK::Console::CN::PayManagerPS* __4__this; // 0x10
-		::MiHoYo::SDK::GameRoleModel* gameRoleModel; // 0x18
+		::MiHoYo::SDK::GameRoleModel* gameRoleModel; // 0x10
+		::MiHoYo::SDK::Console::CN::PayManagerPS* __4__this; // 0x18
 		::MiHoYo::SDK::AccountModel* accountModel; // 0x20
 
 		::System::Void _ctor()

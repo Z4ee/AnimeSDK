@@ -6,17 +6,17 @@ class Class_2_1C60A581E4366C03;
 namespace System { class Version; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_D7F5570CA0E8386B_METHOD_1_A2B8457F84547A2A_OFFSET UNITYSDK_OFFSET(0xAE7F6D0)
-#define CLASS_1_D7F5570CA0E8386B_METHOD_1_AD55B46C1D99DE57_OFFSET UNITYSDK_OFFSET(0xAE7F370)
-#define CLASS_1_D7F5570CA0E8386B__CTOR_OFFSET UNITYSDK_OFFSET(0xAE7F7B0)
+#define CLASS_1_D7F5570CA0E8386B_METHOD_1_A2B8457F84547A2A_OFFSET UNITYSDK_OFFSET(0xB824620)
+#define CLASS_1_D7F5570CA0E8386B_METHOD_1_AD55B46C1D99DE57_OFFSET UNITYSDK_OFFSET(0xB8242C0)
+#define CLASS_1_D7F5570CA0E8386B__CTOR_OFFSET UNITYSDK_OFFSET(0xB824700)
 
-inline static constexpr unsigned int Class_1_D7F5570CA0E8386B_TypeDefinitionIndex = 76824;
+inline static constexpr unsigned int Class_1_D7F5570CA0E8386B_TypeDefinitionIndex = 80864;
 
 class Class_1_D7F5570CA0E8386B : public ::System::Object
 {
 public:
-	::System::Version* Field_1_0; // 0x10
-	::System::Collections::Generic::List_1<::Class_2_1C60A581E4366C03*>* Field_1_1; // 0x18
+	::System::Collections::Generic::List_1<::Class_2_1C60A581E4366C03*>* JCGGNJHEJKD; // 0x10
+	::System::Version* CNCPHIIDFNF; // 0x18
 
 	::System::Void _ctor()
 	{

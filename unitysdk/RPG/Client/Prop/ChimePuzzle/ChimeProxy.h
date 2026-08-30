@@ -5,7 +5,7 @@
 
 namespace RPG::Client::Prop::ChimePuzzle
 {
-	inline static constexpr unsigned int ChimeProxy_TypeDefinitionIndex = 75026;
+	inline static constexpr unsigned int ChimeProxy_TypeDefinitionIndex = 78511;
 
 	struct alignas(8) ChimeProxy
 	{

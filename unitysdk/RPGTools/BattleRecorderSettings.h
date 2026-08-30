@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/ScriptableObject.h"
 
-#define RPGTOOLS_BATTLERECORDERSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0xDC86E30)
+#define RPGTOOLS_BATTLERECORDERSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0xE802990)
 
 namespace RPGTools
 {
-	inline static constexpr unsigned int BattleRecorderSettings_TypeDefinitionIndex = 46008;
+	inline static constexpr unsigned int BattleRecorderSettings_TypeDefinitionIndex = 48232;
 
 	class BattleRecorderSettings : public ::UnityEngine::ScriptableObject
 	{

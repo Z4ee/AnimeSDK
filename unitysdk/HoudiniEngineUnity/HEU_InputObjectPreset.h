@@ -6,11 +6,11 @@
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define HOUDINIENGINEUNITY_HEU_INPUTOBJECTPRESET__CTOR_OFFSET UNITYSDK_OFFSET(0x198B2440)
+#define HOUDINIENGINEUNITY_HEU_INPUTOBJECTPRESET__CTOR_OFFSET UNITYSDK_OFFSET(0x1B43D8E0)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_InputObjectPreset_TypeDefinitionIndex = 38211;
+	inline static constexpr unsigned int HEU_InputObjectPreset_TypeDefinitionIndex = 39070;
 
 	class HEU_InputObjectPreset : public ::System::Object
 	{

@@ -5,26 +5,26 @@
 namespace System { class String; }
 namespace System::Text::RegularExpressions { class CaptureCollection; }
 
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_GROUP_GET_CAPTURES_OFFSET UNITYSDK_OFFSET(0x1CD42F60)
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_GROUP_GET_SUCCESS_OFFSET UNITYSDK_OFFSET(0x1CD42F50)
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_GROUP__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CD42FC0)
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_GROUP__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1CD43040)
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_GROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD42ED0)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_GROUP_GET_CAPTURES_OFFSET UNITYSDK_OFFSET(0x1E9EF5B0)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_GROUP_GET_SUCCESS_OFFSET UNITYSDK_OFFSET(0x1E9EF5A0)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_GROUP__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E9EF610)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_GROUP__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E9EF690)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_GROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1E9EF530)
 
 namespace System::Text::RegularExpressions
 {
-	inline static constexpr unsigned int Group_TypeDefinitionIndex = 2507;
+	inline static constexpr unsigned int Group_TypeDefinitionIndex = 2514;
 
 	class Group : public ::System::Text::RegularExpressions::Capture
 	{
 	public:
 		static ::System::Text::RegularExpressions::Group** StaticGet__emptygroup()
 		{
-			return (::System::Text::RegularExpressions::Group**)Il2CppClass::FromTypeDefinitionIndex(Group_TypeDefinitionIndex)->GetStaticField(0x2F970);
+			return (::System::Text::RegularExpressions::Group**)Il2CppClass::FromTypeDefinitionIndex(Group_TypeDefinitionIndex)->GetStaticField(0x24620);
 		}
-		::System::Text::RegularExpressions::CaptureCollection* _capcoll; // 0x20
+		::System::String* _name; // 0x20
 		::Il2CppArray<::System::Int32>* _caps; // 0x28
-		::System::String* _name; // 0x30
+		::System::Text::RegularExpressions::CaptureCollection* _capcoll; // 0x30
 		::System::Int32 _capcount; // 0x38
 
 		::System::Void _ctor(::System::String* a1, ::Il2CppArray<::System::Int32>* a2, ::System::Int32 a3, ::System::String* a4)

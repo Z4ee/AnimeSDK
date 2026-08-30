@@ -2,19 +2,25 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_E20E428AE57D7278;
+class Class_1_64B0865F947DD0FB_Class_1_013A96B3D36C22A3;
+namespace System { class String; }
+namespace System::IO { class Stream; }
+namespace System::Text { class Encoding; }
 
-#define CLASS_1_64B0865F947DD0FB__CTOR_OFFSET UNITYSDK_OFFSET(0x1A75C200)
+#define CLASS_1_64B0865F947DD0FB__CCTOR_OFFSET UNITYSDK_OFFSET(0x161C43A0)
 
-inline static constexpr unsigned int Class_1_64B0865F947DD0FB_TypeDefinitionIndex = 40635;
+inline static constexpr unsigned int Class_1_64B0865F947DD0FB_TypeDefinitionIndex = 61314;
 
 class Class_1_64B0865F947DD0FB : public ::System::Object
 {
 public:
-	::Class_1_E20E428AE57D7278* Field_1_0; // 0x10
-
-	::System::Void _ctor()
+	static ::Class_1_64B0865F947DD0FB_Class_1_013A96B3D36C22A3** StaticGet_MFPNICMCKJG()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_64B0865F947DD0FB__CTOR_OFFSET))(this);
+		return (::Class_1_64B0865F947DD0FB_Class_1_013A96B3D36C22A3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_64B0865F947DD0FB_TypeDefinitionIndex)->GetStaticField(0x41BA0);
+	}
+
+	static ::System::Void _cctor()
+	{
+		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CLASS_1_64B0865F947DD0FB__CCTOR_OFFSET))();
 	}
 };

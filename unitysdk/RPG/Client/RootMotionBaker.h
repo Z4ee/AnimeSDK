@@ -9,11 +9,11 @@ namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Animator; }
 
-#define RPG_CLIENT_ROOTMOTIONBAKER__CTOR_OFFSET UNITYSDK_OFFSET(0xD4B1790)
+#define RPG_CLIENT_ROOTMOTIONBAKER__CTOR_OFFSET UNITYSDK_OFFSET(0xDFD6D40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RootMotionBaker_TypeDefinitionIndex = 65745;
+	inline static constexpr unsigned int RootMotionBaker_TypeDefinitionIndex = 68783;
 
 	class RootMotionBaker : public ::UnityEngine::MonoBehaviour
 	{
@@ -25,9 +25,9 @@ namespace RPG::Client
 		::UnityEngine::Animator* animator; // 0x28
 		::RPG::Client::RootMotionHandler* handler; // 0x30
 		::Il2CppArray<::RPG::Client::MovementStoppedRootMotionBakedData>* movementStoppedBakedArray; // 0x38
-		::System::Action_2<::System::Int32, ::System::Single>* Field_5_7; // 0x40
-		::System::Collections::Generic::List_1<::System::Int32>* Field_5_8; // 0x48
-		::System::Collections::Generic::List_1<::RPG::Client::MovementStoppedRootMotionBakedData_RootMotionCurve>* Field_5_9; // 0x50
+		::System::Action_2<::System::Int32, ::System::Single>* LDKDMEIAGJG; // 0x40
+		::System::Collections::Generic::List_1<::System::Int32>* OINCGJJMAEF; // 0x48
+		::System::Collections::Generic::List_1<::RPG::Client::MovementStoppedRootMotionBakedData_RootMotionCurve>* FNABCHMGJBF; // 0x50
 
 		::System::Void _ctor()
 		{

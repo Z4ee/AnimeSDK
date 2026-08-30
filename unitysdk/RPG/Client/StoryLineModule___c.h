@@ -6,24 +6,24 @@ namespace RPG::Client { class StoryLineData; }
 namespace RPG::Client::Promises { class IPromise; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_STORYLINEMODULE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD5746C0)
-#define RPG_CLIENT_STORYLINEMODULE___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD5746F0)
-#define RPG_CLIENT_STORYLINEMODULE___C__SENDSTORYLINEDATA_B__7_0_OFFSET UNITYSDK_OFFSET(0xD574700)
+#define RPG_CLIENT_STORYLINEMODULE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xE105380)
+#define RPG_CLIENT_STORYLINEMODULE___C__CTOR_OFFSET UNITYSDK_OFFSET(0xE1053B0)
+#define RPG_CLIENT_STORYLINEMODULE___C__SENDSTORYLINEDATA_B__7_0_OFFSET UNITYSDK_OFFSET(0xE1053C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int StoryLineModule___c_TypeDefinitionIndex = 64981;
+	inline static constexpr unsigned int StoryLineModule___c_TypeDefinitionIndex = 67988;
 
 	class StoryLineModule___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::RPG::Client::StoryLineData*, ::RPG::Client::Promises::IPromise*>** StaticGet___9__7_0()
 		{
-			return (::System::Func_2<::RPG::Client::StoryLineData*, ::RPG::Client::Promises::IPromise*>**)Il2CppClass::FromTypeDefinitionIndex(StoryLineModule___c_TypeDefinitionIndex)->GetStaticField(0x36C80);
+			return (::System::Func_2<::RPG::Client::StoryLineData*, ::RPG::Client::Promises::IPromise*>**)Il2CppClass::FromTypeDefinitionIndex(StoryLineModule___c_TypeDefinitionIndex)->GetStaticField(0x2DDC0);
 		}
 		static ::RPG::Client::StoryLineModule___c** StaticGet___9()
 		{
-			return (::RPG::Client::StoryLineModule___c**)Il2CppClass::FromTypeDefinitionIndex(StoryLineModule___c_TypeDefinitionIndex)->GetStaticField(0x36C88);
+			return (::RPG::Client::StoryLineModule___c**)Il2CppClass::FromTypeDefinitionIndex(StoryLineModule___c_TypeDefinitionIndex)->GetStaticField(0x2DDC8);
 		}
 
 		static ::System::Void _cctor()

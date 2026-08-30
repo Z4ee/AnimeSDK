@@ -3,7 +3,7 @@
 
 namespace RPG::Client::OpenWorld
 {
-	inline static constexpr unsigned int FadingDistanceTier_TypeDefinitionIndex = 70547;
+	inline static constexpr unsigned int FadingDistanceTier_TypeDefinitionIndex = 73845;
 
 	enum class FadingDistanceTier : ::System::Int32
 	{

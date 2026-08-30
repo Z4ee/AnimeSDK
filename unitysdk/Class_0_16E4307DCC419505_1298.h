@@ -1,8 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/CustomRP/Quality.h"
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_1298_TypeDefinitionIndex = 76092;
+namespace RPG::Client::Promises { class IPromise; }
+namespace System { class Object; }
+
+inline static constexpr unsigned int Class_0_16E4307DCC419505_1298_TypeDefinitionIndex = 77263;
 
 class Class_0_16E4307DCC419505_1298
 {

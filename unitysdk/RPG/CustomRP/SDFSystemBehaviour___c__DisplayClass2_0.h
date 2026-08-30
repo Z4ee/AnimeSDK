@@ -6,12 +6,12 @@
 namespace RPG::Client { class IAssetOperation; }
 namespace RPG::CustomRP { class SDFSystemBehaviour; }
 
-#define RPG_CUSTOMRP_SDFSYSTEMBEHAVIOUR___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD8D1EE0)
-#define RPG_CUSTOMRP_SDFSYSTEMBEHAVIOUR___C__DISPLAYCLASS2_0__ONSDFSTREAMING_B__0_OFFSET UNITYSDK_OFFSET(0xD8D2420)
+#define RPG_CUSTOMRP_SDFSYSTEMBEHAVIOUR___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0xE44CDF0)
+#define RPG_CUSTOMRP_SDFSYSTEMBEHAVIOUR___C__DISPLAYCLASS2_0__ONSDFSTREAMING_B__0_OFFSET UNITYSDK_OFFSET(0xE44D310)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int SDFSystemBehaviour___c__DisplayClass2_0_TypeDefinitionIndex = 49506;
+	inline static constexpr unsigned int SDFSystemBehaviour___c__DisplayClass2_0_TypeDefinitionIndex = 52164;
 
 	class SDFSystemBehaviour___c__DisplayClass2_0 : public ::System::Object
 	{

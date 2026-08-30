@@ -7,27 +7,27 @@ namespace RPG::Client { class Effect_Transform; }
 namespace RPG::GameCore { class TimelineOverrideEffectTransformOffsetParams; }
 namespace RPG::GameCore { class TimelineOverrideEffectTransformRotateParams; }
 
-#define CLASS_2_417D84B102DE4F5A_DISPOSE_OFFSET UNITYSDK_OFFSET(0x14CE14D0)
-#define CLASS_2_417D84B102DE4F5A_METHOD_2_03A81715BD2AFEF3_OFFSET UNITYSDK_OFFSET(0x14CE1530)
-#define CLASS_2_417D84B102DE4F5A_METHOD_2_1ABF1CBED7A4AF0A_OFFSET UNITYSDK_OFFSET(0x14CE17A0)
-#define CLASS_2_417D84B102DE4F5A_METHOD_2_6416B1BD1387DA74_OFFSET UNITYSDK_OFFSET(0x14CE1630)
-#define CLASS_2_417D84B102DE4F5A_METHOD_2_9FA85F81BF5EE3CA_OFFSET UNITYSDK_OFFSET(0x14CE19C0)
-#define CLASS_2_417D84B102DE4F5A_METHOD_2_D0BD1377F2594D33_OFFSET UNITYSDK_OFFSET(0x14CE1920)
-#define CLASS_2_417D84B102DE4F5A__CTOR_OFFSET UNITYSDK_OFFSET(0x14CE1AB0)
+#define CLASS_2_417D84B102DE4F5A_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15BA5B70)
+#define CLASS_2_417D84B102DE4F5A_METHOD_2_03A81715BD2AFEF3_OFFSET UNITYSDK_OFFSET(0x15BA5BD0)
+#define CLASS_2_417D84B102DE4F5A_METHOD_2_1ABF1CBED7A4AF0A_OFFSET UNITYSDK_OFFSET(0x15BA5E40)
+#define CLASS_2_417D84B102DE4F5A_METHOD_2_6416B1BD1387DA74_OFFSET UNITYSDK_OFFSET(0x15BA5CD0)
+#define CLASS_2_417D84B102DE4F5A_METHOD_2_9FA85F81BF5EE3CA_OFFSET UNITYSDK_OFFSET(0x15BA6050)
+#define CLASS_2_417D84B102DE4F5A_METHOD_2_D0BD1377F2594D33_OFFSET UNITYSDK_OFFSET(0x15BA5FB0)
+#define CLASS_2_417D84B102DE4F5A__CTOR_OFFSET UNITYSDK_OFFSET(0x15BA6140)
 
-inline static constexpr unsigned int Class_2_417D84B102DE4F5A_TypeDefinitionIndex = 54795;
+inline static constexpr unsigned int Class_2_417D84B102DE4F5A_TypeDefinitionIndex = 57516;
 
 class Class_2_417D84B102DE4F5A : public ::RPG::GameCore::GameComponentBase
 {
 public:
-	::RPG::GameCore::TimelineOverrideEffectTransformOffsetParams* Field_2_0; // 0x18
-	::RPG::GameCore::TimelineOverrideEffectTransformRotateParams* Field_2_1; // 0x20
-	::RPG::GameCore::TimelineOverrideEffectTransformOffsetParams* Field_2_2; // 0x28
-	::RPG::Client::Effect_Transform* Field_2_3; // 0x30
-	::RPG::GameCore::TimelineOverrideEffectTransformRotateParams* Field_2_4; // 0x38
-	::System::Boolean Field_2_5; // 0x40
-	::System::Nullable_1<::System::Boolean> Field_2_6; // 0x41
-	::System::Boolean Field_2_7; // 0x43
+	::RPG::GameCore::TimelineOverrideEffectTransformOffsetParams* NDJHBLBHAPM; // 0x18
+	::RPG::GameCore::TimelineOverrideEffectTransformOffsetParams* EPNANOBCAHL; // 0x20
+	::RPG::GameCore::TimelineOverrideEffectTransformRotateParams* GPHAAJKBEFA; // 0x28
+	::RPG::Client::Effect_Transform* OIMCMKFHMDK; // 0x30
+	::RPG::GameCore::TimelineOverrideEffectTransformRotateParams* BDCOKLBALBP; // 0x38
+	::System::Boolean JHEHFCGCDDG; // 0x40
+	::System::Nullable_1<::System::Boolean> CMADHKDPFMM; // 0x41
+	::System::Boolean FGCNCDGJOAL; // 0x43
 
 	::System::Void _ctor()
 	{

@@ -8,36 +8,36 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ItemConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ACTIVITYPANELROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B122F10)
-#define RPG_GAMECORE_ACTIVITYPANELROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B123BE0)
+#define RPG_GAMECORE_ACTIVITYPANELROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CD99650)
+#define RPG_GAMECORE_ACTIVITYPANELROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD9A320)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityPanelRow_TypeDefinitionIndex = 10812;
+	inline static constexpr unsigned int ActivityPanelRow_TypeDefinitionIndex = 11187;
 
 	class ActivityPanelRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* ActivityTagList; // 0x10
+		::System::String* UnlockConditions; // 0x10
 		::System::String* UIPrefab; // 0x18
-		::Il2CppArray<::RPG::GameCore::ItemConfig*>* DisplayItemList; // 0x20
-		::System::String* UnlockConditions; // 0x28
-		::System::String* FinishConditions; // 0x30
+		::Il2CppArray<::System::UInt32>* ActivityTagList; // 0x20
+		::System::String* FinishConditions; // 0x28
+		::Il2CppArray<::RPG::GameCore::ItemConfig*>* DisplayItemList; // 0x30
 		::System::String* TabIcon; // 0x38
-		::System::Boolean DisplayItemManualSort; // 0x40
-		::System::Boolean DailyHint; // 0x41
-		::System::Boolean IsSkipSwitchStoryLine; // 0x42
-		::System::UInt32 IsSocialShow; // 0x44
-		::RPG::Client::TextID TabName; // 0x48
-		::System::UInt32 PanelID; // 0x58
-		::System::UInt32 SortWeight; // 0x5C
-		::RPG::Client::TextID PanelDesc; // 0x60
-		::RPG::GameCore::ActivityPanelFinishType FinishType; // 0x70
-		::System::UInt32 ActivityThemeID; // 0x74
-		::RPG::Client::TextID TitleName; // 0x78
-		::RPG::Client::TextID TagDesc; // 0x88
-		::RPG::Client::TextID PanelBrief; // 0x98
-		::RPG::Client::TextID IntroDesc; // 0xA8
+		::RPG::Client::TextID TitleName; // 0x40
+		::RPG::Client::TextID TabName; // 0x50
+		::RPG::Client::TextID IntroDesc; // 0x60
+		::RPG::Client::TextID TagDesc; // 0x70
+		::System::UInt32 ActivityThemeID; // 0x80
+		::System::Boolean DisplayItemManualSort; // 0x84
+		::System::Boolean DailyHint; // 0x85
+		::System::Boolean IsSkipSwitchStoryLine; // 0x86
+		::RPG::GameCore::ActivityPanelFinishType FinishType; // 0x88
+		::System::UInt32 SortWeight; // 0x8C
+		::RPG::Client::TextID PanelDesc; // 0x90
+		::System::UInt32 PanelID; // 0xA0
+		::System::UInt32 IsSocialShow; // 0xA4
+		::RPG::Client::TextID PanelBrief; // 0xA8
 
 		::System::Void _ctor()
 		{

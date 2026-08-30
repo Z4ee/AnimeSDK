@@ -8,17 +8,17 @@ namespace RPG::GameCore { class TurnBasedModifierInstance; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_B9EDAC86F64196FA___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x148B1890)
-#define CLASS_1_B9EDAC86F64196FA___C__DISPLAYCLASS1_0__SYNCHRONIZEALL_B__0_OFFSET UNITYSDK_OFFSET(0x148B22F0)
+#define CLASS_1_B9EDAC86F64196FA___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15774D30)
+#define CLASS_1_B9EDAC86F64196FA___C__DISPLAYCLASS1_0__SYNCHRONIZEALL_B__0_OFFSET UNITYSDK_OFFSET(0x15775790)
 
-inline static constexpr unsigned int Class_1_B9EDAC86F64196FA___c__DisplayClass1_0_TypeDefinitionIndex = 75876;
+inline static constexpr unsigned int Class_1_B9EDAC86F64196FA___c__DisplayClass1_0_TypeDefinitionIndex = 79509;
 
 class Class_1_B9EDAC86F64196FA___c__DisplayClass1_0 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::Class_1_42D96751C1376DDB*>* model; // 0x10
-	::Class_1_B9EDAC86F64196FA* __4__this; // 0x18
-	::System::Collections::Generic::Dictionary_2<::RPG::GameCore::TurnBasedModifierInstance*, ::Class_1_42D96751C1376DDB*>* oldMap; // 0x20
+	::Class_1_B9EDAC86F64196FA* __4__this; // 0x10
+	::System::Collections::Generic::Dictionary_2<::RPG::GameCore::TurnBasedModifierInstance*, ::Class_1_42D96751C1376DDB*>* oldMap; // 0x18
+	::System::Collections::Generic::List_1<::Class_1_42D96751C1376DDB*>* model; // 0x20
 
 	::System::Void _ctor()
 	{

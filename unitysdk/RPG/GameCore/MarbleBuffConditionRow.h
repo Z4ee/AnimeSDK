@@ -6,12 +6,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MARBLEBUFFCONDITIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B5B19E0)
-#define RPG_GAMECORE_MARBLEBUFFCONDITIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5B1C00)
+#define RPG_GAMECORE_MARBLEBUFFCONDITIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D22DFF0)
+#define RPG_GAMECORE_MARBLEBUFFCONDITIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D22E210)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MarbleBuffConditionRow_TypeDefinitionIndex = 11472;
+	inline static constexpr unsigned int MarbleBuffConditionRow_TypeDefinitionIndex = 11861;
 
 	class MarbleBuffConditionRow : public ::System::Object
 	{
@@ -19,8 +19,8 @@ namespace RPG::GameCore
 		::Il2CppArray<::System::UInt32>* ParamList; // 0x10
 		::System::Single DrawTypeParameter; // 0x18
 		::System::UInt32 ID; // 0x1C
-		::RPG::GameCore::MarbleBuffConditionType DrawType; // 0x20
-		::RPG::GameCore::MarbleBuffOperationType OperationType; // 0x24
+		::RPG::GameCore::MarbleBuffOperationType OperationType; // 0x20
+		::RPG::GameCore::MarbleBuffConditionType DrawType; // 0x24
 
 		::System::Void _ctor()
 		{

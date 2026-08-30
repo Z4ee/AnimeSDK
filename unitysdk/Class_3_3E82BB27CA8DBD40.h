@@ -8,18 +8,18 @@ namespace RPG::GameCore { class StackRedirectSkillTarget; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 
-#define CLASS_3_3E82BB27CA8DBD40_DISPOSE_OFFSET UNITYSDK_OFFSET(0x149F4520)
-#define CLASS_3_3E82BB27CA8DBD40_METHOD_3_FD964A2C03CF6EC9_OFFSET UNITYSDK_OFFSET(0x149F4860)
-#define CLASS_3_3E82BB27CA8DBD40_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x149F45F0)
-#define CLASS_3_3E82BB27CA8DBD40__CTOR_OFFSET UNITYSDK_OFFSET(0x149F4480)
+#define CLASS_3_3E82BB27CA8DBD40_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15887300)
+#define CLASS_3_3E82BB27CA8DBD40_METHOD_3_FD964A2C03CF6EC9_OFFSET UNITYSDK_OFFSET(0x15887640)
+#define CLASS_3_3E82BB27CA8DBD40_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x158873D0)
+#define CLASS_3_3E82BB27CA8DBD40__CTOR_OFFSET UNITYSDK_OFFSET(0x15887260)
 
-inline static constexpr unsigned int Class_3_3E82BB27CA8DBD40_TypeDefinitionIndex = 53128;
+inline static constexpr unsigned int Class_3_3E82BB27CA8DBD40_TypeDefinitionIndex = 55840;
 
 class Class_3_3E82BB27CA8DBD40 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::StackRedirectSkillTarget*>
 {
 public:
-	::System::Action_2<::RPG::GameCore::GameEntity*, ::RPG::GameCore::GameEntity*>* Field_3_0; // 0x28
-	::Class_3_07C3C4D2990C49EE* Field_3_1; // 0x30
+	::Class_3_07C3C4D2990C49EE* LKDIMCCENOI; // 0x28
+	::System::Action_2<::RPG::GameCore::GameEntity*, ::RPG::GameCore::GameEntity*>* NOEAGBGOOMO; // 0x30
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::StackRedirectSkillTarget* a2)
 	{

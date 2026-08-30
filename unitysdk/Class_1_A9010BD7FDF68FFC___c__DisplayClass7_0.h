@@ -5,10 +5,10 @@
 namespace RPG::Client::LittleGame::CakeRace { class CakeRaceCatMonoView; }
 namespace System { class String; }
 
-#define CLASS_1_A9010BD7FDF68FFC___C__DISPLAYCLASS7_0__BUILDCATLOCKFOODCOMMAND_B__0_OFFSET UNITYSDK_OFFSET(0xD044A30)
-#define CLASS_1_A9010BD7FDF68FFC___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD043730)
+#define CLASS_1_A9010BD7FDF68FFC___C__DISPLAYCLASS7_0__BUILDCATLOCKFOODCOMMAND_B__0_OFFSET UNITYSDK_OFFSET(0xDD80D60)
+#define CLASS_1_A9010BD7FDF68FFC___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0xDD7FA60)
 
-inline static constexpr unsigned int Class_1_A9010BD7FDF68FFC___c__DisplayClass7_0_TypeDefinitionIndex = 72517;
+inline static constexpr unsigned int Class_1_A9010BD7FDF68FFC___c__DisplayClass7_0_TypeDefinitionIndex = 75953;
 
 class Class_1_A9010BD7FDF68FFC___c__DisplayClass7_0 : public ::System::Object
 {

@@ -7,9 +7,9 @@ class PassAndKeywords;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define WARMUPSHADERVARIANT__CTOR_OFFSET UNITYSDK_OFFSET(0xDDC8940)
+#define WARMUPSHADERVARIANT__CTOR_OFFSET UNITYSDK_OFFSET(0xE9A2150)
 
-inline static constexpr unsigned int WarmupShaderVariant_TypeDefinitionIndex = 45639;
+inline static constexpr unsigned int WarmupShaderVariant_TypeDefinitionIndex = 47890;
 
 class WarmupShaderVariant : public ::System::Object
 {

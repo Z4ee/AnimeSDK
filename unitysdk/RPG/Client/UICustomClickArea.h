@@ -7,19 +7,19 @@
 namespace UnityEngine { class Camera; }
 namespace UnityEngine { class PolygonCollider2D; }
 
-#define RPG_CLIENT_UICUSTOMCLICKAREA_ISRAYCASTLOCATIONVALID_OFFSET UNITYSDK_OFFSET(0xD7B5EA0)
-#define RPG_CLIENT_UICUSTOMCLICKAREA_METHOD_5_1A98FB043EC9FF2A_OFFSET UNITYSDK_OFFSET(0xD7B5F90)
-#define RPG_CLIENT_UICUSTOMCLICKAREA__CTOR_OFFSET UNITYSDK_OFFSET(0xD7B6070)
+#define RPG_CLIENT_UICUSTOMCLICKAREA_ISRAYCASTLOCATIONVALID_OFFSET UNITYSDK_OFFSET(0xE357C20)
+#define RPG_CLIENT_UICUSTOMCLICKAREA_METHOD_5_1A98FB043EC9FF2A_OFFSET UNITYSDK_OFFSET(0xE357D10)
+#define RPG_CLIENT_UICUSTOMCLICKAREA__CTOR_OFFSET UNITYSDK_OFFSET(0xE357DF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UICustomClickArea_TypeDefinitionIndex = 69522;
+	inline static constexpr unsigned int UICustomClickArea_TypeDefinitionIndex = 72750;
 
 	class UICustomClickArea : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		::UnityEngine::PolygonCollider2D* Field_5_0; // 0x18
-		::UnityEngine::Vector3 Field_5_1; // 0x20
+		::UnityEngine::PolygonCollider2D* ABAPKIBOGKH; // 0x18
+		::UnityEngine::Vector3 GPCBCGCMOPI; // 0x20
 
 		::System::Void _ctor()
 		{

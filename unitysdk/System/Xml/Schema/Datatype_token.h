@@ -4,13 +4,13 @@
 #include "unitysdk/System/Xml/Schema/XmlSchemaWhiteSpace.h"
 #include "unitysdk/System/Xml/Schema/XmlTypeCode.h"
 
-#define SYSTEM_XML_SCHEMA_DATATYPE_TOKEN_GET_BUILTINWHITESPACEFACET_OFFSET UNITYSDK_OFFSET(0x1CB49100)
-#define SYSTEM_XML_SCHEMA_DATATYPE_TOKEN_GET_TYPECODE_OFFSET UNITYSDK_OFFSET(0x1CB490F0)
-#define SYSTEM_XML_SCHEMA_DATATYPE_TOKEN__CTOR_OFFSET UNITYSDK_OFFSET(0x1CB3D540)
+#define SYSTEM_XML_SCHEMA_DATATYPE_TOKEN_GET_BUILTINWHITESPACEFACET_OFFSET UNITYSDK_OFFSET(0x1E7F3120)
+#define SYSTEM_XML_SCHEMA_DATATYPE_TOKEN_GET_TYPECODE_OFFSET UNITYSDK_OFFSET(0x1E7F3110)
+#define SYSTEM_XML_SCHEMA_DATATYPE_TOKEN__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7E75E0)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int Datatype_token_TypeDefinitionIndex = 2116;
+	inline static constexpr unsigned int Datatype_token_TypeDefinitionIndex = 2123;
 
 	class Datatype_token : public ::System::Xml::Schema::Datatype_normalizedString
 	{

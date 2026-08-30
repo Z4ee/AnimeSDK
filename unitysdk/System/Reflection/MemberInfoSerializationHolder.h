@@ -9,24 +9,24 @@ namespace System { class String; }
 namespace System { class Type; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_REFLECTION_MEMBERINFOSERIALIZATIONHOLDER_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x1A1902A0)
-#define SYSTEM_REFLECTION_MEMBERINFOSERIALIZATIONHOLDER_GETREALOBJECT_OFFSET UNITYSDK_OFFSET(0x1A190300)
-#define SYSTEM_REFLECTION_MEMBERINFOSERIALIZATIONHOLDER_GETSERIALIZATIONINFO_1_OFFSET UNITYSDK_OFFSET(0x1A18FC50)
-#define SYSTEM_REFLECTION_MEMBERINFOSERIALIZATIONHOLDER_GETSERIALIZATIONINFO_OFFSET UNITYSDK_OFFSET(0x1A18FC20)
-#define SYSTEM_REFLECTION_MEMBERINFOSERIALIZATIONHOLDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A18FFE0)
+#define SYSTEM_REFLECTION_MEMBERINFOSERIALIZATIONHOLDER_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x1BD97FD0)
+#define SYSTEM_REFLECTION_MEMBERINFOSERIALIZATIONHOLDER_GETREALOBJECT_OFFSET UNITYSDK_OFFSET(0x1BD98030)
+#define SYSTEM_REFLECTION_MEMBERINFOSERIALIZATIONHOLDER_GETSERIALIZATIONINFO_1_OFFSET UNITYSDK_OFFSET(0x1BD97960)
+#define SYSTEM_REFLECTION_MEMBERINFOSERIALIZATIONHOLDER_GETSERIALIZATIONINFO_OFFSET UNITYSDK_OFFSET(0x1BD97930)
+#define SYSTEM_REFLECTION_MEMBERINFOSERIALIZATIONHOLDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD97D10)
 
 namespace System::Reflection
 {
-	inline static constexpr unsigned int MemberInfoSerializationHolder_TypeDefinitionIndex = 571;
+	inline static constexpr unsigned int MemberInfoSerializationHolder_TypeDefinitionIndex = 574;
 
 	class MemberInfoSerializationHolder : public ::System::Object
 	{
 	public:
 		::System::String* m_signature2; // 0x10
-		::System::Runtime::Serialization::SerializationInfo* m_info; // 0x18
-		::System::String* m_memberName; // 0x20
-		::System::String* m_signature; // 0x28
-		::System::RuntimeType* m_reflectedType; // 0x30
+		::System::RuntimeType* m_reflectedType; // 0x18
+		::System::Runtime::Serialization::SerializationInfo* m_info; // 0x20
+		::System::String* m_memberName; // 0x28
+		::System::String* m_signature; // 0x30
 		::System::Reflection::MemberTypes m_memberType; // 0x38
 
 		::System::Void _ctor(::System::Runtime::Serialization::SerializationInfo* a1, ::System::Runtime::Serialization::StreamingContext a2)

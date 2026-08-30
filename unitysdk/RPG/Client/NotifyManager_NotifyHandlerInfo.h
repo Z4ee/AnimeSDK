@@ -6,19 +6,19 @@
 
 namespace RPG::Client { class NotifyHandler; }
 
-#define RPG_CLIENT_NOTIFYMANAGER_NOTIFYHANDLERINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xCEDA8B0)
+#define RPG_CLIENT_NOTIFYMANAGER_NOTIFYHANDLERINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xD9D3C60)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int NotifyManager_NotifyHandlerInfo_TypeDefinitionIndex = 56645;
+	inline static constexpr unsigned int NotifyManager_NotifyHandlerInfo_TypeDefinitionIndex = 59432;
 
 	class NotifyManager_NotifyHandlerInfo : public ::System::Object
 	{
 	public:
 		::RPG::Client::NotifyHandler* Handler; // 0x10
-		::RPG::Client::NotifyGroup Group; // 0x18
+		::RPG::Client::NotifyType Type; // 0x18
 		::System::Boolean Add; // 0x1C
-		::RPG::Client::NotifyType Type; // 0x20
+		::RPG::Client::NotifyGroup Group; // 0x20
 
 		::System::Void _ctor(::RPG::Client::NotifyGroup a1, ::RPG::Client::NotifyType a2, ::RPG::Client::NotifyHandler* a3, ::System::Boolean a4)
 		{

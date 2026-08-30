@@ -7,7 +7,7 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AbsDownloadData_1___O_TypeDefinitionIndex = 56803;
+	inline static constexpr unsigned int AbsDownloadData_1___O_TypeDefinitionIndex = 59591;
 
 	template <typename TIndex>
 	class AbsDownloadData_1___O : public ::System::Object

@@ -7,14 +7,14 @@ namespace RPG::GameCore { class CameraShakeTemplateSingleConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_CAMERASHAKETEMPLATECONFIG_METHOD_2_4BCCEAA8ABD0E2AF_OFFSET UNITYSDK_OFFSET(0x1B300C70)
-#define RPG_GAMECORE_CAMERASHAKETEMPLATECONFIG_METHOD_2_A239DF324AF4215D_OFFSET UNITYSDK_OFFSET(0x1B300F10)
-#define RPG_GAMECORE_CAMERASHAKETEMPLATECONFIG_METHOD_2_E24554BA31F36DCA_OFFSET UNITYSDK_OFFSET(0x1B300BA0)
-#define RPG_GAMECORE_CAMERASHAKETEMPLATECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B300C60)
+#define RPG_GAMECORE_CAMERASHAKETEMPLATECONFIG_METHOD_2_A239DF324AF4215D_OFFSET UNITYSDK_OFFSET(0x1CF7CD90)
+#define RPG_GAMECORE_CAMERASHAKETEMPLATECONFIG_METHOD_2_A793ACEF4315151A_OFFSET UNITYSDK_OFFSET(0x1CF7CAC0)
+#define RPG_GAMECORE_CAMERASHAKETEMPLATECONFIG_METHOD_2_E24554BA31F36DCA_OFFSET UNITYSDK_OFFSET(0x1CF7C9F0)
+#define RPG_GAMECORE_CAMERASHAKETEMPLATECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF7CAB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CameraShakeTemplateConfig_TypeDefinitionIndex = 15791;
+	inline static constexpr unsigned int CameraShakeTemplateConfig_TypeDefinitionIndex = 16267;
 
 	class CameraShakeTemplateConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -32,9 +32,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CameraShakeTemplateConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAMERASHAKETEMPLATECONFIG_METHOD_2_E24554BA31F36DCA_OFFSET))(a1, a2);
 		}
 
-		::RPG::GameCore::CameraShakeTemplateSingleConfig* Method_2_4BCCEAA8ABD0E2AF(::System::String* a1)
+		::RPG::GameCore::CameraShakeTemplateSingleConfig* Method_2_A793ACEF4315151A(::System::String* a1)
 		{
-			return ((::RPG::GameCore::CameraShakeTemplateSingleConfig*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAMERASHAKETEMPLATECONFIG_METHOD_2_4BCCEAA8ABD0E2AF_OFFSET))(this, a1);
+			return ((::RPG::GameCore::CameraShakeTemplateSingleConfig*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAMERASHAKETEMPLATECONFIG_METHOD_2_A793ACEF4315151A_OFFSET))(this, a1);
 		}
 
 		::System::Void Method_2_A239DF324AF4215D()

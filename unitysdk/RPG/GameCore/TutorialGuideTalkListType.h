@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TutorialGuideTalkListType_TypeDefinitionIndex = 23949;
+	inline static constexpr unsigned int TutorialGuideTalkListType_TypeDefinitionIndex = 24537;
 
 	enum class TutorialGuideTalkListType : ::System::Int32
 	{

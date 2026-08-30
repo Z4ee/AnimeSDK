@@ -5,11 +5,11 @@
 
 class Class_3_8FE15D155B05EF4E_1;
 
-#define RPG_CLIENT_MONODEFERREDDECALMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xCC4C630)
+#define RPG_CLIENT_MONODEFERREDDECALMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xD74B9A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoDeferredDecalMonoPlugin_TypeDefinitionIndex = 67730;
+	inline static constexpr unsigned int MonoDeferredDecalMonoPlugin_TypeDefinitionIndex = 70890;
 
 	class MonoDeferredDecalMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::Class_3_8FE15D155B05EF4E_1*>
 	{

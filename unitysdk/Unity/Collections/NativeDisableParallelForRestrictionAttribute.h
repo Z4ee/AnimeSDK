@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define UNITY_COLLECTIONS_NATIVEDISABLEPARALLELFORRESTRICTIONATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFFD010)
+#define UNITY_COLLECTIONS_NATIVEDISABLEPARALLELFORRESTRICTIONATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1ED04440)
 
 namespace Unity::Collections
 {
-	inline static constexpr unsigned int NativeDisableParallelForRestrictionAttribute_TypeDefinitionIndex = 3975;
+	inline static constexpr unsigned int NativeDisableParallelForRestrictionAttribute_TypeDefinitionIndex = 3983;
 
 	class NativeDisableParallelForRestrictionAttribute : public ::System::Attribute
 	{

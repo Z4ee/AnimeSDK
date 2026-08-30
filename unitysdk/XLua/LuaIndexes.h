@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define XLUA_LUAINDEXES_GET_LUA_REGISTRYINDEX_OFFSET UNITYSDK_OFFSET(0x13D99150)
-#define XLUA_LUAINDEXES_SET_LUA_REGISTRYINDEX_OFFSET UNITYSDK_OFFSET(0x13D9FCF0)
-#define XLUA_LUAINDEXES__CTOR_OFFSET UNITYSDK_OFFSET(0x13DA2920)
+#define XLUA_LUAINDEXES_GET_LUA_REGISTRYINDEX_OFFSET UNITYSDK_OFFSET(0x14B225A0)
+#define XLUA_LUAINDEXES_SET_LUA_REGISTRYINDEX_OFFSET UNITYSDK_OFFSET(0x14B290E0)
+#define XLUA_LUAINDEXES__CTOR_OFFSET UNITYSDK_OFFSET(0x14B2BC60)
 
 namespace XLua
 {
-	inline static constexpr unsigned int LuaIndexes_TypeDefinitionIndex = 48000;
+	inline static constexpr unsigned int LuaIndexes_TypeDefinitionIndex = 50583;
 
 	class LuaIndexes : public ::System::Object
 	{

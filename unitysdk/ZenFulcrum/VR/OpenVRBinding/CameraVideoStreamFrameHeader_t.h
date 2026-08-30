@@ -6,7 +6,7 @@
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int CameraVideoStreamFrameHeader_t_TypeDefinitionIndex = 37153;
+	inline static constexpr unsigned int CameraVideoStreamFrameHeader_t_TypeDefinitionIndex = 38012;
 
 	struct alignas(4) CameraVideoStreamFrameHeader_t
 	{

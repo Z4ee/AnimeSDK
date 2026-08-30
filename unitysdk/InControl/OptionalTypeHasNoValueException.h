@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define INCONTROL_OPTIONALTYPEHASNOVALUEEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x199E0890)
+#define INCONTROL_OPTIONALTYPEHASNOVALUEEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1B56F6B0)
 
 namespace InControl
 {
-	inline static constexpr unsigned int OptionalTypeHasNoValueException_TypeDefinitionIndex = 38748;
+	inline static constexpr unsigned int OptionalTypeHasNoValueException_TypeDefinitionIndex = 39607;
 
 	class OptionalTypeHasNoValueException : public ::System::SystemException
 	{

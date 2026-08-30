@@ -5,19 +5,19 @@
 namespace RPG::Client { class ImageSmoothMask; }
 namespace UnityEngine::UI { class VertexHelper; }
 
-#define RPG_CLIENT_IMAGEFORSMOOTHMASK_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xC8CB450)
-#define RPG_CLIENT_IMAGEFORSMOOTHMASK_ONENABLE_OFFSET UNITYSDK_OFFSET(0xC8CA2A0)
-#define RPG_CLIENT_IMAGEFORSMOOTHMASK_ONPOPULATEMESH_OFFSET UNITYSDK_OFFSET(0xC8CA390)
-#define RPG_CLIENT_IMAGEFORSMOOTHMASK__CTOR_OFFSET UNITYSDK_OFFSET(0xC8CB4C0)
+#define RPG_CLIENT_IMAGEFORSMOOTHMASK_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xD3EE6F0)
+#define RPG_CLIENT_IMAGEFORSMOOTHMASK_ONENABLE_OFFSET UNITYSDK_OFFSET(0xD3ED540)
+#define RPG_CLIENT_IMAGEFORSMOOTHMASK_ONPOPULATEMESH_OFFSET UNITYSDK_OFFSET(0xD3ED630)
+#define RPG_CLIENT_IMAGEFORSMOOTHMASK__CTOR_OFFSET UNITYSDK_OFFSET(0xD3EE760)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ImageForSmoothMask_TypeDefinitionIndex = 69270;
+	inline static constexpr unsigned int ImageForSmoothMask_TypeDefinitionIndex = 72472;
 
 	class ImageForSmoothMask : public ::UnityEngine::UI::Image
 	{
 	public:
-		::RPG::Client::ImageSmoothMask* Field_9_0; // 0x1E8
+		::RPG::Client::ImageSmoothMask* GPDJMIKFKBM; // 0x1E8
 
 		::System::Void _ctor()
 		{

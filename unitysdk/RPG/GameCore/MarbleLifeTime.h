@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MarbleLifeTime_TypeDefinitionIndex = 16224;
+	inline static constexpr unsigned int MarbleLifeTime_TypeDefinitionIndex = 16708;
 
 	enum class MarbleLifeTime : ::System::Int32
 	{

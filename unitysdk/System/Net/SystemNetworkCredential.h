@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Net/NetworkCredential.h"
 
-#define SYSTEM_NET_SYSTEMNETWORKCREDENTIAL__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CD187E0)
-#define SYSTEM_NET_SYSTEMNETWORKCREDENTIAL__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD18720)
+#define SYSTEM_NET_SYSTEMNETWORKCREDENTIAL__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E9C4CB0)
+#define SYSTEM_NET_SYSTEMNETWORKCREDENTIAL__CTOR_OFFSET UNITYSDK_OFFSET(0x1E9C4BE0)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int SystemNetworkCredential_TypeDefinitionIndex = 2722;
+	inline static constexpr unsigned int SystemNetworkCredential_TypeDefinitionIndex = 2729;
 
 	class SystemNetworkCredential : public ::System::Net::NetworkCredential
 	{
 	public:
 		static ::System::Net::SystemNetworkCredential** StaticGet_defaultCredential()
 		{
-			return (::System::Net::SystemNetworkCredential**)Il2CppClass::FromTypeDefinitionIndex(SystemNetworkCredential_TypeDefinitionIndex)->GetStaticField(0x2BC70);
+			return (::System::Net::SystemNetworkCredential**)Il2CppClass::FromTypeDefinitionIndex(SystemNetworkCredential_TypeDefinitionIndex)->GetStaticField(0x1A6B0);
 		}
 
 		::System::Void _ctor()

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AdventureByIsBattleSkillType; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_5A41DB9ED935B026_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1534AC30)
-#define CLASS_3_5A41DB9ED935B026__CTOR_OFFSET UNITYSDK_OFFSET(0x1534AC00)
+#define CLASS_3_5A41DB9ED935B026_EVALUATE_OFFSET UNITYSDK_OFFSET(0x162C25B0)
+#define CLASS_3_5A41DB9ED935B026__CTOR_OFFSET UNITYSDK_OFFSET(0x162C2580)
 
-inline static constexpr unsigned int Class_3_5A41DB9ED935B026_TypeDefinitionIndex = 51992;
+inline static constexpr unsigned int Class_3_5A41DB9ED935B026_TypeDefinitionIndex = 54677;
 
 class Class_3_5A41DB9ED935B026 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::AdventureByIsBattleSkillType*>
 {

@@ -8,12 +8,12 @@ namespace RPG::GameCore { class LevelRegionConnectivity; }
 namespace RPG::GameCore { class LevelRegionStateConfig; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_LEVELREGIONINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B572970)
-#define RPG_GAMECORE_LEVELREGIONINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1B572AF0)
+#define RPG_GAMECORE_LEVELREGIONINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D1ED030)
+#define RPG_GAMECORE_LEVELREGIONINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1ED210)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelRegionInfo_TypeDefinitionIndex = 16693;
+	inline static constexpr unsigned int LevelRegionInfo_TypeDefinitionIndex = 17195;
 
 	class LevelRegionInfo : public ::RPG::GameCore::JsonConfig
 	{
@@ -21,7 +21,8 @@ namespace RPG::GameCore
 		::System::UInt32 RegionID; // 0x10
 		::Il2CppArray<::RPG::GameCore::LevelRegionConnectivity*>* ConnectivityList; // 0x18
 		::Il2CppArray<::RPG::GameCore::LevelRegionStateConfig*>* StateConfigList; // 0x20
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::LevelNavNodeInnerGraphEditorInfo*>* InnerGraphEditorInfo; // 0x28
+		::System::Boolean DisableGroupLoadWhenHLOD; // 0x28
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::LevelNavNodeInnerGraphEditorInfo*>* InnerGraphEditorInfo; // 0x30
 
 		::System::Void _ctor()
 		{

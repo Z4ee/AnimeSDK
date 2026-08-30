@@ -3,22 +3,22 @@
 #include "unitysdk/RPG/Client/GridFightDamageStatisticInfo.h"
 #include "unitysdk/System/Nullable_1.h"
 
-class Class_1_F1F83A16E5B8B459_3;
+class Class_1_17A912F7181BCCFA;
 namespace RPG::Client { class GridFightSeasonRole; }
 
-#define RPG_CLIENT_GRIDFIGHTROLEDAMAGESTATISTICINFO_GET_ROLE_OFFSET UNITYSDK_OFFSET(0xC7CDFF0)
-#define RPG_CLIENT_GRIDFIGHTROLEDAMAGESTATISTICINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xC7CD9B0)
+#define RPG_CLIENT_GRIDFIGHTROLEDAMAGESTATISTICINFO_GET_ROLE_OFFSET UNITYSDK_OFFSET(0xD3022B0)
+#define RPG_CLIENT_GRIDFIGHTROLEDAMAGESTATISTICINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xD301F70)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightRoleDamageStatisticInfo_TypeDefinitionIndex = 61491;
+	inline static constexpr unsigned int GridFightRoleDamageStatisticInfo_TypeDefinitionIndex = 64475;
 
 	class GridFightRoleDamageStatisticInfo : public ::RPG::Client::GridFightDamageStatisticInfo
 	{
 	public:
-		::System::Void _ctor(::Class_1_F1F83A16E5B8B459_3* a1, ::System::Double a2, ::System::Nullable_1<::System::UInt32> a3)
+		::System::Void _ctor(::Class_1_17A912F7181BCCFA* a1, ::System::Double a2, ::System::Nullable_1<::System::UInt32> a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_F1F83A16E5B8B459_3*, ::System::Double, ::System::Nullable_1<::System::UInt32>))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLEDAMAGESTATISTICINFO__CTOR_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::Class_1_17A912F7181BCCFA*, ::System::Double, ::System::Nullable_1<::System::UInt32>))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLEDAMAGESTATISTICINFO__CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::RPG::Client::GridFightSeasonRole* get_Role()

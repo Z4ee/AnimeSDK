@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ElectricChain_RandomType_TypeDefinitionIndex = 67305;
+	inline static constexpr unsigned int ElectricChain_RandomType_TypeDefinitionIndex = 70427;
 
 	enum class ElectricChain_RandomType : ::System::Int32
 	{

@@ -3,7 +3,7 @@
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int TriState_TypeDefinitionIndex = 1880;
+	inline static constexpr unsigned int TriState_TypeDefinitionIndex = 1887;
 
 	enum class TriState : ::System::Int32
 	{

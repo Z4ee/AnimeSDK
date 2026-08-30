@@ -5,11 +5,11 @@
 
 namespace System { class Object; }
 
-#define SYSTEM_RUNTIME_COMPILERSERVICES_DATETIMECONSTANTATTRIBUTE_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1A1973E0)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_DATETIMECONSTANTATTRIBUTE_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1BD9F1F0)
 
 namespace System::Runtime::CompilerServices
 {
-	inline static constexpr unsigned int DateTimeConstantAttribute_TypeDefinitionIndex = 1376;
+	inline static constexpr unsigned int DateTimeConstantAttribute_TypeDefinitionIndex = 1383;
 
 	class DateTimeConstantAttribute : public ::System::Runtime::CompilerServices::CustomConstantAttribute
 	{

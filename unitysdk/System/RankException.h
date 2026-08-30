@@ -6,13 +6,13 @@
 namespace System { class String; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_RANKEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A180D90)
-#define SYSTEM_RANKEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1A180E00)
-#define SYSTEM_RANKEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1A180CF0)
+#define SYSTEM_RANKEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1BD88990)
+#define SYSTEM_RANKEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1BD88A00)
+#define SYSTEM_RANKEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD888F0)
 
 namespace System
 {
-	inline static constexpr unsigned int RankException_TypeDefinitionIndex = 315;
+	inline static constexpr unsigned int RankException_TypeDefinitionIndex = 318;
 
 	class RankException : public ::System::SystemException
 	{

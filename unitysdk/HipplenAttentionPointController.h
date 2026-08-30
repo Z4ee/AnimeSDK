@@ -5,17 +5,17 @@
 
 namespace UnityEngine { class Transform; }
 
-#define HIPPLENATTENTIONPOINTCONTROLLER_UPDATE_OFFSET UNITYSDK_OFFSET(0x14BCE460)
-#define HIPPLENATTENTIONPOINTCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x14BCEBD0)
+#define HIPPLENATTENTIONPOINTCONTROLLER_UPDATE_OFFSET UNITYSDK_OFFSET(0x15ACE960)
+#define HIPPLENATTENTIONPOINTCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x15ACF0D0)
 
-inline static constexpr unsigned int HipplenAttentionPointController_TypeDefinitionIndex = 45409;
+inline static constexpr unsigned int HipplenAttentionPointController_TypeDefinitionIndex = 47659;
 
 class HipplenAttentionPointController : public ::UnityEngine::MonoBehaviour
 {
 public:
 	::UnityEngine::Transform* camTrans; // 0x18
 	::System::Single movSpeed; // 0x20
-	::UnityEngine::Vector3 Field_5_2; // 0x24
+	::UnityEngine::Vector3 GGLGNGDEHFA; // 0x24
 
 	::System::Void _ctor()
 	{

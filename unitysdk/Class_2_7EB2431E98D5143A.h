@@ -9,20 +9,20 @@ namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_7EB2431E98D5143A_COMPARE_OFFSET UNITYSDK_OFFSET(0xADCD9D0)
-#define CLASS_2_7EB2431E98D5143A_METHOD_2_8AA31AFF8421133A_OFFSET UNITYSDK_OFFSET(0xADCDDC0)
-#define CLASS_2_7EB2431E98D5143A_METHOD_2_F54190C563A0FB8C_OFFSET UNITYSDK_OFFSET(0xADCDC90)
-#define CLASS_2_7EB2431E98D5143A_TRANSFORM_OFFSET UNITYSDK_OFFSET(0xADCDEA0)
-#define CLASS_2_7EB2431E98D5143A__CTOR_OFFSET UNITYSDK_OFFSET(0xADCD990)
+#define CLASS_2_7EB2431E98D5143A_COMPARE_OFFSET UNITYSDK_OFFSET(0xB72F700)
+#define CLASS_2_7EB2431E98D5143A_METHOD_2_8AA31AFF8421133A_OFFSET UNITYSDK_OFFSET(0xB72FAF0)
+#define CLASS_2_7EB2431E98D5143A_METHOD_2_F54190C563A0FB8C_OFFSET UNITYSDK_OFFSET(0xB72F9C0)
+#define CLASS_2_7EB2431E98D5143A_TRANSFORM_OFFSET UNITYSDK_OFFSET(0xB72FBD0)
+#define CLASS_2_7EB2431E98D5143A__CTOR_OFFSET UNITYSDK_OFFSET(0xB72F6C0)
 
-inline static constexpr unsigned int Class_2_7EB2431E98D5143A_TypeDefinitionIndex = 56530;
+inline static constexpr unsigned int Class_2_7EB2431E98D5143A_TypeDefinitionIndex = 59314;
 
 class Class_2_7EB2431E98D5143A : public ::RPG::GameCore::TargetSeqOperationImpl_1<::RPG::GameCore::TargetSortByElationPriority*>
 {
 public:
-	::RPG::GameCore::JsonEnum* Field_2_0; // 0x18
-	::System::Collections::Generic::Dictionary_2<::RPG::GameCore::GameEntity*, ::System::Int32>* Field_2_1; // 0x20
-	::System::Int32 Field_2_2; // 0x28
+	::RPG::GameCore::JsonEnum* AALGBNBLDFG; // 0x18
+	::System::Collections::Generic::Dictionary_2<::RPG::GameCore::GameEntity*, ::System::Int32>* HNGJMPDONDF; // 0x20
+	::System::Int32 OOHLBFDJMBJ; // 0x28
 
 	::System::Void _ctor(::RPG::GameCore::TargetSortByElationPriority* a1)
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int PauseRecordResetPositionReason_TypeDefinitionIndex = 40838;
+	inline static constexpr unsigned int PauseRecordResetPositionReason_TypeDefinitionIndex = 41793;
 
 	enum class PauseRecordResetPositionReason : ::System::Int32
 	{

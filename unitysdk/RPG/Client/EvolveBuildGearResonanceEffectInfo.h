@@ -3,17 +3,17 @@
 #include "unitysdk/RPG/Client/EvolveBuildGearResonanceEffectType.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_EVOLVEBUILDGEARRESONANCEEFFECTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xC401CB0)
+#define RPG_CLIENT_EVOLVEBUILDGEARRESONANCEEFFECTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xCED5F10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EvolveBuildGearResonanceEffectInfo_TypeDefinitionIndex = 60984;
+	inline static constexpr unsigned int EvolveBuildGearResonanceEffectInfo_TypeDefinitionIndex = 63837;
 
 	class EvolveBuildGearResonanceEffectInfo : public ::System::Object
 	{
 	public:
-		::RPG::Client::EvolveBuildGearResonanceEffectType ResonanceEffectType; // 0x10
-		::System::Boolean NeedHighlight; // 0x14
+		::System::Boolean NeedHighlight; // 0x10
+		::RPG::Client::EvolveBuildGearResonanceEffectType ResonanceEffectType; // 0x14
 
 		::System::Void _ctor()
 		{

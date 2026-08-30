@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/FullBodyBipedChainBlender_1.h"
 
-#define CLASS_2_59D029BA0ED43EE1_EVALUATE_OFFSET UNITYSDK_OFFSET(0x145C20C0)
-#define CLASS_2_59D029BA0ED43EE1__CTOR_OFFSET UNITYSDK_OFFSET(0x145C21B0)
+#define CLASS_2_59D029BA0ED43EE1_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1546F230)
+#define CLASS_2_59D029BA0ED43EE1__CTOR_OFFSET UNITYSDK_OFFSET(0x1546F320)
 
-inline static constexpr unsigned int Class_2_59D029BA0ED43EE1_TypeDefinitionIndex = 65548;
+inline static constexpr unsigned int Class_2_59D029BA0ED43EE1_TypeDefinitionIndex = 68563;
 
 class Class_2_59D029BA0ED43EE1 : public ::RPG::Client::FullBodyBipedChainBlender_1<::System::Single>
 {

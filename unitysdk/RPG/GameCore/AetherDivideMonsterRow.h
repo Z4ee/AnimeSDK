@@ -7,12 +7,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_AETHERDIVIDEMONSTERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B188BC0)
-#define RPG_GAMECORE_AETHERDIVIDEMONSTERROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B189280)
+#define RPG_GAMECORE_AETHERDIVIDEMONSTERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CDFFFA0)
+#define RPG_GAMECORE_AETHERDIVIDEMONSTERROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE00660)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AetherDivideMonsterRow_TypeDefinitionIndex = 10567;
+	inline static constexpr unsigned int AetherDivideMonsterRow_TypeDefinitionIndex = 10908;
 
 	class AetherDivideMonsterRow : public ::System::Object
 	{

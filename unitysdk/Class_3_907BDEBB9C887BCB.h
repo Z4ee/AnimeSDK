@@ -7,21 +7,21 @@ namespace RPG::Client { class PlanetFesFloatingController; }
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_3_907BDEBB9C887BCB_METHOD_3_0D823ABC5D938CCF_OFFSET UNITYSDK_OFFSET(0x155EB240)
-#define CLASS_3_907BDEBB9C887BCB_ONCLEAR_OFFSET UNITYSDK_OFFSET(0x155EB4A0)
-#define CLASS_3_907BDEBB9C887BCB_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x155EB300)
-#define CLASS_3_907BDEBB9C887BCB__CTOR_OFFSET UNITYSDK_OFFSET(0x155EB520)
-#define CLASS_3_907BDEBB9C887BCB__ONEXECUTE_B__1_0_OFFSET UNITYSDK_OFFSET(0x155EB530)
+#define CLASS_3_907BDEBB9C887BCB_METHOD_3_0D823ABC5D938CCF_OFFSET UNITYSDK_OFFSET(0xB614F50)
+#define CLASS_3_907BDEBB9C887BCB_ONCLEAR_OFFSET UNITYSDK_OFFSET(0xB6151B0)
+#define CLASS_3_907BDEBB9C887BCB_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0xB615010)
+#define CLASS_3_907BDEBB9C887BCB__CTOR_OFFSET UNITYSDK_OFFSET(0xB615230)
+#define CLASS_3_907BDEBB9C887BCB__ONEXECUTE_B__1_0_OFFSET UNITYSDK_OFFSET(0xB615240)
 
-inline static constexpr unsigned int Class_3_907BDEBB9C887BCB_TypeDefinitionIndex = 71070;
+inline static constexpr unsigned int Class_3_907BDEBB9C887BCB_TypeDefinitionIndex = 74369;
 
 class Class_3_907BDEBB9C887BCB : public ::Class_2_5F69A1738A3628CB
 {
 public:
-	::System::String* Field_3_0; // 0x28
-	::System::String* Field_3_1; // 0x30
-	::UnityEngine::Transform* Field_3_2; // 0x38
-	::RPG::Client::PlanetFesFloatingController_ItemType Field_3_3; // 0x40
+	::System::String* GJEAIKIINML; // 0x28
+	::UnityEngine::Transform* NPAFMEBNFOB; // 0x30
+	::System::String* MJPKBIGCFOM; // 0x38
+	::RPG::Client::PlanetFesFloatingController_ItemType LINLNNHIBAK; // 0x40
 
 	::System::Void _ctor()
 	{

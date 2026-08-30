@@ -4,19 +4,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_GRIDFIGHTSTAGELEVELVALUECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B4EF8A0)
-#define RPG_GAMECORE_GRIDFIGHTSTAGELEVELVALUECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4EFA10)
+#define RPG_GAMECORE_GRIDFIGHTSTAGELEVELVALUECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D169130)
+#define RPG_GAMECORE_GRIDFIGHTSTAGELEVELVALUECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1692A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightStageLevelValueConfigRow_TypeDefinitionIndex = 13125;
+	inline static constexpr unsigned int GridFightStageLevelValueConfigRow_TypeDefinitionIndex = 13516;
 
 	class GridFightStageLevelValueConfigRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 LevelBaseAttack; // 0x10
-		::System::UInt32 LevelBaseHP; // 0x14
-		::System::UInt32 StageID; // 0x18
+		::System::UInt32 StageID; // 0x10
+		::System::UInt32 LevelBaseAttack; // 0x14
+		::System::UInt32 LevelBaseHP; // 0x18
 
 		::System::Void _ctor()
 		{

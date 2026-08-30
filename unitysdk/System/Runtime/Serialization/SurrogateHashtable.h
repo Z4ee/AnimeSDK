@@ -4,12 +4,12 @@
 
 namespace System { class Object; }
 
-#define SYSTEM_RUNTIME_SERIALIZATION_SURROGATEHASHTABLE_KEYEQUALS_OFFSET UNITYSDK_OFFSET(0x1A22C3A0)
-#define SYSTEM_RUNTIME_SERIALIZATION_SURROGATEHASHTABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A22C390)
+#define SYSTEM_RUNTIME_SERIALIZATION_SURROGATEHASHTABLE_KEYEQUALS_OFFSET UNITYSDK_OFFSET(0x1BE34F40)
+#define SYSTEM_RUNTIME_SERIALIZATION_SURROGATEHASHTABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE34F30)
 
 namespace System::Runtime::Serialization
 {
-	inline static constexpr unsigned int SurrogateHashtable_TypeDefinitionIndex = 1131;
+	inline static constexpr unsigned int SurrogateHashtable_TypeDefinitionIndex = 1138;
 
 	class SurrogateHashtable : public ::System::Collections::Hashtable
 	{

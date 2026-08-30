@@ -7,24 +7,24 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ALLEYGRIDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B197690)
-#define RPG_GAMECORE_ALLEYGRIDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B197EB0)
+#define RPG_GAMECORE_ALLEYGRIDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CE0EA40)
+#define RPG_GAMECORE_ALLEYGRIDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE0F260)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AlleyGridRow_TypeDefinitionIndex = 12115;
+	inline static constexpr unsigned int AlleyGridRow_TypeDefinitionIndex = 12504;
 
 	class AlleyGridRow : public ::System::Object
 	{
 	public:
-		::System::String* GridIcon; // 0x10
-		::System::String* ShopInfoIcon; // 0x18
-		::System::UInt32 GridID; // 0x20
-		::RPG::GameCore::GridTypeEnum GridType; // 0x24
-		::System::UInt32 RelatedEventID; // 0x28
-		::System::UInt32 RelatedMainMission; // 0x2C
-		::RPG::Client::TextID GridTitle; // 0x30
-		::RPG::Client::TextID GridDesc; // 0x40
+		::System::String* ShopInfoIcon; // 0x10
+		::System::String* GridIcon; // 0x18
+		::RPG::GameCore::GridTypeEnum GridType; // 0x20
+		::System::UInt32 RelatedEventID; // 0x24
+		::RPG::Client::TextID GridDesc; // 0x28
+		::RPG::Client::TextID GridTitle; // 0x38
+		::System::UInt32 RelatedMainMission; // 0x48
+		::System::UInt32 GridID; // 0x4C
 
 		::System::Void _ctor()
 		{

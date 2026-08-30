@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimAnimatorCullingMode_TypeDefinitionIndex = 17975;
+	inline static constexpr unsigned int FiveDimAnimatorCullingMode_TypeDefinitionIndex = 18496;
 
 	enum class FiveDimAnimatorCullingMode : ::System::Int32
 	{

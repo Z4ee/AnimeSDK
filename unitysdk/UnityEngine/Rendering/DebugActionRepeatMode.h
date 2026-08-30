@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int DebugActionRepeatMode_TypeDefinitionIndex = 34079;
+	inline static constexpr unsigned int DebugActionRepeatMode_TypeDefinitionIndex = 34846;
 
 	enum class DebugActionRepeatMode : ::System::Int32
 	{

@@ -7,34 +7,34 @@ namespace RPG::Client { class FateSupportNoVoicePart; }
 namespace RPG::Client { class FateSupportToastPart; }
 namespace System { class Object; }
 
-#define RPG_CLIENT_FATESUPPORTMODULE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC5B84E0)
-#define RPG_CLIENT_FATESUPPORTMODULE_INIT_OFFSET UNITYSDK_OFFSET(0xC5B7DB0)
-#define RPG_CLIENT_FATESUPPORTMODULE_ONLOGINFINISH_OFFSET UNITYSDK_OFFSET(0xC5B82F0)
-#define RPG_CLIENT_FATESUPPORTMODULE_ONRECONNECT_OFFSET UNITYSDK_OFFSET(0xC5B8410)
-#define RPG_CLIENT_FATESUPPORTMODULE__ADDNOTIFYHANDLERS_OFFSET UNITYSDK_OFFSET(0xC5B8250)
-#define RPG_CLIENT_FATESUPPORTMODULE__CCTOR_OFFSET UNITYSDK_OFFSET(0xC5B8A50)
-#define RPG_CLIENT_FATESUPPORTMODULE__CTOR_OFFSET UNITYSDK_OFFSET(0xC5B88F0)
-#define RPG_CLIENT_FATESUPPORTMODULE__ONFINISHMAINMISSION_OFFSET UNITYSDK_OFFSET(0xC5B85E0)
-#define RPG_CLIENT_FATESUPPORTMODULE__TRYTRIGGERTUTORIAL_OFFSET UNITYSDK_OFFSET(0xC5B8750)
+#define RPG_CLIENT_FATESUPPORTMODULE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xD03AF00)
+#define RPG_CLIENT_FATESUPPORTMODULE_INIT_OFFSET UNITYSDK_OFFSET(0xD03A7D0)
+#define RPG_CLIENT_FATESUPPORTMODULE_ONLOGINFINISH_OFFSET UNITYSDK_OFFSET(0xD03AD10)
+#define RPG_CLIENT_FATESUPPORTMODULE_ONRECONNECT_OFFSET UNITYSDK_OFFSET(0xD03AE30)
+#define RPG_CLIENT_FATESUPPORTMODULE__ADDNOTIFYHANDLERS_OFFSET UNITYSDK_OFFSET(0xD03AC70)
+#define RPG_CLIENT_FATESUPPORTMODULE__CCTOR_OFFSET UNITYSDK_OFFSET(0xD03B460)
+#define RPG_CLIENT_FATESUPPORTMODULE__CTOR_OFFSET UNITYSDK_OFFSET(0xD03B300)
+#define RPG_CLIENT_FATESUPPORTMODULE__ONFINISHMAINMISSION_OFFSET UNITYSDK_OFFSET(0xD03B000)
+#define RPG_CLIENT_FATESUPPORTMODULE__TRYTRIGGERTUTORIAL_OFFSET UNITYSDK_OFFSET(0xD03B170)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FateSupportModule_TypeDefinitionIndex = 61241;
+	inline static constexpr unsigned int FateSupportModule_TypeDefinitionIndex = 64222;
 
 	class FateSupportModule : public ::RPG::Client::BaseModule
 	{
 	public:
 		static ::System::UInt32* StaticGet_FateSupportPreviewHudID()
 		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(FateSupportModule_TypeDefinitionIndex)->GetStaticField(0x4E50);
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(FateSupportModule_TypeDefinitionIndex)->GetStaticField(0x41F0);
 		}
 		static ::System::UInt32* StaticGet_FateSupportGuideHudID()
 		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(FateSupportModule_TypeDefinitionIndex)->GetStaticField(0x4E54);
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(FateSupportModule_TypeDefinitionIndex)->GetStaticField(0x41F4);
 		}
-		::RPG::Client::FateSupportCollectionPart* CollectionPart; // 0x10
-		::RPG::Client::FateSupportToastPart* ToastPart; // 0x18
-		::RPG::Client::FateSupportNoVoicePart* NoVoicePart; // 0x20
+		::RPG::Client::FateSupportToastPart* ToastPart; // 0x10
+		::RPG::Client::FateSupportNoVoicePart* NoVoicePart; // 0x18
+		::RPG::Client::FateSupportCollectionPart* CollectionPart; // 0x20
 
 		::System::Void _ctor()
 		{

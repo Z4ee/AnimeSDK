@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class StackBoostPointDirty; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_DD37A007D4160BD0_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1464B100)
-#define CLASS_3_DD37A007D4160BD0__CTOR_OFFSET UNITYSDK_OFFSET(0x1464B0D0)
+#define CLASS_3_DD37A007D4160BD0_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x154B4530)
+#define CLASS_3_DD37A007D4160BD0__CTOR_OFFSET UNITYSDK_OFFSET(0x154B4500)
 
-inline static constexpr unsigned int Class_3_DD37A007D4160BD0_TypeDefinitionIndex = 53118;
+inline static constexpr unsigned int Class_3_DD37A007D4160BD0_TypeDefinitionIndex = 55830;
 
 class Class_3_DD37A007D4160BD0 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::StackBoostPointDirty*>
 {

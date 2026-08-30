@@ -5,10 +5,10 @@
 namespace RPG::Client { class MusicRhythmGroup; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_05E17658C2E22A78_METHOD_1_1F767BD23DEB91AD_OFFSET UNITYSDK_OFFSET(0x1520A5C0)
-#define CLASS_1_05E17658C2E22A78__CTOR_OFFSET UNITYSDK_OFFSET(0x1520ABC0)
+#define CLASS_1_05E17658C2E22A78_METHOD_1_1F767BD23DEB91AD_OFFSET UNITYSDK_OFFSET(0x16175850)
+#define CLASS_1_05E17658C2E22A78__CTOR_OFFSET UNITYSDK_OFFSET(0x16175E50)
 
-inline static constexpr unsigned int Class_1_05E17658C2E22A78_TypeDefinitionIndex = 59062;
+inline static constexpr unsigned int Class_1_05E17658C2E22A78_TypeDefinitionIndex = 61897;
 
 class Class_1_05E17658C2E22A78 : public ::System::Object
 {

@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SuitRecommendDataType_TypeDefinitionIndex = 63900;
+	inline static constexpr unsigned int SuitRecommendDataType_TypeDefinitionIndex = 66891;
 
 	enum class SuitRecommendDataType : ::System::Int32
 	{

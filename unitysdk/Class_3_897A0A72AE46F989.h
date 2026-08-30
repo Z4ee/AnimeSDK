@@ -8,17 +8,17 @@ namespace RPG::GameCore { class AdvByCompareDynamicValue; }
 namespace RPG::GameCore { class ByCompareDynamicValue; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_897A0A72AE46F989_EVALUATE_OFFSET UNITYSDK_OFFSET(0x14BA9030)
-#define CLASS_3_897A0A72AE46F989__CTOR_OFFSET UNITYSDK_OFFSET(0x14BA8EC0)
+#define CLASS_3_897A0A72AE46F989_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15AA83B0)
+#define CLASS_3_897A0A72AE46F989__CTOR_OFFSET UNITYSDK_OFFSET(0x15AA8240)
 
-inline static constexpr unsigned int Class_3_897A0A72AE46F989_TypeDefinitionIndex = 51980;
+inline static constexpr unsigned int Class_3_897A0A72AE46F989_TypeDefinitionIndex = 54664;
 
 class Class_3_897A0A72AE46F989 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::AdvByCompareDynamicValue*>
 {
 public:
-	// static const ::RPG::GameCore::DynamicValueContextScope Field_3_0; // 0x0
-	::RPG::GameCore::ByCompareDynamicValue* Field_3_1; // 0x28
-	::RPG::GameCore::StringHash Field_3_2; // 0x30
+	// static const ::RPG::GameCore::DynamicValueContextScope CBLOCGOMEGF; // 0x0
+	::RPG::GameCore::ByCompareDynamicValue* BCDHGNKEDJG; // 0x28
+	::RPG::GameCore::StringHash DIJHOMCLPEG; // 0x30
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::AdvByCompareDynamicValue* a2)
 	{

@@ -5,24 +5,24 @@
 namespace RPG::GameCore { class LevelNavmapArea; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_BIGMAPUTILS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xBEB42A0)
-#define RPG_CLIENT_BIGMAPUTILS___C__CTOR_OFFSET UNITYSDK_OFFSET(0xBEB42E0)
-#define RPG_CLIENT_BIGMAPUTILS___C___OBSOLETEGETPLAYERAREADATA_B__46_0_OFFSET UNITYSDK_OFFSET(0xBEB42F0)
+#define RPG_CLIENT_BIGMAPUTILS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC955B40)
+#define RPG_CLIENT_BIGMAPUTILS___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC955B80)
+#define RPG_CLIENT_BIGMAPUTILS___C___OBSOLETEGETPLAYERAREADATA_B__46_0_OFFSET UNITYSDK_OFFSET(0xC955B90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BigMapUtils___c_TypeDefinitionIndex = 60126;
+	inline static constexpr unsigned int BigMapUtils___c_TypeDefinitionIndex = 62972;
 
 	class BigMapUtils___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::RPG::GameCore::LevelNavmapArea*>** StaticGet___9__46_0()
-		{
-			return (::System::Comparison_1<::RPG::GameCore::LevelNavmapArea*>**)Il2CppClass::FromTypeDefinitionIndex(BigMapUtils___c_TypeDefinitionIndex)->GetStaticField(0x58CB0);
-		}
 		static ::RPG::Client::BigMapUtils___c** StaticGet___9()
 		{
-			return (::RPG::Client::BigMapUtils___c**)Il2CppClass::FromTypeDefinitionIndex(BigMapUtils___c_TypeDefinitionIndex)->GetStaticField(0x58CB8);
+			return (::RPG::Client::BigMapUtils___c**)Il2CppClass::FromTypeDefinitionIndex(BigMapUtils___c_TypeDefinitionIndex)->GetStaticField(0x11BB0);
+		}
+		static ::System::Comparison_1<::RPG::GameCore::LevelNavmapArea*>** StaticGet___9__46_0()
+		{
+			return (::System::Comparison_1<::RPG::GameCore::LevelNavmapArea*>**)Il2CppClass::FromTypeDefinitionIndex(BigMapUtils___c_TypeDefinitionIndex)->GetStaticField(0x11BB8);
 		}
 
 		static ::System::Void _cctor()

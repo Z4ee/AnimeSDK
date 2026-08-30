@@ -5,16 +5,16 @@
 
 namespace System { class Object; }
 
-#define CLASS_2_50EC6BFEC16CD0C2_METHOD_2_84B92802FDAFF6C8_OFFSET UNITYSDK_OFFSET(0x1A787A00)
-#define CLASS_2_50EC6BFEC16CD0C2__CTOR_OFFSET UNITYSDK_OFFSET(0x1A7879F0)
+#define CLASS_2_50EC6BFEC16CD0C2_METHOD_2_84B92802FDAFF6C8_OFFSET UNITYSDK_OFFSET(0x1C3AE1D0)
+#define CLASS_2_50EC6BFEC16CD0C2__CTOR_OFFSET UNITYSDK_OFFSET(0x1C3AE1C0)
 
-inline static constexpr unsigned int Class_2_50EC6BFEC16CD0C2_TypeDefinitionIndex = 40303;
+inline static constexpr unsigned int Class_2_50EC6BFEC16CD0C2_TypeDefinitionIndex = 41182;
 
 class Class_2_50EC6BFEC16CD0C2 : public ::Class_1_5BE136E515AF9A61_1
 {
 public:
-	::Il2CppArray<::System::Object*>* Field_2_0; // 0x18
-	::RPG::Client::LittleGame::TRFMsgType Field_2_1; // 0x20
+	::Il2CppArray<::System::Object*>* DMFEKIIDMFL; // 0x18
+	::RPG::Client::LittleGame::TRFMsgType HHNELAIEKDP; // 0x20
 
 	::System::Void _ctor(::RPG::Client::LittleGame::TRFMsgType a1, ::Il2CppArray<::System::Object*>* a2)
 	{

@@ -6,7 +6,7 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraDuelMasterAnchorConfig_TypeDefinitionIndex = 74426;
+	inline static constexpr unsigned int ChimeraDuelMasterAnchorConfig_TypeDefinitionIndex = 77911;
 
 	struct alignas(8) ChimeraDuelMasterAnchorConfig
 	{

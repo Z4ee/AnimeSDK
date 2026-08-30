@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Class_2_B40829637678745E_TextmapDownloadType_TypeDefinitionIndex = 56821;
+inline static constexpr unsigned int Class_2_B40829637678745E_TextmapDownloadType_TypeDefinitionIndex = 59609;
 
 enum class Class_2_B40829637678745E_TextmapDownloadType : ::System::Int32
 {

@@ -6,16 +6,16 @@ class Class_1_D8BECDCE48063EC7;
 class Class_2_88E944F0BCB55191;
 namespace RPG::GameCore { class DiceCombatPredicateConfig_ChallengerHasSameConfirmPoint; }
 
-#define CLASS_3_E3EFCF41DC52BB37_METHOD_3_31642670833F6657_OFFSET UNITYSDK_OFFSET(0x1A596840)
-#define CLASS_3_E3EFCF41DC52BB37_METHOD_3_B6BA737D4F7D84EE_OFFSET UNITYSDK_OFFSET(0x1A596A50)
-#define CLASS_3_E3EFCF41DC52BB37__CTOR_OFFSET UNITYSDK_OFFSET(0x1A596820)
+#define CLASS_3_E3EFCF41DC52BB37_METHOD_3_31642670833F6657_OFFSET UNITYSDK_OFFSET(0x1C1A6570)
+#define CLASS_3_E3EFCF41DC52BB37_METHOD_3_B6BA737D4F7D84EE_OFFSET UNITYSDK_OFFSET(0x1C1A6780)
+#define CLASS_3_E3EFCF41DC52BB37__CTOR_OFFSET UNITYSDK_OFFSET(0x1C1A6550)
 
-inline static constexpr unsigned int Class_3_E3EFCF41DC52BB37_TypeDefinitionIndex = 34804;
+inline static constexpr unsigned int Class_3_E3EFCF41DC52BB37_TypeDefinitionIndex = 35665;
 
 class Class_3_E3EFCF41DC52BB37 : public ::Class_2_98A798C0C96648F9
 {
 public:
-	::RPG::GameCore::DiceCombatPredicateConfig_ChallengerHasSameConfirmPoint* Field_3_0; // 0x30
+	::RPG::GameCore::DiceCombatPredicateConfig_ChallengerHasSameConfirmPoint* EJJEEJENLDA; // 0x30
 
 	::System::Void _ctor(::RPG::GameCore::DiceCombatPredicateConfig_ChallengerHasSameConfirmPoint* a1, ::Class_1_D8BECDCE48063EC7* a2)
 	{

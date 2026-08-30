@@ -7,7 +7,7 @@ namespace System::Reflection::Emit { class ILGenerator; }
 
 namespace System::Reflection::Emit
 {
-	inline static constexpr unsigned int LocalBuilder_TypeDefinitionIndex = 646;
+	inline static constexpr unsigned int LocalBuilder_TypeDefinitionIndex = 649;
 
 	class LocalBuilder : public ::System::Reflection::LocalVariableInfo
 	{

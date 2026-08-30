@@ -4,7 +4,7 @@
 
 namespace System::Net
 {
-	inline static constexpr unsigned int ICloseEx_TypeDefinitionIndex = 2772;
+	inline static constexpr unsigned int ICloseEx_TypeDefinitionIndex = 2779;
 
 	class ICloseEx
 	{

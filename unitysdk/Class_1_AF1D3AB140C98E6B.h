@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_F9FBCC956DFCF137_25;
+class Class_1_F9FBCC956DFCF137_27;
 class Class_2_FB9CF047C8AEAA83;
 namespace RPG::Client::LittleGame::ChimeraDuel { class ChimeraDuelChimeraCache; }
 namespace System { class Action; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_AF1D3AB140C98E6B_EXECUTE_OFFSET UNITYSDK_OFFSET(0x14B43020)
-#define CLASS_1_AF1D3AB140C98E6B_GET_ALLCHIMERAS_OFFSET UNITYSDK_OFFSET(0x14B433B0)
-#define CLASS_1_AF1D3AB140C98E6B_TICK_OFFSET UNITYSDK_OFFSET(0x14B43350)
-#define CLASS_1_AF1D3AB140C98E6B__CTOR_OFFSET UNITYSDK_OFFSET(0x14B42D40)
+#define CLASS_1_AF1D3AB140C98E6B_EXECUTE_OFFSET UNITYSDK_OFFSET(0x15A399F0)
+#define CLASS_1_AF1D3AB140C98E6B_GET_ALLCHIMERAS_OFFSET UNITYSDK_OFFSET(0x15A39D80)
+#define CLASS_1_AF1D3AB140C98E6B_TICK_OFFSET UNITYSDK_OFFSET(0x15A39D20)
+#define CLASS_1_AF1D3AB140C98E6B__CTOR_OFFSET UNITYSDK_OFFSET(0x15A39710)
 
-inline static constexpr unsigned int Class_1_AF1D3AB140C98E6B_TypeDefinitionIndex = 73698;
+inline static constexpr unsigned int Class_1_AF1D3AB140C98E6B_TypeDefinitionIndex = 77182;
 
 class Class_1_AF1D3AB140C98E6B : public ::System::Object
 {
@@ -25,9 +25,9 @@ public:
 		return ((::System::Void(*)(::PVOID, ::Class_2_FB9CF047C8AEAA83*))((::PBYTE)hIl2Cpp + CLASS_1_AF1D3AB140C98E6B__CTOR_OFFSET))(this, a1);
 	}
 
-	::System::Void Execute(::Class_1_F9FBCC956DFCF137_25* a1, ::System::Action* a2)
+	::System::Void Execute(::Class_1_F9FBCC956DFCF137_27* a1, ::System::Action* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_1_F9FBCC956DFCF137_25*, ::System::Action*))((::PBYTE)hIl2Cpp + CLASS_1_AF1D3AB140C98E6B_EXECUTE_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::Class_1_F9FBCC956DFCF137_27*, ::System::Action*))((::PBYTE)hIl2Cpp + CLASS_1_AF1D3AB140C98E6B_EXECUTE_OFFSET))(this, a1, a2);
 	}
 
 	::System::Void Tick(::System::Single a1)

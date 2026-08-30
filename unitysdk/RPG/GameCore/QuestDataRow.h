@@ -7,26 +7,26 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_QUESTDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B6F80F0)
-#define RPG_GAMECORE_QUESTDATAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6F8930)
+#define RPG_GAMECORE_QUESTDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D37A180)
+#define RPG_GAMECORE_QUESTDATAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D37A9C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int QuestDataRow_TypeDefinitionIndex = 13987;
+	inline static constexpr unsigned int QuestDataRow_TypeDefinitionIndex = 14405;
 
 	class QuestDataRow : public ::System::Object
 	{
 	public:
-		::System::String* ImagePath; // 0x10
-		::Il2CppArray<::System::UInt32>* UnlockParamList; // 0x18
-		::RPG::GameCore::QuestUnlockType UnlockType; // 0x20
-		::System::UInt32 FinishWayID; // 0x24
-		::System::UInt32 GotoID; // 0x28
-		::System::UInt32 QuestType; // 0x2C
-		::RPG::Client::TextID QuestDisplay; // 0x30
-		::RPG::Client::TextID QuestTitle; // 0x40
-		::System::UInt32 RewardID; // 0x50
-		::System::UInt32 QuestID; // 0x54
+		::Il2CppArray<::System::UInt32>* UnlockParamList; // 0x10
+		::System::String* ImagePath; // 0x18
+		::RPG::Client::TextID QuestDisplay; // 0x20
+		::System::UInt32 QuestID; // 0x30
+		::System::UInt32 GotoID; // 0x34
+		::RPG::GameCore::QuestUnlockType UnlockType; // 0x38
+		::System::UInt32 QuestType; // 0x3C
+		::System::UInt32 RewardID; // 0x40
+		::System::UInt32 FinishWayID; // 0x44
+		::RPG::Client::TextID QuestTitle; // 0x48
 
 		::System::Void _ctor()
 		{

@@ -5,12 +5,12 @@
 
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_THREADING_SEMAPHOREFULLEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A038150)
-#define SYSTEM_THREADING_SEMAPHOREFULLEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0380B0)
+#define SYSTEM_THREADING_SEMAPHOREFULLEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1BC3E8E0)
+#define SYSTEM_THREADING_SEMAPHOREFULLEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC3E840)
 
 namespace System::Threading
 {
-	inline static constexpr unsigned int SemaphoreFullException_TypeDefinitionIndex = 835;
+	inline static constexpr unsigned int SemaphoreFullException_TypeDefinitionIndex = 839;
 
 	class SemaphoreFullException : public ::System::SystemException
 	{

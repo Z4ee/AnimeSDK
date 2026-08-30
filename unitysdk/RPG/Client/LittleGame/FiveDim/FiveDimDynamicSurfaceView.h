@@ -9,22 +9,22 @@ namespace Entitas { class IEntity; }
 namespace System { class String; }
 namespace UnityEngine { class BoxCollider; }
 
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMDYNAMICSURFACEVIEW_INITIALIZE_OFFSET UNITYSDK_OFFSET(0xC99D170)
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMDYNAMICSURFACEVIEW_METHOD_7_D7852DE078ACC1F1_OFFSET UNITYSDK_OFFSET(0xC99D3E0)
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMDYNAMICSURFACEVIEW_RELEASE_OFFSET UNITYSDK_OFFSET(0xC99D600)
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMDYNAMICSURFACEVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0xC99DAA0)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMDYNAMICSURFACEVIEW_INITIALIZE_OFFSET UNITYSDK_OFFSET(0xD4DAE40)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMDYNAMICSURFACEVIEW_METHOD_7_D7852DE078ACC1F1_OFFSET UNITYSDK_OFFSET(0xD4DAEC0)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMDYNAMICSURFACEVIEW_RELEASE_OFFSET UNITYSDK_OFFSET(0xD4DB0E0)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMDYNAMICSURFACEVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0xD4DB1C0)
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int FiveDimDynamicSurfaceView_TypeDefinitionIndex = 73226;
+	inline static constexpr unsigned int FiveDimDynamicSurfaceView_TypeDefinitionIndex = 76702;
 
 	class FiveDimDynamicSurfaceView : public ::RPG::Client::LittleGame::FiveDim::FiveDimView
 	{
 	public:
-		::UnityEngine::Vector3 Field_7_0; // 0x1D0
-		::UnityEngine::Vector3 Field_7_1; // 0x1DC
-		::System::Boolean Field_7_2; // 0x1E8
-		::UnityEngine::BoxCollider* SurfaceCollider; // 0x1F0
+		::UnityEngine::Vector3 EIKLCFAGEKP; // 0x208
+		::UnityEngine::Vector3 EJLBICDOEPN; // 0x214
+		::System::Boolean PENFGOBENKH; // 0x220
+		::UnityEngine::BoxCollider* SurfaceCollider; // 0x228
 
 		::System::Void _ctor()
 		{

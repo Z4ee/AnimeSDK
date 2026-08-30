@@ -4,14 +4,14 @@
 
 namespace System { class String; }
 
-#define STRUCT_2_FD0368737CBF6F9B_3_TOSTRING_OFFSET UNITYSDK_OFFSET(0x7BA80)
-#define STRUCT_2_FD0368737CBF6F9B_3__CTOR_OFFSET UNITYSDK_OFFSET(0x2CAC0)
+#define STRUCT_2_FD0368737CBF6F9B_3_TOSTRING_OFFSET UNITYSDK_OFFSET(0x80600)
+#define STRUCT_2_FD0368737CBF6F9B_3__CTOR_OFFSET UNITYSDK_OFFSET(0x2E950)
 
-inline static constexpr unsigned int Struct_2_FD0368737CBF6F9B_3_TypeDefinitionIndex = 64676;
+inline static constexpr unsigned int Struct_2_FD0368737CBF6F9B_3_TypeDefinitionIndex = 67672;
 
 struct alignas(4) Struct_2_FD0368737CBF6F9B_3
 {
-	::System::UInt32 Field_2_0; // 0x10
+	::System::UInt32 EPLMGIDJKLL; // 0x10
 
 	::System::Void _ctor(::System::UInt32 a1)
 	{

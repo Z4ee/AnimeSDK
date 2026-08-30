@@ -4,11 +4,11 @@
 
 namespace RPG::GameCore { class EvolveGearConfig; }
 
-#define RPG_CLIENT_EVOLVEBUILDTREASURESOLUTION__CTOR_OFFSET UNITYSDK_OFFSET(0xC41B7E0)
+#define RPG_CLIENT_EVOLVEBUILDTREASURESOLUTION__CTOR_OFFSET UNITYSDK_OFFSET(0xCEF0050)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EvolveBuildTreasureSolution_TypeDefinitionIndex = 61001;
+	inline static constexpr unsigned int EvolveBuildTreasureSolution_TypeDefinitionIndex = 63854;
 
 	class EvolveBuildTreasureSolution : public ::System::Object
 	{

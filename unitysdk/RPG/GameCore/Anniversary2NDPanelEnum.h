@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int Anniversary2NDPanelEnum_TypeDefinitionIndex = 12177;
+	inline static constexpr unsigned int Anniversary2NDPanelEnum_TypeDefinitionIndex = 12566;
 
 	enum class Anniversary2NDPanelEnum : ::System::Int32
 	{

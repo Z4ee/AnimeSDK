@@ -7,12 +7,12 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MIHOYO_SDK_HOYOSDKHTTPDNSSERVICE___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0xAABA2B0)
-#define MIHOYO_SDK_HOYOSDKHTTPDNSSERVICE___C__DISPLAYCLASS4_0__REQUESTHOSTADDR_B__0_OFFSET UNITYSDK_OFFSET(0xAABD650)
+#define MIHOYO_SDK_HOYOSDKHTTPDNSSERVICE___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB1FA860)
+#define MIHOYO_SDK_HOYOSDKHTTPDNSSERVICE___C__DISPLAYCLASS4_0__REQUESTHOSTADDR_B__0_OFFSET UNITYSDK_OFFSET(0xB1FDBE0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int HoYoSDKHttpDnsService___c__DisplayClass4_0_TypeDefinitionIndex = 44371;
+	inline static constexpr unsigned int HoYoSDKHttpDnsService___c__DisplayClass4_0_TypeDefinitionIndex = 46553;
 
 	class HoYoSDKHttpDnsService___c__DisplayClass4_0 : public ::System::Object
 	{

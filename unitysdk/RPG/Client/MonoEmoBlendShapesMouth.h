@@ -11,50 +11,52 @@ namespace RPGTools::Timeline::Emotion { class EmoMouthBakedBlendShapesData; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_CLIENT_MONOEMOBLENDSHAPESMOUTH_AWAKE_OFFSET UNITYSDK_OFFSET(0xCCD9FF0)
-#define RPG_CLIENT_MONOEMOBLENDSHAPESMOUTH_GET_ENABLEAUTOMOUTH_OFFSET UNITYSDK_OFFSET(0xCCD7DB0)
-#define RPG_CLIENT_MONOEMOBLENDSHAPESMOUTH_GET_MOUTHVALUEMAP_OFFSET UNITYSDK_OFFSET(0xCCD8B30)
-#define RPG_CLIENT_MONOEMOBLENDSHAPESMOUTH_GET_WEIGHT_OFFSET UNITYSDK_OFFSET(0xCCD8B20)
-#define RPG_CLIENT_MONOEMOBLENDSHAPESMOUTH_ISBLENDSHAPESOVERRIDE_OFFSET UNITYSDK_OFFSET(0xCCD7D40)
-#define RPG_CLIENT_MONOEMOBLENDSHAPESMOUTH_METHOD_5_2C77D2C943F8AD67_OFFSET UNITYSDK_OFFSET(0xCCD9040)
-#define RPG_CLIENT_MONOEMOBLENDSHAPESMOUTH_METHOD_5_4A00ED31522679A1_OFFSET UNITYSDK_OFFSET(0xCCD9090)
-#define RPG_CLIENT_MONOEMOBLENDSHAPESMOUTH_METHOD_5_861B4CC0CCE3011B_OFFSET UNITYSDK_OFFSET(0xCCD9A00)
-#define RPG_CLIENT_MONOEMOBLENDSHAPESMOUTH_ONAUDIOLANGUAGECHANGED_OFFSET UNITYSDK_OFFSET(0xCCD8B40)
-#define RPG_CLIENT_MONOEMOBLENDSHAPESMOUTH_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xCCDA040)
-#define RPG_CLIENT_MONOEMOBLENDSHAPESMOUTH_PLAY_1_OFFSET UNITYSDK_OFFSET(0xCCD8C90)
-#define RPG_CLIENT_MONOEMOBLENDSHAPESMOUTH_PLAY_2_OFFSET UNITYSDK_OFFSET(0xCCD8E50)
-#define RPG_CLIENT_MONOEMOBLENDSHAPESMOUTH_PLAY_OFFSET UNITYSDK_OFFSET(0xCCD8D90)
-#define RPG_CLIENT_MONOEMOBLENDSHAPESMOUTH_RESET_OFFSET UNITYSDK_OFFSET(0xCCD9B30)
-#define RPG_CLIENT_MONOEMOBLENDSHAPESMOUTH_SETUPFRAMEDELTATIME_OFFSET UNITYSDK_OFFSET(0xCCD8FE0)
-#define RPG_CLIENT_MONOEMOBLENDSHAPESMOUTH_STOP_OFFSET UNITYSDK_OFFSET(0xCCD8C20)
-#define RPG_CLIENT_MONOEMOBLENDSHAPESMOUTH_TICK_OFFSET UNITYSDK_OFFSET(0xCCD7E20)
-#define RPG_CLIENT_MONOEMOBLENDSHAPESMOUTH__CTOR_OFFSET UNITYSDK_OFFSET(0xCCDA0D0)
+#define RPG_CLIENT_MONOEMOBLENDSHAPESMOUTH_AWAKE_OFFSET UNITYSDK_OFFSET(0xD7DAA90)
+#define RPG_CLIENT_MONOEMOBLENDSHAPESMOUTH_GET_ENABLEAUTOMOUTH_OFFSET UNITYSDK_OFFSET(0xD7D8760)
+#define RPG_CLIENT_MONOEMOBLENDSHAPESMOUTH_GET_MOUTHVALUEMAP_OFFSET UNITYSDK_OFFSET(0xD7D94E0)
+#define RPG_CLIENT_MONOEMOBLENDSHAPESMOUTH_GET_WEIGHT_OFFSET UNITYSDK_OFFSET(0xD7D94D0)
+#define RPG_CLIENT_MONOEMOBLENDSHAPESMOUTH_ISBLENDSHAPESOVERRIDE_OFFSET UNITYSDK_OFFSET(0xD7D86F0)
+#define RPG_CLIENT_MONOEMOBLENDSHAPESMOUTH_METHOD_5_1A65F66D3B5AD243_OFFSET UNITYSDK_OFFSET(0xD7D9660)
+#define RPG_CLIENT_MONOEMOBLENDSHAPESMOUTH_METHOD_5_2C77D2C943F8AD67_OFFSET UNITYSDK_OFFSET(0xD7D9AE0)
+#define RPG_CLIENT_MONOEMOBLENDSHAPESMOUTH_METHOD_5_4A00ED31522679A1_OFFSET UNITYSDK_OFFSET(0xD7D9B30)
+#define RPG_CLIENT_MONOEMOBLENDSHAPESMOUTH_METHOD_5_861B4CC0CCE3011B_OFFSET UNITYSDK_OFFSET(0xD7DA4A0)
+#define RPG_CLIENT_MONOEMOBLENDSHAPESMOUTH_ONAUDIOLANGUAGECHANGED_OFFSET UNITYSDK_OFFSET(0xD7D94F0)
+#define RPG_CLIENT_MONOEMOBLENDSHAPESMOUTH_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xD7DAAE0)
+#define RPG_CLIENT_MONOEMOBLENDSHAPESMOUTH_PLAY_1_OFFSET UNITYSDK_OFFSET(0xD7D9860)
+#define RPG_CLIENT_MONOEMOBLENDSHAPESMOUTH_PLAY_2_OFFSET UNITYSDK_OFFSET(0xD7D98E0)
+#define RPG_CLIENT_MONOEMOBLENDSHAPESMOUTH_PLAY_OFFSET UNITYSDK_OFFSET(0xD7D9790)
+#define RPG_CLIENT_MONOEMOBLENDSHAPESMOUTH_RESET_OFFSET UNITYSDK_OFFSET(0xD7DA5D0)
+#define RPG_CLIENT_MONOEMOBLENDSHAPESMOUTH_SETUPFRAMEDELTATIME_OFFSET UNITYSDK_OFFSET(0xD7D9A80)
+#define RPG_CLIENT_MONOEMOBLENDSHAPESMOUTH_STOP_OFFSET UNITYSDK_OFFSET(0xD7D95E0)
+#define RPG_CLIENT_MONOEMOBLENDSHAPESMOUTH_TICK_OFFSET UNITYSDK_OFFSET(0xD7D87D0)
+#define RPG_CLIENT_MONOEMOBLENDSHAPESMOUTH__CTOR_OFFSET UNITYSDK_OFFSET(0xD7DAB70)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEmoBlendShapesMouth_TypeDefinitionIndex = 67945;
+	inline static constexpr unsigned int MonoEmoBlendShapesMouth_TypeDefinitionIndex = 71118;
 
 	class MonoEmoBlendShapesMouth : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		static ::System::Boolean* StaticGet_UseOldMethod()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MonoEmoBlendShapesMouth_TypeDefinitionIndex)->GetStaticField(0x10680);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MonoEmoBlendShapesMouth_TypeDefinitionIndex)->GetStaticField(0x7D10);
 		}
 		::System::Single fadeInTime; // 0x18
 		::System::Single fadeOutTime; // 0x1C
-		::RPG::Client::MonoEmoBlendShapesController* Field_5_3; // 0x20
-		::RPG::Client::EmoBlendShapesConfig* Field_5_4; // 0x28
-		::RPGTools::Timeline::Emotion::EmoMouthBakedBlendShapesData* Field_5_5; // 0x30
-		::System::Single Field_5_6; // 0x38
-		::System::Single Field_5_7; // 0x3C
-		::System::Single Field_5_8; // 0x40
-		::System::Single Field_5_9; // 0x44
-		::System::Single Field_5_10; // 0x48
-		::Il2CppArray<::System::String*>* Field_5_11; // 0x50
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Single>* Field_5_12; // 0x58
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Single>* Field_5_13; // 0x60
-		::System::String* Field_5_14; // 0x68
+		::RPG::Client::MonoEmoBlendShapesController* JIIKAEMELPJ; // 0x20
+		::RPG::Client::EmoBlendShapesConfig* EABKOHGCHFP; // 0x28
+		::RPGTools::Timeline::Emotion::EmoMouthBakedBlendShapesData* GBGEECIKLDM; // 0x30
+		::System::Single MJCHILLNDCM; // 0x38
+		::System::Single ILJHAGGBLBC; // 0x3C
+		::System::Single CEBKHBHBNKK; // 0x40
+		::System::Single KHGHNLHFGHM; // 0x44
+		::System::Single KJLHNBJMPDC; // 0x48
+		::Il2CppArray<::System::String*>* FFCOMNJBGNF; // 0x50
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Single>* CMIMENCPGAE; // 0x58
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Single>* MDOGDHOPFKK; // 0x60
+		::System::String* GPMCKOJDADG; // 0x68
+		::System::Boolean GMOBMDCCOOF; // 0x70
 
 		::System::Void _ctor()
 		{
@@ -91,9 +93,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEMOBLENDSHAPESMOUTH_PLAY_1_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void Play_2(::System::String* a1, ::RPGTools::Timeline::Emotion::EmoMouthBakedBlendShapesData* a2, ::System::Single a3, ::System::Single a4)
+		::System::Void Method_5_1A65F66D3B5AD243(::System::String* a1, ::System::Boolean a2, ::System::Single a3, ::System::Single a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::RPGTools::Timeline::Emotion::EmoMouthBakedBlendShapesData*, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEMOBLENDSHAPESMOUTH_PLAY_2_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Boolean, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEMOBLENDSHAPESMOUTH_METHOD_5_1A65F66D3B5AD243_OFFSET))(this, a1, a2, a3, a4);
+		}
+
+		::System::Void Play_2(::System::String* a1, ::RPGTools::Timeline::Emotion::EmoMouthBakedBlendShapesData* a2, ::System::Single a3, ::System::Single a4, ::System::Boolean a5)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::RPGTools::Timeline::Emotion::EmoMouthBakedBlendShapesData*, ::System::Single, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEMOBLENDSHAPESMOUTH_PLAY_2_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::System::Void Stop()

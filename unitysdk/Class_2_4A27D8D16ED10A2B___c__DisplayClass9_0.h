@@ -6,10 +6,10 @@ class Class_1_7B005A18003A04C3;
 class Class_1_C7A3189C9B32F559;
 namespace RPG::Client::Promises { class IPromise; }
 
-#define CLASS_2_4A27D8D16ED10A2B___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC52D0D0)
-#define CLASS_2_4A27D8D16ED10A2B___C__DISPLAYCLASS9_0__STARTMATCH_B__0_OFFSET UNITYSDK_OFFSET(0xC530FD0)
+#define CLASS_2_4A27D8D16ED10A2B___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD28D8C0)
+#define CLASS_2_4A27D8D16ED10A2B___C__DISPLAYCLASS9_0__STARTMATCH_B__0_OFFSET UNITYSDK_OFFSET(0xD2917F0)
 
-inline static constexpr unsigned int Class_2_4A27D8D16ED10A2B___c__DisplayClass9_0_TypeDefinitionIndex = 75405;
+inline static constexpr unsigned int Class_2_4A27D8D16ED10A2B___c__DisplayClass9_0_TypeDefinitionIndex = 78952;
 
 class Class_2_4A27D8D16ED10A2B___c__DisplayClass9_0 : public ::System::Object
 {

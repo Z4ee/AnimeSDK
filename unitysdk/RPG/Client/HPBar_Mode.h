@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int HPBar_Mode_TypeDefinitionIndex = 69263;
+	inline static constexpr unsigned int HPBar_Mode_TypeDefinitionIndex = 72465;
 
 	enum class HPBar_Mode : ::System::Int32
 	{

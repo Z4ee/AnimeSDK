@@ -9,97 +9,97 @@ namespace System { class String; }
 namespace UnityEngine { class Gradient; }
 namespace UnityEngine { class Texture2D; }
 
-#define RPG_CLIENT_TIMESPACECRISSCROSSLIGHTSBEHAVIOR_CLASS_1_EE2F3B4200B84801_METHOD_1_0FB6BB719C62D23C_OFFSET UNITYSDK_OFFSET(0xD6CEB40)
-#define RPG_CLIENT_TIMESPACECRISSCROSSLIGHTSBEHAVIOR_CLASS_1_EE2F3B4200B84801_METHOD_1_41A0CC26519C92EB_OFFSET UNITYSDK_OFFSET(0xD6CECF0)
-#define RPG_CLIENT_TIMESPACECRISSCROSSLIGHTSBEHAVIOR_CLASS_1_EE2F3B4200B84801_METHOD_1_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0xD6CE2C0)
-#define RPG_CLIENT_TIMESPACECRISSCROSSLIGHTSBEHAVIOR_CLASS_1_EE2F3B4200B84801_METHOD_1_8FC88D4CC6C9135E_OFFSET UNITYSDK_OFFSET(0xD6CE7F0)
-#define RPG_CLIENT_TIMESPACECRISSCROSSLIGHTSBEHAVIOR_CLASS_1_EE2F3B4200B84801_METHOD_1_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0xD6CD820)
-#define RPG_CLIENT_TIMESPACECRISSCROSSLIGHTSBEHAVIOR_CLASS_1_EE2F3B4200B84801_METHOD_1_B81D0D8ADCB27540_OFFSET UNITYSDK_OFFSET(0xD6CE9A0)
-#define RPG_CLIENT_TIMESPACECRISSCROSSLIGHTSBEHAVIOR_CLASS_1_EE2F3B4200B84801__CCTOR_OFFSET UNITYSDK_OFFSET(0xD6CEF40)
-#define RPG_CLIENT_TIMESPACECRISSCROSSLIGHTSBEHAVIOR_CLASS_1_EE2F3B4200B84801__CTOR_OFFSET UNITYSDK_OFFSET(0xD6C9AB0)
+#define RPG_CLIENT_TIMESPACECRISSCROSSLIGHTSBEHAVIOR_CLASS_1_EE2F3B4200B84801_METHOD_1_0FB6BB719C62D23C_OFFSET UNITYSDK_OFFSET(0xE21E470)
+#define RPG_CLIENT_TIMESPACECRISSCROSSLIGHTSBEHAVIOR_CLASS_1_EE2F3B4200B84801_METHOD_1_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0xE21DBF0)
+#define RPG_CLIENT_TIMESPACECRISSCROSSLIGHTSBEHAVIOR_CLASS_1_EE2F3B4200B84801_METHOD_1_8119849B66F3725D_OFFSET UNITYSDK_OFFSET(0xE21E620)
+#define RPG_CLIENT_TIMESPACECRISSCROSSLIGHTSBEHAVIOR_CLASS_1_EE2F3B4200B84801_METHOD_1_8FC88D4CC6C9135E_OFFSET UNITYSDK_OFFSET(0xE21E120)
+#define RPG_CLIENT_TIMESPACECRISSCROSSLIGHTSBEHAVIOR_CLASS_1_EE2F3B4200B84801_METHOD_1_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0xE21D150)
+#define RPG_CLIENT_TIMESPACECRISSCROSSLIGHTSBEHAVIOR_CLASS_1_EE2F3B4200B84801_METHOD_1_B81D0D8ADCB27540_OFFSET UNITYSDK_OFFSET(0xE21E2D0)
+#define RPG_CLIENT_TIMESPACECRISSCROSSLIGHTSBEHAVIOR_CLASS_1_EE2F3B4200B84801__CCTOR_OFFSET UNITYSDK_OFFSET(0xE21E890)
+#define RPG_CLIENT_TIMESPACECRISSCROSSLIGHTSBEHAVIOR_CLASS_1_EE2F3B4200B84801__CTOR_OFFSET UNITYSDK_OFFSET(0xE219420)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TimeSpaceCrisscrossLightsBehavior_Class_1_EE2F3B4200B84801_TypeDefinitionIndex = 67088;
+	inline static constexpr unsigned int TimeSpaceCrisscrossLightsBehavior_Class_1_EE2F3B4200B84801_TypeDefinitionIndex = 70195;
 
 	class TimeSpaceCrisscrossLightsBehavior_Class_1_EE2F3B4200B84801 : public ::System::Object
 	{
 	public:
-		static ::System::Int32* StaticGet_Field_1_0()
+		static ::System::Int32* StaticGet_HCHODDMNMOM()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TimeSpaceCrisscrossLightsBehavior_Class_1_EE2F3B4200B84801_TypeDefinitionIndex)->GetStaticField(0xAFA0);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TimeSpaceCrisscrossLightsBehavior_Class_1_EE2F3B4200B84801_TypeDefinitionIndex)->GetStaticField(0x127E0);
 		}
-		static ::System::Int32* StaticGet_Field_1_1()
+		static ::System::Int32* StaticGet_EKJAGDJEKLK()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TimeSpaceCrisscrossLightsBehavior_Class_1_EE2F3B4200B84801_TypeDefinitionIndex)->GetStaticField(0xAFA4);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TimeSpaceCrisscrossLightsBehavior_Class_1_EE2F3B4200B84801_TypeDefinitionIndex)->GetStaticField(0x127E4);
 		}
-		static ::System::Int32* StaticGet_Field_1_2()
+		static ::System::Int32* StaticGet_NFFOAJKMGBF()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TimeSpaceCrisscrossLightsBehavior_Class_1_EE2F3B4200B84801_TypeDefinitionIndex)->GetStaticField(0xAFA8);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TimeSpaceCrisscrossLightsBehavior_Class_1_EE2F3B4200B84801_TypeDefinitionIndex)->GetStaticField(0x127E8);
 		}
-		static ::System::Int32* StaticGet_Field_1_3()
+		static ::System::Int32* StaticGet_KONGHHFFNMN()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TimeSpaceCrisscrossLightsBehavior_Class_1_EE2F3B4200B84801_TypeDefinitionIndex)->GetStaticField(0xAFAC);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TimeSpaceCrisscrossLightsBehavior_Class_1_EE2F3B4200B84801_TypeDefinitionIndex)->GetStaticField(0x127EC);
 		}
-		static ::System::Int32* StaticGet_Field_1_4()
+		static ::System::Int32* StaticGet_FINLMEOOOOP()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TimeSpaceCrisscrossLightsBehavior_Class_1_EE2F3B4200B84801_TypeDefinitionIndex)->GetStaticField(0xAFB0);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TimeSpaceCrisscrossLightsBehavior_Class_1_EE2F3B4200B84801_TypeDefinitionIndex)->GetStaticField(0x127F0);
 		}
-		static ::System::Int32* StaticGet_Field_1_5()
+		static ::System::Int32* StaticGet_IAJDGLGEEKL()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TimeSpaceCrisscrossLightsBehavior_Class_1_EE2F3B4200B84801_TypeDefinitionIndex)->GetStaticField(0xAFB4);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TimeSpaceCrisscrossLightsBehavior_Class_1_EE2F3B4200B84801_TypeDefinitionIndex)->GetStaticField(0x127F4);
 		}
-		static ::System::Int32* StaticGet_Field_1_6()
+		static ::System::Int32* StaticGet_FGLFPPENBKI()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TimeSpaceCrisscrossLightsBehavior_Class_1_EE2F3B4200B84801_TypeDefinitionIndex)->GetStaticField(0xAFB8);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TimeSpaceCrisscrossLightsBehavior_Class_1_EE2F3B4200B84801_TypeDefinitionIndex)->GetStaticField(0x127F8);
 		}
-		static ::System::Int32* StaticGet_Field_1_7()
+		static ::System::Int32* StaticGet_NPMDGBKIOME()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TimeSpaceCrisscrossLightsBehavior_Class_1_EE2F3B4200B84801_TypeDefinitionIndex)->GetStaticField(0xAFBC);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TimeSpaceCrisscrossLightsBehavior_Class_1_EE2F3B4200B84801_TypeDefinitionIndex)->GetStaticField(0x127FC);
 		}
-		static ::System::Int32* StaticGet_Field_1_8()
+		static ::System::Int32* StaticGet_EFJLKNOCLIN()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TimeSpaceCrisscrossLightsBehavior_Class_1_EE2F3B4200B84801_TypeDefinitionIndex)->GetStaticField(0xAFC0);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TimeSpaceCrisscrossLightsBehavior_Class_1_EE2F3B4200B84801_TypeDefinitionIndex)->GetStaticField(0x12800);
 		}
-		static ::System::Int32* StaticGet_Field_1_9()
+		static ::System::Int32* StaticGet_PAMADFAKAAG()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TimeSpaceCrisscrossLightsBehavior_Class_1_EE2F3B4200B84801_TypeDefinitionIndex)->GetStaticField(0xAFC4);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TimeSpaceCrisscrossLightsBehavior_Class_1_EE2F3B4200B84801_TypeDefinitionIndex)->GetStaticField(0x12804);
 		}
-		static ::System::Int32* StaticGet_Field_1_10()
+		static ::System::Int32* StaticGet_AHJOOPCAAJD()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TimeSpaceCrisscrossLightsBehavior_Class_1_EE2F3B4200B84801_TypeDefinitionIndex)->GetStaticField(0xAFC8);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TimeSpaceCrisscrossLightsBehavior_Class_1_EE2F3B4200B84801_TypeDefinitionIndex)->GetStaticField(0x12808);
 		}
-		static ::System::Int32* StaticGet_Field_1_11()
+		static ::System::Int32* StaticGet_PANFLCEKCCG()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TimeSpaceCrisscrossLightsBehavior_Class_1_EE2F3B4200B84801_TypeDefinitionIndex)->GetStaticField(0xAFCC);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TimeSpaceCrisscrossLightsBehavior_Class_1_EE2F3B4200B84801_TypeDefinitionIndex)->GetStaticField(0x1280C);
 		}
-		static ::System::Int32* StaticGet_Field_1_12()
+		static ::System::Int32* StaticGet_GAPJGIGAKAJ()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TimeSpaceCrisscrossLightsBehavior_Class_1_EE2F3B4200B84801_TypeDefinitionIndex)->GetStaticField(0xAFD0);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TimeSpaceCrisscrossLightsBehavior_Class_1_EE2F3B4200B84801_TypeDefinitionIndex)->GetStaticField(0x12810);
 		}
-		static ::System::Int32* StaticGet_Field_1_13()
+		static ::System::Int32* StaticGet_NEFNJAMKPLM()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TimeSpaceCrisscrossLightsBehavior_Class_1_EE2F3B4200B84801_TypeDefinitionIndex)->GetStaticField(0xAFD4);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TimeSpaceCrisscrossLightsBehavior_Class_1_EE2F3B4200B84801_TypeDefinitionIndex)->GetStaticField(0x12814);
 		}
-		static ::System::Int32* StaticGet_Field_1_14()
+		static ::System::Int32* StaticGet_CKMBMJHEJJA()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TimeSpaceCrisscrossLightsBehavior_Class_1_EE2F3B4200B84801_TypeDefinitionIndex)->GetStaticField(0xAFD8);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TimeSpaceCrisscrossLightsBehavior_Class_1_EE2F3B4200B84801_TypeDefinitionIndex)->GetStaticField(0x12818);
 		}
-		::UnityEngine::Texture2D* Field_1_15; // 0x10
-		::UnityEngine::Texture2D* Field_1_16; // 0x18
-		::UnityEngine::Vector3 Field_1_17; // 0x20
-		::System::Single Field_1_18; // 0x2C
-		::System::Single Field_1_19; // 0x30
-		::System::Single Field_1_20; // 0x34
-		::System::Single Field_1_21; // 0x38
-		::System::Single Field_1_22; // 0x3C
-		::System::Single Field_1_23; // 0x40
-		::System::Single Field_1_24; // 0x44
-		::System::Single Field_1_25; // 0x48
-		::System::Single Field_1_26; // 0x4C
-		::System::Single Field_1_27; // 0x50
-		::System::Single Field_1_28; // 0x54
-		::System::Single Field_1_29; // 0x58
+		::UnityEngine::Texture2D* ILPIHIDECEF; // 0x10
+		::UnityEngine::Texture2D* JPDCGGGHFPK; // 0x18
+		::System::Single JACHFNCCNKN; // 0x20
+		::System::Single OHCHDNHHFHD; // 0x24
+		::System::Single GCPBJBCGEGA; // 0x28
+		::System::Single AALHHJBPNFK; // 0x2C
+		::System::Single EBCCAKKPGID; // 0x30
+		::UnityEngine::Vector3 PAJDHIHOJIJ; // 0x34
+		::System::Single GCOBCACECEH; // 0x40
+		::System::Single DPACPLCBMMC; // 0x44
+		::System::Single HODGPPFCHBC; // 0x48
+		::System::Single MLKMAKMBDCN; // 0x4C
+		::System::Single ADMFMCMANBO; // 0x50
+		::System::Single EGCJEDOJACO; // 0x54
+		::System::Single NIJGIHPNFGC; // 0x58
 
 		::System::Void _ctor(::EnviromentSystem::EnviromentProfile* a1)
 		{
@@ -126,9 +126,9 @@ namespace RPG::Client
 			return ((::UnityEngine::Vector4(*)(::PVOID, ::EnviromentSystem::EnviromentProfile*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMESPACECRISSCROSSLIGHTSBEHAVIOR_CLASS_1_EE2F3B4200B84801_METHOD_1_0FB6BB719C62D23C_OFFSET))(this, a1, a2);
 		}
 
-		::UnityEngine::Texture2D* Method_1_41A0CC26519C92EB(::UnityEngine::Gradient* a1)
+		::UnityEngine::Texture2D* Method_1_8119849B66F3725D(::UnityEngine::Gradient* a1)
 		{
-			return ((::UnityEngine::Texture2D*(*)(::PVOID, ::UnityEngine::Gradient*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMESPACECRISSCROSSLIGHTSBEHAVIOR_CLASS_1_EE2F3B4200B84801_METHOD_1_41A0CC26519C92EB_OFFSET))(this, a1);
+			return ((::UnityEngine::Texture2D*(*)(::PVOID, ::UnityEngine::Gradient*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMESPACECRISSCROSSLIGHTSBEHAVIOR_CLASS_1_EE2F3B4200B84801_METHOD_1_8119849B66F3725D_OFFSET))(this, a1);
 		}
 
 		::System::Void Method_1_9681042564541CD6()

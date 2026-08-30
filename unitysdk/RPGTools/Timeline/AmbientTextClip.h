@@ -8,18 +8,18 @@
 namespace RPGTools::Timeline { class AmbientTextData; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_AMBIENTTEXTCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xDC91A80)
-#define RPGTOOLS_TIMELINE_AMBIENTTEXTCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xDC91A70)
-#define RPGTOOLS_TIMELINE_AMBIENTTEXTCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xDC91C10)
+#define RPGTOOLS_TIMELINE_AMBIENTTEXTCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE80DB50)
+#define RPGTOOLS_TIMELINE_AMBIENTTEXTCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE80DB40)
+#define RPGTOOLS_TIMELINE_AMBIENTTEXTCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xE80DCE0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int AmbientTextClip_TypeDefinitionIndex = 46076;
+	inline static constexpr unsigned int AmbientTextClip_TypeDefinitionIndex = 48305;
 
 	class AmbientTextClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:
-		::RPGTools::Timeline::AmbientTextData* AmbientText; // 0x18
+		::RPGTools::Timeline::AmbientTextData* AmbientTextData; // 0x18
 
 		::System::Void _ctor()
 		{

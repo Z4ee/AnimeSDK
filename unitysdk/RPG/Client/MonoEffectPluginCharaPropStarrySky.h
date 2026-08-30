@@ -14,14 +14,14 @@ namespace UnityEngine { class Renderer; }
 namespace UnityEngine { class Shader; }
 namespace UnityEngine { class Texture2D; }
 
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPSTARRYSKY_INIT_OFFSET UNITYSDK_OFFSET(0xCCABA50)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPSTARRYSKY_UNINIT_OFFSET UNITYSDK_OFFSET(0xCCACB80)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPSTARRYSKY_UPDATEPROPERTY_OFFSET UNITYSDK_OFFSET(0xCCABAF0)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPSTARRYSKY__CTOR_OFFSET UNITYSDK_OFFSET(0xCCACCA0)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPSTARRYSKY_INIT_OFFSET UNITYSDK_OFFSET(0xD7AACF0)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPSTARRYSKY_UNINIT_OFFSET UNITYSDK_OFFSET(0xD7ABE20)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPSTARRYSKY_UPDATEPROPERTY_OFFSET UNITYSDK_OFFSET(0xD7AAD90)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPSTARRYSKY__CTOR_OFFSET UNITYSDK_OFFSET(0xD7ABF40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginCharaPropStarrySky_TypeDefinitionIndex = 66844;
+	inline static constexpr unsigned int MonoEffectPluginCharaPropStarrySky_TypeDefinitionIndex = 69946;
 
 	class MonoEffectPluginCharaPropStarrySky : public ::RPG::Client::MonoEffectPluginCharaPropBase
 	{
@@ -73,7 +73,7 @@ namespace RPG::Client
 		::System::Single _SkyFresnelScale; // 0x148
 		::System::Boolean Toggle_SkyFresnelSmooth; // 0x14C
 		::System::Single _SkyFresnelSmooth; // 0x150
-		::Il2CppArray<::System::Boolean>* Field_6_47; // 0x158
+		::Il2CppArray<::System::Boolean>* LKIKPHKAFJB; // 0x158
 
 		::System::Void _ctor()
 		{

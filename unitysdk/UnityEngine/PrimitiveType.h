@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int PrimitiveType_TypeDefinitionIndex = 4005;
+	inline static constexpr unsigned int PrimitiveType_TypeDefinitionIndex = 4013;
 
 	enum class PrimitiveType : ::System::Int32
 	{

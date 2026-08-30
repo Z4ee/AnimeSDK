@@ -4,13 +4,13 @@
 #include "unitysdk/System/Xml/Schema/XmlTypeCode.h"
 #include "unitysdk/System/Xml/XmlTokenizedType.h"
 
-#define SYSTEM_XML_SCHEMA_DATATYPE_IDREF_GET_TOKENIZEDTYPE_OFFSET UNITYSDK_OFFSET(0x1CB3FF10)
-#define SYSTEM_XML_SCHEMA_DATATYPE_IDREF_GET_TYPECODE_OFFSET UNITYSDK_OFFSET(0x1CB3FF00)
-#define SYSTEM_XML_SCHEMA_DATATYPE_IDREF__CTOR_OFFSET UNITYSDK_OFFSET(0x1CB3C720)
+#define SYSTEM_XML_SCHEMA_DATATYPE_IDREF_GET_TOKENIZEDTYPE_OFFSET UNITYSDK_OFFSET(0x1E7E9FE0)
+#define SYSTEM_XML_SCHEMA_DATATYPE_IDREF_GET_TYPECODE_OFFSET UNITYSDK_OFFSET(0x1E7E9FD0)
+#define SYSTEM_XML_SCHEMA_DATATYPE_IDREF__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7E67C0)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int Datatype_IDREF_TypeDefinitionIndex = 2123;
+	inline static constexpr unsigned int Datatype_IDREF_TypeDefinitionIndex = 2130;
 
 	class Datatype_IDREF : public ::System::Xml::Schema::Datatype_NCName
 	{

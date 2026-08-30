@@ -5,16 +5,16 @@
 
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_85B61EA0E6D9987F_METHOD_1_2656A4C8F30FFBE9_OFFSET UNITYSDK_OFFSET(0xB192A20)
-#define CLASS_1_85B61EA0E6D9987F_METHOD_1_F06D56432F5FAF51_OFFSET UNITYSDK_OFFSET(0xB192990)
-#define CLASS_1_85B61EA0E6D9987F__CTOR_OFFSET UNITYSDK_OFFSET(0xB192B00)
+#define CLASS_1_85B61EA0E6D9987F_METHOD_1_2656A4C8F30FFBE9_OFFSET UNITYSDK_OFFSET(0xBB5F050)
+#define CLASS_1_85B61EA0E6D9987F_METHOD_1_F06D56432F5FAF51_OFFSET UNITYSDK_OFFSET(0xBB5EFC0)
+#define CLASS_1_85B61EA0E6D9987F__CTOR_OFFSET UNITYSDK_OFFSET(0xBB5F130)
 
-inline static constexpr unsigned int Class_1_85B61EA0E6D9987F_TypeDefinitionIndex = 55062;
+inline static constexpr unsigned int Class_1_85B61EA0E6D9987F_TypeDefinitionIndex = 57786;
 
 class Class_1_85B61EA0E6D9987F : public ::System::Object
 {
 public:
-	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::FixPoint>* Field_1_0; // 0x10
+	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::FixPoint>* LOCFAFEMJEH; // 0x10
 
 	::System::Void _ctor()
 	{

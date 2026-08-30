@@ -3,15 +3,15 @@
 #include "unitysdk/RPG/Client/LittleGame/ChenLing/ChenLingGameState.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_66A27EA1EE8C38F2__CTOR_OFFSET UNITYSDK_OFFSET(0x1A7ABC50)
+#define CLASS_1_66A27EA1EE8C38F2__CTOR_OFFSET UNITYSDK_OFFSET(0x1C3D21E0)
 
-inline static constexpr unsigned int Class_1_66A27EA1EE8C38F2_TypeDefinitionIndex = 41143;
+inline static constexpr unsigned int Class_1_66A27EA1EE8C38F2_TypeDefinitionIndex = 42103;
 
 class Class_1_66A27EA1EE8C38F2 : public ::System::Object
 {
 public:
-	::System::Boolean Field_1_0; // 0x10
-	::RPG::Client::LittleGame::ChenLing::ChenLingGameState Field_1_1; // 0x14
+	::RPG::Client::LittleGame::ChenLing::ChenLingGameState MEPFOEEGBEA; // 0x10
+	::System::Boolean OEMBNIGPNNA; // 0x14
 
 	::System::Void _ctor()
 	{

@@ -9,16 +9,16 @@ namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define CLASS_2_F5974F3A22EA428A_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB8F36D0)
-#define CLASS_2_F5974F3A22EA428A__CTOR_OFFSET UNITYSDK_OFFSET(0xB8F36B0)
-#define CLASS_2_F5974F3A22EA428A__SETEFFECTPARAMLITTLEGAMEENTITY_OFFSET UNITYSDK_OFFSET(0xB8F3720)
+#define CLASS_2_F5974F3A22EA428A_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC302C10)
+#define CLASS_2_F5974F3A22EA428A__CTOR_OFFSET UNITYSDK_OFFSET(0xC302BF0)
+#define CLASS_2_F5974F3A22EA428A__SETEFFECTPARAMLITTLEGAMEENTITY_OFFSET UNITYSDK_OFFSET(0xC302C60)
 
-inline static constexpr unsigned int Class_2_F5974F3A22EA428A_TypeDefinitionIndex = 72927;
+inline static constexpr unsigned int Class_2_F5974F3A22EA428A_TypeDefinitionIndex = 76400;
 
 class Class_2_F5974F3A22EA428A : public ::RPG::Client::LittleGame::SimpleEffectService_1<::Class_2_B9E8C2EEAA5C96EC*>
 {
 public:
-	::Class_3_1E4F9B0ED3BF21DE* Field_2_0; // 0x20
+	::Class_3_1E4F9B0ED3BF21DE* PDENFEFCAGN; // 0x20
 
 	::System::Void _ctor(::RPG::GameCore::GameEntity* a1, ::Class_3_1E4F9B0ED3BF21DE* a2, ::System::Action_1<::System::String*>* a3)
 	{

@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_FLOATINGSPIRITBLOCK_METHOD_2_76F73BA0F24720AC_OFFSET UNITYSDK_OFFSET(0x1B4512B0)
-#define RPG_GAMECORE_FLOATINGSPIRITBLOCK__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4513D0)
+#define RPG_GAMECORE_FLOATINGSPIRITBLOCK_METHOD_2_76F73BA0F24720AC_OFFSET UNITYSDK_OFFSET(0x1D10B4B0)
+#define RPG_GAMECORE_FLOATINGSPIRITBLOCK__CTOR_OFFSET UNITYSDK_OFFSET(0x1D10B5D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FloatingSpiritBlock_TypeDefinitionIndex = 17846;
+	inline static constexpr unsigned int FloatingSpiritBlock_TypeDefinitionIndex = 18366;
 
 	class FloatingSpiritBlock : public ::RPG::GameCore::JsonConfig
 	{

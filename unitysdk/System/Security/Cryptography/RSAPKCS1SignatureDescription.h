@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_RSAPKCS1SIGNATUREDESCRIPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x19FC4140)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_RSAPKCS1SIGNATUREDESCRIPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1BBC9B00)
 
 namespace System::Security::Cryptography
 {
-	inline static constexpr unsigned int RSAPKCS1SignatureDescription_TypeDefinitionIndex = 1057;
+	inline static constexpr unsigned int RSAPKCS1SignatureDescription_TypeDefinitionIndex = 1064;
 
 	class RSAPKCS1SignatureDescription : public ::System::Security::Cryptography::SignatureDescription
 	{

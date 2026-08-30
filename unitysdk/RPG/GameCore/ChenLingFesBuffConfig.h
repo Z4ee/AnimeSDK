@@ -7,12 +7,12 @@ namespace RPG::GameCore { class ChenLingFesBuff; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_CHENLINGFESBUFFCONFIG_METHOD_2_1B4A157E1F3E70F8_OFFSET UNITYSDK_OFFSET(0x1B335FD0)
-#define RPG_GAMECORE_CHENLINGFESBUFFCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3360D0)
+#define RPG_GAMECORE_CHENLINGFESBUFFCONFIG_METHOD_2_1B4A157E1F3E70F8_OFFSET UNITYSDK_OFFSET(0x1CFB2370)
+#define RPG_GAMECORE_CHENLINGFESBUFFCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFB2470)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingFesBuffConfig_TypeDefinitionIndex = 17719;
+	inline static constexpr unsigned int ChenLingFesBuffConfig_TypeDefinitionIndex = 18237;
 
 	class ChenLingFesBuffConfig : public ::RPG::GameCore::JsonConfig
 	{

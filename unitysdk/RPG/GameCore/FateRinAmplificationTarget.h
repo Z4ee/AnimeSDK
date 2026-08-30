@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FateRinAmplificationTarget_TypeDefinitionIndex = 23589;
+	inline static constexpr unsigned int FateRinAmplificationTarget_TypeDefinitionIndex = 24174;
 
 	enum class FateRinAmplificationTarget : ::System::Int32
 	{

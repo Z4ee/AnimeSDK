@@ -2,17 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_C1E7AE5A0B40A05A_METHOD_1_CF1A9DD8735A1069_OFFSET UNITYSDK_OFFSET(0xB6A8490)
-#define CLASS_1_C1E7AE5A0B40A05A_METHOD_1_DAB9087B1AF0C469_OFFSET UNITYSDK_OFFSET(0xB6A8530)
-#define CLASS_1_C1E7AE5A0B40A05A__CTOR_OFFSET UNITYSDK_OFFSET(0xB6A8590)
+#define CLASS_1_C1E7AE5A0B40A05A_METHOD_1_CF1A9DD8735A1069_OFFSET UNITYSDK_OFFSET(0xC0B2690)
+#define CLASS_1_C1E7AE5A0B40A05A_METHOD_1_DAB9087B1AF0C469_OFFSET UNITYSDK_OFFSET(0xC0B2730)
+#define CLASS_1_C1E7AE5A0B40A05A__CTOR_OFFSET UNITYSDK_OFFSET(0xC0B2790)
 
-inline static constexpr unsigned int Class_1_C1E7AE5A0B40A05A_TypeDefinitionIndex = 69617;
+inline static constexpr unsigned int Class_1_C1E7AE5A0B40A05A_TypeDefinitionIndex = 72854;
 
 class Class_1_C1E7AE5A0B40A05A : public ::System::Object
 {
 public:
-	// static const ::System::UInt32 Field_1_0 = 0x4E00; // 0x0
-	// static const ::System::UInt32 Field_1_1 = 0x9FFF; // 0x0
+	// static const ::System::UInt32 PFONJLMDIAM = 0x4E00; // 0x0
+	// static const ::System::UInt32 EPOMHCLLHCM = 0x9FFF; // 0x0
 
 	::System::Void _ctor()
 	{

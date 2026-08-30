@@ -6,19 +6,19 @@
 class Class_1_7A22A3DBEEDD1F80;
 class Class_1_ABE8D38DFA4EFF6A;
 
-#define RPG_GAMECORE_MATCHTHREEV2TIPSROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B5D67F0)
-#define RPG_GAMECORE_MATCHTHREEV2TIPSROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5D6A00)
+#define RPG_GAMECORE_MATCHTHREEV2TIPSROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D252EC0)
+#define RPG_GAMECORE_MATCHTHREEV2TIPSROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2530D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MatchThreeV2TipsRow_TypeDefinitionIndex = 11526;
+	inline static constexpr unsigned int MatchThreeV2TipsRow_TypeDefinitionIndex = 11915;
 
 	class MatchThreeV2TipsRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::Class_1_ABE8D38DFA4EFF6A*>* Condition; // 0x10
-		::System::UInt32 TipsID; // 0x18
-		::System::UInt32 Weight; // 0x1C
+		::System::UInt32 Weight; // 0x18
+		::System::UInt32 TipsID; // 0x1C
 		::RPG::Client::TextID TipsDesc; // 0x20
 
 		::System::Void _ctor()

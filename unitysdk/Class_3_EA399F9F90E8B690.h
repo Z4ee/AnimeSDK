@@ -7,18 +7,18 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define CLASS_3_EA399F9F90E8B690_METHOD_3_B4C09A5853E73B8A_OFFSET UNITYSDK_OFFSET(0x1AFC8780)
-#define CLASS_3_EA399F9F90E8B690_METHOD_3_C6C799B3DFBE236B_OFFSET UNITYSDK_OFFSET(0x1AFC8740)
-#define CLASS_3_EA399F9F90E8B690__CTOR_OFFSET UNITYSDK_OFFSET(0x1AFC8770)
+#define CLASS_3_EA399F9F90E8B690_METHOD_3_B4C09A5853E73B8A_OFFSET UNITYSDK_OFFSET(0x1CC2AAB0)
+#define CLASS_3_EA399F9F90E8B690_METHOD_3_C6C799B3DFBE236B_OFFSET UNITYSDK_OFFSET(0x1CC2AA70)
+#define CLASS_3_EA399F9F90E8B690__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC2AAA0)
 
-inline static constexpr unsigned int Class_3_EA399F9F90E8B690_TypeDefinitionIndex = 19139;
+inline static constexpr unsigned int Class_3_EA399F9F90E8B690_TypeDefinitionIndex = 19680;
 
 class Class_3_EA399F9F90E8B690 : public ::RPG::GameCore::TaskConfig
 {
 public:
-	::System::String* Field_3_0; // 0x18
-	::RPG::GameCore::DynamicValueContextScope Field_3_1; // 0x20
-	::RPG::GameCore::FateRinCardContentType Field_3_2; // 0x24
+	::System::String* FHLJGDGMMHK; // 0x18
+	::RPG::GameCore::DynamicValueContextScope AMEKHLANFKP; // 0x20
+	::RPG::GameCore::FateRinCardContentType MMNJODIJPOE; // 0x24
 
 	::System::Void _ctor()
 	{

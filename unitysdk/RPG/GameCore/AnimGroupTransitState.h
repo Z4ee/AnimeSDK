@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AnimGroupTransitState_TypeDefinitionIndex = 53381;
+	inline static constexpr unsigned int AnimGroupTransitState_TypeDefinitionIndex = 56095;
 
 	enum class AnimGroupTransitState : ::System::Byte
 	{

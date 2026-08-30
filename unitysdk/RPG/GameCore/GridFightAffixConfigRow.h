@@ -8,23 +8,23 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_GRIDFIGHTAFFIXCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B4D0FF0)
-#define RPG_GAMECORE_GRIDFIGHTAFFIXCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4D1380)
+#define RPG_GAMECORE_GRIDFIGHTAFFIXCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D14AA90)
+#define RPG_GAMECORE_GRIDFIGHTAFFIXCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D14AE20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightAffixConfigRow_TypeDefinitionIndex = 12900;
+	inline static constexpr unsigned int GridFightAffixConfigRow_TypeDefinitionIndex = 13291;
 
 	class GridFightAffixConfigRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* RuleParamList; // 0x10
+		::System::String* JsonPath; // 0x10
 		::System::String* IconPath; // 0x18
-		::System::String* JsonPath; // 0x20
+		::Il2CppArray<::System::UInt32>* RuleParamList; // 0x20
 		::Il2CppArray<::RPG::GameCore::FixPoint>* EffectParamList; // 0x28
-		::RPG::Client::TextID AffixName; // 0x30
-		::System::UInt32 ID; // 0x40
-		::RPG::GameCore::GridFightAffixRule AffixRule; // 0x44
+		::RPG::GameCore::GridFightAffixRule AffixRule; // 0x30
+		::System::UInt32 ID; // 0x34
+		::RPG::Client::TextID AffixName; // 0x38
 		::RPG::Client::TextID AffixDesc; // 0x48
 
 		::System::Void _ctor()

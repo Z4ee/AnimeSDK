@@ -8,12 +8,12 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define XLUA_LUAMEMORYLEAKCHECKER___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0x13DA4300)
-#define XLUA_LUAMEMORYLEAKCHECKER___C__DISPLAYCLASS11_0__MEMORYLEAKREPORT_B__5_OFFSET UNITYSDK_OFFSET(0x13DA43E0)
+#define XLUA_LUAMEMORYLEAKCHECKER___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14B2D640)
+#define XLUA_LUAMEMORYLEAKCHECKER___C__DISPLAYCLASS11_0__MEMORYLEAKREPORT_B__5_OFFSET UNITYSDK_OFFSET(0x14B2D720)
 
 namespace XLua
 {
-	inline static constexpr unsigned int LuaMemoryLeakChecker___c__DisplayClass11_0_TypeDefinitionIndex = 47849;
+	inline static constexpr unsigned int LuaMemoryLeakChecker___c__DisplayClass11_0_TypeDefinitionIndex = 50434;
 
 	class LuaMemoryLeakChecker___c__DisplayClass11_0 : public ::System::Object
 	{

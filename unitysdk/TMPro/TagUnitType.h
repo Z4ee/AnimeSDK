@@ -3,7 +3,7 @@
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TagUnitType_TypeDefinitionIndex = 41822;
+	inline static constexpr unsigned int TagUnitType_TypeDefinitionIndex = 43433;
 
 	enum class TagUnitType : ::System::Int32
 	{

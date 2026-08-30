@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK::HoYoPass
 {
-	inline static constexpr unsigned int WebPageManager_WebPageType_TypeDefinitionIndex = 8288;
+	inline static constexpr unsigned int WebPageManager_WebPageType_TypeDefinitionIndex = 8300;
 
 	enum class WebPageManager_WebPageType : ::System::Int32
 	{
@@ -16,5 +16,6 @@ namespace MiHoYo::SDK::HoYoPass
 		AgeGate = 6,
 		ThirdpartyAccountBinding = 7,
 		AgeAppeal = 8,
+		ForceThirdpartyAccountBinding = 9,
 	};
 }

@@ -8,17 +8,17 @@ class Class_1_5F51D4049EA87B7B;
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 
-#define STRUCT_2_C172BB26D97249F0_METHOD_2_A9DEEC46A9EA7B23_OFFSET UNITYSDK_OFFSET(0x2D01300)
+#define STRUCT_2_C172BB26D97249F0_METHOD_2_A9DEEC46A9EA7B23_OFFSET UNITYSDK_OFFSET(0x2DEA290)
 
-inline static constexpr unsigned int Struct_2_C172BB26D97249F0_TypeDefinitionIndex = 53123;
+inline static constexpr unsigned int Struct_2_C172BB26D97249F0_TypeDefinitionIndex = 55835;
 
 struct alignas(8) Struct_2_C172BB26D97249F0
 {
-	::RPG::GameCore::TurnBasedModifierInstance* Field_2_0; // 0x10
-	::RPG::GameCore::TeamTypeMask Field_2_1; // 0x18
-	::RPG::GameCore::EntityTypeMask Field_2_2; // 0x20
-	::Class_1_5F51D4049EA87B7B* Field_2_3; // 0x28
-	::System::Boolean Field_2_4; // 0x30
+	::RPG::GameCore::TurnBasedModifierInstance* ILIIOLJMKME; // 0x10
+	::RPG::GameCore::TeamTypeMask FGMEILPBDFO; // 0x18
+	::RPG::GameCore::EntityTypeMask FJLHNACECGL; // 0x20
+	::Class_1_5F51D4049EA87B7B* FHAAHMEJMCI; // 0x28
+	::System::Boolean INJIAAEJAOI; // 0x30
 
 	::System::Boolean Method_2_A9DEEC46A9EA7B23(::RPG::GameCore::GameEntity* a1)
 	{

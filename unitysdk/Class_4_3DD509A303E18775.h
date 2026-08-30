@@ -6,17 +6,17 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define CLASS_4_3DD509A303E18775_METHOD_4_B92733AFFA6C06B2_OFFSET UNITYSDK_OFFSET(0x1AB9EA60)
-#define CLASS_4_3DD509A303E18775_METHOD_4_D73461FD6B79DF73_OFFSET UNITYSDK_OFFSET(0x1AB9EA10)
-#define CLASS_4_3DD509A303E18775__CTOR_OFFSET UNITYSDK_OFFSET(0x1AB9EA50)
+#define CLASS_4_3DD509A303E18775_METHOD_4_B92733AFFA6C06B2_OFFSET UNITYSDK_OFFSET(0x1C7E0C10)
+#define CLASS_4_3DD509A303E18775_METHOD_4_D73461FD6B79DF73_OFFSET UNITYSDK_OFFSET(0x1C7E0BC0)
+#define CLASS_4_3DD509A303E18775__CTOR_OFFSET UNITYSDK_OFFSET(0x1C7E0C00)
 
-inline static constexpr unsigned int Class_4_3DD509A303E18775_TypeDefinitionIndex = 21167;
+inline static constexpr unsigned int Class_4_3DD509A303E18775_TypeDefinitionIndex = 21727;
 
 class Class_4_3DD509A303E18775 : public ::RPG::GameCore::AdvWaitingEventBase
 {
 public:
-	::RPG::GameCore::TargetEvaluator* Field_4_0; // 0x20
-	::Il2CppArray<::RPG::GameCore::TaskConfig*>* Field_4_1; // 0x28
+	::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x20
+	::Il2CppArray<::RPG::GameCore::TaskConfig*>* CMIFLIMCPBO; // 0x28
 
 	::System::Void _ctor()
 	{

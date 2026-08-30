@@ -17,12 +17,12 @@ namespace RPG::GameCore { class TimeRewindPreloadConfig; }
 namespace RPG::GameCore { class TimeRewindSpecularStateDurationConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ENTITYTIMELINECONTROLGLOBALCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B3ED810)
-#define RPG_GAMECORE_ENTITYTIMELINECONTROLGLOBALCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3EEA90)
+#define RPG_GAMECORE_ENTITYTIMELINECONTROLGLOBALCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D06BF10)
+#define RPG_GAMECORE_ENTITYTIMELINECONTROLGLOBALCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D06D190)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EntityTimelineControlGlobalConfig_TypeDefinitionIndex = 15939;
+	inline static constexpr unsigned int EntityTimelineControlGlobalConfig_TypeDefinitionIndex = 16415;
 
 	class EntityTimelineControlGlobalConfig : public ::RPG::GameCore::JsonConfig
 	{

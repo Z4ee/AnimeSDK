@@ -6,39 +6,39 @@
 class Class_1_D17272E82AE804C2_113;
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_MATCHTHREEV2PLAYERPVPCAREER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xCB7B740)
-#define RPG_CLIENT_MATCHTHREEV2PLAYERPVPCAREER___C__CTOR_OFFSET UNITYSDK_OFFSET(0xCB7B780)
-#define RPG_CLIENT_MATCHTHREEV2PLAYERPVPCAREER___C__SYNCARENASTATISTICS_B__19_0_OFFSET UNITYSDK_OFFSET(0xCB7B7D0)
-#define RPG_CLIENT_MATCHTHREEV2PLAYERPVPCAREER___C__SYNCARENASTATISTICS_B__19_1_OFFSET UNITYSDK_OFFSET(0xCB7B7F0)
-#define RPG_CLIENT_MATCHTHREEV2PLAYERPVPCAREER___C__SYNCSOLOSTATISTICS_B__18_0_OFFSET UNITYSDK_OFFSET(0xCB7B790)
-#define RPG_CLIENT_MATCHTHREEV2PLAYERPVPCAREER___C__SYNCSOLOSTATISTICS_B__18_1_OFFSET UNITYSDK_OFFSET(0xCB7B7B0)
+#define RPG_CLIENT_MATCHTHREEV2PLAYERPVPCAREER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD66DCA0)
+#define RPG_CLIENT_MATCHTHREEV2PLAYERPVPCAREER___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD66DCE0)
+#define RPG_CLIENT_MATCHTHREEV2PLAYERPVPCAREER___C__SYNCARENASTATISTICS_B__19_0_OFFSET UNITYSDK_OFFSET(0xD66DD30)
+#define RPG_CLIENT_MATCHTHREEV2PLAYERPVPCAREER___C__SYNCARENASTATISTICS_B__19_1_OFFSET UNITYSDK_OFFSET(0xD66DD50)
+#define RPG_CLIENT_MATCHTHREEV2PLAYERPVPCAREER___C__SYNCSOLOSTATISTICS_B__18_0_OFFSET UNITYSDK_OFFSET(0xD66DCF0)
+#define RPG_CLIENT_MATCHTHREEV2PLAYERPVPCAREER___C__SYNCSOLOSTATISTICS_B__18_1_OFFSET UNITYSDK_OFFSET(0xD66DD10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MatchThreeV2PlayerPvpCareer___c_TypeDefinitionIndex = 63074;
+	inline static constexpr unsigned int MatchThreeV2PlayerPvpCareer___c_TypeDefinitionIndex = 66059;
 
 	class MatchThreeV2PlayerPvpCareer___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::Class_1_D17272E82AE804C2_113*, ::System::UInt32>** StaticGet___9__18_1()
-		{
-			return (::System::Func_2<::Class_1_D17272E82AE804C2_113*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeV2PlayerPvpCareer___c_TypeDefinitionIndex)->GetStaticField(0x4CDF0);
-		}
 		static ::System::Func_2<::Class_1_D17272E82AE804C2_113*, ::Enum_3_63CAB6C405C6C7B1_2>** StaticGet___9__19_0()
 		{
-			return (::System::Func_2<::Class_1_D17272E82AE804C2_113*, ::Enum_3_63CAB6C405C6C7B1_2>**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeV2PlayerPvpCareer___c_TypeDefinitionIndex)->GetStaticField(0x4CDF8);
-		}
-		static ::System::Func_2<::Class_1_D17272E82AE804C2_113*, ::Enum_3_63CAB6C405C6C7B1_2>** StaticGet___9__18_0()
-		{
-			return (::System::Func_2<::Class_1_D17272E82AE804C2_113*, ::Enum_3_63CAB6C405C6C7B1_2>**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeV2PlayerPvpCareer___c_TypeDefinitionIndex)->GetStaticField(0x4CE00);
-		}
-		static ::System::Func_2<::Class_1_D17272E82AE804C2_113*, ::System::UInt32>** StaticGet___9__19_1()
-		{
-			return (::System::Func_2<::Class_1_D17272E82AE804C2_113*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeV2PlayerPvpCareer___c_TypeDefinitionIndex)->GetStaticField(0x4CE08);
+			return (::System::Func_2<::Class_1_D17272E82AE804C2_113*, ::Enum_3_63CAB6C405C6C7B1_2>**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeV2PlayerPvpCareer___c_TypeDefinitionIndex)->GetStaticField(0x665A0);
 		}
 		static ::RPG::Client::MatchThreeV2PlayerPvpCareer___c** StaticGet___9()
 		{
-			return (::RPG::Client::MatchThreeV2PlayerPvpCareer___c**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeV2PlayerPvpCareer___c_TypeDefinitionIndex)->GetStaticField(0x4CE10);
+			return (::RPG::Client::MatchThreeV2PlayerPvpCareer___c**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeV2PlayerPvpCareer___c_TypeDefinitionIndex)->GetStaticField(0x665A8);
+		}
+		static ::System::Func_2<::Class_1_D17272E82AE804C2_113*, ::Enum_3_63CAB6C405C6C7B1_2>** StaticGet___9__18_0()
+		{
+			return (::System::Func_2<::Class_1_D17272E82AE804C2_113*, ::Enum_3_63CAB6C405C6C7B1_2>**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeV2PlayerPvpCareer___c_TypeDefinitionIndex)->GetStaticField(0x665B0);
+		}
+		static ::System::Func_2<::Class_1_D17272E82AE804C2_113*, ::System::UInt32>** StaticGet___9__19_1()
+		{
+			return (::System::Func_2<::Class_1_D17272E82AE804C2_113*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeV2PlayerPvpCareer___c_TypeDefinitionIndex)->GetStaticField(0x665B8);
+		}
+		static ::System::Func_2<::Class_1_D17272E82AE804C2_113*, ::System::UInt32>** StaticGet___9__18_1()
+		{
+			return (::System::Func_2<::Class_1_D17272E82AE804C2_113*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeV2PlayerPvpCareer___c_TypeDefinitionIndex)->GetStaticField(0x665C0);
 		}
 
 		static ::System::Void _cctor()

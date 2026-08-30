@@ -3,7 +3,7 @@
 
 namespace System
 {
-	inline static constexpr unsigned int PlatformID_TypeDefinitionIndex = 415;
+	inline static constexpr unsigned int PlatformID_TypeDefinitionIndex = 418;
 
 	enum class PlatformID : ::System::Int32
 	{

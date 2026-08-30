@@ -6,28 +6,28 @@
 namespace UnityEngine { class LineRenderer; }
 namespace UnityEngine { class Material; }
 
-#define CLASS_1_DD6E273E77666B37_GET_FINISH_OFFSET UNITYSDK_OFFSET(0xBA67DA0)
-#define CLASS_1_DD6E273E77666B37_METHOD_1_CDFCB4F1AB271783_OFFSET UNITYSDK_OFFSET(0xBA67B70)
-#define CLASS_1_DD6E273E77666B37_SET_FINISH_OFFSET UNITYSDK_OFFSET(0xBA67DB0)
-#define CLASS_1_DD6E273E77666B37__CCTOR_OFFSET UNITYSDK_OFFSET(0xBA67DC0)
-#define CLASS_1_DD6E273E77666B37__CTOR_OFFSET UNITYSDK_OFFSET(0xBA67A00)
+#define CLASS_1_DD6E273E77666B37_GET_FINISH_OFFSET UNITYSDK_OFFSET(0xC4865C0)
+#define CLASS_1_DD6E273E77666B37_METHOD_1_CDFCB4F1AB271783_OFFSET UNITYSDK_OFFSET(0xC486390)
+#define CLASS_1_DD6E273E77666B37_SET_FINISH_OFFSET UNITYSDK_OFFSET(0xC4865D0)
+#define CLASS_1_DD6E273E77666B37__CCTOR_OFFSET UNITYSDK_OFFSET(0xC4865E0)
+#define CLASS_1_DD6E273E77666B37__CTOR_OFFSET UNITYSDK_OFFSET(0xC486220)
 
-inline static constexpr unsigned int Class_1_DD6E273E77666B37_TypeDefinitionIndex = 74572;
+inline static constexpr unsigned int Class_1_DD6E273E77666B37_TypeDefinitionIndex = 78057;
 
 class Class_1_DD6E273E77666B37 : public ::System::Object
 {
 public:
-	static ::System::Int32* StaticGet_Field_1_0()
+	static ::System::Int32* StaticGet_MFEFDCONKCC()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_DD6E273E77666B37_TypeDefinitionIndex)->GetStaticField(0x86D0);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_DD6E273E77666B37_TypeDefinitionIndex)->GetStaticField(0x13B90);
 	}
-	::Il2CppArray<::UnityEngine::Material*>* Field_1_1; // 0x10
-	::Il2CppArray<::UnityEngine::Color>* Field_1_2; // 0x18
-	::UnityEngine::LineRenderer* Field_1_3; // 0x20
-	::System::Single Field_1_4; // 0x28
-	::System::Boolean _Finish_k__BackingField; // 0x2C
-	::System::Single Field_1_6; // 0x30
-	::System::Single Field_1_7; // 0x34
+	::Il2CppArray<::UnityEngine::Color>* NJCPOOIKDGH; // 0x10
+	::UnityEngine::LineRenderer* ONEFCLJPGLE; // 0x18
+	::Il2CppArray<::UnityEngine::Material*>* BOMHPPBMBPN; // 0x20
+	::System::Single ELCEJCOGOFJ; // 0x28
+	::System::Single IEHPFADHJFD; // 0x2C
+	::System::Single PMHMEGEJDGP; // 0x30
+	::System::Boolean _Finish_k__BackingField; // 0x34
 
 	::System::Void _ctor(::UnityEngine::LineRenderer* a1, ::System::Single a2, ::System::Single a3)
 	{

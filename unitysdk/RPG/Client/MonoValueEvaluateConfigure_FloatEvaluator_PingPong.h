@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_MONOVALUEEVALUATECONFIGURE_FLOATEVALUATOR_PINGPONG__CTOR_OFFSET UNITYSDK_OFFSET(0xCD3C820)
+#define RPG_CLIENT_MONOVALUEEVALUATECONFIGURE_FLOATEVALUATOR_PINGPONG__CTOR_OFFSET UNITYSDK_OFFSET(0xD87F280)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoValueEvaluateConfigure_FloatEvaluator_PingPong_TypeDefinitionIndex = 65576;
+	inline static constexpr unsigned int MonoValueEvaluateConfigure_FloatEvaluator_PingPong_TypeDefinitionIndex = 68591;
 
 	class MonoValueEvaluateConfigure_FloatEvaluator_PingPong : public ::RPG::Client::MonoValueEvaluateConfigure_FloatEvaluator
 	{

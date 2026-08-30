@@ -9,26 +9,26 @@ namespace System { class Action; }
 namespace UnityEngine { class RenderTexture; }
 namespace UnityEngine::UI { class RawImage; }
 
-#define CLASS_1_2A8F67D376A2BFDB_CLEAR_OFFSET UNITYSDK_OFFSET(0x14A4CF00)
-#define CLASS_1_2A8F67D376A2BFDB_GET_CAPTURETEXTURE_OFFSET UNITYSDK_OFFSET(0x14A4D0D0)
-#define CLASS_1_2A8F67D376A2BFDB_METHOD_1_3844928E9495F691_OFFSET UNITYSDK_OFFSET(0x14A4D040)
-#define CLASS_1_2A8F67D376A2BFDB_METHOD_1_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0x14A4CFE0)
-#define CLASS_1_2A8F67D376A2BFDB_SET_CAPTURETEXTURE_OFFSET UNITYSDK_OFFSET(0x14A4D0E0)
-#define CLASS_1_2A8F67D376A2BFDB__CTOR_OFFSET UNITYSDK_OFFSET(0x14A4D0F0)
+#define CLASS_1_2A8F67D376A2BFDB_CLEAR_OFFSET UNITYSDK_OFFSET(0x158E20D0)
+#define CLASS_1_2A8F67D376A2BFDB_GET_CAPTURETEXTURE_OFFSET UNITYSDK_OFFSET(0x158E22A0)
+#define CLASS_1_2A8F67D376A2BFDB_METHOD_1_3844928E9495F691_OFFSET UNITYSDK_OFFSET(0x158E2210)
+#define CLASS_1_2A8F67D376A2BFDB_METHOD_1_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0x158E21B0)
+#define CLASS_1_2A8F67D376A2BFDB_SET_CAPTURETEXTURE_OFFSET UNITYSDK_OFFSET(0x158E22B0)
+#define CLASS_1_2A8F67D376A2BFDB__CTOR_OFFSET UNITYSDK_OFFSET(0x158E22C0)
 
-inline static constexpr unsigned int Class_1_2A8F67D376A2BFDB_TypeDefinitionIndex = 69485;
+inline static constexpr unsigned int Class_1_2A8F67D376A2BFDB_TypeDefinitionIndex = 72713;
 
 class Class_1_2A8F67D376A2BFDB : public ::System::Object
 {
 public:
-	::UnityEngine::UI::RawImage* Field_1_0; // 0x10
-	::System::Action* Field_1_1; // 0x18
-	::RPG::Client::UIValueChangeAnimation* Field_1_2; // 0x20
-	::RPG::Client::UIMeta* Field_1_3; // 0x28
-	::UnityEngine::RenderTexture* _CaptureTexture_k__BackingField; // 0x30
-	::RPG::GameCore::FrameCaptureFadeoutType Field_1_5; // 0x38
-	::System::Single Field_1_6; // 0x3C
-	::System::Single Field_1_7; // 0x40
+	::UnityEngine::RenderTexture* _CaptureTexture_k__BackingField; // 0x10
+	::RPG::Client::UIMeta* FGACGGHECGO; // 0x18
+	::RPG::Client::UIValueChangeAnimation* MKNKLKMHLBB; // 0x20
+	::UnityEngine::UI::RawImage* LLEBFFLOKFK; // 0x28
+	::System::Action* COJINAIKIID; // 0x30
+	::System::Single HLMHCCCJFBA; // 0x38
+	::RPG::GameCore::FrameCaptureFadeoutType PFNGCIBCAAN; // 0x3C
+	::System::Single MNEMEGANFBD; // 0x40
 
 	::System::Void _ctor()
 	{

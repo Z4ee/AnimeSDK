@@ -5,12 +5,12 @@
 
 namespace RPG::Client { class IRogueTournPersonaModifier; }
 
-#define RPG_CLIENT_ROGUETOURNPERSONAMODIFIERINFO___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD4737E0)
-#define RPG_CLIENT_ROGUETOURNPERSONAMODIFIERINFO___C__DISPLAYCLASS4_0__GETMODIFIERSBYSOURCETYPE_B__0_OFFSET UNITYSDK_OFFSET(0xD4738D0)
+#define RPG_CLIENT_ROGUETOURNPERSONAMODIFIERINFO___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0xDF8FD90)
+#define RPG_CLIENT_ROGUETOURNPERSONAMODIFIERINFO___C__DISPLAYCLASS4_0__GETMODIFIERSBYSOURCETYPE_B__0_OFFSET UNITYSDK_OFFSET(0xDF8FF00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournPersonaModifierInfo___c__DisplayClass4_0_TypeDefinitionIndex = 64698;
+	inline static constexpr unsigned int RogueTournPersonaModifierInfo___c__DisplayClass4_0_TypeDefinitionIndex = 67698;
 
 	class RogueTournPersonaModifierInfo___c__DisplayClass4_0 : public ::System::Object
 	{

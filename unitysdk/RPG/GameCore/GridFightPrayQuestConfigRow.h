@@ -6,26 +6,26 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_GRIDFIGHTPRAYQUESTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B4E58B0)
-#define RPG_GAMECORE_GRIDFIGHTPRAYQUESTCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4E5D30)
+#define RPG_GAMECORE_GRIDFIGHTPRAYQUESTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D15F140)
+#define RPG_GAMECORE_GRIDFIGHTPRAYQUESTCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D15F5C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightPrayQuestConfigRow_TypeDefinitionIndex = 12994;
+	inline static constexpr unsigned int GridFightPrayQuestConfigRow_TypeDefinitionIndex = 13385;
 
 	class GridFightPrayQuestConfigRow : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::GridFightPrayType PrayType; // 0x10
-		::System::UInt32 FinishWayID; // 0x14
-		::System::UInt32 Progress; // 0x18
-		::System::UInt32 FinishBonus; // 0x1C
+		::RPG::Client::TextID PrayPriceDesc; // 0x10
 		::System::UInt32 AcceptBonus; // 0x20
-		::System::UInt32 ID; // 0x24
-		::RPG::Client::TextID PrayTitle; // 0x28
+		::System::UInt32 FinishBonus; // 0x24
+		::RPG::Client::TextID PrayDisPlayDesc; // 0x28
 		::RPG::Client::TextID PrayDesc; // 0x38
-		::RPG::Client::TextID PrayPriceDesc; // 0x48
-		::RPG::Client::TextID PrayDisPlayDesc; // 0x58
+		::System::UInt32 FinishWayID; // 0x48
+		::System::UInt32 ID; // 0x4C
+		::System::UInt32 Progress; // 0x50
+		::RPG::GameCore::GridFightPrayType PrayType; // 0x54
+		::RPG::Client::TextID PrayTitle; // 0x58
 
 		::System::Void _ctor()
 		{

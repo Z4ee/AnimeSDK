@@ -6,12 +6,12 @@
 
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_CHARACTERHEADPULLBACKIK_PROCESSIK_OFFSET UNITYSDK_OFFSET(0xC021B90)
-#define RPG_CLIENT_CHARACTERHEADPULLBACKIK__CTOR_OFFSET UNITYSDK_OFFSET(0xC0221F0)
+#define RPG_CLIENT_CHARACTERHEADPULLBACKIK_PROCESSIK_OFFSET UNITYSDK_OFFSET(0xCACE640)
+#define RPG_CLIENT_CHARACTERHEADPULLBACKIK__CTOR_OFFSET UNITYSDK_OFFSET(0xCACECA0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CharacterHeadPullBackIK_TypeDefinitionIndex = 65337;
+	inline static constexpr unsigned int CharacterHeadPullBackIK_TypeDefinitionIndex = 68349;
 
 	class CharacterHeadPullBackIK : public ::RPG::Client::FABRIK
 	{
@@ -19,7 +19,7 @@ namespace RPG::Client
 		::System::Single LerpSpeed; // 0x60
 		::UnityEngine::Transform* RunPullBackTransform; // 0x68
 		::UnityEngine::Transform* FastRunPullBackTransform; // 0x70
-		::UnityEngine::Vector3 Field_6_3; // 0x78
+		::UnityEngine::Vector3 FPILBEAAACE; // 0x78
 
 		::System::Void _ctor()
 		{

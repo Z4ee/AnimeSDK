@@ -11,13 +11,13 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Texture2D; }
 
-#define RPG_CLIENT_SIMPRTXGROUP_METHOD_1_9DBC9E6BCD10AD9A_OFFSET UNITYSDK_OFFSET(0xD4FDC30)
-#define RPG_CLIENT_SIMPRTXGROUP_METHOD_1_EBAC71FBE1837205_OFFSET UNITYSDK_OFFSET(0xD4FDDA0)
-#define RPG_CLIENT_SIMPRTXGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0xD4FDF50)
+#define RPG_CLIENT_SIMPRTXGROUP_METHOD_1_9DBC9E6BCD10AD9A_OFFSET UNITYSDK_OFFSET(0xE08D5A0)
+#define RPG_CLIENT_SIMPRTXGROUP_METHOD_1_EBAC71FBE1837205_OFFSET UNITYSDK_OFFSET(0xE08D710)
+#define RPG_CLIENT_SIMPRTXGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0xE08D8C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SimpRTXGroup_TypeDefinitionIndex = 67045;
+	inline static constexpr unsigned int SimpRTXGroup_TypeDefinitionIndex = 70150;
 
 	class SimpRTXGroup : public ::System::Object
 	{

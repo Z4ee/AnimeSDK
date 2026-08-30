@@ -5,21 +5,21 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class AdventureCharacterIdleShowShapeConfig; }
 
-#define RPG_GAMECORE_ADVENTURECHARACTERIDLESHOWCONFIG_GET_DEFAULT_OFFSET UNITYSDK_OFFSET(0x1B17A150)
-#define RPG_GAMECORE_ADVENTURECHARACTERIDLESHOWCONFIG_METHOD_2_1FBA55993C232EC9_OFFSET UNITYSDK_OFFSET(0x1B1794F0)
-#define RPG_GAMECORE_ADVENTURECHARACTERIDLESHOWCONFIG__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B17A180)
-#define RPG_GAMECORE_ADVENTURECHARACTERIDLESHOWCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B17A010)
+#define RPG_GAMECORE_ADVENTURECHARACTERIDLESHOWCONFIG_GET_DEFAULT_OFFSET UNITYSDK_OFFSET(0x1CDF1720)
+#define RPG_GAMECORE_ADVENTURECHARACTERIDLESHOWCONFIG_METHOD_2_1FBA55993C232EC9_OFFSET UNITYSDK_OFFSET(0x1CDF0A90)
+#define RPG_GAMECORE_ADVENTURECHARACTERIDLESHOWCONFIG__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CDF1750)
+#define RPG_GAMECORE_ADVENTURECHARACTERIDLESHOWCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CDF15E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureCharacterIdleShowConfig_TypeDefinitionIndex = 16738;
+	inline static constexpr unsigned int AdventureCharacterIdleShowConfig_TypeDefinitionIndex = 17240;
 
 	class AdventureCharacterIdleShowConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		static ::RPG::GameCore::AdventureCharacterIdleShowConfig** StaticGet__Default_k__BackingField()
 		{
-			return (::RPG::GameCore::AdventureCharacterIdleShowConfig**)Il2CppClass::FromTypeDefinitionIndex(AdventureCharacterIdleShowConfig_TypeDefinitionIndex)->GetStaticField(0x53D0);
+			return (::RPG::GameCore::AdventureCharacterIdleShowConfig**)Il2CppClass::FromTypeDefinitionIndex(AdventureCharacterIdleShowConfig_TypeDefinitionIndex)->GetStaticField(0x21C80);
 		}
 		::System::Single IdleShow1DetectDistance; // 0x10
 		::System::Single IdleShow2DetectDistance; // 0x14

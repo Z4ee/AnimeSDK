@@ -9,13 +9,13 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class Mesh; }
 
-#define RPG_CLIENT_EFF_GPUINSTANCETEST_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xC2ECE30)
-#define RPG_CLIENT_EFF_GPUINSTANCETEST_ONENABLE_OFFSET UNITYSDK_OFFSET(0xC2EC7F0)
-#define RPG_CLIENT_EFF_GPUINSTANCETEST__CTOR_OFFSET UNITYSDK_OFFSET(0xC2ECF40)
+#define RPG_CLIENT_EFF_GPUINSTANCETEST_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xCDBE1D0)
+#define RPG_CLIENT_EFF_GPUINSTANCETEST_ONENABLE_OFFSET UNITYSDK_OFFSET(0xCDBDB90)
+#define RPG_CLIENT_EFF_GPUINSTANCETEST__CTOR_OFFSET UNITYSDK_OFFSET(0xCDBE2E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Eff_GpuInstanceTest_TypeDefinitionIndex = 67245;
+	inline static constexpr unsigned int Eff_GpuInstanceTest_TypeDefinitionIndex = 70367;
 
 	class Eff_GpuInstanceTest : public ::UnityEngine::MonoBehaviour
 	{
@@ -25,10 +25,10 @@ namespace RPG::Client
 		::UnityEngine::GameObject* Go; // 0x20
 		::UnityEngine::Material* mat; // 0x28
 		::System::Single AniTime; // 0x30
-		::System::Collections::Generic::List_1<::UnityEngine::Matrix4x4>* Field_5_5; // 0x38
-		::System::Collections::Generic::List_1<::System::Single>* Field_5_6; // 0x40
-		::UnityEngine::Mesh* Field_5_7; // 0x48
-		::UnityEngine::MaterialPropertyBlock* Field_5_8; // 0x50
+		::System::Collections::Generic::List_1<::UnityEngine::Matrix4x4>* DEOMNJNDJLP; // 0x38
+		::System::Collections::Generic::List_1<::System::Single>* GFDJMOODMOJ; // 0x40
+		::UnityEngine::Mesh* BCHHLPKOMCK; // 0x48
+		::UnityEngine::MaterialPropertyBlock* BMCPFHADPKJ; // 0x50
 
 		::System::Void _ctor()
 		{

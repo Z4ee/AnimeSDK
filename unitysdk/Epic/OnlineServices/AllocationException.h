@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define EPIC_ONLINESERVICES_ALLOCATIONEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0xAA028F0)
+#define EPIC_ONLINESERVICES_ALLOCATIONEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0xB1258B0)
 
 namespace Epic::OnlineServices
 {
-	inline static constexpr unsigned int AllocationException_TypeDefinitionIndex = 42726;
+	inline static constexpr unsigned int AllocationException_TypeDefinitionIndex = 44908;
 
 	class AllocationException : public ::System::Exception
 	{

@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_TALKDEBATECOUNTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xD609470)
+#define RPG_CLIENT_TALKDEBATECOUNTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xE158D50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TalkDebateCountInfo_TypeDefinitionIndex = 57968;
+	inline static constexpr unsigned int TalkDebateCountInfo_TypeDefinitionIndex = 60789;
 
 	class TalkDebateCountInfo : public ::System::Object
 	{
 	public:
-		::System::Int32 MaxCount; // 0x10
-		::System::Int32 LastCount; // 0x14
-		::System::Int32 CurrentCount; // 0x18
+		::System::Int32 LastCount; // 0x10
+		::System::Int32 CurrentCount; // 0x14
+		::System::Int32 MaxCount; // 0x18
 
 		::System::Void _ctor()
 		{

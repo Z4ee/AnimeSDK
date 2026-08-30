@@ -7,11 +7,11 @@ namespace System { class String; }
 namespace UnityEngine { class AnimationClip; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_ANIMATIONCLIPMOTIONPARAMS_TOSTRING_OFFSET UNITYSDK_OFFSET(0x143B50)
+#define RPG_CLIENT_ANIMATIONCLIPMOTIONPARAMS_TOSTRING_OFFSET UNITYSDK_OFFSET(0x148730)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AnimationClipMotionParams_TypeDefinitionIndex = 69901;
+	inline static constexpr unsigned int AnimationClipMotionParams_TypeDefinitionIndex = 73158;
 
 	struct alignas(8) AnimationClipMotionParams
 	{

@@ -5,35 +5,35 @@
 
 namespace RPG::Client::Prop { class RotatePillarPuzzleFragment; }
 
-#define RPG_CLIENT_PROP_ROTATEPILLARPUZZLEFRAGMENT__DOROTATEACTION_D__12_MOVENEXT_OFFSET UNITYSDK_OFFSET(0xD20BBF0)
-#define RPG_CLIENT_PROP_ROTATEPILLARPUZZLEFRAGMENT__DOROTATEACTION_D__12_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xD20C740)
-#define RPG_CLIENT_PROP_ROTATEPILLARPUZZLEFRAGMENT__DOROTATEACTION_D__12_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xD20C7A0)
-#define RPG_CLIENT_PROP_ROTATEPILLARPUZZLEFRAGMENT__DOROTATEACTION_D__12_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0xD20C750)
-#define RPG_CLIENT_PROP_ROTATEPILLARPUZZLEFRAGMENT__DOROTATEACTION_D__12_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xD20BBE0)
-#define RPG_CLIENT_PROP_ROTATEPILLARPUZZLEFRAGMENT__DOROTATEACTION_D__12__CTOR_OFFSET UNITYSDK_OFFSET(0xD20B670)
+#define RPG_CLIENT_PROP_ROTATEPILLARPUZZLEFRAGMENT__DOROTATEACTION_D__12_MOVENEXT_OFFSET UNITYSDK_OFFSET(0xDD10610)
+#define RPG_CLIENT_PROP_ROTATEPILLARPUZZLEFRAGMENT__DOROTATEACTION_D__12_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xDD11160)
+#define RPG_CLIENT_PROP_ROTATEPILLARPUZZLEFRAGMENT__DOROTATEACTION_D__12_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xDD111C0)
+#define RPG_CLIENT_PROP_ROTATEPILLARPUZZLEFRAGMENT__DOROTATEACTION_D__12_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0xDD11170)
+#define RPG_CLIENT_PROP_ROTATEPILLARPUZZLEFRAGMENT__DOROTATEACTION_D__12_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xDD10600)
+#define RPG_CLIENT_PROP_ROTATEPILLARPUZZLEFRAGMENT__DOROTATEACTION_D__12__CTOR_OFFSET UNITYSDK_OFFSET(0xDD100A0)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int RotatePillarPuzzleFragment__DoRotateAction_d__12_TypeDefinitionIndex = 74852;
+	inline static constexpr unsigned int RotatePillarPuzzleFragment__DoRotateAction_d__12_TypeDefinitionIndex = 78337;
 
 	class RotatePillarPuzzleFragment__DoRotateAction_d__12 : public ::System::Object
 	{
 	public:
-		::System::Object* __2__current; // 0x10
-		::RPG::Client::Prop::RotatePillarPuzzleFragment* __4__this; // 0x18
-		::System::Nullable_1<::System::Single> forceTime; // 0x20
-		::System::Int32 targetDegree; // 0x28
-		::System::Single _totalTime_5__4; // 0x2C
-		::System::Int32 nowDegree; // 0x30
-		::System::Int32 _sgn_5__2; // 0x34
+		::RPG::Client::Prop::RotatePillarPuzzleFragment* __4__this; // 0x10
+		::System::Object* __2__current; // 0x18
+		::System::Int32 nowDegree; // 0x20
+		::System::Nullable_1<::System::Single> forceTime; // 0x24
+		::System::Int32 __1__state; // 0x2C
+		::System::Single _fElapsedTimeInSec_5__9; // 0x30
+		::System::Boolean needPlaySound; // 0x34
+		::System::Boolean _childRotate_5__5; // 0x35
 		::System::Single _closeWait_5__8; // 0x38
-		::System::Int32 __1__state; // 0x3C
-		::System::Single _fElapsedTimeInSec_5__9; // 0x40
-		::System::Boolean _childRotate_5__5; // 0x44
-		::System::Boolean needPlaySound; // 0x45
+		::System::Int32 _sgn_5__2; // 0x3C
+		::System::Int32 cnt; // 0x40
+		::System::Single _totalTime_5__4; // 0x44
 		::System::Single _clock_5__7; // 0x48
-		::System::Single _st_5__6; // 0x4C
-		::System::Int32 cnt; // 0x50
+		::System::Int32 targetDegree; // 0x4C
+		::System::Single _st_5__6; // 0x50
 		::System::Int32 _rotDeg_5__3; // 0x54
 
 		::System::Void _ctor(::System::Int32 a1)

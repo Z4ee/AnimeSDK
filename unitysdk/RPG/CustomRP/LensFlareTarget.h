@@ -7,12 +7,12 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class RenderTexture; }
 
-#define RPG_CUSTOMRP_LENSFLARETARGET_COMPARETO_OFFSET UNITYSDK_OFFSET(0x1AA7CA80)
-#define RPG_CUSTOMRP_LENSFLARETARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x1AA7CAD0)
+#define RPG_CUSTOMRP_LENSFLARETARGET_COMPARETO_OFFSET UNITYSDK_OFFSET(0x1C6AE1E0)
+#define RPG_CUSTOMRP_LENSFLARETARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x1C6AE230)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int LensFlareTarget_TypeDefinitionIndex = 36277;
+	inline static constexpr unsigned int LensFlareTarget_TypeDefinitionIndex = 37136;
 
 	class LensFlareTarget : public ::System::Object
 	{
@@ -22,14 +22,14 @@ namespace RPG::CustomRP
 		::UnityEngine::GameObject* Target; // 0x20
 		::System::Single TotalRotationOffset; // 0x28
 		::System::Single SampleRedius; // 0x2C
-		::System::Single ColorThreshold; // 0x30
-		::System::Single TotalSizeScale; // 0x34
-		::System::Single DephtBias; // 0x38
-		::System::Single MinSizeWhenFade; // 0x3C
-		::System::Single TotalOffsetScale; // 0x40
-		::System::Int32 Priority; // 0x44
-		::System::Single TotalAlphaScale; // 0x48
-		::System::Single TotalAspectScale; // 0x4C
+		::System::Single TotalOffsetScale; // 0x30
+		::System::Single DephtBias; // 0x34
+		::System::Single MinSizeWhenFade; // 0x38
+		::System::Single TotalSizeScale; // 0x3C
+		::System::Single TotalAlphaScale; // 0x40
+		::System::Single TotalAspectScale; // 0x44
+		::System::Single ColorThreshold; // 0x48
+		::System::Int32 Priority; // 0x4C
 
 		::System::Void _ctor()
 		{

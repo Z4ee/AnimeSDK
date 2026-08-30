@@ -5,18 +5,18 @@
 
 namespace RPG::GameCore { class LevelPedestrianV2RoadPointInfo; }
 
-#define CLASS_1_C8D1FDF5B7DC671F_STRUCT_2_337F30C7300DA789__CTOR_OFFSET UNITYSDK_OFFSET(0x82C60)
+#define CLASS_1_C8D1FDF5B7DC671F_STRUCT_2_337F30C7300DA789__CTOR_OFFSET UNITYSDK_OFFSET(0x87D30)
 
-inline static constexpr unsigned int Class_1_C8D1FDF5B7DC671F_Struct_2_337F30C7300DA789_TypeDefinitionIndex = 66209;
+inline static constexpr unsigned int Class_1_C8D1FDF5B7DC671F_Struct_2_337F30C7300DA789_TypeDefinitionIndex = 69269;
 
 struct alignas(4) Class_1_C8D1FDF5B7DC671F_Struct_2_337F30C7300DA789
 {
-	::UnityEngine::Vector3 Field_2_0; // 0x10
-	::UnityEngine::Vector3 Field_2_1; // 0x1C
-	::UnityEngine::Vector3 Field_2_2; // 0x28
-	::UnityEngine::Vector3 Field_2_3; // 0x34
-	::UnityEngine::Vector3 Field_2_4; // 0x40
-	::System::Single Field_2_5; // 0x4C
+	::UnityEngine::Vector3 BBFOLEOPPPL; // 0x10
+	::UnityEngine::Vector3 HLENMDAPAGH; // 0x1C
+	::UnityEngine::Vector3 NKDECDGECFL; // 0x28
+	::UnityEngine::Vector3 CLMKNFILOLB; // 0x34
+	::UnityEngine::Vector3 EKLLJLGNOGB; // 0x40
+	::System::Single NKPKPNKBBAP; // 0x4C
 
 	::System::Void _ctor(::RPG::GameCore::LevelPedestrianV2RoadPointInfo* a1)
 	{

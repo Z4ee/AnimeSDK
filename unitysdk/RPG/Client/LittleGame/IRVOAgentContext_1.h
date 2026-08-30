@@ -5,7 +5,7 @@ namespace Entitas { template <typename T> class IMatcher_1; }
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int IRVOAgentContext_1_TypeDefinitionIndex = 39815;
+	inline static constexpr unsigned int IRVOAgentContext_1_TypeDefinitionIndex = 40690;
 
 	template <typename TEntity>
 	class IRVOAgentContext_1

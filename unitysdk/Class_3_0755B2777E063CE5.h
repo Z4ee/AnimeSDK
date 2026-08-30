@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class DecalPuzzleEnd; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_0755B2777E063CE5_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB2A2890)
-#define CLASS_3_0755B2777E063CE5__CTOR_OFFSET UNITYSDK_OFFSET(0xB2A2860)
+#define CLASS_3_0755B2777E063CE5_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBC821C0)
+#define CLASS_3_0755B2777E063CE5__CTOR_OFFSET UNITYSDK_OFFSET(0xBC82190)
 
-inline static constexpr unsigned int Class_3_0755B2777E063CE5_TypeDefinitionIndex = 50341;
+inline static constexpr unsigned int Class_3_0755B2777E063CE5_TypeDefinitionIndex = 53004;
 
 class Class_3_0755B2777E063CE5 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::DecalPuzzleEnd*>
 {

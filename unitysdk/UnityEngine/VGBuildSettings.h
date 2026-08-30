@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int VGBuildSettings_TypeDefinitionIndex = 4089;
+	inline static constexpr unsigned int VGBuildSettings_TypeDefinitionIndex = 4099;
 
 	struct alignas(8) VGBuildSettings
 	{

@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MHYSDKC_Console_JoinRestriction_TypeDefinitionIndex = 44422;
+	inline static constexpr unsigned int MHYSDKC_Console_JoinRestriction_TypeDefinitionIndex = 46605;
 
 	enum class MHYSDKC_Console_JoinRestriction : ::System::Int32
 	{

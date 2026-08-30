@@ -5,14 +5,14 @@
 namespace RPG::GameCore { class BattleSingleClickQTEConfig; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_2_12EDC20CD781556E__CTOR_OFFSET UNITYSDK_OFFSET(0xB049780)
+#define CLASS_2_12EDC20CD781556E__CTOR_OFFSET UNITYSDK_OFFSET(0xBAA35F0)
 
-inline static constexpr unsigned int Class_2_12EDC20CD781556E_TypeDefinitionIndex = 53660;
+inline static constexpr unsigned int Class_2_12EDC20CD781556E_TypeDefinitionIndex = 56379;
 
 class Class_2_12EDC20CD781556E : public ::Class_1_7E61104234A02BD7
 {
 public:
-	::System::Boolean Field_2_0; // 0x48
+	::System::Boolean HNDKDLMDKBJ; // 0x48
 
 	::System::Void _ctor(::RPG::GameCore::BattleSingleClickQTEConfig* a1, ::RPG::GameCore::TaskContext* a2)
 	{

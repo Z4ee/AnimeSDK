@@ -4,11 +4,11 @@
 #include "unitysdk/ScenenLightManager/LightTypeID.h"
 #include "unitysdk/System/Object.h"
 
-#define SCENENLIGHTMANAGER_MINIMALLIGHTIMPORTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xDD401E0)
+#define SCENENLIGHTMANAGER_MINIMALLIGHTIMPORTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xE90B690)
 
 namespace ScenenLightManager
 {
-	inline static constexpr unsigned int MinimalLightImportData_TypeDefinitionIndex = 47289;
+	inline static constexpr unsigned int MinimalLightImportData_TypeDefinitionIndex = 49569;
 
 	class MinimalLightImportData : public ::System::Object
 	{

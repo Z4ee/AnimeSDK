@@ -7,21 +7,21 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_993DBED7F998012B_METHOD_1_014B8F2BBB4CB85C_OFFSET UNITYSDK_OFFSET(0x1494FC80)
-#define CLASS_1_993DBED7F998012B_METHOD_1_314ABE016F66CF53_OFFSET UNITYSDK_OFFSET(0x1494FF30)
-#define CLASS_1_993DBED7F998012B_METHOD_1_4CAE3B8C68B822CF_OFFSET UNITYSDK_OFFSET(0x1494FDE0)
-#define CLASS_1_993DBED7F998012B_METHOD_1_A32DDC747A180616_OFFSET UNITYSDK_OFFSET(0x1494F7F0)
-#define CLASS_1_993DBED7F998012B__CCTOR_OFFSET UNITYSDK_OFFSET(0x14950770)
-#define CLASS_1_993DBED7F998012B__CTOR_OFFSET UNITYSDK_OFFSET(0x14950760)
+#define CLASS_1_993DBED7F998012B_METHOD_1_014B8F2BBB4CB85C_OFFSET UNITYSDK_OFFSET(0x157D6820)
+#define CLASS_1_993DBED7F998012B_METHOD_1_314ABE016F66CF53_OFFSET UNITYSDK_OFFSET(0x157D6AD0)
+#define CLASS_1_993DBED7F998012B_METHOD_1_4CAE3B8C68B822CF_OFFSET UNITYSDK_OFFSET(0x157D6980)
+#define CLASS_1_993DBED7F998012B_METHOD_1_A32DDC747A180616_OFFSET UNITYSDK_OFFSET(0x157D6390)
+#define CLASS_1_993DBED7F998012B__CCTOR_OFFSET UNITYSDK_OFFSET(0x157D7310)
+#define CLASS_1_993DBED7F998012B__CTOR_OFFSET UNITYSDK_OFFSET(0x157D7300)
 
-inline static constexpr unsigned int Class_1_993DBED7F998012B_TypeDefinitionIndex = 62391;
+inline static constexpr unsigned int Class_1_993DBED7F998012B_TypeDefinitionIndex = 65376;
 
 class Class_1_993DBED7F998012B : public ::System::Object
 {
 public:
-	static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>** StaticGet_Field_1_0()
+	static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>** StaticGet_LLFBFMNLPKO()
 	{
-		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_993DBED7F998012B_TypeDefinitionIndex)->GetStaticField(0x62CD0);
+		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_993DBED7F998012B_TypeDefinitionIndex)->GetStaticField(0x46B50);
 	}
 
 	::System::Void _ctor()

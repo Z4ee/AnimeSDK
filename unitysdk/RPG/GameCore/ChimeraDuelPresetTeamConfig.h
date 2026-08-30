@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHIMERADUELPRESETTEAMCONFIG_METHOD_2_A8A48B87F28AD2CB_OFFSET UNITYSDK_OFFSET(0x1B34F450)
-#define RPG_GAMECORE_CHIMERADUELPRESETTEAMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B34F7C0)
+#define RPG_GAMECORE_CHIMERADUELPRESETTEAMCONFIG_METHOD_2_A8A48B87F28AD2CB_OFFSET UNITYSDK_OFFSET(0x1CFCBD30)
+#define RPG_GAMECORE_CHIMERADUELPRESETTEAMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFCC0A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraDuelPresetTeamConfig_TypeDefinitionIndex = 15417;
+	inline static constexpr unsigned int ChimeraDuelPresetTeamConfig_TypeDefinitionIndex = 15854;
 
 	class ChimeraDuelPresetTeamConfig : public ::RPG::GameCore::JsonConfig
 	{

@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-namespace RPG::GameCore { class JsonConfig; }
+namespace System { class String; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_1078_TypeDefinitionIndex = 69067;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_1078_TypeDefinitionIndex = 71135;
 
 class Class_0_16E4307DCC419505_1078
 {

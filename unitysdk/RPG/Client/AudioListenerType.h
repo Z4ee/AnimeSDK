@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AudioListenerType_TypeDefinitionIndex = 57087;
+	inline static constexpr unsigned int AudioListenerType_TypeDefinitionIndex = 59879;
 
 	enum class AudioListenerType : ::System::Int32
 	{

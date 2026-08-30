@@ -4,20 +4,20 @@
 
 namespace System { class String; }
 
-#define SYSTEM_TYPEIDENTIFIERS_DISPLAY_GETINTERNALNAME_OFFSET UNITYSDK_OFFSET(0x1A072F50)
-#define SYSTEM_TYPEIDENTIFIERS_DISPLAY_GET_DISPLAYNAME_OFFSET UNITYSDK_OFFSET(0x1A072F10)
-#define SYSTEM_TYPEIDENTIFIERS_DISPLAY_GET_INTERNALNAME_OFFSET UNITYSDK_OFFSET(0x1A072F20)
-#define SYSTEM_TYPEIDENTIFIERS_DISPLAY__CTOR_OFFSET UNITYSDK_OFFSET(0x1A072EF0)
+#define SYSTEM_TYPEIDENTIFIERS_DISPLAY_GETINTERNALNAME_OFFSET UNITYSDK_OFFSET(0x1BC7A600)
+#define SYSTEM_TYPEIDENTIFIERS_DISPLAY_GET_DISPLAYNAME_OFFSET UNITYSDK_OFFSET(0x1BC7A5C0)
+#define SYSTEM_TYPEIDENTIFIERS_DISPLAY_GET_INTERNALNAME_OFFSET UNITYSDK_OFFSET(0x1BC7A5D0)
+#define SYSTEM_TYPEIDENTIFIERS_DISPLAY__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC7A5B0)
 
 namespace System
 {
-	inline static constexpr unsigned int TypeIdentifiers_Display_TypeDefinitionIndex = 440;
+	inline static constexpr unsigned int TypeIdentifiers_Display_TypeDefinitionIndex = 443;
 
 	class TypeIdentifiers_Display : public ::System::TypeNames_ATypeName
 	{
 	public:
-		::System::String* internal_name; // 0x10
-		::System::String* displayName; // 0x18
+		::System::String* displayName; // 0x10
+		::System::String* internal_name; // 0x18
 
 		::System::Void _ctor(::System::String* a1)
 		{

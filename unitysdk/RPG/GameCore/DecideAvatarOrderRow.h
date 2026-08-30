@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_DECIDEAVATARORDERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B39F660)
-#define RPG_GAMECORE_DECIDEAVATARORDERROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B39FC70)
+#define RPG_GAMECORE_DECIDEAVATARORDERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D01D920)
+#define RPG_GAMECORE_DECIDEAVATARORDERROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D01DF30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DecideAvatarOrderRow_TypeDefinitionIndex = 12866;
+	inline static constexpr unsigned int DecideAvatarOrderRow_TypeDefinitionIndex = 13257;
 
 	class DecideAvatarOrderRow : public ::System::Object
 	{

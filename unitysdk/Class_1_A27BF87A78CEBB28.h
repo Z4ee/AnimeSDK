@@ -8,19 +8,19 @@
 class Class_1_2A2B2DC1DA1205FE;
 namespace RPG::GameCore { class GameEntity; }
 
-#define CLASS_1_A27BF87A78CEBB28__CTOR_1_OFFSET UNITYSDK_OFFSET(0xB4B32D0)
-#define CLASS_1_A27BF87A78CEBB28__CTOR_OFFSET UNITYSDK_OFFSET(0xB4B32B0)
+#define CLASS_1_A27BF87A78CEBB28__CTOR_1_OFFSET UNITYSDK_OFFSET(0xBEA0BB0)
+#define CLASS_1_A27BF87A78CEBB28__CTOR_OFFSET UNITYSDK_OFFSET(0xBEA0B90)
 
-inline static constexpr unsigned int Class_1_A27BF87A78CEBB28_TypeDefinitionIndex = 58202;
+inline static constexpr unsigned int Class_1_A27BF87A78CEBB28_TypeDefinitionIndex = 61029;
 
 class Class_1_A27BF87A78CEBB28 : public ::System::Object
 {
 public:
-	::RPG::GameCore::GameEntity* Field_1_0; // 0x10
-	::Class_1_2A2B2DC1DA1205FE* Field_1_1; // 0x18
-	::RPG::Client::AimEntityInfoType Field_1_2; // 0x20
-	::RPG::GameCore::PhotoGraphAimIdentifyType Field_1_3; // 0x24
-	::UnityEngine::Vector3 Field_1_4; // 0x28
+	::Class_1_2A2B2DC1DA1205FE* BJOANNFMNEO; // 0x10
+	::RPG::GameCore::GameEntity* GGKGFABFGFE; // 0x18
+	::UnityEngine::Vector3 KKLDLLOJEFN; // 0x20
+	::RPG::GameCore::PhotoGraphAimIdentifyType BDHPOJCKPIM; // 0x2C
+	::RPG::Client::AimEntityInfoType HGIABLHMGPB; // 0x30
 
 	::System::Void _ctor(::RPG::GameCore::GameEntity* a1, ::UnityEngine::Vector3 a2, ::RPG::GameCore::PhotoGraphAimIdentifyType a3)
 	{

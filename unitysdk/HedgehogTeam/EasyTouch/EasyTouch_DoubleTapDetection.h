@@ -3,7 +3,7 @@
 
 namespace HedgehogTeam::EasyTouch
 {
-	inline static constexpr unsigned int EasyTouch_DoubleTapDetection_TypeDefinitionIndex = 38173;
+	inline static constexpr unsigned int EasyTouch_DoubleTapDetection_TypeDefinitionIndex = 39032;
 
 	enum class EasyTouch_DoubleTapDetection : ::System::Int32
 	{

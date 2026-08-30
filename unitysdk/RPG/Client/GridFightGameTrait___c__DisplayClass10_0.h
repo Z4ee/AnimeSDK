@@ -5,18 +5,18 @@
 namespace RPG::Client { class GridFightGameTrait; }
 namespace RPG::Client { class GridFightRole; }
 
-#define RPG_CLIENT_GRIDFIGHTGAMETRAIT___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC760E30)
-#define RPG_CLIENT_GRIDFIGHTGAMETRAIT___C__DISPLAYCLASS10_0__ONMEMBERSCHANGEDEVENTHANDLER_B__0_OFFSET UNITYSDK_OFFSET(0xC765070)
+#define RPG_CLIENT_GRIDFIGHTGAMETRAIT___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD1E84D0)
+#define RPG_CLIENT_GRIDFIGHTGAMETRAIT___C__DISPLAYCLASS10_0__ONMEMBERSCHANGEDEVENTHANDLER_B__0_OFFSET UNITYSDK_OFFSET(0xD1EC6E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightGameTrait___c__DisplayClass10_0_TypeDefinitionIndex = 62486;
+	inline static constexpr unsigned int GridFightGameTrait___c__DisplayClass10_0_TypeDefinitionIndex = 65471;
 
 	class GridFightGameTrait___c__DisplayClass10_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::GridFightRole* role; // 0x10
-		::RPG::Client::GridFightGameTrait* __4__this; // 0x18
+		::RPG::Client::GridFightGameTrait* __4__this; // 0x10
+		::RPG::Client::GridFightRole* role; // 0x18
 
 		::System::Void _ctor()
 		{

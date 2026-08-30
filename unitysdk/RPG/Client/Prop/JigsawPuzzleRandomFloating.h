@@ -6,15 +6,15 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_PROP_JIGSAWPUZZLERANDOMFLOATING_CHANGEFLOATINGMODE_OFFSET UNITYSDK_OFFSET(0xD17D250)
-#define RPG_CLIENT_PROP_JIGSAWPUZZLERANDOMFLOATING_METHOD_5_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0xD18C230)
-#define RPG_CLIENT_PROP_JIGSAWPUZZLERANDOMFLOATING_START_OFFSET UNITYSDK_OFFSET(0xD18C030)
-#define RPG_CLIENT_PROP_JIGSAWPUZZLERANDOMFLOATING_UPDATE_OFFSET UNITYSDK_OFFSET(0xD18C2C0)
-#define RPG_CLIENT_PROP_JIGSAWPUZZLERANDOMFLOATING__CTOR_OFFSET UNITYSDK_OFFSET(0xD18C670)
+#define RPG_CLIENT_PROP_JIGSAWPUZZLERANDOMFLOATING_CHANGEFLOATINGMODE_OFFSET UNITYSDK_OFFSET(0xDC81850)
+#define RPG_CLIENT_PROP_JIGSAWPUZZLERANDOMFLOATING_METHOD_5_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0xDC90880)
+#define RPG_CLIENT_PROP_JIGSAWPUZZLERANDOMFLOATING_START_OFFSET UNITYSDK_OFFSET(0xDC90680)
+#define RPG_CLIENT_PROP_JIGSAWPUZZLERANDOMFLOATING_UPDATE_OFFSET UNITYSDK_OFFSET(0xDC90910)
+#define RPG_CLIENT_PROP_JIGSAWPUZZLERANDOMFLOATING__CTOR_OFFSET UNITYSDK_OFFSET(0xDC90CC0)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int JigsawPuzzleRandomFloating_TypeDefinitionIndex = 74707;
+	inline static constexpr unsigned int JigsawPuzzleRandomFloating_TypeDefinitionIndex = 78192;
 
 	class JigsawPuzzleRandomFloating : public ::UnityEngine::MonoBehaviour
 	{
@@ -31,16 +31,16 @@ namespace RPG::Client::Prop
 		::System::Single ResetTime; // 0x3C
 		::System::Boolean reset; // 0x40
 		::System::Boolean useLocalPos; // 0x41
-		::UnityEngine::AnimationCurve* Field_5_12; // 0x48
-		::UnityEngine::AnimationCurve* Field_5_13; // 0x50
-		::UnityEngine::AnimationCurve* Field_5_14; // 0x58
-		::System::Single Field_5_15; // 0x60
-		::UnityEngine::Vector3 Field_5_16; // 0x64
-		::UnityEngine::Vector3 Field_5_17; // 0x70
-		::System::Single Field_5_18; // 0x7C
-		::System::Single Field_5_19; // 0x80
-		::System::Single Field_5_20; // 0x84
-		::System::Boolean Field_5_21; // 0x88
+		::UnityEngine::AnimationCurve* OECLCCPKCNI; // 0x48
+		::UnityEngine::AnimationCurve* GEJGCGKEOJD; // 0x50
+		::UnityEngine::AnimationCurve* FFDLHLENMNN; // 0x58
+		::System::Single MDKBCLGOOGH; // 0x60
+		::UnityEngine::Vector3 DPMOLEBOEAG; // 0x64
+		::UnityEngine::Vector3 ELAKPDPCOFP; // 0x70
+		::System::Single ICENOMBJHEI; // 0x7C
+		::System::Single LEDFCBBLEII; // 0x80
+		::System::Single COMGBCIBLIG; // 0x84
+		::System::Boolean IEOJLICNENE; // 0x88
 
 		::System::Void _ctor()
 		{

@@ -3,48 +3,55 @@
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_6770BC9DDC5C458C_GET_NAME_OFFSET UNITYSDK_OFFSET(0xB2E6CB0)
-#define CLASS_1_6770BC9DDC5C458C_GET_RARITY_OFFSET UNITYSDK_OFFSET(0xB2E6CD0)
-#define CLASS_1_6770BC9DDC5C458C_METHOD_1_C46B21EB390BA1CF_OFFSET UNITYSDK_OFFSET(0xB2E6BE0)
-#define CLASS_1_6770BC9DDC5C458C_SET_NAME_OFFSET UNITYSDK_OFFSET(0xB2E6CC0)
-#define CLASS_1_6770BC9DDC5C458C_SET_RARITY_OFFSET UNITYSDK_OFFSET(0xB2E6CE0)
-#define CLASS_1_6770BC9DDC5C458C__CTOR_OFFSET UNITYSDK_OFFSET(0xB2E6CA0)
+#define CLASS_1_6770BC9DDC5C458C_GET_FUNTITLEDESC_OFFSET UNITYSDK_OFFSET(0xC0758E0)
+#define CLASS_1_6770BC9DDC5C458C_GET_FUNTITLENAME_OFFSET UNITYSDK_OFFSET(0xC0758C0)
+#define CLASS_1_6770BC9DDC5C458C_GET_ID_OFFSET UNITYSDK_OFFSET(0xC0758A0)
+#define CLASS_1_6770BC9DDC5C458C_SET_FUNTITLEDESC_OFFSET UNITYSDK_OFFSET(0xC0758F0)
+#define CLASS_1_6770BC9DDC5C458C_SET_FUNTITLENAME_OFFSET UNITYSDK_OFFSET(0xC0758D0)
+#define CLASS_1_6770BC9DDC5C458C_SET_ID_OFFSET UNITYSDK_OFFSET(0xC0758B0)
+#define CLASS_1_6770BC9DDC5C458C__CTOR_OFFSET UNITYSDK_OFFSET(0xC075900)
 
-inline static constexpr unsigned int Class_1_6770BC9DDC5C458C_TypeDefinitionIndex = 71474;
+inline static constexpr unsigned int Class_1_6770BC9DDC5C458C_TypeDefinitionIndex = 63903;
 
 class Class_1_6770BC9DDC5C458C : public ::System::Object
 {
 public:
-	::System::UInt32 _Rarity_k__BackingField; // 0x10
-	::RPG::Client::TextID _Name_k__BackingField; // 0x18
+	::RPG::Client::TextID _FunTitleDesc_k__BackingField; // 0x10
+	::RPG::Client::TextID _FunTitleName_k__BackingField; // 0x20
+	::System::UInt32 _ID_k__BackingField; // 0x30
 
 	::System::Void _ctor()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_6770BC9DDC5C458C__CTOR_OFFSET))(this);
 	}
 
-	static ::Class_1_6770BC9DDC5C458C* Method_1_C46B21EB390BA1CF(::System::UInt32 a1)
+	::System::UInt32 get_ID()
 	{
-		return ((::Class_1_6770BC9DDC5C458C*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_6770BC9DDC5C458C_METHOD_1_C46B21EB390BA1CF_OFFSET))(a1);
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_6770BC9DDC5C458C_GET_ID_OFFSET))(this);
 	}
 
-	::RPG::Client::TextID get_Name()
+	::System::Void set_ID(::System::UInt32 a1)
 	{
-		return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_6770BC9DDC5C458C_GET_NAME_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_6770BC9DDC5C458C_SET_ID_OFFSET))(this, a1);
 	}
 
-	::System::Void set_Name(::RPG::Client::TextID a1)
+	::RPG::Client::TextID get_FunTitleName()
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::Client::TextID))((::PBYTE)hIl2Cpp + CLASS_1_6770BC9DDC5C458C_SET_NAME_OFFSET))(this, a1);
+		return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_6770BC9DDC5C458C_GET_FUNTITLENAME_OFFSET))(this);
 	}
 
-	::System::UInt32 get_Rarity()
+	::System::Void set_FunTitleName(::RPG::Client::TextID a1)
 	{
-		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_6770BC9DDC5C458C_GET_RARITY_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::TextID))((::PBYTE)hIl2Cpp + CLASS_1_6770BC9DDC5C458C_SET_FUNTITLENAME_OFFSET))(this, a1);
 	}
 
-	::System::Void set_Rarity(::System::UInt32 a1)
+	::RPG::Client::TextID get_FunTitleDesc()
 	{
-		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_6770BC9DDC5C458C_SET_RARITY_OFFSET))(this, a1);
+		return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_6770BC9DDC5C458C_GET_FUNTITLEDESC_OFFSET))(this);
+	}
+
+	::System::Void set_FunTitleDesc(::RPG::Client::TextID a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::TextID))((::PBYTE)hIl2Cpp + CLASS_1_6770BC9DDC5C458C_SET_FUNTITLEDESC_OFFSET))(this, a1);
 	}
 };

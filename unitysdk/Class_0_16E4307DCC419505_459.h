@@ -1,9 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-class Class_2_67C5F2015028CF70;
+namespace RPG::GameCore { class TaskContext; }
+namespace System { class String; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_459_TypeDefinitionIndex = 51493;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_459_TypeDefinitionIndex = 52399;
 
 class Class_0_16E4307DCC419505_459
 {

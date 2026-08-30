@@ -6,22 +6,22 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ROGUEMAGICSCEPTERDISPLAYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B76BE80)
-#define RPG_GAMECORE_ROGUEMAGICSCEPTERDISPLAYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B76C1A0)
+#define RPG_GAMECORE_ROGUEMAGICSCEPTERDISPLAYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3EEF30)
+#define RPG_GAMECORE_ROGUEMAGICSCEPTERDISPLAYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3EF250)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueMagicScepterDisplayRow_TypeDefinitionIndex = 14297;
+	inline static constexpr unsigned int RogueMagicScepterDisplayRow_TypeDefinitionIndex = 14717;
 
 	class RogueMagicScepterDisplayRow : public ::System::Object
 	{
 	public:
-		::System::String* ScepterFigurePath; // 0x10
-		::System::String* ScepterIconPath; // 0x18
-		::RPG::Client::TextID ScepterName; // 0x20
-		::System::UInt32 ScepterID; // 0x30
-		::RPG::Client::TextID ScepterTriggerDesc; // 0x38
-		::RPG::Client::TextID ScepterBGDesc; // 0x48
+		::System::String* ScepterIconPath; // 0x10
+		::System::String* ScepterFigurePath; // 0x18
+		::System::UInt32 ScepterID; // 0x20
+		::RPG::Client::TextID ScepterTriggerDesc; // 0x28
+		::RPG::Client::TextID ScepterBGDesc; // 0x38
+		::RPG::Client::TextID ScepterName; // 0x48
 
 		::System::Void _ctor()
 		{

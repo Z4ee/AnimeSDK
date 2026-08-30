@@ -7,16 +7,16 @@ namespace RPG::CustomRP { class LensFlareElement; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class RenderTexture; }
 
-#define RPG_CLIENT_CRPLENSFLAREPLUGIN_METHOD_5_079E5C91214C7EF3_OFFSET UNITYSDK_OFFSET(0xBEDAFD0)
-#define RPG_CLIENT_CRPLENSFLAREPLUGIN_METHOD_5_E41B6A823556FEEA_OFFSET UNITYSDK_OFFSET(0xBEDB450)
-#define RPG_CLIENT_CRPLENSFLAREPLUGIN_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xBEDA620)
-#define RPG_CLIENT_CRPLENSFLAREPLUGIN_ONENABLE_OFFSET UNITYSDK_OFFSET(0xBEDB8E0)
-#define RPG_CLIENT_CRPLENSFLAREPLUGIN_UPDATELENSFLARE_OFFSET UNITYSDK_OFFSET(0xBEDB8A0)
-#define RPG_CLIENT_CRPLENSFLAREPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xBEDBA40)
+#define RPG_CLIENT_CRPLENSFLAREPLUGIN_METHOD_5_079E5C91214C7EF3_OFFSET UNITYSDK_OFFSET(0xC97E970)
+#define RPG_CLIENT_CRPLENSFLAREPLUGIN_METHOD_5_E41B6A823556FEEA_OFFSET UNITYSDK_OFFSET(0xC97EDF0)
+#define RPG_CLIENT_CRPLENSFLAREPLUGIN_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xC97DFC0)
+#define RPG_CLIENT_CRPLENSFLAREPLUGIN_ONENABLE_OFFSET UNITYSDK_OFFSET(0xC97F280)
+#define RPG_CLIENT_CRPLENSFLAREPLUGIN_UPDATELENSFLARE_OFFSET UNITYSDK_OFFSET(0xC97F240)
+#define RPG_CLIENT_CRPLENSFLAREPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xC97F3E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CRPLensFlarePlugin_TypeDefinitionIndex = 67025;
+	inline static constexpr unsigned int CRPLensFlarePlugin_TypeDefinitionIndex = 70130;
 
 	class CRPLensFlarePlugin : public ::UnityEngine::MonoBehaviour
 	{
@@ -31,10 +31,10 @@ namespace RPG::Client
 		::System::Single TotalOffsetScale; // 0x34
 		::System::Single TotalRotationOffset; // 0x38
 		::System::Single MinSizeWhenFade; // 0x3C
-		::UnityEngine::RenderTexture* Field_5_10; // 0x40
-		::System::Collections::Generic::List_1<::RPG::Client::IAssetOperation*>* Field_5_11; // 0x48
-		::System::Int32 Field_5_12; // 0x50
-		::System::Boolean Field_5_13; // 0x54
+		::UnityEngine::RenderTexture* DIEAFDMBPID; // 0x40
+		::System::Collections::Generic::List_1<::RPG::Client::IAssetOperation*>* IKBNPKKLLBG; // 0x48
+		::System::Int32 IAHGFFLDNGH; // 0x50
+		::System::Boolean HDJOGGDMCIO; // 0x54
 		::System::Collections::Generic::List_1<::RPG::CustomRP::LensFlareElement*>* LensFlareElements; // 0x58
 
 		::System::Void _ctor()

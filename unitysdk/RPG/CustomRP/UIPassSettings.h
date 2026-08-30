@@ -9,124 +9,124 @@
 
 namespace UnityEngine { class RenderTexture; }
 
-#define RPG_CUSTOMRP_UIPASSSETTINGS_GET_SCENEPOSTPROCESSRENDERTOTEXTURE_OFFSET UNITYSDK_OFFSET(0x1AAC03C0)
-#define RPG_CUSTOMRP_UIPASSSETTINGS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AAC0430)
-#define RPG_CUSTOMRP_UIPASSSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1AAC0420)
+#define RPG_CUSTOMRP_UIPASSSETTINGS_GET_SCENEPOSTPROCESSRENDERTOTEXTURE_OFFSET UNITYSDK_OFFSET(0x1C6F15C0)
+#define RPG_CUSTOMRP_UIPASSSETTINGS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C6F1630)
+#define RPG_CUSTOMRP_UIPASSSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1C6F1620)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int UIPassSettings_TypeDefinitionIndex = 36029;
+	inline static constexpr unsigned int UIPassSettings_TypeDefinitionIndex = 36890;
 
 	class UIPassSettings : public ::System::Object
 	{
 	public:
+		static ::Il2CppArray<::UnityEngine::Vector4>** StaticGet_BlurPartialParamsA()
+		{
+			return (::Il2CppArray<::UnityEngine::Vector4>**)Il2CppClass::FromTypeDefinitionIndex(UIPassSettings_TypeDefinitionIndex)->GetStaticField(0x180C0);
+		}
 		static ::Il2CppArray<::System::ValueTuple_2<::UnityEngine::RenderTexture*, ::System::Boolean>>** StaticGet_OffScreenUIContexts()
 		{
-			return (::Il2CppArray<::System::ValueTuple_2<::UnityEngine::RenderTexture*, ::System::Boolean>>**)Il2CppClass::FromTypeDefinitionIndex(UIPassSettings_TypeDefinitionIndex)->GetStaticField(0xCE80);
+			return (::Il2CppArray<::System::ValueTuple_2<::UnityEngine::RenderTexture*, ::System::Boolean>>**)Il2CppClass::FromTypeDefinitionIndex(UIPassSettings_TypeDefinitionIndex)->GetStaticField(0x180C8);
 		}
 		static ::Il2CppArray<::UnityEngine::Vector4>** StaticGet_BlurPartialParamsB()
 		{
-			return (::Il2CppArray<::UnityEngine::Vector4>**)Il2CppClass::FromTypeDefinitionIndex(UIPassSettings_TypeDefinitionIndex)->GetStaticField(0xCE88);
-		}
-		static ::Il2CppArray<::UnityEngine::Vector4>** StaticGet_BlurPartialParamsA()
-		{
-			return (::Il2CppArray<::UnityEngine::Vector4>**)Il2CppClass::FromTypeDefinitionIndex(UIPassSettings_TypeDefinitionIndex)->GetStaticField(0xCE90);
-		}
-		static ::System::Single* StaticGet_VignetteIntensity()
-		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(UIPassSettings_TypeDefinitionIndex)->GetStaticField(0x4AC0);
-		}
-		static ::UnityEngine::Vector2* StaticGet_VignetteCenter()
-		{
-			return (::UnityEngine::Vector2*)Il2CppClass::FromTypeDefinitionIndex(UIPassSettings_TypeDefinitionIndex)->GetStaticField(0x4AC4);
-		}
-		static ::System::Single* StaticGet_BlurFullScale()
-		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(UIPassSettings_TypeDefinitionIndex)->GetStaticField(0x4ACC);
-		}
-		static ::UnityEngine::Color* StaticGet_VignetteColor()
-		{
-			return (::UnityEngine::Color*)Il2CppClass::FromTypeDefinitionIndex(UIPassSettings_TypeDefinitionIndex)->GetStaticField(0x4AD0);
-		}
-		static ::System::Single* StaticGet_BlurPartialScale()
-		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(UIPassSettings_TypeDefinitionIndex)->GetStaticField(0x4AE0);
-		}
-		static ::System::Single* StaticGet_Alpha()
-		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(UIPassSettings_TypeDefinitionIndex)->GetStaticField(0x4AE4);
-		}
-		static ::System::Single* StaticGet_Brightness()
-		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(UIPassSettings_TypeDefinitionIndex)->GetStaticField(0x4AE8);
-		}
-		static ::System::Boolean* StaticGet_VignetteRounded()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(UIPassSettings_TypeDefinitionIndex)->GetStaticField(0x4AEC);
-		}
-		static ::System::Boolean* StaticGet_DisableMainCamera()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(UIPassSettings_TypeDefinitionIndex)->GetStaticField(0x4AED);
-		}
-		static ::System::Boolean* StaticGet_EnableBlurFull()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(UIPassSettings_TypeDefinitionIndex)->GetStaticField(0x4AEE);
-		}
-		static ::System::Boolean* StaticGet_BlurFullDisableUI3DCamera()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(UIPassSettings_TypeDefinitionIndex)->GetStaticField(0x4AEF);
-		}
-		static ::System::Int32* StaticGet_UILayer3()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIPassSettings_TypeDefinitionIndex)->GetStaticField(0x4AF0);
-		}
-		static ::System::Boolean* StaticGet_EnableOffScreenUI()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(UIPassSettings_TypeDefinitionIndex)->GetStaticField(0x4AF4);
+			return (::Il2CppArray<::UnityEngine::Vector4>**)Il2CppClass::FromTypeDefinitionIndex(UIPassSettings_TypeDefinitionIndex)->GetStaticField(0x180D0);
 		}
 		static ::System::Boolean* StaticGet_EnableVignette()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(UIPassSettings_TypeDefinitionIndex)->GetStaticField(0x4AF5);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(UIPassSettings_TypeDefinitionIndex)->GetStaticField(0x8F00);
 		}
 		static ::System::Boolean* StaticGet_EnableBlurPartial()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(UIPassSettings_TypeDefinitionIndex)->GetStaticField(0x4AF6);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(UIPassSettings_TypeDefinitionIndex)->GetStaticField(0x8F01);
 		}
-		static ::System::Int32* StaticGet_UILayer1()
+		static ::System::Boolean* StaticGet_EnableOffScreenUI()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIPassSettings_TypeDefinitionIndex)->GetStaticField(0x4AF8);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(UIPassSettings_TypeDefinitionIndex)->GetStaticField(0x8F02);
 		}
 		static ::System::Int32* StaticGet_UILayer2()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIPassSettings_TypeDefinitionIndex)->GetStaticField(0x4AFC);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIPassSettings_TypeDefinitionIndex)->GetStaticField(0x8F04);
 		}
-		static ::UnityEngine::Vector4* StaticGet_BlurPartialSmooth()
+		static ::UnityEngine::Vector2* StaticGet_VignetteCenter()
 		{
-			return (::UnityEngine::Vector4*)Il2CppClass::FromTypeDefinitionIndex(UIPassSettings_TypeDefinitionIndex)->GetStaticField(0x4B00);
-		}
-		static ::System::Int32* StaticGet_CircleCount()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIPassSettings_TypeDefinitionIndex)->GetStaticField(0x4B10);
+			return (::UnityEngine::Vector2*)Il2CppClass::FromTypeDefinitionIndex(UIPassSettings_TypeDefinitionIndex)->GetStaticField(0x8F08);
 		}
 		static ::System::Single* StaticGet_VignetteSmoothness()
 		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(UIPassSettings_TypeDefinitionIndex)->GetStaticField(0x4B14);
-		}
-		static ::RPG::CustomRP::Quality* StaticGet_Quality()
-		{
-			return (::RPG::CustomRP::Quality*)Il2CppClass::FromTypeDefinitionIndex(UIPassSettings_TypeDefinitionIndex)->GetStaticField(0x4B18);
-		}
-		static ::System::Int32* StaticGet_VersionIndex()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIPassSettings_TypeDefinitionIndex)->GetStaticField(0x4B1C);
-		}
-		static ::System::Int32* StaticGet_RectCount()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIPassSettings_TypeDefinitionIndex)->GetStaticField(0x4B20);
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(UIPassSettings_TypeDefinitionIndex)->GetStaticField(0x8F10);
 		}
 		static ::System::Single* StaticGet_BlurPartialAlpha()
 		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(UIPassSettings_TypeDefinitionIndex)->GetStaticField(0x4B24);
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(UIPassSettings_TypeDefinitionIndex)->GetStaticField(0x8F14);
+		}
+		static ::System::Single* StaticGet_Alpha()
+		{
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(UIPassSettings_TypeDefinitionIndex)->GetStaticField(0x8F18);
+		}
+		static ::System::Boolean* StaticGet_DisableMainCamera()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(UIPassSettings_TypeDefinitionIndex)->GetStaticField(0x8F1C);
+		}
+		static ::System::Boolean* StaticGet_EnableBlurFull()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(UIPassSettings_TypeDefinitionIndex)->GetStaticField(0x8F1D);
+		}
+		static ::System::Boolean* StaticGet_BlurFullDisableUI3DCamera()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(UIPassSettings_TypeDefinitionIndex)->GetStaticField(0x8F1E);
+		}
+		static ::System::Boolean* StaticGet_VignetteRounded()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(UIPassSettings_TypeDefinitionIndex)->GetStaticField(0x8F1F);
+		}
+		static ::System::Int32* StaticGet_UILayer3()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIPassSettings_TypeDefinitionIndex)->GetStaticField(0x8F20);
+		}
+		static ::System::Int32* StaticGet_RectCount()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIPassSettings_TypeDefinitionIndex)->GetStaticField(0x8F24);
+		}
+		static ::System::Int32* StaticGet_UILayer1()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIPassSettings_TypeDefinitionIndex)->GetStaticField(0x8F28);
+		}
+		static ::UnityEngine::Color* StaticGet_VignetteColor()
+		{
+			return (::UnityEngine::Color*)Il2CppClass::FromTypeDefinitionIndex(UIPassSettings_TypeDefinitionIndex)->GetStaticField(0x8F2C);
+		}
+		static ::System::Int32* StaticGet_VersionIndex()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIPassSettings_TypeDefinitionIndex)->GetStaticField(0x8F3C);
+		}
+		static ::System::Single* StaticGet_BlurFullScale()
+		{
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(UIPassSettings_TypeDefinitionIndex)->GetStaticField(0x8F40);
+		}
+		static ::System::Int32* StaticGet_CircleCount()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIPassSettings_TypeDefinitionIndex)->GetStaticField(0x8F44);
+		}
+		static ::System::Single* StaticGet_Brightness()
+		{
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(UIPassSettings_TypeDefinitionIndex)->GetStaticField(0x8F48);
+		}
+		static ::UnityEngine::Vector4* StaticGet_BlurPartialSmooth()
+		{
+			return (::UnityEngine::Vector4*)Il2CppClass::FromTypeDefinitionIndex(UIPassSettings_TypeDefinitionIndex)->GetStaticField(0x8F4C);
+		}
+		static ::RPG::CustomRP::Quality* StaticGet_Quality()
+		{
+			return (::RPG::CustomRP::Quality*)Il2CppClass::FromTypeDefinitionIndex(UIPassSettings_TypeDefinitionIndex)->GetStaticField(0x8F5C);
+		}
+		static ::System::Single* StaticGet_BlurPartialScale()
+		{
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(UIPassSettings_TypeDefinitionIndex)->GetStaticField(0x8F60);
+		}
+		static ::System::Single* StaticGet_VignetteIntensity()
+		{
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(UIPassSettings_TypeDefinitionIndex)->GetStaticField(0x8F64);
 		}
 
 		::System::Void _ctor()

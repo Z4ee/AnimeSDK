@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_MAPCONNECTIVITYEDGEWEIGHTCONFIG_METHOD_2_653BB01D7C861BAE_OFFSET UNITYSDK_OFFSET(0x1B5A4330)
-#define RPG_GAMECORE_MAPCONNECTIVITYEDGEWEIGHTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5A4410)
+#define RPG_GAMECORE_MAPCONNECTIVITYEDGEWEIGHTCONFIG_METHOD_2_653BB01D7C861BAE_OFFSET UNITYSDK_OFFSET(0x1D220980)
+#define RPG_GAMECORE_MAPCONNECTIVITYEDGEWEIGHTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D220A60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MapConnectivityEdgeWeightConfig_TypeDefinitionIndex = 16683;
+	inline static constexpr unsigned int MapConnectivityEdgeWeightConfig_TypeDefinitionIndex = 17185;
 
 	class MapConnectivityEdgeWeightConfig : public ::RPG::GameCore::JsonConfig
 	{

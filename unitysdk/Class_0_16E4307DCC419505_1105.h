@@ -1,9 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-namespace RPG::Client::Promises { class Promise; }
+class Class_1_70697F531F566942_2;
+namespace RPG::GameCore { class GameEntity; }
+namespace System { class Object; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_1105_TypeDefinitionIndex = 69761;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_1105_TypeDefinitionIndex = 71703;
 
 class Class_0_16E4307DCC419505_1105
 {

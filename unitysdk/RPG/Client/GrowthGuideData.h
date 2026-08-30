@@ -8,23 +8,23 @@ namespace RPG::Client { class LightConeGrowthGuide; }
 namespace RPG::Client { class RelicGrowthGuide; }
 namespace RPG::Client { class SkillTreeGrowthGuide; }
 
-#define RPG_CLIENT_GROWTHGUIDEDATA_GET_AVATARGUIDE_OFFSET UNITYSDK_OFFSET(0xC8664A0)
-#define RPG_CLIENT_GROWTHGUIDEDATA_GET_LIGHTCONEGUIDE_OFFSET UNITYSDK_OFFSET(0xC8664B0)
-#define RPG_CLIENT_GROWTHGUIDEDATA_GET_RELICGUIDE_OFFSET UNITYSDK_OFFSET(0xC8664D0)
-#define RPG_CLIENT_GROWTHGUIDEDATA_GET_SKILLTREEGUIDE_OFFSET UNITYSDK_OFFSET(0xC8664C0)
-#define RPG_CLIENT_GROWTHGUIDEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xC866450)
+#define RPG_CLIENT_GROWTHGUIDEDATA_GET_AVATARGUIDE_OFFSET UNITYSDK_OFFSET(0xD382230)
+#define RPG_CLIENT_GROWTHGUIDEDATA_GET_LIGHTCONEGUIDE_OFFSET UNITYSDK_OFFSET(0xD382240)
+#define RPG_CLIENT_GROWTHGUIDEDATA_GET_RELICGUIDE_OFFSET UNITYSDK_OFFSET(0xD382260)
+#define RPG_CLIENT_GROWTHGUIDEDATA_GET_SKILLTREEGUIDE_OFFSET UNITYSDK_OFFSET(0xD382250)
+#define RPG_CLIENT_GROWTHGUIDEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xD3821E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GrowthGuideData_TypeDefinitionIndex = 62622;
+	inline static constexpr unsigned int GrowthGuideData_TypeDefinitionIndex = 65607;
 
 	class GrowthGuideData : public ::System::Object
 	{
 	public:
 		::RPG::Client::RelicGrowthGuide* _RelicGuide_k__BackingField; // 0x10
-		::RPG::Client::LightConeGrowthGuide* _LightConeGuide_k__BackingField; // 0x18
-		::RPG::Client::SkillTreeGrowthGuide* _SkillTreeGuide_k__BackingField; // 0x20
-		::RPG::Client::AvatarGrowthGuide* _AvatarGuide_k__BackingField; // 0x28
+		::RPG::Client::SkillTreeGrowthGuide* _SkillTreeGuide_k__BackingField; // 0x18
+		::RPG::Client::AvatarGrowthGuide* _AvatarGuide_k__BackingField; // 0x20
+		::RPG::Client::LightConeGrowthGuide* _LightConeGuide_k__BackingField; // 0x28
 
 		::System::Void _ctor(::RPG::AvatarSystem::IAvatar* a1)
 		{

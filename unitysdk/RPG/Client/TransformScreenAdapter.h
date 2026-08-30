@@ -9,12 +9,12 @@
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Camera; }
 
-#define RPG_CLIENT_TRANSFORMSCREENADAPTER_METHOD_1_05334CD74237686D_OFFSET UNITYSDK_OFFSET(0xD737840)
-#define RPG_CLIENT_TRANSFORMSCREENADAPTER__CTOR_OFFSET UNITYSDK_OFFSET(0xD739740)
+#define RPG_CLIENT_TRANSFORMSCREENADAPTER_METHOD_1_05334CD74237686D_OFFSET UNITYSDK_OFFSET(0xE289D50)
+#define RPG_CLIENT_TRANSFORMSCREENADAPTER__CTOR_OFFSET UNITYSDK_OFFSET(0xE28BC50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TransformScreenAdapter_TypeDefinitionIndex = 67187;
+	inline static constexpr unsigned int TransformScreenAdapter_TypeDefinitionIndex = 70306;
 
 	class TransformScreenAdapter : public ::System::Object
 	{

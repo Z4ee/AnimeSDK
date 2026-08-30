@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class AvatarPathChangeVirtualCameraBlendConfig; }
 
-#define RPG_CLIENT_AVATARPATHCHANGECAMERACONTROLLER___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBE05580)
-#define RPG_CLIENT_AVATARPATHCHANGECAMERACONTROLLER___C__DISPLAYCLASS5_0__STARTBLEND_B__0_OFFSET UNITYSDK_OFFSET(0xBE055A0)
+#define RPG_CLIENT_AVATARPATHCHANGECAMERACONTROLLER___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC839730)
+#define RPG_CLIENT_AVATARPATHCHANGECAMERACONTROLLER___C__DISPLAYCLASS5_0__STARTBLEND_B__0_OFFSET UNITYSDK_OFFSET(0xC839750)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AvatarPathChangeCameraController___c__DisplayClass5_0_TypeDefinitionIndex = 68121;
+	inline static constexpr unsigned int AvatarPathChangeCameraController___c__DisplayClass5_0_TypeDefinitionIndex = 71297;
 
 	class AvatarPathChangeCameraController___c__DisplayClass5_0 : public ::System::Object
 	{

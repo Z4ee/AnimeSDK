@@ -4,18 +4,18 @@
 
 namespace UnityEngine { class Object; }
 
-#define RPG_CLIENT_CACHEDASSETLOADER_ASSETOBJECTNODE_CLEAR_OFFSET UNITYSDK_OFFSET(0xBEE40D0)
-#define RPG_CLIENT_CACHEDASSETLOADER_ASSETOBJECTNODE__CTOR_OFFSET UNITYSDK_OFFSET(0xBEE4140)
+#define RPG_CLIENT_CACHEDASSETLOADER_ASSETOBJECTNODE_CLEAR_OFFSET UNITYSDK_OFFSET(0xC987A90)
+#define RPG_CLIENT_CACHEDASSETLOADER_ASSETOBJECTNODE__CTOR_OFFSET UNITYSDK_OFFSET(0xC987B00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CachedAssetLoader_AssetObjectNode_TypeDefinitionIndex = 56790;
+	inline static constexpr unsigned int CachedAssetLoader_AssetObjectNode_TypeDefinitionIndex = 59578;
 
 	class CachedAssetLoader_AssetObjectNode : public ::System::Object
 	{
 	public:
-		::UnityEngine::Object* AssetObject; // 0x10
-		::RPG::Client::CachedAssetLoader_AssetObjectNode* NextNode; // 0x18
+		::RPG::Client::CachedAssetLoader_AssetObjectNode* NextNode; // 0x10
+		::UnityEngine::Object* AssetObject; // 0x18
 
 		::System::Void _ctor()
 		{

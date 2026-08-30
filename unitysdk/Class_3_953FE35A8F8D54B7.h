@@ -5,15 +5,15 @@
 class Class_1_D8BECDCE48063EC7;
 namespace RPG::GameCore { class DiceCombatPredicateConfig_IsAttacker; }
 
-#define CLASS_3_953FE35A8F8D54B7_METHOD_3_833A980C4D8DAF22_OFFSET UNITYSDK_OFFSET(0x1A475C80)
-#define CLASS_3_953FE35A8F8D54B7__CTOR_OFFSET UNITYSDK_OFFSET(0x1A475C60)
+#define CLASS_3_953FE35A8F8D54B7_METHOD_3_833A980C4D8DAF22_OFFSET UNITYSDK_OFFSET(0x1C085630)
+#define CLASS_3_953FE35A8F8D54B7__CTOR_OFFSET UNITYSDK_OFFSET(0x1C085610)
 
-inline static constexpr unsigned int Class_3_953FE35A8F8D54B7_TypeDefinitionIndex = 34800;
+inline static constexpr unsigned int Class_3_953FE35A8F8D54B7_TypeDefinitionIndex = 35661;
 
 class Class_3_953FE35A8F8D54B7 : public ::Class_2_98A798C0C96648F9
 {
 public:
-	::RPG::GameCore::DiceCombatPredicateConfig_IsAttacker* Field_3_0; // 0x30
+	::RPG::GameCore::DiceCombatPredicateConfig_IsAttacker* IEKNLLHCNLP; // 0x30
 
 	::System::Void _ctor(::RPG::GameCore::DiceCombatPredicateConfig_IsAttacker* a1, ::Class_1_D8BECDCE48063EC7* a2)
 	{

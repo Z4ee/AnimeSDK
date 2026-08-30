@@ -7,13 +7,13 @@ class Class_4_417C7B46A4074E8A;
 namespace EnviromentSystemV2Space { class ImageCurveAsset; }
 namespace UnityEngine { class Texture; }
 
-#define ENVIROMENTSYSTEMV2SPACE_IMAGECURVETESTBEHAVIOR_ONENABLE_OFFSET UNITYSDK_OFFSET(0x14531B80)
-#define ENVIROMENTSYSTEMV2SPACE_IMAGECURVETESTBEHAVIOR_SETTEXTURE_OFFSET UNITYSDK_OFFSET(0x14531C50)
-#define ENVIROMENTSYSTEMV2SPACE_IMAGECURVETESTBEHAVIOR__CTOR_OFFSET UNITYSDK_OFFSET(0x14531CA0)
+#define ENVIROMENTSYSTEMV2SPACE_IMAGECURVETESTBEHAVIOR_ONENABLE_OFFSET UNITYSDK_OFFSET(0x15364720)
+#define ENVIROMENTSYSTEMV2SPACE_IMAGECURVETESTBEHAVIOR_SETTEXTURE_OFFSET UNITYSDK_OFFSET(0x153647F0)
+#define ENVIROMENTSYSTEMV2SPACE_IMAGECURVETESTBEHAVIOR__CTOR_OFFSET UNITYSDK_OFFSET(0x15364840)
 
 namespace EnviromentSystemV2Space
 {
-	inline static constexpr unsigned int ImageCurveTestBehavior_TypeDefinitionIndex = 47630;
+	inline static constexpr unsigned int ImageCurveTestBehavior_TypeDefinitionIndex = 49911;
 
 	class ImageCurveTestBehavior : public ::UnityEngine::MonoBehaviour
 	{
@@ -22,8 +22,8 @@ namespace EnviromentSystemV2Space
 		::System::Single currentTime; // 0x20
 		::UnityEngine::Vector2 previewSize; // 0x24
 		::System::Boolean showSegmentInfo; // 0x2C
-		::Class_4_417C7B46A4074E8A* Field_5_4; // 0x30
-		::UnityEngine::Texture* Field_5_5; // 0x38
+		::Class_4_417C7B46A4074E8A* JJPJKAJNIOD; // 0x30
+		::UnityEngine::Texture* DBACHBNJPLB; // 0x38
 
 		::System::Void _ctor()
 		{

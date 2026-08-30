@@ -5,17 +5,17 @@
 namespace RPG::Client::LittleGame::FiveDim { template <typename T> class PhantomPlayerFrameData_1; }
 namespace System { class String; }
 
-#define CLASS_1_C725549BCFD80910_METHOD_1_59315BEBED7547A2_OFFSET UNITYSDK_OFFSET(0x1A782520)
-#define CLASS_1_C725549BCFD80910__CTOR_OFFSET UNITYSDK_OFFSET(0x1A782720)
+#define CLASS_1_C725549BCFD80910_METHOD_1_59315BEBED7547A2_OFFSET UNITYSDK_OFFSET(0x1C392EB0)
+#define CLASS_1_C725549BCFD80910__CTOR_OFFSET UNITYSDK_OFFSET(0x1C3930B0)
 
-inline static constexpr unsigned int Class_1_C725549BCFD80910_TypeDefinitionIndex = 40983;
+inline static constexpr unsigned int Class_1_C725549BCFD80910_TypeDefinitionIndex = 41942;
 
 class Class_1_C725549BCFD80910 : public ::System::Object
 {
 public:
-	// static const ::System::String* Field_1_0; // 0x0
-	// static const ::System::String* Field_1_1; // 0x0
-	// static const ::System::String* Field_1_2; // 0x0
+	// static const ::System::String* MEMFBMKOBFN; // 0x0
+	// static const ::System::String* MCPEOEHMALP; // 0x0
+	// static const ::System::String* CJLGKKEMOIM; // 0x0
 
 	::System::Void _ctor()
 	{

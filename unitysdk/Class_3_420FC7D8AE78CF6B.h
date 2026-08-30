@@ -6,17 +6,17 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class LittleGameFireEffectParams; }
 
-#define CLASS_3_420FC7D8AE78CF6B_METHOD_3_B0B66673456EDDF6_OFFSET UNITYSDK_OFFSET(0x1AC39800)
-#define CLASS_3_420FC7D8AE78CF6B_METHOD_3_C17C5E1EBAECCBCD_OFFSET UNITYSDK_OFFSET(0x1AC39840)
-#define CLASS_3_420FC7D8AE78CF6B__CTOR_OFFSET UNITYSDK_OFFSET(0x1AC39830)
+#define CLASS_3_420FC7D8AE78CF6B_METHOD_3_B0B66673456EDDF6_OFFSET UNITYSDK_OFFSET(0x1C87EC80)
+#define CLASS_3_420FC7D8AE78CF6B_METHOD_3_C17C5E1EBAECCBCD_OFFSET UNITYSDK_OFFSET(0x1C87ECC0)
+#define CLASS_3_420FC7D8AE78CF6B__CTOR_OFFSET UNITYSDK_OFFSET(0x1C87ECB0)
 
-inline static constexpr unsigned int Class_3_420FC7D8AE78CF6B_TypeDefinitionIndex = 20643;
+inline static constexpr unsigned int Class_3_420FC7D8AE78CF6B_TypeDefinitionIndex = 21196;
 
 class Class_3_420FC7D8AE78CF6B : public ::RPG::GameCore::TaskConfig
 {
 public:
-	::RPG::GameCore::DynamicString* Field_3_0; // 0x18
-	::RPG::GameCore::LittleGameFireEffectParams* Field_3_1; // 0x20
+	::RPG::GameCore::DynamicString* ODMPMJCAHPN; // 0x18
+	::RPG::GameCore::LittleGameFireEffectParams* EKKGNJDOANO; // 0x20
 
 	::System::Void _ctor()
 	{

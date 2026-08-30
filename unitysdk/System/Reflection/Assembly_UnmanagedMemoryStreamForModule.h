@@ -4,12 +4,12 @@
 
 namespace System::Reflection { class Module; }
 
-#define SYSTEM_REFLECTION_ASSEMBLY_UNMANAGEDMEMORYSTREAMFORMODULE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1A183190)
-#define SYSTEM_REFLECTION_ASSEMBLY_UNMANAGEDMEMORYSTREAMFORMODULE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A181900)
+#define SYSTEM_REFLECTION_ASSEMBLY_UNMANAGEDMEMORYSTREAMFORMODULE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1BD8ADB0)
+#define SYSTEM_REFLECTION_ASSEMBLY_UNMANAGEDMEMORYSTREAMFORMODULE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD89510)
 
 namespace System::Reflection
 {
-	inline static constexpr unsigned int Assembly_UnmanagedMemoryStreamForModule_TypeDefinitionIndex = 593;
+	inline static constexpr unsigned int Assembly_UnmanagedMemoryStreamForModule_TypeDefinitionIndex = 596;
 
 	class Assembly_UnmanagedMemoryStreamForModule : public ::System::IO::UnmanagedMemoryStream
 	{

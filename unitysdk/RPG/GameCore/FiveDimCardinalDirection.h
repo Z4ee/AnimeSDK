@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimCardinalDirection_TypeDefinitionIndex = 17811;
+	inline static constexpr unsigned int FiveDimCardinalDirection_TypeDefinitionIndex = 18330;
 
 	enum class FiveDimCardinalDirection : ::System::Int32
 	{

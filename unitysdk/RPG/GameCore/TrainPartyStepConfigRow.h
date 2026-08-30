@@ -6,25 +6,25 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_TRAINPARTYSTEPCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B984DA0)
-#define RPG_GAMECORE_TRAINPARTYSTEPCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B985150)
+#define RPG_GAMECORE_TRAINPARTYSTEPCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D5E2030)
+#define RPG_GAMECORE_TRAINPARTYSTEPCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5E23E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrainPartyStepConfigRow_TypeDefinitionIndex = 14721;
+	inline static constexpr unsigned int TrainPartyStepConfigRow_TypeDefinitionIndex = 15157;
 
 	class TrainPartyStepConfigRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* StaticPropIDList; // 0x10
-		::System::String* ImgPath; // 0x18
-		::RPG::Client::TextID Name; // 0x20
-		::System::Boolean HasCutScene; // 0x30
-		::System::Boolean HasPreview; // 0x31
-		::System::UInt32 CoinCost; // 0x34
-		::System::UInt32 ID; // 0x38
-		::System::UInt32 SortID; // 0x3C
-		::System::UInt32 GroupID; // 0x40
+		::System::String* ImgPath; // 0x10
+		::Il2CppArray<::System::UInt32>* StaticPropIDList; // 0x18
+		::System::UInt32 ID; // 0x20
+		::System::UInt32 SortID; // 0x24
+		::RPG::Client::TextID Name; // 0x28
+		::System::UInt32 GroupID; // 0x38
+		::System::Boolean HasPreview; // 0x3C
+		::System::Boolean HasCutScene; // 0x3D
+		::System::UInt32 CoinCost; // 0x40
 
 		::System::Void _ctor()
 		{

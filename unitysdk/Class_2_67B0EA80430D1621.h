@@ -4,31 +4,31 @@
 #include "unitysdk/RPG/Client/NotifyType.h"
 #include "unitysdk/RPG/Client/SyncCheckItemBase.h"
 
-class Class_0_16E4307DCC419505_843;
+class Class_0_16E4307DCC419505_894;
 namespace RPG::Client { class CheckItemReachWorldLevel; }
 namespace RPG::Client { class ComposeItemData; }
 namespace System { class Action; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define CLASS_2_67B0EA80430D1621_FILLNOTIFYTYPESTO_OFFSET UNITYSDK_OFFSET(0x14C8C3B0)
-#define CLASS_2_67B0EA80430D1621_METHOD_2_8B1BB9EA0DEF0F82_OFFSET UNITYSDK_OFFSET(0x14C8C7A0)
-#define CLASS_2_67B0EA80430D1621__CTOR_OFFSET UNITYSDK_OFFSET(0x14C8C340)
-#define CLASS_2_67B0EA80430D1621__DOCHECKIMPL_OFFSET UNITYSDK_OFFSET(0x14C8C750)
-#define CLASS_2_67B0EA80430D1621__SUBSCRIBECUSTOMEVENT_OFFSET UNITYSDK_OFFSET(0x14C8C4D0)
-#define CLASS_2_67B0EA80430D1621__UNSUBSCRIBECUSTOMEVENT_OFFSET UNITYSDK_OFFSET(0x14C8C610)
+#define CLASS_2_67B0EA80430D1621_FILLNOTIFYTYPESTO_OFFSET UNITYSDK_OFFSET(0x15B4AA80)
+#define CLASS_2_67B0EA80430D1621_METHOD_2_8B1BB9EA0DEF0F82_OFFSET UNITYSDK_OFFSET(0x15B4AE70)
+#define CLASS_2_67B0EA80430D1621__CTOR_OFFSET UNITYSDK_OFFSET(0x15B4AA10)
+#define CLASS_2_67B0EA80430D1621__DOCHECKIMPL_OFFSET UNITYSDK_OFFSET(0x15B4AE20)
+#define CLASS_2_67B0EA80430D1621__SUBSCRIBECUSTOMEVENT_OFFSET UNITYSDK_OFFSET(0x15B4ABA0)
+#define CLASS_2_67B0EA80430D1621__UNSUBSCRIBECUSTOMEVENT_OFFSET UNITYSDK_OFFSET(0x15B4ACE0)
 
-inline static constexpr unsigned int Class_2_67B0EA80430D1621_TypeDefinitionIndex = 62824;
+inline static constexpr unsigned int Class_2_67B0EA80430D1621_TypeDefinitionIndex = 65809;
 
 class Class_2_67B0EA80430D1621 : public ::RPG::Client::SyncCheckItemBase
 {
 public:
-	::RPG::Client::CheckItemReachWorldLevel* Field_2_0; // 0x10
-	::RPG::Client::ComposeItemData* Field_2_1; // 0x18
-	::Class_0_16E4307DCC419505_843* Field_2_2; // 0x20
+	::Class_0_16E4307DCC419505_894* HEBDLOLLNPK; // 0x10
+	::RPG::Client::CheckItemReachWorldLevel* BFPMBBCCHNO; // 0x18
+	::RPG::Client::ComposeItemData* BFGABEFBIEO; // 0x20
 
-	::System::Void _ctor(::RPG::Client::ComposeItemData* a1, ::Class_0_16E4307DCC419505_843* a2)
+	::System::Void _ctor(::RPG::Client::ComposeItemData* a1, ::Class_0_16E4307DCC419505_894* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::Client::ComposeItemData*, ::Class_0_16E4307DCC419505_843*))((::PBYTE)hIl2Cpp + CLASS_2_67B0EA80430D1621__CTOR_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::ComposeItemData*, ::Class_0_16E4307DCC419505_894*))((::PBYTE)hIl2Cpp + CLASS_2_67B0EA80430D1621__CTOR_OFFSET))(this, a1, a2);
 	}
 
 	::System::Void FillNotifyTypesTo(::System::Collections::Generic::HashSet_1<::RPG::Client::NotifyType>* a1)

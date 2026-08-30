@@ -3,7 +3,7 @@
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int MessagePackType_TypeDefinitionIndex = 7125;
+	inline static constexpr unsigned int MessagePackType_TypeDefinitionIndex = 7111;
 
 	enum class MessagePackType : ::System::Byte
 	{

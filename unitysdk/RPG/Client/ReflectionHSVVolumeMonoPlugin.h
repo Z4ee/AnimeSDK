@@ -6,18 +6,18 @@
 namespace RPG::Client { class ReflectionHSVVolumeBehavior; }
 namespace System { class String; }
 
-#define RPG_CLIENT_REFLECTIONHSVVOLUMEMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xD2D7440)
-#define RPG_CLIENT_REFLECTIONHSVVOLUMEMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xD2D7490)
+#define RPG_CLIENT_REFLECTIONHSVVOLUMEMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xDE17310)
+#define RPG_CLIENT_REFLECTIONHSVVOLUMEMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xDE17360)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ReflectionHSVVolumeMonoPlugin_TypeDefinitionIndex = 67548;
+	inline static constexpr unsigned int ReflectionHSVVolumeMonoPlugin_TypeDefinitionIndex = 70671;
 
 	class ReflectionHSVVolumeMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::ReflectionHSVVolumeBehavior*>
 	{
 	public:
-		::UnityEngine::Vector3 Field_7_0; // 0x30
-		::UnityEngine::Vector3 Field_7_1; // 0x3C
+		::UnityEngine::Vector3 ALKEOLEEKAH; // 0x30
+		::UnityEngine::Vector3 FBOCAFLELGJ; // 0x3C
 
 		::System::Void _ctor()
 		{

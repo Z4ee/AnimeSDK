@@ -3,10 +3,10 @@
 #include "unitysdk/RPG/Client/LittleGame/ChimeraDuelTurnBasedStageType.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_43BD383C98B4C0C5_21_METHOD_1_BEA08973D58DCDDE_OFFSET UNITYSDK_OFFSET(0x1A8593F0)
-#define CLASS_1_43BD383C98B4C0C5_21__CTOR_OFFSET UNITYSDK_OFFSET(0x1A859400)
+#define CLASS_1_43BD383C98B4C0C5_21_METHOD_1_BEA08973D58DCDDE_OFFSET UNITYSDK_OFFSET(0x1C48A2C0)
+#define CLASS_1_43BD383C98B4C0C5_21__CTOR_OFFSET UNITYSDK_OFFSET(0x1C48A2D0)
 
-inline static constexpr unsigned int Class_1_43BD383C98B4C0C5_21_TypeDefinitionIndex = 39513;
+inline static constexpr unsigned int Class_1_43BD383C98B4C0C5_21_TypeDefinitionIndex = 40386;
 
 class Class_1_43BD383C98B4C0C5_21 : public ::System::Object
 {

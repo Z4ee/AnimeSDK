@@ -8,12 +8,12 @@ namespace RPG::Client { class ActivityHotModule; }
 namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ACTIVITYHOTMODULE___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBB5A750)
-#define RPG_CLIENT_ACTIVITYHOTMODULE___C__DISPLAYCLASS4_0__GETACTIVITYHOTDATAS_B__0_OFFSET UNITYSDK_OFFSET(0xBB5E360)
+#define RPG_CLIENT_ACTIVITYHOTMODULE___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC578400)
+#define RPG_CLIENT_ACTIVITYHOTMODULE___C__DISPLAYCLASS4_0__GETACTIVITYHOTDATAS_B__0_OFFSET UNITYSDK_OFFSET(0xC57C010)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityHotModule___c__DisplayClass4_0_TypeDefinitionIndex = 58799;
+	inline static constexpr unsigned int ActivityHotModule___c__DisplayClass4_0_TypeDefinitionIndex = 61630;
 
 	class ActivityHotModule___c__DisplayClass4_0 : public ::System::Object
 	{

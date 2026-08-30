@@ -7,28 +7,28 @@ namespace RPG::Client { class BaseShaderPropertyTransition; }
 namespace System { class String; }
 namespace UnityEngine { class Animator; }
 
-#define RPG_CLIENT_PROP_CHIMERABATTLEWORKVIEW_PLAYBREAK_OFFSET UNITYSDK_OFFSET(0xD1046F0)
-#define RPG_CLIENT_PROP_CHIMERABATTLEWORKVIEW_PLAYDITHER_OFFSET UNITYSDK_OFFSET(0xD1045D0)
-#define RPG_CLIENT_PROP_CHIMERABATTLEWORKVIEW_PLAYOPENBOX_OFFSET UNITYSDK_OFFSET(0xD104620)
-#define RPG_CLIENT_PROP_CHIMERABATTLEWORKVIEW_SETATTACHPOINTACTIVE_OFFSET UNITYSDK_OFFSET(0xD1047F0)
-#define RPG_CLIENT_PROP_CHIMERABATTLEWORKVIEW_START_OFFSET UNITYSDK_OFFSET(0xD104530)
-#define RPG_CLIENT_PROP_CHIMERABATTLEWORKVIEW__CCTOR_OFFSET UNITYSDK_OFFSET(0xD1048F0)
-#define RPG_CLIENT_PROP_CHIMERABATTLEWORKVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0xD1048E0)
+#define RPG_CLIENT_PROP_CHIMERABATTLEWORKVIEW_PLAYBREAK_OFFSET UNITYSDK_OFFSET(0xDC08B90)
+#define RPG_CLIENT_PROP_CHIMERABATTLEWORKVIEW_PLAYDITHER_OFFSET UNITYSDK_OFFSET(0xDC08A70)
+#define RPG_CLIENT_PROP_CHIMERABATTLEWORKVIEW_PLAYOPENBOX_OFFSET UNITYSDK_OFFSET(0xDC08AC0)
+#define RPG_CLIENT_PROP_CHIMERABATTLEWORKVIEW_SETATTACHPOINTACTIVE_OFFSET UNITYSDK_OFFSET(0xDC08C90)
+#define RPG_CLIENT_PROP_CHIMERABATTLEWORKVIEW_START_OFFSET UNITYSDK_OFFSET(0xDC089D0)
+#define RPG_CLIENT_PROP_CHIMERABATTLEWORKVIEW__CCTOR_OFFSET UNITYSDK_OFFSET(0xDC08D90)
+#define RPG_CLIENT_PROP_CHIMERABATTLEWORKVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0xDC08D80)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraBattleWorkView_TypeDefinitionIndex = 74489;
+	inline static constexpr unsigned int ChimeraBattleWorkView_TypeDefinitionIndex = 77974;
 
 	class ChimeraBattleWorkView : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::System::Int32* StaticGet_Field_5_0()
+		static ::System::Int32* StaticGet_BCFAEFDMCGH()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ChimeraBattleWorkView_TypeDefinitionIndex)->GetStaticField(0x148C0);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ChimeraBattleWorkView_TypeDefinitionIndex)->GetStaticField(0x14390);
 		}
 		::RPG::Client::BaseShaderPropertyTransition* DitherHandler; // 0x18
 		::UnityEngine::Animator* Animator; // 0x20
-		::RPG::Client::AttachPointMapping* Field_5_3; // 0x28
+		::RPG::Client::AttachPointMapping* MDOMBPFNPGB; // 0x28
 
 		::System::Void _ctor()
 		{

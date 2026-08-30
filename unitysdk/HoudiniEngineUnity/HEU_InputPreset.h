@@ -9,13 +9,13 @@ namespace HoudiniEngineUnity { class HEU_InputObjectPreset; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define HOUDINIENGINEUNITY_HEU_INPUTPRESET_GET_INPUTOBJECTTYPE_OFFSET UNITYSDK_OFFSET(0x198B75F0)
-#define HOUDINIENGINEUNITY_HEU_INPUTPRESET_SET_INPUTOBJECTTYPE_OFFSET UNITYSDK_OFFSET(0x198B7610)
-#define HOUDINIENGINEUNITY_HEU_INPUTPRESET__CTOR_OFFSET UNITYSDK_OFFSET(0x1987FB60)
+#define HOUDINIENGINEUNITY_HEU_INPUTPRESET_GET_INPUTOBJECTTYPE_OFFSET UNITYSDK_OFFSET(0x1B442F40)
+#define HOUDINIENGINEUNITY_HEU_INPUTPRESET_SET_INPUTOBJECTTYPE_OFFSET UNITYSDK_OFFSET(0x1B442F60)
+#define HOUDINIENGINEUNITY_HEU_INPUTPRESET__CTOR_OFFSET UNITYSDK_OFFSET(0x1B40B510)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_InputPreset_TypeDefinitionIndex = 38210;
+	inline static constexpr unsigned int HEU_InputPreset_TypeDefinitionIndex = 39069;
 
 	class HEU_InputPreset : public ::System::Object
 	{

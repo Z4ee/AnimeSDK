@@ -6,12 +6,12 @@
 
 namespace UnityEngine { class Transform; }
 
-#define CLASS_3_893BFA26BECA2B67_ANIMATEDITEM_GET_RANDOMVALUE_OFFSET UNITYSDK_OFFSET(0x1471D600)
-#define CLASS_3_893BFA26BECA2B67_ANIMATEDITEM__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1471DC70)
-#define CLASS_3_893BFA26BECA2B67_ANIMATEDITEM__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1471DD80)
-#define CLASS_3_893BFA26BECA2B67_ANIMATEDITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1471DBE0)
+#define CLASS_3_893BFA26BECA2B67_ANIMATEDITEM_GET_RANDOMVALUE_OFFSET UNITYSDK_OFFSET(0x15589D90)
+#define CLASS_3_893BFA26BECA2B67_ANIMATEDITEM__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1558A410)
+#define CLASS_3_893BFA26BECA2B67_ANIMATEDITEM__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1558A530)
+#define CLASS_3_893BFA26BECA2B67_ANIMATEDITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1558A370)
 
-inline static constexpr unsigned int Class_3_893BFA26BECA2B67_AnimatedItem_TypeDefinitionIndex = 67177;
+inline static constexpr unsigned int Class_3_893BFA26BECA2B67_AnimatedItem_TypeDefinitionIndex = 70296;
 
 class Class_3_893BFA26BECA2B67_AnimatedItem : public ::System::Object
 {
@@ -21,10 +21,11 @@ public:
 	::UnityEngine::Vector3 RelativeTranslation; // 0x1C
 	::UnityEngine::Vector3 RelativeRotation; // 0x28
 	::UnityEngine::Vector3 RelativeScale; // 0x34
-	::UnityEngine::Vector3 OriginPosition; // 0x40
-	::UnityEngine::Quaternion OriginRotation; // 0x4C
-	::UnityEngine::Vector3 OriginScale; // 0x5C
-	::System::Single _RandomValue; // 0x68
+	::System::Single RelativeSpeed; // 0x40
+	::UnityEngine::Vector3 OriginPosition; // 0x44
+	::UnityEngine::Quaternion OriginRotation; // 0x50
+	::UnityEngine::Vector3 OriginScale; // 0x60
+	::System::Single _RandomValue; // 0x6C
 
 	::System::Void _ctor()
 	{
@@ -36,9 +37,9 @@ public:
 		return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + CLASS_3_893BFA26BECA2B67_ANIMATEDITEM__CTOR_1_OFFSET))(this, a1);
 	}
 
-	::System::Void _ctor_2(::UnityEngine::Transform* a1, ::System::Single a2, ::UnityEngine::Vector3 a3, ::UnityEngine::Vector3 a4, ::UnityEngine::Vector3 a5)
+	::System::Void _ctor_2(::UnityEngine::Transform* a1, ::System::Single a2, ::UnityEngine::Vector3 a3, ::UnityEngine::Vector3 a4, ::UnityEngine::Vector3 a5, ::System::Single a6)
 	{
-		return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::System::Single, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + CLASS_3_893BFA26BECA2B67_ANIMATEDITEM__CTOR_2_OFFSET))(this, a1, a2, a3, a4, a5);
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::System::Single, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_3_893BFA26BECA2B67_ANIMATEDITEM__CTOR_2_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 	}
 
 	::System::Single get_RandomValue()

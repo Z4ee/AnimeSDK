@@ -8,10 +8,10 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::Playables { class PlayableAsset; }
 namespace UnityEngine::Playables { class PlayableDirector; }
 
-#define CLASS_2_D533150DA9942A27___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB5F8410)
-#define CLASS_2_D533150DA9942A27___C__DISPLAYCLASS4_0__ONTASKBEGIN_B__0_OFFSET UNITYSDK_OFFSET(0xB600EF0)
+#define CLASS_2_D533150DA9942A27___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBFFF650)
+#define CLASS_2_D533150DA9942A27___C__DISPLAYCLASS4_0__ONTASKBEGIN_B__0_OFFSET UNITYSDK_OFFSET(0xBFFF660)
 
-inline static constexpr unsigned int Class_2_D533150DA9942A27___c__DisplayClass4_0_TypeDefinitionIndex = 53838;
+inline static constexpr unsigned int Class_2_D533150DA9942A27___c__DisplayClass4_0_TypeDefinitionIndex = 56558;
 
 class Class_2_D533150DA9942A27___c__DisplayClass4_0 : public ::System::Object
 {

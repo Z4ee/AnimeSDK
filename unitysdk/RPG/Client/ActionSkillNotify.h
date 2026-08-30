@@ -4,11 +4,11 @@
 
 namespace RPG::GameCore { class GameEntity; }
 
-#define RPG_CLIENT_ACTIONSKILLNOTIFY__CTOR_OFFSET UNITYSDK_OFFSET(0xBA8D600)
+#define RPG_CLIENT_ACTIONSKILLNOTIFY__CTOR_OFFSET UNITYSDK_OFFSET(0xC4AC4A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActionSkillNotify_TypeDefinitionIndex = 69082;
+	inline static constexpr unsigned int ActionSkillNotify_TypeDefinitionIndex = 72281;
 
 	class ActionSkillNotify : public ::System::Object
 	{

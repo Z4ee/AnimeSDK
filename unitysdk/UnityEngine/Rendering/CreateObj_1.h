@@ -8,7 +8,7 @@ namespace System { class Object; }
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int CreateObj_1_TypeDefinitionIndex = 34064;
+	inline static constexpr unsigned int CreateObj_1_TypeDefinitionIndex = 34831;
 
 	template <typename T>
 	class CreateObj_1 : public ::System::MulticastDelegate

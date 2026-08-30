@@ -4,7 +4,7 @@
 
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int HoYoSDKWebView_JoyPadCloseBtn_TypeDefinitionIndex = 45003;
+	inline static constexpr unsigned int HoYoSDKWebView_JoyPadCloseBtn_TypeDefinitionIndex = 47239;
 
 	class HoYoSDKWebView_JoyPadCloseBtn : public ::System::Object
 	{

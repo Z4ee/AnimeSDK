@@ -5,9 +5,9 @@
 class Class_0_16E4307DCC419505_72;
 namespace RPG::GameCore { class BaseLittleGameAbilityEffectConfig; }
 
-#define CLASS_1_F225053C15532BA5_METHOD_1_E3A7C82F9FA1267D_OFFSET UNITYSDK_OFFSET(0x1A5DCA70)
+#define CLASS_1_F225053C15532BA5_METHOD_1_E3A7C82F9FA1267D_OFFSET UNITYSDK_OFFSET(0x1C1EC580)
 
-inline static constexpr unsigned int Class_1_F225053C15532BA5_TypeDefinitionIndex = 35589;
+inline static constexpr unsigned int Class_1_F225053C15532BA5_TypeDefinitionIndex = 36450;
 
 class Class_1_F225053C15532BA5 : public ::System::Object
 {

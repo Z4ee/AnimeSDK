@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_CA217ABF4E3B4F3F.h"
+#include "unitysdk/Class_1_34917908B7833130.h"
 
-class Class_0_16E4307DCC419505_1026;
+class Class_0_16E4307DCC419505_1080;
 class Class_2_4B32C3985962F5E5;
 class Class_2_AF8737E878E8536B;
 namespace RPG::Client { template <typename T> class NodeListViewPanel_1; }
@@ -13,29 +13,29 @@ namespace RPG::GameCore { class TurnBasedModifierInstance; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::UI { class Text; }
 
-#define CLASS_2_4BD56C05450EB359_METHOD_2_0DF420E95D6252BE_OFFSET UNITYSDK_OFFSET(0x12618540)
-#define CLASS_2_4BD56C05450EB359_METHOD_2_189CFA68765849EB_OFFSET UNITYSDK_OFFSET(0x12618330)
-#define CLASS_2_4BD56C05450EB359_METHOD_2_1D1713DC50EF2833_OFFSET UNITYSDK_OFFSET(0x126185A0)
-#define CLASS_2_4BD56C05450EB359_METHOD_2_421E941F0DF16850_OFFSET UNITYSDK_OFFSET(0x126181E0)
-#define CLASS_2_4BD56C05450EB359_METHOD_2_439C7C960308B0ED_OFFSET UNITYSDK_OFFSET(0x12617FA0)
-#define CLASS_2_4BD56C05450EB359_METHOD_2_73FD5BBE218B4242_OFFSET UNITYSDK_OFFSET(0x126184E0)
-#define CLASS_2_4BD56C05450EB359_METHOD_2_C08668D77F29C4BE_OFFSET UNITYSDK_OFFSET(0x12618070)
-#define CLASS_2_4BD56C05450EB359__CTOR_OFFSET UNITYSDK_OFFSET(0x12618640)
-#define CLASS_2_4BD56C05450EB359__ONBIND_OFFSET UNITYSDK_OFFSET(0x12617E90)
+#define CLASS_2_4BD56C05450EB359_METHOD_2_0DF420E95D6252BE_OFFSET UNITYSDK_OFFSET(0x13F1E6D0)
+#define CLASS_2_4BD56C05450EB359_METHOD_2_189CFA68765849EB_OFFSET UNITYSDK_OFFSET(0x13F1E4C0)
+#define CLASS_2_4BD56C05450EB359_METHOD_2_1D1713DC50EF2833_OFFSET UNITYSDK_OFFSET(0x13F1E730)
+#define CLASS_2_4BD56C05450EB359_METHOD_2_421E941F0DF16850_OFFSET UNITYSDK_OFFSET(0x13F1E370)
+#define CLASS_2_4BD56C05450EB359_METHOD_2_439C7C960308B0ED_OFFSET UNITYSDK_OFFSET(0x13F1E130)
+#define CLASS_2_4BD56C05450EB359_METHOD_2_73FD5BBE218B4242_OFFSET UNITYSDK_OFFSET(0x13F1E670)
+#define CLASS_2_4BD56C05450EB359_METHOD_2_C08668D77F29C4BE_OFFSET UNITYSDK_OFFSET(0x13F1E200)
+#define CLASS_2_4BD56C05450EB359__CTOR_OFFSET UNITYSDK_OFFSET(0x13F1E7D0)
+#define CLASS_2_4BD56C05450EB359__ONBIND_OFFSET UNITYSDK_OFFSET(0x13F1E020)
 
-inline static constexpr unsigned int Class_2_4BD56C05450EB359_TypeDefinitionIndex = 67985;
+inline static constexpr unsigned int Class_2_4BD56C05450EB359_TypeDefinitionIndex = 71158;
 
-class Class_2_4BD56C05450EB359 : public ::Class_1_CA217ABF4E3B4F3F
+class Class_2_4BD56C05450EB359 : public ::Class_1_34917908B7833130
 {
 public:
-	::UnityEngine::UI::Text* Field_2_0; // 0x60
-	::RPG::Client::NodeListViewPanel_1<::Class_2_AF8737E878E8536B*>* Field_2_1; // 0x68
-	::System::Collections::Generic::List_1<::RPG::GameCore::TurnBasedModifierInstance*>* Field_2_2; // 0x70
-	::System::Collections::Generic::List_1<::RPG::GameCore::TurnBasedModifierInstance*>* Field_2_3; // 0x78
-	::RPG::Client::NodeListViewPanel_1<::Class_2_AF8737E878E8536B*>* Field_2_4; // 0x80
-	::Class_2_4B32C3985962F5E5* Field_2_5; // 0x88
-	::UnityEngine::UI::Text* Field_2_6; // 0x90
-	::System::Collections::Generic::List_1<::RPG::GameCore::TurnBasedModifierInstance*>* Field_2_7; // 0x98
+	::RPG::Client::NodeListViewPanel_1<::Class_2_AF8737E878E8536B*>* GIKDAFOHBJM; // 0x60
+	::RPG::Client::NodeListViewPanel_1<::Class_2_AF8737E878E8536B*>* JEGGMMIBIBN; // 0x68
+	::UnityEngine::UI::Text* CAIFPFGECIN; // 0x70
+	::System::Collections::Generic::List_1<::RPG::GameCore::TurnBasedModifierInstance*>* CAKCILOCMAC; // 0x78
+	::Class_2_4B32C3985962F5E5* IJPIJOCCDOK; // 0x80
+	::System::Collections::Generic::List_1<::RPG::GameCore::TurnBasedModifierInstance*>* EJCGHJIJMEN; // 0x88
+	::System::Collections::Generic::List_1<::RPG::GameCore::TurnBasedModifierInstance*>* ADEOCFAAFDP; // 0x90
+	::UnityEngine::UI::Text* PHOBDPAPHND; // 0x98
 
 	::System::Void _ctor()
 	{
@@ -62,14 +62,14 @@ public:
 		return ((::System::Void(*)(::PVOID, ::RPG::Client::NodeListViewPanel_1<::Class_2_AF8737E878E8536B*>*, ::System::Collections::Generic::List_1<::RPG::GameCore::TurnBasedModifierInstance*>*, ::UnityEngine::UI::Text*))((::PBYTE)hIl2Cpp + CLASS_2_4BD56C05450EB359_METHOD_2_421E941F0DF16850_OFFSET))(this, a1, a2, a3);
 	}
 
-	::Class_0_16E4307DCC419505_1026* Method_2_189CFA68765849EB(::RPG::GameCore::TurnBasedModifierInstance* a1)
+	::Class_0_16E4307DCC419505_1080* Method_2_189CFA68765849EB(::RPG::GameCore::TurnBasedModifierInstance* a1)
 	{
-		return ((::Class_0_16E4307DCC419505_1026*(*)(::PVOID, ::RPG::GameCore::TurnBasedModifierInstance*))((::PBYTE)hIl2Cpp + CLASS_2_4BD56C05450EB359_METHOD_2_189CFA68765849EB_OFFSET))(this, a1);
+		return ((::Class_0_16E4307DCC419505_1080*(*)(::PVOID, ::RPG::GameCore::TurnBasedModifierInstance*))((::PBYTE)hIl2Cpp + CLASS_2_4BD56C05450EB359_METHOD_2_189CFA68765849EB_OFFSET))(this, a1);
 	}
 
-	::Class_0_16E4307DCC419505_1026* Method_2_73FD5BBE218B4242()
+	::Class_0_16E4307DCC419505_1080* Method_2_73FD5BBE218B4242()
 	{
-		return ((::Class_0_16E4307DCC419505_1026*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_4BD56C05450EB359_METHOD_2_73FD5BBE218B4242_OFFSET))(this);
+		return ((::Class_0_16E4307DCC419505_1080*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_4BD56C05450EB359_METHOD_2_73FD5BBE218B4242_OFFSET))(this);
 	}
 
 	::System::Boolean Method_2_0DF420E95D6252BE()

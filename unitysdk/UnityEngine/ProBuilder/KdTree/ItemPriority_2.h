@@ -4,7 +4,7 @@
 
 namespace UnityEngine::ProBuilder::KdTree
 {
-	inline static constexpr unsigned int ItemPriority_2_TypeDefinitionIndex = 36572;
+	inline static constexpr unsigned int ItemPriority_2_TypeDefinitionIndex = 37431;
 
 	template <typename TItem, typename TPriority>
 	struct ItemPriority_2

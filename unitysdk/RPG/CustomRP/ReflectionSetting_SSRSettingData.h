@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CUSTOMRP_REFLECTIONSETTING_SSRSETTINGDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1AAB5070)
+#define RPG_CUSTOMRP_REFLECTIONSETTING_SSRSETTINGDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1C6E6630)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int ReflectionSetting_SSRSettingData_TypeDefinitionIndex = 36308;
+	inline static constexpr unsigned int ReflectionSetting_SSRSettingData_TypeDefinitionIndex = 37167;
 
 	class ReflectionSetting_SSRSettingData : public ::System::Object
 	{

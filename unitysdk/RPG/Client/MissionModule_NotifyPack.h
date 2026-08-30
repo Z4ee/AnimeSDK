@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/Client/NotifyType.h"
 #include "unitysdk/System/ValueType.h"
 
-#define RPG_CLIENT_MISSIONMODULE_NOTIFYPACK__CTOR_OFFSET UNITYSDK_OFFSET(0x7BDC0)
+#define RPG_CLIENT_MISSIONMODULE_NOTIFYPACK__CTOR_OFFSET UNITYSDK_OFFSET(0x7DC40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MissionModule_NotifyPack_TypeDefinitionIndex = 63206;
+	inline static constexpr unsigned int MissionModule_NotifyPack_TypeDefinitionIndex = 66191;
 
 	struct alignas(4) MissionModule_NotifyPack
 	{

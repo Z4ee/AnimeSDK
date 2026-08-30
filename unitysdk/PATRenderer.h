@@ -11,15 +11,15 @@ namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class Mesh; }
 namespace UnityEngine { class Texture2D; }
 
-#define PATRENDERER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xB723870)
-#define PATRENDERER_METHOD_5_4EA6B1791DACA9CC_OFFSET UNITYSDK_OFFSET(0xB723C40)
-#define PATRENDERER_METHOD_5_6E3DEABB1FC191BB_OFFSET UNITYSDK_OFFSET(0xB7231E0)
-#define PATRENDERER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xB7240C0)
-#define PATRENDERER_ONENABLE_OFFSET UNITYSDK_OFFSET(0xB723260)
-#define PATRENDERER_RESET_OFFSET UNITYSDK_OFFSET(0xB7232B0)
-#define PATRENDERER__CTOR_OFFSET UNITYSDK_OFFSET(0xB7241B0)
+#define PATRENDERER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xC0F2310)
+#define PATRENDERER_METHOD_5_4EA6B1791DACA9CC_OFFSET UNITYSDK_OFFSET(0xC0F26E0)
+#define PATRENDERER_METHOD_5_6E3DEABB1FC191BB_OFFSET UNITYSDK_OFFSET(0xC0F1C80)
+#define PATRENDERER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xC0F2B60)
+#define PATRENDERER_ONENABLE_OFFSET UNITYSDK_OFFSET(0xC0F1D00)
+#define PATRENDERER_RESET_OFFSET UNITYSDK_OFFSET(0xC0F1D50)
+#define PATRENDERER__CTOR_OFFSET UNITYSDK_OFFSET(0xC0F2C50)
 
-inline static constexpr unsigned int PATRenderer_TypeDefinitionIndex = 45651;
+inline static constexpr unsigned int PATRenderer_TypeDefinitionIndex = 47902;
 
 class PATRenderer : public ::UnityEngine::MonoBehaviour
 {
@@ -38,9 +38,9 @@ public:
 	::System::Int32 TotalFrameTime; // 0x78
 	::System::Single TimeLocation; // 0x7C
 	::UnityEngine::MaterialPropertyBlock* _MPB; // 0x80
-	::Il2CppArray<::System::UInt32>* Field_5_14; // 0x88
-	::UnityEngine::ComputeBuffer* Field_5_15; // 0x90
-	::UnityEngine::Bounds Field_5_16; // 0x98
+	::Il2CppArray<::System::UInt32>* PIOLMHLFNPF; // 0x88
+	::UnityEngine::ComputeBuffer* NBACOLFCKBI; // 0x90
+	::UnityEngine::Bounds PDLBPLDNKEH; // 0x98
 
 	::System::Void _ctor()
 	{

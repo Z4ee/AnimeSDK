@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_AVATAREQUIPRECOMMENDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B1C5C50)
-#define RPG_GAMECORE_AVATAREQUIPRECOMMENDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1C5D90)
+#define RPG_GAMECORE_AVATAREQUIPRECOMMENDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CE3D180)
+#define RPG_GAMECORE_AVATAREQUIPRECOMMENDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE3D2C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AvatarEquipRecommendRow_TypeDefinitionIndex = 12284;
+	inline static constexpr unsigned int AvatarEquipRecommendRow_TypeDefinitionIndex = 12673;
 
 	class AvatarEquipRecommendRow : public ::System::Object
 	{

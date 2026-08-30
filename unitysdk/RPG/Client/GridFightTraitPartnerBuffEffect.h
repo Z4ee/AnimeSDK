@@ -7,23 +7,23 @@ namespace RPG::Client { class GridFightTrait; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_CLIENT_GRIDFIGHTTRAITPARTNERBUFFEFFECT_CANCAST_OFFSET UNITYSDK_OFFSET(0xC848F30)
-#define RPG_CLIENT_GRIDFIGHTTRAITPARTNERBUFFEFFECT_GETEFFECTPATH_OFFSET UNITYSDK_OFFSET(0xC848A90)
-#define RPG_CLIENT_GRIDFIGHTTRAITPARTNERBUFFEFFECT__CCTOR_OFFSET UNITYSDK_OFFSET(0xC848FA0)
-#define RPG_CLIENT_GRIDFIGHTTRAITPARTNERBUFFEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0xC848F90)
-#define RPG_CLIENT_GRIDFIGHTTRAITPARTNERBUFFEFFECT__GETEFFECTPATH_OFFSET UNITYSDK_OFFSET(0xC848CC0)
-#define RPG_CLIENT_GRIDFIGHTTRAITPARTNERBUFFEFFECT__TRYGETACTIVITEROLE_OFFSET UNITYSDK_OFFSET(0xC848B00)
+#define RPG_CLIENT_GRIDFIGHTTRAITPARTNERBUFFEFFECT_CANCAST_OFFSET UNITYSDK_OFFSET(0xD365230)
+#define RPG_CLIENT_GRIDFIGHTTRAITPARTNERBUFFEFFECT_GETEFFECTPATH_OFFSET UNITYSDK_OFFSET(0xD364D80)
+#define RPG_CLIENT_GRIDFIGHTTRAITPARTNERBUFFEFFECT__CCTOR_OFFSET UNITYSDK_OFFSET(0xD3652A0)
+#define RPG_CLIENT_GRIDFIGHTTRAITPARTNERBUFFEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0xD365290)
+#define RPG_CLIENT_GRIDFIGHTTRAITPARTNERBUFFEFFECT__GETEFFECTPATH_OFFSET UNITYSDK_OFFSET(0xD364FB0)
+#define RPG_CLIENT_GRIDFIGHTTRAITPARTNERBUFFEFFECT__TRYGETACTIVITEROLE_OFFSET UNITYSDK_OFFSET(0xD364DF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightTraitPartnerBuffEffect_TypeDefinitionIndex = 62438;
+	inline static constexpr unsigned int GridFightTraitPartnerBuffEffect_TypeDefinitionIndex = 65423;
 
 	class GridFightTraitPartnerBuffEffect : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::String*>** StaticGet__EffectByRoleID()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(GridFightTraitPartnerBuffEffect_TypeDefinitionIndex)->GetStaticField(0x2E300);
+			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(GridFightTraitPartnerBuffEffect_TypeDefinitionIndex)->GetStaticField(0x541A0);
 		}
 		// static const ::System::String* _CommonPath; // 0x0
 		// static const ::System::String* _DanHengILPath; // 0x0

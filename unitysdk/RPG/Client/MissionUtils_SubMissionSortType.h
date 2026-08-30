@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MissionUtils_SubMissionSortType_TypeDefinitionIndex = 63244;
+	inline static constexpr unsigned int MissionUtils_SubMissionSortType_TypeDefinitionIndex = 66229;
 
 	enum class MissionUtils_SubMissionSortType : ::System::Int32
 	{

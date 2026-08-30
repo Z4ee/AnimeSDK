@@ -7,7 +7,7 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace RPG::Client::LittleGame::ChenLing
 {
-	inline static constexpr unsigned int ChenLingSoldierView_AnimationCurveEntry_TypeDefinitionIndex = 74023;
+	inline static constexpr unsigned int ChenLingSoldierView_AnimationCurveEntry_TypeDefinitionIndex = 77507;
 
 	struct alignas(8) ChenLingSoldierView_AnimationCurveEntry
 	{

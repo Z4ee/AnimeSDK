@@ -5,24 +5,24 @@
 namespace MiHoYo::SDK { class ImageCache_TextureAvailable; }
 namespace UnityEngine { class Texture2D; }
 
-#define MIHOYO_SDK_IMAGECACHE___C__ASYNCDOWNLOADTEXTURE_B__6_0_OFFSET UNITYSDK_OFFSET(0x19D23AB0)
-#define MIHOYO_SDK_IMAGECACHE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19D23A60)
-#define MIHOYO_SDK_IMAGECACHE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19D23AA0)
+#define MIHOYO_SDK_IMAGECACHE___C__ASYNCDOWNLOADTEXTURE_B__6_0_OFFSET UNITYSDK_OFFSET(0x1B97EBB0)
+#define MIHOYO_SDK_IMAGECACHE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B97EB70)
+#define MIHOYO_SDK_IMAGECACHE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B97EBA0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ImageCache___c_TypeDefinitionIndex = 7933;
+	inline static constexpr unsigned int ImageCache___c_TypeDefinitionIndex = 7937;
 
 	class ImageCache___c : public ::System::Object
 	{
 	public:
 		static ::MiHoYo::SDK::ImageCache_TextureAvailable** StaticGet___9__6_0()
 		{
-			return (::MiHoYo::SDK::ImageCache_TextureAvailable**)Il2CppClass::FromTypeDefinitionIndex(ImageCache___c_TypeDefinitionIndex)->GetStaticField(0x21E50);
+			return (::MiHoYo::SDK::ImageCache_TextureAvailable**)Il2CppClass::FromTypeDefinitionIndex(ImageCache___c_TypeDefinitionIndex)->GetStaticField(0x147C0);
 		}
 		static ::MiHoYo::SDK::ImageCache___c** StaticGet___9()
 		{
-			return (::MiHoYo::SDK::ImageCache___c**)Il2CppClass::FromTypeDefinitionIndex(ImageCache___c_TypeDefinitionIndex)->GetStaticField(0x21E58);
+			return (::MiHoYo::SDK::ImageCache___c**)Il2CppClass::FromTypeDefinitionIndex(ImageCache___c_TypeDefinitionIndex)->GetStaticField(0x147C8);
 		}
 
 		static ::System::Void _cctor()

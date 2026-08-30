@@ -11,14 +11,14 @@ namespace UnityEngine { class Renderer; }
 namespace UnityEngine { class Shader; }
 namespace UnityEngine { class Texture2D; }
 
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPDIFFUSELIGHTING_INIT_OFFSET UNITYSDK_OFFSET(0xCC99510)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPDIFFUSELIGHTING_UNINIT_OFFSET UNITYSDK_OFFSET(0xCC99800)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPDIFFUSELIGHTING_UPDATEPROPERTY_OFFSET UNITYSDK_OFFSET(0xCC995B0)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPDIFFUSELIGHTING__CTOR_OFFSET UNITYSDK_OFFSET(0xCC99850)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPDIFFUSELIGHTING_INIT_OFFSET UNITYSDK_OFFSET(0xD798AB0)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPDIFFUSELIGHTING_UNINIT_OFFSET UNITYSDK_OFFSET(0xD798DA0)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPDIFFUSELIGHTING_UPDATEPROPERTY_OFFSET UNITYSDK_OFFSET(0xD798B50)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPDIFFUSELIGHTING__CTOR_OFFSET UNITYSDK_OFFSET(0xD798DF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginCharaPropDiffuseLighting_TypeDefinitionIndex = 66817;
+	inline static constexpr unsigned int MonoEffectPluginCharaPropDiffuseLighting_TypeDefinitionIndex = 69919;
 
 	class MonoEffectPluginCharaPropDiffuseLighting : public ::RPG::Client::MonoEffectPluginCharaPropBase
 	{
@@ -27,7 +27,7 @@ namespace RPG::Client
 		::UnityEngine::Texture2D* _DiffuseRampMultiTex; // 0x48
 		::System::Boolean Toggle_ShadowRamp; // 0x50
 		::System::Single _ShadowRamp; // 0x54
-		::Il2CppArray<::System::Boolean>* Field_6_4; // 0x58
+		::Il2CppArray<::System::Boolean>* LKIKPHKAFJB; // 0x58
 
 		::System::Void _ctor()
 		{

@@ -6,11 +6,11 @@
 
 namespace System { class String; }
 
-#define HOUDINIENGINEUNITY_HEU_OUTPUTATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x198C32B0)
+#define HOUDINIENGINEUNITY_HEU_OUTPUTATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B44EF20)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_OutputAttribute_TypeDefinitionIndex = 38272;
+	inline static constexpr unsigned int HEU_OutputAttribute_TypeDefinitionIndex = 39131;
 
 	class HEU_OutputAttribute : public ::System::Object
 	{

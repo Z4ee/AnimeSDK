@@ -6,10 +6,10 @@ class Class_3_CEF86C33D203CEB1;
 namespace RPG::Client::OpenWorld { class StreamingItemData; }
 namespace UnityEngine { class Object; }
 
-#define CLASS_3_CEF86C33D203CEB1___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x149FD910)
-#define CLASS_3_CEF86C33D203CEB1___C__DISPLAYCLASS5_0___PERSISTENTASYNCLOAD_B__0_OFFSET UNITYSDK_OFFSET(0x149FD9A0)
+#define CLASS_3_CEF86C33D203CEB1___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15891220)
+#define CLASS_3_CEF86C33D203CEB1___C__DISPLAYCLASS5_0___PERSISTENTASYNCLOAD_B__0_OFFSET UNITYSDK_OFFSET(0x158912B0)
 
-inline static constexpr unsigned int Class_3_CEF86C33D203CEB1___c__DisplayClass5_0_TypeDefinitionIndex = 70491;
+inline static constexpr unsigned int Class_3_CEF86C33D203CEB1___c__DisplayClass5_0_TypeDefinitionIndex = 73778;
 
 class Class_3_CEF86C33D203CEB1___c__DisplayClass5_0 : public ::System::Object
 {

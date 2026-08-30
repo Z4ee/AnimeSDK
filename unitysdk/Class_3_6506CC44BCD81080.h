@@ -5,16 +5,16 @@
 class Class_2_48488E8DBD9F6BCE;
 namespace RPG::GameCore { class DiceCombatPredicateConfig_DamageValueCompare; }
 
-#define CLASS_3_6506CC44BCD81080_METHOD_3_E93FB20C44775568_OFFSET UNITYSDK_OFFSET(0x1A68D4E0)
-#define CLASS_3_6506CC44BCD81080__CTOR_OFFSET UNITYSDK_OFFSET(0x1A68D4C0)
+#define CLASS_3_6506CC44BCD81080_METHOD_3_E93FB20C44775568_OFFSET UNITYSDK_OFFSET(0x1C29D1D0)
+#define CLASS_3_6506CC44BCD81080__CTOR_OFFSET UNITYSDK_OFFSET(0x1C29D1B0)
 
-inline static constexpr unsigned int Class_3_6506CC44BCD81080_TypeDefinitionIndex = 34769;
+inline static constexpr unsigned int Class_3_6506CC44BCD81080_TypeDefinitionIndex = 35630;
 
 class Class_3_6506CC44BCD81080 : public ::Class_2_98A798C0C96648F9
 {
 public:
-	::Class_2_48488E8DBD9F6BCE* Field_3_0; // 0x30
-	::RPG::GameCore::DiceCombatPredicateConfig_DamageValueCompare* Field_3_1; // 0x38
+	::RPG::GameCore::DiceCombatPredicateConfig_DamageValueCompare* EMJIBBDCGMO; // 0x30
+	::Class_2_48488E8DBD9F6BCE* JFBABKALCPJ; // 0x38
 
 	::System::Void _ctor(::RPG::GameCore::DiceCombatPredicateConfig_DamageValueCompare* a1, ::Class_2_48488E8DBD9F6BCE* a2)
 	{

@@ -3,19 +3,19 @@
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGHPMEMORYINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1A8594F0)
+#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGHPMEMORYINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1C48A3B0)
 
 namespace RPG::Client::LittleGame::ChenLing
 {
-	inline static constexpr unsigned int ChenLingHPMemoryInfo_TypeDefinitionIndex = 41146;
+	inline static constexpr unsigned int ChenLingHPMemoryInfo_TypeDefinitionIndex = 42106;
 
 	class ChenLingHPMemoryInfo : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::FixPoint CurrentEnemyHP; // 0x10
 		::RPG::GameCore::FixPoint TotalEnemyHP; // 0x18
-		::RPG::GameCore::FixPoint CurrentAllyHP; // 0x20
-		::RPG::GameCore::FixPoint TotalAllyHP; // 0x28
+		::RPG::GameCore::FixPoint TotalAllyHP; // 0x20
+		::RPG::GameCore::FixPoint CurrentAllyHP; // 0x28
 
 		::System::Void _ctor()
 		{

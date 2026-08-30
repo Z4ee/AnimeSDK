@@ -3,7 +3,7 @@
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int RubikCubePuzzleAxis_TypeDefinitionIndex = 74873;
+	inline static constexpr unsigned int RubikCubePuzzleAxis_TypeDefinitionIndex = 78358;
 
 	enum class RubikCubePuzzleAxis : ::System::Int32
 	{

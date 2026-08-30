@@ -6,12 +6,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ROGUEMAGICDIFFICULTYCOMPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B76A5A0)
-#define RPG_GAMECORE_ROGUEMAGICDIFFICULTYCOMPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B76A7D0)
+#define RPG_GAMECORE_ROGUEMAGICDIFFICULTYCOMPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3ED650)
+#define RPG_GAMECORE_ROGUEMAGICDIFFICULTYCOMPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3ED880)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueMagicDifficultyCompRow_TypeDefinitionIndex = 14281;
+	inline static constexpr unsigned int RogueMagicDifficultyCompRow_TypeDefinitionIndex = 14701;
 
 	class RogueMagicDifficultyCompRow : public ::System::Object
 	{

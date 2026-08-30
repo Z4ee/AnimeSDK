@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByTargetLockHP; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_AF516D4F0CC52A90_EVALUATE_OFFSET UNITYSDK_OFFSET(0xCABF430)
-#define CLASS_3_AF516D4F0CC52A90__CTOR_OFFSET UNITYSDK_OFFSET(0xCABF400)
+#define CLASS_3_AF516D4F0CC52A90_EVALUATE_OFFSET UNITYSDK_OFFSET(0xD25CA10)
+#define CLASS_3_AF516D4F0CC52A90__CTOR_OFFSET UNITYSDK_OFFSET(0xD25C9E0)
 
-inline static constexpr unsigned int Class_3_AF516D4F0CC52A90_TypeDefinitionIndex = 52657;
+inline static constexpr unsigned int Class_3_AF516D4F0CC52A90_TypeDefinitionIndex = 55356;
 
 class Class_3_AF516D4F0CC52A90 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByTargetLockHP*>
 {

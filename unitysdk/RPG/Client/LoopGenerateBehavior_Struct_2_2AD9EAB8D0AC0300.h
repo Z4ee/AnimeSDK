@@ -6,11 +6,11 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LoopGenerateBehavior_Struct_2_2AD9EAB8D0AC0300_TypeDefinitionIndex = 67718;
+	inline static constexpr unsigned int LoopGenerateBehavior_Struct_2_2AD9EAB8D0AC0300_TypeDefinitionIndex = 70873;
 
 	struct alignas(4) LoopGenerateBehavior_Struct_2_2AD9EAB8D0AC0300
 	{
-		::UnityEngine::Vector3 Field_2_0; // 0x10
-		::UnityEngine::Quaternion Field_2_1; // 0x1C
+		::UnityEngine::Vector3 PECPBEOHOJC; // 0x10
+		::UnityEngine::Quaternion NMELCPIOKNO; // 0x1C
 	};
 }

@@ -7,12 +7,12 @@
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_MOVEVIRTUALCAMERAONDOLLYPATHTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xDCF0DF0)
-#define RPGTOOLS_TIMELINE_MOVEVIRTUALCAMERAONDOLLYPATHTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xDCF0EA0)
+#define RPGTOOLS_TIMELINE_MOVEVIRTUALCAMERAONDOLLYPATHTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8BA720)
+#define RPGTOOLS_TIMELINE_MOVEVIRTUALCAMERAONDOLLYPATHTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xE8BA7D0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int MoveVirtualCameraOnDollyPathTrack_TypeDefinitionIndex = 46056;
+	inline static constexpr unsigned int MoveVirtualCameraOnDollyPathTrack_TypeDefinitionIndex = 48280;
 
 	class MoveVirtualCameraOnDollyPathTrack : public ::UnityEngine::Timeline::TrackAsset
 	{

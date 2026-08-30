@@ -11,13 +11,13 @@ namespace RPG::GameCore { class NumBarTypeConfig; }
 namespace RPG::GameCore { class ProgressBarTypeConfig; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_SETSUMMONERENERGYBARSTATE_METHOD_3_018161101C05D0B8_OFFSET UNITYSDK_OFFSET(0x1B8B3910)
-#define RPG_GAMECORE_SETSUMMONERENERGYBARSTATE_METHOD_3_C9EC7B540ECFE2D4_OFFSET UNITYSDK_OFFSET(0x1B8B3760)
-#define RPG_GAMECORE_SETSUMMONERENERGYBARSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8B3850)
+#define RPG_GAMECORE_SETSUMMONERENERGYBARSTATE_METHOD_3_018161101C05D0B8_OFFSET UNITYSDK_OFFSET(0x1D50F660)
+#define RPG_GAMECORE_SETSUMMONERENERGYBARSTATE_METHOD_3_47D58AC615DA84DD_OFFSET UNITYSDK_OFFSET(0x1D50F4B0)
+#define RPG_GAMECORE_SETSUMMONERENERGYBARSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D50F5A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetSummonerEnergyBarState_TypeDefinitionIndex = 21914;
+	inline static constexpr unsigned int SetSummonerEnergyBarState_TypeDefinitionIndex = 22478;
 
 	class SetSummonerEnergyBarState : public ::RPG::GameCore::TaskConfig
 	{
@@ -37,9 +37,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETSUMMONERENERGYBARSTATE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_C9EC7B540ECFE2D4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetSummonerEnergyBarState*& a2)
+		static ::System::Void Method_3_47D58AC615DA84DD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetSummonerEnergyBarState*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetSummonerEnergyBarState*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETSUMMONERENERGYBARSTATE_METHOD_3_C9EC7B540ECFE2D4_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetSummonerEnergyBarState*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETSUMMONERENERGYBARSTATE_METHOD_3_47D58AC615DA84DD_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_018161101C05D0B8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetSummonerEnergyBarState* a2)

@@ -7,27 +7,27 @@ namespace RPG { template <typename T1, typename T2> class PoolDictionary_2; }
 namespace RPG { template <typename T> class PoolList_1; }
 namespace System { class String; }
 
-#define CLASS_1_B8CD4F1CB8207431_CLEAR_OFFSET UNITYSDK_OFFSET(0x1A719450)
-#define CLASS_1_B8CD4F1CB8207431_ONALLOC_OFFSET UNITYSDK_OFFSET(0x1A719520)
-#define CLASS_1_B8CD4F1CB8207431_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x1A719600)
-#define CLASS_1_B8CD4F1CB8207431__CTOR_OFFSET UNITYSDK_OFFSET(0x1A719640)
+#define CLASS_1_B8CD4F1CB8207431_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C329690)
+#define CLASS_1_B8CD4F1CB8207431_ONALLOC_OFFSET UNITYSDK_OFFSET(0x1C329770)
+#define CLASS_1_B8CD4F1CB8207431_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x1C329850)
+#define CLASS_1_B8CD4F1CB8207431__CTOR_OFFSET UNITYSDK_OFFSET(0x1C329890)
 
-inline static constexpr unsigned int Class_1_B8CD4F1CB8207431_TypeDefinitionIndex = 40906;
+inline static constexpr unsigned int Class_1_B8CD4F1CB8207431_TypeDefinitionIndex = 41865;
 
 class Class_1_B8CD4F1CB8207431 : public ::System::Object
 {
 public:
-	::RPG::PoolDictionary_2<::System::Int32, ::System::Boolean>* Field_1_0; // 0x10
-	::RPG::PoolList_1<::System::Int32>* Field_1_1; // 0x18
-	::System::String* Field_1_2; // 0x20
-	::System::String* Field_1_3; // 0x28
-	::System::String* Field_1_4; // 0x30
-	::System::Int32 Field_1_5; // 0x38
-	::System::Boolean Field_1_6; // 0x3C
-	::System::Boolean Field_1_7; // 0x3D
-	::UnityEngine::Vector3 Field_1_8; // 0x40
-	::UnityEngine::Vector3 Field_1_9; // 0x4C
-	::System::Int32 Field_1_10; // 0x58
+	::RPG::PoolList_1<::System::Int32>* OPOCBLDANJG; // 0x10
+	::RPG::PoolDictionary_2<::System::Int32, ::System::Boolean>* KEHMJBHPNKG; // 0x18
+	::System::String* ODMGJKCAICF; // 0x20
+	::System::String* LOPPEGGELBJ; // 0x28
+	::System::String* CDHCPDPPKPH; // 0x30
+	::UnityEngine::Vector3 LONPDOGOIEG; // 0x38
+	::System::Int32 MNMHMECGDAK; // 0x44
+	::UnityEngine::Vector3 PCMJLKGLLDH; // 0x48
+	::System::Boolean CAGCHKJHMPD; // 0x54
+	::System::Boolean KMGIHDHMBJB; // 0x55
+	::System::Int32 OBJCCAHJONF; // 0x58
 
 	::System::Void _ctor()
 	{

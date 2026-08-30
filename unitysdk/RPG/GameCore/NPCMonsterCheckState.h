@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int NPCMonsterCheckState_TypeDefinitionIndex = 23709;
+	inline static constexpr unsigned int NPCMonsterCheckState_TypeDefinitionIndex = 24294;
 
 	enum class NPCMonsterCheckState : ::System::Int32
 	{

@@ -9,21 +9,21 @@ namespace System { class String; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine::UI { class RawImage; }
 
-#define CLASS_2_4432DBC0FB214C3F_METHOD_2_647D54B8817C986E_OFFSET UNITYSDK_OFFSET(0x146F7880)
-#define CLASS_2_4432DBC0FB214C3F_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x146F77A0)
-#define CLASS_2_4432DBC0FB214C3F_METHOD_2_DA1BF2C227DC3D86_OFFSET UNITYSDK_OFFSET(0x146F7740)
-#define CLASS_2_4432DBC0FB214C3F__CTOR_OFFSET UNITYSDK_OFFSET(0x146F7790)
+#define CLASS_2_4432DBC0FB214C3F_METHOD_2_647D54B8817C986E_OFFSET UNITYSDK_OFFSET(0x155639C0)
+#define CLASS_2_4432DBC0FB214C3F_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x155638E0)
+#define CLASS_2_4432DBC0FB214C3F_METHOD_2_DA1BF2C227DC3D86_OFFSET UNITYSDK_OFFSET(0x15563880)
+#define CLASS_2_4432DBC0FB214C3F__CTOR_OFFSET UNITYSDK_OFFSET(0x155638D0)
 
-inline static constexpr unsigned int Class_2_4432DBC0FB214C3F_TypeDefinitionIndex = 69486;
+inline static constexpr unsigned int Class_2_4432DBC0FB214C3F_TypeDefinitionIndex = 72714;
 
 class Class_2_4432DBC0FB214C3F : public ::Class_1_A167209E71412818
 {
 public:
-	::UnityEngine::RectTransform* Field_2_0; // 0x18
-	::RPG::Client::UIValueChangeAnimation* Field_2_1; // 0x20
-	::RPG::Client::UIValueChangeAnimation* Field_2_2; // 0x28
-	::UnityEngine::UI::RawImage* Field_2_3; // 0x30
-	::RPG::Client::UIMeta* Field_2_4; // 0x38
+	::UnityEngine::RectTransform* KGIPEFKJMHP; // 0x18
+	::RPG::Client::UIMeta* FGACGGHECGO; // 0x20
+	::RPG::Client::UIValueChangeAnimation* CGDBLHEPDNN; // 0x28
+	::UnityEngine::UI::RawImage* NEECNLPLKJG; // 0x30
+	::RPG::Client::UIValueChangeAnimation* MKCIKOAKEBB; // 0x38
 
 	::System::Void _ctor()
 	{

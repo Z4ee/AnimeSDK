@@ -1,12 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_DB663931210BBC27_37.h"
-#include "unitysdk/RPG/Client/TextID.h"
 
-namespace System { class Action; }
+class Class_1_B21BB5859936C97D;
+namespace RPG::GameCore { class BaseExpeditionBattleAction; }
+namespace RPG::GameCore { class ExpeditionBattleNodeContainer; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_828_TypeDefinitionIndex = 62595;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_828_TypeDefinitionIndex = 63949;
 
 class Class_0_16E4307DCC419505_828
 {

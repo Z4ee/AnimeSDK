@@ -5,17 +5,17 @@
 namespace RPG::Client::Promises { class Promise; }
 namespace RPG::GameCore { class ChimeraDeleteEffect; }
 
-#define CLASS_1_A3C7D69DCFA05A6F_METHOD_1_2CBE0B79DD36047E_OFFSET UNITYSDK_OFFSET(0x153A63A0)
-#define CLASS_1_A3C7D69DCFA05A6F_METHOD_1_8F9DF3D751E1E0BF_OFFSET UNITYSDK_OFFSET(0x153A6360)
-#define CLASS_1_A3C7D69DCFA05A6F__CTOR_OFFSET UNITYSDK_OFFSET(0x153A6330)
+#define CLASS_1_A3C7D69DCFA05A6F_METHOD_1_2CBE0B79DD36047E_OFFSET UNITYSDK_OFFSET(0x1613E670)
+#define CLASS_1_A3C7D69DCFA05A6F_METHOD_1_8F9DF3D751E1E0BF_OFFSET UNITYSDK_OFFSET(0x1613E630)
+#define CLASS_1_A3C7D69DCFA05A6F__CTOR_OFFSET UNITYSDK_OFFSET(0x1613E600)
 
-inline static constexpr unsigned int Class_1_A3C7D69DCFA05A6F_TypeDefinitionIndex = 74455;
+inline static constexpr unsigned int Class_1_A3C7D69DCFA05A6F_TypeDefinitionIndex = 77940;
 
 class Class_1_A3C7D69DCFA05A6F : public ::System::Object
 {
 public:
-	::RPG::GameCore::ChimeraDeleteEffect* Field_1_0; // 0x10
-	::RPG::Client::Promises::Promise* Field_1_1; // 0x18
+	::RPG::GameCore::ChimeraDeleteEffect* IGHAHBNLIJA; // 0x10
+	::RPG::Client::Promises::Promise* KKHPFDBFKHH; // 0x18
 
 	::System::Void _ctor(::RPG::GameCore::ChimeraDeleteEffect* a1)
 	{

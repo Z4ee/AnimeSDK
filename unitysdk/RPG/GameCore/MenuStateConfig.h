@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MENUSTATECONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B5EC500)
-#define RPG_GAMECORE_MENUSTATECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5EC700)
+#define RPG_GAMECORE_MENUSTATECONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D2689A0)
+#define RPG_GAMECORE_MENUSTATECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D268BA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MenuStateConfig_TypeDefinitionIndex = 15733;
+	inline static constexpr unsigned int MenuStateConfig_TypeDefinitionIndex = 16209;
 
 	class MenuStateConfig : public ::RPG::GameCore::JsonConfig
 	{

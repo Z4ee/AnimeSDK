@@ -6,16 +6,16 @@ class Class_1_3FF51CE8B91EFA1B;
 class Class_1_AB817CB39E494C61;
 namespace RPG::Client { class PrefabLoadMeta; }
 
-#define CLASS_2_DA1C3E81DF4E5765_CLASS_1_09FF9D1E46E8A688__CTOR_OFFSET UNITYSDK_OFFSET(0xB6949F0)
+#define CLASS_2_DA1C3E81DF4E5765_CLASS_1_09FF9D1E46E8A688__CTOR_OFFSET UNITYSDK_OFFSET(0xC09C620)
 
-inline static constexpr unsigned int Class_2_DA1C3E81DF4E5765_Class_1_09FF9D1E46E8A688_TypeDefinitionIndex = 68112;
+inline static constexpr unsigned int Class_2_DA1C3E81DF4E5765_Class_1_09FF9D1E46E8A688_TypeDefinitionIndex = 71288;
 
 class Class_2_DA1C3E81DF4E5765_Class_1_09FF9D1E46E8A688 : public ::System::Object
 {
 public:
-	::Class_1_3FF51CE8B91EFA1B* Field_1_0; // 0x10
-	::Class_1_AB817CB39E494C61* Field_1_1; // 0x18
-	::RPG::Client::PrefabLoadMeta* Field_1_2; // 0x20
+	::Class_1_3FF51CE8B91EFA1B* ANHEGDAFFJC; // 0x10
+	::RPG::Client::PrefabLoadMeta* GPJBLKEOBGG; // 0x18
+	::Class_1_AB817CB39E494C61* NCMJJIKPLMH; // 0x20
 
 	::System::Void _ctor()
 	{

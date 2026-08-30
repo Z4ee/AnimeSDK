@@ -14,39 +14,39 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationClip; }
 namespace UnityEngine { class AvatarMask; }
 
-#define CLASS_1_C3442CFB67797449_METHOD_1_4DA75A84B4031672_OFFSET UNITYSDK_OFFSET(0xB680920)
-#define CLASS_1_C3442CFB67797449_METHOD_1_53BE96F98780AE85_OFFSET UNITYSDK_OFFSET(0xB680800)
-#define CLASS_1_C3442CFB67797449_METHOD_1_6BA7BB45F0BA72F4_OFFSET UNITYSDK_OFFSET(0xB67FF70)
-#define CLASS_1_C3442CFB67797449_METHOD_1_783225B2A0229A54_OFFSET UNITYSDK_OFFSET(0xB680330)
-#define CLASS_1_C3442CFB67797449_METHOD_1_B679E9E5B94C6DE8_OFFSET UNITYSDK_OFFSET(0xB680A40)
-#define CLASS_1_C3442CFB67797449_METHOD_1_CC220716308E7D40_OFFSET UNITYSDK_OFFSET(0xB680560)
-#define CLASS_1_C3442CFB67797449_METHOD_1_F00B760D9C546ACF_OFFSET UNITYSDK_OFFSET(0xB680240)
-#define CLASS_1_C3442CFB67797449__CTOR_OFFSET UNITYSDK_OFFSET(0xB67F480)
+#define CLASS_1_C3442CFB67797449_METHOD_1_4DA75A84B4031672_OFFSET UNITYSDK_OFFSET(0xC0859F0)
+#define CLASS_1_C3442CFB67797449_METHOD_1_53BE96F98780AE85_OFFSET UNITYSDK_OFFSET(0xC0858E0)
+#define CLASS_1_C3442CFB67797449_METHOD_1_6BA7BB45F0BA72F4_OFFSET UNITYSDK_OFFSET(0xC085050)
+#define CLASS_1_C3442CFB67797449_METHOD_1_783225B2A0229A54_OFFSET UNITYSDK_OFFSET(0xC085410)
+#define CLASS_1_C3442CFB67797449_METHOD_1_B679E9E5B94C6DE8_OFFSET UNITYSDK_OFFSET(0xC085B10)
+#define CLASS_1_C3442CFB67797449_METHOD_1_CC220716308E7D40_OFFSET UNITYSDK_OFFSET(0xC085640)
+#define CLASS_1_C3442CFB67797449_METHOD_1_F00B760D9C546ACF_OFFSET UNITYSDK_OFFSET(0xC085320)
+#define CLASS_1_C3442CFB67797449__CTOR_OFFSET UNITYSDK_OFFSET(0xC084560)
 
-inline static constexpr unsigned int Class_1_C3442CFB67797449_TypeDefinitionIndex = 70159;
+inline static constexpr unsigned int Class_1_C3442CFB67797449_TypeDefinitionIndex = 73458;
 
 class Class_1_C3442CFB67797449 : public ::System::Object
 {
 public:
-	static ::System::Int32* StaticGet_Field_1_0()
+	static ::System::Int32* StaticGet_NBDNJGMLKIG()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_C3442CFB67797449_TypeDefinitionIndex)->GetStaticField(0xED0);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_C3442CFB67797449_TypeDefinitionIndex)->GetStaticField(0x4880);
 	}
-	::Class_1_913398509518AE8D* Field_1_1; // 0x10
-	::RPG::Client::MonoEmoPlayableGraph* Field_1_2; // 0x18
-	::Class_1_913398509518AE8D* Field_1_3; // 0x20
-	::Class_1_913398509518AE8D* Field_1_4; // 0x28
-	::Class_1_913398509518AE8D* Field_1_5; // 0x30
-	::RPG::Client::Emotion::EmoPartType Field_1_6; // 0x38
-	::System::Boolean Field_1_7; // 0x3C
-	::System::Boolean Field_1_8; // 0x3D
-	::UnityEngine::Animations::AnimationMixerPlayable Field_1_9; // 0x40
-	::UnityEngine::Animations::AnimationClipPlayable Field_1_10; // 0x50
-	::UnityEngine::Animations::AnimationClipPlayable Field_1_11; // 0x60
-	::UnityEngine::Animations::AnimationLayerMixerPlayable Field_1_12; // 0x70
-	::UnityEngine::Animations::AnimationMixerPlayable Field_1_13; // 0x80
-	::UnityEngine::Animations::AnimationMixerPlayable Field_1_14; // 0x90
-	::UnityEngine::Animations::AnimationMixerPlayable Field_1_15; // 0xA0
+	::RPG::Client::MonoEmoPlayableGraph* IKJNGHGBJMF; // 0x10
+	::Class_1_913398509518AE8D* NOJMBAFCOIM; // 0x18
+	::Class_1_913398509518AE8D* GCOKHMNKEDL; // 0x20
+	::Class_1_913398509518AE8D* KPOANKMDBBG; // 0x28
+	::Class_1_913398509518AE8D* OMEBFEIFHDP; // 0x30
+	::UnityEngine::Animations::AnimationLayerMixerPlayable MDDFEPCEPKE; // 0x38
+	::UnityEngine::Animations::AnimationClipPlayable GMAHPJNGHOK; // 0x48
+	::UnityEngine::Animations::AnimationMixerPlayable OBNLCGIIDLI; // 0x58
+	::RPG::Client::Emotion::EmoPartType OLANIKKEMHG; // 0x68
+	::System::Boolean GPCEEDBJLIN; // 0x6C
+	::System::Boolean LCAIFIDLAGE; // 0x6D
+	::UnityEngine::Animations::AnimationMixerPlayable GIJGMGGJEHJ; // 0x70
+	::UnityEngine::Animations::AnimationMixerPlayable DFFBFLPEKMC; // 0x80
+	::UnityEngine::Animations::AnimationClipPlayable BODFBDCLJCN; // 0x90
+	::UnityEngine::Animations::AnimationMixerPlayable PGBAENDHGDA; // 0xA0
 
 	::System::Void _ctor(::UnityEngine::Playables::PlayableGraph& a1, ::RPG::Client::Emotion::EmoPartType a2, ::RPG::Client::MonoEmoPlayableGraph* a3, ::UnityEngine::AvatarMask* a4, ::UnityEngine::AnimationClip* a5)
 	{

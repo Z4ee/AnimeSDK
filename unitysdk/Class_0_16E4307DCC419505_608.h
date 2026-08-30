@@ -1,9 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
+class Class_1_B68CA618BEA3A2C8;
+class Class_2_7CF36DB1DCE43BAF;
+namespace System { class String; }
 namespace UnityEngine { class GameObject; }
+namespace UnityEngine { class Transform; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_608_TypeDefinitionIndex = 56733;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_608_TypeDefinitionIndex = 57363;
 
 class Class_0_16E4307DCC419505_608
 {

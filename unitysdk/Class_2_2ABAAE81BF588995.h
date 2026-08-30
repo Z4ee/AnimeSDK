@@ -5,16 +5,16 @@
 namespace RPG::GameCore { class BaseChenLingBattleTargetEvaluator; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_2ABAAE81BF588995_METHOD_2_E2D07EC15AA24C11_OFFSET UNITYSDK_OFFSET(0x1523BC80)
-#define CLASS_2_2ABAAE81BF588995__CTOR_OFFSET UNITYSDK_OFFSET(0x1523BBF0)
+#define CLASS_2_2ABAAE81BF588995_METHOD_2_E2D07EC15AA24C11_OFFSET UNITYSDK_OFFSET(0x161A7A40)
+#define CLASS_2_2ABAAE81BF588995__CTOR_OFFSET UNITYSDK_OFFSET(0x161A79B0)
 
-inline static constexpr unsigned int Class_2_2ABAAE81BF588995_TypeDefinitionIndex = 73971;
+inline static constexpr unsigned int Class_2_2ABAAE81BF588995_TypeDefinitionIndex = 77455;
 
 class Class_2_2ABAAE81BF588995 : public ::Class_1_B8FF829EFDD29B81
 {
 public:
-	::System::Collections::Generic::List_1<::System::Int32>* Field_2_0; // 0x40
-	::Class_1_B8FF829EFDD29B81* Field_2_1; // 0x48
+	::Class_1_B8FF829EFDD29B81* LNGNFBOLKDD; // 0x40
+	::System::Collections::Generic::List_1<::System::Int32>* AEJNBIDCBCM; // 0x48
 
 	::System::Void _ctor(::Class_1_B8FF829EFDD29B81* a1, ::System::Int32 a2)
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2TreeNodeFlags_TypeDefinitionIndex = 35251;
+	inline static constexpr unsigned int B2TreeNodeFlags_TypeDefinitionIndex = 36112;
 
 	enum class B2TreeNodeFlags : ::System::Int32
 	{

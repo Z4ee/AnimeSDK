@@ -5,20 +5,20 @@
 
 namespace UnityEngine { class Transform; }
 
-#define RPG_GAMECORE_UI3DCAMERAFREELOOKSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0xDC4EA60)
+#define RPG_GAMECORE_UI3DCAMERAFREELOOKSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0xE7C6550)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int UI3DCameraFreeLookSetting_TypeDefinitionIndex = 54967;
+	inline static constexpr unsigned int UI3DCameraFreeLookSetting_TypeDefinitionIndex = 57691;
 
 	class UI3DCameraFreeLookSetting : public ::System::Object
 	{
 	public:
 		::UnityEngine::Transform* Target; // 0x10
-		::UnityEngine::Vector3 RailTail; // 0x18
-		::UnityEngine::Vector3 RailHead; // 0x24
-		::System::Single MaxRotationX; // 0x30
-		::System::Single Pitch; // 0x34
+		::System::Single MaxRotationX; // 0x18
+		::System::Single Pitch; // 0x1C
+		::UnityEngine::Vector3 RailHead; // 0x20
+		::UnityEngine::Vector3 RailTail; // 0x2C
 
 		::System::Void _ctor()
 		{

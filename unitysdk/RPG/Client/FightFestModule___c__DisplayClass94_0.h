@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class FightFestRaceData; }
 
-#define RPG_CLIENT_FIGHTFESTMODULE___C__DISPLAYCLASS94_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC5D99E0)
-#define RPG_CLIENT_FIGHTFESTMODULE___C__DISPLAYCLASS94_0__GETRACEDATA_B__0_OFFSET UNITYSDK_OFFSET(0xC5D99F0)
+#define RPG_CLIENT_FIGHTFESTMODULE___C__DISPLAYCLASS94_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD057820)
+#define RPG_CLIENT_FIGHTFESTMODULE___C__DISPLAYCLASS94_0__GETRACEDATA_B__0_OFFSET UNITYSDK_OFFSET(0xD05D8F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FightFestModule___c__DisplayClass94_0_TypeDefinitionIndex = 61272;
+	inline static constexpr unsigned int FightFestModule___c__DisplayClass94_0_TypeDefinitionIndex = 64253;
 
 	class FightFestModule___c__DisplayClass94_0 : public ::System::Object
 	{

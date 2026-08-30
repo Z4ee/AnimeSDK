@@ -8,21 +8,21 @@ namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::ObjectModel { template <typename T1, typename T2> class ReadOnlyDictionary_2; }
 
-#define MESSAGEPACK_RESOLVERS_COMPOSITERESOLVER_CREATE_1_OFFSET UNITYSDK_OFFSET(0x19B410C0)
-#define MESSAGEPACK_RESOLVERS_COMPOSITERESOLVER_CREATE_2_OFFSET UNITYSDK_OFFSET(0x19B41100)
-#define MESSAGEPACK_RESOLVERS_COMPOSITERESOLVER_CREATE_OFFSET UNITYSDK_OFFSET(0x19B40E10)
-#define MESSAGEPACK_RESOLVERS_COMPOSITERESOLVER__CCTOR_OFFSET UNITYSDK_OFFSET(0x19B41140)
+#define MESSAGEPACK_RESOLVERS_COMPOSITERESOLVER_CREATE_1_OFFSET UNITYSDK_OFFSET(0x1B6D0350)
+#define MESSAGEPACK_RESOLVERS_COMPOSITERESOLVER_CREATE_2_OFFSET UNITYSDK_OFFSET(0x1B6D0390)
+#define MESSAGEPACK_RESOLVERS_COMPOSITERESOLVER_CREATE_OFFSET UNITYSDK_OFFSET(0x1B6D00A0)
+#define MESSAGEPACK_RESOLVERS_COMPOSITERESOLVER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B6D03D0)
 
 namespace MessagePack::Resolvers
 {
-	inline static constexpr unsigned int CompositeResolver_TypeDefinitionIndex = 7214;
+	inline static constexpr unsigned int CompositeResolver_TypeDefinitionIndex = 7200;
 
 	class CompositeResolver : public ::System::Object
 	{
 	public:
 		static ::System::Collections::ObjectModel::ReadOnlyDictionary_2<::System::Type*, ::MessagePack::Formatters::IMessagePackFormatter*>** StaticGet_EmptyFormattersByType()
 		{
-			return (::System::Collections::ObjectModel::ReadOnlyDictionary_2<::System::Type*, ::MessagePack::Formatters::IMessagePackFormatter*>**)Il2CppClass::FromTypeDefinitionIndex(CompositeResolver_TypeDefinitionIndex)->GetStaticField(0xDD00);
+			return (::System::Collections::ObjectModel::ReadOnlyDictionary_2<::System::Type*, ::MessagePack::Formatters::IMessagePackFormatter*>**)Il2CppClass::FromTypeDefinitionIndex(CompositeResolver_TypeDefinitionIndex)->GetStaticField(0x2ECC0);
 		}
 
 		static ::System::Void _cctor()

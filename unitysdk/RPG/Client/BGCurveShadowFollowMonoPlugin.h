@@ -10,13 +10,13 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Mesh; }
 
-#define RPG_CLIENT_BGCURVESHADOWFOLLOWMONOPLUGIN_CREATESHADOWS_OFFSET UNITYSDK_OFFSET(0xBE22B30)
-#define RPG_CLIENT_BGCURVESHADOWFOLLOWMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xBE22BB0)
-#define RPG_CLIENT_BGCURVESHADOWFOLLOWMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xBE22C00)
+#define RPG_CLIENT_BGCURVESHADOWFOLLOWMONOPLUGIN_CREATESHADOWS_OFFSET UNITYSDK_OFFSET(0xC8BFEB0)
+#define RPG_CLIENT_BGCURVESHADOWFOLLOWMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xC8BFF30)
+#define RPG_CLIENT_BGCURVESHADOWFOLLOWMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xC8BFF80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BGCurveShadowFollowMonoPlugin_TypeDefinitionIndex = 67202;
+	inline static constexpr unsigned int BGCurveShadowFollowMonoPlugin_TypeDefinitionIndex = 70321;
 
 	class BGCurveShadowFollowMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::BGCurveShadowFollowBehavior*>
 	{

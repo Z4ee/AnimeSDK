@@ -10,26 +10,26 @@ namespace RPG::GameCore { class PlanetFesBigInt; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_PLANETFESLANDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B6BFAF0)
-#define RPG_GAMECORE_PLANETFESLANDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6BFED0)
+#define RPG_GAMECORE_PLANETFESLANDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D341A10)
+#define RPG_GAMECORE_PLANETFESLANDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D341DF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlanetFesLandRow_TypeDefinitionIndex = 11717;
+	inline static constexpr unsigned int PlanetFesLandRow_TypeDefinitionIndex = 12106;
 
 	class PlanetFesLandRow : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* GrantItemList; // 0x10
-		::RPG::GameCore::PlanetFesBigInt* PriceNum; // 0x18
-		::System::String* Pic; // 0x20
-		::System::String* CargoIcon; // 0x28
-		::Il2CppArray<::System::UInt32>* UnlockIDList; // 0x30
-		::RPG::Client::TextID Description; // 0x38
-		::RPG::GameCore::PlanetFesLandType LandType; // 0x48
-		::RPG::GameCore::PlanetFesStandType PlanetType; // 0x4C
-		::RPG::Client::TextID Name; // 0x50
-		::System::UInt32 ID; // 0x60
+		::System::String* Pic; // 0x10
+		::Il2CppArray<::System::UInt32>* UnlockIDList; // 0x18
+		::System::String* CargoIcon; // 0x20
+		::RPG::GameCore::PlanetFesBigInt* PriceNum; // 0x28
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* GrantItemList; // 0x30
+		::RPG::Client::TextID Name; // 0x38
+		::RPG::Client::TextID Description; // 0x48
+		::System::UInt32 ID; // 0x58
+		::RPG::GameCore::PlanetFesLandType LandType; // 0x5C
+		::RPG::GameCore::PlanetFesStandType PlanetType; // 0x60
 
 		::System::Void _ctor()
 		{

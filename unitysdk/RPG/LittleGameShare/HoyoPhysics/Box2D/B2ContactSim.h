@@ -4,32 +4,32 @@
 #include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2SimplexCache.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2CONTACTSIM_COPYFROM_OFFSET UNITYSDK_OFFSET(0x1A6AB930)
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2CONTACTSIM__CTOR_OFFSET UNITYSDK_OFFSET(0x1A6AC6D0)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2CONTACTSIM_COPYFROM_OFFSET UNITYSDK_OFFSET(0x1C2BB610)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2CONTACTSIM__CTOR_OFFSET UNITYSDK_OFFSET(0x1C2BC410)
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2ContactSim_TypeDefinitionIndex = 35082;
+	inline static constexpr unsigned int B2ContactSim_TypeDefinitionIndex = 35943;
 
 	class B2ContactSim : public ::System::Object
 	{
 	public:
-		::System::Single tangentSpeed; // 0x10
-		::System::Single rollingResistance; // 0x14
-		::System::Int32 shapeIdB; // 0x18
-		::System::Int32 bodySimIndexA; // 0x1C
-		::System::Single restitution; // 0x20
-		::System::Int32 bodySimIndexB; // 0x24
-		::System::Single invMassB; // 0x28
-		::System::Single friction; // 0x2C
-		::System::Single invIA; // 0x30
-		::System::UInt32 simFlags; // 0x34
-		::RPG::LittleGameShare::HoyoPhysics::Box2D::B2SimplexCache cache; // 0x38
-		::System::Single invIB; // 0x40
-		::System::Int32 shapeIdA; // 0x44
-		::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Manifold manifold; // 0x48
-		::System::Int32 contactId; // 0xB8
-		::System::Single invMassA; // 0xBC
+		::System::Int32 shapeIdA; // 0x10
+		::System::Single invMassA; // 0x14
+		::System::Single restitution; // 0x18
+		::System::Single friction; // 0x1C
+		::System::Single invIB; // 0x20
+		::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Manifold manifold; // 0x24
+		::System::Single invIA; // 0x94
+		::System::Single invMassB; // 0x98
+		::System::Int32 contactId; // 0x9C
+		::System::Int32 bodySimIndexA; // 0xA0
+		::System::UInt32 simFlags; // 0xA4
+		::System::Int32 bodySimIndexB; // 0xA8
+		::System::Single tangentSpeed; // 0xAC
+		::System::Int32 shapeIdB; // 0xB0
+		::System::Single rollingResistance; // 0xB4
+		::RPG::LittleGameShare::HoyoPhysics::Box2D::B2SimplexCache cache; // 0xB8
 
 		::System::Void _ctor()
 		{

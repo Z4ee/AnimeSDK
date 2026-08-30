@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int BAVariantKey_TypeDefinitionIndex = 4770;
+	inline static constexpr unsigned int BAVariantKey_TypeDefinitionIndex = 4780;
 
 	struct alignas(8) BAVariantKey
 	{

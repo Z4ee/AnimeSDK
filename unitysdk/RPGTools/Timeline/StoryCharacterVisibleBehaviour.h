@@ -4,21 +4,28 @@
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 
+class Class_2_5FF2340E88CFFA8C;
 namespace RPGTools::Timeline { class StoryCharacterVisibleClip; }
+namespace System { class Object; }
 
-#define RPGTOOLS_TIMELINE_STORYCHARACTERVISIBLEBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0xDD1CC90)
-#define RPGTOOLS_TIMELINE_STORYCHARACTERVISIBLEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xDD1CCB0)
-#define RPGTOOLS_TIMELINE_STORYCHARACTERVISIBLEBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0xDD1CCA0)
-#define RPGTOOLS_TIMELINE_STORYCHARACTERVISIBLEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xDD1CEF0)
+#define RPGTOOLS_TIMELINE_STORYCHARACTERVISIBLEBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0xE8E77A0)
+#define RPGTOOLS_TIMELINE_STORYCHARACTERVISIBLEBEHAVIOUR_METHOD_2_029E448E640E83D4_OFFSET UNITYSDK_OFFSET(0xE8E7890)
+#define RPGTOOLS_TIMELINE_STORYCHARACTERVISIBLEBEHAVIOUR_METHOD_2_4DAE53B8419F40B2_OFFSET UNITYSDK_OFFSET(0xE8E7C90)
+#define RPGTOOLS_TIMELINE_STORYCHARACTERVISIBLEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xE8E77C0)
+#define RPGTOOLS_TIMELINE_STORYCHARACTERVISIBLEBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xE8E7B10)
+#define RPGTOOLS_TIMELINE_STORYCHARACTERVISIBLEBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0xE8E77B0)
+#define RPGTOOLS_TIMELINE_STORYCHARACTERVISIBLEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xE8E7D60)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int StoryCharacterVisibleBehaviour_TypeDefinitionIndex = 46539;
+	inline static constexpr unsigned int StoryCharacterVisibleBehaviour_TypeDefinitionIndex = 48784;
 
 	class StoryCharacterVisibleBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:
 		::RPGTools::Timeline::StoryCharacterVisibleClip* _Clip_k__BackingField; // 0x10
+		::System::Single DirectlyDitherValue; // 0x18
+		::Class_2_5FF2340E88CFFA8C* _VisibleCmpt; // 0x20
 
 		::System::Void _ctor()
 		{
@@ -38,6 +45,21 @@ namespace RPGTools::Timeline
 		::System::Void OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_STORYCHARACTERVISIBLEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void ProcessFrame(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2, ::System::Object* a3)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_STORYCHARACTERVISIBLEBEHAVIOUR_PROCESSFRAME_OFFSET))(this, a1, a2, a3);
+		}
+
+		::System::Void Method_2_029E448E640E83D4(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_STORYCHARACTERVISIBLEBEHAVIOUR_METHOD_2_029E448E640E83D4_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void Method_2_4DAE53B8419F40B2(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2, ::System::Object* a3)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_STORYCHARACTERVISIBLEBEHAVIOUR_METHOD_2_4DAE53B8419F40B2_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

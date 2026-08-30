@@ -7,18 +7,18 @@ namespace System::Diagnostics::Tracing { class EventFieldAttribute; }
 namespace System::Diagnostics::Tracing { class TraceLoggingTypeInfo; }
 namespace System::Reflection { class MethodInfo; }
 
-#define SYSTEM_DIAGNOSTICS_TRACING_PROPERTYANALYSIS__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0EB650)
+#define SYSTEM_DIAGNOSTICS_TRACING_PROPERTYANALYSIS__CTOR_OFFSET UNITYSDK_OFFSET(0x1BCF2E50)
 
 namespace System::Diagnostics::Tracing
 {
-	inline static constexpr unsigned int PropertyAnalysis_TypeDefinitionIndex = 1605;
+	inline static constexpr unsigned int PropertyAnalysis_TypeDefinitionIndex = 1612;
 
 	class PropertyAnalysis : public ::System::Object
 	{
 	public:
-		::System::String* name; // 0x10
-		::System::Reflection::MethodInfo* getterInfo; // 0x18
-		::System::Diagnostics::Tracing::TraceLoggingTypeInfo* typeInfo; // 0x20
+		::System::Diagnostics::Tracing::TraceLoggingTypeInfo* typeInfo; // 0x10
+		::System::String* name; // 0x18
+		::System::Reflection::MethodInfo* getterInfo; // 0x20
 		::System::Diagnostics::Tracing::EventFieldAttribute* fieldAttribute; // 0x28
 
 		::System::Void _ctor(::System::String* a1, ::System::Reflection::MethodInfo* a2, ::System::Diagnostics::Tracing::TraceLoggingTypeInfo* a3, ::System::Diagnostics::Tracing::EventFieldAttribute* a4)

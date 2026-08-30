@@ -7,39 +7,39 @@ namespace Newtonsoft::Json::Serialization { class JsonProperty; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALREADER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A2E3030)
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALREADER___C__CREATEOBJECTUSINGCREATORWITHPARAMETERS_B__36_0_OFFSET UNITYSDK_OFFSET(0x1A2E3070)
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALREADER___C__CREATEOBJECTUSINGCREATORWITHPARAMETERS_B__36_2_OFFSET UNITYSDK_OFFSET(0x1A2E3090)
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALREADER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A2E3060)
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALREADER___C__POPULATEOBJECT_B__41_0_OFFSET UNITYSDK_OFFSET(0x1A2E30B0)
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALREADER___C__POPULATEOBJECT_B__41_1_OFFSET UNITYSDK_OFFSET(0x1A2E30C0)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALREADER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BEEB670)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALREADER___C__CREATEOBJECTUSINGCREATORWITHPARAMETERS_B__36_0_OFFSET UNITYSDK_OFFSET(0x1BEEB6B0)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALREADER___C__CREATEOBJECTUSINGCREATORWITHPARAMETERS_B__36_2_OFFSET UNITYSDK_OFFSET(0x1BEEB6D0)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALREADER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1BEEB6A0)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALREADER___C__POPULATEOBJECT_B__41_0_OFFSET UNITYSDK_OFFSET(0x1BEEB6F0)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALREADER___C__POPULATEOBJECT_B__41_1_OFFSET UNITYSDK_OFFSET(0x1BEEB700)
 
 namespace Newtonsoft::Json::Serialization
 {
-	inline static constexpr unsigned int JsonSerializerInternalReader___c_TypeDefinitionIndex = 9402;
+	inline static constexpr unsigned int JsonSerializerInternalReader___c_TypeDefinitionIndex = 9681;
 
 	class JsonSerializerInternalReader___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::Newtonsoft::Json::Serialization::JsonProperty*, ::Newtonsoft::Json::Serialization::JsonProperty*>** StaticGet___9__41_0()
+		static ::System::Func_2<::Newtonsoft::Json::Serialization::JsonProperty*, ::Newtonsoft::Json::Serialization::JsonSerializerInternalReader_PropertyPresence>** StaticGet___9__41_1()
 		{
-			return (::System::Func_2<::Newtonsoft::Json::Serialization::JsonProperty*, ::Newtonsoft::Json::Serialization::JsonProperty*>**)Il2CppClass::FromTypeDefinitionIndex(JsonSerializerInternalReader___c_TypeDefinitionIndex)->GetStaticField(0x36EC0);
+			return (::System::Func_2<::Newtonsoft::Json::Serialization::JsonProperty*, ::Newtonsoft::Json::Serialization::JsonSerializerInternalReader_PropertyPresence>**)Il2CppClass::FromTypeDefinitionIndex(JsonSerializerInternalReader___c_TypeDefinitionIndex)->GetStaticField(0x415B0);
 		}
 		static ::Newtonsoft::Json::Serialization::JsonSerializerInternalReader___c** StaticGet___9()
 		{
-			return (::Newtonsoft::Json::Serialization::JsonSerializerInternalReader___c**)Il2CppClass::FromTypeDefinitionIndex(JsonSerializerInternalReader___c_TypeDefinitionIndex)->GetStaticField(0x36EC8);
-		}
-		static ::System::Func_2<::Newtonsoft::Json::Serialization::JsonProperty*, ::System::String*>** StaticGet___9__36_2()
-		{
-			return (::System::Func_2<::Newtonsoft::Json::Serialization::JsonProperty*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(JsonSerializerInternalReader___c_TypeDefinitionIndex)->GetStaticField(0x36ED0);
+			return (::Newtonsoft::Json::Serialization::JsonSerializerInternalReader___c**)Il2CppClass::FromTypeDefinitionIndex(JsonSerializerInternalReader___c_TypeDefinitionIndex)->GetStaticField(0x415B8);
 		}
 		static ::System::Func_2<::Newtonsoft::Json::Serialization::JsonProperty*, ::System::String*>** StaticGet___9__36_0()
 		{
-			return (::System::Func_2<::Newtonsoft::Json::Serialization::JsonProperty*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(JsonSerializerInternalReader___c_TypeDefinitionIndex)->GetStaticField(0x36ED8);
+			return (::System::Func_2<::Newtonsoft::Json::Serialization::JsonProperty*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(JsonSerializerInternalReader___c_TypeDefinitionIndex)->GetStaticField(0x415C0);
 		}
-		static ::System::Func_2<::Newtonsoft::Json::Serialization::JsonProperty*, ::Newtonsoft::Json::Serialization::JsonSerializerInternalReader_PropertyPresence>** StaticGet___9__41_1()
+		static ::System::Func_2<::Newtonsoft::Json::Serialization::JsonProperty*, ::System::String*>** StaticGet___9__36_2()
 		{
-			return (::System::Func_2<::Newtonsoft::Json::Serialization::JsonProperty*, ::Newtonsoft::Json::Serialization::JsonSerializerInternalReader_PropertyPresence>**)Il2CppClass::FromTypeDefinitionIndex(JsonSerializerInternalReader___c_TypeDefinitionIndex)->GetStaticField(0x36EE0);
+			return (::System::Func_2<::Newtonsoft::Json::Serialization::JsonProperty*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(JsonSerializerInternalReader___c_TypeDefinitionIndex)->GetStaticField(0x415C8);
+		}
+		static ::System::Func_2<::Newtonsoft::Json::Serialization::JsonProperty*, ::Newtonsoft::Json::Serialization::JsonProperty*>** StaticGet___9__41_0()
+		{
+			return (::System::Func_2<::Newtonsoft::Json::Serialization::JsonProperty*, ::Newtonsoft::Json::Serialization::JsonProperty*>**)Il2CppClass::FromTypeDefinitionIndex(JsonSerializerInternalReader___c_TypeDefinitionIndex)->GetStaticField(0x415D0);
 		}
 
 		static ::System::Void _cctor()

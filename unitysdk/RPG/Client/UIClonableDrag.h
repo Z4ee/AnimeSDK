@@ -9,15 +9,15 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::EventSystems { class PointerEventData; }
 
-#define RPG_CLIENT_UICLONABLEDRAG_ONBEGINDRAG_OFFSET UNITYSDK_OFFSET(0xD7A3B40)
-#define RPG_CLIENT_UICLONABLEDRAG_ONDRAG_OFFSET UNITYSDK_OFFSET(0xD7A3990)
-#define RPG_CLIENT_UICLONABLEDRAG_ONENDDRAG_OFFSET UNITYSDK_OFFSET(0xD7A40D0)
-#define RPG_CLIENT_UICLONABLEDRAG_ONPOINTERCLICK_OFFSET UNITYSDK_OFFSET(0xD7A4230)
-#define RPG_CLIENT_UICLONABLEDRAG__CTOR_OFFSET UNITYSDK_OFFSET(0xD7A42A0)
+#define RPG_CLIENT_UICLONABLEDRAG_ONBEGINDRAG_OFFSET UNITYSDK_OFFSET(0xE345E50)
+#define RPG_CLIENT_UICLONABLEDRAG_ONDRAG_OFFSET UNITYSDK_OFFSET(0xE345CA0)
+#define RPG_CLIENT_UICLONABLEDRAG_ONENDDRAG_OFFSET UNITYSDK_OFFSET(0xE3463E0)
+#define RPG_CLIENT_UICLONABLEDRAG_ONPOINTERCLICK_OFFSET UNITYSDK_OFFSET(0xE346540)
+#define RPG_CLIENT_UICLONABLEDRAG__CTOR_OFFSET UNITYSDK_OFFSET(0xE3465B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIClonableDrag_TypeDefinitionIndex = 69440;
+	inline static constexpr unsigned int UIClonableDrag_TypeDefinitionIndex = 72666;
 
 	class UIClonableDrag : public ::UnityEngine::MonoBehaviour
 	{
@@ -32,7 +32,7 @@ namespace RPG::Client
 		::System::Boolean DragHideOrigin; // 0x42
 		::System::Boolean Mute; // 0x43
 		::System::Single CloneScaleFactor; // 0x44
-		::UnityEngine::GameObject* Field_5_10; // 0x48
+		::UnityEngine::GameObject* JAHEFPCEEAH; // 0x48
 
 		::System::Void _ctor()
 		{

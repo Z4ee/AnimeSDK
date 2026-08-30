@@ -4,19 +4,19 @@
 
 namespace MessagePack::Formatters { template <typename T> class IMessagePackFormatter_1; }
 
-#define MESSAGEPACK_IMMUTABLECOLLECTION_IMMUTABLECOLLECTIONRESOLVER__CCTOR_OFFSET UNITYSDK_OFFSET(0x19AF54A0)
-#define MESSAGEPACK_IMMUTABLECOLLECTION_IMMUTABLECOLLECTIONRESOLVER__CTOR_OFFSET UNITYSDK_OFFSET(0x19AF5490)
+#define MESSAGEPACK_IMMUTABLECOLLECTION_IMMUTABLECOLLECTIONRESOLVER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B6843A0)
+#define MESSAGEPACK_IMMUTABLECOLLECTION_IMMUTABLECOLLECTIONRESOLVER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B684390)
 
 namespace MessagePack::ImmutableCollection
 {
-	inline static constexpr unsigned int ImmutableCollectionResolver_TypeDefinitionIndex = 7328;
+	inline static constexpr unsigned int ImmutableCollectionResolver_TypeDefinitionIndex = 7314;
 
 	class ImmutableCollectionResolver : public ::System::Object
 	{
 	public:
 		static ::MessagePack::ImmutableCollection::ImmutableCollectionResolver** StaticGet_Instance()
 		{
-			return (::MessagePack::ImmutableCollection::ImmutableCollectionResolver**)Il2CppClass::FromTypeDefinitionIndex(ImmutableCollectionResolver_TypeDefinitionIndex)->GetStaticField(0xBA20);
+			return (::MessagePack::ImmutableCollection::ImmutableCollectionResolver**)Il2CppClass::FromTypeDefinitionIndex(ImmutableCollectionResolver_TypeDefinitionIndex)->GetStaticField(0x2ACB0);
 		}
 
 		::System::Void _ctor()

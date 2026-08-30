@@ -6,29 +6,29 @@ namespace System { class String; }
 namespace System { class WeakReference; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define SYSTEM_DIAGNOSTICS_SWITCH__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CC9CDC0)
-#define SYSTEM_DIAGNOSTICS_SWITCH__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1CC9C5B0)
-#define SYSTEM_DIAGNOSTICS_SWITCH__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC94D70)
-#define SYSTEM_DIAGNOSTICS_SWITCH__PRUNECACHEDSWITCHES_OFFSET UNITYSDK_OFFSET(0x1CC9C780)
+#define SYSTEM_DIAGNOSTICS_SWITCH__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E947D60)
+#define SYSTEM_DIAGNOSTICS_SWITCH__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E947550)
+#define SYSTEM_DIAGNOSTICS_SWITCH__CTOR_OFFSET UNITYSDK_OFFSET(0x1E93FD40)
+#define SYSTEM_DIAGNOSTICS_SWITCH__PRUNECACHEDSWITCHES_OFFSET UNITYSDK_OFFSET(0x1E947720)
 
 namespace System::Diagnostics
 {
-	inline static constexpr unsigned int Switch_TypeDefinitionIndex = 2527;
+	inline static constexpr unsigned int Switch_TypeDefinitionIndex = 2534;
 
 	class Switch : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::List_1<::System::WeakReference*>** StaticGet_switches()
 		{
-			return (::System::Collections::Generic::List_1<::System::WeakReference*>**)Il2CppClass::FromTypeDefinitionIndex(Switch_TypeDefinitionIndex)->GetStaticField(0x2ACA0);
+			return (::System::Collections::Generic::List_1<::System::WeakReference*>**)Il2CppClass::FromTypeDefinitionIndex(Switch_TypeDefinitionIndex)->GetStaticField(0x35310);
 		}
 		static ::System::Int32* StaticGet_s_LastCollectionCount()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Switch_TypeDefinitionIndex)->GetStaticField(0x7B90);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Switch_TypeDefinitionIndex)->GetStaticField(0xDEB0);
 		}
-		::System::String* displayName; // 0x10
-		::System::String* defaultValue; // 0x18
-		::System::String* switchValueString; // 0x20
+		::System::String* switchValueString; // 0x10
+		::System::String* displayName; // 0x18
+		::System::String* defaultValue; // 0x20
 		::System::String* description; // 0x28
 
 		::System::Void _ctor(::System::String* a1, ::System::String* a2)

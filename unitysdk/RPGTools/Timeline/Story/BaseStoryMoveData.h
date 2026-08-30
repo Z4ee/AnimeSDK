@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPGTOOLS_TIMELINE_STORY_BASESTORYMOVEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xDD1C940)
+#define RPGTOOLS_TIMELINE_STORY_BASESTORYMOVEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xE8E7450)
 
 namespace RPGTools::Timeline::Story
 {
-	inline static constexpr unsigned int BaseStoryMoveData_TypeDefinitionIndex = 46911;
+	inline static constexpr unsigned int BaseStoryMoveData_TypeDefinitionIndex = 49157;
 
 	class BaseStoryMoveData : public ::System::Object
 	{

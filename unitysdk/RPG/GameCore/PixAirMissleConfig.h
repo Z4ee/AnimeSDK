@@ -8,12 +8,12 @@ class Class_1_7A22A3DBEEDD1F80;
 class Class_4_F441CE80F00840D2;
 namespace System { class String; }
 
-#define RPG_GAMECORE_PIXAIRMISSLECONFIG_METHOD_2_CDAA2818B8BB73E8_OFFSET UNITYSDK_OFFSET(0x1B6B56E0)
-#define RPG_GAMECORE_PIXAIRMISSLECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6B59D0)
+#define RPG_GAMECORE_PIXAIRMISSLECONFIG_METHOD_2_CDAA2818B8BB73E8_OFFSET UNITYSDK_OFFSET(0x1D337620)
+#define RPG_GAMECORE_PIXAIRMISSLECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D337910)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PixAirMissleConfig_TypeDefinitionIndex = 20599;
+	inline static constexpr unsigned int PixAirMissleConfig_TypeDefinitionIndex = 21151;
 
 	class PixAirMissleConfig : public ::RPG::GameCore::JsonConfig
 	{

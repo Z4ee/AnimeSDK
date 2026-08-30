@@ -8,25 +8,25 @@ class Class_3_CD04D3296DF4C842_6;
 class Class_3_CD04D3296DF4C842_7;
 namespace RPG::GameCore { class GameEntity; }
 
-#define CLASS_1_5FEA23DE7B72218E__CTOR_OFFSET UNITYSDK_OFFSET(0xBD6FA70)
+#define CLASS_1_5FEA23DE7B72218E__CTOR_OFFSET UNITYSDK_OFFSET(0xC7D31F0)
 
-inline static constexpr unsigned int Class_1_5FEA23DE7B72218E_TypeDefinitionIndex = 54811;
+inline static constexpr unsigned int Class_1_5FEA23DE7B72218E_TypeDefinitionIndex = 57532;
 
 class Class_1_5FEA23DE7B72218E : public ::System::Object
 {
 public:
-	::RPG::GameCore::GameEntity* Field_1_0; // 0x10
-	::Class_3_CD04D3296DF4C842_7* Field_1_1; // 0x18
-	::Class_3_CD04D3296DF4C842_6* Field_1_2; // 0x20
-	::RPG::GameCore::PropSteerMode Field_1_3; // 0x28
-	::System::Single Field_1_4; // 0x2C
-	::System::Single Field_1_5; // 0x30
-	::System::Single Field_1_6; // 0x34
-	::System::Single Field_1_7; // 0x38
-	::RPG::GameCore::PropSteerTarget Field_1_8; // 0x3C
-	::System::Boolean Field_1_9; // 0x40
-	::System::Boolean Field_1_10; // 0x41
-	::System::Single Field_1_11; // 0x44
+	::RPG::GameCore::GameEntity* BBMMBAKDJBC; // 0x10
+	::Class_3_CD04D3296DF4C842_7* AIBLKCJHCCC; // 0x18
+	::Class_3_CD04D3296DF4C842_6* MGJLINFADJK; // 0x20
+	::System::Single GCJMFBKLGHI; // 0x28
+	::RPG::GameCore::PropSteerMode FCGFFAJIBKA; // 0x2C
+	::System::Boolean LGGDBEDMNMB; // 0x30
+	::System::Boolean HEEFOCEALFJ; // 0x31
+	::System::Single HHPCBFFNBIO; // 0x34
+	::System::Single CONJAMJKHBI; // 0x38
+	::System::Single IEHPFADHJFD; // 0x3C
+	::System::Single BKMEAGIICGI; // 0x40
+	::RPG::GameCore::PropSteerTarget HILNFHCPEAD; // 0x44
 
 	::System::Void _ctor()
 	{

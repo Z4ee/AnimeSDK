@@ -4,11 +4,11 @@
 
 namespace RPG::GameCore { class GameEntity; }
 
-#define RPG_CLIENT_PROP_WOLFBROPUZZLEBOARD___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD24C9B0)
+#define RPG_CLIENT_PROP_WOLFBROPUZZLEBOARD___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0xDD511C0)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int WolfBroPuzzleBoard___c__DisplayClass9_0_TypeDefinitionIndex = 74738;
+	inline static constexpr unsigned int WolfBroPuzzleBoard___c__DisplayClass9_0_TypeDefinitionIndex = 78223;
 
 	class WolfBroPuzzleBoard___c__DisplayClass9_0 : public ::System::Object
 	{

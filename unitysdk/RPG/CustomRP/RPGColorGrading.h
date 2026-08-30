@@ -9,20 +9,20 @@ namespace UnityEngine::Rendering { class ColorParameter; }
 namespace UnityEngine::Rendering { class FloatParameter; }
 namespace UnityEngine::Rendering { class TextureParameter; }
 
-#define RPG_CUSTOMRP_RPGCOLORGRADING_GETLUTFORMAT_OFFSET UNITYSDK_OFFSET(0x1AA8BDC0)
-#define RPG_CUSTOMRP_RPGCOLORGRADING__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AA8C380)
-#define RPG_CUSTOMRP_RPGCOLORGRADING__CTOR_OFFSET UNITYSDK_OFFSET(0x1AA8BE20)
+#define RPG_CUSTOMRP_RPGCOLORGRADING_GETLUTFORMAT_OFFSET UNITYSDK_OFFSET(0x1C6BD420)
+#define RPG_CUSTOMRP_RPGCOLORGRADING__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C6BD9E0)
+#define RPG_CUSTOMRP_RPGCOLORGRADING__CTOR_OFFSET UNITYSDK_OFFSET(0x1C6BD480)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int RPGColorGrading_TypeDefinitionIndex = 36253;
+	inline static constexpr unsigned int RPGColorGrading_TypeDefinitionIndex = 37112;
 
 	class RPGColorGrading : public ::RPG::CustomRP::CustomVolumeComponent
 	{
 	public:
 		static ::System::Int32* StaticGet_k_Lut2DSize()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(RPGColorGrading_TypeDefinitionIndex)->GetStaticField(0x11B30);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(RPGColorGrading_TypeDefinitionIndex)->GetStaticField(0xED20);
 		}
 		::UnityEngine::Rendering::FloatParameter* ColorCorrectionShadowMax; // 0x38
 		::UnityEngine::Rendering::FloatParameter* ColorCorrectionHighlightMin; // 0x40

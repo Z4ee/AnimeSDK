@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_TUTORIALGUIDEUICONTEXTCONFIG_METHOD_2_19CC70E5D550B8E8_OFFSET UNITYSDK_OFFSET(0x1B9BAF10)
-#define RPG_GAMECORE_TUTORIALGUIDEUICONTEXTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9BB020)
+#define RPG_GAMECORE_TUTORIALGUIDEUICONTEXTCONFIG_METHOD_2_E5E3A9B97425398F_OFFSET UNITYSDK_OFFSET(0x1D618350)
+#define RPG_GAMECORE_TUTORIALGUIDEUICONTEXTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D618490)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TutorialGuideUIContextConfig_TypeDefinitionIndex = 23466;
+	inline static constexpr unsigned int TutorialGuideUIContextConfig_TypeDefinitionIndex = 24048;
 
 	class TutorialGuideUIContextConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TUTORIALGUIDEUICONTEXTCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_19CC70E5D550B8E8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TutorialGuideUIContextConfig*& a2)
+		static ::System::Void Method_2_E5E3A9B97425398F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TutorialGuideUIContextConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TutorialGuideUIContextConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TUTORIALGUIDEUICONTEXTCONFIG_METHOD_2_19CC70E5D550B8E8_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TutorialGuideUIContextConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TUTORIALGUIDEUICONTEXTCONFIG_METHOD_2_E5E3A9B97425398F_OFFSET))(a1, a2);
 		}
 	};
 }

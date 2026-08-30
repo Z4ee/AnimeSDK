@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int PcssSampleQuality_TypeDefinitionIndex = 4868;
+	inline static constexpr unsigned int PcssSampleQuality_TypeDefinitionIndex = 4880;
 
 	enum class PcssSampleQuality : ::System::Int32
 	{

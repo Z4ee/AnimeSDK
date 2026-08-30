@@ -2,37 +2,37 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_92B1BD6FC8375724;
+class Class_1_AC6C63F15E9794D3;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_296A7AC90F028539_GET_HEADERS_OFFSET UNITYSDK_OFFSET(0x1515B020)
-#define CLASS_1_296A7AC90F028539_GET_HTTPSTATUS_OFFSET UNITYSDK_OFFSET(0x1515B000)
-#define CLASS_1_296A7AC90F028539_GET_RAWBODY_OFFSET UNITYSDK_OFFSET(0x1515B040)
-#define CLASS_1_296A7AC90F028539_GET_REQUEST_OFFSET UNITYSDK_OFFSET(0x1515AFF0)
-#define CLASS_1_296A7AC90F028539_SET_HEADERS_OFFSET UNITYSDK_OFFSET(0x1515B030)
-#define CLASS_1_296A7AC90F028539_SET_HTTPSTATUS_OFFSET UNITYSDK_OFFSET(0x1515B010)
-#define CLASS_1_296A7AC90F028539_SET_RAWBODY_OFFSET UNITYSDK_OFFSET(0x1515B050)
-#define CLASS_1_296A7AC90F028539__CTOR_OFFSET UNITYSDK_OFFSET(0x1515AFE0)
+#define CLASS_1_296A7AC90F028539_GET_HEADERS_OFFSET UNITYSDK_OFFSET(0x16072310)
+#define CLASS_1_296A7AC90F028539_GET_HTTPSTATUS_OFFSET UNITYSDK_OFFSET(0x160722F0)
+#define CLASS_1_296A7AC90F028539_GET_RAWBODY_OFFSET UNITYSDK_OFFSET(0x16072330)
+#define CLASS_1_296A7AC90F028539_GET_REQUEST_OFFSET UNITYSDK_OFFSET(0x160722E0)
+#define CLASS_1_296A7AC90F028539_SET_HEADERS_OFFSET UNITYSDK_OFFSET(0x16072320)
+#define CLASS_1_296A7AC90F028539_SET_HTTPSTATUS_OFFSET UNITYSDK_OFFSET(0x16072300)
+#define CLASS_1_296A7AC90F028539_SET_RAWBODY_OFFSET UNITYSDK_OFFSET(0x16072340)
+#define CLASS_1_296A7AC90F028539__CTOR_OFFSET UNITYSDK_OFFSET(0x160722D0)
 
-inline static constexpr unsigned int Class_1_296A7AC90F028539_TypeDefinitionIndex = 66250;
+inline static constexpr unsigned int Class_1_296A7AC90F028539_TypeDefinitionIndex = 69321;
 
 class Class_1_296A7AC90F028539 : public ::System::Object
 {
 public:
-	::Class_1_92B1BD6FC8375724* _Request_k__BackingField; // 0x10
-	::Il2CppArray<::System::Byte>* _RawBody_k__BackingField; // 0x18
-	::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* _Headers_k__BackingField; // 0x20
+	::Il2CppArray<::System::Byte>* _RawBody_k__BackingField; // 0x10
+	::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* _Headers_k__BackingField; // 0x18
+	::Class_1_AC6C63F15E9794D3* _Request_k__BackingField; // 0x20
 	::System::Int64 _HttpStatus_k__BackingField; // 0x28
 
-	::System::Void _ctor(::Class_1_92B1BD6FC8375724* a1)
+	::System::Void _ctor(::Class_1_AC6C63F15E9794D3* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_1_92B1BD6FC8375724*))((::PBYTE)hIl2Cpp + CLASS_1_296A7AC90F028539__CTOR_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::Class_1_AC6C63F15E9794D3*))((::PBYTE)hIl2Cpp + CLASS_1_296A7AC90F028539__CTOR_OFFSET))(this, a1);
 	}
 
-	::Class_1_92B1BD6FC8375724* get_Request()
+	::Class_1_AC6C63F15E9794D3* get_Request()
 	{
-		return ((::Class_1_92B1BD6FC8375724*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_296A7AC90F028539_GET_REQUEST_OFFSET))(this);
+		return ((::Class_1_AC6C63F15E9794D3*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_296A7AC90F028539_GET_REQUEST_OFFSET))(this);
 	}
 
 	::System::Int64 get_HttpStatus()

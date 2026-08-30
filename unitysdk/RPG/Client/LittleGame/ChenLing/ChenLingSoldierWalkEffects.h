@@ -5,11 +5,11 @@
 namespace RPG::GameCore { class ChenLingBattleEffectConfig; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGSOLDIERWALKEFFECTS__CTOR_OFFSET UNITYSDK_OFFSET(0xC97B930)
+#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGSOLDIERWALKEFFECTS__CTOR_OFFSET UNITYSDK_OFFSET(0xD4BBB90)
 
 namespace RPG::Client::LittleGame::ChenLing
 {
-	inline static constexpr unsigned int ChenLingSoldierWalkEffects_TypeDefinitionIndex = 74025;
+	inline static constexpr unsigned int ChenLingSoldierWalkEffects_TypeDefinitionIndex = 77509;
 
 	class ChenLingSoldierWalkEffects : public ::UnityEngine::MonoBehaviour
 	{

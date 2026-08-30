@@ -3,7 +3,7 @@
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int IPendingPromise_TypeDefinitionIndex = 37385;
+	inline static constexpr unsigned int IPendingPromise_TypeDefinitionIndex = 38244;
 
 	class IPendingPromise
 	{

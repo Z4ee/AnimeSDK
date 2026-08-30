@@ -6,20 +6,21 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ROGUETOURNWORKBENCHFUNCROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B7A22A0)
-#define RPG_GAMECORE_ROGUETOURNWORKBENCHFUNCROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7A2500)
+#define RPG_GAMECORE_ROGUETOURNWORKBENCHFUNCROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D490930)
+#define RPG_GAMECORE_ROGUETOURNWORKBENCHFUNCROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D490C20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueTournWorkbenchFuncRow_TypeDefinitionIndex = 14385;
+	inline static constexpr unsigned int RogueTournWorkbenchFuncRow_TypeDefinitionIndex = 14805;
 
 	class RogueTournWorkbenchFuncRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 FuncID; // 0x10
-		::RPG::GameCore::RogueWorkbenchFuncType FuncType; // 0x14
-		::RPG::Client::TextID FuncName; // 0x18
-		::RPG::Client::TextID FuncDesc; // 0x28
+		::RPG::GameCore::RogueWorkbenchFuncType FuncType; // 0x10
+		::System::UInt32 FuncID; // 0x14
+		::RPG::Client::TextID FuncDesc; // 0x18
+		::RPG::Client::TextID DisableFuncDesc; // 0x28
+		::RPG::Client::TextID FuncName; // 0x38
 
 		::System::Void _ctor()
 		{

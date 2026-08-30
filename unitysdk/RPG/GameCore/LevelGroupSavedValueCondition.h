@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_LEVELGROUPSAVEDVALUECONDITION_METHOD_2_CCD757E74709368D_OFFSET UNITYSDK_OFFSET(0x1B55B810)
-#define RPG_GAMECORE_LEVELGROUPSAVEDVALUECONDITION__CTOR_OFFSET UNITYSDK_OFFSET(0x1B55B990)
+#define RPG_GAMECORE_LEVELGROUPSAVEDVALUECONDITION_METHOD_2_CCD757E74709368D_OFFSET UNITYSDK_OFFSET(0x1D1D5760)
+#define RPG_GAMECORE_LEVELGROUPSAVEDVALUECONDITION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1D58E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelGroupSavedValueCondition_TypeDefinitionIndex = 16522;
+	inline static constexpr unsigned int LevelGroupSavedValueCondition_TypeDefinitionIndex = 17014;
 
 	class LevelGroupSavedValueCondition : public ::RPG::GameCore::JsonConfig
 	{

@@ -7,31 +7,31 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_SWORDTRAININGSTORYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B93B300)
-#define RPG_GAMECORE_SWORDTRAININGSTORYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B93B920)
+#define RPG_GAMECORE_SWORDTRAININGSTORYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D5985C0)
+#define RPG_GAMECORE_SWORDTRAININGSTORYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D598BE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SwordTrainingStoryRow_TypeDefinitionIndex = 11979;
+	inline static constexpr unsigned int SwordTrainingStoryRow_TypeDefinitionIndex = 12368;
 
 	class SwordTrainingStoryRow : public ::System::Object
 	{
 	public:
-		::System::String* StoryImage; // 0x10
-		::Il2CppArray<::System::UInt32>* EffectIDList; // 0x18
-		::RPG::Client::TextID EffectDesc; // 0x20
-		::RPG::Client::TextID StoryTitle; // 0x30
-		::System::UInt32 Condition; // 0x40
-		::System::UInt32 PerformanceID; // 0x44
-		::System::UInt32 MissionID; // 0x48
-		::System::UInt32 ExamID; // 0x4C
-		::RPG::GameCore::SwordTrainingStoryType StoryType; // 0x50
-		::System::UInt32 StoryID; // 0x54
-		::RPG::Client::TextID ConditionDesc; // 0x58
-		::RPG::Client::TextID StoryDesc; // 0x68
-		::RPG::Client::TextID StoryHint; // 0x78
-		::System::UInt32 RepeatPerformanceID; // 0x88
-		::System::UInt32 PartnerID; // 0x8C
+		::Il2CppArray<::System::UInt32>* EffectIDList; // 0x10
+		::System::String* StoryImage; // 0x18
+		::System::UInt32 MissionID; // 0x20
+		::System::UInt32 PartnerID; // 0x24
+		::RPG::GameCore::SwordTrainingStoryType StoryType; // 0x28
+		::System::UInt32 StoryID; // 0x2C
+		::RPG::Client::TextID ConditionDesc; // 0x30
+		::RPG::Client::TextID StoryDesc; // 0x40
+		::RPG::Client::TextID StoryTitle; // 0x50
+		::System::UInt32 ExamID; // 0x60
+		::System::UInt32 PerformanceID; // 0x64
+		::System::UInt32 Condition; // 0x68
+		::System::UInt32 RepeatPerformanceID; // 0x6C
+		::RPG::Client::TextID StoryHint; // 0x70
+		::RPG::Client::TextID EffectDesc; // 0x80
 
 		::System::Void _ctor()
 		{

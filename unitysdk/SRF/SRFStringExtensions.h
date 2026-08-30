@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define SRF_SRFSTRINGEXTENSIONS_FMT_OFFSET UNITYSDK_OFFSET(0x1C9FDAD0)
+#define SRF_SRFSTRINGEXTENSIONS_FMT_OFFSET UNITYSDK_OFFSET(0x1E6A87A0)
 
 namespace SRF
 {
-	inline static constexpr unsigned int SRFStringExtensions_TypeDefinitionIndex = 33935;
+	inline static constexpr unsigned int SRFStringExtensions_TypeDefinitionIndex = 34702;
 
 	class SRFStringExtensions : public ::System::Object
 	{

@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_PROPSOUNDATTENUATION_METHOD_2_EF6541D6F476CBBE_OFFSET UNITYSDK_OFFSET(0x1B6EF670)
-#define RPG_GAMECORE_PROPSOUNDATTENUATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6EF810)
+#define RPG_GAMECORE_PROPSOUNDATTENUATION_METHOD_2_EF6541D6F476CBBE_OFFSET UNITYSDK_OFFSET(0x1D371B10)
+#define RPG_GAMECORE_PROPSOUNDATTENUATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D371CB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropSoundAttenuation_TypeDefinitionIndex = 16844;
+	inline static constexpr unsigned int PropSoundAttenuation_TypeDefinitionIndex = 17346;
 
 	class PropSoundAttenuation : public ::RPG::GameCore::JsonConfig
 	{

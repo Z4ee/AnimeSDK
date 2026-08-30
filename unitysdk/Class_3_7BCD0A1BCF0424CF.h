@@ -7,18 +7,18 @@ namespace RPG::GameCore { class PropComponent; }
 namespace RPG::GameCore { class PropSetupUITrigger; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_7BCD0A1BCF0424CF_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB167D60)
-#define CLASS_3_7BCD0A1BCF0424CF_METHOD_3_633D5E1146938B41_OFFSET UNITYSDK_OFFSET(0xB1676A0)
-#define CLASS_3_7BCD0A1BCF0424CF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB1679D0)
-#define CLASS_3_7BCD0A1BCF0424CF__CTOR_OFFSET UNITYSDK_OFFSET(0xB167670)
+#define CLASS_3_7BCD0A1BCF0424CF_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBB31EE0)
+#define CLASS_3_7BCD0A1BCF0424CF_METHOD_3_633D5E1146938B41_OFFSET UNITYSDK_OFFSET(0xBB31820)
+#define CLASS_3_7BCD0A1BCF0424CF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBB31B50)
+#define CLASS_3_7BCD0A1BCF0424CF__CTOR_OFFSET UNITYSDK_OFFSET(0xBB317F0)
 
-inline static constexpr unsigned int Class_3_7BCD0A1BCF0424CF_TypeDefinitionIndex = 55774;
+inline static constexpr unsigned int Class_3_7BCD0A1BCF0424CF_TypeDefinitionIndex = 58505;
 
 class Class_3_7BCD0A1BCF0424CF : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::PropSetupUITrigger*>
 {
 public:
-	::RPG::GameCore::PropComponent* Field_3_0; // 0x28
-	::System::Boolean Field_3_1; // 0x30
+	::RPG::GameCore::PropComponent* PEDKDCGPHAM; // 0x28
+	::System::Boolean OMOOBJJFMFH; // 0x30
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::PropSetupUITrigger* a2)
 	{

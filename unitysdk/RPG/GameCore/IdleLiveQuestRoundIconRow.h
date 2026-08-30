@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_IDLELIVEQUESTROUNDICONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B528AA0)
-#define RPG_GAMECORE_IDLELIVEQUESTROUNDICONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B528BD0)
+#define RPG_GAMECORE_IDLELIVEQUESTROUNDICONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D1A20F0)
+#define RPG_GAMECORE_IDLELIVEQUESTROUNDICONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1A2220)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveQuestRoundIconRow_TypeDefinitionIndex = 11332;
+	inline static constexpr unsigned int IdleLiveQuestRoundIconRow_TypeDefinitionIndex = 11721;
 
 	class IdleLiveQuestRoundIconRow : public ::System::Object
 	{

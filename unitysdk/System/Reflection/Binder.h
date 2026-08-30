@@ -11,11 +11,11 @@ namespace System::Reflection { class FieldInfo; }
 namespace System::Reflection { class MethodBase; }
 namespace System::Reflection { class PropertyInfo; }
 
-#define SYSTEM_REFLECTION_BINDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A185250)
+#define SYSTEM_REFLECTION_BINDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD8CEB0)
 
 namespace System::Reflection
 {
-	inline static constexpr unsigned int Binder_TypeDefinitionIndex = 553;
+	inline static constexpr unsigned int Binder_TypeDefinitionIndex = 556;
 
 	class Binder : public ::System::Object
 	{

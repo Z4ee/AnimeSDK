@@ -5,16 +5,16 @@
 class Class_2_48488E8DBD9F6BCE;
 namespace RPG::GameCore { class DiceCombatTaskConfig_TriggerIceEffect; }
 
-#define CLASS_2_4C8DB1C87AB45681_METHOD_2_283DA224BE06DA9F_OFFSET UNITYSDK_OFFSET(0x1A5B4B10)
-#define CLASS_2_4C8DB1C87AB45681__CTOR_OFFSET UNITYSDK_OFFSET(0x1A5B4B00)
+#define CLASS_2_4C8DB1C87AB45681_METHOD_2_283DA224BE06DA9F_OFFSET UNITYSDK_OFFSET(0x1C1C49B0)
+#define CLASS_2_4C8DB1C87AB45681__CTOR_OFFSET UNITYSDK_OFFSET(0x1C1C49A0)
 
-inline static constexpr unsigned int Class_2_4C8DB1C87AB45681_TypeDefinitionIndex = 34773;
+inline static constexpr unsigned int Class_2_4C8DB1C87AB45681_TypeDefinitionIndex = 35634;
 
 class Class_2_4C8DB1C87AB45681 : public ::Class_1_B55037134F9E6688
 {
 public:
-	::Class_2_48488E8DBD9F6BCE* Field_2_0; // 0x18
-	::RPG::GameCore::DiceCombatTaskConfig_TriggerIceEffect* Field_2_1; // 0x20
+	::Class_2_48488E8DBD9F6BCE* EEFMDEHLLFI; // 0x18
+	::RPG::GameCore::DiceCombatTaskConfig_TriggerIceEffect* IGHAHBNLIJA; // 0x20
 
 	::System::Void _ctor(::RPG::GameCore::DiceCombatTaskConfig_TriggerIceEffect* a1, ::Class_2_48488E8DBD9F6BCE* a2)
 	{

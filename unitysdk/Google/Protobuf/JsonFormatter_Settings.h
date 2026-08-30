@@ -4,29 +4,29 @@
 
 namespace Google::Protobuf::Reflection { class TypeRegistry; }
 
-#define GOOGLE_PROTOBUF_JSONFORMATTER_SETTINGS_GET_DEFAULT_OFFSET UNITYSDK_OFFSET(0x197D3660)
-#define GOOGLE_PROTOBUF_JSONFORMATTER_SETTINGS_GET_FORMATDEFAULTVALUES_OFFSET UNITYSDK_OFFSET(0x197D3A40)
-#define GOOGLE_PROTOBUF_JSONFORMATTER_SETTINGS_GET_FORMATENUMSASINTEGERS_OFFSET UNITYSDK_OFFSET(0x197D3A60)
-#define GOOGLE_PROTOBUF_JSONFORMATTER_SETTINGS_GET_TYPEREGISTRY_OFFSET UNITYSDK_OFFSET(0x197D3A50)
-#define GOOGLE_PROTOBUF_JSONFORMATTER_SETTINGS__CCTOR_OFFSET UNITYSDK_OFFSET(0x197D36C0)
-#define GOOGLE_PROTOBUF_JSONFORMATTER_SETTINGS__CTOR_1_OFFSET UNITYSDK_OFFSET(0x197D3A70)
-#define GOOGLE_PROTOBUF_JSONFORMATTER_SETTINGS__CTOR_2_OFFSET UNITYSDK_OFFSET(0x197D3B30)
-#define GOOGLE_PROTOBUF_JSONFORMATTER_SETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x197D3890)
+#define GOOGLE_PROTOBUF_JSONFORMATTER_SETTINGS_GET_DEFAULT_OFFSET UNITYSDK_OFFSET(0x1B35E820)
+#define GOOGLE_PROTOBUF_JSONFORMATTER_SETTINGS_GET_FORMATDEFAULTVALUES_OFFSET UNITYSDK_OFFSET(0x1B35EC00)
+#define GOOGLE_PROTOBUF_JSONFORMATTER_SETTINGS_GET_FORMATENUMSASINTEGERS_OFFSET UNITYSDK_OFFSET(0x1B35EC20)
+#define GOOGLE_PROTOBUF_JSONFORMATTER_SETTINGS_GET_TYPEREGISTRY_OFFSET UNITYSDK_OFFSET(0x1B35EC10)
+#define GOOGLE_PROTOBUF_JSONFORMATTER_SETTINGS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B35E880)
+#define GOOGLE_PROTOBUF_JSONFORMATTER_SETTINGS__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B35EC30)
+#define GOOGLE_PROTOBUF_JSONFORMATTER_SETTINGS__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1B35ECF0)
+#define GOOGLE_PROTOBUF_JSONFORMATTER_SETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1B35EA50)
 
 namespace Google::Protobuf
 {
-	inline static constexpr unsigned int JsonFormatter_Settings_TypeDefinitionIndex = 5407;
+	inline static constexpr unsigned int JsonFormatter_Settings_TypeDefinitionIndex = 5396;
 
 	class JsonFormatter_Settings : public ::System::Object
 	{
 	public:
 		static ::Google::Protobuf::JsonFormatter_Settings** StaticGet__Default_k__BackingField()
 		{
-			return (::Google::Protobuf::JsonFormatter_Settings**)Il2CppClass::FromTypeDefinitionIndex(JsonFormatter_Settings_TypeDefinitionIndex)->GetStaticField(0x3E380);
+			return (::Google::Protobuf::JsonFormatter_Settings**)Il2CppClass::FromTypeDefinitionIndex(JsonFormatter_Settings_TypeDefinitionIndex)->GetStaticField(0x1D110);
 		}
 		::Google::Protobuf::Reflection::TypeRegistry* _TypeRegistry_k__BackingField; // 0x10
-		::System::Boolean _FormatDefaultValues_k__BackingField; // 0x18
-		::System::Boolean _FormatEnumsAsIntegers_k__BackingField; // 0x19
+		::System::Boolean _FormatEnumsAsIntegers_k__BackingField; // 0x18
+		::System::Boolean _FormatDefaultValues_k__BackingField; // 0x19
 
 		static ::System::Void _cctor()
 		{

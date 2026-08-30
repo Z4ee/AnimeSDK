@@ -5,12 +5,12 @@
 
 namespace RPG::Client { class MissionUtils___c__DisplayClass10_0; }
 
-#define RPG_CLIENT_MISSIONUTILS___C__DISPLAYCLASS10_1__CTOR_OFFSET UNITYSDK_OFFSET(0xCC1B210)
-#define RPG_CLIENT_MISSIONUTILS___C__DISPLAYCLASS10_1__TRYASSISTWAYPOINTONECLICKCOMPLETETRANSFER_B__0_OFFSET UNITYSDK_OFFSET(0xCC1F670)
+#define RPG_CLIENT_MISSIONUTILS___C__DISPLAYCLASS10_1__CTOR_OFFSET UNITYSDK_OFFSET(0xD71A150)
+#define RPG_CLIENT_MISSIONUTILS___C__DISPLAYCLASS10_1__TRYASSISTWAYPOINTONECLICKCOMPLETETRANSFER_B__0_OFFSET UNITYSDK_OFFSET(0xD71E5C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MissionUtils___c__DisplayClass10_1_TypeDefinitionIndex = 63249;
+	inline static constexpr unsigned int MissionUtils___c__DisplayClass10_1_TypeDefinitionIndex = 66234;
 
 	class MissionUtils___c__DisplayClass10_1 : public ::System::Object
 	{

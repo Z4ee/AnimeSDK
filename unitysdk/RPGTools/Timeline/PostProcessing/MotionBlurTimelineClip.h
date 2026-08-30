@@ -4,11 +4,11 @@
 
 namespace RPGTools::Timeline::PostProcessing { class MotionBlurTimelineBehaviour; }
 
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_MOTIONBLURTIMELINECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xDD06610)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_MOTIONBLURTIMELINECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xE8D05F0)
 
 namespace RPGTools::Timeline::PostProcessing
 {
-	inline static constexpr unsigned int MotionBlurTimelineClip_TypeDefinitionIndex = 46794;
+	inline static constexpr unsigned int MotionBlurTimelineClip_TypeDefinitionIndex = 49040;
 
 	class MotionBlurTimelineClip : public ::RPGTools::Timeline::PostProcessing::BaseTimelineClip_1<::RPGTools::Timeline::PostProcessing::MotionBlurTimelineBehaviour*>
 	{

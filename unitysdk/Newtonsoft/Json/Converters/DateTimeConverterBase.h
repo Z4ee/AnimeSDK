@@ -4,12 +4,12 @@
 
 namespace System { class Type; }
 
-#define NEWTONSOFT_JSON_CONVERTERS_DATETIMECONVERTERBASE_CANCONVERT_OFFSET UNITYSDK_OFFSET(0x1A267000)
-#define NEWTONSOFT_JSON_CONVERTERS_DATETIMECONVERTERBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A2670B0)
+#define NEWTONSOFT_JSON_CONVERTERS_DATETIMECONVERTERBASE_CANCONVERT_OFFSET UNITYSDK_OFFSET(0x1BE6F420)
+#define NEWTONSOFT_JSON_CONVERTERS_DATETIMECONVERTERBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE6F4E0)
 
 namespace Newtonsoft::Json::Converters
 {
-	inline static constexpr unsigned int DateTimeConverterBase_TypeDefinitionIndex = 9478;
+	inline static constexpr unsigned int DateTimeConverterBase_TypeDefinitionIndex = 9757;
 
 	class DateTimeConverterBase : public ::Newtonsoft::Json::JsonConverter
 	{

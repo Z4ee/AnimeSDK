@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AdvMonsterForbidSelect; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_98582790B9567525_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1449AA50)
-#define CLASS_3_98582790B9567525__CTOR_OFFSET UNITYSDK_OFFSET(0x1449AA20)
+#define CLASS_3_98582790B9567525_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x152CBCE0)
+#define CLASS_3_98582790B9567525__CTOR_OFFSET UNITYSDK_OFFSET(0x152CBCB0)
 
-inline static constexpr unsigned int Class_3_98582790B9567525_TypeDefinitionIndex = 55308;
+inline static constexpr unsigned int Class_3_98582790B9567525_TypeDefinitionIndex = 58032;
 
 class Class_3_98582790B9567525 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AdvMonsterForbidSelect*>
 {

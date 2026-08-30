@@ -9,13 +9,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_ADVSETAIFOLLOW_METHOD_3_24363BEC52A47423_OFFSET UNITYSDK_OFFSET(0x1B160540)
-#define RPG_GAMECORE_ADVSETAIFOLLOW_METHOD_3_AF9D07F3005766B4_OFFSET UNITYSDK_OFFSET(0x1B1606C0)
-#define RPG_GAMECORE_ADVSETAIFOLLOW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B160610)
+#define RPG_GAMECORE_ADVSETAIFOLLOW_METHOD_3_24363BEC52A47423_OFFSET UNITYSDK_OFFSET(0x1CDD7700)
+#define RPG_GAMECORE_ADVSETAIFOLLOW_METHOD_3_2F437DF65CCFE3BD_OFFSET UNITYSDK_OFFSET(0x1CDD7880)
+#define RPG_GAMECORE_ADVSETAIFOLLOW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CDD77D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvSetAIFollow_TypeDefinitionIndex = 21392;
+	inline static constexpr unsigned int AdvSetAIFollow_TypeDefinitionIndex = 21953;
 
 	class AdvSetAIFollow : public ::RPG::GameCore::TaskConfig
 	{
@@ -60,9 +60,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvSetAIFollow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVSETAIFOLLOW_METHOD_3_24363BEC52A47423_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_AF9D07F3005766B4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvSetAIFollow* a2)
+		static ::System::Void Method_3_2F437DF65CCFE3BD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvSetAIFollow* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvSetAIFollow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVSETAIFOLLOW_METHOD_3_AF9D07F3005766B4_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvSetAIFollow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVSETAIFOLLOW_METHOD_3_2F437DF65CCFE3BD_OFFSET))(a1, a2);
 		}
 	};
 }

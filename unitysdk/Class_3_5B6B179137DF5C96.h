@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByCompareLineupAvatarHpRatio; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_5B6B179137DF5C96_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB2E7010)
-#define CLASS_3_5B6B179137DF5C96__CTOR_OFFSET UNITYSDK_OFFSET(0xB2E6FE0)
+#define CLASS_3_5B6B179137DF5C96_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBCCEC00)
+#define CLASS_3_5B6B179137DF5C96__CTOR_OFFSET UNITYSDK_OFFSET(0xBCCEBD0)
 
-inline static constexpr unsigned int Class_3_5B6B179137DF5C96_TypeDefinitionIndex = 49715;
+inline static constexpr unsigned int Class_3_5B6B179137DF5C96_TypeDefinitionIndex = 52373;
 
 class Class_3_5B6B179137DF5C96 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByCompareLineupAvatarHpRatio*>
 {

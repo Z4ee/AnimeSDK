@@ -6,15 +6,15 @@
 namespace RPG::Client { class NotifyHandler; }
 namespace System { class Object; }
 
-#define CLASS_2_FD4CAB81BEFA440B_INTERNALINVOKE_OFFSET UNITYSDK_OFFSET(0xB168C20)
-#define CLASS_2_FD4CAB81BEFA440B__CTOR_OFFSET UNITYSDK_OFFSET(0xB168C10)
+#define CLASS_2_FD4CAB81BEFA440B_INTERNALINVOKE_OFFSET UNITYSDK_OFFSET(0xBB32DA0)
+#define CLASS_2_FD4CAB81BEFA440B__CTOR_OFFSET UNITYSDK_OFFSET(0xBB32D90)
 
-inline static constexpr unsigned int Class_2_FD4CAB81BEFA440B_TypeDefinitionIndex = 69792;
+inline static constexpr unsigned int Class_2_FD4CAB81BEFA440B_TypeDefinitionIndex = 73050;
 
 class Class_2_FD4CAB81BEFA440B : public ::Class_1_6AB058C99D483032
 {
 public:
-	::RPG::Client::NotifyHandler* Field_2_0; // 0x18
+	::RPG::Client::NotifyHandler* GCHONPLAABC; // 0x18
 
 	::System::Void _ctor(::RPG::Client::NotifyType a1, ::RPG::Client::NotifyHandler* a2)
 	{

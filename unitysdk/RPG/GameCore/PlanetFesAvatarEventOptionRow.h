@@ -5,22 +5,22 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_PLANETFESAVATAREVENTOPTIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B6B9BB0)
-#define RPG_GAMECORE_PLANETFESAVATAREVENTOPTIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6B9E90)
+#define RPG_GAMECORE_PLANETFESAVATAREVENTOPTIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D33BAD0)
+#define RPG_GAMECORE_PLANETFESAVATAREVENTOPTIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D33BDB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlanetFesAvatarEventOptionRow_TypeDefinitionIndex = 11769;
+	inline static constexpr unsigned int PlanetFesAvatarEventOptionRow_TypeDefinitionIndex = 12158;
 
 	class PlanetFesAvatarEventOptionRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* NextOptionList; // 0x10
-		::System::UInt32 ActivityRewardID; // 0x18
-		::System::UInt32 EventOptionID; // 0x1C
-		::RPG::Client::TextID OptionBubbleTalk; // 0x20
-		::System::UInt32 RewardPoolID; // 0x30
-		::RPG::Client::TextID EventContent; // 0x38
+		::RPG::Client::TextID EventContent; // 0x18
+		::System::UInt32 RewardPoolID; // 0x28
+		::RPG::Client::TextID OptionBubbleTalk; // 0x30
+		::System::UInt32 ActivityRewardID; // 0x40
+		::System::UInt32 EventOptionID; // 0x44
 
 		::System::Void _ctor()
 		{

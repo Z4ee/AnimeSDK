@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define ENTITAS_CODEGENERATION_ATTRIBUTES_FLAGPREFIXATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x157A6B50)
+#define ENTITAS_CODEGENERATION_ATTRIBUTES_FLAGPREFIXATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x16531880)
 
 namespace Entitas::CodeGeneration::Attributes
 {
-	inline static constexpr unsigned int FlagPrefixAttribute_TypeDefinitionIndex = 9748;
+	inline static constexpr unsigned int FlagPrefixAttribute_TypeDefinitionIndex = 10027;
 
 	class FlagPrefixAttribute : public ::System::Attribute
 	{

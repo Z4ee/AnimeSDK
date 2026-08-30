@@ -4,11 +4,11 @@
 
 namespace RPG::Client { class ChimeraTalkData; }
 
-#define RPG_CLIENT_CHIMERAPERIODRANDOMTALKDATA_ACCWEIGHTEDTALKDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xC1506C0)
+#define RPG_CLIENT_CHIMERAPERIODRANDOMTALKDATA_ACCWEIGHTEDTALKDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xCC06EC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraPeriodRandomTalkData_AccWeightedTalkData_TypeDefinitionIndex = 60707;
+	inline static constexpr unsigned int ChimeraPeriodRandomTalkData_AccWeightedTalkData_TypeDefinitionIndex = 63560;
 
 	class ChimeraPeriodRandomTalkData_AccWeightedTalkData : public ::System::Object
 	{

@@ -6,24 +6,24 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MAZESKILLROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B5E9F00)
-#define RPG_GAMECORE_MAZESKILLROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5EA730)
+#define RPG_GAMECORE_MAZESKILLROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D266650)
+#define RPG_GAMECORE_MAZESKILLROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D266E80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MazeSkillRow_TypeDefinitionIndex = 12110;
+	inline static constexpr unsigned int MazeSkillRow_TypeDefinitionIndex = 12499;
 
 	class MazeSkillRow : public ::System::Object
 	{
 	public:
 		::System::String* SkillTriggerKey; // 0x10
-		::RPG::Client::TextID MazeSkillDesc; // 0x18
-		::System::UInt32 MPCost; // 0x28
-		::System::UInt32 MazeSkilltype; // 0x2C
-		::System::UInt32 RelatedAvatarSkill; // 0x30
-		::RPG::Client::TextID MazeSkillName; // 0x38
-		::System::UInt32 Priority; // 0x48
-		::System::UInt32 MazeSkillId; // 0x4C
+		::System::UInt32 Priority; // 0x18
+		::System::UInt32 MazeSkilltype; // 0x1C
+		::System::UInt32 RelatedAvatarSkill; // 0x20
+		::System::UInt32 MPCost; // 0x24
+		::System::UInt32 MazeSkillId; // 0x28
+		::RPG::Client::TextID MazeSkillName; // 0x30
+		::RPG::Client::TextID MazeSkillDesc; // 0x40
 
 		::System::Void _ctor()
 		{

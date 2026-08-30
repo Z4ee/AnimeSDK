@@ -4,20 +4,20 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MAPPINGINFOCONNECTIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B5AE360)
-#define RPG_GAMECORE_MAPPINGINFOCONNECTIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5AEA00)
+#define RPG_GAMECORE_MAPPINGINFOCONNECTIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D22A970)
+#define RPG_GAMECORE_MAPPINGINFOCONNECTIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D22B010)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MappingInfoConnectionRow_TypeDefinitionIndex = 12095;
+	inline static constexpr unsigned int MappingInfoConnectionRow_TypeDefinitionIndex = 12484;
 
 	class MappingInfoConnectionRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 TargetEntranceID; // 0x10
-		::System::UInt32 SourceMappingInfoID; // 0x14
-		::System::UInt32 SourceEntranceID; // 0x18
-		::System::UInt32 TargetMappingInfoID; // 0x1C
+		::System::UInt32 TargetMappingInfoID; // 0x10
+		::System::UInt32 SourceEntranceID; // 0x14
+		::System::UInt32 TargetEntranceID; // 0x18
+		::System::UInt32 SourceMappingInfoID; // 0x1C
 
 		::System::Void _ctor()
 		{

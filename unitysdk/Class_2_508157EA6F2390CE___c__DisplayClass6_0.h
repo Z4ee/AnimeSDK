@@ -8,18 +8,18 @@ namespace BansheeGz::BGSpline::Curve { class BGCurvePoint; }
 namespace RPG::GameCore { class LevelCurveInfo; }
 namespace RPG::GameCore { class LevelCurvePointInfo; }
 
-#define CLASS_2_508157EA6F2390CE___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1497B6E0)
-#define CLASS_2_508157EA6F2390CE___C__DISPLAYCLASS6_0___CREATEARRIVECURVE_B__0_OFFSET UNITYSDK_OFFSET(0x1497B6F0)
+#define CLASS_2_508157EA6F2390CE___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15808A10)
+#define CLASS_2_508157EA6F2390CE___C__DISPLAYCLASS6_0___CREATEARRIVECURVE_B__0_OFFSET UNITYSDK_OFFSET(0x15808A20)
 
-inline static constexpr unsigned int Class_2_508157EA6F2390CE___c__DisplayClass6_0_TypeDefinitionIndex = 51007;
+inline static constexpr unsigned int Class_2_508157EA6F2390CE___c__DisplayClass6_0_TypeDefinitionIndex = 53691;
 
 class Class_2_508157EA6F2390CE___c__DisplayClass6_0 : public ::System::Object
 {
 public:
-	::RPG::GameCore::LevelCurveInfo* curveInfo; // 0x10
-	::RPG::GameCore::LevelCurvePointInfo* origin; // 0x18
-	::UnityEngine::Vector3 startPos; // 0x20
-	::UnityEngine::Vector3 originNormal; // 0x2C
+	::RPG::GameCore::LevelCurvePointInfo* origin; // 0x10
+	::RPG::GameCore::LevelCurveInfo* curveInfo; // 0x18
+	::UnityEngine::Vector3 originNormal; // 0x20
+	::UnityEngine::Vector3 startPos; // 0x2C
 
 	::System::Void _ctor()
 	{

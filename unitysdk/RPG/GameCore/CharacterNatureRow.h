@@ -6,19 +6,19 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHARACTERNATUREROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B31C880)
-#define RPG_GAMECORE_CHARACTERNATUREROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B31CE40)
+#define RPG_GAMECORE_CHARACTERNATUREROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CF988A0)
+#define RPG_GAMECORE_CHARACTERNATUREROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF98E60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterNatureRow_TypeDefinitionIndex = 12502;
+	inline static constexpr unsigned int CharacterNatureRow_TypeDefinitionIndex = 12893;
 
 	class CharacterNatureRow : public ::System::Object
 	{
 	public:
 		::System::String* SpritePath; // 0x10
-		::RPG::GameCore::CharacterNatureType NatureType; // 0x18
-		::System::UInt32 NatureID; // 0x1C
+		::System::UInt32 NatureID; // 0x18
+		::RPG::GameCore::CharacterNatureType NatureType; // 0x1C
 
 		::System::Void _ctor()
 		{

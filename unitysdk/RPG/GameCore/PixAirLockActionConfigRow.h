@@ -6,23 +6,23 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_PIXAIRLOCKACTIONCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B6B5400)
-#define RPG_GAMECORE_PIXAIRLOCKACTIONCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6B56D0)
+#define RPG_GAMECORE_PIXAIRLOCKACTIONCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D337340)
+#define RPG_GAMECORE_PIXAIRLOCKACTIONCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D337610)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PixAirLockActionConfigRow_TypeDefinitionIndex = 11704;
+	inline static constexpr unsigned int PixAirLockActionConfigRow_TypeDefinitionIndex = 12093;
 
 	class PixAirLockActionConfigRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* PermissionIDArray; // 0x10
-		::RPG::Client::TextID TextHint; // 0x18
-		::System::UInt32 StageID; // 0x28
-		::System::UInt32 AreaID; // 0x2C
-		::System::UInt32 NodeID; // 0x30
-		::System::UInt32 ID; // 0x34
-		::RPG::GameCore::PixAirLockActionName PermissionActionName; // 0x38
+		::RPG::GameCore::PixAirLockActionName PermissionActionName; // 0x18
+		::System::UInt32 NodeID; // 0x1C
+		::System::UInt32 ID; // 0x20
+		::RPG::Client::TextID TextHint; // 0x28
+		::System::UInt32 AreaID; // 0x38
+		::System::UInt32 StageID; // 0x3C
 
 		::System::Void _ctor()
 		{

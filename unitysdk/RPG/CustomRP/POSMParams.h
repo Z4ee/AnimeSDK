@@ -4,18 +4,18 @@
 #include "unitysdk/UnityEngine/Matrix4x4.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define RPG_CUSTOMRP_POSMPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x1AA82E20)
+#define RPG_CUSTOMRP_POSMPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x1C6B4580)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int POSMParams_TypeDefinitionIndex = 36133;
+	inline static constexpr unsigned int POSMParams_TypeDefinitionIndex = 36992;
 
 	class POSMParams : public ::System::Object
 	{
 	public:
-		::UnityEngine::Vector3 forward; // 0x10
-		::UnityEngine::Matrix4x4 localToWorld; // 0x1C
-		::UnityEngine::Matrix4x4 oobbDelegateDrawMatrix; // 0x5C
+		::UnityEngine::Matrix4x4 localToWorld; // 0x10
+		::UnityEngine::Matrix4x4 oobbDelegateDrawMatrix; // 0x50
+		::UnityEngine::Vector3 forward; // 0x90
 		::UnityEngine::Matrix4x4 worldToLocal; // 0x9C
 		::UnityEngine::Matrix4x4 worldToBounds; // 0xDC
 

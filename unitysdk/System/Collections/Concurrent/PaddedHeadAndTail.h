@@ -4,7 +4,7 @@
 
 namespace System::Collections::Concurrent
 {
-	inline static constexpr unsigned int PaddedHeadAndTail_TypeDefinitionIndex = 1516;
+	inline static constexpr unsigned int PaddedHeadAndTail_TypeDefinitionIndex = 1523;
 
 	struct alignas(4) PaddedHeadAndTail
 	{

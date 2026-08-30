@@ -4,16 +4,16 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/ValueTuple_2.h"
 
-#define CLASS_1_20731A45416B1D5A__CTOR_OFFSET UNITYSDK_OFFSET(0x1A7FB740)
+#define CLASS_1_20731A45416B1D5A__CTOR_OFFSET UNITYSDK_OFFSET(0x1C425550)
 
-inline static constexpr unsigned int Class_1_20731A45416B1D5A_TypeDefinitionIndex = 40102;
+inline static constexpr unsigned int Class_1_20731A45416B1D5A_TypeDefinitionIndex = 40981;
 
 class Class_1_20731A45416B1D5A : public ::System::Object
 {
 public:
-	::System::UInt32 Field_1_0; // 0x10
-	::RPG::GameCore::Match3::BombType Field_1_1; // 0x14
-	::System::ValueTuple_2<::System::UInt32, ::System::UInt32> Field_1_2; // 0x18
+	::System::ValueTuple_2<::System::UInt32, ::System::UInt32> LBMFPCIBMAC; // 0x10
+	::RPG::GameCore::Match3::BombType FEKGEPDLOCE; // 0x18
+	::System::UInt32 JCAEANLAGMB; // 0x1C
 
 	::System::Void _ctor()
 	{

@@ -4,21 +4,21 @@
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_719;
+class Class_0_16E4307DCC419505_758;
 class Class_1_3944BB4E8D54A4E2;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_58FECF0C9E45347C_METHOD_1_35E8CC5FF5AAF7E7_OFFSET UNITYSDK_OFFSET(0xB26CA00)
-#define CLASS_1_58FECF0C9E45347C_METHOD_1_3F968946B36E9A86_OFFSET UNITYSDK_OFFSET(0xB26CBD0)
-#define CLASS_1_58FECF0C9E45347C_METHOD_1_674F73509924BD16_OFFSET UNITYSDK_OFFSET(0xB26C7E0)
-#define CLASS_1_58FECF0C9E45347C__CTOR_OFFSET UNITYSDK_OFFSET(0xB26CD50)
+#define CLASS_1_58FECF0C9E45347C_METHOD_1_35E8CC5FF5AAF7E7_OFFSET UNITYSDK_OFFSET(0xBC4B050)
+#define CLASS_1_58FECF0C9E45347C_METHOD_1_3F968946B36E9A86_OFFSET UNITYSDK_OFFSET(0xBC4B220)
+#define CLASS_1_58FECF0C9E45347C_METHOD_1_674F73509924BD16_OFFSET UNITYSDK_OFFSET(0xBC4AE30)
+#define CLASS_1_58FECF0C9E45347C__CTOR_OFFSET UNITYSDK_OFFSET(0xBC4B3A0)
 
-inline static constexpr unsigned int Class_1_58FECF0C9E45347C_TypeDefinitionIndex = 59746;
+inline static constexpr unsigned int Class_1_58FECF0C9E45347C_TypeDefinitionIndex = 62592;
 
 class Class_1_58FECF0C9E45347C : public ::System::Object
 {
 public:
-	::System::Collections::Generic::Dictionary_2<::RPG::GameCore::AvatarPropertyType, ::Class_1_3944BB4E8D54A4E2*>* Field_1_0; // 0x10
+	::System::Collections::Generic::Dictionary_2<::RPG::GameCore::AvatarPropertyType, ::Class_1_3944BB4E8D54A4E2*>* IAFNNMFIMOI; // 0x10
 
 	::System::Void _ctor()
 	{
@@ -35,8 +35,8 @@ public:
 		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::AvatarPropertyType, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + CLASS_1_58FECF0C9E45347C_METHOD_1_35E8CC5FF5AAF7E7_OFFSET))(this, a1, a2);
 	}
 
-	::Class_0_16E4307DCC419505_719* Method_1_3F968946B36E9A86(::RPG::GameCore::AvatarPropertyType a1)
+	::Class_0_16E4307DCC419505_758* Method_1_3F968946B36E9A86(::RPG::GameCore::AvatarPropertyType a1)
 	{
-		return ((::Class_0_16E4307DCC419505_719*(*)(::PVOID, ::RPG::GameCore::AvatarPropertyType))((::PBYTE)hIl2Cpp + CLASS_1_58FECF0C9E45347C_METHOD_1_3F968946B36E9A86_OFFSET))(this, a1);
+		return ((::Class_0_16E4307DCC419505_758*(*)(::PVOID, ::RPG::GameCore::AvatarPropertyType))((::PBYTE)hIl2Cpp + CLASS_1_58FECF0C9E45347C_METHOD_1_3F968946B36E9A86_OFFSET))(this, a1);
 	}
 };

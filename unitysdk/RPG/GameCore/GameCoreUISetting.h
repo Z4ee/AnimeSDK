@@ -15,6 +15,7 @@ namespace RPG::GameCore { class ElationLevelSetting; }
 namespace RPG::GameCore { class HighlightOutlineSetting; }
 namespace RPG::GameCore { class ModifierDestroyTextInfo; }
 namespace RPG::GameCore { class MonsterEnergyBarNumColorSetting; }
+namespace RPG::GameCore { class MonsterHPBarStyleColorConfig; }
 namespace RPG::GameCore { class PluralityHPBarSetting; }
 namespace RPG::GameCore { class PluralityStanceBarSetting; }
 namespace RPG::GameCore { class RedModeStanceBarSetting; }
@@ -22,12 +23,12 @@ namespace RPG::GameCore { class UIPanelGroup; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_GAMECOREUISETTING_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B4B70C0)
-#define RPG_GAMECORE_GAMECOREUISETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4C26F0)
+#define RPG_GAMECORE_GAMECOREUISETTING_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D130660)
+#define RPG_GAMECORE_GAMECOREUISETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x1D13C7F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GameCoreUISetting_TypeDefinitionIndex = 16456;
+	inline static constexpr unsigned int GameCoreUISetting_TypeDefinitionIndex = 16946;
 
 	class GameCoreUISetting : public ::RPG::GameCore::JsonConfig
 	{
@@ -129,6 +130,7 @@ namespace RPG::GameCore
 		::System::UInt32 MaxShowBPCount; // 0x308
 		::RPG::GameCore::DamageTextPoolMaxSizeOfGraphicsQuality* DamageTextPoolMaxSize; // 0x310
 		::RPG::GameCore::ElationLevelSetting* ElationLevelSetting; // 0x318
+		::RPG::GameCore::MonsterHPBarStyleColorConfig* MonsterHPBarStyleColorConfig; // 0x320
 
 		::System::Void _ctor()
 		{

@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_CATDIALOGUEBUBBLEOFFSETROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B3022D0)
-#define RPG_GAMECORE_CATDIALOGUEBUBBLEOFFSETROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3024E0)
+#define RPG_GAMECORE_CATDIALOGUEBUBBLEOFFSETROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CF7E150)
+#define RPG_GAMECORE_CATDIALOGUEBUBBLEOFFSETROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF7E360)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CatDialogueBubbleOffsetRow_TypeDefinitionIndex = 12443;
+	inline static constexpr unsigned int CatDialogueBubbleOffsetRow_TypeDefinitionIndex = 12834;
 
 	class CatDialogueBubbleOffsetRow : public ::System::Object
 	{

@@ -6,7 +6,7 @@ namespace System::Runtime::Remoting::Messaging { class CADMethodReturnMessage; }
 
 namespace System::Runtime::Remoting::Channels
 {
-	inline static constexpr unsigned int CrossAppDomainSink_ProcessMessageRes_TypeDefinitionIndex = 1259;
+	inline static constexpr unsigned int CrossAppDomainSink_ProcessMessageRes_TypeDefinitionIndex = 1266;
 
 	struct alignas(8) CrossAppDomainSink_ProcessMessageRes
 	{

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/TABehaviorBase.h"
 
-#define RPG_CLIENT_SIMPRTXBEHAVIOR__CTOR_OFFSET UNITYSDK_OFFSET(0xD4FDC20)
+#define RPG_CLIENT_SIMPRTXBEHAVIOR__CTOR_OFFSET UNITYSDK_OFFSET(0xE08D590)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SimpRTXBehavior_TypeDefinitionIndex = 67043;
+	inline static constexpr unsigned int SimpRTXBehavior_TypeDefinitionIndex = 70148;
 
 	class SimpRTXBehavior : public ::RPG::Client::TABehaviorBase
 	{

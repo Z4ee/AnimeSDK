@@ -5,14 +5,14 @@
 
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_MONOCHARACTERCONICALVISIONFORWARD_AWAKE_OFFSET UNITYSDK_OFFSET(0xCC35410)
-#define RPG_CLIENT_MONOCHARACTERCONICALVISIONFORWARD_GET_FORWARD_OFFSET UNITYSDK_OFFSET(0xCC35290)
-#define RPG_CLIENT_MONOCHARACTERCONICALVISIONFORWARD_GET_POSITION_OFFSET UNITYSDK_OFFSET(0xCC35350)
-#define RPG_CLIENT_MONOCHARACTERCONICALVISIONFORWARD__CTOR_OFFSET UNITYSDK_OFFSET(0xCC35760)
+#define RPG_CLIENT_MONOCHARACTERCONICALVISIONFORWARD_AWAKE_OFFSET UNITYSDK_OFFSET(0xD7344C0)
+#define RPG_CLIENT_MONOCHARACTERCONICALVISIONFORWARD_GET_FORWARD_OFFSET UNITYSDK_OFFSET(0xD734340)
+#define RPG_CLIENT_MONOCHARACTERCONICALVISIONFORWARD_GET_POSITION_OFFSET UNITYSDK_OFFSET(0xD734400)
+#define RPG_CLIENT_MONOCHARACTERCONICALVISIONFORWARD__CTOR_OFFSET UNITYSDK_OFFSET(0xD734810)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoCharacterConicalVisionForward_TypeDefinitionIndex = 65485;
+	inline static constexpr unsigned int MonoCharacterConicalVisionForward_TypeDefinitionIndex = 68500;
 
 	class MonoCharacterConicalVisionForward : public ::UnityEngine::MonoBehaviour
 	{
@@ -21,7 +21,7 @@ namespace RPG::Client
 		::UnityEngine::Transform* root; // 0x20
 		::UnityEngine::Vector3 rotationOffset; // 0x28
 		::UnityEngine::Vector3 positionOffset; // 0x34
-		::UnityEngine::Vector3 Field_5_4; // 0x40
+		::UnityEngine::Vector3 KLLOLFBAPHG; // 0x40
 
 		::System::Void _ctor()
 		{

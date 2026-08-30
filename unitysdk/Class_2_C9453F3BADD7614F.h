@@ -5,19 +5,19 @@
 
 namespace System { class String; }
 
-#define CLASS_2_C9453F3BADD7614F_METHOD_2_D09A7320B998FB2D_OFFSET UNITYSDK_OFFSET(0x15217EC0)
-#define CLASS_2_C9453F3BADD7614F__CTOR_OFFSET UNITYSDK_OFFSET(0x15217FA0)
+#define CLASS_2_C9453F3BADD7614F_METHOD_2_D09A7320B998FB2D_OFFSET UNITYSDK_OFFSET(0x161831A0)
+#define CLASS_2_C9453F3BADD7614F__CTOR_OFFSET UNITYSDK_OFFSET(0x16183280)
 
-inline static constexpr unsigned int Class_2_C9453F3BADD7614F_TypeDefinitionIndex = 46665;
+inline static constexpr unsigned int Class_2_C9453F3BADD7614F_TypeDefinitionIndex = 48910;
 
 class Class_2_C9453F3BADD7614F : public ::UnityEngine::Playables::PlayableBehaviour
 {
 public:
-	::Il2CppArray<::System::String*>* Field_2_0; // 0x10
-	::System::String* Field_2_1; // 0x18
-	::System::Double Field_2_2; // 0x20
-	::System::Boolean Field_2_3; // 0x28
-	::RPGTools::Timeline::PlaybackTimelineClip_TimelinePlaybackOptions Field_2_4; // 0x2C
+	::System::String* EHJELGDJLPC; // 0x10
+	::Il2CppArray<::System::String*>* GNJOBBDLHEI; // 0x18
+	::System::Double OAPLHPJNELN; // 0x20
+	::RPGTools::Timeline::PlaybackTimelineClip_TimelinePlaybackOptions ALEGIFEHGLH; // 0x28
+	::System::Boolean LFNHCFMGPBP; // 0x2C
 
 	::System::Void _ctor()
 	{

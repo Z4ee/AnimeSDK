@@ -7,11 +7,11 @@ namespace RPG::Client { class CurveUndirectedConnection; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_CURVEUNDIRECTEDEDGESETTING__CTOR_OFFSET UNITYSDK_OFFSET(0xC1CFAA0)
+#define RPG_CLIENT_CURVEUNDIRECTEDEDGESETTING__CTOR_OFFSET UNITYSDK_OFFSET(0xCC8B2C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CurveUndirectedEdgeSetting_TypeDefinitionIndex = 65519;
+	inline static constexpr unsigned int CurveUndirectedEdgeSetting_TypeDefinitionIndex = 68534;
 
 	class CurveUndirectedEdgeSetting : public ::System::Object
 	{

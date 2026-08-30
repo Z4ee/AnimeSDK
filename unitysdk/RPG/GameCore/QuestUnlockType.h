@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int QuestUnlockType_TypeDefinitionIndex = 10071;
+	inline static constexpr unsigned int QuestUnlockType_TypeDefinitionIndex = 10407;
 
 	enum class QuestUnlockType : ::System::Int32
 	{
@@ -13,5 +13,6 @@ namespace RPG::GameCore
 		FinishMission = 3,
 		BattlePassWeekly = 4,
 		ManualUnlock = 5,
+		CakeCatchNotFinish = 6,
 	};
 }

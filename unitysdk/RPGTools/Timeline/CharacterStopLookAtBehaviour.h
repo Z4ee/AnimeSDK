@@ -5,12 +5,12 @@
 namespace RPG::Client { class CharacterMonoAvatar; }
 namespace RPGTools::Timeline { class CharacterStopLookAtData; }
 
-#define RPGTOOLS_TIMELINE_CHARACTERSTOPLOOKATBEHAVIOUR_METHOD_3_5EBCF276C230582C_OFFSET UNITYSDK_OFFSET(0xDCAF610)
-#define RPGTOOLS_TIMELINE_CHARACTERSTOPLOOKATBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xDCAF840)
+#define RPGTOOLS_TIMELINE_CHARACTERSTOPLOOKATBEHAVIOUR_METHOD_3_5EBCF276C230582C_OFFSET UNITYSDK_OFFSET(0xE82FE10)
+#define RPGTOOLS_TIMELINE_CHARACTERSTOPLOOKATBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xE830040)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int CharacterStopLookAtBehaviour_TypeDefinitionIndex = 46215;
+	inline static constexpr unsigned int CharacterStopLookAtBehaviour_TypeDefinitionIndex = 48449;
 
 	class CharacterStopLookAtBehaviour : public ::RPGTools::Timeline::CustomEventBehaviour
 	{

@@ -4,14 +4,14 @@
 
 namespace System { class String; }
 
-#define CLASS_1_945ACFB1FEBC7A2C_5__CTOR_OFFSET UNITYSDK_OFFSET(0x1A7C8010)
+#define CLASS_1_945ACFB1FEBC7A2C_5__CTOR_OFFSET UNITYSDK_OFFSET(0x1C3EEF70)
 
-inline static constexpr unsigned int Class_1_945ACFB1FEBC7A2C_5_TypeDefinitionIndex = 39637;
+inline static constexpr unsigned int Class_1_945ACFB1FEBC7A2C_5_TypeDefinitionIndex = 40510;
 
 class Class_1_945ACFB1FEBC7A2C_5 : public ::System::Object
 {
 public:
-	::System::String* Field_1_0; // 0x10
+	::System::String* OENAMINOLLF; // 0x10
 
 	::System::Void _ctor()
 	{

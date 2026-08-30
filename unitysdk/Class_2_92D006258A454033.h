@@ -1,50 +1,50 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_CA217ABF4E3B4F3F.h"
+#include "unitysdk/Class_1_34917908B7833130.h"
 #include "unitysdk/RPG/Client/CyreneSPPointState.h"
 
 namespace UnityEngine { class Animator; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_2_92D006258A454033_METHOD_2_1290EA767C459179_OFFSET UNITYSDK_OFFSET(0x1559EAF0)
-#define CLASS_2_92D006258A454033_METHOD_2_33ACA6CB2ABC73F7_OFFSET UNITYSDK_OFFSET(0x1559EC00)
-#define CLASS_2_92D006258A454033_METHOD_2_51C3FB4A34742D14_OFFSET UNITYSDK_OFFSET(0x1559ECC0)
-#define CLASS_2_92D006258A454033_METHOD_2_92DB2F35C113FEE0_OFFSET UNITYSDK_OFFSET(0x1559E890)
-#define CLASS_2_92D006258A454033__CCTOR_OFFSET UNITYSDK_OFFSET(0x1559EDD0)
-#define CLASS_2_92D006258A454033__CTOR_OFFSET UNITYSDK_OFFSET(0x1559EDA0)
-#define CLASS_2_92D006258A454033__ONBIND_OFFSET UNITYSDK_OFFSET(0x1559ED40)
+#define CLASS_2_92D006258A454033_METHOD_2_1290EA767C459179_OFFSET UNITYSDK_OFFSET(0xB5C4620)
+#define CLASS_2_92D006258A454033_METHOD_2_33ACA6CB2ABC73F7_OFFSET UNITYSDK_OFFSET(0xB5C4730)
+#define CLASS_2_92D006258A454033_METHOD_2_51C3FB4A34742D14_OFFSET UNITYSDK_OFFSET(0xB5C47F0)
+#define CLASS_2_92D006258A454033_METHOD_2_92DB2F35C113FEE0_OFFSET UNITYSDK_OFFSET(0xB5C43C0)
+#define CLASS_2_92D006258A454033__CCTOR_OFFSET UNITYSDK_OFFSET(0xB5C4900)
+#define CLASS_2_92D006258A454033__CTOR_OFFSET UNITYSDK_OFFSET(0xB5C48D0)
+#define CLASS_2_92D006258A454033__ONBIND_OFFSET UNITYSDK_OFFSET(0xB5C4870)
 
-inline static constexpr unsigned int Class_2_92D006258A454033_TypeDefinitionIndex = 68655;
+inline static constexpr unsigned int Class_2_92D006258A454033_TypeDefinitionIndex = 71853;
 
-class Class_2_92D006258A454033 : public ::Class_1_CA217ABF4E3B4F3F
+class Class_2_92D006258A454033 : public ::Class_1_34917908B7833130
 {
 public:
-	static ::System::Int32* StaticGet_Field_2_0()
+	static ::System::Int32* StaticGet_MDFDDIKBIDN()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_2_92D006258A454033_TypeDefinitionIndex)->GetStaticField(0xA1C0);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_2_92D006258A454033_TypeDefinitionIndex)->GetStaticField(0x146C0);
 	}
-	static ::System::Int32* StaticGet_Field_2_1()
+	static ::System::Int32* StaticGet_DNOPAFEDOEI()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_2_92D006258A454033_TypeDefinitionIndex)->GetStaticField(0xA1C4);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_2_92D006258A454033_TypeDefinitionIndex)->GetStaticField(0x146C4);
 	}
-	static ::System::Int32* StaticGet_Field_2_2()
+	static ::System::Int32* StaticGet_KGJMKFNLNJH()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_2_92D006258A454033_TypeDefinitionIndex)->GetStaticField(0xA1C8);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_2_92D006258A454033_TypeDefinitionIndex)->GetStaticField(0x146C8);
 	}
-	static ::System::Int32* StaticGet_Field_2_3()
+	static ::System::Int32* StaticGet_DBPKOEBFFPN()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_2_92D006258A454033_TypeDefinitionIndex)->GetStaticField(0xA1CC);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_2_92D006258A454033_TypeDefinitionIndex)->GetStaticField(0x146CC);
 	}
-	static ::System::Int32* StaticGet_Field_2_4()
+	static ::System::Int32* StaticGet_NNEDNCCBFGJ()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_2_92D006258A454033_TypeDefinitionIndex)->GetStaticField(0xA1D0);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_2_92D006258A454033_TypeDefinitionIndex)->GetStaticField(0x146D0);
 	}
-	static ::System::Int32* StaticGet_Field_2_5()
+	static ::System::Int32* StaticGet_BLKKJGAPANB()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_2_92D006258A454033_TypeDefinitionIndex)->GetStaticField(0xA1D4);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_2_92D006258A454033_TypeDefinitionIndex)->GetStaticField(0x146D4);
 	}
-	::UnityEngine::Animator* Field_2_6; // 0x60
-	::RPG::Client::CyreneSPPointState Field_2_7; // 0x68
+	::UnityEngine::Animator* APPGGMLEPLN; // 0x60
+	::RPG::Client::CyreneSPPointState DLNIGFGLPLJ; // 0x68
 
 	::System::Void _ctor()
 	{

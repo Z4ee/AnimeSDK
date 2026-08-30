@@ -8,12 +8,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DiceCombatTaskConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_DICECOMBATINSERTABILITYCONFIG_METHOD_2_7A3A55492E55FA17_OFFSET UNITYSDK_OFFSET(0x1B3AEFF0)
-#define RPG_GAMECORE_DICECOMBATINSERTABILITYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3AF240)
+#define RPG_GAMECORE_DICECOMBATINSERTABILITYCONFIG_METHOD_2_7A3A55492E55FA17_OFFSET UNITYSDK_OFFSET(0x1D02D2A0)
+#define RPG_GAMECORE_DICECOMBATINSERTABILITYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D02D4F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DiceCombatInsertAbilityConfig_TypeDefinitionIndex = 15511;
+	inline static constexpr unsigned int DiceCombatInsertAbilityConfig_TypeDefinitionIndex = 15948;
 
 	class DiceCombatInsertAbilityConfig : public ::RPG::GameCore::JsonConfig
 	{

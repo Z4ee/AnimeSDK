@@ -4,15 +4,15 @@
 
 namespace RPG::Client { class CycleScore; }
 
-#define CLASS_1_38CE67E6BFF88286_METHOD_1_C50C2423B8683D19_OFFSET UNITYSDK_OFFSET(0x1479DB10)
-#define CLASS_1_38CE67E6BFF88286__CTOR_OFFSET UNITYSDK_OFFSET(0x1479DBB0)
+#define CLASS_1_38CE67E6BFF88286_METHOD_1_C50C2423B8683D19_OFFSET UNITYSDK_OFFSET(0x15617210)
+#define CLASS_1_38CE67E6BFF88286__CTOR_OFFSET UNITYSDK_OFFSET(0x156172B0)
 
-inline static constexpr unsigned int Class_1_38CE67E6BFF88286_TypeDefinitionIndex = 60755;
+inline static constexpr unsigned int Class_1_38CE67E6BFF88286_TypeDefinitionIndex = 63608;
 
 class Class_1_38CE67E6BFF88286 : public ::System::Object
 {
 public:
-	::RPG::Client::CycleScore* Field_1_0; // 0x10
+	::RPG::Client::CycleScore* CACDGCHDHJM; // 0x10
 
 	::System::Void _ctor()
 	{

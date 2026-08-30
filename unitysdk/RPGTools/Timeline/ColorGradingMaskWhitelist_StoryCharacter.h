@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_COLORGRADINGMASKWHITELIST_STORYCHARACTER__CTOR_OFFSET UNITYSDK_OFFSET(0xDCB5FE0)
+#define RPGTOOLS_TIMELINE_COLORGRADINGMASKWHITELIST_STORYCHARACTER__CTOR_OFFSET UNITYSDK_OFFSET(0xE836E70)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int ColorGradingMaskWhitelist_StoryCharacter_TypeDefinitionIndex = 46672;
+	inline static constexpr unsigned int ColorGradingMaskWhitelist_StoryCharacter_TypeDefinitionIndex = 48917;
 
 	class ColorGradingMaskWhitelist_StoryCharacter : public ::System::Object
 	{

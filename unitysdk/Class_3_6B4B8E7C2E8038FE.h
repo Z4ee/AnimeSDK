@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetRogueTournFloorType; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_6B4B8E7C2E8038FE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x148E8BA0)
-#define CLASS_3_6B4B8E7C2E8038FE__CTOR_OFFSET UNITYSDK_OFFSET(0x148E8B70)
+#define CLASS_3_6B4B8E7C2E8038FE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x157ADF30)
+#define CLASS_3_6B4B8E7C2E8038FE__CTOR_OFFSET UNITYSDK_OFFSET(0x157ADF00)
 
-inline static constexpr unsigned int Class_3_6B4B8E7C2E8038FE_TypeDefinitionIndex = 52962;
+inline static constexpr unsigned int Class_3_6B4B8E7C2E8038FE_TypeDefinitionIndex = 55667;
 
 class Class_3_6B4B8E7C2E8038FE : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetRogueTournFloorType*>
 {

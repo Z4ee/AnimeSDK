@@ -7,23 +7,23 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 
-#define STRUCT_2_7C3EF1FF302C26DE_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x39EB070)
-#define STRUCT_2_7C3EF1FF302C26DE_EQUALS_OFFSET UNITYSDK_OFFSET(0x39EB030)
-#define STRUCT_2_7C3EF1FF302C26DE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x39EB140)
-#define STRUCT_2_7C3EF1FF302C26DE_METHOD_2_57A8E11FECF10345_1_OFFSET UNITYSDK_OFFSET(0x1A79D590)
-#define STRUCT_2_7C3EF1FF302C26DE_METHOD_2_57A8E11FECF10345_OFFSET UNITYSDK_OFFSET(0x1A79D4D0)
+#define STRUCT_2_7C3EF1FF302C26DE_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x3B7AF00)
+#define STRUCT_2_7C3EF1FF302C26DE_EQUALS_OFFSET UNITYSDK_OFFSET(0x3B7AEC0)
+#define STRUCT_2_7C3EF1FF302C26DE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3B7AFD0)
+#define STRUCT_2_7C3EF1FF302C26DE_METHOD_2_57A8E11FECF10345_1_OFFSET UNITYSDK_OFFSET(0x1C3C3720)
+#define STRUCT_2_7C3EF1FF302C26DE_METHOD_2_57A8E11FECF10345_OFFSET UNITYSDK_OFFSET(0x1C3C3660)
 
-inline static constexpr unsigned int Struct_2_7C3EF1FF302C26DE_TypeDefinitionIndex = 39556;
+inline static constexpr unsigned int Struct_2_7C3EF1FF302C26DE_TypeDefinitionIndex = 40429;
 
 struct alignas(8) Struct_2_7C3EF1FF302C26DE
 {
-	::System::Int32 Field_2_0; // 0x10
-	::System::Boolean Field_2_1; // 0x14
-	::System::Boolean Field_2_2; // 0x15
-	::System::String* Field_2_3; // 0x18
-	::System::UInt32 Field_2_4; // 0x20
-	::System::Action* Field_2_5; // 0x28
-	::System::Action_3<::System::String*, ::System::UInt32, ::System::Int32>* Field_2_6; // 0x30
+	::System::Int32 BCNJOLIFEEF; // 0x10
+	::System::Boolean LJPDMIJFEFM; // 0x14
+	::System::Boolean KJGAONILDMA; // 0x15
+	::System::String* DHMDAEKJENF; // 0x18
+	::System::UInt32 DFEJABODPGM; // 0x20
+	::System::Action* IMDLGFPMPEK; // 0x28
+	::System::Action_3<::System::String*, ::System::UInt32, ::System::Int32>* LMOBGIANDOO; // 0x30
 
 	::System::Boolean Equals(::Struct_2_7C3EF1FF302C26DE a1)
 	{

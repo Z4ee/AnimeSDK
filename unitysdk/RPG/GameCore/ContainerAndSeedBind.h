@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ContainerStateToSeedStateConfig; }
 
-#define RPG_GAMECORE_CONTAINERANDSEEDBIND_METHOD_2_78CEF452694D5D64_OFFSET UNITYSDK_OFFSET(0x1B383060)
-#define RPG_GAMECORE_CONTAINERANDSEEDBIND__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3831B0)
+#define RPG_GAMECORE_CONTAINERANDSEEDBIND_METHOD_2_78CEF452694D5D64_OFFSET UNITYSDK_OFFSET(0x1D0001D0)
+#define RPG_GAMECORE_CONTAINERANDSEEDBIND__CTOR_OFFSET UNITYSDK_OFFSET(0x1D000320)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ContainerAndSeedBind_TypeDefinitionIndex = 16859;
+	inline static constexpr unsigned int ContainerAndSeedBind_TypeDefinitionIndex = 17361;
 
 	class ContainerAndSeedBind : public ::RPG::GameCore::JsonConfig
 	{

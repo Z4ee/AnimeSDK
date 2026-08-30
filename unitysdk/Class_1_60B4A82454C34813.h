@@ -4,9 +4,9 @@
 
 namespace RPG::GameCore { class AIDecisionGroup; }
 
-#define CLASS_1_60B4A82454C34813_METHOD_1_C1A368B7C2B47CC8_OFFSET UNITYSDK_OFFSET(0x15338970)
+#define CLASS_1_60B4A82454C34813_METHOD_1_C1A368B7C2B47CC8_OFFSET UNITYSDK_OFFSET(0x162B0360)
 
-inline static constexpr unsigned int Class_1_60B4A82454C34813_TypeDefinitionIndex = 55192;
+inline static constexpr unsigned int Class_1_60B4A82454C34813_TypeDefinitionIndex = 57915;
 
 class Class_1_60B4A82454C34813 : public ::System::Object
 {

@@ -7,16 +7,16 @@ namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define CLASS_1_72FF3C03F0F06A80___C__DISPLAYCLASS3_0__CREATESUMMONUNIT_B__0_OFFSET UNITYSDK_OFFSET(0x14AC9130)
-#define CLASS_1_72FF3C03F0F06A80___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14AC6070)
+#define CLASS_1_72FF3C03F0F06A80___C__DISPLAYCLASS3_0__CREATESUMMONUNIT_B__0_OFFSET UNITYSDK_OFFSET(0x159AEE70)
+#define CLASS_1_72FF3C03F0F06A80___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x159ABE50)
 
-inline static constexpr unsigned int Class_1_72FF3C03F0F06A80___c__DisplayClass3_0_TypeDefinitionIndex = 58045;
+inline static constexpr unsigned int Class_1_72FF3C03F0F06A80___c__DisplayClass3_0_TypeDefinitionIndex = 60872;
 
 class Class_1_72FF3C03F0F06A80___c__DisplayClass3_0 : public ::System::Object
 {
 public:
-	::System::String* uniqueName; // 0x10
-	::Class_1_72FF3C03F0F06A80* __4__this; // 0x18
+	::Class_1_72FF3C03F0F06A80* __4__this; // 0x10
+	::System::String* uniqueName; // 0x18
 	::System::Action_1<::RPG::GameCore::GameEntity*>* onLoadFinish; // 0x20
 
 	::System::Void _ctor()

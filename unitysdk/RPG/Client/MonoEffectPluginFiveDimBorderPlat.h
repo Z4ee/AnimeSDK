@@ -9,43 +9,43 @@ namespace RPG::GameCore { class FiveDimMoveBakedConfig; }
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_MONOEFFECTPLUGINFIVEDIMBORDERPLAT_DISPOSEPLUGIN_OFFSET UNITYSDK_OFFSET(0xCCBAE60)
-#define RPG_CLIENT_MONOEFFECTPLUGINFIVEDIMBORDERPLAT_METHOD_6_89D1F247B9D324EE_OFFSET UNITYSDK_OFFSET(0xCCBAF50)
-#define RPG_CLIENT_MONOEFFECTPLUGINFIVEDIMBORDERPLAT_RESETPLUGIN_OFFSET UNITYSDK_OFFSET(0xCCBADC0)
-#define RPG_CLIENT_MONOEFFECTPLUGINFIVEDIMBORDERPLAT_SETENTITY_OFFSET UNITYSDK_OFFSET(0xCCBAFE0)
-#define RPG_CLIENT_MONOEFFECTPLUGINFIVEDIMBORDERPLAT_SETSHOWDISTANCEANDUNITLENGTH_OFFSET UNITYSDK_OFFSET(0xCCBB460)
-#define RPG_CLIENT_MONOEFFECTPLUGINFIVEDIMBORDERPLAT_TICK_OFFSET UNITYSDK_OFFSET(0xCCBB240)
-#define RPG_CLIENT_MONOEFFECTPLUGINFIVEDIMBORDERPLAT__CCTOR_OFFSET UNITYSDK_OFFSET(0xCCBB780)
-#define RPG_CLIENT_MONOEFFECTPLUGINFIVEDIMBORDERPLAT__CTOR_OFFSET UNITYSDK_OFFSET(0xCCBB740)
+#define RPG_CLIENT_MONOEFFECTPLUGINFIVEDIMBORDERPLAT_DISPOSEPLUGIN_OFFSET UNITYSDK_OFFSET(0xD7BA770)
+#define RPG_CLIENT_MONOEFFECTPLUGINFIVEDIMBORDERPLAT_METHOD_6_89D1F247B9D324EE_OFFSET UNITYSDK_OFFSET(0xD7BA860)
+#define RPG_CLIENT_MONOEFFECTPLUGINFIVEDIMBORDERPLAT_RESETPLUGIN_OFFSET UNITYSDK_OFFSET(0xD7BA6D0)
+#define RPG_CLIENT_MONOEFFECTPLUGINFIVEDIMBORDERPLAT_SETENTITY_OFFSET UNITYSDK_OFFSET(0xD7BA8F0)
+#define RPG_CLIENT_MONOEFFECTPLUGINFIVEDIMBORDERPLAT_SETSHOWDISTANCEANDUNITLENGTH_OFFSET UNITYSDK_OFFSET(0xD7BAD70)
+#define RPG_CLIENT_MONOEFFECTPLUGINFIVEDIMBORDERPLAT_TICK_OFFSET UNITYSDK_OFFSET(0xD7BAB50)
+#define RPG_CLIENT_MONOEFFECTPLUGINFIVEDIMBORDERPLAT__CCTOR_OFFSET UNITYSDK_OFFSET(0xD7BB090)
+#define RPG_CLIENT_MONOEFFECTPLUGINFIVEDIMBORDERPLAT__CTOR_OFFSET UNITYSDK_OFFSET(0xD7BB050)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginFiveDimBorderPlat_TypeDefinitionIndex = 66886;
+	inline static constexpr unsigned int MonoEffectPluginFiveDimBorderPlat_TypeDefinitionIndex = 69988;
 
 	class MonoEffectPluginFiveDimBorderPlat : public ::RPG::Client::MonoEffectPluginBase
 	{
 	public:
-		static ::System::String** StaticGet_Field_6_0()
+		static ::System::String** StaticGet_JBGHEDIGMKN()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginFiveDimBorderPlat_TypeDefinitionIndex)->GetStaticField(0x5CD60);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginFiveDimBorderPlat_TypeDefinitionIndex)->GetStaticField(0x11A30);
 		}
-		static ::System::Int32* StaticGet_Field_6_1()
+		static ::System::Int32* StaticGet_MNHCKOJILND()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginFiveDimBorderPlat_TypeDefinitionIndex)->GetStaticField(0x10410);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginFiveDimBorderPlat_TypeDefinitionIndex)->GetStaticField(0x7940);
 		}
 		::UnityEngine::GameObject* Border; // 0x28
 		::System::Single BaseDensity; // 0x30
-		::Class_2_B9E8C2EEAA5C96EC* Field_6_4; // 0x38
-		::RPG::GameCore::FiveDimMoveBakedConfig* Field_6_5; // 0x40
-		::System::Single Field_6_6; // 0x48
-		::System::Single Field_6_7; // 0x4C
-		::System::Single Field_6_8; // 0x50
-		::Class_1_1342B57709FD7AC5* Field_6_9; // 0x58
-		::System::Boolean Field_6_10; // 0x60
-		::UnityEngine::Vector3 Field_6_11; // 0x64
-		::System::Boolean Field_6_12; // 0x70
-		::System::Int32 Field_6_13; // 0x74
-		::System::Int32 Field_6_14; // 0x78
+		::Class_2_B9E8C2EEAA5C96EC* KAKEIDJDNHJ; // 0x38
+		::RPG::GameCore::FiveDimMoveBakedConfig* EKAALAGLBPC; // 0x40
+		::System::Single PPBPOMMNICA; // 0x48
+		::System::Single FGODFPJCNHG; // 0x4C
+		::System::Single PDLKDJHEJIG; // 0x50
+		::Class_1_1342B57709FD7AC5* DBCCOEFFKCM; // 0x58
+		::System::Boolean DKMGKDEMNIL; // 0x60
+		::UnityEngine::Vector3 AANPAEBECKM; // 0x64
+		::System::Boolean KOKMFJFODLK; // 0x70
+		::System::Int32 BGCMNPDHGNB; // 0x74
+		::System::Int32 AHMNBDIMOCN; // 0x78
 
 		::System::Void _ctor()
 		{

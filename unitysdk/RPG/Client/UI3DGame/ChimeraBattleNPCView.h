@@ -6,26 +6,26 @@ namespace RPG::Client::UI3DGame { class ChimeraBattleNPCView_Class_1_F16F4B18C84
 namespace System { class String; }
 namespace UnityEngine { class Animator; }
 
-#define RPG_CLIENT_UI3DGAME_CHIMERABATTLENPCVIEW_DITHER_OFFSET UNITYSDK_OFFSET(0xD77B980)
-#define RPG_CLIENT_UI3DGAME_CHIMERABATTLENPCVIEW_LEAVE_OFFSET UNITYSDK_OFFSET(0xD77B530)
-#define RPG_CLIENT_UI3DGAME_CHIMERABATTLENPCVIEW_ONENABLE_OFFSET UNITYSDK_OFFSET(0xD77BA80)
-#define RPG_CLIENT_UI3DGAME_CHIMERABATTLENPCVIEW_UPDATE_OFFSET UNITYSDK_OFFSET(0xD77BB80)
-#define RPG_CLIENT_UI3DGAME_CHIMERABATTLENPCVIEW__CCTOR_OFFSET UNITYSDK_OFFSET(0xD77BD10)
-#define RPG_CLIENT_UI3DGAME_CHIMERABATTLENPCVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0xD77BD00)
+#define RPG_CLIENT_UI3DGAME_CHIMERABATTLENPCVIEW_DITHER_OFFSET UNITYSDK_OFFSET(0xE31A610)
+#define RPG_CLIENT_UI3DGAME_CHIMERABATTLENPCVIEW_LEAVE_OFFSET UNITYSDK_OFFSET(0xE31A1C0)
+#define RPG_CLIENT_UI3DGAME_CHIMERABATTLENPCVIEW_ONENABLE_OFFSET UNITYSDK_OFFSET(0xE31A710)
+#define RPG_CLIENT_UI3DGAME_CHIMERABATTLENPCVIEW_UPDATE_OFFSET UNITYSDK_OFFSET(0xE31A810)
+#define RPG_CLIENT_UI3DGAME_CHIMERABATTLENPCVIEW__CCTOR_OFFSET UNITYSDK_OFFSET(0xE31A9A0)
+#define RPG_CLIENT_UI3DGAME_CHIMERABATTLENPCVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0xE31A990)
 
 namespace RPG::Client::UI3DGame
 {
-	inline static constexpr unsigned int ChimeraBattleNPCView_TypeDefinitionIndex = 72051;
+	inline static constexpr unsigned int ChimeraBattleNPCView_TypeDefinitionIndex = 75358;
 
 	class ChimeraBattleNPCView : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::System::Int32* StaticGet_Field_5_0()
+		static ::System::Int32* StaticGet_KEBGEGKNBHP()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ChimeraBattleNPCView_TypeDefinitionIndex)->GetStaticField(0xD2F0);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ChimeraBattleNPCView_TypeDefinitionIndex)->GetStaticField(0x13CA0);
 		}
 		::UnityEngine::Animator* Animator; // 0x18
-		::RPG::Client::UI3DGame::ChimeraBattleNPCView_Class_1_F16F4B18C8432A77* Field_5_2; // 0x20
+		::RPG::Client::UI3DGame::ChimeraBattleNPCView_Class_1_F16F4B18C8432A77* MBOEDFCNCJF; // 0x20
 		::System::String* TurnAnimName; // 0x28
 
 		::System::Void _ctor()

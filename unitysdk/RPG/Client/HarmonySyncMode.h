@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int HarmonySyncMode_TypeDefinitionIndex = 67784;
+	inline static constexpr unsigned int HarmonySyncMode_TypeDefinitionIndex = 70952;
 
 	enum class HarmonySyncMode : ::System::Int32
 	{

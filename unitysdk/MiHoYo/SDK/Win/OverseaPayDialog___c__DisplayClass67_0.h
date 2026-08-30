@@ -7,12 +7,12 @@ namespace MiHoYo::SDK { class JSONNode; }
 namespace MiHoYo::SDK { class JSONObject; }
 namespace MiHoYo::SDK::Win { class OverseaPayDialog; }
 
-#define MIHOYO_SDK_WIN_OVERSEAPAYDIALOG___C__DISPLAYCLASS67_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19C61A60)
-#define MIHOYO_SDK_WIN_OVERSEAPAYDIALOG___C__DISPLAYCLASS67_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x19C66080)
+#define MIHOYO_SDK_WIN_OVERSEAPAYDIALOG___C__DISPLAYCLASS67_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8B5150)
+#define MIHOYO_SDK_WIN_OVERSEAPAYDIALOG___C__DISPLAYCLASS67_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1B8B9770)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int OverseaPayDialog___c__DisplayClass67_0_TypeDefinitionIndex = 9218;
+	inline static constexpr unsigned int OverseaPayDialog___c__DisplayClass67_0_TypeDefinitionIndex = 9497;
 
 	class OverseaPayDialog___c__DisplayClass67_0 : public ::System::Object
 	{

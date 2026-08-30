@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_STAGETYPEPREFABS_METHOD_2_E342C7A74A5DAE21_OFFSET UNITYSDK_OFFSET(0x1B901E70)
-#define RPG_GAMECORE_STAGETYPEPREFABS__CTOR_OFFSET UNITYSDK_OFFSET(0x1B901F60)
+#define RPG_GAMECORE_STAGETYPEPREFABS_METHOD_2_E342C7A74A5DAE21_OFFSET UNITYSDK_OFFSET(0x1D55EF10)
+#define RPG_GAMECORE_STAGETYPEPREFABS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D55F000)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StageTypePrefabs_TypeDefinitionIndex = 15709;
+	inline static constexpr unsigned int StageTypePrefabs_TypeDefinitionIndex = 16185;
 
 	class StageTypePrefabs : public ::RPG::GameCore::JsonConfig
 	{

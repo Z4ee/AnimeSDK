@@ -4,13 +4,13 @@
 
 class AkSoundEngine_GameObjectHashFunction;
 
-inline static constexpr unsigned int AkSoundEngine___O_TypeDefinitionIndex = 42001;
+inline static constexpr unsigned int AkSoundEngine___O_TypeDefinitionIndex = 43612;
 
 class AkSoundEngine___O : public ::System::Object
 {
 public:
 	static ::AkSoundEngine_GameObjectHashFunction** StaticGet__0___InternalGameObjectHash()
 	{
-		return (::AkSoundEngine_GameObjectHashFunction**)Il2CppClass::FromTypeDefinitionIndex(AkSoundEngine___O_TypeDefinitionIndex)->GetStaticField(0x5DFC0);
+		return (::AkSoundEngine_GameObjectHashFunction**)Il2CppClass::FromTypeDefinitionIndex(AkSoundEngine___O_TypeDefinitionIndex)->GetStaticField(0x14EF0);
 	}
 };

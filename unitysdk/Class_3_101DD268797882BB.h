@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SwitchAudioListenerToTarget; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_101DD268797882BB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xAE85380)
-#define CLASS_3_101DD268797882BB__CTOR_OFFSET UNITYSDK_OFFSET(0xAE85350)
+#define CLASS_3_101DD268797882BB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB82AF30)
+#define CLASS_3_101DD268797882BB__CTOR_OFFSET UNITYSDK_OFFSET(0xB82AF00)
 
-inline static constexpr unsigned int Class_3_101DD268797882BB_TypeDefinitionIndex = 56113;
+inline static constexpr unsigned int Class_3_101DD268797882BB_TypeDefinitionIndex = 58890;
 
 class Class_3_101DD268797882BB : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SwitchAudioListenerToTarget*>
 {

@@ -4,21 +4,21 @@
 
 namespace System { class Object; }
 
-#define RPG_EDITOR_BGCURVEPCG_MESHGENERATORBASE_CLASS_2_76AB80E999558A94_CLONE_OFFSET UNITYSDK_OFFSET(0xD8E4C90)
-#define RPG_EDITOR_BGCURVEPCG_MESHGENERATORBASE_CLASS_2_76AB80E999558A94__CTOR_OFFSET UNITYSDK_OFFSET(0xD8E4C50)
+#define RPG_EDITOR_BGCURVEPCG_MESHGENERATORBASE_CLASS_2_76AB80E999558A94_CLONE_OFFSET UNITYSDK_OFFSET(0xE45FB10)
+#define RPG_EDITOR_BGCURVEPCG_MESHGENERATORBASE_CLASS_2_76AB80E999558A94__CTOR_OFFSET UNITYSDK_OFFSET(0xE45FAC0)
 
 namespace RPG::Editor
 {
-	inline static constexpr unsigned int BGCurvePCG_MeshGeneratorBase_Class_2_76AB80E999558A94_TypeDefinitionIndex = 49658;
+	inline static constexpr unsigned int BGCurvePCG_MeshGeneratorBase_Class_2_76AB80E999558A94_TypeDefinitionIndex = 52316;
 
 	class BGCurvePCG_MeshGeneratorBase_Class_2_76AB80E999558A94 : public ::Class_1_F0BC55524B5D6A07_Class_1_E7B1DF5735A03963
 	{
 	public:
-		::System::Single Field_2_0; // 0x50
-		::System::Single Field_2_1; // 0x54
-		::System::Single Field_2_2; // 0x58
-		::System::Single Field_2_3; // 0x5C
-		::System::Single Field_2_4; // 0x60
+		::System::Single HLPIIANJHLN; // 0x50
+		::System::Single EJKGJKBDMMJ; // 0x54
+		::System::Single KJJLMBOOIMG; // 0x58
+		::System::Single BJOCBPFKJDP; // 0x5C
+		::System::Single OLLPMCIJNPD; // 0x60
 
 		::System::Void _ctor()
 		{

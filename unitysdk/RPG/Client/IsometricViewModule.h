@@ -13,78 +13,78 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class BoxCollider; }
 
-#define RPG_CLIENT_ISOMETRICVIEWMODULE_ADDCONNECTORS_OFFSET UNITYSDK_OFFSET(0xC8FDF10)
-#define RPG_CLIENT_ISOMETRICVIEWMODULE_ENABLETELEPORT_OFFSET UNITYSDK_OFFSET(0xC8FE4C0)
-#define RPG_CLIENT_ISOMETRICVIEWMODULE_ENDMODULE_OFFSET UNITYSDK_OFFSET(0xC8FB9B0)
-#define RPG_CLIENT_ISOMETRICVIEWMODULE_ENDZOOMFOLLOW_OFFSET UNITYSDK_OFFSET(0xC8FEE60)
-#define RPG_CLIENT_ISOMETRICVIEWMODULE_GET_ISACTIVE_OFFSET UNITYSDK_OFFSET(0xC8FFD40)
-#define RPG_CLIENT_ISOMETRICVIEWMODULE_GET_NEEDTICK_OFFSET UNITYSDK_OFFSET(0xC8FFD30)
-#define RPG_CLIENT_ISOMETRICVIEWMODULE_GET_STARTTIME_OFFSET UNITYSDK_OFFSET(0xC8FFD50)
-#define RPG_CLIENT_ISOMETRICVIEWMODULE_ONINIT_OFFSET UNITYSDK_OFFSET(0xC8FB830)
-#define RPG_CLIENT_ISOMETRICVIEWMODULE_ONUNINIT_OFFSET UNITYSDK_OFFSET(0xC8FB8F0)
-#define RPG_CLIENT_ISOMETRICVIEWMODULE_OPERATEMOVEPLATFORM_OFFSET UNITYSDK_OFFSET(0xC8FF810)
-#define RPG_CLIENT_ISOMETRICVIEWMODULE_OPERATEROTATEPLATFORM_OFFSET UNITYSDK_OFFSET(0xC8FF860)
-#define RPG_CLIENT_ISOMETRICVIEWMODULE_REPORTENDMODULE_OFFSET UNITYSDK_OFFSET(0xC8FEFC0)
-#define RPG_CLIENT_ISOMETRICVIEWMODULE_REPORTSTARTMODULE_OFFSET UNITYSDK_OFFSET(0xC8FF510)
-#define RPG_CLIENT_ISOMETRICVIEWMODULE_STARTMODULE_OFFSET UNITYSDK_OFFSET(0xC8FE510)
-#define RPG_CLIENT_ISOMETRICVIEWMODULE_STARTSWIPECAMERA_OFFSET UNITYSDK_OFFSET(0xC8FF8B0)
-#define RPG_CLIENT_ISOMETRICVIEWMODULE_STARTZOOMFOLLOW_OFFSET UNITYSDK_OFFSET(0xC8FFC90)
-#define RPG_CLIENT_ISOMETRICVIEWMODULE_STOPSWIPECAMERA_OFFSET UNITYSDK_OFFSET(0xC8FFA40)
-#define RPG_CLIENT_ISOMETRICVIEWMODULE_SWITCHISOMETRICVIEW_OFFSET UNITYSDK_OFFSET(0xC8FFAC0)
-#define RPG_CLIENT_ISOMETRICVIEWMODULE_TICK_OFFSET UNITYSDK_OFFSET(0xC8FC230)
-#define RPG_CLIENT_ISOMETRICVIEWMODULE__ADDSHADOW_OFFSET UNITYSDK_OFFSET(0xC8FD8E0)
-#define RPG_CLIENT_ISOMETRICVIEWMODULE__CCTOR_OFFSET UNITYSDK_OFFSET(0xC8FFE90)
-#define RPG_CLIENT_ISOMETRICVIEWMODULE__CTOR_OFFSET UNITYSDK_OFFSET(0xC8FFD60)
-#define RPG_CLIENT_ISOMETRICVIEWMODULE__ONADVENTUREPHASEEND_OFFSET UNITYSDK_OFFSET(0xC8FFCE0)
-#define RPG_CLIENT_ISOMETRICVIEWMODULE__REMOVESHADOW_OFFSET UNITYSDK_OFFSET(0xC8FD880)
-#define RPG_CLIENT_ISOMETRICVIEWMODULE__UPDATEFOLLOWANCHOR_OFFSET UNITYSDK_OFFSET(0xC8FDA80)
-#define RPG_CLIENT_ISOMETRICVIEWMODULE__UPDATESHADOWPOSITION_OFFSET UNITYSDK_OFFSET(0xC8FDA10)
+#define RPG_CLIENT_ISOMETRICVIEWMODULE_ADDCONNECTORS_OFFSET UNITYSDK_OFFSET(0xD423990)
+#define RPG_CLIENT_ISOMETRICVIEWMODULE_ENABLETELEPORT_OFFSET UNITYSDK_OFFSET(0xD423F50)
+#define RPG_CLIENT_ISOMETRICVIEWMODULE_ENDMODULE_OFFSET UNITYSDK_OFFSET(0xD4213C0)
+#define RPG_CLIENT_ISOMETRICVIEWMODULE_ENDZOOMFOLLOW_OFFSET UNITYSDK_OFFSET(0xD4248F0)
+#define RPG_CLIENT_ISOMETRICVIEWMODULE_GET_ISACTIVE_OFFSET UNITYSDK_OFFSET(0xD4257B0)
+#define RPG_CLIENT_ISOMETRICVIEWMODULE_GET_NEEDTICK_OFFSET UNITYSDK_OFFSET(0xD4257A0)
+#define RPG_CLIENT_ISOMETRICVIEWMODULE_GET_STARTTIME_OFFSET UNITYSDK_OFFSET(0xD4257C0)
+#define RPG_CLIENT_ISOMETRICVIEWMODULE_ONINIT_OFFSET UNITYSDK_OFFSET(0xD421240)
+#define RPG_CLIENT_ISOMETRICVIEWMODULE_ONUNINIT_OFFSET UNITYSDK_OFFSET(0xD421300)
+#define RPG_CLIENT_ISOMETRICVIEWMODULE_OPERATEMOVEPLATFORM_OFFSET UNITYSDK_OFFSET(0xD425280)
+#define RPG_CLIENT_ISOMETRICVIEWMODULE_OPERATEROTATEPLATFORM_OFFSET UNITYSDK_OFFSET(0xD4252D0)
+#define RPG_CLIENT_ISOMETRICVIEWMODULE_REPORTENDMODULE_OFFSET UNITYSDK_OFFSET(0xD424A50)
+#define RPG_CLIENT_ISOMETRICVIEWMODULE_REPORTSTARTMODULE_OFFSET UNITYSDK_OFFSET(0xD424F90)
+#define RPG_CLIENT_ISOMETRICVIEWMODULE_STARTMODULE_OFFSET UNITYSDK_OFFSET(0xD423FA0)
+#define RPG_CLIENT_ISOMETRICVIEWMODULE_STARTSWIPECAMERA_OFFSET UNITYSDK_OFFSET(0xD425320)
+#define RPG_CLIENT_ISOMETRICVIEWMODULE_STARTZOOMFOLLOW_OFFSET UNITYSDK_OFFSET(0xD425700)
+#define RPG_CLIENT_ISOMETRICVIEWMODULE_STOPSWIPECAMERA_OFFSET UNITYSDK_OFFSET(0xD4254A0)
+#define RPG_CLIENT_ISOMETRICVIEWMODULE_SWITCHISOMETRICVIEW_OFFSET UNITYSDK_OFFSET(0xD425520)
+#define RPG_CLIENT_ISOMETRICVIEWMODULE_TICK_OFFSET UNITYSDK_OFFSET(0xD421C70)
+#define RPG_CLIENT_ISOMETRICVIEWMODULE__ADDSHADOW_OFFSET UNITYSDK_OFFSET(0xD423360)
+#define RPG_CLIENT_ISOMETRICVIEWMODULE__CCTOR_OFFSET UNITYSDK_OFFSET(0xD425900)
+#define RPG_CLIENT_ISOMETRICVIEWMODULE__CTOR_OFFSET UNITYSDK_OFFSET(0xD4257D0)
+#define RPG_CLIENT_ISOMETRICVIEWMODULE__ONADVENTUREPHASEEND_OFFSET UNITYSDK_OFFSET(0xD425750)
+#define RPG_CLIENT_ISOMETRICVIEWMODULE__REMOVESHADOW_OFFSET UNITYSDK_OFFSET(0xD4232F0)
+#define RPG_CLIENT_ISOMETRICVIEWMODULE__UPDATEFOLLOWANCHOR_OFFSET UNITYSDK_OFFSET(0xD423500)
+#define RPG_CLIENT_ISOMETRICVIEWMODULE__UPDATESHADOWPOSITION_OFFSET UNITYSDK_OFFSET(0xD423490)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IsometricViewModule_TypeDefinitionIndex = 57476;
+	inline static constexpr unsigned int IsometricViewModule_TypeDefinitionIndex = 60293;
 
 	class IsometricViewModule : public ::Class_1_5BBB2050B3F3F683
 	{
 	public:
 		static ::System::String** StaticGet_GAME_KEY()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(IsometricViewModule_TypeDefinitionIndex)->GetStaticField(0x34B60);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(IsometricViewModule_TypeDefinitionIndex)->GetStaticField(0x55BD0);
 		}
 		static ::System::Single* StaticGet_FloatEpsilon()
 		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(IsometricViewModule_TypeDefinitionIndex)->GetStaticField(0x8A90);
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(IsometricViewModule_TypeDefinitionIndex)->GetStaticField(0x11EC0);
 		}
-		::RPG::GameCore::AnchorInfo* _FollowAnchor; // 0x20
-		::System::Collections::Generic::List_1<::RPG::Client::Prop::IsometricViewPuzzleItem*>* _Items; // 0x28
-		::System::Collections::Generic::Dictionary_2<::UnityEngine::BoxCollider*, ::RPG::Client::Prop::IsometricViewPuzzleItem*>* _Colliders; // 0x30
-		::RPG::GameCore::GameEntity* _OwnerProp; // 0x38
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* _ExtraData; // 0x40
-		::Class_1_65282CEDEA364C3F* _SwipeCamera; // 0x48
-		::RPG::GameCore::AnchorInfo* _SwipeAnchor; // 0x50
-		::RPG::GameCore::AnchorInfo* _OriginAnchor; // 0x58
-		::RPG::GameCore::GameEntity* _Player; // 0x60
-		::System::Int32 _PositionID; // 0x68
-		::System::Boolean _ShadowActive; // 0x6C
-		::System::Boolean _IsActive; // 0x6D
-		::System::Boolean _InTriggerRegion; // 0x6E
-		::System::Boolean RecordClusterLighting; // 0x6F
-		::System::UInt32 _RotateCount; // 0x70
-		::System::Single _ObserveTime; // 0x74
-		::System::Single _MaxBorderX; // 0x78
-		::System::UInt32 _ObserveCounter; // 0x7C
-		::System::Single _ZoomOffsetDown; // 0x80
-		::System::Single _ZoomOffsetLeft; // 0x84
-		::System::Boolean _ZoomFollow; // 0x88
-		::System::Boolean _EnableTeleport; // 0x89
-		::System::Int32 _StartTime; // 0x8C
-		::System::Single _MaxCameraSize; // 0x90
-		::System::Int32 _CasterID; // 0x94
-		::System::Single _ZoomOffsetUp; // 0x98
-		::System::Int32 _LastReportEnd; // 0x9C
-		::System::Single _ZoomOffsetRight; // 0xA0
-		::System::UInt32 _MoveCount; // 0xA4
-		::System::Single _MaxBorderY; // 0xA8
+		::Class_1_65282CEDEA364C3F* _SwipeCamera; // 0x20
+		::RPG::GameCore::AnchorInfo* _SwipeAnchor; // 0x28
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* _ExtraData; // 0x30
+		::System::Collections::Generic::List_1<::RPG::Client::Prop::IsometricViewPuzzleItem*>* _Items; // 0x38
+		::RPG::GameCore::AnchorInfo* _OriginAnchor; // 0x40
+		::RPG::GameCore::GameEntity* _Player; // 0x48
+		::RPG::GameCore::GameEntity* _OwnerProp; // 0x50
+		::System::Collections::Generic::Dictionary_2<::UnityEngine::BoxCollider*, ::RPG::Client::Prop::IsometricViewPuzzleItem*>* _Colliders; // 0x58
+		::RPG::GameCore::AnchorInfo* _FollowAnchor; // 0x60
+		::System::UInt32 _RotateCount; // 0x68
+		::System::UInt32 _MoveCount; // 0x6C
+		::System::Single _ZoomOffsetLeft; // 0x70
+		::System::UInt32 _ObserveCounter; // 0x74
+		::System::Single _ZoomOffsetRight; // 0x78
+		::System::Int32 _StartTime; // 0x7C
+		::System::Single _ObserveTime; // 0x80
+		::System::Int32 _LastReportEnd; // 0x84
+		::System::Single _ZoomOffsetDown; // 0x88
+		::System::Int32 _PositionID; // 0x8C
+		::System::Single _MaxBorderY; // 0x90
+		::System::Single _MaxCameraSize; // 0x94
+		::System::Boolean _ShadowActive; // 0x98
+		::System::Boolean _EnableTeleport; // 0x99
+		::System::Boolean _InTriggerRegion; // 0x9A
+		::System::Boolean RecordClusterLighting; // 0x9B
+		::System::Single _MaxBorderX; // 0x9C
+		::System::Int32 _CasterID; // 0xA0
+		::System::Single _ZoomOffsetUp; // 0xA4
+		::System::Boolean _ZoomFollow; // 0xA8
+		::System::Boolean _IsActive; // 0xA9
 
 		::System::Void _ctor()
 		{

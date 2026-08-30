@@ -4,12 +4,12 @@
 
 namespace UnityEngine { class RectTransform; }
 
-#define RPG_CLIENT_MONONODESWITCHBYGENDER_START_OFFSET UNITYSDK_OFFSET(0xCD0FC20)
-#define RPG_CLIENT_MONONODESWITCHBYGENDER__CTOR_OFFSET UNITYSDK_OFFSET(0xCD0FD60)
+#define RPG_CLIENT_MONONODESWITCHBYGENDER_START_OFFSET UNITYSDK_OFFSET(0xD852540)
+#define RPG_CLIENT_MONONODESWITCHBYGENDER__CTOR_OFFSET UNITYSDK_OFFSET(0xD852670)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoNodeSwitchByGender_TypeDefinitionIndex = 69514;
+	inline static constexpr unsigned int MonoNodeSwitchByGender_TypeDefinitionIndex = 72742;
 
 	class MonoNodeSwitchByGender : public ::UnityEngine::MonoBehaviour
 	{

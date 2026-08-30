@@ -5,20 +5,20 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ACHIEVEMENTLEVELROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B0F6A40)
-#define RPG_GAMECORE_ACHIEVEMENTLEVELROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0F70B0)
+#define RPG_GAMECORE_ACHIEVEMENTLEVELROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CD6D0B0)
+#define RPG_GAMECORE_ACHIEVEMENTLEVELROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD6D720)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AchievementLevelRow_TypeDefinitionIndex = 10536;
+	inline static constexpr unsigned int AchievementLevelRow_TypeDefinitionIndex = 10877;
 
 	class AchievementLevelRow : public ::System::Object
 	{
 	public:
 		::System::String* LevelIconPath; // 0x10
-		::System::UInt32 Level; // 0x18
+		::System::UInt32 Reward; // 0x18
 		::System::UInt32 Count; // 0x1C
-		::System::UInt32 Reward; // 0x20
+		::System::UInt32 Level; // 0x20
 
 		::System::Void _ctor()
 		{

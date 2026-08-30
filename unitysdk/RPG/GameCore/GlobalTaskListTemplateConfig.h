@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TaskListTemplate; }
 
-#define RPG_GAMECORE_GLOBALTASKLISTTEMPLATECONFIG_METHOD_2_29B6AF7529D336B2_OFFSET UNITYSDK_OFFSET(0x1B4CB7D0)
-#define RPG_GAMECORE_GLOBALTASKLISTTEMPLATECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4CB8C0)
+#define RPG_GAMECORE_GLOBALTASKLISTTEMPLATECONFIG_METHOD_2_29B6AF7529D336B2_OFFSET UNITYSDK_OFFSET(0x1D1363F0)
+#define RPG_GAMECORE_GLOBALTASKLISTTEMPLATECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D145800)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GlobalTaskListTemplateConfig_TypeDefinitionIndex = 17509;
+	inline static constexpr unsigned int GlobalTaskListTemplateConfig_TypeDefinitionIndex = 18026;
 
 	class GlobalTaskListTemplateConfig : public ::RPG::GameCore::JsonConfig
 	{

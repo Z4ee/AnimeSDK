@@ -8,15 +8,15 @@ class Class_2_AEE59ED8DADEC1A1;
 namespace RPG::GameCore { class DiceCombatDiceSelectorConfig_Min; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_EBC41811AB25EC66_METHOD_2_E1D43FFDD3A83831_OFFSET UNITYSDK_OFFSET(0x1A695420)
-#define CLASS_2_EBC41811AB25EC66__CTOR_OFFSET UNITYSDK_OFFSET(0x1A695410)
+#define CLASS_2_EBC41811AB25EC66_METHOD_2_E1D43FFDD3A83831_OFFSET UNITYSDK_OFFSET(0x1C2A5120)
+#define CLASS_2_EBC41811AB25EC66__CTOR_OFFSET UNITYSDK_OFFSET(0x1C2A5110)
 
-inline static constexpr unsigned int Class_2_EBC41811AB25EC66_TypeDefinitionIndex = 34837;
+inline static constexpr unsigned int Class_2_EBC41811AB25EC66_TypeDefinitionIndex = 35698;
 
 class Class_2_EBC41811AB25EC66 : public ::Class_1_CD4EC20BEBA8A2DA
 {
 public:
-	::RPG::GameCore::DiceCombatDiceSelectorConfig_Min* Field_2_0; // 0x18
+	::RPG::GameCore::DiceCombatDiceSelectorConfig_Min* IGHAHBNLIJA; // 0x18
 
 	::System::Void _ctor(::RPG::GameCore::DiceCombatDiceSelectorConfig_Min* a1, ::Class_1_D8BECDCE48063EC7* a2)
 	{

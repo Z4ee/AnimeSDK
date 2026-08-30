@@ -1,30 +1,30 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_CA217ABF4E3B4F3F.h"
+#include "unitysdk/Class_1_34917908B7833130.h"
 
 namespace System { class String; }
 namespace UnityEngine { class Animation; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_2_4778EB08AE581861_METHOD_2_06A6F3C551B79E23_OFFSET UNITYSDK_OFFSET(0xE51DE40)
-#define CLASS_2_4778EB08AE581861_METHOD_2_1B9CC121BDC8766D_OFFSET UNITYSDK_OFFSET(0xE51DF70)
-#define CLASS_2_4778EB08AE581861_METHOD_2_7F5959D5B740D04C_OFFSET UNITYSDK_OFFSET(0xE51DEC0)
-#define CLASS_2_4778EB08AE581861_METHOD_2_994AEE4DBD645811_OFFSET UNITYSDK_OFFSET(0xE51DD90)
-#define CLASS_2_4778EB08AE581861__CTOR_OFFSET UNITYSDK_OFFSET(0xE51E000)
-#define CLASS_2_4778EB08AE581861__ONBIND_OFFSET UNITYSDK_OFFSET(0xE51DC00)
+#define CLASS_2_4778EB08AE581861_METHOD_2_06A6F3C551B79E23_OFFSET UNITYSDK_OFFSET(0xF439A70)
+#define CLASS_2_4778EB08AE581861_METHOD_2_1B9CC121BDC8766D_OFFSET UNITYSDK_OFFSET(0xF439BA0)
+#define CLASS_2_4778EB08AE581861_METHOD_2_7F5959D5B740D04C_OFFSET UNITYSDK_OFFSET(0xF439AF0)
+#define CLASS_2_4778EB08AE581861_METHOD_2_994AEE4DBD645811_OFFSET UNITYSDK_OFFSET(0xF4399C0)
+#define CLASS_2_4778EB08AE581861__CTOR_OFFSET UNITYSDK_OFFSET(0xF439C30)
+#define CLASS_2_4778EB08AE581861__ONBIND_OFFSET UNITYSDK_OFFSET(0xF439830)
 
-inline static constexpr unsigned int Class_2_4778EB08AE581861_TypeDefinitionIndex = 68730;
+inline static constexpr unsigned int Class_2_4778EB08AE581861_TypeDefinitionIndex = 71928;
 
-class Class_2_4778EB08AE581861 : public ::Class_1_CA217ABF4E3B4F3F
+class Class_2_4778EB08AE581861 : public ::Class_1_34917908B7833130
 {
 public:
-	// static const ::System::String* Field_2_0; // 0x0
-	// static const ::System::String* Field_2_1; // 0x0
-	// static const ::System::String* Field_2_2; // 0x0
-	::UnityEngine::Transform* Field_2_3; // 0x60
-	::UnityEngine::Animation* Field_2_4; // 0x68
-	::UnityEngine::Transform* Field_2_5; // 0x70
-	::UnityEngine::Transform* Field_2_6; // 0x78
+	// static const ::System::String* CMAAILAJKLG; // 0x0
+	// static const ::System::String* DGNLNMNPMGI; // 0x0
+	// static const ::System::String* ENFHEKDIEEN; // 0x0
+	::UnityEngine::Transform* GHGAKNDLKGM; // 0x60
+	::UnityEngine::Animation* JPHOOFFIAAH; // 0x68
+	::UnityEngine::Transform* FIACEDOMPEA; // 0x70
+	::UnityEngine::Transform* CDJGLKECPHI; // 0x78
 
 	::System::Void _ctor()
 	{

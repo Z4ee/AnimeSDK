@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2MOTIONLOCKS__CTOR_OFFSET UNITYSDK_OFFSET(0x39E8780)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2MOTIONLOCKS__CTOR_OFFSET UNITYSDK_OFFSET(0x3B784F0)
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2MotionLocks_TypeDefinitionIndex = 35163;
+	inline static constexpr unsigned int B2MotionLocks_TypeDefinitionIndex = 36024;
 
 	struct alignas(1) B2MotionLocks
 	{

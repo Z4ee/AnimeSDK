@@ -7,25 +7,25 @@
 class Class_1_9AF9867BCD86F583;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_4BFEF016932446F8_METHOD_1_1D4018D4200358D0_OFFSET UNITYSDK_OFFSET(0x1A4B4F70)
-#define CLASS_1_4BFEF016932446F8_METHOD_1_A1D8CD775DEC3C21_OFFSET UNITYSDK_OFFSET(0x1A491670)
-#define CLASS_1_4BFEF016932446F8_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x1A490B30)
-#define CLASS_1_4BFEF016932446F8__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4B4FD0)
+#define CLASS_1_4BFEF016932446F8_METHOD_1_1D4018D4200358D0_OFFSET UNITYSDK_OFFSET(0x1C0C4A70)
+#define CLASS_1_4BFEF016932446F8_METHOD_1_A1D8CD775DEC3C21_OFFSET UNITYSDK_OFFSET(0x1C0A1200)
+#define CLASS_1_4BFEF016932446F8_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x1C0A06C0)
+#define CLASS_1_4BFEF016932446F8__CTOR_OFFSET UNITYSDK_OFFSET(0x1C0C4AD0)
 
-inline static constexpr unsigned int Class_1_4BFEF016932446F8_TypeDefinitionIndex = 35695;
+inline static constexpr unsigned int Class_1_4BFEF016932446F8_TypeDefinitionIndex = 36556;
 
 class Class_1_4BFEF016932446F8 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::UInt32>* Field_1_0; // 0x10
-	::Class_1_9AF9867BCD86F583* Field_1_1; // 0x18
-	::RPG::GameCore::CakeRaceMoveState Field_1_2; // 0x20
-	::System::Boolean Field_1_3; // 0x24
-	::System::Boolean Field_1_4; // 0x25
-	::System::Boolean Field_1_5; // 0x26
-	::System::UInt32 Field_1_6; // 0x28
-	::System::Int32 Field_1_7; // 0x2C
-	::System::Int32 Field_1_8; // 0x30
+	::Class_1_9AF9867BCD86F583* FGBOCEOCCJN; // 0x10
+	::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::UInt32>* DOAHCFCFKDD; // 0x18
+	::System::Int32 FLDIHFHMLAM; // 0x20
+	::RPG::GameCore::CakeRaceMoveState ALHAFOGCGJK; // 0x24
+	::System::Boolean MLLBLJEALGA; // 0x28
+	::System::Boolean OHAHHCFNLFF; // 0x29
+	::System::Boolean HGMGLFNFGGN; // 0x2A
+	::System::UInt32 NMALDHAIMCF; // 0x2C
+	::System::Int32 GCHLCKLCGNB; // 0x30
 
 	::System::Void _ctor()
 	{

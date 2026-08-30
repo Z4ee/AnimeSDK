@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_DIFFICULTYADJUSTMENTSTAGEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B3BBDE0)
-#define RPG_GAMECORE_DIFFICULTYADJUSTMENTSTAGEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3BBEF0)
+#define RPG_GAMECORE_DIFFICULTYADJUSTMENTSTAGEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D03A160)
+#define RPG_GAMECORE_DIFFICULTYADJUSTMENTSTAGEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D03A270)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DifficultyAdjustmentStageRow_TypeDefinitionIndex = 14569;
+	inline static constexpr unsigned int DifficultyAdjustmentStageRow_TypeDefinitionIndex = 15003;
 
 	class DifficultyAdjustmentStageRow : public ::System::Object
 	{

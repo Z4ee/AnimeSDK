@@ -6,7 +6,7 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::Billboard
 {
-	inline static constexpr unsigned int IBillboardHost_TypeDefinitionIndex = 71378;
+	inline static constexpr unsigned int IBillboardHost_TypeDefinitionIndex = 74684;
 
 	class IBillboardHost
 	{

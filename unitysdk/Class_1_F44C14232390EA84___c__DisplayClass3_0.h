@@ -10,20 +10,20 @@ namespace RPG::Client { class LobbyModule; }
 namespace System { class Action; }
 namespace System { template <typename T> class Func_1; }
 
-#define CLASS_1_F44C14232390EA84___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x151813C0)
-#define CLASS_1_F44C14232390EA84___C__DISPLAYCLASS3_0__TRYCREATEANDOPEN_B__0_OFFSET UNITYSDK_OFFSET(0x15182710)
-#define CLASS_1_F44C14232390EA84___C__DISPLAYCLASS3_0__TRYCREATEANDOPEN_B__2_OFFSET UNITYSDK_OFFSET(0x15182940)
-#define CLASS_1_F44C14232390EA84___C__DISPLAYCLASS3_0__TRYCREATEANDOPEN_G___CREATELOBBY_1_OFFSET UNITYSDK_OFFSET(0x151827F0)
+#define CLASS_1_F44C14232390EA84___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16099130)
+#define CLASS_1_F44C14232390EA84___C__DISPLAYCLASS3_0__TRYCREATEANDOPEN_B__0_OFFSET UNITYSDK_OFFSET(0x1609A470)
+#define CLASS_1_F44C14232390EA84___C__DISPLAYCLASS3_0__TRYCREATEANDOPEN_B__2_OFFSET UNITYSDK_OFFSET(0x1609A6B0)
+#define CLASS_1_F44C14232390EA84___C__DISPLAYCLASS3_0__TRYCREATEANDOPEN_G___CREATELOBBY_1_OFFSET UNITYSDK_OFFSET(0x1609A560)
 
-inline static constexpr unsigned int Class_1_F44C14232390EA84___c__DisplayClass3_0_TypeDefinitionIndex = 63105;
+inline static constexpr unsigned int Class_1_F44C14232390EA84___c__DisplayClass3_0_TypeDefinitionIndex = 66090;
 
 class Class_1_F44C14232390EA84___c__DisplayClass3_0 : public ::System::Object
 {
 public:
-	::RPG::Client::LobbyModule* lobbyModule; // 0x10
-	::System::Action* __9__2; // 0x18
-	::System::Func_1<::Class_1_7B005A18003A04C3*>* extInfoGetter; // 0x20
-	::Class_1_F44C14232390EA84* __4__this; // 0x28
+	::Class_1_F44C14232390EA84* __4__this; // 0x10
+	::RPG::Client::LobbyModule* lobbyModule; // 0x18
+	::System::Action* __9__2; // 0x20
+	::System::Func_1<::Class_1_7B005A18003A04C3*>* extInfoGetter; // 0x28
 
 	::System::Void _ctor()
 	{

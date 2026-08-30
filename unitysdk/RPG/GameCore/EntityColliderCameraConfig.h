@@ -7,12 +7,12 @@ namespace RPG::GameCore { class EntityColliderHeightCameraConfig; }
 namespace RPG::GameCore { class TaskListTemplate; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ENTITYCOLLIDERCAMERACONFIG_METHOD_2_E488470B7916462B_OFFSET UNITYSDK_OFFSET(0x1B3EA6F0)
-#define RPG_GAMECORE_ENTITYCOLLIDERCAMERACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3EA870)
+#define RPG_GAMECORE_ENTITYCOLLIDERCAMERACONFIG_METHOD_2_E488470B7916462B_OFFSET UNITYSDK_OFFSET(0x1D068DF0)
+#define RPG_GAMECORE_ENTITYCOLLIDERCAMERACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D068F70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EntityColliderCameraConfig_TypeDefinitionIndex = 15781;
+	inline static constexpr unsigned int EntityColliderCameraConfig_TypeDefinitionIndex = 16257;
 
 	class EntityColliderCameraConfig : public ::RPG::GameCore::JsonConfig
 	{

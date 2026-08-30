@@ -7,12 +7,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHARACTERLODMATERIALPROPERTY_METHOD_2_0D38C79B67FA501F_OFFSET UNITYSDK_OFFSET(0x1B31BB60)
-#define RPG_GAMECORE_CHARACTERLODMATERIALPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x1B31BD30)
+#define RPG_GAMECORE_CHARACTERLODMATERIALPROPERTY_METHOD_2_0D38C79B67FA501F_OFFSET UNITYSDK_OFFSET(0x1CF97B80)
+#define RPG_GAMECORE_CHARACTERLODMATERIALPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF97D50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterLodMaterialProperty_TypeDefinitionIndex = 18349;
+	inline static constexpr unsigned int CharacterLodMaterialProperty_TypeDefinitionIndex = 18873;
 
 	class CharacterLodMaterialProperty : public ::RPG::GameCore::JsonConfig
 	{

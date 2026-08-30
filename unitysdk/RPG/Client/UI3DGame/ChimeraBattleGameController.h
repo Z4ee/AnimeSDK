@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_UI3DGAME_CHIMERABATTLEGAMECONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0xD77B520)
+#define RPG_CLIENT_UI3DGAME_CHIMERABATTLEGAMECONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0xE31A1B0)
 
 namespace RPG::Client::UI3DGame
 {
-	inline static constexpr unsigned int ChimeraBattleGameController_TypeDefinitionIndex = 72029;
+	inline static constexpr unsigned int ChimeraBattleGameController_TypeDefinitionIndex = 75336;
 
 	class ChimeraBattleGameController : public ::System::Object
 	{

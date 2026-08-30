@@ -5,19 +5,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_TAROTBOOKENERGYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B961630)
-#define RPG_GAMECORE_TAROTBOOKENERGYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B961870)
+#define RPG_GAMECORE_TAROTBOOKENERGYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D5BE7C0)
+#define RPG_GAMECORE_TAROTBOOKENERGYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5BEA00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TarotBookEnergyRow_TypeDefinitionIndex = 14629;
+	inline static constexpr unsigned int TarotBookEnergyRow_TypeDefinitionIndex = 15065;
 
 	class TarotBookEnergyRow : public ::System::Object
 	{
 	public:
 		::RPG::Client::TextID Toast; // 0x10
-		::System::Boolean IsRepetitive; // 0x20
-		::System::Boolean IsSilence; // 0x21
+		::System::Boolean IsSilence; // 0x20
+		::System::Boolean IsRepetitive; // 0x21
 		::System::UInt32 SubmissionID; // 0x24
 
 		::System::Void _ctor()

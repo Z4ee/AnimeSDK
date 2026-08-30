@@ -5,20 +5,20 @@
 namespace RPG::GameCore { class LevelDialogInfo; }
 namespace System { class String; }
 
-#define CLASS_1_EBD13AA6C54D68C4_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x1542EBB0)
-#define CLASS_1_EBD13AA6C54D68C4__CTOR_OFFSET UNITYSDK_OFFSET(0x1542EC20)
+#define CLASS_1_EBD13AA6C54D68C4_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x16374920)
+#define CLASS_1_EBD13AA6C54D68C4__CTOR_OFFSET UNITYSDK_OFFSET(0x16374990)
 
-inline static constexpr unsigned int Class_1_EBD13AA6C54D68C4_TypeDefinitionIndex = 62737;
+inline static constexpr unsigned int Class_1_EBD13AA6C54D68C4_TypeDefinitionIndex = 65722;
 
 class Class_1_EBD13AA6C54D68C4 : public ::System::Object
 {
 public:
-	::System::String* Field_1_0; // 0x10
-	::RPG::GameCore::LevelDialogInfo* Field_1_1; // 0x18
-	::System::String* Field_1_2; // 0x20
-	::System::UInt32 Field_1_3; // 0x28
-	::System::Boolean Field_1_4; // 0x2C
-	::System::Boolean Field_1_5; // 0x2D
+	::System::String* OJDMHBKCEEM; // 0x10
+	::RPG::GameCore::LevelDialogInfo* ONHHCMNCOLI; // 0x18
+	::System::String* KIAOBNHIAPO; // 0x20
+	::System::UInt32 DLIBPIIIAIB; // 0x28
+	::System::Boolean PDNGFBJEDCL; // 0x2C
+	::System::Boolean CFEFFDMCKKO; // 0x2D
 
 	::System::Void _ctor()
 	{

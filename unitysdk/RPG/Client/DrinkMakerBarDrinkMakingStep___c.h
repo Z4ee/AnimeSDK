@@ -5,24 +5,24 @@
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_DRINKMAKERBARDRINKMAKINGSTEP___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC2B41F0)
-#define RPG_CLIENT_DRINKMAKERBARDRINKMAKINGSTEP___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC2B4230)
-#define RPG_CLIENT_DRINKMAKERBARDRINKMAKINGSTEP___C__GETSUBSTEPFINISHSTATE_B__2_0_OFFSET UNITYSDK_OFFSET(0xC2B4240)
+#define RPG_CLIENT_DRINKMAKERBARDRINKMAKINGSTEP___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xCD84DA0)
+#define RPG_CLIENT_DRINKMAKERBARDRINKMAKINGSTEP___C__CTOR_OFFSET UNITYSDK_OFFSET(0xCD84DE0)
+#define RPG_CLIENT_DRINKMAKERBARDRINKMAKINGSTEP___C__GETSUBSTEPFINISHSTATE_B__2_0_OFFSET UNITYSDK_OFFSET(0xCD84DF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DrinkMakerBarDrinkMakingStep___c_TypeDefinitionIndex = 60802;
+	inline static constexpr unsigned int DrinkMakerBarDrinkMakingStep___c_TypeDefinitionIndex = 63655;
 
 	class DrinkMakerBarDrinkMakingStep___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::Collections::Generic::List_1<::System::UInt32>*, ::System::Boolean>** StaticGet___9__2_0()
-		{
-			return (::System::Func_2<::System::Collections::Generic::List_1<::System::UInt32>*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerBarDrinkMakingStep___c_TypeDefinitionIndex)->GetStaticField(0x66D40);
-		}
 		static ::RPG::Client::DrinkMakerBarDrinkMakingStep___c** StaticGet___9()
 		{
-			return (::RPG::Client::DrinkMakerBarDrinkMakingStep___c**)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerBarDrinkMakingStep___c_TypeDefinitionIndex)->GetStaticField(0x66D48);
+			return (::RPG::Client::DrinkMakerBarDrinkMakingStep___c**)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerBarDrinkMakingStep___c_TypeDefinitionIndex)->GetStaticField(0x62660);
+		}
+		static ::System::Func_2<::System::Collections::Generic::List_1<::System::UInt32>*, ::System::Boolean>** StaticGet___9__2_0()
+		{
+			return (::System::Func_2<::System::Collections::Generic::List_1<::System::UInt32>*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerBarDrinkMakingStep___c_TypeDefinitionIndex)->GetStaticField(0x62668);
 		}
 
 		static ::System::Void _cctor()

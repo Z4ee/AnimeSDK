@@ -6,21 +6,21 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_AVATARSKILLDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xBE0EE50)
+#define RPG_CLIENT_AVATARSKILLDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xC843440)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AvatarSkillData_TypeDefinitionIndex = 59716;
+	inline static constexpr unsigned int AvatarSkillData_TypeDefinitionIndex = 62562;
 
 	class AvatarSkillData : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::RPG::GameCore::FixPoint>* DescParams; // 0x10
+		::System::String* IconPath; // 0x10
 		::System::String* SkillTriggerKey; // 0x18
-		::System::String* IconPath; // 0x20
-		::RPG::Client::TextID Tag; // 0x28
+		::Il2CppArray<::RPG::GameCore::FixPoint>* DescParams; // 0x20
+		::RPG::Client::TextID Desc; // 0x28
 		::System::UInt32 SkillLv; // 0x38
-		::RPG::Client::TextID Desc; // 0x40
+		::RPG::Client::TextID Tag; // 0x40
 		::RPG::Client::TextID Name; // 0x50
 		::RPG::Client::TextID TypeDesc; // 0x60
 

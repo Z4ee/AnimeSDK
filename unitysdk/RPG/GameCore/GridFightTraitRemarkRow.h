@@ -9,25 +9,25 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_GRIDFIGHTTRAITREMARKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B4F3D00)
-#define RPG_GAMECORE_GRIDFIGHTTRAITREMARKROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4F4140)
+#define RPG_GAMECORE_GRIDFIGHTTRAITREMARKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D16D590)
+#define RPG_GAMECORE_GRIDFIGHTTRAITREMARKROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D16D9D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightTraitRemarkRow_TypeDefinitionIndex = 13195;
+	inline static constexpr unsigned int GridFightTraitRemarkRow_TypeDefinitionIndex = 13586;
 
 	class GridFightTraitRemarkRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::RPG::GameCore::FixPoint>* TraitRemarkParamList; // 0x10
 		::Il2CppArray<::System::UInt32>* ConditionParamList; // 0x18
-		::RPG::Client::TextID TraitSimpleRemark; // 0x20
-		::RPG::GameCore::GridFightTraitRemarkActiveEffect Format; // 0x30
-		::RPG::GameCore::GridFightTraitRemarkPosition Position; // 0x34
-		::RPG::GameCore::GridFightTraitRemarkActiveType ConditionType; // 0x38
-		::System::UInt32 ID; // 0x3C
-		::System::UInt32 TextOrder; // 0x40
-		::System::Boolean IsInBook; // 0x44
+		::RPG::GameCore::GridFightTraitRemarkActiveType ConditionType; // 0x20
+		::System::UInt32 ID; // 0x24
+		::RPG::Client::TextID TraitSimpleRemark; // 0x28
+		::System::UInt32 TextOrder; // 0x38
+		::RPG::GameCore::GridFightTraitRemarkPosition Position; // 0x3C
+		::System::Boolean IsInBook; // 0x40
+		::RPG::GameCore::GridFightTraitRemarkActiveEffect Format; // 0x44
 		::RPG::Client::TextID TraitRemark; // 0x48
 
 		::System::Void _ctor()

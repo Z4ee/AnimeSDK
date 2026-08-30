@@ -7,14 +7,15 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class FiveDimDynamicVar; }
 namespace RPG::GameCore { class FloatingSpiritBlock; }
+namespace System { class String; }
 
-#define RPG_GAMECORE_FIVEDIMFLOATINGSPIRITPROPSPAWNERPARAM_METHOD_3_0B74495FBC9C4293_OFFSET UNITYSDK_OFFSET(0x1B42E5A0)
-#define RPG_GAMECORE_FIVEDIMFLOATINGSPIRITPROPSPAWNERPARAM_METHOD_3_611AD1FE4859374D_OFFSET UNITYSDK_OFFSET(0x1B42E560)
-#define RPG_GAMECORE_FIVEDIMFLOATINGSPIRITPROPSPAWNERPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1B42E590)
+#define RPG_GAMECORE_FIVEDIMFLOATINGSPIRITPROPSPAWNERPARAM_METHOD_3_83054DEDC4FE60A2_OFFSET UNITYSDK_OFFSET(0x1D0E61E0)
+#define RPG_GAMECORE_FIVEDIMFLOATINGSPIRITPROPSPAWNERPARAM_METHOD_3_AC3925C480356C78_OFFSET UNITYSDK_OFFSET(0x1D0E6220)
+#define RPG_GAMECORE_FIVEDIMFLOATINGSPIRITPROPSPAWNERPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0E6210)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimFloatingSpiritPropSpawnerParam_TypeDefinitionIndex = 17845;
+	inline static constexpr unsigned int FiveDimFloatingSpiritPropSpawnerParam_TypeDefinitionIndex = 18365;
 
 	class FiveDimFloatingSpiritPropSpawnerParam : public ::RPG::GameCore::FiveDimPropSpawnerParam
 	{
@@ -33,20 +34,25 @@ namespace RPG::GameCore
 		::System::Boolean BindLevelVarBlock; // 0x3D
 		::RPG::GameCore::FiveDimDynamicVar* BindLevelVarName; // 0x40
 		::Il2CppArray<::RPG::GameCore::FloatingSpiritBlock*>* LevelVarBlockIndex; // 0x48
+		::System::Boolean HasAttachEntity; // 0x50
+		::System::UInt32 AttachEntityID; // 0x54
+		::System::String* AttachPointName; // 0x58
+		::RPG::MVector3 AttachRotationOffset; // 0x60
+		::RPG::MVector3 AttachPositionOffset; // 0x6C
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMFLOATINGSPIRITPROPSPAWNERPARAM__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_611AD1FE4859374D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimFloatingSpiritPropSpawnerParam*& a2)
+		static ::System::Void Method_3_83054DEDC4FE60A2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimFloatingSpiritPropSpawnerParam*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimFloatingSpiritPropSpawnerParam*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMFLOATINGSPIRITPROPSPAWNERPARAM_METHOD_3_611AD1FE4859374D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimFloatingSpiritPropSpawnerParam*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMFLOATINGSPIRITPROPSPAWNERPARAM_METHOD_3_83054DEDC4FE60A2_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_0B74495FBC9C4293(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimFloatingSpiritPropSpawnerParam* a2)
+		static ::System::Void Method_3_AC3925C480356C78(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimFloatingSpiritPropSpawnerParam* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimFloatingSpiritPropSpawnerParam*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMFLOATINGSPIRITPROPSPAWNERPARAM_METHOD_3_0B74495FBC9C4293_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimFloatingSpiritPropSpawnerParam*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMFLOATINGSPIRITPROPSPAWNERPARAM_METHOD_3_AC3925C480356C78_OFFSET))(a1, a2);
 		}
 	};
 }

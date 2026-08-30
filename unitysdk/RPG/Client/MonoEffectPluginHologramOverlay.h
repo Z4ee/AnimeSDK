@@ -4,20 +4,20 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
-#define RPG_CLIENT_MONOEFFECTPLUGINHOLOGRAMOVERLAY_METHOD_8_33E2FA8E6403B93D_OFFSET UNITYSDK_OFFSET(0xCCBDF30)
-#define RPG_CLIENT_MONOEFFECTPLUGINHOLOGRAMOVERLAY_METHOD_8_5176DC743E478510_OFFSET UNITYSDK_OFFSET(0xCCBDD10)
-#define RPG_CLIENT_MONOEFFECTPLUGINHOLOGRAMOVERLAY__CTOR_OFFSET UNITYSDK_OFFSET(0xCCBE080)
+#define RPG_CLIENT_MONOEFFECTPLUGINHOLOGRAMOVERLAY_METHOD_8_33E2FA8E6403B93D_OFFSET UNITYSDK_OFFSET(0xD7BEB10)
+#define RPG_CLIENT_MONOEFFECTPLUGINHOLOGRAMOVERLAY_METHOD_8_5176DC743E478510_OFFSET UNITYSDK_OFFSET(0xD7BE8F0)
+#define RPG_CLIENT_MONOEFFECTPLUGINHOLOGRAMOVERLAY__CTOR_OFFSET UNITYSDK_OFFSET(0xD7BEC60)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginHologramOverlay_TypeDefinitionIndex = 66873;
+	inline static constexpr unsigned int MonoEffectPluginHologramOverlay_TypeDefinitionIndex = 69975;
 
 	class MonoEffectPluginHologramOverlay : public ::RPG::Client::MonoEffectPluginCharaOverlayMatBase
 	{
 	public:
 		::System::Boolean FollowScale; // 0x220
-		::UnityEngine::Vector3 Field_8_1; // 0x224
-		::UnityEngine::Vector4 Field_8_2; // 0x230
+		::UnityEngine::Vector3 KABMCJNCNFE; // 0x224
+		::UnityEngine::Vector4 DJOJMMKJGIJ; // 0x230
 
 		::System::Void _ctor()
 		{

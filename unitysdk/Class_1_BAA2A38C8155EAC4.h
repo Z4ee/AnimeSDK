@@ -3,33 +3,33 @@
 #include "unitysdk/ScenenLightManager/FadingState.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_363;
+class Class_0_16E4307DCC419505_382;
 namespace System { class Action; }
 namespace System::Collections::Generic { template <typename T> class Stack_1; }
 
-#define CLASS_1_BAA2A38C8155EAC4_METHOD_1_1B167429A8B82AD3_OFFSET UNITYSDK_OFFSET(0xB4353C0)
-#define CLASS_1_BAA2A38C8155EAC4_METHOD_1_2F0F99A12DB93F30_OFFSET UNITYSDK_OFFSET(0xB435360)
-#define CLASS_1_BAA2A38C8155EAC4_METHOD_1_3CCBE3B0337D2B16_OFFSET UNITYSDK_OFFSET(0xB434D80)
-#define CLASS_1_BAA2A38C8155EAC4_METHOD_1_454E886573412C7E_OFFSET UNITYSDK_OFFSET(0xB434C30)
-#define CLASS_1_BAA2A38C8155EAC4_METHOD_1_4F57A73D9ABE2F77_OFFSET UNITYSDK_OFFSET(0xB434FC0)
-#define CLASS_1_BAA2A38C8155EAC4_METHOD_1_F4AECB1C61F7740C_OFFSET UNITYSDK_OFFSET(0xB434F70)
-#define CLASS_1_BAA2A38C8155EAC4__CCTOR_OFFSET UNITYSDK_OFFSET(0xB435460)
-#define CLASS_1_BAA2A38C8155EAC4__CTOR_OFFSET UNITYSDK_OFFSET(0xB434D70)
+#define CLASS_1_BAA2A38C8155EAC4_METHOD_1_1B167429A8B82AD3_OFFSET UNITYSDK_OFFSET(0xBDCBB00)
+#define CLASS_1_BAA2A38C8155EAC4_METHOD_1_2F0F99A12DB93F30_OFFSET UNITYSDK_OFFSET(0xBDCBAA0)
+#define CLASS_1_BAA2A38C8155EAC4_METHOD_1_3CCBE3B0337D2B16_OFFSET UNITYSDK_OFFSET(0xBDCB4C0)
+#define CLASS_1_BAA2A38C8155EAC4_METHOD_1_454E886573412C7E_OFFSET UNITYSDK_OFFSET(0xBDCB370)
+#define CLASS_1_BAA2A38C8155EAC4_METHOD_1_4F57A73D9ABE2F77_OFFSET UNITYSDK_OFFSET(0xBDCB700)
+#define CLASS_1_BAA2A38C8155EAC4_METHOD_1_F4AECB1C61F7740C_OFFSET UNITYSDK_OFFSET(0xBDCB6B0)
+#define CLASS_1_BAA2A38C8155EAC4__CCTOR_OFFSET UNITYSDK_OFFSET(0xBDCBBA0)
+#define CLASS_1_BAA2A38C8155EAC4__CTOR_OFFSET UNITYSDK_OFFSET(0xBDCB4B0)
 
-inline static constexpr unsigned int Class_1_BAA2A38C8155EAC4_TypeDefinitionIndex = 47500;
+inline static constexpr unsigned int Class_1_BAA2A38C8155EAC4_TypeDefinitionIndex = 49780;
 
 class Class_1_BAA2A38C8155EAC4 : public ::System::Object
 {
 public:
-	static ::System::Collections::Generic::Stack_1<::Class_1_BAA2A38C8155EAC4*>** StaticGet_Field_1_0()
+	static ::System::Collections::Generic::Stack_1<::Class_1_BAA2A38C8155EAC4*>** StaticGet_MFPNICMCKJG()
 	{
-		return (::System::Collections::Generic::Stack_1<::Class_1_BAA2A38C8155EAC4*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_BAA2A38C8155EAC4_TypeDefinitionIndex)->GetStaticField(0x68070);
+		return (::System::Collections::Generic::Stack_1<::Class_1_BAA2A38C8155EAC4*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_BAA2A38C8155EAC4_TypeDefinitionIndex)->GetStaticField(0x650E0);
 	}
-	::System::Action* Field_1_1; // 0x10
-	::Class_0_16E4307DCC419505_363* Field_1_2; // 0x18
-	::System::Single Field_1_3; // 0x20
-	::System::Single Field_1_4; // 0x24
-	::System::Single Field_1_5; // 0x28
+	::Class_0_16E4307DCC419505_382* NHOEPPPPFCP; // 0x10
+	::System::Action* DLLHNPPIIPG; // 0x18
+	::System::Single PPJFAHFEGDD; // 0x20
+	::System::Single BAGBOHCDFFA; // 0x24
+	::System::Single HNOLFPKINDK; // 0x28
 
 	::System::Void _ctor()
 	{
@@ -41,9 +41,9 @@ public:
 		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CLASS_1_BAA2A38C8155EAC4__CCTOR_OFFSET))();
 	}
 
-	static ::Class_1_BAA2A38C8155EAC4* Method_1_454E886573412C7E(::Class_0_16E4307DCC419505_363* a1, ::System::Single a2, ::System::Single a3, ::System::Action* a4)
+	static ::Class_1_BAA2A38C8155EAC4* Method_1_454E886573412C7E(::Class_0_16E4307DCC419505_382* a1, ::System::Single a2, ::System::Single a3, ::System::Action* a4)
 	{
-		return ((::Class_1_BAA2A38C8155EAC4*(*)(::Class_0_16E4307DCC419505_363*, ::System::Single, ::System::Single, ::System::Action*))((::PBYTE)hIl2Cpp + CLASS_1_BAA2A38C8155EAC4_METHOD_1_454E886573412C7E_OFFSET))(a1, a2, a3, a4);
+		return ((::Class_1_BAA2A38C8155EAC4*(*)(::Class_0_16E4307DCC419505_382*, ::System::Single, ::System::Single, ::System::Action*))((::PBYTE)hIl2Cpp + CLASS_1_BAA2A38C8155EAC4_METHOD_1_454E886573412C7E_OFFSET))(a1, a2, a3, a4);
 	}
 
 	::ScenenLightManager::FadingState Method_1_F4AECB1C61F7740C()
@@ -51,9 +51,9 @@ public:
 		return ((::ScenenLightManager::FadingState(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_BAA2A38C8155EAC4_METHOD_1_F4AECB1C61F7740C_OFFSET))(this);
 	}
 
-	::System::Void Method_1_3CCBE3B0337D2B16(::Class_0_16E4307DCC419505_363* a1, ::System::Single a2, ::System::Single a3, ::System::Action* a4)
+	::System::Void Method_1_3CCBE3B0337D2B16(::Class_0_16E4307DCC419505_382* a1, ::System::Single a2, ::System::Single a3, ::System::Action* a4)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_363*, ::System::Single, ::System::Single, ::System::Action*))((::PBYTE)hIl2Cpp + CLASS_1_BAA2A38C8155EAC4_METHOD_1_3CCBE3B0337D2B16_OFFSET))(this, a1, a2, a3, a4);
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_382*, ::System::Single, ::System::Single, ::System::Action*))((::PBYTE)hIl2Cpp + CLASS_1_BAA2A38C8155EAC4_METHOD_1_3CCBE3B0337D2B16_OFFSET))(this, a1, a2, a3, a4);
 	}
 
 	::System::Boolean Method_1_4F57A73D9ABE2F77(::System::Single a1)

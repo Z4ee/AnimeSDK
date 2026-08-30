@@ -6,12 +6,12 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/Span_1.h"
 
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2MOVERS_B2CLIPVECTOR_OFFSET UNITYSDK_OFFSET(0x1A6EBCA0)
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2MOVERS_B2SOLVEPLANES_OFFSET UNITYSDK_OFFSET(0x1A6EB7F0)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2MOVERS_B2CLIPVECTOR_OFFSET UNITYSDK_OFFSET(0x1C2FBA10)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2MOVERS_B2SOLVEPLANES_OFFSET UNITYSDK_OFFSET(0x1C2FB560)
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2Movers_TypeDefinitionIndex = 35172;
+	inline static constexpr unsigned int B2Movers_TypeDefinitionIndex = 36033;
 
 	class B2Movers : public ::System::Object
 	{

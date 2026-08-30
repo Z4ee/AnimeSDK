@@ -3,7 +3,7 @@
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomEx_BiquadFilterType_TypeDefinitionIndex = 37796;
+	inline static constexpr unsigned int CriAtomEx_BiquadFilterType_TypeDefinitionIndex = 38655;
 
 	enum class CriAtomEx_BiquadFilterType : ::System::Int32
 	{

@@ -6,7 +6,7 @@ namespace RPG::Client::ActivityHipplen { class ActivityHipplenGameInstance; }
 
 namespace RPG::Client::ActivityHipplen
 {
-	inline static constexpr unsigned int IActivityHipplenGameState_TypeDefinitionIndex = 71927;
+	inline static constexpr unsigned int IActivityHipplenGameState_TypeDefinitionIndex = 75233;
 
 	class IActivityHipplenGameState
 	{

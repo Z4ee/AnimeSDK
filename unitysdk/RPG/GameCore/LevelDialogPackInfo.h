@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_LEVELDIALOGPACKINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B552970)
-#define RPG_GAMECORE_LEVELDIALOGPACKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1B552A80)
+#define RPG_GAMECORE_LEVELDIALOGPACKINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D1CC730)
+#define RPG_GAMECORE_LEVELDIALOGPACKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1CC840)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelDialogPackInfo_TypeDefinitionIndex = 16549;
+	inline static constexpr unsigned int LevelDialogPackInfo_TypeDefinitionIndex = 17041;
 
 	class LevelDialogPackInfo : public ::RPG::GameCore::JsonConfig
 	{

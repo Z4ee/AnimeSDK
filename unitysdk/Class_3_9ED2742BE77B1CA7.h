@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByCompareBaseTypeCount; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_9ED2742BE77B1CA7_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1443AE50)
-#define CLASS_3_9ED2742BE77B1CA7__CTOR_OFFSET UNITYSDK_OFFSET(0x1443AE20)
+#define CLASS_3_9ED2742BE77B1CA7_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15263620)
+#define CLASS_3_9ED2742BE77B1CA7__CTOR_OFFSET UNITYSDK_OFFSET(0x152635F0)
 
-inline static constexpr unsigned int Class_3_9ED2742BE77B1CA7_TypeDefinitionIndex = 52901;
+inline static constexpr unsigned int Class_3_9ED2742BE77B1CA7_TypeDefinitionIndex = 55604;
 
 class Class_3_9ED2742BE77B1CA7 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByCompareBaseTypeCount*>
 {

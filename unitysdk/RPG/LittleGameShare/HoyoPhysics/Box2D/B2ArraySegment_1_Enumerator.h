@@ -6,7 +6,7 @@ namespace System { class Object; }
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2ArraySegment_1_Enumerator_TypeDefinitionIndex = 35033;
+	inline static constexpr unsigned int B2ArraySegment_1_Enumerator_TypeDefinitionIndex = 35894;
 
 	template <typename T>
 	struct B2ArraySegment_1_Enumerator

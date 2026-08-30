@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-namespace RPG::Client { class MainMissionData; }
+namespace RPG::Client { class BaseGameFlow; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_852_TypeDefinitionIndex = 63228;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_852_TypeDefinitionIndex = 64409;
 
 class Class_0_16E4307DCC419505_852
 {

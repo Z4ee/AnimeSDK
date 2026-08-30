@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_PIXAIRSHOPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B6B6500)
-#define RPG_GAMECORE_PIXAIRSHOPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6B6620)
+#define RPG_GAMECORE_PIXAIRSHOPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D338440)
+#define RPG_GAMECORE_PIXAIRSHOPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D338560)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PixAirShopRow_TypeDefinitionIndex = 11671;
+	inline static constexpr unsigned int PixAirShopRow_TypeDefinitionIndex = 12060;
 
 	class PixAirShopRow : public ::System::Object
 	{

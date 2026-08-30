@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Security/Cryptography/HashAlgorithm.h"
 
-#define MONO_SECURITY_CRYPTOGRAPHY_MD2_CREATE_OFFSET UNITYSDK_OFFSET(0x19F1DD40)
-#define MONO_SECURITY_CRYPTOGRAPHY_MD2__CTOR_OFFSET UNITYSDK_OFFSET(0x19F1DD30)
+#define MONO_SECURITY_CRYPTOGRAPHY_MD2_CREATE_OFFSET UNITYSDK_OFFSET(0x1BB22850)
+#define MONO_SECURITY_CRYPTOGRAPHY_MD2__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB22840)
 
 namespace Mono::Security::Cryptography
 {
-	inline static constexpr unsigned int MD2_TypeDefinitionIndex = 2295;
+	inline static constexpr unsigned int MD2_TypeDefinitionIndex = 2302;
 
 	class MD2 : public ::System::Security::Cryptography::HashAlgorithm
 	{

@@ -3,7 +3,7 @@
 #include "unitysdk/Class_1_5F51D4049EA87B7B.h"
 #include "unitysdk/RPG/GameCore/StartMusicRhythmTask_Phase.h"
 
-class Class_0_16E4307DCC419505_425;
+class Class_0_16E4307DCC419505_460;
 class Class_3_07C3C4D2990C49EE;
 namespace RPG::Client { class LuaUIController; }
 namespace RPG::Client { class MusicRhythmBoard; }
@@ -11,34 +11,34 @@ namespace RPG::GameCore { class StartMusicRhythm; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class Object; }
 
-#define RPG_GAMECORE_STARTMUSICRHYTHMTASK_DISPOSE_OFFSET UNITYSDK_OFFSET(0xDB4AE40)
-#define RPG_GAMECORE_STARTMUSICRHYTHMTASK_ONPUZZLEEVENT_OFFSET UNITYSDK_OFFSET(0xDB4B9A0)
-#define RPG_GAMECORE_STARTMUSICRHYTHMTASK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xDB4A960)
-#define RPG_GAMECORE_STARTMUSICRHYTHMTASK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xDB4ADF0)
-#define RPG_GAMECORE_STARTMUSICRHYTHMTASK_SHOWMAINPAGE_OFFSET UNITYSDK_OFFSET(0xDB4B670)
-#define RPG_GAMECORE_STARTMUSICRHYTHMTASK_TICK_OFFSET UNITYSDK_OFFSET(0xDB4B130)
-#define RPG_GAMECORE_STARTMUSICRHYTHMTASK__CTOR_OFFSET UNITYSDK_OFFSET(0xDB4A7F0)
-#define RPG_GAMECORE_STARTMUSICRHYTHMTASK__ONCHOOSELEVELPAGEEXIT_OFFSET UNITYSDK_OFFSET(0xDB4AD10)
-#define RPG_GAMECORE_STARTMUSICRHYTHMTASK__ONMAINPAGEENTER_OFFSET UNITYSDK_OFFSET(0xDB4BBA0)
-#define RPG_GAMECORE_STARTMUSICRHYTHMTASK__ONMUSICREADYPAGECLOSE_OFFSET UNITYSDK_OFFSET(0xDB4BB40)
+#define RPG_GAMECORE_STARTMUSICRHYTHMTASK_DISPOSE_OFFSET UNITYSDK_OFFSET(0xE70B600)
+#define RPG_GAMECORE_STARTMUSICRHYTHMTASK_ONPUZZLEEVENT_OFFSET UNITYSDK_OFFSET(0xE70C170)
+#define RPG_GAMECORE_STARTMUSICRHYTHMTASK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE70B110)
+#define RPG_GAMECORE_STARTMUSICRHYTHMTASK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xE70B5B0)
+#define RPG_GAMECORE_STARTMUSICRHYTHMTASK_SHOWMAINPAGE_OFFSET UNITYSDK_OFFSET(0xE70BE40)
+#define RPG_GAMECORE_STARTMUSICRHYTHMTASK_TICK_OFFSET UNITYSDK_OFFSET(0xE70B900)
+#define RPG_GAMECORE_STARTMUSICRHYTHMTASK__CTOR_OFFSET UNITYSDK_OFFSET(0xE70AFA0)
+#define RPG_GAMECORE_STARTMUSICRHYTHMTASK__ONCHOOSELEVELPAGEEXIT_OFFSET UNITYSDK_OFFSET(0xE70B4D0)
+#define RPG_GAMECORE_STARTMUSICRHYTHMTASK__ONMAINPAGEENTER_OFFSET UNITYSDK_OFFSET(0xE70C370)
+#define RPG_GAMECORE_STARTMUSICRHYTHMTASK__ONMUSICREADYPAGECLOSE_OFFSET UNITYSDK_OFFSET(0xE70C310)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StartMusicRhythmTask_TypeDefinitionIndex = 50862;
+	inline static constexpr unsigned int StartMusicRhythmTask_TypeDefinitionIndex = 53546;
 
 	class StartMusicRhythmTask : public ::Class_1_5F51D4049EA87B7B
 	{
 	public:
-		::Class_3_07C3C4D2990C49EE* _FormalFlow; // 0x18
-		::RPG::Client::MusicRhythmBoard* _MusicBoard; // 0x20
-		::RPG::GameCore::StartMusicRhythm* _Config; // 0x28
-		::RPG::Client::LuaUIController* _MainPage; // 0x30
-		::Class_3_07C3C4D2990C49EE* _OnShowUi; // 0x38
-		::Class_3_07C3C4D2990C49EE* _TutorialFlow; // 0x40
-		::RPG::GameCore::TaskContext* _Context; // 0x48
-		::System::Boolean _AddListener; // 0x50
-		::System::Single _TransitionTimer; // 0x54
-		::System::Single _TransitionDuration; // 0x58
+		::Class_3_07C3C4D2990C49EE* _TutorialFlow; // 0x18
+		::RPG::GameCore::TaskContext* _Context; // 0x20
+		::RPG::Client::LuaUIController* _MainPage; // 0x28
+		::Class_3_07C3C4D2990C49EE* _FormalFlow; // 0x30
+		::RPG::Client::MusicRhythmBoard* _MusicBoard; // 0x38
+		::RPG::GameCore::StartMusicRhythm* _Config; // 0x40
+		::Class_3_07C3C4D2990C49EE* _OnShowUi; // 0x48
+		::System::Single _TransitionDuration; // 0x50
+		::System::Boolean _AddListener; // 0x54
+		::System::Single _TransitionTimer; // 0x58
 		::RPG::GameCore::StartMusicRhythmTask_Phase _Phase; // 0x5C
 
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::StartMusicRhythm* a2)
@@ -71,9 +71,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STARTMUSICRHYTHMTASK_SHOWMAINPAGE_OFFSET))(this);
 		}
 
-		::System::Void OnPuzzleEvent(::Class_0_16E4307DCC419505_425* a1)
+		::System::Void OnPuzzleEvent(::Class_0_16E4307DCC419505_460* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_425*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STARTMUSICRHYTHMTASK_ONPUZZLEEVENT_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_460*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STARTMUSICRHYTHMTASK_ONPUZZLEEVENT_OFFSET))(this, a1);
 		}
 
 		::System::Void _OnMusicReadyPageClose(::System::Object* a1)

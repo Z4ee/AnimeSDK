@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class OverrideSkillReadyState; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_CCF5F333A478E013_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x153C9530)
-#define CLASS_3_CCF5F333A478E013__CTOR_OFFSET UNITYSDK_OFFSET(0x153C9500)
+#define CLASS_3_CCF5F333A478E013_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB4B8060)
+#define CLASS_3_CCF5F333A478E013__CTOR_OFFSET UNITYSDK_OFFSET(0xB4B8030)
 
-inline static constexpr unsigned int Class_3_CCF5F333A478E013_TypeDefinitionIndex = 52746;
+inline static constexpr unsigned int Class_3_CCF5F333A478E013_TypeDefinitionIndex = 55446;
 
 class Class_3_CCF5F333A478E013 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::OverrideSkillReadyState*>
 {

@@ -6,29 +6,29 @@ class Class_1_1B9BBF1B9A8CC806;
 class Class_1_D6315C5C2FF98AB8;
 namespace System { class String; }
 
-#define CLASS_1_6A24DA4DA554AC90_METHOD_1_DAB827F68E51D417_1_OFFSET UNITYSDK_OFFSET(0x1A3B1750)
-#define CLASS_1_6A24DA4DA554AC90_METHOD_1_DAB827F68E51D417_OFFSET UNITYSDK_OFFSET(0x1A3B16B0)
-#define CLASS_1_6A24DA4DA554AC90_METHOD_1_E6184566299DAB0F_1_OFFSET UNITYSDK_OFFSET(0x1A3B1700)
-#define CLASS_1_6A24DA4DA554AC90_METHOD_1_E6184566299DAB0F_OFFSET UNITYSDK_OFFSET(0x1A3B1660)
-#define CLASS_1_6A24DA4DA554AC90_METHOD_1_F7D893CA916DD700_OFFSET UNITYSDK_OFFSET(0x1A3B1310)
-#define CLASS_1_6A24DA4DA554AC90__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A3B17A0)
+#define CLASS_1_6A24DA4DA554AC90_METHOD_1_DAB827F68E51D417_1_OFFSET UNITYSDK_OFFSET(0x1BFC06C0)
+#define CLASS_1_6A24DA4DA554AC90_METHOD_1_DAB827F68E51D417_OFFSET UNITYSDK_OFFSET(0x1BFC0620)
+#define CLASS_1_6A24DA4DA554AC90_METHOD_1_E6184566299DAB0F_1_OFFSET UNITYSDK_OFFSET(0x1BFC0670)
+#define CLASS_1_6A24DA4DA554AC90_METHOD_1_E6184566299DAB0F_OFFSET UNITYSDK_OFFSET(0x1BFC05D0)
+#define CLASS_1_6A24DA4DA554AC90_METHOD_1_F7D893CA916DD700_OFFSET UNITYSDK_OFFSET(0x1BFC0280)
+#define CLASS_1_6A24DA4DA554AC90__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BFC0710)
 
-inline static constexpr unsigned int Class_1_6A24DA4DA554AC90_TypeDefinitionIndex = 39394;
+inline static constexpr unsigned int Class_1_6A24DA4DA554AC90_TypeDefinitionIndex = 40267;
 
 class Class_1_6A24DA4DA554AC90 : public ::System::Object
 {
 public:
-	static ::Il2CppArray<::System::Byte>** StaticGet_Field_1_0()
+	static ::Il2CppArray<::System::Byte>** StaticGet_AEAANNFKGFC()
 	{
-		return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6A24DA4DA554AC90_TypeDefinitionIndex)->GetStaticField(0x271A0);
+		return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6A24DA4DA554AC90_TypeDefinitionIndex)->GetStaticField(0x197F0);
 	}
-	// static const ::System::Int32 Field_1_1 = 0x4; // 0x0
-	// static const ::System::String* Field_1_2; // 0x0
-	// static const ::System::String* Field_1_3; // 0x0
-	// static const ::System::String* Field_1_4; // 0x0
-	// static const ::System::String* Field_1_5; // 0x0
-	// static const ::System::String* Field_1_6; // 0x0
-	// static const ::System::String* Field_1_7; // 0x0
+	// static const ::System::Int32 PEGKIDLALHF = 0x4; // 0x0
+	// static const ::System::String* GJPNNCFPMGK; // 0x0
+	// static const ::System::String* GDDNCOOPCMF; // 0x0
+	// static const ::System::String* KNHJNAFPPAL; // 0x0
+	// static const ::System::String* CAHJMOPMKLE; // 0x0
+	// static const ::System::String* PNBHFOIJAIP; // 0x0
+	// static const ::System::String* CMDACCHOACL; // 0x0
 
 	static ::System::Void _cctor()
 	{

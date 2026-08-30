@@ -4,11 +4,11 @@
 
 namespace RPG::Client::Prop { class ChimeraArrangementModelInstance_MotionConfig; }
 
-#define RPG_CLIENT_PROP_CHIMERAARRANGEMENTMODELINSTANCE_CONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xD0F99C0)
+#define RPG_CLIENT_PROP_CHIMERAARRANGEMENTMODELINSTANCE_CONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xDBFDE60)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraArrangementModelInstance_Config_TypeDefinitionIndex = 74505;
+	inline static constexpr unsigned int ChimeraArrangementModelInstance_Config_TypeDefinitionIndex = 77990;
 
 	class ChimeraArrangementModelInstance_Config : public ::System::Object
 	{

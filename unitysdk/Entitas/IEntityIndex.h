@@ -5,7 +5,7 @@ namespace System { class String; }
 
 namespace Entitas
 {
-	inline static constexpr unsigned int IEntityIndex_TypeDefinitionIndex = 9684;
+	inline static constexpr unsigned int IEntityIndex_TypeDefinitionIndex = 9963;
 
 	class IEntityIndex
 	{

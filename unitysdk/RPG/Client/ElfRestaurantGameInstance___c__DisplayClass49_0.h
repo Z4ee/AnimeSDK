@@ -6,12 +6,12 @@ namespace RPG::Client::LittleGame { class ElfRestaurantGameEntity; }
 namespace System { class Action; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_ELFRESTAURANTGAMEINSTANCE___C__DISPLAYCLASS49_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC3A0680)
-#define RPG_CLIENT_ELFRESTAURANTGAMEINSTANCE___C__DISPLAYCLASS49_0___SETUPTABLES_B__0_OFFSET UNITYSDK_OFFSET(0xC3A1810)
+#define RPG_CLIENT_ELFRESTAURANTGAMEINSTANCE___C__DISPLAYCLASS49_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCE72120)
+#define RPG_CLIENT_ELFRESTAURANTGAMEINSTANCE___C__DISPLAYCLASS49_0___SETUPTABLES_B__0_OFFSET UNITYSDK_OFFSET(0xCE73290)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ElfRestaurantGameInstance___c__DisplayClass49_0_TypeDefinitionIndex = 57681;
+	inline static constexpr unsigned int ElfRestaurantGameInstance___c__DisplayClass49_0_TypeDefinitionIndex = 60498;
 
 	class ElfRestaurantGameInstance___c__DisplayClass49_0 : public ::System::Object
 	{

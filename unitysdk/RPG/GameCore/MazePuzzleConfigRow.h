@@ -7,12 +7,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MAZEPUZZLECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B5E33F0)
-#define RPG_GAMECORE_MAZEPUZZLECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5E3AC0)
+#define RPG_GAMECORE_MAZEPUZZLECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D25FB00)
+#define RPG_GAMECORE_MAZEPUZZLECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2601D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MazePuzzleConfigRow_TypeDefinitionIndex = 13985;
+	inline static constexpr unsigned int MazePuzzleConfigRow_TypeDefinitionIndex = 14403;
 
 	class MazePuzzleConfigRow : public ::System::Object
 	{

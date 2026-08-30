@@ -8,24 +8,24 @@
 class Class_1_D70A30D666F20D90;
 namespace UnityEngine { class Camera; }
 
-#define CLASS_1_506296B1AE431167_METHOD_1_6140C241A9FB7EF2_OFFSET UNITYSDK_OFFSET(0x1460AEB0)
-#define CLASS_1_506296B1AE431167_METHOD_1_7F68D6D1D153FE6C_OFFSET UNITYSDK_OFFSET(0x1460AC60)
-#define CLASS_1_506296B1AE431167_METHOD_1_93852A59E9597849_OFFSET UNITYSDK_OFFSET(0x1460AE30)
-#define CLASS_1_506296B1AE431167__CTOR_OFFSET UNITYSDK_OFFSET(0x1460B260)
+#define CLASS_1_506296B1AE431167_METHOD_1_6140C241A9FB7EF2_OFFSET UNITYSDK_OFFSET(0x1538CB30)
+#define CLASS_1_506296B1AE431167_METHOD_1_7F68D6D1D153FE6C_OFFSET UNITYSDK_OFFSET(0x1538C8E0)
+#define CLASS_1_506296B1AE431167_METHOD_1_93852A59E9597849_OFFSET UNITYSDK_OFFSET(0x1538CAB0)
+#define CLASS_1_506296B1AE431167__CTOR_OFFSET UNITYSDK_OFFSET(0x1538CEE0)
 
-inline static constexpr unsigned int Class_1_506296B1AE431167_TypeDefinitionIndex = 70436;
+inline static constexpr unsigned int Class_1_506296B1AE431167_TypeDefinitionIndex = 73708;
 
 class Class_1_506296B1AE431167 : public ::System::Object
 {
 public:
-	// static const ::System::Single Field_1_0; // 0x0
-	// static const ::System::Single Field_1_1; // 0x0
-	::Il2CppArray<::UnityEngine::Plane>* Field_1_2; // 0x10
-	::UnityEngine::Matrix4x4 Field_1_3; // 0x18
-	::System::Single Field_1_4; // 0x58
-	::System::Boolean Field_1_5; // 0x5C
-	::System::Boolean Field_1_6; // 0x5D
-	::System::Single Field_1_7; // 0x60
+	// static const ::System::Single GMFHCDPBDIL; // 0x0
+	// static const ::System::Single ABEJJLFNPNH; // 0x0
+	::Il2CppArray<::UnityEngine::Plane>* PLEDIKJGBHK; // 0x10
+	::UnityEngine::Matrix4x4 BJLGJEOBJBH; // 0x18
+	::System::Single ECKMPJKMOHN; // 0x58
+	::System::Single DOHPGABAGNA; // 0x5C
+	::System::Boolean HDIMLIAJGLL; // 0x60
+	::System::Boolean PGOFBBMGANH; // 0x61
 
 	::System::Void _ctor()
 	{

@@ -2,59 +2,59 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_INT64USERDATATESTDATA_GETINT64U_OFFSET UNITYSDK_OFFSET(0xC8E1690)
-#define RPG_CLIENT_INT64USERDATATESTDATA_GETINT64_OFFSET UNITYSDK_OFFSET(0xC8E1710)
-#define RPG_CLIENT_INT64USERDATATESTDATA_GETUINT64U_OFFSET UNITYSDK_OFFSET(0xC8E16D0)
-#define RPG_CLIENT_INT64USERDATATESTDATA_GETUINT64_OFFSET UNITYSDK_OFFSET(0xC8E1750)
-#define RPG_CLIENT_INT64USERDATATESTDATA_TOINT64CHECK_OFFSET UNITYSDK_OFFSET(0xC8E1880)
-#define RPG_CLIENT_INT64USERDATATESTDATA_TOINT64MAX_OFFSET UNITYSDK_OFFSET(0xC8E17E0)
-#define RPG_CLIENT_INT64USERDATATESTDATA_TOINT64MIN_OFFSET UNITYSDK_OFFSET(0xC8E1790)
-#define RPG_CLIENT_INT64USERDATATESTDATA_TOINT64_OFFSET UNITYSDK_OFFSET(0xC8E1920)
-#define RPG_CLIENT_INT64USERDATATESTDATA_TOUINT64CHECK_OFFSET UNITYSDK_OFFSET(0xC8E18D0)
-#define RPG_CLIENT_INT64USERDATATESTDATA_TOUINT64MAX_OFFSET UNITYSDK_OFFSET(0xC8E1830)
-#define RPG_CLIENT_INT64USERDATATESTDATA_TOUINT64_OFFSET UNITYSDK_OFFSET(0xC8E1970)
-#define RPG_CLIENT_INT64USERDATATESTDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0xC8E19D0)
-#define RPG_CLIENT_INT64USERDATATESTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xC8E19C0)
+#define RPG_CLIENT_INT64USERDATATESTDATA_GETINT64U_OFFSET UNITYSDK_OFFSET(0xD405B20)
+#define RPG_CLIENT_INT64USERDATATESTDATA_GETINT64_OFFSET UNITYSDK_OFFSET(0xD405BA0)
+#define RPG_CLIENT_INT64USERDATATESTDATA_GETUINT64U_OFFSET UNITYSDK_OFFSET(0xD405B60)
+#define RPG_CLIENT_INT64USERDATATESTDATA_GETUINT64_OFFSET UNITYSDK_OFFSET(0xD405BE0)
+#define RPG_CLIENT_INT64USERDATATESTDATA_TOINT64CHECK_OFFSET UNITYSDK_OFFSET(0xD405D10)
+#define RPG_CLIENT_INT64USERDATATESTDATA_TOINT64MAX_OFFSET UNITYSDK_OFFSET(0xD405C70)
+#define RPG_CLIENT_INT64USERDATATESTDATA_TOINT64MIN_OFFSET UNITYSDK_OFFSET(0xD405C20)
+#define RPG_CLIENT_INT64USERDATATESTDATA_TOINT64_OFFSET UNITYSDK_OFFSET(0xD405DB0)
+#define RPG_CLIENT_INT64USERDATATESTDATA_TOUINT64CHECK_OFFSET UNITYSDK_OFFSET(0xD405D60)
+#define RPG_CLIENT_INT64USERDATATESTDATA_TOUINT64MAX_OFFSET UNITYSDK_OFFSET(0xD405CC0)
+#define RPG_CLIENT_INT64USERDATATESTDATA_TOUINT64_OFFSET UNITYSDK_OFFSET(0xD405E00)
+#define RPG_CLIENT_INT64USERDATATESTDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0xD405E60)
+#define RPG_CLIENT_INT64USERDATATESTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xD405E50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Int64UserDataTestData_TypeDefinitionIndex = 66349;
+	inline static constexpr unsigned int Int64UserDataTestData_TypeDefinitionIndex = 69441;
 
 	class Int64UserDataTestData : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::Int64UserDataTestData** StaticGet_TestDataMax()
-		{
-			return (::RPG::Client::Int64UserDataTestData**)Il2CppClass::FromTypeDefinitionIndex(Int64UserDataTestData_TypeDefinitionIndex)->GetStaticField(0x343A0);
-		}
-		static ::RPG::Client::Int64UserDataTestData** StaticGet_TestDataDiv5()
-		{
-			return (::RPG::Client::Int64UserDataTestData**)Il2CppClass::FromTypeDefinitionIndex(Int64UserDataTestData_TypeDefinitionIndex)->GetStaticField(0x343A8);
-		}
 		static ::RPG::Client::Int64UserDataTestData** StaticGet_TestDataMod3()
 		{
-			return (::RPG::Client::Int64UserDataTestData**)Il2CppClass::FromTypeDefinitionIndex(Int64UserDataTestData_TypeDefinitionIndex)->GetStaticField(0x343B0);
+			return (::RPG::Client::Int64UserDataTestData**)Il2CppClass::FromTypeDefinitionIndex(Int64UserDataTestData_TypeDefinitionIndex)->GetStaticField(0x5D380);
 		}
-		static ::RPG::Client::Int64UserDataTestData** StaticGet_TestData()
+		static ::RPG::Client::Int64UserDataTestData** StaticGet_TestDataMax()
 		{
-			return (::RPG::Client::Int64UserDataTestData**)Il2CppClass::FromTypeDefinitionIndex(Int64UserDataTestData_TypeDefinitionIndex)->GetStaticField(0x343B8);
-		}
-		static ::RPG::Client::Int64UserDataTestData** StaticGet_TestDataMul2()
-		{
-			return (::RPG::Client::Int64UserDataTestData**)Il2CppClass::FromTypeDefinitionIndex(Int64UserDataTestData_TypeDefinitionIndex)->GetStaticField(0x343C0);
-		}
-		static ::RPG::Client::Int64UserDataTestData** StaticGet_TestDataUnm()
-		{
-			return (::RPG::Client::Int64UserDataTestData**)Il2CppClass::FromTypeDefinitionIndex(Int64UserDataTestData_TypeDefinitionIndex)->GetStaticField(0x343C8);
+			return (::RPG::Client::Int64UserDataTestData**)Il2CppClass::FromTypeDefinitionIndex(Int64UserDataTestData_TypeDefinitionIndex)->GetStaticField(0x5D388);
 		}
 		static ::RPG::Client::Int64UserDataTestData** StaticGet_TestDataAdd1()
 		{
-			return (::RPG::Client::Int64UserDataTestData**)Il2CppClass::FromTypeDefinitionIndex(Int64UserDataTestData_TypeDefinitionIndex)->GetStaticField(0x343D0);
+			return (::RPG::Client::Int64UserDataTestData**)Il2CppClass::FromTypeDefinitionIndex(Int64UserDataTestData_TypeDefinitionIndex)->GetStaticField(0x5D390);
 		}
-		::System::Int64 int64; // 0x10
+		static ::RPG::Client::Int64UserDataTestData** StaticGet_TestDataMul2()
+		{
+			return (::RPG::Client::Int64UserDataTestData**)Il2CppClass::FromTypeDefinitionIndex(Int64UserDataTestData_TypeDefinitionIndex)->GetStaticField(0x5D398);
+		}
+		static ::RPG::Client::Int64UserDataTestData** StaticGet_TestDataUnm()
+		{
+			return (::RPG::Client::Int64UserDataTestData**)Il2CppClass::FromTypeDefinitionIndex(Int64UserDataTestData_TypeDefinitionIndex)->GetStaticField(0x5D3A0);
+		}
+		static ::RPG::Client::Int64UserDataTestData** StaticGet_TestDataDiv5()
+		{
+			return (::RPG::Client::Int64UserDataTestData**)Il2CppClass::FromTypeDefinitionIndex(Int64UserDataTestData_TypeDefinitionIndex)->GetStaticField(0x5D3A8);
+		}
+		static ::RPG::Client::Int64UserDataTestData** StaticGet_TestData()
+		{
+			return (::RPG::Client::Int64UserDataTestData**)Il2CppClass::FromTypeDefinitionIndex(Int64UserDataTestData_TypeDefinitionIndex)->GetStaticField(0x5D3B0);
+		}
+		::System::UInt64 uint64u; // 0x10
 		::System::UInt64 uint64; // 0x18
-		::System::UInt64 uint64u; // 0x20
-		::System::Int64 int64u; // 0x28
+		::System::Int64 int64u; // 0x20
+		::System::Int64 int64; // 0x28
 
 		::System::Void _ctor()
 		{

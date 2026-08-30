@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 
 namespace RPG::Client::FateRin::Card
 {
-	inline static constexpr unsigned int IFateRinBattleCardPileViewModel_TypeDefinitionIndex = 76166;
+	inline static constexpr unsigned int IFateRinBattleCardPileViewModel_TypeDefinitionIndex = 79799;
 
 	class IFateRinBattleCardPileViewModel
 	{

@@ -9,22 +9,22 @@ namespace System::IO { class Stream; }
 namespace System::Net { class HttpListenerContext; }
 namespace System::Net { class MonoChunkStream; }
 
-#define SYSTEM_NET_CHUNKEDINPUTSTREAM_BEGINREAD_OFFSET UNITYSDK_OFFSET(0x1CCACD20)
-#define SYSTEM_NET_CHUNKEDINPUTSTREAM_CLOSE_OFFSET UNITYSDK_OFFSET(0x1CCAD780)
-#define SYSTEM_NET_CHUNKEDINPUTSTREAM_ENDREAD_OFFSET UNITYSDK_OFFSET(0x1CCACFE0)
-#define SYSTEM_NET_CHUNKEDINPUTSTREAM_ONREAD_OFFSET UNITYSDK_OFFSET(0x1CCAD3D0)
-#define SYSTEM_NET_CHUNKEDINPUTSTREAM_READ_OFFSET UNITYSDK_OFFSET(0x1CCACCF0)
-#define SYSTEM_NET_CHUNKEDINPUTSTREAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1CCACC10)
+#define SYSTEM_NET_CHUNKEDINPUTSTREAM_BEGINREAD_OFFSET UNITYSDK_OFFSET(0x1E957D60)
+#define SYSTEM_NET_CHUNKEDINPUTSTREAM_CLOSE_OFFSET UNITYSDK_OFFSET(0x1E9587C0)
+#define SYSTEM_NET_CHUNKEDINPUTSTREAM_ENDREAD_OFFSET UNITYSDK_OFFSET(0x1E958020)
+#define SYSTEM_NET_CHUNKEDINPUTSTREAM_ONREAD_OFFSET UNITYSDK_OFFSET(0x1E958410)
+#define SYSTEM_NET_CHUNKEDINPUTSTREAM_READ_OFFSET UNITYSDK_OFFSET(0x1E957D30)
+#define SYSTEM_NET_CHUNKEDINPUTSTREAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1E957C50)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int ChunkedInputStream_TypeDefinitionIndex = 2818;
+	inline static constexpr unsigned int ChunkedInputStream_TypeDefinitionIndex = 2825;
 
 	class ChunkedInputStream : public ::System::Net::RequestStream
 	{
 	public:
-		::System::Net::MonoChunkStream* decoder; // 0x50
-		::System::Net::HttpListenerContext* context; // 0x58
+		::System::Net::HttpListenerContext* context; // 0x50
+		::System::Net::MonoChunkStream* decoder; // 0x58
 		::System::Boolean no_more_data; // 0x60
 		::System::Boolean disposed; // 0x61
 

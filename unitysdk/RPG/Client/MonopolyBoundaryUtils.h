@@ -8,27 +8,27 @@ namespace RPG::Client { class MonopolyWorldBoundary; }
 namespace UnityEngine { class Camera; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_MONOPOLYBOUNDARYUTILS_GETVALIDMOVE_OFFSET UNITYSDK_OFFSET(0xCD405E0)
-#define RPG_CLIENT_MONOPOLYBOUNDARYUTILS_METHOD_5_4A3A44B26C9C3524_OFFSET UNITYSDK_OFFSET(0xCD40EB0)
-#define RPG_CLIENT_MONOPOLYBOUNDARYUTILS_METHOD_5_CA96C44697B640C5_OFFSET UNITYSDK_OFFSET(0xCD40740)
-#define RPG_CLIENT_MONOPOLYBOUNDARYUTILS_METHOD_5_F5FF82FB1EBC7B51_OFFSET UNITYSDK_OFFSET(0xCD41240)
-#define RPG_CLIENT_MONOPOLYBOUNDARYUTILS_REGISTERCURRENTBOUNDARYPROVIDER_OFFSET UNITYSDK_OFFSET(0xCD40590)
-#define RPG_CLIENT_MONOPOLYBOUNDARYUTILS__CCTOR_OFFSET UNITYSDK_OFFSET(0xCD41660)
-#define RPG_CLIENT_MONOPOLYBOUNDARYUTILS__CTOR_OFFSET UNITYSDK_OFFSET(0xCD41630)
+#define RPG_CLIENT_MONOPOLYBOUNDARYUTILS_GETVALIDMOVE_OFFSET UNITYSDK_OFFSET(0xD883080)
+#define RPG_CLIENT_MONOPOLYBOUNDARYUTILS_METHOD_5_4A3A44B26C9C3524_OFFSET UNITYSDK_OFFSET(0xD883950)
+#define RPG_CLIENT_MONOPOLYBOUNDARYUTILS_METHOD_5_CA96C44697B640C5_OFFSET UNITYSDK_OFFSET(0xD8831E0)
+#define RPG_CLIENT_MONOPOLYBOUNDARYUTILS_METHOD_5_F5FF82FB1EBC7B51_OFFSET UNITYSDK_OFFSET(0xD883CE0)
+#define RPG_CLIENT_MONOPOLYBOUNDARYUTILS_REGISTERCURRENTBOUNDARYPROVIDER_OFFSET UNITYSDK_OFFSET(0xD883030)
+#define RPG_CLIENT_MONOPOLYBOUNDARYUTILS__CCTOR_OFFSET UNITYSDK_OFFSET(0xD884100)
+#define RPG_CLIENT_MONOPOLYBOUNDARYUTILS__CTOR_OFFSET UNITYSDK_OFFSET(0xD8840D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonopolyBoundaryUtils_TypeDefinitionIndex = 69529;
+	inline static constexpr unsigned int MonopolyBoundaryUtils_TypeDefinitionIndex = 72757;
 
 	class MonopolyBoundaryUtils : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::Il2CppArray<::UnityEngine::RaycastHit>** StaticGet_Field_5_0()
+		static ::Il2CppArray<::UnityEngine::RaycastHit>** StaticGet_DHDOIBKDJFF()
 		{
-			return (::Il2CppArray<::UnityEngine::RaycastHit>**)Il2CppClass::FromTypeDefinitionIndex(MonopolyBoundaryUtils_TypeDefinitionIndex)->GetStaticField(0x5F6E0);
+			return (::Il2CppArray<::UnityEngine::RaycastHit>**)Il2CppClass::FromTypeDefinitionIndex(MonopolyBoundaryUtils_TypeDefinitionIndex)->GetStaticField(0x18890);
 		}
-		::RPG::Client::MonopolyWorldBoundary* Field_5_1; // 0x18
-		::Il2CppArray<::UnityEngine::Vector3>* Field_5_2; // 0x20
+		::RPG::Client::MonopolyWorldBoundary* OFFPODABAEC; // 0x18
+		::Il2CppArray<::UnityEngine::Vector3>* FPBIENMODOP; // 0x20
 		::UnityEngine::Vector3 RecoverRotationParam; // 0x28
 
 		::System::Void _ctor()

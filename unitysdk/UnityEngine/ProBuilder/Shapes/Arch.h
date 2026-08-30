@@ -8,23 +8,23 @@
 
 namespace UnityEngine::ProBuilder { class ProBuilderMesh; }
 
-#define UNITYENGINE_PROBUILDER_SHAPES_ARCH_COPYSHAPE_OFFSET UNITYSDK_OFFSET(0x1CEA8FE0)
-#define UNITYENGINE_PROBUILDER_SHAPES_ARCH_GETFACE_OFFSET UNITYSDK_OFFSET(0x1CEA9070)
-#define UNITYENGINE_PROBUILDER_SHAPES_ARCH_REBUILDMESH_OFFSET UNITYSDK_OFFSET(0x1CEA9120)
-#define UNITYENGINE_PROBUILDER_SHAPES_ARCH__CTOR_OFFSET UNITYSDK_OFFSET(0x1CEAA300)
+#define UNITYENGINE_PROBUILDER_SHAPES_ARCH_COPYSHAPE_OFFSET UNITYSDK_OFFSET(0x1EBB0920)
+#define UNITYENGINE_PROBUILDER_SHAPES_ARCH_GETFACE_OFFSET UNITYSDK_OFFSET(0x1EBB09B0)
+#define UNITYENGINE_PROBUILDER_SHAPES_ARCH_REBUILDMESH_OFFSET UNITYSDK_OFFSET(0x1EBB0A60)
+#define UNITYENGINE_PROBUILDER_SHAPES_ARCH__CTOR_OFFSET UNITYSDK_OFFSET(0x1EBB1C40)
 
 namespace UnityEngine::ProBuilder::Shapes
 {
-	inline static constexpr unsigned int Arch_TypeDefinitionIndex = 41655;
+	inline static constexpr unsigned int Arch_TypeDefinitionIndex = 43266;
 
 	class Arch : public ::UnityEngine::ProBuilder::Shapes::Shape
 	{
 	public:
-		::System::Single m_Thickness; // 0x10
+		::System::Single m_ArchDegrees; // 0x10
 		::System::Boolean m_Smooth; // 0x14
 		::System::Boolean m_EndCaps; // 0x15
-		::System::Int32 m_NumberOfSides; // 0x18
-		::System::Single m_ArchDegrees; // 0x1C
+		::System::Single m_Thickness; // 0x18
+		::System::Int32 m_NumberOfSides; // 0x1C
 
 		::System::Void _ctor()
 		{

@@ -7,23 +7,23 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ConditionParam; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FUNCTIONHUDSPECIALCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B4A5C70)
-#define RPG_GAMECORE_FUNCTIONHUDSPECIALCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4A5FD0)
+#define RPG_GAMECORE_FUNCTIONHUDSPECIALCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D11EE40)
+#define RPG_GAMECORE_FUNCTIONHUDSPECIALCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D11F1A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FunctionHudSpecialConfigRow_TypeDefinitionIndex = 12811;
+	inline static constexpr unsigned int FunctionHudSpecialConfigRow_TypeDefinitionIndex = 13202;
 
 	class FunctionHudSpecialConfigRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::RPG::GameCore::ConditionParam*>* HideConditions; // 0x10
+		::System::String* OverrideIconPath; // 0x10
 		::Il2CppArray<::System::UInt32>* ActivityModuleIDList; // 0x18
-		::System::String* OverrideIconPath; // 0x20
-		::System::String* FirstWorldText; // 0x28
-		::System::UInt32 ID; // 0x30
-		::System::Boolean IsLargeBtn; // 0x34
-		::System::Boolean ControlRightHud; // 0x35
+		::System::String* FirstWorldText; // 0x20
+		::Il2CppArray<::RPG::GameCore::ConditionParam*>* HideConditions; // 0x28
+		::System::Boolean IsLargeBtn; // 0x30
+		::System::Boolean ControlRightHud; // 0x31
+		::System::UInt32 ID; // 0x34
 		::RPG::Client::TextID NotInScheduleToast; // 0x38
 
 		::System::Void _ctor()

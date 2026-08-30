@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AdventureByIsNPCControlled; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_5CCB27E158B49178_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB1CFE30)
-#define CLASS_3_5CCB27E158B49178__CTOR_OFFSET UNITYSDK_OFFSET(0xB1CFE00)
+#define CLASS_3_5CCB27E158B49178_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBBA31C0)
+#define CLASS_3_5CCB27E158B49178__CTOR_OFFSET UNITYSDK_OFFSET(0xBBA3190)
 
-inline static constexpr unsigned int Class_3_5CCB27E158B49178_TypeDefinitionIndex = 51996;
+inline static constexpr unsigned int Class_3_5CCB27E158B49178_TypeDefinitionIndex = 54681;
 
 class Class_3_5CCB27E158B49178 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::AdventureByIsNPCControlled*>
 {

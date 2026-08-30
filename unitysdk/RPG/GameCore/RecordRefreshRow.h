@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_RECORDREFRESHROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B70C100)
-#define RPG_GAMECORE_RECORDREFRESHROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B70C7B0)
+#define RPG_GAMECORE_RECORDREFRESHROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D38E370)
+#define RPG_GAMECORE_RECORDREFRESHROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D38EA20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RecordRefreshRow_TypeDefinitionIndex = 13855;
+	inline static constexpr unsigned int RecordRefreshRow_TypeDefinitionIndex = 14275;
 
 	class RecordRefreshRow : public ::System::Object
 	{

@@ -4,11 +4,11 @@
 
 namespace MiHoYo::SDK { class JSONNode; }
 
-#define MIHOYO_SDK_MIHOYOSDKCLIENTCONFIGMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xAAE1E10)
+#define MIHOYO_SDK_MIHOYOSDKCLIENTCONFIGMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xB2227C0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MiHoYoSDKClientConfigModel_TypeDefinitionIndex = 44609;
+	inline static constexpr unsigned int MiHoYoSDKClientConfigModel_TypeDefinitionIndex = 46795;
 
 	class MiHoYoSDKClientConfigModel : public ::System::Object
 	{

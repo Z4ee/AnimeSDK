@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class LockPhotoIdentifyHint; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_A0E00D7A103D4DA4_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x14B3B500)
-#define CLASS_3_A0E00D7A103D4DA4__CTOR_OFFSET UNITYSDK_OFFSET(0x14B3B4D0)
+#define CLASS_3_A0E00D7A103D4DA4_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15A31EC0)
+#define CLASS_3_A0E00D7A103D4DA4__CTOR_OFFSET UNITYSDK_OFFSET(0x15A31E90)
 
-inline static constexpr unsigned int Class_3_A0E00D7A103D4DA4_TypeDefinitionIndex = 50583;
+inline static constexpr unsigned int Class_3_A0E00D7A103D4DA4_TypeDefinitionIndex = 53261;
 
 class Class_3_A0E00D7A103D4DA4 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::LockPhotoIdentifyHint*>
 {

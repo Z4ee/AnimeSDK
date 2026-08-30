@@ -4,7 +4,7 @@
 
 namespace RPG::Client::PixAir
 {
-	inline static constexpr unsigned int IAffectedChecker_TypeDefinitionIndex = 75281;
+	inline static constexpr unsigned int IAffectedChecker_TypeDefinitionIndex = 78828;
 
 	class IAffectedChecker
 	{

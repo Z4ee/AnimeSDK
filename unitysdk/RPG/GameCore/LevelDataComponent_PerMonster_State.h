@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelDataComponent_PerMonster_State_TypeDefinitionIndex = 55027;
+	inline static constexpr unsigned int LevelDataComponent_PerMonster_State_TypeDefinitionIndex = 57751;
 
 	enum class LevelDataComponent_PerMonster_State : ::System::Byte
 	{

@@ -4,18 +4,18 @@
 
 namespace System { class Action; }
 
-#define CLASS_1_476AB9FA14109A28_METHOD_1_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0x1A63A5C0)
-#define CLASS_1_476AB9FA14109A28_METHOD_1_FD70ADD4E8CC2326_OFFSET UNITYSDK_OFFSET(0x1A63A530)
-#define CLASS_1_476AB9FA14109A28__CTOR_OFFSET UNITYSDK_OFFSET(0x1A63A520)
+#define CLASS_1_476AB9FA14109A28_METHOD_1_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0x1C24A310)
+#define CLASS_1_476AB9FA14109A28_METHOD_1_FD70ADD4E8CC2326_OFFSET UNITYSDK_OFFSET(0x1C24A280)
+#define CLASS_1_476AB9FA14109A28__CTOR_OFFSET UNITYSDK_OFFSET(0x1C24A270)
 
-inline static constexpr unsigned int Class_1_476AB9FA14109A28_TypeDefinitionIndex = 35566;
+inline static constexpr unsigned int Class_1_476AB9FA14109A28_TypeDefinitionIndex = 36427;
 
 class Class_1_476AB9FA14109A28 : public ::System::Object
 {
 public:
-	::System::Action* Field_1_0; // 0x10
-	::System::Single Field_1_1; // 0x18
-	::System::Boolean Field_1_2; // 0x1C
+	::System::Action* PEIHJAEIGHK; // 0x10
+	::System::Single KIEANPJINOP; // 0x18
+	::System::Boolean PIPLLENMLIM; // 0x1C
 
 	::System::Void _ctor(::System::Action* a1, ::System::Single a2)
 	{

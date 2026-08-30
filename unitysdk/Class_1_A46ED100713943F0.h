@@ -7,32 +7,32 @@
 class Class_1_9ADD1D872350330F;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_A46ED100713943F0_CLEAR_OFFSET UNITYSDK_OFFSET(0x1A8540B0)
-#define CLASS_1_A46ED100713943F0_METHOD_1_52675038485BC592_1_OFFSET UNITYSDK_OFFSET(0x1A854210)
-#define CLASS_1_A46ED100713943F0_METHOD_1_52675038485BC592_OFFSET UNITYSDK_OFFSET(0x1A854150)
-#define CLASS_1_A46ED100713943F0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A8542D0)
+#define CLASS_1_A46ED100713943F0_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C485030)
+#define CLASS_1_A46ED100713943F0_METHOD_1_52675038485BC592_1_OFFSET UNITYSDK_OFFSET(0x1C485190)
+#define CLASS_1_A46ED100713943F0_METHOD_1_52675038485BC592_OFFSET UNITYSDK_OFFSET(0x1C4850D0)
+#define CLASS_1_A46ED100713943F0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C485250)
 
-inline static constexpr unsigned int Class_1_A46ED100713943F0_TypeDefinitionIndex = 40480;
+inline static constexpr unsigned int Class_1_A46ED100713943F0_TypeDefinitionIndex = 41418;
 
 class Class_1_A46ED100713943F0 : public ::System::Object
 {
 public:
-	::Class_1_9ADD1D872350330F* Field_1_0; // 0x10
-	::System::Collections::Generic::List_1<::System::Single>* Field_1_1; // 0x18
-	::System::Collections::Generic::List_1<::System::Single>* Field_1_2; // 0x20
-	::System::UInt32 Field_1_3; // 0x28
-	::System::UInt32 Field_1_4; // 0x2C
-	::System::UInt32 Field_1_5; // 0x30
-	::System::UInt32 Field_1_6; // 0x34
-	::System::Boolean Field_1_7; // 0x38
-	::System::UInt32 Field_1_8; // 0x3C
-	::System::UInt32 Field_1_9; // 0x40
-	::System::UInt32 Field_1_10; // 0x44
-	::System::ValueTuple_2<::System::UInt32, ::System::UInt32> Field_1_11; // 0x48
-	::RPG::Client::LittleGame::Match3::SimulateInputType Field_1_12; // 0x50
-	::System::ValueTuple_2<::System::UInt32, ::System::UInt32> Field_1_13; // 0x54
-	::System::ValueTuple_2<::System::UInt32, ::System::UInt32> Field_1_14; // 0x5C
-	::System::ValueTuple_2<::System::UInt32, ::System::UInt32> Field_1_15; // 0x64
+	::Class_1_9ADD1D872350330F* CFCGOPHFJPF; // 0x10
+	::System::Collections::Generic::List_1<::System::Single>* AFJMECMIMOO; // 0x18
+	::System::Collections::Generic::List_1<::System::Single>* PCHLMCCDMKG; // 0x20
+	::System::ValueTuple_2<::System::UInt32, ::System::UInt32> OCCIGEAJGHK; // 0x28
+	::System::ValueTuple_2<::System::UInt32, ::System::UInt32> HIKJECOPFMI; // 0x30
+	::System::UInt32 CDGDPFNDPLK; // 0x38
+	::System::UInt32 EFNNOMMFCOJ; // 0x3C
+	::System::Boolean MNMBAANKOGG; // 0x40
+	::System::ValueTuple_2<::System::UInt32, ::System::UInt32> JEPOIFJFOFA; // 0x44
+	::System::UInt32 HHCPCIBKMFJ; // 0x4C
+	::System::ValueTuple_2<::System::UInt32, ::System::UInt32> FOKJOEKBEML; // 0x50
+	::RPG::Client::LittleGame::Match3::SimulateInputType PLEMHLIAKPF; // 0x58
+	::System::UInt32 PMOHKEDFGHP; // 0x5C
+	::System::UInt32 COFAKDPCNEB; // 0x60
+	::System::UInt32 GLANPLEGMPG; // 0x64
+	::System::UInt32 FENJGDJFGFL; // 0x68
 
 	::System::Void _ctor()
 	{

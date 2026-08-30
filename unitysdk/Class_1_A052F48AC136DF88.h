@@ -8,15 +8,15 @@ namespace System { class Type; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_A052F48AC136DF88__CTOR_OFFSET UNITYSDK_OFFSET(0x14BC71C0)
+#define CLASS_1_A052F48AC136DF88__CTOR_OFFSET UNITYSDK_OFFSET(0x15AC73E0)
 
-inline static constexpr unsigned int Class_1_A052F48AC136DF88_TypeDefinitionIndex = 61405;
+inline static constexpr unsigned int Class_1_A052F48AC136DF88_TypeDefinitionIndex = 64389;
 
 class Class_1_A052F48AC136DF88 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Func_2<::RPG::Client::BaseGameFlow*, ::RPG::Client::BaseGameFlowContext*>*>* Field_1_0; // 0x10
-	::RPG::Client::BaseGameFlow* Field_1_1; // 0x18
+	::RPG::Client::BaseGameFlow* BEGDKHKENMF; // 0x10
+	::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Func_2<::RPG::Client::BaseGameFlow*, ::RPG::Client::BaseGameFlowContext*>*>* BBCBMBIGEPH; // 0x18
 
 	::System::Void _ctor(::RPG::Client::BaseGameFlow* a1)
 	{

@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int DeformationQuality_TypeDefinitionIndex = 4266;
+	inline static constexpr unsigned int DeformationQuality_TypeDefinitionIndex = 4276;
 
 	enum class DeformationQuality : ::System::Int32
 	{

@@ -3,7 +3,7 @@
 
 namespace System::Reflection
 {
-	inline static constexpr unsigned int ResourceLocation_TypeDefinitionIndex = 567;
+	inline static constexpr unsigned int ResourceLocation_TypeDefinitionIndex = 570;
 
 	enum class ResourceLocation : ::System::Int32
 	{

@@ -5,17 +5,17 @@
 
 namespace RPG::Client { class IRogueMiracle; }
 
-#define CLASS_1_2D441118ED4608C7_METHOD_1_155A94F929B734CD_OFFSET UNITYSDK_OFFSET(0xB6DE8D0)
-#define CLASS_1_2D441118ED4608C7_METHOD_1_9BD82D5B883ABACD_OFFSET UNITYSDK_OFFSET(0xB6DE750)
-#define CLASS_1_2D441118ED4608C7__CTOR_OFFSET UNITYSDK_OFFSET(0xB6DE740)
+#define CLASS_1_2D441118ED4608C7_METHOD_1_6BAEE180803E4244_OFFSET UNITYSDK_OFFSET(0xC1470B0)
+#define CLASS_1_2D441118ED4608C7_METHOD_1_9BD82D5B883ABACD_OFFSET UNITYSDK_OFFSET(0xC146F30)
+#define CLASS_1_2D441118ED4608C7__CTOR_OFFSET UNITYSDK_OFFSET(0xC146F20)
 
-inline static constexpr unsigned int Class_1_2D441118ED4608C7_TypeDefinitionIndex = 64264;
+inline static constexpr unsigned int Class_1_2D441118ED4608C7_TypeDefinitionIndex = 67259;
 
 class Class_1_2D441118ED4608C7 : public ::System::Object
 {
 public:
-	::RPG::Client::IRogueMiracle* Field_1_0; // 0x10
-	::RPG::Client::RogueMiracleIdentifier Field_1_1; // 0x18
+	::RPG::Client::IRogueMiracle* IOOJDBPIGPB; // 0x10
+	::RPG::Client::RogueMiracleIdentifier LNPLJMDCPEP; // 0x18
 
 	::System::Void _ctor(::RPG::Client::RogueMiracleIdentifier a1)
 	{
@@ -27,8 +27,8 @@ public:
 		return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_2D441118ED4608C7_METHOD_1_9BD82D5B883ABACD_OFFSET))(this);
 	}
 
-	::RPG::Client::IRogueMiracle* Method_1_155A94F929B734CD()
+	::RPG::Client::IRogueMiracle* Method_1_6BAEE180803E4244()
 	{
-		return ((::RPG::Client::IRogueMiracle*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_2D441118ED4608C7_METHOD_1_155A94F929B734CD_OFFSET))(this);
+		return ((::RPG::Client::IRogueMiracle*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_2D441118ED4608C7_METHOD_1_6BAEE180803E4244_OFFSET))(this);
 	}
 };

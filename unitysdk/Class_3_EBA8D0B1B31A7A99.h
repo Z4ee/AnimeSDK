@@ -7,17 +7,17 @@ namespace RPG::GameCore { class TaskContext; }
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define CLASS_3_EBA8D0B1B31A7A99_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15695A30)
-#define CLASS_3_EBA8D0B1B31A7A99_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15695A90)
-#define CLASS_3_EBA8D0B1B31A7A99__CTOR_OFFSET UNITYSDK_OFFSET(0x15695A00)
+#define CLASS_3_EBA8D0B1B31A7A99_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB6D25B0)
+#define CLASS_3_EBA8D0B1B31A7A99_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB6D2610)
+#define CLASS_3_EBA8D0B1B31A7A99__CTOR_OFFSET UNITYSDK_OFFSET(0xB6D2580)
 
-inline static constexpr unsigned int Class_3_EBA8D0B1B31A7A99_TypeDefinitionIndex = 55469;
+inline static constexpr unsigned int Class_3_EBA8D0B1B31A7A99_TypeDefinitionIndex = 58200;
 
 class Class_3_EBA8D0B1B31A7A99 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::CreateCurvePropGroupPuzzle*>
 {
 public:
-	::UnityEngine::GameObject* Field_3_0; // 0x28
-	::System::String* Field_3_1; // 0x30
+	::System::String* JLKFFKGABBC; // 0x28
+	::UnityEngine::GameObject* CBMJOLKJOBK; // 0x30
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::CreateCurvePropGroupPuzzle* a2)
 	{

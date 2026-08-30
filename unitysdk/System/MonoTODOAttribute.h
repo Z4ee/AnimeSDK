@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define SYSTEM_MONOTODOATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CAC4760)
+#define SYSTEM_MONOTODOATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E76E100)
 
 namespace System
 {
-	inline static constexpr unsigned int MonoTODOAttribute_TypeDefinitionIndex = 3089;
+	inline static constexpr unsigned int MonoTODOAttribute_TypeDefinitionIndex = 3097;
 
 	class MonoTODOAttribute : public ::System::Attribute
 	{

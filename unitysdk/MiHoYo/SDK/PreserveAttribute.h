@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define MIHOYO_SDK_PRESERVEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x19DE4A90)
+#define MIHOYO_SDK_PRESERVEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BAA2060)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int PreserveAttribute_TypeDefinitionIndex = 7556;
+	inline static constexpr unsigned int PreserveAttribute_TypeDefinitionIndex = 7544;
 
 	class PreserveAttribute : public ::System::Attribute
 	{

@@ -5,23 +5,23 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_SUBNAVMAPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B924B70)
-#define RPG_GAMECORE_SUBNAVMAPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B925400)
+#define RPG_GAMECORE_SUBNAVMAPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D581DB0)
+#define RPG_GAMECORE_SUBNAVMAPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D582640)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SubNavMapRow_TypeDefinitionIndex = 13492;
+	inline static constexpr unsigned int SubNavMapRow_TypeDefinitionIndex = 13907;
 
 	class SubNavMapRow : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::MinimapAreaType Type; // 0x10
-		::System::Int32 DefaultLayer; // 0x14
-		::System::UInt32 AreaID; // 0x18
+		::System::UInt32 AreaID; // 0x10
+		::System::UInt32 NearbyTeleportMappingInfoID; // 0x14
+		::System::UInt32 ID; // 0x18
 		::System::UInt32 FloorID; // 0x1C
-		::System::UInt32 NavMapSubTabID; // 0x20
-		::System::UInt32 ID; // 0x24
-		::System::UInt32 NearbyTeleportMappingInfoID; // 0x28
+		::System::Int32 DefaultLayer; // 0x20
+		::RPG::GameCore::MinimapAreaType Type; // 0x24
+		::System::UInt32 NavMapSubTabID; // 0x28
 
 		::System::Void _ctor()
 		{

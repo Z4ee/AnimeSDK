@@ -13,17 +13,17 @@ namespace System { template <typename T1, typename T2> class Action_2; }
 namespace UnityEngine { class Collision; }
 namespace UnityEngine { class Transform; }
 
-#define SEALPOOLTRIGGERCRASH_METHOD_5_FC16CB424C896DFF_OFFSET UNITYSDK_OFFSET(0xDD45F30)
-#define SEALPOOLTRIGGERCRASH_ONCOLLISIONENTER_OFFSET UNITYSDK_OFFSET(0xDD459A0)
-#define SEALPOOLTRIGGERCRASH__CTOR_OFFSET UNITYSDK_OFFSET(0xDD461B0)
+#define SEALPOOLTRIGGERCRASH_METHOD_5_FC16CB424C896DFF_OFFSET UNITYSDK_OFFSET(0xE9113E0)
+#define SEALPOOLTRIGGERCRASH_ONCOLLISIONENTER_OFFSET UNITYSDK_OFFSET(0xE910E50)
+#define SEALPOOLTRIGGERCRASH__CTOR_OFFSET UNITYSDK_OFFSET(0xE911660)
 
-inline static constexpr unsigned int SealPoolTriggerCrash_TypeDefinitionIndex = 45357;
+inline static constexpr unsigned int SealPoolTriggerCrash_TypeDefinitionIndex = 47603;
 
 class SealPoolTriggerCrash : public ::UnityEngine::MonoBehaviour
 {
 public:
 	::Il2CppArray<::PBDHandle*>* SealPBDs; // 0x18
-	::System::String* Field_5_1; // 0x20
+	::System::String* PDOFOGPLPPC; // 0x20
 
 	::System::Void _ctor()
 	{

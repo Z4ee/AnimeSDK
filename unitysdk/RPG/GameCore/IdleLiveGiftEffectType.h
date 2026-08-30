@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveGiftEffectType_TypeDefinitionIndex = 11391;
+	inline static constexpr unsigned int IdleLiveGiftEffectType_TypeDefinitionIndex = 11780;
 
 	enum class IdleLiveGiftEffectType : ::System::Int32
 	{

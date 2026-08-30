@@ -1,17 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/TextID.h"
-#include "unitysdk/RPG/GameCore/FixPoint.h"
-#include "unitysdk/RPG/GameCore/RtAbilityProperty.h"
+#include "unitysdk/Struct_2_875B08BB13E31BEE.h"
 
-class Class_0_16E4307DCC419505_487;
-namespace RPG::GameCore { class GameEntity; }
-namespace RPG::GameCore { class RtCharacterConfig; }
-namespace System { class Object; }
-namespace System { class String; }
-namespace System::Collections::Generic { template <typename T> class List_1; }
+class Class_1_98133438BFCB56ED;
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_477_TypeDefinitionIndex = 51595;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_477_TypeDefinitionIndex = 53894;
 
 class Class_0_16E4307DCC419505_477
 {

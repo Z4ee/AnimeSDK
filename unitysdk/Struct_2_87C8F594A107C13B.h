@@ -7,16 +7,16 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class String; }
 
-#define STRUCT_2_87C8F594A107C13B_GET_PARAMLIST_OFFSET UNITYSDK_OFFSET(0x2B150)
-#define STRUCT_2_87C8F594A107C13B_SET_PARAMLIST_OFFSET UNITYSDK_OFFSET(0x2B160)
+#define STRUCT_2_87C8F594A107C13B_GET_PARAMLIST_OFFSET UNITYSDK_OFFSET(0x2CFE0)
+#define STRUCT_2_87C8F594A107C13B_SET_PARAMLIST_OFFSET UNITYSDK_OFFSET(0x2CFF0)
 
-inline static constexpr unsigned int Struct_2_87C8F594A107C13B_TypeDefinitionIndex = 51530;
+inline static constexpr unsigned int Struct_2_87C8F594A107C13B_TypeDefinitionIndex = 54214;
 
 struct alignas(8) Struct_2_87C8F594A107C13B
 {
-	::RPG::GameCore::TaskContext* Field_2_0; // 0x10
-	::RPG::GameCore::GameEntity* Field_2_1; // 0x18
-	::System::String* Field_2_2; // 0x20
+	::RPG::GameCore::TaskContext* GPKCGOLOJKC; // 0x10
+	::RPG::GameCore::GameEntity* MIAJNJNECOG; // 0x18
+	::System::String* KDHPKOFLNFM; // 0x20
 	::Class_2_FC12FDC7914CFFD8* _ParamList_k__BackingField; // 0x28
 
 	::Class_2_FC12FDC7914CFFD8* get_ParamList()

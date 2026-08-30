@@ -3,7 +3,7 @@
 
 namespace Newtonsoft::Json
 {
-	inline static constexpr unsigned int TypeNameHandling_TypeDefinitionIndex = 9287;
+	inline static constexpr unsigned int TypeNameHandling_TypeDefinitionIndex = 9566;
 
 	enum class TypeNameHandling : ::System::Int32
 	{

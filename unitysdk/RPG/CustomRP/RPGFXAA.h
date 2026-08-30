@@ -4,12 +4,12 @@
 
 namespace UnityEngine::Rendering { class BoolParameter; }
 
-#define RPG_CUSTOMRP_RPGFXAA_ISACTIVEIMPL_OFFSET UNITYSDK_OFFSET(0x1AA94920)
-#define RPG_CUSTOMRP_RPGFXAA__CTOR_OFFSET UNITYSDK_OFFSET(0x1AA94A00)
+#define RPG_CUSTOMRP_RPGFXAA_ISACTIVEIMPL_OFFSET UNITYSDK_OFFSET(0x1C6C5EF0)
+#define RPG_CUSTOMRP_RPGFXAA__CTOR_OFFSET UNITYSDK_OFFSET(0x1C6C5FD0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int RPGFXAA_TypeDefinitionIndex = 36264;
+	inline static constexpr unsigned int RPGFXAA_TypeDefinitionIndex = 37123;
 
 	class RPGFXAA : public ::RPG::CustomRP::CustomVolumeComponent
 	{

@@ -6,24 +6,24 @@
 class Class_1_7A22A3DBEEDD1F80;
 class Class_1_A88C3AAF0DD46F4C_14;
 
-#define RPG_GAMECORE_ROGUETOURNHANDBOOKEVENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B79A880)
-#define RPG_GAMECORE_ROGUETOURNHANDBOOKEVENTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B79AB90)
+#define RPG_GAMECORE_ROGUETOURNHANDBOOKEVENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D488F50)
+#define RPG_GAMECORE_ROGUETOURNHANDBOOKEVENTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D489260)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueTournHandBookEventRow_TypeDefinitionIndex = 14454;
+	inline static constexpr unsigned int RogueTournHandBookEventRow_TypeDefinitionIndex = 14874;
 
 	class RogueTournHandBookEventRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::Class_1_A88C3AAF0DD46F4C_14*>* UnlockNPCProgressIDList; // 0x10
-		::RPG::Client::TextID EventTitle; // 0x18
-		::System::UInt32 ImageID; // 0x28
-		::System::UInt32 EventHandbookID; // 0x2C
-		::System::UInt32 UnlockDisplayID; // 0x30
-		::System::UInt32 TypeDisplayID; // 0x34
-		::System::Boolean IsUsed; // 0x38
-		::System::UInt32 Priority; // 0x3C
+		::System::Boolean IsUsed; // 0x18
+		::System::UInt32 TypeDisplayID; // 0x1C
+		::RPG::Client::TextID EventTitle; // 0x20
+		::System::UInt32 Priority; // 0x30
+		::System::UInt32 ImageID; // 0x34
+		::System::UInt32 EventHandbookID; // 0x38
+		::System::UInt32 UnlockDisplayID; // 0x3C
 
 		::System::Void _ctor()
 		{

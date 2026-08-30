@@ -9,21 +9,21 @@ namespace RPG::GameCore { class ST_Side_OverrideStandByStance; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_3_A8BAFE4A769F67D5_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB473DC0)
-#define CLASS_3_A8BAFE4A769F67D5_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB473F00)
-#define CLASS_3_A8BAFE4A769F67D5__CCTOR_OFFSET UNITYSDK_OFFSET(0xB473F90)
-#define CLASS_3_A8BAFE4A769F67D5__CTOR_OFFSET UNITYSDK_OFFSET(0xB473D00)
+#define CLASS_3_A8BAFE4A769F67D5_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBE5D540)
+#define CLASS_3_A8BAFE4A769F67D5_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBE5D680)
+#define CLASS_3_A8BAFE4A769F67D5__CCTOR_OFFSET UNITYSDK_OFFSET(0xBE5D710)
+#define CLASS_3_A8BAFE4A769F67D5__CTOR_OFFSET UNITYSDK_OFFSET(0xBE5D480)
 
-inline static constexpr unsigned int Class_3_A8BAFE4A769F67D5_TypeDefinitionIndex = 49864;
+inline static constexpr unsigned int Class_3_A8BAFE4A769F67D5_TypeDefinitionIndex = 52525;
 
 class Class_3_A8BAFE4A769F67D5 : public ::RPG::GameCore::ST_Task_1<::RPG::GameCore::ST_Side_OverrideStandByStance*>
 {
 public:
-	static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::StandByStance, ::RPG::GameCore::CharacterAlertLevel>** StaticGet_Field_3_0()
+	static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::StandByStance, ::RPG::GameCore::CharacterAlertLevel>** StaticGet_IAAMIFJFLBA()
 	{
-		return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::StandByStance, ::RPG::GameCore::CharacterAlertLevel>**)Il2CppClass::FromTypeDefinitionIndex(Class_3_A8BAFE4A769F67D5_TypeDefinitionIndex)->GetStaticField(0x68CB0);
+		return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::StandByStance, ::RPG::GameCore::CharacterAlertLevel>**)Il2CppClass::FromTypeDefinitionIndex(Class_3_A8BAFE4A769F67D5_TypeDefinitionIndex)->GetStaticField(0x658D0);
 	}
-	::RPG::GameCore::AdventureCharacterController* Field_3_1; // 0x28
+	::RPG::GameCore::AdventureCharacterController* CPIIOIPAAKK; // 0x28
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ST_Side_OverrideStandByStance* a2)
 	{

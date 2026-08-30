@@ -6,18 +6,18 @@ namespace MiHoYo::SDK { class NetworkResponseModel; }
 namespace MiHoYo::SDK::Win { class NoticeManager___c__DisplayClass7_0; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_WIN_NOTICEMANAGER___C__DISPLAYCLASS7_1__CHECKPOPNOTICE_B__0_OFFSET UNITYSDK_OFFSET(0x19C53B90)
-#define MIHOYO_SDK_WIN_NOTICEMANAGER___C__DISPLAYCLASS7_1__CTOR_OFFSET UNITYSDK_OFFSET(0x19C4B680)
+#define MIHOYO_SDK_WIN_NOTICEMANAGER___C__DISPLAYCLASS7_1__CHECKPOPNOTICE_B__0_OFFSET UNITYSDK_OFFSET(0x1B8A78A0)
+#define MIHOYO_SDK_WIN_NOTICEMANAGER___C__DISPLAYCLASS7_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8A03B0)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int NoticeManager___c__DisplayClass7_1_TypeDefinitionIndex = 9068;
+	inline static constexpr unsigned int NoticeManager___c__DisplayClass7_1_TypeDefinitionIndex = 9341;
 
 	class NoticeManager___c__DisplayClass7_1 : public ::System::Object
 	{
 	public:
-		::MiHoYo::SDK::Win::NoticeManager___c__DisplayClass7_0* CS___8__locals1; // 0x10
-		::System::String* requestLang; // 0x18
+		::System::String* requestLang; // 0x10
+		::MiHoYo::SDK::Win::NoticeManager___c__DisplayClass7_0* CS___8__locals1; // 0x18
 
 		::System::Void _ctor()
 		{

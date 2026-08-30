@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_378;
+class Class_0_16E4307DCC419505_413;
 class Class_2_C4547F51F7FE610E;
 
-#define CLASS_2_C4547F51F7FE610E___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x145B8F00)
-#define CLASS_2_C4547F51F7FE610E___C__DISPLAYCLASS5_0___STARTCHILD_B__0_OFFSET UNITYSDK_OFFSET(0x145B9290)
+#define CLASS_2_C4547F51F7FE610E___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15465D00)
+#define CLASS_2_C4547F51F7FE610E___C__DISPLAYCLASS5_0___STARTCHILD_B__0_OFFSET UNITYSDK_OFFSET(0x15466090)
 
-inline static constexpr unsigned int Class_2_C4547F51F7FE610E___c__DisplayClass5_0_TypeDefinitionIndex = 75897;
+inline static constexpr unsigned int Class_2_C4547F51F7FE610E___c__DisplayClass5_0_TypeDefinitionIndex = 79530;
 
 class Class_2_C4547F51F7FE610E___c__DisplayClass5_0 : public ::System::Object
 {
@@ -21,8 +21,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_C4547F51F7FE610E___C__DISPLAYCLASS5_0__CTOR_OFFSET))(this);
 	}
 
-	::System::Void __StartChild_b__0(::Class_0_16E4307DCC419505_378* a1, ::System::Boolean a2)
+	::System::Void __StartChild_b__0(::Class_0_16E4307DCC419505_413* a1, ::System::Boolean a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_378*, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_2_C4547F51F7FE610E___C__DISPLAYCLASS5_0___STARTCHILD_B__0_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_413*, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_2_C4547F51F7FE610E___C__DISPLAYCLASS5_0___STARTCHILD_B__0_OFFSET))(this, a1, a2);
 	}
 };

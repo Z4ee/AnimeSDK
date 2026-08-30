@@ -3,12 +3,12 @@
 #include "unitysdk/UnityEngine/PropertyAttribute.h"
 #include "unitysdk/UnityEngine/Timeline/TimeFieldAttribute_UseEditMode.h"
 
-#define UNITYENGINE_TIMELINE_TIMEFIELDATTRIBUTE_GET_USEEDITMODE_OFFSET UNITYSDK_OFFSET(0x1CFC38F0)
-#define UNITYENGINE_TIMELINE_TIMEFIELDATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFC3900)
+#define UNITYENGINE_TIMELINE_TIMEFIELDATTRIBUTE_GET_USEEDITMODE_OFFSET UNITYSDK_OFFSET(0x1ECCAA40)
+#define UNITYENGINE_TIMELINE_TIMEFIELDATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1ECCAA50)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int TimeFieldAttribute_TypeDefinitionIndex = 36707;
+	inline static constexpr unsigned int TimeFieldAttribute_TypeDefinitionIndex = 37566;
 
 	class TimeFieldAttribute : public ::UnityEngine::PropertyAttribute
 	{

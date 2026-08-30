@@ -6,15 +6,15 @@
 namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class Renderer; }
 
-#define RPG_CLIENT_MONOMATERIALPROPERTYMODIFIER_AWAKE_OFFSET UNITYSDK_OFFSET(0xCD09C60)
-#define RPG_CLIENT_MONOMATERIALPROPERTYMODIFIER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xCD09E10)
-#define RPG_CLIENT_MONOMATERIALPROPERTYMODIFIER_METHOD_5_79830F666EE579C0_OFFSET UNITYSDK_OFFSET(0xCD0A030)
-#define RPG_CLIENT_MONOMATERIALPROPERTYMODIFIER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xCD09D90)
-#define RPG_CLIENT_MONOMATERIALPROPERTYMODIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0xCD0A1A0)
+#define RPG_CLIENT_MONOMATERIALPROPERTYMODIFIER_AWAKE_OFFSET UNITYSDK_OFFSET(0xD84C3F0)
+#define RPG_CLIENT_MONOMATERIALPROPERTYMODIFIER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xD84C570)
+#define RPG_CLIENT_MONOMATERIALPROPERTYMODIFIER_METHOD_5_79830F666EE579C0_OFFSET UNITYSDK_OFFSET(0xD84C790)
+#define RPG_CLIENT_MONOMATERIALPROPERTYMODIFIER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xD84C4F0)
+#define RPG_CLIENT_MONOMATERIALPROPERTYMODIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0xD84C900)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoMaterialPropertyModifier_TypeDefinitionIndex = 65457;
+	inline static constexpr unsigned int MonoMaterialPropertyModifier_TypeDefinitionIndex = 68472;
 
 	class MonoMaterialPropertyModifier : public ::UnityEngine::MonoBehaviour
 	{
@@ -26,9 +26,9 @@ namespace RPG::Client
 		::RPG::Client::MonoMaterialPropertyModifier_MBProperty MBProperty3; // 0x98
 		::RPG::Client::MonoMaterialPropertyModifier_MBProperty MBProperty4; // 0xD0
 		::System::Boolean KValueIsOn; // 0x108
-		::UnityEngine::MaterialPropertyBlock* Field_5_7; // 0x110
-		::System::Boolean Field_5_8; // 0x118
-		::Il2CppArray<::RPG::Client::MonoMaterialPropertyModifier_MBProperty>* Field_5_9; // 0x120
+		::UnityEngine::MaterialPropertyBlock* AMOGIBBMIEJ; // 0x110
+		::System::Boolean JGPHLKJJCPO; // 0x118
+		::Il2CppArray<::RPG::Client::MonoMaterialPropertyModifier_MBProperty>* CEJFMIKGHPP; // 0x120
 
 		::System::Void _ctor()
 		{

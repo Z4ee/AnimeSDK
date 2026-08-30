@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace System { class Uri; }
 
-#define SYSTEM_NET_HTTP_HEADERS_PARSER_URI_TRYPARSE_OFFSET UNITYSDK_OFFSET(0x1CAE5670)
+#define SYSTEM_NET_HTTP_HEADERS_PARSER_URI_TRYPARSE_OFFSET UNITYSDK_OFFSET(0x1E78EFF0)
 
 namespace System::Net::Http::Headers
 {
-	inline static constexpr unsigned int Parser_Uri_TypeDefinitionIndex = 3810;
+	inline static constexpr unsigned int Parser_Uri_TypeDefinitionIndex = 3818;
 
 	class Parser_Uri : public ::System::Object
 	{

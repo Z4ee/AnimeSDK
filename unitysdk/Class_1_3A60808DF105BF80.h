@@ -3,14 +3,14 @@
 #include "unitysdk/RPG/GameCore/MonsterHUDType.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_3A60808DF105BF80__CTOR_OFFSET UNITYSDK_OFFSET(0x155D29D0)
+#define CLASS_1_3A60808DF105BF80__CTOR_OFFSET UNITYSDK_OFFSET(0xB5FA4B0)
 
-inline static constexpr unsigned int Class_1_3A60808DF105BF80_TypeDefinitionIndex = 53029;
+inline static constexpr unsigned int Class_1_3A60808DF105BF80_TypeDefinitionIndex = 55734;
 
 class Class_1_3A60808DF105BF80 : public ::System::Object
 {
 public:
-	::RPG::GameCore::MonsterHUDType Field_1_0; // 0x10
+	::RPG::GameCore::MonsterHUDType OAMPOPJGNNG; // 0x10
 
 	::System::Void _ctor()
 	{

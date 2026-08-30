@@ -3,7 +3,7 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int Quality_TypeDefinitionIndex = 35989;
+	inline static constexpr unsigned int Quality_TypeDefinitionIndex = 36850;
 
 	enum class Quality : ::System::Int32
 	{

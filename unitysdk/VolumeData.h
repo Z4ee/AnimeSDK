@@ -6,10 +6,10 @@
 
 namespace System { class String; }
 
-#define VOLUMEDATA_METHOD_1_0FEB9A22B18A88E7_OFFSET UNITYSDK_OFFSET(0xDDC8850)
-#define VOLUMEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xDDC88E0)
+#define VOLUMEDATA_METHOD_1_0FEB9A22B18A88E7_OFFSET UNITYSDK_OFFSET(0xE9A2060)
+#define VOLUMEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xE9A20F0)
 
-inline static constexpr unsigned int VolumeData_TypeDefinitionIndex = 45605;
+inline static constexpr unsigned int VolumeData_TypeDefinitionIndex = 47856;
 
 class VolumeData : public ::System::Object
 {

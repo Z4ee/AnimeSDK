@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class EnableDynamicSkillTargetSelection; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_C99B9CD41EC009B3_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x154F71D0)
-#define CLASS_3_C99B9CD41EC009B3__CTOR_OFFSET UNITYSDK_OFFSET(0x154F71A0)
+#define CLASS_3_C99B9CD41EC009B3_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB4F8EB0)
+#define CLASS_3_C99B9CD41EC009B3__CTOR_OFFSET UNITYSDK_OFFSET(0xB4F8E80)
 
-inline static constexpr unsigned int Class_3_C99B9CD41EC009B3_TypeDefinitionIndex = 52523;
+inline static constexpr unsigned int Class_3_C99B9CD41EC009B3_TypeDefinitionIndex = 55220;
 
 class Class_3_C99B9CD41EC009B3 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::EnableDynamicSkillTargetSelection*>
 {

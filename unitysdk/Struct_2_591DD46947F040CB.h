@@ -6,18 +6,18 @@
 namespace RPG::GameCore { class GameEntity; }
 namespace UnityEngine { class Collider; }
 
-#define STRUCT_2_591DD46947F040CB__CTOR_1_OFFSET UNITYSDK_OFFSET(0x8B690)
-#define STRUCT_2_591DD46947F040CB__CTOR_OFFSET UNITYSDK_OFFSET(0x8B650)
+#define STRUCT_2_591DD46947F040CB__CTOR_1_OFFSET UNITYSDK_OFFSET(0x900D0)
+#define STRUCT_2_591DD46947F040CB__CTOR_OFFSET UNITYSDK_OFFSET(0x90090)
 
-inline static constexpr unsigned int Struct_2_591DD46947F040CB_TypeDefinitionIndex = 67906;
+inline static constexpr unsigned int Struct_2_591DD46947F040CB_TypeDefinitionIndex = 71079;
 
 struct alignas(8) Struct_2_591DD46947F040CB
 {
-	::RPG::GameCore::GameEntity* Field_2_0; // 0x10
-	::UnityEngine::Collider* Field_2_1; // 0x18
-	::UnityEngine::Vector3 Field_2_2; // 0x20
-	::System::UInt32 Field_2_3; // 0x2C
-	::System::Int32 Field_2_4; // 0x30
+	::RPG::GameCore::GameEntity* CKLPGEPGCMJ; // 0x10
+	::UnityEngine::Collider* IFGJPKOKNIA; // 0x18
+	::UnityEngine::Vector3 OCHGICLKACD; // 0x20
+	::System::UInt32 DDCGEBOHHPB; // 0x2C
+	::System::Int32 DJPGKCGAECB; // 0x30
 
 	::System::Void _ctor(::RPG::GameCore::GameEntity* a1, ::UnityEngine::Collider* a2, ::UnityEngine::Vector3 a3)
 	{

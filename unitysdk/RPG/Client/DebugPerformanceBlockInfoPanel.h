@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define RPG_CLIENT_DEBUGPERFORMANCEBLOCKINFOPANEL__CTOR_OFFSET UNITYSDK_OFFSET(0xC1DCD30)
+#define RPG_CLIENT_DEBUGPERFORMANCEBLOCKINFOPANEL__CTOR_OFFSET UNITYSDK_OFFSET(0xCC98860)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DebugPerformanceBlockInfoPanel_TypeDefinitionIndex = 69436;
+	inline static constexpr unsigned int DebugPerformanceBlockInfoPanel_TypeDefinitionIndex = 72662;
 
 	class DebugPerformanceBlockInfoPanel : public ::UnityEngine::MonoBehaviour
 	{

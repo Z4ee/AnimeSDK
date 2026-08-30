@@ -8,13 +8,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class SingleMonsterInfo; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_WAVEMONSTER_METHOD_3_1DCB78F664EB377D_OFFSET UNITYSDK_OFFSET(0x1B9F36D0)
-#define RPG_GAMECORE_WAVEMONSTER_METHOD_3_477B4E46EEFE1F4C_OFFSET UNITYSDK_OFFSET(0x1B9F35D0)
-#define RPG_GAMECORE_WAVEMONSTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9F3660)
+#define RPG_GAMECORE_WAVEMONSTER_METHOD_3_1DCB78F664EB377D_OFFSET UNITYSDK_OFFSET(0x1D6B0400)
+#define RPG_GAMECORE_WAVEMONSTER_METHOD_3_477B4E46EEFE1F4C_OFFSET UNITYSDK_OFFSET(0x1D6B0300)
+#define RPG_GAMECORE_WAVEMONSTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6B0390)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaveMonster_TypeDefinitionIndex = 22558;
+	inline static constexpr unsigned int WaveMonster_TypeDefinitionIndex = 23135;
 
 	class WaveMonster : public ::RPG::GameCore::TaskConfig
 	{

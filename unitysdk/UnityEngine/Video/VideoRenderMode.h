@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Video
 {
-	inline static constexpr unsigned int VideoRenderMode_TypeDefinitionIndex = 6296;
+	inline static constexpr unsigned int VideoRenderMode_TypeDefinitionIndex = 6041;
 
 	enum class VideoRenderMode : ::System::Int32
 	{

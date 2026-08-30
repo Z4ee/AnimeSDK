@@ -5,12 +5,12 @@
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_PROP_LASERTURNABLEPUZZLEOUTPUTOBJ_SETLASERVISIBLE_OFFSET UNITYSDK_OFFSET(0xD18EBD0)
-#define RPG_CLIENT_PROP_LASERTURNABLEPUZZLEOUTPUTOBJ__CTOR_OFFSET UNITYSDK_OFFSET(0xD18EF80)
+#define RPG_CLIENT_PROP_LASERTURNABLEPUZZLEOUTPUTOBJ_SETLASERVISIBLE_OFFSET UNITYSDK_OFFSET(0xDC93210)
+#define RPG_CLIENT_PROP_LASERTURNABLEPUZZLEOUTPUTOBJ__CTOR_OFFSET UNITYSDK_OFFSET(0xDC935C0)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int LaserTurnablePuzzleOutputObj_TypeDefinitionIndex = 74712;
+	inline static constexpr unsigned int LaserTurnablePuzzleOutputObj_TypeDefinitionIndex = 78197;
 
 	class LaserTurnablePuzzleOutputObj : public ::UnityEngine::MonoBehaviour
 	{

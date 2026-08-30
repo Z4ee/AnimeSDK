@@ -4,11 +4,11 @@
 
 namespace System::Reflection { class ModuleResolveEventHandler; }
 
-#define SYSTEM_REFLECTION_ASSEMBLY_RESOLVEEVENTHOLDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A180FC0)
+#define SYSTEM_REFLECTION_ASSEMBLY_RESOLVEEVENTHOLDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD88BC0)
 
 namespace System::Reflection
 {
-	inline static constexpr unsigned int Assembly_ResolveEventHolder_TypeDefinitionIndex = 592;
+	inline static constexpr unsigned int Assembly_ResolveEventHolder_TypeDefinitionIndex = 595;
 
 	class Assembly_ResolveEventHolder : public ::System::Object
 	{

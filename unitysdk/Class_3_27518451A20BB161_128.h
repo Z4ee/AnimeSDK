@@ -2,37 +2,24 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/ImmediateTaskBase_1.h"
 
-class Class_2_291F7DA21A504FC4;
-class Class_3_B81E70C669D9EDB9;
+class Class_3_AC77597D4FE9B922;
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_27518451A20BB161_128_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15173D90)
-#define CLASS_3_27518451A20BB161_128_METHOD_3_C44A10DEE408C3E7_OFFSET UNITYSDK_OFFSET(0x151741E0)
-#define CLASS_3_27518451A20BB161_128_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15173DD0)
-#define CLASS_3_27518451A20BB161_128__CTOR_OFFSET UNITYSDK_OFFSET(0x15173D60)
+#define CLASS_3_27518451A20BB161_128_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15377700)
+#define CLASS_3_27518451A20BB161_128__CTOR_OFFSET UNITYSDK_OFFSET(0x153776D0)
 
-inline static constexpr unsigned int Class_3_27518451A20BB161_128_TypeDefinitionIndex = 51426;
+inline static constexpr unsigned int Class_3_27518451A20BB161_128_TypeDefinitionIndex = 54076;
 
-class Class_3_27518451A20BB161_128 : public ::RPG::GameCore::ImmediateTaskBase_1<::Class_3_B81E70C669D9EDB9*>
+class Class_3_27518451A20BB161_128 : public ::RPG::GameCore::ImmediateTaskBase_1<::Class_3_AC77597D4FE9B922*>
 {
 public:
-	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::Class_3_B81E70C669D9EDB9* a2)
+	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::Class_3_AC77597D4FE9B922* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::Class_3_B81E70C669D9EDB9*))((::PBYTE)hIl2Cpp + CLASS_3_27518451A20BB161_128__CTOR_OFFSET))(this, a1, a2);
-	}
-
-	::System::Void Dispose()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_27518451A20BB161_128_DISPOSE_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::Class_3_AC77597D4FE9B922*))((::PBYTE)hIl2Cpp + CLASS_3_27518451A20BB161_128__CTOR_OFFSET))(this, a1, a2);
 	}
 
 	::System::Void OnTaskBegin()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_27518451A20BB161_128_ONTASKBEGIN_OFFSET))(this);
-	}
-
-	static ::System::Void Method_3_C44A10DEE408C3E7(::Class_2_291F7DA21A504FC4* a1)
-	{
-		return ((::System::Void(*)(::Class_2_291F7DA21A504FC4*))((::PBYTE)hIl2Cpp + CLASS_3_27518451A20BB161_128_METHOD_3_C44A10DEE408C3E7_OFFSET))(a1);
 	}
 };

@@ -5,11 +5,11 @@
 
 namespace RPG::Client { class TerrainDeformationReceiverBehavior; }
 
-#define RPG_CLIENT_TERRAINDEFORMATIONRECEIVERMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xD677360)
+#define RPG_CLIENT_TERRAINDEFORMATIONRECEIVERMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xE1C7140)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TerrainDeformationReceiverMonoPlugin_TypeDefinitionIndex = 67827;
+	inline static constexpr unsigned int TerrainDeformationReceiverMonoPlugin_TypeDefinitionIndex = 71000;
 
 	class TerrainDeformationReceiverMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::TerrainDeformationReceiverBehavior*>
 	{

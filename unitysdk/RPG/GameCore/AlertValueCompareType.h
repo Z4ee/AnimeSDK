@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AlertValueCompareType_TypeDefinitionIndex = 23670;
+	inline static constexpr unsigned int AlertValueCompareType_TypeDefinitionIndex = 24255;
 
 	enum class AlertValueCompareType : ::System::Int32
 	{

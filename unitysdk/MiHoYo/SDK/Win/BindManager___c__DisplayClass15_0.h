@@ -7,19 +7,19 @@ namespace System { class Action; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_WIN_BINDMANAGER___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19E69510)
-#define MIHOYO_SDK_WIN_BINDMANAGER___C__DISPLAYCLASS15_0__VERIFYEMAIL_B__0_OFFSET UNITYSDK_OFFSET(0x19E71DE0)
-#define MIHOYO_SDK_WIN_BINDMANAGER___C__DISPLAYCLASS15_0__VERIFYEMAIL_B__1_OFFSET UNITYSDK_OFFSET(0x19E71EB0)
+#define MIHOYO_SDK_WIN_BINDMANAGER___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7EAC70)
+#define MIHOYO_SDK_WIN_BINDMANAGER___C__DISPLAYCLASS15_0__VERIFYEMAIL_B__0_OFFSET UNITYSDK_OFFSET(0x1B7F3540)
+#define MIHOYO_SDK_WIN_BINDMANAGER___C__DISPLAYCLASS15_0__VERIFYEMAIL_B__1_OFFSET UNITYSDK_OFFSET(0x1B7F3610)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int BindManager___c__DisplayClass15_0_TypeDefinitionIndex = 9047;
+	inline static constexpr unsigned int BindManager___c__DisplayClass15_0_TypeDefinitionIndex = 9320;
 
 	class BindManager___c__DisplayClass15_0 : public ::System::Object
 	{
 	public:
-		::System::Action_1<::System::String*>* callback; // 0x10
-		::System::Action* __9__1; // 0x18
+		::System::Action* __9__1; // 0x10
+		::System::Action_1<::System::String*>* callback; // 0x18
 
 		::System::Void _ctor()
 		{

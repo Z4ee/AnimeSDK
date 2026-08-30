@@ -1,15 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-class Class_1_CA217ABF4E3B4F3F;
-namespace RPG::Client { class LongPressEvent; }
-namespace RPG::Client { class MonoInControlButton; }
-namespace RPG::Client { class MonoInControlTip; }
 namespace RPG::GameCore { class GameEntity; }
-namespace RPG::GameCore { class SkillData; }
-namespace UnityEngine { class RectTransform; }
+namespace System { class String; }
+namespace UnityEngine { class Transform; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_1060_TypeDefinitionIndex = 68626;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_1060_TypeDefinitionIndex = 69955;
 
 class Class_0_16E4307DCC419505_1060
 {

@@ -13,27 +13,27 @@ namespace RPG::Client { class ChallengeTeamInfo; }
 namespace RPG::Client { class MonsterData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_CHALLENGEBOSSSINGLENODEINFO_CREATE_OFFSET UNITYSDK_OFFSET(0xBF7E340)
-#define RPG_CLIENT_CHALLENGEBOSSSINGLENODEINFO_GETAVATARDATALIST_OFFSET UNITYSDK_OFFSET(0xBF82900)
-#define RPG_CLIENT_CHALLENGEBOSSSINGLENODEINFO_SYNC_OFFSET UNITYSDK_OFFSET(0xBF7EE60)
-#define RPG_CLIENT_CHALLENGEBOSSSINGLENODEINFO_TRYGETAVATARDATA_OFFSET UNITYSDK_OFFSET(0xBF7F080)
-#define RPG_CLIENT_CHALLENGEBOSSSINGLENODEINFO_UPDATEBATTLERESULT_OFFSET UNITYSDK_OFFSET(0xBF7F380)
-#define RPG_CLIENT_CHALLENGEBOSSSINGLENODEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xBF828F0)
+#define RPG_CLIENT_CHALLENGEBOSSSINGLENODEINFO_CREATE_OFFSET UNITYSDK_OFFSET(0xCA268B0)
+#define RPG_CLIENT_CHALLENGEBOSSSINGLENODEINFO_GETAVATARDATALIST_OFFSET UNITYSDK_OFFSET(0xCA2B1B0)
+#define RPG_CLIENT_CHALLENGEBOSSSINGLENODEINFO_SYNC_OFFSET UNITYSDK_OFFSET(0xCA27630)
+#define RPG_CLIENT_CHALLENGEBOSSSINGLENODEINFO_TRYGETAVATARDATA_OFFSET UNITYSDK_OFFSET(0xCA27850)
+#define RPG_CLIENT_CHALLENGEBOSSSINGLENODEINFO_UPDATEBATTLERESULT_OFFSET UNITYSDK_OFFSET(0xCA27B50)
+#define RPG_CLIENT_CHALLENGEBOSSSINGLENODEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xCA2B1A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChallengeBossSingleNodeInfo_TypeDefinitionIndex = 60299;
+	inline static constexpr unsigned int ChallengeBossSingleNodeInfo_TypeDefinitionIndex = 63148;
 
 	class ChallengeBossSingleNodeInfo : public ::System::Object
 	{
 	public:
 		::RPG::Client::MonsterData* MonsterData; // 0x10
 		::RPG::Client::ChallengeTeamInfo* TeamInfo; // 0x18
-		::System::UInt32 BuffID; // 0x20
-		::System::Boolean HasTeamInfo; // 0x24
-		::System::Boolean HasBeenChallenged; // 0x25
-		::System::Boolean IsPass; // 0x26
-		::System::UInt32 MaxScore; // 0x28
+		::System::UInt32 MaxScore; // 0x20
+		::System::UInt32 BuffID; // 0x24
+		::System::Boolean HasBeenChallenged; // 0x28
+		::System::Boolean IsPass; // 0x29
+		::System::Boolean HasTeamInfo; // 0x2A
 
 		::System::Void _ctor()
 		{

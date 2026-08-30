@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int UGCParameters_TypeDefinitionIndex = 7537;
+	inline static constexpr unsigned int UGCParameters_TypeDefinitionIndex = 7525;
 
 	class UGCParameters : public ::System::Object
 	{

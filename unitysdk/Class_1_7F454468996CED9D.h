@@ -4,19 +4,19 @@
 
 namespace RPG::Client { class PedestrianMemberExternalConfig_Floating; }
 
-#define CLASS_1_7F454468996CED9D_DISPOSE_OFFSET UNITYSDK_OFFSET(0x14772850)
-#define CLASS_1_7F454468996CED9D_METHOD_1_124E7DAB85EAFECD_OFFSET UNITYSDK_OFFSET(0x14772920)
-#define CLASS_1_7F454468996CED9D_METHOD_1_CA6BDDCC5F7CE11E_OFFSET UNITYSDK_OFFSET(0x147728A0)
-#define CLASS_1_7F454468996CED9D__CTOR_OFFSET UNITYSDK_OFFSET(0x147727F0)
+#define CLASS_1_7F454468996CED9D_DISPOSE_OFFSET UNITYSDK_OFFSET(0x155E5B80)
+#define CLASS_1_7F454468996CED9D_METHOD_1_124E7DAB85EAFECD_OFFSET UNITYSDK_OFFSET(0x155E5C50)
+#define CLASS_1_7F454468996CED9D_METHOD_1_CA6BDDCC5F7CE11E_OFFSET UNITYSDK_OFFSET(0x155E5BD0)
+#define CLASS_1_7F454468996CED9D__CTOR_OFFSET UNITYSDK_OFFSET(0x155E5B20)
 
-inline static constexpr unsigned int Class_1_7F454468996CED9D_TypeDefinitionIndex = 66182;
+inline static constexpr unsigned int Class_1_7F454468996CED9D_TypeDefinitionIndex = 69224;
 
 class Class_1_7F454468996CED9D : public ::System::Object
 {
 public:
-	::RPG::Client::PedestrianMemberExternalConfig_Floating* Field_1_0; // 0x10
-	::System::Int32 Field_1_1; // 0x18
-	::System::Single Field_1_2; // 0x1C
+	::RPG::Client::PedestrianMemberExternalConfig_Floating* IGHAHBNLIJA; // 0x10
+	::System::Int32 FFNBLDFFMCN; // 0x18
+	::System::Single NPINECOCALC; // 0x1C
 
 	::System::Void _ctor(::RPG::Client::PedestrianMemberExternalConfig_Floating* a1)
 	{

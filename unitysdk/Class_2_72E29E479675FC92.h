@@ -6,17 +6,17 @@ class Class_1_0A99AF1699F7F17E_6;
 class Class_1_D2520FBD61B50E07;
 namespace RPG::Client::ChenLingBattle { class ChenLingBattleGameContext; }
 
-#define CLASS_2_72E29E479675FC92_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x152BD280)
-#define CLASS_2_72E29E479675FC92__CTOR_OFFSET UNITYSDK_OFFSET(0x152BD4F0)
+#define CLASS_2_72E29E479675FC92_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x16231FD0)
+#define CLASS_2_72E29E479675FC92__CTOR_OFFSET UNITYSDK_OFFSET(0x16232240)
 
-inline static constexpr unsigned int Class_2_72E29E479675FC92_TypeDefinitionIndex = 72335;
+inline static constexpr unsigned int Class_2_72E29E479675FC92_TypeDefinitionIndex = 75771;
 
 class Class_2_72E29E479675FC92 : public ::Class_1_3713064DEE761936
 {
 public:
-	::RPG::Client::ChenLingBattle::ChenLingBattleGameContext* Field_2_0; // 0x20
-	::Class_1_D2520FBD61B50E07* Field_2_1; // 0x28
-	::Class_1_0A99AF1699F7F17E_6* Field_2_2; // 0x30
+	::Class_1_D2520FBD61B50E07* KCLPMCMIALP; // 0x20
+	::Class_1_0A99AF1699F7F17E_6* IFKKOHJDCCF; // 0x28
+	::RPG::Client::ChenLingBattle::ChenLingBattleGameContext* FGHLCBFGPEE; // 0x30
 
 	::System::Void _ctor(::RPG::Client::ChenLingBattle::ChenLingBattleGameContext* a1, ::Class_1_0A99AF1699F7F17E_6* a2, ::Class_1_D2520FBD61B50E07* a3)
 	{

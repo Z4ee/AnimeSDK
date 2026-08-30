@@ -7,21 +7,21 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_PIXAIRCONTENTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B6B2440)
-#define RPG_GAMECORE_PIXAIRCONTENTCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6B2730)
+#define RPG_GAMECORE_PIXAIRCONTENTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D334380)
+#define RPG_GAMECORE_PIXAIRCONTENTCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D334670)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PixAirContentConfigRow_TypeDefinitionIndex = 11669;
+	inline static constexpr unsigned int PixAirContentConfigRow_TypeDefinitionIndex = 12058;
 
 	class PixAirContentConfigRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* CoreTagIndexList; // 0x10
-		::RPG::GameCore::PixAirEquipTag Tag; // 0x18
-		::RPG::GameCore::PixAirContentRarity Rarity; // 0x1C
-		::System::UInt32 ContentID; // 0x20
-		::RPG::Client::TextID EventOptionDescribe; // 0x28
+		::RPG::Client::TextID EventOptionDescribe; // 0x18
+		::RPG::GameCore::PixAirEquipTag Tag; // 0x28
+		::RPG::GameCore::PixAirContentRarity Rarity; // 0x2C
+		::System::UInt32 ContentID; // 0x30
 		::RPG::Client::TextID Name; // 0x38
 
 		::System::Void _ctor()

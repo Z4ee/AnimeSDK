@@ -5,11 +5,11 @@
 
 namespace RPG::GameCore { class TurnBasedAbilityComponent; }
 
-inline static constexpr unsigned int Struct_2_E815AE06F2E023B0_TypeDefinitionIndex = 53304;
+inline static constexpr unsigned int Struct_2_E815AE06F2E023B0_TypeDefinitionIndex = 56017;
 
 struct alignas(8) Struct_2_E815AE06F2E023B0
 {
-	::RPG::GameCore::TurnBasedAbilityComponent* Field_2_0; // 0x10
-	::RPG::GameCore::ModifierBehaviorFlag Field_2_1; // 0x18
-	::System::Int32 Field_2_2; // 0x1C
+	::RPG::GameCore::TurnBasedAbilityComponent* MCLLALGABAB; // 0x10
+	::RPG::GameCore::ModifierBehaviorFlag FNPGDNFLMPC; // 0x18
+	::System::Int32 GMDBHJKEAEI; // 0x1C
 };

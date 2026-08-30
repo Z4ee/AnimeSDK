@@ -3,7 +3,7 @@
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HAPI_RSTOrder_TypeDefinitionIndex = 38320;
+	inline static constexpr unsigned int HAPI_RSTOrder_TypeDefinitionIndex = 39179;
 
 	enum class HAPI_RSTOrder : ::System::Int32
 	{

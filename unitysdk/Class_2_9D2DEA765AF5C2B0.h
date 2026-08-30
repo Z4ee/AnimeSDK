@@ -16,39 +16,39 @@ namespace RPG::GameCore { class BattleGridFightAvatarData; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_9D2DEA765AF5C2B0__CTOR_OFFSET UNITYSDK_OFFSET(0xEB57D50)
+#define CLASS_2_9D2DEA765AF5C2B0__CTOR_OFFSET UNITYSDK_OFFSET(0xFA62210)
 
-inline static constexpr unsigned int Class_2_9D2DEA765AF5C2B0_TypeDefinitionIndex = 54332;
+inline static constexpr unsigned int Class_2_9D2DEA765AF5C2B0_TypeDefinitionIndex = 57053;
 
 class Class_2_9D2DEA765AF5C2B0 : public ::Class_1_B8FB38F0526A59B0
 {
 public:
-	::System::Collections::Generic::Dictionary_2<::RPG::GameCore::BattleExtraPropertyAddition, ::RPG::GameCore::FixPoint>* Field_2_0; // 0x58
-	::System::Collections::Generic::List_1<::Class_1_7AB88D713F5121B3_49*>* Field_2_1; // 0x60
-	::RPG::GameCore::BattleGridFightAvatarData* Field_2_2; // 0x68
-	::Il2CppArray<::Class_1_4AAB34DEAFC894B3*>* Field_2_3; // 0x70
-	::Il2CppArray<::RPG::GameCore::AbilityProperty>* Field_2_4; // 0x78
-	::Il2CppArray<::RPG::GameCore::AbilityProperty>* Field_2_5; // 0x80
-	::Il2CppArray<::System::UInt32>* Field_2_6; // 0x88
-	::Class_1_EA6B9573C4BF1DD5* Field_2_7; // 0x90
-	::System::Collections::Generic::List_1<::Class_1_7AB88D713F5121B3_49*>* Field_2_8; // 0x98
-	::System::UInt32 Field_2_9; // 0xA0
-	::RPG::GameCore::AvatarRowWrapperDeriveType Field_2_10; // 0xA4
-	::System::UInt32 Field_2_11; // 0xA8
-	::System::UInt32 Field_2_12; // 0xAC
-	::RPG::GameCore::FixPoint Field_2_13; // 0xB0
-	::System::Int32 Field_2_14; // 0xB8
-	::System::Boolean Field_2_15; // 0xBC
-	::RPG::GameCore::AvatarChangeOption Field_2_16; // 0xC0
-	::System::UInt32 Field_2_17; // 0xC4
-	::System::UInt32 Field_2_18; // 0xC8
-	::System::UInt32 Field_2_19; // 0xCC
-	::Enum_3_0A3761FE34514D6C_13 Field_2_20; // 0xD0
-	::RPG::GameCore::FixPoint Field_2_21; // 0xD8
-	::RPG::GameCore::FixPoint Field_2_22; // 0xE0
-	::System::UInt32 Field_2_23; // 0xE8
-	::Enum_3_01618AD0437C8486 Field_2_24; // 0xEC
-	::RPG::GameCore::FixPoint Field_2_25; // 0xF0
+	::System::Collections::Generic::Dictionary_2<::RPG::GameCore::BattleExtraPropertyAddition, ::RPG::GameCore::FixPoint>* HHMKHBIKCPN; // 0x58
+	::System::Collections::Generic::List_1<::Class_1_7AB88D713F5121B3_49*>* HPLFPOEIFAJ; // 0x60
+	::Class_1_EA6B9573C4BF1DD5* DAJPFEDOLAI; // 0x68
+	::RPG::GameCore::BattleGridFightAvatarData* CLMELKFEKMA; // 0x70
+	::Il2CppArray<::System::UInt32>* PFHEKAOOOPJ; // 0x78
+	::Il2CppArray<::RPG::GameCore::AbilityProperty>* FHOELNDHGEH; // 0x80
+	::System::Collections::Generic::List_1<::Class_1_7AB88D713F5121B3_49*>* HHHKPJHAOKK; // 0x88
+	::Il2CppArray<::RPG::GameCore::AbilityProperty>* DIGCNLPAJEB; // 0x90
+	::Il2CppArray<::Class_1_4AAB34DEAFC894B3*>* OEJACCAHJHH; // 0x98
+	::RPG::GameCore::FixPoint JHOIBMEKNOD; // 0xA0
+	::RPG::GameCore::AvatarRowWrapperDeriveType DJLAEMKAOKE; // 0xA8
+	::System::Boolean LHFPPPKPNMM; // 0xAC
+	::RPG::GameCore::FixPoint AIFOJKHJLDD; // 0xB0
+	::RPG::GameCore::FixPoint NEPGILFFENF; // 0xB8
+	::RPG::GameCore::FixPoint JCDBMGGLNIB; // 0xC0
+	::Enum_3_01618AD0437C8486 NMFLLIDLOJE; // 0xC8
+	::RPG::GameCore::AvatarChangeOption KFGPAOBJKKB; // 0xCC
+	::System::UInt32 BAFNGNPHHEC; // 0xD0
+	::System::UInt32 GBJLLAJJEOL; // 0xD4
+	::System::UInt32 AAGKEBFHLMC; // 0xD8
+	::System::UInt32 DLOOMDHHNGC; // 0xDC
+	::System::UInt32 GDIMKFNECOK; // 0xE0
+	::System::Int32 BLIFOAEFHIB; // 0xE4
+	::Enum_3_0A3761FE34514D6C_13 IJEBEEMGOOJ; // 0xE8
+	::System::UInt32 PKJDFMCKNMC; // 0xEC
+	::System::UInt32 KPAHFGEFKEB; // 0xF0
 
 	::System::Void _ctor()
 	{

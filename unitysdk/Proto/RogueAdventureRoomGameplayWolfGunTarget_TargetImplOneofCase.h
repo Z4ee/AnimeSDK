@@ -3,14 +3,14 @@
 
 namespace Proto
 {
-	inline static constexpr unsigned int RogueAdventureRoomGameplayWolfGunTarget_TargetImplOneofCase_TypeDefinitionIndex = 31540;
+	inline static constexpr unsigned int RogueAdventureRoomGameplayWolfGunTarget_TargetImplOneofCase_TypeDefinitionIndex = 32281;
 
 	enum class RogueAdventureRoomGameplayWolfGunTarget_TargetImplOneofCase : ::System::Int32
 	{
 		None = 0,
-		TargetNone = 15,
-		TargetCoin = 12,
-		TargetMiracle = 6,
-		TargetRuanmei = 5,
+		TargetNone = 1,
+		TargetCoin = 8,
+		TargetMiracle = 7,
+		TargetRuanmei = 9,
 	};
 }

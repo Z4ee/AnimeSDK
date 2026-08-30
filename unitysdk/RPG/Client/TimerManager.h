@@ -9,30 +9,30 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 template <typename T> class Class_1_64C1E63642C4A2DF;
 
-#define RPG_CLIENT_TIMERMANAGER_ADDONCETIMERWITHFINISHMSTIMESTAMP_OFFSET UNITYSDK_OFFSET(0xD6D71E0)
-#define RPG_CLIENT_TIMERMANAGER_ADDONCETIMER_OFFSET UNITYSDK_OFFSET(0xD6D6F30)
-#define RPG_CLIENT_TIMERMANAGER_ADDREPEATTIMER_OFFSET UNITYSDK_OFFSET(0xD6D6BE0)
-#define RPG_CLIENT_TIMERMANAGER_CANCEL_OFFSET UNITYSDK_OFFSET(0xD6D7910)
-#define RPG_CLIENT_TIMERMANAGER_DISPOSE_OFFSET UNITYSDK_OFFSET(0xD6D7AC0)
-#define RPG_CLIENT_TIMERMANAGER_GETTIMERID_OFFSET UNITYSDK_OFFSET(0xD6D6EE0)
-#define RPG_CLIENT_TIMERMANAGER_INIT_OFFSET UNITYSDK_OFFSET(0xD6D6BA0)
-#define RPG_CLIENT_TIMERMANAGER_TICK_OFFSET UNITYSDK_OFFSET(0xD6D73C0)
-#define RPG_CLIENT_TIMERMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0xD6D7DB0)
+#define RPG_CLIENT_TIMERMANAGER_ADDONCETIMERWITHFINISHMSTIMESTAMP_OFFSET UNITYSDK_OFFSET(0xE226B90)
+#define RPG_CLIENT_TIMERMANAGER_ADDONCETIMER_OFFSET UNITYSDK_OFFSET(0xE2268E0)
+#define RPG_CLIENT_TIMERMANAGER_ADDREPEATTIMER_OFFSET UNITYSDK_OFFSET(0xE226590)
+#define RPG_CLIENT_TIMERMANAGER_CANCEL_OFFSET UNITYSDK_OFFSET(0xE2272C0)
+#define RPG_CLIENT_TIMERMANAGER_DISPOSE_OFFSET UNITYSDK_OFFSET(0xE227470)
+#define RPG_CLIENT_TIMERMANAGER_GETTIMERID_OFFSET UNITYSDK_OFFSET(0xE226890)
+#define RPG_CLIENT_TIMERMANAGER_INIT_OFFSET UNITYSDK_OFFSET(0xE226550)
+#define RPG_CLIENT_TIMERMANAGER_TICK_OFFSET UNITYSDK_OFFSET(0xE226D70)
+#define RPG_CLIENT_TIMERMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0xE227750)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TimerManager_TypeDefinitionIndex = 65268;
+	inline static constexpr unsigned int TimerManager_TypeDefinitionIndex = 68280;
 
 	class TimerManager : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::Int32>* deleteTimerID; // 0x10
-		::Class_1_64C1E63642C4A2DF<::RPG::Client::TimerManager_Timer*>* pool; // 0x18
-		::System::Collections::Generic::HashSet_1<::System::Int32>* aliveTimerID; // 0x20
+		::System::Collections::Generic::HashSet_1<::System::Int32>* aliveTimerID; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::RPG::Client::TimerManager_Timer*>* TimerMap; // 0x18
+		::System::Collections::Generic::List_1<::System::Int32>* deleteTimerID; // 0x20
 		::System::Collections::Generic::List_1<::System::Int32>* pendingTimerID; // 0x28
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::RPG::Client::TimerManager_Timer*>* TimerMap; // 0x30
-		::System::Boolean InTimerTick; // 0x38
-		::System::Int32 id; // 0x3C
+		::Class_1_64C1E63642C4A2DF<::RPG::Client::TimerManager_Timer*>* pool; // 0x30
+		::System::Int32 id; // 0x38
+		::System::Boolean InTimerTick; // 0x3C
 
 		::System::Void _ctor()
 		{

@@ -7,16 +7,16 @@ namespace RPG::GameCore { class RandomSelectMonsterIDFromPool; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_3_1627CEF0E374D403_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x14B3F140)
-#define CLASS_3_1627CEF0E374D403__CTOR_OFFSET UNITYSDK_OFFSET(0x14B3F010)
+#define CLASS_3_1627CEF0E374D403_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15A35AE0)
+#define CLASS_3_1627CEF0E374D403__CTOR_OFFSET UNITYSDK_OFFSET(0x15A359B0)
 
-inline static constexpr unsigned int Class_3_1627CEF0E374D403_TypeDefinitionIndex = 52775;
+inline static constexpr unsigned int Class_3_1627CEF0E374D403_TypeDefinitionIndex = 55478;
 
 class Class_3_1627CEF0E374D403 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::RandomSelectMonsterIDFromPool*>
 {
 public:
-	::System::Collections::Generic::List_1<::System::UInt32>* Field_3_0; // 0x28
-	::RPG::GameCore::StringHash Field_3_1; // 0x30
+	::System::Collections::Generic::List_1<::System::UInt32>* MAHEGGKFGIN; // 0x28
+	::RPG::GameCore::StringHash DIJHOMCLPEG; // 0x30
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::RandomSelectMonsterIDFromPool* a2)
 	{

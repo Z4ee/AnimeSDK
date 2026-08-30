@@ -2,24 +2,24 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_HELIOBUSSNSACCOUNTBEFOREDATA_COPYTO_OFFSET UNITYSDK_OFFSET(0xC8AF030)
-#define RPG_CLIENT_HELIOBUSSNSACCOUNTBEFOREDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xC8AF0A0)
+#define RPG_CLIENT_HELIOBUSSNSACCOUNTBEFOREDATA_COPYTO_OFFSET UNITYSDK_OFFSET(0xD3CA930)
+#define RPG_CLIENT_HELIOBUSSNSACCOUNTBEFOREDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xD3CA9B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int HeliobusSNSAccountBeforeData_TypeDefinitionIndex = 62750;
+	inline static constexpr unsigned int HeliobusSNSAccountBeforeData_TypeDefinitionIndex = 65735;
 
 	class HeliobusSNSAccountBeforeData : public ::System::Object
 	{
 	public:
-		::System::UInt32 Comments; // 0x10
-		::System::UInt32 PopPhase; // 0x14
-		::System::UInt32 ActionDay; // 0x18
-		::System::UInt32 Likes; // 0x1C
-		::System::Boolean IsAllFinish; // 0x20
-		::System::UInt32 Posts; // 0x24
-		::System::UInt32 Incomes; // 0x28
-		::System::UInt32 Fans; // 0x2C
+		::System::UInt32 Fans; // 0x10
+		::System::UInt32 ActionDay; // 0x14
+		::System::UInt32 Comments; // 0x18
+		::System::Boolean IsAllFinish; // 0x1C
+		::System::UInt32 Incomes; // 0x20
+		::System::UInt32 Likes; // 0x24
+		::System::UInt32 PopPhase; // 0x28
+		::System::UInt32 Posts; // 0x2C
 
 		::System::Void _ctor()
 		{

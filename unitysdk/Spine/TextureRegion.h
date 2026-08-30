@@ -2,21 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SPINE_TEXTUREREGION_GET_ORIGINALHEIGHT_OFFSET UNITYSDK_OFFSET(0x1C9787F0)
-#define SPINE_TEXTUREREGION_GET_ORIGINALWIDTH_OFFSET UNITYSDK_OFFSET(0x1C9787E0)
-#define SPINE_TEXTUREREGION__CTOR_OFFSET UNITYSDK_OFFSET(0x1C978800)
+#define SPINE_TEXTUREREGION_GET_ORIGINALHEIGHT_OFFSET UNITYSDK_OFFSET(0x1E622AC0)
+#define SPINE_TEXTUREREGION_GET_ORIGINALWIDTH_OFFSET UNITYSDK_OFFSET(0x1E622AB0)
+#define SPINE_TEXTUREREGION__CTOR_OFFSET UNITYSDK_OFFSET(0x1E622AD0)
 
 namespace Spine
 {
-	inline static constexpr unsigned int TextureRegion_TypeDefinitionIndex = 37546;
+	inline static constexpr unsigned int TextureRegion_TypeDefinitionIndex = 38405;
 
 	class TextureRegion : public ::System::Object
 	{
 	public:
-		::System::Single v; // 0x10
-		::System::Int32 height; // 0x14
-		::System::Single u2; // 0x18
-		::System::Single v2; // 0x1C
+		::System::Single u2; // 0x10
+		::System::Single v; // 0x14
+		::System::Single v2; // 0x18
+		::System::Int32 height; // 0x1C
 		::System::Single u; // 0x20
 		::System::Int32 width; // 0x24
 

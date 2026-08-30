@@ -12,14 +12,14 @@ namespace UnityEngine { class Renderer; }
 namespace UnityEngine { class Shader; }
 namespace UnityEngine { class Texture2D; }
 
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPMAPS_INIT_OFFSET UNITYSDK_OFFSET(0xCCA3980)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPMAPS_UNINIT_OFFSET UNITYSDK_OFFSET(0xCCA3A20)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPMAPS_UPDATEPROPERTY_OFFSET UNITYSDK_OFFSET(0xCCA3A70)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPMAPS__CTOR_OFFSET UNITYSDK_OFFSET(0xCCA3E40)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPMAPS_INIT_OFFSET UNITYSDK_OFFSET(0xD7A2C20)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPMAPS_UNINIT_OFFSET UNITYSDK_OFFSET(0xD7A2CC0)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPMAPS_UPDATEPROPERTY_OFFSET UNITYSDK_OFFSET(0xD7A2D10)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPMAPS__CTOR_OFFSET UNITYSDK_OFFSET(0xD7A30E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginCharaPropMaps_TypeDefinitionIndex = 66834;
+	inline static constexpr unsigned int MonoEffectPluginCharaPropMaps_TypeDefinitionIndex = 69936;
 
 	class MonoEffectPluginCharaPropMaps : public ::RPG::Client::MonoEffectPluginCharaPropBase
 	{
@@ -32,7 +32,7 @@ namespace RPG::Client
 		::UnityEngine::Color _BackColor; // 0x68
 		::System::Boolean Toggle_LightMap; // 0x78
 		::UnityEngine::Texture2D* _LightMap; // 0x80
-		::Il2CppArray<::System::Boolean>* Field_6_8; // 0x88
+		::Il2CppArray<::System::Boolean>* LKIKPHKAFJB; // 0x88
 
 		::System::Void _ctor()
 		{

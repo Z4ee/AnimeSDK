@@ -6,19 +6,19 @@ namespace RPG::Client::FateRin::Battle { class IFateRinBattleHudCardPileBtnViewM
 namespace System { class String; }
 namespace UnityEngine { class Animation; }
 
-#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINADDCARDTOPILEFLOWVIEW___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC4E3230)
-#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINADDCARDTOPILEFLOWVIEW___C__DISPLAYCLASS13_0___CREATEPERCARDCOMMAND_B__0_OFFSET UNITYSDK_OFFSET(0xC4E3BD0)
+#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINADDCARDTOPILEFLOWVIEW___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD018950)
+#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINADDCARDTOPILEFLOWVIEW___C__DISPLAYCLASS13_0___CREATEPERCARDCOMMAND_B__0_OFFSET UNITYSDK_OFFSET(0xD0192F0)
 
 namespace RPG::Client::FateRin::View::Battle
 {
-	inline static constexpr unsigned int FateRinAddCardToPileFlowView___c__DisplayClass13_0_TypeDefinitionIndex = 75702;
+	inline static constexpr unsigned int FateRinAddCardToPileFlowView___c__DisplayClass13_0_TypeDefinitionIndex = 79335;
 
 	class FateRinAddCardToPileFlowView___c__DisplayClass13_0 : public ::System::Object
 	{
 	public:
-		::System::String* targetAnimationClipName; // 0x10
-		::UnityEngine::Animation* targetAnimation; // 0x18
-		::RPG::Client::FateRin::Battle::IFateRinBattleHudCardPileBtnViewModel* cardPileBtnVm; // 0x20
+		::UnityEngine::Animation* targetAnimation; // 0x10
+		::RPG::Client::FateRin::Battle::IFateRinBattleHudCardPileBtnViewModel* cardPileBtnVm; // 0x18
+		::System::String* targetAnimationClipName; // 0x20
 		::System::Boolean isDrawPile; // 0x28
 
 		::System::Void _ctor()

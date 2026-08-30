@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MarshalByRefObject.h"
 
-#define SYSTEM_CONTEXTBOUNDOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A082B90)
+#define SYSTEM_CONTEXTBOUNDOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC8A330)
 
 namespace System
 {

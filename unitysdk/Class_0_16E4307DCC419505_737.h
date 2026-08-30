@@ -1,13 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Struct_2_D645B4E0B73852B6.h"
-#include "unitysdk/Struct_2_D645B4E0B73852B6_1.h"
 
-class Class_1_96BF5776DE2FE31B;
-namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
-namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
+class Class_0_16E4307DCC419505_745;
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_737_TypeDefinitionIndex = 59896;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_737_TypeDefinitionIndex = 62415;
 
 class Class_0_16E4307DCC419505_737
 {

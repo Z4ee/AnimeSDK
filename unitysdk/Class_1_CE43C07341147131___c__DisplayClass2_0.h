@@ -6,16 +6,16 @@
 
 namespace RPG::AvatarSystem { class IAvatar; }
 
-#define CLASS_1_CE43C07341147131___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB17CF10)
-#define CLASS_1_CE43C07341147131___C__DISPLAYCLASS2_0__GETAVATARBYOWNERTYPE_B__0_OFFSET UNITYSDK_OFFSET(0xB17DB10)
+#define CLASS_1_CE43C07341147131___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBB47330)
+#define CLASS_1_CE43C07341147131___C__DISPLAYCLASS2_0__GETAVATARBYOWNERTYPE_B__0_OFFSET UNITYSDK_OFFSET(0xBB47F60)
 
-inline static constexpr unsigned int Class_1_CE43C07341147131___c__DisplayClass2_0_TypeDefinitionIndex = 76262;
+inline static constexpr unsigned int Class_1_CE43C07341147131___c__DisplayClass2_0_TypeDefinitionIndex = 79895;
 
 class Class_1_CE43C07341147131___c__DisplayClass2_0 : public ::System::Object
 {
 public:
-	::RPG::GameCore::FateRinHouguOwnerType ownerType; // 0x10
-	::RPG::GameCore::GenderType gender; // 0x14
+	::RPG::GameCore::GenderType gender; // 0x10
+	::RPG::GameCore::FateRinHouguOwnerType ownerType; // 0x14
 
 	::System::Void _ctor()
 	{

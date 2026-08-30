@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TriggerTeamEditUI; }
 
-#define CLASS_3_432FCE410B4A2709_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x14821F60)
-#define CLASS_3_432FCE410B4A2709__CTOR_OFFSET UNITYSDK_OFFSET(0x14821F30)
+#define CLASS_3_432FCE410B4A2709_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x156E4480)
+#define CLASS_3_432FCE410B4A2709__CTOR_OFFSET UNITYSDK_OFFSET(0x156E4450)
 
-inline static constexpr unsigned int Class_3_432FCE410B4A2709_TypeDefinitionIndex = 56172;
+inline static constexpr unsigned int Class_3_432FCE410B4A2709_TypeDefinitionIndex = 58949;
 
 class Class_3_432FCE410B4A2709 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::TriggerTeamEditUI*>
 {

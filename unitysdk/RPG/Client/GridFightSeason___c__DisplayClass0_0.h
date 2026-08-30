@@ -4,12 +4,12 @@
 
 namespace RPG::GameCore { class GridFightSeasonPortalConfigRow; }
 
-#define RPG_CLIENT_GRIDFIGHTSEASON___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC7DE120)
-#define RPG_CLIENT_GRIDFIGHTSEASON___C__DISPLAYCLASS0_0___CTOR_B__0_OFFSET UNITYSDK_OFFSET(0xC7DF850)
+#define RPG_CLIENT_GRIDFIGHTSEASON___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD311840)
+#define RPG_CLIENT_GRIDFIGHTSEASON___C__DISPLAYCLASS0_0___CTOR_B__0_OFFSET UNITYSDK_OFFSET(0xD313010)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightSeason___c__DisplayClass0_0_TypeDefinitionIndex = 62280;
+	inline static constexpr unsigned int GridFightSeason___c__DisplayClass0_0_TypeDefinitionIndex = 65265;
 
 	class GridFightSeason___c__DisplayClass0_0 : public ::System::Object
 	{

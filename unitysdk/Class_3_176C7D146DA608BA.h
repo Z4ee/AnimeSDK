@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetupPropAnchorInRadius; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_176C7D146DA608BA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xAD33480)
-#define CLASS_3_176C7D146DA608BA__CTOR_OFFSET UNITYSDK_OFFSET(0xAD33450)
+#define CLASS_3_176C7D146DA608BA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB47F980)
+#define CLASS_3_176C7D146DA608BA__CTOR_OFFSET UNITYSDK_OFFSET(0xB47F950)
 
-inline static constexpr unsigned int Class_3_176C7D146DA608BA_TypeDefinitionIndex = 55972;
+inline static constexpr unsigned int Class_3_176C7D146DA608BA_TypeDefinitionIndex = 58745;
 
 class Class_3_176C7D146DA608BA : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetupPropAnchorInRadius*>
 {

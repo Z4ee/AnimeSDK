@@ -6,19 +6,19 @@ namespace MiHoYo::SDK { class JSONArray; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_MIHOYOSDKEOSINTERFACE___C__DISPLAYCLASS30_0__CTOR_OFFSET UNITYSDK_OFFSET(0xAAE5820)
-#define MIHOYO_SDK_MIHOYOSDKEOSINTERFACE___C__DISPLAYCLASS30_0__GETPRODUCTLIST_B__0_OFFSET UNITYSDK_OFFSET(0xAAEA030)
+#define MIHOYO_SDK_MIHOYOSDKEOSINTERFACE___C__DISPLAYCLASS30_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB226060)
+#define MIHOYO_SDK_MIHOYOSDKEOSINTERFACE___C__DISPLAYCLASS30_0__GETPRODUCTLIST_B__0_OFFSET UNITYSDK_OFFSET(0xB22A890)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MiHoYoSDKEOSInterface___c__DisplayClass30_0_TypeDefinitionIndex = 44577;
+	inline static constexpr unsigned int MiHoYoSDKEOSInterface___c__DisplayClass30_0_TypeDefinitionIndex = 46763;
 
 	class MiHoYoSDKEOSInterface___c__DisplayClass30_0 : public ::System::Object
 	{
 	public:
-		::System::String* traceId; // 0x10
-		::MiHoYo::SDK::JSONArray* productArray; // 0x18
-		::System::Action_1<::MiHoYo::SDK::JSONArray*>* callback; // 0x20
+		::System::Action_1<::MiHoYo::SDK::JSONArray*>* callback; // 0x10
+		::System::String* traceId; // 0x18
+		::MiHoYo::SDK::JSONArray* productArray; // 0x20
 
 		::System::Void _ctor()
 		{

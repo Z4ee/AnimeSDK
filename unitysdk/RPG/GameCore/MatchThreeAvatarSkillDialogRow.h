@@ -6,21 +6,21 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MATCHTHREEAVATARSKILLDIALOGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B5CBBE0)
-#define RPG_GAMECORE_MATCHTHREEAVATARSKILLDIALOGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5CC340)
+#define RPG_GAMECORE_MATCHTHREEAVATARSKILLDIALOGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D248230)
+#define RPG_GAMECORE_MATCHTHREEAVATARSKILLDIALOGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D248990)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MatchThreeAvatarSkillDialogRow_TypeDefinitionIndex = 11505;
+	inline static constexpr unsigned int MatchThreeAvatarSkillDialogRow_TypeDefinitionIndex = 11894;
 
 	class MatchThreeAvatarSkillDialogRow : public ::System::Object
 	{
 	public:
 		::System::String* AvatarPic; // 0x10
-		::System::UInt32 EnvironmentID; // 0x18
-		::System::UInt32 ID; // 0x1C
-		::RPG::Client::TextID Name; // 0x20
-		::RPG::Client::TextID Desc; // 0x30
+		::RPG::Client::TextID Name; // 0x18
+		::RPG::Client::TextID Desc; // 0x28
+		::System::UInt32 ID; // 0x38
+		::System::UInt32 EnvironmentID; // 0x3C
 
 		::System::Void _ctor()
 		{

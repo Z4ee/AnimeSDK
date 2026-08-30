@@ -7,20 +7,20 @@ namespace RPG::Client { class RogueTournCollectionInfo; }
 namespace RPG::GameCore { class RogueTournSetCollectionBoothPrefab; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_9C21D8189D22FB81_METHOD_3_D9869B46982E29C2_OFFSET UNITYSDK_OFFSET(0xAD0A150)
-#define CLASS_3_9C21D8189D22FB81_METHOD_3_E47658D7D9D82A19_OFFSET UNITYSDK_OFFSET(0xAD0A210)
-#define CLASS_3_9C21D8189D22FB81_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xAD09A40)
-#define CLASS_3_9C21D8189D22FB81__CCTOR_OFFSET UNITYSDK_OFFSET(0xAD0A2F0)
-#define CLASS_3_9C21D8189D22FB81__CTOR_OFFSET UNITYSDK_OFFSET(0xAD09A10)
+#define CLASS_3_9C21D8189D22FB81_METHOD_3_D9869B46982E29C2_OFFSET UNITYSDK_OFFSET(0xB4560A0)
+#define CLASS_3_9C21D8189D22FB81_METHOD_3_E47658D7D9D82A19_OFFSET UNITYSDK_OFFSET(0xB456160)
+#define CLASS_3_9C21D8189D22FB81_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB455990)
+#define CLASS_3_9C21D8189D22FB81__CCTOR_OFFSET UNITYSDK_OFFSET(0xB456240)
+#define CLASS_3_9C21D8189D22FB81__CTOR_OFFSET UNITYSDK_OFFSET(0xB455960)
 
-inline static constexpr unsigned int Class_3_9C21D8189D22FB81_TypeDefinitionIndex = 55872;
+inline static constexpr unsigned int Class_3_9C21D8189D22FB81_TypeDefinitionIndex = 58644;
 
 class Class_3_9C21D8189D22FB81 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::RogueTournSetCollectionBoothPrefab*>
 {
 public:
-	static ::RPG::GameCore::StringHash* StaticGet_Field_3_0()
+	static ::RPG::GameCore::StringHash* StaticGet_KNAEBCKGLHP()
 	{
-		return (::RPG::GameCore::StringHash*)Il2CppClass::FromTypeDefinitionIndex(Class_3_9C21D8189D22FB81_TypeDefinitionIndex)->GetStaticField(0x6F40);
+		return (::RPG::GameCore::StringHash*)Il2CppClass::FromTypeDefinitionIndex(Class_3_9C21D8189D22FB81_TypeDefinitionIndex)->GetStaticField(0xC70);
 	}
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::RogueTournSetCollectionBoothPrefab* a2)

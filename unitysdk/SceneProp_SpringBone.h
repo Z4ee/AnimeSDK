@@ -8,21 +8,21 @@ namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class Renderer; }
 namespace UnityEngine { class Transform; }
 
-#define SCENEPROP_SPRINGBONE_INIT_OFFSET UNITYSDK_OFFSET(0xDD3F340)
-#define SCENEPROP_SPRINGBONE_METHOD_5_D3129FE8DF635B48_OFFSET UNITYSDK_OFFSET(0xDD3F390)
-#define SCENEPROP_SPRINGBONE_ONENABLE_OFFSET UNITYSDK_OFFSET(0xDD3F560)
-#define SCENEPROP_SPRINGBONE_TICK_OFFSET UNITYSDK_OFFSET(0xDD3F770)
-#define SCENEPROP_SPRINGBONE_UPDATESPRING_OFFSET UNITYSDK_OFFSET(0xDD3F7D0)
-#define SCENEPROP_SPRINGBONE__CTOR_OFFSET UNITYSDK_OFFSET(0xDD40190)
+#define SCENEPROP_SPRINGBONE_INIT_OFFSET UNITYSDK_OFFSET(0xE90A7F0)
+#define SCENEPROP_SPRINGBONE_METHOD_5_D3129FE8DF635B48_OFFSET UNITYSDK_OFFSET(0xE90A840)
+#define SCENEPROP_SPRINGBONE_ONENABLE_OFFSET UNITYSDK_OFFSET(0xE90AA10)
+#define SCENEPROP_SPRINGBONE_TICK_OFFSET UNITYSDK_OFFSET(0xE90AC20)
+#define SCENEPROP_SPRINGBONE_UPDATESPRING_OFFSET UNITYSDK_OFFSET(0xE90AC80)
+#define SCENEPROP_SPRINGBONE__CTOR_OFFSET UNITYSDK_OFFSET(0xE90B640)
 
-inline static constexpr unsigned int SceneProp_SpringBone_TypeDefinitionIndex = 45668;
+inline static constexpr unsigned int SceneProp_SpringBone_TypeDefinitionIndex = 47919;
 
 class SceneProp_SpringBone : public ::UnityEngine::MonoBehaviour
 {
 public:
 	::UnityEngine::Renderer* Renderers; // 0x18
 	::System::Int32 MatIndex; // 0x20
-	::UnityEngine::MaterialPropertyBlock* Field_5_2; // 0x28
+	::UnityEngine::MaterialPropertyBlock* DNCLJJLAFKA; // 0x28
 	::UnityEngine::Vector3 BoneAxis; // 0x30
 	::System::Single StiffnessForce; // 0x3C
 	::System::Single DampingForce; // 0x40
@@ -33,16 +33,16 @@ public:
 	::System::Boolean debug; // 0x54
 	::System::Single Radius; // 0x58
 	::System::Single MoveDirUILength; // 0x5C
-	::System::Single Field_5_13; // 0x60
-	::UnityEngine::Quaternion Field_5_14; // 0x64
-	::UnityEngine::Transform* Field_5_15; // 0x78
-	::UnityEngine::Vector3 Field_5_16; // 0x80
-	::UnityEngine::Vector3 Field_5_17; // 0x8C
-	::UnityEngine::Vector3 Field_5_18; // 0x98
-	::UnityEngine::Transform* Field_5_19; // 0xA8
-	::UnityEngine::Vector3 Field_5_20; // 0xB0
-	::UnityEngine::Vector3 Field_5_21; // 0xBC
-	::UnityEngine::Transform* Field_5_22; // 0xC8
+	::System::Single PKFKMPJECDJ; // 0x60
+	::UnityEngine::Quaternion AEGGCPFGBOL; // 0x64
+	::UnityEngine::Transform* EIEDPHOPPOJ; // 0x78
+	::UnityEngine::Vector3 HANCCIKJIIF; // 0x80
+	::UnityEngine::Vector3 POPNJMJJBKP; // 0x8C
+	::UnityEngine::Vector3 BIKLGGEPKFC; // 0x98
+	::UnityEngine::Transform* FFNEKOHNGCK; // 0xA8
+	::UnityEngine::Vector3 NIBGNGICDOO; // 0xB0
+	::UnityEngine::Vector3 IBHECCFMCLA; // 0xBC
+	::UnityEngine::Transform* DEAEAPLKJPF; // 0xC8
 
 	::System::Void _ctor()
 	{

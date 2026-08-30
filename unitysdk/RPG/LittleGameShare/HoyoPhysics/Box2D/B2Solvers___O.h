@@ -8,30 +8,30 @@ namespace RPG::LittleGameShare::HoyoPhysics::Box2D { template <typename T> class
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2Solvers___O_TypeDefinitionIndex = 35235;
+	inline static constexpr unsigned int B2Solvers___O_TypeDefinitionIndex = 36096;
 
 	class B2Solvers___O : public ::System::Object
 	{
 	public:
 		static ::RPG::LittleGameShare::HoyoPhysics::Box2D::b2TaskCallback** StaticGet__1___b2SplitIslandTask()
 		{
-			return (::RPG::LittleGameShare::HoyoPhysics::Box2D::b2TaskCallback**)Il2CppClass::FromTypeDefinitionIndex(B2Solvers___O_TypeDefinitionIndex)->GetStaticField(0x60910);
-		}
-		static ::RPG::LittleGameShare::HoyoPhysics::Box2D::b2TaskCallback** StaticGet__4___b2BulletBodyTask()
-		{
-			return (::RPG::LittleGameShare::HoyoPhysics::Box2D::b2TaskCallback**)Il2CppClass::FromTypeDefinitionIndex(B2Solvers___O_TypeDefinitionIndex)->GetStaticField(0x60918);
+			return (::RPG::LittleGameShare::HoyoPhysics::Box2D::b2TaskCallback**)Il2CppClass::FromTypeDefinitionIndex(B2Solvers___O_TypeDefinitionIndex)->GetStaticField(0x2CB70);
 		}
 		static ::RPG::LittleGameShare::HoyoPhysics::Box2D::b2TaskCallback** StaticGet__2___b2SolverTask()
 		{
-			return (::RPG::LittleGameShare::HoyoPhysics::Box2D::b2TaskCallback**)Il2CppClass::FromTypeDefinitionIndex(B2Solvers___O_TypeDefinitionIndex)->GetStaticField(0x60920);
-		}
-		static ::RPG::LittleGameShare::HoyoPhysics::Box2D::b2TreeQueryCallbackFcn_1<::RPG::LittleGameShare::HoyoPhysics::Box2D::B2ContinuousContext>** StaticGet__0___b2ContinuousQueryCallback()
-		{
-			return (::RPG::LittleGameShare::HoyoPhysics::Box2D::b2TreeQueryCallbackFcn_1<::RPG::LittleGameShare::HoyoPhysics::Box2D::B2ContinuousContext>**)Il2CppClass::FromTypeDefinitionIndex(B2Solvers___O_TypeDefinitionIndex)->GetStaticField(0x60928);
+			return (::RPG::LittleGameShare::HoyoPhysics::Box2D::b2TaskCallback**)Il2CppClass::FromTypeDefinitionIndex(B2Solvers___O_TypeDefinitionIndex)->GetStaticField(0x2CB78);
 		}
 		static ::RPG::LittleGameShare::HoyoPhysics::Box2D::b2TaskCallback** StaticGet__3___b2FinalizeBodiesTask()
 		{
-			return (::RPG::LittleGameShare::HoyoPhysics::Box2D::b2TaskCallback**)Il2CppClass::FromTypeDefinitionIndex(B2Solvers___O_TypeDefinitionIndex)->GetStaticField(0x60930);
+			return (::RPG::LittleGameShare::HoyoPhysics::Box2D::b2TaskCallback**)Il2CppClass::FromTypeDefinitionIndex(B2Solvers___O_TypeDefinitionIndex)->GetStaticField(0x2CB80);
+		}
+		static ::RPG::LittleGameShare::HoyoPhysics::Box2D::b2TreeQueryCallbackFcn_1<::RPG::LittleGameShare::HoyoPhysics::Box2D::B2ContinuousContext>** StaticGet__0___b2ContinuousQueryCallback()
+		{
+			return (::RPG::LittleGameShare::HoyoPhysics::Box2D::b2TreeQueryCallbackFcn_1<::RPG::LittleGameShare::HoyoPhysics::Box2D::B2ContinuousContext>**)Il2CppClass::FromTypeDefinitionIndex(B2Solvers___O_TypeDefinitionIndex)->GetStaticField(0x2CB88);
+		}
+		static ::RPG::LittleGameShare::HoyoPhysics::Box2D::b2TaskCallback** StaticGet__4___b2BulletBodyTask()
+		{
+			return (::RPG::LittleGameShare::HoyoPhysics::Box2D::b2TaskCallback**)Il2CppClass::FromTypeDefinitionIndex(B2Solvers___O_TypeDefinitionIndex)->GetStaticField(0x2CB90);
 		}
 	};
 }

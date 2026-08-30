@@ -5,15 +5,15 @@
 
 class Class_3_C71DDDA66421C541;
 
-#define CLASS_2_29DBC3A1D8791EB5_METHOD_2_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0xB29C950)
-#define CLASS_2_29DBC3A1D8791EB5__CTOR_OFFSET UNITYSDK_OFFSET(0xB29C940)
+#define CLASS_2_29DBC3A1D8791EB5_METHOD_2_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0xBC7B6E0)
+#define CLASS_2_29DBC3A1D8791EB5__CTOR_OFFSET UNITYSDK_OFFSET(0xBC7B6D0)
 
-inline static constexpr unsigned int Class_2_29DBC3A1D8791EB5_TypeDefinitionIndex = 57642;
+inline static constexpr unsigned int Class_2_29DBC3A1D8791EB5_TypeDefinitionIndex = 60459;
 
 class Class_2_29DBC3A1D8791EB5 : public ::Class_1_2231FD56C070349F
 {
 public:
-	::RPG::LittleGameShare::DiceCombatCore::TacticsBuyFinishResult Field_2_0; // 0x18
+	::RPG::LittleGameShare::DiceCombatCore::TacticsBuyFinishResult GNOEGILFEMD; // 0x18
 
 	::System::Void _ctor(::Class_3_C71DDDA66421C541* a1, ::RPG::LittleGameShare::DiceCombatCore::TacticsBuyFinishResult a2)
 	{

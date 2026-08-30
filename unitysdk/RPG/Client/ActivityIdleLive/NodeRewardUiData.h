@@ -5,18 +5,18 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_NODEREWARDUIDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xBBDA740)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_NODEREWARDUIDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xC5F8640)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int NodeRewardUiData_TypeDefinitionIndex = 71824;
+	inline static constexpr unsigned int NodeRewardUiData_TypeDefinitionIndex = 75130;
 
 	class NodeRewardUiData : public ::System::Object
 	{
 	public:
 		::System::String* IconPath; // 0x10
-		::RPG::Client::TextID RewardHintText; // 0x18
-		::System::UInt32 Num; // 0x28
+		::System::UInt32 Num; // 0x18
+		::RPG::Client::TextID RewardHintText; // 0x20
 
 		::System::Void _ctor()
 		{

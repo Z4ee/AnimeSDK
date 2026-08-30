@@ -6,20 +6,20 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class HeartDialEmoBlackList; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_2_96317446D0C1A131_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBAAD2A0)
-#define CLASS_2_96317446D0C1A131_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBAAD040)
-#define CLASS_2_96317446D0C1A131_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBAAD250)
-#define CLASS_2_96317446D0C1A131_TICK_OFFSET UNITYSDK_OFFSET(0xBAAD2E0)
-#define CLASS_2_96317446D0C1A131__CTOR_OFFSET UNITYSDK_OFFSET(0xBAAD030)
+#define CLASS_2_96317446D0C1A131_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC50E9B0)
+#define CLASS_2_96317446D0C1A131_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC50E750)
+#define CLASS_2_96317446D0C1A131_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC50E960)
+#define CLASS_2_96317446D0C1A131_TICK_OFFSET UNITYSDK_OFFSET(0xC50E9F0)
+#define CLASS_2_96317446D0C1A131__CTOR_OFFSET UNITYSDK_OFFSET(0xC50E740)
 
-inline static constexpr unsigned int Class_2_96317446D0C1A131_TypeDefinitionIndex = 55570;
+inline static constexpr unsigned int Class_2_96317446D0C1A131_TypeDefinitionIndex = 58301;
 
 class Class_2_96317446D0C1A131 : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::RPG::GameCore::HeartDialEmoBlackList* Field_2_0; // 0x18
-	::RPG::GameCore::GameEntity* Field_2_1; // 0x20
-	::RPG::GameCore::TaskContext* Field_2_2; // 0x28
+	::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+	::RPG::GameCore::GameEntity* FEECCONDBLP; // 0x20
+	::RPG::GameCore::HeartDialEmoBlackList* OFKGLJOAMLD; // 0x28
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::HeartDialEmoBlackList* a2)
 	{

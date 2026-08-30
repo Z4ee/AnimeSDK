@@ -9,28 +9,28 @@
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class Texture; }
 
-#define CLASS_2_1FB66008306098B0_METHOD_2_30A2382C3FCC5386_OFFSET UNITYSDK_OFFSET(0x1132E340)
-#define CLASS_2_1FB66008306098B0_METHOD_2_5B48DCA42B80B50C_OFFSET UNITYSDK_OFFSET(0x1132E2F0)
-#define CLASS_2_1FB66008306098B0__CTOR_OFFSET UNITYSDK_OFFSET(0x1132E2D0)
+#define CLASS_2_1FB66008306098B0_METHOD_2_30A2382C3FCC5386_OFFSET UNITYSDK_OFFSET(0x1221F5F0)
+#define CLASS_2_1FB66008306098B0_METHOD_2_5B48DCA42B80B50C_OFFSET UNITYSDK_OFFSET(0x1221F5A0)
+#define CLASS_2_1FB66008306098B0__CTOR_OFFSET UNITYSDK_OFFSET(0x1221F580)
 
-inline static constexpr unsigned int Class_2_1FB66008306098B0_TypeDefinitionIndex = 67017;
+inline static constexpr unsigned int Class_2_1FB66008306098B0_TypeDefinitionIndex = 70122;
 
 class Class_2_1FB66008306098B0 : public ::Class_1_6B6A4C789452DEC6
 {
 public:
-	::UnityEngine::Texture* Field_2_0; // 0x20
-	::UnityEngine::AnimationCurve* Field_2_1; // 0x28
-	::System::Single Field_2_2; // 0x30
-	::System::Single Field_2_3; // 0x34
-	::System::Single Field_2_4; // 0x38
-	::System::Single Field_2_5; // 0x3C
-	::System::Single Field_2_6; // 0x40
-	::System::Single Field_2_7; // 0x44
-	::System::Single Field_2_8; // 0x48
-	::System::Single Field_2_9; // 0x4C
-	::System::Single Field_2_10; // 0x50
-	::System::Single Field_2_11; // 0x54
-	::RPG::CustomRP::ColorGradingGradual Field_2_12; // 0x58
+	::UnityEngine::Texture* LHBMPPDMFKC; // 0x20
+	::UnityEngine::AnimationCurve* NLIFDJHPHLP; // 0x28
+	::RPG::CustomRP::ColorGradingGradual EJLHCINGODM; // 0x30
+	::System::Single FEKBJFJOCLF; // 0x34
+	::System::Single CCAOGMEFNLB; // 0x38
+	::System::Single HKHPEFCDPGP; // 0x3C
+	::System::Single ALJFIPDOIIB; // 0x40
+	::System::Single BJKPDKKNIOJ; // 0x44
+	::System::Single FABKKJMEAPO; // 0x48
+	::System::Single CAFPEJDDMNC; // 0x4C
+	::System::Single GKBAJIBGNPK; // 0x50
+	::System::Single CNBDOCBLIDP; // 0x54
+	::System::Single EJOCALJIDPB; // 0x58
 
 	::System::Void _ctor(::RPG::GameCore::PPEffectFilterPriorityGroup a1, ::RPG::GameCore::PPEffectFilterPriority a2)
 	{

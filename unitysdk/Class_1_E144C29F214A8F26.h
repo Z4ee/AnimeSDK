@@ -6,27 +6,27 @@
 namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
 
-#define CLASS_1_E144C29F214A8F26_CLEAR_OFFSET UNITYSDK_OFFSET(0xB743560)
-#define CLASS_1_E144C29F214A8F26_GET_ISRELEASED_OFFSET UNITYSDK_OFFSET(0xB743610)
-#define CLASS_1_E144C29F214A8F26_METHOD_1_3E7178C5ECF017DB_OFFSET UNITYSDK_OFFSET(0xB7435C0)
-#define CLASS_1_E144C29F214A8F26_SET_ISRELEASED_OFFSET UNITYSDK_OFFSET(0xB743620)
-#define CLASS_1_E144C29F214A8F26__CTOR_OFFSET UNITYSDK_OFFSET(0xB743630)
+#define CLASS_1_E144C29F214A8F26_CLEAR_OFFSET UNITYSDK_OFFSET(0xC112E80)
+#define CLASS_1_E144C29F214A8F26_GET_ISRELEASED_OFFSET UNITYSDK_OFFSET(0xC112F30)
+#define CLASS_1_E144C29F214A8F26_METHOD_1_3E7178C5ECF017DB_OFFSET UNITYSDK_OFFSET(0xC112EE0)
+#define CLASS_1_E144C29F214A8F26_SET_ISRELEASED_OFFSET UNITYSDK_OFFSET(0xC112F40)
+#define CLASS_1_E144C29F214A8F26__CTOR_OFFSET UNITYSDK_OFFSET(0xC112F50)
 
-inline static constexpr unsigned int Class_1_E144C29F214A8F26_TypeDefinitionIndex = 66784;
+inline static constexpr unsigned int Class_1_E144C29F214A8F26_TypeDefinitionIndex = 69886;
 
 class Class_1_E144C29F214A8F26 : public ::System::Object
 {
 public:
-	::System::String* Field_1_0; // 0x10
-	::System::String* Field_1_1; // 0x18
-	::System::String* Field_1_2; // 0x20
-	::Il2CppArray<::RPG::GameCore::MonoEffectFlag>* Field_1_3; // 0x28
-	::RPG::GameCore::GameEntity* Field_1_4; // 0x30
-	::System::UInt32 Field_1_5; // 0x38
-	::System::Boolean Field_1_6; // 0x3C
-	::System::Boolean Field_1_7; // 0x3D
-	::System::Boolean Field_1_8; // 0x3E
-	::System::Boolean _IsReleased_k__BackingField; // 0x3F
+	::System::String* FLCPMEIBBKI; // 0x10
+	::Il2CppArray<::RPG::GameCore::MonoEffectFlag>* FEMFCJCKOKC; // 0x18
+	::RPG::GameCore::GameEntity* BBMMBAKDJBC; // 0x20
+	::System::String* BAHLDFMIJFG; // 0x28
+	::System::String* ECNKCCNJNPJ; // 0x30
+	::System::UInt32 LFIEOIKFGNG; // 0x38
+	::System::Boolean _IsReleased_k__BackingField; // 0x3C
+	::System::Boolean ELNLFOJJHOO; // 0x3D
+	::System::Boolean OLLCILOMNMH; // 0x3E
+	::System::Boolean JGIFOKCNIMB; // 0x3F
 
 	::System::Void _ctor()
 	{

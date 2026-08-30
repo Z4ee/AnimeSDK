@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_CUTSCENECACHEINITPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0xC1D4D70)
+#define RPG_CLIENT_CUTSCENECACHEINITPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0xCC90890)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CutsceneCacheInitParams_TypeDefinitionIndex = 57031;
+	inline static constexpr unsigned int CutsceneCacheInitParams_TypeDefinitionIndex = 59823;
 
 	class CutsceneCacheInitParams : public ::System::Object
 	{

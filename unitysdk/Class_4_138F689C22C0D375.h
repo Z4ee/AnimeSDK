@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class DamagePerformFinish; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_4_138F689C22C0D375_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x149CF270)
-#define CLASS_4_138F689C22C0D375__CTOR_OFFSET UNITYSDK_OFFSET(0x149CF240)
+#define CLASS_4_138F689C22C0D375_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15860F80)
+#define CLASS_4_138F689C22C0D375__CTOR_OFFSET UNITYSDK_OFFSET(0x15860F50)
 
-inline static constexpr unsigned int Class_4_138F689C22C0D375_TypeDefinitionIndex = 53216;
+inline static constexpr unsigned int Class_4_138F689C22C0D375_TypeDefinitionIndex = 55930;
 
 class Class_4_138F689C22C0D375 : public ::Class_3_553B45D240052294
 {

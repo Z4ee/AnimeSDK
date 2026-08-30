@@ -5,17 +5,17 @@
 namespace RPG::Client { class BattleSilverWolf999CustomUIData; }
 namespace System { class String; }
 
-#define CLASS_4_B854313BD3E3D22D_METHOD_4_79830F666EE579C0_OFFSET UNITYSDK_OFFSET(0x1555FF80)
-#define CLASS_4_B854313BD3E3D22D__CTOR_OFFSET UNITYSDK_OFFSET(0x15560140)
-#define CLASS_4_B854313BD3E3D22D__ONBIND_OFFSET UNITYSDK_OFFSET(0x15560090)
+#define CLASS_4_B854313BD3E3D22D_METHOD_4_79830F666EE579C0_OFFSET UNITYSDK_OFFSET(0xB583950)
+#define CLASS_4_B854313BD3E3D22D__CTOR_OFFSET UNITYSDK_OFFSET(0xB583B10)
+#define CLASS_4_B854313BD3E3D22D__ONBIND_OFFSET UNITYSDK_OFFSET(0xB583A60)
 
-inline static constexpr unsigned int Class_4_B854313BD3E3D22D_TypeDefinitionIndex = 68082;
+inline static constexpr unsigned int Class_4_B854313BD3E3D22D_TypeDefinitionIndex = 71257;
 
 class Class_4_B854313BD3E3D22D : public ::Class_3_A2BC57CDDA246645
 {
 public:
-	// static const ::System::String* Field_4_0; // 0x0
-	::RPG::Client::BattleSilverWolf999CustomUIData* Field_4_1; // 0x168
+	// static const ::System::String* DJCBDJMACFH; // 0x0
+	::RPG::Client::BattleSilverWolf999CustomUIData* JNEALEEMIIF; // 0x168
 
 	::System::Void _ctor()
 	{

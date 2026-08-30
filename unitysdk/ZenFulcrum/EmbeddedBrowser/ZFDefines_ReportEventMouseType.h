@@ -3,7 +3,7 @@
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int ZFDefines_ReportEventMouseType_TypeDefinitionIndex = 37422;
+	inline static constexpr unsigned int ZFDefines_ReportEventMouseType_TypeDefinitionIndex = 38281;
 
 	enum class ZFDefines_ReportEventMouseType : ::System::Int32
 	{

@@ -6,15 +6,19 @@
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
 
 namespace RPG::GameCore { class SimpleTalkStyle; }
+namespace System { class String; }
 namespace UnityEngine { class GameObject; }
+namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_BATTLEPERFORM_BPTALKCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xDC9CA50)
-#define RPGTOOLS_TIMELINE_BATTLEPERFORM_BPTALKCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xDC9CA40)
-#define RPGTOOLS_TIMELINE_BATTLEPERFORM_BPTALKCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xDC9CBB0)
+#define RPGTOOLS_TIMELINE_BATTLEPERFORM_BPTALKCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE81CBD0)
+#define RPGTOOLS_TIMELINE_BATTLEPERFORM_BPTALKCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE81CAF0)
+#define RPGTOOLS_TIMELINE_BATTLEPERFORM_BPTALKCLIP_UNITYENGINE_TIMELINE_ICUSTOMTIMELINECLIPGUI_OVERRIDEDISPLAYNAME_OFFSET UNITYSDK_OFFSET(0xE81CB00)
+#define RPGTOOLS_TIMELINE_BATTLEPERFORM_BPTALKCLIP_UNITYENGINE_TIMELINE_ICUSTOMTIMELINECLIPGUI_OVERRIDEDURATION_OFFSET UNITYSDK_OFFSET(0xE81CB70)
+#define RPGTOOLS_TIMELINE_BATTLEPERFORM_BPTALKCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xE81CD60)
 
 namespace RPGTools::Timeline::BattlePerform
 {
-	inline static constexpr unsigned int BPTalkClip_TypeDefinitionIndex = 47016;
+	inline static constexpr unsigned int BPTalkClip_TypeDefinitionIndex = 49272;
 
 	class BPTalkClip : public ::UnityEngine::Playables::PlayableAsset
 	{
@@ -34,6 +38,16 @@ namespace RPGTools::Timeline::BattlePerform
 		::UnityEngine::Timeline::ClipCaps get_clipCaps()
 		{
 			return ((::UnityEngine::Timeline::ClipCaps(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_BATTLEPERFORM_BPTALKCLIP_GET_CLIPCAPS_OFFSET))(this);
+		}
+
+		::System::Boolean UnityEngine_Timeline_ICustomTimelineClipGUI_OverrideDisplayName(::UnityEngine::Timeline::TimelineClip* a1, ::System::String*& a2)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Timeline::TimelineClip*, ::System::String*&))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_BATTLEPERFORM_BPTALKCLIP_UNITYENGINE_TIMELINE_ICUSTOMTIMELINECLIPGUI_OVERRIDEDISPLAYNAME_OFFSET))(this, a1, a2);
+		}
+
+		::System::Boolean UnityEngine_Timeline_ICustomTimelineClipGUI_OverrideDuration(::UnityEngine::Timeline::TimelineClip* a1, ::System::Double& a2)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Timeline::TimelineClip*, ::System::Double&))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_BATTLEPERFORM_BPTALKCLIP_UNITYENGINE_TIMELINE_ICUSTOMTIMELINECLIPGUI_OVERRIDEDURATION_OFFSET))(this, a1, a2);
 		}
 
 		::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2)

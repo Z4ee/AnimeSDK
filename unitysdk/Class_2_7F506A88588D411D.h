@@ -8,19 +8,19 @@ namespace RPG::Client::ActivityIdleLive { class IIdleLiveAvatarData; }
 namespace RPG::Client::ActivityIdleLive { class IdleLiveAvatarInfo; }
 namespace System { class Object; }
 
-#define CLASS_2_7F506A88588D411D_DISPOSE_OFFSET UNITYSDK_OFFSET(0x14B288F0)
-#define CLASS_2_7F506A88588D411D_METHOD_2_4EC67CD3E2DF87A5_OFFSET UNITYSDK_OFFSET(0x14B27790)
-#define CLASS_2_7F506A88588D411D__CHECKNEEDREBUILD_OFFSET UNITYSDK_OFFSET(0x14B288B0)
-#define CLASS_2_7F506A88588D411D__CTOR_OFFSET UNITYSDK_OFFSET(0x14B27630)
-#define CLASS_2_7F506A88588D411D__REBUILD_OFFSET UNITYSDK_OFFSET(0x14B277F0)
+#define CLASS_2_7F506A88588D411D_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15A1D0C0)
+#define CLASS_2_7F506A88588D411D_METHOD_2_4EC67CD3E2DF87A5_OFFSET UNITYSDK_OFFSET(0x15A1BF60)
+#define CLASS_2_7F506A88588D411D__CHECKNEEDREBUILD_OFFSET UNITYSDK_OFFSET(0x15A1D080)
+#define CLASS_2_7F506A88588D411D__CTOR_OFFSET UNITYSDK_OFFSET(0x15A1BE00)
+#define CLASS_2_7F506A88588D411D__REBUILD_OFFSET UNITYSDK_OFFSET(0x15A1BFC0)
 
-inline static constexpr unsigned int Class_2_7F506A88588D411D_TypeDefinitionIndex = 71516;
+inline static constexpr unsigned int Class_2_7F506A88588D411D_TypeDefinitionIndex = 74822;
 
 class Class_2_7F506A88588D411D : public ::RPG::AvatarSystem::Property::PropertyModifierBuilder_1<::RPG::Client::ActivityIdleLive::IdleLiveDecimal>
 {
 public:
-	::RPG::Client::ActivityIdleLive::IdleLiveAvatarInfo* Field_2_0; // 0x20
-	::RPG::Client::ActivityIdleLive::IIdleLiveAvatarData* Field_2_1; // 0x28
+	::RPG::Client::ActivityIdleLive::IdleLiveAvatarInfo* CIPONGCFEJP; // 0x20
+	::RPG::Client::ActivityIdleLive::IIdleLiveAvatarData* OBLBBOKGAOP; // 0x28
 
 	::System::Void _ctor(::RPG::Client::ActivityIdleLive::IIdleLiveAvatarData* a1, ::RPG::Client::ActivityIdleLive::IdleLiveAvatarInfo* a2)
 	{

@@ -5,14 +5,14 @@
 
 namespace System { class String; }
 
-#define STRUCT_2_CEE53EC3391B4C3D__CTOR_OFFSET UNITYSDK_OFFSET(0x89D50)
+#define STRUCT_2_CEE53EC3391B4C3D__CTOR_OFFSET UNITYSDK_OFFSET(0x8E920)
 
-inline static constexpr unsigned int Struct_2_CEE53EC3391B4C3D_TypeDefinitionIndex = 35397;
+inline static constexpr unsigned int Struct_2_CEE53EC3391B4C3D_TypeDefinitionIndex = 36258;
 
 struct alignas(8) Struct_2_CEE53EC3391B4C3D
 {
-	::RPG::Client::LittleGameShare::FightServerLogLevel Field_2_0; // 0x10
-	::System::String* Field_2_1; // 0x18
+	::RPG::Client::LittleGameShare::FightServerLogLevel DEBCCPPNIGH; // 0x10
+	::System::String* LMODFJIHGCH; // 0x18
 
 	::System::Void _ctor(::System::String* a1, ::RPG::Client::LittleGameShare::FightServerLogLevel a2)
 	{

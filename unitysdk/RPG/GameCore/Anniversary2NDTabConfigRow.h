@@ -7,21 +7,21 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ANNIVERSARY2NDTABCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B1A7DC0)
-#define RPG_GAMECORE_ANNIVERSARY2NDTABCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1A8030)
+#define RPG_GAMECORE_ANNIVERSARY2NDTABCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CE1F3A0)
+#define RPG_GAMECORE_ANNIVERSARY2NDTABCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE1F610)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int Anniversary2NDTabConfigRow_TypeDefinitionIndex = 12178;
+	inline static constexpr unsigned int Anniversary2NDTabConfigRow_TypeDefinitionIndex = 12567;
 
 	class Anniversary2NDTabConfigRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* RelatedAnniversaryContentList; // 0x10
-		::System::String* TabIcon; // 0x18
-		::RPG::Client::TextID TabName; // 0x20
-		::System::UInt32 TabID; // 0x30
-		::RPG::GameCore::Anniversary2NDPanelEnum PanelType; // 0x34
+		::System::String* TabIcon; // 0x10
+		::Il2CppArray<::System::UInt32>* RelatedAnniversaryContentList; // 0x18
+		::System::UInt32 TabID; // 0x20
+		::RPG::GameCore::Anniversary2NDPanelEnum PanelType; // 0x24
+		::RPG::Client::TextID TabName; // 0x28
 
 		::System::Void _ctor()
 		{

@@ -4,12 +4,12 @@
 
 namespace Newtonsoft::Json::Utilities { template <typename T1, typename T2> class MethodCall_2; }
 
-#define NEWTONSOFT_JSON_UTILITIES_CONVERTUTILS___C__DISPLAYCLASS9_0__CREATECASTCONVERTER_B__0_OFFSET UNITYSDK_OFFSET(0x1A2F5F40)
-#define NEWTONSOFT_JSON_UTILITIES_CONVERTUTILS___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A2F2BF0)
+#define NEWTONSOFT_JSON_UTILITIES_CONVERTUTILS___C__DISPLAYCLASS9_0__CREATECASTCONVERTER_B__0_OFFSET UNITYSDK_OFFSET(0x1BEFE750)
+#define NEWTONSOFT_JSON_UTILITIES_CONVERTUTILS___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BEFB310)
 
 namespace Newtonsoft::Json::Utilities
 {
-	inline static constexpr unsigned int ConvertUtils___c__DisplayClass9_0_TypeDefinitionIndex = 9323;
+	inline static constexpr unsigned int ConvertUtils___c__DisplayClass9_0_TypeDefinitionIndex = 9602;
 
 	class ConvertUtils___c__DisplayClass9_0 : public ::System::Object
 	{

@@ -7,21 +7,21 @@ namespace RPG::Client { class MapDef; }
 namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
 
-#define CLASS_1_5073A24A1A6ED189_METHOD_1_3CDC1D8A564A5D60_OFFSET UNITYSDK_OFFSET(0xE501A40)
-#define CLASS_1_5073A24A1A6ED189_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xE501E80)
-#define CLASS_1_5073A24A1A6ED189_TOSTRING_OFFSET UNITYSDK_OFFSET(0xE501ED0)
-#define CLASS_1_5073A24A1A6ED189__CTOR_OFFSET UNITYSDK_OFFSET(0xE501FB0)
+#define CLASS_1_5073A24A1A6ED189_METHOD_1_3CDC1D8A564A5D60_OFFSET UNITYSDK_OFFSET(0xF41D1B0)
+#define CLASS_1_5073A24A1A6ED189_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xF41D5F0)
+#define CLASS_1_5073A24A1A6ED189_TOSTRING_OFFSET UNITYSDK_OFFSET(0xF41D640)
+#define CLASS_1_5073A24A1A6ED189__CTOR_OFFSET UNITYSDK_OFFSET(0xF41D720)
 
-inline static constexpr unsigned int Class_1_5073A24A1A6ED189_TypeDefinitionIndex = 58029;
+inline static constexpr unsigned int Class_1_5073A24A1A6ED189_TypeDefinitionIndex = 60856;
 
 class Class_1_5073A24A1A6ED189 : public ::System::Object
 {
 public:
-	::RPG::GameCore::GameEntity* Field_1_0; // 0x10
-	::System::String* Field_1_1; // 0x18
-	::System::Boolean Field_1_2; // 0x20
-	::System::Boolean Field_1_3; // 0x21
-	::System::Boolean Field_1_4; // 0x22
+	::RPG::GameCore::GameEntity* DGCEHLHOGAE; // 0x10
+	::System::String* JIDLKIHJLFL; // 0x18
+	::System::Boolean ADAMOADIAPO; // 0x20
+	::System::Boolean KLOIHHLKCNG; // 0x21
+	::System::Boolean FKCJMOLAMKL; // 0x22
 
 	::System::Void _ctor()
 	{

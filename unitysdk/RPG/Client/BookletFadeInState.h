@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BookletFadeInState_TypeDefinitionIndex = 69169;
+	inline static constexpr unsigned int BookletFadeInState_TypeDefinitionIndex = 72369;
 
 	enum class BookletFadeInState : ::System::Int32
 	{

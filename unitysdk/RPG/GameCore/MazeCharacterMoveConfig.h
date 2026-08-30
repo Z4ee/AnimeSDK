@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_MAZECHARACTERMOVECONFIG_METHOD_2_EF65A3EAFDF27FD1_OFFSET UNITYSDK_OFFSET(0x1B5DCD80)
-#define RPG_GAMECORE_MAZECHARACTERMOVECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5DCEB0)
+#define RPG_GAMECORE_MAZECHARACTERMOVECONFIG_METHOD_2_EF65A3EAFDF27FD1_OFFSET UNITYSDK_OFFSET(0x1D259440)
+#define RPG_GAMECORE_MAZECHARACTERMOVECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D259570)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MazeCharacterMoveConfig_TypeDefinitionIndex = 16918;
+	inline static constexpr unsigned int MazeCharacterMoveConfig_TypeDefinitionIndex = 17420;
 
 	class MazeCharacterMoveConfig : public ::RPG::GameCore::JsonConfig
 	{

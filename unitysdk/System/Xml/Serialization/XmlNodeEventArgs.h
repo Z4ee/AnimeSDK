@@ -5,19 +5,19 @@
 namespace System { class Object; }
 namespace System::Xml { class XmlNode; }
 
-#define SYSTEM_XML_SERIALIZATION_XMLNODEEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1CB94400)
+#define SYSTEM_XML_SERIALIZATION_XMLNODEEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1E83E7E0)
 
 namespace System::Xml::Serialization
 {
-	inline static constexpr unsigned int XmlNodeEventArgs_TypeDefinitionIndex = 1979;
+	inline static constexpr unsigned int XmlNodeEventArgs_TypeDefinitionIndex = 1986;
 
 	class XmlNodeEventArgs : public ::System::EventArgs
 	{
 	public:
-		::System::Xml::XmlNode* xmlNode; // 0x10
-		::System::Object* o; // 0x18
-		::System::Int32 linePosition; // 0x20
-		::System::Int32 lineNumber; // 0x24
+		::System::Object* o; // 0x10
+		::System::Xml::XmlNode* xmlNode; // 0x18
+		::System::Int32 lineNumber; // 0x20
+		::System::Int32 linePosition; // 0x24
 
 		::System::Void _ctor(::System::Xml::XmlNode* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Object* a4)
 		{

@@ -7,11 +7,11 @@
 namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class MeshRenderer; }
 
-#define AREAFADEPOINTLIGHT_METHOD_5_508D4DD02D3DB74E_OFFSET UNITYSDK_OFFSET(0x1492D740)
-#define AREAFADEPOINTLIGHT_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1492DCF0)
-#define AREAFADEPOINTLIGHT__CTOR_OFFSET UNITYSDK_OFFSET(0x1492DD70)
+#define AREAFADEPOINTLIGHT_METHOD_5_508D4DD02D3DB74E_OFFSET UNITYSDK_OFFSET(0x1596AD30)
+#define AREAFADEPOINTLIGHT_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1596B2E0)
+#define AREAFADEPOINTLIGHT__CTOR_OFFSET UNITYSDK_OFFSET(0x1596B360)
 
-inline static constexpr unsigned int AreaFadePointLight_TypeDefinitionIndex = 45548;
+inline static constexpr unsigned int AreaFadePointLight_TypeDefinitionIndex = 47798;
 
 class AreaFadePointLight : public ::UnityEngine::MonoBehaviour
 {
@@ -22,14 +22,14 @@ public:
 	::UnityEngine::Vector2 RoughnessAdjustment; // 0x30
 	::System::Boolean EnableLegencyFalloff; // 0x38
 	::System::Single LegencyFalloffExp; // 0x3C
-	::UnityEngine::MaterialPropertyBlock* Field_5_6; // 0x40
-	::UnityEngine::MeshRenderer* Field_5_7; // 0x48
-	::System::Int32 Field_5_8; // 0x50
-	::System::Int32 Field_5_9; // 0x54
-	::System::Int32 Field_5_10; // 0x58
-	::System::Int32 Field_5_11; // 0x5C
-	::System::Int32 Field_5_12; // 0x60
-	::System::Int32 Field_5_13; // 0x64
+	::UnityEngine::MaterialPropertyBlock* GAPIPFFPAEC; // 0x40
+	::UnityEngine::MeshRenderer* FDINKNJIKHF; // 0x48
+	::System::Int32 LPHLDNMDINP; // 0x50
+	::System::Int32 KKDPKHNFBDJ; // 0x54
+	::System::Int32 BCNAEIDKHOM; // 0x58
+	::System::Int32 HNBKMMAAOJK; // 0x5C
+	::System::Int32 AENDJIJKGCJ; // 0x60
+	::System::Int32 EOJCCLODMCK; // 0x64
 
 	::System::Void _ctor()
 	{

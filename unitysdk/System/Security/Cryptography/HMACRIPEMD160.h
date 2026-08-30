@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Security/Cryptography/HMAC.h"
 
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_HMACRIPEMD160__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A24F740)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_HMACRIPEMD160__CTOR_OFFSET UNITYSDK_OFFSET(0x1A2449B0)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_HMACRIPEMD160__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1BE58470)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_HMACRIPEMD160__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE4D600)
 
 namespace System::Security::Cryptography
 {
-	inline static constexpr unsigned int HMACRIPEMD160_TypeDefinitionIndex = 1019;
+	inline static constexpr unsigned int HMACRIPEMD160_TypeDefinitionIndex = 1026;
 
 	class HMACRIPEMD160 : public ::System::Security::Cryptography::HMAC
 	{

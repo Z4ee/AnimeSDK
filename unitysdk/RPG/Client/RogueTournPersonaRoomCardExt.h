@@ -4,11 +4,11 @@
 
 namespace RPG::Client { class IRogueTournPersonaRoomCard; }
 
-#define RPG_CLIENT_ROGUETOURNPERSONAROOMCARDEXT_COMPOSITIONTYPEID_OFFSET UNITYSDK_OFFSET(0xD476F10)
+#define RPG_CLIENT_ROGUETOURNPERSONAROOMCARDEXT_COMPOSITIONTYPEID_OFFSET UNITYSDK_OFFSET(0xDF96DA0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournPersonaRoomCardExt_TypeDefinitionIndex = 64736;
+	inline static constexpr unsigned int RogueTournPersonaRoomCardExt_TypeDefinitionIndex = 67740;
 
 	class RogueTournPersonaRoomCardExt : public ::System::Object
 	{

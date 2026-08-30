@@ -5,11 +5,11 @@
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D { class B2Joint; }
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D { class B2JointSim; }
 
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2JOINTPAIR__CTOR_OFFSET UNITYSDK_OFFSET(0x80E20)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2JOINTPAIR__CTOR_OFFSET UNITYSDK_OFFSET(0x80380)
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2JointPair_TypeDefinitionIndex = 35151;
+	inline static constexpr unsigned int B2JointPair_TypeDefinitionIndex = 36012;
 
 	struct alignas(8) B2JointPair
 	{

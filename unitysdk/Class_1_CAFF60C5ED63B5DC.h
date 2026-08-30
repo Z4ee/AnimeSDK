@@ -5,16 +5,16 @@
 
 class Class_1_43BD383C98B4C0C5_32;
 
-#define CLASS_1_CAFF60C5ED63B5DC_CLEAR_OFFSET UNITYSDK_OFFSET(0x1A75ACF0)
-#define CLASS_1_CAFF60C5ED63B5DC__CTOR_OFFSET UNITYSDK_OFFSET(0x1A75AD70)
+#define CLASS_1_CAFF60C5ED63B5DC_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C36B1F0)
+#define CLASS_1_CAFF60C5ED63B5DC__CTOR_OFFSET UNITYSDK_OFFSET(0x1C36B270)
 
-inline static constexpr unsigned int Class_1_CAFF60C5ED63B5DC_TypeDefinitionIndex = 40946;
+inline static constexpr unsigned int Class_1_CAFF60C5ED63B5DC_TypeDefinitionIndex = 41905;
 
 class Class_1_CAFF60C5ED63B5DC : public ::System::Object
 {
 public:
-	::Class_1_43BD383C98B4C0C5_32* Field_1_0; // 0x10
-	::RPG::Client::LittleGame::FiveDim::CustomPropMoveType Field_1_1; // 0x18
+	::Class_1_43BD383C98B4C0C5_32* NNANJMDMAOC; // 0x10
+	::RPG::Client::LittleGame::FiveDim::CustomPropMoveType GMPGDEINODK; // 0x18
 
 	::System::Void _ctor()
 	{

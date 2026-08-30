@@ -6,11 +6,11 @@
 #include "unitysdk/UnityEngine/ScriptableObject.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define RPG_CLIENT_AUDIENCELAYOUTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xBDBCF80)
+#define RPG_CLIENT_AUDIENCELAYOUTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xC793870)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AudienceLayoutConfig_TypeDefinitionIndex = 66073;
+	inline static constexpr unsigned int AudienceLayoutConfig_TypeDefinitionIndex = 69112;
 
 	class AudienceLayoutConfig : public ::UnityEngine::ScriptableObject
 	{

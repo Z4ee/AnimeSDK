@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_CADARGHOLDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1CDA90)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_CADARGHOLDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDD5C50)
 
 namespace System::Runtime::Remoting::Messaging
 {
-	inline static constexpr unsigned int CADArgHolder_TypeDefinitionIndex = 1292;
+	inline static constexpr unsigned int CADArgHolder_TypeDefinitionIndex = 1299;
 
 	class CADArgHolder : public ::System::Object
 	{

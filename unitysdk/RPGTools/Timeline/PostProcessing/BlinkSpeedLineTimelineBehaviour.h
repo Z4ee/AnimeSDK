@@ -3,11 +3,11 @@
 #include "unitysdk/RPGTools/Timeline/PostProcessing/BlinkSpeedLineParameter.h"
 #include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_BLINKSPEEDLINETIMELINEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xDCFB240)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_BLINKSPEEDLINETIMELINEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xE8C4D30)
 
 namespace RPGTools::Timeline::PostProcessing
 {
-	inline static constexpr unsigned int BlinkSpeedLineTimelineBehaviour_TypeDefinitionIndex = 46745;
+	inline static constexpr unsigned int BlinkSpeedLineTimelineBehaviour_TypeDefinitionIndex = 48991;
 
 	class BlinkSpeedLineTimelineBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{

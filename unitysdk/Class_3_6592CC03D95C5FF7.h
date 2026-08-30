@@ -7,11 +7,11 @@ namespace RPG::GameCore { class HideModifierEffect; }
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 
-#define CLASS_3_6592CC03D95C5FF7_METHOD_3_02A7FCEDE09AD0D7_OFFSET UNITYSDK_OFFSET(0xBA12E40)
-#define CLASS_3_6592CC03D95C5FF7_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBA12460)
-#define CLASS_3_6592CC03D95C5FF7__CTOR_OFFSET UNITYSDK_OFFSET(0xBA12430)
+#define CLASS_3_6592CC03D95C5FF7_METHOD_3_02A7FCEDE09AD0D7_OFFSET UNITYSDK_OFFSET(0xC433670)
+#define CLASS_3_6592CC03D95C5FF7_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC432C90)
+#define CLASS_3_6592CC03D95C5FF7__CTOR_OFFSET UNITYSDK_OFFSET(0xC432C60)
 
-inline static constexpr unsigned int Class_3_6592CC03D95C5FF7_TypeDefinitionIndex = 52606;
+inline static constexpr unsigned int Class_3_6592CC03D95C5FF7_TypeDefinitionIndex = 55305;
 
 class Class_3_6592CC03D95C5FF7 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::HideModifierEffect*>
 {

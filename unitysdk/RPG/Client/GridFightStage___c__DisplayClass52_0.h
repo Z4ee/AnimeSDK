@@ -4,12 +4,12 @@
 
 class Class_1_21C7581DFE99F091_50;
 
-#define RPG_CLIENT_GRIDFIGHTSTAGE___C__DISPLAYCLASS52_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC810CA0)
-#define RPG_CLIENT_GRIDFIGHTSTAGE___C__DISPLAYCLASS52_0__UPDATEAFFIX_B__0_OFFSET UNITYSDK_OFFSET(0xC810CB0)
+#define RPG_CLIENT_GRIDFIGHTSTAGE___C__DISPLAYCLASS52_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD329D10)
+#define RPG_CLIENT_GRIDFIGHTSTAGE___C__DISPLAYCLASS52_0__UPDATEAFFIX_B__0_OFFSET UNITYSDK_OFFSET(0xD32DE90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightStage___c__DisplayClass52_0_TypeDefinitionIndex = 62321;
+	inline static constexpr unsigned int GridFightStage___c__DisplayClass52_0_TypeDefinitionIndex = 65306;
 
 	class GridFightStage___c__DisplayClass52_0 : public ::System::Object
 	{

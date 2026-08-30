@@ -3,33 +3,33 @@
 #include "unitysdk/RPG/Client/CharaEyeBlinkStateType.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-class Class_0_16E4307DCC419505_964;
+class Class_0_16E4307DCC419505_1015;
 namespace RPG::Client { class CharaEyeBlinkStateRandom; }
 namespace RPG::Client { class CharaEyeBlinkStateStop; }
 namespace RPG::Client { class CharaEyeBlinkStateVoiceLoudness; }
 namespace RPG::Client { class CharaEyeLight; }
 
-#define RPG_CLIENT_CHARAEYEAUTOBLINK_AWAKE_OFFSET UNITYSDK_OFFSET(0xBFC90E0)
-#define RPG_CLIENT_CHARAEYEAUTOBLINK_ENTERSTATE_OFFSET UNITYSDK_OFFSET(0xBFC8CD0)
-#define RPG_CLIENT_CHARAEYEAUTOBLINK_METHOD_5_52CA0F45BC3414DC_OFFSET UNITYSDK_OFFSET(0xBFC9280)
-#define RPG_CLIENT_CHARAEYEAUTOBLINK_UPDATE_OFFSET UNITYSDK_OFFSET(0xBFC9380)
-#define RPG_CLIENT_CHARAEYEAUTOBLINK__CTOR_OFFSET UNITYSDK_OFFSET(0xBFC95D0)
+#define RPG_CLIENT_CHARAEYEAUTOBLINK_AWAKE_OFFSET UNITYSDK_OFFSET(0xCAC1F80)
+#define RPG_CLIENT_CHARAEYEAUTOBLINK_ENTERSTATE_OFFSET UNITYSDK_OFFSET(0xCAC1B70)
+#define RPG_CLIENT_CHARAEYEAUTOBLINK_METHOD_5_52CA0F45BC3414DC_OFFSET UNITYSDK_OFFSET(0xCAC2120)
+#define RPG_CLIENT_CHARAEYEAUTOBLINK_UPDATE_OFFSET UNITYSDK_OFFSET(0xCAC2220)
+#define RPG_CLIENT_CHARAEYEAUTOBLINK__CTOR_OFFSET UNITYSDK_OFFSET(0xCAC2470)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CharaEyeAutoBlink_TypeDefinitionIndex = 65328;
+	inline static constexpr unsigned int CharaEyeAutoBlink_TypeDefinitionIndex = 68340;
 
 	class CharaEyeAutoBlink : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		// static const ::System::Single DEFAULT_EYE_INTENSITY; // 0x0
-		::RPG::Client::CharaEyeLight* Field_5_1; // 0x18
+		::RPG::Client::CharaEyeLight* JMPCDMFDMGI; // 0x18
 		::System::Boolean UseVoiceLoudness; // 0x20
 		::RPG::Client::CharaEyeBlinkStateStop* StopState; // 0x28
 		::RPG::Client::CharaEyeBlinkStateRandom* RandomState; // 0x30
 		::RPG::Client::CharaEyeBlinkStateVoiceLoudness* VoiceLoudnessState; // 0x38
-		::RPG::Client::CharaEyeBlinkStateType Field_5_6; // 0x40
-		::Class_0_16E4307DCC419505_964* Field_5_7; // 0x48
+		::RPG::Client::CharaEyeBlinkStateType DEBGCJFNKDD; // 0x40
+		::Class_0_16E4307DCC419505_1015* JBDFMDNIPAD; // 0x48
 
 		::System::Void _ctor()
 		{

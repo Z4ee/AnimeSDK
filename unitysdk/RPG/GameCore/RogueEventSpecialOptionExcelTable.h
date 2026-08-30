@@ -11,45 +11,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_ROGUEEVENTSPECIALOPTIONEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1B762180)
-#define RPG_GAMECORE_ROGUEEVENTSPECIALOPTIONEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1B762010)
-#define RPG_GAMECORE_ROGUEEVENTSPECIALOPTIONEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1B761D00)
-#define RPG_GAMECORE_ROGUEEVENTSPECIALOPTIONEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1B761FB0)
-#define RPG_GAMECORE_ROGUEEVENTSPECIALOPTIONEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1B7622D0)
-#define RPG_GAMECORE_ROGUEEVENTSPECIALOPTIONEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1B761D80)
-#define RPG_GAMECORE_ROGUEEVENTSPECIALOPTIONEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1B762310)
-#define RPG_GAMECORE_ROGUEEVENTSPECIALOPTIONEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B7624E0)
-#define RPG_GAMECORE_ROGUEEVENTSPECIALOPTIONEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1B762680)
-#define RPG_GAMECORE_ROGUEEVENTSPECIALOPTIONEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B7629A0)
-#define RPG_GAMECORE_ROGUEEVENTSPECIALOPTIONEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1B762440)
-#define RPG_GAMECORE_ROGUEEVENTSPECIALOPTIONEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1B7623A0)
+#define RPG_GAMECORE_ROGUEEVENTSPECIALOPTIONEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1D3E5240)
+#define RPG_GAMECORE_ROGUEEVENTSPECIALOPTIONEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1D3E50D0)
+#define RPG_GAMECORE_ROGUEEVENTSPECIALOPTIONEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1D3E4DC0)
+#define RPG_GAMECORE_ROGUEEVENTSPECIALOPTIONEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1D3E5070)
+#define RPG_GAMECORE_ROGUEEVENTSPECIALOPTIONEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1D3E5390)
+#define RPG_GAMECORE_ROGUEEVENTSPECIALOPTIONEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D3E4E40)
+#define RPG_GAMECORE_ROGUEEVENTSPECIALOPTIONEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1D3E53D0)
+#define RPG_GAMECORE_ROGUEEVENTSPECIALOPTIONEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3E55A0)
+#define RPG_GAMECORE_ROGUEEVENTSPECIALOPTIONEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1D3E5740)
+#define RPG_GAMECORE_ROGUEEVENTSPECIALOPTIONEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D3E5A60)
+#define RPG_GAMECORE_ROGUEEVENTSPECIALOPTIONEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1D3E5500)
+#define RPG_GAMECORE_ROGUEEVENTSPECIALOPTIONEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D3E5460)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueEventSpecialOptionExcelTable_TypeDefinitionIndex = 14232;
+	inline static constexpr unsigned int RogueEventSpecialOptionExcelTable_TypeDefinitionIndex = 14652;
 
 	class RogueEventSpecialOptionExcelTable : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(RogueEventSpecialOptionExcelTable_TypeDefinitionIndex)->GetStaticField(0x528C0);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(RogueEventSpecialOptionExcelTable_TypeDefinitionIndex)->GetStaticField(0xDF90);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::RogueEventSpecialOptionRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::RogueEventSpecialOptionRow*>**)Il2CppClass::FromTypeDefinitionIndex(RogueEventSpecialOptionExcelTable_TypeDefinitionIndex)->GetStaticField(0x528C8);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::RogueEventSpecialOptionRow*>**)Il2CppClass::FromTypeDefinitionIndex(RogueEventSpecialOptionExcelTable_TypeDefinitionIndex)->GetStaticField(0xDF98);
 		}
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(RogueEventSpecialOptionExcelTable_TypeDefinitionIndex)->GetStaticField(0x528D0);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(RogueEventSpecialOptionExcelTable_TypeDefinitionIndex)->GetStaticField(0xDFA0);
 		}
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(RogueEventSpecialOptionExcelTable_TypeDefinitionIndex)->GetStaticField(0xEA70);
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(RogueEventSpecialOptionExcelTable_TypeDefinitionIndex)->GetStaticField(0x4530);
 		}
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RogueEventSpecialOptionExcelTable_TypeDefinitionIndex)->GetStaticField(0xEA71);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RogueEventSpecialOptionExcelTable_TypeDefinitionIndex)->GetStaticField(0x4531);
 		}
 
 		static ::System::Void _cctor()

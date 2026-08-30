@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FinalDamageFormulaType_TypeDefinitionIndex = 23767;
+	inline static constexpr unsigned int FinalDamageFormulaType_TypeDefinitionIndex = 24354;
 
 	enum class FinalDamageFormulaType : ::System::Int32
 	{

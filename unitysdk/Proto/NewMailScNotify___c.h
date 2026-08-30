@@ -4,20 +4,20 @@
 
 namespace Proto { class NewMailScNotify; }
 
-#define PROTO_NEWMAILSCNOTIFY___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BC844C0)
-#define PROTO_NEWMAILSCNOTIFY___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC84500)
-#define PROTO_NEWMAILSCNOTIFY___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1BC84510)
+#define PROTO_NEWMAILSCNOTIFY___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D970650)
+#define PROTO_NEWMAILSCNOTIFY___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1D970690)
+#define PROTO_NEWMAILSCNOTIFY___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1D9706A0)
 
 namespace Proto
 {
-	inline static constexpr unsigned int NewMailScNotify___c_TypeDefinitionIndex = 29241;
+	inline static constexpr unsigned int NewMailScNotify___c_TypeDefinitionIndex = 29974;
 
 	class NewMailScNotify___c : public ::System::Object
 	{
 	public:
 		static ::Proto::NewMailScNotify___c** StaticGet___9()
 		{
-			return (::Proto::NewMailScNotify___c**)Il2CppClass::FromTypeDefinitionIndex(NewMailScNotify___c_TypeDefinitionIndex)->GetStaticField(0x427B0);
+			return (::Proto::NewMailScNotify___c**)Il2CppClass::FromTypeDefinitionIndex(NewMailScNotify___c_TypeDefinitionIndex)->GetStaticField(0x5AD50);
 		}
 
 		static ::System::Void _cctor()

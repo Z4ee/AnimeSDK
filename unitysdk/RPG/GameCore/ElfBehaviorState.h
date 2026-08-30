@@ -7,12 +7,12 @@ namespace RPG::GameCore { class ElfBehaviorStateItem; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_ELFBEHAVIORSTATE_METHOD_2_9507F340FCBEC8F5_OFFSET UNITYSDK_OFFSET(0x1B3D8840)
-#define RPG_GAMECORE_ELFBEHAVIORSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3D8940)
+#define RPG_GAMECORE_ELFBEHAVIORSTATE_METHOD_2_9507F340FCBEC8F5_OFFSET UNITYSDK_OFFSET(0x1D056F90)
+#define RPG_GAMECORE_ELFBEHAVIORSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D057090)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ElfBehaviorState_TypeDefinitionIndex = 17768;
+	inline static constexpr unsigned int ElfBehaviorState_TypeDefinitionIndex = 18286;
 
 	class ElfBehaviorState : public ::RPG::GameCore::JsonConfig
 	{

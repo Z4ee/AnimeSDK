@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class StopMunicipalChat; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_4A59018D522DFCB8_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB906AD0)
-#define CLASS_3_4A59018D522DFCB8__CTOR_OFFSET UNITYSDK_OFFSET(0xB906AA0)
+#define CLASS_3_4A59018D522DFCB8_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC3160C0)
+#define CLASS_3_4A59018D522DFCB8__CTOR_OFFSET UNITYSDK_OFFSET(0xC316090)
 
-inline static constexpr unsigned int Class_3_4A59018D522DFCB8_TypeDefinitionIndex = 56106;
+inline static constexpr unsigned int Class_3_4A59018D522DFCB8_TypeDefinitionIndex = 58881;
 
 class Class_3_4A59018D522DFCB8 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::StopMunicipalChat*>
 {

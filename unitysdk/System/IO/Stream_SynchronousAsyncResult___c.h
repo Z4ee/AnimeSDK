@@ -5,24 +5,24 @@
 namespace System { template <typename T> class Func_1; }
 namespace System::Threading { class ManualResetEvent; }
 
-#define SYSTEM_IO_STREAM_SYNCHRONOUSASYNCRESULT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A156AC0)
-#define SYSTEM_IO_STREAM_SYNCHRONOUSASYNCRESULT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A156B00)
-#define SYSTEM_IO_STREAM_SYNCHRONOUSASYNCRESULT___C__GET_ASYNCWAITHANDLE_B__12_0_OFFSET UNITYSDK_OFFSET(0x1A156B10)
+#define SYSTEM_IO_STREAM_SYNCHRONOUSASYNCRESULT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BD5E460)
+#define SYSTEM_IO_STREAM_SYNCHRONOUSASYNCRESULT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD5E4A0)
+#define SYSTEM_IO_STREAM_SYNCHRONOUSASYNCRESULT___C__GET_ASYNCWAITHANDLE_B__12_0_OFFSET UNITYSDK_OFFSET(0x1BD5E4B0)
 
 namespace System::IO
 {
-	inline static constexpr unsigned int Stream_SynchronousAsyncResult___c_TypeDefinitionIndex = 686;
+	inline static constexpr unsigned int Stream_SynchronousAsyncResult___c_TypeDefinitionIndex = 689;
 
 	class Stream_SynchronousAsyncResult___c : public ::System::Object
 	{
 	public:
-		static ::System::IO::Stream_SynchronousAsyncResult___c** StaticGet___9()
-		{
-			return (::System::IO::Stream_SynchronousAsyncResult___c**)Il2CppClass::FromTypeDefinitionIndex(Stream_SynchronousAsyncResult___c_TypeDefinitionIndex)->GetStaticField(0xD640);
-		}
 		static ::System::Func_1<::System::Threading::ManualResetEvent*>** StaticGet___9__12_0()
 		{
-			return (::System::Func_1<::System::Threading::ManualResetEvent*>**)Il2CppClass::FromTypeDefinitionIndex(Stream_SynchronousAsyncResult___c_TypeDefinitionIndex)->GetStaticField(0xD648);
+			return (::System::Func_1<::System::Threading::ManualResetEvent*>**)Il2CppClass::FromTypeDefinitionIndex(Stream_SynchronousAsyncResult___c_TypeDefinitionIndex)->GetStaticField(0xCA50);
+		}
+		static ::System::IO::Stream_SynchronousAsyncResult___c** StaticGet___9()
+		{
+			return (::System::IO::Stream_SynchronousAsyncResult___c**)Il2CppClass::FromTypeDefinitionIndex(Stream_SynchronousAsyncResult___c_TypeDefinitionIndex)->GetStaticField(0xCA58);
 		}
 
 		static ::System::Void _cctor()

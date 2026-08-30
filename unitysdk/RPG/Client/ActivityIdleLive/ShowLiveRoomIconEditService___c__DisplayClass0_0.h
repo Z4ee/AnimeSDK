@@ -4,12 +4,12 @@
 
 namespace RPG::Client::ActivityIdleLive { class LiveRoomIconUiData; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_SHOWLIVEROOMICONEDITSERVICE___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBBDDA50)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_SHOWLIVEROOMICONEDITSERVICE___C__DISPLAYCLASS0_0__STARTSERVICE_B__0_OFFSET UNITYSDK_OFFSET(0xBBDDBA0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_SHOWLIVEROOMICONEDITSERVICE___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC5FBA50)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_SHOWLIVEROOMICONEDITSERVICE___C__DISPLAYCLASS0_0__STARTSERVICE_B__0_OFFSET UNITYSDK_OFFSET(0xC5FBBA0)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int ShowLiveRoomIconEditService___c__DisplayClass0_0_TypeDefinitionIndex = 71761;
+	inline static constexpr unsigned int ShowLiveRoomIconEditService___c__DisplayClass0_0_TypeDefinitionIndex = 75067;
 
 	class ShowLiveRoomIconEditService___c__DisplayClass0_0 : public ::System::Object
 	{

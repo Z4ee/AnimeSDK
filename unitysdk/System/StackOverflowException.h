@@ -6,13 +6,13 @@
 namespace System { class String; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_STACKOVERFLOWEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x19FE8850)
-#define SYSTEM_STACKOVERFLOWEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x19FE88C0)
-#define SYSTEM_STACKOVERFLOWEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x19FE87B0)
+#define SYSTEM_STACKOVERFLOWEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1BBEE310)
+#define SYSTEM_STACKOVERFLOWEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1BBEE380)
+#define SYSTEM_STACKOVERFLOWEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1BBEE270)
 
 namespace System
 {
-	inline static constexpr unsigned int StackOverflowException_TypeDefinitionIndex = 326;
+	inline static constexpr unsigned int StackOverflowException_TypeDefinitionIndex = 329;
 
 	class StackOverflowException : public ::System::SystemException
 	{

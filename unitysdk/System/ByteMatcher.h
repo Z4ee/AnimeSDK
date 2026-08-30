@@ -5,21 +5,21 @@
 
 namespace System::Collections { class Hashtable; }
 
-#define SYSTEM_BYTEMATCHER_ADDMAPPING_OFFSET UNITYSDK_OFFSET(0x19FA1F40)
-#define SYSTEM_BYTEMATCHER_MATCH_OFFSET UNITYSDK_OFFSET(0x19FA21E0)
-#define SYSTEM_BYTEMATCHER_SORT_OFFSET UNITYSDK_OFFSET(0x19FA2120)
-#define SYSTEM_BYTEMATCHER_STARTSWITH_OFFSET UNITYSDK_OFFSET(0x19FA2130)
-#define SYSTEM_BYTEMATCHER__CTOR_OFFSET UNITYSDK_OFFSET(0x19FA2990)
+#define SYSTEM_BYTEMATCHER_ADDMAPPING_OFFSET UNITYSDK_OFFSET(0x1BBA6DD0)
+#define SYSTEM_BYTEMATCHER_MATCH_OFFSET UNITYSDK_OFFSET(0x1BBA7070)
+#define SYSTEM_BYTEMATCHER_SORT_OFFSET UNITYSDK_OFFSET(0x1BBA6FB0)
+#define SYSTEM_BYTEMATCHER_STARTSWITH_OFFSET UNITYSDK_OFFSET(0x1BBA6FC0)
+#define SYSTEM_BYTEMATCHER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BBA7820)
 
 namespace System
 {
-	inline static constexpr unsigned int ByteMatcher_TypeDefinitionIndex = 427;
+	inline static constexpr unsigned int ByteMatcher_TypeDefinitionIndex = 430;
 
 	class ByteMatcher : public ::System::Object
 	{
 	public:
-		::System::Collections::Hashtable* starts; // 0x10
-		::System::Collections::Hashtable* map; // 0x18
+		::System::Collections::Hashtable* map; // 0x10
+		::System::Collections::Hashtable* starts; // 0x18
 
 		::System::Void _ctor()
 		{

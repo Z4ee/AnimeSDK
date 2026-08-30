@@ -5,23 +5,23 @@
 
 namespace RPG::GameCore { class LittleGameEvent; }
 
-#define CLASS_2_CE44FA5BA35C62D1_CLEAR_OFFSET UNITYSDK_OFFSET(0x1A77AD10)
-#define CLASS_2_CE44FA5BA35C62D1__CTOR_OFFSET UNITYSDK_OFFSET(0x1A77AD80)
+#define CLASS_2_CE44FA5BA35C62D1_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C38B880)
+#define CLASS_2_CE44FA5BA35C62D1__CTOR_OFFSET UNITYSDK_OFFSET(0x1C38B900)
 
-inline static constexpr unsigned int Class_2_CE44FA5BA35C62D1_TypeDefinitionIndex = 40945;
+inline static constexpr unsigned int Class_2_CE44FA5BA35C62D1_TypeDefinitionIndex = 41904;
 
 class Class_2_CE44FA5BA35C62D1 : public ::Class_1_43BD383C98B4C0C5_32
 {
 public:
-	::RPG::GameCore::LittleGameEvent* Field_2_0; // 0x10
-	::System::Single Field_2_1; // 0x18
-	::System::UInt32 Field_2_2; // 0x1C
-	::System::Single Field_2_3; // 0x20
-	::UnityEngine::Vector3 Field_2_4; // 0x24
-	::System::Single Field_2_5; // 0x30
-	::UnityEngine::Vector3 Field_2_6; // 0x34
-	::System::Single Field_2_7; // 0x40
-	::System::Boolean Field_2_8; // 0x44
+	::RPG::GameCore::LittleGameEvent* BHDGCIJPCFN; // 0x10
+	::System::Single IDKONBFPBLH; // 0x18
+	::System::Single GCJMFBKLGHI; // 0x1C
+	::System::Boolean ICEIIAHGPFJ; // 0x20
+	::System::UInt32 CEIFACBCNKE; // 0x24
+	::System::Single MLKDPKEGIML; // 0x28
+	::UnityEngine::Vector3 HOHFMIBLDJJ; // 0x2C
+	::System::Single DPKMOFJOHKB; // 0x38
+	::UnityEngine::Vector3 AJHKIJLGLOH; // 0x3C
 
 	::System::Void _ctor()
 	{

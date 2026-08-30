@@ -9,19 +9,19 @@
 namespace RPGTools::Timeline::PostProcessing { class DOFTimelineBehaviour; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_DOFTIMELINECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xDD01600)
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_DOFTIMELINECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xDD015F0)
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_DOFTIMELINECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xDD01780)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_DOFTIMELINECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8CB260)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_DOFTIMELINECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE8CB250)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_DOFTIMELINECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xE8CB3E0)
 
 namespace RPGTools::Timeline::PostProcessing
 {
-	inline static constexpr unsigned int DOFTimelineClip_TypeDefinitionIndex = 46772;
+	inline static constexpr unsigned int DOFTimelineClip_TypeDefinitionIndex = 49018;
 
 	class DOFTimelineClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:
 		::RPGTools::Timeline::TimelineExposedReference Character; // 0x18
-		::RPGTools::Timeline::PostProcessing::DOFTimelineBehaviour* Template; // 0x30
+		::RPGTools::Timeline::PostProcessing::DOFTimelineBehaviour* Template; // 0x38
 
 		::System::Void _ctor()
 		{

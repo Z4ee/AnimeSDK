@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetAvatarGlobalBuffState; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_B081939696546F22_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x153FAC50)
-#define CLASS_3_B081939696546F22__CTOR_OFFSET UNITYSDK_OFFSET(0x153FAC20)
+#define CLASS_3_B081939696546F22_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16337190)
+#define CLASS_3_B081939696546F22__CTOR_OFFSET UNITYSDK_OFFSET(0x16337160)
 
-inline static constexpr unsigned int Class_3_B081939696546F22_TypeDefinitionIndex = 52846;
+inline static constexpr unsigned int Class_3_B081939696546F22_TypeDefinitionIndex = 55549;
 
 class Class_3_B081939696546F22 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetAvatarGlobalBuffState*>
 {

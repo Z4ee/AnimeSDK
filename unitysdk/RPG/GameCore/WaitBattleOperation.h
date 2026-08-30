@@ -6,13 +6,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_WAITBATTLEOPERATION_METHOD_3_5136D6CE7A88E050_OFFSET UNITYSDK_OFFSET(0x1B9E2FA0)
-#define RPG_GAMECORE_WAITBATTLEOPERATION_METHOD_3_A77F3706D322B82D_OFFSET UNITYSDK_OFFSET(0x1B9E2F50)
-#define RPG_GAMECORE_WAITBATTLEOPERATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9E2F90)
+#define RPG_GAMECORE_WAITBATTLEOPERATION_METHOD_3_4BFF9FC9D497DC99_OFFSET UNITYSDK_OFFSET(0x1D69FAE0)
+#define RPG_GAMECORE_WAITBATTLEOPERATION_METHOD_3_FC20038E283757A4_OFFSET UNITYSDK_OFFSET(0x1D69FA90)
+#define RPG_GAMECORE_WAITBATTLEOPERATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D69FAD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaitBattleOperation_TypeDefinitionIndex = 23514;
+	inline static constexpr unsigned int WaitBattleOperation_TypeDefinitionIndex = 24096;
 
 	class WaitBattleOperation : public ::RPG::GameCore::TaskConfig
 	{
@@ -26,14 +26,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITBATTLEOPERATION__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_A77F3706D322B82D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitBattleOperation*& a2)
+		static ::System::Void Method_3_FC20038E283757A4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitBattleOperation*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitBattleOperation*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITBATTLEOPERATION_METHOD_3_A77F3706D322B82D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitBattleOperation*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITBATTLEOPERATION_METHOD_3_FC20038E283757A4_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_5136D6CE7A88E050(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitBattleOperation* a2)
+		static ::System::Void Method_3_4BFF9FC9D497DC99(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitBattleOperation* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitBattleOperation*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITBATTLEOPERATION_METHOD_3_5136D6CE7A88E050_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitBattleOperation*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITBATTLEOPERATION_METHOD_3_4BFF9FC9D497DC99_OFFSET))(a1, a2);
 		}
 	};
 }

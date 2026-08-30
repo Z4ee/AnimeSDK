@@ -6,27 +6,27 @@ namespace System { class String; }
 namespace UnityEngine { class Renderer; }
 namespace UnityEngine { class Texture; }
 
-#define RPG_CLIENT_PROP_TRAINPARTYBUILDPHOTOWALLITEM_CLEARIMAGE_OFFSET UNITYSDK_OFFSET(0xD23CC30)
-#define RPG_CLIENT_PROP_TRAINPARTYBUILDPHOTOWALLITEM_METHOD_5_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0xD23C9D0)
-#define RPG_CLIENT_PROP_TRAINPARTYBUILDPHOTOWALLITEM_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xD23C950)
-#define RPG_CLIENT_PROP_TRAINPARTYBUILDPHOTOWALLITEM_SHOWIMAGE_OFFSET UNITYSDK_OFFSET(0xD23CA30)
-#define RPG_CLIENT_PROP_TRAINPARTYBUILDPHOTOWALLITEM__CCTOR_OFFSET UNITYSDK_OFFSET(0xD23CD90)
-#define RPG_CLIENT_PROP_TRAINPARTYBUILDPHOTOWALLITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xD23CD80)
+#define RPG_CLIENT_PROP_TRAINPARTYBUILDPHOTOWALLITEM_CLEARIMAGE_OFFSET UNITYSDK_OFFSET(0xDD412A0)
+#define RPG_CLIENT_PROP_TRAINPARTYBUILDPHOTOWALLITEM_METHOD_5_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0xDD41040)
+#define RPG_CLIENT_PROP_TRAINPARTYBUILDPHOTOWALLITEM_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xDD40FC0)
+#define RPG_CLIENT_PROP_TRAINPARTYBUILDPHOTOWALLITEM_SHOWIMAGE_OFFSET UNITYSDK_OFFSET(0xDD410A0)
+#define RPG_CLIENT_PROP_TRAINPARTYBUILDPHOTOWALLITEM__CCTOR_OFFSET UNITYSDK_OFFSET(0xDD41400)
+#define RPG_CLIENT_PROP_TRAINPARTYBUILDPHOTOWALLITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xDD413F0)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int TrainPartyBuildPhotoWallItem_TypeDefinitionIndex = 74228;
+	inline static constexpr unsigned int TrainPartyBuildPhotoWallItem_TypeDefinitionIndex = 77712;
 
 	class TrainPartyBuildPhotoWallItem : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::System::Int32* StaticGet_Field_5_0()
+		static ::System::Int32* StaticGet_DBLJMLMIIIL()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TrainPartyBuildPhotoWallItem_TypeDefinitionIndex)->GetStaticField(0x4E70);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TrainPartyBuildPhotoWallItem_TypeDefinitionIndex)->GetStaticField(0x15050);
 		}
 		::UnityEngine::Renderer* ImageRenderer; // 0x18
-		::UnityEngine::Texture* Field_5_2; // 0x20
-		::System::String* Field_5_3; // 0x28
+		::UnityEngine::Texture* CECNGLFHAPO; // 0x20
+		::System::String* BMDOOFPLCID; // 0x28
 
 		::System::Void _ctor()
 		{

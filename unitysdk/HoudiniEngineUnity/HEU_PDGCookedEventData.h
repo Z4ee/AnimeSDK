@@ -4,11 +4,11 @@
 
 namespace HoudiniEngineUnity { class HEU_TOPNodeData; }
 
-#define HOUDINIENGINEUNITY_HEU_PDGCOOKEDEVENTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x198C8560)
+#define HOUDINIENGINEUNITY_HEU_PDGCOOKEDEVENTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B454240)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_PDGCookedEventData_TypeDefinitionIndex = 38375;
+	inline static constexpr unsigned int HEU_PDGCookedEventData_TypeDefinitionIndex = 39234;
 
 	class HEU_PDGCookedEventData : public ::System::Object
 	{

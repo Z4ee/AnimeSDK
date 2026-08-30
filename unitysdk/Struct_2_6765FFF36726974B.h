@@ -5,11 +5,11 @@
 #include "unitysdk/RPG/GameCore/LittleGameSmartObjectType.h"
 #include "unitysdk/System/ValueType.h"
 
-inline static constexpr unsigned int Struct_2_6765FFF36726974B_TypeDefinitionIndex = 72618;
+inline static constexpr unsigned int Struct_2_6765FFF36726974B_TypeDefinitionIndex = 76054;
 
 struct alignas(4) Struct_2_6765FFF36726974B
 {
-	::RPG::GameCore::LittleGameSmartObjectType Field_2_0; // 0x10
-	::RPG::GameCore::LittleGameEntityType Field_2_1; // 0x14
-	::RPG::Client::LittleGame::SmartObjectState Field_2_2; // 0x18
+	::RPG::GameCore::LittleGameSmartObjectType KPDDLPBGDLD; // 0x10
+	::RPG::GameCore::LittleGameEntityType HJKGNDKCPMG; // 0x14
+	::RPG::Client::LittleGame::SmartObjectState OFBBPLFPICD; // 0x18
 };

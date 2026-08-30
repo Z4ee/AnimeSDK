@@ -6,11 +6,11 @@
 namespace RPG::Client { class FMChannelClientTransformBehavior; }
 namespace System { class String; }
 
-#define RPG_CLIENT_FMCHANNELCLIENTTRANSFORMMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xC42A520)
+#define RPG_CLIENT_FMCHANNELCLIENTTRANSFORMMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xCF0F470)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FMChannelClientTransformMonoPlugin_TypeDefinitionIndex = 67138;
+	inline static constexpr unsigned int FMChannelClientTransformMonoPlugin_TypeDefinitionIndex = 70251;
 
 	class FMChannelClientTransformMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::FMChannelClientTransformBehavior*>
 	{

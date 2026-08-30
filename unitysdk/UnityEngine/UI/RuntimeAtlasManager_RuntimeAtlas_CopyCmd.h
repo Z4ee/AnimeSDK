@@ -7,7 +7,7 @@ namespace UnityEngine { class Texture; }
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int RuntimeAtlasManager_RuntimeAtlas_CopyCmd_TypeDefinitionIndex = 5978;
+	inline static constexpr unsigned int RuntimeAtlasManager_RuntimeAtlas_CopyCmd_TypeDefinitionIndex = 6808;
 
 	struct alignas(8) RuntimeAtlasManager_RuntimeAtlas_CopyCmd
 	{

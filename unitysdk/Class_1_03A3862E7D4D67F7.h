@@ -9,19 +9,19 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_03A3862E7D4D67F7_DISPOSE_OFFSET UNITYSDK_OFFSET(0x146BD310)
-#define CLASS_1_03A3862E7D4D67F7_METHOD_1_1CE3B984165452FA_OFFSET UNITYSDK_OFFSET(0x146BD3C0)
-#define CLASS_1_03A3862E7D4D67F7_METHOD_1_574D5F84FF85983F_OFFSET UNITYSDK_OFFSET(0x146BD6D0)
-#define CLASS_1_03A3862E7D4D67F7_METHOD_1_931EE974D38570F3_OFFSET UNITYSDK_OFFSET(0x146BD920)
-#define CLASS_1_03A3862E7D4D67F7__CTOR_OFFSET UNITYSDK_OFFSET(0x146BD290)
+#define CLASS_1_03A3862E7D4D67F7_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15528820)
+#define CLASS_1_03A3862E7D4D67F7_METHOD_1_1CE3B984165452FA_OFFSET UNITYSDK_OFFSET(0x155288D0)
+#define CLASS_1_03A3862E7D4D67F7_METHOD_1_574D5F84FF85983F_OFFSET UNITYSDK_OFFSET(0x15528BE0)
+#define CLASS_1_03A3862E7D4D67F7_METHOD_1_931EE974D38570F3_OFFSET UNITYSDK_OFFSET(0x15528E30)
+#define CLASS_1_03A3862E7D4D67F7__CTOR_OFFSET UNITYSDK_OFFSET(0x155287A0)
 
-inline static constexpr unsigned int Class_1_03A3862E7D4D67F7_TypeDefinitionIndex = 53428;
+inline static constexpr unsigned int Class_1_03A3862E7D4D67F7_TypeDefinitionIndex = 56142;
 
 class Class_1_03A3862E7D4D67F7 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::Dictionary_2<::RPG::GameCore::GameEntity*, ::RPG::PoolList_1<::RPG::GameCore::GameEntity*>*>* Field_1_0; // 0x10
-	::RPG::GameCore::TurnBasedGameMode* Field_1_1; // 0x18
+	::System::Collections::Generic::Dictionary_2<::RPG::GameCore::GameEntity*, ::RPG::PoolList_1<::RPG::GameCore::GameEntity*>*>* MFEJOOBOJBF; // 0x10
+	::RPG::GameCore::TurnBasedGameMode* JADHLODNADK; // 0x18
 
 	::System::Void _ctor(::RPG::GameCore::TurnBasedGameMode* a1)
 	{

@@ -7,7 +7,7 @@ namespace System { class Object; }
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int ISynchronizeInvoke_TypeDefinitionIndex = 2598;
+	inline static constexpr unsigned int ISynchronizeInvoke_TypeDefinitionIndex = 2605;
 
 	class ISynchronizeInvoke
 	{

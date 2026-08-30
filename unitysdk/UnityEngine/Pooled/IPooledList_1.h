@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace UnityEngine::Pooled
 {
-	inline static constexpr unsigned int IPooledList_1_TypeDefinitionIndex = 4513;
+	inline static constexpr unsigned int IPooledList_1_TypeDefinitionIndex = 4523;
 
 	template <typename T>
 	class IPooledList_1

@@ -7,24 +7,24 @@ namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Animator; }
 
-#define CLASS_2_379222F06F3A9DB5_DISPOSE_OFFSET UNITYSDK_OFFSET(0xF1C2DE0)
-#define CLASS_2_379222F06F3A9DB5_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF1C2E20)
-#define CLASS_2_379222F06F3A9DB5_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xF1C3250)
-#define CLASS_2_379222F06F3A9DB5_TICK_OFFSET UNITYSDK_OFFSET(0xF1C32A0)
-#define CLASS_2_379222F06F3A9DB5__CTOR_OFFSET UNITYSDK_OFFSET(0xF1C2B30)
+#define CLASS_2_379222F06F3A9DB5_DISPOSE_OFFSET UNITYSDK_OFFSET(0xF3E1220)
+#define CLASS_2_379222F06F3A9DB5_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF3E1260)
+#define CLASS_2_379222F06F3A9DB5_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xF3E1690)
+#define CLASS_2_379222F06F3A9DB5_TICK_OFFSET UNITYSDK_OFFSET(0xF3E16E0)
+#define CLASS_2_379222F06F3A9DB5__CTOR_OFFSET UNITYSDK_OFFSET(0xF3E0F70)
 
-inline static constexpr unsigned int Class_2_379222F06F3A9DB5_TypeDefinitionIndex = 50239;
+inline static constexpr unsigned int Class_2_379222F06F3A9DB5_TypeDefinitionIndex = 52902;
 
 class Class_2_379222F06F3A9DB5 : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::UnityEngine::Animator* Field_2_0; // 0x18
-	::RPG::GameCore::CalcElevatorLoopTime* Field_2_1; // 0x20
-	::System::Collections::Generic::List_1<::System::Int32>* Field_2_2; // 0x28
-	::RPG::GameCore::TaskContext* Field_2_3; // 0x30
-	::System::Int32 Field_2_4; // 0x38
-	::System::Single Field_2_5; // 0x3C
-	::System::Int32 Field_2_6; // 0x40
+	::UnityEngine::Animator* OIPFNAHBHKG; // 0x18
+	::RPG::GameCore::CalcElevatorLoopTime* OFKGLJOAMLD; // 0x20
+	::System::Collections::Generic::List_1<::System::Int32>* ACDDCNNEDBF; // 0x28
+	::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x30
+	::System::Int32 COJMPLBLJDE; // 0x38
+	::System::Int32 LPDFMBGPPJB; // 0x3C
+	::System::Single JOHKMCAFKGJ; // 0x40
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::CalcElevatorLoopTime* a2)
 	{

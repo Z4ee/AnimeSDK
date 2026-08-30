@@ -5,7 +5,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int AdaptiveTessellationSettings_TypeDefinitionIndex = 4847;
+	inline static constexpr unsigned int AdaptiveTessellationSettings_TypeDefinitionIndex = 4859;
 
 	struct alignas(4) AdaptiveTessellationSettings
 	{

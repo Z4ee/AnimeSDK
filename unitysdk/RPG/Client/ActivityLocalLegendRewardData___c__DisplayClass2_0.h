@@ -5,12 +5,12 @@
 
 namespace RPG::Client { class ActivityLocalLegendRewardGroup; }
 
-#define RPG_CLIENT_ACTIVITYLOCALLEGENDREWARDDATA___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBC01030)
-#define RPG_CLIENT_ACTIVITYLOCALLEGENDREWARDDATA___C__DISPLAYCLASS2_0__HASUNTAKENREWARD_B__0_OFFSET UNITYSDK_OFFSET(0xBC01230)
+#define RPG_CLIENT_ACTIVITYLOCALLEGENDREWARDDATA___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC61F530)
+#define RPG_CLIENT_ACTIVITYLOCALLEGENDREWARDDATA___C__DISPLAYCLASS2_0__HASUNTAKENREWARD_B__0_OFFSET UNITYSDK_OFFSET(0xC61F730)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityLocalLegendRewardData___c__DisplayClass2_0_TypeDefinitionIndex = 58827;
+	inline static constexpr unsigned int ActivityLocalLegendRewardData___c__DisplayClass2_0_TypeDefinitionIndex = 61658;
 
 	class ActivityLocalLegendRewardData___c__DisplayClass2_0 : public ::System::Object
 	{

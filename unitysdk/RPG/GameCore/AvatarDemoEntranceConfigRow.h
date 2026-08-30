@@ -5,19 +5,19 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_AVATARDEMOENTRANCECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B1C1880)
-#define RPG_GAMECORE_AVATARDEMOENTRANCECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1C1A60)
+#define RPG_GAMECORE_AVATARDEMOENTRANCECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CE38DB0)
+#define RPG_GAMECORE_AVATARDEMOENTRANCECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE38F90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AvatarDemoEntranceConfigRow_TypeDefinitionIndex = 12304;
+	inline static constexpr unsigned int AvatarDemoEntranceConfigRow_TypeDefinitionIndex = 12693;
 
 	class AvatarDemoEntranceConfigRow : public ::System::Object
 	{
 	public:
 		::System::String* TrialRoleAvatarBackPath; // 0x10
-		::System::String* TrialRoleAvatarPath; // 0x18
-		::System::String* TrialRoleAvatarFrontPath; // 0x20
+		::System::String* TrialRoleAvatarFrontPath; // 0x18
+		::System::String* TrialRoleAvatarPath; // 0x20
 		::System::UInt32 StageID; // 0x28
 		::System::UInt32 AvatarID; // 0x2C
 

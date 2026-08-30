@@ -10,19 +10,19 @@ namespace Entitas { template <typename T> class ICollector_1; }
 namespace Entitas { template <typename T> class IContext_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_2A26CEDEB427C530_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1A8035E0)
-#define CLASS_2_2A26CEDEB427C530_FILTER_OFFSET UNITYSDK_OFFSET(0x1A8034F0)
-#define CLASS_2_2A26CEDEB427C530_GETTRIGGER_OFFSET UNITYSDK_OFFSET(0x1A8033D0)
-#define CLASS_2_2A26CEDEB427C530__CTOR_OFFSET UNITYSDK_OFFSET(0x1A803350)
+#define CLASS_2_2A26CEDEB427C530_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1C42D450)
+#define CLASS_2_2A26CEDEB427C530_FILTER_OFFSET UNITYSDK_OFFSET(0x1C42D360)
+#define CLASS_2_2A26CEDEB427C530_GETTRIGGER_OFFSET UNITYSDK_OFFSET(0x1C42D240)
+#define CLASS_2_2A26CEDEB427C530__CTOR_OFFSET UNITYSDK_OFFSET(0x1C42D1C0)
 
-inline static constexpr unsigned int Class_2_2A26CEDEB427C530_TypeDefinitionIndex = 40007;
+inline static constexpr unsigned int Class_2_2A26CEDEB427C530_TypeDefinitionIndex = 40886;
 
 class Class_2_2A26CEDEB427C530 : public ::Entitas::ReactiveSystem_1<::Class_2_FD51057495DB654F*>
 {
 public:
-	::Class_0_16E4307DCC419505_103* Field_2_0; // 0x28
-	::Class_0_16E4307DCC419505_102* Field_2_1; // 0x30
-	::System::Boolean Field_2_2; // 0x38
+	::Class_0_16E4307DCC419505_103* MBKIEFPKECG; // 0x28
+	::Class_0_16E4307DCC419505_102* OFJNMDOGNDP; // 0x30
+	::System::Boolean EGPMPLCFHEG; // 0x38
 
 	::System::Void _ctor(::Class_0_16E4307DCC419505_103* a1, ::Class_2_40B4F44059E8FC53* a2, ::System::Boolean a3)
 	{

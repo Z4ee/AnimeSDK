@@ -7,21 +7,21 @@ namespace Newtonsoft::Json::Bson { class BsonToken; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define NEWTONSOFT_JSON_BSON_BSONWRITER_ADDTOKEN_OFFSET UNITYSDK_OFFSET(0x1A2656D0)
-#define NEWTONSOFT_JSON_BSON_BSONWRITER_ADDVALUE_OFFSET UNITYSDK_OFFSET(0x1A265670)
-#define NEWTONSOFT_JSON_BSON_BSONWRITER_WRITEOBJECTID_OFFSET UNITYSDK_OFFSET(0x1A265A30)
-#define NEWTONSOFT_JSON_BSON_BSONWRITER_WRITEREGEX_OFFSET UNITYSDK_OFFSET(0x1A265E30)
+#define NEWTONSOFT_JSON_BSON_BSONWRITER_ADDTOKEN_OFFSET UNITYSDK_OFFSET(0x1BE6DAF0)
+#define NEWTONSOFT_JSON_BSON_BSONWRITER_ADDVALUE_OFFSET UNITYSDK_OFFSET(0x1BE6DA90)
+#define NEWTONSOFT_JSON_BSON_BSONWRITER_WRITEOBJECTID_OFFSET UNITYSDK_OFFSET(0x1BE6DE50)
+#define NEWTONSOFT_JSON_BSON_BSONWRITER_WRITEREGEX_OFFSET UNITYSDK_OFFSET(0x1BE6E250)
 
 namespace Newtonsoft::Json::Bson
 {
-	inline static constexpr unsigned int BsonWriter_TypeDefinitionIndex = 9523;
+	inline static constexpr unsigned int BsonWriter_TypeDefinitionIndex = 9802;
 
 	class BsonWriter : public ::Newtonsoft::Json::JsonWriter
 	{
 	public:
-		::Newtonsoft::Json::Bson::BsonToken* _parent; // 0x60
-		::Newtonsoft::Json::Bson::BsonToken* _root; // 0x68
-		::System::String* _propertyName; // 0x70
+		::System::String* _propertyName; // 0x60
+		::Newtonsoft::Json::Bson::BsonToken* _parent; // 0x68
+		::Newtonsoft::Json::Bson::BsonToken* _root; // 0x70
 
 		::System::Void AddValue(::System::Object* a1, ::Newtonsoft::Json::Bson::BsonType a2)
 		{

@@ -3,7 +3,7 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int MaterialIDLUTFloat_TypeDefinitionIndex = 36332;
+	inline static constexpr unsigned int MaterialIDLUTFloat_TypeDefinitionIndex = 37191;
 
 	enum class MaterialIDLUTFloat : ::System::Int32
 	{

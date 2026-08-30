@@ -4,7 +4,7 @@
 
 namespace RPG::Client::ChenLingFes
 {
-	inline static constexpr unsigned int ChenLingFesItemDetailViewModel___c__DisplayClass3_0_TypeDefinitionIndex = 76436;
+	inline static constexpr unsigned int ChenLingFesItemDetailViewModel___c__DisplayClass3_0_TypeDefinitionIndex = 80069;
 
 	struct alignas(4) ChenLingFesItemDetailViewModel___c__DisplayClass3_0
 	{

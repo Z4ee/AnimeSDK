@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define MONOSCENEARTPREFAB__CTOR_OFFSET UNITYSDK_OFFSET(0xB1F0D40)
+#define MONOSCENEARTPREFAB__CTOR_OFFSET UNITYSDK_OFFSET(0xBBC5360)
 
-inline static constexpr unsigned int MonoSceneArtPrefab_TypeDefinitionIndex = 45713;
+inline static constexpr unsigned int MonoSceneArtPrefab_TypeDefinitionIndex = 47965;
 
 class MonoSceneArtPrefab : public ::UnityEngine::MonoBehaviour
 {

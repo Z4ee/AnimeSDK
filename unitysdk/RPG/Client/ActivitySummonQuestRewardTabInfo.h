@@ -7,19 +7,19 @@ namespace RPG::Client { class ActivitySummonStage; }
 namespace RPG::GameCore { class ActivityQuestRewardDataRow; }
 namespace RPG::GameCore { class ActivitySummonRewardTabRow; }
 
-#define RPG_CLIENT_ACTIVITYSUMMONQUESTREWARDTABINFO_GET_TITLE_OFFSET UNITYSDK_OFFSET(0xBC72400)
-#define RPG_CLIENT_ACTIVITYSUMMONQUESTREWARDTABINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xBC72370)
+#define RPG_CLIENT_ACTIVITYSUMMONQUESTREWARDTABINFO_GET_TITLE_OFFSET UNITYSDK_OFFSET(0xC692350)
+#define RPG_CLIENT_ACTIVITYSUMMONQUESTREWARDTABINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xC6922C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivitySummonQuestRewardTabInfo_TypeDefinitionIndex = 59173;
+	inline static constexpr unsigned int ActivitySummonQuestRewardTabInfo_TypeDefinitionIndex = 62008;
 
 	class ActivitySummonQuestRewardTabInfo : public ::RPG::Client::CommonActivityQuestRewardTabInfo
 	{
 	public:
 		::RPG::Client::ActivitySummonStage* _Stage; // 0x48
-		::RPG::Client::TextID _TitleBeforeRevealed; // 0x50
-		::RPG::Client::TextID _TitleAfterRevealed; // 0x60
+		::RPG::Client::TextID _TitleAfterRevealed; // 0x50
+		::RPG::Client::TextID _TitleBeforeRevealed; // 0x60
 
 		::System::Void _ctor(::RPG::GameCore::ActivityQuestRewardDataRow* a1, ::RPG::GameCore::ActivitySummonRewardTabRow* a2)
 		{

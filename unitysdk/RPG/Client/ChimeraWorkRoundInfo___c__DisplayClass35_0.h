@@ -5,12 +5,12 @@
 namespace RPG::Client { class SubMissionData; }
 namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 
-#define RPG_CLIENT_CHIMERAWORKROUNDINFO___C__DISPLAYCLASS35_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC167340)
-#define RPG_CLIENT_CHIMERAWORKROUNDINFO___C__DISPLAYCLASS35_0__TRYGETCURRENTROUNDOPTIONMAINMISSIONDATA_B__0_OFFSET UNITYSDK_OFFSET(0xC168100)
+#define RPG_CLIENT_CHIMERAWORKROUNDINFO___C__DISPLAYCLASS35_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCC1CD60)
+#define RPG_CLIENT_CHIMERAWORKROUNDINFO___C__DISPLAYCLASS35_0__TRYGETCURRENTROUNDOPTIONMAINMISSIONDATA_B__0_OFFSET UNITYSDK_OFFSET(0xCC1DB10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraWorkRoundInfo___c__DisplayClass35_0_TypeDefinitionIndex = 60718;
+	inline static constexpr unsigned int ChimeraWorkRoundInfo___c__DisplayClass35_0_TypeDefinitionIndex = 63571;
 
 	class ChimeraWorkRoundInfo___c__DisplayClass35_0 : public ::System::Object
 	{

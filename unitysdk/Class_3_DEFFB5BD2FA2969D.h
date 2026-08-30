@@ -5,15 +5,15 @@
 class Class_1_EFDEDB2BC2764B7D;
 namespace RPG::GameCore { class MarbleByTeamRound; }
 
-#define CLASS_3_DEFFB5BD2FA2969D_METHOD_3_A3FAE12D7B6ACD62_OFFSET UNITYSDK_OFFSET(0x1A80DDD0)
-#define CLASS_3_DEFFB5BD2FA2969D__CTOR_OFFSET UNITYSDK_OFFSET(0x1A80DDB0)
+#define CLASS_3_DEFFB5BD2FA2969D_METHOD_3_A3FAE12D7B6ACD62_OFFSET UNITYSDK_OFFSET(0x1C437C50)
+#define CLASS_3_DEFFB5BD2FA2969D__CTOR_OFFSET UNITYSDK_OFFSET(0x1C437C30)
 
-inline static constexpr unsigned int Class_3_DEFFB5BD2FA2969D_TypeDefinitionIndex = 40578;
+inline static constexpr unsigned int Class_3_DEFFB5BD2FA2969D_TypeDefinitionIndex = 41516;
 
 class Class_3_DEFFB5BD2FA2969D : public ::Class_2_A047D65884258648
 {
 public:
-	::RPG::GameCore::MarbleByTeamRound* Field_3_0; // 0x30
+	::RPG::GameCore::MarbleByTeamRound* IGHAHBNLIJA; // 0x30
 
 	::System::Void _ctor(::RPG::GameCore::MarbleByTeamRound* a1, ::Class_1_EFDEDB2BC2764B7D* a2)
 	{

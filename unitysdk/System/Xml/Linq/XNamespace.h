@@ -7,50 +7,50 @@ namespace System { class WeakReference; }
 namespace System::Xml::Linq { class XName; }
 namespace System::Xml::Linq { template <typename T> class XHashtable_1; }
 
-#define SYSTEM_XML_LINQ_XNAMESPACE_ENSURENAMESPACE_OFFSET UNITYSDK_OFFSET(0x1CB1C590)
-#define SYSTEM_XML_LINQ_XNAMESPACE_EQUALS_OFFSET UNITYSDK_OFFSET(0x1CB1C790)
-#define SYSTEM_XML_LINQ_XNAMESPACE_EXTRACTLOCALNAME_OFFSET UNITYSDK_OFFSET(0x1CB1C7C0)
-#define SYSTEM_XML_LINQ_XNAMESPACE_EXTRACTNAMESPACE_OFFSET UNITYSDK_OFFSET(0x1CB1C7E0)
-#define SYSTEM_XML_LINQ_XNAMESPACE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1CB1C7A0)
-#define SYSTEM_XML_LINQ_XNAMESPACE_GETNAME_1_OFFSET UNITYSDK_OFFSET(0x1CB1C020)
-#define SYSTEM_XML_LINQ_XNAMESPACE_GETNAME_OFFSET UNITYSDK_OFFSET(0x1CB15580)
-#define SYSTEM_XML_LINQ_XNAMESPACE_GET_1_OFFSET UNITYSDK_OFFSET(0x1CB1BC20)
-#define SYSTEM_XML_LINQ_XNAMESPACE_GET_NAMESPACENAME_OFFSET UNITYSDK_OFFSET(0x1CB1C570)
-#define SYSTEM_XML_LINQ_XNAMESPACE_GET_NONE_OFFSET UNITYSDK_OFFSET(0x1CB1C160)
-#define SYSTEM_XML_LINQ_XNAMESPACE_GET_OFFSET UNITYSDK_OFFSET(0x1CB0F520)
-#define SYSTEM_XML_LINQ_XNAMESPACE_GET_XMLNS_OFFSET UNITYSDK_OFFSET(0x1CB1C700)
-#define SYSTEM_XML_LINQ_XNAMESPACE_GET_XML_OFFSET UNITYSDK_OFFSET(0x1CB1C6C0)
-#define SYSTEM_XML_LINQ_XNAMESPACE_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1CB0FD80)
-#define SYSTEM_XML_LINQ_XNAMESPACE_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1CB1C740)
-#define SYSTEM_XML_LINQ_XNAMESPACE_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x1CB1C7B0)
-#define SYSTEM_XML_LINQ_XNAMESPACE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1CB1C580)
-#define SYSTEM_XML_LINQ_XNAMESPACE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CB1C440)
+#define SYSTEM_XML_LINQ_XNAMESPACE_ENSURENAMESPACE_OFFSET UNITYSDK_OFFSET(0x1E7C63F0)
+#define SYSTEM_XML_LINQ_XNAMESPACE_EQUALS_OFFSET UNITYSDK_OFFSET(0x1E7C65F0)
+#define SYSTEM_XML_LINQ_XNAMESPACE_EXTRACTLOCALNAME_OFFSET UNITYSDK_OFFSET(0x1E7C6620)
+#define SYSTEM_XML_LINQ_XNAMESPACE_EXTRACTNAMESPACE_OFFSET UNITYSDK_OFFSET(0x1E7C6640)
+#define SYSTEM_XML_LINQ_XNAMESPACE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1E7C6600)
+#define SYSTEM_XML_LINQ_XNAMESPACE_GETNAME_1_OFFSET UNITYSDK_OFFSET(0x1E7C5E80)
+#define SYSTEM_XML_LINQ_XNAMESPACE_GETNAME_OFFSET UNITYSDK_OFFSET(0x1E7BF3E0)
+#define SYSTEM_XML_LINQ_XNAMESPACE_GET_1_OFFSET UNITYSDK_OFFSET(0x1E7C5A80)
+#define SYSTEM_XML_LINQ_XNAMESPACE_GET_NAMESPACENAME_OFFSET UNITYSDK_OFFSET(0x1E7C63D0)
+#define SYSTEM_XML_LINQ_XNAMESPACE_GET_NONE_OFFSET UNITYSDK_OFFSET(0x1E7C5FC0)
+#define SYSTEM_XML_LINQ_XNAMESPACE_GET_OFFSET UNITYSDK_OFFSET(0x1E7B9360)
+#define SYSTEM_XML_LINQ_XNAMESPACE_GET_XMLNS_OFFSET UNITYSDK_OFFSET(0x1E7C6560)
+#define SYSTEM_XML_LINQ_XNAMESPACE_GET_XML_OFFSET UNITYSDK_OFFSET(0x1E7C6520)
+#define SYSTEM_XML_LINQ_XNAMESPACE_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1E7B9BE0)
+#define SYSTEM_XML_LINQ_XNAMESPACE_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1E7C65A0)
+#define SYSTEM_XML_LINQ_XNAMESPACE_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x1E7C6610)
+#define SYSTEM_XML_LINQ_XNAMESPACE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7C63E0)
+#define SYSTEM_XML_LINQ_XNAMESPACE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7C62A0)
 
 namespace System::Xml::Linq
 {
-	inline static constexpr unsigned int XNamespace_TypeDefinitionIndex = 3868;
+	inline static constexpr unsigned int XNamespace_TypeDefinitionIndex = 3876;
 
 	class XNamespace : public ::System::Object
 	{
 	public:
-		static ::System::WeakReference** StaticGet_refXml()
-		{
-			return (::System::WeakReference**)Il2CppClass::FromTypeDefinitionIndex(XNamespace_TypeDefinitionIndex)->GetStaticField(0x1A0);
-		}
-		static ::System::WeakReference** StaticGet_refNone()
-		{
-			return (::System::WeakReference**)Il2CppClass::FromTypeDefinitionIndex(XNamespace_TypeDefinitionIndex)->GetStaticField(0x1A8);
-		}
 		static ::System::Xml::Linq::XHashtable_1<::System::WeakReference*>** StaticGet_namespaces()
 		{
-			return (::System::Xml::Linq::XHashtable_1<::System::WeakReference*>**)Il2CppClass::FromTypeDefinitionIndex(XNamespace_TypeDefinitionIndex)->GetStaticField(0x1B0);
+			return (::System::Xml::Linq::XHashtable_1<::System::WeakReference*>**)Il2CppClass::FromTypeDefinitionIndex(XNamespace_TypeDefinitionIndex)->GetStaticField(0x140);
+		}
+		static ::System::WeakReference** StaticGet_refXml()
+		{
+			return (::System::WeakReference**)Il2CppClass::FromTypeDefinitionIndex(XNamespace_TypeDefinitionIndex)->GetStaticField(0x148);
 		}
 		static ::System::WeakReference** StaticGet_refXmlns()
 		{
-			return (::System::WeakReference**)Il2CppClass::FromTypeDefinitionIndex(XNamespace_TypeDefinitionIndex)->GetStaticField(0x1B8);
+			return (::System::WeakReference**)Il2CppClass::FromTypeDefinitionIndex(XNamespace_TypeDefinitionIndex)->GetStaticField(0x150);
 		}
-		::System::Xml::Linq::XHashtable_1<::System::Xml::Linq::XName*>* names; // 0x10
-		::System::String* namespaceName; // 0x18
+		static ::System::WeakReference** StaticGet_refNone()
+		{
+			return (::System::WeakReference**)Il2CppClass::FromTypeDefinitionIndex(XNamespace_TypeDefinitionIndex)->GetStaticField(0x158);
+		}
+		::System::String* namespaceName; // 0x10
+		::System::Xml::Linq::XHashtable_1<::System::Xml::Linq::XName*>* names; // 0x18
 		::System::Int32 hashCode; // 0x20
 
 		::System::Void _ctor(::System::String* a1)

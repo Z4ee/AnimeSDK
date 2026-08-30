@@ -4,17 +4,17 @@
 #include "unitysdk/RPG/GameCore/HashTableKeyType.h"
 #include "unitysdk/System/ValueType.h"
 
-inline static constexpr unsigned int Struct_2_160567AD5325EC4A_TypeDefinitionIndex = 10380;
+inline static constexpr unsigned int Struct_2_160567AD5325EC4A_TypeDefinitionIndex = 10721;
 
 struct alignas(1) Struct_2_160567AD5325EC4A
 {
-	::System::UInt32 Field_2_0; // 0x10
-	::System::UInt32 Field_2_1; // 0x14
-	::System::UInt32 Field_2_2; // 0x18
-	::RPG::GameCore::DataPoolType Field_2_3; // 0x1C
-	::RPG::GameCore::HashTableKeyType Field_2_4; // 0x1D
-	::System::Byte Field_2_5; // 0x1E
-	::System::Byte Field_2_6; // 0x1F
-	::System::UInt32 Field_2_7; // 0x20
-	::System::UInt32 Field_2_8; // 0x24
+	::System::UInt32 MEBGACKEOOG; // 0x10
+	::System::UInt32 ABNPHONMCEP; // 0x14
+	::System::UInt32 POLBOLOGNIH; // 0x18
+	::RPG::GameCore::DataPoolType KEDPNENGMOE; // 0x1C
+	::RPG::GameCore::HashTableKeyType IEHKHCJIIHJ; // 0x1D
+	::System::Byte AHOBMCPONHB; // 0x1E
+	::System::Byte HGKPOIALLLN; // 0x1F
+	::System::UInt32 CKECGGCAJJL; // 0x20
+	::System::UInt32 HLEHHMCIJOD; // 0x24
 };

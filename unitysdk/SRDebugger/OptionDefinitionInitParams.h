@@ -4,18 +4,18 @@
 
 namespace System { class String; }
 
-#define SRDEBUGGER_OPTIONDEFINITIONINITPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x1C9C9710)
+#define SRDEBUGGER_OPTIONDEFINITIONINITPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x1E673DB0)
 
 namespace SRDebugger
 {
-	inline static constexpr unsigned int OptionDefinitionInitParams_TypeDefinitionIndex = 36402;
+	inline static constexpr unsigned int OptionDefinitionInitParams_TypeDefinitionIndex = 37261;
 
 	class OptionDefinitionInitParams : public ::System::Object
 	{
 	public:
-		::System::String* TargetTab; // 0x10
+		::System::String* Name; // 0x10
 		::System::String* Category; // 0x18
-		::System::String* Name; // 0x20
+		::System::String* TargetTab; // 0x20
 		::System::Int32 SortPriority; // 0x28
 
 		::System::Void _ctor()

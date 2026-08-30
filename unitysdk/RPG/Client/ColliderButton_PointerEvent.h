@@ -4,11 +4,11 @@
 
 namespace UnityEngine::EventSystems { class PointerEventData; }
 
-#define RPG_CLIENT_COLLIDERBUTTON_POINTEREVENT__CTOR_OFFSET UNITYSDK_OFFSET(0xC191CC0)
+#define RPG_CLIENT_COLLIDERBUTTON_POINTEREVENT__CTOR_OFFSET UNITYSDK_OFFSET(0xCC4D840)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ColliderButton_PointerEvent_TypeDefinitionIndex = 69245;
+	inline static constexpr unsigned int ColliderButton_PointerEvent_TypeDefinitionIndex = 72445;
 
 	class ColliderButton_PointerEvent : public ::UnityEngine::Events::UnityEvent_1<::UnityEngine::EventSystems::PointerEventData*>
 	{

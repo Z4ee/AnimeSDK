@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define SUPERSCROLLVIEW_LOOPLISTVIEW2_PREDICTSNAPVALUE_CLEAR_OFFSET UNITYSDK_OFFSET(0x159640)
+#define SUPERSCROLLVIEW_LOOPLISTVIEW2_PREDICTSNAPVALUE_CLEAR_OFFSET UNITYSDK_OFFSET(0x1602F0)
 
 namespace SuperScrollView
 {
-	inline static constexpr unsigned int LoopListView2_PredictSnapValue_TypeDefinitionIndex = 45873;
+	inline static constexpr unsigned int LoopListView2_PredictSnapValue_TypeDefinitionIndex = 48126;
 
 	struct alignas(4) LoopListView2_PredictSnapValue
 	{

@@ -6,28 +6,28 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
-#define STRUCT_2_8DE71E68381795E3_EXECUTE_OFFSET UNITYSDK_OFFSET(0x2D0F7E0)
-#define STRUCT_2_8DE71E68381795E3_METHOD_2_2C6D4994BE977BFA_OFFSET UNITYSDK_OFFSET(0x153E5F10)
+#define STRUCT_2_8DE71E68381795E3_EXECUTE_OFFSET UNITYSDK_OFFSET(0x2DF7B00)
+#define STRUCT_2_8DE71E68381795E3_METHOD_2_2C6D4994BE977BFA_OFFSET UNITYSDK_OFFSET(0x16321800)
 
-inline static constexpr unsigned int Struct_2_8DE71E68381795E3_TypeDefinitionIndex = 67313;
+inline static constexpr unsigned int Struct_2_8DE71E68381795E3_TypeDefinitionIndex = 70435;
 
 struct alignas(8) Struct_2_8DE71E68381795E3
 {
-	::Unity::Collections::NativeArray_1<::UnityEngine::Matrix4x4> Field_2_0; // 0x10
-	::Unity::Collections::NativeArray_1<::System::Single> Field_2_1; // 0x20
-	::Unity::Collections::NativeArray_1<::UnityEngine::Vector4> Field_2_2; // 0x30
-	::System::Single Field_2_3; // 0x40
-	::UnityEngine::Matrix4x4 Field_2_4; // 0x44
-	::System::Single Field_2_5; // 0x84
-	::System::Single Field_2_6; // 0x88
-	::UnityEngine::Vector3 Field_2_7; // 0x8C
-	::System::Single Field_2_8; // 0x98
-	::System::Single Field_2_9; // 0x9C
-	::System::Single Field_2_10; // 0xA0
-	::System::Single Field_2_11; // 0xA4
-	::Unity::Collections::NativeArray_1<::System::Single> Field_2_12; // 0xA8
-	::UnityEngine::Matrix4x4 Field_2_13; // 0xB8
-	::System::Boolean Field_2_14; // 0xF8
+	::Unity::Collections::NativeArray_1<::UnityEngine::Matrix4x4> MBBBHFDGJPN; // 0x10
+	::Unity::Collections::NativeArray_1<::System::Single> CMBDPCJBEJF; // 0x20
+	::Unity::Collections::NativeArray_1<::UnityEngine::Vector4> LPDFHNHCKLH; // 0x30
+	::System::Single GAFENHHEBPG; // 0x40
+	::UnityEngine::Matrix4x4 DMIBMNOINJL; // 0x44
+	::System::Single HBAMPJPOOLM; // 0x84
+	::System::Single CPBLKCKCLLE; // 0x88
+	::UnityEngine::Vector3 ACKEIJLGADO; // 0x8C
+	::System::Single OHNIKINAHMJ; // 0x98
+	::System::Single IDJGGKOIEMH; // 0x9C
+	::System::Single CDHOOPAGGHA; // 0xA0
+	::System::Single FGHNGICIFII; // 0xA4
+	::Unity::Collections::NativeArray_1<::System::Single> ACJMCMJMLDO; // 0xA8
+	::UnityEngine::Matrix4x4 KEGAFKMLEPA; // 0xB8
+	::System::Boolean FLMBGIDHIGE; // 0xF8
 
 	static ::System::Single Method_2_2C6D4994BE977BFA(::Unity::Collections::NativeArray_1<::System::Single> a1, ::System::Single a2)
 	{

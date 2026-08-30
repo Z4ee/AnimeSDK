@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define UNITY_COLLECTIONS_LOWLEVEL_UNSAFE_NATIVECONTAINERSUPPORTSMINMAXWRITERESTRICTIONATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFFC550)
+#define UNITY_COLLECTIONS_LOWLEVEL_UNSAFE_NATIVECONTAINERSUPPORTSMINMAXWRITERESTRICTIONATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1ED03980)
 
 namespace Unity::Collections::LowLevel::Unsafe
 {
-	inline static constexpr unsigned int NativeContainerSupportsMinMaxWriteRestrictionAttribute_TypeDefinitionIndex = 3986;
+	inline static constexpr unsigned int NativeContainerSupportsMinMaxWriteRestrictionAttribute_TypeDefinitionIndex = 3994;
 
 	class NativeContainerSupportsMinMaxWriteRestrictionAttribute : public ::System::Attribute
 	{

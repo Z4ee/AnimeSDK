@@ -5,9 +5,9 @@
 namespace System { class String; }
 namespace UnityEngine::Rendering { class BatchAnimationInstance; }
 
-#define CLASS_1_5850719FB0DF12B1_METHOD_1_B3B62D0403070E45_OFFSET UNITYSDK_OFFSET(0xAF68740)
+#define CLASS_1_5850719FB0DF12B1_METHOD_1_B3B62D0403070E45_OFFSET UNITYSDK_OFFSET(0xB91AD40)
 
-inline static constexpr unsigned int Class_1_5850719FB0DF12B1_TypeDefinitionIndex = 45494;
+inline static constexpr unsigned int Class_1_5850719FB0DF12B1_TypeDefinitionIndex = 47744;
 
 class Class_1_5850719FB0DF12B1 : public ::System::Object
 {

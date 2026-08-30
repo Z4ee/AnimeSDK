@@ -4,7 +4,7 @@
 
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-inline static constexpr unsigned int ICmdExecuteCb_TypeDefinitionIndex = 35930;
+inline static constexpr unsigned int ICmdExecuteCb_TypeDefinitionIndex = 36791;
 
 class ICmdExecuteCb
 {

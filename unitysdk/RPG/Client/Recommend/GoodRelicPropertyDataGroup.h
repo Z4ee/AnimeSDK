@@ -8,27 +8,27 @@ namespace RPG::Client { class ItemData; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define RPG_CLIENT_RECOMMEND_GOODRELICPROPERTYDATAGROUP_ADDSUBPROPERTY_OFFSET UNITYSDK_OFFSET(0xD2D0890)
-#define RPG_CLIENT_RECOMMEND_GOODRELICPROPERTYDATAGROUP_COMPARETO_OFFSET UNITYSDK_OFFSET(0xD2D0B60)
-#define RPG_CLIENT_RECOMMEND_GOODRELICPROPERTYDATAGROUP_GETSUBPROPERTYMATCHCOUNT_OFFSET UNITYSDK_OFFSET(0xD2D0760)
-#define RPG_CLIENT_RECOMMEND_GOODRELICPROPERTYDATAGROUP_GET_ISGROWTHTARGET_OFFSET UNITYSDK_OFFSET(0xD2D0B10)
-#define RPG_CLIENT_RECOMMEND_GOODRELICPROPERTYDATAGROUP_ISMATCHSUBPROPERTY_OFFSET UNITYSDK_OFFSET(0xD2D0F00)
-#define RPG_CLIENT_RECOMMEND_GOODRELICPROPERTYDATAGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0xD2CF030)
+#define RPG_CLIENT_RECOMMEND_GOODRELICPROPERTYDATAGROUP_ADDSUBPROPERTY_OFFSET UNITYSDK_OFFSET(0xDE0F620)
+#define RPG_CLIENT_RECOMMEND_GOODRELICPROPERTYDATAGROUP_COMPARETO_OFFSET UNITYSDK_OFFSET(0xDE0F8F0)
+#define RPG_CLIENT_RECOMMEND_GOODRELICPROPERTYDATAGROUP_GETSUBPROPERTYMATCHCOUNT_OFFSET UNITYSDK_OFFSET(0xDE0F5D0)
+#define RPG_CLIENT_RECOMMEND_GOODRELICPROPERTYDATAGROUP_GET_ISGROWTHTARGET_OFFSET UNITYSDK_OFFSET(0xDE0F8A0)
+#define RPG_CLIENT_RECOMMEND_GOODRELICPROPERTYDATAGROUP_ISMATCHSUBPROPERTY_OFFSET UNITYSDK_OFFSET(0xDE0FCA0)
+#define RPG_CLIENT_RECOMMEND_GOODRELICPROPERTYDATAGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0xDE0DEC0)
 
 namespace RPG::Client::Recommend
 {
-	inline static constexpr unsigned int GoodRelicPropertyDataGroup_TypeDefinitionIndex = 71062;
+	inline static constexpr unsigned int GoodRelicPropertyDataGroup_TypeDefinitionIndex = 74361;
 
 	class GoodRelicPropertyDataGroup : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::HashSet_1<::RPG::GameCore::AvatarPropertyType>* _SubPropertyTypes; // 0x10
-		::RPG::Client::ItemData* ItemData; // 0x18
-		::System::String* AvatarIconPath; // 0x20
-		::RPG::Client::Recommend::GoodRelicRecommendType Type; // 0x28
-		::System::UInt32 AvatarID; // 0x2C
-		::System::Boolean IsHaveAvatar; // 0x30
-		::System::Boolean IsMarked; // 0x31
+		::System::String* AvatarIconPath; // 0x10
+		::System::Collections::Generic::HashSet_1<::RPG::GameCore::AvatarPropertyType>* _SubPropertyTypes; // 0x18
+		::RPG::Client::ItemData* ItemData; // 0x20
+		::System::UInt32 AvatarID; // 0x28
+		::System::Boolean IsMarked; // 0x2C
+		::System::Boolean IsHaveAvatar; // 0x2D
+		::RPG::Client::Recommend::GoodRelicRecommendType Type; // 0x30
 
 		::System::Void _ctor(::System::UInt32 a1, ::RPG::Client::Recommend::GoodRelicRecommendType a2)
 		{

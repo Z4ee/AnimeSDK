@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_MONOVALUEEVALUATECONFIGURE_EVALUATOR__CTOR_OFFSET UNITYSDK_OFFSET(0xCD3C6E0)
+#define RPG_CLIENT_MONOVALUEEVALUATECONFIGURE_EVALUATOR__CTOR_OFFSET UNITYSDK_OFFSET(0xD87F140)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoValueEvaluateConfigure_Evaluator_TypeDefinitionIndex = 65579;
+	inline static constexpr unsigned int MonoValueEvaluateConfigure_Evaluator_TypeDefinitionIndex = 68594;
 
 	class MonoValueEvaluateConfigure_Evaluator : public ::System::Object
 	{

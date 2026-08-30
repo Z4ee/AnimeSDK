@@ -11,12 +11,12 @@ namespace RPG::GameCore { class MonopolyMapBarrierLayer; }
 namespace RPG::GameCore { class MonopolyMapCellUnit; }
 namespace RPG::GameCore { class MonopolyMapGroundLayer; }
 
-#define RPG_GAMECORE_MONOPOLYMAPCELL_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B61B360)
-#define RPG_GAMECORE_MONOPOLYMAPCELL__CTOR_OFFSET UNITYSDK_OFFSET(0x1B61B760)
+#define RPG_GAMECORE_MONOPOLYMAPCELL_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D2C0BE0)
+#define RPG_GAMECORE_MONOPOLYMAPCELL__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2C0FE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MonopolyMapCell_TypeDefinitionIndex = 15601;
+	inline static constexpr unsigned int MonopolyMapCell_TypeDefinitionIndex = 16070;
 
 	class MonopolyMapCell : public ::RPG::GameCore::JsonConfig
 	{

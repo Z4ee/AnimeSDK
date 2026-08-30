@@ -1,22 +1,63 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/LittleGame/PackedConsistencyCheckData.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_3E9A0EFA0AAE76DD;
-class Class_1_FA3DCD5934CBE599;
+class Class_1_10F56A639581CEB1_10;
+class Class_1_3AD2528CD53B1639_6;
+class Class_1_F0E9DD085BA6740E_4;
 
-#define CLASS_1_766364A11460DE78_2__CTOR_OFFSET UNITYSDK_OFFSET(0xAE98610)
+#define CLASS_1_766364A11460DE78_2_METHOD_1_2E8E44FA89DBF34D_OFFSET UNITYSDK_OFFSET(0xB7F1870)
+#define CLASS_1_766364A11460DE78_2_METHOD_1_30D28DB045DA28F0_OFFSET UNITYSDK_OFFSET(0xB7F1610)
+#define CLASS_1_766364A11460DE78_2_METHOD_1_E9A575D18A0748D9_1_OFFSET UNITYSDK_OFFSET(0xB7F1E20)
+#define CLASS_1_766364A11460DE78_2_METHOD_1_E9A575D18A0748D9_OFFSET UNITYSDK_OFFSET(0xB7F1DD0)
+#define CLASS_1_766364A11460DE78_2__CTOR_1_OFFSET UNITYSDK_OFFSET(0xB7F15F0)
+#define CLASS_1_766364A11460DE78_2__CTOR_2_OFFSET UNITYSDK_OFFSET(0xB7F1600)
+#define CLASS_1_766364A11460DE78_2__CTOR_OFFSET UNITYSDK_OFFSET(0xB7F15E0)
 
-inline static constexpr unsigned int Class_1_766364A11460DE78_2_TypeDefinitionIndex = 75601;
+inline static constexpr unsigned int Class_1_766364A11460DE78_2_TypeDefinitionIndex = 76086;
 
 class Class_1_766364A11460DE78_2 : public ::System::Object
 {
 public:
-	::Class_1_FA3DCD5934CBE599* Field_1_0; // 0x10
-	::Class_1_3E9A0EFA0AAE76DD* Field_1_1; // 0x18
+	::Class_1_F0E9DD085BA6740E_4* GIJPMCOACAN; // 0x10
+	::Class_1_10F56A639581CEB1_10* OOLADBFFBIF; // 0x18
+	::Class_1_F0E9DD085BA6740E_4* ECBFGNCNIGH; // 0x20
+	::Class_1_10F56A639581CEB1_10* EKIMCJIFCPB; // 0x28
+	::Class_1_3AD2528CD53B1639_6* IAOBHCOOMJP; // 0x30
 
-	::System::Void _ctor(::Class_1_FA3DCD5934CBE599* a1, ::Class_1_3E9A0EFA0AAE76DD* a2)
+	::System::Void _ctor()
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_1_FA3DCD5934CBE599*, ::Class_1_3E9A0EFA0AAE76DD*))((::PBYTE)hIl2Cpp + CLASS_1_766364A11460DE78_2__CTOR_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_766364A11460DE78_2__CTOR_OFFSET))(this);
+	}
+
+	::System::Void _ctor_1(::Class_1_3AD2528CD53B1639_6* a1, ::Class_1_10F56A639581CEB1_10* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_3AD2528CD53B1639_6*, ::Class_1_10F56A639581CEB1_10*))((::PBYTE)hIl2Cpp + CLASS_1_766364A11460DE78_2__CTOR_1_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void _ctor_2(::Class_1_3AD2528CD53B1639_6* a1, ::Class_1_F0E9DD085BA6740E_4* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_3AD2528CD53B1639_6*, ::Class_1_F0E9DD085BA6740E_4*))((::PBYTE)hIl2Cpp + CLASS_1_766364A11460DE78_2__CTOR_2_OFFSET))(this, a1, a2);
+	}
+
+	::RPG::Client::LittleGame::PackedConsistencyCheckData Method_1_30D28DB045DA28F0()
+	{
+		return ((::RPG::Client::LittleGame::PackedConsistencyCheckData(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_766364A11460DE78_2_METHOD_1_30D28DB045DA28F0_OFFSET))(this);
+	}
+
+	static ::Class_1_766364A11460DE78_2* Method_1_2E8E44FA89DBF34D(::RPG::Client::LittleGame::PackedConsistencyCheckData& a1)
+	{
+		return ((::Class_1_766364A11460DE78_2*(*)(::RPG::Client::LittleGame::PackedConsistencyCheckData&))((::PBYTE)hIl2Cpp + CLASS_1_766364A11460DE78_2_METHOD_1_2E8E44FA89DBF34D_OFFSET))(a1);
+	}
+
+	::System::Void Method_1_E9A575D18A0748D9(::Class_1_F0E9DD085BA6740E_4* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_F0E9DD085BA6740E_4*))((::PBYTE)hIl2Cpp + CLASS_1_766364A11460DE78_2_METHOD_1_E9A575D18A0748D9_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_E9A575D18A0748D9_1(::Class_1_10F56A639581CEB1_10* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_10F56A639581CEB1_10*))((::PBYTE)hIl2Cpp + CLASS_1_766364A11460DE78_2_METHOD_1_E9A575D18A0748D9_1_OFFSET))(this, a1);
 	}
 };

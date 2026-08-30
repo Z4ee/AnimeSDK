@@ -6,11 +6,11 @@
 
 namespace System { class String; }
 
-#define STAGEBUDGETTOOL_DOOR__CTOR_OFFSET UNITYSDK_OFFSET(0xDD5C4C0)
+#define STAGEBUDGETTOOL_DOOR__CTOR_OFFSET UNITYSDK_OFFSET(0xE934CF0)
 
 namespace StageBudgetTool
 {
-	inline static constexpr unsigned int Door_TypeDefinitionIndex = 45960;
+	inline static constexpr unsigned int Door_TypeDefinitionIndex = 48183;
 
 	class Door : public ::System::Object
 	{

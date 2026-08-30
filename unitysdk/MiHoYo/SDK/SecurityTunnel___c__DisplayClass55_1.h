@@ -5,12 +5,12 @@
 
 namespace MiHoYo::SDK { class SecurityTunnel___c__DisplayClass55_0; }
 
-#define MIHOYO_SDK_SECURITYTUNNEL___C__DISPLAYCLASS55_1__CTOR_OFFSET UNITYSDK_OFFSET(0xAB6A620)
-#define MIHOYO_SDK_SECURITYTUNNEL___C__DISPLAYCLASS55_1__SAFEENQUEUECALLBACK_B__1_OFFSET UNITYSDK_OFFSET(0xAB6A630)
+#define MIHOYO_SDK_SECURITYTUNNEL___C__DISPLAYCLASS55_1__CTOR_OFFSET UNITYSDK_OFFSET(0xB2A7350)
+#define MIHOYO_SDK_SECURITYTUNNEL___C__DISPLAYCLASS55_1__SAFEENQUEUECALLBACK_B__1_OFFSET UNITYSDK_OFFSET(0xB2A7360)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int SecurityTunnel___c__DisplayClass55_1_TypeDefinitionIndex = 44696;
+	inline static constexpr unsigned int SecurityTunnel___c__DisplayClass55_1_TypeDefinitionIndex = 46882;
 
 	class SecurityTunnel___c__DisplayClass55_1 : public ::System::Object
 	{

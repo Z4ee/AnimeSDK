@@ -3,7 +3,7 @@
 
 namespace System::Runtime::InteropServices
 {
-	inline static constexpr unsigned int ComInterfaceType_TypeDefinitionIndex = 1398;
+	inline static constexpr unsigned int ComInterfaceType_TypeDefinitionIndex = 1405;
 
 	enum class ComInterfaceType : ::System::Int32
 	{

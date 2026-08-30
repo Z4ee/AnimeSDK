@@ -3,7 +3,7 @@
 #include "unitysdk/RPG/Client/TABehaviorBase.h"
 #include "unitysdk/UnityEngine/Bounds.h"
 
-class Class_0_16E4307DCC419505_1013;
+class Class_0_16E4307DCC419505_1067;
 namespace RPG::Client { class DialogRenderer; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
@@ -13,106 +13,106 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class Renderer; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_DIALOGRENDERERBEHAVIOR_ENDOFLATETICK_OFFSET UNITYSDK_OFFSET(0xC1EC320)
-#define RPG_CLIENT_DIALOGRENDERERBEHAVIOR_GET__OWNER_OFFSET UNITYSDK_OFFSET(0xC1EC380)
-#define RPG_CLIENT_DIALOGRENDERERBEHAVIOR_METHOD_3_1AE11C3424D3DD6A_OFFSET UNITYSDK_OFFSET(0xC1EE900)
-#define RPG_CLIENT_DIALOGRENDERERBEHAVIOR_METHOD_3_1F3793A40D6D0F7F_OFFSET UNITYSDK_OFFSET(0xC1EB650)
-#define RPG_CLIENT_DIALOGRENDERERBEHAVIOR_METHOD_3_3EBE5A8F310A42D3_OFFSET UNITYSDK_OFFSET(0xC1ED580)
-#define RPG_CLIENT_DIALOGRENDERERBEHAVIOR_METHOD_3_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0xC1E9C30)
-#define RPG_CLIENT_DIALOGRENDERERBEHAVIOR_METHOD_3_4805283D59625FD9_OFFSET UNITYSDK_OFFSET(0xC1EA390)
-#define RPG_CLIENT_DIALOGRENDERERBEHAVIOR_METHOD_3_497833CF065C1894_OFFSET UNITYSDK_OFFSET(0xC1EC400)
-#define RPG_CLIENT_DIALOGRENDERERBEHAVIOR_METHOD_3_549E6EFF8C7F104E_OFFSET UNITYSDK_OFFSET(0xC1ECB50)
-#define RPG_CLIENT_DIALOGRENDERERBEHAVIOR_METHOD_3_55E11F5A568A45D7_OFFSET UNITYSDK_OFFSET(0xC1ED430)
-#define RPG_CLIENT_DIALOGRENDERERBEHAVIOR_METHOD_3_5FCE1CDDAE90A8B2_OFFSET UNITYSDK_OFFSET(0xC1EEBD0)
-#define RPG_CLIENT_DIALOGRENDERERBEHAVIOR_METHOD_3_78110CB57EA2D55A_OFFSET UNITYSDK_OFFSET(0xC1ED9D0)
-#define RPG_CLIENT_DIALOGRENDERERBEHAVIOR_METHOD_3_8DF47EF45ABD2A6C_1_OFFSET UNITYSDK_OFFSET(0xC1EC280)
-#define RPG_CLIENT_DIALOGRENDERERBEHAVIOR_METHOD_3_8DF47EF45ABD2A6C_OFFSET UNITYSDK_OFFSET(0xC1EBE60)
-#define RPG_CLIENT_DIALOGRENDERERBEHAVIOR_METHOD_3_9B994748933F0708_OFFSET UNITYSDK_OFFSET(0xC1EFBB0)
-#define RPG_CLIENT_DIALOGRENDERERBEHAVIOR_METHOD_3_A5809AB80389F7DE_1_OFFSET UNITYSDK_OFFSET(0xC1EC200)
-#define RPG_CLIENT_DIALOGRENDERERBEHAVIOR_METHOD_3_A5809AB80389F7DE_OFFSET UNITYSDK_OFFSET(0xC1E9CA0)
-#define RPG_CLIENT_DIALOGRENDERERBEHAVIOR_METHOD_3_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xC1EC2E0)
-#define RPG_CLIENT_DIALOGRENDERERBEHAVIOR_METHOD_3_CEA32FF190776922_OFFSET UNITYSDK_OFFSET(0xC1E9E10)
-#define RPG_CLIENT_DIALOGRENDERERBEHAVIOR_METHOD_3_D61E937BA820948F_OFFSET UNITYSDK_OFFSET(0xC1ECBE0)
-#define RPG_CLIENT_DIALOGRENDERERBEHAVIOR_METHOD_3_D737CD2779D51A4E_OFFSET UNITYSDK_OFFSET(0xC1E9D00)
-#define RPG_CLIENT_DIALOGRENDERERBEHAVIOR_METHOD_3_EEED34E9AAC26D51_OFFSET UNITYSDK_OFFSET(0xC1EBEB0)
-#define RPG_CLIENT_DIALOGRENDERERBEHAVIOR_METHOD_3_F3A4A12640955A20_OFFSET UNITYSDK_OFFSET(0xC1ECEB0)
-#define RPG_CLIENT_DIALOGRENDERERBEHAVIOR_METHOD_3_F82B4FC81CECCDB8_OFFSET UNITYSDK_OFFSET(0xC1EFF00)
-#define RPG_CLIENT_DIALOGRENDERERBEHAVIOR__CCTOR_OFFSET UNITYSDK_OFFSET(0xC1F0460)
-#define RPG_CLIENT_DIALOGRENDERERBEHAVIOR__CTOR_OFFSET UNITYSDK_OFFSET(0xC1F0450)
+#define RPG_CLIENT_DIALOGRENDERERBEHAVIOR_ENDOFLATETICK_OFFSET UNITYSDK_OFFSET(0xCCAB3E0)
+#define RPG_CLIENT_DIALOGRENDERERBEHAVIOR_GET__OWNER_OFFSET UNITYSDK_OFFSET(0xCCAB440)
+#define RPG_CLIENT_DIALOGRENDERERBEHAVIOR_METHOD_3_1AE11C3424D3DD6A_OFFSET UNITYSDK_OFFSET(0xCCAD9C0)
+#define RPG_CLIENT_DIALOGRENDERERBEHAVIOR_METHOD_3_1F3793A40D6D0F7F_OFFSET UNITYSDK_OFFSET(0xCCAA710)
+#define RPG_CLIENT_DIALOGRENDERERBEHAVIOR_METHOD_3_3EBE5A8F310A42D3_OFFSET UNITYSDK_OFFSET(0xCCAC640)
+#define RPG_CLIENT_DIALOGRENDERERBEHAVIOR_METHOD_3_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0xCCA8CF0)
+#define RPG_CLIENT_DIALOGRENDERERBEHAVIOR_METHOD_3_4805283D59625FD9_OFFSET UNITYSDK_OFFSET(0xCCA9450)
+#define RPG_CLIENT_DIALOGRENDERERBEHAVIOR_METHOD_3_497833CF065C1894_OFFSET UNITYSDK_OFFSET(0xCCAB4C0)
+#define RPG_CLIENT_DIALOGRENDERERBEHAVIOR_METHOD_3_549E6EFF8C7F104E_OFFSET UNITYSDK_OFFSET(0xCCABC10)
+#define RPG_CLIENT_DIALOGRENDERERBEHAVIOR_METHOD_3_55E11F5A568A45D7_OFFSET UNITYSDK_OFFSET(0xCCAC4F0)
+#define RPG_CLIENT_DIALOGRENDERERBEHAVIOR_METHOD_3_5FCE1CDDAE90A8B2_OFFSET UNITYSDK_OFFSET(0xCCADC90)
+#define RPG_CLIENT_DIALOGRENDERERBEHAVIOR_METHOD_3_78110CB57EA2D55A_OFFSET UNITYSDK_OFFSET(0xCCACA90)
+#define RPG_CLIENT_DIALOGRENDERERBEHAVIOR_METHOD_3_8DF47EF45ABD2A6C_1_OFFSET UNITYSDK_OFFSET(0xCCAB340)
+#define RPG_CLIENT_DIALOGRENDERERBEHAVIOR_METHOD_3_8DF47EF45ABD2A6C_OFFSET UNITYSDK_OFFSET(0xCCAAF20)
+#define RPG_CLIENT_DIALOGRENDERERBEHAVIOR_METHOD_3_9B994748933F0708_OFFSET UNITYSDK_OFFSET(0xCCAEC70)
+#define RPG_CLIENT_DIALOGRENDERERBEHAVIOR_METHOD_3_A5809AB80389F7DE_1_OFFSET UNITYSDK_OFFSET(0xCCAB2C0)
+#define RPG_CLIENT_DIALOGRENDERERBEHAVIOR_METHOD_3_A5809AB80389F7DE_OFFSET UNITYSDK_OFFSET(0xCCA8D60)
+#define RPG_CLIENT_DIALOGRENDERERBEHAVIOR_METHOD_3_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xCCAB3A0)
+#define RPG_CLIENT_DIALOGRENDERERBEHAVIOR_METHOD_3_CEA32FF190776922_OFFSET UNITYSDK_OFFSET(0xCCA8ED0)
+#define RPG_CLIENT_DIALOGRENDERERBEHAVIOR_METHOD_3_D61E937BA820948F_OFFSET UNITYSDK_OFFSET(0xCCABCA0)
+#define RPG_CLIENT_DIALOGRENDERERBEHAVIOR_METHOD_3_D737CD2779D51A4E_OFFSET UNITYSDK_OFFSET(0xCCA8DC0)
+#define RPG_CLIENT_DIALOGRENDERERBEHAVIOR_METHOD_3_EEED34E9AAC26D51_OFFSET UNITYSDK_OFFSET(0xCCAAF70)
+#define RPG_CLIENT_DIALOGRENDERERBEHAVIOR_METHOD_3_F3A4A12640955A20_OFFSET UNITYSDK_OFFSET(0xCCABF70)
+#define RPG_CLIENT_DIALOGRENDERERBEHAVIOR_METHOD_3_F82B4FC81CECCDB8_OFFSET UNITYSDK_OFFSET(0xCCAEFC0)
+#define RPG_CLIENT_DIALOGRENDERERBEHAVIOR__CCTOR_OFFSET UNITYSDK_OFFSET(0xCCAF520)
+#define RPG_CLIENT_DIALOGRENDERERBEHAVIOR__CTOR_OFFSET UNITYSDK_OFFSET(0xCCAF510)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DialogRendererBehavior_TypeDefinitionIndex = 67133;
+	inline static constexpr unsigned int DialogRendererBehavior_TypeDefinitionIndex = 70246;
 
 	class DialogRendererBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>** StaticGet__DialogShaders()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(DialogRendererBehavior_TypeDefinitionIndex)->GetStaticField(0x64D40);
-		}
-		static ::System::Int32* StaticGet__DialogClipMaskTexShaderProperty()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DialogRendererBehavior_TypeDefinitionIndex)->GetStaticField(0x140C0);
-		}
-		static ::System::Int32* StaticGet__DialogDitherShaderProperty()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DialogRendererBehavior_TypeDefinitionIndex)->GetStaticField(0x140C4);
-		}
-		static ::System::Int32* StaticGet__DialogClipMaskThresholdShaderProperty()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DialogRendererBehavior_TypeDefinitionIndex)->GetStaticField(0x140C8);
-		}
-		static ::System::Int32* StaticGet__DialogDepthOffsetShaderProperty()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DialogRendererBehavior_TypeDefinitionIndex)->GetStaticField(0x140CC);
-		}
-		static ::System::Int32* StaticGet__DialogCameraMatrixPShaderProperty()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DialogRendererBehavior_TypeDefinitionIndex)->GetStaticField(0x140D0);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(DialogRendererBehavior_TypeDefinitionIndex)->GetStaticField(0x5CD30);
 		}
 		static ::System::Int32* StaticGet__DialogCullShaderProperty()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DialogRendererBehavior_TypeDefinitionIndex)->GetStaticField(0x140D4);
-		}
-		static ::System::Int32* StaticGet__DialogClipMaskShaderProperty()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DialogRendererBehavior_TypeDefinitionIndex)->GetStaticField(0x140D8);
-		}
-		static ::System::Int32* StaticGet__DialogMatrixMShaderProperty()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DialogRendererBehavior_TypeDefinitionIndex)->GetStaticField(0x140DC);
-		}
-		static ::System::Int32* StaticGet__DialogCameraMatrixVPShaderProperty()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DialogRendererBehavior_TypeDefinitionIndex)->GetStaticField(0x140E0);
-		}
-		static ::System::Int32* StaticGet__DialogCameraPositionWSShaderProperty()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DialogRendererBehavior_TypeDefinitionIndex)->GetStaticField(0x140E4);
-		}
-		static ::System::Int32* StaticGet__DialogCameraMatrixInvVShaderProperty()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DialogRendererBehavior_TypeDefinitionIndex)->GetStaticField(0x140E8);
-		}
-		static ::System::Int32* StaticGet__DialogClipRectShaderProperty()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DialogRendererBehavior_TypeDefinitionIndex)->GetStaticField(0x140EC);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DialogRendererBehavior_TypeDefinitionIndex)->GetStaticField(0x13150);
 		}
 		static ::System::Int32* StaticGet__DialogCameraMatrixVShaderProperty()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DialogRendererBehavior_TypeDefinitionIndex)->GetStaticField(0x140F0);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DialogRendererBehavior_TypeDefinitionIndex)->GetStaticField(0x13154);
+		}
+		static ::System::Int32* StaticGet__DialogCameraMatrixPShaderProperty()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DialogRendererBehavior_TypeDefinitionIndex)->GetStaticField(0x13158);
+		}
+		static ::System::Int32* StaticGet__DialogDepthOffsetShaderProperty()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DialogRendererBehavior_TypeDefinitionIndex)->GetStaticField(0x1315C);
+		}
+		static ::System::Int32* StaticGet__DialogClipRectShaderProperty()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DialogRendererBehavior_TypeDefinitionIndex)->GetStaticField(0x13160);
+		}
+		static ::System::Int32* StaticGet__DialogClipMaskShaderProperty()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DialogRendererBehavior_TypeDefinitionIndex)->GetStaticField(0x13164);
+		}
+		static ::System::Int32* StaticGet__DialogMatrixMShaderProperty()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DialogRendererBehavior_TypeDefinitionIndex)->GetStaticField(0x13168);
+		}
+		static ::System::Int32* StaticGet__DialogCameraPositionWSShaderProperty()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DialogRendererBehavior_TypeDefinitionIndex)->GetStaticField(0x1316C);
+		}
+		static ::System::Int32* StaticGet__DialogCameraMatrixInvVShaderProperty()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DialogRendererBehavior_TypeDefinitionIndex)->GetStaticField(0x13170);
+		}
+		static ::System::Int32* StaticGet__DialogDitherShaderProperty()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DialogRendererBehavior_TypeDefinitionIndex)->GetStaticField(0x13174);
+		}
+		static ::System::Int32* StaticGet__DialogClipMaskThresholdShaderProperty()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DialogRendererBehavior_TypeDefinitionIndex)->GetStaticField(0x13178);
 		}
 		static ::System::Int32* StaticGet__DialogDitherAlphaShaderProperty()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DialogRendererBehavior_TypeDefinitionIndex)->GetStaticField(0x140F4);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DialogRendererBehavior_TypeDefinitionIndex)->GetStaticField(0x1317C);
+		}
+		static ::System::Int32* StaticGet__DialogCameraMatrixVPShaderProperty()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DialogRendererBehavior_TypeDefinitionIndex)->GetStaticField(0x13180);
+		}
+		static ::System::Int32* StaticGet__DialogClipMaskTexShaderProperty()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DialogRendererBehavior_TypeDefinitionIndex)->GetStaticField(0x13184);
 		}
 		::UnityEngine::Transform* _OwnerTransform; // 0x38
 		::UnityEngine::Transform* _DialogCameraTransform; // 0x40
 		::UnityEngine::Camera* _MainCamera; // 0x48
 		::UnityEngine::Transform* _MainCameraTransform; // 0x50
 		::Il2CppArray<::UnityEngine::Renderer*>* _DialogTargetRenderers; // 0x58
-		::Il2CppArray<::Class_0_16E4307DCC419505_1013*>* _DialogTargetRenderables; // 0x60
+		::Il2CppArray<::Class_0_16E4307DCC419505_1067*>* _DialogTargetRenderables; // 0x60
 		::UnityEngine::Bounds _DialogTargetBounds; // 0x68
 		::System::Boolean _NeedUpdateRenderer; // 0x80
 
@@ -181,14 +181,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DIALOGRENDERERBEHAVIOR_METHOD_3_EEED34E9AAC26D51_OFFSET))(this);
 		}
 
-		::System::Void Method_3_F3A4A12640955A20(::Class_0_16E4307DCC419505_1013* a1)
+		::System::Void Method_3_F3A4A12640955A20(::Class_0_16E4307DCC419505_1067* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_1013*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DIALOGRENDERERBEHAVIOR_METHOD_3_F3A4A12640955A20_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_1067*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DIALOGRENDERERBEHAVIOR_METHOD_3_F3A4A12640955A20_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_3_3EBE5A8F310A42D3(::Class_0_16E4307DCC419505_1013* a1)
+		::System::Void Method_3_3EBE5A8F310A42D3(::Class_0_16E4307DCC419505_1067* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_1013*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DIALOGRENDERERBEHAVIOR_METHOD_3_3EBE5A8F310A42D3_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_1067*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DIALOGRENDERERBEHAVIOR_METHOD_3_3EBE5A8F310A42D3_OFFSET))(this, a1);
 		}
 
 		::System::Void Method_3_549E6EFF8C7F104E(::UnityEngine::Renderer* a1)

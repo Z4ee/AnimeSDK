@@ -5,18 +5,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_GRIDFIGHTROLEREMARKCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B4EA180)
-#define RPG_GAMECORE_GRIDFIGHTROLEREMARKCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4EA300)
+#define RPG_GAMECORE_GRIDFIGHTROLEREMARKCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D163A10)
+#define RPG_GAMECORE_GRIDFIGHTROLEREMARKCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D163B90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightRoleRemarkConfigRow_TypeDefinitionIndex = 13046;
+	inline static constexpr unsigned int GridFightRoleRemarkConfigRow_TypeDefinitionIndex = 13437;
 
 	class GridFightRoleRemarkConfigRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 RoleID; // 0x10
-		::RPG::Client::TextID RoleRemark; // 0x18
+		::RPG::Client::TextID RoleRemark; // 0x10
+		::System::UInt32 RoleID; // 0x20
 
 		::System::Void _ctor()
 		{

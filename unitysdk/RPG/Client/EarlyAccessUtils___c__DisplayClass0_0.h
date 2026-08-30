@@ -4,12 +4,12 @@
 
 namespace System { class Action; }
 
-#define RPG_CLIENT_EARLYACCESSUTILS___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC2EBFC0)
-#define RPG_CLIENT_EARLYACCESSUTILS___C__DISPLAYCLASS0_0__SHOWEARLYACCESSSWITCHDIALOG_B__0_OFFSET UNITYSDK_OFFSET(0xC2EC630)
+#define RPG_CLIENT_EARLYACCESSUTILS___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCDBD360)
+#define RPG_CLIENT_EARLYACCESSUTILS___C__DISPLAYCLASS0_0__SHOWEARLYACCESSSWITCHDIALOG_B__0_OFFSET UNITYSDK_OFFSET(0xCDBD9D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EarlyAccessUtils___c__DisplayClass0_0_TypeDefinitionIndex = 60862;
+	inline static constexpr unsigned int EarlyAccessUtils___c__DisplayClass0_0_TypeDefinitionIndex = 63715;
 
 	class EarlyAccessUtils___c__DisplayClass0_0 : public ::System::Object
 	{

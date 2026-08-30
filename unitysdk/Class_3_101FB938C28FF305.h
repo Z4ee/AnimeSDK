@@ -7,25 +7,25 @@
 namespace RPG::Client { class MatchThreeBoard; }
 namespace RPG::Client::LittleGame { class Match3EnergyViewStateBuffer; }
 
-#define CLASS_3_101FB938C28FF305_METHOD_3_E61C16044B7481FF_OFFSET UNITYSDK_OFFSET(0xC27FF60)
-#define CLASS_3_101FB938C28FF305_METHOD_3_ED70800534CD3957_OFFSET UNITYSDK_OFFSET(0xC27FA90)
-#define CLASS_3_101FB938C28FF305_ONCLEAR_OFFSET UNITYSDK_OFFSET(0xC27FB20)
-#define CLASS_3_101FB938C28FF305_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0xC27FBB0)
-#define CLASS_3_101FB938C28FF305__CTOR_OFFSET UNITYSDK_OFFSET(0xC27FFB0)
+#define CLASS_3_101FB938C28FF305_METHOD_3_E61C16044B7481FF_OFFSET UNITYSDK_OFFSET(0xCFA2420)
+#define CLASS_3_101FB938C28FF305_METHOD_3_ED70800534CD3957_OFFSET UNITYSDK_OFFSET(0xCFA1F50)
+#define CLASS_3_101FB938C28FF305_ONCLEAR_OFFSET UNITYSDK_OFFSET(0xCFA1FE0)
+#define CLASS_3_101FB938C28FF305_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0xCFA2070)
+#define CLASS_3_101FB938C28FF305__CTOR_OFFSET UNITYSDK_OFFSET(0xCFA2470)
 
-inline static constexpr unsigned int Class_3_101FB938C28FF305_TypeDefinitionIndex = 62923;
+inline static constexpr unsigned int Class_3_101FB938C28FF305_TypeDefinitionIndex = 65908;
 
 class Class_3_101FB938C28FF305 : public ::Class_2_980BB27C20DEC196
 {
 public:
-	// static const ::System::Single Field_3_0; // 0x0
-	::RPG::Client::LittleGame::Match3EnergyViewStateBuffer* Field_3_1; // 0x28
-	::UnityEngine::Vector2 Field_3_2; // 0x30
-	::System::UInt32 Field_3_3; // 0x38
-	::System::Boolean Field_3_4; // 0x3C
-	::System::Boolean Field_3_5; // 0x3D
-	::RPG::Client::LittleGame::Match3::OpponentRole Field_3_6; // 0x40
-	::System::UInt32 Field_3_7; // 0x44
+	// static const ::System::Single JCENJMALKBB; // 0x0
+	::RPG::Client::LittleGame::Match3EnergyViewStateBuffer* HPINJBJLCBB; // 0x28
+	::RPG::Client::LittleGame::Match3::OpponentRole BDPIMPJOJBK; // 0x30
+	::System::UInt32 JCAEANLAGMB; // 0x34
+	::System::Boolean LLMLOGNFFCD; // 0x38
+	::System::Boolean OBMMJLCPNGA; // 0x39
+	::UnityEngine::Vector2 ICGKFDEILKA; // 0x3C
+	::System::UInt32 KLOEJIMMPJM; // 0x44
 
 	::System::Void _ctor()
 	{

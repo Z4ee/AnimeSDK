@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MIHOYO_SDK_UGCNETWORK_RESPONSEMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xAB81080)
+#define MIHOYO_SDK_UGCNETWORK_RESPONSEMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xB2C53E0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int UGCNetwork_ResponseModel_TypeDefinitionIndex = 44725;
+	inline static constexpr unsigned int UGCNetwork_ResponseModel_TypeDefinitionIndex = 46911;
 
 	class UGCNetwork_ResponseModel : public ::System::Object
 	{

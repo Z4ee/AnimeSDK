@@ -4,18 +4,18 @@
 
 namespace UnityEngine::Formats::Alembic::Sdk { template <typename T> class PinnedList_1; }
 
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICMESH_SUBMESH_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1CD9E590)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICMESH_SUBMESH__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD9C810)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICMESH_SUBMESH_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1EAA5FD0)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICMESH_SUBMESH__CTOR_OFFSET UNITYSDK_OFFSET(0x1EAA4240)
 
 namespace UnityEngine::Formats::Alembic::Importer
 {
-	inline static constexpr unsigned int AlembicMesh_Submesh_TypeDefinitionIndex = 42534;
+	inline static constexpr unsigned int AlembicMesh_Submesh_TypeDefinitionIndex = 44716;
 
 	class AlembicMesh_Submesh : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::Char>* facesetName; // 0x10
-		::UnityEngine::Formats::Alembic::Sdk::PinnedList_1<::System::Int32>* indexes; // 0x18
+		::UnityEngine::Formats::Alembic::Sdk::PinnedList_1<::System::Int32>* indexes; // 0x10
+		::Il2CppArray<::System::Char>* facesetName; // 0x18
 		::System::Boolean update; // 0x20
 
 		::System::Void _ctor()

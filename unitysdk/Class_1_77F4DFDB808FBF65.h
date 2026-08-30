@@ -6,17 +6,17 @@
 
 namespace System { class String; }
 
-#define CLASS_1_77F4DFDB808FBF65__CTOR_OFFSET UNITYSDK_OFFSET(0x153FC930)
+#define CLASS_1_77F4DFDB808FBF65__CTOR_OFFSET UNITYSDK_OFFSET(0x16338E80)
 
-inline static constexpr unsigned int Class_1_77F4DFDB808FBF65_TypeDefinitionIndex = 68841;
+inline static constexpr unsigned int Class_1_77F4DFDB808FBF65_TypeDefinitionIndex = 72039;
 
 class Class_1_77F4DFDB808FBF65 : public ::System::Object
 {
 public:
-	::System::String* Field_1_0; // 0x10
-	::System::Boolean Field_1_1; // 0x18
-	::RPG::GameCore::FeverTimeToastType Field_1_2; // 0x1C
-	::RPG::Client::TextID Field_1_3; // 0x20
+	::System::String* LAJHJAJNFGC; // 0x10
+	::RPG::Client::TextID NMMKDFFHOLL; // 0x18
+	::System::Boolean HLHLJLDBKOI; // 0x28
+	::RPG::GameCore::FeverTimeToastType FOCIKDIKBGK; // 0x2C
 
 	::System::Void _ctor()
 	{

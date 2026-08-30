@@ -5,12 +5,12 @@
 class Class_1_21C7581DFE99F091_111;
 namespace RPG::Client { class RogueTalentUnlockData; }
 
-#define RPG_CLIENT_ROGUETALENTDATAITEM___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD407290)
-#define RPG_CLIENT_ROGUETALENTDATAITEM___C__DISPLAYCLASS5_0__UPDATESRVDATA_B__0_OFFSET UNITYSDK_OFFSET(0xD4079F0)
+#define RPG_CLIENT_ROGUETALENTDATAITEM___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0xDF22F00)
+#define RPG_CLIENT_ROGUETALENTDATAITEM___C__DISPLAYCLASS5_0__UPDATESRVDATA_B__0_OFFSET UNITYSDK_OFFSET(0xDF23840)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTalentDataItem___c__DisplayClass5_0_TypeDefinitionIndex = 64475;
+	inline static constexpr unsigned int RogueTalentDataItem___c__DisplayClass5_0_TypeDefinitionIndex = 67471;
 
 	class RogueTalentDataItem___c__DisplayClass5_0 : public ::System::Object
 	{

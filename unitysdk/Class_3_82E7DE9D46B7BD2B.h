@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class LockStance; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_82E7DE9D46B7BD2B_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB1B47B0)
-#define CLASS_3_82E7DE9D46B7BD2B__CTOR_OFFSET UNITYSDK_OFFSET(0xB1B4780)
+#define CLASS_3_82E7DE9D46B7BD2B_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBB878C0)
+#define CLASS_3_82E7DE9D46B7BD2B__CTOR_OFFSET UNITYSDK_OFFSET(0xBB87890)
 
-inline static constexpr unsigned int Class_3_82E7DE9D46B7BD2B_TypeDefinitionIndex = 52652;
+inline static constexpr unsigned int Class_3_82E7DE9D46B7BD2B_TypeDefinitionIndex = 55351;
 
 class Class_3_82E7DE9D46B7BD2B : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::LockStance*>
 {

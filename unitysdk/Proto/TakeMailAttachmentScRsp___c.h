@@ -4,20 +4,20 @@
 
 namespace Proto { class TakeMailAttachmentScRsp; }
 
-#define PROTO_TAKEMAILATTACHMENTSCRSP___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BC995D0)
-#define PROTO_TAKEMAILATTACHMENTSCRSP___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC99610)
-#define PROTO_TAKEMAILATTACHMENTSCRSP___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1BC99620)
+#define PROTO_TAKEMAILATTACHMENTSCRSP___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D9802B0)
+#define PROTO_TAKEMAILATTACHMENTSCRSP___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1D9802F0)
+#define PROTO_TAKEMAILATTACHMENTSCRSP___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1D980300)
 
 namespace Proto
 {
-	inline static constexpr unsigned int TakeMailAttachmentScRsp___c_TypeDefinitionIndex = 29239;
+	inline static constexpr unsigned int TakeMailAttachmentScRsp___c_TypeDefinitionIndex = 29972;
 
 	class TakeMailAttachmentScRsp___c : public ::System::Object
 	{
 	public:
 		static ::Proto::TakeMailAttachmentScRsp___c** StaticGet___9()
 		{
-			return (::Proto::TakeMailAttachmentScRsp___c**)Il2CppClass::FromTypeDefinitionIndex(TakeMailAttachmentScRsp___c_TypeDefinitionIndex)->GetStaticField(0x43BF0);
+			return (::Proto::TakeMailAttachmentScRsp___c**)Il2CppClass::FromTypeDefinitionIndex(TakeMailAttachmentScRsp___c_TypeDefinitionIndex)->GetStaticField(0x950);
 		}
 
 		static ::System::Void _cctor()

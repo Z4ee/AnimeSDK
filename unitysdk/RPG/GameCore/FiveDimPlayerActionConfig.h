@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class FiveDimBaseEventAction; }
 
-#define RPG_GAMECORE_FIVEDIMPLAYERACTIONCONFIG_METHOD_2_B8A1118F3314097E_OFFSET UNITYSDK_OFFSET(0x1B43F260)
-#define RPG_GAMECORE_FIVEDIMPLAYERACTIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B43F320)
+#define RPG_GAMECORE_FIVEDIMPLAYERACTIONCONFIG_METHOD_2_B8A1118F3314097E_OFFSET UNITYSDK_OFFSET(0x1D0F8730)
+#define RPG_GAMECORE_FIVEDIMPLAYERACTIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0F87F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimPlayerActionConfig_TypeDefinitionIndex = 16014;
+	inline static constexpr unsigned int FiveDimPlayerActionConfig_TypeDefinitionIndex = 16490;
 
 	class FiveDimPlayerActionConfig : public ::RPG::GameCore::JsonConfig
 	{

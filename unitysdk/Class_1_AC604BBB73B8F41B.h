@@ -7,24 +7,24 @@ namespace RPG::GameCore { class CharacterSkillStatisticConfig; }
 namespace RPG::GameCore { class SkillMaxHitConfigList; }
 namespace System { class String; }
 
-#define CLASS_1_AC604BBB73B8F41B_METHOD_1_11310AC9D361756D_OFFSET UNITYSDK_OFFSET(0x119876B0)
-#define CLASS_1_AC604BBB73B8F41B_METHOD_1_5790A55946AA509D_OFFSET UNITYSDK_OFFSET(0x11987660)
-#define CLASS_1_AC604BBB73B8F41B_METHOD_1_5D45212808F4212D_OFFSET UNITYSDK_OFFSET(0x11987900)
-#define CLASS_1_AC604BBB73B8F41B_METHOD_1_97B231C192A52EEC_OFFSET UNITYSDK_OFFSET(0x11987A70)
-#define CLASS_1_AC604BBB73B8F41B_METHOD_1_F730968E2645E14B_OFFSET UNITYSDK_OFFSET(0x11987560)
+#define CLASS_1_AC604BBB73B8F41B_METHOD_1_11310AC9D361756D_OFFSET UNITYSDK_OFFSET(0x1286DD00)
+#define CLASS_1_AC604BBB73B8F41B_METHOD_1_5790A55946AA509D_OFFSET UNITYSDK_OFFSET(0x1286DCB0)
+#define CLASS_1_AC604BBB73B8F41B_METHOD_1_5D45212808F4212D_OFFSET UNITYSDK_OFFSET(0x1286DF50)
+#define CLASS_1_AC604BBB73B8F41B_METHOD_1_97B231C192A52EEC_OFFSET UNITYSDK_OFFSET(0x1286E0C0)
+#define CLASS_1_AC604BBB73B8F41B_METHOD_1_F730968E2645E14B_OFFSET UNITYSDK_OFFSET(0x1286DBB0)
 
-inline static constexpr unsigned int Class_1_AC604BBB73B8F41B_TypeDefinitionIndex = 53953;
+inline static constexpr unsigned int Class_1_AC604BBB73B8F41B_TypeDefinitionIndex = 56674;
 
 class Class_1_AC604BBB73B8F41B : public ::System::Object
 {
 public:
-	static ::RPG::GameCore::CharacterSkillStatisticConfig** StaticGet_Field_1_0()
+	static ::RPG::GameCore::CharacterSkillStatisticConfig** StaticGet_BLKEHCLJJLC()
 	{
-		return (::RPG::GameCore::CharacterSkillStatisticConfig**)Il2CppClass::FromTypeDefinitionIndex(Class_1_AC604BBB73B8F41B_TypeDefinitionIndex)->GetStaticField(0x5C70);
+		return (::RPG::GameCore::CharacterSkillStatisticConfig**)Il2CppClass::FromTypeDefinitionIndex(Class_1_AC604BBB73B8F41B_TypeDefinitionIndex)->GetStaticField(0x165C0);
 	}
-	static ::RPG::GameCore::CharacterSkillCustomStatisticConfig** StaticGet_Field_1_1()
+	static ::RPG::GameCore::CharacterSkillCustomStatisticConfig** StaticGet_PNAKCBAAJAC()
 	{
-		return (::RPG::GameCore::CharacterSkillCustomStatisticConfig**)Il2CppClass::FromTypeDefinitionIndex(Class_1_AC604BBB73B8F41B_TypeDefinitionIndex)->GetStaticField(0x5C78);
+		return (::RPG::GameCore::CharacterSkillCustomStatisticConfig**)Il2CppClass::FromTypeDefinitionIndex(Class_1_AC604BBB73B8F41B_TypeDefinitionIndex)->GetStaticField(0x165C8);
 	}
 
 	static ::System::Void Method_1_F730968E2645E14B()

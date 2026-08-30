@@ -6,7 +6,7 @@ namespace RPG::Client::TAUtils { template <typename T> class CircularBuffer_1; }
 
 namespace RPG::Client::TAUtils
 {
-	inline static constexpr unsigned int CircularBuffer_1__GetEnumerator_d__13_TypeDefinitionIndex = 70232;
+	inline static constexpr unsigned int CircularBuffer_1__GetEnumerator_d__13_TypeDefinitionIndex = 73532;
 
 	template <typename T>
 	class CircularBuffer_1__GetEnumerator_d__13 : public ::System::Object

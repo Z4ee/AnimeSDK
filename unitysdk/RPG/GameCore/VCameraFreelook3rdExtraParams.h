@@ -7,12 +7,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_VCAMERAFREELOOK3RDEXTRAPARAMS_METHOD_2_5436A08B879E54E8_OFFSET UNITYSDK_OFFSET(0x1B9CCFC0)
-#define RPG_GAMECORE_VCAMERAFREELOOK3RDEXTRAPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9CD3D0)
+#define RPG_GAMECORE_VCAMERAFREELOOK3RDEXTRAPARAMS_METHOD_2_5436A08B879E54E8_OFFSET UNITYSDK_OFFSET(0x1D62A420)
+#define RPG_GAMECORE_VCAMERAFREELOOK3RDEXTRAPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D62A830)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int VCameraFreelook3rdExtraParams_TypeDefinitionIndex = 15761;
+	inline static constexpr unsigned int VCameraFreelook3rdExtraParams_TypeDefinitionIndex = 16237;
 
 	class VCameraFreelook3rdExtraParams : public ::RPG::GameCore::JsonConfig
 	{

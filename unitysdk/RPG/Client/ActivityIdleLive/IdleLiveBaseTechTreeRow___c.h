@@ -5,24 +5,24 @@
 namespace RPG::Client::ActivityIdleLive { class IdleLiveTechTreeNode; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETECHTREEROW___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xBB7C400)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETECHTREEROW___C__CTOR_OFFSET UNITYSDK_OFFSET(0xBB7C440)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETECHTREEROW___C__GET_ISACTIVE_B__1_0_OFFSET UNITYSDK_OFFSET(0xBB7C450)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETECHTREEROW___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC59B270)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETECHTREEROW___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC59B2B0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETECHTREEROW___C__GET_ISACTIVE_B__1_0_OFFSET UNITYSDK_OFFSET(0xC59B2C0)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveBaseTechTreeRow___c_TypeDefinitionIndex = 71796;
+	inline static constexpr unsigned int IdleLiveBaseTechTreeRow___c_TypeDefinitionIndex = 75102;
 
 	class IdleLiveBaseTechTreeRow___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::Client::ActivityIdleLive::IdleLiveTechTreeNode*, ::System::Boolean>** StaticGet___9__1_0()
-		{
-			return (::System::Func_2<::RPG::Client::ActivityIdleLive::IdleLiveTechTreeNode*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(IdleLiveBaseTechTreeRow___c_TypeDefinitionIndex)->GetStaticField(0x38800);
-		}
 		static ::RPG::Client::ActivityIdleLive::IdleLiveBaseTechTreeRow___c** StaticGet___9()
 		{
-			return (::RPG::Client::ActivityIdleLive::IdleLiveBaseTechTreeRow___c**)Il2CppClass::FromTypeDefinitionIndex(IdleLiveBaseTechTreeRow___c_TypeDefinitionIndex)->GetStaticField(0x38808);
+			return (::RPG::Client::ActivityIdleLive::IdleLiveBaseTechTreeRow___c**)Il2CppClass::FromTypeDefinitionIndex(IdleLiveBaseTechTreeRow___c_TypeDefinitionIndex)->GetStaticField(0x5AF70);
+		}
+		static ::System::Func_2<::RPG::Client::ActivityIdleLive::IdleLiveTechTreeNode*, ::System::Boolean>** StaticGet___9__1_0()
+		{
+			return (::System::Func_2<::RPG::Client::ActivityIdleLive::IdleLiveTechTreeNode*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(IdleLiveBaseTechTreeRow___c_TypeDefinitionIndex)->GetStaticField(0x5AF78);
 		}
 
 		static ::System::Void _cctor()

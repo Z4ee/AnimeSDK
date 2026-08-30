@@ -2,22 +2,22 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_1041;
+class Class_0_16E4307DCC419505_1095;
 class Class_2_7AC5CDC6676C412B;
 namespace RPG::GameCore { class GameEntity; }
 
-#define CLASS_2_7AC5CDC6676C412B___C__DISPLAYCLASS22_0__CTOR_OFFSET UNITYSDK_OFFSET(0x154C04B0)
-#define CLASS_2_7AC5CDC6676C412B___C__DISPLAYCLASS22_0___CREATEBATTLEEVENTPANEL_B__0_OFFSET UNITYSDK_OFFSET(0x154C18A0)
-#define CLASS_2_7AC5CDC6676C412B___C__DISPLAYCLASS22_0___CREATEBATTLEEVENTPANEL_B__1_OFFSET UNITYSDK_OFFSET(0x154C1860)
+#define CLASS_2_7AC5CDC6676C412B___C__DISPLAYCLASS22_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1640EBA0)
+#define CLASS_2_7AC5CDC6676C412B___C__DISPLAYCLASS22_0___CREATEBATTLEEVENTPANEL_B__0_OFFSET UNITYSDK_OFFSET(0x1640FFD0)
+#define CLASS_2_7AC5CDC6676C412B___C__DISPLAYCLASS22_0___CREATEBATTLEEVENTPANEL_B__1_OFFSET UNITYSDK_OFFSET(0x1640FF90)
 
-inline static constexpr unsigned int Class_2_7AC5CDC6676C412B___c__DisplayClass22_0_TypeDefinitionIndex = 68398;
+inline static constexpr unsigned int Class_2_7AC5CDC6676C412B___c__DisplayClass22_0_TypeDefinitionIndex = 71579;
 
 class Class_2_7AC5CDC6676C412B___c__DisplayClass22_0 : public ::System::Object
 {
 public:
-	::Class_0_16E4307DCC419505_1041* battleEventPanel; // 0x10
+	::Class_2_7AC5CDC6676C412B* __4__this; // 0x10
 	::RPG::GameCore::GameEntity* entity; // 0x18
-	::Class_2_7AC5CDC6676C412B* __4__this; // 0x20
+	::Class_0_16E4307DCC419505_1095* battleEventPanel; // 0x20
 	::System::UInt32 slotIndex; // 0x28
 
 	::System::Void _ctor()

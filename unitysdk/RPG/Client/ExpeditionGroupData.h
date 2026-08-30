@@ -4,12 +4,12 @@
 
 namespace RPG::GameCore { class ExpeditionGroupRow; }
 
-#define RPG_CLIENT_EXPEDITIONGROUPDATA_GETINPROGRESSHARVESTCOUNT_OFFSET UNITYSDK_OFFSET(0xC421100)
-#define RPG_CLIENT_EXPEDITIONGROUPDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xC4210C0)
+#define RPG_CLIENT_EXPEDITIONGROUPDATA_GETINPROGRESSHARVESTCOUNT_OFFSET UNITYSDK_OFFSET(0xCF060D0)
+#define RPG_CLIENT_EXPEDITIONGROUPDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xCF06090)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ExpeditionGroupData_TypeDefinitionIndex = 61043;
+	inline static constexpr unsigned int ExpeditionGroupData_TypeDefinitionIndex = 64024;
 
 	class ExpeditionGroupData : public ::System::Object
 	{

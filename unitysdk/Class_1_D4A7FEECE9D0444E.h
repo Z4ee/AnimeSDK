@@ -7,21 +7,21 @@ namespace RPG { template <typename T1, typename T2> class PoolDictionary_2; }
 namespace RPG { template <typename T> class PoolList_1; }
 namespace UnityEngine { class Animator; }
 
-#define CLASS_1_D4A7FEECE9D0444E_CLEAR_OFFSET UNITYSDK_OFFSET(0x1A78B010)
-#define CLASS_1_D4A7FEECE9D0444E_METHOD_1_FEB018A2DA62A6F7_OFFSET UNITYSDK_OFFSET(0x1A78B4F0)
-#define CLASS_1_D4A7FEECE9D0444E_ONALLOC_OFFSET UNITYSDK_OFFSET(0x1A78AF40)
-#define CLASS_1_D4A7FEECE9D0444E_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x1A78AFD0)
-#define CLASS_1_D4A7FEECE9D0444E__CTOR_OFFSET UNITYSDK_OFFSET(0x1A78B820)
+#define CLASS_1_D4A7FEECE9D0444E_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C3B1670)
+#define CLASS_1_D4A7FEECE9D0444E_METHOD_1_FEB018A2DA62A6F7_OFFSET UNITYSDK_OFFSET(0x1C3B1B50)
+#define CLASS_1_D4A7FEECE9D0444E_ONALLOC_OFFSET UNITYSDK_OFFSET(0x1C3B15A0)
+#define CLASS_1_D4A7FEECE9D0444E_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x1C3B1630)
+#define CLASS_1_D4A7FEECE9D0444E__CTOR_OFFSET UNITYSDK_OFFSET(0x1C3B1E70)
 
-inline static constexpr unsigned int Class_1_D4A7FEECE9D0444E_TypeDefinitionIndex = 39570;
+inline static constexpr unsigned int Class_1_D4A7FEECE9D0444E_TypeDefinitionIndex = 40443;
 
 class Class_1_D4A7FEECE9D0444E : public ::System::Object
 {
 public:
-	::RPG::PoolDictionary_2<::System::Int32, ::Class_1_4E0C8860CC2DF441*>* Field_1_0; // 0x10
-	::RPG::PoolDictionary_2<::System::Int32, ::Class_1_4E0C8860CC2DF441*>* Field_1_1; // 0x18
-	::RPG::PoolDictionary_2<::System::Int32, ::RPG::PoolList_1<::System::Int32>*>* Field_1_2; // 0x20
-	::System::Boolean Field_1_3; // 0x28
+	::RPG::PoolDictionary_2<::System::Int32, ::RPG::PoolList_1<::System::Int32>*>* CLLACKFPJKG; // 0x10
+	::RPG::PoolDictionary_2<::System::Int32, ::Class_1_4E0C8860CC2DF441*>* LDCIOFKJHKG; // 0x18
+	::RPG::PoolDictionary_2<::System::Int32, ::Class_1_4E0C8860CC2DF441*>* ICPHLMNMKBI; // 0x20
+	::System::Boolean MJIPOJPBKNB; // 0x28
 
 	::System::Void _ctor()
 	{

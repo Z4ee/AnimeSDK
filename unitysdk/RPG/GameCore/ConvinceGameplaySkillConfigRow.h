@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_CONVINCEGAMEPLAYSKILLCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B3855C0)
-#define RPG_GAMECORE_CONVINCEGAMEPLAYSKILLCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B385CE0)
+#define RPG_GAMECORE_CONVINCEGAMEPLAYSKILLCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D002730)
+#define RPG_GAMECORE_CONVINCEGAMEPLAYSKILLCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D002E50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ConvinceGameplaySkillConfigRow_TypeDefinitionIndex = 12602;
+	inline static constexpr unsigned int ConvinceGameplaySkillConfigRow_TypeDefinitionIndex = 12993;
 
 	class ConvinceGameplaySkillConfigRow : public ::System::Object
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TimeSpaceCrisscrossGroupMonoPlugin_TimeSpaceCrisscrossState_TypeDefinitionIndex = 67081;
+	inline static constexpr unsigned int TimeSpaceCrisscrossGroupMonoPlugin_TimeSpaceCrisscrossState_TypeDefinitionIndex = 70188;
 
 	enum class TimeSpaceCrisscrossGroupMonoPlugin_TimeSpaceCrisscrossState : ::System::Int32
 	{

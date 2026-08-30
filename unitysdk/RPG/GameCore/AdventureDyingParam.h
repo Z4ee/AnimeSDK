@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ADVENTUREDYINGPARAM_METHOD_2_2162C1CE5E1F5107_OFFSET UNITYSDK_OFFSET(0x1B17A2F0)
-#define RPG_GAMECORE_ADVENTUREDYINGPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1B17A400)
+#define RPG_GAMECORE_ADVENTUREDYINGPARAM_METHOD_2_2162C1CE5E1F5107_OFFSET UNITYSDK_OFFSET(0x1CDF18C0)
+#define RPG_GAMECORE_ADVENTUREDYINGPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1CDF19D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureDyingParam_TypeDefinitionIndex = 19437;
+	inline static constexpr unsigned int AdventureDyingParam_TypeDefinitionIndex = 19980;
 
 	class AdventureDyingParam : public ::RPG::GameCore::JsonConfig
 	{

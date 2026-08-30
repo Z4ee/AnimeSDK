@@ -6,24 +6,24 @@ class Class_1_61FB8D394B353477;
 namespace RPG::Client::FateRin::Battle { class PrepareBattleTalkEntryViewModel; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_FATERIN_BATTLE_PREPAREBATTLETALKVIEWMODEL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC4A57C0)
-#define RPG_CLIENT_FATERIN_BATTLE_PREPAREBATTLETALKVIEWMODEL___C__CREATEBYHOUGUMAPFIGHT_B__2_0_OFFSET UNITYSDK_OFFSET(0xC4A5810)
-#define RPG_CLIENT_FATERIN_BATTLE_PREPAREBATTLETALKVIEWMODEL___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC4A5800)
+#define RPG_CLIENT_FATERIN_BATTLE_PREPAREBATTLETALKVIEWMODEL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xCFDA5A0)
+#define RPG_CLIENT_FATERIN_BATTLE_PREPAREBATTLETALKVIEWMODEL___C__CREATEBYHOUGUMAPFIGHT_B__2_0_OFFSET UNITYSDK_OFFSET(0xCFDA5F0)
+#define RPG_CLIENT_FATERIN_BATTLE_PREPAREBATTLETALKVIEWMODEL___C__CTOR_OFFSET UNITYSDK_OFFSET(0xCFDA5E0)
 
 namespace RPG::Client::FateRin::Battle
 {
-	inline static constexpr unsigned int PrepareBattleTalkViewModel___c_TypeDefinitionIndex = 76029;
+	inline static constexpr unsigned int PrepareBattleTalkViewModel___c_TypeDefinitionIndex = 79662;
 
 	class PrepareBattleTalkViewModel___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::Class_1_61FB8D394B353477*, ::RPG::Client::FateRin::Battle::PrepareBattleTalkEntryViewModel*>** StaticGet___9__2_0()
-		{
-			return (::System::Func_2<::Class_1_61FB8D394B353477*, ::RPG::Client::FateRin::Battle::PrepareBattleTalkEntryViewModel*>**)Il2CppClass::FromTypeDefinitionIndex(PrepareBattleTalkViewModel___c_TypeDefinitionIndex)->GetStaticField(0x7000);
-		}
 		static ::RPG::Client::FateRin::Battle::PrepareBattleTalkViewModel___c** StaticGet___9()
 		{
-			return (::RPG::Client::FateRin::Battle::PrepareBattleTalkViewModel___c**)Il2CppClass::FromTypeDefinitionIndex(PrepareBattleTalkViewModel___c_TypeDefinitionIndex)->GetStaticField(0x7008);
+			return (::RPG::Client::FateRin::Battle::PrepareBattleTalkViewModel___c**)Il2CppClass::FromTypeDefinitionIndex(PrepareBattleTalkViewModel___c_TypeDefinitionIndex)->GetStaticField(0x26F0);
+		}
+		static ::System::Func_2<::Class_1_61FB8D394B353477*, ::RPG::Client::FateRin::Battle::PrepareBattleTalkEntryViewModel*>** StaticGet___9__2_0()
+		{
+			return (::System::Func_2<::Class_1_61FB8D394B353477*, ::RPG::Client::FateRin::Battle::PrepareBattleTalkEntryViewModel*>**)Il2CppClass::FromTypeDefinitionIndex(PrepareBattleTalkViewModel___c_TypeDefinitionIndex)->GetStaticField(0x26F8);
 		}
 
 		static ::System::Void _cctor()

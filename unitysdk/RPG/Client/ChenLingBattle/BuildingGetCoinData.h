@@ -4,11 +4,11 @@
 
 namespace RPG::Client::ChenLingBattle { class Building; }
 
-#define RPG_CLIENT_CHENLINGBATTLE_BUILDINGGETCOINDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xC03F6E0)
+#define RPG_CLIENT_CHENLINGBATTLE_BUILDINGGETCOINDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xCAEC5A0)
 
 namespace RPG::Client::ChenLingBattle
 {
-	inline static constexpr unsigned int BuildingGetCoinData_TypeDefinitionIndex = 72329;
+	inline static constexpr unsigned int BuildingGetCoinData_TypeDefinitionIndex = 75765;
 
 	class BuildingGetCoinData : public ::System::Object
 	{

@@ -6,12 +6,12 @@ class Class_1_7B005A18003A04C3;
 namespace RPG::Client::DiceCombat { class DiceCombatPVPLobby; }
 namespace RPG::Client::DiceCombat { class DiceCombatPVPManager; }
 
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATPVPMANAGER___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC2196A0)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATPVPMANAGER___C__DISPLAYCLASS17_0__STARTMATCH_B__0_OFFSET UNITYSDK_OFFSET(0xC21AE20)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATPVPMANAGER___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCD2CF00)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATPVPMANAGER___C__DISPLAYCLASS17_0__STARTMATCH_B__0_OFFSET UNITYSDK_OFFSET(0xCD2E670)
 
 namespace RPG::Client::DiceCombat
 {
-	inline static constexpr unsigned int DiceCombatPVPManager___c__DisplayClass17_0_TypeDefinitionIndex = 72227;
+	inline static constexpr unsigned int DiceCombatPVPManager___c__DisplayClass17_0_TypeDefinitionIndex = 75663;
 
 	class DiceCombatPVPManager___c__DisplayClass17_0 : public ::System::Object
 	{

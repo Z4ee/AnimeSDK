@@ -6,11 +6,11 @@
 namespace RPG::Client { class CharacterArtModelEffectBehavior; }
 namespace RPG::Client { class CharacterArtModelEffectBehavior_Class_0_16E7307DCC43CB2C_22; }
 
-#define RPG_CLIENT_CHARACTERARTMODELEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0xBFCA610)
+#define RPG_CLIENT_CHARACTERARTMODELEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0xCAC34B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CharacterArtModelEffect_TypeDefinitionIndex = 67108;
+	inline static constexpr unsigned int CharacterArtModelEffect_TypeDefinitionIndex = 70215;
 
 	class CharacterArtModelEffect : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::CharacterArtModelEffectBehavior*>
 	{

@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ACTIVITYCONSTVALUESILVERWOLFROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B104830)
-#define RPG_GAMECORE_ACTIVITYCONSTVALUESILVERWOLFROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B104DB0)
+#define RPG_GAMECORE_ACTIVITYCONSTVALUESILVERWOLFROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CD7AF60)
+#define RPG_GAMECORE_ACTIVITYCONSTVALUESILVERWOLFROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD7B4E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityConstValueSilverWolfRow_TypeDefinitionIndex = 11880;
+	inline static constexpr unsigned int ActivityConstValueSilverWolfRow_TypeDefinitionIndex = 12269;
 
 	class ActivityConstValueSilverWolfRow : public ::System::Object
 	{

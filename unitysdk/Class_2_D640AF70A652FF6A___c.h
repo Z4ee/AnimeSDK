@@ -6,22 +6,22 @@
 namespace RPG::Client { class MonoEffect; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 
-#define CLASS_2_D640AF70A652FF6A___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xEB68250)
-#define CLASS_2_D640AF70A652FF6A___C__CTOR_OFFSET UNITYSDK_OFFSET(0xEB68290)
-#define CLASS_2_D640AF70A652FF6A___C__TRIGGERBODYWAVEEFFECT_B__20_0_OFFSET UNITYSDK_OFFSET(0xEB682A0)
+#define CLASS_2_D640AF70A652FF6A___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xFA72C80)
+#define CLASS_2_D640AF70A652FF6A___C__CTOR_OFFSET UNITYSDK_OFFSET(0xFA72CC0)
+#define CLASS_2_D640AF70A652FF6A___C__TRIGGERBODYWAVEEFFECT_B__20_0_OFFSET UNITYSDK_OFFSET(0xFA72CD0)
 
-inline static constexpr unsigned int Class_2_D640AF70A652FF6A___c_TypeDefinitionIndex = 54515;
+inline static constexpr unsigned int Class_2_D640AF70A652FF6A___c_TypeDefinitionIndex = 57236;
 
 class Class_2_D640AF70A652FF6A___c : public ::System::Object
 {
 public:
 	static ::System::Action_2<::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams>** StaticGet___9__20_0()
 	{
-		return (::System::Action_2<::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_D640AF70A652FF6A___c_TypeDefinitionIndex)->GetStaticField(0x68D30);
+		return (::System::Action_2<::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_D640AF70A652FF6A___c_TypeDefinitionIndex)->GetStaticField(0x18C40);
 	}
 	static ::Class_2_D640AF70A652FF6A___c** StaticGet___9()
 	{
-		return (::Class_2_D640AF70A652FF6A___c**)Il2CppClass::FromTypeDefinitionIndex(Class_2_D640AF70A652FF6A___c_TypeDefinitionIndex)->GetStaticField(0x68D38);
+		return (::Class_2_D640AF70A652FF6A___c**)Il2CppClass::FromTypeDefinitionIndex(Class_2_D640AF70A652FF6A___c_TypeDefinitionIndex)->GetStaticField(0x18C48);
 	}
 
 	static ::System::Void _cctor()

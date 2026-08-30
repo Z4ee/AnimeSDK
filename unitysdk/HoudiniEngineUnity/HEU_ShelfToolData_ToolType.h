@@ -3,7 +3,7 @@
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_ShelfToolData_ToolType_TypeDefinitionIndex = 38506;
+	inline static constexpr unsigned int HEU_ShelfToolData_ToolType_TypeDefinitionIndex = 39365;
 
 	enum class HEU_ShelfToolData_ToolType : ::System::Int32
 	{

@@ -11,12 +11,12 @@ namespace RPG::GameCore { class FloatVariableConfig; }
 namespace RPG::GameCore { class PredicateConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_STATETREETRANSITIONCONFIG_METHOD_2_081783F79FE20B8C_OFFSET UNITYSDK_OFFSET(0x1B90CC20)
-#define RPG_GAMECORE_STATETREETRANSITIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B90CF50)
+#define RPG_GAMECORE_STATETREETRANSITIONCONFIG_METHOD_2_081783F79FE20B8C_OFFSET UNITYSDK_OFFSET(0x1D56A4C0)
+#define RPG_GAMECORE_STATETREETRANSITIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D56A7F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StateTreeTransitionConfig_TypeDefinitionIndex = 14885;
+	inline static constexpr unsigned int StateTreeTransitionConfig_TypeDefinitionIndex = 15321;
 
 	class StateTreeTransitionConfig : public ::RPG::GameCore::JsonConfig
 	{

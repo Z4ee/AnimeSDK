@@ -8,18 +8,18 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class GameObject; }
 
-#define CLASS_2_E535003312C99D9D_GET_SOURCEOBJECT_OFFSET UNITYSDK_OFFSET(0x1468C9A0)
-#define CLASS_2_E535003312C99D9D_ONGRAPHSTART_OFFSET UNITYSDK_OFFSET(0x1468C9C0)
-#define CLASS_2_E535003312C99D9D_SET_SOURCEOBJECT_OFFSET UNITYSDK_OFFSET(0x1468C9B0)
-#define CLASS_2_E535003312C99D9D__CTOR_OFFSET UNITYSDK_OFFSET(0x1468CB80)
+#define CLASS_2_E535003312C99D9D_GET_SOURCEOBJECT_OFFSET UNITYSDK_OFFSET(0x154F6750)
+#define CLASS_2_E535003312C99D9D_ONGRAPHSTART_OFFSET UNITYSDK_OFFSET(0x154F6770)
+#define CLASS_2_E535003312C99D9D_SET_SOURCEOBJECT_OFFSET UNITYSDK_OFFSET(0x154F6760)
+#define CLASS_2_E535003312C99D9D__CTOR_OFFSET UNITYSDK_OFFSET(0x154F6930)
 
-inline static constexpr unsigned int Class_2_E535003312C99D9D_TypeDefinitionIndex = 47030;
+inline static constexpr unsigned int Class_2_E535003312C99D9D_TypeDefinitionIndex = 49286;
 
 class Class_2_E535003312C99D9D : public ::UnityEngine::Playables::PlayableBehaviour
 {
 public:
-	::UnityEngine::GameObject* _SourceObject_k__BackingField; // 0x10
-	::System::Collections::Generic::Dictionary_2<::System::String*, ::Class_2_E535003312C99D9D_Struct_2_5396005F9A53A130>* Field_2_1; // 0x18
+	::System::Collections::Generic::Dictionary_2<::System::String*, ::Class_2_E535003312C99D9D_Struct_2_5396005F9A53A130>* GEDIEOINCDK; // 0x10
+	::UnityEngine::GameObject* _SourceObject_k__BackingField; // 0x18
 
 	::System::Void _ctor()
 	{

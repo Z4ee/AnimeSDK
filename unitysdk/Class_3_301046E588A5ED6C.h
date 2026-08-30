@@ -12,25 +12,25 @@ namespace System { class String; }
 namespace System { template <typename T> class Func_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_3_301046E588A5ED6C_DISPOSE_OFFSET UNITYSDK_OFFSET(0x137FC780)
-#define CLASS_3_301046E588A5ED6C_DOONENTER_OFFSET UNITYSDK_OFFSET(0x137FC670)
-#define CLASS_3_301046E588A5ED6C_DOONEXIT_OFFSET UNITYSDK_OFFSET(0x137FC6F0)
-#define CLASS_3_301046E588A5ED6C_METHOD_3_8A4E7CFB6A3884DD_OFFSET UNITYSDK_OFFSET(0x137FCAA0)
-#define CLASS_3_301046E588A5ED6C_METHOD_3_98CF22BA36B43C83_OFFSET UNITYSDK_OFFSET(0x137FCB00)
-#define CLASS_3_301046E588A5ED6C_METHOD_3_E5264A23470727B2_OFFSET UNITYSDK_OFFSET(0x137FC850)
-#define CLASS_3_301046E588A5ED6C__CTOR_OFFSET UNITYSDK_OFFSET(0x137FC450)
+#define CLASS_3_301046E588A5ED6C_DISPOSE_OFFSET UNITYSDK_OFFSET(0x134D5F60)
+#define CLASS_3_301046E588A5ED6C_DOONENTER_OFFSET UNITYSDK_OFFSET(0x134D5E50)
+#define CLASS_3_301046E588A5ED6C_DOONEXIT_OFFSET UNITYSDK_OFFSET(0x134D5ED0)
+#define CLASS_3_301046E588A5ED6C_METHOD_3_8A4E7CFB6A3884DD_OFFSET UNITYSDK_OFFSET(0x134D6280)
+#define CLASS_3_301046E588A5ED6C_METHOD_3_98CF22BA36B43C83_OFFSET UNITYSDK_OFFSET(0x134D62E0)
+#define CLASS_3_301046E588A5ED6C_METHOD_3_E5264A23470727B2_OFFSET UNITYSDK_OFFSET(0x134D6030)
+#define CLASS_3_301046E588A5ED6C__CTOR_OFFSET UNITYSDK_OFFSET(0x134D5C30)
 
-inline static constexpr unsigned int Class_3_301046E588A5ED6C_TypeDefinitionIndex = 74924;
+inline static constexpr unsigned int Class_3_301046E588A5ED6C_TypeDefinitionIndex = 78409;
 
 class Class_3_301046E588A5ED6C : public ::Class_2_C5E5FE6832D0C155
 {
 public:
-	::Il2CppArray<::RPG::GameCore::EntityType>* Field_3_0; // 0xC0
-	::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::String*>* Field_3_1; // 0xC8
-	::System::Action* Field_3_2; // 0xD0
-	::System::Action* Field_3_3; // 0xD8
-	::System::Boolean Field_3_4; // 0xE0
-	::System::Boolean Field_3_5; // 0xE1
+	::System::Action* FFKBFPKEPEN; // 0xC0
+	::System::Action* NMPLHCJKEOI; // 0xC8
+	::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::String*>* DANLMFFLFLH; // 0xD0
+	::Il2CppArray<::RPG::GameCore::EntityType>* CCILDEPLEFF; // 0xD8
+	::System::Boolean INNLLCMIDFK; // 0xE0
+	::System::Boolean GFAMGLFOMGI; // 0xE1
 
 	::System::Void _ctor(::RPG::GameCore::GameEntity* a1, ::System::Int32 a2, ::Il2CppArray<::RPG::GameCore::OptionTriggerInfo*>* a3, ::Il2CppArray<::System::Action*>* a4, ::System::Func_1<::System::Boolean>* a5)
 	{

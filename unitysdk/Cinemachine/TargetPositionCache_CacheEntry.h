@@ -7,13 +7,13 @@ namespace Cinemachine { class TargetPositionCache_CacheCurve; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-#define CINEMACHINE_TARGETPOSITIONCACHE_CACHEENTRY_ADDRAWITEM_OFFSET UNITYSDK_OFFSET(0x156FD2C0)
-#define CINEMACHINE_TARGETPOSITIONCACHE_CACHEENTRY_CREATECURVES_OFFSET UNITYSDK_OFFSET(0x156FCE10)
-#define CINEMACHINE_TARGETPOSITIONCACHE_CACHEENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x156FD220)
+#define CINEMACHINE_TARGETPOSITIONCACHE_CACHEENTRY_ADDRAWITEM_OFFSET UNITYSDK_OFFSET(0x164870C0)
+#define CINEMACHINE_TARGETPOSITIONCACHE_CACHEENTRY_CREATECURVES_OFFSET UNITYSDK_OFFSET(0x16486C10)
+#define CINEMACHINE_TARGETPOSITIONCACHE_CACHEENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x16487020)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int TargetPositionCache_CacheEntry_TypeDefinitionIndex = 37694;
+	inline static constexpr unsigned int TargetPositionCache_CacheEntry_TypeDefinitionIndex = 38553;
 
 	class TargetPositionCache_CacheEntry : public ::System::Object
 	{

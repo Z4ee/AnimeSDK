@@ -3,7 +3,7 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-class Class_0_16E4307DCC419505_378;
+class Class_0_16E4307DCC419505_413;
 namespace RPG::Client { class MonoAnimationTrigger; }
 namespace RPG::Client::FateRin::Battle { class IFateRinBattleHudCardAreaViewModel; }
 namespace RPG::Client::FateRin::View::Battle { class FateRinBattleHudHandCardLayout; }
@@ -15,19 +15,19 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINADDCARDTOHANDFLOWVIEW_GET_SPAWNANCHORTRANSFORM_OFFSET UNITYSDK_OFFSET(0xC4DE660)
-#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINADDCARDTOHANDFLOWVIEW_METHOD_5_0B3CA52D1AD6A767_OFFSET UNITYSDK_OFFSET(0xC4DF3B0)
-#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINADDCARDTOHANDFLOWVIEW_METHOD_5_341A3DF81C331CBB_OFFSET UNITYSDK_OFFSET(0xC4DF7E0)
-#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINADDCARDTOHANDFLOWVIEW_METHOD_5_36414C46A95B72BB_OFFSET UNITYSDK_OFFSET(0xC4DF520)
-#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINADDCARDTOHANDFLOWVIEW_METHOD_5_382C3CF5F121EEBF_OFFSET UNITYSDK_OFFSET(0xC4DEDE0)
-#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINADDCARDTOHANDFLOWVIEW_METHOD_5_78C1E62FB9D29916_OFFSET UNITYSDK_OFFSET(0xC4DF940)
-#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINADDCARDTOHANDFLOWVIEW_METHOD_5_7F1A139D7A734F56_OFFSET UNITYSDK_OFFSET(0xC4DF6B0)
-#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINADDCARDTOHANDFLOWVIEW_PLAYADDCARDTOHANDFLOW_OFFSET UNITYSDK_OFFSET(0xC4DE6A0)
-#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINADDCARDTOHANDFLOWVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0xC4DFE30)
+#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINADDCARDTOHANDFLOWVIEW_GET_SPAWNANCHORTRANSFORM_OFFSET UNITYSDK_OFFSET(0xD0138D0)
+#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINADDCARDTOHANDFLOWVIEW_METHOD_5_0B3CA52D1AD6A767_OFFSET UNITYSDK_OFFSET(0xD014620)
+#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINADDCARDTOHANDFLOWVIEW_METHOD_5_341A3DF81C331CBB_OFFSET UNITYSDK_OFFSET(0xD014A50)
+#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINADDCARDTOHANDFLOWVIEW_METHOD_5_36414C46A95B72BB_OFFSET UNITYSDK_OFFSET(0xD014790)
+#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINADDCARDTOHANDFLOWVIEW_METHOD_5_382C3CF5F121EEBF_OFFSET UNITYSDK_OFFSET(0xD014050)
+#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINADDCARDTOHANDFLOWVIEW_METHOD_5_78C1E62FB9D29916_OFFSET UNITYSDK_OFFSET(0xD014BB0)
+#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINADDCARDTOHANDFLOWVIEW_METHOD_5_7F1A139D7A734F56_OFFSET UNITYSDK_OFFSET(0xD014920)
+#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINADDCARDTOHANDFLOWVIEW_PLAYADDCARDTOHANDFLOW_OFFSET UNITYSDK_OFFSET(0xD013910)
+#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINADDCARDTOHANDFLOWVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0xD015150)
 
 namespace RPG::Client::FateRin::View::Battle
 {
-	inline static constexpr unsigned int FateRinAddCardToHandFlowView_TypeDefinitionIndex = 75693;
+	inline static constexpr unsigned int FateRinAddCardToHandFlowView_TypeDefinitionIndex = 79326;
 
 	class FateRinAddCardToHandFlowView : public ::UnityEngine::MonoBehaviour
 	{
@@ -47,29 +47,29 @@ namespace RPG::Client::FateRin::View::Battle
 			return ((::UnityEngine::Transform*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINADDCARDTOHANDFLOWVIEW_GET_SPAWNANCHORTRANSFORM_OFFSET))(this);
 		}
 
-		::Class_0_16E4307DCC419505_378* PlayAddCardToHandFlow(::System::Collections::Generic::IList_1<::RPG::Client::FateRin::View::Card::FateRinCardPosControlView*>* a1, ::RPG::Client::FateRin::Battle::IFateRinBattleHudCardAreaViewModel* a2, ::RPG::Client::FateRin::View::Battle::FateRinBattleHudHandCardLayout* a3, ::RPG::Client::FateRin::View::Battle::FateRinEffectController* a4, ::System::Collections::Generic::IList_1<::UnityEngine::Vector3>* a5, ::RPG::Client::Promises::IPendingPromise* a6)
+		::Class_0_16E4307DCC419505_413* PlayAddCardToHandFlow(::System::Collections::Generic::IList_1<::RPG::Client::FateRin::View::Card::FateRinCardPosControlView*>* a1, ::RPG::Client::FateRin::Battle::IFateRinBattleHudCardAreaViewModel* a2, ::RPG::Client::FateRin::View::Battle::FateRinBattleHudHandCardLayout* a3, ::RPG::Client::FateRin::View::Battle::FateRinEffectController* a4, ::System::Collections::Generic::IList_1<::UnityEngine::Vector3>* a5, ::RPG::Client::Promises::IPendingPromise* a6)
 		{
-			return ((::Class_0_16E4307DCC419505_378*(*)(::PVOID, ::System::Collections::Generic::IList_1<::RPG::Client::FateRin::View::Card::FateRinCardPosControlView*>*, ::RPG::Client::FateRin::Battle::IFateRinBattleHudCardAreaViewModel*, ::RPG::Client::FateRin::View::Battle::FateRinBattleHudHandCardLayout*, ::RPG::Client::FateRin::View::Battle::FateRinEffectController*, ::System::Collections::Generic::IList_1<::UnityEngine::Vector3>*, ::RPG::Client::Promises::IPendingPromise*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINADDCARDTOHANDFLOWVIEW_PLAYADDCARDTOHANDFLOW_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+			return ((::Class_0_16E4307DCC419505_413*(*)(::PVOID, ::System::Collections::Generic::IList_1<::RPG::Client::FateRin::View::Card::FateRinCardPosControlView*>*, ::RPG::Client::FateRin::Battle::IFateRinBattleHudCardAreaViewModel*, ::RPG::Client::FateRin::View::Battle::FateRinBattleHudHandCardLayout*, ::RPG::Client::FateRin::View::Battle::FateRinEffectController*, ::System::Collections::Generic::IList_1<::UnityEngine::Vector3>*, ::RPG::Client::Promises::IPendingPromise*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINADDCARDTOHANDFLOWVIEW_PLAYADDCARDTOHANDFLOW_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::Class_0_16E4307DCC419505_378* Method_5_341A3DF81C331CBB(::RPG::Client::FateRin::View::Battle::FateRinEffectController* a1, ::System::Object* a2)
+		::Class_0_16E4307DCC419505_413* Method_5_341A3DF81C331CBB(::RPG::Client::FateRin::View::Battle::FateRinEffectController* a1, ::System::Object* a2)
 		{
-			return ((::Class_0_16E4307DCC419505_378*(*)(::PVOID, ::RPG::Client::FateRin::View::Battle::FateRinEffectController*, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINADDCARDTOHANDFLOWVIEW_METHOD_5_341A3DF81C331CBB_OFFSET))(this, a1, a2);
+			return ((::Class_0_16E4307DCC419505_413*(*)(::PVOID, ::RPG::Client::FateRin::View::Battle::FateRinEffectController*, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINADDCARDTOHANDFLOWVIEW_METHOD_5_341A3DF81C331CBB_OFFSET))(this, a1, a2);
 		}
 
-		::Class_0_16E4307DCC419505_378* Method_5_0B3CA52D1AD6A767(::System::Collections::Generic::IList_1<::RPG::Client::FateRin::View::Card::FateRinCardPosControlView*>* a1, ::RPG::Client::FateRin::Battle::IFateRinBattleHudCardAreaViewModel* a2, ::System::Collections::Generic::IList_1<::UnityEngine::Vector3>* a3)
+		::Class_0_16E4307DCC419505_413* Method_5_0B3CA52D1AD6A767(::System::Collections::Generic::IList_1<::RPG::Client::FateRin::View::Card::FateRinCardPosControlView*>* a1, ::RPG::Client::FateRin::Battle::IFateRinBattleHudCardAreaViewModel* a2, ::System::Collections::Generic::IList_1<::UnityEngine::Vector3>* a3)
 		{
-			return ((::Class_0_16E4307DCC419505_378*(*)(::PVOID, ::System::Collections::Generic::IList_1<::RPG::Client::FateRin::View::Card::FateRinCardPosControlView*>*, ::RPG::Client::FateRin::Battle::IFateRinBattleHudCardAreaViewModel*, ::System::Collections::Generic::IList_1<::UnityEngine::Vector3>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINADDCARDTOHANDFLOWVIEW_METHOD_5_0B3CA52D1AD6A767_OFFSET))(this, a1, a2, a3);
+			return ((::Class_0_16E4307DCC419505_413*(*)(::PVOID, ::System::Collections::Generic::IList_1<::RPG::Client::FateRin::View::Card::FateRinCardPosControlView*>*, ::RPG::Client::FateRin::Battle::IFateRinBattleHudCardAreaViewModel*, ::System::Collections::Generic::IList_1<::UnityEngine::Vector3>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINADDCARDTOHANDFLOWVIEW_METHOD_5_0B3CA52D1AD6A767_OFFSET))(this, a1, a2, a3);
 		}
 
-		::Class_0_16E4307DCC419505_378* Method_5_78C1E62FB9D29916(::System::Collections::Generic::IList_1<::RPG::Client::FateRin::View::Card::FateRinCardPosControlView*>* a1, ::RPG::Client::FateRin::View::Battle::FateRinBattleHudHandCardLayout* a2)
+		::Class_0_16E4307DCC419505_413* Method_5_78C1E62FB9D29916(::System::Collections::Generic::IList_1<::RPG::Client::FateRin::View::Card::FateRinCardPosControlView*>* a1, ::RPG::Client::FateRin::View::Battle::FateRinBattleHudHandCardLayout* a2)
 		{
-			return ((::Class_0_16E4307DCC419505_378*(*)(::PVOID, ::System::Collections::Generic::IList_1<::RPG::Client::FateRin::View::Card::FateRinCardPosControlView*>*, ::RPG::Client::FateRin::View::Battle::FateRinBattleHudHandCardLayout*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINADDCARDTOHANDFLOWVIEW_METHOD_5_78C1E62FB9D29916_OFFSET))(this, a1, a2);
+			return ((::Class_0_16E4307DCC419505_413*(*)(::PVOID, ::System::Collections::Generic::IList_1<::RPG::Client::FateRin::View::Card::FateRinCardPosControlView*>*, ::RPG::Client::FateRin::View::Battle::FateRinBattleHudHandCardLayout*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINADDCARDTOHANDFLOWVIEW_METHOD_5_78C1E62FB9D29916_OFFSET))(this, a1, a2);
 		}
 
-		::Class_0_16E4307DCC419505_378* Method_5_36414C46A95B72BB(::System::Collections::Generic::IList_1<::RPG::Client::FateRin::View::Card::FateRinCardPosControlView*>* a1, ::RPG::Client::FateRin::View::Battle::FateRinEffectController* a2, ::System::Object* a3, ::System::Collections::Generic::IList_1<::UnityEngine::Vector3>* a4)
+		::Class_0_16E4307DCC419505_413* Method_5_36414C46A95B72BB(::System::Collections::Generic::IList_1<::RPG::Client::FateRin::View::Card::FateRinCardPosControlView*>* a1, ::RPG::Client::FateRin::View::Battle::FateRinEffectController* a2, ::System::Object* a3, ::System::Collections::Generic::IList_1<::UnityEngine::Vector3>* a4)
 		{
-			return ((::Class_0_16E4307DCC419505_378*(*)(::PVOID, ::System::Collections::Generic::IList_1<::RPG::Client::FateRin::View::Card::FateRinCardPosControlView*>*, ::RPG::Client::FateRin::View::Battle::FateRinEffectController*, ::System::Object*, ::System::Collections::Generic::IList_1<::UnityEngine::Vector3>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINADDCARDTOHANDFLOWVIEW_METHOD_5_36414C46A95B72BB_OFFSET))(this, a1, a2, a3, a4);
+			return ((::Class_0_16E4307DCC419505_413*(*)(::PVOID, ::System::Collections::Generic::IList_1<::RPG::Client::FateRin::View::Card::FateRinCardPosControlView*>*, ::RPG::Client::FateRin::View::Battle::FateRinEffectController*, ::System::Object*, ::System::Collections::Generic::IList_1<::UnityEngine::Vector3>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINADDCARDTOHANDFLOWVIEW_METHOD_5_36414C46A95B72BB_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::RPG::Client::MonoAnimationTrigger* Method_5_7F1A139D7A734F56(::RPG::Client::FateRin::View::Card::FateRinCardPosControlView* a1)

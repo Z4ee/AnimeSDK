@@ -10,45 +10,45 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Collider; }
 
-#define RPG_CLIENT_IRIRENDERER_AWAKE_OFFSET UNITYSDK_OFFSET(0xC8C7910)
-#define RPG_CLIENT_IRIRENDERER_GET_UPDATETRANSFORM_OFFSET UNITYSDK_OFFSET(0xC8C7F00)
-#define RPG_CLIENT_IRIRENDERER_METHOD_5_3A7AB6A3EF7DB649_OFFSET UNITYSDK_OFFSET(0xC8C7960)
-#define RPG_CLIENT_IRIRENDERER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xC8C7DD0)
-#define RPG_CLIENT_IRIRENDERER_ONENABLE_OFFSET UNITYSDK_OFFSET(0xC8C7CA0)
-#define RPG_CLIENT_IRIRENDERER_SET_UPDATETRANSFORM_OFFSET UNITYSDK_OFFSET(0xC8C7F10)
-#define RPG_CLIENT_IRIRENDERER__CCTOR_OFFSET UNITYSDK_OFFSET(0xC8C7F50)
-#define RPG_CLIENT_IRIRENDERER__CTOR_OFFSET UNITYSDK_OFFSET(0xC8C7F20)
+#define RPG_CLIENT_IRIRENDERER_AWAKE_OFFSET UNITYSDK_OFFSET(0xD3E5B10)
+#define RPG_CLIENT_IRIRENDERER_GET_UPDATETRANSFORM_OFFSET UNITYSDK_OFFSET(0xD3E6100)
+#define RPG_CLIENT_IRIRENDERER_METHOD_5_3A7AB6A3EF7DB649_OFFSET UNITYSDK_OFFSET(0xD3E5B60)
+#define RPG_CLIENT_IRIRENDERER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xD3E5FD0)
+#define RPG_CLIENT_IRIRENDERER_ONENABLE_OFFSET UNITYSDK_OFFSET(0xD3E5EA0)
+#define RPG_CLIENT_IRIRENDERER_SET_UPDATETRANSFORM_OFFSET UNITYSDK_OFFSET(0xD3E6110)
+#define RPG_CLIENT_IRIRENDERER__CCTOR_OFFSET UNITYSDK_OFFSET(0xD3E6150)
+#define RPG_CLIENT_IRIRENDERER__CTOR_OFFSET UNITYSDK_OFFSET(0xD3E6120)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IRIRenderer_TypeDefinitionIndex = 65819;
+	inline static constexpr unsigned int IRIRenderer_TypeDefinitionIndex = 68857;
 
 	class IRIRenderer : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::System::Collections::Generic::HashSet_1<::RPG::Client::IRIRenderer*>** StaticGet_Field_5_0()
+		static ::System::Collections::Generic::List_1<::RPG::Client::IRIRenderer*>** StaticGet_PHOKFJMLCDE()
 		{
-			return (::System::Collections::Generic::HashSet_1<::RPG::Client::IRIRenderer*>**)Il2CppClass::FromTypeDefinitionIndex(IRIRenderer_TypeDefinitionIndex)->GetStaticField(0x32970);
+			return (::System::Collections::Generic::List_1<::RPG::Client::IRIRenderer*>**)Il2CppClass::FromTypeDefinitionIndex(IRIRenderer_TypeDefinitionIndex)->GetStaticField(0x5C100);
 		}
-		static ::RPG::Client::IRIManager** StaticGet_Field_5_1()
+		static ::System::Collections::Generic::HashSet_1<::RPG::Client::IRIRenderer*>** StaticGet_KPODFFOJOBN()
 		{
-			return (::RPG::Client::IRIManager**)Il2CppClass::FromTypeDefinitionIndex(IRIRenderer_TypeDefinitionIndex)->GetStaticField(0x32978);
+			return (::System::Collections::Generic::HashSet_1<::RPG::Client::IRIRenderer*>**)Il2CppClass::FromTypeDefinitionIndex(IRIRenderer_TypeDefinitionIndex)->GetStaticField(0x5C108);
 		}
-		static ::System::Collections::Generic::List_1<::RPG::Client::IRIRenderer*>** StaticGet_Field_5_2()
+		static ::RPG::Client::IRIManager** StaticGet_KJEGMPNCGEH()
 		{
-			return (::System::Collections::Generic::List_1<::RPG::Client::IRIRenderer*>**)Il2CppClass::FromTypeDefinitionIndex(IRIRenderer_TypeDefinitionIndex)->GetStaticField(0x32980);
+			return (::RPG::Client::IRIManager**)Il2CppClass::FromTypeDefinitionIndex(IRIRenderer_TypeDefinitionIndex)->GetStaticField(0x5C110);
 		}
 		static ::System::Boolean* StaticGet_UseGlobalVolume()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(IRIRenderer_TypeDefinitionIndex)->GetStaticField(0x8800);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(IRIRenderer_TypeDefinitionIndex)->GetStaticField(0x12F30);
 		}
 		::System::String* DataAssetPath; // 0x18
 		::System::Boolean _UpdateTransform_k__BackingField; // 0x20
-		::Class_1_B947D336595B4072* Field_5_6; // 0x28
-		::System::UInt64 Field_5_7; // 0x30
-		::UnityEngine::Collider* Field_5_8; // 0x38
-		::UnityEngine::Vector3 Field_5_9; // 0x40
-		::UnityEngine::Vector3 Field_5_10; // 0x4C
+		::Class_1_B947D336595B4072* JOOGPAFFGNM; // 0x28
+		::System::UInt64 PJDJNFIMJFK; // 0x30
+		::UnityEngine::Collider* ADKPEOEFBFI; // 0x38
+		::UnityEngine::Vector3 KFEJGBAKKEF; // 0x40
+		::UnityEngine::Vector3 NCBBBANOECE; // 0x4C
 
 		::System::Void _ctor()
 		{

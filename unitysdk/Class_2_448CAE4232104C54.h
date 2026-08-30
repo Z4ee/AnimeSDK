@@ -7,10 +7,10 @@ namespace RPG::GameCore { class RtTargetMapGridNearby; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_448CAE4232104C54_TRANSFORM_OFFSET UNITYSDK_OFFSET(0xB223780)
-#define CLASS_2_448CAE4232104C54__CTOR_OFFSET UNITYSDK_OFFSET(0xB223760)
+#define CLASS_2_448CAE4232104C54_TRANSFORM_OFFSET UNITYSDK_OFFSET(0xBBF8B90)
+#define CLASS_2_448CAE4232104C54__CTOR_OFFSET UNITYSDK_OFFSET(0xBBF8B70)
 
-inline static constexpr unsigned int Class_2_448CAE4232104C54_TypeDefinitionIndex = 51340;
+inline static constexpr unsigned int Class_2_448CAE4232104C54_TypeDefinitionIndex = 54024;
 
 class Class_2_448CAE4232104C54 : public ::RPG::GameCore::TargetSeqOperationImpl_1<::RPG::GameCore::RtTargetMapGridNearby*>
 {

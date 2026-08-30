@@ -5,12 +5,12 @@
 class Class_1_EAF7984A8FAD6BE4;
 namespace System { class String; }
 
-#define ENVIROMENTSYSTEMV2SPACE_LAYOUTTEXTPROPERTYDATA_METHOD_4_82ABFE24D5168B0C_OFFSET UNITYSDK_OFFSET(0x14533A20)
-#define ENVIROMENTSYSTEMV2SPACE_LAYOUTTEXTPROPERTYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x14533AC0)
+#define ENVIROMENTSYSTEMV2SPACE_LAYOUTTEXTPROPERTYDATA_METHOD_4_82ABFE24D5168B0C_OFFSET UNITYSDK_OFFSET(0x153665B0)
+#define ENVIROMENTSYSTEMV2SPACE_LAYOUTTEXTPROPERTYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x15366650)
 
 namespace EnviromentSystemV2Space
 {
-	inline static constexpr unsigned int LayoutTextPropertyData_TypeDefinitionIndex = 47516;
+	inline static constexpr unsigned int LayoutTextPropertyData_TypeDefinitionIndex = 49797;
 
 	class LayoutTextPropertyData : public ::EnviromentSystemV2Space::LayoutPropertyData_1<::System::String*>
 	{

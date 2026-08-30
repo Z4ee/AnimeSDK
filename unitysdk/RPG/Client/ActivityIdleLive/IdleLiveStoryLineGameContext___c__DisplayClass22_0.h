@@ -4,12 +4,12 @@
 
 namespace RPG::Client::ActivityIdleLive { class IdleLiveStoryLineGameContext; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVESTORYLINEGAMECONTEXT___C__DISPLAYCLASS22_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBBC1E50)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVESTORYLINEGAMECONTEXT___C__DISPLAYCLASS22_0___FINISHBATTLEWIN_B__1_OFFSET UNITYSDK_OFFSET(0xBBC2350)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVESTORYLINEGAMECONTEXT___C__DISPLAYCLASS22_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC5DF9E0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVESTORYLINEGAMECONTEXT___C__DISPLAYCLASS22_0___FINISHBATTLEWIN_B__1_OFFSET UNITYSDK_OFFSET(0xC5DFED0)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveStoryLineGameContext___c__DisplayClass22_0_TypeDefinitionIndex = 71719;
+	inline static constexpr unsigned int IdleLiveStoryLineGameContext___c__DisplayClass22_0_TypeDefinitionIndex = 75025;
 
 	class IdleLiveStoryLineGameContext___c__DisplayClass22_0 : public ::System::Object
 	{

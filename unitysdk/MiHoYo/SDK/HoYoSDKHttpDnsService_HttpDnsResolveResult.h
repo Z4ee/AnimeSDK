@@ -5,11 +5,11 @@
 namespace MiHoYo::SDK { class HoYoSDKHttpDnsService_HttpDnsResolveObject; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MIHOYO_SDK_HOYOSDKHTTPDNSSERVICE_HTTPDNSRESOLVERESULT__CTOR_OFFSET UNITYSDK_OFFSET(0xAABE9D0)
+#define MIHOYO_SDK_HOYOSDKHTTPDNSSERVICE_HTTPDNSRESOLVERESULT__CTOR_OFFSET UNITYSDK_OFFSET(0xB1FEF50)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int HoYoSDKHttpDnsService_HttpDnsResolveResult_TypeDefinitionIndex = 44365;
+	inline static constexpr unsigned int HoYoSDKHttpDnsService_HttpDnsResolveResult_TypeDefinitionIndex = 46547;
 
 	class HoYoSDKHttpDnsService_HttpDnsResolveResult : public ::System::Object
 	{

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByFromBattleViewModeChange; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_104EDC54B5A5FB3F_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB274C80)
-#define CLASS_3_104EDC54B5A5FB3F__CTOR_OFFSET UNITYSDK_OFFSET(0xB274C50)
+#define CLASS_3_104EDC54B5A5FB3F_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBC53280)
+#define CLASS_3_104EDC54B5A5FB3F__CTOR_OFFSET UNITYSDK_OFFSET(0xBC53250)
 
-inline static constexpr unsigned int Class_3_104EDC54B5A5FB3F_TypeDefinitionIndex = 52130;
+inline static constexpr unsigned int Class_3_104EDC54B5A5FB3F_TypeDefinitionIndex = 54816;
 
 class Class_3_104EDC54B5A5FB3F : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByFromBattleViewModeChange*>
 {

@@ -4,23 +4,23 @@
 
 namespace System { class String; }
 
-#define ZXING_ONED_UPCEREADER_CONVERTUPCETOUPCA_OFFSET UNITYSDK_OFFSET(0x1D2F3FA0)
-#define ZXING_ONED_UPCEREADER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D2F4510)
+#define ZXING_ONED_UPCEREADER_CONVERTUPCETOUPCA_OFFSET UNITYSDK_OFFSET(0x1EFFF910)
+#define ZXING_ONED_UPCEREADER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EFFFE80)
 
 namespace ZXing::OneD
 {
-	inline static constexpr unsigned int UPCEReader_TypeDefinitionIndex = 6470;
+	inline static constexpr unsigned int UPCEReader_TypeDefinitionIndex = 7015;
 
 	class UPCEReader : public ::ZXing::OneD::UPCEANReader
 	{
 	public:
-		static ::Il2CppArray<::System::Int32>** StaticGet_MIDDLE_END_PATTERN()
-		{
-			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UPCEReader_TypeDefinitionIndex)->GetStaticField(0x23C0);
-		}
 		static ::Il2CppArray<::Il2CppArray<::System::Int32>*>** StaticGet_NUMSYS_AND_CHECK_DIGIT_PATTERNS()
 		{
-			return (::Il2CppArray<::Il2CppArray<::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(UPCEReader_TypeDefinitionIndex)->GetStaticField(0x23C8);
+			return (::Il2CppArray<::Il2CppArray<::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(UPCEReader_TypeDefinitionIndex)->GetStaticField(0x27810);
+		}
+		static ::Il2CppArray<::System::Int32>** StaticGet_MIDDLE_END_PATTERN()
+		{
+			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UPCEReader_TypeDefinitionIndex)->GetStaticField(0x27818);
 		}
 
 		static ::System::Void _cctor()

@@ -5,19 +5,19 @@
 namespace MiHoYo::SDK::PC::OS { class PurchaseData; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELCHECKOUTRESULT_FROMJSON_OFFSET UNITYSDK_OFFSET(0x19D6CF70)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELCHECKOUTRESULT_TOJSON_OFFSET UNITYSDK_OFFSET(0x19D6CF60)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELCHECKOUTRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x19D6CFB0)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELCHECKOUTRESULT_FROMJSON_OFFSET UNITYSDK_OFFSET(0x1BA1DF50)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELCHECKOUTRESULT_TOJSON_OFFSET UNITYSDK_OFFSET(0x1BA1DF40)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELCHECKOUTRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA1DF90)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int HoYoChannelCheckoutResult_TypeDefinitionIndex = 8473;
+	inline static constexpr unsigned int HoYoChannelCheckoutResult_TypeDefinitionIndex = 8541;
 
 	class HoYoChannelCheckoutResult : public ::MiHoYo::SDK::PC::OS::HoYoChannelBaseResult
 	{
 	public:
-		::MiHoYo::SDK::PC::OS::PurchaseData* purchase; // 0x28
-		::System::Boolean canceled; // 0x30
+		::MiHoYo::SDK::PC::OS::PurchaseData* purchase; // 0x30
+		::System::Boolean canceled; // 0x38
 
 		::System::Void _ctor()
 		{

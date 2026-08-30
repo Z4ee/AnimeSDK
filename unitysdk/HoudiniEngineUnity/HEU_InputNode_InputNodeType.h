@@ -3,7 +3,7 @@
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_InputNode_InputNodeType_TypeDefinitionIndex = 38247;
+	inline static constexpr unsigned int HEU_InputNode_InputNodeType_TypeDefinitionIndex = 39106;
 
 	enum class HEU_InputNode_InputNodeType : ::System::Int32
 	{

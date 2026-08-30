@@ -6,19 +6,19 @@ namespace RPG::Client::Prop { class ScenePuzzleItemBase; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class Collider; }
 
-#define RPG_CLIENT_PROP_SCENEPUZZLEBOARDBASE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xD228D60)
-#define RPG_CLIENT_PROP_SCENEPUZZLEBOARDBASE_METHOD_6_90C7606F2C268BB2_OFFSET UNITYSDK_OFFSET(0xD228880)
-#define RPG_CLIENT_PROP_SCENEPUZZLEBOARDBASE_UPDATE_OFFSET UNITYSDK_OFFSET(0xD2289C0)
-#define RPG_CLIENT_PROP_SCENEPUZZLEBOARDBASE__CTOR_OFFSET UNITYSDK_OFFSET(0xD228E00)
+#define RPG_CLIENT_PROP_SCENEPUZZLEBOARDBASE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xDD2D370)
+#define RPG_CLIENT_PROP_SCENEPUZZLEBOARDBASE_METHOD_6_90C7606F2C268BB2_OFFSET UNITYSDK_OFFSET(0xDD2CE90)
+#define RPG_CLIENT_PROP_SCENEPUZZLEBOARDBASE_UPDATE_OFFSET UNITYSDK_OFFSET(0xDD2CFD0)
+#define RPG_CLIENT_PROP_SCENEPUZZLEBOARDBASE__CTOR_OFFSET UNITYSDK_OFFSET(0xDD2D410)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ScenePuzzleBoardBase_TypeDefinitionIndex = 74899;
+	inline static constexpr unsigned int ScenePuzzleBoardBase_TypeDefinitionIndex = 78384;
 
 	class ScenePuzzleBoardBase : public ::RPG::Client::Prop::PuzzleBoardBase
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::RPG::Client::Prop::ScenePuzzleItemBase*, ::UnityEngine::Collider*>* Field_6_0; // 0x48
+		::System::Collections::Generic::Dictionary_2<::RPG::Client::Prop::ScenePuzzleItemBase*, ::UnityEngine::Collider*>* DNELBNCKKEE; // 0x48
 
 		::System::Void _ctor()
 		{

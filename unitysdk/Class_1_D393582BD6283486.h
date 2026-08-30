@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_71AA90D596A09AC8_9.h"
+#include "unitysdk/Enum_3_71AA90D596A09AC8_10.h"
 #include "unitysdk/RPG/Client/ChenLingBattle/SoldierPropertyChangeType.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/System/Object.h"
@@ -11,22 +11,22 @@ namespace RPG { template <typename T1, typename T2> class PoolDictionary_2; }
 namespace RPG::Client::ChenLingBattle { class Soldier; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_D393582BD6283486_DISPOSE_OFFSET UNITYSDK_OFFSET(0xCACA470)
-#define CLASS_1_D393582BD6283486_METHOD_1_175E8684F7D817CF_OFFSET UNITYSDK_OFFSET(0xCACA770)
-#define CLASS_1_D393582BD6283486_METHOD_1_739DB9F245C7FAD0_OFFSET UNITYSDK_OFFSET(0xCACA4F0)
-#define CLASS_1_D393582BD6283486_METHOD_1_74A8A6B080457733_OFFSET UNITYSDK_OFFSET(0xCACA1F0)
-#define CLASS_1_D393582BD6283486_METHOD_1_81275B848FB21F2A_OFFSET UNITYSDK_OFFSET(0xCACA9A0)
-#define CLASS_1_D393582BD6283486_METHOD_1_E965414E177FFCFE_OFFSET UNITYSDK_OFFSET(0xCACAF70)
-#define CLASS_1_D393582BD6283486__CTOR_OFFSET UNITYSDK_OFFSET(0xCACA460)
+#define CLASS_1_D393582BD6283486_DISPOSE_OFFSET UNITYSDK_OFFSET(0xD267A40)
+#define CLASS_1_D393582BD6283486_METHOD_1_175E8684F7D817CF_OFFSET UNITYSDK_OFFSET(0xD267D40)
+#define CLASS_1_D393582BD6283486_METHOD_1_739DB9F245C7FAD0_OFFSET UNITYSDK_OFFSET(0xD267AC0)
+#define CLASS_1_D393582BD6283486_METHOD_1_74A8A6B080457733_OFFSET UNITYSDK_OFFSET(0xD2677C0)
+#define CLASS_1_D393582BD6283486_METHOD_1_81275B848FB21F2A_OFFSET UNITYSDK_OFFSET(0xD267F70)
+#define CLASS_1_D393582BD6283486_METHOD_1_E965414E177FFCFE_OFFSET UNITYSDK_OFFSET(0xD268540)
+#define CLASS_1_D393582BD6283486__CTOR_OFFSET UNITYSDK_OFFSET(0xD267A30)
 
-inline static constexpr unsigned int Class_1_D393582BD6283486_TypeDefinitionIndex = 72469;
+inline static constexpr unsigned int Class_1_D393582BD6283486_TypeDefinitionIndex = 75905;
 
 class Class_1_D393582BD6283486 : public ::System::Object
 {
 public:
-	::RPG::Client::ChenLingBattle::Soldier* Field_1_0; // 0x10
-	::RPG::PoolDictionary_2<::Enum_3_71AA90D596A09AC8_9, ::Class_1_9558C17B323AF335*>* Field_1_1; // 0x18
-	::RPG::PoolDictionary_2<::Enum_3_71AA90D596A09AC8_9, ::Class_1_9558C17B323AF335*>* Field_1_2; // 0x20
+	::RPG::PoolDictionary_2<::Enum_3_71AA90D596A09AC8_10, ::Class_1_9558C17B323AF335*>* CEBECBOBLDO; // 0x10
+	::RPG::Client::ChenLingBattle::Soldier* APDOFPIONOB; // 0x18
+	::RPG::PoolDictionary_2<::Enum_3_71AA90D596A09AC8_10, ::Class_1_9558C17B323AF335*>* FCBNHDCINHC; // 0x20
 
 	::System::Void _ctor()
 	{
@@ -53,9 +53,9 @@ public:
 		return ((::Class_1_E8533E8BF8712E1D*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_D393582BD6283486_METHOD_1_175E8684F7D817CF_OFFSET))(this);
 	}
 
-	::System::Void Method_1_81275B848FB21F2A(::System::Collections::Generic::List_1<::RPG::GameCore::FixPoint>* a1, ::System::Collections::Generic::List_1<::RPG::GameCore::FixPoint>* a2, ::RPG::Client::ChenLingBattle::SoldierPropertyChangeType a3, ::Enum_3_71AA90D596A09AC8_9 a4, ::Class_1_E8533E8BF8712E1D*& a5)
+	::System::Void Method_1_81275B848FB21F2A(::System::Collections::Generic::List_1<::RPG::GameCore::FixPoint>* a1, ::System::Collections::Generic::List_1<::RPG::GameCore::FixPoint>* a2, ::RPG::Client::ChenLingBattle::SoldierPropertyChangeType a3, ::Enum_3_71AA90D596A09AC8_10 a4, ::Class_1_E8533E8BF8712E1D*& a5)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::GameCore::FixPoint>*, ::System::Collections::Generic::List_1<::RPG::GameCore::FixPoint>*, ::RPG::Client::ChenLingBattle::SoldierPropertyChangeType, ::Enum_3_71AA90D596A09AC8_9, ::Class_1_E8533E8BF8712E1D*&))((::PBYTE)hIl2Cpp + CLASS_1_D393582BD6283486_METHOD_1_81275B848FB21F2A_OFFSET))(this, a1, a2, a3, a4, a5);
+		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::GameCore::FixPoint>*, ::System::Collections::Generic::List_1<::RPG::GameCore::FixPoint>*, ::RPG::Client::ChenLingBattle::SoldierPropertyChangeType, ::Enum_3_71AA90D596A09AC8_10, ::Class_1_E8533E8BF8712E1D*&))((::PBYTE)hIl2Cpp + CLASS_1_D393582BD6283486_METHOD_1_81275B848FB21F2A_OFFSET))(this, a1, a2, a3, a4, a5);
 	}
 
 	::RPG::PoolDictionary_2<::RPG::GameCore::FixPoint, ::System::Int32>* Method_1_E965414E177FFCFE(::System::Collections::Generic::List_1<::RPG::GameCore::FixPoint>* a1)

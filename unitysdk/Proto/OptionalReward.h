@@ -9,41 +9,41 @@ namespace Google::Protobuf { template <typename T> class MessageParser_1; }
 namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 namespace System { class String; }
 
-#define PROTO_OPTIONALREWARD_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1BC84A20)
-#define PROTO_OPTIONALREWARD_CLONE_OFFSET UNITYSDK_OFFSET(0x1BC84620)
-#define PROTO_OPTIONALREWARD_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1BC847E0)
-#define PROTO_OPTIONALREWARD_EQUALS_OFFSET UNITYSDK_OFFSET(0x1BC846D0)
-#define PROTO_OPTIONALREWARD_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1BC848B0)
-#define PROTO_OPTIONALREWARD_GET_LEVEL_OFFSET UNITYSDK_OFFSET(0x1BC84690)
-#define PROTO_OPTIONALREWARD_GET_OPTIONALREWARDID_OFFSET UNITYSDK_OFFSET(0x1BC846B0)
-#define PROTO_OPTIONALREWARD_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x1BC84570)
-#define PROTO_OPTIONALREWARD_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1BC84B70)
-#define PROTO_OPTIONALREWARD_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1BC84B30)
-#define PROTO_OPTIONALREWARD_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1BC845D0)
-#define PROTO_OPTIONALREWARD_SET_LEVEL_OFFSET UNITYSDK_OFFSET(0x1BC846A0)
-#define PROTO_OPTIONALREWARD_SET_OPTIONALREWARDID_OFFSET UNITYSDK_OFFSET(0x1BC846C0)
-#define PROTO_OPTIONALREWARD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1BC848E0)
-#define PROTO_OPTIONALREWARD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1BC84940)
-#define PROTO_OPTIONALREWARD__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BC84CF0)
-#define PROTO_OPTIONALREWARD__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1BC845F0)
-#define PROTO_OPTIONALREWARD__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC845E0)
+#define PROTO_OPTIONALREWARD_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1D970BB0)
+#define PROTO_OPTIONALREWARD_CLONE_OFFSET UNITYSDK_OFFSET(0x1D9707B0)
+#define PROTO_OPTIONALREWARD_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1D970970)
+#define PROTO_OPTIONALREWARD_EQUALS_OFFSET UNITYSDK_OFFSET(0x1D970860)
+#define PROTO_OPTIONALREWARD_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1D970A40)
+#define PROTO_OPTIONALREWARD_GET_LEVEL_OFFSET UNITYSDK_OFFSET(0x1D970840)
+#define PROTO_OPTIONALREWARD_GET_OPTIONALREWARDID_OFFSET UNITYSDK_OFFSET(0x1D970820)
+#define PROTO_OPTIONALREWARD_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x1D970700)
+#define PROTO_OPTIONALREWARD_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1D970D00)
+#define PROTO_OPTIONALREWARD_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1D970CC0)
+#define PROTO_OPTIONALREWARD_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1D970760)
+#define PROTO_OPTIONALREWARD_SET_LEVEL_OFFSET UNITYSDK_OFFSET(0x1D970850)
+#define PROTO_OPTIONALREWARD_SET_OPTIONALREWARDID_OFFSET UNITYSDK_OFFSET(0x1D970830)
+#define PROTO_OPTIONALREWARD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1D970A70)
+#define PROTO_OPTIONALREWARD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1D970AD0)
+#define PROTO_OPTIONALREWARD__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D970E80)
+#define PROTO_OPTIONALREWARD__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1D970780)
+#define PROTO_OPTIONALREWARD__CTOR_OFFSET UNITYSDK_OFFSET(0x1D970770)
 
 namespace Proto
 {
-	inline static constexpr unsigned int OptionalReward_TypeDefinitionIndex = 25472;
+	inline static constexpr unsigned int OptionalReward_TypeDefinitionIndex = 26138;
 
 	class OptionalReward : public ::System::Object
 	{
 	public:
 		static ::Google::Protobuf::MessageParser_1<::Proto::OptionalReward*>** StaticGet__parser()
 		{
-			return (::Google::Protobuf::MessageParser_1<::Proto::OptionalReward*>**)Il2CppClass::FromTypeDefinitionIndex(OptionalReward_TypeDefinitionIndex)->GetStaticField(0x242C0);
+			return (::Google::Protobuf::MessageParser_1<::Proto::OptionalReward*>**)Il2CppClass::FromTypeDefinitionIndex(OptionalReward_TypeDefinitionIndex)->GetStaticField(0x36040);
 		}
-		// static const ::System::Int32 LevelFieldNumber = 0xF; // 0x0
-		// static const ::System::Int32 OptionalRewardIdFieldNumber = 0x3; // 0x0
+		// static const ::System::Int32 OptionalRewardIdFieldNumber = 0x5; // 0x0
+		// static const ::System::Int32 LevelFieldNumber = 0xD; // 0x0
 		::Google::Protobuf::UnknownFieldSet* _unknownFields; // 0x10
-		::System::UInt32 level_; // 0x18
-		::System::UInt32 optionalRewardId_; // 0x1C
+		::System::UInt32 optionalRewardId_; // 0x18
+		::System::UInt32 level_; // 0x1C
 
 		::System::Void _ctor()
 		{
@@ -75,16 +75,6 @@ namespace Proto
 			return ((::Proto::OptionalReward*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_OPTIONALREWARD_CLONE_OFFSET))(this);
 		}
 
-		::System::UInt32 get_Level()
-		{
-			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_OPTIONALREWARD_GET_LEVEL_OFFSET))(this);
-		}
-
-		::System::Void set_Level(::System::UInt32 a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_OPTIONALREWARD_SET_LEVEL_OFFSET))(this, a1);
-		}
-
 		::System::UInt32 get_OptionalRewardId()
 		{
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_OPTIONALREWARD_GET_OPTIONALREWARDID_OFFSET))(this);
@@ -93,6 +83,16 @@ namespace Proto
 		::System::Void set_OptionalRewardId(::System::UInt32 a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_OPTIONALREWARD_SET_OPTIONALREWARDID_OFFSET))(this, a1);
+		}
+
+		::System::UInt32 get_Level()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_OPTIONALREWARD_GET_LEVEL_OFFSET))(this);
+		}
+
+		::System::Void set_Level(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_OPTIONALREWARD_SET_LEVEL_OFFSET))(this, a1);
 		}
 
 		::System::Boolean Equals(::System::Object* a1)

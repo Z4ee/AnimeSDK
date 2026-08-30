@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK::InputSystem
 {
-	inline static constexpr unsigned int IJoystickService_TypeDefinitionIndex = 9814;
+	inline static constexpr unsigned int IJoystickService_TypeDefinitionIndex = 10093;
 
 	class IJoystickService
 	{

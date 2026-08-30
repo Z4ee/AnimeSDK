@@ -4,18 +4,18 @@
 
 namespace System { class String; }
 
-#define CLASS_2_40ADB44059E270C5_1_METHOD_2_DA1BF2C227DC3D86_OFFSET UNITYSDK_OFFSET(0xB473B10)
-#define CLASS_2_40ADB44059E270C5_1__CCTOR_OFFSET UNITYSDK_OFFSET(0xB473B60)
-#define CLASS_2_40ADB44059E270C5_1__CTOR_OFFSET UNITYSDK_OFFSET(0xB473B00)
+#define CLASS_2_40ADB44059E270C5_1_METHOD_2_DA1BF2C227DC3D86_OFFSET UNITYSDK_OFFSET(0xBE5D290)
+#define CLASS_2_40ADB44059E270C5_1__CCTOR_OFFSET UNITYSDK_OFFSET(0xBE5D2E0)
+#define CLASS_2_40ADB44059E270C5_1__CTOR_OFFSET UNITYSDK_OFFSET(0xBE5D280)
 
-inline static constexpr unsigned int Class_2_40ADB44059E270C5_1_TypeDefinitionIndex = 64281;
+inline static constexpr unsigned int Class_2_40ADB44059E270C5_1_TypeDefinitionIndex = 67276;
 
 class Class_2_40ADB44059E270C5_1 : public ::Class_1_070447EE4188B20D
 {
 public:
-	static ::Class_2_40ADB44059E270C5_1** StaticGet_Field_2_0()
+	static ::Class_2_40ADB44059E270C5_1** StaticGet_FMJPMFEDIJL()
 	{
-		return (::Class_2_40ADB44059E270C5_1**)Il2CppClass::FromTypeDefinitionIndex(Class_2_40ADB44059E270C5_1_TypeDefinitionIndex)->GetStaticField(0x637A0);
+		return (::Class_2_40ADB44059E270C5_1**)Il2CppClass::FromTypeDefinitionIndex(Class_2_40ADB44059E270C5_1_TypeDefinitionIndex)->GetStaticField(0x52F60);
 	}
 
 	::System::Void _ctor()

@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_GRIDFIGHTPRAYCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B4E57E0)
-#define RPG_GAMECORE_GRIDFIGHTPRAYCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4E58A0)
+#define RPG_GAMECORE_GRIDFIGHTPRAYCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D15F070)
+#define RPG_GAMECORE_GRIDFIGHTPRAYCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D15F130)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightPrayConfigRow_TypeDefinitionIndex = 12991;
+	inline static constexpr unsigned int GridFightPrayConfigRow_TypeDefinitionIndex = 13382;
 
 	class GridFightPrayConfigRow : public ::System::Object
 	{

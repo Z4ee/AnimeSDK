@@ -5,7 +5,7 @@
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-class Class_1_0AAA29E827EB555D_Class_1_EC3ABC8DB6869895;
+class Class_1_0AAA29E827EB555D_Class_1_4452B3A96D121692;
 namespace RPG::Client { class DialogEmitterBehavior_DialogData; }
 namespace RPG::Client { class DialogEmitterMonoPlugin; }
 namespace RootMotion::IKJob { class IKThreadProxyContext; }
@@ -14,41 +14,41 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class Transform; }
 
-#define CARCONTROL_AWAKE_OFFSET UNITYSDK_OFFSET(0xD05BD40)
-#define CARCONTROL_GENERATERANDOMPLATENUMBER_OFFSET UNITYSDK_OFFSET(0xD05D2A0)
-#define CARCONTROL_GETTRANSFORMREF_OFFSET UNITYSDK_OFFSET(0xD05CD00)
-#define CARCONTROL_INITCARLICENSE_OFFSET UNITYSDK_OFFSET(0xD05BCC0)
-#define CARCONTROL_MANUALEND_OFFSET UNITYSDK_OFFSET(0xD05D590)
-#define CARCONTROL_MANUALSTART_OFFSET UNITYSDK_OFFSET(0xD05BE90)
-#define CARCONTROL_MANUALUPDATE_OFFSET UNITYSDK_OFFSET(0xD05D6E0)
-#define CARCONTROL_METHOD_5_0D0A5518FDFDF0C4_OFFSET UNITYSDK_OFFSET(0xD05CE00)
-#define CARCONTROL_METHOD_5_1AD013B50B95594F_OFFSET UNITYSDK_OFFSET(0xD05F4D0)
-#define CARCONTROL_METHOD_5_36F46336ADA62D13_OFFSET UNITYSDK_OFFSET(0xD05BE20)
-#define CARCONTROL_METHOD_5_4C4796AC7F58C144_OFFSET UNITYSDK_OFFSET(0xD05F7D0)
-#define CARCONTROL_METHOD_5_5CCB202047B26946_OFFSET UNITYSDK_OFFSET(0xD05C800)
-#define CARCONTROL_METHOD_5_5CCDFA1325D1189C_OFFSET UNITYSDK_OFFSET(0xD05F6F0)
-#define CARCONTROL_METHOD_5_705AF43C01ED360A_OFFSET UNITYSDK_OFFSET(0xD05F550)
-#define CARCONTROL_METHOD_5_72441113E013E70D_OFFSET UNITYSDK_OFFSET(0xD05EAA0)
-#define CARCONTROL_METHOD_5_8E7482C252877E8A_OFFSET UNITYSDK_OFFSET(0xD05F040)
-#define CARCONTROL_METHOD_5_97AC5E0734B0603A_OFFSET UNITYSDK_OFFSET(0xD05C4B0)
-#define CARCONTROL_METHOD_5_CEB0AC426B3FC6F6_OFFSET UNITYSDK_OFFSET(0xD05DAF0)
-#define CARCONTROL_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xD05BDB0)
-#define CARCONTROL_SETCARSTATE_OFFSET UNITYSDK_OFFSET(0xD05F390)
-#define CARCONTROL_SETIRICAR_OFFSET UNITYSDK_OFFSET(0xD05F9E0)
-#define CARCONTROL_TRIGGERDANCE_OFFSET UNITYSDK_OFFSET(0xD05C450)
-#define CARCONTROL_UPDATECARLICENSEPOSITION_OFFSET UNITYSDK_OFFSET(0xD05BD00)
-#define CARCONTROL_UPDATELIGHTS_OFFSET UNITYSDK_OFFSET(0xD05FA30)
-#define CARCONTROL__CCTOR_OFFSET UNITYSDK_OFFSET(0xD05FE50)
-#define CARCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0xD05FDF0)
+#define CARCONTROL_AWAKE_OFFSET UNITYSDK_OFFSET(0xDDA03B0)
+#define CARCONTROL_GENERATERANDOMPLATENUMBER_OFFSET UNITYSDK_OFFSET(0xDDA1970)
+#define CARCONTROL_GETTRANSFORMREF_OFFSET UNITYSDK_OFFSET(0xDDA13A0)
+#define CARCONTROL_INITCARLICENSE_OFFSET UNITYSDK_OFFSET(0xDDA0330)
+#define CARCONTROL_MANUALEND_OFFSET UNITYSDK_OFFSET(0xDDA1C90)
+#define CARCONTROL_MANUALSTART_OFFSET UNITYSDK_OFFSET(0xDDA0500)
+#define CARCONTROL_MANUALUPDATE_OFFSET UNITYSDK_OFFSET(0xDDA1E10)
+#define CARCONTROL_METHOD_5_1AD013B50B95594F_OFFSET UNITYSDK_OFFSET(0xDDA3C00)
+#define CARCONTROL_METHOD_5_4C4796AC7F58C144_OFFSET UNITYSDK_OFFSET(0xDDA3F00)
+#define CARCONTROL_METHOD_5_5CCB202047B26946_OFFSET UNITYSDK_OFFSET(0xDDA0EA0)
+#define CARCONTROL_METHOD_5_5CCDFA1325D1189C_OFFSET UNITYSDK_OFFSET(0xDDA3E20)
+#define CARCONTROL_METHOD_5_5FAD56E9E208220A_OFFSET UNITYSDK_OFFSET(0xDDA0490)
+#define CARCONTROL_METHOD_5_705AF43C01ED360A_OFFSET UNITYSDK_OFFSET(0xDDA3C80)
+#define CARCONTROL_METHOD_5_72441113E013E70D_OFFSET UNITYSDK_OFFSET(0xDDA31D0)
+#define CARCONTROL_METHOD_5_8E7482C252877E8A_OFFSET UNITYSDK_OFFSET(0xDDA3770)
+#define CARCONTROL_METHOD_5_97AC5E0734B0603A_OFFSET UNITYSDK_OFFSET(0xDDA0B50)
+#define CARCONTROL_METHOD_5_B6B60891A776E34D_OFFSET UNITYSDK_OFFSET(0xDDA14A0)
+#define CARCONTROL_METHOD_5_CEB0AC426B3FC6F6_OFFSET UNITYSDK_OFFSET(0xDDA2220)
+#define CARCONTROL_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xDDA0420)
+#define CARCONTROL_SETCARSTATE_OFFSET UNITYSDK_OFFSET(0xDDA3AC0)
+#define CARCONTROL_SETIRICAR_OFFSET UNITYSDK_OFFSET(0xDDA4110)
+#define CARCONTROL_TRIGGERDANCE_OFFSET UNITYSDK_OFFSET(0xDDA0AF0)
+#define CARCONTROL_UPDATECARLICENSEPOSITION_OFFSET UNITYSDK_OFFSET(0xDDA0370)
+#define CARCONTROL_UPDATELIGHTS_OFFSET UNITYSDK_OFFSET(0xDDA4160)
+#define CARCONTROL__CCTOR_OFFSET UNITYSDK_OFFSET(0xDDA4580)
+#define CARCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0xDDA4520)
 
-inline static constexpr unsigned int CarControl_TypeDefinitionIndex = 45289;
+inline static constexpr unsigned int CarControl_TypeDefinitionIndex = 47527;
 
 class CarControl : public ::UnityEngine::MonoBehaviour
 {
 public:
-	static ::System::Collections::Generic::List_1<::UnityEngine::Transform*>** StaticGet_Field_5_0()
+	static ::System::Collections::Generic::List_1<::UnityEngine::Transform*>** StaticGet_GLODMJNHNBB()
 	{
-		return (::System::Collections::Generic::List_1<::UnityEngine::Transform*>**)Il2CppClass::FromTypeDefinitionIndex(CarControl_TypeDefinitionIndex)->GetStaticField(0x60690);
+		return (::System::Collections::Generic::List_1<::UnityEngine::Transform*>**)Il2CppClass::FromTypeDefinitionIndex(CarControl_TypeDefinitionIndex)->GetStaticField(0x66A10);
 	}
 	::Il2CppArray<::UnityEngine::Transform*>* wheels; // 0x18
 	::UnityEngine::Transform* carBody; // 0x20
@@ -65,7 +65,7 @@ public:
 	::Il2CppArray<::UnityEngine::Transform*>* CarLicense; // 0x58
 	::System::Single wheelRotationSpeed; // 0x60
 	::System::Single acceleration; // 0x64
-	::System::Single Field_5_16; // 0x68
+	::System::Single DLJMOKNCIPG; // 0x68
 	::System::Single accelerationSmoothSpeed; // 0x6C
 	::UnityEngine::Vector3 steeringCurveTangent; // 0x70
 	::System::Single maxSteeringAngle; // 0x7C
@@ -80,36 +80,36 @@ public:
 	::System::Single testSpeed; // 0xA0
 	::System::Single testAcceleration; // 0xA4
 	::UnityEngine::Vector3 testTangent; // 0xA8
-	::System::Single Field_5_31; // 0xB4
-	::System::Single Field_5_32; // 0xB8
-	::System::Boolean Field_5_33; // 0xBC
-	::System::Boolean Field_5_34; // 0xBD
-	::System::Int32 Field_5_35; // 0xC0
-	::UnityEngine::Vector3 Field_5_36; // 0xC4
-	::UnityEngine::Quaternion Field_5_37; // 0xD0
-	::UnityEngine::Vector3 Field_5_38; // 0xE0
-	::UnityEngine::Quaternion Field_5_39; // 0xEC
-	::Il2CppArray<::UnityEngine::Vector3>* Field_5_40; // 0x100
-	::Il2CppArray<::UnityEngine::Vector3>* Field_5_41; // 0x108
-	::System::Boolean Field_5_42; // 0x110
-	::System::Single Field_5_43; // 0x114
+	::System::Single PCAJNGAKFPE; // 0xB4
+	::System::Single JEFDPPELNMJ; // 0xB8
+	::System::Boolean NPMICDHMPDC; // 0xBC
+	::System::Boolean POAHLDHEPOC; // 0xBD
+	::System::Int32 ALMIBCEGMGF; // 0xC0
+	::UnityEngine::Vector3 IPDMJEBFKAL; // 0xC4
+	::UnityEngine::Quaternion KPPEOEKGCIL; // 0xD0
+	::UnityEngine::Vector3 PEOEIJDMMDF; // 0xE0
+	::UnityEngine::Quaternion DFKHAKPDGLO; // 0xEC
+	::Il2CppArray<::UnityEngine::Vector3>* ENKEEDBNKIO; // 0x100
+	::Il2CppArray<::UnityEngine::Vector3>* KBFEODKNFDD; // 0x108
+	::System::Boolean JJAEMBOHPAB; // 0x110
+	::System::Single NPEMEJNNJDG; // 0x114
 	::System::Boolean enableDancing; // 0x118
 	::UnityEngine::AnimationCurve* danceAmplitudeCurve; // 0x120
 	::System::Single danceFrequency; // 0x128
 	::System::Single danceIntensity; // 0x12C
 	::System::Boolean useAdvancedMotion; // 0x130
-	::System::Int32 Field_5_49; // 0x134
-	::System::Single Field_5_50; // 0x138
-	::System::Single Field_5_51; // 0x13C
-	::RPG::Client::DialogEmitterMonoPlugin* Field_5_52; // 0x140
-	::System::Collections::Generic::List_1<::RPG::Client::DialogEmitterBehavior_DialogData*>* Field_5_53; // 0x148
-	::Class_1_0AAA29E827EB555D_Class_1_EC3ABC8DB6869895* Field_5_54; // 0x150
-	::RootMotion::IKJob::IKThreadProxyContext* Field_5_55; // 0x158
-	::RootMotion::IKJob::IKTransformRef Field_5_56; // 0x160
-	::Il2CppArray<::RootMotion::IKJob::IKTransformRef>* Field_5_57; // 0x170
-	::Il2CppArray<::RootMotion::IKJob::IKTransformRef>* Field_5_58; // 0x178
-	::System::Single Field_5_59; // 0x180
-	::System::Single Field_5_60; // 0x184
+	::System::Int32 EDEMFDGCKAA; // 0x134
+	::System::Single HCAHCMKGEDO; // 0x138
+	::System::Single AHLFCJGGNAM; // 0x13C
+	::RPG::Client::DialogEmitterMonoPlugin* FFOKKLLFAFM; // 0x140
+	::System::Collections::Generic::List_1<::RPG::Client::DialogEmitterBehavior_DialogData*>* MCFBFENIOKE; // 0x148
+	::Class_1_0AAA29E827EB555D_Class_1_4452B3A96D121692* MHHNLBMLPNK; // 0x150
+	::RootMotion::IKJob::IKThreadProxyContext* EEFMDEHLLFI; // 0x158
+	::RootMotion::IKJob::IKTransformRef JOHFAIACCGK; // 0x160
+	::Il2CppArray<::RootMotion::IKJob::IKTransformRef>* GJNLOONGCAF; // 0x170
+	::Il2CppArray<::RootMotion::IKJob::IKTransformRef>* NLCHMGOIJOJ; // 0x178
+	::System::Single LAKHBMGNAFM; // 0x180
+	::System::Single GKHPLJAAPBP; // 0x184
 
 	::System::Void _ctor()
 	{
@@ -141,9 +141,9 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CARCONTROL_ONDESTROY_OFFSET))(this);
 	}
 
-	::System::Void Method_5_36F46336ADA62D13()
+	::System::Void Method_5_5FAD56E9E208220A()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CARCONTROL_METHOD_5_36F46336ADA62D13_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CARCONTROL_METHOD_5_5FAD56E9E208220A_OFFSET))(this);
 	}
 
 	::System::Void TriggerDance(::System::Boolean a1)
@@ -181,9 +181,9 @@ public:
 		return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + CARCONTROL_SETCARSTATE_OFFSET))(this, a1, a2, a3);
 	}
 
-	::System::Void Method_5_0D0A5518FDFDF0C4(::UnityEngine::Transform* a1)
+	::System::Void Method_5_B6B60891A776E34D(::UnityEngine::Transform* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + CARCONTROL_METHOD_5_0D0A5518FDFDF0C4_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + CARCONTROL_METHOD_5_B6B60891A776E34D_OFFSET))(this, a1);
 	}
 
 	::System::Void Method_5_72441113E013E70D(::System::Single a1)
@@ -226,9 +226,9 @@ public:
 		return ((::System::Single(*)(::PVOID, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + CARCONTROL_METHOD_5_1AD013B50B95594F_OFFSET))(this, a1, a2);
 	}
 
-	::System::Void SetIRICar(::Class_1_0AAA29E827EB555D_Class_1_EC3ABC8DB6869895* a1)
+	::System::Void SetIRICar(::Class_1_0AAA29E827EB555D_Class_1_4452B3A96D121692* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_1_0AAA29E827EB555D_Class_1_EC3ABC8DB6869895*))((::PBYTE)hIl2Cpp + CARCONTROL_SETIRICAR_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::Class_1_0AAA29E827EB555D_Class_1_4452B3A96D121692*))((::PBYTE)hIl2Cpp + CARCONTROL_SETIRICAR_OFFSET))(this, a1);
 	}
 
 	::System::Void UpdateLights()

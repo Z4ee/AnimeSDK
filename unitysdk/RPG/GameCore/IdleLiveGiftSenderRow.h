@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_IDLELIVEGIFTSENDERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B5273D0)
-#define RPG_GAMECORE_IDLELIVEGIFTSENDERROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B527590)
+#define RPG_GAMECORE_IDLELIVEGIFTSENDERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D1A0A20)
+#define RPG_GAMECORE_IDLELIVEGIFTSENDERROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1A0BE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveGiftSenderRow_TypeDefinitionIndex = 11394;
+	inline static constexpr unsigned int IdleLiveGiftSenderRow_TypeDefinitionIndex = 11783;
 
 	class IdleLiveGiftSenderRow : public ::System::Object
 	{

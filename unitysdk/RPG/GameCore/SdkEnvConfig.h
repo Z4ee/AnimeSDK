@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_SDKENVCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B87C810)
-#define RPG_GAMECORE_SDKENVCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B87CA20)
+#define RPG_GAMECORE_SDKENVCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D4D80B0)
+#define RPG_GAMECORE_SDKENVCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D4D82C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SdkEnvConfig_TypeDefinitionIndex = 18289;
+	inline static constexpr unsigned int SdkEnvConfig_TypeDefinitionIndex = 18813;
 
 	class SdkEnvConfig : public ::RPG::GameCore::JsonConfig
 	{

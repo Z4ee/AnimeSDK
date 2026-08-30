@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IRogueFormulaBuffCountItem_TypeDefinitionIndex = 64206;
+	inline static constexpr unsigned int IRogueFormulaBuffCountItem_TypeDefinitionIndex = 67201;
 
 	class IRogueFormulaBuffCountItem
 	{

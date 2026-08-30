@@ -3,18 +3,18 @@
 #include "unitysdk/RPG/Client/OpenWorld/VolumeParameter_1.h"
 #include "unitysdk/UnityEngine/Color.h"
 
-#define CLASS_3_BD96A7056100D136_INTERP_OFFSET UNITYSDK_OFFSET(0x14C071A0)
-#define CLASS_3_BD96A7056100D136__CTOR_1_OFFSET UNITYSDK_OFFSET(0x14C07120)
-#define CLASS_3_BD96A7056100D136__CTOR_OFFSET UNITYSDK_OFFSET(0x14C070C0)
+#define CLASS_3_BD96A7056100D136_INTERP_OFFSET UNITYSDK_OFFSET(0x1599D360)
+#define CLASS_3_BD96A7056100D136__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1599D2E0)
+#define CLASS_3_BD96A7056100D136__CTOR_OFFSET UNITYSDK_OFFSET(0x1599D280)
 
-inline static constexpr unsigned int Class_3_BD96A7056100D136_TypeDefinitionIndex = 70618;
+inline static constexpr unsigned int Class_3_BD96A7056100D136_TypeDefinitionIndex = 73917;
 
 class Class_3_BD96A7056100D136 : public ::RPG::Client::OpenWorld::VolumeParameter_1<::UnityEngine::Color>
 {
 public:
-	::System::Boolean Field_3_0; // 0x20
-	::System::Boolean Field_3_1; // 0x21
-	::System::Boolean Field_3_2; // 0x22
+	::System::Boolean MHIPFCLLDLD; // 0x20
+	::System::Boolean KFOEFBPENPP; // 0x21
+	::System::Boolean CLBCJFLEAMN; // 0x22
 
 	::System::Void _ctor(::UnityEngine::Color a1)
 	{

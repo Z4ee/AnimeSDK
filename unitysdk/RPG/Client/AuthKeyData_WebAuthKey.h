@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_AUTHKEYDATA_WEBAUTHKEY__CTOR_OFFSET UNITYSDK_OFFSET(0xBDD1280)
+#define RPG_CLIENT_AUTHKEYDATA_WEBAUTHKEY__CTOR_OFFSET UNITYSDK_OFFSET(0xC7F8C00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AuthKeyData_WebAuthKey_TypeDefinitionIndex = 63461;
+	inline static constexpr unsigned int AuthKeyData_WebAuthKey_TypeDefinitionIndex = 66446;
 
 	class AuthKeyData_WebAuthKey : public ::System::Object
 	{

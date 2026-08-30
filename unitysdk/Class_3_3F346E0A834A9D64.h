@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ClearWeakness; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_3F346E0A834A9D64_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xAFC3D10)
-#define CLASS_3_3F346E0A834A9D64__CTOR_OFFSET UNITYSDK_OFFSET(0xAFC3CE0)
+#define CLASS_3_3F346E0A834A9D64_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB97CF90)
+#define CLASS_3_3F346E0A834A9D64__CTOR_OFFSET UNITYSDK_OFFSET(0xB97CF60)
 
-inline static constexpr unsigned int Class_3_3F346E0A834A9D64_TypeDefinitionIndex = 52478;
+inline static constexpr unsigned int Class_3_3F346E0A834A9D64_TypeDefinitionIndex = 55175;
 
 class Class_3_3F346E0A834A9D64 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ClearWeakness*>
 {

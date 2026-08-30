@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AdvTrackNpcPlayerHide; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_02FF9058E6609860_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15227960)
-#define CLASS_3_02FF9058E6609860__CTOR_OFFSET UNITYSDK_OFFSET(0x15227930)
+#define CLASS_3_02FF9058E6609860_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16192A90)
+#define CLASS_3_02FF9058E6609860__CTOR_OFFSET UNITYSDK_OFFSET(0x16192A60)
 
-inline static constexpr unsigned int Class_3_02FF9058E6609860_TypeDefinitionIndex = 50126;
+inline static constexpr unsigned int Class_3_02FF9058E6609860_TypeDefinitionIndex = 52788;
 
 class Class_3_02FF9058E6609860 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AdvTrackNpcPlayerHide*>
 {

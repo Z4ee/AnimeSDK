@@ -7,25 +7,25 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_STORYLINEUIDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B914F00)
-#define RPG_GAMECORE_STORYLINEUIDATAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B915AD0)
+#define RPG_GAMECORE_STORYLINEUIDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D572770)
+#define RPG_GAMECORE_STORYLINEUIDATAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D573340)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StoryLineUIDataRow_TypeDefinitionIndex = 14595;
+	inline static constexpr unsigned int StoryLineUIDataRow_TypeDefinitionIndex = 15031;
 
 	class StoryLineUIDataRow : public ::System::Object
 	{
 	public:
-		::System::String* ChronicleIconPath; // 0x10
+		::System::String* MediumImgPath; // 0x10
 		::System::String* IconPath; // 0x18
-		::System::String* LargeImgPath; // 0x20
-		::System::String* MediumImgPath; // 0x28
-		::System::String* FigurePath; // 0x30
-		::System::String* Color; // 0x38
-		::RPG::GameCore::GenderType Gender; // 0x40
-		::System::UInt32 StoryLineID; // 0x44
-		::RPG::Client::TextID Name; // 0x48
+		::System::String* Color; // 0x20
+		::System::String* FigurePath; // 0x28
+		::System::String* ChronicleIconPath; // 0x30
+		::System::String* LargeImgPath; // 0x38
+		::RPG::Client::TextID Name; // 0x40
+		::System::UInt32 StoryLineID; // 0x50
+		::RPG::GameCore::GenderType Gender; // 0x54
 
 		::System::Void _ctor()
 		{

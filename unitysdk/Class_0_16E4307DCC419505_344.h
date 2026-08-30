@@ -1,9 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-namespace UnityEngine::Timeline { class TimelineClip; }
+class Class_1_7B4E9156998275BE;
+class Class_1_F3CAAE7E7C7111CC;
+namespace System { class Object; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_344_TypeDefinitionIndex = 46452;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_344_TypeDefinitionIndex = 42505;
 
 class Class_0_16E4307DCC419505_344
 {

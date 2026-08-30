@@ -3,21 +3,21 @@
 #include "unitysdk/RPG/GameCore/AvatarPropertyType.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_719;
+class Class_0_16E4307DCC419505_758;
 class Class_1_A05AF49AB4C19659;
 namespace RPG::Client { class GridFightTraitElationEffect; }
 
-#define CLASS_1_4EB7DC90478E822D_METHOD_1_5A124CAF1E48B74F_OFFSET UNITYSDK_OFFSET(0xDEA3430)
-#define CLASS_1_4EB7DC90478E822D_METHOD_1_AC425167B3BD4E59_OFFSET UNITYSDK_OFFSET(0xDEA35B0)
-#define CLASS_1_4EB7DC90478E822D__CTOR_OFFSET UNITYSDK_OFFSET(0xDEA3350)
+#define CLASS_1_4EB7DC90478E822D_METHOD_1_5A124CAF1E48B74F_OFFSET UNITYSDK_OFFSET(0xED7FBC0)
+#define CLASS_1_4EB7DC90478E822D_METHOD_1_AC425167B3BD4E59_OFFSET UNITYSDK_OFFSET(0xED7FD40)
+#define CLASS_1_4EB7DC90478E822D__CTOR_OFFSET UNITYSDK_OFFSET(0xED7FAE0)
 
-inline static constexpr unsigned int Class_1_4EB7DC90478E822D_TypeDefinitionIndex = 62455;
+inline static constexpr unsigned int Class_1_4EB7DC90478E822D_TypeDefinitionIndex = 65440;
 
 class Class_1_4EB7DC90478E822D : public ::System::Object
 {
 public:
-	::Class_1_A05AF49AB4C19659* Field_1_0; // 0x10
-	::RPG::Client::GridFightTraitElationEffect* Field_1_1; // 0x18
+	::Class_1_A05AF49AB4C19659* IAFNNMFIMOI; // 0x10
+	::RPG::Client::GridFightTraitElationEffect* INKLGHHCKIK; // 0x18
 
 	::System::Void _ctor(::RPG::Client::GridFightTraitElationEffect* a1)
 	{
@@ -29,8 +29,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_4EB7DC90478E822D_METHOD_1_5A124CAF1E48B74F_OFFSET))(this);
 	}
 
-	::Class_0_16E4307DCC419505_719* Method_1_AC425167B3BD4E59(::RPG::GameCore::AvatarPropertyType a1)
+	::Class_0_16E4307DCC419505_758* Method_1_AC425167B3BD4E59(::RPG::GameCore::AvatarPropertyType a1)
 	{
-		return ((::Class_0_16E4307DCC419505_719*(*)(::PVOID, ::RPG::GameCore::AvatarPropertyType))((::PBYTE)hIl2Cpp + CLASS_1_4EB7DC90478E822D_METHOD_1_AC425167B3BD4E59_OFFSET))(this, a1);
+		return ((::Class_0_16E4307DCC419505_758*(*)(::PVOID, ::RPG::GameCore::AvatarPropertyType))((::PBYTE)hIl2Cpp + CLASS_1_4EB7DC90478E822D_METHOD_1_AC425167B3BD4E59_OFFSET))(this, a1);
 	}
 };

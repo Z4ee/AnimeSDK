@@ -4,12 +4,12 @@
 
 namespace RPG::Client::ChenLingBattle { class Effect; }
 
-#define RPG_CLIENT_CHENLINGBATTLE_CHENLINGBATTLEGAMESESSION___C__DISPLAYCLASS65_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC0506D0)
-#define RPG_CLIENT_CHENLINGBATTLE_CHENLINGBATTLEGAMESESSION___C__DISPLAYCLASS65_0__REMOVEEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0xC054A70)
+#define RPG_CLIENT_CHENLINGBATTLE_CHENLINGBATTLEGAMESESSION___C__DISPLAYCLASS65_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCAFD700)
+#define RPG_CLIENT_CHENLINGBATTLE_CHENLINGBATTLEGAMESESSION___C__DISPLAYCLASS65_0__REMOVEEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0xCB01AF0)
 
 namespace RPG::Client::ChenLingBattle
 {
-	inline static constexpr unsigned int ChenLingBattleGameSession___c__DisplayClass65_0_TypeDefinitionIndex = 72425;
+	inline static constexpr unsigned int ChenLingBattleGameSession___c__DisplayClass65_0_TypeDefinitionIndex = 75861;
 
 	class ChenLingBattleGameSession___c__DisplayClass65_0 : public ::System::Object
 	{

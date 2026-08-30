@@ -1,14 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
-#include "unitysdk/UnityEngine/Rendering/RecordTree.h"
+#include "unitysdk/UnityEngine/Rendering/CRPGlobalMutationStats.h"
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int CPPCaptureData_TypeDefinitionIndex = 36075;
+	inline static constexpr unsigned int CPPCaptureData_TypeDefinitionIndex = 36935;
 
 	struct alignas(8) CPPCaptureData
 	{
-		::UnityEngine::Rendering::RecordTree tree; // 0x10
+		::UnityEngine::Rendering::CRPGlobalMutationStats globalMutationStats; // 0x10
 	};
 }

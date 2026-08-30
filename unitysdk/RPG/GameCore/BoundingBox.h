@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_BOUNDINGBOX_METHOD_2_E83A4FE069917330_OFFSET UNITYSDK_OFFSET(0x1B2151E0)
-#define RPG_GAMECORE_BOUNDINGBOX__CTOR_OFFSET UNITYSDK_OFFSET(0x1B2152F0)
+#define RPG_GAMECORE_BOUNDINGBOX_METHOD_2_E83A4FE069917330_OFFSET UNITYSDK_OFFSET(0x1CE903D0)
+#define RPG_GAMECORE_BOUNDINGBOX__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE904E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BoundingBox_TypeDefinitionIndex = 17545;
+	inline static constexpr unsigned int BoundingBox_TypeDefinitionIndex = 18063;
 
 	class BoundingBox : public ::RPG::GameCore::JsonConfig
 	{

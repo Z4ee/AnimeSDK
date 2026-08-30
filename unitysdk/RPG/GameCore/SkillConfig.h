@@ -30,12 +30,12 @@ namespace RPG::GameCore { class UsableConditionConfig; }
 namespace RPG::GameCore { class VCameraConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SKILLCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B8DBAF0)
-#define RPG_GAMECORE_SKILLCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8DD690)
+#define RPG_GAMECORE_SKILLCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D537B30)
+#define RPG_GAMECORE_SKILLCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5396D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SkillConfig_TypeDefinitionIndex = 17459;
+	inline static constexpr unsigned int SkillConfig_TypeDefinitionIndex = 17976;
 
 	class SkillConfig : public ::RPG::GameCore::JsonConfig
 	{

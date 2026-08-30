@@ -5,23 +5,23 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_CHENLINGCONDITIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B3337D0)
-#define RPG_GAMECORE_CHENLINGCONDITIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B333A40)
+#define RPG_GAMECORE_CHENLINGCONDITIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CFAFB70)
+#define RPG_GAMECORE_CHENLINGCONDITIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFAFDE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingConditionRow_TypeDefinitionIndex = 10639;
+	inline static constexpr unsigned int ChenLingConditionRow_TypeDefinitionIndex = 11014;
 
 	class ChenLingConditionRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 Param1; // 0x10
-		::System::UInt32 ID; // 0x14
-		::System::UInt32 Param2; // 0x18
-		::RPG::GameCore::ChenLingConditionType Type; // 0x1C
-		::System::UInt32 Param3; // 0x20
-		::System::UInt32 Param4; // 0x24
-		::System::UInt32 Progress; // 0x28
+		::System::UInt32 Param2; // 0x10
+		::System::UInt32 Param4; // 0x14
+		::System::UInt32 Progress; // 0x18
+		::System::UInt32 Param3; // 0x1C
+		::RPG::GameCore::ChenLingConditionType Type; // 0x20
+		::System::UInt32 Param1; // 0x24
+		::System::UInt32 ID; // 0x28
 
 		::System::Void _ctor()
 		{

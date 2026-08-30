@@ -4,29 +4,29 @@
 #include "unitysdk/RPG/GameCore/FateRinHouguOwnerType.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_1266;
-class Class_0_16E4307DCC419505_1302;
-class Class_0_16E4307DCC419505_1303;
+class Class_0_16E4307DCC419505_1344;
+class Class_0_16E4307DCC419505_1383;
+class Class_0_16E4307DCC419505_1384;
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-#define CLASS_1_0950A81C001CB7BF_METHOD_1_0173791A649BFB6B_OFFSET UNITYSDK_OFFSET(0x14CF9EB0)
-#define CLASS_1_0950A81C001CB7BF_METHOD_1_84EA6F5567BCCCE4_OFFSET UNITYSDK_OFFSET(0x14CFA560)
-#define CLASS_1_0950A81C001CB7BF_METHOD_1_A271C995CF3CCA52_OFFSET UNITYSDK_OFFSET(0x14CFA260)
-#define CLASS_1_0950A81C001CB7BF__CTOR_OFFSET UNITYSDK_OFFSET(0x14CF9DC0)
+#define CLASS_1_0950A81C001CB7BF_METHOD_1_0173791A649BFB6B_OFFSET UNITYSDK_OFFSET(0x15BBFAD0)
+#define CLASS_1_0950A81C001CB7BF_METHOD_1_84EA6F5567BCCCE4_OFFSET UNITYSDK_OFFSET(0x15BC0180)
+#define CLASS_1_0950A81C001CB7BF_METHOD_1_A271C995CF3CCA52_OFFSET UNITYSDK_OFFSET(0x15BBFE80)
+#define CLASS_1_0950A81C001CB7BF__CTOR_OFFSET UNITYSDK_OFFSET(0x15BBF9E0)
 
-inline static constexpr unsigned int Class_1_0950A81C001CB7BF_TypeDefinitionIndex = 76155;
+inline static constexpr unsigned int Class_1_0950A81C001CB7BF_TypeDefinitionIndex = 79788;
 
 class Class_1_0950A81C001CB7BF : public ::System::Object
 {
 public:
-	::Class_0_16E4307DCC419505_1302* Field_1_0; // 0x10
-	::Class_0_16E4307DCC419505_1266* Field_1_1; // 0x18
-	::Class_0_16E4307DCC419505_1303* Field_1_2; // 0x20
+	::Class_0_16E4307DCC419505_1344* HNLOJEIEFKC; // 0x10
+	::Class_0_16E4307DCC419505_1384* LBNAGLIGKIO; // 0x18
+	::Class_0_16E4307DCC419505_1383* BIGNDIMIHLB; // 0x20
 
-	::System::Void _ctor(::Class_0_16E4307DCC419505_1303* a1, ::Class_0_16E4307DCC419505_1266* a2, ::Class_0_16E4307DCC419505_1302* a3)
+	::System::Void _ctor(::Class_0_16E4307DCC419505_1384* a1, ::Class_0_16E4307DCC419505_1344* a2, ::Class_0_16E4307DCC419505_1383* a3)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_1303*, ::Class_0_16E4307DCC419505_1266*, ::Class_0_16E4307DCC419505_1302*))((::PBYTE)hIl2Cpp + CLASS_1_0950A81C001CB7BF__CTOR_OFFSET))(this, a1, a2, a3);
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_1384*, ::Class_0_16E4307DCC419505_1344*, ::Class_0_16E4307DCC419505_1383*))((::PBYTE)hIl2Cpp + CLASS_1_0950A81C001CB7BF__CTOR_OFFSET))(this, a1, a2, a3);
 	}
 
 	::System::Void Method_1_0173791A649BFB6B(::RPG::GameCore::FateRinHouguOwnerType a1, ::RPG::GameCore::FateRinDeckRecommendTiming a2, ::System::Collections::Generic::IReadOnlyList_1<::System::UInt32>*& a3, ::System::Collections::Generic::IReadOnlyList_1<::System::UInt32>*& a4, ::System::Collections::Generic::IReadOnlyList_1<::System::UInt32>*& a5)

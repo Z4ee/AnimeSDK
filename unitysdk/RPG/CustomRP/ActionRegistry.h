@@ -8,23 +8,23 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CUSTOMRP_ACTIONREGISTRY_CLEAR_OFFSET UNITYSDK_OFFSET(0x1AA34D60)
-#define RPG_CUSTOMRP_ACTIONREGISTRY_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x1AA34CE0)
-#define RPG_CUSTOMRP_ACTIONREGISTRY_INVOKE_OFFSET UNITYSDK_OFFSET(0x1AA355B0)
-#define RPG_CUSTOMRP_ACTIONREGISTRY_REBUILDFROMROOT_OFFSET UNITYSDK_OFFSET(0x1AA34E00)
-#define RPG_CUSTOMRP_ACTIONREGISTRY_TRYGETENTRY_OFFSET UNITYSDK_OFFSET(0x1AA35480)
-#define RPG_CUSTOMRP_ACTIONREGISTRY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AA35820)
+#define RPG_CUSTOMRP_ACTIONREGISTRY_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C666A30)
+#define RPG_CUSTOMRP_ACTIONREGISTRY_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x1C6669B0)
+#define RPG_CUSTOMRP_ACTIONREGISTRY_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C667280)
+#define RPG_CUSTOMRP_ACTIONREGISTRY_REBUILDFROMROOT_OFFSET UNITYSDK_OFFSET(0x1C666AD0)
+#define RPG_CUSTOMRP_ACTIONREGISTRY_TRYGETENTRY_OFFSET UNITYSDK_OFFSET(0x1C667150)
+#define RPG_CUSTOMRP_ACTIONREGISTRY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C6674F0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int ActionRegistry_TypeDefinitionIndex = 36215;
+	inline static constexpr unsigned int ActionRegistry_TypeDefinitionIndex = 37074;
 
 	class ActionRegistry : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::List_1<::RPG::CustomRP::ActionEntry>** StaticGet__entries()
 		{
-			return (::System::Collections::Generic::List_1<::RPG::CustomRP::ActionEntry>**)Il2CppClass::FromTypeDefinitionIndex(ActionRegistry_TypeDefinitionIndex)->GetStaticField(0x614F0);
+			return (::System::Collections::Generic::List_1<::RPG::CustomRP::ActionEntry>**)Il2CppClass::FromTypeDefinitionIndex(ActionRegistry_TypeDefinitionIndex)->GetStaticField(0x2F540);
 		}
 		// static const ::System::Reflection::BindingFlags k_MethodFlags; // 0x0
 

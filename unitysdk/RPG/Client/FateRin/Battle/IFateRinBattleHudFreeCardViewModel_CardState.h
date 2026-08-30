@@ -3,7 +3,7 @@
 
 namespace RPG::Client::FateRin::Battle
 {
-	inline static constexpr unsigned int IFateRinBattleHudFreeCardViewModel_CardState_TypeDefinitionIndex = 75956;
+	inline static constexpr unsigned int IFateRinBattleHudFreeCardViewModel_CardState_TypeDefinitionIndex = 79589;
 
 	enum class IFateRinBattleHudFreeCardViewModel_CardState : ::System::Int32
 	{

@@ -12,31 +12,31 @@ namespace UnityEngine { class SDFSectorData; }
 namespace UnityEngine { class SDFStreamingParams; }
 namespace UnityEngine { class SDFSystem; }
 
-#define RPG_CUSTOMRP_SDFSYSTEMBEHAVIOUR_GETSECTORDATASUBPATH_OFFSET UNITYSDK_OFFSET(0xD8D1EF0)
-#define RPG_CUSTOMRP_SDFSYSTEMBEHAVIOUR_GET_SECTORCOORDS_OFFSET UNITYSDK_OFFSET(0xD8D21A0)
-#define RPG_CUSTOMRP_SDFSYSTEMBEHAVIOUR_METHOD_5_5130128E749248FF_OFFSET UNITYSDK_OFFSET(0xD8D1A00)
-#define RPG_CUSTOMRP_SDFSYSTEMBEHAVIOUR_METHOD_5_F5447CD65612575D_OFFSET UNITYSDK_OFFSET(0xD8D1870)
-#define RPG_CUSTOMRP_SDFSYSTEMBEHAVIOUR_START_OFFSET UNITYSDK_OFFSET(0xD8D1820)
-#define RPG_CUSTOMRP_SDFSYSTEMBEHAVIOUR_UNLOADSECTORDATA_OFFSET UNITYSDK_OFFSET(0xD8D1E10)
-#define RPG_CUSTOMRP_SDFSYSTEMBEHAVIOUR__CCTOR_OFFSET UNITYSDK_OFFSET(0xD8D2400)
-#define RPG_CUSTOMRP_SDFSYSTEMBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xD8D2220)
+#define RPG_CUSTOMRP_SDFSYSTEMBEHAVIOUR_GETSECTORDATASUBPATH_OFFSET UNITYSDK_OFFSET(0xE44CE00)
+#define RPG_CUSTOMRP_SDFSYSTEMBEHAVIOUR_GET_SECTORCOORDS_OFFSET UNITYSDK_OFFSET(0xE44D090)
+#define RPG_CUSTOMRP_SDFSYSTEMBEHAVIOUR_METHOD_5_5130128E749248FF_OFFSET UNITYSDK_OFFSET(0xE44C910)
+#define RPG_CUSTOMRP_SDFSYSTEMBEHAVIOUR_METHOD_5_F5447CD65612575D_OFFSET UNITYSDK_OFFSET(0xE44C780)
+#define RPG_CUSTOMRP_SDFSYSTEMBEHAVIOUR_START_OFFSET UNITYSDK_OFFSET(0xE44C730)
+#define RPG_CUSTOMRP_SDFSYSTEMBEHAVIOUR_UNLOADSECTORDATA_OFFSET UNITYSDK_OFFSET(0xE44CD20)
+#define RPG_CUSTOMRP_SDFSYSTEMBEHAVIOUR__CCTOR_OFFSET UNITYSDK_OFFSET(0xE44D2F0)
+#define RPG_CUSTOMRP_SDFSYSTEMBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xE44D110)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int SDFSystemBehaviour_TypeDefinitionIndex = 49504;
+	inline static constexpr unsigned int SDFSystemBehaviour_TypeDefinitionIndex = 52162;
 
 	class SDFSystemBehaviour : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		static ::System::String** StaticGet_kEmptySectorDataPath()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(SDFSystemBehaviour_TypeDefinitionIndex)->GetStaticField(0x56E20);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(SDFSystemBehaviour_TypeDefinitionIndex)->GetStaticField(0x65230);
 		}
 		::System::String* BakeDataRootPath; // 0x18
 		::UnityEngine::SDFCompressionMethod CompressionMethod; // 0x20
-		::UnityEngine::SDFSystem* Field_5_3; // 0x28
+		::UnityEngine::SDFSystem* LOFMGNCEFCF; // 0x28
 		::RPG::CustomRP::SDFSystemBehaviour_UInt64StringDict* _SectorPaths; // 0x30
-		::System::Collections::Generic::Dictionary_2<::UnityEngine::SDFSectorCoord, ::UnityEngine::SDFSectorData*>* Field_5_5; // 0x38
+		::System::Collections::Generic::Dictionary_2<::UnityEngine::SDFSectorCoord, ::UnityEngine::SDFSectorData*>* ALFOOCGEBAI; // 0x38
 
 		::System::Void _ctor()
 		{

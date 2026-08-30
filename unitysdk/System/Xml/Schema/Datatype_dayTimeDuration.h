@@ -9,13 +9,13 @@ namespace System { class String; }
 namespace System::Xml { class IXmlNamespaceResolver; }
 namespace System::Xml { class XmlNameTable; }
 
-#define SYSTEM_XML_SCHEMA_DATATYPE_DAYTIMEDURATION_GET_TYPECODE_OFFSET UNITYSDK_OFFSET(0x1CB44FA0)
-#define SYSTEM_XML_SCHEMA_DATATYPE_DAYTIMEDURATION_TRYPARSEVALUE_OFFSET UNITYSDK_OFFSET(0x1CB44CF0)
-#define SYSTEM_XML_SCHEMA_DATATYPE_DAYTIMEDURATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1CB3DCC0)
+#define SYSTEM_XML_SCHEMA_DATATYPE_DAYTIMEDURATION_GET_TYPECODE_OFFSET UNITYSDK_OFFSET(0x1E7EEFB0)
+#define SYSTEM_XML_SCHEMA_DATATYPE_DAYTIMEDURATION_TRYPARSEVALUE_OFFSET UNITYSDK_OFFSET(0x1E7EECF0)
+#define SYSTEM_XML_SCHEMA_DATATYPE_DAYTIMEDURATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7E7D60)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int Datatype_dayTimeDuration_TypeDefinitionIndex = 2096;
+	inline static constexpr unsigned int Datatype_dayTimeDuration_TypeDefinitionIndex = 2103;
 
 	class Datatype_dayTimeDuration : public ::System::Xml::Schema::Datatype_duration
 	{

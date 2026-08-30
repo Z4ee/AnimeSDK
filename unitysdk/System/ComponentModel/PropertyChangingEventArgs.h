@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define SYSTEM_COMPONENTMODEL_PROPERTYCHANGINGEVENTARGS_SET_PROPERTYNAME_OFFSET UNITYSDK_OFFSET(0x1A3097E0)
-#define SYSTEM_COMPONENTMODEL_PROPERTYCHANGINGEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1A309730)
+#define SYSTEM_COMPONENTMODEL_PROPERTYCHANGINGEVENTARGS_SET_PROPERTYNAME_OFFSET UNITYSDK_OFFSET(0x1BF12080)
+#define SYSTEM_COMPONENTMODEL_PROPERTYCHANGINGEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF11FD0)
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int PropertyChangingEventArgs_TypeDefinitionIndex = 9239;
+	inline static constexpr unsigned int PropertyChangingEventArgs_TypeDefinitionIndex = 9518;
 
 	class PropertyChangingEventArgs : public ::System::EventArgs
 	{

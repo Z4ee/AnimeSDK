@@ -1,0 +1,53 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+namespace Cysharp::Threading::Tasks { template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8> class UniTask_WhenAllPromise_8___c; }
+namespace System { template <typename T> class Action_1; }
+
+namespace Cysharp::Threading::Tasks
+{
+	inline static constexpr unsigned int UniTask_WhenAllPromise_8___c_TypeDefinitionIndex = 42694;
+
+	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8>
+	class UniTask_WhenAllPromise_8___c : public ::System::Object
+	{
+	public:
+		static ::Cysharp::Threading::Tasks::UniTask_WhenAllPromise_8___c<T1, T2, T3, T4, T5, T6, T7, T8>** StaticGet___9()
+		{
+			return (::Cysharp::Threading::Tasks::UniTask_WhenAllPromise_8___c<T1, T2, T3, T4, T5, T6, T7, T8>**)Il2CppClass::FromTypeDefinitionIndex(UniTask_WhenAllPromise_8___c_TypeDefinitionIndex)->GetStaticField(0x0);
+		}
+		static ::System::Action_1<::System::Object*>** StaticGet___9__10_0()
+		{
+			return (::System::Action_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(UniTask_WhenAllPromise_8___c_TypeDefinitionIndex)->GetStaticField(0x0);
+		}
+		static ::System::Action_1<::System::Object*>** StaticGet___9__10_1()
+		{
+			return (::System::Action_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(UniTask_WhenAllPromise_8___c_TypeDefinitionIndex)->GetStaticField(0x0);
+		}
+		static ::System::Action_1<::System::Object*>** StaticGet___9__10_2()
+		{
+			return (::System::Action_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(UniTask_WhenAllPromise_8___c_TypeDefinitionIndex)->GetStaticField(0x0);
+		}
+		static ::System::Action_1<::System::Object*>** StaticGet___9__10_3()
+		{
+			return (::System::Action_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(UniTask_WhenAllPromise_8___c_TypeDefinitionIndex)->GetStaticField(0x0);
+		}
+		static ::System::Action_1<::System::Object*>** StaticGet___9__10_4()
+		{
+			return (::System::Action_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(UniTask_WhenAllPromise_8___c_TypeDefinitionIndex)->GetStaticField(0x0);
+		}
+		static ::System::Action_1<::System::Object*>** StaticGet___9__10_5()
+		{
+			return (::System::Action_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(UniTask_WhenAllPromise_8___c_TypeDefinitionIndex)->GetStaticField(0x0);
+		}
+		static ::System::Action_1<::System::Object*>** StaticGet___9__10_6()
+		{
+			return (::System::Action_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(UniTask_WhenAllPromise_8___c_TypeDefinitionIndex)->GetStaticField(0x0);
+		}
+		static ::System::Action_1<::System::Object*>** StaticGet___9__10_7()
+		{
+			return (::System::Action_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(UniTask_WhenAllPromise_8___c_TypeDefinitionIndex)->GetStaticField(0x0);
+		}
+	};
+}

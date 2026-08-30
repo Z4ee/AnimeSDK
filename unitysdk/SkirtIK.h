@@ -10,7 +10,7 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
-class Class_0_16E4307DCC419505_335;
+class Class_0_16E4307DCC419505_356;
 class SkirtIK_HairBoneDataClass;
 class SkirtIK_HairIKClass;
 class SkirtIK_HairIKFreeAxisClass;
@@ -29,54 +29,54 @@ namespace UnityEngine { class Animator; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define SKIRTIK_AWAKE_OFFSET UNITYSDK_OFFSET(0xDD4BBB0)
-#define SKIRTIK_COLLECTTHREADDATA_OFFSET UNITYSDK_OFFSET(0xDD490F0)
-#define SKIRTIK_DISABLEHAIRCUSTOMCURVEOFFSET_OFFSET UNITYSDK_OFFSET(0xDD4BB10)
-#define SKIRTIK_FLUSHTHREADDATA_OFFSET UNITYSDK_OFFSET(0xDD4B180)
-#define SKIRTIK_GETCURVEEVALUATEVALUE_OFFSET UNITYSDK_OFFSET(0xDD4C3D0)
-#define SKIRTIK_GETPERFORMANCERUNTIMECACHE_OFFSET UNITYSDK_OFFSET(0xDD48BE0)
-#define SKIRTIK_GETREFERENCETRANSFORMS_OFFSET UNITYSDK_OFFSET(0xDD48CA0)
-#define SKIRTIK_GETWEIGHT_OFFSET UNITYSDK_OFFSET(0xDD4C2D0)
-#define SKIRTIK_GET_ISPROCESSABLE_OFFSET UNITYSDK_OFFSET(0xDD4B250)
-#define SKIRTIK_METHOD_5_06330CD58CB602B6_OFFSET UNITYSDK_OFFSET(0xDD4BDD0)
-#define SKIRTIK_METHOD_5_1825058D5B6A9E8F_OFFSET UNITYSDK_OFFSET(0xDD501A0)
-#define SKIRTIK_METHOD_5_1F16A901C7196AE0_OFFSET UNITYSDK_OFFSET(0xDD4E7A0)
-#define SKIRTIK_METHOD_5_22D0ADB352880F38_OFFSET UNITYSDK_OFFSET(0xDD4C550)
-#define SKIRTIK_METHOD_5_34AB4F926DABC1DA_OFFSET UNITYSDK_OFFSET(0xDD4C5E0)
-#define SKIRTIK_METHOD_5_35942D7A8A374AB0_OFFSET UNITYSDK_OFFSET(0xDD4B790)
-#define SKIRTIK_METHOD_5_50C6F82CE7A6278C_OFFSET UNITYSDK_OFFSET(0xDD50010)
-#define SKIRTIK_METHOD_5_54C4999AD8BA51B0_OFFSET UNITYSDK_OFFSET(0xDD500F0)
-#define SKIRTIK_METHOD_5_6068163BEEE00EFE_OFFSET UNITYSDK_OFFSET(0xDD50240)
-#define SKIRTIK_METHOD_5_664A15F76E21F3B6_OFFSET UNITYSDK_OFFSET(0xDD4E5C0)
-#define SKIRTIK_METHOD_5_8295FA3648427122_OFFSET UNITYSDK_OFFSET(0xDD4C4B0)
-#define SKIRTIK_METHOD_5_8AEAC92E3736F3D4_OFFSET UNITYSDK_OFFSET(0xDD4D980)
-#define SKIRTIK_METHOD_5_96F4DD40F689F030_OFFSET UNITYSDK_OFFSET(0xDD4C200)
-#define SKIRTIK_METHOD_5_98CD66A7F3C102A5_OFFSET UNITYSDK_OFFSET(0xDD511A0)
-#define SKIRTIK_METHOD_5_A6DB536AB11653AA_OFFSET UNITYSDK_OFFSET(0xDD4F5F0)
-#define SKIRTIK_METHOD_5_A8849472BABAC1B1_OFFSET UNITYSDK_OFFSET(0xDD4FF10)
-#define SKIRTIK_METHOD_5_B9A97467188E4B69_OFFSET UNITYSDK_OFFSET(0xDD51860)
-#define SKIRTIK_METHOD_5_C5F9823D509784CD_1_OFFSET UNITYSDK_OFFSET(0xDD4C120)
-#define SKIRTIK_METHOD_5_C5F9823D509784CD_OFFSET UNITYSDK_OFFSET(0xDD4C040)
-#define SKIRTIK_PREPROCESS_OFFSET UNITYSDK_OFFSET(0xDD4B410)
-#define SKIRTIK_PROCESS_OFFSET UNITYSDK_OFFSET(0xDD4B6D0)
-#define SKIRTIK_RECORDBEFOREIK_OFFSET UNITYSDK_OFFSET(0xDD4B810)
-#define SKIRTIK_SAFEINIT_OFFSET UNITYSDK_OFFSET(0xDD4B2F0)
-#define SKIRTIK_SETHAIRCUSTOMCURVEOFFSET_OFFSET UNITYSDK_OFFSET(0xDD4BA60)
-#define SKIRTIK_START_OFFSET UNITYSDK_OFFSET(0xDD4BC20)
-#define SKIRTIK_UPDATESKIRTIKSERIALIZEDATAFROMASSET_OFFSET UNITYSDK_OFFSET(0xDD4B5C0)
-#define SKIRTIK_UPDATESKIRTIKSERIALIZEDATA_OFFSET UNITYSDK_OFFSET(0xDD4BB60)
-#define SKIRTIK__CTOR_OFFSET UNITYSDK_OFFSET(0xDD518B0)
+#define SKIRTIK_AWAKE_OFFSET UNITYSDK_OFFSET(0xE9170A0)
+#define SKIRTIK_COLLECTTHREADDATA_OFFSET UNITYSDK_OFFSET(0xE9145D0)
+#define SKIRTIK_DISABLEHAIRCUSTOMCURVEOFFSET_OFFSET UNITYSDK_OFFSET(0xE917000)
+#define SKIRTIK_FLUSHTHREADDATA_OFFSET UNITYSDK_OFFSET(0xE916660)
+#define SKIRTIK_GETCURVEEVALUATEVALUE_OFFSET UNITYSDK_OFFSET(0xE9198A0)
+#define SKIRTIK_GETPERFORMANCERUNTIMECACHE_OFFSET UNITYSDK_OFFSET(0xE914060)
+#define SKIRTIK_GETREFERENCETRANSFORMS_OFFSET UNITYSDK_OFFSET(0xE914180)
+#define SKIRTIK_GETWEIGHT_OFFSET UNITYSDK_OFFSET(0xE9197A0)
+#define SKIRTIK_GET_ISPROCESSABLE_OFFSET UNITYSDK_OFFSET(0xE916730)
+#define SKIRTIK_METHOD_5_06330CD58CB602B6_OFFSET UNITYSDK_OFFSET(0xE9172C0)
+#define SKIRTIK_METHOD_5_1825058D5B6A9E8F_OFFSET UNITYSDK_OFFSET(0xE91B690)
+#define SKIRTIK_METHOD_5_1F16A901C7196AE0_OFFSET UNITYSDK_OFFSET(0xE919C90)
+#define SKIRTIK_METHOD_5_22D0ADB352880F38_OFFSET UNITYSDK_OFFSET(0xE919A20)
+#define SKIRTIK_METHOD_5_34AB4F926DABC1DA_OFFSET UNITYSDK_OFFSET(0xE917530)
+#define SKIRTIK_METHOD_5_35942D7A8A374AB0_OFFSET UNITYSDK_OFFSET(0xE916C80)
+#define SKIRTIK_METHOD_5_50C6F82CE7A6278C_OFFSET UNITYSDK_OFFSET(0xE91B500)
+#define SKIRTIK_METHOD_5_54C4999AD8BA51B0_OFFSET UNITYSDK_OFFSET(0xE91B5E0)
+#define SKIRTIK_METHOD_5_6068163BEEE00EFE_OFFSET UNITYSDK_OFFSET(0xE91B730)
+#define SKIRTIK_METHOD_5_664A15F76E21F3B6_OFFSET UNITYSDK_OFFSET(0xE919AB0)
+#define SKIRTIK_METHOD_5_8295FA3648427122_OFFSET UNITYSDK_OFFSET(0xE919980)
+#define SKIRTIK_METHOD_5_8AEAC92E3736F3D4_OFFSET UNITYSDK_OFFSET(0xE9188D0)
+#define SKIRTIK_METHOD_5_96F4DD40F689F030_OFFSET UNITYSDK_OFFSET(0xE9196D0)
+#define SKIRTIK_METHOD_5_98CD66A7F3C102A5_OFFSET UNITYSDK_OFFSET(0xE91C690)
+#define SKIRTIK_METHOD_5_A6DB536AB11653AA_OFFSET UNITYSDK_OFFSET(0xE91AAE0)
+#define SKIRTIK_METHOD_5_A8849472BABAC1B1_OFFSET UNITYSDK_OFFSET(0xE91B400)
+#define SKIRTIK_METHOD_5_B9A97467188E4B69_OFFSET UNITYSDK_OFFSET(0xE91CD50)
+#define SKIRTIK_METHOD_5_C5F9823D509784CD_1_OFFSET UNITYSDK_OFFSET(0xE9195F0)
+#define SKIRTIK_METHOD_5_C5F9823D509784CD_OFFSET UNITYSDK_OFFSET(0xE919510)
+#define SKIRTIK_PREPROCESS_OFFSET UNITYSDK_OFFSET(0xE9168F0)
+#define SKIRTIK_PROCESS_OFFSET UNITYSDK_OFFSET(0xE916BC0)
+#define SKIRTIK_RECORDBEFOREIK_OFFSET UNITYSDK_OFFSET(0xE916D00)
+#define SKIRTIK_SAFEINIT_OFFSET UNITYSDK_OFFSET(0xE9167D0)
+#define SKIRTIK_SETHAIRCUSTOMCURVEOFFSET_OFFSET UNITYSDK_OFFSET(0xE916F50)
+#define SKIRTIK_START_OFFSET UNITYSDK_OFFSET(0xE917110)
+#define SKIRTIK_UPDATESKIRTIKSERIALIZEDATAFROMASSET_OFFSET UNITYSDK_OFFSET(0xE916AB0)
+#define SKIRTIK_UPDATESKIRTIKSERIALIZEDATA_OFFSET UNITYSDK_OFFSET(0xE917050)
+#define SKIRTIK__CTOR_OFFSET UNITYSDK_OFFSET(0xE91CDA0)
 
-inline static constexpr unsigned int SkirtIK_TypeDefinitionIndex = 45460;
+inline static constexpr unsigned int SkirtIK_TypeDefinitionIndex = 47710;
 
 class SkirtIK : public ::UnityEngine::MonoBehaviour
 {
 public:
-	// static const ::System::String* Field_5_0; // 0x0
-	// static const ::System::String* Field_5_1; // 0x0
-	// static const ::System::String* Field_5_2; // 0x0
-	// static const ::System::String* Field_5_3; // 0x0
-	// static const ::System::Single Field_5_4; // 0x0
+	// static const ::System::String* FKJAOKPLLKN; // 0x0
+	// static const ::System::String* GLDNHOKDGHO; // 0x0
+	// static const ::System::String* KENCLPDDFIE; // 0x0
+	// static const ::System::String* ANCLPAIBHJN; // 0x0
+	// static const ::System::Single DNJHKABICLF; // 0x0
 	::System::Boolean UseConfigData; // 0x18
 	::RPG::Client::SkirtIKConfig_Runtime* ConfigData; // 0x20
 	::RPG::Client::SkirtIKConfig_TransformLUT* TransformLUT; // 0x28
@@ -102,7 +102,7 @@ public:
 	::UnityEngine::AnimationCurve* RWeightCurve; // 0xC8
 	::System::Single rLerp; // 0xD0
 	::Il2CppArray<::SkirtIK_SkirtIKClass*>* RSkirtIK; // 0xD8
-	::System::Boolean Field_5_30; // 0xE0
+	::System::Boolean NLOGDFIGNLE; // 0xE0
 	::System::Single MoveX; // 0xE4
 	::System::Single MoveY; // 0xE8
 	::UnityEngine::AnimationCurve* UDRatioCurve; // 0xF0
@@ -141,62 +141,62 @@ public:
 	::UnityEngine::Quaternion maxL_Knee; // 0x1E4
 	::UnityEngine::Quaternion minR_Knee; // 0x1F4
 	::UnityEngine::Quaternion maxR_Knee; // 0x204
-	::UnityEngine::Quaternion Field_5_69; // 0x214
-	::UnityEngine::Quaternion Field_5_70; // 0x224
-	::System::Single Field_5_71; // 0x234
-	::System::Single Field_5_72; // 0x238
-	::System::Single Field_5_73; // 0x23C
-	::System::Single Field_5_74; // 0x240
-	::UnityEngine::GameObject* Field_5_75; // 0x248
-	::UnityEngine::GameObject* Field_5_76; // 0x250
-	::RootMotion::FinalIK::GrounderIK* Field_5_77; // 0x258
-	::RPG::Client::LookAtIK* Field_5_78; // 0x260
-	::UnityEngine::Transform* Field_5_79; // 0x268
-	::RPG::Client::AttachPointMapping* Field_5_80; // 0x270
-	::RPG::Client::CharacterMonoAvatar* Field_5_81; // 0x278
-	::System::Boolean Field_5_82; // 0x280
-	::UnityEngine::Vector3 Field_5_83; // 0x284
-	::System::Boolean Field_5_84; // 0x290
-	::UnityEngine::Animator* Field_5_85; // 0x298
-	::System::Boolean Field_5_86; // 0x2A0
-	::System::Boolean Field_5_87; // 0x2A1
-	::System::Boolean Field_5_88; // 0x2A2
-	::System::Boolean Field_5_89; // 0x2A3
-	::System::Boolean Field_5_90; // 0x2A4
-	::System::Boolean Field_5_91; // 0x2A5
-	::System::Boolean Field_5_92; // 0x2A6
-	::System::Boolean Field_5_93; // 0x2A7
-	::System::Boolean Field_5_94; // 0x2A8
-	::System::Boolean Field_5_95; // 0x2A9
-	::System::Boolean Field_5_96; // 0x2AA
-	::System::Boolean Field_5_97; // 0x2AB
-	::System::Boolean Field_5_98; // 0x2AC
-	::System::Single Field_5_99; // 0x2B0
-	::System::Single Field_5_100; // 0x2B4
-	::System::Single Field_5_101; // 0x2B8
-	::System::Single Field_5_102; // 0x2BC
-	::System::Single Field_5_103; // 0x2C0
-	::System::Single Field_5_104; // 0x2C4
-	::System::Single Field_5_105; // 0x2C8
-	::System::Boolean Field_5_106; // 0x2CC
-	::Il2CppArray<::SkirtIK_HairIKClass*>* Field_5_107; // 0x2D0
-	::Il2CppArray<::UnityEngine::Vector2>* Field_5_108; // 0x2D8
-	::Il2CppArray<::SkirtIK_Struct_2_BFC2D3C77623B9F7>* Field_5_109; // 0x2E0
-	::SkirtIK_HairIKFreeAxisClass* Field_5_110; // 0x2E8
-	::System::Boolean Field_5_111; // 0x2F0
-	::UnityEngine::Vector3 Field_5_112; // 0x2F4
-	::SkirtIK_LookDirection Field_5_113; // 0x300
-	::System::Boolean Field_5_114; // 0x304
-	::System::Single Field_5_115; // 0x308
-	::System::Single Field_5_116; // 0x30C
-	::System::Single Field_5_117; // 0x310
-	::System::Single Field_5_118; // 0x314
-	::UnityEngine::AnimationCurve* Field_5_119; // 0x318
-	::System::Boolean Field_5_120; // 0x320
-	::System::Single Field_5_121; // 0x324
-	::System::Single Field_5_122; // 0x328
-	::System::Single Field_5_123; // 0x32C
-	::System::Single Field_5_124; // 0x330
+	::UnityEngine::Quaternion CFBICALDKAK; // 0x214
+	::UnityEngine::Quaternion APPCEJICOBN; // 0x224
+	::System::Single LFNMBHDAOLP; // 0x234
+	::System::Single HHCOOIBFCHM; // 0x238
+	::System::Single EHPHNMIJLEC; // 0x23C
+	::System::Single BPNPJMDHKBJ; // 0x240
+	::UnityEngine::GameObject* DLLJAOHOJPE; // 0x248
+	::UnityEngine::GameObject* MEMDBKCPPFB; // 0x250
+	::RootMotion::FinalIK::GrounderIK* JDLKFNLHNAF; // 0x258
+	::RPG::Client::LookAtIK* FFOBPOJECCP; // 0x260
+	::UnityEngine::Transform* ABEAPFBFMJB; // 0x268
+	::RPG::Client::AttachPointMapping* GAKNPJENDNE; // 0x270
+	::RPG::Client::CharacterMonoAvatar* BFKHDDHKNPM; // 0x278
+	::System::Boolean KMEHBKEPCCB; // 0x280
+	::UnityEngine::Vector3 MGIDGGGJEFL; // 0x284
+	::System::Boolean GLBAECDBOJB; // 0x290
+	::UnityEngine::Animator* OONIEDHHBIK; // 0x298
+	::System::Boolean GBMHOKIFHDJ; // 0x2A0
+	::System::Boolean JCANLMFHMDF; // 0x2A1
+	::System::Boolean JJBOABOLNCP; // 0x2A2
+	::System::Boolean AOJJOPECNLJ; // 0x2A3
+	::System::Boolean MOIJEJOCOGN; // 0x2A4
+	::System::Boolean ACECJFJDIHL; // 0x2A5
+	::System::Boolean IEKLKGAKPJE; // 0x2A6
+	::System::Boolean MJDCCOCFCHG; // 0x2A7
+	::System::Boolean JFCBOFIAEHE; // 0x2A8
+	::System::Boolean BLNEOIGBCNG; // 0x2A9
+	::System::Boolean AIAGFPFNKED; // 0x2AA
+	::System::Boolean MLMHMBCNPLE; // 0x2AB
+	::System::Boolean HAOBHLGMHML; // 0x2AC
+	::System::Single ACGFCKJCAEL; // 0x2B0
+	::System::Single GKGKNKIPFBK; // 0x2B4
+	::System::Single DPFNJHBAPHO; // 0x2B8
+	::System::Single GMPOEHGLJEL; // 0x2BC
+	::System::Single CODAAIJJCCD; // 0x2C0
+	::System::Single BFDMPAEODHK; // 0x2C4
+	::System::Single EFNIAMJOJIL; // 0x2C8
+	::System::Boolean EEOGHCFKOGK; // 0x2CC
+	::Il2CppArray<::SkirtIK_HairIKClass*>* BHOLEKGMOKC; // 0x2D0
+	::Il2CppArray<::UnityEngine::Vector2>* EOENKKFOEBJ; // 0x2D8
+	::Il2CppArray<::SkirtIK_Struct_2_BFC2D3C77623B9F7>* DACMPHFBAMH; // 0x2E0
+	::SkirtIK_HairIKFreeAxisClass* IAAICLKMEHL; // 0x2E8
+	::System::Boolean POLGBPPGGKE; // 0x2F0
+	::UnityEngine::Vector3 PNFMOMICCJN; // 0x2F4
+	::SkirtIK_LookDirection GFICLNHEDNG; // 0x300
+	::System::Boolean BEOMHGAKAPA; // 0x304
+	::System::Single NCFGEFEFDFA; // 0x308
+	::System::Single BMHIIAEFFGO; // 0x30C
+	::System::Single AMIHIIPPDKB; // 0x310
+	::System::Single LANNFMNNGLA; // 0x314
+	::UnityEngine::AnimationCurve* APJKHKJCAAC; // 0x318
+	::System::Boolean NJCPBBJDLPL; // 0x320
+	::System::Single BPFGJIOJNCM; // 0x324
+	::System::Single EBDHLMIGOAD; // 0x328
+	::System::Single BKFHNJGFKGN; // 0x32C
+	::System::Single GMANFGHFIEO; // 0x330
 	::Il2CppArray<::UnityEngine::Transform*>* _HairBone; // 0x338
 	::Il2CppArray<::UnityEngine::Transform*>* _LeftSkirtBone; // 0x340
 	::Il2CppArray<::UnityEngine::Transform*>* _RightSkirtBone; // 0x348
@@ -206,9 +206,9 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SKIRTIK__CTOR_OFFSET))(this);
 	}
 
-	::System::Boolean GetPerformanceRuntimeCache(::System::String*& a1, ::Class_0_16E4307DCC419505_335*& a2)
+	::System::Boolean GetPerformanceRuntimeCache(::System::String*& a1, ::Class_0_16E4307DCC419505_356*& a2)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::System::String*&, ::Class_0_16E4307DCC419505_335*&))((::PBYTE)hIl2Cpp + SKIRTIK_GETPERFORMANCERUNTIMECACHE_OFFSET))(this, a1, a2);
+		return ((::System::Boolean(*)(::PVOID, ::System::String*&, ::Class_0_16E4307DCC419505_356*&))((::PBYTE)hIl2Cpp + SKIRTIK_GETPERFORMANCERUNTIMECACHE_OFFSET))(this, a1, a2);
 	}
 
 	::System::Void GetReferenceTransforms(::System::Collections::Generic::List_1<::UnityEngine::Transform*>* a1)

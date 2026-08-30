@@ -7,14 +7,14 @@ template <typename T> class Class_1_D837DED66799FBE3_DelegateParseJson_1;
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByCurrentSkillEffect___O_TypeDefinitionIndex = 22193;
+	inline static constexpr unsigned int ByCurrentSkillEffect___O_TypeDefinitionIndex = 22762;
 
 	class ByCurrentSkillEffect___O : public ::System::Object
 	{
 	public:
 		static ::Class_1_D837DED66799FBE3_DelegateParseJson_1<::RPG::GameCore::SkillEffect>** StaticGet__0___FromJson()
 		{
-			return (::Class_1_D837DED66799FBE3_DelegateParseJson_1<::RPG::GameCore::SkillEffect>**)Il2CppClass::FromTypeDefinitionIndex(ByCurrentSkillEffect___O_TypeDefinitionIndex)->GetStaticField(0x2A410);
+			return (::Class_1_D837DED66799FBE3_DelegateParseJson_1<::RPG::GameCore::SkillEffect>**)Il2CppClass::FromTypeDefinitionIndex(ByCurrentSkillEffect___O_TypeDefinitionIndex)->GetStaticField(0x10B70);
 		}
 	};
 }

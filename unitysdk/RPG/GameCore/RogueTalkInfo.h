@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ROGUETALKINFO_METHOD_2_EA8FA1687D32DA4F_OFFSET UNITYSDK_OFFSET(0x1B78E0C0)
-#define RPG_GAMECORE_ROGUETALKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1B78E200)
+#define RPG_GAMECORE_ROGUETALKINFO_METHOD_2_EA8FA1687D32DA4F_OFFSET UNITYSDK_OFFSET(0x1D4117C0)
+#define RPG_GAMECORE_ROGUETALKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1D411900)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueTalkInfo_TypeDefinitionIndex = 20315;
+	inline static constexpr unsigned int RogueTalkInfo_TypeDefinitionIndex = 20865;
 
 	class RogueTalkInfo : public ::RPG::GameCore::JsonConfig
 	{

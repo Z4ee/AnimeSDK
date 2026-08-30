@@ -5,12 +5,12 @@
 
 namespace RPG::Client { class Product; }
 
-#define RPG_CLIENT_PAYMODULE___C__DISPLAYCLASS32_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCF4AE80)
-#define RPG_CLIENT_PAYMODULE___C__DISPLAYCLASS32_0__GETPRODUCTSBYTYPE_B__0_OFFSET UNITYSDK_OFFSET(0xCF4C4F0)
+#define RPG_CLIENT_PAYMODULE___C__DISPLAYCLASS32_0__CTOR_OFFSET UNITYSDK_OFFSET(0xDA49EB0)
+#define RPG_CLIENT_PAYMODULE___C__DISPLAYCLASS32_0__GETPRODUCTSBYTYPE_B__0_OFFSET UNITYSDK_OFFSET(0xDA49EC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PayModule___c__DisplayClass32_0_TypeDefinitionIndex = 63482;
+	inline static constexpr unsigned int PayModule___c__DisplayClass32_0_TypeDefinitionIndex = 66467;
 
 	class PayModule___c__DisplayClass32_0 : public ::System::Object
 	{

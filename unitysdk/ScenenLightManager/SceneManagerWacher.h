@@ -4,17 +4,17 @@
 
 class Class_1_E4CB20B056222958;
 
-#define SCENENLIGHTMANAGER_SCENEMANAGERWACHER_GET_SLIGHT_OFFSET UNITYSDK_OFFSET(0xDD45730)
-#define SCENENLIGHTMANAGER_SCENEMANAGERWACHER__CTOR_OFFSET UNITYSDK_OFFSET(0xDD45740)
+#define SCENENLIGHTMANAGER_SCENEMANAGERWACHER_GET_SLIGHT_OFFSET UNITYSDK_OFFSET(0xE910BE0)
+#define SCENENLIGHTMANAGER_SCENEMANAGERWACHER__CTOR_OFFSET UNITYSDK_OFFSET(0xE910BF0)
 
 namespace ScenenLightManager
 {
-	inline static constexpr unsigned int SceneManagerWacher_TypeDefinitionIndex = 47331;
+	inline static constexpr unsigned int SceneManagerWacher_TypeDefinitionIndex = 49611;
 
 	class SceneManagerWacher : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		::Class_1_E4CB20B056222958* Field_5_0; // 0x18
+		::Class_1_E4CB20B056222958* ODEHJOOPKPJ; // 0x18
 
 		::System::Void _ctor()
 		{

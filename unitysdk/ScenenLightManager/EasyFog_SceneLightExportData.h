@@ -5,12 +5,12 @@
 namespace ScenenLightManager { class BaseComponentExportData; }
 namespace ScenenLightManager { class EasyFog_ExportData; }
 
-#define SCENENLIGHTMANAGER_EASYFOG_SCENELIGHTEXPORTDATA_METHOD_3_5E6C930E38E03A19_OFFSET UNITYSDK_OFFSET(0xDD42DA0)
-#define SCENENLIGHTMANAGER_EASYFOG_SCENELIGHTEXPORTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xDD42DB0)
+#define SCENENLIGHTMANAGER_EASYFOG_SCENELIGHTEXPORTDATA_METHOD_3_5E6C930E38E03A19_OFFSET UNITYSDK_OFFSET(0xE90E250)
+#define SCENENLIGHTMANAGER_EASYFOG_SCENELIGHTEXPORTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xE90E260)
 
 namespace ScenenLightManager
 {
-	inline static constexpr unsigned int EasyFog_SceneLightExportData_TypeDefinitionIndex = 47207;
+	inline static constexpr unsigned int EasyFog_SceneLightExportData_TypeDefinitionIndex = 49487;
 
 	class EasyFog_SceneLightExportData : public ::ScenenLightManager::BaseSceneLightExportData
 	{

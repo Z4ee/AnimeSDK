@@ -4,12 +4,12 @@
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 
-#define RPGTOOLS_TIMELINE_HIDELEVELSTAGEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xDCE0A50)
-#define RPGTOOLS_TIMELINE_HIDELEVELSTAGEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xDCE0DB0)
+#define RPGTOOLS_TIMELINE_HIDELEVELSTAGEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xE861CD0)
+#define RPGTOOLS_TIMELINE_HIDELEVELSTAGEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xE861F70)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int HideLevelStageBehaviour_TypeDefinitionIndex = 46645;
+	inline static constexpr unsigned int HideLevelStageBehaviour_TypeDefinitionIndex = 48890;
 
 	class HideLevelStageBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{

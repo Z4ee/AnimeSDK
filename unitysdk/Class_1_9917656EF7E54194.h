@@ -3,25 +3,25 @@
 #include "unitysdk/System/Object.h"
 
 class Class_1_280B56AF77019A2F;
-class Class_1_D17272E82AE804C2_595;
+class Class_1_D17272E82AE804C2_608;
 namespace Google::Protobuf::Collections { template <typename T> class RepeatedField_1; }
 namespace RPG::Client::LimaoNews { class LimaoNewsSponsorItemViewModel; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_9917656EF7E54194_DISPOSE_OFFSET UNITYSDK_OFFSET(0xADAD970)
-#define CLASS_1_9917656EF7E54194_METHOD_1_016C8341F6A3521E_OFFSET UNITYSDK_OFFSET(0xADADFD0)
-#define CLASS_1_9917656EF7E54194_METHOD_1_2E3733F66989A0BF_OFFSET UNITYSDK_OFFSET(0xADAE120)
-#define CLASS_1_9917656EF7E54194_METHOD_1_5022DB1DC5AA8CB4_OFFSET UNITYSDK_OFFSET(0xADADDD0)
-#define CLASS_1_9917656EF7E54194_METHOD_1_684F14C3B7AFA31D_OFFSET UNITYSDK_OFFSET(0xADADA00)
-#define CLASS_1_9917656EF7E54194_METHOD_1_EF16A0C31A265E6D_OFFSET UNITYSDK_OFFSET(0xADADE70)
-#define CLASS_1_9917656EF7E54194__CTOR_OFFSET UNITYSDK_OFFSET(0xADAE560)
+#define CLASS_1_9917656EF7E54194_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB70C010)
+#define CLASS_1_9917656EF7E54194_METHOD_1_016C8341F6A3521E_OFFSET UNITYSDK_OFFSET(0xB70C670)
+#define CLASS_1_9917656EF7E54194_METHOD_1_5022DB1DC5AA8CB4_OFFSET UNITYSDK_OFFSET(0xB70C470)
+#define CLASS_1_9917656EF7E54194_METHOD_1_684F14C3B7AFA31D_OFFSET UNITYSDK_OFFSET(0xB70C0A0)
+#define CLASS_1_9917656EF7E54194_METHOD_1_B52A7B253D42E098_OFFSET UNITYSDK_OFFSET(0xB70C7C0)
+#define CLASS_1_9917656EF7E54194_METHOD_1_EF16A0C31A265E6D_OFFSET UNITYSDK_OFFSET(0xB70C510)
+#define CLASS_1_9917656EF7E54194__CTOR_OFFSET UNITYSDK_OFFSET(0xB70CBD0)
 
-inline static constexpr unsigned int Class_1_9917656EF7E54194_TypeDefinitionIndex = 75442;
+inline static constexpr unsigned int Class_1_9917656EF7E54194_TypeDefinitionIndex = 79015;
 
 class Class_1_9917656EF7E54194 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::Class_1_280B56AF77019A2F*>* Field_1_0; // 0x10
+	::System::Collections::Generic::List_1<::Class_1_280B56AF77019A2F*>* JODNHMLAEKJ; // 0x10
 
 	::System::Void _ctor()
 	{
@@ -33,14 +33,14 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_9917656EF7E54194_DISPOSE_OFFSET))(this);
 	}
 
-	::System::Void Method_1_684F14C3B7AFA31D(::Google::Protobuf::Collections::RepeatedField_1<::Class_1_D17272E82AE804C2_595*>* a1)
+	::System::Void Method_1_684F14C3B7AFA31D(::Google::Protobuf::Collections::RepeatedField_1<::Class_1_D17272E82AE804C2_608*>* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::Google::Protobuf::Collections::RepeatedField_1<::Class_1_D17272E82AE804C2_595*>*))((::PBYTE)hIl2Cpp + CLASS_1_9917656EF7E54194_METHOD_1_684F14C3B7AFA31D_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::Google::Protobuf::Collections::RepeatedField_1<::Class_1_D17272E82AE804C2_608*>*))((::PBYTE)hIl2Cpp + CLASS_1_9917656EF7E54194_METHOD_1_684F14C3B7AFA31D_OFFSET))(this, a1);
 	}
 
-	::System::Void Method_1_5022DB1DC5AA8CB4(::Class_1_D17272E82AE804C2_595* a1)
+	::System::Void Method_1_5022DB1DC5AA8CB4(::Class_1_D17272E82AE804C2_608* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_1_D17272E82AE804C2_595*))((::PBYTE)hIl2Cpp + CLASS_1_9917656EF7E54194_METHOD_1_5022DB1DC5AA8CB4_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::Class_1_D17272E82AE804C2_608*))((::PBYTE)hIl2Cpp + CLASS_1_9917656EF7E54194_METHOD_1_5022DB1DC5AA8CB4_OFFSET))(this, a1);
 	}
 
 	::Class_1_280B56AF77019A2F* Method_1_EF16A0C31A265E6D(::System::UInt32 a1)
@@ -53,8 +53,8 @@ public:
 		return ((::Class_1_280B56AF77019A2F*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_9917656EF7E54194_METHOD_1_016C8341F6A3521E_OFFSET))(this, a1);
 	}
 
-	::System::Collections::Generic::List_1<::RPG::Client::LimaoNews::LimaoNewsSponsorItemViewModel*>* Method_1_2E3733F66989A0BF()
+	::System::Collections::Generic::List_1<::RPG::Client::LimaoNews::LimaoNewsSponsorItemViewModel*>* Method_1_B52A7B253D42E098()
 	{
-		return ((::System::Collections::Generic::List_1<::RPG::Client::LimaoNews::LimaoNewsSponsorItemViewModel*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_9917656EF7E54194_METHOD_1_2E3733F66989A0BF_OFFSET))(this);
+		return ((::System::Collections::Generic::List_1<::RPG::Client::LimaoNews::LimaoNewsSponsorItemViewModel*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_9917656EF7E54194_METHOD_1_B52A7B253D42E098_OFFSET))(this);
 	}
 };

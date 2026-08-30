@@ -5,18 +5,18 @@
 namespace RPG::Client { class ActivityRewardUtils_MultiIDCheckerFunc; }
 namespace RPG::Client { class ActivityRewardUtils_QuestCheckerFunc; }
 
-#define RPG_CLIENT_ACTIVITYREWARDUTILS___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBC65060)
-#define RPG_CLIENT_ACTIVITYREWARDUTILS___C__DISPLAYCLASS19_0___ISACTIVITYREWARDQUESTPASS_B__0_OFFSET UNITYSDK_OFFSET(0xBC651F0)
+#define RPG_CLIENT_ACTIVITYREWARDUTILS___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC685060)
+#define RPG_CLIENT_ACTIVITYREWARDUTILS___C__DISPLAYCLASS19_0___ISACTIVITYREWARDQUESTPASS_B__0_OFFSET UNITYSDK_OFFSET(0xC6851F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityRewardUtils___c__DisplayClass19_0_TypeDefinitionIndex = 59004;
+	inline static constexpr unsigned int ActivityRewardUtils___c__DisplayClass19_0_TypeDefinitionIndex = 61839;
 
 	class ActivityRewardUtils___c__DisplayClass19_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::ActivityRewardUtils_QuestCheckerFunc* questChecker; // 0x10
-		::RPG::Client::ActivityRewardUtils_MultiIDCheckerFunc* multiChecker; // 0x18
+		::RPG::Client::ActivityRewardUtils_MultiIDCheckerFunc* multiChecker; // 0x10
+		::RPG::Client::ActivityRewardUtils_QuestCheckerFunc* questChecker; // 0x18
 
 		::System::Void _ctor()
 		{

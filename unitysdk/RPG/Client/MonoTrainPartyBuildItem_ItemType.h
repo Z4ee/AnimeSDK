@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoTrainPartyBuildItem_ItemType_TypeDefinitionIndex = 65801;
+	inline static constexpr unsigned int MonoTrainPartyBuildItem_ItemType_TypeDefinitionIndex = 68839;
 
 	enum class MonoTrainPartyBuildItem_ItemType : ::System::Int32
 	{

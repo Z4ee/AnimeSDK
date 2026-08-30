@@ -4,14 +4,14 @@
 
 namespace RPG::Client { class FateGameData; }
 
-#define CLASS_1_582AF6875845819E__CTOR_OFFSET UNITYSDK_OFFSET(0xB568F20)
+#define CLASS_1_582AF6875845819E__CTOR_OFFSET UNITYSDK_OFFSET(0xBF60110)
 
-inline static constexpr unsigned int Class_1_582AF6875845819E_TypeDefinitionIndex = 61118;
+inline static constexpr unsigned int Class_1_582AF6875845819E_TypeDefinitionIndex = 64099;
 
 class Class_1_582AF6875845819E : public ::System::Object
 {
 public:
-	::RPG::Client::FateGameData* Field_1_0; // 0x10
+	::RPG::Client::FateGameData* NHJHHOLAOHD; // 0x10
 
 	::System::Void _ctor()
 	{

@@ -7,7 +7,7 @@ namespace System { class Type; }
 
 namespace System::Runtime::Remoting
 {
-	inline static constexpr unsigned int IRemotingTypeInfo_TypeDefinitionIndex = 1200;
+	inline static constexpr unsigned int IRemotingTypeInfo_TypeDefinitionIndex = 1207;
 
 	class IRemotingTypeInfo
 	{

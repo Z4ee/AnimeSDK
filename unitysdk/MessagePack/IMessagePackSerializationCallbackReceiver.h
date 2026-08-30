@@ -3,7 +3,7 @@
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int IMessagePackSerializationCallbackReceiver_TypeDefinitionIndex = 6551;
+	inline static constexpr unsigned int IMessagePackSerializationCallbackReceiver_TypeDefinitionIndex = 6163;
 
 	class IMessagePackSerializationCallbackReceiver
 	{

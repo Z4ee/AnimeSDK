@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Entitas/EntitasException.h"
 
-#define ENTITAS_SINGLEENTITYEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x157A6D40)
+#define ENTITAS_SINGLEENTITYEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x16531A70)
 
 namespace Entitas
 {
-	inline static constexpr unsigned int SingleEntityException_TypeDefinitionIndex = 9687;
+	inline static constexpr unsigned int SingleEntityException_TypeDefinitionIndex = 9966;
 
 	class SingleEntityException : public ::Entitas::EntitasException
 	{

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ShowPhaseUI; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_0C8D8D57265BF3F1_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB124190)
-#define CLASS_3_0C8D8D57265BF3F1__CTOR_OFFSET UNITYSDK_OFFSET(0xB124160)
+#define CLASS_3_0C8D8D57265BF3F1_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBAEA350)
+#define CLASS_3_0C8D8D57265BF3F1__CTOR_OFFSET UNITYSDK_OFFSET(0xBAEA320)
 
-inline static constexpr unsigned int Class_3_0C8D8D57265BF3F1_TypeDefinitionIndex = 45820;
+inline static constexpr unsigned int Class_3_0C8D8D57265BF3F1_TypeDefinitionIndex = 48072;
 
 class Class_3_0C8D8D57265BF3F1 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ShowPhaseUI*>
 {

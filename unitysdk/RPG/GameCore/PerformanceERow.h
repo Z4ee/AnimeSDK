@@ -9,30 +9,30 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_PERFORMANCEEROW_FROMBINARYWITHOUTNEW_OFFSET UNITYSDK_OFFSET(0x1B694E00)
-#define RPG_GAMECORE_PERFORMANCEEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B6951B0)
-#define RPG_GAMECORE_PERFORMANCEEROW_FROMTABLEOFFSET_OFFSET UNITYSDK_OFFSET(0x1B695DD0)
-#define RPG_GAMECORE_PERFORMANCEEROW_RESET_OFFSET UNITYSDK_OFFSET(0x1B695E30)
-#define RPG_GAMECORE_PERFORMANCEEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B695E50)
+#define RPG_GAMECORE_PERFORMANCEEROW_FROMBINARYWITHOUTNEW_OFFSET UNITYSDK_OFFSET(0x1D317B50)
+#define RPG_GAMECORE_PERFORMANCEEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D317F00)
+#define RPG_GAMECORE_PERFORMANCEEROW_FROMTABLEOFFSET_OFFSET UNITYSDK_OFFSET(0x1D318B20)
+#define RPG_GAMECORE_PERFORMANCEEROW_RESET_OFFSET UNITYSDK_OFFSET(0x1D318B80)
+#define RPG_GAMECORE_PERFORMANCEEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D318B90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PerformanceERow_TypeDefinitionIndex = 13808;
+	inline static constexpr unsigned int PerformanceERow_TypeDefinitionIndex = 14225;
 
 	class PerformanceERow : public ::System::Object
 	{
 	public:
-		::System::String* PerformancePath; // 0x10
-		::System::String* PerformanceCharacter; // 0x18
-		::RPG::GameCore::StoryBlackType StartBlack; // 0x20
-		::RPG::GameCore::PerformanceSkipType IsSkip; // 0x24
-		::RPG::GameCore::PerformanceChangePlayerType ChangePlayerType; // 0x28
-		::System::UInt32 PlaneID; // 0x2C
-		::RPG::GameCore::StoryBlackType EndBlack; // 0x30
-		::System::UInt32 FloorID; // 0x34
-		::System::Boolean IsIntroDialogue; // 0x38
-		::System::Boolean EndWithCrack; // 0x39
-		::System::UInt32 PerformanceID; // 0x3C
+		::System::String* PerformanceCharacter; // 0x10
+		::System::String* PerformancePath; // 0x18
+		::RPG::GameCore::StoryBlackType EndBlack; // 0x20
+		::System::UInt32 FloorID; // 0x24
+		::System::UInt32 PerformanceID; // 0x28
+		::System::Boolean IsIntroDialogue; // 0x2C
+		::System::Boolean EndWithCrack; // 0x2D
+		::RPG::GameCore::StoryBlackType StartBlack; // 0x30
+		::RPG::GameCore::PerformanceChangePlayerType ChangePlayerType; // 0x34
+		::RPG::GameCore::PerformanceSkipType IsSkip; // 0x38
+		::System::UInt32 PlaneID; // 0x3C
 
 		::System::Void _ctor()
 		{

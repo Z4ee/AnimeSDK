@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MATCHTHREEV2SPECIALRULEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B5D63E0)
-#define RPG_GAMECORE_MATCHTHREEV2SPECIALRULEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5D65A0)
+#define RPG_GAMECORE_MATCHTHREEV2SPECIALRULEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D252AB0)
+#define RPG_GAMECORE_MATCHTHREEV2SPECIALRULEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D252C70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MatchThreeV2SpecialRuleRow_TypeDefinitionIndex = 11522;
+	inline static constexpr unsigned int MatchThreeV2SpecialRuleRow_TypeDefinitionIndex = 11911;
 
 	class MatchThreeV2SpecialRuleRow : public ::System::Object
 	{

@@ -5,15 +5,15 @@
 class Class_1_5469D397DAE62876;
 namespace RPG::GameCore { class GameEntity; }
 
-#define STRUCT_2_4BFB662CA8913AC0_METHOD_2_2AC5DC31C38B346F_OFFSET UNITYSDK_OFFSET(0x1543D340)
+#define STRUCT_2_4BFB662CA8913AC0_METHOD_2_2AC5DC31C38B346F_OFFSET UNITYSDK_OFFSET(0x16387BD0)
 
-inline static constexpr unsigned int Struct_2_4BFB662CA8913AC0_TypeDefinitionIndex = 51314;
+inline static constexpr unsigned int Struct_2_4BFB662CA8913AC0_TypeDefinitionIndex = 53998;
 
 struct alignas(8) Struct_2_4BFB662CA8913AC0
 {
-	::Class_1_5469D397DAE62876* Field_2_0; // 0x10
-	::RPG::GameCore::GameEntity* Field_2_1; // 0x18
-	::RPG::GameCore::GameEntity* Field_2_2; // 0x20
+	::Class_1_5469D397DAE62876* MHJKGHNHPCP; // 0x10
+	::RPG::GameCore::GameEntity* CFDHPDOFCJA; // 0x18
+	::RPG::GameCore::GameEntity* LIIFPHHNPPP; // 0x20
 
 	static ::Struct_2_4BFB662CA8913AC0 Method_2_2AC5DC31C38B346F(::Class_1_5469D397DAE62876* a1, ::RPG::GameCore::GameEntity* a2, ::RPG::GameCore::GameEntity* a3)
 	{

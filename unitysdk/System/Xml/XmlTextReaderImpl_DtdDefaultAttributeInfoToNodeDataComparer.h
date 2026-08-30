@@ -4,21 +4,21 @@
 
 namespace System::Collections::Generic { template <typename T> class IComparer_1; }
 
-#define SYSTEM_XML_XMLTEXTREADERIMPL_DTDDEFAULTATTRIBUTEINFOTONODEDATACOMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0x1CC2CD70)
-#define SYSTEM_XML_XMLTEXTREADERIMPL_DTDDEFAULTATTRIBUTEINFOTONODEDATACOMPARER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1CC2CD10)
-#define SYSTEM_XML_XMLTEXTREADERIMPL_DTDDEFAULTATTRIBUTEINFOTONODEDATACOMPARER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CC2CF70)
-#define SYSTEM_XML_XMLTEXTREADERIMPL_DTDDEFAULTATTRIBUTEINFOTONODEDATACOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC2CF60)
+#define SYSTEM_XML_XMLTEXTREADERIMPL_DTDDEFAULTATTRIBUTEINFOTONODEDATACOMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0x1E8D72C0)
+#define SYSTEM_XML_XMLTEXTREADERIMPL_DTDDEFAULTATTRIBUTEINFOTONODEDATACOMPARER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1E8D7260)
+#define SYSTEM_XML_XMLTEXTREADERIMPL_DTDDEFAULTATTRIBUTEINFOTONODEDATACOMPARER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E8D74E0)
+#define SYSTEM_XML_XMLTEXTREADERIMPL_DTDDEFAULTATTRIBUTEINFOTONODEDATACOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E8D74D0)
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int XmlTextReaderImpl_DtdDefaultAttributeInfoToNodeDataComparer_TypeDefinitionIndex = 1852;
+	inline static constexpr unsigned int XmlTextReaderImpl_DtdDefaultAttributeInfoToNodeDataComparer_TypeDefinitionIndex = 1859;
 
 	class XmlTextReaderImpl_DtdDefaultAttributeInfoToNodeDataComparer : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::IComparer_1<::System::Object*>** StaticGet_s_instance()
 		{
-			return (::System::Collections::Generic::IComparer_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(XmlTextReaderImpl_DtdDefaultAttributeInfoToNodeDataComparer_TypeDefinitionIndex)->GetStaticField(0x26C30);
+			return (::System::Collections::Generic::IComparer_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(XmlTextReaderImpl_DtdDefaultAttributeInfoToNodeDataComparer_TypeDefinitionIndex)->GetStaticField(0x289B0);
 		}
 
 		::System::Void _ctor()

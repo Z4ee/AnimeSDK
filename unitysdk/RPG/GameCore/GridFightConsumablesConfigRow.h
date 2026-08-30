@@ -6,22 +6,22 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_GRIDFIGHTCONSUMABLESCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B4D4140)
-#define RPG_GAMECORE_GRIDFIGHTCONSUMABLESCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4D4420)
+#define RPG_GAMECORE_GRIDFIGHTCONSUMABLESCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D14D9B0)
+#define RPG_GAMECORE_GRIDFIGHTCONSUMABLESCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D14DC90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightConsumablesConfigRow_TypeDefinitionIndex = 12947;
+	inline static constexpr unsigned int GridFightConsumablesConfigRow_TypeDefinitionIndex = 13338;
 
 	class GridFightConsumablesConfigRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* ConsumableParamList; // 0x10
-		::RPG::Client::TextID ConsumableDesc; // 0x18
-		::RPG::GameCore::GridFightConsumeType ConsumableRule; // 0x28
-		::System::Boolean IfStack; // 0x2C
-		::System::Boolean IfConsume; // 0x2D
-		::System::UInt32 ID; // 0x30
+		::RPG::GameCore::GridFightConsumeType ConsumableRule; // 0x18
+		::RPG::Client::TextID ConsumableDesc; // 0x20
+		::System::Boolean IfStack; // 0x30
+		::System::Boolean IfConsume; // 0x31
+		::System::UInt32 ID; // 0x34
 
 		::System::Void _ctor()
 		{

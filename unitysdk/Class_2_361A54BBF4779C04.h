@@ -9,22 +9,22 @@ namespace RPG::GameCore { class SetDynamicValueByModifierValue; }
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 
-#define CLASS_2_361A54BBF4779C04_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB574260)
-#define CLASS_2_361A54BBF4779C04_METHOD_2_D012DDA5D8AEAA70_OFFSET UNITYSDK_OFFSET(0xB5745F0)
-#define CLASS_2_361A54BBF4779C04_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB5742A0)
-#define CLASS_2_361A54BBF4779C04_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB5748C0)
-#define CLASS_2_361A54BBF4779C04_TICK_OFFSET UNITYSDK_OFFSET(0xB574910)
-#define CLASS_2_361A54BBF4779C04__CTOR_OFFSET UNITYSDK_OFFSET(0xB574190)
+#define CLASS_2_361A54BBF4779C04_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBF6BA40)
+#define CLASS_2_361A54BBF4779C04_METHOD_2_D012DDA5D8AEAA70_OFFSET UNITYSDK_OFFSET(0xBF6BDD0)
+#define CLASS_2_361A54BBF4779C04_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBF6BA80)
+#define CLASS_2_361A54BBF4779C04_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBF6C0A0)
+#define CLASS_2_361A54BBF4779C04_TICK_OFFSET UNITYSDK_OFFSET(0xBF6C0F0)
+#define CLASS_2_361A54BBF4779C04__CTOR_OFFSET UNITYSDK_OFFSET(0xBF6B970)
 
-inline static constexpr unsigned int Class_2_361A54BBF4779C04_TypeDefinitionIndex = 52942;
+inline static constexpr unsigned int Class_2_361A54BBF4779C04_TypeDefinitionIndex = 55646;
 
 class Class_2_361A54BBF4779C04 : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::RPG::GameCore::TaskContext* Field_2_0; // 0x18
-	::RPG::GameCore::SetDynamicValueByModifierValue* Field_2_1; // 0x20
-	::RPG::GameCore::StringHash Field_2_2; // 0x28
-	::RPG::GameCore::ArrayPoolWrapper_1<::RPG::GameCore::TurnBasedModifierInstance*> Field_2_3; // 0x2C
+	::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+	::RPG::GameCore::SetDynamicValueByModifierValue* OFKGLJOAMLD; // 0x20
+	::RPG::GameCore::StringHash DIJHOMCLPEG; // 0x28
+	::RPG::GameCore::ArrayPoolWrapper_1<::RPG::GameCore::TurnBasedModifierInstance*> NMJKNKGGBOD; // 0x2C
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SetDynamicValueByModifierValue* a2)
 	{

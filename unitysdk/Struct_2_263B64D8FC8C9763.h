@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AdventureDyingParam; }
 namespace RPG::GameCore { class GameEntity; }
 
-inline static constexpr unsigned int Struct_2_263B64D8FC8C9763_TypeDefinitionIndex = 55329;
+inline static constexpr unsigned int Struct_2_263B64D8FC8C9763_TypeDefinitionIndex = 58053;
 
 struct alignas(8) Struct_2_263B64D8FC8C9763
 {
-	::RPG::GameCore::GameEntity* Field_2_0; // 0x10
-	::RPG::GameCore::AdventureDyingParam* Field_2_1; // 0x18
+	::RPG::GameCore::GameEntity* GGKGFABFGFE; // 0x10
+	::RPG::GameCore::AdventureDyingParam* BBPLELHMGCM; // 0x18
 };

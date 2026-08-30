@@ -7,19 +7,19 @@
 class Class_1_3745C69C00F04B7D_5;
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_CAKEDIALOGUERULEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B2F1580)
-#define RPG_GAMECORE_CAKEDIALOGUERULEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B2F17C0)
+#define RPG_GAMECORE_CAKEDIALOGUERULEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CF6D180)
+#define RPG_GAMECORE_CAKEDIALOGUERULEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF6D3C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CakeDialogueRuleRow_TypeDefinitionIndex = 12440;
+	inline static constexpr unsigned int CakeDialogueRuleRow_TypeDefinitionIndex = 12831;
 
 	class CakeDialogueRuleRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::RPG::GameCore::CakeValidAreaType>* TypeList; // 0x10
-		::Il2CppArray<::System::UInt32>* CakeDialogueList; // 0x18
-		::Il2CppArray<::Class_1_3745C69C00F04B7D_5*>* CakeRequirementList; // 0x20
+		::Il2CppArray<::Class_1_3745C69C00F04B7D_5*>* CakeRequirementList; // 0x10
+		::Il2CppArray<::RPG::GameCore::CakeValidAreaType>* TypeList; // 0x18
+		::Il2CppArray<::System::UInt32>* CakeDialogueList; // 0x20
 		::RPG::GameCore::CakeSpeakerPolicy SpeakerPolicy; // 0x28
 		::System::UInt32 ID; // 0x2C
 

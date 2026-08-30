@@ -7,16 +7,16 @@ class Class_1_CC76D1702CC17C09_8;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_AF3961F295BCE491_METHOD_1_10E14D02D9EE6898_OFFSET UNITYSDK_OFFSET(0x14717AF0)
-#define CLASS_1_AF3961F295BCE491_METHOD_1_2F7B284B944A4637_OFFSET UNITYSDK_OFFSET(0x147179C0)
-#define CLASS_1_AF3961F295BCE491__CTOR_OFFSET UNITYSDK_OFFSET(0x14717BD0)
+#define CLASS_1_AF3961F295BCE491_METHOD_1_10E14D02D9EE6898_OFFSET UNITYSDK_OFFSET(0x15584360)
+#define CLASS_1_AF3961F295BCE491_METHOD_1_2F7B284B944A4637_OFFSET UNITYSDK_OFFSET(0x15584230)
+#define CLASS_1_AF3961F295BCE491__CTOR_OFFSET UNITYSDK_OFFSET(0x15584440)
 
-inline static constexpr unsigned int Class_1_AF3961F295BCE491_TypeDefinitionIndex = 75187;
+inline static constexpr unsigned int Class_1_AF3961F295BCE491_TypeDefinitionIndex = 78734;
 
 class Class_1_AF3961F295BCE491 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Class_1_CC76D1702CC17C09_8*>* Field_1_0; // 0x10
+	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Class_1_CC76D1702CC17C09_8*>* KAMODBKAFLI; // 0x10
 
 	::System::Void _ctor()
 	{

@@ -8,12 +8,12 @@
 namespace RPG::CustomRP { class RPGTonemapping; }
 namespace System { class Object; }
 
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_TONEMAPPINGTIMELINEBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xDD0BC30)
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_TONEMAPPINGTIMELINEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xDD0C170)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_TONEMAPPINGTIMELINEBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xE8D5C30)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_TONEMAPPINGTIMELINEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xE8D6170)
 
 namespace RPGTools::Timeline::PostProcessing
 {
-	inline static constexpr unsigned int ToneMappingTimelineBehaviour_TypeDefinitionIndex = 46829;
+	inline static constexpr unsigned int ToneMappingTimelineBehaviour_TypeDefinitionIndex = 49075;
 
 	class ToneMappingTimelineBehaviour : public ::RPGTools::Timeline::PostProcessing::BasePlayableBehaviour_1<::RPG::CustomRP::RPGTonemapping*>
 	{

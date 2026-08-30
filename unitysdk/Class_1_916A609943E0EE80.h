@@ -2,15 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_916A609943E0EE80__CTOR_OFFSET UNITYSDK_OFFSET(0xB973CD0)
+#define CLASS_1_916A609943E0EE80__CTOR_OFFSET UNITYSDK_OFFSET(0xC385B60)
 
-inline static constexpr unsigned int Class_1_916A609943E0EE80_TypeDefinitionIndex = 75585;
+inline static constexpr unsigned int Class_1_916A609943E0EE80_TypeDefinitionIndex = 79218;
 
 class Class_1_916A609943E0EE80 : public ::System::Object
 {
 public:
-	::System::UInt32 Field_1_0; // 0x10
-	::System::Boolean Field_1_1; // 0x14
+	::System::UInt32 ACCJKGEKHKP; // 0x10
+	::System::Boolean LNKLMECDDEA; // 0x14
 
 	::System::Void _ctor(::System::UInt32 a1, ::System::Boolean a2)
 	{

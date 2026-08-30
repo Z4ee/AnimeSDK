@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByBreakStanceDamageType; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_04CA7B7607DCB137_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB659460)
-#define CLASS_3_04CA7B7607DCB137__CTOR_OFFSET UNITYSDK_OFFSET(0xB659430)
+#define CLASS_3_04CA7B7607DCB137_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC05E010)
+#define CLASS_3_04CA7B7607DCB137__CTOR_OFFSET UNITYSDK_OFFSET(0xC05DFE0)
 
-inline static constexpr unsigned int Class_3_04CA7B7607DCB137_TypeDefinitionIndex = 52015;
+inline static constexpr unsigned int Class_3_04CA7B7607DCB137_TypeDefinitionIndex = 54700;
 
 class Class_3_04CA7B7607DCB137 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByBreakStanceDamageType*>
 {

@@ -6,7 +6,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IRogueTournDifficultyWithDifficultyComp_TypeDefinitionIndex = 64580;
+	inline static constexpr unsigned int IRogueTournDifficultyWithDifficultyComp_TypeDefinitionIndex = 67576;
 
 	class IRogueTournDifficultyWithDifficultyComp
 	{

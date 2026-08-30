@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_67AC58C55B729E15;
+class Class_1_DC16891F268AB0AE;
 namespace RPG::Client { class ChenLingBattleTeamSnapshot; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_CHENLINGBATTLESNAPSHOT_CREATEFAKE_1_OFFSET UNITYSDK_OFFSET(0xC075D90)
-#define RPG_CLIENT_CHENLINGBATTLESNAPSHOT_CREATEFAKE_OFFSET UNITYSDK_OFFSET(0xC0752F0)
-#define RPG_CLIENT_CHENLINGBATTLESNAPSHOT_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC076020)
-#define RPG_CLIENT_CHENLINGBATTLESNAPSHOT__CTOR_OFFSET UNITYSDK_OFFSET(0xC075CC0)
+#define RPG_CLIENT_CHENLINGBATTLESNAPSHOT_CREATEFAKE_1_OFFSET UNITYSDK_OFFSET(0xCB22C20)
+#define RPG_CLIENT_CHENLINGBATTLESNAPSHOT_CREATEFAKE_OFFSET UNITYSDK_OFFSET(0xCB220B0)
+#define RPG_CLIENT_CHENLINGBATTLESNAPSHOT_DISPOSE_OFFSET UNITYSDK_OFFSET(0xCB22EB0)
+#define RPG_CLIENT_CHENLINGBATTLESNAPSHOT__CTOR_OFFSET UNITYSDK_OFFSET(0xCB22B50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChenLingBattleSnapshot_TypeDefinitionIndex = 58696;
+	inline static constexpr unsigned int ChenLingBattleSnapshot_TypeDefinitionIndex = 61527;
 
 	class ChenLingBattleSnapshot : public ::System::Object
 	{
@@ -31,9 +31,9 @@ namespace RPG::Client
 			return ((::RPG::Client::ChenLingBattleSnapshot*(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLESNAPSHOT_CREATEFAKE_OFFSET))();
 		}
 
-		static ::RPG::Client::ChenLingBattleSnapshot* CreateFake_1(::System::Collections::Generic::List_1<::Class_1_67AC58C55B729E15*>* a1, ::System::Collections::Generic::List_1<::Class_1_67AC58C55B729E15*>* a2)
+		static ::RPG::Client::ChenLingBattleSnapshot* CreateFake_1(::System::Collections::Generic::List_1<::Class_1_DC16891F268AB0AE*>* a1, ::System::Collections::Generic::List_1<::Class_1_DC16891F268AB0AE*>* a2)
 		{
-			return ((::RPG::Client::ChenLingBattleSnapshot*(*)(::System::Collections::Generic::List_1<::Class_1_67AC58C55B729E15*>*, ::System::Collections::Generic::List_1<::Class_1_67AC58C55B729E15*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLESNAPSHOT_CREATEFAKE_1_OFFSET))(a1, a2);
+			return ((::RPG::Client::ChenLingBattleSnapshot*(*)(::System::Collections::Generic::List_1<::Class_1_DC16891F268AB0AE*>*, ::System::Collections::Generic::List_1<::Class_1_DC16891F268AB0AE*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLESNAPSHOT_CREATEFAKE_1_OFFSET))(a1, a2);
 		}
 
 		::System::Void Dispose()

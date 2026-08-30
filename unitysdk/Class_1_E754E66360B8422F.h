@@ -7,18 +7,18 @@
 class Class_1_6B9FBCAC09C5F877;
 namespace System::Collections::Generic { template <typename T1, typename T2> class SortedDictionary_2; }
 
-#define CLASS_1_E754E66360B8422F__CTOR_OFFSET UNITYSDK_OFFSET(0xAD47590)
+#define CLASS_1_E754E66360B8422F__CTOR_OFFSET UNITYSDK_OFFSET(0xD230050)
 
-inline static constexpr unsigned int Class_1_E754E66360B8422F_TypeDefinitionIndex = 51812;
+inline static constexpr unsigned int Class_1_E754E66360B8422F_TypeDefinitionIndex = 54496;
 
 class Class_1_E754E66360B8422F : public ::System::Object
 {
 public:
-	::System::Collections::Generic::SortedDictionary_2<::RPG::GameCore::RtAbilityProperty, ::RPG::GameCore::FixPoint>* Field_1_0; // 0x10
-	::Class_1_6B9FBCAC09C5F877* Field_1_1; // 0x18
-	::System::UInt32 Field_1_2; // 0x20
-	::System::UInt32 Field_1_3; // 0x24
-	::System::UInt32 Field_1_4; // 0x28
+	::Class_1_6B9FBCAC09C5F877* PDLPIGDDEFL; // 0x10
+	::System::Collections::Generic::SortedDictionary_2<::RPG::GameCore::RtAbilityProperty, ::RPG::GameCore::FixPoint>* KBIBCKNINNH; // 0x18
+	::System::UInt32 JIDLKIHJLFL; // 0x20
+	::System::UInt32 AAGKEBFHLMC; // 0x24
+	::System::UInt32 GBJLLAJJEOL; // 0x28
 
 	::System::Void _ctor()
 	{

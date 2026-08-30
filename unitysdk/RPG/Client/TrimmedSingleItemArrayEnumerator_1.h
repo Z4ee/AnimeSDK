@@ -5,7 +5,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TrimmedSingleItemArrayEnumerator_1_TypeDefinitionIndex = 33905;
+	inline static constexpr unsigned int TrimmedSingleItemArrayEnumerator_1_TypeDefinitionIndex = 34672;
 
 	template <typename T>
 	class TrimmedSingleItemArrayEnumerator_1 : public ::System::Object

@@ -5,18 +5,18 @@
 namespace RPG::Client { class BattleGamePhaseInitParams; }
 namespace RPG::Client::Promises { class Promise; }
 
-#define RPG_CLIENT_BATTLEGAMEPHASE___C__DISPLAYCLASS64_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBE64990)
-#define RPG_CLIENT_BATTLEGAMEPHASE___C__DISPLAYCLASS64_0___RESTARTLOADBATTLEAREA_B__0_OFFSET UNITYSDK_OFFSET(0xBE76D50)
+#define RPG_CLIENT_BATTLEGAMEPHASE___C__DISPLAYCLASS64_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC9059E0)
+#define RPG_CLIENT_BATTLEGAMEPHASE___C__DISPLAYCLASS64_0___RESTARTLOADBATTLEAREA_B__0_OFFSET UNITYSDK_OFFSET(0xC9182E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BattleGamePhase___c__DisplayClass64_0_TypeDefinitionIndex = 58239;
+	inline static constexpr unsigned int BattleGamePhase___c__DisplayClass64_0_TypeDefinitionIndex = 61066;
 
 	class BattleGamePhase___c__DisplayClass64_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::Promises::Promise* loadBattleAreaPromise; // 0x10
-		::RPG::Client::BattleGamePhaseInitParams* initParam; // 0x18
+		::RPG::Client::BattleGamePhaseInitParams* initParam; // 0x10
+		::RPG::Client::Promises::Promise* loadBattleAreaPromise; // 0x18
 		::System::Single timeout; // 0x20
 
 		::System::Void _ctor()

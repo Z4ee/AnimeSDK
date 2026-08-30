@@ -7,12 +7,12 @@ namespace RPG::GameCore { class CharacterAtlasFaceSet; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_CHARACTERATLASFACEMAPPINGCONFIG_METHOD_2_D5055E874ECDF3BD_OFFSET UNITYSDK_OFFSET(0x1B313500)
-#define RPG_GAMECORE_CHARACTERATLASFACEMAPPINGCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3135E0)
+#define RPG_GAMECORE_CHARACTERATLASFACEMAPPINGCONFIG_METHOD_2_D5055E874ECDF3BD_OFFSET UNITYSDK_OFFSET(0x1CF8F380)
+#define RPG_GAMECORE_CHARACTERATLASFACEMAPPINGCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF8F460)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterAtlasFaceMappingConfig_TypeDefinitionIndex = 16759;
+	inline static constexpr unsigned int CharacterAtlasFaceMappingConfig_TypeDefinitionIndex = 17261;
 
 	class CharacterAtlasFaceMappingConfig : public ::RPG::GameCore::JsonConfig
 	{

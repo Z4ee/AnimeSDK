@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/InsertAbilityFinishSource.h"
 #include "unitysdk/RPG/GameCore/InsertAbilityState.h"
-#include "unitysdk/Struct_2_52A902145F5BE513_3.h"
+#include "unitysdk/Struct_2_52A902145F5BE513_4.h"
 #include "unitysdk/System/Object.h"
 
 class Class_1_5F51D4049EA87B7B;
@@ -12,27 +12,27 @@ namespace RPG::GameCore { class TurnBasedAbilityComponent; }
 namespace RPG::GameCore { class TurnBasedGameMode; }
 namespace System { class String; }
 
-#define CLASS_1_1CB8CBC69B962B41_CLEAR_OFFSET UNITYSDK_OFFSET(0x144911C0)
-#define CLASS_1_1CB8CBC69B962B41_METHOD_1_05403F8C3D5C4318_OFFSET UNITYSDK_OFFSET(0x14491280)
-#define CLASS_1_1CB8CBC69B962B41_METHOD_1_21875F771F15D8A8_OFFSET UNITYSDK_OFFSET(0x14491490)
-#define CLASS_1_1CB8CBC69B962B41_TOSTRING_OFFSET UNITYSDK_OFFSET(0x144913A0)
-#define CLASS_1_1CB8CBC69B962B41__CTOR_OFFSET UNITYSDK_OFFSET(0x14491930)
+#define CLASS_1_1CB8CBC69B962B41_CLEAR_OFFSET UNITYSDK_OFFSET(0x152C20B0)
+#define CLASS_1_1CB8CBC69B962B41_METHOD_1_05403F8C3D5C4318_OFFSET UNITYSDK_OFFSET(0x152C2160)
+#define CLASS_1_1CB8CBC69B962B41_METHOD_1_21875F771F15D8A8_OFFSET UNITYSDK_OFFSET(0x152C2360)
+#define CLASS_1_1CB8CBC69B962B41_TOSTRING_OFFSET UNITYSDK_OFFSET(0x152C2270)
+#define CLASS_1_1CB8CBC69B962B41__CTOR_OFFSET UNITYSDK_OFFSET(0x152C27E0)
 
-inline static constexpr unsigned int Class_1_1CB8CBC69B962B41_TypeDefinitionIndex = 53696;
+inline static constexpr unsigned int Class_1_1CB8CBC69B962B41_TypeDefinitionIndex = 56415;
 
 class Class_1_1CB8CBC69B962B41 : public ::System::Object
 {
 public:
-	::RPG::GameCore::SkillCharacterComponent* Field_1_0; // 0x10
-	::Class_1_A2D8E5AB4B623162* Field_1_1; // 0x18
-	::Struct_2_52A902145F5BE513_3 Field_1_2; // 0x20
-	::RPG::GameCore::TurnBasedAbilityComponent* Field_1_3; // 0x90
-	::Class_1_5F51D4049EA87B7B* Field_1_4; // 0x98
-	::System::Boolean Field_1_5; // 0xA0
-	::System::Boolean Field_1_6; // 0xA1
-	::RPG::GameCore::InsertAbilityState Field_1_7; // 0xA2
-	::System::Int32 Field_1_8; // 0xA4
-	::RPG::GameCore::InsertAbilityFinishSource Field_1_9; // 0xA8
+	::Class_1_A2D8E5AB4B623162* HHGBFEPDMMJ; // 0x10
+	::Class_1_5F51D4049EA87B7B* OIAJDCOCNNM; // 0x18
+	::RPG::GameCore::SkillCharacterComponent* JBPPALPNMAE; // 0x20
+	::RPG::GameCore::TurnBasedAbilityComponent* FMGPEEBAGBK; // 0x28
+	::Struct_2_52A902145F5BE513_4 EJHODPJIFIN; // 0x30
+	::System::Boolean ABLGCIDFIKM; // 0xA0
+	::System::Boolean OOBGNNNGEEC; // 0xA1
+	::RPG::GameCore::InsertAbilityState PEMMFHMLGGL; // 0xA2
+	::RPG::GameCore::InsertAbilityFinishSource JCCHNHKLCPN; // 0xA4
+	::System::Int32 NALMBOOCCIN; // 0xA8
 
 	::System::Void _ctor()
 	{

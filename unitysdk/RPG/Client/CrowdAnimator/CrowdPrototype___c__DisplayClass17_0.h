@@ -5,12 +5,12 @@
 namespace RPG::Client::CrowdAnimator { class BoneData; }
 namespace System { class String; }
 
-#define RPG_CLIENT_CROWDANIMATOR_CROWDPROTOTYPE___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC1BCCE0)
-#define RPG_CLIENT_CROWDANIMATOR_CROWDPROTOTYPE___C__DISPLAYCLASS17_0__GETBONEBYTRANSFORM_B__0_OFFSET UNITYSDK_OFFSET(0xC1BCE20)
+#define RPG_CLIENT_CROWDANIMATOR_CROWDPROTOTYPE___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCC784B0)
+#define RPG_CLIENT_CROWDANIMATOR_CROWDPROTOTYPE___C__DISPLAYCLASS17_0__GETBONEBYTRANSFORM_B__0_OFFSET UNITYSDK_OFFSET(0xCC785F0)
 
 namespace RPG::Client::CrowdAnimator
 {
-	inline static constexpr unsigned int CrowdPrototype___c__DisplayClass17_0_TypeDefinitionIndex = 70314;
+	inline static constexpr unsigned int CrowdPrototype___c__DisplayClass17_0_TypeDefinitionIndex = 73614;
 
 	class CrowdPrototype___c__DisplayClass17_0 : public ::System::Object
 	{

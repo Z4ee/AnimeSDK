@@ -9,29 +9,29 @@
 namespace UnityEngine { class Collider; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_1_36F1A9113FF821C5_CLEAR_OFFSET UNITYSDK_OFFSET(0x1A9B8580)
-#define CLASS_1_36F1A9113FF821C5_METHOD_1_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0x1A9B84B0)
-#define CLASS_1_36F1A9113FF821C5_ONALLOC_OFFSET UNITYSDK_OFFSET(0x1A9B8500)
-#define CLASS_1_36F1A9113FF821C5_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x1A9B8540)
-#define CLASS_1_36F1A9113FF821C5__CTOR_OFFSET UNITYSDK_OFFSET(0x1A9B8770)
+#define CLASS_1_36F1A9113FF821C5_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C5FBBD0)
+#define CLASS_1_36F1A9113FF821C5_METHOD_1_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0x1C5FBB00)
+#define CLASS_1_36F1A9113FF821C5_ONALLOC_OFFSET UNITYSDK_OFFSET(0x1C5FBB50)
+#define CLASS_1_36F1A9113FF821C5_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x1C5FBB90)
+#define CLASS_1_36F1A9113FF821C5__CTOR_OFFSET UNITYSDK_OFFSET(0x1C5FBDD0)
 
-inline static constexpr unsigned int Class_1_36F1A9113FF821C5_TypeDefinitionIndex = 40674;
+inline static constexpr unsigned int Class_1_36F1A9113FF821C5_TypeDefinitionIndex = 41627;
 
 class Class_1_36F1A9113FF821C5 : public ::System::Object
 {
 public:
-	::UnityEngine::Collider* Field_1_0; // 0x10
-	::Struct_2_F8D9CEC872B937AF Field_1_1; // 0x18
-	::UnityEngine::Transform* Field_1_2; // 0xA8
-	::UnityEngine::Bounds Field_1_3; // 0xB0
-	::Struct_2_EAC1BB0F093534A5 Field_1_4; // 0xC8
-	::UnityEngine::Bounds Field_1_5; // 0x130
-	::System::UInt32 Field_1_6; // 0x148
-	::Struct_2_EAC1BB0F093534A5 Field_1_7; // 0x14C
-	::RPG::Client::LittleGame::FiveDim::DynamicCollisionRegisterReason Field_1_8; // 0x1B4
-	::System::Boolean Field_1_9; // 0x1B5
-	::System::Boolean Field_1_10; // 0x1B6
-	::System::Boolean Field_1_11; // 0x1B7
+	::UnityEngine::Transform* ADCDKNLDDFN; // 0x10
+	::Struct_2_F8D9CEC872B937AF BGBEHLOFHAM; // 0x18
+	::UnityEngine::Collider* KHMJGBNKOFE; // 0xA8
+	::System::UInt32 KPGOIAGMDNN; // 0xB0
+	::UnityEngine::Bounds BAHCKDEFBEN; // 0xB4
+	::UnityEngine::Bounds PLCLBIMIGHB; // 0xCC
+	::RPG::Client::LittleGame::FiveDim::DynamicCollisionRegisterReason OBFHLDKOKEA; // 0xE4
+	::System::Boolean CKILGKGKMHK; // 0xE5
+	::System::Boolean IJCDEINGADN; // 0xE6
+	::System::Boolean NOOJOFHAIAA; // 0xE7
+	::Struct_2_EAC1BB0F093534A5 HNFHBHNLJOH; // 0xE8
+	::Struct_2_EAC1BB0F093534A5 CADPNKFLDBC; // 0x150
 
 	::System::Void _ctor()
 	{

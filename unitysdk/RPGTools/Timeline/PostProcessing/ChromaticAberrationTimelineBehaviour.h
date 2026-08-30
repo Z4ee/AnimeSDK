@@ -8,12 +8,12 @@
 namespace RPG::CustomRP { class RPGChromaticAberration; }
 namespace System { class Object; }
 
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_CHROMATICABERRATIONTIMELINEBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xDCFEB70)
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_CHROMATICABERRATIONTIMELINEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xDCFECF0)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_CHROMATICABERRATIONTIMELINEBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xE8C87D0)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_CHROMATICABERRATIONTIMELINEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xE8C8950)
 
 namespace RPGTools::Timeline::PostProcessing
 {
-	inline static constexpr unsigned int ChromaticAberrationTimelineBehaviour_TypeDefinitionIndex = 46762;
+	inline static constexpr unsigned int ChromaticAberrationTimelineBehaviour_TypeDefinitionIndex = 49008;
 
 	class ChromaticAberrationTimelineBehaviour : public ::RPGTools::Timeline::PostProcessing::BasePlayableBehaviour_1<::RPG::CustomRP::RPGChromaticAberration*>
 	{

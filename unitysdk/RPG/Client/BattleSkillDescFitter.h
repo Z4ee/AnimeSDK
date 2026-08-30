@@ -8,24 +8,24 @@ namespace RPG::Client { class BattleSkillDescItemFitterParamCollector; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class RectTransform; }
 
-#define RPG_CLIENT_BATTLESKILLDESCFITTER_ADDITEMFITTER_OFFSET UNITYSDK_OFFSET(0xBE99200)
-#define RPG_CLIENT_BATTLESKILLDESCFITTER_CREATE_OFFSET UNITYSDK_OFFSET(0xBE990B0)
-#define RPG_CLIENT_BATTLESKILLDESCFITTER_TRYFIT_OFFSET UNITYSDK_OFFSET(0xBE99460)
-#define RPG_CLIENT_BATTLESKILLDESCFITTER__CTOR_OFFSET UNITYSDK_OFFSET(0xBE991B0)
-#define RPG_CLIENT_BATTLESKILLDESCFITTER__TRYFITITEMS_OFFSET UNITYSDK_OFFSET(0xBE994C0)
-#define RPG_CLIENT_BATTLESKILLDESCFITTER__TRYUPDATEPOS_OFFSET UNITYSDK_OFFSET(0xBE99600)
+#define RPG_CLIENT_BATTLESKILLDESCFITTER_ADDITEMFITTER_OFFSET UNITYSDK_OFFSET(0xC93A3B0)
+#define RPG_CLIENT_BATTLESKILLDESCFITTER_CREATE_OFFSET UNITYSDK_OFFSET(0xC93A260)
+#define RPG_CLIENT_BATTLESKILLDESCFITTER_TRYFIT_OFFSET UNITYSDK_OFFSET(0xC93A610)
+#define RPG_CLIENT_BATTLESKILLDESCFITTER__CTOR_OFFSET UNITYSDK_OFFSET(0xC93A360)
+#define RPG_CLIENT_BATTLESKILLDESCFITTER__TRYFITITEMS_OFFSET UNITYSDK_OFFSET(0xC93A670)
+#define RPG_CLIENT_BATTLESKILLDESCFITTER__TRYUPDATEPOS_OFFSET UNITYSDK_OFFSET(0xC93A7B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BattleSkillDescFitter_TypeDefinitionIndex = 68627;
+	inline static constexpr unsigned int BattleSkillDescFitter_TypeDefinitionIndex = 71825;
 
 	class BattleSkillDescFitter : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::RPG::Client::BattleSkillDescItemFitter*>* _ItemFitterList; // 0x10
-		::Class_1_3AF00C13A1E953CE* _RootTransformCornerData; // 0x18
-		::UnityEngine::RectTransform* _PosChangeTransform; // 0x20
-		::UnityEngine::RectTransform* _NeedRefreshFitterTransform; // 0x28
+		::UnityEngine::RectTransform* _PosChangeTransform; // 0x10
+		::System::Collections::Generic::List_1<::RPG::Client::BattleSkillDescItemFitter*>* _ItemFitterList; // 0x18
+		::UnityEngine::RectTransform* _NeedRefreshFitterTransform; // 0x20
+		::Class_1_3AF00C13A1E953CE* _RootTransformCornerData; // 0x28
 
 		::System::Void _ctor()
 		{

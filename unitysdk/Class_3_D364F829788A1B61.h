@@ -6,18 +6,18 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class PropButtonConfig; }
 
-#define CLASS_3_D364F829788A1B61_METHOD_3_03AAA6DBB5BE6FBE_OFFSET UNITYSDK_OFFSET(0x1AD0F2D0)
-#define CLASS_3_D364F829788A1B61_METHOD_3_A6D862070568AC73_OFFSET UNITYSDK_OFFSET(0x1AD0F310)
-#define CLASS_3_D364F829788A1B61__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD0F300)
+#define CLASS_3_D364F829788A1B61_METHOD_3_03AAA6DBB5BE6FBE_OFFSET UNITYSDK_OFFSET(0x1C95DA10)
+#define CLASS_3_D364F829788A1B61_METHOD_3_A6D862070568AC73_OFFSET UNITYSDK_OFFSET(0x1C95DA50)
+#define CLASS_3_D364F829788A1B61__CTOR_OFFSET UNITYSDK_OFFSET(0x1C95DA40)
 
-inline static constexpr unsigned int Class_3_D364F829788A1B61_TypeDefinitionIndex = 20631;
+inline static constexpr unsigned int Class_3_D364F829788A1B61_TypeDefinitionIndex = 21183;
 
 class Class_3_D364F829788A1B61 : public ::RPG::GameCore::TaskConfig
 {
 public:
-	::RPG::GameCore::DynamicString* Field_3_0; // 0x18
-	::Il2CppArray<::RPG::GameCore::PropButtonConfig*>* Field_3_1; // 0x20
-	::System::Boolean Field_3_2; // 0x28
+	::Il2CppArray<::RPG::GameCore::PropButtonConfig*>* PHKOOLAJGGG; // 0x18
+	::RPG::GameCore::DynamicString* MNMHMECGDAK; // 0x20
+	::System::Boolean ILJFADIIFOI; // 0x28
 
 	::System::Void _ctor()
 	{

@@ -9,11 +9,11 @@ namespace RPG::Client { class WorldSpaceTileParticlesBehavior; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Mesh; }
 
-#define RPG_CLIENT_WORLDSPACETILEPARTICLESMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xD8C6420)
+#define RPG_CLIENT_WORLDSPACETILEPARTICLESMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xE43DD30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int WorldSpaceTileParticlesMonoPlugin_TypeDefinitionIndex = 67558;
+	inline static constexpr unsigned int WorldSpaceTileParticlesMonoPlugin_TypeDefinitionIndex = 70681;
 
 	class WorldSpaceTileParticlesMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::WorldSpaceTileParticlesBehavior*>
 	{

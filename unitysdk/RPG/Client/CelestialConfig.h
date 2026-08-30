@@ -5,11 +5,11 @@
 class CelestialBodyData;
 class OrbitData;
 
-#define RPG_CLIENT_CELESTIALCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xBF489B0)
+#define RPG_CLIENT_CELESTIALCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xC9EDFD0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CelestialConfig_TypeDefinitionIndex = 66654;
+	inline static constexpr unsigned int CelestialConfig_TypeDefinitionIndex = 69755;
 
 	class CelestialConfig : public ::System::Object
 	{

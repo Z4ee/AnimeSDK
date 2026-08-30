@@ -5,11 +5,11 @@
 namespace RPG::GameCore { class BattleChangeAvatar_EnterStage; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_C5369723D8A09625_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBABF290)
-#define CLASS_3_C5369723D8A09625_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBABF2D0)
-#define CLASS_3_C5369723D8A09625__CTOR_OFFSET UNITYSDK_OFFSET(0xBABF260)
+#define CLASS_3_C5369723D8A09625_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC520BC0)
+#define CLASS_3_C5369723D8A09625_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC520C00)
+#define CLASS_3_C5369723D8A09625__CTOR_OFFSET UNITYSDK_OFFSET(0xC520B90)
 
-inline static constexpr unsigned int Class_3_C5369723D8A09625_TypeDefinitionIndex = 52389;
+inline static constexpr unsigned int Class_3_C5369723D8A09625_TypeDefinitionIndex = 55085;
 
 class Class_3_C5369723D8A09625 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::BattleChangeAvatar_EnterStage*>
 {

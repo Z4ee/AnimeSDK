@@ -5,12 +5,12 @@
 namespace MiHoYo::SDK::PC::OS { class GoogleCheckoutParam; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELCHECKOUTPARAMS_TOJSON_OFFSET UNITYSDK_OFFSET(0x19D6CF40)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELCHECKOUTPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x19D6CF50)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELCHECKOUTPARAMS_TOJSON_OFFSET UNITYSDK_OFFSET(0x1BA1DF30)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELCHECKOUTPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA08B20)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int HoYoChannelCheckoutParams_TypeDefinitionIndex = 8463;
+	inline static constexpr unsigned int HoYoChannelCheckoutParams_TypeDefinitionIndex = 8531;
 
 	class HoYoChannelCheckoutParams : public ::MiHoYo::SDK::PC::OS::HoYoChannelAsyncParams
 	{

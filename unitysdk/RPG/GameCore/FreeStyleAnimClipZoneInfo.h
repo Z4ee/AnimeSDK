@@ -7,12 +7,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class AnimationZone; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FREESTYLEANIMCLIPZONEINFO_METHOD_2_1D94F632C9543D97_OFFSET UNITYSDK_OFFSET(0x1B4A00C0)
-#define RPG_GAMECORE_FREESTYLEANIMCLIPZONEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4A0250)
+#define RPG_GAMECORE_FREESTYLEANIMCLIPZONEINFO_METHOD_2_1D94F632C9543D97_OFFSET UNITYSDK_OFFSET(0x1D119290)
+#define RPG_GAMECORE_FREESTYLEANIMCLIPZONEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1D119420)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FreeStyleAnimClipZoneInfo_TypeDefinitionIndex = 15663;
+	inline static constexpr unsigned int FreeStyleAnimClipZoneInfo_TypeDefinitionIndex = 16132;
 
 	class FreeStyleAnimClipZoneInfo : public ::RPG::GameCore::JsonConfig
 	{

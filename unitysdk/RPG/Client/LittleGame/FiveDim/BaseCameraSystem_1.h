@@ -27,7 +27,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int BaseCameraSystem_1_TypeDefinitionIndex = 72959;
+	inline static constexpr unsigned int BaseCameraSystem_1_TypeDefinitionIndex = 76433;
 
 	template <typename T>
 	class BaseCameraSystem_1 : public ::System::Object
@@ -52,5 +52,6 @@ namespace RPG::Client::LittleGame::FiveDim
 		::System::Single _DoubleJumpHeight; // 0x0
 		::System::Single _RestartFollowYDuration; // 0x0
 		::System::Single _JumpInitSpeed; // 0x0
+		::System::Single _DashFovZoomBlend; // 0x0
 	};
 }

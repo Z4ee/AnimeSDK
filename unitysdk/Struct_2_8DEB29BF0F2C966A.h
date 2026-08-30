@@ -4,11 +4,11 @@
 #include "unitysdk/Struct_2_52A902145F5BE51F.h"
 #include "unitysdk/System/ValueType.h"
 
-inline static constexpr unsigned int Struct_2_8DEB29BF0F2C966A_TypeDefinitionIndex = 40112;
+inline static constexpr unsigned int Struct_2_8DEB29BF0F2C966A_TypeDefinitionIndex = 40991;
 
 struct alignas(4) Struct_2_8DEB29BF0F2C966A
 {
-	::RPG::Client::LittleGame::Match3::Match3PVP1v1GameResult Field_2_0; // 0x10
-	::System::Boolean Field_2_1; // 0x14
-	::Struct_2_52A902145F5BE51F Field_2_2; // 0x18
+	::RPG::Client::LittleGame::Match3::Match3PVP1v1GameResult JCHFCNFHCMM; // 0x10
+	::System::Boolean ADIPCPIPLDA; // 0x14
+	::Struct_2_52A902145F5BE51F AFNFLDNKCNP; // 0x18
 };

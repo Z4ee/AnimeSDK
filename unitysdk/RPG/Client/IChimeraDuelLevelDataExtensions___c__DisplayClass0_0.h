@@ -5,12 +5,12 @@
 namespace RPG::Client { class IChimeraDuelSkillData; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define RPG_CLIENT_ICHIMERADUELLEVELDATAEXTENSIONS___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC8C1760)
-#define RPG_CLIENT_ICHIMERADUELLEVELDATAEXTENSIONS___C__DISPLAYCLASS0_0___TRYGETFIRSTSKILLDATA_B__0_OFFSET UNITYSDK_OFFSET(0xC8C1B70)
+#define RPG_CLIENT_ICHIMERADUELLEVELDATAEXTENSIONS___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD3DF9E0)
+#define RPG_CLIENT_ICHIMERADUELLEVELDATAEXTENSIONS___C__DISPLAYCLASS0_0___TRYGETFIRSTSKILLDATA_B__0_OFFSET UNITYSDK_OFFSET(0xD3DFDF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IChimeraDuelLevelDataExtensions___c__DisplayClass0_0_TypeDefinitionIndex = 60557;
+	inline static constexpr unsigned int IChimeraDuelLevelDataExtensions___c__DisplayClass0_0_TypeDefinitionIndex = 63410;
 
 	class IChimeraDuelLevelDataExtensions___c__DisplayClass0_0 : public ::System::Object
 	{

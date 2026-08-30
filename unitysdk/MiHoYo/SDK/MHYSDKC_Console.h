@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MHYSDKC_Console_TypeDefinitionIndex = 44416;
+	inline static constexpr unsigned int MHYSDKC_Console_TypeDefinitionIndex = 46599;
 
 	class MHYSDKC_Console : public ::System::Object
 	{
@@ -35,6 +35,7 @@ namespace MiHoYo::SDK
 		// static const ::System::String* GET_ACTIVITIES; // 0x0
 		// static const ::System::String* UPDATE_RECENT_PLAYERS; // 0x0
 		// static const ::System::String* REGISTER_RECEIVE_INVITE; // 0x0
+		// static const ::System::String* UNREGISTER_RECEIVE_INVITE; // 0x0
 		// static const ::System::String* GET_PLAYER_SESSION_INFO; // 0x0
 		// static const ::System::String* UPDATE_STATISTICS; // 0x0
 		// static const ::System::String* GET_STATISTICS; // 0x0

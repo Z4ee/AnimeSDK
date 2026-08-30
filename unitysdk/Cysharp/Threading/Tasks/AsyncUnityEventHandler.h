@@ -1,0 +1,101 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Cysharp/Threading/Tasks/AsyncUnit.h"
+#include "unitysdk/Cysharp/Threading/Tasks/UniTask.h"
+#include "unitysdk/Cysharp/Threading/Tasks/UniTaskCompletionSourceCore_1.h"
+#include "unitysdk/Cysharp/Threading/Tasks/UniTaskStatus.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/System/Threading/CancellationToken.h"
+#include "unitysdk/System/Threading/CancellationTokenRegistration.h"
+
+namespace System { template <typename T> class Action_1; }
+namespace UnityEngine::Events { class UnityAction; }
+namespace UnityEngine::Events { class UnityEvent; }
+
+#define CYSHARP_THREADING_TASKS_ASYNCUNITYEVENTHANDLER_CANCELLATIONCALLBACK_OFFSET UNITYSDK_OFFSET(0x1EA4C6D0)
+#define CYSHARP_THREADING_TASKS_ASYNCUNITYEVENTHANDLER_CYSHARP_THREADING_TASKS_IASYNCCLICKEVENTHANDLER_ONCLICKASYNC_OFFSET UNITYSDK_OFFSET(0x1EA4C7D0)
+#define CYSHARP_THREADING_TASKS_ASYNCUNITYEVENTHANDLER_CYSHARP_THREADING_TASKS_IUNITASKSOURCE_GETRESULT_OFFSET UNITYSDK_OFFSET(0x1EA4C840)
+#define CYSHARP_THREADING_TASKS_ASYNCUNITYEVENTHANDLER_CYSHARP_THREADING_TASKS_IUNITASKSOURCE_GETSTATUS_OFFSET UNITYSDK_OFFSET(0x1EA4C900)
+#define CYSHARP_THREADING_TASKS_ASYNCUNITYEVENTHANDLER_CYSHARP_THREADING_TASKS_IUNITASKSOURCE_ONCOMPLETED_OFFSET UNITYSDK_OFFSET(0x1EA4CA00)
+#define CYSHARP_THREADING_TASKS_ASYNCUNITYEVENTHANDLER_CYSHARP_THREADING_TASKS_IUNITASKSOURCE_UNSAFEGETSTATUS_OFFSET UNITYSDK_OFFSET(0x1EA4C9B0)
+#define CYSHARP_THREADING_TASKS_ASYNCUNITYEVENTHANDLER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1EA4C780)
+#define CYSHARP_THREADING_TASKS_ASYNCUNITYEVENTHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1EA4C620)
+#define CYSHARP_THREADING_TASKS_ASYNCUNITYEVENTHANDLER_ONINVOKEASYNC_OFFSET UNITYSDK_OFFSET(0x1EA4C5A0)
+#define CYSHARP_THREADING_TASKS_ASYNCUNITYEVENTHANDLER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EA4CA20)
+#define CYSHARP_THREADING_TASKS_ASYNCUNITYEVENTHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA4C2B0)
+
+namespace Cysharp::Threading::Tasks
+{
+	inline static constexpr unsigned int AsyncUnityEventHandler_TypeDefinitionIndex = 42896;
+
+	class AsyncUnityEventHandler : public ::System::Object
+	{
+	public:
+		static ::System::Action_1<::System::Object*>** StaticGet_cancellationCallback()
+		{
+			return (::System::Action_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(AsyncUnityEventHandler_TypeDefinitionIndex)->GetStaticField(0x55890);
+		}
+		::System::Threading::CancellationTokenRegistration registration; // 0x10
+		::UnityEngine::Events::UnityEvent* unityEvent; // 0x28
+		::Cysharp::Threading::Tasks::UniTaskCompletionSourceCore_1<::Cysharp::Threading::Tasks::AsyncUnit> core; // 0x30
+		::System::Threading::CancellationToken cancellationToken; // 0x50
+		::UnityEngine::Events::UnityAction* action; // 0x58
+		::System::Boolean callOnce; // 0x60
+		::System::Boolean isDisposed; // 0x61
+
+		::System::Void _ctor(::UnityEngine::Events::UnityEvent* a1, ::System::Threading::CancellationToken a2, ::System::Boolean a3)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Events::UnityEvent*, ::System::Threading::CancellationToken, ::System::Boolean))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_ASYNCUNITYEVENTHANDLER__CTOR_OFFSET))(this, a1, a2, a3);
+		}
+
+		static ::System::Void _cctor()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_ASYNCUNITYEVENTHANDLER__CCTOR_OFFSET))();
+		}
+
+		::Cysharp::Threading::Tasks::UniTask OnInvokeAsync()
+		{
+			return ((::Cysharp::Threading::Tasks::UniTask(*)(::PVOID))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_ASYNCUNITYEVENTHANDLER_ONINVOKEASYNC_OFFSET))(this);
+		}
+
+		::System::Void Invoke()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_ASYNCUNITYEVENTHANDLER_INVOKE_OFFSET))(this);
+		}
+
+		static ::System::Void CancellationCallback(::System::Object* a1)
+		{
+			return ((::System::Void(*)(::System::Object*))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_ASYNCUNITYEVENTHANDLER_CANCELLATIONCALLBACK_OFFSET))(a1);
+		}
+
+		::System::Void Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_ASYNCUNITYEVENTHANDLER_DISPOSE_OFFSET))(this);
+		}
+
+		::Cysharp::Threading::Tasks::UniTask Cysharp_Threading_Tasks_IAsyncClickEventHandler_OnClickAsync()
+		{
+			return ((::Cysharp::Threading::Tasks::UniTask(*)(::PVOID))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_ASYNCUNITYEVENTHANDLER_CYSHARP_THREADING_TASKS_IASYNCCLICKEVENTHANDLER_ONCLICKASYNC_OFFSET))(this);
+		}
+
+		::System::Void Cysharp_Threading_Tasks_IUniTaskSource_GetResult(::System::Int16 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int16))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_ASYNCUNITYEVENTHANDLER_CYSHARP_THREADING_TASKS_IUNITASKSOURCE_GETRESULT_OFFSET))(this, a1);
+		}
+
+		::Cysharp::Threading::Tasks::UniTaskStatus Cysharp_Threading_Tasks_IUniTaskSource_GetStatus(::System::Int16 a1)
+		{
+			return ((::Cysharp::Threading::Tasks::UniTaskStatus(*)(::PVOID, ::System::Int16))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_ASYNCUNITYEVENTHANDLER_CYSHARP_THREADING_TASKS_IUNITASKSOURCE_GETSTATUS_OFFSET))(this, a1);
+		}
+
+		::Cysharp::Threading::Tasks::UniTaskStatus Cysharp_Threading_Tasks_IUniTaskSource_UnsafeGetStatus()
+		{
+			return ((::Cysharp::Threading::Tasks::UniTaskStatus(*)(::PVOID))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_ASYNCUNITYEVENTHANDLER_CYSHARP_THREADING_TASKS_IUNITASKSOURCE_UNSAFEGETSTATUS_OFFSET))(this);
+		}
+
+		::System::Void Cysharp_Threading_Tasks_IUniTaskSource_OnCompleted(::System::Action_1<::System::Object*>* a1, ::System::Object* a2, ::System::Int16 a3)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*, ::System::Object*, ::System::Int16))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_ASYNCUNITYEVENTHANDLER_CYSHARP_THREADING_TASKS_IUNITASKSOURCE_ONCOMPLETED_OFFSET))(this, a1, a2, a3);
+		}
+	};
+}

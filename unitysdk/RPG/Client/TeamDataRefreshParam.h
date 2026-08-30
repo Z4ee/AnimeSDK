@@ -3,30 +3,30 @@
 #include "unitysdk/RPG/Client/TeamDataRefreshMask.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_TEAMDATAREFRESHPARAM_ADDMASK_OFFSET UNITYSDK_OFFSET(0xD63DA80)
-#define RPG_CLIENT_TEAMDATAREFRESHPARAM_CHECKMASK_OFFSET UNITYSDK_OFFSET(0xD63DA30)
-#define RPG_CLIENT_TEAMDATAREFRESHPARAM_CREATE_OFFSET UNITYSDK_OFFSET(0xD63D9C0)
-#define RPG_CLIENT_TEAMDATAREFRESHPARAM__CCTOR_OFFSET UNITYSDK_OFFSET(0xD63DAD0)
-#define RPG_CLIENT_TEAMDATAREFRESHPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xD63DA20)
+#define RPG_CLIENT_TEAMDATAREFRESHPARAM_ADDMASK_OFFSET UNITYSDK_OFFSET(0xE18D810)
+#define RPG_CLIENT_TEAMDATAREFRESHPARAM_CHECKMASK_OFFSET UNITYSDK_OFFSET(0xE18D7C0)
+#define RPG_CLIENT_TEAMDATAREFRESHPARAM_CREATE_OFFSET UNITYSDK_OFFSET(0xE18D750)
+#define RPG_CLIENT_TEAMDATAREFRESHPARAM__CCTOR_OFFSET UNITYSDK_OFFSET(0xE18D860)
+#define RPG_CLIENT_TEAMDATAREFRESHPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xE18D7B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TeamDataRefreshParam_TypeDefinitionIndex = 65103;
+	inline static constexpr unsigned int TeamDataRefreshParam_TypeDefinitionIndex = 68111;
 
 	class TeamDataRefreshParam : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::TeamDataRefreshParam** StaticGet_Full()
-		{
-			return (::RPG::Client::TeamDataRefreshParam**)Il2CppClass::FromTypeDefinitionIndex(TeamDataRefreshParam_TypeDefinitionIndex)->GetStaticField(0x3B9F0);
-		}
 		static ::RPG::Client::TeamDataRefreshParam** StaticGet_MemberList()
 		{
-			return (::RPG::Client::TeamDataRefreshParam**)Il2CppClass::FromTypeDefinitionIndex(TeamDataRefreshParam_TypeDefinitionIndex)->GetStaticField(0x3B9F8);
+			return (::RPG::Client::TeamDataRefreshParam**)Il2CppClass::FromTypeDefinitionIndex(TeamDataRefreshParam_TypeDefinitionIndex)->GetStaticField(0x17D00);
 		}
 		static ::RPG::Client::TeamDataRefreshParam** StaticGet_Default()
 		{
-			return (::RPG::Client::TeamDataRefreshParam**)Il2CppClass::FromTypeDefinitionIndex(TeamDataRefreshParam_TypeDefinitionIndex)->GetStaticField(0x3BA00);
+			return (::RPG::Client::TeamDataRefreshParam**)Il2CppClass::FromTypeDefinitionIndex(TeamDataRefreshParam_TypeDefinitionIndex)->GetStaticField(0x17D08);
+		}
+		static ::RPG::Client::TeamDataRefreshParam** StaticGet_Full()
+		{
+			return (::RPG::Client::TeamDataRefreshParam**)Il2CppClass::FromTypeDefinitionIndex(TeamDataRefreshParam_TypeDefinitionIndex)->GetStaticField(0x17D10);
 		}
 		::RPG::Client::TeamDataRefreshMask Mask; // 0x10
 

@@ -5,13 +5,13 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define XLUA_LUAMEMORYLEAKCHECKER_DATA_GET_POTENTIALLEAKCOUNT_OFFSET UNITYSDK_OFFSET(0x13DA4CF0)
-#define XLUA_LUAMEMORYLEAKCHECKER_DATA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x13DA4950)
-#define XLUA_LUAMEMORYLEAKCHECKER_DATA__CTOR_OFFSET UNITYSDK_OFFSET(0x13DA2BC0)
+#define XLUA_LUAMEMORYLEAKCHECKER_DATA_GET_POTENTIALLEAKCOUNT_OFFSET UNITYSDK_OFFSET(0x14B2E030)
+#define XLUA_LUAMEMORYLEAKCHECKER_DATA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x14B2DC90)
+#define XLUA_LUAMEMORYLEAKCHECKER_DATA__CTOR_OFFSET UNITYSDK_OFFSET(0x14B2BF00)
 
 namespace XLua
 {
-	inline static constexpr unsigned int LuaMemoryLeakChecker_Data_TypeDefinitionIndex = 47846;
+	inline static constexpr unsigned int LuaMemoryLeakChecker_Data_TypeDefinitionIndex = 50431;
 
 	class LuaMemoryLeakChecker_Data : public ::System::Object
 	{

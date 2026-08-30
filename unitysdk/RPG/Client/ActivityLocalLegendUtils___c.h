@@ -6,29 +6,29 @@ namespace RPG::Client { class MonsterData; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_ACTIVITYLOCALLEGENDUTILS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xBC02840)
-#define RPG_CLIENT_ACTIVITYLOCALLEGENDUTILS___C__CTOR_OFFSET UNITYSDK_OFFSET(0xBC02880)
-#define RPG_CLIENT_ACTIVITYLOCALLEGENDUTILS___C__GETMONSTERDATALIST_B__2_0_OFFSET UNITYSDK_OFFSET(0xBC02890)
-#define RPG_CLIENT_ACTIVITYLOCALLEGENDUTILS___C__GETMONSTERDATALIST_B__2_1_OFFSET UNITYSDK_OFFSET(0xBC028B0)
+#define RPG_CLIENT_ACTIVITYLOCALLEGENDUTILS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC620D50)
+#define RPG_CLIENT_ACTIVITYLOCALLEGENDUTILS___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC620D90)
+#define RPG_CLIENT_ACTIVITYLOCALLEGENDUTILS___C__GETMONSTERDATALIST_B__2_0_OFFSET UNITYSDK_OFFSET(0xC620DA0)
+#define RPG_CLIENT_ACTIVITYLOCALLEGENDUTILS___C__GETMONSTERDATALIST_B__2_1_OFFSET UNITYSDK_OFFSET(0xC620DC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityLocalLegendUtils___c_TypeDefinitionIndex = 58835;
+	inline static constexpr unsigned int ActivityLocalLegendUtils___c_TypeDefinitionIndex = 61666;
 
 	class ActivityLocalLegendUtils___c : public ::System::Object
 	{
 	public:
+		static ::System::Func_2<::RPG::Client::MonsterData*, ::System::UInt32>** StaticGet___9__2_0()
+		{
+			return (::System::Func_2<::RPG::Client::MonsterData*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(ActivityLocalLegendUtils___c_TypeDefinitionIndex)->GetStaticField(0x619A0);
+		}
 		static ::System::Comparison_1<::RPG::Client::MonsterData*>** StaticGet___9__2_1()
 		{
-			return (::System::Comparison_1<::RPG::Client::MonsterData*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityLocalLegendUtils___c_TypeDefinitionIndex)->GetStaticField(0x42220);
+			return (::System::Comparison_1<::RPG::Client::MonsterData*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityLocalLegendUtils___c_TypeDefinitionIndex)->GetStaticField(0x619A8);
 		}
 		static ::RPG::Client::ActivityLocalLegendUtils___c** StaticGet___9()
 		{
-			return (::RPG::Client::ActivityLocalLegendUtils___c**)Il2CppClass::FromTypeDefinitionIndex(ActivityLocalLegendUtils___c_TypeDefinitionIndex)->GetStaticField(0x42228);
-		}
-		static ::System::Func_2<::RPG::Client::MonsterData*, ::System::UInt32>** StaticGet___9__2_0()
-		{
-			return (::System::Func_2<::RPG::Client::MonsterData*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(ActivityLocalLegendUtils___c_TypeDefinitionIndex)->GetStaticField(0x42230);
+			return (::RPG::Client::ActivityLocalLegendUtils___c**)Il2CppClass::FromTypeDefinitionIndex(ActivityLocalLegendUtils___c_TypeDefinitionIndex)->GetStaticField(0x619B0);
 		}
 
 		static ::System::Void _cctor()

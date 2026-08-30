@@ -5,15 +5,15 @@
 namespace RPG::GameCore { class GameEntity; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_E74997A10CBB7D50__CTOR_OFFSET UNITYSDK_OFFSET(0xB7231D0)
+#define CLASS_1_E74997A10CBB7D50__CTOR_OFFSET UNITYSDK_OFFSET(0xC0F1C70)
 
-inline static constexpr unsigned int Class_1_E74997A10CBB7D50_TypeDefinitionIndex = 50393;
+inline static constexpr unsigned int Class_1_E74997A10CBB7D50_TypeDefinitionIndex = 53058;
 
 class Class_1_E74997A10CBB7D50 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* Field_1_0; // 0x10
-	::System::Boolean Field_1_1; // 0x18
+	::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* GKHDCODGAMF; // 0x10
+	::System::Boolean GNDCCBNILML; // 0x18
 
 	::System::Void _ctor()
 	{

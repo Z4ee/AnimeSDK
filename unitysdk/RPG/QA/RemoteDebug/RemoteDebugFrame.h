@@ -5,7 +5,7 @@
 
 namespace RPG::QA::RemoteDebug
 {
-	inline static constexpr unsigned int RemoteDebugFrame_TypeDefinitionIndex = 49469;
+	inline static constexpr unsigned int RemoteDebugFrame_TypeDefinitionIndex = 52127;
 
 	struct alignas(8) RemoteDebugFrame
 	{

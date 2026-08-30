@@ -4,12 +4,12 @@
 
 namespace UnityEngine::UI { class VertexHelper; }
 
-#define UNITYENGINE_UI_POSITIONASUV1_MODIFYMESH_OFFSET UNITYSDK_OFFSET(0x1D159E40)
-#define UNITYENGINE_UI_POSITIONASUV1__CTOR_OFFSET UNITYSDK_OFFSET(0x1D159E30)
+#define UNITYENGINE_UI_POSITIONASUV1_MODIFYMESH_OFFSET UNITYSDK_OFFSET(0x1EE64A40)
+#define UNITYENGINE_UI_POSITIONASUV1__CTOR_OFFSET UNITYSDK_OFFSET(0x1EE64A30)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int PositionAsUV1_TypeDefinitionIndex = 6053;
+	inline static constexpr unsigned int PositionAsUV1_TypeDefinitionIndex = 6883;
 
 	class PositionAsUV1 : public ::UnityEngine::UI::BaseMeshEffect
 	{

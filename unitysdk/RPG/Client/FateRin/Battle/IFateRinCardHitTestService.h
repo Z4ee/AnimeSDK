@@ -10,7 +10,7 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::Client::FateRin::Battle
 {
-	inline static constexpr unsigned int IFateRinCardHitTestService_TypeDefinitionIndex = 76010;
+	inline static constexpr unsigned int IFateRinCardHitTestService_TypeDefinitionIndex = 79643;
 
 	class IFateRinCardHitTestService
 	{

@@ -5,18 +5,18 @@
 namespace RPG::Client { class VersionUpdateCheck___c__DisplayClass22_0; }
 namespace System { class String; }
 
-#define RPG_CLIENT_VERSIONUPDATECHECK___C__DISPLAYCLASS22_1__CTOR_OFFSET UNITYSDK_OFFSET(0xD88A080)
-#define RPG_CLIENT_VERSIONUPDATECHECK___C__DISPLAYCLASS22_1__STARTLOCALASSETVERIFY_B__2_OFFSET UNITYSDK_OFFSET(0xD88A800)
+#define RPG_CLIENT_VERSIONUPDATECHECK___C__DISPLAYCLASS22_1__CTOR_OFFSET UNITYSDK_OFFSET(0xE3FD420)
+#define RPG_CLIENT_VERSIONUPDATECHECK___C__DISPLAYCLASS22_1__STARTLOCALASSETVERIFY_B__2_OFFSET UNITYSDK_OFFSET(0xE3FDB80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int VersionUpdateCheck___c__DisplayClass22_1_TypeDefinitionIndex = 58524;
+	inline static constexpr unsigned int VersionUpdateCheck___c__DisplayClass22_1_TypeDefinitionIndex = 61354;
 
 	class VersionUpdateCheck___c__DisplayClass22_1 : public ::System::Object
 	{
 	public:
-		::System::String* message; // 0x10
-		::RPG::Client::VersionUpdateCheck___c__DisplayClass22_0* CS___8__locals1; // 0x18
+		::RPG::Client::VersionUpdateCheck___c__DisplayClass22_0* CS___8__locals1; // 0x10
+		::System::String* message; // 0x18
 
 		::System::Void _ctor()
 		{

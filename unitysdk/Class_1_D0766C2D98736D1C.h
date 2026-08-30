@@ -8,21 +8,21 @@ namespace RPG::Client::OpenWorld { class StreamingItemData; }
 namespace RPG::Client::OpenWorld { class Volume; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define CLASS_1_D0766C2D98736D1C_GET_FILTERSTREAMINGBLOCK_OFFSET UNITYSDK_OFFSET(0x14B8FEF0)
-#define CLASS_1_D0766C2D98736D1C_GET_FILTERSTREAMINGITEM_OFFSET UNITYSDK_OFFSET(0x14B8FED0)
-#define CLASS_1_D0766C2D98736D1C_SET_FILTERSTREAMINGBLOCK_OFFSET UNITYSDK_OFFSET(0x14B8FF00)
-#define CLASS_1_D0766C2D98736D1C_SET_FILTERSTREAMINGITEM_OFFSET UNITYSDK_OFFSET(0x14B8FEE0)
-#define CLASS_1_D0766C2D98736D1C__CTOR_OFFSET UNITYSDK_OFFSET(0x14B8FF10)
+#define CLASS_1_D0766C2D98736D1C_GET_FILTERSTREAMINGBLOCK_OFFSET UNITYSDK_OFFSET(0x15A8AAB0)
+#define CLASS_1_D0766C2D98736D1C_GET_FILTERSTREAMINGITEM_OFFSET UNITYSDK_OFFSET(0x15A8AA90)
+#define CLASS_1_D0766C2D98736D1C_SET_FILTERSTREAMINGBLOCK_OFFSET UNITYSDK_OFFSET(0x15A8AAC0)
+#define CLASS_1_D0766C2D98736D1C_SET_FILTERSTREAMINGITEM_OFFSET UNITYSDK_OFFSET(0x15A8AAA0)
+#define CLASS_1_D0766C2D98736D1C__CTOR_OFFSET UNITYSDK_OFFSET(0x15A8AAD0)
 
-inline static constexpr unsigned int Class_1_D0766C2D98736D1C_TypeDefinitionIndex = 70593;
+inline static constexpr unsigned int Class_1_D0766C2D98736D1C_TypeDefinitionIndex = 73892;
 
 class Class_1_D0766C2D98736D1C : public ::System::Object
 {
 public:
-	::System::Collections::Generic::HashSet_1<::RPG::Client::OpenWorld::StreamingItemData*>* _FilterStreamingItem_k__BackingField; // 0x10
-	::RPG::Client::OpenWorld::Volume* Field_1_1; // 0x18
-	::System::Collections::Generic::HashSet_1<::Class_1_303D5A33D1401D59*>* _FilterStreamingBlock_k__BackingField; // 0x20
-	::Class_1_D70A30D666F20D90* Field_1_3; // 0x28
+	::System::Collections::Generic::HashSet_1<::Class_1_303D5A33D1401D59*>* _FilterStreamingBlock_k__BackingField; // 0x10
+	::Class_1_D70A30D666F20D90* EKHCOEPOJDL; // 0x18
+	::System::Collections::Generic::HashSet_1<::RPG::Client::OpenWorld::StreamingItemData*>* _FilterStreamingItem_k__BackingField; // 0x20
+	::RPG::Client::OpenWorld::Volume* EDHBBJADHHJ; // 0x28
 
 	::System::Void _ctor()
 	{

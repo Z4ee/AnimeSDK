@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-class Class_2_DE7AA419D92792BB;
+class Class_2_E81EA3C183D62038;
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Renderer; }
 
-#define RPG_CLIENT_MONODBBRIDGECONTROL_AWAKE_OFFSET UNITYSDK_OFFSET(0xCC48800)
-#define RPG_CLIENT_MONODBBRIDGECONTROL_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xCC48920)
-#define RPG_CLIENT_MONODBBRIDGECONTROL_ONENABLE_OFFSET UNITYSDK_OFFSET(0xCC48870)
-#define RPG_CLIENT_MONODBBRIDGECONTROL_UPDATE_OFFSET UNITYSDK_OFFSET(0xCC488D0)
-#define RPG_CLIENT_MONODBBRIDGECONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0xCC489B0)
+#define RPG_CLIENT_MONODBBRIDGECONTROL_AWAKE_OFFSET UNITYSDK_OFFSET(0xD7478F0)
+#define RPG_CLIENT_MONODBBRIDGECONTROL_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xD747A10)
+#define RPG_CLIENT_MONODBBRIDGECONTROL_ONENABLE_OFFSET UNITYSDK_OFFSET(0xD747960)
+#define RPG_CLIENT_MONODBBRIDGECONTROL_UPDATE_OFFSET UNITYSDK_OFFSET(0xD7479C0)
+#define RPG_CLIENT_MONODBBRIDGECONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0xD747AA0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoDBBridgeControl_TypeDefinitionIndex = 67569;
+	inline static constexpr unsigned int MonoDBBridgeControl_TypeDefinitionIndex = 70692;
 
 	class MonoDBBridgeControl : public ::UnityEngine::MonoBehaviour
 	{
@@ -35,7 +35,7 @@ namespace RPG::Client
 		::System::Boolean isStopping; // 0x4B
 		::System::Boolean notCompletelyUseable; // 0x4C
 		::System::Single fadeoutDuration; // 0x50
-		::Class_2_DE7AA419D92792BB* _Behavior; // 0x58
+		::Class_2_E81EA3C183D62038* _Behavior; // 0x58
 
 		::System::Void _ctor()
 		{

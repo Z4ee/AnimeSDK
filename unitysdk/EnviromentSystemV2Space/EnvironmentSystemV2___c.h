@@ -4,24 +4,24 @@
 
 namespace System { class Action; }
 
-#define ENVIROMENTSYSTEMV2SPACE_ENVIRONMENTSYSTEMV2___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x14531030)
-#define ENVIROMENTSYSTEMV2SPACE_ENVIRONMENTSYSTEMV2___C__CTOR_OFFSET UNITYSDK_OFFSET(0x14531070)
-#define ENVIROMENTSYSTEMV2SPACE_ENVIRONMENTSYSTEMV2___C__SETACTIVEPROFILEAFTERASYNCRESLOADING_B__55_1_OFFSET UNITYSDK_OFFSET(0x14531080)
+#define ENVIROMENTSYSTEMV2SPACE_ENVIRONMENTSYSTEMV2___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15363BD0)
+#define ENVIROMENTSYSTEMV2SPACE_ENVIRONMENTSYSTEMV2___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15363C10)
+#define ENVIROMENTSYSTEMV2SPACE_ENVIRONMENTSYSTEMV2___C__SETACTIVEPROFILEAFTERASYNCRESLOADING_B__56_1_OFFSET UNITYSDK_OFFSET(0x15363C20)
 
 namespace EnviromentSystemV2Space
 {
-	inline static constexpr unsigned int EnvironmentSystemV2___c_TypeDefinitionIndex = 47615;
+	inline static constexpr unsigned int EnvironmentSystemV2___c_TypeDefinitionIndex = 49896;
 
 	class EnvironmentSystemV2___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__55_1()
+		static ::System::Action** StaticGet___9__56_1()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(EnvironmentSystemV2___c_TypeDefinitionIndex)->GetStaticField(0x39570);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(EnvironmentSystemV2___c_TypeDefinitionIndex)->GetStaticField(0x65350);
 		}
 		static ::EnviromentSystemV2Space::EnvironmentSystemV2___c** StaticGet___9()
 		{
-			return (::EnviromentSystemV2Space::EnvironmentSystemV2___c**)Il2CppClass::FromTypeDefinitionIndex(EnvironmentSystemV2___c_TypeDefinitionIndex)->GetStaticField(0x39578);
+			return (::EnviromentSystemV2Space::EnvironmentSystemV2___c**)Il2CppClass::FromTypeDefinitionIndex(EnvironmentSystemV2___c_TypeDefinitionIndex)->GetStaticField(0x65358);
 		}
 
 		static ::System::Void _cctor()
@@ -34,9 +34,9 @@ namespace EnviromentSystemV2Space
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_ENVIRONMENTSYSTEMV2___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _SetActiveProfileAfterAsyncResLoading_b__55_1()
+		::System::Void _SetActiveProfileAfterAsyncResLoading_b__56_1()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_ENVIRONMENTSYSTEMV2___C__SETACTIVEPROFILEAFTERASYNCRESLOADING_B__55_1_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_ENVIRONMENTSYSTEMV2___C__SETACTIVEPROFILEAFTERASYNCRESLOADING_B__56_1_OFFSET))(this);
 		}
 	};
 }

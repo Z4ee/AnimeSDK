@@ -8,21 +8,21 @@ namespace RPG::GameCore { class ActivityDiceCombatSpecialRuleRow; }
 namespace RPG::GameCore { class DiceCombatSkillConfig; }
 namespace RPG::GameCore { class DiceCombatWeatherSkillConfig; }
 
-#define CLASS_1_0272D5A0C4F089B0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A5AF120)
+#define CLASS_1_0272D5A0C4F089B0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C1BEFB0)
 
-inline static constexpr unsigned int Class_1_0272D5A0C4F089B0_TypeDefinitionIndex = 34852;
+inline static constexpr unsigned int Class_1_0272D5A0C4F089B0_TypeDefinitionIndex = 35713;
 
 class Class_1_0272D5A0C4F089B0 : public ::System::Object
 {
 public:
-	::Class_1_15B3DD195FDC216E* Field_1_0; // 0x10
-	::RPG::GameCore::DiceCombatSkillConfig* Field_1_1; // 0x18
-	::RPG::GameCore::ActivityDiceCombatAIGroupRow* Field_1_2; // 0x20
-	::RPG::GameCore::ActivityDiceCombatSpecialRuleRow* Field_1_3; // 0x28
-	::RPG::GameCore::DiceCombatWeatherSkillConfig* Field_1_4; // 0x30
-	::System::Int32 Field_1_5; // 0x38
-	::System::Boolean Field_1_6; // 0x3C
-	::System::Int32 Field_1_7; // 0x40
+	::RPG::GameCore::ActivityDiceCombatSpecialRuleRow* DFCJJBJGCAL; // 0x10
+	::RPG::GameCore::DiceCombatWeatherSkillConfig* DOJDGDAJHBF; // 0x18
+	::Class_1_15B3DD195FDC216E* APOJICIKJPF; // 0x20
+	::RPG::GameCore::DiceCombatSkillConfig* PMKGFOMHPOD; // 0x28
+	::RPG::GameCore::ActivityDiceCombatAIGroupRow* DBNHCIFEHGD; // 0x30
+	::System::Int32 JFICKDBIECD; // 0x38
+	::System::Boolean IDFGNIJBMPB; // 0x3C
+	::System::Int32 NBNGFFPLGAF; // 0x40
 
 	::System::Void _ctor()
 	{

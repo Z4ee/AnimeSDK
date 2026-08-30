@@ -5,18 +5,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_CHIMERAABILITYDISPLAYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B33ED40)
-#define RPG_GAMECORE_CHIMERAABILITYDISPLAYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B33EF50)
+#define RPG_GAMECORE_CHIMERAABILITYDISPLAYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CFBB0E0)
+#define RPG_GAMECORE_CHIMERAABILITYDISPLAYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFBB2F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraAbilityDisplayRow_TypeDefinitionIndex = 12524;
+	inline static constexpr unsigned int ChimeraAbilityDisplayRow_TypeDefinitionIndex = 12915;
 
 	class ChimeraAbilityDisplayRow : public ::System::Object
 	{
 	public:
-		::RPG::Client::TextID AbilityDesc; // 0x10
-		::System::UInt32 DisplayID; // 0x20
+		::System::UInt32 DisplayID; // 0x10
+		::RPG::Client::TextID AbilityDesc; // 0x18
 		::RPG::Client::TextID AbilityName; // 0x28
 
 		::System::Void _ctor()

@@ -5,18 +5,18 @@
 namespace RPG::Client::ActivityIdleLive { class BaseSpEquipInventoryDisplayData; }
 namespace RPG::Client::ActivityIdleLive { class SpecialEquip; }
 
-#define CLASS_1_2E5B9B93DA94ACD3_METHOD_1_401D9792CCB3DD84_1_OFFSET UNITYSDK_OFFSET(0xB9B17D0)
-#define CLASS_1_2E5B9B93DA94ACD3_METHOD_1_401D9792CCB3DD84_OFFSET UNITYSDK_OFFSET(0xB9B1700)
-#define CLASS_1_2E5B9B93DA94ACD3_METHOD_1_C2D0A28EDD88D4E9_OFFSET UNITYSDK_OFFSET(0xB9B18A0)
-#define CLASS_1_2E5B9B93DA94ACD3__CTOR_OFFSET UNITYSDK_OFFSET(0xB9B16F0)
+#define CLASS_1_2E5B9B93DA94ACD3_METHOD_1_401D9792CCB3DD84_1_OFFSET UNITYSDK_OFFSET(0xC3CF8D0)
+#define CLASS_1_2E5B9B93DA94ACD3_METHOD_1_401D9792CCB3DD84_OFFSET UNITYSDK_OFFSET(0xC3CF800)
+#define CLASS_1_2E5B9B93DA94ACD3_METHOD_1_C2D0A28EDD88D4E9_OFFSET UNITYSDK_OFFSET(0xC3CF9A0)
+#define CLASS_1_2E5B9B93DA94ACD3__CTOR_OFFSET UNITYSDK_OFFSET(0xC3CF7F0)
 
-inline static constexpr unsigned int Class_1_2E5B9B93DA94ACD3_TypeDefinitionIndex = 71624;
+inline static constexpr unsigned int Class_1_2E5B9B93DA94ACD3_TypeDefinitionIndex = 74930;
 
 class Class_1_2E5B9B93DA94ACD3 : public ::System::Object
 {
 public:
-	::RPG::Client::ActivityIdleLive::SpecialEquip* Field_1_0; // 0x10
-	::RPG::Client::ActivityIdleLive::BaseSpEquipInventoryDisplayData* Field_1_1; // 0x18
+	::RPG::Client::ActivityIdleLive::BaseSpEquipInventoryDisplayData* GLBBINMGMDL; // 0x10
+	::RPG::Client::ActivityIdleLive::SpecialEquip* AFOBIFOCBMD; // 0x18
 
 	::System::Void _ctor(::RPG::Client::ActivityIdleLive::BaseSpEquipInventoryDisplayData* a1, ::RPG::Client::ActivityIdleLive::SpecialEquip* a2)
 	{

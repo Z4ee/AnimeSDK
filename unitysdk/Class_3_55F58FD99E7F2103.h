@@ -6,66 +6,66 @@ namespace RPG::Client { class PivotBasedFractureMonoPlugin; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class Renderer; }
 
-#define CLASS_3_55F58FD99E7F2103_LATETICK_OFFSET UNITYSDK_OFFSET(0xCADD5C0)
-#define CLASS_3_55F58FD99E7F2103_METHOD_3_51CFFE2AF748ECD7_OFFSET UNITYSDK_OFFSET(0xCADD340)
-#define CLASS_3_55F58FD99E7F2103_METHOD_3_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0xCADD520)
-#define CLASS_3_55F58FD99E7F2103_METHOD_3_CA373AA1C7054598_1_OFFSET UNITYSDK_OFFSET(0xCADD580)
-#define CLASS_3_55F58FD99E7F2103_METHOD_3_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xCADD300)
-#define CLASS_3_55F58FD99E7F2103_METHOD_3_CB3266143E5794D4_OFFSET UNITYSDK_OFFSET(0xCADD4A0)
-#define CLASS_3_55F58FD99E7F2103__CCTOR_OFFSET UNITYSDK_OFFSET(0xCADDD60)
-#define CLASS_3_55F58FD99E7F2103__CTOR_OFFSET UNITYSDK_OFFSET(0xCADDD50)
+#define CLASS_3_55F58FD99E7F2103_LATETICK_OFFSET UNITYSDK_OFFSET(0xF3C71C0)
+#define CLASS_3_55F58FD99E7F2103_METHOD_3_51CFFE2AF748ECD7_OFFSET UNITYSDK_OFFSET(0xF3C6F40)
+#define CLASS_3_55F58FD99E7F2103_METHOD_3_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0xF3C7120)
+#define CLASS_3_55F58FD99E7F2103_METHOD_3_CA373AA1C7054598_1_OFFSET UNITYSDK_OFFSET(0xF3C7180)
+#define CLASS_3_55F58FD99E7F2103_METHOD_3_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xF3C6F00)
+#define CLASS_3_55F58FD99E7F2103_METHOD_3_CB3266143E5794D4_OFFSET UNITYSDK_OFFSET(0xF3C70A0)
+#define CLASS_3_55F58FD99E7F2103__CCTOR_OFFSET UNITYSDK_OFFSET(0xF3C7960)
+#define CLASS_3_55F58FD99E7F2103__CTOR_OFFSET UNITYSDK_OFFSET(0xF3C7950)
 
-inline static constexpr unsigned int Class_3_55F58FD99E7F2103_TypeDefinitionIndex = 67536;
+inline static constexpr unsigned int Class_3_55F58FD99E7F2103_TypeDefinitionIndex = 70659;
 
 class Class_3_55F58FD99E7F2103 : public ::RPG::Client::TABehaviorBase
 {
 public:
-	static ::System::Int32* StaticGet_Field_3_0()
+	static ::System::Int32* StaticGet_KPDHDAOEFPH()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_3_55F58FD99E7F2103_TypeDefinitionIndex)->GetStaticField(0x7A40);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_3_55F58FD99E7F2103_TypeDefinitionIndex)->GetStaticField(0x7970);
 	}
-	static ::System::Int32* StaticGet_Field_3_1()
+	static ::System::Int32* StaticGet_DDCOEPJNLIL()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_3_55F58FD99E7F2103_TypeDefinitionIndex)->GetStaticField(0x7A44);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_3_55F58FD99E7F2103_TypeDefinitionIndex)->GetStaticField(0x7974);
 	}
-	static ::System::Int32* StaticGet_Field_3_2()
+	static ::System::Int32* StaticGet_LNOIIDNGDAD()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_3_55F58FD99E7F2103_TypeDefinitionIndex)->GetStaticField(0x7A48);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_3_55F58FD99E7F2103_TypeDefinitionIndex)->GetStaticField(0x7978);
 	}
-	static ::System::Int32* StaticGet_Field_3_3()
+	static ::System::Int32* StaticGet_DNOIIDPGDCD()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_3_55F58FD99E7F2103_TypeDefinitionIndex)->GetStaticField(0x7A4C);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_3_55F58FD99E7F2103_TypeDefinitionIndex)->GetStaticField(0x797C);
 	}
-	static ::System::Int32* StaticGet_Field_3_4()
+	static ::System::Int32* StaticGet_PMBJBLOEOIA()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_3_55F58FD99E7F2103_TypeDefinitionIndex)->GetStaticField(0x7A50);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_3_55F58FD99E7F2103_TypeDefinitionIndex)->GetStaticField(0x7980);
 	}
-	static ::System::Int32* StaticGet_Field_3_5()
+	static ::System::Int32* StaticGet_CJDMIIKGIIA()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_3_55F58FD99E7F2103_TypeDefinitionIndex)->GetStaticField(0x7A54);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_3_55F58FD99E7F2103_TypeDefinitionIndex)->GetStaticField(0x7984);
 	}
-	static ::System::Int32* StaticGet_Field_3_6()
+	static ::System::Int32* StaticGet_CMLDHKCIJHK()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_3_55F58FD99E7F2103_TypeDefinitionIndex)->GetStaticField(0x7A58);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_3_55F58FD99E7F2103_TypeDefinitionIndex)->GetStaticField(0x7988);
 	}
-	static ::System::Int32* StaticGet_Field_3_7()
+	static ::System::Int32* StaticGet_BPAHAGEDLDG()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_3_55F58FD99E7F2103_TypeDefinitionIndex)->GetStaticField(0x7A5C);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_3_55F58FD99E7F2103_TypeDefinitionIndex)->GetStaticField(0x798C);
 	}
-	static ::System::Int32* StaticGet_Field_3_8()
+	static ::System::Int32* StaticGet_LAKLBPKDKBP()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_3_55F58FD99E7F2103_TypeDefinitionIndex)->GetStaticField(0x7A60);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_3_55F58FD99E7F2103_TypeDefinitionIndex)->GetStaticField(0x7990);
 	}
-	static ::System::Int32* StaticGet_Field_3_9()
+	static ::System::Int32* StaticGet_FAJJHIJEFMK()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_3_55F58FD99E7F2103_TypeDefinitionIndex)->GetStaticField(0x7A64);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_3_55F58FD99E7F2103_TypeDefinitionIndex)->GetStaticField(0x7994);
 	}
-	static ::System::Int32* StaticGet_Field_3_10()
+	static ::System::Int32* StaticGet_IIKOLHDHGBC()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_3_55F58FD99E7F2103_TypeDefinitionIndex)->GetStaticField(0x7A68);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_3_55F58FD99E7F2103_TypeDefinitionIndex)->GetStaticField(0x7998);
 	}
-	::UnityEngine::Renderer* Field_3_11; // 0x38
-	::UnityEngine::MaterialPropertyBlock* Field_3_12; // 0x40
+	::UnityEngine::MaterialPropertyBlock* BMCPFHADPKJ; // 0x38
+	::UnityEngine::Renderer* JAMDAALMOAL; // 0x40
 
 	::System::Void _ctor()
 	{

@@ -6,14 +6,14 @@
 namespace UnityEngine { class Animator; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_PROP_STABLESYSTEMPUZZLEPILLAR_INITPILLAR_OFFSET UNITYSDK_OFFSET(0xD22F310)
-#define RPG_CLIENT_PROP_STABLESYSTEMPUZZLEPILLAR_REFRESHCOLORSTATUSBYANIM_OFFSET UNITYSDK_OFFSET(0xD22F3C0)
-#define RPG_CLIENT_PROP_STABLESYSTEMPUZZLEPILLAR_SETCOLORSTATUS_OFFSET UNITYSDK_OFFSET(0xD22F450)
-#define RPG_CLIENT_PROP_STABLESYSTEMPUZZLEPILLAR__CTOR_OFFSET UNITYSDK_OFFSET(0xD22F590)
+#define RPG_CLIENT_PROP_STABLESYSTEMPUZZLEPILLAR_INITPILLAR_OFFSET UNITYSDK_OFFSET(0xDD33920)
+#define RPG_CLIENT_PROP_STABLESYSTEMPUZZLEPILLAR_REFRESHCOLORSTATUSBYANIM_OFFSET UNITYSDK_OFFSET(0xDD339D0)
+#define RPG_CLIENT_PROP_STABLESYSTEMPUZZLEPILLAR_SETCOLORSTATUS_OFFSET UNITYSDK_OFFSET(0xDD33A60)
+#define RPG_CLIENT_PROP_STABLESYSTEMPUZZLEPILLAR__CTOR_OFFSET UNITYSDK_OFFSET(0xDD33BA0)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int StableSystemPuzzlePillar_TypeDefinitionIndex = 74922;
+	inline static constexpr unsigned int StableSystemPuzzlePillar_TypeDefinitionIndex = 78407;
 
 	class StableSystemPuzzlePillar : public ::UnityEngine::MonoBehaviour
 	{
@@ -22,7 +22,7 @@ namespace RPG::Client::Prop
 		::UnityEngine::GameObject* Color1Obj; // 0x20
 		::UnityEngine::GameObject* Color2Obj; // 0x28
 		::RPG::Client::Prop::StableSystemPuzzlePillarStatus ColorStatus; // 0x30
-		::UnityEngine::Animator* Field_5_4; // 0x38
+		::UnityEngine::Animator* APPGGMLEPLN; // 0x38
 
 		::System::Void _ctor()
 		{

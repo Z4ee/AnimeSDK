@@ -3,7 +3,7 @@
 
 namespace JetBrains::Annotations
 {
-	inline static constexpr unsigned int ImplicitUseKindFlags_TypeDefinitionIndex = 4002;
+	inline static constexpr unsigned int ImplicitUseKindFlags_TypeDefinitionIndex = 4010;
 
 	enum class ImplicitUseKindFlags : ::System::Int32
 	{

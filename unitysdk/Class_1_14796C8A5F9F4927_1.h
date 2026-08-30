@@ -4,14 +4,14 @@
 
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_14796C8A5F9F4927_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1A7C8020)
+#define CLASS_1_14796C8A5F9F4927_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1C3EEF90)
 
-inline static constexpr unsigned int Class_1_14796C8A5F9F4927_1_TypeDefinitionIndex = 40106;
+inline static constexpr unsigned int Class_1_14796C8A5F9F4927_1_TypeDefinitionIndex = 40985;
 
 class Class_1_14796C8A5F9F4927_1 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* Field_1_0; // 0x10
+	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* BALGFKCIADM; // 0x10
 
 	::System::Void _ctor()
 	{

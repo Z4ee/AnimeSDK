@@ -4,10 +4,10 @@
 
 namespace RPG::Client { class IActivityQuestRewardTabInfo; }
 
-#define CLASS_1_CCB6B13A82211464_CREATE_OFFSET UNITYSDK_OFFSET(0x146F1A70)
-#define CLASS_1_CCB6B13A82211464__CTOR_OFFSET UNITYSDK_OFFSET(0x146F1B30)
+#define CLASS_1_CCB6B13A82211464_CREATE_OFFSET UNITYSDK_OFFSET(0x1555D640)
+#define CLASS_1_CCB6B13A82211464__CTOR_OFFSET UNITYSDK_OFFSET(0x1555D700)
 
-inline static constexpr unsigned int Class_1_CCB6B13A82211464_TypeDefinitionIndex = 58991;
+inline static constexpr unsigned int Class_1_CCB6B13A82211464_TypeDefinitionIndex = 61826;
 
 class Class_1_CCB6B13A82211464 : public ::System::Object
 {

@@ -12,26 +12,27 @@ namespace RPG::Client::LimaoNews { class LimaoNewsSubmitLevelControl; }
 namespace System { class String; }
 namespace UnityEngine::UI { class Text; }
 
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSPOSTSUBMITWINDOW_GET__VIEWMODEL_OFFSET UNITYSDK_OFFSET(0xC952A60)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSPOSTSUBMITWINDOW__CTOR_OFFSET UNITYSDK_OFFSET(0xC9520A0)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSPOSTSUBMITWINDOW__ONANIMATIONTRIGGER_OFFSET UNITYSDK_OFFSET(0xC952BE0)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSPOSTSUBMITWINDOW__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0xC952470)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSPOSTSUBMITWINDOW__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0xC952170)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSPOSTSUBMITWINDOW__ONLIMAONEWSWEBSITESTATECHANGEMESSAGE_OFFSET UNITYSDK_OFFSET(0xC952B40)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSPOSTSUBMITWINDOW_GET__VIEWMODEL_OFFSET UNITYSDK_OFFSET(0xD4891C0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSPOSTSUBMITWINDOW__CTOR_OFFSET UNITYSDK_OFFSET(0xD4887B0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSPOSTSUBMITWINDOW__ONANIMATIONTRIGGER_OFFSET UNITYSDK_OFFSET(0xD4893A0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSPOSTSUBMITWINDOW__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0xD488C00)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSPOSTSUBMITWINDOW__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0xD488860)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSPOSTSUBMITWINDOW__ONLIMAONEWSWEBSITESTATECHANGEMESSAGE_OFFSET UNITYSDK_OFFSET(0xD489300)
 
 namespace RPG::Client::LimaoNews
 {
-	inline static constexpr unsigned int LimaoNewsPostSubmitWindow_TypeDefinitionIndex = 75508;
+	inline static constexpr unsigned int LimaoNewsPostSubmitWindow_TypeDefinitionIndex = 79089;
 
 	class LimaoNewsPostSubmitWindow : public ::Sofa::BaseSofaWindow
 	{
 	public:
-		::RPG::Client::MonoAnimationTrigger* _MonoAnimationTriggerRoot; // 0x40
-		::RPG::Client::LimaoNews::LimaoNewsInteractionControl* _InteractionControl; // 0x48
-		::Class_1_5F4D64A4B97E38F9* _Messenger; // 0x50
-		::RPG::Client::LimaoNews::LimaoNewsSubmitLevelControl* _CurrentLevelControl; // 0x58
-		::UnityEngine::UI::Text* _PostTitle; // 0x60
-		::RPG::Client::AnimatorButton* _BtnClose; // 0x68
+		::Class_1_5F4D64A4B97E38F9* _Messenger; // 0x48
+		::RPG::Client::MonoAnimationTrigger* _MonoAnimationTriggerRoot; // 0x50
+		::UnityEngine::UI::Text* _PanelTitle; // 0x58
+		::RPG::Client::LimaoNews::LimaoNewsSubmitLevelControl* _CurrentLevelControl; // 0x60
+		::RPG::Client::LimaoNews::LimaoNewsInteractionControl* _InteractionControl; // 0x68
+		::RPG::Client::AnimatorButton* _BtnClose; // 0x70
+		::UnityEngine::UI::Text* _PostTitle; // 0x78
 
 		::System::Void _ctor(::RPG::Client::LimaoNews::LimaoNewsPostSubmitViewModel* a1, ::Class_1_5F4D64A4B97E38F9* a2)
 		{

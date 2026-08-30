@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PhysicsRigidBodyType_TypeDefinitionIndex = 18133;
+	inline static constexpr unsigned int PhysicsRigidBodyType_TypeDefinitionIndex = 18657;
 
 	enum class PhysicsRigidBodyType : ::System::Int32
 	{

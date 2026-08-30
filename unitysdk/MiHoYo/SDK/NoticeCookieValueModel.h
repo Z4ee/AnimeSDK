@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_NOTICECOOKIEVALUEMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x19D59630)
+#define MIHOYO_SDK_NOTICECOOKIEVALUEMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9B63A0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int NoticeCookieValueModel_TypeDefinitionIndex = 7516;
+	inline static constexpr unsigned int NoticeCookieValueModel_TypeDefinitionIndex = 7502;
 
 	class NoticeCookieValueModel : public ::System::Object
 	{

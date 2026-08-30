@@ -8,52 +8,52 @@ namespace System { template <typename T1, typename T2, typename T3> class Action
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_2_EC6ECCFDD930C7AB___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x14788070)
-#define CLASS_2_EC6ECCFDD930C7AB___C__CREATECELLENTITYANDVIEW_B__21_0_OFFSET UNITYSDK_OFFSET(0x14788100)
-#define CLASS_2_EC6ECCFDD930C7AB___C__CREATECHENLINGENTITYANDVIEW_B__26_0_OFFSET UNITYSDK_OFFSET(0x14788160)
-#define CLASS_2_EC6ECCFDD930C7AB___C__CREATEITEMENTITYANDVIEW_B__18_0_OFFSET UNITYSDK_OFFSET(0x147880C0)
-#define CLASS_2_EC6ECCFDD930C7AB___C__CREATEITEMENTITYANDVIEW_B__18_1_OFFSET UNITYSDK_OFFSET(0x147880D0)
-#define CLASS_2_EC6ECCFDD930C7AB___C__CTOR_OFFSET UNITYSDK_OFFSET(0x147880B0)
-#define CLASS_2_EC6ECCFDD930C7AB___C__LEVELUPCHENLINGENTITYANDVIEW_B__28_0_OFFSET UNITYSDK_OFFSET(0x147881C0)
-#define CLASS_2_EC6ECCFDD930C7AB___C__TRYCREATESUMMONCHENLINGENTITYANDVIEW_B__27_0_OFFSET UNITYSDK_OFFSET(0x14788190)
-#define CLASS_2_EC6ECCFDD930C7AB___C__UNLOCKCELL_B__22_0_OFFSET UNITYSDK_OFFSET(0x14788130)
+#define CLASS_2_EC6ECCFDD930C7AB___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x155FCB90)
+#define CLASS_2_EC6ECCFDD930C7AB___C__CREATECELLENTITYANDVIEW_B__21_0_OFFSET UNITYSDK_OFFSET(0x155FCC20)
+#define CLASS_2_EC6ECCFDD930C7AB___C__CREATECHENLINGENTITYANDVIEW_B__26_0_OFFSET UNITYSDK_OFFSET(0x155FCC80)
+#define CLASS_2_EC6ECCFDD930C7AB___C__CREATEITEMENTITYANDVIEW_B__18_0_OFFSET UNITYSDK_OFFSET(0x155FCBE0)
+#define CLASS_2_EC6ECCFDD930C7AB___C__CREATEITEMENTITYANDVIEW_B__18_1_OFFSET UNITYSDK_OFFSET(0x155FCBF0)
+#define CLASS_2_EC6ECCFDD930C7AB___C__CTOR_OFFSET UNITYSDK_OFFSET(0x155FCBD0)
+#define CLASS_2_EC6ECCFDD930C7AB___C__LEVELUPCHENLINGENTITYANDVIEW_B__28_0_OFFSET UNITYSDK_OFFSET(0x155FCCE0)
+#define CLASS_2_EC6ECCFDD930C7AB___C__TRYCREATESUMMONCHENLINGENTITYANDVIEW_B__27_0_OFFSET UNITYSDK_OFFSET(0x155FCCB0)
+#define CLASS_2_EC6ECCFDD930C7AB___C__UNLOCKCELL_B__22_0_OFFSET UNITYSDK_OFFSET(0x155FCC50)
 
-inline static constexpr unsigned int Class_2_EC6ECCFDD930C7AB___c_TypeDefinitionIndex = 73810;
+inline static constexpr unsigned int Class_2_EC6ECCFDD930C7AB___c_TypeDefinitionIndex = 77294;
 
 class Class_2_EC6ECCFDD930C7AB___c : public ::System::Object
 {
 public:
-	static ::System::Action_3<::Class_2_EC6ECCFDD930C7AB*, ::Class_2_5436AF4270279182*, ::UnityEngine::Transform*>** StaticGet___9__26_0()
-	{
-		return (::System::Action_3<::Class_2_EC6ECCFDD930C7AB*, ::Class_2_5436AF4270279182*, ::UnityEngine::Transform*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_EC6ECCFDD930C7AB___c_TypeDefinitionIndex)->GetStaticField(0x56B10);
-	}
-	static ::System::Action_3<::Class_2_EC6ECCFDD930C7AB*, ::Class_2_5436AF4270279182*, ::UnityEngine::Transform*>** StaticGet___9__18_1()
-	{
-		return (::System::Action_3<::Class_2_EC6ECCFDD930C7AB*, ::Class_2_5436AF4270279182*, ::UnityEngine::Transform*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_EC6ECCFDD930C7AB___c_TypeDefinitionIndex)->GetStaticField(0x56B18);
-	}
-	static ::System::Func_2<::System::Int32, ::System::Single>** StaticGet___9__18_0()
-	{
-		return (::System::Func_2<::System::Int32, ::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_EC6ECCFDD930C7AB___c_TypeDefinitionIndex)->GetStaticField(0x56B20);
-	}
-	static ::System::Action_3<::Class_2_EC6ECCFDD930C7AB*, ::Class_2_5436AF4270279182*, ::UnityEngine::Transform*>** StaticGet___9__27_0()
-	{
-		return (::System::Action_3<::Class_2_EC6ECCFDD930C7AB*, ::Class_2_5436AF4270279182*, ::UnityEngine::Transform*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_EC6ECCFDD930C7AB___c_TypeDefinitionIndex)->GetStaticField(0x56B28);
-	}
 	static ::System::Action_3<::Class_2_EC6ECCFDD930C7AB*, ::Class_2_5436AF4270279182*, ::UnityEngine::Transform*>** StaticGet___9__21_0()
 	{
-		return (::System::Action_3<::Class_2_EC6ECCFDD930C7AB*, ::Class_2_5436AF4270279182*, ::UnityEngine::Transform*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_EC6ECCFDD930C7AB___c_TypeDefinitionIndex)->GetStaticField(0x56B30);
+		return (::System::Action_3<::Class_2_EC6ECCFDD930C7AB*, ::Class_2_5436AF4270279182*, ::UnityEngine::Transform*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_EC6ECCFDD930C7AB___c_TypeDefinitionIndex)->GetStaticField(0x16F30);
 	}
-	static ::Class_2_EC6ECCFDD930C7AB___c** StaticGet___9()
+	static ::System::Action_3<::Class_2_EC6ECCFDD930C7AB*, ::Class_2_5436AF4270279182*, ::UnityEngine::Transform*>** StaticGet___9__26_0()
 	{
-		return (::Class_2_EC6ECCFDD930C7AB___c**)Il2CppClass::FromTypeDefinitionIndex(Class_2_EC6ECCFDD930C7AB___c_TypeDefinitionIndex)->GetStaticField(0x56B38);
+		return (::System::Action_3<::Class_2_EC6ECCFDD930C7AB*, ::Class_2_5436AF4270279182*, ::UnityEngine::Transform*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_EC6ECCFDD930C7AB___c_TypeDefinitionIndex)->GetStaticField(0x16F38);
 	}
 	static ::System::Action_3<::Class_2_EC6ECCFDD930C7AB*, ::Class_2_5436AF4270279182*, ::UnityEngine::Transform*>** StaticGet___9__22_0()
 	{
-		return (::System::Action_3<::Class_2_EC6ECCFDD930C7AB*, ::Class_2_5436AF4270279182*, ::UnityEngine::Transform*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_EC6ECCFDD930C7AB___c_TypeDefinitionIndex)->GetStaticField(0x56B40);
+		return (::System::Action_3<::Class_2_EC6ECCFDD930C7AB*, ::Class_2_5436AF4270279182*, ::UnityEngine::Transform*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_EC6ECCFDD930C7AB___c_TypeDefinitionIndex)->GetStaticField(0x16F40);
+	}
+	static ::Class_2_EC6ECCFDD930C7AB___c** StaticGet___9()
+	{
+		return (::Class_2_EC6ECCFDD930C7AB___c**)Il2CppClass::FromTypeDefinitionIndex(Class_2_EC6ECCFDD930C7AB___c_TypeDefinitionIndex)->GetStaticField(0x16F48);
+	}
+	static ::System::Func_2<::System::Int32, ::System::Single>** StaticGet___9__18_0()
+	{
+		return (::System::Func_2<::System::Int32, ::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_EC6ECCFDD930C7AB___c_TypeDefinitionIndex)->GetStaticField(0x16F50);
+	}
+	static ::System::Action_3<::Class_2_EC6ECCFDD930C7AB*, ::Class_2_5436AF4270279182*, ::UnityEngine::Transform*>** StaticGet___9__27_0()
+	{
+		return (::System::Action_3<::Class_2_EC6ECCFDD930C7AB*, ::Class_2_5436AF4270279182*, ::UnityEngine::Transform*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_EC6ECCFDD930C7AB___c_TypeDefinitionIndex)->GetStaticField(0x16F58);
 	}
 	static ::System::Action_3<::Class_2_EC6ECCFDD930C7AB*, ::Class_2_5436AF4270279182*, ::UnityEngine::Transform*>** StaticGet___9__28_0()
 	{
-		return (::System::Action_3<::Class_2_EC6ECCFDD930C7AB*, ::Class_2_5436AF4270279182*, ::UnityEngine::Transform*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_EC6ECCFDD930C7AB___c_TypeDefinitionIndex)->GetStaticField(0x56B48);
+		return (::System::Action_3<::Class_2_EC6ECCFDD930C7AB*, ::Class_2_5436AF4270279182*, ::UnityEngine::Transform*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_EC6ECCFDD930C7AB___c_TypeDefinitionIndex)->GetStaticField(0x16F60);
+	}
+	static ::System::Action_3<::Class_2_EC6ECCFDD930C7AB*, ::Class_2_5436AF4270279182*, ::UnityEngine::Transform*>** StaticGet___9__18_1()
+	{
+		return (::System::Action_3<::Class_2_EC6ECCFDD930C7AB*, ::Class_2_5436AF4270279182*, ::UnityEngine::Transform*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_EC6ECCFDD930C7AB___c_TypeDefinitionIndex)->GetStaticField(0x16F68);
 	}
 
 	static ::System::Void _cctor()

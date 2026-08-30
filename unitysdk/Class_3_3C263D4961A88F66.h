@@ -8,24 +8,24 @@ namespace RPG::Client::LittleGame { class ElfRestaurantGameEntity; }
 namespace RPG::GameCore { class ST_Side_ElfInteractCurrentSlot; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_3C263D4961A88F66_METHOD_3_DE21204480B88394_OFFSET UNITYSDK_OFFSET(0xB761170)
-#define CLASS_3_3C263D4961A88F66_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB760C30)
-#define CLASS_3_3C263D4961A88F66_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB761470)
-#define CLASS_3_3C263D4961A88F66_TICK_OFFSET UNITYSDK_OFFSET(0xB7614C0)
-#define CLASS_3_3C263D4961A88F66__CTOR_OFFSET UNITYSDK_OFFSET(0xB760C00)
+#define CLASS_3_3C263D4961A88F66_METHOD_3_DE21204480B88394_OFFSET UNITYSDK_OFFSET(0xC16A050)
+#define CLASS_3_3C263D4961A88F66_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC169B10)
+#define CLASS_3_3C263D4961A88F66_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC16A350)
+#define CLASS_3_3C263D4961A88F66_TICK_OFFSET UNITYSDK_OFFSET(0xC16A3A0)
+#define CLASS_3_3C263D4961A88F66__CTOR_OFFSET UNITYSDK_OFFSET(0xC169AE0)
 
-inline static constexpr unsigned int Class_3_3C263D4961A88F66_TypeDefinitionIndex = 49804;
+inline static constexpr unsigned int Class_3_3C263D4961A88F66_TypeDefinitionIndex = 52464;
 
 class Class_3_3C263D4961A88F66 : public ::RPG::GameCore::ST_Task_1<::RPG::GameCore::ST_Side_ElfInteractCurrentSlot*>
 {
 public:
-	::RPG::Client::LittleGame::ElfRestaurantGameEntity* Field_3_0; // 0x28
-	::UnityEngine::Vector3 Field_3_1; // 0x30
-	::System::Single Field_3_2; // 0x3C
-	::UnityEngine::Quaternion Field_3_3; // 0x40
-	::System::Single Field_3_4; // 0x50
-	::UnityEngine::Vector3 Field_3_5; // 0x54
-	::UnityEngine::Quaternion Field_3_6; // 0x60
+	::RPG::Client::LittleGame::ElfRestaurantGameEntity* EENKEBPDHCN; // 0x28
+	::UnityEngine::Quaternion HBAIICJGPGC; // 0x30
+	::System::Single KLBFFEFFJID; // 0x40
+	::UnityEngine::Vector3 FCAOOKFEOHC; // 0x44
+	::System::Single PGMIOKKLHIE; // 0x50
+	::UnityEngine::Quaternion ACDOFFNEDEF; // 0x54
+	::UnityEngine::Vector3 OIMMGKNHKOA; // 0x64
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ST_Side_ElfInteractCurrentSlot* a2)
 	{

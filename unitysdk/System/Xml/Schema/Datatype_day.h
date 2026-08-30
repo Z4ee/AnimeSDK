@@ -3,12 +3,12 @@
 #include "unitysdk/System/Xml/Schema/Datatype_dateTimeBase.h"
 #include "unitysdk/System/Xml/Schema/XmlTypeCode.h"
 
-#define SYSTEM_XML_SCHEMA_DATATYPE_DAY_GET_TYPECODE_OFFSET UNITYSDK_OFFSET(0x1CB44CE0)
-#define SYSTEM_XML_SCHEMA_DATATYPE_DAY__CTOR_OFFSET UNITYSDK_OFFSET(0x1CB3BC40)
+#define SYSTEM_XML_SCHEMA_DATATYPE_DAY_GET_TYPECODE_OFFSET UNITYSDK_OFFSET(0x1E7EECE0)
+#define SYSTEM_XML_SCHEMA_DATATYPE_DAY__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7E5CD0)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int Datatype_day_TypeDefinitionIndex = 2108;
+	inline static constexpr unsigned int Datatype_day_TypeDefinitionIndex = 2115;
 
 	class Datatype_day : public ::System::Xml::Schema::Datatype_dateTimeBase
 	{

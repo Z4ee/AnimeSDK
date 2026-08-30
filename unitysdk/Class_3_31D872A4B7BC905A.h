@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AdvFireStimulus; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_31D872A4B7BC905A_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xEB68430)
-#define CLASS_3_31D872A4B7BC905A__CTOR_OFFSET UNITYSDK_OFFSET(0xEB68400)
+#define CLASS_3_31D872A4B7BC905A_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xFA72E60)
+#define CLASS_3_31D872A4B7BC905A__CTOR_OFFSET UNITYSDK_OFFSET(0xFA72E30)
 
-inline static constexpr unsigned int Class_3_31D872A4B7BC905A_TypeDefinitionIndex = 49988;
+inline static constexpr unsigned int Class_3_31D872A4B7BC905A_TypeDefinitionIndex = 52649;
 
 class Class_3_31D872A4B7BC905A : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AdvFireStimulus*>
 {

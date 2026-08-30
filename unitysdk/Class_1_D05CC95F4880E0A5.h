@@ -6,14 +6,14 @@
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_D05CC95F4880E0A5__CTOR_OFFSET UNITYSDK_OFFSET(0x1A8AEF60)
+#define CLASS_1_D05CC95F4880E0A5__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4E0300)
 
-inline static constexpr unsigned int Class_1_D05CC95F4880E0A5_TypeDefinitionIndex = 41127;
+inline static constexpr unsigned int Class_1_D05CC95F4880E0A5_TypeDefinitionIndex = 42087;
 
 class Class_1_D05CC95F4880E0A5 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::Dictionary_2<::UnityEngine::Vector2Int, ::System::Collections::Generic::List_1<::System::Int32>*>* Field_1_0; // 0x10
+	::System::Collections::Generic::Dictionary_2<::UnityEngine::Vector2Int, ::System::Collections::Generic::List_1<::System::Int32>*>* OIJHNGDBCAK; // 0x10
 
 	::System::Void _ctor()
 	{

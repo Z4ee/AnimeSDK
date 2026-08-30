@@ -5,10 +5,10 @@
 
 namespace System { class String; }
 
-#define WWISEGROUPVALUEOBJECTREFERENCE_GET_DISPLAYNAME_OFFSET UNITYSDK_OFFSET(0x1D263A10)
-#define WWISEGROUPVALUEOBJECTREFERENCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D263B10)
+#define WWISEGROUPVALUEOBJECTREFERENCE_GET_DISPLAYNAME_OFFSET UNITYSDK_OFFSET(0x1EF6F490)
+#define WWISEGROUPVALUEOBJECTREFERENCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF6F590)
 
-inline static constexpr unsigned int WwiseGroupValueObjectReference_TypeDefinitionIndex = 42083;
+inline static constexpr unsigned int WwiseGroupValueObjectReference_TypeDefinitionIndex = 43694;
 
 class WwiseGroupValueObjectReference : public ::WwiseObjectReference
 {

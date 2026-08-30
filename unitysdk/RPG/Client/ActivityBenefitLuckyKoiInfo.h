@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityBenefitLuckyKoiInfo_TypeDefinitionIndex = 58656;
+	inline static constexpr unsigned int ActivityBenefitLuckyKoiInfo_TypeDefinitionIndex = 61487;
 
 	struct alignas(8) ActivityBenefitLuckyKoiInfo
 	{

@@ -7,49 +7,49 @@
 #include "unitysdk/RPG/MVector3.h"
 #include "unitysdk/System/Nullable_1.h"
 
-class Class_0_16E4307DCC419505_382;
-class Class_1_5E412F716BC60BD1;
+class Class_0_16E4307DCC419505_417;
+class Class_1_76D50EEEB128A93C;
 class Class_2_291F7DA21A504FC4;
 namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
 
-#define CLASS_2_7AA0468CE6C1F3D7_CLEAR_OFFSET UNITYSDK_OFFSET(0xB55D7F0)
-#define CLASS_2_7AA0468CE6C1F3D7_METHOD_2_3C8305164A0C9B06_OFFSET UNITYSDK_OFFSET(0xB55D6B0)
-#define CLASS_2_7AA0468CE6C1F3D7__CCTOR_OFFSET UNITYSDK_OFFSET(0xB55D8C0)
-#define CLASS_2_7AA0468CE6C1F3D7__CTOR_OFFSET UNITYSDK_OFFSET(0xB55D880)
+#define CLASS_2_7AA0468CE6C1F3D7_CLEAR_OFFSET UNITYSDK_OFFSET(0xBF54390)
+#define CLASS_2_7AA0468CE6C1F3D7_METHOD_2_3C8305164A0C9B06_OFFSET UNITYSDK_OFFSET(0xBF54230)
+#define CLASS_2_7AA0468CE6C1F3D7__CCTOR_OFFSET UNITYSDK_OFFSET(0xBF54460)
+#define CLASS_2_7AA0468CE6C1F3D7__CTOR_OFFSET UNITYSDK_OFFSET(0xBF54420)
 
-inline static constexpr unsigned int Class_2_7AA0468CE6C1F3D7_TypeDefinitionIndex = 51320;
+inline static constexpr unsigned int Class_2_7AA0468CE6C1F3D7_TypeDefinitionIndex = 54004;
 
 class Class_2_7AA0468CE6C1F3D7 : public ::Class_1_AD314FA3A58751E4<::Class_2_7AA0468CE6C1F3D7*>
 {
 public:
-	static ::Class_2_7AA0468CE6C1F3D7** StaticGet_Field_2_0()
+	static ::Class_2_7AA0468CE6C1F3D7** StaticGet_JNKBIGPJDNK()
 	{
-		return (::Class_2_7AA0468CE6C1F3D7**)Il2CppClass::FromTypeDefinitionIndex(Class_2_7AA0468CE6C1F3D7_TypeDefinitionIndex)->GetStaticField(0x6B930);
+		return (::Class_2_7AA0468CE6C1F3D7**)Il2CppClass::FromTypeDefinitionIndex(Class_2_7AA0468CE6C1F3D7_TypeDefinitionIndex)->GetStaticField(0x67200);
 	}
-	::Class_2_291F7DA21A504FC4* Field_2_1; // 0x18
-	::Class_1_5E412F716BC60BD1* Field_2_2; // 0x20
-	::System::String* Field_2_3; // 0x28
-	::System::String* Field_2_4; // 0x30
-	::RPG::GameCore::GameEntity* Field_2_5; // 0x38
-	::Class_0_16E4307DCC419505_382* Field_2_6; // 0x40
-	::RPG::GameCore::ModifierAddReason Field_2_7; // 0x48
-	::System::Nullable_1<::System::Int32> Field_2_8; // 0x4C
-	::RPG::MVector3 Field_2_9; // 0x54
-	::RPG::GameCore::ModifierStackingFlag Field_2_10; // 0x60
-	::System::Nullable_1<::System::Int32> Field_2_11; // 0x64
-	::System::Nullable_1<::System::Int32> Field_2_12; // 0x6C
-	::System::Single Field_2_13; // 0x74
-	::System::Single Field_2_14; // 0x78
-	::System::Nullable_1<::System::Int32> Field_2_15; // 0x7C
-	::System::Nullable_1<::RPG::GameCore::FixPoint> Field_2_16; // 0x88
-	::System::Boolean Field_2_17; // 0x98
-	::System::Boolean Field_2_18; // 0x99
-	::System::Boolean Field_2_19; // 0x9A
-	::System::Boolean Field_2_20; // 0x9B
-	::System::Boolean Field_2_21; // 0x9C
-	::System::Boolean Field_2_22; // 0x9D
-	::System::Nullable_1<::RPG::GameCore::FixPoint> Field_2_23; // 0xA0
+	::System::String* BFHDJGEIGBC; // 0x18
+	::Class_1_76D50EEEB128A93C* PMCDOCGAOIN; // 0x20
+	::Class_0_16E4307DCC419505_417* KPLILJJOOGI; // 0x28
+	::Class_2_291F7DA21A504FC4* AMLKIGFLNHI; // 0x30
+	::System::String* MKFEAAIKJNA; // 0x38
+	::RPG::GameCore::GameEntity* MFIEDDGBIPH; // 0x40
+	::System::Nullable_1<::RPG::GameCore::FixPoint> HJKAEDGCBAC; // 0x48
+	::System::Boolean CPFEDPAGDFF; // 0x58
+	::System::Boolean DNNKBICNJOA; // 0x59
+	::System::Nullable_1<::System::Int32> OEODJDBGBIF; // 0x5C
+	::System::Nullable_1<::RPG::GameCore::FixPoint> MJPNFNMGANM; // 0x68
+	::System::Single LDFKGILGIOA; // 0x78
+	::System::Boolean LDGDOCAGNEE; // 0x7C
+	::System::Boolean BPEKOACCGHK; // 0x7D
+	::System::Boolean APFPPJAKNBF; // 0x7E
+	::System::Boolean ADMJLNEDMDG; // 0x7F
+	::System::Nullable_1<::System::Int32> DIIGMKEAKCD; // 0x80
+	::RPG::GameCore::ModifierAddReason HBGNJPJNLIJ; // 0x88
+	::System::Single OCAGLPIKAKC; // 0x8C
+	::RPG::MVector3 HNNPEMAPANP; // 0x90
+	::System::Nullable_1<::System::Int32> BNJBNIIDHJN; // 0x9C
+	::System::Nullable_1<::System::Int32> AAIKGIBKHBH; // 0xA4
+	::RPG::GameCore::ModifierStackingFlag MLLIBMECPGM; // 0xAC
 
 	::System::Void _ctor()
 	{

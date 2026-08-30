@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class UnlockReShaCamera; }
 
-#define CLASS_3_066F14984BADB560_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1568F190)
-#define CLASS_3_066F14984BADB560__CTOR_OFFSET UNITYSDK_OFFSET(0x1568F160)
+#define CLASS_3_066F14984BADB560_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB6C2370)
+#define CLASS_3_066F14984BADB560__CTOR_OFFSET UNITYSDK_OFFSET(0xB6C2340)
 
-inline static constexpr unsigned int Class_3_066F14984BADB560_TypeDefinitionIndex = 51034;
+inline static constexpr unsigned int Class_3_066F14984BADB560_TypeDefinitionIndex = 53718;
 
 class Class_3_066F14984BADB560 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::UnlockReShaCamera*>
 {

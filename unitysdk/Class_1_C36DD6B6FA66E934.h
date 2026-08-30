@@ -3,19 +3,19 @@
 #include "unitysdk/RPG/GameCore/CommonIndexKey.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_C36DD6B6FA66E934_EQUALS_OFFSET UNITYSDK_OFFSET(0x1AE58560)
-#define CLASS_1_C36DD6B6FA66E934_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1AE58570)
-#define CLASS_1_C36DD6B6FA66E934__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AE58590)
-#define CLASS_1_C36DD6B6FA66E934__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE58580)
+#define CLASS_1_C36DD6B6FA66E934_EQUALS_OFFSET UNITYSDK_OFFSET(0x1CAAF190)
+#define CLASS_1_C36DD6B6FA66E934_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1CAAF1A0)
+#define CLASS_1_C36DD6B6FA66E934__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CAAF1C0)
+#define CLASS_1_C36DD6B6FA66E934__CTOR_OFFSET UNITYSDK_OFFSET(0x1CAAF1B0)
 
-inline static constexpr unsigned int Class_1_C36DD6B6FA66E934_TypeDefinitionIndex = 10472;
+inline static constexpr unsigned int Class_1_C36DD6B6FA66E934_TypeDefinitionIndex = 10813;
 
 class Class_1_C36DD6B6FA66E934 : public ::System::Object
 {
 public:
-	static ::Class_1_C36DD6B6FA66E934** StaticGet_Field_1_0()
+	static ::Class_1_C36DD6B6FA66E934** StaticGet_JCLEAFEOFAL()
 	{
-		return (::Class_1_C36DD6B6FA66E934**)Il2CppClass::FromTypeDefinitionIndex(Class_1_C36DD6B6FA66E934_TypeDefinitionIndex)->GetStaticField(0x1610);
+		return (::Class_1_C36DD6B6FA66E934**)Il2CppClass::FromTypeDefinitionIndex(Class_1_C36DD6B6FA66E934_TypeDefinitionIndex)->GetStaticField(0x820);
 	}
 
 	::System::Void _ctor()

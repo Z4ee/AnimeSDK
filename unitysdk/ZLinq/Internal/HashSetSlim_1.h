@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T> class IEqualityCo
 
 namespace ZLinq::Internal
 {
-	inline static constexpr unsigned int HashSetSlim_1_TypeDefinitionIndex = 6395;
+	inline static constexpr unsigned int HashSetSlim_1_TypeDefinitionIndex = 6140;
 
 	template <typename T>
 	class HashSetSlim_1 : public ::System::Object

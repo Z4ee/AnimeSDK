@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/InControl/InputDeviceProfile.h"
 
-#define INCONTROL_UNITYDEVICEPROFILES_XTR55_G2_WINDOWSUNITYPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x19AA8EF0)
-#define INCONTROL_UNITYDEVICEPROFILES_XTR55_G2_WINDOWSUNITYPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x19AA8FA0)
+#define INCONTROL_UNITYDEVICEPROFILES_XTR55_G2_WINDOWSUNITYPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x1B637D30)
+#define INCONTROL_UNITYDEVICEPROFILES_XTR55_G2_WINDOWSUNITYPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B637DE0)
 
 namespace InControl::UnityDeviceProfiles
 {
-	inline static constexpr unsigned int XTR55_G2_WindowsUnityProfile_TypeDefinitionIndex = 38942;
+	inline static constexpr unsigned int XTR55_G2_WindowsUnityProfile_TypeDefinitionIndex = 39801;
 
 	class XTR55_G2_WindowsUnityProfile : public ::InControl::InputDeviceProfile
 	{

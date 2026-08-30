@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_MONOASYNCCALL__CTOR_OFFSET UNITYSDK_OFFSET(0x1A169460)
+#define SYSTEM_MONOASYNCCALL__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD70E80)
 
 namespace System
 {
-	inline static constexpr unsigned int MonoAsyncCall_TypeDefinitionIndex = 402;
+	inline static constexpr unsigned int MonoAsyncCall_TypeDefinitionIndex = 405;
 
 	class MonoAsyncCall : public ::System::Object
 	{

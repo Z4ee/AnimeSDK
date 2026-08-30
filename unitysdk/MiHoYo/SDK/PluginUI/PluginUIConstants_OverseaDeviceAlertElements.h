@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int PluginUIConstants_OverseaDeviceAlertElements_TypeDefinitionIndex = 8902;
+	inline static constexpr unsigned int PluginUIConstants_OverseaDeviceAlertElements_TypeDefinitionIndex = 9172;
 
 	class PluginUIConstants_OverseaDeviceAlertElements : public ::System::Object
 	{

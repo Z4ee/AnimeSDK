@@ -11,45 +11,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_MONOPOLYQUIZPLAYERCONFIGEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1B61FF10)
-#define RPG_GAMECORE_MONOPOLYQUIZPLAYERCONFIGEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1B61FDA0)
-#define RPG_GAMECORE_MONOPOLYQUIZPLAYERCONFIGEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1B61FA90)
-#define RPG_GAMECORE_MONOPOLYQUIZPLAYERCONFIGEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1B61FD40)
-#define RPG_GAMECORE_MONOPOLYQUIZPLAYERCONFIGEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1B6200A0)
-#define RPG_GAMECORE_MONOPOLYQUIZPLAYERCONFIGEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1B61FB10)
-#define RPG_GAMECORE_MONOPOLYQUIZPLAYERCONFIGEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1B6200E0)
-#define RPG_GAMECORE_MONOPOLYQUIZPLAYERCONFIGEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B6202B0)
-#define RPG_GAMECORE_MONOPOLYQUIZPLAYERCONFIGEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1B620560)
-#define RPG_GAMECORE_MONOPOLYQUIZPLAYERCONFIGEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B6208D0)
-#define RPG_GAMECORE_MONOPOLYQUIZPLAYERCONFIGEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1B620210)
-#define RPG_GAMECORE_MONOPOLYQUIZPLAYERCONFIGEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1B620170)
+#define RPG_GAMECORE_MONOPOLYQUIZPLAYERCONFIGEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1D2C5810)
+#define RPG_GAMECORE_MONOPOLYQUIZPLAYERCONFIGEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1D2C56A0)
+#define RPG_GAMECORE_MONOPOLYQUIZPLAYERCONFIGEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1D2C5390)
+#define RPG_GAMECORE_MONOPOLYQUIZPLAYERCONFIGEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1D2C5640)
+#define RPG_GAMECORE_MONOPOLYQUIZPLAYERCONFIGEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1D2C59A0)
+#define RPG_GAMECORE_MONOPOLYQUIZPLAYERCONFIGEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D2C5410)
+#define RPG_GAMECORE_MONOPOLYQUIZPLAYERCONFIGEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1D2C59E0)
+#define RPG_GAMECORE_MONOPOLYQUIZPLAYERCONFIGEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D2C5BB0)
+#define RPG_GAMECORE_MONOPOLYQUIZPLAYERCONFIGEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1D2C5E60)
+#define RPG_GAMECORE_MONOPOLYQUIZPLAYERCONFIGEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D2C61D0)
+#define RPG_GAMECORE_MONOPOLYQUIZPLAYERCONFIGEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1D2C5B10)
+#define RPG_GAMECORE_MONOPOLYQUIZPLAYERCONFIGEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D2C5A70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MonopolyQuizPlayerConfigExcelTable_TypeDefinitionIndex = 11594;
+	inline static constexpr unsigned int MonopolyQuizPlayerConfigExcelTable_TypeDefinitionIndex = 11983;
 
 	class MonopolyQuizPlayerConfigExcelTable : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
-		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(MonopolyQuizPlayerConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x49BD0);
-		}
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MonopolyQuizPlayerConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x49BD8);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MonopolyQuizPlayerConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x5A7A0);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MonopolyQuizPlayerConfigRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MonopolyQuizPlayerConfigRow*>**)Il2CppClass::FromTypeDefinitionIndex(MonopolyQuizPlayerConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x49BE0);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MonopolyQuizPlayerConfigRow*>**)Il2CppClass::FromTypeDefinitionIndex(MonopolyQuizPlayerConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x5A7A8);
 		}
-		static ::System::Boolean* StaticGet_isDataLoaded()
+		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MonopolyQuizPlayerConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0xC6A0);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(MonopolyQuizPlayerConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x5A7B0);
 		}
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(MonopolyQuizPlayerConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0xC6A1);
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(MonopolyQuizPlayerConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x12C50);
+		}
+		static ::System::Boolean* StaticGet_isDataLoaded()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MonopolyQuizPlayerConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x12C51);
 		}
 
 		static ::System::Void _cctor()

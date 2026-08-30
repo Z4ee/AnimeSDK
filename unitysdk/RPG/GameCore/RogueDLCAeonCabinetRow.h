@@ -8,27 +8,27 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DimensionIncrementsConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ROGUEDLCAEONCABINETROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B74A770)
-#define RPG_GAMECORE_ROGUEDLCAEONCABINETROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B74AC00)
+#define RPG_GAMECORE_ROGUEDLCAEONCABINETROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3CD8F0)
+#define RPG_GAMECORE_ROGUEDLCAEONCABINETROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3CDD80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueDLCAeonCabinetRow_TypeDefinitionIndex = 14168;
+	inline static constexpr unsigned int RogueDLCAeonCabinetRow_TypeDefinitionIndex = 14588;
 
 	class RogueDLCAeonCabinetRow : public ::System::Object
 	{
 	public:
-		::System::String* CabinetIcon; // 0x10
-		::Il2CppArray<::RPG::GameCore::DimensionIncrementsConfig*>* FinishAeonDimensionPointList; // 0x18
-		::Il2CppArray<::System::UInt32>* UnlockCabinetID; // 0x20
-		::Il2CppArray<::System::UInt32>* DescParam; // 0x28
-		::RPG::Client::TextID CabinetName; // 0x30
-		::RPG::Client::TextID CabinetDesc; // 0x40
+		::Il2CppArray<::RPG::GameCore::DimensionIncrementsConfig*>* FinishAeonDimensionPointList; // 0x10
+		::Il2CppArray<::System::UInt32>* UnlockCabinetID; // 0x18
+		::Il2CppArray<::System::UInt32>* DescParam; // 0x20
+		::System::String* CabinetIcon; // 0x28
+		::System::UInt32 QuestID; // 0x30
+		::System::UInt32 CabinetID; // 0x34
+		::RPG::Client::TextID CabinetName; // 0x38
+		::System::UInt32 Sort; // 0x48
+		::RPG::GameCore::ChessRogueCabinetType CabinetType; // 0x4C
 		::RPG::Client::TextID CabinetMissionDesc; // 0x50
-		::System::UInt32 QuestID; // 0x60
-		::System::UInt32 CabinetID; // 0x64
-		::System::UInt32 Sort; // 0x68
-		::RPG::GameCore::ChessRogueCabinetType CabinetType; // 0x6C
+		::RPG::Client::TextID CabinetDesc; // 0x60
 
 		::System::Void _ctor()
 		{

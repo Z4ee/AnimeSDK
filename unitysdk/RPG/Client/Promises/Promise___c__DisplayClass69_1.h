@@ -4,12 +4,12 @@
 
 namespace RPG::Client::Promises { class Promise___c__DisplayClass69_0; }
 
-#define RPG_CLIENT_PROMISES_PROMISE___C__DISPLAYCLASS69_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1AA2BB90)
-#define RPG_CLIENT_PROMISES_PROMISE___C__DISPLAYCLASS69_1__RACE_B__1_OFFSET UNITYSDK_OFFSET(0x1AA2BC00)
+#define RPG_CLIENT_PROMISES_PROMISE___C__DISPLAYCLASS69_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1C65E170)
+#define RPG_CLIENT_PROMISES_PROMISE___C__DISPLAYCLASS69_1__RACE_B__1_OFFSET UNITYSDK_OFFSET(0x1C65E1E0)
 
 namespace RPG::Client::Promises
 {
-	inline static constexpr unsigned int Promise___c__DisplayClass69_1_TypeDefinitionIndex = 9592;
+	inline static constexpr unsigned int Promise___c__DisplayClass69_1_TypeDefinitionIndex = 9871;
 
 	class Promise___c__DisplayClass69_1 : public ::System::Object
 	{

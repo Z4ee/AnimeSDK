@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetFloorCustomStringV2; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_8305EB2508F31E2D_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x155E0220)
-#define CLASS_3_8305EB2508F31E2D__CTOR_OFFSET UNITYSDK_OFFSET(0x155E01F0)
+#define CLASS_3_8305EB2508F31E2D_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB609A30)
+#define CLASS_3_8305EB2508F31E2D__CTOR_OFFSET UNITYSDK_OFFSET(0xB609A00)
 
-inline static constexpr unsigned int Class_3_8305EB2508F31E2D_TypeDefinitionIndex = 50810;
+inline static constexpr unsigned int Class_3_8305EB2508F31E2D_TypeDefinitionIndex = 53492;
 
 class Class_3_8305EB2508F31E2D : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetFloorCustomStringV2*>
 {

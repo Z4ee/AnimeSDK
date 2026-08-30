@@ -5,10 +5,10 @@
 class Class_2_291F7DA21A504FC4;
 namespace RPG::GameCore { class GameEntity; }
 
-inline static constexpr unsigned int Struct_2_A2EB7BCE6758C89E_TypeDefinitionIndex = 51301;
+inline static constexpr unsigned int Struct_2_A2EB7BCE6758C89E_TypeDefinitionIndex = 53985;
 
 struct alignas(8) Struct_2_A2EB7BCE6758C89E
 {
-	::RPG::GameCore::GameEntity* Field_2_0; // 0x10
-	::Class_2_291F7DA21A504FC4* Field_2_1; // 0x18
+	::RPG::GameCore::GameEntity* EOBLJJBOBIN; // 0x10
+	::Class_2_291F7DA21A504FC4* ILIIOLJMKME; // 0x18
 };

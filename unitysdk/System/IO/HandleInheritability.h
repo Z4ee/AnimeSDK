@@ -3,7 +3,7 @@
 
 namespace System::IO
 {
-	inline static constexpr unsigned int HandleInheritability_TypeDefinitionIndex = 3111;
+	inline static constexpr unsigned int HandleInheritability_TypeDefinitionIndex = 3119;
 
 	enum class HandleInheritability : ::System::Int32
 	{

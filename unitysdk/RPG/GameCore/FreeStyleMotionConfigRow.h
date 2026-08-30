@@ -6,25 +6,25 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_FREESTYLEMOTIONCONFIGROW_FROMBINARYWITHOUTNEW_OFFSET UNITYSDK_OFFSET(0x1B4A12C0)
-#define RPG_GAMECORE_FREESTYLEMOTIONCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B4A1500)
-#define RPG_GAMECORE_FREESTYLEMOTIONCONFIGROW_FROMTABLEOFFSET_OFFSET UNITYSDK_OFFSET(0x1B4A1240)
-#define RPG_GAMECORE_FREESTYLEMOTIONCONFIGROW_RESET_OFFSET UNITYSDK_OFFSET(0x1B4A12A0)
-#define RPG_GAMECORE_FREESTYLEMOTIONCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4A1760)
+#define RPG_GAMECORE_FREESTYLEMOTIONCONFIGROW_FROMBINARYWITHOUTNEW_OFFSET UNITYSDK_OFFSET(0x1D11A490)
+#define RPG_GAMECORE_FREESTYLEMOTIONCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D11A6D0)
+#define RPG_GAMECORE_FREESTYLEMOTIONCONFIGROW_FROMTABLEOFFSET_OFFSET UNITYSDK_OFFSET(0x1D11A410)
+#define RPG_GAMECORE_FREESTYLEMOTIONCONFIGROW_RESET_OFFSET UNITYSDK_OFFSET(0x1D11A470)
+#define RPG_GAMECORE_FREESTYLEMOTIONCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D11A930)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FreeStyleMotionConfigRow_TypeDefinitionIndex = 12801;
+	inline static constexpr unsigned int FreeStyleMotionConfigRow_TypeDefinitionIndex = 13192;
 
 	class FreeStyleMotionConfigRow : public ::System::Object
 	{
 	public:
-		::System::String* StartMotionPath; // 0x10
-		::System::String* FreeStyleCharacterID; // 0x18
-		::System::String* LoopMotionPath; // 0x20
-		::System::String* StartMotion; // 0x28
-		::System::String* LoopMotionRibbonPath; // 0x30
-		::System::String* StartMotionRibbonPath; // 0x38
+		::System::String* StartMotionRibbonPath; // 0x10
+		::System::String* StartMotionPath; // 0x18
+		::System::String* LoopMotionRibbonPath; // 0x20
+		::System::String* LoopMotionPath; // 0x28
+		::System::String* FreeStyleCharacterID; // 0x30
+		::System::String* StartMotion; // 0x38
 		::System::UInt32 ID; // 0x40
 
 		::System::Void _ctor()

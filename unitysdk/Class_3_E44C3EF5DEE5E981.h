@@ -5,9 +5,9 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class WaitConditionString; }
 
-#define CLASS_3_E44C3EF5DEE5E981__CTOR_OFFSET UNITYSDK_OFFSET(0xDED4CC0)
+#define CLASS_3_E44C3EF5DEE5E981__CTOR_OFFSET UNITYSDK_OFFSET(0xF406650)
 
-inline static constexpr unsigned int Class_3_E44C3EF5DEE5E981_TypeDefinitionIndex = 56245;
+inline static constexpr unsigned int Class_3_E44C3EF5DEE5E981_TypeDefinitionIndex = 59027;
 
 class Class_3_E44C3EF5DEE5E981 : public ::Class_2_26C9DBCC8AEB0F7C
 {

@@ -5,29 +5,29 @@
 class Class_1_FCC22A0BAD3D5A17;
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEMAZEPROGRESSHINTVIEWMODEL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xBF555C0)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEMAZEPROGRESSHINTVIEWMODEL___C__CTOR_OFFSET UNITYSDK_OFFSET(0xBF55600)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEMAZEPROGRESSHINTVIEWMODEL___C___GETLEFTROUNDCOUNT_B__13_0_OFFSET UNITYSDK_OFFSET(0xBF55610)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEMAZEPROGRESSHINTVIEWMODEL___C___GETOBTAINEDSCORE_B__14_0_OFFSET UNITYSDK_OFFSET(0xBF55710)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEMAZEPROGRESSHINTVIEWMODEL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC9FA910)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEMAZEPROGRESSHINTVIEWMODEL___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC9FA950)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEMAZEPROGRESSHINTVIEWMODEL___C___GETLEFTROUNDCOUNT_B__13_0_OFFSET UNITYSDK_OFFSET(0xC9FA960)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEMAZEPROGRESSHINTVIEWMODEL___C___GETOBTAINEDSCORE_B__14_0_OFFSET UNITYSDK_OFFSET(0xC9FAB00)
 
 namespace RPG::Client::Challenge::Tierce
 {
-	inline static constexpr unsigned int ChallengeTierceMazeProgressHintViewModel___c_TypeDefinitionIndex = 76626;
+	inline static constexpr unsigned int ChallengeTierceMazeProgressHintViewModel___c_TypeDefinitionIndex = 80262;
 
 	class ChallengeTierceMazeProgressHintViewModel___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::Class_1_FCC22A0BAD3D5A17*, ::System::Int32>** StaticGet___9__13_0()
 		{
-			return (::System::Func_2<::Class_1_FCC22A0BAD3D5A17*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(ChallengeTierceMazeProgressHintViewModel___c_TypeDefinitionIndex)->GetStaticField(0x5F7D0);
-		}
-		static ::RPG::Client::Challenge::Tierce::ChallengeTierceMazeProgressHintViewModel___c** StaticGet___9()
-		{
-			return (::RPG::Client::Challenge::Tierce::ChallengeTierceMazeProgressHintViewModel___c**)Il2CppClass::FromTypeDefinitionIndex(ChallengeTierceMazeProgressHintViewModel___c_TypeDefinitionIndex)->GetStaticField(0x5F7D8);
+			return (::System::Func_2<::Class_1_FCC22A0BAD3D5A17*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(ChallengeTierceMazeProgressHintViewModel___c_TypeDefinitionIndex)->GetStaticField(0x1D520);
 		}
 		static ::System::Func_2<::Class_1_FCC22A0BAD3D5A17*, ::System::Int32>** StaticGet___9__14_0()
 		{
-			return (::System::Func_2<::Class_1_FCC22A0BAD3D5A17*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(ChallengeTierceMazeProgressHintViewModel___c_TypeDefinitionIndex)->GetStaticField(0x5F7E0);
+			return (::System::Func_2<::Class_1_FCC22A0BAD3D5A17*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(ChallengeTierceMazeProgressHintViewModel___c_TypeDefinitionIndex)->GetStaticField(0x1D528);
+		}
+		static ::RPG::Client::Challenge::Tierce::ChallengeTierceMazeProgressHintViewModel___c** StaticGet___9()
+		{
+			return (::RPG::Client::Challenge::Tierce::ChallengeTierceMazeProgressHintViewModel___c**)Il2CppClass::FromTypeDefinitionIndex(ChallengeTierceMazeProgressHintViewModel___c_TypeDefinitionIndex)->GetStaticField(0x1D530);
 		}
 
 		static ::System::Void _cctor()

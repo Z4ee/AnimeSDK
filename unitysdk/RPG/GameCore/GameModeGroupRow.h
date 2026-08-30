@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_GAMEMODEGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B4C3190)
-#define RPG_GAMECORE_GAMEMODEGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4C32E0)
+#define RPG_GAMECORE_GAMEMODEGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D13D850)
+#define RPG_GAMECORE_GAMEMODEGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D13D9A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GameModeGroupRow_TypeDefinitionIndex = 12402;
+	inline static constexpr unsigned int GameModeGroupRow_TypeDefinitionIndex = 12791;
 
 	class GameModeGroupRow : public ::System::Object
 	{

@@ -3,12 +3,12 @@
 #include "unitysdk/HoudiniEngineUnity/HAPI_NodeInfo.h"
 #include "unitysdk/System/Object.h"
 
-#define HOUDINIENGINEUNITY_TEST_HAPI_NODEINFO_ISEQUIVALENTTO_OFFSET UNITYSDK_OFFSET(0x199244A0)
-#define HOUDINIENGINEUNITY_TEST_HAPI_NODEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x19924470)
+#define HOUDINIENGINEUNITY_TEST_HAPI_NODEINFO_ISEQUIVALENTTO_OFFSET UNITYSDK_OFFSET(0x1B4AF6F0)
+#define HOUDINIENGINEUNITY_TEST_HAPI_NODEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4AF6C0)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int Test_HAPI_NodeInfo_TypeDefinitionIndex = 38540;
+	inline static constexpr unsigned int Test_HAPI_NodeInfo_TypeDefinitionIndex = 39399;
 
 	class Test_HAPI_NodeInfo : public ::System::Object
 	{

@@ -3,7 +3,7 @@
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_HandleParamBinding_HEU_HandleParamType_TypeDefinitionIndex = 38373;
+	inline static constexpr unsigned int HEU_HandleParamBinding_HEU_HandleParamType_TypeDefinitionIndex = 39232;
 
 	enum class HEU_HandleParamBinding_HEU_HandleParamType : ::System::Int32
 	{

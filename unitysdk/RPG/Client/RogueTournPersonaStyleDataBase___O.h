@@ -7,14 +7,14 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournPersonaStyleDataBase___O_TypeDefinitionIndex = 64746;
+	inline static constexpr unsigned int RogueTournPersonaStyleDataBase___O_TypeDefinitionIndex = 67751;
 
 	class RogueTournPersonaStyleDataBase___O : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::System::UInt32, ::RPG::Client::RogueTournPersonaPresetRoomCardData*>** StaticGet__0___GetData()
 		{
-			return (::System::Func_2<::System::UInt32, ::RPG::Client::RogueTournPersonaPresetRoomCardData*>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournPersonaStyleDataBase___O_TypeDefinitionIndex)->GetStaticField(0x2DCE0);
+			return (::System::Func_2<::System::UInt32, ::RPG::Client::RogueTournPersonaPresetRoomCardData*>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournPersonaStyleDataBase___O_TypeDefinitionIndex)->GetStaticField(0x183E0);
 		}
 	};
 }

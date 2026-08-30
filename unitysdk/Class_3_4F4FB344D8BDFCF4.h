@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class CharacterReplaceOriginMaterial; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_4F4FB344D8BDFCF4_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15202A80)
-#define CLASS_3_4F4FB344D8BDFCF4__CTOR_OFFSET UNITYSDK_OFFSET(0x15202A50)
+#define CLASS_3_4F4FB344D8BDFCF4_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1616DFF0)
+#define CLASS_3_4F4FB344D8BDFCF4__CTOR_OFFSET UNITYSDK_OFFSET(0x1616DFC0)
 
-inline static constexpr unsigned int Class_3_4F4FB344D8BDFCF4_TypeDefinitionIndex = 53817;
+inline static constexpr unsigned int Class_3_4F4FB344D8BDFCF4_TypeDefinitionIndex = 56537;
 
 class Class_3_4F4FB344D8BDFCF4 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::CharacterReplaceOriginMaterial*>
 {

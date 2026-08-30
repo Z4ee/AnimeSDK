@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_6CC0939E8A15669B___C__DISPLAYCLASS23_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A45BA90)
-#define CLASS_1_6CC0939E8A15669B___C__DISPLAYCLASS23_0__FINDPATHFINDLOCKTARGETFORREACHABLEPICKUPITEMINHALFSQUARE_B__0_OFFSET UNITYSDK_OFFSET(0x1A45CB50)
+#define CLASS_1_6CC0939E8A15669B___C__DISPLAYCLASS23_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C06B3D0)
+#define CLASS_1_6CC0939E8A15669B___C__DISPLAYCLASS23_0__FINDPATHFINDLOCKTARGETFORREACHABLEPICKUPITEMINHALFSQUARE_B__0_OFFSET UNITYSDK_OFFSET(0x1C06C490)
 
-inline static constexpr unsigned int Class_1_6CC0939E8A15669B___c__DisplayClass23_0_TypeDefinitionIndex = 35722;
+inline static constexpr unsigned int Class_1_6CC0939E8A15669B___c__DisplayClass23_0_TypeDefinitionIndex = 36583;
 
 class Class_1_6CC0939E8A15669B___c__DisplayClass23_0 : public ::System::Object
 {
 public:
-	::System::Int32 searchStartZ; // 0x10
-	::System::Int32 searchEndX; // 0x14
-	::System::Int32 searchEndZ; // 0x18
-	::System::Int32 searchStartX; // 0x1C
+	::System::Int32 searchStartX; // 0x10
+	::System::Int32 searchEndZ; // 0x14
+	::System::Int32 searchStartZ; // 0x18
+	::System::Int32 searchEndX; // 0x1C
 
 	::System::Void _ctor()
 	{

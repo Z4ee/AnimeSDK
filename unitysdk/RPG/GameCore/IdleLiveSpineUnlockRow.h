@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_IDLELIVESPINEUNLOCKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B52ACA0)
-#define RPG_GAMECORE_IDLELIVESPINEUNLOCKROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B52ADE0)
+#define RPG_GAMECORE_IDLELIVESPINEUNLOCKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D1A42F0)
+#define RPG_GAMECORE_IDLELIVESPINEUNLOCKROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1A4430)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveSpineUnlockRow_TypeDefinitionIndex = 11410;
+	inline static constexpr unsigned int IdleLiveSpineUnlockRow_TypeDefinitionIndex = 11799;
 
 	class IdleLiveSpineUnlockRow : public ::System::Object
 	{

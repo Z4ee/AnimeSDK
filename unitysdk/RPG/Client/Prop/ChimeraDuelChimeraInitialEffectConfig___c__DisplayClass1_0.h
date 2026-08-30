@@ -4,12 +4,12 @@
 
 namespace RPG::Client::Prop { class ChimeraDuelInitialEffectConfig; }
 
-#define RPG_CLIENT_PROP_CHIMERADUELCHIMERAINITIALEFFECTCONFIG___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD109880)
-#define RPG_CLIENT_PROP_CHIMERADUELCHIMERAINITIALEFFECTCONFIG___C__DISPLAYCLASS1_0__QUERYINITIALEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0xD1098A0)
+#define RPG_CLIENT_PROP_CHIMERADUELCHIMERAINITIALEFFECTCONFIG___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0xDC0DD30)
+#define RPG_CLIENT_PROP_CHIMERADUELCHIMERAINITIALEFFECTCONFIG___C__DISPLAYCLASS1_0__QUERYINITIALEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0xDC0DD50)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraDuelChimeraInitialEffectConfig___c__DisplayClass1_0_TypeDefinitionIndex = 74365;
+	inline static constexpr unsigned int ChimeraDuelChimeraInitialEffectConfig___c__DisplayClass1_0_TypeDefinitionIndex = 77850;
 
 	class ChimeraDuelChimeraInitialEffectConfig___c__DisplayClass1_0 : public ::System::Object
 	{

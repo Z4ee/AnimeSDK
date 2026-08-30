@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class RefreshFrameCapture; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_C8EDD231133DC8AB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF1C3C20)
-#define CLASS_3_C8EDD231133DC8AB__CTOR_OFFSET UNITYSDK_OFFSET(0xF1C3BF0)
+#define CLASS_3_C8EDD231133DC8AB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF3E2060)
+#define CLASS_3_C8EDD231133DC8AB__CTOR_OFFSET UNITYSDK_OFFSET(0xF3E2030)
 
-inline static constexpr unsigned int Class_3_C8EDD231133DC8AB_TypeDefinitionIndex = 52789;
+inline static constexpr unsigned int Class_3_C8EDD231133DC8AB_TypeDefinitionIndex = 55492;
 
 class Class_3_C8EDD231133DC8AB : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::RefreshFrameCapture*>
 {

@@ -5,49 +5,49 @@
 
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_EFFECT_PROPSCREENSPACEGPUPARTICLEBEHAVIOR___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC3430C0)
-#define RPG_CLIENT_EFFECT_PROPSCREENSPACEGPUPARTICLEBEHAVIOR___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC3430F0)
-#define RPG_CLIENT_EFFECT_PROPSCREENSPACEGPUPARTICLEBEHAVIOR___C___GETSCREENRECTOFGO_B__16_0_OFFSET UNITYSDK_OFFSET(0xC343100)
-#define RPG_CLIENT_EFFECT_PROPSCREENSPACEGPUPARTICLEBEHAVIOR___C___GETSCREENRECTOFGO_B__16_1_OFFSET UNITYSDK_OFFSET(0xC343110)
-#define RPG_CLIENT_EFFECT_PROPSCREENSPACEGPUPARTICLEBEHAVIOR___C___GETSCREENRECTOFGO_B__16_2_OFFSET UNITYSDK_OFFSET(0xC343120)
-#define RPG_CLIENT_EFFECT_PROPSCREENSPACEGPUPARTICLEBEHAVIOR___C___GETSCREENRECTOFGO_B__16_3_OFFSET UNITYSDK_OFFSET(0xC343130)
-#define RPG_CLIENT_EFFECT_PROPSCREENSPACEGPUPARTICLEBEHAVIOR___C___GETSCREENRECTOFGO_B__16_4_OFFSET UNITYSDK_OFFSET(0xC343140)
-#define RPG_CLIENT_EFFECT_PROPSCREENSPACEGPUPARTICLEBEHAVIOR___C___GETSCREENRECTOFGO_B__16_5_OFFSET UNITYSDK_OFFSET(0xC343150)
+#define RPG_CLIENT_EFFECT_PROPSCREENSPACEGPUPARTICLEBEHAVIOR___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xCE14520)
+#define RPG_CLIENT_EFFECT_PROPSCREENSPACEGPUPARTICLEBEHAVIOR___C__CTOR_OFFSET UNITYSDK_OFFSET(0xCE14550)
+#define RPG_CLIENT_EFFECT_PROPSCREENSPACEGPUPARTICLEBEHAVIOR___C___GETSCREENRECTOFGO_B__16_0_OFFSET UNITYSDK_OFFSET(0xCE14560)
+#define RPG_CLIENT_EFFECT_PROPSCREENSPACEGPUPARTICLEBEHAVIOR___C___GETSCREENRECTOFGO_B__16_1_OFFSET UNITYSDK_OFFSET(0xCE14570)
+#define RPG_CLIENT_EFFECT_PROPSCREENSPACEGPUPARTICLEBEHAVIOR___C___GETSCREENRECTOFGO_B__16_2_OFFSET UNITYSDK_OFFSET(0xCE14580)
+#define RPG_CLIENT_EFFECT_PROPSCREENSPACEGPUPARTICLEBEHAVIOR___C___GETSCREENRECTOFGO_B__16_3_OFFSET UNITYSDK_OFFSET(0xCE14590)
+#define RPG_CLIENT_EFFECT_PROPSCREENSPACEGPUPARTICLEBEHAVIOR___C___GETSCREENRECTOFGO_B__16_4_OFFSET UNITYSDK_OFFSET(0xCE145A0)
+#define RPG_CLIENT_EFFECT_PROPSCREENSPACEGPUPARTICLEBEHAVIOR___C___GETSCREENRECTOFGO_B__16_5_OFFSET UNITYSDK_OFFSET(0xCE145B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_PropScreenSpaceGPUParticleBehavior___c_TypeDefinitionIndex = 67383;
+	inline static constexpr unsigned int Effect_PropScreenSpaceGPUParticleBehavior___c_TypeDefinitionIndex = 70505;
 
 	class Effect_PropScreenSpaceGPUParticleBehavior___c : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::Effect_PropScreenSpaceGPUParticleBehavior___c** StaticGet___9()
 		{
-			return (::RPG::Client::Effect_PropScreenSpaceGPUParticleBehavior___c**)Il2CppClass::FromTypeDefinitionIndex(Effect_PropScreenSpaceGPUParticleBehavior___c_TypeDefinitionIndex)->GetStaticField(0x68AC0);
-		}
-		static ::System::Func_2<::UnityEngine::Vector3, ::System::Single>** StaticGet___9__16_2()
-		{
-			return (::System::Func_2<::UnityEngine::Vector3, ::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(Effect_PropScreenSpaceGPUParticleBehavior___c_TypeDefinitionIndex)->GetStaticField(0x68AC8);
-		}
-		static ::System::Func_2<::UnityEngine::Vector3, ::System::Single>** StaticGet___9__16_1()
-		{
-			return (::System::Func_2<::UnityEngine::Vector3, ::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(Effect_PropScreenSpaceGPUParticleBehavior___c_TypeDefinitionIndex)->GetStaticField(0x68AD0);
-		}
-		static ::System::Func_2<::UnityEngine::Vector3, ::System::Single>** StaticGet___9__16_5()
-		{
-			return (::System::Func_2<::UnityEngine::Vector3, ::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(Effect_PropScreenSpaceGPUParticleBehavior___c_TypeDefinitionIndex)->GetStaticField(0x68AD8);
-		}
-		static ::System::Func_2<::UnityEngine::Vector3, ::System::Single>** StaticGet___9__16_3()
-		{
-			return (::System::Func_2<::UnityEngine::Vector3, ::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(Effect_PropScreenSpaceGPUParticleBehavior___c_TypeDefinitionIndex)->GetStaticField(0x68AE0);
+			return (::RPG::Client::Effect_PropScreenSpaceGPUParticleBehavior___c**)Il2CppClass::FromTypeDefinitionIndex(Effect_PropScreenSpaceGPUParticleBehavior___c_TypeDefinitionIndex)->GetStaticField(0x649E0);
 		}
 		static ::System::Func_2<::UnityEngine::Vector3, ::System::Single>** StaticGet___9__16_4()
 		{
-			return (::System::Func_2<::UnityEngine::Vector3, ::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(Effect_PropScreenSpaceGPUParticleBehavior___c_TypeDefinitionIndex)->GetStaticField(0x68AE8);
+			return (::System::Func_2<::UnityEngine::Vector3, ::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(Effect_PropScreenSpaceGPUParticleBehavior___c_TypeDefinitionIndex)->GetStaticField(0x649E8);
+		}
+		static ::System::Func_2<::UnityEngine::Vector3, ::System::Single>** StaticGet___9__16_3()
+		{
+			return (::System::Func_2<::UnityEngine::Vector3, ::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(Effect_PropScreenSpaceGPUParticleBehavior___c_TypeDefinitionIndex)->GetStaticField(0x649F0);
 		}
 		static ::System::Func_2<::UnityEngine::Vector3, ::System::Single>** StaticGet___9__16_0()
 		{
-			return (::System::Func_2<::UnityEngine::Vector3, ::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(Effect_PropScreenSpaceGPUParticleBehavior___c_TypeDefinitionIndex)->GetStaticField(0x68AF0);
+			return (::System::Func_2<::UnityEngine::Vector3, ::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(Effect_PropScreenSpaceGPUParticleBehavior___c_TypeDefinitionIndex)->GetStaticField(0x649F8);
+		}
+		static ::System::Func_2<::UnityEngine::Vector3, ::System::Single>** StaticGet___9__16_2()
+		{
+			return (::System::Func_2<::UnityEngine::Vector3, ::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(Effect_PropScreenSpaceGPUParticleBehavior___c_TypeDefinitionIndex)->GetStaticField(0x64A00);
+		}
+		static ::System::Func_2<::UnityEngine::Vector3, ::System::Single>** StaticGet___9__16_1()
+		{
+			return (::System::Func_2<::UnityEngine::Vector3, ::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(Effect_PropScreenSpaceGPUParticleBehavior___c_TypeDefinitionIndex)->GetStaticField(0x64A08);
+		}
+		static ::System::Func_2<::UnityEngine::Vector3, ::System::Single>** StaticGet___9__16_5()
+		{
+			return (::System::Func_2<::UnityEngine::Vector3, ::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(Effect_PropScreenSpaceGPUParticleBehavior___c_TypeDefinitionIndex)->GetStaticField(0x64A10);
 		}
 
 		static ::System::Void _cctor()

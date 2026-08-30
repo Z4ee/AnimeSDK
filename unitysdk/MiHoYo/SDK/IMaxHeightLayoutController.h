@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int IMaxHeightLayoutController_TypeDefinitionIndex = 7976;
+	inline static constexpr unsigned int IMaxHeightLayoutController_TypeDefinitionIndex = 7980;
 
 	class IMaxHeightLayoutController
 	{

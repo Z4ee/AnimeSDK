@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace RPG::Client::FateRin::Battle
 {
-	inline static constexpr unsigned int IFateRinBattleTeamInfoUltraSkillItemViewModel_TypeDefinitionIndex = 76018;
+	inline static constexpr unsigned int IFateRinBattleTeamInfoUltraSkillItemViewModel_TypeDefinitionIndex = 79651;
 
 	class IFateRinBattleTeamInfoUltraSkillItemViewModel
 	{

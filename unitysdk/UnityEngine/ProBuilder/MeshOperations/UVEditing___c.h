@@ -9,49 +9,49 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace UnityEngine::ProBuilder { class Face; }
 
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_UVEDITING___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CE732A0)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_UVEDITING___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE732E0)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_UVEDITING___C__GETUVS_B__2_0_OFFSET UNITYSDK_OFFSET(0x1CE732F0)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_UVEDITING___C__PROJECTFACESAUTO_B__8_0_OFFSET UNITYSDK_OFFSET(0x1CE73310)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_UVEDITING___C__PROJECTFACESAUTO_B__8_1_OFFSET UNITYSDK_OFFSET(0x1CE73400)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_UVEDITING___C__PROJECTFACESBOX_B__11_0_OFFSET UNITYSDK_OFFSET(0x1CE735E0)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_UVEDITING___C__PROJECTFACESBOX_B__9_0_OFFSET UNITYSDK_OFFSET(0x1CE734F0)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_UVEDITING___C__SEWUVS_B__4_1_OFFSET UNITYSDK_OFFSET(0x1CE73300)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_UVEDITING___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EB7B070)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_UVEDITING___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1EB7B0B0)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_UVEDITING___C__GETUVS_B__2_0_OFFSET UNITYSDK_OFFSET(0x1EB7B0C0)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_UVEDITING___C__PROJECTFACESAUTO_B__8_0_OFFSET UNITYSDK_OFFSET(0x1EB7B0E0)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_UVEDITING___C__PROJECTFACESAUTO_B__8_1_OFFSET UNITYSDK_OFFSET(0x1EB7B1D0)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_UVEDITING___C__PROJECTFACESBOX_B__11_0_OFFSET UNITYSDK_OFFSET(0x1EB7B3B0)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_UVEDITING___C__PROJECTFACESBOX_B__9_0_OFFSET UNITYSDK_OFFSET(0x1EB7B2C0)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_UVEDITING___C__SEWUVS_B__4_1_OFFSET UNITYSDK_OFFSET(0x1EB7B0D0)
 
 namespace UnityEngine::ProBuilder::MeshOperations
 {
-	inline static constexpr unsigned int UVEditing___c_TypeDefinitionIndex = 41717;
+	inline static constexpr unsigned int UVEditing___c_TypeDefinitionIndex = 43328;
 
 	class UVEditing___c : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::ProBuilder::MeshOperations::UVEditing___c** StaticGet___9()
-		{
-			return (::UnityEngine::ProBuilder::MeshOperations::UVEditing___c**)Il2CppClass::FromTypeDefinitionIndex(UVEditing___c_TypeDefinitionIndex)->GetStaticField(0x4FA80);
-		}
-		static ::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::IEnumerable_1<::System::Int32>*>** StaticGet___9__9_0()
-		{
-			return (::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::IEnumerable_1<::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(UVEditing___c_TypeDefinitionIndex)->GetStaticField(0x4FA88);
-		}
-		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Int32>, ::System::Int32>** StaticGet___9__4_1()
-		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Int32>, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UVEditing___c_TypeDefinitionIndex)->GetStaticField(0x4FA90);
-		}
-		static ::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::IEnumerable_1<::System::Int32>*>** StaticGet___9__8_0()
-		{
-			return (::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::IEnumerable_1<::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(UVEditing___c_TypeDefinitionIndex)->GetStaticField(0x4FA98);
-		}
 		static ::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::IEnumerable_1<::System::Int32>*>** StaticGet___9__8_1()
 		{
-			return (::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::IEnumerable_1<::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(UVEditing___c_TypeDefinitionIndex)->GetStaticField(0x4FAA0);
-		}
-		static ::System::Func_2<::UnityEngine::Vector4, ::UnityEngine::Vector2>** StaticGet___9__2_0()
-		{
-			return (::System::Func_2<::UnityEngine::Vector4, ::UnityEngine::Vector2>**)Il2CppClass::FromTypeDefinitionIndex(UVEditing___c_TypeDefinitionIndex)->GetStaticField(0x4FAA8);
+			return (::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::IEnumerable_1<::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(UVEditing___c_TypeDefinitionIndex)->GetStaticField(0x5E630);
 		}
 		static ::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::IEnumerable_1<::System::Int32>*>** StaticGet___9__11_0()
 		{
-			return (::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::IEnumerable_1<::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(UVEditing___c_TypeDefinitionIndex)->GetStaticField(0x4FAB0);
+			return (::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::IEnumerable_1<::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(UVEditing___c_TypeDefinitionIndex)->GetStaticField(0x5E638);
+		}
+		static ::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::IEnumerable_1<::System::Int32>*>** StaticGet___9__9_0()
+		{
+			return (::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::IEnumerable_1<::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(UVEditing___c_TypeDefinitionIndex)->GetStaticField(0x5E640);
+		}
+		static ::System::Func_2<::UnityEngine::Vector4, ::UnityEngine::Vector2>** StaticGet___9__2_0()
+		{
+			return (::System::Func_2<::UnityEngine::Vector4, ::UnityEngine::Vector2>**)Il2CppClass::FromTypeDefinitionIndex(UVEditing___c_TypeDefinitionIndex)->GetStaticField(0x5E648);
+		}
+		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Int32>, ::System::Int32>** StaticGet___9__4_1()
+		{
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Int32>, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UVEditing___c_TypeDefinitionIndex)->GetStaticField(0x5E650);
+		}
+		static ::UnityEngine::ProBuilder::MeshOperations::UVEditing___c** StaticGet___9()
+		{
+			return (::UnityEngine::ProBuilder::MeshOperations::UVEditing___c**)Il2CppClass::FromTypeDefinitionIndex(UVEditing___c_TypeDefinitionIndex)->GetStaticField(0x5E658);
+		}
+		static ::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::IEnumerable_1<::System::Int32>*>** StaticGet___9__8_0()
+		{
+			return (::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::IEnumerable_1<::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(UVEditing___c_TypeDefinitionIndex)->GetStaticField(0x5E660);
 		}
 
 		static ::System::Void _cctor()

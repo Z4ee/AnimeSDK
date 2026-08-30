@@ -8,22 +8,22 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Object; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_1_EFF1E704497E19DB_METHOD_1_02C5AB138F5F739C_OFFSET UNITYSDK_OFFSET(0xB10E730)
-#define CLASS_1_EFF1E704497E19DB_METHOD_1_0CF365FEDCC37CB7_OFFSET UNITYSDK_OFFSET(0xB10E690)
-#define CLASS_1_EFF1E704497E19DB_METHOD_1_3B50C5F8C2E814E9_OFFSET UNITYSDK_OFFSET(0xB10E9B0)
-#define CLASS_1_EFF1E704497E19DB_METHOD_1_657CBE4226257EDE_OFFSET UNITYSDK_OFFSET(0xB10E910)
-#define CLASS_1_EFF1E704497E19DB_METHOD_1_83A2D2FF4410F4BE_OFFSET UNITYSDK_OFFSET(0xB10EFF0)
-#define CLASS_1_EFF1E704497E19DB__CTOR_OFFSET UNITYSDK_OFFSET(0xB10F0A0)
+#define CLASS_1_EFF1E704497E19DB_METHOD_1_02C5AB138F5F739C_OFFSET UNITYSDK_OFFSET(0xBA8FC10)
+#define CLASS_1_EFF1E704497E19DB_METHOD_1_0CF365FEDCC37CB7_OFFSET UNITYSDK_OFFSET(0xBA8FB70)
+#define CLASS_1_EFF1E704497E19DB_METHOD_1_5C6268E622CAD2E7_OFFSET UNITYSDK_OFFSET(0xBA8FEA0)
+#define CLASS_1_EFF1E704497E19DB_METHOD_1_657CBE4226257EDE_OFFSET UNITYSDK_OFFSET(0xBA8FE00)
+#define CLASS_1_EFF1E704497E19DB_METHOD_1_83A2D2FF4410F4BE_OFFSET UNITYSDK_OFFSET(0xBA90510)
+#define CLASS_1_EFF1E704497E19DB__CTOR_OFFSET UNITYSDK_OFFSET(0xBA905C0)
 
-inline static constexpr unsigned int Class_1_EFF1E704497E19DB_TypeDefinitionIndex = 58216;
+inline static constexpr unsigned int Class_1_EFF1E704497E19DB_TypeDefinitionIndex = 61043;
 
 class Class_1_EFF1E704497E19DB : public ::System::Object
 {
 public:
-	::UnityEngine::Transform* Field_1_0; // 0x10
-	::System::String* Field_1_1; // 0x18
-	::System::Collections::Generic::Stack_1<::UnityEngine::GameObject*>* Field_1_2; // 0x20
-	::UnityEngine::Object* Field_1_3; // 0x28
+	::System::Collections::Generic::Stack_1<::UnityEngine::GameObject*>* HAHBLPNJOKL; // 0x10
+	::UnityEngine::Object* NCPNKDBIINJ; // 0x18
+	::UnityEngine::Transform* IDPCOKGLMMB; // 0x20
+	::System::String* LBMJJOOCCBD; // 0x28
 
 	::System::Void _ctor()
 	{
@@ -50,8 +50,8 @@ public:
 		return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + CLASS_1_EFF1E704497E19DB_METHOD_1_83A2D2FF4410F4BE_OFFSET))(this, a1);
 	}
 
-	::System::Void Method_1_3B50C5F8C2E814E9(::UnityEngine::GameObject* a1, ::System::Single a2)
+	::System::Void Method_1_5C6268E622CAD2E7(::UnityEngine::GameObject* a1, ::System::Single a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_EFF1E704497E19DB_METHOD_1_3B50C5F8C2E814E9_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_EFF1E704497E19DB_METHOD_1_5C6268E622CAD2E7_OFFSET))(this, a1, a2);
 	}
 };

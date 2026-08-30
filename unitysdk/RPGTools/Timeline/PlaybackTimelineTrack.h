@@ -6,12 +6,12 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_PLAYBACKTIMELINETRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xDCF9AE0)
-#define RPGTOOLS_TIMELINE_PLAYBACKTIMELINETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xDCFA3B0)
+#define RPGTOOLS_TIMELINE_PLAYBACKTIMELINETRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xE8C35B0)
+#define RPGTOOLS_TIMELINE_PLAYBACKTIMELINETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xE8C3E80)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int PlaybackTimelineTrack_TypeDefinitionIndex = 46669;
+	inline static constexpr unsigned int PlaybackTimelineTrack_TypeDefinitionIndex = 48914;
 
 	class PlaybackTimelineTrack : public ::UnityEngine::Timeline::TrackAsset
 	{

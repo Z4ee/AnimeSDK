@@ -6,12 +6,12 @@
 class Class_1_482F3423DE650EAD;
 namespace System { class String; }
 
-#define RPG_CLIENT_WOLFBROGUNPLAYTARGETACTIONCONFIG_TRIGGEREFFECT_METHOD_2_47FCE72550F759BF_OFFSET UNITYSDK_OFFSET(0xD8B7B30)
-#define RPG_CLIENT_WOLFBROGUNPLAYTARGETACTIONCONFIG_TRIGGEREFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0xD8B7BB0)
+#define RPG_CLIENT_WOLFBROGUNPLAYTARGETACTIONCONFIG_TRIGGEREFFECT_METHOD_2_47FCE72550F759BF_OFFSET UNITYSDK_OFFSET(0xE42E220)
+#define RPG_CLIENT_WOLFBROGUNPLAYTARGETACTIONCONFIG_TRIGGEREFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0xE42E2A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int WolfBroGunPlayTargetActionConfig_TriggerEffect_TypeDefinitionIndex = 65641;
+	inline static constexpr unsigned int WolfBroGunPlayTargetActionConfig_TriggerEffect_TypeDefinitionIndex = 68678;
 
 	class WolfBroGunPlayTargetActionConfig_TriggerEffect : public ::RPG::Client::WolfBroGunPlayTargetActionConfig
 	{

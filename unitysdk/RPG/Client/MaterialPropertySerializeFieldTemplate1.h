@@ -5,13 +5,13 @@
 
 namespace UnityEngine { class Renderer; }
 
-#define RPG_CLIENT_MATERIALPROPERTYSERIALIZEFIELDTEMPLATE1_DISPOSE_OFFSET UNITYSDK_OFFSET(0xCB889E0)
-#define RPG_CLIENT_MATERIALPROPERTYSERIALIZEFIELDTEMPLATE1_GETPROPERTYFIELDS_OFFSET UNITYSDK_OFFSET(0xCB88A30)
-#define RPG_CLIENT_MATERIALPROPERTYSERIALIZEFIELDTEMPLATE1__CTOR_OFFSET UNITYSDK_OFFSET(0xCB88B40)
+#define RPG_CLIENT_MATERIALPROPERTYSERIALIZEFIELDTEMPLATE1_DISPOSE_OFFSET UNITYSDK_OFFSET(0xD67C610)
+#define RPG_CLIENT_MATERIALPROPERTYSERIALIZEFIELDTEMPLATE1_GETPROPERTYFIELDS_OFFSET UNITYSDK_OFFSET(0xD67C660)
+#define RPG_CLIENT_MATERIALPROPERTYSERIALIZEFIELDTEMPLATE1__CTOR_OFFSET UNITYSDK_OFFSET(0xD67C770)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MaterialPropertySerializeFieldTemplate1_TypeDefinitionIndex = 67497;
+	inline static constexpr unsigned int MaterialPropertySerializeFieldTemplate1_TypeDefinitionIndex = 70620;
 
 	class MaterialPropertySerializeFieldTemplate1 : public ::UnityEngine::MonoBehaviour
 	{
@@ -19,7 +19,7 @@ namespace RPG::Client
 		::UnityEngine::Renderer* Renderer; // 0x18
 		::System::Int32 MaterialIndex; // 0x20
 		::RPG::Client::MaterialPropertySerializeFieldTemplate1_MaterialPropertySerializeField Field1; // 0x28
-		::Il2CppArray<::RPG::Client::MaterialPropertySerializeFieldTemplate1_MaterialPropertySerializeField>* Field_5_3; // 0x60
+		::Il2CppArray<::RPG::Client::MaterialPropertySerializeFieldTemplate1_MaterialPropertySerializeField>* PABBMLCKLDH; // 0x60
 
 		::System::Void _ctor()
 		{

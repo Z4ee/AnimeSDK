@@ -7,29 +7,29 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_GRIDFIGHTSEASONTALENTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B4EC630)
-#define RPG_GAMECORE_GRIDFIGHTSEASONTALENTCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4ECB30)
+#define RPG_GAMECORE_GRIDFIGHTSEASONTALENTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D165EC0)
+#define RPG_GAMECORE_GRIDFIGHTSEASONTALENTCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1663C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightSeasonTalentConfigRow_TypeDefinitionIndex = 13075;
+	inline static constexpr unsigned int GridFightSeasonTalentConfigRow_TypeDefinitionIndex = 13466;
 
 	class GridFightSeasonTalentConfigRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::RPG::GameCore::FixPoint>* EffectParamList; // 0x10
-		::System::String* IconPath; // 0x18
-		::Il2CppArray<::System::UInt32>* PreTalentIDList; // 0x20
-		::System::String* JsonPath; // 0x28
-		::Il2CppArray<::System::UInt32>* NextTalentIDList; // 0x30
-		::RPG::Client::TextID EffectTitle; // 0x38
-		::RPG::Client::TextID EffectTag; // 0x48
-		::System::UInt32 SeasonID; // 0x58
-		::System::UInt32 Cost; // 0x5C
-		::RPG::Client::TextID EffectDesc; // 0x60
-		::System::UInt32 IsOCEffective; // 0x70
-		::System::UInt32 IsImportant; // 0x74
-		::System::UInt32 ID; // 0x78
+		::Il2CppArray<::System::UInt32>* PreTalentIDList; // 0x10
+		::System::String* JsonPath; // 0x18
+		::Il2CppArray<::System::UInt32>* NextTalentIDList; // 0x20
+		::Il2CppArray<::RPG::GameCore::FixPoint>* EffectParamList; // 0x28
+		::System::String* IconPath; // 0x30
+		::RPG::Client::TextID EffectTag; // 0x38
+		::System::UInt32 ID; // 0x48
+		::System::UInt32 IsImportant; // 0x4C
+		::System::UInt32 SeasonID; // 0x50
+		::System::UInt32 Cost; // 0x54
+		::RPG::Client::TextID EffectDesc; // 0x58
+		::System::UInt32 IsOCEffective; // 0x68
+		::RPG::Client::TextID EffectTitle; // 0x70
 
 		::System::Void _ctor()
 		{

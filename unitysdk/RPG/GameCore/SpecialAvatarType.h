@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SpecialAvatarType_TypeDefinitionIndex = 10053;
+	inline static constexpr unsigned int SpecialAvatarType_TypeDefinitionIndex = 10389;
 
 	enum class SpecialAvatarType : ::System::Int32
 	{

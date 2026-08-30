@@ -2,26 +2,26 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-class Class_1_FAA972067EA57B58;
+class Class_1_EF4713A962B958CD;
 namespace RPG::Client { class Wheel; }
 namespace System { class Action; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_SLOTMACHINECONTROLLER_AWAKE_OFFSET UNITYSDK_OFFSET(0xD51CAA0)
-#define RPG_CLIENT_SLOTMACHINECONTROLLER_SETTARGETNUMIMMEDIATELY_OFFSET UNITYSDK_OFFSET(0xD51CB20)
-#define RPG_CLIENT_SLOTMACHINECONTROLLER_SETTARGETNUM_OFFSET UNITYSDK_OFFSET(0xD51CB80)
-#define RPG_CLIENT_SLOTMACHINECONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0xD51CC60)
-#define RPG_CLIENT_SLOTMACHINECONTROLLER__RESETNUM_OFFSET UNITYSDK_OFFSET(0xD51CC10)
+#define RPG_CLIENT_SLOTMACHINECONTROLLER_AWAKE_OFFSET UNITYSDK_OFFSET(0xE0AC3F0)
+#define RPG_CLIENT_SLOTMACHINECONTROLLER_SETTARGETNUMIMMEDIATELY_OFFSET UNITYSDK_OFFSET(0xE0AC470)
+#define RPG_CLIENT_SLOTMACHINECONTROLLER_SETTARGETNUM_OFFSET UNITYSDK_OFFSET(0xE0AC4D0)
+#define RPG_CLIENT_SLOTMACHINECONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0xE0AC5B0)
+#define RPG_CLIENT_SLOTMACHINECONTROLLER__RESETNUM_OFFSET UNITYSDK_OFFSET(0xE0AC560)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SlotMachineController_TypeDefinitionIndex = 67601;
+	inline static constexpr unsigned int SlotMachineController_TypeDefinitionIndex = 70724;
 
 	class SlotMachineController : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		::Class_1_FAA972067EA57B58* Field_5_0; // 0x18
+		::Class_1_EF4713A962B958CD* EJCIABDHMJJ; // 0x18
 		::Il2CppArray<::RPG::Client::Wheel*>* Wheels; // 0x20
 		::System::Boolean UseOverrideUICurveData; // 0x28
 		::UnityEngine::AnimationCurve* OverrideUICurveData; // 0x30

@@ -5,18 +5,18 @@
 
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGSHOWTOASTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xC979550)
+#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGSHOWTOASTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xD4B97B0)
 
 namespace RPG::Client::LittleGame::ChenLing
 {
-	inline static constexpr unsigned int ChenLingShowToastData_TypeDefinitionIndex = 73879;
+	inline static constexpr unsigned int ChenLingShowToastData_TypeDefinitionIndex = 77363;
 
 	class ChenLingShowToastData : public ::System::Object
 	{
 	public:
 		::UnityEngine::Transform* Anchor; // 0x10
-		::RPG::Client::TextID Text; // 0x18
-		::System::Single Param; // 0x28
+		::System::Single Param; // 0x18
+		::RPG::Client::TextID Text; // 0x20
 
 		::System::Void _ctor()
 		{

@@ -2,27 +2,27 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_0C0F9366B7D3B580_2;
+class Class_1_0C0F9366B7D3B580_3;
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_ROGUEMAGICSETTLEDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD3CF270)
-#define RPG_CLIENT_ROGUEMAGICSETTLEDATA___C__CREATE_B__2_0_OFFSET UNITYSDK_OFFSET(0xD3CF2C0)
-#define RPG_CLIENT_ROGUEMAGICSETTLEDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD3CF2B0)
+#define RPG_CLIENT_ROGUEMAGICSETTLEDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xDEE89C0)
+#define RPG_CLIENT_ROGUEMAGICSETTLEDATA___C__CREATE_B__2_0_OFFSET UNITYSDK_OFFSET(0xDEE8A10)
+#define RPG_CLIENT_ROGUEMAGICSETTLEDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0xDEE8A00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueMagicSettleData___c_TypeDefinitionIndex = 64400;
+	inline static constexpr unsigned int RogueMagicSettleData___c_TypeDefinitionIndex = 67396;
 
 	class RogueMagicSettleData___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::Class_1_0C0F9366B7D3B580_2*>** StaticGet___9__2_0()
-		{
-			return (::System::Comparison_1<::Class_1_0C0F9366B7D3B580_2*>**)Il2CppClass::FromTypeDefinitionIndex(RogueMagicSettleData___c_TypeDefinitionIndex)->GetStaticField(0x26070);
-		}
 		static ::RPG::Client::RogueMagicSettleData___c** StaticGet___9()
 		{
-			return (::RPG::Client::RogueMagicSettleData___c**)Il2CppClass::FromTypeDefinitionIndex(RogueMagicSettleData___c_TypeDefinitionIndex)->GetStaticField(0x26078);
+			return (::RPG::Client::RogueMagicSettleData___c**)Il2CppClass::FromTypeDefinitionIndex(RogueMagicSettleData___c_TypeDefinitionIndex)->GetStaticField(0x5F40);
+		}
+		static ::System::Comparison_1<::Class_1_0C0F9366B7D3B580_3*>** StaticGet___9__2_0()
+		{
+			return (::System::Comparison_1<::Class_1_0C0F9366B7D3B580_3*>**)Il2CppClass::FromTypeDefinitionIndex(RogueMagicSettleData___c_TypeDefinitionIndex)->GetStaticField(0x5F48);
 		}
 
 		static ::System::Void _cctor()
@@ -35,9 +35,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMAGICSETTLEDATA___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Int32 _Create_b__2_0(::Class_1_0C0F9366B7D3B580_2* a1, ::Class_1_0C0F9366B7D3B580_2* a2)
+		::System::Int32 _Create_b__2_0(::Class_1_0C0F9366B7D3B580_3* a1, ::Class_1_0C0F9366B7D3B580_3* a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::Class_1_0C0F9366B7D3B580_2*, ::Class_1_0C0F9366B7D3B580_2*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMAGICSETTLEDATA___C__CREATE_B__2_0_OFFSET))(this, a1, a2);
+			return ((::System::Int32(*)(::PVOID, ::Class_1_0C0F9366B7D3B580_3*, ::Class_1_0C0F9366B7D3B580_3*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMAGICSETTLEDATA___C__CREATE_B__2_0_OFFSET))(this, a1, a2);
 		}
 	};
 }

@@ -5,12 +5,12 @@
 
 namespace UnityEngine { class Camera; }
 
-#define RPG_CUSTOMRP_DLSSPASS_CAMERAPARAMETERS__CTOR_1_OFFSET UNITYSDK_OFFSET(0x39EF2C0)
-#define RPG_CUSTOMRP_DLSSPASS_CAMERAPARAMETERS__CTOR_OFFSET UNITYSDK_OFFSET(0x39EF290)
+#define RPG_CUSTOMRP_DLSSPASS_CAMERAPARAMETERS__CTOR_1_OFFSET UNITYSDK_OFFSET(0x3B7F810)
+#define RPG_CUSTOMRP_DLSSPASS_CAMERAPARAMETERS__CTOR_OFFSET UNITYSDK_OFFSET(0x3B7F7E0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int DLSSPass_CameraParameters_TypeDefinitionIndex = 36006;
+	inline static constexpr unsigned int DLSSPass_CameraParameters_TypeDefinitionIndex = 36867;
 
 	struct alignas(8) DLSSPass_CameraParameters
 	{

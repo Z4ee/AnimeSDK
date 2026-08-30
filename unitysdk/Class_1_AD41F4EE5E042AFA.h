@@ -2,33 +2,33 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_1054;
+class Class_0_16E4307DCC419505_1110;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_AD41F4EE5E042AFA_METHOD_1_30BE3523CF9B739E_OFFSET UNITYSDK_OFFSET(0x151C74E0)
-#define CLASS_1_AD41F4EE5E042AFA_METHOD_1_DF1E9043A23F69A0_OFFSET UNITYSDK_OFFSET(0x151C7590)
-#define CLASS_1_AD41F4EE5E042AFA__CTOR_OFFSET UNITYSDK_OFFSET(0x151C7630)
+#define CLASS_1_AD41F4EE5E042AFA_METHOD_1_30BE3523CF9B739E_OFFSET UNITYSDK_OFFSET(0x160EE810)
+#define CLASS_1_AD41F4EE5E042AFA_METHOD_1_DF1E9043A23F69A0_OFFSET UNITYSDK_OFFSET(0x160EE8C0)
+#define CLASS_1_AD41F4EE5E042AFA__CTOR_OFFSET UNITYSDK_OFFSET(0x160EE960)
 
-inline static constexpr unsigned int Class_1_AD41F4EE5E042AFA_TypeDefinitionIndex = 68559;
+inline static constexpr unsigned int Class_1_AD41F4EE5E042AFA_TypeDefinitionIndex = 71756;
 
 class Class_1_AD41F4EE5E042AFA : public ::System::Object
 {
 public:
-	::System::Collections::Generic::Dictionary_2<::System::String*, ::Class_0_16E4307DCC419505_1054*>* Field_1_0; // 0x10
+	::System::Collections::Generic::Dictionary_2<::System::String*, ::Class_0_16E4307DCC419505_1110*>* EKCKCHEDEBI; // 0x10
 
 	::System::Void _ctor()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_AD41F4EE5E042AFA__CTOR_OFFSET))(this);
 	}
 
-	::Class_0_16E4307DCC419505_1054* Method_1_30BE3523CF9B739E(::System::String* a1)
+	::Class_0_16E4307DCC419505_1110* Method_1_30BE3523CF9B739E(::System::String* a1)
 	{
-		return ((::Class_0_16E4307DCC419505_1054*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_AD41F4EE5E042AFA_METHOD_1_30BE3523CF9B739E_OFFSET))(this, a1);
+		return ((::Class_0_16E4307DCC419505_1110*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_AD41F4EE5E042AFA_METHOD_1_30BE3523CF9B739E_OFFSET))(this, a1);
 	}
 
-	::System::Void Method_1_DF1E9043A23F69A0(::System::String* a1, ::Class_0_16E4307DCC419505_1054* a2)
+	::System::Void Method_1_DF1E9043A23F69A0(::System::String* a1, ::Class_0_16E4307DCC419505_1110* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::String*, ::Class_0_16E4307DCC419505_1054*))((::PBYTE)hIl2Cpp + CLASS_1_AD41F4EE5E042AFA_METHOD_1_DF1E9043A23F69A0_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::System::String*, ::Class_0_16E4307DCC419505_1110*))((::PBYTE)hIl2Cpp + CLASS_1_AD41F4EE5E042AFA_METHOD_1_DF1E9043A23F69A0_OFFSET))(this, a1, a2);
 	}
 };

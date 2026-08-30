@@ -6,15 +6,15 @@
 namespace RPG::GameCore { class SetDynamicValueByBreakBaseDamage; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_F46D2C629419C209_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB2DBBC0)
-#define CLASS_3_F46D2C629419C209__CTOR_OFFSET UNITYSDK_OFFSET(0xB2DBAE0)
+#define CLASS_3_F46D2C629419C209_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBCC2990)
+#define CLASS_3_F46D2C629419C209__CTOR_OFFSET UNITYSDK_OFFSET(0xBCC28B0)
 
-inline static constexpr unsigned int Class_3_F46D2C629419C209_TypeDefinitionIndex = 52907;
+inline static constexpr unsigned int Class_3_F46D2C629419C209_TypeDefinitionIndex = 55610;
 
 class Class_3_F46D2C629419C209 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetDynamicValueByBreakBaseDamage*>
 {
 public:
-	::RPG::GameCore::StringHash Field_3_0; // 0x28
+	::RPG::GameCore::StringHash DIJHOMCLPEG; // 0x28
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SetDynamicValueByBreakBaseDamage* a2)
 	{

@@ -7,14 +7,14 @@ namespace RPG::Client { class CommonEffectMaterialBlockOne; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Texture2D; }
 
-#define RPG_CLIENT_MONOEFFECTPLUGINSCENEDISSOLVE_METHOD_8_0BDFAC56E6B704CB_OFFSET UNITYSDK_OFFSET(0xCCC6AA0)
-#define RPG_CLIENT_MONOEFFECTPLUGINSCENEDISSOLVE_METHOD_8_BADDA70ED68283AE_OFFSET UNITYSDK_OFFSET(0xCCC5ED0)
-#define RPG_CLIENT_MONOEFFECTPLUGINSCENEDISSOLVE_METHOD_8_C38AA259F0B46320_OFFSET UNITYSDK_OFFSET(0xCCC6720)
-#define RPG_CLIENT_MONOEFFECTPLUGINSCENEDISSOLVE__CTOR_OFFSET UNITYSDK_OFFSET(0xCCC6B30)
+#define RPG_CLIENT_MONOEFFECTPLUGINSCENEDISSOLVE_METHOD_8_0BDFAC56E6B704CB_OFFSET UNITYSDK_OFFSET(0xD7C7860)
+#define RPG_CLIENT_MONOEFFECTPLUGINSCENEDISSOLVE_METHOD_8_A91086AED8314DB5_OFFSET UNITYSDK_OFFSET(0xD7C6CC0)
+#define RPG_CLIENT_MONOEFFECTPLUGINSCENEDISSOLVE_METHOD_8_C38AA259F0B46320_OFFSET UNITYSDK_OFFSET(0xD7C74E0)
+#define RPG_CLIENT_MONOEFFECTPLUGINSCENEDISSOLVE__CTOR_OFFSET UNITYSDK_OFFSET(0xD7C78F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginSceneDissolve_TypeDefinitionIndex = 66878;
+	inline static constexpr unsigned int MonoEffectPluginSceneDissolve_TypeDefinitionIndex = 69980;
 
 	class MonoEffectPluginSceneDissolve : public ::RPG::Client::MonoEffectPluginCharaReplaceMatBase
 	{
@@ -28,16 +28,16 @@ namespace RPG::Client
 		::UnityEngine::Color _DissolveEmissionColor; // 0x188
 		::UnityEngine::Texture2D* _DissolveMap; // 0x198
 		::UnityEngine::Texture2D* _DissolveRangeMap; // 0x1A0
-		::System::Collections::Generic::List_1<::RPG::Client::CommonEffectMaterialBlockOne*>* Field_8_9; // 0x1A8
+		::System::Collections::Generic::List_1<::RPG::Client::CommonEffectMaterialBlockOne*>* DEOKAPMPABA; // 0x1A8
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINSCENEDISSOLVE__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Method_8_BADDA70ED68283AE()
+		::System::Void Method_8_A91086AED8314DB5()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINSCENEDISSOLVE_METHOD_8_BADDA70ED68283AE_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINSCENEDISSOLVE_METHOD_8_A91086AED8314DB5_OFFSET))(this);
 		}
 
 		::System::Void Method_8_C38AA259F0B46320()

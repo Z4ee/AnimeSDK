@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ForceBlockType_TypeDefinitionIndex = 23571;
+	inline static constexpr unsigned int ForceBlockType_TypeDefinitionIndex = 24156;
 
 	enum class ForceBlockType : ::System::Int32
 	{

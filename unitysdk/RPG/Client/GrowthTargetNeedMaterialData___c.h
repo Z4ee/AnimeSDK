@@ -5,24 +5,24 @@
 namespace RPG::GameCore { class ItemConfig; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_GROWTHTARGETNEEDMATERIALDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC86DE10)
-#define RPG_CLIENT_GROWTHTARGETNEEDMATERIALDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC86DE50)
-#define RPG_CLIENT_GROWTHTARGETNEEDMATERIALDATA___C___ENSURECOMPOSEMATERIALMAP_B__8_0_OFFSET UNITYSDK_OFFSET(0xC86DE60)
+#define RPG_CLIENT_GROWTHTARGETNEEDMATERIALDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD389C30)
+#define RPG_CLIENT_GROWTHTARGETNEEDMATERIALDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD389C70)
+#define RPG_CLIENT_GROWTHTARGETNEEDMATERIALDATA___C___ENSURECOMPOSEMATERIALMAP_B__8_0_OFFSET UNITYSDK_OFFSET(0xD389C80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GrowthTargetNeedMaterialData___c_TypeDefinitionIndex = 62682;
+	inline static constexpr unsigned int GrowthTargetNeedMaterialData___c_TypeDefinitionIndex = 65667;
 
 	class GrowthTargetNeedMaterialData___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::GrowthTargetNeedMaterialData___c** StaticGet___9()
-		{
-			return (::RPG::Client::GrowthTargetNeedMaterialData___c**)Il2CppClass::FromTypeDefinitionIndex(GrowthTargetNeedMaterialData___c_TypeDefinitionIndex)->GetStaticField(0x2FE10);
-		}
 		static ::System::Func_2<::RPG::GameCore::ItemConfig*, ::System::UInt32>** StaticGet___9__8_0()
 		{
-			return (::System::Func_2<::RPG::GameCore::ItemConfig*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(GrowthTargetNeedMaterialData___c_TypeDefinitionIndex)->GetStaticField(0x2FE18);
+			return (::System::Func_2<::RPG::GameCore::ItemConfig*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(GrowthTargetNeedMaterialData___c_TypeDefinitionIndex)->GetStaticField(0x564D0);
+		}
+		static ::RPG::Client::GrowthTargetNeedMaterialData___c** StaticGet___9()
+		{
+			return (::RPG::Client::GrowthTargetNeedMaterialData___c**)Il2CppClass::FromTypeDefinitionIndex(GrowthTargetNeedMaterialData___c_TypeDefinitionIndex)->GetStaticField(0x564D8);
 		}
 
 		static ::System::Void _cctor()

@@ -8,13 +8,13 @@ namespace RPG::GameCore { class DamageDisplayData; }
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_HEALHP_METHOD_3_2F18079C1806E281_OFFSET UNITYSDK_OFFSET(0x1B501160)
-#define RPG_GAMECORE_HEALHP_METHOD_3_B34B766605EA2678_OFFSET UNITYSDK_OFFSET(0x1B501440)
-#define RPG_GAMECORE_HEALHP__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5012E0)
+#define RPG_GAMECORE_HEALHP_METHOD_3_2F18079C1806E281_OFFSET UNITYSDK_OFFSET(0x1D17A980)
+#define RPG_GAMECORE_HEALHP_METHOD_3_B34B766605EA2678_OFFSET UNITYSDK_OFFSET(0x1D17AC60)
+#define RPG_GAMECORE_HEALHP__CTOR_OFFSET UNITYSDK_OFFSET(0x1D17AB00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HealHP_TypeDefinitionIndex = 21810;
+	inline static constexpr unsigned int HealHP_TypeDefinitionIndex = 22374;
 
 	class HealHP : public ::RPG::GameCore::TaskConfig
 	{

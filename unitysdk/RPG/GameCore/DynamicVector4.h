@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define RPG_GAMECORE_DYNAMICVECTOR4_METHOD_2_3211940520E359B5_OFFSET UNITYSDK_OFFSET(0x1B3D26B0)
-#define RPG_GAMECORE_DYNAMICVECTOR4__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3D2910)
+#define RPG_GAMECORE_DYNAMICVECTOR4_METHOD_2_3211940520E359B5_OFFSET UNITYSDK_OFFSET(0x1D050980)
+#define RPG_GAMECORE_DYNAMICVECTOR4__CTOR_OFFSET UNITYSDK_OFFSET(0x1D050BE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DynamicVector4_TypeDefinitionIndex = 22993;
+	inline static constexpr unsigned int DynamicVector4_TypeDefinitionIndex = 23573;
 
 	class DynamicVector4 : public ::RPG::GameCore::JsonConfig
 	{

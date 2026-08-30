@@ -6,15 +6,15 @@
 
 namespace UnityEngine { class Camera; }
 
-#define RPG_CUSTOMRP_MONOEFFECTLOGINCAMERACONTROL_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xD8CD940)
-#define RPG_CUSTOMRP_MONOEFFECTLOGINCAMERACONTROL_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xD8CDBF0)
-#define RPG_CUSTOMRP_MONOEFFECTLOGINCAMERACONTROL_START_OFFSET UNITYSDK_OFFSET(0xD8CD250)
-#define RPG_CUSTOMRP_MONOEFFECTLOGINCAMERACONTROL_UPDATE_OFFSET UNITYSDK_OFFSET(0xD8CD330)
-#define RPG_CUSTOMRP_MONOEFFECTLOGINCAMERACONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0xD8CDDE0)
+#define RPG_CUSTOMRP_MONOEFFECTLOGINCAMERACONTROL_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xE448850)
+#define RPG_CUSTOMRP_MONOEFFECTLOGINCAMERACONTROL_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xE448B00)
+#define RPG_CUSTOMRP_MONOEFFECTLOGINCAMERACONTROL_START_OFFSET UNITYSDK_OFFSET(0xE448160)
+#define RPG_CUSTOMRP_MONOEFFECTLOGINCAMERACONTROL_UPDATE_OFFSET UNITYSDK_OFFSET(0xE448240)
+#define RPG_CUSTOMRP_MONOEFFECTLOGINCAMERACONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0xE448CF0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int MonoEffectLoginCameraControl_TypeDefinitionIndex = 49472;
+	inline static constexpr unsigned int MonoEffectLoginCameraControl_TypeDefinitionIndex = 52130;
 
 	class MonoEffectLoginCameraControl : public ::UnityEngine::MonoBehaviour
 	{
@@ -26,11 +26,11 @@ namespace RPG::CustomRP
 		::System::Single blurCenterX; // 0x2C
 		::System::Single blurCenterY; // 0x30
 		::System::Int32 blurIteration; // 0x34
-		::System::Boolean Field_5_7; // 0x38
-		::UnityEngine::Vector3 Field_5_8; // 0x3C
-		::UnityEngine::Quaternion Field_5_9; // 0x48
-		::System::Single Field_5_10; // 0x58
-		::System::Int32 Field_5_11; // 0x5C
+		::System::Boolean CPMJGCJEINF; // 0x38
+		::UnityEngine::Vector3 FILFKDALEPE; // 0x3C
+		::UnityEngine::Quaternion NIDAPHBEMDE; // 0x48
+		::System::Single JFCHGLCALCN; // 0x58
+		::System::Int32 DGKKJKCCLBL; // 0x5C
 
 		::System::Void _ctor()
 		{

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ConsumeActionCountDown; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_11F3F93308467D17_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB026170)
-#define CLASS_3_11F3F93308467D17__CTOR_OFFSET UNITYSDK_OFFSET(0xB026140)
+#define CLASS_3_11F3F93308467D17_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB9E35B0)
+#define CLASS_3_11F3F93308467D17__CTOR_OFFSET UNITYSDK_OFFSET(0xB9E3580)
 
-inline static constexpr unsigned int Class_3_11F3F93308467D17_TypeDefinitionIndex = 52316;
+inline static constexpr unsigned int Class_3_11F3F93308467D17_TypeDefinitionIndex = 55006;
 
 class Class_3_11F3F93308467D17 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ConsumeActionCountDown*>
 {

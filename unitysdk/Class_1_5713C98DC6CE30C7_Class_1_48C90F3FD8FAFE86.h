@@ -9,27 +9,27 @@ namespace RPG::GameCore { class TransformComponent; }
 namespace System { class String; }
 namespace UnityEngine { class Animator; }
 
-#define CLASS_1_5713C98DC6CE30C7_CLASS_1_48C90F3FD8FAFE86_METHOD_1_23286C4E1BC884C6_OFFSET UNITYSDK_OFFSET(0x154726C0)
-#define CLASS_1_5713C98DC6CE30C7_CLASS_1_48C90F3FD8FAFE86_METHOD_1_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x15471F40)
-#define CLASS_1_5713C98DC6CE30C7_CLASS_1_48C90F3FD8FAFE86__CTOR_OFFSET UNITYSDK_OFFSET(0x15472230)
+#define CLASS_1_5713C98DC6CE30C7_CLASS_1_48C90F3FD8FAFE86_METHOD_1_23286C4E1BC884C6_OFFSET UNITYSDK_OFFSET(0x163BD420)
+#define CLASS_1_5713C98DC6CE30C7_CLASS_1_48C90F3FD8FAFE86_METHOD_1_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x163BCCA0)
+#define CLASS_1_5713C98DC6CE30C7_CLASS_1_48C90F3FD8FAFE86__CTOR_OFFSET UNITYSDK_OFFSET(0x163BCF90)
 
-inline static constexpr unsigned int Class_1_5713C98DC6CE30C7_Class_1_48C90F3FD8FAFE86_TypeDefinitionIndex = 57501;
+inline static constexpr unsigned int Class_1_5713C98DC6CE30C7_Class_1_48C90F3FD8FAFE86_TypeDefinitionIndex = 60318;
 
 class Class_1_5713C98DC6CE30C7_Class_1_48C90F3FD8FAFE86 : public ::System::Object
 {
 public:
-	::System::String* Field_1_0; // 0x10
-	::RPG::GameCore::TransformComponent* Field_1_1; // 0x18
-	::UnityEngine::Animator* Field_1_2; // 0x20
-	::RPG::GameCore::GameEntity* Field_1_3; // 0x28
-	::System::UInt32 Field_1_4; // 0x30
-	::System::Boolean Field_1_5; // 0x34
-	::RPG::Client::Prop::MusicRhythmPropType Field_1_6; // 0x38
-	::System::UInt32 Field_1_7; // 0x3C
-	::System::Single Field_1_8; // 0x40
-	::System::UInt32 Field_1_9; // 0x44
-	::UnityEngine::Vector3 Field_1_10; // 0x48
-	::System::UInt32 Field_1_11; // 0x54
+	::RPG::GameCore::GameEntity* EOBLJJBOBIN; // 0x10
+	::System::String* OENAMINOLLF; // 0x18
+	::RPG::GameCore::TransformComponent* BKLBJFJHOLF; // 0x20
+	::UnityEngine::Animator* FOPCFKFAGPM; // 0x28
+	::System::Boolean CAGCHKJHMPD; // 0x30
+	::System::UInt32 EMNLCPDHLFF; // 0x34
+	::UnityEngine::Vector3 EDLHLKAFDFA; // 0x38
+	::RPG::Client::Prop::MusicRhythmPropType GMPGDEINODK; // 0x44
+	::System::UInt32 DOLFIMKHDPI; // 0x48
+	::System::Single EBDMPMAPMOB; // 0x4C
+	::System::UInt32 AMMPNOLLCIN; // 0x50
+	::System::UInt32 DJHILJPDNPP; // 0x54
 
 	::System::Void _ctor()
 	{

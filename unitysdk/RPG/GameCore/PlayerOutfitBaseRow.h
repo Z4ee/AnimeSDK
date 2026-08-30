@@ -5,19 +5,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_PLAYEROUTFITBASEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B6CF2B0)
-#define RPG_GAMECORE_PLAYEROUTFITBASEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6CF400)
+#define RPG_GAMECORE_PLAYEROUTFITBASEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3511D0)
+#define RPG_GAMECORE_PLAYEROUTFITBASEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D351320)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlayerOutfitBaseRow_TypeDefinitionIndex = 13926;
+	inline static constexpr unsigned int PlayerOutfitBaseRow_TypeDefinitionIndex = 14344;
 
 	class PlayerOutfitBaseRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::RPG::GameCore::PlayerOutfitSlotType>* SlotTypeList; // 0x10
-		::System::UInt32 OutfitID; // 0x18
-		::System::UInt32 ItemID; // 0x1C
+		::System::UInt32 ItemID; // 0x18
+		::System::UInt32 OutfitID; // 0x1C
 
 		::System::Void _ctor()
 		{

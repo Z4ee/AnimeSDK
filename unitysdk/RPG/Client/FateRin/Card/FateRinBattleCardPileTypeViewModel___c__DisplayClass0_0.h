@@ -4,24 +4,24 @@
 #include "unitysdk/RPG/GameCore/FateRinHouguOwnerType.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_1289;
-class Class_0_16E4307DCC419505_1290;
-class Class_1_F4140148FE9021F9;
+class Class_0_16E4307DCC419505_1370;
+class Class_0_16E4307DCC419505_1371;
+class Class_1_426391BD841CEF9C;
 namespace RPG::Client::FateRin::Card { class IFateRinBattleCardPileSectionViewModel; }
 
-#define RPG_CLIENT_FATERIN_CARD_FATERINBATTLECARDPILETYPEVIEWMODEL___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC4A9C70)
-#define RPG_CLIENT_FATERIN_CARD_FATERINBATTLECARDPILETYPEVIEWMODEL___C__DISPLAYCLASS0_0___CTOR_B__1_OFFSET UNITYSDK_OFFSET(0xC4AA0C0)
+#define RPG_CLIENT_FATERIN_CARD_FATERINBATTLECARDPILETYPEVIEWMODEL___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCFDE8B0)
+#define RPG_CLIENT_FATERIN_CARD_FATERINBATTLECARDPILETYPEVIEWMODEL___C__DISPLAYCLASS0_0___CTOR_B__1_OFFSET UNITYSDK_OFFSET(0xCFDED20)
 
 namespace RPG::Client::FateRin::Card
 {
-	inline static constexpr unsigned int FateRinBattleCardPileTypeViewModel___c__DisplayClass0_0_TypeDefinitionIndex = 76165;
+	inline static constexpr unsigned int FateRinBattleCardPileTypeViewModel___c__DisplayClass0_0_TypeDefinitionIndex = 79798;
 
 	class FateRinBattleCardPileTypeViewModel___c__DisplayClass0_0 : public ::System::Object
 	{
 	public:
-		::Class_0_16E4307DCC419505_1290* cardVmFactory; // 0x10
-		::Class_0_16E4307DCC419505_1289* ownerFactory; // 0x18
-		::Class_1_F4140148FE9021F9* cardGameModel; // 0x20
+		::Class_1_426391BD841CEF9C* cardGameModel; // 0x10
+		::Class_0_16E4307DCC419505_1371* cardVmFactory; // 0x18
+		::Class_0_16E4307DCC419505_1370* ownerFactory; // 0x20
 		::RPG::Client::FateRin::Card::FateRinBattleCardPileType type; // 0x28
 
 		::System::Void _ctor()

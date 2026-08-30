@@ -9,24 +9,24 @@ namespace RPG::Client::PixAir { class PixAirGameProgressControl; }
 namespace RPG::Client::PixAir { class PixAirPrepareContentControl; }
 namespace UnityEngine::UI { class Button; }
 
-#define RPG_CLIENT_PIXAIR_PIXAIRGAMEPREPAREWINDOW_GET__VIEWMODEL_OFFSET UNITYSDK_OFFSET(0xCFC5B60)
-#define RPG_CLIENT_PIXAIR_PIXAIRGAMEPREPAREWINDOW__CTOR_OFFSET UNITYSDK_OFFSET(0xCFC53F0)
-#define RPG_CLIENT_PIXAIR_PIXAIRGAMEPREPAREWINDOW__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0xCFC56F0)
-#define RPG_CLIENT_PIXAIR_PIXAIRGAMEPREPAREWINDOW__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0xCFC54D0)
+#define RPG_CLIENT_PIXAIR_PIXAIRGAMEPREPAREWINDOW_GET__VIEWMODEL_OFFSET UNITYSDK_OFFSET(0xDB04D30)
+#define RPG_CLIENT_PIXAIR_PIXAIRGAMEPREPAREWINDOW__CTOR_OFFSET UNITYSDK_OFFSET(0xDB04670)
+#define RPG_CLIENT_PIXAIR_PIXAIRGAMEPREPAREWINDOW__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0xDB04950)
+#define RPG_CLIENT_PIXAIR_PIXAIRGAMEPREPAREWINDOW__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0xDB04730)
 
 namespace RPG::Client::PixAir
 {
-	inline static constexpr unsigned int PixAirGamePrepareWindow_TypeDefinitionIndex = 75204;
+	inline static constexpr unsigned int PixAirGamePrepareWindow_TypeDefinitionIndex = 78751;
 
 	class PixAirGamePrepareWindow : public ::Sofa::BaseSofaWindow
 	{
 	public:
-		::UnityEngine::UI::Button* _BtnClose; // 0x40
-		::RPG::Client::PixAir::PixAirGameProgressControl* _ProgressControl; // 0x48
-		::RPG::Client::PixAir::PixAirGameEquipListControl* _EquipListControl; // 0x50
-		::Class_1_5F4D64A4B97E38F9* _Messenger; // 0x58
-		::UnityEngine::UI::Button* _BtnSwitch; // 0x60
-		::RPG::Client::PixAir::PixAirPrepareContentControl* _ContentControl; // 0x68
+		::Class_1_5F4D64A4B97E38F9* _Messenger; // 0x48
+		::RPG::Client::PixAir::PixAirPrepareContentControl* _ContentControl; // 0x50
+		::RPG::Client::PixAir::PixAirGameEquipListControl* _EquipListControl; // 0x58
+		::RPG::Client::PixAir::PixAirGameProgressControl* _ProgressControl; // 0x60
+		::UnityEngine::UI::Button* _BtnClose; // 0x68
+		::UnityEngine::UI::Button* _BtnSwitch; // 0x70
 
 		::System::Void _ctor(::RPG::Client::PixAir::PixAirGamePrepareViewModel* a1, ::Class_1_5F4D64A4B97E38F9* a2)
 		{

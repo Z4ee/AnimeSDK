@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByCompareSwitchHandGestureType; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_E6AAF1A5CCFFB793_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB2A2920)
-#define CLASS_3_E6AAF1A5CCFFB793__CTOR_OFFSET UNITYSDK_OFFSET(0xB2A28F0)
+#define CLASS_3_E6AAF1A5CCFFB793_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBC82250)
+#define CLASS_3_E6AAF1A5CCFFB793__CTOR_OFFSET UNITYSDK_OFFSET(0xBC82220)
 
-inline static constexpr unsigned int Class_3_E6AAF1A5CCFFB793_TypeDefinitionIndex = 50713;
+inline static constexpr unsigned int Class_3_E6AAF1A5CCFFB793_TypeDefinitionIndex = 53395;
 
 class Class_3_E6AAF1A5CCFFB793 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByCompareSwitchHandGestureType*>
 {

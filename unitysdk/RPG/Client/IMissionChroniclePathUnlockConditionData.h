@@ -5,7 +5,7 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IMissionChroniclePathUnlockConditionData_TypeDefinitionIndex = 63171;
+	inline static constexpr unsigned int IMissionChroniclePathUnlockConditionData_TypeDefinitionIndex = 66156;
 
 	class IMissionChroniclePathUnlockConditionData
 	{

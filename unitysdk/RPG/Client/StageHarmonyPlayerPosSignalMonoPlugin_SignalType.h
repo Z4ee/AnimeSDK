@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int StageHarmonyPlayerPosSignalMonoPlugin_SignalType_TypeDefinitionIndex = 67770;
+	inline static constexpr unsigned int StageHarmonyPlayerPosSignalMonoPlugin_SignalType_TypeDefinitionIndex = 70938;
 
 	enum class StageHarmonyPlayerPosSignalMonoPlugin_SignalType : ::System::Int32
 	{

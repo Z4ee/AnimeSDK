@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ALLEYREWARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B19CBE0)
-#define RPG_GAMECORE_ALLEYREWARDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B19D190)
+#define RPG_GAMECORE_ALLEYREWARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CE13FD0)
+#define RPG_GAMECORE_ALLEYREWARDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE14580)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AlleyRewardRow_TypeDefinitionIndex = 12150;
+	inline static constexpr unsigned int AlleyRewardRow_TypeDefinitionIndex = 12539;
 
 	class AlleyRewardRow : public ::System::Object
 	{

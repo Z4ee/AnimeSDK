@@ -6,29 +6,29 @@ class Class_1_B3CB0277F28E93FA;
 namespace RPG::Client::FateRin::Card { class FateRinCardKeywordViewModel; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_FATERIN_CARD_FATERINCARDKEYWORDLISTVIEWMODEL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC4ADD30)
-#define RPG_CLIENT_FATERIN_CARD_FATERINCARDKEYWORDLISTVIEWMODEL___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC4ADD70)
-#define RPG_CLIENT_FATERIN_CARD_FATERINCARDKEYWORDLISTVIEWMODEL___C___CTOR_B__0_0_OFFSET UNITYSDK_OFFSET(0xC4ADD80)
-#define RPG_CLIENT_FATERIN_CARD_FATERINCARDKEYWORDLISTVIEWMODEL___C___CTOR_B__0_1_OFFSET UNITYSDK_OFFSET(0xC4ADDA0)
+#define RPG_CLIENT_FATERIN_CARD_FATERINCARDKEYWORDLISTVIEWMODEL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xCFE2CF0)
+#define RPG_CLIENT_FATERIN_CARD_FATERINCARDKEYWORDLISTVIEWMODEL___C__CTOR_OFFSET UNITYSDK_OFFSET(0xCFE2D30)
+#define RPG_CLIENT_FATERIN_CARD_FATERINCARDKEYWORDLISTVIEWMODEL___C___CTOR_B__0_0_OFFSET UNITYSDK_OFFSET(0xCFE2D40)
+#define RPG_CLIENT_FATERIN_CARD_FATERINCARDKEYWORDLISTVIEWMODEL___C___CTOR_B__0_1_OFFSET UNITYSDK_OFFSET(0xCFE2D60)
 
 namespace RPG::Client::FateRin::Card
 {
-	inline static constexpr unsigned int FateRinCardKeywordListViewModel___c_TypeDefinitionIndex = 76184;
+	inline static constexpr unsigned int FateRinCardKeywordListViewModel___c_TypeDefinitionIndex = 79817;
 
 	class FateRinCardKeywordListViewModel___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::FateRin::Card::FateRinCardKeywordListViewModel___c** StaticGet___9()
+		static ::System::Func_2<::Class_1_B3CB0277F28E93FA*, ::System::Boolean>** StaticGet___9__0_0()
 		{
-			return (::RPG::Client::FateRin::Card::FateRinCardKeywordListViewModel___c**)Il2CppClass::FromTypeDefinitionIndex(FateRinCardKeywordListViewModel___c_TypeDefinitionIndex)->GetStaticField(0x9B70);
+			return (::System::Func_2<::Class_1_B3CB0277F28E93FA*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(FateRinCardKeywordListViewModel___c_TypeDefinitionIndex)->GetStaticField(0x3450);
 		}
 		static ::System::Func_2<::Class_1_B3CB0277F28E93FA*, ::RPG::Client::FateRin::Card::FateRinCardKeywordViewModel*>** StaticGet___9__0_1()
 		{
-			return (::System::Func_2<::Class_1_B3CB0277F28E93FA*, ::RPG::Client::FateRin::Card::FateRinCardKeywordViewModel*>**)Il2CppClass::FromTypeDefinitionIndex(FateRinCardKeywordListViewModel___c_TypeDefinitionIndex)->GetStaticField(0x9B78);
+			return (::System::Func_2<::Class_1_B3CB0277F28E93FA*, ::RPG::Client::FateRin::Card::FateRinCardKeywordViewModel*>**)Il2CppClass::FromTypeDefinitionIndex(FateRinCardKeywordListViewModel___c_TypeDefinitionIndex)->GetStaticField(0x3458);
 		}
-		static ::System::Func_2<::Class_1_B3CB0277F28E93FA*, ::System::Boolean>** StaticGet___9__0_0()
+		static ::RPG::Client::FateRin::Card::FateRinCardKeywordListViewModel___c** StaticGet___9()
 		{
-			return (::System::Func_2<::Class_1_B3CB0277F28E93FA*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(FateRinCardKeywordListViewModel___c_TypeDefinitionIndex)->GetStaticField(0x9B80);
+			return (::RPG::Client::FateRin::Card::FateRinCardKeywordListViewModel___c**)Il2CppClass::FromTypeDefinitionIndex(FateRinCardKeywordListViewModel___c_TypeDefinitionIndex)->GetStaticField(0x3460);
 		}
 
 		static ::System::Void _cctor()

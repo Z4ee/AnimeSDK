@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-namespace RPG::Client { class ChessRogueBoardCellDataItem; }
+class Class_0_16E4307DCC419505_855;
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_865_TypeDefinitionIndex = 63930;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_865_TypeDefinitionIndex = 64804;
 
 class Class_0_16E4307DCC419505_865
 {

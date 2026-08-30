@@ -5,7 +5,7 @@
 #include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_795;
+class Class_0_16E4307DCC419505_846;
 namespace RPG::Client { class FindChestModule; }
 namespace RPG::Client { class MapDef; }
 namespace RPG::GameCore { class ChestGroupPropertyRow; }
@@ -14,36 +14,36 @@ namespace RPG::GameCore { class RuntimeGroupInfo; }
 namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 
-#define RPG_CLIENT_FINDCHESTMODULE___GETVALIDCHESTS_D__16_MOVENEXT_OFFSET UNITYSDK_OFFSET(0xC5E25A0)
-#define RPG_CLIENT_FINDCHESTMODULE___GETVALIDCHESTS_D__16_SYSTEM_COLLECTIONS_GENERIC_IENUMERABLE_RPG_CLIENT_ICHESTDATA__GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0xC5E2EC0)
-#define RPG_CLIENT_FINDCHESTMODULE___GETVALIDCHESTS_D__16_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_RPG_CLIENT_ICHESTDATA__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xC5E2E50)
-#define RPG_CLIENT_FINDCHESTMODULE___GETVALIDCHESTS_D__16_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0xC5E2F70)
-#define RPG_CLIENT_FINDCHESTMODULE___GETVALIDCHESTS_D__16_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xC5E2EB0)
-#define RPG_CLIENT_FINDCHESTMODULE___GETVALIDCHESTS_D__16_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0xC5E2E60)
-#define RPG_CLIENT_FINDCHESTMODULE___GETVALIDCHESTS_D__16_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC5E2430)
-#define RPG_CLIENT_FINDCHESTMODULE___GETVALIDCHESTS_D__16__CTOR_OFFSET UNITYSDK_OFFSET(0xC5E1880)
-#define RPG_CLIENT_FINDCHESTMODULE___GETVALIDCHESTS_D__16___M__FINALLY1_OFFSET UNITYSDK_OFFSET(0xC5E2480)
-#define RPG_CLIENT_FINDCHESTMODULE___GETVALIDCHESTS_D__16___M__FINALLY2_OFFSET UNITYSDK_OFFSET(0xC5E2580)
+#define RPG_CLIENT_FINDCHESTMODULE___GETVALIDCHESTS_D__16_MOVENEXT_OFFSET UNITYSDK_OFFSET(0xD065950)
+#define RPG_CLIENT_FINDCHESTMODULE___GETVALIDCHESTS_D__16_SYSTEM_COLLECTIONS_GENERIC_IENUMERABLE_RPG_CLIENT_ICHESTDATA__GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0xD066270)
+#define RPG_CLIENT_FINDCHESTMODULE___GETVALIDCHESTS_D__16_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_RPG_CLIENT_ICHESTDATA__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xD066200)
+#define RPG_CLIENT_FINDCHESTMODULE___GETVALIDCHESTS_D__16_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0xD066310)
+#define RPG_CLIENT_FINDCHESTMODULE___GETVALIDCHESTS_D__16_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xD066260)
+#define RPG_CLIENT_FINDCHESTMODULE___GETVALIDCHESTS_D__16_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0xD066210)
+#define RPG_CLIENT_FINDCHESTMODULE___GETVALIDCHESTS_D__16_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xD0657E0)
+#define RPG_CLIENT_FINDCHESTMODULE___GETVALIDCHESTS_D__16__CTOR_OFFSET UNITYSDK_OFFSET(0xD064C30)
+#define RPG_CLIENT_FINDCHESTMODULE___GETVALIDCHESTS_D__16___M__FINALLY1_OFFSET UNITYSDK_OFFSET(0xD065830)
+#define RPG_CLIENT_FINDCHESTMODULE___GETVALIDCHESTS_D__16___M__FINALLY2_OFFSET UNITYSDK_OFFSET(0xD065930)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FindChestModule___GetValidChests_d__16_TypeDefinitionIndex = 61284;
+	inline static constexpr unsigned int FindChestModule___GetValidChests_d__16_TypeDefinitionIndex = 64265;
 
 	class FindChestModule___GetValidChests_d__16 : public ::System::Object
 	{
 	public:
-		::RPG::Client::MapDef* __3__mapDef; // 0x10
-		::RPG::GameCore::FindChestFuncDataRow* findChestRow; // 0x18
-		::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::GameCore::RuntimeGroupInfo*>>* _iter_5__2; // 0x20
-		::RPG::GameCore::RuntimeGroupInfo* _groupInfo_5__3; // 0x28
-		::Class_0_16E4307DCC419505_795* __2__current; // 0x30
-		::RPG::Client::MapDef* mapDef; // 0x38
+		::RPG::GameCore::FindChestFuncDataRow* findChestRow; // 0x10
+		::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::GameCore::RuntimeGroupInfo*>>* _iter_5__2; // 0x18
+		::RPG::GameCore::RuntimeGroupInfo* _groupInfo_5__3; // 0x20
+		::RPG::Client::FindChestModule* __4__this; // 0x28
+		::RPG::GameCore::FindChestFuncDataRow* __3__findChestRow; // 0x30
+		::RPG::Client::MapDef* __3__mapDef; // 0x38
 		::RPG::GameCore::FixEnumerator_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ChestGroupPropertyRow*> _itor_5__5; // 0x40
-		::RPG::Client::FindChestModule* __4__this; // 0x80
-		::RPG::GameCore::FindChestFuncDataRow* __3__findChestRow; // 0x88
-		::System::Int32 __l__initialThreadId; // 0x90
-		::System::Int32 __1__state; // 0x94
-		::System::Int32 _i_5__4; // 0x98
+		::Class_0_16E4307DCC419505_846* __2__current; // 0x80
+		::RPG::Client::MapDef* mapDef; // 0x88
+		::System::Int32 __1__state; // 0x90
+		::System::Int32 _i_5__4; // 0x94
+		::System::Int32 __l__initialThreadId; // 0x98
 
 		::System::Void _ctor(::System::Int32 a1)
 		{
@@ -70,9 +70,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FINDCHESTMODULE___GETVALIDCHESTS_D__16___M__FINALLY2_OFFSET))(this);
 		}
 
-		::Class_0_16E4307DCC419505_795* System_Collections_Generic_IEnumerator_RPG_Client_IChestData__get_Current()
+		::Class_0_16E4307DCC419505_846* System_Collections_Generic_IEnumerator_RPG_Client_IChestData__get_Current()
 		{
-			return ((::Class_0_16E4307DCC419505_795*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FINDCHESTMODULE___GETVALIDCHESTS_D__16_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_RPG_CLIENT_ICHESTDATA__GET_CURRENT_OFFSET))(this);
+			return ((::Class_0_16E4307DCC419505_846*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FINDCHESTMODULE___GETVALIDCHESTS_D__16_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_RPG_CLIENT_ICHESTDATA__GET_CURRENT_OFFSET))(this);
 		}
 
 		::System::Void System_Collections_IEnumerator_Reset()
@@ -85,9 +85,9 @@ namespace RPG::Client
 			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FINDCHESTMODULE___GETVALIDCHESTS_D__16_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::IEnumerator_1<::Class_0_16E4307DCC419505_795*>* System_Collections_Generic_IEnumerable_RPG_Client_IChestData__GetEnumerator()
+		::System::Collections::Generic::IEnumerator_1<::Class_0_16E4307DCC419505_846*>* System_Collections_Generic_IEnumerable_RPG_Client_IChestData__GetEnumerator()
 		{
-			return ((::System::Collections::Generic::IEnumerator_1<::Class_0_16E4307DCC419505_795*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FINDCHESTMODULE___GETVALIDCHESTS_D__16_SYSTEM_COLLECTIONS_GENERIC_IENUMERABLE_RPG_CLIENT_ICHESTDATA__GETENUMERATOR_OFFSET))(this);
+			return ((::System::Collections::Generic::IEnumerator_1<::Class_0_16E4307DCC419505_846*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FINDCHESTMODULE___GETVALIDCHESTS_D__16_SYSTEM_COLLECTIONS_GENERIC_IENUMERABLE_RPG_CLIENT_ICHESTDATA__GETENUMERATOR_OFFSET))(this);
 		}
 
 		::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator()

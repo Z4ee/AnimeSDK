@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LoopGenerator_TrackMode_TypeDefinitionIndex = 69649;
+	inline static constexpr unsigned int LoopGenerator_TrackMode_TypeDefinitionIndex = 72888;
 
 	enum class LoopGenerator_TrackMode : ::System::Int32
 	{

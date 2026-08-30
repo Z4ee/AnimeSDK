@@ -5,21 +5,21 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_AVATARPATHITEMTRANSFERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B1CB5B0)
-#define RPG_GAMECORE_AVATARPATHITEMTRANSFERROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1CB840)
+#define RPG_GAMECORE_AVATARPATHITEMTRANSFERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CE42AA0)
+#define RPG_GAMECORE_AVATARPATHITEMTRANSFERROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE42D30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AvatarPathItemTransferRow_TypeDefinitionIndex = 12322;
+	inline static constexpr unsigned int AvatarPathItemTransferRow_TypeDefinitionIndex = 12711;
 
 	class AvatarPathItemTransferRow : public ::System::Object
 	{
 	public:
-		::RPG::Client::TextID DialogDesc; // 0x10
+		::RPG::Client::TextID DialogTitle; // 0x10
 		::System::UInt32 TargetItemID; // 0x20
-		::System::UInt32 SourceItemID; // 0x24
-		::System::UInt32 AvatarID; // 0x28
-		::RPG::Client::TextID DialogTitle; // 0x30
+		::System::UInt32 AvatarID; // 0x24
+		::System::UInt32 SourceItemID; // 0x28
+		::RPG::Client::TextID DialogDesc; // 0x30
 
 		::System::Void _ctor()
 		{

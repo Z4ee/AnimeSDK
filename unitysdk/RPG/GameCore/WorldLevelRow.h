@@ -5,22 +5,22 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_WORLDLEVELROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B9F94F0)
-#define RPG_GAMECORE_WORLDLEVELROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9F9C60)
+#define RPG_GAMECORE_WORLDLEVELROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D6B6430)
+#define RPG_GAMECORE_WORLDLEVELROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6B6BE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WorldLevelRow_TypeDefinitionIndex = 13919;
+	inline static constexpr unsigned int WorldLevelRow_TypeDefinitionIndex = 14337;
 
 	class WorldLevelRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 MaxPlayerLevel; // 0x10
-		::RPG::Client::TextID Breaktips1; // 0x18
-		::RPG::Client::TextID Breaktips2; // 0x28
-		::RPG::Client::TextID LevelUpMissionTips; // 0x38
-		::System::UInt32 Level; // 0x48
-		::System::UInt32 LevelUpMission; // 0x4C
+		::RPG::Client::TextID LevelUpMissionTips; // 0x10
+		::RPG::Client::TextID Breaktips1; // 0x20
+		::System::UInt32 LevelUpMission; // 0x30
+		::System::UInt32 Level; // 0x34
+		::System::UInt32 MaxPlayerLevel; // 0x38
+		::RPG::Client::TextID Breaktips2; // 0x40
 
 		::System::Void _ctor()
 		{

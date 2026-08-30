@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2Vec2.h"
 #include "unitysdk/System/ValueType.h"
 
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2RAYCASTINPUT__CTOR_OFFSET UNITYSDK_OFFSET(0x39E7430)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2RAYCASTINPUT__CTOR_OFFSET UNITYSDK_OFFSET(0x3B77190)
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2RayCastInput_TypeDefinitionIndex = 35187;
+	inline static constexpr unsigned int B2RayCastInput_TypeDefinitionIndex = 36048;
 
 	struct alignas(4) B2RayCastInput
 	{

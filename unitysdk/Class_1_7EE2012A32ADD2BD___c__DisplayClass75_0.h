@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_963E317C37FB5E9A_27;
+class Class_1_963E317C37FB5E9A_29;
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-#define CLASS_1_7EE2012A32ADD2BD___C__DISPLAYCLASS75_0__CTOR_OFFSET UNITYSDK_OFFSET(0x119A13A0)
-#define CLASS_1_7EE2012A32ADD2BD___C__DISPLAYCLASS75_0___GETDYNAMICCELLLOOKATPOSITION_B__0_OFFSET UNITYSDK_OFFSET(0x119A2600)
+#define CLASS_1_7EE2012A32ADD2BD___C__DISPLAYCLASS75_0__CTOR_OFFSET UNITYSDK_OFFSET(0x12E81820)
+#define CLASS_1_7EE2012A32ADD2BD___C__DISPLAYCLASS75_0___GETDYNAMICCELLLOOKATPOSITION_B__0_OFFSET UNITYSDK_OFFSET(0x12E82AB0)
 
-inline static constexpr unsigned int Class_1_7EE2012A32ADD2BD___c__DisplayClass75_0_TypeDefinitionIndex = 74062;
+inline static constexpr unsigned int Class_1_7EE2012A32ADD2BD___c__DisplayClass75_0_TypeDefinitionIndex = 77546;
 
 class Class_1_7EE2012A32ADD2BD___c__DisplayClass75_0 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::IReadOnlyList_1<::Class_1_963E317C37FB5E9A_27*>* overrideGrids; // 0x10
+	::System::Collections::Generic::IReadOnlyList_1<::Class_1_963E317C37FB5E9A_29*>* overrideGrids; // 0x10
 
 	::System::Void _ctor()
 	{

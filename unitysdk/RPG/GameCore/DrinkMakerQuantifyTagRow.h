@@ -5,19 +5,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_DRINKMAKERQUANTIFYTAGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B3C9980)
-#define RPG_GAMECORE_DRINKMAKERQUANTIFYTAGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3C9F70)
+#define RPG_GAMECORE_DRINKMAKERQUANTIFYTAGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D047D70)
+#define RPG_GAMECORE_DRINKMAKERQUANTIFYTAGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0483A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DrinkMakerQuantifyTagRow_TypeDefinitionIndex = 12666;
+	inline static constexpr unsigned int DrinkMakerQuantifyTagRow_TypeDefinitionIndex = 13057;
 
 	class DrinkMakerQuantifyTagRow : public ::System::Object
 	{
 	public:
 		::System::Int32 Value; // 0x10
-		::System::UInt32 TagID; // 0x14
-		::RPG::GameCore::DrinkMakerQuantifyTagType Type; // 0x18
+		::RPG::GameCore::DrinkMakerQuantifyTagType Type; // 0x14
+		::System::UInt32 TagID; // 0x18
 
 		::System::Void _ctor()
 		{

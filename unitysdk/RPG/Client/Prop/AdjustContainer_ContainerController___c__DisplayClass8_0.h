@@ -5,18 +5,18 @@
 namespace RPG::Client { class AdventurePhase; }
 namespace RPG::Client::Prop { class AdjustContainer_ContainerController; }
 
-#define RPG_CLIENT_PROP_ADJUSTCONTAINER_CONTAINERCONTROLLER___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD0C6D20)
-#define RPG_CLIENT_PROP_ADJUSTCONTAINER_CONTAINERCONTROLLER___C__DISPLAYCLASS8_0___TRYMOVECONTAINER_B__0_OFFSET UNITYSDK_OFFSET(0xD0C83E0)
+#define RPG_CLIENT_PROP_ADJUSTCONTAINER_CONTAINERCONTROLLER___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0xDBC9760)
+#define RPG_CLIENT_PROP_ADJUSTCONTAINER_CONTAINERCONTROLLER___C__DISPLAYCLASS8_0___TRYMOVECONTAINER_B__0_OFFSET UNITYSDK_OFFSET(0xDBCAE30)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int AdjustContainer_ContainerController___c__DisplayClass8_0_TypeDefinitionIndex = 74243;
+	inline static constexpr unsigned int AdjustContainer_ContainerController___c__DisplayClass8_0_TypeDefinitionIndex = 77727;
 
 	class AdjustContainer_ContainerController___c__DisplayClass8_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::Prop::AdjustContainer_ContainerController* __4__this; // 0x10
-		::RPG::Client::AdventurePhase* pADP; // 0x18
+		::RPG::Client::AdventurePhase* pADP; // 0x10
+		::RPG::Client::Prop::AdjustContainer_ContainerController* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

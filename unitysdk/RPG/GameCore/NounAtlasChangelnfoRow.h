@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_NOUNATLASCHANGELNFOROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B675A80)
-#define RPG_GAMECORE_NOUNATLASCHANGELNFOROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B675B90)
+#define RPG_GAMECORE_NOUNATLASCHANGELNFOROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D2F7B50)
+#define RPG_GAMECORE_NOUNATLASCHANGELNFOROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2F7C60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int NounAtlasChangelnfoRow_TypeDefinitionIndex = 12217;
+	inline static constexpr unsigned int NounAtlasChangelnfoRow_TypeDefinitionIndex = 12606;
 
 	class NounAtlasChangelnfoRow : public ::System::Object
 	{

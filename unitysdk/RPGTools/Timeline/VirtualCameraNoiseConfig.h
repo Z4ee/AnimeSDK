@@ -5,11 +5,11 @@
 
 namespace Cinemachine { class NoiseSettings; }
 
-#define RPGTOOLS_TIMELINE_VIRTUALCAMERANOISECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xDD3A440)
+#define RPGTOOLS_TIMELINE_VIRTUALCAMERANOISECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xE905840)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int VirtualCameraNoiseConfig_TypeDefinitionIndex = 46061;
+	inline static constexpr unsigned int VirtualCameraNoiseConfig_TypeDefinitionIndex = 48285;
 
 	class VirtualCameraNoiseConfig : public ::System::Object
 	{

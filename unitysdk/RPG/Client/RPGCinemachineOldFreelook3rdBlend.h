@@ -8,21 +8,21 @@
 namespace Cinemachine { class CinemachineFreeLook; }
 namespace Cinemachine { class CinemachineVirtualCameraBase; }
 
-#define RPG_CLIENT_RPGCINEMACHINEOLDFREELOOK3RDBLEND_DISABLE_OFFSET UNITYSDK_OFFSET(0xD28B720)
-#define RPG_CLIENT_RPGCINEMACHINEOLDFREELOOK3RDBLEND_INIT_OFFSET UNITYSDK_OFFSET(0xD28B4E0)
-#define RPG_CLIENT_RPGCINEMACHINEOLDFREELOOK3RDBLEND_POSTPIPELINESTAGECALLBACK_OFFSET UNITYSDK_OFFSET(0xD28B760)
-#define RPG_CLIENT_RPGCINEMACHINEOLDFREELOOK3RDBLEND__CTOR_OFFSET UNITYSDK_OFFSET(0xD28BAA0)
+#define RPG_CLIENT_RPGCINEMACHINEOLDFREELOOK3RDBLEND_DISABLE_OFFSET UNITYSDK_OFFSET(0xDDCA500)
+#define RPG_CLIENT_RPGCINEMACHINEOLDFREELOOK3RDBLEND_INIT_OFFSET UNITYSDK_OFFSET(0xDDCA2C0)
+#define RPG_CLIENT_RPGCINEMACHINEOLDFREELOOK3RDBLEND_POSTPIPELINESTAGECALLBACK_OFFSET UNITYSDK_OFFSET(0xDDCA540)
+#define RPG_CLIENT_RPGCINEMACHINEOLDFREELOOK3RDBLEND__CTOR_OFFSET UNITYSDK_OFFSET(0xDDCA880)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RPGCinemachineOldFreelook3rdBlend_TypeDefinitionIndex = 66572;
+	inline static constexpr unsigned int RPGCinemachineOldFreelook3rdBlend_TypeDefinitionIndex = 69667;
 
 	class RPGCinemachineOldFreelook3rdBlend : public ::Cinemachine::CinemachineExtension
 	{
 	public:
-		::Cinemachine::CinemachineFreeLook* Field_6_0; // 0x28
-		::UnityEngine::Vector3 Field_6_1; // 0x30
-		::System::Boolean Field_6_2; // 0x3C
+		::Cinemachine::CinemachineFreeLook* ODIDIJIBJKK; // 0x28
+		::UnityEngine::Vector3 JKHEOBPDLLK; // 0x30
+		::System::Boolean MOKNCFJICIC; // 0x3C
 
 		::System::Void _ctor()
 		{

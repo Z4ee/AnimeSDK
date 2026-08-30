@@ -4,7 +4,7 @@
 
 namespace System
 {
-	inline static constexpr unsigned int SmallRect_TypeDefinitionIndex = 456;
+	inline static constexpr unsigned int SmallRect_TypeDefinitionIndex = 459;
 
 	struct alignas(2) SmallRect
 	{

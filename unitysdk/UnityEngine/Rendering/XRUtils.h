@@ -5,11 +5,11 @@
 namespace UnityEngine { class Camera; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define UNITYENGINE_RENDERING_XRUTILS_DRAWOCCLUSIONMESH_OFFSET UNITYSDK_OFFSET(0x1CF15850)
+#define UNITYENGINE_RENDERING_XRUTILS_DRAWOCCLUSIONMESH_OFFSET UNITYSDK_OFFSET(0x1EC1D1F0)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int XRUtils_TypeDefinitionIndex = 34177;
+	inline static constexpr unsigned int XRUtils_TypeDefinitionIndex = 34944;
 
 	class XRUtils : public ::System::Object
 	{

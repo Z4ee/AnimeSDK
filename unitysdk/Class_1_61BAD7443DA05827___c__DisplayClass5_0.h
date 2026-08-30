@@ -3,10 +3,10 @@
 #include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_61BAD7443DA05827___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A510E00)
-#define CLASS_1_61BAD7443DA05827___C__DISPLAYCLASS5_0___FILTERCATVALUEMAPBYEXTREM_B__0_OFFSET UNITYSDK_OFFSET(0x1A5139F0)
+#define CLASS_1_61BAD7443DA05827___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C120AD0)
+#define CLASS_1_61BAD7443DA05827___C__DISPLAYCLASS5_0___FILTERCATVALUEMAPBYEXTREM_B__0_OFFSET UNITYSDK_OFFSET(0x1C123740)
 
-inline static constexpr unsigned int Class_1_61BAD7443DA05827___c__DisplayClass5_0_TypeDefinitionIndex = 35792;
+inline static constexpr unsigned int Class_1_61BAD7443DA05827___c__DisplayClass5_0_TypeDefinitionIndex = 36653;
 
 class Class_1_61BAD7443DA05827___c__DisplayClass5_0 : public ::System::Object
 {

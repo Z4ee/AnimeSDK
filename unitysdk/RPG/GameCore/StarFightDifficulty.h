@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StarFightDifficulty_TypeDefinitionIndex = 11913;
+	inline static constexpr unsigned int StarFightDifficulty_TypeDefinitionIndex = 12302;
 
 	enum class StarFightDifficulty : ::System::Int32
 	{

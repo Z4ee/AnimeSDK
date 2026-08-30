@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Xml/Schema/Datatype_dateTimeBase.h"
 
-#define SYSTEM_XML_SCHEMA_DATATYPE_DATETIMENOTIMEZONE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CB3BA40)
+#define SYSTEM_XML_SCHEMA_DATATYPE_DATETIMENOTIMEZONE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7E5AD0)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int Datatype_dateTimeNoTimeZone_TypeDefinitionIndex = 2098;
+	inline static constexpr unsigned int Datatype_dateTimeNoTimeZone_TypeDefinitionIndex = 2105;
 
 	class Datatype_dateTimeNoTimeZone : public ::System::Xml::Schema::Datatype_dateTimeBase
 	{

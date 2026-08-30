@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetColliderCenterFollowAttachPoint; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_999F2153825D2761_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xAEFEA80)
-#define CLASS_3_999F2153825D2761__CTOR_OFFSET UNITYSDK_OFFSET(0xAEFEA50)
+#define CLASS_3_999F2153825D2761_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB8AC9E0)
+#define CLASS_3_999F2153825D2761__CTOR_OFFSET UNITYSDK_OFFSET(0xB8AC9B0)
 
-inline static constexpr unsigned int Class_3_999F2153825D2761_TypeDefinitionIndex = 52868;
+inline static constexpr unsigned int Class_3_999F2153825D2761_TypeDefinitionIndex = 55571;
 
 class Class_3_999F2153825D2761 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetColliderCenterFollowAttachPoint*>
 {

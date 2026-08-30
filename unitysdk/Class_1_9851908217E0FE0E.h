@@ -7,45 +7,45 @@ class Class_1_2F293706394A94E6;
 namespace System { class Random; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 
-#define CLASS_1_9851908217E0FE0E_METHOD_1_24748FC20F375725_OFFSET UNITYSDK_OFFSET(0x1A31A980)
-#define CLASS_1_9851908217E0FE0E_METHOD_1_3CB4C80E2E8C5C15_OFFSET UNITYSDK_OFFSET(0x1A31AB00)
-#define CLASS_1_9851908217E0FE0E_METHOD_1_C98C394448CF7E35_OFFSET UNITYSDK_OFFSET(0x1A31B550)
-#define CLASS_1_9851908217E0FE0E_METHOD_1_CD57A3BCD10C8EC4_OFFSET UNITYSDK_OFFSET(0x1A31B270)
-#define CLASS_1_9851908217E0FE0E_METHOD_1_F0BD65B017F2AC0B_OFFSET UNITYSDK_OFFSET(0x1A31A990)
-#define CLASS_1_9851908217E0FE0E_METHOD_1_F40FAA6EE742C9B4_OFFSET UNITYSDK_OFFSET(0x1A31B170)
-#define CLASS_1_9851908217E0FE0E_METHOD_1_FD00866FF781302D_OFFSET UNITYSDK_OFFSET(0x1A31AF80)
-#define CLASS_1_9851908217E0FE0E__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A31B840)
-#define CLASS_1_9851908217E0FE0E__CTOR_OFFSET UNITYSDK_OFFSET(0x1A31B7F0)
+#define CLASS_1_9851908217E0FE0E_METHOD_1_24748FC20F375725_OFFSET UNITYSDK_OFFSET(0x1BF28180)
+#define CLASS_1_9851908217E0FE0E_METHOD_1_3CB4C80E2E8C5C15_OFFSET UNITYSDK_OFFSET(0x1BF28300)
+#define CLASS_1_9851908217E0FE0E_METHOD_1_C98C394448CF7E35_OFFSET UNITYSDK_OFFSET(0x1BF28D50)
+#define CLASS_1_9851908217E0FE0E_METHOD_1_CD57A3BCD10C8EC4_OFFSET UNITYSDK_OFFSET(0x1BF28A70)
+#define CLASS_1_9851908217E0FE0E_METHOD_1_F0BD65B017F2AC0B_OFFSET UNITYSDK_OFFSET(0x1BF28190)
+#define CLASS_1_9851908217E0FE0E_METHOD_1_F40FAA6EE742C9B4_OFFSET UNITYSDK_OFFSET(0x1BF28970)
+#define CLASS_1_9851908217E0FE0E_METHOD_1_FD00866FF781302D_OFFSET UNITYSDK_OFFSET(0x1BF28780)
+#define CLASS_1_9851908217E0FE0E__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BF29040)
+#define CLASS_1_9851908217E0FE0E__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF28FF0)
 
-inline static constexpr unsigned int Class_1_9851908217E0FE0E_TypeDefinitionIndex = 39349;
+inline static constexpr unsigned int Class_1_9851908217E0FE0E_TypeDefinitionIndex = 40222;
 
 class Class_1_9851908217E0FE0E : public ::System::Object
 {
 public:
-	static ::System::Random** StaticGet_Field_1_0()
+	static ::System::Random** StaticGet_OLEEIPHBJKB()
 	{
-		return (::System::Random**)Il2CppClass::FromTypeDefinitionIndex(Class_1_9851908217E0FE0E_TypeDefinitionIndex)->GetStaticField(0x233E0);
+		return (::System::Random**)Il2CppClass::FromTypeDefinitionIndex(Class_1_9851908217E0FE0E_TypeDefinitionIndex)->GetStaticField(0x11240);
 	}
-	static ::System::UInt32* StaticGet_Field_1_1()
+	static ::System::Boolean* StaticGet_FKDBKPHFEKF()
 	{
-		return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_9851908217E0FE0E_TypeDefinitionIndex)->GetStaticField(0x6E20);
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_9851908217E0FE0E_TypeDefinitionIndex)->GetStaticField(0x77F0);
 	}
-	static ::System::Boolean* StaticGet_Field_1_2()
+	static ::System::UInt32* StaticGet_MMIPPDHLFFC()
 	{
-		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_9851908217E0FE0E_TypeDefinitionIndex)->GetStaticField(0x6E24);
+		return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_9851908217E0FE0E_TypeDefinitionIndex)->GetStaticField(0x77F4);
 	}
-	static ::System::UInt32* StaticGet_Field_1_3()
+	static ::System::UInt32* StaticGet_PCJLEJGEGGD()
 	{
-		return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_9851908217E0FE0E_TypeDefinitionIndex)->GetStaticField(0x6E28);
+		return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_9851908217E0FE0E_TypeDefinitionIndex)->GetStaticField(0x77F8);
 	}
-	// static const ::System::Double Field_1_4; // 0x0
-	::Il2CppArray<::System::UInt32>* Field_1_5; // 0x10
-	::Class_1_2F293706394A94E6* Field_1_6; // 0x18
-	::System::Collections::Generic::IList_1<::System::UInt64>* Field_1_7; // 0x20
-	::System::Double Field_1_8; // 0x28
-	::System::Boolean Field_1_9; // 0x30
-	::System::Boolean Field_1_10; // 0x31
-	::System::UInt32 Field_1_11; // 0x34
+	// static const ::System::Double HAMBMFPEOOK; // 0x0
+	::Il2CppArray<::System::UInt32>* EMKFBDEACMI; // 0x10
+	::System::Collections::Generic::IList_1<::System::UInt64>* GMIODKLGJHD; // 0x18
+	::Class_1_2F293706394A94E6* DCOPELFHOLO; // 0x20
+	::System::Double MDDJDEINLPM; // 0x28
+	::System::Boolean HKMGIBJNCFE; // 0x30
+	::System::Boolean BANLOOPBKLF; // 0x31
+	::System::UInt32 CMFNKDKKGGI; // 0x34
 
 	::System::Void _ctor()
 	{

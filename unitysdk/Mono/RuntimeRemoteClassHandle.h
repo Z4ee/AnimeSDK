@@ -3,7 +3,7 @@
 #include "unitysdk/Mono/RuntimeStructs_RemoteClass.h"
 #include "unitysdk/System/ValueType.h"
 
-#define MONO_RUNTIMEREMOTECLASSHANDLE_GET_PROXYCLASS_OFFSET UNITYSDK_OFFSET(0x39D0490)
+#define MONO_RUNTIMEREMOTECLASSHANDLE_GET_PROXYCLASS_OFFSET UNITYSDK_OFFSET(0x3B5FDE0)
 
 namespace Mono
 {

@@ -6,20 +6,20 @@ namespace RPG::Client::ActivityIdleLive { class FuncUnlockUiData; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_CC28D146034F7CEE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB6A06C0)
-#define CLASS_1_CC28D146034F7CEE_METHOD_1_1615E74BDA0D0348_OFFSET UNITYSDK_OFFSET(0xB6A0430)
-#define CLASS_1_CC28D146034F7CEE_METHOD_1_8131D4D8C02BAA62_OFFSET UNITYSDK_OFFSET(0xB6A0120)
-#define CLASS_1_CC28D146034F7CEE_METHOD_1_EBEE0D0A222A8264_OFFSET UNITYSDK_OFFSET(0xB69FF70)
-#define CLASS_1_CC28D146034F7CEE_METHOD_1_F9F86518B1656893_OFFSET UNITYSDK_OFFSET(0xB69FF30)
-#define CLASS_1_CC28D146034F7CEE__CTOR_OFFSET UNITYSDK_OFFSET(0xB6A0010)
+#define CLASS_1_CC28D146034F7CEE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC0A8660)
+#define CLASS_1_CC28D146034F7CEE_METHOD_1_1615E74BDA0D0348_OFFSET UNITYSDK_OFFSET(0xC0A83D0)
+#define CLASS_1_CC28D146034F7CEE_METHOD_1_8131D4D8C02BAA62_OFFSET UNITYSDK_OFFSET(0xC0A80C0)
+#define CLASS_1_CC28D146034F7CEE_METHOD_1_EBEE0D0A222A8264_OFFSET UNITYSDK_OFFSET(0xC0A7F10)
+#define CLASS_1_CC28D146034F7CEE_METHOD_1_F9F86518B1656893_OFFSET UNITYSDK_OFFSET(0xC0A7ED0)
+#define CLASS_1_CC28D146034F7CEE__CTOR_OFFSET UNITYSDK_OFFSET(0xC0A7FB0)
 
-inline static constexpr unsigned int Class_1_CC28D146034F7CEE_TypeDefinitionIndex = 71721;
+inline static constexpr unsigned int Class_1_CC28D146034F7CEE_TypeDefinitionIndex = 75027;
 
 class Class_1_CC28D146034F7CEE : public ::System::Object
 {
 public:
-	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::System::UInt32>*>* Field_1_0; // 0x10
-	::System::Collections::Generic::List_1<::RPG::Client::ActivityIdleLive::FuncUnlockUiData*>* Field_1_1; // 0x18
+	::System::Collections::Generic::List_1<::RPG::Client::ActivityIdleLive::FuncUnlockUiData*>* EJFNNGMBNLH; // 0x10
+	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::System::UInt32>*>* DPNPGDHCFBH; // 0x18
 
 	::System::Void _ctor()
 	{

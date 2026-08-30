@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtSkillUseResult_TypeDefinitionIndex = 51590;
+	inline static constexpr unsigned int RtSkillUseResult_TypeDefinitionIndex = 54274;
 
 	enum class RtSkillUseResult : ::System::Int32
 	{

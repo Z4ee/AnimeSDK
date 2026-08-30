@@ -5,16 +5,16 @@
 class Class_1_AC94D03FA4E4D000;
 namespace RPG::Client { class Stage; }
 
-#define CLASS_1_AC94D03FA4E4D000___C__DISPLAYCLASS34_0__CTOR_OFFSET UNITYSDK_OFFSET(0x154D5260)
-#define CLASS_1_AC94D03FA4E4D000___C__DISPLAYCLASS34_0___ONREGIONRESUMEUPDATE_B__0_OFFSET UNITYSDK_OFFSET(0x154D6250)
+#define CLASS_1_AC94D03FA4E4D000___C__DISPLAYCLASS34_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16424190)
+#define CLASS_1_AC94D03FA4E4D000___C__DISPLAYCLASS34_0___ONREGIONRESUMEUPDATE_B__0_OFFSET UNITYSDK_OFFSET(0x16425160)
 
-inline static constexpr unsigned int Class_1_AC94D03FA4E4D000___c__DisplayClass34_0_TypeDefinitionIndex = 57802;
+inline static constexpr unsigned int Class_1_AC94D03FA4E4D000___c__DisplayClass34_0_TypeDefinitionIndex = 60622;
 
 class Class_1_AC94D03FA4E4D000___c__DisplayClass34_0 : public ::System::Object
 {
 public:
-	::RPG::Client::Stage* currentStage; // 0x10
-	::Class_1_AC94D03FA4E4D000* __4__this; // 0x18
+	::Class_1_AC94D03FA4E4D000* __4__this; // 0x10
+	::RPG::Client::Stage* currentStage; // 0x18
 
 	::System::Void _ctor()
 	{

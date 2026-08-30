@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MHYSDKC_HotfixAndroid_TypeDefinitionIndex = 44482;
+	inline static constexpr unsigned int MHYSDKC_HotfixAndroid_TypeDefinitionIndex = 46665;
 
 	class MHYSDKC_HotfixAndroid : public ::System::Object
 	{

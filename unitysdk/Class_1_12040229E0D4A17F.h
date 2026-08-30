@@ -5,18 +5,18 @@
 
 namespace System { class String; }
 
-#define CLASS_1_12040229E0D4A17F_CLEAR_OFFSET UNITYSDK_OFFSET(0xAEF6250)
-#define CLASS_1_12040229E0D4A17F__CTOR_OFFSET UNITYSDK_OFFSET(0xAEF62B0)
+#define CLASS_1_12040229E0D4A17F_CLEAR_OFFSET UNITYSDK_OFFSET(0xB8A4130)
+#define CLASS_1_12040229E0D4A17F__CTOR_OFFSET UNITYSDK_OFFSET(0xB8A4190)
 
-inline static constexpr unsigned int Class_1_12040229E0D4A17F_TypeDefinitionIndex = 58172;
+inline static constexpr unsigned int Class_1_12040229E0D4A17F_TypeDefinitionIndex = 60999;
 
 class Class_1_12040229E0D4A17F : public ::System::Object
 {
 public:
-	::System::String* Field_1_0; // 0x10
-	::RPG::Client::FMChannelSourceRequestPriority Field_1_1; // 0x18
-	::System::Single Field_1_2; // 0x1C
-	::System::Single Field_1_3; // 0x20
+	::System::String* ECCIPKNJJLH; // 0x10
+	::System::Single IEHPFADHJFD; // 0x18
+	::RPG::Client::FMChannelSourceRequestPriority NALMBOOCCIN; // 0x1C
+	::System::Single GCJMFBKLGHI; // 0x20
 
 	::System::Void _ctor()
 	{

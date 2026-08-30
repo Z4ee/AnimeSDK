@@ -2,21 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_378;
+class Class_0_16E4307DCC419505_413;
 namespace RPG::Client::FateRin::View::Battle { class FateRinBattleCardFlowRunner; }
 
-#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINBATTLECARDFLOWRUNNER___C__DISPLAYCLASS25_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC4E5FE0)
-#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINBATTLECARDFLOWRUNNER___C__DISPLAYCLASS25_0___TRACK_B__0_OFFSET UNITYSDK_OFFSET(0xC4E6080)
+#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINBATTLECARDFLOWRUNNER___C__DISPLAYCLASS25_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD01D3A0)
+#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINBATTLECARDFLOWRUNNER___C__DISPLAYCLASS25_0___TRACK_B__0_OFFSET UNITYSDK_OFFSET(0xD01D440)
 
 namespace RPG::Client::FateRin::View::Battle
 {
-	inline static constexpr unsigned int FateRinBattleCardFlowRunner___c__DisplayClass25_0_TypeDefinitionIndex = 75710;
+	inline static constexpr unsigned int FateRinBattleCardFlowRunner___c__DisplayClass25_0_TypeDefinitionIndex = 79343;
 
 	class FateRinBattleCardFlowRunner___c__DisplayClass25_0 : public ::System::Object
 	{
 	public:
-		::Class_0_16E4307DCC419505_378* command; // 0x10
-		::RPG::Client::FateRin::View::Battle::FateRinBattleCardFlowRunner* __4__this; // 0x18
+		::RPG::Client::FateRin::View::Battle::FateRinBattleCardFlowRunner* __4__this; // 0x10
+		::Class_0_16E4307DCC419505_413* command; // 0x18
 
 		::System::Void _ctor()
 		{

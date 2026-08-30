@@ -7,15 +7,15 @@
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 
-inline static constexpr unsigned int Struct_2_02BD084C1EA35FFC_TypeDefinitionIndex = 51975;
+inline static constexpr unsigned int Struct_2_02BD084C1EA35FFC_TypeDefinitionIndex = 54659;
 
 struct alignas(8) Struct_2_02BD084C1EA35FFC
 {
-	::RPG::GameCore::TurnBasedModifierInstance* Field_2_0; // 0x10
-	::RPG::GameCore::ModifierInfectType Field_2_1; // 0x18
-	::RPG::GameCore::GameEntity* Field_2_2; // 0x20
-	::RPG::GameCore::GameEntity* Field_2_3; // 0x28
-	::RPG::GameCore::FixPoint Field_2_4; // 0x30
-	::System::Boolean Field_2_5; // 0x38
-	::System::Boolean Field_2_6; // 0x39
+	::RPG::GameCore::TurnBasedModifierInstance* NGBAPOEDIOJ; // 0x10
+	::RPG::GameCore::ModifierInfectType JPGHCIIOAOC; // 0x18
+	::RPG::GameCore::GameEntity* AMLKIGFLNHI; // 0x20
+	::RPG::GameCore::GameEntity* AEIJCBFMHOI; // 0x28
+	::RPG::GameCore::FixPoint MFGHABANPCE; // 0x30
+	::System::Boolean EBFMNCJNMPF; // 0x38
+	::System::Boolean MBJGAMBENFD; // 0x39
 };

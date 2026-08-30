@@ -10,27 +10,27 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class GameObject; }
 
-#define MIRRORMENT_MIRRORMENTTOOL_CLASS_1_A02263FE1D25F653__CTOR_OFFSET UNITYSDK_OFFSET(0xB1EEB90)
+#define MIRRORMENT_MIRRORMENTTOOL_CLASS_1_A02263FE1D25F653__CTOR_OFFSET UNITYSDK_OFFSET(0xBBC3070)
 
 namespace Mirrorment
 {
-	inline static constexpr unsigned int MirrormentTool_Class_1_A02263FE1D25F653_TypeDefinitionIndex = 46003;
+	inline static constexpr unsigned int MirrormentTool_Class_1_A02263FE1D25F653_TypeDefinitionIndex = 48227;
 
 	class MirrormentTool_Class_1_A02263FE1D25F653 : public ::System::Object
 	{
 	public:
-		::UnityEngine::GameObject* Field_1_0; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::GameObject*>* Field_1_1; // 0x18
-		::System::String* Field_1_2; // 0x20
-		::System::String* Field_1_3; // 0x28
-		::RPG::Client::Prop::OpticalIllusionPuzzleItem* Field_1_4; // 0x30
-		::RPG::Client::Prop::OpticalIllusionAxis Field_1_5; // 0x38
-		::UnityEngine::Vector3 Field_1_6; // 0x3C
-		::UnityEngine::Vector3 Field_1_7; // 0x48
-		::UnityEngine::Vector3 Field_1_8; // 0x54
-		::System::Single Field_1_9; // 0x60
-		::Mirrorment::MirrormentTool_OpModuleType Field_1_10; // 0x64
-		::System::Single Field_1_11; // 0x68
+		::RPG::Client::Prop::OpticalIllusionPuzzleItem* DEMFJAMDLFP; // 0x10
+		::System::String* JPGCAKBNNLP; // 0x18
+		::System::String* KPEHHGEKNHA; // 0x20
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::GameObject*>* EGGCADJJJOD; // 0x28
+		::UnityEngine::GameObject* DHIPFJBEJPI; // 0x30
+		::Mirrorment::MirrormentTool_OpModuleType GMPGDEINODK; // 0x38
+		::UnityEngine::Vector3 LAADLNFMBCP; // 0x3C
+		::RPG::Client::Prop::OpticalIllusionAxis FJMCLOIEMKG; // 0x48
+		::UnityEngine::Vector3 BKAJJAJNHJF; // 0x4C
+		::System::Single GCPECCHMLCJ; // 0x58
+		::UnityEngine::Vector3 BOGOAKBPFPH; // 0x5C
+		::System::Single LENCOMGPHJE; // 0x68
 
 		::System::Void _ctor()
 		{

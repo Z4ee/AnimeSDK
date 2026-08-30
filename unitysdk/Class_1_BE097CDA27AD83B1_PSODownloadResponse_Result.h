@@ -4,7 +4,7 @@
 
 class SerializedWarmupPSO;
 
-inline static constexpr unsigned int Class_1_BE097CDA27AD83B1_PSODownloadResponse_Result_TypeDefinitionIndex = 45619;
+inline static constexpr unsigned int Class_1_BE097CDA27AD83B1_PSODownloadResponse_Result_TypeDefinitionIndex = 47870;
 
 struct alignas(8) Class_1_BE097CDA27AD83B1_PSODownloadResponse_Result
 {

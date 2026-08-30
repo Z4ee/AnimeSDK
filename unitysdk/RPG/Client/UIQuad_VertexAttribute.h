@@ -4,11 +4,11 @@
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define RPG_CLIENT_UIQUAD_VERTEXATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1530D0)
+#define RPG_CLIENT_UIQUAD_VERTEXATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x159C10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIQuad_VertexAttribute_TypeDefinitionIndex = 69409;
+	inline static constexpr unsigned int UIQuad_VertexAttribute_TypeDefinitionIndex = 72635;
 
 	struct alignas(4) UIQuad_VertexAttribute
 	{

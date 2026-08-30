@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetTargetTrackMove; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_3FE98949A26FCB89_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBD57A40)
-#define CLASS_3_3FE98949A26FCB89__CTOR_OFFSET UNITYSDK_OFFSET(0xBD57A10)
+#define CLASS_3_3FE98949A26FCB89_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC7BB190)
+#define CLASS_3_3FE98949A26FCB89__CTOR_OFFSET UNITYSDK_OFFSET(0xC7BB160)
 
-inline static constexpr unsigned int Class_3_3FE98949A26FCB89_TypeDefinitionIndex = 55963;
+inline static constexpr unsigned int Class_3_3FE98949A26FCB89_TypeDefinitionIndex = 58736;
 
 class Class_3_3FE98949A26FCB89 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetTargetTrackMove*>
 {

@@ -3,7 +3,7 @@
 
 namespace SuperScrollView
 {
-	inline static constexpr unsigned int GridItemArrangeType_TypeDefinitionIndex = 45839;
+	inline static constexpr unsigned int GridItemArrangeType_TypeDefinitionIndex = 48091;
 
 	enum class GridItemArrangeType : ::System::Int32
 	{

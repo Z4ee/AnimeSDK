@@ -5,7 +5,7 @@
 #include "unitysdk/System/Collections/Generic/List_1_Enumerator.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_298;
+class Class_0_16E4307DCC419505_305;
 class Class_1_2FF4295849ECC7AF;
 namespace RPG::Client { class TimeSpaceCrisscrossGroupBehavior; }
 namespace RPG::Client { class TimeSpaceCrisscrossIRIMonoPlugin_TSCInstanceData; }
@@ -14,40 +14,40 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Mesh; }
 
-#define RPG_CLIENT_TIMESPACECRISSCROSSGROUPBEHAVIOR___ASYNCINITIRICOMBINEDINSTANCES_D__2_MOVENEXT_OFFSET UNITYSDK_OFFSET(0xD6C34C0)
-#define RPG_CLIENT_TIMESPACECRISSCROSSGROUPBEHAVIOR___ASYNCINITIRICOMBINEDINSTANCES_D__2_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_RPG_WORK_IASYNCWORKSTEPRESULT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xD6C4870)
-#define RPG_CLIENT_TIMESPACECRISSCROSSGROUPBEHAVIOR___ASYNCINITIRICOMBINEDINSTANCES_D__2_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xD6C48D0)
-#define RPG_CLIENT_TIMESPACECRISSCROSSGROUPBEHAVIOR___ASYNCINITIRICOMBINEDINSTANCES_D__2_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0xD6C4880)
-#define RPG_CLIENT_TIMESPACECRISSCROSSGROUPBEHAVIOR___ASYNCINITIRICOMBINEDINSTANCES_D__2_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xD6C3470)
-#define RPG_CLIENT_TIMESPACECRISSCROSSGROUPBEHAVIOR___ASYNCINITIRICOMBINEDINSTANCES_D__2__CTOR_OFFSET UNITYSDK_OFFSET(0xD6B9C00)
-#define RPG_CLIENT_TIMESPACECRISSCROSSGROUPBEHAVIOR___ASYNCINITIRICOMBINEDINSTANCES_D__2___M__FINALLY1_OFFSET UNITYSDK_OFFSET(0xD6C34A0)
-#define RPG_CLIENT_TIMESPACECRISSCROSSGROUPBEHAVIOR___ASYNCINITIRICOMBINEDINSTANCES_D__2___M__FINALLY2_OFFSET UNITYSDK_OFFSET(0xD6C34B0)
+#define RPG_CLIENT_TIMESPACECRISSCROSSGROUPBEHAVIOR___ASYNCINITIRICOMBINEDINSTANCES_D__2_MOVENEXT_OFFSET UNITYSDK_OFFSET(0xE212E90)
+#define RPG_CLIENT_TIMESPACECRISSCROSSGROUPBEHAVIOR___ASYNCINITIRICOMBINEDINSTANCES_D__2_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_RPG_WORK_IASYNCWORKSTEPRESULT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xE2141C0)
+#define RPG_CLIENT_TIMESPACECRISSCROSSGROUPBEHAVIOR___ASYNCINITIRICOMBINEDINSTANCES_D__2_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xE214220)
+#define RPG_CLIENT_TIMESPACECRISSCROSSGROUPBEHAVIOR___ASYNCINITIRICOMBINEDINSTANCES_D__2_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0xE2141D0)
+#define RPG_CLIENT_TIMESPACECRISSCROSSGROUPBEHAVIOR___ASYNCINITIRICOMBINEDINSTANCES_D__2_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xE212E40)
+#define RPG_CLIENT_TIMESPACECRISSCROSSGROUPBEHAVIOR___ASYNCINITIRICOMBINEDINSTANCES_D__2__CTOR_OFFSET UNITYSDK_OFFSET(0xE2095A0)
+#define RPG_CLIENT_TIMESPACECRISSCROSSGROUPBEHAVIOR___ASYNCINITIRICOMBINEDINSTANCES_D__2___M__FINALLY1_OFFSET UNITYSDK_OFFSET(0xE212E70)
+#define RPG_CLIENT_TIMESPACECRISSCROSSGROUPBEHAVIOR___ASYNCINITIRICOMBINEDINSTANCES_D__2___M__FINALLY2_OFFSET UNITYSDK_OFFSET(0xE212E80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TimeSpaceCrisscrossGroupBehavior___AsyncInitIRICombinedInstances_d__2_TypeDefinitionIndex = 67064;
+	inline static constexpr unsigned int TimeSpaceCrisscrossGroupBehavior___AsyncInitIRICombinedInstances_d__2_TypeDefinitionIndex = 70171;
 
 	class TimeSpaceCrisscrossGroupBehavior___AsyncInitIRICombinedInstances_d__2 : public ::System::Object
 	{
 	public:
-		::RPG::Client::TimeSpaceCrisscrossGroupBehavior* __4__this; // 0x10
-		::UnityEngine::Material* _instanceItemMat_5__7; // 0x18
-		::Class_0_16E4307DCC419505_298* __2__current; // 0x20
-		::RPG::Client::TimeSpaceCrisscrossIRIMonoPlugin_TSCInstanceData* _data_5__11; // 0x28
-		::System::Collections::Generic::List_1_Enumerator<::Class_1_2FF4295849ECC7AF*> __7__wrap13; // 0x30
-		::RPG::Client::LiteInstancedItem::ItemPrototype* _prototypeNormalDeformation_5__9; // 0x48
-		::RPG::Client::LiteInstancedItem::ItemPrototype* _prototypeNormal_5__8; // 0x50
-		::System::Collections::Generic::KeyValuePair_2<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::Mesh*, ::UnityEngine::Material*>, ::System::Collections::Generic::List_1<::RPG::Client::TimeSpaceCrisscrossIRIMonoPlugin_TSCInstanceData*>*> _iriTemplate_5__5; // 0x58
-		::System::Collections::Generic::Dictionary_2_Enumerator<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::Mesh*, ::UnityEngine::Material*>, ::System::Collections::Generic::List_1<::RPG::Client::TimeSpaceCrisscrossIRIMonoPlugin_TSCInstanceData*>*> __7__wrap3; // 0x70
-		::Class_1_2FF4295849ECC7AF* _tscItemInstance_5__15; // 0xA0
-		::UnityEngine::Mesh* _targetMesh_5__6; // 0xA8
-		::System::Int32 _j_5__13; // 0xB0
-		::System::Int32 _i_5__10; // 0xB4
-		::System::Int32 _batchSize_5__2; // 0xB8
-		::System::Int32 __1__state; // 0xBC
-		::System::Boolean _includeDeformation_5__12; // 0xC0
-		::System::Int32 workID; // 0xC4
-		::System::Int32 _batchCounter_5__3; // 0xC8
+		::UnityEngine::Mesh* _targetMesh_5__6; // 0x10
+		::System::Collections::Generic::KeyValuePair_2<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::Mesh*, ::UnityEngine::Material*>, ::System::Collections::Generic::List_1<::RPG::Client::TimeSpaceCrisscrossIRIMonoPlugin_TSCInstanceData*>*> _iriTemplate_5__5; // 0x18
+		::Class_0_16E4307DCC419505_305* __2__current; // 0x30
+		::RPG::Client::LiteInstancedItem::ItemPrototype* _prototypeNormalDeformation_5__9; // 0x38
+		::RPG::Client::TimeSpaceCrisscrossIRIMonoPlugin_TSCInstanceData* _data_5__11; // 0x40
+		::RPG::Client::TimeSpaceCrisscrossGroupBehavior* __4__this; // 0x48
+		::System::Collections::Generic::List_1_Enumerator<::Class_1_2FF4295849ECC7AF*> __7__wrap13; // 0x50
+		::System::Collections::Generic::Dictionary_2_Enumerator<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::Mesh*, ::UnityEngine::Material*>, ::System::Collections::Generic::List_1<::RPG::Client::TimeSpaceCrisscrossIRIMonoPlugin_TSCInstanceData*>*> __7__wrap3; // 0x68
+		::Class_1_2FF4295849ECC7AF* _tscItemInstance_5__15; // 0x98
+		::UnityEngine::Material* _instanceItemMat_5__7; // 0xA0
+		::RPG::Client::LiteInstancedItem::ItemPrototype* _prototypeNormal_5__8; // 0xA8
+		::System::Int32 __1__state; // 0xB0
+		::System::Int32 workID; // 0xB4
+		::System::Int32 _j_5__13; // 0xB8
+		::System::Boolean _includeDeformation_5__12; // 0xBC
+		::System::Int32 _i_5__10; // 0xC0
+		::System::Int32 _batchCounter_5__3; // 0xC4
+		::System::Int32 _batchSize_5__2; // 0xC8
 
 		::System::Void _ctor(::System::Int32 a1)
 		{
@@ -74,9 +74,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMESPACECRISSCROSSGROUPBEHAVIOR___ASYNCINITIRICOMBINEDINSTANCES_D__2___M__FINALLY2_OFFSET))(this);
 		}
 
-		::Class_0_16E4307DCC419505_298* System_Collections_Generic_IEnumerator_RPG_Work_IAsyncWorkStepResult__get_Current()
+		::Class_0_16E4307DCC419505_305* System_Collections_Generic_IEnumerator_RPG_Work_IAsyncWorkStepResult__get_Current()
 		{
-			return ((::Class_0_16E4307DCC419505_298*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMESPACECRISSCROSSGROUPBEHAVIOR___ASYNCINITIRICOMBINEDINSTANCES_D__2_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_RPG_WORK_IASYNCWORKSTEPRESULT__GET_CURRENT_OFFSET))(this);
+			return ((::Class_0_16E4307DCC419505_305*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMESPACECRISSCROSSGROUPBEHAVIOR___ASYNCINITIRICOMBINEDINSTANCES_D__2_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_RPG_WORK_IASYNCWORKSTEPRESULT__GET_CURRENT_OFFSET))(this);
 		}
 
 		::System::Void System_Collections_IEnumerator_Reset()

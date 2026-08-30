@@ -5,9 +5,9 @@
 class Class_1_4E17DBE66E488E00;
 namespace RPG::Client { class MonopolyContentTrigger; }
 
-#define CLASS_1_B7C68DA4355CEF9B_METHOD_1_1B621BE94362F864_OFFSET UNITYSDK_OFFSET(0x1503CAC0)
+#define CLASS_1_B7C68DA4355CEF9B_METHOD_1_1B621BE94362F864_OFFSET UNITYSDK_OFFSET(0x15CF19A0)
 
-inline static constexpr unsigned int Class_1_B7C68DA4355CEF9B_TypeDefinitionIndex = 63334;
+inline static constexpr unsigned int Class_1_B7C68DA4355CEF9B_TypeDefinitionIndex = 66319;
 
 class Class_1_B7C68DA4355CEF9B : public ::System::Object
 {

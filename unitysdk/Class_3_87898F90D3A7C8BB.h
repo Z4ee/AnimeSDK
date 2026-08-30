@@ -5,10 +5,10 @@
 namespace RPG::Client { class ByCanPlanetFesSkillLevelUp; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_87898F90D3A7C8BB_EVALUATE_OFFSET UNITYSDK_OFFSET(0xD369840)
-#define CLASS_3_87898F90D3A7C8BB__CTOR_OFFSET UNITYSDK_OFFSET(0xD369810)
+#define CLASS_3_87898F90D3A7C8BB_EVALUATE_OFFSET UNITYSDK_OFFSET(0xE029E00)
+#define CLASS_3_87898F90D3A7C8BB__CTOR_OFFSET UNITYSDK_OFFSET(0xE029DD0)
 
-inline static constexpr unsigned int Class_3_87898F90D3A7C8BB_TypeDefinitionIndex = 55387;
+inline static constexpr unsigned int Class_3_87898F90D3A7C8BB_TypeDefinitionIndex = 58118;
 
 class Class_3_87898F90D3A7C8BB : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::Client::ByCanPlanetFesSkillLevelUp*>
 {

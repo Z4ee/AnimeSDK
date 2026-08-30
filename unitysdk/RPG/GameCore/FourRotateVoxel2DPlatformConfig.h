@@ -4,16 +4,17 @@
 #include "unitysdk/RPG/MVector3.h"
 
 class Class_1_7A22A3DBEEDD1F80;
+namespace RPG::GameCore { class LittleGameEvent; }
 namespace RPG::GameCore { class PropButtonConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FOURROTATEVOXEL2DPLATFORMCONFIG_METHOD_3_57AF3ACA12CCB092_OFFSET UNITYSDK_OFFSET(0x1B49A700)
-#define RPG_GAMECORE_FOURROTATEVOXEL2DPLATFORMCONFIG_METHOD_3_69EDDAA07DFE3054_OFFSET UNITYSDK_OFFSET(0x1B49A6C0)
-#define RPG_GAMECORE_FOURROTATEVOXEL2DPLATFORMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B49A6F0)
+#define RPG_GAMECORE_FOURROTATEVOXEL2DPLATFORMCONFIG_METHOD_3_57AF3ACA12CCB092_OFFSET UNITYSDK_OFFSET(0x1D112BB0)
+#define RPG_GAMECORE_FOURROTATEVOXEL2DPLATFORMCONFIG_METHOD_3_69EDDAA07DFE3054_OFFSET UNITYSDK_OFFSET(0x1D112B70)
+#define RPG_GAMECORE_FOURROTATEVOXEL2DPLATFORMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D112BA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FourRotateVoxel2DPlatformConfig_TypeDefinitionIndex = 16101;
+	inline static constexpr unsigned int FourRotateVoxel2DPlatformConfig_TypeDefinitionIndex = 16582;
 
 	class FourRotateVoxel2DPlatformConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
@@ -26,6 +27,8 @@ namespace RPG::GameCore
 		::System::Boolean IsOverrideRotation; // 0x30
 		::RPG::MVector3 OverrideRotation; // 0x34
 		::RPG::GameCore::PropButtonConfig* InteractButtonConfig; // 0x40
+		::System::Boolean IsTriggerEventWhenLast2DPlatformUpgradeFinish; // 0x48
+		::RPG::GameCore::LittleGameEvent* OnLast2DPlatformUpgradeFinish; // 0x50
 
 		::System::Void _ctor()
 		{

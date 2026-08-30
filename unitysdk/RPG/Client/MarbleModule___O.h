@@ -6,14 +6,14 @@ namespace System { class Action; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MarbleModule___O_TypeDefinitionIndex = 62886;
+	inline static constexpr unsigned int MarbleModule___O_TypeDefinitionIndex = 65871;
 
 	class MarbleModule___O : public ::System::Object
 	{
 	public:
 		static ::System::Action** StaticGet__0___OpenMarbleMatchPage()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(MarbleModule___O_TypeDefinitionIndex)->GetStaticField(0x498A0);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(MarbleModule___O_TypeDefinitionIndex)->GetStaticField(0x65D30);
 		}
 	};
 }

@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/ActivityHipplen/ActivityHipplenWorkData.h"
 
-#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENINTERACTIONWORKDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xBB2CE20)
-#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENINTERACTIONWORKDATA__INITWORKEFFECTS_OFFSET UNITYSDK_OFFSET(0xBB2CE30)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENINTERACTIONWORKDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xC54AB50)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENINTERACTIONWORKDATA__INITWORKEFFECTS_OFFSET UNITYSDK_OFFSET(0xC54AB60)
 
 namespace RPG::Client::ActivityHipplen
 {
-	inline static constexpr unsigned int ActivityHipplenInteractionWorkData_TypeDefinitionIndex = 72008;
+	inline static constexpr unsigned int ActivityHipplenInteractionWorkData_TypeDefinitionIndex = 75314;
 
 	class ActivityHipplenInteractionWorkData : public ::RPG::Client::ActivityHipplen::ActivityHipplenWorkData
 	{

@@ -4,24 +4,24 @@
 
 namespace System::Threading { class WaitCallback; }
 
-#define SYSTEM_THREADING_TASKS_AWAITTASKCONTINUATION___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A03BF60)
-#define SYSTEM_THREADING_TASKS_AWAITTASKCONTINUATION___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A03BFA0)
-#define SYSTEM_THREADING_TASKS_AWAITTASKCONTINUATION___C__THROWASYNCIFNECESSARY_B__17_0_OFFSET UNITYSDK_OFFSET(0x1A03BFB0)
+#define SYSTEM_THREADING_TASKS_AWAITTASKCONTINUATION___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BC42830)
+#define SYSTEM_THREADING_TASKS_AWAITTASKCONTINUATION___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC42870)
+#define SYSTEM_THREADING_TASKS_AWAITTASKCONTINUATION___C__THROWASYNCIFNECESSARY_B__17_0_OFFSET UNITYSDK_OFFSET(0x1BC42880)
 
 namespace System::Threading::Tasks
 {
-	inline static constexpr unsigned int AwaitTaskContinuation___c_TypeDefinitionIndex = 921;
+	inline static constexpr unsigned int AwaitTaskContinuation___c_TypeDefinitionIndex = 926;
 
 	class AwaitTaskContinuation___c : public ::System::Object
 	{
 	public:
 		static ::System::Threading::WaitCallback** StaticGet___9__17_0()
 		{
-			return (::System::Threading::WaitCallback**)Il2CppClass::FromTypeDefinitionIndex(AwaitTaskContinuation___c_TypeDefinitionIndex)->GetStaticField(0x1D170);
+			return (::System::Threading::WaitCallback**)Il2CppClass::FromTypeDefinitionIndex(AwaitTaskContinuation___c_TypeDefinitionIndex)->GetStaticField(0x13530);
 		}
 		static ::System::Threading::Tasks::AwaitTaskContinuation___c** StaticGet___9()
 		{
-			return (::System::Threading::Tasks::AwaitTaskContinuation___c**)Il2CppClass::FromTypeDefinitionIndex(AwaitTaskContinuation___c_TypeDefinitionIndex)->GetStaticField(0x1D178);
+			return (::System::Threading::Tasks::AwaitTaskContinuation___c**)Il2CppClass::FromTypeDefinitionIndex(AwaitTaskContinuation___c_TypeDefinitionIndex)->GetStaticField(0x13538);
 		}
 
 		static ::System::Void _cctor()

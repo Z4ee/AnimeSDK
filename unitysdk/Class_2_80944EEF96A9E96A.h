@@ -5,22 +5,22 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class WaitDynamicSkillButtonInput; }
 
-#define CLASS_2_80944EEF96A9E96A_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB9324A0)
-#define CLASS_2_80944EEF96A9E96A_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB9325C0)
-#define CLASS_2_80944EEF96A9E96A_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB932570)
-#define CLASS_2_80944EEF96A9E96A_TICK_OFFSET UNITYSDK_OFFSET(0xB932670)
-#define CLASS_2_80944EEF96A9E96A__CTOR_OFFSET UNITYSDK_OFFSET(0xB9323E0)
+#define CLASS_2_80944EEF96A9E96A_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC342D60)
+#define CLASS_2_80944EEF96A9E96A_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC342E80)
+#define CLASS_2_80944EEF96A9E96A_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC342E30)
+#define CLASS_2_80944EEF96A9E96A_TICK_OFFSET UNITYSDK_OFFSET(0xC342F30)
+#define CLASS_2_80944EEF96A9E96A__CTOR_OFFSET UNITYSDK_OFFSET(0xC342CA0)
 
-inline static constexpr unsigned int Class_2_80944EEF96A9E96A_TypeDefinitionIndex = 53282;
+inline static constexpr unsigned int Class_2_80944EEF96A9E96A_TypeDefinitionIndex = 55996;
 
 class Class_2_80944EEF96A9E96A : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::RPG::GameCore::TaskContext* Field_2_0; // 0x18
-	::RPG::GameCore::WaitDynamicSkillButtonInput* Field_2_1; // 0x20
-	::Class_1_5F51D4049EA87B7B* Field_2_2; // 0x28
-	::System::Single Field_2_3; // 0x30
-	::System::Single Field_2_4; // 0x34
+	::Class_1_5F51D4049EA87B7B* LLHKOFLJFCH; // 0x18
+	::RPG::GameCore::WaitDynamicSkillButtonInput* OFKGLJOAMLD; // 0x20
+	::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x28
+	::System::Single DKOFFPPGEFI; // 0x30
+	::System::Single EFKCJMFANEB; // 0x34
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::WaitDynamicSkillButtonInput* a2)
 	{

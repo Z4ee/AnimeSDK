@@ -11,17 +11,17 @@ namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TrackAsset; }
 
-#define RPGTOOLS_TIMELINE_VFX_VFXTIMELINECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xDD368A0)
-#define RPGTOOLS_TIMELINE_VFX_VFXTIMELINECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xDD36870)
-#define RPGTOOLS_TIMELINE_VFX_VFXTIMELINECLIP_GET_EFFECTPREFAB_OFFSET UNITYSDK_OFFSET(0xDD36850)
-#define RPGTOOLS_TIMELINE_VFX_VFXTIMELINECLIP_GET_PARENTTRACK_OFFSET UNITYSDK_OFFSET(0xDD36880)
-#define RPGTOOLS_TIMELINE_VFX_VFXTIMELINECLIP_SET_EFFECTPREFAB_OFFSET UNITYSDK_OFFSET(0xDD36860)
-#define RPGTOOLS_TIMELINE_VFX_VFXTIMELINECLIP_SET_PARENTTRACK_OFFSET UNITYSDK_OFFSET(0xDD36890)
-#define RPGTOOLS_TIMELINE_VFX_VFXTIMELINECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xDD36940)
+#define RPGTOOLS_TIMELINE_VFX_VFXTIMELINECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE901C30)
+#define RPGTOOLS_TIMELINE_VFX_VFXTIMELINECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE901C00)
+#define RPGTOOLS_TIMELINE_VFX_VFXTIMELINECLIP_GET_EFFECTPREFAB_OFFSET UNITYSDK_OFFSET(0xE901BE0)
+#define RPGTOOLS_TIMELINE_VFX_VFXTIMELINECLIP_GET_PARENTTRACK_OFFSET UNITYSDK_OFFSET(0xE901C10)
+#define RPGTOOLS_TIMELINE_VFX_VFXTIMELINECLIP_SET_EFFECTPREFAB_OFFSET UNITYSDK_OFFSET(0xE901BF0)
+#define RPGTOOLS_TIMELINE_VFX_VFXTIMELINECLIP_SET_PARENTTRACK_OFFSET UNITYSDK_OFFSET(0xE901C20)
+#define RPGTOOLS_TIMELINE_VFX_VFXTIMELINECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xE901CD0)
 
 namespace RPGTools::Timeline::VFX
 {
-	inline static constexpr unsigned int VFXTimelineClip_TypeDefinitionIndex = 46895;
+	inline static constexpr unsigned int VFXTimelineClip_TypeDefinitionIndex = 49141;
 
 	class VFXTimelineClip : public ::UnityEngine::Playables::PlayableAsset
 	{
@@ -40,12 +40,12 @@ namespace RPGTools::Timeline::VFX
 		::System::Single effectScaleOffset; // 0x54
 		::System::Boolean UseMonoEffectAttach; // 0x58
 		::RPGTools::Timeline::TimelineExposedReference character; // 0x60
-		::System::String* TargetEntity; // 0x78
-		::System::String* CastEntity; // 0x80
-		::System::Boolean useFixedRandomSeed; // 0x88
-		::System::UInt32 randomSeed; // 0x8C
-		::System::Boolean SkipFadeIn; // 0x90
-		::UnityEngine::Timeline::TrackAsset* _parentTrack_k__BackingField; // 0x98
+		::System::String* TargetEntity; // 0x80
+		::System::String* CastEntity; // 0x88
+		::System::Boolean useFixedRandomSeed; // 0x90
+		::System::UInt32 randomSeed; // 0x94
+		::System::Boolean SkipFadeIn; // 0x98
+		::UnityEngine::Timeline::TrackAsset* _parentTrack_k__BackingField; // 0xA0
 
 		::System::Void _ctor()
 		{

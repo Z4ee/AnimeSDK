@@ -4,11 +4,11 @@
 
 namespace UnityEngine::Rendering { class BatchAnimationInstance; }
 
-#define UNITYENGINE_RENDERING_BASAMPLEMASKNODEPARAMATERS_PLAY_OFFSET UNITYSDK_OFFSET(0x1D04B380)
+#define UNITYENGINE_RENDERING_BASAMPLEMASKNODEPARAMATERS_PLAY_OFFSET UNITYSDK_OFFSET(0x1ED52BD0)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int BASampleMaskNodeParamaters_TypeDefinitionIndex = 4782;
+	inline static constexpr unsigned int BASampleMaskNodeParamaters_TypeDefinitionIndex = 4792;
 
 	struct alignas(1) BASampleMaskNodeParamaters
 	{

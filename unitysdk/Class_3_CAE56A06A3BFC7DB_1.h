@@ -6,17 +6,17 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ChenLingFesTargetConfig; }
 namespace System { class String; }
 
-#define CLASS_3_CAE56A06A3BFC7DB_1_METHOD_3_B0B66673456EDDF6_OFFSET UNITYSDK_OFFSET(0x1BA3B3F0)
-#define CLASS_3_CAE56A06A3BFC7DB_1_METHOD_3_C17C5E1EBAECCBCD_OFFSET UNITYSDK_OFFSET(0x1BA3B430)
-#define CLASS_3_CAE56A06A3BFC7DB_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA3B420)
+#define CLASS_3_CAE56A06A3BFC7DB_1_METHOD_3_B0B66673456EDDF6_OFFSET UNITYSDK_OFFSET(0x1D6CE2D0)
+#define CLASS_3_CAE56A06A3BFC7DB_1_METHOD_3_C17C5E1EBAECCBCD_OFFSET UNITYSDK_OFFSET(0x1D6CE310)
+#define CLASS_3_CAE56A06A3BFC7DB_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6CE300)
 
-inline static constexpr unsigned int Class_3_CAE56A06A3BFC7DB_1_TypeDefinitionIndex = 20711;
+inline static constexpr unsigned int Class_3_CAE56A06A3BFC7DB_1_TypeDefinitionIndex = 21267;
 
 class Class_3_CAE56A06A3BFC7DB_1 : public ::RPG::GameCore::TaskConfig
 {
 public:
-	::System::String* Field_3_0; // 0x18
-	::RPG::GameCore::ChenLingFesTargetConfig* Field_3_1; // 0x20
+	::System::String* MNDFOPKBHKP; // 0x18
+	::RPG::GameCore::ChenLingFesTargetConfig* GMJKHCGCNKA; // 0x20
 
 	::System::Void _ctor()
 	{

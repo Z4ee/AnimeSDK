@@ -5,16 +5,16 @@
 class Class_4_2E0A1A668714B3CC;
 namespace RPG::GameCore { class TeamTowersSkillConfig; }
 
-#define CLASS_4_2E0A1A668714B3CC___C__DISPLAYCLASS73_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A44E940)
-#define CLASS_4_2E0A1A668714B3CC___C__DISPLAYCLASS73_0___USEBOSSSKILL_B__0_OFFSET UNITYSDK_OFFSET(0x1A4567E0)
+#define CLASS_4_2E0A1A668714B3CC___C__DISPLAYCLASS73_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C05DDA0)
+#define CLASS_4_2E0A1A668714B3CC___C__DISPLAYCLASS73_0___USEBOSSSKILL_B__0_OFFSET UNITYSDK_OFFSET(0x1C066110)
 
-inline static constexpr unsigned int Class_4_2E0A1A668714B3CC___c__DisplayClass73_0_TypeDefinitionIndex = 35614;
+inline static constexpr unsigned int Class_4_2E0A1A668714B3CC___c__DisplayClass73_0_TypeDefinitionIndex = 36475;
 
 class Class_4_2E0A1A668714B3CC___c__DisplayClass73_0 : public ::System::Object
 {
 public:
-	::Class_4_2E0A1A668714B3CC* __4__this; // 0x10
-	::RPG::GameCore::TeamTowersSkillConfig* skillConfig; // 0x18
+	::RPG::GameCore::TeamTowersSkillConfig* skillConfig; // 0x10
+	::Class_4_2E0A1A668714B3CC* __4__this; // 0x18
 	::System::UInt32 skillID; // 0x20
 
 	::System::Void _ctor()

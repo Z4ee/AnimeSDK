@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class MessageUiData; }
 
-#define RPG_CLIENT_MOCKMESSAGEIDTOUIDATACONVERTER_PRODUCEMESSAGEUIDATA_OFFSET UNITYSDK_OFFSET(0xCC2B220)
-#define RPG_CLIENT_MOCKMESSAGEIDTOUIDATACONVERTER__CTOR_OFFSET UNITYSDK_OFFSET(0xCC2B350)
+#define RPG_CLIENT_MOCKMESSAGEIDTOUIDATACONVERTER_PRODUCEMESSAGEUIDATA_OFFSET UNITYSDK_OFFSET(0xD72A120)
+#define RPG_CLIENT_MOCKMESSAGEIDTOUIDATACONVERTER__CTOR_OFFSET UNITYSDK_OFFSET(0xD72A250)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MockMessageIdToUiDataConverter_TypeDefinitionIndex = 58811;
+	inline static constexpr unsigned int MockMessageIdToUiDataConverter_TypeDefinitionIndex = 61642;
 
 	class MockMessageIdToUiDataConverter : public ::System::Object
 	{

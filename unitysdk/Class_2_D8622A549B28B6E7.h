@@ -8,18 +8,18 @@ namespace RPG::GameCore { class TargetSortByPredicate; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_D8622A549B28B6E7_COMPARE_OFFSET UNITYSDK_OFFSET(0xD03DC70)
-#define CLASS_2_D8622A549B28B6E7_METHOD_2_63A75319D8C51064_OFFSET UNITYSDK_OFFSET(0xD03E290)
-#define CLASS_2_D8622A549B28B6E7_TRANSFORM_OFFSET UNITYSDK_OFFSET(0xD03DFD0)
-#define CLASS_2_D8622A549B28B6E7__CTOR_OFFSET UNITYSDK_OFFSET(0xD03DC50)
+#define CLASS_2_D8622A549B28B6E7_COMPARE_OFFSET UNITYSDK_OFFSET(0xDD79AF0)
+#define CLASS_2_D8622A549B28B6E7_METHOD_2_63A75319D8C51064_OFFSET UNITYSDK_OFFSET(0xDD7A110)
+#define CLASS_2_D8622A549B28B6E7_TRANSFORM_OFFSET UNITYSDK_OFFSET(0xDD79E50)
+#define CLASS_2_D8622A549B28B6E7__CTOR_OFFSET UNITYSDK_OFFSET(0xDD79AD0)
 
-inline static constexpr unsigned int Class_2_D8622A549B28B6E7_TypeDefinitionIndex = 56527;
+inline static constexpr unsigned int Class_2_D8622A549B28B6E7_TypeDefinitionIndex = 59311;
 
 class Class_2_D8622A549B28B6E7 : public ::RPG::GameCore::TargetSeqOperationImpl_1<::RPG::GameCore::TargetSortByPredicate*>
 {
 public:
-	::Class_1_5F51D4049EA87B7B* Field_2_0; // 0x18
-	::RPG::GameCore::TaskContext* Field_2_1; // 0x20
+	::Class_1_5F51D4049EA87B7B* LLHKOFLJFCH; // 0x18
+	::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x20
 
 	::System::Void _ctor(::RPG::GameCore::TargetSortByPredicate* a1)
 	{

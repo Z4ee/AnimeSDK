@@ -8,16 +8,16 @@ namespace RPG::Client::ActivityIdleLive { class IIdleLiveAvatarData; }
 namespace RPG::Client::ActivityIdleLive { class IdleLiveBaseTeamInfo; }
 namespace RPG::Client::ActivityIdleLive { class SpEquipSlotInfo; }
 
-#define CLASS_2_F381088144B39337_BUILD_OFFSET UNITYSDK_OFFSET(0xAD48220)
-#define CLASS_2_F381088144B39337__CTOR_OFFSET UNITYSDK_OFFSET(0xAD48200)
+#define CLASS_2_F381088144B39337_BUILD_OFFSET UNITYSDK_OFFSET(0xD230C50)
+#define CLASS_2_F381088144B39337__CTOR_OFFSET UNITYSDK_OFFSET(0xD230C30)
 
-inline static constexpr unsigned int Class_2_F381088144B39337_TypeDefinitionIndex = 71528;
+inline static constexpr unsigned int Class_2_F381088144B39337_TypeDefinitionIndex = 74834;
 
 class Class_2_F381088144B39337 : public ::RPG::Client::ActivityIdleLive::IdleLiveModifierBuilder_1<::RPG::Client::ActivityIdleLive::IdleLiveDecimal>
 {
 public:
-	::RPG::Client::ActivityIdleLive::SpEquipSlotInfo* Field_2_0; // 0x10
-	::RPG::Client::ActivityIdleLive::IdleLiveBaseTeamInfo* Field_2_1; // 0x18
+	::RPG::Client::ActivityIdleLive::IdleLiveBaseTeamInfo* GLCFFOIDEMA; // 0x10
+	::RPG::Client::ActivityIdleLive::SpEquipSlotInfo* KIHNNLDEOOM; // 0x18
 
 	::System::Void _ctor(::RPG::Client::ActivityIdleLive::SpEquipSlotInfo* a1, ::RPG::Client::ActivityIdleLive::IdleLiveBaseTeamInfo* a2)
 	{

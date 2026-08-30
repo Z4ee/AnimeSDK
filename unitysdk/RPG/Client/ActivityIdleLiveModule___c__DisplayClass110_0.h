@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class ItemDisplayData; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVEMODULE___C__DISPLAYCLASS110_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBBEE9A0)
-#define RPG_CLIENT_ACTIVITYIDLELIVEMODULE___C__DISPLAYCLASS110_0___INITFINALACTDICT_B__0_OFFSET UNITYSDK_OFFSET(0xBBF66D0)
+#define RPG_CLIENT_ACTIVITYIDLELIVEMODULE___C__DISPLAYCLASS110_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC614B80)
+#define RPG_CLIENT_ACTIVITYIDLELIVEMODULE___C__DISPLAYCLASS110_0___INITFINALACTDICT_B__0_OFFSET UNITYSDK_OFFSET(0xC614B90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityIdleLiveModule___c__DisplayClass110_0_TypeDefinitionIndex = 58802;
+	inline static constexpr unsigned int ActivityIdleLiveModule___c__DisplayClass110_0_TypeDefinitionIndex = 61633;
 
 	class ActivityIdleLiveModule___c__DisplayClass110_0 : public ::System::Object
 	{

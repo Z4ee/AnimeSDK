@@ -8,18 +8,18 @@ namespace RPG::LittleGameShare::HoyoPhysics::Box2D { template <typename T> class
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2Sensors___O_TypeDefinitionIndex = 35208;
+	inline static constexpr unsigned int B2Sensors___O_TypeDefinitionIndex = 36069;
 
 	class B2Sensors___O : public ::System::Object
 	{
 	public:
-		static ::RPG::LittleGameShare::HoyoPhysics::Box2D::b2TreeQueryCallbackFcn_1<::RPG::LittleGameShare::HoyoPhysics::Box2D::B2SensorQueryContext>** StaticGet__0___b2SensorQueryCallback()
-		{
-			return (::RPG::LittleGameShare::HoyoPhysics::Box2D::b2TreeQueryCallbackFcn_1<::RPG::LittleGameShare::HoyoPhysics::Box2D::B2SensorQueryContext>**)Il2CppClass::FromTypeDefinitionIndex(B2Sensors___O_TypeDefinitionIndex)->GetStaticField(0x5FD20);
-		}
 		static ::RPG::LittleGameShare::HoyoPhysics::Box2D::b2TaskCallback** StaticGet__1___b2SensorTask()
 		{
-			return (::RPG::LittleGameShare::HoyoPhysics::Box2D::b2TaskCallback**)Il2CppClass::FromTypeDefinitionIndex(B2Sensors___O_TypeDefinitionIndex)->GetStaticField(0x5FD28);
+			return (::RPG::LittleGameShare::HoyoPhysics::Box2D::b2TaskCallback**)Il2CppClass::FromTypeDefinitionIndex(B2Sensors___O_TypeDefinitionIndex)->GetStaticField(0x2A370);
+		}
+		static ::RPG::LittleGameShare::HoyoPhysics::Box2D::b2TreeQueryCallbackFcn_1<::RPG::LittleGameShare::HoyoPhysics::Box2D::B2SensorQueryContext>** StaticGet__0___b2SensorQueryCallback()
+		{
+			return (::RPG::LittleGameShare::HoyoPhysics::Box2D::b2TreeQueryCallbackFcn_1<::RPG::LittleGameShare::HoyoPhysics::Box2D::B2SensorQueryContext>**)Il2CppClass::FromTypeDefinitionIndex(B2Sensors___O_TypeDefinitionIndex)->GetStaticField(0x2A378);
 		}
 	};
 }

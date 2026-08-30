@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MAPROTATIONTEXTCONFIG_METHOD_2_6F19273377D731CD_OFFSET UNITYSDK_OFFSET(0x1B5AAB40)
-#define RPG_GAMECORE_MAPROTATIONTEXTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5AADB0)
+#define RPG_GAMECORE_MAPROTATIONTEXTCONFIG_METHOD_2_6F19273377D731CD_OFFSET UNITYSDK_OFFSET(0x1D226C50)
+#define RPG_GAMECORE_MAPROTATIONTEXTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D227370)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MapRotationTextConfig_TypeDefinitionIndex = 16352;
+	inline static constexpr unsigned int MapRotationTextConfig_TypeDefinitionIndex = 16840;
 
 	class MapRotationTextConfig : public ::RPG::GameCore::JsonConfig
 	{

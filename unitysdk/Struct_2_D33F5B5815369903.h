@@ -5,10 +5,10 @@
 
 namespace System { class Object; }
 
-inline static constexpr unsigned int Struct_2_D33F5B5815369903_TypeDefinitionIndex = 51646;
+inline static constexpr unsigned int Struct_2_D33F5B5815369903_TypeDefinitionIndex = 54330;
 
 struct alignas(8) Struct_2_D33F5B5815369903
 {
-	::RPG::GameCore::RtLifeBindingType Field_2_0; // 0x10
-	::System::Object* Field_2_1; // 0x18
+	::RPG::GameCore::RtLifeBindingType PPPOGKPOPBA; // 0x10
+	::System::Object* NEEOLLJLEGA; // 0x18
 };

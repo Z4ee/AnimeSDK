@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGameShare::TeamTowersCore
 {
-	inline static constexpr unsigned int PendingSkillEffectType_TypeDefinitionIndex = 35546;
+	inline static constexpr unsigned int PendingSkillEffectType_TypeDefinitionIndex = 36407;
 
 	enum class PendingSkillEffectType : ::System::Byte
 	{

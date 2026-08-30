@@ -7,14 +7,14 @@ namespace System { class Type; }
 namespace System { class Uri; }
 namespace System::Threading::Tasks { template <typename T> class Task_1; }
 
-#define SYSTEM_XML_XMLRESOLVER_GETENTITYASYNC_OFFSET UNITYSDK_OFFSET(0x1CC13450)
-#define SYSTEM_XML_XMLRESOLVER_RESOLVEURI_OFFSET UNITYSDK_OFFSET(0x1CC13100)
-#define SYSTEM_XML_XMLRESOLVER_SUPPORTSTYPE_OFFSET UNITYSDK_OFFSET(0x1CC13390)
-#define SYSTEM_XML_XMLRESOLVER__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC134A0)
+#define SYSTEM_XML_XMLRESOLVER_GETENTITYASYNC_OFFSET UNITYSDK_OFFSET(0x1E8BDB70)
+#define SYSTEM_XML_XMLRESOLVER_RESOLVEURI_OFFSET UNITYSDK_OFFSET(0x1E8BD820)
+#define SYSTEM_XML_XMLRESOLVER_SUPPORTSTYPE_OFFSET UNITYSDK_OFFSET(0x1E8BDAB0)
+#define SYSTEM_XML_XMLRESOLVER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E8BDBC0)
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int XmlResolver_TypeDefinitionIndex = 1962;
+	inline static constexpr unsigned int XmlResolver_TypeDefinitionIndex = 1969;
 
 	class XmlResolver : public ::System::Object
 	{

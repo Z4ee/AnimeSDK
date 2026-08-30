@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define SYSTEM_APPDOMAINSETUP__CTOR_OFFSET UNITYSDK_OFFSET(0x19F90020)
+#define SYSTEM_APPDOMAINSETUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB94EA0)
 
 namespace System
 {
-	inline static constexpr unsigned int AppDomainSetup_TypeDefinitionIndex = 375;
+	inline static constexpr unsigned int AppDomainSetup_TypeDefinitionIndex = 378;
 
 	class AppDomainSetup : public ::System::Object
 	{

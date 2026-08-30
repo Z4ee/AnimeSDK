@@ -6,12 +6,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_VIDEOCAPTION_METHOD_2_9A0198C2ADB8ADF6_OFFSET UNITYSDK_OFFSET(0x1B9DD010)
-#define RPG_GAMECORE_VIDEOCAPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9DD290)
+#define RPG_GAMECORE_VIDEOCAPTION_METHOD_2_9A0198C2ADB8ADF6_OFFSET UNITYSDK_OFFSET(0x1D699B40)
+#define RPG_GAMECORE_VIDEOCAPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D699DC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int VideoCaption_TypeDefinitionIndex = 16333;
+	inline static constexpr unsigned int VideoCaption_TypeDefinitionIndex = 16821;
 
 	class VideoCaption : public ::RPG::GameCore::JsonConfig
 	{

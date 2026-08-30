@@ -4,20 +4,20 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_IDLELIVESUBNODEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B52B000)
-#define RPG_GAMECORE_IDLELIVESUBNODEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B52B1B0)
+#define RPG_GAMECORE_IDLELIVESUBNODEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D1A4650)
+#define RPG_GAMECORE_IDLELIVESUBNODEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1A4800)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveSubNodeRow_TypeDefinitionIndex = 11287;
+	inline static constexpr unsigned int IdleLiveSubNodeRow_TypeDefinitionIndex = 11676;
 
 	class IdleLiveSubNodeRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 SubNodeID; // 0x10
-		::System::UInt32 StageID; // 0x14
-		::System::UInt32 RewardID; // 0x18
-		::System::UInt32 EquipOrbDrop; // 0x1C
+		::System::UInt32 RewardID; // 0x10
+		::System::UInt32 EquipOrbDrop; // 0x14
+		::System::UInt32 SubNodeID; // 0x18
+		::System::UInt32 StageID; // 0x1C
 
 		::System::Void _ctor()
 		{

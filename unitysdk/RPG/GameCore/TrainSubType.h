@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrainSubType_TypeDefinitionIndex = 13515;
+	inline static constexpr unsigned int TrainSubType_TypeDefinitionIndex = 13932;
 
 	enum class TrainSubType : ::System::Int32
 	{

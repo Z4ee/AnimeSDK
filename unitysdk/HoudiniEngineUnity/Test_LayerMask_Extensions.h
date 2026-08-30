@@ -5,11 +5,11 @@
 
 namespace HoudiniEngineUnity { class Test_LayerMask; }
 
-#define HOUDINIENGINEUNITY_TEST_LAYERMASK_EXTENSIONS_TOTESTOBJECT_OFFSET UNITYSDK_OFFSET(0x19925A10)
+#define HOUDINIENGINEUNITY_TEST_LAYERMASK_EXTENSIONS_TOTESTOBJECT_OFFSET UNITYSDK_OFFSET(0x1B4B0C60)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int Test_LayerMask_Extensions_TypeDefinitionIndex = 38588;
+	inline static constexpr unsigned int Test_LayerMask_Extensions_TypeDefinitionIndex = 39447;
 
 	class Test_LayerMask_Extensions : public ::System::Object
 	{

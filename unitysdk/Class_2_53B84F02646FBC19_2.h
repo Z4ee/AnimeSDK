@@ -2,27 +2,25 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Class_1_5F51D4049EA87B7B.h"
 
-class Class_3_2B191171D22B4B5F;
+class Class_3_CB7B13C5C1487F07;
 namespace RPG::GameCore { class TaskContext; }
-namespace System { class Object; }
 
-#define CLASS_2_53B84F02646FBC19_2_DISPOSE_OFFSET UNITYSDK_OFFSET(0xD5B0F10)
-#define CLASS_2_53B84F02646FBC19_2_METHOD_2_F37CDBD6D46274D2_OFFSET UNITYSDK_OFFSET(0xD5B1250)
-#define CLASS_2_53B84F02646FBC19_2_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xD5B0F90)
-#define CLASS_2_53B84F02646FBC19_2_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xD5B1140)
-#define CLASS_2_53B84F02646FBC19_2_TICK_OFFSET UNITYSDK_OFFSET(0xD5B11F0)
-#define CLASS_2_53B84F02646FBC19_2__CTOR_OFFSET UNITYSDK_OFFSET(0xD5B0F00)
+#define CLASS_2_53B84F02646FBC19_2_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBC7ED40)
+#define CLASS_2_53B84F02646FBC19_2_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBC7EDA0)
+#define CLASS_2_53B84F02646FBC19_2_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBC7EE70)
+#define CLASS_2_53B84F02646FBC19_2_TICK_OFFSET UNITYSDK_OFFSET(0xBC7EEC0)
+#define CLASS_2_53B84F02646FBC19_2__CTOR_OFFSET UNITYSDK_OFFSET(0xBC7ED30)
 
-inline static constexpr unsigned int Class_2_53B84F02646FBC19_2_TypeDefinitionIndex = 50540;
+inline static constexpr unsigned int Class_2_53B84F02646FBC19_2_TypeDefinitionIndex = 52920;
 
 class Class_2_53B84F02646FBC19_2 : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::Class_3_2B191171D22B4B5F* Field_2_0; // 0x18
+	::Class_3_CB7B13C5C1487F07* IGHAHBNLIJA; // 0x18
 
-	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::Class_3_2B191171D22B4B5F* a2)
+	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::Class_3_CB7B13C5C1487F07* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::Class_3_2B191171D22B4B5F*))((::PBYTE)hIl2Cpp + CLASS_2_53B84F02646FBC19_2__CTOR_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::Class_3_CB7B13C5C1487F07*))((::PBYTE)hIl2Cpp + CLASS_2_53B84F02646FBC19_2__CTOR_OFFSET))(this, a1, a2);
 	}
 
 	::System::Void Dispose()
@@ -43,10 +41,5 @@ public:
 	::System::Void Tick(::System::Single a1)
 	{
 		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_2_53B84F02646FBC19_2_TICK_OFFSET))(this, a1);
-	}
-
-	::System::Void Method_2_F37CDBD6D46274D2(::System::Object* a1)
-	{
-		return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_2_53B84F02646FBC19_2_METHOD_2_F37CDBD6D46274D2_OFFSET))(this, a1);
 	}
 };

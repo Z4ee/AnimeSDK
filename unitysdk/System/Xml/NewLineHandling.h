@@ -3,7 +3,7 @@
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int NewLineHandling_TypeDefinitionIndex = 1813;
+	inline static constexpr unsigned int NewLineHandling_TypeDefinitionIndex = 1820;
 
 	enum class NewLineHandling : ::System::Int32
 	{

@@ -8,16 +8,16 @@ namespace RPG::Client::FateRin::Avatar { class IFateRinAvatarViewModel; }
 namespace RPG::Client::FateRin::Logging { class ILogger; }
 namespace RPG::Client::FateRin::Logging { class ILoggerFactory; }
 
-#define CLASS_1_4861D42713DBAB1D_METHOD_1_876C3F8E8206B5CD_OFFSET UNITYSDK_OFFSET(0xB74E250)
-#define CLASS_1_4861D42713DBAB1D__CTOR_OFFSET UNITYSDK_OFFSET(0xB74E1A0)
+#define CLASS_1_4861D42713DBAB1D_METHOD_1_876C3F8E8206B5CD_OFFSET UNITYSDK_OFFSET(0xC11DB50)
+#define CLASS_1_4861D42713DBAB1D__CTOR_OFFSET UNITYSDK_OFFSET(0xC11DAA0)
 
-inline static constexpr unsigned int Class_1_4861D42713DBAB1D_TypeDefinitionIndex = 76276;
+inline static constexpr unsigned int Class_1_4861D42713DBAB1D_TypeDefinitionIndex = 79909;
 
 class Class_1_4861D42713DBAB1D : public ::System::Object
 {
 public:
-	::RPG::Client::FateRin::Logging::ILogger* Field_1_0; // 0x10
-	::Class_1_F248B058F5A06B98* Field_1_1; // 0x18
+	::RPG::Client::FateRin::Logging::ILogger* JKCNFDEAMDJ; // 0x10
+	::Class_1_F248B058F5A06B98* DEEMJACOGII; // 0x18
 
 	::System::Void _ctor(::Class_1_F248B058F5A06B98* a1, ::RPG::Client::FateRin::Logging::ILoggerFactory* a2)
 	{

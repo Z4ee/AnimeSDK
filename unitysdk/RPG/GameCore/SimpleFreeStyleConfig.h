@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_SIMPLEFREESTYLECONFIG_METHOD_2_E86703846AF790DF_OFFSET UNITYSDK_OFFSET(0x1B8D9070)
-#define RPG_GAMECORE_SIMPLEFREESTYLECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8D9240)
+#define RPG_GAMECORE_SIMPLEFREESTYLECONFIG_METHOD_2_E86703846AF790DF_OFFSET UNITYSDK_OFFSET(0x1D534DE0)
+#define RPG_GAMECORE_SIMPLEFREESTYLECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D534FB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SimpleFreeStyleConfig_TypeDefinitionIndex = 20821;
+	inline static constexpr unsigned int SimpleFreeStyleConfig_TypeDefinitionIndex = 21377;
 
 	class SimpleFreeStyleConfig : public ::RPG::GameCore::JsonConfig
 	{

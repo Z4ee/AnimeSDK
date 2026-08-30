@@ -12,29 +12,29 @@ namespace UnityEngine { class Animation; }
 namespace UnityEngine { class Canvas; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEEQUIPFLY_DESPAWNED_OFFSET UNITYSDK_OFFSET(0xBB975C0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEEQUIPFLY_FLY_OFFSET UNITYSDK_OFFSET(0xBB97160)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEEQUIPFLY_ONCREATE_OFFSET UNITYSDK_OFFSET(0xBB97640)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEEQUIPFLY_SETCANVAS_OFFSET UNITYSDK_OFFSET(0xBB97520)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEEQUIPFLY_SPAWNED_OFFSET UNITYSDK_OFFSET(0xBB97600)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEEQUIPFLY__CTOR_OFFSET UNITYSDK_OFFSET(0xBB978C0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEEQUIPFLY_DESPAWNED_OFFSET UNITYSDK_OFFSET(0xC5B5440)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEEQUIPFLY_FLY_OFFSET UNITYSDK_OFFSET(0xC5B4FE0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEEQUIPFLY_ONCREATE_OFFSET UNITYSDK_OFFSET(0xC5B54C0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEEQUIPFLY_SETCANVAS_OFFSET UNITYSDK_OFFSET(0xC5B53A0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEEQUIPFLY_SPAWNED_OFFSET UNITYSDK_OFFSET(0xC5B5480)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEEQUIPFLY__CTOR_OFFSET UNITYSDK_OFFSET(0xC5B5740)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveEquipFly_TypeDefinitionIndex = 71570;
+	inline static constexpr unsigned int IdleLiveEquipFly_TypeDefinitionIndex = 74876;
 
 	class IdleLiveEquipFly : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		// static const ::System::String* Field_5_0; // 0x0
-		// static const ::System::Single Field_5_1; // 0x0
-		::System::Single Field_5_2; // 0x18
-		::UnityEngine::Transform* Field_5_3; // 0x20
-		::UnityEngine::Transform* Field_5_4; // 0x28
-		::UnityEngine::Transform* Field_5_5; // 0x30
-		::RPG::Client::QuadricBezier* Field_5_6; // 0x38
-		::UnityEngine::Animation* Field_5_7; // 0x40
-		::RPG::Client::MonoUILayerOrderAdjuster* Field_5_8; // 0x48
+		// static const ::System::String* PNBBLMANKPC; // 0x0
+		// static const ::System::Single HAFLCIGAPFF; // 0x0
+		::System::Single LJEOPKOBAGF; // 0x18
+		::UnityEngine::Transform* KNGEKPKBIDK; // 0x20
+		::UnityEngine::Transform* CEEAKCACHGJ; // 0x28
+		::UnityEngine::Transform* GNPBGAKIAHM; // 0x30
+		::RPG::Client::QuadricBezier* BKHMEKLPNHJ; // 0x38
+		::UnityEngine::Animation* KCOAILOHDND; // 0x40
+		::RPG::Client::MonoUILayerOrderAdjuster* KDHFKGMCKCJ; // 0x48
 
 		::System::Void _ctor()
 		{

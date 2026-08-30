@@ -6,12 +6,12 @@ class Class_3_5AB18F7F8B74B214;
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_TACOMPONETPOSITONPASTERMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xD5FBCE0)
-#define RPG_CLIENT_TACOMPONETPOSITONPASTERMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xD5FBD30)
+#define RPG_CLIENT_TACOMPONETPOSITONPASTERMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xE148EA0)
+#define RPG_CLIENT_TACOMPONETPOSITONPASTERMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xE148EF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TAComponetPositonPasterMonoPlugin_TypeDefinitionIndex = 67605;
+	inline static constexpr unsigned int TAComponetPositonPasterMonoPlugin_TypeDefinitionIndex = 70728;
 
 	class TAComponetPositonPasterMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::Class_3_5AB18F7F8B74B214*>
 	{

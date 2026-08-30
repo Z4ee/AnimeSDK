@@ -6,20 +6,20 @@ namespace System { class String; }
 namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MIHOYO_SDK_PROTOBUF_JSONFORMATTER_ORIGINALENUMVALUEHELPER_GETNAMEMAPPING_OFFSET UNITYSDK_OFFSET(0x19B5F9A0)
-#define MIHOYO_SDK_PROTOBUF_JSONFORMATTER_ORIGINALENUMVALUEHELPER_GETORIGINALNAME_OFFSET UNITYSDK_OFFSET(0x19B5C180)
-#define MIHOYO_SDK_PROTOBUF_JSONFORMATTER_ORIGINALENUMVALUEHELPER__CCTOR_OFFSET UNITYSDK_OFFSET(0x19B5FC40)
+#define MIHOYO_SDK_PROTOBUF_JSONFORMATTER_ORIGINALENUMVALUEHELPER_GETNAMEMAPPING_OFFSET UNITYSDK_OFFSET(0x1B6EEFC0)
+#define MIHOYO_SDK_PROTOBUF_JSONFORMATTER_ORIGINALENUMVALUEHELPER_GETORIGINALNAME_OFFSET UNITYSDK_OFFSET(0x1B6EB7A0)
+#define MIHOYO_SDK_PROTOBUF_JSONFORMATTER_ORIGINALENUMVALUEHELPER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B6EF260)
 
 namespace MiHoYo::SDK::Protobuf
 {
-	inline static constexpr unsigned int JsonFormatter_OriginalEnumValueHelper_TypeDefinitionIndex = 34291;
+	inline static constexpr unsigned int JsonFormatter_OriginalEnumValueHelper_TypeDefinitionIndex = 35058;
 
 	class JsonFormatter_OriginalEnumValueHelper : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::String*>*>** StaticGet_dictionaries()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::String*>*>**)Il2CppClass::FromTypeDefinitionIndex(JsonFormatter_OriginalEnumValueHelper_TypeDefinitionIndex)->GetStaticField(0x4A940);
+			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::String*>*>**)Il2CppClass::FromTypeDefinitionIndex(JsonFormatter_OriginalEnumValueHelper_TypeDefinitionIndex)->GetStaticField(0x621A0);
 		}
 
 		static ::System::Void _cctor()

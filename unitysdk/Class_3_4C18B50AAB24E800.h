@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AdvTrackNpcSoundTrigger; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_4C18B50AAB24E800_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x147F8460)
-#define CLASS_3_4C18B50AAB24E800__CTOR_OFFSET UNITYSDK_OFFSET(0x147F8430)
+#define CLASS_3_4C18B50AAB24E800_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x156B5070)
+#define CLASS_3_4C18B50AAB24E800__CTOR_OFFSET UNITYSDK_OFFSET(0x156B5040)
 
-inline static constexpr unsigned int Class_3_4C18B50AAB24E800_TypeDefinitionIndex = 50127;
+inline static constexpr unsigned int Class_3_4C18B50AAB24E800_TypeDefinitionIndex = 52789;
 
 class Class_3_4C18B50AAB24E800 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AdvTrackNpcSoundTrigger*>
 {

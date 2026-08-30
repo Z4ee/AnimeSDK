@@ -5,18 +5,18 @@
 namespace RPG::Client { class MuseumModule___c__DisplayClass171_0; }
 namespace RPG::Client { class MuseumStaffData; }
 
-#define RPG_CLIENT_MUSEUMMODULE___C__DISPLAYCLASS171_1__CTOR_OFFSET UNITYSDK_OFFSET(0xCE00740)
-#define RPG_CLIENT_MUSEUMMODULE___C__DISPLAYCLASS171_1___REFRESHSTAFFAVAILABLE_B__1_OFFSET UNITYSDK_OFFSET(0xCE028A0)
+#define RPG_CLIENT_MUSEUMMODULE___C__DISPLAYCLASS171_1__CTOR_OFFSET UNITYSDK_OFFSET(0xD901560)
+#define RPG_CLIENT_MUSEUMMODULE___C__DISPLAYCLASS171_1___REFRESHSTAFFAVAILABLE_B__1_OFFSET UNITYSDK_OFFSET(0xD9036C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MuseumModule___c__DisplayClass171_1_TypeDefinitionIndex = 63391;
+	inline static constexpr unsigned int MuseumModule___c__DisplayClass171_1_TypeDefinitionIndex = 66376;
 
 	class MuseumModule___c__DisplayClass171_1 : public ::System::Object
 	{
 	public:
-		::RPG::Client::MuseumStaffData* museumStaffData; // 0x10
-		::RPG::Client::MuseumModule___c__DisplayClass171_0* CS___8__locals1; // 0x18
+		::RPG::Client::MuseumModule___c__DisplayClass171_0* CS___8__locals1; // 0x10
+		::RPG::Client::MuseumStaffData* museumStaffData; // 0x18
 
 		::System::Void _ctor()
 		{

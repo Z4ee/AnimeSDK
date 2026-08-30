@@ -9,29 +9,32 @@ namespace RPG::Client { class LuaUIController; }
 namespace RPG::Client { class RogueWorkBenchCost; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_CLIENT_ROGUEWORKBENCHCOMPOSEMIRACLE_GETFUNCID_OFFSET UNITYSDK_OFFSET(0xD4A7280)
-#define RPG_CLIENT_ROGUEWORKBENCHCOMPOSEMIRACLE_GETFUNCTYPE_OFFSET UNITYSDK_OFFSET(0xD4A7230)
-#define RPG_CLIENT_ROGUEWORKBENCHCOMPOSEMIRACLE_GETIFCOMPOSEVALIDBYCATEGORY_OFFSET UNITYSDK_OFFSET(0xD4A71B0)
-#define RPG_CLIENT_ROGUEWORKBENCHCOMPOSEMIRACLE_GET_COSTDATA_OFFSET UNITYSDK_OFFSET(0xD4A7420)
-#define RPG_CLIENT_ROGUEWORKBENCHCOMPOSEMIRACLE_OPENFUNCUIPAGE_OFFSET UNITYSDK_OFFSET(0xD4A72C0)
-#define RPG_CLIENT_ROGUEWORKBENCHCOMPOSEMIRACLE_REFRESH_OFFSET UNITYSDK_OFFSET(0xD4A7140)
-#define RPG_CLIENT_ROGUEWORKBENCHCOMPOSEMIRACLE_SET_COSTDATA_OFFSET UNITYSDK_OFFSET(0xD4A7430)
-#define RPG_CLIENT_ROGUEWORKBENCHCOMPOSEMIRACLE__CTOR_OFFSET UNITYSDK_OFFSET(0xD4A6BE0)
+#define RPG_CLIENT_ROGUEWORKBENCHCOMPOSEMIRACLE_GETFUNCID_OFFSET UNITYSDK_OFFSET(0xDFCC230)
+#define RPG_CLIENT_ROGUEWORKBENCHCOMPOSEMIRACLE_GETFUNCTYPE_OFFSET UNITYSDK_OFFSET(0xDFCC1E0)
+#define RPG_CLIENT_ROGUEWORKBENCHCOMPOSEMIRACLE_GETIFCOMPOSEVALIDBYCATEGORY_OFFSET UNITYSDK_OFFSET(0xDFCC160)
+#define RPG_CLIENT_ROGUEWORKBENCHCOMPOSEMIRACLE_GET_COSTDATA_OFFSET UNITYSDK_OFFSET(0xDFCC3F0)
+#define RPG_CLIENT_ROGUEWORKBENCHCOMPOSEMIRACLE_GET_ISDISABLE_OFFSET UNITYSDK_OFFSET(0xDFCC3D0)
+#define RPG_CLIENT_ROGUEWORKBENCHCOMPOSEMIRACLE_OPENFUNCUIPAGE_OFFSET UNITYSDK_OFFSET(0xDFCC270)
+#define RPG_CLIENT_ROGUEWORKBENCHCOMPOSEMIRACLE_REFRESH_OFFSET UNITYSDK_OFFSET(0xDFCC0E0)
+#define RPG_CLIENT_ROGUEWORKBENCHCOMPOSEMIRACLE_SET_COSTDATA_OFFSET UNITYSDK_OFFSET(0xDFCC400)
+#define RPG_CLIENT_ROGUEWORKBENCHCOMPOSEMIRACLE_SET_ISDISABLE_OFFSET UNITYSDK_OFFSET(0xDFCC3E0)
+#define RPG_CLIENT_ROGUEWORKBENCHCOMPOSEMIRACLE__CTOR_OFFSET UNITYSDK_OFFSET(0xDFCBB50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueWorkBenchComposeMiracle_TypeDefinitionIndex = 64358;
+	inline static constexpr unsigned int RogueWorkBenchComposeMiracle_TypeDefinitionIndex = 67354;
 
 	class RogueWorkBenchComposeMiracle : public ::System::Object
 	{
 	public:
-		::RPG::Client::RogueWorkBenchCost* _CostData_k__BackingField; // 0x10
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::RogueMiracleCategory, ::System::Boolean>* _ValidMap; // 0x18
-		::System::UInt32 _FuncID; // 0x20
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::RogueMiracleCategory, ::System::Boolean>* _ValidMap; // 0x10
+		::RPG::Client::RogueWorkBenchCost* _CostData_k__BackingField; // 0x18
+		::System::Boolean _IsDisable_k__BackingField; // 0x20
+		::System::UInt32 _FuncID; // 0x24
 
-		::System::Void _ctor(::System::UInt32 a1, ::Class_1_C320CF7265193ED8* a2)
+		::System::Void _ctor(::System::UInt32 a1, ::Class_1_C320CF7265193ED8* a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::Class_1_C320CF7265193ED8*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEWORKBENCHCOMPOSEMIRACLE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::Class_1_C320CF7265193ED8*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEWORKBENCHCOMPOSEMIRACLE__CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void Refresh(::RPG::Client::RogueWorkBenchComposeMiracle* a1)
@@ -57,6 +60,16 @@ namespace RPG::Client
 		::RPG::Client::LuaUIController* OpenFuncUIPage(::System::UInt32 a1)
 		{
 			return ((::RPG::Client::LuaUIController*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEWORKBENCHCOMPOSEMIRACLE_OPENFUNCUIPAGE_OFFSET))(this, a1);
+		}
+
+		::System::Boolean get_IsDisable()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEWORKBENCHCOMPOSEMIRACLE_GET_ISDISABLE_OFFSET))(this);
+		}
+
+		::System::Void set_IsDisable(::System::Boolean a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEWORKBENCHCOMPOSEMIRACLE_SET_ISDISABLE_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::RogueWorkBenchCost* get_CostData()

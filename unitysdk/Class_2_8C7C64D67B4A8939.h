@@ -5,21 +5,21 @@
 
 namespace System { class String; }
 
-#define CLASS_2_8C7C64D67B4A8939_GET_CONTENT_OFFSET UNITYSDK_OFFSET(0xAF6B130)
-#define CLASS_2_8C7C64D67B4A8939_GET_RARITY_OFFSET UNITYSDK_OFFSET(0xAF6B140)
-#define CLASS_2_8C7C64D67B4A8939_GET_SENDERICON_OFFSET UNITYSDK_OFFSET(0xAF6B160)
-#define CLASS_2_8C7C64D67B4A8939_GET_SENDERNAME_OFFSET UNITYSDK_OFFSET(0xAF6B150)
-#define CLASS_2_8C7C64D67B4A8939__CTOR_OFFSET UNITYSDK_OFFSET(0xAF6B170)
+#define CLASS_2_8C7C64D67B4A8939_GET_CONTENT_OFFSET UNITYSDK_OFFSET(0xB91D730)
+#define CLASS_2_8C7C64D67B4A8939_GET_RARITY_OFFSET UNITYSDK_OFFSET(0xB91D740)
+#define CLASS_2_8C7C64D67B4A8939_GET_SENDERICON_OFFSET UNITYSDK_OFFSET(0xB91D760)
+#define CLASS_2_8C7C64D67B4A8939_GET_SENDERNAME_OFFSET UNITYSDK_OFFSET(0xB91D750)
+#define CLASS_2_8C7C64D67B4A8939__CTOR_OFFSET UNITYSDK_OFFSET(0xB91D770)
 
-inline static constexpr unsigned int Class_2_8C7C64D67B4A8939_TypeDefinitionIndex = 65853;
+inline static constexpr unsigned int Class_2_8C7C64D67B4A8939_TypeDefinitionIndex = 68892;
 
 class Class_2_8C7C64D67B4A8939 : public ::Class_1_849EE5CF9026AE9F
 {
 public:
 	::System::String* _SenderIcon_k__BackingField; // 0x18
-	::System::UInt32 _Rarity_k__BackingField; // 0x20
-	::RPG::Client::TextID _Content_k__BackingField; // 0x28
-	::RPG::Client::TextID _SenderName_k__BackingField; // 0x38
+	::RPG::Client::TextID _SenderName_k__BackingField; // 0x20
+	::RPG::Client::TextID _Content_k__BackingField; // 0x30
+	::System::UInt32 _Rarity_k__BackingField; // 0x40
 
 	::System::Void _ctor(::RPG::Client::TextID a1, ::System::UInt32 a2, ::System::UInt32 a3)
 	{

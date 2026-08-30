@@ -4,11 +4,11 @@
 
 namespace System { class Type; }
 
-#define EPIC_ONLINESERVICES_CACHEDTYPEALLOCATIONEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0xABF5B90)
+#define EPIC_ONLINESERVICES_CACHEDTYPEALLOCATIONEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0xB33A0A0)
 
 namespace Epic::OnlineServices
 {
-	inline static constexpr unsigned int CachedTypeAllocationException_TypeDefinitionIndex = 42728;
+	inline static constexpr unsigned int CachedTypeAllocationException_TypeDefinitionIndex = 44910;
 
 	class CachedTypeAllocationException : public ::Epic::OnlineServices::AllocationException
 	{

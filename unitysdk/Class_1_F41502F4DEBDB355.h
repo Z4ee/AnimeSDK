@@ -3,20 +3,20 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define CLASS_1_F41502F4DEBDB355_METHOD_1_748ED8D4571ED072_OFFSET UNITYSDK_OFFSET(0x14877FB0)
-#define CLASS_1_F41502F4DEBDB355_METHOD_1_F10A0D072D26C4BF_OFFSET UNITYSDK_OFFSET(0x14877EC0)
-#define CLASS_1_F41502F4DEBDB355__CTOR_OFFSET UNITYSDK_OFFSET(0x148780A0)
+#define CLASS_1_F41502F4DEBDB355_METHOD_1_748ED8D4571ED072_OFFSET UNITYSDK_OFFSET(0x1573B280)
+#define CLASS_1_F41502F4DEBDB355_METHOD_1_F10A0D072D26C4BF_OFFSET UNITYSDK_OFFSET(0x1573B190)
+#define CLASS_1_F41502F4DEBDB355__CTOR_OFFSET UNITYSDK_OFFSET(0x1573B370)
 
-inline static constexpr unsigned int Class_1_F41502F4DEBDB355_TypeDefinitionIndex = 50045;
+inline static constexpr unsigned int Class_1_F41502F4DEBDB355_TypeDefinitionIndex = 52706;
 
 class Class_1_F41502F4DEBDB355 : public ::System::Object
 {
 public:
-	::UnityEngine::Vector3 Field_1_0; // 0x10
-	::UnityEngine::Vector3 Field_1_1; // 0x1C
-	::UnityEngine::Vector3 Field_1_2; // 0x28
-	::UnityEngine::Vector3 Field_1_3; // 0x34
-	::UnityEngine::Vector3 Field_1_4; // 0x40
+	::UnityEngine::Vector3 HFOMPEEAPCG; // 0x10
+	::UnityEngine::Vector3 PHMKDHKBLDE; // 0x1C
+	::UnityEngine::Vector3 KONBAMDOGDH; // 0x28
+	::UnityEngine::Vector3 HFLAAJNMCOH; // 0x34
+	::UnityEngine::Vector3 JFAGECNFHJL; // 0x40
 
 	::System::Void _ctor()
 	{

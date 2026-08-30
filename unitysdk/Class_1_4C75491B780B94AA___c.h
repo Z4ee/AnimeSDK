@@ -8,42 +8,42 @@ namespace RPG::GameCore::Match3 { class BirdStyleWeightConfig; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define CLASS_1_4C75491B780B94AA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x14B11C30)
-#define CLASS_1_4C75491B780B94AA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x14B11C70)
-#define CLASS_1_4C75491B780B94AA___C___COMPUTEITEMPACKWEIGHTS_B__49_0_OFFSET UNITYSDK_OFFSET(0x14B11CC0)
-#define CLASS_1_4C75491B780B94AA___C___COMPUTEITEMPACKWEIGHTS_B__49_1_OFFSET UNITYSDK_OFFSET(0x14B11CE0)
-#define CLASS_1_4C75491B780B94AA___C___COMPUTEPIECETYPEWEIGHTS_B__50_0_OFFSET UNITYSDK_OFFSET(0x14B11D00)
-#define CLASS_1_4C75491B780B94AA___C___COMPUTESTYLEWEIGHTS_B__48_0_OFFSET UNITYSDK_OFFSET(0x14B11C80)
-#define CLASS_1_4C75491B780B94AA___C___COMPUTESTYLEWEIGHTS_B__48_1_OFFSET UNITYSDK_OFFSET(0x14B11CA0)
+#define CLASS_1_4C75491B780B94AA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15A04710)
+#define CLASS_1_4C75491B780B94AA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15A04750)
+#define CLASS_1_4C75491B780B94AA___C___COMPUTEITEMPACKWEIGHTS_B__49_0_OFFSET UNITYSDK_OFFSET(0x15A047A0)
+#define CLASS_1_4C75491B780B94AA___C___COMPUTEITEMPACKWEIGHTS_B__49_1_OFFSET UNITYSDK_OFFSET(0x15A047C0)
+#define CLASS_1_4C75491B780B94AA___C___COMPUTEPIECETYPEWEIGHTS_B__50_0_OFFSET UNITYSDK_OFFSET(0x15A047E0)
+#define CLASS_1_4C75491B780B94AA___C___COMPUTESTYLEWEIGHTS_B__48_0_OFFSET UNITYSDK_OFFSET(0x15A04760)
+#define CLASS_1_4C75491B780B94AA___C___COMPUTESTYLEWEIGHTS_B__48_1_OFFSET UNITYSDK_OFFSET(0x15A04780)
 
-inline static constexpr unsigned int Class_1_4C75491B780B94AA___c_TypeDefinitionIndex = 72646;
+inline static constexpr unsigned int Class_1_4C75491B780B94AA___c_TypeDefinitionIndex = 76082;
 
 class Class_1_4C75491B780B94AA___c : public ::System::Object
 {
 public:
-	static ::System::Func_2<::RPG::GameCore::Match3::BirdStyleWeightConfig*, ::System::UInt32>** StaticGet___9__48_1()
+	static ::System::Func_2<::RPG::GameCore::Match3::BirdStyleWeightConfig*, ::System::UInt32>** StaticGet___9__48_0()
 	{
-		return (::System::Func_2<::RPG::GameCore::Match3::BirdStyleWeightConfig*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_4C75491B780B94AA___c_TypeDefinitionIndex)->GetStaticField(0x5D0F0);
-	}
-	static ::System::Func_2<::RPG::GameCore::Match3::BirdItemPackWeightConfig*, ::System::UInt32>** StaticGet___9__49_1()
-	{
-		return (::System::Func_2<::RPG::GameCore::Match3::BirdItemPackWeightConfig*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_4C75491B780B94AA___c_TypeDefinitionIndex)->GetStaticField(0x5D0F8);
-	}
-	static ::System::Comparison_1<::RPG::GameCore::Match3::BirdPieceTypeWeightConfig*>** StaticGet___9__50_0()
-	{
-		return (::System::Comparison_1<::RPG::GameCore::Match3::BirdPieceTypeWeightConfig*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_4C75491B780B94AA___c_TypeDefinitionIndex)->GetStaticField(0x5D100);
+		return (::System::Func_2<::RPG::GameCore::Match3::BirdStyleWeightConfig*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_4C75491B780B94AA___c_TypeDefinitionIndex)->GetStaticField(0x562B0);
 	}
 	static ::System::Func_2<::RPG::GameCore::Match3::BirdItemPackWeightConfig*, ::System::UInt32>** StaticGet___9__49_0()
 	{
-		return (::System::Func_2<::RPG::GameCore::Match3::BirdItemPackWeightConfig*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_4C75491B780B94AA___c_TypeDefinitionIndex)->GetStaticField(0x5D108);
-	}
-	static ::System::Func_2<::RPG::GameCore::Match3::BirdStyleWeightConfig*, ::System::UInt32>** StaticGet___9__48_0()
-	{
-		return (::System::Func_2<::RPG::GameCore::Match3::BirdStyleWeightConfig*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_4C75491B780B94AA___c_TypeDefinitionIndex)->GetStaticField(0x5D110);
+		return (::System::Func_2<::RPG::GameCore::Match3::BirdItemPackWeightConfig*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_4C75491B780B94AA___c_TypeDefinitionIndex)->GetStaticField(0x562B8);
 	}
 	static ::Class_1_4C75491B780B94AA___c** StaticGet___9()
 	{
-		return (::Class_1_4C75491B780B94AA___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_4C75491B780B94AA___c_TypeDefinitionIndex)->GetStaticField(0x5D118);
+		return (::Class_1_4C75491B780B94AA___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_4C75491B780B94AA___c_TypeDefinitionIndex)->GetStaticField(0x562C0);
+	}
+	static ::System::Comparison_1<::RPG::GameCore::Match3::BirdPieceTypeWeightConfig*>** StaticGet___9__50_0()
+	{
+		return (::System::Comparison_1<::RPG::GameCore::Match3::BirdPieceTypeWeightConfig*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_4C75491B780B94AA___c_TypeDefinitionIndex)->GetStaticField(0x562C8);
+	}
+	static ::System::Func_2<::RPG::GameCore::Match3::BirdStyleWeightConfig*, ::System::UInt32>** StaticGet___9__48_1()
+	{
+		return (::System::Func_2<::RPG::GameCore::Match3::BirdStyleWeightConfig*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_4C75491B780B94AA___c_TypeDefinitionIndex)->GetStaticField(0x562D0);
+	}
+	static ::System::Func_2<::RPG::GameCore::Match3::BirdItemPackWeightConfig*, ::System::UInt32>** StaticGet___9__49_1()
+	{
+		return (::System::Func_2<::RPG::GameCore::Match3::BirdItemPackWeightConfig*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_4C75491B780B94AA___c_TypeDefinitionIndex)->GetStaticField(0x562D8);
 	}
 
 	static ::System::Void _cctor()

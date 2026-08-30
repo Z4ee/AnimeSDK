@@ -11,31 +11,31 @@ namespace RPG::GameCore { class GameEntity; }
 namespace UnityEngine { class CapsuleCollider; }
 namespace UnityEngine { class Collider; }
 
-#define RPG_CLIENT_PROP_MONOPUSHDOWNOBJECT_INIT_OFFSET UNITYSDK_OFFSET(0xD19D6C0)
-#define RPG_CLIENT_PROP_MONOPUSHDOWNOBJECT_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xD19D7D0)
-#define RPG_CLIENT_PROP_MONOPUSHDOWNOBJECT_METHOD_5_71EEEF71468B2F7F_OFFSET UNITYSDK_OFFSET(0xD19E820)
-#define RPG_CLIENT_PROP_MONOPUSHDOWNOBJECT_METHOD_5_A693F2E8D4F4A766_OFFSET UNITYSDK_OFFSET(0xD19E7B0)
-#define RPG_CLIENT_PROP_MONOPUSHDOWNOBJECT_METHOD_5_BAE42965A38A00B6_OFFSET UNITYSDK_OFFSET(0xD19E480)
-#define RPG_CLIENT_PROP_MONOPUSHDOWNOBJECT_PUSH_OFFSET UNITYSDK_OFFSET(0xD19D770)
-#define RPG_CLIENT_PROP_MONOPUSHDOWNOBJECT_RAYCAST_OFFSET UNITYSDK_OFFSET(0xD19DE10)
-#define RPG_CLIENT_PROP_MONOPUSHDOWNOBJECT_RESET_OFFSET UNITYSDK_OFFSET(0xD19D710)
-#define RPG_CLIENT_PROP_MONOPUSHDOWNOBJECT__CCTOR_OFFSET UNITYSDK_OFFSET(0xD19EE20)
-#define RPG_CLIENT_PROP_MONOPUSHDOWNOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0xD19EDE0)
+#define RPG_CLIENT_PROP_MONOPUSHDOWNOBJECT_INIT_OFFSET UNITYSDK_OFFSET(0xDCA1CC0)
+#define RPG_CLIENT_PROP_MONOPUSHDOWNOBJECT_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xDCA1DD0)
+#define RPG_CLIENT_PROP_MONOPUSHDOWNOBJECT_METHOD_5_71EEEF71468B2F7F_OFFSET UNITYSDK_OFFSET(0xDCA2E80)
+#define RPG_CLIENT_PROP_MONOPUSHDOWNOBJECT_METHOD_5_A693F2E8D4F4A766_OFFSET UNITYSDK_OFFSET(0xDCA2E10)
+#define RPG_CLIENT_PROP_MONOPUSHDOWNOBJECT_METHOD_5_BAE42965A38A00B6_OFFSET UNITYSDK_OFFSET(0xDCA2AE0)
+#define RPG_CLIENT_PROP_MONOPUSHDOWNOBJECT_PUSH_OFFSET UNITYSDK_OFFSET(0xDCA1D70)
+#define RPG_CLIENT_PROP_MONOPUSHDOWNOBJECT_RAYCAST_OFFSET UNITYSDK_OFFSET(0xDCA2470)
+#define RPG_CLIENT_PROP_MONOPUSHDOWNOBJECT_RESET_OFFSET UNITYSDK_OFFSET(0xDCA1D10)
+#define RPG_CLIENT_PROP_MONOPUSHDOWNOBJECT__CCTOR_OFFSET UNITYSDK_OFFSET(0xDCA3480)
+#define RPG_CLIENT_PROP_MONOPUSHDOWNOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0xDCA3440)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int MonoPushDownObject_TypeDefinitionIndex = 74730;
+	inline static constexpr unsigned int MonoPushDownObject_TypeDefinitionIndex = 78215;
 
 	class MonoPushDownObject : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::Il2CppArray<::UnityEngine::Collider*>** StaticGet_Field_5_0()
+		static ::Il2CppArray<::UnityEngine::Collider*>** StaticGet_IKADOAGOFEM()
 		{
-			return (::Il2CppArray<::UnityEngine::Collider*>**)Il2CppClass::FromTypeDefinitionIndex(MonoPushDownObject_TypeDefinitionIndex)->GetStaticField(0x5C40);
+			return (::Il2CppArray<::UnityEngine::Collider*>**)Il2CppClass::FromTypeDefinitionIndex(MonoPushDownObject_TypeDefinitionIndex)->GetStaticField(0x65010);
 		}
-		static ::Il2CppArray<::UnityEngine::RaycastHit>** StaticGet_Field_5_1()
+		static ::Il2CppArray<::UnityEngine::RaycastHit>** StaticGet_HLHDLNNKFMP()
 		{
-			return (::Il2CppArray<::UnityEngine::RaycastHit>**)Il2CppClass::FromTypeDefinitionIndex(MonoPushDownObject_TypeDefinitionIndex)->GetStaticField(0x5C48);
+			return (::Il2CppArray<::UnityEngine::RaycastHit>**)Il2CppClass::FromTypeDefinitionIndex(MonoPushDownObject_TypeDefinitionIndex)->GetStaticField(0x65018);
 		}
 		::UnityEngine::Vector3 forward; // 0x18
 		::UnityEngine::Vector3 right; // 0x24
@@ -46,12 +46,12 @@ namespace RPG::Client::Prop
 		::System::Single maxDownSpeed; // 0x58
 		::UnityEngine::CapsuleCollider* rootCollider; // 0x60
 		::UnityEngine::LayerMask raycastLayers; // 0x68
-		::RPG::GameCore::GameEntity* Field_5_11; // 0x70
-		::System::Boolean Field_5_12; // 0x78
-		::System::Boolean Field_5_13; // 0x79
-		::System::Single Field_5_14; // 0x7C
-		::System::Single Field_5_15; // 0x80
-		::RPG::Client::Prop::MonoPushDownObject_Class_3_356D7F803ADB5B01* Field_5_16; // 0x88
+		::RPG::GameCore::GameEntity* CFKHNPGEAJA; // 0x70
+		::System::Boolean PKLPDEEKKED; // 0x78
+		::System::Boolean CIJGDENIFFF; // 0x79
+		::System::Single LKDEMNFIHHM; // 0x7C
+		::System::Single MLKGEFGBHIE; // 0x80
+		::RPG::Client::Prop::MonoPushDownObject_Class_3_356D7F803ADB5B01* MPKAFEJFNKN; // 0x88
 
 		::System::Void _ctor()
 		{

@@ -4,20 +4,20 @@
 
 namespace Proto { class UnlockTutorialScRsp; }
 
-#define PROTO_UNLOCKTUTORIALSCRSP___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BC9DB80)
-#define PROTO_UNLOCKTUTORIALSCRSP___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC9DBC0)
-#define PROTO_UNLOCKTUTORIALSCRSP___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1BC9DBD0)
+#define PROTO_UNLOCKTUTORIALSCRSP___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D983800)
+#define PROTO_UNLOCKTUTORIALSCRSP___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1D983840)
+#define PROTO_UNLOCKTUTORIALSCRSP___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1D983850)
 
 namespace Proto
 {
-	inline static constexpr unsigned int UnlockTutorialScRsp___c_TypeDefinitionIndex = 33634;
+	inline static constexpr unsigned int UnlockTutorialScRsp___c_TypeDefinitionIndex = 34387;
 
 	class UnlockTutorialScRsp___c : public ::System::Object
 	{
 	public:
 		static ::Proto::UnlockTutorialScRsp___c** StaticGet___9()
 		{
-			return (::Proto::UnlockTutorialScRsp___c**)Il2CppClass::FromTypeDefinitionIndex(UnlockTutorialScRsp___c_TypeDefinitionIndex)->GetStaticField(0x8E0);
+			return (::Proto::UnlockTutorialScRsp___c**)Il2CppClass::FromTypeDefinitionIndex(UnlockTutorialScRsp___c_TypeDefinitionIndex)->GetStaticField(0x9F0);
 		}
 
 		static ::System::Void _cctor()

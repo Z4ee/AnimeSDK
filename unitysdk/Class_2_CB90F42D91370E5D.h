@@ -2,26 +2,26 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Class_1_5F51D4049EA87B7B.h"
 
-class Class_0_16E4307DCC419505_601;
+class Class_0_16E4307DCC419505_636;
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TutorialBlockAndWait; }
 
-#define CLASS_2_CB90F42D91370E5D_DISPOSE_OFFSET UNITYSDK_OFFSET(0xAE83360)
-#define CLASS_2_CB90F42D91370E5D_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xAE833A0)
-#define CLASS_2_CB90F42D91370E5D_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xAE83490)
-#define CLASS_2_CB90F42D91370E5D_TICK_OFFSET UNITYSDK_OFFSET(0xAE834E0)
-#define CLASS_2_CB90F42D91370E5D__CTOR_OFFSET UNITYSDK_OFFSET(0xAE83350)
+#define CLASS_2_CB90F42D91370E5D_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB828EE0)
+#define CLASS_2_CB90F42D91370E5D_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB828F20)
+#define CLASS_2_CB90F42D91370E5D_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB829010)
+#define CLASS_2_CB90F42D91370E5D_TICK_OFFSET UNITYSDK_OFFSET(0xB829060)
+#define CLASS_2_CB90F42D91370E5D__CTOR_OFFSET UNITYSDK_OFFSET(0xB828ED0)
 
-inline static constexpr unsigned int Class_2_CB90F42D91370E5D_TypeDefinitionIndex = 56180;
+inline static constexpr unsigned int Class_2_CB90F42D91370E5D_TypeDefinitionIndex = 58962;
 
 class Class_2_CB90F42D91370E5D : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::Class_0_16E4307DCC419505_601* Field_2_0; // 0x18
-	::RPG::GameCore::TutorialBlockAndWait* Field_2_1; // 0x20
-	::RPG::GameCore::TaskContext* Field_2_2; // 0x28
-	::System::Boolean Field_2_3; // 0x30
-	::System::Single Field_2_4; // 0x34
+	::RPG::GameCore::TutorialBlockAndWait* OFKGLJOAMLD; // 0x18
+	::Class_0_16E4307DCC419505_636* GEGNDMIMMNL; // 0x20
+	::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x28
+	::System::Boolean PPNAOINLDDP; // 0x30
+	::System::Single MBEHHALAIHO; // 0x34
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::TutorialBlockAndWait* a2)
 	{

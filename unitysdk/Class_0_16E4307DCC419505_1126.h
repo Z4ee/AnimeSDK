@@ -1,11 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Bounds.h"
-#include "unitysdk/UnityEngine/Vector2.h"
 
-namespace UnityEngine { class Texture2D; }
+class Class_1_34917908B7833130;
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_1126_TypeDefinitionIndex = 70427;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_1126_TypeDefinitionIndex = 72047;
 
 class Class_0_16E4307DCC419505_1126
 {

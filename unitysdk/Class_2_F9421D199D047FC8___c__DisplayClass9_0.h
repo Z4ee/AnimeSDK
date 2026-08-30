@@ -5,16 +5,16 @@
 class Class_2_F9421D199D047FC8;
 namespace UnityEngine { class GameObject; }
 
-#define CLASS_2_F9421D199D047FC8___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1533F7A0)
-#define CLASS_2_F9421D199D047FC8___C__DISPLAYCLASS9_0___UPDATEGEAR_B__0_OFFSET UNITYSDK_OFFSET(0x1533F7B0)
+#define CLASS_2_F9421D199D047FC8___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x162B7170)
+#define CLASS_2_F9421D199D047FC8___C__DISPLAYCLASS9_0___UPDATEGEAR_B__0_OFFSET UNITYSDK_OFFSET(0x162B7180)
 
-inline static constexpr unsigned int Class_2_F9421D199D047FC8___c__DisplayClass9_0_TypeDefinitionIndex = 74766;
+inline static constexpr unsigned int Class_2_F9421D199D047FC8___c__DisplayClass9_0_TypeDefinitionIndex = 78251;
 
 class Class_2_F9421D199D047FC8___c__DisplayClass9_0 : public ::System::Object
 {
 public:
-	::UnityEngine::GameObject* goldGear; // 0x10
-	::Class_2_F9421D199D047FC8* __4__this; // 0x18
+	::Class_2_F9421D199D047FC8* __4__this; // 0x10
+	::UnityEngine::GameObject* goldGear; // 0x18
 
 	::System::Void _ctor()
 	{

@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_STORYTESTPHASEINITPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0xD574B70)
+#define RPG_CLIENT_STORYTESTPHASEINITPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0xE105830)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int StoryTestPhaseInitParams_TypeDefinitionIndex = 58471;
+	inline static constexpr unsigned int StoryTestPhaseInitParams_TypeDefinitionIndex = 61301;
 
 	class StoryTestPhaseInitParams : public ::System::Object
 	{

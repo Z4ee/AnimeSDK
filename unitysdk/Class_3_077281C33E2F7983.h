@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class ToggleTotalDamageFinishNotify; }
 
-#define CLASS_3_077281C33E2F7983_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1440A0D0)
-#define CLASS_3_077281C33E2F7983__CTOR_OFFSET UNITYSDK_OFFSET(0x1440A0A0)
+#define CLASS_3_077281C33E2F7983_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1522B770)
+#define CLASS_3_077281C33E2F7983__CTOR_OFFSET UNITYSDK_OFFSET(0x1522B740)
 
-inline static constexpr unsigned int Class_3_077281C33E2F7983_TypeDefinitionIndex = 53186;
+inline static constexpr unsigned int Class_3_077281C33E2F7983_TypeDefinitionIndex = 55898;
 
 class Class_3_077281C33E2F7983 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ToggleTotalDamageFinishNotify*>
 {

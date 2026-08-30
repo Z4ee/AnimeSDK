@@ -3,7 +3,7 @@
 
 namespace RPG::Client::FateRin
 {
-	inline static constexpr unsigned int CardStateChangeReason_TypeDefinitionIndex = 75644;
+	inline static constexpr unsigned int CardStateChangeReason_TypeDefinitionIndex = 79277;
 
 	enum class CardStateChangeReason : ::System::Int32
 	{

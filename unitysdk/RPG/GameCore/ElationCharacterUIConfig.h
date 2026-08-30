@@ -4,18 +4,20 @@
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
 
 class Class_1_7A22A3DBEEDD1F80;
+namespace System { class String; }
 
-#define RPG_GAMECORE_ELATIONCHARACTERUICONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B3D7030)
-#define RPG_GAMECORE_ELATIONCHARACTERUICONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3D7130)
+#define RPG_GAMECORE_ELATIONCHARACTERUICONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D0555B0)
+#define RPG_GAMECORE_ELATIONCHARACTERUICONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D055730)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ElationCharacterUIConfig_TypeDefinitionIndex = 15895;
+	inline static constexpr unsigned int ElationCharacterUIConfig_TypeDefinitionIndex = 16371;
 
 	class ElationCharacterUIConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::RPG::Client::TextID EchoPointDesc; // 0x10
+		::Il2CppArray<::System::String*>* PreviewElationSkillTriggerKeyList; // 0x20
 
 		::System::Void _ctor()
 		{

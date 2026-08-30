@@ -12,35 +12,35 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Collider; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_2_EC13E3896EFF750B_CLONE_OFFSET UNITYSDK_OFFSET(0xD864F90)
-#define CLASS_2_EC13E3896EFF750B_METHOD_2_735EE20B25F86BF4_OFFSET UNITYSDK_OFFSET(0xD864CD0)
-#define CLASS_2_EC13E3896EFF750B_METHOD_2_A5809AB80389F7DE_OFFSET UNITYSDK_OFFSET(0xD864DF0)
-#define CLASS_2_EC13E3896EFF750B__CTOR_OFFSET UNITYSDK_OFFSET(0xD8650F0)
-#define CLASS_2_EC13E3896EFF750B__GETSELFINSTANCE_OFFSET UNITYSDK_OFFSET(0xD865090)
+#define CLASS_2_EC13E3896EFF750B_CLONE_OFFSET UNITYSDK_OFFSET(0xE5B8D20)
+#define CLASS_2_EC13E3896EFF750B_METHOD_2_735EE20B25F86BF4_OFFSET UNITYSDK_OFFSET(0xE5B8A60)
+#define CLASS_2_EC13E3896EFF750B_METHOD_2_A5809AB80389F7DE_OFFSET UNITYSDK_OFFSET(0xE5B8B80)
+#define CLASS_2_EC13E3896EFF750B__CTOR_OFFSET UNITYSDK_OFFSET(0xE5B8E90)
+#define CLASS_2_EC13E3896EFF750B__GETSELFINSTANCE_OFFSET UNITYSDK_OFFSET(0xE5B8E30)
 
-inline static constexpr unsigned int Class_2_EC13E3896EFF750B_TypeDefinitionIndex = 51938;
+inline static constexpr unsigned int Class_2_EC13E3896EFF750B_TypeDefinitionIndex = 54622;
 
 class Class_2_EC13E3896EFF750B : public ::RPG::GameCore::TaskContext
 {
 public:
-	::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* Field_2_0; // 0xA8
-	::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Single>* Field_2_1; // 0xB0
-	::System::Collections::Generic::List_1<::System::UInt32>* Field_2_2; // 0xB8
-	::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* Field_2_3; // 0xC0
-	::System::Collections::Generic::List_1<::System::UInt32>* Field_2_4; // 0xC8
-	::System::Collections::Generic::List_1<::System::UInt32>* Field_2_5; // 0xD0
-	::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* Field_2_6; // 0xD8
-	::RPG::GameCore::GameEntity* Field_2_7; // 0xE0
-	::UnityEngine::Collider* Field_2_8; // 0xE8
-	::UnityEngine::Transform* Field_2_9; // 0xF0
-	::System::Collections::Generic::List_1<::Struct_2_263B64D8FC8C9763>* Field_2_10; // 0xF8
-	::System::Collections::Generic::List_1<::System::UInt32>* Field_2_11; // 0x100
-	::RPG::MVector3 Field_2_12; // 0x108
-	::UnityEngine::Vector3 Field_2_13; // 0x114
-	::RPG::MVector3 Field_2_14; // 0x120
-	::System::Boolean Field_2_15; // 0x12C
-	::System::Boolean Field_2_16; // 0x12D
-	::System::Boolean Field_2_17; // 0x12E
+	::UnityEngine::Transform* HKDLAEGJOGB; // 0xA8
+	::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* ANAOPKCDLGG; // 0xB0
+	::UnityEngine::Collider* KAELPBIMGKK; // 0xB8
+	::System::Collections::Generic::List_1<::System::UInt32>* AEOJHDOKLNH; // 0xC0
+	::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* PIBFNLCGHPC; // 0xC8
+	::System::Collections::Generic::List_1<::System::UInt32>* IINAHHCLJEL; // 0xD0
+	::RPG::GameCore::GameEntity* AMOFODFOLMI; // 0xD8
+	::System::Collections::Generic::List_1<::Struct_2_263B64D8FC8C9763>* IKGKEHBEMEA; // 0xE0
+	::System::Collections::Generic::List_1<::System::UInt32>* FHFAIKPMOCA; // 0xE8
+	::System::Collections::Generic::List_1<::System::UInt32>* BDMPIDPAPGK; // 0xF0
+	::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Single>* DJNKHHNHIMP; // 0xF8
+	::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* POMNABEDMHD; // 0x100
+	::UnityEngine::Vector3 LDABCOCLAGL; // 0x108
+	::System::Boolean KMCHNMJHFLF; // 0x114
+	::System::Boolean HDIKKDBCCKI; // 0x115
+	::System::Boolean MBIPKBAEMOO; // 0x116
+	::RPG::MVector3 BMHKEKNDNIF; // 0x118
+	::RPG::MVector3 OAFBMPOIFEE; // 0x124
 
 	::System::Void _ctor()
 	{

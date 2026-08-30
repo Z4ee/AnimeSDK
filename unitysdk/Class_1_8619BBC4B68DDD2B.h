@@ -4,14 +4,14 @@
 
 namespace RPG::GameCore { class RebuildPipeConfig; }
 
-#define CLASS_1_8619BBC4B68DDD2B__CTOR_OFFSET UNITYSDK_OFFSET(0x1A8CCC20)
+#define CLASS_1_8619BBC4B68DDD2B__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4FE240)
 
-inline static constexpr unsigned int Class_1_8619BBC4B68DDD2B_TypeDefinitionIndex = 40905;
+inline static constexpr unsigned int Class_1_8619BBC4B68DDD2B_TypeDefinitionIndex = 41864;
 
 class Class_1_8619BBC4B68DDD2B : public ::System::Object
 {
 public:
-	::RPG::GameCore::RebuildPipeConfig* Field_1_0; // 0x10
+	::RPG::GameCore::RebuildPipeConfig* EABKOHGCHFP; // 0x10
 
 	::System::Void _ctor()
 	{

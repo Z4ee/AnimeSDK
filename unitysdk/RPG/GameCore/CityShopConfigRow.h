@@ -6,24 +6,24 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_CITYSHOPCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B35BC70)
-#define RPG_GAMECORE_CITYSHOPCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B35C430)
+#define RPG_GAMECORE_CITYSHOPCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CFD8010)
+#define RPG_GAMECORE_CITYSHOPCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFD8760)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CityShopConfigRow_TypeDefinitionIndex = 12563;
+	inline static constexpr unsigned int CityShopConfigRow_TypeDefinitionIndex = 12954;
 
 	class CityShopConfigRow : public ::System::Object
 	{
 	public:
 		::System::String* WorldImgPath; // 0x10
-		::RPG::Client::TextID Name; // 0x18
-		::System::UInt32 RewardListGroupID; // 0x28
+		::System::UInt32 ItemID; // 0x18
+		::System::UInt32 ShopID; // 0x1C
+		::System::UInt32 RewardListGroupID; // 0x20
+		::System::UInt32 MaxLevel; // 0x24
+		::System::UInt32 HintOverNum; // 0x28
 		::System::UInt32 WorldID; // 0x2C
-		::System::UInt32 HintOverNum; // 0x30
-		::System::UInt32 ShopID; // 0x34
-		::System::UInt32 MaxLevel; // 0x38
-		::System::UInt32 ItemID; // 0x3C
+		::RPG::Client::TextID Name; // 0x30
 
 		::System::Void _ctor()
 		{

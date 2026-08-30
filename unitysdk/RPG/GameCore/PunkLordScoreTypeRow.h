@@ -7,20 +7,20 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_PUNKLORDSCORETYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B6F5800)
-#define RPG_GAMECORE_PUNKLORDSCORETYPEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6F5A10)
+#define RPG_GAMECORE_PUNKLORDSCORETYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D377860)
+#define RPG_GAMECORE_PUNKLORDSCORETYPEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D377A70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PunkLordScoreTypeRow_TypeDefinitionIndex = 11829;
+	inline static constexpr unsigned int PunkLordScoreTypeRow_TypeDefinitionIndex = 12218;
 
 	class PunkLordScoreTypeRow : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::PunkLordMonsterRare FinishRare; // 0x10
-		::RPG::GameCore::PunkLordScoreFinishType FinishID; // 0x14
-		::System::UInt32 FinishPoint; // 0x18
-		::RPG::Client::TextID FinishName; // 0x20
+		::RPG::Client::TextID FinishName; // 0x10
+		::RPG::GameCore::PunkLordMonsterRare FinishRare; // 0x20
+		::RPG::GameCore::PunkLordScoreFinishType FinishID; // 0x24
+		::System::UInt32 FinishPoint; // 0x28
 
 		::System::Void _ctor()
 		{

@@ -7,10 +7,10 @@ namespace RPG::GameCore { class RtBattleTargetCameraFocusTarget; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_3_DDFA1A60612B94D1_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB00E520)
-#define CLASS_3_DDFA1A60612B94D1__CTOR_OFFSET UNITYSDK_OFFSET(0xB00E4B0)
+#define CLASS_3_DDFA1A60612B94D1_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB9C9FF0)
+#define CLASS_3_DDFA1A60612B94D1__CTOR_OFFSET UNITYSDK_OFFSET(0xB9C9F80)
 
-inline static constexpr unsigned int Class_3_DDFA1A60612B94D1_TypeDefinitionIndex = 51328;
+inline static constexpr unsigned int Class_3_DDFA1A60612B94D1_TypeDefinitionIndex = 54012;
 
 class Class_3_DDFA1A60612B94D1 : public ::RPG::GameCore::TargetEvaluatorImpl_1<::RPG::GameCore::RtBattleTargetCameraFocusTarget*>
 {

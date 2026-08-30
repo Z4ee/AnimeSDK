@@ -7,18 +7,18 @@ namespace RPG::GameCore { class SetComponentAssetLoadState; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_3_6E5B2D66843DE500_DISPOSE_OFFSET UNITYSDK_OFFSET(0x147FCE70)
-#define CLASS_3_6E5B2D66843DE500_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x147FCEB0)
-#define CLASS_3_6E5B2D66843DE500__CTOR_OFFSET UNITYSDK_OFFSET(0x147FCE40)
+#define CLASS_3_6E5B2D66843DE500_DISPOSE_OFFSET UNITYSDK_OFFSET(0x156BA9B0)
+#define CLASS_3_6E5B2D66843DE500_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x156BA9F0)
+#define CLASS_3_6E5B2D66843DE500__CTOR_OFFSET UNITYSDK_OFFSET(0x156BA980)
 
-inline static constexpr unsigned int Class_3_6E5B2D66843DE500_TypeDefinitionIndex = 52870;
+inline static constexpr unsigned int Class_3_6E5B2D66843DE500_TypeDefinitionIndex = 55573;
 
 class Class_3_6E5B2D66843DE500 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetComponentAssetLoadState*>
 {
 public:
-	static ::System::Collections::Generic::List_1<::RPG::Client::ComponentAssetLoader*>** StaticGet_Field_3_0()
+	static ::System::Collections::Generic::List_1<::RPG::Client::ComponentAssetLoader*>** StaticGet_KPGKNONGLCM()
 	{
-		return (::System::Collections::Generic::List_1<::RPG::Client::ComponentAssetLoader*>**)Il2CppClass::FromTypeDefinitionIndex(Class_3_6E5B2D66843DE500_TypeDefinitionIndex)->GetStaticField(0x5CAB0);
+		return (::System::Collections::Generic::List_1<::RPG::Client::ComponentAssetLoader*>**)Il2CppClass::FromTypeDefinitionIndex(Class_3_6E5B2D66843DE500_TypeDefinitionIndex)->GetStaticField(0x247A0);
 	}
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SetComponentAssetLoadState* a2)

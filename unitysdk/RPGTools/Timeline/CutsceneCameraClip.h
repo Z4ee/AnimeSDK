@@ -6,26 +6,26 @@
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-class Class_2_C36E5CC18803AA1D;
+class Class_2_B68C2A3D97734EDB;
 namespace UnityEngine { class AnimationClip; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_CUTSCENECAMERACLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xDCB86F0)
-#define RPGTOOLS_TIMELINE_CUTSCENECAMERACLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xDCB86D0)
-#define RPGTOOLS_TIMELINE_CUTSCENECAMERACLIP_GET_DURATION_OFFSET UNITYSDK_OFFSET(0xDCB88B0)
-#define RPGTOOLS_TIMELINE_CUTSCENECAMERACLIP_SET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xDCB86E0)
-#define RPGTOOLS_TIMELINE_CUTSCENECAMERACLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xDCB8940)
+#define RPGTOOLS_TIMELINE_CUTSCENECAMERACLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE839490)
+#define RPGTOOLS_TIMELINE_CUTSCENECAMERACLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE839470)
+#define RPGTOOLS_TIMELINE_CUTSCENECAMERACLIP_GET_DURATION_OFFSET UNITYSDK_OFFSET(0xE839660)
+#define RPGTOOLS_TIMELINE_CUTSCENECAMERACLIP_SET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE839480)
+#define RPGTOOLS_TIMELINE_CUTSCENECAMERACLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xE8396F0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int CutsceneCameraClip_TypeDefinitionIndex = 46284;
+	inline static constexpr unsigned int CutsceneCameraClip_TypeDefinitionIndex = 48518;
 
 	class CutsceneCameraClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:
 		::UnityEngine::Timeline::ClipCaps _clipCaps_k__BackingField; // 0x18
 		::UnityEngine::AnimationClip* clip; // 0x20
-		::Class_2_C36E5CC18803AA1D* template_; // 0x28
+		::Class_2_B68C2A3D97734EDB* template_; // 0x28
 		::UnityEngine::Vector3 Position; // 0x30
 		::System::Boolean UseUI3DCamera; // 0x3C
 		::System::Single NearClipPlane; // 0x40

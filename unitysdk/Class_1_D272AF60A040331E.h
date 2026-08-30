@@ -4,14 +4,14 @@
 
 namespace UnityEngine::AI { class RVOAgent; }
 
-#define CLASS_1_D272AF60A040331E__CTOR_OFFSET UNITYSDK_OFFSET(0x1A93BA30)
+#define CLASS_1_D272AF60A040331E__CTOR_OFFSET UNITYSDK_OFFSET(0x1C578D60)
 
-inline static constexpr unsigned int Class_1_D272AF60A040331E_TypeDefinitionIndex = 39611;
+inline static constexpr unsigned int Class_1_D272AF60A040331E_TypeDefinitionIndex = 40484;
 
 class Class_1_D272AF60A040331E : public ::System::Object
 {
 public:
-	::UnityEngine::AI::RVOAgent* Field_1_0; // 0x10
+	::UnityEngine::AI::RVOAgent* PMDPABEHAKJ; // 0x10
 
 	::System::Void _ctor()
 	{

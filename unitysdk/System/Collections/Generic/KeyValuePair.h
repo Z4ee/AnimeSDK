@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define SYSTEM_COLLECTIONS_GENERIC_KEYVALUEPAIR_PAIRTOSTRING_OFFSET UNITYSDK_OFFSET(0x19FB2870)
+#define SYSTEM_COLLECTIONS_GENERIC_KEYVALUEPAIR_PAIRTOSTRING_OFFSET UNITYSDK_OFFSET(0x1BBB78A0)
 
 namespace System::Collections::Generic
 {
-	inline static constexpr unsigned int KeyValuePair_TypeDefinitionIndex = 1522;
+	inline static constexpr unsigned int KeyValuePair_TypeDefinitionIndex = 1529;
 
 	class KeyValuePair : public ::System::Object
 	{

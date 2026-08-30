@@ -6,18 +6,18 @@ class Class_2_F0C283D91BDD122E;
 namespace System { class String; }
 namespace UnityEngine { class Texture2D; }
 
-#define CLASS_2_F0C283D91BDD122E___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB0DE1F0)
-#define CLASS_2_F0C283D91BDD122E___C__DISPLAYCLASS6_0__REPLACETEXTURE_B__0_OFFSET UNITYSDK_OFFSET(0xB0DEE90)
+#define CLASS_2_F0C283D91BDD122E___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBA58B60)
+#define CLASS_2_F0C283D91BDD122E___C__DISPLAYCLASS6_0__REPLACETEXTURE_B__0_OFFSET UNITYSDK_OFFSET(0xBA59800)
 
-inline static constexpr unsigned int Class_2_F0C283D91BDD122E___c__DisplayClass6_0_TypeDefinitionIndex = 54855;
+inline static constexpr unsigned int Class_2_F0C283D91BDD122E___c__DisplayClass6_0_TypeDefinitionIndex = 57576;
 
 class Class_2_F0C283D91BDD122E___c__DisplayClass6_0 : public ::System::Object
 {
 public:
-	::System::String* textureKey; // 0x10
-	::Class_2_F0C283D91BDD122E* __4__this; // 0x18
-	::System::String* texturePath; // 0x20
-	::System::String* nodeName; // 0x28
+	::System::String* nodeName; // 0x10
+	::System::String* textureKey; // 0x18
+	::Class_2_F0C283D91BDD122E* __4__this; // 0x20
+	::System::String* texturePath; // 0x28
 
 	::System::Void _ctor()
 	{

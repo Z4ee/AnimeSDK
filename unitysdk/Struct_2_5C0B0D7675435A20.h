@@ -5,18 +5,18 @@
 #include "unitysdk/RPG/GameCore/FiveDimLevelCameraType.h"
 #include "unitysdk/System/ValueType.h"
 
-inline static constexpr unsigned int Struct_2_5C0B0D7675435A20_TypeDefinitionIndex = 40661;
+inline static constexpr unsigned int Struct_2_5C0B0D7675435A20_TypeDefinitionIndex = 41613;
 
 struct alignas(4) Struct_2_5C0B0D7675435A20
 {
-	::RPG::GameCore::FiveDimCameraPriority Field_2_0; // 0x10
-	::RPG::GameCore::FiveDimLevelCameraType Field_2_1; // 0x14
-	::System::Boolean Field_2_2; // 0x18
-	::System::Boolean Field_2_3; // 0x19
-	::System::Boolean Field_2_4; // 0x1A
-	::System::Boolean Field_2_5; // 0x1B
-	::System::Boolean Field_2_6; // 0x1C
-	::System::Boolean Field_2_7; // 0x1D
-	::RPG::GameCore::FiveDimCameraFollowClampMask Field_2_8; // 0x20
-	::System::Single Field_2_9; // 0x24
+	::RPG::GameCore::FiveDimCameraPriority NALMBOOCCIN; // 0x10
+	::RPG::GameCore::FiveDimLevelCameraType GMPGDEINODK; // 0x14
+	::System::Boolean GCOOJNILOLE; // 0x18
+	::System::Boolean AHCNJMENLDO; // 0x19
+	::System::Boolean PLFDMBNBPCD; // 0x1A
+	::System::Boolean EOLHPCCGJMB; // 0x1B
+	::System::Boolean CLDELANGKJL; // 0x1C
+	::System::Boolean HDNJJMBEOCN; // 0x1D
+	::RPG::GameCore::FiveDimCameraFollowClampMask CDDBBKBOKIB; // 0x20
+	::System::Single NOBLNMCNIDD; // 0x24
 };

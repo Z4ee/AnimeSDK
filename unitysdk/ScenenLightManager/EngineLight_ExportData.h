@@ -24,11 +24,11 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define SCENENLIGHTMANAGER_ENGINELIGHT_EXPORTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xDD42DC0)
+#define SCENENLIGHTMANAGER_ENGINELIGHT_EXPORTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xE90E270)
 
 namespace ScenenLightManager
 {
-	inline static constexpr unsigned int EngineLight_ExportData_TypeDefinitionIndex = 47245;
+	inline static constexpr unsigned int EngineLight_ExportData_TypeDefinitionIndex = 49525;
 
 	class EngineLight_ExportData : public ::ScenenLightManager::BaseComponentExportData
 	{

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class LockTargetShield; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_FF5893B23F292C8B_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xACE8A80)
-#define CLASS_3_FF5893B23F292C8B__CTOR_OFFSET UNITYSDK_OFFSET(0xACE8A50)
+#define CLASS_3_FF5893B23F292C8B_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB431CF0)
+#define CLASS_3_FF5893B23F292C8B__CTOR_OFFSET UNITYSDK_OFFSET(0xB431CC0)
 
-inline static constexpr unsigned int Class_3_FF5893B23F292C8B_TypeDefinitionIndex = 52658;
+inline static constexpr unsigned int Class_3_FF5893B23F292C8B_TypeDefinitionIndex = 55357;
 
 class Class_3_FF5893B23F292C8B : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::LockTargetShield*>
 {

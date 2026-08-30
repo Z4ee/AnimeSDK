@@ -2,24 +2,24 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_1268;
+class Class_0_16E4307DCC419505_1349;
 namespace RPG::Client::FateRin::View::Card { class FateRinCardPosControlView; }
 namespace RPG::Client::Promises { class IPendingPromise; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 
-#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINDISCARDCARDFLOWVIEW___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC5A4370)
-#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINDISCARDCARDFLOWVIEW___C__DISPLAYCLASS7_0___PLAYDISCARDFLOW_B__0_OFFSET UNITYSDK_OFFSET(0xC5A53A0)
+#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINDISCARDCARDFLOWVIEW___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD028E10)
+#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINDISCARDCARDFLOWVIEW___C__DISPLAYCLASS7_0___PLAYDISCARDFLOW_B__0_OFFSET UNITYSDK_OFFSET(0xD029E40)
 
 namespace RPG::Client::FateRin::View::Battle
 {
-	inline static constexpr unsigned int FateRinDiscardCardFlowView___c__DisplayClass7_0_TypeDefinitionIndex = 75724;
+	inline static constexpr unsigned int FateRinDiscardCardFlowView___c__DisplayClass7_0_TypeDefinitionIndex = 79357;
 
 	class FateRinDiscardCardFlowView___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::IList_1<::RPG::Client::FateRin::View::Card::FateRinCardPosControlView*>* posCtrls; // 0x10
+		::Class_0_16E4307DCC419505_1349* audioService; // 0x10
 		::RPG::Client::Promises::IPendingPromise* pending; // 0x18
-		::Class_0_16E4307DCC419505_1268* audioService; // 0x20
+		::System::Collections::Generic::IList_1<::RPG::Client::FateRin::View::Card::FateRinCardPosControlView*>* posCtrls; // 0x20
 		::System::Int32 count; // 0x28
 
 		::System::Void _ctor()

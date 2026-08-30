@@ -3,7 +3,7 @@
 
 namespace System::Diagnostics::Tracing
 {
-	inline static constexpr unsigned int EventProvider_WriteEventErrorCode_TypeDefinitionIndex = 1677;
+	inline static constexpr unsigned int EventProvider_WriteEventErrorCode_TypeDefinitionIndex = 1684;
 
 	enum class EventProvider_WriteEventErrorCode : ::System::Int32
 	{

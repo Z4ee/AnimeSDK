@@ -6,22 +6,22 @@ class Class_2_B66C1067C0468FBB;
 namespace RPG::GameCore { class BaseChimeraDuelEntitiesSelectorConfig; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define CLASS_4_3773939C9BD251A6_METHOD_4_457717A0CF438A7C_OFFSET UNITYSDK_OFFSET(0xAD6B030)
-#define CLASS_4_3773939C9BD251A6_METHOD_4_56CD335BB2D53E2C_OFFSET UNITYSDK_OFFSET(0xAD6AF70)
-#define CLASS_4_3773939C9BD251A6__CTOR_OFFSET UNITYSDK_OFFSET(0xAD6AEF0)
+#define CLASS_4_3773939C9BD251A6_METHOD_4_457717A0CF438A7C_OFFSET UNITYSDK_OFFSET(0xB7C91D0)
+#define CLASS_4_3773939C9BD251A6_METHOD_4_56CD335BB2D53E2C_OFFSET UNITYSDK_OFFSET(0xB7C9110)
+#define CLASS_4_3773939C9BD251A6__CTOR_OFFSET UNITYSDK_OFFSET(0xB7C9090)
 
-inline static constexpr unsigned int Class_4_3773939C9BD251A6_TypeDefinitionIndex = 73669;
+inline static constexpr unsigned int Class_4_3773939C9BD251A6_TypeDefinitionIndex = 77153;
 
 class Class_4_3773939C9BD251A6 : public ::Class_3_8350EB57484CE308
 {
 public:
-	::Class_2_B66C1067C0468FBB* Field_4_0; // 0x30
-	::System::Int32 Field_4_1; // 0x38
-	::System::Int32 Field_4_2; // 0x3C
-	::System::Int32 Field_4_3; // 0x40
-	::System::Int32 Field_4_4; // 0x44
-	::System::Int32 Field_4_5; // 0x48
-	::System::Int32 Field_4_6; // 0x4C
+	::Class_2_B66C1067C0468FBB* MMILCIBMANG; // 0x30
+	::System::Int32 BJHHAGGONAJ; // 0x38
+	::System::Int32 PGPLOHEEHLN; // 0x3C
+	::System::Int32 NDBEJOPFPOC; // 0x40
+	::System::Int32 EGAKBLAGLPJ; // 0x44
+	::System::Int32 DDAHAJMOOMK; // 0x48
+	::System::Int32 NOMMFKJOBOD; // 0x4C
 
 	::System::Void _ctor()
 	{

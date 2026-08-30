@@ -5,11 +5,11 @@
 namespace RPG::Client { class ArtNPCPedestrianAssetConfig_ArtVariantInfo; }
 namespace System { class String; }
 
-#define RPG_CLIENT_ARTNPCPEDESTRIANASSETCONFIG_FEATUREDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xBDA4EC0)
+#define RPG_CLIENT_ARTNPCPEDESTRIANASSETCONFIG_FEATUREDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xC77BA80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ArtNPCPedestrianAssetConfig_FeatureData_TypeDefinitionIndex = 66154;
+	inline static constexpr unsigned int ArtNPCPedestrianAssetConfig_FeatureData_TypeDefinitionIndex = 69194;
 
 	class ArtNPCPedestrianAssetConfig_FeatureData : public ::System::Object
 	{

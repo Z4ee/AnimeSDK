@@ -7,22 +7,22 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AvatarEducationComparerFactory___O_TypeDefinitionIndex = 59698;
+	inline static constexpr unsigned int AvatarEducationComparerFactory___O_TypeDefinitionIndex = 62544;
 
 	class AvatarEducationComparerFactory___O : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::RPG::AvatarSystem::IAvatar*, ::System::Boolean>** StaticGet__1___CheckIsGrowthTarget()
 		{
-			return (::System::Func_2<::RPG::AvatarSystem::IAvatar*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(AvatarEducationComparerFactory___O_TypeDefinitionIndex)->GetStaticField(0x50A50);
-		}
-		static ::System::Func_2<::RPG::AvatarSystem::IAvatar*, ::System::Boolean>** StaticGet__2___CheckIsMarked()
-		{
-			return (::System::Func_2<::RPG::AvatarSystem::IAvatar*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(AvatarEducationComparerFactory___O_TypeDefinitionIndex)->GetStaticField(0x50A58);
+			return (::System::Func_2<::RPG::AvatarSystem::IAvatar*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(AvatarEducationComparerFactory___O_TypeDefinitionIndex)->GetStaticField(0x65DB0);
 		}
 		static ::System::Func_2<::RPG::AvatarSystem::IAvatar*, ::System::Boolean>** StaticGet__0___CheckIsTrial()
 		{
-			return (::System::Func_2<::RPG::AvatarSystem::IAvatar*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(AvatarEducationComparerFactory___O_TypeDefinitionIndex)->GetStaticField(0x50A60);
+			return (::System::Func_2<::RPG::AvatarSystem::IAvatar*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(AvatarEducationComparerFactory___O_TypeDefinitionIndex)->GetStaticField(0x65DB8);
+		}
+		static ::System::Func_2<::RPG::AvatarSystem::IAvatar*, ::System::Boolean>** StaticGet__2___CheckIsMarked()
+		{
+			return (::System::Func_2<::RPG::AvatarSystem::IAvatar*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(AvatarEducationComparerFactory___O_TypeDefinitionIndex)->GetStaticField(0x65DC0);
 		}
 	};
 }

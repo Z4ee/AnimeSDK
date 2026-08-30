@@ -5,12 +5,12 @@
 namespace RPG::Client { class CubemapGeneratorBehavior; }
 namespace System { class String; }
 
-#define RPG_CLIENT_CUBEMAPGENERATORMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xC1C5A60)
-#define RPG_CLIENT_CUBEMAPGENERATORMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xC1C5AB0)
+#define RPG_CLIENT_CUBEMAPGENERATORMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xCC81270)
+#define RPG_CLIENT_CUBEMAPGENERATORMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xCC812C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CubemapGeneratorMonoPlugin_TypeDefinitionIndex = 67836;
+	inline static constexpr unsigned int CubemapGeneratorMonoPlugin_TypeDefinitionIndex = 71009;
 
 	class CubemapGeneratorMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::CubemapGeneratorBehavior*>
 	{

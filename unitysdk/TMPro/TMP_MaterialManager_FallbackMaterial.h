@@ -4,17 +4,17 @@
 
 namespace UnityEngine { class Material; }
 
-#define TMPRO_TMP_MATERIALMANAGER_FALLBACKMATERIAL__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF4A230)
+#define TMPRO_TMP_MATERIALMANAGER_FALLBACKMATERIAL__CTOR_OFFSET UNITYSDK_OFFSET(0x1EC50E00)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TMP_MaterialManager_FallbackMaterial_TypeDefinitionIndex = 41810;
+	inline static constexpr unsigned int TMP_MaterialManager_FallbackMaterial_TypeDefinitionIndex = 43421;
 
 	class TMP_MaterialManager_FallbackMaterial : public ::System::Object
 	{
 	public:
-		::UnityEngine::Material* sourceMaterial; // 0x10
-		::UnityEngine::Material* fallbackMaterial; // 0x18
+		::UnityEngine::Material* fallbackMaterial; // 0x10
+		::UnityEngine::Material* sourceMaterial; // 0x18
 		::System::Int64 fallbackID; // 0x20
 		::System::Int32 count; // 0x28
 		::System::Int32 sourceMaterialCRC; // 0x2C

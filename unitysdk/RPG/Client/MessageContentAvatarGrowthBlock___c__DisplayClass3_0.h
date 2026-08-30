@@ -5,18 +5,18 @@
 namespace RPG::Client { class MessageContentAvatarGrowthBlock; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_MESSAGECONTENTAVATARGROWTHBLOCK___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCBA7040)
-#define RPG_CLIENT_MESSAGECONTENTAVATARGROWTHBLOCK___C__DISPLAYCLASS3_0__REQUESTDATA_B__0_OFFSET UNITYSDK_OFFSET(0xCBA7170)
+#define RPG_CLIENT_MESSAGECONTENTAVATARGROWTHBLOCK___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD6A11C0)
+#define RPG_CLIENT_MESSAGECONTENTAVATARGROWTHBLOCK___C__DISPLAYCLASS3_0__REQUESTDATA_B__0_OFFSET UNITYSDK_OFFSET(0xD6A12F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MessageContentAvatarGrowthBlock___c__DisplayClass3_0_TypeDefinitionIndex = 60465;
+	inline static constexpr unsigned int MessageContentAvatarGrowthBlock___c__DisplayClass3_0_TypeDefinitionIndex = 63318;
 
 	class MessageContentAvatarGrowthBlock___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::MessageContentAvatarGrowthBlock* __4__this; // 0x10
-		::System::Action_1<::System::UInt32>* callback; // 0x18
+		::System::Action_1<::System::UInt32>* callback; // 0x10
+		::RPG::Client::MessageContentAvatarGrowthBlock* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

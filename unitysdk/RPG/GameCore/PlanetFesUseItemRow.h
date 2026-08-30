@@ -5,19 +5,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_PLANETFESUSEITEMROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B6C4BF0)
-#define RPG_GAMECORE_PLANETFESUSEITEMROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6C4D80)
+#define RPG_GAMECORE_PLANETFESUSEITEMROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D346B10)
+#define RPG_GAMECORE_PLANETFESUSEITEMROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D346CA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlanetFesUseItemRow_TypeDefinitionIndex = 11783;
+	inline static constexpr unsigned int PlanetFesUseItemRow_TypeDefinitionIndex = 12172;
 
 	class PlanetFesUseItemRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* UseParams; // 0x10
-		::System::UInt32 ItemID; // 0x18
-		::RPG::GameCore::PlanetFesItemUseType UseType; // 0x1C
+		::RPG::GameCore::PlanetFesItemUseType UseType; // 0x18
+		::System::UInt32 ItemID; // 0x1C
 
 		::System::Void _ctor()
 		{

@@ -7,20 +7,20 @@ namespace System { class Exception; }
 namespace System { class Type; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_REFLECTION_REFLECTIONTYPELOADEXCEPTION_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x1A19B350)
-#define SYSTEM_REFLECTION_REFLECTIONTYPELOADEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A19B170)
-#define SYSTEM_REFLECTION_REFLECTIONTYPELOADEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1A19B1F0)
-#define SYSTEM_REFLECTION_REFLECTIONTYPELOADEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1A19B0D0)
+#define SYSTEM_REFLECTION_REFLECTIONTYPELOADEXCEPTION_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x1BDA3150)
+#define SYSTEM_REFLECTION_REFLECTIONTYPELOADEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1BDA2F60)
+#define SYSTEM_REFLECTION_REFLECTIONTYPELOADEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1BDA2FE0)
+#define SYSTEM_REFLECTION_REFLECTIONTYPELOADEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDA2EC0)
 
 namespace System::Reflection
 {
-	inline static constexpr unsigned int ReflectionTypeLoadException_TypeDefinitionIndex = 583;
+	inline static constexpr unsigned int ReflectionTypeLoadException_TypeDefinitionIndex = 586;
 
 	class ReflectionTypeLoadException : public ::System::SystemException
 	{
 	public:
-		::Il2CppArray<::System::Exception*>* _exceptions; // 0x88
-		::Il2CppArray<::System::Type*>* _classes; // 0x90
+		::Il2CppArray<::System::Type*>* _classes; // 0x88
+		::Il2CppArray<::System::Exception*>* _exceptions; // 0x90
 
 		::System::Void _ctor()
 		{

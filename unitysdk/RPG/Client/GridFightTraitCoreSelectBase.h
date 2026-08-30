@@ -5,12 +5,12 @@
 namespace RPG::Client { class GridFightTrait; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_GRIDFIGHTTRAITCORESELECTBASE_GETCOREROLEUIDS_OFFSET UNITYSDK_OFFSET(0xC843790)
-#define RPG_CLIENT_GRIDFIGHTTRAITCORESELECTBASE__CTOR_OFFSET UNITYSDK_OFFSET(0xC840D20)
+#define RPG_CLIENT_GRIDFIGHTTRAITCORESELECTBASE_GETCOREROLEUIDS_OFFSET UNITYSDK_OFFSET(0xD35F4F0)
+#define RPG_CLIENT_GRIDFIGHTTRAITCORESELECTBASE__CTOR_OFFSET UNITYSDK_OFFSET(0xD35CA80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightTraitCoreSelectBase_TypeDefinitionIndex = 62439;
+	inline static constexpr unsigned int GridFightTraitCoreSelectBase_TypeDefinitionIndex = 65424;
 
 	class GridFightTraitCoreSelectBase : public ::RPG::Client::GridFightTraitEffectBase
 	{

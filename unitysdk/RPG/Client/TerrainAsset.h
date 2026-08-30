@@ -14,27 +14,27 @@ namespace UnityEngine { class Texture2D; }
 namespace UnityEngine { class Texture; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_TERRAINASSET_ADDBYKEYWORDS_OFFSET UNITYSDK_OFFSET(0xD676490)
-#define RPG_CLIENT_TERRAINASSET_AWAKE_OFFSET UNITYSDK_OFFSET(0xD675500)
-#define RPG_CLIENT_TERRAINASSET_GETPREFABNAME_OFFSET UNITYSDK_OFFSET(0xD676400)
-#define RPG_CLIENT_TERRAINASSET_LOAD_OFFSET UNITYSDK_OFFSET(0xD675550)
-#define RPG_CLIENT_TERRAINASSET_METHOD_5_2BEB3887295B939A_OFFSET UNITYSDK_OFFSET(0xD675920)
-#define RPG_CLIENT_TERRAINASSET_METHOD_5_7F29568EA964E563_OFFSET UNITYSDK_OFFSET(0xD675AC0)
-#define RPG_CLIENT_TERRAINASSET_SETBLOCKPROPERTY_OFFSET UNITYSDK_OFFSET(0xD676450)
-#define RPG_CLIENT_TERRAINASSET_START_OFFSET UNITYSDK_OFFSET(0xD6758D0)
-#define RPG_CLIENT_TERRAINASSET__CCTOR_OFFSET UNITYSDK_OFFSET(0xD6767F0)
-#define RPG_CLIENT_TERRAINASSET__CTOR_OFFSET UNITYSDK_OFFSET(0xD676760)
+#define RPG_CLIENT_TERRAINASSET_ADDBYKEYWORDS_OFFSET UNITYSDK_OFFSET(0xE1C6090)
+#define RPG_CLIENT_TERRAINASSET_AWAKE_OFFSET UNITYSDK_OFFSET(0xE1C5130)
+#define RPG_CLIENT_TERRAINASSET_GETPREFABNAME_OFFSET UNITYSDK_OFFSET(0xE1C6000)
+#define RPG_CLIENT_TERRAINASSET_LOAD_OFFSET UNITYSDK_OFFSET(0xE1C5180)
+#define RPG_CLIENT_TERRAINASSET_METHOD_5_2A83FA3713ACC6E3_OFFSET UNITYSDK_OFFSET(0xE1C5550)
+#define RPG_CLIENT_TERRAINASSET_METHOD_5_7F29568EA964E563_OFFSET UNITYSDK_OFFSET(0xE1C56C0)
+#define RPG_CLIENT_TERRAINASSET_SETBLOCKPROPERTY_OFFSET UNITYSDK_OFFSET(0xE1C6050)
+#define RPG_CLIENT_TERRAINASSET_START_OFFSET UNITYSDK_OFFSET(0xE1C5500)
+#define RPG_CLIENT_TERRAINASSET__CCTOR_OFFSET UNITYSDK_OFFSET(0xE1C6410)
+#define RPG_CLIENT_TERRAINASSET__CTOR_OFFSET UNITYSDK_OFFSET(0xE1C6360)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TerrainAsset_TypeDefinitionIndex = 65814;
+	inline static constexpr unsigned int TerrainAsset_TypeDefinitionIndex = 68852;
 
 	class TerrainAsset : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::System::Int32* StaticGet_Field_5_0()
+		static ::System::Int32* StaticGet_ADMDNEPNFII()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TerrainAsset_TypeDefinitionIndex)->GetStaticField(0xA6D0);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TerrainAsset_TypeDefinitionIndex)->GetStaticField(0x10F80);
 		}
 		::Il2CppArray<::UnityEngine::MeshRenderer*>* TerrainRenders; // 0x18
 		::Il2CppArray<::UnityEngine::Texture2D*>* TerrainMaskTexs; // 0x20
@@ -49,7 +49,7 @@ namespace RPG::Client
 		::Il2CppArray<::UnityEngine::Renderer*>* TargetTerrainRenderer; // 0x60
 		::UnityEngine::Vector2 BlendBaseRange; // 0x68
 		::UnityEngine::Bounds HeightBlendBounds; // 0x70
-		::UnityEngine::MaterialPropertyBlock* Field_5_14; // 0x88
+		::UnityEngine::MaterialPropertyBlock* KLLOONOEFDO; // 0x88
 
 		::System::Void _ctor()
 		{
@@ -91,9 +91,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TERRAINASSET_METHOD_5_7F29568EA964E563_OFFSET))(this);
 		}
 
-		::System::Void Method_5_2BEB3887295B939A()
+		::System::Void Method_5_2A83FA3713ACC6E3()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TERRAINASSET_METHOD_5_2BEB3887295B939A_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TERRAINASSET_METHOD_5_2A83FA3713ACC6E3_OFFSET))(this);
 		}
 
 		::System::Void AddByKeywords()

@@ -5,19 +5,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ACTIVITYLOCALLEGENDREWARDCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B11EEB0)
-#define RPG_GAMECORE_ACTIVITYLOCALLEGENDREWARDCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B11F050)
+#define RPG_GAMECORE_ACTIVITYLOCALLEGENDREWARDCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CD955B0)
+#define RPG_GAMECORE_ACTIVITYLOCALLEGENDREWARDCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD95750)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityLocalLegendRewardConfigRow_TypeDefinitionIndex = 11433;
+	inline static constexpr unsigned int ActivityLocalLegendRewardConfigRow_TypeDefinitionIndex = 11822;
 
 	class ActivityLocalLegendRewardConfigRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 ID; // 0x10
-		::RPG::GameCore::ActivityLocalLegendRewardType TaskType; // 0x14
-		::System::Int32 Sort; // 0x18
+		::System::Int32 Sort; // 0x10
+		::System::UInt32 ID; // 0x14
+		::RPG::GameCore::ActivityLocalLegendRewardType TaskType; // 0x18
 
 		::System::Void _ctor()
 		{

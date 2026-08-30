@@ -5,29 +5,29 @@
 class Class_1_C0259C461ECB54D1;
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_BASEPHASECONTEXT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xBE30500)
-#define RPG_CLIENT_BASEPHASECONTEXT___C__CTOR_OFFSET UNITYSDK_OFFSET(0xBE30530)
-#define RPG_CLIENT_BASEPHASECONTEXT___C__DISPOSE_B__10_0_OFFSET UNITYSDK_OFFSET(0xBE30560)
-#define RPG_CLIENT_BASEPHASECONTEXT___C__INIT_B__2_0_OFFSET UNITYSDK_OFFSET(0xBE30540)
+#define RPG_CLIENT_BASEPHASECONTEXT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC8CE0D0)
+#define RPG_CLIENT_BASEPHASECONTEXT___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC8CE100)
+#define RPG_CLIENT_BASEPHASECONTEXT___C__DISPOSE_B__10_0_OFFSET UNITYSDK_OFFSET(0xC8CE130)
+#define RPG_CLIENT_BASEPHASECONTEXT___C__INIT_B__2_0_OFFSET UNITYSDK_OFFSET(0xC8CE110)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BasePhaseContext___c_TypeDefinitionIndex = 58382;
+	inline static constexpr unsigned int BasePhaseContext___c_TypeDefinitionIndex = 61209;
 
 	class BasePhaseContext___c : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::Class_1_C0259C461ECB54D1*>** StaticGet___9__2_0()
-		{
-			return (::System::Action_1<::Class_1_C0259C461ECB54D1*>**)Il2CppClass::FromTypeDefinitionIndex(BasePhaseContext___c_TypeDefinitionIndex)->GetStaticField(0x532E0);
-		}
 		static ::RPG::Client::BasePhaseContext___c** StaticGet___9()
 		{
-			return (::RPG::Client::BasePhaseContext___c**)Il2CppClass::FromTypeDefinitionIndex(BasePhaseContext___c_TypeDefinitionIndex)->GetStaticField(0x532E8);
+			return (::RPG::Client::BasePhaseContext___c**)Il2CppClass::FromTypeDefinitionIndex(BasePhaseContext___c_TypeDefinitionIndex)->GetStaticField(0x4B30);
 		}
 		static ::System::Action_1<::Class_1_C0259C461ECB54D1*>** StaticGet___9__10_0()
 		{
-			return (::System::Action_1<::Class_1_C0259C461ECB54D1*>**)Il2CppClass::FromTypeDefinitionIndex(BasePhaseContext___c_TypeDefinitionIndex)->GetStaticField(0x532F0);
+			return (::System::Action_1<::Class_1_C0259C461ECB54D1*>**)Il2CppClass::FromTypeDefinitionIndex(BasePhaseContext___c_TypeDefinitionIndex)->GetStaticField(0x4B38);
+		}
+		static ::System::Action_1<::Class_1_C0259C461ECB54D1*>** StaticGet___9__2_0()
+		{
+			return (::System::Action_1<::Class_1_C0259C461ECB54D1*>**)Il2CppClass::FromTypeDefinitionIndex(BasePhaseContext___c_TypeDefinitionIndex)->GetStaticField(0x4B40);
 		}
 
 		static ::System::Void _cctor()

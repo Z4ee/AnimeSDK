@@ -7,10 +7,10 @@ namespace RPG::GameCore { class TargetFetchFateRinCardCaster; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_3_D0DF5CC5607A528D_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB2DB850)
-#define CLASS_3_D0DF5CC5607A528D__CTOR_OFFSET UNITYSDK_OFFSET(0xB2DB800)
+#define CLASS_3_D0DF5CC5607A528D_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBCC2620)
+#define CLASS_3_D0DF5CC5607A528D__CTOR_OFFSET UNITYSDK_OFFSET(0xBCC25D0)
 
-inline static constexpr unsigned int Class_3_D0DF5CC5607A528D_TypeDefinitionIndex = 56494;
+inline static constexpr unsigned int Class_3_D0DF5CC5607A528D_TypeDefinitionIndex = 59278;
 
 class Class_3_D0DF5CC5607A528D : public ::RPG::GameCore::TargetEvaluatorImpl_1<::RPG::GameCore::TargetFetchFateRinCardCaster*>
 {

@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define XLUA_LUAEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x13DA17E0)
+#define XLUA_LUAEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x14B2AB20)
 
 namespace XLua
 {
-	inline static constexpr unsigned int LuaException_TypeDefinitionIndex = 47957;
+	inline static constexpr unsigned int LuaException_TypeDefinitionIndex = 50540;
 
 	class LuaException : public ::System::Exception
 	{

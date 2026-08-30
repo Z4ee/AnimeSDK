@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class PropRestartFarmElement; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_C66B94CA1DAD347D_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB46E430)
-#define CLASS_3_C66B94CA1DAD347D__CTOR_OFFSET UNITYSDK_OFFSET(0xB46E400)
+#define CLASS_3_C66B94CA1DAD347D_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBE57B90)
+#define CLASS_3_C66B94CA1DAD347D__CTOR_OFFSET UNITYSDK_OFFSET(0xBE57B60)
 
-inline static constexpr unsigned int Class_3_C66B94CA1DAD347D_TypeDefinitionIndex = 55762;
+inline static constexpr unsigned int Class_3_C66B94CA1DAD347D_TypeDefinitionIndex = 58493;
 
 class Class_3_C66B94CA1DAD347D : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::PropRestartFarmElement*>
 {

@@ -5,12 +5,12 @@
 namespace RPG::Client { class ItemDisplayData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_EXPEDITIONMODULE___C__DISPLAYCLASS27_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC425A20)
-#define RPG_CLIENT_EXPEDITIONMODULE___C__DISPLAYCLASS27_0__ISREQUIREBYGROWTHTARGET_B__0_OFFSET UNITYSDK_OFFSET(0xC426650)
+#define RPG_CLIENT_EXPEDITIONMODULE___C__DISPLAYCLASS27_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCF0A9F0)
+#define RPG_CLIENT_EXPEDITIONMODULE___C__DISPLAYCLASS27_0__ISREQUIREBYGROWTHTARGET_B__0_OFFSET UNITYSDK_OFFSET(0xCF0B620)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ExpeditionModule___c__DisplayClass27_0_TypeDefinitionIndex = 61049;
+	inline static constexpr unsigned int ExpeditionModule___c__DisplayClass27_0_TypeDefinitionIndex = 64030;
 
 	class ExpeditionModule___c__DisplayClass27_0 : public ::System::Object
 	{

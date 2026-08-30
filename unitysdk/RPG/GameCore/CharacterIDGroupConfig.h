@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHARACTERIDGROUPCONFIG_METHOD_2_9D698FE406A73A8A_OFFSET UNITYSDK_OFFSET(0x1B31B660)
-#define RPG_GAMECORE_CHARACTERIDGROUPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B31B780)
+#define RPG_GAMECORE_CHARACTERIDGROUPCONFIG_METHOD_2_9D698FE406A73A8A_OFFSET UNITYSDK_OFFSET(0x1CF97680)
+#define RPG_GAMECORE_CHARACTERIDGROUPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF977A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterIDGroupConfig_TypeDefinitionIndex = 16452;
+	inline static constexpr unsigned int CharacterIDGroupConfig_TypeDefinitionIndex = 16942;
 
 	class CharacterIDGroupConfig : public ::RPG::GameCore::JsonConfig
 	{

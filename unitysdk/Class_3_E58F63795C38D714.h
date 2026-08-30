@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AdventureByIsWeakTypeActive; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_E58F63795C38D714_EVALUATE_OFFSET UNITYSDK_OFFSET(0xCD81C30)
-#define CLASS_3_E58F63795C38D714__CTOR_OFFSET UNITYSDK_OFFSET(0xCD81C00)
+#define CLASS_3_E58F63795C38D714_EVALUATE_OFFSET UNITYSDK_OFFSET(0xD80B1F0)
+#define CLASS_3_E58F63795C38D714__CTOR_OFFSET UNITYSDK_OFFSET(0xD80B1C0)
 
-inline static constexpr unsigned int Class_3_E58F63795C38D714_TypeDefinitionIndex = 51998;
+inline static constexpr unsigned int Class_3_E58F63795C38D714_TypeDefinitionIndex = 54683;
 
 class Class_3_E58F63795C38D714 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::AdventureByIsWeakTypeActive*>
 {

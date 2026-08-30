@@ -5,24 +5,24 @@
 namespace RPG::Client { class RogueTournRelicCocoonData; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_ROGUETOURNRELICCOCOONCOLLECTION___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD47F540)
-#define RPG_CLIENT_ROGUETOURNRELICCOCOONCOLLECTION___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD47F570)
-#define RPG_CLIENT_ROGUETOURNRELICCOCOONCOLLECTION___C___GENERATECOCOONDATADICT_B__17_1_OFFSET UNITYSDK_OFFSET(0xD47F580)
+#define RPG_CLIENT_ROGUETOURNRELICCOCOONCOLLECTION___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xDFA3430)
+#define RPG_CLIENT_ROGUETOURNRELICCOCOONCOLLECTION___C__CTOR_OFFSET UNITYSDK_OFFSET(0xDFA3460)
+#define RPG_CLIENT_ROGUETOURNRELICCOCOONCOLLECTION___C___GENERATECOCOONDATADICT_B__17_1_OFFSET UNITYSDK_OFFSET(0xDFA3470)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournRelicCocoonCollection___c_TypeDefinitionIndex = 64760;
+	inline static constexpr unsigned int RogueTournRelicCocoonCollection___c_TypeDefinitionIndex = 67765;
 
 	class RogueTournRelicCocoonCollection___c : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::RogueTournRelicCocoonCollection___c** StaticGet___9()
 		{
-			return (::RPG::Client::RogueTournRelicCocoonCollection___c**)Il2CppClass::FromTypeDefinitionIndex(RogueTournRelicCocoonCollection___c_TypeDefinitionIndex)->GetStaticField(0x2E710);
+			return (::RPG::Client::RogueTournRelicCocoonCollection___c**)Il2CppClass::FromTypeDefinitionIndex(RogueTournRelicCocoonCollection___c_TypeDefinitionIndex)->GetStaticField(0x18A30);
 		}
 		static ::System::Comparison_1<::RPG::Client::RogueTournRelicCocoonData*>** StaticGet___9__17_1()
 		{
-			return (::System::Comparison_1<::RPG::Client::RogueTournRelicCocoonData*>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournRelicCocoonCollection___c_TypeDefinitionIndex)->GetStaticField(0x2E718);
+			return (::System::Comparison_1<::RPG::Client::RogueTournRelicCocoonData*>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournRelicCocoonCollection___c_TypeDefinitionIndex)->GetStaticField(0x18A38);
 		}
 
 		static ::System::Void _cctor()

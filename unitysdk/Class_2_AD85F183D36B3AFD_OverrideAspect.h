@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Class_2_AD85F183D36B3AFD_OverrideAspect_TypeDefinitionIndex = 70433;
+inline static constexpr unsigned int Class_2_AD85F183D36B3AFD_OverrideAspect_TypeDefinitionIndex = 73705;
 
 enum class Class_2_AD85F183D36B3AFD_OverrideAspect : ::System::Int32
 {

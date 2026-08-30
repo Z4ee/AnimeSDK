@@ -7,11 +7,11 @@ namespace RPG::GameCore { class GroupInitMemberEntityAnimParameter; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_3_11E69185854C9CED_METHOD_3_DD67B00E4DD1AEC0_OFFSET UNITYSDK_OFFSET(0xB35B830)
-#define CLASS_3_11E69185854C9CED_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB35B450)
-#define CLASS_3_11E69185854C9CED__CTOR_OFFSET UNITYSDK_OFFSET(0xB35B420)
+#define CLASS_3_11E69185854C9CED_METHOD_3_DD67B00E4DD1AEC0_OFFSET UNITYSDK_OFFSET(0xBD37780)
+#define CLASS_3_11E69185854C9CED_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBD37390)
+#define CLASS_3_11E69185854C9CED__CTOR_OFFSET UNITYSDK_OFFSET(0xBD37360)
 
-inline static constexpr unsigned int Class_3_11E69185854C9CED_TypeDefinitionIndex = 50523;
+inline static constexpr unsigned int Class_3_11E69185854C9CED_TypeDefinitionIndex = 53191;
 
 class Class_3_11E69185854C9CED : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::GroupInitMemberEntityAnimParameter*>
 {

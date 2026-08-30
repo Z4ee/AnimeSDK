@@ -5,17 +5,17 @@
 class Class_1_01DFB1C3DD7B8195;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_68567FA2484DF545_METHOD_1_7DC8A93C0B388CEA_OFFSET UNITYSDK_OFFSET(0x1A4C77A0)
-#define CLASS_1_68567FA2484DF545_METHOD_1_EBEE0D0A222A8264_OFFSET UNITYSDK_OFFSET(0x1A4C7700)
-#define CLASS_1_68567FA2484DF545__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4C78B0)
+#define CLASS_1_68567FA2484DF545_METHOD_1_7DC8A93C0B388CEA_OFFSET UNITYSDK_OFFSET(0x1C0D7290)
+#define CLASS_1_68567FA2484DF545_METHOD_1_EBEE0D0A222A8264_OFFSET UNITYSDK_OFFSET(0x1C0D71F0)
+#define CLASS_1_68567FA2484DF545__CTOR_OFFSET UNITYSDK_OFFSET(0x1C0D73A0)
 
-inline static constexpr unsigned int Class_1_68567FA2484DF545_TypeDefinitionIndex = 35376;
+inline static constexpr unsigned int Class_1_68567FA2484DF545_TypeDefinitionIndex = 36237;
 
 class Class_1_68567FA2484DF545 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::Class_1_01DFB1C3DD7B8195*>* Field_1_0; // 0x10
-	::System::UInt32 Field_1_1; // 0x18
+	::System::Collections::Generic::List_1<::Class_1_01DFB1C3DD7B8195*>* OCPPDGPAEFM; // 0x10
+	::System::UInt32 KNEFCBAALDF; // 0x18
 
 	::System::Void _ctor()
 	{

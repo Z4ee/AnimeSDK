@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace RPGTools::Octree::Common
 {
-	inline static constexpr unsigned int PriorityQueue_1_TypeDefinitionIndex = 47083;
+	inline static constexpr unsigned int PriorityQueue_1_TypeDefinitionIndex = 49346;
 
 	template <typename TElement>
 	class PriorityQueue_1 : public ::System::Object

@@ -7,12 +7,12 @@ namespace RPG::GameCore { class ElationConfig; }
 namespace RPG::GameCore { class SkillAbilityConfig; }
 namespace RPG::GameCore { class SkillConfig; }
 
-#define RPG_GAMECORE_COMMONSKILL_METHOD_2_6661381D32AC6F5B_OFFSET UNITYSDK_OFFSET(0x1B373420)
-#define RPG_GAMECORE_COMMONSKILL__CTOR_OFFSET UNITYSDK_OFFSET(0x1B373550)
+#define RPG_GAMECORE_COMMONSKILL_METHOD_2_6661381D32AC6F5B_OFFSET UNITYSDK_OFFSET(0x1CFF0560)
+#define RPG_GAMECORE_COMMONSKILL__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFF0690)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CommonSkill_TypeDefinitionIndex = 17418;
+	inline static constexpr unsigned int CommonSkill_TypeDefinitionIndex = 17935;
 
 	class CommonSkill : public ::RPG::GameCore::JsonConfig
 	{

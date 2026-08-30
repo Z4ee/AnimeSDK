@@ -6,17 +6,17 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class FiveDimSetBillboardInfo; }
 
-#define CLASS_3_1C1945AD63FFD72F_METHOD_3_B0B66673456EDDF6_OFFSET UNITYSDK_OFFSET(0x1B7ED910)
-#define CLASS_3_1C1945AD63FFD72F_METHOD_3_C17C5E1EBAECCBCD_OFFSET UNITYSDK_OFFSET(0x1B7ED950)
-#define CLASS_3_1C1945AD63FFD72F__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7ED940)
+#define CLASS_3_1C1945AD63FFD72F_METHOD_3_B0B66673456EDDF6_OFFSET UNITYSDK_OFFSET(0x1D431630)
+#define CLASS_3_1C1945AD63FFD72F_METHOD_3_C17C5E1EBAECCBCD_OFFSET UNITYSDK_OFFSET(0x1D431670)
+#define CLASS_3_1C1945AD63FFD72F__CTOR_OFFSET UNITYSDK_OFFSET(0x1D431660)
 
-inline static constexpr unsigned int Class_3_1C1945AD63FFD72F_TypeDefinitionIndex = 20678;
+inline static constexpr unsigned int Class_3_1C1945AD63FFD72F_TypeDefinitionIndex = 21232;
 
 class Class_3_1C1945AD63FFD72F : public ::RPG::GameCore::TaskConfig
 {
 public:
-	::RPG::GameCore::FiveDimSetBillboardInfo* Field_3_0; // 0x18
-	::RPG::GameCore::DynamicString* Field_3_1; // 0x20
+	::RPG::GameCore::FiveDimSetBillboardInfo* OGAKGPFAHPM; // 0x18
+	::RPG::GameCore::DynamicString* ODMPMJCAHPN; // 0x20
 
 	::System::Void _ctor()
 	{

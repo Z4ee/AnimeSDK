@@ -7,19 +7,19 @@ class Class_1_FED52683E458A5ED;
 namespace RPG::Client { class ItemDisplayData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_PLANETFESREWARD_CREATE_1_OFFSET UNITYSDK_OFFSET(0xD080120)
-#define RPG_CLIENT_PLANETFESREWARD_CREATE_OFFSET UNITYSDK_OFFSET(0xD06BF50)
-#define RPG_CLIENT_PLANETFESREWARD__CTOR_OFFSET UNITYSDK_OFFSET(0xD080110)
+#define RPG_CLIENT_PLANETFESREWARD_CREATE_1_OFFSET UNITYSDK_OFFSET(0xDB82780)
+#define RPG_CLIENT_PLANETFESREWARD_CREATE_OFFSET UNITYSDK_OFFSET(0xDB6DB30)
+#define RPG_CLIENT_PLANETFESREWARD__CTOR_OFFSET UNITYSDK_OFFSET(0xDB82770)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlanetFesReward_TypeDefinitionIndex = 63672;
+	inline static constexpr unsigned int PlanetFesReward_TypeDefinitionIndex = 66657;
 
 	class PlanetFesReward : public ::System::Object
 	{
 	public:
-		::System::Numerics::BigInteger Coin; // 0x10
-		::System::Collections::Generic::List_1<::RPG::Client::ItemDisplayData*>* Items; // 0x20
+		::System::Collections::Generic::List_1<::RPG::Client::ItemDisplayData*>* Items; // 0x10
+		::System::Numerics::BigInteger Coin; // 0x18
 
 		::System::Void _ctor()
 		{

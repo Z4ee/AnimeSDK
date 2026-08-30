@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_SHARECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B8BFA60)
-#define RPG_GAMECORE_SHARECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8BFC00)
+#define RPG_GAMECORE_SHARECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D51B7C0)
+#define RPG_GAMECORE_SHARECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D51B960)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShareConfigRow_TypeDefinitionIndex = 13908;
+	inline static constexpr unsigned int ShareConfigRow_TypeDefinitionIndex = 14326;
 
 	class ShareConfigRow : public ::System::Object
 	{

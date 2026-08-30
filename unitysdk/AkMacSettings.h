@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/AkWwiseInitializationSettings_CommonPlatformSettings.h"
 
-#define AKMACSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1D1C80)
+#define AKMACSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1EEDD620)
 
-inline static constexpr unsigned int AkMacSettings_TypeDefinitionIndex = 42091;
+inline static constexpr unsigned int AkMacSettings_TypeDefinitionIndex = 43702;
 
 class AkMacSettings : public ::AkWwiseInitializationSettings_CommonPlatformSettings
 {

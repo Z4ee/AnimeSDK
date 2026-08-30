@@ -4,7 +4,7 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-class Class_0_16E4307DCC419505_425;
+class Class_0_16E4307DCC419505_460;
 class Class_1_17A5886A757514FA;
 class Class_1_C2E1FDEE094F4F72;
 class FiveDimRenderingPanelRuntime;
@@ -21,34 +21,34 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Collections::Generic { template <typename T> class Queue_1; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_PROP_ADVMONEYMANAGER_DISPOSE_OFFSET UNITYSDK_OFFSET(0xD0CA100)
-#define RPG_CLIENT_PROP_ADVMONEYMANAGER_GETEFFECTPARAMS_OFFSET UNITYSDK_OFFSET(0xD0CC510)
-#define RPG_CLIENT_PROP_ADVMONEYMANAGER_GET_PRIORITY_OFFSET UNITYSDK_OFFSET(0xD0CCED0)
-#define RPG_CLIENT_PROP_ADVMONEYMANAGER_GET_SERVICES_OFFSET UNITYSDK_OFFSET(0xD0C98B0)
-#define RPG_CLIENT_PROP_ADVMONEYMANAGER_INITMANAGER_OFFSET UNITYSDK_OFFSET(0xD0C9980)
-#define RPG_CLIENT_PROP_ADVMONEYMANAGER_LOGICTICK_OFFSET UNITYSDK_OFFSET(0xD0CB9C0)
-#define RPG_CLIENT_PROP_ADVMONEYMANAGER_METHOD_5_1D4018D4200358D0_OFFSET UNITYSDK_OFFSET(0xD0CC770)
-#define RPG_CLIENT_PROP_ADVMONEYMANAGER_METHOD_5_5F4BFCF72CD8DA61_OFFSET UNITYSDK_OFFSET(0xD0CD3D0)
-#define RPG_CLIENT_PROP_ADVMONEYMANAGER_METHOD_5_7E00AC2EC95107BF_OFFSET UNITYSDK_OFFSET(0xD0CCA20)
-#define RPG_CLIENT_PROP_ADVMONEYMANAGER_METHOD_5_B560799CAB48EE76_OFFSET UNITYSDK_OFFSET(0xD0CD290)
-#define RPG_CLIENT_PROP_ADVMONEYMANAGER_METHOD_5_F534E0360F42C704_OFFSET UNITYSDK_OFFSET(0xD0CD680)
-#define RPG_CLIENT_PROP_ADVMONEYMANAGER_ONCANCELSPAWN_OFFSET UNITYSDK_OFFSET(0xD0CD210)
-#define RPG_CLIENT_PROP_ADVMONEYMANAGER_ONSPAWNASYNC_OFFSET UNITYSDK_OFFSET(0xD0CCEE0)
-#define RPG_CLIENT_PROP_ADVMONEYMANAGER_QUERYAPPEAREDMONEY_OFFSET UNITYSDK_OFFSET(0xD0CC7E0)
-#define RPG_CLIENT_PROP_ADVMONEYMANAGER_SPAWNMONEY_OFFSET UNITYSDK_OFFSET(0xD0CB640)
-#define RPG_CLIENT_PROP_ADVMONEYMANAGER_USELIGHTWEIGHTDEACTIVE_OFFSET UNITYSDK_OFFSET(0xD0CD250)
-#define RPG_CLIENT_PROP_ADVMONEYMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0xD0CDA50)
+#define RPG_CLIENT_PROP_ADVMONEYMANAGER_DISPOSE_OFFSET UNITYSDK_OFFSET(0xDBCCB00)
+#define RPG_CLIENT_PROP_ADVMONEYMANAGER_GETEFFECTPARAMS_OFFSET UNITYSDK_OFFSET(0xDBCED30)
+#define RPG_CLIENT_PROP_ADVMONEYMANAGER_GET_PRIORITY_OFFSET UNITYSDK_OFFSET(0xDBCF670)
+#define RPG_CLIENT_PROP_ADVMONEYMANAGER_GET_SERVICES_OFFSET UNITYSDK_OFFSET(0xDBCC2A0)
+#define RPG_CLIENT_PROP_ADVMONEYMANAGER_INITMANAGER_OFFSET UNITYSDK_OFFSET(0xDBCC370)
+#define RPG_CLIENT_PROP_ADVMONEYMANAGER_LOGICTICK_OFFSET UNITYSDK_OFFSET(0xDBCE1E0)
+#define RPG_CLIENT_PROP_ADVMONEYMANAGER_METHOD_5_1D4018D4200358D0_OFFSET UNITYSDK_OFFSET(0xDBCEF90)
+#define RPG_CLIENT_PROP_ADVMONEYMANAGER_METHOD_5_2EBB03D7F7E1E8C1_OFFSET UNITYSDK_OFFSET(0xDBCF240)
+#define RPG_CLIENT_PROP_ADVMONEYMANAGER_METHOD_5_5F4BFCF72CD8DA61_OFFSET UNITYSDK_OFFSET(0xDBCFC00)
+#define RPG_CLIENT_PROP_ADVMONEYMANAGER_METHOD_5_B560799CAB48EE76_OFFSET UNITYSDK_OFFSET(0xDBCFAC0)
+#define RPG_CLIENT_PROP_ADVMONEYMANAGER_METHOD_5_F534E0360F42C704_OFFSET UNITYSDK_OFFSET(0xDBCFEB0)
+#define RPG_CLIENT_PROP_ADVMONEYMANAGER_ONCANCELSPAWN_OFFSET UNITYSDK_OFFSET(0xDBCFA40)
+#define RPG_CLIENT_PROP_ADVMONEYMANAGER_ONSPAWNASYNC_OFFSET UNITYSDK_OFFSET(0xDBCF680)
+#define RPG_CLIENT_PROP_ADVMONEYMANAGER_QUERYAPPEAREDMONEY_OFFSET UNITYSDK_OFFSET(0xDBCF000)
+#define RPG_CLIENT_PROP_ADVMONEYMANAGER_SPAWNMONEY_OFFSET UNITYSDK_OFFSET(0xDBCDE70)
+#define RPG_CLIENT_PROP_ADVMONEYMANAGER_USELIGHTWEIGHTDEACTIVE_OFFSET UNITYSDK_OFFSET(0xDBCFA80)
+#define RPG_CLIENT_PROP_ADVMONEYMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0xDBD0280)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int AdvMoneyManager_TypeDefinitionIndex = 74235;
+	inline static constexpr unsigned int AdvMoneyManager_TypeDefinitionIndex = 77719;
 
 	class AdvMoneyManager : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::RPG::Client::Prop::AdvMoneyManager_Class_1_0A4F3555A68FE558** StaticGet_Field_5_0()
+		static ::RPG::Client::Prop::AdvMoneyManager_Class_1_0A4F3555A68FE558** StaticGet_GLOAOBBCPEO()
 		{
-			return (::RPG::Client::Prop::AdvMoneyManager_Class_1_0A4F3555A68FE558**)Il2CppClass::FromTypeDefinitionIndex(AdvMoneyManager_TypeDefinitionIndex)->GetStaticField(0x6B650);
+			return (::RPG::Client::Prop::AdvMoneyManager_Class_1_0A4F3555A68FE558**)Il2CppClass::FromTypeDefinitionIndex(AdvMoneyManager_TypeDefinitionIndex)->GetStaticField(0x61F80);
 		}
 		::System::String* MoneyPrefabPath; // 0x18
 		::System::String* SpawnMoneyEffectPath; // 0x20
@@ -58,19 +58,19 @@ namespace RPG::Client::Prop
 		::System::UInt32 GetMoneyNum; // 0x38
 		::UnityEngine::Vector3 InitialOffset; // 0x3C
 		::System::Single RenderDelayTime; // 0x48
-		::System::Boolean Field_5_9; // 0x4C
-		::FiveDimRenderingPanelRuntime* Field_5_10; // 0x50
-		::RPG::GameCore::GameEntity* Field_5_11; // 0x58
-		::RPG::Client::Stage* Field_5_12; // 0x60
-		::System::Collections::Generic::List_1<::RPG::GameCore::AnchorInfo*>* Field_5_13; // 0x68
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::Class_1_17A5886A757514FA*>*>* Field_5_14; // 0x70
-		::System::Single Field_5_15; // 0x78
-		::System::Collections::Generic::HashSet_1<::Class_1_17A5886A757514FA*>* Field_5_16; // 0x80
-		::System::Collections::Generic::HashSet_1<::Class_1_17A5886A757514FA*>* Field_5_17; // 0x88
-		::System::Collections::Generic::List_1<::Class_1_C2E1FDEE094F4F72*>* Field_5_18; // 0x90
-		::System::Collections::Generic::List_1<::Class_1_C2E1FDEE094F4F72*>* Field_5_19; // 0x98
-		::System::Boolean Field_5_20; // 0xA0
-		::System::Collections::Generic::Queue_1<::Class_1_17A5886A757514FA*>* Field_5_21; // 0xA8
+		::System::Boolean AHPGBHKGELC; // 0x4C
+		::FiveDimRenderingPanelRuntime* JHBKPBHIJPM; // 0x50
+		::RPG::GameCore::GameEntity* CFKHNPGEAJA; // 0x58
+		::RPG::Client::Stage* PKLNPNKEJOO; // 0x60
+		::System::Collections::Generic::List_1<::RPG::GameCore::AnchorInfo*>* KHCEFJMIEOF; // 0x68
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::Class_1_17A5886A757514FA*>*>* CKFIMNAIEOK; // 0x70
+		::System::Single NMPFPCFOGMB; // 0x78
+		::System::Collections::Generic::HashSet_1<::Class_1_17A5886A757514FA*>* MKPCJDOMHDL; // 0x80
+		::System::Collections::Generic::HashSet_1<::Class_1_17A5886A757514FA*>* MHJNPBBEIMJ; // 0x88
+		::System::Collections::Generic::List_1<::Class_1_C2E1FDEE094F4F72*>* BPDMDKJBGCN; // 0x90
+		::System::Collections::Generic::List_1<::Class_1_C2E1FDEE094F4F72*>* MIGLKKOKEBI; // 0x98
+		::System::Boolean HEEKCAOBMIK; // 0xA0
+		::System::Collections::Generic::Queue_1<::Class_1_17A5886A757514FA*>* BHJBPCBIPPN; // 0xA8
 
 		::System::Void _ctor()
 		{
@@ -107,9 +107,9 @@ namespace RPG::Client::Prop
 			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_ADVMONEYMANAGER_QUERYAPPEAREDMONEY_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_5_7E00AC2EC95107BF(::Class_1_17A5886A757514FA* a1, ::System::Int32 a2)
+		::System::Void Method_5_2EBB03D7F7E1E8C1(::Class_1_17A5886A757514FA* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_17A5886A757514FA*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_ADVMONEYMANAGER_METHOD_5_7E00AC2EC95107BF_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::Class_1_17A5886A757514FA*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_ADVMONEYMANAGER_METHOD_5_2EBB03D7F7E1E8C1_OFFSET))(this, a1, a2);
 		}
 
 		::RPG::Client::GameObjectSpawnPriority get_Priority()
@@ -137,9 +137,9 @@ namespace RPG::Client::Prop
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_ADVMONEYMANAGER_METHOD_5_B560799CAB48EE76_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_5_5F4BFCF72CD8DA61(::Class_0_16E4307DCC419505_425* a1)
+		::System::Void Method_5_5F4BFCF72CD8DA61(::Class_0_16E4307DCC419505_460* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_425*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_ADVMONEYMANAGER_METHOD_5_5F4BFCF72CD8DA61_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_460*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_ADVMONEYMANAGER_METHOD_5_5F4BFCF72CD8DA61_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::TriggerEffectParams* GetEffectParams(::Class_1_17A5886A757514FA* a1, ::System::Boolean a2)

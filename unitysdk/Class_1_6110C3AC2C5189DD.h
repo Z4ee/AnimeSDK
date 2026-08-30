@@ -9,18 +9,18 @@ class Class_2_B078978DCA0CA7A4_Class_1_9D2500B7447E67F1;
 namespace RPG::GameCore { class GameEntity; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_6110C3AC2C5189DD_METHOD_1_52474B8C56A29315_OFFSET UNITYSDK_OFFSET(0x144B24A0)
-#define CLASS_1_6110C3AC2C5189DD_METHOD_1_8FA2956940AE948F_OFFSET UNITYSDK_OFFSET(0x144B25D0)
-#define CLASS_1_6110C3AC2C5189DD__CTOR_OFFSET UNITYSDK_OFFSET(0x144B2700)
+#define CLASS_1_6110C3AC2C5189DD_METHOD_1_52474B8C56A29315_OFFSET UNITYSDK_OFFSET(0x152E3AF0)
+#define CLASS_1_6110C3AC2C5189DD_METHOD_1_8FA2956940AE948F_OFFSET UNITYSDK_OFFSET(0x152E3C20)
+#define CLASS_1_6110C3AC2C5189DD__CTOR_OFFSET UNITYSDK_OFFSET(0x152E3D50)
 
-inline static constexpr unsigned int Class_1_6110C3AC2C5189DD_TypeDefinitionIndex = 51666;
+inline static constexpr unsigned int Class_1_6110C3AC2C5189DD_TypeDefinitionIndex = 54350;
 
 class Class_1_6110C3AC2C5189DD : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* Field_1_0; // 0x10
-	::Class_1_73D621BDD90E61A7* Field_1_1; // 0x18
-	::Class_2_B078978DCA0CA7A4_Class_1_9D2500B7447E67F1* Field_1_2; // 0x20
+	::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* CIKDOOGLNDF; // 0x10
+	::Class_1_73D621BDD90E61A7* EMOAGCAHICO; // 0x18
+	::Class_2_B078978DCA0CA7A4_Class_1_9D2500B7447E67F1* NKCPNIPOACB; // 0x20
 
 	::System::Void _ctor()
 	{

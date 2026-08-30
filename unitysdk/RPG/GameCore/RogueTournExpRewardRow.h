@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ROGUETOURNEXPREWARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B797C60)
-#define RPG_GAMECORE_ROGUETOURNEXPREWARDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B797DE0)
+#define RPG_GAMECORE_ROGUETOURNEXPREWARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D41B2E0)
+#define RPG_GAMECORE_ROGUETOURNEXPREWARDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D41B460)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueTournExpRewardRow_TypeDefinitionIndex = 14392;
+	inline static constexpr unsigned int RogueTournExpRewardRow_TypeDefinitionIndex = 14812;
 
 	class RogueTournExpRewardRow : public ::System::Object
 	{

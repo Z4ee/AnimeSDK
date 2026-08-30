@@ -14,7 +14,7 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 
 namespace RPG::Client::LittleGameShare
 {
-	inline static constexpr unsigned int ClientAutonomousSnapShotSendProcessor_1_TypeDefinitionIndex = 35353;
+	inline static constexpr unsigned int ClientAutonomousSnapShotSendProcessor_1_TypeDefinitionIndex = 36214;
 
 	template <typename TEntity>
 	class ClientAutonomousSnapShotSendProcessor_1 : public ::System::Object

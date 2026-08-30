@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_CITYSHOPREWARDLISTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B35CCF0)
-#define RPG_GAMECORE_CITYSHOPREWARDLISTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B35D3D0)
+#define RPG_GAMECORE_CITYSHOPREWARDLISTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CFD9020)
+#define RPG_GAMECORE_CITYSHOPREWARDLISTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFD9700)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CityShopRewardListRow_TypeDefinitionIndex = 12565;
+	inline static constexpr unsigned int CityShopRewardListRow_TypeDefinitionIndex = 12956;
 
 	class CityShopRewardListRow : public ::System::Object
 	{

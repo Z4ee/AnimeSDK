@@ -3,11 +3,11 @@
 #include "unitysdk/RPGTools/Timeline/PerformanceLiveStreamAudienceControlData_AudienceControlMode.h"
 #include "unitysdk/System/Object.h"
 
-#define RPGTOOLS_TIMELINE_PERFORMANCELIVESTREAMAUDIENCECONTROLDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xDCF4880)
+#define RPGTOOLS_TIMELINE_PERFORMANCELIVESTREAMAUDIENCECONTROLDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xE8BE380)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int PerformanceLiveStreamAudienceControlData_TypeDefinitionIndex = 46388;
+	inline static constexpr unsigned int PerformanceLiveStreamAudienceControlData_TypeDefinitionIndex = 48623;
 
 	class PerformanceLiveStreamAudienceControlData : public ::System::Object
 	{

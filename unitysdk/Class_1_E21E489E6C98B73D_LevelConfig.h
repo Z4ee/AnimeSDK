@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define CLASS_1_E21E489E6C98B73D_LEVELCONFIG_GET_DEFAULT_OFFSET UNITYSDK_OFFSET(0x153FD5C0)
-#define CLASS_1_E21E489E6C98B73D_LEVELCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x7BDC0)
+#define CLASS_1_E21E489E6C98B73D_LEVELCONFIG_GET_DEFAULT_OFFSET UNITYSDK_OFFSET(0x16339B80)
+#define CLASS_1_E21E489E6C98B73D_LEVELCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x7DC40)
 
-inline static constexpr unsigned int Class_1_E21E489E6C98B73D_LevelConfig_TypeDefinitionIndex = 49446;
+inline static constexpr unsigned int Class_1_E21E489E6C98B73D_LevelConfig_TypeDefinitionIndex = 52103;
 
 struct alignas(4) Class_1_E21E489E6C98B73D_LevelConfig
 {

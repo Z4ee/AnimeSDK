@@ -13,23 +13,23 @@ namespace BansheeGz::BGSpline::Components { class BGPolylineSplitter_PositionsPr
 namespace BansheeGz::BGSpline::Curve { class BGCurveBaseMath; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGPOLYLINESPLITTER_BIND_OFFSET UNITYSDK_OFFSET(0x1A3D5DE0)
-#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGPOLYLINESPLITTER_COUNTSTRAIGHTLINES_OFFSET UNITYSDK_OFFSET(0x1A3D4290)
-#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGPOLYLINESPLITTER_INITPROVIDER_OFFSET UNITYSDK_OFFSET(0x1A3DE600)
-#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGPOLYLINESPLITTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A3D5DC0)
+#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGPOLYLINESPLITTER_BIND_OFFSET UNITYSDK_OFFSET(0x1BFE4C90)
+#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGPOLYLINESPLITTER_COUNTSTRAIGHTLINES_OFFSET UNITYSDK_OFFSET(0x1BFE3140)
+#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGPOLYLINESPLITTER_INITPROVIDER_OFFSET UNITYSDK_OFFSET(0x1BFED4B0)
+#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGPOLYLINESPLITTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BFE4C70)
 
 namespace BansheeGz::BGSpline::Components
 {
-	inline static constexpr unsigned int BGPolylineSplitter_TypeDefinitionIndex = 34516;
+	inline static constexpr unsigned int BGPolylineSplitter_TypeDefinitionIndex = 35377;
 
 	class BGPolylineSplitter : public ::System::Object
 	{
 	public:
-		::BansheeGz::BGSpline::Components::BGPolylineSplitter_PositionsProviderPartsPerSection* providerPartsPerSection; // 0x10
-		::BansheeGz::BGSpline::Components::BGPolylineSplitter_PositionsProvider* positionsProvider; // 0x18
-		::BansheeGz::BGSpline::Components::BGPolylineSplitter_PositionsProviderMath* providerMath; // 0x20
+		::BansheeGz::BGSpline::Components::BGPolylineSplitter_PositionsProviderMath* providerMath; // 0x10
+		::BansheeGz::BGSpline::Components::BGPolylineSplitter_PositionsProviderPartsPerSection* providerPartsPerSection; // 0x18
+		::Il2CppArray<::System::Boolean>* straightBits; // 0x20
 		::BansheeGz::BGSpline::Components::BGPolylineSplitter_PositionsProviderTotalParts* providerTotalParts; // 0x28
-		::Il2CppArray<::System::Boolean>* straightBits; // 0x30
+		::BansheeGz::BGSpline::Components::BGPolylineSplitter_PositionsProvider* positionsProvider; // 0x30
 
 		::System::Void _ctor()
 		{

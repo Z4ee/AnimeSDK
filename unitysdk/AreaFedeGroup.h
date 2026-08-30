@@ -7,24 +7,24 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Light; }
 namespace UnityEngine { class Material; }
 
-#define AREAFEDEGROUP_GET_FADEMODE_OFFSET UNITYSDK_OFFSET(0x1492DE20)
-#define AREAFEDEGROUP_METHOD_5_367B9590522079D1_OFFSET UNITYSDK_OFFSET(0x1492E550)
-#define AREAFEDEGROUP_METHOD_5_6A0EBEECA245A27C_OFFSET UNITYSDK_OFFSET(0x1492E030)
-#define AREAFEDEGROUP_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1492DFE0)
-#define AREAFEDEGROUP_SET_FADEMODE_OFFSET UNITYSDK_OFFSET(0x1492DE30)
-#define AREAFEDEGROUP_UPDATE_OFFSET UNITYSDK_OFFSET(0x1492E500)
-#define AREAFEDEGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1492EA10)
+#define AREAFEDEGROUP_GET_FADEMODE_OFFSET UNITYSDK_OFFSET(0x1596B410)
+#define AREAFEDEGROUP_METHOD_5_367B9590522079D1_OFFSET UNITYSDK_OFFSET(0x1596BB10)
+#define AREAFEDEGROUP_METHOD_5_6A0EBEECA245A27C_OFFSET UNITYSDK_OFFSET(0x1596B5F0)
+#define AREAFEDEGROUP_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1596B5A0)
+#define AREAFEDEGROUP_SET_FADEMODE_OFFSET UNITYSDK_OFFSET(0x1596B420)
+#define AREAFEDEGROUP_UPDATE_OFFSET UNITYSDK_OFFSET(0x1596BAC0)
+#define AREAFEDEGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1596BFD0)
 
-inline static constexpr unsigned int AreaFedeGroup_TypeDefinitionIndex = 45549;
+inline static constexpr unsigned int AreaFedeGroup_TypeDefinitionIndex = 47799;
 
 class AreaFedeGroup : public ::UnityEngine::MonoBehaviour
 {
 public:
 	::UnityEngine::Light* ControllerLight; // 0x18
-	::System::Collections::Generic::List_1<::UnityEngine::Material*>* Field_5_1; // 0x20
-	::System::Int32 Field_5_2; // 0x28
-	::System::Int32 Field_5_3; // 0x2C
-	::System::Int32 Field_5_4; // 0x30
+	::System::Collections::Generic::List_1<::UnityEngine::Material*>* IFLLLBNJAOO; // 0x20
+	::System::Int32 OIFHEMDDDHK; // 0x28
+	::System::Int32 JHLBPIGFPBK; // 0x2C
+	::System::Int32 PHIHFHAENIO; // 0x30
 	::AreaFedeGroup_AreaFadeMode _FadeMode; // 0x34
 
 	::System::Void _ctor()

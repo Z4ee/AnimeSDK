@@ -13,32 +13,32 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Text::RegularExpressions { class Regex; }
 
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_DESCRIPTORPOOL_ADDENUMVALUEBYNUMBER_OFFSET UNITYSDK_OFFSET(0x19B624E0)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_DESCRIPTORPOOL_ADDFIELDBYNUMBER_OFFSET UNITYSDK_OFFSET(0x19B62090)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_DESCRIPTORPOOL_ADDPACKAGE_OFFSET UNITYSDK_OFFSET(0x19B60F90)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_DESCRIPTORPOOL_ADDSYMBOL_OFFSET UNITYSDK_OFFSET(0x19B61620)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_DESCRIPTORPOOL_FINDFIELDBYNUMBER_OFFSET UNITYSDK_OFFSET(0x19B61F10)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_DESCRIPTORPOOL_IMPORTPUBLICDEPENDENCIES_OFFSET UNITYSDK_OFFSET(0x19B60A90)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_DESCRIPTORPOOL_LOOKUPSYMBOL_OFFSET UNITYSDK_OFFSET(0x19B627B0)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_DESCRIPTORPOOL_VALIDATESYMBOLNAME_OFFSET UNITYSDK_OFFSET(0x19B61BC0)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_DESCRIPTORPOOL__CCTOR_OFFSET UNITYSDK_OFFSET(0x19B62B10)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_DESCRIPTORPOOL__CTOR_OFFSET UNITYSDK_OFFSET(0x19B60760)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_DESCRIPTORPOOL_ADDENUMVALUEBYNUMBER_OFFSET UNITYSDK_OFFSET(0x1B6F1B00)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_DESCRIPTORPOOL_ADDFIELDBYNUMBER_OFFSET UNITYSDK_OFFSET(0x1B6F16B0)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_DESCRIPTORPOOL_ADDPACKAGE_OFFSET UNITYSDK_OFFSET(0x1B6F05B0)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_DESCRIPTORPOOL_ADDSYMBOL_OFFSET UNITYSDK_OFFSET(0x1B6F0C40)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_DESCRIPTORPOOL_FINDFIELDBYNUMBER_OFFSET UNITYSDK_OFFSET(0x1B6F1530)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_DESCRIPTORPOOL_IMPORTPUBLICDEPENDENCIES_OFFSET UNITYSDK_OFFSET(0x1B6F00B0)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_DESCRIPTORPOOL_LOOKUPSYMBOL_OFFSET UNITYSDK_OFFSET(0x1B6F1DD0)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_DESCRIPTORPOOL_VALIDATESYMBOLNAME_OFFSET UNITYSDK_OFFSET(0x1B6F11E0)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_DESCRIPTORPOOL__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B6F2130)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_DESCRIPTORPOOL__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6EFD80)
 
 namespace MiHoYo::SDK::Protobuf::Reflection
 {
-	inline static constexpr unsigned int DescriptorPool_TypeDefinitionIndex = 34385;
+	inline static constexpr unsigned int DescriptorPool_TypeDefinitionIndex = 35152;
 
 	class DescriptorPool : public ::System::Object
 	{
 	public:
 		static ::System::Text::RegularExpressions::Regex** StaticGet_ValidationRegex()
 		{
-			return (::System::Text::RegularExpressions::Regex**)Il2CppClass::FromTypeDefinitionIndex(DescriptorPool_TypeDefinitionIndex)->GetStaticField(0x4AA40);
+			return (::System::Text::RegularExpressions::Regex**)Il2CppClass::FromTypeDefinitionIndex(DescriptorPool_TypeDefinitionIndex)->GetStaticField(0x621E0);
 		}
 		::System::Collections::Generic::IDictionary_2<::MiHoYo::SDK::Protobuf::Reflection::DescriptorPool_DescriptorIntPair, ::MiHoYo::SDK::Protobuf::Reflection::EnumValueDescriptor*>* enumValuesByNumber; // 0x10
-		::System::Collections::Generic::HashSet_1<::MiHoYo::SDK::Protobuf::Reflection::FileDescriptor*>* dependencies; // 0x18
+		::System::Collections::Generic::IDictionary_2<::MiHoYo::SDK::Protobuf::Reflection::DescriptorPool_DescriptorIntPair, ::MiHoYo::SDK::Protobuf::Reflection::FieldDescriptor*>* fieldsByNumber; // 0x18
 		::System::Collections::Generic::IDictionary_2<::System::String*, ::MiHoYo::SDK::Protobuf::Reflection::IDescriptor*>* descriptorsByName; // 0x20
-		::System::Collections::Generic::IDictionary_2<::MiHoYo::SDK::Protobuf::Reflection::DescriptorPool_DescriptorIntPair, ::MiHoYo::SDK::Protobuf::Reflection::FieldDescriptor*>* fieldsByNumber; // 0x28
+		::System::Collections::Generic::HashSet_1<::MiHoYo::SDK::Protobuf::Reflection::FileDescriptor*>* dependencies; // 0x28
 
 		::System::Void _ctor(::Il2CppArray<::MiHoYo::SDK::Protobuf::Reflection::FileDescriptor*>* a1)
 		{

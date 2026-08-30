@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Class_1_6545FC19FD7354A7_PerfromanceStep_TypeDefinitionIndex = 57998;
+inline static constexpr unsigned int Class_1_6545FC19FD7354A7_PerfromanceStep_TypeDefinitionIndex = 60819;
 
 enum class Class_1_6545FC19FD7354A7_PerfromanceStep : ::System::Int32
 {

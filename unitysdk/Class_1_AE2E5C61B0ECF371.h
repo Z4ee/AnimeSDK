@@ -6,18 +6,18 @@ namespace RPG::GameCore { class TAMonoTickLodTemplate; }
 namespace System { template <typename T1, typename T2> class Tuple_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_AE2E5C61B0ECF371_METHOD_1_0624CF4C8FF5E14E_OFFSET UNITYSDK_OFFSET(0xB957520)
-#define CLASS_1_AE2E5C61B0ECF371_METHOD_1_7591D5D07356ABCB_OFFSET UNITYSDK_OFFSET(0xB9578F0)
-#define CLASS_1_AE2E5C61B0ECF371_METHOD_1_EDBE0DAF47EEEEED_OFFSET UNITYSDK_OFFSET(0xB957880)
-#define CLASS_1_AE2E5C61B0ECF371__CTOR_OFFSET UNITYSDK_OFFSET(0xB9574D0)
+#define CLASS_1_AE2E5C61B0ECF371_METHOD_1_0624CF4C8FF5E14E_OFFSET UNITYSDK_OFFSET(0xC368520)
+#define CLASS_1_AE2E5C61B0ECF371_METHOD_1_7591D5D07356ABCB_OFFSET UNITYSDK_OFFSET(0xC3688F0)
+#define CLASS_1_AE2E5C61B0ECF371_METHOD_1_EDBE0DAF47EEEEED_OFFSET UNITYSDK_OFFSET(0xC368880)
+#define CLASS_1_AE2E5C61B0ECF371__CTOR_OFFSET UNITYSDK_OFFSET(0xC3684D0)
 
-inline static constexpr unsigned int Class_1_AE2E5C61B0ECF371_TypeDefinitionIndex = 70577;
+inline static constexpr unsigned int Class_1_AE2E5C61B0ECF371_TypeDefinitionIndex = 73876;
 
 class Class_1_AE2E5C61B0ECF371 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::System::Tuple_2<::System::Single, ::System::Int32>*>* Field_1_0; // 0x10
-	::System::Single Field_1_1; // 0x18
+	::System::Collections::Generic::List_1<::System::Tuple_2<::System::Single, ::System::Int32>*>* LILKOCJPAIM; // 0x10
+	::System::Single PMIHDMBGDMH; // 0x18
 
 	::System::Void _ctor(::RPG::GameCore::TAMonoTickLodTemplate* a1, ::System::Int32 a2)
 	{

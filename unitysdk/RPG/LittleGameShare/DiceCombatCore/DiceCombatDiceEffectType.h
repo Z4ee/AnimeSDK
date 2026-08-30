@@ -3,7 +3,7 @@
 
 namespace RPG::LittleGameShare::DiceCombatCore
 {
-	inline static constexpr unsigned int DiceCombatDiceEffectType_TypeDefinitionIndex = 34949;
+	inline static constexpr unsigned int DiceCombatDiceEffectType_TypeDefinitionIndex = 35810;
 
 	enum class DiceCombatDiceEffectType : ::System::Int32
 	{

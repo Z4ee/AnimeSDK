@@ -5,17 +5,17 @@
 class Class_2_469A56953483CA0D;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_067AED5C0A01029D_METHOD_1_01953D7882459DEC_OFFSET UNITYSDK_OFFSET(0x125F0A90)
-#define CLASS_1_067AED5C0A01029D_METHOD_1_4A6451E7BE2319E5_OFFSET UNITYSDK_OFFSET(0x125F0B20)
-#define CLASS_1_067AED5C0A01029D__CTOR_OFFSET UNITYSDK_OFFSET(0x125F0B90)
+#define CLASS_1_067AED5C0A01029D_METHOD_1_01953D7882459DEC_OFFSET UNITYSDK_OFFSET(0x1351E790)
+#define CLASS_1_067AED5C0A01029D_METHOD_1_4A6451E7BE2319E5_OFFSET UNITYSDK_OFFSET(0x1351E820)
+#define CLASS_1_067AED5C0A01029D__CTOR_OFFSET UNITYSDK_OFFSET(0x1351E890)
 
-inline static constexpr unsigned int Class_1_067AED5C0A01029D_TypeDefinitionIndex = 54883;
+inline static constexpr unsigned int Class_1_067AED5C0A01029D_TypeDefinitionIndex = 57607;
 
 class Class_1_067AED5C0A01029D : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::System::UInt32>* Field_1_0; // 0x10
-	::System::Boolean Field_1_1; // 0x18
+	::System::Collections::Generic::List_1<::System::UInt32>* CCBPJFHKOGM; // 0x10
+	::System::Boolean OFLMCLABBLC; // 0x18
 
 	::System::Void _ctor()
 	{

@@ -3,13 +3,13 @@
 #include "unitysdk/RootMotion/FinalIK/RotationLimit.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 
-#define RPG_CLIENT_ROTATIONLIMITANGLE_LIMITROTATION_OFFSET UNITYSDK_OFFSET(0xAB8E370)
-#define RPG_CLIENT_ROTATIONLIMITANGLE__CTOR_OFFSET UNITYSDK_OFFSET(0xAB8E930)
-#define RPG_CLIENT_ROTATIONLIMITANGLE__SWINGLIMITANGLE_OFFSET UNITYSDK_OFFSET(0xAB8E400)
+#define RPG_CLIENT_ROTATIONLIMITANGLE_LIMITROTATION_OFFSET UNITYSDK_OFFSET(0xB2D2710)
+#define RPG_CLIENT_ROTATIONLIMITANGLE__CTOR_OFFSET UNITYSDK_OFFSET(0xB2D2CD0)
+#define RPG_CLIENT_ROTATIONLIMITANGLE__SWINGLIMITANGLE_OFFSET UNITYSDK_OFFSET(0xB2D27A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RotationLimitAngle_TypeDefinitionIndex = 45233;
+	inline static constexpr unsigned int RotationLimitAngle_TypeDefinitionIndex = 47469;
 
 	class RotationLimitAngle : public ::RootMotion::FinalIK::RotationLimit
 	{

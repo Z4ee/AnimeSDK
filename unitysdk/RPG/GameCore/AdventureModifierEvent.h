@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureModifierEvent_TypeDefinitionIndex = 16802;
+	inline static constexpr unsigned int AdventureModifierEvent_TypeDefinitionIndex = 17304;
 
 	enum class AdventureModifierEvent : ::System::Int32
 	{

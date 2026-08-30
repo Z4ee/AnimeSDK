@@ -5,21 +5,21 @@
 
 namespace System::Xml::Schema { class FacetsChecker; }
 
-#define SYSTEM_XML_SCHEMA_DATATYPE_POSITIVEINTEGER_GET_FACETSCHECKER_OFFSET UNITYSDK_OFFSET(0x1CB487C0)
-#define SYSTEM_XML_SCHEMA_DATATYPE_POSITIVEINTEGER_GET_TYPECODE_OFFSET UNITYSDK_OFFSET(0x1CB48820)
-#define SYSTEM_XML_SCHEMA_DATATYPE_POSITIVEINTEGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CB48830)
-#define SYSTEM_XML_SCHEMA_DATATYPE_POSITIVEINTEGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1CB3CF60)
+#define SYSTEM_XML_SCHEMA_DATATYPE_POSITIVEINTEGER_GET_FACETSCHECKER_OFFSET UNITYSDK_OFFSET(0x1E7F27E0)
+#define SYSTEM_XML_SCHEMA_DATATYPE_POSITIVEINTEGER_GET_TYPECODE_OFFSET UNITYSDK_OFFSET(0x1E7F2840)
+#define SYSTEM_XML_SCHEMA_DATATYPE_POSITIVEINTEGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E7F2850)
+#define SYSTEM_XML_SCHEMA_DATATYPE_POSITIVEINTEGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7E7000)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int Datatype_positiveInteger_TypeDefinitionIndex = 2138;
+	inline static constexpr unsigned int Datatype_positiveInteger_TypeDefinitionIndex = 2145;
 
 	class Datatype_positiveInteger : public ::System::Xml::Schema::Datatype_nonNegativeInteger
 	{
 	public:
 		static ::System::Xml::Schema::FacetsChecker** StaticGet_numeric10FacetsChecker()
 		{
-			return (::System::Xml::Schema::FacetsChecker**)Il2CppClass::FromTypeDefinitionIndex(Datatype_positiveInteger_TypeDefinitionIndex)->GetStaticField(0x22DA0);
+			return (::System::Xml::Schema::FacetsChecker**)Il2CppClass::FromTypeDefinitionIndex(Datatype_positiveInteger_TypeDefinitionIndex)->GetStaticField(0x198A0);
 		}
 
 		::System::Void _ctor()

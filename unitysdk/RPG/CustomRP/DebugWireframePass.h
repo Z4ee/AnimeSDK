@@ -13,39 +13,39 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class Mesh; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define RPG_CUSTOMRP_DEBUGWIREFRAMEPASS_GETCOLOR_OFFSET UNITYSDK_OFFSET(0x1AA75610)
-#define RPG_CUSTOMRP_DEBUGWIREFRAMEPASS_GETMESH_OFFSET UNITYSDK_OFFSET(0x1AA74FD0)
-#define RPG_CUSTOMRP_DEBUGWIREFRAMEPASS_INNEREXECUTE_OFFSET UNITYSDK_OFFSET(0x1AA74610)
-#define RPG_CUSTOMRP_DEBUGWIREFRAMEPASS_UPDATE_OFFSET UNITYSDK_OFFSET(0x1AA745D0)
-#define RPG_CUSTOMRP_DEBUGWIREFRAMEPASS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AA76790)
-#define RPG_CUSTOMRP_DEBUGWIREFRAMEPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1AA743A0)
+#define RPG_CUSTOMRP_DEBUGWIREFRAMEPASS_GETCOLOR_OFFSET UNITYSDK_OFFSET(0x1C6A6D60)
+#define RPG_CUSTOMRP_DEBUGWIREFRAMEPASS_GETMESH_OFFSET UNITYSDK_OFFSET(0x1C6A6720)
+#define RPG_CUSTOMRP_DEBUGWIREFRAMEPASS_INNEREXECUTE_OFFSET UNITYSDK_OFFSET(0x1C6A5D60)
+#define RPG_CUSTOMRP_DEBUGWIREFRAMEPASS_UPDATE_OFFSET UNITYSDK_OFFSET(0x1C6A5D20)
+#define RPG_CUSTOMRP_DEBUGWIREFRAMEPASS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C6A7EE0)
+#define RPG_CUSTOMRP_DEBUGWIREFRAMEPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1C6A5AE0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int DebugWireframePass_TypeDefinitionIndex = 36017;
+	inline static constexpr unsigned int DebugWireframePass_TypeDefinitionIndex = 36878;
 
 	class DebugWireframePass : public ::System::Object
 	{
 	public:
 		static ::System::Type** StaticGet_colliderType()
 		{
-			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(DebugWireframePass_TypeDefinitionIndex)->GetStaticField(0x624C0);
-		}
-		static ::System::Boolean* StaticGet_EnableDebugColliderWireframe()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(DebugWireframePass_TypeDefinitionIndex)->GetStaticField(0x11A70);
+			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(DebugWireframePass_TypeDefinitionIndex)->GetStaticField(0x3AAD0);
 		}
 		static ::System::Int32* StaticGet_layer()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DebugWireframePass_TypeDefinitionIndex)->GetStaticField(0x11A74);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DebugWireframePass_TypeDefinitionIndex)->GetStaticField(0xE970);
+		}
+		static ::System::Boolean* StaticGet_EnableDebugColliderWireframe()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(DebugWireframePass_TypeDefinitionIndex)->GetStaticField(0xE974);
 		}
 		::UnityEngine::Material* _DebugWireframeMatLegacy; // 0x10
 		::UnityEngine::Material* _DebugWireframeMat; // 0x18
 		::Il2CppArray<::System::Type*>* _ColliderTypes; // 0x20
-		::System::Int32 _WireframeTmpRT; // 0x28
+		::System::Int32 _WireColor; // 0x28
 		::System::Int32 _WireColorTmpRT; // 0x2C
-		::System::Int32 _WireColor; // 0x30
-		::UnityEngine::RenderTextureDescriptor _TargetDesc; // 0x34
+		::UnityEngine::RenderTextureDescriptor _TargetDesc; // 0x30
+		::System::Int32 _WireframeTmpRT; // 0x60
 
 		::System::Void _ctor(::RPG::CustomRP::CRPRendererData* a1)
 		{

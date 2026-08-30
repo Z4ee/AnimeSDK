@@ -4,12 +4,12 @@
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 
-#define UNITYENGINE_TIMELINE_AUDIOMIXERPROPERTIES_PREPAREFRAME_OFFSET UNITYSDK_OFFSET(0x1CFB2D00)
-#define UNITYENGINE_TIMELINE_AUDIOMIXERPROPERTIES__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFB30D0)
+#define UNITYENGINE_TIMELINE_AUDIOMIXERPROPERTIES_PREPAREFRAME_OFFSET UNITYSDK_OFFSET(0x1ECB9E30)
+#define UNITYENGINE_TIMELINE_AUDIOMIXERPROPERTIES__CTOR_OFFSET UNITYSDK_OFFSET(0x1ECBA200)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int AudioMixerProperties_TypeDefinitionIndex = 36650;
+	inline static constexpr unsigned int AudioMixerProperties_TypeDefinitionIndex = 37509;
 
 	class AudioMixerProperties : public ::UnityEngine::Playables::PlayableBehaviour
 	{

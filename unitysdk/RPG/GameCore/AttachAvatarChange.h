@@ -7,13 +7,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_ATTACHAVATARCHANGE_METHOD_3_76731230AE1ABC6C_OFFSET UNITYSDK_OFFSET(0x1B1B3C80)
-#define RPG_GAMECORE_ATTACHAVATARCHANGE_METHOD_3_98B493D44D99BC97_OFFSET UNITYSDK_OFFSET(0x1B1B3B80)
-#define RPG_GAMECORE_ATTACHAVATARCHANGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1B3C10)
+#define RPG_GAMECORE_ATTACHAVATARCHANGE_METHOD_3_76731230AE1ABC6C_OFFSET UNITYSDK_OFFSET(0x1CE2B1A0)
+#define RPG_GAMECORE_ATTACHAVATARCHANGE_METHOD_3_98B493D44D99BC97_OFFSET UNITYSDK_OFFSET(0x1CE2B0A0)
+#define RPG_GAMECORE_ATTACHAVATARCHANGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE2B130)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AttachAvatarChange_TypeDefinitionIndex = 22764;
+	inline static constexpr unsigned int AttachAvatarChange_TypeDefinitionIndex = 23342;
 
 	class AttachAvatarChange : public ::RPG::GameCore::TaskConfig
 	{

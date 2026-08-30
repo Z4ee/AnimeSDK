@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_PIXAIR_PIXAIRGAMEPREPAREWINDOW___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xCFC5C40)
-#define RPG_CLIENT_PIXAIR_PIXAIRGAMEPREPAREWINDOW___C__CTOR_OFFSET UNITYSDK_OFFSET(0xCFC5C80)
+#define RPG_CLIENT_PIXAIR_PIXAIRGAMEPREPAREWINDOW___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xDB04DE0)
+#define RPG_CLIENT_PIXAIR_PIXAIRGAMEPREPAREWINDOW___C__CTOR_OFFSET UNITYSDK_OFFSET(0xDB04E20)
 
 namespace RPG::Client::PixAir
 {
-	inline static constexpr unsigned int PixAirGamePrepareWindow___c_TypeDefinitionIndex = 75205;
+	inline static constexpr unsigned int PixAirGamePrepareWindow___c_TypeDefinitionIndex = 78752;
 
 	class PixAirGamePrepareWindow___c : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::PixAir::PixAirGamePrepareWindow___c** StaticGet___9()
 		{
-			return (::RPG::Client::PixAir::PixAirGamePrepareWindow___c**)Il2CppClass::FromTypeDefinitionIndex(PixAirGamePrepareWindow___c_TypeDefinitionIndex)->GetStaticField(0x68C70);
+			return (::RPG::Client::PixAir::PixAirGamePrepareWindow___c**)Il2CppClass::FromTypeDefinitionIndex(PixAirGamePrepareWindow___c_TypeDefinitionIndex)->GetStaticField(0x5B150);
 		}
 
 		static ::System::Void _cctor()

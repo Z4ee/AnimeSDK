@@ -6,19 +6,19 @@
 namespace RPG { class OutlinePostFXBehavior; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define RPG_OUTLINEPOSTFXBEHAVIOR_CLASS_1_0E4BEE6B6EC41988_EXECUTE_OFFSET UNITYSDK_OFFSET(0xDC67180)
-#define RPG_OUTLINEPOSTFXBEHAVIOR_CLASS_1_0E4BEE6B6EC41988_GET_KEY_OFFSET UNITYSDK_OFFSET(0xDC66F90)
-#define RPG_OUTLINEPOSTFXBEHAVIOR_CLASS_1_0E4BEE6B6EC41988__CTOR_OFFSET UNITYSDK_OFFSET(0xDC668B0)
+#define RPG_OUTLINEPOSTFXBEHAVIOR_CLASS_1_0E4BEE6B6EC41988_EXECUTE_OFFSET UNITYSDK_OFFSET(0xE7DE090)
+#define RPG_OUTLINEPOSTFXBEHAVIOR_CLASS_1_0E4BEE6B6EC41988_GET_KEY_OFFSET UNITYSDK_OFFSET(0xE7DDEA0)
+#define RPG_OUTLINEPOSTFXBEHAVIOR_CLASS_1_0E4BEE6B6EC41988__CTOR_OFFSET UNITYSDK_OFFSET(0xE7DD7C0)
 
 namespace RPG
 {
-	inline static constexpr unsigned int OutlinePostFXBehavior_Class_1_0E4BEE6B6EC41988_TypeDefinitionIndex = 49395;
+	inline static constexpr unsigned int OutlinePostFXBehavior_Class_1_0E4BEE6B6EC41988_TypeDefinitionIndex = 52013;
 
 	class OutlinePostFXBehavior_Class_1_0E4BEE6B6EC41988 : public ::System::Object
 	{
 	public:
-		::RPG::OutlinePostFXBehavior* Field_1_0; // 0x10
-		::System::Int32 Field_1_1; // 0x18
+		::RPG::OutlinePostFXBehavior* MIPMCEJIAMC; // 0x10
+		::System::Int32 MOLMALIOKHN; // 0x18
 
 		::System::Void _ctor(::RPG::OutlinePostFXBehavior* a1)
 		{

@@ -5,11 +5,11 @@
 namespace RPG::Client { class TimeRewindCustomPathNode; }
 namespace System { class String; }
 
-#define RPG_CLIENT_TIMEREWINDCUSTOMPATHDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xD6A7430)
+#define RPG_CLIENT_TIMEREWINDCUSTOMPATHDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xE1F7100)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TimeRewindCustomPathData_TypeDefinitionIndex = 60973;
+	inline static constexpr unsigned int TimeRewindCustomPathData_TypeDefinitionIndex = 63826;
 
 	class TimeRewindCustomPathData : public ::System::Object
 	{

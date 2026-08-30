@@ -3,7 +3,7 @@
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HAPI_HeightFieldSampling_TypeDefinitionIndex = 38327;
+	inline static constexpr unsigned int HAPI_HeightFieldSampling_TypeDefinitionIndex = 39186;
 
 	enum class HAPI_HeightFieldSampling : ::System::Int32
 	{

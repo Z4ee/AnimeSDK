@@ -5,11 +5,11 @@
 namespace UnityEngine { class LineRenderer; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_CABLEPROCEDURAL_CABLEDATA_METHOD_2_64F0C85A431FBD69_OFFSET UNITYSDK_OFFSET(0x144B00)
+#define RPG_CLIENT_CABLEPROCEDURAL_CABLEDATA_METHOD_2_64F0C85A431FBD69_OFFSET UNITYSDK_OFFSET(0x14A1D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CableProcedural_CableData_TypeDefinitionIndex = 67234;
+	inline static constexpr unsigned int CableProcedural_CableData_TypeDefinitionIndex = 70353;
 
 	struct alignas(8) CableProcedural_CableData
 	{

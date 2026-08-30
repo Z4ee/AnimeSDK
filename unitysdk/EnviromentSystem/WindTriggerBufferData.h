@@ -6,7 +6,7 @@
 
 namespace EnviromentSystem
 {
-	inline static constexpr unsigned int WindTriggerBufferData_TypeDefinitionIndex = 47775;
+	inline static constexpr unsigned int WindTriggerBufferData_TypeDefinitionIndex = 50056;
 
 	struct alignas(4) WindTriggerBufferData
 	{

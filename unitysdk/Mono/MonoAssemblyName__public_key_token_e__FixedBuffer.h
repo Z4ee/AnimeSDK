@@ -8,6 +8,6 @@ namespace Mono
 
 	struct alignas(1) MonoAssemblyName__public_key_token_e__FixedBuffer
 	{
-		::System::Byte data[1]; // 0x0
+		::System::Byte data[17]; // 0x0
 	};
 }

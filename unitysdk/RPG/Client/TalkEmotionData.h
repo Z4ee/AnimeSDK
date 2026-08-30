@@ -5,11 +5,11 @@
 namespace RPG::Client { class TalkEmotionPoseData; }
 namespace System { class String; }
 
-#define RPG_CLIENT_TALKEMOTIONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xD609490)
+#define RPG_CLIENT_TALKEMOTIONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xE158D70)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TalkEmotionData_TypeDefinitionIndex = 67920;
+	inline static constexpr unsigned int TalkEmotionData_TypeDefinitionIndex = 71093;
 
 	class TalkEmotionData : public ::System::Object
 	{

@@ -7,12 +7,12 @@ namespace RPG::Client::FateRin::Talent { class FateRinTalentViewModel; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_FATERIN_TALENT_FATERINTALENTVIEWVIEWMODEL_GET_TALENTS_OFFSET UNITYSDK_OFFSET(0xC4DE020)
-#define RPG_CLIENT_FATERIN_TALENT_FATERINTALENTVIEWVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xC4DDD60)
+#define RPG_CLIENT_FATERIN_TALENT_FATERINTALENTVIEWVIEWMODEL_GET_TALENTS_OFFSET UNITYSDK_OFFSET(0xD013170)
+#define RPG_CLIENT_FATERIN_TALENT_FATERINTALENTVIEWVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xD012EB0)
 
 namespace RPG::Client::FateRin::Talent
 {
-	inline static constexpr unsigned int FateRinTalentViewViewModel_TypeDefinitionIndex = 75771;
+	inline static constexpr unsigned int FateRinTalentViewViewModel_TypeDefinitionIndex = 79404;
 
 	class FateRinTalentViewViewModel : public ::RPG::Client::FateRin::BaseViewModel
 	{

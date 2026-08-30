@@ -3,7 +3,7 @@
 
 namespace RPG::UINavigation
 {
-	inline static constexpr unsigned int UINavigationChatExtension_ViewPortVisibility_TypeDefinitionIndex = 49401;
+	inline static constexpr unsigned int UINavigationChatExtension_ViewPortVisibility_TypeDefinitionIndex = 52019;
 
 	enum class UINavigationChatExtension_ViewPortVisibility : ::System::Int32
 	{

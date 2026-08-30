@@ -1,0 +1,54 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/DesignDataShortNameHash.h"
+#include "unitysdk/System/Object.h"
+
+class Class_0_16E4307DCC419505_86;
+class Class_1_F2BBD90111AF1B56;
+namespace RPG::Client { class DesignDataMgr; }
+namespace System { class String; }
+
+#define CLASS_1_8C2B52E2B1CA0518_METHOD_1_0EACE65AB9AEB6B2_OFFSET UNITYSDK_OFFSET(0x1BF9C1B0)
+#define CLASS_1_8C2B52E2B1CA0518_METHOD_1_B64C60973842FE45_OFFSET UNITYSDK_OFFSET(0x1BF9C050)
+#define CLASS_1_8C2B52E2B1CA0518_METHOD_1_CA373AA1C7054598_1_OFFSET UNITYSDK_OFFSET(0x1BF9C010)
+#define CLASS_1_8C2B52E2B1CA0518_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x1BF9BFD0)
+#define CLASS_1_8C2B52E2B1CA0518_METHOD_1_F7A75F58C7A411E5_OFFSET UNITYSDK_OFFSET(0x1BF9C0F0)
+#define CLASS_1_8C2B52E2B1CA0518__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF9BFC0)
+
+inline static constexpr unsigned int Class_1_8C2B52E2B1CA0518_TypeDefinitionIndex = 40118;
+
+class Class_1_8C2B52E2B1CA0518 : public ::System::Object
+{
+public:
+	::RPG::Client::DesignDataMgr* FAAIABAMEAM; // 0x10
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_8C2B52E2B1CA0518__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Method_1_CA373AA1C7054598()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_8C2B52E2B1CA0518_METHOD_1_CA373AA1C7054598_OFFSET))(this);
+	}
+
+	::System::Void Method_1_CA373AA1C7054598_1()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_8C2B52E2B1CA0518_METHOD_1_CA373AA1C7054598_1_OFFSET))(this);
+	}
+
+	::Class_1_F2BBD90111AF1B56* Method_1_B64C60973842FE45()
+	{
+		return ((::Class_1_F2BBD90111AF1B56*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_8C2B52E2B1CA0518_METHOD_1_B64C60973842FE45_OFFSET))(this);
+	}
+
+	::Class_1_F2BBD90111AF1B56* Method_1_F7A75F58C7A411E5(::System::String* a1, ::Class_0_16E4307DCC419505_86* a2)
+	{
+		return ((::Class_1_F2BBD90111AF1B56*(*)(::PVOID, ::System::String*, ::Class_0_16E4307DCC419505_86*))((::PBYTE)hIl2Cpp + CLASS_1_8C2B52E2B1CA0518_METHOD_1_F7A75F58C7A411E5_OFFSET))(this, a1, a2);
+	}
+
+	::Class_1_F2BBD90111AF1B56* Method_1_0EACE65AB9AEB6B2(::RPG::Client::DesignDataShortNameHash a1, ::Class_0_16E4307DCC419505_86* a2)
+	{
+		return ((::Class_1_F2BBD90111AF1B56*(*)(::PVOID, ::RPG::Client::DesignDataShortNameHash, ::Class_0_16E4307DCC419505_86*))((::PBYTE)hIl2Cpp + CLASS_1_8C2B52E2B1CA0518_METHOD_1_0EACE65AB9AEB6B2_OFFSET))(this, a1, a2);
+	}
+};

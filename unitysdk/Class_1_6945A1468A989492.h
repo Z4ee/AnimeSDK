@@ -5,15 +5,15 @@
 
 namespace RPG::GameCore { class AlleyBaseGridItemData; }
 
-#define CLASS_1_6945A1468A989492_METHOD_1_5B9DE50A7B6EEBA8_OFFSET UNITYSDK_OFFSET(0xBA073C0)
-#define CLASS_1_6945A1468A989492__CTOR_OFFSET UNITYSDK_OFFSET(0xBA07440)
+#define CLASS_1_6945A1468A989492_METHOD_1_5B9DE50A7B6EEBA8_OFFSET UNITYSDK_OFFSET(0xC426D40)
+#define CLASS_1_6945A1468A989492__CTOR_OFFSET UNITYSDK_OFFSET(0xC426DC0)
 
-inline static constexpr unsigned int Class_1_6945A1468A989492_TypeDefinitionIndex = 59542;
+inline static constexpr unsigned int Class_1_6945A1468A989492_TypeDefinitionIndex = 62381;
 
 class Class_1_6945A1468A989492 : public ::System::Object
 {
 public:
-	::RPG::Client::AlleyBlockAttachmentType Field_1_0; // 0x10
+	::RPG::Client::AlleyBlockAttachmentType HECHBDHCCPH; // 0x10
 
 	::System::Void _ctor()
 	{

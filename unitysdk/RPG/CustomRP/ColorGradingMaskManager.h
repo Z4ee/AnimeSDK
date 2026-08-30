@@ -6,28 +6,28 @@ namespace RPG::CustomRP { class ColorGradingMaskController; }
 namespace RPG::CustomRP { class ColorGradingMaskManager_MaskCb; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CUSTOMRP_COLORGRADINGMASKMANAGER_REGISTER_OFFSET UNITYSDK_OFFSET(0x1AA66290)
-#define RPG_CUSTOMRP_COLORGRADINGMASKMANAGER_UNREGISTER_OFFSET UNITYSDK_OFFSET(0x1AA664E0)
-#define RPG_CUSTOMRP_COLORGRADINGMASKMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AA67560)
+#define RPG_CUSTOMRP_COLORGRADINGMASKMANAGER_REGISTER_OFFSET UNITYSDK_OFFSET(0x1C697880)
+#define RPG_CUSTOMRP_COLORGRADINGMASKMANAGER_UNREGISTER_OFFSET UNITYSDK_OFFSET(0x1C697AD0)
+#define RPG_CUSTOMRP_COLORGRADINGMASKMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C698B50)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int ColorGradingMaskManager_TypeDefinitionIndex = 36223;
+	inline static constexpr unsigned int ColorGradingMaskManager_TypeDefinitionIndex = 37082;
 
 	class ColorGradingMaskManager : public ::System::Object
 	{
 	public:
-		static ::RPG::CustomRP::ColorGradingMaskManager_MaskCb** StaticGet__cb()
-		{
-			return (::RPG::CustomRP::ColorGradingMaskManager_MaskCb**)Il2CppClass::FromTypeDefinitionIndex(ColorGradingMaskManager_TypeDefinitionIndex)->GetStaticField(0x61E50);
-		}
 		static ::System::Collections::Generic::List_1<::RPG::CustomRP::ColorGradingMaskController*>** StaticGet__instances()
 		{
-			return (::System::Collections::Generic::List_1<::RPG::CustomRP::ColorGradingMaskController*>**)Il2CppClass::FromTypeDefinitionIndex(ColorGradingMaskManager_TypeDefinitionIndex)->GetStaticField(0x61E58);
+			return (::System::Collections::Generic::List_1<::RPG::CustomRP::ColorGradingMaskController*>**)Il2CppClass::FromTypeDefinitionIndex(ColorGradingMaskManager_TypeDefinitionIndex)->GetStaticField(0x35B00);
+		}
+		static ::RPG::CustomRP::ColorGradingMaskManager_MaskCb** StaticGet__cb()
+		{
+			return (::RPG::CustomRP::ColorGradingMaskManager_MaskCb**)Il2CppClass::FromTypeDefinitionIndex(ColorGradingMaskManager_TypeDefinitionIndex)->GetStaticField(0x35B08);
 		}
 		static ::System::Boolean* StaticGet_InvertMask()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ColorGradingMaskManager_TypeDefinitionIndex)->GetStaticField(0x11700);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ColorGradingMaskManager_TypeDefinitionIndex)->GetStaticField(0xDFA0);
 		}
 
 		static ::System::Void _cctor()

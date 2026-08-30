@@ -11,12 +11,12 @@ namespace RPG::GameCore::Match3 { class MatchThreePropSystemConfig; }
 namespace RPG::GameCore::Match3 { class OneOnOneConfig; }
 namespace RPG::GameCore::Match3 { class TagBehaviourConfig; }
 
-#define RPG_GAMECORE_MATCH3_MATCH3CONFIG_METHOD_2_1101C9E89E37020B_OFFSET UNITYSDK_OFFSET(0x1B5C6BC0)
-#define RPG_GAMECORE_MATCH3_MATCH3CONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5C6D60)
+#define RPG_GAMECORE_MATCH3_MATCH3CONFIG_METHOD_2_1101C9E89E37020B_OFFSET UNITYSDK_OFFSET(0x1D243210)
+#define RPG_GAMECORE_MATCH3_MATCH3CONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2433B0)
 
 namespace RPG::GameCore::Match3
 {
-	inline static constexpr unsigned int Match3Config_TypeDefinitionIndex = 24082;
+	inline static constexpr unsigned int Match3Config_TypeDefinitionIndex = 24671;
 
 	class Match3Config : public ::RPG::GameCore::JsonConfig
 	{

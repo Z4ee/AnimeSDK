@@ -4,12 +4,12 @@
 
 namespace RPG::GameCore { class TalkBackgroundCG; }
 
-#define RPGTOOLS_TIMELINE_TALKBACKGROUNDCGBEHAVIOUR_METHOD_3_229CEF33F0AF9039_OFFSET UNITYSDK_OFFSET(0xDD27A00)
-#define RPGTOOLS_TIMELINE_TALKBACKGROUNDCGBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xDD27A70)
+#define RPGTOOLS_TIMELINE_TALKBACKGROUNDCGBEHAVIOUR_METHOD_3_229CEF33F0AF9039_OFFSET UNITYSDK_OFFSET(0xE8F2990)
+#define RPGTOOLS_TIMELINE_TALKBACKGROUNDCGBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xE8F2A00)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int TalkBackgroundCGBehaviour_TypeDefinitionIndex = 46583;
+	inline static constexpr unsigned int TalkBackgroundCGBehaviour_TypeDefinitionIndex = 48828;
 
 	class TalkBackgroundCGBehaviour : public ::RPGTools::Timeline::CustomEventBehaviour
 	{

@@ -21,13 +21,13 @@ namespace RPG::GameCore { class SkillTransitAnimConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_RTCHARACTERCONFIG_METHOD_2_E8A598B0645C5782_OFFSET UNITYSDK_OFFSET(0x1B7B3EB0)
-#define RPG_GAMECORE_RTCHARACTERCONFIG_METHOD_2_F4234ACBBEEBDE7F_OFFSET UNITYSDK_OFFSET(0x1B7B41C0)
-#define RPG_GAMECORE_RTCHARACTERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7AABB0)
+#define RPG_GAMECORE_RTCHARACTERCONFIG_METHOD_2_E8A598B0645C5782_OFFSET UNITYSDK_OFFSET(0x1D4A34E0)
+#define RPG_GAMECORE_RTCHARACTERCONFIG_METHOD_2_F4234ACBBEEBDE7F_OFFSET UNITYSDK_OFFSET(0x1D4A37F0)
+#define RPG_GAMECORE_RTCHARACTERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D499B20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtCharacterConfig_TypeDefinitionIndex = 16936;
+	inline static constexpr unsigned int RtCharacterConfig_TypeDefinitionIndex = 17438;
 
 	class RtCharacterConfig : public ::RPG::GameCore::JsonConfig
 	{

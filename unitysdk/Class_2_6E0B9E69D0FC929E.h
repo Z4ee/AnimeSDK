@@ -1,30 +1,30 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_CA217ABF4E3B4F3F.h"
+#include "unitysdk/Class_1_34917908B7833130.h"
 
 namespace System { class String; }
 namespace UnityEngine { class Animation; }
 namespace UnityEngine { class GameObject; }
 
-#define CLASS_2_6E0B9E69D0FC929E_METHOD_2_1290EA767C459179_OFFSET UNITYSDK_OFFSET(0xC27F160)
-#define CLASS_2_6E0B9E69D0FC929E_METHOD_2_283228DCA08F69C7_OFFSET UNITYSDK_OFFSET(0xC27F250)
-#define CLASS_2_6E0B9E69D0FC929E_METHOD_2_3DFCA4C89D58D97F_OFFSET UNITYSDK_OFFSET(0xC27F0A0)
-#define CLASS_2_6E0B9E69D0FC929E_METHOD_2_9D86A9A378EEE9C7_OFFSET UNITYSDK_OFFSET(0xC27F030)
-#define CLASS_2_6E0B9E69D0FC929E__CTOR_OFFSET UNITYSDK_OFFSET(0xC27F2F0)
-#define CLASS_2_6E0B9E69D0FC929E__ONBIND_OFFSET UNITYSDK_OFFSET(0xC27EFD0)
+#define CLASS_2_6E0B9E69D0FC929E_METHOD_2_1290EA767C459179_OFFSET UNITYSDK_OFFSET(0xCFA15B0)
+#define CLASS_2_6E0B9E69D0FC929E_METHOD_2_283228DCA08F69C7_OFFSET UNITYSDK_OFFSET(0xCFA16A0)
+#define CLASS_2_6E0B9E69D0FC929E_METHOD_2_3DFCA4C89D58D97F_OFFSET UNITYSDK_OFFSET(0xCFA14F0)
+#define CLASS_2_6E0B9E69D0FC929E_METHOD_2_9D86A9A378EEE9C7_OFFSET UNITYSDK_OFFSET(0xCFA1480)
+#define CLASS_2_6E0B9E69D0FC929E__CTOR_OFFSET UNITYSDK_OFFSET(0xCFA1740)
+#define CLASS_2_6E0B9E69D0FC929E__ONBIND_OFFSET UNITYSDK_OFFSET(0xCFA1420)
 
-inline static constexpr unsigned int Class_2_6E0B9E69D0FC929E_TypeDefinitionIndex = 68731;
+inline static constexpr unsigned int Class_2_6E0B9E69D0FC929E_TypeDefinitionIndex = 71929;
 
-class Class_2_6E0B9E69D0FC929E : public ::Class_1_CA217ABF4E3B4F3F
+class Class_2_6E0B9E69D0FC929E : public ::Class_1_34917908B7833130
 {
 public:
-	// static const ::System::String* Field_2_0; // 0x0
-	// static const ::System::String* Field_2_1; // 0x0
-	// static const ::System::String* Field_2_2; // 0x0
-	// static const ::System::String* Field_2_3; // 0x0
-	::UnityEngine::GameObject* Field_2_4; // 0x60
-	::UnityEngine::Animation* Field_2_5; // 0x68
-	::System::Boolean Field_2_6; // 0x70
+	// static const ::System::String* AILCOOFIDPG; // 0x0
+	// static const ::System::String* IIPEBGKKNLC; // 0x0
+	// static const ::System::String* BIAMKKCKMLG; // 0x0
+	// static const ::System::String* FHDKPLKOEAD; // 0x0
+	::UnityEngine::Animation* PMOJILOJEPE; // 0x60
+	::UnityEngine::GameObject* ADBCGAPLGOL; // 0x68
+	::System::Boolean FMNEEONAMNO; // 0x70
 
 	::System::Void _ctor()
 	{

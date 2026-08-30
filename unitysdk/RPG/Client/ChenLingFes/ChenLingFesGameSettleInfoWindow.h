@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Sofa/BaseSofaWindow.h"
 
-class Class_1_43BD383C98B4C0C5_231;
+class Class_1_43BD383C98B4C0C5_247;
 class Class_1_5F4D64A4B97E38F9;
 namespace RPG::Client { class AnimatorButton; }
 namespace RPG::Client { class PrefabLoadMeta; }
@@ -12,34 +12,34 @@ namespace RPG::Client::ChenLingFes { class ChenLingFesGameSettleRecordItemContro
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::UI { class Text; }
 
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMESETTLEINFOWINDOW_GET__VIEWMODEL_OFFSET UNITYSDK_OFFSET(0xC08B110)
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMESETTLEINFOWINDOW__CTOR_OFFSET UNITYSDK_OFFSET(0xC08A0D0)
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMESETTLEINFOWINDOW__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0xC08A920)
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMESETTLEINFOWINDOW__ONCLOSEMESSAGE_OFFSET UNITYSDK_OFFSET(0xC08BA30)
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMESETTLEINFOWINDOW__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0xC08A1F0)
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMESETTLEINFOWINDOW__SETUPRECORDITEMCONTROLS_OFFSET UNITYSDK_OFFSET(0xC08B450)
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMESETTLEINFOWINDOW__SETUPTEXT_OFFSET UNITYSDK_OFFSET(0xC08B1F0)
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMESETTLEINFOWINDOW__SUBSCRIBEMESSAGES_OFFSET UNITYSDK_OFFSET(0xC08B970)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMESETTLEINFOWINDOW_GET__VIEWMODEL_OFFSET UNITYSDK_OFFSET(0xCB3A020)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMESETTLEINFOWINDOW__CTOR_OFFSET UNITYSDK_OFFSET(0xCB39040)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMESETTLEINFOWINDOW__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0xCB39860)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMESETTLEINFOWINDOW__ONCLOSEMESSAGE_OFFSET UNITYSDK_OFFSET(0xCB3A8C0)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMESETTLEINFOWINDOW__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0xCB39140)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMESETTLEINFOWINDOW__SETUPRECORDITEMCONTROLS_OFFSET UNITYSDK_OFFSET(0xCB3A330)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMESETTLEINFOWINDOW__SETUPTEXT_OFFSET UNITYSDK_OFFSET(0xCB3A0D0)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMESETTLEINFOWINDOW__SUBSCRIBEMESSAGES_OFFSET UNITYSDK_OFFSET(0xCB3A800)
 
 namespace RPG::Client::ChenLingFes
 {
-	inline static constexpr unsigned int ChenLingFesGameSettleInfoWindow_TypeDefinitionIndex = 76385;
+	inline static constexpr unsigned int ChenLingFesGameSettleInfoWindow_TypeDefinitionIndex = 80018;
 
 	class ChenLingFesGameSettleInfoWindow : public ::Sofa::BaseSofaWindow
 	{
 	public:
-		::RPG::Client::PrefabLoadMeta* _RecordLoadMeta; // 0x40
-		::UnityEngine::UI::Text* _TextFirstSubValue; // 0x48
-		::UnityEngine::UI::Text* _TextSecondSubTitle; // 0x50
+		::RPG::Client::AnimatorButton* _BtnQuit; // 0x48
+		::System::Collections::Generic::List_1<::RPG::Client::ChenLingFes::ChenLingFesGameSettleRecordItemControl*>* _RecordItemControls; // 0x50
 		::UnityEngine::UI::Text* _TextFirstSubTitle; // 0x58
-		::RPG::Client::AnimatorButton* _BtnQuit; // 0x60
-		::RPG::Client::UIStateCtrl* _UIStateCtrl; // 0x68
-		::RPG::Client::AnimatorButton* _BtnRestart; // 0x70
-		::UnityEngine::UI::Text* _TextTitle; // 0x78
-		::UnityEngine::UI::Text* _TextBtnQuit; // 0x80
-		::System::Collections::Generic::List_1<::RPG::Client::ChenLingFes::ChenLingFesGameSettleRecordItemControl*>* _RecordItemControls; // 0x88
-		::UnityEngine::UI::Text* _TextTalk; // 0x90
-		::Class_1_5F4D64A4B97E38F9* _Messenger; // 0x98
+		::RPG::Client::AnimatorButton* _BtnRestart; // 0x60
+		::UnityEngine::UI::Text* _TextBtnQuit; // 0x68
+		::UnityEngine::UI::Text* _TextTitle; // 0x70
+		::RPG::Client::UIStateCtrl* _UIStateCtrl; // 0x78
+		::UnityEngine::UI::Text* _TextTalk; // 0x80
+		::UnityEngine::UI::Text* _TextSecondSubTitle; // 0x88
+		::Class_1_5F4D64A4B97E38F9* _Messenger; // 0x90
+		::UnityEngine::UI::Text* _TextFirstSubValue; // 0x98
+		::RPG::Client::PrefabLoadMeta* _RecordLoadMeta; // 0xA0
 
 		::System::Void _ctor(::RPG::Client::ChenLingFes::ChenLingFesGameSettleInfoViewModel* a1, ::Class_1_5F4D64A4B97E38F9* a2)
 		{
@@ -61,9 +61,9 @@ namespace RPG::Client::ChenLingFes
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMESETTLEINFOWINDOW__SUBSCRIBEMESSAGES_OFFSET))(this);
 		}
 
-		::System::Void _OnCloseMessage(::Class_1_43BD383C98B4C0C5_231* a1)
+		::System::Void _OnCloseMessage(::Class_1_43BD383C98B4C0C5_247* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_43BD383C98B4C0C5_231*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMESETTLEINFOWINDOW__ONCLOSEMESSAGE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Class_1_43BD383C98B4C0C5_247*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMESETTLEINFOWINDOW__ONCLOSEMESSAGE_OFFSET))(this, a1);
 		}
 
 		::System::Void _SetupText()

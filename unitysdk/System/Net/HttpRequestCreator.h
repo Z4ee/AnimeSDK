@@ -5,12 +5,12 @@
 namespace System { class Uri; }
 namespace System::Net { class WebRequest; }
 
-#define SYSTEM_NET_HTTPREQUESTCREATOR_CREATE_OFFSET UNITYSDK_OFFSET(0x1CCE7F70)
-#define SYSTEM_NET_HTTPREQUESTCREATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1CCE7F60)
+#define SYSTEM_NET_HTTPREQUESTCREATOR_CREATE_OFFSET UNITYSDK_OFFSET(0x1E993380)
+#define SYSTEM_NET_HTTPREQUESTCREATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1E993370)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int HttpRequestCreator_TypeDefinitionIndex = 2848;
+	inline static constexpr unsigned int HttpRequestCreator_TypeDefinitionIndex = 2855;
 
 	class HttpRequestCreator : public ::System::Object
 	{

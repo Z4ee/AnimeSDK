@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/CustomRP/Quality.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_CRPNPCSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0xBEDBE30)
+#define RPG_CLIENT_CRPNPCSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0xC97F7D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CRPNPCSettings_TypeDefinitionIndex = 64926;
+	inline static constexpr unsigned int CRPNPCSettings_TypeDefinitionIndex = 67933;
 
 	class CRPNPCSettings : public ::System::Object
 	{

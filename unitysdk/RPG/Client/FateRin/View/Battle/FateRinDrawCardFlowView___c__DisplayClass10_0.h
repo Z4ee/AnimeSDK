@@ -5,12 +5,12 @@
 namespace RPG::Client::FateRin::Battle { class IFateRinBattleHudCardAreaViewModel; }
 namespace RPG::Client::FateRin::Battle { class IFateRinBattleHudHandCardViewModel; }
 
-#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINDRAWCARDFLOWVIEW___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC5A66D0)
-#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINDRAWCARDFLOWVIEW___C__DISPLAYCLASS10_0___CREATEPERCARDCOMMAND_B__0_OFFSET UNITYSDK_OFFSET(0xC5A6C80)
+#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINDRAWCARDFLOWVIEW___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD02A7B0)
+#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINDRAWCARDFLOWVIEW___C__DISPLAYCLASS10_0___CREATEPERCARDCOMMAND_B__0_OFFSET UNITYSDK_OFFSET(0xD02AD60)
 
 namespace RPG::Client::FateRin::View::Battle
 {
-	inline static constexpr unsigned int FateRinDrawCardFlowView___c__DisplayClass10_0_TypeDefinitionIndex = 75727;
+	inline static constexpr unsigned int FateRinDrawCardFlowView___c__DisplayClass10_0_TypeDefinitionIndex = 79360;
 
 	class FateRinDrawCardFlowView___c__DisplayClass10_0 : public ::System::Object
 	{

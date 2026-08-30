@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define SYSTEM_APPCONTEXTDEFAULTVALUES_POPULATEDEFAULTVALUES_OFFSET UNITYSDK_OFFSET(0x19F8DF00)
-#define SYSTEM_APPCONTEXTDEFAULTVALUES_TRYGETSWITCHOVERRIDE_OFFSET UNITYSDK_OFFSET(0x19F8E360)
+#define SYSTEM_APPCONTEXTDEFAULTVALUES_POPULATEDEFAULTVALUES_OFFSET UNITYSDK_OFFSET(0x1BB92D60)
+#define SYSTEM_APPCONTEXTDEFAULTVALUES_TRYGETSWITCHOVERRIDE_OFFSET UNITYSDK_OFFSET(0x1BB931C0)
 
 namespace System
 {
-	inline static constexpr unsigned int AppContextDefaultValues_TypeDefinitionIndex = 364;
+	inline static constexpr unsigned int AppContextDefaultValues_TypeDefinitionIndex = 367;
 
 	class AppContextDefaultValues : public ::System::Object
 	{

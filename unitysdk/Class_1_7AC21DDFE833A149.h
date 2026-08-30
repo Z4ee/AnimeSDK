@@ -4,22 +4,22 @@
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define CLASS_1_7AC21DDFE833A149_METHOD_1_29ACE24A70CE0A56_OFFSET UNITYSDK_OFFSET(0xD0527A0)
-#define CLASS_1_7AC21DDFE833A149__CTOR_OFFSET UNITYSDK_OFFSET(0xD052740)
+#define CLASS_1_7AC21DDFE833A149_METHOD_1_29ACE24A70CE0A56_OFFSET UNITYSDK_OFFSET(0xDD96AF0)
+#define CLASS_1_7AC21DDFE833A149__CTOR_OFFSET UNITYSDK_OFFSET(0xDD96A90)
 
-inline static constexpr unsigned int Class_1_7AC21DDFE833A149_TypeDefinitionIndex = 65830;
+inline static constexpr unsigned int Class_1_7AC21DDFE833A149_TypeDefinitionIndex = 68869;
 
 class Class_1_7AC21DDFE833A149 : public ::System::Object
 {
 public:
-	::UnityEngine::Vector2 Field_1_0; // 0x10
-	::System::Single Field_1_1; // 0x18
-	::System::Single Field_1_2; // 0x1C
-	::System::Single Field_1_3; // 0x20
-	::System::Single Field_1_4; // 0x24
-	::System::Single Field_1_5; // 0x28
-	::System::Single Field_1_6; // 0x2C
-	::System::Single Field_1_7; // 0x30
+	::UnityEngine::Vector2 DIBOGGNBCIP; // 0x10
+	::System::Single NFPEKMOMGFD; // 0x18
+	::System::Single KDMHBDFCNMG; // 0x1C
+	::System::Single IHFLGOPFOKF; // 0x20
+	::System::Single MGJHICAMJPA; // 0x24
+	::System::Single GLNJBPOLMCN; // 0x28
+	::System::Single COAELIHGAHH; // 0x2C
+	::System::Single DJLJLKMBGPC; // 0x30
 
 	::System::Void _ctor(::UnityEngine::Vector3 a1, ::System::Single a2, ::System::Single a3)
 	{

@@ -5,16 +5,16 @@
 namespace RPG::Client { class Stage; }
 namespace System { class String; }
 
-#define CLASS_1_EE2A70ED9E9B0C92_METHOD_1_B67A7D5A7BB42B14_OFFSET UNITYSDK_OFFSET(0xB58E150)
-#define CLASS_1_EE2A70ED9E9B0C92_TOSTRING_OFFSET UNITYSDK_OFFSET(0xB58E340)
-#define CLASS_1_EE2A70ED9E9B0C92__CTOR_OFFSET UNITYSDK_OFFSET(0xB58E140)
+#define CLASS_1_EE2A70ED9E9B0C92_METHOD_1_B67A7D5A7BB42B14_OFFSET UNITYSDK_OFFSET(0xBF86950)
+#define CLASS_1_EE2A70ED9E9B0C92_TOSTRING_OFFSET UNITYSDK_OFFSET(0xBF86B40)
+#define CLASS_1_EE2A70ED9E9B0C92__CTOR_OFFSET UNITYSDK_OFFSET(0xBF86940)
 
-inline static constexpr unsigned int Class_1_EE2A70ED9E9B0C92_TypeDefinitionIndex = 56634;
+inline static constexpr unsigned int Class_1_EE2A70ED9E9B0C92_TypeDefinitionIndex = 59419;
 
 class Class_1_EE2A70ED9E9B0C92 : public ::System::Object
 {
 public:
-	::RPG::Client::Stage* Field_1_0; // 0x10
+	::RPG::Client::Stage* AAIPOEIBOAJ; // 0x10
 
 	::System::Void _ctor(::RPG::Client::Stage* a1)
 	{

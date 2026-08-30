@@ -3,7 +3,7 @@
 
 namespace RPG::Client::ActivityMarble
 {
-	inline static constexpr unsigned int MarblePVEMatchContext_MarblePVEMatchType_TypeDefinitionIndex = 71282;
+	inline static constexpr unsigned int MarblePVEMatchContext_MarblePVEMatchType_TypeDefinitionIndex = 74588;
 
 	enum class MarblePVEMatchContext_MarblePVEMatchType : ::System::Int32
 	{

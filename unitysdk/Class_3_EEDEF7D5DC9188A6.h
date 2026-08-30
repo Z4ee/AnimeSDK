@@ -7,10 +7,10 @@ namespace RPG::GameCore { class LittleGameFetchProxyByID; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_3_EEDEF7D5DC9188A6_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1477AD80)
-#define CLASS_3_EEDEF7D5DC9188A6__CTOR_OFFSET UNITYSDK_OFFSET(0x1477AD10)
+#define CLASS_3_EEDEF7D5DC9188A6_EVALUATE_OFFSET UNITYSDK_OFFSET(0x155EE260)
+#define CLASS_3_EEDEF7D5DC9188A6__CTOR_OFFSET UNITYSDK_OFFSET(0x155EE1F0)
 
-inline static constexpr unsigned int Class_3_EEDEF7D5DC9188A6_TypeDefinitionIndex = 56472;
+inline static constexpr unsigned int Class_3_EEDEF7D5DC9188A6_TypeDefinitionIndex = 59256;
 
 class Class_3_EEDEF7D5DC9188A6 : public ::RPG::GameCore::TargetEvaluatorImpl_1<::RPG::GameCore::LittleGameFetchProxyByID*>
 {

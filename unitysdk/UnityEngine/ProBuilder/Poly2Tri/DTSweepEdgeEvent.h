@@ -4,11 +4,11 @@
 
 namespace UnityEngine::ProBuilder::Poly2Tri { class DTSweepConstraint; }
 
-#define UNITYENGINE_PROBUILDER_POLY2TRI_DTSWEEPEDGEEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1CDBFAA0)
+#define UNITYENGINE_PROBUILDER_POLY2TRI_DTSWEEPEDGEEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1EAC7500)
 
 namespace UnityEngine::ProBuilder::Poly2Tri
 {
-	inline static constexpr unsigned int DTSweepEdgeEvent_TypeDefinitionIndex = 36589;
+	inline static constexpr unsigned int DTSweepEdgeEvent_TypeDefinitionIndex = 37448;
 
 	class DTSweepEdgeEvent : public ::System::Object
 	{

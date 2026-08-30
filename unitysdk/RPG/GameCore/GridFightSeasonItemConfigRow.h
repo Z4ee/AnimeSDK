@@ -4,18 +4,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_GRIDFIGHTSEASONITEMCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B4EC1B0)
-#define RPG_GAMECORE_GRIDFIGHTSEASONITEMCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4EC2D0)
+#define RPG_GAMECORE_GRIDFIGHTSEASONITEMCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D165A40)
+#define RPG_GAMECORE_GRIDFIGHTSEASONITEMCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D165B60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightSeasonItemConfigRow_TypeDefinitionIndex = 12961;
+	inline static constexpr unsigned int GridFightSeasonItemConfigRow_TypeDefinitionIndex = 13352;
 
 	class GridFightSeasonItemConfigRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 ItemID; // 0x10
-		::System::UInt32 SeasonID; // 0x14
+		::System::UInt32 SeasonID; // 0x10
+		::System::UInt32 ItemID; // 0x14
 
 		::System::Void _ctor()
 		{

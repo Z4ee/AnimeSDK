@@ -3,38 +3,37 @@
 #include "unitysdk/System/Object.h"
 
 namespace MiHoYo::SDK { class NetworkManager; }
-namespace MiHoYo::SDK { class NetworkResponseModelEx; }
+namespace MiHoYo::SDK { class NetworkResponseModel; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
-namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MIHOYO_SDK_NETWORKMANAGER___C__DISPLAYCLASS42_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19D52400)
-#define MIHOYO_SDK_NETWORKMANAGER___C__DISPLAYCLASS42_0__POSTREQUESTEX_G__ONGETRESPONSE_0_OFFSET UNITYSDK_OFFSET(0x19D550E0)
-#define MIHOYO_SDK_NETWORKMANAGER___C__DISPLAYCLASS42_0__POSTREQUESTEX_G__ONGETTIMEOUT_1_OFFSET UNITYSDK_OFFSET(0x19D55130)
+#define MIHOYO_SDK_NETWORKMANAGER___C__DISPLAYCLASS42_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9AEC30)
+#define MIHOYO_SDK_NETWORKMANAGER___C__DISPLAYCLASS42_0__POSTREQUEST_B__0_OFFSET UNITYSDK_OFFSET(0x1B9B1BF0)
+#define MIHOYO_SDK_NETWORKMANAGER___C__DISPLAYCLASS42_0__POSTREQUEST_B__1_OFFSET UNITYSDK_OFFSET(0x1B9B1C40)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int NetworkManager___c__DisplayClass42_0_TypeDefinitionIndex = 8119;
+	inline static constexpr unsigned int NetworkManager___c__DisplayClass42_0_TypeDefinitionIndex = 8122;
 
 	class NetworkManager___c__DisplayClass42_0 : public ::System::Object
 	{
 	public:
 		::MiHoYo::SDK::NetworkManager* __4__this; // 0x10
-		::System::Action_1<::MiHoYo::SDK::NetworkResponseModelEx*>* callback; // 0x18
+		::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* callback; // 0x18
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_NETWORKMANAGER___C__DISPLAYCLASS42_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _PostRequestEx_g__onGetResponse_0(::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* a1, ::System::String* a2)
+		::System::Void _PostRequest_b__0(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_NETWORKMANAGER___C__DISPLAYCLASS42_0__POSTREQUESTEX_G__ONGETRESPONSE_0_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_NETWORKMANAGER___C__DISPLAYCLASS42_0__POSTREQUEST_B__0_OFFSET))(this, a1);
 		}
 
-		::System::Void _PostRequestEx_g__onGetTimeOut_1()
+		::System::Void _PostRequest_b__1()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_NETWORKMANAGER___C__DISPLAYCLASS42_0__POSTREQUESTEX_G__ONGETTIMEOUT_1_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_NETWORKMANAGER___C__DISPLAYCLASS42_0__POSTREQUEST_B__1_OFFSET))(this);
 		}
 	};
 }

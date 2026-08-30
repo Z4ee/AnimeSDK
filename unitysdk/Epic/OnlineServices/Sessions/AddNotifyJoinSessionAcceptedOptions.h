@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define EPIC_ONLINESERVICES_SESSIONS_ADDNOTIFYJOINSESSIONACCEPTEDOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0xACB7D50)
+#define EPIC_ONLINESERVICES_SESSIONS_ADDNOTIFYJOINSESSIONACCEPTEDOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0xB3FC260)
 
 namespace Epic::OnlineServices::Sessions
 {
-	inline static constexpr unsigned int AddNotifyJoinSessionAcceptedOptions_TypeDefinitionIndex = 42899;
+	inline static constexpr unsigned int AddNotifyJoinSessionAcceptedOptions_TypeDefinitionIndex = 45081;
 
 	class AddNotifyJoinSessionAcceptedOptions : public ::System::Object
 	{

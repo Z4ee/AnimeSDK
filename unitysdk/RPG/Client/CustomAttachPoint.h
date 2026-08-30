@@ -5,14 +5,14 @@
 
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_CUSTOMATTACHPOINT_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xC1CFDC0)
-#define RPG_CLIENT_CUSTOMATTACHPOINT_REFRESH_OFFSET UNITYSDK_OFFSET(0xC1CFBD0)
-#define RPG_CLIENT_CUSTOMATTACHPOINT_RESETORIGINY_OFFSET UNITYSDK_OFFSET(0xC1CFB10)
-#define RPG_CLIENT_CUSTOMATTACHPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0xC1CFE10)
+#define RPG_CLIENT_CUSTOMATTACHPOINT_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xCC8B5E0)
+#define RPG_CLIENT_CUSTOMATTACHPOINT_REFRESH_OFFSET UNITYSDK_OFFSET(0xCC8B3F0)
+#define RPG_CLIENT_CUSTOMATTACHPOINT_RESETORIGINY_OFFSET UNITYSDK_OFFSET(0xCC8B330)
+#define RPG_CLIENT_CUSTOMATTACHPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0xCC8B630)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CustomAttachPoint_TypeDefinitionIndex = 65361;
+	inline static constexpr unsigned int CustomAttachPoint_TypeDefinitionIndex = 68373;
 
 	class CustomAttachPoint : public ::UnityEngine::MonoBehaviour
 	{
@@ -24,7 +24,7 @@ namespace RPG::Client
 		::System::Boolean Z; // 0x2E
 		::System::Boolean FollowRotation; // 0x2F
 		::System::Boolean IsFreeze; // 0x30
-		::UnityEngine::Vector3 Field_5_7; // 0x34
+		::UnityEngine::Vector3 ILGDMEDGFBF; // 0x34
 
 		::System::Void _ctor()
 		{

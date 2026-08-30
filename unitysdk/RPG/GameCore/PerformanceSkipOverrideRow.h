@@ -8,28 +8,28 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_PERFORMANCESKIPOVERRIDEROW_FROMBINARYWITHOUTNEW_OFFSET UNITYSDK_OFFSET(0x1B69F0F0)
-#define RPG_GAMECORE_PERFORMANCESKIPOVERRIDEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B69F490)
-#define RPG_GAMECORE_PERFORMANCESKIPOVERRIDEROW_FROMTABLEOFFSET_OFFSET UNITYSDK_OFFSET(0x1B6A0170)
-#define RPG_GAMECORE_PERFORMANCESKIPOVERRIDEROW_RESET_OFFSET UNITYSDK_OFFSET(0x1B6A01D0)
-#define RPG_GAMECORE_PERFORMANCESKIPOVERRIDEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6A01F0)
+#define RPG_GAMECORE_PERFORMANCESKIPOVERRIDEROW_FROMBINARYWITHOUTNEW_OFFSET UNITYSDK_OFFSET(0x1D3220F0)
+#define RPG_GAMECORE_PERFORMANCESKIPOVERRIDEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D322490)
+#define RPG_GAMECORE_PERFORMANCESKIPOVERRIDEROW_FROMTABLEOFFSET_OFFSET UNITYSDK_OFFSET(0x1D323180)
+#define RPG_GAMECORE_PERFORMANCESKIPOVERRIDEROW_RESET_OFFSET UNITYSDK_OFFSET(0x1D3231E0)
+#define RPG_GAMECORE_PERFORMANCESKIPOVERRIDEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D323200)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PerformanceSkipOverrideRow_TypeDefinitionIndex = 13837;
+	inline static constexpr unsigned int PerformanceSkipOverrideRow_TypeDefinitionIndex = 14257;
 
 	class PerformanceSkipOverrideRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::String*>* OverrideCharacterList; // 0x10
-		::System::UInt32 IsOverrideCharacter; // 0x18
-		::RPG::GameCore::ELevelPerformanceType PerformanceType; // 0x1C
-		::RPG::Client::TextID Desc; // 0x20
-		::System::UInt32 PackID; // 0x30
-		::System::UInt32 PerformanceID; // 0x34
-		::System::UInt32 OverrideImportantFlag; // 0x38
-		::System::UInt32 IsConfirmRequiredToSkipFlag; // 0x3C
-		::System::UInt32 IsOverrideImportantFlag; // 0x40
+		::System::UInt32 IsOverrideImportantFlag; // 0x18
+		::System::UInt32 PerformanceID; // 0x1C
+		::System::UInt32 PackID; // 0x20
+		::System::UInt32 IsConfirmRequiredToSkipFlag; // 0x24
+		::RPG::Client::TextID Desc; // 0x28
+		::RPG::GameCore::ELevelPerformanceType PerformanceType; // 0x38
+		::System::UInt32 OverrideImportantFlag; // 0x3C
+		::System::UInt32 IsOverrideCharacter; // 0x40
 
 		::System::Void _ctor()
 		{

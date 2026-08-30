@@ -8,33 +8,33 @@ namespace RPG::Client { class MonoPathLightControl; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class MonoBehaviour; }
 
-#define CLASS_2_20CD753D282DC6DE_METHOD_2_205C242D36381FFB_OFFSET UNITYSDK_OFFSET(0x11977F80)
-#define CLASS_2_20CD753D282DC6DE_METHOD_2_37CF7377CBA6E635_OFFSET UNITYSDK_OFFSET(0x11977DB0)
-#define CLASS_2_20CD753D282DC6DE_METHOD_2_50306739355B64EB_OFFSET UNITYSDK_OFFSET(0x11977D40)
-#define CLASS_2_20CD753D282DC6DE_METHOD_2_6112A1276899AF0F_OFFSET UNITYSDK_OFFSET(0x1197A4E0)
-#define CLASS_2_20CD753D282DC6DE_METHOD_2_B76CD5CB3E297DF3_OFFSET UNITYSDK_OFFSET(0x11978FD0)
-#define CLASS_2_20CD753D282DC6DE_METHOD_2_FB0DF283AE5D325A_OFFSET UNITYSDK_OFFSET(0x119778A0)
-#define CLASS_2_20CD753D282DC6DE__CTOR_OFFSET UNITYSDK_OFFSET(0x1197AAF0)
+#define CLASS_2_20CD753D282DC6DE_METHOD_2_205C242D36381FFB_OFFSET UNITYSDK_OFFSET(0x12853830)
+#define CLASS_2_20CD753D282DC6DE_METHOD_2_37CF7377CBA6E635_OFFSET UNITYSDK_OFFSET(0x12853660)
+#define CLASS_2_20CD753D282DC6DE_METHOD_2_50306739355B64EB_OFFSET UNITYSDK_OFFSET(0x128535F0)
+#define CLASS_2_20CD753D282DC6DE_METHOD_2_6112A1276899AF0F_OFFSET UNITYSDK_OFFSET(0x12855DA0)
+#define CLASS_2_20CD753D282DC6DE_METHOD_2_B76CD5CB3E297DF3_OFFSET UNITYSDK_OFFSET(0x12854880)
+#define CLASS_2_20CD753D282DC6DE_METHOD_2_FB0DF283AE5D325A_OFFSET UNITYSDK_OFFSET(0x12853150)
+#define CLASS_2_20CD753D282DC6DE__CTOR_OFFSET UNITYSDK_OFFSET(0x128563B0)
 
-inline static constexpr unsigned int Class_2_20CD753D282DC6DE_TypeDefinitionIndex = 67220;
+inline static constexpr unsigned int Class_2_20CD753D282DC6DE_TypeDefinitionIndex = 70339;
 
 class Class_2_20CD753D282DC6DE : public ::RPG::Client::BehaviorBase
 {
 public:
-	::UnityEngine::MaterialPropertyBlock* Field_2_0; // 0x18
-	::System::Single Field_2_1; // 0x20
-	::System::Single Field_2_2; // 0x24
-	::UnityEngine::Vector3 Field_2_3; // 0x28
-	::System::Single Field_2_4; // 0x34
-	::UnityEngine::Vector4 Field_2_5; // 0x38
-	::UnityEngine::Vector3 Field_2_6; // 0x48
-	::System::Single Field_2_7; // 0x54
-	::UnityEngine::Vector3 Field_2_8; // 0x58
-	::System::Single Field_2_9; // 0x64
-	::UnityEngine::Vector3 Field_2_10; // 0x68
-	::UnityEngine::Vector3 Field_2_11; // 0x74
-	::UnityEngine::Vector3 Field_2_12; // 0x80
-	::System::Single Field_2_13; // 0x8C
+	::UnityEngine::MaterialPropertyBlock* IOCGPFBNHGJ; // 0x18
+	::UnityEngine::Vector3 ICNBBLAOJGH; // 0x20
+	::System::Single HMNKOANNINJ; // 0x2C
+	::UnityEngine::Vector3 DCPMGDCGHFK; // 0x30
+	::UnityEngine::Vector4 HDNFNONGHCP; // 0x3C
+	::System::Single EEPGKELFPFL; // 0x4C
+	::UnityEngine::Vector3 PDKDKJIEHPC; // 0x50
+	::UnityEngine::Vector3 JBIJNCJEFIB; // 0x5C
+	::UnityEngine::Vector3 NILAGOHELML; // 0x68
+	::System::Single LKBKDNAMNEG; // 0x74
+	::System::Single GHCBGHCGBBJ; // 0x78
+	::UnityEngine::Vector3 OEJLOADFCGB; // 0x7C
+	::System::Single GHABAAOGBNO; // 0x88
+	::System::Single DEIMGIGLHLK; // 0x8C
 
 	::System::Void _ctor()
 	{

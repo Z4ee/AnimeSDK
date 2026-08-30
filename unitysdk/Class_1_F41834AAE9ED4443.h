@@ -7,20 +7,20 @@
 namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
 
-#define CLASS_1_F41834AAE9ED4443__CTOR_OFFSET UNITYSDK_OFFSET(0x153C5EC0)
+#define CLASS_1_F41834AAE9ED4443__CTOR_OFFSET UNITYSDK_OFFSET(0xB4B49B0)
 
-inline static constexpr unsigned int Class_1_F41834AAE9ED4443_TypeDefinitionIndex = 68616;
+inline static constexpr unsigned int Class_1_F41834AAE9ED4443_TypeDefinitionIndex = 71814;
 
 class Class_1_F41834AAE9ED4443 : public ::System::Object
 {
 public:
-	::RPG::GameCore::GameEntity* Field_1_0; // 0x10
-	::System::String* Field_1_1; // 0x18
-	::System::String* Field_1_2; // 0x20
-	::System::Boolean Field_1_3; // 0x28
-	::RPG::GameCore::ControlSkillType Field_1_4; // 0x2C
-	::RPG::GameCore::SkillButtonAdditionalStatusType Field_1_5; // 0x30
-	::System::Single Field_1_6; // 0x34
+	::System::String* PODFJDMHFMK; // 0x10
+	::System::String* BDACPPLKLGL; // 0x18
+	::RPG::GameCore::GameEntity* GGKGFABFGFE; // 0x20
+	::RPG::GameCore::SkillButtonAdditionalStatusType PGOHOFMMIAJ; // 0x28
+	::RPG::GameCore::ControlSkillType GFNJJEFJKPD; // 0x2C
+	::System::Single CCAOGMEFNLB; // 0x30
+	::System::Boolean CAGCHKJHMPD; // 0x34
 
 	::System::Void _ctor()
 	{

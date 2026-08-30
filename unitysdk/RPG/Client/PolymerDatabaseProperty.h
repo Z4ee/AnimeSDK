@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_POLYMERDATABASEPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0xD0B6F00)
+#define RPG_CLIENT_POLYMERDATABASEPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0xDBB9840)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PolymerDatabaseProperty_TypeDefinitionIndex = 67148;
+	inline static constexpr unsigned int PolymerDatabaseProperty_TypeDefinitionIndex = 70265;
 
 	class PolymerDatabaseProperty : public ::System::Object
 	{

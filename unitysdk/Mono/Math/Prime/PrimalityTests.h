@@ -5,12 +5,12 @@
 
 namespace Mono::Math { class BigInteger; }
 
-#define MONO_MATH_PRIME_PRIMALITYTESTS_GETSPPROUNDS_OFFSET UNITYSDK_OFFSET(0x19F17F80)
-#define MONO_MATH_PRIME_PRIMALITYTESTS_RABINMILLERTEST_OFFSET UNITYSDK_OFFSET(0x19F18120)
+#define MONO_MATH_PRIME_PRIMALITYTESTS_GETSPPROUNDS_OFFSET UNITYSDK_OFFSET(0x1BB1CA60)
+#define MONO_MATH_PRIME_PRIMALITYTESTS_RABINMILLERTEST_OFFSET UNITYSDK_OFFSET(0x1BB1CC00)
 
 namespace Mono::Math::Prime
 {
-	inline static constexpr unsigned int PrimalityTests_TypeDefinitionIndex = 2313;
+	inline static constexpr unsigned int PrimalityTests_TypeDefinitionIndex = 2320;
 
 	class PrimalityTests : public ::System::Object
 	{

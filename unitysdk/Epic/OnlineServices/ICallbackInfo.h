@@ -7,7 +7,7 @@ namespace System { class Object; }
 
 namespace Epic::OnlineServices
 {
-	inline static constexpr unsigned int ICallbackInfo_TypeDefinitionIndex = 42737;
+	inline static constexpr unsigned int ICallbackInfo_TypeDefinitionIndex = 44919;
 
 	class ICallbackInfo
 	{

@@ -7,12 +7,12 @@ namespace RPG::GameCore { class MarbleLaunchAIConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_GLOBALMARBLEAICONFIG_METHOD_2_24AAF11F1284A612_OFFSET UNITYSDK_OFFSET(0x1B4CA8A0)
-#define RPG_GAMECORE_GLOBALMARBLEAICONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4CA9F0)
+#define RPG_GAMECORE_GLOBALMARBLEAICONFIG_METHOD_2_24AAF11F1284A612_OFFSET UNITYSDK_OFFSET(0x1D12A590)
+#define RPG_GAMECORE_GLOBALMARBLEAICONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D144E20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GlobalMarbleAIConfig_TypeDefinitionIndex = 16236;
+	inline static constexpr unsigned int GlobalMarbleAIConfig_TypeDefinitionIndex = 16720;
 
 	class GlobalMarbleAIConfig : public ::RPG::GameCore::JsonConfig
 	{

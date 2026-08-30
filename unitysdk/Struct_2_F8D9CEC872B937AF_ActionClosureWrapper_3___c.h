@@ -5,7 +5,7 @@
 
 template <typename T1, typename T2, typename T3> class Struct_2_F8D9CEC872B937AF_ActionClosureWrapper_3___c;
 
-inline static constexpr unsigned int Struct_2_F8D9CEC872B937AF_ActionClosureWrapper_3___c_TypeDefinitionIndex = 6816;
+inline static constexpr unsigned int Struct_2_F8D9CEC872B937AF_ActionClosureWrapper_3___c_TypeDefinitionIndex = 6428;
 
 template <typename T0, typename T1, typename T2>
 class Struct_2_F8D9CEC872B937AF_ActionClosureWrapper_3___c : public ::System::Object

@@ -6,22 +6,22 @@
 
 namespace RPG::Client::Prop { class ChimeraArrangementModelInstance_MotionConfig; }
 
-#define RPG_CLIENT_PROP_CHIMERAARRANGEMENTSLOT_MOTIONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xD0FB570)
+#define RPG_CLIENT_PROP_CHIMERAARRANGEMENTSLOT_MOTIONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xDBFFA10)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraArrangementSlot_MotionData_TypeDefinitionIndex = 74509;
+	inline static constexpr unsigned int ChimeraArrangementSlot_MotionData_TypeDefinitionIndex = 77994;
 
 	class ChimeraArrangementSlot_MotionData : public ::System::Object
 	{
 	public:
 		::RPG::Client::Prop::ChimeraArrangementModelInstance_MotionConfig* Config; // 0x10
-		::UnityEngine::Vector3 SourcePosition; // 0x18
-		::System::Single Time; // 0x24
-		::UnityEngine::Vector3 TargetPosition; // 0x28
-		::UnityEngine::Quaternion SourceQuaternion; // 0x34
-		::System::Boolean IsActive; // 0x44
-		::UnityEngine::Quaternion TargetQuaternion; // 0x48
+		::System::Single Time; // 0x18
+		::UnityEngine::Vector3 SourcePosition; // 0x1C
+		::UnityEngine::Quaternion TargetQuaternion; // 0x28
+		::UnityEngine::Quaternion SourceQuaternion; // 0x38
+		::System::Boolean IsActive; // 0x48
+		::UnityEngine::Vector3 TargetPosition; // 0x4C
 
 		::System::Void _ctor()
 		{

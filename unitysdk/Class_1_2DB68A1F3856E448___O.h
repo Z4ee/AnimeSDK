@@ -4,17 +4,17 @@
 
 namespace RPG::Client { class NotifyHandler; }
 
-inline static constexpr unsigned int Class_1_2DB68A1F3856E448___O_TypeDefinitionIndex = 59443;
+inline static constexpr unsigned int Class_1_2DB68A1F3856E448___O_TypeDefinitionIndex = 62282;
 
 class Class_1_2DB68A1F3856E448___O : public ::System::Object
 {
 public:
 	static ::RPG::Client::NotifyHandler** StaticGet__1___OnAdventureHideLoadingPage()
 	{
-		return (::RPG::Client::NotifyHandler**)Il2CppClass::FromTypeDefinitionIndex(Class_1_2DB68A1F3856E448___O_TypeDefinitionIndex)->GetStaticField(0x211C0);
+		return (::RPG::Client::NotifyHandler**)Il2CppClass::FromTypeDefinitionIndex(Class_1_2DB68A1F3856E448___O_TypeDefinitionIndex)->GetStaticField(0x548F0);
 	}
 	static ::RPG::Client::NotifyHandler** StaticGet__0___OnAdventureEntered()
 	{
-		return (::RPG::Client::NotifyHandler**)Il2CppClass::FromTypeDefinitionIndex(Class_1_2DB68A1F3856E448___O_TypeDefinitionIndex)->GetStaticField(0x211C8);
+		return (::RPG::Client::NotifyHandler**)Il2CppClass::FromTypeDefinitionIndex(Class_1_2DB68A1F3856E448___O_TypeDefinitionIndex)->GetStaticField(0x548F8);
 	}
 };

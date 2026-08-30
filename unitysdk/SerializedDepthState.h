@@ -3,10 +3,10 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Rendering/CompareFunction.h"
 
-#define SERIALIZEDDEPTHSTATE_METHOD_2_59D721641B0589C1_1_OFFSET UNITYSDK_OFFSET(0x1590C0)
-#define SERIALIZEDDEPTHSTATE_METHOD_2_59D721641B0589C1_OFFSET UNITYSDK_OFFSET(0x159060)
+#define SERIALIZEDDEPTHSTATE_METHOD_2_59D721641B0589C1_1_OFFSET UNITYSDK_OFFSET(0x15FDE0)
+#define SERIALIZEDDEPTHSTATE_METHOD_2_59D721641B0589C1_OFFSET UNITYSDK_OFFSET(0x15FD80)
 
-inline static constexpr unsigned int SerializedDepthState_TypeDefinitionIndex = 45626;
+inline static constexpr unsigned int SerializedDepthState_TypeDefinitionIndex = 47877;
 
 struct alignas(4) SerializedDepthState
 {

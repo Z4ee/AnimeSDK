@@ -9,7 +9,7 @@ namespace MessagePack { class MessagePackSerializerOptions; }
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int KeyValuePairFormatter_2_TypeDefinitionIndex = 7452;
+	inline static constexpr unsigned int KeyValuePairFormatter_2_TypeDefinitionIndex = 7438;
 
 	template <typename TKey, typename TValue>
 	class KeyValuePairFormatter_2 : public ::System::Object

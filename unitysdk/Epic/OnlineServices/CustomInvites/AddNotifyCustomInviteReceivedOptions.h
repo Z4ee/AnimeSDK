@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define EPIC_ONLINESERVICES_CUSTOMINVITES_ADDNOTIFYCUSTOMINVITERECEIVEDOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0xAC07D00)
+#define EPIC_ONLINESERVICES_CUSTOMINVITES_ADDNOTIFYCUSTOMINVITERECEIVEDOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0xB34C210)
 
 namespace Epic::OnlineServices::CustomInvites
 {
-	inline static constexpr unsigned int AddNotifyCustomInviteReceivedOptions_TypeDefinitionIndex = 43898;
+	inline static constexpr unsigned int AddNotifyCustomInviteReceivedOptions_TypeDefinitionIndex = 46080;
 
 	class AddNotifyCustomInviteReceivedOptions : public ::System::Object
 	{

@@ -6,20 +6,20 @@ namespace MiHoYo::SDK::PC::OS { class AgeGatePayManager; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_PC_OS_AGEGATEPAYMANAGER___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19D679F0)
-#define MIHOYO_SDK_PC_OS_AGEGATEPAYMANAGER___C__DISPLAYCLASS19_0__SHOWPARENTCONSENTREQUIRED_B__3_OFFSET UNITYSDK_OFFSET(0x19D68380)
-#define MIHOYO_SDK_PC_OS_AGEGATEPAYMANAGER___C__DISPLAYCLASS19_0__SHOWPARENTCONSENTREQUIRED_B__5_OFFSET UNITYSDK_OFFSET(0x19D684C0)
+#define MIHOYO_SDK_PC_OS_AGEGATEPAYMANAGER___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9C6100)
+#define MIHOYO_SDK_PC_OS_AGEGATEPAYMANAGER___C__DISPLAYCLASS19_0__SHOWPARENTCONSENTREQUIRED_B__3_OFFSET UNITYSDK_OFFSET(0x1B9C6A90)
+#define MIHOYO_SDK_PC_OS_AGEGATEPAYMANAGER___C__DISPLAYCLASS19_0__SHOWPARENTCONSENTREQUIRED_B__5_OFFSET UNITYSDK_OFFSET(0x1B9C6BD0)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int AgeGatePayManager___c__DisplayClass19_0_TypeDefinitionIndex = 8416;
+	inline static constexpr unsigned int AgeGatePayManager___c__DisplayClass19_0_TypeDefinitionIndex = 8440;
 
 	class AgeGatePayManager___c__DisplayClass19_0 : public ::System::Object
 	{
 	public:
-		::System::Action_1<::System::Int32>* __9__5; // 0x10
-		::MiHoYo::SDK::PC::OS::AgeGatePayManager* __4__this; // 0x18
-		::System::String* email; // 0x20
+		::System::String* email; // 0x10
+		::System::Action_1<::System::Int32>* __9__5; // 0x18
+		::MiHoYo::SDK::PC::OS::AgeGatePayManager* __4__this; // 0x20
 
 		::System::Void _ctor()
 		{

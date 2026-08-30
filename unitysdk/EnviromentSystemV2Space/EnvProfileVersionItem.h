@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace EnviromentSystemV2Space
 {
-	inline static constexpr unsigned int EnvProfileVersionItem_TypeDefinitionIndex = 47524;
+	inline static constexpr unsigned int EnvProfileVersionItem_TypeDefinitionIndex = 49805;
 
 	struct alignas(8) EnvProfileVersionItem
 	{

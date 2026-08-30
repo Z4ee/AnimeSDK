@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SYSTEM_THREADSTATICATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A02E750)
+#define SYSTEM_THREADSTATICATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC343E0)
 
 namespace System
 {
-	inline static constexpr unsigned int ThreadStaticAttribute_TypeDefinitionIndex = 334;
+	inline static constexpr unsigned int ThreadStaticAttribute_TypeDefinitionIndex = 337;
 
 	class ThreadStaticAttribute : public ::System::Attribute
 	{

@@ -9,20 +9,20 @@ namespace System::Linq::Expressions { class ParameterExpression; }
 namespace System::Linq::Expressions::Interpreter { class InterpretedFrame; }
 namespace System::Linq::Expressions::Interpreter { class LocalVariable; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_QUOTEINSTRUCTION_GET_INSTRUCTIONNAME_OFFSET UNITYSDK_OFFSET(0x1CAB4020)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_QUOTEINSTRUCTION_GET_PRODUCEDSTACK_OFFSET UNITYSDK_OFFSET(0x1CAB4010)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_QUOTEINSTRUCTION_RUN_OFFSET UNITYSDK_OFFSET(0x1CAB4030)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_QUOTEINSTRUCTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1CAB4000)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_QUOTEINSTRUCTION_GET_INSTRUCTIONNAME_OFFSET UNITYSDK_OFFSET(0x1E75DA80)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_QUOTEINSTRUCTION_GET_PRODUCEDSTACK_OFFSET UNITYSDK_OFFSET(0x1E75DA70)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_QUOTEINSTRUCTION_RUN_OFFSET UNITYSDK_OFFSET(0x1E75DA90)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_QUOTEINSTRUCTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1E75DA60)
 
 namespace System::Linq::Expressions::Interpreter
 {
-	inline static constexpr unsigned int QuoteInstruction_TypeDefinitionIndex = 3650;
+	inline static constexpr unsigned int QuoteInstruction_TypeDefinitionIndex = 3658;
 
 	class QuoteInstruction : public ::System::Linq::Expressions::Interpreter::Instruction
 	{
 	public:
-		::System::Linq::Expressions::Expression* _operand; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::Linq::Expressions::ParameterExpression*, ::System::Linq::Expressions::Interpreter::LocalVariable*>* _hoistedVariables; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::Linq::Expressions::ParameterExpression*, ::System::Linq::Expressions::Interpreter::LocalVariable*>* _hoistedVariables; // 0x10
+		::System::Linq::Expressions::Expression* _operand; // 0x18
 
 		::System::Void _ctor(::System::Linq::Expressions::Expression* a1, ::System::Collections::Generic::Dictionary_2<::System::Linq::Expressions::ParameterExpression*, ::System::Linq::Expressions::Interpreter::LocalVariable*>* a2)
 		{

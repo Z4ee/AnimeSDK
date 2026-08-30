@@ -7,20 +7,20 @@
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define RPG_GAMECORE_LEVELCHARACTERINITSHIELD_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xDAC8D50)
-#define RPG_GAMECORE_LEVELCHARACTERINITSHIELD_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xDAC8D00)
-#define RPG_GAMECORE_LEVELCHARACTERINITSHIELD__CTOR_OFFSET UNITYSDK_OFFSET(0xDAC8CE0)
+#define RPG_GAMECORE_LEVELCHARACTERINITSHIELD_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE6876F0)
+#define RPG_GAMECORE_LEVELCHARACTERINITSHIELD_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE6876A0)
+#define RPG_GAMECORE_LEVELCHARACTERINITSHIELD__CTOR_OFFSET UNITYSDK_OFFSET(0xE687680)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelCharacterInitShield_TypeDefinitionIndex = 54249;
+	inline static constexpr unsigned int LevelCharacterInitShield_TypeDefinitionIndex = 56970;
 
 	class LevelCharacterInitShield : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::GameEntity* Target; // 0x10
-		::RPG::GameCore::TaskContext* Context; // 0x18
-		::RPG::GameCore::GameEntity* Caster; // 0x20
+		::RPG::GameCore::TaskContext* Context; // 0x10
+		::RPG::GameCore::GameEntity* Caster; // 0x18
+		::RPG::GameCore::GameEntity* Target; // 0x20
 		::RPG::GameCore::FixPoint Shield; // 0x28
 
 		::System::Void _ctor(::RPG::GameCore::GameEntity* a1, ::RPG::GameCore::GameEntity* a2, ::RPG::GameCore::FixPoint a3, ::RPG::GameCore::TaskContext* a4)

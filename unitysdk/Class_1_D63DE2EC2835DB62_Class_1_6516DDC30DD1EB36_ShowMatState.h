@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Class_1_D63DE2EC2835DB62_Class_1_6516DDC30DD1EB36_ShowMatState_TypeDefinitionIndex = 58112;
+inline static constexpr unsigned int Class_1_D63DE2EC2835DB62_Class_1_6516DDC30DD1EB36_ShowMatState_TypeDefinitionIndex = 60939;
 
 enum class Class_1_D63DE2EC2835DB62_Class_1_6516DDC30DD1EB36_ShowMatState : ::System::Int32
 {

@@ -5,18 +5,18 @@
 
 namespace RPG::GameCore { class GameEntity; }
 
-#define CLASS_1_51D2F3AA516BB153_1_CLEAR_OFFSET UNITYSDK_OFFSET(0xDB694D0)
-#define CLASS_1_51D2F3AA516BB153_1_METHOD_1_D15377D43DB8B379_OFFSET UNITYSDK_OFFSET(0xDB69460)
-#define CLASS_1_51D2F3AA516BB153_1__CTOR_OFFSET UNITYSDK_OFFSET(0xDB69520)
+#define CLASS_1_51D2F3AA516BB153_1_CLEAR_OFFSET UNITYSDK_OFFSET(0xE8804A0)
+#define CLASS_1_51D2F3AA516BB153_1_METHOD_1_D15377D43DB8B379_OFFSET UNITYSDK_OFFSET(0xE880430)
+#define CLASS_1_51D2F3AA516BB153_1__CTOR_OFFSET UNITYSDK_OFFSET(0xE8804F0)
 
-inline static constexpr unsigned int Class_1_51D2F3AA516BB153_1_TypeDefinitionIndex = 52667;
+inline static constexpr unsigned int Class_1_51D2F3AA516BB153_1_TypeDefinitionIndex = 55366;
 
 class Class_1_51D2F3AA516BB153_1 : public ::System::Object
 {
 public:
-	::RPG::GameCore::GameEntity* Field_1_0; // 0x10
-	::RPG::GameCore::GameEntity* Field_1_1; // 0x18
-	::RPG::GameCore::FixPoint Field_1_2; // 0x20
+	::RPG::GameCore::GameEntity* MCLLALGABAB; // 0x10
+	::RPG::GameCore::GameEntity* GNOCBLOMLAC; // 0x18
+	::RPG::GameCore::FixPoint PMEGJKPHDMH; // 0x20
 
 	::System::Void _ctor()
 	{

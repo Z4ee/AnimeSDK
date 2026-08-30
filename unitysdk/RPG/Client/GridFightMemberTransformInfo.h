@@ -4,18 +4,18 @@
 
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_GRIDFIGHTMEMBERTRANSFORMINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xC7770F0)
+#define RPG_CLIENT_GRIDFIGHTMEMBERTRANSFORMINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xD1FE700)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightMemberTransformInfo_TypeDefinitionIndex = 61932;
+	inline static constexpr unsigned int GridFightMemberTransformInfo_TypeDefinitionIndex = 64916;
 
 	class GridFightMemberTransformInfo : public ::System::Object
 	{
 	public:
 		::UnityEngine::Transform* Transform; // 0x10
-		::System::UInt32 UID; // 0x18
-		::System::Boolean IsPerspective; // 0x1C
+		::System::Boolean IsPerspective; // 0x18
+		::System::UInt32 UID; // 0x1C
 
 		::System::Void _ctor()
 		{

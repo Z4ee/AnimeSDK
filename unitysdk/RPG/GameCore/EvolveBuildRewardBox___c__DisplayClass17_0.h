@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class EvolveBuildCollectionGearDisplayData; }
 
-#define RPG_GAMECORE_EVOLVEBUILDREWARDBOX___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0xDA79840)
-#define RPG_GAMECORE_EVOLVEBUILDREWARDBOX___C__DISPLAYCLASS17_0___ADDTOWAVEDATABYGEARID_B__0_OFFSET UNITYSDK_OFFSET(0xDA7C1A0)
+#define RPG_GAMECORE_EVOLVEBUILDREWARDBOX___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0xE6385D0)
+#define RPG_GAMECORE_EVOLVEBUILDREWARDBOX___C__DISPLAYCLASS17_0___ADDTOWAVEDATABYGEARID_B__0_OFFSET UNITYSDK_OFFSET(0xE63AE10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EvolveBuildRewardBox___c__DisplayClass17_0_TypeDefinitionIndex = 51101;
+	inline static constexpr unsigned int EvolveBuildRewardBox___c__DisplayClass17_0_TypeDefinitionIndex = 53785;
 
 	class EvolveBuildRewardBox___c__DisplayClass17_0 : public ::System::Object
 	{

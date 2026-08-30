@@ -7,12 +7,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_RESTAURANTRECIPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B72B900)
-#define RPG_GAMECORE_RESTAURANTRECIPEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B72C0E0)
+#define RPG_GAMECORE_RESTAURANTRECIPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3ADEB0)
+#define RPG_GAMECORE_RESTAURANTRECIPEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3AE690)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RestaurantRecipeRow_TypeDefinitionIndex = 10941;
+	inline static constexpr unsigned int RestaurantRecipeRow_TypeDefinitionIndex = 11316;
 
 	class RestaurantRecipeRow : public ::System::Object
 	{
@@ -20,8 +20,8 @@ namespace RPG::GameCore
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* Materials; // 0x10
 		::Il2CppArray<::System::UInt32>* TAGList; // 0x18
 		::Il2CppArray<::System::UInt32>* UnlockIDList; // 0x20
-		::System::String* IMGPath; // 0x28
-		::System::String* Model; // 0x30
+		::System::String* Model; // 0x28
+		::System::String* IMGPath; // 0x30
 		::System::UInt32 RecipeID; // 0x38
 		::RPG::Client::TextID Name; // 0x40
 		::RPG::Client::TextID Detail; // 0x50

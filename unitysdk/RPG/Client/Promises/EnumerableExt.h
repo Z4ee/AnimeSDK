@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace RPG::Client::Promises
 {
-	inline static constexpr unsigned int EnumerableExt_TypeDefinitionIndex = 9533;
+	inline static constexpr unsigned int EnumerableExt_TypeDefinitionIndex = 9812;
 
 	class EnumerableExt : public ::System::Object
 	{

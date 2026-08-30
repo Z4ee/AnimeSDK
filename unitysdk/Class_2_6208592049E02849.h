@@ -5,16 +5,16 @@
 class Class_2_48488E8DBD9F6BCE;
 namespace RPG::GameCore { class DiceCombatTaskConfig_MarkBossForceChangePhaseFlag; }
 
-#define CLASS_2_6208592049E02849_METHOD_2_41A074549EF25F63_OFFSET UNITYSDK_OFFSET(0x1A506FC0)
-#define CLASS_2_6208592049E02849__CTOR_OFFSET UNITYSDK_OFFSET(0x1A506FB0)
+#define CLASS_2_6208592049E02849_METHOD_2_41A074549EF25F63_OFFSET UNITYSDK_OFFSET(0x1C116AD0)
+#define CLASS_2_6208592049E02849__CTOR_OFFSET UNITYSDK_OFFSET(0x1C116AC0)
 
-inline static constexpr unsigned int Class_2_6208592049E02849_TypeDefinitionIndex = 34783;
+inline static constexpr unsigned int Class_2_6208592049E02849_TypeDefinitionIndex = 35644;
 
 class Class_2_6208592049E02849 : public ::Class_1_B55037134F9E6688
 {
 public:
-	::RPG::GameCore::DiceCombatTaskConfig_MarkBossForceChangePhaseFlag* Field_2_0; // 0x18
-	::Class_2_48488E8DBD9F6BCE* Field_2_1; // 0x20
+	::Class_2_48488E8DBD9F6BCE* EEFMDEHLLFI; // 0x18
+	::RPG::GameCore::DiceCombatTaskConfig_MarkBossForceChangePhaseFlag* IGHAHBNLIJA; // 0x20
 
 	::System::Void _ctor(::RPG::GameCore::DiceCombatTaskConfig_MarkBossForceChangePhaseFlag* a1, ::Class_2_48488E8DBD9F6BCE* a2)
 	{

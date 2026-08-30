@@ -1,26 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_CA217ABF4E3B4F3F.h"
+#include "unitysdk/Class_1_34917908B7833130.h"
 #include "unitysdk/RPG/Client/PhainonPowerNodeState.h"
 
 namespace System { class String; }
 namespace UnityEngine { class Animation; }
 
-#define CLASS_2_8F55C272ACEB44DF_METHOD_2_14045882BC5C6CA9_OFFSET UNITYSDK_OFFSET(0x14491140)
-#define CLASS_2_8F55C272ACEB44DF_METHOD_2_64D5261F8382B492_OFFSET UNITYSDK_OFFSET(0x14490FF0)
-#define CLASS_2_8F55C272ACEB44DF__CTOR_OFFSET UNITYSDK_OFFSET(0x14491190)
-#define CLASS_2_8F55C272ACEB44DF__ONBIND_OFFSET UNITYSDK_OFFSET(0x14490F90)
+#define CLASS_2_8F55C272ACEB44DF_METHOD_2_14045882BC5C6CA9_OFFSET UNITYSDK_OFFSET(0x152C2030)
+#define CLASS_2_8F55C272ACEB44DF_METHOD_2_64D5261F8382B492_OFFSET UNITYSDK_OFFSET(0x152C1EE0)
+#define CLASS_2_8F55C272ACEB44DF__CTOR_OFFSET UNITYSDK_OFFSET(0x152C2080)
+#define CLASS_2_8F55C272ACEB44DF__ONBIND_OFFSET UNITYSDK_OFFSET(0x152C1E80)
 
-inline static constexpr unsigned int Class_2_8F55C272ACEB44DF_TypeDefinitionIndex = 68667;
+inline static constexpr unsigned int Class_2_8F55C272ACEB44DF_TypeDefinitionIndex = 71865;
 
-class Class_2_8F55C272ACEB44DF : public ::Class_1_CA217ABF4E3B4F3F
+class Class_2_8F55C272ACEB44DF : public ::Class_1_34917908B7833130
 {
 public:
-	// static const ::System::String* Field_2_0; // 0x0
-	// static const ::System::String* Field_2_1; // 0x0
-	// static const ::System::String* Field_2_2; // 0x0
-	::UnityEngine::Animation* Field_2_3; // 0x60
-	::System::Boolean Field_2_4; // 0x68
+	// static const ::System::String* FBJEELGJKLK; // 0x0
+	// static const ::System::String* IJHFOIAGGDI; // 0x0
+	// static const ::System::String* PFBDHNPIBOH; // 0x0
+	::UnityEngine::Animation* JPHOOFFIAAH; // 0x60
+	::System::Boolean IAPJFCPEOBL; // 0x68
 
 	::System::Void _ctor()
 	{

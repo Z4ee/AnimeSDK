@@ -7,12 +7,12 @@ namespace System { class String; }
 namespace System { class Type; }
 namespace UnityEngine { class Component; }
 
-#define RPG_CLIENT_TUTORIALGUIDEVIEWNODE_GETCOMPONENTTYPE_OFFSET UNITYSDK_OFFSET(0xD766B50)
-#define RPG_CLIENT_TUTORIALGUIDEVIEWNODE__CTOR_OFFSET UNITYSDK_OFFSET(0xD766B40)
+#define RPG_CLIENT_TUTORIALGUIDEVIEWNODE_GETCOMPONENTTYPE_OFFSET UNITYSDK_OFFSET(0xE300EE0)
+#define RPG_CLIENT_TUTORIALGUIDEVIEWNODE__CTOR_OFFSET UNITYSDK_OFFSET(0xE300ED0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TutorialGuideViewNode_TypeDefinitionIndex = 65197;
+	inline static constexpr unsigned int TutorialGuideViewNode_TypeDefinitionIndex = 68205;
 
 	class TutorialGuideViewNode : public ::System::Object
 	{

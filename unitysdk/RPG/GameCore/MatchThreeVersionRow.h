@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MATCHTHREEVERSIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B5D6A10)
-#define RPG_GAMECORE_MATCHTHREEVERSIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5D6BB0)
+#define RPG_GAMECORE_MATCHTHREEVERSIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D2530E0)
+#define RPG_GAMECORE_MATCHTHREEVERSIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D253280)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MatchThreeVersionRow_TypeDefinitionIndex = 11483;
+	inline static constexpr unsigned int MatchThreeVersionRow_TypeDefinitionIndex = 11872;
 
 	class MatchThreeVersionRow : public ::System::Object
 	{

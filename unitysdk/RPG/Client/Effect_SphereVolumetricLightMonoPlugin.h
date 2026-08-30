@@ -17,21 +17,21 @@ namespace UnityEngine { class RenderTexture; }
 namespace UnityEngine { class Texture2D; }
 namespace UnityEngine { class Texture; }
 
-#define RPG_CLIENT_EFFECT_SPHEREVOLUMETRICLIGHTMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xC34AA20)
-#define RPG_CLIENT_EFFECT_SPHEREVOLUMETRICLIGHTMONOPLUGIN_GETVOLUMETRICLIGHTRESULTRT_OFFSET UNITYSDK_OFFSET(0xC34A9A0)
-#define RPG_CLIENT_EFFECT_SPHEREVOLUMETRICLIGHTMONOPLUGIN__CCTOR_OFFSET UNITYSDK_OFFSET(0xC34ACE0)
-#define RPG_CLIENT_EFFECT_SPHEREVOLUMETRICLIGHTMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xC34AA70)
+#define RPG_CLIENT_EFFECT_SPHEREVOLUMETRICLIGHTMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xCE1BEB0)
+#define RPG_CLIENT_EFFECT_SPHEREVOLUMETRICLIGHTMONOPLUGIN_GETVOLUMETRICLIGHTRESULTRT_OFFSET UNITYSDK_OFFSET(0xCE1BE30)
+#define RPG_CLIENT_EFFECT_SPHEREVOLUMETRICLIGHTMONOPLUGIN__CCTOR_OFFSET UNITYSDK_OFFSET(0xCE1C170)
+#define RPG_CLIENT_EFFECT_SPHEREVOLUMETRICLIGHTMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xCE1BF00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_SphereVolumetricLightMonoPlugin_TypeDefinitionIndex = 67400;
+	inline static constexpr unsigned int Effect_SphereVolumetricLightMonoPlugin_TypeDefinitionIndex = 70522;
 
 	class Effect_SphereVolumetricLightMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::Effect_SphereVolumetricLightBehavior*>
 	{
 	public:
-		static ::Il2CppArray<::System::Int32>** StaticGet_Field_7_0()
+		static ::Il2CppArray<::System::Int32>** StaticGet_IAJGOMMCFBE()
 		{
-			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Effect_SphereVolumetricLightMonoPlugin_TypeDefinitionIndex)->GetStaticField(0x68BF0);
+			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Effect_SphereVolumetricLightMonoPlugin_TypeDefinitionIndex)->GetStaticField(0x64AF0);
 		}
 		::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* Blockers; // 0x30
 		::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* Holes; // 0x38
@@ -46,7 +46,7 @@ namespace RPG::Client
 		::UnityEngine::Material* FilterMaterial; // 0x80
 		::System::Int32 RayMarchingSampleCount; // 0x88
 		::System::Int32 Downsample; // 0x8C
-		::Sirenix::OdinInspector::ValueDropdownList_1<::System::Int32>* Field_7_14; // 0x90
+		::Sirenix::OdinInspector::ValueDropdownList_1<::System::Int32>* ECKEDEABAMM; // 0x90
 		::UnityEngine::Color LightColorTint; // 0x98
 		::UnityEngine::Gradient* LightColorGradient; // 0xA8
 		::System::Single TransparentIntensity; // 0xB0

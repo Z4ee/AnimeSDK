@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class DecoupleParentTransform; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_9232B37DAE2B1D73_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB6DEC50)
-#define CLASS_3_9232B37DAE2B1D73__CTOR_OFFSET UNITYSDK_OFFSET(0xB6DEC20)
+#define CLASS_3_9232B37DAE2B1D73_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC147450)
+#define CLASS_3_9232B37DAE2B1D73__CTOR_OFFSET UNITYSDK_OFFSET(0xC147420)
 
-inline static constexpr unsigned int Class_3_9232B37DAE2B1D73_TypeDefinitionIndex = 52504;
+inline static constexpr unsigned int Class_3_9232B37DAE2B1D73_TypeDefinitionIndex = 55201;
 
 class Class_3_9232B37DAE2B1D73 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::DecoupleParentTransform*>
 {

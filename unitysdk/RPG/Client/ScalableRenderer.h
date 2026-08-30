@@ -10,13 +10,13 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Camera; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 
-#define RPG_CLIENT_SCALABLERENDERER_GET_MATERIALPROPERTYBLOCK_OFFSET UNITYSDK_OFFSET(0xD4D3A80)
-#define RPG_CLIENT_SCALABLERENDERER_SET_MATERIALPROPERTYBLOCK_OFFSET UNITYSDK_OFFSET(0xD4D3AF0)
-#define RPG_CLIENT_SCALABLERENDERER__CTOR_OFFSET UNITYSDK_OFFSET(0xD4D3B00)
+#define RPG_CLIENT_SCALABLERENDERER_GET_MATERIALPROPERTYBLOCK_OFFSET UNITYSDK_OFFSET(0xE058BD0)
+#define RPG_CLIENT_SCALABLERENDERER_SET_MATERIALPROPERTYBLOCK_OFFSET UNITYSDK_OFFSET(0xE058C40)
+#define RPG_CLIENT_SCALABLERENDERER__CTOR_OFFSET UNITYSDK_OFFSET(0xE058C50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ScalableRenderer_TypeDefinitionIndex = 67153;
+	inline static constexpr unsigned int ScalableRenderer_TypeDefinitionIndex = 70272;
 
 	class ScalableRenderer : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::ScalableRendererBehavior*>
 	{
@@ -26,7 +26,7 @@ namespace RPG::Client
 		::UnityEngine::Rendering::ShadowCastingMode CastShadows; // 0x50
 		::System::Boolean ReceiveShadows; // 0x54
 		::UnityEngine::Camera* Camera; // 0x58
-		::UnityEngine::MaterialPropertyBlock* Field_7_5; // 0x60
+		::UnityEngine::MaterialPropertyBlock* IDGFNFGGDOL; // 0x60
 
 		::System::Void _ctor()
 		{

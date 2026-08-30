@@ -6,13 +6,13 @@ namespace HoudiniEngineUnity { class Test_Gradient; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Gradient; }
 
-#define HOUDINIENGINEUNITY_TEST_GRADIENT_EXTENSIONS_TOTESTOBJECT_1_OFFSET UNITYSDK_OFFSET(0x199239F0)
-#define HOUDINIENGINEUNITY_TEST_GRADIENT_EXTENSIONS_TOTESTOBJECT_2_OFFSET UNITYSDK_OFFSET(0x19923B10)
-#define HOUDINIENGINEUNITY_TEST_GRADIENT_EXTENSIONS_TOTESTOBJECT_OFFSET UNITYSDK_OFFSET(0x199239B0)
+#define HOUDINIENGINEUNITY_TEST_GRADIENT_EXTENSIONS_TOTESTOBJECT_1_OFFSET UNITYSDK_OFFSET(0x1B4AEC40)
+#define HOUDINIENGINEUNITY_TEST_GRADIENT_EXTENSIONS_TOTESTOBJECT_2_OFFSET UNITYSDK_OFFSET(0x1B4AED60)
+#define HOUDINIENGINEUNITY_TEST_GRADIENT_EXTENSIONS_TOTESTOBJECT_OFFSET UNITYSDK_OFFSET(0x1B4AEC00)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int Test_Gradient_Extensions_TypeDefinitionIndex = 38590;
+	inline static constexpr unsigned int Test_Gradient_Extensions_TypeDefinitionIndex = 39449;
 
 	class Test_Gradient_Extensions : public ::System::Object
 	{

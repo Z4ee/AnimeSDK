@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2FILTER__CTOR_OFFSET UNITYSDK_OFFSET(0x27340)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2FILTER__CTOR_OFFSET UNITYSDK_OFFSET(0x27330)
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2Filter_TypeDefinitionIndex = 35119;
+	inline static constexpr unsigned int B2Filter_TypeDefinitionIndex = 35980;
 
 	struct alignas(8) B2Filter
 	{

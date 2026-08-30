@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class MultipleDropUsedData; }
 
-#define RPG_CLIENT_FARMBATTLERESULTINFO___C__DISPLAYCLASS2_0__ADDBATTLEMULTIPLEDROP_B__0_OFFSET UNITYSDK_OFFSET(0xC43F1E0)
-#define RPG_CLIENT_FARMBATTLERESULTINFO___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC43F0A0)
+#define RPG_CLIENT_FARMBATTLERESULTINFO___C__DISPLAYCLASS2_0__ADDBATTLEMULTIPLEDROP_B__0_OFFSET UNITYSDK_OFFSET(0xCF24DB0)
+#define RPG_CLIENT_FARMBATTLERESULTINFO___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCF24C70)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FarmBattleResultInfo___c__DisplayClass2_0_TypeDefinitionIndex = 61063;
+	inline static constexpr unsigned int FarmBattleResultInfo___c__DisplayClass2_0_TypeDefinitionIndex = 64044;
 
 	class FarmBattleResultInfo___c__DisplayClass2_0 : public ::System::Object
 	{

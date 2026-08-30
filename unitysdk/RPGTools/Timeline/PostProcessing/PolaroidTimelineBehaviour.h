@@ -8,12 +8,12 @@
 namespace RPG::CustomRP { class RPGPolaroid; }
 namespace System { class Object; }
 
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_POLAROIDTIMELINEBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xDD078A0)
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_POLAROIDTIMELINEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xDD08000)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_POLAROIDTIMELINEBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xE8D1890)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_POLAROIDTIMELINEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xE8D1FF0)
 
 namespace RPGTools::Timeline::PostProcessing
 {
-	inline static constexpr unsigned int PolaroidTimelineBehaviour_TypeDefinitionIndex = 46802;
+	inline static constexpr unsigned int PolaroidTimelineBehaviour_TypeDefinitionIndex = 49048;
 
 	class PolaroidTimelineBehaviour : public ::RPGTools::Timeline::PostProcessing::BasePlayableBehaviour_1<::RPG::CustomRP::RPGPolaroid*>
 	{

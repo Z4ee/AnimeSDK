@@ -4,7 +4,7 @@
 
 namespace System { class String; }
 
-inline static constexpr unsigned int Class_1_BE097CDA27AD83B1_PSODownloadResponse_Status_TypeDefinitionIndex = 45618;
+inline static constexpr unsigned int Class_1_BE097CDA27AD83B1_PSODownloadResponse_Status_TypeDefinitionIndex = 47869;
 
 struct alignas(8) Class_1_BE097CDA27AD83B1_PSODownloadResponse_Status
 {

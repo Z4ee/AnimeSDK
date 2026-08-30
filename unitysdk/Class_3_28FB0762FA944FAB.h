@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TriggerEntityEventV2; }
 
-#define CLASS_3_28FB0762FA944FAB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB1125C0)
-#define CLASS_3_28FB0762FA944FAB__CTOR_OFFSET UNITYSDK_OFFSET(0xB112590)
+#define CLASS_3_28FB0762FA944FAB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBA93AA0)
+#define CLASS_3_28FB0762FA944FAB__CTOR_OFFSET UNITYSDK_OFFSET(0xBA93A70)
 
-inline static constexpr unsigned int Class_3_28FB0762FA944FAB_TypeDefinitionIndex = 50137;
+inline static constexpr unsigned int Class_3_28FB0762FA944FAB_TypeDefinitionIndex = 52799;
 
 class Class_3_28FB0762FA944FAB : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::TriggerEntityEventV2*>
 {

@@ -8,22 +8,22 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class Stack_1; }
 template <typename T> class Class_1_64C1E63642C4A2DF;
 
-#define CLASS_1_D257E23AA91A5931_METHOD_1_05D4DB44B105F122_OFFSET UNITYSDK_OFFSET(0x1BB0F590)
-#define CLASS_1_D257E23AA91A5931_METHOD_1_C8F236EDA5771098_OFFSET UNITYSDK_OFFSET(0x1BB0F4C0)
-#define CLASS_1_D257E23AA91A5931_METHOD_1_CE3CCF0C244B069F_OFFSET UNITYSDK_OFFSET(0x1BB1B010)
-#define CLASS_1_D257E23AA91A5931__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB1C3A0)
+#define CLASS_1_D257E23AA91A5931_METHOD_1_05D4DB44B105F122_OFFSET UNITYSDK_OFFSET(0x1D79B720)
+#define CLASS_1_D257E23AA91A5931_METHOD_1_C8F236EDA5771098_OFFSET UNITYSDK_OFFSET(0x1D79B650)
+#define CLASS_1_D257E23AA91A5931_METHOD_1_CE3CCF0C244B069F_OFFSET UNITYSDK_OFFSET(0x1D7A74D0)
+#define CLASS_1_D257E23AA91A5931__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7A88A0)
 
-inline static constexpr unsigned int Class_1_D257E23AA91A5931_TypeDefinitionIndex = 41312;
+inline static constexpr unsigned int Class_1_D257E23AA91A5931_TypeDefinitionIndex = 42272;
 
 class Class_1_D257E23AA91A5931 : public ::System::Object
 {
 public:
-	static ::Class_1_D257E23AA91A5931** StaticGet_Field_1_0()
+	static ::Class_1_D257E23AA91A5931** StaticGet_FLMODBLFAGD()
 	{
-		return (::Class_1_D257E23AA91A5931**)Il2CppClass::FromTypeDefinitionIndex(Class_1_D257E23AA91A5931_TypeDefinitionIndex)->GetStaticField(0x49DD0);
+		return (::Class_1_D257E23AA91A5931**)Il2CppClass::FromTypeDefinitionIndex(Class_1_D257E23AA91A5931_TypeDefinitionIndex)->GetStaticField(0x485F0);
 	}
-	::System::Collections::Generic::Dictionary_2<::System::UInt16, ::System::Collections::Generic::Stack_1<::Google::Protobuf::IMessage*>*>* Field_1_1; // 0x10
-	::Class_1_64C1E63642C4A2DF<::RPG::Client::NetPacket*>* Field_1_2; // 0x18
+	::Class_1_64C1E63642C4A2DF<::RPG::Client::NetPacket*>* OPKAFIEEJCK; // 0x10
+	::System::Collections::Generic::Dictionary_2<::System::UInt16, ::System::Collections::Generic::Stack_1<::Google::Protobuf::IMessage*>*>* EMKEOAAMKOH; // 0x18
 
 	::System::Void _ctor()
 	{

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AdvSetTriggerSkipFakeAvatar; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_7CE8B0C914ADA666_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB2EE4F0)
-#define CLASS_3_7CE8B0C914ADA666__CTOR_OFFSET UNITYSDK_OFFSET(0xB2EE4C0)
+#define CLASS_3_7CE8B0C914ADA666_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBCD61C0)
+#define CLASS_3_7CE8B0C914ADA666__CTOR_OFFSET UNITYSDK_OFFSET(0xBCD6190)
 
-inline static constexpr unsigned int Class_3_7CE8B0C914ADA666_TypeDefinitionIndex = 50116;
+inline static constexpr unsigned int Class_3_7CE8B0C914ADA666_TypeDefinitionIndex = 52778;
 
 class Class_3_7CE8B0C914ADA666 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AdvSetTriggerSkipFakeAvatar*>
 {

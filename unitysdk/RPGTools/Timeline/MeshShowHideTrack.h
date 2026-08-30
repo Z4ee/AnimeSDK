@@ -7,12 +7,12 @@
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_MESHSHOWHIDETRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xDCEEDA0)
-#define RPGTOOLS_TIMELINE_MESHSHOWHIDETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xDCEEEE0)
+#define RPGTOOLS_TIMELINE_MESHSHOWHIDETRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE86FD60)
+#define RPGTOOLS_TIMELINE_MESHSHOWHIDETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xE86FEA0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int MeshShowHideTrack_TypeDefinitionIndex = 46412;
+	inline static constexpr unsigned int MeshShowHideTrack_TypeDefinitionIndex = 48647;
 
 	class MeshShowHideTrack : public ::RPGTools::Timeline::CharacterTrack
 	{

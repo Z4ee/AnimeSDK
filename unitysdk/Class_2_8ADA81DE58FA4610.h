@@ -6,15 +6,15 @@ class Class_2_21AD365C113DC484;
 class Class_2_F3C45F1FC7349B6E;
 namespace RPG::GameCore { class CakeRaceActionChangeCurWaitTime; }
 
-#define CLASS_2_8ADA81DE58FA4610_METHOD_2_EE5CEECBC5DF3B6C_OFFSET UNITYSDK_OFFSET(0x1A4B10B0)
-#define CLASS_2_8ADA81DE58FA4610__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4B10A0)
+#define CLASS_2_8ADA81DE58FA4610_METHOD_2_EE5CEECBC5DF3B6C_OFFSET UNITYSDK_OFFSET(0x1C0C0B70)
+#define CLASS_2_8ADA81DE58FA4610__CTOR_OFFSET UNITYSDK_OFFSET(0x1C0C0B60)
 
-inline static constexpr unsigned int Class_2_8ADA81DE58FA4610_TypeDefinitionIndex = 35832;
+inline static constexpr unsigned int Class_2_8ADA81DE58FA4610_TypeDefinitionIndex = 36693;
 
 class Class_2_8ADA81DE58FA4610 : public ::Class_1_E559374AC4E5AD13
 {
 public:
-	::RPG::GameCore::CakeRaceActionChangeCurWaitTime* Field_2_0; // 0x10
+	::RPG::GameCore::CakeRaceActionChangeCurWaitTime* LIEOLDKGPEE; // 0x10
 
 	::System::Void _ctor(::RPG::GameCore::CakeRaceActionChangeCurWaitTime* a1)
 	{

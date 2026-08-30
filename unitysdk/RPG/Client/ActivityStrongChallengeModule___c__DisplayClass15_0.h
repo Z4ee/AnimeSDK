@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class BattleGamePhase; }
 
-#define RPG_CLIENT_ACTIVITYSTRONGCHALLENGEMODULE___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBC6BB90)
-#define RPG_CLIENT_ACTIVITYSTRONGCHALLENGEMODULE___C__DISPLAYCLASS15_0___OPENRESULTPAGE_B__0_OFFSET UNITYSDK_OFFSET(0xBC6C880)
+#define RPG_CLIENT_ACTIVITYSTRONGCHALLENGEMODULE___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC68B690)
+#define RPG_CLIENT_ACTIVITYSTRONGCHALLENGEMODULE___C__DISPLAYCLASS15_0___OPENRESULTPAGE_B__0_OFFSET UNITYSDK_OFFSET(0xC68C380)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityStrongChallengeModule___c__DisplayClass15_0_TypeDefinitionIndex = 59162;
+	inline static constexpr unsigned int ActivityStrongChallengeModule___c__DisplayClass15_0_TypeDefinitionIndex = 61997;
 
 	class ActivityStrongChallengeModule___c__DisplayClass15_0 : public ::System::Object
 	{

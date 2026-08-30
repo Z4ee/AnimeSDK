@@ -6,16 +6,16 @@ namespace RPG::GameCore { class PropComponent; }
 namespace RPG::GameCore { class PropDestructImmediately; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_66B34B621E81182E_DISPOSE_OFFSET UNITYSDK_OFFSET(0x147D3B60)
-#define CLASS_3_66B34B621E81182E_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x147D3BB0)
-#define CLASS_3_66B34B621E81182E__CTOR_OFFSET UNITYSDK_OFFSET(0x147D3B30)
+#define CLASS_3_66B34B621E81182E_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1564E570)
+#define CLASS_3_66B34B621E81182E_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1564E5C0)
+#define CLASS_3_66B34B621E81182E__CTOR_OFFSET UNITYSDK_OFFSET(0x1564E540)
 
-inline static constexpr unsigned int Class_3_66B34B621E81182E_TypeDefinitionIndex = 50747;
+inline static constexpr unsigned int Class_3_66B34B621E81182E_TypeDefinitionIndex = 53429;
 
 class Class_3_66B34B621E81182E : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::PropDestructImmediately*>
 {
 public:
-	::RPG::GameCore::PropComponent* Field_3_0; // 0x28
+	::RPG::GameCore::PropComponent* NKILIBDMOMC; // 0x28
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::PropDestructImmediately* a2)
 	{

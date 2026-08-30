@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int AudioTriggerMode_TypeDefinitionIndex = 45726;
+inline static constexpr unsigned int AudioTriggerMode_TypeDefinitionIndex = 47978;
 
 enum class AudioTriggerMode : ::System::Int32
 {

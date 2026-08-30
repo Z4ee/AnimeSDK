@@ -5,19 +5,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ACTIVITYHIPPLENSENTENCEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B11D610)
-#define RPG_GAMECORE_ACTIVITYHIPPLENSENTENCEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B11D820)
+#define RPG_GAMECORE_ACTIVITYHIPPLENSENTENCEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CD93D10)
+#define RPG_GAMECORE_ACTIVITYHIPPLENSENTENCEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD93F20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityHipplenSentenceRow_TypeDefinitionIndex = 11241;
+	inline static constexpr unsigned int ActivityHipplenSentenceRow_TypeDefinitionIndex = 11630;
 
 	class ActivityHipplenSentenceRow : public ::System::Object
 	{
 	public:
-		::RPG::Client::TextID TalkSentenceName; // 0x10
-		::System::UInt32 ID; // 0x20
-		::RPG::Client::TextID SentenceDesc; // 0x28
+		::System::UInt32 ID; // 0x10
+		::RPG::Client::TextID SentenceDesc; // 0x18
+		::RPG::Client::TextID TalkSentenceName; // 0x28
 
 		::System::Void _ctor()
 		{

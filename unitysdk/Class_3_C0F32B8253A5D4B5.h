@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AdvSetColliderGroupState; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_C0F32B8253A5D4B5_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB62A120)
-#define CLASS_3_C0F32B8253A5D4B5__CTOR_OFFSET UNITYSDK_OFFSET(0xB62A0F0)
+#define CLASS_3_C0F32B8253A5D4B5_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC02D9F0)
+#define CLASS_3_C0F32B8253A5D4B5__CTOR_OFFSET UNITYSDK_OFFSET(0xC02D9C0)
 
-inline static constexpr unsigned int Class_3_C0F32B8253A5D4B5_TypeDefinitionIndex = 50104;
+inline static constexpr unsigned int Class_3_C0F32B8253A5D4B5_TypeDefinitionIndex = 52766;
 
 class Class_3_C0F32B8253A5D4B5 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AdvSetColliderGroupState*>
 {

@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace System { class Type; }
 
-#define SYSTEM_DIAGNOSTICS_DEBUGGERTYPEPROXYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0BE840)
+#define SYSTEM_DIAGNOSTICS_DEBUGGERTYPEPROXYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BCC5F20)
 
 namespace System::Diagnostics
 {
-	inline static constexpr unsigned int DebuggerTypeProxyAttribute_TypeDefinitionIndex = 1573;
+	inline static constexpr unsigned int DebuggerTypeProxyAttribute_TypeDefinitionIndex = 1580;
 
 	class DebuggerTypeProxyAttribute : public ::System::Attribute
 	{

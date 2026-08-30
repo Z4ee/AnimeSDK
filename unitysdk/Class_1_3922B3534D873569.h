@@ -7,17 +7,17 @@ class Class_1_64C09260458CEE11;
 class Class_1_F0F5FC8CD22F7E83;
 namespace System { class String; }
 
-#define CLASS_1_3922B3534D873569_METHOD_1_3FEE811FDAA82A3F_OFFSET UNITYSDK_OFFSET(0x1A390FF0)
-#define CLASS_1_3922B3534D873569_METHOD_1_8C76006A0AF4A746_OFFSET UNITYSDK_OFFSET(0x1A391340)
-#define CLASS_1_3922B3534D873569__CTOR_OFFSET UNITYSDK_OFFSET(0x1A391580)
+#define CLASS_1_3922B3534D873569_METHOD_1_3FEE811FDAA82A3F_OFFSET UNITYSDK_OFFSET(0x1BF9F690)
+#define CLASS_1_3922B3534D873569_METHOD_1_8C76006A0AF4A746_OFFSET UNITYSDK_OFFSET(0x1BF9F9E0)
+#define CLASS_1_3922B3534D873569__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF9FC20)
 
-inline static constexpr unsigned int Class_1_3922B3534D873569_TypeDefinitionIndex = 39340;
+inline static constexpr unsigned int Class_1_3922B3534D873569_TypeDefinitionIndex = 40213;
 
 class Class_1_3922B3534D873569 : public ::System::Object
 {
 public:
-	// static const ::System::UInt16 Field_1_0 = 0x2; // 0x0
-	// static const ::System::String* Field_1_1; // 0x0
+	// static const ::System::UInt16 ABNPHONMCEP = 0x2; // 0x0
+	// static const ::System::String* GJPNNCFPMGK; // 0x0
 
 	::System::Void _ctor()
 	{

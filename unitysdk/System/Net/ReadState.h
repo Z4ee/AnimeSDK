@@ -3,7 +3,7 @@
 
 namespace System::Net
 {
-	inline static constexpr unsigned int ReadState_TypeDefinitionIndex = 2874;
+	inline static constexpr unsigned int ReadState_TypeDefinitionIndex = 2881;
 
 	enum class ReadState : ::System::Int32
 	{

@@ -5,22 +5,22 @@
 namespace RPG::Client::RelicSmartSuit { class RelicSmartSuitResultRelicInfo; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define CLASS_1_9E48D8F7A746A218___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xBA2AAE0)
-#define CLASS_1_9E48D8F7A746A218___C__CTOR_OFFSET UNITYSDK_OFFSET(0xBA2AB20)
-#define CLASS_1_9E48D8F7A746A218___C___TRYUPDATECACHEDPLANRESULTRELICUID_B__14_0_OFFSET UNITYSDK_OFFSET(0xBA2AB30)
+#define CLASS_1_9E48D8F7A746A218___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC44BE30)
+#define CLASS_1_9E48D8F7A746A218___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC44BE70)
+#define CLASS_1_9E48D8F7A746A218___C___TRYUPDATECACHEDPLANRESULTRELICUID_B__14_0_OFFSET UNITYSDK_OFFSET(0xC44BE80)
 
-inline static constexpr unsigned int Class_1_9E48D8F7A746A218___c_TypeDefinitionIndex = 70997;
+inline static constexpr unsigned int Class_1_9E48D8F7A746A218___c_TypeDefinitionIndex = 74296;
 
 class Class_1_9E48D8F7A746A218___c : public ::System::Object
 {
 public:
-	static ::System::Func_2<::RPG::Client::RelicSmartSuit::RelicSmartSuitResultRelicInfo*, ::System::UInt32>** StaticGet___9__14_0()
-	{
-		return (::System::Func_2<::RPG::Client::RelicSmartSuit::RelicSmartSuitResultRelicInfo*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_9E48D8F7A746A218___c_TypeDefinitionIndex)->GetStaticField(0x2F590);
-	}
 	static ::Class_1_9E48D8F7A746A218___c** StaticGet___9()
 	{
-		return (::Class_1_9E48D8F7A746A218___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_9E48D8F7A746A218___c_TypeDefinitionIndex)->GetStaticField(0x2F598);
+		return (::Class_1_9E48D8F7A746A218___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_9E48D8F7A746A218___c_TypeDefinitionIndex)->GetStaticField(0x5D020);
+	}
+	static ::System::Func_2<::RPG::Client::RelicSmartSuit::RelicSmartSuitResultRelicInfo*, ::System::UInt32>** StaticGet___9__14_0()
+	{
+		return (::System::Func_2<::RPG::Client::RelicSmartSuit::RelicSmartSuitResultRelicInfo*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_9E48D8F7A746A218___c_TypeDefinitionIndex)->GetStaticField(0x5D028);
 	}
 
 	static ::System::Void _cctor()

@@ -10,12 +10,12 @@ namespace RPG::GameCore { class HipplenMiniGameLoadCharacter; }
 namespace RPG::GameCore { class HipplenPickingGoodsNPCConfig; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_HIPPLENPICKINGGOODSMINIGAMECONFIG_METHOD_2_6B10664144C53C2B_OFFSET UNITYSDK_OFFSET(0x1B51A320)
-#define RPG_GAMECORE_HIPPLENPICKINGGOODSMINIGAMECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B51A690)
+#define RPG_GAMECORE_HIPPLENPICKINGGOODSMINIGAMECONFIG_METHOD_2_6B10664144C53C2B_OFFSET UNITYSDK_OFFSET(0x1D1938C0)
+#define RPG_GAMECORE_HIPPLENPICKINGGOODSMINIGAMECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D193C30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HipplenPickingGoodsMiniGameConfig_TypeDefinitionIndex = 16139;
+	inline static constexpr unsigned int HipplenPickingGoodsMiniGameConfig_TypeDefinitionIndex = 16623;
 
 	class HipplenPickingGoodsMiniGameConfig : public ::RPG::GameCore::JsonConfig
 	{

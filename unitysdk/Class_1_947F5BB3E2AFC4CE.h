@@ -6,19 +6,19 @@ namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TrackAsset; }
 
-#define CLASS_1_947F5BB3E2AFC4CE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1442B890)
-#define CLASS_1_947F5BB3E2AFC4CE__CTOR_OFFSET UNITYSDK_OFFSET(0x1442B880)
+#define CLASS_1_947F5BB3E2AFC4CE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x15252810)
+#define CLASS_1_947F5BB3E2AFC4CE__CTOR_OFFSET UNITYSDK_OFFSET(0x15252800)
 
-inline static constexpr unsigned int Class_1_947F5BB3E2AFC4CE_TypeDefinitionIndex = 46709;
+inline static constexpr unsigned int Class_1_947F5BB3E2AFC4CE_TypeDefinitionIndex = 48955;
 
 class Class_1_947F5BB3E2AFC4CE : public ::System::Object
 {
 public:
-	::System::String* Field_1_0; // 0x10
-	::System::String* Field_1_1; // 0x18
-	::UnityEngine::Timeline::TrackAsset* Field_1_2; // 0x20
-	::UnityEngine::GameObject* Field_1_3; // 0x28
-	::UnityEngine::GameObject* Field_1_4; // 0x30
+	::UnityEngine::Timeline::TrackAsset* CIBMFKKGFGN; // 0x10
+	::System::String* KNAPCKONKFE; // 0x18
+	::System::String* NLCHJCDAKCB; // 0x20
+	::UnityEngine::GameObject* BNOMDLCNPMN; // 0x28
+	::UnityEngine::GameObject* CGMNHAEFLEP; // 0x30
 
 	::System::Void _ctor(::System::String* a1)
 	{

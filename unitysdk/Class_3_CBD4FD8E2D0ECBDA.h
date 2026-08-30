@@ -5,17 +5,17 @@
 namespace RPG::GameCore { class GravityBallPuzzleLastFinishCondition; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_CBD4FD8E2D0ECBDA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1197AB30)
-#define CLASS_3_CBD4FD8E2D0ECBDA__CTOR_OFFSET UNITYSDK_OFFSET(0x1197AB00)
+#define CLASS_3_CBD4FD8E2D0ECBDA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x128563F0)
+#define CLASS_3_CBD4FD8E2D0ECBDA__CTOR_OFFSET UNITYSDK_OFFSET(0x128563C0)
 
-inline static constexpr unsigned int Class_3_CBD4FD8E2D0ECBDA_TypeDefinitionIndex = 50519;
+inline static constexpr unsigned int Class_3_CBD4FD8E2D0ECBDA_TypeDefinitionIndex = 53187;
 
 class Class_3_CBD4FD8E2D0ECBDA : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::GravityBallPuzzleLastFinishCondition*>
 {
 public:
-	static ::System::Int16* StaticGet_Field_3_0()
+	static ::System::Int16* StaticGet_NBDIGJLGOFA()
 	{
-		return (::System::Int16*)Il2CppClass::FromTypeDefinitionIndex(Class_3_CBD4FD8E2D0ECBDA_TypeDefinitionIndex)->GetStaticField(0x3210);
+		return (::System::Int16*)Il2CppClass::FromTypeDefinitionIndex(Class_3_CBD4FD8E2D0ECBDA_TypeDefinitionIndex)->GetStaticField(0x12870);
 	}
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::GravityBallPuzzleLastFinishCondition* a2)

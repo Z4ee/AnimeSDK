@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetEffectAnimatorTrigger; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_F4188061251DC3EB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x11FBA950)
-#define CLASS_3_F4188061251DC3EB__CTOR_OFFSET UNITYSDK_OFFSET(0x11FBA920)
+#define CLASS_3_F4188061251DC3EB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x12EA3470)
+#define CLASS_3_F4188061251DC3EB__CTOR_OFFSET UNITYSDK_OFFSET(0x12EA3440)
 
-inline static constexpr unsigned int Class_3_F4188061251DC3EB_TypeDefinitionIndex = 52977;
+inline static constexpr unsigned int Class_3_F4188061251DC3EB_TypeDefinitionIndex = 55682;
 
 class Class_3_F4188061251DC3EB : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetEffectAnimatorTrigger*>
 {

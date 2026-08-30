@@ -12,35 +12,35 @@ namespace UnityEngine::Pooled { template <typename T> class PooledList_1; }
 namespace UnityEngine::UI { class Image; }
 namespace UnityEngine::UI { class VertexHelper; }
 
-#define MINIMAPCLIPPER_GET_IMAGE_OFFSET UNITYSDK_OFFSET(0xB1EC9C0)
-#define MINIMAPCLIPPER_GET_MATERIALFORRENDERING_OFFSET UNITYSDK_OFFSET(0xB1ECB20)
-#define MINIMAPCLIPPER_GET_RECTTRANSFORM_OFFSET UNITYSDK_OFFSET(0xB1ECA70)
-#define MINIMAPCLIPPER_METHOD_7_3D57569EEAF613B6_OFFSET UNITYSDK_OFFSET(0xB1ED250)
-#define MINIMAPCLIPPER_METHOD_7_81916C6E7D6F5FBF_OFFSET UNITYSDK_OFFSET(0xB1EDDB0)
-#define MINIMAPCLIPPER_MODIFYMESH_1_OFFSET UNITYSDK_OFFSET(0xB1EDC50)
-#define MINIMAPCLIPPER_MODIFYMESH_OFFSET UNITYSDK_OFFSET(0xB1EDC00)
-#define MINIMAPCLIPPER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xB1EE740)
-#define MINIMAPCLIPPER_ONENABLE_OFFSET UNITYSDK_OFFSET(0xB1EE5E0)
-#define MINIMAPCLIPPER_SETCLIPSIZE_OFFSET UNITYSDK_OFFSET(0xB1EE430)
-#define MINIMAPCLIPPER_SETUVOFFSET_OFFSET UNITYSDK_OFFSET(0xB1ED0A0)
-#define MINIMAPCLIPPER_SETUVSCALE_OFFSET UNITYSDK_OFFSET(0xB1EDB70)
-#define MINIMAPCLIPPER__CTOR_OFFSET UNITYSDK_OFFSET(0xB1EE7A0)
+#define MINIMAPCLIPPER_GET_IMAGE_OFFSET UNITYSDK_OFFSET(0xBBC0AD0)
+#define MINIMAPCLIPPER_GET_MATERIALFORRENDERING_OFFSET UNITYSDK_OFFSET(0xBBC0C70)
+#define MINIMAPCLIPPER_GET_RECTTRANSFORM_OFFSET UNITYSDK_OFFSET(0xBBC0BA0)
+#define MINIMAPCLIPPER_METHOD_7_B5564E458E796F84_OFFSET UNITYSDK_OFFSET(0xBBC14E0)
+#define MINIMAPCLIPPER_METHOD_7_D4CE7D20EE7776D6_OFFSET UNITYSDK_OFFSET(0xBBC2220)
+#define MINIMAPCLIPPER_MODIFYMESH_1_OFFSET UNITYSDK_OFFSET(0xBBC20C0)
+#define MINIMAPCLIPPER_MODIFYMESH_OFFSET UNITYSDK_OFFSET(0xBBC2070)
+#define MINIMAPCLIPPER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xBBC2C20)
+#define MINIMAPCLIPPER_ONENABLE_OFFSET UNITYSDK_OFFSET(0xBBC2AA0)
+#define MINIMAPCLIPPER_SETCLIPSIZE_OFFSET UNITYSDK_OFFSET(0xBBC28C0)
+#define MINIMAPCLIPPER_SETUVOFFSET_OFFSET UNITYSDK_OFFSET(0xBBC1300)
+#define MINIMAPCLIPPER_SETUVSCALE_OFFSET UNITYSDK_OFFSET(0xBBC1FE0)
+#define MINIMAPCLIPPER__CTOR_OFFSET UNITYSDK_OFFSET(0xBBC2C80)
 
-inline static constexpr unsigned int MiniMapClipper_TypeDefinitionIndex = 45781;
+inline static constexpr unsigned int MiniMapClipper_TypeDefinitionIndex = 48033;
 
 class MiniMapClipper : public ::UnityEngine::UI::BaseMeshEffect
 {
 public:
-	::UnityEngine::UI::Image* Field_7_0; // 0x20
-	::UnityEngine::RectTransform* Field_7_1; // 0x28
-	::UnityEngine::Material* Field_7_2; // 0x30
-	::UnityEngine::Sprite* Field_7_3; // 0x38
-	::System::Single Field_7_4; // 0x40
-	::System::Single Field_7_5; // 0x44
-	::UnityEngine::Vector2 Field_7_6; // 0x48
-	::UnityEngine::Vector2 Field_7_7; // 0x50
-	::UnityEngine::Vector2 Field_7_8; // 0x58
-	::UnityEngine::Material* Field_7_9; // 0x60
+	::UnityEngine::UI::Image* JGPEHEDMCMJ; // 0x20
+	::UnityEngine::RectTransform* IGLNACMFMHF; // 0x28
+	::UnityEngine::Material* KLAEOKPPDHD; // 0x30
+	::UnityEngine::Sprite* GBGDBIMOPHI; // 0x38
+	::System::Single GBFMPGJDAKK; // 0x40
+	::System::Single NIKOGMPIDOA; // 0x44
+	::UnityEngine::Vector2 DKDJPNJPJEI; // 0x48
+	::UnityEngine::Vector2 PDACJMEPANO; // 0x50
+	::UnityEngine::Vector2 GDGMJELCGII; // 0x58
+	::UnityEngine::Material* FAALBBDOFIL; // 0x60
 
 	::System::Void _ctor()
 	{
@@ -92,9 +92,9 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MINIMAPCLIPPER_ONENABLE_OFFSET))(this);
 	}
 
-	::System::Void Method_7_81916C6E7D6F5FBF(::UnityEngine::UI::VertexHelper* a1, ::UnityEngine::Pooled::PooledList_1<::UnityEngine::UIVertex>* a2, ::System::Single a3, ::System::Single a4)
+	::System::Void Method_7_D4CE7D20EE7776D6(::UnityEngine::UI::VertexHelper* a1, ::UnityEngine::Pooled::PooledList_1<::UnityEngine::UIVertex>* a2, ::System::Single a3, ::System::Single a4)
 	{
-		return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::VertexHelper*, ::UnityEngine::Pooled::PooledList_1<::UnityEngine::UIVertex>*, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + MINIMAPCLIPPER_METHOD_7_81916C6E7D6F5FBF_OFFSET))(this, a1, a2, a3, a4);
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::VertexHelper*, ::UnityEngine::Pooled::PooledList_1<::UnityEngine::UIVertex>*, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + MINIMAPCLIPPER_METHOD_7_D4CE7D20EE7776D6_OFFSET))(this, a1, a2, a3, a4);
 	}
 
 	::System::Void OnDestroy()
@@ -102,8 +102,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MINIMAPCLIPPER_ONDESTROY_OFFSET))(this);
 	}
 
-	::System::Boolean Method_7_3D57569EEAF613B6()
+	::System::Boolean Method_7_B5564E458E796F84()
 	{
-		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MINIMAPCLIPPER_METHOD_7_3D57569EEAF613B6_OFFSET))(this);
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MINIMAPCLIPPER_METHOD_7_B5564E458E796F84_OFFSET))(this);
 	}
 };

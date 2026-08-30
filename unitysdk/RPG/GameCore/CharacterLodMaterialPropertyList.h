@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class CharacterLodMaterialProperty; }
 
-#define RPG_GAMECORE_CHARACTERLODMATERIALPROPERTYLIST_METHOD_2_796326B6BEF0AEC7_OFFSET UNITYSDK_OFFSET(0x1B31BD40)
-#define RPG_GAMECORE_CHARACTERLODMATERIALPROPERTYLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x1B31BE00)
+#define RPG_GAMECORE_CHARACTERLODMATERIALPROPERTYLIST_METHOD_2_796326B6BEF0AEC7_OFFSET UNITYSDK_OFFSET(0x1CF97D60)
+#define RPG_GAMECORE_CHARACTERLODMATERIALPROPERTYLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF97E20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterLodMaterialPropertyList_TypeDefinitionIndex = 18350;
+	inline static constexpr unsigned int CharacterLodMaterialPropertyList_TypeDefinitionIndex = 18874;
 
 	class CharacterLodMaterialPropertyList : public ::RPG::GameCore::JsonConfig
 	{

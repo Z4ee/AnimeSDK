@@ -4,26 +4,26 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Matrix4x4.h"
 
-#define CINEMACHINE_UPDATETRACKER_UPDATESTATUS_GET_PREFERREDUPDATE_OFFSET UNITYSDK_OFFSET(0x156FF890)
-#define CINEMACHINE_UPDATETRACKER_UPDATESTATUS_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x156FF310)
-#define CINEMACHINE_UPDATETRACKER_UPDATESTATUS_SET_PREFERREDUPDATE_OFFSET UNITYSDK_OFFSET(0x156FF8A0)
-#define CINEMACHINE_UPDATETRACKER_UPDATESTATUS__CTOR_OFFSET UNITYSDK_OFFSET(0x156FF680)
+#define CINEMACHINE_UPDATETRACKER_UPDATESTATUS_GET_PREFERREDUPDATE_OFFSET UNITYSDK_OFFSET(0x16489690)
+#define CINEMACHINE_UPDATETRACKER_UPDATESTATUS_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x16489110)
+#define CINEMACHINE_UPDATETRACKER_UPDATESTATUS_SET_PREFERREDUPDATE_OFFSET UNITYSDK_OFFSET(0x164896A0)
+#define CINEMACHINE_UPDATETRACKER_UPDATESTATUS__CTOR_OFFSET UNITYSDK_OFFSET(0x16489480)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int UpdateTracker_UpdateStatus_TypeDefinitionIndex = 37699;
+	inline static constexpr unsigned int UpdateTracker_UpdateStatus_TypeDefinitionIndex = 38558;
 
 	class UpdateTracker_UpdateStatus : public ::System::Object
 	{
 	public:
 		// static const ::System::Int32 kWindowSize = 0x1E; // 0x0
-		::System::Int32 lastFrameUpdated; // 0x10
-		::UnityEngine::Matrix4x4 lastPos; // 0x14
-		::System::Int32 numWindowFixedUpdateMoves; // 0x54
-		::Cinemachine::UpdateTracker_UpdateClock _PreferredUpdate_k__BackingField; // 0x58
-		::System::Int32 numWindows; // 0x5C
-		::System::Int32 windowStart; // 0x60
-		::System::Int32 numWindowLateUpdateMoves; // 0x64
+		::UnityEngine::Matrix4x4 lastPos; // 0x10
+		::System::Int32 lastFrameUpdated; // 0x50
+		::Cinemachine::UpdateTracker_UpdateClock _PreferredUpdate_k__BackingField; // 0x54
+		::System::Int32 numWindows; // 0x58
+		::System::Int32 numWindowLateUpdateMoves; // 0x5C
+		::System::Int32 numWindowFixedUpdateMoves; // 0x60
+		::System::Int32 windowStart; // 0x64
 
 		::System::Void _ctor(::System::Int32 a1, ::UnityEngine::Matrix4x4 a2)
 		{

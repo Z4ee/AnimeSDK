@@ -7,18 +7,18 @@ class Class_1_637CF5391C15E01B;
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define CLASS_1_69DB8A72C044FA28_METHOD_1_81F3FEDEB8077FC5_OFFSET UNITYSDK_OFFSET(0x1AAF8DC0)
-#define CLASS_1_69DB8A72C044FA28__CTOR_OFFSET UNITYSDK_OFFSET(0x1AAF8F90)
+#define CLASS_1_69DB8A72C044FA28_METHOD_1_81F3FEDEB8077FC5_OFFSET UNITYSDK_OFFSET(0x1C72B560)
+#define CLASS_1_69DB8A72C044FA28__CTOR_OFFSET UNITYSDK_OFFSET(0x1C72B730)
 
-inline static constexpr unsigned int Class_1_69DB8A72C044FA28_TypeDefinitionIndex = 11253;
+inline static constexpr unsigned int Class_1_69DB8A72C044FA28_TypeDefinitionIndex = 11642;
 
 class Class_1_69DB8A72C044FA28 : public ::System::Object
 {
 public:
-	::Il2CppArray<::Class_1_637CF5391C15E01B*>* Field_1_0; // 0x10
-	::System::String* Field_1_1; // 0x18
-	::System::UInt32 Field_1_2; // 0x20
-	::RPG::GameCore::HipplenEffectType Field_1_3; // 0x24
+	::System::String* EJHODPJIFIN; // 0x10
+	::Il2CppArray<::Class_1_637CF5391C15E01B*>* AAIAEKDKMMK; // 0x18
+	::System::UInt32 PHFMCACHFIJ; // 0x20
+	::RPG::GameCore::HipplenEffectType GMPGDEINODK; // 0x24
 
 	::System::Void _ctor()
 	{

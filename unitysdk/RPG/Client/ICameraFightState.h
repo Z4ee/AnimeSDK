@@ -7,7 +7,7 @@ namespace RPG::Client { class CameraFightStateCommonConfig; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ICameraFightState_TypeDefinitionIndex = 66460;
+	inline static constexpr unsigned int ICameraFightState_TypeDefinitionIndex = 69553;
 
 	class ICameraFightState
 	{

@@ -6,12 +6,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_BATTLECOMBOCONFIG_METHOD_2_1D062C20384514FA_OFFSET UNITYSDK_OFFSET(0x1B1F2010)
-#define RPG_GAMECORE_BATTLECOMBOCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1F24D0)
+#define RPG_GAMECORE_BATTLECOMBOCONFIG_METHOD_2_1D062C20384514FA_OFFSET UNITYSDK_OFFSET(0x1CE6CF70)
+#define RPG_GAMECORE_BATTLECOMBOCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE6D430)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleComboConfig_TypeDefinitionIndex = 16427;
+	inline static constexpr unsigned int BattleComboConfig_TypeDefinitionIndex = 16917;
 
 	class BattleComboConfig : public ::RPG::GameCore::JsonConfig
 	{

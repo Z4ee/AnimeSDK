@@ -6,17 +6,17 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class LightningStrikeAreaConfig; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define CLASS_3_EC562651AEE6EC13_METHOD_3_B0B66673456EDDF6_OFFSET UNITYSDK_OFFSET(0x1AD1CF30)
-#define CLASS_3_EC562651AEE6EC13_METHOD_3_C17C5E1EBAECCBCD_OFFSET UNITYSDK_OFFSET(0x1AD1CF70)
-#define CLASS_3_EC562651AEE6EC13__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD1CF60)
+#define CLASS_3_EC562651AEE6EC13_METHOD_3_B0B66673456EDDF6_OFFSET UNITYSDK_OFFSET(0x1C96B5E0)
+#define CLASS_3_EC562651AEE6EC13_METHOD_3_C17C5E1EBAECCBCD_OFFSET UNITYSDK_OFFSET(0x1C96B620)
+#define CLASS_3_EC562651AEE6EC13__CTOR_OFFSET UNITYSDK_OFFSET(0x1C96B610)
 
-inline static constexpr unsigned int Class_3_EC562651AEE6EC13_TypeDefinitionIndex = 20288;
+inline static constexpr unsigned int Class_3_EC562651AEE6EC13_TypeDefinitionIndex = 20838;
 
 class Class_3_EC562651AEE6EC13 : public ::RPG::GameCore::TaskConfig
 {
 public:
-	::RPG::GameCore::TargetEvaluator* Field_3_0; // 0x18
-	::RPG::GameCore::LightningStrikeAreaConfig* Field_3_1; // 0x20
+	::RPG::GameCore::LightningStrikeAreaConfig* BKGNKKLLLNC; // 0x18
+	::RPG::GameCore::TargetEvaluator* EGMDGDCHCOI; // 0x20
 
 	::System::Void _ctor()
 	{

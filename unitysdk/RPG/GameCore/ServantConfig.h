@@ -10,13 +10,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_SERVANTCONFIG_METHOD_3_B889F2F56102372C_OFFSET UNITYSDK_OFFSET(0x1B87E200)
-#define RPG_GAMECORE_SERVANTCONFIG_METHOD_3_FB8141C3AC00DE88_OFFSET UNITYSDK_OFFSET(0x1B87DD90)
-#define RPG_GAMECORE_SERVANTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B87E0F0)
+#define RPG_GAMECORE_SERVANTCONFIG_METHOD_3_B889F2F56102372C_OFFSET UNITYSDK_OFFSET(0x1D4D9AC0)
+#define RPG_GAMECORE_SERVANTCONFIG_METHOD_3_FB8141C3AC00DE88_OFFSET UNITYSDK_OFFSET(0x1D4D9630)
+#define RPG_GAMECORE_SERVANTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D4D99A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ServantConfig_TypeDefinitionIndex = 15879;
+	inline static constexpr unsigned int ServantConfig_TypeDefinitionIndex = 16355;
 
 	class ServantConfig : public ::RPG::GameCore::CharacterConfig
 	{
@@ -25,7 +25,8 @@ namespace RPG::GameCore
 		::RPG::GameCore::TeamLocationType LocationType; // 0x224
 		::System::Boolean AddToTeamFormation; // 0x228
 		::RPG::GameCore::AttackDamageType DamageType; // 0x22C
-		::RPG::GameCore::AbilityPropertyIneritType PropertyInherit; // 0x230
+		::System::Boolean EffectAttachToSummonerTimeline; // 0x230
+		::RPG::GameCore::AbilityPropertyIneritType PropertyInherit; // 0x234
 		::Il2CppArray<::RPG::GameCore::AbilityProperty>* SyncPropertyExceptList; // 0x238
 		::RPG::MVector3 ViewModeServantFollowOffset; // 0x240
 		::System::Single ViewModeServantFollowYawAngle; // 0x24C

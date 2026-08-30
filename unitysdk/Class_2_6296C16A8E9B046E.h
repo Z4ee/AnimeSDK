@@ -5,16 +5,16 @@
 class Class_3_F65294BF89CA0784;
 namespace RPG::GameCore { class DiceCombatAIEffectEvaluatorConfig_DiceHasNOfAKind; }
 
-#define CLASS_2_6296C16A8E9B046E_METHOD_2_D64FD9A228A1C4E0_OFFSET UNITYSDK_OFFSET(0x1A5AF0A0)
-#define CLASS_2_6296C16A8E9B046E__CTOR_OFFSET UNITYSDK_OFFSET(0x1A5AF090)
+#define CLASS_2_6296C16A8E9B046E_METHOD_2_D64FD9A228A1C4E0_OFFSET UNITYSDK_OFFSET(0x1C1BEF30)
+#define CLASS_2_6296C16A8E9B046E__CTOR_OFFSET UNITYSDK_OFFSET(0x1C1BEF20)
 
-inline static constexpr unsigned int Class_2_6296C16A8E9B046E_TypeDefinitionIndex = 34665;
+inline static constexpr unsigned int Class_2_6296C16A8E9B046E_TypeDefinitionIndex = 35526;
 
 class Class_2_6296C16A8E9B046E : public ::Class_1_43BD383C98B4C0C5_17
 {
 public:
-	::RPG::GameCore::DiceCombatAIEffectEvaluatorConfig_DiceHasNOfAKind* Field_2_0; // 0x10
-	::Class_3_F65294BF89CA0784* Field_2_1; // 0x18
+	::Class_3_F65294BF89CA0784* EEFMDEHLLFI; // 0x10
+	::RPG::GameCore::DiceCombatAIEffectEvaluatorConfig_DiceHasNOfAKind* IGHAHBNLIJA; // 0x18
 
 	::System::Void _ctor(::RPG::GameCore::DiceCombatAIEffectEvaluatorConfig_DiceHasNOfAKind* a1, ::Class_3_F65294BF89CA0784* a2)
 	{

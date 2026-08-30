@@ -10,38 +10,38 @@ namespace UnityEngine { class Shader; }
 namespace UnityEngine { class Texture2D; }
 namespace UnityEngine::UI { class Image; }
 
-#define RPG_CLIENT_IMAGECOLORGRADINGSCANLINE_GETMATERIALFORRENDERING_OFFSET UNITYSDK_OFFSET(0xC8C94D0)
-#define RPG_CLIENT_IMAGECOLORGRADINGSCANLINE_GET_IMAGE_OFFSET UNITYSDK_OFFSET(0xC8C9420)
-#define RPG_CLIENT_IMAGECOLORGRADINGSCANLINE_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xC8C9AD0)
-#define RPG_CLIENT_IMAGECOLORGRADINGSCANLINE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xC8C9DB0)
-#define RPG_CLIENT_IMAGECOLORGRADINGSCANLINE_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xC8C9E10)
-#define RPG_CLIENT_IMAGECOLORGRADINGSCANLINE__CTOR_OFFSET UNITYSDK_OFFSET(0xC8C9E60)
+#define RPG_CLIENT_IMAGECOLORGRADINGSCANLINE_GETMATERIALFORRENDERING_OFFSET UNITYSDK_OFFSET(0xD3EC660)
+#define RPG_CLIENT_IMAGECOLORGRADINGSCANLINE_GET_IMAGE_OFFSET UNITYSDK_OFFSET(0xD3EC590)
+#define RPG_CLIENT_IMAGECOLORGRADINGSCANLINE_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xD3ECD40)
+#define RPG_CLIENT_IMAGECOLORGRADINGSCANLINE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xD3ED050)
+#define RPG_CLIENT_IMAGECOLORGRADINGSCANLINE_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xD3ED0B0)
+#define RPG_CLIENT_IMAGECOLORGRADINGSCANLINE__CTOR_OFFSET UNITYSDK_OFFSET(0xD3ED100)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ImageColorGradingScanline_TypeDefinitionIndex = 67839;
+	inline static constexpr unsigned int ImageColorGradingScanline_TypeDefinitionIndex = 71012;
 
 	class ImageColorGradingScanline : public ::UnityEngine::EventSystems::UIBehaviour
 	{
 	public:
-		::System::Int32 Field_6_0; // 0x18
-		::System::Int32 Field_6_1; // 0x1C
-		::System::Int32 Field_6_2; // 0x20
-		::System::Int32 Field_6_3; // 0x24
-		::System::Int32 Field_6_4; // 0x28
-		::System::Int32 Field_6_5; // 0x2C
-		::System::Int32 Field_6_6; // 0x30
-		::System::Int32 Field_6_7; // 0x34
-		::System::Int32 Field_6_8; // 0x38
-		::System::Int32 Field_6_9; // 0x3C
-		::System::Int32 Field_6_10; // 0x40
-		::System::Int32 Field_6_11; // 0x44
-		::System::Int32 Field_6_12; // 0x48
-		::System::Int32 Field_6_13; // 0x4C
-		::System::Int32 Field_6_14; // 0x50
-		::UnityEngine::UI::Image* Field_6_15; // 0x58
-		::UnityEngine::Material* Field_6_16; // 0x60
-		::UnityEngine::Material* Field_6_17; // 0x68
+		::System::Int32 BKNNKHOOOON; // 0x18
+		::System::Int32 DIGEEOONANB; // 0x1C
+		::System::Int32 LIIMONBKCAD; // 0x20
+		::System::Int32 BMGBLBFBJML; // 0x24
+		::System::Int32 MKHAGPIIEFK; // 0x28
+		::System::Int32 HPOAAPBILHA; // 0x2C
+		::System::Int32 IABNFHNFOKC; // 0x30
+		::System::Int32 NCENFKLKDGJ; // 0x34
+		::System::Int32 PCOJAPFAPEN; // 0x38
+		::System::Int32 NLOADHCOFDF; // 0x3C
+		::System::Int32 GNEKFIJBPDP; // 0x40
+		::System::Int32 GDNOLNJOBGG; // 0x44
+		::System::Int32 BPNJEBGHBEE; // 0x48
+		::System::Int32 CJENCHINABE; // 0x4C
+		::System::Int32 JKIDIJOJBKC; // 0x50
+		::UnityEngine::UI::Image* JGPEHEDMCMJ; // 0x58
+		::UnityEngine::Material* FAALBBDOFIL; // 0x60
+		::UnityEngine::Material* KLAEOKPPDHD; // 0x68
 		::UnityEngine::Shader* defaultShader; // 0x70
 		::System::Single Saturation; // 0x78
 		::System::Single Brightness; // 0x7C

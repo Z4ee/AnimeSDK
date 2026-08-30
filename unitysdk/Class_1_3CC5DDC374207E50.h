@@ -4,16 +4,16 @@
 
 namespace RPG::Client { class AnniversaryCollectionPanelData; }
 
-#define CLASS_1_3CC5DDC374207E50_METHOD_1_026D357DA08A195C_OFFSET UNITYSDK_OFFSET(0xB1F7B60)
-#define CLASS_1_3CC5DDC374207E50_METHOD_1_F78C032061CEA1F7_OFFSET UNITYSDK_OFFSET(0xB1F7AE0)
-#define CLASS_1_3CC5DDC374207E50__CTOR_OFFSET UNITYSDK_OFFSET(0xB1F7AD0)
+#define CLASS_1_3CC5DDC374207E50_METHOD_1_026D357DA08A195C_OFFSET UNITYSDK_OFFSET(0xBBCC210)
+#define CLASS_1_3CC5DDC374207E50_METHOD_1_F78C032061CEA1F7_OFFSET UNITYSDK_OFFSET(0xBBCC190)
+#define CLASS_1_3CC5DDC374207E50__CTOR_OFFSET UNITYSDK_OFFSET(0xBBCC180)
 
-inline static constexpr unsigned int Class_1_3CC5DDC374207E50_TypeDefinitionIndex = 59635;
+inline static constexpr unsigned int Class_1_3CC5DDC374207E50_TypeDefinitionIndex = 62474;
 
 class Class_1_3CC5DDC374207E50 : public ::System::Object
 {
 public:
-	::RPG::Client::AnniversaryCollectionPanelData* Field_1_0; // 0x10
+	::RPG::Client::AnniversaryCollectionPanelData* HDCJMGPBJOJ; // 0x10
 
 	::System::Void _ctor(::RPG::Client::AnniversaryCollectionPanelData* a1)
 	{

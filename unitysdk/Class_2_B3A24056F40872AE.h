@@ -4,10 +4,10 @@
 #include "unitysdk/Struct_2_433253813D49C6BD.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define CLASS_2_B3A24056F40872AE_ISPOINTINSIDELOCAL_OFFSET UNITYSDK_OFFSET(0x15695940)
-#define CLASS_2_B3A24056F40872AE__CTOR_OFFSET UNITYSDK_OFFSET(0x156959F0)
+#define CLASS_2_B3A24056F40872AE_ISPOINTINSIDELOCAL_OFFSET UNITYSDK_OFFSET(0xB6D1690)
+#define CLASS_2_B3A24056F40872AE__CTOR_OFFSET UNITYSDK_OFFSET(0xB6D1740)
 
-inline static constexpr unsigned int Class_2_B3A24056F40872AE_TypeDefinitionIndex = 70559;
+inline static constexpr unsigned int Class_2_B3A24056F40872AE_TypeDefinitionIndex = 73858;
 
 class Class_2_B3A24056F40872AE : public ::RPG::Client::OpenWorld::OpenWorldSimpleTriggerBatchBase_1<::Struct_2_433253813D49C6BD>
 {

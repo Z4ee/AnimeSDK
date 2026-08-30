@@ -9,28 +9,28 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class AvatarPropertyValue; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_GRIDFIGHTROLEBACKRANKCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B4E7E20)
-#define RPG_GAMECORE_GRIDFIGHTROLEBACKRANKCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4E8320)
+#define RPG_GAMECORE_GRIDFIGHTROLEBACKRANKCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D1616B0)
+#define RPG_GAMECORE_GRIDFIGHTROLEBACKRANKCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D161BB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightRoleBackRankConfigRow_TypeDefinitionIndex = 13013;
+	inline static constexpr unsigned int GridFightRoleBackRankConfigRow_TypeDefinitionIndex = 13404;
 
 	class GridFightRoleBackRankConfigRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::RPG::GameCore::FixPoint>* Star2ParamList; // 0x10
-		::System::String* IconPath; // 0x18
-		::Il2CppArray<::RPG::GameCore::AvatarPropertyValue*>* GeneralPropertyList; // 0x20
-		::Il2CppArray<::RPG::GameCore::FixPoint>* Star1ParamList; // 0x28
-		::System::String* CharacterAbilityName; // 0x30
-		::Il2CppArray<::RPG::GameCore::FixPoint>* Star4ParamList; // 0x38
-		::Il2CppArray<::RPG::GameCore::FixPoint>* Star3ParamList; // 0x40
-		::RPG::Client::TextID Desc; // 0x48
-		::RPG::GameCore::StringHash Trigger; // 0x58
-		::System::UInt32 Rank; // 0x5C
-		::System::UInt32 RankID; // 0x60
-		::RPG::Client::TextID Name; // 0x68
+		::System::String* IconPath; // 0x10
+		::System::String* CharacterAbilityName; // 0x18
+		::Il2CppArray<::RPG::GameCore::FixPoint>* Star4ParamList; // 0x20
+		::Il2CppArray<::RPG::GameCore::FixPoint>* Star3ParamList; // 0x28
+		::Il2CppArray<::RPG::GameCore::FixPoint>* Star1ParamList; // 0x30
+		::Il2CppArray<::RPG::GameCore::FixPoint>* Star2ParamList; // 0x38
+		::Il2CppArray<::RPG::GameCore::AvatarPropertyValue*>* GeneralPropertyList; // 0x40
+		::System::UInt32 RankID; // 0x48
+		::RPG::Client::TextID Name; // 0x50
+		::RPG::Client::TextID Desc; // 0x60
+		::System::UInt32 Rank; // 0x70
+		::RPG::GameCore::StringHash Trigger; // 0x74
 
 		::System::Void _ctor()
 		{

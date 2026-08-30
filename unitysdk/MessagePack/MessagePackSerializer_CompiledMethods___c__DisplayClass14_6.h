@@ -7,12 +7,12 @@
 namespace MessagePack { class MessagePackSerializerOptions; }
 namespace System::Reflection { class MethodInfo; }
 
-#define MESSAGEPACK_MESSAGEPACKSERIALIZER_COMPILEDMETHODS___C__DISPLAYCLASS14_6__CTOR_OFFSET UNITYSDK_OFFSET(0x19B3BCD0)
-#define MESSAGEPACK_MESSAGEPACKSERIALIZER_COMPILEDMETHODS___C__DISPLAYCLASS14_6___CTOR_B__8_OFFSET UNITYSDK_OFFSET(0x19B3CBB0)
+#define MESSAGEPACK_MESSAGEPACKSERIALIZER_COMPILEDMETHODS___C__DISPLAYCLASS14_6__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6CAF40)
+#define MESSAGEPACK_MESSAGEPACKSERIALIZER_COMPILEDMETHODS___C__DISPLAYCLASS14_6___CTOR_B__8_OFFSET UNITYSDK_OFFSET(0x1B6CBE20)
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int MessagePackSerializer_CompiledMethods___c__DisplayClass14_6_TypeDefinitionIndex = 7186;
+	inline static constexpr unsigned int MessagePackSerializer_CompiledMethods___c__DisplayClass14_6_TypeDefinitionIndex = 7172;
 
 	class MessagePackSerializer_CompiledMethods___c__DisplayClass14_6 : public ::System::Object
 	{

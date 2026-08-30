@@ -5,32 +5,32 @@
 class Class_1_A92BC063ED2379EB;
 class Class_1_C8B2C21D7F9B1D13;
 class Class_2_B66C1067C0468FBB;
-class Class_3_D637C1E17FCBBFB0;
+class Class_3_E6ABB31B8050F1C6;
 namespace RPG::GameCore { class BaseChimeraDuelEntitiesSelectorConfig; }
 namespace RPG::GameCore { class ChimeraDuelRandomEntitiesSelectorConfig; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_F97CA92D876A9664_METHOD_1_44641DFE6D61562D_OFFSET UNITYSDK_OFFSET(0x145DA830)
-#define CLASS_1_F97CA92D876A9664_METHOD_1_4E22A18EF530BFA8_OFFSET UNITYSDK_OFFSET(0x145DA7D0)
-#define CLASS_1_F97CA92D876A9664_METHOD_1_6240462CEB7A6215_OFFSET UNITYSDK_OFFSET(0x145DA8F0)
-#define CLASS_1_F97CA92D876A9664__CTOR_OFFSET UNITYSDK_OFFSET(0x145DAA80)
+#define CLASS_1_F97CA92D876A9664_METHOD_1_44641DFE6D61562D_OFFSET UNITYSDK_OFFSET(0x15487610)
+#define CLASS_1_F97CA92D876A9664_METHOD_1_4E22A18EF530BFA8_OFFSET UNITYSDK_OFFSET(0x154875B0)
+#define CLASS_1_F97CA92D876A9664_METHOD_1_6240462CEB7A6215_OFFSET UNITYSDK_OFFSET(0x154876D0)
+#define CLASS_1_F97CA92D876A9664__CTOR_OFFSET UNITYSDK_OFFSET(0x15487860)
 
-inline static constexpr unsigned int Class_1_F97CA92D876A9664_TypeDefinitionIndex = 73581;
+inline static constexpr unsigned int Class_1_F97CA92D876A9664_TypeDefinitionIndex = 77065;
 
 class Class_1_F97CA92D876A9664 : public ::System::Object
 {
 public:
-	::Class_1_C8B2C21D7F9B1D13* Field_1_0; // 0x10
+	::Class_1_C8B2C21D7F9B1D13* IHJEMJOGEHG; // 0x10
 
 	::System::Void _ctor()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F97CA92D876A9664__CTOR_OFFSET))(this);
 	}
 
-	::System::Void Method_1_4E22A18EF530BFA8(::Class_3_D637C1E17FCBBFB0* a1)
+	::System::Void Method_1_4E22A18EF530BFA8(::Class_3_E6ABB31B8050F1C6* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_3_D637C1E17FCBBFB0*))((::PBYTE)hIl2Cpp + CLASS_1_F97CA92D876A9664_METHOD_1_4E22A18EF530BFA8_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::Class_3_E6ABB31B8050F1C6*))((::PBYTE)hIl2Cpp + CLASS_1_F97CA92D876A9664_METHOD_1_4E22A18EF530BFA8_OFFSET))(this, a1);
 	}
 
 	::System::Collections::Generic::IEnumerable_1<::Class_2_B66C1067C0468FBB*>* Method_1_44641DFE6D61562D(::Class_1_A92BC063ED2379EB* a1, ::RPG::GameCore::BaseChimeraDuelEntitiesSelectorConfig* a2)

@@ -3,15 +3,15 @@
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_2AE1D80996AD66EA_METHOD_1_C099BFAC7CD3CF58_OFFSET UNITYSDK_OFFSET(0x15031380)
-#define CLASS_1_2AE1D80996AD66EA__CTOR_OFFSET UNITYSDK_OFFSET(0x15031370)
+#define CLASS_1_2AE1D80996AD66EA_METHOD_1_C099BFAC7CD3CF58_OFFSET UNITYSDK_OFFSET(0x15CE5E30)
+#define CLASS_1_2AE1D80996AD66EA__CTOR_OFFSET UNITYSDK_OFFSET(0x15CE5E20)
 
-inline static constexpr unsigned int Class_1_2AE1D80996AD66EA_TypeDefinitionIndex = 59769;
+inline static constexpr unsigned int Class_1_2AE1D80996AD66EA_TypeDefinitionIndex = 62615;
 
 class Class_1_2AE1D80996AD66EA : public ::System::Object
 {
 public:
-	::RPG::GameCore::FixPoint Field_1_0; // 0x10
+	::RPG::GameCore::FixPoint AIKAPJELHNK; // 0x10
 
 	::System::Void _ctor(::RPG::GameCore::FixPoint a1)
 	{

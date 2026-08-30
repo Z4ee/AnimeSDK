@@ -7,12 +7,12 @@ namespace MiHoYo::SDK { class AccountModel; }
 namespace MiHoYo::SDK::Win { class OverseaAccountList; }
 namespace UnityEngine { class GameObject; }
 
-#define MIHOYO_SDK_WIN_OVERSEAACCOUNTLIST___C__DISPLAYCLASS49_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19C58F30)
-#define MIHOYO_SDK_WIN_OVERSEAACCOUNTLIST___C__DISPLAYCLASS49_0__DELETEACCOUNT_B__0_OFFSET UNITYSDK_OFFSET(0x19C59570)
+#define MIHOYO_SDK_WIN_OVERSEAACCOUNTLIST___C__DISPLAYCLASS49_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8AC9E0)
+#define MIHOYO_SDK_WIN_OVERSEAACCOUNTLIST___C__DISPLAYCLASS49_0__DELETEACCOUNT_B__0_OFFSET UNITYSDK_OFFSET(0x1B8ACE90)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int OverseaAccountList___c__DisplayClass49_0_TypeDefinitionIndex = 8975;
+	inline static constexpr unsigned int OverseaAccountList___c__DisplayClass49_0_TypeDefinitionIndex = 9245;
 
 	class OverseaAccountList___c__DisplayClass49_0 : public ::System::Object
 	{

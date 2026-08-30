@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define UNITYENGINE_NETWORKING_PLAYERCONNECTION_MESSAGEEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D038400)
+#define UNITYENGINE_NETWORKING_PLAYERCONNECTION_MESSAGEEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1ED3FAD0)
 
 namespace UnityEngine::Networking::PlayerConnection
 {
-	inline static constexpr unsigned int MessageEventArgs_TypeDefinitionIndex = 4659;
+	inline static constexpr unsigned int MessageEventArgs_TypeDefinitionIndex = 4669;
 
 	class MessageEventArgs : public ::System::Object
 	{

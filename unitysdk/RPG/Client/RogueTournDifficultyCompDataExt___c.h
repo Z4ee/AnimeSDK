@@ -5,24 +5,24 @@
 namespace RPG::Client { class RogueTournDifficultyCompData; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_ROGUETOURNDIFFICULTYCOMPDATAEXT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD4310A0)
-#define RPG_CLIENT_ROGUETOURNDIFFICULTYCOMPDATAEXT___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD4310E0)
-#define RPG_CLIENT_ROGUETOURNDIFFICULTYCOMPDATAEXT___C__DIFFICULTYCOMPLEVEL_B__0_0_OFFSET UNITYSDK_OFFSET(0xD4310F0)
+#define RPG_CLIENT_ROGUETOURNDIFFICULTYCOMPDATAEXT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xDF4CE40)
+#define RPG_CLIENT_ROGUETOURNDIFFICULTYCOMPDATAEXT___C__CTOR_OFFSET UNITYSDK_OFFSET(0xDF4CE80)
+#define RPG_CLIENT_ROGUETOURNDIFFICULTYCOMPDATAEXT___C__DIFFICULTYCOMPLEVEL_B__0_0_OFFSET UNITYSDK_OFFSET(0xDF4CE90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournDifficultyCompDataExt___c_TypeDefinitionIndex = 64588;
+	inline static constexpr unsigned int RogueTournDifficultyCompDataExt___c_TypeDefinitionIndex = 67584;
 
 	class RogueTournDifficultyCompDataExt___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::RogueTournDifficultyCompDataExt___c** StaticGet___9()
-		{
-			return (::RPG::Client::RogueTournDifficultyCompDataExt___c**)Il2CppClass::FromTypeDefinitionIndex(RogueTournDifficultyCompDataExt___c_TypeDefinitionIndex)->GetStaticField(0x2B290);
-		}
 		static ::System::Func_2<::RPG::Client::RogueTournDifficultyCompData*, ::System::UInt32>** StaticGet___9__0_0()
 		{
-			return (::System::Func_2<::RPG::Client::RogueTournDifficultyCompData*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournDifficultyCompDataExt___c_TypeDefinitionIndex)->GetStaticField(0x2B298);
+			return (::System::Func_2<::RPG::Client::RogueTournDifficultyCompData*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournDifficultyCompDataExt___c_TypeDefinitionIndex)->GetStaticField(0x116E0);
+		}
+		static ::RPG::Client::RogueTournDifficultyCompDataExt___c** StaticGet___9()
+		{
+			return (::RPG::Client::RogueTournDifficultyCompDataExt___c**)Il2CppClass::FromTypeDefinitionIndex(RogueTournDifficultyCompDataExt___c_TypeDefinitionIndex)->GetStaticField(0x116E8);
 		}
 
 		static ::System::Void _cctor()

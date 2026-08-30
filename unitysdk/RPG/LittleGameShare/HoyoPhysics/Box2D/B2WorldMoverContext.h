@@ -10,7 +10,7 @@ namespace System { class Object; }
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2WorldMoverContext_TypeDefinitionIndex = 35269;
+	inline static constexpr unsigned int B2WorldMoverContext_TypeDefinitionIndex = 36130;
 
 	struct alignas(8) B2WorldMoverContext
 	{

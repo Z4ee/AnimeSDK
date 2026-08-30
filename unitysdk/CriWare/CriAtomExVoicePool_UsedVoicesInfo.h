@@ -4,7 +4,7 @@
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExVoicePool_UsedVoicesInfo_TypeDefinitionIndex = 37917;
+	inline static constexpr unsigned int CriAtomExVoicePool_UsedVoicesInfo_TypeDefinitionIndex = 38776;
 
 	struct alignas(4) CriAtomExVoicePool_UsedVoicesInfo
 	{

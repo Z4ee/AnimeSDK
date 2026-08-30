@@ -13,7 +13,7 @@
 
 namespace SWRT
 {
-	inline static constexpr unsigned int BVH8_CWNodeUnpacked_TypeDefinitionIndex = 35952;
+	inline static constexpr unsigned int BVH8_CWNodeUnpacked_TypeDefinitionIndex = 36813;
 
 	struct alignas(4) BVH8_CWNodeUnpacked
 	{

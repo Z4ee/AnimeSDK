@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/PropertyAttribute.h"
 
-#define INCONTROL_HEXADECIMALATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1995AB80)
+#define INCONTROL_HEXADECIMALATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4E99B0)
 
 namespace InControl
 {
-	inline static constexpr unsigned int HexadecimalAttribute_TypeDefinitionIndex = 38686;
+	inline static constexpr unsigned int HexadecimalAttribute_TypeDefinitionIndex = 39545;
 
 	class HexadecimalAttribute : public ::UnityEngine::PropertyAttribute
 	{

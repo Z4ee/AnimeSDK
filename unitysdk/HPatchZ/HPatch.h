@@ -4,13 +4,13 @@
 
 namespace System { class String; }
 
-#define HPATCHZ_HPATCH_HPATCHZ_OFFSET UNITYSDK_OFFSET(0xAA5BDE0)
-#define HPATCHZ_HPATCH_PATCH_OFFSET UNITYSDK_OFFSET(0xAA5BED0)
-#define HPATCHZ_HPATCH__CTOR_OFFSET UNITYSDK_OFFSET(0xAA5BEE0)
+#define HPATCHZ_HPATCH_HPATCHZ_OFFSET UNITYSDK_OFFSET(0xB17EDB0)
+#define HPATCHZ_HPATCH_PATCH_OFFSET UNITYSDK_OFFSET(0xB17EEA0)
+#define HPATCHZ_HPATCH__CTOR_OFFSET UNITYSDK_OFFSET(0xB17EEB0)
 
 namespace HPatchZ
 {
-	inline static constexpr unsigned int HPatch_TypeDefinitionIndex = 45217;
+	inline static constexpr unsigned int HPatch_TypeDefinitionIndex = 47453;
 
 	class HPatch : public ::System::Object
 	{

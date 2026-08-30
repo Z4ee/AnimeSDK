@@ -9,22 +9,22 @@ class Class_2_68CB91321C3E76A7;
 namespace RPG::Client { class MonoEffect; }
 namespace System { class String; }
 
-#define CLASS_1_9BB05DF80D1274B8___C__DISPLAYCLASS7_0__CREATEPIXAIRMISSILEENTITY_B__0_OFFSET UNITYSDK_OFFSET(0xDE96730)
-#define CLASS_1_9BB05DF80D1274B8___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0xDE94C20)
+#define CLASS_1_9BB05DF80D1274B8___C__DISPLAYCLASS7_0__CREATEPIXAIRMISSILEENTITY_B__0_OFFSET UNITYSDK_OFFSET(0xED72E00)
+#define CLASS_1_9BB05DF80D1274B8___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0xED71290)
 
-inline static constexpr unsigned int Class_1_9BB05DF80D1274B8___c__DisplayClass7_0_TypeDefinitionIndex = 73355;
+inline static constexpr unsigned int Class_1_9BB05DF80D1274B8___c__DisplayClass7_0_TypeDefinitionIndex = 76834;
 
 class Class_1_9BB05DF80D1274B8___c__DisplayClass7_0 : public ::System::Object
 {
 public:
 	::System::String* hitEffectPath; // 0x10
-	::Class_1_9BB05DF80D1274B8* __4__this; // 0x18
-	::Class_2_68CB91321C3E76A7* missileEntity; // 0x20
-	::System::Single effectScale; // 0x28
-	::UnityEngine::Vector3 normalizedControlPoint; // 0x2C
-	::UnityEngine::Vector3 localRight; // 0x38
+	::Class_2_68CB91321C3E76A7* missileEntity; // 0x18
+	::Class_1_9BB05DF80D1274B8* __4__this; // 0x20
+	::UnityEngine::Vector3 localRight; // 0x28
+	::UnityEngine::Vector3 normalizedControlPoint; // 0x34
+	::System::UInt32 effectID; // 0x40
 	::System::Int32 targetRuntimeID; // 0x44
-	::System::UInt32 effectID; // 0x48
+	::System::Single effectScale; // 0x48
 
 	::System::Void _ctor()
 	{

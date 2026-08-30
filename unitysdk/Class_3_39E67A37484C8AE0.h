@@ -6,16 +6,16 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class PlayVoice; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_39E67A37484C8AE0_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1534A500)
-#define CLASS_3_39E67A37484C8AE0_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1534A660)
-#define CLASS_3_39E67A37484C8AE0__CTOR_OFFSET UNITYSDK_OFFSET(0x1534A4D0)
+#define CLASS_3_39E67A37484C8AE0_DISPOSE_OFFSET UNITYSDK_OFFSET(0x162C1E80)
+#define CLASS_3_39E67A37484C8AE0_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x162C1FE0)
+#define CLASS_3_39E67A37484C8AE0__CTOR_OFFSET UNITYSDK_OFFSET(0x162C1E50)
 
-inline static constexpr unsigned int Class_3_39E67A37484C8AE0_TypeDefinitionIndex = 53846;
+inline static constexpr unsigned int Class_3_39E67A37484C8AE0_TypeDefinitionIndex = 56566;
 
 class Class_3_39E67A37484C8AE0 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::PlayVoice*>
 {
 public:
-	::RPG::GameCore::GameEntity* Field_3_0; // 0x28
+	::RPG::GameCore::GameEntity* ONIACPBDNMH; // 0x28
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::PlayVoice* a2)
 	{

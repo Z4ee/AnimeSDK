@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYDELETECONTROL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC08E420)
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYDELETECONTROL___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC08E460)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYDELETECONTROL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xCB3DC60)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYDELETECONTROL___C__CTOR_OFFSET UNITYSDK_OFFSET(0xCB3DCA0)
 
 namespace RPG::Client::ChenLingFes
 {
-	inline static constexpr unsigned int ChenLingFesGameplayDeleteControl___c_TypeDefinitionIndex = 76348;
+	inline static constexpr unsigned int ChenLingFesGameplayDeleteControl___c_TypeDefinitionIndex = 79981;
 
 	class ChenLingFesGameplayDeleteControl___c : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::ChenLingFes::ChenLingFesGameplayDeleteControl___c** StaticGet___9()
 		{
-			return (::RPG::Client::ChenLingFes::ChenLingFesGameplayDeleteControl___c**)Il2CppClass::FromTypeDefinitionIndex(ChenLingFesGameplayDeleteControl___c_TypeDefinitionIndex)->GetStaticField(0x5EC90);
+			return (::RPG::Client::ChenLingFes::ChenLingFesGameplayDeleteControl___c**)Il2CppClass::FromTypeDefinitionIndex(ChenLingFesGameplayDeleteControl___c_TypeDefinitionIndex)->GetStaticField(0x35DA0);
 		}
 
 		static ::System::Void _cctor()

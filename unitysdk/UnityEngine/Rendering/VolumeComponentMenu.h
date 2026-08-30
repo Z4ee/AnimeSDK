@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_RENDERING_VOLUMECOMPONENTMENU__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF107B0)
+#define UNITYENGINE_RENDERING_VOLUMECOMPONENTMENU__CTOR_OFFSET UNITYSDK_OFFSET(0x1EC18150)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int VolumeComponentMenu_TypeDefinitionIndex = 34179;
+	inline static constexpr unsigned int VolumeComponentMenu_TypeDefinitionIndex = 34946;
 
 	class VolumeComponentMenu : public ::System::Attribute
 	{

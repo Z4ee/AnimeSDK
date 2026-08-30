@@ -6,11 +6,11 @@
 
 namespace RPG::GameCore { class AdventureModifierInstance; }
 
-inline static constexpr unsigned int Struct_2_A98C406BD653F8E9_TypeDefinitionIndex = 54442;
+inline static constexpr unsigned int Struct_2_A98C406BD653F8E9_TypeDefinitionIndex = 57163;
 
 struct alignas(8) Struct_2_A98C406BD653F8E9
 {
-	::RPG::GameCore::AdventureModifierInstance* Field_2_0; // 0x10
-	::RPG::GameCore::AttackDamageType Field_2_1; // 0x18
-	::RPG::GameCore::MonsterRank Field_2_2; // 0x1C
+	::RPG::GameCore::AdventureModifierInstance* ILIIOLJMKME; // 0x10
+	::RPG::GameCore::AttackDamageType KOIOKIBIMCB; // 0x18
+	::RPG::GameCore::MonsterRank BKEGNEMICHF; // 0x1C
 };

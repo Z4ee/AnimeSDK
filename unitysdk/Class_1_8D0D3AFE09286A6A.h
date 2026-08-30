@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_8D0D3AFE09286A6A_EQUALS_OFFSET UNITYSDK_OFFSET(0x149568D0)
-#define CLASS_1_8D0D3AFE09286A6A_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x14956930)
-#define CLASS_1_8D0D3AFE09286A6A__CCTOR_OFFSET UNITYSDK_OFFSET(0x14956990)
-#define CLASS_1_8D0D3AFE09286A6A__CTOR_OFFSET UNITYSDK_OFFSET(0x14956980)
+#define CLASS_1_8D0D3AFE09286A6A_EQUALS_OFFSET UNITYSDK_OFFSET(0x157DF370)
+#define CLASS_1_8D0D3AFE09286A6A_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x157DF3D0)
+#define CLASS_1_8D0D3AFE09286A6A__CCTOR_OFFSET UNITYSDK_OFFSET(0x157DF430)
+#define CLASS_1_8D0D3AFE09286A6A__CTOR_OFFSET UNITYSDK_OFFSET(0x157DF420)
 
-inline static constexpr unsigned int Class_1_8D0D3AFE09286A6A_TypeDefinitionIndex = 47283;
+inline static constexpr unsigned int Class_1_8D0D3AFE09286A6A_TypeDefinitionIndex = 49563;
 
 class Class_1_8D0D3AFE09286A6A : public ::System::Object
 {
 public:
-	static ::Class_1_8D0D3AFE09286A6A** StaticGet_Field_1_0()
+	static ::Class_1_8D0D3AFE09286A6A** StaticGet_FMJPMFEDIJL()
 	{
-		return (::Class_1_8D0D3AFE09286A6A**)Il2CppClass::FromTypeDefinitionIndex(Class_1_8D0D3AFE09286A6A_TypeDefinitionIndex)->GetStaticField(0x62F00);
+		return (::Class_1_8D0D3AFE09286A6A**)Il2CppClass::FromTypeDefinitionIndex(Class_1_8D0D3AFE09286A6A_TypeDefinitionIndex)->GetStaticField(0x47AF0);
 	}
 
 	::System::Void _ctor()

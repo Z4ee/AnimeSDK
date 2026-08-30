@@ -12,12 +12,12 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class Mesh; }
 
-#define BLOODFLOWMANAGER_AWAKE_OFFSET UNITYSDK_OFFSET(0xBA96070)
-#define BLOODFLOWMANAGER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xBA96150)
-#define BLOODFLOWMANAGER_UPDATE_OFFSET UNITYSDK_OFFSET(0xBA96100)
-#define BLOODFLOWMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0xBA96200)
+#define BLOODFLOWMANAGER_AWAKE_OFFSET UNITYSDK_OFFSET(0xC4F2270)
+#define BLOODFLOWMANAGER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xC4F2350)
+#define BLOODFLOWMANAGER_UPDATE_OFFSET UNITYSDK_OFFSET(0xC4F2300)
+#define BLOODFLOWMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0xC4F2400)
 
-inline static constexpr unsigned int BloodFlowManager_TypeDefinitionIndex = 45660;
+inline static constexpr unsigned int BloodFlowManager_TypeDefinitionIndex = 47911;
 
 class BloodFlowManager : public ::UnityEngine::MonoBehaviour
 {
@@ -31,7 +31,7 @@ public:
 	::System::Collections::Generic::List_1<::UnityEngine::Matrix4x4>* AllMatrixs; // 0x40
 	::System::Collections::Generic::List_1<::UnityEngine::Vector4>* PerInsProperties; // 0x48
 	::UnityEngine::Vector3 BoundSize; // 0x50
-	::Class_2_C7CF51A975AD5398* Field_5_9; // 0x60
+	::Class_2_C7CF51A975AD5398* KADDKEGNCHE; // 0x60
 
 	::System::Void _ctor()
 	{

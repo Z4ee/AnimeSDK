@@ -5,11 +5,11 @@
 namespace RPG::Client { class PenaconyEndmostChronicleSimpleTalkItemData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_PENACONYENDMOSTCHRONICLESIMPLETALKDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xCF517E0)
+#define RPG_CLIENT_PENACONYENDMOSTCHRONICLESIMPLETALKDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xDA4F1D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PenaconyEndmostChronicleSimpleTalkData_TypeDefinitionIndex = 63167;
+	inline static constexpr unsigned int PenaconyEndmostChronicleSimpleTalkData_TypeDefinitionIndex = 66152;
 
 	class PenaconyEndmostChronicleSimpleTalkData : public ::System::Object
 	{

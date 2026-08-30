@@ -5,10 +5,10 @@
 class FiveDimRenderingItem;
 namespace UnityEngine { class Transform; }
 
-inline static constexpr unsigned int Class_2_64EE36C1D6143448_Struct_2_A7E5651F4E5A9DBA_TypeDefinitionIndex = 75149;
+inline static constexpr unsigned int Class_2_64EE36C1D6143448_Struct_2_A7E5651F4E5A9DBA_TypeDefinitionIndex = 78646;
 
 struct alignas(8) Class_2_64EE36C1D6143448_Struct_2_A7E5651F4E5A9DBA
 {
-	::FiveDimRenderingItem* Field_2_0; // 0x10
-	::UnityEngine::Transform* Field_2_1; // 0x18
+	::FiveDimRenderingItem* NLFCABFPJHD; // 0x10
+	::UnityEngine::Transform* DICDJJOJKGF; // 0x18
 };

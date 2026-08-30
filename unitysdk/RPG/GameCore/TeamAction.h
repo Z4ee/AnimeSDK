@@ -7,13 +7,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class PredicateConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TEAMACTION_METHOD_3_0AC4A24F3EF167BD_OFFSET UNITYSDK_OFFSET(0x1B964AB0)
-#define RPG_GAMECORE_TEAMACTION_METHOD_3_BE21C438332D26DB_OFFSET UNITYSDK_OFFSET(0x1B964A60)
-#define RPG_GAMECORE_TEAMACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1B964AA0)
+#define RPG_GAMECORE_TEAMACTION_METHOD_3_446FB9923CAD2F4E_OFFSET UNITYSDK_OFFSET(0x1D5C1C30)
+#define RPG_GAMECORE_TEAMACTION_METHOD_3_5871FB9AB6446487_OFFSET UNITYSDK_OFFSET(0x1D5C1BE0)
+#define RPG_GAMECORE_TEAMACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5C1C20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TeamAction_TypeDefinitionIndex = 22312;
+	inline static constexpr unsigned int TeamAction_TypeDefinitionIndex = 22881;
 
 	class TeamAction : public ::RPG::GameCore::TaskConfig
 	{
@@ -30,14 +30,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMACTION__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_BE21C438332D26DB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TeamAction*& a2)
+		static ::System::Void Method_3_5871FB9AB6446487(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TeamAction*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TeamAction*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMACTION_METHOD_3_BE21C438332D26DB_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TeamAction*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMACTION_METHOD_3_5871FB9AB6446487_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_0AC4A24F3EF167BD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TeamAction* a2)
+		static ::System::Void Method_3_446FB9923CAD2F4E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TeamAction* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TeamAction*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMACTION_METHOD_3_0AC4A24F3EF167BD_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TeamAction*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMACTION_METHOD_3_446FB9923CAD2F4E_OFFSET))(a1, a2);
 		}
 	};
 }

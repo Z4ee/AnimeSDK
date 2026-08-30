@@ -5,14 +5,14 @@
 namespace System { class Action; }
 namespace System::Collections::Generic { template <typename T> class Queue_1; }
 
-#define HDG_RDTDISPATCHER_CLEAR_OFFSET UNITYSDK_OFFSET(0xAA5F0A0)
-#define HDG_RDTDISPATCHER_ENQUEUE_OFFSET UNITYSDK_OFFSET(0xAA6D5E0)
-#define HDG_RDTDISPATCHER_UPDATE_OFFSET UNITYSDK_OFFSET(0xAA60010)
-#define HDG_RDTDISPATCHER__CTOR_OFFSET UNITYSDK_OFFSET(0xAA605B0)
+#define HDG_RDTDISPATCHER_CLEAR_OFFSET UNITYSDK_OFFSET(0xB182150)
+#define HDG_RDTDISPATCHER_ENQUEUE_OFFSET UNITYSDK_OFFSET(0xB190A00)
+#define HDG_RDTDISPATCHER_UPDATE_OFFSET UNITYSDK_OFFSET(0xB1830A0)
+#define HDG_RDTDISPATCHER__CTOR_OFFSET UNITYSDK_OFFSET(0xB183640)
 
 namespace Hdg
 {
-	inline static constexpr unsigned int rdtDispatcher_TypeDefinitionIndex = 45175;
+	inline static constexpr unsigned int rdtDispatcher_TypeDefinitionIndex = 47411;
 
 	class rdtDispatcher : public ::System::Object
 	{

@@ -2,27 +2,27 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_1316;
+class Class_0_16E4307DCC419505_1397;
 class Class_1_69312C8E0A4A7CBC;
 namespace RPG::Client { class ChallengeData; }
 namespace RPG::Client::Challenge::Tierce { class ChallengeTierceResultBadgeNoticeViewModel; }
 
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCERESULTBADGENOTICEVIEWMODEL_FACTORY_CREATE_OFFSET UNITYSDK_OFFSET(0xBF5A710)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCERESULTBADGENOTICEVIEWMODEL_FACTORY__CTOR_OFFSET UNITYSDK_OFFSET(0xBF5A700)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCERESULTBADGENOTICEVIEWMODEL_FACTORY_CREATE_OFFSET UNITYSDK_OFFSET(0xC9FFA70)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCERESULTBADGENOTICEVIEWMODEL_FACTORY__CTOR_OFFSET UNITYSDK_OFFSET(0xC9FFA60)
 
 namespace RPG::Client::Challenge::Tierce
 {
-	inline static constexpr unsigned int ChallengeTierceResultBadgeNoticeViewModel_Factory_TypeDefinitionIndex = 76642;
+	inline static constexpr unsigned int ChallengeTierceResultBadgeNoticeViewModel_Factory_TypeDefinitionIndex = 80278;
 
 	class ChallengeTierceResultBadgeNoticeViewModel_Factory : public ::System::Object
 	{
 	public:
-		::Class_1_69312C8E0A4A7CBC* _BadgeDeliveryService; // 0x10
-		::Class_0_16E4307DCC419505_1316* _WindowService; // 0x18
+		::Class_0_16E4307DCC419505_1397* _WindowService; // 0x10
+		::Class_1_69312C8E0A4A7CBC* _BadgeDeliveryService; // 0x18
 
-		::System::Void _ctor(::Class_1_69312C8E0A4A7CBC* a1, ::Class_0_16E4307DCC419505_1316* a2)
+		::System::Void _ctor(::Class_1_69312C8E0A4A7CBC* a1, ::Class_0_16E4307DCC419505_1397* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_69312C8E0A4A7CBC*, ::Class_0_16E4307DCC419505_1316*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCERESULTBADGENOTICEVIEWMODEL_FACTORY__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::Class_1_69312C8E0A4A7CBC*, ::Class_0_16E4307DCC419505_1397*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCERESULTBADGENOTICEVIEWMODEL_FACTORY__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::RPG::Client::Challenge::Tierce::ChallengeTierceResultBadgeNoticeViewModel* Create(::RPG::Client::ChallengeData* a1)

@@ -6,21 +6,23 @@
 #include "unitysdk/System/Threading/Tasks/TaskCreationOptions.h"
 
 namespace System { template <typename T1, typename T2> class Func_2; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Threading::Tasks { class Task; }
 namespace System::Threading::Tasks { class TaskScheduler; }
 namespace System::Threading::Tasks { template <typename T> class Task_1; }
 
-#define SYSTEM_THREADING_TASKS_TASKFACTORY_CHECKCREATIONOPTIONS_OFFSET UNITYSDK_OFFSET(0x1A049E80)
-#define SYSTEM_THREADING_TASKS_TASKFACTORY_CHECKFROMASYNCOPTIONS_OFFSET UNITYSDK_OFFSET(0x1A049ED0)
-#define SYSTEM_THREADING_TASKS_TASKFACTORY_CHECKMULTITASKCONTINUATIONOPTIONS_OFFSET UNITYSDK_OFFSET(0x1A049DB0)
-#define SYSTEM_THREADING_TASKS_TASKFACTORY_COMMONCWANYLOGIC_OFFSET UNITYSDK_OFFSET(0x1A046EC0)
-#define SYSTEM_THREADING_TASKS_TASKFACTORY__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A049D40)
-#define SYSTEM_THREADING_TASKS_TASKFACTORY__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0474E0)
+#define SYSTEM_THREADING_TASKS_TASKFACTORY_CHECKCREATIONOPTIONS_OFFSET UNITYSDK_OFFSET(0x1BC50C30)
+#define SYSTEM_THREADING_TASKS_TASKFACTORY_CHECKFROMASYNCOPTIONS_OFFSET UNITYSDK_OFFSET(0x1BC50D90)
+#define SYSTEM_THREADING_TASKS_TASKFACTORY_CHECKMULTITASKCONTINUATIONOPTIONS_OFFSET UNITYSDK_OFFSET(0x1BC50B60)
+#define SYSTEM_THREADING_TASKS_TASKFACTORY_COMMONCWANYLOGIC_OFFSET UNITYSDK_OFFSET(0x1BC4DC90)
+#define SYSTEM_THREADING_TASKS_TASKFACTORY_STARTNEW_OFFSET UNITYSDK_OFFSET(0x1BC50C80)
+#define SYSTEM_THREADING_TASKS_TASKFACTORY__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1BC50AF0)
+#define SYSTEM_THREADING_TASKS_TASKFACTORY__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC4E2B0)
 
 namespace System::Threading::Tasks
 {
-	inline static constexpr unsigned int TaskFactory_TypeDefinitionIndex = 923;
+	inline static constexpr unsigned int TaskFactory_TypeDefinitionIndex = 928;
 
 	class TaskFactory : public ::System::Object
 	{
@@ -43,6 +45,11 @@ namespace System::Threading::Tasks
 		static ::System::Void CheckCreationOptions(::System::Threading::Tasks::TaskCreationOptions a1)
 		{
 			return ((::System::Void(*)(::System::Threading::Tasks::TaskCreationOptions))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TASKS_TASKFACTORY_CHECKCREATIONOPTIONS_OFFSET))(a1);
+		}
+
+		::System::Threading::Tasks::Task* StartNew(::System::Action_1<::System::Object*>* a1, ::System::Object* a2, ::System::Threading::CancellationToken a3, ::System::Threading::Tasks::TaskCreationOptions a4, ::System::Threading::Tasks::TaskScheduler* a5)
+		{
+			return ((::System::Threading::Tasks::Task*(*)(::PVOID, ::System::Action_1<::System::Object*>*, ::System::Object*, ::System::Threading::CancellationToken, ::System::Threading::Tasks::TaskCreationOptions, ::System::Threading::Tasks::TaskScheduler*))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TASKS_TASKFACTORY_STARTNEW_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		static ::System::Void CheckFromAsyncOptions(::System::Threading::Tasks::TaskCreationOptions a1, ::System::Boolean a2)

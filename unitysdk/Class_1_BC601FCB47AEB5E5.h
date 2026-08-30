@@ -5,16 +5,16 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define CLASS_1_BC601FCB47AEB5E5_METHOD_1_239127A8B01A1A3F_OFFSET UNITYSDK_OFFSET(0x1BA29840)
-#define CLASS_1_BC601FCB47AEB5E5__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA29940)
+#define CLASS_1_BC601FCB47AEB5E5_METHOD_1_239127A8B01A1A3F_OFFSET UNITYSDK_OFFSET(0x1D6BC4F0)
+#define CLASS_1_BC601FCB47AEB5E5__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6BC5F0)
 
-inline static constexpr unsigned int Class_1_BC601FCB47AEB5E5_TypeDefinitionIndex = 13219;
+inline static constexpr unsigned int Class_1_BC601FCB47AEB5E5_TypeDefinitionIndex = 13610;
 
 class Class_1_BC601FCB47AEB5E5 : public ::System::Object
 {
 public:
-	::RPG::GameCore::HeartDialEmoType Field_1_0; // 0x10
-	::System::UInt32 Field_1_1; // 0x14
+	::System::UInt32 POAIHJCEKCF; // 0x10
+	::RPG::GameCore::HeartDialEmoType BNFEAFPEOIE; // 0x14
 
 	::System::Void _ctor()
 	{

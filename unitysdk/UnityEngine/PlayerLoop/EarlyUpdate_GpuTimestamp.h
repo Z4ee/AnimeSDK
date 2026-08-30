@@ -4,7 +4,7 @@
 
 namespace UnityEngine::PlayerLoop
 {
-	inline static constexpr unsigned int EarlyUpdate_GpuTimestamp_TypeDefinitionIndex = 4540;
+	inline static constexpr unsigned int EarlyUpdate_GpuTimestamp_TypeDefinitionIndex = 4550;
 
 	struct alignas(1) EarlyUpdate_GpuTimestamp
 	{

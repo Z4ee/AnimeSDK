@@ -6,10 +6,10 @@
 class AkCallbackInfo;
 class StageHarmonyAudioLinkSlot;
 
-#define STAGEHARMONYAUDIOLINKSLOT___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0xDD5E510)
-#define STAGEHARMONYAUDIOLINKSLOT___C__DISPLAYCLASS9_0__PLAYAUDIOEVENT_B__0_OFFSET UNITYSDK_OFFSET(0xDD5E690)
+#define STAGEHARMONYAUDIOLINKSLOT___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0xE936D50)
+#define STAGEHARMONYAUDIOLINKSLOT___C__DISPLAYCLASS9_0__PLAYAUDIOEVENT_B__0_OFFSET UNITYSDK_OFFSET(0xE936ED0)
 
-inline static constexpr unsigned int StageHarmonyAudioLinkSlot___c__DisplayClass9_0_TypeDefinitionIndex = 45745;
+inline static constexpr unsigned int StageHarmonyAudioLinkSlot___c__DisplayClass9_0_TypeDefinitionIndex = 47997;
 
 class StageHarmonyAudioLinkSlot___c__DisplayClass9_0 : public ::System::Object
 {

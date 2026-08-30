@@ -5,20 +5,20 @@
 namespace UnityEngine { class Camera; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_PROP_CHIMERADUELSCREENSPACEOFFSETPOSITIONER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xD121A90)
-#define RPG_CLIENT_PROP_CHIMERADUELSCREENSPACEOFFSETPOSITIONER_START_OFFSET UNITYSDK_OFFSET(0xD121A20)
-#define RPG_CLIENT_PROP_CHIMERADUELSCREENSPACEOFFSETPOSITIONER__CTOR_OFFSET UNITYSDK_OFFSET(0xD121CA0)
+#define RPG_CLIENT_PROP_CHIMERADUELSCREENSPACEOFFSETPOSITIONER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xDC25DE0)
+#define RPG_CLIENT_PROP_CHIMERADUELSCREENSPACEOFFSETPOSITIONER_START_OFFSET UNITYSDK_OFFSET(0xDC25D70)
+#define RPG_CLIENT_PROP_CHIMERADUELSCREENSPACEOFFSETPOSITIONER__CTOR_OFFSET UNITYSDK_OFFSET(0xDC25FF0)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraDuelScreenSpaceOffsetPositioner_TypeDefinitionIndex = 74381;
+	inline static constexpr unsigned int ChimeraDuelScreenSpaceOffsetPositioner_TypeDefinitionIndex = 77866;
 
 	class ChimeraDuelScreenSpaceOffsetPositioner : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::UnityEngine::Transform* _Source; // 0x18
 		::System::Single _Offset; // 0x20
-		::UnityEngine::Camera* Field_5_2; // 0x28
+		::UnityEngine::Camera* IEMGKEFBPCG; // 0x28
 
 		::System::Void _ctor()
 		{

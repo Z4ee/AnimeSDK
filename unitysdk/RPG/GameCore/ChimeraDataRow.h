@@ -11,12 +11,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHIMERADATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B342410)
-#define RPG_GAMECORE_CHIMERADATAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B342830)
+#define RPG_GAMECORE_CHIMERADATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CFBEA70)
+#define RPG_GAMECORE_CHIMERADATAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFBEE90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraDataRow_TypeDefinitionIndex = 12520;
+	inline static constexpr unsigned int ChimeraDataRow_TypeDefinitionIndex = 12911;
 
 	class ChimeraDataRow : public ::System::Object
 	{
@@ -24,16 +24,16 @@ namespace RPG::GameCore
 		::System::String* VoiceType; // 0x10
 		::System::String* ChimeraIcon; // 0x18
 		::System::String* DataJson; // 0x20
-		::System::Single Sort; // 0x28
+		::System::UInt32 DisplayID; // 0x28
 		::RPG::GameCore::ChimeraTailPartType Tail; // 0x2C
 		::System::UInt32 RaritySetting; // 0x30
-		::RPG::GameCore::ChimeraMaterialType Body; // 0x34
-		::RPG::GameCore::ChimeraWingsPartType Wing; // 0x38
-		::System::UInt32 ChimeraID; // 0x3C
-		::System::UInt32 DisplayID; // 0x40
+		::RPG::GameCore::ChimeraEyeDetailType Eye; // 0x34
+		::System::Single Sort; // 0x38
+		::RPG::GameCore::ChimeraMaterialType Body; // 0x3C
+		::RPG::GameCore::ChimeraWingsPartType Wing; // 0x40
 		::RPG::GameCore::ChimeraMemberType Type; // 0x44
 		::RPG::GameCore::ChimeraHornsPartType Horn; // 0x48
-		::RPG::GameCore::ChimeraEyeDetailType Eye; // 0x4C
+		::System::UInt32 ChimeraID; // 0x4C
 
 		::System::Void _ctor()
 		{

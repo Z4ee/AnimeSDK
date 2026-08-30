@@ -3,22 +3,22 @@
 #include "unitysdk/RPG/GameCore/VideoEncryptionMethod.h"
 #include "unitysdk/System/ValueType.h"
 
-#define STRUCT_2_BDD5FBBF6DBFFD8D_METHOD_2_B078C58C2CD24B5E_OFFSET UNITYSDK_OFFSET(0x2D0AAA0)
-#define STRUCT_2_BDD5FBBF6DBFFD8D_METHOD_2_B87DD725F435ED7B_OFFSET UNITYSDK_OFFSET(0x2D0AA90)
-#define STRUCT_2_BDD5FBBF6DBFFD8D__CCTOR_OFFSET UNITYSDK_OFFSET(0x15140C70)
+#define STRUCT_2_BDD5FBBF6DBFFD8D_METHOD_2_B078C58C2CD24B5E_OFFSET UNITYSDK_OFFSET(0x2DF2B70)
+#define STRUCT_2_BDD5FBBF6DBFFD8D_METHOD_2_B87DD725F435ED7B_OFFSET UNITYSDK_OFFSET(0x2DF2B60)
+#define STRUCT_2_BDD5FBBF6DBFFD8D__CCTOR_OFFSET UNITYSDK_OFFSET(0x16056C50)
 
-inline static constexpr unsigned int Struct_2_BDD5FBBF6DBFFD8D_TypeDefinitionIndex = 69860;
+inline static constexpr unsigned int Struct_2_BDD5FBBF6DBFFD8D_TypeDefinitionIndex = 73117;
 
 struct alignas(8) Struct_2_BDD5FBBF6DBFFD8D
 {
-	static ::Struct_2_BDD5FBBF6DBFFD8D* StaticGet_Field_2_0()
+	static ::Struct_2_BDD5FBBF6DBFFD8D* StaticGet_NKHLMJGGKEM()
 	{
-		return (::Struct_2_BDD5FBBF6DBFFD8D*)Il2CppClass::FromTypeDefinitionIndex(Struct_2_BDD5FBBF6DBFFD8D_TypeDefinitionIndex)->GetStaticField(0x448C0);
+		return (::Struct_2_BDD5FBBF6DBFFD8D*)Il2CppClass::FromTypeDefinitionIndex(Struct_2_BDD5FBBF6DBFFD8D_TypeDefinitionIndex)->GetStaticField(0x1F1A0);
 	}
-	::System::UInt64 Field_2_1; // 0x10
-	::System::UInt64 Field_2_2; // 0x18
-	::Il2CppArray<::System::Byte>* Field_2_3; // 0x20
-	::RPG::GameCore::VideoEncryptionMethod Field_2_4; // 0x28
+	::System::UInt64 BFLIFKBEOPJ; // 0x10
+	::System::UInt64 MFGNBMNJPGP; // 0x18
+	::Il2CppArray<::System::Byte>* OJJLJDNKBEJ; // 0x20
+	::RPG::GameCore::VideoEncryptionMethod BMGKFAIOCAA; // 0x28
 
 	static ::System::Void _cctor()
 	{

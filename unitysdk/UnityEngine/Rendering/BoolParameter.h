@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Rendering/VolumeParameter_1.h"
 
-#define UNITYENGINE_RENDERING_BOOLPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x1CED9630)
+#define UNITYENGINE_RENDERING_BOOLPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EBE0E70)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int BoolParameter_TypeDefinitionIndex = 34187;
+	inline static constexpr unsigned int BoolParameter_TypeDefinitionIndex = 34954;
 
 	class BoolParameter : public ::UnityEngine::Rendering::VolumeParameter_1<::System::Boolean>
 	{

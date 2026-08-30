@@ -5,16 +5,16 @@
 class Class_2_E1E830ACEA2D2842;
 namespace RPG::Client { class ElationBattleBuffGroupViewData; }
 
-#define CLASS_2_E1E830ACEA2D2842___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1458BB20)
-#define CLASS_2_E1E830ACEA2D2842___C__DISPLAYCLASS6_0__SETUPVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x1458BC50)
+#define CLASS_2_E1E830ACEA2D2842___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15406520)
+#define CLASS_2_E1E830ACEA2D2842___C__DISPLAYCLASS6_0__SETUPVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x15406650)
 
-inline static constexpr unsigned int Class_2_E1E830ACEA2D2842___c__DisplayClass6_0_TypeDefinitionIndex = 67978;
+inline static constexpr unsigned int Class_2_E1E830ACEA2D2842___c__DisplayClass6_0_TypeDefinitionIndex = 71151;
 
 class Class_2_E1E830ACEA2D2842___c__DisplayClass6_0 : public ::System::Object
 {
 public:
-	::Class_2_E1E830ACEA2D2842* __4__this; // 0x10
-	::RPG::Client::ElationBattleBuffGroupViewData* viewData; // 0x18
+	::RPG::Client::ElationBattleBuffGroupViewData* viewData; // 0x10
+	::Class_2_E1E830ACEA2D2842* __4__this; // 0x18
 
 	::System::Void _ctor()
 	{

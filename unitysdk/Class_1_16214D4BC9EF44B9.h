@@ -6,19 +6,19 @@
 namespace RPG::Client { class ItemData; }
 namespace RPG::GameCore { class ItemDisplaySortNewRow; }
 
-#define CLASS_1_16214D4BC9EF44B9_METHOD_1_04DE4FBB293DFBD6_OFFSET UNITYSDK_OFFSET(0x1532D590)
-#define CLASS_1_16214D4BC9EF44B9_METHOD_1_451F9DF1AB538927_OFFSET UNITYSDK_OFFSET(0x1532D5E0)
-#define CLASS_1_16214D4BC9EF44B9__CTOR_OFFSET UNITYSDK_OFFSET(0x1532D560)
+#define CLASS_1_16214D4BC9EF44B9_METHOD_1_04DE4FBB293DFBD6_OFFSET UNITYSDK_OFFSET(0x162A4F10)
+#define CLASS_1_16214D4BC9EF44B9_METHOD_1_451F9DF1AB538927_OFFSET UNITYSDK_OFFSET(0x162A4F60)
+#define CLASS_1_16214D4BC9EF44B9__CTOR_OFFSET UNITYSDK_OFFSET(0x162A4EE0)
 
-inline static constexpr unsigned int Class_1_16214D4BC9EF44B9_TypeDefinitionIndex = 62813;
+inline static constexpr unsigned int Class_1_16214D4BC9EF44B9_TypeDefinitionIndex = 65798;
 
 class Class_1_16214D4BC9EF44B9 : public ::System::Object
 {
 public:
-	::RPG::GameCore::ItemDisplaySortType Field_1_0; // 0x10
-	::System::UInt32 Field_1_1; // 0x14
-	::System::UInt32 Field_1_2; // 0x18
-	::System::Int32 Field_1_3; // 0x1C
+	::System::UInt32 AJCPOOCBNNH; // 0x10
+	::System::Int32 OJJHJJPDPAJ; // 0x14
+	::System::UInt32 NNACKOBKFGE; // 0x18
+	::RPG::GameCore::ItemDisplaySortType GMPGDEINODK; // 0x1C
 
 	::System::Void _ctor(::RPG::GameCore::ItemDisplaySortNewRow* a1)
 	{

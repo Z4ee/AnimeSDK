@@ -1,32 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_CA217ABF4E3B4F3F.h"
+#include "unitysdk/Class_1_34917908B7833130.h"
 
-class Class_0_16E4307DCC419505_527;
+class Class_0_16E4307DCC419505_562;
 namespace RPG::Client { class RPGAnimationEvent; }
 namespace System { class String; }
 namespace UnityEngine { class Animation; }
 namespace UnityEngine::UI { class Image; }
 
-#define CLASS_2_0F57D56EBC21D897_METHOD_2_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0xB111690)
-#define CLASS_2_0F57D56EBC21D897_METHOD_2_5CEC4607322705E5_OFFSET UNITYSDK_OFFSET(0xB1116F0)
-#define CLASS_2_0F57D56EBC21D897_METHOD_2_D429B3A47EE61AE8_OFFSET UNITYSDK_OFFSET(0xB1112A0)
-#define CLASS_2_0F57D56EBC21D897__CTOR_OFFSET UNITYSDK_OFFSET(0xB111730)
-#define CLASS_2_0F57D56EBC21D897__ONBIND_OFFSET UNITYSDK_OFFSET(0xB111200)
-#define CLASS_2_0F57D56EBC21D897__SETUPVIEW_B__4_0_OFFSET UNITYSDK_OFFSET(0xB111760)
+#define CLASS_2_0F57D56EBC21D897_METHOD_2_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0xBA92B40)
+#define CLASS_2_0F57D56EBC21D897_METHOD_2_5CEC4607322705E5_OFFSET UNITYSDK_OFFSET(0xBA92BA0)
+#define CLASS_2_0F57D56EBC21D897_METHOD_2_D429B3A47EE61AE8_OFFSET UNITYSDK_OFFSET(0xBA92750)
+#define CLASS_2_0F57D56EBC21D897__CTOR_OFFSET UNITYSDK_OFFSET(0xBA92BE0)
+#define CLASS_2_0F57D56EBC21D897__ONBIND_OFFSET UNITYSDK_OFFSET(0xBA926B0)
+#define CLASS_2_0F57D56EBC21D897__SETUPVIEW_B__4_0_OFFSET UNITYSDK_OFFSET(0xBA92C10)
 
-inline static constexpr unsigned int Class_2_0F57D56EBC21D897_TypeDefinitionIndex = 68146;
+inline static constexpr unsigned int Class_2_0F57D56EBC21D897_TypeDefinitionIndex = 71324;
 
-class Class_2_0F57D56EBC21D897 : public ::Class_1_CA217ABF4E3B4F3F
+class Class_2_0F57D56EBC21D897 : public ::Class_1_34917908B7833130
 {
 public:
-	// static const ::System::String* Field_2_0; // 0x0
-	// static const ::System::String* Field_2_1; // 0x0
-	::UnityEngine::Animation* Field_2_2; // 0x60
-	::RPG::Client::RPGAnimationEvent* Field_2_3; // 0x68
-	::UnityEngine::UI::Image* Field_2_4; // 0x70
-	::System::UInt32 Field_2_5; // 0x78
-	::System::Boolean Field_2_6; // 0x7C
+	// static const ::System::String* PKGOOJBGLEG; // 0x0
+	// static const ::System::String* KBDENNHLLOC; // 0x0
+	::UnityEngine::UI::Image* LPMHMLOGPPN; // 0x60
+	::UnityEngine::Animation* KCOAILOHDND; // 0x68
+	::RPG::Client::RPGAnimationEvent* LHMIOEDNCAJ; // 0x70
+	::System::UInt32 CHDGJKAEJOF; // 0x78
+	::System::Boolean EMHAACACFOM; // 0x7C
 
 	::System::Void _ctor()
 	{
@@ -38,9 +38,9 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_0F57D56EBC21D897__ONBIND_OFFSET))(this);
 	}
 
-	::System::Void Method_2_D429B3A47EE61AE8(::Class_0_16E4307DCC419505_527* a1)
+	::System::Void Method_2_D429B3A47EE61AE8(::Class_0_16E4307DCC419505_562* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_527*))((::PBYTE)hIl2Cpp + CLASS_2_0F57D56EBC21D897_METHOD_2_D429B3A47EE61AE8_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_562*))((::PBYTE)hIl2Cpp + CLASS_2_0F57D56EBC21D897_METHOD_2_D429B3A47EE61AE8_OFFSET))(this, a1);
 	}
 
 	::System::Void Method_2_4343F372F34C05BF()

@@ -6,21 +6,21 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IEqualityComparer_1; }
 namespace UnityEngine { class Object; }
 
-#define UNITYENGINE_ASSERTIONS_ASSERT_AREEQUAL_1_OFFSET UNITYSDK_OFFSET(0x1D002EB0)
-#define UNITYENGINE_ASSERTIONS_ASSERT_AREEQUAL_OFFSET UNITYSDK_OFFSET(0x1D002C00)
-#define UNITYENGINE_ASSERTIONS_ASSERT_FAIL_OFFSET UNITYSDK_OFFSET(0x1D002A40)
-#define UNITYENGINE_ASSERTIONS_ASSERT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D002F70)
+#define UNITYENGINE_ASSERTIONS_ASSERT_AREEQUAL_1_OFFSET UNITYSDK_OFFSET(0x1ED0A280)
+#define UNITYENGINE_ASSERTIONS_ASSERT_AREEQUAL_OFFSET UNITYSDK_OFFSET(0x1ED09FD0)
+#define UNITYENGINE_ASSERTIONS_ASSERT_FAIL_OFFSET UNITYSDK_OFFSET(0x1ED09E10)
+#define UNITYENGINE_ASSERTIONS_ASSERT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1ED0A340)
 
 namespace UnityEngine::Assertions
 {
-	inline static constexpr unsigned int Assert_TypeDefinitionIndex = 4935;
+	inline static constexpr unsigned int Assert_TypeDefinitionIndex = 4947;
 
 	class Assert : public ::System::Object
 	{
 	public:
 		static ::System::Boolean* StaticGet_raiseExceptions()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Assert_TypeDefinitionIndex)->GetStaticField(0x8CE0);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Assert_TypeDefinitionIndex)->GetStaticField(0x3CF0);
 		}
 
 		static ::System::Void _cctor()

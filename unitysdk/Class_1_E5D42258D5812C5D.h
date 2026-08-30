@@ -3,10 +3,10 @@
 #include "unitysdk/RPG/CustomRP/Quality.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_E5D42258D5812C5D_METHOD_1_12C6880CB9F722B6_OFFSET UNITYSDK_OFFSET(0x15332FD0)
-#define CLASS_1_E5D42258D5812C5D__CTOR_OFFSET UNITYSDK_OFFSET(0x15333060)
+#define CLASS_1_E5D42258D5812C5D_METHOD_1_12C6880CB9F722B6_OFFSET UNITYSDK_OFFSET(0x162AA950)
+#define CLASS_1_E5D42258D5812C5D__CTOR_OFFSET UNITYSDK_OFFSET(0x162AA9E0)
 
-inline static constexpr unsigned int Class_1_E5D42258D5812C5D_TypeDefinitionIndex = 76093;
+inline static constexpr unsigned int Class_1_E5D42258D5812C5D_TypeDefinitionIndex = 79726;
 
 class Class_1_E5D42258D5812C5D : public ::System::Object
 {

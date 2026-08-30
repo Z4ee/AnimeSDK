@@ -4,19 +4,19 @@
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define CLASS_1_F0BC55524B5D6A07_CLASS_1_E7B1DF5735A03963__CTOR_OFFSET UNITYSDK_OFFSET(0x149E9740)
+#define CLASS_1_F0BC55524B5D6A07_CLASS_1_E7B1DF5735A03963__CTOR_OFFSET UNITYSDK_OFFSET(0x1587B9A0)
 
-inline static constexpr unsigned int Class_1_F0BC55524B5D6A07_Class_1_E7B1DF5735A03963_TypeDefinitionIndex = 70228;
+inline static constexpr unsigned int Class_1_F0BC55524B5D6A07_Class_1_E7B1DF5735A03963_TypeDefinitionIndex = 73527;
 
 class Class_1_F0BC55524B5D6A07_Class_1_E7B1DF5735A03963 : public ::System::Object
 {
 public:
-	::UnityEngine::Vector3 Field_1_0; // 0x10
-	::UnityEngine::Vector3 Field_1_1; // 0x1C
-	::UnityEngine::Vector3 Field_1_2; // 0x28
-	::UnityEngine::Vector2 Field_1_3; // 0x34
-	::UnityEngine::Vector2 Field_1_4; // 0x3C
-	::UnityEngine::Vector3 Field_1_5; // 0x44
+	::UnityEngine::Vector3 NKDECDGECFL; // 0x10
+	::UnityEngine::Vector2 ADJDECJDOEN; // 0x1C
+	::UnityEngine::Vector2 BODOJEECPMK; // 0x24
+	::UnityEngine::Vector3 PECPBEOHOJC; // 0x2C
+	::UnityEngine::Vector3 LLKCEKEOIME; // 0x38
+	::UnityEngine::Vector3 HLENMDAPAGH; // 0x44
 
 	::System::Void _ctor()
 	{

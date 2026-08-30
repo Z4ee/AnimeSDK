@@ -6,19 +6,19 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ADVENTUREPLAYERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B17E680)
-#define RPG_GAMECORE_ADVENTUREPLAYERROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B17EDE0)
+#define RPG_GAMECORE_ADVENTUREPLAYERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CDF59E0)
+#define RPG_GAMECORE_ADVENTUREPLAYERROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CDF6180)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventurePlayerRow_TypeDefinitionIndex = 12105;
+	inline static constexpr unsigned int AdventurePlayerRow_TypeDefinitionIndex = 12494;
 
 	class AdventurePlayerRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* MazeSkillIdList; // 0x10
+		::System::String* PlayerJsonPath; // 0x10
 		::System::String* PlayerPrefabPath; // 0x18
-		::System::String* PlayerJsonPath; // 0x20
+		::Il2CppArray<::System::UInt32>* MazeSkillIdList; // 0x20
 		::System::String* DefaultAvatarHeadIconPath; // 0x28
 		::RPG::Client::TextID PlayerName; // 0x30
 		::System::UInt32 AvatarID; // 0x40

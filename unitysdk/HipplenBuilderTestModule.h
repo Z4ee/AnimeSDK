@@ -10,12 +10,12 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define HIPPLENBUILDERTESTMODULE_GETTESTSINDAY_OFFSET UNITYSDK_OFFSET(0x14BD16C0)
-#define HIPPLENBUILDERTESTMODULE_INIT_OFFSET UNITYSDK_OFFSET(0x14BCF6F0)
-#define HIPPLENBUILDERTESTMODULE_TAKETEST_OFFSET UNITYSDK_OFFSET(0x14BD6E00)
-#define HIPPLENBUILDERTESTMODULE__CTOR_OFFSET UNITYSDK_OFFSET(0x14BDEDF0)
+#define HIPPLENBUILDERTESTMODULE_GETTESTSINDAY_OFFSET UNITYSDK_OFFSET(0x15AD1BC0)
+#define HIPPLENBUILDERTESTMODULE_INIT_OFFSET UNITYSDK_OFFSET(0x15ACFBF0)
+#define HIPPLENBUILDERTESTMODULE_TAKETEST_OFFSET UNITYSDK_OFFSET(0x15AD7300)
+#define HIPPLENBUILDERTESTMODULE__CTOR_OFFSET UNITYSDK_OFFSET(0x15ADF310)
 
-inline static constexpr unsigned int HipplenBuilderTestModule_TypeDefinitionIndex = 45423;
+inline static constexpr unsigned int HipplenBuilderTestModule_TypeDefinitionIndex = 47673;
 
 class HipplenBuilderTestModule : public ::UnityEngine::MonoBehaviour
 {

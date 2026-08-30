@@ -6,17 +6,17 @@ namespace RPG::GameCore { class OpenFarmElement; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class Object; }
 
-#define CLASS_3_5EC3112DE3633550_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xAD14490)
-#define CLASS_3_5EC3112DE3633550__CTOR_OFFSET UNITYSDK_OFFSET(0xAD14440)
-#define CLASS_3_5EC3112DE3633550__ONPAGECONFIRMCLOSE_OFFSET UNITYSDK_OFFSET(0xAD14840)
+#define CLASS_3_5EC3112DE3633550_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB4609B0)
+#define CLASS_3_5EC3112DE3633550__CTOR_OFFSET UNITYSDK_OFFSET(0xB460960)
+#define CLASS_3_5EC3112DE3633550__ONPAGECONFIRMCLOSE_OFFSET UNITYSDK_OFFSET(0xB460D60)
 
-inline static constexpr unsigned int Class_3_5EC3112DE3633550_TypeDefinitionIndex = 55658;
+inline static constexpr unsigned int Class_3_5EC3112DE3633550_TypeDefinitionIndex = 58389;
 
 class Class_3_5EC3112DE3633550 : public ::RPG::GameCore::OpenUIPageTaskBase_1<::RPG::GameCore::OpenFarmElement*>
 {
 public:
-	::System::UInt32 Field_3_0; // 0x40
-	::System::UInt32 Field_3_1; // 0x44
+	::System::UInt32 BLKIFKGEBGE; // 0x40
+	::System::UInt32 GJABCILEAPJ; // 0x44
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::OpenFarmElement* a2)
 	{

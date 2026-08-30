@@ -7,11 +7,11 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_TIMEREWINDRAYCASTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xD6B1400)
+#define RPG_CLIENT_TIMEREWINDRAYCASTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xE200ED0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TimeRewindRaycastInfo_TypeDefinitionIndex = 58115;
+	inline static constexpr unsigned int TimeRewindRaycastInfo_TypeDefinitionIndex = 60942;
 
 	class TimeRewindRaycastInfo : public ::System::Object
 	{

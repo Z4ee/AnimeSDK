@@ -3,10 +3,10 @@
 #include "unitysdk/WwiseObjectReference.h"
 #include "unitysdk/WwiseObjectType.h"
 
-#define WWISESTATEGROUPREFERENCE_GET_WWISEOBJECTTYPE_OFFSET UNITYSDK_OFFSET(0x1D263B90)
-#define WWISESTATEGROUPREFERENCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D263BA0)
+#define WWISESTATEGROUPREFERENCE_GET_WWISEOBJECTTYPE_OFFSET UNITYSDK_OFFSET(0x1EF6F630)
+#define WWISESTATEGROUPREFERENCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF6F640)
 
-inline static constexpr unsigned int WwiseStateGroupReference_TypeDefinitionIndex = 42086;
+inline static constexpr unsigned int WwiseStateGroupReference_TypeDefinitionIndex = 43697;
 
 class WwiseStateGroupReference : public ::WwiseObjectReference
 {

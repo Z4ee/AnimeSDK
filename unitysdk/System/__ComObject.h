@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM___COMOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A07E150)
+#define SYSTEM___COMOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC858B0)
 
 namespace System
 {
-	inline static constexpr unsigned int __ComObject_TypeDefinitionIndex = 460;
+	inline static constexpr unsigned int __ComObject_TypeDefinitionIndex = 463;
 
 	class __ComObject : public ::System::Object
 	{

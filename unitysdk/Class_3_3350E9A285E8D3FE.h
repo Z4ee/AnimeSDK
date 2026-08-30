@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByHaveInsertUltraWait; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_3350E9A285E8D3FE_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB2FD050)
-#define CLASS_3_3350E9A285E8D3FE__CTOR_OFFSET UNITYSDK_OFFSET(0xB2FD020)
+#define CLASS_3_3350E9A285E8D3FE_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBCE5500)
+#define CLASS_3_3350E9A285E8D3FE__CTOR_OFFSET UNITYSDK_OFFSET(0xBCE54D0)
 
-inline static constexpr unsigned int Class_3_3350E9A285E8D3FE_TypeDefinitionIndex = 52414;
+inline static constexpr unsigned int Class_3_3350E9A285E8D3FE_TypeDefinitionIndex = 55110;
 
 class Class_3_3350E9A285E8D3FE : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByHaveInsertUltraWait*>
 {

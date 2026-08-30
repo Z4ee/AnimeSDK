@@ -4,7 +4,7 @@
 
 namespace RPG
 {
-	inline static constexpr unsigned int IAutoReleaseReferenceObject_TypeDefinitionIndex = 5624;
+	inline static constexpr unsigned int IAutoReleaseReferenceObject_TypeDefinitionIndex = 5613;
 
 	class IAutoReleaseReferenceObject
 	{

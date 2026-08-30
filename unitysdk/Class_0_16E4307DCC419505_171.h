@@ -10,7 +10,7 @@ namespace System { class Action; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_171_TypeDefinitionIndex = 39711;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_171_TypeDefinitionIndex = 40584;
 
 class Class_0_16E4307DCC419505_171
 {

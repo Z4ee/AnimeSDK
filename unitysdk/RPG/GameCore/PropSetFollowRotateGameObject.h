@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_PROPSETFOLLOWROTATEGAMEOBJECT_METHOD_2_03C27C14DD3402DE_OFFSET UNITYSDK_OFFSET(0x1B6EC070)
-#define RPG_GAMECORE_PROPSETFOLLOWROTATEGAMEOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6EC1A0)
+#define RPG_GAMECORE_PROPSETFOLLOWROTATEGAMEOBJECT_METHOD_2_03C27C14DD3402DE_OFFSET UNITYSDK_OFFSET(0x1D36E510)
+#define RPG_GAMECORE_PROPSETFOLLOWROTATEGAMEOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D36E640)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropSetFollowRotateGameObject_TypeDefinitionIndex = 21265;
+	inline static constexpr unsigned int PropSetFollowRotateGameObject_TypeDefinitionIndex = 21825;
 
 	class PropSetFollowRotateGameObject : public ::RPG::GameCore::JsonConfig
 	{

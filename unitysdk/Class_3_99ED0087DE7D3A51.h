@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByComparePreShowStanceBreakMonsterRank; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_99ED0087DE7D3A51_EVALUATE_OFFSET UNITYSDK_OFFSET(0x14491D20)
-#define CLASS_3_99ED0087DE7D3A51__CTOR_OFFSET UNITYSDK_OFFSET(0x14491CF0)
+#define CLASS_3_99ED0087DE7D3A51_EVALUATE_OFFSET UNITYSDK_OFFSET(0x152C2BD0)
+#define CLASS_3_99ED0087DE7D3A51__CTOR_OFFSET UNITYSDK_OFFSET(0x152C2BA0)
 
-inline static constexpr unsigned int Class_3_99ED0087DE7D3A51_TypeDefinitionIndex = 52232;
+inline static constexpr unsigned int Class_3_99ED0087DE7D3A51_TypeDefinitionIndex = 54919;
 
 class Class_3_99ED0087DE7D3A51 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByComparePreShowStanceBreakMonsterRank*>
 {

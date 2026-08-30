@@ -2,25 +2,38 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_64D890C466F37235;
+class Class_1_2B4C9D5EFCB958DD;
+namespace System { class String; }
 
-#define CLASS_1_F9FBCC956DFCF137_6_METHOD_1_E8302C157AFBAD54_OFFSET UNITYSDK_OFFSET(0xB5AE650)
-#define CLASS_1_F9FBCC956DFCF137_6__CTOR_OFFSET UNITYSDK_OFFSET(0xB5AE640)
+#define CLASS_1_F9FBCC956DFCF137_6_METHOD_1_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0xB7B7160)
+#define CLASS_1_F9FBCC956DFCF137_6_METHOD_1_C2DA14976E70EEE4_OFFSET UNITYSDK_OFFSET(0xB7B71A0)
+#define CLASS_1_F9FBCC956DFCF137_6_TOSTRING_OFFSET UNITYSDK_OFFSET(0xB7B7200)
+#define CLASS_1_F9FBCC956DFCF137_6__CTOR_OFFSET UNITYSDK_OFFSET(0xB7B7150)
 
-inline static constexpr unsigned int Class_1_F9FBCC956DFCF137_6_TypeDefinitionIndex = 57909;
+inline static constexpr unsigned int Class_1_F9FBCC956DFCF137_6_TypeDefinitionIndex = 59539;
 
 class Class_1_F9FBCC956DFCF137_6 : public ::System::Object
 {
 public:
-	::Class_1_64D890C466F37235* Field_1_0; // 0x10
+	::Class_1_2B4C9D5EFCB958DD* FKKNLHAEGOL; // 0x10
 
-	::System::Void _ctor(::Class_1_64D890C466F37235* a1)
+	::System::Void _ctor(::Class_1_2B4C9D5EFCB958DD* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_1_64D890C466F37235*))((::PBYTE)hIl2Cpp + CLASS_1_F9FBCC956DFCF137_6__CTOR_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::Class_1_2B4C9D5EFCB958DD*))((::PBYTE)hIl2Cpp + CLASS_1_F9FBCC956DFCF137_6__CTOR_OFFSET))(this, a1);
 	}
 
-	::System::Boolean Method_1_E8302C157AFBAD54()
+	::System::Boolean Method_1_391A84BCD9F51317()
 	{
-		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F9FBCC956DFCF137_6_METHOD_1_E8302C157AFBAD54_OFFSET))(this);
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F9FBCC956DFCF137_6_METHOD_1_391A84BCD9F51317_OFFSET))(this);
+	}
+
+	::System::Boolean Method_1_C2DA14976E70EEE4()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F9FBCC956DFCF137_6_METHOD_1_C2DA14976E70EEE4_OFFSET))(this);
+	}
+
+	::System::String* ToString()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F9FBCC956DFCF137_6_TOSTRING_OFFSET))(this);
 	}
 };

@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class ParkourLevelGroup; }
 
-#define RPG_CLIENT_ACTIVITYPARKOURMODULE___C__DISPLAYCLASS27_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBC43220)
-#define RPG_CLIENT_ACTIVITYPARKOURMODULE___C__DISPLAYCLASS27_0__GETLEVELGROUPBYID_B__0_OFFSET UNITYSDK_OFFSET(0xBC45990)
+#define RPG_CLIENT_ACTIVITYPARKOURMODULE___C__DISPLAYCLASS27_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC662A70)
+#define RPG_CLIENT_ACTIVITYPARKOURMODULE___C__DISPLAYCLASS27_0__GETLEVELGROUPBYID_B__0_OFFSET UNITYSDK_OFFSET(0xC6651E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityParkourModule___c__DisplayClass27_0_TypeDefinitionIndex = 59084;
+	inline static constexpr unsigned int ActivityParkourModule___c__DisplayClass27_0_TypeDefinitionIndex = 61919;
 
 	class ActivityParkourModule___c__DisplayClass27_0 : public ::System::Object
 	{

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SYSTEM_DIAGNOSTICS_CODEANALYSIS_DISALLOWNULLATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x19B4C000)
+#define SYSTEM_DIAGNOSTICS_CODEANALYSIS_DISALLOWNULLATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6DB330)
 
 namespace System::Diagnostics::CodeAnalysis
 {
-	inline static constexpr unsigned int DisallowNullAttribute_TypeDefinitionIndex = 7483;
+	inline static constexpr unsigned int DisallowNullAttribute_TypeDefinitionIndex = 7469;
 
 	class DisallowNullAttribute : public ::System::Attribute
 	{

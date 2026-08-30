@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define UNITYENGINE_JOBS_TRANSFORMACCESS_GETLOCALTOWORLDMATRIX_OFFSET UNITYSDK_OFFSET(0x1D0240B0)
-#define UNITYENGINE_JOBS_TRANSFORMACCESS_GET_LOCALTOWORLDMATRIX_OFFSET UNITYSDK_OFFSET(0x3A278D0)
+#define UNITYENGINE_JOBS_TRANSFORMACCESS_GETLOCALTOWORLDMATRIX_OFFSET UNITYSDK_OFFSET(0x1ED2B6C0)
+#define UNITYENGINE_JOBS_TRANSFORMACCESS_GET_LOCALTOWORLDMATRIX_OFFSET UNITYSDK_OFFSET(0x3BB9820)
 
 namespace UnityEngine::Jobs
 {
-	inline static constexpr unsigned int TransformAccess_TypeDefinitionIndex = 4416;
+	inline static constexpr unsigned int TransformAccess_TypeDefinitionIndex = 4426;
 
 	struct alignas(8) TransformAccess
 	{

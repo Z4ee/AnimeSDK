@@ -7,10 +7,10 @@ namespace RPG::GameCore { class RtTargetMapSkillAbortSource; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_0D41D0B7B372D8A9_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x15176C90)
-#define CLASS_2_0D41D0B7B372D8A9__CTOR_OFFSET UNITYSDK_OFFSET(0x15176C70)
+#define CLASS_2_0D41D0B7B372D8A9_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x1608E9D0)
+#define CLASS_2_0D41D0B7B372D8A9__CTOR_OFFSET UNITYSDK_OFFSET(0x1608E9B0)
 
-inline static constexpr unsigned int Class_2_0D41D0B7B372D8A9_TypeDefinitionIndex = 51336;
+inline static constexpr unsigned int Class_2_0D41D0B7B372D8A9_TypeDefinitionIndex = 54020;
 
 class Class_2_0D41D0B7B372D8A9 : public ::RPG::GameCore::TargetSeqOperationImpl_1<::RPG::GameCore::RtTargetMapSkillAbortSource*>
 {

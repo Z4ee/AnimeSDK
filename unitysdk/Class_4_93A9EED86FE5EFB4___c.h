@@ -5,32 +5,32 @@
 namespace RPG::Client::LittleGame::ChimeraDuel { class ChimeraDuelChimeraCache; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define CLASS_4_93A9EED86FE5EFB4___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xB6F98F0)
-#define CLASS_4_93A9EED86FE5EFB4___C__CTOR_OFFSET UNITYSDK_OFFSET(0xB6F9930)
-#define CLASS_4_93A9EED86FE5EFB4___C__SELECTENTITYIDS_B__4_0_OFFSET UNITYSDK_OFFSET(0xB6F9940)
-#define CLASS_4_93A9EED86FE5EFB4___C__SELECTENTITYIDS_B__4_1_OFFSET UNITYSDK_OFFSET(0xB6F9960)
-#define CLASS_4_93A9EED86FE5EFB4___C__SELECTENTITYIDS_B__4_3_OFFSET UNITYSDK_OFFSET(0xB6F9980)
+#define CLASS_4_93A9EED86FE5EFB4___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC0C77E0)
+#define CLASS_4_93A9EED86FE5EFB4___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC0C7820)
+#define CLASS_4_93A9EED86FE5EFB4___C__SELECTENTITYIDS_B__4_0_OFFSET UNITYSDK_OFFSET(0xC0C7830)
+#define CLASS_4_93A9EED86FE5EFB4___C__SELECTENTITYIDS_B__4_1_OFFSET UNITYSDK_OFFSET(0xC0C7850)
+#define CLASS_4_93A9EED86FE5EFB4___C__SELECTENTITYIDS_B__4_3_OFFSET UNITYSDK_OFFSET(0xC0C7870)
 
-inline static constexpr unsigned int Class_4_93A9EED86FE5EFB4___c_TypeDefinitionIndex = 73690;
+inline static constexpr unsigned int Class_4_93A9EED86FE5EFB4___c_TypeDefinitionIndex = 77174;
 
 class Class_4_93A9EED86FE5EFB4___c : public ::System::Object
 {
 public:
-	static ::System::Func_2<::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache*, ::System::Int32>** StaticGet___9__4_1()
-	{
-		return (::System::Func_2<::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Class_4_93A9EED86FE5EFB4___c_TypeDefinitionIndex)->GetStaticField(0x5560);
-	}
 	static ::Class_4_93A9EED86FE5EFB4___c** StaticGet___9()
 	{
-		return (::Class_4_93A9EED86FE5EFB4___c**)Il2CppClass::FromTypeDefinitionIndex(Class_4_93A9EED86FE5EFB4___c_TypeDefinitionIndex)->GetStaticField(0x5568);
-	}
-	static ::System::Func_2<::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache*, ::System::Int32>** StaticGet___9__4_0()
-	{
-		return (::System::Func_2<::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Class_4_93A9EED86FE5EFB4___c_TypeDefinitionIndex)->GetStaticField(0x5570);
+		return (::Class_4_93A9EED86FE5EFB4___c**)Il2CppClass::FromTypeDefinitionIndex(Class_4_93A9EED86FE5EFB4___c_TypeDefinitionIndex)->GetStaticField(0x14D00);
 	}
 	static ::System::Func_2<::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache*, ::System::Int32>** StaticGet___9__4_3()
 	{
-		return (::System::Func_2<::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Class_4_93A9EED86FE5EFB4___c_TypeDefinitionIndex)->GetStaticField(0x5578);
+		return (::System::Func_2<::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Class_4_93A9EED86FE5EFB4___c_TypeDefinitionIndex)->GetStaticField(0x14D08);
+	}
+	static ::System::Func_2<::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache*, ::System::Int32>** StaticGet___9__4_1()
+	{
+		return (::System::Func_2<::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Class_4_93A9EED86FE5EFB4___c_TypeDefinitionIndex)->GetStaticField(0x14D10);
+	}
+	static ::System::Func_2<::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache*, ::System::Int32>** StaticGet___9__4_0()
+	{
+		return (::System::Func_2<::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Class_4_93A9EED86FE5EFB4___c_TypeDefinitionIndex)->GetStaticField(0x14D18);
 	}
 
 	static ::System::Void _cctor()

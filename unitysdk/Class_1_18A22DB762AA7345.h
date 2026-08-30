@@ -4,17 +4,17 @@
 
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define CLASS_1_18A22DB762AA7345_METHOD_1_3FC5D2EAE16048C0_OFFSET UNITYSDK_OFFSET(0xBAA3890)
-#define CLASS_1_18A22DB762AA7345__CTOR_OFFSET UNITYSDK_OFFSET(0xBAA3C30)
+#define CLASS_1_18A22DB762AA7345_METHOD_1_3FC5D2EAE16048C0_OFFSET UNITYSDK_OFFSET(0x12845200)
+#define CLASS_1_18A22DB762AA7345__CTOR_OFFSET UNITYSDK_OFFSET(0x128455A0)
 
-inline static constexpr unsigned int Class_1_18A22DB762AA7345_TypeDefinitionIndex = 64901;
+inline static constexpr unsigned int Class_1_18A22DB762AA7345_TypeDefinitionIndex = 67907;
 
 class Class_1_18A22DB762AA7345 : public ::System::Object
 {
 public:
-	static ::System::Collections::Generic::HashSet_1<::System::UInt32>** StaticGet_Field_1_0()
+	static ::System::Collections::Generic::HashSet_1<::System::UInt32>** StaticGet_FPNHGIOHNPA()
 	{
-		return (::System::Collections::Generic::HashSet_1<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_18A22DB762AA7345_TypeDefinitionIndex)->GetStaticField(0x4EE60);
+		return (::System::Collections::Generic::HashSet_1<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_18A22DB762AA7345_TypeDefinitionIndex)->GetStaticField(0x581D0);
 	}
 
 	::System::Void _ctor()

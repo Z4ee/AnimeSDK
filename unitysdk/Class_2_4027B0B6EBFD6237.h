@@ -5,16 +5,16 @@
 class Class_2_48488E8DBD9F6BCE;
 namespace RPG::GameCore { class DiceCombatTaskConfig_TriggerSkillHint; }
 
-#define CLASS_2_4027B0B6EBFD6237_METHOD_2_AA169839CB93802A_OFFSET UNITYSDK_OFFSET(0x1A5DCBE0)
-#define CLASS_2_4027B0B6EBFD6237__CTOR_OFFSET UNITYSDK_OFFSET(0x1A5DCBD0)
+#define CLASS_2_4027B0B6EBFD6237_METHOD_2_AA169839CB93802A_OFFSET UNITYSDK_OFFSET(0x1C1EC6F0)
+#define CLASS_2_4027B0B6EBFD6237__CTOR_OFFSET UNITYSDK_OFFSET(0x1C1EC6E0)
 
-inline static constexpr unsigned int Class_2_4027B0B6EBFD6237_TypeDefinitionIndex = 34755;
+inline static constexpr unsigned int Class_2_4027B0B6EBFD6237_TypeDefinitionIndex = 35616;
 
 class Class_2_4027B0B6EBFD6237 : public ::Class_1_B55037134F9E6688
 {
 public:
-	::Class_2_48488E8DBD9F6BCE* Field_2_0; // 0x18
-	::RPG::GameCore::DiceCombatTaskConfig_TriggerSkillHint* Field_2_1; // 0x20
+	::Class_2_48488E8DBD9F6BCE* EEFMDEHLLFI; // 0x18
+	::RPG::GameCore::DiceCombatTaskConfig_TriggerSkillHint* IGHAHBNLIJA; // 0x20
 
 	::System::Void _ctor(::RPG::GameCore::DiceCombatTaskConfig_TriggerSkillHint* a1, ::Class_2_48488E8DBD9F6BCE* a2)
 	{

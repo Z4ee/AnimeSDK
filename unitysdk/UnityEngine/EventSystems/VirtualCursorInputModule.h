@@ -11,14 +11,14 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine::EventSystems { class EventSystem; }
 namespace UnityEngine::EventSystems { class PointerEventData; }
 
-#define UNITYENGINE_EVENTSYSTEMS_VIRTUALCURSORINPUTMODULE_ONGUI_OFFSET UNITYSDK_OFFSET(0xDDBD880)
-#define UNITYENGINE_EVENTSYSTEMS_VIRTUALCURSORINPUTMODULE_PROCESS_OFFSET UNITYSDK_OFFSET(0xDDBD2C0)
-#define UNITYENGINE_EVENTSYSTEMS_VIRTUALCURSORINPUTMODULE_START_OFFSET UNITYSDK_OFFSET(0xDDBD190)
-#define UNITYENGINE_EVENTSYSTEMS_VIRTUALCURSORINPUTMODULE__CTOR_OFFSET UNITYSDK_OFFSET(0xDDBDB70)
+#define UNITYENGINE_EVENTSYSTEMS_VIRTUALCURSORINPUTMODULE_ONGUI_OFFSET UNITYSDK_OFFSET(0xE996610)
+#define UNITYENGINE_EVENTSYSTEMS_VIRTUALCURSORINPUTMODULE_PROCESS_OFFSET UNITYSDK_OFFSET(0xE996050)
+#define UNITYENGINE_EVENTSYSTEMS_VIRTUALCURSORINPUTMODULE_START_OFFSET UNITYSDK_OFFSET(0xE995F20)
+#define UNITYENGINE_EVENTSYSTEMS_VIRTUALCURSORINPUTMODULE__CTOR_OFFSET UNITYSDK_OFFSET(0xE996900)
 
 namespace UnityEngine::EventSystems
 {
-	inline static constexpr unsigned int VirtualCursorInputModule_TypeDefinitionIndex = 45964;
+	inline static constexpr unsigned int VirtualCursorInputModule_TypeDefinitionIndex = 48187;
 
 	class VirtualCursorInputModule : public ::UnityEngine::EventSystems::PointerInputModule
 	{
@@ -26,10 +26,10 @@ namespace UnityEngine::EventSystems
 		::UnityEngine::GameObject* cursorObject; // 0x58
 		::UnityEngine::Camera* uiCamera; // 0x60
 		::UnityEngine::EventSystems::EventSystem* eventSystem; // 0x68
-		::UnityEngine::Vector2 Field_8_3; // 0x70
+		::UnityEngine::Vector2 AGADKKGBPAP; // 0x70
 		::System::String* m_SubmitButton; // 0x78
 		::System::Int32 playerNumber; // 0x80
-		::UnityEngine::EventSystems::PointerEventData* Field_8_6; // 0x88
+		::UnityEngine::EventSystems::PointerEventData* OBPJAMFGFIP; // 0x88
 		::UnityEngine::Vector3 debugPos; // 0x90
 		::UnityEngine::Vector3 mousePos; // 0x9C
 		::UnityEngine::Resolution resolution; // 0xA8

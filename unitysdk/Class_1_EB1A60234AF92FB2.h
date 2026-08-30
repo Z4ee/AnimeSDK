@@ -3,14 +3,14 @@
 #include "unitysdk/RPG/Client/LittleGame/PingPong/GameState.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_EB1A60234AF92FB2__CTOR_OFFSET UNITYSDK_OFFSET(0x1A79D8B0)
+#define CLASS_1_EB1A60234AF92FB2__CTOR_OFFSET UNITYSDK_OFFSET(0x1C3C3A60)
 
-inline static constexpr unsigned int Class_1_EB1A60234AF92FB2_TypeDefinitionIndex = 40425;
+inline static constexpr unsigned int Class_1_EB1A60234AF92FB2_TypeDefinitionIndex = 41363;
 
 class Class_1_EB1A60234AF92FB2 : public ::System::Object
 {
 public:
-	::RPG::Client::LittleGame::PingPong::GameState Field_1_0; // 0x10
+	::RPG::Client::LittleGame::PingPong::GameState MEPFOEEGBEA; // 0x10
 
 	::System::Void _ctor()
 	{

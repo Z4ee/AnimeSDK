@@ -3,7 +3,7 @@
 
 namespace System::Collections::Immutable
 {
-	inline static constexpr unsigned int IOrderedCollection_1_TypeDefinitionIndex = 6992;
+	inline static constexpr unsigned int IOrderedCollection_1_TypeDefinitionIndex = 6604;
 
 	template <typename T>
 	class IOrderedCollection_1

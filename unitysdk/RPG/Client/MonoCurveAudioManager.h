@@ -10,13 +10,13 @@ namespace RPG::GameCore { class TriggerSound; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_MONOCURVEAUDIOMANAGER_AWAKE_OFFSET UNITYSDK_OFFSET(0xCC3CF30)
-#define RPG_CLIENT_MONOCURVEAUDIOMANAGER_POSTEVENT_OFFSET UNITYSDK_OFFSET(0xCC3CBA0)
-#define RPG_CLIENT_MONOCURVEAUDIOMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0xCC3D4B0)
+#define RPG_CLIENT_MONOCURVEAUDIOMANAGER_AWAKE_OFFSET UNITYSDK_OFFSET(0xD73BE00)
+#define RPG_CLIENT_MONOCURVEAUDIOMANAGER_POSTEVENT_OFFSET UNITYSDK_OFFSET(0xD73BA70)
+#define RPG_CLIENT_MONOCURVEAUDIOMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0xD73C380)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoCurveAudioManager_TypeDefinitionIndex = 65489;
+	inline static constexpr unsigned int MonoCurveAudioManager_TypeDefinitionIndex = 68504;
 
 	class MonoCurveAudioManager : public ::UnityEngine::MonoBehaviour
 	{
@@ -30,10 +30,10 @@ namespace RPG::Client
 		::System::String* triggerLoadLogic; // 0x48
 		::System::String* triggerUnloadLogic; // 0x50
 		::System::String* switchConnection; // 0x58
-		::System::Collections::Generic::List_1<::System::String*>* Field_5_9; // 0x60
-		::RPG::GameCore::TriggerSound* Field_5_10; // 0x68
-		::RPG::GameCore::TaskContext* Field_5_11; // 0x70
-		::Class_1_5F51D4049EA87B7B* Field_5_12; // 0x78
+		::System::Collections::Generic::List_1<::System::String*>* FHMBLOMADBP; // 0x60
+		::RPG::GameCore::TriggerSound* PGDIMEPKKHA; // 0x68
+		::RPG::GameCore::TaskContext* GOCDAALEDMH; // 0x70
+		::Class_1_5F51D4049EA87B7B* NNJOKEDIHHF; // 0x78
 
 		::System::Void _ctor()
 		{

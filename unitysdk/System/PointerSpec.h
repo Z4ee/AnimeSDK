@@ -6,14 +6,14 @@ namespace System { class String; }
 namespace System { class Type; }
 namespace System::Text { class StringBuilder; }
 
-#define SYSTEM_POINTERSPEC_APPEND_OFFSET UNITYSDK_OFFSET(0x1A180220)
-#define SYSTEM_POINTERSPEC_RESOLVE_OFFSET UNITYSDK_OFFSET(0x1A180160)
-#define SYSTEM_POINTERSPEC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1A180250)
-#define SYSTEM_POINTERSPEC__CTOR_OFFSET UNITYSDK_OFFSET(0x1A180150)
+#define SYSTEM_POINTERSPEC_APPEND_OFFSET UNITYSDK_OFFSET(0x1BD87E20)
+#define SYSTEM_POINTERSPEC_RESOLVE_OFFSET UNITYSDK_OFFSET(0x1BD87D60)
+#define SYSTEM_POINTERSPEC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1BD87E50)
+#define SYSTEM_POINTERSPEC__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD87D50)
 
 namespace System
 {
-	inline static constexpr unsigned int PointerSpec_TypeDefinitionIndex = 443;
+	inline static constexpr unsigned int PointerSpec_TypeDefinitionIndex = 446;
 
 	class PointerSpec : public ::System::Object
 	{

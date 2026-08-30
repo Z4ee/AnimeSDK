@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoSimplePointLight_PointIndex_TypeDefinitionIndex = 67637;
+	inline static constexpr unsigned int MonoSimplePointLight_PointIndex_TypeDefinitionIndex = 70760;
 
 	enum class MonoSimplePointLight_PointIndex : ::System::Int32
 	{

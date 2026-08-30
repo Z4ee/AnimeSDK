@@ -7,17 +7,17 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_9FAC60B77F29B899_METHOD_1_64D83CC370B9B944_OFFSET UNITYSDK_OFFSET(0x152EBBF0)
-#define CLASS_1_9FAC60B77F29B899_TOSTRING_OFFSET UNITYSDK_OFFSET(0x152EBAE0)
-#define CLASS_1_9FAC60B77F29B899_TRIGGERACTION_OFFSET UNITYSDK_OFFSET(0x152EBB70)
-#define CLASS_1_9FAC60B77F29B899__CTOR_OFFSET UNITYSDK_OFFSET(0x152EBA30)
+#define CLASS_1_9FAC60B77F29B899_METHOD_1_64D83CC370B9B944_OFFSET UNITYSDK_OFFSET(0x16260EA0)
+#define CLASS_1_9FAC60B77F29B899_TOSTRING_OFFSET UNITYSDK_OFFSET(0x16260D90)
+#define CLASS_1_9FAC60B77F29B899_TRIGGERACTION_OFFSET UNITYSDK_OFFSET(0x16260E20)
+#define CLASS_1_9FAC60B77F29B899__CTOR_OFFSET UNITYSDK_OFFSET(0x16260CE0)
 
-inline static constexpr unsigned int Class_1_9FAC60B77F29B899_TypeDefinitionIndex = 64052;
+inline static constexpr unsigned int Class_1_9FAC60B77F29B899_TypeDefinitionIndex = 67044;
 
 class Class_1_9FAC60B77F29B899 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::RPG::Client::IRogueTournPersonaRoomCardInGame*>* Field_1_0; // 0x10
+	::System::Collections::Generic::List_1<::RPG::Client::IRogueTournPersonaRoomCardInGame*>* OLDOJJDKBOO; // 0x10
 
 	::System::Void _ctor(::System::Collections::Generic::IEnumerable_1<::RPG::Client::IRogueTournPersonaRoomCardInGame*>* a1)
 	{

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class FloorCustomStringConfig; }
 namespace System { class String; }
 
-#define CLASS_3_634F5FD78C8449A2_ISVALUEEQUALSTO_OFFSET UNITYSDK_OFFSET(0x1198A950)
-#define CLASS_3_634F5FD78C8449A2__CTOR_OFFSET UNITYSDK_OFFSET(0x1198A920)
+#define CLASS_3_634F5FD78C8449A2_ISVALUEEQUALSTO_OFFSET UNITYSDK_OFFSET(0x12870FE0)
+#define CLASS_3_634F5FD78C8449A2__CTOR_OFFSET UNITYSDK_OFFSET(0x12870FB0)
 
-inline static constexpr unsigned int Class_3_634F5FD78C8449A2_TypeDefinitionIndex = 59336;
+inline static constexpr unsigned int Class_3_634F5FD78C8449A2_TypeDefinitionIndex = 62171;
 
 class Class_3_634F5FD78C8449A2 : public ::RPG::Client::FloorCustomValue_1<::System::String*>
 {

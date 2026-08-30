@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/LittleGame/ChimeraDuelTurnBasedStageType.h"
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_105_TypeDefinitionIndex = 39510;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_105_TypeDefinitionIndex = 40383;
 
 class Class_0_16E4307DCC419505_105
 {

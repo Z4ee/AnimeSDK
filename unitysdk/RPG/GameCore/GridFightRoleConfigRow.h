@@ -8,33 +8,33 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_GRIDFIGHTROLECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B4E8D80)
-#define RPG_GAMECORE_GRIDFIGHTROLECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4E9340)
+#define RPG_GAMECORE_GRIDFIGHTROLECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D162610)
+#define RPG_GAMECORE_GRIDFIGHTROLECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D162BD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightRoleConfigRow_TypeDefinitionIndex = 13002;
+	inline static constexpr unsigned int GridFightRoleConfigRow_TypeDefinitionIndex = 13393;
 
 	class GridFightRoleConfigRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* BackendRankList; // 0x10
-		::System::String* MaxSPIcon; // 0x18
-		::Il2CppArray<::RPG::GameCore::GridFightChargeType>* ChargeType; // 0x20
-		::Il2CppArray<::System::String*>* RoleSavedValueList; // 0x28
-		::Il2CppArray<::System::UInt32>* TraitList; // 0x30
-		::Il2CppArray<::System::UInt32>* SeasonIDList; // 0x38
-		::RPG::GameCore::GridFightRoleSkillTag HealOrShieldDisplay; // 0x40
-		::System::Boolean IsInPool; // 0x44
-		::System::Boolean IsInBook; // 0x45
-		::System::UInt32 SeasonID; // 0x48
-		::System::UInt32 EquipmentID; // 0x4C
-		::System::UInt32 AvatarID; // 0x50
-		::System::UInt32 Rarity; // 0x54
-		::System::UInt32 SpecialAvatarID; // 0x58
-		::System::UInt32 ID; // 0x5C
-		::RPG::GameCore::GridFightPreset FrontBackType; // 0x60
-		::System::UInt32 IsExpert; // 0x64
+		::Il2CppArray<::System::UInt32>* SeasonIDList; // 0x10
+		::Il2CppArray<::System::String*>* RoleSavedValueList; // 0x18
+		::System::String* MaxSPIcon; // 0x20
+		::Il2CppArray<::System::UInt32>* BackendRankList; // 0x28
+		::Il2CppArray<::RPG::GameCore::GridFightChargeType>* ChargeType; // 0x30
+		::Il2CppArray<::System::UInt32>* TraitList; // 0x38
+		::System::UInt32 SpecialAvatarID; // 0x40
+		::System::UInt32 EquipmentID; // 0x44
+		::System::UInt32 AvatarID; // 0x48
+		::System::UInt32 ID; // 0x4C
+		::System::UInt32 IsExpert; // 0x50
+		::System::Boolean IsInBook; // 0x54
+		::System::Boolean IsInPool; // 0x55
+		::RPG::GameCore::GridFightPreset FrontBackType; // 0x58
+		::System::UInt32 SeasonID; // 0x5C
+		::RPG::GameCore::GridFightRoleSkillTag HealOrShieldDisplay; // 0x60
+		::System::UInt32 Rarity; // 0x64
 
 		::System::Void _ctor()
 		{

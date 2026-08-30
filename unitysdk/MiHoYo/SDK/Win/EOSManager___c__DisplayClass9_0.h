@@ -7,18 +7,18 @@ namespace MiHoYo::SDK::Win { class EOSManager; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_WIN_EOSMANAGER___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19EB6600)
-#define MIHOYO_SDK_WIN_EOSMANAGER___C__DISPLAYCLASS9_0__GETPRODUCTLIST_B__0_OFFSET UNITYSDK_OFFSET(0x19EB9300)
+#define MIHOYO_SDK_WIN_EOSMANAGER___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B83B580)
+#define MIHOYO_SDK_WIN_EOSMANAGER___C__DISPLAYCLASS9_0__GETPRODUCTLIST_B__0_OFFSET UNITYSDK_OFFSET(0x1B83E280)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int EOSManager___c__DisplayClass9_0_TypeDefinitionIndex = 8987;
+	inline static constexpr unsigned int EOSManager___c__DisplayClass9_0_TypeDefinitionIndex = 9257;
 
 	class EOSManager___c__DisplayClass9_0 : public ::System::Object
 	{
 	public:
-		::System::Action_1<::System::String*>* callback; // 0x10
-		::System::String* productTrace; // 0x18
+		::System::String* productTrace; // 0x10
+		::System::Action_1<::System::String*>* callback; // 0x18
 		::MiHoYo::SDK::Win::EOSManager* __4__this; // 0x20
 
 		::System::Void _ctor()

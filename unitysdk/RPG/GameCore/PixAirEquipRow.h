@@ -8,23 +8,23 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_PIXAIREQUIPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B6B3A10)
-#define RPG_GAMECORE_PIXAIREQUIPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6B48C0)
+#define RPG_GAMECORE_PIXAIREQUIPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D335950)
+#define RPG_GAMECORE_PIXAIREQUIPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D336800)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PixAirEquipRow_TypeDefinitionIndex = 11685;
+	inline static constexpr unsigned int PixAirEquipRow_TypeDefinitionIndex = 12074;
 
 	class PixAirEquipRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::RPG::GameCore::PixAirEquipTag>* TagList; // 0x10
-		::System::String* EquipIcon; // 0x18
+		::System::String* EquipIcon; // 0x10
+		::Il2CppArray<::RPG::GameCore::PixAirEquipTag>* TagList; // 0x18
 		::Il2CppArray<::RPG::GameCore::PixAirEquipTag>* AffectedTaglist; // 0x20
-		::System::UInt32 EquipID; // 0x28
-		::System::Boolean IsCore; // 0x2C
-		::RPG::GameCore::PixAirSlotType SlotType; // 0x30
-		::RPG::Client::TextID Name; // 0x38
+		::RPG::Client::TextID Name; // 0x28
+		::System::Boolean IsCore; // 0x38
+		::RPG::GameCore::PixAirSlotType SlotType; // 0x3C
+		::System::UInt32 EquipID; // 0x40
 
 		::System::Void _ctor()
 		{

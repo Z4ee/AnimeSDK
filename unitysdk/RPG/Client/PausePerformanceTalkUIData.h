@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_PAUSEPERFORMANCETALKUIDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xCF47EE0)
+#define RPG_CLIENT_PAUSEPERFORMANCETALKUIDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xDA458D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PausePerformanceTalkUIData_TypeDefinitionIndex = 58007;
+	inline static constexpr unsigned int PausePerformanceTalkUIData_TypeDefinitionIndex = 60828;
 
 	class PausePerformanceTalkUIData : public ::System::Object
 	{

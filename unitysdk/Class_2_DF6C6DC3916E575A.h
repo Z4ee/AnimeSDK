@@ -2,25 +2,25 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/GamePlayLockTargetFunc.h"
 
-class Class_0_16E4307DCC419505_340;
+class Class_0_16E4307DCC419505_359;
 namespace RPG::GameCore { class GameWorld; }
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_DF6C6DC3916E575A_LOCK_OFFSET UNITYSDK_OFFSET(0xB1D60A0)
-#define CLASS_2_DF6C6DC3916E575A_METHOD_2_BCA553D994B8AFD2_OFFSET UNITYSDK_OFFSET(0xB1D6A00)
-#define CLASS_2_DF6C6DC3916E575A_METHOD_2_C16D0C8F2A0C1738_OFFSET UNITYSDK_OFFSET(0xB1D64E0)
-#define CLASS_2_DF6C6DC3916E575A_UNLOCK_OFFSET UNITYSDK_OFFSET(0xB1D65D0)
-#define CLASS_2_DF6C6DC3916E575A__CTOR_OFFSET UNITYSDK_OFFSET(0xB1D6090)
+#define CLASS_2_DF6C6DC3916E575A_LOCK_OFFSET UNITYSDK_OFFSET(0xBBA9D40)
+#define CLASS_2_DF6C6DC3916E575A_METHOD_2_BCA553D994B8AFD2_OFFSET UNITYSDK_OFFSET(0xBBAA690)
+#define CLASS_2_DF6C6DC3916E575A_METHOD_2_C16D0C8F2A0C1738_OFFSET UNITYSDK_OFFSET(0xBBAA180)
+#define CLASS_2_DF6C6DC3916E575A_UNLOCK_OFFSET UNITYSDK_OFFSET(0xBBAA260)
+#define CLASS_2_DF6C6DC3916E575A__CTOR_OFFSET UNITYSDK_OFFSET(0xBBA9D30)
 
-inline static constexpr unsigned int Class_2_DF6C6DC3916E575A_TypeDefinitionIndex = 71321;
+inline static constexpr unsigned int Class_2_DF6C6DC3916E575A_TypeDefinitionIndex = 74627;
 
 class Class_2_DF6C6DC3916E575A : public ::RPG::Client::GamePlayLockTargetFunc
 {
 public:
-	::System::Void _ctor(::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_340*>* a1)
+	::System::Void _ctor(::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_359*>* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_340*>*))((::PBYTE)hIl2Cpp + CLASS_2_DF6C6DC3916E575A__CTOR_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_359*>*))((::PBYTE)hIl2Cpp + CLASS_2_DF6C6DC3916E575A__CTOR_OFFSET))(this, a1);
 	}
 
 	::System::Void Lock(::Il2CppArray<::System::Object*>* a1)

@@ -5,29 +5,29 @@
 namespace RPG::Client { class MonsterData; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_MONSTERDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xCD79CB0)
-#define RPG_CLIENT_MONSTERDATA___C__CREATEDATALISTFROMIDLIST_B__17_0_OFFSET UNITYSDK_OFFSET(0xCD79DB0)
-#define RPG_CLIENT_MONSTERDATA___C__CREATEDATALISTFROMSTAGEROW_B__14_0_OFFSET UNITYSDK_OFFSET(0xCD79CF0)
-#define RPG_CLIENT_MONSTERDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0xCD79CE0)
+#define RPG_CLIENT_MONSTERDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD8BC740)
+#define RPG_CLIENT_MONSTERDATA___C__CREATEDATALISTFROMIDLIST_B__17_0_OFFSET UNITYSDK_OFFSET(0xD8BC840)
+#define RPG_CLIENT_MONSTERDATA___C__CREATEDATALISTFROMSTAGEROW_B__14_0_OFFSET UNITYSDK_OFFSET(0xD8BC780)
+#define RPG_CLIENT_MONSTERDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD8BC770)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonsterData___c_TypeDefinitionIndex = 60356;
+	inline static constexpr unsigned int MonsterData___c_TypeDefinitionIndex = 63207;
 
 	class MonsterData___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::MonsterData___c** StaticGet___9()
+		static ::System::Comparison_1<::RPG::Client::MonsterData*>** StaticGet___9__14_0()
 		{
-			return (::RPG::Client::MonsterData___c**)Il2CppClass::FromTypeDefinitionIndex(MonsterData___c_TypeDefinitionIndex)->GetStaticField(0x60440);
+			return (::System::Comparison_1<::RPG::Client::MonsterData*>**)Il2CppClass::FromTypeDefinitionIndex(MonsterData___c_TypeDefinitionIndex)->GetStaticField(0x1CE80);
 		}
 		static ::System::Comparison_1<::RPG::Client::MonsterData*>** StaticGet___9__17_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::MonsterData*>**)Il2CppClass::FromTypeDefinitionIndex(MonsterData___c_TypeDefinitionIndex)->GetStaticField(0x60448);
+			return (::System::Comparison_1<::RPG::Client::MonsterData*>**)Il2CppClass::FromTypeDefinitionIndex(MonsterData___c_TypeDefinitionIndex)->GetStaticField(0x1CE88);
 		}
-		static ::System::Comparison_1<::RPG::Client::MonsterData*>** StaticGet___9__14_0()
+		static ::RPG::Client::MonsterData___c** StaticGet___9()
 		{
-			return (::System::Comparison_1<::RPG::Client::MonsterData*>**)Il2CppClass::FromTypeDefinitionIndex(MonsterData___c_TypeDefinitionIndex)->GetStaticField(0x60450);
+			return (::RPG::Client::MonsterData___c**)Il2CppClass::FromTypeDefinitionIndex(MonsterData___c_TypeDefinitionIndex)->GetStaticField(0x1CE90);
 		}
 
 		static ::System::Void _cctor()

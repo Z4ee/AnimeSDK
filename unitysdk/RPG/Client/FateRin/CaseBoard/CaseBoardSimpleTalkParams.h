@@ -5,11 +5,11 @@
 namespace RPG::GameCore { class FateRinCaseBoardSimpleTalkData; }
 namespace System { class Action; }
 
-#define RPG_CLIENT_FATERIN_CASEBOARD_CASEBOARDSIMPLETALKPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0xC4C47D0)
+#define RPG_CLIENT_FATERIN_CASEBOARD_CASEBOARDSIMPLETALKPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0xCFF95E0)
 
 namespace RPG::Client::FateRin::CaseBoard
 {
-	inline static constexpr unsigned int CaseBoardSimpleTalkParams_TypeDefinitionIndex = 75853;
+	inline static constexpr unsigned int CaseBoardSimpleTalkParams_TypeDefinitionIndex = 79486;
 
 	class CaseBoardSimpleTalkParams : public ::System::Object
 	{

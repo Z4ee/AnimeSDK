@@ -5,7 +5,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AbilityDynamicFloatInjection_TypeDefinitionIndex = 51928;
+	inline static constexpr unsigned int AbilityDynamicFloatInjection_TypeDefinitionIndex = 54612;
 
 	struct alignas(8) AbilityDynamicFloatInjection
 	{

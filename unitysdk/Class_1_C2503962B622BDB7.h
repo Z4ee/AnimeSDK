@@ -4,17 +4,17 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_C2503962B622BDB7_METHOD_1_226842F6044F973B_OFFSET UNITYSDK_OFFSET(0xB967DF0)
-#define CLASS_1_C2503962B622BDB7_METHOD_1_E261264FF74C1A9A_OFFSET UNITYSDK_OFFSET(0xB967D40)
+#define CLASS_1_C2503962B622BDB7_METHOD_1_226842F6044F973B_OFFSET UNITYSDK_OFFSET(0xC378E60)
+#define CLASS_1_C2503962B622BDB7_METHOD_1_E261264FF74C1A9A_OFFSET UNITYSDK_OFFSET(0xC378DB0)
 
-inline static constexpr unsigned int Class_1_C2503962B622BDB7_TypeDefinitionIndex = 72482;
+inline static constexpr unsigned int Class_1_C2503962B622BDB7_TypeDefinitionIndex = 75918;
 
 class Class_1_C2503962B622BDB7 : public ::System::Object
 {
 public:
-	static ::System::Collections::Generic::List_1<::System::UInt32>** StaticGet_Field_1_0()
+	static ::System::Collections::Generic::List_1<::System::UInt32>** StaticGet_IJMEGHPOCAK()
 	{
-		return (::System::Collections::Generic::List_1<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_C2503962B622BDB7_TypeDefinitionIndex)->GetStaticField(0x27B20);
+		return (::System::Collections::Generic::List_1<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_C2503962B622BDB7_TypeDefinitionIndex)->GetStaticField(0x47630);
 	}
 
 	static ::System::UInt32 Method_1_E261264FF74C1A9A(::System::UInt32 a1)

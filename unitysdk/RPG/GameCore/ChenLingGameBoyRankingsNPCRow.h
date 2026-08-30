@@ -6,21 +6,21 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHENLINGGAMEBOYRANKINGSNPCROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B33B120)
-#define RPG_GAMECORE_CHENLINGGAMEBOYRANKINGSNPCROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B33B3B0)
+#define RPG_GAMECORE_CHENLINGGAMEBOYRANKINGSNPCROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CFB74C0)
+#define RPG_GAMECORE_CHENLINGGAMEBOYRANKINGSNPCROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFB7750)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingGameBoyRankingsNPCRow_TypeDefinitionIndex = 13585;
+	inline static constexpr unsigned int ChenLingGameBoyRankingsNPCRow_TypeDefinitionIndex = 14002;
 
 	class ChenLingGameBoyRankingsNPCRow : public ::System::Object
 	{
 	public:
 		::System::String* NPCIconPath; // 0x10
-		::RPG::Client::TextID NPCNameID; // 0x18
-		::System::UInt32 NPCScore; // 0x28
-		::System::UInt32 GameBoyRankingsNPCID; // 0x2C
-		::RPG::Client::TextID NPCSignature; // 0x30
+		::RPG::Client::TextID NPCSignature; // 0x18
+		::System::UInt32 GameBoyRankingsNPCID; // 0x28
+		::System::UInt32 NPCScore; // 0x2C
+		::RPG::Client::TextID NPCNameID; // 0x30
 
 		::System::Void _ctor()
 		{

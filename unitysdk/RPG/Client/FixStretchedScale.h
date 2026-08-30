@@ -6,12 +6,12 @@
 namespace RPG::Client { class FixStretchedScaleBehavior; }
 namespace System { class String; }
 
-#define RPG_CLIENT_FIXSTRETCHEDSCALE_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xC61AF00)
-#define RPG_CLIENT_FIXSTRETCHEDSCALE__CTOR_OFFSET UNITYSDK_OFFSET(0xC61AF50)
+#define RPG_CLIENT_FIXSTRETCHEDSCALE_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xD0A01A0)
+#define RPG_CLIENT_FIXSTRETCHEDSCALE__CTOR_OFFSET UNITYSDK_OFFSET(0xD0A01F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FixStretchedScale_TypeDefinitionIndex = 67442;
+	inline static constexpr unsigned int FixStretchedScale_TypeDefinitionIndex = 70565;
 
 	class FixStretchedScale : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::FixStretchedScaleBehavior*>
 	{

@@ -3,11 +3,11 @@
 #include "unitysdk/IRI2/ClusterMeshLodInfo.h"
 #include "unitysdk/IRIClusterBuilder/IRIMeshClusterItem.h"
 
-#define IRICLUSTERBUILDER_IRIMESHCLUSTERITEMRUNTIME__CTOR_OFFSET UNITYSDK_OFFSET(0x15248AF0)
+#define IRICLUSTERBUILDER_IRIMESHCLUSTERITEMRUNTIME__CTOR_OFFSET UNITYSDK_OFFSET(0x161B4DD0)
 
 namespace IRIClusterBuilder
 {
-	inline static constexpr unsigned int IRIMeshClusterItemRuntime_TypeDefinitionIndex = 45985;
+	inline static constexpr unsigned int IRIMeshClusterItemRuntime_TypeDefinitionIndex = 48209;
 
 	class IRIMeshClusterItemRuntime : public ::IRIClusterBuilder::IRIMeshClusterItem
 	{

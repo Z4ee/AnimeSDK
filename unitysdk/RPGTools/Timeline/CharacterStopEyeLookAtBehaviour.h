@@ -6,12 +6,12 @@
 
 namespace RPGTools::Timeline { class CharacterStopEyeLookAtData; }
 
-#define RPGTOOLS_TIMELINE_CHARACTERSTOPEYELOOKATBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xDCAEB20)
-#define RPGTOOLS_TIMELINE_CHARACTERSTOPEYELOOKATBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xDCAECF0)
+#define RPGTOOLS_TIMELINE_CHARACTERSTOPEYELOOKATBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xE82F320)
+#define RPGTOOLS_TIMELINE_CHARACTERSTOPEYELOOKATBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xE82F4F0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int CharacterStopEyeLookAtBehaviour_TypeDefinitionIndex = 46212;
+	inline static constexpr unsigned int CharacterStopEyeLookAtBehaviour_TypeDefinitionIndex = 48446;
 
 	class CharacterStopEyeLookAtBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{

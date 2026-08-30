@@ -6,11 +6,11 @@ namespace RPG::Client { class Effect_TransformToMaterialBehavior; }
 namespace RPG::Client { class Effect_TransformToMaterialBehavior_TransformPropertyMapping; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_EFFECT_TRANSFORMTOMATERIALMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xC353BE0)
+#define RPG_CLIENT_EFFECT_TRANSFORMTOMATERIALMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xCE250D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_TransformToMaterialMonoPlugin_TypeDefinitionIndex = 67426;
+	inline static constexpr unsigned int Effect_TransformToMaterialMonoPlugin_TypeDefinitionIndex = 70548;
 
 	class Effect_TransformToMaterialMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::Effect_TransformToMaterialBehavior*>
 	{

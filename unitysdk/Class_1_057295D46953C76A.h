@@ -6,15 +6,15 @@
 class Class_1_E7E667A0866D3C25;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_057295D46953C76A__CTOR_OFFSET UNITYSDK_OFFSET(0x1A9EFF50)
+#define CLASS_1_057295D46953C76A__CTOR_OFFSET UNITYSDK_OFFSET(0x1C638BE0)
 
-inline static constexpr unsigned int Class_1_057295D46953C76A_TypeDefinitionIndex = 41157;
+inline static constexpr unsigned int Class_1_057295D46953C76A_TypeDefinitionIndex = 42117;
 
 class Class_1_057295D46953C76A : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::Class_1_E7E667A0866D3C25*>* Field_1_0; // 0x10
-	::RPG::GameCore::FixPoint Field_1_1; // 0x18
+	::System::Collections::Generic::List_1<::Class_1_E7E667A0866D3C25*>* AILEOOELLHF; // 0x10
+	::RPG::GameCore::FixPoint PGDKIGEIBAA; // 0x18
 
 	::System::Void _ctor()
 	{

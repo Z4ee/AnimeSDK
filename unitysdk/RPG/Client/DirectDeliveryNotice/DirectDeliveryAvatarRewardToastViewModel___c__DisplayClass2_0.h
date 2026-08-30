@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class DirectDeliveryNoticeToastData; }
 
-#define RPG_CLIENT_DIRECTDELIVERYNOTICE_DIRECTDELIVERYAVATARREWARDTOASTVIEWMODEL___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC2A9180)
-#define RPG_CLIENT_DIRECTDELIVERYNOTICE_DIRECTDELIVERYAVATARREWARDTOASTVIEWMODEL___C__DISPLAYCLASS2_0___CTOR_B__0_OFFSET UNITYSDK_OFFSET(0xC2A9450)
+#define RPG_CLIENT_DIRECTDELIVERYNOTICE_DIRECTDELIVERYAVATARREWARDTOASTVIEWMODEL___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCD79D70)
+#define RPG_CLIENT_DIRECTDELIVERYNOTICE_DIRECTDELIVERYAVATARREWARDTOASTVIEWMODEL___C__DISPLAYCLASS2_0___CTOR_B__0_OFFSET UNITYSDK_OFFSET(0xCD7A040)
 
 namespace RPG::Client::DirectDeliveryNotice
 {
-	inline static constexpr unsigned int DirectDeliveryAvatarRewardToastViewModel___c__DisplayClass2_0_TypeDefinitionIndex = 76286;
+	inline static constexpr unsigned int DirectDeliveryAvatarRewardToastViewModel___c__DisplayClass2_0_TypeDefinitionIndex = 79919;
 
 	class DirectDeliveryAvatarRewardToastViewModel___c__DisplayClass2_0 : public ::System::Object
 	{

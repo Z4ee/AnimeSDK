@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class PropSetEntityLodOffset; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_FCDD724E5CB58BA1_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCAC5BC0)
-#define CLASS_3_FCDD724E5CB58BA1__CTOR_OFFSET UNITYSDK_OFFSET(0xCAC5B90)
+#define CLASS_3_FCDD724E5CB58BA1_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xD263190)
+#define CLASS_3_FCDD724E5CB58BA1__CTOR_OFFSET UNITYSDK_OFFSET(0xD263160)
 
-inline static constexpr unsigned int Class_3_FCDD724E5CB58BA1_TypeDefinitionIndex = 55764;
+inline static constexpr unsigned int Class_3_FCDD724E5CB58BA1_TypeDefinitionIndex = 58495;
 
 class Class_3_FCDD724E5CB58BA1 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::PropSetEntityLodOffset*>
 {

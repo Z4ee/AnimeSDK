@@ -8,11 +8,11 @@ namespace RPG::Client::Debugging { class LocationData; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_DEBUGGING_FORMATIONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xC1DD250)
+#define RPG_CLIENT_DEBUGGING_FORMATIONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xCC98D80)
 
 namespace RPG::Client::Debugging
 {
-	inline static constexpr unsigned int FormationData_TypeDefinitionIndex = 76707;
+	inline static constexpr unsigned int FormationData_TypeDefinitionIndex = 80747;
 
 	class FormationData : public ::System::Object
 	{

@@ -6,21 +6,21 @@ namespace System { class String; }
 namespace System { class Type; }
 namespace System::Reflection { class MemberInfo; }
 
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_SEROBJECTINFOCACHE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A2124C0)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_SEROBJECTINFOCACHE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A212910)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_SEROBJECTINFOCACHE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1BE1A270)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_SEROBJECTINFOCACHE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE1A750)
 
 namespace System::Runtime::Serialization::Formatters::Binary
 {
-	inline static constexpr unsigned int SerObjectInfoCache_TypeDefinitionIndex = 1178;
+	inline static constexpr unsigned int SerObjectInfoCache_TypeDefinitionIndex = 1185;
 
 	class SerObjectInfoCache : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::Type*>* memberTypes; // 0x10
-		::Il2CppArray<::System::String*>* memberNames; // 0x18
-		::System::String* fullTypeName; // 0x20
-		::Il2CppArray<::System::Reflection::MemberInfo*>* memberInfos; // 0x28
-		::System::String* assemblyString; // 0x30
+		::System::String* fullTypeName; // 0x10
+		::Il2CppArray<::System::Type*>* memberTypes; // 0x18
+		::Il2CppArray<::System::Reflection::MemberInfo*>* memberInfos; // 0x20
+		::System::String* assemblyString; // 0x28
+		::Il2CppArray<::System::String*>* memberNames; // 0x30
 		::System::Boolean hasTypeForwardedFrom; // 0x38
 
 		::System::Void _ctor(::System::String* a1, ::System::String* a2, ::System::Boolean a3)

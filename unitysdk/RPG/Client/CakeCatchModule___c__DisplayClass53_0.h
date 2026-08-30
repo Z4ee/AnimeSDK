@@ -4,12 +4,12 @@
 
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_CAKECATCHMODULE___C__DISPLAYCLASS53_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBEFA9E0)
-#define RPG_CLIENT_CAKECATCHMODULE___C__DISPLAYCLASS53_0__GETCAKECAUGHTCOUNTINROOM_B__0_OFFSET UNITYSDK_OFFSET(0xBEFA9F0)
+#define RPG_CLIENT_CAKECATCHMODULE___C__DISPLAYCLASS53_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC99D130)
+#define RPG_CLIENT_CAKECATCHMODULE___C__DISPLAYCLASS53_0__GETCAKECAUGHTCOUNTINROOM_B__0_OFFSET UNITYSDK_OFFSET(0xC99F090)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CakeCatchModule___c__DisplayClass53_0_TypeDefinitionIndex = 60188;
+	inline static constexpr unsigned int CakeCatchModule___c__DisplayClass53_0_TypeDefinitionIndex = 63036;
 
 	class CakeCatchModule___c__DisplayClass53_0 : public ::System::Object
 	{

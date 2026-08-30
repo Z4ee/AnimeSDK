@@ -5,12 +5,12 @@
 namespace System { class Uri; }
 namespace System::Net { class WebRequest; }
 
-#define SYSTEM_NET_FTPREQUESTCREATOR_CREATE_OFFSET UNITYSDK_OFFSET(0x1CCD03C0)
-#define SYSTEM_NET_FTPREQUESTCREATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1CCD0560)
+#define SYSTEM_NET_FTPREQUESTCREATOR_CREATE_OFFSET UNITYSDK_OFFSET(0x1E97B7E0)
+#define SYSTEM_NET_FTPREQUESTCREATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1E97B990)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int FtpRequestCreator_TypeDefinitionIndex = 2834;
+	inline static constexpr unsigned int FtpRequestCreator_TypeDefinitionIndex = 2841;
 
 	class FtpRequestCreator : public ::System::Object
 	{

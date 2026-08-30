@@ -9,27 +9,27 @@ namespace System::ComponentModel { class EventDescriptorCollection; }
 namespace System::ComponentModel { class PropertyDescriptorCollection; }
 namespace System::ComponentModel { class TypeConverter; }
 
-#define SYSTEM_COMPONENTMODEL_REFLECTTYPEDESCRIPTIONPROVIDER_REFLECTEDTYPEDATA_GETATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x1CC80010)
-#define SYSTEM_COMPONENTMODEL_REFLECTTYPEDESCRIPTIONPROVIDER_REFLECTEDTYPEDATA_GETCONVERTER_OFFSET UNITYSDK_OFFSET(0x1CC81090)
-#define SYSTEM_COMPONENTMODEL_REFLECTTYPEDESCRIPTIONPROVIDER_REFLECTEDTYPEDATA_GETTYPEFROMNAME_OFFSET UNITYSDK_OFFSET(0x1CC834B0)
-#define SYSTEM_COMPONENTMODEL_REFLECTTYPEDESCRIPTIONPROVIDER_REFLECTEDTYPEDATA_GET_ISPOPULATED_OFFSET UNITYSDK_OFFSET(0x1CC817B0)
-#define SYSTEM_COMPONENTMODEL_REFLECTTYPEDESCRIPTIONPROVIDER_REFLECTEDTYPEDATA_REFRESH_OFFSET UNITYSDK_OFFSET(0x1CC81EE0)
-#define SYSTEM_COMPONENTMODEL_REFLECTTYPEDESCRIPTIONPROVIDER_REFLECTEDTYPEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC81760)
+#define SYSTEM_COMPONENTMODEL_REFLECTTYPEDESCRIPTIONPROVIDER_REFLECTEDTYPEDATA_GETATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x1E92AE50)
+#define SYSTEM_COMPONENTMODEL_REFLECTTYPEDESCRIPTIONPROVIDER_REFLECTEDTYPEDATA_GETCONVERTER_OFFSET UNITYSDK_OFFSET(0x1E92BF10)
+#define SYSTEM_COMPONENTMODEL_REFLECTTYPEDESCRIPTIONPROVIDER_REFLECTEDTYPEDATA_GETTYPEFROMNAME_OFFSET UNITYSDK_OFFSET(0x1E92E350)
+#define SYSTEM_COMPONENTMODEL_REFLECTTYPEDESCRIPTIONPROVIDER_REFLECTEDTYPEDATA_GET_ISPOPULATED_OFFSET UNITYSDK_OFFSET(0x1E92C640)
+#define SYSTEM_COMPONENTMODEL_REFLECTTYPEDESCRIPTIONPROVIDER_REFLECTEDTYPEDATA_REFRESH_OFFSET UNITYSDK_OFFSET(0x1E92CD70)
+#define SYSTEM_COMPONENTMODEL_REFLECTTYPEDESCRIPTIONPROVIDER_REFLECTEDTYPEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1E92C5F0)
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int ReflectTypeDescriptionProvider_ReflectedTypeData_TypeDefinitionIndex = 2615;
+	inline static constexpr unsigned int ReflectTypeDescriptionProvider_ReflectedTypeData_TypeDefinitionIndex = 2622;
 
 	class ReflectTypeDescriptionProvider_ReflectedTypeData : public ::System::Object
 	{
 	public:
-		::System::ComponentModel::PropertyDescriptorCollection* _properties; // 0x10
-		::System::ComponentModel::TypeConverter* _converter; // 0x18
-		::Il2CppArray<::System::Object*>* _editors; // 0x20
-		::System::ComponentModel::EventDescriptorCollection* _events; // 0x28
-		::System::ComponentModel::AttributeCollection* _attributes; // 0x30
-		::Il2CppArray<::System::Type*>* _editorTypes; // 0x38
-		::System::Type* _type; // 0x40
+		::Il2CppArray<::System::Object*>* _editors; // 0x10
+		::System::Type* _type; // 0x18
+		::System::ComponentModel::TypeConverter* _converter; // 0x20
+		::System::ComponentModel::PropertyDescriptorCollection* _properties; // 0x28
+		::System::ComponentModel::EventDescriptorCollection* _events; // 0x30
+		::System::ComponentModel::AttributeCollection* _attributes; // 0x38
+		::Il2CppArray<::System::Type*>* _editorTypes; // 0x40
 		::System::Int32 _editorCount; // 0x48
 
 		::System::Void _ctor(::System::Type* a1)

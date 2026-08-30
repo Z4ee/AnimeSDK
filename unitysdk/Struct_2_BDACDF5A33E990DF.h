@@ -5,20 +5,20 @@
 namespace RPG::Client { class LookAtAdditiveCurveConstraint; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define STRUCT_2_BDACDF5A33E990DF_METHOD_2_4EE3393A847658B4_OFFSET UNITYSDK_OFFSET(0x7A6D0)
-#define STRUCT_2_BDACDF5A33E990DF_METHOD_2_F0E307B84478A272_OFFSET UNITYSDK_OFFSET(0x7A690)
-#define STRUCT_2_BDACDF5A33E990DF_METHOD_2_F5599B7DA8E7E53C_OFFSET UNITYSDK_OFFSET(0x7A6B0)
+#define STRUCT_2_BDACDF5A33E990DF_METHOD_2_4EE3393A847658B4_OFFSET UNITYSDK_OFFSET(0x7C550)
+#define STRUCT_2_BDACDF5A33E990DF_METHOD_2_F0E307B84478A272_OFFSET UNITYSDK_OFFSET(0x7C510)
+#define STRUCT_2_BDACDF5A33E990DF_METHOD_2_F5599B7DA8E7E53C_OFFSET UNITYSDK_OFFSET(0x7C530)
 
-inline static constexpr unsigned int Struct_2_BDACDF5A33E990DF_TypeDefinitionIndex = 65437;
+inline static constexpr unsigned int Struct_2_BDACDF5A33E990DF_TypeDefinitionIndex = 68451;
 
 struct alignas(8) Struct_2_BDACDF5A33E990DF
 {
-	::System::Boolean Field_2_0; // 0x10
-	::System::Single Field_2_1; // 0x14
-	::System::Single Field_2_2; // 0x18
-	::System::Single Field_2_3; // 0x1C
-	::RPG::Client::LookAtAdditiveCurveConstraint* Field_2_4; // 0x20
-	::System::Collections::Generic::List_1<::Struct_2_BDACDF5A33E990DF>* Field_2_5; // 0x28
+	::System::Boolean KKJLMNLCMBK; // 0x10
+	::System::Single JNPLKDGJJMC; // 0x14
+	::System::Single APAKCBFMCAB; // 0x18
+	::System::Single CONJAMJKHBI; // 0x1C
+	::RPG::Client::LookAtAdditiveCurveConstraint* HJFFHBPCBNC; // 0x20
+	::System::Collections::Generic::List_1<::Struct_2_BDACDF5A33E990DF>* MBENLBACNCG; // 0x28
 
 	::System::Boolean Method_2_F0E307B84478A272()
 	{

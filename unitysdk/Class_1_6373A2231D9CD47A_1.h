@@ -7,32 +7,32 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define CLASS_1_6373A2231D9CD47A_1_METHOD_1_417A218C63D0B3DA_OFFSET UNITYSDK_OFFSET(0x1AE6E430)
-#define CLASS_1_6373A2231D9CD47A_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE6EB90)
+#define CLASS_1_6373A2231D9CD47A_1_METHOD_1_417A218C63D0B3DA_OFFSET UNITYSDK_OFFSET(0x1CAC5290)
+#define CLASS_1_6373A2231D9CD47A_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1CAC59F0)
 
-inline static constexpr unsigned int Class_1_6373A2231D9CD47A_1_TypeDefinitionIndex = 11161;
+inline static constexpr unsigned int Class_1_6373A2231D9CD47A_1_TypeDefinitionIndex = 11550;
 
 class Class_1_6373A2231D9CD47A_1 : public ::System::Object
 {
 public:
-	::System::String* Field_1_0; // 0x10
-	::Il2CppArray<::System::UInt32>* Field_1_1; // 0x18
-	::System::UInt32 Field_1_2; // 0x20
-	::System::UInt32 Field_1_3; // 0x24
-	::RPG::Client::TextID Field_1_4; // 0x28
-	::System::UInt32 Field_1_5; // 0x38
-	::System::UInt32 Field_1_6; // 0x3C
-	::RPG::Client::TextID Field_1_7; // 0x40
-	::RPG::Client::TextID Field_1_8; // 0x50
-	::RPG::Client::TextID Field_1_9; // 0x60
-	::RPG::Client::TextID Field_1_10; // 0x70
-	::System::UInt32 Field_1_11; // 0x80
-	::RPG::GameCore::FateRinPrepareFightTalker Field_1_12; // 0x84
-	::System::UInt32 Field_1_13; // 0x88
-	::System::UInt32 Field_1_14; // 0x8C
-	::System::Boolean Field_1_15; // 0x90
-	::System::UInt32 Field_1_16; // 0x94
-	::RPG::Client::TextID Field_1_17; // 0x98
+	::Il2CppArray<::System::UInt32>* BNGEMNHEMAK; // 0x10
+	::System::String* JKCHLJNLLNA; // 0x18
+	::RPG::Client::TextID KPJMHEPOOBL; // 0x20
+	::System::UInt32 MMEGCIGMALC; // 0x30
+	::System::UInt32 NHAINGEIMJA; // 0x34
+	::RPG::Client::TextID NCHLCBICBGO; // 0x38
+	::System::UInt32 HPJHKACDIMB; // 0x48
+	::RPG::GameCore::FateRinPrepareFightTalker EHAFJKIKKMC; // 0x4C
+	::RPG::Client::TextID HGNACOAJMIJ; // 0x50
+	::RPG::Client::TextID BMOKJDHHJBH; // 0x60
+	::System::UInt32 KAHNDIPJGHI; // 0x70
+	::System::UInt32 JFDHFPIIGCC; // 0x74
+	::System::Boolean PKLFLANJCDG; // 0x78
+	::System::UInt32 PHFMCACHFIJ; // 0x7C
+	::System::UInt32 HNEIIAGADGO; // 0x80
+	::System::UInt32 OHFGNODANEP; // 0x84
+	::RPG::Client::TextID OBJEJHKENKF; // 0x88
+	::RPG::Client::TextID JAJPGCBAIJA; // 0x98
 
 	::System::Void _ctor()
 	{

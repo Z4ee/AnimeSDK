@@ -11,46 +11,46 @@ namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class Mesh; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_EFFECT_CHIPSCOLUMN_LATETICK_OFFSET UNITYSDK_OFFSET(0xC2FDBA0)
-#define RPG_CLIENT_EFFECT_CHIPSCOLUMN_METHOD_5_9AB55F553C4AC6E8_OFFSET UNITYSDK_OFFSET(0xC2FDCC0)
-#define RPG_CLIENT_EFFECT_CHIPSCOLUMN_METHOD_5_F7300E87EC49A206_OFFSET UNITYSDK_OFFSET(0xC2FE270)
-#define RPG_CLIENT_EFFECT_CHIPSCOLUMN_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xC2FDB10)
-#define RPG_CLIENT_EFFECT_CHIPSCOLUMN_ONENABLE_OFFSET UNITYSDK_OFFSET(0xC2FDA80)
-#define RPG_CLIENT_EFFECT_CHIPSCOLUMN__CTOR_OFFSET UNITYSDK_OFFSET(0xC2FEAC0)
+#define RPG_CLIENT_EFFECT_CHIPSCOLUMN_LATETICK_OFFSET UNITYSDK_OFFSET(0xCDCEFC0)
+#define RPG_CLIENT_EFFECT_CHIPSCOLUMN_METHOD_5_9AB55F553C4AC6E8_OFFSET UNITYSDK_OFFSET(0xCDCF0E0)
+#define RPG_CLIENT_EFFECT_CHIPSCOLUMN_METHOD_5_F7300E87EC49A206_OFFSET UNITYSDK_OFFSET(0xCDCF690)
+#define RPG_CLIENT_EFFECT_CHIPSCOLUMN_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xCDCEF30)
+#define RPG_CLIENT_EFFECT_CHIPSCOLUMN_ONENABLE_OFFSET UNITYSDK_OFFSET(0xCDCEEA0)
+#define RPG_CLIENT_EFFECT_CHIPSCOLUMN__CTOR_OFFSET UNITYSDK_OFFSET(0xCDCFEE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_ChipsColumn_TypeDefinitionIndex = 67276;
+	inline static constexpr unsigned int Effect_ChipsColumn_TypeDefinitionIndex = 70398;
 
 	class Effect_ChipsColumn : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::UnityEngine::Mesh* Mesh; // 0x18
 		::UnityEngine::Material* ChipMaterial; // 0x20
-		::UnityEngine::Vector4 Field_5_2; // 0x28
+		::UnityEngine::Vector4 HBIDGELDJFH; // 0x28
 		::System::Single DissolveUpValue; // 0x38
 		::System::Single DissolveDownValue; // 0x3C
 		::System::Single DissolveRate; // 0x40
 		::System::Single DissolveMask; // 0x44
-		::System::Single Field_5_7; // 0x48
+		::System::Single LHCJBANGIKP; // 0x48
 		::System::Single ScanHeight; // 0x4C
-		::System::Single Field_5_9; // 0x50
+		::System::Single DPFCMPAFBJO; // 0x50
 		::System::Single ScanAlpha; // 0x54
-		::System::Single Field_5_11; // 0x58
+		::System::Single JHCFKCOEEIL; // 0x58
 		::System::Single GlobalGradientRange; // 0x5C
-		::UnityEngine::Color Field_5_13; // 0x60
-		::UnityEngine::Color Field_5_14; // 0x70
-		::System::Single Field_5_15; // 0x80
+		::UnityEngine::Color NLHAEIAAFEH; // 0x60
+		::UnityEngine::Color IIKENEPFBOP; // 0x70
+		::System::Single CPHMPEOIOGO; // 0x80
 		::System::Single GradientIntensity; // 0x84
-		::System::Single Field_5_17; // 0x88
+		::System::Single KGPCEBEECEL; // 0x88
 		::System::Single GradientDarken; // 0x8C
-		::UnityEngine::Vector4 Field_5_19; // 0x90
+		::UnityEngine::Vector4 FDFNDNBDHCO; // 0x90
 		::UnityEngine::Transform* CustomLight; // 0xA0
 		::Il2CppArray<::UnityEngine::Color>* ChipColors; // 0xA8
 		::System::Collections::Generic::List_1<::UnityEngine::Matrix4x4>* _ObjMatrixList; // 0xB0
-		::System::Collections::Generic::List_1<::UnityEngine::Matrix4x4>* Field_5_23; // 0xB8
+		::System::Collections::Generic::List_1<::UnityEngine::Matrix4x4>* DOGLKMIPCOK; // 0xB8
 		::System::Collections::Generic::List_1<::UnityEngine::Vector4>* _ChipColorList; // 0xC0
-		::UnityEngine::MaterialPropertyBlock* Field_5_25; // 0xC8
+		::UnityEngine::MaterialPropertyBlock* BMCPFHADPKJ; // 0xC8
 
 		::System::Void _ctor()
 		{

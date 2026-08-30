@@ -6,17 +6,17 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_910822CB5E4FEDEB_CLASS_1_5E2F6DA9758C1430_METHOD_1_172906DB43A92E1C_OFFSET UNITYSDK_OFFSET(0xB0BD8E0)
-#define CLASS_1_910822CB5E4FEDEB_CLASS_1_5E2F6DA9758C1430__CTOR_OFFSET UNITYSDK_OFFSET(0xB0BBE30)
+#define CLASS_1_910822CB5E4FEDEB_CLASS_1_5E2F6DA9758C1430_METHOD_1_172906DB43A92E1C_OFFSET UNITYSDK_OFFSET(0xBA36CA0)
+#define CLASS_1_910822CB5E4FEDEB_CLASS_1_5E2F6DA9758C1430__CTOR_OFFSET UNITYSDK_OFFSET(0xBA351F0)
 
-inline static constexpr unsigned int Class_1_910822CB5E4FEDEB_Class_1_5E2F6DA9758C1430_TypeDefinitionIndex = 59421;
+inline static constexpr unsigned int Class_1_910822CB5E4FEDEB_Class_1_5E2F6DA9758C1430_TypeDefinitionIndex = 62256;
 
 class Class_1_910822CB5E4FEDEB_Class_1_5E2F6DA9758C1430 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::System::Int32>* Field_1_0; // 0x10
-	::UnityEngine::Vector3 Field_1_1; // 0x18
-	::Class_1_910822CB5E4FEDEB_IntersectType Field_1_2; // 0x24
+	::System::Collections::Generic::List_1<::System::Int32>* EPLHAPLELCI; // 0x10
+	::Class_1_910822CB5E4FEDEB_IntersectType GMPGDEINODK; // 0x18
+	::UnityEngine::Vector3 ODFBGABAEBM; // 0x1C
 
 	::System::Void _ctor()
 	{

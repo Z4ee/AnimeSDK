@@ -6,18 +6,18 @@
 namespace RPG::GameCore { class GameEntity; }
 namespace System { class Action; }
 
-#define CLASS_2_775953B773EF713C_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBD45A40)
-#define CLASS_2_775953B773EF713C_DOONENTER_OFFSET UNITYSDK_OFFSET(0xBD45A90)
-#define CLASS_2_775953B773EF713C_DOONEXIT_OFFSET UNITYSDK_OFFSET(0xBD45B00)
-#define CLASS_2_775953B773EF713C__CTOR_OFFSET UNITYSDK_OFFSET(0xBD459B0)
+#define CLASS_2_775953B773EF713C_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC7A9350)
+#define CLASS_2_775953B773EF713C_DOONENTER_OFFSET UNITYSDK_OFFSET(0xC7A93A0)
+#define CLASS_2_775953B773EF713C_DOONEXIT_OFFSET UNITYSDK_OFFSET(0xC7A9410)
+#define CLASS_2_775953B773EF713C__CTOR_OFFSET UNITYSDK_OFFSET(0xC7A92C0)
 
-inline static constexpr unsigned int Class_2_775953B773EF713C_TypeDefinitionIndex = 54918;
+inline static constexpr unsigned int Class_2_775953B773EF713C_TypeDefinitionIndex = 57642;
 
 class Class_2_775953B773EF713C : public ::Class_1_29B23DDF98AF43AC
 {
 public:
-	::System::Action* Field_2_0; // 0x98
-	::System::Action* Field_2_1; // 0xA0
+	::System::Action* CKAEKHBNBHN; // 0x98
+	::System::Action* DPNPDPDPMCL; // 0xA0
 
 	::System::Void _ctor(::RPG::GameCore::GameEntity* a1, ::System::Action* a2, ::System::Action* a3)
 	{

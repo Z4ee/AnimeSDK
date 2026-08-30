@@ -4,21 +4,21 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_OPENURLWEBVIEWRULEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B67DA30)
-#define RPG_GAMECORE_OPENURLWEBVIEWRULEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B67E0E0)
+#define RPG_GAMECORE_OPENURLWEBVIEWRULEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D2FFAE0)
+#define RPG_GAMECORE_OPENURLWEBVIEWRULEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D300190)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int OpenURLWebViewRuleRow_TypeDefinitionIndex = 12834;
+	inline static constexpr unsigned int OpenURLWebViewRuleRow_TypeDefinitionIndex = 13225;
 
 	class OpenURLWebViewRuleRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 Default; // 0x10
-		::System::UInt32 RuleID; // 0x14
-		::System::UInt32 iOS; // 0x18
-		::System::UInt32 Android; // 0x1C
-		::System::UInt32 Windows; // 0x20
+		::System::UInt32 Android; // 0x10
+		::System::UInt32 iOS; // 0x14
+		::System::UInt32 Windows; // 0x18
+		::System::UInt32 RuleID; // 0x1C
+		::System::UInt32 Default; // 0x20
 
 		::System::Void _ctor()
 		{

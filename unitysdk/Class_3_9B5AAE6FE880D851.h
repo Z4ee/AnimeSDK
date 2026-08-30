@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AdvLogisticsRobotBlockByDoor; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_9B5AAE6FE880D851_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x14ADC9E0)
-#define CLASS_3_9B5AAE6FE880D851__CTOR_OFFSET UNITYSDK_OFFSET(0x14ADC9B0)
+#define CLASS_3_9B5AAE6FE880D851_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x159C4B90)
+#define CLASS_3_9B5AAE6FE880D851__CTOR_OFFSET UNITYSDK_OFFSET(0x159C4B60)
 
-inline static constexpr unsigned int Class_3_9B5AAE6FE880D851_TypeDefinitionIndex = 50006;
+inline static constexpr unsigned int Class_3_9B5AAE6FE880D851_TypeDefinitionIndex = 52667;
 
 class Class_3_9B5AAE6FE880D851 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AdvLogisticsRobotBlockByDoor*>
 {

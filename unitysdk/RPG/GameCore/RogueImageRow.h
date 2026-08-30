@@ -6,20 +6,20 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ROGUEIMAGEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B7670A0)
-#define RPG_GAMECORE_ROGUEIMAGEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B767740)
+#define RPG_GAMECORE_ROGUEIMAGEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3EA160)
+#define RPG_GAMECORE_ROGUEIMAGEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3EA800)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueImageRow_TypeDefinitionIndex = 14229;
+	inline static constexpr unsigned int RogueImageRow_TypeDefinitionIndex = 14649;
 
 	class RogueImageRow : public ::System::Object
 	{
 	public:
 		::System::String* ParamStr2; // 0x10
-		::System::String* TexturePath; // 0x18
-		::System::String* ImagePath; // 0x20
-		::System::String* ParamStr1; // 0x28
+		::System::String* ImagePath; // 0x18
+		::System::String* ParamStr1; // 0x20
+		::System::String* TexturePath; // 0x28
 		::System::UInt32 ImageID; // 0x30
 		::RPG::GameCore::RogueImageType ImageType; // 0x34
 

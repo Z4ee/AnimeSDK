@@ -4,7 +4,7 @@
 
 namespace System::Security::AccessControl
 {
-	inline static constexpr unsigned int ObjectSecurity_1_TypeDefinitionIndex = 966;
+	inline static constexpr unsigned int ObjectSecurity_1_TypeDefinitionIndex = 973;
 
 	template <typename T>
 	class ObjectSecurity_1 : public ::System::Security::AccessControl::NativeObjectSecurity

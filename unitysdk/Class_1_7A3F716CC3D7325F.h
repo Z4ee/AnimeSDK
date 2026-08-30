@@ -5,19 +5,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define CLASS_1_7A3F716CC3D7325F_METHOD_1_9A97CC9BA4751B18_OFFSET UNITYSDK_OFFSET(0x1ABA3C00)
-#define CLASS_1_7A3F716CC3D7325F__CTOR_OFFSET UNITYSDK_OFFSET(0x1ABA3DF0)
+#define CLASS_1_7A3F716CC3D7325F_METHOD_1_9A97CC9BA4751B18_OFFSET UNITYSDK_OFFSET(0x1C7E5DC0)
+#define CLASS_1_7A3F716CC3D7325F__CTOR_OFFSET UNITYSDK_OFFSET(0x1C7E5FB0)
 
-inline static constexpr unsigned int Class_1_7A3F716CC3D7325F_TypeDefinitionIndex = 11104;
+inline static constexpr unsigned int Class_1_7A3F716CC3D7325F_TypeDefinitionIndex = 11493;
 
 class Class_1_7A3F716CC3D7325F : public ::System::Object
 {
 public:
-	::System::UInt32 Field_1_0; // 0x10
-	::System::UInt32 Field_1_1; // 0x14
-	::System::UInt32 Field_1_2; // 0x18
-	::RPG::GameCore::FateBuffSlotType Field_1_3; // 0x1C
-	::System::UInt32 Field_1_4; // 0x20
+	::System::UInt32 AEDGAKOBDOC; // 0x10
+	::System::UInt32 HNAMEIDAANH; // 0x14
+	::System::UInt32 IOHKGPKODJL; // 0x18
+	::System::UInt32 FMLGGKAFMKC; // 0x1C
+	::RPG::GameCore::FateBuffSlotType MPADIDFJBEF; // 0x20
 
 	::System::Void _ctor()
 	{

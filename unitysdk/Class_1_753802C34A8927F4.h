@@ -7,21 +7,21 @@ class Class_1_945C969C6B974032;
 namespace RPG { template <typename T> class PoolList_1; }
 namespace RPG::GameCore { class LightningStrikeAreaConfig; }
 
-#define CLASS_1_753802C34A8927F4_CLEAR_OFFSET UNITYSDK_OFFSET(0x14B6DC40)
-#define CLASS_1_753802C34A8927F4__CTOR_OFFSET UNITYSDK_OFFSET(0x14B6DE90)
+#define CLASS_1_753802C34A8927F4_CLEAR_OFFSET UNITYSDK_OFFSET(0x15A68690)
+#define CLASS_1_753802C34A8927F4__CTOR_OFFSET UNITYSDK_OFFSET(0x15A688D0)
 
-inline static constexpr unsigned int Class_1_753802C34A8927F4_TypeDefinitionIndex = 51075;
+inline static constexpr unsigned int Class_1_753802C34A8927F4_TypeDefinitionIndex = 53759;
 
 class Class_1_753802C34A8927F4 : public ::System::Object
 {
 public:
-	::RPG::PoolList_1<::Class_1_6DE8726ADEF173A7_7*>* Field_1_0; // 0x10
-	::RPG::PoolList_1<::Class_1_945C969C6B974032*>* Field_1_1; // 0x18
-	::RPG::GameCore::LightningStrikeAreaConfig* Field_1_2; // 0x20
-	::System::Boolean Field_1_3; // 0x28
-	::System::Single Field_1_4; // 0x2C
-	::System::UInt32 Field_1_5; // 0x30
-	::System::UInt32 Field_1_6; // 0x34
+	::RPG::GameCore::LightningStrikeAreaConfig* EABKOHGCHFP; // 0x10
+	::RPG::PoolList_1<::Class_1_945C969C6B974032*>* BHCFEGGELJF; // 0x18
+	::RPG::PoolList_1<::Class_1_6DE8726ADEF173A7_7*>* FEADGLLKKOL; // 0x20
+	::System::UInt32 BFNHBJAGMJK; // 0x28
+	::System::Single MMGCACMNDMP; // 0x2C
+	::System::UInt32 ECODFMEBEDK; // 0x30
+	::System::Boolean CAGCHKJHMPD; // 0x34
 
 	::System::Void _ctor()
 	{

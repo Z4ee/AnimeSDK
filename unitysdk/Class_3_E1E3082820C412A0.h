@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class RotateLaserPuzzleRing; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_E1E3082820C412A0_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x147C24A0)
-#define CLASS_3_E1E3082820C412A0__CTOR_OFFSET UNITYSDK_OFFSET(0x147C2470)
+#define CLASS_3_E1E3082820C412A0_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1563CD90)
+#define CLASS_3_E1E3082820C412A0__CTOR_OFFSET UNITYSDK_OFFSET(0x1563CD60)
 
-inline static constexpr unsigned int Class_3_E1E3082820C412A0_TypeDefinitionIndex = 55876;
+inline static constexpr unsigned int Class_3_E1E3082820C412A0_TypeDefinitionIndex = 58648;
 
 class Class_3_E1E3082820C412A0 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::RotateLaserPuzzleRing*>
 {

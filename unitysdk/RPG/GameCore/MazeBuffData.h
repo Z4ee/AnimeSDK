@@ -7,16 +7,16 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_GAMECORE_MAZEBUFFDATA_CANMERGE_OFFSET UNITYSDK_OFFSET(0xDAE8460)
-#define RPG_GAMECORE_MAZEBUFFDATA_DEEPCOPY_OFFSET UNITYSDK_OFFSET(0xDAE8930)
-#define RPG_GAMECORE_MAZEBUFFDATA_DOMERGE_OFFSET UNITYSDK_OFFSET(0xDAE82C0)
-#define RPG_GAMECORE_MAZEBUFFDATA_INBATTLEBINDINGEQUALS_OFFSET UNITYSDK_OFFSET(0xDAE8850)
-#define RPG_GAMECORE_MAZEBUFFDATA_VALUEEQUALS_OFFSET UNITYSDK_OFFSET(0xDAE88C0)
-#define RPG_GAMECORE_MAZEBUFFDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xDAE7D30)
+#define RPG_GAMECORE_MAZEBUFFDATA_CANMERGE_OFFSET UNITYSDK_OFFSET(0xE6A75F0)
+#define RPG_GAMECORE_MAZEBUFFDATA_DEEPCOPY_OFFSET UNITYSDK_OFFSET(0xE6A7AC0)
+#define RPG_GAMECORE_MAZEBUFFDATA_DOMERGE_OFFSET UNITYSDK_OFFSET(0xE6A7450)
+#define RPG_GAMECORE_MAZEBUFFDATA_INBATTLEBINDINGEQUALS_OFFSET UNITYSDK_OFFSET(0xE6A79E0)
+#define RPG_GAMECORE_MAZEBUFFDATA_VALUEEQUALS_OFFSET UNITYSDK_OFFSET(0xE6A7A50)
+#define RPG_GAMECORE_MAZEBUFFDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xE6A6ED0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MazeBuffData_TypeDefinitionIndex = 53786;
+	inline static constexpr unsigned int MazeBuffData_TypeDefinitionIndex = 56506;
 
 	class MazeBuffData : public ::System::Object
 	{
@@ -25,8 +25,8 @@ namespace RPG::GameCore
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::FixPoint>* ExtraParamMap; // 0x18
 		::System::UInt32 ActiveWaveFlags; // 0x20
 		::System::UInt32 OwnerCharacterIndex; // 0x24
-		::System::UInt32 ID; // 0x28
-		::System::UInt32 Level; // 0x2C
+		::System::UInt32 Level; // 0x28
+		::System::UInt32 ID; // 0x2C
 
 		::System::Void _ctor()
 		{

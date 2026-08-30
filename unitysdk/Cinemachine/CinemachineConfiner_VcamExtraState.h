@@ -3,17 +3,17 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define CINEMACHINE_CINEMACHINECONFINER_VCAMEXTRASTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x156CD6A0)
+#define CINEMACHINE_CINEMACHINECONFINER_VCAMEXTRASTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x16457080)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineConfiner_VcamExtraState_TypeDefinitionIndex = 37576;
+	inline static constexpr unsigned int CinemachineConfiner_VcamExtraState_TypeDefinitionIndex = 38435;
 
 	class CinemachineConfiner_VcamExtraState : public ::System::Object
 	{
 	public:
-		::UnityEngine::Vector3 m_previousDisplacement; // 0x10
-		::System::Single confinerDisplacement; // 0x1C
+		::System::Single confinerDisplacement; // 0x10
+		::UnityEngine::Vector3 m_previousDisplacement; // 0x14
 
 		::System::Void _ctor()
 		{

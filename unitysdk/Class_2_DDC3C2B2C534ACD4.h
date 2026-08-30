@@ -7,15 +7,15 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPGTools::Timeline { class CharacterStoryMoveSequenceData; }
 namespace UnityEngine { class Animator; }
 
-#define CLASS_2_DDC3C2B2C534ACD4_METHOD_2_5CEF0A1AFE214F53_OFFSET UNITYSDK_OFFSET(0xAF03170)
-#define CLASS_2_DDC3C2B2C534ACD4__CTOR_OFFSET UNITYSDK_OFFSET(0xAF03150)
+#define CLASS_2_DDC3C2B2C534ACD4_METHOD_2_5CEF0A1AFE214F53_OFFSET UNITYSDK_OFFSET(0xB8B3FF0)
+#define CLASS_2_DDC3C2B2C534ACD4__CTOR_OFFSET UNITYSDK_OFFSET(0xB8B3FD0)
 
-inline static constexpr unsigned int Class_2_DDC3C2B2C534ACD4_TypeDefinitionIndex = 51148;
+inline static constexpr unsigned int Class_2_DDC3C2B2C534ACD4_TypeDefinitionIndex = 53832;
 
 class Class_2_DDC3C2B2C534ACD4 : public ::Class_1_526C2C5F58C0A6C2
 {
 public:
-	::RPG::GameCore::BodySize Field_2_0; // 0x50
+	::RPG::GameCore::BodySize GHCIJGJGFFL; // 0x50
 
 	::System::Void _ctor(::RPG::GameCore::BodySize a1)
 	{

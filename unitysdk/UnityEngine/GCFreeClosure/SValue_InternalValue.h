@@ -4,12 +4,12 @@
 
 namespace System { class Object; }
 
-#define UNITYENGINE_GCFREECLOSURE_SVALUE_INTERNALVALUE_EQUALS_OFFSET UNITYSDK_OFFSET(0x3A275B0)
-#define UNITYENGINE_GCFREECLOSURE_SVALUE_INTERNALVALUE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3A275D0)
+#define UNITYENGINE_GCFREECLOSURE_SVALUE_INTERNALVALUE_EQUALS_OFFSET UNITYSDK_OFFSET(0x3BB9500)
+#define UNITYENGINE_GCFREECLOSURE_SVALUE_INTERNALVALUE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3BB9520)
 
 namespace UnityEngine::GCFreeClosure
 {
-	inline static constexpr unsigned int SValue_InternalValue_TypeDefinitionIndex = 4454;
+	inline static constexpr unsigned int SValue_InternalValue_TypeDefinitionIndex = 4464;
 
 	struct alignas(8) SValue_InternalValue
 	{

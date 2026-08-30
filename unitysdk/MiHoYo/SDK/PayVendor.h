@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int PayVendor_TypeDefinitionIndex = 8052;
+	inline static constexpr unsigned int PayVendor_TypeDefinitionIndex = 8056;
 
 	enum class PayVendor : ::System::Int32
 	{

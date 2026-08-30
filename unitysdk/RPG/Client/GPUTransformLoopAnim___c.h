@@ -8,29 +8,29 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Mesh; }
 
-#define RPG_CLIENT_GPUTRANSFORMLOOPANIM___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC66A620)
-#define RPG_CLIENT_GPUTRANSFORMLOOPANIM___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC66A660)
-#define RPG_CLIENT_GPUTRANSFORMLOOPANIM___C__GET_RENDERBUDGETDATA_B__23_0_OFFSET UNITYSDK_OFFSET(0xC66A670)
-#define RPG_CLIENT_GPUTRANSFORMLOOPANIM___C__GET_RENDERBUDGETDATA_B__23_1_OFFSET UNITYSDK_OFFSET(0xC66A690)
+#define RPG_CLIENT_GPUTRANSFORMLOOPANIM___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD0EFFD0)
+#define RPG_CLIENT_GPUTRANSFORMLOOPANIM___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD0F0010)
+#define RPG_CLIENT_GPUTRANSFORMLOOPANIM___C__GET_RENDERBUDGETDATA_B__23_0_OFFSET UNITYSDK_OFFSET(0xD0F0020)
+#define RPG_CLIENT_GPUTRANSFORMLOOPANIM___C__GET_RENDERBUDGETDATA_B__23_1_OFFSET UNITYSDK_OFFSET(0xD0F0040)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GPUTransformLoopAnim___c_TypeDefinitionIndex = 67168;
+	inline static constexpr unsigned int GPUTransformLoopAnim___c_TypeDefinitionIndex = 70287;
 
 	class GPUTransformLoopAnim___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::Class_3_B40B82316B003D8B_AnimatedItem*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Material*>*>** StaticGet___9__23_1()
-		{
-			return (::System::Func_2<::Class_3_B40B82316B003D8B_AnimatedItem*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Material*>*>**)Il2CppClass::FromTypeDefinitionIndex(GPUTransformLoopAnim___c_TypeDefinitionIndex)->GetStaticField(0x1C8C0);
-		}
 		static ::RPG::Client::GPUTransformLoopAnim___c** StaticGet___9()
 		{
-			return (::RPG::Client::GPUTransformLoopAnim___c**)Il2CppClass::FromTypeDefinitionIndex(GPUTransformLoopAnim___c_TypeDefinitionIndex)->GetStaticField(0x1C8C8);
+			return (::RPG::Client::GPUTransformLoopAnim___c**)Il2CppClass::FromTypeDefinitionIndex(GPUTransformLoopAnim___c_TypeDefinitionIndex)->GetStaticField(0x1A920);
+		}
+		static ::System::Func_2<::Class_3_B40B82316B003D8B_AnimatedItem*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Material*>*>** StaticGet___9__23_1()
+		{
+			return (::System::Func_2<::Class_3_B40B82316B003D8B_AnimatedItem*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Material*>*>**)Il2CppClass::FromTypeDefinitionIndex(GPUTransformLoopAnim___c_TypeDefinitionIndex)->GetStaticField(0x1A928);
 		}
 		static ::System::Func_2<::Class_3_B40B82316B003D8B_AnimatedItem*, ::UnityEngine::Mesh*>** StaticGet___9__23_0()
 		{
-			return (::System::Func_2<::Class_3_B40B82316B003D8B_AnimatedItem*, ::UnityEngine::Mesh*>**)Il2CppClass::FromTypeDefinitionIndex(GPUTransformLoopAnim___c_TypeDefinitionIndex)->GetStaticField(0x1C8D0);
+			return (::System::Func_2<::Class_3_B40B82316B003D8B_AnimatedItem*, ::UnityEngine::Mesh*>**)Il2CppClass::FromTypeDefinitionIndex(GPUTransformLoopAnim___c_TypeDefinitionIndex)->GetStaticField(0x1A930);
 		}
 
 		static ::System::Void _cctor()

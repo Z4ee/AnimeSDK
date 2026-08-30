@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_PLUGINUI_MIHOYOSDKBRIDGEUIELEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0xAB4A350)
+#define MIHOYO_SDK_PLUGINUI_MIHOYOSDKBRIDGEUIELEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0xB28AA20)
 
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int MiHoYoSDKBridgeUIElement_TypeDefinitionIndex = 45008;
+	inline static constexpr unsigned int MiHoYoSDKBridgeUIElement_TypeDefinitionIndex = 47244;
 
 	class MiHoYoSDKBridgeUIElement : public ::System::Object
 	{

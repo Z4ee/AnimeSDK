@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Exception.h"
 
-#define RPG_CLIENT_DATETIMEPRO_DATETIMEAMBIGUITYEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1C8EB130)
+#define RPG_CLIENT_DATETIMEPRO_DATETIMEAMBIGUITYEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1E591470)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DateTimePro_DateTimeAmbiguityException_TypeDefinitionIndex = 33830;
+	inline static constexpr unsigned int DateTimePro_DateTimeAmbiguityException_TypeDefinitionIndex = 34596;
 
 	class DateTimePro_DateTimeAmbiguityException : public ::System::Exception
 	{

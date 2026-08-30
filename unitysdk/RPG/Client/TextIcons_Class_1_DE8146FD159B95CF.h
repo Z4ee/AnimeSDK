@@ -6,19 +6,19 @@ namespace UnityEngine { class CanvasRenderer; }
 namespace UnityEngine { class Texture; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_TEXTICONS_CLASS_1_DE8146FD159B95CF_METHOD_1_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0xD67A160)
-#define RPG_CLIENT_TEXTICONS_CLASS_1_DE8146FD159B95CF__CTOR_OFFSET UNITYSDK_OFFSET(0xD67DEE0)
+#define RPG_CLIENT_TEXTICONS_CLASS_1_DE8146FD159B95CF_METHOD_1_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0xE1C9E70)
+#define RPG_CLIENT_TEXTICONS_CLASS_1_DE8146FD159B95CF__CTOR_OFFSET UNITYSDK_OFFSET(0xE1CDBD0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TextIcons_Class_1_DE8146FD159B95CF_TypeDefinitionIndex = 69391;
+	inline static constexpr unsigned int TextIcons_Class_1_DE8146FD159B95CF_TypeDefinitionIndex = 72606;
 
 	class TextIcons_Class_1_DE8146FD159B95CF : public ::System::Object
 	{
 	public:
-		::UnityEngine::Texture* Field_1_0; // 0x10
-		::UnityEngine::CanvasRenderer* Field_1_1; // 0x18
-		::System::Int32 Field_1_2; // 0x20
+		::UnityEngine::Texture* JKIJEJKCHKP; // 0x10
+		::UnityEngine::CanvasRenderer* ONEFCLJPGLE; // 0x18
+		::System::Int32 FGAFLJPGCNH; // 0x20
 
 		::System::Void _ctor(::UnityEngine::Transform* a1, ::System::Int32 a2, ::UnityEngine::Texture* a3)
 		{

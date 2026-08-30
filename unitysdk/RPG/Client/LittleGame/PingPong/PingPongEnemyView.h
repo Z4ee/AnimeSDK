@@ -6,11 +6,11 @@ namespace RPG::Client::LittleGame::PingPong { class PingPongEnemyView_ChildInfo;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_LITTLEGAME_PINGPONG_PINGPONGENEMYVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0xC9DEF60)
+#define RPG_CLIENT_LITTLEGAME_PINGPONG_PINGPONGENEMYVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0xD522F30)
 
 namespace RPG::Client::LittleGame::PingPong
 {
-	inline static constexpr unsigned int PingPongEnemyView_TypeDefinitionIndex = 72767;
+	inline static constexpr unsigned int PingPongEnemyView_TypeDefinitionIndex = 76203;
 
 	class PingPongEnemyView : public ::RPG::Client::LittleGame::PingPong::PingPongView
 	{

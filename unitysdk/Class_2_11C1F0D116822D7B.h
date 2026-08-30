@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_F9FBCC956DFCF137_4.h"
+#include "unitysdk/Class_1_F9FBCC956DFCF137_5.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 
 class Class_1_5F51D4049EA87B7B;
@@ -8,18 +8,18 @@ class Class_1_AC66714FF5876767;
 namespace RPG::GameCore { class CheckPredicateAxis; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_2_11C1F0D116822D7B_METHOD_2_0A71AB1F1FA1EB4C_OFFSET UNITYSDK_OFFSET(0x14845350)
-#define CLASS_2_11C1F0D116822D7B_METHOD_2_0CC4BC19C602BCD0_OFFSET UNITYSDK_OFFSET(0x14845130)
-#define CLASS_2_11C1F0D116822D7B__CTOR_OFFSET UNITYSDK_OFFSET(0x14845120)
+#define CLASS_2_11C1F0D116822D7B_METHOD_2_0A71AB1F1FA1EB4C_OFFSET UNITYSDK_OFFSET(0x15706F30)
+#define CLASS_2_11C1F0D116822D7B_METHOD_2_0CC4BC19C602BCD0_OFFSET UNITYSDK_OFFSET(0x15706D10)
+#define CLASS_2_11C1F0D116822D7B__CTOR_OFFSET UNITYSDK_OFFSET(0x15706D00)
 
-inline static constexpr unsigned int Class_2_11C1F0D116822D7B_TypeDefinitionIndex = 51898;
+inline static constexpr unsigned int Class_2_11C1F0D116822D7B_TypeDefinitionIndex = 54582;
 
-class Class_2_11C1F0D116822D7B : public ::Class_1_F9FBCC956DFCF137_4
+class Class_2_11C1F0D116822D7B : public ::Class_1_F9FBCC956DFCF137_5
 {
 public:
-	::RPG::GameCore::CheckPredicateAxis* Field_2_0; // 0x18
-	::RPG::GameCore::TaskContext* Field_2_1; // 0x20
-	::Class_1_5F51D4049EA87B7B* Field_2_2; // 0x28
+	::Class_1_5F51D4049EA87B7B* LLHKOFLJFCH; // 0x18
+	::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+	::RPG::GameCore::CheckPredicateAxis* IGHAHBNLIJA; // 0x28
 
 	::System::Void _ctor(::RPG::GameCore::CheckPredicateAxis* a1, ::Class_1_AC66714FF5876767* a2)
 	{

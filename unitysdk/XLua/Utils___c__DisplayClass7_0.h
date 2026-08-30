@@ -4,12 +4,12 @@
 
 namespace System { class Type; }
 
-#define XLUA_UTILS___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x143823F0)
-#define XLUA_UTILS___C__DISPLAYCLASS7_0__GENENUMCASTFROM_B__0_OFFSET UNITYSDK_OFFSET(0x143969E0)
+#define XLUA_UTILS___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1516FC40)
+#define XLUA_UTILS___C__DISPLAYCLASS7_0__GENENUMCASTFROM_B__0_OFFSET UNITYSDK_OFFSET(0x151849D0)
 
 namespace XLua
 {
-	inline static constexpr unsigned int Utils___c__DisplayClass7_0_TypeDefinitionIndex = 48022;
+	inline static constexpr unsigned int Utils___c__DisplayClass7_0_TypeDefinitionIndex = 50609;
 
 	class Utils___c__DisplayClass7_0 : public ::System::Object
 	{

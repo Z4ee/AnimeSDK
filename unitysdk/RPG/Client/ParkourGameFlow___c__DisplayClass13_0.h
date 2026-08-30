@@ -5,18 +5,18 @@
 namespace RPG::Client { class ParkourGameFlow; }
 namespace RPG::Client::Promises { class Promise; }
 
-#define RPG_CLIENT_PARKOURGAMEFLOW___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCF34330)
-#define RPG_CLIENT_PARKOURGAMEFLOW___C__DISPLAYCLASS13_0__ONENTERED_B__0_OFFSET UNITYSDK_OFFSET(0xCF367A0)
+#define RPG_CLIENT_PARKOURGAMEFLOW___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0xDA31CA0)
+#define RPG_CLIENT_PARKOURGAMEFLOW___C__DISPLAYCLASS13_0__ONENTERED_B__0_OFFSET UNITYSDK_OFFSET(0xDA34110)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ParkourGameFlow___c__DisplayClass13_0_TypeDefinitionIndex = 59096;
+	inline static constexpr unsigned int ParkourGameFlow___c__DisplayClass13_0_TypeDefinitionIndex = 61931;
 
 	class ParkourGameFlow___c__DisplayClass13_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::ParkourGameFlow* __4__this; // 0x10
-		::RPG::Client::Promises::Promise* result; // 0x18
+		::RPG::Client::Promises::Promise* result; // 0x10
+		::RPG::Client::ParkourGameFlow* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

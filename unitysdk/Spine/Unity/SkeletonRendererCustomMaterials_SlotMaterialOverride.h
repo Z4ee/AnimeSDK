@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace UnityEngine { class Material; }
 
-#define SPINE_UNITY_SKELETONRENDERERCUSTOMMATERIALS_SLOTMATERIALOVERRIDE_EQUALS_OFFSET UNITYSDK_OFFSET(0x3A0E0E0)
+#define SPINE_UNITY_SKELETONRENDERERCUSTOMMATERIALS_SLOTMATERIALOVERRIDE_EQUALS_OFFSET UNITYSDK_OFFSET(0x3B9E600)
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int SkeletonRendererCustomMaterials_SlotMaterialOverride_TypeDefinitionIndex = 42251;
+	inline static constexpr unsigned int SkeletonRendererCustomMaterials_SlotMaterialOverride_TypeDefinitionIndex = 43862;
 
 	struct alignas(8) SkeletonRendererCustomMaterials_SlotMaterialOverride
 	{

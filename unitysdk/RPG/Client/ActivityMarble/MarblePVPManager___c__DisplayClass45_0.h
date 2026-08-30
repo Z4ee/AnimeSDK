@@ -5,19 +5,19 @@
 namespace RPG::Client::ActivityMarble { class MarblePVPManager; }
 namespace System { class Action; }
 
-#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVPMANAGER___C__DISPLAYCLASS45_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBC109B0)
-#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVPMANAGER___C__DISPLAYCLASS45_0___TRANSFERANDJOINLOBBY_B__0_OFFSET UNITYSDK_OFFSET(0xBC12480)
-#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVPMANAGER___C__DISPLAYCLASS45_0___TRANSFERANDJOINLOBBY_B__1_OFFSET UNITYSDK_OFFSET(0xBC127B0)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVPMANAGER___C__DISPLAYCLASS45_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC62EDC0)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVPMANAGER___C__DISPLAYCLASS45_0___TRANSFERANDJOINLOBBY_B__0_OFFSET UNITYSDK_OFFSET(0xC6308B0)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVPMANAGER___C__DISPLAYCLASS45_0___TRANSFERANDJOINLOBBY_B__1_OFFSET UNITYSDK_OFFSET(0xC630BE0)
 
 namespace RPG::Client::ActivityMarble
 {
-	inline static constexpr unsigned int MarblePVPManager___c__DisplayClass45_0_TypeDefinitionIndex = 71294;
+	inline static constexpr unsigned int MarblePVPManager___c__DisplayClass45_0_TypeDefinitionIndex = 74600;
 
 	class MarblePVPManager___c__DisplayClass45_0 : public ::System::Object
 	{
 	public:
-		::System::Action* __9__1; // 0x10
-		::RPG::Client::ActivityMarble::MarblePVPManager* __4__this; // 0x18
+		::RPG::Client::ActivityMarble::MarblePVPManager* __4__this; // 0x10
+		::System::Action* __9__1; // 0x18
 		::System::UInt64 roomID; // 0x20
 
 		::System::Void _ctor()

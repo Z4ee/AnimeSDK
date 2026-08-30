@@ -5,11 +5,11 @@
 namespace RPG::Client { class ChallengeInstance; }
 namespace RPG::Client::Challenge { class IChallengeEnvironmentHintViewModel; }
 
-#define RPG_CLIENT_CHALLENGE_CHALLENGEENVIRONMENTHINTVIEWMODELFACTORY_CREATE_OFFSET UNITYSDK_OFFSET(0xBF4AB20)
+#define RPG_CLIENT_CHALLENGE_CHALLENGEENVIRONMENTHINTVIEWMODELFACTORY_CREATE_OFFSET UNITYSDK_OFFSET(0xC9EFEE0)
 
 namespace RPG::Client::Challenge
 {
-	inline static constexpr unsigned int ChallengeEnvironmentHintViewModelFactory_TypeDefinitionIndex = 76471;
+	inline static constexpr unsigned int ChallengeEnvironmentHintViewModelFactory_TypeDefinitionIndex = 80103;
 
 	class ChallengeEnvironmentHintViewModelFactory : public ::System::Object
 	{

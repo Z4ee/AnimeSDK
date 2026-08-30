@@ -14,39 +14,39 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Collider; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_1_5863CECBF1A58D06_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1485EFC0)
-#define CLASS_1_5863CECBF1A58D06_METHOD_1_1290EA767C459179_OFFSET UNITYSDK_OFFSET(0x1485F1E0)
-#define CLASS_1_5863CECBF1A58D06_METHOD_1_1ABD3ED38158BF07_OFFSET UNITYSDK_OFFSET(0x1485F5C0)
-#define CLASS_1_5863CECBF1A58D06_METHOD_1_3BB5D2EC283E3034_OFFSET UNITYSDK_OFFSET(0x1485F150)
-#define CLASS_1_5863CECBF1A58D06_METHOD_1_5626D10DDE8F3988_OFFSET UNITYSDK_OFFSET(0x148600B0)
-#define CLASS_1_5863CECBF1A58D06_METHOD_1_5F57EE41996C2D90_OFFSET UNITYSDK_OFFSET(0x1485F9A0)
-#define CLASS_1_5863CECBF1A58D06_METHOD_1_77ACBD7BC5408846_OFFSET UNITYSDK_OFFSET(0x1485F040)
-#define CLASS_1_5863CECBF1A58D06_METHOD_1_AE0EBABE679B6632_OFFSET UNITYSDK_OFFSET(0x14860500)
-#define CLASS_1_5863CECBF1A58D06__CTOR_OFFSET UNITYSDK_OFFSET(0x1485E950)
+#define CLASS_1_5863CECBF1A58D06_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15722020)
+#define CLASS_1_5863CECBF1A58D06_METHOD_1_1290EA767C459179_OFFSET UNITYSDK_OFFSET(0x15722240)
+#define CLASS_1_5863CECBF1A58D06_METHOD_1_1ABD3ED38158BF07_OFFSET UNITYSDK_OFFSET(0x15722630)
+#define CLASS_1_5863CECBF1A58D06_METHOD_1_3BB5D2EC283E3034_OFFSET UNITYSDK_OFFSET(0x157221B0)
+#define CLASS_1_5863CECBF1A58D06_METHOD_1_5626D10DDE8F3988_OFFSET UNITYSDK_OFFSET(0x15723120)
+#define CLASS_1_5863CECBF1A58D06_METHOD_1_5F57EE41996C2D90_OFFSET UNITYSDK_OFFSET(0x15722A10)
+#define CLASS_1_5863CECBF1A58D06_METHOD_1_77ACBD7BC5408846_OFFSET UNITYSDK_OFFSET(0x157220A0)
+#define CLASS_1_5863CECBF1A58D06_METHOD_1_AE0EBABE679B6632_OFFSET UNITYSDK_OFFSET(0x15723570)
+#define CLASS_1_5863CECBF1A58D06__CTOR_OFFSET UNITYSDK_OFFSET(0x157219F0)
 
-inline static constexpr unsigned int Class_1_5863CECBF1A58D06_TypeDefinitionIndex = 58079;
+inline static constexpr unsigned int Class_1_5863CECBF1A58D06_TypeDefinitionIndex = 60906;
 
 class Class_1_5863CECBF1A58D06 : public ::System::Object
 {
 public:
-	// static const ::System::Single Field_1_0; // 0x0
-	::Il2CppArray<::UnityEngine::RaycastHit>* Field_1_1; // 0x10
-	::UnityEngine::Transform* Field_1_2; // 0x18
-	::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* Field_1_3; // 0x20
-	::Class_1_A7CE96953806D8B2* Field_1_4; // 0x28
-	::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>* Field_1_5; // 0x30
-	::System::Single Field_1_6; // 0x38
-	::System::Single Field_1_7; // 0x3C
-	::System::Single Field_1_8; // 0x40
-	::UnityEngine::Vector3 Field_1_9; // 0x44
-	::UnityEngine::Vector3 Field_1_10; // 0x50
-	::Struct_2_CD8A00A916F754FE Field_1_11; // 0x5C
-	::System::Single Field_1_12; // 0xBC
-	::System::Single Field_1_13; // 0xC0
-	::System::Single Field_1_14; // 0xC4
-	::System::Single Field_1_15; // 0xC8
-	::System::Single Field_1_16; // 0xCC
-	::System::Single Field_1_17; // 0xD0
+	// static const ::System::Single BAHOMNMNIFM; // 0x0
+	::Class_1_A7CE96953806D8B2* FCIENMANDEG; // 0x10
+	::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* BHAKAOEDEII; // 0x18
+	::UnityEngine::Transform* IFFOHHFHPDO; // 0x20
+	::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>* PPLFJBHKPDG; // 0x28
+	::Il2CppArray<::UnityEngine::RaycastHit>* CIECEBIKPMP; // 0x30
+	::System::Single OCGFPOBMDKF; // 0x38
+	::System::Single BBGJMDDEKIC; // 0x3C
+	::UnityEngine::Vector3 AFJPJMACFPP; // 0x40
+	::System::Single NEJLFGKIEMM; // 0x4C
+	::System::Single NCGNANEMDCF; // 0x50
+	::UnityEngine::Vector3 GCDKCNKNDEN; // 0x54
+	::System::Single DKBKELBFMCD; // 0x60
+	::Struct_2_CD8A00A916F754FE ILNDMCGIHFH; // 0x64
+	::System::Single JLDNDCNNBCL; // 0xC4
+	::System::Single PHFMMMBEDKD; // 0xC8
+	::System::Single MFOOBPJLGKG; // 0xCC
+	::System::Single EEAAFHMHFFB; // 0xD0
 
 	::System::Void _ctor(::RPG::GameCore::PlayerLockRangeConfig* a1)
 	{

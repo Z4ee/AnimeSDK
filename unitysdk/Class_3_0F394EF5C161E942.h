@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class StopAim; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_0F394EF5C161E942_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1503F0B0)
-#define CLASS_3_0F394EF5C161E942__CTOR_OFFSET UNITYSDK_OFFSET(0x1503F080)
+#define CLASS_3_0F394EF5C161E942_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15CF48F0)
+#define CLASS_3_0F394EF5C161E942__CTOR_OFFSET UNITYSDK_OFFSET(0x15CF48C0)
 
-inline static constexpr unsigned int Class_3_0F394EF5C161E942_TypeDefinitionIndex = 53373;
+inline static constexpr unsigned int Class_3_0F394EF5C161E942_TypeDefinitionIndex = 56087;
 
 class Class_3_0F394EF5C161E942 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::StopAim*>
 {

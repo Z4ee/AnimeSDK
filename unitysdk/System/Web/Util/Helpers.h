@@ -4,18 +4,18 @@
 
 namespace System::Globalization { class CultureInfo; }
 
-#define SYSTEM_WEB_UTIL_HELPERS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CD7F220)
+#define SYSTEM_WEB_UTIL_HELPERS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EA2BA60)
 
 namespace System::Web::Util
 {
-	inline static constexpr unsigned int Helpers_TypeDefinitionIndex = 2658;
+	inline static constexpr unsigned int Helpers_TypeDefinitionIndex = 2665;
 
 	class Helpers : public ::System::Object
 	{
 	public:
 		static ::System::Globalization::CultureInfo** StaticGet_InvariantCulture()
 		{
-			return (::System::Globalization::CultureInfo**)Il2CppClass::FromTypeDefinitionIndex(Helpers_TypeDefinitionIndex)->GetStaticField(0x30CF0);
+			return (::System::Globalization::CultureInfo**)Il2CppClass::FromTypeDefinitionIndex(Helpers_TypeDefinitionIndex)->GetStaticField(0x287F0);
 		}
 
 		static ::System::Void _cctor()

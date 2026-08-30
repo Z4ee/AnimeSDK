@@ -10,19 +10,19 @@ namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_E93BCEC39F2F36D5_METHOD_1_273AB301632D7717_OFFSET UNITYSDK_OFFSET(0xDB76820)
-#define CLASS_1_E93BCEC39F2F36D5_METHOD_1_C7C03A5C72BF12B1_OFFSET UNITYSDK_OFFSET(0xDB77060)
-#define CLASS_1_E93BCEC39F2F36D5_METHOD_1_DE0EC985778391B3_OFFSET UNITYSDK_OFFSET(0xDB769E0)
-#define CLASS_1_E93BCEC39F2F36D5__CCTOR_OFFSET UNITYSDK_OFFSET(0xDB77590)
+#define CLASS_1_E93BCEC39F2F36D5_METHOD_1_273AB301632D7717_OFFSET UNITYSDK_OFFSET(0xE88DD60)
+#define CLASS_1_E93BCEC39F2F36D5_METHOD_1_C7C03A5C72BF12B1_OFFSET UNITYSDK_OFFSET(0xE88E5A0)
+#define CLASS_1_E93BCEC39F2F36D5_METHOD_1_DE0EC985778391B3_OFFSET UNITYSDK_OFFSET(0xE88DF20)
+#define CLASS_1_E93BCEC39F2F36D5__CCTOR_OFFSET UNITYSDK_OFFSET(0xE88EAD0)
 
-inline static constexpr unsigned int Class_1_E93BCEC39F2F36D5_TypeDefinitionIndex = 57432;
+inline static constexpr unsigned int Class_1_E93BCEC39F2F36D5_TypeDefinitionIndex = 60249;
 
 class Class_1_E93BCEC39F2F36D5 : public ::System::Object
 {
 public:
-	static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::Class_1_E93BCEC39F2F36D5_Class_3_3A380764862D6B7D*>** StaticGet_Field_1_0()
+	static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::Class_1_E93BCEC39F2F36D5_Class_3_3A380764862D6B7D*>** StaticGet_JEBACNHEEPO()
 	{
-		return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::Class_1_E93BCEC39F2F36D5_Class_3_3A380764862D6B7D*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_E93BCEC39F2F36D5_TypeDefinitionIndex)->GetStaticField(0x43B80);
+		return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::Class_1_E93BCEC39F2F36D5_Class_3_3A380764862D6B7D*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_E93BCEC39F2F36D5_TypeDefinitionIndex)->GetStaticField(0x47F0);
 	}
 
 	static ::System::Void _cctor()

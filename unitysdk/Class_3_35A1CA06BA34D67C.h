@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class EscapeFromBattle; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_35A1CA06BA34D67C_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x14A3B320)
-#define CLASS_3_35A1CA06BA34D67C__CTOR_OFFSET UNITYSDK_OFFSET(0x14A3B2F0)
+#define CLASS_3_35A1CA06BA34D67C_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x158CF820)
+#define CLASS_3_35A1CA06BA34D67C__CTOR_OFFSET UNITYSDK_OFFSET(0x158CF7F0)
 
-inline static constexpr unsigned int Class_3_35A1CA06BA34D67C_TypeDefinitionIndex = 52537;
+inline static constexpr unsigned int Class_3_35A1CA06BA34D67C_TypeDefinitionIndex = 55234;
 
 class Class_3_35A1CA06BA34D67C : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::EscapeFromBattle*>
 {

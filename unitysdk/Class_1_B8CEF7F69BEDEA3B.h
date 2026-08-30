@@ -3,19 +3,19 @@
 #include "unitysdk/RPG/GameCore/RtLifeBindingType.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_496;
+class Class_0_16E4307DCC419505_531;
 
-#define CLASS_1_B8CEF7F69BEDEA3B_CLEAR_OFFSET UNITYSDK_OFFSET(0xB9F6CC0)
-#define CLASS_1_B8CEF7F69BEDEA3B__CTOR_OFFSET UNITYSDK_OFFSET(0xB9F6D10)
+#define CLASS_1_B8CEF7F69BEDEA3B_CLEAR_OFFSET UNITYSDK_OFFSET(0xC415270)
+#define CLASS_1_B8CEF7F69BEDEA3B__CTOR_OFFSET UNITYSDK_OFFSET(0xC4152C0)
 
-inline static constexpr unsigned int Class_1_B8CEF7F69BEDEA3B_TypeDefinitionIndex = 51648;
+inline static constexpr unsigned int Class_1_B8CEF7F69BEDEA3B_TypeDefinitionIndex = 54332;
 
 class Class_1_B8CEF7F69BEDEA3B : public ::System::Object
 {
 public:
-	::Class_0_16E4307DCC419505_496* Field_1_0; // 0x10
-	::System::Object* Field_1_1; // 0x18
-	::RPG::GameCore::RtLifeBindingType Field_1_2; // 0x20
+	::System::Object* NEEOLLJLEGA; // 0x10
+	::Class_0_16E4307DCC419505_531* CHOFPMKEKGG; // 0x18
+	::RPG::GameCore::RtLifeBindingType PPPOGKPOPBA; // 0x20
 
 	::System::Void _ctor()
 	{

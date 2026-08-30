@@ -10,21 +10,21 @@ namespace Entitas { class IEntity; }
 namespace System { class String; }
 namespace UnityEngine { class CapsuleCollider; }
 
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMMISSILEVIEW_INITIALIZE_OFFSET UNITYSDK_OFFSET(0xC9AF300)
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMMISSILEVIEW_RELEASE_OFFSET UNITYSDK_OFFSET(0xC9AF590)
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMMISSILEVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0xC9AF680)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMMISSILEVIEW_INITIALIZE_OFFSET UNITYSDK_OFFSET(0xD4ECEF0)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMMISSILEVIEW_RELEASE_OFFSET UNITYSDK_OFFSET(0xD4ED390)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMMISSILEVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0xD4ED8F0)
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int FiveDimMissileView_TypeDefinitionIndex = 73240;
+	inline static constexpr unsigned int FiveDimMissileView_TypeDefinitionIndex = 76716;
 
 	class FiveDimMissileView : public ::RPG::Client::LittleGame::FiveDim::FiveDimPropView
 	{
 	public:
-		::UnityEngine::CapsuleCollider* MissileCollider; // 0x1D0
-		::UnityEngine::Vector2 Field_8_1; // 0x1D8
-		::UnityEngine::Vector3 Field_8_2; // 0x1E0
-		::System::Boolean Field_8_3; // 0x1EC
+		::UnityEngine::CapsuleCollider* MissileCollider; // 0x208
+		::UnityEngine::Vector2 EJLBICDOEPN; // 0x210
+		::UnityEngine::Vector3 EIKLCFAGEKP; // 0x218
+		::System::Boolean AGDANMMCNOM; // 0x224
 
 		::System::Void _ctor()
 		{

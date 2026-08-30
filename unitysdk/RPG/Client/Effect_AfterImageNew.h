@@ -7,7 +7,7 @@
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-class Class_0_16E4307DCC419505_1018;
+class Class_0_16E4307DCC419505_1072;
 namespace RPG::Client { class MonoEffect; }
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
@@ -18,55 +18,55 @@ namespace UnityEngine { class MeshFilter; }
 namespace UnityEngine { class SkinnedMeshRenderer; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_EFFECT_AFTERIMAGENEW_ACTIVATEAFTERIMAGE_OFFSET UNITYSDK_OFFSET(0xC2FB5D0)
-#define RPG_CLIENT_EFFECT_AFTERIMAGENEW_ADDWORLDOFFSET_OFFSET UNITYSDK_OFFSET(0xC2FC230)
-#define RPG_CLIENT_EFFECT_AFTERIMAGENEW_ADDWORLDROTATION_OFFSET UNITYSDK_OFFSET(0xC2FC510)
-#define RPG_CLIENT_EFFECT_AFTERIMAGENEW_ALLOWBAKEIMAGE_OFFSET UNITYSDK_OFFSET(0xC2FAA90)
-#define RPG_CLIENT_EFFECT_AFTERIMAGENEW_AWAKE_OFFSET UNITYSDK_OFFSET(0xC2F9C60)
-#define RPG_CLIENT_EFFECT_AFTERIMAGENEW_BAKEMESHIMAGE_OFFSET UNITYSDK_OFFSET(0xC2FB590)
-#define RPG_CLIENT_EFFECT_AFTERIMAGENEW_DEACTIVATEAFTERIMAGE_OFFSET UNITYSDK_OFFSET(0xC2F9E60)
-#define RPG_CLIENT_EFFECT_AFTERIMAGENEW_FIXEDUPDATE_OFFSET UNITYSDK_OFFSET(0xC2F9FB0)
-#define RPG_CLIENT_EFFECT_AFTERIMAGENEW_GET_CURRENTIMAGECOUNT_OFFSET UNITYSDK_OFFSET(0xC2FAD60)
-#define RPG_CLIENT_EFFECT_AFTERIMAGENEW_LATETICK_OFFSET UNITYSDK_OFFSET(0xC2FA370)
-#define RPG_CLIENT_EFFECT_AFTERIMAGENEW_METHOD_5_3ABEC8F14503754E_OFFSET UNITYSDK_OFFSET(0xC2FA000)
-#define RPG_CLIENT_EFFECT_AFTERIMAGENEW_METHOD_5_82020AC4BCE8251D_OFFSET UNITYSDK_OFFSET(0xC2FC930)
-#define RPG_CLIENT_EFFECT_AFTERIMAGENEW_METHOD_5_C3FAEDDB7D84362E_OFFSET UNITYSDK_OFFSET(0xC2FADC0)
-#define RPG_CLIENT_EFFECT_AFTERIMAGENEW_METHOD_5_CA373AA1C7054598_1_OFFSET UNITYSDK_OFFSET(0xC2FCAE0)
-#define RPG_CLIENT_EFFECT_AFTERIMAGENEW_METHOD_5_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xC2FCA90)
-#define RPG_CLIENT_EFFECT_AFTERIMAGENEW_METHOD_5_DC715239B8B98D9C_OFFSET UNITYSDK_OFFSET(0xC2FB7A0)
-#define RPG_CLIENT_EFFECT_AFTERIMAGENEW_METHOD_5_E250BBB8026CD6B5_OFFSET UNITYSDK_OFFSET(0xC2FAC80)
-#define RPG_CLIENT_EFFECT_AFTERIMAGENEW_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xC2FA300)
-#define RPG_CLIENT_EFFECT_AFTERIMAGENEW_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xC2F9DC0)
-#define RPG_CLIENT_EFFECT_AFTERIMAGENEW_ONENABLE_OFFSET UNITYSDK_OFFSET(0xC2F9D30)
-#define RPG_CLIENT_EFFECT_AFTERIMAGENEW__CCTOR_OFFSET UNITYSDK_OFFSET(0xC2FCBF0)
-#define RPG_CLIENT_EFFECT_AFTERIMAGENEW__CTOR_OFFSET UNITYSDK_OFFSET(0xC2FCB30)
+#define RPG_CLIENT_EFFECT_AFTERIMAGENEW_ACTIVATEAFTERIMAGE_OFFSET UNITYSDK_OFFSET(0xCDCC9F0)
+#define RPG_CLIENT_EFFECT_AFTERIMAGENEW_ADDWORLDOFFSET_OFFSET UNITYSDK_OFFSET(0xCDCD650)
+#define RPG_CLIENT_EFFECT_AFTERIMAGENEW_ADDWORLDROTATION_OFFSET UNITYSDK_OFFSET(0xCDCD930)
+#define RPG_CLIENT_EFFECT_AFTERIMAGENEW_ALLOWBAKEIMAGE_OFFSET UNITYSDK_OFFSET(0xCDCBEB0)
+#define RPG_CLIENT_EFFECT_AFTERIMAGENEW_AWAKE_OFFSET UNITYSDK_OFFSET(0xCDCB080)
+#define RPG_CLIENT_EFFECT_AFTERIMAGENEW_BAKEMESHIMAGE_OFFSET UNITYSDK_OFFSET(0xCDCC9B0)
+#define RPG_CLIENT_EFFECT_AFTERIMAGENEW_DEACTIVATEAFTERIMAGE_OFFSET UNITYSDK_OFFSET(0xCDCB280)
+#define RPG_CLIENT_EFFECT_AFTERIMAGENEW_FIXEDUPDATE_OFFSET UNITYSDK_OFFSET(0xCDCB3D0)
+#define RPG_CLIENT_EFFECT_AFTERIMAGENEW_GET_CURRENTIMAGECOUNT_OFFSET UNITYSDK_OFFSET(0xCDCC180)
+#define RPG_CLIENT_EFFECT_AFTERIMAGENEW_LATETICK_OFFSET UNITYSDK_OFFSET(0xCDCB790)
+#define RPG_CLIENT_EFFECT_AFTERIMAGENEW_METHOD_5_3ABEC8F14503754E_OFFSET UNITYSDK_OFFSET(0xCDCB420)
+#define RPG_CLIENT_EFFECT_AFTERIMAGENEW_METHOD_5_82020AC4BCE8251D_OFFSET UNITYSDK_OFFSET(0xCDCDD50)
+#define RPG_CLIENT_EFFECT_AFTERIMAGENEW_METHOD_5_C3FAEDDB7D84362E_OFFSET UNITYSDK_OFFSET(0xCDCC1E0)
+#define RPG_CLIENT_EFFECT_AFTERIMAGENEW_METHOD_5_CA373AA1C7054598_1_OFFSET UNITYSDK_OFFSET(0xCDCDF00)
+#define RPG_CLIENT_EFFECT_AFTERIMAGENEW_METHOD_5_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xCDCDEB0)
+#define RPG_CLIENT_EFFECT_AFTERIMAGENEW_METHOD_5_DC715239B8B98D9C_OFFSET UNITYSDK_OFFSET(0xCDCCBC0)
+#define RPG_CLIENT_EFFECT_AFTERIMAGENEW_METHOD_5_E250BBB8026CD6B5_OFFSET UNITYSDK_OFFSET(0xCDCC0A0)
+#define RPG_CLIENT_EFFECT_AFTERIMAGENEW_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xCDCB720)
+#define RPG_CLIENT_EFFECT_AFTERIMAGENEW_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xCDCB1E0)
+#define RPG_CLIENT_EFFECT_AFTERIMAGENEW_ONENABLE_OFFSET UNITYSDK_OFFSET(0xCDCB150)
+#define RPG_CLIENT_EFFECT_AFTERIMAGENEW__CCTOR_OFFSET UNITYSDK_OFFSET(0xCDCE010)
+#define RPG_CLIENT_EFFECT_AFTERIMAGENEW__CTOR_OFFSET UNITYSDK_OFFSET(0xCDCDF50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_AfterImageNew_TypeDefinitionIndex = 67269;
+	inline static constexpr unsigned int Effect_AfterImageNew_TypeDefinitionIndex = 70391;
 
 	class Effect_AfterImageNew : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::System::Int32* StaticGet_Field_5_0()
+		static ::System::Int32* StaticGet_PPBOELILJKN()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Effect_AfterImageNew_TypeDefinitionIndex)->GetStaticField(0x14480);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Effect_AfterImageNew_TypeDefinitionIndex)->GetStaticField(0x146A0);
 		}
-		static ::System::Int32* StaticGet_Field_5_1()
+		static ::System::Int32* StaticGet_PMMMMOLGEAG()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Effect_AfterImageNew_TypeDefinitionIndex)->GetStaticField(0x14484);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Effect_AfterImageNew_TypeDefinitionIndex)->GetStaticField(0x146A4);
 		}
-		static ::System::Int32* StaticGet_Field_5_2()
+		static ::System::Int32* StaticGet_GOEIGKDDJOH()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Effect_AfterImageNew_TypeDefinitionIndex)->GetStaticField(0x14488);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Effect_AfterImageNew_TypeDefinitionIndex)->GetStaticField(0x146A8);
 		}
-		static ::System::Int32* StaticGet_Field_5_3()
+		static ::System::Int32* StaticGet_EBJGHNFJLLF()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Effect_AfterImageNew_TypeDefinitionIndex)->GetStaticField(0x1448C);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Effect_AfterImageNew_TypeDefinitionIndex)->GetStaticField(0x146AC);
 		}
-		static ::System::Int32* StaticGet_Field_5_4()
+		static ::System::Int32* StaticGet_JIOEPBGDDNJ()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Effect_AfterImageNew_TypeDefinitionIndex)->GetStaticField(0x14490);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Effect_AfterImageNew_TypeDefinitionIndex)->GetStaticField(0x146B0);
 		}
 		// static const ::System::Int32 ImageLimit = 0x14; // 0x0
 		::System::Int32 MaxCount; // 0x18
@@ -84,30 +84,30 @@ namespace RPG::Client
 		::System::Boolean AlwaysBehindCharacter; // 0x60
 		::System::Boolean Actived; // 0x61
 		::System::Boolean _Init; // 0x62
-		::RPG::Client::MonoEffect* Field_5_21; // 0x68
-		::UnityEngine::GameObject* Field_5_22; // 0x70
-		::Il2CppArray<::System::Single>* Field_5_23; // 0x78
-		::Il2CppArray<::System::Single>* Field_5_24; // 0x80
-		::Il2CppArray<::UnityEngine::Vector3>* Field_5_25; // 0x88
-		::System::Single Field_5_26; // 0x90
-		::System::Boolean Field_5_27; // 0x94
-		::System::Int32 Field_5_28; // 0x98
-		::System::Int32 Field_5_29; // 0x9C
-		::System::Int32 Field_5_30; // 0xA0
-		::Il2CppArray<::UnityEngine::Mesh*>* Field_5_31; // 0xA8
-		::Il2CppArray<::UnityEngine::Matrix4x4>* Field_5_32; // 0xB0
-		::Il2CppArray<::UnityEngine::Transform*>* Field_5_33; // 0xB8
-		::UnityEngine::MaterialPropertyBlock* Field_5_34; // 0xC0
-		::Il2CppArray<::System::Single>* Field_5_35; // 0xC8
-		::Il2CppArray<::UnityEngine::Matrix4x4>* Field_5_36; // 0xD0
-		::Il2CppArray<::UnityEngine::MeshFilter*>* Field_5_37; // 0xD8
-		::Il2CppArray<::UnityEngine::SkinnedMeshRenderer*>* Field_5_38; // 0xE0
-		::Il2CppArray<::UnityEngine::MeshFilter*>* Field_5_39; // 0xE8
-		::Il2CppArray<::UnityEngine::SkinnedMeshRenderer*>* Field_5_40; // 0xF0
-		::System::Int32 Field_5_41; // 0xF8
-		::UnityEngine::Material* Field_5_42; // 0x100
-		::Class_0_16E4307DCC419505_1018* Field_5_43; // 0x108
-		::System::Boolean Field_5_44; // 0x110
+		::RPG::Client::MonoEffect* LBNBPMIFDHI; // 0x68
+		::UnityEngine::GameObject* KGCFHPOMNLJ; // 0x70
+		::Il2CppArray<::System::Single>* FGPOADGIMMJ; // 0x78
+		::Il2CppArray<::System::Single>* HOEFAFMAEGA; // 0x80
+		::Il2CppArray<::UnityEngine::Vector3>* CFPOFBLILMM; // 0x88
+		::System::Single FFPHEOCGFFF; // 0x90
+		::System::Boolean HOCLHDEPAAB; // 0x94
+		::System::Int32 APLPHBHFIIC; // 0x98
+		::System::Int32 LDOCFAIGGKD; // 0x9C
+		::System::Int32 DINGKKIBKIE; // 0xA0
+		::Il2CppArray<::UnityEngine::Mesh*>* MJMFFKCOLDB; // 0xA8
+		::Il2CppArray<::UnityEngine::Matrix4x4>* LKOINBLJGHL; // 0xB0
+		::Il2CppArray<::UnityEngine::Transform*>* KKALAJFMLFL; // 0xB8
+		::UnityEngine::MaterialPropertyBlock* IDGFNFGGDOL; // 0xC0
+		::Il2CppArray<::System::Single>* KPBLOMGEEOL; // 0xC8
+		::Il2CppArray<::UnityEngine::Matrix4x4>* AKAIGBJLFAD; // 0xD0
+		::Il2CppArray<::UnityEngine::MeshFilter*>* NALCLNBGGMB; // 0xD8
+		::Il2CppArray<::UnityEngine::SkinnedMeshRenderer*>* BKFBBLCEEEO; // 0xE0
+		::Il2CppArray<::UnityEngine::MeshFilter*>* CDPBNBDNPMM; // 0xE8
+		::Il2CppArray<::UnityEngine::SkinnedMeshRenderer*>* MBIPABEDICH; // 0xF0
+		::System::Int32 CJJIFIGMHHB; // 0xF8
+		::UnityEngine::Material* CBBBEOKELHN; // 0x100
+		::Class_0_16E4307DCC419505_1072* LKAGBKODCOF; // 0x108
+		::System::Boolean PIPBEKLBFMJ; // 0x110
 
 		::System::Void _ctor()
 		{

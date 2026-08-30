@@ -6,12 +6,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MARBLEPHASEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B5BCE60)
-#define RPG_GAMECORE_MARBLEPHASEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5BD4A0)
+#define RPG_GAMECORE_MARBLEPHASEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D2394B0)
+#define RPG_GAMECORE_MARBLEPHASEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D239AF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MarblePhaseRow_TypeDefinitionIndex = 11455;
+	inline static constexpr unsigned int MarblePhaseRow_TypeDefinitionIndex = 11844;
 
 	class MarblePhaseRow : public ::System::Object
 	{

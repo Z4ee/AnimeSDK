@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DiceCombatDiceValidTurnType_TypeDefinitionIndex = 10849;
+	inline static constexpr unsigned int DiceCombatDiceValidTurnType_TypeDefinitionIndex = 11224;
 
 	enum class DiceCombatDiceValidTurnType : ::System::Int32
 	{

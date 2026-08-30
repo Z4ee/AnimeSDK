@@ -5,15 +5,15 @@
 
 namespace RPG::GameCore { class FiveDimPipePortalConfig; }
 
-#define CLASS_1_DD7FDD65A35FA686__CTOR_OFFSET UNITYSDK_OFFSET(0x1A813BA0)
+#define CLASS_1_DD7FDD65A35FA686__CTOR_OFFSET UNITYSDK_OFFSET(0x1C43DF10)
 
-inline static constexpr unsigned int Class_1_DD7FDD65A35FA686_TypeDefinitionIndex = 40886;
+inline static constexpr unsigned int Class_1_DD7FDD65A35FA686_TypeDefinitionIndex = 41843;
 
 class Class_1_DD7FDD65A35FA686 : public ::System::Object
 {
 public:
-	::RPG::GameCore::FiveDimPipePortalConfig* Field_1_0; // 0x10
-	::Struct_2_8A959A6F652E3685 Field_1_1; // 0x18
+	::RPG::GameCore::FiveDimPipePortalConfig* EABKOHGCHFP; // 0x10
+	::Struct_2_8A959A6F652E3685 BPAPBAFOMCH; // 0x18
 
 	::System::Void _ctor()
 	{

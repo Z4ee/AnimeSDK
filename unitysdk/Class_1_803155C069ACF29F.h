@@ -5,20 +5,20 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define CLASS_1_803155C069ACF29F__CTOR_OFFSET UNITYSDK_OFFSET(0x1A8BCCB0)
+#define CLASS_1_803155C069ACF29F__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4EE050)
 
-inline static constexpr unsigned int Class_1_803155C069ACF29F_TypeDefinitionIndex = 40267;
+inline static constexpr unsigned int Class_1_803155C069ACF29F_TypeDefinitionIndex = 41146;
 
 class Class_1_803155C069ACF29F : public ::System::Object
 {
 public:
-	::System::Single Field_1_0; // 0x10
-	::System::UInt32 Field_1_1; // 0x14
-	::RPG::Client::LittleGame::TRFAction Field_1_2; // 0x18
-	::UnityEngine::Vector3 Field_1_3; // 0x1C
-	::System::UInt32 Field_1_4; // 0x28
-	::System::Boolean Field_1_5; // 0x2C
-	::RPG::Client::LittleGame::TRFOperate Field_1_6; // 0x30
+	::RPG::Client::LittleGame::TRFOperate PODOMHHPEBG; // 0x10
+	::System::UInt32 PDKOHKKMKLF; // 0x14
+	::System::Boolean CEBOAFDFAHM; // 0x18
+	::System::Single IEHPFADHJFD; // 0x1C
+	::RPG::Client::LittleGame::TRFAction ENGGCENAFPM; // 0x20
+	::UnityEngine::Vector3 NDCILLPHPDN; // 0x24
+	::System::UInt32 JMPMDGJLIPF; // 0x30
 
 	::System::Void _ctor()
 	{

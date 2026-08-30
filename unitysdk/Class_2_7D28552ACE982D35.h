@@ -4,23 +4,23 @@
 
 namespace System { class String; }
 
-#define CLASS_2_7D28552ACE982D35_METHOD_2_687F3383C6753467_OFFSET UNITYSDK_OFFSET(0xAF6A160)
-#define CLASS_2_7D28552ACE982D35__CTOR_1_OFFSET UNITYSDK_OFFSET(0xAF6A080)
-#define CLASS_2_7D28552ACE982D35__CTOR_2_OFFSET UNITYSDK_OFFSET(0xAF6A270)
-#define CLASS_2_7D28552ACE982D35__CTOR_3_OFFSET UNITYSDK_OFFSET(0xAF6A380)
-#define CLASS_2_7D28552ACE982D35__CTOR_OFFSET UNITYSDK_OFFSET(0xAF6A060)
+#define CLASS_2_7D28552ACE982D35_METHOD_2_687F3383C6753467_OFFSET UNITYSDK_OFFSET(0xB91C760)
+#define CLASS_2_7D28552ACE982D35__CTOR_1_OFFSET UNITYSDK_OFFSET(0xB91C680)
+#define CLASS_2_7D28552ACE982D35__CTOR_2_OFFSET UNITYSDK_OFFSET(0xB91C870)
+#define CLASS_2_7D28552ACE982D35__CTOR_3_OFFSET UNITYSDK_OFFSET(0xB91C980)
+#define CLASS_2_7D28552ACE982D35__CTOR_OFFSET UNITYSDK_OFFSET(0xB91C660)
 
-inline static constexpr unsigned int Class_2_7D28552ACE982D35_TypeDefinitionIndex = 70255;
+inline static constexpr unsigned int Class_2_7D28552ACE982D35_TypeDefinitionIndex = 73555;
 
 class Class_2_7D28552ACE982D35 : public ::System::Attribute
 {
 public:
-	::Il2CppArray<::System::Single>* Field_2_0; // 0x10
-	::Il2CppArray<::System::Single>* Field_2_1; // 0x18
-	::Il2CppArray<::System::String*>* Field_2_2; // 0x20
-	::System::Single Field_2_3; // 0x28
-	::System::Boolean Field_2_4; // 0x2C
-	::System::Single Field_2_5; // 0x30
+	::Il2CppArray<::System::String*>* DKLNJDJGBDP; // 0x10
+	::Il2CppArray<::System::Single>* MNOEGGPLECD; // 0x18
+	::Il2CppArray<::System::Single>* JIIHLCNPALD; // 0x20
+	::System::Single PJKFLONMKED; // 0x28
+	::System::Single ENMIPOPKOOL; // 0x2C
+	::System::Boolean LNJNLIOECNH; // 0x30
 
 	::System::Void _ctor(::System::Single a1, ::System::Single a2, ::Il2CppArray<::System::String*>* a3)
 	{

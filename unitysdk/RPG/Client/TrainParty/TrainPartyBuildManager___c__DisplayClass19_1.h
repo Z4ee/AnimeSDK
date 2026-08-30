@@ -6,7 +6,7 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 
 namespace RPG::Client::TrainParty
 {
-	inline static constexpr unsigned int TrainPartyBuildManager___c__DisplayClass19_1_TypeDefinitionIndex = 70904;
+	inline static constexpr unsigned int TrainPartyBuildManager___c__DisplayClass19_1_TypeDefinitionIndex = 74203;
 
 	struct alignas(8) TrainPartyBuildManager___c__DisplayClass19_1
 	{

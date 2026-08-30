@@ -1,14 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/ActionDelayChangeReason.h"
 #include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 
 class Class_1_DDDB57AA67C3A9EA;
+namespace RPG::GameCore { class ActionDelayPreshowConfig; }
 
-#define CLASS_1_407A814713080A5B_METHOD_1_105379C838F16E5E_OFFSET UNITYSDK_OFFSET(0xBD388F0)
-#define CLASS_1_407A814713080A5B_METHOD_1_3E81B089F141D6EC_OFFSET UNITYSDK_OFFSET(0xBD38960)
+#define CLASS_1_407A814713080A5B_METHOD_1_105379C838F16E5E_OFFSET UNITYSDK_OFFSET(0xC799870)
+#define CLASS_1_407A814713080A5B_METHOD_1_2C84E1A76074F485_OFFSET UNITYSDK_OFFSET(0xC799990)
+#define CLASS_1_407A814713080A5B_METHOD_1_3E81B089F141D6EC_OFFSET UNITYSDK_OFFSET(0xC7998E0)
 
-inline static constexpr unsigned int Class_1_407A814713080A5B_TypeDefinitionIndex = 68016;
+inline static constexpr unsigned int Class_1_407A814713080A5B_TypeDefinitionIndex = 71189;
 
 class Class_1_407A814713080A5B : public ::System::Object
 {
@@ -21,5 +24,10 @@ public:
 	static ::System::Boolean Method_1_3E81B089F141D6EC(::Class_1_DDDB57AA67C3A9EA* a1, ::Class_1_DDDB57AA67C3A9EA* a2)
 	{
 		return ((::System::Boolean(*)(::Class_1_DDDB57AA67C3A9EA*, ::Class_1_DDDB57AA67C3A9EA*))((::PBYTE)hIl2Cpp + CLASS_1_407A814713080A5B_METHOD_1_3E81B089F141D6EC_OFFSET))(a1, a2);
+	}
+
+	static ::RPG::GameCore::ActionDelayChangeReason Method_1_2C84E1A76074F485(::RPG::GameCore::ActionDelayPreshowConfig* a1)
+	{
+		return ((::RPG::GameCore::ActionDelayChangeReason(*)(::RPG::GameCore::ActionDelayPreshowConfig*))((::PBYTE)hIl2Cpp + CLASS_1_407A814713080A5B_METHOD_1_2C84E1A76074F485_OFFSET))(a1);
 	}
 };

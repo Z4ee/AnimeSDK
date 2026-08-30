@@ -5,13 +5,13 @@
 
 namespace System { class String; }
 
-#define SYSTEM_NET_HEADERVARIANTINFO_GET_NAME_OFFSET UNITYSDK_OFFSET(0x5AA0)
-#define SYSTEM_NET_HEADERVARIANTINFO_GET_VARIANT_OFFSET UNITYSDK_OFFSET(0xDAD0)
-#define SYSTEM_NET_HEADERVARIANTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x8A130)
+#define SYSTEM_NET_HEADERVARIANTINFO_GET_NAME_OFFSET UNITYSDK_OFFSET(0x5AB0)
+#define SYSTEM_NET_HEADERVARIANTINFO_GET_VARIANT_OFFSET UNITYSDK_OFFSET(0xDAB0)
+#define SYSTEM_NET_HEADERVARIANTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x8EB60)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int HeaderVariantInfo_TypeDefinitionIndex = 2796;
+	inline static constexpr unsigned int HeaderVariantInfo_TypeDefinitionIndex = 2803;
 
 	struct alignas(8) HeaderVariantInfo
 	{

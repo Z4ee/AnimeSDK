@@ -7,29 +7,29 @@ namespace System { template <typename T> class Action_1; }
 namespace TMPro { class TMP_TextInfo; }
 namespace UnityEngine { class Mesh; }
 
-#define TMPRO_TMP_TEXT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CF75EC0)
-#define TMPRO_TMP_TEXT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF75EF0)
-#define TMPRO_TMP_TEXT___C___CTOR_B__625_0_OFFSET UNITYSDK_OFFSET(0x1CF75F00)
-#define TMPRO_TMP_TEXT___C___CTOR_B__625_1_OFFSET UNITYSDK_OFFSET(0x1CF75F10)
+#define TMPRO_TMP_TEXT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EC7CD00)
+#define TMPRO_TMP_TEXT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1EC7CD30)
+#define TMPRO_TMP_TEXT___C___CTOR_B__625_0_OFFSET UNITYSDK_OFFSET(0x1EC7CD40)
+#define TMPRO_TMP_TEXT___C___CTOR_B__625_1_OFFSET UNITYSDK_OFFSET(0x1EC7CD50)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TMP_Text___c_TypeDefinitionIndex = 41858;
+	inline static constexpr unsigned int TMP_Text___c_TypeDefinitionIndex = 43469;
 
 	class TMP_Text___c : public ::System::Object
 	{
 	public:
-		static ::TMPro::TMP_Text___c** StaticGet___9()
-		{
-			return (::TMPro::TMP_Text___c**)Il2CppClass::FromTypeDefinitionIndex(TMP_Text___c_TypeDefinitionIndex)->GetStaticField(0x565D0);
-		}
 		static ::System::Action_1<::TMPro::TMP_TextInfo*>** StaticGet___9__625_0()
 		{
-			return (::System::Action_1<::TMPro::TMP_TextInfo*>**)Il2CppClass::FromTypeDefinitionIndex(TMP_Text___c_TypeDefinitionIndex)->GetStaticField(0x565D8);
+			return (::System::Action_1<::TMPro::TMP_TextInfo*>**)Il2CppClass::FromTypeDefinitionIndex(TMP_Text___c_TypeDefinitionIndex)->GetStaticField(0xAF60);
+		}
+		static ::TMPro::TMP_Text___c** StaticGet___9()
+		{
+			return (::TMPro::TMP_Text___c**)Il2CppClass::FromTypeDefinitionIndex(TMP_Text___c_TypeDefinitionIndex)->GetStaticField(0xAF68);
 		}
 		static ::System::Action_3<::UnityEngine::Mesh*, ::TMPro::TMP_TextInfo*, ::System::Int32>** StaticGet___9__625_1()
 		{
-			return (::System::Action_3<::UnityEngine::Mesh*, ::TMPro::TMP_TextInfo*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(TMP_Text___c_TypeDefinitionIndex)->GetStaticField(0x565E0);
+			return (::System::Action_3<::UnityEngine::Mesh*, ::TMPro::TMP_TextInfo*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(TMP_Text___c_TypeDefinitionIndex)->GetStaticField(0xAF70);
 		}
 
 		static ::System::Void _cctor()

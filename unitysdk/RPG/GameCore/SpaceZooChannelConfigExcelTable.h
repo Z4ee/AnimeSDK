@@ -12,45 +12,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_SPACEZOOCHANNELCONFIGEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1B8E2470)
-#define RPG_GAMECORE_SPACEZOOCHANNELCONFIGEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1B8E2300)
-#define RPG_GAMECORE_SPACEZOOCHANNELCONFIGEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1B8E1FF0)
-#define RPG_GAMECORE_SPACEZOOCHANNELCONFIGEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1B8E22A0)
-#define RPG_GAMECORE_SPACEZOOCHANNELCONFIGEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1B8E25C0)
-#define RPG_GAMECORE_SPACEZOOCHANNELCONFIGEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1B8E2070)
-#define RPG_GAMECORE_SPACEZOOCHANNELCONFIGEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1B8E2600)
-#define RPG_GAMECORE_SPACEZOOCHANNELCONFIGEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B8E27D0)
-#define RPG_GAMECORE_SPACEZOOCHANNELCONFIGEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1B8E2A40)
-#define RPG_GAMECORE_SPACEZOOCHANNELCONFIGEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B8E2D60)
-#define RPG_GAMECORE_SPACEZOOCHANNELCONFIGEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1B8E2730)
-#define RPG_GAMECORE_SPACEZOOCHANNELCONFIGEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1B8E2690)
+#define RPG_GAMECORE_SPACEZOOCHANNELCONFIGEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1D53E5A0)
+#define RPG_GAMECORE_SPACEZOOCHANNELCONFIGEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1D53E430)
+#define RPG_GAMECORE_SPACEZOOCHANNELCONFIGEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1D53E120)
+#define RPG_GAMECORE_SPACEZOOCHANNELCONFIGEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1D53E3D0)
+#define RPG_GAMECORE_SPACEZOOCHANNELCONFIGEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1D53E6F0)
+#define RPG_GAMECORE_SPACEZOOCHANNELCONFIGEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D53E1A0)
+#define RPG_GAMECORE_SPACEZOOCHANNELCONFIGEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1D53E730)
+#define RPG_GAMECORE_SPACEZOOCHANNELCONFIGEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D53E900)
+#define RPG_GAMECORE_SPACEZOOCHANNELCONFIGEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1D53EB70)
+#define RPG_GAMECORE_SPACEZOOCHANNELCONFIGEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D53EE90)
+#define RPG_GAMECORE_SPACEZOOCHANNELCONFIGEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1D53E860)
+#define RPG_GAMECORE_SPACEZOOCHANNELCONFIGEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D53E7C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SpaceZooChannelConfigExcelTable_TypeDefinitionIndex = 11888;
+	inline static constexpr unsigned int SpaceZooChannelConfigExcelTable_TypeDefinitionIndex = 12277;
 
 	class SpaceZooChannelConfigExcelTable : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::SpaceZooChannelConfigRow*>** StaticGet_dataDict_()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::SpaceZooChannelConfigRow*>**)Il2CppClass::FromTypeDefinitionIndex(SpaceZooChannelConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x5C9A0);
-		}
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(SpaceZooChannelConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x5C9A8);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(SpaceZooChannelConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0xE9A0);
+		}
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::SpaceZooChannelConfigRow*>** StaticGet_dataDict_()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::SpaceZooChannelConfigRow*>**)Il2CppClass::FromTypeDefinitionIndex(SpaceZooChannelConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0xE9A8);
 		}
 		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(SpaceZooChannelConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x5C9B0);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(SpaceZooChannelConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0xE9B0);
 		}
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(SpaceZooChannelConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x10260);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(SpaceZooChannelConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x4710);
 		}
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(SpaceZooChannelConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x10261);
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(SpaceZooChannelConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x4711);
 		}
 
 		static ::System::Void _cctor()

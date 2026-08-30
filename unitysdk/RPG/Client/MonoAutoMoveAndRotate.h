@@ -4,13 +4,13 @@
 
 namespace RPG::Client { class MonoAutoMoveAndRotate_Vector3andSpace; }
 
-#define RPG_CLIENT_MONOAUTOMOVEANDROTATE_START_OFFSET UNITYSDK_OFFSET(0xCC32450)
-#define RPG_CLIENT_MONOAUTOMOVEANDROTATE_UPDATE_OFFSET UNITYSDK_OFFSET(0xCC324A0)
-#define RPG_CLIENT_MONOAUTOMOVEANDROTATE__CTOR_OFFSET UNITYSDK_OFFSET(0xCC32730)
+#define RPG_CLIENT_MONOAUTOMOVEANDROTATE_START_OFFSET UNITYSDK_OFFSET(0xD7314F0)
+#define RPG_CLIENT_MONOAUTOMOVEANDROTATE_UPDATE_OFFSET UNITYSDK_OFFSET(0xD731540)
+#define RPG_CLIENT_MONOAUTOMOVEANDROTATE__CTOR_OFFSET UNITYSDK_OFFSET(0xD7317D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoAutoMoveAndRotate_TypeDefinitionIndex = 66710;
+	inline static constexpr unsigned int MonoAutoMoveAndRotate_TypeDefinitionIndex = 69812;
 
 	class MonoAutoMoveAndRotate : public ::UnityEngine::MonoBehaviour
 	{
@@ -19,7 +19,7 @@ namespace RPG::Client
 		::RPG::Client::MonoAutoMoveAndRotate_Vector3andSpace* moveUnitsPerSecond; // 0x20
 		::RPG::Client::MonoAutoMoveAndRotate_Vector3andSpace* rotateDegreesPerSecond; // 0x28
 		::System::Boolean ignoreTimescale; // 0x30
-		::System::Single Field_5_4; // 0x34
+		::System::Single OBNGONPGEJD; // 0x34
 
 		::System::Void _ctor()
 		{

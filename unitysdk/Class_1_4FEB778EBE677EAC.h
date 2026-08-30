@@ -9,28 +9,28 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class RtDefenceBatchMonsterInfo; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_4FEB778EBE677EAC_METHOD_1_1808E1CF7A125519_OFFSET UNITYSDK_OFFSET(0xAF9BA50)
-#define CLASS_1_4FEB778EBE677EAC_METHOD_1_276F406B5CF6DD47_OFFSET UNITYSDK_OFFSET(0xAF9BCC0)
-#define CLASS_1_4FEB778EBE677EAC_METHOD_1_2E57F1ED86AFF2C9_OFFSET UNITYSDK_OFFSET(0xAF9B340)
-#define CLASS_1_4FEB778EBE677EAC_METHOD_1_C672A24954E5C183_OFFSET UNITYSDK_OFFSET(0xAF9B4C0)
-#define CLASS_1_4FEB778EBE677EAC_METHOD_1_F0788BE412B69697_OFFSET UNITYSDK_OFFSET(0xAF9BCD0)
-#define CLASS_1_4FEB778EBE677EAC__CTOR_OFFSET UNITYSDK_OFFSET(0xAF9BCE0)
+#define CLASS_1_4FEB778EBE677EAC_METHOD_1_1808E1CF7A125519_OFFSET UNITYSDK_OFFSET(0xB94E940)
+#define CLASS_1_4FEB778EBE677EAC_METHOD_1_276F406B5CF6DD47_OFFSET UNITYSDK_OFFSET(0xB94EBB0)
+#define CLASS_1_4FEB778EBE677EAC_METHOD_1_2E57F1ED86AFF2C9_OFFSET UNITYSDK_OFFSET(0xB94E220)
+#define CLASS_1_4FEB778EBE677EAC_METHOD_1_C672A24954E5C183_OFFSET UNITYSDK_OFFSET(0xB94E3B0)
+#define CLASS_1_4FEB778EBE677EAC_METHOD_1_F0788BE412B69697_OFFSET UNITYSDK_OFFSET(0xB94EBC0)
+#define CLASS_1_4FEB778EBE677EAC__CTOR_OFFSET UNITYSDK_OFFSET(0xB94EBD0)
 
-inline static constexpr unsigned int Class_1_4FEB778EBE677EAC_TypeDefinitionIndex = 51845;
+inline static constexpr unsigned int Class_1_4FEB778EBE677EAC_TypeDefinitionIndex = 54529;
 
 class Class_1_4FEB778EBE677EAC : public ::System::Object
 {
 public:
-	::Class_2_718A51E22CB71EC4* Field_1_0; // 0x10
-	::System::Collections::Generic::List_1<::Class_1_4FEB778EBE677EAC*>* Field_1_1; // 0x18
-	::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* Field_1_2; // 0x20
-	::RPG::GameCore::RtDefenceBatchMonsterInfo* Field_1_3; // 0x28
-	::System::Int32 Field_1_4; // 0x30
-	::RPG::GameCore::RtDefenceBatchSpawnState Field_1_5; // 0x34
-	::System::Int32 Field_1_6; // 0x38
-	::RPG::GameCore::FixPoint Field_1_7; // 0x40
-	::System::Int32 Field_1_8; // 0x48
-	::System::Int32 Field_1_9; // 0x4C
+	::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* FPEOFLNHOOL; // 0x10
+	::Class_2_718A51E22CB71EC4* BHJDJDPLCLP; // 0x18
+	::System::Collections::Generic::List_1<::Class_1_4FEB778EBE677EAC*>* ADENKDFOMFN; // 0x20
+	::RPG::GameCore::RtDefenceBatchMonsterInfo* IGHAHBNLIJA; // 0x28
+	::System::Int32 INAKMLFKHAM; // 0x30
+	::System::Int32 IDCHMNBJKGA; // 0x34
+	::RPG::GameCore::RtDefenceBatchSpawnState DLNIGFGLPLJ; // 0x38
+	::System::Int32 NBGFIOIOJDL; // 0x3C
+	::System::Int32 BOGKJCEABFK; // 0x40
+	::RPG::GameCore::FixPoint PGMIOKKLHIE; // 0x48
 
 	::System::Void _ctor()
 	{

@@ -10,12 +10,12 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_EFFECT_PARTICLEBACKWARDMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xC3377C0)
-#define RPG_CLIENT_EFFECT_PARTICLEBACKWARDMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xC337810)
+#define RPG_CLIENT_EFFECT_PARTICLEBACKWARDMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xCE08BE0)
+#define RPG_CLIENT_EFFECT_PARTICLEBACKWARDMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xCE08C30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_ParticleBackwardMonoPlugin_TypeDefinitionIndex = 67362;
+	inline static constexpr unsigned int Effect_ParticleBackwardMonoPlugin_TypeDefinitionIndex = 70484;
 
 	class Effect_ParticleBackwardMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::Effect_ParticleBackwardBehavior*>
 	{

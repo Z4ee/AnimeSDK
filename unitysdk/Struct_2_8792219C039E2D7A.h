@@ -9,13 +9,13 @@
 namespace RPG::GameCore { class GameEntity; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-inline static constexpr unsigned int Struct_2_8792219C039E2D7A_TypeDefinitionIndex = 53310;
+inline static constexpr unsigned int Struct_2_8792219C039E2D7A_TypeDefinitionIndex = 56024;
 
 struct alignas(8) Struct_2_8792219C039E2D7A
 {
-	::RPG::GameCore::GameEntity* Field_2_0; // 0x10
-	::System::Collections::Generic::List_1<::RPG::GameCore::SkillType>* Field_2_1; // 0x18
-	::RPG::GameCore::SkillPropertyType Field_2_2; // 0x20
-	::RPG::GameCore::SkillPropertyModifyType Field_2_3; // 0x24
-	::RPG::GameCore::FixPoint Field_2_4; // 0x28
+	::RPG::GameCore::GameEntity* MCLLALGABAB; // 0x10
+	::System::Collections::Generic::List_1<::RPG::GameCore::SkillType>* OOOPJAECBIN; // 0x18
+	::RPG::GameCore::SkillPropertyType ACHILGIPGKL; // 0x20
+	::RPG::GameCore::SkillPropertyModifyType KFAPHPGFEMK; // 0x24
+	::RPG::GameCore::FixPoint MNDFOPKBHKP; // 0x28
 };

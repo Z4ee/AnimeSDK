@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_BATTLEBULLETCOMMENTITEM_METHOD_2_B9381B6A7B5F730B_OFFSET UNITYSDK_OFFSET(0x1B1F03E0)
-#define RPG_GAMECORE_BATTLEBULLETCOMMENTITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1F0570)
+#define RPG_GAMECORE_BATTLEBULLETCOMMENTITEM_METHOD_2_B9381B6A7B5F730B_OFFSET UNITYSDK_OFFSET(0x1CE6B300)
+#define RPG_GAMECORE_BATTLEBULLETCOMMENTITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE6B490)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleBulletCommentItem_TypeDefinitionIndex = 22417;
+	inline static constexpr unsigned int BattleBulletCommentItem_TypeDefinitionIndex = 22987;
 
 	class BattleBulletCommentItem : public ::RPG::GameCore::JsonConfig
 	{

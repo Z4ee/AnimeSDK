@@ -5,21 +5,21 @@
 namespace RPG::Client { class OnlinePlayRoomModule; }
 namespace System { class Action; }
 
-#define RPG_CLIENT_ONLINEPLAYROOMMODULE___C__DISPLAYCLASS32_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCEEF230)
-#define RPG_CLIENT_ONLINEPLAYROOMMODULE___C__DISPLAYCLASS32_0__TRANSFERTOARRANGEPAGE_B__0_OFFSET UNITYSDK_OFFSET(0xCEF17A0)
-#define RPG_CLIENT_ONLINEPLAYROOMMODULE___C__DISPLAYCLASS32_0__TRANSFERTOARRANGEPAGE_B__1_OFFSET UNITYSDK_OFFSET(0xCEF1EE0)
-#define RPG_CLIENT_ONLINEPLAYROOMMODULE___C__DISPLAYCLASS32_0__TRANSFERTOARRANGEPAGE_B__2_OFFSET UNITYSDK_OFFSET(0xCEF1830)
+#define RPG_CLIENT_ONLINEPLAYROOMMODULE___C__DISPLAYCLASS32_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD9E8AB0)
+#define RPG_CLIENT_ONLINEPLAYROOMMODULE___C__DISPLAYCLASS32_0__TRANSFERTOARRANGEPAGE_B__0_OFFSET UNITYSDK_OFFSET(0xD9EB030)
+#define RPG_CLIENT_ONLINEPLAYROOMMODULE___C__DISPLAYCLASS32_0__TRANSFERTOARRANGEPAGE_B__1_OFFSET UNITYSDK_OFFSET(0xD9EB770)
+#define RPG_CLIENT_ONLINEPLAYROOMMODULE___C__DISPLAYCLASS32_0__TRANSFERTOARRANGEPAGE_B__2_OFFSET UNITYSDK_OFFSET(0xD9EB0C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int OnlinePlayRoomModule___c__DisplayClass32_0_TypeDefinitionIndex = 63453;
+	inline static constexpr unsigned int OnlinePlayRoomModule___c__DisplayClass32_0_TypeDefinitionIndex = 66438;
 
 	class OnlinePlayRoomModule___c__DisplayClass32_0 : public ::System::Object
 	{
 	public:
-		::System::Action* doTransferAction; // 0x10
-		::RPG::Client::OnlinePlayRoomModule* __4__this; // 0x18
-		::System::Action* __9__2; // 0x20
+		::RPG::Client::OnlinePlayRoomModule* __4__this; // 0x10
+		::System::Action* __9__2; // 0x18
+		::System::Action* doTransferAction; // 0x20
 
 		::System::Void _ctor()
 		{

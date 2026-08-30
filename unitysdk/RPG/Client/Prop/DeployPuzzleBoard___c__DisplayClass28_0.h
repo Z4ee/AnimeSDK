@@ -4,12 +4,12 @@
 
 namespace RPG::Client::Prop { class DeployPuzzleBoard; }
 
-#define RPG_CLIENT_PROP_DEPLOYPUZZLEBOARD___C__DISPLAYCLASS28_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD141F20)
-#define RPG_CLIENT_PROP_DEPLOYPUZZLEBOARD___C__DISPLAYCLASS28_0__PLACESTONE_B__0_OFFSET UNITYSDK_OFFSET(0xD145080)
+#define RPG_CLIENT_PROP_DEPLOYPUZZLEBOARD___C__DISPLAYCLASS28_0__CTOR_OFFSET UNITYSDK_OFFSET(0xDC46350)
+#define RPG_CLIENT_PROP_DEPLOYPUZZLEBOARD___C__DISPLAYCLASS28_0__PLACESTONE_B__0_OFFSET UNITYSDK_OFFSET(0xDC494A0)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int DeployPuzzleBoard___c__DisplayClass28_0_TypeDefinitionIndex = 74575;
+	inline static constexpr unsigned int DeployPuzzleBoard___c__DisplayClass28_0_TypeDefinitionIndex = 78060;
 
 	class DeployPuzzleBoard___c__DisplayClass28_0 : public ::System::Object
 	{

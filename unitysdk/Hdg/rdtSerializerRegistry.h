@@ -14,41 +14,41 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Reflection { class MemberInfo; }
 namespace UnityEngine { class RangeAttribute; }
 
-#define HDG_RDTSERIALIZERREGISTRY_ADDDONTREADPROPERTIES_OFFSET UNITYSDK_OFFSET(0xAA7BDF0)
-#define HDG_RDTSERIALIZERREGISTRY_ADDFIELD_OFFSET UNITYSDK_OFFSET(0xAA770B0)
-#define HDG_RDTSERIALIZERREGISTRY_ADDINCLUDEFORTYPE_OFFSET UNITYSDK_OFFSET(0xAA7BE40)
-#define HDG_RDTSERIALIZERREGISTRY_ADDSKIPFORTYPE_OFFSET UNITYSDK_OFFSET(0xAA7BC30)
-#define HDG_RDTSERIALIZERREGISTRY_ADDUNKNOWNPRIMITIVE_OFFSET UNITYSDK_OFFSET(0xAA648A0)
-#define HDG_RDTSERIALIZERREGISTRY_CANADDMEMBER_OFFSET UNITYSDK_OFFSET(0xAA7A580)
-#define HDG_RDTSERIALIZERREGISTRY_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0xAA757E0)
-#define HDG_RDTSERIALIZERREGISTRY_HASINCLUDEPERTYPE_OFFSET UNITYSDK_OFFSET(0xAA7A790)
-#define HDG_RDTSERIALIZERREGISTRY_INCLUDEMEMBER_OFFSET UNITYSDK_OFFSET(0xAA7A810)
-#define HDG_RDTSERIALIZERREGISTRY_INITSKIPPROPERTIES_OFFSET UNITYSDK_OFFSET(0xAA786C0)
-#define HDG_RDTSERIALIZERREGISTRY_MAKENEWLIST_OFFSET UNITYSDK_OFFSET(0xAA7AA30)
-#define HDG_RDTSERIALIZERREGISTRY_NOTHANDLEDCONVERSION_OFFSET UNITYSDK_OFFSET(0xAA786B0)
-#define HDG_RDTSERIALIZERREGISTRY_READALLFIELDS_OFFSET UNITYSDK_OFFSET(0xAA70F50)
-#define HDG_RDTSERIALIZERREGISTRY_SERIALIZE_OFFSET UNITYSDK_OFFSET(0xAA74EE0)
-#define HDG_RDTSERIALIZERREGISTRY_SETARRAYSIZE_OFFSET UNITYSDK_OFFSET(0xAA6FBE0)
-#define HDG_RDTSERIALIZERREGISTRY_SKIPMEMBER_OFFSET UNITYSDK_OFFSET(0xAA7A8B0)
-#define HDG_RDTSERIALIZERREGISTRY_WRITEALLFIELDS_OFFSET UNITYSDK_OFFSET(0xAA6E520)
-#define HDG_RDTSERIALIZERREGISTRY__CTOR_OFFSET UNITYSDK_OFFSET(0xAA60610)
+#define HDG_RDTSERIALIZERREGISTRY_ADDDONTREADPROPERTIES_OFFSET UNITYSDK_OFFSET(0xB19F390)
+#define HDG_RDTSERIALIZERREGISTRY_ADDFIELD_OFFSET UNITYSDK_OFFSET(0xB19A640)
+#define HDG_RDTSERIALIZERREGISTRY_ADDINCLUDEFORTYPE_OFFSET UNITYSDK_OFFSET(0xB19F410)
+#define HDG_RDTSERIALIZERREGISTRY_ADDSKIPFORTYPE_OFFSET UNITYSDK_OFFSET(0xB19F1A0)
+#define HDG_RDTSERIALIZERREGISTRY_ADDUNKNOWNPRIMITIVE_OFFSET UNITYSDK_OFFSET(0xB1879B0)
+#define HDG_RDTSERIALIZERREGISTRY_CANADDMEMBER_OFFSET UNITYSDK_OFFSET(0xB19DAE0)
+#define HDG_RDTSERIALIZERREGISTRY_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0xB198D40)
+#define HDG_RDTSERIALIZERREGISTRY_HASINCLUDEPERTYPE_OFFSET UNITYSDK_OFFSET(0xB19DD00)
+#define HDG_RDTSERIALIZERREGISTRY_INCLUDEMEMBER_OFFSET UNITYSDK_OFFSET(0xB19DD80)
+#define HDG_RDTSERIALIZERREGISTRY_INITSKIPPROPERTIES_OFFSET UNITYSDK_OFFSET(0xB19BBA0)
+#define HDG_RDTSERIALIZERREGISTRY_MAKENEWLIST_OFFSET UNITYSDK_OFFSET(0xB19DFA0)
+#define HDG_RDTSERIALIZERREGISTRY_NOTHANDLEDCONVERSION_OFFSET UNITYSDK_OFFSET(0xB19BB90)
+#define HDG_RDTSERIALIZERREGISTRY_READALLFIELDS_OFFSET UNITYSDK_OFFSET(0xB194410)
+#define HDG_RDTSERIALIZERREGISTRY_SERIALIZE_OFFSET UNITYSDK_OFFSET(0xB198400)
+#define HDG_RDTSERIALIZERREGISTRY_SETARRAYSIZE_OFFSET UNITYSDK_OFFSET(0xB1930A0)
+#define HDG_RDTSERIALIZERREGISTRY_SKIPMEMBER_OFFSET UNITYSDK_OFFSET(0xB19DE20)
+#define HDG_RDTSERIALIZERREGISTRY_WRITEALLFIELDS_OFFSET UNITYSDK_OFFSET(0xB1919E0)
+#define HDG_RDTSERIALIZERREGISTRY__CTOR_OFFSET UNITYSDK_OFFSET(0xB1836A0)
 
 namespace Hdg
 {
-	inline static constexpr unsigned int rdtSerializerRegistry_TypeDefinitionIndex = 45190;
+	inline static constexpr unsigned int rdtSerializerRegistry_TypeDefinitionIndex = 47426;
 
 	class rdtSerializerRegistry : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::HashSet_1<::System::String*>*>* m_includePropertiesPerType; // 0x10
-		::System::Collections::Generic::HashSet_1<::System::Type*>* m_failures; // 0x18
-		::System::Collections::Generic::HashSet_1<::System::String*>* m_skipProperties; // 0x20
-		::System::Collections::Generic::HashSet_1<::System::Type*>* m_unknownPrimitives; // 0x28
-		::System::Collections::Generic::HashSet_1<::System::Type*>* m_referenceFailures; // 0x30
+		::System::Collections::Generic::HashSet_1<::System::Type*>* m_failures; // 0x10
+		::System::Collections::Generic::HashSet_1<::System::Type*>* m_unknownPrimitives; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::HashSet_1<::System::String*>*>* m_skipPropertiesPerType; // 0x20
+		::System::Collections::Generic::HashSet_1<::System::String*>* m_dontReadProperties; // 0x28
+		::System::Collections::Generic::HashSet_1<::System::String*>* m_skipTypes; // 0x30
 		::System::Collections::Generic::Dictionary_2<::System::Type*, ::Hdg::rdtSerializerRegistry_ConvertObjectDelegate*>* m_converters; // 0x38
-		::System::Collections::Generic::HashSet_1<::System::String*>* m_skipTypes; // 0x40
-		::System::Collections::Generic::HashSet_1<::System::String*>* m_dontReadProperties; // 0x48
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::HashSet_1<::System::String*>*>* m_skipPropertiesPerType; // 0x50
+		::System::Collections::Generic::HashSet_1<::System::String*>* m_skipProperties; // 0x40
+		::System::Collections::Generic::HashSet_1<::System::Type*>* m_referenceFailures; // 0x48
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::HashSet_1<::System::String*>*>* m_includePropertiesPerType; // 0x50
 
 		::System::Void _ctor()
 		{

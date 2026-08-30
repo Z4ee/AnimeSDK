@@ -5,24 +5,24 @@
 namespace RPG::Client::RelicSmartSuit { class RelicSmartSuitResultRelicInfo; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_RELICPRESETCUSTOMSAVEVIEWMODEL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD2F0180)
-#define RPG_CLIENT_RELICPRESETCUSTOMSAVEVIEWMODEL___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD2F01C0)
-#define RPG_CLIENT_RELICPRESETCUSTOMSAVEVIEWMODEL___C___INITWITHSMARTSUITPLAN_B__6_0_OFFSET UNITYSDK_OFFSET(0xD2F01D0)
+#define RPG_CLIENT_RELICPRESETCUSTOMSAVEVIEWMODEL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xDE30640)
+#define RPG_CLIENT_RELICPRESETCUSTOMSAVEVIEWMODEL___C__CTOR_OFFSET UNITYSDK_OFFSET(0xDE30680)
+#define RPG_CLIENT_RELICPRESETCUSTOMSAVEVIEWMODEL___C___INITWITHSMARTSUITPLAN_B__6_0_OFFSET UNITYSDK_OFFSET(0xDE30690)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RelicPresetCustomSaveViewModel___c_TypeDefinitionIndex = 63867;
+	inline static constexpr unsigned int RelicPresetCustomSaveViewModel___c_TypeDefinitionIndex = 66858;
 
 	class RelicPresetCustomSaveViewModel___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::RelicPresetCustomSaveViewModel___c** StaticGet___9()
-		{
-			return (::RPG::Client::RelicPresetCustomSaveViewModel___c**)Il2CppClass::FromTypeDefinitionIndex(RelicPresetCustomSaveViewModel___c_TypeDefinitionIndex)->GetStaticField(0x1D490);
-		}
 		static ::System::Func_2<::RPG::Client::RelicSmartSuit::RelicSmartSuitResultRelicInfo*, ::System::UInt32>** StaticGet___9__6_0()
 		{
-			return (::System::Func_2<::RPG::Client::RelicSmartSuit::RelicSmartSuitResultRelicInfo*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(RelicPresetCustomSaveViewModel___c_TypeDefinitionIndex)->GetStaticField(0x1D498);
+			return (::System::Func_2<::RPG::Client::RelicSmartSuit::RelicSmartSuitResultRelicInfo*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(RelicPresetCustomSaveViewModel___c_TypeDefinitionIndex)->GetStaticField(0x5EE30);
+		}
+		static ::RPG::Client::RelicPresetCustomSaveViewModel___c** StaticGet___9()
+		{
+			return (::RPG::Client::RelicPresetCustomSaveViewModel___c**)Il2CppClass::FromTypeDefinitionIndex(RelicPresetCustomSaveViewModel___c_TypeDefinitionIndex)->GetStaticField(0x5EE38);
 		}
 
 		static ::System::Void _cctor()

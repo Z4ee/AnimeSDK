@@ -8,12 +8,12 @@
 namespace RPG::CustomRP { class RPGBloom; }
 namespace System { class Object; }
 
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_BLOOMTIMELINEBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xDCFE3A0)
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_BLOOMTIMELINEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xDCFE810)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_BLOOMTIMELINEBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xE8C7FE0)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_BLOOMTIMELINEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xE8C8450)
 
 namespace RPGTools::Timeline::PostProcessing
 {
-	inline static constexpr unsigned int BloomTimelineBehaviour_TypeDefinitionIndex = 46758;
+	inline static constexpr unsigned int BloomTimelineBehaviour_TypeDefinitionIndex = 49004;
 
 	class BloomTimelineBehaviour : public ::RPGTools::Timeline::PostProcessing::BasePlayableBehaviour_1<::RPG::CustomRP::RPGBloom*>
 	{

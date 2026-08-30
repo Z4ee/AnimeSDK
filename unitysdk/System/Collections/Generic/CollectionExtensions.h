@@ -6,7 +6,7 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace System::Collections::Generic
 {
-	inline static constexpr unsigned int CollectionExtensions_TypeDefinitionIndex = 1521;
+	inline static constexpr unsigned int CollectionExtensions_TypeDefinitionIndex = 1528;
 
 	class CollectionExtensions : public ::System::Object
 	{

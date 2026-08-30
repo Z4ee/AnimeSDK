@@ -4,7 +4,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int CRPLightDebugInfo_TypeDefinitionIndex = 4863;
+	inline static constexpr unsigned int CRPLightDebugInfo_TypeDefinitionIndex = 4875;
 
 	struct alignas(4) CRPLightDebugInfo
 	{

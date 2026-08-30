@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class FlipEraRegion; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_FFD167394796D94F_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xAD32E30)
-#define CLASS_3_FFD167394796D94F__CTOR_OFFSET UNITYSDK_OFFSET(0xAD32E00)
+#define CLASS_3_FFD167394796D94F_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB47F330)
+#define CLASS_3_FFD167394796D94F__CTOR_OFFSET UNITYSDK_OFFSET(0xB47F300)
 
-inline static constexpr unsigned int Class_3_FFD167394796D94F_TypeDefinitionIndex = 50375;
+inline static constexpr unsigned int Class_3_FFD167394796D94F_TypeDefinitionIndex = 53038;
 
 class Class_3_FFD167394796D94F : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::FlipEraRegion*>
 {

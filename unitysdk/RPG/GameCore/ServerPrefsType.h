@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ServerPrefsType_TypeDefinitionIndex = 23964;
+	inline static constexpr unsigned int ServerPrefsType_TypeDefinitionIndex = 24553;
 
 	enum class ServerPrefsType : ::System::Int32
 	{
@@ -133,6 +133,7 @@ namespace RPG::GameCore
 		AssistWayPointOneClickCompleteData = 4011,
 		FiveDimFluteHasSeenNewGuide = 4012,
 		NewWorldReminderSeenWorldIDs = 4013,
+		FluteGuideFluteDataSeen = 4014,
 		ItemComposeLimitHintUpdateDay = 4201,
 		ItemComposeLimitHintToCheck = 4202,
 		ItemComposeLimitHintToSee = 4203,
@@ -160,6 +161,8 @@ namespace RPG::GameCore
 		ChallengeTierceSeenEntranceNoticeGroupTypes = 4305,
 		ChallengeTierceSpecialRewardHasSeen = 4306,
 		ChallengeTierceHasSeen = 4307,
+		ExpeditionBattleTeamEditBuffSeen = 4310,
+		ExpeditionBattleMapOverviewHistoryBestSeen = 4311,
 		TeamTowersBrickControlMode = 4401,
 		TeamTowersBrickDirectionMode = 4402,
 		TeamTowersMobileUseBtnRotate = 4407,
@@ -171,5 +174,6 @@ namespace RPG::GameCore
 		IsQuickGrowLightCone = 4404,
 		FateRinActivityOpeningToastSeen = 4405,
 		FateRinAvatarRewardToastHasSeen = 4406,
+		B51RacingSavedDisplayCarType = 4501,
 	};
 }

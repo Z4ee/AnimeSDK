@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetActionDelayNearTarget; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_9A55F8EAF0CB42D4_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x153E08E0)
-#define CLASS_3_9A55F8EAF0CB42D4__CTOR_OFFSET UNITYSDK_OFFSET(0x153E08B0)
+#define CLASS_3_9A55F8EAF0CB42D4_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1631BCA0)
+#define CLASS_3_9A55F8EAF0CB42D4__CTOR_OFFSET UNITYSDK_OFFSET(0x1631BC70)
 
-inline static constexpr unsigned int Class_3_9A55F8EAF0CB42D4_TypeDefinitionIndex = 52833;
+inline static constexpr unsigned int Class_3_9A55F8EAF0CB42D4_TypeDefinitionIndex = 55536;
 
 class Class_3_9A55F8EAF0CB42D4 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetActionDelayNearTarget*>
 {

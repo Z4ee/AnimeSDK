@@ -3,15 +3,15 @@
 #include "unitysdk/RPG/Client/LittleGame/TimelineControlGameWorld_LevelCellSaver.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_BF18D4907D184EDF__CTOR_OFFSET UNITYSDK_OFFSET(0x1A8C1850)
+#define CLASS_1_BF18D4907D184EDF__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4F2C20)
 
-inline static constexpr unsigned int Class_1_BF18D4907D184EDF_TypeDefinitionIndex = 40336;
+inline static constexpr unsigned int Class_1_BF18D4907D184EDF_TypeDefinitionIndex = 41215;
 
 class Class_1_BF18D4907D184EDF : public ::System::Object
 {
 public:
-	::RPG::Client::LittleGame::TimelineControlGameWorld_LevelCellSaver Field_1_0; // 0x10
-	::System::Boolean Field_1_1; // 0x14
+	::System::Boolean DLCPEDKHMDA; // 0x10
+	::RPG::Client::LittleGame::TimelineControlGameWorld_LevelCellSaver EABKOHGCHFP; // 0x14
 
 	::System::Void _ctor()
 	{

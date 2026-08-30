@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ResetFloorDefaultEmotion; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_2E79A1D778BBC14A_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x14744F40)
-#define CLASS_3_2E79A1D778BBC14A__CTOR_OFFSET UNITYSDK_OFFSET(0x14744F10)
+#define CLASS_3_2E79A1D778BBC14A_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x155B25D0)
+#define CLASS_3_2E79A1D778BBC14A__CTOR_OFFSET UNITYSDK_OFFSET(0x155B25A0)
 
-inline static constexpr unsigned int Class_3_2E79A1D778BBC14A_TypeDefinitionIndex = 55813;
+inline static constexpr unsigned int Class_3_2E79A1D778BBC14A_TypeDefinitionIndex = 58544;
 
 class Class_3_2E79A1D778BBC14A : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ResetFloorDefaultEmotion*>
 {

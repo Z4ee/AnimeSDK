@@ -5,16 +5,16 @@
 class Class_1_29ADE9724E15BDC9;
 class Class_1_B22AC0D349544E67;
 
-#define CLASS_1_B22AC0D349544E67___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB5DAD90)
-#define CLASS_1_B22AC0D349544E67___C__DISPLAYCLASS3_0__ENTERGAME_B__0_OFFSET UNITYSDK_OFFSET(0xB5DB1D0)
+#define CLASS_1_B22AC0D349544E67___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBFD72E0)
+#define CLASS_1_B22AC0D349544E67___C__DISPLAYCLASS3_0__ENTERGAME_B__0_OFFSET UNITYSDK_OFFSET(0xBFD7720)
 
-inline static constexpr unsigned int Class_1_B22AC0D349544E67___c__DisplayClass3_0_TypeDefinitionIndex = 71679;
+inline static constexpr unsigned int Class_1_B22AC0D349544E67___c__DisplayClass3_0_TypeDefinitionIndex = 74985;
 
 class Class_1_B22AC0D349544E67___c__DisplayClass3_0 : public ::System::Object
 {
 public:
-	::Class_1_B22AC0D349544E67* __4__this; // 0x10
-	::Class_1_29ADE9724E15BDC9* gameFlowPrepareService; // 0x18
+	::Class_1_29ADE9724E15BDC9* gameFlowPrepareService; // 0x10
+	::Class_1_B22AC0D349544E67* __4__this; // 0x18
 
 	::System::Void _ctor()
 	{

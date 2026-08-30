@@ -2,45 +2,45 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/Multithread/JobParallelForThreadTask_1.h"
 #include "unitysdk/RPG/GameCore/ThreadTaskType.h"
-#include "unitysdk/Struct_2_4ACDA48EC7CC1C00.h"
+#include "unitysdk/Struct_2_A9180AA7F443378D.h"
 
 class Class_1_D70A30D666F20D90;
 namespace RPG::GameCore { class ThreadTaskConfig; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_2_7A7E15803BB83F7A_COLLECT_OFFSET UNITYSDK_OFFSET(0xAE286D0)
-#define CLASS_2_7A7E15803BB83F7A_DISPOSE_OFFSET UNITYSDK_OFFSET(0xAE28680)
-#define CLASS_2_7A7E15803BB83F7A_FLUSH_OFFSET UNITYSDK_OFFSET(0xAE28810)
-#define CLASS_2_7A7E15803BB83F7A_GET_CONFIG_OFFSET UNITYSDK_OFFSET(0xAE28A80)
-#define CLASS_2_7A7E15803BB83F7A_METHOD_2_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0xAE28470)
-#define CLASS_2_7A7E15803BB83F7A_METHOD_2_81FB757B011A8054_OFFSET UNITYSDK_OFFSET(0xAE284D0)
-#define CLASS_2_7A7E15803BB83F7A_METHOD_2_A36150C5DCC8409E_OFFSET UNITYSDK_OFFSET(0xAE28A30)
-#define CLASS_2_7A7E15803BB83F7A_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xAE289F0)
-#define CLASS_2_7A7E15803BB83F7A_ONENABLE_OFFSET UNITYSDK_OFFSET(0xAE289B0)
-#define CLASS_2_7A7E15803BB83F7A_SET_CONFIG_OFFSET UNITYSDK_OFFSET(0xAE28A90)
-#define CLASS_2_7A7E15803BB83F7A__CCTOR_OFFSET UNITYSDK_OFFSET(0xAE28AA0)
-#define CLASS_2_7A7E15803BB83F7A__CTOR_OFFSET UNITYSDK_OFFSET(0xAE283F0)
+#define CLASS_2_7A7E15803BB83F7A_COLLECT_OFFSET UNITYSDK_OFFSET(0xB78BA90)
+#define CLASS_2_7A7E15803BB83F7A_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB78BA40)
+#define CLASS_2_7A7E15803BB83F7A_FLUSH_OFFSET UNITYSDK_OFFSET(0xB78BBD0)
+#define CLASS_2_7A7E15803BB83F7A_GET_CONFIG_OFFSET UNITYSDK_OFFSET(0xB78BE40)
+#define CLASS_2_7A7E15803BB83F7A_METHOD_2_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0xB78B830)
+#define CLASS_2_7A7E15803BB83F7A_METHOD_2_81FB757B011A8054_OFFSET UNITYSDK_OFFSET(0xB78B890)
+#define CLASS_2_7A7E15803BB83F7A_METHOD_2_A36150C5DCC8409E_OFFSET UNITYSDK_OFFSET(0xB78BDF0)
+#define CLASS_2_7A7E15803BB83F7A_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xB78BDB0)
+#define CLASS_2_7A7E15803BB83F7A_ONENABLE_OFFSET UNITYSDK_OFFSET(0xB78BD70)
+#define CLASS_2_7A7E15803BB83F7A_SET_CONFIG_OFFSET UNITYSDK_OFFSET(0xB78BE50)
+#define CLASS_2_7A7E15803BB83F7A__CCTOR_OFFSET UNITYSDK_OFFSET(0xB78BE60)
+#define CLASS_2_7A7E15803BB83F7A__CTOR_OFFSET UNITYSDK_OFFSET(0xB78B7B0)
 
-inline static constexpr unsigned int Class_2_7A7E15803BB83F7A_TypeDefinitionIndex = 67881;
+inline static constexpr unsigned int Class_2_7A7E15803BB83F7A_TypeDefinitionIndex = 71054;
 
-class Class_2_7A7E15803BB83F7A : public ::RPG::Client::Multithread::JobParallelForThreadTask_1<::Struct_2_4ACDA48EC7CC1C00>
+class Class_2_7A7E15803BB83F7A : public ::RPG::Client::Multithread::JobParallelForThreadTask_1<::Struct_2_A9180AA7F443378D>
 {
 public:
-	static ::System::Int32* StaticGet_Field_2_0()
+	static ::System::Int32* StaticGet_PGNBGHPNMCM()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_2_7A7E15803BB83F7A_TypeDefinitionIndex)->GetStaticField(0xEDA0);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_2_7A7E15803BB83F7A_TypeDefinitionIndex)->GetStaticField(0x1560);
 	}
-	static ::System::Int32* StaticGet_Field_2_1()
+	static ::System::Int32* StaticGet_EINLFAADDPC()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_2_7A7E15803BB83F7A_TypeDefinitionIndex)->GetStaticField(0xEDA4);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_2_7A7E15803BB83F7A_TypeDefinitionIndex)->GetStaticField(0x1564);
 	}
-	static ::System::Int32* StaticGet_Field_2_2()
+	static ::System::Int32* StaticGet_OLHNNOKCIHL()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_2_7A7E15803BB83F7A_TypeDefinitionIndex)->GetStaticField(0xEDA8);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_2_7A7E15803BB83F7A_TypeDefinitionIndex)->GetStaticField(0x1568);
 	}
-	::RPG::GameCore::ThreadTaskConfig* _Config_k__BackingField; // 0x40
-	::Class_1_D70A30D666F20D90* Field_2_4; // 0x48
-	::RPG::GameCore::ThreadTaskType Field_2_5; // 0x50
+	::Class_1_D70A30D666F20D90* IMNPNIIDKMF; // 0x40
+	::RPG::GameCore::ThreadTaskConfig* _Config_k__BackingField; // 0x48
+	::RPG::GameCore::ThreadTaskType ADBKFDIGBOO; // 0x50
 
 	::System::Void _ctor()
 	{

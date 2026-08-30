@@ -3,7 +3,7 @@
 
 namespace Epic::OnlineServices::PlayerDataStorage
 {
-	inline static constexpr unsigned int WriteResult_TypeDefinitionIndex = 43356;
+	inline static constexpr unsigned int WriteResult_TypeDefinitionIndex = 45538;
 
 	enum class WriteResult : ::System::Int32
 	{

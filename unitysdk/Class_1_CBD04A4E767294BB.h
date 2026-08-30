@@ -12,33 +12,34 @@
 namespace RPG { template <typename T> class PoolList_1; }
 namespace System { class String; }
 
-#define CLASS_1_CBD04A4E767294BB_CLEAR_OFFSET UNITYSDK_OFFSET(0x1A9B6C50)
-#define CLASS_1_CBD04A4E767294BB_METHOD_1_6E4A5372E1111FEB_OFFSET UNITYSDK_OFFSET(0x1A9B6D40)
-#define CLASS_1_CBD04A4E767294BB_METHOD_1_B1936CE4DA97AA45_OFFSET UNITYSDK_OFFSET(0x1A9B6EA0)
-#define CLASS_1_CBD04A4E767294BB_METHOD_1_E47EF0C44F14B5EC_OFFSET UNITYSDK_OFFSET(0x1A9B6F60)
-#define CLASS_1_CBD04A4E767294BB_METHOD_1_F5447CD65612575D_OFFSET UNITYSDK_OFFSET(0x1A9B7020)
-#define CLASS_1_CBD04A4E767294BB_ONALLOC_OFFSET UNITYSDK_OFFSET(0x1A9B6BA0)
-#define CLASS_1_CBD04A4E767294BB_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x1A9B6BF0)
-#define CLASS_1_CBD04A4E767294BB__CTOR_OFFSET UNITYSDK_OFFSET(0x1A9B70C0)
+#define CLASS_1_CBD04A4E767294BB_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C5FA110)
+#define CLASS_1_CBD04A4E767294BB_METHOD_1_6E4A5372E1111FEB_OFFSET UNITYSDK_OFFSET(0x1C5FA210)
+#define CLASS_1_CBD04A4E767294BB_METHOD_1_B1936CE4DA97AA45_OFFSET UNITYSDK_OFFSET(0x1C5FA370)
+#define CLASS_1_CBD04A4E767294BB_METHOD_1_E47EF0C44F14B5EC_OFFSET UNITYSDK_OFFSET(0x1C5FA430)
+#define CLASS_1_CBD04A4E767294BB_METHOD_1_F5447CD65612575D_OFFSET UNITYSDK_OFFSET(0x1C5FA4F0)
+#define CLASS_1_CBD04A4E767294BB_ONALLOC_OFFSET UNITYSDK_OFFSET(0x1C5FA050)
+#define CLASS_1_CBD04A4E767294BB_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x1C5FA0B0)
+#define CLASS_1_CBD04A4E767294BB__CTOR_OFFSET UNITYSDK_OFFSET(0x1C5FA590)
 
-inline static constexpr unsigned int Class_1_CBD04A4E767294BB_TypeDefinitionIndex = 40955;
+inline static constexpr unsigned int Class_1_CBD04A4E767294BB_TypeDefinitionIndex = 41914;
 
 class Class_1_CBD04A4E767294BB : public ::System::Object
 {
 public:
-	::System::String* Field_1_0; // 0x10
-	::Struct_2_9B8E093CD6AB8AC9 Field_1_1; // 0x18
-	::RPG::PoolList_1<::RPG::Client::LittleGame::FiveDim::SplineMoveEvent>* Field_1_2; // 0x40
-	::RPG::Client::LittleGame::FiveDim::SplineMoveHideLineTraceReason Field_1_3; // 0x48
-	::RPG::GameCore::FiveDimSplineMoveDirection Field_1_4; // 0x4C
-	::System::Single Field_1_5; // 0x50
-	::UnityEngine::Vector3 Field_1_6; // 0x54
-	::RPG::Client::LittleGame::FiveDim::SplineMoveState Field_1_7; // 0x60
-	::RPG::Client::LittleGame::FiveDim::SplineMoveState Field_1_8; // 0x64
-	::Struct_2_79D6FFCF06FD9EAB Field_1_9; // 0x68
-	::System::Single Field_1_10; // 0x88
-	::System::Single Field_1_11; // 0x8C
-	::System::Boolean Field_1_12; // 0x90
+	::Struct_2_9B8E093CD6AB8AC9 MMNBDLPBJAG; // 0x10
+	::RPG::PoolList_1<::RPG::Client::LittleGame::FiveDim::SplineMoveEvent>* BBAAGLNGLAB; // 0x38
+	::System::String* ODMGJKCAICF; // 0x40
+	::RPG::Client::LittleGame::FiveDim::SplineMoveState MEPFOEEGBEA; // 0x48
+	::System::Boolean NOOJOFHAIAA; // 0x4C
+	::UnityEngine::Vector3 IPECNJCOCLC; // 0x50
+	::RPG::GameCore::FiveDimSplineMoveDirection LJDHGFECMHJ; // 0x5C
+	::RPG::Client::LittleGame::FiveDim::SplineMoveState EOCKCIGOFMG; // 0x60
+	::System::Single LBHOAPLLECN; // 0x64
+	::RPG::Client::LittleGame::FiveDim::SplineMoveHideLineTraceReason BPJGFIHELIF; // 0x68
+	::System::Single HLIBNBMOCIC; // 0x6C
+	::System::Single JBCFPAEELBL; // 0x70
+	::System::Single JEJEAABCFLB; // 0x74
+	::Struct_2_79D6FFCF06FD9EAB KOLJBCGKDJP; // 0x78
 
 	::System::Void _ctor()
 	{

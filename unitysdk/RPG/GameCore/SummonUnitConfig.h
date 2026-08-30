@@ -19,12 +19,12 @@ namespace RPG::GameCore { class TaskConfig; }
 namespace RPG::GameCore { class TriggerEffect; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SUMMONUNITCONFIG_METHOD_2_9435D17CA7EA4F5D_OFFSET UNITYSDK_OFFSET(0x1B928060)
-#define RPG_GAMECORE_SUMMONUNITCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B928AF0)
+#define RPG_GAMECORE_SUMMONUNITCONFIG_METHOD_2_9435D17CA7EA4F5D_OFFSET UNITYSDK_OFFSET(0x1D5852A0)
+#define RPG_GAMECORE_SUMMONUNITCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D585D30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SummonUnitConfig_TypeDefinitionIndex = 16891;
+	inline static constexpr unsigned int SummonUnitConfig_TypeDefinitionIndex = 17393;
 
 	class SummonUnitConfig : public ::RPG::GameCore::JsonConfig
 	{

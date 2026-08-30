@@ -4,17 +4,17 @@
 #include "unitysdk/UnityEngine/Bounds.h"
 #include "unitysdk/UnityEngine/Color.h"
 
-#define RPG_SCENEOPTIMIZER_PVSSCENEBUDGETSTATTOOL_PVSSCENEBUDGETSTATTOOLWINDOWVISUALIZEHELPER_CLASS_1_5807397403863C28__CTOR_OFFSET UNITYSDK_OFFSET(0xDC72E50)
+#define RPG_SCENEOPTIMIZER_PVSSCENEBUDGETSTATTOOL_PVSSCENEBUDGETSTATTOOLWINDOWVISUALIZEHELPER_CLASS_1_5807397403863C28__CTOR_OFFSET UNITYSDK_OFFSET(0xE7ECDA0)
 
 namespace RPG::SceneOptimizer::PVSSceneBudgetStatTool
 {
-	inline static constexpr unsigned int PVSSceneBudgetStatToolWindowVisualizeHelper_Class_1_5807397403863C28_TypeDefinitionIndex = 49429;
+	inline static constexpr unsigned int PVSSceneBudgetStatToolWindowVisualizeHelper_Class_1_5807397403863C28_TypeDefinitionIndex = 52083;
 
 	class PVSSceneBudgetStatToolWindowVisualizeHelper_Class_1_5807397403863C28 : public ::System::Object
 	{
 	public:
-		::UnityEngine::Bounds Field_1_0; // 0x10
-		::UnityEngine::Color Field_1_1; // 0x28
+		::UnityEngine::Bounds IJNBNFHBENO; // 0x10
+		::UnityEngine::Color FGAGBOPDDOE; // 0x28
 
 		::System::Void _ctor(::UnityEngine::Bounds a1, ::UnityEngine::Color a2)
 		{

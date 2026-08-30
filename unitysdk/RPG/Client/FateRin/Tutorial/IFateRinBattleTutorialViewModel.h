@@ -6,7 +6,7 @@ namespace RPG::Client::FateRin { class ViewModelEventHandler; }
 
 namespace RPG::Client::FateRin::Tutorial
 {
-	inline static constexpr unsigned int IFateRinBattleTutorialViewModel_TypeDefinitionIndex = 75763;
+	inline static constexpr unsigned int IFateRinBattleTutorialViewModel_TypeDefinitionIndex = 79396;
 
 	class IFateRinBattleTutorialViewModel
 	{

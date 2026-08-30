@@ -10,27 +10,27 @@ namespace UnityEngine { class Animation; }
 namespace UnityEngine { class ParticleSystem; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_BATTLEAVATARULTRASKILLFLYEFFECT_DESPAWNED_OFFSET UNITYSDK_OFFSET(0xBE4F250)
-#define RPG_CLIENT_BATTLEAVATARULTRASKILLFLYEFFECT_METHOD_5_005A196F2DA2B034_OFFSET UNITYSDK_OFFSET(0xBE4F5F0)
-#define RPG_CLIENT_BATTLEAVATARULTRASKILLFLYEFFECT_ONCREATE_OFFSET UNITYSDK_OFFSET(0xBE4EF80)
-#define RPG_CLIENT_BATTLEAVATARULTRASKILLFLYEFFECT_PLAY_OFFSET UNITYSDK_OFFSET(0xBE4F290)
-#define RPG_CLIENT_BATTLEAVATARULTRASKILLFLYEFFECT_SPAWNED_OFFSET UNITYSDK_OFFSET(0xBE4F210)
-#define RPG_CLIENT_BATTLEAVATARULTRASKILLFLYEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0xBE4F9A0)
+#define RPG_CLIENT_BATTLEAVATARULTRASKILLFLYEFFECT_DESPAWNED_OFFSET UNITYSDK_OFFSET(0xC8F00B0)
+#define RPG_CLIENT_BATTLEAVATARULTRASKILLFLYEFFECT_METHOD_5_005A196F2DA2B034_OFFSET UNITYSDK_OFFSET(0xC8F0450)
+#define RPG_CLIENT_BATTLEAVATARULTRASKILLFLYEFFECT_ONCREATE_OFFSET UNITYSDK_OFFSET(0xC8EFDB0)
+#define RPG_CLIENT_BATTLEAVATARULTRASKILLFLYEFFECT_PLAY_OFFSET UNITYSDK_OFFSET(0xC8F00F0)
+#define RPG_CLIENT_BATTLEAVATARULTRASKILLFLYEFFECT_SPAWNED_OFFSET UNITYSDK_OFFSET(0xC8F0070)
+#define RPG_CLIENT_BATTLEAVATARULTRASKILLFLYEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0xC8F0800)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BattleAvatarUltraSkillFlyEffect_TypeDefinitionIndex = 68251;
+	inline static constexpr unsigned int BattleAvatarUltraSkillFlyEffect_TypeDefinitionIndex = 71432;
 
 	class BattleAvatarUltraSkillFlyEffect : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		::UnityEngine::Transform* Field_5_0; // 0x18
-		::UnityEngine::Transform* Field_5_1; // 0x20
-		::UnityEngine::Transform* Field_5_2; // 0x28
-		::RPG::Client::QuadricBezier* Field_5_3; // 0x30
-		::UnityEngine::ParticleSystem* Field_5_4; // 0x38
-		::UnityEngine::Animation* Field_5_5; // 0x40
-		::System::Single Field_5_6; // 0x48
+		::UnityEngine::Transform* KNGEKPKBIDK; // 0x18
+		::UnityEngine::Transform* GNPBGAKIAHM; // 0x20
+		::UnityEngine::Transform* CEEAKCACHGJ; // 0x28
+		::RPG::Client::QuadricBezier* BKHMEKLPNHJ; // 0x30
+		::UnityEngine::ParticleSystem* HDNJKMJLOOG; // 0x38
+		::UnityEngine::Animation* KCOAILOHDND; // 0x40
+		::System::Single HBDJCFFDGDD; // 0x48
 
 		::System::Void _ctor()
 		{

@@ -7,23 +7,23 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ACTIVITYHIPPLENINTERACTINFOROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B11C260)
-#define RPG_GAMECORE_ACTIVITYHIPPLENINTERACTINFOROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B11C590)
+#define RPG_GAMECORE_ACTIVITYHIPPLENINTERACTINFOROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CD92960)
+#define RPG_GAMECORE_ACTIVITYHIPPLENINTERACTINFOROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD92C90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityHipplenInteractInfoRow_TypeDefinitionIndex = 11247;
+	inline static constexpr unsigned int ActivityHipplenInteractInfoRow_TypeDefinitionIndex = 11636;
 
 	class ActivityHipplenInteractInfoRow : public ::System::Object
 	{
 	public:
-		::System::String* JsonConfigPath; // 0x10
-		::System::String* PrefabPath; // 0x18
-		::Il2CppArray<::System::UInt32>* PropIDList; // 0x20
+		::Il2CppArray<::System::UInt32>* PropIDList; // 0x10
+		::System::String* JsonConfigPath; // 0x18
+		::System::String* PrefabPath; // 0x20
 		::System::String* IconPath; // 0x28
 		::RPG::GameCore::HipplenInteractType Type; // 0x30
-		::RPG::Client::TextID InAreaHint; // 0x38
-		::RPG::Client::TextID Hint; // 0x48
+		::RPG::Client::TextID Hint; // 0x38
+		::RPG::Client::TextID InAreaHint; // 0x48
 
 		::System::Void _ctor()
 		{

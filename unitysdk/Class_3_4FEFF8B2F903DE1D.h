@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class PlayerSelectMotionMode; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_4FEFF8B2F903DE1D_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB513D80)
-#define CLASS_3_4FEFF8B2F903DE1D__CTOR_OFFSET UNITYSDK_OFFSET(0xB513D50)
+#define CLASS_3_4FEFF8B2F903DE1D_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBF06790)
+#define CLASS_3_4FEFF8B2F903DE1D__CTOR_OFFSET UNITYSDK_OFFSET(0xBF06760)
 
-inline static constexpr unsigned int Class_3_4FEFF8B2F903DE1D_TypeDefinitionIndex = 55712;
+inline static constexpr unsigned int Class_3_4FEFF8B2F903DE1D_TypeDefinitionIndex = 58443;
 
 class Class_3_4FEFF8B2F903DE1D : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::PlayerSelectMotionMode*>
 {

@@ -3,7 +3,7 @@
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraDuelChimeraModelView_MaterialVersion_TypeDefinitionIndex = 74369;
+	inline static constexpr unsigned int ChimeraDuelChimeraModelView_MaterialVersion_TypeDefinitionIndex = 77854;
 
 	enum class ChimeraDuelChimeraModelView_MaterialVersion : ::System::Int32
 	{

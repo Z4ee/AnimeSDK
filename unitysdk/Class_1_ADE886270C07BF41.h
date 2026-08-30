@@ -5,18 +5,18 @@
 namespace RPG::Client { class ConfirmDialogContext; }
 namespace System { class String; }
 
-#define CLASS_1_ADE886270C07BF41_METHOD_1_0BC0DAD295CAFFD2_OFFSET UNITYSDK_OFFSET(0xAF8ABA0)
-#define CLASS_1_ADE886270C07BF41_METHOD_1_A239DF324AF4215D_OFFSET UNITYSDK_OFFSET(0xAF8AA50)
-#define CLASS_1_ADE886270C07BF41__CTOR_OFFSET UNITYSDK_OFFSET(0xAF8B090)
+#define CLASS_1_ADE886270C07BF41_METHOD_1_0BC0DAD295CAFFD2_OFFSET UNITYSDK_OFFSET(0xB93C9A0)
+#define CLASS_1_ADE886270C07BF41_METHOD_1_A239DF324AF4215D_OFFSET UNITYSDK_OFFSET(0xB93C850)
+#define CLASS_1_ADE886270C07BF41__CTOR_OFFSET UNITYSDK_OFFSET(0xB93CE90)
 
-inline static constexpr unsigned int Class_1_ADE886270C07BF41_TypeDefinitionIndex = 58377;
+inline static constexpr unsigned int Class_1_ADE886270C07BF41_TypeDefinitionIndex = 61204;
 
 class Class_1_ADE886270C07BF41 : public ::System::Object
 {
 public:
-	::System::String* Field_1_0; // 0x10
-	::System::String* Field_1_1; // 0x18
-	::System::String* Field_1_2; // 0x20
+	::System::String* OCNGEPBPGCM; // 0x10
+	::System::String* LDOHLFIHLNH; // 0x18
+	::System::String* FHLCNCDFAKD; // 0x20
 
 	::System::Void _ctor()
 	{

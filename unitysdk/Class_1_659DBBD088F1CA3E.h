@@ -13,34 +13,34 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_659DBBD088F1CA3E_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1A513BA0)
-#define CLASS_1_659DBBD088F1CA3E_METHOD_1_19FB5FBEA9EA66CD_OFFSET UNITYSDK_OFFSET(0x1A514BC0)
-#define CLASS_1_659DBBD088F1CA3E_METHOD_1_630A3B9C63A23882_OFFSET UNITYSDK_OFFSET(0x1A514610)
-#define CLASS_1_659DBBD088F1CA3E_METHOD_1_6945E637F28B4CFA_OFFSET UNITYSDK_OFFSET(0x1A514270)
-#define CLASS_1_659DBBD088F1CA3E_METHOD_1_749948B663FCCCEF_OFFSET UNITYSDK_OFFSET(0x1A5151E0)
-#define CLASS_1_659DBBD088F1CA3E_METHOD_1_7F6914407A5F299A_OFFSET UNITYSDK_OFFSET(0x1A514060)
-#define CLASS_1_659DBBD088F1CA3E_METHOD_1_80715D2233255ACA_OFFSET UNITYSDK_OFFSET(0x1A515960)
-#define CLASS_1_659DBBD088F1CA3E_METHOD_1_8E95C4E52115245A_OFFSET UNITYSDK_OFFSET(0x1A516700)
-#define CLASS_1_659DBBD088F1CA3E_METHOD_1_9FA85F81BF5EE3CA_OFFSET UNITYSDK_OFFSET(0x1A515F50)
-#define CLASS_1_659DBBD088F1CA3E_METHOD_1_CA0DB4EAA072A93C_OFFSET UNITYSDK_OFFSET(0x1A516160)
-#define CLASS_1_659DBBD088F1CA3E_METHOD_1_E04F75D713BE2B3D_OFFSET UNITYSDK_OFFSET(0x1A516100)
-#define CLASS_1_659DBBD088F1CA3E__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A516820)
-#define CLASS_1_659DBBD088F1CA3E__CTOR_OFFSET UNITYSDK_OFFSET(0x1A513A00)
+#define CLASS_1_659DBBD088F1CA3E_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1C1238F0)
+#define CLASS_1_659DBBD088F1CA3E_METHOD_1_19FB5FBEA9EA66CD_OFFSET UNITYSDK_OFFSET(0x1C124910)
+#define CLASS_1_659DBBD088F1CA3E_METHOD_1_630A3B9C63A23882_OFFSET UNITYSDK_OFFSET(0x1C124360)
+#define CLASS_1_659DBBD088F1CA3E_METHOD_1_6945E637F28B4CFA_OFFSET UNITYSDK_OFFSET(0x1C123FC0)
+#define CLASS_1_659DBBD088F1CA3E_METHOD_1_749948B663FCCCEF_OFFSET UNITYSDK_OFFSET(0x1C124F30)
+#define CLASS_1_659DBBD088F1CA3E_METHOD_1_7F6914407A5F299A_OFFSET UNITYSDK_OFFSET(0x1C123DB0)
+#define CLASS_1_659DBBD088F1CA3E_METHOD_1_80715D2233255ACA_OFFSET UNITYSDK_OFFSET(0x1C1256B0)
+#define CLASS_1_659DBBD088F1CA3E_METHOD_1_8E95C4E52115245A_OFFSET UNITYSDK_OFFSET(0x1C126450)
+#define CLASS_1_659DBBD088F1CA3E_METHOD_1_9FA85F81BF5EE3CA_OFFSET UNITYSDK_OFFSET(0x1C125CA0)
+#define CLASS_1_659DBBD088F1CA3E_METHOD_1_CA0DB4EAA072A93C_OFFSET UNITYSDK_OFFSET(0x1C125EB0)
+#define CLASS_1_659DBBD088F1CA3E_METHOD_1_E04F75D713BE2B3D_OFFSET UNITYSDK_OFFSET(0x1C125E50)
+#define CLASS_1_659DBBD088F1CA3E__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C126570)
+#define CLASS_1_659DBBD088F1CA3E__CTOR_OFFSET UNITYSDK_OFFSET(0x1C123750)
 
-inline static constexpr unsigned int Class_1_659DBBD088F1CA3E_TypeDefinitionIndex = 34926;
+inline static constexpr unsigned int Class_1_659DBBD088F1CA3E_TypeDefinitionIndex = 35787;
 
 class Class_1_659DBBD088F1CA3E : public ::System::Object
 {
 public:
-	static ::System::Collections::Generic::IReadOnlyList_1<::RPG::GameCore::DiceCombatV2SingleDialogPerformance*>** StaticGet_Field_1_0()
+	static ::System::Collections::Generic::IReadOnlyList_1<::RPG::GameCore::DiceCombatV2SingleDialogPerformance*>** StaticGet_EJGPIOKBPCN()
 	{
-		return (::System::Collections::Generic::IReadOnlyList_1<::RPG::GameCore::DiceCombatV2SingleDialogPerformance*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_659DBBD088F1CA3E_TypeDefinitionIndex)->GetStaticField(0x515E0);
+		return (::System::Collections::Generic::IReadOnlyList_1<::RPG::GameCore::DiceCombatV2SingleDialogPerformance*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_659DBBD088F1CA3E_TypeDefinitionIndex)->GetStaticField(0xE420);
 	}
-	::System::Collections::Generic::Dictionary_2<::RPG::GameCore::DiceCombatV2SingleDialogPerformance*, ::System::Int32>* Field_1_1; // 0x10
-	::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Collections::Generic::List_1<::RPG::GameCore::DiceCombatV2SingleDialogPerformance*>*>* Field_1_2; // 0x18
-	::Class_4_38B51614211CBC7D* Field_1_3; // 0x20
-	::Class_2_3616FDE8A71D0590* Field_1_4; // 0x28
-	::System::Collections::Generic::Dictionary_2<::RPG::GameCore::DiceCombatV2DialogPerformanceTiming, ::System::Collections::Generic::List_1<::RPG::GameCore::DiceCombatV2SingleDialogPerformance*>*>* Field_1_5; // 0x30
+	::Class_2_3616FDE8A71D0590* EEFMDEHLLFI; // 0x10
+	::System::Collections::Generic::Dictionary_2<::RPG::GameCore::DiceCombatV2DialogPerformanceTiming, ::System::Collections::Generic::List_1<::RPG::GameCore::DiceCombatV2SingleDialogPerformance*>*>* PDDIHGBPBKG; // 0x18
+	::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Collections::Generic::List_1<::RPG::GameCore::DiceCombatV2SingleDialogPerformance*>*>* CLMEMMHEICD; // 0x20
+	::Class_4_38B51614211CBC7D* IBGLIGGOIEK; // 0x28
+	::System::Collections::Generic::Dictionary_2<::RPG::GameCore::DiceCombatV2SingleDialogPerformance*, ::System::Int32>* JJCAJBJICFO; // 0x30
 
 	::System::Void _ctor(::Class_4_38B51614211CBC7D* a1, ::Class_2_3616FDE8A71D0590* a2)
 	{

@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MINIGAMECOLLECTCOIN_COINCONFIG_METHOD_2_8703DE30277BC6C8_OFFSET UNITYSDK_OFFSET(0x1B5F9380)
-#define RPG_GAMECORE_MINIGAMECOLLECTCOIN_COINCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5F94B0)
+#define RPG_GAMECORE_MINIGAMECOLLECTCOIN_COINCONFIG_METHOD_2_8703DE30277BC6C8_OFFSET UNITYSDK_OFFSET(0x1D29E8A0)
+#define RPG_GAMECORE_MINIGAMECOLLECTCOIN_COINCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D29E9D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MiniGameCollectCoin_CoinConfig_TypeDefinitionIndex = 18069;
+	inline static constexpr unsigned int MiniGameCollectCoin_CoinConfig_TypeDefinitionIndex = 18593;
 
 	class MiniGameCollectCoin_CoinConfig : public ::RPG::GameCore::JsonConfig
 	{

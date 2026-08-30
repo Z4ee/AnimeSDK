@@ -6,15 +6,15 @@
 namespace RPG::GameCore { class SetDynamicValueByWeakness; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_8DC552A340D673BA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBFEBCE0)
-#define CLASS_3_8DC552A340D673BA__CTOR_OFFSET UNITYSDK_OFFSET(0xBFEBC00)
+#define CLASS_3_8DC552A340D673BA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCA6CB60)
+#define CLASS_3_8DC552A340D673BA__CTOR_OFFSET UNITYSDK_OFFSET(0xCA6CA80)
 
-inline static constexpr unsigned int Class_3_8DC552A340D673BA_TypeDefinitionIndex = 52966;
+inline static constexpr unsigned int Class_3_8DC552A340D673BA_TypeDefinitionIndex = 55671;
 
 class Class_3_8DC552A340D673BA : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetDynamicValueByWeakness*>
 {
 public:
-	::RPG::GameCore::StringHash Field_3_0; // 0x28
+	::RPG::GameCore::StringHash DIJHOMCLPEG; // 0x28
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SetDynamicValueByWeakness* a2)
 	{

@@ -13,49 +13,49 @@ namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 namespace Google::Protobuf::Reflection { class UninterpretedOption; }
 namespace System { class String; }
 
-#define GOOGLE_PROTOBUF_REFLECTION_SERVICEOPTIONS_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1980E700)
-#define GOOGLE_PROTOBUF_REFLECTION_SERVICEOPTIONS_CLONE_OFFSET UNITYSDK_OFFSET(0x1980C8B0)
-#define GOOGLE_PROTOBUF_REFLECTION_SERVICEOPTIONS_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1980E2C0)
-#define GOOGLE_PROTOBUF_REFLECTION_SERVICEOPTIONS_EQUALS_OFFSET UNITYSDK_OFFSET(0x1980E260)
-#define GOOGLE_PROTOBUF_REFLECTION_SERVICEOPTIONS_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1980CE90)
-#define GOOGLE_PROTOBUF_REFLECTION_SERVICEOPTIONS_GET_DEPRECATED_OFFSET UNITYSDK_OFFSET(0x1980E1E0)
-#define GOOGLE_PROTOBUF_REFLECTION_SERVICEOPTIONS_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1980DDF0)
-#define GOOGLE_PROTOBUF_REFLECTION_SERVICEOPTIONS_GET_HASDEPRECATED_OFFSET UNITYSDK_OFFSET(0x1980E250)
-#define GOOGLE_PROTOBUF_REFLECTION_SERVICEOPTIONS_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x1980DD90)
-#define GOOGLE_PROTOBUF_REFLECTION_SERVICEOPTIONS_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1980E7B0)
-#define GOOGLE_PROTOBUF_REFLECTION_SERVICEOPTIONS_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1980D610)
-#define GOOGLE_PROTOBUF_REFLECTION_SERVICEOPTIONS_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1980DFD0)
-#define GOOGLE_PROTOBUF_REFLECTION_SERVICEOPTIONS_SET_DEPRECATED_OFFSET UNITYSDK_OFFSET(0x1980E240)
-#define GOOGLE_PROTOBUF_REFLECTION_SERVICEOPTIONS_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1980E540)
-#define GOOGLE_PROTOBUF_REFLECTION_SERVICEOPTIONS_WRITETO_OFFSET UNITYSDK_OFFSET(0x1980E5A0)
-#define GOOGLE_PROTOBUF_REFLECTION_SERVICEOPTIONS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1980E9B0)
-#define GOOGLE_PROTOBUF_REFLECTION_SERVICEOPTIONS__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1980E030)
-#define GOOGLE_PROTOBUF_REFLECTION_SERVICEOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x1980D5C0)
+#define GOOGLE_PROTOBUF_REFLECTION_SERVICEOPTIONS_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1B399B00)
+#define GOOGLE_PROTOBUF_REFLECTION_SERVICEOPTIONS_CLONE_OFFSET UNITYSDK_OFFSET(0x1B397CB0)
+#define GOOGLE_PROTOBUF_REFLECTION_SERVICEOPTIONS_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1B3996C0)
+#define GOOGLE_PROTOBUF_REFLECTION_SERVICEOPTIONS_EQUALS_OFFSET UNITYSDK_OFFSET(0x1B399660)
+#define GOOGLE_PROTOBUF_REFLECTION_SERVICEOPTIONS_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1B398290)
+#define GOOGLE_PROTOBUF_REFLECTION_SERVICEOPTIONS_GET_DEPRECATED_OFFSET UNITYSDK_OFFSET(0x1B3995E0)
+#define GOOGLE_PROTOBUF_REFLECTION_SERVICEOPTIONS_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1B3991F0)
+#define GOOGLE_PROTOBUF_REFLECTION_SERVICEOPTIONS_GET_HASDEPRECATED_OFFSET UNITYSDK_OFFSET(0x1B399650)
+#define GOOGLE_PROTOBUF_REFLECTION_SERVICEOPTIONS_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x1B399190)
+#define GOOGLE_PROTOBUF_REFLECTION_SERVICEOPTIONS_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1B399BB0)
+#define GOOGLE_PROTOBUF_REFLECTION_SERVICEOPTIONS_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1B398A10)
+#define GOOGLE_PROTOBUF_REFLECTION_SERVICEOPTIONS_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1B3993D0)
+#define GOOGLE_PROTOBUF_REFLECTION_SERVICEOPTIONS_SET_DEPRECATED_OFFSET UNITYSDK_OFFSET(0x1B399640)
+#define GOOGLE_PROTOBUF_REFLECTION_SERVICEOPTIONS_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1B399940)
+#define GOOGLE_PROTOBUF_REFLECTION_SERVICEOPTIONS_WRITETO_OFFSET UNITYSDK_OFFSET(0x1B3999A0)
+#define GOOGLE_PROTOBUF_REFLECTION_SERVICEOPTIONS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B399DB0)
+#define GOOGLE_PROTOBUF_REFLECTION_SERVICEOPTIONS__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B399430)
+#define GOOGLE_PROTOBUF_REFLECTION_SERVICEOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3989C0)
 
 namespace Google::Protobuf::Reflection
 {
-	inline static constexpr unsigned int ServiceOptions_TypeDefinitionIndex = 5509;
+	inline static constexpr unsigned int ServiceOptions_TypeDefinitionIndex = 5498;
 
 	class ServiceOptions : public ::System::Object
 	{
 	public:
-		static ::Google::Protobuf::MessageParser_1<::Google::Protobuf::Reflection::ServiceOptions*>** StaticGet__parser()
-		{
-			return (::Google::Protobuf::MessageParser_1<::Google::Protobuf::Reflection::ServiceOptions*>**)Il2CppClass::FromTypeDefinitionIndex(ServiceOptions_TypeDefinitionIndex)->GetStaticField(0x43950);
-		}
 		static ::Google::Protobuf::FieldCodec_1<::Google::Protobuf::Reflection::UninterpretedOption*>** StaticGet__repeated_uninterpretedOption_codec()
 		{
-			return (::Google::Protobuf::FieldCodec_1<::Google::Protobuf::Reflection::UninterpretedOption*>**)Il2CppClass::FromTypeDefinitionIndex(ServiceOptions_TypeDefinitionIndex)->GetStaticField(0x43958);
+			return (::Google::Protobuf::FieldCodec_1<::Google::Protobuf::Reflection::UninterpretedOption*>**)Il2CppClass::FromTypeDefinitionIndex(ServiceOptions_TypeDefinitionIndex)->GetStaticField(0x16740);
+		}
+		static ::Google::Protobuf::MessageParser_1<::Google::Protobuf::Reflection::ServiceOptions*>** StaticGet__parser()
+		{
+			return (::Google::Protobuf::MessageParser_1<::Google::Protobuf::Reflection::ServiceOptions*>**)Il2CppClass::FromTypeDefinitionIndex(ServiceOptions_TypeDefinitionIndex)->GetStaticField(0x16748);
 		}
 		static ::System::Boolean* StaticGet_DeprecatedDefaultValue()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ServiceOptions_TypeDefinitionIndex)->GetStaticField(0xAC70);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ServiceOptions_TypeDefinitionIndex)->GetStaticField(0x88C0);
 		}
-		::Google::Protobuf::UnknownFieldSet* _unknownFields; // 0x10
-		::Google::Protobuf::Collections::RepeatedField_1<::Google::Protobuf::Reflection::UninterpretedOption*>* uninterpretedOption_; // 0x18
-		::Google::Protobuf::ExtensionSet_1<::Google::Protobuf::Reflection::ServiceOptions*>* _extensions; // 0x20
-		::System::Boolean deprecated_; // 0x28
-		::System::Int32 _hasBits0; // 0x2C
+		::Google::Protobuf::ExtensionSet_1<::Google::Protobuf::Reflection::ServiceOptions*>* _extensions; // 0x10
+		::Google::Protobuf::UnknownFieldSet* _unknownFields; // 0x18
+		::Google::Protobuf::Collections::RepeatedField_1<::Google::Protobuf::Reflection::UninterpretedOption*>* uninterpretedOption_; // 0x20
+		::System::Int32 _hasBits0; // 0x28
+		::System::Boolean deprecated_; // 0x2C
 
 		::System::Void _ctor()
 		{

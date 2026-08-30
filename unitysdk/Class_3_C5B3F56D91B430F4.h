@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AdventureRemoveExtraMPCost; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_C5B3F56D91B430F4_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB5ECB70)
-#define CLASS_3_C5B3F56D91B430F4__CTOR_OFFSET UNITYSDK_OFFSET(0xB5ECB40)
+#define CLASS_3_C5B3F56D91B430F4_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBFEB0D0)
+#define CLASS_3_C5B3F56D91B430F4__CTOR_OFFSET UNITYSDK_OFFSET(0xBFEB0A0)
 
-inline static constexpr unsigned int Class_3_C5B3F56D91B430F4_TypeDefinitionIndex = 55339;
+inline static constexpr unsigned int Class_3_C5B3F56D91B430F4_TypeDefinitionIndex = 58063;
 
 class Class_3_C5B3F56D91B430F4 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AdventureRemoveExtraMPCost*>
 {

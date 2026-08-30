@@ -5,21 +5,21 @@
 
 namespace System::Xml::Schema { class FacetsChecker; }
 
-#define SYSTEM_XML_SCHEMA_DATATYPE_NONPOSITIVEINTEGER_GET_FACETSCHECKER_OFFSET UNITYSDK_OFFSET(0x1CB48690)
-#define SYSTEM_XML_SCHEMA_DATATYPE_NONPOSITIVEINTEGER_GET_TYPECODE_OFFSET UNITYSDK_OFFSET(0x1CB486F0)
-#define SYSTEM_XML_SCHEMA_DATATYPE_NONPOSITIVEINTEGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CB48700)
-#define SYSTEM_XML_SCHEMA_DATATYPE_NONPOSITIVEINTEGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1CB3CE10)
+#define SYSTEM_XML_SCHEMA_DATATYPE_NONPOSITIVEINTEGER_GET_FACETSCHECKER_OFFSET UNITYSDK_OFFSET(0x1E7F26B0)
+#define SYSTEM_XML_SCHEMA_DATATYPE_NONPOSITIVEINTEGER_GET_TYPECODE_OFFSET UNITYSDK_OFFSET(0x1E7F2710)
+#define SYSTEM_XML_SCHEMA_DATATYPE_NONPOSITIVEINTEGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E7F2720)
+#define SYSTEM_XML_SCHEMA_DATATYPE_NONPOSITIVEINTEGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7E6EB0)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int Datatype_nonPositiveInteger_TypeDefinitionIndex = 2127;
+	inline static constexpr unsigned int Datatype_nonPositiveInteger_TypeDefinitionIndex = 2134;
 
 	class Datatype_nonPositiveInteger : public ::System::Xml::Schema::Datatype_integer
 	{
 	public:
 		static ::System::Xml::Schema::FacetsChecker** StaticGet_numeric10FacetsChecker()
 		{
-			return (::System::Xml::Schema::FacetsChecker**)Il2CppClass::FromTypeDefinitionIndex(Datatype_nonPositiveInteger_TypeDefinitionIndex)->GetStaticField(0x22D90);
+			return (::System::Xml::Schema::FacetsChecker**)Il2CppClass::FromTypeDefinitionIndex(Datatype_nonPositiveInteger_TypeDefinitionIndex)->GetStaticField(0x19880);
 		}
 
 		::System::Void _ctor()

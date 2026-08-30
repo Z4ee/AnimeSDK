@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/Xml/XmlWellFormedWriter_AttributeValueCache_ItemType.h"
 
-#define SYSTEM_XML_XMLWELLFORMEDWRITER_ATTRIBUTEVALUECACHE_ITEM_SET_OFFSET UNITYSDK_OFFSET(0x1CC443D0)
-#define SYSTEM_XML_XMLWELLFORMEDWRITER_ATTRIBUTEVALUECACHE_ITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC443C0)
+#define SYSTEM_XML_XMLWELLFORMEDWRITER_ATTRIBUTEVALUECACHE_ITEM_SET_OFFSET UNITYSDK_OFFSET(0x1E8EEA20)
+#define SYSTEM_XML_XMLWELLFORMEDWRITER_ATTRIBUTEVALUECACHE_ITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1E8EEA10)
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int XmlWellFormedWriter_AttributeValueCache_Item_TypeDefinitionIndex = 1875;
+	inline static constexpr unsigned int XmlWellFormedWriter_AttributeValueCache_Item_TypeDefinitionIndex = 1882;
 
 	class XmlWellFormedWriter_AttributeValueCache_Item : public ::System::Object
 	{

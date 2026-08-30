@@ -7,12 +7,12 @@ namespace RPG::GameCore { class TargetSeqOperation; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_TARGETOPERATIONCONFIGLIST_METHOD_2_8FB9FB731A6421CC_OFFSET UNITYSDK_OFFSET(0x1B958B70)
-#define RPG_GAMECORE_TARGETOPERATIONCONFIGLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x1B958C50)
+#define RPG_GAMECORE_TARGETOPERATIONCONFIGLIST_METHOD_2_8FB9FB731A6421CC_OFFSET UNITYSDK_OFFSET(0x1D5B5D00)
+#define RPG_GAMECORE_TARGETOPERATIONCONFIGLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5B5DE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TargetOperationConfigList_TypeDefinitionIndex = 23104;
+	inline static constexpr unsigned int TargetOperationConfigList_TypeDefinitionIndex = 23684;
 
 	class TargetOperationConfigList : public ::RPG::GameCore::JsonConfig
 	{

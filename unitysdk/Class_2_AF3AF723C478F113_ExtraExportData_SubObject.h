@@ -5,9 +5,9 @@
 namespace ScenenLightManager { class TransformExportData; }
 namespace System { class String; }
 
-#define CLASS_2_AF3AF723C478F113_EXTRAEXPORTDATA_SUBOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x149CA300)
+#define CLASS_2_AF3AF723C478F113_EXTRAEXPORTDATA_SUBOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1585C010)
 
-inline static constexpr unsigned int Class_2_AF3AF723C478F113_ExtraExportData_SubObject_TypeDefinitionIndex = 47187;
+inline static constexpr unsigned int Class_2_AF3AF723C478F113_ExtraExportData_SubObject_TypeDefinitionIndex = 49467;
 
 class Class_2_AF3AF723C478F113_ExtraExportData_SubObject : public ::System::Object
 {

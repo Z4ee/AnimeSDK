@@ -2,21 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Class_2_FF1662A92369C7AD.h"
 
-class Class_0_16E4307DCC419505_360;
+class Class_0_16E4307DCC419505_379;
 class Class_1_39155512A8777971;
 template <typename T> class Class_3_455124A410922D94;
 
-#define CLASS_3_7ADAD956DA8188DA_METHOD_3_4441400B9C0CFA6D_OFFSET UNITYSDK_OFFSET(0xB4A0680)
-#define CLASS_3_7ADAD956DA8188DA__CTOR_OFFSET UNITYSDK_OFFSET(0xB4A0630)
+#define CLASS_3_7ADAD956DA8188DA_METHOD_3_4441400B9C0CFA6D_OFFSET UNITYSDK_OFFSET(0xBE8DAF0)
+#define CLASS_3_7ADAD956DA8188DA__CTOR_OFFSET UNITYSDK_OFFSET(0xBE8DAA0)
 
-inline static constexpr unsigned int Class_3_7ADAD956DA8188DA_TypeDefinitionIndex = 47569;
+inline static constexpr unsigned int Class_3_7ADAD956DA8188DA_TypeDefinitionIndex = 49850;
 
 class Class_3_7ADAD956DA8188DA : public ::Class_2_FF1662A92369C7AD<::System::Boolean>
 {
 public:
-	::System::Void _ctor(::Class_3_455124A410922D94<::System::Boolean>* a1, ::Class_3_455124A410922D94<::System::Boolean>* a2, ::Class_3_455124A410922D94<::System::Boolean>* a3, ::Class_1_39155512A8777971* a4, ::Class_0_16E4307DCC419505_360* a5)
+	::System::Void _ctor(::Class_3_455124A410922D94<::System::Boolean>* a1, ::Class_3_455124A410922D94<::System::Boolean>* a2, ::Class_3_455124A410922D94<::System::Boolean>* a3, ::Class_1_39155512A8777971* a4, ::Class_0_16E4307DCC419505_379* a5)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_3_455124A410922D94<::System::Boolean>*, ::Class_3_455124A410922D94<::System::Boolean>*, ::Class_3_455124A410922D94<::System::Boolean>*, ::Class_1_39155512A8777971*, ::Class_0_16E4307DCC419505_360*))((::PBYTE)hIl2Cpp + CLASS_3_7ADAD956DA8188DA__CTOR_OFFSET))(this, a1, a2, a3, a4, a5);
+		return ((::System::Void(*)(::PVOID, ::Class_3_455124A410922D94<::System::Boolean>*, ::Class_3_455124A410922D94<::System::Boolean>*, ::Class_3_455124A410922D94<::System::Boolean>*, ::Class_1_39155512A8777971*, ::Class_0_16E4307DCC419505_379*))((::PBYTE)hIl2Cpp + CLASS_3_7ADAD956DA8188DA__CTOR_OFFSET))(this, a1, a2, a3, a4, a5);
 	}
 
 	::System::Void Method_3_4441400B9C0CFA6D(::System::Single a1)

@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Class_1_4DC40C4198F52F51_ColumeType_TypeDefinitionIndex = 51785;
+inline static constexpr unsigned int Class_1_4DC40C4198F52F51_ColumeType_TypeDefinitionIndex = 54469;
 
 enum class Class_1_4DC40C4198F52F51_ColumeType : ::System::Int32
 {

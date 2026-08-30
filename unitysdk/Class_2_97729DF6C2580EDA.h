@@ -5,15 +5,15 @@
 class Class_2_A1F69E2229E56CFE;
 namespace System { class String; }
 
-#define CLASS_2_97729DF6C2580EDA_EXECUTE_OFFSET UNITYSDK_OFFSET(0x14B38DA0)
-#define CLASS_2_97729DF6C2580EDA__CTOR_OFFSET UNITYSDK_OFFSET(0x14B38F90)
+#define CLASS_2_97729DF6C2580EDA_EXECUTE_OFFSET UNITYSDK_OFFSET(0x15A2F570)
+#define CLASS_2_97729DF6C2580EDA__CTOR_OFFSET UNITYSDK_OFFSET(0x15A2F760)
 
-inline static constexpr unsigned int Class_2_97729DF6C2580EDA_TypeDefinitionIndex = 51793;
+inline static constexpr unsigned int Class_2_97729DF6C2580EDA_TypeDefinitionIndex = 54477;
 
 class Class_2_97729DF6C2580EDA : public ::Class_1_839D2B0410C42D5A
 {
 public:
-	::System::String* Field_2_0; // 0x20
+	::System::String* CIDCEJCGOGB; // 0x20
 
 	::System::Void _ctor()
 	{

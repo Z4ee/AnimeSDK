@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class RestartTrackPhoto; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_B1C6FEA9380D8F82_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB418290)
-#define CLASS_3_B1C6FEA9380D8F82__CTOR_OFFSET UNITYSDK_OFFSET(0xB418260)
+#define CLASS_3_B1C6FEA9380D8F82_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBDAE650)
+#define CLASS_3_B1C6FEA9380D8F82__CTOR_OFFSET UNITYSDK_OFFSET(0xBDAE620)
 
-inline static constexpr unsigned int Class_3_B1C6FEA9380D8F82_TypeDefinitionIndex = 50784;
+inline static constexpr unsigned int Class_3_B1C6FEA9380D8F82_TypeDefinitionIndex = 53466;
 
 class Class_3_B1C6FEA9380D8F82 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::RestartTrackPhoto*>
 {

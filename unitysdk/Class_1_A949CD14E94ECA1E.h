@@ -8,23 +8,23 @@ class Class_1_A6385553C787E0DF;
 class Class_2_F3C45F1FC7349B6E;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_A949CD14E94ECA1E_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1A427720)
-#define CLASS_1_A949CD14E94ECA1E_METHOD_1_2B020C274F6883CA_OFFSET UNITYSDK_OFFSET(0x1A427F50)
-#define CLASS_1_A949CD14E94ECA1E_METHOD_1_648262CB0DAA6020_OFFSET UNITYSDK_OFFSET(0x1A427C10)
-#define CLASS_1_A949CD14E94ECA1E_METHOD_1_AB521B1AE7712673_OFFSET UNITYSDK_OFFSET(0x1A427770)
-#define CLASS_1_A949CD14E94ECA1E_METHOD_1_AEBF55280097FDE7_OFFSET UNITYSDK_OFFSET(0x1A428330)
-#define CLASS_1_A949CD14E94ECA1E__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4275A0)
+#define CLASS_1_A949CD14E94ECA1E_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1C036B10)
+#define CLASS_1_A949CD14E94ECA1E_METHOD_1_2B020C274F6883CA_OFFSET UNITYSDK_OFFSET(0x1C037340)
+#define CLASS_1_A949CD14E94ECA1E_METHOD_1_648262CB0DAA6020_OFFSET UNITYSDK_OFFSET(0x1C037000)
+#define CLASS_1_A949CD14E94ECA1E_METHOD_1_AB521B1AE7712673_OFFSET UNITYSDK_OFFSET(0x1C036B60)
+#define CLASS_1_A949CD14E94ECA1E_METHOD_1_AEBF55280097FDE7_OFFSET UNITYSDK_OFFSET(0x1C037720)
+#define CLASS_1_A949CD14E94ECA1E__CTOR_OFFSET UNITYSDK_OFFSET(0x1C036980)
 
-inline static constexpr unsigned int Class_1_A949CD14E94ECA1E_TypeDefinitionIndex = 35772;
+inline static constexpr unsigned int Class_1_A949CD14E94ECA1E_TypeDefinitionIndex = 36633;
 
 class Class_1_A949CD14E94ECA1E : public ::System::Object
 {
 public:
-	// static const ::System::UInt64 Field_1_0 = 0x1F4; // 0x0
-	::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::Int32, ::System::Int32>, ::System::ValueTuple_2<::System::UInt64, ::System::UInt32>>* Field_1_1; // 0x10
-	::Class_2_F3C45F1FC7349B6E* Field_1_2; // 0x18
-	::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::ValueTuple_2<::System::Int32, ::System::UInt32>>* Field_1_3; // 0x20
-	::System::UInt32 Field_1_4; // 0x28
+	// static const ::System::UInt64 JNKAKBIEJAI = 0x1F4; // 0x0
+	::Class_2_F3C45F1FC7349B6E* PDENFEFCAGN; // 0x10
+	::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::Int32, ::System::Int32>, ::System::ValueTuple_2<::System::UInt64, ::System::UInt32>>* NEBCGCKIAFM; // 0x18
+	::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::ValueTuple_2<::System::Int32, ::System::UInt32>>* GPEPMBICJFC; // 0x20
+	::System::UInt32 ABFCFDCOAAC; // 0x28
 
 	::System::Void _ctor(::Class_2_F3C45F1FC7349B6E* a1)
 	{

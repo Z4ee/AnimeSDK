@@ -1,0 +1,262 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_35B8E94AA1DBDC5E;
+class Class_1_4E3A1A3DB7659A95;
+class Class_1_65EC9CACFF41765E;
+class Class_1_9EE357109ED696DE;
+class Class_1_C350877AE912EE6F;
+class Class_1_CC9CE4D523046362;
+namespace RPG::Client { class ExpeditionBattleActionDispatch; }
+namespace RPG::Client { class ExpeditionBattleFlowMapViewModel; }
+namespace RPG::Client { class ExpeditionBattleFlowRankRecordViewModel; }
+namespace RPG::Client { class ExpeditionBattleFlowRouteEndViewModel; }
+namespace RPG::Client { class ExpeditionBattleFlowTeamViewModel; }
+namespace RPG::Client { class ExpeditionBattleMapFunViewModel; }
+namespace System { class String; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define RPG_CLIENT_EXPEDITIONBATTLEFLOWVIEWMODEL_CREATE_OFFSET UNITYSDK_OFFSET(0xCEF9570)
+#define RPG_CLIENT_EXPEDITIONBATTLEFLOWVIEWMODEL_DISPOSE_OFFSET UNITYSDK_OFFSET(0xCEFAA60)
+#define RPG_CLIENT_EXPEDITIONBATTLEFLOWVIEWMODEL_GETAVATARICONPATH_OFFSET UNITYSDK_OFFSET(0xCEFA1C0)
+#define RPG_CLIENT_EXPEDITIONBATTLEFLOWVIEWMODEL_GETCURRENTLEVELROUTEENDDATA_OFFSET UNITYSDK_OFFSET(0xCEFA260)
+#define RPG_CLIENT_EXPEDITIONBATTLEFLOWVIEWMODEL_GETCURRENTSTAGE_OFFSET UNITYSDK_OFFSET(0xCEF9C20)
+#define RPG_CLIENT_EXPEDITIONBATTLEFLOWVIEWMODEL_GETFUNVIEWMODEL_OFFSET UNITYSDK_OFFSET(0xCEFA070)
+#define RPG_CLIENT_EXPEDITIONBATTLEFLOWVIEWMODEL_GETRANKRECORDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0xCEFA4F0)
+#define RPG_CLIENT_EXPEDITIONBATTLEFLOWVIEWMODEL_GET_BACKGROUNDPATH_OFFSET UNITYSDK_OFFSET(0xCEF9010)
+#define RPG_CLIENT_EXPEDITIONBATTLEFLOWVIEWMODEL_GET_BGMSTATE_OFFSET UNITYSDK_OFFSET(0xCEF9070)
+#define RPG_CLIENT_EXPEDITIONBATTLEFLOWVIEWMODEL_GET_CURRENTLEVELINDEX_OFFSET UNITYSDK_OFFSET(0xCEF8E80)
+#define RPG_CLIENT_EXPEDITIONBATTLEFLOWVIEWMODEL_GET_ISFINAL_OFFSET UNITYSDK_OFFSET(0xCEF8F80)
+#define RPG_CLIENT_EXPEDITIONBATTLEFLOWVIEWMODEL_GET_ISSETTLERECEIVED_OFFSET UNITYSDK_OFFSET(0xCEF90D0)
+#define RPG_CLIENT_EXPEDITIONBATTLEFLOWVIEWMODEL_GET_MAPID_OFFSET UNITYSDK_OFFSET(0xCEF8DC0)
+#define RPG_CLIENT_EXPEDITIONBATTLEFLOWVIEWMODEL_GET_MAPVIEWMODEL_OFFSET UNITYSDK_OFFSET(0xCEF8E40)
+#define RPG_CLIENT_EXPEDITIONBATTLEFLOWVIEWMODEL_GET_TEAMVIEWMODELS_OFFSET UNITYSDK_OFFSET(0xCEF8E60)
+#define RPG_CLIENT_EXPEDITIONBATTLEFLOWVIEWMODEL_GET_TOTALLEVELCOUNT_OFFSET UNITYSDK_OFFSET(0xCEF8ED0)
+#define RPG_CLIENT_EXPEDITIONBATTLEFLOWVIEWMODEL_HASHISTORYBESTREPORT_OFFSET UNITYSDK_OFFSET(0xCEF9650)
+#define RPG_CLIENT_EXPEDITIONBATTLEFLOWVIEWMODEL_ISROUTELOSTBEFORELEVEL_OFFSET UNITYSDK_OFFSET(0xCEF9D20)
+#define RPG_CLIENT_EXPEDITIONBATTLEFLOWVIEWMODEL_ISROUTELOSTINLEVEL_OFFSET UNITYSDK_OFFSET(0xCEF9EE0)
+#define RPG_CLIENT_EXPEDITIONBATTLEFLOWVIEWMODEL_ISROUTELOST_OFFSET UNITYSDK_OFFSET(0xCEF9FF0)
+#define RPG_CLIENT_EXPEDITIONBATTLEFLOWVIEWMODEL_ISSHOULDCONFIRMSKIP_OFFSET UNITYSDK_OFFSET(0xCEFA970)
+#define RPG_CLIENT_EXPEDITIONBATTLEFLOWVIEWMODEL_ONACTIONRESOLVED_OFFSET UNITYSDK_OFFSET(0xCEF9840)
+#define RPG_CLIENT_EXPEDITIONBATTLEFLOWVIEWMODEL_ONFLOWONSTATEENTERED_OFFSET UNITYSDK_OFFSET(0xCEFAC00)
+#define RPG_CLIENT_EXPEDITIONBATTLEFLOWVIEWMODEL_REQUESTSKIP_OFFSET UNITYSDK_OFFSET(0xCEF9B50)
+#define RPG_CLIENT_EXPEDITIONBATTLEFLOWVIEWMODEL_SETISSHOULDCONFIRMSKIP_OFFSET UNITYSDK_OFFSET(0xCEFA9D0)
+#define RPG_CLIENT_EXPEDITIONBATTLEFLOWVIEWMODEL_SET_MAPVIEWMODEL_OFFSET UNITYSDK_OFFSET(0xCEF8E50)
+#define RPG_CLIENT_EXPEDITIONBATTLEFLOWVIEWMODEL_SET_TEAMVIEWMODELS_OFFSET UNITYSDK_OFFSET(0xCEF8E70)
+#define RPG_CLIENT_EXPEDITIONBATTLEFLOWVIEWMODEL_STARTFLOW_OFFSET UNITYSDK_OFFSET(0xCEF96A0)
+#define RPG_CLIENT_EXPEDITIONBATTLEFLOWVIEWMODEL__CALCULATECURRENTSTARCOUNT_OFFSET UNITYSDK_OFFSET(0xCEFA660)
+#define RPG_CLIENT_EXPEDITIONBATTLEFLOWVIEWMODEL__CALCULATEROUTEPASSEDLEVEL_OFFSET UNITYSDK_OFFSET(0xCEFAD60)
+#define RPG_CLIENT_EXPEDITIONBATTLEFLOWVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xCEF9120)
+#define RPG_CLIENT_EXPEDITIONBATTLEFLOWVIEWMODEL__DISPATCHPENDINGACTIONS_OFFSET UNITYSDK_OFFSET(0xCEF9990)
+#define RPG_CLIENT_EXPEDITIONBATTLEFLOWVIEWMODEL__FORCENOTIFYSETTLE_OFFSET UNITYSDK_OFFSET(0xCEF9BD0)
+#define RPG_CLIENT_EXPEDITIONBATTLEFLOWVIEWMODEL__INITMAPVIEWMODEL_OFFSET UNITYSDK_OFFSET(0xCEF92C0)
+#define RPG_CLIENT_EXPEDITIONBATTLEFLOWVIEWMODEL__INITTEAMVIEWMODELMAP_OFFSET UNITYSDK_OFFSET(0xCEF9360)
+#define RPG_CLIENT_EXPEDITIONBATTLEFLOWVIEWMODEL__ONGAMELOCKSTATECHANGED_OFFSET UNITYSDK_OFFSET(0xCEFACA0)
+#define RPG_CLIENT_EXPEDITIONBATTLEFLOWVIEWMODEL__TRYNOTIFYSETTLE_OFFSET UNITYSDK_OFFSET(0xCEF9AD0)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int ExpeditionBattleFlowViewModel_TypeDefinitionIndex = 63980;
+
+	class ExpeditionBattleFlowViewModel : public ::System::Object
+	{
+	public:
+		::RPG::Client::ExpeditionBattleFlowMapViewModel* _MapViewModel_k__BackingField; // 0x10
+		::System::Collections::Generic::List_1<::RPG::Client::ExpeditionBattleActionDispatch*>* _DispatchBuffer; // 0x18
+		::Class_1_9EE357109ED696DE* _ViewModelFactory; // 0x20
+		::Class_1_35B8E94AA1DBDC5E* _DisplayService; // 0x28
+		::Class_1_C350877AE912EE6F* _MonsterService; // 0x30
+		::System::Collections::Generic::List_1<::RPG::Client::ExpeditionBattleFlowTeamViewModel*>* _TeamViewModels_k__BackingField; // 0x38
+		::Class_1_65EC9CACFF41765E* _MapService; // 0x40
+		::Class_1_CC9CE4D523046362* _FlowModel; // 0x48
+		::Class_1_4E3A1A3DB7659A95* _FlowService; // 0x50
+		::System::Boolean _IsSettleNotified; // 0x58
+		::System::Boolean _IsDispatching; // 0x59
+
+		::System::Void _ctor(::Class_1_4E3A1A3DB7659A95* a1, ::Class_1_CC9CE4D523046362* a2, ::Class_1_C350877AE912EE6F* a3, ::Class_1_35B8E94AA1DBDC5E* a4, ::Class_1_65EC9CACFF41765E* a5, ::Class_1_9EE357109ED696DE* a6)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_4E3A1A3DB7659A95*, ::Class_1_CC9CE4D523046362*, ::Class_1_C350877AE912EE6F*, ::Class_1_35B8E94AA1DBDC5E*, ::Class_1_65EC9CACFF41765E*, ::Class_1_9EE357109ED696DE*))((::PBYTE)hIl2Cpp + RPG_CLIENT_EXPEDITIONBATTLEFLOWVIEWMODEL__CTOR_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+		}
+
+		::System::UInt32 get_MapID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EXPEDITIONBATTLEFLOWVIEWMODEL_GET_MAPID_OFFSET))(this);
+		}
+
+		::RPG::Client::ExpeditionBattleFlowMapViewModel* get_MapViewModel()
+		{
+			return ((::RPG::Client::ExpeditionBattleFlowMapViewModel*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EXPEDITIONBATTLEFLOWVIEWMODEL_GET_MAPVIEWMODEL_OFFSET))(this);
+		}
+
+		::System::Void set_MapViewModel(::RPG::Client::ExpeditionBattleFlowMapViewModel* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ExpeditionBattleFlowMapViewModel*))((::PBYTE)hIl2Cpp + RPG_CLIENT_EXPEDITIONBATTLEFLOWVIEWMODEL_SET_MAPVIEWMODEL_OFFSET))(this, a1);
+		}
+
+		::System::Collections::Generic::List_1<::RPG::Client::ExpeditionBattleFlowTeamViewModel*>* get_TeamViewModels()
+		{
+			return ((::System::Collections::Generic::List_1<::RPG::Client::ExpeditionBattleFlowTeamViewModel*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EXPEDITIONBATTLEFLOWVIEWMODEL_GET_TEAMVIEWMODELS_OFFSET))(this);
+		}
+
+		::System::Void set_TeamViewModels(::System::Collections::Generic::List_1<::RPG::Client::ExpeditionBattleFlowTeamViewModel*>* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::ExpeditionBattleFlowTeamViewModel*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_EXPEDITIONBATTLEFLOWVIEWMODEL_SET_TEAMVIEWMODELS_OFFSET))(this, a1);
+		}
+
+		::System::UInt32 get_CurrentLevelIndex()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EXPEDITIONBATTLEFLOWVIEWMODEL_GET_CURRENTLEVELINDEX_OFFSET))(this);
+		}
+
+		::System::UInt32 get_TotalLevelCount()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EXPEDITIONBATTLEFLOWVIEWMODEL_GET_TOTALLEVELCOUNT_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsFinal()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EXPEDITIONBATTLEFLOWVIEWMODEL_GET_ISFINAL_OFFSET))(this);
+		}
+
+		::System::String* get_BackgroundPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EXPEDITIONBATTLEFLOWVIEWMODEL_GET_BACKGROUNDPATH_OFFSET))(this);
+		}
+
+		::System::String* get_BGMState()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EXPEDITIONBATTLEFLOWVIEWMODEL_GET_BGMSTATE_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsSettleReceived()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EXPEDITIONBATTLEFLOWVIEWMODEL_GET_ISSETTLERECEIVED_OFFSET))(this);
+		}
+
+		static ::RPG::Client::ExpeditionBattleFlowViewModel* Create(::Class_1_4E3A1A3DB7659A95* a1, ::Class_1_CC9CE4D523046362* a2, ::Class_1_C350877AE912EE6F* a3, ::Class_1_35B8E94AA1DBDC5E* a4, ::Class_1_65EC9CACFF41765E* a5, ::Class_1_9EE357109ED696DE* a6)
+		{
+			return ((::RPG::Client::ExpeditionBattleFlowViewModel*(*)(::Class_1_4E3A1A3DB7659A95*, ::Class_1_CC9CE4D523046362*, ::Class_1_C350877AE912EE6F*, ::Class_1_35B8E94AA1DBDC5E*, ::Class_1_65EC9CACFF41765E*, ::Class_1_9EE357109ED696DE*))((::PBYTE)hIl2Cpp + RPG_CLIENT_EXPEDITIONBATTLEFLOWVIEWMODEL_CREATE_OFFSET))(a1, a2, a3, a4, a5, a6);
+		}
+
+		::System::Boolean HasHistoryBestReport()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EXPEDITIONBATTLEFLOWVIEWMODEL_HASHISTORYBESTREPORT_OFFSET))(this);
+		}
+
+		::System::Void StartFlow()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EXPEDITIONBATTLEFLOWVIEWMODEL_STARTFLOW_OFFSET))(this);
+		}
+
+		::System::Void OnActionResolved(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_EXPEDITIONBATTLEFLOWVIEWMODEL_ONACTIONRESOLVED_OFFSET))(this, a1);
+		}
+
+		::System::Void RequestSkip()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EXPEDITIONBATTLEFLOWVIEWMODEL_REQUESTSKIP_OFFSET))(this);
+		}
+
+		::System::String* GetCurrentStage()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EXPEDITIONBATTLEFLOWVIEWMODEL_GETCURRENTSTAGE_OFFSET))(this);
+		}
+
+		::System::Boolean IsRouteLostBeforeLevel(::System::UInt32 a1, ::System::UInt32 a2)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_EXPEDITIONBATTLEFLOWVIEWMODEL_ISROUTELOSTBEFORELEVEL_OFFSET))(this, a1, a2);
+		}
+
+		::System::Boolean IsRouteLostInLevel(::System::UInt32 a1, ::System::UInt32 a2)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_EXPEDITIONBATTLEFLOWVIEWMODEL_ISROUTELOSTINLEVEL_OFFSET))(this, a1, a2);
+		}
+
+		::System::Boolean IsRouteLost(::System::UInt32 a1, ::System::UInt32 a2)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_EXPEDITIONBATTLEFLOWVIEWMODEL_ISROUTELOST_OFFSET))(this, a1, a2);
+		}
+
+		::RPG::Client::ExpeditionBattleMapFunViewModel* GetFunViewModel()
+		{
+			return ((::RPG::Client::ExpeditionBattleMapFunViewModel*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EXPEDITIONBATTLEFLOWVIEWMODEL_GETFUNVIEWMODEL_OFFSET))(this);
+		}
+
+		::System::String* GetAvatarIconPath(::System::UInt32 a1)
+		{
+			return ((::System::String*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_EXPEDITIONBATTLEFLOWVIEWMODEL_GETAVATARICONPATH_OFFSET))(this, a1);
+		}
+
+		::RPG::Client::ExpeditionBattleFlowRouteEndViewModel* GetCurrentLevelRouteEndData(::System::UInt32 a1)
+		{
+			return ((::RPG::Client::ExpeditionBattleFlowRouteEndViewModel*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_EXPEDITIONBATTLEFLOWVIEWMODEL_GETCURRENTLEVELROUTEENDDATA_OFFSET))(this, a1);
+		}
+
+		::RPG::Client::ExpeditionBattleFlowRankRecordViewModel* GetRankRecordViewModel()
+		{
+			return ((::RPG::Client::ExpeditionBattleFlowRankRecordViewModel*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EXPEDITIONBATTLEFLOWVIEWMODEL_GETRANKRECORDVIEWMODEL_OFFSET))(this);
+		}
+
+		::System::Boolean IsShouldConfirmSkip()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EXPEDITIONBATTLEFLOWVIEWMODEL_ISSHOULDCONFIRMSKIP_OFFSET))(this);
+		}
+
+		::System::Void SetIsShouldConfirmSkip(::System::Boolean a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_EXPEDITIONBATTLEFLOWVIEWMODEL_SETISSHOULDCONFIRMSKIP_OFFSET))(this, a1);
+		}
+
+		::System::Void Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EXPEDITIONBATTLEFLOWVIEWMODEL_DISPOSE_OFFSET))(this);
+		}
+
+		::System::Void OnFlowOnStateEntered()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EXPEDITIONBATTLEFLOWVIEWMODEL_ONFLOWONSTATEENTERED_OFFSET))(this);
+		}
+
+		::System::Void _OnGameLockStateChanged(::System::Object* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_EXPEDITIONBATTLEFLOWVIEWMODEL__ONGAMELOCKSTATECHANGED_OFFSET))(this, a1);
+		}
+
+		::System::Void _DispatchPendingActions()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EXPEDITIONBATTLEFLOWVIEWMODEL__DISPATCHPENDINGACTIONS_OFFSET))(this);
+		}
+
+		::System::Void _TryNotifySettle()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EXPEDITIONBATTLEFLOWVIEWMODEL__TRYNOTIFYSETTLE_OFFSET))(this);
+		}
+
+		::System::Void _ForceNotifySettle()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EXPEDITIONBATTLEFLOWVIEWMODEL__FORCENOTIFYSETTLE_OFFSET))(this);
+		}
+
+		::System::UInt32 _CalculateCurrentStarCount()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EXPEDITIONBATTLEFLOWVIEWMODEL__CALCULATECURRENTSTARCOUNT_OFFSET))(this);
+		}
+
+		::System::UInt32 _CalculateRoutePassedLevel(::System::UInt32 a1, ::System::UInt32 a2)
+		{
+			return ((::System::UInt32(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_EXPEDITIONBATTLEFLOWVIEWMODEL__CALCULATEROUTEPASSEDLEVEL_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void _InitMapViewModel()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EXPEDITIONBATTLEFLOWVIEWMODEL__INITMAPVIEWMODEL_OFFSET))(this);
+		}
+
+		::System::Void _InitTeamViewModelMap()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EXPEDITIONBATTLEFLOWVIEWMODEL__INITTEAMVIEWMODELMAP_OFFSET))(this);
+		}
+	};
+}

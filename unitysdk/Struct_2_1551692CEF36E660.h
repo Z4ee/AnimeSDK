@@ -8,14 +8,14 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class PropertyAdsorptionConfig; }
 namespace RPG::GameCore { class TaskConfig; }
 
-inline static constexpr unsigned int Struct_2_1551692CEF36E660_TypeDefinitionIndex = 10489;
+inline static constexpr unsigned int Struct_2_1551692CEF36E660_TypeDefinitionIndex = 10830;
 
 struct alignas(8) Struct_2_1551692CEF36E660
 {
-	::RPG::GameCore::StringHash Field_2_0; // 0x10
-	::Struct_2_B84868A9FB142439 Field_2_1; // 0x18
-	::RPG::GameCore::TaskConfig* Field_2_2; // 0x30
-	::RPG::GameCore::DynamicFloat* Field_2_3; // 0x38
-	::RPG::GameCore::DynamicFloat* Field_2_4; // 0x40
-	::RPG::GameCore::PropertyAdsorptionConfig* Field_2_5; // 0x48
+	::RPG::GameCore::StringHash MJMEEOIEMMM; // 0x10
+	::Struct_2_B84868A9FB142439 CDOFGJDCOIL; // 0x18
+	::RPG::GameCore::TaskConfig* EJGLBFLIJEF; // 0x30
+	::RPG::GameCore::DynamicFloat* EFNAJMADAHM; // 0x38
+	::RPG::GameCore::DynamicFloat* NKAACMGNNPK; // 0x40
+	::RPG::GameCore::PropertyAdsorptionConfig* PJLGHJOMDBK; // 0x48
 };

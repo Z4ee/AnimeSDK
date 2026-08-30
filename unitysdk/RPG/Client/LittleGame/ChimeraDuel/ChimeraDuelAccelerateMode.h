@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame::ChimeraDuel
 {
-	inline static constexpr unsigned int ChimeraDuelAccelerateMode_TypeDefinitionIndex = 73457;
+	inline static constexpr unsigned int ChimeraDuelAccelerateMode_TypeDefinitionIndex = 76941;
 
 	enum class ChimeraDuelAccelerateMode : ::System::Byte
 	{

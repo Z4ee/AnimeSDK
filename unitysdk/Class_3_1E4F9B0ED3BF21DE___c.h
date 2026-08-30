@@ -10,67 +10,67 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class Collider; }
 
-#define CLASS_3_1E4F9B0ED3BF21DE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A84BF80)
-#define CLASS_3_1E4F9B0ED3BF21DE___C__CREATECAMERAVIEW_B__325_0_OFFSET UNITYSDK_OFFSET(0x1A84C3D0)
-#define CLASS_3_1E4F9B0ED3BF21DE___C__CREATEVIEW_B__323_0_OFFSET UNITYSDK_OFFSET(0x1A84C3B0)
-#define CLASS_3_1E4F9B0ED3BF21DE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A84BFB0)
-#define CLASS_3_1E4F9B0ED3BF21DE___C__GET_CHECKDISABLEINTERACT_B__280_0_OFFSET UNITYSDK_OFFSET(0x1A84C2C0)
-#define CLASS_3_1E4F9B0ED3BF21DE___C__GET_PHYSICSPROXYFILTER_B__278_0_OFFSET UNITYSDK_OFFSET(0x1A84C1C0)
-#define CLASS_3_1E4F9B0ED3BF21DE___C__GET_PLAYERFILTER_B__274_0_OFFSET UNITYSDK_OFFSET(0x1A84C0A0)
-#define CLASS_3_1E4F9B0ED3BF21DE___C__GET_PLAYERPHYSICSPROXYFILTER_B__272_0_OFFSET UNITYSDK_OFFSET(0x1A84C000)
-#define CLASS_3_1E4F9B0ED3BF21DE___C__GET_PROPPHYSICSPROXYFILTER_B__276_0_OFFSET UNITYSDK_OFFSET(0x1A84C130)
-#define CLASS_3_1E4F9B0ED3BF21DE___C__GET__ENTITYFILTER_B__282_0_OFFSET UNITYSDK_OFFSET(0x1A84C380)
-#define CLASS_3_1E4F9B0ED3BF21DE___C__GET__MUSICSYNCCALLBACKINFOONPLAYERCREATEACTION_B__102_0_OFFSET UNITYSDK_OFFSET(0x1A84BFE0)
-#define CLASS_3_1E4F9B0ED3BF21DE___C__GET__MUSICSYNCCALLBACKINFOONPLAYERDESTROYACTION_B__100_0_OFFSET UNITYSDK_OFFSET(0x1A84BFC0)
+#define CLASS_3_1E4F9B0ED3BF21DE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C47CCB0)
+#define CLASS_3_1E4F9B0ED3BF21DE___C__CREATECAMERAVIEW_B__368_0_OFFSET UNITYSDK_OFFSET(0x1C47D220)
+#define CLASS_3_1E4F9B0ED3BF21DE___C__CREATEVIEW_B__366_0_OFFSET UNITYSDK_OFFSET(0x1C47D200)
+#define CLASS_3_1E4F9B0ED3BF21DE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1C47CCE0)
+#define CLASS_3_1E4F9B0ED3BF21DE___C__GET_CHECKDISABLEINTERACT_B__323_0_OFFSET UNITYSDK_OFFSET(0x1C47CFF0)
+#define CLASS_3_1E4F9B0ED3BF21DE___C__GET_PHYSICSPROXYFILTER_B__321_0_OFFSET UNITYSDK_OFFSET(0x1C47CEF0)
+#define CLASS_3_1E4F9B0ED3BF21DE___C__GET_PLAYERFILTER_B__317_0_OFFSET UNITYSDK_OFFSET(0x1C47CDD0)
+#define CLASS_3_1E4F9B0ED3BF21DE___C__GET_PLAYERPHYSICSPROXYFILTER_B__315_0_OFFSET UNITYSDK_OFFSET(0x1C47CD30)
+#define CLASS_3_1E4F9B0ED3BF21DE___C__GET_PROPPHYSICSPROXYFILTER_B__319_0_OFFSET UNITYSDK_OFFSET(0x1C47CE60)
+#define CLASS_3_1E4F9B0ED3BF21DE___C__GET__ENTITYFILTER_B__325_0_OFFSET UNITYSDK_OFFSET(0x1C47D1D0)
+#define CLASS_3_1E4F9B0ED3BF21DE___C__GET__MUSICSYNCCALLBACKINFOONPLAYERCREATEACTION_B__108_0_OFFSET UNITYSDK_OFFSET(0x1C47CD10)
+#define CLASS_3_1E4F9B0ED3BF21DE___C__GET__MUSICSYNCCALLBACKINFOONPLAYERDESTROYACTION_B__106_0_OFFSET UNITYSDK_OFFSET(0x1C47CCF0)
 
-inline static constexpr unsigned int Class_3_1E4F9B0ED3BF21DE___c_TypeDefinitionIndex = 40993;
+inline static constexpr unsigned int Class_3_1E4F9B0ED3BF21DE___c_TypeDefinitionIndex = 41952;
 
 class Class_3_1E4F9B0ED3BF21DE___c : public ::System::Object
 {
 public:
-	static ::System::Action_2<::Class_3_1E4F9B0ED3BF21DE*, ::Class_2_B9E8C2EEAA5C96EC*>** StaticGet___9__325_0()
+	static ::System::Func_3<::Class_3_1E4F9B0ED3BF21DE*, ::UnityEngine::Collider*, ::System::Boolean>** StaticGet___9__315_0()
 	{
-		return (::System::Action_2<::Class_3_1E4F9B0ED3BF21DE*, ::Class_2_B9E8C2EEAA5C96EC*>**)Il2CppClass::FromTypeDefinitionIndex(Class_3_1E4F9B0ED3BF21DE___c_TypeDefinitionIndex)->GetStaticField(0x46D60);
+		return (::System::Func_3<::Class_3_1E4F9B0ED3BF21DE*, ::UnityEngine::Collider*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_3_1E4F9B0ED3BF21DE___c_TypeDefinitionIndex)->GetStaticField(0x5A520);
 	}
-	static ::System::Action_2<::Class_3_1E4F9B0ED3BF21DE*, ::Class_2_B9E8C2EEAA5C96EC*>** StaticGet___9__323_0()
+	static ::System::Func_3<::Class_3_1E4F9B0ED3BF21DE*, ::UnityEngine::Collider*, ::System::Boolean>** StaticGet___9__317_0()
 	{
-		return (::System::Action_2<::Class_3_1E4F9B0ED3BF21DE*, ::Class_2_B9E8C2EEAA5C96EC*>**)Il2CppClass::FromTypeDefinitionIndex(Class_3_1E4F9B0ED3BF21DE___c_TypeDefinitionIndex)->GetStaticField(0x46D68);
+		return (::System::Func_3<::Class_3_1E4F9B0ED3BF21DE*, ::UnityEngine::Collider*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_3_1E4F9B0ED3BF21DE___c_TypeDefinitionIndex)->GetStaticField(0x5A528);
 	}
-	static ::System::Func_3<::Class_3_1E4F9B0ED3BF21DE*, ::UnityEngine::Collider*, ::System::Boolean>** StaticGet___9__276_0()
+	static ::System::Func_3<::Class_3_1E4F9B0ED3BF21DE*, ::UnityEngine::Collider*, ::System::Boolean>** StaticGet___9__319_0()
 	{
-		return (::System::Func_3<::Class_3_1E4F9B0ED3BF21DE*, ::UnityEngine::Collider*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_3_1E4F9B0ED3BF21DE___c_TypeDefinitionIndex)->GetStaticField(0x46D70);
+		return (::System::Func_3<::Class_3_1E4F9B0ED3BF21DE*, ::UnityEngine::Collider*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_3_1E4F9B0ED3BF21DE___c_TypeDefinitionIndex)->GetStaticField(0x5A530);
 	}
-	static ::System::Action_1<::Class_3_1E4F9B0ED3BF21DE*>** StaticGet___9__100_0()
+	static ::System::Action_2<::Class_3_1E4F9B0ED3BF21DE*, ::Class_2_B9E8C2EEAA5C96EC*>** StaticGet___9__366_0()
 	{
-		return (::System::Action_1<::Class_3_1E4F9B0ED3BF21DE*>**)Il2CppClass::FromTypeDefinitionIndex(Class_3_1E4F9B0ED3BF21DE___c_TypeDefinitionIndex)->GetStaticField(0x46D78);
+		return (::System::Action_2<::Class_3_1E4F9B0ED3BF21DE*, ::Class_2_B9E8C2EEAA5C96EC*>**)Il2CppClass::FromTypeDefinitionIndex(Class_3_1E4F9B0ED3BF21DE___c_TypeDefinitionIndex)->GetStaticField(0x5A538);
 	}
-	static ::System::Func_3<::Class_3_1E4F9B0ED3BF21DE*, ::UnityEngine::Collider*, ::System::Boolean>** StaticGet___9__278_0()
+	static ::System::Func_2<::Class_3_1E4F9B0ED3BF21DE*, ::System::Boolean>** StaticGet___9__323_0()
 	{
-		return (::System::Func_3<::Class_3_1E4F9B0ED3BF21DE*, ::UnityEngine::Collider*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_3_1E4F9B0ED3BF21DE___c_TypeDefinitionIndex)->GetStaticField(0x46D80);
+		return (::System::Func_2<::Class_3_1E4F9B0ED3BF21DE*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_3_1E4F9B0ED3BF21DE___c_TypeDefinitionIndex)->GetStaticField(0x5A540);
 	}
-	static ::System::Func_3<::Class_3_1E4F9B0ED3BF21DE*, ::UnityEngine::Collider*, ::System::Boolean>** StaticGet___9__282_0()
+	static ::System::Func_3<::Class_3_1E4F9B0ED3BF21DE*, ::UnityEngine::Collider*, ::System::Boolean>** StaticGet___9__321_0()
 	{
-		return (::System::Func_3<::Class_3_1E4F9B0ED3BF21DE*, ::UnityEngine::Collider*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_3_1E4F9B0ED3BF21DE___c_TypeDefinitionIndex)->GetStaticField(0x46D88);
+		return (::System::Func_3<::Class_3_1E4F9B0ED3BF21DE*, ::UnityEngine::Collider*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_3_1E4F9B0ED3BF21DE___c_TypeDefinitionIndex)->GetStaticField(0x5A548);
 	}
 	static ::Class_3_1E4F9B0ED3BF21DE___c** StaticGet___9()
 	{
-		return (::Class_3_1E4F9B0ED3BF21DE___c**)Il2CppClass::FromTypeDefinitionIndex(Class_3_1E4F9B0ED3BF21DE___c_TypeDefinitionIndex)->GetStaticField(0x46D90);
+		return (::Class_3_1E4F9B0ED3BF21DE___c**)Il2CppClass::FromTypeDefinitionIndex(Class_3_1E4F9B0ED3BF21DE___c_TypeDefinitionIndex)->GetStaticField(0x5A550);
 	}
-	static ::System::Action_1<::Class_3_1E4F9B0ED3BF21DE*>** StaticGet___9__102_0()
+	static ::System::Func_3<::Class_3_1E4F9B0ED3BF21DE*, ::UnityEngine::Collider*, ::System::Boolean>** StaticGet___9__325_0()
 	{
-		return (::System::Action_1<::Class_3_1E4F9B0ED3BF21DE*>**)Il2CppClass::FromTypeDefinitionIndex(Class_3_1E4F9B0ED3BF21DE___c_TypeDefinitionIndex)->GetStaticField(0x46D98);
+		return (::System::Func_3<::Class_3_1E4F9B0ED3BF21DE*, ::UnityEngine::Collider*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_3_1E4F9B0ED3BF21DE___c_TypeDefinitionIndex)->GetStaticField(0x5A558);
 	}
-	static ::System::Func_3<::Class_3_1E4F9B0ED3BF21DE*, ::UnityEngine::Collider*, ::System::Boolean>** StaticGet___9__272_0()
+	static ::System::Action_1<::Class_3_1E4F9B0ED3BF21DE*>** StaticGet___9__108_0()
 	{
-		return (::System::Func_3<::Class_3_1E4F9B0ED3BF21DE*, ::UnityEngine::Collider*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_3_1E4F9B0ED3BF21DE___c_TypeDefinitionIndex)->GetStaticField(0x46DA0);
+		return (::System::Action_1<::Class_3_1E4F9B0ED3BF21DE*>**)Il2CppClass::FromTypeDefinitionIndex(Class_3_1E4F9B0ED3BF21DE___c_TypeDefinitionIndex)->GetStaticField(0x5A560);
 	}
-	static ::System::Func_3<::Class_3_1E4F9B0ED3BF21DE*, ::UnityEngine::Collider*, ::System::Boolean>** StaticGet___9__274_0()
+	static ::System::Action_2<::Class_3_1E4F9B0ED3BF21DE*, ::Class_2_B9E8C2EEAA5C96EC*>** StaticGet___9__368_0()
 	{
-		return (::System::Func_3<::Class_3_1E4F9B0ED3BF21DE*, ::UnityEngine::Collider*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_3_1E4F9B0ED3BF21DE___c_TypeDefinitionIndex)->GetStaticField(0x46DA8);
+		return (::System::Action_2<::Class_3_1E4F9B0ED3BF21DE*, ::Class_2_B9E8C2EEAA5C96EC*>**)Il2CppClass::FromTypeDefinitionIndex(Class_3_1E4F9B0ED3BF21DE___c_TypeDefinitionIndex)->GetStaticField(0x5A568);
 	}
-	static ::System::Func_2<::Class_3_1E4F9B0ED3BF21DE*, ::System::Boolean>** StaticGet___9__280_0()
+	static ::System::Action_1<::Class_3_1E4F9B0ED3BF21DE*>** StaticGet___9__106_0()
 	{
-		return (::System::Func_2<::Class_3_1E4F9B0ED3BF21DE*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_3_1E4F9B0ED3BF21DE___c_TypeDefinitionIndex)->GetStaticField(0x46DB0);
+		return (::System::Action_1<::Class_3_1E4F9B0ED3BF21DE*>**)Il2CppClass::FromTypeDefinitionIndex(Class_3_1E4F9B0ED3BF21DE___c_TypeDefinitionIndex)->GetStaticField(0x5A570);
 	}
 
 	static ::System::Void _cctor()
@@ -83,53 +83,53 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_1E4F9B0ED3BF21DE___C__CTOR_OFFSET))(this);
 	}
 
-	::System::Void _get__MusicSyncCallbackInfoOnPlayerDestroyAction_b__100_0(::Class_3_1E4F9B0ED3BF21DE* a1)
+	::System::Void _get__MusicSyncCallbackInfoOnPlayerDestroyAction_b__106_0(::Class_3_1E4F9B0ED3BF21DE* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_3_1E4F9B0ED3BF21DE*))((::PBYTE)hIl2Cpp + CLASS_3_1E4F9B0ED3BF21DE___C__GET__MUSICSYNCCALLBACKINFOONPLAYERDESTROYACTION_B__100_0_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::Class_3_1E4F9B0ED3BF21DE*))((::PBYTE)hIl2Cpp + CLASS_3_1E4F9B0ED3BF21DE___C__GET__MUSICSYNCCALLBACKINFOONPLAYERDESTROYACTION_B__106_0_OFFSET))(this, a1);
 	}
 
-	::System::Void _get__MusicSyncCallbackInfoOnPlayerCreateAction_b__102_0(::Class_3_1E4F9B0ED3BF21DE* a1)
+	::System::Void _get__MusicSyncCallbackInfoOnPlayerCreateAction_b__108_0(::Class_3_1E4F9B0ED3BF21DE* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_3_1E4F9B0ED3BF21DE*))((::PBYTE)hIl2Cpp + CLASS_3_1E4F9B0ED3BF21DE___C__GET__MUSICSYNCCALLBACKINFOONPLAYERCREATEACTION_B__102_0_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::Class_3_1E4F9B0ED3BF21DE*))((::PBYTE)hIl2Cpp + CLASS_3_1E4F9B0ED3BF21DE___C__GET__MUSICSYNCCALLBACKINFOONPLAYERCREATEACTION_B__108_0_OFFSET))(this, a1);
 	}
 
-	::System::Boolean _get_PlayerPhysicsProxyFilter_b__272_0(::Class_3_1E4F9B0ED3BF21DE* a1, ::UnityEngine::Collider* a2)
+	::System::Boolean _get_PlayerPhysicsProxyFilter_b__315_0(::Class_3_1E4F9B0ED3BF21DE* a1, ::UnityEngine::Collider* a2)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::Class_3_1E4F9B0ED3BF21DE*, ::UnityEngine::Collider*))((::PBYTE)hIl2Cpp + CLASS_3_1E4F9B0ED3BF21DE___C__GET_PLAYERPHYSICSPROXYFILTER_B__272_0_OFFSET))(this, a1, a2);
+		return ((::System::Boolean(*)(::PVOID, ::Class_3_1E4F9B0ED3BF21DE*, ::UnityEngine::Collider*))((::PBYTE)hIl2Cpp + CLASS_3_1E4F9B0ED3BF21DE___C__GET_PLAYERPHYSICSPROXYFILTER_B__315_0_OFFSET))(this, a1, a2);
 	}
 
-	::System::Boolean _get_PlayerFilter_b__274_0(::Class_3_1E4F9B0ED3BF21DE* a1, ::UnityEngine::Collider* a2)
+	::System::Boolean _get_PlayerFilter_b__317_0(::Class_3_1E4F9B0ED3BF21DE* a1, ::UnityEngine::Collider* a2)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::Class_3_1E4F9B0ED3BF21DE*, ::UnityEngine::Collider*))((::PBYTE)hIl2Cpp + CLASS_3_1E4F9B0ED3BF21DE___C__GET_PLAYERFILTER_B__274_0_OFFSET))(this, a1, a2);
+		return ((::System::Boolean(*)(::PVOID, ::Class_3_1E4F9B0ED3BF21DE*, ::UnityEngine::Collider*))((::PBYTE)hIl2Cpp + CLASS_3_1E4F9B0ED3BF21DE___C__GET_PLAYERFILTER_B__317_0_OFFSET))(this, a1, a2);
 	}
 
-	::System::Boolean _get_PropPhysicsProxyFilter_b__276_0(::Class_3_1E4F9B0ED3BF21DE* a1, ::UnityEngine::Collider* a2)
+	::System::Boolean _get_PropPhysicsProxyFilter_b__319_0(::Class_3_1E4F9B0ED3BF21DE* a1, ::UnityEngine::Collider* a2)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::Class_3_1E4F9B0ED3BF21DE*, ::UnityEngine::Collider*))((::PBYTE)hIl2Cpp + CLASS_3_1E4F9B0ED3BF21DE___C__GET_PROPPHYSICSPROXYFILTER_B__276_0_OFFSET))(this, a1, a2);
+		return ((::System::Boolean(*)(::PVOID, ::Class_3_1E4F9B0ED3BF21DE*, ::UnityEngine::Collider*))((::PBYTE)hIl2Cpp + CLASS_3_1E4F9B0ED3BF21DE___C__GET_PROPPHYSICSPROXYFILTER_B__319_0_OFFSET))(this, a1, a2);
 	}
 
-	::System::Boolean _get_PhysicsProxyFilter_b__278_0(::Class_3_1E4F9B0ED3BF21DE* a1, ::UnityEngine::Collider* a2)
+	::System::Boolean _get_PhysicsProxyFilter_b__321_0(::Class_3_1E4F9B0ED3BF21DE* a1, ::UnityEngine::Collider* a2)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::Class_3_1E4F9B0ED3BF21DE*, ::UnityEngine::Collider*))((::PBYTE)hIl2Cpp + CLASS_3_1E4F9B0ED3BF21DE___C__GET_PHYSICSPROXYFILTER_B__278_0_OFFSET))(this, a1, a2);
+		return ((::System::Boolean(*)(::PVOID, ::Class_3_1E4F9B0ED3BF21DE*, ::UnityEngine::Collider*))((::PBYTE)hIl2Cpp + CLASS_3_1E4F9B0ED3BF21DE___C__GET_PHYSICSPROXYFILTER_B__321_0_OFFSET))(this, a1, a2);
 	}
 
-	::System::Boolean _get_CheckDisableInteract_b__280_0(::Class_3_1E4F9B0ED3BF21DE* a1)
+	::System::Boolean _get_CheckDisableInteract_b__323_0(::Class_3_1E4F9B0ED3BF21DE* a1)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::Class_3_1E4F9B0ED3BF21DE*))((::PBYTE)hIl2Cpp + CLASS_3_1E4F9B0ED3BF21DE___C__GET_CHECKDISABLEINTERACT_B__280_0_OFFSET))(this, a1);
+		return ((::System::Boolean(*)(::PVOID, ::Class_3_1E4F9B0ED3BF21DE*))((::PBYTE)hIl2Cpp + CLASS_3_1E4F9B0ED3BF21DE___C__GET_CHECKDISABLEINTERACT_B__323_0_OFFSET))(this, a1);
 	}
 
-	::System::Boolean _get__EntityFilter_b__282_0(::Class_3_1E4F9B0ED3BF21DE* a1, ::UnityEngine::Collider* a2)
+	::System::Boolean _get__EntityFilter_b__325_0(::Class_3_1E4F9B0ED3BF21DE* a1, ::UnityEngine::Collider* a2)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::Class_3_1E4F9B0ED3BF21DE*, ::UnityEngine::Collider*))((::PBYTE)hIl2Cpp + CLASS_3_1E4F9B0ED3BF21DE___C__GET__ENTITYFILTER_B__282_0_OFFSET))(this, a1, a2);
+		return ((::System::Boolean(*)(::PVOID, ::Class_3_1E4F9B0ED3BF21DE*, ::UnityEngine::Collider*))((::PBYTE)hIl2Cpp + CLASS_3_1E4F9B0ED3BF21DE___C__GET__ENTITYFILTER_B__325_0_OFFSET))(this, a1, a2);
 	}
 
-	::System::Void _CreateView_b__323_0(::Class_3_1E4F9B0ED3BF21DE* a1, ::Class_2_B9E8C2EEAA5C96EC* a2)
+	::System::Void _CreateView_b__366_0(::Class_3_1E4F9B0ED3BF21DE* a1, ::Class_2_B9E8C2EEAA5C96EC* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_3_1E4F9B0ED3BF21DE*, ::Class_2_B9E8C2EEAA5C96EC*))((::PBYTE)hIl2Cpp + CLASS_3_1E4F9B0ED3BF21DE___C__CREATEVIEW_B__323_0_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::Class_3_1E4F9B0ED3BF21DE*, ::Class_2_B9E8C2EEAA5C96EC*))((::PBYTE)hIl2Cpp + CLASS_3_1E4F9B0ED3BF21DE___C__CREATEVIEW_B__366_0_OFFSET))(this, a1, a2);
 	}
 
-	::System::Void _CreateCameraView_b__325_0(::Class_3_1E4F9B0ED3BF21DE* a1, ::Class_2_B9E8C2EEAA5C96EC* a2)
+	::System::Void _CreateCameraView_b__368_0(::Class_3_1E4F9B0ED3BF21DE* a1, ::Class_2_B9E8C2EEAA5C96EC* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_3_1E4F9B0ED3BF21DE*, ::Class_2_B9E8C2EEAA5C96EC*))((::PBYTE)hIl2Cpp + CLASS_3_1E4F9B0ED3BF21DE___C__CREATECAMERAVIEW_B__325_0_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::Class_3_1E4F9B0ED3BF21DE*, ::Class_2_B9E8C2EEAA5C96EC*))((::PBYTE)hIl2Cpp + CLASS_3_1E4F9B0ED3BF21DE___C__CREATECAMERAVIEW_B__368_0_OFFSET))(this, a1, a2);
 	}
 };

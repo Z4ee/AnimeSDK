@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Formats::Alembic::Sdk
 {
-	inline static constexpr unsigned int aeTopology_TypeDefinitionIndex = 42460;
+	inline static constexpr unsigned int aeTopology_TypeDefinitionIndex = 44642;
 
 	enum class aeTopology : ::System::Int32
 	{

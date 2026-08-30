@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_BINDINGS_VISIBLETOOTHERMODULESATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1D0C9EE0)
-#define UNITYENGINE_BINDINGS_VISIBLETOOTHERMODULESATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0C9ED0)
+#define UNITYENGINE_BINDINGS_VISIBLETOOTHERMODULESATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1EDD3FF0)
+#define UNITYENGINE_BINDINGS_VISIBLETOOTHERMODULESATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EDD3FE0)
 
 namespace UnityEngine::Bindings
 {
-	inline static constexpr unsigned int VisibleToOtherModulesAttribute_TypeDefinitionIndex = 3710;
+	inline static constexpr unsigned int VisibleToOtherModulesAttribute_TypeDefinitionIndex = 3718;
 
 	class VisibleToOtherModulesAttribute : public ::System::Attribute
 	{

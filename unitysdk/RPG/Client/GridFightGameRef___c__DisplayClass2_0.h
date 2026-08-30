@@ -3,31 +3,31 @@
 #include "unitysdk/System/Object.h"
 
 class Class_1_296A7AC90F028539;
-class Class_1_92B1BD6FC8375724;
-class Class_1_92B1BD6FC8375724_Class_1_084C324841B5505D;
+class Class_1_AC6C63F15E9794D3;
+class Class_1_AC6C63F15E9794D3_Class_1_084C324841B5505D;
 class Class_1_E14CBC48FE052048_3;
 namespace RPG::Client { class GridFightGameRef; }
 namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC733B80)
-#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS2_0__SENDGRIDFIGHTGAMEREFLIKEREQ_B__0_OFFSET UNITYSDK_OFFSET(0xC73DE80)
-#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS2_0__SENDGRIDFIGHTGAMEREFLIKEREQ_B__1_OFFSET UNITYSDK_OFFSET(0xC73DF00)
-#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS2_0__SENDGRIDFIGHTGAMEREFLIKEREQ_B__2_OFFSET UNITYSDK_OFFSET(0xC73DF30)
+#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD1BA7E0)
+#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS2_0__SENDGRIDFIGHTGAMEREFLIKEREQ_B__0_OFFSET UNITYSDK_OFFSET(0xD1C5300)
+#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS2_0__SENDGRIDFIGHTGAMEREFLIKEREQ_B__1_OFFSET UNITYSDK_OFFSET(0xD1C5380)
+#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS2_0__SENDGRIDFIGHTGAMEREFLIKEREQ_B__2_OFFSET UNITYSDK_OFFSET(0xD1C53B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightGameRef___c__DisplayClass2_0_TypeDefinitionIndex = 61784;
+	inline static constexpr unsigned int GridFightGameRef___c__DisplayClass2_0_TypeDefinitionIndex = 64768;
 
 	class GridFightGameRef___c__DisplayClass2_0 : public ::System::Object
 	{
 	public:
-		::System::String* id; // 0x10
+		::Class_1_AC6C63F15E9794D3* req; // 0x10
 		::System::Action_1<::System::Boolean>* callback; // 0x18
-		::Class_1_92B1BD6FC8375724* req; // 0x20
+		::System::String* id; // 0x20
 		::RPG::Client::GridFightGameRef* __4__this; // 0x28
-		::Class_1_92B1BD6FC8375724_Class_1_084C324841B5505D* sendParams; // 0x30
+		::Class_1_AC6C63F15E9794D3_Class_1_084C324841B5505D* sendParams; // 0x30
 		::System::Boolean isLike; // 0x38
 
 		::System::Void _ctor()

@@ -6,17 +6,17 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define CLASS_1_B9DEE44CE5E27514_METHOD_1_F3BCD8AFBE43A958_OFFSET UNITYSDK_OFFSET(0x1AFABDC0)
-#define CLASS_1_B9DEE44CE5E27514__CTOR_OFFSET UNITYSDK_OFFSET(0x1AFABFA0)
+#define CLASS_1_B9DEE44CE5E27514_METHOD_1_F3BCD8AFBE43A958_OFFSET UNITYSDK_OFFSET(0x1CC0E1F0)
+#define CLASS_1_B9DEE44CE5E27514__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC0E3D0)
 
-inline static constexpr unsigned int Class_1_B9DEE44CE5E27514_TypeDefinitionIndex = 11120;
+inline static constexpr unsigned int Class_1_B9DEE44CE5E27514_TypeDefinitionIndex = 11509;
 
 class Class_1_B9DEE44CE5E27514 : public ::System::Object
 {
 public:
-	::Il2CppArray<::RPG::GameCore::FixPoint>* Field_1_0; // 0x10
-	::RPG::Client::TextID Field_1_1; // 0x18
-	::System::UInt32 Field_1_2; // 0x28
+	::Il2CppArray<::RPG::GameCore::FixPoint>* MDEBFIFOKHH; // 0x10
+	::System::UInt32 ACCJKGEKHKP; // 0x18
+	::RPG::Client::TextID GPNOCGKJJCG; // 0x20
 
 	::System::Void _ctor()
 	{

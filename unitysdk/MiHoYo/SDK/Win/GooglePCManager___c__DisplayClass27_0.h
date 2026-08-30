@@ -6,18 +6,18 @@ namespace MiHoYo::SDK { class NetworkResponseModel; }
 namespace MiHoYo::SDK::Win { class GooglePCManager; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_WIN_GOOGLEPCMANAGER___C__DISPLAYCLASS27_0__CHECKOUTENTITLEMENTS_B__0_OFFSET UNITYSDK_OFFSET(0x19EC0D70)
-#define MIHOYO_SDK_WIN_GOOGLEPCMANAGER___C__DISPLAYCLASS27_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19EBDD90)
+#define MIHOYO_SDK_WIN_GOOGLEPCMANAGER___C__DISPLAYCLASS27_0__CHECKOUTENTITLEMENTS_B__0_OFFSET UNITYSDK_OFFSET(0x1B845A90)
+#define MIHOYO_SDK_WIN_GOOGLEPCMANAGER___C__DISPLAYCLASS27_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B842B60)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int GooglePCManager___c__DisplayClass27_0_TypeDefinitionIndex = 9010;
+	inline static constexpr unsigned int GooglePCManager___c__DisplayClass27_0_TypeDefinitionIndex = 9280;
 
 	class GooglePCManager___c__DisplayClass27_0 : public ::System::Object
 	{
 	public:
-		::System::String* goods_id; // 0x10
-		::MiHoYo::SDK::Win::GooglePCManager* __4__this; // 0x18
+		::MiHoYo::SDK::Win::GooglePCManager* __4__this; // 0x10
+		::System::String* goods_id; // 0x18
 
 		::System::Void _ctor()
 		{

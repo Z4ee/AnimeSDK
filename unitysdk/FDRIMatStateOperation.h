@@ -3,9 +3,9 @@
 #include "unitysdk/CustomDataPos.h"
 #include "unitysdk/FDRIStateOperation.h"
 
-#define FDRIMATSTATEOPERATION__CTOR_OFFSET UNITYSDK_OFFSET(0x145A9A10)
+#define FDRIMATSTATEOPERATION__CTOR_OFFSET UNITYSDK_OFFSET(0x15426BD0)
 
-inline static constexpr unsigned int FDRIMatStateOperation_TypeDefinitionIndex = 45334;
+inline static constexpr unsigned int FDRIMatStateOperation_TypeDefinitionIndex = 47573;
 
 class FDRIMatStateOperation : public ::FDRIStateOperation
 {

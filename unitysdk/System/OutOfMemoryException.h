@@ -6,13 +6,13 @@
 namespace System { class String; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_OUTOFMEMORYEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A17B230)
-#define SYSTEM_OUTOFMEMORYEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1A17B2A0)
-#define SYSTEM_OUTOFMEMORYEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1A17B1A0)
+#define SYSTEM_OUTOFMEMORYEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1BD82EA0)
+#define SYSTEM_OUTOFMEMORYEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1BD82F10)
+#define SYSTEM_OUTOFMEMORYEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD82E10)
 
 namespace System
 {
-	inline static constexpr unsigned int OutOfMemoryException_TypeDefinitionIndex = 309;
+	inline static constexpr unsigned int OutOfMemoryException_TypeDefinitionIndex = 312;
 
 	class OutOfMemoryException : public ::System::SystemException
 	{

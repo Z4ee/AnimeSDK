@@ -4,11 +4,11 @@
 
 namespace System { class Type; }
 
-#define SYSTEM_CONFIGURATION_CONFIGURATIONCOLLECTIONATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CA15660)
+#define SYSTEM_CONFIGURATION_CONFIGURATIONCOLLECTIONATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E6BFF80)
 
 namespace System::Configuration
 {
-	inline static constexpr unsigned int ConfigurationCollectionAttribute_TypeDefinitionIndex = 2333;
+	inline static constexpr unsigned int ConfigurationCollectionAttribute_TypeDefinitionIndex = 2340;
 
 	class ConfigurationCollectionAttribute : public ::System::Attribute
 	{

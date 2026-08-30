@@ -7,12 +7,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MESSAGELINKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B5F5540)
-#define RPG_GAMECORE_MESSAGELINKROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5F5C80)
+#define RPG_GAMECORE_MESSAGELINKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D29AA60)
+#define RPG_GAMECORE_MESSAGELINKROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D29B1A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MessageLinkRow_TypeDefinitionIndex = 13886;
+	inline static constexpr unsigned int MessageLinkRow_TypeDefinitionIndex = 14306;
 
 	class MessageLinkRow : public ::System::Object
 	{

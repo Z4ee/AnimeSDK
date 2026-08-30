@@ -6,16 +6,16 @@ class SerializedWarmupPSO;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Shader; }
 
-#define CLASS_1_3DF80F278B6BDF72_CLASS_1_2B73F33514AAF796_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x10C910D0)
-#define CLASS_1_3DF80F278B6BDF72_CLASS_1_2B73F33514AAF796__CTOR_OFFSET UNITYSDK_OFFSET(0x10C8EAA0)
+#define CLASS_1_3DF80F278B6BDF72_CLASS_1_2B73F33514AAF796_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x11B89200)
+#define CLASS_1_3DF80F278B6BDF72_CLASS_1_2B73F33514AAF796__CTOR_OFFSET UNITYSDK_OFFSET(0x11B86C20)
 
-inline static constexpr unsigned int Class_1_3DF80F278B6BDF72_Class_1_2B73F33514AAF796_TypeDefinitionIndex = 45633;
+inline static constexpr unsigned int Class_1_3DF80F278B6BDF72_Class_1_2B73F33514AAF796_TypeDefinitionIndex = 47884;
 
 class Class_1_3DF80F278B6BDF72_Class_1_2B73F33514AAF796 : public ::System::Object
 {
 public:
-	::UnityEngine::Shader* Field_1_0; // 0x10
-	::System::Collections::Generic::List_1<::SerializedWarmupPSO*>* Field_1_1; // 0x18
+	::UnityEngine::Shader* PAIJIEBIPIO; // 0x10
+	::System::Collections::Generic::List_1<::SerializedWarmupPSO*>* DMMJMJKIFAL; // 0x18
 
 	::System::Void _ctor()
 	{

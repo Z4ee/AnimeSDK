@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class TalkOptionData; }
 
-#define RPG_CLIENT_TALKMODULE___C__DISPLAYCLASS134_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD6161D0)
-#define RPG_CLIENT_TALKMODULE___C__DISPLAYCLASS134_0___ONCHOOSETALKOPTION_B__0_OFFSET UNITYSDK_OFFSET(0xD617150)
+#define RPG_CLIENT_TALKMODULE___C__DISPLAYCLASS134_0__CTOR_OFFSET UNITYSDK_OFFSET(0xE165C30)
+#define RPG_CLIENT_TALKMODULE___C__DISPLAYCLASS134_0___ONCHOOSETALKOPTION_B__0_OFFSET UNITYSDK_OFFSET(0xE166CC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TalkModule___c__DisplayClass134_0_TypeDefinitionIndex = 65025;
+	inline static constexpr unsigned int TalkModule___c__DisplayClass134_0_TypeDefinitionIndex = 68032;
 
 	class TalkModule___c__DisplayClass134_0 : public ::System::Object
 	{

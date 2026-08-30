@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_BATTLEBGMCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B1F0150)
-#define RPG_GAMECORE_BATTLEBGMCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1F02A0)
+#define RPG_GAMECORE_BATTLEBGMCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CE6B070)
+#define RPG_GAMECORE_BATTLEBGMCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE6B1C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleBGMConfigRow_TypeDefinitionIndex = 12345;
+	inline static constexpr unsigned int BattleBGMConfigRow_TypeDefinitionIndex = 12734;
 
 	class BattleBGMConfigRow : public ::System::Object
 	{

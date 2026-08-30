@@ -4,19 +4,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_DRINKMAKERGUESTSEQUENCEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B3C5610)
-#define RPG_GAMECORE_DRINKMAKERGUESTSEQUENCEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3C5C30)
+#define RPG_GAMECORE_DRINKMAKERGUESTSEQUENCEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D0439C0)
+#define RPG_GAMECORE_DRINKMAKERGUESTSEQUENCEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D043FE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DrinkMakerGuestSequenceRow_TypeDefinitionIndex = 12683;
+	inline static constexpr unsigned int DrinkMakerGuestSequenceRow_TypeDefinitionIndex = 13074;
 
 	class DrinkMakerGuestSequenceRow : public ::System::Object
 	{
 	public:
-		::System::Boolean NeedOpenWorkBook; // 0x10
+		::System::UInt32 GuestID; // 0x10
 		::System::UInt32 SequenceID; // 0x14
-		::System::UInt32 GuestID; // 0x18
+		::System::Boolean NeedOpenWorkBook; // 0x18
 		::System::UInt32 StartChatID; // 0x1C
 
 		::System::Void _ctor()

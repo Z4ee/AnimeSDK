@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MHYSDKC_PS_RealtimeMultiplayProperty_TypeDefinitionIndex = 44415;
+	inline static constexpr unsigned int MHYSDKC_PS_RealtimeMultiplayProperty_TypeDefinitionIndex = 46598;
 
 	enum class MHYSDKC_PS_RealtimeMultiplayProperty : ::System::Int32
 	{

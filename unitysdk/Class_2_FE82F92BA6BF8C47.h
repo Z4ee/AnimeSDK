@@ -1,20 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_CA217ABF4E3B4F3F.h"
+#include "unitysdk/Class_1_34917908B7833130.h"
 
-class Class_2_A56B51611DD80BAA;
+class Class_2_D000380229CF29DC;
 class Class_2_D2E2B5C1B8CC1B01;
 
-#define CLASS_2_FE82F92BA6BF8C47__CTOR_OFFSET UNITYSDK_OFFSET(0xB96F6E0)
-#define CLASS_2_FE82F92BA6BF8C47__ONBIND_OFFSET UNITYSDK_OFFSET(0xB96F660)
+#define CLASS_2_FE82F92BA6BF8C47__CTOR_OFFSET UNITYSDK_OFFSET(0xC3810B0)
+#define CLASS_2_FE82F92BA6BF8C47__ONBIND_OFFSET UNITYSDK_OFFSET(0xC381030)
 
-inline static constexpr unsigned int Class_2_FE82F92BA6BF8C47_TypeDefinitionIndex = 68592;
+inline static constexpr unsigned int Class_2_FE82F92BA6BF8C47_TypeDefinitionIndex = 71790;
 
-class Class_2_FE82F92BA6BF8C47 : public ::Class_1_CA217ABF4E3B4F3F
+class Class_2_FE82F92BA6BF8C47 : public ::Class_1_34917908B7833130
 {
 public:
-	::Class_2_A56B51611DD80BAA* Field_2_0; // 0x60
-	::Class_2_D2E2B5C1B8CC1B01* Field_2_1; // 0x68
+	::Class_2_D000380229CF29DC* HNPONLDLJIL; // 0x60
+	::Class_2_D2E2B5C1B8CC1B01* OFFIAEFGBOB; // 0x68
 
 	::System::Void _ctor()
 	{

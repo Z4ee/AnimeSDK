@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int MeshTopology_TypeDefinitionIndex = 4154;
+	inline static constexpr unsigned int MeshTopology_TypeDefinitionIndex = 4164;
 
 	enum class MeshTopology : ::System::Int32
 	{

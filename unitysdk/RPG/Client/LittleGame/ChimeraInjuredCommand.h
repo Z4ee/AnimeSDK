@@ -5,20 +5,20 @@
 namespace RPG::Client::Prop { class ChimeraBattlePuzzleBoard; }
 namespace System { class Action; }
 
-#define RPG_CLIENT_LITTLEGAME_CHIMERAINJUREDCOMMAND_EXECUTE_OFFSET UNITYSDK_OFFSET(0xC98B7B0)
-#define RPG_CLIENT_LITTLEGAME_CHIMERAINJUREDCOMMAND__CTOR_OFFSET UNITYSDK_OFFSET(0xC98B810)
+#define RPG_CLIENT_LITTLEGAME_CHIMERAINJUREDCOMMAND_EXECUTE_OFFSET UNITYSDK_OFFSET(0xD4CB9A0)
+#define RPG_CLIENT_LITTLEGAME_CHIMERAINJUREDCOMMAND__CTOR_OFFSET UNITYSDK_OFFSET(0xD4CBA00)
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int ChimeraInjuredCommand_TypeDefinitionIndex = 72717;
+	inline static constexpr unsigned int ChimeraInjuredCommand_TypeDefinitionIndex = 76153;
 
 	class ChimeraInjuredCommand : public ::System::Object
 	{
 	public:
-		::System::Single CurVal; // 0x10
-		::System::UInt32 InjuredChimeraID; // 0x14
-		::System::Boolean IsByWork; // 0x18
-		::System::Single ChangeVal; // 0x1C
+		::System::UInt32 InjuredChimeraID; // 0x10
+		::System::Boolean IsByWork; // 0x14
+		::System::Single ChangeVal; // 0x18
+		::System::Single CurVal; // 0x1C
 
 		::System::Void _ctor(::System::UInt32 a1, ::System::Single a2, ::System::Single a3, ::System::Boolean a4)
 		{

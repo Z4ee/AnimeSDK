@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Hash128.h"
 
-#define UNITYENGINE_HASHUTILITIES_APPENDHASH_OFFSET UNITYSDK_OFFSET(0x1D023D70)
+#define UNITYENGINE_HASHUTILITIES_APPENDHASH_OFFSET UNITYSDK_OFFSET(0x1ED2B380)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int HashUtilities_TypeDefinitionIndex = 4194;
+	inline static constexpr unsigned int HashUtilities_TypeDefinitionIndex = 4204;
 
 	class HashUtilities : public ::System::Object
 	{

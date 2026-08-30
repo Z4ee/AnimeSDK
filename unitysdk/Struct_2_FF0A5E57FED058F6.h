@@ -7,25 +7,25 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define STRUCT_2_FF0A5E57FED058F6_METHOD_2_22947323BA9392D0_OFFSET UNITYSDK_OFFSET(0xB57F430)
-#define STRUCT_2_FF0A5E57FED058F6__CCTOR_OFFSET UNITYSDK_OFFSET(0xB57F890)
+#define STRUCT_2_FF0A5E57FED058F6_METHOD_2_22947323BA9392D0_OFFSET UNITYSDK_OFFSET(0xBF77BB0)
+#define STRUCT_2_FF0A5E57FED058F6__CCTOR_OFFSET UNITYSDK_OFFSET(0xBF78010)
 
-inline static constexpr unsigned int Struct_2_FF0A5E57FED058F6_TypeDefinitionIndex = 71726;
+inline static constexpr unsigned int Struct_2_FF0A5E57FED058F6_TypeDefinitionIndex = 75032;
 
 struct alignas(8) Struct_2_FF0A5E57FED058F6
 {
-	static ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Struct_2_FF0A5E57FED058F6>** StaticGet_Field_2_0()
+	static ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Struct_2_FF0A5E57FED058F6>** StaticGet_HGOEHHJCCIC()
 	{
-		return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Struct_2_FF0A5E57FED058F6>**)Il2CppClass::FromTypeDefinitionIndex(Struct_2_FF0A5E57FED058F6_TypeDefinitionIndex)->GetStaticField(0x6BB00);
+		return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Struct_2_FF0A5E57FED058F6>**)Il2CppClass::FromTypeDefinitionIndex(Struct_2_FF0A5E57FED058F6_TypeDefinitionIndex)->GetStaticField(0x673D0);
 	}
-	::System::UInt32 Field_2_1; // 0x10
-	::System::String* Field_2_2; // 0x18
-	::System::String* Field_2_3; // 0x20
-	::System::String* Field_2_4; // 0x28
-	::System::String* Field_2_5; // 0x30
-	::RPG::GameCore::FixPoint Field_2_6; // 0x38
-	::RPG::Client::ActivityIdleLive::IdleLiveDecimal Field_2_7; // 0x40
-	::RPG::Client::ActivityIdleLive::IdleLiveDecimal Field_2_8; // 0x58
+	::System::UInt32 PMIEAEGJNMJ; // 0x10
+	::System::String* KOIJMPDBMJF; // 0x18
+	::System::String* MJPKBIGCFOM; // 0x20
+	::System::String* GLPGLPCOLKO; // 0x28
+	::System::String* NNKLLHMDNCA; // 0x30
+	::RPG::GameCore::FixPoint MNOLGKGHHEC; // 0x38
+	::RPG::Client::ActivityIdleLive::IdleLiveDecimal MCJEIGHLLFD; // 0x40
+	::RPG::Client::ActivityIdleLive::IdleLiveDecimal PKFJKABCKFB; // 0x58
 
 	static ::System::Void _cctor()
 	{

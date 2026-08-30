@@ -5,15 +5,15 @@
 class Class_1_B664465BA0C38341;
 namespace RPG::Client { class ActivityRewardCountCollection; }
 
-#define CLASS_1_355D5C2B1D92981B_METHOD_1_B64782115EFE4597_OFFSET UNITYSDK_OFFSET(0x137FBFA0)
-#define CLASS_1_355D5C2B1D92981B__CTOR_OFFSET UNITYSDK_OFFSET(0x137FBF50)
+#define CLASS_1_355D5C2B1D92981B_METHOD_1_B64782115EFE4597_OFFSET UNITYSDK_OFFSET(0x134D5780)
+#define CLASS_1_355D5C2B1D92981B__CTOR_OFFSET UNITYSDK_OFFSET(0x134D5730)
 
-inline static constexpr unsigned int Class_1_355D5C2B1D92981B_TypeDefinitionIndex = 59044;
+inline static constexpr unsigned int Class_1_355D5C2B1D92981B_TypeDefinitionIndex = 61879;
 
 class Class_1_355D5C2B1D92981B : public ::System::Object
 {
 public:
-	::RPG::Client::ActivityRewardCountCollection* Field_1_0; // 0x10
+	::RPG::Client::ActivityRewardCountCollection* JOBLGLDNJNL; // 0x10
 
 	::System::Void _ctor(::RPG::Client::ActivityRewardCountCollection* a1)
 	{

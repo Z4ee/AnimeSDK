@@ -12,22 +12,22 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Renderer; }
 
-#define RPG_CLIENT_MATERIALREPLACERBASE_AWAKE_OFFSET UNITYSDK_OFFSET(0xCB8DB40)
-#define RPG_CLIENT_MATERIALREPLACERBASE_METHOD_5_27EEE9768439A81E_OFFSET UNITYSDK_OFFSET(0xCB8E100)
-#define RPG_CLIENT_MATERIALREPLACERBASE_METHOD_5_464031DA104A86FD_OFFSET UNITYSDK_OFFSET(0xCB8DCC0)
-#define RPG_CLIENT_MATERIALREPLACERBASE_METHOD_5_7E1BADD1D133FA1C_OFFSET UNITYSDK_OFFSET(0xCB8E0A0)
-#define RPG_CLIENT_MATERIALREPLACERBASE_REPLACEMATERIAL_OFFSET UNITYSDK_OFFSET(0xCB8DBF0)
-#define RPG_CLIENT_MATERIALREPLACERBASE__CTOR_OFFSET UNITYSDK_OFFSET(0xCB8E200)
+#define RPG_CLIENT_MATERIALREPLACERBASE_AWAKE_OFFSET UNITYSDK_OFFSET(0xD681770)
+#define RPG_CLIENT_MATERIALREPLACERBASE_METHOD_5_27EEE9768439A81E_OFFSET UNITYSDK_OFFSET(0xD681D30)
+#define RPG_CLIENT_MATERIALREPLACERBASE_METHOD_5_464031DA104A86FD_OFFSET UNITYSDK_OFFSET(0xD6818F0)
+#define RPG_CLIENT_MATERIALREPLACERBASE_METHOD_5_7E1BADD1D133FA1C_OFFSET UNITYSDK_OFFSET(0xD681CD0)
+#define RPG_CLIENT_MATERIALREPLACERBASE_REPLACEMATERIAL_OFFSET UNITYSDK_OFFSET(0xD681820)
+#define RPG_CLIENT_MATERIALREPLACERBASE__CTOR_OFFSET UNITYSDK_OFFSET(0xD681E30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MaterialReplacerBase_TypeDefinitionIndex = 65966;
+	inline static constexpr unsigned int MaterialReplacerBase_TypeDefinitionIndex = 69005;
 
 	class MaterialReplacerBase : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::UnityEngine::GameObject* ArtNode; // 0x18
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::String*, ::UnityEngine::Renderer*>, ::Il2CppArray<::UnityEngine::Material*>*>* Field_5_1; // 0x20
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::String*, ::UnityEngine::Renderer*>, ::Il2CppArray<::UnityEngine::Material*>*>* FIBJJCFGGLF; // 0x20
 
 		::System::Void _ctor()
 		{

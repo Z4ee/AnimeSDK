@@ -5,24 +5,24 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_TRAINVISITORCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B985F10)
-#define RPG_GAMECORE_TRAINVISITORCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9876D0)
+#define RPG_GAMECORE_TRAINVISITORCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D5E31A0)
+#define RPG_GAMECORE_TRAINVISITORCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5E4960)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrainVisitorConfigRow_TypeDefinitionIndex = 14759;
+	inline static constexpr unsigned int TrainVisitorConfigRow_TypeDefinitionIndex = 15195;
 
 	class TrainVisitorConfigRow : public ::System::Object
 	{
 	public:
-		::RPG::Client::TextID MessageResident; // 0x10
-		::RPG::Client::TextID MessageLeave; // 0x20
-		::System::UInt32 MissionID; // 0x30
-		::System::UInt32 VisitorID; // 0x34
-		::System::UInt32 LockMissionID; // 0x38
-		::System::Boolean ToastFinishMainMission; // 0x3C
-		::System::UInt32 AvatarID; // 0x40
-		::RPG::Client::TextID MessageCome; // 0x48
+		::System::UInt32 LockMissionID; // 0x10
+		::System::UInt32 MissionID; // 0x14
+		::RPG::Client::TextID MessageResident; // 0x18
+		::System::Boolean ToastFinishMainMission; // 0x28
+		::System::UInt32 AvatarID; // 0x2C
+		::System::UInt32 VisitorID; // 0x30
+		::RPG::Client::TextID MessageCome; // 0x38
+		::RPG::Client::TextID MessageLeave; // 0x48
 
 		::System::Void _ctor()
 		{

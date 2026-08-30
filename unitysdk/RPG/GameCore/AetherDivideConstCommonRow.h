@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_AETHERDIVIDECONSTCOMMONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B186A50)
-#define RPG_GAMECORE_AETHERDIVIDECONSTCOMMONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B187010)
+#define RPG_GAMECORE_AETHERDIVIDECONSTCOMMONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CDFDE30)
+#define RPG_GAMECORE_AETHERDIVIDECONSTCOMMONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CDFE3F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AetherDivideConstCommonRow_TypeDefinitionIndex = 10565;
+	inline static constexpr unsigned int AetherDivideConstCommonRow_TypeDefinitionIndex = 10906;
 
 	class AetherDivideConstCommonRow : public ::System::Object
 	{

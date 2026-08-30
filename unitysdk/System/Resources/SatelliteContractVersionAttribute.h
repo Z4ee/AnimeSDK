@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define SYSTEM_RESOURCES_SATELLITECONTRACTVERSIONATTRIBUTE_GET_VERSION_OFFSET UNITYSDK_OFFSET(0x1A1B1F70)
-#define SYSTEM_RESOURCES_SATELLITECONTRACTVERSIONATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1B1F00)
+#define SYSTEM_RESOURCES_SATELLITECONTRACTVERSIONATTRIBUTE_GET_VERSION_OFFSET UNITYSDK_OFFSET(0x1BDB9E50)
+#define SYSTEM_RESOURCES_SATELLITECONTRACTVERSIONATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDB9DE0)
 
 namespace System::Resources
 {
-	inline static constexpr unsigned int SatelliteContractVersionAttribute_TypeDefinitionIndex = 532;
+	inline static constexpr unsigned int SatelliteContractVersionAttribute_TypeDefinitionIndex = 535;
 
 	class SatelliteContractVersionAttribute : public ::System::Attribute
 	{

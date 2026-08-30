@@ -3,11 +3,11 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Color.h"
 
-#define RPGTOOLS_TIMELINE_ENVIRONMENTSYETEM_ENVSYSADJUSTLEVELPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1576F0)
+#define RPGTOOLS_TIMELINE_ENVIRONMENTSYETEM_ENVSYSADJUSTLEVELPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x15E1D0)
 
 namespace RPGTools::Timeline::EnvironmentSyetem
 {
-	inline static constexpr unsigned int EnvSysAdjustLevelParam_TypeDefinitionIndex = 46841;
+	inline static constexpr unsigned int EnvSysAdjustLevelParam_TypeDefinitionIndex = 49087;
 
 	struct alignas(4) EnvSysAdjustLevelParam
 	{

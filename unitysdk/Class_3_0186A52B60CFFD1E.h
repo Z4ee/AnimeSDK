@@ -5,18 +5,18 @@
 namespace RPG::GameCore { class SetBaseHitStateSpeed; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_0186A52B60CFFD1E_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x14806660)
-#define CLASS_3_0186A52B60CFFD1E__CCTOR_OFFSET UNITYSDK_OFFSET(0x14806A50)
-#define CLASS_3_0186A52B60CFFD1E__CTOR_OFFSET UNITYSDK_OFFSET(0x14806630)
+#define CLASS_3_0186A52B60CFFD1E_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x156C5340)
+#define CLASS_3_0186A52B60CFFD1E__CCTOR_OFFSET UNITYSDK_OFFSET(0x156C5730)
+#define CLASS_3_0186A52B60CFFD1E__CTOR_OFFSET UNITYSDK_OFFSET(0x156C5310)
 
-inline static constexpr unsigned int Class_3_0186A52B60CFFD1E_TypeDefinitionIndex = 53364;
+inline static constexpr unsigned int Class_3_0186A52B60CFFD1E_TypeDefinitionIndex = 56078;
 
 class Class_3_0186A52B60CFFD1E : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetBaseHitStateSpeed*>
 {
 public:
-	static ::System::Int32* StaticGet_Field_3_0()
+	static ::System::Int32* StaticGet_BCEDIKIDHMD()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_3_0186A52B60CFFD1E_TypeDefinitionIndex)->GetStaticField(0x103E0);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_3_0186A52B60CFFD1E_TypeDefinitionIndex)->GetStaticField(0xB220);
 	}
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SetBaseHitStateSpeed* a2)

@@ -2,17 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_214;
+class Class_0_16E4307DCC419505_215;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_EBA8C9C89C53F81F_7__CTOR_OFFSET UNITYSDK_OFFSET(0x1AA1EBB0)
+#define CLASS_1_EBA8C9C89C53F81F_7__CTOR_OFFSET UNITYSDK_OFFSET(0x1C3A4680)
 
-inline static constexpr unsigned int Class_1_EBA8C9C89C53F81F_7_TypeDefinitionIndex = 39841;
+inline static constexpr unsigned int Class_1_EBA8C9C89C53F81F_7_TypeDefinitionIndex = 40716;
 
 class Class_1_EBA8C9C89C53F81F_7 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_214*>* Field_1_0; // 0x10
+	::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_215*>* OGKKJKFNCFL; // 0x10
 
 	::System::Void _ctor()
 	{

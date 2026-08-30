@@ -7,12 +7,12 @@ namespace System { class String; }
 namespace System { class Type; }
 namespace System::Reflection::Emit { class TypeBuilder; }
 
-#define SYSTEM_REFLECTION_EMIT_MODULEBUILDER_DEFINETYPE_1_OFFSET UNITYSDK_OFFSET(0x1A18ADC0)
-#define SYSTEM_REFLECTION_EMIT_MODULEBUILDER_DEFINETYPE_OFFSET UNITYSDK_OFFSET(0x1A18AD70)
+#define SYSTEM_REFLECTION_EMIT_MODULEBUILDER_DEFINETYPE_1_OFFSET UNITYSDK_OFFSET(0x1BD92AD0)
+#define SYSTEM_REFLECTION_EMIT_MODULEBUILDER_DEFINETYPE_OFFSET UNITYSDK_OFFSET(0x1BD92A80)
 
 namespace System::Reflection::Emit
 {
-	inline static constexpr unsigned int ModuleBuilder_TypeDefinitionIndex = 648;
+	inline static constexpr unsigned int ModuleBuilder_TypeDefinitionIndex = 651;
 
 	class ModuleBuilder : public ::System::Reflection::Module
 	{

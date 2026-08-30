@@ -6,15 +6,15 @@
 namespace RPG::GameCore { class RtSetDynamicValueByHealDataProperty; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_13D9D3A3759AC80D_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x144AE620)
-#define CLASS_3_13D9D3A3759AC80D__CTOR_OFFSET UNITYSDK_OFFSET(0x144AE540)
+#define CLASS_3_13D9D3A3759AC80D_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x152DFC50)
+#define CLASS_3_13D9D3A3759AC80D__CTOR_OFFSET UNITYSDK_OFFSET(0x152DFB70)
 
-inline static constexpr unsigned int Class_3_13D9D3A3759AC80D_TypeDefinitionIndex = 51396;
+inline static constexpr unsigned int Class_3_13D9D3A3759AC80D_TypeDefinitionIndex = 54080;
 
 class Class_3_13D9D3A3759AC80D : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::RtSetDynamicValueByHealDataProperty*>
 {
 public:
-	::RPG::GameCore::StringHash Field_3_0; // 0x28
+	::RPG::GameCore::StringHash DIJHOMCLPEG; // 0x28
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::RtSetDynamicValueByHealDataProperty* a2)
 	{

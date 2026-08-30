@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class CakeRaceLookAtCatByRank; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_4BB7333993E4EA8B_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB1BD310)
-#define CLASS_3_4BB7333993E4EA8B__CTOR_OFFSET UNITYSDK_OFFSET(0xB1BD2E0)
+#define CLASS_3_4BB7333993E4EA8B_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBB903E0)
+#define CLASS_3_4BB7333993E4EA8B__CTOR_OFFSET UNITYSDK_OFFSET(0xBB903B0)
 
-inline static constexpr unsigned int Class_3_4BB7333993E4EA8B_TypeDefinitionIndex = 50233;
+inline static constexpr unsigned int Class_3_4BB7333993E4EA8B_TypeDefinitionIndex = 52896;
 
 class Class_3_4BB7333993E4EA8B : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::CakeRaceLookAtCatByRank*>
 {

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattlePerformActorFindType_TypeDefinitionIndex = 23876;
+	inline static constexpr unsigned int BattlePerformActorFindType_TypeDefinitionIndex = 24463;
 
 	enum class BattlePerformActorFindType : ::System::Int32
 	{

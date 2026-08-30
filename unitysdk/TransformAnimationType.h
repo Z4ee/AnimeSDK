@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int TransformAnimationType_TypeDefinitionIndex = 45360;
+inline static constexpr unsigned int TransformAnimationType_TypeDefinitionIndex = 47606;
 
 enum class TransformAnimationType : ::System::Int32
 {

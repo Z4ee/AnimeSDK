@@ -4,12 +4,12 @@
 
 namespace System { template <typename T> class Predicate_1; }
 
-#define HOUDINIENGINEUNITY_HEU_PDGSESSION___C__DISPLAYCLASS35_0__CTOR_OFFSET UNITYSDK_OFFSET(0x198C8FB0)
-#define HOUDINIENGINEUNITY_HEU_PDGSESSION___C__DISPLAYCLASS35_0__GETNONBYPASSEDNETWORKIDS_B__0_OFFSET UNITYSDK_OFFSET(0x198C8FE0)
+#define HOUDINIENGINEUNITY_HEU_PDGSESSION___C__DISPLAYCLASS35_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B454CA0)
+#define HOUDINIENGINEUNITY_HEU_PDGSESSION___C__DISPLAYCLASS35_0__GETNONBYPASSEDNETWORKIDS_B__0_OFFSET UNITYSDK_OFFSET(0x1B454CD0)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_PDGSession___c__DisplayClass35_0_TypeDefinitionIndex = 38390;
+	inline static constexpr unsigned int HEU_PDGSession___c__DisplayClass35_0_TypeDefinitionIndex = 39249;
 
 	class HEU_PDGSession___c__DisplayClass35_0 : public ::System::Object
 	{

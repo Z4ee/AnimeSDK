@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MULTIPLEPATHAVATARATLASROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B6372D0)
-#define RPG_GAMECORE_MULTIPLEPATHAVATARATLASROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B637470)
+#define RPG_GAMECORE_MULTIPLEPATHAVATARATLASROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D2DD250)
+#define RPG_GAMECORE_MULTIPLEPATHAVATARATLASROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2DD3F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MultiplePathAvatarAtlasRow_TypeDefinitionIndex = 12206;
+	inline static constexpr unsigned int MultiplePathAvatarAtlasRow_TypeDefinitionIndex = 12595;
 
 	class MultiplePathAvatarAtlasRow : public ::System::Object
 	{

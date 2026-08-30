@@ -8,25 +8,25 @@ namespace RPG::Client::Prop { class DuelChimeraProxy; }
 namespace RPG::GameCore { class ChimeraDuelLeaveNode; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_020B970EE866F129_3_CLASS_1_F585648C00564ED6_GET_ISFINISHED_OFFSET UNITYSDK_OFFSET(0xBA1C5A0)
-#define CLASS_2_020B970EE866F129_3_CLASS_1_F585648C00564ED6_METHOD_1_1AF4C58015AB75FD_OFFSET UNITYSDK_OFFSET(0xBA1C640)
-#define CLASS_2_020B970EE866F129_3_CLASS_1_F585648C00564ED6_METHOD_1_2E97E23AE47B7431_OFFSET UNITYSDK_OFFSET(0xBA1C5C0)
-#define CLASS_2_020B970EE866F129_3_CLASS_1_F585648C00564ED6_METHOD_1_73667856B2713747_OFFSET UNITYSDK_OFFSET(0xBA1C280)
-#define CLASS_2_020B970EE866F129_3_CLASS_1_F585648C00564ED6_SET_ISFINISHED_OFFSET UNITYSDK_OFFSET(0xBA1C5B0)
-#define CLASS_2_020B970EE866F129_3_CLASS_1_F585648C00564ED6__CTOR_OFFSET UNITYSDK_OFFSET(0xBA1AD70)
+#define CLASS_2_020B970EE866F129_3_CLASS_1_F585648C00564ED6_GET_ISFINISHED_OFFSET UNITYSDK_OFFSET(0xC43D010)
+#define CLASS_2_020B970EE866F129_3_CLASS_1_F585648C00564ED6_METHOD_1_1AF4C58015AB75FD_OFFSET UNITYSDK_OFFSET(0xC43D0B0)
+#define CLASS_2_020B970EE866F129_3_CLASS_1_F585648C00564ED6_METHOD_1_2E97E23AE47B7431_OFFSET UNITYSDK_OFFSET(0xC43D030)
+#define CLASS_2_020B970EE866F129_3_CLASS_1_F585648C00564ED6_METHOD_1_73667856B2713747_OFFSET UNITYSDK_OFFSET(0xC43CCF0)
+#define CLASS_2_020B970EE866F129_3_CLASS_1_F585648C00564ED6_SET_ISFINISHED_OFFSET UNITYSDK_OFFSET(0xC43D020)
+#define CLASS_2_020B970EE866F129_3_CLASS_1_F585648C00564ED6__CTOR_OFFSET UNITYSDK_OFFSET(0xC43B7E0)
 
-inline static constexpr unsigned int Class_2_020B970EE866F129_3_Class_1_F585648C00564ED6_TypeDefinitionIndex = 74291;
+inline static constexpr unsigned int Class_2_020B970EE866F129_3_Class_1_F585648C00564ED6_TypeDefinitionIndex = 77776;
 
 class Class_2_020B970EE866F129_3_Class_1_F585648C00564ED6 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::UnityEngine::Vector3>* Field_1_0; // 0x10
-	::System::Collections::Generic::List_1<::UnityEngine::Vector3>* Field_1_1; // 0x18
-	::System::Collections::Generic::List_1<::UnityEngine::Quaternion>* Field_1_2; // 0x20
-	::RPG::GameCore::ChimeraDuelLeaveNode* Field_1_3; // 0x28
-	::System::Collections::Generic::List_1<::RPG::Client::Prop::DuelChimeraProxy*>* Field_1_4; // 0x30
+	::RPG::GameCore::ChimeraDuelLeaveNode* JKLBAAHFJDJ; // 0x10
+	::System::Collections::Generic::List_1<::UnityEngine::Quaternion>* AICOBMHCHNE; // 0x18
+	::System::Collections::Generic::List_1<::RPG::Client::Prop::DuelChimeraProxy*>* HGCNLFIMDKL; // 0x20
+	::System::Collections::Generic::List_1<::UnityEngine::Vector3>* KHOPAIPODLM; // 0x28
+	::System::Collections::Generic::List_1<::UnityEngine::Vector3>* FEKKPJMOLDJ; // 0x30
 	::System::Boolean _IsFinished_k__BackingField; // 0x38
-	::System::Single Field_1_6; // 0x3C
+	::System::Single FOMCKBAHCFM; // 0x3C
 
 	::System::Void _ctor(::RPG::GameCore::ChimeraDuelLeaveNode* a1, ::System::Collections::Generic::List_1<::RPG::Client::Prop::DuelChimeraProxy*>* a2)
 	{

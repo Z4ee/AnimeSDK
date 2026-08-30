@@ -10,7 +10,7 @@ namespace System { template <typename T> class Action_1; }
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int FiveDimLevelVariableService_1_TypeDefinitionIndex = 72940;
+	inline static constexpr unsigned int FiveDimLevelVariableService_1_TypeDefinitionIndex = 76413;
 
 	template <typename TEntity>
 	class FiveDimLevelVariableService_1 : public ::RPG::Client::LittleGame::LevelVariableService_1<TEntity>

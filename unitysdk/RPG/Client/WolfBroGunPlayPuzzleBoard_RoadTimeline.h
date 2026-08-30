@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int WolfBroGunPlayPuzzleBoard_RoadTimeline_TypeDefinitionIndex = 65676;
+	inline static constexpr unsigned int WolfBroGunPlayPuzzleBoard_RoadTimeline_TypeDefinitionIndex = 68713;
 
 	struct alignas(8) WolfBroGunPlayPuzzleBoard_RoadTimeline
 	{

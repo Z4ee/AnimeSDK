@@ -3,7 +3,7 @@
 
 namespace System::Net::Http::Headers
 {
-	inline static constexpr unsigned int Token_Type_TypeDefinitionIndex = 3792;
+	inline static constexpr unsigned int Token_Type_TypeDefinitionIndex = 3800;
 
 	enum class Token_Type : ::System::Int32
 	{

@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace RPG::Client::CrowdAnimator
 {
-	inline static constexpr unsigned int CrowdPrototype_AnimationClipInfo_TypeDefinitionIndex = 70313;
+	inline static constexpr unsigned int CrowdPrototype_AnimationClipInfo_TypeDefinitionIndex = 73613;
 
 	struct alignas(8) CrowdPrototype_AnimationClipInfo
 	{

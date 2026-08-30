@@ -4,18 +4,18 @@
 
 namespace System { class String; }
 
-#define CLASS_1_FAF146B3D74C3C3F_METHOD_1_107B313D17FCB4F7_OFFSET UNITYSDK_OFFSET(0x1549A250)
-#define CLASS_1_FAF146B3D74C3C3F_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1549A1E0)
-#define CLASS_1_FAF146B3D74C3C3F__CTOR_OFFSET UNITYSDK_OFFSET(0x1549A1D0)
+#define CLASS_1_FAF146B3D74C3C3F_METHOD_1_107B313D17FCB4F7_OFFSET UNITYSDK_OFFSET(0x163E5230)
+#define CLASS_1_FAF146B3D74C3C3F_TOSTRING_OFFSET UNITYSDK_OFFSET(0x163E51C0)
+#define CLASS_1_FAF146B3D74C3C3F__CTOR_OFFSET UNITYSDK_OFFSET(0x163E51B0)
 
-inline static constexpr unsigned int Class_1_FAF146B3D74C3C3F_TypeDefinitionIndex = 76876;
+inline static constexpr unsigned int Class_1_FAF146B3D74C3C3F_TypeDefinitionIndex = 80916;
 
 class Class_1_FAF146B3D74C3C3F : public ::System::Object
 {
 public:
-	::System::String* Field_1_0; // 0x10
-	::System::Int32 Field_1_1; // 0x18
-	::System::Int32 Field_1_2; // 0x1C
+	::System::String* BOOJMDODFBI; // 0x10
+	::System::Int32 CJCCLNEDGKB; // 0x18
+	::System::Int32 HDCADKFBLPF; // 0x1C
 
 	::System::Void _ctor(::System::Int32 a1, ::System::Int32 a2, ::System::String* a3)
 	{

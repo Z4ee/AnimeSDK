@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_635;
+class Class_0_16E4307DCC419505_671;
 namespace RPG::GameCore { class MiParameterConfigBase; }
 
-#define CLASS_1_FBE4E3EF633BF1B1_METHOD_1_ED0FFC39CFA27CB9_OFFSET UNITYSDK_OFFSET(0x1541E3C0)
-#define CLASS_1_FBE4E3EF633BF1B1__CTOR_OFFSET UNITYSDK_OFFSET(0x1541E530)
+#define CLASS_1_FBE4E3EF633BF1B1_METHOD_1_ED0FFC39CFA27CB9_OFFSET UNITYSDK_OFFSET(0x163633F0)
+#define CLASS_1_FBE4E3EF633BF1B1__CTOR_OFFSET UNITYSDK_OFFSET(0x16363560)
 
-inline static constexpr unsigned int Class_1_FBE4E3EF633BF1B1_TypeDefinitionIndex = 76741;
+inline static constexpr unsigned int Class_1_FBE4E3EF633BF1B1_TypeDefinitionIndex = 80781;
 
 class Class_1_FBE4E3EF633BF1B1 : public ::System::Object
 {
@@ -18,8 +18,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_FBE4E3EF633BF1B1__CTOR_OFFSET))(this);
 	}
 
-	::Class_0_16E4307DCC419505_635* Method_1_ED0FFC39CFA27CB9(::RPG::GameCore::MiParameterConfigBase* a1)
+	::Class_0_16E4307DCC419505_671* Method_1_ED0FFC39CFA27CB9(::RPG::GameCore::MiParameterConfigBase* a1)
 	{
-		return ((::Class_0_16E4307DCC419505_635*(*)(::PVOID, ::RPG::GameCore::MiParameterConfigBase*))((::PBYTE)hIl2Cpp + CLASS_1_FBE4E3EF633BF1B1_METHOD_1_ED0FFC39CFA27CB9_OFFSET))(this, a1);
+		return ((::Class_0_16E4307DCC419505_671*(*)(::PVOID, ::RPG::GameCore::MiParameterConfigBase*))((::PBYTE)hIl2Cpp + CLASS_1_FBE4E3EF633BF1B1_METHOD_1_ED0FFC39CFA27CB9_OFFSET))(this, a1);
 	}
 };

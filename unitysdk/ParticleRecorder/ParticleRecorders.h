@@ -3,11 +3,11 @@
 #include "unitysdk/ParticleRecorder/ParticleRecorderState.h"
 #include "unitysdk/System/Object.h"
 
-#define PARTICLERECORDER_PARTICLERECORDERS__CTOR_OFFSET UNITYSDK_OFFSET(0x1AA32B70)
+#define PARTICLERECORDER_PARTICLERECORDERS__CTOR_OFFSET UNITYSDK_OFFSET(0x1C664840)
 
 namespace ParticleRecorder
 {
-	inline static constexpr unsigned int ParticleRecorders_TypeDefinitionIndex = 35940;
+	inline static constexpr unsigned int ParticleRecorders_TypeDefinitionIndex = 36801;
 
 	class ParticleRecorders : public ::System::Object
 	{

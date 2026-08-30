@@ -2,25 +2,25 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2CONSTANTS_GET_B2_AABB_MARGIN_OFFSET UNITYSDK_OFFSET(0x1A6A43B0)
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2CONSTANTS_GET_B2_HUGE_OFFSET UNITYSDK_OFFSET(0x1A6A0E40)
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2CONSTANTS_GET_B2_LINEAR_SLOP_OFFSET UNITYSDK_OFFSET(0x1A6AAD50)
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2CONSTANTS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A6AADB0)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2CONSTANTS_GET_B2_AABB_MARGIN_OFFSET UNITYSDK_OFFSET(0x1C2B40C0)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2CONSTANTS_GET_B2_HUGE_OFFSET UNITYSDK_OFFSET(0x1C2B0B10)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2CONSTANTS_GET_B2_LINEAR_SLOP_OFFSET UNITYSDK_OFFSET(0x1C2BAA10)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2CONSTANTS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C2BAA70)
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2Constants_TypeDefinitionIndex = 35066;
+	inline static constexpr unsigned int B2Constants_TypeDefinitionIndex = 35927;
 
 	class B2Constants : public ::System::Object
 	{
 	public:
-		static ::System::Single* StaticGet_B2_MAX_ROTATION()
-		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(B2Constants_TypeDefinitionIndex)->GetStaticField(0x108C0);
-		}
 		static ::System::Single* StaticGet_B2_SPECULATIVE_DISTANCE()
 		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(B2Constants_TypeDefinitionIndex)->GetStaticField(0x108C4);
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(B2Constants_TypeDefinitionIndex)->GetStaticField(0xB300);
+		}
+		static ::System::Single* StaticGet_B2_MAX_ROTATION()
+		{
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(B2Constants_TypeDefinitionIndex)->GetStaticField(0xB304);
 		}
 		// static const ::System::Int32 B2_MAX_WORKERS = 0x40; // 0x0
 		// static const ::System::Int32 B2_GRAPH_COLOR_COUNT = 0x18; // 0x0

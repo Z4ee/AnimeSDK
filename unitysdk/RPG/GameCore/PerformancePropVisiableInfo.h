@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_PERFORMANCEPROPVISIABLEINFO_METHOD_2_3605A98F76584145_OFFSET UNITYSDK_OFFSET(0x1B6974D0)
-#define RPG_GAMECORE_PERFORMANCEPROPVISIABLEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6975C0)
+#define RPG_GAMECORE_PERFORMANCEPROPVISIABLEINFO_METHOD_2_77F2A9CAFDAB80FE_OFFSET UNITYSDK_OFFSET(0x1D31A210)
+#define RPG_GAMECORE_PERFORMANCEPROPVISIABLEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1D31A330)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PerformancePropVisiableInfo_TypeDefinitionIndex = 21048;
+	inline static constexpr unsigned int PerformancePropVisiableInfo_TypeDefinitionIndex = 21606;
 
 	class PerformancePropVisiableInfo : public ::RPG::GameCore::JsonConfig
 	{
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PERFORMANCEPROPVISIABLEINFO__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_3605A98F76584145(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PerformancePropVisiableInfo*& a2)
+		static ::System::Void Method_2_77F2A9CAFDAB80FE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PerformancePropVisiableInfo*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PerformancePropVisiableInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PERFORMANCEPROPVISIABLEINFO_METHOD_2_3605A98F76584145_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PerformancePropVisiableInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PERFORMANCEPROPVISIABLEINFO_METHOD_2_77F2A9CAFDAB80FE_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -3,42 +3,55 @@
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_6770BC9DDC5C458C_2_GET_DAY_OFFSET UNITYSDK_OFFSET(0x15521F90)
-#define CLASS_1_6770BC9DDC5C458C_2_GET_TALK_OFFSET UNITYSDK_OFFSET(0x15521FB0)
-#define CLASS_1_6770BC9DDC5C458C_2_SET_DAY_OFFSET UNITYSDK_OFFSET(0x15521FA0)
-#define CLASS_1_6770BC9DDC5C458C_2_SET_TALK_OFFSET UNITYSDK_OFFSET(0x15521FC0)
-#define CLASS_1_6770BC9DDC5C458C_2__CTOR_OFFSET UNITYSDK_OFFSET(0x15521FD0)
+#define CLASS_1_6770BC9DDC5C458C_2_GET_DESC_OFFSET UNITYSDK_OFFSET(0xC365310)
+#define CLASS_1_6770BC9DDC5C458C_2_GET_LEVEL_OFFSET UNITYSDK_OFFSET(0xC3652D0)
+#define CLASS_1_6770BC9DDC5C458C_2_GET_NAME_OFFSET UNITYSDK_OFFSET(0xC3652F0)
+#define CLASS_1_6770BC9DDC5C458C_2_SET_DESC_OFFSET UNITYSDK_OFFSET(0xC365320)
+#define CLASS_1_6770BC9DDC5C458C_2_SET_LEVEL_OFFSET UNITYSDK_OFFSET(0xC3652E0)
+#define CLASS_1_6770BC9DDC5C458C_2_SET_NAME_OFFSET UNITYSDK_OFFSET(0xC365300)
+#define CLASS_1_6770BC9DDC5C458C_2__CTOR_OFFSET UNITYSDK_OFFSET(0xC365330)
 
-inline static constexpr unsigned int Class_1_6770BC9DDC5C458C_2_TypeDefinitionIndex = 76113;
+inline static constexpr unsigned int Class_1_6770BC9DDC5C458C_2_TypeDefinitionIndex = 79425;
 
 class Class_1_6770BC9DDC5C458C_2 : public ::System::Object
 {
 public:
-	::RPG::Client::TextID _Talk_k__BackingField; // 0x10
-	::System::UInt32 _Day_k__BackingField; // 0x20
+	::RPG::Client::TextID _Desc_k__BackingField; // 0x10
+	::RPG::Client::TextID _Name_k__BackingField; // 0x20
+	::System::UInt32 _Level_k__BackingField; // 0x30
 
 	::System::Void _ctor()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_6770BC9DDC5C458C_2__CTOR_OFFSET))(this);
 	}
 
-	::System::UInt32 get_Day()
+	::System::UInt32 get_Level()
 	{
-		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_6770BC9DDC5C458C_2_GET_DAY_OFFSET))(this);
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_6770BC9DDC5C458C_2_GET_LEVEL_OFFSET))(this);
 	}
 
-	::System::Void set_Day(::System::UInt32 a1)
+	::System::Void set_Level(::System::UInt32 a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_6770BC9DDC5C458C_2_SET_DAY_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_6770BC9DDC5C458C_2_SET_LEVEL_OFFSET))(this, a1);
 	}
 
-	::RPG::Client::TextID get_Talk()
+	::RPG::Client::TextID get_Name()
 	{
-		return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_6770BC9DDC5C458C_2_GET_TALK_OFFSET))(this);
+		return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_6770BC9DDC5C458C_2_GET_NAME_OFFSET))(this);
 	}
 
-	::System::Void set_Talk(::RPG::Client::TextID a1)
+	::System::Void set_Name(::RPG::Client::TextID a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::Client::TextID))((::PBYTE)hIl2Cpp + CLASS_1_6770BC9DDC5C458C_2_SET_TALK_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::TextID))((::PBYTE)hIl2Cpp + CLASS_1_6770BC9DDC5C458C_2_SET_NAME_OFFSET))(this, a1);
+	}
+
+	::RPG::Client::TextID get_Desc()
+	{
+		return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_6770BC9DDC5C458C_2_GET_DESC_OFFSET))(this);
+	}
+
+	::System::Void set_Desc(::RPG::Client::TextID a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::TextID))((::PBYTE)hIl2Cpp + CLASS_1_6770BC9DDC5C458C_2_SET_DESC_OFFSET))(this, a1);
 	}
 };

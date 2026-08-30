@@ -4,18 +4,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_GRIDFIGHTMODULETRAITSWITCHCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B4E2350)
-#define RPG_GAMECORE_GRIDFIGHTMODULETRAITSWITCHCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4E24C0)
+#define RPG_GAMECORE_GRIDFIGHTMODULETRAITSWITCHCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D15BBE0)
+#define RPG_GAMECORE_GRIDFIGHTMODULETRAITSWITCHCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D15BD50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightModuleTraitSwitchConfigRow_TypeDefinitionIndex = 12985;
+	inline static constexpr unsigned int GridFightModuleTraitSwitchConfigRow_TypeDefinitionIndex = 13376;
 
 	class GridFightModuleTraitSwitchConfigRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 ModuleID; // 0x10
-		::System::UInt32 TraitID; // 0x14
+		::System::UInt32 TraitID; // 0x10
+		::System::UInt32 ModuleID; // 0x14
 		::System::UInt32 OverrideTraitID; // 0x18
 
 		::System::Void _ctor()

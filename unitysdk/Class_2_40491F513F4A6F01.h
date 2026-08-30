@@ -1,21 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_CA217ABF4E3B4F3F.h"
+#include "unitysdk/Class_1_34917908B7833130.h"
 
 namespace UnityEngine { class RectTransform; }
 
-#define CLASS_2_40491F513F4A6F01_METHOD_2_123DFB09BD2C9B9E_OFFSET UNITYSDK_OFFSET(0xB2A7030)
-#define CLASS_2_40491F513F4A6F01__CTOR_OFFSET UNITYSDK_OFFSET(0xB2A70B0)
-#define CLASS_2_40491F513F4A6F01__ONBIND_OFFSET UNITYSDK_OFFSET(0xB2A6FD0)
+#define CLASS_2_40491F513F4A6F01_METHOD_2_123DFB09BD2C9B9E_OFFSET UNITYSDK_OFFSET(0xBC86B70)
+#define CLASS_2_40491F513F4A6F01__CTOR_OFFSET UNITYSDK_OFFSET(0xBC86BF0)
+#define CLASS_2_40491F513F4A6F01__ONBIND_OFFSET UNITYSDK_OFFSET(0xBC86B10)
 
-inline static constexpr unsigned int Class_2_40491F513F4A6F01_TypeDefinitionIndex = 68395;
+inline static constexpr unsigned int Class_2_40491F513F4A6F01_TypeDefinitionIndex = 71576;
 
-class Class_2_40491F513F4A6F01 : public ::Class_1_CA217ABF4E3B4F3F
+class Class_2_40491F513F4A6F01 : public ::Class_1_34917908B7833130
 {
 public:
-	// static const ::System::Single Field_2_0; // 0x0
-	::UnityEngine::RectTransform* Field_2_1; // 0x60
-	::System::UInt32 Field_2_2; // 0x68
+	// static const ::System::Single FMDIJDNGFFD; // 0x0
+	::UnityEngine::RectTransform* EGKOCBGAFPB; // 0x60
+	::System::UInt32 LCJDAMMJLEI; // 0x68
 
 	::System::Void _ctor()
 	{

@@ -5,16 +5,16 @@
 class Class_3_F65294BF89CA0784;
 namespace RPG::GameCore { class DiceCombatTaskConfig_AIEffectScore; }
 
-#define CLASS_2_1BCF3218CDB93711_METHOD_2_508D4DD02D3DB74E_OFFSET UNITYSDK_OFFSET(0x1A45EC00)
-#define CLASS_2_1BCF3218CDB93711__CTOR_OFFSET UNITYSDK_OFFSET(0x1A45EBF0)
+#define CLASS_2_1BCF3218CDB93711_METHOD_2_508D4DD02D3DB74E_OFFSET UNITYSDK_OFFSET(0x1C06E560)
+#define CLASS_2_1BCF3218CDB93711__CTOR_OFFSET UNITYSDK_OFFSET(0x1C06E550)
 
-inline static constexpr unsigned int Class_2_1BCF3218CDB93711_TypeDefinitionIndex = 34774;
+inline static constexpr unsigned int Class_2_1BCF3218CDB93711_TypeDefinitionIndex = 35635;
 
 class Class_2_1BCF3218CDB93711 : public ::Class_1_B55037134F9E6688
 {
 public:
-	::Class_3_F65294BF89CA0784* Field_2_0; // 0x18
-	::RPG::GameCore::DiceCombatTaskConfig_AIEffectScore* Field_2_1; // 0x20
+	::RPG::GameCore::DiceCombatTaskConfig_AIEffectScore* IGHAHBNLIJA; // 0x18
+	::Class_3_F65294BF89CA0784* EEFMDEHLLFI; // 0x20
 
 	::System::Void _ctor(::RPG::GameCore::DiceCombatTaskConfig_AIEffectScore* a1, ::Class_3_F65294BF89CA0784* a2)
 	{

@@ -2,15 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define STRUCT_2_71F960E6AB5A20A7_DISPOSE_OFFSET UNITYSDK_OFFSET(0x2D12DC0)
-#define STRUCT_2_71F960E6AB5A20A7_EXECUTE_OFFSET UNITYSDK_OFFSET(0x2D12DB0)
+#define STRUCT_2_71F960E6AB5A20A7_DISPOSE_OFFSET UNITYSDK_OFFSET(0x7F5A0)
+#define STRUCT_2_71F960E6AB5A20A7_EXECUTE_OFFSET UNITYSDK_OFFSET(0x7F590)
 
-inline static constexpr unsigned int Struct_2_71F960E6AB5A20A7_TypeDefinitionIndex = 67882;
+inline static constexpr unsigned int Struct_2_71F960E6AB5A20A7_TypeDefinitionIndex = 71055;
 
 struct alignas(4) Struct_2_71F960E6AB5A20A7
 {
-	::System::UInt32 Field_2_0; // 0x10
-	::System::UInt32 Field_2_1; // 0x14
+	::System::UInt32 CEGNBNFCJPP; // 0x10
+	::System::UInt32 IPMJKOMCIHB; // 0x14
 
 	::System::Void Execute(::System::Int32 a1)
 	{

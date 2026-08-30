@@ -9,13 +9,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class SummonMonsterData; }
 namespace RPG::GameCore { class VCameraConfig; }
 
-#define RPG_GAMECORE_SUMMONMONSTER_METHOD_3_1D932944641139F6_OFFSET UNITYSDK_OFFSET(0x1B9263F0)
-#define RPG_GAMECORE_SUMMONMONSTER_METHOD_3_7051FBA171FD2690_OFFSET UNITYSDK_OFFSET(0x1B926300)
-#define RPG_GAMECORE_SUMMONMONSTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B926390)
+#define RPG_GAMECORE_SUMMONMONSTER_METHOD_3_1D932944641139F6_OFFSET UNITYSDK_OFFSET(0x1D583630)
+#define RPG_GAMECORE_SUMMONMONSTER_METHOD_3_7051FBA171FD2690_OFFSET UNITYSDK_OFFSET(0x1D583540)
+#define RPG_GAMECORE_SUMMONMONSTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5835D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SummonMonster_TypeDefinitionIndex = 21837;
+	inline static constexpr unsigned int SummonMonster_TypeDefinitionIndex = 22401;
 
 	class SummonMonster : public ::RPG::GameCore::TaskConfig
 	{

@@ -10,29 +10,29 @@ namespace System { class String; }
 namespace UnityEngine { class ParticleSystem; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_PLANETFESFLOATINGCOIN_DESPAWNED_OFFSET UNITYSDK_OFFSET(0xD008AD0)
-#define RPG_CLIENT_PLANETFESFLOATINGCOIN_ONCREATE_OFFSET UNITYSDK_OFFSET(0xD008B10)
-#define RPG_CLIENT_PLANETFESFLOATINGCOIN_PLAY_OFFSET UNITYSDK_OFFSET(0xD008F70)
-#define RPG_CLIENT_PLANETFESFLOATINGCOIN_SETDOUBLENUMBER_OFFSET UNITYSDK_OFFSET(0xD008E50)
-#define RPG_CLIENT_PLANETFESFLOATINGCOIN_SETNUMBER_OFFSET UNITYSDK_OFFSET(0xD008EE0)
-#define RPG_CLIENT_PLANETFESFLOATINGCOIN_SPAWNED_OFFSET UNITYSDK_OFFSET(0xD008A90)
-#define RPG_CLIENT_PLANETFESFLOATINGCOIN__CTOR_OFFSET UNITYSDK_OFFSET(0xD009140)
+#define RPG_CLIENT_PLANETFESFLOATINGCOIN_DESPAWNED_OFFSET UNITYSDK_OFFSET(0xDB478F0)
+#define RPG_CLIENT_PLANETFESFLOATINGCOIN_ONCREATE_OFFSET UNITYSDK_OFFSET(0xDB47930)
+#define RPG_CLIENT_PLANETFESFLOATINGCOIN_PLAY_OFFSET UNITYSDK_OFFSET(0xDB47D90)
+#define RPG_CLIENT_PLANETFESFLOATINGCOIN_SETDOUBLENUMBER_OFFSET UNITYSDK_OFFSET(0xDB47C70)
+#define RPG_CLIENT_PLANETFESFLOATINGCOIN_SETNUMBER_OFFSET UNITYSDK_OFFSET(0xDB47D00)
+#define RPG_CLIENT_PLANETFESFLOATINGCOIN_SPAWNED_OFFSET UNITYSDK_OFFSET(0xDB478B0)
+#define RPG_CLIENT_PLANETFESFLOATINGCOIN__CTOR_OFFSET UNITYSDK_OFFSET(0xDB47F60)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlanetFesFloatingCoin_TypeDefinitionIndex = 63531;
+	inline static constexpr unsigned int PlanetFesFloatingCoin_TypeDefinitionIndex = 66516;
 
 	class PlanetFesFloatingCoin : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		::RPG::Client::LocalizedText* Field_5_0; // 0x18
-		::RPG::Client::LocalizedText* Field_5_1; // 0x20
-		::UnityEngine::ParticleSystem* Field_5_2; // 0x28
-		::UnityEngine::Transform* Field_5_3; // 0x30
-		::UnityEngine::Transform* Field_5_4; // 0x38
-		::UnityEngine::Transform* Field_5_5; // 0x40
-		::UnityEngine::Transform* Field_5_6; // 0x48
-		::System::Single Field_5_7; // 0x50
+		::RPG::Client::LocalizedText* GEPFFDDHPAI; // 0x18
+		::RPG::Client::LocalizedText* MNKHLPAJGBA; // 0x20
+		::UnityEngine::ParticleSystem* LGNAJBNEBEC; // 0x28
+		::UnityEngine::Transform* KNGEKPKBIDK; // 0x30
+		::UnityEngine::Transform* GNPBGAKIAHM; // 0x38
+		::UnityEngine::Transform* CGCPIPGIDNL; // 0x40
+		::UnityEngine::Transform* LPMFDOAACIP; // 0x48
+		::System::Single HBDJCFFDGDD; // 0x50
 
 		::System::Void _ctor()
 		{

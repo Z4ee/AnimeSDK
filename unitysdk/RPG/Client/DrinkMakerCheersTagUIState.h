@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DrinkMakerCheersTagUIState_TypeDefinitionIndex = 60835;
+	inline static constexpr unsigned int DrinkMakerCheersTagUIState_TypeDefinitionIndex = 63688;
 
 	enum class DrinkMakerCheersTagUIState : ::System::Int32
 	{

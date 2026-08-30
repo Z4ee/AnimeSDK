@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define UNITYENGINE_RENDERING_ANIMATIONCURVEPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x1CED69B0)
+#define UNITYENGINE_RENDERING_ANIMATIONCURVEPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EBDE130)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int AnimationCurveParameter_TypeDefinitionIndex = 34223;
+	inline static constexpr unsigned int AnimationCurveParameter_TypeDefinitionIndex = 34990;
 
 	class AnimationCurveParameter : public ::UnityEngine::Rendering::VolumeParameter_1<::UnityEngine::AnimationCurve*>
 	{

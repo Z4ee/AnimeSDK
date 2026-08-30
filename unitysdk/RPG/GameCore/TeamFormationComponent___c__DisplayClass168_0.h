@@ -5,12 +5,12 @@
 class Class_2_BF927CBEA754F6BE;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_GAMECORE_TEAMFORMATIONCOMPONENT___C__DISPLAYCLASS168_0__CTOR_OFFSET UNITYSDK_OFFSET(0xDBD0A10)
-#define RPG_GAMECORE_TEAMFORMATIONCOMPONENT___C__DISPLAYCLASS168_0___REARRANGEPUPPETCHARACTERS_B__0_OFFSET UNITYSDK_OFFSET(0xDBD2090)
+#define RPG_GAMECORE_TEAMFORMATIONCOMPONENT___C__DISPLAYCLASS168_0__CTOR_OFFSET UNITYSDK_OFFSET(0xE744120)
+#define RPG_GAMECORE_TEAMFORMATIONCOMPONENT___C__DISPLAYCLASS168_0___REARRANGEPUPPETCHARACTERS_B__0_OFFSET UNITYSDK_OFFSET(0xE747270)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TeamFormationComponent___c__DisplayClass168_0_TypeDefinitionIndex = 55142;
+	inline static constexpr unsigned int TeamFormationComponent___c__DisplayClass168_0_TypeDefinitionIndex = 57865;
 
 	class TeamFormationComponent___c__DisplayClass168_0 : public ::System::Object
 	{

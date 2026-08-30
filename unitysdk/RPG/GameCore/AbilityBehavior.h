@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AbilityBehavior_TypeDefinitionIndex = 17475;
+	inline static constexpr unsigned int AbilityBehavior_TypeDefinitionIndex = 17992;
 
 	enum class AbilityBehavior : ::System::Int32
 	{

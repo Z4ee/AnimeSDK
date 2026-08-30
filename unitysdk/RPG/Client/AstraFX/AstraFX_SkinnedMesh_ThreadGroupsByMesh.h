@@ -3,7 +3,7 @@
 
 namespace RPG::Client::AstraFX
 {
-	inline static constexpr unsigned int AstraFX_SkinnedMesh_ThreadGroupsByMesh_TypeDefinitionIndex = 70286;
+	inline static constexpr unsigned int AstraFX_SkinnedMesh_ThreadGroupsByMesh_TypeDefinitionIndex = 73586;
 
 	enum class AstraFX_SkinnedMesh_ThreadGroupsByMesh : ::System::Int32
 	{

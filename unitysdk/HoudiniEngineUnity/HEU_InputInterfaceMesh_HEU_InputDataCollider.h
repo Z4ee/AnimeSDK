@@ -5,11 +5,11 @@
 
 namespace UnityEngine { class Collider; }
 
-#define HOUDINIENGINEUNITY_HEU_INPUTINTERFACEMESH_HEU_INPUTDATACOLLIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x198A97D0)
+#define HOUDINIENGINEUNITY_HEU_INPUTINTERFACEMESH_HEU_INPUTDATACOLLIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B435000)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_InputInterfaceMesh_HEU_InputDataCollider_TypeDefinitionIndex = 38492;
+	inline static constexpr unsigned int HEU_InputInterfaceMesh_HEU_InputDataCollider_TypeDefinitionIndex = 39351;
 
 	class HEU_InputInterfaceMesh_HEU_InputDataCollider : public ::System::Object
 	{

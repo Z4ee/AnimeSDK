@@ -15,39 +15,39 @@ namespace UnityEngine::EventSystems { class PointerEventData; }
 namespace UnityEngine::UI { class Image; }
 namespace UnityEngine::UI { class VertexHelper; }
 
-#define MIHOYO_SDK_MIHOYOSDKLINKIMAGETEXT_GETOUTPUTTEXT_OFFSET UNITYSDK_OFFSET(0xAAFC9B0)
-#define MIHOYO_SDK_MIHOYOSDKLINKIMAGETEXT_GET_ONHREFCLICK_OFFSET UNITYSDK_OFFSET(0xAAFA9D0)
-#define MIHOYO_SDK_MIHOYOSDKLINKIMAGETEXT_ONPOINTERCLICK_OFFSET UNITYSDK_OFFSET(0xAAFD750)
-#define MIHOYO_SDK_MIHOYOSDKLINKIMAGETEXT_ONPOPULATEMESH_OFFSET UNITYSDK_OFFSET(0xAAFB900)
-#define MIHOYO_SDK_MIHOYOSDKLINKIMAGETEXT_REPLACERICHTEXT_OFFSET UNITYSDK_OFFSET(0xAAFD4E0)
-#define MIHOYO_SDK_MIHOYOSDKLINKIMAGETEXT_SETVERTICESDIRTY_OFFSET UNITYSDK_OFFSET(0xAAFA9F0)
-#define MIHOYO_SDK_MIHOYOSDKLINKIMAGETEXT_SET_ONHREFCLICK_OFFSET UNITYSDK_OFFSET(0xAAFA9E0)
-#define MIHOYO_SDK_MIHOYOSDKLINKIMAGETEXT_UPDATEQUADIMAGE_OFFSET UNITYSDK_OFFSET(0xAAFAA50)
-#define MIHOYO_SDK_MIHOYOSDKLINKIMAGETEXT__CCTOR_OFFSET UNITYSDK_OFFSET(0xAAFDC10)
-#define MIHOYO_SDK_MIHOYOSDKLINKIMAGETEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xAAFDAF0)
+#define MIHOYO_SDK_MIHOYOSDKLINKIMAGETEXT_GETOUTPUTTEXT_OFFSET UNITYSDK_OFFSET(0xB23C5C0)
+#define MIHOYO_SDK_MIHOYOSDKLINKIMAGETEXT_GET_ONHREFCLICK_OFFSET UNITYSDK_OFFSET(0xB23A530)
+#define MIHOYO_SDK_MIHOYOSDKLINKIMAGETEXT_ONPOINTERCLICK_OFFSET UNITYSDK_OFFSET(0xB23D360)
+#define MIHOYO_SDK_MIHOYOSDKLINKIMAGETEXT_ONPOPULATEMESH_OFFSET UNITYSDK_OFFSET(0xB23B4C0)
+#define MIHOYO_SDK_MIHOYOSDKLINKIMAGETEXT_REPLACERICHTEXT_OFFSET UNITYSDK_OFFSET(0xB23D0F0)
+#define MIHOYO_SDK_MIHOYOSDKLINKIMAGETEXT_SETVERTICESDIRTY_OFFSET UNITYSDK_OFFSET(0xB23A550)
+#define MIHOYO_SDK_MIHOYOSDKLINKIMAGETEXT_SET_ONHREFCLICK_OFFSET UNITYSDK_OFFSET(0xB23A540)
+#define MIHOYO_SDK_MIHOYOSDKLINKIMAGETEXT_UPDATEQUADIMAGE_OFFSET UNITYSDK_OFFSET(0xB23A5B0)
+#define MIHOYO_SDK_MIHOYOSDKLINKIMAGETEXT__CCTOR_OFFSET UNITYSDK_OFFSET(0xB23D850)
+#define MIHOYO_SDK_MIHOYOSDKLINKIMAGETEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xB23D730)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MiHoYoSDKLinkImageText_TypeDefinitionIndex = 44730;
+	inline static constexpr unsigned int MiHoYoSDKLinkImageText_TypeDefinitionIndex = 46916;
 
 	class MiHoYoSDKLinkImageText : public ::MiHoYo::SDK::HoYoUI::HoYoText
 	{
 	public:
-		static ::System::Text::RegularExpressions::Regex** StaticGet_s_HrefRegex()
-		{
-			return (::System::Text::RegularExpressions::Regex**)Il2CppClass::FromTypeDefinitionIndex(MiHoYoSDKLinkImageText_TypeDefinitionIndex)->GetStaticField(0xFF10);
-		}
-		static ::System::Func_2<::System::String*, ::UnityEngine::Sprite*>** StaticGet_funLoadSprite()
-		{
-			return (::System::Func_2<::System::String*, ::UnityEngine::Sprite*>**)Il2CppClass::FromTypeDefinitionIndex(MiHoYoSDKLinkImageText_TypeDefinitionIndex)->GetStaticField(0xFF18);
-		}
 		static ::System::Text::StringBuilder** StaticGet_s_TextBuilder()
 		{
-			return (::System::Text::StringBuilder**)Il2CppClass::FromTypeDefinitionIndex(MiHoYoSDKLinkImageText_TypeDefinitionIndex)->GetStaticField(0xFF20);
+			return (::System::Text::StringBuilder**)Il2CppClass::FromTypeDefinitionIndex(MiHoYoSDKLinkImageText_TypeDefinitionIndex)->GetStaticField(0x535E0);
 		}
 		static ::System::Text::RegularExpressions::Regex** StaticGet_s_ImageRegex()
 		{
-			return (::System::Text::RegularExpressions::Regex**)Il2CppClass::FromTypeDefinitionIndex(MiHoYoSDKLinkImageText_TypeDefinitionIndex)->GetStaticField(0xFF28);
+			return (::System::Text::RegularExpressions::Regex**)Il2CppClass::FromTypeDefinitionIndex(MiHoYoSDKLinkImageText_TypeDefinitionIndex)->GetStaticField(0x535E8);
+		}
+		static ::System::Text::RegularExpressions::Regex** StaticGet_s_HrefRegex()
+		{
+			return (::System::Text::RegularExpressions::Regex**)Il2CppClass::FromTypeDefinitionIndex(MiHoYoSDKLinkImageText_TypeDefinitionIndex)->GetStaticField(0x535F0);
+		}
+		static ::System::Func_2<::System::String*, ::UnityEngine::Sprite*>** StaticGet_funLoadSprite()
+		{
+			return (::System::Func_2<::System::String*, ::UnityEngine::Sprite*>**)Il2CppClass::FromTypeDefinitionIndex(MiHoYoSDKLinkImageText_TypeDefinitionIndex)->GetStaticField(0x535F8);
 		}
 		::System::String* m_OutputText; // 0x1F0
 		::System::Collections::Generic::List_1<::UnityEngine::UI::Image*>* m_ImagesPool; // 0x1F8

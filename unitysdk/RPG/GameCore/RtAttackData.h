@@ -17,12 +17,12 @@ namespace RPG::GameCore { class RtDamageExtraDataBase; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_RTATTACKDATA_METHOD_2_F934D1834A4F8AC1_OFFSET UNITYSDK_OFFSET(0x1B7A80B0)
-#define RPG_GAMECORE_RTATTACKDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7A92B0)
+#define RPG_GAMECORE_RTATTACKDATA_METHOD_2_F934D1834A4F8AC1_OFFSET UNITYSDK_OFFSET(0x1D496D70)
+#define RPG_GAMECORE_RTATTACKDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1D497F70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtAttackData_TypeDefinitionIndex = 23305;
+	inline static constexpr unsigned int RtAttackData_TypeDefinitionIndex = 23885;
 
 	class RtAttackData : public ::RPG::GameCore::JsonConfig
 	{

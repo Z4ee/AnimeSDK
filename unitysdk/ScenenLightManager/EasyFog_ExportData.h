@@ -8,11 +8,11 @@
 
 namespace RPG::Client { class EasyFog_ExtraExportData; }
 
-#define SCENENLIGHTMANAGER_EASYFOG_EXPORTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xDD42D90)
+#define SCENENLIGHTMANAGER_EASYFOG_EXPORTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xE90E240)
 
 namespace ScenenLightManager
 {
-	inline static constexpr unsigned int EasyFog_ExportData_TypeDefinitionIndex = 47255;
+	inline static constexpr unsigned int EasyFog_ExportData_TypeDefinitionIndex = 49535;
 
 	class EasyFog_ExportData : public ::ScenenLightManager::BaseComponentExportData
 	{

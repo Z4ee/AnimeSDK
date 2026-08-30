@@ -5,19 +5,19 @@
 namespace System { class String; }
 namespace UnityEngine { class Animation; }
 
-#define CLASS_3_9DCB33D075483A9D_METHOD_3_B387E1AED8A8F880_OFFSET UNITYSDK_OFFSET(0x1488E8E0)
-#define CLASS_3_9DCB33D075483A9D__CTOR_OFFSET UNITYSDK_OFFSET(0x1488E960)
-#define CLASS_3_9DCB33D075483A9D__ONBIND_OFFSET UNITYSDK_OFFSET(0x1488E880)
+#define CLASS_3_9DCB33D075483A9D_METHOD_3_B387E1AED8A8F880_OFFSET UNITYSDK_OFFSET(0x15751C20)
+#define CLASS_3_9DCB33D075483A9D__CTOR_OFFSET UNITYSDK_OFFSET(0x15751CA0)
+#define CLASS_3_9DCB33D075483A9D__ONBIND_OFFSET UNITYSDK_OFFSET(0x15751BC0)
 
-inline static constexpr unsigned int Class_3_9DCB33D075483A9D_TypeDefinitionIndex = 68561;
+inline static constexpr unsigned int Class_3_9DCB33D075483A9D_TypeDefinitionIndex = 71758;
 
 class Class_3_9DCB33D075483A9D : public ::Class_2_F50EE9166BE7CA48
 {
 public:
-	// static const ::System::String* Field_3_0; // 0x0
-	// static const ::System::String* Field_3_1; // 0x0
-	// static const ::System::String* Field_3_2; // 0x0
-	::UnityEngine::Animation* Field_3_3; // 0x70
+	// static const ::System::String* DJCBDJMACFH; // 0x0
+	// static const ::System::String* IIFENECAOBG; // 0x0
+	// static const ::System::String* CGNGHKIIGCM; // 0x0
+	::UnityEngine::Animation* KCOAILOHDND; // 0x70
 
 	::System::Void _ctor()
 	{

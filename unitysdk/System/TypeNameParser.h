@@ -10,11 +10,11 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Reflection { class Assembly; }
 namespace System::Reflection { class AssemblyName; }
 
-#define SYSTEM_TYPENAMEPARSER_GETTYPE_OFFSET UNITYSDK_OFFSET(0x1A069160)
+#define SYSTEM_TYPENAMEPARSER_GETTYPE_OFFSET UNITYSDK_OFFSET(0x1BC7AE10)
 
 namespace System
 {
-	inline static constexpr unsigned int TypeNameParser_TypeDefinitionIndex = 374;
+	inline static constexpr unsigned int TypeNameParser_TypeDefinitionIndex = 377;
 
 	class TypeNameParser : public ::System::Object
 	{

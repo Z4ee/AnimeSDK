@@ -6,13 +6,13 @@ namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 namespace System::Globalization { class CultureInfo; }
 
-#define SYSTEM_RESOURCES_RESOURCEFALLBACKMANAGER_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1A1A3FF0)
-#define SYSTEM_RESOURCES_RESOURCEFALLBACKMANAGER_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1A1A3FA0)
-#define SYSTEM_RESOURCES_RESOURCEFALLBACKMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1A3F00)
+#define SYSTEM_RESOURCES_RESOURCEFALLBACKMANAGER_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1BDABE60)
+#define SYSTEM_RESOURCES_RESOURCEFALLBACKMANAGER_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1BDABE10)
+#define SYSTEM_RESOURCES_RESOURCEFALLBACKMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDABD70)
 
 namespace System::Resources
 {
-	inline static constexpr unsigned int ResourceFallbackManager_TypeDefinitionIndex = 521;
+	inline static constexpr unsigned int ResourceFallbackManager_TypeDefinitionIndex = 524;
 
 	class ResourceFallbackManager : public ::System::Object
 	{

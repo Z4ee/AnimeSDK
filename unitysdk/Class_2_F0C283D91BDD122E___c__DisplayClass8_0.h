@@ -5,9 +5,9 @@
 class Class_2_F0C283D91BDD122E;
 namespace System { class String; }
 
-#define CLASS_2_F0C283D91BDD122E___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB0DE960)
+#define CLASS_2_F0C283D91BDD122E___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBA592D0)
 
-inline static constexpr unsigned int Class_2_F0C283D91BDD122E___c__DisplayClass8_0_TypeDefinitionIndex = 54856;
+inline static constexpr unsigned int Class_2_F0C283D91BDD122E___c__DisplayClass8_0_TypeDefinitionIndex = 57577;
 
 class Class_2_F0C283D91BDD122E___c__DisplayClass8_0 : public ::System::Object
 {

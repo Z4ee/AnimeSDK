@@ -6,7 +6,7 @@
 namespace Codable { class JSONNode; }
 namespace System { class String; }
 
-#define CODABLE_JSONNODE_KEYENUMERATOR_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1360)
+#define CODABLE_JSONNODE_KEYENUMERATOR_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1370)
 #define CODABLE_JSONNODE_KEYENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1300)
 #define CODABLE_JSONNODE_KEYENUMERATOR_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1140)
 #define CODABLE_JSONNODE_KEYENUMERATOR__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1270)
@@ -15,7 +15,7 @@ namespace System { class String; }
 
 namespace Codable
 {
-	inline static constexpr unsigned int JSONNode_KeyEnumerator_TypeDefinitionIndex = 44338;
+	inline static constexpr unsigned int JSONNode_KeyEnumerator_TypeDefinitionIndex = 46520;
 
 	struct alignas(8) JSONNode_KeyEnumerator
 	{

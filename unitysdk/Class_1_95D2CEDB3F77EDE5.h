@@ -5,21 +5,21 @@
 
 namespace System::IO { class Stream; }
 
-#define CLASS_1_95D2CEDB3F77EDE5_METHOD_1_9D9DC0B956875839_OFFSET UNITYSDK_OFFSET(0x1AAD0010)
-#define CLASS_1_95D2CEDB3F77EDE5_METHOD_1_DEC52E86EF8602CE_OFFSET UNITYSDK_OFFSET(0x1AAD2060)
-#define CLASS_1_95D2CEDB3F77EDE5__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AAD5EB0)
-#define CLASS_1_95D2CEDB3F77EDE5__CTOR_OFFSET UNITYSDK_OFFSET(0x1AAD5AD0)
+#define CLASS_1_95D2CEDB3F77EDE5_METHOD_1_9D9DC0B956875839_OFFSET UNITYSDK_OFFSET(0x1C7011C0)
+#define CLASS_1_95D2CEDB3F77EDE5_METHOD_1_DEC52E86EF8602CE_OFFSET UNITYSDK_OFFSET(0x1C703210)
+#define CLASS_1_95D2CEDB3F77EDE5__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C707060)
+#define CLASS_1_95D2CEDB3F77EDE5__CTOR_OFFSET UNITYSDK_OFFSET(0x1C706C80)
 
-inline static constexpr unsigned int Class_1_95D2CEDB3F77EDE5_TypeDefinitionIndex = 41259;
+inline static constexpr unsigned int Class_1_95D2CEDB3F77EDE5_TypeDefinitionIndex = 42219;
 
 class Class_1_95D2CEDB3F77EDE5 : public ::System::Object
 {
 public:
-	static ::Il2CppArray<::System::Byte>** StaticGet_Field_1_0()
+	static ::Il2CppArray<::System::Byte>** StaticGet_JNAMGBBBNII()
 	{
-		return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_95D2CEDB3F77EDE5_TypeDefinitionIndex)->GetStaticField(0x1080);
+		return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_95D2CEDB3F77EDE5_TypeDefinitionIndex)->GetStaticField(0x1230);
 	}
-	// static const ::System::Int32 Field_1_1 = 0x1000; // 0x0
+	// static const ::System::Int32 LIKDOPMKGCO = 0x1000; // 0x0
 
 	::System::Void _ctor()
 	{

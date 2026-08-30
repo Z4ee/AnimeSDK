@@ -5,29 +5,29 @@
 namespace RPG::AvatarSystem { class IAvatar; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITTEAMVIEWMODEL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xBF77E50)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITTEAMVIEWMODEL___C__CTOR_OFFSET UNITYSDK_OFFSET(0xBF77E90)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITTEAMVIEWMODEL___C__ITERATEMODIFIEDAVATARROLEIDS_B__21_0_OFFSET UNITYSDK_OFFSET(0xBF77EA0)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITTEAMVIEWMODEL___C__ITERATEMODIFIEDAVATARS_B__22_0_OFFSET UNITYSDK_OFFSET(0xBF77F10)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITTEAMVIEWMODEL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xCA1FCE0)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITTEAMVIEWMODEL___C__CTOR_OFFSET UNITYSDK_OFFSET(0xCA1FD20)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITTEAMVIEWMODEL___C__ITERATEMODIFIEDAVATARROLEIDS_B__21_0_OFFSET UNITYSDK_OFFSET(0xCA1FD30)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITTEAMVIEWMODEL___C__ITERATEMODIFIEDAVATARS_B__22_0_OFFSET UNITYSDK_OFFSET(0xCA1FDA0)
 
 namespace RPG::Client::Challenge::Tierce
 {
-	inline static constexpr unsigned int ChallengeTierceTeamEditTeamViewModel___c_TypeDefinitionIndex = 76664;
+	inline static constexpr unsigned int ChallengeTierceTeamEditTeamViewModel___c_TypeDefinitionIndex = 80301;
 
 	class ChallengeTierceTeamEditTeamViewModel___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::AvatarSystem::IAvatar*, ::System::Boolean>** StaticGet___9__22_0()
-		{
-			return (::System::Func_2<::RPG::AvatarSystem::IAvatar*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ChallengeTierceTeamEditTeamViewModel___c_TypeDefinitionIndex)->GetStaticField(0x60310);
-		}
 		static ::System::Func_2<::RPG::AvatarSystem::IAvatar*, ::System::UInt32>** StaticGet___9__21_0()
 		{
-			return (::System::Func_2<::RPG::AvatarSystem::IAvatar*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(ChallengeTierceTeamEditTeamViewModel___c_TypeDefinitionIndex)->GetStaticField(0x60318);
+			return (::System::Func_2<::RPG::AvatarSystem::IAvatar*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(ChallengeTierceTeamEditTeamViewModel___c_TypeDefinitionIndex)->GetStaticField(0x20450);
 		}
 		static ::RPG::Client::Challenge::Tierce::ChallengeTierceTeamEditTeamViewModel___c** StaticGet___9()
 		{
-			return (::RPG::Client::Challenge::Tierce::ChallengeTierceTeamEditTeamViewModel___c**)Il2CppClass::FromTypeDefinitionIndex(ChallengeTierceTeamEditTeamViewModel___c_TypeDefinitionIndex)->GetStaticField(0x60320);
+			return (::RPG::Client::Challenge::Tierce::ChallengeTierceTeamEditTeamViewModel___c**)Il2CppClass::FromTypeDefinitionIndex(ChallengeTierceTeamEditTeamViewModel___c_TypeDefinitionIndex)->GetStaticField(0x20458);
+		}
+		static ::System::Func_2<::RPG::AvatarSystem::IAvatar*, ::System::Boolean>** StaticGet___9__22_0()
+		{
+			return (::System::Func_2<::RPG::AvatarSystem::IAvatar*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ChallengeTierceTeamEditTeamViewModel___c_TypeDefinitionIndex)->GetStaticField(0x20460);
 		}
 
 		static ::System::Void _cctor()

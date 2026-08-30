@@ -5,17 +5,17 @@
 namespace System { class String; }
 namespace System::Collections { class IEnumerator; }
 
-#define PACKAGENAMERECORD_METHOD_5_6A7CEF06F8896271_OFFSET UNITYSDK_OFFSET(0xBA73A00)
-#define PACKAGENAMERECORD_METHOD_5_B8FAD8726C647FA2_OFFSET UNITYSDK_OFFSET(0xBA73AA0)
-#define PACKAGENAMERECORD_WRITEANDUPLOADBRANCHDATA_OFFSET UNITYSDK_OFFSET(0xBA73400)
-#define PACKAGENAMERECORD__CTOR_OFFSET UNITYSDK_OFFSET(0xBA73B40)
+#define PACKAGENAMERECORD_METHOD_5_6A7CEF06F8896271_OFFSET UNITYSDK_OFFSET(0xC492310)
+#define PACKAGENAMERECORD_METHOD_5_B8FAD8726C647FA2_OFFSET UNITYSDK_OFFSET(0xC4923B0)
+#define PACKAGENAMERECORD_WRITEANDUPLOADBRANCHDATA_OFFSET UNITYSDK_OFFSET(0xC491D10)
+#define PACKAGENAMERECORD__CTOR_OFFSET UNITYSDK_OFFSET(0xC492450)
 
-inline static constexpr unsigned int PackageNameRecord_TypeDefinitionIndex = 45788;
+inline static constexpr unsigned int PackageNameRecord_TypeDefinitionIndex = 48040;
 
 class PackageNameRecord : public ::UnityEngine::MonoBehaviour
 {
 public:
-	// static const ::System::String* Field_5_0; // 0x0
+	// static const ::System::String* IBJAJCDGBGC; // 0x0
 
 	::System::Void _ctor()
 	{

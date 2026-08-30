@@ -5,12 +5,12 @@
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Threading::Tasks { class Task; }
 
-#define SYSTEM_THREADING_TASKS_TASKFACTORY_COMPLETEONINVOKEPROMISE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A04A070)
-#define SYSTEM_THREADING_TASKS_TASKFACTORY_COMPLETEONINVOKEPROMISE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A049F90)
+#define SYSTEM_THREADING_TASKS_TASKFACTORY_COMPLETEONINVOKEPROMISE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BC50F30)
+#define SYSTEM_THREADING_TASKS_TASKFACTORY_COMPLETEONINVOKEPROMISE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC50E50)
 
 namespace System::Threading::Tasks
 {
-	inline static constexpr unsigned int TaskFactory_CompleteOnInvokePromise_TypeDefinitionIndex = 924;
+	inline static constexpr unsigned int TaskFactory_CompleteOnInvokePromise_TypeDefinitionIndex = 929;
 
 	class TaskFactory_CompleteOnInvokePromise : public ::System::Threading::Tasks::Task_1<::System::Threading::Tasks::Task*>
 	{

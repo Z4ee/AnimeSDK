@@ -7,21 +7,21 @@ namespace Google::Protobuf::Reflection { class EnumValueDescriptorProto; }
 namespace Google::Protobuf::Reflection { class FileDescriptor; }
 namespace System { class String; }
 
-#define GOOGLE_PROTOBUF_REFLECTION_ENUMVALUEDESCRIPTOR_GET_ENUMDESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x197E5800)
-#define GOOGLE_PROTOBUF_REFLECTION_ENUMVALUEDESCRIPTOR_GET_NAME_OFFSET UNITYSDK_OFFSET(0x197E5730)
-#define GOOGLE_PROTOBUF_REFLECTION_ENUMVALUEDESCRIPTOR_GET_NUMBER_OFFSET UNITYSDK_OFFSET(0x197D89B0)
-#define GOOGLE_PROTOBUF_REFLECTION_ENUMVALUEDESCRIPTOR_GET_PROTO_OFFSET UNITYSDK_OFFSET(0x197E5720)
-#define GOOGLE_PROTOBUF_REFLECTION_ENUMVALUEDESCRIPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x197E1A70)
+#define GOOGLE_PROTOBUF_REFLECTION_ENUMVALUEDESCRIPTOR_GET_ENUMDESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1B370A30)
+#define GOOGLE_PROTOBUF_REFLECTION_ENUMVALUEDESCRIPTOR_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1B370960)
+#define GOOGLE_PROTOBUF_REFLECTION_ENUMVALUEDESCRIPTOR_GET_NUMBER_OFFSET UNITYSDK_OFFSET(0x1B363B80)
+#define GOOGLE_PROTOBUF_REFLECTION_ENUMVALUEDESCRIPTOR_GET_PROTO_OFFSET UNITYSDK_OFFSET(0x1B370950)
+#define GOOGLE_PROTOBUF_REFLECTION_ENUMVALUEDESCRIPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1B36CCA0)
 
 namespace Google::Protobuf::Reflection
 {
-	inline static constexpr unsigned int EnumValueDescriptor_TypeDefinitionIndex = 5538;
+	inline static constexpr unsigned int EnumValueDescriptor_TypeDefinitionIndex = 5527;
 
 	class EnumValueDescriptor : public ::Google::Protobuf::Reflection::DescriptorBase
 	{
 	public:
-		::Google::Protobuf::Reflection::EnumValueDescriptorProto* proto; // 0x28
-		::Google::Protobuf::Reflection::EnumDescriptor* enumDescriptor; // 0x30
+		::Google::Protobuf::Reflection::EnumDescriptor* enumDescriptor; // 0x28
+		::Google::Protobuf::Reflection::EnumValueDescriptorProto* proto; // 0x30
 
 		::System::Void _ctor(::Google::Protobuf::Reflection::EnumValueDescriptorProto* a1, ::Google::Protobuf::Reflection::FileDescriptor* a2, ::Google::Protobuf::Reflection::EnumDescriptor* a3, ::System::Int32 a4)
 		{

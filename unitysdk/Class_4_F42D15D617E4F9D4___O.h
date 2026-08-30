@@ -5,13 +5,13 @@
 
 template <typename T> class Class_1_D837DED66799FBE3_DelegateParseJson_1;
 
-inline static constexpr unsigned int Class_4_F42D15D617E4F9D4___O_TypeDefinitionIndex = 23325;
+inline static constexpr unsigned int Class_4_F42D15D617E4F9D4___O_TypeDefinitionIndex = 23905;
 
 class Class_4_F42D15D617E4F9D4___O : public ::System::Object
 {
 public:
 	static ::Class_1_D837DED66799FBE3_DelegateParseJson_1<::RPG::GameCore::AttackType>** StaticGet__0___FromJson()
 	{
-		return (::Class_1_D837DED66799FBE3_DelegateParseJson_1<::RPG::GameCore::AttackType>**)Il2CppClass::FromTypeDefinitionIndex(Class_4_F42D15D617E4F9D4___O_TypeDefinitionIndex)->GetStaticField(0x54350);
+		return (::Class_1_D837DED66799FBE3_DelegateParseJson_1<::RPG::GameCore::AttackType>**)Il2CppClass::FromTypeDefinitionIndex(Class_4_F42D15D617E4F9D4___O_TypeDefinitionIndex)->GetStaticField(0x24630);
 	}
 };

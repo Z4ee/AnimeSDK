@@ -7,12 +7,12 @@
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_ANIMATORCONTROLTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xDC94290)
-#define RPGTOOLS_TIMELINE_ANIMATORCONTROLTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xDC94580)
+#define RPGTOOLS_TIMELINE_ANIMATORCONTROLTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE810470)
+#define RPGTOOLS_TIMELINE_ANIMATORCONTROLTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xE810810)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int AnimatorControlTrack_TypeDefinitionIndex = 46084;
+	inline static constexpr unsigned int AnimatorControlTrack_TypeDefinitionIndex = 48313;
 
 	class AnimatorControlTrack : public ::RPGTools::Timeline::CharacterTrack
 	{

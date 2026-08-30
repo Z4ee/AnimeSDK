@@ -3,7 +3,7 @@
 #include "unitysdk/RPG/Client/SequentialPanelContainer/AlignmentType.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_1169;
+class Class_0_16E4307DCC419505_1229;
 namespace RPG::Client::SequentialPanelContainer { class SequentialPanelAnchorInfo; }
 namespace RPG::Client::SequentialPanelContainer { class SequentialPanelItem; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
@@ -11,16 +11,16 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class RectTransform; }
 
-#define RPG_CLIENT_SEQUENTIALPANELCONTAINER_SEQUENTIALPANELLAYOUTMANAGER_UPDATELAYOUT_OFFSET UNITYSDK_OFFSET(0xD4E3EC0)
-#define RPG_CLIENT_SEQUENTIALPANELCONTAINER_SEQUENTIALPANELLAYOUTMANAGER__ADJUSTPANELSTOSCREENBOUNDS_OFFSET UNITYSDK_OFFSET(0xD4E53A0)
-#define RPG_CLIENT_SEQUENTIALPANELCONTAINER_SEQUENTIALPANELLAYOUTMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0xD4E4A40)
-#define RPG_CLIENT_SEQUENTIALPANELCONTAINER_SEQUENTIALPANELLAYOUTMANAGER__GETSCREENBOUNDS_OFFSET UNITYSDK_OFFSET(0xD4E5B10)
-#define RPG_CLIENT_SEQUENTIALPANELCONTAINER_SEQUENTIALPANELLAYOUTMANAGER__GETSCREENRECT_OFFSET UNITYSDK_OFFSET(0xD4E5940)
-#define RPG_CLIENT_SEQUENTIALPANELCONTAINER_SEQUENTIALPANELLAYOUTMANAGER__GETUISCALEFACTOR_OFFSET UNITYSDK_OFFSET(0xD4E5D30)
+#define RPG_CLIENT_SEQUENTIALPANELCONTAINER_SEQUENTIALPANELLAYOUTMANAGER_UPDATELAYOUT_OFFSET UNITYSDK_OFFSET(0xE073790)
+#define RPG_CLIENT_SEQUENTIALPANELCONTAINER_SEQUENTIALPANELLAYOUTMANAGER__ADJUSTPANELSTOSCREENBOUNDS_OFFSET UNITYSDK_OFFSET(0xE074C70)
+#define RPG_CLIENT_SEQUENTIALPANELCONTAINER_SEQUENTIALPANELLAYOUTMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0xE074310)
+#define RPG_CLIENT_SEQUENTIALPANELCONTAINER_SEQUENTIALPANELLAYOUTMANAGER__GETSCREENBOUNDS_OFFSET UNITYSDK_OFFSET(0xE0753E0)
+#define RPG_CLIENT_SEQUENTIALPANELCONTAINER_SEQUENTIALPANELLAYOUTMANAGER__GETSCREENRECT_OFFSET UNITYSDK_OFFSET(0xE075210)
+#define RPG_CLIENT_SEQUENTIALPANELCONTAINER_SEQUENTIALPANELLAYOUTMANAGER__GETUISCALEFACTOR_OFFSET UNITYSDK_OFFSET(0xE075600)
 
 namespace RPG::Client::SequentialPanelContainer
 {
-	inline static constexpr unsigned int SequentialPanelLayoutManager_TypeDefinitionIndex = 71308;
+	inline static constexpr unsigned int SequentialPanelLayoutManager_TypeDefinitionIndex = 74614;
 
 	class SequentialPanelLayoutManager : public ::System::Object
 	{
@@ -28,8 +28,8 @@ namespace RPG::Client::SequentialPanelContainer
 		// static const ::System::Single SCREEN_PADDING; // 0x0
 		// static const ::System::Single DEFAULT_SPACING; // 0x0
 		::System::Collections::Generic::List_1<::UnityEngine::RectTransform*>* _AlignRectTransforms; // 0x10
-		::System::Collections::Generic::List_1<::UnityEngine::RectTransform*>* _RootRectTransforms; // 0x18
-		::System::Collections::Generic::Dictionary_2<::RPG::Client::SequentialPanelContainer::AlignmentType, ::Class_0_16E4307DCC419505_1169*>* _Strategies; // 0x20
+		::System::Collections::Generic::Dictionary_2<::RPG::Client::SequentialPanelContainer::AlignmentType, ::Class_0_16E4307DCC419505_1229*>* _Strategies; // 0x18
+		::System::Collections::Generic::List_1<::UnityEngine::RectTransform*>* _RootRectTransforms; // 0x20
 
 		::System::Void _ctor()
 		{

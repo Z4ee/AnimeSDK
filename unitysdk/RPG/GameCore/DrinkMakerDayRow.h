@@ -4,18 +4,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_DRINKMAKERDAYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B3C2B90)
-#define RPG_GAMECORE_DRINKMAKERDAYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3C31B0)
+#define RPG_GAMECORE_DRINKMAKERDAYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D040F40)
+#define RPG_GAMECORE_DRINKMAKERDAYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D041560)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DrinkMakerDayRow_TypeDefinitionIndex = 12681;
+	inline static constexpr unsigned int DrinkMakerDayRow_TypeDefinitionIndex = 13072;
 
 	class DrinkMakerDayRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* GuestSequenceList; // 0x10
-		::Il2CppArray<::System::UInt32>* FinishDaySubMissionIDList; // 0x18
+		::Il2CppArray<::System::UInt32>* FinishDaySubMissionIDList; // 0x10
+		::Il2CppArray<::System::UInt32>* GuestSequenceList; // 0x18
 		::System::UInt32 CanStartSubMissionID; // 0x20
 		::System::UInt32 DayID; // 0x24
 

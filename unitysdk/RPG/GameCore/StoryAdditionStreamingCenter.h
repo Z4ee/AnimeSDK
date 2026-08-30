@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_STORYADDITIONSTREAMINGCENTER_METHOD_2_C91B2F96C8D2F79F_OFFSET UNITYSDK_OFFSET(0x1B9131F0)
-#define RPG_GAMECORE_STORYADDITIONSTREAMINGCENTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B913370)
+#define RPG_GAMECORE_STORYADDITIONSTREAMINGCENTER_METHOD_2_6E6C4476C8B986B6_OFFSET UNITYSDK_OFFSET(0x1D570A90)
+#define RPG_GAMECORE_STORYADDITIONSTREAMINGCENTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D570BE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StoryAdditionStreamingCenter_TypeDefinitionIndex = 20442;
+	inline static constexpr unsigned int StoryAdditionStreamingCenter_TypeDefinitionIndex = 20994;
 
 	class StoryAdditionStreamingCenter : public ::RPG::GameCore::JsonConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STORYADDITIONSTREAMINGCENTER__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_C91B2F96C8D2F79F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StoryAdditionStreamingCenter*& a2)
+		static ::System::Void Method_2_6E6C4476C8B986B6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StoryAdditionStreamingCenter*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StoryAdditionStreamingCenter*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STORYADDITIONSTREAMINGCENTER_METHOD_2_C91B2F96C8D2F79F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StoryAdditionStreamingCenter*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STORYADDITIONSTREAMINGCENTER_METHOD_2_6E6C4476C8B986B6_OFFSET))(a1, a2);
 		}
 	};
 }

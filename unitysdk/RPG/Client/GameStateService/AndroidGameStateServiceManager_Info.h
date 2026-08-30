@@ -3,7 +3,7 @@
 
 namespace RPG::Client::GameStateService
 {
-	inline static constexpr unsigned int AndroidGameStateServiceManager_Info_TypeDefinitionIndex = 72020;
+	inline static constexpr unsigned int AndroidGameStateServiceManager_Info_TypeDefinitionIndex = 75326;
 
 	enum class AndroidGameStateServiceManager_Info : ::System::Int32
 	{
@@ -28,6 +28,7 @@ namespace RPG::Client::GameStateService
 		E_PlayerMorphed = 2104,
 		E_PlayerAmbushed = 2105,
 		E_PlayerUltraDetail = 2106,
+		E_RequestFailed = 2500,
 		G_TargetFrame = 3001,
 		G_RenderResolution = 3002,
 		G_AntiAliasing = 3003,
@@ -43,5 +44,9 @@ namespace RPG::Client::GameStateService
 		G_BattleVFXResolutionQuality = 3013,
 		G_NumericalResolution = 3014,
 		A_Pause = 4001,
+		A_PhoneControlMode = 4101,
+		A_NetworkLatency = 4102,
+		R_SwitchPhoneControlMode = 5001,
+		R_EnableNotifyNetworkLatency = 5003,
 	};
 }

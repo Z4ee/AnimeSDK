@@ -13,13 +13,13 @@ namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class Mesh; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_EFFECT_SLOWRAINDROP_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xC345250)
-#define RPG_CLIENT_EFFECT_SLOWRAINDROP_METHOD_5_C7AA0B5353D21688_OFFSET UNITYSDK_OFFSET(0xC3451E0)
-#define RPG_CLIENT_EFFECT_SLOWRAINDROP__CTOR_OFFSET UNITYSDK_OFFSET(0xC345A10)
+#define RPG_CLIENT_EFFECT_SLOWRAINDROP_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xCE166E0)
+#define RPG_CLIENT_EFFECT_SLOWRAINDROP_METHOD_5_C7AA0B5353D21688_OFFSET UNITYSDK_OFFSET(0xCE16670)
+#define RPG_CLIENT_EFFECT_SLOWRAINDROP__CTOR_OFFSET UNITYSDK_OFFSET(0xCE16EA0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_SlowRaindrop_TypeDefinitionIndex = 67395;
+	inline static constexpr unsigned int Effect_SlowRaindrop_TypeDefinitionIndex = 70517;
 
 	class Effect_SlowRaindrop : public ::UnityEngine::MonoBehaviour
 	{
@@ -52,24 +52,24 @@ namespace RPG::Client
 		::UnityEngine::Color FresnelColor2; // 0xBC
 		::UnityEngine::Color MatCapColor; // 0xCC
 		::System::Single MatCapLerp; // 0xDC
-		::System::Boolean Field_5_28; // 0xE0
-		::System::Boolean Field_5_29; // 0xE1
-		::UnityEngine::MaterialPropertyBlock* Field_5_30; // 0xE8
-		::UnityEngine::MaterialPropertyBlock* Field_5_31; // 0xF0
+		::System::Boolean BBOMCPCHIJP; // 0xE0
+		::System::Boolean GFJJHNCNAOL; // 0xE1
+		::UnityEngine::MaterialPropertyBlock* BMCPFHADPKJ; // 0xE8
+		::UnityEngine::MaterialPropertyBlock* OBIJMKMHMOH; // 0xF0
 		::System::Collections::Generic::List_1<::UnityEngine::Matrix4x4>* _WorldMatrixArray; // 0xF8
-		::System::Collections::Generic::List_1<::UnityEngine::Matrix4x4>* Field_5_33; // 0x100
+		::System::Collections::Generic::List_1<::UnityEngine::Matrix4x4>* GJEDLNKCPLD; // 0x100
 		::System::Collections::Generic::List_1<::UnityEngine::Matrix4x4>* _DummyMatrix; // 0x108
 		::System::Collections::Generic::List_1<::UnityEngine::Vector4>* _ScaleByTime; // 0x110
-		::System::Collections::Generic::List_1<::UnityEngine::Vector4>* Field_5_36; // 0x118
+		::System::Collections::Generic::List_1<::UnityEngine::Vector4>* MEPBLDIFPGP; // 0x118
 		::System::Collections::Generic::List_1<::UnityEngine::Matrix4x4>* _SliceOffsetMatrix; // 0x120
-		::System::Collections::Generic::List_1<::UnityEngine::Matrix4x4>* Field_5_38; // 0x128
+		::System::Collections::Generic::List_1<::UnityEngine::Matrix4x4>* GFCPJGEBLKK; // 0x128
 		::System::Collections::Generic::List_1<::System::Single>* _AniOffsetList; // 0x130
 		::System::Collections::Generic::List_1<::UnityEngine::Vector4>* _AttraCenter; // 0x138
-		::UnityEngine::Matrix4x4 Field_5_41; // 0x140
-		::UnityEngine::Vector3 Field_5_42; // 0x180
-		::UnityEngine::Vector4 Field_5_43; // 0x18C
-		::UnityEngine::Vector4 Field_5_44; // 0x19C
-		::UnityEngine::Vector3 Field_5_45; // 0x1AC
+		::UnityEngine::Matrix4x4 CNPPOPEOLHC; // 0x140
+		::UnityEngine::Vector3 CPKEFMBLLNC; // 0x180
+		::UnityEngine::Vector4 CGOEEPFMOHD; // 0x18C
+		::UnityEngine::Vector4 PBNNFDBHNIL; // 0x19C
+		::UnityEngine::Vector3 DHCOJGNIKKD; // 0x1AC
 
 		::System::Void _ctor()
 		{

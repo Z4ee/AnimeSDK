@@ -6,16 +6,16 @@
 
 namespace RPG::GameCore { class FiveDimAvatarConfig; }
 
-#define CLASS_1_034C19731D8994B1__CTOR_OFFSET UNITYSDK_OFFSET(0x1A779210)
+#define CLASS_1_034C19731D8994B1__CTOR_OFFSET UNITYSDK_OFFSET(0x1C389D60)
 
-inline static constexpr unsigned int Class_1_034C19731D8994B1_TypeDefinitionIndex = 40779;
+inline static constexpr unsigned int Class_1_034C19731D8994B1_TypeDefinitionIndex = 41733;
 
 class Class_1_034C19731D8994B1 : public ::System::Object
 {
 public:
-	::Struct_2_BB5BCCB5198D0333 Field_1_0; // 0x10
-	::RPG::GameCore::FiveDimAvatarConfig* Field_1_1; // 0x58
-	::Struct_2_4C8453486C91E3A1 Field_1_2; // 0x60
+	::RPG::GameCore::FiveDimAvatarConfig* JIHEDFDCCAD; // 0x10
+	::Struct_2_BB5BCCB5198D0333 IAOEFADOKKA; // 0x18
+	::Struct_2_4C8453486C91E3A1 IPPKEEBMOEA; // 0x60
 
 	::System::Void _ctor()
 	{

@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int NativeContainer_1_TypeDefinitionIndex = 10517;
+	inline static constexpr unsigned int NativeContainer_1_TypeDefinitionIndex = 10858;
 
 	template <typename T>
 	class NativeContainer_1 : public ::Class_1_83665B095F1535B5_1

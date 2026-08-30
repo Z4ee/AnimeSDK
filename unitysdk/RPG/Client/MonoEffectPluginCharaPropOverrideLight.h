@@ -12,21 +12,22 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class Renderer; }
 namespace UnityEngine { class Shader; }
 
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPOVERRIDELIGHT_INIT_OFFSET UNITYSDK_OFFSET(0xCCA5590)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPOVERRIDELIGHT_UNINIT_OFFSET UNITYSDK_OFFSET(0xCCA55F0)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPOVERRIDELIGHT_UPDATEPROPERTY_OFFSET UNITYSDK_OFFSET(0xCCA5640)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPOVERRIDELIGHT__CTOR_OFFSET UNITYSDK_OFFSET(0xCCA5740)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPOVERRIDELIGHT_INIT_OFFSET UNITYSDK_OFFSET(0xD7A4830)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPOVERRIDELIGHT_UNINIT_OFFSET UNITYSDK_OFFSET(0xD7A4890)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPOVERRIDELIGHT_UPDATEPROPERTY_OFFSET UNITYSDK_OFFSET(0xD7A48E0)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPOVERRIDELIGHT__CTOR_OFFSET UNITYSDK_OFFSET(0xD7A49E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginCharaPropOverrideLight_TypeDefinitionIndex = 66837;
+	inline static constexpr unsigned int MonoEffectPluginCharaPropOverrideLight_TypeDefinitionIndex = 69939;
 
 	class MonoEffectPluginCharaPropOverrideLight : public ::RPG::Client::MonoEffectPluginCharaPropBase
 	{
 	public:
 		::UnityEngine::Space OverrideLightSpace; // 0x40
+		::System::Boolean OverrideLightFollowRotation; // 0x44
 		::RPG::Client::TAUtils::OverrideLightModule OverrideLightModule; // 0x48
-		::UnityEngine::Material* Field_6_2; // 0x198
+		::UnityEngine::Material* CJMPDEJJAJL; // 0x198
 
 		::System::Void _ctor()
 		{

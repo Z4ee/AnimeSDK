@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define UNITYENGINE_DEFAULTEXECUTIONORDER_GET_ORDER_OFFSET UNITYSDK_OFFSET(0x1D018280)
-#define UNITYENGINE_DEFAULTEXECUTIONORDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D018270)
+#define UNITYENGINE_DEFAULTEXECUTIONORDER_GET_ORDER_OFFSET UNITYSDK_OFFSET(0x1ED1F850)
+#define UNITYENGINE_DEFAULTEXECUTIONORDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1ED1F840)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int DefaultExecutionOrder_TypeDefinitionIndex = 4298;
+	inline static constexpr unsigned int DefaultExecutionOrder_TypeDefinitionIndex = 4308;
 
 	class DefaultExecutionOrder : public ::System::Attribute
 	{

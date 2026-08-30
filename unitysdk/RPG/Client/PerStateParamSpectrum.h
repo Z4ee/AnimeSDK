@@ -5,11 +5,11 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_PERSTATEPARAMSPECTRUM__CTOR_OFFSET UNITYSDK_OFFSET(0xCF51E20)
+#define RPG_CLIENT_PERSTATEPARAMSPECTRUM__CTOR_OFFSET UNITYSDK_OFFSET(0xDA4F810)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PerStateParamSpectrum_TypeDefinitionIndex = 67664;
+	inline static constexpr unsigned int PerStateParamSpectrum_TypeDefinitionIndex = 70787;
 
 	class PerStateParamSpectrum : public ::System::Object
 	{

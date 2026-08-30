@@ -6,11 +6,11 @@ namespace RPG::Client::LittleGame::CakeRace { class CakeRaceReplayRecord; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_LITTLEGAME_CAKERACE_CAKERACEREPLAYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xC96DAA0)
+#define RPG_CLIENT_LITTLEGAME_CAKERACE_CAKERACEREPLAYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xD4ADBE0)
 
 namespace RPG::Client::LittleGame::CakeRace
 {
-	inline static constexpr unsigned int CakeRaceReplayData_TypeDefinitionIndex = 74139;
+	inline static constexpr unsigned int CakeRaceReplayData_TypeDefinitionIndex = 77623;
 
 	class CakeRaceReplayData : public ::System::Object
 	{

@@ -5,12 +5,12 @@
 namespace RPG::Client { class BaseGameFlow; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_QUESTIONRESPONSESERVICE___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBBDC490)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_QUESTIONRESPONSESERVICE___C__DISPLAYCLASS12_0___TRIGGERGIFT_B__0_OFFSET UNITYSDK_OFFSET(0xBBDC910)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_QUESTIONRESPONSESERVICE___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC5FA490)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_QUESTIONRESPONSESERVICE___C__DISPLAYCLASS12_0___TRIGGERGIFT_B__0_OFFSET UNITYSDK_OFFSET(0xC5FA910)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int QuestionResponseService___c__DisplayClass12_0_TypeDefinitionIndex = 71751;
+	inline static constexpr unsigned int QuestionResponseService___c__DisplayClass12_0_TypeDefinitionIndex = 75057;
 
 	class QuestionResponseService___c__DisplayClass12_0 : public ::System::Object
 	{

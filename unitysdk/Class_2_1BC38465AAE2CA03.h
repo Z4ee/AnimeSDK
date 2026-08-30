@@ -6,15 +6,15 @@ class Class_2_21AD365C113DC484;
 class Class_2_F3C45F1FC7349B6E;
 namespace RPG::GameCore { class CakeRaceActionPropertyModifier; }
 
-#define CLASS_2_1BC38465AAE2CA03_METHOD_2_B597DF5A9D2C1747_OFFSET UNITYSDK_OFFSET(0x1A4EBF50)
-#define CLASS_2_1BC38465AAE2CA03__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4EBF40)
+#define CLASS_2_1BC38465AAE2CA03_METHOD_2_B597DF5A9D2C1747_OFFSET UNITYSDK_OFFSET(0x1C0FBAB0)
+#define CLASS_2_1BC38465AAE2CA03__CTOR_OFFSET UNITYSDK_OFFSET(0x1C0FBAA0)
 
-inline static constexpr unsigned int Class_2_1BC38465AAE2CA03_TypeDefinitionIndex = 35843;
+inline static constexpr unsigned int Class_2_1BC38465AAE2CA03_TypeDefinitionIndex = 36704;
 
 class Class_2_1BC38465AAE2CA03 : public ::Class_1_E559374AC4E5AD13
 {
 public:
-	::RPG::GameCore::CakeRaceActionPropertyModifier* Field_2_0; // 0x10
+	::RPG::GameCore::CakeRaceActionPropertyModifier* JKMCCMKALOM; // 0x10
 
 	::System::Void _ctor(::RPG::GameCore::CakeRaceActionPropertyModifier* a1)
 	{

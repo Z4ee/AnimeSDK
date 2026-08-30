@@ -6,15 +6,15 @@ class Class_2_B66C1067C0468FBB;
 namespace RPG::GameCore { class ChimeraDuelEntityCompositeComparer; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_3_C579947CA941AB2F_METHOD_3_65F634C5E76CBD91_OFFSET UNITYSDK_OFFSET(0xCB099F0)
-#define CLASS_3_C579947CA941AB2F__CTOR_OFFSET UNITYSDK_OFFSET(0xCB09910)
+#define CLASS_3_C579947CA941AB2F_METHOD_3_65F634C5E76CBD91_OFFSET UNITYSDK_OFFSET(0xD800400)
+#define CLASS_3_C579947CA941AB2F__CTOR_OFFSET UNITYSDK_OFFSET(0xD800320)
 
-inline static constexpr unsigned int Class_3_C579947CA941AB2F_TypeDefinitionIndex = 73488;
+inline static constexpr unsigned int Class_3_C579947CA941AB2F_TypeDefinitionIndex = 76972;
 
 class Class_3_C579947CA941AB2F : public ::Class_2_2AFA6D08323477B5
 {
 public:
-	::System::Collections::Generic::List_1<::Class_2_2AFA6D08323477B5*>* Field_3_0; // 0x18
+	::System::Collections::Generic::List_1<::Class_2_2AFA6D08323477B5*>* AAMPDBBPEBD; // 0x18
 
 	::System::Void _ctor(::RPG::GameCore::ChimeraDuelEntityCompositeComparer* a1)
 	{

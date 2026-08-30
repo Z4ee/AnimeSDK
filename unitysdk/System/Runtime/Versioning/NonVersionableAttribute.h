@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SYSTEM_RUNTIME_VERSIONING_NONVERSIONABLEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CA14DA0)
+#define SYSTEM_RUNTIME_VERSIONING_NONVERSIONABLEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E6BF6C0)
 
 namespace System::Runtime::Versioning
 {
-	inline static constexpr unsigned int NonVersionableAttribute_TypeDefinitionIndex = 6963;
+	inline static constexpr unsigned int NonVersionableAttribute_TypeDefinitionIndex = 6575;
 
 	class NonVersionableAttribute : public ::System::Attribute
 	{

@@ -14,23 +14,23 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 
-#define RPG_CLIENT_EFFECT_FALLINGANIMATOR_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC307B20)
-#define RPG_CLIENT_EFFECT_FALLINGANIMATOR_INIT_OFFSET UNITYSDK_OFFSET(0xC3070A0)
-#define RPG_CLIENT_EFFECT_FALLINGANIMATOR_METHOD_5_356114EF3CF36D59_OFFSET UNITYSDK_OFFSET(0xC308CB0)
-#define RPG_CLIENT_EFFECT_FALLINGANIMATOR_METHOD_5_4CD934F1AB922E45_OFFSET UNITYSDK_OFFSET(0xC3083E0)
-#define RPG_CLIENT_EFFECT_FALLINGANIMATOR_METHOD_5_77FD543600E00498_1_OFFSET UNITYSDK_OFFSET(0xC307790)
-#define RPG_CLIENT_EFFECT_FALLINGANIMATOR_METHOD_5_77FD543600E00498_2_OFFSET UNITYSDK_OFFSET(0xC3079E0)
-#define RPG_CLIENT_EFFECT_FALLINGANIMATOR_METHOD_5_77FD543600E00498_OFFSET UNITYSDK_OFFSET(0xC3076F0)
-#define RPG_CLIENT_EFFECT_FALLINGANIMATOR_METHOD_5_FA7F07669215B524_OFFSET UNITYSDK_OFFSET(0xC307950)
-#define RPG_CLIENT_EFFECT_FALLINGANIMATOR_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xC307AD0)
-#define RPG_CLIENT_EFFECT_FALLINGANIMATOR_ONENABLE_OFFSET UNITYSDK_OFFSET(0xC307A80)
-#define RPG_CLIENT_EFFECT_FALLINGANIMATOR_REGENERATE_OFFSET UNITYSDK_OFFSET(0xC307050)
-#define RPG_CLIENT_EFFECT_FALLINGANIMATOR_UPDATE_OFFSET UNITYSDK_OFFSET(0xC307C20)
-#define RPG_CLIENT_EFFECT_FALLINGANIMATOR__CTOR_OFFSET UNITYSDK_OFFSET(0xC308E90)
+#define RPG_CLIENT_EFFECT_FALLINGANIMATOR_DISPOSE_OFFSET UNITYSDK_OFFSET(0xCDD8F40)
+#define RPG_CLIENT_EFFECT_FALLINGANIMATOR_INIT_OFFSET UNITYSDK_OFFSET(0xCDD84C0)
+#define RPG_CLIENT_EFFECT_FALLINGANIMATOR_METHOD_5_356114EF3CF36D59_OFFSET UNITYSDK_OFFSET(0xCDDA0D0)
+#define RPG_CLIENT_EFFECT_FALLINGANIMATOR_METHOD_5_4CD934F1AB922E45_OFFSET UNITYSDK_OFFSET(0xCDD9800)
+#define RPG_CLIENT_EFFECT_FALLINGANIMATOR_METHOD_5_77FD543600E00498_1_OFFSET UNITYSDK_OFFSET(0xCDD8BB0)
+#define RPG_CLIENT_EFFECT_FALLINGANIMATOR_METHOD_5_77FD543600E00498_2_OFFSET UNITYSDK_OFFSET(0xCDD8E00)
+#define RPG_CLIENT_EFFECT_FALLINGANIMATOR_METHOD_5_77FD543600E00498_OFFSET UNITYSDK_OFFSET(0xCDD8B10)
+#define RPG_CLIENT_EFFECT_FALLINGANIMATOR_METHOD_5_FA7F07669215B524_OFFSET UNITYSDK_OFFSET(0xCDD8D70)
+#define RPG_CLIENT_EFFECT_FALLINGANIMATOR_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xCDD8EF0)
+#define RPG_CLIENT_EFFECT_FALLINGANIMATOR_ONENABLE_OFFSET UNITYSDK_OFFSET(0xCDD8EA0)
+#define RPG_CLIENT_EFFECT_FALLINGANIMATOR_REGENERATE_OFFSET UNITYSDK_OFFSET(0xCDD8470)
+#define RPG_CLIENT_EFFECT_FALLINGANIMATOR_UPDATE_OFFSET UNITYSDK_OFFSET(0xCDD9040)
+#define RPG_CLIENT_EFFECT_FALLINGANIMATOR__CTOR_OFFSET UNITYSDK_OFFSET(0xCDDA2B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_FallingAnimator_TypeDefinitionIndex = 67309;
+	inline static constexpr unsigned int Effect_FallingAnimator_TypeDefinitionIndex = 70431;
 
 	class Effect_FallingAnimator : public ::UnityEngine::MonoBehaviour
 	{
@@ -40,7 +40,7 @@ namespace RPG::Client
 		::RPG::Client::TAUtils::SimpleTransform relativeTransform; // 0x28
 		::UnityEngine::Vector2 sizeMinMax; // 0x4C
 		::UnityEngine::AnimationCurve* scaleAlongHeight; // 0x58
-		::System::Int32 Field_5_5; // 0x60
+		::System::Int32 AMAIIHILPKA; // 0x60
 		::UnityEngine::AnimationCurve* scaleAlongRadius; // 0x68
 		::System::Single sizeDiscardThreshold; // 0x70
 		::System::Single radius; // 0x74
@@ -57,15 +57,15 @@ namespace RPG::Client
 		::System::Single rotationRange; // 0xAC
 		::System::Single rotationFrequency; // 0xB0
 		::System::Single fallSpeed; // 0xB4
-		::System::Single Field_5_22; // 0xB8
+		::System::Single DJIKPFCFAPO; // 0xB8
 		::System::Collections::Generic::List_1<::UnityEngine::Vector4>* m_positionScaleList; // 0xC0
 		::System::Collections::Generic::List_1<::System::Single>* m_randomNumbersList; // 0xC8
-		::Il2CppArray<::Il2CppArray<::UnityEngine::Matrix4x4>*>* Field_5_25; // 0xD0
-		::UnityEngine::MaterialPropertyBlock* Field_5_26; // 0xD8
-		::Unity::Collections::NativeArray_1<::UnityEngine::Vector4> Field_5_27; // 0xE0
-		::Unity::Collections::NativeArray_1<::UnityEngine::Matrix4x4> Field_5_28; // 0xF0
-		::Unity::Collections::NativeArray_1<::System::Single> Field_5_29; // 0x100
-		::Unity::Collections::NativeArray_1<::System::Single> Field_5_30; // 0x110
+		::Il2CppArray<::Il2CppArray<::UnityEngine::Matrix4x4>*>* CFLNEKJJBHA; // 0xD0
+		::UnityEngine::MaterialPropertyBlock* BEFHHGEFFJP; // 0xD8
+		::Unity::Collections::NativeArray_1<::UnityEngine::Vector4> DIPKIDKPKAI; // 0xE0
+		::Unity::Collections::NativeArray_1<::UnityEngine::Matrix4x4> AOMGDFBAMAG; // 0xF0
+		::Unity::Collections::NativeArray_1<::System::Single> MKBBHFEOIPP; // 0x100
+		::Unity::Collections::NativeArray_1<::System::Single> BAECLGOCCDF; // 0x110
 
 		::System::Void _ctor()
 		{

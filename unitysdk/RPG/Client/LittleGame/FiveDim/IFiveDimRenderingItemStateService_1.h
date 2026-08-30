@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int IFiveDimRenderingItemStateService_1_TypeDefinitionIndex = 41002;
+	inline static constexpr unsigned int IFiveDimRenderingItemStateService_1_TypeDefinitionIndex = 41961;
 
 	template <typename T>
 	class IFiveDimRenderingItemStateService_1

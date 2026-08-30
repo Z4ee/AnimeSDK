@@ -2,39 +2,39 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Class_1_5F51D4049EA87B7B.h"
 
-class Class_3_FFD6FEDD2A6D8D46;
+class Class_3_283AF94355ADE7E4;
 namespace RPG::GameCore { class OptionTalkInfo; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_2236C5EB261600CB_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB62A6C0)
-#define CLASS_2_2236C5EB261600CB_METHOD_2_0ABEB23FF62F8B8F_OFFSET UNITYSDK_OFFSET(0xB62B3F0)
-#define CLASS_2_2236C5EB261600CB_METHOD_2_0B934AF65CEA173B_OFFSET UNITYSDK_OFFSET(0xB62B0F0)
-#define CLASS_2_2236C5EB261600CB_METHOD_2_8C3DB70FFBBF01C7_OFFSET UNITYSDK_OFFSET(0xB62B320)
-#define CLASS_2_2236C5EB261600CB_METHOD_2_C450A961450309C9_OFFSET UNITYSDK_OFFSET(0xB62B260)
-#define CLASS_2_2236C5EB261600CB_ONFINISHIMMEDIATELYINPERFORMANCE_OFFSET UNITYSDK_OFFSET(0xB62AC30)
-#define CLASS_2_2236C5EB261600CB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB62A7F0)
-#define CLASS_2_2236C5EB261600CB_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB62B0A0)
-#define CLASS_2_2236C5EB261600CB_TICK_OFFSET UNITYSDK_OFFSET(0xB62AEA0)
-#define CLASS_2_2236C5EB261600CB__CTOR_OFFSET UNITYSDK_OFFSET(0xB62A630)
+#define CLASS_2_2236C5EB261600CB_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC02DFA0)
+#define CLASS_2_2236C5EB261600CB_METHOD_2_0ABEB23FF62F8B8F_OFFSET UNITYSDK_OFFSET(0xC02EE00)
+#define CLASS_2_2236C5EB261600CB_METHOD_2_7411494DA7276605_OFFSET UNITYSDK_OFFSET(0xC02EA90)
+#define CLASS_2_2236C5EB261600CB_METHOD_2_8C3DB70FFBBF01C7_OFFSET UNITYSDK_OFFSET(0xC02ED30)
+#define CLASS_2_2236C5EB261600CB_METHOD_2_96BDC4B57CCFE000_OFFSET UNITYSDK_OFFSET(0xC02EC40)
+#define CLASS_2_2236C5EB261600CB_ONFINISHIMMEDIATELYINPERFORMANCE_OFFSET UNITYSDK_OFFSET(0xC02E560)
+#define CLASS_2_2236C5EB261600CB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC02E0F0)
+#define CLASS_2_2236C5EB261600CB_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC02EA40)
+#define CLASS_2_2236C5EB261600CB_TICK_OFFSET UNITYSDK_OFFSET(0xC02E810)
+#define CLASS_2_2236C5EB261600CB__CTOR_OFFSET UNITYSDK_OFFSET(0xC02DF00)
 
-inline static constexpr unsigned int Class_2_2236C5EB261600CB_TypeDefinitionIndex = 55684;
+inline static constexpr unsigned int Class_2_2236C5EB261600CB_TypeDefinitionIndex = 58415;
 
 class Class_2_2236C5EB261600CB : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::System::Collections::Generic::List_1<::RPG::GameCore::OptionTalkInfo*>* Field_2_0; // 0x18
-	::RPG::GameCore::TaskContext* Field_2_1; // 0x20
-	::Class_3_FFD6FEDD2A6D8D46* Field_2_2; // 0x28
-	::System::Collections::Generic::List_1<::System::String*>* Field_2_3; // 0x30
-	::System::String* Field_2_4; // 0x38
-	::System::Boolean Field_2_5; // 0x40
+	::System::String* NCCEFIDOIHM; // 0x18
+	::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+	::System::Collections::Generic::List_1<::System::String*>* PFFPBHGNEFM; // 0x28
+	::Class_3_283AF94355ADE7E4* OFKGLJOAMLD; // 0x30
+	::System::Collections::Generic::List_1<::RPG::GameCore::OptionTalkInfo*>* AMDDFDJAHCG; // 0x38
+	::System::Boolean BKPCHGDNEFH; // 0x40
 
-	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::Class_3_FFD6FEDD2A6D8D46* a2)
+	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::Class_3_283AF94355ADE7E4* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::Class_3_FFD6FEDD2A6D8D46*))((::PBYTE)hIl2Cpp + CLASS_2_2236C5EB261600CB__CTOR_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::Class_3_283AF94355ADE7E4*))((::PBYTE)hIl2Cpp + CLASS_2_2236C5EB261600CB__CTOR_OFFSET))(this, a1, a2);
 	}
 
 	::System::Void Dispose()
@@ -62,14 +62,14 @@ public:
 		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_2_2236C5EB261600CB_TICK_OFFSET))(this, a1);
 	}
 
-	::System::Void Method_2_C450A961450309C9(::System::Object* a1)
+	::System::Void Method_2_96BDC4B57CCFE000(::System::Object* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_2_2236C5EB261600CB_METHOD_2_C450A961450309C9_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_2_2236C5EB261600CB_METHOD_2_96BDC4B57CCFE000_OFFSET))(this, a1);
 	}
 
-	::System::Boolean Method_2_0B934AF65CEA173B(::System::String* a1)
+	::System::Boolean Method_2_7411494DA7276605(::System::String* a1)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_2_2236C5EB261600CB_METHOD_2_0B934AF65CEA173B_OFFSET))(this, a1);
+		return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_2_2236C5EB261600CB_METHOD_2_7411494DA7276605_OFFSET))(this, a1);
 	}
 
 	::System::Void Method_2_8C3DB70FFBBF01C7(::System::Object* a1)

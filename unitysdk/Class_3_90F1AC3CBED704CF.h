@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AdventureByMazeSkillUseCheck; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_90F1AC3CBED704CF_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1552C090)
-#define CLASS_3_90F1AC3CBED704CF__CTOR_OFFSET UNITYSDK_OFFSET(0x1552C060)
+#define CLASS_3_90F1AC3CBED704CF_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB531540)
+#define CLASS_3_90F1AC3CBED704CF__CTOR_OFFSET UNITYSDK_OFFSET(0xB531510)
 
-inline static constexpr unsigned int Class_3_90F1AC3CBED704CF_TypeDefinitionIndex = 51999;
+inline static constexpr unsigned int Class_3_90F1AC3CBED704CF_TypeDefinitionIndex = 54684;
 
 class Class_3_90F1AC3CBED704CF : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::AdventureByMazeSkillUseCheck*>
 {

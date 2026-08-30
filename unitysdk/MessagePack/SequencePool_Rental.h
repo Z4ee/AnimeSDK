@@ -5,13 +5,13 @@
 namespace MessagePack { class SequencePool; }
 namespace Nerdbank::Streams { template <typename T> class Sequence_1; }
 
-#define MESSAGEPACK_SEQUENCEPOOL_RENTAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x39CB490)
-#define MESSAGEPACK_SEQUENCEPOOL_RENTAL_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x6010)
-#define MESSAGEPACK_SEQUENCEPOOL_RENTAL__CTOR_OFFSET UNITYSDK_OFFSET(0x80E20)
+#define MESSAGEPACK_SEQUENCEPOOL_RENTAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x3B5AB30)
+#define MESSAGEPACK_SEQUENCEPOOL_RENTAL_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x6020)
+#define MESSAGEPACK_SEQUENCEPOOL_RENTAL__CTOR_OFFSET UNITYSDK_OFFSET(0x80380)
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int SequencePool_Rental_TypeDefinitionIndex = 7202;
+	inline static constexpr unsigned int SequencePool_Rental_TypeDefinitionIndex = 7188;
 
 	struct alignas(8) SequencePool_Rental
 	{

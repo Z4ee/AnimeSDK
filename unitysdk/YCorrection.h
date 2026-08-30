@@ -2,17 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define YCORRECTION_GET_ENABLEYCORRECTION_OFFSET UNITYSDK_OFFSET(0x14397940)
-#define YCORRECTION_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x14397960)
-#define YCORRECTION_SET_ENABLEYCORRECTION_OFFSET UNITYSDK_OFFSET(0x14397950)
-#define YCORRECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x14397CC0)
+#define YCORRECTION_GET_ENABLEYCORRECTION_OFFSET UNITYSDK_OFFSET(0x15185A90)
+#define YCORRECTION_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x15185AB0)
+#define YCORRECTION_SET_ENABLEYCORRECTION_OFFSET UNITYSDK_OFFSET(0x15185AA0)
+#define YCORRECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x15185E10)
 
-inline static constexpr unsigned int YCorrection_TypeDefinitionIndex = 45776;
+inline static constexpr unsigned int YCorrection_TypeDefinitionIndex = 48028;
 
 class YCorrection : public ::UnityEngine::MonoBehaviour
 {
 public:
-	// static const ::System::Single Field_5_0; // 0x0
+	// static const ::System::Single PIBGMMHDIFN; // 0x0
 	::System::Boolean _EnableYCorrection_k__BackingField; // 0x18
 
 	::System::Void _ctor()

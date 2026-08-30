@@ -3,7 +3,7 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int VirtualCameraModeInternal_TypeDefinitionIndex = 36146;
+	inline static constexpr unsigned int VirtualCameraModeInternal_TypeDefinitionIndex = 37005;
 
 	enum class VirtualCameraModeInternal : ::System::Int32
 	{

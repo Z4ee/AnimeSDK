@@ -6,19 +6,19 @@ namespace RPG::Client::Prop { class ChimeraBattlePuzzleBoard; }
 namespace RPG::GameCore { class ChimeraAbilityProgressBase; }
 namespace System { class Action; }
 
-#define RPG_CLIENT_LITTLEGAME_CHIMERASHOWWORKINITPERFORMANCECOMMAND_EXECUTE_OFFSET UNITYSDK_OFFSET(0xC98B870)
-#define RPG_CLIENT_LITTLEGAME_CHIMERASHOWWORKINITPERFORMANCECOMMAND__CTOR_OFFSET UNITYSDK_OFFSET(0xC98B830)
-#define RPG_CLIENT_LITTLEGAME_CHIMERASHOWWORKINITPERFORMANCECOMMAND__EXECUTE_B__3_0_OFFSET UNITYSDK_OFFSET(0xC98B9B0)
+#define RPG_CLIENT_LITTLEGAME_CHIMERASHOWWORKINITPERFORMANCECOMMAND_EXECUTE_OFFSET UNITYSDK_OFFSET(0xD4CBA60)
+#define RPG_CLIENT_LITTLEGAME_CHIMERASHOWWORKINITPERFORMANCECOMMAND__CTOR_OFFSET UNITYSDK_OFFSET(0xD4CBA20)
+#define RPG_CLIENT_LITTLEGAME_CHIMERASHOWWORKINITPERFORMANCECOMMAND__EXECUTE_B__3_0_OFFSET UNITYSDK_OFFSET(0xD4CBBA0)
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int ChimeraShowWorkInitPerformanceCommand_TypeDefinitionIndex = 72734;
+	inline static constexpr unsigned int ChimeraShowWorkInitPerformanceCommand_TypeDefinitionIndex = 76170;
 
 	class ChimeraShowWorkInitPerformanceCommand : public ::System::Object
 	{
 	public:
-		::System::Action* _FinishCallback; // 0x10
-		::RPG::GameCore::ChimeraAbilityProgressBase* _Config; // 0x18
+		::RPG::GameCore::ChimeraAbilityProgressBase* _Config; // 0x10
+		::System::Action* _FinishCallback; // 0x18
 
 		::System::Void _ctor(::RPG::GameCore::ChimeraAbilityProgressBase* a1, ::System::Action* a2)
 		{

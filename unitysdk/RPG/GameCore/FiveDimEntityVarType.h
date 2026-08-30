@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimEntityVarType_TypeDefinitionIndex = 17901;
+	inline static constexpr unsigned int FiveDimEntityVarType_TypeDefinitionIndex = 18421;
 
 	enum class FiveDimEntityVarType : ::System::Int32
 	{

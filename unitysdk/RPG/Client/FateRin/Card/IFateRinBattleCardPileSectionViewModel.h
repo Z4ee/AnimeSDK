@@ -7,11 +7,11 @@
 namespace RPG::Client::FateRin::Card { class IFateRinBattleCardViewModel; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
-template <typename T> class Class_0_16E4307DCC419505_313;
+template <typename T> class Class_0_16E4307DCC419505_320;
 
 namespace RPG::Client::FateRin::Card
 {
-	inline static constexpr unsigned int IFateRinBattleCardPileSectionViewModel_TypeDefinitionIndex = 76157;
+	inline static constexpr unsigned int IFateRinBattleCardPileSectionViewModel_TypeDefinitionIndex = 79790;
 
 	class IFateRinBattleCardPileSectionViewModel
 	{

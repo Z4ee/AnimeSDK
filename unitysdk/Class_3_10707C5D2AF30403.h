@@ -6,15 +6,15 @@
 class Class_2_B66C1067C0468FBB;
 namespace RPG::GameCore { class ChimeraDuelEntityAttributeComparer; }
 
-#define CLASS_3_10707C5D2AF30403_METHOD_3_5AB49F58CBD35442_OFFSET UNITYSDK_OFFSET(0xB9FCAA0)
-#define CLASS_3_10707C5D2AF30403__CTOR_OFFSET UNITYSDK_OFFSET(0xB9FCA70)
+#define CLASS_3_10707C5D2AF30403_METHOD_3_5AB49F58CBD35442_OFFSET UNITYSDK_OFFSET(0xC41BC10)
+#define CLASS_3_10707C5D2AF30403__CTOR_OFFSET UNITYSDK_OFFSET(0xC41BBE0)
 
-inline static constexpr unsigned int Class_3_10707C5D2AF30403_TypeDefinitionIndex = 73487;
+inline static constexpr unsigned int Class_3_10707C5D2AF30403_TypeDefinitionIndex = 76971;
 
 class Class_3_10707C5D2AF30403 : public ::Class_2_2AFA6D08323477B5
 {
 public:
-	::RPG::GameCore::ChimeraDuelAttributeSelectorType Field_3_0; // 0x18
+	::RPG::GameCore::ChimeraDuelAttributeSelectorType JLDGIKMAPGK; // 0x18
 
 	::System::Void _ctor(::RPG::GameCore::ChimeraDuelEntityAttributeComparer* a1)
 	{

@@ -3,7 +3,7 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-class Class_0_16E4307DCC419505_425;
+class Class_0_16E4307DCC419505_460;
 class Class_1_004034A1FAAF468A;
 class Class_1_DCACF1A724007C54;
 namespace BansheeGz::BGSpline::Components { class BGCcMath; }
@@ -13,68 +13,68 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_PROPCABLELINE_INIT_OFFSET UNITYSDK_OFFSET(0xD265BF0)
-#define RPG_CLIENT_PROPCABLELINE_METHOD_5_367B9590522079D1_OFFSET UNITYSDK_OFFSET(0xD266CD0)
-#define RPG_CLIENT_PROPCABLELINE_METHOD_5_8C3DB70FFBBF01C7_OFFSET UNITYSDK_OFFSET(0xD267190)
-#define RPG_CLIENT_PROPCABLELINE_METHOD_5_8CA05BCD86E125DF_OFFSET UNITYSDK_OFFSET(0xD2661E0)
-#define RPG_CLIENT_PROPCABLELINE_METHOD_5_D12268C88ECA46C9_OFFSET UNITYSDK_OFFSET(0xD2670A0)
-#define RPG_CLIENT_PROPCABLELINE_METHOD_5_E0605E6F5A574306_OFFSET UNITYSDK_OFFSET(0xD267230)
-#define RPG_CLIENT_PROPCABLELINE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xD267140)
-#define RPG_CLIENT_PROPCABLELINE_ONSPAWNCABLELINE_OFFSET UNITYSDK_OFFSET(0xD2662C0)
-#define RPG_CLIENT_PROPCABLELINE_REGISTERGROUPEVENT_OFFSET UNITYSDK_OFFSET(0xD2666C0)
-#define RPG_CLIENT_PROPCABLELINE_SETGROUPCONTEXT_OFFSET UNITYSDK_OFFSET(0xD266550)
-#define RPG_CLIENT_PROPCABLELINE_SETVISIBLE_OFFSET UNITYSDK_OFFSET(0xD265E10)
-#define RPG_CLIENT_PROPCABLELINE_UNINIT_OFFSET UNITYSDK_OFFSET(0xD265F80)
-#define RPG_CLIENT_PROPCABLELINE_UPDATE_OFFSET UNITYSDK_OFFSET(0xD2667C0)
-#define RPG_CLIENT_PROPCABLELINE__CCTOR_OFFSET UNITYSDK_OFFSET(0xD267300)
-#define RPG_CLIENT_PROPCABLELINE__CTOR_OFFSET UNITYSDK_OFFSET(0xD2672E0)
+#define RPG_CLIENT_PROPCABLELINE_INIT_OFFSET UNITYSDK_OFFSET(0xDD6A3F0)
+#define RPG_CLIENT_PROPCABLELINE_METHOD_5_367B9590522079D1_OFFSET UNITYSDK_OFFSET(0xDD6B4E0)
+#define RPG_CLIENT_PROPCABLELINE_METHOD_5_8C3DB70FFBBF01C7_OFFSET UNITYSDK_OFFSET(0xDD6B9A0)
+#define RPG_CLIENT_PROPCABLELINE_METHOD_5_8CA05BCD86E125DF_OFFSET UNITYSDK_OFFSET(0xDD6A9E0)
+#define RPG_CLIENT_PROPCABLELINE_METHOD_5_D12268C88ECA46C9_OFFSET UNITYSDK_OFFSET(0xDD6B8B0)
+#define RPG_CLIENT_PROPCABLELINE_METHOD_5_E0605E6F5A574306_OFFSET UNITYSDK_OFFSET(0xDD6BA40)
+#define RPG_CLIENT_PROPCABLELINE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xDD6B950)
+#define RPG_CLIENT_PROPCABLELINE_ONSPAWNCABLELINE_OFFSET UNITYSDK_OFFSET(0xDD6AAC0)
+#define RPG_CLIENT_PROPCABLELINE_REGISTERGROUPEVENT_OFFSET UNITYSDK_OFFSET(0xDD6AED0)
+#define RPG_CLIENT_PROPCABLELINE_SETGROUPCONTEXT_OFFSET UNITYSDK_OFFSET(0xDD6AD50)
+#define RPG_CLIENT_PROPCABLELINE_SETVISIBLE_OFFSET UNITYSDK_OFFSET(0xDD6A610)
+#define RPG_CLIENT_PROPCABLELINE_UNINIT_OFFSET UNITYSDK_OFFSET(0xDD6A780)
+#define RPG_CLIENT_PROPCABLELINE_UPDATE_OFFSET UNITYSDK_OFFSET(0xDD6AFD0)
+#define RPG_CLIENT_PROPCABLELINE__CCTOR_OFFSET UNITYSDK_OFFSET(0xDD6BB10)
+#define RPG_CLIENT_PROPCABLELINE__CTOR_OFFSET UNITYSDK_OFFSET(0xDD6BAF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PropCableLine_TypeDefinitionIndex = 65697;
+	inline static constexpr unsigned int PropCableLine_TypeDefinitionIndex = 68734;
 
 	class PropCableLine : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::System::String** StaticGet_Field_5_0()
+		static ::System::String** StaticGet_GKGGKHMBJMG()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(PropCableLine_TypeDefinitionIndex)->GetStaticField(0xF6B0);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(PropCableLine_TypeDefinitionIndex)->GetStaticField(0x66530);
 		}
-		static ::System::String** StaticGet_Field_5_1()
+		static ::System::String** StaticGet_GCLBCKJHBOB()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(PropCableLine_TypeDefinitionIndex)->GetStaticField(0xF6B8);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(PropCableLine_TypeDefinitionIndex)->GetStaticField(0x66538);
 		}
-		static ::System::Int32* StaticGet_Field_5_2()
+		static ::System::Int32* StaticGet_LJAIFEPKOMG()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PropCableLine_TypeDefinitionIndex)->GetStaticField(0x5330);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PropCableLine_TypeDefinitionIndex)->GetStaticField(0x15150);
 		}
-		static ::System::Int32* StaticGet_Field_5_3()
+		static ::System::Int32* StaticGet_AKBPNMEFGAO()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PropCableLine_TypeDefinitionIndex)->GetStaticField(0x5334);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PropCableLine_TypeDefinitionIndex)->GetStaticField(0x15154);
 		}
-		::BansheeGz::BGSpline::Components::BGCcMath* Field_5_4; // 0x18
-		::System::String* Field_5_5; // 0x20
-		::Class_1_004034A1FAAF468A* Field_5_6; // 0x28
-		::Class_1_004034A1FAAF468A* Field_5_7; // 0x30
-		::Class_1_DCACF1A724007C54* Field_5_8; // 0x38
-		::System::String* Field_5_9; // 0x40
-		::System::Boolean Field_5_10; // 0x48
-		::System::Boolean Field_5_11; // 0x49
-		::System::Boolean Field_5_12; // 0x4A
-		::System::Boolean Field_5_13; // 0x4B
-		::System::Single Field_5_14; // 0x4C
-		::System::Single Field_5_15; // 0x50
-		::System::Single Field_5_16; // 0x54
-		::UnityEngine::Vector3 Field_5_17; // 0x58
-		::System::String* Field_5_18; // 0x68
-		::System::String* Field_5_19; // 0x70
+		::BansheeGz::BGSpline::Components::BGCcMath* OJJFCKMJPHM; // 0x18
+		::System::String* LEOODONCNEO; // 0x20
+		::Class_1_004034A1FAAF468A* PDCLEDKKCMF; // 0x28
+		::Class_1_004034A1FAAF468A* BBMEEHBFKAA; // 0x30
+		::Class_1_DCACF1A724007C54* NHLMDKHFPGE; // 0x38
+		::System::String* IKCALGMHKMA; // 0x40
+		::System::Boolean OEOPMJHNMFC; // 0x48
+		::System::Boolean DMNHFGAALCD; // 0x49
+		::System::Boolean HLDEJMCGIGO; // 0x4A
+		::System::Boolean GMGNKOFOIOH; // 0x4B
+		::System::Single FLHOEGBFPJB; // 0x4C
+		::System::Single KEFOHBPNPJF; // 0x50
+		::System::Single LJBKILGNJCF; // 0x54
+		::UnityEngine::Vector3 FOOKCGJIBMM; // 0x58
+		::System::String* PFMHMCJMPLC; // 0x68
+		::System::String* NPNCMJBKOCG; // 0x70
 		::RPG::GameCore::GameEntity* _OwnerProp; // 0x78
 		::RPG::GameCore::GameEntity* StartProp; // 0x80
 		::RPG::GameCore::GameEntity* EndProp; // 0x88
 		::System::Single OverriderMoveSpeed; // 0x90
-		::System::UInt32 Field_5_24; // 0x94
-		::RPG::GameCore::GameEntity* Field_5_25; // 0x98
-		::RPG::GameCore::EventManager* Field_5_26; // 0xA0
+		::System::UInt32 PEEFHNHDBMF; // 0x94
+		::RPG::GameCore::GameEntity* MOOADPLGAIH; // 0x98
+		::RPG::GameCore::EventManager* DOBLIBIFBBK; // 0xA0
 
 		::System::Void _ctor()
 		{
@@ -146,9 +146,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROPCABLELINE_METHOD_5_8C3DB70FFBBF01C7_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_5_E0605E6F5A574306(::Class_0_16E4307DCC419505_425* a1)
+		::System::Void Method_5_E0605E6F5A574306(::Class_0_16E4307DCC419505_460* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_425*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROPCABLELINE_METHOD_5_E0605E6F5A574306_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_460*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROPCABLELINE_METHOD_5_E0605E6F5A574306_OFFSET))(this, a1);
 		}
 	};
 }

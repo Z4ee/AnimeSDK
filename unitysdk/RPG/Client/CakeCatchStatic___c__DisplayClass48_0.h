@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class CakeCatchModule; }
 
-#define RPG_CLIENT_CAKECATCHSTATIC___C__DISPLAYCLASS48_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBEFC770)
-#define RPG_CLIENT_CAKECATCHSTATIC___C__DISPLAYCLASS48_0__STARTCAKEPERFORMANCE_B__1_OFFSET UNITYSDK_OFFSET(0xBEFDF40)
+#define RPG_CLIENT_CAKECATCHSTATIC___C__DISPLAYCLASS48_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC9A0740)
+#define RPG_CLIENT_CAKECATCHSTATIC___C__DISPLAYCLASS48_0__STARTCAKEPERFORMANCE_B__1_OFFSET UNITYSDK_OFFSET(0xC9A1AA0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CakeCatchStatic___c__DisplayClass48_0_TypeDefinitionIndex = 60192;
+	inline static constexpr unsigned int CakeCatchStatic___c__DisplayClass48_0_TypeDefinitionIndex = 63040;
 
 	class CakeCatchStatic___c__DisplayClass48_0 : public ::System::Object
 	{

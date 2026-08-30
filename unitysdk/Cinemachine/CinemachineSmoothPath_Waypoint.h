@@ -3,12 +3,12 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define CINEMACHINE_CINEMACHINESMOOTHPATH_WAYPOINT_FROMVECTOR4_OFFSET UNITYSDK_OFFSET(0x156EC280)
-#define CINEMACHINE_CINEMACHINESMOOTHPATH_WAYPOINT_GET_ASVECTOR4_OFFSET UNITYSDK_OFFSET(0x2D156E0)
+#define CINEMACHINE_CINEMACHINESMOOTHPATH_WAYPOINT_FROMVECTOR4_OFFSET UNITYSDK_OFFSET(0x16475DC0)
+#define CINEMACHINE_CINEMACHINESMOOTHPATH_WAYPOINT_GET_ASVECTOR4_OFFSET UNITYSDK_OFFSET(0x2DFB9E0)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineSmoothPath_Waypoint_TypeDefinitionIndex = 37593;
+	inline static constexpr unsigned int CinemachineSmoothPath_Waypoint_TypeDefinitionIndex = 38452;
 
 	struct alignas(4) CinemachineSmoothPath_Waypoint
 	{

@@ -10,19 +10,19 @@ namespace RPG::GameCore { class SpaceZooInteractionRow; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_3_08C3B35008E75668_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB426900)
-#define CLASS_3_08C3B35008E75668_METHOD_3_F1C870D01294DAF7_OFFSET UNITYSDK_OFFSET(0xB426090)
-#define CLASS_3_08C3B35008E75668_METHOD_3_F276CF53EB5B277A_OFFSET UNITYSDK_OFFSET(0xB426590)
-#define CLASS_3_08C3B35008E75668_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB425E00)
-#define CLASS_3_08C3B35008E75668__CTOR_OFFSET UNITYSDK_OFFSET(0xB425C60)
+#define CLASS_3_08C3B35008E75668_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBDBCC10)
+#define CLASS_3_08C3B35008E75668_METHOD_3_F1C870D01294DAF7_OFFSET UNITYSDK_OFFSET(0xBDBC3A0)
+#define CLASS_3_08C3B35008E75668_METHOD_3_F276CF53EB5B277A_OFFSET UNITYSDK_OFFSET(0xBDBC8A0)
+#define CLASS_3_08C3B35008E75668_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBDBC110)
+#define CLASS_3_08C3B35008E75668__CTOR_OFFSET UNITYSDK_OFFSET(0xBDBBF70)
 
-inline static constexpr unsigned int Class_3_08C3B35008E75668_TypeDefinitionIndex = 50513;
+inline static constexpr unsigned int Class_3_08C3B35008E75668_TypeDefinitionIndex = 53181;
 
 class Class_3_08C3B35008E75668 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::GetRuanMadeCakePerformanceID*>
 {
 public:
-	::System::Collections::Generic::List_1<::RPG::Client::SpaceZooCatData*>* Field_3_0; // 0x28
-	::RPG::GameCore::StringHash Field_3_1; // 0x30
+	::System::Collections::Generic::List_1<::RPG::Client::SpaceZooCatData*>* ANGGPOICCEM; // 0x28
+	::RPG::GameCore::StringHash NOGGCJDGBHM; // 0x30
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::GetRuanMadeCakePerformanceID* a2)
 	{

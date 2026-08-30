@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_PETCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B6A3010)
-#define RPG_GAMECORE_PETCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6A36A0)
+#define RPG_GAMECORE_PETCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D326020)
+#define RPG_GAMECORE_PETCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3266F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PetConfigRow_TypeDefinitionIndex = 13864;
+	inline static constexpr unsigned int PetConfigRow_TypeDefinitionIndex = 14284;
 
 	class PetConfigRow : public ::System::Object
 	{
@@ -18,9 +18,9 @@ namespace RPG::GameCore
 		::System::String* UIIdleShow; // 0x10
 		::System::String* UIPetModelPath; // 0x18
 		::System::String* ManikinJsonPath; // 0x20
-		::System::UInt32 SummonUnitID; // 0x28
-		::System::UInt32 PetItemID; // 0x2C
-		::System::UInt32 PetID; // 0x30
+		::System::UInt32 PetItemID; // 0x28
+		::System::UInt32 PetID; // 0x2C
+		::System::UInt32 SummonUnitID; // 0x30
 
 		::System::Void _ctor()
 		{

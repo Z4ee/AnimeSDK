@@ -5,18 +5,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_VIDEOENCRYPTIONCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B9DE210)
-#define RPG_GAMECORE_VIDEOENCRYPTIONCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9DE390)
+#define RPG_GAMECORE_VIDEOENCRYPTIONCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D69AD40)
+#define RPG_GAMECORE_VIDEOENCRYPTIONCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D69AEC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int VideoEncryptionConfigRow_TypeDefinitionIndex = 14812;
+	inline static constexpr unsigned int VideoEncryptionConfigRow_TypeDefinitionIndex = 15248;
 
 	class VideoEncryptionConfigRow : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::VideoEncryptionMethod EncryptionMethod; // 0x10
-		::System::UInt32 VideoID; // 0x14
+		::System::UInt32 VideoID; // 0x10
+		::RPG::GameCore::VideoEncryptionMethod EncryptionMethod; // 0x14
 		::System::Boolean Encryption; // 0x18
 
 		::System::Void _ctor()

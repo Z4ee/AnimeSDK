@@ -4,20 +4,20 @@
 
 namespace Proto { class ExchangeStaminaScRsp; }
 
-#define PROTO_EXCHANGESTAMINASCRSP___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BC6C580)
-#define PROTO_EXCHANGESTAMINASCRSP___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC6C5C0)
-#define PROTO_EXCHANGESTAMINASCRSP___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1BC6C5D0)
+#define PROTO_EXCHANGESTAMINASCRSP___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D938750)
+#define PROTO_EXCHANGESTAMINASCRSP___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1D938790)
+#define PROTO_EXCHANGESTAMINASCRSP___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1D9387A0)
 
 namespace Proto
 {
-	inline static constexpr unsigned int ExchangeStaminaScRsp___c_TypeDefinitionIndex = 30662;
+	inline static constexpr unsigned int ExchangeStaminaScRsp___c_TypeDefinitionIndex = 31403;
 
 	class ExchangeStaminaScRsp___c : public ::System::Object
 	{
 	public:
 		static ::Proto::ExchangeStaminaScRsp___c** StaticGet___9()
 		{
-			return (::Proto::ExchangeStaminaScRsp___c**)Il2CppClass::FromTypeDefinitionIndex(ExchangeStaminaScRsp___c_TypeDefinitionIndex)->GetStaticField(0x3CCB0);
+			return (::Proto::ExchangeStaminaScRsp___c**)Il2CppClass::FromTypeDefinitionIndex(ExchangeStaminaScRsp___c_TypeDefinitionIndex)->GetStaticField(0x587F0);
 		}
 
 		static ::System::Void _cctor()

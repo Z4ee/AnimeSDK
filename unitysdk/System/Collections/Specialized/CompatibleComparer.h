@@ -5,28 +5,28 @@
 namespace System::Collections { class IComparer; }
 namespace System::Collections { class IHashCodeProvider; }
 
-#define SYSTEM_COLLECTIONS_SPECIALIZED_COMPATIBLECOMPARER_EQUALS_OFFSET UNITYSDK_OFFSET(0x1CC60960)
-#define SYSTEM_COLLECTIONS_SPECIALIZED_COMPATIBLECOMPARER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1CC60CC0)
-#define SYSTEM_COLLECTIONS_SPECIALIZED_COMPATIBLECOMPARER_GET_COMPARER_OFFSET UNITYSDK_OFFSET(0x1CC60DC0)
-#define SYSTEM_COLLECTIONS_SPECIALIZED_COMPATIBLECOMPARER_GET_DEFAULTCOMPARER_OFFSET UNITYSDK_OFFSET(0x1CC60DE0)
-#define SYSTEM_COLLECTIONS_SPECIALIZED_COMPATIBLECOMPARER_GET_DEFAULTHASHCODEPROVIDER_OFFSET UNITYSDK_OFFSET(0x1CC60E70)
-#define SYSTEM_COLLECTIONS_SPECIALIZED_COMPATIBLECOMPARER_GET_HASHCODEPROVIDER_OFFSET UNITYSDK_OFFSET(0x1CC60DD0)
-#define SYSTEM_COLLECTIONS_SPECIALIZED_COMPATIBLECOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC60950)
+#define SYSTEM_COLLECTIONS_SPECIALIZED_COMPATIBLECOMPARER_EQUALS_OFFSET UNITYSDK_OFFSET(0x1E90B390)
+#define SYSTEM_COLLECTIONS_SPECIALIZED_COMPATIBLECOMPARER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1E90B6F0)
+#define SYSTEM_COLLECTIONS_SPECIALIZED_COMPATIBLECOMPARER_GET_COMPARER_OFFSET UNITYSDK_OFFSET(0x1E90B7F0)
+#define SYSTEM_COLLECTIONS_SPECIALIZED_COMPATIBLECOMPARER_GET_DEFAULTCOMPARER_OFFSET UNITYSDK_OFFSET(0x1E90B810)
+#define SYSTEM_COLLECTIONS_SPECIALIZED_COMPATIBLECOMPARER_GET_DEFAULTHASHCODEPROVIDER_OFFSET UNITYSDK_OFFSET(0x1E90B8A0)
+#define SYSTEM_COLLECTIONS_SPECIALIZED_COMPATIBLECOMPARER_GET_HASHCODEPROVIDER_OFFSET UNITYSDK_OFFSET(0x1E90B800)
+#define SYSTEM_COLLECTIONS_SPECIALIZED_COMPATIBLECOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E90B380)
 
 namespace System::Collections::Specialized
 {
-	inline static constexpr unsigned int CompatibleComparer_TypeDefinitionIndex = 2991;
+	inline static constexpr unsigned int CompatibleComparer_TypeDefinitionIndex = 2998;
 
 	class CompatibleComparer : public ::System::Object
 	{
 	public:
-		static ::System::Collections::IComparer** StaticGet_defaultComparer()
-		{
-			return (::System::Collections::IComparer**)Il2CppClass::FromTypeDefinitionIndex(CompatibleComparer_TypeDefinitionIndex)->GetStaticField(0x292D0);
-		}
 		static ::System::Collections::IHashCodeProvider** StaticGet_defaultHashProvider()
 		{
-			return (::System::Collections::IHashCodeProvider**)Il2CppClass::FromTypeDefinitionIndex(CompatibleComparer_TypeDefinitionIndex)->GetStaticField(0x292D8);
+			return (::System::Collections::IHashCodeProvider**)Il2CppClass::FromTypeDefinitionIndex(CompatibleComparer_TypeDefinitionIndex)->GetStaticField(0x2E6D0);
+		}
+		static ::System::Collections::IComparer** StaticGet_defaultComparer()
+		{
+			return (::System::Collections::IComparer**)Il2CppClass::FromTypeDefinitionIndex(CompatibleComparer_TypeDefinitionIndex)->GetStaticField(0x2E6D8);
 		}
 		::System::Collections::IHashCodeProvider* _hcp; // 0x10
 		::System::Collections::IComparer* _comparer; // 0x18

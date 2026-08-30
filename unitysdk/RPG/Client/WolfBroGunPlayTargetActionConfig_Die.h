@@ -5,12 +5,12 @@
 class Class_1_482F3423DE650EAD;
 namespace System { class String; }
 
-#define RPG_CLIENT_WOLFBROGUNPLAYTARGETACTIONCONFIG_DIE_METHOD_2_47FCE72550F759BF_OFFSET UNITYSDK_OFFSET(0xD8B76B0)
-#define RPG_CLIENT_WOLFBROGUNPLAYTARGETACTIONCONFIG_DIE__CTOR_OFFSET UNITYSDK_OFFSET(0xD8B7730)
+#define RPG_CLIENT_WOLFBROGUNPLAYTARGETACTIONCONFIG_DIE_METHOD_2_47FCE72550F759BF_OFFSET UNITYSDK_OFFSET(0xE42DDA0)
+#define RPG_CLIENT_WOLFBROGUNPLAYTARGETACTIONCONFIG_DIE__CTOR_OFFSET UNITYSDK_OFFSET(0xE42DE20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int WolfBroGunPlayTargetActionConfig_Die_TypeDefinitionIndex = 65640;
+	inline static constexpr unsigned int WolfBroGunPlayTargetActionConfig_Die_TypeDefinitionIndex = 68677;
 
 	class WolfBroGunPlayTargetActionConfig_Die : public ::RPG::Client::WolfBroGunPlayTargetActionConfig
 	{

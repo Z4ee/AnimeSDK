@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_LIGHTCONEQUICKGROWCALCULATOR_EXPSOURCEROW__CTOR_OFFSET UNITYSDK_OFFSET(0xC91E1D0)
+#define RPG_CLIENT_LIGHTCONEQUICKGROWCALCULATOR_EXPSOURCEROW__CTOR_OFFSET UNITYSDK_OFFSET(0xD442ED0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LightConeQuickGrowCalculator_ExpSourceRow_TypeDefinitionIndex = 62800;
+	inline static constexpr unsigned int LightConeQuickGrowCalculator_ExpSourceRow_TypeDefinitionIndex = 65785;
 
 	class LightConeQuickGrowCalculator_ExpSourceRow : public ::System::Object
 	{
 	public:
-		::System::Boolean IsConvertedFromLightCone; // 0x10
-		::System::UInt32 ItemID; // 0x14
-		::System::UInt32 ExpProvide; // 0x18
-		::System::UInt32 CoinCost; // 0x1C
+		::System::UInt32 CoinCost; // 0x10
+		::System::Boolean IsConvertedFromLightCone; // 0x14
+		::System::UInt32 ItemID; // 0x18
+		::System::UInt32 ExpProvide; // 0x1C
 
 		::System::Void _ctor()
 		{

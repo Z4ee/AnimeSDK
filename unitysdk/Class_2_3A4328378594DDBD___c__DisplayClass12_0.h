@@ -5,10 +5,10 @@
 
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define CLASS_2_3A4328378594DDBD___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0xADE2600)
-#define CLASS_2_3A4328378594DDBD___C__DISPLAYCLASS12_0___GETGLOBALVALUEINDEX_B__0_OFFSET UNITYSDK_OFFSET(0xADE2620)
+#define CLASS_2_3A4328378594DDBD___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB744C60)
+#define CLASS_2_3A4328378594DDBD___C__DISPLAYCLASS12_0___GETGLOBALVALUEINDEX_B__0_OFFSET UNITYSDK_OFFSET(0xB744C80)
 
-inline static constexpr unsigned int Class_2_3A4328378594DDBD___c__DisplayClass12_0_TypeDefinitionIndex = 62379;
+inline static constexpr unsigned int Class_2_3A4328378594DDBD___c__DisplayClass12_0_TypeDefinitionIndex = 65364;
 
 class Class_2_3A4328378594DDBD___c__DisplayClass12_0 : public ::System::Object
 {

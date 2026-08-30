@@ -6,9 +6,9 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define AKEVENTCALLBACKDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1BCFD0)
+#define AKEVENTCALLBACKDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1EEC8960)
 
-inline static constexpr unsigned int AkEventCallbackData_TypeDefinitionIndex = 42121;
+inline static constexpr unsigned int AkEventCallbackData_TypeDefinitionIndex = 43732;
 
 class AkEventCallbackData : public ::UnityEngine::ScriptableObject
 {

@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_ROGUETOURNBUILDREFMATCHFORMULARATECONFIG_METHOD_2_D1C113438BA2F418_OFFSET UNITYSDK_OFFSET(0x1B793A90)
-#define RPG_GAMECORE_ROGUETOURNBUILDREFMATCHFORMULARATECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B793D30)
+#define RPG_GAMECORE_ROGUETOURNBUILDREFMATCHFORMULARATECONFIG_METHOD_2_D1C113438BA2F418_OFFSET UNITYSDK_OFFSET(0x1D417110)
+#define RPG_GAMECORE_ROGUETOURNBUILDREFMATCHFORMULARATECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D4173B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueTournBuildRefMatchFormulaRateConfig_TypeDefinitionIndex = 16964;
+	inline static constexpr unsigned int RogueTournBuildRefMatchFormulaRateConfig_TypeDefinitionIndex = 17466;
 
 	class RogueTournBuildRefMatchFormulaRateConfig : public ::RPG::GameCore::JsonConfig
 	{

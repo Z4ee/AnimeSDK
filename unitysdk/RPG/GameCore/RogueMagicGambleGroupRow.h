@@ -7,20 +7,20 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ROGUEMAGICGAMBLEGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B76AC80)
-#define RPG_GAMECORE_ROGUEMAGICGAMBLEGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B76AE50)
+#define RPG_GAMECORE_ROGUEMAGICGAMBLEGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3EDD30)
+#define RPG_GAMECORE_ROGUEMAGICGAMBLEGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3EDF00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueMagicGambleGroupRow_TypeDefinitionIndex = 14303;
+	inline static constexpr unsigned int RogueMagicGambleGroupRow_TypeDefinitionIndex = 14723;
 
 	class RogueMagicGambleGroupRow : public ::System::Object
 	{
 	public:
 		::System::String* GambleGroupIcon; // 0x10
-		::RPG::GameCore::RogueGambleGroupLevelType GambleGroupLevel; // 0x18
+		::System::UInt32 GambleGroupID; // 0x18
 		::RPG::GameCore::RogueGambleMachineType GambleGroupType; // 0x1C
-		::System::UInt32 GambleGroupID; // 0x20
+		::RPG::GameCore::RogueGambleGroupLevelType GambleGroupLevel; // 0x20
 
 		::System::Void _ctor()
 		{

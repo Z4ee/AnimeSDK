@@ -8,29 +8,29 @@ namespace System::Net::Security { class RemoteCertificateValidationCallback; }
 namespace System::Security::Cryptography::X509Certificates { class X509Certificate; }
 namespace System::Security::Cryptography::X509Certificates { class X509Chain; }
 
-#define MIHOYO_SDK_THUNDER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xAB76300)
-#define MIHOYO_SDK_THUNDER___C__CTOR_OFFSET UNITYSDK_OFFSET(0xAB76330)
-#define MIHOYO_SDK_THUNDER___C__NOTIFY_B__35_0_OFFSET UNITYSDK_OFFSET(0xAB76350)
-#define MIHOYO_SDK_THUNDER___C___CTOR_B__17_0_OFFSET UNITYSDK_OFFSET(0xAB76340)
+#define MIHOYO_SDK_THUNDER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xB2B5AE0)
+#define MIHOYO_SDK_THUNDER___C__CTOR_OFFSET UNITYSDK_OFFSET(0xB2B5B10)
+#define MIHOYO_SDK_THUNDER___C__NOTIFY_B__35_0_OFFSET UNITYSDK_OFFSET(0xB2B5B30)
+#define MIHOYO_SDK_THUNDER___C___CTOR_B__17_0_OFFSET UNITYSDK_OFFSET(0xB2B5B20)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int Thunder___c_TypeDefinitionIndex = 44560;
+	inline static constexpr unsigned int Thunder___c_TypeDefinitionIndex = 46746;
 
 	class Thunder___c : public ::System::Object
 	{
 	public:
-		static ::MiHoYo::SDK::Thunder___c** StaticGet___9()
-		{
-			return (::MiHoYo::SDK::Thunder___c**)Il2CppClass::FromTypeDefinitionIndex(Thunder___c_TypeDefinitionIndex)->GetStaticField(0x1C900);
-		}
 		static ::System::Action** StaticGet___9__35_0()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(Thunder___c_TypeDefinitionIndex)->GetStaticField(0x1C908);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(Thunder___c_TypeDefinitionIndex)->GetStaticField(0x5B270);
 		}
 		static ::System::Net::Security::RemoteCertificateValidationCallback** StaticGet___9__17_0()
 		{
-			return (::System::Net::Security::RemoteCertificateValidationCallback**)Il2CppClass::FromTypeDefinitionIndex(Thunder___c_TypeDefinitionIndex)->GetStaticField(0x1C910);
+			return (::System::Net::Security::RemoteCertificateValidationCallback**)Il2CppClass::FromTypeDefinitionIndex(Thunder___c_TypeDefinitionIndex)->GetStaticField(0x5B278);
+		}
+		static ::MiHoYo::SDK::Thunder___c** StaticGet___9()
+		{
+			return (::MiHoYo::SDK::Thunder___c**)Il2CppClass::FromTypeDefinitionIndex(Thunder___c_TypeDefinitionIndex)->GetStaticField(0x5B280);
 		}
 
 		static ::System::Void _cctor()

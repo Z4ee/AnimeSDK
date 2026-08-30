@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelStatic_TypeDefinitionIndex = 55277;
+	inline static constexpr unsigned int LevelStatic_TypeDefinitionIndex = 58001;
 
 	class LevelStatic : public ::System::Object
 	{

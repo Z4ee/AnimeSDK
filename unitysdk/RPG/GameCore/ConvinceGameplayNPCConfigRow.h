@@ -6,20 +6,20 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_CONVINCEGAMEPLAYNPCCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B384660)
-#define RPG_GAMECORE_CONVINCEGAMEPLAYNPCCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B384D40)
+#define RPG_GAMECORE_CONVINCEGAMEPLAYNPCCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D0017D0)
+#define RPG_GAMECORE_CONVINCEGAMEPLAYNPCCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D001EB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ConvinceGameplayNPCConfigRow_TypeDefinitionIndex = 12600;
+	inline static constexpr unsigned int ConvinceGameplayNPCConfigRow_TypeDefinitionIndex = 12991;
 
 	class ConvinceGameplayNPCConfigRow : public ::System::Object
 	{
 	public:
-		::System::String* NPCIconPath; // 0x10
-		::Il2CppArray<::System::UInt32>* NPCDescriptionID; // 0x18
-		::System::UInt32 ID; // 0x20
-		::RPG::Client::TextID NPCNameID; // 0x28
+		::Il2CppArray<::System::UInt32>* NPCDescriptionID; // 0x10
+		::System::String* NPCIconPath; // 0x18
+		::RPG::Client::TextID NPCNameID; // 0x20
+		::System::UInt32 ID; // 0x30
 
 		::System::Void _ctor()
 		{

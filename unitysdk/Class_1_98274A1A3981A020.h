@@ -8,14 +8,14 @@ namespace RPG::Client { class PamChatRelicExplainData; }
 namespace RPG::Client { class PamChatTeamExplainData; }
 namespace System { class String; }
 
-#define CLASS_1_98274A1A3981A020__CTOR_OFFSET UNITYSDK_OFFSET(0x14629940)
+#define CLASS_1_98274A1A3981A020__CTOR_OFFSET UNITYSDK_OFFSET(0x15677F40)
 
-inline static constexpr unsigned int Class_1_98274A1A3981A020_TypeDefinitionIndex = 60439;
+inline static constexpr unsigned int Class_1_98274A1A3981A020_TypeDefinitionIndex = 63292;
 
 class Class_1_98274A1A3981A020 : public ::System::Object
 {
 public:
-	::Enum_3_0A3761FE34514D6C_3 Field_1_0; // 0x10
+	::Enum_3_0A3761FE34514D6C_3 IAHCEGHHCKB; // 0x10
 
 	::System::Void _ctor(::Enum_3_0A3761FE34514D6C_3 a1)
 	{

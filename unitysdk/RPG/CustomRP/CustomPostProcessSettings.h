@@ -27,53 +27,53 @@ namespace RPG::CustomRP { class RPGTonemapping; }
 namespace RPG::CustomRP { class RPGVignette; }
 namespace UnityEngine::Rendering { class VolumeStack; }
 
-#define RPG_CUSTOMRP_CUSTOMPOSTPROCESSSETTINGS_RESET_OFFSET UNITYSDK_OFFSET(0x1AA6BC70)
-#define RPG_CUSTOMRP_CUSTOMPOSTPROCESSSETTINGS_SETUP_OFFSET UNITYSDK_OFFSET(0x1AA6BAA0)
-#define RPG_CUSTOMRP_CUSTOMPOSTPROCESSSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1AA6BA90)
+#define RPG_CUSTOMRP_CUSTOMPOSTPROCESSSETTINGS_RESET_OFFSET UNITYSDK_OFFSET(0x1C69D1C0)
+#define RPG_CUSTOMRP_CUSTOMPOSTPROCESSSETTINGS_SETUP_OFFSET UNITYSDK_OFFSET(0x1C69CFF0)
+#define RPG_CUSTOMRP_CUSTOMPOSTPROCESSSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1C69CFE0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int CustomPostProcessSettings_TypeDefinitionIndex = 36230;
+	inline static constexpr unsigned int CustomPostProcessSettings_TypeDefinitionIndex = 37089;
 
 	class CustomPostProcessSettings : public ::System::Object
 	{
 	public:
-		::RPG::CustomRP::RPGLensGlitch* ppLensGlitch; // 0x10
-		::RPG::CustomRP::RPGDepthOfField* dof; // 0x18
-		::RPG::CustomRP::RPGRadialBlur* directionBlur; // 0x20
+		::RPG::CustomRP::RPGFXAA* fxaa; // 0x10
+		::RPG::CustomRP::RPGRadialBlur* radialBlur; // 0x18
+		::RPG::CustomRP::RPGVignette* vignette; // 0x20
 		::RPG::CustomRP::RPGGaussianBlur* gaussianBlur; // 0x28
-		::RPG::CustomRP::RPGVignette* vignette; // 0x30
+		::RPG::CustomRP::RPGLensGlitch* ppLensGlitch; // 0x30
 		::RPG::CustomRP::RPGPPPattern* ppPattern; // 0x38
-		::RPG::CustomRP::RPGLensDistortion* lensDistortion; // 0x40
-		::RPG::CustomRP::RPGTemporalAntialiasing* taa; // 0x48
-		::RPG::CustomRP::RPGSkillRadialBlur* skillRadialBlur; // 0x50
-		::RPG::CustomRP::RPGBlink* blink; // 0x58
-		::RPG::CustomRP::RPGTonemapping* toneMapping; // 0x60
-		::RPG::CustomRP::RPGFXAA* fxaa; // 0x68
-		::RPG::CustomRP::RPGChromaticAberration* chromaticAberration; // 0x70
-		::RPG::CustomRP::RPGColorGrading* colorGrading; // 0x78
-		::RPG::CustomRP::RPGAdditionalColorGrading* additionalColorGrading; // 0x80
-		::RPG::CustomRP::RPGRadialBlur* radialBlur; // 0x88
+		::RPG::CustomRP::RPGRadialBlur* directionBlur; // 0x40
+		::RPG::CustomRP::RPGColorGrading* colorGrading; // 0x48
+		::RPG::CustomRP::RPGChromaticAberration* chromaticAberration; // 0x50
+		::RPG::CustomRP::RPGLensDistortion* lensDistortion; // 0x58
+		::RPG::CustomRP::RPGSkillRadialBlur* skillRadialBlur; // 0x60
+		::RPG::CustomRP::RPGSpeedLine* speedLine; // 0x68
+		::RPG::CustomRP::RPGPolaroid* polaroid; // 0x70
+		::RPG::CustomRP::RPGTemporalAntialiasing* taa; // 0x78
+		::RPG::CustomRP::RPGBlink* blink; // 0x80
+		::RPG::CustomRP::RPGBloom* bloom; // 0x88
 		::RPG::CustomRP::RPGMotionBlur* motionBlur; // 0x90
-		::RPG::CustomRP::RPGSpeedLine* speedLine; // 0x98
-		::RPG::CustomRP::RPGPolaroid* polaroid; // 0xA0
-		::RPG::CustomRP::RPGLensGlitch2* ppLensGlitch2; // 0xA8
-		::RPG::CustomRP::RPGBloom* bloom; // 0xB0
-		::System::Single cameraFov; // 0xB8
-		::UnityEngine::Vector3 cameraForward; // 0xBC
-		::System::Single cameraNear; // 0xC8
+		::RPG::CustomRP::RPGAdditionalColorGrading* additionalColorGrading; // 0x98
+		::RPG::CustomRP::RPGLensGlitch2* ppLensGlitch2; // 0xA0
+		::RPG::CustomRP::RPGTonemapping* toneMapping; // 0xA8
+		::RPG::CustomRP::RPGDepthOfField* dof; // 0xB0
+		::System::Boolean isUI3DCameraEnable; // 0xB8
+		::System::Boolean isTAAEnable; // 0xB9
+		::System::Single cameraAspect; // 0xBC
+		::System::Single cameraFov; // 0xC0
+		::System::Single cameraFar; // 0xC4
+		::System::Int32 cameraPixelHeight; // 0xC8
 		::System::Single cameraRenderScale; // 0xCC
-		::System::Single cameraFar; // 0xD0
-		::System::Single cameraAspect; // 0xD4
-		::System::Boolean isPostProcessEnable; // 0xD8
-		::System::Boolean isUI3DCameraEnable; // 0xD9
-		::System::Int32 cameraPixelHeight; // 0xDC
-		::RPG::CustomRP::GameCameraType cameraType; // 0xE0
-		::System::Boolean targetTextureIsNull; // 0xE4
-		::System::Boolean finalRenderToTexture; // 0xE5
-		::System::Boolean isTAAEnable; // 0xE6
-		::System::Int32 cameraPixelWidth; // 0xE8
-		::UnityEngine::RenderTextureDescriptor sharedDesc; // 0xEC
+		::System::Int32 cameraPixelWidth; // 0xD0
+		::UnityEngine::Vector3 cameraForward; // 0xD4
+		::System::Single cameraNear; // 0xE0
+		::UnityEngine::RenderTextureDescriptor sharedDesc; // 0xE4
+		::RPG::CustomRP::GameCameraType cameraType; // 0x114
+		::System::Boolean targetTextureIsNull; // 0x118
+		::System::Boolean isPostProcessEnable; // 0x119
+		::System::Boolean finalRenderToTexture; // 0x11A
 
 		::System::Void _ctor()
 		{

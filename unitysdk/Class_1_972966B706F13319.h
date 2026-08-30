@@ -4,32 +4,32 @@
 #include "unitysdk/RPG/Client/ActivityIdleLive/IdleLiveDecimal.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_675;
+class Class_0_16E4307DCC419505_714;
 class Class_1_A0F414D2CF643E56_4;
 namespace RPG::Client { class UIController; }
 namespace RPG::Client::ActivityIdleLive { class IdleLiveEquipmentData; }
 namespace RPG::Client::Promises { class IPromise; }
 namespace RPG::Client::Promises { class Promise; }
 
-#define CLASS_1_972966B706F13319_METHOD_1_4A41C63BFE58D26F_OFFSET UNITYSDK_OFFSET(0x150369B0)
-#define CLASS_1_972966B706F13319_METHOD_1_7586C4E80C71E4F1_1_OFFSET UNITYSDK_OFFSET(0x15036820)
-#define CLASS_1_972966B706F13319_METHOD_1_7586C4E80C71E4F1_OFFSET UNITYSDK_OFFSET(0x15036690)
-#define CLASS_1_972966B706F13319_METHOD_1_7587292F058BC3BD_OFFSET UNITYSDK_OFFSET(0x150365D0)
-#define CLASS_1_972966B706F13319_METHOD_1_7AFB82D82238EB17_OFFSET UNITYSDK_OFFSET(0x15035900)
-#define CLASS_1_972966B706F13319_METHOD_1_C19C3AF236B6D4D8_OFFSET UNITYSDK_OFFSET(0x15035DB0)
-#define CLASS_1_972966B706F13319__CTOR_OFFSET UNITYSDK_OFFSET(0x15036A90)
-#define CLASS_1_972966B706F13319___TRYEXITEQUIPGOTDIALOG_B__7_0_OFFSET UNITYSDK_OFFSET(0x15036AA0)
-#define CLASS_1_972966B706F13319___TRYEXITEQUIPSELECTDIALOG_B__8_0_OFFSET UNITYSDK_OFFSET(0x15036AD0)
+#define CLASS_1_972966B706F13319_METHOD_1_4A41C63BFE58D26F_OFFSET UNITYSDK_OFFSET(0x15CEB940)
+#define CLASS_1_972966B706F13319_METHOD_1_7586C4E80C71E4F1_1_OFFSET UNITYSDK_OFFSET(0x15CEB7B0)
+#define CLASS_1_972966B706F13319_METHOD_1_7586C4E80C71E4F1_OFFSET UNITYSDK_OFFSET(0x15CEB620)
+#define CLASS_1_972966B706F13319_METHOD_1_7587292F058BC3BD_OFFSET UNITYSDK_OFFSET(0x15CEB560)
+#define CLASS_1_972966B706F13319_METHOD_1_7AFB82D82238EB17_OFFSET UNITYSDK_OFFSET(0x15CEA890)
+#define CLASS_1_972966B706F13319_METHOD_1_C19C3AF236B6D4D8_OFFSET UNITYSDK_OFFSET(0x15CEAD40)
+#define CLASS_1_972966B706F13319__CTOR_OFFSET UNITYSDK_OFFSET(0x15CEBA20)
+#define CLASS_1_972966B706F13319___TRYEXITEQUIPGOTDIALOG_B__7_0_OFFSET UNITYSDK_OFFSET(0x15CEBA30)
+#define CLASS_1_972966B706F13319___TRYEXITEQUIPSELECTDIALOG_B__8_0_OFFSET UNITYSDK_OFFSET(0x15CEBA60)
 
-inline static constexpr unsigned int Class_1_972966B706F13319_TypeDefinitionIndex = 71626;
+inline static constexpr unsigned int Class_1_972966B706F13319_TypeDefinitionIndex = 74932;
 
 class Class_1_972966B706F13319 : public ::System::Object
 {
 public:
-	::RPG::Client::UIController* Field_1_0; // 0x10
-	::RPG::Client::UIController* Field_1_1; // 0x18
-	::RPG::Client::ActivityIdleLive::IdleLiveEquipmentData* Field_1_2; // 0x20
-	::RPG::Client::Promises::Promise* Field_1_3; // 0x28
+	::RPG::Client::ActivityIdleLive::IdleLiveEquipmentData* NDCHFDJLAML; // 0x10
+	::RPG::Client::UIController* DGOJKJCOIHF; // 0x18
+	::RPG::Client::UIController* PGHCMIHLPHJ; // 0x20
+	::RPG::Client::Promises::Promise* MIOMNCPCKEL; // 0x28
 
 	::System::Void _ctor()
 	{
@@ -41,9 +41,9 @@ public:
 		return ((::System::Void(*)(::PVOID, ::Class_1_A0F414D2CF643E56_4*, ::System::UInt32, ::System::UInt32, ::RPG::Client::ActivityIdleLive::IdleLiveDecimal, ::RPG::Client::ActivityIdleLive::IdleLiveDecimal))((::PBYTE)hIl2Cpp + CLASS_1_972966B706F13319_METHOD_1_7AFB82D82238EB17_OFFSET))(this, a1, a2, a3, a4, a5);
 	}
 
-	::RPG::Client::ActivityIdleLive::EquipSelectUiData Method_1_C19C3AF236B6D4D8(::Class_0_16E4307DCC419505_675* a1, ::System::UInt32 a2, ::System::UInt32 a3, ::RPG::Client::ActivityIdleLive::IdleLiveDecimal a4, ::RPG::Client::ActivityIdleLive::IdleLiveDecimal a5)
+	::RPG::Client::ActivityIdleLive::EquipSelectUiData Method_1_C19C3AF236B6D4D8(::Class_0_16E4307DCC419505_714* a1, ::System::UInt32 a2, ::System::UInt32 a3, ::RPG::Client::ActivityIdleLive::IdleLiveDecimal a4, ::RPG::Client::ActivityIdleLive::IdleLiveDecimal a5)
 	{
-		return ((::RPG::Client::ActivityIdleLive::EquipSelectUiData(*)(::PVOID, ::Class_0_16E4307DCC419505_675*, ::System::UInt32, ::System::UInt32, ::RPG::Client::ActivityIdleLive::IdleLiveDecimal, ::RPG::Client::ActivityIdleLive::IdleLiveDecimal))((::PBYTE)hIl2Cpp + CLASS_1_972966B706F13319_METHOD_1_C19C3AF236B6D4D8_OFFSET))(this, a1, a2, a3, a4, a5);
+		return ((::RPG::Client::ActivityIdleLive::EquipSelectUiData(*)(::PVOID, ::Class_0_16E4307DCC419505_714*, ::System::UInt32, ::System::UInt32, ::RPG::Client::ActivityIdleLive::IdleLiveDecimal, ::RPG::Client::ActivityIdleLive::IdleLiveDecimal))((::PBYTE)hIl2Cpp + CLASS_1_972966B706F13319_METHOD_1_C19C3AF236B6D4D8_OFFSET))(this, a1, a2, a3, a4, a5);
 	}
 
 	::RPG::Client::Promises::IPromise* Method_1_7587292F058BC3BD(::System::Boolean a1, ::System::Int32 a2)

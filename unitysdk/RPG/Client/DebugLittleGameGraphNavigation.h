@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define RPG_CLIENT_DEBUGLITTLEGAMEGRAPHNAVIGATION__CTOR_OFFSET UNITYSDK_OFFSET(0xC1DCD20)
+#define RPG_CLIENT_DEBUGLITTLEGAMEGRAPHNAVIGATION__CTOR_OFFSET UNITYSDK_OFFSET(0xCC98850)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DebugLittleGameGraphNavigation_TypeDefinitionIndex = 65296;
+	inline static constexpr unsigned int DebugLittleGameGraphNavigation_TypeDefinitionIndex = 68308;
 
 	class DebugLittleGameGraphNavigation : public ::UnityEngine::MonoBehaviour
 	{

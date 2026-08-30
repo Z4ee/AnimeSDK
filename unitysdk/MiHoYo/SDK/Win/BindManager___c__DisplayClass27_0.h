@@ -6,19 +6,19 @@ namespace MiHoYo::SDK { class NetworkResponseModel; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_WIN_BINDMANAGER___C__DISPLAYCLASS27_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19E6AD00)
-#define MIHOYO_SDK_WIN_BINDMANAGER___C__DISPLAYCLASS27_0__REQUESTMAILCODE_B__0_OFFSET UNITYSDK_OFFSET(0x19E74880)
+#define MIHOYO_SDK_WIN_BINDMANAGER___C__DISPLAYCLASS27_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7EC460)
+#define MIHOYO_SDK_WIN_BINDMANAGER___C__DISPLAYCLASS27_0__REQUESTMAILCODE_B__0_OFFSET UNITYSDK_OFFSET(0x1B7F5FD0)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int BindManager___c__DisplayClass27_0_TypeDefinitionIndex = 9057;
+	inline static constexpr unsigned int BindManager___c__DisplayClass27_0_TypeDefinitionIndex = 9330;
 
 	class BindManager___c__DisplayClass27_0 : public ::System::Object
 	{
 	public:
-		::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* callback; // 0x10
-		::System::String* mail; // 0x18
-		::System::String* url; // 0x20
+		::System::String* url; // 0x10
+		::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* callback; // 0x18
+		::System::String* mail; // 0x20
 
 		::System::Void _ctor()
 		{

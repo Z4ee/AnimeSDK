@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SYSTEM_DIAGNOSTICS_DEBUGGERSTEPTHROUGHATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0BE830)
+#define SYSTEM_DIAGNOSTICS_DEBUGGERSTEPTHROUGHATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BCC5F10)
 
 namespace System::Diagnostics
 {
-	inline static constexpr unsigned int DebuggerStepThroughAttribute_TypeDefinitionIndex = 1566;
+	inline static constexpr unsigned int DebuggerStepThroughAttribute_TypeDefinitionIndex = 1573;
 
 	class DebuggerStepThroughAttribute : public ::System::Attribute
 	{

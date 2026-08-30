@@ -5,29 +5,29 @@
 namespace RPG::Client { class RogueSiteData; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define RPG_CLIENT_ROGUEMAPDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD3D76A0)
-#define RPG_CLIENT_ROGUEMAPDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD3D76E0)
-#define RPG_CLIENT_ROGUEMAPDATA___C__GETBRANCHTOTALNUM_B__10_0_OFFSET UNITYSDK_OFFSET(0xD3D7760)
-#define RPG_CLIENT_ROGUEMAPDATA___C__GETSTARTROGUESITEDATA_B__5_0_OFFSET UNITYSDK_OFFSET(0xD3D76F0)
+#define RPG_CLIENT_ROGUEMAPDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xDEF2BB0)
+#define RPG_CLIENT_ROGUEMAPDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0xDEF2BF0)
+#define RPG_CLIENT_ROGUEMAPDATA___C__GETBRANCHTOTALNUM_B__10_0_OFFSET UNITYSDK_OFFSET(0xDEF2C70)
+#define RPG_CLIENT_ROGUEMAPDATA___C__GETSTARTROGUESITEDATA_B__5_0_OFFSET UNITYSDK_OFFSET(0xDEF2C00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueMapData___c_TypeDefinitionIndex = 64462;
+	inline static constexpr unsigned int RogueMapData___c_TypeDefinitionIndex = 67458;
 
 	class RogueMapData___c : public ::System::Object
 	{
 	public:
-		static ::System::Predicate_1<::RPG::Client::RogueSiteData*>** StaticGet___9__10_0()
+		static ::RPG::Client::RogueMapData___c** StaticGet___9()
 		{
-			return (::System::Predicate_1<::RPG::Client::RogueSiteData*>**)Il2CppClass::FromTypeDefinitionIndex(RogueMapData___c_TypeDefinitionIndex)->GetStaticField(0x264D0);
+			return (::RPG::Client::RogueMapData___c**)Il2CppClass::FromTypeDefinitionIndex(RogueMapData___c_TypeDefinitionIndex)->GetStaticField(0xACF0);
 		}
 		static ::System::Predicate_1<::RPG::Client::RogueSiteData*>** StaticGet___9__5_0()
 		{
-			return (::System::Predicate_1<::RPG::Client::RogueSiteData*>**)Il2CppClass::FromTypeDefinitionIndex(RogueMapData___c_TypeDefinitionIndex)->GetStaticField(0x264D8);
+			return (::System::Predicate_1<::RPG::Client::RogueSiteData*>**)Il2CppClass::FromTypeDefinitionIndex(RogueMapData___c_TypeDefinitionIndex)->GetStaticField(0xACF8);
 		}
-		static ::RPG::Client::RogueMapData___c** StaticGet___9()
+		static ::System::Predicate_1<::RPG::Client::RogueSiteData*>** StaticGet___9__10_0()
 		{
-			return (::RPG::Client::RogueMapData___c**)Il2CppClass::FromTypeDefinitionIndex(RogueMapData___c_TypeDefinitionIndex)->GetStaticField(0x264E0);
+			return (::System::Predicate_1<::RPG::Client::RogueSiteData*>**)Il2CppClass::FromTypeDefinitionIndex(RogueMapData___c_TypeDefinitionIndex)->GetStaticField(0xAD00);
 		}
 
 		static ::System::Void _cctor()

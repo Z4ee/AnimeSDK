@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class HighlightEntityActionBar; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_CC42FBA3ABA838FE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB7269B0)
-#define CLASS_3_CC42FBA3ABA838FE__CTOR_OFFSET UNITYSDK_OFFSET(0xB726980)
+#define CLASS_3_CC42FBA3ABA838FE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC0F5450)
+#define CLASS_3_CC42FBA3ABA838FE__CTOR_OFFSET UNITYSDK_OFFSET(0xC0F5420)
 
-inline static constexpr unsigned int Class_3_CC42FBA3ABA838FE_TypeDefinitionIndex = 52608;
+inline static constexpr unsigned int Class_3_CC42FBA3ABA838FE_TypeDefinitionIndex = 55307;
 
 class Class_3_CC42FBA3ABA838FE : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::HighlightEntityActionBar*>
 {

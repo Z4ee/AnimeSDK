@@ -6,7 +6,7 @@ namespace System::IO { class BinaryWriter; }
 
 namespace Hdg
 {
-	inline static constexpr unsigned int rdtTcpMessage_TypeDefinitionIndex = 45200;
+	inline static constexpr unsigned int rdtTcpMessage_TypeDefinitionIndex = 47436;
 
 	class rdtTcpMessage
 	{

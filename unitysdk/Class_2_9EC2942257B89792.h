@@ -1,26 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_CA217ABF4E3B4F3F.h"
+#include "unitysdk/Class_1_34917908B7833130.h"
 
 namespace System { class String; }
 namespace UnityEngine { class Animation; }
 namespace UnityEngine { class GameObject; }
 
-#define CLASS_2_9EC2942257B89792_METHOD_2_1290EA767C459179_OFFSET UNITYSDK_OFFSET(0xAD3C460)
-#define CLASS_2_9EC2942257B89792_METHOD_2_941C404C800CB723_OFFSET UNITYSDK_OFFSET(0xAD3C360)
-#define CLASS_2_9EC2942257B89792_METHOD_2_B3A88D7849969A71_OFFSET UNITYSDK_OFFSET(0xAD3C3F0)
-#define CLASS_2_9EC2942257B89792__CTOR_OFFSET UNITYSDK_OFFSET(0xAD3C550)
-#define CLASS_2_9EC2942257B89792__ONBIND_OFFSET UNITYSDK_OFFSET(0xAD3C300)
+#define CLASS_2_9EC2942257B89792_METHOD_2_1290EA767C459179_OFFSET UNITYSDK_OFFSET(0xB489190)
+#define CLASS_2_9EC2942257B89792_METHOD_2_941C404C800CB723_OFFSET UNITYSDK_OFFSET(0xB489090)
+#define CLASS_2_9EC2942257B89792_METHOD_2_B3A88D7849969A71_OFFSET UNITYSDK_OFFSET(0xB489120)
+#define CLASS_2_9EC2942257B89792__CTOR_OFFSET UNITYSDK_OFFSET(0xB489280)
+#define CLASS_2_9EC2942257B89792__ONBIND_OFFSET UNITYSDK_OFFSET(0xB489030)
 
-inline static constexpr unsigned int Class_2_9EC2942257B89792_TypeDefinitionIndex = 68716;
+inline static constexpr unsigned int Class_2_9EC2942257B89792_TypeDefinitionIndex = 71914;
 
-class Class_2_9EC2942257B89792 : public ::Class_1_CA217ABF4E3B4F3F
+class Class_2_9EC2942257B89792 : public ::Class_1_34917908B7833130
 {
 public:
-	// static const ::System::String* Field_2_0; // 0x0
-	// static const ::System::String* Field_2_1; // 0x0
-	::UnityEngine::GameObject* Field_2_2; // 0x60
-	::UnityEngine::Animation* Field_2_3; // 0x68
+	// static const ::System::String* AILCOOFIDPG; // 0x0
+	// static const ::System::String* IIPEBGKKNLC; // 0x0
+	::UnityEngine::Animation* PMOJILOJEPE; // 0x60
+	::UnityEngine::GameObject* ADBCGAPLGOL; // 0x68
 
 	::System::Void _ctor()
 	{

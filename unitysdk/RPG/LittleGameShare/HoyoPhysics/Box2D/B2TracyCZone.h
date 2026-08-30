@@ -3,7 +3,7 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2TracyCZone_TypeDefinitionIndex = 35245;
+	inline static constexpr unsigned int B2TracyCZone_TypeDefinitionIndex = 36106;
 
 	enum class B2TracyCZone : ::System::Int32
 	{

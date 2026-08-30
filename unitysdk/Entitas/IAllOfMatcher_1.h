@@ -6,7 +6,7 @@ namespace Entitas { template <typename T> class IMatcher_1; }
 
 namespace Entitas
 {
-	inline static constexpr unsigned int IAllOfMatcher_1_TypeDefinitionIndex = 9701;
+	inline static constexpr unsigned int IAllOfMatcher_1_TypeDefinitionIndex = 9980;
 
 	template <typename TEntity>
 	class IAllOfMatcher_1

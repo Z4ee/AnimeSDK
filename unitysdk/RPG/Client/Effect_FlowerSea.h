@@ -15,18 +15,18 @@ namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class Mesh; }
 namespace UnityEngine { class Texture2D; }
 
-#define RPG_CLIENT_EFFECT_FLOWERSEA_AWAKE_OFFSET UNITYSDK_OFFSET(0xC309590)
-#define RPG_CLIENT_EFFECT_FLOWERSEA_LATETICK_OFFSET UNITYSDK_OFFSET(0xC30ABE0)
-#define RPG_CLIENT_EFFECT_FLOWERSEA_METHOD_5_0869E1192F8E01DF_OFFSET UNITYSDK_OFFSET(0xC30B8F0)
-#define RPG_CLIENT_EFFECT_FLOWERSEA_METHOD_5_81FEFD1B22CE37A2_OFFSET UNITYSDK_OFFSET(0xC30AC40)
-#define RPG_CLIENT_EFFECT_FLOWERSEA_METHOD_5_B29205EE7F7B640C_OFFSET UNITYSDK_OFFSET(0xC3095E0)
-#define RPG_CLIENT_EFFECT_FLOWERSEA_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xC30AB50)
-#define RPG_CLIENT_EFFECT_FLOWERSEA_ONENABLE_OFFSET UNITYSDK_OFFSET(0xC30A9F0)
-#define RPG_CLIENT_EFFECT_FLOWERSEA__CTOR_OFFSET UNITYSDK_OFFSET(0xC30BAE0)
+#define RPG_CLIENT_EFFECT_FLOWERSEA_AWAKE_OFFSET UNITYSDK_OFFSET(0xCDDA9B0)
+#define RPG_CLIENT_EFFECT_FLOWERSEA_LATETICK_OFFSET UNITYSDK_OFFSET(0xCDDC000)
+#define RPG_CLIENT_EFFECT_FLOWERSEA_METHOD_5_0869E1192F8E01DF_OFFSET UNITYSDK_OFFSET(0xCDDCD10)
+#define RPG_CLIENT_EFFECT_FLOWERSEA_METHOD_5_81FEFD1B22CE37A2_OFFSET UNITYSDK_OFFSET(0xCDDC060)
+#define RPG_CLIENT_EFFECT_FLOWERSEA_METHOD_5_B29205EE7F7B640C_OFFSET UNITYSDK_OFFSET(0xCDDAA00)
+#define RPG_CLIENT_EFFECT_FLOWERSEA_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xCDDBF70)
+#define RPG_CLIENT_EFFECT_FLOWERSEA_ONENABLE_OFFSET UNITYSDK_OFFSET(0xCDDBE10)
+#define RPG_CLIENT_EFFECT_FLOWERSEA__CTOR_OFFSET UNITYSDK_OFFSET(0xCDDCF00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_FlowerSea_TypeDefinitionIndex = 67319;
+	inline static constexpr unsigned int Effect_FlowerSea_TypeDefinitionIndex = 70441;
 
 	class Effect_FlowerSea : public ::UnityEngine::MonoBehaviour
 	{
@@ -48,21 +48,21 @@ namespace RPG::Client
 		::UnityEngine::Texture2D* DissolveTexture; // 0x70
 		::UnityEngine::Vector2 DissolveTiling; // 0x78
 		::System::Single DissolveRate; // 0x80
-		::UnityEngine::Vector3 Field_5_17; // 0x84
-		::UnityEngine::Vector3 Field_5_18; // 0x90
-		::System::Single Field_5_19; // 0x9C
-		::System::Boolean Field_5_20; // 0xA0
+		::UnityEngine::Vector3 KFEJGBAKKEF; // 0x84
+		::UnityEngine::Vector3 FDINMNJCEAB; // 0x90
+		::System::Single BKEBPGAKOAF; // 0x9C
+		::System::Boolean CGIHFDHNBNE; // 0xA0
 		::System::Collections::Generic::List_1<::UnityEngine::MaterialPropertyBlock*>* _MPBs; // 0xA8
-		::UnityEngine::Vector4 Field_5_22; // 0xB0
-		::UnityEngine::Vector4 Field_5_23; // 0xC0
-		::UnityEngine::Vector4 Field_5_24; // 0xD0
+		::UnityEngine::Vector4 FNCMDNDLIMN; // 0xB0
+		::UnityEngine::Vector4 DPKFKLFCFEC; // 0xC0
+		::UnityEngine::Vector4 PCMCLKJCLIJ; // 0xD0
 		::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::UnityEngine::Matrix4x4>*>* _Matrices; // 0xE0
 		::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::UnityEngine::Matrix4x4>*>* _WorldMatrices; // 0xE8
 		::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::UnityEngine::Vector4>*>* _WindDirection; // 0xF0
 		::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::System::Single>*>* _WindPhase; // 0xF8
 		::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::UnityEngine::Vector4>*>* _DissolveUV; // 0x100
 		::System::Collections::Generic::List_1<::UnityEngine::Mesh*>* _Meshes; // 0x108
-		::System::Boolean Field_5_31; // 0x110
+		::System::Boolean AJIFBNAFAMO; // 0x110
 
 		::System::Void _ctor()
 		{

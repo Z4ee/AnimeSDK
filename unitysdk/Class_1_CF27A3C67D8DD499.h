@@ -7,15 +7,15 @@
 namespace RPG::Client { class GridFightCyreneModifyConfig; }
 namespace RPG::Client { class GridFightRoleSkillDetail; }
 
-#define CLASS_1_CF27A3C67D8DD499_METHOD_1_ADD6B66E9BD6C8BF_OFFSET UNITYSDK_OFFSET(0x1492F5A0)
-#define CLASS_1_CF27A3C67D8DD499__CTOR_OFFSET UNITYSDK_OFFSET(0x1492F590)
+#define CLASS_1_CF27A3C67D8DD499_METHOD_1_ADD6B66E9BD6C8BF_OFFSET UNITYSDK_OFFSET(0x159729B0)
+#define CLASS_1_CF27A3C67D8DD499__CTOR_OFFSET UNITYSDK_OFFSET(0x159729A0)
 
-inline static constexpr unsigned int Class_1_CF27A3C67D8DD499_TypeDefinitionIndex = 62364;
+inline static constexpr unsigned int Class_1_CF27A3C67D8DD499_TypeDefinitionIndex = 65349;
 
 class Class_1_CF27A3C67D8DD499 : public ::System::Object
 {
 public:
-	::RPG::Client::GridFightCyreneModifyConfig* Field_1_0; // 0x10
+	::RPG::Client::GridFightCyreneModifyConfig* IGHAHBNLIJA; // 0x10
 
 	::System::Void _ctor(::RPG::Client::GridFightCyreneModifyConfig* a1)
 	{

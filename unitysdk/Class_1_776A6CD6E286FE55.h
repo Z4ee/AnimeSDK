@@ -2,23 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_CB66E39D32BF42FF_2;
+class Class_1_CB66E39D32BF42FF_1;
 namespace RPG::Client::NavMap::FiveDim { class CartographyFiveDim; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_776A6CD6E286FE55_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x14CCA260)
-#define CLASS_1_776A6CD6E286FE55_METHOD_1_6D71CC7A9DF62322_OFFSET UNITYSDK_OFFSET(0x14CC9F40)
-#define CLASS_1_776A6CD6E286FE55_METHOD_1_95780ED94B90ED36_OFFSET UNITYSDK_OFFSET(0x14CCA0D0)
-#define CLASS_1_776A6CD6E286FE55_SET_CURRENT_OFFSET UNITYSDK_OFFSET(0x14CCA270)
-#define CLASS_1_776A6CD6E286FE55__CTOR_OFFSET UNITYSDK_OFFSET(0x14CC9980)
+#define CLASS_1_776A6CD6E286FE55_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x15B8B500)
+#define CLASS_1_776A6CD6E286FE55_METHOD_1_6D71CC7A9DF62322_OFFSET UNITYSDK_OFFSET(0x15B8B320)
+#define CLASS_1_776A6CD6E286FE55_METHOD_1_95780ED94B90ED36_OFFSET UNITYSDK_OFFSET(0x15B8B4B0)
+#define CLASS_1_776A6CD6E286FE55_SET_CURRENT_OFFSET UNITYSDK_OFFSET(0x15B8B510)
+#define CLASS_1_776A6CD6E286FE55__CTOR_OFFSET UNITYSDK_OFFSET(0x15B8AD60)
 
-inline static constexpr unsigned int Class_1_776A6CD6E286FE55_TypeDefinitionIndex = 71223;
+inline static constexpr unsigned int Class_1_776A6CD6E286FE55_TypeDefinitionIndex = 74529;
 
 class Class_1_776A6CD6E286FE55 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::Class_1_CB66E39D32BF42FF_2*>* Field_1_0; // 0x10
-	::RPG::Client::NavMap::FiveDim::CartographyFiveDim* Field_1_1; // 0x18
+	::RPG::Client::NavMap::FiveDim::CartographyFiveDim* NJEIIMCMDFN; // 0x10
+	::System::Collections::Generic::List_1<::Class_1_CB66E39D32BF42FF_1*>* LFMPGKONJCH; // 0x18
 	::System::Int32 _Current_k__BackingField; // 0x20
 
 	::System::Void _ctor(::RPG::Client::NavMap::FiveDim::CartographyFiveDim* a1)

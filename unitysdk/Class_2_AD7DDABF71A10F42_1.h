@@ -12,40 +12,40 @@ namespace RPG::Client { class CameraModuleConfigCollection; }
 namespace RPG::Client { class PipelineCameraEngine; }
 namespace RPG::Client { class PipelineCameraGlobalConfig; }
 
-#define CLASS_2_AD7DDABF71A10F42_1_METHOD_2_0BDFAC56E6B704CB_OFFSET UNITYSDK_OFFSET(0x145C3BC0)
-#define CLASS_2_AD7DDABF71A10F42_1_METHOD_2_1808E1CF7A125519_OFFSET UNITYSDK_OFFSET(0x145C2620)
-#define CLASS_2_AD7DDABF71A10F42_1_METHOD_2_30E134A2CEDB3A22_OFFSET UNITYSDK_OFFSET(0x145C2540)
-#define CLASS_2_AD7DDABF71A10F42_1_METHOD_2_56CE4AFC5339F746_OFFSET UNITYSDK_OFFSET(0x145C3B10)
-#define CLASS_2_AD7DDABF71A10F42_1_METHOD_2_67823F1E89059BBC_OFFSET UNITYSDK_OFFSET(0x145C3D00)
-#define CLASS_2_AD7DDABF71A10F42_1_METHOD_2_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0x145C3160)
-#define CLASS_2_AD7DDABF71A10F42_1_METHOD_2_E11AC65AA0DC2249_OFFSET UNITYSDK_OFFSET(0x145C2690)
-#define CLASS_2_AD7DDABF71A10F42_1_METHOD_2_E4701342E93A9B87_OFFSET UNITYSDK_OFFSET(0x145C3230)
-#define CLASS_2_AD7DDABF71A10F42_1__CTOR_OFFSET UNITYSDK_OFFSET(0x145C23D0)
+#define CLASS_2_AD7DDABF71A10F42_1_METHOD_2_0BDFAC56E6B704CB_OFFSET UNITYSDK_OFFSET(0x15470D20)
+#define CLASS_2_AD7DDABF71A10F42_1_METHOD_2_1808E1CF7A125519_OFFSET UNITYSDK_OFFSET(0x1546F790)
+#define CLASS_2_AD7DDABF71A10F42_1_METHOD_2_30E134A2CEDB3A22_OFFSET UNITYSDK_OFFSET(0x1546F6B0)
+#define CLASS_2_AD7DDABF71A10F42_1_METHOD_2_56CE4AFC5339F746_OFFSET UNITYSDK_OFFSET(0x15470C70)
+#define CLASS_2_AD7DDABF71A10F42_1_METHOD_2_67823F1E89059BBC_OFFSET UNITYSDK_OFFSET(0x15470E60)
+#define CLASS_2_AD7DDABF71A10F42_1_METHOD_2_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0x154702C0)
+#define CLASS_2_AD7DDABF71A10F42_1_METHOD_2_E11AC65AA0DC2249_OFFSET UNITYSDK_OFFSET(0x1546F800)
+#define CLASS_2_AD7DDABF71A10F42_1_METHOD_2_E4701342E93A9B87_OFFSET UNITYSDK_OFFSET(0x15470390)
+#define CLASS_2_AD7DDABF71A10F42_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1546F540)
 
-inline static constexpr unsigned int Class_2_AD7DDABF71A10F42_1_TypeDefinitionIndex = 66506;
+inline static constexpr unsigned int Class_2_AD7DDABF71A10F42_1_TypeDefinitionIndex = 69599;
 
 class Class_2_AD7DDABF71A10F42_1 : public ::Class_1_4A7F3B1CD6560F7E
 {
 public:
-	::RPG::Client::CameraBlendCurve* Field_2_0; // 0x38
-	::RPG::Client::CameraBlendCurve* Field_2_1; // 0x40
-	::Class_1_C33A6A0F83B7A2E0* Field_2_2; // 0x48
-	::System::Single Field_2_3; // 0x50
-	::RPG::Client::VCameraChangeDataState Field_2_4; // 0x54
-	::System::Single Field_2_5; // 0x58
-	::System::Single Field_2_6; // 0x5C
-	::UnityEngine::Matrix4x4 Field_2_7; // 0x60
-	::System::Boolean Field_2_8; // 0xA0
-	::System::Boolean Field_2_9; // 0xA1
-	::UnityEngine::Matrix4x4 Field_2_10; // 0xA4
-	::System::Single Field_2_11; // 0xE4
-	::System::Single Field_2_12; // 0xE8
-	::System::Single Field_2_13; // 0xEC
-	::System::Single Field_2_14; // 0xF0
-	::RPG::Client::VCameraChangeDataState Field_2_15; // 0xF4
-	::System::Single Field_2_16; // 0xF8
-	::System::Single Field_2_17; // 0xFC
-	::System::Single Field_2_18; // 0x100
+	::RPG::Client::CameraBlendCurve* DGFHHPMPAHI; // 0x38
+	::Class_1_C33A6A0F83B7A2E0* KGIIAFKDLPD; // 0x40
+	::RPG::Client::CameraBlendCurve* KJJOCBMBEHE; // 0x48
+	::UnityEngine::Matrix4x4 GNGGKLEECHC; // 0x50
+	::System::Single DEHHNEPJBBK; // 0x90
+	::UnityEngine::Matrix4x4 OPMOGGALLPG; // 0x94
+	::System::Boolean BNFBHGLKPLP; // 0xD4
+	::System::Boolean EGKIAEIAMGM; // 0xD5
+	::System::Single KKHBNPPDKKL; // 0xD8
+	::RPG::Client::VCameraChangeDataState CFIKPOFNONJ; // 0xDC
+	::RPG::Client::VCameraChangeDataState DNKMCBJLAGG; // 0xE0
+	::System::Single EKCHCNIINGF; // 0xE4
+	::System::Single JFKGPGHOCIP; // 0xE8
+	::System::Single PGMIOKKLHIE; // 0xEC
+	::System::Single GBPLPJPGMDG; // 0xF0
+	::System::Single NLMAMDMLOGM; // 0xF4
+	::System::Single BALGFJDINGK; // 0xF8
+	::System::Single GHABAAOGBNO; // 0xFC
+	::System::Single DBPIIKMFPEB; // 0x100
 
 	::System::Void _ctor(::RPG::Client::PipelineCameraEngine* a1, ::RPG::Client::CameraModuleConfigCollection* a2, ::RPG::Client::PipelineCameraGlobalConfig* a3, ::RPG::Client::CameraDataAndFlags* a4)
 	{

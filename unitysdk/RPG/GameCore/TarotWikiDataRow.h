@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_TAROTWIKIDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B963D40)
-#define RPG_GAMECORE_TAROTWIKIDATAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B964040)
+#define RPG_GAMECORE_TAROTWIKIDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D5C0ED0)
+#define RPG_GAMECORE_TAROTWIKIDATAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5C11D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TarotWikiDataRow_TypeDefinitionIndex = 14636;
+	inline static constexpr unsigned int TarotWikiDataRow_TypeDefinitionIndex = 15072;
 
 	class TarotWikiDataRow : public ::System::Object
 	{

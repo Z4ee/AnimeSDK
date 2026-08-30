@@ -6,30 +6,30 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_SWORDTRAININGSTORYLINEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B93ADA0)
-#define RPG_GAMECORE_SWORDTRAININGSTORYLINEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B93B2F0)
+#define RPG_GAMECORE_SWORDTRAININGSTORYLINEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D598060)
+#define RPG_GAMECORE_SWORDTRAININGSTORYLINEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5985B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SwordTrainingStoryLineRow_TypeDefinitionIndex = 11983;
+	inline static constexpr unsigned int SwordTrainingStoryLineRow_TypeDefinitionIndex = 12372;
 
 	class SwordTrainingStoryLineRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* EndingStoryIDList; // 0x10
-		::Il2CppArray<::System::UInt32>* AvatarIDList; // 0x18
-		::System::String* StartTalkImage; // 0x20
+		::System::String* EndingOptionKey; // 0x18
+		::Il2CppArray<::System::UInt32>* TurnIDList; // 0x20
 		::System::String* StoryLineImage; // 0x28
-		::Il2CppArray<::System::UInt32>* TurnIDList; // 0x30
-		::System::String* EndingOptionKey; // 0x38
-		::RPG::Client::TextID StoryHardDesc; // 0x40
-		::RPG::Client::TextID StoryLineName; // 0x50
-		::System::UInt32 StoryLine; // 0x60
-		::RPG::Client::TextID StoryLineDesc; // 0x68
-		::System::UInt32 StartTalkSentenceID; // 0x78
-		::System::UInt32 UnlockID; // 0x7C
-		::System::UInt32 RewardID; // 0x80
-		::System::UInt32 TalkSentenceID; // 0x84
+		::Il2CppArray<::System::UInt32>* AvatarIDList; // 0x30
+		::System::String* StartTalkImage; // 0x38
+		::System::UInt32 StartTalkSentenceID; // 0x40
+		::System::UInt32 UnlockID; // 0x44
+		::RPG::Client::TextID StoryLineDesc; // 0x48
+		::System::UInt32 TalkSentenceID; // 0x58
+		::System::UInt32 StoryLine; // 0x5C
+		::RPG::Client::TextID StoryLineName; // 0x60
+		::System::UInt32 RewardID; // 0x70
+		::RPG::Client::TextID StoryHardDesc; // 0x78
 
 		::System::Void _ctor()
 		{

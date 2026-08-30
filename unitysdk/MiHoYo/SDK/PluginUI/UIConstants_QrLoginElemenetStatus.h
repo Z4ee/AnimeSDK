@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int UIConstants_QrLoginElemenetStatus_TypeDefinitionIndex = 45046;
+	inline static constexpr unsigned int UIConstants_QrLoginElemenetStatus_TypeDefinitionIndex = 47282;
 
 	class UIConstants_QrLoginElemenetStatus : public ::System::Object
 	{

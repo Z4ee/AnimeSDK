@@ -6,14 +6,14 @@ namespace System { class Action; }
 
 namespace RPG::Client::FateRin::Battle
 {
-	inline static constexpr unsigned int FateRinBattleTeamInfoViewModel___O_TypeDefinitionIndex = 76021;
+	inline static constexpr unsigned int FateRinBattleTeamInfoViewModel___O_TypeDefinitionIndex = 79654;
 
 	class FateRinBattleTeamInfoViewModel___O : public ::System::Object
 	{
 	public:
 		static ::System::Action** StaticGet__0____OnPageEnter()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(FateRinBattleTeamInfoViewModel___O_TypeDefinitionIndex)->GetStaticField(0x6F10);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(FateRinBattleTeamInfoViewModel___O_TypeDefinitionIndex)->GetStaticField(0x2220);
 		}
 	};
 }

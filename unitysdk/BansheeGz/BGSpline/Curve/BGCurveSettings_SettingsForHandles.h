@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVESETTINGS_SETTINGSFORHANDLES_GET_DISABLED_OFFSET UNITYSDK_OFFSET(0x1A40CB50)
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVESETTINGS_SETTINGSFORHANDLES__CTOR_OFFSET UNITYSDK_OFFSET(0x1A40C5F0)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVESETTINGS_SETTINGSFORHANDLES_GET_DISABLED_OFFSET UNITYSDK_OFFSET(0x1C01BED0)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVESETTINGS_SETTINGSFORHANDLES__CTOR_OFFSET UNITYSDK_OFFSET(0x1C01B970)
 
 namespace BansheeGz::BGSpline::Curve
 {
-	inline static constexpr unsigned int BGCurveSettings_SettingsForHandles_TypeDefinitionIndex = 34481;
+	inline static constexpr unsigned int BGCurveSettings_SettingsForHandles_TypeDefinitionIndex = 35342;
 
 	class BGCurveSettings_SettingsForHandles : public ::System::Object
 	{

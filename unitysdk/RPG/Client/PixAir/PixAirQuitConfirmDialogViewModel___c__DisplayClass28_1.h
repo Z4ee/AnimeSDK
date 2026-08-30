@@ -5,22 +5,22 @@
 namespace RPG::Client { class UIManager; }
 namespace System { class Action; }
 
-#define RPG_CLIENT_PIXAIR_PIXAIRQUITCONFIRMDIALOGVIEWMODEL___C__DISPLAYCLASS28_1__CREATE_B__5_OFFSET UNITYSDK_OFFSET(0xCFE17D0)
-#define RPG_CLIENT_PIXAIR_PIXAIRQUITCONFIRMDIALOGVIEWMODEL___C__DISPLAYCLASS28_1__CREATE_B__6_OFFSET UNITYSDK_OFFSET(0xCFE1900)
-#define RPG_CLIENT_PIXAIR_PIXAIRQUITCONFIRMDIALOGVIEWMODEL___C__DISPLAYCLASS28_1__CREATE_B__7_OFFSET UNITYSDK_OFFSET(0xCFE18F0)
-#define RPG_CLIENT_PIXAIR_PIXAIRQUITCONFIRMDIALOGVIEWMODEL___C__DISPLAYCLASS28_1__CTOR_OFFSET UNITYSDK_OFFSET(0xCFE0E50)
+#define RPG_CLIENT_PIXAIR_PIXAIRQUITCONFIRMDIALOGVIEWMODEL___C__DISPLAYCLASS28_1__CREATE_B__5_OFFSET UNITYSDK_OFFSET(0xDB20920)
+#define RPG_CLIENT_PIXAIR_PIXAIRQUITCONFIRMDIALOGVIEWMODEL___C__DISPLAYCLASS28_1__CREATE_B__6_OFFSET UNITYSDK_OFFSET(0xDB20A50)
+#define RPG_CLIENT_PIXAIR_PIXAIRQUITCONFIRMDIALOGVIEWMODEL___C__DISPLAYCLASS28_1__CREATE_B__7_OFFSET UNITYSDK_OFFSET(0xDB20A40)
+#define RPG_CLIENT_PIXAIR_PIXAIRQUITCONFIRMDIALOGVIEWMODEL___C__DISPLAYCLASS28_1__CTOR_OFFSET UNITYSDK_OFFSET(0xDB20030)
 
 namespace RPG::Client::PixAir
 {
-	inline static constexpr unsigned int PixAirQuitConfirmDialogViewModel___c__DisplayClass28_1_TypeDefinitionIndex = 75359;
+	inline static constexpr unsigned int PixAirQuitConfirmDialogViewModel___c__DisplayClass28_1_TypeDefinitionIndex = 78906;
 
 	class PixAirQuitConfirmDialogViewModel___c__DisplayClass28_1 : public ::System::Object
 	{
 	public:
-		::RPG::Client::UIManager* uiManager; // 0x10
-		::System::Action* __9__7; // 0x18
-		::System::Boolean streamingFinished; // 0x20
-		::System::Single transferStartTime; // 0x24
+		::System::Action* __9__7; // 0x10
+		::RPG::Client::UIManager* uiManager; // 0x18
+		::System::Single transferStartTime; // 0x20
+		::System::Boolean streamingFinished; // 0x24
 
 		::System::Void _ctor()
 		{

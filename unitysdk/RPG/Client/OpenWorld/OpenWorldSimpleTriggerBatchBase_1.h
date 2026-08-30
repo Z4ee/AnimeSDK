@@ -5,12 +5,12 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-class Class_1_A73E0FAF46E3085E;
+class Class_1_4F54BF4C6B55D9A9;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::OpenWorld
 {
-	inline static constexpr unsigned int OpenWorldSimpleTriggerBatchBase_1_TypeDefinitionIndex = 70568;
+	inline static constexpr unsigned int OpenWorldSimpleTriggerBatchBase_1_TypeDefinitionIndex = 73867;
 
 	template <typename TTrigger>
 	class OpenWorldSimpleTriggerBatchBase_1 : public ::System::Object
@@ -20,6 +20,6 @@ namespace RPG::Client::OpenWorld
 		::System::Collections::Generic::List_1<TTrigger>* _Triggers; // 0x0
 		::System::Collections::Generic::List_1<::System::Int32>* _EmptyTriggerIdList; // 0x0
 		::System::Collections::Generic::List_1<TTrigger>* _PendingTriggers; // 0x0
-		::System::Collections::Generic::List_1<::Class_1_A73E0FAF46E3085E*>* _PendingHandlers; // 0x0
+		::System::Collections::Generic::List_1<::Class_1_4F54BF4C6B55D9A9*>* _PendingHandlers; // 0x0
 	};
 }

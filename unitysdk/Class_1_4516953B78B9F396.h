@@ -4,14 +4,14 @@
 
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define CLASS_1_4516953B78B9F396__CTOR_OFFSET UNITYSDK_OFFSET(0x1A79D160)
+#define CLASS_1_4516953B78B9F396__CTOR_OFFSET UNITYSDK_OFFSET(0x1C3C32F0)
 
-inline static constexpr unsigned int Class_1_4516953B78B9F396_TypeDefinitionIndex = 39474;
+inline static constexpr unsigned int Class_1_4516953B78B9F396_TypeDefinitionIndex = 40347;
 
 class Class_1_4516953B78B9F396 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::HashSet_1<::System::Int32>* Field_1_0; // 0x10
+	::System::Collections::Generic::HashSet_1<::System::Int32>* CAAEJNLOIMH; // 0x10
 
 	::System::Void _ctor()
 	{

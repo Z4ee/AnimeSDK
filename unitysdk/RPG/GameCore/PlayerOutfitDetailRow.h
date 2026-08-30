@@ -6,19 +6,19 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_PLAYEROUTFITDETAILROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B6CF410)
-#define RPG_GAMECORE_PLAYEROUTFITDETAILROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6CF560)
+#define RPG_GAMECORE_PLAYEROUTFITDETAILROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D351330)
+#define RPG_GAMECORE_PLAYEROUTFITDETAILROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D351480)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlayerOutfitDetailRow_TypeDefinitionIndex = 13928;
+	inline static constexpr unsigned int PlayerOutfitDetailRow_TypeDefinitionIndex = 14346;
 
 	class PlayerOutfitDetailRow : public ::System::Object
 	{
 	public:
 		::System::String* JsonPath; // 0x10
-		::RPG::GameCore::TargetGenderType TargetGenderType; // 0x18
-		::System::UInt32 OutfitID; // 0x1C
+		::System::UInt32 OutfitID; // 0x18
+		::RPG::GameCore::TargetGenderType TargetGenderType; // 0x1C
 
 		::System::Void _ctor()
 		{

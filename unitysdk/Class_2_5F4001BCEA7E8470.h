@@ -6,15 +6,15 @@ class Class_2_21AD365C113DC484;
 class Class_2_F3C45F1FC7349B6E;
 namespace RPG::GameCore { class CakeRaceActionChangeValidItem; }
 
-#define CLASS_2_5F4001BCEA7E8470_METHOD_2_5FDEFF0F1923DDCF_OFFSET UNITYSDK_OFFSET(0x1A68D6C0)
-#define CLASS_2_5F4001BCEA7E8470__CTOR_OFFSET UNITYSDK_OFFSET(0x1A68D6B0)
+#define CLASS_2_5F4001BCEA7E8470_METHOD_2_5FDEFF0F1923DDCF_OFFSET UNITYSDK_OFFSET(0x1C29D3B0)
+#define CLASS_2_5F4001BCEA7E8470__CTOR_OFFSET UNITYSDK_OFFSET(0x1C29D3A0)
 
-inline static constexpr unsigned int Class_2_5F4001BCEA7E8470_TypeDefinitionIndex = 35834;
+inline static constexpr unsigned int Class_2_5F4001BCEA7E8470_TypeDefinitionIndex = 36695;
 
 class Class_2_5F4001BCEA7E8470 : public ::Class_1_E559374AC4E5AD13
 {
 public:
-	::RPG::GameCore::CakeRaceActionChangeValidItem* Field_2_0; // 0x10
+	::RPG::GameCore::CakeRaceActionChangeValidItem* GLLGLGDKHOB; // 0x10
 
 	::System::Void _ctor(::RPG::GameCore::CakeRaceActionChangeValidItem* a1)
 	{

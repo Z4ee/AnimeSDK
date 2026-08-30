@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_TEXTJOINITEMROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B96D1C0)
-#define RPG_GAMECORE_TEXTJOINITEMROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B96D320)
+#define RPG_GAMECORE_TEXTJOINITEMROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D5CA450)
+#define RPG_GAMECORE_TEXTJOINITEMROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5CA5B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TextJoinItemRow_TypeDefinitionIndex = 14677;
+	inline static constexpr unsigned int TextJoinItemRow_TypeDefinitionIndex = 15113;
 
 	class TextJoinItemRow : public ::System::Object
 	{

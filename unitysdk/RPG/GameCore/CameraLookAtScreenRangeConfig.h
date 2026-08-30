@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class CameraLookAtScreenRange; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CAMERALOOKATSCREENRANGECONFIG_METHOD_2_023088A00DFD821B_OFFSET UNITYSDK_OFFSET(0x1B300A20)
-#define RPG_GAMECORE_CAMERALOOKATSCREENRANGECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B300B90)
+#define RPG_GAMECORE_CAMERALOOKATSCREENRANGECONFIG_METHOD_2_023088A00DFD821B_OFFSET UNITYSDK_OFFSET(0x1CF7C870)
+#define RPG_GAMECORE_CAMERALOOKATSCREENRANGECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF7C9E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CameraLookAtScreenRangeConfig_TypeDefinitionIndex = 19723;
+	inline static constexpr unsigned int CameraLookAtScreenRangeConfig_TypeDefinitionIndex = 20269;
 
 	class CameraLookAtScreenRangeConfig : public ::RPG::GameCore::JsonConfig
 	{

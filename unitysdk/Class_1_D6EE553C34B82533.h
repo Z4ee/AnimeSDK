@@ -5,15 +5,15 @@
 
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 
-#define CLASS_1_D6EE553C34B82533__CTOR_OFFSET UNITYSDK_OFFSET(0x14BBD8E0)
+#define CLASS_1_D6EE553C34B82533__CTOR_OFFSET UNITYSDK_OFFSET(0x15ABDAB0)
 
-inline static constexpr unsigned int Class_1_D6EE553C34B82533_TypeDefinitionIndex = 53243;
+inline static constexpr unsigned int Class_1_D6EE553C34B82533_TypeDefinitionIndex = 55957;
 
 class Class_1_D6EE553C34B82533 : public ::System::Object
 {
 public:
-	::RPG::GameCore::TurnBasedModifierInstance* Field_1_0; // 0x10
-	::RPG::GameCore::UITopEffectType Field_1_1; // 0x18
+	::RPG::GameCore::TurnBasedModifierInstance* EAEJGPLLGMI; // 0x10
+	::RPG::GameCore::UITopEffectType DLMINHHKKMK; // 0x18
 
 	::System::Void _ctor()
 	{

@@ -5,24 +5,24 @@
 namespace RPG::Client { class BattleCollegeAimData; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_BATTLECOLLEGEDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xBE50CC0)
-#define RPG_CLIENT_BATTLECOLLEGEDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0xBE50D00)
-#define RPG_CLIENT_BATTLECOLLEGEDATA___C__GETFIRSTUNFINISHEDAIMDATA_B__4_0_OFFSET UNITYSDK_OFFSET(0xBE50D10)
+#define RPG_CLIENT_BATTLECOLLEGEDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC8F1B20)
+#define RPG_CLIENT_BATTLECOLLEGEDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC8F1B60)
+#define RPG_CLIENT_BATTLECOLLEGEDATA___C__GETFIRSTUNFINISHEDAIMDATA_B__4_0_OFFSET UNITYSDK_OFFSET(0xC8F1B70)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BattleCollegeData___c_TypeDefinitionIndex = 60097;
+	inline static constexpr unsigned int BattleCollegeData___c_TypeDefinitionIndex = 62943;
 
 	class BattleCollegeData___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::BattleCollegeData___c** StaticGet___9()
-		{
-			return (::RPG::Client::BattleCollegeData___c**)Il2CppClass::FromTypeDefinitionIndex(BattleCollegeData___c_TypeDefinitionIndex)->GetStaticField(0x562A0);
-		}
 		static ::System::Func_2<::RPG::Client::BattleCollegeAimData*, ::System::Boolean>** StaticGet___9__4_0()
 		{
-			return (::System::Func_2<::RPG::Client::BattleCollegeAimData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(BattleCollegeData___c_TypeDefinitionIndex)->GetStaticField(0x562A8);
+			return (::System::Func_2<::RPG::Client::BattleCollegeAimData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(BattleCollegeData___c_TypeDefinitionIndex)->GetStaticField(0xA5D0);
+		}
+		static ::RPG::Client::BattleCollegeData___c** StaticGet___9()
+		{
+			return (::RPG::Client::BattleCollegeData___c**)Il2CppClass::FromTypeDefinitionIndex(BattleCollegeData___c_TypeDefinitionIndex)->GetStaticField(0xA5D8);
 		}
 
 		static ::System::Void _cctor()

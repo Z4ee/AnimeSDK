@@ -7,7 +7,7 @@ namespace RPG::Client::ActivityIdleLive { class IIdleLiveAvatarData; }
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveModifierBuilder_1_TypeDefinitionIndex = 71525;
+	inline static constexpr unsigned int IdleLiveModifierBuilder_1_TypeDefinitionIndex = 74831;
 
 	template <typename TValue>
 	class IdleLiveModifierBuilder_1 : public ::System::Object

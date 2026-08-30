@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define AKSPATIALAUDIODEBUGDRAW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2342C0)
+#define AKSPATIALAUDIODEBUGDRAW__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF3FC00)
 
-inline static constexpr unsigned int AkSpatialAudioDebugDraw_TypeDefinitionIndex = 42148;
+inline static constexpr unsigned int AkSpatialAudioDebugDraw_TypeDefinitionIndex = 43759;
 
 class AkSpatialAudioDebugDraw : public ::UnityEngine::MonoBehaviour
 {

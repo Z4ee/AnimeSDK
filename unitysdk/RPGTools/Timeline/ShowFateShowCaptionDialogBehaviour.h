@@ -4,12 +4,12 @@
 #include "unitysdk/UnityEngine/Playables/FrameData.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 
-#define RPGTOOLS_TIMELINE_SHOWFATESHOWCAPTIONDIALOGBEHAVIOUR_ONBEHAVIOURPAUSE_OFFSET UNITYSDK_OFFSET(0xDD19300)
-#define RPGTOOLS_TIMELINE_SHOWFATESHOWCAPTIONDIALOGBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xDD19380)
+#define RPGTOOLS_TIMELINE_SHOWFATESHOWCAPTIONDIALOGBEHAVIOUR_ONBEHAVIOURPAUSE_OFFSET UNITYSDK_OFFSET(0xE8E3E70)
+#define RPGTOOLS_TIMELINE_SHOWFATESHOWCAPTIONDIALOGBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xE8E3EF0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int ShowFateShowCaptionDialogBehaviour_TypeDefinitionIndex = 46511;
+	inline static constexpr unsigned int ShowFateShowCaptionDialogBehaviour_TypeDefinitionIndex = 48755;
 
 	class ShowFateShowCaptionDialogBehaviour : public ::RPGTools::Timeline::BaseShowDialogBehaviour
 	{

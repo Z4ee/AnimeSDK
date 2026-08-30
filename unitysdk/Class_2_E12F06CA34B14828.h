@@ -8,23 +8,23 @@ namespace RPG::GameCore { class Retarget; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_E12F06CA34B14828_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB2EB4B0)
-#define CLASS_2_E12F06CA34B14828_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB2EB5B0)
-#define CLASS_2_E12F06CA34B14828_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB2EBD60)
-#define CLASS_2_E12F06CA34B14828_TICK_OFFSET UNITYSDK_OFFSET(0xB2EBDB0)
-#define CLASS_2_E12F06CA34B14828__CTOR_OFFSET UNITYSDK_OFFSET(0xB2EB350)
+#define CLASS_2_E12F06CA34B14828_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBCD3190)
+#define CLASS_2_E12F06CA34B14828_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBCD3290)
+#define CLASS_2_E12F06CA34B14828_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBCD3A40)
+#define CLASS_2_E12F06CA34B14828_TICK_OFFSET UNITYSDK_OFFSET(0xBCD3A90)
+#define CLASS_2_E12F06CA34B14828__CTOR_OFFSET UNITYSDK_OFFSET(0xBCD3030)
 
-inline static constexpr unsigned int Class_2_E12F06CA34B14828_TypeDefinitionIndex = 52821;
+inline static constexpr unsigned int Class_2_E12F06CA34B14828_TypeDefinitionIndex = 55524;
 
 class Class_2_E12F06CA34B14828 : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::RPG::GameCore::TaskContext* Field_2_0; // 0x18
-	::System::Collections::Generic::List_1<::Class_3_07C3C4D2990C49EE*>* Field_2_1; // 0x20
-	::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* Field_2_2; // 0x28
-	::Class_3_07C3C4D2990C49EE* Field_2_3; // 0x30
-	::Class_1_5F51D4049EA87B7B* Field_2_4; // 0x38
-	::RPG::GameCore::Retarget* Field_2_5; // 0x40
+	::Class_3_07C3C4D2990C49EE* FNLJDEPHGFK; // 0x18
+	::System::Collections::Generic::List_1<::Class_3_07C3C4D2990C49EE*>* FBAGEMHGIIB; // 0x20
+	::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x28
+	::RPG::GameCore::Retarget* OFKGLJOAMLD; // 0x30
+	::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* BLOMOEJJCIK; // 0x38
+	::Class_1_5F51D4049EA87B7B* LLHKOFLJFCH; // 0x40
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::Retarget* a2)
 	{

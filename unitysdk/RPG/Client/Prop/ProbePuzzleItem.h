@@ -9,54 +9,54 @@ namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_PROP_PROBEPUZZLEITEM_INIT_OFFSET UNITYSDK_OFFSET(0xD1F6F20)
-#define RPG_CLIENT_PROP_PROBEPUZZLEITEM_METHOD_5_022B0D58A3077BF2_OFFSET UNITYSDK_OFFSET(0xD1F7560)
-#define RPG_CLIENT_PROP_PROBEPUZZLEITEM_METHOD_5_7DD84EAFF333A1E4_OFFSET UNITYSDK_OFFSET(0xD1F7510)
-#define RPG_CLIENT_PROP_PROBEPUZZLEITEM_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xD1F7740)
-#define RPG_CLIENT_PROP_PROBEPUZZLEITEM_ONENABLE_OFFSET UNITYSDK_OFFSET(0xD1F7630)
-#define RPG_CLIENT_PROP_PROBEPUZZLEITEM_SETDISTANCELV_OFFSET UNITYSDK_OFFSET(0xD1F6CD0)
-#define RPG_CLIENT_PROP_PROBEPUZZLEITEM_SETROTATERATIO_OFFSET UNITYSDK_OFFSET(0xD1F6EC0)
-#define RPG_CLIENT_PROP_PROBEPUZZLEITEM_SETROTATETARGETATCONSTANTSPEED_OFFSET UNITYSDK_OFFSET(0xD1F7140)
-#define RPG_CLIENT_PROP_PROBEPUZZLEITEM_SETSCANCALLBACK_OFFSET UNITYSDK_OFFSET(0xD1F6C80)
-#define RPG_CLIENT_PROP_PROBEPUZZLEITEM_SETTREASUREFIND_OFFSET UNITYSDK_OFFSET(0xD1F6D80)
-#define RPG_CLIENT_PROP_PROBEPUZZLEITEM_SETTREASURE_OFFSET UNITYSDK_OFFSET(0xD1F7390)
-#define RPG_CLIENT_PROP_PROBEPUZZLEITEM_SETTRIGGERDISAPPEAR_OFFSET UNITYSDK_OFFSET(0xD1F45C0)
-#define RPG_CLIENT_PROP_PROBEPUZZLEITEM_SETTRIGGERSCAN_OFFSET UNITYSDK_OFFSET(0xD1F6E20)
-#define RPG_CLIENT_PROP_PROBEPUZZLEITEM_UPDATE_OFFSET UNITYSDK_OFFSET(0xD1F73E0)
-#define RPG_CLIENT_PROP_PROBEPUZZLEITEM__CCTOR_OFFSET UNITYSDK_OFFSET(0xD1F7860)
-#define RPG_CLIENT_PROP_PROBEPUZZLEITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xD1F7850)
+#define RPG_CLIENT_PROP_PROBEPUZZLEITEM_INIT_OFFSET UNITYSDK_OFFSET(0xDCFB950)
+#define RPG_CLIENT_PROP_PROBEPUZZLEITEM_METHOD_5_022B0D58A3077BF2_OFFSET UNITYSDK_OFFSET(0xDCFBFB0)
+#define RPG_CLIENT_PROP_PROBEPUZZLEITEM_METHOD_5_7DD84EAFF333A1E4_OFFSET UNITYSDK_OFFSET(0xDCFBF60)
+#define RPG_CLIENT_PROP_PROBEPUZZLEITEM_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xDCFC190)
+#define RPG_CLIENT_PROP_PROBEPUZZLEITEM_ONENABLE_OFFSET UNITYSDK_OFFSET(0xDCFC080)
+#define RPG_CLIENT_PROP_PROBEPUZZLEITEM_SETDISTANCELV_OFFSET UNITYSDK_OFFSET(0xDCFB700)
+#define RPG_CLIENT_PROP_PROBEPUZZLEITEM_SETROTATERATIO_OFFSET UNITYSDK_OFFSET(0xDCFB8F0)
+#define RPG_CLIENT_PROP_PROBEPUZZLEITEM_SETROTATETARGETATCONSTANTSPEED_OFFSET UNITYSDK_OFFSET(0xDCFBB90)
+#define RPG_CLIENT_PROP_PROBEPUZZLEITEM_SETSCANCALLBACK_OFFSET UNITYSDK_OFFSET(0xDCFB6B0)
+#define RPG_CLIENT_PROP_PROBEPUZZLEITEM_SETTREASUREFIND_OFFSET UNITYSDK_OFFSET(0xDCFB7B0)
+#define RPG_CLIENT_PROP_PROBEPUZZLEITEM_SETTREASURE_OFFSET UNITYSDK_OFFSET(0xDCFBDE0)
+#define RPG_CLIENT_PROP_PROBEPUZZLEITEM_SETTRIGGERDISAPPEAR_OFFSET UNITYSDK_OFFSET(0xDCF9020)
+#define RPG_CLIENT_PROP_PROBEPUZZLEITEM_SETTRIGGERSCAN_OFFSET UNITYSDK_OFFSET(0xDCFB850)
+#define RPG_CLIENT_PROP_PROBEPUZZLEITEM_UPDATE_OFFSET UNITYSDK_OFFSET(0xDCFBE30)
+#define RPG_CLIENT_PROP_PROBEPUZZLEITEM__CCTOR_OFFSET UNITYSDK_OFFSET(0xDCFC2B0)
+#define RPG_CLIENT_PROP_PROBEPUZZLEITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xDCFC2A0)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ProbePuzzleItem_TypeDefinitionIndex = 74824;
+	inline static constexpr unsigned int ProbePuzzleItem_TypeDefinitionIndex = 78309;
 
 	class ProbePuzzleItem : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::System::String** StaticGet_Field_5_0()
+		static ::System::String** StaticGet_LNDCCOAHLEN()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ProbePuzzleItem_TypeDefinitionIndex)->GetStaticField(0xBAB0);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ProbePuzzleItem_TypeDefinitionIndex)->GetStaticField(0x65790);
 		}
-		static ::System::String** StaticGet_Field_5_1()
+		static ::System::String** StaticGet_EFLNDNGCCGN()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ProbePuzzleItem_TypeDefinitionIndex)->GetStaticField(0xBAB8);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ProbePuzzleItem_TypeDefinitionIndex)->GetStaticField(0x65798);
 		}
-		static ::System::String** StaticGet_Field_5_2()
+		static ::System::String** StaticGet_GCJJAOGJPFG()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ProbePuzzleItem_TypeDefinitionIndex)->GetStaticField(0xBAC0);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ProbePuzzleItem_TypeDefinitionIndex)->GetStaticField(0x657A0);
 		}
-		static ::System::String** StaticGet_Field_5_3()
+		static ::System::String** StaticGet_CJBKIMGOPOK()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ProbePuzzleItem_TypeDefinitionIndex)->GetStaticField(0xBAC8);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ProbePuzzleItem_TypeDefinitionIndex)->GetStaticField(0x657A8);
 		}
 		::System::Single _rotateRatio; // 0x18
-		::UnityEngine::Transform* Field_5_5; // 0x20
-		::Class_2_01F4079471966D8C* Field_5_6; // 0x28
-		::System::Action_1<::System::Single>* Field_5_7; // 0x30
-		::UnityEngine::Quaternion Field_5_8; // 0x38
-		::UnityEngine::Quaternion Field_5_9; // 0x48
-		::System::Single Field_5_10; // 0x58
-		::System::Single Field_5_11; // 0x5C
+		::UnityEngine::Transform* AIALICECJOJ; // 0x20
+		::Class_2_01F4079471966D8C* NAHOHKAHBPK; // 0x28
+		::System::Action_1<::System::Single>* LNBDGMFCHAP; // 0x30
+		::UnityEngine::Quaternion KICIGEMOJKB; // 0x38
+		::UnityEngine::Quaternion LEEFKBFPEHL; // 0x48
+		::System::Single DCNOGDMDJGF; // 0x58
+		::System::Single DJIKPFCFAPO; // 0x5C
 
 		::System::Void _ctor()
 		{

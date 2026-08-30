@@ -6,22 +6,22 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_TREASUREDUNGEONGRIDBUFFCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B98F190)
-#define RPG_GAMECORE_TREASUREDUNGEONGRIDBUFFCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B98F460)
+#define RPG_GAMECORE_TREASUREDUNGEONGRIDBUFFCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D5EC420)
+#define RPG_GAMECORE_TREASUREDUNGEONGRIDBUFFCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5EC6F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TreasureDungeonGridBuffConfigRow_TypeDefinitionIndex = 12055;
+	inline static constexpr unsigned int TreasureDungeonGridBuffConfigRow_TypeDefinitionIndex = 12444;
 
 	class TreasureDungeonGridBuffConfigRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* TypeParam; // 0x10
-		::System::UInt32 GridBuffMaxLevel; // 0x18
-		::System::UInt32 DisplayMazeBuffID; // 0x1C
-		::System::UInt32 ParamInt; // 0x20
-		::RPG::Client::TextID Desc; // 0x28
-		::RPG::GameCore::TreasureDungeonGridBuffType Type; // 0x38
+		::System::UInt32 ParamInt; // 0x18
+		::RPG::Client::TextID Desc; // 0x20
+		::RPG::GameCore::TreasureDungeonGridBuffType Type; // 0x30
+		::System::UInt32 DisplayMazeBuffID; // 0x34
+		::System::UInt32 GridBuffMaxLevel; // 0x38
 		::System::UInt32 GridBuffID; // 0x3C
 
 		::System::Void _ctor()

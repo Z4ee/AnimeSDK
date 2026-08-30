@@ -4,11 +4,11 @@
 
 namespace RPG::GameCore { class GameEntity; }
 
-#define RPG_CLIENT_SETBATTLEEVENTSKILLUIPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0xD4E9260)
+#define RPG_CLIENT_SETBATTLEEVENTSKILLUIPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0xE078BA0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SetBattleEventSkillUIParams_TypeDefinitionIndex = 68404;
+	inline static constexpr unsigned int SetBattleEventSkillUIParams_TypeDefinitionIndex = 71585;
 
 	class SetBattleEventSkillUIParams : public ::System::Object
 	{

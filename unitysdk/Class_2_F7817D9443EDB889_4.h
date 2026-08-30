@@ -1,21 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_F9FBCC956DFCF137_18.h"
+#include "unitysdk/Class_1_F9FBCC956DFCF137_20.h"
 #include "unitysdk/RPG/Client/FateGameStateType.h"
 
 class Class_1_582AF6875845819E;
 namespace RPG::Client { class UIController; }
 
-#define CLASS_2_F7817D9443EDB889_4_METHOD_2_08BD60914BBD1FFD_OFFSET UNITYSDK_OFFSET(0xB02D3B0)
-#define CLASS_2_F7817D9443EDB889_4_METHOD_2_FCC933CD82A05C24_OFFSET UNITYSDK_OFFSET(0xB02D200)
-#define CLASS_2_F7817D9443EDB889_4__CTOR_OFFSET UNITYSDK_OFFSET(0xB02D1F0)
+#define CLASS_2_F7817D9443EDB889_4_METHOD_2_08BD60914BBD1FFD_OFFSET UNITYSDK_OFFSET(0xB9EA7D0)
+#define CLASS_2_F7817D9443EDB889_4_METHOD_2_FCC933CD82A05C24_OFFSET UNITYSDK_OFFSET(0xB9EA620)
+#define CLASS_2_F7817D9443EDB889_4__CTOR_OFFSET UNITYSDK_OFFSET(0xB9EA610)
 
-inline static constexpr unsigned int Class_2_F7817D9443EDB889_4_TypeDefinitionIndex = 61131;
+inline static constexpr unsigned int Class_2_F7817D9443EDB889_4_TypeDefinitionIndex = 64112;
 
-class Class_2_F7817D9443EDB889_4 : public ::Class_1_F9FBCC956DFCF137_18
+class Class_2_F7817D9443EDB889_4 : public ::Class_1_F9FBCC956DFCF137_20
 {
 public:
-	::RPG::Client::UIController* Field_2_0; // 0x18
+	::RPG::Client::UIController* KGKKAEDGOCA; // 0x18
 
 	::System::Void _ctor(::Class_1_582AF6875845819E* a1)
 	{

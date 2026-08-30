@@ -5,24 +5,24 @@
 namespace RPG::Client::ActivityHipplen { class ActivityHipplenTraitData; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENCOLLECTDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xBB1BE60)
-#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENCOLLECTDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0xBB1BEA0)
-#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENCOLLECTDATA___C__GETTRAITCOLLECTDATALIST_B__7_0_OFFSET UNITYSDK_OFFSET(0xBB1BEB0)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENCOLLECTDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC539BB0)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENCOLLECTDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC539BF0)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENCOLLECTDATA___C__GETTRAITCOLLECTDATALIST_B__7_0_OFFSET UNITYSDK_OFFSET(0xC539C00)
 
 namespace RPG::Client::ActivityHipplen
 {
-	inline static constexpr unsigned int ActivityHipplenCollectData___c_TypeDefinitionIndex = 71893;
+	inline static constexpr unsigned int ActivityHipplenCollectData___c_TypeDefinitionIndex = 75199;
 
 	class ActivityHipplenCollectData___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::ActivityHipplen::ActivityHipplenCollectData___c** StaticGet___9()
-		{
-			return (::RPG::Client::ActivityHipplen::ActivityHipplenCollectData___c**)Il2CppClass::FromTypeDefinitionIndex(ActivityHipplenCollectData___c_TypeDefinitionIndex)->GetStaticField(0x36110);
-		}
 		static ::System::Comparison_1<::RPG::Client::ActivityHipplen::ActivityHipplenTraitData*>** StaticGet___9__7_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::ActivityHipplen::ActivityHipplenTraitData*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityHipplenCollectData___c_TypeDefinitionIndex)->GetStaticField(0x36118);
+			return (::System::Comparison_1<::RPG::Client::ActivityHipplen::ActivityHipplenTraitData*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityHipplenCollectData___c_TypeDefinitionIndex)->GetStaticField(0x63480);
+		}
+		static ::RPG::Client::ActivityHipplen::ActivityHipplenCollectData___c** StaticGet___9()
+		{
+			return (::RPG::Client::ActivityHipplen::ActivityHipplenCollectData___c**)Il2CppClass::FromTypeDefinitionIndex(ActivityHipplenCollectData___c_TypeDefinitionIndex)->GetStaticField(0x63488);
 		}
 
 		static ::System::Void _cctor()

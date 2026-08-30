@@ -5,19 +5,19 @@
 namespace RPG::Client::Prop { class ChimeraBattlePuzzleBoard; }
 namespace System { class Action; }
 
-#define RPG_CLIENT_LITTLEGAME_CHIMERATEAMMEMBERDEATHCOMMAND_EXECUTE_OFFSET UNITYSDK_OFFSET(0xC98BE50)
-#define RPG_CLIENT_LITTLEGAME_CHIMERATEAMMEMBERDEATHCOMMAND__CTOR_OFFSET UNITYSDK_OFFSET(0xC98C7F0)
-#define RPG_CLIENT_LITTLEGAME_CHIMERATEAMMEMBERDEATHCOMMAND__STARTTRANSITION_OFFSET UNITYSDK_OFFSET(0xC98C6C0)
+#define RPG_CLIENT_LITTLEGAME_CHIMERATEAMMEMBERDEATHCOMMAND_EXECUTE_OFFSET UNITYSDK_OFFSET(0xD4CC040)
+#define RPG_CLIENT_LITTLEGAME_CHIMERATEAMMEMBERDEATHCOMMAND__CTOR_OFFSET UNITYSDK_OFFSET(0xD4CC9E0)
+#define RPG_CLIENT_LITTLEGAME_CHIMERATEAMMEMBERDEATHCOMMAND__STARTTRANSITION_OFFSET UNITYSDK_OFFSET(0xD4CC8B0)
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int ChimeraTeamMemberDeathCommand_TypeDefinitionIndex = 72729;
+	inline static constexpr unsigned int ChimeraTeamMemberDeathCommand_TypeDefinitionIndex = 76165;
 
 	class ChimeraTeamMemberDeathCommand : public ::System::Object
 	{
 	public:
-		::System::UInt32 ChimeraID; // 0x10
-		::System::Int32 Index; // 0x14
+		::System::Int32 Index; // 0x10
+		::System::UInt32 ChimeraID; // 0x14
 
 		::System::Void _ctor(::System::UInt32 a1, ::System::Int32 a2)
 		{

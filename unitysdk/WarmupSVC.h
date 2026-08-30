@@ -5,9 +5,9 @@
 class WarmupShaderVariant;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define WARMUPSVC__CTOR_OFFSET UNITYSDK_OFFSET(0xDDC88F0)
+#define WARMUPSVC__CTOR_OFFSET UNITYSDK_OFFSET(0xE9A2100)
 
-inline static constexpr unsigned int WarmupSVC_TypeDefinitionIndex = 45640;
+inline static constexpr unsigned int WarmupSVC_TypeDefinitionIndex = 47891;
 
 class WarmupSVC : public ::System::Object
 {

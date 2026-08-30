@@ -4,12 +4,12 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_PAGELISTDOTITEM_SETSELECTED_OFFSET UNITYSDK_OFFSET(0xCF21AE0)
-#define RPG_CLIENT_PAGELISTDOTITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xCF21CA0)
+#define RPG_CLIENT_PAGELISTDOTITEM_SETSELECTED_OFFSET UNITYSDK_OFFSET(0xDA1F440)
+#define RPG_CLIENT_PAGELISTDOTITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xDA1F600)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PageListDotItem_TypeDefinitionIndex = 69339;
+	inline static constexpr unsigned int PageListDotItem_TypeDefinitionIndex = 72547;
 
 	class PageListDotItem : public ::UnityEngine::MonoBehaviour
 	{

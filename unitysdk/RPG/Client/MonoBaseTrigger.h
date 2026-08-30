@@ -4,18 +4,18 @@
 
 namespace RPG::Client { class MonoTriggerRegion; }
 
-#define RPG_CLIENT_MONOBASETRIGGER_METHOD_5_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xCC32AE0)
-#define RPG_CLIENT_MONOBASETRIGGER_START_OFFSET UNITYSDK_OFFSET(0xCC32990)
-#define RPG_CLIENT_MONOBASETRIGGER__CTOR_OFFSET UNITYSDK_OFFSET(0xCC32B20)
+#define RPG_CLIENT_MONOBASETRIGGER_METHOD_5_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xD731B80)
+#define RPG_CLIENT_MONOBASETRIGGER_START_OFFSET UNITYSDK_OFFSET(0xD731A30)
+#define RPG_CLIENT_MONOBASETRIGGER__CTOR_OFFSET UNITYSDK_OFFSET(0xD731BC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoBaseTrigger_TypeDefinitionIndex = 65832;
+	inline static constexpr unsigned int MonoBaseTrigger_TypeDefinitionIndex = 68871;
 
 	class MonoBaseTrigger : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		::RPG::Client::MonoTriggerRegion* Field_5_0; // 0x18
+		::RPG::Client::MonoTriggerRegion* ECBAOBGDJBL; // 0x18
 
 		::System::Void _ctor()
 		{

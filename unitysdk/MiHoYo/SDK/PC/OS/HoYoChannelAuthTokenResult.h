@@ -2,20 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MiHoYo/SDK/PC/OS/HoYoChannelBaseResult.h"
 
+namespace MiHoYo::SDK::PC::OS { class XboxAuthTokenExtension; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELAUTHTOKENRESULT_FROMJSON_OFFSET UNITYSDK_OFFSET(0x19D6CEC0)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELAUTHTOKENRESULT_TOJSON_OFFSET UNITYSDK_OFFSET(0x19D6CEB0)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELAUTHTOKENRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x19D6CF00)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELAUTHTOKENRESULT_FROMJSON_OFFSET UNITYSDK_OFFSET(0x1BA1DDD0)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELAUTHTOKENRESULT_TOJSON_OFFSET UNITYSDK_OFFSET(0x1BA1DDC0)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELAUTHTOKENRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA1DE10)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int HoYoChannelAuthTokenResult_TypeDefinitionIndex = 8469;
+	inline static constexpr unsigned int HoYoChannelAuthTokenResult_TypeDefinitionIndex = 8537;
 
 	class HoYoChannelAuthTokenResult : public ::MiHoYo::SDK::PC::OS::HoYoChannelBaseResult
 	{
 	public:
-		::System::String* token; // 0x28
+		// static const ::System::Int32 CHANNEL_USER_NOT_SIGNED_IN = 0xFFFFF82F; // 0x0
+		::System::String* token; // 0x30
+		::MiHoYo::SDK::PC::OS::XboxAuthTokenExtension* xbox; // 0x38
 
 		::System::Void _ctor()
 		{

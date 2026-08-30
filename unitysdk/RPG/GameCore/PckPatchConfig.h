@@ -8,13 +8,13 @@ namespace SimpleJSON { class JSONNode; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_PCKPATCHCONFIG_METHOD_2_E78711E933CA50C4_OFFSET UNITYSDK_OFFSET(0x1B68E110)
-#define RPG_GAMECORE_PCKPATCHCONFIG_METHOD_2_F077A5A499DF57B3_OFFSET UNITYSDK_OFFSET(0x1B68E000)
-#define RPG_GAMECORE_PCKPATCHCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B68E100)
+#define RPG_GAMECORE_PCKPATCHCONFIG_METHOD_2_E78711E933CA50C4_OFFSET UNITYSDK_OFFSET(0x1D310E10)
+#define RPG_GAMECORE_PCKPATCHCONFIG_METHOD_2_F077A5A499DF57B3_OFFSET UNITYSDK_OFFSET(0x1D310D00)
+#define RPG_GAMECORE_PCKPATCHCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D310E00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PckPatchConfig_TypeDefinitionIndex = 15746;
+	inline static constexpr unsigned int PckPatchConfig_TypeDefinitionIndex = 16222;
 
 	class PckPatchConfig : public ::RPG::GameCore::JsonConfig
 	{

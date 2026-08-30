@@ -5,19 +5,19 @@
 
 namespace RPG::Client { class ChallengeStoryInstance; }
 
-#define RPG_CLIENT_CHALLENGE_CHALLENGESTORYENVIRONMENTHINTVIEWMODEL_GET_CURRENTSTAGEBUFFID_OFFSET UNITYSDK_OFFSET(0xBF4C850)
-#define RPG_CLIENT_CHALLENGE_CHALLENGESTORYENVIRONMENTHINTVIEWMODEL_GET_CURRENTSTAGENUMBER_OFFSET UNITYSDK_OFFSET(0xBF4C840)
-#define RPG_CLIENT_CHALLENGE_CHALLENGESTORYENVIRONMENTHINTVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xBF4AD10)
+#define RPG_CLIENT_CHALLENGE_CHALLENGESTORYENVIRONMENTHINTVIEWMODEL_GET_CURRENTSTAGEBUFFID_OFFSET UNITYSDK_OFFSET(0xC9F1B40)
+#define RPG_CLIENT_CHALLENGE_CHALLENGESTORYENVIRONMENTHINTVIEWMODEL_GET_CURRENTSTAGENUMBER_OFFSET UNITYSDK_OFFSET(0xC9F1B30)
+#define RPG_CLIENT_CHALLENGE_CHALLENGESTORYENVIRONMENTHINTVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xC9F00D0)
 
 namespace RPG::Client::Challenge
 {
-	inline static constexpr unsigned int ChallengeStoryEnvironmentHintViewModel_TypeDefinitionIndex = 76473;
+	inline static constexpr unsigned int ChallengeStoryEnvironmentHintViewModel_TypeDefinitionIndex = 80105;
 
 	class ChallengeStoryEnvironmentHintViewModel : public ::RPG::Client::Challenge::ChallengeEnvironmentHintViewModelBase
 	{
 	public:
-		::System::Int32 _CurrentStageNumber_k__BackingField; // 0x18
-		::System::Nullable_1<::System::UInt32> _CurrentStageBuffID_k__BackingField; // 0x1C
+		::System::Nullable_1<::System::UInt32> _CurrentStageBuffID_k__BackingField; // 0x18
+		::System::Int32 _CurrentStageNumber_k__BackingField; // 0x20
 
 		::System::Void _ctor(::RPG::Client::ChallengeStoryInstance* a1)
 		{

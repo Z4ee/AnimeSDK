@@ -3,14 +3,14 @@
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/System/ValueType.h"
 
-#define STRUCT_2_10B9ACD0BDABD4D7__CTOR_OFFSET UNITYSDK_OFFSET(0x1422D0)
+#define STRUCT_2_10B9ACD0BDABD4D7__CTOR_OFFSET UNITYSDK_OFFSET(0x147720)
 
-inline static constexpr unsigned int Struct_2_10B9ACD0BDABD4D7_TypeDefinitionIndex = 69107;
+inline static constexpr unsigned int Struct_2_10B9ACD0BDABD4D7_TypeDefinitionIndex = 72307;
 
 struct alignas(8) Struct_2_10B9ACD0BDABD4D7
 {
-	::RPG::Client::TextID Field_2_0; // 0x10
-	::System::UInt32 Field_2_1; // 0x20
+	::RPG::Client::TextID NMMKDFFHOLL; // 0x10
+	::System::UInt32 NBAHBKCPOGF; // 0x20
 
 	::System::Void _ctor(::RPG::Client::TextID a1, ::System::UInt32 a2)
 	{

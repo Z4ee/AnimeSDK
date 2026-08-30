@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StackWeakResistanceType_TypeDefinitionIndex = 23817;
+	inline static constexpr unsigned int StackWeakResistanceType_TypeDefinitionIndex = 24405;
 
 	enum class StackWeakResistanceType : ::System::Int32
 	{

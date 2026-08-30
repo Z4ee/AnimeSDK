@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_CA217ABF4E3B4F3F.h"
+#include "unitysdk/Class_1_34917908B7833130.h"
 
 class Class_2_A59D996EA4C786B3;
 namespace RPG::GameCore { class JsonConfig; }
@@ -8,23 +8,23 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_2_DAF303F39006E550_METHOD_2_41C2FC8BB95016DD_OFFSET UNITYSDK_OFFSET(0xCD82CB0)
-#define CLASS_2_DAF303F39006E550_METHOD_2_8859F40A3E47CF22_OFFSET UNITYSDK_OFFSET(0xCD827B0)
-#define CLASS_2_DAF303F39006E550_METHOD_2_9178D0680A316E5A_OFFSET UNITYSDK_OFFSET(0xCD82920)
-#define CLASS_2_DAF303F39006E550_METHOD_2_D675670EA8F43CD1_OFFSET UNITYSDK_OFFSET(0xCD82BB0)
-#define CLASS_2_DAF303F39006E550__CTOR_OFFSET UNITYSDK_OFFSET(0xCD82D10)
-#define CLASS_2_DAF303F39006E550__ONBIND_OFFSET UNITYSDK_OFFSET(0xCD824C0)
+#define CLASS_2_DAF303F39006E550_METHOD_2_41C2FC8BB95016DD_OFFSET UNITYSDK_OFFSET(0xD80C240)
+#define CLASS_2_DAF303F39006E550_METHOD_2_8859F40A3E47CF22_OFFSET UNITYSDK_OFFSET(0xD80BD70)
+#define CLASS_2_DAF303F39006E550_METHOD_2_9178D0680A316E5A_OFFSET UNITYSDK_OFFSET(0xD80BEE0)
+#define CLASS_2_DAF303F39006E550_METHOD_2_D675670EA8F43CD1_OFFSET UNITYSDK_OFFSET(0xD80C160)
+#define CLASS_2_DAF303F39006E550__CTOR_OFFSET UNITYSDK_OFFSET(0xD80C2A0)
+#define CLASS_2_DAF303F39006E550__ONBIND_OFFSET UNITYSDK_OFFSET(0xD80BA80)
 
-inline static constexpr unsigned int Class_2_DAF303F39006E550_TypeDefinitionIndex = 69065;
+inline static constexpr unsigned int Class_2_DAF303F39006E550_TypeDefinitionIndex = 72264;
 
-class Class_2_DAF303F39006E550 : public ::Class_1_CA217ABF4E3B4F3F
+class Class_2_DAF303F39006E550 : public ::Class_1_34917908B7833130
 {
 public:
-	::Il2CppArray<::UnityEngine::Transform*>* Field_2_0; // 0x60
-	::Il2CppArray<::System::String*>* Field_2_1; // 0x68
-	::System::String* Field_2_2; // 0x70
-	::System::String* Field_2_3; // 0x78
-	::System::Collections::Generic::List_1<::Class_2_A59D996EA4C786B3*>* Field_2_4; // 0x80
+	::System::String* DLJDAMGNOIM; // 0x60
+	::System::Collections::Generic::List_1<::Class_2_A59D996EA4C786B3*>* MLJDAEMEBFJ; // 0x68
+	::System::String* LNDMFBFLHGK; // 0x70
+	::Il2CppArray<::System::String*>* NENDKIOBLMO; // 0x78
+	::Il2CppArray<::UnityEngine::Transform*>* PPBKHNLDGEP; // 0x80
 
 	::System::Void _ctor()
 	{

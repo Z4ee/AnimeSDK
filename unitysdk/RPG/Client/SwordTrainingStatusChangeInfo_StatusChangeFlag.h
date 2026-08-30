@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SwordTrainingStatusChangeInfo_StatusChangeFlag_TypeDefinitionIndex = 59229;
+	inline static constexpr unsigned int SwordTrainingStatusChangeInfo_StatusChangeFlag_TypeDefinitionIndex = 62064;
 
 	enum class SwordTrainingStatusChangeInfo_StatusChangeFlag : ::System::Int32
 	{

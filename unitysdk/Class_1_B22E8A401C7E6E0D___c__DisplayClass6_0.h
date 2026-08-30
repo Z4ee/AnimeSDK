@@ -4,10 +4,10 @@
 
 namespace RPG::Client::FateRin::View::Battle { class FateRinBattleHudHandCardLayout; }
 
-#define CLASS_1_B22E8A401C7E6E0D___C__DISPLAYCLASS6_0__CREATEREFLOWCOMMAND_B__0_OFFSET UNITYSDK_OFFSET(0xAEFE770)
-#define CLASS_1_B22E8A401C7E6E0D___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0xAEFD330)
+#define CLASS_1_B22E8A401C7E6E0D___C__DISPLAYCLASS6_0__CREATEREFLOWCOMMAND_B__0_OFFSET UNITYSDK_OFFSET(0xB8AC6D0)
+#define CLASS_1_B22E8A401C7E6E0D___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB8AB290)
 
-inline static constexpr unsigned int Class_1_B22E8A401C7E6E0D___c__DisplayClass6_0_TypeDefinitionIndex = 75889;
+inline static constexpr unsigned int Class_1_B22E8A401C7E6E0D___c__DisplayClass6_0_TypeDefinitionIndex = 79522;
 
 class Class_1_B22E8A401C7E6E0D___c__DisplayClass6_0 : public ::System::Object
 {

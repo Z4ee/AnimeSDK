@@ -7,30 +7,30 @@ class Class_1_7A22A3DBEEDD1F80;
 class Class_1_A88C3AAF0DD46F4C_4;
 namespace System { class String; }
 
-#define CLASS_1_B553C21756B27967_METHOD_1_95FA3048B3F79507_OFFSET UNITYSDK_OFFSET(0x1AE1B680)
-#define CLASS_1_B553C21756B27967__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE1BB90)
+#define CLASS_1_B553C21756B27967_METHOD_1_95FA3048B3F79507_OFFSET UNITYSDK_OFFSET(0x1CA7F960)
+#define CLASS_1_B553C21756B27967__CTOR_OFFSET UNITYSDK_OFFSET(0x1CA7FE70)
 
-inline static constexpr unsigned int Class_1_B553C21756B27967_TypeDefinitionIndex = 10911;
+inline static constexpr unsigned int Class_1_B553C21756B27967_TypeDefinitionIndex = 11286;
 
 class Class_1_B553C21756B27967 : public ::System::Object
 {
 public:
-	::Il2CppArray<::System::UInt32>* Field_1_0; // 0x10
-	::Il2CppArray<::Class_1_A88C3AAF0DD46F4C_4*>* Field_1_1; // 0x18
-	::Il2CppArray<::System::UInt32>* Field_1_2; // 0x20
-	::System::String* Field_1_3; // 0x28
-	::Il2CppArray<::System::UInt32>* Field_1_4; // 0x30
-	::System::String* Field_1_5; // 0x38
-	::Il2CppArray<::System::UInt32>* Field_1_6; // 0x40
-	::System::UInt32 Field_1_7; // 0x48
-	::System::UInt32 Field_1_8; // 0x4C
-	::System::UInt32 Field_1_9; // 0x50
-	::System::UInt32 Field_1_10; // 0x54
-	::RPG::GameCore::DiceCombatStageFirstType Field_1_11; // 0x58
-	::System::UInt32 Field_1_12; // 0x5C
-	::System::UInt32 Field_1_13; // 0x60
-	::System::UInt32 Field_1_14; // 0x64
-	::System::UInt32 Field_1_15; // 0x68
+	::Il2CppArray<::System::UInt32>* ENHDOJLCADJ; // 0x10
+	::System::String* KKKDCNECFDG; // 0x18
+	::Il2CppArray<::System::UInt32>* MBHMFMANFOJ; // 0x20
+	::Il2CppArray<::System::UInt32>* JDMNNJLANMI; // 0x28
+	::System::String* AJJDAJLFNBP; // 0x30
+	::Il2CppArray<::System::UInt32>* EKMLKINHNOJ; // 0x38
+	::Il2CppArray<::Class_1_A88C3AAF0DD46F4C_4*>* LCNHHDJNHPF; // 0x40
+	::System::UInt32 PHFMCACHFIJ; // 0x48
+	::RPG::GameCore::DiceCombatStageFirstType MMNJJHDBJCI; // 0x4C
+	::System::UInt32 OKDHOHKPEKK; // 0x50
+	::System::UInt32 LIPCDDAPHNF; // 0x54
+	::System::UInt32 BFJDEHGEDFB; // 0x58
+	::System::UInt32 MPHLEBAPCOK; // 0x5C
+	::System::UInt32 DEAKHCBABDF; // 0x60
+	::System::UInt32 HPIANKGODCK; // 0x64
+	::System::UInt32 NCNDBAIHDMC; // 0x68
 
 	::System::Void _ctor()
 	{

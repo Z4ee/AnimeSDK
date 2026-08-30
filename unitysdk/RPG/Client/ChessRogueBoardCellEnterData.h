@@ -4,7 +4,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChessRogueBoardCellEnterData_TypeDefinitionIndex = 63924;
+	inline static constexpr unsigned int ChessRogueBoardCellEnterData_TypeDefinitionIndex = 66915;
 
 	struct alignas(4) ChessRogueBoardCellEnterData
 	{

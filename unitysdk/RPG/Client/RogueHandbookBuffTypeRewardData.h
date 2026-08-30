@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_ROGUEHANDBOOKBUFFTYPEREWARDDATA_HASREWARDCANTAKE_OFFSET UNITYSDK_OFFSET(0xD3A4C10)
-#define RPG_CLIENT_ROGUEHANDBOOKBUFFTYPEREWARDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xD3A4C00)
+#define RPG_CLIENT_ROGUEHANDBOOKBUFFTYPEREWARDDATA_HASREWARDCANTAKE_OFFSET UNITYSDK_OFFSET(0xDEC0240)
+#define RPG_CLIENT_ROGUEHANDBOOKBUFFTYPEREWARDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xDEC0230)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueHandbookBuffTypeRewardData_TypeDefinitionIndex = 64373;
+	inline static constexpr unsigned int RogueHandbookBuffTypeRewardData_TypeDefinitionIndex = 67369;
 
 	class RogueHandbookBuffTypeRewardData : public ::System::Object
 	{
