@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_BATTLELINEUPSKILLTREEPOINT_METHOD_2_848EE3494CD469C0_OFFSET UNITYSDK_OFFSET(0x1CE78320)
-#define RPG_GAMECORE_BATTLELINEUPSKILLTREEPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE78470)
+#define RPG_GAMECORE_BATTLELINEUPSKILLTREEPOINT_METHOD_2_DBC8E75AD0483D33_OFFSET UNITYSDK_OFFSET(0x1D460330)
+#define RPG_GAMECORE_BATTLELINEUPSKILLTREEPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D460450)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleLineupSkillTreePoint_TypeDefinitionIndex = 17909;
+	inline static constexpr unsigned int BattleLineupSkillTreePoint_TypeDefinitionIndex = 18121;
 
 	class BattleLineupSkillTreePoint : public ::RPG::GameCore::JsonConfig
 	{
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLELINEUPSKILLTREEPOINT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_848EE3494CD469C0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BattleLineupSkillTreePoint*& a2)
+		static ::System::Void Method_2_DBC8E75AD0483D33(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BattleLineupSkillTreePoint*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BattleLineupSkillTreePoint*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLELINEUPSKILLTREEPOINT_METHOD_2_848EE3494CD469C0_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BattleLineupSkillTreePoint*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLELINEUPSKILLTREEPOINT_METHOD_2_DBC8E75AD0483D33_OFFSET))(a1, a2);
 		}
 	};
 }

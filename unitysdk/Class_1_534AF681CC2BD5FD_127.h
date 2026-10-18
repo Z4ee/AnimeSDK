@@ -1,10 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/FrameSynchorType.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_414BCDCDAD47B487;
+namespace RPG::GameCore { template <typename T1, typename T2> class BaseFrameSynchor_2; }
 
-inline static constexpr unsigned int Class_1_534AF681CC2BD5FD_127_TypeDefinitionIndex = 73794;
+inline static constexpr unsigned int Class_1_534AF681CC2BD5FD_127_TypeDefinitionIndex = 53653;
 
 class Class_1_534AF681CC2BD5FD_127 : public ::System::Object
 {

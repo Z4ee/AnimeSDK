@@ -5,29 +5,29 @@
 namespace RPG::AvatarSystem { class IAvatar; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_ROGUETOURNAVATARSTRENGTHENINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xDF2E210)
-#define RPG_CLIENT_ROGUETOURNAVATARSTRENGTHENINFO___C__CREATESTRENGTHENEDAVATARCOMPARER_B__3_0_OFFSET UNITYSDK_OFFSET(0xDF2E260)
-#define RPG_CLIENT_ROGUETOURNAVATARSTRENGTHENINFO___C__CREATESTRENGTHENEDAVATARCOMPARER_B__3_1_OFFSET UNITYSDK_OFFSET(0xDF2E300)
-#define RPG_CLIENT_ROGUETOURNAVATARSTRENGTHENINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0xDF2E250)
+#define RPG_CLIENT_ROGUETOURNAVATARSTRENGTHENINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xDF7E4F0)
+#define RPG_CLIENT_ROGUETOURNAVATARSTRENGTHENINFO___C__CREATESTRENGTHENEDAVATARCOMPARER_B__3_0_OFFSET UNITYSDK_OFFSET(0xDF7E540)
+#define RPG_CLIENT_ROGUETOURNAVATARSTRENGTHENINFO___C__CREATESTRENGTHENEDAVATARCOMPARER_B__3_1_OFFSET UNITYSDK_OFFSET(0xDF7E5E0)
+#define RPG_CLIENT_ROGUETOURNAVATARSTRENGTHENINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0xDF7E530)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournAvatarStrengthenInfo___c_TypeDefinitionIndex = 67499;
+	inline static constexpr unsigned int RogueTournAvatarStrengthenInfo___c_TypeDefinitionIndex = 67501;
 
 	class RogueTournAvatarStrengthenInfo___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::RPG::AvatarSystem::IAvatar*>** StaticGet___9__3_0()
-		{
-			return (::System::Comparison_1<::RPG::AvatarSystem::IAvatar*>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournAvatarStrengthenInfo___c_TypeDefinitionIndex)->GetStaticField(0xFB30);
-		}
 		static ::RPG::Client::RogueTournAvatarStrengthenInfo___c** StaticGet___9()
 		{
-			return (::RPG::Client::RogueTournAvatarStrengthenInfo___c**)Il2CppClass::FromTypeDefinitionIndex(RogueTournAvatarStrengthenInfo___c_TypeDefinitionIndex)->GetStaticField(0xFB38);
+			return (::RPG::Client::RogueTournAvatarStrengthenInfo___c**)Il2CppClass::FromTypeDefinitionIndex(RogueTournAvatarStrengthenInfo___c_TypeDefinitionIndex)->GetStaticField(0x6BD80);
 		}
 		static ::System::Comparison_1<::RPG::AvatarSystem::IAvatar*>** StaticGet___9__3_1()
 		{
-			return (::System::Comparison_1<::RPG::AvatarSystem::IAvatar*>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournAvatarStrengthenInfo___c_TypeDefinitionIndex)->GetStaticField(0xFB40);
+			return (::System::Comparison_1<::RPG::AvatarSystem::IAvatar*>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournAvatarStrengthenInfo___c_TypeDefinitionIndex)->GetStaticField(0x6BD88);
+		}
+		static ::System::Comparison_1<::RPG::AvatarSystem::IAvatar*>** StaticGet___9__3_0()
+		{
+			return (::System::Comparison_1<::RPG::AvatarSystem::IAvatar*>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournAvatarStrengthenInfo___c_TypeDefinitionIndex)->GetStaticField(0x6BD90);
 		}
 
 		static ::System::Void _cctor()

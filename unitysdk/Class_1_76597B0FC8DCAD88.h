@@ -13,41 +13,41 @@ namespace UnityEngine { class RPGDensityMapGrassBlockData; }
 namespace UnityEngine { class RPGPointCloudGrassBlock; }
 namespace UnityEngine { class RPGPointCloudGrassBlockData; }
 
-#define CLASS_1_76597B0FC8DCAD88_CLEAR_OFFSET UNITYSDK_OFFSET(0xE04F5A0)
-#define CLASS_1_76597B0FC8DCAD88_METHOD_1_08F72A882964214C_OFFSET UNITYSDK_OFFSET(0xE04EF90)
-#define CLASS_1_76597B0FC8DCAD88_METHOD_1_0D9C537504984ABB_OFFSET UNITYSDK_OFFSET(0xE04EE70)
-#define CLASS_1_76597B0FC8DCAD88_METHOD_1_36AE9DDFA3B84875_OFFSET UNITYSDK_OFFSET(0xE04EBF0)
-#define CLASS_1_76597B0FC8DCAD88_METHOD_1_6F73A40265D5B980_OFFSET UNITYSDK_OFFSET(0xE04F110)
-#define CLASS_1_76597B0FC8DCAD88_METHOD_1_704FAC4600717444_OFFSET UNITYSDK_OFFSET(0xE04F840)
-#define CLASS_1_76597B0FC8DCAD88_METHOD_1_835D4744C2F66D0D_OFFSET UNITYSDK_OFFSET(0xE04EF00)
-#define CLASS_1_76597B0FC8DCAD88_METHOD_1_A5809AB80389F7DE_OFFSET UNITYSDK_OFFSET(0xE04F420)
-#define CLASS_1_76597B0FC8DCAD88_METHOD_1_B82A6C005D3ADCE3_OFFSET UNITYSDK_OFFSET(0xE04EFE0)
-#define CLASS_1_76597B0FC8DCAD88_METHOD_1_EC90937CEA9AFCA9_OFFSET UNITYSDK_OFFSET(0xE04F610)
-#define CLASS_1_76597B0FC8DCAD88_METHOD_1_F77BBFBC56288301_OFFSET UNITYSDK_OFFSET(0xE04F720)
-#define CLASS_1_76597B0FC8DCAD88__CTOR_OFFSET UNITYSDK_OFFSET(0xE04EC00)
+#define CLASS_1_76597B0FC8DCAD88_CLEAR_OFFSET UNITYSDK_OFFSET(0xE2309F0)
+#define CLASS_1_76597B0FC8DCAD88_METHOD_1_08F72A882964214C_OFFSET UNITYSDK_OFFSET(0xE2303E0)
+#define CLASS_1_76597B0FC8DCAD88_METHOD_1_0D9C537504984ABB_OFFSET UNITYSDK_OFFSET(0xE2302C0)
+#define CLASS_1_76597B0FC8DCAD88_METHOD_1_19FB5FBEA9EA66CD_OFFSET UNITYSDK_OFFSET(0xE230C90)
+#define CLASS_1_76597B0FC8DCAD88_METHOD_1_36AE9DDFA3B84875_OFFSET UNITYSDK_OFFSET(0xE230040)
+#define CLASS_1_76597B0FC8DCAD88_METHOD_1_6F73A40265D5B980_OFFSET UNITYSDK_OFFSET(0xE230560)
+#define CLASS_1_76597B0FC8DCAD88_METHOD_1_835D4744C2F66D0D_OFFSET UNITYSDK_OFFSET(0xE230350)
+#define CLASS_1_76597B0FC8DCAD88_METHOD_1_A5809AB80389F7DE_OFFSET UNITYSDK_OFFSET(0xE230870)
+#define CLASS_1_76597B0FC8DCAD88_METHOD_1_B82A6C005D3ADCE3_OFFSET UNITYSDK_OFFSET(0xE230430)
+#define CLASS_1_76597B0FC8DCAD88_METHOD_1_EC90937CEA9AFCA9_OFFSET UNITYSDK_OFFSET(0xE230A60)
+#define CLASS_1_76597B0FC8DCAD88_METHOD_1_F77BBFBC56288301_OFFSET UNITYSDK_OFFSET(0xE230B70)
+#define CLASS_1_76597B0FC8DCAD88__CTOR_OFFSET UNITYSDK_OFFSET(0xE230050)
 
-inline static constexpr unsigned int Class_1_76597B0FC8DCAD88_TypeDefinitionIndex = 73817;
+inline static constexpr unsigned int Class_1_76597B0FC8DCAD88_TypeDefinitionIndex = 73924;
 
 class Class_1_76597B0FC8DCAD88 : public ::System::Object
 {
 public:
-	::UnityEngine::RPGPointCloudGrassBlockData* JBAMGBLGEBJ; // 0x10
-	::System::Collections::Generic::List_1<::System::UInt32>* OECIKJPPOOO; // 0x18
-	::Class_1_D70A30D666F20D90* NFPCBMCGFDD; // 0x20
-	::UnityEngine::RPGPointCloudGrassBlock* NHOEBAPIGKM; // 0x28
-	::System::Collections::Generic::List_1<::System::String*>* FPHJGLPPBOP; // 0x30
-	::System::Collections::Generic::List_1<::System::UInt32>* PHIDMHJOJHE; // 0x38
-	::System::Collections::Generic::List_1<::System::String*>* GELDIDBCHCC; // 0x40
-	::RPG::GameCore::LodConfig* JBBMEJIJPBP; // 0x48
-	::System::Collections::Generic::List_1<::System::Single>* JEPMBKBLIFC; // 0x50
-	::RPG::GameCore::StageLodMapConfig* PBNONFEOHLD; // 0x58
-	::System::Collections::Generic::List_1<::System::UInt64>* GKPMBHHPEGF; // 0x60
-	::UnityEngine::RPGDensityMapGrassBlockData* CLHOBDAOMIJ; // 0x68
-	::UnityEngine::RPGDensityMapGrassBlock* IEHCJNFHECG; // 0x70
-	::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* FPKJNLHKFKK; // 0x78
-	::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* FDEBDPJFENF; // 0x80
-	::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* IGCOEIBEFDN; // 0x88
-	::System::Collections::Generic::List_1<::System::Byte>* NCOHMMFINEA; // 0x90
+	::Class_1_D70A30D666F20D90* NFPCBMCGFDD; // 0x10
+	::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* IGCOEIBEFDN; // 0x18
+	::UnityEngine::RPGPointCloudGrassBlock* NHOEBAPIGKM; // 0x20
+	::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* FDEBDPJFENF; // 0x28
+	::System::Collections::Generic::List_1<::System::UInt32>* OECIKJPPOOO; // 0x30
+	::System::Collections::Generic::List_1<::System::Byte>* NCOHMMFINEA; // 0x38
+	::System::Collections::Generic::List_1<::System::UInt32>* PHIDMHJOJHE; // 0x40
+	::UnityEngine::RPGPointCloudGrassBlockData* JBAMGBLGEBJ; // 0x48
+	::System::Collections::Generic::List_1<::System::String*>* GELDIDBCHCC; // 0x50
+	::UnityEngine::RPGDensityMapGrassBlockData* CLHOBDAOMIJ; // 0x58
+	::UnityEngine::RPGDensityMapGrassBlock* IEHCJNFHECG; // 0x60
+	::System::Collections::Generic::List_1<::System::Single>* JEPMBKBLIFC; // 0x68
+	::RPG::GameCore::StageLodMapConfig* PBNONFEOHLD; // 0x70
+	::System::Collections::Generic::List_1<::System::UInt64>* GKPMBHHPEGF; // 0x78
+	::RPG::GameCore::LodConfig* JBBMEJIJPBP; // 0x80
+	::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* FPKJNLHKFKK; // 0x88
+	::System::Collections::Generic::List_1<::System::String*>* FPHJGLPPBOP; // 0x90
 	::System::Byte FCFLPEKEFBD; // 0x98
 
 	::System::Void _ctor()
@@ -105,8 +105,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_76597B0FC8DCAD88_METHOD_1_F77BBFBC56288301_OFFSET))(this);
 	}
 
-	::System::Void Method_1_704FAC4600717444()
+	::System::Void Method_1_19FB5FBEA9EA66CD()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_76597B0FC8DCAD88_METHOD_1_704FAC4600717444_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_76597B0FC8DCAD88_METHOD_1_19FB5FBEA9EA66CD_OFFSET))(this);
 	}
 };

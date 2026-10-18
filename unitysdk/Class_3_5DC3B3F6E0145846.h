@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class CakeRacePauseGame; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_5DC3B3F6E0145846_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB4010E0)
-#define CLASS_3_5DC3B3F6E0145846__CTOR_OFFSET UNITYSDK_OFFSET(0xB4010B0)
+#define CLASS_3_5DC3B3F6E0145846_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB0C1EC0)
+#define CLASS_3_5DC3B3F6E0145846__CTOR_OFFSET UNITYSDK_OFFSET(0xB0C1E90)
 
-inline static constexpr unsigned int Class_3_5DC3B3F6E0145846_TypeDefinitionIndex = 52897;
+inline static constexpr unsigned int Class_3_5DC3B3F6E0145846_TypeDefinitionIndex = 52623;
 
 class Class_3_5DC3B3F6E0145846 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::CakeRacePauseGame*>
 {

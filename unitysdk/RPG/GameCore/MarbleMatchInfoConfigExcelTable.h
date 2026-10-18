@@ -11,45 +11,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_MARBLEMATCHINFOCONFIGEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1D2363B0)
-#define RPG_GAMECORE_MARBLEMATCHINFOCONFIGEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1D236280)
-#define RPG_GAMECORE_MARBLEMATCHINFOCONFIGEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1D235F70)
-#define RPG_GAMECORE_MARBLEMATCHINFOCONFIGEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1D236220)
-#define RPG_GAMECORE_MARBLEMATCHINFOCONFIGEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1D236540)
-#define RPG_GAMECORE_MARBLEMATCHINFOCONFIGEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D235FF0)
-#define RPG_GAMECORE_MARBLEMATCHINFOCONFIGEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1D236580)
-#define RPG_GAMECORE_MARBLEMATCHINFOCONFIGEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D236750)
-#define RPG_GAMECORE_MARBLEMATCHINFOCONFIGEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1D236C90)
-#define RPG_GAMECORE_MARBLEMATCHINFOCONFIGEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D236FB0)
-#define RPG_GAMECORE_MARBLEMATCHINFOCONFIGEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1D2366B0)
-#define RPG_GAMECORE_MARBLEMATCHINFOCONFIGEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D236610)
+#define RPG_GAMECORE_MARBLEMATCHINFOCONFIGEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1D840A20)
+#define RPG_GAMECORE_MARBLEMATCHINFOCONFIGEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1D8408F0)
+#define RPG_GAMECORE_MARBLEMATCHINFOCONFIGEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1D8405E0)
+#define RPG_GAMECORE_MARBLEMATCHINFOCONFIGEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1D840890)
+#define RPG_GAMECORE_MARBLEMATCHINFOCONFIGEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1D840BB0)
+#define RPG_GAMECORE_MARBLEMATCHINFOCONFIGEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D840660)
+#define RPG_GAMECORE_MARBLEMATCHINFOCONFIGEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1D840BF0)
+#define RPG_GAMECORE_MARBLEMATCHINFOCONFIGEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D840DC0)
+#define RPG_GAMECORE_MARBLEMATCHINFOCONFIGEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1D841300)
+#define RPG_GAMECORE_MARBLEMATCHINFOCONFIGEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D841620)
+#define RPG_GAMECORE_MARBLEMATCHINFOCONFIGEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1D840D20)
+#define RPG_GAMECORE_MARBLEMATCHINFOCONFIGEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D840C80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MarbleMatchInfoConfigExcelTable_TypeDefinitionIndex = 11833;
+	inline static constexpr unsigned int MarbleMatchInfoConfigExcelTable_TypeDefinitionIndex = 11856;
 
 	class MarbleMatchInfoConfigExcelTable : public ::System::Object
 	{
 	public:
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MarbleMatchInfoConfigRow*>** StaticGet_dataDict_()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MarbleMatchInfoConfigRow*>**)Il2CppClass::FromTypeDefinitionIndex(MarbleMatchInfoConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x37B70);
+		}
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MarbleMatchInfoConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x43C70);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MarbleMatchInfoConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x37B78);
 		}
 		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(MarbleMatchInfoConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x43C78);
-		}
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MarbleMatchInfoConfigRow*>** StaticGet_dataDict_()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MarbleMatchInfoConfigRow*>**)Il2CppClass::FromTypeDefinitionIndex(MarbleMatchInfoConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x43C80);
-		}
-		static ::System::Byte* StaticGet_HashIndex()
-		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(MarbleMatchInfoConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x10000);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(MarbleMatchInfoConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x37B80);
 		}
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MarbleMatchInfoConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x10001);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MarbleMatchInfoConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0xBDF0);
+		}
+		static ::System::Byte* StaticGet_HashIndex()
+		{
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(MarbleMatchInfoConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0xBDF1);
 		}
 
 		static ::System::Void _cctor()

@@ -8,20 +8,20 @@ namespace RPG::GameCore { class GameEntityList; }
 namespace RPG::GameCore { class OpenTimeRewindSnapPageParam; }
 namespace System { class Action; }
 
-#define CLASS_1_CA0277A463DA838D_METHOD_1_1247FC7BD65C0F7D_OFFSET UNITYSDK_OFFSET(0x163C68C0)
-#define CLASS_1_CA0277A463DA838D_METHOD_1_A49A8A4FAD003DB9_OFFSET UNITYSDK_OFFSET(0x163C6A50)
-#define CLASS_1_CA0277A463DA838D_METHOD_1_BBA49FAB086F388D_OFFSET UNITYSDK_OFFSET(0x163C69A0)
-#define CLASS_1_CA0277A463DA838D_METHOD_1_DF199972AF15EAB4_OFFSET UNITYSDK_OFFSET(0x163C67F0)
-#define CLASS_1_CA0277A463DA838D__CCTOR_OFFSET UNITYSDK_OFFSET(0x163C6DA0)
+#define CLASS_1_CA0277A463DA838D_METHOD_1_1247FC7BD65C0F7D_OFFSET UNITYSDK_OFFSET(0xB2B3EA0)
+#define CLASS_1_CA0277A463DA838D_METHOD_1_17BD30EFE8176014_OFFSET UNITYSDK_OFFSET(0xB2B3F80)
+#define CLASS_1_CA0277A463DA838D_METHOD_1_A49A8A4FAD003DB9_OFFSET UNITYSDK_OFFSET(0xB2B4030)
+#define CLASS_1_CA0277A463DA838D_METHOD_1_DF199972AF15EAB4_OFFSET UNITYSDK_OFFSET(0xB2B3DD0)
+#define CLASS_1_CA0277A463DA838D__CCTOR_OFFSET UNITYSDK_OFFSET(0xB2B4380)
 
-inline static constexpr unsigned int Class_1_CA0277A463DA838D_TypeDefinitionIndex = 60946;
+inline static constexpr unsigned int Class_1_CA0277A463DA838D_TypeDefinitionIndex = 60849;
 
 class Class_1_CA0277A463DA838D : public ::System::Object
 {
 public:
 	static ::System::Int32* StaticGet_KMFBDEHCLFG()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_CA0277A463DA838D_TypeDefinitionIndex)->GetStaticField(0xF310);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_CA0277A463DA838D_TypeDefinitionIndex)->GetStaticField(0x8380);
 	}
 
 	static ::System::Void _cctor()
@@ -39,9 +39,9 @@ public:
 		return ((::System::Void(*)(::RPG::GameCore::GameEntity*, ::System::Action*, ::RPG::GameCore::OpenTimeRewindSnapPageParam*, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_CA0277A463DA838D_METHOD_1_1247FC7BD65C0F7D_OFFSET))(a1, a2, a3, a4);
 	}
 
-	static ::System::Void Method_1_BBA49FAB086F388D()
+	static ::System::Void Method_1_17BD30EFE8176014()
 	{
-		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CLASS_1_CA0277A463DA838D_METHOD_1_BBA49FAB086F388D_OFFSET))();
+		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CLASS_1_CA0277A463DA838D_METHOD_1_17BD30EFE8176014_OFFSET))();
 	}
 
 	static ::System::Void Method_1_A49A8A4FAD003DB9(::UnityEngine::Vector3 a1, ::System::Single a2, ::RPG::GameCore::GameEntityList* a3)

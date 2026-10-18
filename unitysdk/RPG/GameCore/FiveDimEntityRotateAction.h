@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class FiveDimEntityRotateConfig; }
 
-#define RPG_GAMECORE_FIVEDIMENTITYROTATEACTION_METHOD_3_2042BD14151A532D_OFFSET UNITYSDK_OFFSET(0x1D0E2FE0)
-#define RPG_GAMECORE_FIVEDIMENTITYROTATEACTION_METHOD_3_B4A0EE9E455A866E_OFFSET UNITYSDK_OFFSET(0x1D0E3020)
-#define RPG_GAMECORE_FIVEDIMENTITYROTATEACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0E3010)
+#define RPG_GAMECORE_FIVEDIMENTITYROTATEACTION_METHOD_4_09C34F9B2D4BED53_OFFSET UNITYSDK_OFFSET(0x1D6BB860)
+#define RPG_GAMECORE_FIVEDIMENTITYROTATEACTION_METHOD_4_EE7F5B67C624B3C0_OFFSET UNITYSDK_OFFSET(0x1D6BB820)
+#define RPG_GAMECORE_FIVEDIMENTITYROTATEACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6BB850)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimEntityRotateAction_TypeDefinitionIndex = 18540;
+	inline static constexpr unsigned int FiveDimEntityRotateAction_TypeDefinitionIndex = 18750;
 
 	class FiveDimEntityRotateAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
@@ -24,14 +24,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMENTITYROTATEACTION__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_2042BD14151A532D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimEntityRotateAction*& a2)
+		static ::System::Void Method_4_EE7F5B67C624B3C0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimEntityRotateAction*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimEntityRotateAction*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMENTITYROTATEACTION_METHOD_3_2042BD14151A532D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimEntityRotateAction*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMENTITYROTATEACTION_METHOD_4_EE7F5B67C624B3C0_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_B4A0EE9E455A866E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimEntityRotateAction* a2)
+		static ::System::Void Method_4_09C34F9B2D4BED53(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimEntityRotateAction* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimEntityRotateAction*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMENTITYROTATEACTION_METHOD_3_B4A0EE9E455A866E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimEntityRotateAction*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMENTITYROTATEACTION_METHOD_4_09C34F9B2D4BED53_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -7,19 +7,19 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_B51RACINGDEVELOPMENTACTIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CE5D1F0)
-#define RPG_GAMECORE_B51RACINGDEVELOPMENTACTIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE5D3D0)
+#define RPG_GAMECORE_B51RACINGDEVELOPMENTACTIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D433650)
+#define RPG_GAMECORE_B51RACINGDEVELOPMENTACTIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D433830)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int B51RacingDevelopmentActionRow_TypeDefinitionIndex = 10954;
+	inline static constexpr unsigned int B51RacingDevelopmentActionRow_TypeDefinitionIndex = 10970;
 
 	class B51RacingDevelopmentActionRow : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::B51RacingStatType, ::System::UInt32>* AddStatValueMap; // 0x10
-		::System::UInt32 ID; // 0x18
-		::RPG::Client::TextID Name; // 0x20
+		::RPG::Client::TextID Name; // 0x18
+		::System::UInt32 ID; // 0x28
 
 		::System::Void _ctor()
 		{

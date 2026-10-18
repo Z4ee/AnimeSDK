@@ -5,7 +5,7 @@
 
 class Class_2_8600F499583BD153;
 
-inline static constexpr unsigned int Class_4_D164FAEF81C859CB_TypeDefinitionIndex = 49931;
+inline static constexpr unsigned int Class_4_D164FAEF81C859CB_TypeDefinitionIndex = 49506;
 
 template <typename T>
 class Class_4_D164FAEF81C859CB : public ::Class_3_455124A410922D94<T>

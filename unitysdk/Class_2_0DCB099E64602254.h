@@ -4,10 +4,10 @@
 
 namespace System { class String; }
 
-#define CLASS_2_0DCB099E64602254_TOSTRING_OFFSET UNITYSDK_OFFSET(0xBA91ED0)
-#define CLASS_2_0DCB099E64602254__CTOR_OFFSET UNITYSDK_OFFSET(0xBA91F20)
+#define CLASS_2_0DCB099E64602254_TOSTRING_OFFSET UNITYSDK_OFFSET(0xB958B50)
+#define CLASS_2_0DCB099E64602254__CTOR_OFFSET UNITYSDK_OFFSET(0xB958BA0)
 
-inline static constexpr unsigned int Class_2_0DCB099E64602254_TypeDefinitionIndex = 60015;
+inline static constexpr unsigned int Class_2_0DCB099E64602254_TypeDefinitionIndex = 59878;
 
 class Class_2_0DCB099E64602254 : public ::RPG::Client::SyncCheckItemBase
 {

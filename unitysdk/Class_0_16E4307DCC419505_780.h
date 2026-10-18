@@ -1,15 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Struct_2_BC950E36747FB4C9.h"
-#include "unitysdk/Struct_2_D645B4E0B73852B6.h"
-#include "unitysdk/Struct_2_D645B4E0B73852B6_1.h"
+#include "unitysdk/RPG/Client/LittleGameShare/CakeRaceCore/LevelStateType.h"
 
-namespace RPG::AvatarSystem { class IAvatar; }
-namespace System { template <typename T> class Predicate_1; }
-namespace System::Collections::Generic { template <typename T> class ICollection_1; }
-namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
+namespace RPG::Client { class CakeRaceBattleItemSyncData; }
+namespace RPG::Client { class CakeRaceGameVoteData; }
+namespace RPG::Client { class CakeRaceReceiveChatEventData; }
+namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_780_TypeDefinitionIndex = 62749;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_780_TypeDefinitionIndex = 78110;
 
 class Class_0_16E4307DCC419505_780
 {

@@ -6,13 +6,13 @@ namespace RPG::Client { class RogueTournBuildRefInfo; }
 namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_ROGUETOURNBUILDREFINFO___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0xDF33D70)
-#define RPG_CLIENT_ROGUETOURNBUILDREFINFO___C__DISPLAYCLASS9_0__PREPAREFAVORITEBUILDREF_B__0_OFFSET UNITYSDK_OFFSET(0xDF35D80)
-#define RPG_CLIENT_ROGUETOURNBUILDREFINFO___C__DISPLAYCLASS9_0__PREPAREFAVORITEBUILDREF_B__1_OFFSET UNITYSDK_OFFSET(0xDF35E60)
+#define RPG_CLIENT_ROGUETOURNBUILDREFINFO___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0xDF84080)
+#define RPG_CLIENT_ROGUETOURNBUILDREFINFO___C__DISPLAYCLASS9_0__PREPAREFAVORITEBUILDREF_B__0_OFFSET UNITYSDK_OFFSET(0xDF860A0)
+#define RPG_CLIENT_ROGUETOURNBUILDREFINFO___C__DISPLAYCLASS9_0__PREPAREFAVORITEBUILDREF_B__1_OFFSET UNITYSDK_OFFSET(0xDF86180)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournBuildRefInfo___c__DisplayClass9_0_TypeDefinitionIndex = 67528;
+	inline static constexpr unsigned int RogueTournBuildRefInfo___c__DisplayClass9_0_TypeDefinitionIndex = 67530;
 
 	class RogueTournBuildRefInfo___c__DisplayClass9_0 : public ::System::Object
 	{

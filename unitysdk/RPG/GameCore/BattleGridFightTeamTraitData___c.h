@@ -2,27 +2,27 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_1CBA230307F9C289_6;
+class Class_1_1CBA230307F9C289_7;
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_GAMECORE_BATTLEGRIDFIGHTTEAMTRAITDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xE530B60)
-#define RPG_GAMECORE_BATTLEGRIDFIGHTTEAMTRAITDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0xE530BA0)
-#define RPG_GAMECORE_BATTLEGRIDFIGHTTEAMTRAITDATA___C__GET_MEMBERCOUNTEXCEPTDUMMY_B__18_0_OFFSET UNITYSDK_OFFSET(0xE530BB0)
+#define RPG_GAMECORE_BATTLEGRIDFIGHTTEAMTRAITDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xE5C2F70)
+#define RPG_GAMECORE_BATTLEGRIDFIGHTTEAMTRAITDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0xE5C2FB0)
+#define RPG_GAMECORE_BATTLEGRIDFIGHTTEAMTRAITDATA___C__GET_MEMBERCOUNTEXCEPTDUMMY_B__18_0_OFFSET UNITYSDK_OFFSET(0xE5C2FC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleGridFightTeamTraitData___c_TypeDefinitionIndex = 56473;
+	inline static constexpr unsigned int BattleGridFightTeamTraitData___c_TypeDefinitionIndex = 56286;
 
 	class BattleGridFightTeamTraitData___c : public ::System::Object
 	{
 	public:
 		static ::RPG::GameCore::BattleGridFightTeamTraitData___c** StaticGet___9()
 		{
-			return (::RPG::GameCore::BattleGridFightTeamTraitData___c**)Il2CppClass::FromTypeDefinitionIndex(BattleGridFightTeamTraitData___c_TypeDefinitionIndex)->GetStaticField(0x66AE0);
+			return (::RPG::GameCore::BattleGridFightTeamTraitData___c**)Il2CppClass::FromTypeDefinitionIndex(BattleGridFightTeamTraitData___c_TypeDefinitionIndex)->GetStaticField(0x56FA0);
 		}
-		static ::System::Func_2<::Class_1_1CBA230307F9C289_6*, ::System::Boolean>** StaticGet___9__18_0()
+		static ::System::Func_2<::Class_1_1CBA230307F9C289_7*, ::System::Boolean>** StaticGet___9__18_0()
 		{
-			return (::System::Func_2<::Class_1_1CBA230307F9C289_6*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(BattleGridFightTeamTraitData___c_TypeDefinitionIndex)->GetStaticField(0x66AE8);
+			return (::System::Func_2<::Class_1_1CBA230307F9C289_7*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(BattleGridFightTeamTraitData___c_TypeDefinitionIndex)->GetStaticField(0x56FA8);
 		}
 
 		static ::System::Void _cctor()
@@ -35,9 +35,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEGRIDFIGHTTEAMTRAITDATA___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _get_MemberCountExceptDummy_b__18_0(::Class_1_1CBA230307F9C289_6* a1)
+		::System::Boolean _get_MemberCountExceptDummy_b__18_0(::Class_1_1CBA230307F9C289_7* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_1CBA230307F9C289_6*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEGRIDFIGHTTEAMTRAITDATA___C__GET_MEMBERCOUNTEXCEPTDUMMY_B__18_0_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::Class_1_1CBA230307F9C289_7*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEGRIDFIGHTTEAMTRAITDATA___C__GET_MEMBERCOUNTEXCEPTDUMMY_B__18_0_OFFSET))(this, a1);
 		}
 	};
 }

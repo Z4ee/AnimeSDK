@@ -6,18 +6,18 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define CLASS_3_DBD339B7E6B21555_METHOD_3_387C40D074FB1980_OFFSET UNITYSDK_OFFSET(0x1CCED620)
-#define CLASS_3_DBD339B7E6B21555_METHOD_3_8C07A6A51F854693_OFFSET UNITYSDK_OFFSET(0x1CCED6C0)
-#define CLASS_3_DBD339B7E6B21555__CTOR_OFFSET UNITYSDK_OFFSET(0x1CCED680)
+#define CLASS_3_DBD339B7E6B21555_METHOD_3_387C40D074FB1980_OFFSET UNITYSDK_OFFSET(0x1D2BB660)
+#define CLASS_3_DBD339B7E6B21555_METHOD_3_8C07A6A51F854693_OFFSET UNITYSDK_OFFSET(0x1D2BB700)
+#define CLASS_3_DBD339B7E6B21555__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2BB6C0)
 
-inline static constexpr unsigned int Class_3_DBD339B7E6B21555_TypeDefinitionIndex = 22935;
+inline static constexpr unsigned int Class_3_DBD339B7E6B21555_TypeDefinitionIndex = 23196;
 
 class Class_3_DBD339B7E6B21555 : public ::RPG::GameCore::TaskConfig
 {
 public:
-	::System::String* MPBNJEOANHL; // 0x18
-	::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x20
-	::System::String* HPLBJMDGFGJ; // 0x28
+	::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x18
+	::System::String* HPLBJMDGFGJ; // 0x20
+	::System::String* MPBNJEOANHL; // 0x28
 
 	::System::Void _ctor()
 	{

@@ -1,0 +1,63 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_0_16E4307DCC419505_131_Struct_2_B9CEE00E07603401.h"
+#include "unitysdk/System/Object.h"
+
+namespace System { class String; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTOBTAINMECHATRONUI3DVIEWMODEL_GET_ARTPREFABPATH_OFFSET UNITYSDK_OFFSET(0xD682DC0)
+#define RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTOBTAINMECHATRONUI3DVIEWMODEL_GET_EFFECTPARAMS_OFFSET UNITYSDK_OFFSET(0xD682E00)
+#define RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTOBTAINMECHATRONUI3DVIEWMODEL_GET_ISSPECIAL_OFFSET UNITYSDK_OFFSET(0xD682DE0)
+#define RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTOBTAINMECHATRONUI3DVIEWMODEL_SET_ARTPREFABPATH_OFFSET UNITYSDK_OFFSET(0xD682DD0)
+#define RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTOBTAINMECHATRONUI3DVIEWMODEL_SET_EFFECTPARAMS_OFFSET UNITYSDK_OFFSET(0xD682E10)
+#define RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTOBTAINMECHATRONUI3DVIEWMODEL_SET_ISSPECIAL_OFFSET UNITYSDK_OFFSET(0xD682DF0)
+#define RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTOBTAINMECHATRONUI3DVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xD682E20)
+
+namespace RPG::Client::MechCraft::ViewModel
+{
+	inline static constexpr unsigned int MechCraftObtainMechatronUI3DViewModel_TypeDefinitionIndex = 79653;
+
+	class MechCraftObtainMechatronUI3DViewModel : public ::System::Object
+	{
+	public:
+		::System::String* _ArtPrefabPath_k__BackingField; // 0x10
+		::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_131_Struct_2_B9CEE00E07603401>* _EffectParams_k__BackingField; // 0x18
+		::System::Boolean _IsSpecial_k__BackingField; // 0x20
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTOBTAINMECHATRONUI3DVIEWMODEL__CTOR_OFFSET))(this);
+		}
+
+		::System::String* get_ArtPrefabPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTOBTAINMECHATRONUI3DVIEWMODEL_GET_ARTPREFABPATH_OFFSET))(this);
+		}
+
+		::System::Void set_ArtPrefabPath(::System::String* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTOBTAINMECHATRONUI3DVIEWMODEL_SET_ARTPREFABPATH_OFFSET))(this, a1);
+		}
+
+		::System::Boolean get_IsSpecial()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTOBTAINMECHATRONUI3DVIEWMODEL_GET_ISSPECIAL_OFFSET))(this);
+		}
+
+		::System::Void set_IsSpecial(::System::Boolean a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTOBTAINMECHATRONUI3DVIEWMODEL_SET_ISSPECIAL_OFFSET))(this, a1);
+		}
+
+		::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_131_Struct_2_B9CEE00E07603401>* get_EffectParams()
+		{
+			return ((::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_131_Struct_2_B9CEE00E07603401>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTOBTAINMECHATRONUI3DVIEWMODEL_GET_EFFECTPARAMS_OFFSET))(this);
+		}
+
+		::System::Void set_EffectParams(::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_131_Struct_2_B9CEE00E07603401>* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_131_Struct_2_B9CEE00E07603401>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTOBTAINMECHATRONUI3DVIEWMODEL_SET_EFFECTPARAMS_OFFSET))(this, a1);
+		}
+	};
+}

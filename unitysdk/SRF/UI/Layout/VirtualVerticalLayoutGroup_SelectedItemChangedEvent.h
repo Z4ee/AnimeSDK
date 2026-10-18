@@ -4,11 +4,11 @@
 
 namespace System { class Object; }
 
-#define SRF_UI_LAYOUT_VIRTUALVERTICALLAYOUTGROUP_SELECTEDITEMCHANGEDEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1E6B8570)
+#define SRF_UI_LAYOUT_VIRTUALVERTICALLAYOUTGROUP_SELECTEDITEMCHANGEDEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1ED80290)
 
 namespace SRF::UI::Layout
 {
-	inline static constexpr unsigned int VirtualVerticalLayoutGroup_SelectedItemChangedEvent_TypeDefinitionIndex = 34736;
+	inline static constexpr unsigned int VirtualVerticalLayoutGroup_SelectedItemChangedEvent_TypeDefinitionIndex = 35405;
 
 	class VirtualVerticalLayoutGroup_SelectedItemChangedEvent : public ::UnityEngine::Events::UnityEvent_1<::System::Object*>
 	{

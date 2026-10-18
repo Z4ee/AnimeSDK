@@ -7,7 +7,7 @@ namespace System::Collections::Concurrent { template <typename T> class Concurre
 
 namespace Cysharp::Threading::Tasks::Internal
 {
-	inline static constexpr unsigned int StatePool_2_TypeDefinitionIndex = 43086;
+	inline static constexpr unsigned int StatePool_2_TypeDefinitionIndex = 38671;
 
 	template <typename T1, typename T2>
 	class StatePool_2 : public ::System::Object

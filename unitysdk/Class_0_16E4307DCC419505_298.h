@@ -1,13 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/GameFramework/FileSystem/FileSystemAccess.h"
-#include "unitysdk/Struct_2_468F1D800AD1758C.h"
 
-namespace System { class String; }
-namespace System::Collections::Generic { template <typename T> class List_1; }
-namespace System::IO { class Stream; }
+class Class_1_D272AF60A040331E;
+namespace UnityEngine::AI { class RVOAgent; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_298_TypeDefinitionIndex = 42220;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_298_TypeDefinitionIndex = 42672;
 
 class Class_0_16E4307DCC419505_298
 {

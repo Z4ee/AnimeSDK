@@ -4,19 +4,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_NPCMONSTERTRACKQUESTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D2F9540)
-#define RPG_GAMECORE_NPCMONSTERTRACKQUESTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2F9B70)
+#define RPG_GAMECORE_NPCMONSTERTRACKQUESTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D8DCF50)
+#define RPG_GAMECORE_NPCMONSTERTRACKQUESTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D8DD580)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int NpcMonsterTrackQuestRow_TypeDefinitionIndex = 14415;
+	inline static constexpr unsigned int NpcMonsterTrackQuestRow_TypeDefinitionIndex = 14580;
 
 	class NpcMonsterTrackQuestRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 NpcMonsterTrackID; // 0x10
-		::System::UInt32 MapInfoID; // 0x14
-		::System::UInt32 QuestID; // 0x18
+		::System::UInt32 MapInfoID; // 0x10
+		::System::UInt32 QuestID; // 0x14
+		::System::UInt32 NpcMonsterTrackID; // 0x18
 
 		::System::Void _ctor()
 		{

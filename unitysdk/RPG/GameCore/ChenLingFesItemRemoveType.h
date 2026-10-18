@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingFesItemRemoveType_TypeDefinitionIndex = 24290;
+	inline static constexpr unsigned int ChenLingFesItemRemoveType_TypeDefinitionIndex = 24569;
 
 	enum class ChenLingFesItemRemoveType : ::System::Int32
 	{

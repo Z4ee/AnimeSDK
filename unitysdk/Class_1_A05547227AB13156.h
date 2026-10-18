@@ -6,18 +6,18 @@
 class Class_1_A4F0FA6F81B0B135;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_A05547227AB13156__CTOR_OFFSET UNITYSDK_OFFSET(0x1C3CC3B0)
+#define CLASS_1_A05547227AB13156__CTOR_OFFSET UNITYSDK_OFFSET(0x1C92DC00)
 
-inline static constexpr unsigned int Class_1_A05547227AB13156_TypeDefinitionIndex = 41263;
+inline static constexpr unsigned int Class_1_A05547227AB13156_TypeDefinitionIndex = 42552;
 
 class Class_1_A05547227AB13156 : public ::System::Object
 {
 public:
 	::Class_1_A4F0FA6F81B0B135* DLGJKBMEFON; // 0x10
 	::System::Collections::Generic::List_1<::Class_1_A4F0FA6F81B0B135*>* MFJDOHANPFF; // 0x18
-	::System::UInt32 DGKGNHLCJKN; // 0x20
+	::System::UInt32 HBPECADBGBB; // 0x20
 	::RPG::Client::LittleGame::MonopolyGameState ADCPPJNMGJP; // 0x24
-	::System::UInt32 HBPECADBGBB; // 0x28
+	::System::UInt32 DGKGNHLCJKN; // 0x28
 
 	::System::Void _ctor()
 	{

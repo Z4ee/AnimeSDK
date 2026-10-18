@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Events/UnityEvent.h"
 
-#define CINEMACHINE_CINEMACHINETRIGGERACTION_ACTIONSETTINGS_TRIGGEREVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1647FBC0)
+#define CINEMACHINE_CINEMACHINETRIGGERACTION_ACTIONSETTINGS_TRIGGEREVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x166A67B0)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineTriggerAction_ActionSettings_TriggerEvent_TypeDefinitionIndex = 38563;
+	inline static constexpr unsigned int CinemachineTriggerAction_ActionSettings_TriggerEvent_TypeDefinitionIndex = 39860;
 
 	class CinemachineTriggerAction_ActionSettings_TriggerEvent : public ::UnityEngine::Events::UnityEvent
 	{

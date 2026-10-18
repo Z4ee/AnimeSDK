@@ -6,11 +6,11 @@
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Mesh; }
 
-#define RPG_CLIENT_LITEINSTANCEDITEM_ITEMPROTOTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0xD4A3EA0)
+#define RPG_CLIENT_LITEINSTANCEDITEM_ITEMPROTOTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0xD3FEB00)
 
 namespace RPG::Client::LiteInstancedItem
 {
-	inline static constexpr unsigned int ItemPrototype_TypeDefinitionIndex = 73603;
+	inline static constexpr unsigned int ItemPrototype_TypeDefinitionIndex = 73710;
 
 	class ItemPrototype : public ::System::Object
 	{

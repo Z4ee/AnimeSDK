@@ -8,11 +8,11 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_WINDOWS_SPEECH_PHRASERECOGNIZEDEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x3BC8020)
+#define UNITYENGINE_WINDOWS_SPEECH_PHRASERECOGNIZEDEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x3C7DD20)
 
 namespace UnityEngine::Windows::Speech
 {
-	inline static constexpr unsigned int PhraseRecognizedEventArgs_TypeDefinitionIndex = 4443;
+	inline static constexpr unsigned int PhraseRecognizedEventArgs_TypeDefinitionIndex = 4447;
 
 	struct alignas(8) PhraseRecognizedEventArgs
 	{

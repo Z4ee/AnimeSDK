@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_GIFTDANMUSENDERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D144750)
-#define RPG_GAMECORE_GIFTDANMUSENDERROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D144920)
+#define RPG_GAMECORE_GIFTDANMUSENDERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D71E3F0)
+#define RPG_GAMECORE_GIFTDANMUSENDERROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D71E5C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GiftDanmuSenderRow_TypeDefinitionIndex = 15022;
+	inline static constexpr unsigned int GiftDanmuSenderRow_TypeDefinitionIndex = 15193;
 
 	class GiftDanmuSenderRow : public ::System::Object
 	{

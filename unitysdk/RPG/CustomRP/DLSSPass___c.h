@@ -4,24 +4,24 @@
 
 namespace System { class Action; }
 
-#define RPG_CUSTOMRP_DLSSPASS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C6A0CB0)
-#define RPG_CUSTOMRP_DLSSPASS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1C6A0CE0)
-#define RPG_CUSTOMRP_DLSSPASS___C__WARMUP_B__4_0_OFFSET UNITYSDK_OFFSET(0x1C6A0CF0)
+#define RPG_CUSTOMRP_DLSSPASS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CC26E10)
+#define RPG_CUSTOMRP_DLSSPASS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC26E40)
+#define RPG_CUSTOMRP_DLSSPASS___C__WARMUP_B__4_0_OFFSET UNITYSDK_OFFSET(0x1CC26E50)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int DLSSPass___c_TypeDefinitionIndex = 36876;
+	inline static constexpr unsigned int DLSSPass___c_TypeDefinitionIndex = 37563;
 
 	class DLSSPass___c : public ::System::Object
 	{
 	public:
-		static ::RPG::CustomRP::DLSSPass___c** StaticGet___9()
-		{
-			return (::RPG::CustomRP::DLSSPass___c**)Il2CppClass::FromTypeDefinitionIndex(DLSSPass___c_TypeDefinitionIndex)->GetStaticField(0x3A4B0);
-		}
 		static ::System::Action** StaticGet___9__4_0()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(DLSSPass___c_TypeDefinitionIndex)->GetStaticField(0x3A4B8);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(DLSSPass___c_TypeDefinitionIndex)->GetStaticField(0x30C80);
+		}
+		static ::RPG::CustomRP::DLSSPass___c** StaticGet___9()
+		{
+			return (::RPG::CustomRP::DLSSPass___c**)Il2CppClass::FromTypeDefinitionIndex(DLSSPass___c_TypeDefinitionIndex)->GetStaticField(0x30C88);
 		}
 
 		static ::System::Void _cctor()

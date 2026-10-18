@@ -8,7 +8,7 @@ namespace System { class Exception; }
 
 namespace R3
 {
-	inline static constexpr unsigned int CombineLatest_3__CombineLatest_CombineLatestObserver_1_TypeDefinitionIndex = 35255;
+	inline static constexpr unsigned int CombineLatest_3__CombineLatest_CombineLatestObserver_1_TypeDefinitionIndex = 35935;
 
 	template <typename T1, typename T2, typename TResult, typename T>
 	class CombineLatest_3__CombineLatest_CombineLatestObserver_1 : public ::R3::Observer_1<T>

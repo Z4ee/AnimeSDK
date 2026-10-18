@@ -4,20 +4,20 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_CHENLINGGAMEBOY_CHENLINGGAMEBOYPUZZLEDATA_CHENLINGGAMEBOYSTATISTICS_CLEAR_OFFSET UNITYSDK_OFFSET(0xCB8AC90)
-#define RPG_CLIENT_CHENLINGGAMEBOY_CHENLINGGAMEBOYPUZZLEDATA_CHENLINGGAMEBOYSTATISTICS__CTOR_OFFSET UNITYSDK_OFFSET(0xCB8ACE0)
+#define RPG_CLIENT_CHENLINGGAMEBOY_CHENLINGGAMEBOYPUZZLEDATA_CHENLINGGAMEBOYSTATISTICS_CLEAR_OFFSET UNITYSDK_OFFSET(0xCADA150)
+#define RPG_CLIENT_CHENLINGGAMEBOY_CHENLINGGAMEBOYPUZZLEDATA_CHENLINGGAMEBOYSTATISTICS__CTOR_OFFSET UNITYSDK_OFFSET(0xCADA1A0)
 
 namespace RPG::Client::ChenLingGameBoy
 {
-	inline static constexpr unsigned int ChenLingGameBoyPuzzleData_ChenLingGameBoyStatistics_TypeDefinitionIndex = 74655;
+	inline static constexpr unsigned int ChenLingGameBoyPuzzleData_ChenLingGameBoyStatistics_TypeDefinitionIndex = 74798;
 
 	class ChenLingGameBoyPuzzleData_ChenLingGameBoyStatistics : public ::System::Object
 	{
 	public:
 		::System::String* SerialNumber; // 0x10
 		::System::String* TotalActionCount; // 0x18
-		::System::Single TimeStart; // 0x20
-		::System::UInt32 DeadCount; // 0x24
+		::System::UInt32 DeadCount; // 0x20
+		::System::Single TimeStart; // 0x24
 		::System::UInt32 ResetCount; // 0x28
 
 		::System::Void _ctor()

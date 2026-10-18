@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_AVATARCOLLIDERCAMERACONFIG_METHOD_2_BF5D8A35B0952A41_OFFSET UNITYSDK_OFFSET(0x1CE37520)
-#define RPG_GAMECORE_AVATARCOLLIDERCAMERACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE37630)
+#define RPG_GAMECORE_AVATARCOLLIDERCAMERACONFIG_METHOD_2_0EA3328C8204493F_OFFSET UNITYSDK_OFFSET(0x1D40D8C0)
+#define RPG_GAMECORE_AVATARCOLLIDERCAMERACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D40DA50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AvatarColliderCameraConfig_TypeDefinitionIndex = 16259;
+	inline static constexpr unsigned int AvatarColliderCameraConfig_TypeDefinitionIndex = 16432;
 
 	class AvatarColliderCameraConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARCOLLIDERCAMERACONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_BF5D8A35B0952A41(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AvatarColliderCameraConfig*& a2)
+		static ::System::Void Method_2_0EA3328C8204493F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AvatarColliderCameraConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AvatarColliderCameraConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARCOLLIDERCAMERACONFIG_METHOD_2_BF5D8A35B0952A41_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AvatarColliderCameraConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARCOLLIDERCAMERACONFIG_METHOD_2_0EA3328C8204493F_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -14,35 +14,35 @@
 namespace Cysharp::Threading::Tasks { class IUniTaskSource; }
 namespace System { template <typename T> class Action_1; }
 
-#define CYSHARP_THREADING_TASKS_UNITASK_DELAYREALTIMEPROMISE_CREATE_OFFSET UNITYSDK_OFFSET(0x1EA7A270)
-#define CYSHARP_THREADING_TASKS_UNITASK_DELAYREALTIMEPROMISE_GETRESULT_OFFSET UNITYSDK_OFFSET(0x1EA80F70)
-#define CYSHARP_THREADING_TASKS_UNITASK_DELAYREALTIMEPROMISE_GETSTATUS_OFFSET UNITYSDK_OFFSET(0x1EA81160)
-#define CYSHARP_THREADING_TASKS_UNITASK_DELAYREALTIMEPROMISE_GET_NEXTNODE_OFFSET UNITYSDK_OFFSET(0x1EA80E50)
-#define CYSHARP_THREADING_TASKS_UNITASK_DELAYREALTIMEPROMISE_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1EA81280)
-#define CYSHARP_THREADING_TASKS_UNITASK_DELAYREALTIMEPROMISE_ONCOMPLETED_OFFSET UNITYSDK_OFFSET(0x1EA81260)
-#define CYSHARP_THREADING_TASKS_UNITASK_DELAYREALTIMEPROMISE_TRYRETURN_OFFSET UNITYSDK_OFFSET(0x1EA810B0)
-#define CYSHARP_THREADING_TASKS_UNITASK_DELAYREALTIMEPROMISE_UNSAFEGETSTATUS_OFFSET UNITYSDK_OFFSET(0x1EA81210)
-#define CYSHARP_THREADING_TASKS_UNITASK_DELAYREALTIMEPROMISE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EA80E60)
-#define CYSHARP_THREADING_TASKS_UNITASK_DELAYREALTIMEPROMISE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA80F60)
+#define CYSHARP_THREADING_TASKS_UNITASK_DELAYREALTIMEPROMISE_CREATE_OFFSET UNITYSDK_OFFSET(0x1F1419D0)
+#define CYSHARP_THREADING_TASKS_UNITASK_DELAYREALTIMEPROMISE_GETRESULT_OFFSET UNITYSDK_OFFSET(0x1F148690)
+#define CYSHARP_THREADING_TASKS_UNITASK_DELAYREALTIMEPROMISE_GETSTATUS_OFFSET UNITYSDK_OFFSET(0x1F148860)
+#define CYSHARP_THREADING_TASKS_UNITASK_DELAYREALTIMEPROMISE_GET_NEXTNODE_OFFSET UNITYSDK_OFFSET(0x1F148570)
+#define CYSHARP_THREADING_TASKS_UNITASK_DELAYREALTIMEPROMISE_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1F148980)
+#define CYSHARP_THREADING_TASKS_UNITASK_DELAYREALTIMEPROMISE_ONCOMPLETED_OFFSET UNITYSDK_OFFSET(0x1F148960)
+#define CYSHARP_THREADING_TASKS_UNITASK_DELAYREALTIMEPROMISE_TRYRETURN_OFFSET UNITYSDK_OFFSET(0x1F1487C0)
+#define CYSHARP_THREADING_TASKS_UNITASK_DELAYREALTIMEPROMISE_UNSAFEGETSTATUS_OFFSET UNITYSDK_OFFSET(0x1F148910)
+#define CYSHARP_THREADING_TASKS_UNITASK_DELAYREALTIMEPROMISE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F148580)
+#define CYSHARP_THREADING_TASKS_UNITASK_DELAYREALTIMEPROMISE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F148680)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UniTask_DelayRealtimePromise_TypeDefinitionIndex = 42655;
+	inline static constexpr unsigned int UniTask_DelayRealtimePromise_TypeDefinitionIndex = 38240;
 
 	class UniTask_DelayRealtimePromise : public ::System::Object
 	{
 	public:
 		static ::Cysharp::Threading::Tasks::TaskPool_1<::Cysharp::Threading::Tasks::UniTask_DelayRealtimePromise*>* StaticGet_pool()
 		{
-			return (::Cysharp::Threading::Tasks::TaskPool_1<::Cysharp::Threading::Tasks::UniTask_DelayRealtimePromise*>*)Il2CppClass::FromTypeDefinitionIndex(UniTask_DelayRealtimePromise_TypeDefinitionIndex)->GetStaticField(0x58ED0);
+			return (::Cysharp::Threading::Tasks::TaskPool_1<::Cysharp::Threading::Tasks::UniTask_DelayRealtimePromise*>*)Il2CppClass::FromTypeDefinitionIndex(UniTask_DelayRealtimePromise_TypeDefinitionIndex)->GetStaticField(0x46C80);
 		}
 		::System::Threading::CancellationToken cancellationToken; // 0x10
-		::Cysharp::Threading::Tasks::UniTask_DelayRealtimePromise* nextNode; // 0x18
-		::Cysharp::Threading::Tasks::UniTaskCompletionSourceCore_1<::Cysharp::Threading::Tasks::AsyncUnit> core; // 0x20
-		::System::Threading::CancellationTokenRegistration cancellationTokenRegistration; // 0x40
+		::System::Threading::CancellationTokenRegistration cancellationTokenRegistration; // 0x18
+		::Cysharp::Threading::Tasks::UniTask_DelayRealtimePromise* nextNode; // 0x30
+		::Cysharp::Threading::Tasks::UniTaskCompletionSourceCore_1<::Cysharp::Threading::Tasks::AsyncUnit> core; // 0x38
 		::System::Boolean cancelImmediately; // 0x58
-		::System::Int64 delayTimeSpanTicks; // 0x60
-		::Cysharp::Threading::Tasks::Internal::ValueStopwatch stopwatch; // 0x68
+		::Cysharp::Threading::Tasks::Internal::ValueStopwatch stopwatch; // 0x60
+		::System::Int64 delayTimeSpanTicks; // 0x68
 
 		static ::System::Void _cctor()
 		{

@@ -4,25 +4,25 @@
 
 namespace System { template <typename T> class Action_1; }
 
-#define CYSHARP_THREADING_TASKS_UNITYASYNCEXTENSIONS_ASSETBUNDLECREATEREQUESTCONFIGUREDSOURCE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EA95980)
-#define CYSHARP_THREADING_TASKS_UNITYASYNCEXTENSIONS_ASSETBUNDLECREATEREQUESTCONFIGUREDSOURCE___C__CREATE_B__14_0_OFFSET UNITYSDK_OFFSET(0x1EA95A30)
-#define CYSHARP_THREADING_TASKS_UNITYASYNCEXTENSIONS_ASSETBUNDLECREATEREQUESTCONFIGUREDSOURCE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA959C0)
-#define CYSHARP_THREADING_TASKS_UNITYASYNCEXTENSIONS_ASSETBUNDLECREATEREQUESTCONFIGUREDSOURCE___C___CCTOR_B__4_0_OFFSET UNITYSDK_OFFSET(0x1EA959D0)
+#define CYSHARP_THREADING_TASKS_UNITYASYNCEXTENSIONS_ASSETBUNDLECREATEREQUESTCONFIGUREDSOURCE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F15D130)
+#define CYSHARP_THREADING_TASKS_UNITYASYNCEXTENSIONS_ASSETBUNDLECREATEREQUESTCONFIGUREDSOURCE___C__CREATE_B__14_0_OFFSET UNITYSDK_OFFSET(0x1F15D1E0)
+#define CYSHARP_THREADING_TASKS_UNITYASYNCEXTENSIONS_ASSETBUNDLECREATEREQUESTCONFIGUREDSOURCE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1F15D170)
+#define CYSHARP_THREADING_TASKS_UNITYASYNCEXTENSIONS_ASSETBUNDLECREATEREQUESTCONFIGUREDSOURCE___C___CCTOR_B__4_0_OFFSET UNITYSDK_OFFSET(0x1F15D180)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UnityAsyncExtensions_AssetBundleCreateRequestConfiguredSource___c_TypeDefinitionIndex = 42882;
+	inline static constexpr unsigned int UnityAsyncExtensions_AssetBundleCreateRequestConfiguredSource___c_TypeDefinitionIndex = 38467;
 
 	class UnityAsyncExtensions_AssetBundleCreateRequestConfiguredSource___c : public ::System::Object
 	{
 	public:
-		static ::Cysharp::Threading::Tasks::UnityAsyncExtensions_AssetBundleCreateRequestConfiguredSource___c** StaticGet___9()
-		{
-			return (::Cysharp::Threading::Tasks::UnityAsyncExtensions_AssetBundleCreateRequestConfiguredSource___c**)Il2CppClass::FromTypeDefinitionIndex(UnityAsyncExtensions_AssetBundleCreateRequestConfiguredSource___c_TypeDefinitionIndex)->GetStaticField(0x5A210);
-		}
 		static ::System::Action_1<::System::Object*>** StaticGet___9__14_0()
 		{
-			return (::System::Action_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(UnityAsyncExtensions_AssetBundleCreateRequestConfiguredSource___c_TypeDefinitionIndex)->GetStaticField(0x5A218);
+			return (::System::Action_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(UnityAsyncExtensions_AssetBundleCreateRequestConfiguredSource___c_TypeDefinitionIndex)->GetStaticField(0x491F0);
+		}
+		static ::Cysharp::Threading::Tasks::UnityAsyncExtensions_AssetBundleCreateRequestConfiguredSource___c** StaticGet___9()
+		{
+			return (::Cysharp::Threading::Tasks::UnityAsyncExtensions_AssetBundleCreateRequestConfiguredSource___c**)Il2CppClass::FromTypeDefinitionIndex(UnityAsyncExtensions_AssetBundleCreateRequestConfiguredSource___c_TypeDefinitionIndex)->GetStaticField(0x491F8);
 		}
 
 		static ::System::Void _cctor()

@@ -8,12 +8,12 @@ class Class_1_7A22A3DBEEDD1F80;
 class Class_4_F441CE80F00840D2;
 namespace System { class String; }
 
-#define RPG_GAMECORE_PIXAIRMISSLECONFIG_METHOD_2_CDAA2818B8BB73E8_OFFSET UNITYSDK_OFFSET(0x1D337620)
-#define RPG_GAMECORE_PIXAIRMISSLECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D337910)
+#define RPG_GAMECORE_PIXAIRMISSLECONFIG_METHOD_2_076EB05BA3C019EB_OFFSET UNITYSDK_OFFSET(0x1D91C7F0)
+#define RPG_GAMECORE_PIXAIRMISSLECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D91CBE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PixAirMissleConfig_TypeDefinitionIndex = 21151;
+	inline static constexpr unsigned int PixAirMissleConfig_TypeDefinitionIndex = 21397;
 
 	class PixAirMissleConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -31,9 +31,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PIXAIRMISSLECONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_CDAA2818B8BB73E8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PixAirMissleConfig*& a2)
+		static ::System::Void Method_2_076EB05BA3C019EB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PixAirMissleConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PixAirMissleConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PIXAIRMISSLECONFIG_METHOD_2_CDAA2818B8BB73E8_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PixAirMissleConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PIXAIRMISSLECONFIG_METHOD_2_076EB05BA3C019EB_OFFSET))(a1, a2);
 		}
 	};
 }

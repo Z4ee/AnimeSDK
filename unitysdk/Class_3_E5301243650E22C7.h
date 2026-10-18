@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AdvByCheckWindowInSlot; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_E5301243650E22C7_EVALUATE_OFFSET UNITYSDK_OFFSET(0x156C57A0)
-#define CLASS_3_E5301243650E22C7__CTOR_OFFSET UNITYSDK_OFFSET(0x156C5770)
+#define CLASS_3_E5301243650E22C7_EVALUATE_OFFSET UNITYSDK_OFFSET(0x159A4E80)
+#define CLASS_3_E5301243650E22C7__CTOR_OFFSET UNITYSDK_OFFSET(0x159A4E50)
 
-inline static constexpr unsigned int Class_3_E5301243650E22C7_TypeDefinitionIndex = 53093;
+inline static constexpr unsigned int Class_3_E5301243650E22C7_TypeDefinitionIndex = 52819;
 
 class Class_3_E5301243650E22C7 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::AdvByCheckWindowInSlot*>
 {

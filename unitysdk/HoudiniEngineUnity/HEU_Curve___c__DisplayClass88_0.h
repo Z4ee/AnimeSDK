@@ -7,20 +7,20 @@
 namespace HoudiniEngineUnity { class CurveNodeData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define HOUDINIENGINEUNITY_HEU_CURVE___C__DISPLAYCLASS88_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3DC810)
-#define HOUDINIENGINEUNITY_HEU_CURVE___C__DISPLAYCLASS88_0__UPDATECURVEINPUTFORCUSTOMATTRIBUTES_B__0_OFFSET UNITYSDK_OFFSET(0x1B3DED40)
-#define HOUDINIENGINEUNITY_HEU_CURVE___C__DISPLAYCLASS88_0__UPDATECURVEINPUTFORCUSTOMATTRIBUTES_B__1_OFFSET UNITYSDK_OFFSET(0x1B3DEF00)
-#define HOUDINIENGINEUNITY_HEU_CURVE___C__DISPLAYCLASS88_0__UPDATECURVEINPUTFORCUSTOMATTRIBUTES_B__2_OFFSET UNITYSDK_OFFSET(0x1B3DF250)
+#define HOUDINIENGINEUNITY_HEU_CURVE___C__DISPLAYCLASS88_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8DE610)
+#define HOUDINIENGINEUNITY_HEU_CURVE___C__DISPLAYCLASS88_0__UPDATECURVEINPUTFORCUSTOMATTRIBUTES_B__0_OFFSET UNITYSDK_OFFSET(0x1B8E0B40)
+#define HOUDINIENGINEUNITY_HEU_CURVE___C__DISPLAYCLASS88_0__UPDATECURVEINPUTFORCUSTOMATTRIBUTES_B__1_OFFSET UNITYSDK_OFFSET(0x1B8E0D00)
+#define HOUDINIENGINEUNITY_HEU_CURVE___C__DISPLAYCLASS88_0__UPDATECURVEINPUTFORCUSTOMATTRIBUTES_B__2_OFFSET UNITYSDK_OFFSET(0x1B8E1050)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_Curve___c__DisplayClass88_0_TypeDefinitionIndex = 39089;
+	inline static constexpr unsigned int HEU_Curve___c__DisplayClass88_0_TypeDefinitionIndex = 40386;
 
 	class HEU_Curve___c__DisplayClass88_0 : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::UnityEngine::Quaternion>* rotations; // 0x10
-		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* scales; // 0x18
+		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* scales; // 0x10
+		::System::Collections::Generic::List_1<::UnityEngine::Quaternion>* rotations; // 0x18
 		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* positions; // 0x20
 
 		::System::Void _ctor()

@@ -8,18 +8,18 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::EventSystems { class BaseEventData; }
 namespace UnityEngine::UI { class Selectable; }
 
-#define CLASS_1_27E062DB46F0D058_METHOD_1_8906865985E88687_1_OFFSET UNITYSDK_OFFSET(0x154B72B0)
-#define CLASS_1_27E062DB46F0D058_METHOD_1_8906865985E88687_OFFSET UNITYSDK_OFFSET(0x154B7230)
-#define CLASS_1_27E062DB46F0D058__CTOR_OFFSET UNITYSDK_OFFSET(0x154B7330)
+#define CLASS_1_27E062DB46F0D058_METHOD_1_8906865985E88687_1_OFFSET UNITYSDK_OFFSET(0x15778880)
+#define CLASS_1_27E062DB46F0D058_METHOD_1_8906865985E88687_OFFSET UNITYSDK_OFFSET(0x15778800)
+#define CLASS_1_27E062DB46F0D058__CTOR_OFFSET UNITYSDK_OFFSET(0x15778900)
 
-inline static constexpr unsigned int Class_1_27E062DB46F0D058_TypeDefinitionIndex = 52038;
+inline static constexpr unsigned int Class_1_27E062DB46F0D058_TypeDefinitionIndex = 51744;
 
 class Class_1_27E062DB46F0D058 : public ::System::Object
 {
 public:
-	::UnityEngine::UI::Selectable* PGHLJLIHPPP; // 0x10
-	::UnityEngine::EventSystems::BaseEventData* GFJEHNAGJNM; // 0x18
-	::System::Collections::Generic::List_1<::RPG::UINavigation::UINavigation*>* HCMNDMHLIAA; // 0x20
+	::UnityEngine::EventSystems::BaseEventData* GFJEHNAGJNM; // 0x10
+	::System::Collections::Generic::List_1<::RPG::UINavigation::UINavigation*>* HCMNDMHLIAA; // 0x18
+	::UnityEngine::UI::Selectable* PGHLJLIHPPP; // 0x20
 	::RPG::UINavigation::UINavigationDirection LJDHGFECMHJ; // 0x28
 
 	::System::Void _ctor()

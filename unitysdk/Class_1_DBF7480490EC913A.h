@@ -6,10 +6,10 @@ namespace RPG { template <typename T> class PoolList_1; }
 namespace RPG::GameCore { class FiveDimMusicEventInfo; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define CLASS_1_DBF7480490EC913A_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C5FA660)
-#define CLASS_1_DBF7480490EC913A__CTOR_OFFSET UNITYSDK_OFFSET(0x1C5FA5C0)
+#define CLASS_1_DBF7480490EC913A_CLEAR_OFFSET UNITYSDK_OFFSET(0x1CB76B90)
+#define CLASS_1_DBF7480490EC913A__CTOR_OFFSET UNITYSDK_OFFSET(0x1CB76AF0)
 
-inline static constexpr unsigned int Class_1_DBF7480490EC913A_TypeDefinitionIndex = 41996;
+inline static constexpr unsigned int Class_1_DBF7480490EC913A_TypeDefinitionIndex = 43638;
 
 class Class_1_DBF7480490EC913A : public ::System::Object
 {

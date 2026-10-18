@@ -6,12 +6,12 @@ namespace MiHoYo::SDK::PC::OS::CXHandheld { class AgeGateManager; }
 namespace MiHoYo::SDK::PC::OS::CXHandheld { class HandheldAgeGateAgeAppealOptionDialog; }
 namespace MiHoYo::SDK::UI::OS { class IAgeGateAgeAppealOptionDialog; }
 
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_AGEGATEMANAGER___C__DISPLAYCLASS31_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9CB120)
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_AGEGATEMANAGER___C__DISPLAYCLASS31_0__PROCESSAGEGATETICKET_B__2_OFFSET UNITYSDK_OFFSET(0x1B9CE380)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_AGEGATEMANAGER___C__DISPLAYCLASS31_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BECC4A0)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_AGEGATEMANAGER___C__DISPLAYCLASS31_0__PROCESSAGEGATETICKET_B__2_OFFSET UNITYSDK_OFFSET(0x1BECF810)
 
 namespace MiHoYo::SDK::PC::OS::CXHandheld
 {
-	inline static constexpr unsigned int AgeGateManager___c__DisplayClass31_0_TypeDefinitionIndex = 8664;
+	inline static constexpr unsigned int AgeGateManager___c__DisplayClass31_0_TypeDefinitionIndex = 8725;
 
 	class AgeGateManager___c__DisplayClass31_0 : public ::System::Object
 	{

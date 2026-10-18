@@ -7,13 +7,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicString; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SWITCHEFFECTBATTLEAREA_METHOD_3_A1671127875F7698_OFFSET UNITYSDK_OFFSET(0x1D58A7B0)
-#define RPG_GAMECORE_SWITCHEFFECTBATTLEAREA_METHOD_3_D98F74A8D356C321_OFFSET UNITYSDK_OFFSET(0x1D58A770)
-#define RPG_GAMECORE_SWITCHEFFECTBATTLEAREA__CTOR_OFFSET UNITYSDK_OFFSET(0x1D58A7A0)
+#define RPG_GAMECORE_SWITCHEFFECTBATTLEAREA_METHOD_3_AC1CD31D61184978_OFFSET UNITYSDK_OFFSET(0x1DB41550)
+#define RPG_GAMECORE_SWITCHEFFECTBATTLEAREA_METHOD_3_CB2E21A1E23717C1_OFFSET UNITYSDK_OFFSET(0x1DB41590)
+#define RPG_GAMECORE_SWITCHEFFECTBATTLEAREA__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB41580)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SwitchEffectBattleArea_TypeDefinitionIndex = 23057;
+	inline static constexpr unsigned int SwitchEffectBattleArea_TypeDefinitionIndex = 23322;
 
 	class SwitchEffectBattleArea : public ::RPG::GameCore::TaskConfig
 	{
@@ -28,14 +28,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWITCHEFFECTBATTLEAREA__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_D98F74A8D356C321(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SwitchEffectBattleArea*& a2)
+		static ::System::Void Method_3_AC1CD31D61184978(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SwitchEffectBattleArea*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SwitchEffectBattleArea*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWITCHEFFECTBATTLEAREA_METHOD_3_D98F74A8D356C321_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SwitchEffectBattleArea*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWITCHEFFECTBATTLEAREA_METHOD_3_AC1CD31D61184978_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_A1671127875F7698(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SwitchEffectBattleArea* a2)
+		static ::System::Void Method_3_CB2E21A1E23717C1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SwitchEffectBattleArea* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SwitchEffectBattleArea*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWITCHEFFECTBATTLEAREA_METHOD_3_A1671127875F7698_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SwitchEffectBattleArea*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWITCHEFFECTBATTLEAREA_METHOD_3_CB2E21A1E23717C1_OFFSET))(a1, a2);
 		}
 	};
 }

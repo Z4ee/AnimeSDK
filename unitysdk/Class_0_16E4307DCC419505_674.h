@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-class Class_1_47EB23CB5C4B2615_41_Class_1_9A90CD018E72DF20_10;
-namespace RPG::GameCore { class MiConditionConfigBase; }
+class Class_0_16E4307DCC419505_547;
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_674_TypeDefinitionIndex = 60085;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_674_TypeDefinitionIndex = 56026;
 
 class Class_0_16E4307DCC419505_674
 {

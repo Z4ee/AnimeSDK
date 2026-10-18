@@ -6,10 +6,10 @@
 namespace RPG::Client { class SwordTrainingStatusChangeInfo; }
 namespace RPG::GameCore { class SwordTrainingEffectRow; }
 
-#define CLASS_2_C6C2C80A25880AE0_1_METHOD_2_5D52480485F5EF91_OFFSET UNITYSDK_OFFSET(0x15666150)
-#define CLASS_2_C6C2C80A25880AE0_1__CTOR_OFFSET UNITYSDK_OFFSET(0x15666090)
+#define CLASS_2_C6C2C80A25880AE0_1_METHOD_2_5D52480485F5EF91_OFFSET UNITYSDK_OFFSET(0x159835B0)
+#define CLASS_2_C6C2C80A25880AE0_1__CTOR_OFFSET UNITYSDK_OFFSET(0x159834F0)
 
-inline static constexpr unsigned int Class_2_C6C2C80A25880AE0_1_TypeDefinitionIndex = 74727;
+inline static constexpr unsigned int Class_2_C6C2C80A25880AE0_1_TypeDefinitionIndex = 75027;
 
 class Class_2_C6C2C80A25880AE0_1 : public ::Class_1_5FB2896E6C484E49
 {

@@ -4,7 +4,7 @@
 
 namespace Collections::Pooled
 {
-	inline static constexpr unsigned int PooledSet_1_Slot_TypeDefinitionIndex = 5119;
+	inline static constexpr unsigned int PooledSet_1_Slot_TypeDefinitionIndex = 5126;
 
 	template <typename T>
 	struct PooledSet_1_Slot

@@ -7,10 +7,10 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Object; }
 
-#define STAGEHARMONYBASELINKSLOT_METHOD_1_BD8CC0653430F458_OFFSET UNITYSDK_OFFSET(0xE936F00)
-#define STAGEHARMONYBASELINKSLOT__CTOR_OFFSET UNITYSDK_OFFSET(0xE935E30)
+#define STAGEHARMONYBASELINKSLOT_METHOD_1_BD8CC0653430F458_OFFSET UNITYSDK_OFFSET(0xE98C6C0)
+#define STAGEHARMONYBASELINKSLOT__CTOR_OFFSET UNITYSDK_OFFSET(0xE98B5F0)
 
-inline static constexpr unsigned int StageHarmonyBaseLinkSlot_TypeDefinitionIndex = 47998;
+inline static constexpr unsigned int StageHarmonyBaseLinkSlot_TypeDefinitionIndex = 47538;
 
 class StageHarmonyBaseLinkSlot : public ::System::Object
 {

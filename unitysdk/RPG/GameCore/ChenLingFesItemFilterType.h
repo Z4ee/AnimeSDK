@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingFesItemFilterType_TypeDefinitionIndex = 24288;
+	inline static constexpr unsigned int ChenLingFesItemFilterType_TypeDefinitionIndex = 24567;
 
 	enum class ChenLingFesItemFilterType : ::System::Int32
 	{

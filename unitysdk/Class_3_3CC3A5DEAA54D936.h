@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ClearTargetTimeSlow; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_3CC3A5DEAA54D936_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC367BC0)
-#define CLASS_3_3CC3A5DEAA54D936__CTOR_OFFSET UNITYSDK_OFFSET(0xC367B90)
+#define CLASS_3_3CC3A5DEAA54D936_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC25AFC0)
+#define CLASS_3_3CC3A5DEAA54D936__CTOR_OFFSET UNITYSDK_OFFSET(0xC25AF90)
 
-inline static constexpr unsigned int Class_3_3CC3A5DEAA54D936_TypeDefinitionIndex = 55174;
+inline static constexpr unsigned int Class_3_3CC3A5DEAA54D936_TypeDefinitionIndex = 54967;
 
 class Class_3_3CC3A5DEAA54D936 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ClearTargetTimeSlow*>
 {

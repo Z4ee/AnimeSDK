@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_1254;
+class Class_0_16E4307DCC419505_1389;
 namespace RPG::Client::ActivityIdleLive { class IdleLiveImgDanmuService; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEIMGDANMUSERVICE___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC5CC950)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEIMGDANMUSERVICE___C__DISPLAYCLASS11_0___ADDIMAGEDANMU_B__0_OFFSET UNITYSDK_OFFSET(0xC5CCA90)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEIMGDANMUSERVICE___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC4E43D0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEIMGDANMUSERVICE___C__DISPLAYCLASS11_0___ADDIMAGEDANMU_B__0_OFFSET UNITYSDK_OFFSET(0xC4E4510)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveImgDanmuService___c__DisplayClass11_0_TypeDefinitionIndex = 75052;
+	inline static constexpr unsigned int IdleLiveImgDanmuService___c__DisplayClass11_0_TypeDefinitionIndex = 75352;
 
 	class IdleLiveImgDanmuService___c__DisplayClass11_0 : public ::System::Object
 	{
 	public:
-		::Class_0_16E4307DCC419505_1254* trigger; // 0x10
+		::Class_0_16E4307DCC419505_1389* trigger; // 0x10
 		::RPG::Client::ActivityIdleLive::IdleLiveImgDanmuService* __4__this; // 0x18
 		::System::UInt32 imgDanmuId; // 0x20
 

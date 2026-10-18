@@ -6,12 +6,12 @@
 
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_MESHSHOWHIDEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xE86F930)
-#define RPGTOOLS_TIMELINE_MESHSHOWHIDEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xE86FBA0)
+#define RPGTOOLS_TIMELINE_MESHSHOWHIDEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xE90DAC0)
+#define RPGTOOLS_TIMELINE_MESHSHOWHIDEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xE90DD70)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int MeshShowHideBehaviour_TypeDefinitionIndex = 48645;
+	inline static constexpr unsigned int MeshShowHideBehaviour_TypeDefinitionIndex = 48185;
 
 	class MeshShowHideBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{

@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define RPG_QA_AUTOMATA_UAUTODEBUG_LOGFORMAT_OFFSET UNITYSDK_OFFSET(0xE7DFCD0)
-#define RPG_QA_AUTOMATA_UAUTODEBUG_LOG_OFFSET UNITYSDK_OFFSET(0xE7DFC50)
+#define RPG_QA_AUTOMATA_UAUTODEBUG_LOGFORMAT_OFFSET UNITYSDK_OFFSET(0xE87BC70)
+#define RPG_QA_AUTOMATA_UAUTODEBUG_LOG_OFFSET UNITYSDK_OFFSET(0xE87BBF0)
 
 namespace RPG::QA::Automata
 {
-	inline static constexpr unsigned int UAutoDebug_TypeDefinitionIndex = 52116;
+	inline static constexpr unsigned int UAutoDebug_TypeDefinitionIndex = 51822;
 
 	class UAutoDebug : public ::System::Object
 	{

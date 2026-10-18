@@ -6,24 +6,24 @@
 namespace Cinemachine { class CinemachineOrbitalTransposer; }
 namespace Cinemachine { class CinemachineOrbitalTransposer_UpdateHeadingDelegate; }
 
-#define CINEMACHINE_CINEMACHINEORBITALTRANSPOSER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x164710C0)
-#define CINEMACHINE_CINEMACHINEORBITALTRANSPOSER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x164710F0)
-#define CINEMACHINE_CINEMACHINEORBITALTRANSPOSER___C___CTOR_B__36_0_OFFSET UNITYSDK_OFFSET(0x16471100)
+#define CINEMACHINE_CINEMACHINEORBITALTRANSPOSER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x16697DB0)
+#define CINEMACHINE_CINEMACHINEORBITALTRANSPOSER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x16697DE0)
+#define CINEMACHINE_CINEMACHINEORBITALTRANSPOSER___C___CTOR_B__36_0_OFFSET UNITYSDK_OFFSET(0x16697DF0)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineOrbitalTransposer___c_TypeDefinitionIndex = 38488;
+	inline static constexpr unsigned int CinemachineOrbitalTransposer___c_TypeDefinitionIndex = 39785;
 
 	class CinemachineOrbitalTransposer___c : public ::System::Object
 	{
 	public:
 		static ::Cinemachine::CinemachineOrbitalTransposer___c** StaticGet___9()
 		{
-			return (::Cinemachine::CinemachineOrbitalTransposer___c**)Il2CppClass::FromTypeDefinitionIndex(CinemachineOrbitalTransposer___c_TypeDefinitionIndex)->GetStaticField(0x54C40);
+			return (::Cinemachine::CinemachineOrbitalTransposer___c**)Il2CppClass::FromTypeDefinitionIndex(CinemachineOrbitalTransposer___c_TypeDefinitionIndex)->GetStaticField(0x543B0);
 		}
 		static ::Cinemachine::CinemachineOrbitalTransposer_UpdateHeadingDelegate** StaticGet___9__36_0()
 		{
-			return (::Cinemachine::CinemachineOrbitalTransposer_UpdateHeadingDelegate**)Il2CppClass::FromTypeDefinitionIndex(CinemachineOrbitalTransposer___c_TypeDefinitionIndex)->GetStaticField(0x54C48);
+			return (::Cinemachine::CinemachineOrbitalTransposer_UpdateHeadingDelegate**)Il2CppClass::FromTypeDefinitionIndex(CinemachineOrbitalTransposer___c_TypeDefinitionIndex)->GetStaticField(0x543B8);
 		}
 
 		static ::System::Void _cctor()

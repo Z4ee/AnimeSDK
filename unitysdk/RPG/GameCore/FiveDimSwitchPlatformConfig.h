@@ -3,23 +3,23 @@
 #include "unitysdk/RPG/GameCore/LittleGameComponentConfig.h"
 
 class Class_1_7A22A3DBEEDD1F80;
-namespace RPG::GameCore { class FiveDimDynamicVar; }
+namespace RPG::GameCore { class LittleGameDynamicVar; }
 namespace RPG::GameCore { class LittleGameEvent; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIVEDIMSWITCHPLATFORMCONFIG_METHOD_3_5A4AA0A18EE8F32B_OFFSET UNITYSDK_OFFSET(0x1D106CC0)
-#define RPG_GAMECORE_FIVEDIMSWITCHPLATFORMCONFIG_METHOD_3_842CCE00E11CFDC4_OFFSET UNITYSDK_OFFSET(0x1D106C80)
-#define RPG_GAMECORE_FIVEDIMSWITCHPLATFORMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D106CB0)
+#define RPG_GAMECORE_FIVEDIMSWITCHPLATFORMCONFIG_METHOD_3_5A4AA0A18EE8F32B_OFFSET UNITYSDK_OFFSET(0x1D6E0990)
+#define RPG_GAMECORE_FIVEDIMSWITCHPLATFORMCONFIG_METHOD_3_842CCE00E11CFDC4_OFFSET UNITYSDK_OFFSET(0x1D6E0950)
+#define RPG_GAMECORE_FIVEDIMSWITCHPLATFORMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6E0980)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimSwitchPlatformConfig_TypeDefinitionIndex = 18344;
+	inline static constexpr unsigned int FiveDimSwitchPlatformConfig_TypeDefinitionIndex = 18559;
 
 	class FiveDimSwitchPlatformConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:
 		::System::Boolean IsSwitchPlatform; // 0x10
-		::RPG::GameCore::FiveDimDynamicVar* BindLevelVarName; // 0x18
+		::RPG::GameCore::LittleGameDynamicVar* BindLevelVarName; // 0x18
 		::Il2CppArray<::System::Int16>* ActiveValues; // 0x20
 		::Il2CppArray<::System::Int16>* InactiveValues; // 0x28
 		::System::Boolean DefaultActive; // 0x30

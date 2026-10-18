@@ -7,12 +7,12 @@ namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace UnityEngine { class Texture2D; }
 
-#define MIHOYO_SDK_WATERMARK_WATERMARKIMAGEMANAGER___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB0C050)
-#define MIHOYO_SDK_WATERMARK_WATERMARKIMAGEMANAGER___C__DISPLAYCLASS8_0__REQUESTSCREENSHOTWATERMARK_B__0_OFFSET UNITYSDK_OFFSET(0x1BB0EE10)
+#define MIHOYO_SDK_WATERMARK_WATERMARKIMAGEMANAGER___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C018AB0)
+#define MIHOYO_SDK_WATERMARK_WATERMARKIMAGEMANAGER___C__DISPLAYCLASS8_0__REQUESTSCREENSHOTWATERMARK_B__0_OFFSET UNITYSDK_OFFSET(0x1C01B890)
 
 namespace MiHoYo::SDK::Watermark
 {
-	inline static constexpr unsigned int WatermarkImageManager___c__DisplayClass8_0_TypeDefinitionIndex = 8807;
+	inline static constexpr unsigned int WatermarkImageManager___c__DisplayClass8_0_TypeDefinitionIndex = 8868;
 
 	class WatermarkImageManager___c__DisplayClass8_0 : public ::System::Object
 	{

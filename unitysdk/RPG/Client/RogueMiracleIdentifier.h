@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_ROGUEMIRACLEIDENTIFIER_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1576F0)
-#define RPG_CLIENT_ROGUEMIRACLEIDENTIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0x2E950)
+#define RPG_CLIENT_ROGUEMIRACLEIDENTIFIER_TOSTRING_OFFSET UNITYSDK_OFFSET(0xF0580)
+#define RPG_CLIENT_ROGUEMIRACLEIDENTIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0xAF40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueMiracleIdentifier_TypeDefinitionIndex = 67279;
+	inline static constexpr unsigned int RogueMiracleIdentifier_TypeDefinitionIndex = 67281;
 
 	struct alignas(4) RogueMiracleIdentifier
 	{

@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IRogueTournPersonaStyle_TypeDefinitionIndex = 67742;
+	inline static constexpr unsigned int IRogueTournPersonaStyle_TypeDefinitionIndex = 67744;
 
 	class IRogueTournPersonaStyle
 	{

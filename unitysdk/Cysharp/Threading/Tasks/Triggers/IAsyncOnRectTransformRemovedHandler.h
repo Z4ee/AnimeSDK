@@ -4,7 +4,7 @@
 
 namespace Cysharp::Threading::Tasks::Triggers
 {
-	inline static constexpr unsigned int IAsyncOnRectTransformRemovedHandler_TypeDefinitionIndex = 43001;
+	inline static constexpr unsigned int IAsyncOnRectTransformRemovedHandler_TypeDefinitionIndex = 38586;
 
 	class IAsyncOnRectTransformRemovedHandler
 	{

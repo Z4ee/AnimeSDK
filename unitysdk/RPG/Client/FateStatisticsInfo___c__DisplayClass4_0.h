@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_FATESTATISTICSINFO___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD039980)
-#define RPG_CLIENT_FATESTATISTICSINFO___C__DISPLAYCLASS4_0___SYNCDIFFICULTYINFO_B__3_OFFSET UNITYSDK_OFFSET(0xD039D40)
+#define RPG_CLIENT_FATESTATISTICSINFO___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCFD8E60)
+#define RPG_CLIENT_FATESTATISTICSINFO___C__DISPLAYCLASS4_0___SYNCDIFFICULTYINFO_B__3_OFFSET UNITYSDK_OFFSET(0xCFD9220)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FateStatisticsInfo___c__DisplayClass4_0_TypeDefinitionIndex = 64195;
+	inline static constexpr unsigned int FateStatisticsInfo___c__DisplayClass4_0_TypeDefinitionIndex = 64133;
 
 	class FateStatisticsInfo___c__DisplayClass4_0 : public ::System::Object
 	{

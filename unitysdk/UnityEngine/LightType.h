@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int LightType_TypeDefinitionIndex = 4153;
+	inline static constexpr unsigned int LightType_TypeDefinitionIndex = 4154;
 
 	enum class LightType : ::System::Int32
 	{

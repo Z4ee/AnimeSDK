@@ -6,22 +6,22 @@ namespace RPG::GameCore { class ShowHeartDialToast; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SHOWHEARTDIALTOASTTASK_DISPOSE_OFFSET UNITYSDK_OFFSET(0xE6F1230)
-#define RPG_GAMECORE_SHOWHEARTDIALTOASTTASK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE6F1270)
-#define RPG_GAMECORE_SHOWHEARTDIALTOASTTASK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xE6F13F0)
-#define RPG_GAMECORE_SHOWHEARTDIALTOASTTASK_TICK_OFFSET UNITYSDK_OFFSET(0xE6F1440)
-#define RPG_GAMECORE_SHOWHEARTDIALTOASTTASK__CTOR_OFFSET UNITYSDK_OFFSET(0xE6F1220)
+#define RPG_GAMECORE_SHOWHEARTDIALTOASTTASK_DISPOSE_OFFSET UNITYSDK_OFFSET(0xE74C990)
+#define RPG_GAMECORE_SHOWHEARTDIALTOASTTASK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE74C9D0)
+#define RPG_GAMECORE_SHOWHEARTDIALTOASTTASK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xE74CB60)
+#define RPG_GAMECORE_SHOWHEARTDIALTOASTTASK_TICK_OFFSET UNITYSDK_OFFSET(0xE74CBB0)
+#define RPG_GAMECORE_SHOWHEARTDIALTOASTTASK__CTOR_OFFSET UNITYSDK_OFFSET(0xE74C980)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShowHeartDialToastTask_TypeDefinitionIndex = 53530;
+	inline static constexpr unsigned int ShowHeartDialToastTask_TypeDefinitionIndex = 53273;
 
 	class ShowHeartDialToastTask : public ::Class_1_5F51D4049EA87B7B
 	{
 	public:
 		// static const ::System::String* _FADE_OUT_ANIM_PARAM; // 0x0
-		::RPG::GameCore::TaskContext* _TaskContext; // 0x18
-		::RPG::GameCore::ShowHeartDialToast* _ConfigRef; // 0x20
+		::RPG::GameCore::ShowHeartDialToast* _ConfigRef; // 0x18
+		::RPG::GameCore::TaskContext* _TaskContext; // 0x20
 
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ShowHeartDialToast* a2)
 		{

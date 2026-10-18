@@ -6,25 +6,25 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_DECALCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D01B2F0)
-#define RPG_GAMECORE_DECALCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D01BB50)
+#define RPG_GAMECORE_DECALCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D5F77A0)
+#define RPG_GAMECORE_DECALCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5F8040)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DecalConfigRow_TypeDefinitionIndex = 12271;
+	inline static constexpr unsigned int DecalConfigRow_TypeDefinitionIndex = 12357;
 
 	class DecalConfigRow : public ::System::Object
 	{
 	public:
-		::System::String* Comment; // 0x10
-		::System::String* IconPath; // 0x18
+		::System::String* IconPath; // 0x10
+		::System::String* BgPath; // 0x18
 		::System::String* FigurePath; // 0x20
-		::System::String* BgPath; // 0x28
+		::System::String* Comment; // 0x28
 		::System::String* TextureMapPath; // 0x30
-		::System::UInt32 DecalID; // 0x38
-		::System::UInt32 UnlockMission; // 0x3C
-		::RPG::Client::TextID Desc; // 0x40
-		::RPG::Client::TextID Name; // 0x50
+		::RPG::Client::TextID Desc; // 0x38
+		::RPG::Client::TextID Name; // 0x48
+		::System::UInt32 DecalID; // 0x58
+		::System::UInt32 UnlockMission; // 0x5C
 
 		::System::Void _ctor()
 		{

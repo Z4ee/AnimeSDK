@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_PERFORMANCEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA77820)
+#define MIHOYO_SDK_PERFORMANCEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF81980)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int PerformanceInfo_TypeDefinitionIndex = 7835;
+	inline static constexpr unsigned int PerformanceInfo_TypeDefinitionIndex = 7879;
 
 	class PerformanceInfo : public ::System::Object
 	{

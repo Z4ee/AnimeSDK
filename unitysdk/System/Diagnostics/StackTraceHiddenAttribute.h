@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SYSTEM_DIAGNOSTICS_STACKTRACEHIDDENATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF1A060)
+#define SYSTEM_DIAGNOSTICS_STACKTRACEHIDDENATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4266B0)
 
 namespace System::Diagnostics
 {
-	inline static constexpr unsigned int StackTraceHiddenAttribute_TypeDefinitionIndex = 35219;
+	inline static constexpr unsigned int StackTraceHiddenAttribute_TypeDefinitionIndex = 35893;
 
 	class StackTraceHiddenAttribute : public ::System::Attribute
 	{

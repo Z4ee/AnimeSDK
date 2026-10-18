@@ -6,21 +6,21 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_LITTLEGAMEFIREEFFECTPARAMS_CLEAR_OFFSET UNITYSDK_OFFSET(0x1D202C20)
-#define RPG_GAMECORE_LITTLEGAMEFIREEFFECTPARAMS_METHOD_2_E5F06A70A47A9CE0_OFFSET UNITYSDK_OFFSET(0x1D202920)
-#define RPG_GAMECORE_LITTLEGAMEFIREEFFECTPARAMS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D202D20)
-#define RPG_GAMECORE_LITTLEGAMEFIREEFFECTPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D202C10)
+#define RPG_GAMECORE_LITTLEGAMEFIREEFFECTPARAMS_CLEAR_OFFSET UNITYSDK_OFFSET(0x1D7E32B0)
+#define RPG_GAMECORE_LITTLEGAMEFIREEFFECTPARAMS_METHOD_2_E5F06A70A47A9CE0_OFFSET UNITYSDK_OFFSET(0x1D7E2EB0)
+#define RPG_GAMECORE_LITTLEGAMEFIREEFFECTPARAMS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D7E33B0)
+#define RPG_GAMECORE_LITTLEGAMEFIREEFFECTPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7E32A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LittleGameFireEffectParams_TypeDefinitionIndex = 18667;
+	inline static constexpr unsigned int LittleGameFireEffectParams_TypeDefinitionIndex = 18889;
 
 	class LittleGameFireEffectParams : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		static ::RPG::GameCore::LittleGameFireEffectParams** StaticGet__ProtoType()
 		{
-			return (::RPG::GameCore::LittleGameFireEffectParams**)Il2CppClass::FromTypeDefinitionIndex(LittleGameFireEffectParams_TypeDefinitionIndex)->GetStaticField(0x49E00);
+			return (::RPG::GameCore::LittleGameFireEffectParams**)Il2CppClass::FromTypeDefinitionIndex(LittleGameFireEffectParams_TypeDefinitionIndex)->GetStaticField(0x33C80);
 		}
 		::System::Boolean SyncFire; // 0x10
 		::System::String* EffectPath; // 0x18

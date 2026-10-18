@@ -11,32 +11,32 @@ namespace RPG { template <typename T> class PoolList_1; }
 namespace UnityEngine { class Collider; }
 namespace UnityEngine { class Collision; }
 
-#define CLASS_2_CAC59C79346B9343_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C4BBD20)
-#define CLASS_2_CAC59C79346B9343_METHOD_2_8660C3A27B56FE60_OFFSET UNITYSDK_OFFSET(0x1C4BBF80)
-#define CLASS_2_CAC59C79346B9343_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x1C4BBED0)
-#define CLASS_2_CAC59C79346B9343_ONALLOC_OFFSET UNITYSDK_OFFSET(0x1C4BBC00)
-#define CLASS_2_CAC59C79346B9343__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4BC330)
+#define CLASS_2_CAC59C79346B9343_CLEAR_OFFSET UNITYSDK_OFFSET(0x1CA2F0C0)
+#define CLASS_2_CAC59C79346B9343_METHOD_2_8660C3A27B56FE60_OFFSET UNITYSDK_OFFSET(0x1CA2F300)
+#define CLASS_2_CAC59C79346B9343_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x1CA2F250)
+#define CLASS_2_CAC59C79346B9343_ONALLOC_OFFSET UNITYSDK_OFFSET(0x1CA2EFA0)
+#define CLASS_2_CAC59C79346B9343__CTOR_OFFSET UNITYSDK_OFFSET(0x1CA2F6B0)
 
-inline static constexpr unsigned int Class_2_CAC59C79346B9343_TypeDefinitionIndex = 41900;
+inline static constexpr unsigned int Class_2_CAC59C79346B9343_TypeDefinitionIndex = 43542;
 
 class Class_2_CAC59C79346B9343 : public ::Class_1_0A3B9FD0FE703FDC
 {
 public:
-	::RPG::PoolList_1<::UnityEngine::Collision*>* KNEONECEFKK; // 0x338
-	::RPG::PoolHashSet_1<::System::Int32>* NCIHCMEFKMP; // 0x340
-	::RPG::PoolHashSet_1<::UnityEngine::Collider*>* NILFBBGIHGI; // 0x348
-	::System::Nullable_1<::UnityEngine::RaycastHit> NGKIHMLBGLE; // 0x350
-	::System::Boolean IHLODLNFJKK; // 0x384
-	::System::Boolean BNAPGMEKLHB; // 0x385
-	::System::Boolean LHGOBGNNGFC; // 0x386
-	::System::Single IDNCONEOKKD; // 0x388
-	::System::Nullable_1<::UnityEngine::RaycastHit> ALAGENDAJLE; // 0x38C
-	::System::Single NMPMMIAKFMO; // 0x3C0
-	::System::Single MHPMADJGBJB; // 0x3C4
-	::System::Single GPGIEFKLNKA; // 0x3C8
-	::System::Nullable_1<::UnityEngine::RaycastHit> KFFFAJEEKGI; // 0x3CC
-	::System::Int32 HMGBOLNBDGA; // 0x400
-	::UnityEngine::Vector3 KEJAHHOADEC; // 0x404
+	::RPG::PoolHashSet_1<::UnityEngine::Collider*>* NILFBBGIHGI; // 0x338
+	::RPG::PoolList_1<::UnityEngine::Collision*>* KNEONECEFKK; // 0x340
+	::RPG::PoolHashSet_1<::System::Int32>* NCIHCMEFKMP; // 0x348
+	::System::Nullable_1<::UnityEngine::RaycastHit> KFFFAJEEKGI; // 0x350
+	::UnityEngine::Vector3 KEJAHHOADEC; // 0x384
+	::System::Single NMPMMIAKFMO; // 0x390
+	::System::Single MHPMADJGBJB; // 0x394
+	::System::Boolean BNAPGMEKLHB; // 0x398
+	::System::Boolean LHGOBGNNGFC; // 0x399
+	::System::Boolean IHLODLNFJKK; // 0x39A
+	::System::Int32 HMGBOLNBDGA; // 0x39C
+	::System::Single GPGIEFKLNKA; // 0x3A0
+	::System::Nullable_1<::UnityEngine::RaycastHit> NGKIHMLBGLE; // 0x3A4
+	::System::Nullable_1<::UnityEngine::RaycastHit> ALAGENDAJLE; // 0x3D8
+	::System::Single IDNCONEOKKD; // 0x40C
 
 	::System::Void _ctor()
 	{

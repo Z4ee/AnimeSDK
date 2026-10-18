@@ -8,34 +8,34 @@ namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Func_1; }
 
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITVIEWMODEL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xCA21800)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITVIEWMODEL___C__CTOR_OFFSET UNITYSDK_OFFSET(0xCA21840)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITVIEWMODEL___C__SUBMITCHANGE_B__28_1_OFFSET UNITYSDK_OFFSET(0xCA219B0)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITVIEWMODEL___C__TRYSTARTCHALLENGE_B__27_1_OFFSET UNITYSDK_OFFSET(0xCA21940)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITVIEWMODEL___C___EXPORTPLAN_B__26_0_OFFSET UNITYSDK_OFFSET(0xCA21850)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITVIEWMODEL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC96FEF0)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITVIEWMODEL___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC96FF30)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITVIEWMODEL___C__SUBMITCHANGE_B__28_1_OFFSET UNITYSDK_OFFSET(0xC9700A0)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITVIEWMODEL___C__TRYSTARTCHALLENGE_B__27_1_OFFSET UNITYSDK_OFFSET(0xC970030)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITVIEWMODEL___C___EXPORTPLAN_B__26_0_OFFSET UNITYSDK_OFFSET(0xC96FF40)
 
 namespace RPG::Client::Challenge::Tierce
 {
-	inline static constexpr unsigned int ChallengeTierceTeamEditViewModel___c_TypeDefinitionIndex = 80304;
+	inline static constexpr unsigned int ChallengeTierceTeamEditViewModel___c_TypeDefinitionIndex = 81632;
 
 	class ChallengeTierceTeamEditViewModel___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::Challenge::Tierce::ChallengeTierceTeamEditViewModel___c** StaticGet___9()
-		{
-			return (::RPG::Client::Challenge::Tierce::ChallengeTierceTeamEditViewModel___c**)Il2CppClass::FromTypeDefinitionIndex(ChallengeTierceTeamEditViewModel___c_TypeDefinitionIndex)->GetStaticField(0x205E0);
-		}
-		static ::System::Func_1<::RPG::Client::Promises::IPromise_1<::System::Boolean>*>** StaticGet___9__27_1()
-		{
-			return (::System::Func_1<::RPG::Client::Promises::IPromise_1<::System::Boolean>*>**)Il2CppClass::FromTypeDefinitionIndex(ChallengeTierceTeamEditViewModel___c_TypeDefinitionIndex)->GetStaticField(0x205E8);
-		}
 		static ::System::Func_2<::RPG::AvatarSystem::IAvatar*, ::Class_1_916A609943E0EE80_2*>** StaticGet___9__26_0()
 		{
-			return (::System::Func_2<::RPG::AvatarSystem::IAvatar*, ::Class_1_916A609943E0EE80_2*>**)Il2CppClass::FromTypeDefinitionIndex(ChallengeTierceTeamEditViewModel___c_TypeDefinitionIndex)->GetStaticField(0x205F0);
+			return (::System::Func_2<::RPG::AvatarSystem::IAvatar*, ::Class_1_916A609943E0EE80_2*>**)Il2CppClass::FromTypeDefinitionIndex(ChallengeTierceTeamEditViewModel___c_TypeDefinitionIndex)->GetStaticField(0x6CAC0);
+		}
+		static ::RPG::Client::Challenge::Tierce::ChallengeTierceTeamEditViewModel___c** StaticGet___9()
+		{
+			return (::RPG::Client::Challenge::Tierce::ChallengeTierceTeamEditViewModel___c**)Il2CppClass::FromTypeDefinitionIndex(ChallengeTierceTeamEditViewModel___c_TypeDefinitionIndex)->GetStaticField(0x6CAC8);
 		}
 		static ::System::Func_1<::RPG::Client::Promises::IPromise_1<::System::Boolean>*>** StaticGet___9__28_1()
 		{
-			return (::System::Func_1<::RPG::Client::Promises::IPromise_1<::System::Boolean>*>**)Il2CppClass::FromTypeDefinitionIndex(ChallengeTierceTeamEditViewModel___c_TypeDefinitionIndex)->GetStaticField(0x205F8);
+			return (::System::Func_1<::RPG::Client::Promises::IPromise_1<::System::Boolean>*>**)Il2CppClass::FromTypeDefinitionIndex(ChallengeTierceTeamEditViewModel___c_TypeDefinitionIndex)->GetStaticField(0x6CAD0);
+		}
+		static ::System::Func_1<::RPG::Client::Promises::IPromise_1<::System::Boolean>*>** StaticGet___9__27_1()
+		{
+			return (::System::Func_1<::RPG::Client::Promises::IPromise_1<::System::Boolean>*>**)Il2CppClass::FromTypeDefinitionIndex(ChallengeTierceTeamEditViewModel___c_TypeDefinitionIndex)->GetStaticField(0x6CAD8);
 		}
 
 		static ::System::Void _cctor()

@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_B51RACING_B51RACINGMAINPAGEENTRANCEVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xC890B70)
+#define RPG_CLIENT_B51RACING_B51RACINGMAINPAGEENTRANCEVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xC7AF530)
 
 namespace RPG::Client::B51Racing
 {
-	inline static constexpr unsigned int B51RacingMainPageEntranceViewModel_TypeDefinitionIndex = 80708;
+	inline static constexpr unsigned int B51RacingMainPageEntranceViewModel_TypeDefinitionIndex = 82036;
 
 	class B51RacingMainPageEntranceViewModel : public ::System::Object
 	{

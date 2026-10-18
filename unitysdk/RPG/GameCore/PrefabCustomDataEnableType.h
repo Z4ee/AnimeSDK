@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PrefabCustomDataEnableType_TypeDefinitionIndex = 24150;
+	inline static constexpr unsigned int PrefabCustomDataEnableType_TypeDefinitionIndex = 24429;
 
 	enum class PrefabCustomDataEnableType : ::System::Int32
 	{

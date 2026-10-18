@@ -5,16 +5,16 @@
 class Class_1_6FE0547AC9A9B1E1;
 namespace RPG::GameCore { class FiveDimPortalConfig; }
 
-#define CLASS_1_6D630ED33F35F07C_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C4A3D50)
-#define CLASS_1_6D630ED33F35F07C__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4A3DC0)
+#define CLASS_1_6D630ED33F35F07C_CLEAR_OFFSET UNITYSDK_OFFSET(0x1CA13FF0)
+#define CLASS_1_6D630ED33F35F07C__CTOR_OFFSET UNITYSDK_OFFSET(0x1CA14060)
 
-inline static constexpr unsigned int Class_1_6D630ED33F35F07C_TypeDefinitionIndex = 41836;
+inline static constexpr unsigned int Class_1_6D630ED33F35F07C_TypeDefinitionIndex = 43478;
 
 class Class_1_6D630ED33F35F07C : public ::System::Object
 {
 public:
-	::Class_1_6FE0547AC9A9B1E1* BPAPBAFOMCH; // 0x10
-	::RPG::GameCore::FiveDimPortalConfig* EABKOHGCHFP; // 0x18
+	::RPG::GameCore::FiveDimPortalConfig* EABKOHGCHFP; // 0x10
+	::Class_1_6FE0547AC9A9B1E1* BPAPBAFOMCH; // 0x18
 
 	::System::Void _ctor()
 	{

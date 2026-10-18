@@ -5,16 +5,16 @@
 class Class_1_D201E8DD2E0E7281;
 namespace RPG::GameCore { class GameEntity; }
 
-#define CLASS_1_D201E8DD2E0E7281___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB9E2620)
-#define CLASS_1_D201E8DD2E0E7281___C__DISPLAYCLASS8_0___SETBOX_B__0_OFFSET UNITYSDK_OFFSET(0xB9E2990)
+#define CLASS_1_D201E8DD2E0E7281___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB8A2510)
+#define CLASS_1_D201E8DD2E0E7281___C__DISPLAYCLASS8_0___SETBOX_B__0_OFFSET UNITYSDK_OFFSET(0xB8A2880)
 
-inline static constexpr unsigned int Class_1_D201E8DD2E0E7281___c__DisplayClass8_0_TypeDefinitionIndex = 60324;
+inline static constexpr unsigned int Class_1_D201E8DD2E0E7281___c__DisplayClass8_0_TypeDefinitionIndex = 60212;
 
 class Class_1_D201E8DD2E0E7281___c__DisplayClass8_0 : public ::System::Object
 {
 public:
-	::RPG::GameCore::GameEntity* boxEntity; // 0x10
-	::Class_1_D201E8DD2E0E7281* __4__this; // 0x18
+	::Class_1_D201E8DD2E0E7281* __4__this; // 0x10
+	::RPG::GameCore::GameEntity* boxEntity; // 0x18
 
 	::System::Void _ctor()
 	{

@@ -10,25 +10,25 @@ namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define CYSHARP_THREADING_TASKS_UNITASK__RUNONTHREADPOOL_D__84_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x3BA9AF0)
-#define CYSHARP_THREADING_TASKS_UNITASK__RUNONTHREADPOOL_D__84_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x1020)
+#define CYSHARP_THREADING_TASKS_UNITASK__RUNONTHREADPOOL_D__84_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x3C5EEC0)
+#define CYSHARP_THREADING_TASKS_UNITASK__RUNONTHREADPOOL_D__84_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x10B0)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UniTask__RunOnThreadPool_d__84_TypeDefinitionIndex = 42767;
+	inline static constexpr unsigned int UniTask__RunOnThreadPool_d__84_TypeDefinitionIndex = 38352;
 
 	struct alignas(8) UniTask__RunOnThreadPool_d__84
 	{
-		::System::Action_1<::System::Object*>* action; // 0x10
-		::System::Object* state; // 0x18
+		::System::Object* __7__wrap1; // 0x10
+		::System::Threading::CancellationToken cancellationToken; // 0x18
 		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder __t__builder; // 0x20
-		::System::Threading::CancellationToken cancellationToken; // 0x30
-		::System::Object* __7__wrap1; // 0x38
-		::System::Int32 __7__wrap2; // 0x40
-		::System::Int32 __1__state; // 0x44
-		::Cysharp::Threading::Tasks::YieldAwaitable_Awaiter __u__2; // 0x48
-		::Cysharp::Threading::Tasks::SwitchToThreadPoolAwaitable_Awaiter __u__1; // 0x4C
-		::System::Boolean configureAwait; // 0x4D
+		::System::Object* state; // 0x30
+		::System::Action_1<::System::Object*>* action; // 0x38
+		::Cysharp::Threading::Tasks::YieldAwaitable_Awaiter __u__2; // 0x40
+		::System::Boolean configureAwait; // 0x44
+		::Cysharp::Threading::Tasks::SwitchToThreadPoolAwaitable_Awaiter __u__1; // 0x45
+		::System::Int32 __7__wrap2; // 0x48
+		::System::Int32 __1__state; // 0x4C
 
 		::System::Void MoveNext()
 		{

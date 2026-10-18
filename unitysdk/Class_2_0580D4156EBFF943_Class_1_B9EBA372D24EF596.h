@@ -5,9 +5,9 @@
 class Class_1_3FF51CE8B91EFA1B;
 namespace RPG::GameCore { class BattleGridFightTeamTraitData; }
 
-#define CLASS_2_0580D4156EBFF943_CLASS_1_B9EBA372D24EF596__CTOR_OFFSET UNITYSDK_OFFSET(0xBEE1690)
+#define CLASS_2_0580D4156EBFF943_CLASS_1_B9EBA372D24EF596__CTOR_OFFSET UNITYSDK_OFFSET(0xBD72EC0)
 
-inline static constexpr unsigned int Class_2_0580D4156EBFF943_Class_1_B9EBA372D24EF596_TypeDefinitionIndex = 72221;
+inline static constexpr unsigned int Class_2_0580D4156EBFF943_Class_1_B9EBA372D24EF596_TypeDefinitionIndex = 72294;
 
 class Class_2_0580D4156EBFF943_Class_1_B9EBA372D24EF596 : public ::System::Object
 {

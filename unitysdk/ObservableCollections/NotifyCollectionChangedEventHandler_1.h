@@ -9,7 +9,7 @@ namespace System { class Object; }
 
 namespace ObservableCollections
 {
-	inline static constexpr unsigned int NotifyCollectionChangedEventHandler_1_TypeDefinitionIndex = 35207;
+	inline static constexpr unsigned int NotifyCollectionChangedEventHandler_1_TypeDefinitionIndex = 35878;
 
 	template <typename T>
 	class NotifyCollectionChangedEventHandler_1 : public ::System::MulticastDelegate

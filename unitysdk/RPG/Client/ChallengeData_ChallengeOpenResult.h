@@ -5,11 +5,11 @@
 
 namespace System { class Object; }
 
-#define RPG_CLIENT_CHALLENGEDATA_CHALLENGEOPENRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x14A470)
+#define RPG_CLIENT_CHALLENGEDATA_CHALLENGEOPENRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0xE35D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChallengeData_ChallengeOpenResult_TypeDefinitionIndex = 63153;
+	inline static constexpr unsigned int ChallengeData_ChallengeOpenResult_TypeDefinitionIndex = 63086;
 
 	struct alignas(8) ChallengeData_ChallengeOpenResult
 	{

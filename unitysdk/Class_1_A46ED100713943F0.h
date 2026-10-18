@@ -7,12 +7,12 @@
 class Class_1_9ADD1D872350330F;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_A46ED100713943F0_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C485030)
-#define CLASS_1_A46ED100713943F0_METHOD_1_52675038485BC592_1_OFFSET UNITYSDK_OFFSET(0x1C485190)
-#define CLASS_1_A46ED100713943F0_METHOD_1_52675038485BC592_OFFSET UNITYSDK_OFFSET(0x1C4850D0)
-#define CLASS_1_A46ED100713943F0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C485250)
+#define CLASS_1_A46ED100713943F0_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C9F4070)
+#define CLASS_1_A46ED100713943F0_METHOD_1_52675038485BC592_1_OFFSET UNITYSDK_OFFSET(0x1C9F41D0)
+#define CLASS_1_A46ED100713943F0_METHOD_1_52675038485BC592_OFFSET UNITYSDK_OFFSET(0x1C9F4110)
+#define CLASS_1_A46ED100713943F0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C9F4290)
 
-inline static constexpr unsigned int Class_1_A46ED100713943F0_TypeDefinitionIndex = 41418;
+inline static constexpr unsigned int Class_1_A46ED100713943F0_TypeDefinitionIndex = 43030;
 
 class Class_1_A46ED100713943F0 : public ::System::Object
 {
@@ -20,19 +20,19 @@ public:
 	::Class_1_9ADD1D872350330F* CFCGOPHFJPF; // 0x10
 	::System::Collections::Generic::List_1<::System::Single>* AFJMECMIMOO; // 0x18
 	::System::Collections::Generic::List_1<::System::Single>* PCHLMCCDMKG; // 0x20
-	::System::ValueTuple_2<::System::UInt32, ::System::UInt32> OCCIGEAJGHK; // 0x28
-	::System::ValueTuple_2<::System::UInt32, ::System::UInt32> HIKJECOPFMI; // 0x30
-	::System::UInt32 CDGDPFNDPLK; // 0x38
-	::System::UInt32 EFNNOMMFCOJ; // 0x3C
-	::System::Boolean MNMBAANKOGG; // 0x40
-	::System::ValueTuple_2<::System::UInt32, ::System::UInt32> JEPOIFJFOFA; // 0x44
-	::System::UInt32 HHCPCIBKMFJ; // 0x4C
-	::System::ValueTuple_2<::System::UInt32, ::System::UInt32> FOKJOEKBEML; // 0x50
-	::RPG::Client::LittleGame::Match3::SimulateInputType PLEMHLIAKPF; // 0x58
-	::System::UInt32 PMOHKEDFGHP; // 0x5C
-	::System::UInt32 COFAKDPCNEB; // 0x60
-	::System::UInt32 GLANPLEGMPG; // 0x64
-	::System::UInt32 FENJGDJFGFL; // 0x68
+	::System::UInt32 FENJGDJFGFL; // 0x28
+	::System::Boolean MNMBAANKOGG; // 0x2C
+	::System::UInt32 EFNNOMMFCOJ; // 0x30
+	::System::ValueTuple_2<::System::UInt32, ::System::UInt32> FOKJOEKBEML; // 0x34
+	::System::ValueTuple_2<::System::UInt32, ::System::UInt32> JEPOIFJFOFA; // 0x3C
+	::RPG::Client::LittleGame::Match3::SimulateInputType PLEMHLIAKPF; // 0x44
+	::System::UInt32 CDGDPFNDPLK; // 0x48
+	::System::ValueTuple_2<::System::UInt32, ::System::UInt32> OCCIGEAJGHK; // 0x4C
+	::System::UInt32 HHCPCIBKMFJ; // 0x54
+	::System::ValueTuple_2<::System::UInt32, ::System::UInt32> HIKJECOPFMI; // 0x58
+	::System::UInt32 GLANPLEGMPG; // 0x60
+	::System::UInt32 PMOHKEDFGHP; // 0x64
+	::System::UInt32 COFAKDPCNEB; // 0x68
 
 	::System::Void _ctor()
 	{

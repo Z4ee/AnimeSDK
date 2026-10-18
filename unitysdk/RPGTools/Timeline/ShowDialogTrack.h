@@ -4,12 +4,12 @@
 
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_SHOWDIALOGTRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0xE8E3D20)
-#define RPGTOOLS_TIMELINE_SHOWDIALOGTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xE8E3D90)
+#define RPGTOOLS_TIMELINE_SHOWDIALOGTRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0xE939140)
+#define RPGTOOLS_TIMELINE_SHOWDIALOGTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xE9391B0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int ShowDialogTrack_TypeDefinitionIndex = 48751;
+	inline static constexpr unsigned int ShowDialogTrack_TypeDefinitionIndex = 48291;
 
 	class ShowDialogTrack : public ::UnityEngine::Timeline::TrackAsset
 	{

@@ -6,12 +6,12 @@ namespace MiHoYo::SDK { class NetworkResponseModelEx; }
 namespace MiHoYo::SDK::Windows::OS::Channel { class BindManager; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_WINDOWS_OS_CHANNEL_BINDMANAGER___C__DISPLAYCLASS39_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B90E280)
-#define MIHOYO_SDK_WINDOWS_OS_CHANNEL_BINDMANAGER___C__DISPLAYCLASS39_0__UPDATEQRCODE_B__0_OFFSET UNITYSDK_OFFSET(0x1B911DA0)
+#define MIHOYO_SDK_WINDOWS_OS_CHANNEL_BINDMANAGER___C__DISPLAYCLASS39_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE0D0F0)
+#define MIHOYO_SDK_WINDOWS_OS_CHANNEL_BINDMANAGER___C__DISPLAYCLASS39_0__UPDATEQRCODE_B__0_OFFSET UNITYSDK_OFFSET(0x1BE10C40)
 
 namespace MiHoYo::SDK::Windows::OS::Channel
 {
-	inline static constexpr unsigned int BindManager___c__DisplayClass39_0_TypeDefinitionIndex = 8317;
+	inline static constexpr unsigned int BindManager___c__DisplayClass39_0_TypeDefinitionIndex = 8360;
 
 	class BindManager___c__DisplayClass39_0 : public ::System::Object
 	{

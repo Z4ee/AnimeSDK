@@ -1,0 +1,39 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+#define CLASS_1_F41BA62BC88DE172_CLASS_1_2869DE6CFEAC0BD0_SYSTEM_COLLECTIONS_GENERIC_IEQUALITYCOMPARER_SYSTEM_OBJECT__EQUALS_OFFSET UNITYSDK_OFFSET(0x1EC8F760)
+#define CLASS_1_F41BA62BC88DE172_CLASS_1_2869DE6CFEAC0BD0_SYSTEM_COLLECTIONS_GENERIC_IEQUALITYCOMPARER_SYSTEM_OBJECT__GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1EC8F770)
+#define CLASS_1_F41BA62BC88DE172_CLASS_1_2869DE6CFEAC0BD0__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EC8F790)
+#define CLASS_1_F41BA62BC88DE172_CLASS_1_2869DE6CFEAC0BD0__CTOR_OFFSET UNITYSDK_OFFSET(0x1EC8F780)
+
+inline static constexpr unsigned int Class_1_F41BA62BC88DE172_Class_1_2869DE6CFEAC0BD0_TypeDefinitionIndex = 44177;
+
+class Class_1_F41BA62BC88DE172_Class_1_2869DE6CFEAC0BD0 : public ::System::Object
+{
+public:
+	static ::Class_1_F41BA62BC88DE172_Class_1_2869DE6CFEAC0BD0** StaticGet_FMJPMFEDIJL()
+	{
+		return (::Class_1_F41BA62BC88DE172_Class_1_2869DE6CFEAC0BD0**)Il2CppClass::FromTypeDefinitionIndex(Class_1_F41BA62BC88DE172_Class_1_2869DE6CFEAC0BD0_TypeDefinitionIndex)->GetStaticField(0x4E0E0);
+	}
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F41BA62BC88DE172_CLASS_1_2869DE6CFEAC0BD0__CTOR_OFFSET))(this);
+	}
+
+	static ::System::Void _cctor()
+	{
+		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CLASS_1_F41BA62BC88DE172_CLASS_1_2869DE6CFEAC0BD0__CCTOR_OFFSET))();
+	}
+
+	::System::Boolean System_Collections_Generic_IEqualityComparer_System_Object__Equals(::System::Object* a1, ::System::Object* a2)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_1_F41BA62BC88DE172_CLASS_1_2869DE6CFEAC0BD0_SYSTEM_COLLECTIONS_GENERIC_IEQUALITYCOMPARER_SYSTEM_OBJECT__EQUALS_OFFSET))(this, a1, a2);
+	}
+
+	::System::Int32 System_Collections_Generic_IEqualityComparer_System_Object__GetHashCode(::System::Object* a1)
+	{
+		return ((::System::Int32(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_1_F41BA62BC88DE172_CLASS_1_2869DE6CFEAC0BD0_SYSTEM_COLLECTIONS_GENERIC_IEQUALITYCOMPARER_SYSTEM_OBJECT__GETHASHCODE_OFFSET))(this, a1);
+	}
+};

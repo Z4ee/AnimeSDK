@@ -7,14 +7,14 @@ namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace UnityEngine::EventSystems { class PointerEventData; }
 
-#define RPG_CLIENT_UIEVENTHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xE35E330)
-#define RPG_CLIENT_UIEVENTHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xE35E360)
-#define RPG_CLIENT_UIEVENTHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0xE35E320)
-#define RPG_CLIENT_UIEVENTHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0xE35E230)
+#define RPG_CLIENT_UIEVENTHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xE39FD60)
+#define RPG_CLIENT_UIEVENTHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xE39FD90)
+#define RPG_CLIENT_UIEVENTHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0xE39FD50)
+#define RPG_CLIENT_UIEVENTHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0xE39FC60)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIEventHandler_TypeDefinitionIndex = 68978;
+	inline static constexpr unsigned int UIEventHandler_TypeDefinitionIndex = 69014;
 
 	class UIEventHandler : public ::System::MulticastDelegate
 	{

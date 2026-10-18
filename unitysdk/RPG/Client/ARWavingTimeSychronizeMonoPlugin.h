@@ -8,12 +8,12 @@ namespace System { class String; }
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_ARWAVINGTIMESYCHRONIZEMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xC49AB20)
-#define RPG_CLIENT_ARWAVINGTIMESYCHRONIZEMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xC49AB70)
+#define RPG_CLIENT_ARWAVINGTIMESYCHRONIZEMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xC3A2860)
+#define RPG_CLIENT_ARWAVINGTIMESYCHRONIZEMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xC3A28B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ARWavingTimeSychronizeMonoPlugin_TypeDefinitionIndex = 70315;
+	inline static constexpr unsigned int ARWavingTimeSychronizeMonoPlugin_TypeDefinitionIndex = 70351;
 
 	class ARWavingTimeSychronizeMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::ARWavingTimeSychronizeBehavior*>
 	{

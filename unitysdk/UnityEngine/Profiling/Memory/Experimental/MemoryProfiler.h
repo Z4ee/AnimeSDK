@@ -10,30 +10,30 @@ namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine::Profiling::Memory::Experimental { class MetaData; }
 
-#define UNITYENGINE_PROFILING_MEMORY_EXPERIMENTAL_MEMORYPROFILER_FINALIZESNAPSHOT_OFFSET UNITYSDK_OFFSET(0x1ED46CE0)
-#define UNITYENGINE_PROFILING_MEMORY_EXPERIMENTAL_MEMORYPROFILER_PREPAREMETADATA_OFFSET UNITYSDK_OFFSET(0x1ED46850)
-#define UNITYENGINE_PROFILING_MEMORY_EXPERIMENTAL_MEMORYPROFILER_SAVESCREENSHOTTODISK_OFFSET UNITYSDK_OFFSET(0x1ED46D20)
-#define UNITYENGINE_PROFILING_MEMORY_EXPERIMENTAL_MEMORYPROFILER_WRITEINTTOBYTEARRAY_OFFSET UNITYSDK_OFFSET(0x1ED46BF0)
-#define UNITYENGINE_PROFILING_MEMORY_EXPERIMENTAL_MEMORYPROFILER_WRITESTRINGTOBYTEARRAY_OFFSET UNITYSDK_OFFSET(0x1ED46C60)
+#define UNITYENGINE_PROFILING_MEMORY_EXPERIMENTAL_MEMORYPROFILER_FINALIZESNAPSHOT_OFFSET UNITYSDK_OFFSET(0x1F40EE90)
+#define UNITYENGINE_PROFILING_MEMORY_EXPERIMENTAL_MEMORYPROFILER_PREPAREMETADATA_OFFSET UNITYSDK_OFFSET(0x1F40EA00)
+#define UNITYENGINE_PROFILING_MEMORY_EXPERIMENTAL_MEMORYPROFILER_SAVESCREENSHOTTODISK_OFFSET UNITYSDK_OFFSET(0x1F40EED0)
+#define UNITYENGINE_PROFILING_MEMORY_EXPERIMENTAL_MEMORYPROFILER_WRITEINTTOBYTEARRAY_OFFSET UNITYSDK_OFFSET(0x1F40EDA0)
+#define UNITYENGINE_PROFILING_MEMORY_EXPERIMENTAL_MEMORYPROFILER_WRITESTRINGTOBYTEARRAY_OFFSET UNITYSDK_OFFSET(0x1F40EE10)
 
 namespace UnityEngine::Profiling::Memory::Experimental
 {
-	inline static constexpr unsigned int MemoryProfiler_TypeDefinitionIndex = 4518;
+	inline static constexpr unsigned int MemoryProfiler_TypeDefinitionIndex = 4522;
 
 	class MemoryProfiler : public ::System::Object
 	{
 	public:
+		static ::System::Action_3<::System::String*, ::System::Boolean, ::UnityEngine::Profiling::Experimental::DebugScreenCapture>** StaticGet_m_SaveScreenshotToDisk()
+		{
+			return (::System::Action_3<::System::String*, ::System::Boolean, ::UnityEngine::Profiling::Experimental::DebugScreenCapture>**)Il2CppClass::FromTypeDefinitionIndex(MemoryProfiler_TypeDefinitionIndex)->GetStaticField(0x12D40);
+		}
 		static ::System::Action_1<::UnityEngine::Profiling::Memory::Experimental::MetaData*>** StaticGet_createMetaData()
 		{
-			return (::System::Action_1<::UnityEngine::Profiling::Memory::Experimental::MetaData*>**)Il2CppClass::FromTypeDefinitionIndex(MemoryProfiler_TypeDefinitionIndex)->GetStaticField(0x112E0);
+			return (::System::Action_1<::UnityEngine::Profiling::Memory::Experimental::MetaData*>**)Il2CppClass::FromTypeDefinitionIndex(MemoryProfiler_TypeDefinitionIndex)->GetStaticField(0x12D48);
 		}
 		static ::System::Action_2<::System::String*, ::System::Boolean>** StaticGet_m_SnapshotFinished()
 		{
-			return (::System::Action_2<::System::String*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(MemoryProfiler_TypeDefinitionIndex)->GetStaticField(0x112E8);
-		}
-		static ::System::Action_3<::System::String*, ::System::Boolean, ::UnityEngine::Profiling::Experimental::DebugScreenCapture>** StaticGet_m_SaveScreenshotToDisk()
-		{
-			return (::System::Action_3<::System::String*, ::System::Boolean, ::UnityEngine::Profiling::Experimental::DebugScreenCapture>**)Il2CppClass::FromTypeDefinitionIndex(MemoryProfiler_TypeDefinitionIndex)->GetStaticField(0x112F0);
+			return (::System::Action_2<::System::String*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(MemoryProfiler_TypeDefinitionIndex)->GetStaticField(0x12D50);
 		}
 
 		static ::Il2CppArray<::System::Byte>* PrepareMetadata()

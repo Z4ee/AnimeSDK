@@ -4,12 +4,12 @@
 
 namespace RPG::Client::ActivityIdleLive { class IdleLiveDungeonFriendSoltData; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONDATA___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC5A6700)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONDATA___C__DISPLAYCLASS6_0__ISASSISTDATAINFRIENDSOLT_B__0_OFFSET UNITYSDK_OFFSET(0xC5A78A0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONDATA___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC4BE3A0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONDATA___C__DISPLAYCLASS6_0__ISASSISTDATAINFRIENDSOLT_B__0_OFFSET UNITYSDK_OFFSET(0xC4BF540)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveDungeonData___c__DisplayClass6_0_TypeDefinitionIndex = 74904;
+	inline static constexpr unsigned int IdleLiveDungeonData___c__DisplayClass6_0_TypeDefinitionIndex = 75204;
 
 	class IdleLiveDungeonData___c__DisplayClass6_0 : public ::System::Object
 	{

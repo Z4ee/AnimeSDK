@@ -11,45 +11,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_ACTIVITYVERSIONBANNEREXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1CDAEE50)
-#define RPG_GAMECORE_ACTIVITYVERSIONBANNEREXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1CDAECE0)
-#define RPG_GAMECORE_ACTIVITYVERSIONBANNEREXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1CDAE9D0)
-#define RPG_GAMECORE_ACTIVITYVERSIONBANNEREXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1CDAEC80)
-#define RPG_GAMECORE_ACTIVITYVERSIONBANNEREXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1CDAEFA0)
-#define RPG_GAMECORE_ACTIVITYVERSIONBANNEREXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1CDAEA50)
-#define RPG_GAMECORE_ACTIVITYVERSIONBANNEREXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1CDAEFE0)
-#define RPG_GAMECORE_ACTIVITYVERSIONBANNEREXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CDAF1B0)
-#define RPG_GAMECORE_ACTIVITYVERSIONBANNEREXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1CDAF340)
-#define RPG_GAMECORE_ACTIVITYVERSIONBANNEREXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CDAF660)
-#define RPG_GAMECORE_ACTIVITYVERSIONBANNEREXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1CDAF110)
-#define RPG_GAMECORE_ACTIVITYVERSIONBANNEREXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1CDAF070)
+#define RPG_GAMECORE_ACTIVITYVERSIONBANNEREXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1D383F00)
+#define RPG_GAMECORE_ACTIVITYVERSIONBANNEREXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1D383D90)
+#define RPG_GAMECORE_ACTIVITYVERSIONBANNEREXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1D383A80)
+#define RPG_GAMECORE_ACTIVITYVERSIONBANNEREXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1D383D30)
+#define RPG_GAMECORE_ACTIVITYVERSIONBANNEREXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1D384050)
+#define RPG_GAMECORE_ACTIVITYVERSIONBANNEREXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D383B00)
+#define RPG_GAMECORE_ACTIVITYVERSIONBANNEREXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1D384090)
+#define RPG_GAMECORE_ACTIVITYVERSIONBANNEREXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D384260)
+#define RPG_GAMECORE_ACTIVITYVERSIONBANNEREXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1D3843F0)
+#define RPG_GAMECORE_ACTIVITYVERSIONBANNEREXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D384710)
+#define RPG_GAMECORE_ACTIVITYVERSIONBANNEREXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1D3841C0)
+#define RPG_GAMECORE_ACTIVITYVERSIONBANNEREXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D384120)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityVersionBannerExcelTable_TypeDefinitionIndex = 11214;
+	inline static constexpr unsigned int ActivityVersionBannerExcelTable_TypeDefinitionIndex = 11230;
 
 	class ActivityVersionBannerExcelTable : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
-		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityVersionBannerExcelTable_TypeDefinitionIndex)->GetStaticField(0x563B0);
-		}
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ActivityVersionBannerRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ActivityVersionBannerRow*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityVersionBannerExcelTable_TypeDefinitionIndex)->GetStaticField(0x563B8);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ActivityVersionBannerRow*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityVersionBannerExcelTable_TypeDefinitionIndex)->GetStaticField(0x42960);
+		}
+		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
+		{
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityVersionBannerExcelTable_TypeDefinitionIndex)->GetStaticField(0x42968);
 		}
 		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityVersionBannerExcelTable_TypeDefinitionIndex)->GetStaticField(0x563C0);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityVersionBannerExcelTable_TypeDefinitionIndex)->GetStaticField(0x42970);
 		}
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(ActivityVersionBannerExcelTable_TypeDefinitionIndex)->GetStaticField(0x11FF0);
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(ActivityVersionBannerExcelTable_TypeDefinitionIndex)->GetStaticField(0x10090);
 		}
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ActivityVersionBannerExcelTable_TypeDefinitionIndex)->GetStaticField(0x11FF1);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ActivityVersionBannerExcelTable_TypeDefinitionIndex)->GetStaticField(0x10091);
 		}
 
 		static ::System::Void _cctor()

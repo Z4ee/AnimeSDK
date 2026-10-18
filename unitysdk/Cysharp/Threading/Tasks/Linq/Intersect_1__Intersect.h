@@ -12,7 +12,7 @@ namespace System::Collections::Generic { template <typename T> class IEqualityCo
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int Intersect_1__Intersect_TypeDefinitionIndex = 44261;
+	inline static constexpr unsigned int Intersect_1__Intersect_TypeDefinitionIndex = 45400;
 
 	template <typename TSource>
 	class Intersect_1__Intersect : public ::Cysharp::Threading::Tasks::Linq::AsyncEnumeratorBase_2<TSource, TSource>

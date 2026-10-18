@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/GCFreeClosure/ActionClosure_1.h"
+#include "unitysdk/RPG/Client/MechCraft/MechCraftChipTraitType.h"
 
-namespace UnityEngine { class Collider; }
+class Class_0_16E4307DCC419505_123;
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_124_TypeDefinitionIndex = 40458;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_124_TypeDefinitionIndex = 41685;
 
 class Class_0_16E4307DCC419505_124
 {

@@ -7,20 +7,20 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI { class Text; }
 
-#define CLASS_2_2DB5DEF3EA4B57A8_METHOD_2_446D667A20507CA9_OFFSET UNITYSDK_OFFSET(0xB774B40)
-#define CLASS_2_2DB5DEF3EA4B57A8__CTOR_OFFSET UNITYSDK_OFFSET(0xB774C70)
-#define CLASS_2_2DB5DEF3EA4B57A8__ONBIND_OFFSET UNITYSDK_OFFSET(0xB7749D0)
+#define CLASS_2_2DB5DEF3EA4B57A8_METHOD_2_446D667A20507CA9_OFFSET UNITYSDK_OFFSET(0xB625B40)
+#define CLASS_2_2DB5DEF3EA4B57A8__CTOR_OFFSET UNITYSDK_OFFSET(0xB625C70)
+#define CLASS_2_2DB5DEF3EA4B57A8__ONBIND_OFFSET UNITYSDK_OFFSET(0xB6259D0)
 
-inline static constexpr unsigned int Class_2_2DB5DEF3EA4B57A8_TypeDefinitionIndex = 71157;
+inline static constexpr unsigned int Class_2_2DB5DEF3EA4B57A8_TypeDefinitionIndex = 71196;
 
 class Class_2_2DB5DEF3EA4B57A8 : public ::Class_1_34917908B7833130
 {
 public:
-	::UnityEngine::Transform* MGCMKLNGPOF; // 0x60
-	::UnityEngine::UI::Text* JKOMLECEPJL; // 0x68
-	::UnityEngine::Transform* EFNNMOKGGEB; // 0x70
-	::UnityEngine::UI::Text* AEJPECICBGN; // 0x78
-	::UnityEngine::UI::Text* DKPGGBHIKII; // 0x80
+	::UnityEngine::UI::Text* JKOMLECEPJL; // 0x60
+	::UnityEngine::UI::Text* AEJPECICBGN; // 0x68
+	::UnityEngine::Transform* MGCMKLNGPOF; // 0x70
+	::UnityEngine::UI::Text* DKPGGBHIKII; // 0x78
+	::UnityEngine::Transform* EFNNMOKGGEB; // 0x80
 
 	::System::Void _ctor()
 	{

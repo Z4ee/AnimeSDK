@@ -2,25 +2,25 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_1129;
+class Class_0_16E4307DCC419505_1243;
 
-#define CLASS_2_F6835B20CFA5DDE0___C__DISPLAYCLASS28_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16074EB0)
-#define CLASS_2_F6835B20CFA5DDE0___C__DISPLAYCLASS28_0___PREPAREELATIONACTIONPANELS_B__0_OFFSET UNITYSDK_OFFSET(0x16075640)
+#define CLASS_2_F6835B20CFA5DDE0___C__DISPLAYCLASS28_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16421860)
+#define CLASS_2_F6835B20CFA5DDE0___C__DISPLAYCLASS28_0___PREPAREELATIONACTIONPANELS_B__0_OFFSET UNITYSDK_OFFSET(0x16421FE0)
 
-inline static constexpr unsigned int Class_2_F6835B20CFA5DDE0___c__DisplayClass28_0_TypeDefinitionIndex = 72095;
+inline static constexpr unsigned int Class_2_F6835B20CFA5DDE0___c__DisplayClass28_0_TypeDefinitionIndex = 72168;
 
 class Class_2_F6835B20CFA5DDE0___c__DisplayClass28_0 : public ::System::Object
 {
 public:
-	::Class_0_16E4307DCC419505_1129* data; // 0x10
+	::Class_0_16E4307DCC419505_1243* data; // 0x10
 
 	::System::Void _ctor()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_F6835B20CFA5DDE0___C__DISPLAYCLASS28_0__CTOR_OFFSET))(this);
 	}
 
-	::System::Boolean __PrepareElationActionPanels_b__0(::Class_0_16E4307DCC419505_1129* a1)
+	::System::Boolean __PrepareElationActionPanels_b__0(::Class_0_16E4307DCC419505_1243* a1)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::Class_0_16E4307DCC419505_1129*))((::PBYTE)hIl2Cpp + CLASS_2_F6835B20CFA5DDE0___C__DISPLAYCLASS28_0___PREPAREELATIONACTIONPANELS_B__0_OFFSET))(this, a1);
+		return ((::System::Boolean(*)(::PVOID, ::Class_0_16E4307DCC419505_1243*))((::PBYTE)hIl2Cpp + CLASS_2_F6835B20CFA5DDE0___C__DISPLAYCLASS28_0___PREPAREELATIONACTIONPANELS_B__0_OFFSET))(this, a1);
 	}
 };

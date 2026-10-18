@@ -7,11 +7,11 @@
 namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class MeshRenderer; }
 
-#define AREAFADEPOINTLIGHT_METHOD_5_508D4DD02D3DB74E_OFFSET UNITYSDK_OFFSET(0x1596AD30)
-#define AREAFADEPOINTLIGHT_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1596B2E0)
-#define AREAFADEPOINTLIGHT__CTOR_OFFSET UNITYSDK_OFFSET(0x1596B360)
+#define AREAFADEPOINTLIGHT_METHOD_5_508D4DD02D3DB74E_OFFSET UNITYSDK_OFFSET(0x15BC49F0)
+#define AREAFADEPOINTLIGHT_ONENABLE_OFFSET UNITYSDK_OFFSET(0x15BC4FA0)
+#define AREAFADEPOINTLIGHT__CTOR_OFFSET UNITYSDK_OFFSET(0x15BC5040)
 
-inline static constexpr unsigned int AreaFadePointLight_TypeDefinitionIndex = 47798;
+inline static constexpr unsigned int AreaFadePointLight_TypeDefinitionIndex = 47338;
 
 class AreaFadePointLight : public ::UnityEngine::MonoBehaviour
 {

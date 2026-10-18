@@ -4,15 +4,20 @@
 
 namespace System { class String; }
 
-inline static constexpr unsigned int Class_1_5ED0D1EE63E13154_12_TypeDefinitionIndex = 78537;
+inline static constexpr unsigned int Class_1_5ED0D1EE63E13154_12_TypeDefinitionIndex = 79100;
 
 class Class_1_5ED0D1EE63E13154_12 : public ::System::Object
 {
 public:
-	// static const ::System::String* BHCCMJCBAFE; // 0x0
-	// static const ::System::String* EHHMFKKOEMG; // 0x0
-	// static const ::System::String* DJOBNPIAEJP; // 0x0
-	// static const ::System::String* LHJIPHADHHL; // 0x0
-	// static const ::System::String* KAPGOMOKOBA; // 0x0
-	// static const ::System::String* KBAFEHJANLH; // 0x0
+	// static const ::System::String* ODAKBMDJCGI; // 0x0
+	// static const ::System::String* DLJIGPBGAJD; // 0x0
+	// static const ::System::String* KNBHJBHBHIP; // 0x0
+	// static const ::System::String* JBEFPHNJOEB; // 0x0
+	// static const ::System::String* KGKGIHMGLMH; // 0x0
+	// static const ::System::String* MJEPFOEFKLE; // 0x0
+	// static const ::System::String* MPIFABJHONE; // 0x0
+	// static const ::System::String* ABMJLCOFNCN; // 0x0
+	// static const ::System::String* JJDCNMECFPJ; // 0x0
+	// static const ::System::String* DOMBEPPPFHM; // 0x0
+	// static const ::System::String* MOLLGEEPNGB; // 0x0
 };

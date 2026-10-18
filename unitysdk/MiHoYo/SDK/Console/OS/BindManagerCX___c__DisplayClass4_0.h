@@ -6,19 +6,19 @@ namespace MiHoYo::SDK { class NetworkResponseModel; }
 namespace MiHoYo::SDK::Console::OS { class BindManagerCX; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_CONSOLE_OS_BINDMANAGERCX___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7BAFE0)
-#define MIHOYO_SDK_CONSOLE_OS_BINDMANAGERCX___C__DISPLAYCLASS4_0__PERFORMBINDINGFLOW_B__0_OFFSET UNITYSDK_OFFSET(0x1B7BBCC0)
-#define MIHOYO_SDK_CONSOLE_OS_BINDMANAGERCX___C__DISPLAYCLASS4_0__PERFORMBINDINGFLOW_B__1_OFFSET UNITYSDK_OFFSET(0x1B7BC420)
+#define MIHOYO_SDK_CONSOLE_OS_BINDMANAGERCX___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BCBA5A0)
+#define MIHOYO_SDK_CONSOLE_OS_BINDMANAGERCX___C__DISPLAYCLASS4_0__PERFORMBINDINGFLOW_B__0_OFFSET UNITYSDK_OFFSET(0x1BCBB270)
+#define MIHOYO_SDK_CONSOLE_OS_BINDMANAGERCX___C__DISPLAYCLASS4_0__PERFORMBINDINGFLOW_B__1_OFFSET UNITYSDK_OFFSET(0x1BCBB9D0)
 
 namespace MiHoYo::SDK::Console::OS
 {
-	inline static constexpr unsigned int BindManagerCX___c__DisplayClass4_0_TypeDefinitionIndex = 9014;
+	inline static constexpr unsigned int BindManagerCX___c__DisplayClass4_0_TypeDefinitionIndex = 9075;
 
 	class BindManagerCX___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:
-		::MiHoYo::SDK::Console::OS::BindManagerCX* __4__this; // 0x10
-		::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* OnLoginResult; // 0x18
+		::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* OnLoginResult; // 0x10
+		::MiHoYo::SDK::Console::OS::BindManagerCX* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

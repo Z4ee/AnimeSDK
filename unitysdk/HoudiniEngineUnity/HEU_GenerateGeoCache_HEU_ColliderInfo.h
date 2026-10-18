@@ -7,25 +7,25 @@
 
 namespace System { class String; }
 
-#define HOUDINIENGINEUNITY_HEU_GENERATEGEOCACHE_HEU_COLLIDERINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3F2040)
+#define HOUDINIENGINEUNITY_HEU_GENERATEGEOCACHE_HEU_COLLIDERINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8F3AC0)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_GenerateGeoCache_HEU_ColliderInfo_TypeDefinitionIndex = 39338;
+	inline static constexpr unsigned int HEU_GenerateGeoCache_HEU_ColliderInfo_TypeDefinitionIndex = 40635;
 
 	class HEU_GenerateGeoCache_HEU_ColliderInfo : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::Int32>* _collisionIndices; // 0x10
-		::Il2CppArray<::UnityEngine::Vector3>* _collisionVertices; // 0x18
-		::System::String* _collisionGroupName; // 0x20
-		::UnityEngine::MeshTopology _meshTopology; // 0x28
-		::System::Boolean _convexCollider; // 0x2C
-		::System::Boolean _isTrigger; // 0x2D
-		::UnityEngine::Vector3 _colliderSize; // 0x30
-		::UnityEngine::Vector3 _colliderCenter; // 0x3C
-		::System::Single _colliderRadius; // 0x48
-		::HoudiniEngineUnity::HEU_GenerateGeoCache_HEU_ColliderInfo_ColliderType _colliderType; // 0x4C
+		::System::String* _collisionGroupName; // 0x18
+		::Il2CppArray<::UnityEngine::Vector3>* _collisionVertices; // 0x20
+		::HoudiniEngineUnity::HEU_GenerateGeoCache_HEU_ColliderInfo_ColliderType _colliderType; // 0x28
+		::System::Single _colliderRadius; // 0x2C
+		::UnityEngine::Vector3 _colliderCenter; // 0x30
+		::System::Boolean _convexCollider; // 0x3C
+		::System::Boolean _isTrigger; // 0x3D
+		::UnityEngine::MeshTopology _meshTopology; // 0x40
+		::UnityEngine::Vector3 _colliderSize; // 0x44
 
 		::System::Void _ctor()
 		{

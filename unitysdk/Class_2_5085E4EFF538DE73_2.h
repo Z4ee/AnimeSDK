@@ -3,9 +3,9 @@
 #include "unitysdk/Class_2_5085E4EFF538DE73_2_InspectType.h"
 #include "unitysdk/System/Attribute.h"
 
-#define CLASS_2_5085E4EFF538DE73_2__CTOR_OFFSET UNITYSDK_OFFSET(0x1CB391E0)
+#define CLASS_2_5085E4EFF538DE73_2__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0F7770)
 
-inline static constexpr unsigned int Class_2_5085E4EFF538DE73_2_TypeDefinitionIndex = 24759;
+inline static constexpr unsigned int Class_2_5085E4EFF538DE73_2_TypeDefinitionIndex = 25041;
 
 class Class_2_5085E4EFF538DE73_2 : public ::System::Attribute
 {

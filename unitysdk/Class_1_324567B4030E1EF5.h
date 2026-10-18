@@ -7,19 +7,19 @@
 class Class_1_B6045334FA181376;
 namespace UnityEngine { class Transform; }
 
-#define CLASS_1_324567B4030E1EF5__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4A2B40)
+#define CLASS_1_324567B4030E1EF5__CTOR_OFFSET UNITYSDK_OFFSET(0x1CA12EC0)
 
-inline static constexpr unsigned int Class_1_324567B4030E1EF5_TypeDefinitionIndex = 41328;
+inline static constexpr unsigned int Class_1_324567B4030E1EF5_TypeDefinitionIndex = 42940;
 
 class Class_1_324567B4030E1EF5 : public ::System::Object
 {
 public:
 	::Class_1_B6045334FA181376* NDJINIMPHFH; // 0x10
 	::UnityEngine::Transform* DICDJJOJKGF; // 0x18
-	::UnityEngine::Vector3 BBFOLEOPPPL; // 0x20
-	::System::Single BJOCBPFKJDP; // 0x2C
-	::UnityEngine::Quaternion NMELCPIOKNO; // 0x30
-	::System::Single JFAGECNFHJL; // 0x40
+	::System::Single BJOCBPFKJDP; // 0x20
+	::UnityEngine::Vector3 BBFOLEOPPPL; // 0x24
+	::System::Single JFAGECNFHJL; // 0x30
+	::UnityEngine::Quaternion NMELCPIOKNO; // 0x34
 	::System::Single HBAMPJPOOLM; // 0x44
 
 	::System::Void _ctor()

@@ -1,25 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Struct_2_884CDB9D0FDFAF0D_11.h"
+#include "unitysdk/Struct_2_884CDB9D0FDFAF0D_12.h"
 #include "unitysdk/System/Object.h"
 
 namespace RPG::Client { class ItemCostCalculateResult; }
 namespace RPG::Client { class ItemCostCalculator; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_416ED9552503F399_METHOD_1_16BD115D596240FF_OFFSET UNITYSDK_OFFSET(0xB4C4B40)
-#define CLASS_1_416ED9552503F399_METHOD_1_308A73B5AFED9089_OFFSET UNITYSDK_OFFSET(0xB4C4C10)
-#define CLASS_1_416ED9552503F399_METHOD_1_D6AF3D5647297AEB_OFFSET UNITYSDK_OFFSET(0xB4C4E30)
-#define CLASS_1_416ED9552503F399__CCTOR_OFFSET UNITYSDK_OFFSET(0xB4C4F70)
+#define CLASS_1_416ED9552503F399_METHOD_1_16BD115D596240FF_OFFSET UNITYSDK_OFFSET(0xB46E0A0)
+#define CLASS_1_416ED9552503F399_METHOD_1_308A73B5AFED9089_OFFSET UNITYSDK_OFFSET(0xB46E170)
+#define CLASS_1_416ED9552503F399_METHOD_1_D6AF3D5647297AEB_OFFSET UNITYSDK_OFFSET(0xB46E390)
+#define CLASS_1_416ED9552503F399__CCTOR_OFFSET UNITYSDK_OFFSET(0xB46E4D0)
 
-inline static constexpr unsigned int Class_1_416ED9552503F399_TypeDefinitionIndex = 65796;
+inline static constexpr unsigned int Class_1_416ED9552503F399_TypeDefinitionIndex = 65732;
 
 class Class_1_416ED9552503F399 : public ::System::Object
 {
 public:
 	static ::System::UInt32* StaticGet_GDDICPCFJON()
 	{
-		return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_416ED9552503F399_TypeDefinitionIndex)->GetStaticField(0xFA70);
+		return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_416ED9552503F399_TypeDefinitionIndex)->GetStaticField(0x156F0);
 	}
 
 	static ::System::Void _cctor()
@@ -27,14 +27,14 @@ public:
 		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CLASS_1_416ED9552503F399__CCTOR_OFFSET))();
 	}
 
-	static ::Struct_2_884CDB9D0FDFAF0D_11 Method_1_16BD115D596240FF(::RPG::Client::ItemCostCalculator* a1)
+	static ::Struct_2_884CDB9D0FDFAF0D_12 Method_1_16BD115D596240FF(::RPG::Client::ItemCostCalculator* a1)
 	{
-		return ((::Struct_2_884CDB9D0FDFAF0D_11(*)(::RPG::Client::ItemCostCalculator*))((::PBYTE)hIl2Cpp + CLASS_1_416ED9552503F399_METHOD_1_16BD115D596240FF_OFFSET))(a1);
+		return ((::Struct_2_884CDB9D0FDFAF0D_12(*)(::RPG::Client::ItemCostCalculator*))((::PBYTE)hIl2Cpp + CLASS_1_416ED9552503F399_METHOD_1_16BD115D596240FF_OFFSET))(a1);
 	}
 
-	static ::System::Void Method_1_308A73B5AFED9089(::Struct_2_884CDB9D0FDFAF0D_11& a1, ::System::Collections::Generic::List_1<::RPG::Client::ItemCostCalculateResult*>* a2)
+	static ::System::Void Method_1_308A73B5AFED9089(::Struct_2_884CDB9D0FDFAF0D_12& a1, ::System::Collections::Generic::List_1<::RPG::Client::ItemCostCalculateResult*>* a2)
 	{
-		return ((::System::Void(*)(::Struct_2_884CDB9D0FDFAF0D_11&, ::System::Collections::Generic::List_1<::RPG::Client::ItemCostCalculateResult*>*))((::PBYTE)hIl2Cpp + CLASS_1_416ED9552503F399_METHOD_1_308A73B5AFED9089_OFFSET))(a1, a2);
+		return ((::System::Void(*)(::Struct_2_884CDB9D0FDFAF0D_12&, ::System::Collections::Generic::List_1<::RPG::Client::ItemCostCalculateResult*>*))((::PBYTE)hIl2Cpp + CLASS_1_416ED9552503F399_METHOD_1_308A73B5AFED9089_OFFSET))(a1, a2);
 	}
 
 	static ::System::Boolean Method_1_D6AF3D5647297AEB(::System::UInt32 a1)

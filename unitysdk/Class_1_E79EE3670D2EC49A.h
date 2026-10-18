@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_1349;
-class Class_1_7B4E9156998275BE;
+class Class_0_16E4307DCC419505_1552;
+class Class_1_C6F4C4ABEDB8B5E9;
 namespace RPG::Client { class LuaUIController; }
 namespace RPG::Client::FateRin { template <typename T> class PresentResult_1; }
 namespace RPG::Client::FateRin::Logging { class ILogger; }
@@ -16,26 +16,26 @@ namespace System { class String; }
 namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_E79EE3670D2EC49A_METHOD_1_194C0AD32C94B856_1_OFFSET UNITYSDK_OFFSET(0x15274740)
-#define CLASS_1_E79EE3670D2EC49A_METHOD_1_194C0AD32C94B856_OFFSET UNITYSDK_OFFSET(0x15274670)
-#define CLASS_1_E79EE3670D2EC49A_METHOD_1_6F24BF1AF940C4CD_OFFSET UNITYSDK_OFFSET(0x15274490)
-#define CLASS_1_E79EE3670D2EC49A_METHOD_1_9B39F7D7C1FF70D6_OFFSET UNITYSDK_OFFSET(0x15274A40)
-#define CLASS_1_E79EE3670D2EC49A_METHOD_1_B620779B82187134_OFFSET UNITYSDK_OFFSET(0x15274810)
-#define CLASS_1_E79EE3670D2EC49A_METHOD_1_B93DE89DE2ACE353_OFFSET UNITYSDK_OFFSET(0x152745D0)
-#define CLASS_1_E79EE3670D2EC49A__CTOR_OFFSET UNITYSDK_OFFSET(0x15273B30)
+#define CLASS_1_E79EE3670D2EC49A_METHOD_1_194C0AD32C94B856_1_OFFSET UNITYSDK_OFFSET(0x1551DBB0)
+#define CLASS_1_E79EE3670D2EC49A_METHOD_1_194C0AD32C94B856_OFFSET UNITYSDK_OFFSET(0x1551DAE0)
+#define CLASS_1_E79EE3670D2EC49A_METHOD_1_6F24BF1AF940C4CD_OFFSET UNITYSDK_OFFSET(0x1551D900)
+#define CLASS_1_E79EE3670D2EC49A_METHOD_1_9B39F7D7C1FF70D6_OFFSET UNITYSDK_OFFSET(0x1551DEB0)
+#define CLASS_1_E79EE3670D2EC49A_METHOD_1_B620779B82187134_OFFSET UNITYSDK_OFFSET(0x1551DC80)
+#define CLASS_1_E79EE3670D2EC49A_METHOD_1_B93DE89DE2ACE353_OFFSET UNITYSDK_OFFSET(0x1551DA40)
+#define CLASS_1_E79EE3670D2EC49A__CTOR_OFFSET UNITYSDK_OFFSET(0x1551CFA0)
 
-inline static constexpr unsigned int Class_1_E79EE3670D2EC49A_TypeDefinitionIndex = 79293;
+inline static constexpr unsigned int Class_1_E79EE3670D2EC49A_TypeDefinitionIndex = 80617;
 
 class Class_1_E79EE3670D2EC49A : public ::System::Object
 {
 public:
 	::RPG::Client::FateRin::Logging::ILogger* JKCNFDEAMDJ; // 0x10
-	::Class_0_16E4307DCC419505_1349* MLGCJCPCLJP; // 0x18
-	::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::String*>* JOBAHEDGFAK; // 0x20
+	::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::String*>* JOBAHEDGFAK; // 0x18
+	::Class_0_16E4307DCC419505_1552* MLGCJCPCLJP; // 0x20
 
-	::System::Void _ctor(::RPG::Client::FateRin::Logging::ILoggerFactory* a1, ::Class_0_16E4307DCC419505_1349* a2)
+	::System::Void _ctor(::RPG::Client::FateRin::Logging::ILoggerFactory* a1, ::Class_0_16E4307DCC419505_1552* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::Client::FateRin::Logging::ILoggerFactory*, ::Class_0_16E4307DCC419505_1349*))((::PBYTE)hIl2Cpp + CLASS_1_E79EE3670D2EC49A__CTOR_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::FateRin::Logging::ILoggerFactory*, ::Class_0_16E4307DCC419505_1552*))((::PBYTE)hIl2Cpp + CLASS_1_E79EE3670D2EC49A__CTOR_OFFSET))(this, a1, a2);
 	}
 
 	::RPG::Client::Promises::IPromise_1<::RPG::Client::LuaUIController*>* Method_1_6F24BF1AF940C4CD(::RPG::GameCore::GameEntity* a1)
@@ -63,8 +63,8 @@ public:
 		return ((::System::Action*(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + CLASS_1_E79EE3670D2EC49A_METHOD_1_194C0AD32C94B856_1_OFFSET))(this, a1);
 	}
 
-	::Class_1_7B4E9156998275BE* Method_1_9B39F7D7C1FF70D6()
+	::Class_1_C6F4C4ABEDB8B5E9* Method_1_9B39F7D7C1FF70D6()
 	{
-		return ((::Class_1_7B4E9156998275BE*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_E79EE3670D2EC49A_METHOD_1_9B39F7D7C1FF70D6_OFFSET))(this);
+		return ((::Class_1_C6F4C4ABEDB8B5E9*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_E79EE3670D2EC49A_METHOD_1_9B39F7D7C1FF70D6_OFFSET))(this);
 	}
 };

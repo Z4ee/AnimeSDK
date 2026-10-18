@@ -5,9 +5,9 @@
 class Class_3_FBED7A3EC3E98878;
 namespace UnityEngine { class SphereCollider; }
 
-#define WAVEFLOATINGPROXY__CTOR_OFFSET UNITYSDK_OFFSET(0xE9A2380)
+#define WAVEFLOATINGPROXY__CTOR_OFFSET UNITYSDK_OFFSET(0xE9F7B20)
 
-inline static constexpr unsigned int WaveFloatingProxy_TypeDefinitionIndex = 47949;
+inline static constexpr unsigned int WaveFloatingProxy_TypeDefinitionIndex = 47489;
 
 class WaveFloatingProxy : public ::RPG::Client::TAMonoPlugin_1<::Class_3_FBED7A3EC3E98878*>
 {

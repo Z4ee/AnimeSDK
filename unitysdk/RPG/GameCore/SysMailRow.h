@@ -6,22 +6,22 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_SYSMAILROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D59A440)
-#define RPG_GAMECORE_SYSMAILROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D59BD80)
+#define RPG_GAMECORE_SYSMAILROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DB512E0)
+#define RPG_GAMECORE_SYSMAILROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB52D90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SysMailRow_TypeDefinitionIndex = 15038;
+	inline static constexpr unsigned int SysMailRow_TypeDefinitionIndex = 15209;
 
 	class SysMailRow : public ::System::Object
 	{
 	public:
-		::RPG::Client::TextID MailSender; // 0x10
-		::RPG::Client::TextID MailDetail; // 0x20
-		::System::UInt32 MailLifeTime; // 0x30
+		::RPG::GameCore::MailType Type; // 0x10
+		::System::UInt32 MailID; // 0x14
+		::RPG::Client::TextID MailSender; // 0x18
+		::RPG::Client::TextID MailDetail; // 0x28
 		::RPG::Client::TextID MailTitle; // 0x38
-		::System::UInt32 MailID; // 0x48
-		::RPG::GameCore::MailType Type; // 0x4C
+		::System::UInt32 MailLifeTime; // 0x48
 
 		::System::Void _ctor()
 		{

@@ -14,7 +14,7 @@ namespace System { template <typename T> class Action_1; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int SkipUntilCanceled_1__SkipUntilCanceled_TypeDefinitionIndex = 44448;
+	inline static constexpr unsigned int SkipUntilCanceled_1__SkipUntilCanceled_TypeDefinitionIndex = 45587;
 
 	template <typename TSource>
 	class SkipUntilCanceled_1__SkipUntilCanceled : public ::Cysharp::Threading::Tasks::MoveNextSource

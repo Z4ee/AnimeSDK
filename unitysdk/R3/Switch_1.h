@@ -8,7 +8,7 @@ namespace System { class IDisposable; }
 
 namespace R3
 {
-	inline static constexpr unsigned int Switch_1_TypeDefinitionIndex = 35271;
+	inline static constexpr unsigned int Switch_1_TypeDefinitionIndex = 35953;
 
 	template <typename T>
 	class Switch_1 : public ::R3::Observable_1<T>

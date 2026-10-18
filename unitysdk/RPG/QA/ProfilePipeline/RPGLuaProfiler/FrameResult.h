@@ -6,11 +6,11 @@ namespace RPG::QA::ProfilePipeline::RPGLuaProfiler { class FrameSample; }
 namespace RPG::QA::ProfilePipeline::RPGLuaProfiler { class SampleResult; }
 namespace System::Collections { class Hashtable; }
 
-#define RPG_QA_PROFILEPIPELINE_RPGLUAPROFILER_FRAMERESULT__CTOR_OFFSET UNITYSDK_OFFSET(0xE7DFD70)
+#define RPG_QA_PROFILEPIPELINE_RPGLUAPROFILER_FRAMERESULT__CTOR_OFFSET UNITYSDK_OFFSET(0xE87BD10)
 
 namespace RPG::QA::ProfilePipeline::RPGLuaProfiler
 {
-	inline static constexpr unsigned int FrameResult_TypeDefinitionIndex = 52119;
+	inline static constexpr unsigned int FrameResult_TypeDefinitionIndex = 51825;
 
 	class FrameResult : public ::System::Object
 	{

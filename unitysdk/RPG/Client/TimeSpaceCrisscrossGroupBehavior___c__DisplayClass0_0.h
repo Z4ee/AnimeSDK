@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class TimeSpaceCrisscrossGroupBehavior; }
 
-#define RPG_CLIENT_TIMESPACECRISSCROSSGROUPBEHAVIOR___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0xE209460)
-#define RPG_CLIENT_TIMESPACECRISSCROSSGROUPBEHAVIOR___C__DISPLAYCLASS0_0___ASYNCINITIRIRENDERER_B__0_OFFSET UNITYSDK_OFFSET(0xE212860)
+#define RPG_CLIENT_TIMESPACECRISSCROSSGROUPBEHAVIOR___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0xE28ED30)
+#define RPG_CLIENT_TIMESPACECRISSCROSSGROUPBEHAVIOR___C__DISPLAYCLASS0_0___ASYNCINITIRIRENDERER_B__0_OFFSET UNITYSDK_OFFSET(0xE298610)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TimeSpaceCrisscrossGroupBehavior___c__DisplayClass0_0_TypeDefinitionIndex = 70168;
+	inline static constexpr unsigned int TimeSpaceCrisscrossGroupBehavior___c__DisplayClass0_0_TypeDefinitionIndex = 70204;
 
 	class TimeSpaceCrisscrossGroupBehavior___c__DisplayClass0_0 : public ::System::Object
 	{

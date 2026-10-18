@@ -8,13 +8,13 @@ namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PROPATTACHMOVE_METHOD_3_4DA5C41852A726D0_OFFSET UNITYSDK_OFFSET(0x1D35F880)
-#define RPG_GAMECORE_PROPATTACHMOVE_METHOD_3_529C23DC0A67CD02_OFFSET UNITYSDK_OFFSET(0x1D35F800)
-#define RPG_GAMECORE_PROPATTACHMOVE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D35F850)
+#define RPG_GAMECORE_PROPATTACHMOVE_METHOD_3_39D3AE7BA51E66EF_OFFSET UNITYSDK_OFFSET(0x1D944F60)
+#define RPG_GAMECORE_PROPATTACHMOVE_METHOD_3_58691AF5018D1A5A_OFFSET UNITYSDK_OFFSET(0x1D944FE0)
+#define RPG_GAMECORE_PROPATTACHMOVE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D944FB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropAttachMove_TypeDefinitionIndex = 21719;
+	inline static constexpr unsigned int PropAttachMove_TypeDefinitionIndex = 21967;
 
 	class PropAttachMove : public ::RPG::GameCore::TaskConfig
 	{
@@ -31,14 +31,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPATTACHMOVE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_529C23DC0A67CD02(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropAttachMove*& a2)
+		static ::System::Void Method_3_39D3AE7BA51E66EF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropAttachMove*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropAttachMove*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPATTACHMOVE_METHOD_3_529C23DC0A67CD02_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropAttachMove*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPATTACHMOVE_METHOD_3_39D3AE7BA51E66EF_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_4DA5C41852A726D0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropAttachMove* a2)
+		static ::System::Void Method_3_58691AF5018D1A5A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropAttachMove* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropAttachMove*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPATTACHMOVE_METHOD_3_4DA5C41852A726D0_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropAttachMove*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPATTACHMOVE_METHOD_3_58691AF5018D1A5A_OFFSET))(a1, a2);
 		}
 	};
 }

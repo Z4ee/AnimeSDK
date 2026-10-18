@@ -8,27 +8,27 @@ namespace System { class Action; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_NETWORKMANAGER__GET_D__33_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1B9B2510)
-#define MIHOYO_SDK_NETWORKMANAGER__GET_D__33_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1B9B2680)
-#define MIHOYO_SDK_NETWORKMANAGER__GET_D__33_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1B9B26E0)
-#define MIHOYO_SDK_NETWORKMANAGER__GET_D__33_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1B9B2690)
-#define MIHOYO_SDK_NETWORKMANAGER__GET_D__33_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1B9B2500)
-#define MIHOYO_SDK_NETWORKMANAGER__GET_D__33__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9AE4C0)
+#define MIHOYO_SDK_NETWORKMANAGER__GET_D__33_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1BEB24C0)
+#define MIHOYO_SDK_NETWORKMANAGER__GET_D__33_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1BEB2630)
+#define MIHOYO_SDK_NETWORKMANAGER__GET_D__33_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1BEB2690)
+#define MIHOYO_SDK_NETWORKMANAGER__GET_D__33_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1BEB2640)
+#define MIHOYO_SDK_NETWORKMANAGER__GET_D__33_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1BEB24B0)
+#define MIHOYO_SDK_NETWORKMANAGER__GET_D__33__CTOR_OFFSET UNITYSDK_OFFSET(0x1BEAE480)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int NetworkManager__Get_d__33_TypeDefinitionIndex = 8113;
+	inline static constexpr unsigned int NetworkManager__Get_d__33_TypeDefinitionIndex = 8156;
 
 	class NetworkManager__Get_d__33 : public ::System::Object
 	{
 	public:
-		::MiHoYo::SDK::JSONObject* query; // 0x10
+		::System::Action* timeoutCallback; // 0x10
 		::MiHoYo::SDK::NetworkManager* __4__this; // 0x18
-		::System::Action* timeoutCallback; // 0x20
-		::System::String* requestUrl; // 0x28
+		::System::String* _queryString_5__1; // 0x20
+		::System::Object* __2__current; // 0x28
 		::System::Action_1<::System::String*>* callback; // 0x30
-		::System::Object* __2__current; // 0x38
-		::System::String* _queryString_5__1; // 0x40
+		::System::String* requestUrl; // 0x38
+		::MiHoYo::SDK::JSONObject* query; // 0x40
 		::System::Boolean checkMD5; // 0x48
 		::System::Int32 __1__state; // 0x4C
 

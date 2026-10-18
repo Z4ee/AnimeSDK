@@ -5,10 +5,10 @@
 namespace RPG::Client { class ActivityData; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define CLASS_1_106F7832E631E018_1_METHOD_1_C4102714C6C68582_OFFSET UNITYSDK_OFFSET(0x158E4540)
-#define CLASS_1_106F7832E631E018_1__CTOR_OFFSET UNITYSDK_OFFSET(0x158E43E0)
+#define CLASS_1_106F7832E631E018_1_METHOD_1_C4102714C6C68582_OFFSET UNITYSDK_OFFSET(0x15C35000)
+#define CLASS_1_106F7832E631E018_1__CTOR_OFFSET UNITYSDK_OFFSET(0x15C34EA0)
 
-inline static constexpr unsigned int Class_1_106F7832E631E018_1_TypeDefinitionIndex = 61808;
+inline static constexpr unsigned int Class_1_106F7832E631E018_1_TypeDefinitionIndex = 61718;
 
 class Class_1_106F7832E631E018_1 : public ::System::Object
 {

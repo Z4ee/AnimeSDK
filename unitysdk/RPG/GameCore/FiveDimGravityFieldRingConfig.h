@@ -3,23 +3,23 @@
 #include "unitysdk/RPG/GameCore/LittleGameComponentConfig.h"
 
 class Class_1_7A22A3DBEEDD1F80;
-namespace RPG::GameCore { class FiveDimDynamicVar; }
+namespace RPG::GameCore { class LittleGameDynamicVar; }
 namespace RPG::GameCore { class LittleGameEvent; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIVEDIMGRAVITYFIELDRINGCONFIG_METHOD_3_114CBDD1AC21341D_OFFSET UNITYSDK_OFFSET(0x1D0EA140)
-#define RPG_GAMECORE_FIVEDIMGRAVITYFIELDRINGCONFIG_METHOD_3_6309DF5EEA39E2F3_OFFSET UNITYSDK_OFFSET(0x1D0EA180)
-#define RPG_GAMECORE_FIVEDIMGRAVITYFIELDRINGCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0EA170)
+#define RPG_GAMECORE_FIVEDIMGRAVITYFIELDRINGCONFIG_METHOD_3_114CBDD1AC21341D_OFFSET UNITYSDK_OFFSET(0x1D6C1D80)
+#define RPG_GAMECORE_FIVEDIMGRAVITYFIELDRINGCONFIG_METHOD_3_6309DF5EEA39E2F3_OFFSET UNITYSDK_OFFSET(0x1D6C1DC0)
+#define RPG_GAMECORE_FIVEDIMGRAVITYFIELDRINGCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6C1DB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimGravityFieldRingConfig_TypeDefinitionIndex = 18381;
+	inline static constexpr unsigned int FiveDimGravityFieldRingConfig_TypeDefinitionIndex = 18596;
 
 	class FiveDimGravityFieldRingConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:
 		::System::Boolean IsGravityFieldRing; // 0x10
-		::RPG::GameCore::FiveDimDynamicVar* BindLevelVarName; // 0x18
+		::RPG::GameCore::LittleGameDynamicVar* BindLevelVarName; // 0x18
 		::Il2CppArray<::System::Int16>* ActiveValues; // 0x20
 		::Il2CppArray<::System::Int16>* InactiveValues; // 0x28
 		::System::Single Radius; // 0x30

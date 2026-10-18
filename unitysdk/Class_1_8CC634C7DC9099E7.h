@@ -7,24 +7,24 @@ namespace RPG::Client::Prop { class ChimeraBattlePuzzleBoard; }
 namespace RPG::GameCore { class ChimeraBattleRunOut; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define CLASS_1_8CC634C7DC9099E7_METHOD_1_33E2FA8E6403B93D_OFFSET UNITYSDK_OFFSET(0x1571E770)
-#define CLASS_1_8CC634C7DC9099E7_METHOD_1_8F9DF3D751E1E0BF_OFFSET UNITYSDK_OFFSET(0x1571EF90)
-#define CLASS_1_8CC634C7DC9099E7_METHOD_1_CD9F3CEFB366C27A_OFFSET UNITYSDK_OFFSET(0x1571EE60)
-#define CLASS_1_8CC634C7DC9099E7__CTOR_OFFSET UNITYSDK_OFFSET(0x1571E6F0)
+#define CLASS_1_8CC634C7DC9099E7_METHOD_1_33E2FA8E6403B93D_OFFSET UNITYSDK_OFFSET(0x15A02420)
+#define CLASS_1_8CC634C7DC9099E7_METHOD_1_8F9DF3D751E1E0BF_OFFSET UNITYSDK_OFFSET(0x15A02C40)
+#define CLASS_1_8CC634C7DC9099E7_METHOD_1_CD9F3CEFB366C27A_OFFSET UNITYSDK_OFFSET(0x15A02B10)
+#define CLASS_1_8CC634C7DC9099E7__CTOR_OFFSET UNITYSDK_OFFSET(0x15A023A0)
 
-inline static constexpr unsigned int Class_1_8CC634C7DC9099E7_TypeDefinitionIndex = 77932;
+inline static constexpr unsigned int Class_1_8CC634C7DC9099E7_TypeDefinitionIndex = 78403;
 
 class Class_1_8CC634C7DC9099E7 : public ::System::Object
 {
 public:
-	::RPG::Client::Promises::Promise* KKHPFDBFKHH; // 0x10
-	::RPG::Client::Prop::ChimeraBattlePuzzleBoard* PNMFAOJNNIC; // 0x18
-	::System::Collections::Generic::HashSet_1<::System::UInt32>* ECJADDMLLPJ; // 0x20
-	::RPG::GameCore::ChimeraBattleRunOut* IGHAHBNLIJA; // 0x28
-	::System::UInt32 MEFAHAJDKKJ; // 0x30
-	::System::UInt32 AJLJMGEEKOJ; // 0x34
-	::System::UInt32 LEKGODGIMCH; // 0x38
-	::System::UInt32 IDCDJCNHDHC; // 0x3C
+	::RPG::GameCore::ChimeraBattleRunOut* IGHAHBNLIJA; // 0x10
+	::System::Collections::Generic::HashSet_1<::System::UInt32>* ECJADDMLLPJ; // 0x18
+	::RPG::Client::Promises::Promise* KKHPFDBFKHH; // 0x20
+	::RPG::Client::Prop::ChimeraBattlePuzzleBoard* PNMFAOJNNIC; // 0x28
+	::System::UInt32 IDCDJCNHDHC; // 0x30
+	::System::UInt32 LEKGODGIMCH; // 0x34
+	::System::UInt32 AJLJMGEEKOJ; // 0x38
+	::System::UInt32 MEFAHAJDKKJ; // 0x3C
 
 	::System::Void _ctor(::RPG::GameCore::ChimeraBattleRunOut* a1, ::RPG::Client::Prop::ChimeraBattlePuzzleBoard* a2, ::System::UInt32 a3, ::System::UInt32 a4)
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::Client::B51Racing
 {
-	inline static constexpr unsigned int B51RacingFallingLandingQteJudgeResult_TypeDefinitionIndex = 80549;
+	inline static constexpr unsigned int B51RacingFallingLandingQteJudgeResult_TypeDefinitionIndex = 81877;
 
 	enum class B51RacingFallingLandingQteJudgeResult : ::System::Int32
 	{

@@ -8,11 +8,11 @@ namespace RPG::GameCore { class CakeRaceNearRowsSelectorConfig; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_3_7DD0E34A4070D50A_METHOD_3_3E3F5389B8C7787A_OFFSET UNITYSDK_OFFSET(0x1C1FF950)
-#define CLASS_3_7DD0E34A4070D50A_METHOD_3_5953A09C023DFEF3_OFFSET UNITYSDK_OFFSET(0x1C1FF800)
-#define CLASS_3_7DD0E34A4070D50A__CTOR_OFFSET UNITYSDK_OFFSET(0x1C1FF8A0)
+#define CLASS_3_7DD0E34A4070D50A_METHOD_3_3E3F5389B8C7787A_OFFSET UNITYSDK_OFFSET(0x1C74FC40)
+#define CLASS_3_7DD0E34A4070D50A_METHOD_3_5953A09C023DFEF3_OFFSET UNITYSDK_OFFSET(0x1C74FAF0)
+#define CLASS_3_7DD0E34A4070D50A__CTOR_OFFSET UNITYSDK_OFFSET(0x1C74FB90)
 
-inline static constexpr unsigned int Class_3_7DD0E34A4070D50A_TypeDefinitionIndex = 36747;
+inline static constexpr unsigned int Class_3_7DD0E34A4070D50A_TypeDefinitionIndex = 37434;
 
 class Class_3_7DD0E34A4070D50A : public ::RPG::Client::LittleGameShare::CakeRaceCore::CakeRaceCoreBaseSelector_1<::RPG::GameCore::CakeRaceNearRowsSelectorConfig*>
 {

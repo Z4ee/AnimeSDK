@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_CHIMERASETTLETOENTRANCECOMMAND__CTOR_OFFSET UNITYSDK_OFFSET(0xCC09D80)
-#define RPG_CLIENT_CHIMERASETTLETOENTRANCECOMMAND__EXECUTEIMPL_OFFSET UNITYSDK_OFFSET(0xCC0CF70)
+#define RPG_CLIENT_CHIMERASETTLETOENTRANCECOMMAND__CTOR_OFFSET UNITYSDK_OFFSET(0xCB59280)
+#define RPG_CLIENT_CHIMERASETTLETOENTRANCECOMMAND__EXECUTEIMPL_OFFSET UNITYSDK_OFFSET(0xCB5C430)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraSettleToEntranceCommand_TypeDefinitionIndex = 63524;
+	inline static constexpr unsigned int ChimeraSettleToEntranceCommand_TypeDefinitionIndex = 63462;
 
 	class ChimeraSettleToEntranceCommand : public ::RPG::Client::ChimeraSettleCommandBase
 	{

@@ -5,24 +5,24 @@
 namespace RPG::Client { class MultiPlayerActivityInfo; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_PROP_MULTIPLAYERARCADESCREENNODE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xDCA4900)
-#define RPG_CLIENT_PROP_MULTIPLAYERARCADESCREENNODE___C__CTOR_OFFSET UNITYSDK_OFFSET(0xDCA4940)
-#define RPG_CLIENT_PROP_MULTIPLAYERARCADESCREENNODE___C___SWITCHNODES_B__3_0_OFFSET UNITYSDK_OFFSET(0xDCA4950)
+#define RPG_CLIENT_PROP_MULTIPLAYERARCADESCREENNODE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xDD2DB30)
+#define RPG_CLIENT_PROP_MULTIPLAYERARCADESCREENNODE___C__CTOR_OFFSET UNITYSDK_OFFSET(0xDD2DB70)
+#define RPG_CLIENT_PROP_MULTIPLAYERARCADESCREENNODE___C___SWITCHNODES_B__3_0_OFFSET UNITYSDK_OFFSET(0xDD2DB80)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int MultiPlayerArcadeScreenNode___c_TypeDefinitionIndex = 77716;
+	inline static constexpr unsigned int MultiPlayerArcadeScreenNode___c_TypeDefinitionIndex = 78187;
 
 	class MultiPlayerArcadeScreenNode___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::RPG::Client::MultiPlayerActivityInfo*, ::System::Boolean>** StaticGet___9__3_0()
 		{
-			return (::System::Func_2<::RPG::Client::MultiPlayerActivityInfo*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(MultiPlayerArcadeScreenNode___c_TypeDefinitionIndex)->GetStaticField(0x65050);
+			return (::System::Func_2<::RPG::Client::MultiPlayerActivityInfo*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(MultiPlayerArcadeScreenNode___c_TypeDefinitionIndex)->GetStaticField(0x58390);
 		}
 		static ::RPG::Client::Prop::MultiPlayerArcadeScreenNode___c** StaticGet___9()
 		{
-			return (::RPG::Client::Prop::MultiPlayerArcadeScreenNode___c**)Il2CppClass::FromTypeDefinitionIndex(MultiPlayerArcadeScreenNode___c_TypeDefinitionIndex)->GetStaticField(0x65058);
+			return (::RPG::Client::Prop::MultiPlayerArcadeScreenNode___c**)Il2CppClass::FromTypeDefinitionIndex(MultiPlayerArcadeScreenNode___c_TypeDefinitionIndex)->GetStaticField(0x58398);
 		}
 
 		static ::System::Void _cctor()

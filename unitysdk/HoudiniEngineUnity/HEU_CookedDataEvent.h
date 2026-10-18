@@ -4,11 +4,11 @@
 
 namespace HoudiniEngineUnity { class HEU_CookedEventData; }
 
-#define HOUDINIENGINEUNITY_HEU_COOKEDDATAEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3D5230)
+#define HOUDINIENGINEUNITY_HEU_COOKEDDATAEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8D7030)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_CookedDataEvent_TypeDefinitionIndex = 39065;
+	inline static constexpr unsigned int HEU_CookedDataEvent_TypeDefinitionIndex = 40362;
 
 	class HEU_CookedDataEvent : public ::UnityEngine::Events::UnityEvent_1<::HoudiniEngineUnity::HEU_CookedEventData*>
 	{

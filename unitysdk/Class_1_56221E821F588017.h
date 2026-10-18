@@ -6,16 +6,16 @@ class Class_3_07C3C4D2990C49EE;
 namespace UnityEngine { class Collider; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_1_56221E821F588017__CTOR_OFFSET UNITYSDK_OFFSET(0xC146110)
+#define CLASS_1_56221E821F588017__CTOR_OFFSET UNITYSDK_OFFSET(0xC1A2E90)
 
-inline static constexpr unsigned int Class_1_56221E821F588017_TypeDefinitionIndex = 57547;
+inline static constexpr unsigned int Class_1_56221E821F588017_TypeDefinitionIndex = 57392;
 
 class Class_1_56221E821F588017 : public ::System::Object
 {
 public:
 	::UnityEngine::Collider* BKNFNKPDNPP; // 0x10
-	::Class_3_07C3C4D2990C49EE* BOFJEGFODBF; // 0x18
-	::UnityEngine::Transform* PDIMNOGOPKJ; // 0x20
+	::UnityEngine::Transform* PDIMNOGOPKJ; // 0x18
+	::Class_3_07C3C4D2990C49EE* BOFJEGFODBF; // 0x20
 
 	::System::Void _ctor()
 	{

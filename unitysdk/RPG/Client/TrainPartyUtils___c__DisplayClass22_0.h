@@ -6,20 +6,20 @@ namespace RPG::Client { class AboveSwitchDialog; }
 namespace RPG::Client { class UIController; }
 namespace System { class Action; }
 
-#define RPG_CLIENT_TRAINPARTYUTILS___C__DISPLAYCLASS22_0__CTOR_OFFSET UNITYSDK_OFFSET(0xE280E50)
-#define RPG_CLIENT_TRAINPARTYUTILS___C__DISPLAYCLASS22_0__SHOWSTREAMINGTRANSFER_B__0_OFFSET UNITYSDK_OFFSET(0xE281DB0)
-#define RPG_CLIENT_TRAINPARTYUTILS___C__DISPLAYCLASS22_0__SHOWSTREAMINGTRANSFER_B__1_OFFSET UNITYSDK_OFFSET(0xE281F00)
+#define RPG_CLIENT_TRAINPARTYUTILS___C__DISPLAYCLASS22_0__CTOR_OFFSET UNITYSDK_OFFSET(0xE306C30)
+#define RPG_CLIENT_TRAINPARTYUTILS___C__DISPLAYCLASS22_0__SHOWSTREAMINGTRANSFER_B__0_OFFSET UNITYSDK_OFFSET(0xE307BA0)
+#define RPG_CLIENT_TRAINPARTYUTILS___C__DISPLAYCLASS22_0__SHOWSTREAMINGTRANSFER_B__1_OFFSET UNITYSDK_OFFSET(0xE307CF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TrainPartyUtils___c__DisplayClass22_0_TypeDefinitionIndex = 68164;
+	inline static constexpr unsigned int TrainPartyUtils___c__DisplayClass22_0_TypeDefinitionIndex = 68172;
 
 	class TrainPartyUtils___c__DisplayClass22_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::AboveSwitchDialog* transfer; // 0x10
+		::System::Action* __9__1; // 0x10
 		::RPG::Client::UIController* buildUI; // 0x18
-		::System::Action* __9__1; // 0x20
+		::RPG::Client::AboveSwitchDialog* transfer; // 0x20
 
 		::System::Void _ctor()
 		{

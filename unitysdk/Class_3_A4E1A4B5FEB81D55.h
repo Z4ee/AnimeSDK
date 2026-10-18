@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class RA_SetAIVariableFloat; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_A4E1A4B5FEB81D55_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15AAE4F0)
-#define CLASS_3_A4E1A4B5FEB81D55__CTOR_OFFSET UNITYSDK_OFFSET(0x15AAE4C0)
+#define CLASS_3_A4E1A4B5FEB81D55_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15DC1830)
+#define CLASS_3_A4E1A4B5FEB81D55__CTOR_OFFSET UNITYSDK_OFFSET(0x15DC1800)
 
-inline static constexpr unsigned int Class_3_A4E1A4B5FEB81D55_TypeDefinitionIndex = 52389;
+inline static constexpr unsigned int Class_3_A4E1A4B5FEB81D55_TypeDefinitionIndex = 52102;
 
 class Class_3_A4E1A4B5FEB81D55 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::RA_SetAIVariableFloat*>
 {

@@ -5,17 +5,17 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_0CA613F4AB2CAF31__CCTOR_OFFSET UNITYSDK_OFFSET(0xC048940)
-#define CLASS_1_0CA613F4AB2CAF31__CTOR_OFFSET UNITYSDK_OFFSET(0xC048930)
+#define CLASS_1_0CA613F4AB2CAF31__CCTOR_OFFSET UNITYSDK_OFFSET(0xBF349F0)
+#define CLASS_1_0CA613F4AB2CAF31__CTOR_OFFSET UNITYSDK_OFFSET(0xBF349E0)
 
-inline static constexpr unsigned int Class_1_0CA613F4AB2CAF31_TypeDefinitionIndex = 73666;
+inline static constexpr unsigned int Class_1_0CA613F4AB2CAF31_TypeDefinitionIndex = 73773;
 
 class Class_1_0CA613F4AB2CAF31 : public ::System::Object
 {
 public:
 	static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::String*>** StaticGet_JNACBACPDEM()
 	{
-		return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_0CA613F4AB2CAF31_TypeDefinitionIndex)->GetStaticField(0xB460);
+		return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_0CA613F4AB2CAF31_TypeDefinitionIndex)->GetStaticField(0xCD40);
 	}
 	// static const ::System::Int32 NLCDGIPGFDJ = 0x0; // 0x0
 	// static const ::System::Int32 BFLENEMBIBM = 0x1; // 0x0

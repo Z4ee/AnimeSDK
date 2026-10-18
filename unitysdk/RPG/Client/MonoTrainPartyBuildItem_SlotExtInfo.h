@@ -4,12 +4,12 @@
 
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_MONOTRAINPARTYBUILDITEM_SLOTEXTINFO_METHOD_1_0B1EB5C9B94BAB66_OFFSET UNITYSDK_OFFSET(0xD86ECB0)
-#define RPG_CLIENT_MONOTRAINPARTYBUILDITEM_SLOTEXTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xD86EDF0)
+#define RPG_CLIENT_MONOTRAINPARTYBUILDITEM_SLOTEXTINFO_METHOD_1_0B1EB5C9B94BAB66_OFFSET UNITYSDK_OFFSET(0xD86F570)
+#define RPG_CLIENT_MONOTRAINPARTYBUILDITEM_SLOTEXTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xD86F6B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoTrainPartyBuildItem_SlotExtInfo_TypeDefinitionIndex = 68842;
+	inline static constexpr unsigned int MonoTrainPartyBuildItem_SlotExtInfo_TypeDefinitionIndex = 68876;
 
 	class MonoTrainPartyBuildItem_SlotExtInfo : public ::System::Object
 	{

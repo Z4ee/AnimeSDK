@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2Vec2.h"
 #include "unitysdk/System/ValueType.h"
 
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2PLANESOLVERRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x8EB60)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2PLANESOLVERRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x14160)
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2PlaneSolverResult_TypeDefinitionIndex = 36039;
+	inline static constexpr unsigned int B2PlaneSolverResult_TypeDefinitionIndex = 36726;
 
 	struct alignas(4) B2PlaneSolverResult
 	{

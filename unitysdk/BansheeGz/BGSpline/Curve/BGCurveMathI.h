@@ -5,7 +5,7 @@
 
 namespace BansheeGz::BGSpline::Curve
 {
-	inline static constexpr unsigned int BGCurveMathI_TypeDefinitionIndex = 35325;
+	inline static constexpr unsigned int BGCurveMathI_TypeDefinitionIndex = 36012;
 
 	class BGCurveMathI
 	{

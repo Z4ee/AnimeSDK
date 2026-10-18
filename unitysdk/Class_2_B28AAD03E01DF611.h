@@ -6,19 +6,19 @@ class Class_1_52DF42E136544C98;
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI { class Text; }
 
-#define CLASS_2_B28AAD03E01DF611_METHOD_2_34D5F4DBE622AF88_OFFSET UNITYSDK_OFFSET(0xC37FE80)
-#define CLASS_2_B28AAD03E01DF611__CTOR_OFFSET UNITYSDK_OFFSET(0xC380120)
-#define CLASS_2_B28AAD03E01DF611__ONBIND_OFFSET UNITYSDK_OFFSET(0xC37FCD0)
+#define CLASS_2_B28AAD03E01DF611_METHOD_2_34D5F4DBE622AF88_OFFSET UNITYSDK_OFFSET(0xC274F70)
+#define CLASS_2_B28AAD03E01DF611__CTOR_OFFSET UNITYSDK_OFFSET(0xC275210)
+#define CLASS_2_B28AAD03E01DF611__ONBIND_OFFSET UNITYSDK_OFFSET(0xC274DC0)
 
-inline static constexpr unsigned int Class_2_B28AAD03E01DF611_TypeDefinitionIndex = 71292;
+inline static constexpr unsigned int Class_2_B28AAD03E01DF611_TypeDefinitionIndex = 71330;
 
 class Class_2_B28AAD03E01DF611 : public ::Class_1_34917908B7833130
 {
 public:
-	::UnityEngine::Transform* AGOGNADGDNM; // 0x60
+	::UnityEngine::Transform* BIIDDLHFPPG; // 0x60
 	::UnityEngine::Transform* FCLGOLCJBOE; // 0x68
-	::UnityEngine::Transform* BIIDDLHFPPG; // 0x70
-	::UnityEngine::UI::Text* CCOIIOCJIDI; // 0x78
+	::UnityEngine::UI::Text* CCOIIOCJIDI; // 0x70
+	::UnityEngine::Transform* AGOGNADGDNM; // 0x78
 
 	::System::Void _ctor()
 	{

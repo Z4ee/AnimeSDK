@@ -6,7 +6,7 @@
 class Class_0_16E4307DCC419505_87;
 class Class_0_16E4307DCC419505_95;
 class Class_1_1DFA6DC6E14150AA;
-class Class_1_945ACFB1FEBC7A2C_25;
+class Class_1_945ACFB1FEBC7A2C_24;
 class Class_1_F0F5FC8CD22F7E83;
 namespace RPG::Client { template <typename T> class DelayList_1; }
 namespace System { class String; }
@@ -15,7 +15,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AbsDownloadData_1_TypeDefinitionIndex = 59590;
+	inline static constexpr unsigned int AbsDownloadData_1_TypeDefinitionIndex = 59445;
 
 	template <typename TIndex>
 	class AbsDownloadData_1 : public ::System::Object

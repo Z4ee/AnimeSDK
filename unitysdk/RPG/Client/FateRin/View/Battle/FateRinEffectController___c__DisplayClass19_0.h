@@ -4,12 +4,12 @@
 
 namespace RPG::Client::FateRin::View::Battle { class FateRinEffectController; }
 
-#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINEFFECTCONTROLLER___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD02C930)
-#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINEFFECTCONTROLLER___C__DISPLAYCLASS19_0___PLAYCOINFADEOUT_B__0_OFFSET UNITYSDK_OFFSET(0xD02CD10)
+#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINEFFECTCONTROLLER___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCFCAAA0)
+#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINEFFECTCONTROLLER___C__DISPLAYCLASS19_0___PLAYCOINFADEOUT_B__0_OFFSET UNITYSDK_OFFSET(0xCFCAE80)
 
 namespace RPG::Client::FateRin::View::Battle
 {
-	inline static constexpr unsigned int FateRinEffectController___c__DisplayClass19_0_TypeDefinitionIndex = 79368;
+	inline static constexpr unsigned int FateRinEffectController___c__DisplayClass19_0_TypeDefinitionIndex = 80692;
 
 	class FateRinEffectController___c__DisplayClass19_0 : public ::System::Object
 	{

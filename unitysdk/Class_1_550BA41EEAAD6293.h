@@ -6,9 +6,9 @@
 namespace RPG::GameCore { class StageMonsterWave; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_550BA41EEAAD6293__CTOR_OFFSET UNITYSDK_OFFSET(0x15B6B8C0)
+#define CLASS_1_550BA41EEAAD6293__CTOR_OFFSET UNITYSDK_OFFSET(0x15EC8B70)
 
-inline static constexpr unsigned int Class_1_550BA41EEAAD6293_TypeDefinitionIndex = 62950;
+inline static constexpr unsigned int Class_1_550BA41EEAAD6293_TypeDefinitionIndex = 62883;
 
 class Class_1_550BA41EEAAD6293 : public ::System::Object
 {

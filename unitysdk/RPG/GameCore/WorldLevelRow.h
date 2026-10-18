@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_WORLDLEVELROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D6B6430)
-#define RPG_GAMECORE_WORLDLEVELROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6B6BE0)
+#define RPG_GAMECORE_WORLDLEVELROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DCAB790)
+#define RPG_GAMECORE_WORLDLEVELROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1DCABF00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WorldLevelRow_TypeDefinitionIndex = 14337;
+	inline static constexpr unsigned int WorldLevelRow_TypeDefinitionIndex = 14502;
 
 	class WorldLevelRow : public ::System::Object
 	{

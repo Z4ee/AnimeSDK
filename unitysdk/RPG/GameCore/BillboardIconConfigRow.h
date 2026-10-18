@@ -5,20 +5,20 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_BILLBOARDICONCONFIGROW_COMPARETO_OFFSET UNITYSDK_OFFSET(0x1CE84FF0)
-#define RPG_GAMECORE_BILLBOARDICONCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CE84A20)
-#define RPG_GAMECORE_BILLBOARDICONCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE84FE0)
+#define RPG_GAMECORE_BILLBOARDICONCONFIGROW_COMPARETO_OFFSET UNITYSDK_OFFSET(0x1D46D0B0)
+#define RPG_GAMECORE_BILLBOARDICONCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D46CAE0)
+#define RPG_GAMECORE_BILLBOARDICONCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D46D0A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BillboardIconConfigRow_TypeDefinitionIndex = 12461;
+	inline static constexpr unsigned int BillboardIconConfigRow_TypeDefinitionIndex = 12551;
 
 	class BillboardIconConfigRow : public ::System::Object
 	{
 	public:
 		::System::String* BillboardIconPath; // 0x10
-		::System::UInt32 ID; // 0x18
-		::System::UInt32 Priority; // 0x1C
+		::System::UInt32 Priority; // 0x18
+		::System::UInt32 ID; // 0x1C
 
 		::System::Void _ctor()
 		{

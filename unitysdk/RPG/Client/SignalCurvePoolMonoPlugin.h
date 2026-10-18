@@ -6,11 +6,11 @@ namespace RPG::Client { class SignalCurvePoolBehavior; }
 namespace RPG::Client { class SignalCurvePoolEntry; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_SIGNALCURVEPOOLMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xE086590)
+#define RPG_CLIENT_SIGNALCURVEPOOLMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xE0C2DC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SignalCurvePoolMonoPlugin_TypeDefinitionIndex = 70930;
+	inline static constexpr unsigned int SignalCurvePoolMonoPlugin_TypeDefinitionIndex = 70962;
 
 	class SignalCurvePoolMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::SignalCurvePoolBehavior*>
 	{

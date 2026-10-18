@@ -4,7 +4,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MFixedSizeRingQueue_1_TypeDefinitionIndex = 34586;
+	inline static constexpr unsigned int MFixedSizeRingQueue_1_TypeDefinitionIndex = 35250;
 
 	template <typename T>
 	class MFixedSizeRingQueue_1 : public ::System::Object

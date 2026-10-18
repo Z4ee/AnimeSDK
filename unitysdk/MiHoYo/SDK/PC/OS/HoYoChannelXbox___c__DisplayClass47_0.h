@@ -7,12 +7,12 @@ namespace MiHoYo::SDK::PC::OS { class HoYoChannelXbox; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELXBOX___C__DISPLAYCLASS47_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA31710)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELXBOX___C__DISPLAYCLASS47_0__REQUESTRETRIEVETOKEN_B__0_OFFSET UNITYSDK_OFFSET(0x1BA345E0)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELXBOX___C__DISPLAYCLASS47_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF3B180)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELXBOX___C__DISPLAYCLASS47_0__REQUESTRETRIEVETOKEN_B__0_OFFSET UNITYSDK_OFFSET(0x1BF3E060)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int HoYoChannelXbox___c__DisplayClass47_0_TypeDefinitionIndex = 8592;
+	inline static constexpr unsigned int HoYoChannelXbox___c__DisplayClass47_0_TypeDefinitionIndex = 8653;
 
 	class HoYoChannelXbox___c__DisplayClass47_0 : public ::System::Object
 	{

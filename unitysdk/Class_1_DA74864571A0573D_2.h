@@ -1,28 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_0A3761FE34514D6C_66.h"
+#include "unitysdk/Enum_3_0A3761FE34514D6C_75.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_931;
+class Class_0_16E4307DCC419505_1035;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_DA74864571A0573D_2_METHOD_1_18C340C2AA96D834_OFFSET UNITYSDK_OFFSET(0xC01FB80)
-#define CLASS_1_DA74864571A0573D_2__CTOR_OFFSET UNITYSDK_OFFSET(0xC01FB70)
+#define CLASS_1_DA74864571A0573D_2_METHOD_1_18C340C2AA96D834_OFFSET UNITYSDK_OFFSET(0xBF091D0)
+#define CLASS_1_DA74864571A0573D_2__CTOR_OFFSET UNITYSDK_OFFSET(0xBF091C0)
 
-inline static constexpr unsigned int Class_1_DA74864571A0573D_2_TypeDefinitionIndex = 67141;
+inline static constexpr unsigned int Class_1_DA74864571A0573D_2_TypeDefinitionIndex = 67143;
 
 class Class_1_DA74864571A0573D_2 : public ::System::Object
 {
 public:
-	::Enum_3_0A3761FE34514D6C_66 NOCPEIEHPNM; // 0x10
+	::Enum_3_0A3761FE34514D6C_75 NOCPEIEHPNM; // 0x10
 
-	::System::Void _ctor(::Enum_3_0A3761FE34514D6C_66 a1)
+	::System::Void _ctor(::Enum_3_0A3761FE34514D6C_75 a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::Enum_3_0A3761FE34514D6C_66))((::PBYTE)hIl2Cpp + CLASS_1_DA74864571A0573D_2__CTOR_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::Enum_3_0A3761FE34514D6C_75))((::PBYTE)hIl2Cpp + CLASS_1_DA74864571A0573D_2__CTOR_OFFSET))(this, a1);
 	}
 
-	::System::Void Method_1_18C340C2AA96D834(::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_931*>* a1)
+	::System::Void Method_1_18C340C2AA96D834(::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_1035*>* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_931*>*))((::PBYTE)hIl2Cpp + CLASS_1_DA74864571A0573D_2_METHOD_1_18C340C2AA96D834_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_1035*>*))((::PBYTE)hIl2Cpp + CLASS_1_DA74864571A0573D_2_METHOD_1_18C340C2AA96D834_OFFSET))(this, a1);
 	}
 };

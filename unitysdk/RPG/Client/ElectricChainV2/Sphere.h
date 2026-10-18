@@ -6,12 +6,12 @@
 
 namespace RPG::Client::ElectricChainV2 { class Sampler; }
 
-#define RPG_CLIENT_ELECTRICCHAINV2_SPHERE_METHOD_2_64914350C49C927D_OFFSET UNITYSDK_OFFSET(0xCE33A20)
-#define RPG_CLIENT_ELECTRICCHAINV2_SPHERE__CTOR_OFFSET UNITYSDK_OFFSET(0xCE30BD0)
+#define RPG_CLIENT_ELECTRICCHAINV2_SPHERE_METHOD_2_64914350C49C927D_OFFSET UNITYSDK_OFFSET(0xCD842F0)
+#define RPG_CLIENT_ELECTRICCHAINV2_SPHERE__CTOR_OFFSET UNITYSDK_OFFSET(0xCD814A0)
 
 namespace RPG::Client::ElectricChainV2
 {
-	inline static constexpr unsigned int Sphere_TypeDefinitionIndex = 73491;
+	inline static constexpr unsigned int Sphere_TypeDefinitionIndex = 73598;
 
 	class Sphere : public ::RPG::Client::ElectricChainV2::Shape
 	{

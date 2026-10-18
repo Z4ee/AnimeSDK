@@ -6,12 +6,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_TEAMLIMITCONDITIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D5C3050)
-#define RPG_GAMECORE_TEAMLIMITCONDITIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5C3B80)
+#define RPG_GAMECORE_TEAMLIMITCONDITIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DB7A6A0)
+#define RPG_GAMECORE_TEAMLIMITCONDITIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB7B1D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TeamLimitConditionRow_TypeDefinitionIndex = 15106;
+	inline static constexpr unsigned int TeamLimitConditionRow_TypeDefinitionIndex = 15277;
 
 	class TeamLimitConditionRow : public ::System::Object
 	{

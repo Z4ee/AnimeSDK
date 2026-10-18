@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIGHTFESTMAINRACEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D095190)
-#define RPG_GAMECORE_FIGHTFESTMAINRACEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D095A00)
+#define RPG_GAMECORE_FIGHTFESTMAINRACEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D6A31B0)
+#define RPG_GAMECORE_FIGHTFESTMAINRACEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6A39E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FightFestMainRaceRow_TypeDefinitionIndex = 13166;
+	inline static constexpr unsigned int FightFestMainRaceRow_TypeDefinitionIndex = 13272;
 
 	class FightFestMainRaceRow : public ::System::Object
 	{
@@ -19,13 +19,13 @@ namespace RPG::GameCore
 		::System::String* RaceBgFigurePath; // 0x10
 		::System::UInt32 RedAvatarID; // 0x18
 		::System::UInt32 RewardID; // 0x1C
-		::System::UInt32 MainRaceID; // 0x20
-		::System::UInt32 BlueAvatarID; // 0x24
-		::System::UInt32 EventID; // 0x28
-		::System::UInt32 FightPhaseID; // 0x2C
-		::System::UInt32 TutorialID; // 0x30
-		::RPG::Client::TextID StageName; // 0x38
-		::RPG::Client::TextID StageEndDesc; // 0x48
+		::System::UInt32 TutorialID; // 0x20
+		::System::UInt32 MainRaceID; // 0x24
+		::System::UInt32 BlueAvatarID; // 0x28
+		::RPG::Client::TextID StageName; // 0x30
+		::RPG::Client::TextID StageEndDesc; // 0x40
+		::System::UInt32 FightPhaseID; // 0x50
+		::System::UInt32 EventID; // 0x54
 
 		::System::Void _ctor()
 		{

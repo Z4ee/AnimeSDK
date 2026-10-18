@@ -8,44 +8,44 @@ namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 
-#define GOOGLE_PROTOBUF_REFLECTION_EXTENSIONCOLLECTION___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B374640)
-#define GOOGLE_PROTOBUF_REFLECTION_EXTENSIONCOLLECTION___C__CROSSLINK_B__9_0_OFFSET UNITYSDK_OFFSET(0x1B374690)
-#define GOOGLE_PROTOBUF_REFLECTION_EXTENSIONCOLLECTION___C__CROSSLINK_B__9_1_OFFSET UNITYSDK_OFFSET(0x1B3746A0)
-#define GOOGLE_PROTOBUF_REFLECTION_EXTENSIONCOLLECTION___C__CROSSLINK_B__9_2_OFFSET UNITYSDK_OFFSET(0x1B374700)
-#define GOOGLE_PROTOBUF_REFLECTION_EXTENSIONCOLLECTION___C__CROSSLINK_B__9_3_OFFSET UNITYSDK_OFFSET(0x1B374710)
-#define GOOGLE_PROTOBUF_REFLECTION_EXTENSIONCOLLECTION___C__CROSSLINK_B__9_4_OFFSET UNITYSDK_OFFSET(0x1B374880)
-#define GOOGLE_PROTOBUF_REFLECTION_EXTENSIONCOLLECTION___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B374680)
+#define GOOGLE_PROTOBUF_REFLECTION_EXTENSIONCOLLECTION___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B8763B0)
+#define GOOGLE_PROTOBUF_REFLECTION_EXTENSIONCOLLECTION___C__CROSSLINK_B__9_0_OFFSET UNITYSDK_OFFSET(0x1B876400)
+#define GOOGLE_PROTOBUF_REFLECTION_EXTENSIONCOLLECTION___C__CROSSLINK_B__9_1_OFFSET UNITYSDK_OFFSET(0x1B876410)
+#define GOOGLE_PROTOBUF_REFLECTION_EXTENSIONCOLLECTION___C__CROSSLINK_B__9_2_OFFSET UNITYSDK_OFFSET(0x1B876470)
+#define GOOGLE_PROTOBUF_REFLECTION_EXTENSIONCOLLECTION___C__CROSSLINK_B__9_3_OFFSET UNITYSDK_OFFSET(0x1B876480)
+#define GOOGLE_PROTOBUF_REFLECTION_EXTENSIONCOLLECTION___C__CROSSLINK_B__9_4_OFFSET UNITYSDK_OFFSET(0x1B8765F0)
+#define GOOGLE_PROTOBUF_REFLECTION_EXTENSIONCOLLECTION___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8763F0)
 
 namespace Google::Protobuf::Reflection
 {
-	inline static constexpr unsigned int ExtensionCollection___c_TypeDefinitionIndex = 5530;
+	inline static constexpr unsigned int ExtensionCollection___c_TypeDefinitionIndex = 5537;
 
 	class ExtensionCollection___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::Google::Protobuf::Reflection::MessageDescriptor*, ::System::Collections::Generic::IList_1<::Google::Protobuf::Reflection::FieldDescriptor*>*>, ::System::Collections::Generic::IList_1<::Google::Protobuf::Reflection::FieldDescriptor*>*>** StaticGet___9__9_3()
-		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::Google::Protobuf::Reflection::MessageDescriptor*, ::System::Collections::Generic::IList_1<::Google::Protobuf::Reflection::FieldDescriptor*>*>, ::System::Collections::Generic::IList_1<::Google::Protobuf::Reflection::FieldDescriptor*>*>**)Il2CppClass::FromTypeDefinitionIndex(ExtensionCollection___c_TypeDefinitionIndex)->GetStaticField(0x1E950);
-		}
-		static ::System::Func_2<::Google::Protobuf::Reflection::FieldDescriptor*, ::System::Int32>** StaticGet___9__9_4()
-		{
-			return (::System::Func_2<::Google::Protobuf::Reflection::FieldDescriptor*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(ExtensionCollection___c_TypeDefinitionIndex)->GetStaticField(0x1E958);
-		}
-		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::Google::Protobuf::Reflection::MessageDescriptor*, ::System::Collections::Generic::IList_1<::Google::Protobuf::Reflection::FieldDescriptor*>*>, ::Google::Protobuf::Reflection::MessageDescriptor*>** StaticGet___9__9_0()
-		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::Google::Protobuf::Reflection::MessageDescriptor*, ::System::Collections::Generic::IList_1<::Google::Protobuf::Reflection::FieldDescriptor*>*>, ::Google::Protobuf::Reflection::MessageDescriptor*>**)Il2CppClass::FromTypeDefinitionIndex(ExtensionCollection___c_TypeDefinitionIndex)->GetStaticField(0x1E960);
-		}
 		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::Google::Protobuf::Reflection::MessageDescriptor*, ::System::Collections::Generic::IList_1<::Google::Protobuf::Reflection::FieldDescriptor*>*>, ::Google::Protobuf::Reflection::MessageDescriptor*>** StaticGet___9__9_2()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::Google::Protobuf::Reflection::MessageDescriptor*, ::System::Collections::Generic::IList_1<::Google::Protobuf::Reflection::FieldDescriptor*>*>, ::Google::Protobuf::Reflection::MessageDescriptor*>**)Il2CppClass::FromTypeDefinitionIndex(ExtensionCollection___c_TypeDefinitionIndex)->GetStaticField(0x1E968);
-		}
-		static ::Google::Protobuf::Reflection::ExtensionCollection___c** StaticGet___9()
-		{
-			return (::Google::Protobuf::Reflection::ExtensionCollection___c**)Il2CppClass::FromTypeDefinitionIndex(ExtensionCollection___c_TypeDefinitionIndex)->GetStaticField(0x1E970);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::Google::Protobuf::Reflection::MessageDescriptor*, ::System::Collections::Generic::IList_1<::Google::Protobuf::Reflection::FieldDescriptor*>*>, ::Google::Protobuf::Reflection::MessageDescriptor*>**)Il2CppClass::FromTypeDefinitionIndex(ExtensionCollection___c_TypeDefinitionIndex)->GetStaticField(0x1CAD0);
 		}
 		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::Google::Protobuf::Reflection::MessageDescriptor*, ::System::Collections::Generic::IList_1<::Google::Protobuf::Reflection::FieldDescriptor*>*>, ::System::Collections::Generic::IList_1<::Google::Protobuf::Reflection::FieldDescriptor*>*>** StaticGet___9__9_1()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::Google::Protobuf::Reflection::MessageDescriptor*, ::System::Collections::Generic::IList_1<::Google::Protobuf::Reflection::FieldDescriptor*>*>, ::System::Collections::Generic::IList_1<::Google::Protobuf::Reflection::FieldDescriptor*>*>**)Il2CppClass::FromTypeDefinitionIndex(ExtensionCollection___c_TypeDefinitionIndex)->GetStaticField(0x1E978);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::Google::Protobuf::Reflection::MessageDescriptor*, ::System::Collections::Generic::IList_1<::Google::Protobuf::Reflection::FieldDescriptor*>*>, ::System::Collections::Generic::IList_1<::Google::Protobuf::Reflection::FieldDescriptor*>*>**)Il2CppClass::FromTypeDefinitionIndex(ExtensionCollection___c_TypeDefinitionIndex)->GetStaticField(0x1CAD8);
+		}
+		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::Google::Protobuf::Reflection::MessageDescriptor*, ::System::Collections::Generic::IList_1<::Google::Protobuf::Reflection::FieldDescriptor*>*>, ::Google::Protobuf::Reflection::MessageDescriptor*>** StaticGet___9__9_0()
+		{
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::Google::Protobuf::Reflection::MessageDescriptor*, ::System::Collections::Generic::IList_1<::Google::Protobuf::Reflection::FieldDescriptor*>*>, ::Google::Protobuf::Reflection::MessageDescriptor*>**)Il2CppClass::FromTypeDefinitionIndex(ExtensionCollection___c_TypeDefinitionIndex)->GetStaticField(0x1CAE0);
+		}
+		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::Google::Protobuf::Reflection::MessageDescriptor*, ::System::Collections::Generic::IList_1<::Google::Protobuf::Reflection::FieldDescriptor*>*>, ::System::Collections::Generic::IList_1<::Google::Protobuf::Reflection::FieldDescriptor*>*>** StaticGet___9__9_3()
+		{
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::Google::Protobuf::Reflection::MessageDescriptor*, ::System::Collections::Generic::IList_1<::Google::Protobuf::Reflection::FieldDescriptor*>*>, ::System::Collections::Generic::IList_1<::Google::Protobuf::Reflection::FieldDescriptor*>*>**)Il2CppClass::FromTypeDefinitionIndex(ExtensionCollection___c_TypeDefinitionIndex)->GetStaticField(0x1CAE8);
+		}
+		static ::System::Func_2<::Google::Protobuf::Reflection::FieldDescriptor*, ::System::Int32>** StaticGet___9__9_4()
+		{
+			return (::System::Func_2<::Google::Protobuf::Reflection::FieldDescriptor*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(ExtensionCollection___c_TypeDefinitionIndex)->GetStaticField(0x1CAF0);
+		}
+		static ::Google::Protobuf::Reflection::ExtensionCollection___c** StaticGet___9()
+		{
+			return (::Google::Protobuf::Reflection::ExtensionCollection___c**)Il2CppClass::FromTypeDefinitionIndex(ExtensionCollection___c_TypeDefinitionIndex)->GetStaticField(0x1CAF8);
 		}
 
 		static ::System::Void _cctor()

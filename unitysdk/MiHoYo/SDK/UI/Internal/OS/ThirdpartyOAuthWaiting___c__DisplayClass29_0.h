@@ -5,12 +5,12 @@
 
 namespace MiHoYo::SDK::UI::Internal::OS { class ThirdpartyOAuthWaiting; }
 
-#define MIHOYO_SDK_UI_INTERNAL_OS_THIRDPARTYOAUTHWAITING___C__DISPLAYCLASS29_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB03C90)
-#define MIHOYO_SDK_UI_INTERNAL_OS_THIRDPARTYOAUTHWAITING___C__DISPLAYCLASS29_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1BB03DA0)
+#define MIHOYO_SDK_UI_INTERNAL_OS_THIRDPARTYOAUTHWAITING___C__DISPLAYCLASS29_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C010520)
+#define MIHOYO_SDK_UI_INTERNAL_OS_THIRDPARTYOAUTHWAITING___C__DISPLAYCLASS29_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1C010630)
 
 namespace MiHoYo::SDK::UI::Internal::OS
 {
-	inline static constexpr unsigned int ThirdpartyOAuthWaiting___c__DisplayClass29_0_TypeDefinitionIndex = 8397;
+	inline static constexpr unsigned int ThirdpartyOAuthWaiting___c__DisplayClass29_0_TypeDefinitionIndex = 8440;
 
 	class ThirdpartyOAuthWaiting___c__DisplayClass29_0 : public ::System::Object
 	{

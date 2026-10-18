@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EAdvCharacterMovementMode_TypeDefinitionIndex = 10458;
+	inline static constexpr unsigned int EAdvCharacterMovementMode_TypeDefinitionIndex = 10473;
 
 	enum class EAdvCharacterMovementMode : ::System::Int32
 	{

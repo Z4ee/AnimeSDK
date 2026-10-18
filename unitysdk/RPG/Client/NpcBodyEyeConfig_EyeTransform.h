@@ -6,11 +6,11 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_NPCBODYEYECONFIG_EYETRANSFORM__CTOR_OFFSET UNITYSDK_OFFSET(0xD9D93A0)
+#define RPG_CLIENT_NPCBODYEYECONFIG_EYETRANSFORM__CTOR_OFFSET UNITYSDK_OFFSET(0xD9DBDC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int NpcBodyEyeConfig_EyeTransform_TypeDefinitionIndex = 60189;
+	inline static constexpr unsigned int NpcBodyEyeConfig_EyeTransform_TypeDefinitionIndex = 60052;
 
 	class NpcBodyEyeConfig_EyeTransform : public ::System::Object
 	{

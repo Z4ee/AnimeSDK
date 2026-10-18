@@ -7,19 +7,19 @@ namespace RPG::AvatarSystem { class AvatarSkin; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class IReadOnlyDictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-#define CLASS_1_7F60825540B482DD_GET_DRESSEDSKIN_OFFSET UNITYSDK_OFFSET(0x13F09FC0)
-#define CLASS_1_7F60825540B482DD_GET_SKINIDS_OFFSET UNITYSDK_OFFSET(0x13F09FE0)
-#define CLASS_1_7F60825540B482DD_SET_DRESSEDSKIN_OFFSET UNITYSDK_OFFSET(0x13F09FD0)
-#define CLASS_1_7F60825540B482DD_SET_SKINIDS_OFFSET UNITYSDK_OFFSET(0x13F09FF0)
-#define CLASS_1_7F60825540B482DD__CTOR_OFFSET UNITYSDK_OFFSET(0x13F0A000)
+#define CLASS_1_7F60825540B482DD_GET_DRESSEDSKIN_OFFSET UNITYSDK_OFFSET(0x13A64520)
+#define CLASS_1_7F60825540B482DD_GET_SKINIDS_OFFSET UNITYSDK_OFFSET(0x13A64540)
+#define CLASS_1_7F60825540B482DD_SET_DRESSEDSKIN_OFFSET UNITYSDK_OFFSET(0x13A64530)
+#define CLASS_1_7F60825540B482DD_SET_SKINIDS_OFFSET UNITYSDK_OFFSET(0x13A64550)
+#define CLASS_1_7F60825540B482DD__CTOR_OFFSET UNITYSDK_OFFSET(0x13A64560)
 
-inline static constexpr unsigned int Class_1_7F60825540B482DD_TypeDefinitionIndex = 52211;
+inline static constexpr unsigned int Class_1_7F60825540B482DD_TypeDefinitionIndex = 51917;
 
 class Class_1_7F60825540B482DD : public ::System::Object
 {
 public:
-	::RPG::AvatarSystem::AvatarSkin* _DressedSkin_k__BackingField; // 0x10
-	::System::Collections::Generic::IReadOnlyDictionary_2<::RPG::GameCore::AvatarSkinType, ::System::Collections::Generic::IReadOnlyList_1<::System::UInt32>*>* _SkinIDs_k__BackingField; // 0x18
+	::System::Collections::Generic::IReadOnlyDictionary_2<::RPG::GameCore::AvatarSkinType, ::System::Collections::Generic::IReadOnlyList_1<::System::UInt32>*>* _SkinIDs_k__BackingField; // 0x10
+	::RPG::AvatarSystem::AvatarSkin* _DressedSkin_k__BackingField; // 0x18
 
 	::System::Void _ctor()
 	{

@@ -13,48 +13,48 @@ namespace RPG::Client::FullBody { class IKEffector; }
 namespace RPG::Client::FullBody { class IKMappingLimb; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_1_5197CFA03C4557BE_GET_CHAIN_OFFSET UNITYSDK_OFFSET(0xBECF350)
-#define CLASS_1_5197CFA03C4557BE_GET_EFFECTOR_OFFSET UNITYSDK_OFFSET(0xBECF310)
-#define CLASS_1_5197CFA03C4557BE_GET_MAPPINGLIMB_OFFSET UNITYSDK_OFFSET(0xBECF330)
-#define CLASS_1_5197CFA03C4557BE_METHOD_1_493F6BD4595BA453_OFFSET UNITYSDK_OFFSET(0xBECF4A0)
-#define CLASS_1_5197CFA03C4557BE_SET_CHAIN_OFFSET UNITYSDK_OFFSET(0xBECF360)
-#define CLASS_1_5197CFA03C4557BE_SET_EFFECTOR_OFFSET UNITYSDK_OFFSET(0xBECF320)
-#define CLASS_1_5197CFA03C4557BE_SET_MAPPINGLIMB_OFFSET UNITYSDK_OFFSET(0xBECF340)
-#define CLASS_1_5197CFA03C4557BE__CTOR_OFFSET UNITYSDK_OFFSET(0xBECF370)
+#define CLASS_1_5197CFA03C4557BE_GET_CHAIN_OFFSET UNITYSDK_OFFSET(0xBD60A30)
+#define CLASS_1_5197CFA03C4557BE_GET_EFFECTOR_OFFSET UNITYSDK_OFFSET(0xBD609F0)
+#define CLASS_1_5197CFA03C4557BE_GET_MAPPINGLIMB_OFFSET UNITYSDK_OFFSET(0xBD60A10)
+#define CLASS_1_5197CFA03C4557BE_METHOD_1_493F6BD4595BA453_OFFSET UNITYSDK_OFFSET(0xBD60B80)
+#define CLASS_1_5197CFA03C4557BE_SET_CHAIN_OFFSET UNITYSDK_OFFSET(0xBD60A40)
+#define CLASS_1_5197CFA03C4557BE_SET_EFFECTOR_OFFSET UNITYSDK_OFFSET(0xBD60A00)
+#define CLASS_1_5197CFA03C4557BE_SET_MAPPINGLIMB_OFFSET UNITYSDK_OFFSET(0xBD60A20)
+#define CLASS_1_5197CFA03C4557BE__CTOR_OFFSET UNITYSDK_OFFSET(0xBD60A50)
 
-inline static constexpr unsigned int Class_1_5197CFA03C4557BE_TypeDefinitionIndex = 68561;
+inline static constexpr unsigned int Class_1_5197CFA03C4557BE_TypeDefinitionIndex = 68595;
 
 class Class_1_5197CFA03C4557BE : public ::System::Object
 {
 public:
-	::Class_2_59D029BA0ED43EE1* LLBFJLFOFOO; // 0x10
-	::Class_2_D86370ADB102E0A7* JOAOMHBAIIL; // 0x18
+	::Class_2_59D029BA0ED43EE1* GJLIDKDMIEK; // 0x10
+	::Class_2_59D029BA0ED43EE1* OAMFLPIGGMK; // 0x18
 	::Class_2_53FF91FD73E01B49* ANGPECFOEKG; // 0x20
 	::UnityEngine::Transform* BINPONHFJMI; // 0x28
-	::Class_2_59D029BA0ED43EE1* DNOGHLIMDNI; // 0x30
-	::Class_2_59D029BA0ED43EE1* OAMFLPIGGMK; // 0x38
+	::UnityEngine::Transform* MJEOHEEKBJM; // 0x30
+	::RPG::Client::FullBody::FBIKChain* _Chain_k__BackingField; // 0x38
 	::RPG::Client::FullBody::IKMappingLimb* _MappingLimb_k__BackingField; // 0x40
-	::Class_2_59D029BA0ED43EE1* GJLIDKDMIEK; // 0x48
-	::UnityEngine::Transform* MJEOHEEKBJM; // 0x50
-	::RPG::Client::FullBody::FBIKChain* _Chain_k__BackingField; // 0x58
+	::Class_2_59D029BA0ED43EE1* JKFPNAHMIHP; // 0x48
+	::Class_2_59D029BA0ED43EE1* DNOGHLIMDNI; // 0x50
+	::Class_2_59D029BA0ED43EE1* LLBFJLFOFOO; // 0x58
 	::RPG::Client::FullBody::IKEffector* _Effector_k__BackingField; // 0x60
-	::Class_2_59D029BA0ED43EE1* JKFPNAHMIHP; // 0x68
-	::System::Single JKFCLDLBJNG; // 0x70
-	::System::Single GILLGDEBFGN; // 0x74
-	::System::Single MKJJIHELDOF; // 0x78
-	::System::Nullable_1<::UnityEngine::Quaternion> MJFMMNMIKCF; // 0x7C
+	::Class_2_D86370ADB102E0A7* JOAOMHBAIIL; // 0x68
+	::UnityEngine::Vector3 NOCIBIPHFKP; // 0x70
+	::System::Single APAKCBFMCAB; // 0x7C
+	::System::Single GFPCONPCNOD; // 0x80
+	::System::Single GILLGDEBFGN; // 0x84
+	::System::Single NGCANACGEIM; // 0x88
+	::System::Single OEGJAFPDHNA; // 0x8C
 	::System::Boolean KKJLMNLCMBK; // 0x90
-	::System::Single NGCANACGEIM; // 0x94
-	::System::Single OEGJAFPDHNA; // 0x98
-	::UnityEngine::Vector3 NOCIBIPHFKP; // 0x9C
-	::System::Single GFPCONPCNOD; // 0xA8
-	::System::Single OHBAAMMACAE; // 0xAC
-	::System::Single NCHIPMCELLL; // 0xB0
-	::System::Single KPIIEJBJMNJ; // 0xB4
-	::System::Nullable_1<::UnityEngine::Vector3> IMJPIMGLOHI; // 0xB8
-	::System::Single APAKCBFMCAB; // 0xC8
-	::System::Single HBJCLDCNJEC; // 0xCC
-	::UnityEngine::Quaternion MDKPKLOEEMB; // 0xD0
+	::System::Single NCHIPMCELLL; // 0x94
+	::System::Single OHBAAMMACAE; // 0x98
+	::System::Single JKFCLDLBJNG; // 0x9C
+	::System::Nullable_1<::UnityEngine::Quaternion> MJFMMNMIKCF; // 0xA0
+	::System::Nullable_1<::UnityEngine::Vector3> IMJPIMGLOHI; // 0xB4
+	::System::Single MKJJIHELDOF; // 0xC4
+	::UnityEngine::Quaternion MDKPKLOEEMB; // 0xC8
+	::System::Single HBJCLDCNJEC; // 0xD8
+	::System::Single KPIIEJBJMNJ; // 0xDC
 
 	::System::Void _ctor(::RPG::Client::FullBody::IKEffector* a1, ::RPG::Client::FullBody::IKMappingLimb* a2, ::RPG::Client::FullBody::FBIKChain* a3)
 	{

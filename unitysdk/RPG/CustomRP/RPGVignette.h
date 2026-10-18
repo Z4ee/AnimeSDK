@@ -7,12 +7,12 @@ namespace UnityEngine::Rendering { class ClampedFloatParameter; }
 namespace UnityEngine::Rendering { class ColorParameter; }
 namespace UnityEngine::Rendering { class Vector2Parameter; }
 
-#define RPG_CUSTOMRP_RPGVIGNETTE_ISACTIVEIMPL_OFFSET UNITYSDK_OFFSET(0x1C6DD050)
-#define RPG_CUSTOMRP_RPGVIGNETTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C6DD090)
+#define RPG_CUSTOMRP_RPGVIGNETTE_ISACTIVEIMPL_OFFSET UNITYSDK_OFFSET(0x1CC635A0)
+#define RPG_CUSTOMRP_RPGVIGNETTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC635E0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int RPGVignette_TypeDefinitionIndex = 37164;
+	inline static constexpr unsigned int RPGVignette_TypeDefinitionIndex = 37850;
 
 	class RPGVignette : public ::RPG::CustomRP::CustomVolumeComponent
 	{

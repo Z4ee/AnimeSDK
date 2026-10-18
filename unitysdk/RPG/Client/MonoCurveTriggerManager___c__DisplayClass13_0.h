@@ -6,12 +6,12 @@ namespace RPG::Client { class CurveObjectLogicTriggerSetting; }
 namespace RPG::Client { class MonoCurveTriggerManager; }
 namespace RPG::GameCore { class OptionTriggerInfo; }
 
-#define RPG_CLIENT_MONOCURVETRIGGERMANAGER___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD745BD0)
-#define RPG_CLIENT_MONOCURVETRIGGERMANAGER___C__DISPLAYCLASS13_0__UPDATEMOVABLEOBJECTLOGICTRIGGER_B__0_OFFSET UNITYSDK_OFFSET(0xD746640)
+#define RPG_CLIENT_MONOCURVETRIGGERMANAGER___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD744F40)
+#define RPG_CLIENT_MONOCURVETRIGGERMANAGER___C__DISPLAYCLASS13_0__UPDATEMOVABLEOBJECTLOGICTRIGGER_B__0_OFFSET UNITYSDK_OFFSET(0xD7459B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoCurveTriggerManager___c__DisplayClass13_0_TypeDefinitionIndex = 68525;
+	inline static constexpr unsigned int MonoCurveTriggerManager___c__DisplayClass13_0_TypeDefinitionIndex = 68559;
 
 	class MonoCurveTriggerManager___c__DisplayClass13_0 : public ::System::Object
 	{

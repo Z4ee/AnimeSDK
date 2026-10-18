@@ -6,22 +6,22 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MONSTERGUIDESKILLCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D2D34F0)
-#define RPG_GAMECORE_MONSTERGUIDESKILLCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2D37B0)
+#define RPG_GAMECORE_MONSTERGUIDESKILLCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D8B5EB0)
+#define RPG_GAMECORE_MONSTERGUIDESKILLCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D8B6170)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MonsterGuideSkillConfigRow_TypeDefinitionIndex = 14097;
+	inline static constexpr unsigned int MonsterGuideSkillConfigRow_TypeDefinitionIndex = 14204;
 
 	class MonsterGuideSkillConfigRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* SkillTextIDList; // 0x10
 		::RPG::Client::TextID SkillAnswer; // 0x18
-		::RPG::Client::TextID SkillName; // 0x28
-		::System::UInt32 SkillID; // 0x38
-		::RPG::GameCore::MonsterGuideSkillType Type; // 0x3C
-		::System::UInt32 Difficulty; // 0x40
+		::System::UInt32 Difficulty; // 0x28
+		::RPG::GameCore::MonsterGuideSkillType Type; // 0x2C
+		::System::UInt32 SkillID; // 0x30
+		::RPG::Client::TextID SkillName; // 0x38
 
 		::System::Void _ctor()
 		{

@@ -4,9 +4,9 @@
 
 namespace RPG::GameCore { class FiveDimScrollAgentConfig; }
 
-#define CLASS_1_2337DF48612D5204__CTOR_OFFSET UNITYSDK_OFFSET(0x1C632130)
+#define CLASS_1_2337DF48612D5204__CTOR_OFFSET UNITYSDK_OFFSET(0x1CBB1640)
 
-inline static constexpr unsigned int Class_1_2337DF48612D5204_TypeDefinitionIndex = 41724;
+inline static constexpr unsigned int Class_1_2337DF48612D5204_TypeDefinitionIndex = 43366;
 
 class Class_1_2337DF48612D5204 : public ::System::Object
 {

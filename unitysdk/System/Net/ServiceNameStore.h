@@ -6,7 +6,7 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Security::Authentication::ExtendedProtection { class ServiceNameCollection; }
 
-#define SYSTEM_NET_SERVICENAMESTORE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E9AE070)
+#define SYSTEM_NET_SERVICENAMESTORE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F0768F0)
 
 namespace System::Net
 {

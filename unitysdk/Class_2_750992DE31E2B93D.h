@@ -7,16 +7,16 @@ namespace System { class String; }
 namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class IDictionary_2; }
 
-#define CLASS_2_750992DE31E2B93D_METHOD_2_446BE43D2AA5DB95_OFFSET UNITYSDK_OFFSET(0xB4FBFE0)
-#define CLASS_2_750992DE31E2B93D__CTOR_OFFSET UNITYSDK_OFFSET(0xB4FBB60)
+#define CLASS_2_750992DE31E2B93D_METHOD_2_446BE43D2AA5DB95_OFFSET UNITYSDK_OFFSET(0xB337940)
+#define CLASS_2_750992DE31E2B93D__CTOR_OFFSET UNITYSDK_OFFSET(0xB3374C0)
 
-inline static constexpr unsigned int Class_2_750992DE31E2B93D_TypeDefinitionIndex = 80895;
+inline static constexpr unsigned int Class_2_750992DE31E2B93D_TypeDefinitionIndex = 82275;
 
 class Class_2_750992DE31E2B93D : public ::Class_1_FAF146B3D74C3C3F
 {
 public:
-	::System::Type* EPGPJMHNBON; // 0x20
-	::System::String* GKHIHPGCLIK; // 0x28
+	::System::String* GKHIHPGCLIK; // 0x20
+	::System::Type* EPGPJMHNBON; // 0x28
 	::RPG::Client::CachedAssetLogicType HEOJLHCIINP; // 0x30
 	::System::Int32 GBKFPMBPIGP; // 0x34
 

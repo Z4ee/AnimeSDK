@@ -5,11 +5,11 @@
 
 namespace UnityEngine::EventSystems { class EventTrigger_TriggerEvent; }
 
-#define UNITYENGINE_EVENTSYSTEMS_EVENTTRIGGER_ENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1EE09130)
+#define UNITYENGINE_EVENTSYSTEMS_EVENTTRIGGER_ENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1F4D2330)
 
 namespace UnityEngine::EventSystems
 {
-	inline static constexpr unsigned int EventTrigger_Entry_TypeDefinitionIndex = 6923;
+	inline static constexpr unsigned int EventTrigger_Entry_TypeDefinitionIndex = 6932;
 
 	class EventTrigger_Entry : public ::System::Object
 	{

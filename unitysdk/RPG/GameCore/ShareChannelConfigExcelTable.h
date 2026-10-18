@@ -11,45 +11,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_SHARECHANNELCONFIGEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1D51AB60)
-#define RPG_GAMECORE_SHARECHANNELCONFIGEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1D51A9F0)
-#define RPG_GAMECORE_SHARECHANNELCONFIGEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1D51A6E0)
-#define RPG_GAMECORE_SHARECHANNELCONFIGEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1D51A990)
-#define RPG_GAMECORE_SHARECHANNELCONFIGEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1D51ACF0)
-#define RPG_GAMECORE_SHARECHANNELCONFIGEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D51A760)
-#define RPG_GAMECORE_SHARECHANNELCONFIGEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1D51AD30)
-#define RPG_GAMECORE_SHARECHANNELCONFIGEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D51AF00)
-#define RPG_GAMECORE_SHARECHANNELCONFIGEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1D51B2F0)
-#define RPG_GAMECORE_SHARECHANNELCONFIGEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D51B660)
-#define RPG_GAMECORE_SHARECHANNELCONFIGEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1D51AE60)
-#define RPG_GAMECORE_SHARECHANNELCONFIGEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D51ADC0)
+#define RPG_GAMECORE_SHARECHANNELCONFIGEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1DACF360)
+#define RPG_GAMECORE_SHARECHANNELCONFIGEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1DACF1F0)
+#define RPG_GAMECORE_SHARECHANNELCONFIGEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1DACEEE0)
+#define RPG_GAMECORE_SHARECHANNELCONFIGEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1DACF190)
+#define RPG_GAMECORE_SHARECHANNELCONFIGEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1DACF4F0)
+#define RPG_GAMECORE_SHARECHANNELCONFIGEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1DACEF60)
+#define RPG_GAMECORE_SHARECHANNELCONFIGEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1DACF530)
+#define RPG_GAMECORE_SHARECHANNELCONFIGEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DACF700)
+#define RPG_GAMECORE_SHARECHANNELCONFIGEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1DACFAF0)
+#define RPG_GAMECORE_SHARECHANNELCONFIGEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DACFE60)
+#define RPG_GAMECORE_SHARECHANNELCONFIGEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1DACF660)
+#define RPG_GAMECORE_SHARECHANNELCONFIGEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1DACF5C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShareChannelConfigExcelTable_TypeDefinitionIndex = 14329;
+	inline static constexpr unsigned int ShareChannelConfigExcelTable_TypeDefinitionIndex = 14494;
 
 	class ShareChannelConfigExcelTable : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ShareChannelConfigRow*>** StaticGet_dataDict_()
+		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ShareChannelConfigRow*>**)Il2CppClass::FromTypeDefinitionIndex(ShareChannelConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x1B4B0);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ShareChannelConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x16580);
 		}
 		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(ShareChannelConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x1B4B8);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(ShareChannelConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x16588);
 		}
-		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ShareChannelConfigRow*>** StaticGet_dataDict_()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ShareChannelConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x1B4C0);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ShareChannelConfigRow*>**)Il2CppClass::FromTypeDefinitionIndex(ShareChannelConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x16590);
 		}
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(ShareChannelConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x9770);
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(ShareChannelConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x5460);
 		}
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ShareChannelConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x9771);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ShareChannelConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x5461);
 		}
 
 		static ::System::Void _cctor()

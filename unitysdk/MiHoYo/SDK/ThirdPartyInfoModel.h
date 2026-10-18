@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_THIRDPARTYINFOMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1BAD81B0)
+#define MIHOYO_SDK_THIRDPARTYINFOMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1BFE2B30)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ThirdPartyInfoModel_TypeDefinitionIndex = 7820;
+	inline static constexpr unsigned int ThirdPartyInfoModel_TypeDefinitionIndex = 7864;
 
 	class ThirdPartyInfoModel : public ::System::Object
 	{

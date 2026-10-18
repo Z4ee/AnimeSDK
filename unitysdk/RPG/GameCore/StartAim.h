@@ -8,13 +8,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_STARTAIM_METHOD_3_437D51C179124BDD_OFFSET UNITYSDK_OFFSET(0x1D566100)
-#define RPG_GAMECORE_STARTAIM_METHOD_3_DD0E6FB00E9A9041_OFFSET UNITYSDK_OFFSET(0x1D566180)
-#define RPG_GAMECORE_STARTAIM__CTOR_OFFSET UNITYSDK_OFFSET(0x1D566150)
+#define RPG_GAMECORE_STARTAIM_METHOD_3_7ACE8498255624AF_OFFSET UNITYSDK_OFFSET(0x1DB1B890)
+#define RPG_GAMECORE_STARTAIM_METHOD_3_9AA39178C75553C5_OFFSET UNITYSDK_OFFSET(0x1DB1B910)
+#define RPG_GAMECORE_STARTAIM__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB1B8E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StartAim_TypeDefinitionIndex = 22156;
+	inline static constexpr unsigned int StartAim_TypeDefinitionIndex = 22405;
 
 	class StartAim : public ::RPG::GameCore::TaskConfig
 	{
@@ -36,14 +36,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STARTAIM__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_437D51C179124BDD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StartAim*& a2)
+		static ::System::Void Method_3_7ACE8498255624AF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StartAim*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StartAim*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STARTAIM_METHOD_3_437D51C179124BDD_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StartAim*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STARTAIM_METHOD_3_7ACE8498255624AF_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_DD0E6FB00E9A9041(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StartAim* a2)
+		static ::System::Void Method_3_9AA39178C75553C5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StartAim* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StartAim*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STARTAIM_METHOD_3_DD0E6FB00E9A9041_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StartAim*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STARTAIM_METHOD_3_9AA39178C75553C5_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -5,19 +5,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_SWORDTRAININGUNLOCKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D598BF0)
-#define RPG_GAMECORE_SWORDTRAININGUNLOCKROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D598DB0)
+#define RPG_GAMECORE_SWORDTRAININGUNLOCKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DB4F8A0)
+#define RPG_GAMECORE_SWORDTRAININGUNLOCKROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB4FA60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SwordTrainingUnlockRow_TypeDefinitionIndex = 12376;
+	inline static constexpr unsigned int SwordTrainingUnlockRow_TypeDefinitionIndex = 12462;
 
 	class SwordTrainingUnlockRow : public ::System::Object
 	{
 	public:
 		::RPG::Client::TextID UnlockDesc; // 0x10
-		::System::UInt32 UnlockID; // 0x20
-		::System::UInt32 FinishWayID; // 0x24
+		::System::UInt32 FinishWayID; // 0x20
+		::System::UInt32 UnlockID; // 0x24
 
 		::System::Void _ctor()
 		{

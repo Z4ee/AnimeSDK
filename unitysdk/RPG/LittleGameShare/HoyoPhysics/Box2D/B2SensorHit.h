@@ -4,7 +4,7 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2SensorHit_TypeDefinitionIndex = 36064;
+	inline static constexpr unsigned int B2SensorHit_TypeDefinitionIndex = 36751;
 
 	struct alignas(4) B2SensorHit
 	{

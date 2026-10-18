@@ -7,53 +7,53 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class Renderer; }
 
-#define RPG_CLIENT_WOBBLEPASTER_START_OFFSET UNITYSDK_OFFSET(0xE41E720)
-#define RPG_CLIENT_WOBBLEPASTER_UPDATE_OFFSET UNITYSDK_OFFSET(0xE41EC00)
-#define RPG_CLIENT_WOBBLEPASTER__CCTOR_OFFSET UNITYSDK_OFFSET(0xE41FE30)
-#define RPG_CLIENT_WOBBLEPASTER__CTOR_OFFSET UNITYSDK_OFFSET(0xE41FDD0)
+#define RPG_CLIENT_WOBBLEPASTER_START_OFFSET UNITYSDK_OFFSET(0xE466530)
+#define RPG_CLIENT_WOBBLEPASTER_UPDATE_OFFSET UNITYSDK_OFFSET(0xE466A10)
+#define RPG_CLIENT_WOBBLEPASTER__CCTOR_OFFSET UNITYSDK_OFFSET(0xE467C40)
+#define RPG_CLIENT_WOBBLEPASTER__CTOR_OFFSET UNITYSDK_OFFSET(0xE467BE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int WobblePaster_TypeDefinitionIndex = 70241;
+	inline static constexpr unsigned int WobblePaster_TypeDefinitionIndex = 70277;
 
 	class WobblePaster : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::System::Int32* StaticGet_HEJJEJPOEJB()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WobblePaster_TypeDefinitionIndex)->GetStaticField(0x14AE0);
-		}
-		static ::System::Int32* StaticGet_BKEDALEHLJF()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WobblePaster_TypeDefinitionIndex)->GetStaticField(0x14AE4);
-		}
-		static ::System::Int32* StaticGet_DDADGDLKMJC()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WobblePaster_TypeDefinitionIndex)->GetStaticField(0x14AE8);
-		}
 		static ::System::Int32* StaticGet_OHNCIOPAJNL()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WobblePaster_TypeDefinitionIndex)->GetStaticField(0x14AEC);
-		}
-		static ::System::Int32* StaticGet_CFBOCKJLFCK()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WobblePaster_TypeDefinitionIndex)->GetStaticField(0x14AF0);
-		}
-		static ::System::Int32* StaticGet_JNMEMOEDEMM()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WobblePaster_TypeDefinitionIndex)->GetStaticField(0x14AF4);
-		}
-		static ::System::Int32* StaticGet_AAAPPKLCENA()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WobblePaster_TypeDefinitionIndex)->GetStaticField(0x14AF8);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WobblePaster_TypeDefinitionIndex)->GetStaticField(0x11A60);
 		}
 		static ::System::Int32* StaticGet_EMJKNNNJOLA()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WobblePaster_TypeDefinitionIndex)->GetStaticField(0x14AFC);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WobblePaster_TypeDefinitionIndex)->GetStaticField(0x11A64);
+		}
+		static ::System::Int32* StaticGet_CFBOCKJLFCK()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WobblePaster_TypeDefinitionIndex)->GetStaticField(0x11A68);
 		}
 		static ::System::Int32* StaticGet_GKHLKFONLMJ()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WobblePaster_TypeDefinitionIndex)->GetStaticField(0x14B00);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WobblePaster_TypeDefinitionIndex)->GetStaticField(0x11A6C);
+		}
+		static ::System::Int32* StaticGet_BKEDALEHLJF()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WobblePaster_TypeDefinitionIndex)->GetStaticField(0x11A70);
+		}
+		static ::System::Int32* StaticGet_AAAPPKLCENA()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WobblePaster_TypeDefinitionIndex)->GetStaticField(0x11A74);
+		}
+		static ::System::Int32* StaticGet_HEJJEJPOEJB()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WobblePaster_TypeDefinitionIndex)->GetStaticField(0x11A78);
+		}
+		static ::System::Int32* StaticGet_DDADGDLKMJC()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WobblePaster_TypeDefinitionIndex)->GetStaticField(0x11A7C);
+		}
+		static ::System::Int32* StaticGet_JNMEMOEDEMM()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WobblePaster_TypeDefinitionIndex)->GetStaticField(0x11A80);
 		}
 		::UnityEngine::GameObject* ReferenceObject1; // 0x18
 		::UnityEngine::GameObject* ReferenceObject2; // 0x20

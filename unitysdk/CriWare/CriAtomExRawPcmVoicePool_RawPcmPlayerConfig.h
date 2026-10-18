@@ -5,7 +5,7 @@
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExRawPcmVoicePool_RawPcmPlayerConfig_TypeDefinitionIndex = 38788;
+	inline static constexpr unsigned int CriAtomExRawPcmVoicePool_RawPcmPlayerConfig_TypeDefinitionIndex = 40085;
 
 	struct alignas(8) CriAtomExRawPcmVoicePool_RawPcmPlayerConfig
 	{

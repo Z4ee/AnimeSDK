@@ -10,22 +10,22 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Renderer; }
 
-#define RPG_CLIENT_MONOEFFECTPLUGINPROGRESS_MODIFYMATERIALPARAM_METHOD_1_76D558CF9960A3B7_OFFSET UNITYSDK_OFFSET(0xD7C5080)
-#define RPG_CLIENT_MONOEFFECTPLUGINPROGRESS_MODIFYMATERIALPARAM_METHOD_1_92A998451FF61049_OFFSET UNITYSDK_OFFSET(0xD7C4CF0)
-#define RPG_CLIENT_MONOEFFECTPLUGINPROGRESS_MODIFYMATERIALPARAM_METHOD_1_B5405B133949DBE3_OFFSET UNITYSDK_OFFSET(0xD7C4EC0)
-#define RPG_CLIENT_MONOEFFECTPLUGINPROGRESS_MODIFYMATERIALPARAM__CCTOR_OFFSET UNITYSDK_OFFSET(0xD7C5230)
-#define RPG_CLIENT_MONOEFFECTPLUGINPROGRESS_MODIFYMATERIALPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xD7C5220)
+#define RPG_CLIENT_MONOEFFECTPLUGINPROGRESS_MODIFYMATERIALPARAM_METHOD_1_76D558CF9960A3B7_OFFSET UNITYSDK_OFFSET(0xD8070E0)
+#define RPG_CLIENT_MONOEFFECTPLUGINPROGRESS_MODIFYMATERIALPARAM_METHOD_1_92A998451FF61049_OFFSET UNITYSDK_OFFSET(0xD806D50)
+#define RPG_CLIENT_MONOEFFECTPLUGINPROGRESS_MODIFYMATERIALPARAM_METHOD_1_B5405B133949DBE3_OFFSET UNITYSDK_OFFSET(0xD806F20)
+#define RPG_CLIENT_MONOEFFECTPLUGINPROGRESS_MODIFYMATERIALPARAM__CCTOR_OFFSET UNITYSDK_OFFSET(0xD807290)
+#define RPG_CLIENT_MONOEFFECTPLUGINPROGRESS_MODIFYMATERIALPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xD807280)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginProgress_ModifyMaterialParam_TypeDefinitionIndex = 70063;
+	inline static constexpr unsigned int MonoEffectPluginProgress_ModifyMaterialParam_TypeDefinitionIndex = 70098;
 
 	class MonoEffectPluginProgress_ModifyMaterialParam : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>** StaticGet_s_PropertyIDCache()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginProgress_ModifyMaterialParam_TypeDefinitionIndex)->GetStaticField(0x122A0);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginProgress_ModifyMaterialParam_TypeDefinitionIndex)->GetStaticField(0x64950);
 		}
 		::UnityEngine::Renderer* TargetRender; // 0x10
 		::System::Int32 TargetMaterialIndex; // 0x18

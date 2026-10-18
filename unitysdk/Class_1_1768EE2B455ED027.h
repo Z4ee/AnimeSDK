@@ -1,0 +1,159 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_1768EE2B455ED027_Class_1_B140F771924981C3;
+class Class_1_1768EE2B455ED027_Class_1_F741B5BD9AD41E6C;
+namespace RPG::Client { class UIDraggableManager; }
+namespace System { template <typename T> class Action_1; }
+namespace UnityEngine { class GameObject; }
+namespace UnityEngine { class Transform; }
+
+#define CLASS_1_1768EE2B455ED027_ADD_DRAGENDED_OFFSET UNITYSDK_OFFSET(0xBD4CAF0)
+#define CLASS_1_1768EE2B455ED027_ADD_DRAGENTERPANEL_OFFSET UNITYSDK_OFFSET(0xBD4CDF0)
+#define CLASS_1_1768EE2B455ED027_ADD_DRAGEXCEEDED_OFFSET UNITYSDK_OFFSET(0xBD4CBF0)
+#define CLASS_1_1768EE2B455ED027_ADD_DRAGEXITPANEL_OFFSET UNITYSDK_OFFSET(0xBD4CCF0)
+#define CLASS_1_1768EE2B455ED027_ADD_DRAGSTARTED_OFFSET UNITYSDK_OFFSET(0xBD4C9F0)
+#define CLASS_1_1768EE2B455ED027_METHOD_1_1ABF1CBED7A4AF0A_OFFSET UNITYSDK_OFFSET(0xBD4D0C0)
+#define CLASS_1_1768EE2B455ED027_METHOD_1_89D1F247B9D324EE_1_OFFSET UNITYSDK_OFFSET(0xBD4D330)
+#define CLASS_1_1768EE2B455ED027_METHOD_1_89D1F247B9D324EE_OFFSET UNITYSDK_OFFSET(0xBD4D270)
+#define CLASS_1_1768EE2B455ED027_METHOD_1_A84CEAF7AFA573B3_OFFSET UNITYSDK_OFFSET(0xBD4C6C0)
+#define CLASS_1_1768EE2B455ED027_METHOD_1_BD2F8ECECEAD4800_OFFSET UNITYSDK_OFFSET(0xBD4D130)
+#define CLASS_1_1768EE2B455ED027_METHOD_1_C450A961450309C9_OFFSET UNITYSDK_OFFSET(0xBD4D180)
+#define CLASS_1_1768EE2B455ED027_METHOD_1_D072539FF33D3657_OFFSET UNITYSDK_OFFSET(0xBD4D050)
+#define CLASS_1_1768EE2B455ED027_METHOD_1_E87ACF38A87C425C_OFFSET UNITYSDK_OFFSET(0xBD4CEF0)
+#define CLASS_1_1768EE2B455ED027_METHOD_1_F37CDBD6D46274D2_1_OFFSET UNITYSDK_OFFSET(0xBD4D4C0)
+#define CLASS_1_1768EE2B455ED027_METHOD_1_F37CDBD6D46274D2_OFFSET UNITYSDK_OFFSET(0xBD4D3F0)
+#define CLASS_1_1768EE2B455ED027_METHOD_1_FF5C968EAE21D675_OFFSET UNITYSDK_OFFSET(0xBD4CFD0)
+#define CLASS_1_1768EE2B455ED027_REMOVE_DRAGENDED_OFFSET UNITYSDK_OFFSET(0xBD4CB70)
+#define CLASS_1_1768EE2B455ED027_REMOVE_DRAGENTERPANEL_OFFSET UNITYSDK_OFFSET(0xBD4CE70)
+#define CLASS_1_1768EE2B455ED027_REMOVE_DRAGEXCEEDED_OFFSET UNITYSDK_OFFSET(0xBD4CC70)
+#define CLASS_1_1768EE2B455ED027_REMOVE_DRAGEXITPANEL_OFFSET UNITYSDK_OFFSET(0xBD4CD70)
+#define CLASS_1_1768EE2B455ED027_REMOVE_DRAGSTARTED_OFFSET UNITYSDK_OFFSET(0xBD4CA70)
+#define CLASS_1_1768EE2B455ED027__CTOR_OFFSET UNITYSDK_OFFSET(0xBD4C690)
+
+inline static constexpr unsigned int Class_1_1768EE2B455ED027_TypeDefinitionIndex = 81257;
+
+class Class_1_1768EE2B455ED027 : public ::System::Object
+{
+public:
+	::RPG::Client::UIDraggableManager* KLEMKIPNDHM; // 0x10
+	::System::Action_1<::Class_1_1768EE2B455ED027_Class_1_F741B5BD9AD41E6C*>* DragEnded; // 0x18
+	::System::Action_1<::Class_1_1768EE2B455ED027_Class_1_F741B5BD9AD41E6C*>* DragEnterPanel; // 0x20
+	::System::Action_1<::Class_1_1768EE2B455ED027_Class_1_F741B5BD9AD41E6C*>* DragStarted; // 0x28
+	::System::Action_1<::Class_1_1768EE2B455ED027_Class_1_F741B5BD9AD41E6C*>* DragExitPanel; // 0x30
+	::System::Object* DIBIACGMNIA; // 0x38
+	::System::Action_1<::Class_1_1768EE2B455ED027_Class_1_F741B5BD9AD41E6C*>* DragExceeded; // 0x40
+	::Class_1_1768EE2B455ED027_Class_1_B140F771924981C3* OGDJGLDLICK; // 0x48
+	::System::Boolean HPBDPJBADHL; // 0x50
+
+	::System::Void _ctor(::RPG::Client::UIDraggableManager* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::UIDraggableManager*))((::PBYTE)hIl2Cpp + CLASS_1_1768EE2B455ED027__CTOR_OFFSET))(this, a1);
+	}
+
+	::System::Void add_DragStarted(::System::Action_1<::Class_1_1768EE2B455ED027_Class_1_F741B5BD9AD41E6C*>* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Action_1<::Class_1_1768EE2B455ED027_Class_1_F741B5BD9AD41E6C*>*))((::PBYTE)hIl2Cpp + CLASS_1_1768EE2B455ED027_ADD_DRAGSTARTED_OFFSET))(this, a1);
+	}
+
+	::System::Void remove_DragStarted(::System::Action_1<::Class_1_1768EE2B455ED027_Class_1_F741B5BD9AD41E6C*>* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Action_1<::Class_1_1768EE2B455ED027_Class_1_F741B5BD9AD41E6C*>*))((::PBYTE)hIl2Cpp + CLASS_1_1768EE2B455ED027_REMOVE_DRAGSTARTED_OFFSET))(this, a1);
+	}
+
+	::System::Void add_DragEnded(::System::Action_1<::Class_1_1768EE2B455ED027_Class_1_F741B5BD9AD41E6C*>* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Action_1<::Class_1_1768EE2B455ED027_Class_1_F741B5BD9AD41E6C*>*))((::PBYTE)hIl2Cpp + CLASS_1_1768EE2B455ED027_ADD_DRAGENDED_OFFSET))(this, a1);
+	}
+
+	::System::Void remove_DragEnded(::System::Action_1<::Class_1_1768EE2B455ED027_Class_1_F741B5BD9AD41E6C*>* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Action_1<::Class_1_1768EE2B455ED027_Class_1_F741B5BD9AD41E6C*>*))((::PBYTE)hIl2Cpp + CLASS_1_1768EE2B455ED027_REMOVE_DRAGENDED_OFFSET))(this, a1);
+	}
+
+	::System::Void add_DragExceeded(::System::Action_1<::Class_1_1768EE2B455ED027_Class_1_F741B5BD9AD41E6C*>* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Action_1<::Class_1_1768EE2B455ED027_Class_1_F741B5BD9AD41E6C*>*))((::PBYTE)hIl2Cpp + CLASS_1_1768EE2B455ED027_ADD_DRAGEXCEEDED_OFFSET))(this, a1);
+	}
+
+	::System::Void remove_DragExceeded(::System::Action_1<::Class_1_1768EE2B455ED027_Class_1_F741B5BD9AD41E6C*>* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Action_1<::Class_1_1768EE2B455ED027_Class_1_F741B5BD9AD41E6C*>*))((::PBYTE)hIl2Cpp + CLASS_1_1768EE2B455ED027_REMOVE_DRAGEXCEEDED_OFFSET))(this, a1);
+	}
+
+	::System::Void add_DragExitPanel(::System::Action_1<::Class_1_1768EE2B455ED027_Class_1_F741B5BD9AD41E6C*>* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Action_1<::Class_1_1768EE2B455ED027_Class_1_F741B5BD9AD41E6C*>*))((::PBYTE)hIl2Cpp + CLASS_1_1768EE2B455ED027_ADD_DRAGEXITPANEL_OFFSET))(this, a1);
+	}
+
+	::System::Void remove_DragExitPanel(::System::Action_1<::Class_1_1768EE2B455ED027_Class_1_F741B5BD9AD41E6C*>* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Action_1<::Class_1_1768EE2B455ED027_Class_1_F741B5BD9AD41E6C*>*))((::PBYTE)hIl2Cpp + CLASS_1_1768EE2B455ED027_REMOVE_DRAGEXITPANEL_OFFSET))(this, a1);
+	}
+
+	::System::Void add_DragEnterPanel(::System::Action_1<::Class_1_1768EE2B455ED027_Class_1_F741B5BD9AD41E6C*>* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Action_1<::Class_1_1768EE2B455ED027_Class_1_F741B5BD9AD41E6C*>*))((::PBYTE)hIl2Cpp + CLASS_1_1768EE2B455ED027_ADD_DRAGENTERPANEL_OFFSET))(this, a1);
+	}
+
+	::System::Void remove_DragEnterPanel(::System::Action_1<::Class_1_1768EE2B455ED027_Class_1_F741B5BD9AD41E6C*>* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Action_1<::Class_1_1768EE2B455ED027_Class_1_F741B5BD9AD41E6C*>*))((::PBYTE)hIl2Cpp + CLASS_1_1768EE2B455ED027_REMOVE_DRAGENTERPANEL_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_E87ACF38A87C425C(::UnityEngine::GameObject* a1, ::System::Object* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_1_1768EE2B455ED027_METHOD_1_E87ACF38A87C425C_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_1_FF5C968EAE21D675(::UnityEngine::GameObject* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + CLASS_1_1768EE2B455ED027_METHOD_1_FF5C968EAE21D675_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_D072539FF33D3657(::UnityEngine::Transform* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + CLASS_1_1768EE2B455ED027_METHOD_1_D072539FF33D3657_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_1ABF1CBED7A4AF0A()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_1768EE2B455ED027_METHOD_1_1ABF1CBED7A4AF0A_OFFSET))(this);
+	}
+
+	::System::Void Method_1_BD2F8ECECEAD4800()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_1768EE2B455ED027_METHOD_1_BD2F8ECECEAD4800_OFFSET))(this);
+	}
+
+	::System::Void Method_1_A84CEAF7AFA573B3()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_1768EE2B455ED027_METHOD_1_A84CEAF7AFA573B3_OFFSET))(this);
+	}
+
+	::System::Void Method_1_C450A961450309C9(::System::Object* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_1_1768EE2B455ED027_METHOD_1_C450A961450309C9_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_89D1F247B9D324EE()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_1768EE2B455ED027_METHOD_1_89D1F247B9D324EE_OFFSET))(this);
+	}
+
+	::System::Void Method_1_89D1F247B9D324EE_1()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_1768EE2B455ED027_METHOD_1_89D1F247B9D324EE_1_OFFSET))(this);
+	}
+
+	::System::Void Method_1_F37CDBD6D46274D2(::System::Object* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_1_1768EE2B455ED027_METHOD_1_F37CDBD6D46274D2_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_F37CDBD6D46274D2_1(::System::Object* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_1_1768EE2B455ED027_METHOD_1_F37CDBD6D46274D2_1_OFFSET))(this, a1);
+	}
+};

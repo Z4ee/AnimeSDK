@@ -5,15 +5,16 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class MarbleMainsubConfig; }
 namespace RPG::GameCore { class MarbleNpcConfig; }
+namespace RPG::GameCore { class PetMarbleGameConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MARBLEGAMECONFIG_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x1D2332C0)
-#define RPG_GAMECORE_MARBLEGAMECONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D233280)
-#define RPG_GAMECORE_MARBLEGAMECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2332B0)
+#define RPG_GAMECORE_MARBLEGAMECONFIG_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x1D83D7E0)
+#define RPG_GAMECORE_MARBLEGAMECONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D83D7A0)
+#define RPG_GAMECORE_MARBLEGAMECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D83D7D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MarbleGameConfig_TypeDefinitionIndex = 18704;
+	inline static constexpr unsigned int MarbleGameConfig_TypeDefinitionIndex = 18927;
 
 	class MarbleGameConfig : public ::RPG::GameCore::LittleGameConstConfig
 	{
@@ -91,8 +92,9 @@ namespace RPG::GameCore
 		::System::String* NpcSealName1; // 0x148
 		::System::String* NpcSealName2; // 0x150
 		::RPG::GameCore::MarbleMainsubConfig* MarbleMainsubConfig; // 0x158
-		::Il2CppArray<::System::UInt32>* RankScoreInterval; // 0x160
-		::Il2CppArray<::System::UInt32>* RankInterval; // 0x168
+		::RPG::GameCore::PetMarbleGameConfig* PetMarbleGameConfig; // 0x160
+		::Il2CppArray<::System::UInt32>* RankScoreInterval; // 0x168
+		::Il2CppArray<::System::UInt32>* RankInterval; // 0x170
 
 		::System::Void _ctor()
 		{

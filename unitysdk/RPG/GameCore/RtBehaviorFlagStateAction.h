@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_RTBEHAVIORFLAGSTATEACTION_METHOD_2_91D730AF9E23B194_OFFSET UNITYSDK_OFFSET(0x1D49D730)
-#define RPG_GAMECORE_RTBEHAVIORFLAGSTATEACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D49D8B0)
+#define RPG_GAMECORE_RTBEHAVIORFLAGSTATEACTION_METHOD_2_91D730AF9E23B194_OFFSET UNITYSDK_OFFSET(0x1DA50800)
+#define RPG_GAMECORE_RTBEHAVIORFLAGSTATEACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1DA50980)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtBehaviorFlagStateAction_TypeDefinitionIndex = 17431;
+	inline static constexpr unsigned int RtBehaviorFlagStateAction_TypeDefinitionIndex = 17643;
 
 	class RtBehaviorFlagStateAction : public ::RPG::GameCore::JsonConfig
 	{

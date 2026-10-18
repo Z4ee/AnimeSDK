@@ -4,12 +4,12 @@
 
 namespace System { template <typename T> class Func_1; }
 
-#define UNITYENGINE_WAITUNTIL_GET_KEEPWAITING_OFFSET UNITYSDK_OFFSET(0x1ED78B40)
-#define UNITYENGINE_WAITUNTIL__CTOR_OFFSET UNITYSDK_OFFSET(0x1ED78B70)
+#define UNITYENGINE_WAITUNTIL_GET_KEEPWAITING_OFFSET UNITYSDK_OFFSET(0x1F440EF0)
+#define UNITYENGINE_WAITUNTIL__CTOR_OFFSET UNITYSDK_OFFSET(0x1F440F20)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int WaitUntil_TypeDefinitionIndex = 4367;
+	inline static constexpr unsigned int WaitUntil_TypeDefinitionIndex = 4370;
 
 	class WaitUntil : public ::UnityEngine::CustomYieldInstruction
 	{

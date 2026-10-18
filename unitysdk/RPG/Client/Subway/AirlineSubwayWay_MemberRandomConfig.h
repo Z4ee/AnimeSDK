@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_SUBWAY_AIRLINESUBWAYWAY_MEMBERRANDOMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xE10A660)
+#define RPG_CLIENT_SUBWAY_AIRLINESUBWAYWAY_MEMBERRANDOMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xE14B1E0)
 
 namespace RPG::Client::Subway
 {
-	inline static constexpr unsigned int AirlineSubwayWay_MemberRandomConfig_TypeDefinitionIndex = 80818;
+	inline static constexpr unsigned int AirlineSubwayWay_MemberRandomConfig_TypeDefinitionIndex = 82198;
 
 	class AirlineSubwayWay_MemberRandomConfig : public ::System::Object
 	{

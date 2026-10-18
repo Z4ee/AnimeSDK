@@ -1,0 +1,52 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_63D18ECF87218619_2.h"
+#include "unitysdk/RPG/GameCore/PetDiySlotType.h"
+
+class Class_1_15265A3D7B506C11;
+namespace System::Collections::Generic { template <typename T> class HashSet_1; }
+
+#define CLASS_2_363D9DB5FB892FED_METHOD_2_65DA0FCD3E81199E_OFFSET UNITYSDK_OFFSET(0x155AB570)
+#define CLASS_2_363D9DB5FB892FED_METHOD_2_6E0815E59AB33716_OFFSET UNITYSDK_OFFSET(0x155AB640)
+#define CLASS_2_363D9DB5FB892FED_METHOD_2_8671E9AD2980095B_OFFSET UNITYSDK_OFFSET(0x155AB580)
+#define CLASS_2_363D9DB5FB892FED_METHOD_2_B1936CE4DA97AA45_OFFSET UNITYSDK_OFFSET(0x155AB9F0)
+#define CLASS_2_363D9DB5FB892FED_METHOD_2_C0688C2E36BAE128_OFFSET UNITYSDK_OFFSET(0x155AB960)
+#define CLASS_2_363D9DB5FB892FED__CTOR_OFFSET UNITYSDK_OFFSET(0x155ABA80)
+
+inline static constexpr unsigned int Class_2_363D9DB5FB892FED_TypeDefinitionIndex = 60192;
+
+class Class_2_363D9DB5FB892FED : public ::Class_1_63D18ECF87218619_2
+{
+public:
+	::System::Collections::Generic::HashSet_1<::Class_1_15265A3D7B506C11*>* MFGEADHPLHO; // 0x10
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_363D9DB5FB892FED__CTOR_OFFSET))(this);
+	}
+
+	::RPG::GameCore::PetDiySlotType Method_2_65DA0FCD3E81199E()
+	{
+		return ((::RPG::GameCore::PetDiySlotType(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_363D9DB5FB892FED_METHOD_2_65DA0FCD3E81199E_OFFSET))(this);
+	}
+
+	::System::Void Method_2_8671E9AD2980095B(::Class_1_15265A3D7B506C11* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_15265A3D7B506C11*))((::PBYTE)hIl2Cpp + CLASS_2_363D9DB5FB892FED_METHOD_2_8671E9AD2980095B_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_C0688C2E36BAE128(::Class_1_15265A3D7B506C11* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_15265A3D7B506C11*))((::PBYTE)hIl2Cpp + CLASS_2_363D9DB5FB892FED_METHOD_2_C0688C2E36BAE128_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_B1936CE4DA97AA45()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_363D9DB5FB892FED_METHOD_2_B1936CE4DA97AA45_OFFSET))(this);
+	}
+
+	static ::System::Void Method_2_6E0815E59AB33716(::Class_1_15265A3D7B506C11* a1)
+	{
+		return ((::System::Void(*)(::Class_1_15265A3D7B506C11*))((::PBYTE)hIl2Cpp + CLASS_2_363D9DB5FB892FED_METHOD_2_6E0815E59AB33716_OFFSET))(a1);
+	}
+};

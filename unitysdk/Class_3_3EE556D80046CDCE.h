@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class DisableHeadLookAtOverride; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_3EE556D80046CDCE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC46B540)
-#define CLASS_3_3EE556D80046CDCE__CTOR_OFFSET UNITYSDK_OFFSET(0xC46B510)
+#define CLASS_3_3EE556D80046CDCE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC3714A0)
+#define CLASS_3_3EE556D80046CDCE__CTOR_OFFSET UNITYSDK_OFFSET(0xC371470)
 
-inline static constexpr unsigned int Class_3_3EE556D80046CDCE_TypeDefinitionIndex = 58235;
+inline static constexpr unsigned int Class_3_3EE556D80046CDCE_TypeDefinitionIndex = 58083;
 
 class Class_3_3EE556D80046CDCE : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::DisableHeadLookAtOverride*>
 {

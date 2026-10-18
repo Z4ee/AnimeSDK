@@ -5,12 +5,12 @@
 
 class Class_1_E7B9DD65288306D6;
 
-#define RPG_CLIENT_PAMCHATDATA___C__DISPLAYCLASS28_0__CTOR_OFFSET UNITYSDK_OFFSET(0xDA22710)
-#define RPG_CLIENT_PAMCHATDATA___C__DISPLAYCLASS28_0__GETPAMCHATQUICKFUNCTION_B__0_OFFSET UNITYSDK_OFFSET(0xDA23210)
+#define RPG_CLIENT_PAMCHATDATA___C__DISPLAYCLASS28_0__CTOR_OFFSET UNITYSDK_OFFSET(0xDA6E940)
+#define RPG_CLIENT_PAMCHATDATA___C__DISPLAYCLASS28_0__GETPAMCHATQUICKFUNCTION_B__0_OFFSET UNITYSDK_OFFSET(0xDA6F440)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PamChatData___c__DisplayClass28_0_TypeDefinitionIndex = 63341;
+	inline static constexpr unsigned int PamChatData___c__DisplayClass28_0_TypeDefinitionIndex = 63279;
 
 	class PamChatData___c__DisplayClass28_0 : public ::System::Object
 	{

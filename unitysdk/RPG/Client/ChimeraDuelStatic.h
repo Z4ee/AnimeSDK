@@ -4,21 +4,21 @@
 
 namespace RPG::Client { class ChimeraDuelInfoCollectionService; }
 
-#define RPG_CLIENT_CHIMERADUELSTATIC_DISPOSEINFOSERVICE_OFFSET UNITYSDK_OFFSET(0xCBF1020)
-#define RPG_CLIENT_CHIMERADUELSTATIC_GET_INFOSERVICE_OFFSET UNITYSDK_OFFSET(0xCBF3130)
-#define RPG_CLIENT_CHIMERADUELSTATIC_INITINFOSERVICE_OFFSET UNITYSDK_OFFSET(0xCBF06E0)
-#define RPG_CLIENT_CHIMERADUELSTATIC_SET_INFOSERVICE_OFFSET UNITYSDK_OFFSET(0xCBF3140)
+#define RPG_CLIENT_CHIMERADUELSTATIC_DISPOSEINFOSERVICE_OFFSET UNITYSDK_OFFSET(0xCB40280)
+#define RPG_CLIENT_CHIMERADUELSTATIC_GET_INFOSERVICE_OFFSET UNITYSDK_OFFSET(0xCB42390)
+#define RPG_CLIENT_CHIMERADUELSTATIC_INITINFOSERVICE_OFFSET UNITYSDK_OFFSET(0xCB3F920)
+#define RPG_CLIENT_CHIMERADUELSTATIC_SET_INFOSERVICE_OFFSET UNITYSDK_OFFSET(0xCB423A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraDuelStatic_TypeDefinitionIndex = 63370;
+	inline static constexpr unsigned int ChimeraDuelStatic_TypeDefinitionIndex = 63308;
 
 	class ChimeraDuelStatic : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::ChimeraDuelInfoCollectionService** StaticGet__InfoService_k__BackingField()
 		{
-			return (::RPG::Client::ChimeraDuelInfoCollectionService**)Il2CppClass::FromTypeDefinitionIndex(ChimeraDuelStatic_TypeDefinitionIndex)->GetStaticField(0x7630);
+			return (::RPG::Client::ChimeraDuelInfoCollectionService**)Il2CppClass::FromTypeDefinitionIndex(ChimeraDuelStatic_TypeDefinitionIndex)->GetStaticField(0xD9B0);
 		}
 
 		static ::RPG::Client::ChimeraDuelInfoCollectionService* get_InfoService()

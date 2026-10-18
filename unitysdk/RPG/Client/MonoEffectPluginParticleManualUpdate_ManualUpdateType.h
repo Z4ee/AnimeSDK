@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginParticleManualUpdate_ManualUpdateType_TypeDefinitionIndex = 70055;
+	inline static constexpr unsigned int MonoEffectPluginParticleManualUpdate_ManualUpdateType_TypeDefinitionIndex = 70090;
 
 	enum class MonoEffectPluginParticleManualUpdate_ManualUpdateType : ::System::Int32
 	{

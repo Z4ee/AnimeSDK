@@ -3,7 +3,7 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_51_TypeDefinitionIndex = 36250;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_51_TypeDefinitionIndex = 36937;
 
 class Class_0_16E4307DCC419505_51
 {

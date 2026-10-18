@@ -7,31 +7,31 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MAINMISSIONTYPECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D21C420)
-#define RPG_GAMECORE_MAINMISSIONTYPECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D21CDB0)
+#define RPG_GAMECORE_MAINMISSIONTYPECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D7FD090)
+#define RPG_GAMECORE_MAINMISSIONTYPECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7FDA20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MainMissionTypeConfigRow_TypeDefinitionIndex = 14042;
+	inline static constexpr unsigned int MainMissionTypeConfigRow_TypeDefinitionIndex = 14149;
 
 	class MainMissionTypeConfigRow : public ::System::Object
 	{
 	public:
-		::System::String* TypeIconMini; // 0x10
-		::System::String* TypeChapterColor; // 0x18
-		::System::String* TypeIcon; // 0x20
-		::System::String* TypeColor; // 0x28
+		::System::String* TypeColor; // 0x10
+		::System::String* TypeIconMini; // 0x18
+		::System::String* TypeChapterColor; // 0x20
+		::System::String* TypeIcon; // 0x28
 		::System::String* MenuItemIcon; // 0x30
-		::System::UInt32 TypePriority; // 0x38
-		::System::Boolean IsDelete; // 0x3C
-		::System::Boolean IsShowRedDot; // 0x3D
-		::RPG::Client::TextID TypeName; // 0x40
-		::System::UInt32 IconMapConnect; // 0x50
-		::System::UInt32 IconMapOptional; // 0x54
+		::RPG::GameCore::MainMissionType Type; // 0x38
+		::System::UInt32 WaypointIconType; // 0x3C
+		::System::Boolean IsDelete; // 0x40
+		::System::Boolean IsShowRedDot; // 0x41
+		::System::UInt32 IconMapToTake; // 0x44
+		::RPG::Client::TextID TypeName; // 0x48
 		::System::UInt32 IconMapStarted; // 0x58
-		::System::UInt32 IconMapToTake; // 0x5C
-		::System::UInt32 WaypointIconType; // 0x60
-		::RPG::GameCore::MainMissionType Type; // 0x64
+		::System::UInt32 IconMapOptional; // 0x5C
+		::System::UInt32 IconMapConnect; // 0x60
+		::System::UInt32 TypePriority; // 0x64
 
 		::System::Void _ctor()
 		{

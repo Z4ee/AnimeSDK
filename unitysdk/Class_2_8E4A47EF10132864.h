@@ -7,7 +7,7 @@
 #include "unitysdk/RPG/GameCore/AdventureModifierBehaviorFlag.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-class Class_2_A0580152EB393340;
+class Class_2_ED5B635C4D775055;
 namespace RPG::GameCore { class AdventureCharacterController; }
 namespace RPG::GameCore { class AdventureCharacterDataComponent; }
 namespace RPG::GameCore { class CharacterInputData; }
@@ -15,40 +15,40 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class NPCComponent; }
 namespace RPG::GameCore { class TransformComponent; }
 
-#define CLASS_2_8E4A47EF10132864_GET_FLAG_OFFSET UNITYSDK_OFFSET(0x1538AB10)
-#define CLASS_2_8E4A47EF10132864_METHOD_2_0B3C24AF37521D8A_OFFSET UNITYSDK_OFFSET(0x1538A080)
-#define CLASS_2_8E4A47EF10132864_METHOD_2_1290EA767C459179_OFFSET UNITYSDK_OFFSET(0x15389F80)
-#define CLASS_2_8E4A47EF10132864_METHOD_2_83693FD94A4D8C98_OFFSET UNITYSDK_OFFSET(0x1538A5E0)
-#define CLASS_2_8E4A47EF10132864_METHOD_2_9A90752C43418F0C_OFFSET UNITYSDK_OFFSET(0x15389C20)
-#define CLASS_2_8E4A47EF10132864_METHOD_2_AC7CD4175E0A3EF8_OFFSET UNITYSDK_OFFSET(0x1538A430)
-#define CLASS_2_8E4A47EF10132864_METHOD_2_D7852DE078ACC1F1_OFFSET UNITYSDK_OFFSET(0x1538A1E0)
-#define CLASS_2_8E4A47EF10132864_METHOD_2_E41B6A823556FEEA_OFFSET UNITYSDK_OFFSET(0x15389B10)
-#define CLASS_2_8E4A47EF10132864_METHOD_2_E88DC1D3D084A0F1_OFFSET UNITYSDK_OFFSET(0x15389B70)
-#define CLASS_2_8E4A47EF10132864_METHOD_2_F6EB917C5A67C7BA_OFFSET UNITYSDK_OFFSET(0x15389F30)
-#define CLASS_2_8E4A47EF10132864__CCTOR_OFFSET UNITYSDK_OFFSET(0x1538AB20)
-#define CLASS_2_8E4A47EF10132864__CTOR_OFFSET UNITYSDK_OFFSET(0x15389A70)
+#define CLASS_2_8E4A47EF10132864_GET_FLAG_OFFSET UNITYSDK_OFFSET(0x155953C0)
+#define CLASS_2_8E4A47EF10132864_METHOD_2_0B3C24AF37521D8A_OFFSET UNITYSDK_OFFSET(0x15594930)
+#define CLASS_2_8E4A47EF10132864_METHOD_2_1290EA767C459179_OFFSET UNITYSDK_OFFSET(0x15594830)
+#define CLASS_2_8E4A47EF10132864_METHOD_2_83693FD94A4D8C98_OFFSET UNITYSDK_OFFSET(0x15594EA0)
+#define CLASS_2_8E4A47EF10132864_METHOD_2_9A90752C43418F0C_OFFSET UNITYSDK_OFFSET(0x155944C0)
+#define CLASS_2_8E4A47EF10132864_METHOD_2_AC7CD4175E0A3EF8_OFFSET UNITYSDK_OFFSET(0x15594CE0)
+#define CLASS_2_8E4A47EF10132864_METHOD_2_C0703BA9C5FF3023_OFFSET UNITYSDK_OFFSET(0x15594410)
+#define CLASS_2_8E4A47EF10132864_METHOD_2_D7852DE078ACC1F1_OFFSET UNITYSDK_OFFSET(0x15594A90)
+#define CLASS_2_8E4A47EF10132864_METHOD_2_E41B6A823556FEEA_OFFSET UNITYSDK_OFFSET(0x155943B0)
+#define CLASS_2_8E4A47EF10132864_METHOD_2_F6EB917C5A67C7BA_OFFSET UNITYSDK_OFFSET(0x155947E0)
+#define CLASS_2_8E4A47EF10132864__CCTOR_OFFSET UNITYSDK_OFFSET(0x155953D0)
+#define CLASS_2_8E4A47EF10132864__CTOR_OFFSET UNITYSDK_OFFSET(0x15594310)
 
-inline static constexpr unsigned int Class_2_8E4A47EF10132864_TypeDefinitionIndex = 57196;
+inline static constexpr unsigned int Class_2_8E4A47EF10132864_TypeDefinitionIndex = 57029;
 
 class Class_2_8E4A47EF10132864 : public ::Class_1_9CEAB4C068D9D9DB
 {
 public:
-	static ::System::Int32* StaticGet_IFLNJLFCHOM()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_2_8E4A47EF10132864_TypeDefinitionIndex)->GetStaticField(0x9D30);
-	}
 	static ::System::Int32* StaticGet_HPHNJBIJFFN()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_2_8E4A47EF10132864_TypeDefinitionIndex)->GetStaticField(0x9D34);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_2_8E4A47EF10132864_TypeDefinitionIndex)->GetStaticField(0x14650);
 	}
-	::Class_2_A0580152EB393340* NLLJCLJBMAJ; // 0x68
-	::RPG::GameCore::NPCComponent* OLMFOBHMCKN; // 0x70
-	::RPG::GameCore::AdventureCharacterController* CACEADPJLPB; // 0x78
-	::RPG::GameCore::AdventureCharacterDataComponent* JBCJJOALMEF; // 0x80
-	::RPG::GameCore::TransformComponent* NIDHDAOGNKO; // 0x88
-	::RPG::GameCore::AdventureModifierBehaviorFlag _Flag_k__BackingField; // 0x90
-	::UnityEngine::Vector3 ABEGGIHNEMD; // 0x94
-	::System::Int32 GJALMAPMGME; // 0xA0
+	static ::System::Int32* StaticGet_IFLNJLFCHOM()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_2_8E4A47EF10132864_TypeDefinitionIndex)->GetStaticField(0x14654);
+	}
+	::RPG::GameCore::AdventureCharacterDataComponent* JBCJJOALMEF; // 0x68
+	::RPG::GameCore::TransformComponent* NIDHDAOGNKO; // 0x70
+	::Class_2_ED5B635C4D775055* NLLJCLJBMAJ; // 0x78
+	::RPG::GameCore::AdventureCharacterController* CACEADPJLPB; // 0x80
+	::RPG::GameCore::NPCComponent* OLMFOBHMCKN; // 0x88
+	::UnityEngine::Vector3 ABEGGIHNEMD; // 0x90
+	::System::Int32 GJALMAPMGME; // 0x9C
+	::RPG::GameCore::AdventureModifierBehaviorFlag _Flag_k__BackingField; // 0xA0
 
 	::System::Void _ctor(::RPG::GameCore::GameEntity* a1)
 	{
@@ -65,9 +65,9 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_8E4A47EF10132864_METHOD_2_E41B6A823556FEEA_OFFSET))(this);
 	}
 
-	::RPG::GameCore::AdventureBehaviorClampAlertLevel Method_2_E88DC1D3D084A0F1(::System::Boolean& a1)
+	::RPG::GameCore::AdventureBehaviorClampAlertLevel Method_2_C0703BA9C5FF3023(::System::Boolean& a1)
 	{
-		return ((::RPG::GameCore::AdventureBehaviorClampAlertLevel(*)(::PVOID, ::System::Boolean&))((::PBYTE)hIl2Cpp + CLASS_2_8E4A47EF10132864_METHOD_2_E88DC1D3D084A0F1_OFFSET))(this, a1);
+		return ((::RPG::GameCore::AdventureBehaviorClampAlertLevel(*)(::PVOID, ::System::Boolean&))((::PBYTE)hIl2Cpp + CLASS_2_8E4A47EF10132864_METHOD_2_C0703BA9C5FF3023_OFFSET))(this, a1);
 	}
 
 	::RPG::GameCore::AdventureFeatureMuteLevel Method_2_9A90752C43418F0C()

@@ -8,54 +8,54 @@
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace UnityEngine { class Mesh; }
 
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_INTERNALMESHUTILITY___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EB68E70)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_INTERNALMESHUTILITY___C__CREATEMESHWITHTRANSFORM_B__1_0_OFFSET UNITYSDK_OFFSET(0x1EB68EC0)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_INTERNALMESHUTILITY___C__CREATEMESHWITHTRANSFORM_B__1_1_OFFSET UNITYSDK_OFFSET(0x1EB68F70)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_INTERNALMESHUTILITY___C__CREATEMESHWITHTRANSFORM_B__1_2_OFFSET UNITYSDK_OFFSET(0x1EB69020)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_INTERNALMESHUTILITY___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1EB68EB0)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_INTERNALMESHUTILITY___C__FILTERUNUSEDSUBMESHINDEXES_B__3_0_OFFSET UNITYSDK_OFFSET(0x1EB692E0)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_INTERNALMESHUTILITY___C__RESETPBOBJECTWITHMESHFILTER_B__2_0_OFFSET UNITYSDK_OFFSET(0x1EB690D0)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_INTERNALMESHUTILITY___C__RESETPBOBJECTWITHMESHFILTER_B__2_1_OFFSET UNITYSDK_OFFSET(0x1EB69180)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_INTERNALMESHUTILITY___C__RESETPBOBJECTWITHMESHFILTER_B__2_2_OFFSET UNITYSDK_OFFSET(0x1EB69230)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_INTERNALMESHUTILITY___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F2303D0)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_INTERNALMESHUTILITY___C__CREATEMESHWITHTRANSFORM_B__1_0_OFFSET UNITYSDK_OFFSET(0x1F230420)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_INTERNALMESHUTILITY___C__CREATEMESHWITHTRANSFORM_B__1_1_OFFSET UNITYSDK_OFFSET(0x1F2304D0)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_INTERNALMESHUTILITY___C__CREATEMESHWITHTRANSFORM_B__1_2_OFFSET UNITYSDK_OFFSET(0x1F230580)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_INTERNALMESHUTILITY___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1F230410)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_INTERNALMESHUTILITY___C__FILTERUNUSEDSUBMESHINDEXES_B__3_0_OFFSET UNITYSDK_OFFSET(0x1F230840)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_INTERNALMESHUTILITY___C__RESETPBOBJECTWITHMESHFILTER_B__2_0_OFFSET UNITYSDK_OFFSET(0x1F230630)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_INTERNALMESHUTILITY___C__RESETPBOBJECTWITHMESHFILTER_B__2_1_OFFSET UNITYSDK_OFFSET(0x1F2306E0)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_INTERNALMESHUTILITY___C__RESETPBOBJECTWITHMESHFILTER_B__2_2_OFFSET UNITYSDK_OFFSET(0x1F230790)
 
 namespace UnityEngine::ProBuilder::MeshOperations
 {
-	inline static constexpr unsigned int InternalMeshUtility___c_TypeDefinitionIndex = 43308;
+	inline static constexpr unsigned int InternalMeshUtility___c_TypeDefinitionIndex = 44500;
 
 	class InternalMeshUtility___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::UnityEngine::Mesh*, ::Il2CppArray<::UnityEngine::Color>*>** StaticGet___9__1_1()
+		static ::System::Func_2<::UnityEngine::Mesh*, ::Il2CppArray<::UnityEngine::Vector2>*>** StaticGet___9__1_2()
 		{
-			return (::System::Func_2<::UnityEngine::Mesh*, ::Il2CppArray<::UnityEngine::Color>*>**)Il2CppClass::FromTypeDefinitionIndex(InternalMeshUtility___c_TypeDefinitionIndex)->GetStaticField(0x5E010);
-		}
-		static ::System::Func_2<::System::Boolean, ::System::Boolean>** StaticGet___9__3_0()
-		{
-			return (::System::Func_2<::System::Boolean, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(InternalMeshUtility___c_TypeDefinitionIndex)->GetStaticField(0x5E018);
-		}
-		static ::System::Func_2<::UnityEngine::Mesh*, ::Il2CppArray<::UnityEngine::Color>*>** StaticGet___9__2_1()
-		{
-			return (::System::Func_2<::UnityEngine::Mesh*, ::Il2CppArray<::UnityEngine::Color>*>**)Il2CppClass::FromTypeDefinitionIndex(InternalMeshUtility___c_TypeDefinitionIndex)->GetStaticField(0x5E020);
+			return (::System::Func_2<::UnityEngine::Mesh*, ::Il2CppArray<::UnityEngine::Vector2>*>**)Il2CppClass::FromTypeDefinitionIndex(InternalMeshUtility___c_TypeDefinitionIndex)->GetStaticField(0x54840);
 		}
 		static ::System::Func_2<::UnityEngine::Mesh*, ::Il2CppArray<::UnityEngine::Vector3>*>** StaticGet___9__1_0()
 		{
-			return (::System::Func_2<::UnityEngine::Mesh*, ::Il2CppArray<::UnityEngine::Vector3>*>**)Il2CppClass::FromTypeDefinitionIndex(InternalMeshUtility___c_TypeDefinitionIndex)->GetStaticField(0x5E028);
-		}
-		static ::System::Func_2<::UnityEngine::Mesh*, ::Il2CppArray<::UnityEngine::Vector2>*>** StaticGet___9__1_2()
-		{
-			return (::System::Func_2<::UnityEngine::Mesh*, ::Il2CppArray<::UnityEngine::Vector2>*>**)Il2CppClass::FromTypeDefinitionIndex(InternalMeshUtility___c_TypeDefinitionIndex)->GetStaticField(0x5E030);
-		}
-		static ::UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility___c** StaticGet___9()
-		{
-			return (::UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility___c**)Il2CppClass::FromTypeDefinitionIndex(InternalMeshUtility___c_TypeDefinitionIndex)->GetStaticField(0x5E038);
-		}
-		static ::System::Func_2<::UnityEngine::Mesh*, ::Il2CppArray<::UnityEngine::Vector2>*>** StaticGet___9__2_2()
-		{
-			return (::System::Func_2<::UnityEngine::Mesh*, ::Il2CppArray<::UnityEngine::Vector2>*>**)Il2CppClass::FromTypeDefinitionIndex(InternalMeshUtility___c_TypeDefinitionIndex)->GetStaticField(0x5E040);
+			return (::System::Func_2<::UnityEngine::Mesh*, ::Il2CppArray<::UnityEngine::Vector3>*>**)Il2CppClass::FromTypeDefinitionIndex(InternalMeshUtility___c_TypeDefinitionIndex)->GetStaticField(0x54848);
 		}
 		static ::System::Func_2<::UnityEngine::Mesh*, ::Il2CppArray<::UnityEngine::Vector3>*>** StaticGet___9__2_0()
 		{
-			return (::System::Func_2<::UnityEngine::Mesh*, ::Il2CppArray<::UnityEngine::Vector3>*>**)Il2CppClass::FromTypeDefinitionIndex(InternalMeshUtility___c_TypeDefinitionIndex)->GetStaticField(0x5E048);
+			return (::System::Func_2<::UnityEngine::Mesh*, ::Il2CppArray<::UnityEngine::Vector3>*>**)Il2CppClass::FromTypeDefinitionIndex(InternalMeshUtility___c_TypeDefinitionIndex)->GetStaticField(0x54850);
+		}
+		static ::System::Func_2<::UnityEngine::Mesh*, ::Il2CppArray<::UnityEngine::Color>*>** StaticGet___9__1_1()
+		{
+			return (::System::Func_2<::UnityEngine::Mesh*, ::Il2CppArray<::UnityEngine::Color>*>**)Il2CppClass::FromTypeDefinitionIndex(InternalMeshUtility___c_TypeDefinitionIndex)->GetStaticField(0x54858);
+		}
+		static ::System::Func_2<::UnityEngine::Mesh*, ::Il2CppArray<::UnityEngine::Color>*>** StaticGet___9__2_1()
+		{
+			return (::System::Func_2<::UnityEngine::Mesh*, ::Il2CppArray<::UnityEngine::Color>*>**)Il2CppClass::FromTypeDefinitionIndex(InternalMeshUtility___c_TypeDefinitionIndex)->GetStaticField(0x54860);
+		}
+		static ::UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility___c** StaticGet___9()
+		{
+			return (::UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility___c**)Il2CppClass::FromTypeDefinitionIndex(InternalMeshUtility___c_TypeDefinitionIndex)->GetStaticField(0x54868);
+		}
+		static ::System::Func_2<::UnityEngine::Mesh*, ::Il2CppArray<::UnityEngine::Vector2>*>** StaticGet___9__2_2()
+		{
+			return (::System::Func_2<::UnityEngine::Mesh*, ::Il2CppArray<::UnityEngine::Vector2>*>**)Il2CppClass::FromTypeDefinitionIndex(InternalMeshUtility___c_TypeDefinitionIndex)->GetStaticField(0x54870);
+		}
+		static ::System::Func_2<::System::Boolean, ::System::Boolean>** StaticGet___9__3_0()
+		{
+			return (::System::Func_2<::System::Boolean, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(InternalMeshUtility___c_TypeDefinitionIndex)->GetStaticField(0x54878);
 		}
 
 		static ::System::Void _cctor()

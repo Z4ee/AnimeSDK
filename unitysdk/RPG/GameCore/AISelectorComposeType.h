@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AISelectorComposeType_TypeDefinitionIndex = 15405;
+	inline static constexpr unsigned int AISelectorComposeType_TypeDefinitionIndex = 15576;
 
 	enum class AISelectorComposeType : ::System::Int32
 	{

@@ -5,24 +5,24 @@
 namespace System { template <typename T> class Comparison_1; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define UNITYENGINE_TIMELINE_TRACKASSET___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1ECDF8E0)
-#define UNITYENGINE_TIMELINE_TRACKASSET___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1ECDF910)
-#define UNITYENGINE_TIMELINE_TRACKASSET___C__SORTCLIPS_B__164_0_OFFSET UNITYSDK_OFFSET(0x1ECDF920)
+#define UNITYENGINE_TIMELINE_TRACKASSET___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F3A75C0)
+#define UNITYENGINE_TIMELINE_TRACKASSET___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1F3A75F0)
+#define UNITYENGINE_TIMELINE_TRACKASSET___C__SORTCLIPS_B__164_0_OFFSET UNITYSDK_OFFSET(0x1F3A7600)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int TrackAsset___c_TypeDefinitionIndex = 37503;
+	inline static constexpr unsigned int TrackAsset___c_TypeDefinitionIndex = 38800;
 
 	class TrackAsset___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::UnityEngine::Timeline::TimelineClip*>** StaticGet___9__164_0()
-		{
-			return (::System::Comparison_1<::UnityEngine::Timeline::TimelineClip*>**)Il2CppClass::FromTypeDefinitionIndex(TrackAsset___c_TypeDefinitionIndex)->GetStaticField(0x54280);
-		}
 		static ::UnityEngine::Timeline::TrackAsset___c** StaticGet___9()
 		{
-			return (::UnityEngine::Timeline::TrackAsset___c**)Il2CppClass::FromTypeDefinitionIndex(TrackAsset___c_TypeDefinitionIndex)->GetStaticField(0x54288);
+			return (::UnityEngine::Timeline::TrackAsset___c**)Il2CppClass::FromTypeDefinitionIndex(TrackAsset___c_TypeDefinitionIndex)->GetStaticField(0x4D690);
+		}
+		static ::System::Comparison_1<::UnityEngine::Timeline::TimelineClip*>** StaticGet___9__164_0()
+		{
+			return (::System::Comparison_1<::UnityEngine::Timeline::TimelineClip*>**)Il2CppClass::FromTypeDefinitionIndex(TrackAsset___c_TypeDefinitionIndex)->GetStaticField(0x4D698);
 		}
 
 		static ::System::Void _cctor()

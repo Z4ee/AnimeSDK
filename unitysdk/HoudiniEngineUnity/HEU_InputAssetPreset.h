@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define HOUDINIENGINEUNITY_HEU_INPUTASSETPRESET__CTOR_OFFSET UNITYSDK_OFFSET(0x1B42A300)
+#define HOUDINIENGINEUNITY_HEU_INPUTASSETPRESET__CTOR_OFFSET UNITYSDK_OFFSET(0x1B92BAA0)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_InputAssetPreset_TypeDefinitionIndex = 39071;
+	inline static constexpr unsigned int HEU_InputAssetPreset_TypeDefinitionIndex = 40368;
 
 	class HEU_InputAssetPreset : public ::System::Object
 	{

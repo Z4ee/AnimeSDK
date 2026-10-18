@@ -10,7 +10,7 @@ namespace R3 { template <typename T> class Observer_1; }
 
 namespace ObservableCollections
 {
-	inline static constexpr unsigned int ObservableCollectionChanged_1__ObservableCollectionAdd_TypeDefinitionIndex = 40069;
+	inline static constexpr unsigned int ObservableCollectionChanged_1__ObservableCollectionAdd_TypeDefinitionIndex = 41366;
 
 	template <typename T>
 	class ObservableCollectionChanged_1__ObservableCollectionAdd : public ::ObservableCollections::ObservableCollectionObserverBase_2<T, ::ObservableCollections::CollectionChangedEvent_1<T>>

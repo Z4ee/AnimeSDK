@@ -6,13 +6,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ST_SIDE_HIPPLEN_BUBBLETALK_METHOD_4_272349D579C001E2_OFFSET UNITYSDK_OFFSET(0x1D4D0390)
-#define RPG_GAMECORE_ST_SIDE_HIPPLEN_BUBBLETALK_METHOD_4_E57441599F027FAE_OFFSET UNITYSDK_OFFSET(0x1D4D03E0)
-#define RPG_GAMECORE_ST_SIDE_HIPPLEN_BUBBLETALK__CTOR_OFFSET UNITYSDK_OFFSET(0x1D4D03D0)
+#define RPG_GAMECORE_ST_SIDE_HIPPLEN_BUBBLETALK_METHOD_4_8E471E71B7A0DFE6_OFFSET UNITYSDK_OFFSET(0x1DA83AB0)
+#define RPG_GAMECORE_ST_SIDE_HIPPLEN_BUBBLETALK_METHOD_4_E5BFC3098AC4DAB7_OFFSET UNITYSDK_OFFSET(0x1DA83B00)
+#define RPG_GAMECORE_ST_SIDE_HIPPLEN_BUBBLETALK__CTOR_OFFSET UNITYSDK_OFFSET(0x1DA83AF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ST_Side_Hipplen_BubbleTalk_TypeDefinitionIndex = 21056;
+	inline static constexpr unsigned int ST_Side_Hipplen_BubbleTalk_TypeDefinitionIndex = 21302;
 
 	class ST_Side_Hipplen_BubbleTalk : public ::RPG::GameCore::STTaskConfig
 	{
@@ -28,14 +28,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_SIDE_HIPPLEN_BUBBLETALK__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_272349D579C001E2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ST_Side_Hipplen_BubbleTalk*& a2)
+		static ::System::Void Method_4_8E471E71B7A0DFE6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ST_Side_Hipplen_BubbleTalk*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ST_Side_Hipplen_BubbleTalk*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_SIDE_HIPPLEN_BUBBLETALK_METHOD_4_272349D579C001E2_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ST_Side_Hipplen_BubbleTalk*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_SIDE_HIPPLEN_BUBBLETALK_METHOD_4_8E471E71B7A0DFE6_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_E57441599F027FAE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ST_Side_Hipplen_BubbleTalk* a2)
+		static ::System::Void Method_4_E5BFC3098AC4DAB7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ST_Side_Hipplen_BubbleTalk* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ST_Side_Hipplen_BubbleTalk*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_SIDE_HIPPLEN_BUBBLETALK_METHOD_4_E57441599F027FAE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ST_Side_Hipplen_BubbleTalk*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_SIDE_HIPPLEN_BUBBLETALK_METHOD_4_E5BFC3098AC4DAB7_OFFSET))(a1, a2);
 		}
 	};
 }

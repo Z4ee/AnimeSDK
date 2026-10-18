@@ -4,11 +4,11 @@
 
 namespace IRIClusterBuilder { class IRITextureArray_TextureItem; }
 
-#define IRICLUSTERBUILDER_IRITEXTUREARRAY__CTOR_OFFSET UNITYSDK_OFFSET(0x161B4DE0)
+#define IRICLUSTERBUILDER_IRITEXTUREARRAY__CTOR_OFFSET UNITYSDK_OFFSET(0x1652D130)
 
 namespace IRIClusterBuilder
 {
-	inline static constexpr unsigned int IRITextureArray_TypeDefinitionIndex = 48210;
+	inline static constexpr unsigned int IRITextureArray_TypeDefinitionIndex = 47751;
 
 	class IRITextureArray : public ::UnityEngine::ScriptableObject
 	{

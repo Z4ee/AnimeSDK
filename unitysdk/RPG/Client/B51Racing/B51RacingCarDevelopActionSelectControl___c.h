@@ -6,24 +6,24 @@
 namespace RPG::Client::B51Racing { class B51RacingDevelopValueIconItemViewModel; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_B51RACING_B51RACINGCARDEVELOPACTIONSELECTCONTROL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC857B50)
-#define RPG_CLIENT_B51RACING_B51RACINGCARDEVELOPACTIONSELECTCONTROL___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC857B90)
-#define RPG_CLIENT_B51RACING_B51RACINGCARDEVELOPACTIONSELECTCONTROL___C___REFRESHDATA_B__51_0_OFFSET UNITYSDK_OFFSET(0xC857BA0)
+#define RPG_CLIENT_B51RACING_B51RACINGCARDEVELOPACTIONSELECTCONTROL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC725810)
+#define RPG_CLIENT_B51RACING_B51RACINGCARDEVELOPACTIONSELECTCONTROL___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC725850)
+#define RPG_CLIENT_B51RACING_B51RACINGCARDEVELOPACTIONSELECTCONTROL___C___REFRESHDATA_B__51_0_OFFSET UNITYSDK_OFFSET(0xC725860)
 
 namespace RPG::Client::B51Racing
 {
-	inline static constexpr unsigned int B51RacingCarDevelopActionSelectControl___c_TypeDefinitionIndex = 80472;
+	inline static constexpr unsigned int B51RacingCarDevelopActionSelectControl___c_TypeDefinitionIndex = 81800;
 
 	class B51RacingCarDevelopActionSelectControl___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::B51Racing::B51RacingCarDevelopActionSelectControl___c** StaticGet___9()
-		{
-			return (::RPG::Client::B51Racing::B51RacingCarDevelopActionSelectControl___c**)Il2CppClass::FromTypeDefinitionIndex(B51RacingCarDevelopActionSelectControl___c_TypeDefinitionIndex)->GetStaticField(0x66720);
-		}
 		static ::System::Func_2<::RPG::Client::B51Racing::B51RacingDevelopValueIconItemViewModel*, ::RPG::GameCore::B51RacingStatType>** StaticGet___9__51_0()
 		{
-			return (::System::Func_2<::RPG::Client::B51Racing::B51RacingDevelopValueIconItemViewModel*, ::RPG::GameCore::B51RacingStatType>**)Il2CppClass::FromTypeDefinitionIndex(B51RacingCarDevelopActionSelectControl___c_TypeDefinitionIndex)->GetStaticField(0x66728);
+			return (::System::Func_2<::RPG::Client::B51Racing::B51RacingDevelopValueIconItemViewModel*, ::RPG::GameCore::B51RacingStatType>**)Il2CppClass::FromTypeDefinitionIndex(B51RacingCarDevelopActionSelectControl___c_TypeDefinitionIndex)->GetStaticField(0x5CBF0);
+		}
+		static ::RPG::Client::B51Racing::B51RacingCarDevelopActionSelectControl___c** StaticGet___9()
+		{
+			return (::RPG::Client::B51Racing::B51RacingCarDevelopActionSelectControl___c**)Il2CppClass::FromTypeDefinitionIndex(B51RacingCarDevelopActionSelectControl___c_TypeDefinitionIndex)->GetStaticField(0x5CBF8);
 		}
 
 		static ::System::Void _cctor()

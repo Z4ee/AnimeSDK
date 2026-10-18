@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FateRinPreCalcPhase_TypeDefinitionIndex = 56156;
+	inline static constexpr unsigned int FateRinPreCalcPhase_TypeDefinitionIndex = 55968;
 
 	enum class FateRinPreCalcPhase : ::System::Byte
 	{

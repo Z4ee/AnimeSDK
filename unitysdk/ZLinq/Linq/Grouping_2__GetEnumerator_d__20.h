@@ -6,7 +6,7 @@ namespace ZLinq::Linq { template <typename T1, typename T2> class Grouping_2; }
 
 namespace ZLinq::Linq
 {
-	inline static constexpr unsigned int Grouping_2__GetEnumerator_d__20_TypeDefinitionIndex = 6133;
+	inline static constexpr unsigned int Grouping_2__GetEnumerator_d__20_TypeDefinitionIndex = 6142;
 
 	template <typename TKey, typename TElement>
 	class Grouping_2__GetEnumerator_d__20 : public ::System::Object

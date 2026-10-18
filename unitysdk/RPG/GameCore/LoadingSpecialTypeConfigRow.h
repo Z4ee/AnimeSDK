@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_LOADINGSPECIALTYPECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D20C0E0)
-#define RPG_GAMECORE_LOADINGSPECIALTYPECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D20C2A0)
+#define RPG_GAMECORE_LOADINGSPECIALTYPECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D7EC950)
+#define RPG_GAMECORE_LOADINGSPECIALTYPECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7ECB10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LoadingSpecialTypeConfigRow_TypeDefinitionIndex = 13884;
+	inline static constexpr unsigned int LoadingSpecialTypeConfigRow_TypeDefinitionIndex = 13991;
 
 	class LoadingSpecialTypeConfigRow : public ::System::Object
 	{

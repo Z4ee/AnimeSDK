@@ -3,7 +3,7 @@
 
 namespace EnviromentSystem
 {
-	inline static constexpr unsigned int EnviromentPropertiesID_TypeDefinitionIndex = 50010;
+	inline static constexpr unsigned int EnviromentPropertiesID_TypeDefinitionIndex = 49585;
 
 	enum class EnviromentPropertiesID : ::System::Int32
 	{
@@ -208,22 +208,24 @@ namespace EnviromentSystem
 		SSGIPerformanceTier = 198,
 		SSRUseHizTrace = 199,
 		UseUnrealProbe = 200,
-		ForwardAnisoAmbientScale = 201,
-		ForwardAnisoFadeByDistanceEnv = 202,
-		AdjustReflectionHSV = 203,
-		LowQualityDisableCSM = 204,
-		CloudShadowCoverage = 205,
-		CloudShadowOpacity = 206,
-		CloudShadowSmoothness = 207,
-		CloudShadowTilling = 208,
-		CloudShadowBias = 209,
-		CloudShadowSpeed = 210,
-		CloudShadowMaxHeight = 211,
-		CameraFarClipPlane = 212,
-		SimpRTXIntensity = 213,
-		SceneLightIntensity_Middle = 214,
-		SceneLightIntensity_Low = 215,
-		OneMinusGlobalMainIntensity = 216,
-		Max = 217,
+		EnableSDFTrace = 201,
+		MaxRaysPerPixel = 202,
+		ForwardAnisoAmbientScale = 203,
+		ForwardAnisoFadeByDistanceEnv = 204,
+		AdjustReflectionHSV = 205,
+		LowQualityDisableCSM = 206,
+		CloudShadowCoverage = 207,
+		CloudShadowOpacity = 208,
+		CloudShadowSmoothness = 209,
+		CloudShadowTilling = 210,
+		CloudShadowBias = 211,
+		CloudShadowSpeed = 212,
+		CloudShadowMaxHeight = 213,
+		CameraFarClipPlane = 214,
+		SimpRTXIntensity = 215,
+		SceneLightIntensity_Middle = 216,
+		SceneLightIntensity_Low = 217,
+		OneMinusGlobalMainIntensity = 218,
+		Max = 219,
 	};
 }

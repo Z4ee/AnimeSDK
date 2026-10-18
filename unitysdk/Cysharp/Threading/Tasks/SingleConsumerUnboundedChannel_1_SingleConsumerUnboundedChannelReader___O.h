@@ -6,7 +6,7 @@ namespace System { template <typename T> class Action_1; }
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int SingleConsumerUnboundedChannel_1_SingleConsumerUnboundedChannelReader___O_TypeDefinitionIndex = 42566;
+	inline static constexpr unsigned int SingleConsumerUnboundedChannel_1_SingleConsumerUnboundedChannelReader___O_TypeDefinitionIndex = 38151;
 
 	template <typename T>
 	class SingleConsumerUnboundedChannel_1_SingleConsumerUnboundedChannelReader___O : public ::System::Object

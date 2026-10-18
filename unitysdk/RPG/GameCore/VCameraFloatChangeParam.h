@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_VCAMERAFLOATCHANGEPARAM_METHOD_2_050D9FE62444F27A_OFFSET UNITYSDK_OFFSET(0x1D629A00)
-#define RPG_GAMECORE_VCAMERAFLOATCHANGEPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1D629D00)
+#define RPG_GAMECORE_VCAMERAFLOATCHANGEPARAM_METHOD_2_050D9FE62444F27A_OFFSET UNITYSDK_OFFSET(0x1DC7E2E0)
+#define RPG_GAMECORE_VCAMERAFLOATCHANGEPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1DC7E5E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int VCameraFloatChangeParam_TypeDefinitionIndex = 16234;
+	inline static constexpr unsigned int VCameraFloatChangeParam_TypeDefinitionIndex = 16407;
 
 	class VCameraFloatChangeParam : public ::RPG::GameCore::JsonConfig
 	{

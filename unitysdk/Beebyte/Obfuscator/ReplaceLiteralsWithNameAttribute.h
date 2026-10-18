@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define BEEBYTE_OBFUSCATOR_REPLACELITERALSWITHNAMEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0xB105050)
+#define BEEBYTE_OBFUSCATOR_REPLACELITERALSWITHNAMEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0xAF0F050)
 
 namespace Beebyte::Obfuscator
 {
-	inline static constexpr unsigned int ReplaceLiteralsWithNameAttribute_TypeDefinitionIndex = 47497;
+	inline static constexpr unsigned int ReplaceLiteralsWithNameAttribute_TypeDefinitionIndex = 47037;
 
 	class ReplaceLiteralsWithNameAttribute : public ::System::Attribute
 	{

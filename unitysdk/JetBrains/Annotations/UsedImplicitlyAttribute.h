@@ -4,12 +4,12 @@
 #include "unitysdk/JetBrains/Annotations/ImplicitUseTargetFlags.h"
 #include "unitysdk/System/Attribute.h"
 
-#define JETBRAINS_ANNOTATIONS_USEDIMPLICITLYATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1ED03940)
-#define JETBRAINS_ANNOTATIONS_USEDIMPLICITLYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1ED03930)
+#define JETBRAINS_ANNOTATIONS_USEDIMPLICITLYATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F3CB6E0)
+#define JETBRAINS_ANNOTATIONS_USEDIMPLICITLYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F3CB6D0)
 
 namespace JetBrains::Annotations
 {
-	inline static constexpr unsigned int UsedImplicitlyAttribute_TypeDefinitionIndex = 4009;
+	inline static constexpr unsigned int UsedImplicitlyAttribute_TypeDefinitionIndex = 4010;
 
 	class UsedImplicitlyAttribute : public ::System::Attribute
 	{

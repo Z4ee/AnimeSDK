@@ -5,12 +5,12 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_TRAINPARTYBUILDITEMDYNAMICBINDVALUE_FSV_METHOD_2_A3FAE12D7B6ACD62_OFFSET UNITYSDK_OFFSET(0xE278010)
-#define RPG_CLIENT_TRAINPARTYBUILDITEMDYNAMICBINDVALUE_FSV__CTOR_OFFSET UNITYSDK_OFFSET(0xE2780A0)
+#define RPG_CLIENT_TRAINPARTYBUILDITEMDYNAMICBINDVALUE_FSV_METHOD_2_A3FAE12D7B6ACD62_OFFSET UNITYSDK_OFFSET(0xE2FE0F0)
+#define RPG_CLIENT_TRAINPARTYBUILDITEMDYNAMICBINDVALUE_FSV__CTOR_OFFSET UNITYSDK_OFFSET(0xE2FE180)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TrainPartyBuildItemDynamicBindValue_FSV_TypeDefinitionIndex = 68845;
+	inline static constexpr unsigned int TrainPartyBuildItemDynamicBindValue_FSV_TypeDefinitionIndex = 68879;
 
 	class TrainPartyBuildItemDynamicBindValue_FSV : public ::RPG::Client::TrainPartyBuildItemDynamicBindValue
 	{

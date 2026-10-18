@@ -6,35 +6,35 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MINIMAPICONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D2A05B0)
-#define RPG_GAMECORE_MINIMAPICONROW_GETCONNECTICONPATH_OFFSET UNITYSDK_OFFSET(0x1D2A1000)
-#define RPG_GAMECORE_MINIMAPICONROW_GETCONNECTMISSIONICONPATH_OFFSET UNITYSDK_OFFSET(0x1D2A1050)
-#define RPG_GAMECORE_MINIMAPICONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2A0FF0)
+#define RPG_GAMECORE_MINIMAPICONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D8825D0)
+#define RPG_GAMECORE_MINIMAPICONROW_GETCONNECTICONPATH_OFFSET UNITYSDK_OFFSET(0x1D883020)
+#define RPG_GAMECORE_MINIMAPICONROW_GETCONNECTMISSIONICONPATH_OFFSET UNITYSDK_OFFSET(0x1D883070)
+#define RPG_GAMECORE_MINIMAPICONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D883010)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MiniMapIconRow_TypeDefinitionIndex = 12459;
+	inline static constexpr unsigned int MiniMapIconRow_TypeDefinitionIndex = 12549;
 
 	class MiniMapIconRow : public ::System::Object
 	{
 	public:
 		::System::String* MissionIconPath; // 0x10
-		::System::String* IconName; // 0x18
-		::System::String* IconPath; // 0x20
-		::Il2CppArray<::System::UInt32>* FiveDimBillboardIDList; // 0x28
-		::System::UInt32 Priority; // 0x30
-		::System::UInt32 BillboardIcon; // 0x34
-		::System::UInt32 ConnectID; // 0x38
-		::RPG::GameCore::MiniMapIconOrientationType IconOrientetionSwitch; // 0x3C
-		::System::Boolean IsShowInBillboard; // 0x40
-		::System::Boolean IsCrossLayer; // 0x41
-		::System::UInt32 ModelIcon; // 0x44
-		::System::UInt32 ID; // 0x48
-		::System::Boolean IsShowCornerArrow; // 0x4C
-		::System::Boolean isShowinMap; // 0x4D
-		::System::Boolean IsFollowMapScale; // 0x4E
-		::System::Boolean IsFollowPropScale; // 0x4F
-		::System::UInt32 CircleRange; // 0x50
+		::Il2CppArray<::System::UInt32>* FiveDimBillboardIDList; // 0x18
+		::System::String* IconName; // 0x20
+		::System::String* IconPath; // 0x28
+		::RPG::GameCore::MiniMapIconOrientationType IconOrientetionSwitch; // 0x30
+		::System::Boolean IsShowInBillboard; // 0x34
+		::System::Boolean IsFollowPropScale; // 0x35
+		::System::Boolean IsFollowMapScale; // 0x36
+		::System::Boolean IsShowCornerArrow; // 0x37
+		::System::UInt32 CircleRange; // 0x38
+		::System::UInt32 ID; // 0x3C
+		::System::UInt32 ModelIcon; // 0x40
+		::System::UInt32 ConnectID; // 0x44
+		::System::Boolean isShowinMap; // 0x48
+		::System::Boolean IsCrossLayer; // 0x49
+		::System::UInt32 Priority; // 0x4C
+		::System::UInt32 BillboardIcon; // 0x50
 
 		::System::Void _ctor()
 		{

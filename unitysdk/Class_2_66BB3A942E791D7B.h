@@ -1,22 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_29B23DDF98AF43AC.h"
+#include "unitysdk/Class_1_CBE3940117D4417A.h"
 #include "unitysdk/RPG/GameCore/TriggerExitReason.h"
 
 namespace RPG::GameCore { class GameEntity; }
 namespace System { template <typename T> class Action_1; }
 
-#define CLASS_2_66BB3A942E791D7B_DOONENTER_OFFSET UNITYSDK_OFFSET(0xBF1B210)
-#define CLASS_2_66BB3A942E791D7B_DOONEXIT_OFFSET UNITYSDK_OFFSET(0xBF1B280)
-#define CLASS_2_66BB3A942E791D7B__CTOR_OFFSET UNITYSDK_OFFSET(0xBF1B1C0)
+#define CLASS_2_66BB3A942E791D7B_DOONENTER_OFFSET UNITYSDK_OFFSET(0xBDFEA20)
+#define CLASS_2_66BB3A942E791D7B_DOONEXIT_OFFSET UNITYSDK_OFFSET(0xBDFEA90)
+#define CLASS_2_66BB3A942E791D7B__CTOR_OFFSET UNITYSDK_OFFSET(0xBDFE9D0)
 
-inline static constexpr unsigned int Class_2_66BB3A942E791D7B_TypeDefinitionIndex = 57684;
+inline static constexpr unsigned int Class_2_66BB3A942E791D7B_TypeDefinitionIndex = 57530;
 
-class Class_2_66BB3A942E791D7B : public ::Class_1_29B23DDF98AF43AC
+class Class_2_66BB3A942E791D7B : public ::Class_1_CBE3940117D4417A
 {
 public:
-	::System::Action_1<::RPG::GameCore::GameEntity*>* FFKBFPKEPEN; // 0x98
-	::System::Action_1<::RPG::GameCore::GameEntity*>* NMPLHCJKEOI; // 0xA0
+	::System::Action_1<::RPG::GameCore::GameEntity*>* FFKBFPKEPEN; // 0xA0
+	::System::Action_1<::RPG::GameCore::GameEntity*>* NMPLHCJKEOI; // 0xA8
 
 	::System::Void _ctor(::RPG::GameCore::GameEntity* a1, ::System::Action_1<::RPG::GameCore::GameEntity*>* a2, ::System::Action_1<::RPG::GameCore::GameEntity*>* a3)
 	{

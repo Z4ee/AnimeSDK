@@ -6,11 +6,11 @@ namespace RPG::Client { class MaterialSwitchBehavior; }
 namespace RPG::Client { class MaterialSwitchMonoPlugin_MatPathConfig; }
 namespace RPG::Client { class MaterialSwitchMonoPlugin_MaterialBlock; }
 
-#define RPG_CLIENT_MATERIALSWITCHMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xD686A10)
+#define RPG_CLIENT_MATERIALSWITCHMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xD5E0490)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MaterialSwitchMonoPlugin_TypeDefinitionIndex = 70688;
+	inline static constexpr unsigned int MaterialSwitchMonoPlugin_TypeDefinitionIndex = 70724;
 
 	class MaterialSwitchMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::MaterialSwitchBehavior*>
 	{

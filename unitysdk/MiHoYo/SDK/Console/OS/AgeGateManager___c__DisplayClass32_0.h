@@ -5,18 +5,18 @@
 namespace MiHoYo::SDK::Console::OS { class AgeGateManager; }
 namespace MiHoYo::SDK::UI::OS { class IAgeGateAgeAppealOptionDialog; }
 
-#define MIHOYO_SDK_CONSOLE_OS_AGEGATEMANAGER___C__DISPLAYCLASS32_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7B0380)
-#define MIHOYO_SDK_CONSOLE_OS_AGEGATEMANAGER___C__DISPLAYCLASS32_0__PROCESSAGEGATETICKET_B__2_OFFSET UNITYSDK_OFFSET(0x1B7B3780)
+#define MIHOYO_SDK_CONSOLE_OS_AGEGATEMANAGER___C__DISPLAYCLASS32_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BCAF920)
+#define MIHOYO_SDK_CONSOLE_OS_AGEGATEMANAGER___C__DISPLAYCLASS32_0__PROCESSAGEGATETICKET_B__2_OFFSET UNITYSDK_OFFSET(0x1BCB2D20)
 
 namespace MiHoYo::SDK::Console::OS
 {
-	inline static constexpr unsigned int AgeGateManager___c__DisplayClass32_0_TypeDefinitionIndex = 8997;
+	inline static constexpr unsigned int AgeGateManager___c__DisplayClass32_0_TypeDefinitionIndex = 9058;
 
 	class AgeGateManager___c__DisplayClass32_0 : public ::System::Object
 	{
 	public:
-		::MiHoYo::SDK::Console::OS::AgeGateManager* __4__this; // 0x10
-		::MiHoYo::SDK::UI::OS::IAgeGateAgeAppealOptionDialog* dialog; // 0x18
+		::MiHoYo::SDK::UI::OS::IAgeGateAgeAppealOptionDialog* dialog; // 0x10
+		::MiHoYo::SDK::Console::OS::AgeGateManager* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

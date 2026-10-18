@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/ScriptableObject.h"
 
-#define IRICLUSTERBUILDER_IRIMESHCLUSTERITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x161B4D30)
+#define IRICLUSTERBUILDER_IRIMESHCLUSTERITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1652D080)
 
 namespace IRIClusterBuilder
 {
-	inline static constexpr unsigned int IRIMeshClusterItem_TypeDefinitionIndex = 48206;
+	inline static constexpr unsigned int IRIMeshClusterItem_TypeDefinitionIndex = 47747;
 
 	class IRIMeshClusterItem : public ::UnityEngine::ScriptableObject
 	{

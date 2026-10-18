@@ -6,18 +6,18 @@ namespace R3 { template <typename T> class ReactiveProperty_1; }
 namespace RPG::UINavigation { class UINavigationButton; }
 namespace System { template <typename T> class Action_1; }
 
-#define CLASS_1_26687D2111A584CB_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBF547C0)
-#define CLASS_1_26687D2111A584CB_METHOD_1_6423291ED13007B8_OFFSET UNITYSDK_OFFSET(0xBF546E0)
-#define CLASS_1_26687D2111A584CB__CTOR_OFFSET UNITYSDK_OFFSET(0xBF544E0)
+#define CLASS_1_26687D2111A584CB_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBE39080)
+#define CLASS_1_26687D2111A584CB_METHOD_1_6423291ED13007B8_OFFSET UNITYSDK_OFFSET(0xBE38FA0)
+#define CLASS_1_26687D2111A584CB__CTOR_OFFSET UNITYSDK_OFFSET(0xBE38DA0)
 
-inline static constexpr unsigned int Class_1_26687D2111A584CB_TypeDefinitionIndex = 50201;
+inline static constexpr unsigned int Class_1_26687D2111A584CB_TypeDefinitionIndex = 49828;
 
 class Class_1_26687D2111A584CB : public ::System::Object
 {
 public:
-	::System::Action_1<::System::Boolean>* MBOEDFCNCJF; // 0x10
+	::RPG::UINavigation::UINavigationButton* AAFGIHCCPOP; // 0x10
 	::R3::ReactiveProperty_1<::System::Boolean>* AGFAPPGGKMA; // 0x18
-	::RPG::UINavigation::UINavigationButton* AAFGIHCCPOP; // 0x20
+	::System::Action_1<::System::Boolean>* MBOEDFCNCJF; // 0x20
 
 	::System::Void _ctor(::RPG::UINavigation::UINavigationButton* a1, ::R3::ReactiveProperty_1<::System::Boolean>* a2)
 	{

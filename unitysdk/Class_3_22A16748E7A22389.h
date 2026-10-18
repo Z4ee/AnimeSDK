@@ -6,11 +6,11 @@ namespace RPG::GameCore { class BindSwitchPhotoGraphFuncBtn; }
 namespace RPG::GameCore { class PropComponent; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_22A16748E7A22389_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15844D70)
-#define CLASS_3_22A16748E7A22389_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15844ED0)
-#define CLASS_3_22A16748E7A22389__CTOR_OFFSET UNITYSDK_OFFSET(0x15844D50)
+#define CLASS_3_22A16748E7A22389_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15B3D090)
+#define CLASS_3_22A16748E7A22389_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15B3D1F0)
+#define CLASS_3_22A16748E7A22389__CTOR_OFFSET UNITYSDK_OFFSET(0x15B3D070)
 
-inline static constexpr unsigned int Class_3_22A16748E7A22389_TypeDefinitionIndex = 52810;
+inline static constexpr unsigned int Class_3_22A16748E7A22389_TypeDefinitionIndex = 52536;
 
 class Class_3_22A16748E7A22389 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::BindSwitchPhotoGraphFuncBtn*>
 {

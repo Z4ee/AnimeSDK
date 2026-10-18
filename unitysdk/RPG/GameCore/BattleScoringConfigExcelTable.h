@@ -11,45 +11,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_BATTLESCORINGCONFIGEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1CE7F940)
-#define RPG_GAMECORE_BATTLESCORINGCONFIGEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1CE7F810)
-#define RPG_GAMECORE_BATTLESCORINGCONFIGEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1CE7F500)
-#define RPG_GAMECORE_BATTLESCORINGCONFIGEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1CE7F7B0)
-#define RPG_GAMECORE_BATTLESCORINGCONFIGEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1CE7FA90)
-#define RPG_GAMECORE_BATTLESCORINGCONFIGEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1CE7F580)
-#define RPG_GAMECORE_BATTLESCORINGCONFIGEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1CE7FAD0)
-#define RPG_GAMECORE_BATTLESCORINGCONFIGEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CE7FCA0)
-#define RPG_GAMECORE_BATTLESCORINGCONFIGEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1CE80120)
-#define RPG_GAMECORE_BATTLESCORINGCONFIGEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CE80440)
-#define RPG_GAMECORE_BATTLESCORINGCONFIGEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1CE7FC00)
-#define RPG_GAMECORE_BATTLESCORINGCONFIGEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1CE7FB60)
+#define RPG_GAMECORE_BATTLESCORINGCONFIGEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1D467870)
+#define RPG_GAMECORE_BATTLESCORINGCONFIGEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1D467740)
+#define RPG_GAMECORE_BATTLESCORINGCONFIGEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1D467430)
+#define RPG_GAMECORE_BATTLESCORINGCONFIGEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1D4676E0)
+#define RPG_GAMECORE_BATTLESCORINGCONFIGEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1D4679C0)
+#define RPG_GAMECORE_BATTLESCORINGCONFIGEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D4674B0)
+#define RPG_GAMECORE_BATTLESCORINGCONFIGEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1D467A00)
+#define RPG_GAMECORE_BATTLESCORINGCONFIGEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D467BD0)
+#define RPG_GAMECORE_BATTLESCORINGCONFIGEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1D468050)
+#define RPG_GAMECORE_BATTLESCORINGCONFIGEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D468370)
+#define RPG_GAMECORE_BATTLESCORINGCONFIGEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1D467B30)
+#define RPG_GAMECORE_BATTLESCORINGCONFIGEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D467A90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleScoringConfigExcelTable_TypeDefinitionIndex = 12786;
+	inline static constexpr unsigned int BattleScoringConfigExcelTable_TypeDefinitionIndex = 12881;
 
 	class BattleScoringConfigExcelTable : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::BattleScoringConfigRow*>** StaticGet_dataDict_()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::BattleScoringConfigRow*>**)Il2CppClass::FromTypeDefinitionIndex(BattleScoringConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0xC3B0);
-		}
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(BattleScoringConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0xC3B8);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(BattleScoringConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x56680);
+		}
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::BattleScoringConfigRow*>** StaticGet_dataDict_()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::BattleScoringConfigRow*>**)Il2CppClass::FromTypeDefinitionIndex(BattleScoringConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x56688);
 		}
 		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(BattleScoringConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0xC3C0);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(BattleScoringConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x56690);
 		}
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(BattleScoringConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x3B30);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(BattleScoringConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x13200);
 		}
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(BattleScoringConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x3B31);
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(BattleScoringConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x13201);
 		}
 
 		static ::System::Void _cctor()

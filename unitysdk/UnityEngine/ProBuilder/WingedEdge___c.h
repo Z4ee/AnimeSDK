@@ -6,29 +6,29 @@
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace UnityEngine::ProBuilder { class WingedEdge; }
 
-#define UNITYENGINE_PROBUILDER_WINGEDEDGE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EBD38D0)
-#define UNITYENGINE_PROBUILDER_WINGEDEDGE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1EBD3910)
-#define UNITYENGINE_PROBUILDER_WINGEDEDGE___C__SORTCOMMONINDEXESBYADJACENCY_B__32_1_OFFSET UNITYSDK_OFFSET(0x1EBD3920)
-#define UNITYENGINE_PROBUILDER_WINGEDEDGE___C__SORTCOMMONINDEXESBYADJACENCY_B__32_2_OFFSET UNITYSDK_OFFSET(0x1EBD3940)
+#define UNITYENGINE_PROBUILDER_WINGEDEDGE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F29B640)
+#define UNITYENGINE_PROBUILDER_WINGEDEDGE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1F29B680)
+#define UNITYENGINE_PROBUILDER_WINGEDEDGE___C__SORTCOMMONINDEXESBYADJACENCY_B__32_1_OFFSET UNITYSDK_OFFSET(0x1F29B690)
+#define UNITYENGINE_PROBUILDER_WINGEDEDGE___C__SORTCOMMONINDEXESBYADJACENCY_B__32_2_OFFSET UNITYSDK_OFFSET(0x1F29B6B0)
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int WingedEdge___c_TypeDefinitionIndex = 43263;
+	inline static constexpr unsigned int WingedEdge___c_TypeDefinitionIndex = 44455;
 
 	class WingedEdge___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, ::UnityEngine::ProBuilder::Edge>** StaticGet___9__32_1()
-		{
-			return (::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, ::UnityEngine::ProBuilder::Edge>**)Il2CppClass::FromTypeDefinitionIndex(WingedEdge___c_TypeDefinitionIndex)->GetStaticField(0x60D20);
-		}
 		static ::System::Func_2<::UnityEngine::ProBuilder::Edge, ::System::Int32>** StaticGet___9__32_2()
 		{
-			return (::System::Func_2<::UnityEngine::ProBuilder::Edge, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(WingedEdge___c_TypeDefinitionIndex)->GetStaticField(0x60D28);
+			return (::System::Func_2<::UnityEngine::ProBuilder::Edge, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(WingedEdge___c_TypeDefinitionIndex)->GetStaticField(0x57D40);
 		}
 		static ::UnityEngine::ProBuilder::WingedEdge___c** StaticGet___9()
 		{
-			return (::UnityEngine::ProBuilder::WingedEdge___c**)Il2CppClass::FromTypeDefinitionIndex(WingedEdge___c_TypeDefinitionIndex)->GetStaticField(0x60D30);
+			return (::UnityEngine::ProBuilder::WingedEdge___c**)Il2CppClass::FromTypeDefinitionIndex(WingedEdge___c_TypeDefinitionIndex)->GetStaticField(0x57D48);
+		}
+		static ::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, ::UnityEngine::ProBuilder::Edge>** StaticGet___9__32_1()
+		{
+			return (::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, ::UnityEngine::ProBuilder::Edge>**)Il2CppClass::FromTypeDefinitionIndex(WingedEdge___c_TypeDefinitionIndex)->GetStaticField(0x57D50);
 		}
 
 		static ::System::Void _cctor()

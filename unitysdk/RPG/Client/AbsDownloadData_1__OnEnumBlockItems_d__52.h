@@ -10,7 +10,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AbsDownloadData_1__OnEnumBlockItems_d__52_TypeDefinitionIndex = 59593;
+	inline static constexpr unsigned int AbsDownloadData_1__OnEnumBlockItems_d__52_TypeDefinitionIndex = 59448;
 
 	template <typename TIndex>
 	class AbsDownloadData_1__OnEnumBlockItems_d__52 : public ::System::Object

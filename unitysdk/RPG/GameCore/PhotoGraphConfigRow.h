@@ -7,12 +7,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_PHOTOGRAPHCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D32B210)
-#define RPG_GAMECORE_PHOTOGRAPHCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D32B3F0)
+#define RPG_GAMECORE_PHOTOGRAPHCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D9103A0)
+#define RPG_GAMECORE_PHOTOGRAPHCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D910580)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PhotoGraphConfigRow_TypeDefinitionIndex = 14324;
+	inline static constexpr unsigned int PhotoGraphConfigRow_TypeDefinitionIndex = 14489;
 
 	class PhotoGraphConfigRow : public ::System::Object
 	{

@@ -8,25 +8,25 @@ namespace RPG::CustomRP { class RPGLensGlitch; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define RPG_CUSTOMRP_RPGLENSGLITCHRENDERER_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1C6D4840)
-#define RPG_CUSTOMRP_RPGLENSGLITCHRENDERER_INNEREXECUTE_OFFSET UNITYSDK_OFFSET(0x1C6D4F00)
-#define RPG_CUSTOMRP_RPGLENSGLITCHRENDERER_SETPARAM_OFFSET UNITYSDK_OFFSET(0x1C6D4910)
-#define RPG_CUSTOMRP_RPGLENSGLITCHRENDERER_SETRENDERTARGET_OFFSET UNITYSDK_OFFSET(0x1C6D4900)
-#define RPG_CUSTOMRP_RPGLENSGLITCHRENDERER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1C6D4800)
-#define RPG_CUSTOMRP_RPGLENSGLITCHRENDERER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C6D4790)
+#define RPG_CUSTOMRP_RPGLENSGLITCHRENDERER_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1CC5AD60)
+#define RPG_CUSTOMRP_RPGLENSGLITCHRENDERER_INNEREXECUTE_OFFSET UNITYSDK_OFFSET(0x1CC5B420)
+#define RPG_CUSTOMRP_RPGLENSGLITCHRENDERER_SETPARAM_OFFSET UNITYSDK_OFFSET(0x1CC5AE30)
+#define RPG_CUSTOMRP_RPGLENSGLITCHRENDERER_SETRENDERTARGET_OFFSET UNITYSDK_OFFSET(0x1CC5AE20)
+#define RPG_CUSTOMRP_RPGLENSGLITCHRENDERER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1CC5AD20)
+#define RPG_CUSTOMRP_RPGLENSGLITCHRENDERER__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC5ACB0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int RPGLensGlitchRenderer_TypeDefinitionIndex = 37139;
+	inline static constexpr unsigned int RPGLensGlitchRenderer_TypeDefinitionIndex = 37825;
 
 	class RPGLensGlitchRenderer : public ::RPG::CustomRP::CRPPostprocessSubPass2
 	{
 	public:
-		::RPG::CustomRP::RPGLensGlitch* settings; // 0x28
-		::UnityEngine::Material* _GlitchMat; // 0x30
+		::UnityEngine::Material* _GlitchMat; // 0x28
+		::RPG::CustomRP::RPGLensGlitch* settings; // 0x30
 		::System::Int32 _PPGlitchCopy; // 0x38
-		::UnityEngine::RenderTextureDescriptor glitchCopyDesc; // 0x3C
-		::System::Int32 _RenderTarget; // 0x6C
+		::System::Int32 _RenderTarget; // 0x3C
+		::UnityEngine::RenderTextureDescriptor glitchCopyDesc; // 0x40
 
 		::System::Void _ctor(::RPG::CustomRP::MaterialLibrary* a1)
 		{

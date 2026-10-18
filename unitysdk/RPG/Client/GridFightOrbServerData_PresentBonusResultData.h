@@ -4,11 +4,11 @@
 
 namespace RPG::Client { class GridFightBonusResultData; }
 
-#define RPG_CLIENT_GRIDFIGHTORBSERVERDATA_PRESENTBONUSRESULTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xD22B500)
+#define RPG_CLIENT_GRIDFIGHTORBSERVERDATA_PRESENTBONUSRESULTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xD1CCCA0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightOrbServerData_PresentBonusResultData_TypeDefinitionIndex = 64503;
+	inline static constexpr unsigned int GridFightOrbServerData_PresentBonusResultData_TypeDefinitionIndex = 64443;
 
 	class GridFightOrbServerData_PresentBonusResultData : public ::System::Object
 	{

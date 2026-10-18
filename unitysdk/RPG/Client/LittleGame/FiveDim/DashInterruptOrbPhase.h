@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int DashInterruptOrbPhase_TypeDefinitionIndex = 41798;
+	inline static constexpr unsigned int DashInterruptOrbPhase_TypeDefinitionIndex = 43440;
 
 	enum class DashInterruptOrbPhase : ::System::Int32
 	{

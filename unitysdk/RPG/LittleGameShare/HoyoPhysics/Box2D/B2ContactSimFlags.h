@@ -3,7 +3,7 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2ContactSimFlags_TypeDefinitionIndex = 35944;
+	inline static constexpr unsigned int B2ContactSimFlags_TypeDefinitionIndex = 36631;
 
 	enum class B2ContactSimFlags : ::System::Int32
 	{

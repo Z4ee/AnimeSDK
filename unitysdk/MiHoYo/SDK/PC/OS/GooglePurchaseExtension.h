@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_GOOGLEPURCHASEEXTENSION__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA0F330)
+#define MIHOYO_SDK_PC_OS_GOOGLEPURCHASEEXTENSION__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF13330)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int GooglePurchaseExtension_TypeDefinitionIndex = 8476;
+	inline static constexpr unsigned int GooglePurchaseExtension_TypeDefinitionIndex = 8536;
 
 	class GooglePurchaseExtension : public ::System::Object
 	{

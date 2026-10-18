@@ -6,27 +6,27 @@ namespace RPG::Client { class ChimeraDuelChimeraData; }
 namespace RPG::Client { class ChimeraDuelItemData; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define CLASS_1_97E659ED8D5D259C_8___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xBF5C9A0)
-#define CLASS_1_97E659ED8D5D259C_8___C__CTOR_OFFSET UNITYSDK_OFFSET(0xBF5C9E0)
-#define CLASS_1_97E659ED8D5D259C_8___C___GETCHIMERAPOOLMAXRARITY_B__14_1_OFFSET UNITYSDK_OFFSET(0xBF5C9F0)
-#define CLASS_1_97E659ED8D5D259C_8___C___GETITEMPOOLMAXRARITY_B__15_1_OFFSET UNITYSDK_OFFSET(0xBF5CA50)
+#define CLASS_1_97E659ED8D5D259C_8___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xBE42680)
+#define CLASS_1_97E659ED8D5D259C_8___C__CTOR_OFFSET UNITYSDK_OFFSET(0xBE426C0)
+#define CLASS_1_97E659ED8D5D259C_8___C___GETCHIMERAPOOLMAXRARITY_B__14_1_OFFSET UNITYSDK_OFFSET(0xBE426D0)
+#define CLASS_1_97E659ED8D5D259C_8___C___GETITEMPOOLMAXRARITY_B__15_1_OFFSET UNITYSDK_OFFSET(0xBE42730)
 
-inline static constexpr unsigned int Class_1_97E659ED8D5D259C_8___c_TypeDefinitionIndex = 63445;
+inline static constexpr unsigned int Class_1_97E659ED8D5D259C_8___c_TypeDefinitionIndex = 63383;
 
 class Class_1_97E659ED8D5D259C_8___c : public ::System::Object
 {
 public:
-	static ::System::Func_2<::RPG::Client::ChimeraDuelItemData*, ::System::UInt32>** StaticGet___9__15_1()
+	static ::System::Func_2<::RPG::Client::ChimeraDuelChimeraData*, ::System::UInt32>** StaticGet___9__14_1()
 	{
-		return (::System::Func_2<::RPG::Client::ChimeraDuelItemData*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_97E659ED8D5D259C_8___c_TypeDefinitionIndex)->GetStaticField(0x67230);
+		return (::System::Func_2<::RPG::Client::ChimeraDuelChimeraData*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_97E659ED8D5D259C_8___c_TypeDefinitionIndex)->GetStaticField(0x64760);
 	}
 	static ::Class_1_97E659ED8D5D259C_8___c** StaticGet___9()
 	{
-		return (::Class_1_97E659ED8D5D259C_8___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_97E659ED8D5D259C_8___c_TypeDefinitionIndex)->GetStaticField(0x67238);
+		return (::Class_1_97E659ED8D5D259C_8___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_97E659ED8D5D259C_8___c_TypeDefinitionIndex)->GetStaticField(0x64768);
 	}
-	static ::System::Func_2<::RPG::Client::ChimeraDuelChimeraData*, ::System::UInt32>** StaticGet___9__14_1()
+	static ::System::Func_2<::RPG::Client::ChimeraDuelItemData*, ::System::UInt32>** StaticGet___9__15_1()
 	{
-		return (::System::Func_2<::RPG::Client::ChimeraDuelChimeraData*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_97E659ED8D5D259C_8___c_TypeDefinitionIndex)->GetStaticField(0x67240);
+		return (::System::Func_2<::RPG::Client::ChimeraDuelItemData*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_97E659ED8D5D259C_8___c_TypeDefinitionIndex)->GetStaticField(0x64770);
 	}
 
 	static ::System::Void _cctor()

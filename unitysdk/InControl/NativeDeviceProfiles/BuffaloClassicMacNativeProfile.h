@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/InControl/InputDeviceProfile.h"
 
-#define INCONTROL_NATIVEDEVICEPROFILES_BUFFALOCLASSICMACNATIVEPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x1B507A90)
-#define INCONTROL_NATIVEDEVICEPROFILES_BUFFALOCLASSICMACNATIVEPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B508370)
+#define INCONTROL_NATIVEDEVICEPROFILES_BUFFALOCLASSICMACNATIVEPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x1BA066F0)
+#define INCONTROL_NATIVEDEVICEPROFILES_BUFFALOCLASSICMACNATIVEPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA06FD0)
 
 namespace InControl::NativeDeviceProfiles
 {
-	inline static constexpr unsigned int BuffaloClassicMacNativeProfile_TypeDefinitionIndex = 39956;
+	inline static constexpr unsigned int BuffaloClassicMacNativeProfile_TypeDefinitionIndex = 41253;
 
 	class BuffaloClassicMacNativeProfile : public ::InControl::InputDeviceProfile
 	{

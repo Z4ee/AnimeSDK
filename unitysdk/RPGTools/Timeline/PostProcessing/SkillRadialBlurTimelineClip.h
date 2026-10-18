@@ -4,11 +4,11 @@
 
 namespace RPGTools::Timeline::PostProcessing { class SkillRadialBlurTimelineBehaviour; }
 
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_SKILLRADIALBLURTIMELINECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xE8D49E0)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_SKILLRADIALBLURTIMELINECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xE92A280)
 
 namespace RPGTools::Timeline::PostProcessing
 {
-	inline static constexpr unsigned int SkillRadialBlurTimelineClip_TypeDefinitionIndex = 49067;
+	inline static constexpr unsigned int SkillRadialBlurTimelineClip_TypeDefinitionIndex = 48613;
 
 	class SkillRadialBlurTimelineClip : public ::RPGTools::Timeline::PostProcessing::BaseTimelineClip_1<::RPGTools::Timeline::PostProcessing::SkillRadialBlurTimelineBehaviour*>
 	{

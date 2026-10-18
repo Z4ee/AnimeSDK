@@ -7,12 +7,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_NUMBARTYPECONFIG_METHOD_2_6D2242AA2333D3CF_OFFSET UNITYSDK_OFFSET(0x1D2FA960)
-#define RPG_GAMECORE_NUMBARTYPECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2FAAD0)
+#define RPG_GAMECORE_NUMBARTYPECONFIG_METHOD_2_6D2242AA2333D3CF_OFFSET UNITYSDK_OFFSET(0x1D8DE370)
+#define RPG_GAMECORE_NUMBARTYPECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D8DE4E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int NumBarTypeConfig_TypeDefinitionIndex = 22481;
+	inline static constexpr unsigned int NumBarTypeConfig_TypeDefinitionIndex = 22736;
 
 	class NumBarTypeConfig : public ::RPG::GameCore::JsonConfig
 	{

@@ -4,20 +4,20 @@
 
 namespace Proto { class EntitySnapshot; }
 
-#define PROTO_ENTITYSNAPSHOT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D9365A0)
-#define PROTO_ENTITYSNAPSHOT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1D9365E0)
-#define PROTO_ENTITYSNAPSHOT___C___CCTOR_B__48_0_OFFSET UNITYSDK_OFFSET(0x1D9365F0)
+#define PROTO_ENTITYSNAPSHOT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DFEF660)
+#define PROTO_ENTITYSNAPSHOT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1DFEF6A0)
+#define PROTO_ENTITYSNAPSHOT___C___CCTOR_B__48_0_OFFSET UNITYSDK_OFFSET(0x1DFEF6B0)
 
 namespace Proto
 {
-	inline static constexpr unsigned int EntitySnapshot___c_TypeDefinitionIndex = 25482;
+	inline static constexpr unsigned int EntitySnapshot___c_TypeDefinitionIndex = 25825;
 
 	class EntitySnapshot___c : public ::System::Object
 	{
 	public:
 		static ::Proto::EntitySnapshot___c** StaticGet___9()
 		{
-			return (::Proto::EntitySnapshot___c**)Il2CppClass::FromTypeDefinitionIndex(EntitySnapshot___c_TypeDefinitionIndex)->GetStaticField(0x58540);
+			return (::Proto::EntitySnapshot___c**)Il2CppClass::FromTypeDefinitionIndex(EntitySnapshot___c_TypeDefinitionIndex)->GetStaticField(0x43A90);
 		}
 
 		static ::System::Void _cctor()

@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightBattleRightInfoMode_TypeDefinitionIndex = 72197;
+	inline static constexpr unsigned int GridFightBattleRightInfoMode_TypeDefinitionIndex = 72270;
 
 	enum class GridFightBattleRightInfoMode : ::System::Int32
 	{

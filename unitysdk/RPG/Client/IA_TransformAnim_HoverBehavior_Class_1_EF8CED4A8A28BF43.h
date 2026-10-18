@@ -7,23 +7,23 @@
 class Class_1_D5302483370BD7FF;
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_IA_TRANSFORMANIM_HOVERBEHAVIOR_CLASS_1_EF8CED4A8A28BF43__CTOR_OFFSET UNITYSDK_OFFSET(0xD3DF110)
+#define RPG_CLIENT_IA_TRANSFORMANIM_HOVERBEHAVIOR_CLASS_1_EF8CED4A8A28BF43__CTOR_OFFSET UNITYSDK_OFFSET(0xD334E90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IA_TransformAnim_HoverBehavior_Class_1_EF8CED4A8A28BF43_TypeDefinitionIndex = 70804;
+	inline static constexpr unsigned int IA_TransformAnim_HoverBehavior_Class_1_EF8CED4A8A28BF43_TypeDefinitionIndex = 70842;
 
 	class IA_TransformAnim_HoverBehavior_Class_1_EF8CED4A8A28BF43 : public ::System::Object
 	{
 	public:
-		::UnityEngine::Transform* DICDJJOJKGF; // 0x10
-		::Class_1_D5302483370BD7FF* CNLHCKELLBE; // 0x18
-		::UnityEngine::Vector3 CPDBBEMHDGF; // 0x20
-		::UnityEngine::Quaternion IHOKNOKAHNE; // 0x2C
-		::System::Boolean HCNJIBHDLJM; // 0x3C
-		::UnityEngine::Vector3 BCANAGEHIJH; // 0x40
-		::UnityEngine::Vector3 KJLPJPHLAGC; // 0x4C
-		::UnityEngine::Quaternion PKKHOMMKEHJ; // 0x58
+		::Class_1_D5302483370BD7FF* CNLHCKELLBE; // 0x10
+		::UnityEngine::Transform* DICDJJOJKGF; // 0x18
+		::UnityEngine::Quaternion IHOKNOKAHNE; // 0x20
+		::UnityEngine::Vector3 BCANAGEHIJH; // 0x30
+		::UnityEngine::Quaternion PKKHOMMKEHJ; // 0x3C
+		::System::Boolean HCNJIBHDLJM; // 0x4C
+		::UnityEngine::Vector3 KJLPJPHLAGC; // 0x50
+		::UnityEngine::Vector3 CPDBBEMHDGF; // 0x5C
 
 		::System::Void _ctor()
 		{

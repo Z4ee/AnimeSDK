@@ -7,10 +7,10 @@ namespace RPG::GameCore { class TargetFetchCameraAnchorTargetList; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_3_C0E26B57C04D7B23_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBECE460)
-#define CLASS_3_C0E26B57C04D7B23__CTOR_OFFSET UNITYSDK_OFFSET(0xBECE410)
+#define CLASS_3_C0E26B57C04D7B23_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBD5FB70)
+#define CLASS_3_C0E26B57C04D7B23__CTOR_OFFSET UNITYSDK_OFFSET(0xBD5FB20)
 
-inline static constexpr unsigned int Class_3_C0E26B57C04D7B23_TypeDefinitionIndex = 59305;
+inline static constexpr unsigned int Class_3_C0E26B57C04D7B23_TypeDefinitionIndex = 59158;
 
 class Class_3_C0E26B57C04D7B23 : public ::RPG::GameCore::TargetEvaluatorImpl_1<::RPG::GameCore::TargetFetchCameraAnchorTargetList*>
 {

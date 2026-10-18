@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/GameCore/TutorialB51RacingGameButtonType.h"
 #include "unitysdk/System/ValueType.h"
 
-#define STRUCT_2_99CB4E9E61A9B002__CTOR_OFFSET UNITYSDK_OFFSET(0x88130)
+#define STRUCT_2_99CB4E9E61A9B002__CTOR_OFFSET UNITYSDK_OFFSET(0x1EDC0)
 
-inline static constexpr unsigned int Struct_2_99CB4E9E61A9B002_TypeDefinitionIndex = 58961;
+inline static constexpr unsigned int Struct_2_99CB4E9E61A9B002_TypeDefinitionIndex = 58813;
 
 struct alignas(4) Struct_2_99CB4E9E61A9B002
 {

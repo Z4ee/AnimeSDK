@@ -10,22 +10,22 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_C68F016107BCCDF0_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBF5AD90)
-#define CLASS_1_C68F016107BCCDF0_METHOD_1_1F9AB1861DA68CF4_OFFSET UNITYSDK_OFFSET(0xBF5A630)
-#define CLASS_1_C68F016107BCCDF0_METHOD_1_974E20FF87A8F3DC_OFFSET UNITYSDK_OFFSET(0xBF5A920)
-#define CLASS_1_C68F016107BCCDF0_METHOD_1_A7E7B6114D51510C_OFFSET UNITYSDK_OFFSET(0xBF5AA90)
-#define CLASS_1_C68F016107BCCDF0_METHOD_1_ACED43539DAFA30B_OFFSET UNITYSDK_OFFSET(0xBF5A330)
-#define CLASS_1_C68F016107BCCDF0__CTOR_OFFSET UNITYSDK_OFFSET(0xBF5AC70)
+#define CLASS_1_C68F016107BCCDF0_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBE3F430)
+#define CLASS_1_C68F016107BCCDF0_METHOD_1_1F9AB1861DA68CF4_OFFSET UNITYSDK_OFFSET(0xBE3ECD0)
+#define CLASS_1_C68F016107BCCDF0_METHOD_1_974E20FF87A8F3DC_OFFSET UNITYSDK_OFFSET(0xBE3EFC0)
+#define CLASS_1_C68F016107BCCDF0_METHOD_1_A7E7B6114D51510C_OFFSET UNITYSDK_OFFSET(0xBE3F130)
+#define CLASS_1_C68F016107BCCDF0_METHOD_1_ACED43539DAFA30B_OFFSET UNITYSDK_OFFSET(0xBE3E9D0)
+#define CLASS_1_C68F016107BCCDF0__CTOR_OFFSET UNITYSDK_OFFSET(0xBE3F310)
 
-inline static constexpr unsigned int Class_1_C68F016107BCCDF0_TypeDefinitionIndex = 60678;
+inline static constexpr unsigned int Class_1_C68F016107BCCDF0_TypeDefinitionIndex = 60579;
 
 class Class_1_C68F016107BCCDF0 : public ::System::Object
 {
 public:
-	::System::String* HOLHGLKFGAO; // 0x10
-	::System::Collections::Generic::Dictionary_2<::RPG::GameCore::LevelGraph*, ::RPG::GameCore::ShowHintEffect*>* IOGKKFKMOBF; // 0x18
-	::RPG::Client::MapDef* MJKJCCNJACA; // 0x20
-	::RPG::Client::TwoKeyDictionary_3<::System::UInt32, ::System::UInt32, ::System::Collections::Generic::List_1<::RPG::GameCore::LevelGraph*>*>* NNLFEPDDPNH; // 0x28
+	::System::Collections::Generic::Dictionary_2<::RPG::GameCore::LevelGraph*, ::RPG::GameCore::ShowHintEffect*>* IOGKKFKMOBF; // 0x10
+	::RPG::Client::MapDef* MJKJCCNJACA; // 0x18
+	::RPG::Client::TwoKeyDictionary_3<::System::UInt32, ::System::UInt32, ::System::Collections::Generic::List_1<::RPG::GameCore::LevelGraph*>*>* NNLFEPDDPNH; // 0x20
+	::System::String* HOLHGLKFGAO; // 0x28
 
 	::System::Void _ctor(::RPG::Client::MapDef* a1)
 	{

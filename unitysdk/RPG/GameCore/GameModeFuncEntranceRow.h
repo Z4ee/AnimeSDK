@@ -4,18 +4,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_GAMEMODEFUNCENTRANCEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D13D700)
-#define RPG_GAMECORE_GAMEMODEFUNCENTRANCEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D13D840)
+#define RPG_GAMECORE_GAMEMODEFUNCENTRANCEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D717270)
+#define RPG_GAMECORE_GAMEMODEFUNCENTRANCEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7173B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GameModeFuncEntranceRow_TypeDefinitionIndex = 13206;
+	inline static constexpr unsigned int GameModeFuncEntranceRow_TypeDefinitionIndex = 13312;
 
 	class GameModeFuncEntranceRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 BranchLineFuncEntranceListID; // 0x10
-		::System::UInt32 GameModeType; // 0x14
+		::System::UInt32 GameModeType; // 0x10
+		::System::UInt32 BranchLineFuncEntranceListID; // 0x14
 		::System::UInt32 MainLineFuncEntranceListID; // 0x18
 
 		::System::Void _ctor()

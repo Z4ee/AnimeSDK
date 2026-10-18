@@ -6,10 +6,10 @@ class Class_1_EFCBA1FD97ED5FE9;
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define CLASS_1_EFCBA1FD97ED5FE9___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB846D30)
-#define CLASS_1_EFCBA1FD97ED5FE9___C__DISPLAYCLASS1_0__LOADART_B__0_OFFSET UNITYSDK_OFFSET(0xB847B20)
+#define CLASS_1_EFCBA1FD97ED5FE9___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB6B9810)
+#define CLASS_1_EFCBA1FD97ED5FE9___C__DISPLAYCLASS1_0__LOADART_B__0_OFFSET UNITYSDK_OFFSET(0xB6BA610)
 
-inline static constexpr unsigned int Class_1_EFCBA1FD97ED5FE9___c__DisplayClass1_0_TypeDefinitionIndex = 57489;
+inline static constexpr unsigned int Class_1_EFCBA1FD97ED5FE9___c__DisplayClass1_0_TypeDefinitionIndex = 57333;
 
 class Class_1_EFCBA1FD97ED5FE9___c__DisplayClass1_0 : public ::System::Object
 {

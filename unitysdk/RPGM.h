@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define RPGM__CTOR_OFFSET UNITYSDK_OFFSET(0xE802980)
+#define RPGM__CTOR_OFFSET UNITYSDK_OFFSET(0xE89E340)
 
-inline static constexpr unsigned int RPGM_TypeDefinitionIndex = 48048;
+inline static constexpr unsigned int RPGM_TypeDefinitionIndex = 47588;
 
 class RPGM : public ::UnityEngine::MonoBehaviour
 {

@@ -5,29 +5,29 @@
 namespace MiHoYo::SDK::PC::OS { class HoYoChannelConsumeResult; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BA23810)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA23850)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY___C__PROCESSENTITLEMENT_B__17_1_OFFSET UNITYSDK_OFFSET(0x1BA23870)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY___C__VERIFYORDER_B__12_3_OFFSET UNITYSDK_OFFSET(0x1BA23860)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BF2D240)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF2D280)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY___C__PROCESSENTITLEMENT_B__18_1_OFFSET UNITYSDK_OFFSET(0x1BF2D2A0)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY___C__VERIFYORDER_B__13_3_OFFSET UNITYSDK_OFFSET(0x1BF2D290)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int HoYoChannelGooglePlay___c_TypeDefinitionIndex = 8520;
+	inline static constexpr unsigned int HoYoChannelGooglePlay___c_TypeDefinitionIndex = 8580;
 
 	class HoYoChannelGooglePlay___c : public ::System::Object
 	{
 	public:
+		static ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelConsumeResult*>** StaticGet___9__18_1()
+		{
+			return (::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelConsumeResult*>**)Il2CppClass::FromTypeDefinitionIndex(HoYoChannelGooglePlay___c_TypeDefinitionIndex)->GetStaticField(0x16C60);
+		}
 		static ::MiHoYo::SDK::PC::OS::HoYoChannelGooglePlay___c** StaticGet___9()
 		{
-			return (::MiHoYo::SDK::PC::OS::HoYoChannelGooglePlay___c**)Il2CppClass::FromTypeDefinitionIndex(HoYoChannelGooglePlay___c_TypeDefinitionIndex)->GetStaticField(0x20860);
+			return (::MiHoYo::SDK::PC::OS::HoYoChannelGooglePlay___c**)Il2CppClass::FromTypeDefinitionIndex(HoYoChannelGooglePlay___c_TypeDefinitionIndex)->GetStaticField(0x16C68);
 		}
-		static ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelConsumeResult*>** StaticGet___9__17_1()
+		static ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelConsumeResult*>** StaticGet___9__13_3()
 		{
-			return (::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelConsumeResult*>**)Il2CppClass::FromTypeDefinitionIndex(HoYoChannelGooglePlay___c_TypeDefinitionIndex)->GetStaticField(0x20868);
-		}
-		static ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelConsumeResult*>** StaticGet___9__12_3()
-		{
-			return (::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelConsumeResult*>**)Il2CppClass::FromTypeDefinitionIndex(HoYoChannelGooglePlay___c_TypeDefinitionIndex)->GetStaticField(0x20870);
+			return (::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelConsumeResult*>**)Il2CppClass::FromTypeDefinitionIndex(HoYoChannelGooglePlay___c_TypeDefinitionIndex)->GetStaticField(0x16C70);
 		}
 
 		static ::System::Void _cctor()
@@ -40,14 +40,14 @@ namespace MiHoYo::SDK::PC::OS
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _VerifyOrder_b__12_3(::MiHoYo::SDK::PC::OS::HoYoChannelConsumeResult* a1)
+		::System::Void _VerifyOrder_b__13_3(::MiHoYo::SDK::PC::OS::HoYoChannelConsumeResult* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::PC::OS::HoYoChannelConsumeResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY___C__VERIFYORDER_B__12_3_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::PC::OS::HoYoChannelConsumeResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY___C__VERIFYORDER_B__13_3_OFFSET))(this, a1);
 		}
 
-		::System::Void _ProcessEntitlement_b__17_1(::MiHoYo::SDK::PC::OS::HoYoChannelConsumeResult* a1)
+		::System::Void _ProcessEntitlement_b__18_1(::MiHoYo::SDK::PC::OS::HoYoChannelConsumeResult* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::PC::OS::HoYoChannelConsumeResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY___C__PROCESSENTITLEMENT_B__17_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::PC::OS::HoYoChannelConsumeResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY___C__PROCESSENTITLEMENT_B__18_1_OFFSET))(this, a1);
 		}
 	};
 }

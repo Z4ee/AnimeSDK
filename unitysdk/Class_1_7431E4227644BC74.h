@@ -11,91 +11,91 @@
 namespace RPG::GameCore { class FloatCurve; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define CLASS_1_7431E4227644BC74_METHOD_1_02D38306F9447F62_OFFSET UNITYSDK_OFFSET(0x1C413920)
-#define CLASS_1_7431E4227644BC74_METHOD_1_155AE091998D59D9_OFFSET UNITYSDK_OFFSET(0x1C414290)
-#define CLASS_1_7431E4227644BC74_METHOD_1_5772E4E80440D94B_OFFSET UNITYSDK_OFFSET(0x1C412A30)
-#define CLASS_1_7431E4227644BC74_METHOD_1_60F2CCE52D1DFFBD_OFFSET UNITYSDK_OFFSET(0x1C413770)
-#define CLASS_1_7431E4227644BC74_METHOD_1_68F01CFFF2F86F19_OFFSET UNITYSDK_OFFSET(0x1C4145B0)
-#define CLASS_1_7431E4227644BC74_METHOD_1_6E27540498E972D0_1_OFFSET UNITYSDK_OFFSET(0x1C414110)
-#define CLASS_1_7431E4227644BC74_METHOD_1_6E27540498E972D0_2_OFFSET UNITYSDK_OFFSET(0x1C4141A0)
-#define CLASS_1_7431E4227644BC74_METHOD_1_6E27540498E972D0_OFFSET UNITYSDK_OFFSET(0x1C413BC0)
-#define CLASS_1_7431E4227644BC74_METHOD_1_9F16B2DCE050A1D6_OFFSET UNITYSDK_OFFSET(0x1C4136B0)
-#define CLASS_1_7431E4227644BC74_METHOD_1_B4483E5AC659F134_OFFSET UNITYSDK_OFFSET(0x1C413130)
-#define CLASS_1_7431E4227644BC74_METHOD_1_E11D3A14C039058E_1_OFFSET UNITYSDK_OFFSET(0x1C414240)
-#define CLASS_1_7431E4227644BC74_METHOD_1_E11D3A14C039058E_OFFSET UNITYSDK_OFFSET(0x1C4140D0)
-#define CLASS_1_7431E4227644BC74_METHOD_1_E4174C5583A90CB3_10_OFFSET UNITYSDK_OFFSET(0x1C414520)
-#define CLASS_1_7431E4227644BC74_METHOD_1_E4174C5583A90CB3_1_OFFSET UNITYSDK_OFFSET(0x1C413B30)
-#define CLASS_1_7431E4227644BC74_METHOD_1_E4174C5583A90CB3_2_OFFSET UNITYSDK_OFFSET(0x1C413C50)
-#define CLASS_1_7431E4227644BC74_METHOD_1_E4174C5583A90CB3_3_OFFSET UNITYSDK_OFFSET(0x1C413CE0)
-#define CLASS_1_7431E4227644BC74_METHOD_1_E4174C5583A90CB3_4_OFFSET UNITYSDK_OFFSET(0x1C413D70)
-#define CLASS_1_7431E4227644BC74_METHOD_1_E4174C5583A90CB3_5_OFFSET UNITYSDK_OFFSET(0x1C413E00)
-#define CLASS_1_7431E4227644BC74_METHOD_1_E4174C5583A90CB3_6_OFFSET UNITYSDK_OFFSET(0x1C413E90)
-#define CLASS_1_7431E4227644BC74_METHOD_1_E4174C5583A90CB3_7_OFFSET UNITYSDK_OFFSET(0x1C413F20)
-#define CLASS_1_7431E4227644BC74_METHOD_1_E4174C5583A90CB3_8_OFFSET UNITYSDK_OFFSET(0x1C413FB0)
-#define CLASS_1_7431E4227644BC74_METHOD_1_E4174C5583A90CB3_9_OFFSET UNITYSDK_OFFSET(0x1C414040)
-#define CLASS_1_7431E4227644BC74_METHOD_1_E4174C5583A90CB3_OFFSET UNITYSDK_OFFSET(0x1C413AA0)
-#define CLASS_1_7431E4227644BC74__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C414610)
+#define CLASS_1_7431E4227644BC74_METHOD_1_02D38306F9447F62_OFFSET UNITYSDK_OFFSET(0x1C97AFD0)
+#define CLASS_1_7431E4227644BC74_METHOD_1_155AE091998D59D9_OFFSET UNITYSDK_OFFSET(0x1C97B940)
+#define CLASS_1_7431E4227644BC74_METHOD_1_5772E4E80440D94B_OFFSET UNITYSDK_OFFSET(0x1C97A0E0)
+#define CLASS_1_7431E4227644BC74_METHOD_1_60F2CCE52D1DFFBD_OFFSET UNITYSDK_OFFSET(0x1C97AE20)
+#define CLASS_1_7431E4227644BC74_METHOD_1_68F01CFFF2F86F19_OFFSET UNITYSDK_OFFSET(0x1C97BC60)
+#define CLASS_1_7431E4227644BC74_METHOD_1_6E27540498E972D0_1_OFFSET UNITYSDK_OFFSET(0x1C97B7C0)
+#define CLASS_1_7431E4227644BC74_METHOD_1_6E27540498E972D0_2_OFFSET UNITYSDK_OFFSET(0x1C97B850)
+#define CLASS_1_7431E4227644BC74_METHOD_1_6E27540498E972D0_OFFSET UNITYSDK_OFFSET(0x1C97B270)
+#define CLASS_1_7431E4227644BC74_METHOD_1_9F16B2DCE050A1D6_OFFSET UNITYSDK_OFFSET(0x1C97AD60)
+#define CLASS_1_7431E4227644BC74_METHOD_1_B4483E5AC659F134_OFFSET UNITYSDK_OFFSET(0x1C97A7E0)
+#define CLASS_1_7431E4227644BC74_METHOD_1_E11D3A14C039058E_1_OFFSET UNITYSDK_OFFSET(0x1C97B8F0)
+#define CLASS_1_7431E4227644BC74_METHOD_1_E11D3A14C039058E_OFFSET UNITYSDK_OFFSET(0x1C97B780)
+#define CLASS_1_7431E4227644BC74_METHOD_1_E4174C5583A90CB3_10_OFFSET UNITYSDK_OFFSET(0x1C97BBD0)
+#define CLASS_1_7431E4227644BC74_METHOD_1_E4174C5583A90CB3_1_OFFSET UNITYSDK_OFFSET(0x1C97B1E0)
+#define CLASS_1_7431E4227644BC74_METHOD_1_E4174C5583A90CB3_2_OFFSET UNITYSDK_OFFSET(0x1C97B300)
+#define CLASS_1_7431E4227644BC74_METHOD_1_E4174C5583A90CB3_3_OFFSET UNITYSDK_OFFSET(0x1C97B390)
+#define CLASS_1_7431E4227644BC74_METHOD_1_E4174C5583A90CB3_4_OFFSET UNITYSDK_OFFSET(0x1C97B420)
+#define CLASS_1_7431E4227644BC74_METHOD_1_E4174C5583A90CB3_5_OFFSET UNITYSDK_OFFSET(0x1C97B4B0)
+#define CLASS_1_7431E4227644BC74_METHOD_1_E4174C5583A90CB3_6_OFFSET UNITYSDK_OFFSET(0x1C97B540)
+#define CLASS_1_7431E4227644BC74_METHOD_1_E4174C5583A90CB3_7_OFFSET UNITYSDK_OFFSET(0x1C97B5D0)
+#define CLASS_1_7431E4227644BC74_METHOD_1_E4174C5583A90CB3_8_OFFSET UNITYSDK_OFFSET(0x1C97B660)
+#define CLASS_1_7431E4227644BC74_METHOD_1_E4174C5583A90CB3_9_OFFSET UNITYSDK_OFFSET(0x1C97B6F0)
+#define CLASS_1_7431E4227644BC74_METHOD_1_E4174C5583A90CB3_OFFSET UNITYSDK_OFFSET(0x1C97B150)
+#define CLASS_1_7431E4227644BC74__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C97BCC0)
 
-inline static constexpr unsigned int Class_1_7431E4227644BC74_TypeDefinitionIndex = 41980;
+inline static constexpr unsigned int Class_1_7431E4227644BC74_TypeDefinitionIndex = 43622;
 
 class Class_1_7431E4227644BC74 : public ::System::Object
 {
 public:
-	static ::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::Move::MoveState>** StaticGet_LMHDAOPEPOH()
+	static ::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::Move::MoveState>** StaticGet_NLGIFCNAMMO()
 	{
-		return (::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::Move::MoveState>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_7431E4227644BC74_TypeDefinitionIndex)->GetStaticField(0xE320);
-	}
-	static ::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::Move::MoveState>** StaticGet_IMEJNNPBGLK()
-	{
-		return (::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::Move::MoveState>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_7431E4227644BC74_TypeDefinitionIndex)->GetStaticField(0xE328);
-	}
-	static ::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::Move::MoveState>** StaticGet_POLKEHMMGHM()
-	{
-		return (::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::Move::MoveState>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_7431E4227644BC74_TypeDefinitionIndex)->GetStaticField(0xE330);
-	}
-	static ::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::Move::MoveState>** StaticGet_IJDPBBAGFHM()
-	{
-		return (::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::Move::MoveState>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_7431E4227644BC74_TypeDefinitionIndex)->GetStaticField(0xE338);
-	}
-	static ::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::Move::MoveState>** StaticGet_FOFGDIOCLDB()
-	{
-		return (::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::Move::MoveState>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_7431E4227644BC74_TypeDefinitionIndex)->GetStaticField(0xE340);
-	}
-	static ::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::Move::MoveState>** StaticGet_LFFIEPNCKKA()
-	{
-		return (::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::Move::MoveState>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_7431E4227644BC74_TypeDefinitionIndex)->GetStaticField(0xE348);
-	}
-	static ::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::Move::MoveState>** StaticGet_AEELGFMOOJH()
-	{
-		return (::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::Move::MoveState>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_7431E4227644BC74_TypeDefinitionIndex)->GetStaticField(0xE350);
-	}
-	static ::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::Move::MoveState>** StaticGet_BJKBNEEJJDL()
-	{
-		return (::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::Move::MoveState>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_7431E4227644BC74_TypeDefinitionIndex)->GetStaticField(0xE358);
+		return (::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::Move::MoveState>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_7431E4227644BC74_TypeDefinitionIndex)->GetStaticField(0x4BA30);
 	}
 	static ::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::Move::MoveState>** StaticGet_LCCNAEFHLCJ()
 	{
-		return (::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::Move::MoveState>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_7431E4227644BC74_TypeDefinitionIndex)->GetStaticField(0xE360);
-	}
-	static ::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::Move::MoveState>** StaticGet_LKPHEMBLCKF()
-	{
-		return (::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::Move::MoveState>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_7431E4227644BC74_TypeDefinitionIndex)->GetStaticField(0xE368);
-	}
-	static ::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::Move::MoveState>** StaticGet_NGNHHFCGHJM()
-	{
-		return (::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::Move::MoveState>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_7431E4227644BC74_TypeDefinitionIndex)->GetStaticField(0xE370);
-	}
-	static ::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::Move::MoveState>** StaticGet_NLGIFCNAMMO()
-	{
-		return (::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::Move::MoveState>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_7431E4227644BC74_TypeDefinitionIndex)->GetStaticField(0xE378);
-	}
-	static ::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::Move::MoveState>** StaticGet_GBPPDGIFACJ()
-	{
-		return (::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::Move::MoveState>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_7431E4227644BC74_TypeDefinitionIndex)->GetStaticField(0xE380);
+		return (::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::Move::MoveState>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_7431E4227644BC74_TypeDefinitionIndex)->GetStaticField(0x4BA38);
 	}
 	static ::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::Move::MoveState>** StaticGet_FIKOGCMGIKC()
 	{
-		return (::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::Move::MoveState>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_7431E4227644BC74_TypeDefinitionIndex)->GetStaticField(0xE388);
+		return (::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::Move::MoveState>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_7431E4227644BC74_TypeDefinitionIndex)->GetStaticField(0x4BA40);
+	}
+	static ::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::Move::MoveState>** StaticGet_POLKEHMMGHM()
+	{
+		return (::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::Move::MoveState>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_7431E4227644BC74_TypeDefinitionIndex)->GetStaticField(0x4BA48);
+	}
+	static ::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::Move::MoveState>** StaticGet_NGNHHFCGHJM()
+	{
+		return (::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::Move::MoveState>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_7431E4227644BC74_TypeDefinitionIndex)->GetStaticField(0x4BA50);
+	}
+	static ::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::Move::MoveState>** StaticGet_GBPPDGIFACJ()
+	{
+		return (::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::Move::MoveState>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_7431E4227644BC74_TypeDefinitionIndex)->GetStaticField(0x4BA58);
+	}
+	static ::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::Move::MoveState>** StaticGet_LMHDAOPEPOH()
+	{
+		return (::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::Move::MoveState>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_7431E4227644BC74_TypeDefinitionIndex)->GetStaticField(0x4BA60);
+	}
+	static ::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::Move::MoveState>** StaticGet_LFFIEPNCKKA()
+	{
+		return (::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::Move::MoveState>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_7431E4227644BC74_TypeDefinitionIndex)->GetStaticField(0x4BA68);
+	}
+	static ::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::Move::MoveState>** StaticGet_LKPHEMBLCKF()
+	{
+		return (::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::Move::MoveState>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_7431E4227644BC74_TypeDefinitionIndex)->GetStaticField(0x4BA70);
+	}
+	static ::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::Move::MoveState>** StaticGet_FOFGDIOCLDB()
+	{
+		return (::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::Move::MoveState>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_7431E4227644BC74_TypeDefinitionIndex)->GetStaticField(0x4BA78);
+	}
+	static ::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::Move::MoveState>** StaticGet_IJDPBBAGFHM()
+	{
+		return (::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::Move::MoveState>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_7431E4227644BC74_TypeDefinitionIndex)->GetStaticField(0x4BA80);
+	}
+	static ::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::Move::MoveState>** StaticGet_IMEJNNPBGLK()
+	{
+		return (::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::Move::MoveState>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_7431E4227644BC74_TypeDefinitionIndex)->GetStaticField(0x4BA88);
+	}
+	static ::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::Move::MoveState>** StaticGet_BJKBNEEJJDL()
+	{
+		return (::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::Move::MoveState>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_7431E4227644BC74_TypeDefinitionIndex)->GetStaticField(0x4BA90);
+	}
+	static ::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::Move::MoveState>** StaticGet_AEELGFMOOJH()
+	{
+		return (::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::Move::MoveState>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_7431E4227644BC74_TypeDefinitionIndex)->GetStaticField(0x4BA98);
 	}
 
 	static ::System::Void _cctor()

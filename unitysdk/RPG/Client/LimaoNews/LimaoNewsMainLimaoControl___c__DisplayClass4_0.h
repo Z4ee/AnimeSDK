@@ -5,12 +5,12 @@
 namespace RPG::Client::LimaoNews { class LimaoNewsMainEntrance3DViewModel; }
 namespace RPG::Client::LimaoNews { class LimaoNewsMainLimaoControl; }
 
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSMAINLIMAOCONTROL___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD4694A0)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSMAINLIMAOCONTROL___C__DISPLAYCLASS4_0___SWITCHTOVIEWMODELWITHFADEOUT_B__0_OFFSET UNITYSDK_OFFSET(0xD46A370)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSMAINLIMAOCONTROL___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD3C0010)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSMAINLIMAOCONTROL___C__DISPLAYCLASS4_0___SWITCHTOVIEWMODELWITHFADEOUT_B__0_OFFSET UNITYSDK_OFFSET(0xD3C0EE0)
 
 namespace RPG::Client::LimaoNews
 {
-	inline static constexpr unsigned int LimaoNewsMainLimaoControl___c__DisplayClass4_0_TypeDefinitionIndex = 79046;
+	inline static constexpr unsigned int LimaoNewsMainLimaoControl___c__DisplayClass4_0_TypeDefinitionIndex = 80369;
 
 	class LimaoNewsMainLimaoControl___c__DisplayClass4_0 : public ::System::Object
 	{

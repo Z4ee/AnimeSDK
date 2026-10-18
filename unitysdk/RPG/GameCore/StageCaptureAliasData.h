@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_STAGECAPTUREALIASDATA_METHOD_2_A05096C1207BCD7E_OFFSET UNITYSDK_OFFSET(0x1D553AF0)
-#define RPG_GAMECORE_STAGECAPTUREALIASDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1D553C90)
+#define RPG_GAMECORE_STAGECAPTUREALIASDATA_METHOD_2_265339072D765D40_OFFSET UNITYSDK_OFFSET(0x1DB08CB0)
+#define RPG_GAMECORE_STAGECAPTUREALIASDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB08ED0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StageCaptureAliasData_TypeDefinitionIndex = 18938;
+	inline static constexpr unsigned int StageCaptureAliasData_TypeDefinitionIndex = 19165;
 
 	class StageCaptureAliasData : public ::RPG::GameCore::JsonConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STAGECAPTUREALIASDATA__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_A05096C1207BCD7E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StageCaptureAliasData*& a2)
+		static ::System::Void Method_2_265339072D765D40(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StageCaptureAliasData*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StageCaptureAliasData*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STAGECAPTUREALIASDATA_METHOD_2_A05096C1207BCD7E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StageCaptureAliasData*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STAGECAPTUREALIASDATA_METHOD_2_265339072D765D40_OFFSET))(a1, a2);
 		}
 	};
 }

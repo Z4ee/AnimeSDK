@@ -5,17 +5,17 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ASSEMNPC_METHOD_1_92D59DB27A2254BC_OFFSET UNITYSDK_OFFSET(0xC77C730)
-#define RPG_CLIENT_ASSEMNPC_METHOD_1_9656213C005E9904_OFFSET UNITYSDK_OFFSET(0xC77C3C0)
-#define RPG_CLIENT_ASSEMNPC_METHOD_1_ABD5B53377E7C191_OFFSET UNITYSDK_OFFSET(0xC77C590)
-#define RPG_CLIENT_ASSEMNPC_ONAFTERDESERIALIZE_OFFSET UNITYSDK_OFFSET(0xC77C920)
-#define RPG_CLIENT_ASSEMNPC_ONBEFORESERIALIZE_OFFSET UNITYSDK_OFFSET(0xC77C8E0)
-#define RPG_CLIENT_ASSEMNPC_TOSTRING_OFFSET UNITYSDK_OFFSET(0xC77C810)
-#define RPG_CLIENT_ASSEMNPC__CTOR_OFFSET UNITYSDK_OFFSET(0xC77C7D0)
+#define RPG_CLIENT_ASSEMNPC_METHOD_1_92D59DB27A2254BC_OFFSET UNITYSDK_OFFSET(0xC69A610)
+#define RPG_CLIENT_ASSEMNPC_METHOD_1_9656213C005E9904_OFFSET UNITYSDK_OFFSET(0xC69A2B0)
+#define RPG_CLIENT_ASSEMNPC_METHOD_1_ABD5B53377E7C191_OFFSET UNITYSDK_OFFSET(0xC69A470)
+#define RPG_CLIENT_ASSEMNPC_ONAFTERDESERIALIZE_OFFSET UNITYSDK_OFFSET(0xC69A800)
+#define RPG_CLIENT_ASSEMNPC_ONBEFORESERIALIZE_OFFSET UNITYSDK_OFFSET(0xC69A7C0)
+#define RPG_CLIENT_ASSEMNPC_TOSTRING_OFFSET UNITYSDK_OFFSET(0xC69A6F0)
+#define RPG_CLIENT_ASSEMNPC__CTOR_OFFSET UNITYSDK_OFFSET(0xC69A6B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AssemNPC_TypeDefinitionIndex = 60140;
+	inline static constexpr unsigned int AssemNPC_TypeDefinitionIndex = 60003;
 
 	class AssemNPC : public ::System::Object
 	{
@@ -30,12 +30,11 @@ namespace RPG::Client
 		::System::String* HairMat; // 0x48
 		::System::String* Item; // 0x50
 		::System::String* ItemMat; // 0x58
-		::System::Single AssemScore; // 0x60
-		::System::Collections::Generic::List_1<::System::String*>* MatVariantKeys; // 0x68
-		::System::String* AnimatorPath; // 0x70
-		::System::Int32 BodySizeInt; // 0x78
-		::System::String* FreeStyleCharacterID; // 0x80
-		::System::String* FreeStyleCharacterConfigPath; // 0x88
+		::System::Collections::Generic::List_1<::System::String*>* MatVariantKeys; // 0x60
+		::System::String* AnimatorPath; // 0x68
+		::System::Int32 BodySizeInt; // 0x70
+		::System::String* FreeStyleCharacterID; // 0x78
+		::System::String* FreeStyleCharacterConfigPath; // 0x80
 
 		::System::Void _ctor()
 		{

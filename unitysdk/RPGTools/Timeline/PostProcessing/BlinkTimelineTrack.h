@@ -6,12 +6,12 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_BLINKTIMELINETRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xE8C74E0)
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_BLINKTIMELINETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xE8C7690)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_BLINKTIMELINETRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xE91CBE0)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_BLINKTIMELINETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xE91CD50)
 
 namespace RPGTools::Timeline::PostProcessing
 {
-	inline static constexpr unsigned int BlinkTimelineTrack_TypeDefinitionIndex = 48999;
+	inline static constexpr unsigned int BlinkTimelineTrack_TypeDefinitionIndex = 48545;
 
 	class BlinkTimelineTrack : public ::UnityEngine::Timeline::TrackAsset
 	{

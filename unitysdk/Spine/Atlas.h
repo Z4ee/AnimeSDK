@@ -11,27 +11,27 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::IO { class TextReader; }
 
-#define SPINE_ATLAS_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1E5D4900)
-#define SPINE_ATLAS_FINDREGION_OFFSET UNITYSDK_OFFSET(0x1E5D47A0)
-#define SPINE_ATLAS_FLIPV_OFFSET UNITYSDK_OFFSET(0x1E5D4720)
-#define SPINE_ATLAS_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1E5D2D60)
-#define SPINE_ATLAS_GET_PAGES_OFFSET UNITYSDK_OFFSET(0x1E5D2E50)
-#define SPINE_ATLAS_GET_REGIONS_OFFSET UNITYSDK_OFFSET(0x1E5D2E40)
-#define SPINE_ATLAS_READENTRY_OFFSET UNITYSDK_OFFSET(0x1E5D4470)
-#define SPINE_ATLAS_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1E5D2DD0)
-#define SPINE_ATLAS__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E5D2F60)
-#define SPINE_ATLAS__CTOR_OFFSET UNITYSDK_OFFSET(0x1E5D2E60)
+#define SPINE_ATLAS_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1EC9CAC0)
+#define SPINE_ATLAS_FINDREGION_OFFSET UNITYSDK_OFFSET(0x1EC9C960)
+#define SPINE_ATLAS_FLIPV_OFFSET UNITYSDK_OFFSET(0x1EC9C8E0)
+#define SPINE_ATLAS_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1EC9AEF0)
+#define SPINE_ATLAS_GET_PAGES_OFFSET UNITYSDK_OFFSET(0x1EC9AFE0)
+#define SPINE_ATLAS_GET_REGIONS_OFFSET UNITYSDK_OFFSET(0x1EC9AFD0)
+#define SPINE_ATLAS_READENTRY_OFFSET UNITYSDK_OFFSET(0x1EC9C630)
+#define SPINE_ATLAS_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1EC9AF60)
+#define SPINE_ATLAS__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1EC9B0F0)
+#define SPINE_ATLAS__CTOR_OFFSET UNITYSDK_OFFSET(0x1EC9AFF0)
 
 namespace Spine
 {
-	inline static constexpr unsigned int Atlas_TypeDefinitionIndex = 38344;
+	inline static constexpr unsigned int Atlas_TypeDefinitionIndex = 39641;
 
 	class Atlas : public ::System::Object
 	{
 	public:
-		::Spine::TextureLoader* textureLoader; // 0x10
-		::System::Collections::Generic::List_1<::Spine::AtlasRegion*>* regions; // 0x18
-		::System::Collections::Generic::List_1<::Spine::AtlasPage*>* pages; // 0x20
+		::System::Collections::Generic::List_1<::Spine::AtlasRegion*>* regions; // 0x10
+		::System::Collections::Generic::List_1<::Spine::AtlasPage*>* pages; // 0x18
+		::Spine::TextureLoader* textureLoader; // 0x20
 
 		::System::Void _ctor(::System::Collections::Generic::List_1<::Spine::AtlasPage*>* a1, ::System::Collections::Generic::List_1<::Spine::AtlasRegion*>* a2)
 		{

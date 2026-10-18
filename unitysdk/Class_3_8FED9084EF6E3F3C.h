@@ -10,25 +10,25 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define CLASS_3_8FED9084EF6E3F3C_METHOD_3_797574F762C9D389_OFFSET UNITYSDK_OFFSET(0x1C84D070)
-#define CLASS_3_8FED9084EF6E3F3C_METHOD_3_FF096862EF90B096_OFFSET UNITYSDK_OFFSET(0x1C84D010)
-#define CLASS_3_8FED9084EF6E3F3C__CTOR_OFFSET UNITYSDK_OFFSET(0x1C84D050)
+#define CLASS_3_8FED9084EF6E3F3C_METHOD_3_797574F762C9D389_OFFSET UNITYSDK_OFFSET(0x1CDE5650)
+#define CLASS_3_8FED9084EF6E3F3C_METHOD_3_FF096862EF90B096_OFFSET UNITYSDK_OFFSET(0x1CDE55F0)
+#define CLASS_3_8FED9084EF6E3F3C__CTOR_OFFSET UNITYSDK_OFFSET(0x1CDE5630)
 
-inline static constexpr unsigned int Class_3_8FED9084EF6E3F3C_TypeDefinitionIndex = 23917;
+inline static constexpr unsigned int Class_3_8FED9084EF6E3F3C_TypeDefinitionIndex = 24192;
 
 class Class_3_8FED9084EF6E3F3C : public ::RPG::GameCore::TaskConfig
 {
 public:
-	::RPG::GameCore::DynamicFloat* DIFDKADNNDK; // 0x18
+	::System::String* GCINJNJBNLJ; // 0x18
 	::Il2CppArray<::RPG::GameCore::RtBehaviorFlag>* KJDKAOPEMFF; // 0x20
-	::System::String* GCINJNJBNLJ; // 0x28
-	::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x30
-	::RPG::GameCore::EnumStatusType LMIODAHFGOA; // 0x38
-	::System::Boolean AGCFPAIEKPL; // 0x3C
-	::System::Boolean HDCDMFMCGMJ; // 0x3D
-	::System::Boolean KJIFOFPNLNN; // 0x3E
-	::System::Boolean EOAFKHDEJCO; // 0x3F
-	::RPG::GameCore::DispelOrder FLBGELFEBCK; // 0x40
+	::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x28
+	::RPG::GameCore::DynamicFloat* DIFDKADNNDK; // 0x30
+	::System::Boolean EOAFKHDEJCO; // 0x38
+	::System::Boolean KJIFOFPNLNN; // 0x39
+	::System::Boolean AGCFPAIEKPL; // 0x3A
+	::System::Boolean HDCDMFMCGMJ; // 0x3B
+	::RPG::GameCore::DispelOrder FLBGELFEBCK; // 0x3C
+	::RPG::GameCore::EnumStatusType LMIODAHFGOA; // 0x40
 
 	::System::Void _ctor()
 	{

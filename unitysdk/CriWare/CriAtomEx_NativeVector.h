@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define CRIWARE_CRIATOMEX_NATIVEVECTOR__CTOR_1_OFFSET UNITYSDK_OFFSET(0x2DFCDA0)
-#define CRIWARE_CRIATOMEX_NATIVEVECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x14A260)
+#define CRIWARE_CRIATOMEX_NATIVEVECTOR__CTOR_1_OFFSET UNITYSDK_OFFSET(0x2E88C80)
+#define CRIWARE_CRIATOMEX_NATIVEVECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x14D60)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomEx_NativeVector_TypeDefinitionIndex = 38682;
+	inline static constexpr unsigned int CriAtomEx_NativeVector_TypeDefinitionIndex = 39979;
 
 	struct alignas(4) CriAtomEx_NativeVector
 	{

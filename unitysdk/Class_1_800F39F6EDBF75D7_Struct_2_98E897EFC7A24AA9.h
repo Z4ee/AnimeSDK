@@ -4,7 +4,7 @@
 
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-inline static constexpr unsigned int Class_1_800F39F6EDBF75D7_Struct_2_98E897EFC7A24AA9_TypeDefinitionIndex = 79751;
+inline static constexpr unsigned int Class_1_800F39F6EDBF75D7_Struct_2_98E897EFC7A24AA9_TypeDefinitionIndex = 81075;
 
 struct alignas(8) Class_1_800F39F6EDBF75D7_Struct_2_98E897EFC7A24AA9
 {

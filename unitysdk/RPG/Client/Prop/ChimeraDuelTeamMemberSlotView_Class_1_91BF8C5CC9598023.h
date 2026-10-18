@@ -7,23 +7,23 @@
 namespace RPG::Client::Prop { class ChimeraDuelShopChimeraInstanceView; }
 namespace System { class Action; }
 
-#define RPG_CLIENT_PROP_CHIMERADUELTEAMMEMBERSLOTVIEW_CLASS_1_91BF8C5CC9598023__CTOR_OFFSET UNITYSDK_OFFSET(0xDC2A000)
+#define RPG_CLIENT_PROP_CHIMERADUELTEAMMEMBERSLOTVIEW_CLASS_1_91BF8C5CC9598023__CTOR_OFFSET UNITYSDK_OFFSET(0xDC74AF0)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraDuelTeamMemberSlotView_Class_1_91BF8C5CC9598023_TypeDefinitionIndex = 77890;
+	inline static constexpr unsigned int ChimeraDuelTeamMemberSlotView_Class_1_91BF8C5CC9598023_TypeDefinitionIndex = 78361;
 
 	class ChimeraDuelTeamMemberSlotView_Class_1_91BF8C5CC9598023 : public ::System::Object
 	{
 	public:
 		::System::Action* MGJLINFADJK; // 0x10
 		::RPG::Client::Prop::ChimeraDuelShopChimeraInstanceView* FMJPMFEDIJL; // 0x18
-		::System::Single GAFENHHEBPG; // 0x20
-		::System::Boolean CAGCHKJHMPD; // 0x24
-		::UnityEngine::Vector3 OAKCBDDKNKL; // 0x28
-		::UnityEngine::Vector3 PGJJCGGBCKK; // 0x34
-		::UnityEngine::Quaternion HDEPGDKCFJK; // 0x40
-		::UnityEngine::Quaternion IBAPNDLNFMO; // 0x50
+		::UnityEngine::Quaternion HDEPGDKCFJK; // 0x20
+		::UnityEngine::Quaternion IBAPNDLNFMO; // 0x30
+		::System::Boolean CAGCHKJHMPD; // 0x40
+		::UnityEngine::Vector3 PGJJCGGBCKK; // 0x44
+		::UnityEngine::Vector3 OAKCBDDKNKL; // 0x50
+		::System::Single GAFENHHEBPG; // 0x5C
 
 		::System::Void _ctor()
 		{

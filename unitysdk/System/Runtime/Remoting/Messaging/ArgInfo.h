@@ -5,8 +5,8 @@
 
 namespace System::Reflection { class MethodBase; }
 
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_ARGINFO_GETINOUTARGS_OFFSET UNITYSDK_OFFSET(0x1BDD5260)
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_ARGINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDD4E10)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_ARGINFO_GETINOUTARGS_OFFSET UNITYSDK_OFFSET(0x1C2E0F60)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_ARGINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1C2E0B10)
 
 namespace System::Runtime::Remoting::Messaging
 {
@@ -15,8 +15,8 @@ namespace System::Runtime::Remoting::Messaging
 	class ArgInfo : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::Int32>* _paramMap; // 0x10
-		::System::Reflection::MethodBase* _method; // 0x18
+		::System::Reflection::MethodBase* _method; // 0x10
+		::Il2CppArray<::System::Int32>* _paramMap; // 0x18
 		::System::Int32 _inoutArgCount; // 0x20
 
 		::System::Void _ctor(::System::Reflection::MethodBase* a1, ::System::Runtime::Remoting::Messaging::ArgInfoType a2)

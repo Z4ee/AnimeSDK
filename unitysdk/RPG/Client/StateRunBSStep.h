@@ -6,13 +6,13 @@
 namespace RPG::GameCore { class AdventureCharacterController; }
 namespace UnityEngine { class Animator; }
 
-#define RPG_CLIENT_STATERUNBSSTEP_ONSTATEENTER_OFFSET UNITYSDK_OFFSET(0xE0EEEA0)
-#define RPG_CLIENT_STATERUNBSSTEP_ONSTATEEXIT_OFFSET UNITYSDK_OFFSET(0xE0EEFA0)
-#define RPG_CLIENT_STATERUNBSSTEP__CTOR_OFFSET UNITYSDK_OFFSET(0xE0EF2E0)
+#define RPG_CLIENT_STATERUNBSSTEP_ONSTATEENTER_OFFSET UNITYSDK_OFFSET(0xE12FB10)
+#define RPG_CLIENT_STATERUNBSSTEP_ONSTATEEXIT_OFFSET UNITYSDK_OFFSET(0xE12FC10)
+#define RPG_CLIENT_STATERUNBSSTEP__CTOR_OFFSET UNITYSDK_OFFSET(0xE12FF50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int StateRunBSStep_TypeDefinitionIndex = 68807;
+	inline static constexpr unsigned int StateRunBSStep_TypeDefinitionIndex = 68841;
 
 	class StateRunBSStep : public ::UnityEngine::StateMachineBehaviour
 	{

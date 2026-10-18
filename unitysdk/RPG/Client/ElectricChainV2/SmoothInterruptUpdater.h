@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/ElectricChainV2/SmoothUpdater.h"
 
-#define RPG_CLIENT_ELECTRICCHAINV2_SMOOTHINTERRUPTUPDATER_GET__WEIGHT_OFFSET UNITYSDK_OFFSET(0xCE33350)
-#define RPG_CLIENT_ELECTRICCHAINV2_SMOOTHINTERRUPTUPDATER__CTOR_OFFSET UNITYSDK_OFFSET(0xCE333B0)
+#define RPG_CLIENT_ELECTRICCHAINV2_SMOOTHINTERRUPTUPDATER_GET__WEIGHT_OFFSET UNITYSDK_OFFSET(0xCD83C20)
+#define RPG_CLIENT_ELECTRICCHAINV2_SMOOTHINTERRUPTUPDATER__CTOR_OFFSET UNITYSDK_OFFSET(0xCD83C80)
 
 namespace RPG::Client::ElectricChainV2
 {
-	inline static constexpr unsigned int SmoothInterruptUpdater_TypeDefinitionIndex = 73483;
+	inline static constexpr unsigned int SmoothInterruptUpdater_TypeDefinitionIndex = 73590;
 
 	class SmoothInterruptUpdater : public ::RPG::Client::ElectricChainV2::SmoothUpdater
 	{

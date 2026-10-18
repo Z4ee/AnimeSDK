@@ -13,7 +13,7 @@ namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int ReadOnlyAsyncReactiveProperty_1__ConsumeEnumerator_d__7_TypeDefinitionIndex = 42545;
+	inline static constexpr unsigned int ReadOnlyAsyncReactiveProperty_1__ConsumeEnumerator_d__7_TypeDefinitionIndex = 38130;
 
 	template <typename T>
 	struct ReadOnlyAsyncReactiveProperty_1__ConsumeEnumerator_d__7

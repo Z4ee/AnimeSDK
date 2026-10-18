@@ -10,13 +10,13 @@ namespace RPGTools::Timeline { class CameraData; }
 namespace RPGTools::Timeline { class MainCameraTimelineBehaviour; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_MAINCAMERATIMELINECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE86F5D0)
-#define RPGTOOLS_TIMELINE_MAINCAMERATIMELINECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE86F5C0)
-#define RPGTOOLS_TIMELINE_MAINCAMERATIMELINECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xE86F7E0)
+#define RPGTOOLS_TIMELINE_MAINCAMERATIMELINECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE90D760)
+#define RPGTOOLS_TIMELINE_MAINCAMERATIMELINECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE90D750)
+#define RPGTOOLS_TIMELINE_MAINCAMERATIMELINECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xE90D970)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int MainCameraTimelineClip_TypeDefinitionIndex = 48903;
+	inline static constexpr unsigned int MainCameraTimelineClip_TypeDefinitionIndex = 48449;
 
 	class MainCameraTimelineClip : public ::UnityEngine::Playables::PlayableAsset
 	{

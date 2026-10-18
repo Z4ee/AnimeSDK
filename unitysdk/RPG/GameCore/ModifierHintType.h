@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ModifierHintType_TypeDefinitionIndex = 18028;
+	inline static constexpr unsigned int ModifierHintType_TypeDefinitionIndex = 18242;
 
 	enum class ModifierHintType : ::System::Int32
 	{

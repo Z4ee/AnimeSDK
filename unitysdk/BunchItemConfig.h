@@ -4,10 +4,10 @@
 
 namespace System { class String; }
 
-#define BUNCHITEMCONFIG_AWAKE_OFFSET UNITYSDK_OFFSET(0xC4F62E0)
-#define BUNCHITEMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xC4F64C0)
+#define BUNCHITEMCONFIG_AWAKE_OFFSET UNITYSDK_OFFSET(0xC1B9DB0)
+#define BUNCHITEMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xC1B9FC0)
 
-inline static constexpr unsigned int BunchItemConfig_TypeDefinitionIndex = 47782;
+inline static constexpr unsigned int BunchItemConfig_TypeDefinitionIndex = 47322;
 
 class BunchItemConfig : public ::UnityEngine::MonoBehaviour
 {

@@ -5,18 +5,18 @@
 namespace System { class IDisposable; }
 namespace System::Collections::Generic { template <typename T> class ICollection_1; }
 
-#define R3_DISPOSABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BF172B0)
+#define R3_DISPOSABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C423770)
 
 namespace R3
 {
-	inline static constexpr unsigned int Disposable_TypeDefinitionIndex = 35228;
+	inline static constexpr unsigned int Disposable_TypeDefinitionIndex = 35903;
 
 	class Disposable : public ::System::Object
 	{
 	public:
 		static ::System::IDisposable** StaticGet_Empty()
 		{
-			return (::System::IDisposable**)Il2CppClass::FromTypeDefinitionIndex(Disposable_TypeDefinitionIndex)->GetStaticField(0xD20);
+			return (::System::IDisposable**)Il2CppClass::FromTypeDefinitionIndex(Disposable_TypeDefinitionIndex)->GetStaticField(0x9F0);
 		}
 
 		static ::System::Void _cctor()

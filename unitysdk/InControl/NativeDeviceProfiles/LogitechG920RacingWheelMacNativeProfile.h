@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/InControl/NativeDeviceProfiles/Xbox360DriverMacNativeProfile.h"
 
-#define INCONTROL_NATIVEDEVICEPROFILES_LOGITECHG920RACINGWHEELMACNATIVEPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x1B524A60)
-#define INCONTROL_NATIVEDEVICEPROFILES_LOGITECHG920RACINGWHEELMACNATIVEPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B524AE0)
+#define INCONTROL_NATIVEDEVICEPROFILES_LOGITECHG920RACINGWHEELMACNATIVEPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x1BA236C0)
+#define INCONTROL_NATIVEDEVICEPROFILES_LOGITECHG920RACINGWHEELMACNATIVEPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA23740)
 
 namespace InControl::NativeDeviceProfiles
 {
-	inline static constexpr unsigned int LogitechG920RacingWheelMacNativeProfile_TypeDefinitionIndex = 39862;
+	inline static constexpr unsigned int LogitechG920RacingWheelMacNativeProfile_TypeDefinitionIndex = 41159;
 
 	class LogitechG920RacingWheelMacNativeProfile : public ::InControl::NativeDeviceProfiles::Xbox360DriverMacNativeProfile
 	{

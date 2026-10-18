@@ -6,20 +6,20 @@
 
 namespace RPG::GameCore { class ChenLingBattleEffectConfig; }
 
-#define CLASS_1_634284739E90CAFA__CTOR_OFFSET UNITYSDK_OFFSET(0x1C3B1590)
+#define CLASS_1_634284739E90CAFA__CTOR_OFFSET UNITYSDK_OFFSET(0x1C90F5C0)
 
-inline static constexpr unsigned int Class_1_634284739E90CAFA_TypeDefinitionIndex = 42091;
+inline static constexpr unsigned int Class_1_634284739E90CAFA_TypeDefinitionIndex = 43733;
 
 class Class_1_634284739E90CAFA : public ::System::Object
 {
 public:
 	::RPG::GameCore::ChenLingBattleEffectConfig* HPBAMMEFDMK; // 0x10
-	::RPG::GameCore::FixPoint AGFLHPDBFDJ; // 0x18
+	::RPG::GameCore::FixPoint NLFIKMEADBH; // 0x18
 	::RPG::GameCore::FixPoint MNDFOPKBHKP; // 0x20
-	::RPG::GameCore::FixPoint NLFIKMEADBH; // 0x28
-	::System::Boolean PIPHKKAGDDC; // 0x30
-	::RPG::GameCore::ChenLingBattleBuffType LMIODAHFGOA; // 0x34
-	::RPG::GameCore::FixPoint KOMEOMHBCEC; // 0x38
+	::RPG::GameCore::ChenLingBattleBuffType LMIODAHFGOA; // 0x28
+	::System::Boolean PIPHKKAGDDC; // 0x2C
+	::RPG::GameCore::FixPoint KOMEOMHBCEC; // 0x30
+	::RPG::GameCore::FixPoint AGFLHPDBFDJ; // 0x38
 
 	::System::Void _ctor()
 	{

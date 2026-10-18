@@ -1,0 +1,45 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/MonoBehaviour.h"
+
+class Class_0_16E4307DCC419505_1515;
+namespace RPG::Client { class LocalizedText; }
+namespace UnityEngine::UI { class Image; }
+
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTSETTLETALENTEFFECTCONTROL_GET_CONTENT_OFFSET UNITYSDK_OFFSET(0xD665A30)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTSETTLETALENTEFFECTCONTROL_METHOD_5_44D5E19630157ECE_OFFSET UNITYSDK_OFFSET(0xD665AD0)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTSETTLETALENTEFFECTCONTROL_SET_CONTENT_OFFSET UNITYSDK_OFFSET(0xD665A70)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTSETTLETALENTEFFECTCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0xD665CF0)
+
+namespace RPG::Client::MechCraft::View
+{
+	inline static constexpr unsigned int MechCraftSettleTalentEffectControl_TypeDefinitionIndex = 80049;
+
+	class MechCraftSettleTalentEffectControl : public ::UnityEngine::MonoBehaviour
+	{
+	public:
+		::Class_0_16E4307DCC419505_1515* LFGMLJCCPCH; // 0x18
+		::UnityEngine::UI::Image* _Icon; // 0x20
+		::RPG::Client::LocalizedText* _Text; // 0x28
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTSETTLETALENTEFFECTCONTROL__CTOR_OFFSET))(this);
+		}
+
+		::Class_0_16E4307DCC419505_1515* get_Content()
+		{
+			return ((::Class_0_16E4307DCC419505_1515*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTSETTLETALENTEFFECTCONTROL_GET_CONTENT_OFFSET))(this);
+		}
+
+		::System::Void set_Content(::Class_0_16E4307DCC419505_1515* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_1515*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTSETTLETALENTEFFECTCONTROL_SET_CONTENT_OFFSET))(this, a1);
+		}
+
+		::System::Void Method_5_44D5E19630157ECE(::Class_0_16E4307DCC419505_1515* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_1515*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTSETTLETALENTEFFECTCONTROL_METHOD_5_44D5E19630157ECE_OFFSET))(this, a1);
+		}
+	};
+}

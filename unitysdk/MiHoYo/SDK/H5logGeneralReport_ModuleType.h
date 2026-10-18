@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_H5LOGGENERALREPORT_MODULETYPE__CTOR_OFFSET UNITYSDK_OFFSET(0xB1D5910)
+#define MIHOYO_SDK_H5LOGGENERALREPORT_MODULETYPE__CTOR_OFFSET UNITYSDK_OFFSET(0xAF7FF50)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int H5logGeneralReport_ModuleType_TypeDefinitionIndex = 46933;
+	inline static constexpr unsigned int H5logGeneralReport_ModuleType_TypeDefinitionIndex = 46473;
 
 	class H5logGeneralReport_ModuleType : public ::System::Object
 	{

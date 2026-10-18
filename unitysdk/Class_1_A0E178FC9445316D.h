@@ -3,18 +3,18 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define CLASS_1_A0E178FC9445316D_GET_ID_OFFSET UNITYSDK_OFFSET(0x16374CE0)
-#define CLASS_1_A0E178FC9445316D_GET_POSITION_OFFSET UNITYSDK_OFFSET(0x16374CF0)
-#define CLASS_1_A0E178FC9445316D_SET_POSITION_OFFSET UNITYSDK_OFFSET(0x16374D10)
-#define CLASS_1_A0E178FC9445316D__CTOR_OFFSET UNITYSDK_OFFSET(0x16374D20)
+#define CLASS_1_A0E178FC9445316D_GET_ID_OFFSET UNITYSDK_OFFSET(0xB25E920)
+#define CLASS_1_A0E178FC9445316D_GET_POSITION_OFFSET UNITYSDK_OFFSET(0xB25E930)
+#define CLASS_1_A0E178FC9445316D_SET_POSITION_OFFSET UNITYSDK_OFFSET(0xB25E950)
+#define CLASS_1_A0E178FC9445316D__CTOR_OFFSET UNITYSDK_OFFSET(0xB25E960)
 
-inline static constexpr unsigned int Class_1_A0E178FC9445316D_TypeDefinitionIndex = 73245;
+inline static constexpr unsigned int Class_1_A0E178FC9445316D_TypeDefinitionIndex = 73341;
 
 class Class_1_A0E178FC9445316D : public ::System::Object
 {
 public:
-	::UnityEngine::Vector3 _Position_k__BackingField; // 0x10
-	::System::UInt32 _ID_k__BackingField; // 0x1C
+	::System::UInt32 _ID_k__BackingField; // 0x10
+	::UnityEngine::Vector3 _Position_k__BackingField; // 0x14
 
 	::System::Void _ctor(::System::UInt32 a1)
 	{

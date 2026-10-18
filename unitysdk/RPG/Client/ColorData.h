@@ -5,11 +5,11 @@
 namespace RPG::Client { class MonoUIColorSwitcher_ColorItem; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_COLORDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xCC4D940)
+#define RPG_CLIENT_COLORDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xCB9C820)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ColorData_TypeDefinitionIndex = 68889;
+	inline static constexpr unsigned int ColorData_TypeDefinitionIndex = 68925;
 
 	class ColorData : public ::UnityEngine::ScriptableObject
 	{

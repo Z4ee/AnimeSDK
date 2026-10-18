@@ -6,12 +6,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_GOTOTIPSCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D147CC0)
-#define RPG_GAMECORE_GOTOTIPSCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D148300)
+#define RPG_GAMECORE_GOTOTIPSCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D7221C0)
+#define RPG_GAMECORE_GOTOTIPSCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D722800)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GotoTipsConfigRow_TypeDefinitionIndex = 13227;
+	inline static constexpr unsigned int GotoTipsConfigRow_TypeDefinitionIndex = 13333;
 
 	class GotoTipsConfigRow : public ::System::Object
 	{

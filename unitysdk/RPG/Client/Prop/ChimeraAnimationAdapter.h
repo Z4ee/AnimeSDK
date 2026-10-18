@@ -5,26 +5,26 @@
 
 namespace UnityEngine { class Animator; }
 
-#define RPG_CLIENT_PROP_CHIMERAANIMATIONADAPTER_METHOD_5_33ACA6CB2ABC73F7_OFFSET UNITYSDK_OFFSET(0xDBFCC00)
-#define RPG_CLIENT_PROP_CHIMERAANIMATIONADAPTER_METHOD_5_B1936CE4DA97AA45_OFFSET UNITYSDK_OFFSET(0xDBFCB60)
-#define RPG_CLIENT_PROP_CHIMERAANIMATIONADAPTER_PLAY_OFFSET UNITYSDK_OFFSET(0xDBFCAF0)
-#define RPG_CLIENT_PROP_CHIMERAANIMATIONADAPTER__CCTOR_OFFSET UNITYSDK_OFFSET(0xDBFCCD0)
-#define RPG_CLIENT_PROP_CHIMERAANIMATIONADAPTER__CTOR_OFFSET UNITYSDK_OFFSET(0xDBFCCC0)
+#define RPG_CLIENT_PROP_CHIMERAANIMATIONADAPTER_METHOD_5_33ACA6CB2ABC73F7_OFFSET UNITYSDK_OFFSET(0xDC47670)
+#define RPG_CLIENT_PROP_CHIMERAANIMATIONADAPTER_METHOD_5_B1936CE4DA97AA45_OFFSET UNITYSDK_OFFSET(0xDC475D0)
+#define RPG_CLIENT_PROP_CHIMERAANIMATIONADAPTER_PLAY_OFFSET UNITYSDK_OFFSET(0xDC47560)
+#define RPG_CLIENT_PROP_CHIMERAANIMATIONADAPTER__CCTOR_OFFSET UNITYSDK_OFFSET(0xDC47740)
+#define RPG_CLIENT_PROP_CHIMERAANIMATIONADAPTER__CTOR_OFFSET UNITYSDK_OFFSET(0xDC47730)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraAnimationAdapter_TypeDefinitionIndex = 77922;
+	inline static constexpr unsigned int ChimeraAnimationAdapter_TypeDefinitionIndex = 78393;
 
 	class ChimeraAnimationAdapter : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		static ::System::Int32* StaticGet_MEKAIIEIDHC()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ChimeraAnimationAdapter_TypeDefinitionIndex)->GetStaticField(0x14350);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ChimeraAnimationAdapter_TypeDefinitionIndex)->GetStaticField(0x11420);
 		}
 		static ::System::Int32* StaticGet_KMKPGPIDKJF()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ChimeraAnimationAdapter_TypeDefinitionIndex)->GetStaticField(0x14354);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ChimeraAnimationAdapter_TypeDefinitionIndex)->GetStaticField(0x11424);
 		}
 		::UnityEngine::Animator* ChimeraAnimator; // 0x18
 

@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class VCameraBlend; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CINEMACHINEVIRTUALCAMERATEMPLATECONFIG_METHOD_2_E49704EFF52C4D3C_OFFSET UNITYSDK_OFFSET(0x1CFD72D0)
-#define RPG_GAMECORE_CINEMACHINEVIRTUALCAMERATEMPLATECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFD74B0)
+#define RPG_GAMECORE_CINEMACHINEVIRTUALCAMERATEMPLATECONFIG_METHOD_2_E49704EFF52C4D3C_OFFSET UNITYSDK_OFFSET(0x1D5B2EC0)
+#define RPG_GAMECORE_CINEMACHINEVIRTUALCAMERATEMPLATECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5B30A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CinemachineVirtualCameraTemplateConfig_TypeDefinitionIndex = 16269;
+	inline static constexpr unsigned int CinemachineVirtualCameraTemplateConfig_TypeDefinitionIndex = 16442;
 
 	class CinemachineVirtualCameraTemplateConfig : public ::RPG::GameCore::JsonConfig
 	{

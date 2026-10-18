@@ -15,7 +15,7 @@ namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int ToHashSet__ToHashSetAsync_d__0_1_TypeDefinitionIndex = 44544;
+	inline static constexpr unsigned int ToHashSet__ToHashSetAsync_d__0_1_TypeDefinitionIndex = 45683;
 
 	template <typename TSource>
 	struct ToHashSet__ToHashSetAsync_d__0_1

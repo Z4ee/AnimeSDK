@@ -13,25 +13,25 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_PREFGROUP_CLEAR_1_OFFSET UNITYSDK_OFFSET(0x1E594BD0)
-#define RPG_CLIENT_PREFGROUP_CLEAR_OFFSET UNITYSDK_OFFSET(0x1E594960)
-#define RPG_CLIENT_PREFGROUP_FLUSH_1_OFFSET UNITYSDK_OFFSET(0x1E594B50)
-#define RPG_CLIENT_PREFGROUP_FLUSH_OFFSET UNITYSDK_OFFSET(0x1E594800)
-#define RPG_CLIENT_PREFGROUP_GETPREFKEY_OFFSET UNITYSDK_OFFSET(0x1E594EA0)
-#define RPG_CLIENT_PREFGROUP_HASPREF_OFFSET UNITYSDK_OFFSET(0x1E594E20)
-#define RPG_CLIENT_PREFGROUP_ISDIRTY_OFFSET UNITYSDK_OFFSET(0x1E594560)
-#define RPG_CLIENT_PREFGROUP_SETSERVERPREFRELOAD_OFFSET UNITYSDK_OFFSET(0x1E594D00)
-#define RPG_CLIENT_PREFGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1E594780)
+#define RPG_CLIENT_PREFGROUP_CLEAR_1_OFFSET UNITYSDK_OFFSET(0x1EC4B540)
+#define RPG_CLIENT_PREFGROUP_CLEAR_OFFSET UNITYSDK_OFFSET(0x1EC4B2D0)
+#define RPG_CLIENT_PREFGROUP_FLUSH_1_OFFSET UNITYSDK_OFFSET(0x1EC4B450)
+#define RPG_CLIENT_PREFGROUP_FLUSH_OFFSET UNITYSDK_OFFSET(0x1EC4B130)
+#define RPG_CLIENT_PREFGROUP_GETPREFKEY_OFFSET UNITYSDK_OFFSET(0x1EC4B830)
+#define RPG_CLIENT_PREFGROUP_HASPREF_OFFSET UNITYSDK_OFFSET(0x1EC4B780)
+#define RPG_CLIENT_PREFGROUP_ISDIRTY_OFFSET UNITYSDK_OFFSET(0x1EC4AE50)
+#define RPG_CLIENT_PREFGROUP_SETSERVERPREFRELOAD_OFFSET UNITYSDK_OFFSET(0x1EC4B600)
+#define RPG_CLIENT_PREFGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1EC4B0B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PrefGroup_TypeDefinitionIndex = 34658;
+	inline static constexpr unsigned int PrefGroup_TypeDefinitionIndex = 35322;
 
 	class PrefGroup : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::Client::Pref*>* _Prefs; // 0x10
-		::System::String* _Name; // 0x18
+		::System::String* _Name; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::Client::Pref*>* _Prefs; // 0x18
 
 		::System::Void _ctor(::System::String* a1)
 		{

@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Class_1_6DBA34B103B833EA_EJumpMode_TypeDefinitionIndex = 80833;
+inline static constexpr unsigned int Class_1_6DBA34B103B833EA_EJumpMode_TypeDefinitionIndex = 82213;
 
 enum class Class_1_6DBA34B103B833EA_EJumpMode : ::System::Int32
 {

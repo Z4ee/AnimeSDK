@@ -4,7 +4,7 @@
 
 namespace System { class Object; }
 
-#define SYSTEM_XML_SCHEMA_POSITION__CTOR_OFFSET UNITYSDK_OFFSET(0x31FA0)
+#define SYSTEM_XML_SCHEMA_POSITION__CTOR_OFFSET UNITYSDK_OFFSET(0xE590)
 
 namespace System::Xml::Schema
 {

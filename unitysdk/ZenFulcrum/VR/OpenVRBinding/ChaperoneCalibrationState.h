@@ -3,7 +3,7 @@
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int ChaperoneCalibrationState_TypeDefinitionIndex = 37948;
+	inline static constexpr unsigned int ChaperoneCalibrationState_TypeDefinitionIndex = 39245;
 
 	enum class ChaperoneCalibrationState : ::System::Int32
 	{

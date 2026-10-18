@@ -7,11 +7,11 @@
 
 namespace RPG::Client { class SimpRTXProxy; }
 
-#define RPG_CLIENT_SIMPRTXPROXYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1585E0)
+#define RPG_CLIENT_SIMPRTXPROXYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xF1D20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SimpRTXProxyData_TypeDefinitionIndex = 70152;
+	inline static constexpr unsigned int SimpRTXProxyData_TypeDefinitionIndex = 70188;
 
 	struct alignas(4) SimpRTXProxyData
 	{

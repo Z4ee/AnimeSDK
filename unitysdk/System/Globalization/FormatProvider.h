@@ -8,12 +8,12 @@ namespace System { class String; }
 namespace System::Globalization { class NumberFormatInfo; }
 namespace System::Text { class StringBuilder; }
 
-#define SYSTEM_GLOBALIZATION_FORMATPROVIDER_FORMATBIGINTEGER_OFFSET UNITYSDK_OFFSET(0x1E7A08E0)
-#define SYSTEM_GLOBALIZATION_FORMATPROVIDER_TRYSTRINGTOBIGINTEGER_OFFSET UNITYSDK_OFFSET(0x1E7A2F70)
+#define SYSTEM_GLOBALIZATION_FORMATPROVIDER_FORMATBIGINTEGER_OFFSET UNITYSDK_OFFSET(0x1EE69600)
+#define SYSTEM_GLOBALIZATION_FORMATPROVIDER_TRYSTRINGTOBIGINTEGER_OFFSET UNITYSDK_OFFSET(0x1EE6BC90)
 
 namespace System::Globalization
 {
-	inline static constexpr unsigned int FormatProvider_TypeDefinitionIndex = 3844;
+	inline static constexpr unsigned int FormatProvider_TypeDefinitionIndex = 3845;
 
 	class FormatProvider : public ::System::Object
 	{

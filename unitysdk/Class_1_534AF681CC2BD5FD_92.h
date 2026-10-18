@@ -3,11 +3,15 @@
 #include "unitysdk/Struct_2_62DA72730C4B8385.h"
 #include "unitysdk/System/Object.h"
 
-namespace R3 { template <typename T> class Observable_1; }
-namespace System { class String; }
+namespace ObservableCollections { template <typename T> class IObservableCollection_1; }
+namespace R3 { template <typename T> class ReactiveProperty_1; }
+namespace RPG::Client { class AnimatorButton; }
+namespace RPG::Client { class TabView; }
 namespace System { template <typename T1, typename T2> class Func_2; }
+template <typename T1, typename T2, typename T3> class Class_0_16E4307DCC41950C_4;
+template <typename T> class Class_0_16E4307DCC419505_399;
 
-inline static constexpr unsigned int Class_1_534AF681CC2BD5FD_92_TypeDefinitionIndex = 50248;
+inline static constexpr unsigned int Class_1_534AF681CC2BD5FD_92_TypeDefinitionIndex = 49806;
 
 class Class_1_534AF681CC2BD5FD_92 : public ::System::Object
 {

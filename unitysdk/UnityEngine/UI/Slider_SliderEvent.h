@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Events/UnityEvent_1.h"
 
-#define UNITYENGINE_UI_SLIDER_SLIDEREVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1EE86680)
+#define UNITYENGINE_UI_SLIDER_SLIDEREVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1F54E5D0)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int Slider_SliderEvent_TypeDefinitionIndex = 6836;
+	inline static constexpr unsigned int Slider_SliderEvent_TypeDefinitionIndex = 6845;
 
 	class Slider_SliderEvent : public ::UnityEngine::Events::UnityEvent_1<::System::Single>
 	{

@@ -6,12 +6,12 @@
 namespace System { class String; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define MESSAGEPACK_FORMATTERNOTREGISTEREDEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B66F1B0)
-#define MESSAGEPACK_FORMATTERNOTREGISTEREDEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1B66F150)
+#define MESSAGEPACK_FORMATTERNOTREGISTEREDEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1BB6DDB0)
+#define MESSAGEPACK_FORMATTERNOTREGISTEREDEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB6DD50)
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int FormatterNotRegisteredException_TypeDefinitionIndex = 7110;
+	inline static constexpr unsigned int FormatterNotRegisteredException_TypeDefinitionIndex = 7164;
 
 	class FormatterNotRegisteredException : public ::MessagePack::MessagePackSerializationException
 	{

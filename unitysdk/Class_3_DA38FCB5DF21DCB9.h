@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class OpenTrainPartyBuildUI; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_DA38FCB5DF21DCB9_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB769420)
-#define CLASS_3_DA38FCB5DF21DCB9__CTOR_OFFSET UNITYSDK_OFFSET(0xB7693F0)
+#define CLASS_3_DA38FCB5DF21DCB9_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB6190C0)
+#define CLASS_3_DA38FCB5DF21DCB9__CTOR_OFFSET UNITYSDK_OFFSET(0xB619090)
 
-inline static constexpr unsigned int Class_3_DA38FCB5DF21DCB9_TypeDefinitionIndex = 53673;
+inline static constexpr unsigned int Class_3_DA38FCB5DF21DCB9_TypeDefinitionIndex = 53416;
 
 class Class_3_DA38FCB5DF21DCB9 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::OpenTrainPartyBuildUI*>
 {

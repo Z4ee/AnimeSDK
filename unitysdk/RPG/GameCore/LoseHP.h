@@ -11,13 +11,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_LOSEHP_METHOD_3_0CBE92FD6BE112D2_OFFSET UNITYSDK_OFFSET(0x1D216250)
-#define RPG_GAMECORE_LOSEHP_METHOD_3_C75500F775A0234D_OFFSET UNITYSDK_OFFSET(0x1D216360)
-#define RPG_GAMECORE_LOSEHP__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2162F0)
+#define RPG_GAMECORE_LOSEHP_METHOD_3_BBBEBE1FDF9E4DDB_OFFSET UNITYSDK_OFFSET(0x1D7F6D60)
+#define RPG_GAMECORE_LOSEHP_METHOD_3_C75500F775A0234D_OFFSET UNITYSDK_OFFSET(0x1D7F6EF0)
+#define RPG_GAMECORE_LOSEHP__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7F6E40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LoseHP_TypeDefinitionIndex = 22443;
+	inline static constexpr unsigned int LoseHP_TypeDefinitionIndex = 22698;
 
 	class LoseHP : public ::RPG::GameCore::TaskConfig
 	{
@@ -35,15 +35,16 @@ namespace RPG::GameCore
 		::System::Boolean RoundDamage; // 0x59
 		::System::Boolean ShowText; // 0x5A
 		::System::Boolean ConsumeShield; // 0x5B
+		::RPG::GameCore::DynamicFloat* PerformanceDelay; // 0x60
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOSEHP__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_0CBE92FD6BE112D2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LoseHP*& a2)
+		static ::System::Void Method_3_BBBEBE1FDF9E4DDB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LoseHP*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LoseHP*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOSEHP_METHOD_3_0CBE92FD6BE112D2_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LoseHP*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOSEHP_METHOD_3_BBBEBE1FDF9E4DDB_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_C75500F775A0234D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LoseHP* a2)

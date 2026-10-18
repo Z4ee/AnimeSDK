@@ -1,7 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_1110_TypeDefinitionIndex = 71759;
+namespace RPG::Client { class MonsterData; }
+namespace RPG::Client { class QuestData; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+inline static constexpr unsigned int Class_0_16E4307DCC419505_1110_TypeDefinitionIndex = 68254;
 
 class Class_0_16E4307DCC419505_1110
 {

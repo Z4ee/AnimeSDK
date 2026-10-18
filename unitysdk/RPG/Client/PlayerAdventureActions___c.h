@@ -9,34 +9,34 @@ namespace System { template <typename T1, typename T2, typename T3> class Action
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 
-#define RPG_CLIENT_PLAYERADVENTUREACTIONS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xDB99C60)
-#define RPG_CLIENT_PLAYERADVENTUREACTIONS___C__CTOR_OFFSET UNITYSDK_OFFSET(0xDB99C90)
-#define RPG_CLIENT_PLAYERADVENTUREACTIONS___C__INIT_B__1_0_OFFSET UNITYSDK_OFFSET(0xDB99CA0)
-#define RPG_CLIENT_PLAYERADVENTUREACTIONS___C__INIT_B__1_1_OFFSET UNITYSDK_OFFSET(0xDB99E50)
-#define RPG_CLIENT_PLAYERADVENTUREACTIONS___C__INIT_B__1_2_OFFSET UNITYSDK_OFFSET(0xDB99E60)
+#define RPG_CLIENT_PLAYERADVENTUREACTIONS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xDBE2A10)
+#define RPG_CLIENT_PLAYERADVENTUREACTIONS___C__CTOR_OFFSET UNITYSDK_OFFSET(0xDBE2A40)
+#define RPG_CLIENT_PLAYERADVENTUREACTIONS___C__INIT_B__1_0_OFFSET UNITYSDK_OFFSET(0xDBE2A50)
+#define RPG_CLIENT_PLAYERADVENTUREACTIONS___C__INIT_B__1_1_OFFSET UNITYSDK_OFFSET(0xDBE2C00)
+#define RPG_CLIENT_PLAYERADVENTUREACTIONS___C__INIT_B__1_2_OFFSET UNITYSDK_OFFSET(0xDBE2C10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlayerAdventureActions___c_TypeDefinitionIndex = 61426;
+	inline static constexpr unsigned int PlayerAdventureActions___c_TypeDefinitionIndex = 61332;
 
 	class PlayerAdventureActions___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_3<::InControl::PlayerAction*, ::InControl::BindingSource*, ::System::Boolean>** StaticGet___9__1_0()
 		{
-			return (::System::Func_3<::InControl::PlayerAction*, ::InControl::BindingSource*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(PlayerAdventureActions___c_TypeDefinitionIndex)->GetStaticField(0x5FFE0);
+			return (::System::Func_3<::InControl::PlayerAction*, ::InControl::BindingSource*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(PlayerAdventureActions___c_TypeDefinitionIndex)->GetStaticField(0x37530);
 		}
 		static ::System::Action_3<::InControl::PlayerAction*, ::InControl::BindingSource*, ::InControl::BindingSourceRejectionType>** StaticGet___9__1_2()
 		{
-			return (::System::Action_3<::InControl::PlayerAction*, ::InControl::BindingSource*, ::InControl::BindingSourceRejectionType>**)Il2CppClass::FromTypeDefinitionIndex(PlayerAdventureActions___c_TypeDefinitionIndex)->GetStaticField(0x5FFE8);
+			return (::System::Action_3<::InControl::PlayerAction*, ::InControl::BindingSource*, ::InControl::BindingSourceRejectionType>**)Il2CppClass::FromTypeDefinitionIndex(PlayerAdventureActions___c_TypeDefinitionIndex)->GetStaticField(0x37538);
 		}
 		static ::System::Action_2<::InControl::PlayerAction*, ::InControl::BindingSource*>** StaticGet___9__1_1()
 		{
-			return (::System::Action_2<::InControl::PlayerAction*, ::InControl::BindingSource*>**)Il2CppClass::FromTypeDefinitionIndex(PlayerAdventureActions___c_TypeDefinitionIndex)->GetStaticField(0x5FFF0);
+			return (::System::Action_2<::InControl::PlayerAction*, ::InControl::BindingSource*>**)Il2CppClass::FromTypeDefinitionIndex(PlayerAdventureActions___c_TypeDefinitionIndex)->GetStaticField(0x37540);
 		}
 		static ::RPG::Client::PlayerAdventureActions___c** StaticGet___9()
 		{
-			return (::RPG::Client::PlayerAdventureActions___c**)Il2CppClass::FromTypeDefinitionIndex(PlayerAdventureActions___c_TypeDefinitionIndex)->GetStaticField(0x5FFF8);
+			return (::RPG::Client::PlayerAdventureActions___c**)Il2CppClass::FromTypeDefinitionIndex(PlayerAdventureActions___c_TypeDefinitionIndex)->GetStaticField(0x37548);
 		}
 
 		static ::System::Void _cctor()

@@ -1,0 +1,81 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/MechCraft/View/MechCraftBinderBase.h"
+
+namespace RPG::Client { class LocalizedText; }
+namespace RPG::Client { class MonoAnimationTrigger; }
+namespace RPG::Client { class UIStateCtrl; }
+namespace RPG::Client { class UIValueChangeAnimation; }
+namespace UnityEngine { class RectTransform; }
+namespace UnityEngine { class Transform; }
+namespace UnityEngine::UI { class Slider; }
+
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTINTEGRATIONBARCONTROLBINDER_GET_ANIMTRIGGER_OFFSET UNITYSDK_OFFSET(0xD646980)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTINTEGRATIONBARCONTROLBINDER_GET_SLIDERBASE_OFFSET UNITYSDK_OFFSET(0xD647F90)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTINTEGRATIONBARCONTROLBINDER_GET_SLIDEREXTRA_OFFSET UNITYSDK_OFFSET(0xD648040)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTINTEGRATIONBARCONTROLBINDER_GET_STATECTRL_OFFSET UNITYSDK_OFFSET(0xD6466B0)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTINTEGRATIONBARCONTROLBINDER_GET_TEXTPERCENT_OFFSET UNITYSDK_OFFSET(0xD647EE0)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTINTEGRATIONBARCONTROLBINDER_GET_VALUECHANGEANIM_OFFSET UNITYSDK_OFFSET(0xD647420)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTINTEGRATIONBARCONTROLBINDER_GET_VFXDECREASE_OFFSET UNITYSDK_OFFSET(0xD6468C0)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTINTEGRATIONBARCONTROLBINDER_GET_VFXINCREASE1_OFFSET UNITYSDK_OFFSET(0xD646760)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTINTEGRATIONBARCONTROLBINDER_GET_VFXINCREASE2_OFFSET UNITYSDK_OFFSET(0xD646810)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTINTEGRATIONBARCONTROLBINDER__CTOR_OFFSET UNITYSDK_OFFSET(0xD6480F0)
+
+namespace RPG::Client::MechCraft::View
+{
+	inline static constexpr unsigned int MechCraftIntegrationBarControlBinder_TypeDefinitionIndex = 79820;
+
+	class MechCraftIntegrationBarControlBinder : public ::RPG::Client::MechCraft::View::MechCraftBinderBase
+	{
+	public:
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTINTEGRATIONBARCONTROLBINDER__CTOR_OFFSET))(this);
+		}
+
+		::UnityEngine::UI::Slider* get_SliderBase()
+		{
+			return ((::UnityEngine::UI::Slider*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTINTEGRATIONBARCONTROLBINDER_GET_SLIDERBASE_OFFSET))(this);
+		}
+
+		::UnityEngine::UI::Slider* get_SliderExtra()
+		{
+			return ((::UnityEngine::UI::Slider*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTINTEGRATIONBARCONTROLBINDER_GET_SLIDEREXTRA_OFFSET))(this);
+		}
+
+		::RPG::Client::LocalizedText* get_TextPercent()
+		{
+			return ((::RPG::Client::LocalizedText*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTINTEGRATIONBARCONTROLBINDER_GET_TEXTPERCENT_OFFSET))(this);
+		}
+
+		::RPG::Client::UIStateCtrl* get_StateCtrl()
+		{
+			return ((::RPG::Client::UIStateCtrl*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTINTEGRATIONBARCONTROLBINDER_GET_STATECTRL_OFFSET))(this);
+		}
+
+		::RPG::Client::MonoAnimationTrigger* get_AnimTrigger()
+		{
+			return ((::RPG::Client::MonoAnimationTrigger*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTINTEGRATIONBARCONTROLBINDER_GET_ANIMTRIGGER_OFFSET))(this);
+		}
+
+		::UnityEngine::RectTransform* get_VfxIncrease1()
+		{
+			return ((::UnityEngine::RectTransform*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTINTEGRATIONBARCONTROLBINDER_GET_VFXINCREASE1_OFFSET))(this);
+		}
+
+		::UnityEngine::Transform* get_VfxIncrease2()
+		{
+			return ((::UnityEngine::Transform*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTINTEGRATIONBARCONTROLBINDER_GET_VFXINCREASE2_OFFSET))(this);
+		}
+
+		::UnityEngine::RectTransform* get_VfxDecrease()
+		{
+			return ((::UnityEngine::RectTransform*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTINTEGRATIONBARCONTROLBINDER_GET_VFXDECREASE_OFFSET))(this);
+		}
+
+		::RPG::Client::UIValueChangeAnimation* get_ValueChangeAnim()
+		{
+			return ((::RPG::Client::UIValueChangeAnimation*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTINTEGRATIONBARCONTROLBINDER_GET_VALUECHANGEANIM_OFFSET))(this);
+		}
+	};
+}

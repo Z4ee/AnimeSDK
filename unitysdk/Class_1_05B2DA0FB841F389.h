@@ -7,21 +7,21 @@
 
 namespace RPG::GameCore { class FiveDimPropSpawnerParam; }
 
-#define CLASS_1_05B2DA0FB841F389_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C436250)
-#define CLASS_1_05B2DA0FB841F389__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4362D0)
+#define CLASS_1_05B2DA0FB841F389_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C99DB30)
+#define CLASS_1_05B2DA0FB841F389__CTOR_OFFSET UNITYSDK_OFFSET(0x1C99DBB0)
 
-inline static constexpr unsigned int Class_1_05B2DA0FB841F389_TypeDefinitionIndex = 41888;
+inline static constexpr unsigned int Class_1_05B2DA0FB841F389_TypeDefinitionIndex = 43530;
 
 class Class_1_05B2DA0FB841F389 : public ::System::Object
 {
 public:
 	::RPG::GameCore::FiveDimPropSpawnerParam* DFCFNEKCKBA; // 0x10
-	::Struct_2_EAC1BB0F093534A5 LFBCMJEODKP; // 0x18
-	::Struct_2_EAC1BB0F093534A5 COCEIMLGHKB; // 0x80
-	::System::Nullable_1<::UnityEngine::Vector3> FJFNEEJBAFK; // 0xE8
-	::System::Single KBJJAMMPOMO; // 0xF8
-	::System::Boolean CMBHFHCPJNH; // 0xFC
-	::System::Boolean DCKBLNHCLNG; // 0xFD
+	::System::Nullable_1<::UnityEngine::Vector3> FJFNEEJBAFK; // 0x18
+	::System::Boolean DCKBLNHCLNG; // 0x28
+	::System::Boolean CMBHFHCPJNH; // 0x29
+	::Struct_2_EAC1BB0F093534A5 COCEIMLGHKB; // 0x2C
+	::Struct_2_EAC1BB0F093534A5 LFBCMJEODKP; // 0x94
+	::System::Single KBJJAMMPOMO; // 0xFC
 
 	::System::Void _ctor()
 	{

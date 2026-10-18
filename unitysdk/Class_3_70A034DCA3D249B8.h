@@ -6,10 +6,10 @@
 namespace RPG::GameCore { class SetDynamicValueByTournFloorType; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_70A034DCA3D249B8_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBBD5A40)
-#define CLASS_3_70A034DCA3D249B8__CTOR_OFFSET UNITYSDK_OFFSET(0xBBD5960)
+#define CLASS_3_70A034DCA3D249B8_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBA9DAC0)
+#define CLASS_3_70A034DCA3D249B8__CTOR_OFFSET UNITYSDK_OFFSET(0xBA9D9E0)
 
-inline static constexpr unsigned int Class_3_70A034DCA3D249B8_TypeDefinitionIndex = 55668;
+inline static constexpr unsigned int Class_3_70A034DCA3D249B8_TypeDefinitionIndex = 55476;
 
 class Class_3_70A034DCA3D249B8 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetDynamicValueByTournFloorType*>
 {

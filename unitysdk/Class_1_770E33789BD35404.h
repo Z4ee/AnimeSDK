@@ -4,24 +4,24 @@
 #include "unitysdk/RPG/Client/UISymbolFilterType.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_1156;
+class Class_0_16E4307DCC419505_1269;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_770E33789BD35404_METHOD_1_364767BD419C9E78_OFFSET UNITYSDK_OFFSET(0xB840990)
-#define CLASS_1_770E33789BD35404_METHOD_1_4BC702C202C0EC3E_OFFSET UNITYSDK_OFFSET(0xB8413F0)
-#define CLASS_1_770E33789BD35404_METHOD_1_4F0B73AFEEDA5D03_OFFSET UNITYSDK_OFFSET(0xB840C30)
-#define CLASS_1_770E33789BD35404_METHOD_1_E41DB783D8F46AC5_OFFSET UNITYSDK_OFFSET(0xB840CE0)
-#define CLASS_1_770E33789BD35404__CCTOR_OFFSET UNITYSDK_OFFSET(0xB841640)
+#define CLASS_1_770E33789BD35404_METHOD_1_364767BD419C9E78_OFFSET UNITYSDK_OFFSET(0xB6B3470)
+#define CLASS_1_770E33789BD35404_METHOD_1_4BC702C202C0EC3E_OFFSET UNITYSDK_OFFSET(0xB6B3ED0)
+#define CLASS_1_770E33789BD35404_METHOD_1_4F0B73AFEEDA5D03_OFFSET UNITYSDK_OFFSET(0xB6B3710)
+#define CLASS_1_770E33789BD35404_METHOD_1_E41DB783D8F46AC5_OFFSET UNITYSDK_OFFSET(0xB6B37C0)
+#define CLASS_1_770E33789BD35404__CCTOR_OFFSET UNITYSDK_OFFSET(0xB6B4120)
 
-inline static constexpr unsigned int Class_1_770E33789BD35404_TypeDefinitionIndex = 72856;
+inline static constexpr unsigned int Class_1_770E33789BD35404_TypeDefinitionIndex = 72939;
 
 class Class_1_770E33789BD35404 : public ::System::Object
 {
 public:
-	static ::System::Collections::Generic::Dictionary_2<::RPG::Client::UISymbolFilterType, ::Class_0_16E4307DCC419505_1156*>** StaticGet_LNPAHCPDHPD()
+	static ::System::Collections::Generic::Dictionary_2<::RPG::Client::UISymbolFilterType, ::Class_0_16E4307DCC419505_1269*>** StaticGet_LNPAHCPDHPD()
 	{
-		return (::System::Collections::Generic::Dictionary_2<::RPG::Client::UISymbolFilterType, ::Class_0_16E4307DCC419505_1156*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_770E33789BD35404_TypeDefinitionIndex)->GetStaticField(0x11740);
+		return (::System::Collections::Generic::Dictionary_2<::RPG::Client::UISymbolFilterType, ::Class_0_16E4307DCC419505_1269*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_770E33789BD35404_TypeDefinitionIndex)->GetStaticField(0x5E730);
 	}
 
 	static ::System::Void _cctor()
@@ -34,14 +34,14 @@ public:
 		return ((::System::Boolean(*)(::RPG::Client::UISymbolFilterSource, ::System::Char, ::System::Char&))((::PBYTE)hIl2Cpp + CLASS_1_770E33789BD35404_METHOD_1_364767BD419C9E78_OFFSET))(a1, a2, a3);
 	}
 
-	static ::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_1156*>* Method_1_E41DB783D8F46AC5(::System::Int32 a1)
+	static ::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_1269*>* Method_1_E41DB783D8F46AC5(::System::Int32 a1)
 	{
-		return ((::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_1156*>*(*)(::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_770E33789BD35404_METHOD_1_E41DB783D8F46AC5_OFFSET))(a1);
+		return ((::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_1269*>*(*)(::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_770E33789BD35404_METHOD_1_E41DB783D8F46AC5_OFFSET))(a1);
 	}
 
-	static ::Class_0_16E4307DCC419505_1156* Method_1_4BC702C202C0EC3E(::RPG::Client::UISymbolFilterType a1)
+	static ::Class_0_16E4307DCC419505_1269* Method_1_4BC702C202C0EC3E(::RPG::Client::UISymbolFilterType a1)
 	{
-		return ((::Class_0_16E4307DCC419505_1156*(*)(::RPG::Client::UISymbolFilterType))((::PBYTE)hIl2Cpp + CLASS_1_770E33789BD35404_METHOD_1_4BC702C202C0EC3E_OFFSET))(a1);
+		return ((::Class_0_16E4307DCC419505_1269*(*)(::RPG::Client::UISymbolFilterType))((::PBYTE)hIl2Cpp + CLASS_1_770E33789BD35404_METHOD_1_4BC702C202C0EC3E_OFFSET))(a1);
 	}
 
 	static ::System::Int32 Method_1_4F0B73AFEEDA5D03(::RPG::Client::UISymbolFilterSource a1)

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ExpeditionBattleFlowStateType_TypeDefinitionIndex = 16050;
+	inline static constexpr unsigned int ExpeditionBattleFlowStateType_TypeDefinitionIndex = 16223;
 
 	enum class ExpeditionBattleFlowStateType : ::System::Int32
 	{

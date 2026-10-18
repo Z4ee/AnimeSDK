@@ -4,7 +4,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DefaultExtraConfig_1_TypeDefinitionIndex = 54275;
+	inline static constexpr unsigned int DefaultExtraConfig_1_TypeDefinitionIndex = 54061;
 
 	template <typename T>
 	class DefaultExtraConfig_1 : public ::System::Object

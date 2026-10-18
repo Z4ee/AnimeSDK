@@ -8,17 +8,17 @@ namespace RPG::GameCore { class OptionTriggerInfo; }
 namespace System { class Action; }
 namespace System { template <typename T> class Func_1; }
 
-#define CLASS_3_3100354E684764E9_DOONENTER_OFFSET UNITYSDK_OFFSET(0x15AB3B70)
-#define CLASS_3_3100354E684764E9_DOONEXIT_OFFSET UNITYSDK_OFFSET(0x15AB3BF0)
-#define CLASS_3_3100354E684764E9__CTOR_OFFSET UNITYSDK_OFFSET(0x15AB3B00)
+#define CLASS_3_3100354E684764E9_DOONENTER_OFFSET UNITYSDK_OFFSET(0x15DC7420)
+#define CLASS_3_3100354E684764E9_DOONEXIT_OFFSET UNITYSDK_OFFSET(0x15DC74A0)
+#define CLASS_3_3100354E684764E9__CTOR_OFFSET UNITYSDK_OFFSET(0x15DC73B0)
 
-inline static constexpr unsigned int Class_3_3100354E684764E9_TypeDefinitionIndex = 78202;
+inline static constexpr unsigned int Class_3_3100354E684764E9_TypeDefinitionIndex = 78673;
 
 class Class_3_3100354E684764E9 : public ::Class_2_C5E5FE6832D0C155
 {
 public:
-	::System::Action* MAPEJKHFNHA; // 0xC0
-	::System::Action* ENDGBKNJKKG; // 0xC8
+	::System::Action* MAPEJKHFNHA; // 0xC8
+	::System::Action* ENDGBKNJKKG; // 0xD0
 
 	::System::Void _ctor(::RPG::GameCore::GameEntity* a1, ::System::Int32 a2, ::Il2CppArray<::RPG::GameCore::OptionTriggerInfo*>* a3, ::Il2CppArray<::System::Action*>* a4, ::System::Func_1<::System::Boolean>* a5)
 	{

@@ -7,22 +7,22 @@ namespace RPG::Client { class MatchThreeV2ChallengerData; }
 namespace RPG::Client { class MatchThreeV2LevelInfos; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_CLIENT_MATCHTHREEV2CHALLENGERINFOS_CREATE_OFFSET UNITYSDK_OFFSET(0xD65E600)
-#define RPG_CLIENT_MATCHTHREEV2CHALLENGERINFOS_GETCHALLENGERDATABYGAMELEVEL_OFFSET UNITYSDK_OFFSET(0xD65EBE0)
-#define RPG_CLIENT_MATCHTHREEV2CHALLENGERINFOS_GETCHALLENGERDATA_OFFSET UNITYSDK_OFFSET(0xD65EB30)
-#define RPG_CLIENT_MATCHTHREEV2CHALLENGERINFOS_ISCHALLENGINGLEVEL_OFFSET UNITYSDK_OFFSET(0xD65ECF0)
-#define RPG_CLIENT_MATCHTHREEV2CHALLENGERINFOS__CTOR_OFFSET UNITYSDK_OFFSET(0xD65E680)
-#define RPG_CLIENT_MATCHTHREEV2CHALLENGERINFOS__INIT_OFFSET UNITYSDK_OFFSET(0xD65E690)
+#define RPG_CLIENT_MATCHTHREEV2CHALLENGERINFOS_CREATE_OFFSET UNITYSDK_OFFSET(0xD5B77A0)
+#define RPG_CLIENT_MATCHTHREEV2CHALLENGERINFOS_GETCHALLENGERDATABYGAMELEVEL_OFFSET UNITYSDK_OFFSET(0xD5B7D80)
+#define RPG_CLIENT_MATCHTHREEV2CHALLENGERINFOS_GETCHALLENGERDATA_OFFSET UNITYSDK_OFFSET(0xD5B7CD0)
+#define RPG_CLIENT_MATCHTHREEV2CHALLENGERINFOS_ISCHALLENGINGLEVEL_OFFSET UNITYSDK_OFFSET(0xD5B7E90)
+#define RPG_CLIENT_MATCHTHREEV2CHALLENGERINFOS__CTOR_OFFSET UNITYSDK_OFFSET(0xD5B7820)
+#define RPG_CLIENT_MATCHTHREEV2CHALLENGERINFOS__INIT_OFFSET UNITYSDK_OFFSET(0xD5B7830)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MatchThreeV2ChallengerInfos_TypeDefinitionIndex = 66045;
+	inline static constexpr unsigned int MatchThreeV2ChallengerInfos_TypeDefinitionIndex = 65999;
 
 	class MatchThreeV2ChallengerInfos : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* _LevelIDToChallenger; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::MatchThreeV2ChallengerData*>* _DataDict; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::MatchThreeV2ChallengerData*>* _DataDict; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* _LevelIDToChallenger; // 0x18
 
 		::System::Void _ctor()
 		{

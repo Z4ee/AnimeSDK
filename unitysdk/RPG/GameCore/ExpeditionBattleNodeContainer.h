@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class BaseExpeditionBattleNode; }
 
-#define RPG_GAMECORE_EXPEDITIONBATTLENODECONTAINER_METHOD_2_910B45FA6EF5385C_OFFSET UNITYSDK_OFFSET(0x1D081C90)
-#define RPG_GAMECORE_EXPEDITIONBATTLENODECONTAINER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D081D80)
+#define RPG_GAMECORE_EXPEDITIONBATTLENODECONTAINER_METHOD_2_910B45FA6EF5385C_OFFSET UNITYSDK_OFFSET(0x1D68FC80)
+#define RPG_GAMECORE_EXPEDITIONBATTLENODECONTAINER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D68FD70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ExpeditionBattleNodeContainer_TypeDefinitionIndex = 16024;
+	inline static constexpr unsigned int ExpeditionBattleNodeContainer_TypeDefinitionIndex = 16197;
 
 	class ExpeditionBattleNodeContainer : public ::RPG::GameCore::JsonConfig
 	{

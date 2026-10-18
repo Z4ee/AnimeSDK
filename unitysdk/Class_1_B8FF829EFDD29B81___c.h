@@ -6,82 +6,82 @@
 class Class_2_6B60059019300BAD;
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define CLASS_1_B8FF829EFDD29B81___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xCFCC0D0)
-#define CLASS_1_B8FF829EFDD29B81___C__CTOR_OFFSET UNITYSDK_OFFSET(0xCFCC110)
-#define CLASS_1_B8FF829EFDD29B81___C__GETVALUE_B__35_0_OFFSET UNITYSDK_OFFSET(0xCFCC3C0)
-#define CLASS_1_B8FF829EFDD29B81___C___EVALUATEATTRIBUTERANKSOLDIERS_B__18_0_OFFSET UNITYSDK_OFFSET(0xCFCC360)
-#define CLASS_1_B8FF829EFDD29B81___C___EVALUATEATTRIBUTERANKSOLDIERS_B__18_2_OFFSET UNITYSDK_OFFSET(0xCFCC370)
-#define CLASS_1_B8FF829EFDD29B81___C___EVALUATENEARESTNSOLDIERS_B__15_1_OFFSET UNITYSDK_OFFSET(0xCFCC210)
-#define CLASS_1_B8FF829EFDD29B81___C___EVALUATENEARESTNTHSOLDIER_B__17_1_OFFSET UNITYSDK_OFFSET(0xCFCC310)
-#define CLASS_1_B8FF829EFDD29B81___C___EVALUATERANDOMNSOLDIERS_B__16_1_OFFSET UNITYSDK_OFFSET(0xCFCC260)
-#define CLASS_1_B8FF829EFDD29B81___C___EVALUATERANDOMNSOLDIERS_B__16_2_OFFSET UNITYSDK_OFFSET(0xCFCC2B0)
-#define CLASS_1_B8FF829EFDD29B81___C___EVALUATERANDOMNSOLDIERS_B__16_3_OFFSET UNITYSDK_OFFSET(0xCFCC2C0)
-#define CLASS_1_B8FF829EFDD29B81___C___FILTERSOLDIERBYINITPOSITION_B__13_0_OFFSET UNITYSDK_OFFSET(0xCFCC120)
-#define CLASS_1_B8FF829EFDD29B81___C___FILTERSOLDIERBYINITPOSITION_B__13_1_OFFSET UNITYSDK_OFFSET(0xCFCC150)
-#define CLASS_1_B8FF829EFDD29B81___C___FILTERSOLDIERBYINITPOSITION_B__13_2_OFFSET UNITYSDK_OFFSET(0xCFCC180)
-#define CLASS_1_B8FF829EFDD29B81___C___FILTERSOLDIERBYINITPOSITION_B__13_3_OFFSET UNITYSDK_OFFSET(0xCFCC1B0)
-#define CLASS_1_B8FF829EFDD29B81___C___FILTERSOLDIERBYINITPOSITION_B__13_5_OFFSET UNITYSDK_OFFSET(0xCFCC1E0)
+#define CLASS_1_B8FF829EFDD29B81___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xCF8AB60)
+#define CLASS_1_B8FF829EFDD29B81___C__CTOR_OFFSET UNITYSDK_OFFSET(0xCF8ABA0)
+#define CLASS_1_B8FF829EFDD29B81___C__GETVALUE_B__35_0_OFFSET UNITYSDK_OFFSET(0xCF8AE50)
+#define CLASS_1_B8FF829EFDD29B81___C___EVALUATEATTRIBUTERANKSOLDIERS_B__18_0_OFFSET UNITYSDK_OFFSET(0xCF8ADF0)
+#define CLASS_1_B8FF829EFDD29B81___C___EVALUATEATTRIBUTERANKSOLDIERS_B__18_2_OFFSET UNITYSDK_OFFSET(0xCF8AE00)
+#define CLASS_1_B8FF829EFDD29B81___C___EVALUATENEARESTNSOLDIERS_B__15_1_OFFSET UNITYSDK_OFFSET(0xCF8ACA0)
+#define CLASS_1_B8FF829EFDD29B81___C___EVALUATENEARESTNTHSOLDIER_B__17_1_OFFSET UNITYSDK_OFFSET(0xCF8ADA0)
+#define CLASS_1_B8FF829EFDD29B81___C___EVALUATERANDOMNSOLDIERS_B__16_1_OFFSET UNITYSDK_OFFSET(0xCF8ACF0)
+#define CLASS_1_B8FF829EFDD29B81___C___EVALUATERANDOMNSOLDIERS_B__16_2_OFFSET UNITYSDK_OFFSET(0xCF8AD40)
+#define CLASS_1_B8FF829EFDD29B81___C___EVALUATERANDOMNSOLDIERS_B__16_3_OFFSET UNITYSDK_OFFSET(0xCF8AD50)
+#define CLASS_1_B8FF829EFDD29B81___C___FILTERSOLDIERBYINITPOSITION_B__13_0_OFFSET UNITYSDK_OFFSET(0xCF8ABB0)
+#define CLASS_1_B8FF829EFDD29B81___C___FILTERSOLDIERBYINITPOSITION_B__13_1_OFFSET UNITYSDK_OFFSET(0xCF8ABE0)
+#define CLASS_1_B8FF829EFDD29B81___C___FILTERSOLDIERBYINITPOSITION_B__13_2_OFFSET UNITYSDK_OFFSET(0xCF8AC10)
+#define CLASS_1_B8FF829EFDD29B81___C___FILTERSOLDIERBYINITPOSITION_B__13_3_OFFSET UNITYSDK_OFFSET(0xCF8AC40)
+#define CLASS_1_B8FF829EFDD29B81___C___FILTERSOLDIERBYINITPOSITION_B__13_5_OFFSET UNITYSDK_OFFSET(0xCF8AC70)
 
-inline static constexpr unsigned int Class_1_B8FF829EFDD29B81___c_TypeDefinitionIndex = 77399;
+inline static constexpr unsigned int Class_1_B8FF829EFDD29B81___c_TypeDefinitionIndex = 77870;
 
 class Class_1_B8FF829EFDD29B81___c : public ::System::Object
 {
 public:
-	static ::System::Func_2<::Class_2_6B60059019300BAD*, ::System::Boolean>** StaticGet___9__18_0()
-	{
-		return (::System::Func_2<::Class_2_6B60059019300BAD*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_B8FF829EFDD29B81___c_TypeDefinitionIndex)->GetStaticField(0x616D0);
-	}
-	static ::Class_1_B8FF829EFDD29B81___c** StaticGet___9()
-	{
-		return (::Class_1_B8FF829EFDD29B81___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_B8FF829EFDD29B81___c_TypeDefinitionIndex)->GetStaticField(0x616D8);
-	}
-	static ::System::Func_2<::Class_2_6B60059019300BAD*, ::System::Boolean>** StaticGet___9__13_1()
-	{
-		return (::System::Func_2<::Class_2_6B60059019300BAD*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_B8FF829EFDD29B81___c_TypeDefinitionIndex)->GetStaticField(0x616E0);
-	}
-	static ::System::Func_2<::Class_2_6B60059019300BAD*, ::System::Int32>** StaticGet___9__16_3()
-	{
-		return (::System::Func_2<::Class_2_6B60059019300BAD*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_B8FF829EFDD29B81___c_TypeDefinitionIndex)->GetStaticField(0x616E8);
-	}
-	static ::System::Func_2<::Class_2_6B60059019300BAD*, ::System::Int32>** StaticGet___9__17_1()
-	{
-		return (::System::Func_2<::Class_2_6B60059019300BAD*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_B8FF829EFDD29B81___c_TypeDefinitionIndex)->GetStaticField(0x616F0);
-	}
-	static ::System::Func_2<::Class_2_6B60059019300BAD*, ::System::Int32>** StaticGet___9__18_2()
-	{
-		return (::System::Func_2<::Class_2_6B60059019300BAD*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_B8FF829EFDD29B81___c_TypeDefinitionIndex)->GetStaticField(0x616F8);
-	}
-	static ::System::Func_2<::Class_2_6B60059019300BAD*, ::System::Boolean>** StaticGet___9__13_0()
-	{
-		return (::System::Func_2<::Class_2_6B60059019300BAD*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_B8FF829EFDD29B81___c_TypeDefinitionIndex)->GetStaticField(0x61700);
-	}
 	static ::System::Func_2<::Class_2_6B60059019300BAD*, ::System::Int32>** StaticGet___9__16_1()
 	{
-		return (::System::Func_2<::Class_2_6B60059019300BAD*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_B8FF829EFDD29B81___c_TypeDefinitionIndex)->GetStaticField(0x61708);
+		return (::System::Func_2<::Class_2_6B60059019300BAD*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_B8FF829EFDD29B81___c_TypeDefinitionIndex)->GetStaticField(0x305D0);
 	}
-	static ::System::Func_2<::Class_2_6B60059019300BAD*, ::RPG::GameCore::ChenLingBattleInitPosition>** StaticGet___9__13_3()
+	static ::System::Func_2<::Class_2_6B60059019300BAD*, ::System::Boolean>** StaticGet___9__18_0()
 	{
-		return (::System::Func_2<::Class_2_6B60059019300BAD*, ::RPG::GameCore::ChenLingBattleInitPosition>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_B8FF829EFDD29B81___c_TypeDefinitionIndex)->GetStaticField(0x61710);
-	}
-	static ::System::Func_2<::Class_2_6B60059019300BAD*, ::System::Single>** StaticGet___9__16_2()
-	{
-		return (::System::Func_2<::Class_2_6B60059019300BAD*, ::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_B8FF829EFDD29B81___c_TypeDefinitionIndex)->GetStaticField(0x61718);
+		return (::System::Func_2<::Class_2_6B60059019300BAD*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_B8FF829EFDD29B81___c_TypeDefinitionIndex)->GetStaticField(0x305D8);
 	}
 	static ::System::Func_2<::Class_2_6B60059019300BAD*, ::System::Int32>** StaticGet___9__15_1()
 	{
-		return (::System::Func_2<::Class_2_6B60059019300BAD*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_B8FF829EFDD29B81___c_TypeDefinitionIndex)->GetStaticField(0x61720);
+		return (::System::Func_2<::Class_2_6B60059019300BAD*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_B8FF829EFDD29B81___c_TypeDefinitionIndex)->GetStaticField(0x305E0);
+	}
+	static ::System::Func_2<::Class_2_6B60059019300BAD*, ::RPG::GameCore::ChenLingBattleInitPosition>** StaticGet___9__13_3()
+	{
+		return (::System::Func_2<::Class_2_6B60059019300BAD*, ::RPG::GameCore::ChenLingBattleInitPosition>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_B8FF829EFDD29B81___c_TypeDefinitionIndex)->GetStaticField(0x305E8);
+	}
+	static ::System::Func_2<::Class_2_6B60059019300BAD*, ::System::Boolean>** StaticGet___9__13_0()
+	{
+		return (::System::Func_2<::Class_2_6B60059019300BAD*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_B8FF829EFDD29B81___c_TypeDefinitionIndex)->GetStaticField(0x305F0);
+	}
+	static ::System::Func_2<::Class_2_6B60059019300BAD*, ::System::Single>** StaticGet___9__16_2()
+	{
+		return (::System::Func_2<::Class_2_6B60059019300BAD*, ::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_B8FF829EFDD29B81___c_TypeDefinitionIndex)->GetStaticField(0x305F8);
+	}
+	static ::Class_1_B8FF829EFDD29B81___c** StaticGet___9()
+	{
+		return (::Class_1_B8FF829EFDD29B81___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_B8FF829EFDD29B81___c_TypeDefinitionIndex)->GetStaticField(0x30600);
+	}
+	static ::System::Func_2<::Class_2_6B60059019300BAD*, ::System::Boolean>** StaticGet___9__13_1()
+	{
+		return (::System::Func_2<::Class_2_6B60059019300BAD*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_B8FF829EFDD29B81___c_TypeDefinitionIndex)->GetStaticField(0x30608);
+	}
+	static ::System::Func_2<::Class_2_6B60059019300BAD*, ::System::Int32>** StaticGet___9__18_2()
+	{
+		return (::System::Func_2<::Class_2_6B60059019300BAD*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_B8FF829EFDD29B81___c_TypeDefinitionIndex)->GetStaticField(0x30610);
 	}
 	static ::System::Func_2<::Class_2_6B60059019300BAD*, ::RPG::GameCore::ChenLingBattleInitPosition>** StaticGet___9__13_5()
 	{
-		return (::System::Func_2<::Class_2_6B60059019300BAD*, ::RPG::GameCore::ChenLingBattleInitPosition>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_B8FF829EFDD29B81___c_TypeDefinitionIndex)->GetStaticField(0x61728);
+		return (::System::Func_2<::Class_2_6B60059019300BAD*, ::RPG::GameCore::ChenLingBattleInitPosition>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_B8FF829EFDD29B81___c_TypeDefinitionIndex)->GetStaticField(0x30618);
 	}
 	static ::System::Func_2<::Class_2_6B60059019300BAD*, ::System::Boolean>** StaticGet___9__35_0()
 	{
-		return (::System::Func_2<::Class_2_6B60059019300BAD*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_B8FF829EFDD29B81___c_TypeDefinitionIndex)->GetStaticField(0x61730);
+		return (::System::Func_2<::Class_2_6B60059019300BAD*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_B8FF829EFDD29B81___c_TypeDefinitionIndex)->GetStaticField(0x30620);
+	}
+	static ::System::Func_2<::Class_2_6B60059019300BAD*, ::System::Int32>** StaticGet___9__17_1()
+	{
+		return (::System::Func_2<::Class_2_6B60059019300BAD*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_B8FF829EFDD29B81___c_TypeDefinitionIndex)->GetStaticField(0x30628);
 	}
 	static ::System::Func_2<::Class_2_6B60059019300BAD*, ::System::Boolean>** StaticGet___9__13_2()
 	{
-		return (::System::Func_2<::Class_2_6B60059019300BAD*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_B8FF829EFDD29B81___c_TypeDefinitionIndex)->GetStaticField(0x61738);
+		return (::System::Func_2<::Class_2_6B60059019300BAD*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_B8FF829EFDD29B81___c_TypeDefinitionIndex)->GetStaticField(0x30630);
+	}
+	static ::System::Func_2<::Class_2_6B60059019300BAD*, ::System::Int32>** StaticGet___9__16_3()
+	{
+		return (::System::Func_2<::Class_2_6B60059019300BAD*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_B8FF829EFDD29B81___c_TypeDefinitionIndex)->GetStaticField(0x30638);
 	}
 
 	static ::System::Void _cctor()

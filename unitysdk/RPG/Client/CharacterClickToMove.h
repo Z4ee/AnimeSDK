@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-class Class_2_A0580152EB393340;
+class Class_2_ED5B635C4D775055;
 
-#define RPG_CLIENT_CHARACTERCLICKTOMOVE_START_OFFSET UNITYSDK_OFFSET(0xCAC54D0)
-#define RPG_CLIENT_CHARACTERCLICKTOMOVE_UPDATE_OFFSET UNITYSDK_OFFSET(0xCAC55D0)
-#define RPG_CLIENT_CHARACTERCLICKTOMOVE__CTOR_OFFSET UNITYSDK_OFFSET(0xCAC59A0)
+#define RPG_CLIENT_CHARACTERCLICKTOMOVE_START_OFFSET UNITYSDK_OFFSET(0xC9C66A0)
+#define RPG_CLIENT_CHARACTERCLICKTOMOVE_UPDATE_OFFSET UNITYSDK_OFFSET(0xC9C67A0)
+#define RPG_CLIENT_CHARACTERCLICKTOMOVE__CTOR_OFFSET UNITYSDK_OFFSET(0xC9C6B70)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CharacterClickToMove_TypeDefinitionIndex = 68348;
+	inline static constexpr unsigned int CharacterClickToMove_TypeDefinitionIndex = 68381;
 
 	class CharacterClickToMove : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		::Class_2_A0580152EB393340* GHKHOIPCAHO; // 0x18
+		::Class_2_ED5B635C4D775055* GHKHOIPCAHO; // 0x18
 
 		::System::Void _ctor()
 		{

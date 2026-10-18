@@ -5,10 +5,10 @@
 class Class_1_20E36FD2269615D8;
 namespace RPG::GameCore { class FiveDimLightningConfig; }
 
-#define CLASS_1_F939197C243AEA34_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C424ED0)
-#define CLASS_1_F939197C243AEA34__CTOR_OFFSET UNITYSDK_OFFSET(0x1C424F50)
+#define CLASS_1_F939197C243AEA34_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C98C570)
+#define CLASS_1_F939197C243AEA34__CTOR_OFFSET UNITYSDK_OFFSET(0x1C98C5F0)
 
-inline static constexpr unsigned int Class_1_F939197C243AEA34_TypeDefinitionIndex = 41877;
+inline static constexpr unsigned int Class_1_F939197C243AEA34_TypeDefinitionIndex = 43519;
 
 class Class_1_F939197C243AEA34 : public ::System::Object
 {

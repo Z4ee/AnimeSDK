@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_375;
+class Class_0_16E4307DCC419505_456;
 namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 
-inline static constexpr unsigned int Class_1_7B311F9CB8760379_TypeDefinitionIndex = 49681;
+inline static constexpr unsigned int Class_1_7B311F9CB8760379_TypeDefinitionIndex = 49255;
 
 template <typename T>
 class Class_1_7B311F9CB8760379 : public ::System::Object
@@ -13,6 +13,6 @@ class Class_1_7B311F9CB8760379 : public ::System::Object
 public:
 	::System::Int32 IGCDCFGJMCL; // 0x0
 	::System::Boolean GBEJPHOAKJE; // 0x0
-	::System::Action_3<::System::Int64, T, ::Class_0_16E4307DCC419505_375*>* PHIJLICNOCG; // 0x0
-	::Class_0_16E4307DCC419505_375* DGKKFICHKDC; // 0x0
+	::System::Action_3<::System::Int64, T, ::Class_0_16E4307DCC419505_456*>* PHIJLICNOCG; // 0x0
+	::Class_0_16E4307DCC419505_456* DGKKFICHKDC; // 0x0
 };

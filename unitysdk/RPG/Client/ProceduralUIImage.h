@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/UIProceduralShape.h"
 
-#define RPG_CLIENT_PROCEDURALUIIMAGE__CTOR_OFFSET UNITYSDK_OFFSET(0xDBC0EF0)
+#define RPG_CLIENT_PROCEDURALUIIMAGE__CTOR_OFFSET UNITYSDK_OFFSET(0xDC0B550)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ProceduralUIImage_TypeDefinitionIndex = 72632;
+	inline static constexpr unsigned int ProceduralUIImage_TypeDefinitionIndex = 72707;
 
 	class ProceduralUIImage : public ::RPG::Client::UIProceduralShape
 	{

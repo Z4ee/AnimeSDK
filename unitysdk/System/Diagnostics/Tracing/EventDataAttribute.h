@@ -8,11 +8,11 @@
 
 namespace System { class String; }
 
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTDATAATTRIBUTE_GET_KEYWORDS_OFFSET UNITYSDK_OFFSET(0x1BCCF230)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTDATAATTRIBUTE_GET_LEVEL_OFFSET UNITYSDK_OFFSET(0x1BCCF210)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTDATAATTRIBUTE_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1BCCF200)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTDATAATTRIBUTE_GET_OPCODE_OFFSET UNITYSDK_OFFSET(0x1BCCF220)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTDATAATTRIBUTE_GET_TAGS_OFFSET UNITYSDK_OFFSET(0x1BCCF240)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTDATAATTRIBUTE_GET_KEYWORDS_OFFSET UNITYSDK_OFFSET(0x1C1DB2A0)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTDATAATTRIBUTE_GET_LEVEL_OFFSET UNITYSDK_OFFSET(0x1C1DB280)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTDATAATTRIBUTE_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1C1DB270)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTDATAATTRIBUTE_GET_OPCODE_OFFSET UNITYSDK_OFFSET(0x1C1DB290)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTDATAATTRIBUTE_GET_TAGS_OFFSET UNITYSDK_OFFSET(0x1C1DB2B0)
 
 namespace System::Diagnostics::Tracing
 {
@@ -22,10 +22,10 @@ namespace System::Diagnostics::Tracing
 	{
 	public:
 		::System::String* _Name_k__BackingField; // 0x10
-		::System::Diagnostics::Tracing::EventOpcode opcode; // 0x18
-		::System::Diagnostics::Tracing::EventLevel level; // 0x1C
-		::System::Diagnostics::Tracing::EventKeywords _Keywords_k__BackingField; // 0x20
-		::System::Diagnostics::Tracing::EventTags _Tags_k__BackingField; // 0x28
+		::System::Diagnostics::Tracing::EventKeywords _Keywords_k__BackingField; // 0x18
+		::System::Diagnostics::Tracing::EventLevel level; // 0x20
+		::System::Diagnostics::Tracing::EventTags _Tags_k__BackingField; // 0x24
+		::System::Diagnostics::Tracing::EventOpcode opcode; // 0x28
 
 		::System::String* get_Name()
 		{

@@ -12,8 +12,8 @@ namespace System::Net::Security { class SslStream; }
 namespace System::Security::Cryptography::X509Certificates { class X509Certificate; }
 namespace System::Security::Cryptography::X509Certificates { class X509CertificateCollection; }
 
-#define MONO_UNITY_UNITYTLSSTREAM_CREATECONTEXT_OFFSET UNITYSDK_OFFSET(0x1E901750)
-#define MONO_UNITY_UNITYTLSSTREAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1E90AD00)
+#define MONO_UNITY_UNITYTLSSTREAM_CREATECONTEXT_OFFSET UNITYSDK_OFFSET(0x1EFCA720)
+#define MONO_UNITY_UNITYTLSSTREAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1EFD3BA0)
 
 namespace Mono::Unity
 {

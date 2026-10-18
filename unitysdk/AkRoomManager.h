@@ -7,30 +7,30 @@ class AkRoomPortal;
 class AkSurfaceReflector;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define AKROOMMANAGER_INIT_OFFSET UNITYSDK_OFFSET(0x1EEF3E60)
-#define AKROOMMANAGER_REGISTERPORTALUPDATE_OFFSET UNITYSDK_OFFSET(0x1EEF4630)
-#define AKROOMMANAGER_REGISTERPORTAL_OFFSET UNITYSDK_OFFSET(0x1EEF4050)
-#define AKROOMMANAGER_REGISTERREFLECTOR_OFFSET UNITYSDK_OFFSET(0x1EEF4340)
-#define AKROOMMANAGER_REGISTERROOMUPDATE_OFFSET UNITYSDK_OFFSET(0x1EEF1460)
-#define AKROOMMANAGER_TERMINATE_OFFSET UNITYSDK_OFFSET(0x1EEF4000)
-#define AKROOMMANAGER_UNREGISTERPORTAL_OFFSET UNITYSDK_OFFSET(0x1EEF4270)
-#define AKROOMMANAGER_UNREGISTERREFLECTOR_OFFSET UNITYSDK_OFFSET(0x1EEF4560)
-#define AKROOMMANAGER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1EEF4920)
-#define AKROOMMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EEF3F60)
+#define AKROOMMANAGER_INIT_OFFSET UNITYSDK_OFFSET(0x1F5BBA20)
+#define AKROOMMANAGER_REGISTERPORTALUPDATE_OFFSET UNITYSDK_OFFSET(0x1F5BC1F0)
+#define AKROOMMANAGER_REGISTERPORTAL_OFFSET UNITYSDK_OFFSET(0x1F5BBC10)
+#define AKROOMMANAGER_REGISTERREFLECTOR_OFFSET UNITYSDK_OFFSET(0x1F5BBF00)
+#define AKROOMMANAGER_REGISTERROOMUPDATE_OFFSET UNITYSDK_OFFSET(0x1F5B9010)
+#define AKROOMMANAGER_TERMINATE_OFFSET UNITYSDK_OFFSET(0x1F5BBBC0)
+#define AKROOMMANAGER_UNREGISTERPORTAL_OFFSET UNITYSDK_OFFSET(0x1F5BBE30)
+#define AKROOMMANAGER_UNREGISTERREFLECTOR_OFFSET UNITYSDK_OFFSET(0x1F5BC120)
+#define AKROOMMANAGER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1F5BC4E0)
+#define AKROOMMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F5BBB20)
 
-inline static constexpr unsigned int AkRoomManager_TypeDefinitionIndex = 43658;
+inline static constexpr unsigned int AkRoomManager_TypeDefinitionIndex = 44850;
 
 class AkRoomManager : public ::System::Object
 {
 public:
 	static ::AkRoomManager** StaticGet_m_Instance()
 	{
-		return (::AkRoomManager**)Il2CppClass::FromTypeDefinitionIndex(AkRoomManager_TypeDefinitionIndex)->GetStaticField(0x13030);
+		return (::AkRoomManager**)Il2CppClass::FromTypeDefinitionIndex(AkRoomManager_TypeDefinitionIndex)->GetStaticField(0xE9C0);
 	}
-	::System::Collections::Generic::List_1<::AkRoomPortal*>* m_PortalsToUpdate; // 0x10
-	::System::Collections::Generic::List_1<::AkSurfaceReflector*>* m_ReflectorsToUpdate; // 0x18
-	::System::Collections::Generic::List_1<::AkRoomPortal*>* m_Portals; // 0x20
-	::System::Collections::Generic::List_1<::AkSurfaceReflector*>* m_Reflectors; // 0x28
+	::System::Collections::Generic::List_1<::AkRoomPortal*>* m_Portals; // 0x10
+	::System::Collections::Generic::List_1<::AkSurfaceReflector*>* m_Reflectors; // 0x18
+	::System::Collections::Generic::List_1<::AkSurfaceReflector*>* m_ReflectorsToUpdate; // 0x20
+	::System::Collections::Generic::List_1<::AkRoomPortal*>* m_PortalsToUpdate; // 0x28
 
 	::System::Void _ctor()
 	{

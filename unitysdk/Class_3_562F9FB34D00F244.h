@@ -7,10 +7,10 @@ namespace RPG::GameCore { class RtTargetFetchPosWithMaxTargetCount; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_3_562F9FB34D00F244_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15548B30)
-#define CLASS_3_562F9FB34D00F244__CTOR_OFFSET UNITYSDK_OFFSET(0x15548AC0)
+#define CLASS_3_562F9FB34D00F244_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15812220)
+#define CLASS_3_562F9FB34D00F244__CTOR_OFFSET UNITYSDK_OFFSET(0x158121B0)
 
-inline static constexpr unsigned int Class_3_562F9FB34D00F244_TypeDefinitionIndex = 54011;
+inline static constexpr unsigned int Class_3_562F9FB34D00F244_TypeDefinitionIndex = 53797;
 
 class Class_3_562F9FB34D00F244 : public ::RPG::GameCore::TargetEvaluatorImpl_1<::RPG::GameCore::RtTargetFetchPosWithMaxTargetCount*>
 {

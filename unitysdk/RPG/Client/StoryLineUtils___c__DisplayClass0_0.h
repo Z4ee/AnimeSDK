@@ -4,12 +4,12 @@
 
 namespace System { class Action; }
 
-#define RPG_CLIENT_STORYLINEUTILS___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0xE105800)
-#define RPG_CLIENT_STORYLINEUTILS___C__DISPLAYCLASS0_0__SHOWSWITCHLINEDIALOGONDEMAND_B__0_OFFSET UNITYSDK_OFFSET(0xE105810)
+#define RPG_CLIENT_STORYLINEUTILS___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0xE1463E0)
+#define RPG_CLIENT_STORYLINEUTILS___C__DISPLAYCLASS0_0__SHOWSWITCHLINEDIALOGONDEMAND_B__0_OFFSET UNITYSDK_OFFSET(0xE1463F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int StoryLineUtils___c__DisplayClass0_0_TypeDefinitionIndex = 67993;
+	inline static constexpr unsigned int StoryLineUtils___c__DisplayClass0_0_TypeDefinitionIndex = 67998;
 
 	class StoryLineUtils___c__DisplayClass0_0 : public ::System::Object
 	{

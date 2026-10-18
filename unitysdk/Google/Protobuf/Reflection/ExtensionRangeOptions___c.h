@@ -4,20 +4,20 @@
 
 namespace Google::Protobuf::Reflection { class ExtensionRangeOptions; }
 
-#define GOOGLE_PROTOBUF_REFLECTION_EXTENSIONRANGEOPTIONS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B375E10)
-#define GOOGLE_PROTOBUF_REFLECTION_EXTENSIONRANGEOPTIONS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B375E50)
-#define GOOGLE_PROTOBUF_REFLECTION_EXTENSIONRANGEOPTIONS___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1B375E60)
+#define GOOGLE_PROTOBUF_REFLECTION_EXTENSIONRANGEOPTIONS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B877B80)
+#define GOOGLE_PROTOBUF_REFLECTION_EXTENSIONRANGEOPTIONS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B877BC0)
+#define GOOGLE_PROTOBUF_REFLECTION_EXTENSIONRANGEOPTIONS___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1B877BD0)
 
 namespace Google::Protobuf::Reflection
 {
-	inline static constexpr unsigned int ExtensionRangeOptions___c_TypeDefinitionIndex = 5462;
+	inline static constexpr unsigned int ExtensionRangeOptions___c_TypeDefinitionIndex = 5469;
 
 	class ExtensionRangeOptions___c : public ::System::Object
 	{
 	public:
 		static ::Google::Protobuf::Reflection::ExtensionRangeOptions___c** StaticGet___9()
 		{
-			return (::Google::Protobuf::Reflection::ExtensionRangeOptions___c**)Il2CppClass::FromTypeDefinitionIndex(ExtensionRangeOptions___c_TypeDefinitionIndex)->GetStaticField(0x1EB40);
+			return (::Google::Protobuf::Reflection::ExtensionRangeOptions___c**)Il2CppClass::FromTypeDefinitionIndex(ExtensionRangeOptions___c_TypeDefinitionIndex)->GetStaticField(0x1CD50);
 		}
 
 		static ::System::Void _cctor()

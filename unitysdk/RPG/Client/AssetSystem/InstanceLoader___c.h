@@ -6,24 +6,24 @@ namespace RPG::Client::AssetSystem { class InstanceLoader; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace UnityEngine { class AsyncOperation; }
 
-#define RPG_CLIENT_ASSETSYSTEM_INSTANCELOADER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BFD0CF0)
-#define RPG_CLIENT_ASSETSYSTEM_INSTANCELOADER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1BFD0D20)
-#define RPG_CLIENT_ASSETSYSTEM_INSTANCELOADER___C___CTOR_B__46_0_OFFSET UNITYSDK_OFFSET(0x1BFD0D30)
+#define RPG_CLIENT_ASSETSYSTEM_INSTANCELOADER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C4DDDE0)
+#define RPG_CLIENT_ASSETSYSTEM_INSTANCELOADER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4DDE10)
+#define RPG_CLIENT_ASSETSYSTEM_INSTANCELOADER___C___CTOR_B__46_0_OFFSET UNITYSDK_OFFSET(0x1C4DDE20)
 
 namespace RPG::Client::AssetSystem
 {
-	inline static constexpr unsigned int InstanceLoader___c_TypeDefinitionIndex = 40274;
+	inline static constexpr unsigned int InstanceLoader___c_TypeDefinitionIndex = 41571;
 
 	class InstanceLoader___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::AssetSystem::InstanceLoader___c** StaticGet___9()
-		{
-			return (::RPG::Client::AssetSystem::InstanceLoader___c**)Il2CppClass::FromTypeDefinitionIndex(InstanceLoader___c_TypeDefinitionIndex)->GetStaticField(0xF30);
-		}
 		static ::System::Action_2<::RPG::Client::AssetSystem::InstanceLoader*, ::UnityEngine::AsyncOperation*>** StaticGet___9__46_0()
 		{
-			return (::System::Action_2<::RPG::Client::AssetSystem::InstanceLoader*, ::UnityEngine::AsyncOperation*>**)Il2CppClass::FromTypeDefinitionIndex(InstanceLoader___c_TypeDefinitionIndex)->GetStaticField(0xF38);
+			return (::System::Action_2<::RPG::Client::AssetSystem::InstanceLoader*, ::UnityEngine::AsyncOperation*>**)Il2CppClass::FromTypeDefinitionIndex(InstanceLoader___c_TypeDefinitionIndex)->GetStaticField(0xC10);
+		}
+		static ::RPG::Client::AssetSystem::InstanceLoader___c** StaticGet___9()
+		{
+			return (::RPG::Client::AssetSystem::InstanceLoader___c**)Il2CppClass::FromTypeDefinitionIndex(InstanceLoader___c_TypeDefinitionIndex)->GetStaticField(0xC18);
 		}
 
 		static ::System::Void _cctor()

@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class MissionModule_MissionResState; }
 
-#define RPG_CLIENT_ENTERGAMEPHASE___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCE9F420)
-#define RPG_CLIENT_ENTERGAMEPHASE___C__DISPLAYCLASS16_0___CHECKMISSIONRES_B__0_OFFSET UNITYSDK_OFFSET(0xCEA15E0)
+#define RPG_CLIENT_ENTERGAMEPHASE___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCDF0A70)
+#define RPG_CLIENT_ENTERGAMEPHASE___C__DISPLAYCLASS16_0___CHECKMISSIONRES_B__0_OFFSET UNITYSDK_OFFSET(0xCDF0A80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EnterGamePhase___c__DisplayClass16_0_TypeDefinitionIndex = 61242;
+	inline static constexpr unsigned int EnterGamePhase___c__DisplayClass16_0_TypeDefinitionIndex = 61147;
 
 	class EnterGamePhase___c__DisplayClass16_0 : public ::System::Object
 	{

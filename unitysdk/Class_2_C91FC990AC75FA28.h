@@ -7,18 +7,18 @@ namespace RPG::GameCore { class BattleGridFightTeamTraitData; }
 namespace System { class String; }
 namespace UnityEngine::UI { class Image; }
 
-#define CLASS_2_C91FC990AC75FA28_METHOD_2_78249B19E68F1C21_OFFSET UNITYSDK_OFFSET(0xBFADEF0)
-#define CLASS_2_C91FC990AC75FA28__CTOR_OFFSET UNITYSDK_OFFSET(0xBFAE0E0)
-#define CLASS_2_C91FC990AC75FA28__ONBIND_OFFSET UNITYSDK_OFFSET(0xBFADE50)
+#define CLASS_2_C91FC990AC75FA28_METHOD_2_78249B19E68F1C21_OFFSET UNITYSDK_OFFSET(0xBE94A60)
+#define CLASS_2_C91FC990AC75FA28__CTOR_OFFSET UNITYSDK_OFFSET(0xBE94C50)
+#define CLASS_2_C91FC990AC75FA28__ONBIND_OFFSET UNITYSDK_OFFSET(0xBE949C0)
 
-inline static constexpr unsigned int Class_2_C91FC990AC75FA28_TypeDefinitionIndex = 72168;
+inline static constexpr unsigned int Class_2_C91FC990AC75FA28_TypeDefinitionIndex = 72241;
 
 class Class_2_C91FC990AC75FA28 : public ::Class_1_34917908B7833130
 {
 public:
 	// static const ::System::String* DJCBDJMACFH; // 0x0
-	::UnityEngine::UI::Image* LPMHMLOGPPN; // 0x60
-	::RPG::Client::MonoUIColorSwitcher* MIALHNKKOED; // 0x68
+	::RPG::Client::MonoUIColorSwitcher* MIALHNKKOED; // 0x60
+	::UnityEngine::UI::Image* LPMHMLOGPPN; // 0x68
 
 	::System::Void _ctor()
 	{

@@ -4,12 +4,12 @@
 
 namespace System::Linq::Expressions::Interpreter { class InterpretedFrame; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_RIGHTSHIFTINSTRUCTION_RIGHTSHIFTBYTE_RUN_OFFSET UNITYSDK_OFFSET(0x1E75EB20)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_RIGHTSHIFTINSTRUCTION_RIGHTSHIFTBYTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E75EAE0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_RIGHTSHIFTINSTRUCTION_RIGHTSHIFTBYTE_RUN_OFFSET UNITYSDK_OFFSET(0x1EE27720)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_RIGHTSHIFTINSTRUCTION_RIGHTSHIFTBYTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EE276E0)
 
 namespace System::Linq::Expressions::Interpreter
 {
-	inline static constexpr unsigned int RightShiftInstruction_RightShiftByte_TypeDefinitionIndex = 3614;
+	inline static constexpr unsigned int RightShiftInstruction_RightShiftByte_TypeDefinitionIndex = 3615;
 
 	class RightShiftInstruction_RightShiftByte : public ::System::Linq::Expressions::Interpreter::RightShiftInstruction
 	{

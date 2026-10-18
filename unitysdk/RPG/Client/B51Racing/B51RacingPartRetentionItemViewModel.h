@@ -5,21 +5,21 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_B51RACING_B51RACINGPARTRETENTIONITEMVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xC895AB0)
+#define RPG_CLIENT_B51RACING_B51RACINGPARTRETENTIONITEMVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xC7B4450)
 
 namespace RPG::Client::B51Racing
 {
-	inline static constexpr unsigned int B51RacingPartRetentionItemViewModel_TypeDefinitionIndex = 80681;
+	inline static constexpr unsigned int B51RacingPartRetentionItemViewModel_TypeDefinitionIndex = 82009;
 
 	class B51RacingPartRetentionItemViewModel : public ::System::Object
 	{
 	public:
 		::System::String* PartIconPath; // 0x10
-		::RPG::Client::TextID PartName; // 0x18
-		::System::Boolean IsNew; // 0x28
-		::System::UInt32 PartID; // 0x2C
-		::RPG::Client::TextID HintText; // 0x30
-		::RPG::Client::TextID NewTagText; // 0x40
+		::System::UInt32 PartID; // 0x18
+		::System::Boolean IsNew; // 0x1C
+		::RPG::Client::TextID PartName; // 0x20
+		::RPG::Client::TextID NewTagText; // 0x30
+		::RPG::Client::TextID HintText; // 0x40
 
 		::System::Void _ctor()
 		{

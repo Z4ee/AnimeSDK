@@ -5,17 +5,17 @@
 namespace RPG::Client::LimaoNews { class LimaoNewsMainLimaoControl_LimaoItem; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSMAINLIMAOCONTROL_LIMAOGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0xD469F10)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSMAINLIMAOCONTROL_LIMAOGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0xD3C0A80)
 
 namespace RPG::Client::LimaoNews
 {
-	inline static constexpr unsigned int LimaoNewsMainLimaoControl_LimaoGroup_TypeDefinitionIndex = 79043;
+	inline static constexpr unsigned int LimaoNewsMainLimaoControl_LimaoGroup_TypeDefinitionIndex = 80366;
 
 	class LimaoNewsMainLimaoControl_LimaoGroup : public ::System::Object
 	{
 	public:
-		::UnityEngine::Transform* Root; // 0x10
-		::Il2CppArray<::RPG::Client::LimaoNews::LimaoNewsMainLimaoControl_LimaoItem*>* LimaoItems; // 0x18
+		::Il2CppArray<::RPG::Client::LimaoNews::LimaoNewsMainLimaoControl_LimaoItem*>* LimaoItems; // 0x10
+		::UnityEngine::Transform* Root; // 0x18
 
 		::System::Void _ctor()
 		{

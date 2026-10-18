@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector2Int.h"
 
-#define RPG_CLIENT_PROP_ORACLEPUZZLESOLUTIONITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xDCD39B0)
+#define RPG_CLIENT_PROP_ORACLEPUZZLESOLUTIONITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xDD5C750)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int OraclePuzzleSolutionItem_TypeDefinitionIndex = 78264;
+	inline static constexpr unsigned int OraclePuzzleSolutionItem_TypeDefinitionIndex = 78735;
 
 	class OraclePuzzleSolutionItem : public ::System::Object
 	{

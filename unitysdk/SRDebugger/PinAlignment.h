@@ -3,7 +3,7 @@
 
 namespace SRDebugger
 {
-	inline static constexpr unsigned int PinAlignment_TypeDefinitionIndex = 37278;
+	inline static constexpr unsigned int PinAlignment_TypeDefinitionIndex = 37971;
 
 	enum class PinAlignment : ::System::Int32
 	{

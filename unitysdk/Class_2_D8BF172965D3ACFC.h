@@ -43,63 +43,63 @@ namespace UnityEngine { class MonoBehaviour; }
 namespace UnityEngine { class Renderer; }
 namespace UnityEngine { class Shader; }
 
-#define CLASS_2_D8BF172965D3ACFC_METHOD_2_183D8B84AAEF1CFE_OFFSET UNITYSDK_OFFSET(0x159B15A0)
-#define CLASS_2_D8BF172965D3ACFC_METHOD_2_19B14977ABA39612_OFFSET UNITYSDK_OFFSET(0x159B04C0)
-#define CLASS_2_D8BF172965D3ACFC_METHOD_2_1B2AF0E12F485205_OFFSET UNITYSDK_OFFSET(0x159AF460)
-#define CLASS_2_D8BF172965D3ACFC_METHOD_2_30A3D87FD8CB777D_OFFSET UNITYSDK_OFFSET(0x159B1500)
-#define CLASS_2_D8BF172965D3ACFC_METHOD_2_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x159B0450)
-#define CLASS_2_D8BF172965D3ACFC_METHOD_2_4463F216B4D79EB1_OFFSET UNITYSDK_OFFSET(0x159AF110)
-#define CLASS_2_D8BF172965D3ACFC_METHOD_2_60BBA8C928D4389B_OFFSET UNITYSDK_OFFSET(0x159AF4B0)
-#define CLASS_2_D8BF172965D3ACFC_METHOD_2_794BE9ACEA5F9F74_OFFSET UNITYSDK_OFFSET(0x159AF190)
-#define CLASS_2_D8BF172965D3ACFC_METHOD_2_801844C5ED7181B2_OFFSET UNITYSDK_OFFSET(0x159AF040)
-#define CLASS_2_D8BF172965D3ACFC_METHOD_2_8152FEEB3B988FBB_OFFSET UNITYSDK_OFFSET(0x159B14B0)
-#define CLASS_2_D8BF172965D3ACFC_METHOD_2_9455E25743BCB594_OFFSET UNITYSDK_OFFSET(0x159B1550)
-#define CLASS_2_D8BF172965D3ACFC_METHOD_2_9F7CE35CFA5CCC7D_OFFSET UNITYSDK_OFFSET(0x159B0080)
-#define CLASS_2_D8BF172965D3ACFC_METHOD_2_A03BCE6471ADC02C_OFFSET UNITYSDK_OFFSET(0x159B0160)
-#define CLASS_2_D8BF172965D3ACFC_METHOD_2_B1EB734337965E73_OFFSET UNITYSDK_OFFSET(0x159AEFD0)
-#define CLASS_2_D8BF172965D3ACFC_METHOD_2_CE31D72AEC284C5F_OFFSET UNITYSDK_OFFSET(0x159B1210)
-#define CLASS_2_D8BF172965D3ACFC_METHOD_2_E871C82D48A3CEC8_OFFSET UNITYSDK_OFFSET(0x159AF260)
-#define CLASS_2_D8BF172965D3ACFC__CTOR_OFFSET UNITYSDK_OFFSET(0x159B15F0)
+#define CLASS_2_D8BF172965D3ACFC_METHOD_2_183D8B84AAEF1CFE_OFFSET UNITYSDK_OFFSET(0x15CBB640)
+#define CLASS_2_D8BF172965D3ACFC_METHOD_2_19B14977ABA39612_OFFSET UNITYSDK_OFFSET(0x15CBA560)
+#define CLASS_2_D8BF172965D3ACFC_METHOD_2_1B2AF0E12F485205_OFFSET UNITYSDK_OFFSET(0x15CB9500)
+#define CLASS_2_D8BF172965D3ACFC_METHOD_2_30A3D87FD8CB777D_OFFSET UNITYSDK_OFFSET(0x15CBB5A0)
+#define CLASS_2_D8BF172965D3ACFC_METHOD_2_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x15CBA4E0)
+#define CLASS_2_D8BF172965D3ACFC_METHOD_2_4463F216B4D79EB1_OFFSET UNITYSDK_OFFSET(0x15CB91B0)
+#define CLASS_2_D8BF172965D3ACFC_METHOD_2_60BBA8C928D4389B_OFFSET UNITYSDK_OFFSET(0x15CB9550)
+#define CLASS_2_D8BF172965D3ACFC_METHOD_2_794BE9ACEA5F9F74_OFFSET UNITYSDK_OFFSET(0x15CB9230)
+#define CLASS_2_D8BF172965D3ACFC_METHOD_2_801844C5ED7181B2_OFFSET UNITYSDK_OFFSET(0x15CB90E0)
+#define CLASS_2_D8BF172965D3ACFC_METHOD_2_8152FEEB3B988FBB_OFFSET UNITYSDK_OFFSET(0x15CBB550)
+#define CLASS_2_D8BF172965D3ACFC_METHOD_2_9455E25743BCB594_OFFSET UNITYSDK_OFFSET(0x15CBB5F0)
+#define CLASS_2_D8BF172965D3ACFC_METHOD_2_9F7CE35CFA5CCC7D_OFFSET UNITYSDK_OFFSET(0x15CBA120)
+#define CLASS_2_D8BF172965D3ACFC_METHOD_2_A03BCE6471ADC02C_OFFSET UNITYSDK_OFFSET(0x15CBA200)
+#define CLASS_2_D8BF172965D3ACFC_METHOD_2_B1EB734337965E73_OFFSET UNITYSDK_OFFSET(0x15CB9070)
+#define CLASS_2_D8BF172965D3ACFC_METHOD_2_CE31D72AEC284C5F_OFFSET UNITYSDK_OFFSET(0x15CBB2B0)
+#define CLASS_2_D8BF172965D3ACFC_METHOD_2_E871C82D48A3CEC8_OFFSET UNITYSDK_OFFSET(0x15CB9300)
+#define CLASS_2_D8BF172965D3ACFC__CTOR_OFFSET UNITYSDK_OFFSET(0x15CBB690)
 
-inline static constexpr unsigned int Class_2_D8BF172965D3ACFC_TypeDefinitionIndex = 69931;
+inline static constexpr unsigned int Class_2_D8BF172965D3ACFC_TypeDefinitionIndex = 69965;
 
 class Class_2_D8BF172965D3ACFC : public ::RPG::Client::BehaviorBase
 {
 public:
-	::RPG::Client::MonoEffectPluginCharaPropCustomLightDir* BHEAGHOFLMJ; // 0x18
-	::System::Collections::Generic::List_1<::UnityEngine::Material*>* KOJAKKFLPMG; // 0x20
+	::RPG::Client::MonoEffectPluginCharaPropSpecularLighting* ENBPIEHOMCE; // 0x18
+	::RPG::Client::MonoEffectPluginCharaPropStock* KGKJDIBMAAA; // 0x20
 	::System::Collections::Generic::Dictionary_2<::UnityEngine::Renderer*, ::UnityEngine::Material*>* GJAGKCGIAMO; // 0x28
-	::RPG::Client::MonoEffectPluginCharaPropBloom* NAPPNNHMPFI; // 0x30
-	::RPG::Client::MonoEffectPluginCharaPropOutline* CLOHICDEMLK; // 0x38
-	::System::Collections::Generic::Dictionary_2<::UnityEngine::Shader*, ::System::String*>* JFOIGEBOCMP; // 0x40
-	::RPG::Client::MonoEffectPluginCharaPropDiffuseLighting* KKEHHMIPBJK; // 0x48
-	::RPG::Client::MonoEffectPluginCharaPropStencil* IOMKBACPFIN; // 0x50
-	::RPG::Client::MonoEffectPluginCharaPropOverrideLight* MKDNAKGIAIF; // 0x58
+	::RPG::Client::MonoEffectPluginCharaPropCustomLightDir* BHEAGHOFLMJ; // 0x30
+	::RPG::Client::MonoEffectPluginCharaPropDiffuseLighting* KKEHHMIPBJK; // 0x38
+	::RPG::Client::MonoEffectPluginCharaPropFaceRim* JGHGMEJKNKL; // 0x40
+	::RPG::Client::MonoEffectPluginCharaPropDissolve* BGHAGPKHKHA; // 0x48
+	::RPG::Client::MonoEffectPluginCharaPropRefSpecular* LEIBKGCCGLL; // 0x50
+	::RPG::Client::MonoEffectPluginCharaPropRimLight* BCPBALACPCB; // 0x58
 	::RPG::Client::MonoEffectPluginCharaPropFaceExpression* FIFEODGJIMJ; // 0x60
-	::RPG::Client::MonoEffectPluginCharaPropStock* KGKJDIBMAAA; // 0x68
-	::RPG::Client::MonoEffectPluginCharaPropDirectionDissolve* FMMHJNHJKEN; // 0x70
-	::RPG::Client::MonoEffectPluginCharaPropFaceOutline* BOOEBNLNKIL; // 0x78
-	::RPG::Client::MonoEffectPluginCharaPropStarrySky* MFPAHIHICNH; // 0x80
-	::RPG::Client::MonoEffectPluginCharaPropPartsSelection* OPFKKKJPCMK; // 0x88
+	::RPG::Client::MonoEffectPluginCharaPropBloom* NAPPNNHMPFI; // 0x68
+	::RPG::Client::MonoEffectPluginCharaPropMaps* FLDIDKBGGJL; // 0x70
+	::RPG::Client::MonoEffectPluginCharaPropDirectionDissolve* FMMHJNHJKEN; // 0x78
+	::RPG::Client::MonoEffectPluginCharaPropHairRimLight* KGNGIAGHFGA; // 0x80
+	::System::Collections::Generic::Dictionary_2<::UnityEngine::Shader*, ::System::String*>* JFOIGEBOCMP; // 0x88
 	::RPG::Client::MonoEffectPluginCharaPropFaceDiffuse* GPGLBNIMJDA; // 0x90
-	::RPG::Client::MonoEffectPluginCharaPropRefSpecular* LEIBKGCCGLL; // 0x98
-	::RPG::Client::MonoEffectPluginCharaPropSpecularLighting* ENBPIEHOMCE; // 0xA0
-	::RPG::Client::MonoEffectPluginCharaPropFaceRim* JGHGMEJKNKL; // 0xA8
-	::RPG::Client::MonoEffectPluginCharaPropMaps* FLDIDKBGGJL; // 0xB0
-	::System::Collections::Generic::List_1<::UnityEngine::Material*>* HKKGFJNLKHM; // 0xB8
-	::RPG::Client::MonoEffectPluginCharaPropHairRimLight* KGNGIAGHFGA; // 0xC0
-	::RPG::Client::MonoEffectPluginCharaPropFaceSpecialEye* INLGDPIJONG; // 0xC8
-	::RPG::Client::MonoEffectPluginCharaPropDissolve* BGHAGPKHKHA; // 0xD0
-	::RPG::Client::MonoEffectPluginCharaPropEmission* FLIHMCHOGFM; // 0xD8
-	::RPG::Client::MonoEffectPluginCharaPropCrystal* KHBLCKNKAJO; // 0xE0
-	::RPG::Client::MonoEffectPluginCharaPropRimLight* BCPBALACPCB; // 0xE8
-	::RPG::Client::MonoEffectPluginCharaPropRimShadow* MOIDIBEKMJO; // 0xF0
+	::RPG::Client::MonoEffectPluginCharaPropOutline* CLOHICDEMLK; // 0x98
+	::System::Collections::Generic::List_1<::UnityEngine::Material*>* HKKGFJNLKHM; // 0xA0
+	::RPG::Client::MonoEffectPluginCharaPropStencil* IOMKBACPFIN; // 0xA8
+	::RPG::Client::MonoEffectPluginCharaPropOverrideLight* MKDNAKGIAIF; // 0xB0
+	::RPG::Client::MonoEffectPluginCharaPropEmission* FLIHMCHOGFM; // 0xB8
+	::RPG::Client::MonoEffectPluginCharaPropRimShadow* MOIDIBEKMJO; // 0xC0
+	::RPG::Client::MonoEffectPluginCharaPropPartsSelection* OPFKKKJPCMK; // 0xC8
+	::RPG::Client::MonoEffectPluginCharaPropFaceSpecialEye* INLGDPIJONG; // 0xD0
+	::System::Collections::Generic::List_1<::UnityEngine::Material*>* KOJAKKFLPMG; // 0xD8
+	::RPG::Client::MonoEffectPluginCharaPropStarrySky* MFPAHIHICNH; // 0xE0
+	::RPG::Client::MonoEffectPluginCharaPropFaceOutline* BOOEBNLNKIL; // 0xE8
+	::RPG::Client::MonoEffectPluginCharaPropCrystal* KHBLCKNKAJO; // 0xF0
 	::Class_2_D8BF172965D3ACFC_HairProp HPOLEJPFNGM; // 0xF8
-	::Class_2_D8BF172965D3ACFC_FaceProp KEEHEAHBMPA; // 0xFC
-	::System::Boolean CHCABKIDJNO; // 0x100
-	::System::Boolean HJGGKOEAJEG; // 0x101
-	::Class_2_D8BF172965D3ACFC_OtherProp DFJGLFEJEDJ; // 0x104
-	::Class_2_D8BF172965D3ACFC_CharaProp IAKPKCEDIOO; // 0x108
+	::Class_2_D8BF172965D3ACFC_OtherProp DFJGLFEJEDJ; // 0xFC
+	::Class_2_D8BF172965D3ACFC_CharaProp IAKPKCEDIOO; // 0x100
+	::Class_2_D8BF172965D3ACFC_FaceProp KEEHEAHBMPA; // 0x104
+	::System::Boolean CHCABKIDJNO; // 0x108
+	::System::Boolean HJGGKOEAJEG; // 0x109
 
 	::System::Void _ctor()
 	{

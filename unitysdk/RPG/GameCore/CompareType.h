@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CompareType_TypeDefinitionIndex = 16279;
+	inline static constexpr unsigned int CompareType_TypeDefinitionIndex = 16452;
 
 	enum class CompareType : ::System::Int32
 	{

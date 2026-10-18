@@ -6,23 +6,23 @@ namespace MiHoYo::SDK::Win { class TapTapManager_OnLoginDelegate; }
 namespace MiHoYo::SDK::Win { class TapTapToken; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_WIN_TAPTAPMANAGER_GETACCESSTOKEN_OFFSET UNITYSDK_OFFSET(0x1B8FA750)
-#define MIHOYO_SDK_WIN_TAPTAPMANAGER_GETSHOWNAME_OFFSET UNITYSDK_OFFSET(0x1B8FA760)
-#define MIHOYO_SDK_WIN_TAPTAPMANAGER_INIT_OFFSET UNITYSDK_OFFSET(0x1B8FA6E0)
-#define MIHOYO_SDK_WIN_TAPTAPMANAGER_LOGIN_OFFSET UNITYSDK_OFFSET(0x1B8FA6F0)
-#define MIHOYO_SDK_WIN_TAPTAPMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B8FA780)
-#define MIHOYO_SDK_WIN_TAPTAPMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8FA770)
+#define MIHOYO_SDK_WIN_TAPTAPMANAGER_GETACCESSTOKEN_OFFSET UNITYSDK_OFFSET(0x1BDF9550)
+#define MIHOYO_SDK_WIN_TAPTAPMANAGER_GETSHOWNAME_OFFSET UNITYSDK_OFFSET(0x1BDF9560)
+#define MIHOYO_SDK_WIN_TAPTAPMANAGER_INIT_OFFSET UNITYSDK_OFFSET(0x1BDF94E0)
+#define MIHOYO_SDK_WIN_TAPTAPMANAGER_LOGIN_OFFSET UNITYSDK_OFFSET(0x1BDF94F0)
+#define MIHOYO_SDK_WIN_TAPTAPMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BDF9580)
+#define MIHOYO_SDK_WIN_TAPTAPMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDF9570)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int TapTapManager_TypeDefinitionIndex = 9312;
+	inline static constexpr unsigned int TapTapManager_TypeDefinitionIndex = 9370;
 
 	class TapTapManager : public ::System::Object
 	{
 	public:
 		static ::MiHoYo::SDK::Win::TapTapManager** StaticGet_Instance()
 		{
-			return (::MiHoYo::SDK::Win::TapTapManager**)Il2CppClass::FromTypeDefinitionIndex(TapTapManager_TypeDefinitionIndex)->GetStaticField(0x253A0);
+			return (::MiHoYo::SDK::Win::TapTapManager**)Il2CppClass::FromTypeDefinitionIndex(TapTapManager_TypeDefinitionIndex)->GetStaticField(0x19C20);
 		}
 		::MiHoYo::SDK::Win::TapTapManager_OnLoginDelegate* OnTapTapLogin; // 0x10
 

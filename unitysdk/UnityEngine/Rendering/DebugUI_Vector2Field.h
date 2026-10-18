@@ -3,11 +3,11 @@
 #include "unitysdk/UnityEngine/Rendering/DebugUI_Field_1.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define UNITYENGINE_RENDERING_DEBUGUI_VECTOR2FIELD__CTOR_OFFSET UNITYSDK_OFFSET(0x1EBF8FE0)
+#define UNITYENGINE_RENDERING_DEBUGUI_VECTOR2FIELD__CTOR_OFFSET UNITYSDK_OFFSET(0x1F2C0940)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int DebugUI_Vector2Field_TypeDefinitionIndex = 34871;
+	inline static constexpr unsigned int DebugUI_Vector2Field_TypeDefinitionIndex = 35540;
 
 	class DebugUI_Vector2Field : public ::UnityEngine::Rendering::DebugUI_Field_1<::UnityEngine::Vector2>
 	{

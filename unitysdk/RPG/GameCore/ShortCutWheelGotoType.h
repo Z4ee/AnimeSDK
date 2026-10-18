@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShortCutWheelGotoType_TypeDefinitionIndex = 10493;
+	inline static constexpr unsigned int ShortCutWheelGotoType_TypeDefinitionIndex = 10509;
 
 	enum class ShortCutWheelGotoType : ::System::Int32
 	{

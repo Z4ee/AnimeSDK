@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_CollapsingParticleMonoPlugin_Orientation_TypeDefinitionIndex = 70401;
+	inline static constexpr unsigned int Effect_CollapsingParticleMonoPlugin_Orientation_TypeDefinitionIndex = 70437;
 
 	enum class Effect_CollapsingParticleMonoPlugin_Orientation : ::System::Int32
 	{

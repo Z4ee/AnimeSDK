@@ -4,11 +4,11 @@
 
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define CYSHARP_THREADING_TASKS_COMPILERSERVICES_STATEMACHINEUTILITY_GETSTATE_OFFSET UNITYSDK_OFFSET(0x1EA4F2E0)
+#define CYSHARP_THREADING_TASKS_COMPILERSERVICES_STATEMACHINEUTILITY_GETSTATE_OFFSET UNITYSDK_OFFSET(0x1F116C60)
 
 namespace Cysharp::Threading::Tasks::CompilerServices
 {
-	inline static constexpr unsigned int StateMachineUtility_TypeDefinitionIndex = 43123;
+	inline static constexpr unsigned int StateMachineUtility_TypeDefinitionIndex = 38708;
 
 	class StateMachineUtility : public ::System::Object
 	{

@@ -6,11 +6,11 @@ namespace RPG::GameCore { class AdventureAbilityComponent; }
 namespace RPG::GameCore { class ST_ByHasAdvBehaviorFlag; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_C751AAF16E5DE06E_DISPOSE_OFFSET UNITYSDK_OFFSET(0xFA89540)
-#define CLASS_3_C751AAF16E5DE06E_EVALUATE_OFFSET UNITYSDK_OFFSET(0xFA89490)
-#define CLASS_3_C751AAF16E5DE06E__CTOR_OFFSET UNITYSDK_OFFSET(0xFA893D0)
+#define CLASS_3_C751AAF16E5DE06E_DISPOSE_OFFSET UNITYSDK_OFFSET(0xFEC0EC0)
+#define CLASS_3_C751AAF16E5DE06E_EVALUATE_OFFSET UNITYSDK_OFFSET(0xFEC0E10)
+#define CLASS_3_C751AAF16E5DE06E__CTOR_OFFSET UNITYSDK_OFFSET(0xFEC0D50)
 
-inline static constexpr unsigned int Class_3_C751AAF16E5DE06E_TypeDefinitionIndex = 52480;
+inline static constexpr unsigned int Class_3_C751AAF16E5DE06E_TypeDefinitionIndex = 52194;
 
 class Class_3_C751AAF16E5DE06E : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ST_ByHasAdvBehaviorFlag*>
 {

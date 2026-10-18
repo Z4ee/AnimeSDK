@@ -3,18 +3,18 @@
 #include "unitysdk/System/Object.h"
 
 class Class_1_032AABD89326D950;
-class Class_1_43BD383C98B4C0C5_217;
+class Class_1_43BD383C98B4C0C5_219;
 
-#define CLASS_1_032AABD89326D950___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16278D60)
-#define CLASS_1_032AABD89326D950___C__DISPLAYCLASS17_0___TRYPROCESSMESSAGE_B__0_OFFSET UNITYSDK_OFFSET(0x162795D0)
+#define CLASS_1_032AABD89326D950___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0x166296F0)
+#define CLASS_1_032AABD89326D950___C__DISPLAYCLASS17_0___TRYPROCESSMESSAGE_B__0_OFFSET UNITYSDK_OFFSET(0x16629F60)
 
-inline static constexpr unsigned int Class_1_032AABD89326D950___c__DisplayClass17_0_TypeDefinitionIndex = 77593;
+inline static constexpr unsigned int Class_1_032AABD89326D950___c__DisplayClass17_0_TypeDefinitionIndex = 78064;
 
 class Class_1_032AABD89326D950___c__DisplayClass17_0 : public ::System::Object
 {
 public:
-	::Class_1_032AABD89326D950* __4__this; // 0x10
-	::Class_1_43BD383C98B4C0C5_217* message; // 0x18
+	::Class_1_43BD383C98B4C0C5_219* message; // 0x10
+	::Class_1_032AABD89326D950* __4__this; // 0x18
 
 	::System::Void _ctor()
 	{

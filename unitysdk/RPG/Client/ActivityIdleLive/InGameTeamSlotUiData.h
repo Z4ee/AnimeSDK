@@ -6,12 +6,12 @@
 namespace RPG::Client::ActivityIdleLive { class IdleLiveTeamSlotData; }
 namespace System { class String; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_INGAMETEAMSLOTUIDATA_GET_AVATARID_OFFSET UNITYSDK_OFFSET(0x147BF0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_INGAMETEAMSLOTUIDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x147C40)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_INGAMETEAMSLOTUIDATA_GET_AVATARID_OFFSET UNITYSDK_OFFSET(0xE07B0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_INGAMETEAMSLOTUIDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xE0800)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int InGameTeamSlotUiData_TypeDefinitionIndex = 75127;
+	inline static constexpr unsigned int InGameTeamSlotUiData_TypeDefinitionIndex = 75427;
 
 	struct alignas(8) InGameTeamSlotUiData
 	{

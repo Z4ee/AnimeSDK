@@ -7,27 +7,27 @@ class Class_2_B9E8C2EEAA5C96EC;
 namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 namespace UnityEngine { class Collider; }
 
-#define CLASS_1_9E4E5BB5D3E96815___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC0BA430)
-#define CLASS_1_9E4E5BB5D3E96815___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC0BA460)
-#define CLASS_1_9E4E5BB5D3E96815___C___DEPLOYBORDERPLAT_B__5_0_OFFSET UNITYSDK_OFFSET(0xC0BA470)
-#define CLASS_1_9E4E5BB5D3E96815___C___DEPLOYBORDERPLAT_B__5_1_OFFSET UNITYSDK_OFFSET(0xC0BA4A0)
+#define CLASS_1_9E4E5BB5D3E96815___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xBFA7C20)
+#define CLASS_1_9E4E5BB5D3E96815___C__CTOR_OFFSET UNITYSDK_OFFSET(0xBFA7C50)
+#define CLASS_1_9E4E5BB5D3E96815___C___DEPLOYBORDERPLAT_B__5_0_OFFSET UNITYSDK_OFFSET(0xBFA7C60)
+#define CLASS_1_9E4E5BB5D3E96815___C___DEPLOYBORDERPLAT_B__5_1_OFFSET UNITYSDK_OFFSET(0xBFA7C90)
 
-inline static constexpr unsigned int Class_1_9E4E5BB5D3E96815___c_TypeDefinitionIndex = 76595;
+inline static constexpr unsigned int Class_1_9E4E5BB5D3E96815___c_TypeDefinitionIndex = 77066;
 
 class Class_1_9E4E5BB5D3E96815___c : public ::System::Object
 {
 public:
-	static ::Class_1_9E4E5BB5D3E96815___c** StaticGet___9()
+	static ::System::Action_3<::Class_1_9E4E5BB5D3E96815*, ::Class_2_B9E8C2EEAA5C96EC*, ::UnityEngine::Collider*>** StaticGet___9__5_1()
 	{
-		return (::Class_1_9E4E5BB5D3E96815___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_9E4E5BB5D3E96815___c_TypeDefinitionIndex)->GetStaticField(0x14150);
+		return (::System::Action_3<::Class_1_9E4E5BB5D3E96815*, ::Class_2_B9E8C2EEAA5C96EC*, ::UnityEngine::Collider*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_9E4E5BB5D3E96815___c_TypeDefinitionIndex)->GetStaticField(0x5FA60);
 	}
 	static ::System::Action_3<::Class_1_9E4E5BB5D3E96815*, ::Class_2_B9E8C2EEAA5C96EC*, ::UnityEngine::Collider*>** StaticGet___9__5_0()
 	{
-		return (::System::Action_3<::Class_1_9E4E5BB5D3E96815*, ::Class_2_B9E8C2EEAA5C96EC*, ::UnityEngine::Collider*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_9E4E5BB5D3E96815___c_TypeDefinitionIndex)->GetStaticField(0x14158);
+		return (::System::Action_3<::Class_1_9E4E5BB5D3E96815*, ::Class_2_B9E8C2EEAA5C96EC*, ::UnityEngine::Collider*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_9E4E5BB5D3E96815___c_TypeDefinitionIndex)->GetStaticField(0x5FA68);
 	}
-	static ::System::Action_3<::Class_1_9E4E5BB5D3E96815*, ::Class_2_B9E8C2EEAA5C96EC*, ::UnityEngine::Collider*>** StaticGet___9__5_1()
+	static ::Class_1_9E4E5BB5D3E96815___c** StaticGet___9()
 	{
-		return (::System::Action_3<::Class_1_9E4E5BB5D3E96815*, ::Class_2_B9E8C2EEAA5C96EC*, ::UnityEngine::Collider*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_9E4E5BB5D3E96815___c_TypeDefinitionIndex)->GetStaticField(0x14160);
+		return (::Class_1_9E4E5BB5D3E96815___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_9E4E5BB5D3E96815___c_TypeDefinitionIndex)->GetStaticField(0x5FA70);
 	}
 
 	static ::System::Void _cctor()

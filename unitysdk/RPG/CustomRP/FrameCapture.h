@@ -15,70 +15,70 @@ namespace RPG::CustomRP { class FrameCapture_IFrameCaptureEndOP; }
 namespace UnityEngine { class Camera; }
 namespace UnityEngine { class RenderTexture; }
 
-#define RPG_CUSTOMRP_FRAMECAPTURE_CAPTUREBOUNDARY_OFFSET UNITYSDK_OFFSET(0x1C6AB950)
-#define RPG_CUSTOMRP_FRAMECAPTURE_CAPTUREFRAME_OFFSET UNITYSDK_OFFSET(0x1C6AB940)
-#define RPG_CUSTOMRP_FRAMECAPTURE_CPPUPDATECAPTURERT_OFFSET UNITYSDK_OFFSET(0x1C6AB310)
-#define RPG_CUSTOMRP_FRAMECAPTURE_GETCAPTURERTDESC_OFFSET UNITYSDK_OFFSET(0x1C6AB850)
-#define RPG_CUSTOMRP_FRAMECAPTURE_GETCAPTURE_OFFSET UNITYSDK_OFFSET(0x1C6AAF40)
-#define RPG_CUSTOMRP_FRAMECAPTURE_GETIMMEDIATELYCAPTURE_OFFSET UNITYSDK_OFFSET(0x1C6AADD0)
-#define RPG_CUSTOMRP_FRAMECAPTURE_GETIMMEDIATELYTEXDESC_OFFSET UNITYSDK_OFFSET(0x1C6AA950)
-#define RPG_CUSTOMRP_FRAMECAPTURE_GETTARGET_OFFSET UNITYSDK_OFFSET(0x1C6AB820)
-#define RPG_CUSTOMRP_FRAMECAPTURE_GET_FLAGFROMIMMEDIATELYTASK_OFFSET UNITYSDK_OFFSET(0x1C6AB960)
-#define RPG_CUSTOMRP_FRAMECAPTURE_GET_ISNEARIMMEDIATELYCAPFRAME_OFFSET UNITYSDK_OFFSET(0x1C6AB9A0)
-#define RPG_CUSTOMRP_FRAMECAPTURE_HASFEATURE_OFFSET UNITYSDK_OFFSET(0x1C6AB2E0)
-#define RPG_CUSTOMRP_FRAMECAPTURE_RELEASECAPTUREFROMIMMEDIATELY_OFFSET UNITYSDK_OFFSET(0x1C6AB5B0)
-#define RPG_CUSTOMRP_FRAMECAPTURE_RELEASECAPTURE_OFFSET UNITYSDK_OFFSET(0x1C6AB620)
-#define RPG_CUSTOMRP_FRAMECAPTURE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C6ABA10)
-#define RPG_CUSTOMRP_FRAMECAPTURE__CREATERT_OFFSET UNITYSDK_OFFSET(0x1C6AB460)
-#define RPG_CUSTOMRP_FRAMECAPTURE__HASFEATURE_OFFSET UNITYSDK_OFFSET(0x1C6AAF30)
-#define RPG_CUSTOMRP_FRAMECAPTURE__UPDATERTDESC_OFFSET UNITYSDK_OFFSET(0x1C6AAAD0)
+#define RPG_CUSTOMRP_FRAMECAPTURE_CAPTUREBOUNDARY_OFFSET UNITYSDK_OFFSET(0x1CC31710)
+#define RPG_CUSTOMRP_FRAMECAPTURE_CAPTUREFRAME_OFFSET UNITYSDK_OFFSET(0x1CC31700)
+#define RPG_CUSTOMRP_FRAMECAPTURE_CPPUPDATECAPTURERT_OFFSET UNITYSDK_OFFSET(0x1CC310D0)
+#define RPG_CUSTOMRP_FRAMECAPTURE_GETCAPTURERTDESC_OFFSET UNITYSDK_OFFSET(0x1CC31610)
+#define RPG_CUSTOMRP_FRAMECAPTURE_GETCAPTURE_OFFSET UNITYSDK_OFFSET(0x1CC30D00)
+#define RPG_CUSTOMRP_FRAMECAPTURE_GETIMMEDIATELYCAPTURE_OFFSET UNITYSDK_OFFSET(0x1CC30B90)
+#define RPG_CUSTOMRP_FRAMECAPTURE_GETIMMEDIATELYTEXDESC_OFFSET UNITYSDK_OFFSET(0x1CC30710)
+#define RPG_CUSTOMRP_FRAMECAPTURE_GETTARGET_OFFSET UNITYSDK_OFFSET(0x1CC315E0)
+#define RPG_CUSTOMRP_FRAMECAPTURE_GET_FLAGFROMIMMEDIATELYTASK_OFFSET UNITYSDK_OFFSET(0x1CC31720)
+#define RPG_CUSTOMRP_FRAMECAPTURE_GET_ISNEARIMMEDIATELYCAPFRAME_OFFSET UNITYSDK_OFFSET(0x1CC31760)
+#define RPG_CUSTOMRP_FRAMECAPTURE_HASFEATURE_OFFSET UNITYSDK_OFFSET(0x1CC310A0)
+#define RPG_CUSTOMRP_FRAMECAPTURE_RELEASECAPTUREFROMIMMEDIATELY_OFFSET UNITYSDK_OFFSET(0x1CC31370)
+#define RPG_CUSTOMRP_FRAMECAPTURE_RELEASECAPTURE_OFFSET UNITYSDK_OFFSET(0x1CC313E0)
+#define RPG_CUSTOMRP_FRAMECAPTURE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CC317D0)
+#define RPG_CUSTOMRP_FRAMECAPTURE__CREATERT_OFFSET UNITYSDK_OFFSET(0x1CC31220)
+#define RPG_CUSTOMRP_FRAMECAPTURE__HASFEATURE_OFFSET UNITYSDK_OFFSET(0x1CC30CF0)
+#define RPG_CUSTOMRP_FRAMECAPTURE__UPDATERTDESC_OFFSET UNITYSDK_OFFSET(0x1CC30890)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int FrameCapture_TypeDefinitionIndex = 36926;
+	inline static constexpr unsigned int FrameCapture_TypeDefinitionIndex = 37611;
 
 	class FrameCapture : public ::System::Object
 	{
 	public:
+		static ::UnityEngine::RenderTexture** StaticGet__CaptureTarget()
+		{
+			return (::UnityEngine::RenderTexture**)Il2CppClass::FromTypeDefinitionIndex(FrameCapture_TypeDefinitionIndex)->GetStaticField(0x1D3F0);
+		}
 		static ::UnityEngine::RenderTexture** StaticGet__ReleaseRT()
 		{
-			return (::UnityEngine::RenderTexture**)Il2CppClass::FromTypeDefinitionIndex(FrameCapture_TypeDefinitionIndex)->GetStaticField(0x14850);
+			return (::UnityEngine::RenderTexture**)Il2CppClass::FromTypeDefinitionIndex(FrameCapture_TypeDefinitionIndex)->GetStaticField(0x1D3F8);
 		}
 		static ::RPG::CustomRP::FrameCapture_IFrameCaptureEndOP** StaticGet__OP()
 		{
-			return (::RPG::CustomRP::FrameCapture_IFrameCaptureEndOP**)Il2CppClass::FromTypeDefinitionIndex(FrameCapture_TypeDefinitionIndex)->GetStaticField(0x14858);
-		}
-		static ::UnityEngine::RenderTexture** StaticGet__CaptureTarget()
-		{
-			return (::UnityEngine::RenderTexture**)Il2CppClass::FromTypeDefinitionIndex(FrameCapture_TypeDefinitionIndex)->GetStaticField(0x14860);
-		}
-		static ::System::Boolean* StaticGet__FlagFromImmediatelyTask()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(FrameCapture_TypeDefinitionIndex)->GetStaticField(0x8070);
-		}
-		static ::RPG::CustomRP::FrameCapture_CaptureType* StaticGet__Type()
-		{
-			return (::RPG::CustomRP::FrameCapture_CaptureType*)Il2CppClass::FromTypeDefinitionIndex(FrameCapture_TypeDefinitionIndex)->GetStaticField(0x8074);
-		}
-		static ::RPG::CustomRP::FrameCapture_CaptureFeature* StaticGet__Feature()
-		{
-			return (::RPG::CustomRP::FrameCapture_CaptureFeature*)Il2CppClass::FromTypeDefinitionIndex(FrameCapture_TypeDefinitionIndex)->GetStaticField(0x8078);
-		}
-		static ::UnityEngine::RenderTextureDescriptor* StaticGet__Desc()
-		{
-			return (::UnityEngine::RenderTextureDescriptor*)Il2CppClass::FromTypeDefinitionIndex(FrameCapture_TypeDefinitionIndex)->GetStaticField(0x807C);
-		}
-		static ::System::Int32* StaticGet__LastCapFrame()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(FrameCapture_TypeDefinitionIndex)->GetStaticField(0x80AC);
+			return (::RPG::CustomRP::FrameCapture_IFrameCaptureEndOP**)Il2CppClass::FromTypeDefinitionIndex(FrameCapture_TypeDefinitionIndex)->GetStaticField(0x1D400);
 		}
 		static ::System::Int32* StaticGet__LastImmediatelyCapFrame()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(FrameCapture_TypeDefinitionIndex)->GetStaticField(0x80B0);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(FrameCapture_TypeDefinitionIndex)->GetStaticField(0x6AB0);
+		}
+		static ::UnityEngine::RenderTextureDescriptor* StaticGet__Desc()
+		{
+			return (::UnityEngine::RenderTextureDescriptor*)Il2CppClass::FromTypeDefinitionIndex(FrameCapture_TypeDefinitionIndex)->GetStaticField(0x6AB4);
 		}
 		static ::System::Single* StaticGet__PrevBlendingWeight()
 		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(FrameCapture_TypeDefinitionIndex)->GetStaticField(0x80B4);
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(FrameCapture_TypeDefinitionIndex)->GetStaticField(0x6AE4);
+		}
+		static ::RPG::CustomRP::FrameCapture_CaptureType* StaticGet__Type()
+		{
+			return (::RPG::CustomRP::FrameCapture_CaptureType*)Il2CppClass::FromTypeDefinitionIndex(FrameCapture_TypeDefinitionIndex)->GetStaticField(0x6AE8);
+		}
+		static ::System::Int32* StaticGet__LastCapFrame()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(FrameCapture_TypeDefinitionIndex)->GetStaticField(0x6AEC);
+		}
+		static ::System::Boolean* StaticGet__FlagFromImmediatelyTask()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(FrameCapture_TypeDefinitionIndex)->GetStaticField(0x6AF0);
+		}
+		static ::RPG::CustomRP::FrameCapture_CaptureFeature* StaticGet__Feature()
+		{
+			return (::RPG::CustomRP::FrameCapture_CaptureFeature*)Il2CppClass::FromTypeDefinitionIndex(FrameCapture_TypeDefinitionIndex)->GetStaticField(0x6AF4);
 		}
 
 		static ::System::Void _cctor()

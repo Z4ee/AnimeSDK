@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_MIHOYOSDKGAMEROLEMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xB22D260)
+#define MIHOYO_SDK_MIHOYOSDKGAMEROLEMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xAFCAE50)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MiHoYoSDKGameRoleModel_TypeDefinitionIndex = 46806;
+	inline static constexpr unsigned int MiHoYoSDKGameRoleModel_TypeDefinitionIndex = 46346;
 
 	class MiHoYoSDKGameRoleModel : public ::System::Object
 	{

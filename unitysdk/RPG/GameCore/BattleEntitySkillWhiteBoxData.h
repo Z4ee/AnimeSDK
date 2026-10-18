@@ -11,12 +11,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class BattleEntitySkillLevelWhiteBoxData; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_BATTLEENTITYSKILLWHITEBOXDATA_METHOD_2_0B452163E3FA3877_OFFSET UNITYSDK_OFFSET(0x1CE6F1F0)
-#define RPG_GAMECORE_BATTLEENTITYSKILLWHITEBOXDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE6FE80)
+#define RPG_GAMECORE_BATTLEENTITYSKILLWHITEBOXDATA_METHOD_2_0B452163E3FA3877_OFFSET UNITYSDK_OFFSET(0x1D456D30)
+#define RPG_GAMECORE_BATTLEENTITYSKILLWHITEBOXDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1D4579C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleEntitySkillWhiteBoxData_TypeDefinitionIndex = 22496;
+	inline static constexpr unsigned int BattleEntitySkillWhiteBoxData_TypeDefinitionIndex = 22751;
 
 	class BattleEntitySkillWhiteBoxData : public ::RPG::GameCore::JsonConfig
 	{

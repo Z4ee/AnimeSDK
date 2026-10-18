@@ -7,29 +7,29 @@ namespace RPG::GameCore { class ItemConfig; }
 namespace System { template <typename T> class Comparison_1; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define RPG_CLIENT_AVATARQUICKGROWCALCULATOR___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC83FE60)
-#define RPG_CLIENT_AVATARQUICKGROWCALCULATOR___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC83FEA0)
-#define RPG_CLIENT_AVATARQUICKGROWCALCULATOR___C___BUILDEXPPLAN_B__34_0_OFFSET UNITYSDK_OFFSET(0xC83FEF0)
-#define RPG_CLIENT_AVATARQUICKGROWCALCULATOR___C___ENSUREAVATAREXPROWS_B__18_0_OFFSET UNITYSDK_OFFSET(0xC83FEB0)
+#define RPG_CLIENT_AVATARQUICKGROWCALCULATOR___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC70DD60)
+#define RPG_CLIENT_AVATARQUICKGROWCALCULATOR___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC70DDA0)
+#define RPG_CLIENT_AVATARQUICKGROWCALCULATOR___C___BUILDEXPPLAN_B__34_0_OFFSET UNITYSDK_OFFSET(0xC70DDF0)
+#define RPG_CLIENT_AVATARQUICKGROWCALCULATOR___C___ENSUREAVATAREXPROWS_B__18_0_OFFSET UNITYSDK_OFFSET(0xC70DDB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AvatarQuickGrowCalculator___c_TypeDefinitionIndex = 62554;
+	inline static constexpr unsigned int AvatarQuickGrowCalculator___c_TypeDefinitionIndex = 62471;
 
 	class AvatarQuickGrowCalculator___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::AvatarQuickGrowCalculator___c** StaticGet___9()
-		{
-			return (::RPG::Client::AvatarQuickGrowCalculator___c**)Il2CppClass::FromTypeDefinitionIndex(AvatarQuickGrowCalculator___c_TypeDefinitionIndex)->GetStaticField(0x66570);
-		}
 		static ::System::Predicate_1<::RPG::GameCore::ItemConfig*>** StaticGet___9__34_0()
 		{
-			return (::System::Predicate_1<::RPG::GameCore::ItemConfig*>**)Il2CppClass::FromTypeDefinitionIndex(AvatarQuickGrowCalculator___c_TypeDefinitionIndex)->GetStaticField(0x66578);
+			return (::System::Predicate_1<::RPG::GameCore::ItemConfig*>**)Il2CppClass::FromTypeDefinitionIndex(AvatarQuickGrowCalculator___c_TypeDefinitionIndex)->GetStaticField(0x5C370);
+		}
+		static ::RPG::Client::AvatarQuickGrowCalculator___c** StaticGet___9()
+		{
+			return (::RPG::Client::AvatarQuickGrowCalculator___c**)Il2CppClass::FromTypeDefinitionIndex(AvatarQuickGrowCalculator___c_TypeDefinitionIndex)->GetStaticField(0x5C378);
 		}
 		static ::System::Comparison_1<::RPG::GameCore::AvatarExpItemConfigRow*>** StaticGet___9__18_0()
 		{
-			return (::System::Comparison_1<::RPG::GameCore::AvatarExpItemConfigRow*>**)Il2CppClass::FromTypeDefinitionIndex(AvatarQuickGrowCalculator___c_TypeDefinitionIndex)->GetStaticField(0x66580);
+			return (::System::Comparison_1<::RPG::GameCore::AvatarExpItemConfigRow*>**)Il2CppClass::FromTypeDefinitionIndex(AvatarQuickGrowCalculator___c_TypeDefinitionIndex)->GetStaticField(0x5C380);
 		}
 
 		static ::System::Void _cctor()

@@ -5,12 +5,12 @@
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace UnityEngine { class Texture2D; }
 
-#define MIHOYO_SDK_MIHOYOSDK___C__DISPLAYCLASS25_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB21FA50)
-#define MIHOYO_SDK_MIHOYOSDK___C__DISPLAYCLASS25_0__REQUESTWATERMARKDATA_B__0_OFFSET UNITYSDK_OFFSET(0xB2201F0)
+#define MIHOYO_SDK_MIHOYOSDK___C__DISPLAYCLASS25_0__CTOR_OFFSET UNITYSDK_OFFSET(0xAFC7130)
+#define MIHOYO_SDK_MIHOYOSDK___C__DISPLAYCLASS25_0__REQUESTWATERMARKDATA_B__0_OFFSET UNITYSDK_OFFSET(0xAFC7930)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MiHoYoSDK___c__DisplayClass25_0_TypeDefinitionIndex = 46720;
+	inline static constexpr unsigned int MiHoYoSDK___c__DisplayClass25_0_TypeDefinitionIndex = 46271;
 
 	class MiHoYoSDK___c__DisplayClass25_0 : public ::System::Object
 	{

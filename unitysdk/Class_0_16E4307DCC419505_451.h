@@ -1,12 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/GameCore/AvatarSkinType.h"
 
-namespace RPG::AvatarSystem { class AvatarSkin; }
-namespace System::Collections::Generic { template <typename T1, typename T2> class IReadOnlyDictionary_2; }
-namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
+class Class_0_16E4307DCC419505_452;
+class Class_1_E4CB20B056222958;
+class Class_3_3689070D59DB42E6;
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_451_TypeDefinitionIndex = 52240;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_451_TypeDefinitionIndex = 49123;
 
 class Class_0_16E4307DCC419505_451
 {

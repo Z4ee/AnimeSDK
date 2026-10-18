@@ -3,22 +3,22 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Rendering/VolumeProxy_Priority.h"
 
-class Class_0_16E4307DCC419505_1157;
+class Class_0_16E4307DCC419505_1270;
 namespace System { class Action; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::Rendering { class Volume; }
 
-#define RPG_CLIENT_CAMERAVOLUMEPROXY_INITUI3DCAMERAVOLUMEPROXY_OFFSET UNITYSDK_OFFSET(0xC9EAC90)
-#define RPG_CLIENT_CAMERAVOLUMEPROXY_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xC9EB390)
-#define RPG_CLIENT_CAMERAVOLUMEPROXY_RELEASE_OFFSET UNITYSDK_OFFSET(0xC9EAFE0)
-#define RPG_CLIENT_CAMERAVOLUMEPROXY_SETCUSTOMRELEASEACTION_OFFSET UNITYSDK_OFFSET(0xC9EAF90)
-#define RPG_CLIENT_CAMERAVOLUMEPROXY_UPDATE_OFFSET UNITYSDK_OFFSET(0xC9EB1A0)
-#define RPG_CLIENT_CAMERAVOLUMEPROXY__CTOR_OFFSET UNITYSDK_OFFSET(0xC9EAC80)
-#define RPG_CLIENT_CAMERAVOLUMEPROXY__ONINIT_OFFSET UNITYSDK_OFFSET(0xC9EAD20)
+#define RPG_CLIENT_CAMERAVOLUMEPROXY_INITUI3DCAMERAVOLUMEPROXY_OFFSET UNITYSDK_OFFSET(0xC9393A0)
+#define RPG_CLIENT_CAMERAVOLUMEPROXY_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xC939AA0)
+#define RPG_CLIENT_CAMERAVOLUMEPROXY_RELEASE_OFFSET UNITYSDK_OFFSET(0xC9396F0)
+#define RPG_CLIENT_CAMERAVOLUMEPROXY_SETCUSTOMRELEASEACTION_OFFSET UNITYSDK_OFFSET(0xC9396A0)
+#define RPG_CLIENT_CAMERAVOLUMEPROXY_UPDATE_OFFSET UNITYSDK_OFFSET(0xC9398B0)
+#define RPG_CLIENT_CAMERAVOLUMEPROXY__CTOR_OFFSET UNITYSDK_OFFSET(0xC939390)
+#define RPG_CLIENT_CAMERAVOLUMEPROXY__ONINIT_OFFSET UNITYSDK_OFFSET(0xC939430)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CameraVolumeProxy_TypeDefinitionIndex = 72933;
+	inline static constexpr unsigned int CameraVolumeProxy_TypeDefinitionIndex = 73016;
 
 	class CameraVolumeProxy : public ::UnityEngine::MonoBehaviour
 	{
@@ -26,7 +26,7 @@ namespace RPG::Client
 		::UnityEngine::Rendering::Volume* _Volume; // 0x18
 		::UnityEngine::Rendering::VolumeProxy_Priority _Priority; // 0x20
 		::System::Action* _CustomReleaseAction; // 0x28
-		::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_1157*>* _ComponentProxies; // 0x30
+		::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_1270*>* _ComponentProxies; // 0x30
 
 		::System::Void _ctor()
 		{

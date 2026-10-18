@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/Client/LittleGame/PlayerHitReason.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_92B0643C2819D9D9__CTOR_OFFSET UNITYSDK_OFFSET(0x1C47F530)
+#define CLASS_1_92B0643C2819D9D9__CTOR_OFFSET UNITYSDK_OFFSET(0x1C9E96D0)
 
-inline static constexpr unsigned int Class_1_92B0643C2819D9D9_TypeDefinitionIndex = 41072;
+inline static constexpr unsigned int Class_1_92B0643C2819D9D9_TypeDefinitionIndex = 42358;
 
 class Class_1_92B0643C2819D9D9 : public ::System::Object
 {

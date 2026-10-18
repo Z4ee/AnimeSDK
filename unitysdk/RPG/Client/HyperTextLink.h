@@ -15,39 +15,39 @@ namespace UnityEngine::EventSystems { class PointerEventData; }
 namespace UnityEngine::UI { class Image; }
 namespace UnityEngine::UI { class VertexHelper; }
 
-#define RPG_CLIENT_HYPERTEXTLINK_AWAKE_OFFSET UNITYSDK_OFFSET(0xD3DAB50)
-#define RPG_CLIENT_HYPERTEXTLINK_GETOUTPUTTEXT_OFFSET UNITYSDK_OFFSET(0xD3DC480)
-#define RPG_CLIENT_HYPERTEXTLINK_ONPOINTERCLICK_OFFSET UNITYSDK_OFFSET(0xD3DD0A0)
-#define RPG_CLIENT_HYPERTEXTLINK_ONPOPULATEMESH_OFFSET UNITYSDK_OFFSET(0xD3DBC00)
-#define RPG_CLIENT_HYPERTEXTLINK_SETTEXT_OFFSET UNITYSDK_OFFSET(0xD3DD4B0)
-#define RPG_CLIENT_HYPERTEXTLINK_SETVERTICESDIRTY_OFFSET UNITYSDK_OFFSET(0xD3DAC80)
-#define RPG_CLIENT_HYPERTEXTLINK_SET_TEXT_OFFSET UNITYSDK_OFFSET(0xD3DAA90)
-#define RPG_CLIENT_HYPERTEXTLINK_UPDATEQUADIMAGE_OFFSET UNITYSDK_OFFSET(0xD3DAD10)
-#define RPG_CLIENT_HYPERTEXTLINK__CCTOR_OFFSET UNITYSDK_OFFSET(0xD3DD680)
-#define RPG_CLIENT_HYPERTEXTLINK__CTOR_OFFSET UNITYSDK_OFFSET(0xD3DD580)
+#define RPG_CLIENT_HYPERTEXTLINK_AWAKE_OFFSET UNITYSDK_OFFSET(0xD330450)
+#define RPG_CLIENT_HYPERTEXTLINK_GETOUTPUTTEXT_OFFSET UNITYSDK_OFFSET(0xD331CF0)
+#define RPG_CLIENT_HYPERTEXTLINK_ONPOINTERCLICK_OFFSET UNITYSDK_OFFSET(0xD332990)
+#define RPG_CLIENT_HYPERTEXTLINK_ONPOPULATEMESH_OFFSET UNITYSDK_OFFSET(0xD3314A0)
+#define RPG_CLIENT_HYPERTEXTLINK_SETTEXT_OFFSET UNITYSDK_OFFSET(0xD332D70)
+#define RPG_CLIENT_HYPERTEXTLINK_SETVERTICESDIRTY_OFFSET UNITYSDK_OFFSET(0xD330580)
+#define RPG_CLIENT_HYPERTEXTLINK_SET_TEXT_OFFSET UNITYSDK_OFFSET(0xD330390)
+#define RPG_CLIENT_HYPERTEXTLINK_UPDATEQUADIMAGE_OFFSET UNITYSDK_OFFSET(0xD330610)
+#define RPG_CLIENT_HYPERTEXTLINK__CCTOR_OFFSET UNITYSDK_OFFSET(0xD332F40)
+#define RPG_CLIENT_HYPERTEXTLINK__CTOR_OFFSET UNITYSDK_OFFSET(0xD332E40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int HyperTextLink_TypeDefinitionIndex = 72468;
+	inline static constexpr unsigned int HyperTextLink_TypeDefinitionIndex = 72541;
 
 	class HyperTextLink : public ::UnityEngine::UI::Text
 	{
 	public:
-		static ::System::Text::RegularExpressions::Regex** StaticGet_s_HrefRegex()
+		static ::System::Text::RegularExpressions::Regex** StaticGet_s_ImageRegex()
 		{
-			return (::System::Text::RegularExpressions::Regex**)Il2CppClass::FromTypeDefinitionIndex(HyperTextLink_TypeDefinitionIndex)->GetStaticField(0x5B940);
+			return (::System::Text::RegularExpressions::Regex**)Il2CppClass::FromTypeDefinitionIndex(HyperTextLink_TypeDefinitionIndex)->GetStaticField(0xF610);
 		}
 		static ::System::Text::StringBuilder** StaticGet_s_TextBuilder()
 		{
-			return (::System::Text::StringBuilder**)Il2CppClass::FromTypeDefinitionIndex(HyperTextLink_TypeDefinitionIndex)->GetStaticField(0x5B948);
+			return (::System::Text::StringBuilder**)Il2CppClass::FromTypeDefinitionIndex(HyperTextLink_TypeDefinitionIndex)->GetStaticField(0xF618);
+		}
+		static ::System::Text::RegularExpressions::Regex** StaticGet_s_HrefRegex()
+		{
+			return (::System::Text::RegularExpressions::Regex**)Il2CppClass::FromTypeDefinitionIndex(HyperTextLink_TypeDefinitionIndex)->GetStaticField(0xF620);
 		}
 		static ::System::Func_2<::System::String*, ::UnityEngine::Sprite*>** StaticGet_funLoadSprite()
 		{
-			return (::System::Func_2<::System::String*, ::UnityEngine::Sprite*>**)Il2CppClass::FromTypeDefinitionIndex(HyperTextLink_TypeDefinitionIndex)->GetStaticField(0x5B950);
-		}
-		static ::System::Text::RegularExpressions::Regex** StaticGet_s_ImageRegex()
-		{
-			return (::System::Text::RegularExpressions::Regex**)Il2CppClass::FromTypeDefinitionIndex(HyperTextLink_TypeDefinitionIndex)->GetStaticField(0x5B958);
+			return (::System::Func_2<::System::String*, ::UnityEngine::Sprite*>**)Il2CppClass::FromTypeDefinitionIndex(HyperTextLink_TypeDefinitionIndex)->GetStaticField(0xF628);
 		}
 		::System::String* m_OutputText; // 0x190
 		::System::Collections::Generic::List_1<::UnityEngine::UI::Image*>* m_ImagesPool; // 0x198

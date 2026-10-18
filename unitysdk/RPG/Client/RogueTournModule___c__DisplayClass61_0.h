@@ -7,23 +7,23 @@ namespace RPG::Client::Promises { class Promise; }
 namespace System { class Action; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ROGUETOURNMODULE___C__DISPLAYCLASS61_0__APPLYROGUETOURNBUILDREF_B__0_OFFSET UNITYSDK_OFFSET(0xDF7B4E0)
-#define RPG_CLIENT_ROGUETOURNMODULE___C__DISPLAYCLASS61_0__APPLYROGUETOURNBUILDREF_B__1_OFFSET UNITYSDK_OFFSET(0xDF7B580)
-#define RPG_CLIENT_ROGUETOURNMODULE___C__DISPLAYCLASS61_0__APPLYROGUETOURNBUILDREF_B__2_OFFSET UNITYSDK_OFFSET(0xDF7B0A0)
-#define RPG_CLIENT_ROGUETOURNMODULE___C__DISPLAYCLASS61_0__APPLYROGUETOURNBUILDREF_B__3_OFFSET UNITYSDK_OFFSET(0xDF7B4C0)
-#define RPG_CLIENT_ROGUETOURNMODULE___C__DISPLAYCLASS61_0__CTOR_OFFSET UNITYSDK_OFFSET(0xDF6DF80)
+#define RPG_CLIENT_ROGUETOURNMODULE___C__DISPLAYCLASS61_0__APPLYROGUETOURNBUILDREF_B__0_OFFSET UNITYSDK_OFFSET(0xE011B00)
+#define RPG_CLIENT_ROGUETOURNMODULE___C__DISPLAYCLASS61_0__APPLYROGUETOURNBUILDREF_B__1_OFFSET UNITYSDK_OFFSET(0xE011BA0)
+#define RPG_CLIENT_ROGUETOURNMODULE___C__DISPLAYCLASS61_0__APPLYROGUETOURNBUILDREF_B__2_OFFSET UNITYSDK_OFFSET(0xE0116C0)
+#define RPG_CLIENT_ROGUETOURNMODULE___C__DISPLAYCLASS61_0__APPLYROGUETOURNBUILDREF_B__3_OFFSET UNITYSDK_OFFSET(0xE011AE0)
+#define RPG_CLIENT_ROGUETOURNMODULE___C__DISPLAYCLASS61_0__CTOR_OFFSET UNITYSDK_OFFSET(0xE004630)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournModule___c__DisplayClass61_0_TypeDefinitionIndex = 67801;
+	inline static constexpr unsigned int RogueTournModule___c__DisplayClass61_0_TypeDefinitionIndex = 67803;
 
 	class RogueTournModule___c__DisplayClass61_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::Promises::Promise* teamOpPromise; // 0x10
-		::System::Collections::Generic::List_1<::System::UInt32>* teamAvatarRealIDs; // 0x18
-		::System::Action* __9__3; // 0x20
-		::RPG::Client::RogueTournModule* __4__this; // 0x28
+		::System::Action* __9__3; // 0x10
+		::RPG::Client::RogueTournModule* __4__this; // 0x18
+		::RPG::Client::Promises::Promise* teamOpPromise; // 0x20
+		::System::Collections::Generic::List_1<::System::UInt32>* teamAvatarRealIDs; // 0x28
 		::System::UInt32 protoBlockID; // 0x30
 
 		::System::Void _ctor()

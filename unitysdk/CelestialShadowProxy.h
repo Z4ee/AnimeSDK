@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int CelestialShadowProxy_TypeDefinitionIndex = 47764;
+inline static constexpr unsigned int CelestialShadowProxy_TypeDefinitionIndex = 47304;
 
 enum class CelestialShadowProxy : ::System::Int32
 {

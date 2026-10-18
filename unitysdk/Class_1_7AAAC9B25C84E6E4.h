@@ -4,9 +4,9 @@
 
 namespace System { class String; }
 
-#define CLASS_1_7AAAC9B25C84E6E4__CTOR_OFFSET UNITYSDK_OFFSET(0x162904F0)
+#define CLASS_1_7AAAC9B25C84E6E4__CTOR_OFFSET UNITYSDK_OFFSET(0x16641C00)
 
-inline static constexpr unsigned int Class_1_7AAAC9B25C84E6E4_TypeDefinitionIndex = 59142;
+inline static constexpr unsigned int Class_1_7AAAC9B25C84E6E4_TypeDefinitionIndex = 58994;
 
 class Class_1_7AAAC9B25C84E6E4 : public ::System::Object
 {

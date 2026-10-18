@@ -5,11 +5,11 @@
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Renderer; }
 
-#define RPG_CLIENT_MULTILIGHTEFFECTMATERIALBLOCK_MBITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xD8DB060)
+#define RPG_CLIENT_MULTILIGHTEFFECTMATERIALBLOCK_MBITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xD8DB0B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MultiLightEffectMaterialBlock_MBItem_TypeDefinitionIndex = 70654;
+	inline static constexpr unsigned int MultiLightEffectMaterialBlock_MBItem_TypeDefinitionIndex = 70690;
 
 	class MultiLightEffectMaterialBlock_MBItem : public ::System::Object
 	{

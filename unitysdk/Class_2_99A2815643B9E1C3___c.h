@@ -5,22 +5,22 @@
 namespace RPG::Client::LittleGame::RoadRash { class RoadRashAbilityValueModifer; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define CLASS_2_99A2815643B9E1C3___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xB6093A0)
-#define CLASS_2_99A2815643B9E1C3___C__CTOR_OFFSET UNITYSDK_OFFSET(0xB6093E0)
-#define CLASS_2_99A2815643B9E1C3___C___REMOVEMAXSPEEDMODIFIER_B__9_0_OFFSET UNITYSDK_OFFSET(0xB6093F0)
+#define CLASS_2_99A2815643B9E1C3___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xB458430)
+#define CLASS_2_99A2815643B9E1C3___C__CTOR_OFFSET UNITYSDK_OFFSET(0xB458470)
+#define CLASS_2_99A2815643B9E1C3___C___REMOVEMAXSPEEDMODIFIER_B__9_0_OFFSET UNITYSDK_OFFSET(0xB458480)
 
-inline static constexpr unsigned int Class_2_99A2815643B9E1C3___c_TypeDefinitionIndex = 58576;
+inline static constexpr unsigned int Class_2_99A2815643B9E1C3___c_TypeDefinitionIndex = 58427;
 
 class Class_2_99A2815643B9E1C3___c : public ::System::Object
 {
 public:
 	static ::System::Predicate_1<::RPG::Client::LittleGame::RoadRash::RoadRashAbilityValueModifer*>** StaticGet___9__9_0()
 	{
-		return (::System::Predicate_1<::RPG::Client::LittleGame::RoadRash::RoadRashAbilityValueModifer*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_99A2815643B9E1C3___c_TypeDefinitionIndex)->GetStaticField(0x64B90);
+		return (::System::Predicate_1<::RPG::Client::LittleGame::RoadRash::RoadRashAbilityValueModifer*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_99A2815643B9E1C3___c_TypeDefinitionIndex)->GetStaticField(0x58700);
 	}
 	static ::Class_2_99A2815643B9E1C3___c** StaticGet___9()
 	{
-		return (::Class_2_99A2815643B9E1C3___c**)Il2CppClass::FromTypeDefinitionIndex(Class_2_99A2815643B9E1C3___c_TypeDefinitionIndex)->GetStaticField(0x64B98);
+		return (::Class_2_99A2815643B9E1C3___c**)Il2CppClass::FromTypeDefinitionIndex(Class_2_99A2815643B9E1C3___c_TypeDefinitionIndex)->GetStaticField(0x58708);
 	}
 
 	static ::System::Void _cctor()

@@ -11,13 +11,13 @@ namespace RPG::GameCore { class FloatCurve; }
 namespace RPG::GameCore { class HoyoTagContainer; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIVEDIMMOVECONFIG_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x1D0F2220)
-#define RPG_GAMECORE_FIVEDIMMOVECONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D0F2030)
-#define RPG_GAMECORE_FIVEDIMMOVECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0F2140)
+#define RPG_GAMECORE_FIVEDIMMOVECONFIG_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x1D6CA2B0)
+#define RPG_GAMECORE_FIVEDIMMOVECONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D6CA0C0)
+#define RPG_GAMECORE_FIVEDIMMOVECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6CA1D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimMoveConfig_TypeDefinitionIndex = 16484;
+	inline static constexpr unsigned int FiveDimMoveConfig_TypeDefinitionIndex = 16660;
 
 	class FiveDimMoveConfig : public ::RPG::GameCore::LittleGameEntityMoveConfig
 	{

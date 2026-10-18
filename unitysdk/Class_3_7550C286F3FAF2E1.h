@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class GlobalVisibilityControl; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_7550C286F3FAF2E1_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x163FFAF0)
-#define CLASS_3_7550C286F3FAF2E1__CTOR_OFFSET UNITYSDK_OFFSET(0x163FFAC0)
+#define CLASS_3_7550C286F3FAF2E1_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB2EBF40)
+#define CLASS_3_7550C286F3FAF2E1__CTOR_OFFSET UNITYSDK_OFFSET(0xB2EBF10)
 
-inline static constexpr unsigned int Class_3_7550C286F3FAF2E1_TypeDefinitionIndex = 55290;
+inline static constexpr unsigned int Class_3_7550C286F3FAF2E1_TypeDefinitionIndex = 55084;
 
 class Class_3_7550C286F3FAF2E1 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::GlobalVisibilityControl*>
 {

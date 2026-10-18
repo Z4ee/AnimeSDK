@@ -10,13 +10,13 @@ namespace RPGTools::Timeline { class CharacterDitherBehaviour; }
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_CHARACTERDITHERCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8296F0)
-#define RPGTOOLS_TIMELINE_CHARACTERDITHERCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE8296E0)
-#define RPGTOOLS_TIMELINE_CHARACTERDITHERCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xE829860)
+#define RPGTOOLS_TIMELINE_CHARACTERDITHERCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8C74B0)
+#define RPGTOOLS_TIMELINE_CHARACTERDITHERCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE8C74A0)
+#define RPGTOOLS_TIMELINE_CHARACTERDITHERCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xE8C7620)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int CharacterDitherClip_TypeDefinitionIndex = 48405;
+	inline static constexpr unsigned int CharacterDitherClip_TypeDefinitionIndex = 47945;
 
 	class CharacterDitherClip : public ::UnityEngine::Playables::PlayableAsset
 	{

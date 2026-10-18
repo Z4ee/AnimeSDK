@@ -1,30 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Cysharp/Threading/Tasks/UniTask_1.h"
-#include "unitysdk/Struct_2_31852543D3677906.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/Threading/CancellationToken.h"
 
-class Class_1_5F4D64A4B97E38F9;
-namespace Google::Protobuf { class IMessage; }
+class Class_1_DD6B06EE3D4AEBFA;
+namespace RPG::Client::Compliance::Ftc::DirectPurchase { class FtcDirectPurchase; }
 
-#define CLASS_1_AC54A34AF811EFDC_1_METHOD_1_9B9268EACFB7EA90_OFFSET UNITYSDK_OFFSET(0xBC914A0)
-#define CLASS_1_AC54A34AF811EFDC_1__CTOR_OFFSET UNITYSDK_OFFSET(0xBC91450)
+#define CLASS_1_AC54A34AF811EFDC_1_METHOD_1_B5D08EFD68250400_OFFSET UNITYSDK_OFFSET(0xBFF5970)
+#define CLASS_1_AC54A34AF811EFDC_1__CTOR_OFFSET UNITYSDK_OFFSET(0xBFF5920)
 
-inline static constexpr unsigned int Class_1_AC54A34AF811EFDC_1_TypeDefinitionIndex = 79178;
+inline static constexpr unsigned int Class_1_AC54A34AF811EFDC_1_TypeDefinitionIndex = 74830;
 
 class Class_1_AC54A34AF811EFDC_1 : public ::System::Object
 {
 public:
-	::Class_1_5F4D64A4B97E38F9* GJALMBBNNOF; // 0x10
+	::Class_1_DD6B06EE3D4AEBFA* KLCDAHLCILC; // 0x10
 
-	::System::Void _ctor(::Class_1_5F4D64A4B97E38F9* a1)
+	::System::Void _ctor(::Class_1_DD6B06EE3D4AEBFA* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_1_5F4D64A4B97E38F9*))((::PBYTE)hIl2Cpp + CLASS_1_AC54A34AF811EFDC_1__CTOR_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::Class_1_DD6B06EE3D4AEBFA*))((::PBYTE)hIl2Cpp + CLASS_1_AC54A34AF811EFDC_1__CTOR_OFFSET))(this, a1);
 	}
 
-	::System::Void Method_1_9B9268EACFB7EA90()
+	::RPG::Client::Compliance::Ftc::DirectPurchase::FtcDirectPurchase* Method_1_B5D08EFD68250400(::System::UInt32 a1)
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_AC54A34AF811EFDC_1_METHOD_1_9B9268EACFB7EA90_OFFSET))(this);
+		return ((::RPG::Client::Compliance::Ftc::DirectPurchase::FtcDirectPurchase*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_AC54A34AF811EFDC_1_METHOD_1_B5D08EFD68250400_OFFSET))(this, a1);
 	}
 };

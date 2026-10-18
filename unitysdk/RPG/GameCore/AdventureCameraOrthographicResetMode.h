@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureCameraOrthographicResetMode_TypeDefinitionIndex = 24324;
+	inline static constexpr unsigned int AdventureCameraOrthographicResetMode_TypeDefinitionIndex = 24603;
 
 	enum class AdventureCameraOrthographicResetMode : ::System::Int32
 	{

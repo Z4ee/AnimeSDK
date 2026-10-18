@@ -5,24 +5,24 @@
 namespace MiHoYo::SDK::UI::Internal::OS { class AccountList; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_UI_INTERNAL_OS_ACCOUNTLIST___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BAF5ED0)
-#define MIHOYO_SDK_UI_INTERNAL_OS_ACCOUNTLIST___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1BAF5F10)
-#define MIHOYO_SDK_UI_INTERNAL_OS_ACCOUNTLIST___C__SHOW_B__43_0_OFFSET UNITYSDK_OFFSET(0x1BAF5F20)
+#define MIHOYO_SDK_UI_INTERNAL_OS_ACCOUNTLIST___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C0020C0)
+#define MIHOYO_SDK_UI_INTERNAL_OS_ACCOUNTLIST___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1C002100)
+#define MIHOYO_SDK_UI_INTERNAL_OS_ACCOUNTLIST___C__SHOW_B__43_0_OFFSET UNITYSDK_OFFSET(0x1C002110)
 
 namespace MiHoYo::SDK::UI::Internal::OS
 {
-	inline static constexpr unsigned int AccountList___c_TypeDefinitionIndex = 8391;
+	inline static constexpr unsigned int AccountList___c_TypeDefinitionIndex = 8434;
 
 	class AccountList___c : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::MiHoYo::SDK::UI::Internal::OS::AccountList*>** StaticGet___9__43_0()
-		{
-			return (::System::Action_1<::MiHoYo::SDK::UI::Internal::OS::AccountList*>**)Il2CppClass::FromTypeDefinitionIndex(AccountList___c_TypeDefinitionIndex)->GetStaticField(0x285A0);
-		}
 		static ::MiHoYo::SDK::UI::Internal::OS::AccountList___c** StaticGet___9()
 		{
-			return (::MiHoYo::SDK::UI::Internal::OS::AccountList___c**)Il2CppClass::FromTypeDefinitionIndex(AccountList___c_TypeDefinitionIndex)->GetStaticField(0x285A8);
+			return (::MiHoYo::SDK::UI::Internal::OS::AccountList___c**)Il2CppClass::FromTypeDefinitionIndex(AccountList___c_TypeDefinitionIndex)->GetStaticField(0x183D0);
+		}
+		static ::System::Action_1<::MiHoYo::SDK::UI::Internal::OS::AccountList*>** StaticGet___9__43_0()
+		{
+			return (::System::Action_1<::MiHoYo::SDK::UI::Internal::OS::AccountList*>**)Il2CppClass::FromTypeDefinitionIndex(AccountList___c_TypeDefinitionIndex)->GetStaticField(0x183D8);
 		}
 
 		static ::System::Void _cctor()

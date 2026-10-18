@@ -6,9 +6,9 @@
 class Class_1_A474572029D08468;
 namespace RPG::GameCore { class BattleInstance; }
 
-#define CLASS_2_9C972AC88E9A3A3E_CLASS_1_D3B8D6E8E220BC49__CTOR_OFFSET UNITYSDK_OFFSET(0xC0B7EF0)
+#define CLASS_2_9C972AC88E9A3A3E_CLASS_1_D3B8D6E8E220BC49__CTOR_OFFSET UNITYSDK_OFFSET(0xBFA5650)
 
-inline static constexpr unsigned int Class_2_9C972AC88E9A3A3E_Class_1_D3B8D6E8E220BC49_TypeDefinitionIndex = 71847;
+inline static constexpr unsigned int Class_2_9C972AC88E9A3A3E_Class_1_D3B8D6E8E220BC49_TypeDefinitionIndex = 71912;
 
 class Class_2_9C972AC88E9A3A3E_Class_1_D3B8D6E8E220BC49 : public ::System::Object
 {

@@ -3,7 +3,7 @@
 
 namespace SRDebugger
 {
-	inline static constexpr unsigned int ConsoleAlignment_TypeDefinitionIndex = 37279;
+	inline static constexpr unsigned int ConsoleAlignment_TypeDefinitionIndex = 37972;
 
 	enum class ConsoleAlignment : ::System::Int32
 	{

@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int StackTraceLogType_TypeDefinitionIndex = 4030;
+	inline static constexpr unsigned int StackTraceLogType_TypeDefinitionIndex = 4031;
 
 	enum class StackTraceLogType : ::System::Int32
 	{

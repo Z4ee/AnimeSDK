@@ -8,13 +8,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class EntitySpawnConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ENTITYLODLOADINGDATA_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x1D06A490)
-#define RPG_GAMECORE_ENTITYLODLOADINGDATA_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D06A9A0)
-#define RPG_GAMECORE_ENTITYLODLOADINGDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1D06A460)
+#define RPG_GAMECORE_ENTITYLODLOADINGDATA_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x1D678010)
+#define RPG_GAMECORE_ENTITYLODLOADINGDATA_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D677F60)
+#define RPG_GAMECORE_ENTITYLODLOADINGDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1D677FD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EntityLodLoadingData_TypeDefinitionIndex = 18989;
+	inline static constexpr unsigned int EntityLodLoadingData_TypeDefinitionIndex = 19216;
 
 	class EntityLodLoadingData : public ::RPG::GameCore::EntityLodLoadingArtData
 	{
@@ -30,6 +30,7 @@ namespace RPG::GameCore
 		::RPG::MVector3 TickLodBoundSize; // 0x60
 		::Il2CppArray<::System::Int32>* ArtReplaceIndex; // 0x70
 		::Il2CppArray<::System::String*>* ReplaceMaterialVariantKeyList; // 0x78
+		::RPG::GameCore::TickLodTemplateName TickLodTemplateName; // 0x80
 
 		::System::Void _ctor()
 		{

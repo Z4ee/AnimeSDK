@@ -6,22 +6,22 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class FateRinCaseBoardEffectInfo; }
 namespace RPG::GameCore { class FateRinCaseBoardTeamRelationInfo; }
 
-#define CLASS_3_FB5A83386423B008_METHOD_3_292B86D9FDC9A4F5_OFFSET UNITYSDK_OFFSET(0x1C76EBB0)
-#define CLASS_3_FB5A83386423B008_METHOD_3_E024E0080A08A9C9_OFFSET UNITYSDK_OFFSET(0x1C76EC20)
-#define CLASS_3_FB5A83386423B008__CTOR_OFFSET UNITYSDK_OFFSET(0x1C76EC00)
+#define CLASS_3_FB5A83386423B008_METHOD_3_292B86D9FDC9A4F5_OFFSET UNITYSDK_OFFSET(0x1CCFA700)
+#define CLASS_3_FB5A83386423B008_METHOD_3_E024E0080A08A9C9_OFFSET UNITYSDK_OFFSET(0x1CCFA770)
+#define CLASS_3_FB5A83386423B008__CTOR_OFFSET UNITYSDK_OFFSET(0x1CCFA750)
 
-inline static constexpr unsigned int Class_3_FB5A83386423B008_TypeDefinitionIndex = 19699;
+inline static constexpr unsigned int Class_3_FB5A83386423B008_TypeDefinitionIndex = 19929;
 
 class Class_3_FB5A83386423B008 : public ::RPG::GameCore::TaskConfig
 {
 public:
-	::RPG::GameCore::FateRinCaseBoardTeamRelationInfo* NLKANDACMLF; // 0x18
-	::Il2CppArray<::RPG::GameCore::FateRinCaseBoardEffectInfo*>* LDCJONHGDAN; // 0x20
+	::Il2CppArray<::RPG::GameCore::FateRinCaseBoardEffectInfo*>* LDCJONHGDAN; // 0x18
+	::RPG::GameCore::FateRinCaseBoardTeamRelationInfo* NLKANDACMLF; // 0x20
 	::System::Single KJGIGGFHKEA; // 0x28
-	::System::Boolean EMFAOBHNLBF; // 0x2C
-	::System::Boolean GNDCCBNILML; // 0x2D
+	::System::Single NCMIKMNHBHC; // 0x2C
 	::System::Single IEHPFADHJFD; // 0x30
-	::System::Single NCMIKMNHBHC; // 0x34
+	::System::Boolean EMFAOBHNLBF; // 0x34
+	::System::Boolean GNDCCBNILML; // 0x35
 
 	::System::Void _ctor()
 	{

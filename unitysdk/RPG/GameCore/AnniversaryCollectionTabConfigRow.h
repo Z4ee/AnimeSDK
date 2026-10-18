@@ -8,19 +8,19 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ConditionParam; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ANNIVERSARYCOLLECTIONTABCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CE1FA20)
-#define RPG_GAMECORE_ANNIVERSARYCOLLECTIONTABCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE1FCE0)
+#define RPG_GAMECORE_ANNIVERSARYCOLLECTIONTABCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3F5CD0)
+#define RPG_GAMECORE_ANNIVERSARYCOLLECTIONTABCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3F5F90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AnniversaryCollectionTabConfigRow_TypeDefinitionIndex = 12572;
+	inline static constexpr unsigned int AnniversaryCollectionTabConfigRow_TypeDefinitionIndex = 12662;
 
 	class AnniversaryCollectionTabConfigRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* RelatedAnniversaryContentList; // 0x10
-		::System::String* TabIcon; // 0x18
-		::Il2CppArray<::RPG::GameCore::ConditionParam*>* FinishCondition; // 0x20
+		::Il2CppArray<::RPG::GameCore::ConditionParam*>* FinishCondition; // 0x18
+		::System::String* TabIcon; // 0x20
 		::RPG::Client::TextID TabName; // 0x28
 		::System::UInt32 TabID; // 0x38
 		::RPG::GameCore::AnniversaryCollectionPanelEnum PanelType; // 0x3C

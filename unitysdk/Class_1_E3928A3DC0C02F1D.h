@@ -7,7 +7,7 @@ namespace R3 { template <typename T> class Observable_1; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-inline static constexpr unsigned int Class_1_E3928A3DC0C02F1D_TypeDefinitionIndex = 50334;
+inline static constexpr unsigned int Class_1_E3928A3DC0C02F1D_TypeDefinitionIndex = 50010;
 
 template <typename TViewModel, typename TView, typename TValue>
 class Class_1_E3928A3DC0C02F1D : public ::System::Object

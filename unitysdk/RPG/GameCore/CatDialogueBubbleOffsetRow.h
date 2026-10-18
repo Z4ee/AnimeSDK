@@ -5,20 +5,20 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_CATDIALOGUEBUBBLEOFFSETROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CF7E150)
-#define RPG_GAMECORE_CATDIALOGUEBUBBLEOFFSETROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF7E360)
+#define RPG_GAMECORE_CATDIALOGUEBUBBLEOFFSETROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D557FD0)
+#define RPG_GAMECORE_CATDIALOGUEBUBBLEOFFSETROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5581E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CatDialogueBubbleOffsetRow_TypeDefinitionIndex = 12834;
+	inline static constexpr unsigned int CatDialogueBubbleOffsetRow_TypeDefinitionIndex = 12940;
 
 	class CatDialogueBubbleOffsetRow : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::BubbleType BubbleType; // 0x10
+		::System::UInt32 ID; // 0x10
 		::System::Single BubbleOffsetY; // 0x14
-		::System::UInt32 ID; // 0x18
-		::System::Single BubbleOffsetX; // 0x1C
+		::System::Single BubbleOffsetX; // 0x18
+		::RPG::GameCore::BubbleType BubbleType; // 0x1C
 		::System::Single BubbleOffsetZ; // 0x20
 
 		::System::Void _ctor()

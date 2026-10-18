@@ -6,7 +6,7 @@ namespace MessagePack::Formatters { template <typename T> class IMessagePackForm
 
 namespace RPG::Client::LittleGameShare
 {
-	inline static constexpr unsigned int ReplicationFormatterResolver_FormatterCache_1_TypeDefinitionIndex = 36378;
+	inline static constexpr unsigned int ReplicationFormatterResolver_FormatterCache_1_TypeDefinitionIndex = 37065;
 
 	template <typename T>
 	class ReplicationFormatterResolver_FormatterCache_1 : public ::System::Object

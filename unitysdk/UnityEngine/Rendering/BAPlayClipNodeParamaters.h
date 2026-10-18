@@ -4,11 +4,11 @@
 
 namespace UnityEngine::Rendering { class BAGraphAsset; }
 
-#define UNITYENGINE_RENDERING_BAPLAYCLIPNODEPARAMATERS_SETCLIP_OFFSET UNITYSDK_OFFSET(0x1ED52BC0)
+#define UNITYENGINE_RENDERING_BAPLAYCLIPNODEPARAMATERS_SETCLIP_OFFSET UNITYSDK_OFFSET(0x1F41AC90)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int BAPlayClipNodeParamaters_TypeDefinitionIndex = 4793;
+	inline static constexpr unsigned int BAPlayClipNodeParamaters_TypeDefinitionIndex = 4798;
 
 	struct alignas(1) BAPlayClipNodeParamaters
 	{

@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/Client/DateTimePro.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_SCHEDULEMISSION__CTOR_OFFSET UNITYSDK_OFFSET(0xE0671C0)
+#define RPG_CLIENT_SCHEDULEMISSION__CTOR_OFFSET UNITYSDK_OFFSET(0xE0A1C90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ScheduleMission_TypeDefinitionIndex = 66238;
+	inline static constexpr unsigned int ScheduleMission_TypeDefinitionIndex = 66199;
 
 	class ScheduleMission : public ::System::Object
 	{

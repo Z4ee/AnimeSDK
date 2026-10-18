@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SCENENLIGHTMANAGER_BASECOMPONENTEXPORTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xE90B670)
+#define SCENENLIGHTMANAGER_BASECOMPONENTEXPORTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xE961160)
 
 namespace ScenenLightManager
 {
-	inline static constexpr unsigned int BaseComponentExportData_TypeDefinitionIndex = 49568;
+	inline static constexpr unsigned int BaseComponentExportData_TypeDefinitionIndex = 49142;
 
 	class BaseComponentExportData : public ::System::Object
 	{

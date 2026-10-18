@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/ActivityPanelData.h"
 
-#define RPG_CLIENT_ACTIVITYSTRONGCHALLENGEDATA_ISSHOWNORMALREDDOT_OFFSET UNITYSDK_OFFSET(0xC687460)
-#define RPG_CLIENT_ACTIVITYSTRONGCHALLENGEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xC687450)
+#define RPG_CLIENT_ACTIVITYSTRONGCHALLENGEDATA_ISSHOWNORMALREDDOT_OFFSET UNITYSDK_OFFSET(0xC5A4800)
+#define RPG_CLIENT_ACTIVITYSTRONGCHALLENGEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xC5A47F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityStrongChallengeData_TypeDefinitionIndex = 61993;
+	inline static constexpr unsigned int ActivityStrongChallengeData_TypeDefinitionIndex = 61909;
 
 	class ActivityStrongChallengeData : public ::RPG::Client::ActivityPanelData
 	{

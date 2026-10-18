@@ -1,8 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Vector3.h"
+#include "unitysdk/RPG/GameCore/AnimStateLogicType.h"
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_658_TypeDefinitionIndex = 59893;
+class Class_0_16E4307DCC419505_657;
+class Class_1_93271BB4736EAF8B;
+class Class_1_DB457F2E821DD51D;
+class Class_2_1DBE0E1023AFDBC5;
+namespace RPG::GameCore { class GameEntity; }
+namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+
+inline static constexpr unsigned int Class_0_16E4307DCC419505_658_TypeDefinitionIndex = 55919;
 
 class Class_0_16E4307DCC419505_658
 {

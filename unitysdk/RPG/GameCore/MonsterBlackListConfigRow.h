@@ -4,18 +4,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MONSTERBLACKLISTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D2CC4F0)
-#define RPG_GAMECORE_MONSTERBLACKLISTCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2CC610)
+#define RPG_GAMECORE_MONSTERBLACKLISTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D8AE970)
+#define RPG_GAMECORE_MONSTERBLACKLISTCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D8AEA90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MonsterBlackListConfigRow_TypeDefinitionIndex = 12793;
+	inline static constexpr unsigned int MonsterBlackListConfigRow_TypeDefinitionIndex = 12899;
 
 	class MonsterBlackListConfigRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 Rank; // 0x10
-		::System::UInt32 MonsterID; // 0x14
+		::System::UInt32 MonsterID; // 0x10
+		::System::UInt32 Rank; // 0x14
 
 		::System::Void _ctor()
 		{

@@ -3,12 +3,12 @@
 #include "unitysdk/CriWare/CriAtomExDebug_ResourcesInfo.h"
 #include "unitysdk/System/Object.h"
 
-#define CRIWARE_CRIATOMEXDEBUG_CRIATOMEXDEBUG_GETRESOURCESINFO_OFFSET UNITYSDK_OFFSET(0x164C5CA0)
-#define CRIWARE_CRIATOMEXDEBUG_GETRESOURCESINFO_OFFSET UNITYSDK_OFFSET(0x164C5C20)
+#define CRIWARE_CRIATOMEXDEBUG_CRIATOMEXDEBUG_GETRESOURCESINFO_OFFSET UNITYSDK_OFFSET(0x166EC8D0)
+#define CRIWARE_CRIATOMEXDEBUG_GETRESOURCESINFO_OFFSET UNITYSDK_OFFSET(0x166EC850)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExDebug_TypeDefinitionIndex = 38878;
+	inline static constexpr unsigned int CriAtomExDebug_TypeDefinitionIndex = 40175;
 
 	class CriAtomExDebug : public ::System::Object
 	{

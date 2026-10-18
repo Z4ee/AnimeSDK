@@ -11,7 +11,7 @@ namespace UnityEngine { class Texture; }
 
 namespace EnviromentSystem
 {
-	inline static constexpr unsigned int EnviroReflectionProbeProperty_EnviroReflectionProbe_TypeDefinitionIndex = 50050;
+	inline static constexpr unsigned int EnviroReflectionProbeProperty_EnviroReflectionProbe_TypeDefinitionIndex = 49625;
 
 	struct alignas(8) EnviroReflectionProbeProperty_EnviroReflectionProbe
 	{

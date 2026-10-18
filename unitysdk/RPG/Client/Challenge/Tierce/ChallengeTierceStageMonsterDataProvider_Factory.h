@@ -6,12 +6,12 @@ class Class_1_52DE58AEA447C9CD;
 class Class_1_AF10B3ABB955124D;
 namespace RPG::Client::Challenge::Tierce { class ChallengeTierceStageMonsterDataProvider; }
 
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGEMONSTERDATAPROVIDER_FACTORY_CREATE_OFFSET UNITYSDK_OFFSET(0xCA07150)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGEMONSTERDATAPROVIDER_FACTORY__CTOR_OFFSET UNITYSDK_OFFSET(0xCA07140)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGEMONSTERDATAPROVIDER_FACTORY_CREATE_OFFSET UNITYSDK_OFFSET(0xC955720)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGEMONSTERDATAPROVIDER_FACTORY__CTOR_OFFSET UNITYSDK_OFFSET(0xC955710)
 
 namespace RPG::Client::Challenge::Tierce
 {
-	inline static constexpr unsigned int ChallengeTierceStageMonsterDataProvider_Factory_TypeDefinitionIndex = 80247;
+	inline static constexpr unsigned int ChallengeTierceStageMonsterDataProvider_Factory_TypeDefinitionIndex = 81575;
 
 	class ChallengeTierceStageMonsterDataProvider_Factory : public ::System::Object
 	{

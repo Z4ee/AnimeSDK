@@ -10,29 +10,29 @@ namespace UnityEngine::UI { class ContentSizeFitter; }
 namespace UnityEngine::UI { class HorizontalLayoutGroup; }
 namespace UnityEngine::UI { class Text; }
 
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTSCOREADDCONTROL__CCTOR_OFFSET UNITYSDK_OFFSET(0xCB7B580)
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTSCOREADDCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0xCB7B550)
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTSCOREADDCONTROL__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0xCB7B100)
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTSCOREADDCONTROL__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0xCB7B000)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTSCOREADDCONTROL__CCTOR_OFFSET UNITYSDK_OFFSET(0xCACA9A0)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTSCOREADDCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0xCACA970)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTSCOREADDCONTROL__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0xCACA520)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTSCOREADDCONTROL__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0xCACA420)
 
 namespace RPG::Client::ChenLingFes
 {
-	inline static constexpr unsigned int ChenLingFesToastScoreAddControl_TypeDefinitionIndex = 80033;
+	inline static constexpr unsigned int ChenLingFesToastScoreAddControl_TypeDefinitionIndex = 81361;
 
 	class ChenLingFesToastScoreAddControl : public ::RPG::Client::ChenLingFes::ChenLingFesToastItemControl
 	{
 	public:
 		static ::UnityEngine::Color* StaticGet__NumInitialColor()
 		{
-			return (::UnityEngine::Color*)Il2CppClass::FromTypeDefinitionIndex(ChenLingFesToastScoreAddControl_TypeDefinitionIndex)->GetStaticField(0xE7D0);
+			return (::UnityEngine::Color*)Il2CppClass::FromTypeDefinitionIndex(ChenLingFesToastScoreAddControl_TypeDefinitionIndex)->GetStaticField(0x157F0);
 		}
 		// static const ::System::String* PREFAB_PATH; // 0x0
 		// static const ::System::Single Duration; // 0x0
-		::UnityEngine::UI::Text* _Text; // 0x50
-		::UnityEngine::Animation* _Animation; // 0x58
-		::UnityEngine::UI::ContentSizeFitter* _ContentSizeFitter; // 0x60
-		::UnityEngine::UI::HorizontalLayoutGroup* _HorizontalLayoutGroup; // 0x68
-		::UnityEngine::RectTransform* _ContentRect; // 0x70
+		::UnityEngine::UI::Text* _Text; // 0x58
+		::UnityEngine::Animation* _Animation; // 0x60
+		::UnityEngine::UI::ContentSizeFitter* _ContentSizeFitter; // 0x68
+		::UnityEngine::UI::HorizontalLayoutGroup* _HorizontalLayoutGroup; // 0x70
+		::UnityEngine::RectTransform* _ContentRect; // 0x78
 
 		::System::Void _ctor()
 		{

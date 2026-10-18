@@ -13,19 +13,20 @@ namespace RPG::GameCore { class AttackDamageTypeConfig; }
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class HitMotionParams; }
+namespace RPG::GameCore { class HitTargetTimeSlowConfig; }
 namespace RPG::GameCore { class JsonEnum; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ATTACKDATA_METHOD_2_7E9645886120E859_OFFSET UNITYSDK_OFFSET(0x1CE2CCC0)
-#define RPG_GAMECORE_ATTACKDATA_METHOD_2_9F0425A182D9ECC3_OFFSET UNITYSDK_OFFSET(0x1CE2D1A0)
-#define RPG_GAMECORE_ATTACKDATA_SHAREBYCOPY_OFFSET UNITYSDK_OFFSET(0x1CE2E3C0)
-#define RPG_GAMECORE_ATTACKDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE2CE00)
+#define RPG_GAMECORE_ATTACKDATA_METHOD_2_7E9645886120E859_OFFSET UNITYSDK_OFFSET(0x1D403030)
+#define RPG_GAMECORE_ATTACKDATA_METHOD_2_9F0425A182D9ECC3_OFFSET UNITYSDK_OFFSET(0x1D403510)
+#define RPG_GAMECORE_ATTACKDATA_SHAREBYCOPY_OFFSET UNITYSDK_OFFSET(0x1D404760)
+#define RPG_GAMECORE_ATTACKDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1D403170)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AttackData_TypeDefinitionIndex = 22341;
+	inline static constexpr unsigned int AttackData_TypeDefinitionIndex = 22593;
 
 	class AttackData : public ::RPG::GameCore::JsonConfig
 	{
@@ -77,11 +78,12 @@ namespace RPG::GameCore
 		::RPG::GameCore::TargetEvaluator* HitSource; // 0x120
 		::System::Boolean TriggerHPBarAnimation; // 0x128
 		::System::Boolean ScreenSpaceFloatMsg; // 0x129
-		::RPG::GameCore::TargetEvaluator* InheritTargetType; // 0x130
-		::System::Boolean InheritDamageType; // 0x138
-		::System::Boolean InheritHitEffect; // 0x139
-		::System::Boolean InheritHitAnimation; // 0x13A
-		::System::Boolean InheritHitPos; // 0x13B
+		::RPG::GameCore::HitTargetTimeSlowConfig* HitTargetTimeSlow; // 0x130
+		::RPG::GameCore::TargetEvaluator* InheritTargetType; // 0x138
+		::System::Boolean InheritDamageType; // 0x140
+		::System::Boolean InheritHitEffect; // 0x141
+		::System::Boolean InheritHitAnimation; // 0x142
+		::System::Boolean InheritHitPos; // 0x143
 
 		::System::Void _ctor()
 		{

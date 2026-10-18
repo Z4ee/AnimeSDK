@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CameraDecalRaycast_DecalResultState_TypeDefinitionIndex = 63139;
+	inline static constexpr unsigned int CameraDecalRaycast_DecalResultState_TypeDefinitionIndex = 63072;
 
 	enum class CameraDecalRaycast_DecalResultState : ::System::Int32
 	{

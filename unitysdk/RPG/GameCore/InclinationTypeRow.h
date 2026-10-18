@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_INCLINATIONTYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D1A9F60)
-#define RPG_GAMECORE_INCLINATIONTYPEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1AA020)
+#define RPG_GAMECORE_INCLINATIONTYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D785CA0)
+#define RPG_GAMECORE_INCLINATIONTYPEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D785D60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int InclinationTypeRow_TypeDefinitionIndex = 13700;
+	inline static constexpr unsigned int InclinationTypeRow_TypeDefinitionIndex = 13807;
 
 	class InclinationTypeRow : public ::System::Object
 	{

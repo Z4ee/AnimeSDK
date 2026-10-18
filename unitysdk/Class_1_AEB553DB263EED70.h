@@ -5,9 +5,9 @@
 
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define CLASS_1_AEB553DB263EED70__CTOR_OFFSET UNITYSDK_OFFSET(0x1C7F6BE0)
+#define CLASS_1_AEB553DB263EED70__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD8CDB0)
 
-inline static constexpr unsigned int Class_1_AEB553DB263EED70_TypeDefinitionIndex = 10361;
+inline static constexpr unsigned int Class_1_AEB553DB263EED70_TypeDefinitionIndex = 10376;
 
 class Class_1_AEB553DB263EED70 : public ::System::Object
 {

@@ -7,11 +7,11 @@ namespace System { class String; }
 namespace UnityEngine { class MaterialAnimationBinding; }
 namespace UnityEngine { class Renderer; }
 
-#define RPG_CLIENT_MATERIALANIMATIONBINDINGSYNCBEHAVIOR_SYNCCHANNEL__CTOR_OFFSET UNITYSDK_OFFSET(0xD678C20)
+#define RPG_CLIENT_MATERIALANIMATIONBINDINGSYNCBEHAVIOR_SYNCCHANNEL__CTOR_OFFSET UNITYSDK_OFFSET(0xD5D2610)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MaterialAnimationBindingSyncBehavior_SyncChannel_TypeDefinitionIndex = 70256;
+	inline static constexpr unsigned int MaterialAnimationBindingSyncBehavior_SyncChannel_TypeDefinitionIndex = 70292;
 
 	class MaterialAnimationBindingSyncBehavior_SyncChannel : public ::System::Object
 	{

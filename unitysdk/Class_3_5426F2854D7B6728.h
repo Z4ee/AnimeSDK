@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AdvNpcMoveTo; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_5426F2854D7B6728_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1631A400)
-#define CLASS_3_5426F2854D7B6728__CTOR_OFFSET UNITYSDK_OFFSET(0x1631A3D0)
+#define CLASS_3_5426F2854D7B6728_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB200430)
+#define CLASS_3_5426F2854D7B6728__CTOR_OFFSET UNITYSDK_OFFSET(0xB200400)
 
-inline static constexpr unsigned int Class_3_5426F2854D7B6728_TypeDefinitionIndex = 52730;
+inline static constexpr unsigned int Class_3_5426F2854D7B6728_TypeDefinitionIndex = 52455;
 
 class Class_3_5426F2854D7B6728 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AdvNpcMoveTo*>
 {

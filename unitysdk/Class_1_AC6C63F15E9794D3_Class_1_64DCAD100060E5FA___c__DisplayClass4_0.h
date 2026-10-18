@@ -8,16 +8,16 @@ namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 namespace System::Collections { class IEnumerator; }
 namespace UnityEngine::Networking { class UnityWebRequest; }
 
-#define CLASS_1_AC6C63F15E9794D3_CLASS_1_64DCAD100060E5FA___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1573D500)
-#define CLASS_1_AC6C63F15E9794D3_CLASS_1_64DCAD100060E5FA___C__DISPLAYCLASS4_0__SEND_G___SEND_0_OFFSET UNITYSDK_OFFSET(0x1573D880)
+#define CLASS_1_AC6C63F15E9794D3_CLASS_1_64DCAD100060E5FA___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15A20CE0)
+#define CLASS_1_AC6C63F15E9794D3_CLASS_1_64DCAD100060E5FA___C__DISPLAYCLASS4_0__SEND_G___SEND_0_OFFSET UNITYSDK_OFFSET(0x15A21060)
 
-inline static constexpr unsigned int Class_1_AC6C63F15E9794D3_Class_1_64DCAD100060E5FA___c__DisplayClass4_0_TypeDefinitionIndex = 69317;
+inline static constexpr unsigned int Class_1_AC6C63F15E9794D3_Class_1_64DCAD100060E5FA___c__DisplayClass4_0_TypeDefinitionIndex = 69353;
 
 class Class_1_AC6C63F15E9794D3_Class_1_64DCAD100060E5FA___c__DisplayClass4_0 : public ::System::Object
 {
 public:
-	::Class_1_AC6C63F15E9794D3* req; // 0x10
-	::UnityEngine::Networking::UnityWebRequest* unityReq; // 0x18
+	::UnityEngine::Networking::UnityWebRequest* unityReq; // 0x10
+	::Class_1_AC6C63F15E9794D3* req; // 0x18
 	::RPG::Client::Promises::Promise_1<::Class_1_296A7AC90F028539*>* promise; // 0x20
 
 	::System::Void _ctor()

@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_21DCD4640D389503_34;
+class Class_1_21DCD4640D389503_42;
 namespace RPG::Client { class AnnounceData; }
 
-#define RPG_CLIENT_OPERATIONMODULE___C__DISPLAYCLASS42_0__CTOR_OFFSET UNITYSDK_OFFSET(0xDA0ABB0)
-#define RPG_CLIENT_OPERATIONMODULE___C__DISPLAYCLASS42_0___ONSERVERANNOUNCENOTIFY_B__0_OFFSET UNITYSDK_OFFSET(0xDA0BE40)
+#define RPG_CLIENT_OPERATIONMODULE___C__DISPLAYCLASS42_0__CTOR_OFFSET UNITYSDK_OFFSET(0xDA14EB0)
+#define RPG_CLIENT_OPERATIONMODULE___C__DISPLAYCLASS42_0___ONSERVERANNOUNCENOTIFY_B__0_OFFSET UNITYSDK_OFFSET(0xDA16140)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int OperationModule___c__DisplayClass42_0_TypeDefinitionIndex = 66450;
+	inline static constexpr unsigned int OperationModule___c__DisplayClass42_0_TypeDefinitionIndex = 66421;
 
 	class OperationModule___c__DisplayClass42_0 : public ::System::Object
 	{
 	public:
-		::Class_1_21DCD4640D389503_34* proto; // 0x10
+		::Class_1_21DCD4640D389503_42* proto; // 0x10
 
 		::System::Void _ctor()
 		{

@@ -5,9 +5,9 @@
 namespace RPG::GameCore { class SetAttachmentScaleForUI; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_4_A1C569C832B0ADDA__CTOR_OFFSET UNITYSDK_OFFSET(0x156354C0)
+#define CLASS_4_A1C569C832B0ADDA__CTOR_OFFSET UNITYSDK_OFFSET(0x15952890)
 
-inline static constexpr unsigned int Class_4_A1C569C832B0ADDA_TypeDefinitionIndex = 56073;
+inline static constexpr unsigned int Class_4_A1C569C832B0ADDA_TypeDefinitionIndex = 55885;
 
 class Class_4_A1C569C832B0ADDA : public ::Class_3_FA4469B9FB916D4B
 {

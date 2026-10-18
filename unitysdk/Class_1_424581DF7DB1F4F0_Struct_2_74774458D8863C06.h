@@ -8,7 +8,7 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-inline static constexpr unsigned int Class_1_424581DF7DB1F4F0_Struct_2_74774458D8863C06_TypeDefinitionIndex = 55198;
+inline static constexpr unsigned int Class_1_424581DF7DB1F4F0_Struct_2_74774458D8863C06_TypeDefinitionIndex = 54991;
 
 struct alignas(8) Class_1_424581DF7DB1F4F0_Struct_2_74774458D8863C06
 {

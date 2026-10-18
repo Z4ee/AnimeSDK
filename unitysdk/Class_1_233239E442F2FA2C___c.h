@@ -6,27 +6,27 @@ namespace RPG::Client { class PlanetFesSkill; }
 namespace RPG::Client { class PlanetFesSkillPhase; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define CLASS_1_233239E442F2FA2C___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15BC1440)
-#define CLASS_1_233239E442F2FA2C___C__CREATEPHASESKILLS_B__1_0_OFFSET UNITYSDK_OFFSET(0x15BC14B0)
-#define CLASS_1_233239E442F2FA2C___C__CREATEPHASES_B__0_0_OFFSET UNITYSDK_OFFSET(0x15BC1480)
-#define CLASS_1_233239E442F2FA2C___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15BC1470)
+#define CLASS_1_233239E442F2FA2C___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15F26F10)
+#define CLASS_1_233239E442F2FA2C___C__CREATEPHASESKILLS_B__1_0_OFFSET UNITYSDK_OFFSET(0x15F26F80)
+#define CLASS_1_233239E442F2FA2C___C__CREATEPHASES_B__0_0_OFFSET UNITYSDK_OFFSET(0x15F26F50)
+#define CLASS_1_233239E442F2FA2C___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15F26F40)
 
-inline static constexpr unsigned int Class_1_233239E442F2FA2C___c_TypeDefinitionIndex = 66668;
+inline static constexpr unsigned int Class_1_233239E442F2FA2C___c_TypeDefinitionIndex = 66636;
 
 class Class_1_233239E442F2FA2C___c : public ::System::Object
 {
 public:
 	static ::System::Comparison_1<::RPG::Client::PlanetFesSkill*>** StaticGet___9__1_0()
 	{
-		return (::System::Comparison_1<::RPG::Client::PlanetFesSkill*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_233239E442F2FA2C___c_TypeDefinitionIndex)->GetStaticField(0x651A0);
+		return (::System::Comparison_1<::RPG::Client::PlanetFesSkill*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_233239E442F2FA2C___c_TypeDefinitionIndex)->GetStaticField(0x58240);
 	}
 	static ::Class_1_233239E442F2FA2C___c** StaticGet___9()
 	{
-		return (::Class_1_233239E442F2FA2C___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_233239E442F2FA2C___c_TypeDefinitionIndex)->GetStaticField(0x651A8);
+		return (::Class_1_233239E442F2FA2C___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_233239E442F2FA2C___c_TypeDefinitionIndex)->GetStaticField(0x58248);
 	}
 	static ::System::Comparison_1<::RPG::Client::PlanetFesSkillPhase*>** StaticGet___9__0_0()
 	{
-		return (::System::Comparison_1<::RPG::Client::PlanetFesSkillPhase*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_233239E442F2FA2C___c_TypeDefinitionIndex)->GetStaticField(0x651B0);
+		return (::System::Comparison_1<::RPG::Client::PlanetFesSkillPhase*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_233239E442F2FA2C___c_TypeDefinitionIndex)->GetStaticField(0x58250);
 	}
 
 	static ::System::Void _cctor()

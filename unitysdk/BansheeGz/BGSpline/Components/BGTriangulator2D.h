@@ -10,43 +10,43 @@ namespace BansheeGz::BGSpline::Components { class BGTriangulator2D_Config; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Mesh; }
 
-#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGTRIANGULATOR2D_AREA_OFFSET UNITYSDK_OFFSET(0x1BFF0D70)
-#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGTRIANGULATOR2D_BIND_1_OFFSET UNITYSDK_OFFSET(0x1BFF08D0)
-#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGTRIANGULATOR2D_BIND_2_OFFSET UNITYSDK_OFFSET(0x1BFF0B60)
-#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGTRIANGULATOR2D_BIND_OFFSET UNITYSDK_OFFSET(0x1BFE8AF0)
-#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGTRIANGULATOR2D_CLEAR_OFFSET UNITYSDK_OFFSET(0x1BFF02B0)
-#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGTRIANGULATOR2D_INSIDETRIANGLE_OFFSET UNITYSDK_OFFSET(0x1BFF11D0)
-#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGTRIANGULATOR2D_SNIP_OFFSET UNITYSDK_OFFSET(0x1BFF0E60)
-#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGTRIANGULATOR2D_TRIANGULATE_OFFSET UNITYSDK_OFFSET(0x1BFF03A0)
-#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGTRIANGULATOR2D__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BFF12B0)
-#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGTRIANGULATOR2D__CTOR_OFFSET UNITYSDK_OFFSET(0x1BFE8AB0)
+#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGTRIANGULATOR2D_AREA_OFFSET UNITYSDK_OFFSET(0x1C4FE0E0)
+#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGTRIANGULATOR2D_BIND_1_OFFSET UNITYSDK_OFFSET(0x1C4FDC40)
+#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGTRIANGULATOR2D_BIND_2_OFFSET UNITYSDK_OFFSET(0x1C4FDED0)
+#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGTRIANGULATOR2D_BIND_OFFSET UNITYSDK_OFFSET(0x1C4F5DC0)
+#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGTRIANGULATOR2D_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C4FD620)
+#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGTRIANGULATOR2D_INSIDETRIANGLE_OFFSET UNITYSDK_OFFSET(0x1C4FE540)
+#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGTRIANGULATOR2D_SNIP_OFFSET UNITYSDK_OFFSET(0x1C4FE1D0)
+#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGTRIANGULATOR2D_TRIANGULATE_OFFSET UNITYSDK_OFFSET(0x1C4FD710)
+#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGTRIANGULATOR2D__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C4FE620)
+#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGTRIANGULATOR2D__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4F5D80)
 
 namespace BansheeGz::BGSpline::Components
 {
-	inline static constexpr unsigned int BGTriangulator2D_TypeDefinitionIndex = 35384;
+	inline static constexpr unsigned int BGTriangulator2D_TypeDefinitionIndex = 36071;
 
 	class BGTriangulator2D : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::List_1<::System::Int32>** StaticGet_V()
+		static ::System::Collections::Generic::List_1<::UnityEngine::Vector2>** StaticGet_Uvs()
 		{
-			return (::System::Collections::Generic::List_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(BGTriangulator2D_TypeDefinitionIndex)->GetStaticField(0x63A40);
+			return (::System::Collections::Generic::List_1<::UnityEngine::Vector2>**)Il2CppClass::FromTypeDefinitionIndex(BGTriangulator2D_TypeDefinitionIndex)->GetStaticField(0x53CB0);
 		}
 		static ::System::Collections::Generic::List_1<::UnityEngine::Vector2>** StaticGet_Points()
 		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::Vector2>**)Il2CppClass::FromTypeDefinitionIndex(BGTriangulator2D_TypeDefinitionIndex)->GetStaticField(0x63A48);
+			return (::System::Collections::Generic::List_1<::UnityEngine::Vector2>**)Il2CppClass::FromTypeDefinitionIndex(BGTriangulator2D_TypeDefinitionIndex)->GetStaticField(0x53CB8);
 		}
-		static ::System::Collections::Generic::List_1<::UnityEngine::Vector2>** StaticGet_Uvs()
+		static ::System::Collections::Generic::List_1<::System::Int32>** StaticGet_V()
 		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::Vector2>**)Il2CppClass::FromTypeDefinitionIndex(BGTriangulator2D_TypeDefinitionIndex)->GetStaticField(0x63A50);
+			return (::System::Collections::Generic::List_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(BGTriangulator2D_TypeDefinitionIndex)->GetStaticField(0x53CC0);
 		}
 		static ::System::Collections::Generic::List_1<::System::Int32>** StaticGet_Triangles()
 		{
-			return (::System::Collections::Generic::List_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(BGTriangulator2D_TypeDefinitionIndex)->GetStaticField(0x63A58);
+			return (::System::Collections::Generic::List_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(BGTriangulator2D_TypeDefinitionIndex)->GetStaticField(0x53CC8);
 		}
 		static ::System::Collections::Generic::List_1<::UnityEngine::Vector3>** StaticGet_Vertices()
 		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::Vector3>**)Il2CppClass::FromTypeDefinitionIndex(BGTriangulator2D_TypeDefinitionIndex)->GetStaticField(0x63A60);
+			return (::System::Collections::Generic::List_1<::UnityEngine::Vector3>**)Il2CppClass::FromTypeDefinitionIndex(BGTriangulator2D_TypeDefinitionIndex)->GetStaticField(0x53CD0);
 		}
 		// static const ::System::Single MinUvScale; // 0x0
 		// static const ::System::Single MaxUvScale; // 0x0

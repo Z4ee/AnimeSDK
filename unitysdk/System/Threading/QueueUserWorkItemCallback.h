@@ -8,11 +8,11 @@ namespace System::Threading { class ExecutionContext; }
 namespace System::Threading { class ThreadAbortException; }
 namespace System::Threading { class WaitCallback; }
 
-#define SYSTEM_THREADING_QUEUEUSERWORKITEMCALLBACK_SYSTEM_THREADING_ITHREADPOOLWORKITEM_EXECUTEWORKITEM_OFFSET UNITYSDK_OFFSET(0x1BC3DA40)
-#define SYSTEM_THREADING_QUEUEUSERWORKITEMCALLBACK_SYSTEM_THREADING_ITHREADPOOLWORKITEM_MARKABORTED_OFFSET UNITYSDK_OFFSET(0x1BC3DAF0)
-#define SYSTEM_THREADING_QUEUEUSERWORKITEMCALLBACK_WAITCALLBACK_CONTEXT_OFFSET UNITYSDK_OFFSET(0x1BC3DB00)
-#define SYSTEM_THREADING_QUEUEUSERWORKITEMCALLBACK__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BC3D900)
-#define SYSTEM_THREADING_QUEUEUSERWORKITEMCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC3D960)
+#define SYSTEM_THREADING_QUEUEUSERWORKITEMCALLBACK_SYSTEM_THREADING_ITHREADPOOLWORKITEM_EXECUTEWORKITEM_OFFSET UNITYSDK_OFFSET(0x1C149B30)
+#define SYSTEM_THREADING_QUEUEUSERWORKITEMCALLBACK_SYSTEM_THREADING_ITHREADPOOLWORKITEM_MARKABORTED_OFFSET UNITYSDK_OFFSET(0x1C149BE0)
+#define SYSTEM_THREADING_QUEUEUSERWORKITEMCALLBACK_WAITCALLBACK_CONTEXT_OFFSET UNITYSDK_OFFSET(0x1C149BF0)
+#define SYSTEM_THREADING_QUEUEUSERWORKITEMCALLBACK__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C1499F0)
+#define SYSTEM_THREADING_QUEUEUSERWORKITEMCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1C149A50)
 
 namespace System::Threading
 {
@@ -23,11 +23,11 @@ namespace System::Threading
 	public:
 		static ::System::Threading::ContextCallback** StaticGet_ccb()
 		{
-			return (::System::Threading::ContextCallback**)Il2CppClass::FromTypeDefinitionIndex(QueueUserWorkItemCallback_TypeDefinitionIndex)->GetStaticField(0x12EC0);
+			return (::System::Threading::ContextCallback**)Il2CppClass::FromTypeDefinitionIndex(QueueUserWorkItemCallback_TypeDefinitionIndex)->GetStaticField(0x1FCB0);
 		}
-		::System::Threading::ExecutionContext* context; // 0x10
-		::System::Object* state; // 0x18
-		::System::Threading::WaitCallback* callback; // 0x20
+		::System::Threading::WaitCallback* callback; // 0x10
+		::System::Threading::ExecutionContext* context; // 0x18
+		::System::Object* state; // 0x20
 
 		static ::System::Void _cctor()
 		{

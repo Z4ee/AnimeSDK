@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/RogueTournHandbookDataCollection_2.h"
 
-class Class_1_D17272E82AE804C2_1050;
+class Class_1_D17272E82AE804C2_1078;
 namespace Google::Protobuf::Collections { template <typename T> class RepeatedField_1; }
 namespace RPG::Client { class RogueTournHandbookTitanBlessDataItem; }
 
-#define RPG_CLIENT_ROGUETOURNHANDBOOKTITANBLESSCOLLECTION_ISTITANBLESSHANDBOOKLOCKED_OFFSET UNITYSDK_OFFSET(0xDF61000)
-#define RPG_CLIENT_ROGUETOURNHANDBOOKTITANBLESSCOLLECTION_SYNCUNLOCKEDIDS_OFFSET UNITYSDK_OFFSET(0xDF60AC0)
-#define RPG_CLIENT_ROGUETOURNHANDBOOKTITANBLESSCOLLECTION_SYNCUNLOCKEDID_OFFSET UNITYSDK_OFFSET(0xDF60F70)
-#define RPG_CLIENT_ROGUETOURNHANDBOOKTITANBLESSCOLLECTION__CTOR_OFFSET UNITYSDK_OFFSET(0xDF610E0)
+#define RPG_CLIENT_ROGUETOURNHANDBOOKTITANBLESSCOLLECTION_ISTITANBLESSHANDBOOKLOCKED_OFFSET UNITYSDK_OFFSET(0xDFF7A50)
+#define RPG_CLIENT_ROGUETOURNHANDBOOKTITANBLESSCOLLECTION_SYNCUNLOCKEDIDS_OFFSET UNITYSDK_OFFSET(0xDFF7510)
+#define RPG_CLIENT_ROGUETOURNHANDBOOKTITANBLESSCOLLECTION_SYNCUNLOCKEDID_OFFSET UNITYSDK_OFFSET(0xDFF79C0)
+#define RPG_CLIENT_ROGUETOURNHANDBOOKTITANBLESSCOLLECTION__CTOR_OFFSET UNITYSDK_OFFSET(0xDFF7B30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournHandbookTitanBlessCollection_TypeDefinitionIndex = 67657;
+	inline static constexpr unsigned int RogueTournHandbookTitanBlessCollection_TypeDefinitionIndex = 67659;
 
 	class RogueTournHandbookTitanBlessCollection : public ::RPG::Client::RogueTournHandbookDataCollection_2<::System::UInt32, ::RPG::Client::RogueTournHandbookTitanBlessDataItem*>
 	{
@@ -28,9 +28,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNHANDBOOKTITANBLESSCOLLECTION_SYNCUNLOCKEDIDS_OFFSET))(this, a1);
 		}
 
-		::System::Void SyncUnlockedID(::Class_1_D17272E82AE804C2_1050* a1)
+		::System::Void SyncUnlockedID(::Class_1_D17272E82AE804C2_1078* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_D17272E82AE804C2_1050*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNHANDBOOKTITANBLESSCOLLECTION_SYNCUNLOCKEDID_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Class_1_D17272E82AE804C2_1078*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNHANDBOOKTITANBLESSCOLLECTION_SYNCUNLOCKEDID_OFFSET))(this, a1);
 		}
 
 		::System::Boolean IsTitanBlessHandbookLocked(::System::UInt32 a1)

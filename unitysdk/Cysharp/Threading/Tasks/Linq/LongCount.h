@@ -10,7 +10,7 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int LongCount_TypeDefinitionIndex = 44276;
+	inline static constexpr unsigned int LongCount_TypeDefinitionIndex = 45415;
 
 	class LongCount : public ::System::Object
 	{

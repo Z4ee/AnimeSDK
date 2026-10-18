@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int AreaFedeGroup_AreaFadeMode_TypeDefinitionIndex = 47800;
+inline static constexpr unsigned int AreaFedeGroup_AreaFadeMode_TypeDefinitionIndex = 47340;
 
 enum class AreaFedeGroup_AreaFadeMode : ::System::Int32
 {

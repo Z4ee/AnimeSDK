@@ -5,22 +5,22 @@
 namespace RVO { class Simulator; }
 namespace System::Threading { class ManualResetEvent; }
 
-#define RVO_SIMULATOR_WORKER_STEP_OFFSET UNITYSDK_OFFSET(0xB2F7AA0)
-#define RVO_SIMULATOR_WORKER_UPDATERANGE_OFFSET UNITYSDK_OFFSET(0xB2F7A90)
-#define RVO_SIMULATOR_WORKER_UPDATE_OFFSET UNITYSDK_OFFSET(0xB2F7DA0)
-#define RVO_SIMULATOR_WORKER__CTOR_OFFSET UNITYSDK_OFFSET(0xB2F69C0)
+#define RVO_SIMULATOR_WORKER_STEP_OFFSET UNITYSDK_OFFSET(0xB097A50)
+#define RVO_SIMULATOR_WORKER_UPDATERANGE_OFFSET UNITYSDK_OFFSET(0xB097A40)
+#define RVO_SIMULATOR_WORKER_UPDATE_OFFSET UNITYSDK_OFFSET(0xB097D50)
+#define RVO_SIMULATOR_WORKER__CTOR_OFFSET UNITYSDK_OFFSET(0xB096970)
 
 namespace RVO
 {
-	inline static constexpr unsigned int Simulator_Worker_TypeDefinitionIndex = 44902;
+	inline static constexpr unsigned int Simulator_Worker_TypeDefinitionIndex = 46041;
 
 	class Simulator_Worker : public ::System::Object
 	{
 	public:
 		::RVO::Simulator* _simulator; // 0x10
 		::System::Threading::ManualResetEvent* doneEvent_; // 0x18
-		::System::Int32 end_; // 0x20
-		::System::Int32 start_; // 0x24
+		::System::Int32 start_; // 0x20
+		::System::Int32 end_; // 0x24
 
 		::System::Void _ctor(::RVO::Simulator* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Threading::ManualResetEvent* a4)
 		{

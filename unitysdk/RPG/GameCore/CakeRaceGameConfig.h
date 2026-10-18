@@ -20,13 +20,13 @@ namespace RPG::GameCore { class CakeRaceTrapCellConfig; }
 namespace RPG::GameCore { class CakeRaceTutorialConfig; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_CAKERACEGAMECONFIG_METHOD_3_BD63F315F5199764_OFFSET UNITYSDK_OFFSET(0x1CF75DE0)
-#define RPG_GAMECORE_CAKERACEGAMECONFIG_METHOD_3_DB075875CDE76E37_OFFSET UNITYSDK_OFFSET(0x1CF75DA0)
-#define RPG_GAMECORE_CAKERACEGAMECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF75DD0)
+#define RPG_GAMECORE_CAKERACEGAMECONFIG_METHOD_3_BD63F315F5199764_OFFSET UNITYSDK_OFFSET(0x1D54F810)
+#define RPG_GAMECORE_CAKERACEGAMECONFIG_METHOD_3_DB075875CDE76E37_OFFSET UNITYSDK_OFFSET(0x1D54F7D0)
+#define RPG_GAMECORE_CAKERACEGAMECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D54F800)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CakeRaceGameConfig_TypeDefinitionIndex = 18182;
+	inline static constexpr unsigned int CakeRaceGameConfig_TypeDefinitionIndex = 18397;
 
 	class CakeRaceGameConfig : public ::RPG::GameCore::LittleGameConstConfig
 	{

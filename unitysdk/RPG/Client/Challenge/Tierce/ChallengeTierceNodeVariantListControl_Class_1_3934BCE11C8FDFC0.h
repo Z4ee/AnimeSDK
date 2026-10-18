@@ -6,19 +6,19 @@ namespace RPG::Client::Challenge::Tierce { class ChallengeTierceNodeVariantListC
 namespace System { template <typename T> class Func_1; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCENODEVARIANTLISTCONTROL_CLASS_1_3934BCE11C8FDFC0_GET_BINDITEM_OFFSET UNITYSDK_OFFSET(0xC9FF090)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCENODEVARIANTLISTCONTROL_CLASS_1_3934BCE11C8FDFC0_GET_CREATEITEM_OFFSET UNITYSDK_OFFSET(0xC9FF080)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCENODEVARIANTLISTCONTROL_CLASS_1_3934BCE11C8FDFC0__CTOR_OFFSET UNITYSDK_OFFSET(0xC9FEF00)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCENODEVARIANTLISTCONTROL_CLASS_1_3934BCE11C8FDFC0_GET_BINDITEM_OFFSET UNITYSDK_OFFSET(0xC94D710)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCENODEVARIANTLISTCONTROL_CLASS_1_3934BCE11C8FDFC0_GET_CREATEITEM_OFFSET UNITYSDK_OFFSET(0xC94D700)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCENODEVARIANTLISTCONTROL_CLASS_1_3934BCE11C8FDFC0__CTOR_OFFSET UNITYSDK_OFFSET(0xC94D580)
 
 namespace RPG::Client::Challenge::Tierce
 {
-	inline static constexpr unsigned int ChallengeTierceNodeVariantListControl_Class_1_3934BCE11C8FDFC0_TypeDefinitionIndex = 80201;
+	inline static constexpr unsigned int ChallengeTierceNodeVariantListControl_Class_1_3934BCE11C8FDFC0_TypeDefinitionIndex = 81529;
 
 	class ChallengeTierceNodeVariantListControl_Class_1_3934BCE11C8FDFC0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::Challenge::Tierce::ChallengeTierceNodeVariantListControl_Class_1_3934BCE11C8FDFC0_Class_3_B01F7166D09AE766* _BindItem_k__BackingField; // 0x10
-		::System::Func_1<::UnityEngine::GameObject*>* _CreateItem_k__BackingField; // 0x18
+		::System::Func_1<::UnityEngine::GameObject*>* _CreateItem_k__BackingField; // 0x10
+		::RPG::Client::Challenge::Tierce::ChallengeTierceNodeVariantListControl_Class_1_3934BCE11C8FDFC0_Class_3_B01F7166D09AE766* _BindItem_k__BackingField; // 0x18
 		::System::Int32 LINLNNHIBAK; // 0x20
 
 		::System::Void _ctor(::System::Int32 a1, ::System::Func_1<::UnityEngine::GameObject*>* a2, ::RPG::Client::Challenge::Tierce::ChallengeTierceNodeVariantListControl_Class_1_3934BCE11C8FDFC0_Class_3_B01F7166D09AE766* a3)

@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ParticleCanvasPass_TypeDefinitionIndex = 6013;
+	inline static constexpr unsigned int ParticleCanvasPass_TypeDefinitionIndex = 6021;
 
 	enum class ParticleCanvasPass : ::System::Byte
 	{

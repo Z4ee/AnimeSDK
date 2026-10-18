@@ -4,10 +4,10 @@
 
 namespace RPG::GameCore { class LevelLittleGameInfo; }
 
-#define CLASS_1_0EBC16C905C2529D___C__DISPLAYCLASS10_0__CREATE_B__0_OFFSET UNITYSDK_OFFSET(0xC342780)
-#define CLASS_1_0EBC16C905C2529D___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC342100)
+#define CLASS_1_0EBC16C905C2529D___C__DISPLAYCLASS10_0__CREATE_B__0_OFFSET UNITYSDK_OFFSET(0xC236730)
+#define CLASS_1_0EBC16C905C2529D___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC2360D0)
 
-inline static constexpr unsigned int Class_1_0EBC16C905C2529D___c__DisplayClass10_0_TypeDefinitionIndex = 64269;
+inline static constexpr unsigned int Class_1_0EBC16C905C2529D___c__DisplayClass10_0_TypeDefinitionIndex = 64207;
 
 class Class_1_0EBC16C905C2529D___c__DisplayClass10_0 : public ::System::Object
 {

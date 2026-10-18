@@ -7,24 +7,24 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define CLASS_3_093A56B63C637072_METHOD_3_B291FB5C41D58000_OFFSET UNITYSDK_OFFSET(0x1C84BF70)
-#define CLASS_3_093A56B63C637072_METHOD_3_F32CA7BD1D486055_OFFSET UNITYSDK_OFFSET(0x1C84BF00)
-#define CLASS_3_093A56B63C637072__CTOR_OFFSET UNITYSDK_OFFSET(0x1C84BF50)
+#define CLASS_3_093A56B63C637072_METHOD_3_B291FB5C41D58000_OFFSET UNITYSDK_OFFSET(0x1CDE4550)
+#define CLASS_3_093A56B63C637072_METHOD_3_F32CA7BD1D486055_OFFSET UNITYSDK_OFFSET(0x1CDE44E0)
+#define CLASS_3_093A56B63C637072__CTOR_OFFSET UNITYSDK_OFFSET(0x1CDE4530)
 
-inline static constexpr unsigned int Class_3_093A56B63C637072_TypeDefinitionIndex = 21247;
+inline static constexpr unsigned int Class_3_093A56B63C637072_TypeDefinitionIndex = 21493;
 
 class Class_3_093A56B63C637072 : public ::RPG::GameCore::TaskConfig
 {
 public:
 	::System::String* CDMFNHJGGKF; // 0x18
-	::System::Single KFLFCJLBCBC; // 0x20
-	::System::Boolean FIKBKDJAFON; // 0x24
-	::System::Boolean IOBJFEJFLJP; // 0x25
-	::System::Single JGNDPDFEBBO; // 0x28
-	::RPG::GameCore::PPEffectFilterPriority NALMBOOCCIN; // 0x2C
-	::System::Single IIPKCANDFBK; // 0x30
-	::System::Single IEHPFADHJFD; // 0x34
-	::RPG::GameCore::PPEffectFilterPriorityGroup OMJNGMHJPBD; // 0x38
+	::System::Boolean FIKBKDJAFON; // 0x20
+	::System::Boolean IOBJFEJFLJP; // 0x21
+	::System::Single IEHPFADHJFD; // 0x24
+	::RPG::GameCore::PPEffectFilterPriority NALMBOOCCIN; // 0x28
+	::System::Single IIPKCANDFBK; // 0x2C
+	::System::Single KFLFCJLBCBC; // 0x30
+	::RPG::GameCore::PPEffectFilterPriorityGroup OMJNGMHJPBD; // 0x34
+	::System::Single JGNDPDFEBBO; // 0x38
 
 	::System::Void _ctor()
 	{

@@ -13,60 +13,60 @@ namespace UnityEngine { class Collider; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_CAMERADECALRAYCAST_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC9E57F0)
-#define RPG_CLIENT_CAMERADECALRAYCAST_GETDEPTHSAMPLE_OFFSET UNITYSDK_OFFSET(0xC9E7FD0)
-#define RPG_CLIENT_CAMERADECALRAYCAST_GETHITGAMEOBJECTARRAYCOPY_OFFSET UNITYSDK_OFFSET(0xC9E7640)
-#define RPG_CLIENT_CAMERADECALRAYCAST_GETREFPOINTS_OFFSET UNITYSDK_OFFSET(0xC9E76C0)
-#define RPG_CLIENT_CAMERADECALRAYCAST_GETSAMPLEUVS_OFFSET UNITYSDK_OFFSET(0xC9E7700)
-#define RPG_CLIENT_CAMERADECALRAYCAST_RESET_OFFSET UNITYSDK_OFFSET(0xC9E55F0)
-#define RPG_CLIENT_CAMERADECALRAYCAST_TRYGETDECALPOSANDDIR_OFFSET UNITYSDK_OFFSET(0xC9E58A0)
-#define RPG_CLIENT_CAMERADECALRAYCAST__CALDEPTHVARSUM_OFFSET UNITYSDK_OFFSET(0xC9E64E0)
-#define RPG_CLIENT_CAMERADECALRAYCAST__CCTOR_OFFSET UNITYSDK_OFFSET(0xC9E83C0)
-#define RPG_CLIENT_CAMERADECALRAYCAST__CTOR_OFFSET UNITYSDK_OFFSET(0xC9E8370)
-#define RPG_CLIENT_CAMERADECALRAYCAST__GETEVGCENTERPOS_OFFSET UNITYSDK_OFFSET(0xC9E8010)
-#define RPG_CLIENT_CAMERADECALRAYCAST__GETEVGDECALFORWARD_OFFSET UNITYSDK_OFFSET(0xC9E7420)
+#define RPG_CLIENT_CAMERADECALRAYCAST_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC933620)
+#define RPG_CLIENT_CAMERADECALRAYCAST_GETDEPTHSAMPLE_OFFSET UNITYSDK_OFFSET(0xC935E00)
+#define RPG_CLIENT_CAMERADECALRAYCAST_GETHITGAMEOBJECTARRAYCOPY_OFFSET UNITYSDK_OFFSET(0xC935460)
+#define RPG_CLIENT_CAMERADECALRAYCAST_GETREFPOINTS_OFFSET UNITYSDK_OFFSET(0xC9354E0)
+#define RPG_CLIENT_CAMERADECALRAYCAST_GETSAMPLEUVS_OFFSET UNITYSDK_OFFSET(0xC935520)
+#define RPG_CLIENT_CAMERADECALRAYCAST_RESET_OFFSET UNITYSDK_OFFSET(0xC933420)
+#define RPG_CLIENT_CAMERADECALRAYCAST_TRYGETDECALPOSANDDIR_OFFSET UNITYSDK_OFFSET(0xC9336C0)
+#define RPG_CLIENT_CAMERADECALRAYCAST__CALDEPTHVARSUM_OFFSET UNITYSDK_OFFSET(0xC934300)
+#define RPG_CLIENT_CAMERADECALRAYCAST__CCTOR_OFFSET UNITYSDK_OFFSET(0xC9361E0)
+#define RPG_CLIENT_CAMERADECALRAYCAST__CTOR_OFFSET UNITYSDK_OFFSET(0xC9361A0)
+#define RPG_CLIENT_CAMERADECALRAYCAST__GETEVGCENTERPOS_OFFSET UNITYSDK_OFFSET(0xC935E40)
+#define RPG_CLIENT_CAMERADECALRAYCAST__GETEVGDECALFORWARD_OFFSET UNITYSDK_OFFSET(0xC935240)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CameraDecalRaycast_TypeDefinitionIndex = 63138;
+	inline static constexpr unsigned int CameraDecalRaycast_TypeDefinitionIndex = 63071;
 
 	class CameraDecalRaycast : public ::System::Object
 	{
 	public:
 		static ::System::Int32* StaticGet_DECAL_CENTER_DEPTH_SAMPLE_COUNT()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CameraDecalRaycast_TypeDefinitionIndex)->GetStaticField(0x7A80);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CameraDecalRaycast_TypeDefinitionIndex)->GetStaticField(0x14CA0);
 		}
 		static ::System::Int32* StaticGet_DECAL_CAST_RAY_SAMPLE_SPLIT()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CameraDecalRaycast_TypeDefinitionIndex)->GetStaticField(0x7A84);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CameraDecalRaycast_TypeDefinitionIndex)->GetStaticField(0x14CA4);
 		}
-		::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* _HitGameObjectList; // 0x10
+		::UnityEngine::Collider* HitCollider; // 0x10
 		::Il2CppArray<::UnityEngine::Vector3>* _RefPoints; // 0x18
-		::UnityEngine::Transform* _CameraTargetTrans; // 0x20
-		::UnityEngine::Camera* _TargetCamera; // 0x28
-		::Il2CppArray<::UnityEngine::Vector3>* _HitNormals; // 0x30
-		::UnityEngine::Collider* HitCollider; // 0x38
-		::Il2CppArray<::UnityEngine::Vector3>* _SampleUVs; // 0x40
-		::Il2CppArray<::UnityEngine::Ray>* _DecalRayArray; // 0x48
-		::Il2CppArray<::System::Single>* _DepthVars; // 0x50
+		::Il2CppArray<::UnityEngine::Vector3>* _HitNormals; // 0x20
+		::Il2CppArray<::UnityEngine::Ray>* _DecalRayArray; // 0x28
+		::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* _HitGameObjectList; // 0x30
+		::UnityEngine::Transform* _CameraTargetTrans; // 0x38
+		::Il2CppArray<::System::Single>* _DepthVars; // 0x40
+		::Il2CppArray<::UnityEngine::Vector3>* _SampleUVs; // 0x48
+		::Il2CppArray<::UnityEngine::Vector3>* _HitPoints; // 0x50
 		::Class_1_977C244C3A57E250* _DepthSampleModule; // 0x58
-		::Il2CppArray<::UnityEngine::Vector3>* _HitPoints; // 0x60
-		::System::Single MaxDepthVariance; // 0x68
-		::System::Single DecalWidth; // 0x6C
-		::System::Single MaxDepthTestVariance; // 0x70
-		::UnityEngine::Vector3 DecalForward; // 0x74
-		::System::Boolean CanRayCast; // 0x80
-		::System::Single PI4; // 0x84
-		::System::Single MaxRaycastLength; // 0x88
-		::System::Single DecalHeight; // 0x8C
-		::UnityEngine::Vector3 DecalRight; // 0x90
-		::UnityEngine::Vector3 DecalCenterPos; // 0x9C
-		::UnityEngine::RaycastHit _CenterHit; // 0xA8
-		::RPG::Client::CameraDecalRaycast_DecalResultState ResultState; // 0xD8
-		::System::Int32 _DecalCastRayCount; // 0xDC
-		::System::Single _Sin45; // 0xE0
-		::System::Single DepthBufferSampleRadiusRatio; // 0xE4
+		::UnityEngine::Camera* _TargetCamera; // 0x60
+		::System::Single MaxRaycastLength; // 0x68
+		::System::Single MaxDepthVariance; // 0x6C
+		::System::Single PI4; // 0x70
+		::System::Single DepthBufferSampleRadiusRatio; // 0x74
+		::System::Boolean CanRayCast; // 0x78
+		::System::Single _Sin45; // 0x7C
+		::System::Single DecalWidth; // 0x80
+		::UnityEngine::Vector3 DecalCenterPos; // 0x84
+		::RPG::Client::CameraDecalRaycast_DecalResultState ResultState; // 0x90
+		::UnityEngine::RaycastHit _CenterHit; // 0x94
+		::System::Int32 _DecalCastRayCount; // 0xC4
+		::UnityEngine::Vector3 DecalForward; // 0xC8
+		::System::Single DecalHeight; // 0xD4
+		::UnityEngine::Vector3 DecalRight; // 0xD8
+		::System::Single MaxDepthTestVariance; // 0xE4
 
 		::System::Void _ctor()
 		{

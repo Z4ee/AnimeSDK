@@ -9,13 +9,13 @@ namespace RPG::GameCore { class AdventureCharacterFloatingConfig; }
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_CHARACTERFLOATINGCONFIGCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE82A1D0)
-#define RPGTOOLS_TIMELINE_CHARACTERFLOATINGCONFIGCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE82A350)
-#define RPGTOOLS_TIMELINE_CHARACTERFLOATINGCONFIGCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xE82A360)
+#define RPGTOOLS_TIMELINE_CHARACTERFLOATINGCONFIGCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8C7FA0)
+#define RPGTOOLS_TIMELINE_CHARACTERFLOATINGCONFIGCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE8C8120)
+#define RPGTOOLS_TIMELINE_CHARACTERFLOATINGCONFIGCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xE8C8130)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int CharacterFloatingConfigClip_TypeDefinitionIndex = 48412;
+	inline static constexpr unsigned int CharacterFloatingConfigClip_TypeDefinitionIndex = 47952;
 
 	class CharacterFloatingConfigClip : public ::UnityEngine::Playables::PlayableAsset
 	{

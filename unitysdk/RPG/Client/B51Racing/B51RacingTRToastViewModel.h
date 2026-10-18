@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_B51RACING_B51RACINGTRTOASTVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xC898880)
+#define RPG_CLIENT_B51RACING_B51RACINGTRTOASTVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xC7B6CD0)
 
 namespace RPG::Client::B51Racing
 {
-	inline static constexpr unsigned int B51RacingTRToastViewModel_TypeDefinitionIndex = 80712;
+	inline static constexpr unsigned int B51RacingTRToastViewModel_TypeDefinitionIndex = 82040;
 
 	class B51RacingTRToastViewModel : public ::System::Object
 	{
@@ -17,8 +17,8 @@ namespace RPG::Client::B51Racing
 		::System::String* IconPath; // 0x10
 		::RPG::Client::TextID ContentText; // 0x18
 		::System::UInt32 TrID; // 0x28
-		::System::UInt32 EnemyID; // 0x2C
-		::System::UInt32 VoiceID; // 0x30
+		::System::UInt32 VoiceID; // 0x2C
+		::System::UInt32 EnemyID; // 0x30
 		::RPG::Client::TextID TitleText; // 0x38
 
 		::System::Void _ctor()

@@ -4,12 +4,12 @@
 
 namespace RPG::GameCore { class LineUpCharacter; }
 
-#define RPG_GAMECORE_BATTLEINSTANCE___C__DISPLAYCLASS67_0__CTOR_OFFSET UNITYSDK_OFFSET(0xE5339D0)
-#define RPG_GAMECORE_BATTLEINSTANCE___C__DISPLAYCLASS67_0___REMOVEBANNEDAVATARFROMSTAGE_B__0_OFFSET UNITYSDK_OFFSET(0xE534000)
+#define RPG_GAMECORE_BATTLEINSTANCE___C__DISPLAYCLASS67_0__CTOR_OFFSET UNITYSDK_OFFSET(0xE5C5E00)
+#define RPG_GAMECORE_BATTLEINSTANCE___C__DISPLAYCLASS67_0___REMOVEBANNEDAVATARFROMSTAGE_B__0_OFFSET UNITYSDK_OFFSET(0xE5C6430)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleInstance___c__DisplayClass67_0_TypeDefinitionIndex = 56227;
+	inline static constexpr unsigned int BattleInstance___c__DisplayClass67_0_TypeDefinitionIndex = 56040;
 
 	class BattleInstance___c__DisplayClass67_0 : public ::System::Object
 	{

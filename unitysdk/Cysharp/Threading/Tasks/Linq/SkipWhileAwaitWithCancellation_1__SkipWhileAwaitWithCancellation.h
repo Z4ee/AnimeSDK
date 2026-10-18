@@ -9,7 +9,7 @@ namespace System { template <typename T1, typename T2, typename T3> class Func_3
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int SkipWhileAwaitWithCancellation_1__SkipWhileAwaitWithCancellation_TypeDefinitionIndex = 44458;
+	inline static constexpr unsigned int SkipWhileAwaitWithCancellation_1__SkipWhileAwaitWithCancellation_TypeDefinitionIndex = 45597;
 
 	template <typename TSource>
 	class SkipWhileAwaitWithCancellation_1__SkipWhileAwaitWithCancellation : public ::Cysharp::Threading::Tasks::Linq::AsyncEnumeratorAwaitSelectorBase_3<TSource, TSource, ::System::Boolean>

@@ -7,13 +7,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicString; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CREATECURVEPROPGROUPPUZZLE_METHOD_3_7EF19CFC09DC58CD_OFFSET UNITYSDK_OFFSET(0x1D007BC0)
-#define RPG_GAMECORE_CREATECURVEPROPGROUPPUZZLE_METHOD_3_DFD0217B2832625C_OFFSET UNITYSDK_OFFSET(0x1D007C00)
-#define RPG_GAMECORE_CREATECURVEPROPGROUPPUZZLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D007BF0)
+#define RPG_GAMECORE_CREATECURVEPROPGROUPPUZZLE_METHOD_3_98D937CBC3F5AB3D_OFFSET UNITYSDK_OFFSET(0x1D5E3540)
+#define RPG_GAMECORE_CREATECURVEPROPGROUPPUZZLE_METHOD_3_B1B8DCB6DAF86D25_OFFSET UNITYSDK_OFFSET(0x1D5E3580)
+#define RPG_GAMECORE_CREATECURVEPROPGROUPPUZZLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5E3570)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CreateCurvePropGroupPuzzle_TypeDefinitionIndex = 22007;
+	inline static constexpr unsigned int CreateCurvePropGroupPuzzle_TypeDefinitionIndex = 22255;
 
 	class CreateCurvePropGroupPuzzle : public ::RPG::GameCore::TaskConfig
 	{
@@ -30,14 +30,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATECURVEPROPGROUPPUZZLE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_7EF19CFC09DC58CD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CreateCurvePropGroupPuzzle*& a2)
+		static ::System::Void Method_3_98D937CBC3F5AB3D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CreateCurvePropGroupPuzzle*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CreateCurvePropGroupPuzzle*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATECURVEPROPGROUPPUZZLE_METHOD_3_7EF19CFC09DC58CD_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CreateCurvePropGroupPuzzle*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATECURVEPROPGROUPPUZZLE_METHOD_3_98D937CBC3F5AB3D_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_DFD0217B2832625C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CreateCurvePropGroupPuzzle* a2)
+		static ::System::Void Method_3_B1B8DCB6DAF86D25(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CreateCurvePropGroupPuzzle* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CreateCurvePropGroupPuzzle*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATECURVEPROPGROUPPUZZLE_METHOD_3_DFD0217B2832625C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CreateCurvePropGroupPuzzle*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATECURVEPROPGROUPPUZZLE_METHOD_3_B1B8DCB6DAF86D25_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -3,7 +3,7 @@
 
 namespace HkrpgProtoLog
 {
-	inline static constexpr unsigned int PlayerActionType_TypeDefinitionIndex = 24767;
+	inline static constexpr unsigned int PlayerActionType_TypeDefinitionIndex = 25049;
 
 	enum class PlayerActionType : ::System::Int32
 	{
@@ -267,6 +267,7 @@ namespace HkrpgProtoLog
 		PlayerActionCreateVirtualTeam = 2303,
 		PlayerActionTeamNameEdit = 2304,
 		PlayerActionReplaceLineupAvatar = 2305,
+		PlayerActionTeamFavorite = 2306,
 		PlayerActionAvatarBuffChange = 2401,
 		PlayerActionEnvBuffChange = 2402,
 		PlayerActionGameCore = 2403,
@@ -879,6 +880,10 @@ namespace HkrpgProtoLog
 		PlayerActionFightFestGetCoachItem = 6407,
 		PlayerActionFightFestAcceptScoreRaceMission = 6408,
 		PlayerActionPetUse = 6451,
+		PlayerActionBlindBoxPetRecycle = 6452,
+		PlayerActionPetSetLineup = 6453,
+		PlayerActionBlindBoxPetItemChange = 6454,
+		PlayerActionBlindBoxPetChromaDisplaySwitch = 6456,
 		PlayerActionMusicRhythmPassLevelStar = 6501,
 		PlayerActionMusicRhythmLevelBegin = 6502,
 		PlayerActionMusicRhythmLevelEnd = 6503,
@@ -1150,6 +1155,9 @@ namespace HkrpgProtoLog
 		PlayerActionSocialPlayLeaveRoom = 7389,
 		PlayerActionSocialPlayEnterRoom = 7390,
 		PlayerActionTrainCakeCatchCatGodAppear = 7391,
+		PlayerActionTrainPetUpdateDiyInfo = 7392,
+		PlayerActionPetParkUpdateDiyInfo = 7393,
+		PlayerActionSocialPlayInvite = 7394,
 		PlayerActionIdleLiveUpgradeTeamSlot = 7401,
 		PlayerActionIdleLiveFinishSubNode = 7402,
 		PlayerActionIdleLiveFinishChapterFinalAct = 7403,
@@ -1270,5 +1278,31 @@ namespace HkrpgProtoLog
 		PlayerActionTeamTowersPveEnd = 7671,
 		PlayerActionTeamTowersPvpStart = 7672,
 		PlayerActionTeamTowersPvpEnd = 7673,
+		PlayerActionMechCraftEnd = 7681,
+		PlayerActionMechCraftStart = 7682,
+		PlayerActionMechCraftUnlockTalentPoint = 7683,
+		PlayerActionMechCraftDesignLevelUp = 7684,
+		PlayerActionMechCraftChangeDiy = 7685,
+		PlayerActionMarbleCoopBossSettle = 7691,
+		PlayerActionMarbleCoopBossBegin = 7692,
+		PlayerActionMarbleCoopBossEnd = 7693,
+		PlayerActionMarbleCoopBossRoundBegin = 7694,
+		PlayerActionMarbleCoopBossRoundEnd = 7695,
+		PlayerActionMarbleCoopBossTurn = 7696,
+		PlayerActionBlindBoxOpenBox = 7701,
+		PlayerActionBlindBoxOpenBoxExchangeCurrency = 7702,
+		PlayerActionAddBlindBoxTicket = 7703,
+		PlayerActionBlindBoxPetTrade = 7751,
+		PlayerActionBlindBoxPetPublishOrder = 7752,
+		PlayerActionBlindBoxPetInviteeConfirmOrder = 7753,
+		PlayerActionBlindBoxPetInitiatorConfirmOrder = 7754,
+		PlayerActionBlindBoxPetOrderPush = 7755,
+		PlayerActionBlindBoxPetOrderResult = 7756,
+		PlayerActionBlindBoxPetGrantOrder = 7757,
+		PlayerActionBadgeChange = 7801,
+		PlayerActionFinalityBattleBegin = 7811,
+		PlayerActionFinalityBattleEnd = 7812,
+		PlayerActionActivityRebate = 7851,
+		PlayerActionActivityRebateReissue = 7852,
 	};
 }

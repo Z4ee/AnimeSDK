@@ -6,14 +6,14 @@ namespace Cinemachine { class CinemachineVirtualCamera; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_CHIMERABATTLEPUZZLEAREA_GET_TEAMMEMBERANCHORS_OFFSET UNITYSDK_OFFSET(0xCBC08D0)
-#define RPG_CLIENT_CHIMERABATTLEPUZZLEAREA_METHOD_5_ED65AE7582736594_OFFSET UNITYSDK_OFFSET(0xCBBFFA0)
-#define RPG_CLIENT_CHIMERABATTLEPUZZLEAREA_START_OFFSET UNITYSDK_OFFSET(0xCBBFDE0)
-#define RPG_CLIENT_CHIMERABATTLEPUZZLEAREA__CTOR_OFFSET UNITYSDK_OFFSET(0xCBC0930)
+#define RPG_CLIENT_CHIMERABATTLEPUZZLEAREA_GET_TEAMMEMBERANCHORS_OFFSET UNITYSDK_OFFSET(0xCB0FE60)
+#define RPG_CLIENT_CHIMERABATTLEPUZZLEAREA_METHOD_5_6173AF17811AED4B_OFFSET UNITYSDK_OFFSET(0xCB0F500)
+#define RPG_CLIENT_CHIMERABATTLEPUZZLEAREA_START_OFFSET UNITYSDK_OFFSET(0xCB0F340)
+#define RPG_CLIENT_CHIMERABATTLEPUZZLEAREA__CTOR_OFFSET UNITYSDK_OFFSET(0xCB0FEC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraBattlePuzzleArea_TypeDefinitionIndex = 68612;
+	inline static constexpr unsigned int ChimeraBattlePuzzleArea_TypeDefinitionIndex = 68646;
 
 	class ChimeraBattlePuzzleArea : public ::UnityEngine::MonoBehaviour
 	{
@@ -35,9 +35,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERABATTLEPUZZLEAREA_START_OFFSET))(this);
 		}
 
-		::System::Void Method_5_ED65AE7582736594()
+		::System::Void Method_5_6173AF17811AED4B()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERABATTLEPUZZLEAREA_METHOD_5_ED65AE7582736594_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERABATTLEPUZZLEAREA_METHOD_5_6173AF17811AED4B_OFFSET))(this);
 		}
 
 		::System::Collections::Generic::List_1<::UnityEngine::Transform*>* get_TeamMemberAnchors()

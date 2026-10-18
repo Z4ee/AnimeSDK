@@ -9,46 +9,46 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Coroutine; }
 
-#define MIHOYO_SDK_CLOUD_CLOUDDATASTORAGE_GETCLIPBOARDDATA_OFFSET UNITYSDK_OFFSET(0x1B7417E0)
-#define MIHOYO_SDK_CLOUD_CLOUDDATASTORAGE_GETLOCALDATA_OFFSET UNITYSDK_OFFSET(0x1B741470)
-#define MIHOYO_SDK_CLOUD_CLOUDDATASTORAGE_ONTRANSMITCALLBACK_OFFSET UNITYSDK_OFFSET(0x1B742300)
-#define MIHOYO_SDK_CLOUD_CLOUDDATASTORAGE_SAVEIMAGE_OFFSET UNITYSDK_OFFSET(0x1B741A60)
-#define MIHOYO_SDK_CLOUD_CLOUDDATASTORAGE_SETBOXCONFIG_OFFSET UNITYSDK_OFFSET(0x1B741180)
-#define MIHOYO_SDK_CLOUD_CLOUDDATASTORAGE_SETLOCALDATA_OFFSET UNITYSDK_OFFSET(0x1B741780)
-#define MIHOYO_SDK_CLOUD_CLOUDDATASTORAGE_STARTLOADINGCOROUTINEIFNEED_OFFSET UNITYSDK_OFFSET(0x1B742BD0)
-#define MIHOYO_SDK_CLOUD_CLOUDDATASTORAGE_STARTSAVEIMAGECOROUTINE_OFFSET UNITYSDK_OFFSET(0x1B742010)
-#define MIHOYO_SDK_CLOUD_CLOUDDATASTORAGE_STOPLOADINGCOROUTINE_OFFSET UNITYSDK_OFFSET(0x1B743150)
-#define MIHOYO_SDK_CLOUD_CLOUDDATASTORAGE_STOPSAVEIMAGECOROUTINE_OFFSET UNITYSDK_OFFSET(0x1B742920)
-#define MIHOYO_SDK_CLOUD_CLOUDDATASTORAGE_TRANSMITPARTDATA_OFFSET UNITYSDK_OFFSET(0x1B7423D0)
-#define MIHOYO_SDK_CLOUD_CLOUDDATASTORAGE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B7432D0)
-#define MIHOYO_SDK_CLOUD_CLOUDDATASTORAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B743240)
-#define MIHOYO_SDK_CLOUD_CLOUDDATASTORAGE__STARTSAVEIMAGECOROUTINE_B__20_0_OFFSET UNITYSDK_OFFSET(0x1B7433A0)
+#define MIHOYO_SDK_CLOUD_CLOUDDATASTORAGE_GETCLIPBOARDDATA_OFFSET UNITYSDK_OFFSET(0x1BC3FE10)
+#define MIHOYO_SDK_CLOUD_CLOUDDATASTORAGE_GETLOCALDATA_OFFSET UNITYSDK_OFFSET(0x1BC3FAA0)
+#define MIHOYO_SDK_CLOUD_CLOUDDATASTORAGE_ONTRANSMITCALLBACK_OFFSET UNITYSDK_OFFSET(0x1BC40930)
+#define MIHOYO_SDK_CLOUD_CLOUDDATASTORAGE_SAVEIMAGE_OFFSET UNITYSDK_OFFSET(0x1BC40090)
+#define MIHOYO_SDK_CLOUD_CLOUDDATASTORAGE_SETBOXCONFIG_OFFSET UNITYSDK_OFFSET(0x1BC3F7B0)
+#define MIHOYO_SDK_CLOUD_CLOUDDATASTORAGE_SETLOCALDATA_OFFSET UNITYSDK_OFFSET(0x1BC3FDB0)
+#define MIHOYO_SDK_CLOUD_CLOUDDATASTORAGE_STARTLOADINGCOROUTINEIFNEED_OFFSET UNITYSDK_OFFSET(0x1BC41200)
+#define MIHOYO_SDK_CLOUD_CLOUDDATASTORAGE_STARTSAVEIMAGECOROUTINE_OFFSET UNITYSDK_OFFSET(0x1BC40640)
+#define MIHOYO_SDK_CLOUD_CLOUDDATASTORAGE_STOPLOADINGCOROUTINE_OFFSET UNITYSDK_OFFSET(0x1BC41780)
+#define MIHOYO_SDK_CLOUD_CLOUDDATASTORAGE_STOPSAVEIMAGECOROUTINE_OFFSET UNITYSDK_OFFSET(0x1BC40F50)
+#define MIHOYO_SDK_CLOUD_CLOUDDATASTORAGE_TRANSMITPARTDATA_OFFSET UNITYSDK_OFFSET(0x1BC40A00)
+#define MIHOYO_SDK_CLOUD_CLOUDDATASTORAGE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BC41900)
+#define MIHOYO_SDK_CLOUD_CLOUDDATASTORAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC41870)
+#define MIHOYO_SDK_CLOUD_CLOUDDATASTORAGE__STARTSAVEIMAGECOROUTINE_B__20_0_OFFSET UNITYSDK_OFFSET(0x1BC419D0)
 
 namespace MiHoYo::SDK::Cloud
 {
-	inline static constexpr unsigned int CloudDataStorage_TypeDefinitionIndex = 8819;
+	inline static constexpr unsigned int CloudDataStorage_TypeDefinitionIndex = 8880;
 
 	class CloudDataStorage : public ::System::Object
 	{
 	public:
-		static ::MiHoYo::SDK::Cloud::CloudDataStorage** StaticGet_Instance()
-		{
-			return (::MiHoYo::SDK::Cloud::CloudDataStorage**)Il2CppClass::FromTypeDefinitionIndex(CloudDataStorage_TypeDefinitionIndex)->GetStaticField(0x4BA0);
-		}
 		static ::MiHoYo::SDK::BoxConfigModel** StaticGet_boxConfig()
 		{
-			return (::MiHoYo::SDK::BoxConfigModel**)Il2CppClass::FromTypeDefinitionIndex(CloudDataStorage_TypeDefinitionIndex)->GetStaticField(0x4BA8);
+			return (::MiHoYo::SDK::BoxConfigModel**)Il2CppClass::FromTypeDefinitionIndex(CloudDataStorage_TypeDefinitionIndex)->GetStaticField(0x30A00);
 		}
-		::UnityEngine::Coroutine* saveImageCoroutine; // 0x10
-		::UnityEngine::Coroutine* loadingCoroutine; // 0x18
-		::System::Collections::Generic::List_1<::MiHoYo::SDK::CloudSaveImageModel*>* saveImageList; // 0x20
-		::MiHoYo::SDK::CloudSaveImageModel* currentImageModel; // 0x28
-		::System::Single SaveImageTimeOut; // 0x30
-		::System::Single ShareLoadingTimeOut; // 0x34
-		::System::Int32 ShareTextMaxLength; // 0x38
-		::System::Int32 PartSize; // 0x3C
-		::System::Single ClipBoardTimeOut; // 0x40
-		::System::Boolean isTransmittingImage; // 0x44
+		static ::MiHoYo::SDK::Cloud::CloudDataStorage** StaticGet_Instance()
+		{
+			return (::MiHoYo::SDK::Cloud::CloudDataStorage**)Il2CppClass::FromTypeDefinitionIndex(CloudDataStorage_TypeDefinitionIndex)->GetStaticField(0x30A08);
+		}
+		::System::Collections::Generic::List_1<::MiHoYo::SDK::CloudSaveImageModel*>* saveImageList; // 0x10
+		::MiHoYo::SDK::CloudSaveImageModel* currentImageModel; // 0x18
+		::UnityEngine::Coroutine* saveImageCoroutine; // 0x20
+		::UnityEngine::Coroutine* loadingCoroutine; // 0x28
+		::System::Int32 ShareTextMaxLength; // 0x30
+		::System::Boolean isTransmittingImage; // 0x34
+		::System::Int32 PartSize; // 0x38
+		::System::Single ShareLoadingTimeOut; // 0x3C
+		::System::Single SaveImageTimeOut; // 0x40
+		::System::Single ClipBoardTimeOut; // 0x44
 
 		::System::Void _ctor()
 		{

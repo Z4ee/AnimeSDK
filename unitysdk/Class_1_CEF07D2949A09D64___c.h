@@ -12,67 +12,67 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Linq { template <typename T1, typename T2> class IGrouping_2; }
 template <typename T1, typename T2> class __f__AnonymousType3_2;
 
-#define CLASS_1_CEF07D2949A09D64___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xDD8F860)
-#define CLASS_1_CEF07D2949A09D64___C__COLLECTTOPCLUSTERS_B__43_0_OFFSET UNITYSDK_OFFSET(0xDD8F980)
-#define CLASS_1_CEF07D2949A09D64___C__COLLECTTOPCLUSTERS_B__43_1_OFFSET UNITYSDK_OFFSET(0xDD8F8B0)
-#define CLASS_1_CEF07D2949A09D64___C__COLLECTTOPCLUSTERS_B__43_2_OFFSET UNITYSDK_OFFSET(0xDD8F910)
-#define CLASS_1_CEF07D2949A09D64___C__COLLECTTOPCLUSTERS_B__43_3_OFFSET UNITYSDK_OFFSET(0xDD8F950)
-#define CLASS_1_CEF07D2949A09D64___C__CTOR_OFFSET UNITYSDK_OFFSET(0xDD8F8A0)
-#define CLASS_1_CEF07D2949A09D64___C__GENERATECARDINFOTEXTURE_B__64_0_OFFSET UNITYSDK_OFFSET(0xDD8FA60)
-#define CLASS_1_CEF07D2949A09D64___C__GENERATECARDINFOTEXTURE_B__64_1_OFFSET UNITYSDK_OFFSET(0xDD8FA80)
-#define CLASS_1_CEF07D2949A09D64___C__GENERATECARDINFOTEXTURE_B__64_2_OFFSET UNITYSDK_OFFSET(0xDD8FBA0)
-#define CLASS_1_CEF07D2949A09D64___C__PACKCARDSTOATLAS_AUTO_B__47_0_OFFSET UNITYSDK_OFFSET(0xDD8FA20)
-#define CLASS_1_CEF07D2949A09D64___C__PACKCARDSTOATLAS_MANUAL_B__46_0_OFFSET UNITYSDK_OFFSET(0xDD8F9A0)
-#define CLASS_1_CEF07D2949A09D64___C__PACKCARDSTOATLAS_MANUAL_B__46_1_OFFSET UNITYSDK_OFFSET(0xDD8F9E0)
+#define CLASS_1_CEF07D2949A09D64___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xDCCD9B0)
+#define CLASS_1_CEF07D2949A09D64___C__COLLECTTOPCLUSTERS_B__43_0_OFFSET UNITYSDK_OFFSET(0xDCCDAD0)
+#define CLASS_1_CEF07D2949A09D64___C__COLLECTTOPCLUSTERS_B__43_1_OFFSET UNITYSDK_OFFSET(0xDCCDA00)
+#define CLASS_1_CEF07D2949A09D64___C__COLLECTTOPCLUSTERS_B__43_2_OFFSET UNITYSDK_OFFSET(0xDCCDA60)
+#define CLASS_1_CEF07D2949A09D64___C__COLLECTTOPCLUSTERS_B__43_3_OFFSET UNITYSDK_OFFSET(0xDCCDAA0)
+#define CLASS_1_CEF07D2949A09D64___C__CTOR_OFFSET UNITYSDK_OFFSET(0xDCCD9F0)
+#define CLASS_1_CEF07D2949A09D64___C__GENERATECARDINFOTEXTURE_B__64_0_OFFSET UNITYSDK_OFFSET(0xDCCDBB0)
+#define CLASS_1_CEF07D2949A09D64___C__GENERATECARDINFOTEXTURE_B__64_1_OFFSET UNITYSDK_OFFSET(0xDCCDBD0)
+#define CLASS_1_CEF07D2949A09D64___C__GENERATECARDINFOTEXTURE_B__64_2_OFFSET UNITYSDK_OFFSET(0xDCCDCF0)
+#define CLASS_1_CEF07D2949A09D64___C__PACKCARDSTOATLAS_AUTO_B__47_0_OFFSET UNITYSDK_OFFSET(0xDCCDB70)
+#define CLASS_1_CEF07D2949A09D64___C__PACKCARDSTOATLAS_MANUAL_B__46_0_OFFSET UNITYSDK_OFFSET(0xDCCDAF0)
+#define CLASS_1_CEF07D2949A09D64___C__PACKCARDSTOATLAS_MANUAL_B__46_1_OFFSET UNITYSDK_OFFSET(0xDCCDB30)
 
-inline static constexpr unsigned int Class_1_CEF07D2949A09D64___c_TypeDefinitionIndex = 52055;
+inline static constexpr unsigned int Class_1_CEF07D2949A09D64___c_TypeDefinitionIndex = 51761;
 
 class Class_1_CEF07D2949A09D64___c : public ::System::Object
 {
 public:
-	static ::System::Comparison_1<::Class_1_CEF07D2949A09D64_Class_1_3B76E13757985C28_2*>** StaticGet___9__46_0()
+	static ::System::Func_2<::System::Linq::IGrouping_2<::System::Int32, ::Class_1_CEF07D2949A09D64_SurfaceCard*>*, ::System::Collections::Generic::List_1<::Class_1_CEF07D2949A09D64_SurfaceCard*>*>** StaticGet___9__64_2()
 	{
-		return (::System::Comparison_1<::Class_1_CEF07D2949A09D64_Class_1_3B76E13757985C28_2*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_CEF07D2949A09D64___c_TypeDefinitionIndex)->GetStaticField(0x667D0);
+		return (::System::Func_2<::System::Linq::IGrouping_2<::System::Int32, ::Class_1_CEF07D2949A09D64_SurfaceCard*>*, ::System::Collections::Generic::List_1<::Class_1_CEF07D2949A09D64_SurfaceCard*>*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_CEF07D2949A09D64___c_TypeDefinitionIndex)->GetStaticField(0x573C0);
 	}
 	static ::System::Func_2<::Class_1_CEF07D2949A09D64_SurfaceCard*, ::System::Int32>** StaticGet___9__64_0()
 	{
-		return (::System::Func_2<::Class_1_CEF07D2949A09D64_SurfaceCard*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_CEF07D2949A09D64___c_TypeDefinitionIndex)->GetStaticField(0x667D8);
-	}
-	static ::Class_1_CEF07D2949A09D64___c** StaticGet___9()
-	{
-		return (::Class_1_CEF07D2949A09D64___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_CEF07D2949A09D64___c_TypeDefinitionIndex)->GetStaticField(0x667E0);
-	}
-	static ::System::Comparison_1<::Class_1_CEF07D2949A09D64_Class_1_3B76E13757985C28_2*>** StaticGet___9__47_0()
-	{
-		return (::System::Comparison_1<::Class_1_CEF07D2949A09D64_Class_1_3B76E13757985C28_2*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_CEF07D2949A09D64___c_TypeDefinitionIndex)->GetStaticField(0x667E8);
-	}
-	static ::System::Func_2<::System::Linq::IGrouping_2<::System::Int32, ::Class_1_CEF07D2949A09D64_SurfaceCard*>*, ::System::Int32>** StaticGet___9__64_1()
-	{
-		return (::System::Func_2<::System::Linq::IGrouping_2<::System::Int32, ::Class_1_CEF07D2949A09D64_SurfaceCard*>*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_CEF07D2949A09D64___c_TypeDefinitionIndex)->GetStaticField(0x667F0);
-	}
-	static ::System::Comparison_1<::Class_1_CEF07D2949A09D64_Class_1_3B76E13757985C28_2*>** StaticGet___9__46_1()
-	{
-		return (::System::Comparison_1<::Class_1_CEF07D2949A09D64_Class_1_3B76E13757985C28_2*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_CEF07D2949A09D64___c_TypeDefinitionIndex)->GetStaticField(0x667F8);
+		return (::System::Func_2<::Class_1_CEF07D2949A09D64_SurfaceCard*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_CEF07D2949A09D64___c_TypeDefinitionIndex)->GetStaticField(0x573C8);
 	}
 	static ::System::Func_2<::__f__AnonymousType3_2<::Class_1_681685FAADA1782B_Class_1_5C9211387FF6C018*, ::System::Int32>*, ::System::Single>** StaticGet___9__43_3()
 	{
-		return (::System::Func_2<::__f__AnonymousType3_2<::Class_1_681685FAADA1782B_Class_1_5C9211387FF6C018*, ::System::Int32>*, ::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_CEF07D2949A09D64___c_TypeDefinitionIndex)->GetStaticField(0x66800);
+		return (::System::Func_2<::__f__AnonymousType3_2<::Class_1_681685FAADA1782B_Class_1_5C9211387FF6C018*, ::System::Int32>*, ::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_CEF07D2949A09D64___c_TypeDefinitionIndex)->GetStaticField(0x573D0);
+	}
+	static ::System::Comparison_1<::Class_1_CEF07D2949A09D64_Class_1_3B76E13757985C28_2*>** StaticGet___9__46_0()
+	{
+		return (::System::Comparison_1<::Class_1_CEF07D2949A09D64_Class_1_3B76E13757985C28_2*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_CEF07D2949A09D64___c_TypeDefinitionIndex)->GetStaticField(0x573D8);
+	}
+	static ::System::Func_2<::System::Linq::IGrouping_2<::System::Int32, ::Class_1_CEF07D2949A09D64_SurfaceCard*>*, ::System::Int32>** StaticGet___9__64_1()
+	{
+		return (::System::Func_2<::System::Linq::IGrouping_2<::System::Int32, ::Class_1_CEF07D2949A09D64_SurfaceCard*>*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_CEF07D2949A09D64___c_TypeDefinitionIndex)->GetStaticField(0x573E0);
+	}
+	static ::System::Comparison_1<::Class_1_CEF07D2949A09D64_Class_1_3B76E13757985C28_2*>** StaticGet___9__46_1()
+	{
+		return (::System::Comparison_1<::Class_1_CEF07D2949A09D64_Class_1_3B76E13757985C28_2*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_CEF07D2949A09D64___c_TypeDefinitionIndex)->GetStaticField(0x573E8);
+	}
+	static ::Class_1_CEF07D2949A09D64___c** StaticGet___9()
+	{
+		return (::Class_1_CEF07D2949A09D64___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_CEF07D2949A09D64___c_TypeDefinitionIndex)->GetStaticField(0x573F0);
+	}
+	static ::System::Comparison_1<::Class_1_CEF07D2949A09D64_Class_1_3B76E13757985C28_2*>** StaticGet___9__47_0()
+	{
+		return (::System::Comparison_1<::Class_1_CEF07D2949A09D64_Class_1_3B76E13757985C28_2*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_CEF07D2949A09D64___c_TypeDefinitionIndex)->GetStaticField(0x573F8);
 	}
 	static ::System::Func_2<::Class_1_CEF07D2949A09D64_SurfaceCard*, ::System::Single>** StaticGet___9__43_0()
 	{
-		return (::System::Func_2<::Class_1_CEF07D2949A09D64_SurfaceCard*, ::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_CEF07D2949A09D64___c_TypeDefinitionIndex)->GetStaticField(0x66808);
+		return (::System::Func_2<::Class_1_CEF07D2949A09D64_SurfaceCard*, ::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_CEF07D2949A09D64___c_TypeDefinitionIndex)->GetStaticField(0x57400);
 	}
 	static ::System::Func_2<::__f__AnonymousType3_2<::Class_1_681685FAADA1782B_Class_1_5C9211387FF6C018*, ::System::Int32>*, ::System::Boolean>** StaticGet___9__43_2()
 	{
-		return (::System::Func_2<::__f__AnonymousType3_2<::Class_1_681685FAADA1782B_Class_1_5C9211387FF6C018*, ::System::Int32>*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_CEF07D2949A09D64___c_TypeDefinitionIndex)->GetStaticField(0x66810);
+		return (::System::Func_2<::__f__AnonymousType3_2<::Class_1_681685FAADA1782B_Class_1_5C9211387FF6C018*, ::System::Int32>*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_CEF07D2949A09D64___c_TypeDefinitionIndex)->GetStaticField(0x57408);
 	}
 	static ::System::Func_3<::Class_1_681685FAADA1782B_Class_1_5C9211387FF6C018*, ::System::Int32, ::__f__AnonymousType3_2<::Class_1_681685FAADA1782B_Class_1_5C9211387FF6C018*, ::System::Int32>*>** StaticGet___9__43_1()
 	{
-		return (::System::Func_3<::Class_1_681685FAADA1782B_Class_1_5C9211387FF6C018*, ::System::Int32, ::__f__AnonymousType3_2<::Class_1_681685FAADA1782B_Class_1_5C9211387FF6C018*, ::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_CEF07D2949A09D64___c_TypeDefinitionIndex)->GetStaticField(0x66818);
-	}
-	static ::System::Func_2<::System::Linq::IGrouping_2<::System::Int32, ::Class_1_CEF07D2949A09D64_SurfaceCard*>*, ::System::Collections::Generic::List_1<::Class_1_CEF07D2949A09D64_SurfaceCard*>*>** StaticGet___9__64_2()
-	{
-		return (::System::Func_2<::System::Linq::IGrouping_2<::System::Int32, ::Class_1_CEF07D2949A09D64_SurfaceCard*>*, ::System::Collections::Generic::List_1<::Class_1_CEF07D2949A09D64_SurfaceCard*>*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_CEF07D2949A09D64___c_TypeDefinitionIndex)->GetStaticField(0x66820);
+		return (::System::Func_3<::Class_1_681685FAADA1782B_Class_1_5C9211387FF6C018*, ::System::Int32, ::__f__AnonymousType3_2<::Class_1_681685FAADA1782B_Class_1_5C9211387FF6C018*, ::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_CEF07D2949A09D64___c_TypeDefinitionIndex)->GetStaticField(0x57410);
 	}
 
 	static ::System::Void _cctor()

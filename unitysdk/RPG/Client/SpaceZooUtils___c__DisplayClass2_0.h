@@ -5,12 +5,12 @@
 namespace RPG::Client { class LuaUIController; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_SPACEZOOUTILS___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0xE0BAF60)
-#define RPG_CLIENT_SPACEZOOUTILS___C__DISPLAYCLASS2_0__SHOWSPACEZOODELETEPAGE_B__0_OFFSET UNITYSDK_OFFSET(0xE0BEF10)
+#define RPG_CLIENT_SPACEZOOUTILS___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0xE0FC0B0)
+#define RPG_CLIENT_SPACEZOOUTILS___C__DISPLAYCLASS2_0__SHOWSPACEZOODELETEPAGE_B__0_OFFSET UNITYSDK_OFFSET(0xE100060)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SpaceZooUtils___c__DisplayClass2_0_TypeDefinitionIndex = 67974;
+	inline static constexpr unsigned int SpaceZooUtils___c__DisplayClass2_0_TypeDefinitionIndex = 67979;
 
 	class SpaceZooUtils___c__DisplayClass2_0 : public ::System::Object
 	{

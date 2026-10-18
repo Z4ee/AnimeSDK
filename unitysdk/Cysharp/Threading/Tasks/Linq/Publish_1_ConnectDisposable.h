@@ -6,7 +6,7 @@ namespace System::Threading { class CancellationTokenSource; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int Publish_1_ConnectDisposable_TypeDefinitionIndex = 44396;
+	inline static constexpr unsigned int Publish_1_ConnectDisposable_TypeDefinitionIndex = 45535;
 
 	template <typename TSource>
 	class Publish_1_ConnectDisposable : public ::System::Object

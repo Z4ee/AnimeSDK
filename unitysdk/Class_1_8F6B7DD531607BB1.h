@@ -2,28 +2,28 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_8F6B7DD531607BB1_METHOD_1_1DA89DF9585853CF_OFFSET UNITYSDK_OFFSET(0x1BF2B6B0)
-#define CLASS_1_8F6B7DD531607BB1_METHOD_1_CE34EA208837238D_1_OFFSET UNITYSDK_OFFSET(0x1BF2B650)
-#define CLASS_1_8F6B7DD531607BB1_METHOD_1_CE34EA208837238D_OFFSET UNITYSDK_OFFSET(0x1BF2B4B0)
-#define CLASS_1_8F6B7DD531607BB1_METHOD_1_F188D2CB5CA2E712_OFFSET UNITYSDK_OFFSET(0x1BF2B860)
-#define CLASS_1_8F6B7DD531607BB1__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BF2BA20)
+#define CLASS_1_8F6B7DD531607BB1_METHOD_1_1DA89DF9585853CF_OFFSET UNITYSDK_OFFSET(0x1C437CD0)
+#define CLASS_1_8F6B7DD531607BB1_METHOD_1_CE34EA208837238D_1_OFFSET UNITYSDK_OFFSET(0x1C437C70)
+#define CLASS_1_8F6B7DD531607BB1_METHOD_1_CE34EA208837238D_OFFSET UNITYSDK_OFFSET(0x1C437AD0)
+#define CLASS_1_8F6B7DD531607BB1_METHOD_1_F188D2CB5CA2E712_OFFSET UNITYSDK_OFFSET(0x1C437E80)
+#define CLASS_1_8F6B7DD531607BB1__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C438040)
 
-inline static constexpr unsigned int Class_1_8F6B7DD531607BB1_TypeDefinitionIndex = 40093;
+inline static constexpr unsigned int Class_1_8F6B7DD531607BB1_TypeDefinitionIndex = 41390;
 
 class Class_1_8F6B7DD531607BB1 : public ::System::Object
 {
 public:
 	static ::System::Boolean* StaticGet_BOJFKDPCKGI()
 	{
-		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_8F6B7DD531607BB1_TypeDefinitionIndex)->GetStaticField(0x7930);
-	}
-	static ::System::Boolean* StaticGet_KOOHOOAPILD()
-	{
-		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_8F6B7DD531607BB1_TypeDefinitionIndex)->GetStaticField(0x7931);
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_8F6B7DD531607BB1_TypeDefinitionIndex)->GetStaticField(0x39E0);
 	}
 	static ::System::Boolean* StaticGet_EOANOCIBEAM()
 	{
-		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_8F6B7DD531607BB1_TypeDefinitionIndex)->GetStaticField(0x7932);
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_8F6B7DD531607BB1_TypeDefinitionIndex)->GetStaticField(0x39E1);
+	}
+	static ::System::Boolean* StaticGet_KOOHOOAPILD()
+	{
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_8F6B7DD531607BB1_TypeDefinitionIndex)->GetStaticField(0x39E2);
 	}
 
 	static ::System::Void _cctor()

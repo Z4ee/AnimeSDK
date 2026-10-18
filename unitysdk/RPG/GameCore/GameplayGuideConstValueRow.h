@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_GAMEPLAYGUIDECONSTVALUEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D13EF60)
-#define RPG_GAMECORE_GAMEPLAYGUIDECONSTVALUEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D13F4E0)
+#define RPG_GAMECORE_GAMEPLAYGUIDECONSTVALUEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D718BB0)
+#define RPG_GAMECORE_GAMEPLAYGUIDECONSTVALUEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D719130)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GameplayGuideConstValueRow_TypeDefinitionIndex = 13274;
+	inline static constexpr unsigned int GameplayGuideConstValueRow_TypeDefinitionIndex = 13381;
 
 	class GameplayGuideConstValueRow : public ::System::Object
 	{

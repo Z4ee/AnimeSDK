@@ -1,15 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Class_4_A1AB9DF2E917728B.h"
-#include "unitysdk/Struct_2_395B739A1AC58399_1.h"
+#include "unitysdk/Struct_2_395B739A1AC58399_2.h"
 
 namespace UnityEngine { class Transform; }
 
-#define CLASS_5_86636D0FBE7FFFC0_METHOD_5_4DE904980F091FA2_OFFSET UNITYSDK_OFFSET(0xBB278E0)
-#define CLASS_5_86636D0FBE7FFFC0_STARTWITHTARGET_OFFSET UNITYSDK_OFFSET(0xBB27A00)
-#define CLASS_5_86636D0FBE7FFFC0__CTOR_OFFSET UNITYSDK_OFFSET(0xBB279E0)
+#define CLASS_5_86636D0FBE7FFFC0_METHOD_5_4DE904980F091FA2_OFFSET UNITYSDK_OFFSET(0xB9ADBC0)
+#define CLASS_5_86636D0FBE7FFFC0_STARTWITHTARGET_OFFSET UNITYSDK_OFFSET(0xB9ADCE0)
+#define CLASS_5_86636D0FBE7FFFC0__CTOR_OFFSET UNITYSDK_OFFSET(0xB9ADCC0)
 
-inline static constexpr unsigned int Class_5_86636D0FBE7FFFC0_TypeDefinitionIndex = 73399;
+inline static constexpr unsigned int Class_5_86636D0FBE7FFFC0_TypeDefinitionIndex = 73506;
 
 class Class_5_86636D0FBE7FFFC0 : public ::Class_4_A1AB9DF2E917728B
 {
@@ -19,9 +19,9 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_5_86636D0FBE7FFFC0__CTOR_OFFSET))(this);
 	}
 
-	static ::Class_5_86636D0FBE7FFFC0* Method_5_4DE904980F091FA2(::System::Single a1, ::Struct_2_395B739A1AC58399_1 a2)
+	static ::Class_5_86636D0FBE7FFFC0* Method_5_4DE904980F091FA2(::System::Single a1, ::Struct_2_395B739A1AC58399_2 a2)
 	{
-		return ((::Class_5_86636D0FBE7FFFC0*(*)(::System::Single, ::Struct_2_395B739A1AC58399_1))((::PBYTE)hIl2Cpp + CLASS_5_86636D0FBE7FFFC0_METHOD_5_4DE904980F091FA2_OFFSET))(a1, a2);
+		return ((::Class_5_86636D0FBE7FFFC0*(*)(::System::Single, ::Struct_2_395B739A1AC58399_2))((::PBYTE)hIl2Cpp + CLASS_5_86636D0FBE7FFFC0_METHOD_5_4DE904980F091FA2_OFFSET))(a1, a2);
 	}
 
 	::System::Void StartWithTarget(::UnityEngine::Transform* a1)

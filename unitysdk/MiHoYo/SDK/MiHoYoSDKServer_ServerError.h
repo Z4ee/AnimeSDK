@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MiHoYoSDKServer_ServerError_TypeDefinitionIndex = 46774;
+	inline static constexpr unsigned int MiHoYoSDKServer_ServerError_TypeDefinitionIndex = 46314;
 
 	enum class MiHoYoSDKServer_ServerError : ::System::Int32
 	{

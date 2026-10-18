@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShowRogueSelectMainPageModeType_TypeDefinitionIndex = 24532;
+	inline static constexpr unsigned int ShowRogueSelectMainPageModeType_TypeDefinitionIndex = 24814;
 
 	enum class ShowRogueSelectMainPageModeType : ::System::Int32
 	{

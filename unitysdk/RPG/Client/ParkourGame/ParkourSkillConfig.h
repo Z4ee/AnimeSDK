@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_PARKOURGAME_PARKOURSKILLCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xDA30B30)
+#define RPG_CLIENT_PARKOURGAME_PARKOURSKILLCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xDA7CDE0)
 
 namespace RPG::Client::ParkourGame
 {
-	inline static constexpr unsigned int ParkourSkillConfig_TypeDefinitionIndex = 74025;
+	inline static constexpr unsigned int ParkourSkillConfig_TypeDefinitionIndex = 74124;
 
 	class ParkourSkillConfig : public ::System::Object
 	{

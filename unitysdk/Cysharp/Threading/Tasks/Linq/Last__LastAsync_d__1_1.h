@@ -14,7 +14,7 @@ namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int Last__LastAsync_d__1_1_TypeDefinitionIndex = 44273;
+	inline static constexpr unsigned int Last__LastAsync_d__1_1_TypeDefinitionIndex = 45412;
 
 	template <typename TSource>
 	struct Last__LastAsync_d__1_1

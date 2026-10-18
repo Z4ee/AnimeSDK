@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_XBOXLOGINEXTENSION__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA38EA0)
+#define MIHOYO_SDK_PC_OS_XBOXLOGINEXTENSION__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF42930)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int XboxLoginExtension_TypeDefinitionIndex = 8601;
+	inline static constexpr unsigned int XboxLoginExtension_TypeDefinitionIndex = 8662;
 
 	class XboxLoginExtension : public ::System::Object
 	{

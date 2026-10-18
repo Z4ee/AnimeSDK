@@ -6,20 +6,20 @@ namespace UnityEngine { class Component; }
 namespace UnityEngine { class MeshRenderer; }
 namespace UnityEngine::Formats::Alembic::Util { class AlembicRecorder_MeshBuffer; }
 
-#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_MESHCAPTURER_CAPTURE_OFFSET UNITYSDK_OFFSET(0x1EABCD30)
-#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_MESHCAPTURER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1EABCF60)
-#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_MESHCAPTURER_SETUP_OFFSET UNITYSDK_OFFSET(0x1EABCB20)
-#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_MESHCAPTURER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EABCF70)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_MESHCAPTURER_CAPTURE_OFFSET UNITYSDK_OFFSET(0x1F184590)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_MESHCAPTURER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1F1847C0)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_MESHCAPTURER_SETUP_OFFSET UNITYSDK_OFFSET(0x1F184380)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_MESHCAPTURER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F1847D0)
 
 namespace UnityEngine::Formats::Alembic::Util
 {
-	inline static constexpr unsigned int AlembicRecorder_MeshCapturer_TypeDefinitionIndex = 44633;
+	inline static constexpr unsigned int AlembicRecorder_MeshCapturer_TypeDefinitionIndex = 45772;
 
 	class AlembicRecorder_MeshCapturer : public ::UnityEngine::Formats::Alembic::Util::ComponentCapturer
 	{
 	public:
-		::UnityEngine::Formats::Alembic::Util::AlembicRecorder_MeshBuffer* m_mbuf; // 0x30
-		::UnityEngine::MeshRenderer* m_target; // 0x38
+		::UnityEngine::MeshRenderer* m_target; // 0x30
+		::UnityEngine::Formats::Alembic::Util::AlembicRecorder_MeshBuffer* m_mbuf; // 0x38
 
 		::System::Void _ctor()
 		{

@@ -7,37 +7,37 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Reflection { class MemberInfo; }
 
-#define CLASS_1_B01DAA8B2155ABFF___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xB488730)
-#define CLASS_1_B01DAA8B2155ABFF___C__CTOR_OFFSET UNITYSDK_OFFSET(0xB488760)
-#define CLASS_1_B01DAA8B2155ABFF___C___GETMEMBERSTOPARSE_B__1_0_OFFSET UNITYSDK_OFFSET(0xB488770)
-#define CLASS_1_B01DAA8B2155ABFF___C___GETMEMBERSTOPARSE_B__1_1_OFFSET UNITYSDK_OFFSET(0xB488AE0)
-#define CLASS_1_B01DAA8B2155ABFF___C___GETMEMBERSTOPARSE_B__1_2_OFFSET UNITYSDK_OFFSET(0xB488BA0)
-#define CLASS_1_B01DAA8B2155ABFF___C___GETMEMBERSTOPARSE_B__1_3_OFFSET UNITYSDK_OFFSET(0xB488BD0)
+#define CLASS_1_B01DAA8B2155ABFF___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xB14BF30)
+#define CLASS_1_B01DAA8B2155ABFF___C__CTOR_OFFSET UNITYSDK_OFFSET(0xB14BF60)
+#define CLASS_1_B01DAA8B2155ABFF___C___GETMEMBERSTOPARSE_B__1_0_OFFSET UNITYSDK_OFFSET(0xB14BF70)
+#define CLASS_1_B01DAA8B2155ABFF___C___GETMEMBERSTOPARSE_B__1_1_OFFSET UNITYSDK_OFFSET(0xB14C2E0)
+#define CLASS_1_B01DAA8B2155ABFF___C___GETMEMBERSTOPARSE_B__1_2_OFFSET UNITYSDK_OFFSET(0xB14C3A0)
+#define CLASS_1_B01DAA8B2155ABFF___C___GETMEMBERSTOPARSE_B__1_3_OFFSET UNITYSDK_OFFSET(0xB14C3D0)
 
-inline static constexpr unsigned int Class_1_B01DAA8B2155ABFF___c_TypeDefinitionIndex = 67237;
+inline static constexpr unsigned int Class_1_B01DAA8B2155ABFF___c_TypeDefinitionIndex = 67239;
 
 class Class_1_B01DAA8B2155ABFF___c : public ::System::Object
 {
 public:
-	static ::System::Func_2<::System::Type*, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Reflection::MemberInfo*>*>** StaticGet___9__1_0()
-	{
-		return (::System::Func_2<::System::Type*, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Reflection::MemberInfo*>*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_B01DAA8B2155ABFF___c_TypeDefinitionIndex)->GetStaticField(0x6B40);
-	}
-	static ::System::Func_2<::System::Reflection::MemberInfo*, ::System::Reflection::MemberInfo*>** StaticGet___9__1_3()
-	{
-		return (::System::Func_2<::System::Reflection::MemberInfo*, ::System::Reflection::MemberInfo*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_B01DAA8B2155ABFF___c_TypeDefinitionIndex)->GetStaticField(0x6B48);
-	}
-	static ::Class_1_B01DAA8B2155ABFF___c** StaticGet___9()
-	{
-		return (::Class_1_B01DAA8B2155ABFF___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_B01DAA8B2155ABFF___c_TypeDefinitionIndex)->GetStaticField(0x6B50);
-	}
 	static ::System::Func_2<::System::Reflection::MemberInfo*, ::System::Int32>** StaticGet___9__1_2()
 	{
-		return (::System::Func_2<::System::Reflection::MemberInfo*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_B01DAA8B2155ABFF___c_TypeDefinitionIndex)->GetStaticField(0x6B58);
+		return (::System::Func_2<::System::Reflection::MemberInfo*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_B01DAA8B2155ABFF___c_TypeDefinitionIndex)->GetStaticField(0x4BF80);
+	}
+	static ::System::Func_2<::System::Type*, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Reflection::MemberInfo*>*>** StaticGet___9__1_0()
+	{
+		return (::System::Func_2<::System::Type*, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Reflection::MemberInfo*>*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_B01DAA8B2155ABFF___c_TypeDefinitionIndex)->GetStaticField(0x4BF88);
 	}
 	static ::System::Func_2<::System::Reflection::MemberInfo*, ::System::Boolean>** StaticGet___9__1_1()
 	{
-		return (::System::Func_2<::System::Reflection::MemberInfo*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_B01DAA8B2155ABFF___c_TypeDefinitionIndex)->GetStaticField(0x6B60);
+		return (::System::Func_2<::System::Reflection::MemberInfo*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_B01DAA8B2155ABFF___c_TypeDefinitionIndex)->GetStaticField(0x4BF90);
+	}
+	static ::Class_1_B01DAA8B2155ABFF___c** StaticGet___9()
+	{
+		return (::Class_1_B01DAA8B2155ABFF___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_B01DAA8B2155ABFF___c_TypeDefinitionIndex)->GetStaticField(0x4BF98);
+	}
+	static ::System::Func_2<::System::Reflection::MemberInfo*, ::System::Reflection::MemberInfo*>** StaticGet___9__1_3()
+	{
+		return (::System::Func_2<::System::Reflection::MemberInfo*, ::System::Reflection::MemberInfo*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_B01DAA8B2155ABFF___c_TypeDefinitionIndex)->GetStaticField(0x4BFA0);
 	}
 
 	static ::System::Void _cctor()

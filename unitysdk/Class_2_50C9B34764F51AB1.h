@@ -6,18 +6,18 @@ namespace System { class String; }
 namespace UnityEngine::UI { class SmoothMask; }
 namespace UnityEngine::UI { class Text; }
 
-#define CLASS_2_50C9B34764F51AB1_METHOD_2_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x155756D0)
-#define CLASS_2_50C9B34764F51AB1_METHOD_2_88B60F3B95FAA4F1_OFFSET UNITYSDK_OFFSET(0x15575790)
-#define CLASS_2_50C9B34764F51AB1__CTOR_OFFSET UNITYSDK_OFFSET(0x15575800)
+#define CLASS_2_50C9B34764F51AB1_METHOD_2_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x1583F150)
+#define CLASS_2_50C9B34764F51AB1_METHOD_2_88B60F3B95FAA4F1_OFFSET UNITYSDK_OFFSET(0x1583F210)
+#define CLASS_2_50C9B34764F51AB1__CTOR_OFFSET UNITYSDK_OFFSET(0x1583F280)
 
-inline static constexpr unsigned int Class_2_50C9B34764F51AB1_TypeDefinitionIndex = 73101;
+inline static constexpr unsigned int Class_2_50C9B34764F51AB1_TypeDefinitionIndex = 73196;
 
 class Class_2_50C9B34764F51AB1 : public ::Class_1_A167209E71412818
 {
 public:
-	::UnityEngine::UI::Text* LHHEHGDLADI; // 0x18
-	::UnityEngine::UI::Text* OLMCLMFOIGB; // 0x20
-	::UnityEngine::UI::SmoothMask* LELDAGOEEHC; // 0x28
+	::UnityEngine::UI::SmoothMask* LELDAGOEEHC; // 0x18
+	::UnityEngine::UI::Text* LHHEHGDLADI; // 0x20
+	::UnityEngine::UI::Text* OLMCLMFOIGB; // 0x28
 
 	::System::Void _ctor()
 	{

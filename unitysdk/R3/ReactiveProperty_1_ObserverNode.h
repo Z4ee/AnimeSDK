@@ -8,7 +8,7 @@ namespace R3 { template <typename T> class ReactiveProperty_1_ObserverNode; }
 
 namespace R3
 {
-	inline static constexpr unsigned int ReactiveProperty_1_ObserverNode_TypeDefinitionIndex = 35278;
+	inline static constexpr unsigned int ReactiveProperty_1_ObserverNode_TypeDefinitionIndex = 35962;
 
 	template <typename T>
 	class ReactiveProperty_1_ObserverNode : public ::System::Object

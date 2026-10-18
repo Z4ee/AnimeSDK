@@ -4,7 +4,7 @@
 
 namespace System::Xml::Schema { class XmlSchemaObjectCollection; }
 
-#define SYSTEM_XML_SCHEMA_XMLSCHEMACHOICE_GET_ITEMS_OFFSET UNITYSDK_OFFSET(0x1E81DE50)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMACHOICE_GET_ITEMS_OFFSET UNITYSDK_OFFSET(0x1EEE6AB0)
 
 namespace System::Xml::Schema
 {

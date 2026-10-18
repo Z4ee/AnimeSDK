@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DiceCombatDiceFunctionTag_TypeDefinitionIndex = 11221;
+	inline static constexpr unsigned int DiceCombatDiceFunctionTag_TypeDefinitionIndex = 11237;
 
 	enum class DiceCombatDiceFunctionTag : ::System::Int32
 	{

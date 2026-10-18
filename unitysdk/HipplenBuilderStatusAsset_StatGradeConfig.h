@@ -4,9 +4,9 @@
 
 namespace System { class String; }
 
-#define HIPPLENBUILDERSTATUSASSET_STATGRADECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x15ADDA70)
+#define HIPPLENBUILDERSTATUSASSET_STATGRADECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x15DF1C50)
 
-inline static constexpr unsigned int HipplenBuilderStatusAsset_StatGradeConfig_TypeDefinitionIndex = 47691;
+inline static constexpr unsigned int HipplenBuilderStatusAsset_StatGradeConfig_TypeDefinitionIndex = 47231;
 
 class HipplenBuilderStatusAsset_StatGradeConfig : public ::System::Object
 {

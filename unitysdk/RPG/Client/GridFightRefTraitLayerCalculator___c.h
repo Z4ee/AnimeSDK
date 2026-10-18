@@ -5,24 +5,24 @@
 namespace RPG::Client { class GridFightEquipItemConfig; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_GRIDFIGHTREFTRAITLAYERCALCULATOR___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD2F7700)
-#define RPG_CLIENT_GRIDFIGHTREFTRAITLAYERCALCULATOR___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD2F7740)
-#define RPG_CLIENT_GRIDFIGHTREFTRAITLAYERCALCULATOR___C___UPDATETRAITLAYER_B__13_0_OFFSET UNITYSDK_OFFSET(0xD2F7750)
+#define RPG_CLIENT_GRIDFIGHTREFTRAITLAYERCALCULATOR___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD1EE7D0)
+#define RPG_CLIENT_GRIDFIGHTREFTRAITLAYERCALCULATOR___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD1EE810)
+#define RPG_CLIENT_GRIDFIGHTREFTRAITLAYERCALCULATOR___C___UPDATETRAITLAYER_B__13_0_OFFSET UNITYSDK_OFFSET(0xD1EE820)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightRefTraitLayerCalculator___c_TypeDefinitionIndex = 64878;
+	inline static constexpr unsigned int GridFightRefTraitLayerCalculator___c_TypeDefinitionIndex = 64818;
 
 	class GridFightRefTraitLayerCalculator___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::System::UInt32, ::RPG::Client::GridFightEquipItemConfig*>** StaticGet___9__13_0()
 		{
-			return (::System::Func_2<::System::UInt32, ::RPG::Client::GridFightEquipItemConfig*>**)Il2CppClass::FromTypeDefinitionIndex(GridFightRefTraitLayerCalculator___c_TypeDefinitionIndex)->GetStaticField(0x440B0);
+			return (::System::Func_2<::System::UInt32, ::RPG::Client::GridFightEquipItemConfig*>**)Il2CppClass::FromTypeDefinitionIndex(GridFightRefTraitLayerCalculator___c_TypeDefinitionIndex)->GetStaticField(0x6E1C0);
 		}
 		static ::RPG::Client::GridFightRefTraitLayerCalculator___c** StaticGet___9()
 		{
-			return (::RPG::Client::GridFightRefTraitLayerCalculator___c**)Il2CppClass::FromTypeDefinitionIndex(GridFightRefTraitLayerCalculator___c_TypeDefinitionIndex)->GetStaticField(0x440B8);
+			return (::RPG::Client::GridFightRefTraitLayerCalculator___c**)Il2CppClass::FromTypeDefinitionIndex(GridFightRefTraitLayerCalculator___c_TypeDefinitionIndex)->GetStaticField(0x6E1C8);
 		}
 
 		static ::System::Void _cctor()

@@ -5,19 +5,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_TRAVELBROCHUREDIARYCHOICEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D5E7370)
-#define RPG_GAMECORE_TRAVELBROCHUREDIARYCHOICEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5E7E10)
+#define RPG_GAMECORE_TRAVELBROCHUREDIARYCHOICEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DC3AD40)
+#define RPG_GAMECORE_TRAVELBROCHUREDIARYCHOICEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1DC3B7E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TravelBrochureDiaryChoiceRow_TypeDefinitionIndex = 15202;
+	inline static constexpr unsigned int TravelBrochureDiaryChoiceRow_TypeDefinitionIndex = 15373;
 
 	class TravelBrochureDiaryChoiceRow : public ::System::Object
 	{
 	public:
-		::RPG::Client::TextID ChoiceMessage; // 0x10
-		::RPG::Client::TextID DetailMessage; // 0x20
-		::System::UInt32 ID; // 0x30
+		::System::UInt32 ID; // 0x10
+		::RPG::Client::TextID ChoiceMessage; // 0x18
+		::RPG::Client::TextID DetailMessage; // 0x28
 
 		::System::Void _ctor()
 		{

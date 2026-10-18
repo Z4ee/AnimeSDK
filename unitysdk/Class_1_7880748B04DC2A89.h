@@ -7,18 +7,18 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define CLASS_1_7880748B04DC2A89_METHOD_1_13A4856CD0BBDB3F_OFFSET UNITYSDK_OFFSET(0x1CB6F360)
-#define CLASS_1_7880748B04DC2A89__CTOR_OFFSET UNITYSDK_OFFSET(0x1CB8A780)
+#define CLASS_1_7880748B04DC2A89_METHOD_1_13A4856CD0BBDB3F_OFFSET UNITYSDK_OFFSET(0x1D14CF10)
+#define CLASS_1_7880748B04DC2A89__CTOR_OFFSET UNITYSDK_OFFSET(0x1D14D120)
 
-inline static constexpr unsigned int Class_1_7880748B04DC2A89_TypeDefinitionIndex = 15225;
+inline static constexpr unsigned int Class_1_7880748B04DC2A89_TypeDefinitionIndex = 15396;
 
 class Class_1_7880748B04DC2A89 : public ::System::Object
 {
 public:
 	::System::String* FBKAMIHGLFK; // 0x10
-	::RPG::GameCore::TutorialPlatformType FLEADHOPGGN; // 0x18
-	::System::UInt32 PHFMCACHFIJ; // 0x1C
-	::RPG::Client::TextID PJHMJKEIGOA; // 0x20
+	::RPG::Client::TextID PJHMJKEIGOA; // 0x18
+	::System::UInt32 PHFMCACHFIJ; // 0x28
+	::RPG::GameCore::TutorialPlatformType FLEADHOPGGN; // 0x2C
 
 	::System::Void _ctor()
 	{

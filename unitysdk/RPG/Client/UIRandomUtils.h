@@ -4,13 +4,13 @@
 
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 
-#define RPG_CLIENT_UIRANDOMUTILS_RANGEFLOAT_OFFSET UNITYSDK_OFFSET(0xE3B38E0)
-#define RPG_CLIENT_UIRANDOMUTILS_RANGEINT_OFFSET UNITYSDK_OFFSET(0xE3B3950)
-#define RPG_CLIENT_UIRANDOMUTILS__CTOR_OFFSET UNITYSDK_OFFSET(0xE3B39A0)
+#define RPG_CLIENT_UIRANDOMUTILS_RANGEFLOAT_OFFSET UNITYSDK_OFFSET(0xE3F4B00)
+#define RPG_CLIENT_UIRANDOMUTILS_RANGEINT_OFFSET UNITYSDK_OFFSET(0xE3F4B70)
+#define RPG_CLIENT_UIRANDOMUTILS__CTOR_OFFSET UNITYSDK_OFFSET(0xE3F4BC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIRandomUtils_TypeDefinitionIndex = 73086;
+	inline static constexpr unsigned int UIRandomUtils_TypeDefinitionIndex = 73181;
 
 	class UIRandomUtils : public ::System::Object
 	{

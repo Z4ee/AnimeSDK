@@ -5,11 +5,11 @@
 namespace RPG::Client::LittleGame { class PresetConfig; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_LITTLEGAME_PLACEMENTGROUPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C49A0A0)
+#define RPG_CLIENT_LITTLEGAME_PLACEMENTGROUPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CA095F0)
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int PlacementGroupConfig_TypeDefinitionIndex = 41040;
+	inline static constexpr unsigned int PlacementGroupConfig_TypeDefinitionIndex = 42326;
 
 	class PlacementGroupConfig : public ::RPG::Client::LittleGame::WeightConfig
 	{

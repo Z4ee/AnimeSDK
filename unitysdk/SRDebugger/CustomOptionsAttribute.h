@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define SRDEBUGGER_CUSTOMOPTIONSATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E66E780)
+#define SRDEBUGGER_CUSTOMOPTIONSATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1ED366E0)
 
 namespace SRDebugger
 {
-	inline static constexpr unsigned int CustomOptionsAttribute_TypeDefinitionIndex = 37271;
+	inline static constexpr unsigned int CustomOptionsAttribute_TypeDefinitionIndex = 37964;
 
 	class CustomOptionsAttribute : public ::System::Attribute
 	{

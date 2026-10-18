@@ -4,29 +4,29 @@
 
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_CHIMERAARRANGEMENTINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xCBBF650)
-#define RPG_CLIENT_CHIMERAARRANGEMENTINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0xCBBF680)
-#define RPG_CLIENT_CHIMERAARRANGEMENTINFO___C___FILTERARRANGEMENTBYDEATH_B__55_0_OFFSET UNITYSDK_OFFSET(0xCBBF6A0)
-#define RPG_CLIENT_CHIMERAARRANGEMENTINFO___C___SYNCARRANGEDCOMMON_B__50_0_OFFSET UNITYSDK_OFFSET(0xCBBF690)
+#define RPG_CLIENT_CHIMERAARRANGEMENTINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xCB0EBC0)
+#define RPG_CLIENT_CHIMERAARRANGEMENTINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0xCB0EBF0)
+#define RPG_CLIENT_CHIMERAARRANGEMENTINFO___C___FILTERARRANGEMENTBYDEATH_B__55_0_OFFSET UNITYSDK_OFFSET(0xCB0EC10)
+#define RPG_CLIENT_CHIMERAARRANGEMENTINFO___C___SYNCARRANGEDCOMMON_B__50_0_OFFSET UNITYSDK_OFFSET(0xCB0EC00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraArrangementInfo___c_TypeDefinitionIndex = 63466;
+	inline static constexpr unsigned int ChimeraArrangementInfo___c_TypeDefinitionIndex = 63404;
 
 	class ChimeraArrangementInfo___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::ChimeraArrangementInfo___c** StaticGet___9()
+		static ::System::Func_2<::System::UInt32, ::System::Boolean>** StaticGet___9__50_0()
 		{
-			return (::RPG::Client::ChimeraArrangementInfo___c**)Il2CppClass::FromTypeDefinitionIndex(ChimeraArrangementInfo___c_TypeDefinitionIndex)->GetStaticField(0x41160);
+			return (::System::Func_2<::System::UInt32, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ChimeraArrangementInfo___c_TypeDefinitionIndex)->GetStaticField(0xE770);
 		}
 		static ::System::Func_2<::System::UInt32, ::System::Boolean>** StaticGet___9__55_0()
 		{
-			return (::System::Func_2<::System::UInt32, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ChimeraArrangementInfo___c_TypeDefinitionIndex)->GetStaticField(0x41168);
+			return (::System::Func_2<::System::UInt32, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ChimeraArrangementInfo___c_TypeDefinitionIndex)->GetStaticField(0xE778);
 		}
-		static ::System::Func_2<::System::UInt32, ::System::Boolean>** StaticGet___9__50_0()
+		static ::RPG::Client::ChimeraArrangementInfo___c** StaticGet___9()
 		{
-			return (::System::Func_2<::System::UInt32, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ChimeraArrangementInfo___c_TypeDefinitionIndex)->GetStaticField(0x41170);
+			return (::RPG::Client::ChimeraArrangementInfo___c**)Il2CppClass::FromTypeDefinitionIndex(ChimeraArrangementInfo___c_TypeDefinitionIndex)->GetStaticField(0xE780);
 		}
 
 		static ::System::Void _cctor()

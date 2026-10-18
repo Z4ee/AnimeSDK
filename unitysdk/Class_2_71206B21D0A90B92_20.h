@@ -2,28 +2,26 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Class_1_5F51D4049EA87B7B.h"
 
-class Class_3_FA3DB7B30E78C0CA_41;
+class Class_3_6BA10DC46C47290E_5;
 namespace RPG::GameCore { class TaskContext; }
-namespace System { class Object; }
 
-#define CLASS_2_71206B21D0A90B92_20_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15672120)
-#define CLASS_2_71206B21D0A90B92_20_METHOD_2_FB92C5E10C2076F0_OFFSET UNITYSDK_OFFSET(0x156722B0)
-#define CLASS_2_71206B21D0A90B92_20_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x156721A0)
-#define CLASS_2_71206B21D0A90B92_20_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x156720D0)
-#define CLASS_2_71206B21D0A90B92_20_TICK_OFFSET UNITYSDK_OFFSET(0x15672070)
-#define CLASS_2_71206B21D0A90B92_20__CTOR_OFFSET UNITYSDK_OFFSET(0x15672060)
+#define CLASS_2_71206B21D0A90B92_20_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB999D80)
+#define CLASS_2_71206B21D0A90B92_20_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB999DC0)
+#define CLASS_2_71206B21D0A90B92_20_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB999D30)
+#define CLASS_2_71206B21D0A90B92_20_TICK_OFFSET UNITYSDK_OFFSET(0xB999CD0)
+#define CLASS_2_71206B21D0A90B92_20__CTOR_OFFSET UNITYSDK_OFFSET(0xB999CC0)
 
-inline static constexpr unsigned int Class_2_71206B21D0A90B92_20_TypeDefinitionIndex = 58643;
+inline static constexpr unsigned int Class_2_71206B21D0A90B92_20_TypeDefinitionIndex = 58484;
 
 class Class_2_71206B21D0A90B92_20 : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::Class_3_FA3DB7B30E78C0CA_41* JKJPFJALGKO; // 0x18
-	::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+	::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+	::Class_3_6BA10DC46C47290E_5* JKJPFJALGKO; // 0x20
 
-	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::Class_3_FA3DB7B30E78C0CA_41* a2)
+	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::Class_3_6BA10DC46C47290E_5* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::Class_3_FA3DB7B30E78C0CA_41*))((::PBYTE)hIl2Cpp + CLASS_2_71206B21D0A90B92_20__CTOR_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::Class_3_6BA10DC46C47290E_5*))((::PBYTE)hIl2Cpp + CLASS_2_71206B21D0A90B92_20__CTOR_OFFSET))(this, a1, a2);
 	}
 
 	::System::Void Tick(::System::Single a1)
@@ -44,10 +42,5 @@ public:
 	::System::Void OnTaskBegin()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_71206B21D0A90B92_20_ONTASKBEGIN_OFFSET))(this);
-	}
-
-	::System::Void Method_2_FB92C5E10C2076F0(::System::UInt16 a1, ::System::Object* a2)
-	{
-		return ((::System::Void(*)(::PVOID, ::System::UInt16, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_2_71206B21D0A90B92_20_METHOD_2_FB92C5E10C2076F0_OFFSET))(this, a1, a2);
 	}
 };

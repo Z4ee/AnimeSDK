@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define MONOSTAIRGENERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0xBBC5380)
+#define MONOSTAIRGENERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0xBA4F050)
 
-inline static constexpr unsigned int MonoStairGenerator_TypeDefinitionIndex = 47967;
+inline static constexpr unsigned int MonoStairGenerator_TypeDefinitionIndex = 47507;
 
 class MonoStairGenerator : public ::UnityEngine::MonoBehaviour
 {

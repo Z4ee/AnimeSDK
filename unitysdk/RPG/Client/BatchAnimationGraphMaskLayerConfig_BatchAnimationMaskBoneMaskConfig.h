@@ -4,11 +4,11 @@
 
 namespace UnityEngine::Rendering { class BatchAnimationBoneMask; }
 
-#define RPG_CLIENT_BATCHANIMATIONGRAPHMASKLAYERCONFIG_BATCHANIMATIONMASKBONEMASKCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xC8D2C70)
+#define RPG_CLIENT_BATCHANIMATIONGRAPHMASKLAYERCONFIG_BATCHANIMATIONMASKBONEMASKCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xC7F5AF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BatchAnimationGraphMaskLayerConfig_BatchAnimationMaskBoneMaskConfig_TypeDefinitionIndex = 60150;
+	inline static constexpr unsigned int BatchAnimationGraphMaskLayerConfig_BatchAnimationMaskBoneMaskConfig_TypeDefinitionIndex = 60013;
 
 	class BatchAnimationGraphMaskLayerConfig_BatchAnimationMaskBoneMaskConfig : public ::System::Object
 	{

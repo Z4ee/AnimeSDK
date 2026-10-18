@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlayerReturnJourneyItemType_TypeDefinitionIndex = 14372;
+	inline static constexpr unsigned int PlayerReturnJourneyItemType_TypeDefinitionIndex = 14537;
 
 	enum class PlayerReturnJourneyItemType : ::System::Int32
 	{

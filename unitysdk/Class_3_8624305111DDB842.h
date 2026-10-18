@@ -6,10 +6,10 @@ namespace RPG::Client { class MonoEffect; }
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TriggerSDFTextEffect; }
 
-#define CLASS_3_8624305111DDB842_METHOD_3_9DFD52E945D90BE1_OFFSET UNITYSDK_OFFSET(0x157D98B0)
-#define CLASS_3_8624305111DDB842__CTOR_OFFSET UNITYSDK_OFFSET(0x157D9800)
+#define CLASS_3_8624305111DDB842_METHOD_3_9DFD52E945D90BE1_OFFSET UNITYSDK_OFFSET(0x15ACDB60)
+#define CLASS_3_8624305111DDB842__CTOR_OFFSET UNITYSDK_OFFSET(0x15ACDAB0)
 
-inline static constexpr unsigned int Class_3_8624305111DDB842_TypeDefinitionIndex = 55954;
+inline static constexpr unsigned int Class_3_8624305111DDB842_TypeDefinitionIndex = 55766;
 
 class Class_3_8624305111DDB842 : public ::Class_2_07CB640A20D6F01A
 {

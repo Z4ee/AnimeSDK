@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class GridFightGridMember; }
 
-#define RPG_CLIENT_GRIDFIGHTTRAITCOREROLECHOOSEEFFECT___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD35EA40)
-#define RPG_CLIENT_GRIDFIGHTTRAITCOREROLECHOOSEEFFECT___C__DISPLAYCLASS15_0__GETSUBTRAITCONFIGBYUID_B__0_OFFSET UNITYSDK_OFFSET(0xD35F4D0)
+#define RPG_CLIENT_GRIDFIGHTTRAITCOREROLECHOOSEEFFECT___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD2B7E10)
+#define RPG_CLIENT_GRIDFIGHTTRAITCOREROLECHOOSEEFFECT___C__DISPLAYCLASS15_0__GETSUBTRAITCONFIGBYUID_B__0_OFFSET UNITYSDK_OFFSET(0xD2B8890)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightTraitCoreRoleChooseEffect___c__DisplayClass15_0_TypeDefinitionIndex = 65456;
+	inline static constexpr unsigned int GridFightTraitCoreRoleChooseEffect___c__DisplayClass15_0_TypeDefinitionIndex = 65396;
 
 	class GridFightTraitCoreRoleChooseEffect___c__DisplayClass15_0 : public ::System::Object
 	{

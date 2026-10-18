@@ -5,19 +5,19 @@
 namespace System { class String; }
 namespace ZenFulcrum::EmbeddedBrowser { class FileLocations_CEFDirs; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_FILELOCATIONS_GETCEFDIRS_OFFSET UNITYSDK_OFFSET(0x1EF95C50)
-#define ZENFULCRUM_EMBEDDEDBROWSER_FILELOCATIONS_GET_DIRS_OFFSET UNITYSDK_OFFSET(0x1EF6FD40)
+#define ZENFULCRUM_EMBEDDEDBROWSER_FILELOCATIONS_GETCEFDIRS_OFFSET UNITYSDK_OFFSET(0x1F65E110)
+#define ZENFULCRUM_EMBEDDEDBROWSER_FILELOCATIONS_GET_DIRS_OFFSET UNITYSDK_OFFSET(0x1F637940)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int FileLocations_TypeDefinitionIndex = 38208;
+	inline static constexpr unsigned int FileLocations_TypeDefinitionIndex = 39505;
 
 	class FileLocations : public ::System::Object
 	{
 	public:
 		static ::ZenFulcrum::EmbeddedBrowser::FileLocations_CEFDirs** StaticGet__dirs()
 		{
-			return (::ZenFulcrum::EmbeddedBrowser::FileLocations_CEFDirs**)Il2CppClass::FromTypeDefinitionIndex(FileLocations_TypeDefinitionIndex)->GetStaticField(0x57C90);
+			return (::ZenFulcrum::EmbeddedBrowser::FileLocations_CEFDirs**)Il2CppClass::FromTypeDefinitionIndex(FileLocations_TypeDefinitionIndex)->GetStaticField(0x529F0);
 		}
 		// static const ::System::String* SlaveExecutable; // 0x0
 

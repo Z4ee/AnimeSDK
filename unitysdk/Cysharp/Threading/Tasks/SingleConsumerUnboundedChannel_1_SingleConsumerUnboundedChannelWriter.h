@@ -7,7 +7,7 @@ namespace System { class Exception; }
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int SingleConsumerUnboundedChannel_1_SingleConsumerUnboundedChannelWriter_TypeDefinitionIndex = 42562;
+	inline static constexpr unsigned int SingleConsumerUnboundedChannel_1_SingleConsumerUnboundedChannelWriter_TypeDefinitionIndex = 38147;
 
 	template <typename T>
 	class SingleConsumerUnboundedChannel_1_SingleConsumerUnboundedChannelWriter : public ::Cysharp::Threading::Tasks::ChannelWriter_1<T>

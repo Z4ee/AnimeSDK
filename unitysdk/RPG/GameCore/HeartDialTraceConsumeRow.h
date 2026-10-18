@@ -7,12 +7,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ItemConfig; }
 
-#define RPG_GAMECORE_HEARTDIALTRACECONSUMEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D17DDC0)
-#define RPG_GAMECORE_HEARTDIALTRACECONSUMEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D17E080)
+#define RPG_GAMECORE_HEARTDIALTRACECONSUMEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D7590D0)
+#define RPG_GAMECORE_HEARTDIALTRACECONSUMEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D759390)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HeartDialTraceConsumeRow_TypeDefinitionIndex = 13625;
+	inline static constexpr unsigned int HeartDialTraceConsumeRow_TypeDefinitionIndex = 13732;
 
 	class HeartDialTraceConsumeRow : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace RPG::GameCore
 		::System::UInt32 MapInfoID; // 0x18
 		::System::UInt32 HeartDialTraceID; // 0x1C
 		::System::Int32 MiniMapID; // 0x20
-		::System::UInt32 FloorID; // 0x24
+		::RPG::GameCore::HeartDialEmoType HeartDialEmotion; // 0x24
 		::RPG::GameCore::HeartDialStepType HeartDialStep; // 0x28
-		::RPG::GameCore::HeartDialEmoType HeartDialEmotion; // 0x2C
+		::System::UInt32 FloorID; // 0x2C
 
 		::System::Void _ctor()
 		{

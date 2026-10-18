@@ -6,14 +6,15 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ModifierForceKillConfig; }
 namespace RPG::GameCore { class ModifierHint; }
+namespace RPG::GameCore { class ModifierMonsterHPMarkConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TURNBASEDMODIFIERUICONFIG_METHOD_2_8123D29418BDE619_OFFSET UNITYSDK_OFFSET(0x1D60F050)
-#define RPG_GAMECORE_TURNBASEDMODIFIERUICONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D60FA30)
+#define RPG_GAMECORE_TURNBASEDMODIFIERUICONFIG_METHOD_2_8123D29418BDE619_OFFSET UNITYSDK_OFFSET(0x1DC63290)
+#define RPG_GAMECORE_TURNBASEDMODIFIERUICONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1DC63C90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TurnBasedModifierUIConfig_TypeDefinitionIndex = 18034;
+	inline static constexpr unsigned int TurnBasedModifierUIConfig_TypeDefinitionIndex = 18249;
 
 	class TurnBasedModifierUIConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -28,6 +29,7 @@ namespace RPG::GameCore
 		::System::String* TextPath; // 0x38
 		::Il2CppArray<::RPG::GameCore::ModifierHint*>* Hints; // 0x40
 		::RPG::GameCore::ModifierForceKillConfig* ForceKillConfig; // 0x48
+		::RPG::GameCore::ModifierMonsterHPMarkConfig* MonsterHPMarkConfig; // 0x50
 
 		::System::Void _ctor()
 		{

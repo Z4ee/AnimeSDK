@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int NPCBornType_TypeDefinitionIndex = 10465;
+	inline static constexpr unsigned int NPCBornType_TypeDefinitionIndex = 10481;
 
 	enum class NPCBornType : ::System::Int32
 	{

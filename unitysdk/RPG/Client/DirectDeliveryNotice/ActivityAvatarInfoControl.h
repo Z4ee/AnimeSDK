@@ -6,22 +6,22 @@ namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class Image; }
 namespace UnityEngine::UI { class Text; }
 
-#define RPG_CLIENT_DIRECTDELIVERYNOTICE_ACTIVITYAVATARINFOCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0xCD79860)
-#define RPG_CLIENT_DIRECTDELIVERYNOTICE_ACTIVITYAVATARINFOCONTROL__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0xCD78960)
-#define RPG_CLIENT_DIRECTDELIVERYNOTICE_ACTIVITYAVATARINFOCONTROL__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0xCD79760)
+#define RPG_CLIENT_DIRECTDELIVERYNOTICE_ACTIVITYAVATARINFOCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0xCCCA820)
+#define RPG_CLIENT_DIRECTDELIVERYNOTICE_ACTIVITYAVATARINFOCONTROL__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0xCCC9920)
+#define RPG_CLIENT_DIRECTDELIVERYNOTICE_ACTIVITYAVATARINFOCONTROL__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0xCCCA720)
 
 namespace RPG::Client::DirectDeliveryNotice
 {
-	inline static constexpr unsigned int ActivityAvatarInfoControl_TypeDefinitionIndex = 79913;
+	inline static constexpr unsigned int ActivityAvatarInfoControl_TypeDefinitionIndex = 81237;
 
 	class ActivityAvatarInfoControl : public ::Sofa::BaseSofaControl
 	{
 	public:
-		::UnityEngine::UI::Image* _ImgDamageType; // 0x38
-		::UnityEngine::UI::Text* _TextAvatarName; // 0x40
-		::UnityEngine::UI::Button* _BtnAvatarDetail; // 0x48
-		::UnityEngine::UI::Image* _ImgProfessionIcon; // 0x50
-		::UnityEngine::UI::Text* _TxtProfessionName; // 0x58
+		::UnityEngine::UI::Image* _ImgDamageType; // 0x40
+		::UnityEngine::UI::Text* _TextAvatarName; // 0x48
+		::UnityEngine::UI::Button* _BtnAvatarDetail; // 0x50
+		::UnityEngine::UI::Image* _ImgProfessionIcon; // 0x58
+		::UnityEngine::UI::Text* _TxtProfessionName; // 0x60
 
 		::System::Void _ctor()
 		{

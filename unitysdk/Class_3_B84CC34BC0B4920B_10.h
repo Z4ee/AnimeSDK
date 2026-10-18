@@ -7,10 +7,10 @@ namespace RPG::GameCore { class TargetFetchDataViewUISelectLeave; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_3_B84CC34BC0B4920B_10_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC01EF20)
-#define CLASS_3_B84CC34BC0B4920B_10__CTOR_OFFSET UNITYSDK_OFFSET(0xC01EED0)
+#define CLASS_3_B84CC34BC0B4920B_10_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBF08560)
+#define CLASS_3_B84CC34BC0B4920B_10__CTOR_OFFSET UNITYSDK_OFFSET(0xBF08510)
 
-inline static constexpr unsigned int Class_3_B84CC34BC0B4920B_10_TypeDefinitionIndex = 59400;
+inline static constexpr unsigned int Class_3_B84CC34BC0B4920B_10_TypeDefinitionIndex = 59253;
 
 class Class_3_B84CC34BC0B4920B_10 : public ::RPG::GameCore::TargetEvaluatorImpl_1<::RPG::GameCore::TargetFetchDataViewUISelectLeave*>
 {

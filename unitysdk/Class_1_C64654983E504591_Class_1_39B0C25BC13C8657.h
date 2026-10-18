@@ -8,9 +8,9 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define CLASS_1_C64654983E504591_CLASS_1_39B0C25BC13C8657__CTOR_OFFSET UNITYSDK_OFFSET(0xE870DD0)
+#define CLASS_1_C64654983E504591_CLASS_1_39B0C25BC13C8657__CTOR_OFFSET UNITYSDK_OFFSET(0xE8338F0)
 
-inline static constexpr unsigned int Class_1_C64654983E504591_Class_1_39B0C25BC13C8657_TypeDefinitionIndex = 76240;
+inline static constexpr unsigned int Class_1_C64654983E504591_Class_1_39B0C25BC13C8657_TypeDefinitionIndex = 76717;
 
 class Class_1_C64654983E504591_Class_1_39B0C25BC13C8657 : public ::System::Object
 {

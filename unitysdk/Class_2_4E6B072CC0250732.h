@@ -1,23 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_43BD383C98B4C0C5_218.h"
+#include "unitysdk/Class_1_43BD383C98B4C0C5_220.h"
 #include "unitysdk/Struct_2_BA7046B740FEFA98.h"
 
 class Class_1_39DC98424E208118;
 namespace RPG::Client::Prop { class BoxmanPuzzleBoard; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_4E6B072CC0250732__CCTOR_OFFSET UNITYSDK_OFFSET(0xCCDD470)
-#define CLASS_2_4E6B072CC0250732__CTOR_OFFSET UNITYSDK_OFFSET(0xCCDD400)
+#define CLASS_2_4E6B072CC0250732__CCTOR_OFFSET UNITYSDK_OFFSET(0xCC4F4A0)
+#define CLASS_2_4E6B072CC0250732__CTOR_OFFSET UNITYSDK_OFFSET(0xCC4F430)
 
-inline static constexpr unsigned int Class_2_4E6B072CC0250732_TypeDefinitionIndex = 78468;
+inline static constexpr unsigned int Class_2_4E6B072CC0250732_TypeDefinitionIndex = 78939;
 
-class Class_2_4E6B072CC0250732 : public ::Class_1_43BD383C98B4C0C5_218
+class Class_2_4E6B072CC0250732 : public ::Class_1_43BD383C98B4C0C5_220
 {
 public:
 	static ::System::Collections::Generic::List_1<::Struct_2_BA7046B740FEFA98>** StaticGet_PHBNPGOELBP()
 	{
-		return (::System::Collections::Generic::List_1<::Struct_2_BA7046B740FEFA98>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_4E6B072CC0250732_TypeDefinitionIndex)->GetStaticField(0x5DB50);
+		return (::System::Collections::Generic::List_1<::Struct_2_BA7046B740FEFA98>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_4E6B072CC0250732_TypeDefinitionIndex)->GetStaticField(0x23B40);
 	}
 	::System::Collections::Generic::List_1<::Class_1_39DC98424E208118*>* JBDJGOJIKLJ; // 0x10
 	::System::Collections::Generic::List_1<::Class_1_39DC98424E208118*>* DMGBFHODIBD; // 0x18

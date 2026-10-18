@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_EFFECTNOTIFYCONFIG_METHOD_2_CDDAB0DBB8CE33B7_OFFSET UNITYSDK_OFFSET(0x1D0545D0)
-#define RPG_GAMECORE_EFFECTNOTIFYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D054760)
+#define RPG_GAMECORE_EFFECTNOTIFYCONFIG_METHOD_2_D6BF842B21489B78_OFFSET UNITYSDK_OFFSET(0x1D630F70)
+#define RPG_GAMECORE_EFFECTNOTIFYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D631200)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EffectNotifyConfig_TypeDefinitionIndex = 16768;
+	inline static constexpr unsigned int EffectNotifyConfig_TypeDefinitionIndex = 16962;
 
 	class EffectNotifyConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EFFECTNOTIFYCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_CDDAB0DBB8CE33B7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::EffectNotifyConfig*& a2)
+		static ::System::Void Method_2_D6BF842B21489B78(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::EffectNotifyConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::EffectNotifyConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EFFECTNOTIFYCONFIG_METHOD_2_CDDAB0DBB8CE33B7_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::EffectNotifyConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EFFECTNOTIFYCONFIG_METHOD_2_D6BF842B21489B78_OFFSET))(a1, a2);
 		}
 	};
 }

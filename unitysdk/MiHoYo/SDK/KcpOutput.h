@@ -6,14 +6,14 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_KCPOUTPUT_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xB211B40)
-#define MIHOYO_SDK_KCPOUTPUT_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xB211BF0)
-#define MIHOYO_SDK_KCPOUTPUT_INVOKE_OFFSET UNITYSDK_OFFSET(0xB211B10)
-#define MIHOYO_SDK_KCPOUTPUT__CTOR_OFFSET UNITYSDK_OFFSET(0xB211AA0)
+#define MIHOYO_SDK_KCPOUTPUT_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xAFB9070)
+#define MIHOYO_SDK_KCPOUTPUT_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xAFB9120)
+#define MIHOYO_SDK_KCPOUTPUT_INVOKE_OFFSET UNITYSDK_OFFSET(0xAFB9040)
+#define MIHOYO_SDK_KCPOUTPUT__CTOR_OFFSET UNITYSDK_OFFSET(0xAFB8FD0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int KcpOutput_TypeDefinitionIndex = 46585;
+	inline static constexpr unsigned int KcpOutput_TypeDefinitionIndex = 46136;
 
 	class KcpOutput : public ::System::MulticastDelegate
 	{

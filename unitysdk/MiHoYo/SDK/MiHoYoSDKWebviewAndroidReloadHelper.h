@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define MIHOYO_SDK_MIHOYOSDKWEBVIEWANDROIDRELOADHELPER__CTOR_OFFSET UNITYSDK_OFFSET(0xB2744D0)
+#define MIHOYO_SDK_MIHOYOSDKWEBVIEWANDROIDRELOADHELPER__CTOR_OFFSET UNITYSDK_OFFSET(0xB013370)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MiHoYoSDKWebviewAndroidReloadHelper_TypeDefinitionIndex = 47066;
+	inline static constexpr unsigned int MiHoYoSDKWebviewAndroidReloadHelper_TypeDefinitionIndex = 46606;
 
 	class MiHoYoSDKWebviewAndroidReloadHelper : public ::UnityEngine::MonoBehaviour
 	{

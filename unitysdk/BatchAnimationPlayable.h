@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Rendering/SynthesizerType.h"
 
-#define BATCHANIMATIONPLAYABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C661540)
+#define BATCHANIMATIONPLAYABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CBE7820)
 
-inline static constexpr unsigned int BatchAnimationPlayable_TypeDefinitionIndex = 36782;
+inline static constexpr unsigned int BatchAnimationPlayable_TypeDefinitionIndex = 37469;
 
 class BatchAnimationPlayable : public ::System::Object
 {

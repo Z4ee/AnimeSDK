@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define RPG_CLIENT_WOLFBROGUNPLAYTARGET_ROGUEHP_STRUCT_2_680BF1744D60EED9_4__CTOR_OFFSET UNITYSDK_OFFSET(0x7DC40)
+#define RPG_CLIENT_WOLFBROGUNPLAYTARGET_ROGUEHP_STRUCT_2_680BF1744D60EED9_4__CTOR_OFFSET UNITYSDK_OFFSET(0x111F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int WolfBroGunPlayTarget_RogueHP_Struct_2_680BF1744D60EED9_4_TypeDefinitionIndex = 68700;
+	inline static constexpr unsigned int WolfBroGunPlayTarget_RogueHP_Struct_2_680BF1744D60EED9_4_TypeDefinitionIndex = 68734;
 
 	struct alignas(4) WolfBroGunPlayTarget_RogueHP_Struct_2_680BF1744D60EED9_4
 	{

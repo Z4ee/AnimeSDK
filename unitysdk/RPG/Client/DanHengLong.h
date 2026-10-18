@@ -9,14 +9,14 @@ namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class SkinnedMeshRenderer; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_DANHENGLONG_LATETICK_OFFSET UNITYSDK_OFFSET(0xCC945C0)
-#define RPG_CLIENT_DANHENGLONG_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xCC94530)
-#define RPG_CLIENT_DANHENGLONG_ONENABLE_OFFSET UNITYSDK_OFFSET(0xCC94460)
-#define RPG_CLIENT_DANHENGLONG__CTOR_OFFSET UNITYSDK_OFFSET(0xCC954A0)
+#define RPG_CLIENT_DANHENGLONG_LATETICK_OFFSET UNITYSDK_OFFSET(0xCBE7AC0)
+#define RPG_CLIENT_DANHENGLONG_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xCBE7A30)
+#define RPG_CLIENT_DANHENGLONG_ONENABLE_OFFSET UNITYSDK_OFFSET(0xCBE7960)
+#define RPG_CLIENT_DANHENGLONG__CTOR_OFFSET UNITYSDK_OFFSET(0xCBE89A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DanHengLong_TypeDefinitionIndex = 70366;
+	inline static constexpr unsigned int DanHengLong_TypeDefinitionIndex = 70402;
 
 	class DanHengLong : public ::UnityEngine::MonoBehaviour
 	{

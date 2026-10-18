@@ -5,12 +5,12 @@
 namespace System::Reflection { class MemberInfo; }
 namespace System::Reflection { class PropertyInfo; }
 
-#define SRF_HELPERS_SRREFLECTION_GETPROPERTYVALUE_OFFSET UNITYSDK_OFFSET(0x1E6A9B60)
-#define SRF_HELPERS_SRREFLECTION_SETPROPERTYVALUE_OFFSET UNITYSDK_OFFSET(0x1E6A9CA0)
+#define SRF_HELPERS_SRREFLECTION_GETPROPERTYVALUE_OFFSET UNITYSDK_OFFSET(0x1ED71430)
+#define SRF_HELPERS_SRREFLECTION_SETPROPERTYVALUE_OFFSET UNITYSDK_OFFSET(0x1ED71560)
 
 namespace SRF::Helpers
 {
-	inline static constexpr unsigned int SRReflection_TypeDefinitionIndex = 34762;
+	inline static constexpr unsigned int SRReflection_TypeDefinitionIndex = 35431;
 
 	class SRReflection : public ::System::Object
 	{

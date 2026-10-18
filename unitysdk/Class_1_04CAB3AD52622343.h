@@ -6,18 +6,18 @@ namespace RPG::GameCore { class NPCAppearancePreset; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_04CAB3AD52622343_METHOD_1_28B23DE8A63535F5_OFFSET UNITYSDK_OFFSET(0xB9BA180)
-#define CLASS_1_04CAB3AD52622343_METHOD_1_89D1F247B9D324EE_OFFSET UNITYSDK_OFFSET(0xB9BA0E0)
-#define CLASS_1_04CAB3AD52622343_METHOD_1_DE52BD42C4B0B772_OFFSET UNITYSDK_OFFSET(0xB9B9EF0)
+#define CLASS_1_04CAB3AD52622343_METHOD_1_28B23DE8A63535F5_OFFSET UNITYSDK_OFFSET(0xB873CE0)
+#define CLASS_1_04CAB3AD52622343_METHOD_1_89D1F247B9D324EE_OFFSET UNITYSDK_OFFSET(0xB873C40)
+#define CLASS_1_04CAB3AD52622343_METHOD_1_DE52BD42C4B0B772_OFFSET UNITYSDK_OFFSET(0xB873A50)
 
-inline static constexpr unsigned int Class_1_04CAB3AD52622343_TypeDefinitionIndex = 73206;
+inline static constexpr unsigned int Class_1_04CAB3AD52622343_TypeDefinitionIndex = 73302;
 
 class Class_1_04CAB3AD52622343 : public ::System::Object
 {
 public:
 	static ::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::NPCAppearancePreset*>** StaticGet_KNLDGAEEMCH()
 	{
-		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::NPCAppearancePreset*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_04CAB3AD52622343_TypeDefinitionIndex)->GetStaticField(0x37840);
+		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::NPCAppearancePreset*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_04CAB3AD52622343_TypeDefinitionIndex)->GetStaticField(0x6E740);
 	}
 
 	static ::System::Void Method_1_DE52BD42C4B0B772()

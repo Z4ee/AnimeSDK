@@ -15,39 +15,39 @@ namespace UnityEngine { class Animation; }
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI { class Button; }
 
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSISSUECONTROL_GET__VIEWMODEL_OFFSET UNITYSDK_OFFSET(0xD45C250)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSISSUECONTROL_ONLIMAONEWSSUBMITISSUE_OFFSET UNITYSDK_OFFSET(0xD45CF60)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSISSUECONTROL_REFRESHSUBMITNODE_OFFSET UNITYSDK_OFFSET(0xD45CE30)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSISSUECONTROL_TRYSHOWSUBMITNODEWITHFADEIN_OFFSET UNITYSDK_OFFSET(0xD45CB00)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSISSUECONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0xD45D340)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSISSUECONTROL__GETPAGENUMITEMCONTROL_OFFSET UNITYSDK_OFFSET(0xD45C590)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSISSUECONTROL__GETTABITEMCONTROL_OFFSET UNITYSDK_OFFSET(0xD45C2D0)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSISSUECONTROL__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0xD45B1F0)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSISSUECONTROL__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0xD45AE40)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSISSUECONTROL_GET__VIEWMODEL_OFFSET UNITYSDK_OFFSET(0xD3B3020)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSISSUECONTROL_ONLIMAONEWSSUBMITISSUE_OFFSET UNITYSDK_OFFSET(0xD3B3C60)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSISSUECONTROL_REFRESHSUBMITNODE_OFFSET UNITYSDK_OFFSET(0xD3B3BA0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSISSUECONTROL_TRYSHOWSUBMITNODEWITHFADEIN_OFFSET UNITYSDK_OFFSET(0xD3B3930)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSISSUECONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0xD3B4040)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSISSUECONTROL__GETPAGENUMITEMCONTROL_OFFSET UNITYSDK_OFFSET(0xD3B3390)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSISSUECONTROL__GETTABITEMCONTROL_OFFSET UNITYSDK_OFFSET(0xD3B30D0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSISSUECONTROL__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0xD3B23D0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSISSUECONTROL__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0xD3B1FF0)
 
 namespace RPG::Client::LimaoNews
 {
-	inline static constexpr unsigned int LimaoNewsIssueControl_TypeDefinitionIndex = 79064;
+	inline static constexpr unsigned int LimaoNewsIssueControl_TypeDefinitionIndex = 80387;
 
 	class LimaoNewsIssueControl : public ::Sofa::BaseSofaControl
 	{
 	public:
-		::RPG::Client::LimaoNews::LimaoNewsIssueNumberControl* _CurrentIssueNumberControl; // 0x38
-		::System::Collections::Generic::List_1<::RPG::Client::LimaoNews::LimaoNewsInterviewControl*>* _InterviewControls; // 0x40
-		::RPG::Client::PrefabLoadMeta* _TabPrefabLoad; // 0x48
-		::RPG::Client::PrefabLoadMeta* _PageNumPrefabLoad; // 0x50
-		::UnityEngine::Transform* _NodeInterviewRoot; // 0x58
-		::System::Collections::Generic::List_1<::RPG::Client::LimaoNews::LimaoNewsIssueTabItemControl*>* _TabItemControls; // 0x60
-		::System::Collections::Generic::List_1<::RPG::Client::LimaoNews::LimaoNewsIssueNumItemControl*>* _PageNumItemControls; // 0x68
-		::UnityEngine::Transform* _NodeSubmit; // 0x70
-		::UnityEngine::UI::Button* _BtnSubmit; // 0x78
-		::UnityEngine::UI::Button* _BtnGamepadLeft; // 0x80
-		::UnityEngine::UI::Button* _BtnGamepadRight; // 0x88
-		::UnityEngine::Transform* _NodeGamepadLeft; // 0x90
-		::UnityEngine::Transform* _NodeGamepadRight; // 0x98
-		::RPG::Client::LimaoNews::LimaoNewsRewardNumControl* _SubmitRewardNumControl; // 0xA0
-		::RPG::Client::MonoAnimationTrigger* _MonoAnimationTriggerPublish; // 0xA8
-		::UnityEngine::Animation* _AnimationChannelPanel; // 0xB0
+		::RPG::Client::LimaoNews::LimaoNewsIssueNumberControl* _CurrentIssueNumberControl; // 0x40
+		::System::Collections::Generic::List_1<::RPG::Client::LimaoNews::LimaoNewsInterviewControl*>* _InterviewControls; // 0x48
+		::RPG::Client::PrefabLoadMeta* _TabPrefabLoad; // 0x50
+		::RPG::Client::PrefabLoadMeta* _PageNumPrefabLoad; // 0x58
+		::UnityEngine::Transform* _NodeInterviewRoot; // 0x60
+		::System::Collections::Generic::List_1<::RPG::Client::LimaoNews::LimaoNewsIssueTabItemControl*>* _TabItemControls; // 0x68
+		::System::Collections::Generic::List_1<::RPG::Client::LimaoNews::LimaoNewsIssueNumItemControl*>* _PageNumItemControls; // 0x70
+		::UnityEngine::Transform* _NodeSubmit; // 0x78
+		::UnityEngine::UI::Button* _BtnSubmit; // 0x80
+		::UnityEngine::UI::Button* _BtnGamepadLeft; // 0x88
+		::UnityEngine::UI::Button* _BtnGamepadRight; // 0x90
+		::UnityEngine::Transform* _NodeGamepadLeft; // 0x98
+		::UnityEngine::Transform* _NodeGamepadRight; // 0xA0
+		::RPG::Client::LimaoNews::LimaoNewsRewardNumControl* _SubmitRewardNumControl; // 0xA8
+		::RPG::Client::MonoAnimationTrigger* _MonoAnimationTriggerPublish; // 0xB0
+		::UnityEngine::Animation* _AnimationChannelPanel; // 0xB8
 
 		::System::Void _ctor()
 		{

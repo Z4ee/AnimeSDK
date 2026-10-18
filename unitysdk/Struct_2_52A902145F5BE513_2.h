@@ -5,7 +5,7 @@
 namespace RPG { template <typename T> class PoolList_1; }
 namespace System { class String; }
 
-inline static constexpr unsigned int Struct_2_52A902145F5BE513_2_TypeDefinitionIndex = 41795;
+inline static constexpr unsigned int Struct_2_52A902145F5BE513_2_TypeDefinitionIndex = 43437;
 
 struct alignas(8) Struct_2_52A902145F5BE513_2
 {

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByPlayerGravityOppositeToCurrentSurface; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_332C73C39C8B53F9_EVALUATE_OFFSET UNITYSDK_OFFSET(0x161CC6A0)
-#define CLASS_3_332C73C39C8B53F9__CTOR_OFFSET UNITYSDK_OFFSET(0x161CC670)
+#define CLASS_3_332C73C39C8B53F9_EVALUATE_OFFSET UNITYSDK_OFFSET(0x16544770)
+#define CLASS_3_332C73C39C8B53F9__CTOR_OFFSET UNITYSDK_OFFSET(0x16544740)
 
-inline static constexpr unsigned int Class_3_332C73C39C8B53F9_TypeDefinitionIndex = 53097;
+inline static constexpr unsigned int Class_3_332C73C39C8B53F9_TypeDefinitionIndex = 52823;
 
 class Class_3_332C73C39C8B53F9 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByPlayerGravityOppositeToCurrentSurface*>
 {

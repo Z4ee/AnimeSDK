@@ -4,12 +4,12 @@
 
 namespace RPG::Client::ActivityIdleLive { class CaptainData; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVEMODULE___C__DISPLAYCLASS256_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC614130)
-#define RPG_CLIENT_ACTIVITYIDLELIVEMODULE___C__DISPLAYCLASS256_0__GETCAPTAINONEBASEDRANK_B__0_OFFSET UNITYSDK_OFFSET(0xC614C60)
+#define RPG_CLIENT_ACTIVITYIDLELIVEMODULE___C__DISPLAYCLASS256_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC52B390)
+#define RPG_CLIENT_ACTIVITYIDLELIVEMODULE___C__DISPLAYCLASS256_0__GETCAPTAINONEBASEDRANK_B__0_OFFSET UNITYSDK_OFFSET(0xC52C6E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityIdleLiveModule___c__DisplayClass256_0_TypeDefinitionIndex = 61637;
+	inline static constexpr unsigned int ActivityIdleLiveModule___c__DisplayClass256_0_TypeDefinitionIndex = 61543;
 
 	class ActivityIdleLiveModule___c__DisplayClass256_0 : public ::System::Object
 	{

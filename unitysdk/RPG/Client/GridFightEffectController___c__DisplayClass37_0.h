@@ -6,20 +6,20 @@ namespace RPG::Client { class GridFightEffectController; }
 namespace RPG::Client { class GridFightRoleTraitEffect; }
 namespace System { class Action; }
 
-#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER___C__DISPLAYCLASS37_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD161290)
-#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER___C__DISPLAYCLASS37_0__PLAYROLETRAITEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0xD1625D0)
-#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER___C__DISPLAYCLASS37_0__PLAYROLETRAITEFFECT_B__1_OFFSET UNITYSDK_OFFSET(0xD162610)
+#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER___C__DISPLAYCLASS37_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD101670)
+#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER___C__DISPLAYCLASS37_0__PLAYROLETRAITEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0xD1029B0)
+#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER___C__DISPLAYCLASS37_0__PLAYROLETRAITEFFECT_B__1_OFFSET UNITYSDK_OFFSET(0xD1029F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightEffectController___c__DisplayClass37_0_TypeDefinitionIndex = 64552;
+	inline static constexpr unsigned int GridFightEffectController___c__DisplayClass37_0_TypeDefinitionIndex = 64492;
 
 	class GridFightEffectController___c__DisplayClass37_0 : public ::System::Object
 	{
 	public:
-		::System::Action* callback; // 0x10
-		::RPG::Client::GridFightEffectController* __4__this; // 0x18
-		::RPG::Client::GridFightRoleTraitEffect* effect; // 0x20
+		::RPG::Client::GridFightEffectController* __4__this; // 0x10
+		::RPG::Client::GridFightRoleTraitEffect* effect; // 0x18
+		::System::Action* callback; // 0x20
 
 		::System::Void _ctor()
 		{

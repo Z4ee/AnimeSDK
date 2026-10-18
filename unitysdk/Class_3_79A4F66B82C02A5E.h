@@ -4,9 +4,9 @@
 
 class Class_2_1A8148841049062A;
 
-#define CLASS_3_79A4F66B82C02A5E__CTOR_OFFSET UNITYSDK_OFFSET(0x1C38B780)
+#define CLASS_3_79A4F66B82C02A5E__CTOR_OFFSET UNITYSDK_OFFSET(0x1C8DD4E0)
 
-inline static constexpr unsigned int Class_3_79A4F66B82C02A5E_TypeDefinitionIndex = 41543;
+inline static constexpr unsigned int Class_3_79A4F66B82C02A5E_TypeDefinitionIndex = 43183;
 
 class Class_3_79A4F66B82C02A5E : public ::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelLayer_1<::Class_2_1A8148841049062A*>
 {

@@ -6,19 +6,19 @@ namespace RPG::Client { class FeatureData; }
 namespace RPG::Client { class IdentityData; }
 namespace System { class String; }
 
-#define RPG_CLIENT_ASSEMNPCCONFIG___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC77E5C0)
-#define RPG_CLIENT_ASSEMNPCCONFIG___C__DISPLAYCLASS8_0__REMOVENPCTODATA_B__0_OFFSET UNITYSDK_OFFSET(0xC77E7F0)
-#define RPG_CLIENT_ASSEMNPCCONFIG___C__DISPLAYCLASS8_0__REMOVENPCTODATA_B__1_OFFSET UNITYSDK_OFFSET(0xC77E840)
+#define RPG_CLIENT_ASSEMNPCCONFIG___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC69C4B0)
+#define RPG_CLIENT_ASSEMNPCCONFIG___C__DISPLAYCLASS8_0__REMOVENPCTODATA_B__0_OFFSET UNITYSDK_OFFSET(0xC69C6E0)
+#define RPG_CLIENT_ASSEMNPCCONFIG___C__DISPLAYCLASS8_0__REMOVENPCTODATA_B__1_OFFSET UNITYSDK_OFFSET(0xC69C730)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AssemNPCConfig___c__DisplayClass8_0_TypeDefinitionIndex = 60144;
+	inline static constexpr unsigned int AssemNPCConfig___c__DisplayClass8_0_TypeDefinitionIndex = 60007;
 
 	class AssemNPCConfig___c__DisplayClass8_0 : public ::System::Object
 	{
 	public:
-		::System::String* IdentityID; // 0x10
-		::System::String* FeatureID; // 0x18
+		::System::String* FeatureID; // 0x10
+		::System::String* IdentityID; // 0x18
 
 		::System::Void _ctor()
 		{

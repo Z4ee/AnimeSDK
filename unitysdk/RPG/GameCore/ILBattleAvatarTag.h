@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ILBattleAvatarTag_TypeDefinitionIndex = 10548;
+	inline static constexpr unsigned int ILBattleAvatarTag_TypeDefinitionIndex = 10564;
 
 	enum class ILBattleAvatarTag : ::System::Int32
 	{

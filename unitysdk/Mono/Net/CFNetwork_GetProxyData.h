@@ -4,8 +4,8 @@
 
 namespace System::Threading { class ManualResetEvent; }
 
-#define MONO_NET_CFNETWORK_GETPROXYDATA_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1E8F38C0)
-#define MONO_NET_CFNETWORK_GETPROXYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1E8F3880)
+#define MONO_NET_CFNETWORK_GETPROXYDATA_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1EFBC940)
+#define MONO_NET_CFNETWORK_GETPROXYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1EFBC900)
 
 namespace Mono::Net
 {
@@ -15,9 +15,9 @@ namespace Mono::Net
 	{
 	public:
 		::System::Threading::ManualResetEvent* evt; // 0x10
-		::System::IntPtr script; // 0x18
-		::System::IntPtr targetUri; // 0x20
-		::System::IntPtr error; // 0x28
+		::System::IntPtr targetUri; // 0x18
+		::System::IntPtr error; // 0x20
+		::System::IntPtr script; // 0x28
 		::System::IntPtr result; // 0x30
 
 		::System::Void _ctor()

@@ -7,13 +7,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TeamTowersMobileInputConfig; }
 namespace RPG::GameCore { class TeamTowersRobotConfig; }
 
-#define RPG_GAMECORE_TEAMTOWERSGAMECONFIG_METHOD_3_18F9ABB6C6F046D8_OFFSET UNITYSDK_OFFSET(0x1D5C4F70)
-#define RPG_GAMECORE_TEAMTOWERSGAMECONFIG_METHOD_3_D86F3DCD02BDE891_OFFSET UNITYSDK_OFFSET(0x1D5C4F20)
-#define RPG_GAMECORE_TEAMTOWERSGAMECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5C4F60)
+#define RPG_GAMECORE_TEAMTOWERSGAMECONFIG_METHOD_3_8ED2A80DE9661216_OFFSET UNITYSDK_OFFSET(0x1DB7C5C0)
+#define RPG_GAMECORE_TEAMTOWERSGAMECONFIG_METHOD_3_999C31EDAAB36E73_OFFSET UNITYSDK_OFFSET(0x1DB7C570)
+#define RPG_GAMECORE_TEAMTOWERSGAMECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB7C5B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TeamTowersGameConfig_TypeDefinitionIndex = 18719;
+	inline static constexpr unsigned int TeamTowersGameConfig_TypeDefinitionIndex = 18943;
 
 	class TeamTowersGameConfig : public ::RPG::GameCore::LittleGameConstConfig
 	{
@@ -51,14 +51,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMTOWERSGAMECONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_D86F3DCD02BDE891(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TeamTowersGameConfig*& a2)
+		static ::System::Void Method_3_999C31EDAAB36E73(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TeamTowersGameConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TeamTowersGameConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMTOWERSGAMECONFIG_METHOD_3_D86F3DCD02BDE891_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TeamTowersGameConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMTOWERSGAMECONFIG_METHOD_3_999C31EDAAB36E73_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_18F9ABB6C6F046D8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TeamTowersGameConfig* a2)
+		static ::System::Void Method_3_8ED2A80DE9661216(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TeamTowersGameConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TeamTowersGameConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMTOWERSGAMECONFIG_METHOD_3_18F9ABB6C6F046D8_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TeamTowersGameConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMTOWERSGAMECONFIG_METHOD_3_8ED2A80DE9661216_OFFSET))(a1, a2);
 		}
 	};
 }

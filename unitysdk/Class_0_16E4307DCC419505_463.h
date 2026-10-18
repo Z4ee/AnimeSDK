@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/ScenenLightManager/FadingState.h"
 
-class Class_0_16E4307DCC419505_391;
-namespace System { class String; }
+namespace UnityEngine::Rendering { class CommandBuffer; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_463_TypeDefinitionIndex = 60997;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_463_TypeDefinitionIndex = 49347;
 
 class Class_0_16E4307DCC419505_463
 {

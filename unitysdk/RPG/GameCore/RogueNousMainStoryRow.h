@@ -5,25 +5,25 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ROGUENOUSMAINSTORYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D405D00)
-#define RPG_GAMECORE_ROGUENOUSMAINSTORYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D406530)
+#define RPG_GAMECORE_ROGUENOUSMAINSTORYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DA23B40)
+#define RPG_GAMECORE_ROGUENOUSMAINSTORYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1DA24330)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueNousMainStoryRow_TypeDefinitionIndex = 14748;
+	inline static constexpr unsigned int RogueNousMainStoryRow_TypeDefinitionIndex = 14913;
 
 	class RogueNousMainStoryRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* DisplayID; // 0x10
-		::RPG::Client::TextID MainStoryName; // 0x18
-		::RPG::Client::TextID TriggerCondition; // 0x28
+		::System::UInt32 Layer; // 0x18
+		::System::UInt32 StoryGroup; // 0x1C
+		::System::UInt32 UnlockConditionDisplay; // 0x20
+		::System::UInt32 QuestID; // 0x24
+		::RPG::Client::TextID MainStoryName; // 0x28
 		::System::UInt32 RogueNPCID; // 0x38
-		::System::UInt32 UnlockConditionDisplay; // 0x3C
-		::System::UInt32 QuestID; // 0x40
-		::System::UInt32 Layer; // 0x44
-		::System::UInt32 StoryGroup; // 0x48
-		::System::UInt32 StoryID; // 0x4C
+		::System::UInt32 StoryID; // 0x3C
+		::RPG::Client::TextID TriggerCondition; // 0x40
 
 		::System::Void _ctor()
 		{

@@ -9,23 +9,23 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define CLASS_2_545F497870FB4A84_METHOD_2_9DDA4F7B69BC10BE_OFFSET UNITYSDK_OFFSET(0x1CC40B90)
-#define CLASS_2_545F497870FB4A84__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC40F90)
+#define CLASS_2_545F497870FB4A84_METHOD_2_9DDA4F7B69BC10BE_OFFSET UNITYSDK_OFFSET(0x1D206C80)
+#define CLASS_2_545F497870FB4A84__CTOR_OFFSET UNITYSDK_OFFSET(0x1D207080)
 
-inline static constexpr unsigned int Class_2_545F497870FB4A84_TypeDefinitionIndex = 17942;
+inline static constexpr unsigned int Class_2_545F497870FB4A84_TypeDefinitionIndex = 18156;
 
 class Class_2_545F497870FB4A84 : public ::RPG::GameCore::JsonConfig
 {
 public:
-	::RPG::GameCore::DynamicFloat* GKLLOMFGMBI; // 0x10
-	::RPG::GameCore::DynamicFloat* MDFKCMGPPDM; // 0x18
-	::RPG::GameCore::DynamicFloat* MJPLMGPIMHA; // 0x20
-	::RPG::GameCore::DynamicFloat* HDKGKHCCEGI; // 0x28
-	::RPG::GameCore::DynamicFloat* PIBDDOGGDKL; // 0x30
-	::RPG::GameCore::AttackFormulaType OHIAHBOOGII; // 0x38
-	::RPG::GameCore::HealFormulaType PEBICIMMFMK; // 0x3C
-	::RPG::GameCore::ShieldFormulaType BCCLOHGGLCH; // 0x40
-	::RPG::GameCore::FinalDamageFormulaType NAGHIJIMOKL; // 0x44
+	::RPG::GameCore::DynamicFloat* MJPLMGPIMHA; // 0x10
+	::RPG::GameCore::DynamicFloat* HDKGKHCCEGI; // 0x18
+	::RPG::GameCore::DynamicFloat* GKLLOMFGMBI; // 0x20
+	::RPG::GameCore::DynamicFloat* PIBDDOGGDKL; // 0x28
+	::RPG::GameCore::DynamicFloat* MDFKCMGPPDM; // 0x30
+	::RPG::GameCore::FinalDamageFormulaType NAGHIJIMOKL; // 0x38
+	::RPG::GameCore::AttackFormulaType OHIAHBOOGII; // 0x3C
+	::RPG::GameCore::HealFormulaType PEBICIMMFMK; // 0x40
+	::RPG::GameCore::ShieldFormulaType BCCLOHGGLCH; // 0x44
 
 	::System::Void _ctor()
 	{

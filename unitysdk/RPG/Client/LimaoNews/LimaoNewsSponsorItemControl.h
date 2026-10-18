@@ -5,20 +5,20 @@
 namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class Image; }
 
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSSPONSORITEMCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0xD48E970)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSSPONSORITEMCONTROL__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0xD48E420)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSSPONSORITEMCONTROL__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0xD48E380)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSSPONSORITEMCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0xD3E5A00)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSSPONSORITEMCONTROL__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0xD3E54B0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSSPONSORITEMCONTROL__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0xD3E53F0)
 
 namespace RPG::Client::LimaoNews
 {
-	inline static constexpr unsigned int LimaoNewsSponsorItemControl_TypeDefinitionIndex = 79078;
+	inline static constexpr unsigned int LimaoNewsSponsorItemControl_TypeDefinitionIndex = 80401;
 
 	class LimaoNewsSponsorItemControl : public ::Sofa::BaseSofaControl
 	{
 	public:
-		::UnityEngine::UI::Button* _Btn; // 0x38
-		::UnityEngine::UI::Image* _ImgIcon; // 0x40
-		::UnityEngine::UI::Image* _ImgHintIcon; // 0x48
+		::UnityEngine::UI::Button* _Btn; // 0x40
+		::UnityEngine::UI::Image* _ImgIcon; // 0x48
+		::UnityEngine::UI::Image* _ImgHintIcon; // 0x50
 
 		::System::Void _ctor()
 		{

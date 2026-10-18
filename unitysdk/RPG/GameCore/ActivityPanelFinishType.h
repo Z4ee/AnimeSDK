@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityPanelFinishType_TypeDefinitionIndex = 11183;
+	inline static constexpr unsigned int ActivityPanelFinishType_TypeDefinitionIndex = 11199;
 
 	enum class ActivityPanelFinishType : ::System::Int32
 	{

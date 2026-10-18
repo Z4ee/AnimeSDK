@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IGridFightGridItem_TypeDefinitionIndex = 64919;
+	inline static constexpr unsigned int IGridFightGridItem_TypeDefinitionIndex = 64859;
 
 	class IGridFightGridItem
 	{

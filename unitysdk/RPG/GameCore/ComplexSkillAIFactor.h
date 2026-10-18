@@ -8,12 +8,12 @@ namespace RPG::GameCore { class ComplexSkillAIMapper; }
 namespace RPG::GameCore { class ComplexSkillAIPostProcess; }
 namespace RPG::GameCore { class ComplexSkillAISource; }
 
-#define RPG_GAMECORE_COMPLEXSKILLAIFACTOR_METHOD_2_9D6E00DF3F01E5AB_OFFSET UNITYSDK_OFFSET(0x1CFF1960)
-#define RPG_GAMECORE_COMPLEXSKILLAIFACTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFF1AC0)
+#define RPG_GAMECORE_COMPLEXSKILLAIFACTOR_METHOD_2_9D6E00DF3F01E5AB_OFFSET UNITYSDK_OFFSET(0x1D5CD710)
+#define RPG_GAMECORE_COMPLEXSKILLAIFACTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5CD870)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ComplexSkillAIFactor_TypeDefinitionIndex = 15393;
+	inline static constexpr unsigned int ComplexSkillAIFactor_TypeDefinitionIndex = 15564;
 
 	class ComplexSkillAIFactor : public ::RPG::GameCore::JsonConfig
 	{

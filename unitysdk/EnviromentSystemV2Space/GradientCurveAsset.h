@@ -7,11 +7,11 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Texture; }
 
-#define ENVIROMENTSYSTEMV2SPACE_GRADIENTCURVEASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x153644F0)
+#define ENVIROMENTSYSTEMV2SPACE_GRADIENTCURVEASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x156539E0)
 
 namespace EnviromentSystemV2Space
 {
-	inline static constexpr unsigned int GradientCurveAsset_TypeDefinitionIndex = 49907;
+	inline static constexpr unsigned int GradientCurveAsset_TypeDefinitionIndex = 49482;
 
 	class GradientCurveAsset : public ::UnityEngine::ScriptableObject
 	{

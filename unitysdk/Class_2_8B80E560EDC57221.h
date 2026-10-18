@@ -1,21 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_29B23DDF98AF43AC.h"
+#include "unitysdk/Class_1_CBE3940117D4417A.h"
 #include "unitysdk/RPG/GameCore/TriggerExitReason.h"
 
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class LevelNPCNearbyEventConfig; }
 
-#define CLASS_2_8B80E560EDC57221_DOONENTER_OFFSET UNITYSDK_OFFSET(0xBACE020)
-#define CLASS_2_8B80E560EDC57221_DOONEXIT_OFFSET UNITYSDK_OFFSET(0xBACE3F0)
-#define CLASS_2_8B80E560EDC57221__CTOR_OFFSET UNITYSDK_OFFSET(0xBACDFD0)
+#define CLASS_2_8B80E560EDC57221_DOONENTER_OFFSET UNITYSDK_OFFSET(0xBA68330)
+#define CLASS_2_8B80E560EDC57221_DOONEXIT_OFFSET UNITYSDK_OFFSET(0xBA68700)
+#define CLASS_2_8B80E560EDC57221__CTOR_OFFSET UNITYSDK_OFFSET(0xBA682E0)
 
-inline static constexpr unsigned int Class_2_8B80E560EDC57221_TypeDefinitionIndex = 57672;
+inline static constexpr unsigned int Class_2_8B80E560EDC57221_TypeDefinitionIndex = 57518;
 
-class Class_2_8B80E560EDC57221 : public ::Class_1_29B23DDF98AF43AC
+class Class_2_8B80E560EDC57221 : public ::Class_1_CBE3940117D4417A
 {
 public:
-	::RPG::GameCore::LevelNPCNearbyEventConfig* IGHAHBNLIJA; // 0x98
+	::RPG::GameCore::LevelNPCNearbyEventConfig* IGHAHBNLIJA; // 0xA0
 
 	::System::Void _ctor(::RPG::GameCore::GameEntity* a1, ::RPG::GameCore::LevelNPCNearbyEventConfig* a2)
 	{

@@ -5,12 +5,12 @@
 class Class_1_4B1D406725A7144B;
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ACTIVITYHIPPLENGAMEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CD922E0)
-#define RPG_GAMECORE_ACTIVITYHIPPLENGAMEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD92430)
+#define RPG_GAMECORE_ACTIVITYHIPPLENGAMEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D367160)
+#define RPG_GAMECORE_ACTIVITYHIPPLENGAMEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3672B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityHipplenGameRow_TypeDefinitionIndex = 11618;
+	inline static constexpr unsigned int ActivityHipplenGameRow_TypeDefinitionIndex = 11641;
 
 	class ActivityHipplenGameRow : public ::System::Object
 	{

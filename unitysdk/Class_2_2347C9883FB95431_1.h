@@ -1,24 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_43BD383C98B4C0C5_169.h"
+#include "unitysdk/Class_1_43BD383C98B4C0C5_168.h"
 
 namespace RPG::Client { class LuaUIController; }
 namespace RPG::Client { class UIController; }
 namespace RPG::Client::Promises { class Promise; }
 
-#define CLASS_2_2347C9883FB95431_1_ONENTERBEGIN_OFFSET UNITYSDK_OFFSET(0xB8EFE40)
-#define CLASS_2_2347C9883FB95431_1_ONEXITBEGIN_OFFSET UNITYSDK_OFFSET(0xB8EFCD0)
-#define CLASS_2_2347C9883FB95431_1__CTOR_OFFSET UNITYSDK_OFFSET(0xB8EFC20)
-#define CLASS_2_2347C9883FB95431_1__ONEXITBEGIN_B__1_0_OFFSET UNITYSDK_OFFSET(0xB8EFE90)
+#define CLASS_2_2347C9883FB95431_1_ONENTERBEGIN_OFFSET UNITYSDK_OFFSET(0xB7645D0)
+#define CLASS_2_2347C9883FB95431_1_ONEXITBEGIN_OFFSET UNITYSDK_OFFSET(0xB764460)
+#define CLASS_2_2347C9883FB95431_1__CTOR_OFFSET UNITYSDK_OFFSET(0xB7643B0)
+#define CLASS_2_2347C9883FB95431_1__ONEXITBEGIN_B__1_0_OFFSET UNITYSDK_OFFSET(0xB764620)
 
-inline static constexpr unsigned int Class_2_2347C9883FB95431_1_TypeDefinitionIndex = 66127;
+inline static constexpr unsigned int Class_2_2347C9883FB95431_1_TypeDefinitionIndex = 66081;
 
-class Class_2_2347C9883FB95431_1 : public ::Class_1_43BD383C98B4C0C5_169
+class Class_2_2347C9883FB95431_1 : public ::Class_1_43BD383C98B4C0C5_168
 {
 public:
-	::RPG::Client::UIController* HKJLKMCDMGB; // 0x10
+	::RPG::Client::UIController* IBLBKLNHKLL; // 0x10
 	::RPG::Client::Promises::Promise* DBIFFNIBBDL; // 0x18
-	::RPG::Client::UIController* IBLBKLNHKLL; // 0x20
+	::RPG::Client::UIController* HKJLKMCDMGB; // 0x20
 	::RPG::Client::LuaUIController* BBELBMLHHBG; // 0x28
 
 	::System::Void _ctor(::RPG::Client::UIController* a1, ::RPG::Client::UIController* a2)

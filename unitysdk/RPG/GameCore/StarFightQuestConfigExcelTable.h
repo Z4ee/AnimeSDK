@@ -11,45 +11,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_STARFIGHTQUESTCONFIGEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1D5653D0)
-#define RPG_GAMECORE_STARFIGHTQUESTCONFIGEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1D565260)
-#define RPG_GAMECORE_STARFIGHTQUESTCONFIGEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1D564F50)
-#define RPG_GAMECORE_STARFIGHTQUESTCONFIGEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1D565200)
-#define RPG_GAMECORE_STARFIGHTQUESTCONFIGEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1D565560)
-#define RPG_GAMECORE_STARFIGHTQUESTCONFIGEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D564FD0)
-#define RPG_GAMECORE_STARFIGHTQUESTCONFIGEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1D5655A0)
-#define RPG_GAMECORE_STARFIGHTQUESTCONFIGEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D565770)
-#define RPG_GAMECORE_STARFIGHTQUESTCONFIGEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1D5658E0)
-#define RPG_GAMECORE_STARFIGHTQUESTCONFIGEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D565C50)
-#define RPG_GAMECORE_STARFIGHTQUESTCONFIGEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1D5656D0)
-#define RPG_GAMECORE_STARFIGHTQUESTCONFIGEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D565630)
+#define RPG_GAMECORE_STARFIGHTQUESTCONFIGEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1DB1AB60)
+#define RPG_GAMECORE_STARFIGHTQUESTCONFIGEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1DB1A9F0)
+#define RPG_GAMECORE_STARFIGHTQUESTCONFIGEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1DB1A6E0)
+#define RPG_GAMECORE_STARFIGHTQUESTCONFIGEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1DB1A990)
+#define RPG_GAMECORE_STARFIGHTQUESTCONFIGEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1DB1ACF0)
+#define RPG_GAMECORE_STARFIGHTQUESTCONFIGEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1DB1A760)
+#define RPG_GAMECORE_STARFIGHTQUESTCONFIGEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1DB1AD30)
+#define RPG_GAMECORE_STARFIGHTQUESTCONFIGEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DB1AF00)
+#define RPG_GAMECORE_STARFIGHTQUESTCONFIGEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1DB1B070)
+#define RPG_GAMECORE_STARFIGHTQUESTCONFIGEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DB1B3E0)
+#define RPG_GAMECORE_STARFIGHTQUESTCONFIGEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1DB1AE60)
+#define RPG_GAMECORE_STARFIGHTQUESTCONFIGEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1DB1ADC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StarFightQuestConfigExcelTable_TypeDefinitionIndex = 12309;
+	inline static constexpr unsigned int StarFightQuestConfigExcelTable_TypeDefinitionIndex = 12395;
 
 	class StarFightQuestConfigExcelTable : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::StarFightQuestConfigRow*>** StaticGet_dataDict_()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::StarFightQuestConfigRow*>**)Il2CppClass::FromTypeDefinitionIndex(StarFightQuestConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x1FBB0);
-		}
 		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(StarFightQuestConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x1FBB8);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(StarFightQuestConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x1D840);
 		}
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(StarFightQuestConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x1FBC0);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(StarFightQuestConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x1D848);
+		}
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::StarFightQuestConfigRow*>** StaticGet_dataDict_()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::StarFightQuestConfigRow*>**)Il2CppClass::FromTypeDefinitionIndex(StarFightQuestConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x1D850);
 		}
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(StarFightQuestConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0xA780);
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(StarFightQuestConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x6BA0);
 		}
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(StarFightQuestConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0xA781);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(StarFightQuestConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x6BA1);
 		}
 
 		static ::System::Void _cctor()

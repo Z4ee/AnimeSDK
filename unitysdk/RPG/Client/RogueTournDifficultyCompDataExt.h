@@ -5,11 +5,11 @@
 namespace RPG::Client { class RogueTournDifficultyCompData; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define RPG_CLIENT_ROGUETOURNDIFFICULTYCOMPDATAEXT_DIFFICULTYCOMPLEVEL_OFFSET UNITYSDK_OFFSET(0xDF4C1E0)
+#define RPG_CLIENT_ROGUETOURNDIFFICULTYCOMPDATAEXT_DIFFICULTYCOMPLEVEL_OFFSET UNITYSDK_OFFSET(0xDF9C650)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournDifficultyCompDataExt_TypeDefinitionIndex = 67583;
+	inline static constexpr unsigned int RogueTournDifficultyCompDataExt_TypeDefinitionIndex = 67585;
 
 	class RogueTournDifficultyCompDataExt : public ::System::Object
 	{

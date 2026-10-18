@@ -9,22 +9,22 @@ class Class_2_B9E8C2EEAA5C96EC;
 namespace System { template <typename T1, typename T2, typename T3, typename T4> class Func_4; }
 namespace UnityEngine { class Collider; }
 
-#define CLASS_2_667CD5D0F948A1A3___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x134B7DA0)
-#define CLASS_2_667CD5D0F948A1A3___C__CTOR_OFFSET UNITYSDK_OFFSET(0x134B7DD0)
-#define CLASS_2_667CD5D0F948A1A3___C___CREATETARGETENTITYFILTER_B__16_0_OFFSET UNITYSDK_OFFSET(0x134B7DE0)
+#define CLASS_2_667CD5D0F948A1A3___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x12CC1720)
+#define CLASS_2_667CD5D0F948A1A3___C__CTOR_OFFSET UNITYSDK_OFFSET(0x12CC1750)
+#define CLASS_2_667CD5D0F948A1A3___C___CREATETARGETENTITYFILTER_B__16_0_OFFSET UNITYSDK_OFFSET(0x12CC1760)
 
-inline static constexpr unsigned int Class_2_667CD5D0F948A1A3___c_TypeDefinitionIndex = 76620;
+inline static constexpr unsigned int Class_2_667CD5D0F948A1A3___c_TypeDefinitionIndex = 77091;
 
 class Class_2_667CD5D0F948A1A3___c : public ::System::Object
 {
 public:
-	static ::Class_2_667CD5D0F948A1A3___c** StaticGet___9()
-	{
-		return (::Class_2_667CD5D0F948A1A3___c**)Il2CppClass::FromTypeDefinitionIndex(Class_2_667CD5D0F948A1A3___c_TypeDefinitionIndex)->GetStaticField(0x17070);
-	}
 	static ::System::Func_4<::Class_2_667CD5D0F948A1A3*, ::System::ValueTuple_2<::Class_2_B9E8C2EEAA5C96EC*, ::RPG::GameCore::FiveDimTriggerTargetType>, ::UnityEngine::Collider*, ::System::Boolean>** StaticGet___9__16_0()
 	{
-		return (::System::Func_4<::Class_2_667CD5D0F948A1A3*, ::System::ValueTuple_2<::Class_2_B9E8C2EEAA5C96EC*, ::RPG::GameCore::FiveDimTriggerTargetType>, ::UnityEngine::Collider*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_667CD5D0F948A1A3___c_TypeDefinitionIndex)->GetStaticField(0x17078);
+		return (::System::Func_4<::Class_2_667CD5D0F948A1A3*, ::System::ValueTuple_2<::Class_2_B9E8C2EEAA5C96EC*, ::RPG::GameCore::FiveDimTriggerTargetType>, ::UnityEngine::Collider*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_667CD5D0F948A1A3___c_TypeDefinitionIndex)->GetStaticField(0x5B150);
+	}
+	static ::Class_2_667CD5D0F948A1A3___c** StaticGet___9()
+	{
+		return (::Class_2_667CD5D0F948A1A3___c**)Il2CppClass::FromTypeDefinitionIndex(Class_2_667CD5D0F948A1A3___c_TypeDefinitionIndex)->GetStaticField(0x5B158);
 	}
 
 	static ::System::Void _cctor()

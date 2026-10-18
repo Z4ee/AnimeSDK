@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AdvByIsInPhantomFrozen; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_409554850C62246E_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB9C44A0)
-#define CLASS_3_409554850C62246E__CTOR_OFFSET UNITYSDK_OFFSET(0xB9C4470)
+#define CLASS_3_409554850C62246E_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB87F710)
+#define CLASS_3_409554850C62246E__CTOR_OFFSET UNITYSDK_OFFSET(0xB87F6E0)
 
-inline static constexpr unsigned int Class_3_409554850C62246E_TypeDefinitionIndex = 53375;
+inline static constexpr unsigned int Class_3_409554850C62246E_TypeDefinitionIndex = 53117;
 
 class Class_3_409554850C62246E : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::AdvByIsInPhantomFrozen*>
 {

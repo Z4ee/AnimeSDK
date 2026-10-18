@@ -8,17 +8,17 @@ namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_7715BB2889FB3514_METHOD_1_F1B5ACE527ED55C3_OFFSET UNITYSDK_OFFSET(0x1D6D2C40)
-#define CLASS_1_7715BB2889FB3514__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D6D2FB0)
+#define CLASS_1_7715BB2889FB3514_METHOD_1_F1B5ACE527ED55C3_OFFSET UNITYSDK_OFFSET(0x1DCDC2C0)
+#define CLASS_1_7715BB2889FB3514__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DCDC630)
 
-inline static constexpr unsigned int Class_1_7715BB2889FB3514_TypeDefinitionIndex = 23582;
+inline static constexpr unsigned int Class_1_7715BB2889FB3514_TypeDefinitionIndex = 23856;
 
 class Class_1_7715BB2889FB3514 : public ::System::Object
 {
 public:
 	static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Func_2<::SimpleJSON::JSONNode*, ::RPG::GameCore::PredicateConfig*>*>** StaticGet_MGJGAOOJLCJ()
 	{
-		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Func_2<::SimpleJSON::JSONNode*, ::RPG::GameCore::PredicateConfig*>*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_7715BB2889FB3514_TypeDefinitionIndex)->GetStaticField(0x2C610);
+		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Func_2<::SimpleJSON::JSONNode*, ::RPG::GameCore::PredicateConfig*>*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_7715BB2889FB3514_TypeDefinitionIndex)->GetStaticField(0x48680);
 	}
 
 	static ::System::Void _cctor()

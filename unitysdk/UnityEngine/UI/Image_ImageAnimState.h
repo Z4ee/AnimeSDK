@@ -6,7 +6,7 @@
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int Image_ImageAnimState_TypeDefinitionIndex = 6727;
+	inline static constexpr unsigned int Image_ImageAnimState_TypeDefinitionIndex = 6736;
 
 	struct alignas(4) Image_ImageAnimState
 	{

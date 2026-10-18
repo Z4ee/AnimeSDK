@@ -9,13 +9,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class TargetFormationPosConfig; }
 
-#define RPG_GAMECORE_SETSKILLTARGETFORMATIONBYPOS_METHOD_3_69155FD652E32A09_OFFSET UNITYSDK_OFFSET(0x1D50D680)
-#define RPG_GAMECORE_SETSKILLTARGETFORMATIONBYPOS_METHOD_3_B9C6A6FDB5EFD9C4_OFFSET UNITYSDK_OFFSET(0x1D50D720)
-#define RPG_GAMECORE_SETSKILLTARGETFORMATIONBYPOS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D50D6E0)
+#define RPG_GAMECORE_SETSKILLTARGETFORMATIONBYPOS_METHOD_3_2773B66D021F9260_OFFSET UNITYSDK_OFFSET(0x1DAC1A70)
+#define RPG_GAMECORE_SETSKILLTARGETFORMATIONBYPOS_METHOD_3_69155FD652E32A09_OFFSET UNITYSDK_OFFSET(0x1DAC19D0)
+#define RPG_GAMECORE_SETSKILLTARGETFORMATIONBYPOS__CTOR_OFFSET UNITYSDK_OFFSET(0x1DAC1A30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetSkillTargetFormationByPos_TypeDefinitionIndex = 22248;
+	inline static constexpr unsigned int SetSkillTargetFormationByPos_TypeDefinitionIndex = 22497;
 
 	class SetSkillTargetFormationByPos : public ::RPG::GameCore::TaskConfig
 	{
@@ -51,9 +51,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetSkillTargetFormationByPos*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETSKILLTARGETFORMATIONBYPOS_METHOD_3_69155FD652E32A09_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_B9C6A6FDB5EFD9C4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetSkillTargetFormationByPos* a2)
+		static ::System::Void Method_3_2773B66D021F9260(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetSkillTargetFormationByPos* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetSkillTargetFormationByPos*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETSKILLTARGETFORMATIONBYPOS_METHOD_3_B9C6A6FDB5EFD9C4_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetSkillTargetFormationByPos*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETSKILLTARGETFORMATIONBYPOS_METHOD_3_2773B66D021F9260_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -5,11 +5,11 @@
 
 namespace UnityEngine { class Transform; }
 
-#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_UTILS_WORLDNOSCALE_OFFSET UNITYSDK_OFFSET(0x1EABE9C0)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_UTILS_WORLDNOSCALE_OFFSET UNITYSDK_OFFSET(0x1F186220)
 
 namespace UnityEngine::Formats::Alembic::Util
 {
-	inline static constexpr unsigned int Utils_TypeDefinitionIndex = 44639;
+	inline static constexpr unsigned int Utils_TypeDefinitionIndex = 45778;
 
 	class Utils : public ::System::Object
 	{

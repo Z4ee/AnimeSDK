@@ -7,12 +7,12 @@ namespace RPG::Client::Prop { class ChimeraDuelModelVfxPlayer; }
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_PROP_CHIMERADUELDEFAULTEFFECTPLAYER_START_OFFSET UNITYSDK_OFFSET(0xDC11FA0)
-#define RPG_CLIENT_PROP_CHIMERADUELDEFAULTEFFECTPLAYER__CTOR_OFFSET UNITYSDK_OFFSET(0xDC120F0)
+#define RPG_CLIENT_PROP_CHIMERADUELDEFAULTEFFECTPLAYER_START_OFFSET UNITYSDK_OFFSET(0xDC5CAA0)
+#define RPG_CLIENT_PROP_CHIMERADUELDEFAULTEFFECTPLAYER__CTOR_OFFSET UNITYSDK_OFFSET(0xDC5CBF0)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraDuelDefaultEffectPlayer_TypeDefinitionIndex = 77860;
+	inline static constexpr unsigned int ChimeraDuelDefaultEffectPlayer_TypeDefinitionIndex = 78331;
 
 	class ChimeraDuelDefaultEffectPlayer : public ::UnityEngine::MonoBehaviour
 	{

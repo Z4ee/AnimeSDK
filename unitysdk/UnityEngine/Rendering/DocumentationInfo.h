@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_RENDERING_DOCUMENTATIONINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1EBF9B80)
+#define UNITYENGINE_RENDERING_DOCUMENTATIONINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1F2C14E0)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int DocumentationInfo_TypeDefinitionIndex = 34887;
+	inline static constexpr unsigned int DocumentationInfo_TypeDefinitionIndex = 35556;
 
 	class DocumentationInfo : public ::System::Object
 	{

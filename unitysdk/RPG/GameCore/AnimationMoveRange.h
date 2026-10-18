@@ -8,12 +8,12 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ANIMATIONMOVERANGE_METHOD_2_E2D535E84611179A_OFFSET UNITYSDK_OFFSET(0x1CE1D770)
-#define RPG_GAMECORE_ANIMATIONMOVERANGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE1DF10)
+#define RPG_GAMECORE_ANIMATIONMOVERANGE_METHOD_2_E2D535E84611179A_OFFSET UNITYSDK_OFFSET(0x1D3F39D0)
+#define RPG_GAMECORE_ANIMATIONMOVERANGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3F41C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AnimationMoveRange_TypeDefinitionIndex = 22213;
+	inline static constexpr unsigned int AnimationMoveRange_TypeDefinitionIndex = 22462;
 
 	class AnimationMoveRange : public ::RPG::GameCore::JsonConfig
 	{
@@ -34,6 +34,7 @@ namespace RPG::GameCore
 		::RPG::GameCore::DynamicFloat* NormalizedTimeEnd; // 0x68
 		::RPG::GameCore::DynamicFloat* MovePercentage; // 0x70
 		::RPG::GameCore::DynamicFloat* DefaultMoveDistance; // 0x78
+		::System::String* MoveCurve; // 0x80
 
 		::System::Void _ctor()
 		{

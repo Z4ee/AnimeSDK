@@ -6,16 +6,16 @@ class Class_1_8B7E7C2DCDDA55DF;
 class Class_2_1A8148841049062A;
 namespace UnityEngine { class GameObject; }
 
-#define CLASS_1_8B7E7C2DCDDA55DF___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16223340)
-#define CLASS_1_8B7E7C2DCDDA55DF___C__DISPLAYCLASS6_0__EXECUTE_B__0_OFFSET UNITYSDK_OFFSET(0x1622E1B0)
+#define CLASS_1_8B7E7C2DCDDA55DF___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1659A650)
+#define CLASS_1_8B7E7C2DCDDA55DF___C__DISPLAYCLASS6_0__EXECUTE_B__0_OFFSET UNITYSDK_OFFSET(0x165A5A70)
 
-inline static constexpr unsigned int Class_1_8B7E7C2DCDDA55DF___c__DisplayClass6_0_TypeDefinitionIndex = 76344;
+inline static constexpr unsigned int Class_1_8B7E7C2DCDDA55DF___c__DisplayClass6_0_TypeDefinitionIndex = 76821;
 
 class Class_1_8B7E7C2DCDDA55DF___c__DisplayClass6_0 : public ::System::Object
 {
 public:
-	::Class_1_8B7E7C2DCDDA55DF* __4__this; // 0x10
-	::Class_2_1A8148841049062A* item; // 0x18
+	::Class_2_1A8148841049062A* item; // 0x10
+	::Class_1_8B7E7C2DCDDA55DF* __4__this; // 0x18
 
 	::System::Void _ctor()
 	{

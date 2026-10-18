@@ -1,28 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_63C076C405BE0674_2.h"
+#include "unitysdk/Enum_3_7CFB31C413D16E14_1.h"
 #include "unitysdk/System/Object.h"
 
 namespace RPG::AvatarSystem { class IAvatar; }
 
-#define RPG_CLIENT_UPGRADEHELPER_CHECKLINEUPNEEDSSHOWUPGRADE_OFFSET UNITYSDK_OFFSET(0xE3D2E90)
-#define RPG_CLIENT_UPGRADEHELPER_GETUPGRADEAVAILABLEAVATAR_OFFSET UNITYSDK_OFFSET(0xE3D2EE0)
+#define RPG_CLIENT_UPGRADEHELPER_CHECKLINEUPNEEDSSHOWUPGRADE_OFFSET UNITYSDK_OFFSET(0xE416040)
+#define RPG_CLIENT_UPGRADEHELPER_GETUPGRADEAVAILABLEAVATAR_OFFSET UNITYSDK_OFFSET(0xE416090)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UpgradeHelper_TypeDefinitionIndex = 62735;
+	inline static constexpr unsigned int UpgradeHelper_TypeDefinitionIndex = 62653;
 
 	class UpgradeHelper : public ::System::Object
 	{
 	public:
-		static ::System::Boolean CheckLineupNeedsShowUpgrade(::Enum_3_63C076C405BE0674_2 a1)
+		static ::System::Boolean CheckLineupNeedsShowUpgrade(::Enum_3_7CFB31C413D16E14_1 a1)
 		{
-			return ((::System::Boolean(*)(::Enum_3_63C076C405BE0674_2))((::PBYTE)hIl2Cpp + RPG_CLIENT_UPGRADEHELPER_CHECKLINEUPNEEDSSHOWUPGRADE_OFFSET))(a1);
+			return ((::System::Boolean(*)(::Enum_3_7CFB31C413D16E14_1))((::PBYTE)hIl2Cpp + RPG_CLIENT_UPGRADEHELPER_CHECKLINEUPNEEDSSHOWUPGRADE_OFFSET))(a1);
 		}
 
-		static ::RPG::AvatarSystem::IAvatar* GetUpgradeAvailableAvatar(::Enum_3_63C076C405BE0674_2 a1, ::System::UInt32 a2)
+		static ::RPG::AvatarSystem::IAvatar* GetUpgradeAvailableAvatar(::Enum_3_7CFB31C413D16E14_1 a1, ::System::UInt32 a2)
 		{
-			return ((::RPG::AvatarSystem::IAvatar*(*)(::Enum_3_63C076C405BE0674_2, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_UPGRADEHELPER_GETUPGRADEAVAILABLEAVATAR_OFFSET))(a1, a2);
+			return ((::RPG::AvatarSystem::IAvatar*(*)(::Enum_3_7CFB31C413D16E14_1, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_UPGRADEHELPER_GETUPGRADEAVAILABLEAVATAR_OFFSET))(a1, a2);
 		}
 	};
 }

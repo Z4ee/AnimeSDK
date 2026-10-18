@@ -1,0 +1,69 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Collections/Generic/List_1_Enumerator.h"
+#include "unitysdk/System/Object.h"
+
+class Class_0_16E4307DCC419505_401;
+class Class_1_C6F4C4ABEDB8B5E9;
+namespace System::Diagnostics { class Stopwatch; }
+
+#define CLASS_1_C6F4C4ABEDB8B5E9___STARTBACKGROUNDSERVICESASYNC_D__3_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1EC84B80)
+#define CLASS_1_C6F4C4ABEDB8B5E9___STARTBACKGROUNDSERVICESASYNC_D__3_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1EC85250)
+#define CLASS_1_C6F4C4ABEDB8B5E9___STARTBACKGROUNDSERVICESASYNC_D__3_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1EC852B0)
+#define CLASS_1_C6F4C4ABEDB8B5E9___STARTBACKGROUNDSERVICESASYNC_D__3_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1EC85260)
+#define CLASS_1_C6F4C4ABEDB8B5E9___STARTBACKGROUNDSERVICESASYNC_D__3_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1EC84AF0)
+#define CLASS_1_C6F4C4ABEDB8B5E9___STARTBACKGROUNDSERVICESASYNC_D__3__CTOR_OFFSET UNITYSDK_OFFSET(0x1EC7D020)
+#define CLASS_1_C6F4C4ABEDB8B5E9___STARTBACKGROUNDSERVICESASYNC_D__3___M__FINALLY1_OFFSET UNITYSDK_OFFSET(0x1EC84B50)
+#define CLASS_1_C6F4C4ABEDB8B5E9___STARTBACKGROUNDSERVICESASYNC_D__3___M__FINALLY2_OFFSET UNITYSDK_OFFSET(0x1EC84B40)
+
+inline static constexpr unsigned int Class_1_C6F4C4ABEDB8B5E9___StartBackgroundServicesAsync_d__3_TypeDefinitionIndex = 44297;
+
+class Class_1_C6F4C4ABEDB8B5E9___StartBackgroundServicesAsync_d__3 : public ::System::Object
+{
+public:
+	::Class_1_C6F4C4ABEDB8B5E9* __4__this; // 0x10
+	::System::Object* __2__current; // 0x18
+	::System::Collections::Generic::List_1_Enumerator<::Class_0_16E4307DCC419505_401*> __7__wrap2; // 0x20
+	::System::Diagnostics::Stopwatch* _sw_5__2; // 0x38
+	::System::Int32 __1__state; // 0x40
+
+	::System::Void _ctor(::System::Int32 a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_C6F4C4ABEDB8B5E9___STARTBACKGROUNDSERVICESASYNC_D__3__CTOR_OFFSET))(this, a1);
+	}
+
+	::System::Void System_IDisposable_Dispose()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_C6F4C4ABEDB8B5E9___STARTBACKGROUNDSERVICESASYNC_D__3_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET))(this);
+	}
+
+	::System::Boolean MoveNext()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_C6F4C4ABEDB8B5E9___STARTBACKGROUNDSERVICESASYNC_D__3_MOVENEXT_OFFSET))(this);
+	}
+
+	::System::Void __m__Finally1()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_C6F4C4ABEDB8B5E9___STARTBACKGROUNDSERVICESASYNC_D__3___M__FINALLY1_OFFSET))(this);
+	}
+
+	::System::Void __m__Finally2()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_C6F4C4ABEDB8B5E9___STARTBACKGROUNDSERVICESASYNC_D__3___M__FINALLY2_OFFSET))(this);
+	}
+
+	::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current()
+	{
+		return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_C6F4C4ABEDB8B5E9___STARTBACKGROUNDSERVICESASYNC_D__3_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET))(this);
+	}
+
+	::System::Void System_Collections_IEnumerator_Reset()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_C6F4C4ABEDB8B5E9___STARTBACKGROUNDSERVICESASYNC_D__3_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET))(this);
+	}
+
+	::System::Object* System_Collections_IEnumerator_get_Current()
+	{
+		return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_C6F4C4ABEDB8B5E9___STARTBACKGROUNDSERVICESASYNC_D__3_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET))(this);
+	}
+};

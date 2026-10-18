@@ -8,7 +8,7 @@ namespace System { class String; }
 
 namespace RPG::Client::NavMap
 {
-	inline static constexpr unsigned int IMainTab_TypeDefinitionIndex = 74499;
+	inline static constexpr unsigned int IMainTab_TypeDefinitionIndex = 74626;
 
 	class IMainTab
 	{

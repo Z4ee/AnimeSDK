@@ -6,12 +6,12 @@
 
 namespace Cinemachine { class CinemachineVirtualCameraBase; }
 
-#define CINEMACHINE_CINEMACHINEIMPULSELISTENER_POSTPIPELINESTAGECALLBACK_OFFSET UNITYSDK_OFFSET(0x16468720)
-#define CINEMACHINE_CINEMACHINEIMPULSELISTENER__CTOR_OFFSET UNITYSDK_OFFSET(0x16468E10)
+#define CINEMACHINE_CINEMACHINEIMPULSELISTENER_POSTPIPELINESTAGECALLBACK_OFFSET UNITYSDK_OFFSET(0x1668F420)
+#define CINEMACHINE_CINEMACHINEIMPULSELISTENER__CTOR_OFFSET UNITYSDK_OFFSET(0x1668FAF0)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineImpulseListener_TypeDefinitionIndex = 38572;
+	inline static constexpr unsigned int CinemachineImpulseListener_TypeDefinitionIndex = 39869;
 
 	class CinemachineImpulseListener : public ::Cinemachine::CinemachineExtension
 	{

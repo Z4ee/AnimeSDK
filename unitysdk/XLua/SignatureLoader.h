@@ -7,13 +7,13 @@ namespace System::Security::Cryptography { class RSACryptoServiceProvider; }
 namespace System::Security::Cryptography { class SHA1; }
 namespace XLua { class LuaEnv_CustomLoader; }
 
-#define XLUA_SIGNATURELOADER_LOAD_AND_VERIFY_OFFSET UNITYSDK_OFFSET(0x150792C0)
-#define XLUA_SIGNATURELOADER_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x15079450)
-#define XLUA_SIGNATURELOADER__CTOR_OFFSET UNITYSDK_OFFSET(0x150791F0)
+#define XLUA_SIGNATURELOADER_LOAD_AND_VERIFY_OFFSET UNITYSDK_OFFSET(0x152C6200)
+#define XLUA_SIGNATURELOADER_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x152C6390)
+#define XLUA_SIGNATURELOADER__CTOR_OFFSET UNITYSDK_OFFSET(0x152C6130)
 
 namespace XLua
 {
-	inline static constexpr unsigned int SignatureLoader_TypeDefinitionIndex = 50586;
+	inline static constexpr unsigned int SignatureLoader_TypeDefinitionIndex = 50255;
 
 	class SignatureLoader : public ::System::Object
 	{

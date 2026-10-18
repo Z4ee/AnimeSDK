@@ -5,7 +5,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IRogueTournGameLevelLayer_1_TypeDefinitionIndex = 67616;
+	inline static constexpr unsigned int IRogueTournGameLevelLayer_1_TypeDefinitionIndex = 67618;
 
 	template <typename TRoom>
 	class IRogueTournGameLevelLayer_1

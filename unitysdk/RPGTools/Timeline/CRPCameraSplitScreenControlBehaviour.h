@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 
-#define RPGTOOLS_TIMELINE_CRPCAMERASPLITSCREENCONTROLBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xE823F20)
+#define RPGTOOLS_TIMELINE_CRPCAMERASPLITSCREENCONTROLBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xE8C1BA0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int CRPCameraSplitScreenControlBehaviour_TypeDefinitionIndex = 48368;
+	inline static constexpr unsigned int CRPCameraSplitScreenControlBehaviour_TypeDefinitionIndex = 47908;
 
 	class CRPCameraSplitScreenControlBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{

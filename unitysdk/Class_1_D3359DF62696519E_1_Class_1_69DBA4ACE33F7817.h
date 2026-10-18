@@ -1,0 +1,30 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_0_16E4307DCC419505_114;
+class Class_1_7B5BC5F7531D3B01;
+class Class_1_A03C6135177E0F97_Class_1_BAA2B6DE101E3398;
+class Class_1_D3359DF62696519E_1;
+namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
+
+#define CLASS_1_D3359DF62696519E_1_CLASS_1_69DBA4ACE33F7817_METHOD_1_25EF287926C5F08B_OFFSET UNITYSDK_OFFSET(0xB346820)
+#define CLASS_1_D3359DF62696519E_1_CLASS_1_69DBA4ACE33F7817__CTOR_OFFSET UNITYSDK_OFFSET(0xB346810)
+
+inline static constexpr unsigned int Class_1_D3359DF62696519E_1_Class_1_69DBA4ACE33F7817_TypeDefinitionIndex = 79570;
+
+class Class_1_D3359DF62696519E_1_Class_1_69DBA4ACE33F7817 : public ::System::Object
+{
+public:
+	::Class_1_A03C6135177E0F97_Class_1_BAA2B6DE101E3398* AFONFEMGHEC; // 0x10
+
+	::System::Void _ctor(::Class_1_A03C6135177E0F97_Class_1_BAA2B6DE101E3398* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_A03C6135177E0F97_Class_1_BAA2B6DE101E3398*))((::PBYTE)hIl2Cpp + CLASS_1_D3359DF62696519E_1_CLASS_1_69DBA4ACE33F7817__CTOR_OFFSET))(this, a1);
+	}
+
+	::Class_1_D3359DF62696519E_1* Method_1_25EF287926C5F08B(::Class_0_16E4307DCC419505_114* a1, ::System::Collections::Generic::IReadOnlyList_1<::Class_1_7B5BC5F7531D3B01*>* a2)
+	{
+		return ((::Class_1_D3359DF62696519E_1*(*)(::PVOID, ::Class_0_16E4307DCC419505_114*, ::System::Collections::Generic::IReadOnlyList_1<::Class_1_7B5BC5F7531D3B01*>*))((::PBYTE)hIl2Cpp + CLASS_1_D3359DF62696519E_1_CLASS_1_69DBA4ACE33F7817_METHOD_1_25EF287926C5F08B_OFFSET))(this, a1, a2);
+	}
+};

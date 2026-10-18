@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_AVATARPROTOTYPEHELPER_GETMAXEIDOLONLEVEL_OFFSET UNITYSDK_OFFSET(0xC83C320)
+#define RPG_CLIENT_AVATARPROTOTYPEHELPER_GETMAXEIDOLONLEVEL_OFFSET UNITYSDK_OFFSET(0xC70A220)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AvatarPrototypeHelper_TypeDefinitionIndex = 62723;
+	inline static constexpr unsigned int AvatarPrototypeHelper_TypeDefinitionIndex = 62641;
 
 	class AvatarPrototypeHelper : public ::System::Object
 	{

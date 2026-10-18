@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_NODEREWARDUIDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xC5F8640)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_NODEREWARDUIDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xC510040)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int NodeRewardUiData_TypeDefinitionIndex = 75130;
+	inline static constexpr unsigned int NodeRewardUiData_TypeDefinitionIndex = 75430;
 
 	class NodeRewardUiData : public ::System::Object
 	{

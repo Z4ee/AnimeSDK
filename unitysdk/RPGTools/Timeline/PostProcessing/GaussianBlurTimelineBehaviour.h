@@ -8,12 +8,12 @@
 namespace RPG::CustomRP { class RPGGaussianBlur; }
 namespace System { class Object; }
 
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_GAUSSIANBLURTIMELINEBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xE8CE320)
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_GAUSSIANBLURTIMELINEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xE8CE920)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_GAUSSIANBLURTIMELINEBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xE923BA0)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_GAUSSIANBLURTIMELINEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xE9241A0)
 
 namespace RPGTools::Timeline::PostProcessing
 {
-	inline static constexpr unsigned int GaussianBlurTimelineBehaviour_TypeDefinitionIndex = 49027;
+	inline static constexpr unsigned int GaussianBlurTimelineBehaviour_TypeDefinitionIndex = 48573;
 
 	class GaussianBlurTimelineBehaviour : public ::RPGTools::Timeline::PostProcessing::BasePlayableBehaviour_1<::RPG::CustomRP::RPGGaussianBlur*>
 	{

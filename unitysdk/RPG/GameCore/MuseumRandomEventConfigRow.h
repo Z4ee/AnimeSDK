@@ -6,22 +6,22 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MUSEUMRANDOMEVENTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D2E5CF0)
-#define RPG_GAMECORE_MUSEUMRANDOMEVENTCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2E6430)
+#define RPG_GAMECORE_MUSEUMRANDOMEVENTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D8C86A0)
+#define RPG_GAMECORE_MUSEUMRANDOMEVENTCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D8C8DE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MuseumRandomEventConfigRow_TypeDefinitionIndex = 14139;
+	inline static constexpr unsigned int MuseumRandomEventConfigRow_TypeDefinitionIndex = 14246;
 
 	class MuseumRandomEventConfigRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* EventTypeParameter; // 0x10
-		::Il2CppArray<::System::UInt32>* TriggerTypeParameter; // 0x18
-		::RPG::Client::TextID Event; // 0x20
-		::RPG::Client::TextID EventTitle; // 0x30
-		::RPG::GameCore::MuseumRandomEventType EventType; // 0x40
-		::System::UInt32 RandomEventID; // 0x44
+		::Il2CppArray<::System::UInt32>* TriggerTypeParameter; // 0x10
+		::Il2CppArray<::System::UInt32>* EventTypeParameter; // 0x18
+		::RPG::Client::TextID EventTitle; // 0x20
+		::System::UInt32 RandomEventID; // 0x30
+		::RPG::GameCore::MuseumRandomEventType EventType; // 0x34
+		::RPG::Client::TextID Event; // 0x38
 
 		::System::Void _ctor()
 		{

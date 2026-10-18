@@ -7,13 +7,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SPEEDLINEEFFECT_METHOD_3_36EB6499B889FE37_OFFSET UNITYSDK_OFFSET(0x1D54C340)
-#define RPG_GAMECORE_SPEEDLINEEFFECT_METHOD_3_8D8C99BB0A24037B_OFFSET UNITYSDK_OFFSET(0x1D54C460)
-#define RPG_GAMECORE_SPEEDLINEEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D54C3E0)
+#define RPG_GAMECORE_SPEEDLINEEFFECT_METHOD_3_369FE2E9CCC7A32E_OFFSET UNITYSDK_OFFSET(0x1DB01290)
+#define RPG_GAMECORE_SPEEDLINEEFFECT_METHOD_3_8D8C99BB0A24037B_OFFSET UNITYSDK_OFFSET(0x1DB013B0)
+#define RPG_GAMECORE_SPEEDLINEEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB01330)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SpeedLineEffect_TypeDefinitionIndex = 20025;
+	inline static constexpr unsigned int SpeedLineEffect_TypeDefinitionIndex = 20262;
 
 	class SpeedLineEffect : public ::RPG::GameCore::TaskConfig
 	{
@@ -41,9 +41,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SPEEDLINEEFFECT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_36EB6499B889FE37(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SpeedLineEffect*& a2)
+		static ::System::Void Method_3_369FE2E9CCC7A32E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SpeedLineEffect*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SpeedLineEffect*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SPEEDLINEEFFECT_METHOD_3_36EB6499B889FE37_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SpeedLineEffect*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SPEEDLINEEFFECT_METHOD_3_369FE2E9CCC7A32E_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_8D8C99BB0A24037B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SpeedLineEffect* a2)

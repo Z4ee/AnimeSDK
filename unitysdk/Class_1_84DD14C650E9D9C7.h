@@ -4,9 +4,9 @@
 
 namespace RPG::GameCore { class TurnBasedModifierConfig; }
 
-#define CLASS_1_84DD14C650E9D9C7_METHOD_1_EA1FDF2EC889C060_OFFSET UNITYSDK_OFFSET(0x121EF5E0)
+#define CLASS_1_84DD14C650E9D9C7_METHOD_1_EA1FDF2EC889C060_OFFSET UNITYSDK_OFFSET(0x12640E50)
 
-inline static constexpr unsigned int Class_1_84DD14C650E9D9C7_TypeDefinitionIndex = 56686;
+inline static constexpr unsigned int Class_1_84DD14C650E9D9C7_TypeDefinitionIndex = 56501;
 
 class Class_1_84DD14C650E9D9C7 : public ::System::Object
 {

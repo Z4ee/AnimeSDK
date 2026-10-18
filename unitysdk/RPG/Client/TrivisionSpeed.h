@@ -7,30 +7,30 @@ namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class Renderer; }
 
-#define RPG_CLIENT_TRIVISIONSPEED_GETTEXTURENUM_OFFSET UNITYSDK_OFFSET(0xE2F3040)
-#define RPG_CLIENT_TRIVISIONSPEED_METHOD_5_775B6D644F07B554_OFFSET UNITYSDK_OFFSET(0xE2F3150)
-#define RPG_CLIENT_TRIVISIONSPEED_UPDATE_OFFSET UNITYSDK_OFFSET(0xE2F2E70)
-#define RPG_CLIENT_TRIVISIONSPEED__CCTOR_OFFSET UNITYSDK_OFFSET(0xE2F32B0)
-#define RPG_CLIENT_TRIVISIONSPEED__CTOR_OFFSET UNITYSDK_OFFSET(0xE2F32A0)
+#define RPG_CLIENT_TRIVISIONSPEED_GETTEXTURENUM_OFFSET UNITYSDK_OFFSET(0xE331F40)
+#define RPG_CLIENT_TRIVISIONSPEED_METHOD_5_775B6D644F07B554_OFFSET UNITYSDK_OFFSET(0xE332050)
+#define RPG_CLIENT_TRIVISIONSPEED_UPDATE_OFFSET UNITYSDK_OFFSET(0xE331D70)
+#define RPG_CLIENT_TRIVISIONSPEED__CCTOR_OFFSET UNITYSDK_OFFSET(0xE3321B0)
+#define RPG_CLIENT_TRIVISIONSPEED__CTOR_OFFSET UNITYSDK_OFFSET(0xE3321A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TrivisionSpeed_TypeDefinitionIndex = 70674;
+	inline static constexpr unsigned int TrivisionSpeed_TypeDefinitionIndex = 70710;
 
 	class TrivisionSpeed : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::System::Int32* StaticGet_FNGOBPOJMMD()
+		static ::System::Int32* StaticGet_BIKDJFJELDN()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TrivisionSpeed_TypeDefinitionIndex)->GetStaticField(0x136F0);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TrivisionSpeed_TypeDefinitionIndex)->GetStaticField(0x94E0);
 		}
 		static ::System::Int32* StaticGet_DJJLMOOBPLP()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TrivisionSpeed_TypeDefinitionIndex)->GetStaticField(0x136F4);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TrivisionSpeed_TypeDefinitionIndex)->GetStaticField(0x94E4);
 		}
-		static ::System::Int32* StaticGet_BIKDJFJELDN()
+		static ::System::Int32* StaticGet_FNGOBPOJMMD()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TrivisionSpeed_TypeDefinitionIndex)->GetStaticField(0x136F8);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TrivisionSpeed_TypeDefinitionIndex)->GetStaticField(0x94E8);
 		}
 		::System::String* Property; // 0x18
 		::UnityEngine::AnimationCurve* AnimCurve; // 0x20

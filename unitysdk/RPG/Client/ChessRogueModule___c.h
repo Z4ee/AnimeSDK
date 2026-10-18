@@ -4,29 +4,29 @@
 
 namespace System { class Action; }
 
-#define RPG_CLIENT_CHESSROGUEMODULE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xCBB4370)
-#define RPG_CLIENT_CHESSROGUEMODULE___C__CTOR_OFFSET UNITYSDK_OFFSET(0xCBB43A0)
-#define RPG_CLIENT_CHESSROGUEMODULE___C__INIT_B__1_0_OFFSET UNITYSDK_OFFSET(0xCBB43B0)
-#define RPG_CLIENT_CHESSROGUEMODULE___C__ONLOGINFINISH_B__2_0_OFFSET UNITYSDK_OFFSET(0xCBB4450)
+#define RPG_CLIENT_CHESSROGUEMODULE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xCB037F0)
+#define RPG_CLIENT_CHESSROGUEMODULE___C__CTOR_OFFSET UNITYSDK_OFFSET(0xCB03820)
+#define RPG_CLIENT_CHESSROGUEMODULE___C__INIT_B__1_0_OFFSET UNITYSDK_OFFSET(0xCB03830)
+#define RPG_CLIENT_CHESSROGUEMODULE___C__ONLOGINFINISH_B__2_0_OFFSET UNITYSDK_OFFSET(0xCB038D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChessRogueModule___c_TypeDefinitionIndex = 66931;
+	inline static constexpr unsigned int ChessRogueModule___c_TypeDefinitionIndex = 66933;
 
 	class ChessRogueModule___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::ChessRogueModule___c** StaticGet___9()
-		{
-			return (::RPG::Client::ChessRogueModule___c**)Il2CppClass::FromTypeDefinitionIndex(ChessRogueModule___c_TypeDefinitionIndex)->GetStaticField(0x3F360);
-		}
 		static ::System::Action** StaticGet___9__2_0()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(ChessRogueModule___c_TypeDefinitionIndex)->GetStaticField(0x3F368);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(ChessRogueModule___c_TypeDefinitionIndex)->GetStaticField(0xDB60);
+		}
+		static ::RPG::Client::ChessRogueModule___c** StaticGet___9()
+		{
+			return (::RPG::Client::ChessRogueModule___c**)Il2CppClass::FromTypeDefinitionIndex(ChessRogueModule___c_TypeDefinitionIndex)->GetStaticField(0xDB68);
 		}
 		static ::System::Action** StaticGet___9__1_0()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(ChessRogueModule___c_TypeDefinitionIndex)->GetStaticField(0x3F370);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(ChessRogueModule___c_TypeDefinitionIndex)->GetStaticField(0xDB70);
 		}
 
 		static ::System::Void _cctor()

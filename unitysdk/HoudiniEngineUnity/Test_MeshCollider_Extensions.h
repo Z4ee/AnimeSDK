@@ -6,13 +6,13 @@ namespace HoudiniEngineUnity { class Test_MeshCollider; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class MeshCollider; }
 
-#define HOUDINIENGINEUNITY_TEST_MESHCOLLIDER_EXTENSIONS_TOTESTOBJECT_1_OFFSET UNITYSDK_OFFSET(0x1B4B1BD0)
-#define HOUDINIENGINEUNITY_TEST_MESHCOLLIDER_EXTENSIONS_TOTESTOBJECT_2_OFFSET UNITYSDK_OFFSET(0x1B4B1CF0)
-#define HOUDINIENGINEUNITY_TEST_MESHCOLLIDER_EXTENSIONS_TOTESTOBJECT_OFFSET UNITYSDK_OFFSET(0x1B4AE710)
+#define HOUDINIENGINEUNITY_TEST_MESHCOLLIDER_EXTENSIONS_TOTESTOBJECT_1_OFFSET UNITYSDK_OFFSET(0x1B9B3C00)
+#define HOUDINIENGINEUNITY_TEST_MESHCOLLIDER_EXTENSIONS_TOTESTOBJECT_2_OFFSET UNITYSDK_OFFSET(0x1B9B3D20)
+#define HOUDINIENGINEUNITY_TEST_MESHCOLLIDER_EXTENSIONS_TOTESTOBJECT_OFFSET UNITYSDK_OFFSET(0x1B9B0740)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int Test_MeshCollider_Extensions_TypeDefinitionIndex = 39435;
+	inline static constexpr unsigned int Test_MeshCollider_Extensions_TypeDefinitionIndex = 40732;
 
 	class Test_MeshCollider_Extensions : public ::System::Object
 	{

@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MULTIFLOORCONFLICTGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D2DC230)
-#define RPG_GAMECORE_MULTIFLOORCONFLICTGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2DC380)
+#define RPG_GAMECORE_MULTIFLOORCONFLICTGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D8BEC30)
+#define RPG_GAMECORE_MULTIFLOORCONFLICTGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D8BED80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MultiFloorConflictGroupRow_TypeDefinitionIndex = 13949;
+	inline static constexpr unsigned int MultiFloorConflictGroupRow_TypeDefinitionIndex = 14056;
 
 	class MultiFloorConflictGroupRow : public ::System::Object
 	{

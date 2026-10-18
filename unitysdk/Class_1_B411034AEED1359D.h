@@ -5,9 +5,9 @@
 namespace Sofa { class BaseSofaUI3DWindow; }
 namespace Sofa { class BaseSofaWindow; }
 
-#define CLASS_1_B411034AEED1359D_METHOD_1_26E78A0C47A4F53C_OFFSET UNITYSDK_OFFSET(0xBB20E00)
+#define CLASS_1_B411034AEED1359D_METHOD_1_26E78A0C47A4F53C_OFFSET UNITYSDK_OFFSET(0xB9A7050)
 
-inline static constexpr unsigned int Class_1_B411034AEED1359D_TypeDefinitionIndex = 72913;
+inline static constexpr unsigned int Class_1_B411034AEED1359D_TypeDefinitionIndex = 72996;
 
 class Class_1_B411034AEED1359D : public ::System::Object
 {

@@ -6,7 +6,7 @@
 
 namespace RPG::GameCore { class LevelPedestrianV2MemberInfo; }
 
-inline static constexpr unsigned int Class_1_6EF502A68D7F2109_Struct_2_E7B8E3FDAA2A0F63_TypeDefinitionIndex = 69260;
+inline static constexpr unsigned int Class_1_6EF502A68D7F2109_Struct_2_E7B8E3FDAA2A0F63_TypeDefinitionIndex = 69296;
 
 struct alignas(8) Class_1_6EF502A68D7F2109_Struct_2_E7B8E3FDAA2A0F63
 {

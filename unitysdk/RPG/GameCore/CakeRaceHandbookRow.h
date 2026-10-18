@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_CAKERACEHANDBOOKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CF76E80)
-#define RPG_GAMECORE_CAKERACEHANDBOOKROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF77060)
+#define RPG_GAMECORE_CAKERACEHANDBOOKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D5508B0)
+#define RPG_GAMECORE_CAKERACEHANDBOOKROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D550A90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CakeRaceHandbookRow_TypeDefinitionIndex = 11009;
+	inline static constexpr unsigned int CakeRaceHandbookRow_TypeDefinitionIndex = 11025;
 
 	class CakeRaceHandbookRow : public ::System::Object
 	{

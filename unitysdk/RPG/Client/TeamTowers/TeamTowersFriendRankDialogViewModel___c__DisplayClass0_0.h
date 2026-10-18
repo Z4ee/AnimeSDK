@@ -8,19 +8,19 @@ namespace RPG::Client::TeamTowers { class TeamTowersFriendRankDialogViewModel; }
 namespace System { class Exception; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSFRIENDRANKDIALOGVIEWMODEL___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0xE1AB150)
-#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSFRIENDRANKDIALOGVIEWMODEL___C__DISPLAYCLASS0_0__UPDATERANKINGDATA_B__0_OFFSET UNITYSDK_OFFSET(0xE1AB720)
-#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSFRIENDRANKDIALOGVIEWMODEL___C__DISPLAYCLASS0_0__UPDATERANKINGDATA_B__1_OFFSET UNITYSDK_OFFSET(0xE1AB760)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSFRIENDRANKDIALOGVIEWMODEL___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0xE1EE380)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSFRIENDRANKDIALOGVIEWMODEL___C__DISPLAYCLASS0_0__UPDATERANKINGDATA_B__0_OFFSET UNITYSDK_OFFSET(0xE1EE9C0)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSFRIENDRANKDIALOGVIEWMODEL___C__DISPLAYCLASS0_0__UPDATERANKINGDATA_B__1_OFFSET UNITYSDK_OFFSET(0xE1EEA00)
 
 namespace RPG::Client::TeamTowers
 {
-	inline static constexpr unsigned int TeamTowersFriendRankDialogViewModel___c__DisplayClass0_0_TypeDefinitionIndex = 78586;
+	inline static constexpr unsigned int TeamTowersFriendRankDialogViewModel___c__DisplayClass0_0_TypeDefinitionIndex = 79057;
 
 	class TeamTowersFriendRankDialogViewModel___c__DisplayClass0_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::TeamTowers::TeamTowersFriendRankDialogViewModel* __4__this; // 0x10
-		::RPG::Client::Promises::Promise* promise; // 0x18
+		::RPG::Client::Promises::Promise* promise; // 0x10
+		::RPG::Client::TeamTowers::TeamTowersFriendRankDialogViewModel* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

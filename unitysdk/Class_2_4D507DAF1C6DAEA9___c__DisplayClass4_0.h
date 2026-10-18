@@ -6,16 +6,16 @@ class Class_1_6CB2450063991035_18;
 namespace RPG::Client { class RogueFormulaData; }
 namespace RPG::Client::Promises { class IPromise; }
 
-#define CLASS_2_4D507DAF1C6DAEA9___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x154E2430)
-#define CLASS_2_4D507DAF1C6DAEA9___C__DISPLAYCLASS4_0___PLAYFORMULASTORY_B__0_OFFSET UNITYSDK_OFFSET(0x154E2AB0)
+#define CLASS_2_4D507DAF1C6DAEA9___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x157A8570)
+#define CLASS_2_4D507DAF1C6DAEA9___C__DISPLAYCLASS4_0___PLAYFORMULASTORY_B__0_OFFSET UNITYSDK_OFFSET(0x157A8BF0)
 
-inline static constexpr unsigned int Class_2_4D507DAF1C6DAEA9___c__DisplayClass4_0_TypeDefinitionIndex = 67638;
+inline static constexpr unsigned int Class_2_4D507DAF1C6DAEA9___c__DisplayClass4_0_TypeDefinitionIndex = 67640;
 
 class Class_2_4D507DAF1C6DAEA9___c__DisplayClass4_0 : public ::System::Object
 {
 public:
-	::RPG::Client::RogueFormulaData* data; // 0x10
-	::Class_1_6CB2450063991035_18* info; // 0x18
+	::Class_1_6CB2450063991035_18* info; // 0x10
+	::RPG::Client::RogueFormulaData* data; // 0x18
 
 	::System::Void _ctor()
 	{

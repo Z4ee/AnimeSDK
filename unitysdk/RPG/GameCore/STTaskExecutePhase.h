@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int STTaskExecutePhase_TypeDefinitionIndex = 24341;
+	inline static constexpr unsigned int STTaskExecutePhase_TypeDefinitionIndex = 24620;
 
 	enum class STTaskExecutePhase : ::System::Int32
 	{

@@ -8,7 +8,7 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int NishastagaTrigger_Struct_2_92C12A5A5A66B2B9_TypeDefinitionIndex = 78489;
+	inline static constexpr unsigned int NishastagaTrigger_Struct_2_92C12A5A5A66B2B9_TypeDefinitionIndex = 78960;
 
 	struct alignas(8) NishastagaTrigger_Struct_2_92C12A5A5A66B2B9
 	{

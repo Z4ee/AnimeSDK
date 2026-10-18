@@ -4,19 +4,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_IDLELIVECHESTRANKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D19D800)
-#define RPG_GAMECORE_IDLELIVECHESTRANKROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D19D980)
+#define RPG_GAMECORE_IDLELIVECHESTRANKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D779500)
+#define RPG_GAMECORE_IDLELIVECHESTRANKROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D779680)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveChestRankRow_TypeDefinitionIndex = 11725;
+	inline static constexpr unsigned int IdleLiveChestRankRow_TypeDefinitionIndex = 11748;
 
 	class IdleLiveChestRankRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* RarityList; // 0x10
-		::System::UInt32 RequiredLevel; // 0x18
-		::System::UInt32 Rank; // 0x1C
+		::System::UInt32 Rank; // 0x18
+		::System::UInt32 RequiredLevel; // 0x1C
 
 		::System::Void _ctor()
 		{

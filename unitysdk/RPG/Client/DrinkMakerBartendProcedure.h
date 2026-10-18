@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DrinkMakerBartendProcedure_TypeDefinitionIndex = 63653;
+	inline static constexpr unsigned int DrinkMakerBartendProcedure_TypeDefinitionIndex = 63591;
 
 	enum class DrinkMakerBartendProcedure : ::System::Int32
 	{

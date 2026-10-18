@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define UNITYENGINE_PROBUILDER_PROGRIDSNOSNAPATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EB94C70)
+#define UNITYENGINE_PROBUILDER_PROGRIDSNOSNAPATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F25C690)
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int ProGridsNoSnapAttribute_TypeDefinitionIndex = 43219;
+	inline static constexpr unsigned int ProGridsNoSnapAttribute_TypeDefinitionIndex = 44411;
 
 	class ProGridsNoSnapAttribute : public ::System::Attribute
 	{

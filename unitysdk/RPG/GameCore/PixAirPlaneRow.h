@@ -7,32 +7,32 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_PIXAIRPLANEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D337C10)
-#define RPG_GAMECORE_PIXAIRPLANEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3381B0)
+#define RPG_GAMECORE_PIXAIRPLANEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D91CEE0)
+#define RPG_GAMECORE_PIXAIRPLANEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D91D490)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PixAirPlaneRow_TypeDefinitionIndex = 12054;
+	inline static constexpr unsigned int PixAirPlaneRow_TypeDefinitionIndex = 12135;
 
 	class PixAirPlaneRow : public ::System::Object
 	{
 	public:
-		::System::String* IconPath; // 0x10
-		::Il2CppArray<::RPG::GameCore::PixAirEquipTag>* RecommendTagList; // 0x18
-		::Il2CppArray<::System::UInt32>* EquipIDList; // 0x20
-		::System::String* LargePlaneIconPath; // 0x28
-		::System::String* PlaneIconPath; // 0x30
-		::System::String* ModelPath; // 0x38
-		::System::String* Name; // 0x40
-		::System::UInt32 EquipID; // 0x48
-		::RPG::Client::TextID desc; // 0x50
-		::System::UInt32 PlaneID; // 0x60
-		::System::UInt32 UnlockScore; // 0x64
-		::System::UInt32 GrantBySubmissionID; // 0x68
-		::System::Boolean IsSelectable; // 0x6C
-		::System::UInt32 BaseLife; // 0x70
-		::System::UInt32 BaseHP; // 0x74
-		::RPG::Client::TextID AvatarName; // 0x78
+		::Il2CppArray<::System::UInt32>* EquipIDList; // 0x10
+		::System::String* PlaneIconPath; // 0x18
+		::Il2CppArray<::RPG::GameCore::PixAirEquipTag>* RecommendTagList; // 0x20
+		::System::String* IconPath; // 0x28
+		::System::String* LargePlaneIconPath; // 0x30
+		::System::String* Name; // 0x38
+		::System::String* ModelPath; // 0x40
+		::System::UInt32 GrantBySubmissionID; // 0x48
+		::System::UInt32 BaseHP; // 0x4C
+		::System::Boolean IsSelectable; // 0x50
+		::System::UInt32 UnlockScore; // 0x54
+		::RPG::Client::TextID AvatarName; // 0x58
+		::System::UInt32 BaseLife; // 0x68
+		::RPG::Client::TextID desc; // 0x70
+		::System::UInt32 EquipID; // 0x80
+		::System::UInt32 PlaneID; // 0x84
 
 		::System::Void _ctor()
 		{

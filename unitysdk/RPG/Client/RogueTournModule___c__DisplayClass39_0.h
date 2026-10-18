@@ -7,19 +7,19 @@ class Class_1_7AB88D713F5121B3_57;
 namespace RPG::Client { class RogueTournModule; }
 namespace RPG::Client { template <typename T> class RPGHttpPlatformActResponse_1; }
 
-#define RPG_CLIENT_ROGUETOURNMODULE___C__DISPLAYCLASS39_0__CTOR_OFFSET UNITYSDK_OFFSET(0xDF6A9A0)
-#define RPG_CLIENT_ROGUETOURNMODULE___C__DISPLAYCLASS39_0__SENDSETROGUETOURNBUILDREFLIKEHTTPREQ_B__2_OFFSET UNITYSDK_OFFSET(0xDF7AFA0)
+#define RPG_CLIENT_ROGUETOURNMODULE___C__DISPLAYCLASS39_0__CTOR_OFFSET UNITYSDK_OFFSET(0xE0011C0)
+#define RPG_CLIENT_ROGUETOURNMODULE___C__DISPLAYCLASS39_0__SENDSETROGUETOURNBUILDREFLIKEHTTPREQ_B__2_OFFSET UNITYSDK_OFFSET(0xE0115C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournModule___c__DisplayClass39_0_TypeDefinitionIndex = 67799;
+	inline static constexpr unsigned int RogueTournModule___c__DisplayClass39_0_TypeDefinitionIndex = 67801;
 
 	class RogueTournModule___c__DisplayClass39_0 : public ::System::Object
 	{
 	public:
 		::RPG::Client::RogueTournModule* __4__this; // 0x10
-		::RPG::Client::MongoObjectId buildRefID; // 0x18
-		::System::Boolean isLike; // 0x24
+		::System::Boolean isLike; // 0x18
+		::RPG::Client::MongoObjectId buildRefID; // 0x1C
 
 		::System::Void _ctor()
 		{

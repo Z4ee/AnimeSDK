@@ -1,9 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-class Class_2_B66C1067C0468FBB;
+class Class_1_4D3F3A9A29F5DD81;
+namespace ObservableCollections { template <typename T> class ObservableList_1; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_1292_TypeDefinitionIndex = 77124;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_1292_TypeDefinitionIndex = 73430;
 
 class Class_0_16E4307DCC419505_1292
 {

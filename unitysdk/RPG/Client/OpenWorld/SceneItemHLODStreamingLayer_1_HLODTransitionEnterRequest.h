@@ -6,7 +6,7 @@
 
 namespace RPG::Client::OpenWorld
 {
-	inline static constexpr unsigned int SceneItemHLODStreamingLayer_1_HLODTransitionEnterRequest_TypeDefinitionIndex = 73718;
+	inline static constexpr unsigned int SceneItemHLODStreamingLayer_1_HLODTransitionEnterRequest_TypeDefinitionIndex = 73825;
 
 	template <typename T>
 	struct SceneItemHLODStreamingLayer_1_HLODTransitionEnterRequest

@@ -7,20 +7,20 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Object; }
 
-#define CLASS_1_95BCA8EECFBAC876___C__DISPLAYCLASS22_0__ASYNCRESOURCELOADING_B__0_OFFSET UNITYSDK_OFFSET(0xBB2F880)
-#define CLASS_1_95BCA8EECFBAC876___C__DISPLAYCLASS22_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBB2F870)
+#define CLASS_1_95BCA8EECFBAC876___C__DISPLAYCLASS22_0__ASYNCRESOURCELOADING_B__0_OFFSET UNITYSDK_OFFSET(0xB9B7CB0)
+#define CLASS_1_95BCA8EECFBAC876___C__DISPLAYCLASS22_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB9B7CA0)
 
-inline static constexpr unsigned int Class_1_95BCA8EECFBAC876___c__DisplayClass22_0_TypeDefinitionIndex = 49603;
+inline static constexpr unsigned int Class_1_95BCA8EECFBAC876___c__DisplayClass22_0_TypeDefinitionIndex = 49177;
 
 class Class_1_95BCA8EECFBAC876___c__DisplayClass22_0 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::UnityEngine::Object*>* loadedReources; // 0x10
-	::System::Action_1<::UnityEngine::Object*>* __9__0; // 0x18
-	::System::Action_1<::System::Collections::Generic::List_1<::UnityEngine::Object*>*>* onLoadfinish; // 0x20
-	::System::Collections::Generic::List_1<::System::String*>* paths; // 0x28
-	::System::Int32 i; // 0x30
-	::System::Int32 loadedCount; // 0x34
+	::System::Action_1<::System::Collections::Generic::List_1<::UnityEngine::Object*>*>* onLoadfinish; // 0x10
+	::System::Collections::Generic::List_1<::System::String*>* paths; // 0x18
+	::System::Action_1<::UnityEngine::Object*>* __9__0; // 0x20
+	::System::Collections::Generic::List_1<::UnityEngine::Object*>* loadedReources; // 0x28
+	::System::Int32 loadedCount; // 0x30
+	::System::Int32 i; // 0x34
 
 	::System::Void _ctor()
 	{

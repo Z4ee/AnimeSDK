@@ -4,7 +4,7 @@
 
 namespace Unity::Collections::LowLevel::Unsafe
 {
-	inline static constexpr unsigned int NativeSetClassTypeToNullOnScheduleAttribute_TypeDefinitionIndex = 4002;
+	inline static constexpr unsigned int NativeSetClassTypeToNullOnScheduleAttribute_TypeDefinitionIndex = 4003;
 
 	class NativeSetClassTypeToNullOnScheduleAttribute : public ::System::Attribute
 	{

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SwitchChallengeBossInfoPanelState; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_93044009FDBBDABD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB4EA600)
-#define CLASS_3_93044009FDBBDABD__CTOR_OFFSET UNITYSDK_OFFSET(0xB4EA5D0)
+#define CLASS_3_93044009FDBBDABD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB325FB0)
+#define CLASS_3_93044009FDBBDABD__CTOR_OFFSET UNITYSDK_OFFSET(0xB325F80)
 
-inline static constexpr unsigned int Class_3_93044009FDBBDABD_TypeDefinitionIndex = 55870;
+inline static constexpr unsigned int Class_3_93044009FDBBDABD_TypeDefinitionIndex = 55678;
 
 class Class_3_93044009FDBBDABD : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SwitchChallengeBossInfoPanelState*>
 {

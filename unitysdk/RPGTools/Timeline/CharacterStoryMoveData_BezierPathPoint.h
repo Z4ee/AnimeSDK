@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define RPGTOOLS_TIMELINE_CHARACTERSTORYMOVEDATA_BEZIERPATHPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0xE832C00)
+#define RPGTOOLS_TIMELINE_CHARACTERSTORYMOVEDATA_BEZIERPATHPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0xE8D09D0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int CharacterStoryMoveData_BezierPathPoint_TypeDefinitionIndex = 48465;
+	inline static constexpr unsigned int CharacterStoryMoveData_BezierPathPoint_TypeDefinitionIndex = 48005;
 
 	class CharacterStoryMoveData_BezierPathPoint : public ::System::Object
 	{

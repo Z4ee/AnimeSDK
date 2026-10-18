@@ -8,29 +8,29 @@ namespace System { class String; }
 namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class Text; }
 
-#define MIHOYO_SDK_WIN_OVERSEACONFIRMWITHTITLE_AWAKE_OFFSET UNITYSDK_OFFSET(0x1B8AEB50)
-#define MIHOYO_SDK_WIN_OVERSEACONFIRMWITHTITLE_CANCEL_OFFSET UNITYSDK_OFFSET(0x1B8AF760)
-#define MIHOYO_SDK_WIN_OVERSEACONFIRMWITHTITLE_CONFIRM_OFFSET UNITYSDK_OFFSET(0x1B8AF740)
-#define MIHOYO_SDK_WIN_OVERSEACONFIRMWITHTITLE_HIDE_OFFSET UNITYSDK_OFFSET(0x1B8A9D10)
-#define MIHOYO_SDK_WIN_OVERSEACONFIRMWITHTITLE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1B8AF7B0)
-#define MIHOYO_SDK_WIN_OVERSEACONFIRMWITHTITLE_SETCONTENT_OFFSET UNITYSDK_OFFSET(0x1B8AF460)
-#define MIHOYO_SDK_WIN_OVERSEACONFIRMWITHTITLE_SHOW_OFFSET UNITYSDK_OFFSET(0x1B8A8D40)
-#define MIHOYO_SDK_WIN_OVERSEACONFIRMWITHTITLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8AF7D0)
+#define MIHOYO_SDK_WIN_OVERSEACONFIRMWITHTITLE_AWAKE_OFFSET UNITYSDK_OFFSET(0x1BDAB110)
+#define MIHOYO_SDK_WIN_OVERSEACONFIRMWITHTITLE_CANCEL_OFFSET UNITYSDK_OFFSET(0x1BDABE30)
+#define MIHOYO_SDK_WIN_OVERSEACONFIRMWITHTITLE_CONFIRM_OFFSET UNITYSDK_OFFSET(0x1BDABE10)
+#define MIHOYO_SDK_WIN_OVERSEACONFIRMWITHTITLE_HIDE_OFFSET UNITYSDK_OFFSET(0x1BDA5DB0)
+#define MIHOYO_SDK_WIN_OVERSEACONFIRMWITHTITLE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1BDABE80)
+#define MIHOYO_SDK_WIN_OVERSEACONFIRMWITHTITLE_SETCONTENT_OFFSET UNITYSDK_OFFSET(0x1BDABB30)
+#define MIHOYO_SDK_WIN_OVERSEACONFIRMWITHTITLE_SHOW_OFFSET UNITYSDK_OFFSET(0x1BDA4E90)
+#define MIHOYO_SDK_WIN_OVERSEACONFIRMWITHTITLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDABEA0)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int OverseaConfirmWithTitle_TypeDefinitionIndex = 9248;
+	inline static constexpr unsigned int OverseaConfirmWithTitle_TypeDefinitionIndex = 9310;
 
 	class OverseaConfirmWithTitle : public ::MiHoYo::SDK::UIElement
 	{
 	public:
 		static ::MiHoYo::SDK::Win::OverseaConfirmWithTitle** StaticGet_Instance()
 		{
-			return (::MiHoYo::SDK::Win::OverseaConfirmWithTitle**)Il2CppClass::FromTypeDefinitionIndex(OverseaConfirmWithTitle_TypeDefinitionIndex)->GetStaticField(0x11760);
+			return (::MiHoYo::SDK::Win::OverseaConfirmWithTitle**)Il2CppClass::FromTypeDefinitionIndex(OverseaConfirmWithTitle_TypeDefinitionIndex)->GetStaticField(0xD5B0);
 		}
 		static ::MiHoYo::SDK::UIManager** StaticGet_manager()
 		{
-			return (::MiHoYo::SDK::UIManager**)Il2CppClass::FromTypeDefinitionIndex(OverseaConfirmWithTitle_TypeDefinitionIndex)->GetStaticField(0x11768);
+			return (::MiHoYo::SDK::UIManager**)Il2CppClass::FromTypeDefinitionIndex(OverseaConfirmWithTitle_TypeDefinitionIndex)->GetStaticField(0xD5B8);
 		}
 		// static const ::System::String* PrefabName; // 0x0
 		// static const ::System::String* titlePath; // 0x0

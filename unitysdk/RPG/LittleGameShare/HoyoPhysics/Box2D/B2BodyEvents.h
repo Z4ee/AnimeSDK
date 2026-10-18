@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2BodyMoveEvent.h"
 #include "unitysdk/System/ValueType.h"
 
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2BODYEVENTS__CTOR_OFFSET UNITYSDK_OFFSET(0x8EB60)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2BODYEVENTS__CTOR_OFFSET UNITYSDK_OFFSET(0x14160)
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2BodyEvents_TypeDefinitionIndex = 35906;
+	inline static constexpr unsigned int B2BodyEvents_TypeDefinitionIndex = 36593;
 
 	struct alignas(8) B2BodyEvents
 	{

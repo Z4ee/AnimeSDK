@@ -7,12 +7,12 @@
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_LIPLINEFIXSCALETIMELINETRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8D01A0)
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_LIPLINEFIXSCALETIMELINETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xE8D02E0)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_LIPLINEFIXSCALETIMELINETRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE925A70)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_LIPLINEFIXSCALETIMELINETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xE925B80)
 
 namespace RPGTools::Timeline::PostProcessing
 {
-	inline static constexpr unsigned int LipLineFixScaleTimelineTrack_TypeDefinitionIndex = 49037;
+	inline static constexpr unsigned int LipLineFixScaleTimelineTrack_TypeDefinitionIndex = 48583;
 
 	class LipLineFixScaleTimelineTrack : public ::RPGTools::Timeline::CharacterTrack
 	{

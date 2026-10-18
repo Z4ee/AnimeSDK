@@ -4,10 +4,10 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define AKSOUNDENGINE_AUTOOBJECT_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1EF182B0)
-#define AKSOUNDENGINE_AUTOOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF18000)
+#define AKSOUNDENGINE_AUTOOBJECT_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1F5DFEC0)
+#define AKSOUNDENGINE_AUTOOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1F5DFC10)
 
-inline static constexpr unsigned int AkSoundEngine_AutoObject_TypeDefinitionIndex = 43611;
+inline static constexpr unsigned int AkSoundEngine_AutoObject_TypeDefinitionIndex = 44803;
 
 class AkSoundEngine_AutoObject : public ::System::Object
 {

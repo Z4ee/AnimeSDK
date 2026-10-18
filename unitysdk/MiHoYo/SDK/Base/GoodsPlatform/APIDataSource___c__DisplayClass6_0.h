@@ -2,22 +2,22 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace MiHoYo::SDK { class JSONArray; }
+namespace MiHoYo::SDK { class JSONNode; }
 namespace MiHoYo::SDK { class NetworkResponseModel; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 
-#define MIHOYO_SDK_BASE_GOODSPLATFORM_APIDATASOURCE___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B734170)
-#define MIHOYO_SDK_BASE_GOODSPLATFORM_APIDATASOURCE___C__DISPLAYCLASS6_0__REQUESTGOODSLIST_B__0_OFFSET UNITYSDK_OFFSET(0x1B734190)
+#define MIHOYO_SDK_BASE_GOODSPLATFORM_APIDATASOURCE___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC31F40)
+#define MIHOYO_SDK_BASE_GOODSPLATFORM_APIDATASOURCE___C__DISPLAYCLASS6_0__REQUESTGOODSLIST_B__0_OFFSET UNITYSDK_OFFSET(0x1BC31F60)
 
 namespace MiHoYo::SDK::Base::GoodsPlatform
 {
-	inline static constexpr unsigned int APIDataSource___c__DisplayClass6_0_TypeDefinitionIndex = 8775;
+	inline static constexpr unsigned int APIDataSource___c__DisplayClass6_0_TypeDefinitionIndex = 8836;
 
 	class APIDataSource___c__DisplayClass6_0 : public ::System::Object
 	{
 	public:
-		::System::Action_3<::System::Int32, ::System::String*, ::MiHoYo::SDK::JSONArray*>* callback; // 0x10
+		::System::Action_3<::System::Int32, ::System::String*, ::MiHoYo::SDK::JSONNode*>* callback; // 0x10
 
 		::System::Void _ctor()
 		{

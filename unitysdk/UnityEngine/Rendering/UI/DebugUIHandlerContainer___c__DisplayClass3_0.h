@@ -4,12 +4,12 @@
 
 namespace UnityEngine::Rendering::UI { class DebugUIHandlerWidget; }
 
-#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERCONTAINER___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1EC0B050)
-#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERCONTAINER___C__DISPLAYCLASS3_0__ISDIRECTCHILD_B__0_OFFSET UNITYSDK_OFFSET(0x1EC0B070)
+#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERCONTAINER___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1F2D28F0)
+#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERCONTAINER___C__DISPLAYCLASS3_0__ISDIRECTCHILD_B__0_OFFSET UNITYSDK_OFFSET(0x1F2D2910)
 
 namespace UnityEngine::Rendering::UI
 {
-	inline static constexpr unsigned int DebugUIHandlerContainer___c__DisplayClass3_0_TypeDefinitionIndex = 35011;
+	inline static constexpr unsigned int DebugUIHandlerContainer___c__DisplayClass3_0_TypeDefinitionIndex = 35680;
 
 	class DebugUIHandlerContainer___c__DisplayClass3_0 : public ::System::Object
 	{

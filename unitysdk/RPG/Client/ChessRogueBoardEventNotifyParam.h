@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/GameCore/ModifierEffectType.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_CHESSROGUEBOARDEVENTNOTIFYPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xCB9E340)
+#define RPG_CLIENT_CHESSROGUEBOARDEVENTNOTIFYPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xCAED790)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChessRogueBoardEventNotifyParam_TypeDefinitionIndex = 66925;
+	inline static constexpr unsigned int ChessRogueBoardEventNotifyParam_TypeDefinitionIndex = 66927;
 
 	class ChessRogueBoardEventNotifyParam : public ::System::Object
 	{

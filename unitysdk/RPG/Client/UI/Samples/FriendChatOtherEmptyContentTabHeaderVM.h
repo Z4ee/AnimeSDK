@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/Ui/Samples/FriendChatTabViewModel.h"
 
-#define RPG_CLIENT_UI_SAMPLES_FRIENDCHATOTHEREMPTYCONTENTTABHEADERVM__CTOR_OFFSET UNITYSDK_OFFSET(0xE3CC6B0)
+#define RPG_CLIENT_UI_SAMPLES_FRIENDCHATOTHEREMPTYCONTENTTABHEADERVM__CTOR_OFFSET UNITYSDK_OFFSET(0xE40E6F0)
 
 namespace RPG::Client::Ui::Samples
 {
-	inline static constexpr unsigned int FriendChatOtherEmptyContentTabHeaderVM_TypeDefinitionIndex = 73345;
+	inline static constexpr unsigned int FriendChatOtherEmptyContentTabHeaderVM_TypeDefinitionIndex = 73446;
 
 	class FriendChatOtherEmptyContentTabHeaderVM : public ::RPG::Client::Ui::Samples::FriendChatTabViewModel
 	{

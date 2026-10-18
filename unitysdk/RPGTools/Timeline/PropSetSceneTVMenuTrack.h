@@ -4,12 +4,12 @@
 
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_PROPSETSCENETVMENUTRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0xE8DA2A0)
-#define RPGTOOLS_TIMELINE_PROPSETSCENETVMENUTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xE8DA350)
+#define RPGTOOLS_TIMELINE_PROPSETSCENETVMENUTRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0xE92FA50)
+#define RPGTOOLS_TIMELINE_PROPSETSCENETVMENUTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xE92FB00)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int PropSetSceneTVMenuTrack_TypeDefinitionIndex = 48714;
+	inline static constexpr unsigned int PropSetSceneTVMenuTrack_TypeDefinitionIndex = 48254;
 
 	class PropSetSceneTVMenuTrack : public ::RPGTools::Timeline::CharacterTrack
 	{

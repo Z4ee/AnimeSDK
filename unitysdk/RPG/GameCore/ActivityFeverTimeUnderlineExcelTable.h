@@ -11,45 +11,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_ACTIVITYFEVERTIMEUNDERLINEEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1CD8D690)
-#define RPG_GAMECORE_ACTIVITYFEVERTIMEUNDERLINEEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1CD8D520)
-#define RPG_GAMECORE_ACTIVITYFEVERTIMEUNDERLINEEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1CD8D210)
-#define RPG_GAMECORE_ACTIVITYFEVERTIMEUNDERLINEEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1CD8D4C0)
-#define RPG_GAMECORE_ACTIVITYFEVERTIMEUNDERLINEEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1CD8D820)
-#define RPG_GAMECORE_ACTIVITYFEVERTIMEUNDERLINEEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1CD8D290)
-#define RPG_GAMECORE_ACTIVITYFEVERTIMEUNDERLINEEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1CD8D860)
-#define RPG_GAMECORE_ACTIVITYFEVERTIMEUNDERLINEEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CD8DA30)
-#define RPG_GAMECORE_ACTIVITYFEVERTIMEUNDERLINEEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1CD8DBA0)
-#define RPG_GAMECORE_ACTIVITYFEVERTIMEUNDERLINEEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CD8DF10)
-#define RPG_GAMECORE_ACTIVITYFEVERTIMEUNDERLINEEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1CD8D990)
-#define RPG_GAMECORE_ACTIVITYFEVERTIMEUNDERLINEEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1CD8D8F0)
+#define RPG_GAMECORE_ACTIVITYFEVERTIMEUNDERLINEEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1D361A10)
+#define RPG_GAMECORE_ACTIVITYFEVERTIMEUNDERLINEEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1D3618A0)
+#define RPG_GAMECORE_ACTIVITYFEVERTIMEUNDERLINEEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1D361590)
+#define RPG_GAMECORE_ACTIVITYFEVERTIMEUNDERLINEEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1D361840)
+#define RPG_GAMECORE_ACTIVITYFEVERTIMEUNDERLINEEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1D361BA0)
+#define RPG_GAMECORE_ACTIVITYFEVERTIMEUNDERLINEEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D361610)
+#define RPG_GAMECORE_ACTIVITYFEVERTIMEUNDERLINEEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1D361BE0)
+#define RPG_GAMECORE_ACTIVITYFEVERTIMEUNDERLINEEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D361DB0)
+#define RPG_GAMECORE_ACTIVITYFEVERTIMEUNDERLINEEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1D361F20)
+#define RPG_GAMECORE_ACTIVITYFEVERTIMEUNDERLINEEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D362290)
+#define RPG_GAMECORE_ACTIVITYFEVERTIMEUNDERLINEEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1D361D10)
+#define RPG_GAMECORE_ACTIVITYFEVERTIMEUNDERLINEEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D361C70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityFeverTimeUnderlineExcelTable_TypeDefinitionIndex = 11578;
+	inline static constexpr unsigned int ActivityFeverTimeUnderlineExcelTable_TypeDefinitionIndex = 11594;
 
 	class ActivityFeverTimeUnderlineExcelTable : public ::System::Object
 	{
 	public:
+		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
+		{
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityFeverTimeUnderlineExcelTable_TypeDefinitionIndex)->GetStaticField(0x40150);
+		}
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityFeverTimeUnderlineExcelTable_TypeDefinitionIndex)->GetStaticField(0x3E940);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityFeverTimeUnderlineExcelTable_TypeDefinitionIndex)->GetStaticField(0x40158);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ActivityFeverTimeUnderlineRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ActivityFeverTimeUnderlineRow*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityFeverTimeUnderlineExcelTable_TypeDefinitionIndex)->GetStaticField(0x3E948);
-		}
-		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
-		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityFeverTimeUnderlineExcelTable_TypeDefinitionIndex)->GetStaticField(0x3E950);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ActivityFeverTimeUnderlineRow*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityFeverTimeUnderlineExcelTable_TypeDefinitionIndex)->GetStaticField(0x40160);
 		}
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(ActivityFeverTimeUnderlineExcelTable_TypeDefinitionIndex)->GetStaticField(0xF2C0);
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(ActivityFeverTimeUnderlineExcelTable_TypeDefinitionIndex)->GetStaticField(0xDAE0);
 		}
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ActivityFeverTimeUnderlineExcelTable_TypeDefinitionIndex)->GetStaticField(0xF2C1);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ActivityFeverTimeUnderlineExcelTable_TypeDefinitionIndex)->GetStaticField(0xDAE1);
 		}
 
 		static ::System::Void _cctor()

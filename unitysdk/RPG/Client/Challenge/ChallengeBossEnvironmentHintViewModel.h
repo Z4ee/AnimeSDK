@@ -7,23 +7,23 @@ namespace RPG::Client { class ChallengeBossInstance; }
 namespace RPG::Client { class MonsterData; }
 namespace RPG::Client { class MonsterGuideData; }
 
-#define RPG_CLIENT_CHALLENGE_CHALLENGEBOSSENVIRONMENTHINTVIEWMODEL_GET_BOSSMONSTERDATA_OFFSET UNITYSDK_OFFSET(0xC9EFD70)
-#define RPG_CLIENT_CHALLENGE_CHALLENGEBOSSENVIRONMENTHINTVIEWMODEL_GET_BOSSMONSTERGUIDEDATA_OFFSET UNITYSDK_OFFSET(0xC9EFD80)
-#define RPG_CLIENT_CHALLENGE_CHALLENGEBOSSENVIRONMENTHINTVIEWMODEL_GET_CURRENTSTAGEBUFFID_OFFSET UNITYSDK_OFFSET(0xC9EFD60)
-#define RPG_CLIENT_CHALLENGE_CHALLENGEBOSSENVIRONMENTHINTVIEWMODEL_GET_CURRENTSTAGENUMBER_OFFSET UNITYSDK_OFFSET(0xC9EFD50)
-#define RPG_CLIENT_CHALLENGE_CHALLENGEBOSSENVIRONMENTHINTVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xC9EFD90)
+#define RPG_CLIENT_CHALLENGE_CHALLENGEBOSSENVIRONMENTHINTVIEWMODEL_GET_BOSSMONSTERDATA_OFFSET UNITYSDK_OFFSET(0xC93E4D0)
+#define RPG_CLIENT_CHALLENGE_CHALLENGEBOSSENVIRONMENTHINTVIEWMODEL_GET_BOSSMONSTERGUIDEDATA_OFFSET UNITYSDK_OFFSET(0xC93E4E0)
+#define RPG_CLIENT_CHALLENGE_CHALLENGEBOSSENVIRONMENTHINTVIEWMODEL_GET_CURRENTSTAGEBUFFID_OFFSET UNITYSDK_OFFSET(0xC93E4C0)
+#define RPG_CLIENT_CHALLENGE_CHALLENGEBOSSENVIRONMENTHINTVIEWMODEL_GET_CURRENTSTAGENUMBER_OFFSET UNITYSDK_OFFSET(0xC93E4B0)
+#define RPG_CLIENT_CHALLENGE_CHALLENGEBOSSENVIRONMENTHINTVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xC93E4F0)
 
 namespace RPG::Client::Challenge
 {
-	inline static constexpr unsigned int ChallengeBossEnvironmentHintViewModel_TypeDefinitionIndex = 80101;
+	inline static constexpr unsigned int ChallengeBossEnvironmentHintViewModel_TypeDefinitionIndex = 81429;
 
 	class ChallengeBossEnvironmentHintViewModel : public ::RPG::Client::Challenge::ChallengeEnvironmentHintViewModelBase
 	{
 	public:
-		::RPG::Client::MonsterData* _BossMonsterData_k__BackingField; // 0x18
-		::RPG::Client::MonsterGuideData* _BossMonsterGuideData_k__BackingField; // 0x20
-		::System::Nullable_1<::System::UInt32> _CurrentStageBuffID_k__BackingField; // 0x28
-		::System::Int32 _CurrentStageNumber_k__BackingField; // 0x30
+		::RPG::Client::MonsterGuideData* _BossMonsterGuideData_k__BackingField; // 0x18
+		::RPG::Client::MonsterData* _BossMonsterData_k__BackingField; // 0x20
+		::System::Int32 _CurrentStageNumber_k__BackingField; // 0x28
+		::System::Nullable_1<::System::UInt32> _CurrentStageBuffID_k__BackingField; // 0x2C
 
 		::System::Void _ctor(::RPG::Client::ChallengeBossInstance* a1)
 		{

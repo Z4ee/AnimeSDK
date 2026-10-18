@@ -5,25 +5,25 @@
 #include "unitysdk/UnityEngine/ConsoleVariableBoolProperty.h"
 #include "unitysdk/UnityEngine/ConsoleVariableIntProperty.h"
 
-#define CLASS_1_E80EEF86F1B2ADC7_METHOD_1_9A015E0E585B34BD_OFFSET UNITYSDK_OFFSET(0x12E73B50)
-#define CLASS_1_E80EEF86F1B2ADC7__CCTOR_OFFSET UNITYSDK_OFFSET(0x12E73BC0)
+#define CLASS_1_E80EEF86F1B2ADC7_METHOD_1_9A015E0E585B34BD_OFFSET UNITYSDK_OFFSET(0x12D124D0)
+#define CLASS_1_E80EEF86F1B2ADC7__CCTOR_OFFSET UNITYSDK_OFFSET(0x12D12540)
 
-inline static constexpr unsigned int Class_1_E80EEF86F1B2ADC7_TypeDefinitionIndex = 69296;
+inline static constexpr unsigned int Class_1_E80EEF86F1B2ADC7_TypeDefinitionIndex = 69332;
 
 class Class_1_E80EEF86F1B2ADC7 : public ::System::Object
 {
 public:
 	static ::UnityEngine::ConsoleVariableBoolProperty* StaticGet_OPJDJAIMMOG()
 	{
-		return (::UnityEngine::ConsoleVariableBoolProperty*)Il2CppClass::FromTypeDefinitionIndex(Class_1_E80EEF86F1B2ADC7_TypeDefinitionIndex)->GetStaticField(0x5B340);
+		return (::UnityEngine::ConsoleVariableBoolProperty*)Il2CppClass::FromTypeDefinitionIndex(Class_1_E80EEF86F1B2ADC7_TypeDefinitionIndex)->GetStaticField(0x6FE80);
 	}
 	static ::UnityEngine::ConsoleVariableIntProperty* StaticGet_LEKFCCMACGM()
 	{
-		return (::UnityEngine::ConsoleVariableIntProperty*)Il2CppClass::FromTypeDefinitionIndex(Class_1_E80EEF86F1B2ADC7_TypeDefinitionIndex)->GetStaticField(0x5B350);
+		return (::UnityEngine::ConsoleVariableIntProperty*)Il2CppClass::FromTypeDefinitionIndex(Class_1_E80EEF86F1B2ADC7_TypeDefinitionIndex)->GetStaticField(0x6FE90);
 	}
 	static ::UnityEngine::ConsoleVariableBoolProperty* StaticGet_LDEAODNEGCG()
 	{
-		return (::UnityEngine::ConsoleVariableBoolProperty*)Il2CppClass::FromTypeDefinitionIndex(Class_1_E80EEF86F1B2ADC7_TypeDefinitionIndex)->GetStaticField(0x5B360);
+		return (::UnityEngine::ConsoleVariableBoolProperty*)Il2CppClass::FromTypeDefinitionIndex(Class_1_E80EEF86F1B2ADC7_TypeDefinitionIndex)->GetStaticField(0x6FEA0);
 	}
 
 	static ::System::Void _cctor()

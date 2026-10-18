@@ -10,7 +10,7 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int SingleOperator_TypeDefinitionIndex = 44435;
+	inline static constexpr unsigned int SingleOperator_TypeDefinitionIndex = 45574;
 
 	class SingleOperator : public ::System::Object
 	{

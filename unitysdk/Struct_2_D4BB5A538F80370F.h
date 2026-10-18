@@ -3,7 +3,7 @@
 #include "unitysdk/RPG/Client/MonoEmoPlayableGraph_EyeState.h"
 #include "unitysdk/System/ValueType.h"
 
-inline static constexpr unsigned int Struct_2_D4BB5A538F80370F_TypeDefinitionIndex = 49228;
+inline static constexpr unsigned int Struct_2_D4BB5A538F80370F_TypeDefinitionIndex = 48774;
 
 struct alignas(8) Struct_2_D4BB5A538F80370F
 {

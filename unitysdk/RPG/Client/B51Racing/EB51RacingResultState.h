@@ -3,7 +3,7 @@
 
 namespace RPG::Client::B51Racing
 {
-	inline static constexpr unsigned int EB51RacingResultState_TypeDefinitionIndex = 80356;
+	inline static constexpr unsigned int EB51RacingResultState_TypeDefinitionIndex = 81684;
 
 	enum class EB51RacingResultState : ::System::Int32
 	{

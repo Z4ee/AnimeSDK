@@ -6,12 +6,12 @@
 
 namespace RPG::GameCore { class TriggerEffectOnAnchor; }
 
-#define RPGTOOLS_TIMELINE_TRIGGEREFFECTONANCHORBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xE8F8A10)
-#define RPGTOOLS_TIMELINE_TRIGGEREFFECTONANCHORBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xE8F8D70)
+#define RPGTOOLS_TIMELINE_TRIGGEREFFECTONANCHORBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xE94E460)
+#define RPGTOOLS_TIMELINE_TRIGGEREFFECTONANCHORBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xE94E7D0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int TriggerEffectOnAnchorBehaviour_TypeDefinitionIndex = 48796;
+	inline static constexpr unsigned int TriggerEffectOnAnchorBehaviour_TypeDefinitionIndex = 48336;
 
 	class TriggerEffectOnAnchorBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{

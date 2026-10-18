@@ -5,13 +5,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_FIVEDIMDROPENTITYACTION_METHOD_3_B202B7106FD4C392_OFFSET UNITYSDK_OFFSET(0x1D0E1F00)
-#define RPG_GAMECORE_FIVEDIMDROPENTITYACTION_METHOD_3_CFBDFA9FA639A785_OFFSET UNITYSDK_OFFSET(0x1D0E1F50)
-#define RPG_GAMECORE_FIVEDIMDROPENTITYACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0E1F40)
+#define RPG_GAMECORE_FIVEDIMDROPENTITYACTION_METHOD_4_16F47FC015BAB7DB_OFFSET UNITYSDK_OFFSET(0x1D6BA8C0)
+#define RPG_GAMECORE_FIVEDIMDROPENTITYACTION_METHOD_4_5B76DFAA7301953C_OFFSET UNITYSDK_OFFSET(0x1D6BA910)
+#define RPG_GAMECORE_FIVEDIMDROPENTITYACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6BA900)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimDropEntityAction_TypeDefinitionIndex = 18504;
+	inline static constexpr unsigned int FiveDimDropEntityAction_TypeDefinitionIndex = 18714;
 
 	class FiveDimDropEntityAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
@@ -25,14 +25,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMDROPENTITYACTION__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_B202B7106FD4C392(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimDropEntityAction*& a2)
+		static ::System::Void Method_4_16F47FC015BAB7DB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimDropEntityAction*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimDropEntityAction*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMDROPENTITYACTION_METHOD_3_B202B7106FD4C392_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimDropEntityAction*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMDROPENTITYACTION_METHOD_4_16F47FC015BAB7DB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_CFBDFA9FA639A785(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimDropEntityAction* a2)
+		static ::System::Void Method_4_5B76DFAA7301953C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimDropEntityAction* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimDropEntityAction*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMDROPENTITYACTION_METHOD_3_CFBDFA9FA639A785_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimDropEntityAction*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMDROPENTITYACTION_METHOD_4_5B76DFAA7301953C_OFFSET))(a1, a2);
 		}
 	};
 }

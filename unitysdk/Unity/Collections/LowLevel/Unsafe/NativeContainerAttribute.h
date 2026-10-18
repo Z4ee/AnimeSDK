@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define UNITY_COLLECTIONS_LOWLEVEL_UNSAFE_NATIVECONTAINERATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1ED03950)
+#define UNITY_COLLECTIONS_LOWLEVEL_UNSAFE_NATIVECONTAINERATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F3CB6F0)
 
 namespace Unity::Collections::LowLevel::Unsafe
 {
-	inline static constexpr unsigned int NativeContainerAttribute_TypeDefinitionIndex = 3991;
+	inline static constexpr unsigned int NativeContainerAttribute_TypeDefinitionIndex = 3992;
 
 	class NativeContainerAttribute : public ::System::Attribute
 	{

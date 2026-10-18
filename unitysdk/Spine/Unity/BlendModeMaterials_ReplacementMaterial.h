@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace UnityEngine { class Material; }
 
-#define SPINE_UNITY_BLENDMODEMATERIALS_REPLACEMENTMATERIAL__CTOR_OFFSET UNITYSDK_OFFSET(0x1E638240)
+#define SPINE_UNITY_BLENDMODEMATERIALS_REPLACEMENTMATERIAL__CTOR_OFFSET UNITYSDK_OFFSET(0x1ED003C0)
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int BlendModeMaterials_ReplacementMaterial_TypeDefinitionIndex = 43807;
+	inline static constexpr unsigned int BlendModeMaterials_ReplacementMaterial_TypeDefinitionIndex = 44999;
 
 	class BlendModeMaterials_ReplacementMaterial : public ::System::Object
 	{

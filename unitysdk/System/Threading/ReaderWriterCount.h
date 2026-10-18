@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_THREADING_READERWRITERCOUNT__CTOR_OFFSET UNITYSDK_OFFSET(0x1E774810)
+#define SYSTEM_THREADING_READERWRITERCOUNT__CTOR_OFFSET UNITYSDK_OFFSET(0x1EE3D4B0)
 
 namespace System::Threading
 {

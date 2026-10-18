@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class RtCharacterVisual; }
 
-#define RPG_GAMECORE_RTCHARACTERFLAGVISUAL_METHOD_2_76EE3D985151D217_OFFSET UNITYSDK_OFFSET(0x1D4A4D70)
-#define RPG_GAMECORE_RTCHARACTERFLAGVISUAL__CTOR_OFFSET UNITYSDK_OFFSET(0x1D4A4E80)
+#define RPG_GAMECORE_RTCHARACTERFLAGVISUAL_METHOD_2_76EE3D985151D217_OFFSET UNITYSDK_OFFSET(0x1DA58140)
+#define RPG_GAMECORE_RTCHARACTERFLAGVISUAL__CTOR_OFFSET UNITYSDK_OFFSET(0x1DA58250)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtCharacterFlagVisual_TypeDefinitionIndex = 23817;
+	inline static constexpr unsigned int RtCharacterFlagVisual_TypeDefinitionIndex = 24092;
 
 	class RtCharacterFlagVisual : public ::RPG::GameCore::JsonConfig
 	{

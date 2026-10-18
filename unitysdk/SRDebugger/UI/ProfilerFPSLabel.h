@@ -5,13 +5,13 @@
 namespace SRDebugger::Services { class IProfilerService; }
 namespace UnityEngine::UI { class Text; }
 
-#define SRDEBUGGER_UI_PROFILERFPSLABEL_REFRESH_OFFSET UNITYSDK_OFFSET(0x1E69DB90)
-#define SRDEBUGGER_UI_PROFILERFPSLABEL_UPDATE_OFFSET UNITYSDK_OFFSET(0x1E69DB60)
-#define SRDEBUGGER_UI_PROFILERFPSLABEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1E69DE30)
+#define SRDEBUGGER_UI_PROFILERFPSLABEL_REFRESH_OFFSET UNITYSDK_OFFSET(0x1ED65520)
+#define SRDEBUGGER_UI_PROFILERFPSLABEL_UPDATE_OFFSET UNITYSDK_OFFSET(0x1ED654F0)
+#define SRDEBUGGER_UI_PROFILERFPSLABEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1ED65780)
 
 namespace SRDebugger::UI
 {
-	inline static constexpr unsigned int ProfilerFPSLabel_TypeDefinitionIndex = 37289;
+	inline static constexpr unsigned int ProfilerFPSLabel_TypeDefinitionIndex = 37982;
 
 	class ProfilerFPSLabel : public ::SRF::SRMonoBehaviourEx
 	{

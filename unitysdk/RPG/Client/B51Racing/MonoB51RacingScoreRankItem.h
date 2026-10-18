@@ -7,15 +7,15 @@ namespace RPG::Client { class UIStateCtrl; }
 namespace System { class String; }
 namespace UnityEngine { class Animation; }
 
-#define RPG_CLIENT_B51RACING_MONOB51RACINGSCORERANKITEM_PLAYPLAYERFADEINANIMATION_OFFSET UNITYSDK_OFFSET(0xC8AB8F0)
-#define RPG_CLIENT_B51RACING_MONOB51RACINGSCORERANKITEM_SETUPVIEW_OFFSET UNITYSDK_OFFSET(0xC8AB4F0)
-#define RPG_CLIENT_B51RACING_MONOB51RACINGSCORERANKITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xC8AB990)
-#define RPG_CLIENT_B51RACING_MONOB51RACINGSCORERANKITEM__GETRANKSTATENAME_OFFSET UNITYSDK_OFFSET(0xC8AB870)
-#define RPG_CLIENT_B51RACING_MONOB51RACINGSCORERANKITEM__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0xC8AB3C0)
+#define RPG_CLIENT_B51RACING_MONOB51RACINGSCORERANKITEM_PLAYPLAYERFADEINANIMATION_OFFSET UNITYSDK_OFFSET(0xC7CB0D0)
+#define RPG_CLIENT_B51RACING_MONOB51RACINGSCORERANKITEM_SETUPVIEW_OFFSET UNITYSDK_OFFSET(0xC7CACD0)
+#define RPG_CLIENT_B51RACING_MONOB51RACINGSCORERANKITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xC7CB170)
+#define RPG_CLIENT_B51RACING_MONOB51RACINGSCORERANKITEM__GETRANKSTATENAME_OFFSET UNITYSDK_OFFSET(0xC7CB050)
+#define RPG_CLIENT_B51RACING_MONOB51RACINGSCORERANKITEM__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0xC7CABA0)
 
 namespace RPG::Client::B51Racing
 {
-	inline static constexpr unsigned int MonoB51RacingScoreRankItem_TypeDefinitionIndex = 80649;
+	inline static constexpr unsigned int MonoB51RacingScoreRankItem_TypeDefinitionIndex = 81977;
 
 	class MonoB51RacingScoreRankItem : public ::Sofa::BaseSofaControl
 	{
@@ -27,12 +27,12 @@ namespace RPG::Client::B51Racing
 		// static const ::System::String* PLAYER_STATE_MAIN; // 0x0
 		// static const ::System::String* PLAYER_STATE_NORMAL; // 0x0
 		// static const ::System::String* PLAYER_FADE_IN_ANIM_CLIP; // 0x0
-		::RPG::Client::UIStateCtrl* _RankStateCtrl; // 0x38
-		::RPG::Client::UIStateCtrl* _PlayerStateCtrl; // 0x40
-		::RPG::Client::LocalizedText* _RankText; // 0x48
-		::RPG::Client::LocalizedText* _NameText; // 0x50
-		::RPG::Client::LocalizedText* _ScoreText; // 0x58
-		::UnityEngine::Animation* _Animation; // 0x60
+		::RPG::Client::UIStateCtrl* _RankStateCtrl; // 0x40
+		::RPG::Client::UIStateCtrl* _PlayerStateCtrl; // 0x48
+		::RPG::Client::LocalizedText* _RankText; // 0x50
+		::RPG::Client::LocalizedText* _NameText; // 0x58
+		::RPG::Client::LocalizedText* _ScoreText; // 0x60
+		::UnityEngine::Animation* _Animation; // 0x68
 
 		::System::Void _ctor()
 		{

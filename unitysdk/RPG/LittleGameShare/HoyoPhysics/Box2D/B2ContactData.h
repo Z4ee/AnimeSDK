@@ -5,11 +5,11 @@
 #include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2ShapeId.h"
 #include "unitysdk/System/ValueType.h"
 
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2CONTACTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x3B77410)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2CONTACTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x3C2C270)
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2ContactData_TypeDefinitionIndex = 35935;
+	inline static constexpr unsigned int B2ContactData_TypeDefinitionIndex = 36622;
 
 	struct alignas(8) B2ContactData
 	{

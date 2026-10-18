@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LightningStrikeAreaMode_TypeDefinitionIndex = 24270;
+	inline static constexpr unsigned int LightningStrikeAreaMode_TypeDefinitionIndex = 24549;
 
 	enum class LightningStrikeAreaMode : ::System::Int32
 	{

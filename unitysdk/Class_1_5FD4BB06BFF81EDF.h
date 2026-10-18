@@ -3,7 +3,7 @@
 #include "unitysdk/RPG/GameCore/ChimeraDuelStatusType.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_43BD383C98B4C0C5_213;
+class Class_1_43BD383C98B4C0C5_215;
 class Class_1_A92BC063ED2379EB;
 class Class_1_B58468E7171EFB5E;
 class Class_1_E518B582305CCAFF;
@@ -14,24 +14,24 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_5FD4BB06BFF81EDF_EXECUTE_OFFSET UNITYSDK_OFFSET(0x15A4D310)
-#define CLASS_1_5FD4BB06BFF81EDF_METHOD_1_51AC7912135C5E23_OFFSET UNITYSDK_OFFSET(0x15A4D130)
-#define CLASS_1_5FD4BB06BFF81EDF_METHOD_1_F8B73ECE7F883AC1_OFFSET UNITYSDK_OFFSET(0x15A4D5B0)
-#define CLASS_1_5FD4BB06BFF81EDF_TICK_OFFSET UNITYSDK_OFFSET(0x15A4D540)
-#define CLASS_1_5FD4BB06BFF81EDF__CCTOR_OFFSET UNITYSDK_OFFSET(0x15A4D5F0)
-#define CLASS_1_5FD4BB06BFF81EDF__CTOR_OFFSET UNITYSDK_OFFSET(0x15A4CE80)
+#define CLASS_1_5FD4BB06BFF81EDF_EXECUTE_OFFSET UNITYSDK_OFFSET(0x15D5EE30)
+#define CLASS_1_5FD4BB06BFF81EDF_METHOD_1_51AC7912135C5E23_OFFSET UNITYSDK_OFFSET(0x15D5EC50)
+#define CLASS_1_5FD4BB06BFF81EDF_METHOD_1_F8B73ECE7F883AC1_OFFSET UNITYSDK_OFFSET(0x15D5F0D0)
+#define CLASS_1_5FD4BB06BFF81EDF_TICK_OFFSET UNITYSDK_OFFSET(0x15D5F060)
+#define CLASS_1_5FD4BB06BFF81EDF__CCTOR_OFFSET UNITYSDK_OFFSET(0x15D5F110)
+#define CLASS_1_5FD4BB06BFF81EDF__CTOR_OFFSET UNITYSDK_OFFSET(0x15D5EA30)
 
-inline static constexpr unsigned int Class_1_5FD4BB06BFF81EDF_TypeDefinitionIndex = 77190;
+inline static constexpr unsigned int Class_1_5FD4BB06BFF81EDF_TypeDefinitionIndex = 77661;
 
 class Class_1_5FD4BB06BFF81EDF : public ::System::Object
 {
 public:
 	static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::ChimeraDuelStatusType, ::System::String*>** StaticGet_NBEKIBIEAOJ()
 	{
-		return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::ChimeraDuelStatusType, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_5FD4BB06BFF81EDF_TypeDefinitionIndex)->GetStaticField(0x5ABA0);
+		return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::ChimeraDuelStatusType, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_5FD4BB06BFF81EDF_TypeDefinitionIndex)->GetStaticField(0x24930);
 	}
 	::Class_1_E518B582305CCAFF* HFOFIODMFGB; // 0x10
-	::System::Collections::Generic::List_1<::Class_1_43BD383C98B4C0C5_213*>* OJFECHILFHG; // 0x18
+	::System::Collections::Generic::List_1<::Class_1_43BD383C98B4C0C5_215*>* OJFECHILFHG; // 0x18
 
 	::System::Void _ctor(::Class_2_B66C1067C0468FBB* a1, ::RPG::GameCore::ChimeraDuelStatusType a2, ::Class_1_B58468E7171EFB5E* a3, ::Class_1_A92BC063ED2379EB* a4)
 	{

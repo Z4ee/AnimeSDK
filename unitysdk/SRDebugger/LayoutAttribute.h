@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SRDEBUGGER_LAYOUTATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E674040)
+#define SRDEBUGGER_LAYOUTATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1ED3BF70)
 
 namespace SRDebugger
 {
-	inline static constexpr unsigned int LayoutAttribute_TypeDefinitionIndex = 37270;
+	inline static constexpr unsigned int LayoutAttribute_TypeDefinitionIndex = 37963;
 
 	class LayoutAttribute : public ::System::Attribute
 	{

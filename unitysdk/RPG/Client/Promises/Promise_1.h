@@ -20,7 +20,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::Promises
 {
-	inline static constexpr unsigned int Promise_1_TypeDefinitionIndex = 9818;
+	inline static constexpr unsigned int Promise_1_TypeDefinitionIndex = 9876;
 
 	template <typename PromisedT>
 	class Promise_1 : public ::System::Object

@@ -9,17 +9,17 @@ namespace RPG::GameCore { class CakeRaceBaseTargetSelectorConfig; }
 namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_DC9A3C8A45B1184A_METHOD_1_9DF5F50DDC7F33E5_OFFSET UNITYSDK_OFFSET(0x1C097A40)
-#define CLASS_1_DC9A3C8A45B1184A__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C0A4E20)
+#define CLASS_1_DC9A3C8A45B1184A_METHOD_1_9DF5F50DDC7F33E5_OFFSET UNITYSDK_OFFSET(0x1C5E8800)
+#define CLASS_1_DC9A3C8A45B1184A__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C5F5A70)
 
-inline static constexpr unsigned int Class_1_DC9A3C8A45B1184A_TypeDefinitionIndex = 36742;
+inline static constexpr unsigned int Class_1_DC9A3C8A45B1184A_TypeDefinitionIndex = 37429;
 
 class Class_1_DC9A3C8A45B1184A : public ::System::Object
 {
 public:
 	static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::Class_1_DC9A3C8A45B1184A_Class_3_59976A118ED61ACD*>** StaticGet_JMAPGFDDINP()
 	{
-		return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::Class_1_DC9A3C8A45B1184A_Class_3_59976A118ED61ACD*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_DC9A3C8A45B1184A_TypeDefinitionIndex)->GetStaticField(0x46D0);
+		return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::Class_1_DC9A3C8A45B1184A_Class_3_59976A118ED61ACD*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_DC9A3C8A45B1184A_TypeDefinitionIndex)->GetStaticField(0x59A30);
 	}
 
 	static ::System::Void _cctor()

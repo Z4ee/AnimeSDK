@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Class_1_8BA26F44C7FAFF0E_RF_PlayerSkillComponent_TypeDefinitionIndex = 36406;
+inline static constexpr unsigned int Class_1_8BA26F44C7FAFF0E_RF_PlayerSkillComponent_TypeDefinitionIndex = 37093;
 
 enum class Class_1_8BA26F44C7FAFF0E_RF_PlayerSkillComponent : ::System::Byte
 {

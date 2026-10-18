@@ -4,18 +4,18 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_B7039134DC553D20_CLASS_1_411CE7DBE5F749E8__CTOR_OFFSET UNITYSDK_OFFSET(0x11B756D0)
+#define CLASS_1_B7039134DC553D20_CLASS_1_411CE7DBE5F749E8__CTOR_OFFSET UNITYSDK_OFFSET(0x11FD2950)
 
-inline static constexpr unsigned int Class_1_B7039134DC553D20_Class_1_411CE7DBE5F749E8_TypeDefinitionIndex = 60126;
+inline static constexpr unsigned int Class_1_B7039134DC553D20_Class_1_411CE7DBE5F749E8_TypeDefinitionIndex = 59989;
 
 class Class_1_B7039134DC553D20_Class_1_411CE7DBE5F749E8 : public ::System::Object
 {
 public:
 	::System::Collections::Generic::List_1<::System::UInt32>* FFEPLIHOFLA; // 0x10
 	::System::Collections::Generic::List_1<::System::UInt32>* POMLEDOMPIG; // 0x18
-	::System::Boolean HCOFMFKFMDK; // 0x20
-	::System::Single LALKFADHJJL; // 0x24
-	::System::UInt32 LLGEOLMFMAB; // 0x28
+	::System::Single LALKFADHJJL; // 0x20
+	::System::UInt32 LLGEOLMFMAB; // 0x24
+	::System::Boolean HCOFMFKFMDK; // 0x28
 
 	::System::Void _ctor()
 	{

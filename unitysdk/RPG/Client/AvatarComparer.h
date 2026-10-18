@@ -8,13 +8,13 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class IComparer_1; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-#define RPG_CLIENT_AVATARCOMPARER__ACCEPTIMPL_OFFSET UNITYSDK_OFFSET(0xC7FF930)
-#define RPG_CLIENT_AVATARCOMPARER__COMPAREIMPL_OFFSET UNITYSDK_OFFSET(0xC7FFEB0)
-#define RPG_CLIENT_AVATARCOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0xC7FF8D0)
+#define RPG_CLIENT_AVATARCOMPARER__ACCEPTIMPL_OFFSET UNITYSDK_OFFSET(0xC6CCCB0)
+#define RPG_CLIENT_AVATARCOMPARER__COMPAREIMPL_OFFSET UNITYSDK_OFFSET(0xC6CD230)
+#define RPG_CLIENT_AVATARCOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0xC6CCC50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AvatarComparer_TypeDefinitionIndex = 62877;
+	inline static constexpr unsigned int AvatarComparer_TypeDefinitionIndex = 62810;
 
 	class AvatarComparer : public ::RPG::Client::AvatarComparerBase
 	{

@@ -7,29 +7,29 @@ namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Converter_2; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_CONSOLE_MIHOYOSDKDLL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B7A6270)
-#define MIHOYO_SDK_CONSOLE_MIHOYOSDKDLL___C__CONSOLE_SWITCH_CONTROL_B__168_0_OFFSET UNITYSDK_OFFSET(0x1B7A6480)
-#define MIHOYO_SDK_CONSOLE_MIHOYOSDKDLL___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7A62B0)
-#define MIHOYO_SDK_CONSOLE_MIHOYOSDKDLL___C__INIT_B__18_0_OFFSET UNITYSDK_OFFSET(0x1B7A62C0)
+#define MIHOYO_SDK_CONSOLE_MIHOYOSDKDLL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BCA57F0)
+#define MIHOYO_SDK_CONSOLE_MIHOYOSDKDLL___C__CONSOLE_SWITCH_CONTROL_B__168_0_OFFSET UNITYSDK_OFFSET(0x1BCA5A00)
+#define MIHOYO_SDK_CONSOLE_MIHOYOSDKDLL___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1BCA5830)
+#define MIHOYO_SDK_CONSOLE_MIHOYOSDKDLL___C__INIT_B__18_0_OFFSET UNITYSDK_OFFSET(0x1BCA5840)
 
 namespace MiHoYo::SDK::Console
 {
-	inline static constexpr unsigned int MiHoYoSDKDll___c_TypeDefinitionIndex = 8890;
+	inline static constexpr unsigned int MiHoYoSDKDll___c_TypeDefinitionIndex = 8951;
 
 	class MiHoYoSDKDll___c : public ::System::Object
 	{
 	public:
+		static ::System::Converter_2<::System::Int32, ::System::String*>** StaticGet___9__168_0()
+		{
+			return (::System::Converter_2<::System::Int32, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MiHoYoSDKDll___c_TypeDefinitionIndex)->GetStaticField(0x36490);
+		}
 		static ::MiHoYo::SDK::Console::MiHoYoSDKDll___c** StaticGet___9()
 		{
-			return (::MiHoYo::SDK::Console::MiHoYoSDKDll___c**)Il2CppClass::FromTypeDefinitionIndex(MiHoYoSDKDll___c_TypeDefinitionIndex)->GetStaticField(0xB7F0);
+			return (::MiHoYo::SDK::Console::MiHoYoSDKDll___c**)Il2CppClass::FromTypeDefinitionIndex(MiHoYoSDKDll___c_TypeDefinitionIndex)->GetStaticField(0x36498);
 		}
 		static ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>** StaticGet___9__18_0()
 		{
-			return (::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>**)Il2CppClass::FromTypeDefinitionIndex(MiHoYoSDKDll___c_TypeDefinitionIndex)->GetStaticField(0xB7F8);
-		}
-		static ::System::Converter_2<::System::Int32, ::System::String*>** StaticGet___9__168_0()
-		{
-			return (::System::Converter_2<::System::Int32, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MiHoYoSDKDll___c_TypeDefinitionIndex)->GetStaticField(0xB800);
+			return (::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>**)Il2CppClass::FromTypeDefinitionIndex(MiHoYoSDKDll___c_TypeDefinitionIndex)->GetStaticField(0x364A0);
 		}
 
 		static ::System::Void _cctor()

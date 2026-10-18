@@ -3,7 +3,7 @@
 
 namespace ParticleRecorder
 {
-	inline static constexpr unsigned int ParticleRecorderState_TypeDefinitionIndex = 36800;
+	inline static constexpr unsigned int ParticleRecorderState_TypeDefinitionIndex = 37487;
 
 	enum class ParticleRecorderState : ::System::Int32
 	{

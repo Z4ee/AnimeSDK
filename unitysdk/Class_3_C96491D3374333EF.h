@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class RtInsertSkill; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_C96491D3374333EF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC3CF3A0)
-#define CLASS_3_C96491D3374333EF__CTOR_OFFSET UNITYSDK_OFFSET(0xC3CF370)
+#define CLASS_3_C96491D3374333EF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC2D0840)
+#define CLASS_3_C96491D3374333EF__CTOR_OFFSET UNITYSDK_OFFSET(0xC2D0810)
 
-inline static constexpr unsigned int Class_3_C96491D3374333EF_TypeDefinitionIndex = 54143;
+inline static constexpr unsigned int Class_3_C96491D3374333EF_TypeDefinitionIndex = 53929;
 
 class Class_3_C96491D3374333EF : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::RtInsertSkill*>
 {

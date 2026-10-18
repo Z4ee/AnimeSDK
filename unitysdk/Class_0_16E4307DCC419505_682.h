@@ -1,9 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-namespace RPG::Client { class MonoPlayerAttachmentController; }
+class Class_1_15AADF33708BADBA;
+class Class_1_5E580A40620A5711;
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_682_TypeDefinitionIndex = 60280;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_682_TypeDefinitionIndex = 56885;
 
 class Class_0_16E4307DCC419505_682
 {

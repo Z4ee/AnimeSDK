@@ -1,11 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/GameCore/FixPoint.h"
-#include "unitysdk/RPG/GameCore/TaskState.h"
 
+namespace RPG::GameCore { class TaskContext; }
 namespace System { class String; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_546_TypeDefinitionIndex = 54540;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_546_TypeDefinitionIndex = 52112;
 
 class Class_0_16E4307DCC419505_546
 {

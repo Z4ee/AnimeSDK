@@ -7,13 +7,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TRIGGERMODELSHAKE_METHOD_3_4E8CBE6D378E8143_OFFSET UNITYSDK_OFFSET(0x1D601480)
-#define RPG_GAMECORE_TRIGGERMODELSHAKE_METHOD_3_517FE5AA8A675291_OFFSET UNITYSDK_OFFSET(0x1D601540)
-#define RPG_GAMECORE_TRIGGERMODELSHAKE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6014F0)
+#define RPG_GAMECORE_TRIGGERMODELSHAKE_METHOD_3_488BB41DCE373C98_OFFSET UNITYSDK_OFFSET(0x1DC55500)
+#define RPG_GAMECORE_TRIGGERMODELSHAKE_METHOD_3_4E8CBE6D378E8143_OFFSET UNITYSDK_OFFSET(0x1DC55440)
+#define RPG_GAMECORE_TRIGGERMODELSHAKE__CTOR_OFFSET UNITYSDK_OFFSET(0x1DC554B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TriggerModelShake_TypeDefinitionIndex = 22204;
+	inline static constexpr unsigned int TriggerModelShake_TypeDefinitionIndex = 22453;
 
 	class TriggerModelShake : public ::RPG::GameCore::TaskConfig
 	{
@@ -34,9 +34,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerModelShake*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERMODELSHAKE_METHOD_3_4E8CBE6D378E8143_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_517FE5AA8A675291(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerModelShake* a2)
+		static ::System::Void Method_3_488BB41DCE373C98(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerModelShake* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerModelShake*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERMODELSHAKE_METHOD_3_517FE5AA8A675291_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerModelShake*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERMODELSHAKE_METHOD_3_488BB41DCE373C98_OFFSET))(a1, a2);
 		}
 	};
 }

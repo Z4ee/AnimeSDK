@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_LIVEROOMICONUIDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xC5F7B80)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_LIVEROOMICONUIDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xC50F580)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int LiveRoomIconUiData_TypeDefinitionIndex = 75128;
+	inline static constexpr unsigned int LiveRoomIconUiData_TypeDefinitionIndex = 75428;
 
 	class LiveRoomIconUiData : public ::System::Object
 	{

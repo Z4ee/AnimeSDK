@@ -5,24 +5,24 @@
 class Class_1_45BB92167AED63A0_2;
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_TEAMBUILDRECIPE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xE188FB0)
-#define RPG_CLIENT_TEAMBUILDRECIPE___C__CREATE_B__13_0_OFFSET UNITYSDK_OFFSET(0xE189000)
-#define RPG_CLIENT_TEAMBUILDRECIPE___C__CTOR_OFFSET UNITYSDK_OFFSET(0xE188FF0)
+#define RPG_CLIENT_TEAMBUILDRECIPE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xE1CB640)
+#define RPG_CLIENT_TEAMBUILDRECIPE___C__CREATE_B__13_0_OFFSET UNITYSDK_OFFSET(0xE1CB690)
+#define RPG_CLIENT_TEAMBUILDRECIPE___C__CTOR_OFFSET UNITYSDK_OFFSET(0xE1CB680)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TeamBuildRecipe___c_TypeDefinitionIndex = 68089;
+	inline static constexpr unsigned int TeamBuildRecipe___c_TypeDefinitionIndex = 68094;
 
 	class TeamBuildRecipe___c : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::TeamBuildRecipe___c** StaticGet___9()
 		{
-			return (::RPG::Client::TeamBuildRecipe___c**)Il2CppClass::FromTypeDefinitionIndex(TeamBuildRecipe___c_TypeDefinitionIndex)->GetStaticField(0x43000);
+			return (::RPG::Client::TeamBuildRecipe___c**)Il2CppClass::FromTypeDefinitionIndex(TeamBuildRecipe___c_TypeDefinitionIndex)->GetStaticField(0xF900);
 		}
 		static ::System::Func_2<::Class_1_45BB92167AED63A0_2*, ::System::UInt32>** StaticGet___9__13_0()
 		{
-			return (::System::Func_2<::Class_1_45BB92167AED63A0_2*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(TeamBuildRecipe___c_TypeDefinitionIndex)->GetStaticField(0x43008);
+			return (::System::Func_2<::Class_1_45BB92167AED63A0_2*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(TeamBuildRecipe___c_TypeDefinitionIndex)->GetStaticField(0xF908);
 		}
 
 		static ::System::Void _cctor()

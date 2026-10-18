@@ -4,19 +4,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ACTIVITYFEVERTIMETUTORIALROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CD8CBC0)
-#define RPG_GAMECORE_ACTIVITYFEVERTIMETUTORIALROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD8D200)
+#define RPG_GAMECORE_ACTIVITYFEVERTIMETUTORIALROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D360F40)
+#define RPG_GAMECORE_ACTIVITYFEVERTIMETUTORIALROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D361580)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityFeverTimeTutorialRow_TypeDefinitionIndex = 11575;
+	inline static constexpr unsigned int ActivityFeverTimeTutorialRow_TypeDefinitionIndex = 11591;
 
 	class ActivityFeverTimeTutorialRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* RecommendAvatarList; // 0x10
-		::System::UInt32 P2AvailableBuffID; // 0x18
-		::System::UInt32 TutorialID; // 0x1C
+		::System::UInt32 TutorialID; // 0x18
+		::System::UInt32 P2AvailableBuffID; // 0x1C
 
 		::System::Void _ctor()
 		{

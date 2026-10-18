@@ -5,19 +5,19 @@
 namespace Hdg { class rdtUdpMessageHello; }
 namespace System::Threading { class Thread; }
 
-#define HDG_SERVERBROADCASTER_STOP_OFFSET UNITYSDK_OFFSET(0xB180FD0)
-#define HDG_SERVERBROADCASTER_THREADFUNC_OFFSET UNITYSDK_OFFSET(0xB18E5B0)
-#define HDG_SERVERBROADCASTER__CTOR_OFFSET UNITYSDK_OFFSET(0xB1817A0)
+#define HDG_SERVERBROADCASTER_STOP_OFFSET UNITYSDK_OFFSET(0xAF2DD80)
+#define HDG_SERVERBROADCASTER_THREADFUNC_OFFSET UNITYSDK_OFFSET(0xAF396B0)
+#define HDG_SERVERBROADCASTER__CTOR_OFFSET UNITYSDK_OFFSET(0xAF2E140)
 
 namespace Hdg
 {
-	inline static constexpr unsigned int ServerBroadcaster_TypeDefinitionIndex = 47405;
+	inline static constexpr unsigned int ServerBroadcaster_TypeDefinitionIndex = 46945;
 
 	class ServerBroadcaster : public ::System::Object
 	{
 	public:
-		::System::Threading::Thread* m_thread; // 0x10
-		::Hdg::rdtUdpMessageHello* m_message; // 0x18
+		::Hdg::rdtUdpMessageHello* m_message; // 0x10
+		::System::Threading::Thread* m_thread; // 0x18
 		::System::Boolean m_run; // 0x20
 
 		::System::Void _ctor(::System::Int32 a1)

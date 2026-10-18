@@ -6,17 +6,17 @@
 namespace RPG::Client { class CharacterAtlasFace; }
 namespace System { class String; }
 
-#define CLASS_1_9DFC523FA52CA703_CLASS_1_584AB62D4E73A4DB__CTOR_OFFSET UNITYSDK_OFFSET(0x152DD1C0)
+#define CLASS_1_9DFC523FA52CA703_CLASS_1_584AB62D4E73A4DB__CTOR_OFFSET UNITYSDK_OFFSET(0x155CB8E0)
 
-inline static constexpr unsigned int Class_1_9DFC523FA52CA703_Class_1_584AB62D4E73A4DB_TypeDefinitionIndex = 57319;
+inline static constexpr unsigned int Class_1_9DFC523FA52CA703_Class_1_584AB62D4E73A4DB_TypeDefinitionIndex = 57155;
 
 class Class_1_9DFC523FA52CA703_Class_1_584AB62D4E73A4DB : public ::System::Object
 {
 public:
-	::System::String* NAJMIHJAHIM; // 0x10
-	::RPG::Client::CharacterAtlasFace* KCKBEDBOFPN; // 0x18
-	::System::Int32 CPHCMPEPGFF; // 0x20
-	::System::Nullable_1<::System::Int32> LIOLHKEJBMA; // 0x24
+	::RPG::Client::CharacterAtlasFace* KCKBEDBOFPN; // 0x10
+	::System::String* NAJMIHJAHIM; // 0x18
+	::System::Nullable_1<::System::Int32> LIOLHKEJBMA; // 0x20
+	::System::Int32 CPHCMPEPGFF; // 0x28
 
 	::System::Void _ctor()
 	{

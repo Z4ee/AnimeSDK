@@ -4,12 +4,12 @@
 
 namespace IniParserEx { class IniFile_Section; }
 
-#define INIPARSEREX_INIFILEPARSER_SECTIONSCOPE_GET_SECTION_OFFSET UNITYSDK_OFFSET(0x1ED03870)
-#define INIPARSEREX_INIFILEPARSER_SECTIONSCOPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1ED02120)
+#define INIPARSEREX_INIFILEPARSER_SECTIONSCOPE_GET_SECTION_OFFSET UNITYSDK_OFFSET(0x1F3CB610)
+#define INIPARSEREX_INIFILEPARSER_SECTIONSCOPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F3C9EC0)
 
 namespace IniParserEx
 {
-	inline static constexpr unsigned int IniFileParser_SectionScope_TypeDefinitionIndex = 3942;
+	inline static constexpr unsigned int IniFileParser_SectionScope_TypeDefinitionIndex = 3943;
 
 	class IniFileParser_SectionScope : public ::System::Object
 	{

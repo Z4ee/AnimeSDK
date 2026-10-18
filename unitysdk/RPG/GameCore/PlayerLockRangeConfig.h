@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_PLAYERLOCKRANGECONFIG_METHOD_2_193F85E115477945_OFFSET UNITYSDK_OFFSET(0x1D350C30)
-#define RPG_GAMECORE_PLAYERLOCKRANGECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3511A0)
+#define RPG_GAMECORE_PLAYERLOCKRANGECONFIG_METHOD_2_4E88377A16951D67_OFFSET UNITYSDK_OFFSET(0x1D935ED0)
+#define RPG_GAMECORE_PLAYERLOCKRANGECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D9364C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlayerLockRangeConfig_TypeDefinitionIndex = 17405;
+	inline static constexpr unsigned int PlayerLockRangeConfig_TypeDefinitionIndex = 17617;
 
 	class PlayerLockRangeConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -38,9 +38,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYERLOCKRANGECONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_193F85E115477945(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PlayerLockRangeConfig*& a2)
+		static ::System::Void Method_2_4E88377A16951D67(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PlayerLockRangeConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PlayerLockRangeConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYERLOCKRANGECONFIG_METHOD_2_193F85E115477945_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PlayerLockRangeConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYERLOCKRANGECONFIG_METHOD_2_4E88377A16951D67_OFFSET))(a1, a2);
 		}
 	};
 }

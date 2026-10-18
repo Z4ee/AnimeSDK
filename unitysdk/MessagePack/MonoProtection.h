@@ -4,19 +4,19 @@
 
 namespace System { class Object; }
 
-#define MESSAGEPACK_MONOPROTECTION_ENTERREFEMITLOCK_OFFSET UNITYSDK_OFFSET(0x1B6CFDD0)
-#define MESSAGEPACK_MONOPROTECTION_GET_ISRUNNINGONMONO_OFFSET UNITYSDK_OFFSET(0x1B6CFD70)
-#define MESSAGEPACK_MONOPROTECTION__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B6CFF30)
+#define MESSAGEPACK_MONOPROTECTION_ENTERREFEMITLOCK_OFFSET UNITYSDK_OFFSET(0x1BBCD9B0)
+#define MESSAGEPACK_MONOPROTECTION_GET_ISRUNNINGONMONO_OFFSET UNITYSDK_OFFSET(0x1BBCD950)
+#define MESSAGEPACK_MONOPROTECTION__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BBCDB10)
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int MonoProtection_TypeDefinitionIndex = 7179;
+	inline static constexpr unsigned int MonoProtection_TypeDefinitionIndex = 7233;
 
 	struct alignas(1) MonoProtection
 	{
 		static ::System::Object** StaticGet_RefEmitLock()
 		{
-			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(MonoProtection_TypeDefinitionIndex)->GetStaticField(0x2EC70);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(MonoProtection_TypeDefinitionIndex)->GetStaticField(0x2CCB0);
 		}
 
 		static ::System::Void _cctor()

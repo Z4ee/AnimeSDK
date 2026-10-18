@@ -17,7 +17,7 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int SerializableDictionaryBase_3_TypeDefinitionIndex = 52168;
+	inline static constexpr unsigned int SerializableDictionaryBase_3_TypeDefinitionIndex = 51874;
 
 	template <typename TKey, typename TValue, typename TValueStorage>
 	class SerializableDictionaryBase_3 : public ::RPG::CustomRP::SerializableDictionaryBase

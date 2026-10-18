@@ -5,10 +5,10 @@
 namespace RPG::Client { class RoadRashGameAbilityValueModifer; }
 namespace RPG::Client::LittleGame::RoadRash { class RoadRashAbilityValueModifer; }
 
-#define CLASS_1_7FA111E99D02A580_METHOD_1_5F2F1FB1F485E319_OFFSET UNITYSDK_OFFSET(0x1C628720)
-#define CLASS_1_7FA111E99D02A580_METHOD_1_EC6CA658C8C5E346_OFFSET UNITYSDK_OFFSET(0x1C6284E0)
+#define CLASS_1_7FA111E99D02A580_METHOD_1_5F2F1FB1F485E319_OFFSET UNITYSDK_OFFSET(0x1CBA7BA0)
+#define CLASS_1_7FA111E99D02A580_METHOD_1_EC6CA658C8C5E346_OFFSET UNITYSDK_OFFSET(0x1CBA7960)
 
-inline static constexpr unsigned int Class_1_7FA111E99D02A580_TypeDefinitionIndex = 41274;
+inline static constexpr unsigned int Class_1_7FA111E99D02A580_TypeDefinitionIndex = 42886;
 
 class Class_1_7FA111E99D02A580 : public ::System::Object
 {

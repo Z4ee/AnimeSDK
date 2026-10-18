@@ -10,13 +10,13 @@ class Class_4_0C4F666150CF6EB8;
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Texture2D; }
 
-#define RPG_CLIENT_EASYFOG_GET_FOGNORMALMAP_OFFSET UNITYSDK_OFFSET(0xCDBDA40)
-#define RPG_CLIENT_EASYFOG_GET_OPACITYMAP_OFFSET UNITYSDK_OFFSET(0xCDBD9F0)
-#define RPG_CLIENT_EASYFOG__CTOR_OFFSET UNITYSDK_OFFSET(0xCDBDA90)
+#define RPG_CLIENT_EASYFOG_GET_FOGNORMALMAP_OFFSET UNITYSDK_OFFSET(0xCD0EE00)
+#define RPG_CLIENT_EASYFOG_GET_OPACITYMAP_OFFSET UNITYSDK_OFFSET(0xCD0EDB0)
+#define RPG_CLIENT_EASYFOG__CTOR_OFFSET UNITYSDK_OFFSET(0xCD0EE50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EasyFog_TypeDefinitionIndex = 70746;
+	inline static constexpr unsigned int EasyFog_TypeDefinitionIndex = 70783;
 
 	class EasyFog : public ::ScenenLightManager::SceneManagedLightTAMonoPluginBase_1<::Class_4_0C4F666150CF6EB8*>
 	{

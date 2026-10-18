@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Events/UnityEvent_1.h"
 
-#define RPG_CLIENT_LONGPRESSEVENT_PRESSINGDOWNEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0xD572590)
+#define RPG_CLIENT_LONGPRESSEVENT_PRESSINGDOWNEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0xD4AAAF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LongPressEvent_PressingDownEvent_TypeDefinitionIndex = 72494;
+	inline static constexpr unsigned int LongPressEvent_PressingDownEvent_TypeDefinitionIndex = 72568;
 
 	class LongPressEvent_PressingDownEvent : public ::UnityEngine::Events::UnityEvent_1<::System::Single>
 	{

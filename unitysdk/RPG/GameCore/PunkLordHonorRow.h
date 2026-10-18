@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_PUNKLORDHONORROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3772E0)
-#define RPG_GAMECORE_PUNKLORDHONORROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3774A0)
+#define RPG_GAMECORE_PUNKLORDHONORROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D95D460)
+#define RPG_GAMECORE_PUNKLORDHONORROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D95D620)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PunkLordHonorRow_TypeDefinitionIndex = 12214;
+	inline static constexpr unsigned int PunkLordHonorRow_TypeDefinitionIndex = 12295;
 
 	class PunkLordHonorRow : public ::System::Object
 	{

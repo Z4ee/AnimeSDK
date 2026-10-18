@@ -6,19 +6,19 @@ class Class_2_2150C540C0522B59;
 namespace System { class String; }
 namespace UnityEngine { class Animation; }
 
-#define CLASS_2_9DB9136DB6873933_METHOD_2_4BBED92D826E82B7_OFFSET UNITYSDK_OFFSET(0xC40BA10)
-#define CLASS_2_9DB9136DB6873933__CTOR_OFFSET UNITYSDK_OFFSET(0xC40BBD0)
-#define CLASS_2_9DB9136DB6873933__ONBIND_OFFSET UNITYSDK_OFFSET(0xC40B670)
+#define CLASS_2_9DB9136DB6873933_METHOD_2_4BBED92D826E82B7_OFFSET UNITYSDK_OFFSET(0xC30CF80)
+#define CLASS_2_9DB9136DB6873933__CTOR_OFFSET UNITYSDK_OFFSET(0xC30D140)
+#define CLASS_2_9DB9136DB6873933__ONBIND_OFFSET UNITYSDK_OFFSET(0xC30CBE0)
 
-inline static constexpr unsigned int Class_2_9DB9136DB6873933_TypeDefinitionIndex = 72101;
+inline static constexpr unsigned int Class_2_9DB9136DB6873933_TypeDefinitionIndex = 72174;
 
 class Class_2_9DB9136DB6873933 : public ::Class_1_34917908B7833130
 {
 public:
 	// static const ::System::Int32 GJALMNOAKIM = 0x3; // 0x0
 	// static const ::System::String* FCFKJGEENKN; // 0x0
-	::Il2CppArray<::Class_2_2150C540C0522B59*>* PBGDDGOBGPD; // 0x60
-	::UnityEngine::Animation* PMOJILOJEPE; // 0x68
+	::UnityEngine::Animation* PMOJILOJEPE; // 0x60
+	::Il2CppArray<::Class_2_2150C540C0522B59*>* PBGDDGOBGPD; // 0x68
 	::System::Int32 IKIIIHNECLG; // 0x70
 
 	::System::Void _ctor()

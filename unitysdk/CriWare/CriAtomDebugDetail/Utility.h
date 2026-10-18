@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define CRIWARE_CRIATOMDEBUGDETAIL_UTILITY_PTRTOSTRINGAUTOORNULL_OFFSET UNITYSDK_OFFSET(0x164A6DC0)
-#define CRIWARE_CRIATOMDEBUGDETAIL_UTILITY__CTOR_OFFSET UNITYSDK_OFFSET(0x164A6DF0)
+#define CRIWARE_CRIATOMDEBUGDETAIL_UTILITY_PTRTOSTRINGAUTOORNULL_OFFSET UNITYSDK_OFFSET(0x166CD9F0)
+#define CRIWARE_CRIATOMDEBUGDETAIL_UTILITY__CTOR_OFFSET UNITYSDK_OFFSET(0x166CDA20)
 
 namespace CriWare::CriAtomDebugDetail
 {
-	inline static constexpr unsigned int Utility_TypeDefinitionIndex = 38907;
+	inline static constexpr unsigned int Utility_TypeDefinitionIndex = 40204;
 
 	class Utility : public ::System::Object
 	{

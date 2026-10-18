@@ -4,12 +4,12 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define IFIX_CORE_PATCHMANAGER__LOAD_C__ANONSTOREY1__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4C4F30)
-#define IFIX_CORE_PATCHMANAGER__LOAD_C__ANONSTOREY1___M__0_OFFSET UNITYSDK_OFFSET(0x1B4CC8C0)
+#define IFIX_CORE_PATCHMANAGER__LOAD_C__ANONSTOREY1__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9C7040)
+#define IFIX_CORE_PATCHMANAGER__LOAD_C__ANONSTOREY1___M__0_OFFSET UNITYSDK_OFFSET(0x1B9CE870)
 
 namespace IFix::Core
 {
-	inline static constexpr unsigned int PatchManager__Load_c__AnonStorey1_TypeDefinitionIndex = 10037;
+	inline static constexpr unsigned int PatchManager__Load_c__AnonStorey1_TypeDefinitionIndex = 7104;
 
 	class PatchManager__Load_c__AnonStorey1 : public ::System::Object
 	{

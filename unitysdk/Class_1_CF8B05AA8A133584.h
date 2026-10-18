@@ -5,17 +5,17 @@
 
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_CF8B05AA8A133584_METHOD_1_B553340F060E5AE1_OFFSET UNITYSDK_OFFSET(0xB4E0FA0)
-#define CLASS_1_CF8B05AA8A133584__CCTOR_OFFSET UNITYSDK_OFFSET(0xB4D0300)
+#define CLASS_1_CF8B05AA8A133584_METHOD_1_B553340F060E5AE1_OFFSET UNITYSDK_OFFSET(0xB48AE70)
+#define CLASS_1_CF8B05AA8A133584__CCTOR_OFFSET UNITYSDK_OFFSET(0xB4797E0)
 
-inline static constexpr unsigned int Class_1_CF8B05AA8A133584_TypeDefinitionIndex = 59438;
+inline static constexpr unsigned int Class_1_CF8B05AA8A133584_TypeDefinitionIndex = 59293;
 
 class Class_1_CF8B05AA8A133584 : public ::System::Object
 {
 public:
 	static ::System::Collections::Generic::Dictionary_2<::System::RuntimeTypeHandle, ::System::UInt16>** StaticGet_EPFCOLIMEMM()
 	{
-		return (::System::Collections::Generic::Dictionary_2<::System::RuntimeTypeHandle, ::System::UInt16>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_CF8B05AA8A133584_TypeDefinitionIndex)->GetStaticField(0x1B900);
+		return (::System::Collections::Generic::Dictionary_2<::System::RuntimeTypeHandle, ::System::UInt16>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_CF8B05AA8A133584_TypeDefinitionIndex)->GetStaticField(0xE2A0);
 	}
 
 	static ::System::Void _cctor()

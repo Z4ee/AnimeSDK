@@ -3,7 +3,7 @@
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_PipelineType_TypeDefinitionIndex = 39361;
+	inline static constexpr unsigned int HEU_PipelineType_TypeDefinitionIndex = 40658;
 
 	enum class HEU_PipelineType : ::System::Int32
 	{

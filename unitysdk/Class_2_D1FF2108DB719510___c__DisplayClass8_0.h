@@ -7,10 +7,10 @@ class Class_2_D1FF2108DB719510;
 namespace RPG::Client { class MonoEffect; }
 namespace RPG::GameCore { class BaseModifierInstance_ModifierEffectData; }
 
-#define CLASS_2_D1FF2108DB719510___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC7D70B0)
-#define CLASS_2_D1FF2108DB719510___C__DISPLAYCLASS8_0___TRYATTACHMUTEXEFFECTS_B__0_OFFSET UNITYSDK_OFFSET(0xC7D79E0)
+#define CLASS_2_D1FF2108DB719510___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC765A00)
+#define CLASS_2_D1FF2108DB719510___C__DISPLAYCLASS8_0___TRYATTACHMUTEXEFFECTS_B__0_OFFSET UNITYSDK_OFFSET(0xC766330)
 
-inline static constexpr unsigned int Class_2_D1FF2108DB719510___c__DisplayClass8_0_TypeDefinitionIndex = 53960;
+inline static constexpr unsigned int Class_2_D1FF2108DB719510___c__DisplayClass8_0_TypeDefinitionIndex = 53746;
 
 class Class_2_D1FF2108DB719510___c__DisplayClass8_0 : public ::System::Object
 {

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/TimeProvider.h"
 
-#define SYSTEM_TIMEPROVIDER_SYSTEMTIMEPROVIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6E0A80)
+#define SYSTEM_TIMEPROVIDER_SYSTEMTIMEPROVIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BBDE6C0)
 
 namespace System
 {
-	inline static constexpr unsigned int TimeProvider_SystemTimeProvider_TypeDefinitionIndex = 10161;
+	inline static constexpr unsigned int TimeProvider_SystemTimeProvider_TypeDefinitionIndex = 10174;
 
 	class TimeProvider_SystemTimeProvider : public ::System::TimeProvider
 	{

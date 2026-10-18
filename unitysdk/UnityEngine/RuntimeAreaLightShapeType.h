@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int RuntimeAreaLightShapeType_TypeDefinitionIndex = 4154;
+	inline static constexpr unsigned int RuntimeAreaLightShapeType_TypeDefinitionIndex = 4155;
 
 	enum class RuntimeAreaLightShapeType : ::System::Int32
 	{

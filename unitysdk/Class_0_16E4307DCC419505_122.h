@@ -1,11 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Struct_2_F8D9CEC872B937AF.h"
 
-class Class_1_47EE63CB5C4DC8FC_5;
-namespace Entitas { class IEntity; }
+class Class_0_16E4307DCC419505_120;
+namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_122_TypeDefinitionIndex = 40456;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_122_TypeDefinitionIndex = 41683;
 
 class Class_0_16E4307DCC419505_122
 {

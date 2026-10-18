@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class HoYoGroupStreamingBlackListItem; }
 
-#define RPG_GAMECORE_HOYOGROUPSTREAMINGBLACKLIST_METHOD_2_5E6B3995DF1474B3_OFFSET UNITYSDK_OFFSET(0x1D194FD0)
-#define RPG_GAMECORE_HOYOGROUPSTREAMINGBLACKLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1950C0)
+#define RPG_GAMECORE_HOYOGROUPSTREAMINGBLACKLIST_METHOD_2_5E6B3995DF1474B3_OFFSET UNITYSDK_OFFSET(0x1D770CD0)
+#define RPG_GAMECORE_HOYOGROUPSTREAMINGBLACKLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x1D770DC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HoYoGroupStreamingBlackList_TypeDefinitionIndex = 17157;
+	inline static constexpr unsigned int HoYoGroupStreamingBlackList_TypeDefinitionIndex = 17352;
 
 	class HoYoGroupStreamingBlackList : public ::RPG::GameCore::JsonConfig
 	{

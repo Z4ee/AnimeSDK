@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int CollisionDetectionMode2D_TypeDefinitionIndex = 5796;
+	inline static constexpr unsigned int CollisionDetectionMode2D_TypeDefinitionIndex = 5804;
 
 	enum class CollisionDetectionMode2D : ::System::Int32
 	{

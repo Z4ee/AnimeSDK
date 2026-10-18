@@ -7,9 +7,9 @@ class Class_2_1A8148841049062A;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define CLASS_1_2983142CA6A72403__CTOR_OFFSET UNITYSDK_OFFSET(0x1C625130)
+#define CLASS_1_2983142CA6A72403__CTOR_OFFSET UNITYSDK_OFFSET(0x1CBA2FE0)
 
-inline static constexpr unsigned int Class_1_2983142CA6A72403_TypeDefinitionIndex = 41536;
+inline static constexpr unsigned int Class_1_2983142CA6A72403_TypeDefinitionIndex = 43176;
 
 class Class_1_2983142CA6A72403 : public ::System::Object
 {

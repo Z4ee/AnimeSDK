@@ -1,13 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Vector2Int.h"
 
-class Class_0_16E4307DCC419505_741;
-class Class_0_16E4307DCC419505_742;
-namespace RPG::Client { template <typename T> class IRoutePointList_1; }
-namespace System::Collections::Generic { template <typename T> class List_1; }
+class Class_1_1DFA6DC6E14150AA;
+class Class_1_945ACFB1FEBC7A2C_24;
+namespace System { class String; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_743_TypeDefinitionIndex = 62410;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_743_TypeDefinitionIndex = 59533;
 
 class Class_0_16E4307DCC419505_743
 {

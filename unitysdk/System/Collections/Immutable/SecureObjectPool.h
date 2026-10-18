@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_COLLECTIONS_IMMUTABLE_SECUREOBJECTPOOL_NEWID_OFFSET UNITYSDK_OFFSET(0x1E6BF590)
+#define SYSTEM_COLLECTIONS_IMMUTABLE_SECUREOBJECTPOOL_NEWID_OFFSET UNITYSDK_OFFSET(0x1ED872B0)
 
 namespace System::Collections::Immutable
 {
-	inline static constexpr unsigned int SecureObjectPool_TypeDefinitionIndex = 6655;
+	inline static constexpr unsigned int SecureObjectPool_TypeDefinitionIndex = 6664;
 
 	class SecureObjectPool : public ::System::Object
 	{

@@ -3,26 +3,26 @@
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
 
 class Class_1_7A22A3DBEEDD1F80;
-class Class_2_DC5AFEB4384BEEDA;
+class Class_2_42C46B3D8BC311E2;
 class Class_2_E5D38AB31F1F266B;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define CLASS_3_5ABE204154916C7E_METHOD_3_28DFC52A1206DD2C_OFFSET UNITYSDK_OFFSET(0x1CC87F40)
-#define CLASS_3_5ABE204154916C7E_METHOD_3_E024E0080A08A9C9_OFFSET UNITYSDK_OFFSET(0x1CC87F80)
-#define CLASS_3_5ABE204154916C7E__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC87F70)
+#define CLASS_3_5ABE204154916C7E_METHOD_3_28DFC52A1206DD2C_OFFSET UNITYSDK_OFFSET(0x1D264400)
+#define CLASS_3_5ABE204154916C7E_METHOD_3_E024E0080A08A9C9_OFFSET UNITYSDK_OFFSET(0x1D264440)
+#define CLASS_3_5ABE204154916C7E__CTOR_OFFSET UNITYSDK_OFFSET(0x1D264430)
 
-inline static constexpr unsigned int Class_3_5ABE204154916C7E_TypeDefinitionIndex = 22607;
+inline static constexpr unsigned int Class_3_5ABE204154916C7E_TypeDefinitionIndex = 22863;
 
 class Class_3_5ABE204154916C7E : public ::RPG::GameCore::TaskConfig
 {
 public:
-	::Class_2_E5D38AB31F1F266B* FOBFFEIDADN; // 0x18
-	::Class_2_DC5AFEB4384BEEDA* HDJHDKLHLAM; // 0x20
-	::System::String* NPIKCFCKBLM; // 0x28
-	::RPG::GameCore::TargetEvaluator* BPIBFOGDDHD; // 0x30
-	::RPG::GameCore::DynamicFloat* NPLCDLGCHNJ; // 0x38
+	::RPG::GameCore::DynamicFloat* NPLCDLGCHNJ; // 0x18
+	::System::String* NPIKCFCKBLM; // 0x20
+	::Class_2_42C46B3D8BC311E2* HDJHDKLHLAM; // 0x28
+	::Class_2_E5D38AB31F1F266B* FOBFFEIDADN; // 0x30
+	::RPG::GameCore::TargetEvaluator* BPIBFOGDDHD; // 0x38
 	::System::String* ECHFEMAFJNN; // 0x40
 	::System::Boolean DOABIHDOJLJ; // 0x48
 

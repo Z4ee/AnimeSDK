@@ -7,25 +7,25 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ROGUETOURNCONTENTCOLLECTIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D417FC0)
-#define RPG_GAMECORE_ROGUETOURNCONTENTCOLLECTIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D4183C0)
+#define RPG_GAMECORE_ROGUETOURNCONTENTCOLLECTIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DA35C80)
+#define RPG_GAMECORE_ROGUETOURNCONTENTCOLLECTIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1DA36080)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueTournContentCollectionRow_TypeDefinitionIndex = 14868;
+	inline static constexpr unsigned int RogueTournContentCollectionRow_TypeDefinitionIndex = 15033;
 
 	class RogueTournContentCollectionRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::RPG::GameCore::FixPoint>* ParamList; // 0x10
+		::System::String* IconPath; // 0x10
 		::System::String* SlotIconPath; // 0x18
-		::System::String* IconPath; // 0x20
-		::System::Int32 EntityRuntimeReplaceArtPrefabID; // 0x28
-		::RPG::Client::TextID CollectionDesc; // 0x30
-		::RPG::Client::TextID CollectionName; // 0x40
-		::RPG::Client::TextID CollectionEffectDesc; // 0x50
+		::Il2CppArray<::RPG::GameCore::FixPoint>* ParamList; // 0x20
+		::RPG::Client::TextID CollectionEffectDesc; // 0x28
+		::RPG::Client::TextID CollectionDesc; // 0x38
+		::System::UInt32 CollectionID; // 0x48
+		::RPG::Client::TextID CollectionName; // 0x50
 		::System::UInt32 UnlockID; // 0x60
-		::System::UInt32 CollectionID; // 0x64
+		::System::Int32 EntityRuntimeReplaceArtPrefabID; // 0x64
 
 		::System::Void _ctor()
 		{

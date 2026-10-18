@@ -3,10 +3,10 @@
 #include "unitysdk/RPG/Client/ChimeraGameModeType.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_2A69B699A54F90C7_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x12874BA0)
-#define CLASS_1_2A69B699A54F90C7__CTOR_OFFSET UNITYSDK_OFFSET(0x12874BE0)
+#define CLASS_1_2A69B699A54F90C7_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x12D0C150)
+#define CLASS_1_2A69B699A54F90C7__CTOR_OFFSET UNITYSDK_OFFSET(0x12D0C190)
 
-inline static constexpr unsigned int Class_1_2A69B699A54F90C7_TypeDefinitionIndex = 63491;
+inline static constexpr unsigned int Class_1_2A69B699A54F90C7_TypeDefinitionIndex = 63429;
 
 class Class_1_2A69B699A54F90C7 : public ::System::Object
 {

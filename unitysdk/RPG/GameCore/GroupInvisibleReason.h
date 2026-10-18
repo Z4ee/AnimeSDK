@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GroupInvisibleReason_TypeDefinitionIndex = 57247;
+	inline static constexpr unsigned int GroupInvisibleReason_TypeDefinitionIndex = 57080;
 
 	enum class GroupInvisibleReason : ::System::Int32
 	{

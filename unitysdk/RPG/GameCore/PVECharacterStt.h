@@ -4,11 +4,11 @@
 
 class Class_1_C9DFE5EE7107C629_1;
 
-#define RPG_GAMECORE_PVECHARACTERSTT__CTOR_OFFSET UNITYSDK_OFFSET(0xE6B7770)
+#define RPG_GAMECORE_PVECHARACTERSTT__CTOR_OFFSET UNITYSDK_OFFSET(0xE712DF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PVECharacterStt_TypeDefinitionIndex = 57779;
+	inline static constexpr unsigned int PVECharacterStt_TypeDefinitionIndex = 57625;
 
 	class PVECharacterStt : public ::Class_2_589E588DE5457488
 	{

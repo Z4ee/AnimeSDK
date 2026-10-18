@@ -7,7 +7,7 @@ namespace System::Xml::Schema { class BitSet; }
 namespace System::Xml::Schema { class Positions; }
 namespace System::Xml::Schema { class SymbolsDictionary; }
 
-#define SYSTEM_XML_SCHEMA_NFACONTENTVALIDATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7F86E0)
+#define SYSTEM_XML_SCHEMA_NFACONTENTVALIDATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1EEC13C0)
 
 namespace System::Xml::Schema
 {
@@ -17,9 +17,9 @@ namespace System::Xml::Schema
 	{
 	public:
 		::Il2CppArray<::System::Xml::Schema::BitSet*>* followpos; // 0x18
-		::System::Xml::Schema::BitSet* firstpos; // 0x20
-		::System::Xml::Schema::Positions* positions; // 0x28
-		::System::Xml::Schema::SymbolsDictionary* symbols; // 0x30
+		::System::Xml::Schema::Positions* positions; // 0x20
+		::System::Xml::Schema::SymbolsDictionary* symbols; // 0x28
+		::System::Xml::Schema::BitSet* firstpos; // 0x30
 		::System::Int32 endMarkerPos; // 0x38
 
 		::System::Void _ctor(::System::Xml::Schema::BitSet* a1, ::Il2CppArray<::System::Xml::Schema::BitSet*>* a2, ::System::Xml::Schema::SymbolsDictionary* a3, ::System::Xml::Schema::Positions* a4, ::System::Int32 a5, ::System::Xml::Schema::XmlSchemaContentType a6, ::System::Boolean a7, ::System::Boolean a8)

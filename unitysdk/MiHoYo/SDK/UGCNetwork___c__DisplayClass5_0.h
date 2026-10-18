@@ -5,12 +5,12 @@
 namespace System { class String; }
 namespace UnityEngine::Networking { class UnityWebRequest; }
 
-#define MIHOYO_SDK_UGCNETWORK___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB2C3EB0)
-#define MIHOYO_SDK_UGCNETWORK___C__DISPLAYCLASS5_0__HTTPPOSTBINARY_B__0_OFFSET UNITYSDK_OFFSET(0xB2C4040)
+#define MIHOYO_SDK_UGCNETWORK___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB063D70)
+#define MIHOYO_SDK_UGCNETWORK___C__DISPLAYCLASS5_0__HTTPPOSTBINARY_B__0_OFFSET UNITYSDK_OFFSET(0xB063F00)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int UGCNetwork___c__DisplayClass5_0_TypeDefinitionIndex = 46914;
+	inline static constexpr unsigned int UGCNetwork___c__DisplayClass5_0_TypeDefinitionIndex = 46454;
 
 	class UGCNetwork___c__DisplayClass5_0 : public ::System::Object
 	{

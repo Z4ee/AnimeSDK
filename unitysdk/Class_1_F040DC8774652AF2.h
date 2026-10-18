@@ -6,10 +6,10 @@
 namespace Entitas { class ISystem; }
 namespace Entitas { class ITearDownSystem; }
 
-#define CLASS_1_F040DC8774652AF2_TEARDOWN_OFFSET UNITYSDK_OFFSET(0x15254430)
-#define CLASS_1_F040DC8774652AF2__CTOR_OFFSET UNITYSDK_OFFSET(0x15254340)
+#define CLASS_1_F040DC8774652AF2_TEARDOWN_OFFSET UNITYSDK_OFFSET(0x154FC230)
+#define CLASS_1_F040DC8774652AF2__CTOR_OFFSET UNITYSDK_OFFSET(0x154FC140)
 
-inline static constexpr unsigned int Class_1_F040DC8774652AF2_TypeDefinitionIndex = 76297;
+inline static constexpr unsigned int Class_1_F040DC8774652AF2_TypeDefinitionIndex = 76774;
 
 class Class_1_F040DC8774652AF2 : public ::System::Object
 {

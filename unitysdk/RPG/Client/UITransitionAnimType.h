@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UITransitionAnimType_TypeDefinitionIndex = 73037;
+	inline static constexpr unsigned int UITransitionAnimType_TypeDefinitionIndex = 73132;
 
 	enum class UITransitionAnimType : ::System::Int32
 	{

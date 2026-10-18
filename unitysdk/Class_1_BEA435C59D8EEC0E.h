@@ -11,43 +11,43 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_BEA435C59D8EEC0E_METHOD_1_0C7CBCE710B3F112_OFFSET UNITYSDK_OFFSET(0x1C8A3AA0)
-#define CLASS_1_BEA435C59D8EEC0E_METHOD_1_2F785ECA2DCDB914_OFFSET UNITYSDK_OFFSET(0x1C8A3280)
-#define CLASS_1_BEA435C59D8EEC0E_METHOD_1_6192F33599FB0879_OFFSET UNITYSDK_OFFSET(0x1C8A3700)
-#define CLASS_1_BEA435C59D8EEC0E_METHOD_1_6204DF1A869116E5_OFFSET UNITYSDK_OFFSET(0x1C8A3590)
-#define CLASS_1_BEA435C59D8EEC0E_METHOD_1_89D1F247B9D324EE_OFFSET UNITYSDK_OFFSET(0x1C8A38D0)
-#define CLASS_1_BEA435C59D8EEC0E_METHOD_1_A5C76D452E0EBC88_OFFSET UNITYSDK_OFFSET(0x1C8A3AF0)
-#define CLASS_1_BEA435C59D8EEC0E_METHOD_1_AD31DD9682084C83_OFFSET UNITYSDK_OFFSET(0x1C8A3960)
-#define CLASS_1_BEA435C59D8EEC0E_METHOD_1_CE34EA208837238D_OFFSET UNITYSDK_OFFSET(0x1C8A3530)
-#define CLASS_1_BEA435C59D8EEC0E_METHOD_1_DE52BD42C4B0B772_OFFSET UNITYSDK_OFFSET(0x1C8A3300)
-#define CLASS_1_BEA435C59D8EEC0E_METHOD_1_F0E307B84478A272_OFFSET UNITYSDK_OFFSET(0x1C8A3890)
-#define CLASS_1_BEA435C59D8EEC0E_METHOD_1_F2E1599CBB58B20F_OFFSET UNITYSDK_OFFSET(0x1C8A3A00)
-#define CLASS_1_BEA435C59D8EEC0E__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C8A3E60)
+#define CLASS_1_BEA435C59D8EEC0E_METHOD_1_0C7CBCE710B3F112_OFFSET UNITYSDK_OFFSET(0x1CE40A80)
+#define CLASS_1_BEA435C59D8EEC0E_METHOD_1_2F785ECA2DCDB914_OFFSET UNITYSDK_OFFSET(0x1CE40260)
+#define CLASS_1_BEA435C59D8EEC0E_METHOD_1_6192F33599FB0879_OFFSET UNITYSDK_OFFSET(0x1CE406E0)
+#define CLASS_1_BEA435C59D8EEC0E_METHOD_1_6204DF1A869116E5_OFFSET UNITYSDK_OFFSET(0x1CE40570)
+#define CLASS_1_BEA435C59D8EEC0E_METHOD_1_89D1F247B9D324EE_OFFSET UNITYSDK_OFFSET(0x1CE408B0)
+#define CLASS_1_BEA435C59D8EEC0E_METHOD_1_A5C76D452E0EBC88_OFFSET UNITYSDK_OFFSET(0x1CE40AD0)
+#define CLASS_1_BEA435C59D8EEC0E_METHOD_1_AD31DD9682084C83_OFFSET UNITYSDK_OFFSET(0x1CE40940)
+#define CLASS_1_BEA435C59D8EEC0E_METHOD_1_CE34EA208837238D_OFFSET UNITYSDK_OFFSET(0x1CE40510)
+#define CLASS_1_BEA435C59D8EEC0E_METHOD_1_DE52BD42C4B0B772_OFFSET UNITYSDK_OFFSET(0x1CE402E0)
+#define CLASS_1_BEA435C59D8EEC0E_METHOD_1_F0E307B84478A272_OFFSET UNITYSDK_OFFSET(0x1CE40870)
+#define CLASS_1_BEA435C59D8EEC0E_METHOD_1_F2E1599CBB58B20F_OFFSET UNITYSDK_OFFSET(0x1CE409E0)
+#define CLASS_1_BEA435C59D8EEC0E__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CE40E40)
 
-inline static constexpr unsigned int Class_1_BEA435C59D8EEC0E_TypeDefinitionIndex = 11645;
+inline static constexpr unsigned int Class_1_BEA435C59D8EEC0E_TypeDefinitionIndex = 11668;
 
 class Class_1_BEA435C59D8EEC0E : public ::System::Object
 {
 public:
 	static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ActivityHipplenTraitRow*>** StaticGet_EHNHPCGDOIO()
 	{
-		return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ActivityHipplenTraitRow*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_BEA435C59D8EEC0E_TypeDefinitionIndex)->GetStaticField(0x19A30);
+		return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ActivityHipplenTraitRow*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_BEA435C59D8EEC0E_TypeDefinitionIndex)->GetStaticField(0x17430);
 	}
 	static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet_MPCODIGIBGL()
 	{
-		return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_BEA435C59D8EEC0E_TypeDefinitionIndex)->GetStaticField(0x19A38);
+		return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_BEA435C59D8EEC0E_TypeDefinitionIndex)->GetStaticField(0x17438);
 	}
 	static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
 	{
-		return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_BEA435C59D8EEC0E_TypeDefinitionIndex)->GetStaticField(0x19A40);
-	}
-	static ::System::Boolean* StaticGet_AHBLLGCADBB()
-	{
-		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_BEA435C59D8EEC0E_TypeDefinitionIndex)->GetStaticField(0x9310);
+		return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_BEA435C59D8EEC0E_TypeDefinitionIndex)->GetStaticField(0x17440);
 	}
 	static ::System::Byte* StaticGet_GDMLAIBCKIP()
 	{
-		return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(Class_1_BEA435C59D8EEC0E_TypeDefinitionIndex)->GetStaticField(0x9311);
+		return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(Class_1_BEA435C59D8EEC0E_TypeDefinitionIndex)->GetStaticField(0x5750);
+	}
+	static ::System::Boolean* StaticGet_AHBLLGCADBB()
+	{
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_BEA435C59D8EEC0E_TypeDefinitionIndex)->GetStaticField(0x5751);
 	}
 
 	static ::System::Void _cctor()

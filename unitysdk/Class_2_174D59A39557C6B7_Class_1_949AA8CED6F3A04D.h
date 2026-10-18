@@ -5,9 +5,9 @@
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class SetComponentAssetAnimStateConfig; }
 
-#define CLASS_2_174D59A39557C6B7_CLASS_1_949AA8CED6F3A04D__CTOR_OFFSET UNITYSDK_OFFSET(0xBBF54D0)
+#define CLASS_2_174D59A39557C6B7_CLASS_1_949AA8CED6F3A04D__CTOR_OFFSET UNITYSDK_OFFSET(0xBABCEB0)
 
-inline static constexpr unsigned int Class_2_174D59A39557C6B7_Class_1_949AA8CED6F3A04D_TypeDefinitionIndex = 55575;
+inline static constexpr unsigned int Class_2_174D59A39557C6B7_Class_1_949AA8CED6F3A04D_TypeDefinitionIndex = 55379;
 
 class Class_2_174D59A39557C6B7_Class_1_949AA8CED6F3A04D : public ::System::Object
 {

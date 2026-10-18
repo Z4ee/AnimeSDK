@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define SYSTEM_RUNTIME_COMPILERSERVICES_COMPILERFEATUREREQUIREDATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF122C0)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_COMPILERFEATUREREQUIREDATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C41E700)
 
 namespace System::Runtime::CompilerServices
 {
-	inline static constexpr unsigned int CompilerFeatureRequiredAttribute_TypeDefinitionIndex = 35206;
+	inline static constexpr unsigned int CompilerFeatureRequiredAttribute_TypeDefinitionIndex = 35876;
 
 	class CompilerFeatureRequiredAttribute : public ::System::Attribute
 	{

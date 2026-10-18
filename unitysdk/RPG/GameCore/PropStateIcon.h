@@ -8,29 +8,29 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_PROPSTATEICON_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D372FB0)
-#define RPG_GAMECORE_PROPSTATEICON__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D373110)
-#define RPG_GAMECORE_PROPSTATEICON__CTOR_OFFSET UNITYSDK_OFFSET(0x1D373100)
+#define RPG_GAMECORE_PROPSTATEICON_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D958F90)
+#define RPG_GAMECORE_PROPSTATEICON__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D9590F0)
+#define RPG_GAMECORE_PROPSTATEICON__CTOR_OFFSET UNITYSDK_OFFSET(0x1D9590E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropStateIcon_TypeDefinitionIndex = 12456;
+	inline static constexpr unsigned int PropStateIcon_TypeDefinitionIndex = 12546;
 
 	class PropStateIcon : public ::System::Object
 	{
 	public:
 		static ::RPG::GameCore::PropStateIcon** StaticGet_INVALID()
 		{
-			return (::RPG::GameCore::PropStateIcon**)Il2CppClass::FromTypeDefinitionIndex(PropStateIcon_TypeDefinitionIndex)->GetStaticField(0x3F60);
+			return (::RPG::GameCore::PropStateIcon**)Il2CppClass::FromTypeDefinitionIndex(PropStateIcon_TypeDefinitionIndex)->GetStaticField(0x4C890);
 		}
 		::System::String* AnchorKey; // 0x10
-		::System::String* TimeRewindState; // 0x18
-		::System::String* Color; // 0x20
-		::System::Boolean ColorInited; // 0x28
-		::RPG::GameCore::LevelPropStateIconCategory Category; // 0x2C
-		::RPG::GameCore::PropState State; // 0x30
-		::UnityEngine::Color ColorResult; // 0x34
-		::System::UInt32 IconID; // 0x44
+		::System::String* Color; // 0x18
+		::System::String* TimeRewindState; // 0x20
+		::UnityEngine::Color ColorResult; // 0x28
+		::RPG::GameCore::PropState State; // 0x38
+		::System::UInt32 IconID; // 0x3C
+		::System::Boolean ColorInited; // 0x40
+		::RPG::GameCore::LevelPropStateIconCategory Category; // 0x44
 
 		::System::Void _ctor()
 		{

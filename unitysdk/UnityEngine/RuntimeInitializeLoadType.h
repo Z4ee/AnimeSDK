@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int RuntimeInitializeLoadType_TypeDefinitionIndex = 4334;
+	inline static constexpr unsigned int RuntimeInitializeLoadType_TypeDefinitionIndex = 4337;
 
 	enum class RuntimeInitializeLoadType : ::System::Int32
 	{

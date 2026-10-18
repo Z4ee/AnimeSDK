@@ -4,7 +4,7 @@
 
 namespace System { class String; }
 
-#define LOCALE_GETTEXT_OFFSET UNITYSDK_OFFSET(0x1BB16A80)
+#define LOCALE_GETTEXT_OFFSET UNITYSDK_OFFSET(0x1C022F20)
 
 inline static constexpr unsigned int Locale_TypeDefinitionIndex = 2256;
 

@@ -3,7 +3,7 @@
 
 namespace RPG::Client::B51Racing
 {
-	inline static constexpr unsigned int B51RacingReadyDriverPanelIconState_TypeDefinitionIndex = 80718;
+	inline static constexpr unsigned int B51RacingReadyDriverPanelIconState_TypeDefinitionIndex = 82046;
 
 	enum class B51RacingReadyDriverPanelIconState : ::System::Int32
 	{

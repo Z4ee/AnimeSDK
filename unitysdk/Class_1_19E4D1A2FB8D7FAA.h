@@ -4,9 +4,9 @@
 
 namespace RPG::GameCore { class FiveDimMoneyConfig; }
 
-#define CLASS_1_19E4D1A2FB8D7FAA__CTOR_OFFSET UNITYSDK_OFFSET(0x1C52E160)
+#define CLASS_1_19E4D1A2FB8D7FAA__CTOR_OFFSET UNITYSDK_OFFSET(0x1CAA1DD0)
 
-inline static constexpr unsigned int Class_1_19E4D1A2FB8D7FAA_TypeDefinitionIndex = 41839;
+inline static constexpr unsigned int Class_1_19E4D1A2FB8D7FAA_TypeDefinitionIndex = 43481;
 
 class Class_1_19E4D1A2FB8D7FAA : public ::System::Object
 {

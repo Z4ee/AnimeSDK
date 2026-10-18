@@ -1,0 +1,98 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Nullable_1.h"
+#include "unitysdk/System/Object.h"
+
+class Class_0_16E4307DCC419505_397;
+class Class_1_16C4955EF2FA3814;
+class Class_1_43BD383C98B4C0C5_227;
+class Class_1_D501FC103C8A2714;
+namespace R3 { template <typename T> class Observable_1; }
+namespace R3 { template <typename T> class ReactiveProperty_1; }
+
+#define CLASS_1_24E721C797857BD1_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBB0AC10)
+#define CLASS_1_24E721C797857BD1_GET_TARGETREVENUE_OFFSET UNITYSDK_OFFSET(0xBB0A8A0)
+#define CLASS_1_24E721C797857BD1_METHOD_1_3923AB821AB9D6A6_OFFSET UNITYSDK_OFFSET(0xBB0AD40)
+#define CLASS_1_24E721C797857BD1_METHOD_1_4B41C6C97963114E_OFFSET UNITYSDK_OFFSET(0xBB0AC70)
+#define CLASS_1_24E721C797857BD1_METHOD_1_8AE653474AE4DD46_OFFSET UNITYSDK_OFFSET(0xBB0A8C0)
+#define CLASS_1_24E721C797857BD1_METHOD_1_B213056103887067_OFFSET UNITYSDK_OFFSET(0xBB0A900)
+#define CLASS_1_24E721C797857BD1_METHOD_1_D9AAE950C6F28BA6_OFFSET UNITYSDK_OFFSET(0xBB0AE20)
+#define CLASS_1_24E721C797857BD1_METHOD_1_E45F19BCBA18C9F7_OFFSET UNITYSDK_OFFSET(0xBB0ABA0)
+#define CLASS_1_24E721C797857BD1_METHOD_1_F026F9F94BAA5E1F_OFFSET UNITYSDK_OFFSET(0xBB0AB40)
+#define CLASS_1_24E721C797857BD1_SET_TARGETREVENUE_OFFSET UNITYSDK_OFFSET(0xBB0A8B0)
+#define CLASS_1_24E721C797857BD1__CTOR_OFFSET UNITYSDK_OFFSET(0xBB0A9C0)
+#define CLASS_1_24E721C797857BD1__GET_ENABLECHANGECOMMAND_B__11_0_OFFSET UNITYSDK_OFFSET(0xBB0AF00)
+
+inline static constexpr unsigned int Class_1_24E721C797857BD1_TypeDefinitionIndex = 79633;
+
+class Class_1_24E721C797857BD1 : public ::System::Object
+{
+public:
+	::Class_1_D501FC103C8A2714* GJALMBBNNOF; // 0x10
+	::Class_0_16E4307DCC419505_397* DKHDIHANBNC; // 0x18
+	::Class_1_16C4955EF2FA3814* GKPHGLBPCKD; // 0x20
+	::R3::ReactiveProperty_1<::System::Int32>* LNBGLLMCIFB; // 0x28
+	::System::Nullable_1<::System::Int32> HCCLIMJJHEK; // 0x30
+	::System::Int32 _TargetRevenue_k__BackingField; // 0x38
+	::System::Boolean GBNOHAMAKOG; // 0x3C
+
+	::System::Void _ctor(::Class_1_D501FC103C8A2714* a1, ::Class_1_16C4955EF2FA3814* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_D501FC103C8A2714*, ::Class_1_16C4955EF2FA3814*))((::PBYTE)hIl2Cpp + CLASS_1_24E721C797857BD1__CTOR_OFFSET))(this, a1, a2);
+	}
+
+	::System::Int32 get_TargetRevenue()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_24E721C797857BD1_GET_TARGETREVENUE_OFFSET))(this);
+	}
+
+	::System::Void set_TargetRevenue(::System::Int32 a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_24E721C797857BD1_SET_TARGETREVENUE_OFFSET))(this, a1);
+	}
+
+	::R3::Observable_1<::System::Int32>* Method_1_8AE653474AE4DD46()
+	{
+		return ((::R3::Observable_1<::System::Int32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_24E721C797857BD1_METHOD_1_8AE653474AE4DD46_OFFSET))(this);
+	}
+
+	::Class_0_16E4307DCC419505_397* Method_1_B213056103887067()
+	{
+		return ((::Class_0_16E4307DCC419505_397*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_24E721C797857BD1_METHOD_1_B213056103887067_OFFSET))(this);
+	}
+
+	::System::Void Dispose()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_24E721C797857BD1_DISPOSE_OFFSET))(this);
+	}
+
+	::System::Void Method_1_4B41C6C97963114E(::System::Object* a1, ::Class_1_43BD383C98B4C0C5_227* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Object*, ::Class_1_43BD383C98B4C0C5_227*))((::PBYTE)hIl2Cpp + CLASS_1_24E721C797857BD1_METHOD_1_4B41C6C97963114E_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_1_3923AB821AB9D6A6(::System::Boolean a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_24E721C797857BD1_METHOD_1_3923AB821AB9D6A6_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_E45F19BCBA18C9F7(::System::Int32 a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_24E721C797857BD1_METHOD_1_E45F19BCBA18C9F7_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_D9AAE950C6F28BA6(::System::Int32 a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_24E721C797857BD1_METHOD_1_D9AAE950C6F28BA6_OFFSET))(this, a1);
+	}
+
+	::System::Int32 Method_1_F026F9F94BAA5E1F()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_24E721C797857BD1_METHOD_1_F026F9F94BAA5E1F_OFFSET))(this);
+	}
+
+	::System::Void _get_EnableChangeCommand_b__11_0()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_24E721C797857BD1__GET_ENABLECHANGECOMMAND_B__11_0_OFFSET))(this);
+	}
+};

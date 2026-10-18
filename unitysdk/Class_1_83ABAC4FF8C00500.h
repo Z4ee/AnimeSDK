@@ -7,7 +7,7 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 
 class Class_1_303D5A33D1401D59;
-class Class_1_5BD113A5A9B28079;
+class Class_1_5EE72B213CC2049A;
 namespace RPG::Client { class FMSystem; }
 namespace RPG::Client { class LevelStageVisableController; }
 namespace RPG::Client { class MonoEffect; }
@@ -19,40 +19,40 @@ namespace RPG::GameCore { class UnifiedBattleAreaConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_83ABAC4FF8C00500_DISPOSE_OFFSET UNITYSDK_OFFSET(0x11B8BD60)
-#define CLASS_1_83ABAC4FF8C00500_GET_BLOCKREFS_OFFSET UNITYSDK_OFFSET(0x11B8BF30)
-#define CLASS_1_83ABAC4FF8C00500_METHOD_1_AC0BA153C6A4D221_OFFSET UNITYSDK_OFFSET(0x11B8BF40)
-#define CLASS_1_83ABAC4FF8C00500_METHOD_1_BB0632FE727463CD_OFFSET UNITYSDK_OFFSET(0x11B8BDC0)
-#define CLASS_1_83ABAC4FF8C00500_METHOD_1_C5C746E79A067435_OFFSET UNITYSDK_OFFSET(0x11B8BE30)
-#define CLASS_1_83ABAC4FF8C00500_METHOD_1_DA1BF2C227DC3D86_1_OFFSET UNITYSDK_OFFSET(0x11B8BC50)
-#define CLASS_1_83ABAC4FF8C00500_METHOD_1_DA1BF2C227DC3D86_OFFSET UNITYSDK_OFFSET(0x11B8BC10)
-#define CLASS_1_83ABAC4FF8C00500_METHOD_1_F0088C88851A7DFB_OFFSET UNITYSDK_OFFSET(0x11B8BF20)
-#define CLASS_1_83ABAC4FF8C00500__CTOR_OFFSET UNITYSDK_OFFSET(0x11B8BC90)
+#define CLASS_1_83ABAC4FF8C00500_DISPOSE_OFFSET UNITYSDK_OFFSET(0x11FE9640)
+#define CLASS_1_83ABAC4FF8C00500_GET_BLOCKREFS_OFFSET UNITYSDK_OFFSET(0x11FE9820)
+#define CLASS_1_83ABAC4FF8C00500_METHOD_1_AC0BA153C6A4D221_OFFSET UNITYSDK_OFFSET(0x11FE9830)
+#define CLASS_1_83ABAC4FF8C00500_METHOD_1_BB0632FE727463CD_OFFSET UNITYSDK_OFFSET(0x11FE96A0)
+#define CLASS_1_83ABAC4FF8C00500_METHOD_1_C5C746E79A067435_OFFSET UNITYSDK_OFFSET(0x11FE9720)
+#define CLASS_1_83ABAC4FF8C00500_METHOD_1_DA1BF2C227DC3D86_1_OFFSET UNITYSDK_OFFSET(0x11FE9530)
+#define CLASS_1_83ABAC4FF8C00500_METHOD_1_DA1BF2C227DC3D86_OFFSET UNITYSDK_OFFSET(0x11FE94F0)
+#define CLASS_1_83ABAC4FF8C00500_METHOD_1_F0088C88851A7DFB_OFFSET UNITYSDK_OFFSET(0x11FE9810)
+#define CLASS_1_83ABAC4FF8C00500__CTOR_OFFSET UNITYSDK_OFFSET(0x11FE9570)
 
-inline static constexpr unsigned int Class_1_83ABAC4FF8C00500_TypeDefinitionIndex = 73759;
+inline static constexpr unsigned int Class_1_83ABAC4FF8C00500_TypeDefinitionIndex = 73866;
 
 class Class_1_83ABAC4FF8C00500 : public ::System::Object
 {
 public:
-	::RPG::Client::MonoEffect* OLLHLFNKOLH; // 0x10
-	::RPG::Client::FMSystem* JONFOGGAKHC; // 0x18
-	::System::String* KPHGMBFAKDB; // 0x20
-	::System::String* OINEOFGIPAA; // 0x28
-	::RPG::GameCore::UnifiedBattleAreaConfig* IHKIPAGFBGB; // 0x30
-	::Il2CppArray<::RPG::GameCore::AudioStateConfig*>* EADCDAIMHOE; // 0x38
-	::RPG::GameCore::StageGrassOverrideConfig* IGAEFMFMKOM; // 0x40
+	::RPG::Client::FMSystem* JONFOGGAKHC; // 0x10
+	::Il2CppArray<::RPG::GameCore::AudioStateConfig*>* EADCDAIMHOE; // 0x18
+	::System::String* OINEOFGIPAA; // 0x20
+	::RPG::Client::MonoEffect* OLLHLFNKOLH; // 0x28
+	::System::String* GNNLGGOLNIC; // 0x30
+	::RPG::GameCore::UnifiedBattleAreaConfig* IHKIPAGFBGB; // 0x38
+	::System::Collections::Generic::List_1<::Class_1_5EE72B213CC2049A*>* _BlockRefs_k__BackingField; // 0x40
 	::Il2CppArray<::RPG::GameCore::DistrictAudioRTPCConfig*>* PHLOALPKEFC; // 0x48
-	::Il2CppArray<::System::String*>* PLHEFECGEGO; // 0x50
-	::System::Collections::Generic::List_1<::Class_1_303D5A33D1401D59*>* GLELOFCFBCO; // 0x58
+	::System::String* KPHGMBFAKDB; // 0x50
+	::Il2CppArray<::System::String*>* PLHEFECGEGO; // 0x58
 	::Struct_2_BD1A98EFEDD35816 BFLIFKBEOPJ; // 0x60
-	::System::Collections::Generic::List_1<::Class_1_5BD113A5A9B28079*>* _BlockRefs_k__BackingField; // 0x78
-	::System::String* GNNLGGOLNIC; // 0x80
-	::RPG::GameCore::EnviromentControlPriority JJCGJLGGEJL; // 0x88
-	::System::UInt32 ALPOBFGOLOL; // 0x8C
-	::System::Boolean LJNIEOADLEI; // 0x90
-	::System::Boolean FBAHPEIIGNL; // 0x91
-	::UnityEngine::Quaternion BLLHKAPFLLO; // 0x94
-	::UnityEngine::Vector3 NPNKJAPMINI; // 0xA4
+	::RPG::GameCore::StageGrassOverrideConfig* IGAEFMFMKOM; // 0x78
+	::System::Collections::Generic::List_1<::Class_1_303D5A33D1401D59*>* GLELOFCFBCO; // 0x80
+	::System::UInt32 ALPOBFGOLOL; // 0x88
+	::System::Boolean LJNIEOADLEI; // 0x8C
+	::System::Boolean FBAHPEIIGNL; // 0x8D
+	::UnityEngine::Vector3 NPNKJAPMINI; // 0x90
+	::UnityEngine::Quaternion BLLHKAPFLLO; // 0x9C
+	::RPG::GameCore::EnviromentControlPriority JJCGJLGGEJL; // 0xAC
 
 	::System::Void _ctor(::Struct_2_BD1A98EFEDD35816 a1)
 	{
@@ -89,9 +89,9 @@ public:
 		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_83ABAC4FF8C00500_METHOD_1_F0088C88851A7DFB_OFFSET))(this);
 	}
 
-	::System::Collections::Generic::List_1<::Class_1_5BD113A5A9B28079*>* get_BlockRefs()
+	::System::Collections::Generic::List_1<::Class_1_5EE72B213CC2049A*>* get_BlockRefs()
 	{
-		return ((::System::Collections::Generic::List_1<::Class_1_5BD113A5A9B28079*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_83ABAC4FF8C00500_GET_BLOCKREFS_OFFSET))(this);
+		return ((::System::Collections::Generic::List_1<::Class_1_5EE72B213CC2049A*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_83ABAC4FF8C00500_GET_BLOCKREFS_OFFSET))(this);
 	}
 
 	::RPG::Client::LevelStageVisableController* Method_1_AC0BA153C6A4D221()

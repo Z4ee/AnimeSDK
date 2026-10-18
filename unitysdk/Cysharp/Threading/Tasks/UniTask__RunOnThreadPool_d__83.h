@@ -10,12 +10,12 @@ namespace System { class Action; }
 namespace System { class Object; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define CYSHARP_THREADING_TASKS_UNITASK__RUNONTHREADPOOL_D__83_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x3BA9AE0)
-#define CYSHARP_THREADING_TASKS_UNITASK__RUNONTHREADPOOL_D__83_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x1020)
+#define CYSHARP_THREADING_TASKS_UNITASK__RUNONTHREADPOOL_D__83_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x3C5EEB0)
+#define CYSHARP_THREADING_TASKS_UNITASK__RUNONTHREADPOOL_D__83_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x10B0)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UniTask__RunOnThreadPool_d__83_TypeDefinitionIndex = 42766;
+	inline static constexpr unsigned int UniTask__RunOnThreadPool_d__83_TypeDefinitionIndex = 38351;
 
 	struct alignas(8) UniTask__RunOnThreadPool_d__83
 	{
@@ -23,11 +23,11 @@ namespace Cysharp::Threading::Tasks
 		::System::Object* __7__wrap1; // 0x18
 		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder __t__builder; // 0x20
 		::System::Threading::CancellationToken cancellationToken; // 0x30
-		::Cysharp::Threading::Tasks::YieldAwaitable_Awaiter __u__2; // 0x38
-		::System::Int32 __1__state; // 0x3C
+		::System::Int32 __1__state; // 0x38
+		::System::Boolean configureAwait; // 0x3C
+		::Cysharp::Threading::Tasks::SwitchToThreadPoolAwaitable_Awaiter __u__1; // 0x3D
 		::System::Int32 __7__wrap2; // 0x40
-		::System::Boolean configureAwait; // 0x44
-		::Cysharp::Threading::Tasks::SwitchToThreadPoolAwaitable_Awaiter __u__1; // 0x45
+		::Cysharp::Threading::Tasks::YieldAwaitable_Awaiter __u__2; // 0x44
 
 		::System::Void MoveNext()
 		{

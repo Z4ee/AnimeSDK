@@ -6,12 +6,12 @@ namespace System { class String; }
 namespace System { class Type; }
 namespace UnityEngine { class Object; }
 
-#define UNITYENGINE_RESOURCEREQUEST_GET_ASSET_OFFSET UNITYSDK_OFFSET(0x1ED62140)
-#define UNITYENGINE_RESOURCEREQUEST__CTOR_OFFSET UNITYSDK_OFFSET(0x1ED62170)
+#define UNITYENGINE_RESOURCEREQUEST_GET_ASSET_OFFSET UNITYSDK_OFFSET(0x1F42A430)
+#define UNITYENGINE_RESOURCEREQUEST__CTOR_OFFSET UNITYSDK_OFFSET(0x1F42A460)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ResourceRequest_TypeDefinitionIndex = 4273;
+	inline static constexpr unsigned int ResourceRequest_TypeDefinitionIndex = 4276;
 
 	class ResourceRequest : public ::UnityEngine::AsyncOperation
 	{

@@ -6,9 +6,9 @@ class Class_1_1E32D594CE469049;
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI { class Text; }
 
-#define CLASS_1_ABD7461EE4ED35E9__CTOR_OFFSET UNITYSDK_OFFSET(0x16367200)
+#define CLASS_1_ABD7461EE4ED35E9__CTOR_OFFSET UNITYSDK_OFFSET(0xB24FB00)
 
-inline static constexpr unsigned int Class_1_ABD7461EE4ED35E9_TypeDefinitionIndex = 71671;
+inline static constexpr unsigned int Class_1_ABD7461EE4ED35E9_TypeDefinitionIndex = 71724;
 
 class Class_1_ABD7461EE4ED35E9 : public ::System::Object
 {

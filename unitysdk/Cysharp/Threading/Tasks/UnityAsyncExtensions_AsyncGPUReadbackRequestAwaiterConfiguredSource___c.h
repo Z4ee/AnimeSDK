@@ -4,25 +4,25 @@
 
 namespace System { template <typename T> class Action_1; }
 
-#define CYSHARP_THREADING_TASKS_UNITYASYNCEXTENSIONS_ASYNCGPUREADBACKREQUESTAWAITERCONFIGUREDSOURCE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EA978D0)
-#define CYSHARP_THREADING_TASKS_UNITYASYNCEXTENSIONS_ASYNCGPUREADBACKREQUESTAWAITERCONFIGUREDSOURCE___C__CREATE_B__11_0_OFFSET UNITYSDK_OFFSET(0x1EA97980)
-#define CYSHARP_THREADING_TASKS_UNITYASYNCEXTENSIONS_ASYNCGPUREADBACKREQUESTAWAITERCONFIGUREDSOURCE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA97910)
-#define CYSHARP_THREADING_TASKS_UNITYASYNCEXTENSIONS_ASYNCGPUREADBACKREQUESTAWAITERCONFIGUREDSOURCE___C___CCTOR_B__4_0_OFFSET UNITYSDK_OFFSET(0x1EA97920)
+#define CYSHARP_THREADING_TASKS_UNITYASYNCEXTENSIONS_ASYNCGPUREADBACKREQUESTAWAITERCONFIGUREDSOURCE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F15F0A0)
+#define CYSHARP_THREADING_TASKS_UNITYASYNCEXTENSIONS_ASYNCGPUREADBACKREQUESTAWAITERCONFIGUREDSOURCE___C__CREATE_B__11_0_OFFSET UNITYSDK_OFFSET(0x1F15F150)
+#define CYSHARP_THREADING_TASKS_UNITYASYNCEXTENSIONS_ASYNCGPUREADBACKREQUESTAWAITERCONFIGUREDSOURCE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1F15F0E0)
+#define CYSHARP_THREADING_TASKS_UNITYASYNCEXTENSIONS_ASYNCGPUREADBACKREQUESTAWAITERCONFIGUREDSOURCE___C___CCTOR_B__4_0_OFFSET UNITYSDK_OFFSET(0x1F15F0F0)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UnityAsyncExtensions_AsyncGPUReadbackRequestAwaiterConfiguredSource___c_TypeDefinitionIndex = 42869;
+	inline static constexpr unsigned int UnityAsyncExtensions_AsyncGPUReadbackRequestAwaiterConfiguredSource___c_TypeDefinitionIndex = 38454;
 
 	class UnityAsyncExtensions_AsyncGPUReadbackRequestAwaiterConfiguredSource___c : public ::System::Object
 	{
 	public:
 		static ::Cysharp::Threading::Tasks::UnityAsyncExtensions_AsyncGPUReadbackRequestAwaiterConfiguredSource___c** StaticGet___9()
 		{
-			return (::Cysharp::Threading::Tasks::UnityAsyncExtensions_AsyncGPUReadbackRequestAwaiterConfiguredSource___c**)Il2CppClass::FromTypeDefinitionIndex(UnityAsyncExtensions_AsyncGPUReadbackRequestAwaiterConfiguredSource___c_TypeDefinitionIndex)->GetStaticField(0x5A470);
+			return (::Cysharp::Threading::Tasks::UnityAsyncExtensions_AsyncGPUReadbackRequestAwaiterConfiguredSource___c**)Il2CppClass::FromTypeDefinitionIndex(UnityAsyncExtensions_AsyncGPUReadbackRequestAwaiterConfiguredSource___c_TypeDefinitionIndex)->GetStaticField(0x493A0);
 		}
 		static ::System::Action_1<::System::Object*>** StaticGet___9__11_0()
 		{
-			return (::System::Action_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(UnityAsyncExtensions_AsyncGPUReadbackRequestAwaiterConfiguredSource___c_TypeDefinitionIndex)->GetStaticField(0x5A478);
+			return (::System::Action_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(UnityAsyncExtensions_AsyncGPUReadbackRequestAwaiterConfiguredSource___c_TypeDefinitionIndex)->GetStaticField(0x493A8);
 		}
 
 		static ::System::Void _cctor()

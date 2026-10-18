@@ -2,29 +2,29 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Sofa/BaseViewModel.h"
 
-class Class_1_5F4D64A4B97E38F9;
+class Class_1_D501FC103C8A2714;
 namespace Sofa::Core { class SimpleCommand; }
 
-#define RPG_CLIENT_CATGOD_CATGODVIEWMODEL_GET_ONBTNGO_OFFSET UNITYSDK_OFFSET(0xC9EDD10)
-#define RPG_CLIENT_CATGOD_CATGODVIEWMODEL_GET_ONBTNSTAY_OFFSET UNITYSDK_OFFSET(0xC9EDCF0)
-#define RPG_CLIENT_CATGOD_CATGODVIEWMODEL_SET_ONBTNGO_OFFSET UNITYSDK_OFFSET(0xC9EDD20)
-#define RPG_CLIENT_CATGOD_CATGODVIEWMODEL_SET_ONBTNSTAY_OFFSET UNITYSDK_OFFSET(0xC9EDD00)
-#define RPG_CLIENT_CATGOD_CATGODVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xC9EDB60)
+#define RPG_CLIENT_CATGOD_CATGODVIEWMODEL_GET_ONBTNGO_OFFSET UNITYSDK_OFFSET(0xC93C470)
+#define RPG_CLIENT_CATGOD_CATGODVIEWMODEL_GET_ONBTNSTAY_OFFSET UNITYSDK_OFFSET(0xC93C450)
+#define RPG_CLIENT_CATGOD_CATGODVIEWMODEL_SET_ONBTNGO_OFFSET UNITYSDK_OFFSET(0xC93C480)
+#define RPG_CLIENT_CATGOD_CATGODVIEWMODEL_SET_ONBTNSTAY_OFFSET UNITYSDK_OFFSET(0xC93C460)
+#define RPG_CLIENT_CATGOD_CATGODVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xC93C2C0)
 
 namespace RPG::Client::CatGod
 {
-	inline static constexpr unsigned int CatGodViewModel_TypeDefinitionIndex = 80328;
+	inline static constexpr unsigned int CatGodViewModel_TypeDefinitionIndex = 81656;
 
 	class CatGodViewModel : public ::Sofa::BaseViewModel
 	{
 	public:
-		::Sofa::Core::SimpleCommand* _OnBtnStay_k__BackingField; // 0x20
-		::Class_1_5F4D64A4B97E38F9* _Messenger; // 0x28
+		::Class_1_D501FC103C8A2714* _Messenger; // 0x20
+		::Sofa::Core::SimpleCommand* _OnBtnStay_k__BackingField; // 0x28
 		::Sofa::Core::SimpleCommand* _OnBtnGo_k__BackingField; // 0x30
 
-		::System::Void _ctor(::Class_1_5F4D64A4B97E38F9* a1)
+		::System::Void _ctor(::Class_1_D501FC103C8A2714* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_5F4D64A4B97E38F9*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CATGOD_CATGODVIEWMODEL__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Class_1_D501FC103C8A2714*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CATGOD_CATGODVIEWMODEL__CTOR_OFFSET))(this, a1);
 		}
 
 		::Sofa::Core::SimpleCommand* get_OnBtnStay()

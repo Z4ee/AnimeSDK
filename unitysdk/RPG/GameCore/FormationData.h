@@ -8,12 +8,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class LocationData; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FORMATIONDATA_METHOD_2_E359314CE645F3C6_OFFSET UNITYSDK_OFFSET(0x1D110C50)
-#define RPG_GAMECORE_FORMATIONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1D110F40)
+#define RPG_GAMECORE_FORMATIONDATA_METHOD_2_50D5FD850D786113_OFFSET UNITYSDK_OFFSET(0x1D6EA610)
+#define RPG_GAMECORE_FORMATIONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6EA980)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FormationData_TypeDefinitionIndex = 16938;
+	inline static constexpr unsigned int FormationData_TypeDefinitionIndex = 17133;
 
 	class FormationData : public ::RPG::GameCore::JsonConfig
 	{
@@ -31,9 +31,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FORMATIONDATA__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_E359314CE645F3C6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FormationData*& a2)
+		static ::System::Void Method_2_50D5FD850D786113(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FormationData*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FormationData*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FORMATIONDATA_METHOD_2_E359314CE645F3C6_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FormationData*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FORMATIONDATA_METHOD_2_50D5FD850D786113_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -8,7 +8,7 @@ namespace Cysharp::Threading::Tasks { template <typename T> class IUniTaskAsyncE
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int Skip_1_TypeDefinitionIndex = 44440;
+	inline static constexpr unsigned int Skip_1_TypeDefinitionIndex = 45579;
 
 	template <typename TSource>
 	class Skip_1 : public ::System::Object

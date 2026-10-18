@@ -4,7 +4,7 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int BlurParam_TypeDefinitionIndex = 37186;
+	inline static constexpr unsigned int BlurParam_TypeDefinitionIndex = 37878;
 
 	struct alignas(4) BlurParam
 	{

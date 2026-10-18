@@ -4,30 +4,30 @@
 #include "unitysdk/UnityEngine/ConsoleVariableBoolProperty.h"
 #include "unitysdk/UnityEngine/ConsoleVariableIntProperty.h"
 
-#define SHADERWARMUPCONFIGS_GET_ISPSOWARMUP_OFFSET UNITYSDK_OFFSET(0xE913D30)
-#define SHADERWARMUPCONFIGS_GET_SUPPORTPSOWARMUP_OFFSET UNITYSDK_OFFSET(0xE913D20)
-#define SHADERWARMUPCONFIGS__CCTOR_OFFSET UNITYSDK_OFFSET(0xE913D90)
+#define SHADERWARMUPCONFIGS_GET_ISPSOWARMUP_OFFSET UNITYSDK_OFFSET(0xE969860)
+#define SHADERWARMUPCONFIGS_GET_SUPPORTPSOWARMUP_OFFSET UNITYSDK_OFFSET(0xE969850)
+#define SHADERWARMUPCONFIGS__CCTOR_OFFSET UNITYSDK_OFFSET(0xE9698C0)
 
-inline static constexpr unsigned int ShaderWarmupConfigs_TypeDefinitionIndex = 47893;
+inline static constexpr unsigned int ShaderWarmupConfigs_TypeDefinitionIndex = 47433;
 
 class ShaderWarmupConfigs : public ::System::Object
 {
 public:
-	static ::UnityEngine::ConsoleVariableBoolProperty* StaticGet_PreferPSOWarmupCVar()
-	{
-		return (::UnityEngine::ConsoleVariableBoolProperty*)Il2CppClass::FromTypeDefinitionIndex(ShaderWarmupConfigs_TypeDefinitionIndex)->GetStaticField(0x1DB10);
-	}
 	static ::UnityEngine::ConsoleVariableBoolProperty* StaticGet_ForcePSOIgnoreUserSettingsCVar()
 	{
-		return (::UnityEngine::ConsoleVariableBoolProperty*)Il2CppClass::FromTypeDefinitionIndex(ShaderWarmupConfigs_TypeDefinitionIndex)->GetStaticField(0x1DB20);
+		return (::UnityEngine::ConsoleVariableBoolProperty*)Il2CppClass::FromTypeDefinitionIndex(ShaderWarmupConfigs_TypeDefinitionIndex)->GetStaticField(0xB510);
 	}
 	static ::UnityEngine::ConsoleVariableBoolProperty* StaticGet_EnableWarmupCVar()
 	{
-		return (::UnityEngine::ConsoleVariableBoolProperty*)Il2CppClass::FromTypeDefinitionIndex(ShaderWarmupConfigs_TypeDefinitionIndex)->GetStaticField(0x1DB30);
+		return (::UnityEngine::ConsoleVariableBoolProperty*)Il2CppClass::FromTypeDefinitionIndex(ShaderWarmupConfigs_TypeDefinitionIndex)->GetStaticField(0xB520);
+	}
+	static ::UnityEngine::ConsoleVariableBoolProperty* StaticGet_PreferPSOWarmupCVar()
+	{
+		return (::UnityEngine::ConsoleVariableBoolProperty*)Il2CppClass::FromTypeDefinitionIndex(ShaderWarmupConfigs_TypeDefinitionIndex)->GetStaticField(0xB530);
 	}
 	static ::UnityEngine::ConsoleVariableIntProperty* StaticGet_PSOWarmupCountPerTickCVar()
 	{
-		return (::UnityEngine::ConsoleVariableIntProperty*)Il2CppClass::FromTypeDefinitionIndex(ShaderWarmupConfigs_TypeDefinitionIndex)->GetStaticField(0x1DB40);
+		return (::UnityEngine::ConsoleVariableIntProperty*)Il2CppClass::FromTypeDefinitionIndex(ShaderWarmupConfigs_TypeDefinitionIndex)->GetStaticField(0xB540);
 	}
 
 	static ::System::Void _cctor()

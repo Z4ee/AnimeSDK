@@ -9,41 +9,41 @@ namespace Google::Protobuf { template <typename T> class MessageParser_1; }
 namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 namespace System { class String; }
 
-#define PROTO_PILEITEM_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1D9743E0)
-#define PROTO_PILEITEM_CLONE_OFFSET UNITYSDK_OFFSET(0x1D966DD0)
-#define PROTO_PILEITEM_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1D9741D0)
-#define PROTO_PILEITEM_EQUALS_OFFSET UNITYSDK_OFFSET(0x1D9740F0)
-#define PROTO_PILEITEM_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1D9674F0)
-#define PROTO_PILEITEM_GET_ITEMID_OFFSET UNITYSDK_OFFSET(0x1D9740D0)
-#define PROTO_PILEITEM_GET_ITEMNUM_OFFSET UNITYSDK_OFFSET(0x1D9740B0)
-#define PROTO_PILEITEM_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x1D974040)
-#define PROTO_PILEITEM_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1D9744F0)
-#define PROTO_PILEITEM_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1D967CD0)
-#define PROTO_PILEITEM_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1D974070)
-#define PROTO_PILEITEM_SET_ITEMID_OFFSET UNITYSDK_OFFSET(0x1D9740E0)
-#define PROTO_PILEITEM_SET_ITEMNUM_OFFSET UNITYSDK_OFFSET(0x1D9740C0)
-#define PROTO_PILEITEM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1D9742A0)
-#define PROTO_PILEITEM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1D974300)
-#define PROTO_PILEITEM__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D974670)
-#define PROTO_PILEITEM__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1D974080)
-#define PROTO_PILEITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1D967CC0)
+#define PROTO_PILEITEM_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1E00BF80)
+#define PROTO_PILEITEM_CLONE_OFFSET UNITYSDK_OFFSET(0x1E00BBD0)
+#define PROTO_PILEITEM_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1E00BD40)
+#define PROTO_PILEITEM_EQUALS_OFFSET UNITYSDK_OFFSET(0x1E00BC60)
+#define PROTO_PILEITEM_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1E00BE10)
+#define PROTO_PILEITEM_GET_ITEMID_OFFSET UNITYSDK_OFFSET(0x1E00BC20)
+#define PROTO_PILEITEM_GET_ITEMNUM_OFFSET UNITYSDK_OFFSET(0x1E00BC40)
+#define PROTO_PILEITEM_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x1E00BB50)
+#define PROTO_PILEITEM_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1E00C0D0)
+#define PROTO_PILEITEM_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1E00C090)
+#define PROTO_PILEITEM_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1E00BB80)
+#define PROTO_PILEITEM_SET_ITEMID_OFFSET UNITYSDK_OFFSET(0x1E00BC30)
+#define PROTO_PILEITEM_SET_ITEMNUM_OFFSET UNITYSDK_OFFSET(0x1E00BC50)
+#define PROTO_PILEITEM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E00BE40)
+#define PROTO_PILEITEM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E00BEA0)
+#define PROTO_PILEITEM__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E00C250)
+#define PROTO_PILEITEM__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E00BBA0)
+#define PROTO_PILEITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1E00BB90)
 
 namespace Proto
 {
-	inline static constexpr unsigned int PileItem_TypeDefinitionIndex = 27281;
+	inline static constexpr unsigned int PileItem_TypeDefinitionIndex = 27786;
 
 	class PileItem : public ::System::Object
 	{
 	public:
 		static ::Google::Protobuf::MessageParser_1<::Proto::PileItem*>** StaticGet__parser()
 		{
-			return (::Google::Protobuf::MessageParser_1<::Proto::PileItem*>**)Il2CppClass::FromTypeDefinitionIndex(PileItem_TypeDefinitionIndex)->GetStaticField(0x10060);
+			return (::Google::Protobuf::MessageParser_1<::Proto::PileItem*>**)Il2CppClass::FromTypeDefinitionIndex(PileItem_TypeDefinitionIndex)->GetStaticField(0x1C640);
 		}
-		// static const ::System::Int32 ItemNumFieldNumber = 0x9; // 0x0
-		// static const ::System::Int32 ItemIdFieldNumber = 0x4; // 0x0
+		// static const ::System::Int32 ItemIdFieldNumber = 0xE; // 0x0
+		// static const ::System::Int32 ItemNumFieldNumber = 0x1; // 0x0
 		::Google::Protobuf::UnknownFieldSet* _unknownFields; // 0x10
-		::System::UInt32 itemNum_; // 0x18
-		::System::UInt32 itemId_; // 0x1C
+		::System::UInt32 itemId_; // 0x18
+		::System::UInt32 itemNum_; // 0x1C
 
 		::System::Void _ctor()
 		{
@@ -75,16 +75,6 @@ namespace Proto
 			return ((::Proto::PileItem*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_PILEITEM_CLONE_OFFSET))(this);
 		}
 
-		::System::UInt32 get_ItemNum()
-		{
-			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_PILEITEM_GET_ITEMNUM_OFFSET))(this);
-		}
-
-		::System::Void set_ItemNum(::System::UInt32 a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_PILEITEM_SET_ITEMNUM_OFFSET))(this, a1);
-		}
-
 		::System::UInt32 get_ItemId()
 		{
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_PILEITEM_GET_ITEMID_OFFSET))(this);
@@ -93,6 +83,16 @@ namespace Proto
 		::System::Void set_ItemId(::System::UInt32 a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_PILEITEM_SET_ITEMID_OFFSET))(this, a1);
+		}
+
+		::System::UInt32 get_ItemNum()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_PILEITEM_GET_ITEMNUM_OFFSET))(this);
+		}
+
+		::System::Void set_ItemNum(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_PILEITEM_SET_ITEMNUM_OFFSET))(this, a1);
 		}
 
 		::System::Boolean Equals(::System::Object* a1)

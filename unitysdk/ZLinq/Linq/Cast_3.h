@@ -4,7 +4,7 @@
 
 namespace ZLinq::Linq
 {
-	inline static constexpr unsigned int Cast_3_TypeDefinitionIndex = 6107;
+	inline static constexpr unsigned int Cast_3_TypeDefinitionIndex = 6115;
 
 	template <typename TEnumerator, typename TSource, typename TResult>
 	struct Cast_3

@@ -4,7 +4,7 @@
 
 namespace System::Reflection { class Assembly; }
 
-#define SYSTEM_REFLECTION_CUSTOMATTRIBUTEDATA_LAZYCATTRDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD8D0F0)
+#define SYSTEM_REFLECTION_CUSTOMATTRIBUTEDATA_LAZYCATTRDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1C298D80)
 
 namespace System::Reflection
 {
@@ -14,8 +14,8 @@ namespace System::Reflection
 	{
 	public:
 		::System::Reflection::Assembly* assembly; // 0x10
-		::System::IntPtr data; // 0x18
-		::System::UInt32 data_length; // 0x20
+		::System::UInt32 data_length; // 0x18
+		::System::IntPtr data; // 0x20
 
 		::System::Void _ctor()
 		{

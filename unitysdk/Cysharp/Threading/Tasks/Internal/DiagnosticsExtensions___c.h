@@ -7,34 +7,34 @@ namespace System { class Type; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Reflection { class ParameterInfo; }
 
-#define CYSHARP_THREADING_TASKS_INTERNAL_DIAGNOSTICSEXTENSIONS___C__BEAUTIFYTYPE_B__6_0_OFFSET UNITYSDK_OFFSET(0x1EA55790)
-#define CYSHARP_THREADING_TASKS_INTERNAL_DIAGNOSTICSEXTENSIONS___C__BEAUTIFYTYPE_B__6_1_OFFSET UNITYSDK_OFFSET(0x1EA557F0)
-#define CYSHARP_THREADING_TASKS_INTERNAL_DIAGNOSTICSEXTENSIONS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EA555E0)
-#define CYSHARP_THREADING_TASKS_INTERNAL_DIAGNOSTICSEXTENSIONS___C__CLEANUPASYNCSTACKTRACE_B__3_0_OFFSET UNITYSDK_OFFSET(0x1EA55630)
-#define CYSHARP_THREADING_TASKS_INTERNAL_DIAGNOSTICSEXTENSIONS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA55620)
+#define CYSHARP_THREADING_TASKS_INTERNAL_DIAGNOSTICSEXTENSIONS___C__BEAUTIFYTYPE_B__6_0_OFFSET UNITYSDK_OFFSET(0x1F11D140)
+#define CYSHARP_THREADING_TASKS_INTERNAL_DIAGNOSTICSEXTENSIONS___C__BEAUTIFYTYPE_B__6_1_OFFSET UNITYSDK_OFFSET(0x1F11D1A0)
+#define CYSHARP_THREADING_TASKS_INTERNAL_DIAGNOSTICSEXTENSIONS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F11CF90)
+#define CYSHARP_THREADING_TASKS_INTERNAL_DIAGNOSTICSEXTENSIONS___C__CLEANUPASYNCSTACKTRACE_B__3_0_OFFSET UNITYSDK_OFFSET(0x1F11CFE0)
+#define CYSHARP_THREADING_TASKS_INTERNAL_DIAGNOSTICSEXTENSIONS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1F11CFD0)
 
 namespace Cysharp::Threading::Tasks::Internal
 {
-	inline static constexpr unsigned int DiagnosticsExtensions___c_TypeDefinitionIndex = 43073;
+	inline static constexpr unsigned int DiagnosticsExtensions___c_TypeDefinitionIndex = 38658;
 
 	class DiagnosticsExtensions___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::Type*, ::System::String*>** StaticGet___9__6_0()
+		static ::Cysharp::Threading::Tasks::Internal::DiagnosticsExtensions___c** StaticGet___9()
 		{
-			return (::System::Func_2<::System::Type*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(DiagnosticsExtensions___c_TypeDefinitionIndex)->GetStaticField(0x55C50);
-		}
-		static ::System::Func_2<::System::Reflection::ParameterInfo*, ::System::String*>** StaticGet___9__3_0()
-		{
-			return (::System::Func_2<::System::Reflection::ParameterInfo*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(DiagnosticsExtensions___c_TypeDefinitionIndex)->GetStaticField(0x55C58);
+			return (::Cysharp::Threading::Tasks::Internal::DiagnosticsExtensions___c**)Il2CppClass::FromTypeDefinitionIndex(DiagnosticsExtensions___c_TypeDefinitionIndex)->GetStaticField(0x3F2A0);
 		}
 		static ::System::Func_2<::System::Type*, ::System::String*>** StaticGet___9__6_1()
 		{
-			return (::System::Func_2<::System::Type*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(DiagnosticsExtensions___c_TypeDefinitionIndex)->GetStaticField(0x55C60);
+			return (::System::Func_2<::System::Type*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(DiagnosticsExtensions___c_TypeDefinitionIndex)->GetStaticField(0x3F2A8);
 		}
-		static ::Cysharp::Threading::Tasks::Internal::DiagnosticsExtensions___c** StaticGet___9()
+		static ::System::Func_2<::System::Type*, ::System::String*>** StaticGet___9__6_0()
 		{
-			return (::Cysharp::Threading::Tasks::Internal::DiagnosticsExtensions___c**)Il2CppClass::FromTypeDefinitionIndex(DiagnosticsExtensions___c_TypeDefinitionIndex)->GetStaticField(0x55C68);
+			return (::System::Func_2<::System::Type*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(DiagnosticsExtensions___c_TypeDefinitionIndex)->GetStaticField(0x3F2B0);
+		}
+		static ::System::Func_2<::System::Reflection::ParameterInfo*, ::System::String*>** StaticGet___9__3_0()
+		{
+			return (::System::Func_2<::System::Reflection::ParameterInfo*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(DiagnosticsExtensions___c_TypeDefinitionIndex)->GetStaticField(0x3F2B8);
 		}
 
 		static ::System::Void _cctor()

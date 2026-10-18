@@ -5,7 +5,7 @@ namespace System { class Object; }
 
 namespace XLua
 {
-	inline static constexpr unsigned int RawObject_TypeDefinitionIndex = 50585;
+	inline static constexpr unsigned int RawObject_TypeDefinitionIndex = 50254;
 
 	class RawObject
 	{

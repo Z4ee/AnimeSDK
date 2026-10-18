@@ -1,9 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/Cysharp/Threading/Tasks/UniTask.h"
 
-namespace RPG::GameCore { class JsonConfig; }
-
-inline static constexpr unsigned int Class_0_16E4307DCC419505_412_TypeDefinitionIndex = 50403;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_412_TypeDefinitionIndex = 44206;
 
 class Class_0_16E4307DCC419505_412
 {

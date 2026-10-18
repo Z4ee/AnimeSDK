@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class StartTrackPhoto; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_40EFB9AB56820469_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBAC09B0)
-#define CLASS_3_40EFB9AB56820469__CTOR_OFFSET UNITYSDK_OFFSET(0xBAC0980)
+#define CLASS_3_40EFB9AB56820469_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBA596F0)
+#define CLASS_3_40EFB9AB56820469__CTOR_OFFSET UNITYSDK_OFFSET(0xBA596C0)
 
-inline static constexpr unsigned int Class_3_40EFB9AB56820469_TypeDefinitionIndex = 53550;
+inline static constexpr unsigned int Class_3_40EFB9AB56820469_TypeDefinitionIndex = 53293;
 
 class Class_3_40EFB9AB56820469 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::StartTrackPhoto*>
 {

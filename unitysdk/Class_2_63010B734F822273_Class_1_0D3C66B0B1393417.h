@@ -1,0 +1,38 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_196CAEC5A1F2ACEA_1;
+class Class_1_20D743894CDF214D_2;
+class Class_1_CBED1C81B576764D_5;
+class Class_1_D17272E82AE804C2_671;
+class Class_1_D17272E82AE804C2_672;
+namespace Google::Protobuf::Collections { template <typename T> class RepeatedField_1; }
+
+#define CLASS_2_63010B734F822273_CLASS_1_0D3C66B0B1393417_METHOD_1_6AE37224951B835D_OFFSET UNITYSDK_OFFSET(0xF8B5D70)
+#define CLASS_2_63010B734F822273_CLASS_1_0D3C66B0B1393417__CTOR_OFFSET UNITYSDK_OFFSET(0xF8B9460)
+
+inline static constexpr unsigned int Class_2_63010B734F822273_Class_1_0D3C66B0B1393417_TypeDefinitionIndex = 65793;
+
+class Class_2_63010B734F822273_Class_1_0D3C66B0B1393417 : public ::System::Object
+{
+public:
+	::Google::Protobuf::Collections::RepeatedField_1<::Class_1_196CAEC5A1F2ACEA_1*>* EHKHFECEOFK; // 0x10
+	::Class_1_20D743894CDF214D_2* COOOMDKGODF; // 0x18
+	::Class_1_D17272E82AE804C2_671* JLOOPPGEADG; // 0x20
+	::Google::Protobuf::Collections::RepeatedField_1<::Class_1_D17272E82AE804C2_672*>* OCKHPCLHAFD; // 0x28
+	::System::Boolean JOHBLNAKLMA; // 0x30
+	::System::Boolean IHOPKHOINBA; // 0x31
+	::System::Int32 FCFGHOHHJLE; // 0x34
+	::System::UInt32 GJPPHJMHBPF; // 0x38
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_63010B734F822273_CLASS_1_0D3C66B0B1393417__CTOR_OFFSET))(this);
+	}
+
+	static ::Class_2_63010B734F822273_Class_1_0D3C66B0B1393417* Method_1_6AE37224951B835D(::Class_1_CBED1C81B576764D_5* a1, ::System::Boolean a2)
+	{
+		return ((::Class_2_63010B734F822273_Class_1_0D3C66B0B1393417*(*)(::Class_1_CBED1C81B576764D_5*, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_2_63010B734F822273_CLASS_1_0D3C66B0B1393417_METHOD_1_6AE37224951B835D_OFFSET))(a1, a2);
+	}
+};

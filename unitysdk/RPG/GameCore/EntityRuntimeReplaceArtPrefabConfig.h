@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class EntityRuntimeReplaceArtPrefab; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_ENTITYRUNTIMEREPLACEARTPREFABCONFIG_METHOD_2_331E7FA3DEA051F4_OFFSET UNITYSDK_OFFSET(0x1D06BC80)
-#define RPG_GAMECORE_ENTITYRUNTIMEREPLACEARTPREFABCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D06BD60)
+#define RPG_GAMECORE_ENTITYRUNTIMEREPLACEARTPREFABCONFIG_METHOD_2_331E7FA3DEA051F4_OFFSET UNITYSDK_OFFSET(0x1D679B20)
+#define RPG_GAMECORE_ENTITYRUNTIMEREPLACEARTPREFABCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D679C00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EntityRuntimeReplaceArtPrefabConfig_TypeDefinitionIndex = 18877;
+	inline static constexpr unsigned int EntityRuntimeReplaceArtPrefabConfig_TypeDefinitionIndex = 19104;
 
 	class EntityRuntimeReplaceArtPrefabConfig : public ::RPG::GameCore::JsonConfig
 	{

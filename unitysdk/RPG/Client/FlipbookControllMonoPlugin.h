@@ -6,13 +6,13 @@ namespace RPG::Client { class FlipbookControllBehavior; }
 namespace System { class String; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_FLIPBOOKCONTROLLMONOPLUGIN_EVALUATTIMEBYINPUT_OFFSET UNITYSDK_OFFSET(0xD0A4290)
-#define RPG_CLIENT_FLIPBOOKCONTROLLMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xD0A4350)
-#define RPG_CLIENT_FLIPBOOKCONTROLLMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xD0A43A0)
+#define RPG_CLIENT_FLIPBOOKCONTROLLMONOPLUGIN_EVALUATTIMEBYINPUT_OFFSET UNITYSDK_OFFSET(0xD044EE0)
+#define RPG_CLIENT_FLIPBOOKCONTROLLMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xD044FA0)
+#define RPG_CLIENT_FLIPBOOKCONTROLLMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xD044FF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FlipbookControllMonoPlugin_TypeDefinitionIndex = 70568;
+	inline static constexpr unsigned int FlipbookControllMonoPlugin_TypeDefinitionIndex = 70604;
 
 	class FlipbookControllMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::FlipbookControllBehavior*>
 	{

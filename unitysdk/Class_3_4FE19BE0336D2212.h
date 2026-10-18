@@ -6,10 +6,10 @@
 namespace RPG::GameCore { class SetDynamicValueByGridFightTraitBonusCurrentLayer; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_4FE19BE0336D2212_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBBB7BC0)
-#define CLASS_3_4FE19BE0336D2212__CTOR_OFFSET UNITYSDK_OFFSET(0xBBB7AE0)
+#define CLASS_3_4FE19BE0336D2212_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBA41B60)
+#define CLASS_3_4FE19BE0336D2212__CTOR_OFFSET UNITYSDK_OFFSET(0xBA41A80)
 
-inline static constexpr unsigned int Class_3_4FE19BE0336D2212_TypeDefinitionIndex = 55634;
+inline static constexpr unsigned int Class_3_4FE19BE0336D2212_TypeDefinitionIndex = 55442;
 
 class Class_3_4FE19BE0336D2212 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetDynamicValueByGridFightTraitBonusCurrentLayer*>
 {

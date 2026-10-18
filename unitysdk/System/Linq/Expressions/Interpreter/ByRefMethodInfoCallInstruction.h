@@ -6,13 +6,13 @@ namespace System::Linq::Expressions::Interpreter { class ByRefUpdater; }
 namespace System::Linq::Expressions::Interpreter { class InterpretedFrame; }
 namespace System::Reflection { class MethodInfo; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_BYREFMETHODINFOCALLINSTRUCTION_GET_PRODUCEDSTACK_OFFSET UNITYSDK_OFFSET(0x1E712F80)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_BYREFMETHODINFOCALLINSTRUCTION_RUN_OFFSET UNITYSDK_OFFSET(0x1E713040)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_BYREFMETHODINFOCALLINSTRUCTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1E712F70)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_BYREFMETHODINFOCALLINSTRUCTION_GET_PRODUCEDSTACK_OFFSET UNITYSDK_OFFSET(0x1EDDBBC0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_BYREFMETHODINFOCALLINSTRUCTION_RUN_OFFSET UNITYSDK_OFFSET(0x1EDDBC80)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_BYREFMETHODINFOCALLINSTRUCTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1EDDBBB0)
 
 namespace System::Linq::Expressions::Interpreter
 {
-	inline static constexpr unsigned int ByRefMethodInfoCallInstruction_TypeDefinitionIndex = 3319;
+	inline static constexpr unsigned int ByRefMethodInfoCallInstruction_TypeDefinitionIndex = 3320;
 
 	class ByRefMethodInfoCallInstruction : public ::System::Linq::Expressions::Interpreter::MethodInfoCallInstruction
 	{

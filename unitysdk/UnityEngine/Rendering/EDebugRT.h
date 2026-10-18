@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int EDebugRT_TypeDefinitionIndex = 4814;
+	inline static constexpr unsigned int EDebugRT_TypeDefinitionIndex = 4819;
 
 	enum class EDebugRT : ::System::Int32
 	{

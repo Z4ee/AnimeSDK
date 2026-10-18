@@ -1,11 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-class Class_0_16E4307DCC419505_1252;
-namespace System::Collections::Generic { template <typename T> class HashSet_1; }
-namespace System::Collections::Generic { template <typename T> class List_1; }
+namespace RPG::Client { class IBookletView; }
+namespace RPG::GameCore::Booklet { class ElementConfig; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_1251_TypeDefinitionIndex = 74966;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_1251_TypeDefinitionIndex = 72446;
 
 class Class_0_16E4307DCC419505_1251
 {

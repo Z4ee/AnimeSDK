@@ -4,17 +4,17 @@
 
 namespace RPG::Client { class RogueModule; }
 
-#define CLASS_3_95EDA397421D9517___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB82C3E0)
-#define CLASS_3_95EDA397421D9517___C__DISPLAYCLASS1_0__ONTASKBEGIN_B__0_OFFSET UNITYSDK_OFFSET(0xB82C3F0)
+#define CLASS_3_95EDA397421D9517___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB69D810)
+#define CLASS_3_95EDA397421D9517___C__DISPLAYCLASS1_0__ONTASKBEGIN_B__0_OFFSET UNITYSDK_OFFSET(0xB69D820)
 
-inline static constexpr unsigned int Class_3_95EDA397421D9517___c__DisplayClass1_0_TypeDefinitionIndex = 58945;
+inline static constexpr unsigned int Class_3_95EDA397421D9517___c__DisplayClass1_0_TypeDefinitionIndex = 58797;
 
 class Class_3_95EDA397421D9517___c__DisplayClass1_0 : public ::System::Object
 {
 public:
 	::RPG::Client::RogueModule* rogueModule; // 0x10
-	::System::UInt32 nextRogueRoomID; // 0x18
-	::System::UInt32 nextRogueSiteID; // 0x1C
+	::System::UInt32 nextRogueSiteID; // 0x18
+	::System::UInt32 nextRogueRoomID; // 0x1C
 
 	::System::Void _ctor()
 	{

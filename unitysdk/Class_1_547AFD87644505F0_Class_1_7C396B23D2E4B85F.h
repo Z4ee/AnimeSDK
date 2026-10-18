@@ -5,9 +5,9 @@
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class GameObject; }
 
-#define CLASS_1_547AFD87644505F0_CLASS_1_7C396B23D2E4B85F__CTOR_OFFSET UNITYSDK_OFFSET(0xE8B0190)
+#define CLASS_1_547AFD87644505F0_CLASS_1_7C396B23D2E4B85F__CTOR_OFFSET UNITYSDK_OFFSET(0xEBC9CF0)
 
-inline static constexpr unsigned int Class_1_547AFD87644505F0_Class_1_7C396B23D2E4B85F_TypeDefinitionIndex = 59889;
+inline static constexpr unsigned int Class_1_547AFD87644505F0_Class_1_7C396B23D2E4B85F_TypeDefinitionIndex = 59746;
 
 class Class_1_547AFD87644505F0_Class_1_7C396B23D2E4B85F : public ::System::Object
 {

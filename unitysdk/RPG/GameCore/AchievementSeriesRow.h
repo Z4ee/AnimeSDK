@@ -7,26 +7,26 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ACHIEVEMENTSERIESROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CD6DF60)
-#define RPG_GAMECORE_ACHIEVEMENTSERIESROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD6E750)
+#define RPG_GAMECORE_ACHIEVEMENTSERIESROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D341720)
+#define RPG_GAMECORE_ACHIEVEMENTSERIESROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D341F10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AchievementSeriesRow_TypeDefinitionIndex = 10875;
+	inline static constexpr unsigned int AchievementSeriesRow_TypeDefinitionIndex = 10891;
 
 	class AchievementSeriesRow : public ::System::Object
 	{
 	public:
-		::System::String* CopperIconPath; // 0x10
-		::System::String* IconPath; // 0x18
-		::System::String* SilverIconPath; // 0x20
-		::System::String* GoldIconPath; // 0x28
-		::System::String* MainIconPath; // 0x30
-		::System::UInt32 SeriesID; // 0x38
-		::System::UInt32 Priority; // 0x3C
-		::RPG::Client::TextID SeriesTitle; // 0x40
-		::System::UInt32 ShowParamInt1; // 0x50
-		::RPG::GameCore::ShowType ShowType; // 0x54
+		::System::String* IconPath; // 0x10
+		::System::String* SilverIconPath; // 0x18
+		::System::String* GoldIconPath; // 0x20
+		::System::String* MainIconPath; // 0x28
+		::System::String* CopperIconPath; // 0x30
+		::System::UInt32 Priority; // 0x38
+		::System::UInt32 ShowParamInt1; // 0x3C
+		::RPG::GameCore::ShowType ShowType; // 0x40
+		::System::UInt32 SeriesID; // 0x44
+		::RPG::Client::TextID SeriesTitle; // 0x48
 
 		::System::Void _ctor()
 		{

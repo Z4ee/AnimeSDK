@@ -8,26 +8,26 @@ namespace System { class Action; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_WIN_REALNAMEMANAGER___C__DISPLAYCLASS37_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8E3CA0)
-#define MIHOYO_SDK_WIN_REALNAMEMANAGER___C__DISPLAYCLASS37_0__SHOWGRANTMAILPLUGINUI_B__0_OFFSET UNITYSDK_OFFSET(0x1B8E6E70)
-#define MIHOYO_SDK_WIN_REALNAMEMANAGER___C__DISPLAYCLASS37_0__SHOWGRANTMAILPLUGINUI_B__1_OFFSET UNITYSDK_OFFSET(0x1B8E6E90)
-#define MIHOYO_SDK_WIN_REALNAMEMANAGER___C__DISPLAYCLASS37_0__SHOWGRANTMAILPLUGINUI_B__2_OFFSET UNITYSDK_OFFSET(0x1B8E6ED0)
-#define MIHOYO_SDK_WIN_REALNAMEMANAGER___C__DISPLAYCLASS37_0__SHOWGRANTMAILPLUGINUI_B__3_OFFSET UNITYSDK_OFFSET(0x1B8E7190)
-#define MIHOYO_SDK_WIN_REALNAMEMANAGER___C__DISPLAYCLASS37_0__SHOWGRANTMAILPLUGINUI_B__4_OFFSET UNITYSDK_OFFSET(0x1B8E71D0)
+#define MIHOYO_SDK_WIN_REALNAMEMANAGER___C__DISPLAYCLASS37_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDE2020)
+#define MIHOYO_SDK_WIN_REALNAMEMANAGER___C__DISPLAYCLASS37_0__SHOWGRANTMAILPLUGINUI_B__0_OFFSET UNITYSDK_OFFSET(0x1BDE5210)
+#define MIHOYO_SDK_WIN_REALNAMEMANAGER___C__DISPLAYCLASS37_0__SHOWGRANTMAILPLUGINUI_B__1_OFFSET UNITYSDK_OFFSET(0x1BDE5230)
+#define MIHOYO_SDK_WIN_REALNAMEMANAGER___C__DISPLAYCLASS37_0__SHOWGRANTMAILPLUGINUI_B__2_OFFSET UNITYSDK_OFFSET(0x1BDE5270)
+#define MIHOYO_SDK_WIN_REALNAMEMANAGER___C__DISPLAYCLASS37_0__SHOWGRANTMAILPLUGINUI_B__3_OFFSET UNITYSDK_OFFSET(0x1BDE5530)
+#define MIHOYO_SDK_WIN_REALNAMEMANAGER___C__DISPLAYCLASS37_0__SHOWGRANTMAILPLUGINUI_B__4_OFFSET UNITYSDK_OFFSET(0x1BDE5570)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int RealNameManager___c__DisplayClass37_0_TypeDefinitionIndex = 9301;
+	inline static constexpr unsigned int RealNameManager___c__DisplayClass37_0_TypeDefinitionIndex = 9359;
 
 	class RealNameManager___c__DisplayClass37_0 : public ::System::Object
 	{
 	public:
-		::System::Action_1<::System::String*>* verifyAction; // 0x10
-		::System::Action* getCaptchaAction; // 0x18
-		::MiHoYo::SDK::Win::RealNameManager* __4__this; // 0x20
-		::MiHoYo::SDK::AccountModel* account; // 0x28
-		::System::Boolean isShowOtherVerify; // 0x30
-		::System::Boolean isShowRedirect; // 0x31
+		::MiHoYo::SDK::Win::RealNameManager* __4__this; // 0x10
+		::MiHoYo::SDK::AccountModel* account; // 0x18
+		::System::Action* getCaptchaAction; // 0x20
+		::System::Action_1<::System::String*>* verifyAction; // 0x28
+		::System::Boolean isShowRedirect; // 0x30
+		::System::Boolean isShowOtherVerify; // 0x31
 
 		::System::Void _ctor()
 		{

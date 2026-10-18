@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_B51RACING_B51RACINGPAUSEDIALOGVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xC895AC0)
+#define RPG_CLIENT_B51RACING_B51RACINGPAUSEDIALOGVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xC7B4460)
 
 namespace RPG::Client::B51Racing
 {
-	inline static constexpr unsigned int B51RacingPauseDialogViewModel_TypeDefinitionIndex = 80714;
+	inline static constexpr unsigned int B51RacingPauseDialogViewModel_TypeDefinitionIndex = 82042;
 
 	class B51RacingPauseDialogViewModel : public ::System::Object
 	{

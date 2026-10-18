@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_EXPEDITIONTEAMCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D0865E0)
-#define RPG_GAMECORE_EXPEDITIONTEAMCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D086700)
+#define RPG_GAMECORE_EXPEDITIONTEAMCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D6945D0)
+#define RPG_GAMECORE_EXPEDITIONTEAMCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6946F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ExpeditionTeamConfigRow_TypeDefinitionIndex = 13149;
+	inline static constexpr unsigned int ExpeditionTeamConfigRow_TypeDefinitionIndex = 13255;
 
 	class ExpeditionTeamConfigRow : public ::System::Object
 	{

@@ -4,9 +4,9 @@
 
 namespace System { class String; }
 
-#define HIPPLENBUILDERTESTASSET_TESTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x15ADDA90)
+#define HIPPLENBUILDERTESTASSET_TESTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x15DF1C70)
 
-inline static constexpr unsigned int HipplenBuilderTestAsset_TestConfig_TypeDefinitionIndex = 47693;
+inline static constexpr unsigned int HipplenBuilderTestAsset_TestConfig_TypeDefinitionIndex = 47233;
 
 class HipplenBuilderTestAsset_TestConfig : public ::System::Object
 {

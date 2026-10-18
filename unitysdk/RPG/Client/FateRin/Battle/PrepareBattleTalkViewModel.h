@@ -6,20 +6,20 @@ class Class_1_AE77A09A042BE68B;
 namespace RPG::Client::FateRin::Battle { class PrepareBattleTalkEntryViewModel; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_FATERIN_BATTLE_PREPAREBATTLETALKVIEWMODEL_CREATEBYHOUGUMAPFIGHT_OFFSET UNITYSDK_OFFSET(0xCFD9070)
-#define RPG_CLIENT_FATERIN_BATTLE_PREPAREBATTLETALKVIEWMODEL_CREATEEMPTY_OFFSET UNITYSDK_OFFSET(0xCFDA490)
-#define RPG_CLIENT_FATERIN_BATTLE_PREPAREBATTLETALKVIEWMODEL_GETENTRIES_OFFSET UNITYSDK_OFFSET(0xCFDA560)
-#define RPG_CLIENT_FATERIN_BATTLE_PREPAREBATTLETALKVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xCFDA420)
+#define RPG_CLIENT_FATERIN_BATTLE_PREPAREBATTLETALKVIEWMODEL_CREATEBYHOUGUMAPFIGHT_OFFSET UNITYSDK_OFFSET(0xCEDDE80)
+#define RPG_CLIENT_FATERIN_BATTLE_PREPAREBATTLETALKVIEWMODEL_CREATEEMPTY_OFFSET UNITYSDK_OFFSET(0xCEDF2B0)
+#define RPG_CLIENT_FATERIN_BATTLE_PREPAREBATTLETALKVIEWMODEL_GETENTRIES_OFFSET UNITYSDK_OFFSET(0xCEDF380)
+#define RPG_CLIENT_FATERIN_BATTLE_PREPAREBATTLETALKVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xCEDF240)
 
 namespace RPG::Client::FateRin::Battle
 {
-	inline static constexpr unsigned int PrepareBattleTalkViewModel_TypeDefinitionIndex = 79661;
+	inline static constexpr unsigned int PrepareBattleTalkViewModel_TypeDefinitionIndex = 80985;
 
 	class PrepareBattleTalkViewModel : public ::RPG::Client::FateRin::BaseViewModel
 	{
 	public:
-		::Il2CppArray<::RPG::Client::FateRin::Battle::PrepareBattleTalkEntryViewModel*>* _Entries; // 0x20
-		::System::Collections::Generic::List_1<::RPG::Client::FateRin::Battle::PrepareBattleTalkEntryViewModel*>* _Entries_List; // 0x28
+		::System::Collections::Generic::List_1<::RPG::Client::FateRin::Battle::PrepareBattleTalkEntryViewModel*>* _Entries_List; // 0x20
+		::Il2CppArray<::RPG::Client::FateRin::Battle::PrepareBattleTalkEntryViewModel*>* _Entries; // 0x28
 
 		::System::Void _ctor(::Il2CppArray<::RPG::Client::FateRin::Battle::PrepareBattleTalkEntryViewModel*>* a1)
 		{

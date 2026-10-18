@@ -6,10 +6,10 @@ class Class_3_4A1D8F97E22D5A98;
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class String; }
 
-#define CLASS_3_64366539469BA2FE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1621B650)
-#define CLASS_3_64366539469BA2FE__CTOR_OFFSET UNITYSDK_OFFSET(0x1621B620)
+#define CLASS_3_64366539469BA2FE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16592DE0)
+#define CLASS_3_64366539469BA2FE__CTOR_OFFSET UNITYSDK_OFFSET(0x16592DB0)
 
-inline static constexpr unsigned int Class_3_64366539469BA2FE_TypeDefinitionIndex = 55052;
+inline static constexpr unsigned int Class_3_64366539469BA2FE_TypeDefinitionIndex = 54842;
 
 class Class_3_64366539469BA2FE : public ::RPG::GameCore::ImmediateTaskBase_1<::Class_3_4A1D8F97E22D5A98*>
 {

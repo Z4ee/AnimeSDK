@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define UNITYENGINE_TIMELINE_HIDEINMENUATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1ECC40B0)
+#define UNITYENGINE_TIMELINE_HIDEINMENUATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F38BD80)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int HideInMenuAttribute_TypeDefinitionIndex = 37568;
+	inline static constexpr unsigned int HideInMenuAttribute_TypeDefinitionIndex = 38865;
 
 	class HideInMenuAttribute : public ::System::Attribute
 	{

@@ -8,22 +8,22 @@ namespace RPG::GameCore { class TaskContext; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_2_3B411D9750D421FB_DISPOSE_OFFSET UNITYSDK_OFFSET(0xD81C5C0)
-#define CLASS_2_3B411D9750D421FB_METHOD_2_F203519397590FDC_OFFSET UNITYSDK_OFFSET(0xD81C8C0)
-#define CLASS_2_3B411D9750D421FB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xD81C600)
-#define CLASS_2_3B411D9750D421FB_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xD81C980)
-#define CLASS_2_3B411D9750D421FB_TICK_OFFSET UNITYSDK_OFFSET(0xD81C9D0)
-#define CLASS_2_3B411D9750D421FB__CTOR_OFFSET UNITYSDK_OFFSET(0xD81C470)
+#define CLASS_2_3B411D9750D421FB_DISPOSE_OFFSET UNITYSDK_OFFSET(0xD78C370)
+#define CLASS_2_3B411D9750D421FB_METHOD_2_F203519397590FDC_OFFSET UNITYSDK_OFFSET(0xD78C670)
+#define CLASS_2_3B411D9750D421FB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xD78C3B0)
+#define CLASS_2_3B411D9750D421FB_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xD78C730)
+#define CLASS_2_3B411D9750D421FB_TICK_OFFSET UNITYSDK_OFFSET(0xD78C780)
+#define CLASS_2_3B411D9750D421FB__CTOR_OFFSET UNITYSDK_OFFSET(0xD78C220)
 
-inline static constexpr unsigned int Class_2_3B411D9750D421FB_TypeDefinitionIndex = 56624;
+inline static constexpr unsigned int Class_2_3B411D9750D421FB_TypeDefinitionIndex = 56439;
 
 class Class_2_3B411D9750D421FB : public ::Class_1_5F51D4049EA87B7B
 {
 public:
 	// static const ::System::String* BJDEMECMDFO; // 0x0
-	::System::Collections::Generic::Dictionary_2<::RPG::GameCore::ShowAttackTimeType, ::System::String*>* HPEFOLCMDHD; // 0x18
-	::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
-	::RPG::GameCore::ShowAttackTime* OFKGLJOAMLD; // 0x28
+	::RPG::GameCore::ShowAttackTime* OFKGLJOAMLD; // 0x18
+	::System::Collections::Generic::Dictionary_2<::RPG::GameCore::ShowAttackTimeType, ::System::String*>* HPEFOLCMDHD; // 0x20
+	::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x28
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ShowAttackTime* a2)
 	{

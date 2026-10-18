@@ -6,23 +6,23 @@ namespace RPG::Client { class ChooseDeliveryGroup; }
 namespace RPG::Client { class ChooseDeliveryToastConfig; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_CHOOSEDELIVERYENTRY_GET_ENTRYID_OFFSET UNITYSDK_OFFSET(0xCC1EFC0)
-#define RPG_CLIENT_CHOOSEDELIVERYENTRY_GET_GROUPS_OFFSET UNITYSDK_OFFSET(0xCC1EFE0)
-#define RPG_CLIENT_CHOOSEDELIVERYENTRY_GET_TOASTCONFIG_OFFSET UNITYSDK_OFFSET(0xCC1F000)
-#define RPG_CLIENT_CHOOSEDELIVERYENTRY_SET_ENTRYID_OFFSET UNITYSDK_OFFSET(0xCC1EFD0)
-#define RPG_CLIENT_CHOOSEDELIVERYENTRY_SET_GROUPS_OFFSET UNITYSDK_OFFSET(0xCC1EFF0)
-#define RPG_CLIENT_CHOOSEDELIVERYENTRY_SET_TOASTCONFIG_OFFSET UNITYSDK_OFFSET(0xCC1F010)
-#define RPG_CLIENT_CHOOSEDELIVERYENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0xCC1F020)
+#define RPG_CLIENT_CHOOSEDELIVERYENTRY_GET_ENTRYID_OFFSET UNITYSDK_OFFSET(0xCB6E010)
+#define RPG_CLIENT_CHOOSEDELIVERYENTRY_GET_GROUPS_OFFSET UNITYSDK_OFFSET(0xCB6E030)
+#define RPG_CLIENT_CHOOSEDELIVERYENTRY_GET_TOASTCONFIG_OFFSET UNITYSDK_OFFSET(0xCB6E050)
+#define RPG_CLIENT_CHOOSEDELIVERYENTRY_SET_ENTRYID_OFFSET UNITYSDK_OFFSET(0xCB6E020)
+#define RPG_CLIENT_CHOOSEDELIVERYENTRY_SET_GROUPS_OFFSET UNITYSDK_OFFSET(0xCB6E040)
+#define RPG_CLIENT_CHOOSEDELIVERYENTRY_SET_TOASTCONFIG_OFFSET UNITYSDK_OFFSET(0xCB6E060)
+#define RPG_CLIENT_CHOOSEDELIVERYENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0xCB6E070)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChooseDeliveryEntry_TypeDefinitionIndex = 63579;
+	inline static constexpr unsigned int ChooseDeliveryEntry_TypeDefinitionIndex = 63517;
 
 	class ChooseDeliveryEntry : public ::System::Object
 	{
 	public:
-		::RPG::Client::ChooseDeliveryToastConfig* _ToastConfig_k__BackingField; // 0x10
-		::System::Collections::Generic::List_1<::RPG::Client::ChooseDeliveryGroup*>* _Groups_k__BackingField; // 0x18
+		::System::Collections::Generic::List_1<::RPG::Client::ChooseDeliveryGroup*>* _Groups_k__BackingField; // 0x10
+		::RPG::Client::ChooseDeliveryToastConfig* _ToastConfig_k__BackingField; // 0x18
 		::System::UInt32 _EntryID_k__BackingField; // 0x20
 
 		::System::Void _ctor()

@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_RELICRECOMMENDSUITDATA_GETMATCHPERCENT_OFFSET UNITYSDK_OFFSET(0xDE3A600)
-#define RPG_CLIENT_RELICRECOMMENDSUITDATA_ISMATCH_OFFSET UNITYSDK_OFFSET(0xDE3A100)
-#define RPG_CLIENT_RELICRECOMMENDSUITDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xDE39270)
+#define RPG_CLIENT_RELICRECOMMENDSUITDATA_GETMATCHPERCENT_OFFSET UNITYSDK_OFFSET(0xDE88C40)
+#define RPG_CLIENT_RELICRECOMMENDSUITDATA_ISMATCH_OFFSET UNITYSDK_OFFSET(0xDE88740)
+#define RPG_CLIENT_RELICRECOMMENDSUITDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xDE87A10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RelicRecommendSuitData_TypeDefinitionIndex = 66814;
+	inline static constexpr unsigned int RelicRecommendSuitData_TypeDefinitionIndex = 66816;
 
 	class RelicRecommendSuitData : public ::System::Object
 	{
 	public:
-		::System::UInt32 SetID1; // 0x10
-		::System::UInt32 Percent; // 0x14
-		::System::UInt32 SetID2; // 0x18
+		::System::UInt32 SetID2; // 0x10
+		::System::UInt32 SetID1; // 0x14
+		::System::UInt32 Percent; // 0x18
 
 		::System::Void _ctor()
 		{

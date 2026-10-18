@@ -1,7 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-class Class_0_16E4307DCC419505_1368;
+class Class_0_16E4307DCC419505_1571;
+namespace RPG::Client { class BattleBuffListViewData; }
 namespace RPG::Client { class BattleViewModeLightInitData; }
 namespace RPG::Client::FateRin::Battle { class IFateRinBattleAvatarInfoViewModel; }
 namespace RPG::Client::FateRin::Battle { class IFateRinBattleTeamInfoUltraSkillItemViewModel; }
@@ -11,7 +12,7 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 
 namespace RPG::Client::FateRin::Battle
 {
-	inline static constexpr unsigned int IFateRinBattleTeamInfoFriendTeamViewModel_TypeDefinitionIndex = 79649;
+	inline static constexpr unsigned int IFateRinBattleTeamInfoFriendTeamViewModel_TypeDefinitionIndex = 80973;
 
 	class IFateRinBattleTeamInfoFriendTeamViewModel
 	{

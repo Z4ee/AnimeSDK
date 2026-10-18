@@ -4,12 +4,12 @@
 
 namespace UnityEngine::ProBuilder::Poly2Tri { class TriangulationPoint; }
 
-#define UNITYENGINE_PROBUILDER_POLY2TRI_DTSWEEPPOINTCOMPARATOR_COMPARE_OFFSET UNITYSDK_OFFSET(0x1EAC8050)
-#define UNITYENGINE_PROBUILDER_POLY2TRI_DTSWEEPPOINTCOMPARATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1EAC7510)
+#define UNITYENGINE_PROBUILDER_POLY2TRI_DTSWEEPPOINTCOMPARATOR_COMPARE_OFFSET UNITYSDK_OFFSET(0x1F18F8B0)
+#define UNITYENGINE_PROBUILDER_POLY2TRI_DTSWEEPPOINTCOMPARATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1F18ED70)
 
 namespace UnityEngine::ProBuilder::Poly2Tri
 {
-	inline static constexpr unsigned int DTSweepPointComparator_TypeDefinitionIndex = 37449;
+	inline static constexpr unsigned int DTSweepPointComparator_TypeDefinitionIndex = 38746;
 
 	class DTSweepPointComparator : public ::System::Object
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int Rtcb_BreakActionOption_TypeDefinitionIndex = 54164;
+	inline static constexpr unsigned int Rtcb_BreakActionOption_TypeDefinitionIndex = 53950;
 
 	enum class Rtcb_BreakActionOption : ::System::Int32
 	{

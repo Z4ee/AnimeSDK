@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetPropCablelineVisible; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_BB714894E9FA92DA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBB1AD60)
-#define CLASS_3_BB714894E9FA92DA__CTOR_OFFSET UNITYSDK_OFFSET(0xBB1AD30)
+#define CLASS_3_BB714894E9FA92DA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB9A0970)
+#define CLASS_3_BB714894E9FA92DA__CTOR_OFFSET UNITYSDK_OFFSET(0xB9A0940)
 
-inline static constexpr unsigned int Class_3_BB714894E9FA92DA_TypeDefinitionIndex = 58716;
+inline static constexpr unsigned int Class_3_BB714894E9FA92DA_TypeDefinitionIndex = 58568;
 
 class Class_3_BB714894E9FA92DA : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetPropCablelineVisible*>
 {

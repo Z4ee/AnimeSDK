@@ -5,20 +5,20 @@
 namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MESSAGEPACK_IMMUTABLECOLLECTION_IMMUTABLECOLLECTIONGETFORMATTERHELPER_CREATEINSTANCE_OFFSET UNITYSDK_OFFSET(0x1B683AA0)
-#define MESSAGEPACK_IMMUTABLECOLLECTION_IMMUTABLECOLLECTIONGETFORMATTERHELPER_GETFORMATTER_OFFSET UNITYSDK_OFFSET(0x1B6833C0)
-#define MESSAGEPACK_IMMUTABLECOLLECTION_IMMUTABLECOLLECTIONGETFORMATTERHELPER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B683B60)
+#define MESSAGEPACK_IMMUTABLECOLLECTION_IMMUTABLECOLLECTIONGETFORMATTERHELPER_CREATEINSTANCE_OFFSET UNITYSDK_OFFSET(0x1BB82390)
+#define MESSAGEPACK_IMMUTABLECOLLECTION_IMMUTABLECOLLECTIONGETFORMATTERHELPER_GETFORMATTER_OFFSET UNITYSDK_OFFSET(0x1BB81CB0)
+#define MESSAGEPACK_IMMUTABLECOLLECTION_IMMUTABLECOLLECTIONGETFORMATTERHELPER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BB82450)
 
 namespace MessagePack::ImmutableCollection
 {
-	inline static constexpr unsigned int ImmutableCollectionGetFormatterHelper_TypeDefinitionIndex = 7316;
+	inline static constexpr unsigned int ImmutableCollectionGetFormatterHelper_TypeDefinitionIndex = 7370;
 
 	class ImmutableCollectionGetFormatterHelper : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Type*>** StaticGet_FormatterMap()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(ImmutableCollectionGetFormatterHelper_TypeDefinitionIndex)->GetStaticField(0x2AC70);
+			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(ImmutableCollectionGetFormatterHelper_TypeDefinitionIndex)->GetStaticField(0x256E0);
 		}
 
 		static ::System::Void _cctor()

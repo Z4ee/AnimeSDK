@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int CRPPassGlobalMutationStats_TypeDefinitionIndex = 4828;
+	inline static constexpr unsigned int CRPPassGlobalMutationStats_TypeDefinitionIndex = 4834;
 
 	struct alignas(8) CRPPassGlobalMutationStats
 	{

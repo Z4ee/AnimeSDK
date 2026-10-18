@@ -12,13 +12,13 @@ namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class TaskConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ST_MAIN_FOLLOWTARGET_METHOD_4_264316AD54C25836_OFFSET UNITYSDK_OFFSET(0x1D4CAD60)
-#define RPG_GAMECORE_ST_MAIN_FOLLOWTARGET_METHOD_4_F9500BFFD2643CF7_OFFSET UNITYSDK_OFFSET(0x1D4CAE50)
-#define RPG_GAMECORE_ST_MAIN_FOLLOWTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x1D4CADF0)
+#define RPG_GAMECORE_ST_MAIN_FOLLOWTARGET_METHOD_4_264316AD54C25836_OFFSET UNITYSDK_OFFSET(0x1DA7E170)
+#define RPG_GAMECORE_ST_MAIN_FOLLOWTARGET_METHOD_4_F9500BFFD2643CF7_OFFSET UNITYSDK_OFFSET(0x1DA7E260)
+#define RPG_GAMECORE_ST_MAIN_FOLLOWTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x1DA7E200)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ST_Main_FollowTarget_TypeDefinitionIndex = 19888;
+	inline static constexpr unsigned int ST_Main_FollowTarget_TypeDefinitionIndex = 20122;
 
 	class ST_Main_FollowTarget : public ::RPG::GameCore::STTaskConfig
 	{
@@ -57,12 +57,13 @@ namespace RPG::GameCore
 		::System::Boolean NeedFaceToTarget; // 0xAC
 		::System::Single FaceToTargetInternal; // 0xB0
 		::System::Single FaceToTargetAngle; // 0xB4
-		::System::String* TeleportOnEnter; // 0xB8
-		::Class_2_76DDC609445F4559* PacManFollowConfig; // 0xC0
-		::System::Boolean NeedAvoid; // 0xC8
-		::System::Single StartAvoidDistance; // 0xCC
-		::System::Single StartAvoidTime; // 0xD0
-		::System::Boolean NoTeleportInCamera; // 0xD4
+		::System::Boolean EnableFollowSpeedRootMotionCompensation; // 0xB8
+		::System::String* TeleportOnEnter; // 0xC0
+		::Class_2_76DDC609445F4559* PacManFollowConfig; // 0xC8
+		::System::Boolean NeedAvoid; // 0xD0
+		::System::Single StartAvoidDistance; // 0xD4
+		::System::Single StartAvoidTime; // 0xD8
+		::System::Boolean NoTeleportInCamera; // 0xDC
 
 		::System::Void _ctor()
 		{

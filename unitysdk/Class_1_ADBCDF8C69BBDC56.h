@@ -7,29 +7,29 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_ADBCDF8C69BBDC56_METHOD_1_117B70991A90B88B_OFFSET UNITYSDK_OFFSET(0xC3A3F40)
-#define CLASS_1_ADBCDF8C69BBDC56_METHOD_1_3FEBBD86EF758E69_OFFSET UNITYSDK_OFFSET(0xC3A3840)
-#define CLASS_1_ADBCDF8C69BBDC56_METHOD_1_9BB09EEEE1B88AF8_OFFSET UNITYSDK_OFFSET(0xC3A4030)
-#define CLASS_1_ADBCDF8C69BBDC56_METHOD_1_C3E5185F0BD877E7_OFFSET UNITYSDK_OFFSET(0xC3A3750)
-#define CLASS_1_ADBCDF8C69BBDC56__CCTOR_OFFSET UNITYSDK_OFFSET(0xC3A41E0)
-#define CLASS_1_ADBCDF8C69BBDC56__CTOR_OFFSET UNITYSDK_OFFSET(0xC3A40F0)
+#define CLASS_1_ADBCDF8C69BBDC56_METHOD_1_117B70991A90B88B_OFFSET UNITYSDK_OFFSET(0xC2A0B90)
+#define CLASS_1_ADBCDF8C69BBDC56_METHOD_1_3FEBBD86EF758E69_OFFSET UNITYSDK_OFFSET(0xC2A0490)
+#define CLASS_1_ADBCDF8C69BBDC56_METHOD_1_9BB09EEEE1B88AF8_OFFSET UNITYSDK_OFFSET(0xC2A0C80)
+#define CLASS_1_ADBCDF8C69BBDC56_METHOD_1_C3E5185F0BD877E7_OFFSET UNITYSDK_OFFSET(0xC2A03A0)
+#define CLASS_1_ADBCDF8C69BBDC56__CCTOR_OFFSET UNITYSDK_OFFSET(0xC2A0E30)
+#define CLASS_1_ADBCDF8C69BBDC56__CTOR_OFFSET UNITYSDK_OFFSET(0xC2A0D40)
 
-inline static constexpr unsigned int Class_1_ADBCDF8C69BBDC56_TypeDefinitionIndex = 60423;
+inline static constexpr unsigned int Class_1_ADBCDF8C69BBDC56_TypeDefinitionIndex = 60311;
 
 class Class_1_ADBCDF8C69BBDC56 : public ::System::Object
 {
 public:
-	static ::System::String** StaticGet_KCLDOCJPEPO()
-	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_ADBCDF8C69BBDC56_TypeDefinitionIndex)->GetStaticField(0x541B0);
-	}
 	static ::System::String** StaticGet_PFIJGEHPIAJ()
 	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_ADBCDF8C69BBDC56_TypeDefinitionIndex)->GetStaticField(0x541B8);
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_ADBCDF8C69BBDC56_TypeDefinitionIndex)->GetStaticField(0x6FB50);
 	}
 	static ::System::String** StaticGet_FIFCEJBOKPJ()
 	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_ADBCDF8C69BBDC56_TypeDefinitionIndex)->GetStaticField(0x541C0);
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_ADBCDF8C69BBDC56_TypeDefinitionIndex)->GetStaticField(0x6FB58);
+	}
+	static ::System::String** StaticGet_KCLDOCJPEPO()
+	{
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_ADBCDF8C69BBDC56_TypeDefinitionIndex)->GetStaticField(0x6FB60);
 	}
 	::Il2CppArray<::System::String*>* PGPEMCHEHKD; // 0x10
 	::Il2CppArray<::System::String*>* JGDHIBFCACK; // 0x18

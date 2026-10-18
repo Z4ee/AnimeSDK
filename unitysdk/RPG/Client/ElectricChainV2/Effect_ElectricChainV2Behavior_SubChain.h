@@ -12,11 +12,11 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class LineRenderer; }
 
-#define RPG_CLIENT_ELECTRICCHAINV2_EFFECT_ELECTRICCHAINV2BEHAVIOR_SUBCHAIN__CTOR_OFFSET UNITYSDK_OFFSET(0xCE30020)
+#define RPG_CLIENT_ELECTRICCHAINV2_EFFECT_ELECTRICCHAINV2BEHAVIOR_SUBCHAIN__CTOR_OFFSET UNITYSDK_OFFSET(0xCD808F0)
 
 namespace RPG::Client::ElectricChainV2
 {
-	inline static constexpr unsigned int Effect_ElectricChainV2Behavior_SubChain_TypeDefinitionIndex = 73478;
+	inline static constexpr unsigned int Effect_ElectricChainV2Behavior_SubChain_TypeDefinitionIndex = 73585;
 
 	class Effect_ElectricChainV2Behavior_SubChain : public ::System::Object
 	{

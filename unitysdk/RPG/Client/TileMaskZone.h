@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define RPG_CLIENT_TILEMASKZONE_METHOD_1_C3FCFEB83374757C_OFFSET UNITYSDK_OFFSET(0xE1E3A70)
-#define RPG_CLIENT_TILEMASKZONE__CTOR_OFFSET UNITYSDK_OFFSET(0xE1E3B70)
+#define RPG_CLIENT_TILEMASKZONE_METHOD_1_C3FCFEB83374757C_OFFSET UNITYSDK_OFFSET(0xE226B10)
+#define RPG_CLIENT_TILEMASKZONE__CTOR_OFFSET UNITYSDK_OFFSET(0xE226C10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TileMaskZone_TypeDefinitionIndex = 70894;
+	inline static constexpr unsigned int TileMaskZone_TypeDefinitionIndex = 70927;
 
 	class TileMaskZone : public ::System::Object
 	{

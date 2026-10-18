@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SkillCharacterComponent_SkillMappingByKeyEntry_TypeDefinitionIndex = 55075;
+	inline static constexpr unsigned int SkillCharacterComponent_SkillMappingByKeyEntry_TypeDefinitionIndex = 54865;
 
 	struct alignas(8) SkillCharacterComponent_SkillMappingByKeyEntry
 	{

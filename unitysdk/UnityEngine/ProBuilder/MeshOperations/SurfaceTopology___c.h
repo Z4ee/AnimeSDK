@@ -8,29 +8,29 @@ namespace UnityEngine::ProBuilder { class Face; }
 namespace UnityEngine::ProBuilder { class FaceRebuildData; }
 namespace UnityEngine::ProBuilder { class Vertex; }
 
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_SURFACETOPOLOGY___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EB72A70)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_SURFACETOPOLOGY___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1EB72AB0)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_SURFACETOPOLOGY___C__GETWINDINGORDER_B__3_0_OFFSET UNITYSDK_OFFSET(0x1EB72AE0)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_SURFACETOPOLOGY___C__TOTRIANGLES_B__0_0_OFFSET UNITYSDK_OFFSET(0x1EB72AC0)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_SURFACETOPOLOGY___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F23A150)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_SURFACETOPOLOGY___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1F23A190)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_SURFACETOPOLOGY___C__GETWINDINGORDER_B__3_0_OFFSET UNITYSDK_OFFSET(0x1F23A1C0)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_SURFACETOPOLOGY___C__TOTRIANGLES_B__0_0_OFFSET UNITYSDK_OFFSET(0x1F23A1A0)
 
 namespace UnityEngine::ProBuilder::MeshOperations
 {
-	inline static constexpr unsigned int SurfaceTopology___c_TypeDefinitionIndex = 43323;
+	inline static constexpr unsigned int SurfaceTopology___c_TypeDefinitionIndex = 44515;
 
 	class SurfaceTopology___c : public ::System::Object
 	{
 	public:
+		static ::UnityEngine::ProBuilder::MeshOperations::SurfaceTopology___c** StaticGet___9()
+		{
+			return (::UnityEngine::ProBuilder::MeshOperations::SurfaceTopology___c**)Il2CppClass::FromTypeDefinitionIndex(SurfaceTopology___c_TypeDefinitionIndex)->GetStaticField(0x54A40);
+		}
 		static ::System::Func_2<::UnityEngine::ProBuilder::Vertex*, ::UnityEngine::Vector3>** StaticGet___9__3_0()
 		{
-			return (::System::Func_2<::UnityEngine::ProBuilder::Vertex*, ::UnityEngine::Vector3>**)Il2CppClass::FromTypeDefinitionIndex(SurfaceTopology___c_TypeDefinitionIndex)->GetStaticField(0x5E510);
+			return (::System::Func_2<::UnityEngine::ProBuilder::Vertex*, ::UnityEngine::Vector3>**)Il2CppClass::FromTypeDefinitionIndex(SurfaceTopology___c_TypeDefinitionIndex)->GetStaticField(0x54A48);
 		}
 		static ::System::Func_2<::UnityEngine::ProBuilder::FaceRebuildData*, ::UnityEngine::ProBuilder::Face*>** StaticGet___9__0_0()
 		{
-			return (::System::Func_2<::UnityEngine::ProBuilder::FaceRebuildData*, ::UnityEngine::ProBuilder::Face*>**)Il2CppClass::FromTypeDefinitionIndex(SurfaceTopology___c_TypeDefinitionIndex)->GetStaticField(0x5E518);
-		}
-		static ::UnityEngine::ProBuilder::MeshOperations::SurfaceTopology___c** StaticGet___9()
-		{
-			return (::UnityEngine::ProBuilder::MeshOperations::SurfaceTopology___c**)Il2CppClass::FromTypeDefinitionIndex(SurfaceTopology___c_TypeDefinitionIndex)->GetStaticField(0x5E520);
+			return (::System::Func_2<::UnityEngine::ProBuilder::FaceRebuildData*, ::UnityEngine::ProBuilder::Face*>**)Il2CppClass::FromTypeDefinitionIndex(SurfaceTopology___c_TypeDefinitionIndex)->GetStaticField(0x54A50);
 		}
 
 		static ::System::Void _cctor()

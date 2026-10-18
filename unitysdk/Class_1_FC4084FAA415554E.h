@@ -6,23 +6,23 @@
 namespace RPG::Client::FateRin::Battle { class FateRinBattleHudHandCardViewModel; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_FC4084FAA415554E_COMPARE_OFFSET UNITYSDK_OFFSET(0x159F4B60)
-#define CLASS_1_FC4084FAA415554E_METHOD_1_2EDA16D440BF0346_OFFSET UNITYSDK_OFFSET(0x159F51E0)
-#define CLASS_1_FC4084FAA415554E__CCTOR_OFFSET UNITYSDK_OFFSET(0x159F53F0)
-#define CLASS_1_FC4084FAA415554E__CTOR_OFFSET UNITYSDK_OFFSET(0x159F53E0)
+#define CLASS_1_FC4084FAA415554E_COMPARE_OFFSET UNITYSDK_OFFSET(0x15D016C0)
+#define CLASS_1_FC4084FAA415554E_METHOD_1_2EDA16D440BF0346_OFFSET UNITYSDK_OFFSET(0x15D01D40)
+#define CLASS_1_FC4084FAA415554E__CCTOR_OFFSET UNITYSDK_OFFSET(0x15D01F50)
+#define CLASS_1_FC4084FAA415554E__CTOR_OFFSET UNITYSDK_OFFSET(0x15D01F40)
 
-inline static constexpr unsigned int Class_1_FC4084FAA415554E_TypeDefinitionIndex = 79665;
+inline static constexpr unsigned int Class_1_FC4084FAA415554E_TypeDefinitionIndex = 80989;
 
 class Class_1_FC4084FAA415554E : public ::System::Object
 {
 public:
 	static ::Class_1_FC4084FAA415554E** StaticGet_FMJPMFEDIJL()
 	{
-		return (::Class_1_FC4084FAA415554E**)Il2CppClass::FromTypeDefinitionIndex(Class_1_FC4084FAA415554E_TypeDefinitionIndex)->GetStaticField(0x55620);
+		return (::Class_1_FC4084FAA415554E**)Il2CppClass::FromTypeDefinitionIndex(Class_1_FC4084FAA415554E_TypeDefinitionIndex)->GetStaticField(0x1CDF0);
 	}
 	static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::FateRinCardCasterSource, ::System::Int32>** StaticGet_HCIBEFAHKCO()
 	{
-		return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::FateRinCardCasterSource, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_FC4084FAA415554E_TypeDefinitionIndex)->GetStaticField(0x55628);
+		return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::FateRinCardCasterSource, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_FC4084FAA415554E_TypeDefinitionIndex)->GetStaticField(0x1CDF8);
 	}
 	// static const ::System::UInt32 CJOPNPHOMMM = 0x7DE; // 0x0
 

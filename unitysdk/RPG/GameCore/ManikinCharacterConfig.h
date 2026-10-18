@@ -9,12 +9,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_MANIKINCHARACTERCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D21E880)
-#define RPG_GAMECORE_MANIKINCHARACTERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D21EE20)
+#define RPG_GAMECORE_MANIKINCHARACTERCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D7FF4F0)
+#define RPG_GAMECORE_MANIKINCHARACTERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7FFBD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ManikinCharacterConfig_TypeDefinitionIndex = 17276;
+	inline static constexpr unsigned int ManikinCharacterConfig_TypeDefinitionIndex = 17472;
 
 	class ManikinCharacterConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -30,11 +30,13 @@ namespace RPG::GameCore
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::MVector3>* RotationsByIndex; // 0x48
 		::RPG::MVector3 EidolonPosition; // 0x50
 		::RPG::GameCore::AdventureCharacterMouthTalkType MouthTalkType; // 0x5C
-		::System::String* ResidentEffectKey; // 0x60
+		::Il2CppArray<::System::String*>* ResidentEffectKey; // 0x60
 		::System::String* ResidentPossessionKey; // 0x68
 		::System::String* CharacterReplaceMaterialConfigPath; // 0x70
-		::System::String* DressVCameraPath; // 0x78
-		::System::UInt32 DressVCameraBlendID; // 0x80
+		::Il2CppArray<::System::String*>* ReplaceMaterialKeyList; // 0x78
+		::Il2CppArray<::System::String*>* ReplaceMaterialVariantKeyList; // 0x80
+		::System::String* DressVCameraPath; // 0x88
+		::System::UInt32 DressVCameraBlendID; // 0x90
 
 		::System::Void _ctor()
 		{

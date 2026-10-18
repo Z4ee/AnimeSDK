@@ -8,13 +8,13 @@ namespace RPG::Client { class TerrainVolumeBehavior; }
 namespace System { class String; }
 namespace UnityEngine { class Texture2D; }
 
-#define RPG_CLIENT_TERRAINVOLUMEMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xE1C79D0)
-#define RPG_CLIENT_TERRAINVOLUMEMONOPLUGIN_SETHEIGHTBLEND_OFFSET UNITYSDK_OFFSET(0xE1C7850)
-#define RPG_CLIENT_TERRAINVOLUMEMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xE1C7A20)
+#define RPG_CLIENT_TERRAINVOLUMEMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xE20A950)
+#define RPG_CLIENT_TERRAINVOLUMEMONOPLUGIN_SETHEIGHTBLEND_OFFSET UNITYSDK_OFFSET(0xE20A7D0)
+#define RPG_CLIENT_TERRAINVOLUMEMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xE20A9A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TerrainVolumeMonoPlugin_TypeDefinitionIndex = 71003;
+	inline static constexpr unsigned int TerrainVolumeMonoPlugin_TypeDefinitionIndex = 71035;
 
 	class TerrainVolumeMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::TerrainVolumeBehavior*>
 	{

@@ -5,24 +5,24 @@
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_GLOBALDISPATCHDATA_SERVERDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD117D90)
-#define RPG_CLIENT_GLOBALDISPATCHDATA_SERVERDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD117DC0)
-#define RPG_CLIENT_GLOBALDISPATCHDATA_SERVERDATA___C__SETDISPATCHURLS_B__2_0_OFFSET UNITYSDK_OFFSET(0xD117DD0)
+#define RPG_CLIENT_GLOBALDISPATCHDATA_SERVERDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD0B8180)
+#define RPG_CLIENT_GLOBALDISPATCHDATA_SERVERDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD0B81B0)
+#define RPG_CLIENT_GLOBALDISPATCHDATA_SERVERDATA___C__SETDISPATCHURLS_B__2_0_OFFSET UNITYSDK_OFFSET(0xD0B81C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GlobalDispatchData_ServerData___c_TypeDefinitionIndex = 69353;
+	inline static constexpr unsigned int GlobalDispatchData_ServerData___c_TypeDefinitionIndex = 69389;
 
 	class GlobalDispatchData_ServerData___c : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::GlobalDispatchData_ServerData___c** StaticGet___9()
 		{
-			return (::RPG::Client::GlobalDispatchData_ServerData___c**)Il2CppClass::FromTypeDefinitionIndex(GlobalDispatchData_ServerData___c_TypeDefinitionIndex)->GetStaticField(0x1D9A0);
+			return (::RPG::Client::GlobalDispatchData_ServerData___c**)Il2CppClass::FromTypeDefinitionIndex(GlobalDispatchData_ServerData___c_TypeDefinitionIndex)->GetStaticField(0x61060);
 		}
 		static ::System::Func_2<::System::String*, ::System::Boolean>** StaticGet___9__2_0()
 		{
-			return (::System::Func_2<::System::String*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(GlobalDispatchData_ServerData___c_TypeDefinitionIndex)->GetStaticField(0x1D9A8);
+			return (::System::Func_2<::System::String*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(GlobalDispatchData_ServerData___c_TypeDefinitionIndex)->GetStaticField(0x61068);
 		}
 
 		static ::System::Void _cctor()

@@ -4,18 +4,24 @@
 
 namespace System { class String; }
 
-#define CLASS_1_945ACFB1FEBC7A2C_24__CTOR_OFFSET UNITYSDK_OFFSET(0x15CEBA90)
+#define CLASS_1_945ACFB1FEBC7A2C_24_TOSTRING_OFFSET UNITYSDK_OFFSET(0xBD2F2D0)
+#define CLASS_1_945ACFB1FEBC7A2C_24__CTOR_OFFSET UNITYSDK_OFFSET(0xBD2F350)
 
-inline static constexpr unsigned int Class_1_945ACFB1FEBC7A2C_24_TypeDefinitionIndex = 56626;
+inline static constexpr unsigned int Class_1_945ACFB1FEBC7A2C_24_TypeDefinitionIndex = 59624;
 
 class Class_1_945ACFB1FEBC7A2C_24 : public ::System::Object
 {
 public:
-	::System::String* KBEPAIAFLHL; // 0x10
-	::System::String* IPKCFNKIDMB; // 0x18
+	::System::String* AOPFJFGGHOL; // 0x10
+	::System::String* EGFJKADNLPO; // 0x18
 
 	::System::Void _ctor()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_945ACFB1FEBC7A2C_24__CTOR_OFFSET))(this);
+	}
+
+	::System::String* ToString()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_945ACFB1FEBC7A2C_24_TOSTRING_OFFSET))(this);
 	}
 };

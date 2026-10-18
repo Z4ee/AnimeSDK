@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define IRICLUSTERBUILDER_IRI2TYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x161B4010)
+#define IRICLUSTERBUILDER_IRI2TYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1652C360)
 
 namespace IRIClusterBuilder
 {
-	inline static constexpr unsigned int IRI2Type_TypeDefinitionIndex = 48198;
+	inline static constexpr unsigned int IRI2Type_TypeDefinitionIndex = 47739;
 
 	class IRI2Type : public ::UnityEngine::MonoBehaviour
 	{

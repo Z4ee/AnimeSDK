@@ -4,12 +4,12 @@
 
 namespace Cinemachine { class CinemachineBrain; }
 
-#define RPG_CLIENT_ELFGAME___C__DISPLAYCLASS43_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCE503B0)
-#define RPG_CLIENT_ELFGAME___C__DISPLAYCLASS43_0___TRYAPPLYBLEND_B__0_OFFSET UNITYSDK_OFFSET(0xCE524A0)
+#define RPG_CLIENT_ELFGAME___C__DISPLAYCLASS43_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCDA0A20)
+#define RPG_CLIENT_ELFGAME___C__DISPLAYCLASS43_0___TRYAPPLYBLEND_B__0_OFFSET UNITYSDK_OFFSET(0xCDA2A80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ElfGame___c__DisplayClass43_0_TypeDefinitionIndex = 63757;
+	inline static constexpr unsigned int ElfGame___c__DisplayClass43_0_TypeDefinitionIndex = 63695;
 
 	class ElfGame___c__DisplayClass43_0 : public ::System::Object
 	{

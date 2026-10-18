@@ -8,12 +8,12 @@ namespace RPG::GameCore { class SubLevelGraphDynamicFloatOverride; }
 namespace RPG::GameCore { class SubLevelGraphDynamicStringOverride; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SUMMONUNITGAMEPLAYCONFIG_METHOD_2_524973B3A2395B86_OFFSET UNITYSDK_OFFSET(0x1D587020)
-#define RPG_GAMECORE_SUMMONUNITGAMEPLAYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D587360)
+#define RPG_GAMECORE_SUMMONUNITGAMEPLAYCONFIG_METHOD_2_524973B3A2395B86_OFFSET UNITYSDK_OFFSET(0x1DB3DC80)
+#define RPG_GAMECORE_SUMMONUNITGAMEPLAYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB3DFC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SummonUnitGameplayConfig_TypeDefinitionIndex = 17396;
+	inline static constexpr unsigned int SummonUnitGameplayConfig_TypeDefinitionIndex = 17608;
 
 	class SummonUnitGameplayConfig : public ::RPG::GameCore::JsonConfig
 	{

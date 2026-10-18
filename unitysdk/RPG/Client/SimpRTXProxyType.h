@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SimpRTXProxyType_TypeDefinitionIndex = 70155;
+	inline static constexpr unsigned int SimpRTXProxyType_TypeDefinitionIndex = 70191;
 
 	enum class SimpRTXProxyType : ::System::Int32
 	{

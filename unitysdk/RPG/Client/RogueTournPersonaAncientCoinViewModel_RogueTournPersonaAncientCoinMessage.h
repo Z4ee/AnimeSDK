@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournPersonaAncientCoinViewModel_RogueTournPersonaAncientCoinMessage_TypeDefinitionIndex = 72797;
+	inline static constexpr unsigned int RogueTournPersonaAncientCoinViewModel_RogueTournPersonaAncientCoinMessage_TypeDefinitionIndex = 72880;
 
 	enum class RogueTournPersonaAncientCoinViewModel_RogueTournPersonaAncientCoinMessage : ::System::Int32
 	{

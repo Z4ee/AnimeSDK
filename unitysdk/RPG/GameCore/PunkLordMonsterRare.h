@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PunkLordMonsterRare_TypeDefinitionIndex = 12203;
+	inline static constexpr unsigned int PunkLordMonsterRare_TypeDefinitionIndex = 12284;
 
 	enum class PunkLordMonsterRare : ::System::Int32
 	{

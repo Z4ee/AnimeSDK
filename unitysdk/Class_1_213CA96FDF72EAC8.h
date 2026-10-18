@@ -7,7 +7,7 @@ namespace R3 { template <typename T> class ReactiveProperty_1; }
 namespace RPG::Client { class TabView; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-inline static constexpr unsigned int Class_1_213CA96FDF72EAC8_TypeDefinitionIndex = 50189;
+inline static constexpr unsigned int Class_1_213CA96FDF72EAC8_TypeDefinitionIndex = 49812;
 
 template <typename TViewModel>
 class Class_1_213CA96FDF72EAC8 : public ::System::Object

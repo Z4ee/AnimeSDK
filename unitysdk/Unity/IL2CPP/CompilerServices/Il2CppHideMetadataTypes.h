@@ -3,7 +3,7 @@
 
 namespace Unity::IL2CPP::CompilerServices
 {
-	inline static constexpr unsigned int Il2CppHideMetadataTypes_TypeDefinitionIndex = 3969;
+	inline static constexpr unsigned int Il2CppHideMetadataTypes_TypeDefinitionIndex = 3970;
 
 	enum class Il2CppHideMetadataTypes : ::System::Int32
 	{

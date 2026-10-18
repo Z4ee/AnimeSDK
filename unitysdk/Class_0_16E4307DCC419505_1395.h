@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/Pet/PetInstanceIdentifier.h"
 
-class Class_1_D40936EF3BF54118_4;
-namespace RPG::Client::Challenge::Tierce { class ChallengeTierceSessionStageResultBase; }
+namespace RPG::Client::Pet { class IPetInstance; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_1395_TypeDefinitionIndex = 80157;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_1395_TypeDefinitionIndex = 75650;
 
 class Class_0_16E4307DCC419505_1395
 {

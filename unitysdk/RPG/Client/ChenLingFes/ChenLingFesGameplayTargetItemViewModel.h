@@ -6,12 +6,12 @@ namespace RPG::Client::ChenLingFes { class ChenLingFesGameplayStarViewModel; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYTARGETITEMVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xCB5E920)
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYTARGETITEMVIEWMODEL__INITSTARVMS_OFFSET UNITYSDK_OFFSET(0xCB5EA40)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYTARGETITEMVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xCAAD6D0)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYTARGETITEMVIEWMODEL__INITSTARVMS_OFFSET UNITYSDK_OFFSET(0xCAAD7F0)
 
 namespace RPG::Client::ChenLingFes
 {
-	inline static constexpr unsigned int ChenLingFesGameplayTargetItemViewModel_TypeDefinitionIndex = 80062;
+	inline static constexpr unsigned int ChenLingFesGameplayTargetItemViewModel_TypeDefinitionIndex = 81390;
 
 	class ChenLingFesGameplayTargetItemViewModel : public ::Sofa::BaseViewModel
 	{
@@ -19,16 +19,16 @@ namespace RPG::Client::ChenLingFes
 		// static const ::System::Int32 MaxStarDisplayCount = 0x3; // 0x0
 		::System::Collections::Generic::List_1<::RPG::Client::ChenLingFes::ChenLingFesGameplayStarViewModel*>* StarVMs; // 0x20
 		::System::String* TitleStr; // 0x28
-		::System::Int32 Star; // 0x30
-		::System::Boolean IsEndlessMode; // 0x34
-		::System::Boolean IsShowGlobalTarget; // 0x35
-		::System::Boolean IsFinished; // 0x36
-		::System::Int32 DayCount; // 0x38
-		::System::Int32 WeekIndex; // 0x3C
+		::System::Boolean IsEndlessModeForBoss; // 0x30
+		::System::Int32 WeekIndex; // 0x34
+		::System::Boolean IsShowGlobalTarget; // 0x38
+		::System::Boolean IsEndlessMode; // 0x39
+		::System::Boolean IsFinished; // 0x3A
+		::System::Boolean IsCurWeek; // 0x3B
+		::System::Int32 DayCount; // 0x3C
 		::System::Int32 RequiredStarCount; // 0x40
-		::System::Int32 TargetScore; // 0x44
-		::System::Boolean IsEndlessModeForBoss; // 0x48
-		::System::Boolean IsCurWeek; // 0x49
+		::System::Int32 Star; // 0x44
+		::System::Int32 TargetScore; // 0x48
 
 		::System::Void _ctor(::System::Int32 a1, ::System::Boolean a2, ::System::Boolean a3, ::System::Boolean a4, ::System::Int32 a5, ::System::Int32 a6, ::System::Int32 a7, ::System::Int32 a8, ::System::Boolean a9, ::System::Boolean a10, ::System::String* a11)
 		{

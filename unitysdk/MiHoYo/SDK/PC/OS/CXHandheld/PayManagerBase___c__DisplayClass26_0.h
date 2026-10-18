@@ -6,12 +6,12 @@
 namespace MiHoYo::SDK::PC::OS::CXHandheld { class PayManagerBase; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_PAYMANAGERBASE___C__DISPLAYCLASS26_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA04930)
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_PAYMANAGERBASE___C__DISPLAYCLASS26_0__GETPRODUCTS_B__0_OFFSET UNITYSDK_OFFSET(0x1BA06940)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_PAYMANAGERBASE___C__DISPLAYCLASS26_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF07D60)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_PAYMANAGERBASE___C__DISPLAYCLASS26_0__GETPRODUCTS_B__0_OFFSET UNITYSDK_OFFSET(0x1BF09D50)
 
 namespace MiHoYo::SDK::PC::OS::CXHandheld
 {
-	inline static constexpr unsigned int PayManagerBase___c__DisplayClass26_0_TypeDefinitionIndex = 8704;
+	inline static constexpr unsigned int PayManagerBase___c__DisplayClass26_0_TypeDefinitionIndex = 8765;
 
 	class PayManagerBase___c__DisplayClass26_0 : public ::System::Object
 	{

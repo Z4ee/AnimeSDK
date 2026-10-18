@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/PropertyAttribute.h"
 
-#define CINEMACHINE_CINEMACHINEIMPULSECHANNELPROPERTYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x16467A70)
+#define CINEMACHINE_CINEMACHINEIMPULSECHANNELPROPERTYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1668E770)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineImpulseChannelPropertyAttribute_TypeDefinitionIndex = 38574;
+	inline static constexpr unsigned int CinemachineImpulseChannelPropertyAttribute_TypeDefinitionIndex = 39871;
 
 	class CinemachineImpulseChannelPropertyAttribute : public ::UnityEngine::PropertyAttribute
 	{

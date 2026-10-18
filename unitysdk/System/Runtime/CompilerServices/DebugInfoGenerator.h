@@ -4,7 +4,7 @@
 
 namespace System::Runtime::CompilerServices
 {
-	inline static constexpr unsigned int DebugInfoGenerator_TypeDefinitionIndex = 3667;
+	inline static constexpr unsigned int DebugInfoGenerator_TypeDefinitionIndex = 3668;
 
 	class DebugInfoGenerator : public ::System::Object
 	{

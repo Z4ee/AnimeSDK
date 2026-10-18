@@ -10,7 +10,7 @@ class Class_1_7AB88D713F5121B3_56;
 class Class_1_7AB88D713F5121B3_57;
 class Class_1_7AB88D713F5121B3_58;
 class Class_1_917011F650CA881D;
-class Class_1_945ACFB1FEBC7A2C_31;
+class Class_1_945ACFB1FEBC7A2C_30;
 class Class_1_AC6C63F15E9794D3;
 namespace RPG::AvatarSystem { class IAvatar; }
 namespace RPG::Client { class GetRogueTournBuildRefHistoryHttpRsp; }
@@ -22,124 +22,124 @@ namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Func_1; }
 
-#define RPG_CLIENT_ROGUETOURNMODULE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xDF7A290)
-#define RPG_CLIENT_ROGUETOURNMODULE___C__CTOR_OFFSET UNITYSDK_OFFSET(0xDF7A2C0)
-#define RPG_CLIENT_ROGUETOURNMODULE___C__GET_ISAUTOSHOWENTRANCEPAGEAFTERGOTOPROMISED_B__194_0_OFFSET UNITYSDK_OFFSET(0xDF7A8D0)
-#define RPG_CLIENT_ROGUETOURNMODULE___C__SENDGETROGUETOURNBUILDREFFAVORITEHTTPREQ_B__36_0_OFFSET UNITYSDK_OFFSET(0xDF7A440)
-#define RPG_CLIENT_ROGUETOURNMODULE___C__SENDGETROGUETOURNBUILDREFFAVORITEHTTPREQ_B__36_1_OFFSET UNITYSDK_OFFSET(0xDF7A470)
-#define RPG_CLIENT_ROGUETOURNMODULE___C__SENDGETROGUETOURNBUILDREFHISTORYHTTPREQ_B__41_0_OFFSET UNITYSDK_OFFSET(0xDF7A640)
-#define RPG_CLIENT_ROGUETOURNMODULE___C__SENDGETROGUETOURNBUILDREFHISTORYHTTPREQ_B__41_1_OFFSET UNITYSDK_OFFSET(0xDF7A670)
-#define RPG_CLIENT_ROGUETOURNMODULE___C__SENDGETROGUETOURNBUILDREFINTERACTDATAHTTPREQ_B__38_0_OFFSET UNITYSDK_OFFSET(0xDF7A4C0)
-#define RPG_CLIENT_ROGUETOURNMODULE___C__SENDGETROGUETOURNBUILDREFINTERACTDATAHTTPREQ_B__38_1_OFFSET UNITYSDK_OFFSET(0xDF7A4F0)
-#define RPG_CLIENT_ROGUETOURNMODULE___C__SENDSETROGUETOURNBUILDREFFAVORITEHTTPREQ_B__40_0_OFFSET UNITYSDK_OFFSET(0xDF7A5C0)
-#define RPG_CLIENT_ROGUETOURNMODULE___C__SENDSETROGUETOURNBUILDREFFAVORITEHTTPREQ_B__40_1_OFFSET UNITYSDK_OFFSET(0xDF7A5F0)
-#define RPG_CLIENT_ROGUETOURNMODULE___C__SENDSETROGUETOURNBUILDREFLIKEHTTPREQ_B__39_0_OFFSET UNITYSDK_OFFSET(0xDF7A540)
-#define RPG_CLIENT_ROGUETOURNMODULE___C__SENDSETROGUETOURNBUILDREFLIKEHTTPREQ_B__39_1_OFFSET UNITYSDK_OFFSET(0xDF7A570)
-#define RPG_CLIENT_ROGUETOURNMODULE___C__SETROGUETOURNREGULARMODECACHEDLINEUP_B__3_0_OFFSET UNITYSDK_OFFSET(0xDF7A2D0)
-#define RPG_CLIENT_ROGUETOURNMODULE___C__SETROGUETOURNWEEKCHALLENGEMODECACHEDLINEUP_B__4_0_OFFSET UNITYSDK_OFFSET(0xDF7A2E0)
-#define RPG_CLIENT_ROGUETOURNMODULE___C__SHOWCOLLECTIONEXHIBITIONPAGEFROMENTRANCEPROMISED_B__87_0_OFFSET UNITYSDK_OFFSET(0xDF7A6F0)
-#define RPG_CLIENT_ROGUETOURNMODULE___C___ONCMDENTERSCENEBYSERVERSCNOTIFY_B__110_0_OFFSET UNITYSDK_OFFSET(0xDF7A7D0)
-#define RPG_CLIENT_ROGUETOURNMODULE___C___ONGETROGUETOURNBUILDREFINTERACTDATAHTTPRSP_B__45_0_OFFSET UNITYSDK_OFFSET(0xDF7A6C0)
-#define RPG_CLIENT_ROGUETOURNMODULE___C___SENDGETROGUETOURNBUILDREFSTATICDATAAPIHTTPREQ_B__32_0_OFFSET UNITYSDK_OFFSET(0xDF7A340)
-#define RPG_CLIENT_ROGUETOURNMODULE___C___SENDGETROGUETOURNBUILDREFSTATICDATAAPIHTTPREQ_B__32_1_OFFSET UNITYSDK_OFFSET(0xDF7A370)
-#define RPG_CLIENT_ROGUETOURNMODULE___C___SENDGETROGUETOURNBUILDREFSTATICDATACDNHTTPREQ_B__31_0_OFFSET UNITYSDK_OFFSET(0xDF7A2F0)
-#define RPG_CLIENT_ROGUETOURNMODULE___C___SENDSETROGUETOURNBUILDREFAPPLIEDHTTPREQ_B__35_0_OFFSET UNITYSDK_OFFSET(0xDF7A3C0)
-#define RPG_CLIENT_ROGUETOURNMODULE___C___SENDSETROGUETOURNBUILDREFAPPLIEDHTTPREQ_B__35_1_OFFSET UNITYSDK_OFFSET(0xDF7A3F0)
+#define RPG_CLIENT_ROGUETOURNMODULE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xE0108C0)
+#define RPG_CLIENT_ROGUETOURNMODULE___C__CTOR_OFFSET UNITYSDK_OFFSET(0xE0108F0)
+#define RPG_CLIENT_ROGUETOURNMODULE___C__GET_ISAUTOSHOWENTRANCEPAGEAFTERGOTOPROMISED_B__194_0_OFFSET UNITYSDK_OFFSET(0xE010F00)
+#define RPG_CLIENT_ROGUETOURNMODULE___C__SENDGETROGUETOURNBUILDREFFAVORITEHTTPREQ_B__36_0_OFFSET UNITYSDK_OFFSET(0xE010A70)
+#define RPG_CLIENT_ROGUETOURNMODULE___C__SENDGETROGUETOURNBUILDREFFAVORITEHTTPREQ_B__36_1_OFFSET UNITYSDK_OFFSET(0xE010AA0)
+#define RPG_CLIENT_ROGUETOURNMODULE___C__SENDGETROGUETOURNBUILDREFHISTORYHTTPREQ_B__41_0_OFFSET UNITYSDK_OFFSET(0xE010C70)
+#define RPG_CLIENT_ROGUETOURNMODULE___C__SENDGETROGUETOURNBUILDREFHISTORYHTTPREQ_B__41_1_OFFSET UNITYSDK_OFFSET(0xE010CA0)
+#define RPG_CLIENT_ROGUETOURNMODULE___C__SENDGETROGUETOURNBUILDREFINTERACTDATAHTTPREQ_B__38_0_OFFSET UNITYSDK_OFFSET(0xE010AF0)
+#define RPG_CLIENT_ROGUETOURNMODULE___C__SENDGETROGUETOURNBUILDREFINTERACTDATAHTTPREQ_B__38_1_OFFSET UNITYSDK_OFFSET(0xE010B20)
+#define RPG_CLIENT_ROGUETOURNMODULE___C__SENDSETROGUETOURNBUILDREFFAVORITEHTTPREQ_B__40_0_OFFSET UNITYSDK_OFFSET(0xE010BF0)
+#define RPG_CLIENT_ROGUETOURNMODULE___C__SENDSETROGUETOURNBUILDREFFAVORITEHTTPREQ_B__40_1_OFFSET UNITYSDK_OFFSET(0xE010C20)
+#define RPG_CLIENT_ROGUETOURNMODULE___C__SENDSETROGUETOURNBUILDREFLIKEHTTPREQ_B__39_0_OFFSET UNITYSDK_OFFSET(0xE010B70)
+#define RPG_CLIENT_ROGUETOURNMODULE___C__SENDSETROGUETOURNBUILDREFLIKEHTTPREQ_B__39_1_OFFSET UNITYSDK_OFFSET(0xE010BA0)
+#define RPG_CLIENT_ROGUETOURNMODULE___C__SETROGUETOURNREGULARMODECACHEDLINEUP_B__3_0_OFFSET UNITYSDK_OFFSET(0xE010900)
+#define RPG_CLIENT_ROGUETOURNMODULE___C__SETROGUETOURNWEEKCHALLENGEMODECACHEDLINEUP_B__4_0_OFFSET UNITYSDK_OFFSET(0xE010910)
+#define RPG_CLIENT_ROGUETOURNMODULE___C__SHOWCOLLECTIONEXHIBITIONPAGEFROMENTRANCEPROMISED_B__87_0_OFFSET UNITYSDK_OFFSET(0xE010D20)
+#define RPG_CLIENT_ROGUETOURNMODULE___C___ONCMDENTERSCENEBYSERVERSCNOTIFY_B__110_0_OFFSET UNITYSDK_OFFSET(0xE010E00)
+#define RPG_CLIENT_ROGUETOURNMODULE___C___ONGETROGUETOURNBUILDREFINTERACTDATAHTTPRSP_B__45_0_OFFSET UNITYSDK_OFFSET(0xE010CF0)
+#define RPG_CLIENT_ROGUETOURNMODULE___C___SENDGETROGUETOURNBUILDREFSTATICDATAAPIHTTPREQ_B__32_0_OFFSET UNITYSDK_OFFSET(0xE010970)
+#define RPG_CLIENT_ROGUETOURNMODULE___C___SENDGETROGUETOURNBUILDREFSTATICDATAAPIHTTPREQ_B__32_1_OFFSET UNITYSDK_OFFSET(0xE0109A0)
+#define RPG_CLIENT_ROGUETOURNMODULE___C___SENDGETROGUETOURNBUILDREFSTATICDATACDNHTTPREQ_B__31_0_OFFSET UNITYSDK_OFFSET(0xE010920)
+#define RPG_CLIENT_ROGUETOURNMODULE___C___SENDSETROGUETOURNBUILDREFAPPLIEDHTTPREQ_B__35_0_OFFSET UNITYSDK_OFFSET(0xE0109F0)
+#define RPG_CLIENT_ROGUETOURNMODULE___C___SENDSETROGUETOURNBUILDREFAPPLIEDHTTPREQ_B__35_1_OFFSET UNITYSDK_OFFSET(0xE010A20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournModule___c_TypeDefinitionIndex = 67794;
+	inline static constexpr unsigned int RogueTournModule___c_TypeDefinitionIndex = 67796;
 
 	class RogueTournModule___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::Class_1_296A7AC90F028539*, ::Class_1_917011F650CA881D*>** StaticGet___9__31_0()
-		{
-			return (::System::Func_2<::Class_1_296A7AC90F028539*, ::Class_1_917011F650CA881D*>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournModule___c_TypeDefinitionIndex)->GetStaticField(0x13AC0);
-		}
-		static ::RPG::Client::RogueTournModule___c** StaticGet___9()
-		{
-			return (::RPG::Client::RogueTournModule___c**)Il2CppClass::FromTypeDefinitionIndex(RogueTournModule___c_TypeDefinitionIndex)->GetStaticField(0x13AC8);
-		}
-		static ::System::Func_2<::Class_1_AC6C63F15E9794D3*, ::RPG::Client::Promises::IPromise_1<::Class_1_296A7AC90F028539*>*>** StaticGet___9__41_0()
-		{
-			return (::System::Func_2<::Class_1_AC6C63F15E9794D3*, ::RPG::Client::Promises::IPromise_1<::Class_1_296A7AC90F028539*>*>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournModule___c_TypeDefinitionIndex)->GetStaticField(0x13AD0);
-		}
-		static ::System::Func_2<::Class_1_296A7AC90F028539*, ::RPG::Client::RPGHttpPlatformActResponse_1<::Class_1_945ACFB1FEBC7A2C_31*>*>** StaticGet___9__32_0()
-		{
-			return (::System::Func_2<::Class_1_296A7AC90F028539*, ::RPG::Client::RPGHttpPlatformActResponse_1<::Class_1_945ACFB1FEBC7A2C_31*>*>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournModule___c_TypeDefinitionIndex)->GetStaticField(0x13AD8);
-		}
-		static ::System::Func_2<::RPG::AvatarSystem::IAvatar*, ::System::UInt32>** StaticGet___9__3_0()
-		{
-			return (::System::Func_2<::RPG::AvatarSystem::IAvatar*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournModule___c_TypeDefinitionIndex)->GetStaticField(0x13AE0);
-		}
-		static ::System::Func_2<::System::String*, ::RPG::Client::MongoObjectId>** StaticGet___9__45_0()
-		{
-			return (::System::Func_2<::System::String*, ::RPG::Client::MongoObjectId>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournModule___c_TypeDefinitionIndex)->GetStaticField(0x13AE8);
-		}
-		static ::System::Func_2<::Class_1_AC6C63F15E9794D3*, ::RPG::Client::Promises::IPromise_1<::Class_1_296A7AC90F028539*>*>** StaticGet___9__39_0()
-		{
-			return (::System::Func_2<::Class_1_AC6C63F15E9794D3*, ::RPG::Client::Promises::IPromise_1<::Class_1_296A7AC90F028539*>*>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournModule___c_TypeDefinitionIndex)->GetStaticField(0x13AF0);
-		}
-		static ::System::Func_2<::Class_1_296A7AC90F028539*, ::RPG::Client::RPGHttpPlatformActResponse_1<::Class_1_7AB88D713F5121B3_58*>*>** StaticGet___9__40_1()
-		{
-			return (::System::Func_2<::Class_1_296A7AC90F028539*, ::RPG::Client::RPGHttpPlatformActResponse_1<::Class_1_7AB88D713F5121B3_58*>*>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournModule___c_TypeDefinitionIndex)->GetStaticField(0x13AF8);
-		}
 		static ::System::Func_1<::RPG::Client::Promises::IPromise_1<::RPG::Client::LuaUIController*>*>** StaticGet___9__87_0()
 		{
-			return (::System::Func_1<::RPG::Client::Promises::IPromise_1<::RPG::Client::LuaUIController*>*>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournModule___c_TypeDefinitionIndex)->GetStaticField(0x13B00);
+			return (::System::Func_1<::RPG::Client::Promises::IPromise_1<::RPG::Client::LuaUIController*>*>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournModule___c_TypeDefinitionIndex)->GetStaticField(0x6D320);
 		}
-		static ::System::Func_2<::Class_1_296A7AC90F028539*, ::RPG::Client::RPGHttpPlatformActResponse_1<::Class_1_7AB88D713F5121B3_56*>*>** StaticGet___9__35_1()
+		static ::System::Func_2<::RPG::Client::RPGHttpPlatformActResponse_1<::Class_1_945ACFB1FEBC7A2C_30*>*, ::Class_1_917011F650CA881D*>** StaticGet___9__32_1()
 		{
-			return (::System::Func_2<::Class_1_296A7AC90F028539*, ::RPG::Client::RPGHttpPlatformActResponse_1<::Class_1_7AB88D713F5121B3_56*>*>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournModule___c_TypeDefinitionIndex)->GetStaticField(0x13B08);
+			return (::System::Func_2<::RPG::Client::RPGHttpPlatformActResponse_1<::Class_1_945ACFB1FEBC7A2C_30*>*, ::Class_1_917011F650CA881D*>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournModule___c_TypeDefinitionIndex)->GetStaticField(0x6D328);
 		}
 		static ::System::Func_2<::Class_1_AC6C63F15E9794D3*, ::RPG::Client::Promises::IPromise_1<::Class_1_296A7AC90F028539*>*>** StaticGet___9__36_0()
 		{
-			return (::System::Func_2<::Class_1_AC6C63F15E9794D3*, ::RPG::Client::Promises::IPromise_1<::Class_1_296A7AC90F028539*>*>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournModule___c_TypeDefinitionIndex)->GetStaticField(0x13B10);
+			return (::System::Func_2<::Class_1_AC6C63F15E9794D3*, ::RPG::Client::Promises::IPromise_1<::Class_1_296A7AC90F028539*>*>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournModule___c_TypeDefinitionIndex)->GetStaticField(0x6D330);
 		}
 		static ::System::Action** StaticGet___9__110_0()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(RogueTournModule___c_TypeDefinitionIndex)->GetStaticField(0x13B18);
-		}
-		static ::System::Func_2<::System::Boolean, ::System::Boolean>** StaticGet___9__194_0()
-		{
-			return (::System::Func_2<::System::Boolean, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournModule___c_TypeDefinitionIndex)->GetStaticField(0x13B20);
-		}
-		static ::System::Func_2<::Class_1_296A7AC90F028539*, ::RPG::Client::RPGHttpPlatformActResponse_1<::Class_1_5610B7568BF432BE*>*>** StaticGet___9__38_1()
-		{
-			return (::System::Func_2<::Class_1_296A7AC90F028539*, ::RPG::Client::RPGHttpPlatformActResponse_1<::Class_1_5610B7568BF432BE*>*>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournModule___c_TypeDefinitionIndex)->GetStaticField(0x13B28);
-		}
-		static ::System::Func_2<::Class_1_AC6C63F15E9794D3*, ::RPG::Client::Promises::IPromise_1<::Class_1_296A7AC90F028539*>*>** StaticGet___9__38_0()
-		{
-			return (::System::Func_2<::Class_1_AC6C63F15E9794D3*, ::RPG::Client::Promises::IPromise_1<::Class_1_296A7AC90F028539*>*>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournModule___c_TypeDefinitionIndex)->GetStaticField(0x13B30);
-		}
-		static ::System::Func_2<::Class_1_296A7AC90F028539*, ::RPG::Client::RPGHttpPlatformActResponse_1<::Class_1_34D861EC1B1CDD27*>*>** StaticGet___9__36_1()
-		{
-			return (::System::Func_2<::Class_1_296A7AC90F028539*, ::RPG::Client::RPGHttpPlatformActResponse_1<::Class_1_34D861EC1B1CDD27*>*>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournModule___c_TypeDefinitionIndex)->GetStaticField(0x13B38);
-		}
-		static ::System::Func_2<::Class_1_296A7AC90F028539*, ::RPG::Client::RPGHttpPlatformActResponse_1<::RPG::Client::GetRogueTournBuildRefHistoryHttpRsp*>*>** StaticGet___9__41_1()
-		{
-			return (::System::Func_2<::Class_1_296A7AC90F028539*, ::RPG::Client::RPGHttpPlatformActResponse_1<::RPG::Client::GetRogueTournBuildRefHistoryHttpRsp*>*>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournModule___c_TypeDefinitionIndex)->GetStaticField(0x13B40);
-		}
-		static ::System::Func_2<::Class_1_296A7AC90F028539*, ::RPG::Client::RPGHttpPlatformActResponse_1<::Class_1_7AB88D713F5121B3_57*>*>** StaticGet___9__39_1()
-		{
-			return (::System::Func_2<::Class_1_296A7AC90F028539*, ::RPG::Client::RPGHttpPlatformActResponse_1<::Class_1_7AB88D713F5121B3_57*>*>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournModule___c_TypeDefinitionIndex)->GetStaticField(0x13B48);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(RogueTournModule___c_TypeDefinitionIndex)->GetStaticField(0x6D338);
 		}
 		static ::System::Func_2<::Class_1_AC6C63F15E9794D3*, ::RPG::Client::Promises::IPromise_1<::Class_1_296A7AC90F028539*>*>** StaticGet___9__40_0()
 		{
-			return (::System::Func_2<::Class_1_AC6C63F15E9794D3*, ::RPG::Client::Promises::IPromise_1<::Class_1_296A7AC90F028539*>*>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournModule___c_TypeDefinitionIndex)->GetStaticField(0x13B50);
-		}
-		static ::System::Func_2<::Class_1_AC6C63F15E9794D3*, ::RPG::Client::Promises::IPromise_1<::Class_1_296A7AC90F028539*>*>** StaticGet___9__35_0()
-		{
-			return (::System::Func_2<::Class_1_AC6C63F15E9794D3*, ::RPG::Client::Promises::IPromise_1<::Class_1_296A7AC90F028539*>*>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournModule___c_TypeDefinitionIndex)->GetStaticField(0x13B58);
+			return (::System::Func_2<::Class_1_AC6C63F15E9794D3*, ::RPG::Client::Promises::IPromise_1<::Class_1_296A7AC90F028539*>*>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournModule___c_TypeDefinitionIndex)->GetStaticField(0x6D340);
 		}
 		static ::System::Func_2<::RPG::AvatarSystem::IAvatar*, ::System::UInt32>** StaticGet___9__4_0()
 		{
-			return (::System::Func_2<::RPG::AvatarSystem::IAvatar*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournModule___c_TypeDefinitionIndex)->GetStaticField(0x13B60);
+			return (::System::Func_2<::RPG::AvatarSystem::IAvatar*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournModule___c_TypeDefinitionIndex)->GetStaticField(0x6D348);
 		}
-		static ::System::Func_2<::RPG::Client::RPGHttpPlatformActResponse_1<::Class_1_945ACFB1FEBC7A2C_31*>*, ::Class_1_917011F650CA881D*>** StaticGet___9__32_1()
+		static ::System::Func_2<::Class_1_AC6C63F15E9794D3*, ::RPG::Client::Promises::IPromise_1<::Class_1_296A7AC90F028539*>*>** StaticGet___9__41_0()
 		{
-			return (::System::Func_2<::RPG::Client::RPGHttpPlatformActResponse_1<::Class_1_945ACFB1FEBC7A2C_31*>*, ::Class_1_917011F650CA881D*>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournModule___c_TypeDefinitionIndex)->GetStaticField(0x13B68);
+			return (::System::Func_2<::Class_1_AC6C63F15E9794D3*, ::RPG::Client::Promises::IPromise_1<::Class_1_296A7AC90F028539*>*>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournModule___c_TypeDefinitionIndex)->GetStaticField(0x6D350);
+		}
+		static ::System::Func_2<::Class_1_296A7AC90F028539*, ::RPG::Client::RPGHttpPlatformActResponse_1<::Class_1_7AB88D713F5121B3_56*>*>** StaticGet___9__35_1()
+		{
+			return (::System::Func_2<::Class_1_296A7AC90F028539*, ::RPG::Client::RPGHttpPlatformActResponse_1<::Class_1_7AB88D713F5121B3_56*>*>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournModule___c_TypeDefinitionIndex)->GetStaticField(0x6D358);
+		}
+		static ::System::Func_2<::Class_1_296A7AC90F028539*, ::RPG::Client::RPGHttpPlatformActResponse_1<::Class_1_7AB88D713F5121B3_57*>*>** StaticGet___9__39_1()
+		{
+			return (::System::Func_2<::Class_1_296A7AC90F028539*, ::RPG::Client::RPGHttpPlatformActResponse_1<::Class_1_7AB88D713F5121B3_57*>*>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournModule___c_TypeDefinitionIndex)->GetStaticField(0x6D360);
+		}
+		static ::System::Func_2<::Class_1_296A7AC90F028539*, ::RPG::Client::RPGHttpPlatformActResponse_1<::Class_1_34D861EC1B1CDD27*>*>** StaticGet___9__36_1()
+		{
+			return (::System::Func_2<::Class_1_296A7AC90F028539*, ::RPG::Client::RPGHttpPlatformActResponse_1<::Class_1_34D861EC1B1CDD27*>*>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournModule___c_TypeDefinitionIndex)->GetStaticField(0x6D368);
+		}
+		static ::System::Func_2<::System::Boolean, ::System::Boolean>** StaticGet___9__194_0()
+		{
+			return (::System::Func_2<::System::Boolean, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournModule___c_TypeDefinitionIndex)->GetStaticField(0x6D370);
+		}
+		static ::System::Func_2<::Class_1_AC6C63F15E9794D3*, ::RPG::Client::Promises::IPromise_1<::Class_1_296A7AC90F028539*>*>** StaticGet___9__39_0()
+		{
+			return (::System::Func_2<::Class_1_AC6C63F15E9794D3*, ::RPG::Client::Promises::IPromise_1<::Class_1_296A7AC90F028539*>*>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournModule___c_TypeDefinitionIndex)->GetStaticField(0x6D378);
+		}
+		static ::System::Func_2<::Class_1_296A7AC90F028539*, ::RPG::Client::RPGHttpPlatformActResponse_1<::Class_1_7AB88D713F5121B3_58*>*>** StaticGet___9__40_1()
+		{
+			return (::System::Func_2<::Class_1_296A7AC90F028539*, ::RPG::Client::RPGHttpPlatformActResponse_1<::Class_1_7AB88D713F5121B3_58*>*>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournModule___c_TypeDefinitionIndex)->GetStaticField(0x6D380);
+		}
+		static ::System::Func_2<::System::String*, ::RPG::Client::MongoObjectId>** StaticGet___9__45_0()
+		{
+			return (::System::Func_2<::System::String*, ::RPG::Client::MongoObjectId>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournModule___c_TypeDefinitionIndex)->GetStaticField(0x6D388);
+		}
+		static ::System::Func_2<::Class_1_296A7AC90F028539*, ::RPG::Client::RPGHttpPlatformActResponse_1<::Class_1_5610B7568BF432BE*>*>** StaticGet___9__38_1()
+		{
+			return (::System::Func_2<::Class_1_296A7AC90F028539*, ::RPG::Client::RPGHttpPlatformActResponse_1<::Class_1_5610B7568BF432BE*>*>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournModule___c_TypeDefinitionIndex)->GetStaticField(0x6D390);
+		}
+		static ::System::Func_2<::Class_1_AC6C63F15E9794D3*, ::RPG::Client::Promises::IPromise_1<::Class_1_296A7AC90F028539*>*>** StaticGet___9__38_0()
+		{
+			return (::System::Func_2<::Class_1_AC6C63F15E9794D3*, ::RPG::Client::Promises::IPromise_1<::Class_1_296A7AC90F028539*>*>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournModule___c_TypeDefinitionIndex)->GetStaticField(0x6D398);
+		}
+		static ::System::Func_2<::Class_1_AC6C63F15E9794D3*, ::RPG::Client::Promises::IPromise_1<::Class_1_296A7AC90F028539*>*>** StaticGet___9__35_0()
+		{
+			return (::System::Func_2<::Class_1_AC6C63F15E9794D3*, ::RPG::Client::Promises::IPromise_1<::Class_1_296A7AC90F028539*>*>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournModule___c_TypeDefinitionIndex)->GetStaticField(0x6D3A0);
+		}
+		static ::System::Func_2<::RPG::AvatarSystem::IAvatar*, ::System::UInt32>** StaticGet___9__3_0()
+		{
+			return (::System::Func_2<::RPG::AvatarSystem::IAvatar*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournModule___c_TypeDefinitionIndex)->GetStaticField(0x6D3A8);
+		}
+		static ::RPG::Client::RogueTournModule___c** StaticGet___9()
+		{
+			return (::RPG::Client::RogueTournModule___c**)Il2CppClass::FromTypeDefinitionIndex(RogueTournModule___c_TypeDefinitionIndex)->GetStaticField(0x6D3B0);
+		}
+		static ::System::Func_2<::Class_1_296A7AC90F028539*, ::RPG::Client::RPGHttpPlatformActResponse_1<::RPG::Client::GetRogueTournBuildRefHistoryHttpRsp*>*>** StaticGet___9__41_1()
+		{
+			return (::System::Func_2<::Class_1_296A7AC90F028539*, ::RPG::Client::RPGHttpPlatformActResponse_1<::RPG::Client::GetRogueTournBuildRefHistoryHttpRsp*>*>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournModule___c_TypeDefinitionIndex)->GetStaticField(0x6D3B8);
+		}
+		static ::System::Func_2<::Class_1_296A7AC90F028539*, ::RPG::Client::RPGHttpPlatformActResponse_1<::Class_1_945ACFB1FEBC7A2C_30*>*>** StaticGet___9__32_0()
+		{
+			return (::System::Func_2<::Class_1_296A7AC90F028539*, ::RPG::Client::RPGHttpPlatformActResponse_1<::Class_1_945ACFB1FEBC7A2C_30*>*>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournModule___c_TypeDefinitionIndex)->GetStaticField(0x6D3C0);
+		}
+		static ::System::Func_2<::Class_1_296A7AC90F028539*, ::Class_1_917011F650CA881D*>** StaticGet___9__31_0()
+		{
+			return (::System::Func_2<::Class_1_296A7AC90F028539*, ::Class_1_917011F650CA881D*>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournModule___c_TypeDefinitionIndex)->GetStaticField(0x6D3C8);
 		}
 
 		static ::System::Void _cctor()
@@ -167,14 +167,14 @@ namespace RPG::Client
 			return ((::Class_1_917011F650CA881D*(*)(::PVOID, ::Class_1_296A7AC90F028539*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNMODULE___C___SENDGETROGUETOURNBUILDREFSTATICDATACDNHTTPREQ_B__31_0_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::RPGHttpPlatformActResponse_1<::Class_1_945ACFB1FEBC7A2C_31*>* __SendGetRogueTournBuildRefStaticDataApiHttpReq_b__32_0(::Class_1_296A7AC90F028539* a1)
+		::RPG::Client::RPGHttpPlatformActResponse_1<::Class_1_945ACFB1FEBC7A2C_30*>* __SendGetRogueTournBuildRefStaticDataApiHttpReq_b__32_0(::Class_1_296A7AC90F028539* a1)
 		{
-			return ((::RPG::Client::RPGHttpPlatformActResponse_1<::Class_1_945ACFB1FEBC7A2C_31*>*(*)(::PVOID, ::Class_1_296A7AC90F028539*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNMODULE___C___SENDGETROGUETOURNBUILDREFSTATICDATAAPIHTTPREQ_B__32_0_OFFSET))(this, a1);
+			return ((::RPG::Client::RPGHttpPlatformActResponse_1<::Class_1_945ACFB1FEBC7A2C_30*>*(*)(::PVOID, ::Class_1_296A7AC90F028539*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNMODULE___C___SENDGETROGUETOURNBUILDREFSTATICDATAAPIHTTPREQ_B__32_0_OFFSET))(this, a1);
 		}
 
-		::Class_1_917011F650CA881D* __SendGetRogueTournBuildRefStaticDataApiHttpReq_b__32_1(::RPG::Client::RPGHttpPlatformActResponse_1<::Class_1_945ACFB1FEBC7A2C_31*>* a1)
+		::Class_1_917011F650CA881D* __SendGetRogueTournBuildRefStaticDataApiHttpReq_b__32_1(::RPG::Client::RPGHttpPlatformActResponse_1<::Class_1_945ACFB1FEBC7A2C_30*>* a1)
 		{
-			return ((::Class_1_917011F650CA881D*(*)(::PVOID, ::RPG::Client::RPGHttpPlatformActResponse_1<::Class_1_945ACFB1FEBC7A2C_31*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNMODULE___C___SENDGETROGUETOURNBUILDREFSTATICDATAAPIHTTPREQ_B__32_1_OFFSET))(this, a1);
+			return ((::Class_1_917011F650CA881D*(*)(::PVOID, ::RPG::Client::RPGHttpPlatformActResponse_1<::Class_1_945ACFB1FEBC7A2C_30*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNMODULE___C___SENDGETROGUETOURNBUILDREFSTATICDATAAPIHTTPREQ_B__32_1_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::Promises::IPromise_1<::Class_1_296A7AC90F028539*>* __SendSetRogueTournBuildRefAppliedHttpReq_b__35_0(::Class_1_AC6C63F15E9794D3* a1)

@@ -9,12 +9,12 @@ namespace RPG::Client { class TimeSpaceCrisscrossIRIMonoPlugin_TSCInstanceData; 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class MeshRenderer; }
 
-#define RPG_CLIENT_TIMESPACECRISSCROSSIRIMONOPLUGIN_SETSTATEANDTYPE_OFFSET UNITYSDK_OFFSET(0xE20BD80)
-#define RPG_CLIENT_TIMESPACECRISSCROSSIRIMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xE2172A0)
+#define RPG_CLIENT_TIMESPACECRISSCROSSIRIMONOPLUGIN_SETSTATEANDTYPE_OFFSET UNITYSDK_OFFSET(0xE291650)
+#define RPG_CLIENT_TIMESPACECRISSCROSSIRIMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xE29D050)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TimeSpaceCrisscrossIRIMonoPlugin_TypeDefinitionIndex = 70191;
+	inline static constexpr unsigned int TimeSpaceCrisscrossIRIMonoPlugin_TypeDefinitionIndex = 70227;
 
 	class TimeSpaceCrisscrossIRIMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::TimeSpaceCrisscrossIRIBehavior*>
 	{

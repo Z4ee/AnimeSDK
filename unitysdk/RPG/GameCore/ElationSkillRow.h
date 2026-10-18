@@ -4,18 +4,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ELATIONSKILLROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D056730)
-#define RPG_GAMECORE_ELATIONSKILLROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D056E10)
+#define RPG_GAMECORE_ELATIONSKILLROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D633250)
+#define RPG_GAMECORE_ELATIONSKILLROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6338D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ElationSkillRow_TypeDefinitionIndex = 13113;
+	inline static constexpr unsigned int ElationSkillRow_TypeDefinitionIndex = 13219;
 
 	class ElationSkillRow : public ::System::Object
 	{
 	public:
-		::System::Int32 PriorityValue; // 0x10
-		::System::UInt32 ElationSkillID; // 0x14
+		::System::UInt32 ElationSkillID; // 0x10
+		::System::Int32 PriorityValue; // 0x14
 
 		::System::Void _ctor()
 		{

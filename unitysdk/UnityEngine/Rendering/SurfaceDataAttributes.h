@@ -5,20 +5,20 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_RENDERING_SURFACEDATAATTRIBUTES__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1EC02C50)
-#define UNITYENGINE_RENDERING_SURFACEDATAATTRIBUTES__CTOR_OFFSET UNITYSDK_OFFSET(0x1EC02BF0)
+#define UNITYENGINE_RENDERING_SURFACEDATAATTRIBUTES__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F2CA580)
+#define UNITYENGINE_RENDERING_SURFACEDATAATTRIBUTES__CTOR_OFFSET UNITYSDK_OFFSET(0x1F2CA520)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int SurfaceDataAttributes_TypeDefinitionIndex = 34906;
+	inline static constexpr unsigned int SurfaceDataAttributes_TypeDefinitionIndex = 35575;
 
 	class SurfaceDataAttributes : public ::System::Attribute
 	{
 	public:
 		::Il2CppArray<::System::String*>* displayNames; // 0x10
-		::System::Boolean sRGBDisplay; // 0x18
-		::System::Boolean isDirection; // 0x19
-		::UnityEngine::Rendering::FieldPrecision precision; // 0x1C
+		::UnityEngine::Rendering::FieldPrecision precision; // 0x18
+		::System::Boolean isDirection; // 0x1C
+		::System::Boolean sRGBDisplay; // 0x1D
 
 		::System::Void _ctor(::System::String* a1, ::System::Boolean a2, ::System::Boolean a3, ::UnityEngine::Rendering::FieldPrecision a4)
 		{

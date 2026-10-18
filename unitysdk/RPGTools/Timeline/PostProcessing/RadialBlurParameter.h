@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_RADIALBLURPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x15F680)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_RADIALBLURPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0xF9030)
 
 namespace RPGTools::Timeline::PostProcessing
 {
-	inline static constexpr unsigned int RadialBlurParameter_TypeDefinitionIndex = 49052;
+	inline static constexpr unsigned int RadialBlurParameter_TypeDefinitionIndex = 48598;
 
 	struct alignas(4) RadialBlurParameter
 	{

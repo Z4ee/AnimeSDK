@@ -6,21 +6,21 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_GRIDFIGHTPRESENTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D160580)
-#define RPG_GAMECORE_GRIDFIGHTPRESENTCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D160820)
+#define RPG_GAMECORE_GRIDFIGHTPRESENTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D73B370)
+#define RPG_GAMECORE_GRIDFIGHTPRESENTCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D73B610)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightPresentConfigRow_TypeDefinitionIndex = 13320;
+	inline static constexpr unsigned int GridFightPresentConfigRow_TypeDefinitionIndex = 13427;
 
 	class GridFightPresentConfigRow : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::GridFightPresentShortenType ShortenType; // 0x10
-		::System::UInt32 ID; // 0x14
-		::RPG::Client::TextID PresentName; // 0x18
-		::System::UInt32 BonusID; // 0x28
-		::RPG::Client::TextID PresentDesc; // 0x30
+		::System::UInt32 ID; // 0x10
+		::System::UInt32 BonusID; // 0x14
+		::RPG::GameCore::GridFightPresentShortenType ShortenType; // 0x18
+		::RPG::Client::TextID PresentDesc; // 0x20
+		::RPG::Client::TextID PresentName; // 0x30
 
 		::System::Void _ctor()
 		{

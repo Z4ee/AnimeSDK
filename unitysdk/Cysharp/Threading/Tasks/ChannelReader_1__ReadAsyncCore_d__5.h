@@ -10,7 +10,7 @@ namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int ChannelReader_1__ReadAsyncCore_d__5_TypeDefinitionIndex = 42558;
+	inline static constexpr unsigned int ChannelReader_1__ReadAsyncCore_d__5_TypeDefinitionIndex = 38143;
 
 	template <typename T>
 	struct ChannelReader_1__ReadAsyncCore_d__5

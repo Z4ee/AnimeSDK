@@ -5,19 +5,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ROGUEDLCCHESSBOARDEVENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3D88E0)
-#define RPG_GAMECORE_ROGUEDLCCHESSBOARDEVENTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3D8FB0)
+#define RPG_GAMECORE_ROGUEDLCCHESSBOARDEVENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D9BF0D0)
+#define RPG_GAMECORE_ROGUEDLCCHESSBOARDEVENTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D9BF7A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueDLCChessBoardEventRow_TypeDefinitionIndex = 14607;
+	inline static constexpr unsigned int RogueDLCChessBoardEventRow_TypeDefinitionIndex = 14772;
 
 	class RogueDLCChessBoardEventRow : public ::System::Object
 	{
 	public:
 		::System::UInt32 ChessBoardEventID; // 0x10
-		::RPG::Client::TextID ChessBoardEventDesc; // 0x18
-		::RPG::Client::TextID ChessBoardEventName; // 0x28
+		::RPG::Client::TextID ChessBoardEventName; // 0x18
+		::RPG::Client::TextID ChessBoardEventDesc; // 0x28
 
 		::System::Void _ctor()
 		{

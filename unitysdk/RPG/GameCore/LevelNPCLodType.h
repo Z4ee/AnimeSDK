@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelNPCLodType_TypeDefinitionIndex = 16979;
+	inline static constexpr unsigned int LevelNPCLodType_TypeDefinitionIndex = 17174;
 
 	enum class LevelNPCLodType : ::System::Int32
 	{

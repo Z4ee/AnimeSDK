@@ -5,12 +5,12 @@
 namespace RPG::Client { class RogueTournHexData; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define RPG_CLIENT_ROGUETOURNHEXDATA___C__DISPLAYCLASS41_0__CTOR_OFFSET UNITYSDK_OFFSET(0xDF61BE0)
-#define RPG_CLIENT_ROGUETOURNHEXDATA___C__DISPLAYCLASS41_0__GETALLDATAS_B__1_OFFSET UNITYSDK_OFFSET(0xDF621F0)
+#define RPG_CLIENT_ROGUETOURNHEXDATA___C__DISPLAYCLASS41_0__CTOR_OFFSET UNITYSDK_OFFSET(0xDFF8630)
+#define RPG_CLIENT_ROGUETOURNHEXDATA___C__DISPLAYCLASS41_0__GETALLDATAS_B__1_OFFSET UNITYSDK_OFFSET(0xDFF8C40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournHexData___c__DisplayClass41_0_TypeDefinitionIndex = 67671;
+	inline static constexpr unsigned int RogueTournHexData___c__DisplayClass41_0_TypeDefinitionIndex = 67673;
 
 	class RogueTournHexData___c__DisplayClass41_0 : public ::System::Object
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoNativeEditBox_ReturnKeyType_TypeDefinitionIndex = 71128;
+	inline static constexpr unsigned int MonoNativeEditBox_ReturnKeyType_TypeDefinitionIndex = 71160;
 
 	enum class MonoNativeEditBox_ReturnKeyType : ::System::Int32
 	{

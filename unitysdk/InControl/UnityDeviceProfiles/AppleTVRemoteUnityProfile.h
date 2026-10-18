@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/InControl/InputDeviceProfile.h"
 
-#define INCONTROL_UNITYDEVICEPROFILES_APPLETVREMOTEUNITYPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x1B58E4A0)
-#define INCONTROL_UNITYDEVICEPROFILES_APPLETVREMOTEUNITYPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B58EFB0)
+#define INCONTROL_UNITYDEVICEPROFILES_APPLETVREMOTEUNITYPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x1BA8D1C0)
+#define INCONTROL_UNITYDEVICEPROFILES_APPLETVREMOTEUNITYPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA8DCD0)
 
 namespace InControl::UnityDeviceProfiles
 {
-	inline static constexpr unsigned int AppleTVRemoteUnityProfile_TypeDefinitionIndex = 39696;
+	inline static constexpr unsigned int AppleTVRemoteUnityProfile_TypeDefinitionIndex = 40993;
 
 	class AppleTVRemoteUnityProfile : public ::InControl::InputDeviceProfile
 	{

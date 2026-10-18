@@ -5,16 +5,16 @@
 namespace RPG::GameCore { class GameEntity; }
 namespace System { class Action; }
 
-#define CLASS_3_5EECFDEA7A89A768___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBB00FA0)
-#define CLASS_3_5EECFDEA7A89A768___C__DISPLAYCLASS14_0___DAMAGEHITPERFORMANCEDELAY_B__0_OFFSET UNITYSDK_OFFSET(0xBB01290)
+#define CLASS_3_5EECFDEA7A89A768___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB9868D0)
+#define CLASS_3_5EECFDEA7A89A768___C__DISPLAYCLASS14_0___DAMAGEHITPERFORMANCEDELAY_B__0_OFFSET UNITYSDK_OFFSET(0xB986BC0)
 
-inline static constexpr unsigned int Class_3_5EECFDEA7A89A768___c__DisplayClass14_0_TypeDefinitionIndex = 54070;
+inline static constexpr unsigned int Class_3_5EECFDEA7A89A768___c__DisplayClass14_0_TypeDefinitionIndex = 53856;
 
 class Class_3_5EECFDEA7A89A768___c__DisplayClass14_0 : public ::System::Object
 {
 public:
-	::RPG::GameCore::GameEntity* target; // 0x10
-	::System::Action* callback; // 0x18
+	::System::Action* callback; // 0x10
+	::RPG::GameCore::GameEntity* target; // 0x18
 
 	::System::Void _ctor()
 	{

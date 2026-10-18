@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ServerPrefsType_TypeDefinitionIndex = 24553;
+	inline static constexpr unsigned int ServerPrefsType_TypeDefinitionIndex = 24835;
 
 	enum class ServerPrefsType : ::System::Int32
 	{
@@ -174,6 +174,15 @@ namespace RPG::GameCore
 		IsQuickGrowLightCone = 4404,
 		FateRinActivityOpeningToastSeen = 4405,
 		FateRinAvatarRewardToastHasSeen = 4406,
+		LimaoNewsHasEnteredManagementPage = 4511,
 		B51RacingSavedDisplayCarType = 4501,
+		AvatarPathChangeApplyToPresetLineup = 4601,
+		ActivityFinalityBattleBadgeObtainDialogShowed = 4611,
+		BlindBoxSeenPoolIDs = 4621,
+		BlindBoxShopEntryHasSeen = 4622,
+		IsPetMarbleHardModeSeen = 4631,
+		IsPetMarbleResidentRewardSeen = 4632,
+		IsPetMarbleArchiveSeen = 4633,
+		IsVoracityInvasionCutinHasSeen = 4641,
 	};
 }

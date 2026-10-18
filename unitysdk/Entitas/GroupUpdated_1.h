@@ -10,7 +10,7 @@ namespace System { class Object; }
 
 namespace Entitas
 {
-	inline static constexpr unsigned int GroupUpdated_1_TypeDefinitionIndex = 9975;
+	inline static constexpr unsigned int GroupUpdated_1_TypeDefinitionIndex = 10033;
 
 	template <typename TEntity>
 	class GroupUpdated_1 : public ::System::MulticastDelegate

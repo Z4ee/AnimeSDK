@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define UNITYENGINE_GCFREECLOSURE_SVALUE_READERINIT_DOINIT_OFFSET UNITYSDK_OFFSET(0x1ED25830)
-#define UNITYENGINE_GCFREECLOSURE_SVALUE_READERINIT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1ED25100)
+#define UNITYENGINE_GCFREECLOSURE_SVALUE_READERINIT_DOINIT_OFFSET UNITYSDK_OFFSET(0x1F3ED3C0)
+#define UNITYENGINE_GCFREECLOSURE_SVALUE_READERINIT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F3ECC90)
 
 namespace UnityEngine::GCFreeClosure
 {
-	inline static constexpr unsigned int SValue_ReaderInit_TypeDefinitionIndex = 4465;
+	inline static constexpr unsigned int SValue_ReaderInit_TypeDefinitionIndex = 4469;
 
 	class SValue_ReaderInit : public ::System::Object
 	{

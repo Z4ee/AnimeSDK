@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_STAGEMONSTERREWARDITEM_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D559C50)
-#define RPG_GAMECORE_STAGEMONSTERREWARDITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1D559DD0)
+#define RPG_GAMECORE_STAGEMONSTERREWARDITEM_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DB10BE0)
+#define RPG_GAMECORE_STAGEMONSTERREWARDITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB10D60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StageMonsterRewardItem_TypeDefinitionIndex = 14977;
+	inline static constexpr unsigned int StageMonsterRewardItem_TypeDefinitionIndex = 15144;
 
 	class StageMonsterRewardItem : public ::System::Object
 	{

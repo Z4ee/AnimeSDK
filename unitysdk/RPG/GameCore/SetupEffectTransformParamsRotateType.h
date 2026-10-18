@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetupEffectTransformParamsRotateType_TypeDefinitionIndex = 24333;
+	inline static constexpr unsigned int SetupEffectTransformParamsRotateType_TypeDefinitionIndex = 24612;
 
 	enum class SetupEffectTransformParamsRotateType : ::System::Int32
 	{

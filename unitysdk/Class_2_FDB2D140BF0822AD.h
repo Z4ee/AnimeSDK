@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_43BD383C98B4C0C5_213.h"
+#include "unitysdk/Class_1_43BD383C98B4C0C5_215.h"
 
 class Class_1_F9FBCC956DFCF137_27;
 class Class_1_FD611945730E269E;
 namespace RPG::Client::LittleGame::ChimeraDuel { class ChimeraDuelChimeraCache; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_FDB2D140BF0822AD_METHOD_2_98FE8344617B99D4_OFFSET UNITYSDK_OFFSET(0xBC54410)
-#define CLASS_2_FDB2D140BF0822AD__CTOR_OFFSET UNITYSDK_OFFSET(0xBC544B0)
+#define CLASS_2_FDB2D140BF0822AD_METHOD_2_98FE8344617B99D4_OFFSET UNITYSDK_OFFSET(0xBB1DD00)
+#define CLASS_2_FDB2D140BF0822AD__CTOR_OFFSET UNITYSDK_OFFSET(0xBB1DDA0)
 
-inline static constexpr unsigned int Class_2_FDB2D140BF0822AD_TypeDefinitionIndex = 77226;
+inline static constexpr unsigned int Class_2_FDB2D140BF0822AD_TypeDefinitionIndex = 77697;
 
-class Class_2_FDB2D140BF0822AD : public ::Class_1_43BD383C98B4C0C5_213
+class Class_2_FDB2D140BF0822AD : public ::Class_1_43BD383C98B4C0C5_215
 {
 public:
 	::System::Collections::Generic::List_1<::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache*>* PIJFBMKEOIE; // 0x10

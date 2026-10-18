@@ -4,12 +4,12 @@
 #include "unitysdk/MessagePack/Unity/Extension/UnsafeBlitFormatterBase_2.h"
 #include "unitysdk/UnityEngine/Rect.h"
 
-#define MESSAGEPACK_UNITY_EXTENSION_RECTARRAYBLITFORMATTER_GET_TYPECODE_OFFSET UNITYSDK_OFFSET(0x1B664A60)
-#define MESSAGEPACK_UNITY_EXTENSION_RECTARRAYBLITFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B664A70)
+#define MESSAGEPACK_UNITY_EXTENSION_RECTARRAYBLITFORMATTER_GET_TYPECODE_OFFSET UNITYSDK_OFFSET(0x1BB637A0)
+#define MESSAGEPACK_UNITY_EXTENSION_RECTARRAYBLITFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB637B0)
 
 namespace MessagePack::Unity::Extension
 {
-	inline static constexpr unsigned int RectArrayBlitFormatter_TypeDefinitionIndex = 10150;
+	inline static constexpr unsigned int RectArrayBlitFormatter_TypeDefinitionIndex = 10163;
 
 	class RectArrayBlitFormatter : public ::MessagePack::Unity::Extension::UnsafeBlitFormatterBase_2<::UnityEngine::Rect, ::MessagePack::Unity::Extension::ReverseEndianessHelperSimpleRepeat_1<::System::Single>>
 	{

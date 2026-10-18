@@ -9,20 +9,20 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_B105BEE67D1C2502_CLASS_1_2EB80ED43053882A_METHOD_1_963929CBFCB03E97_OFFSET UNITYSDK_OFFSET(0xC176A70)
-#define CLASS_2_B105BEE67D1C2502_CLASS_1_2EB80ED43053882A__CTOR_OFFSET UNITYSDK_OFFSET(0xC1767B0)
+#define CLASS_2_B105BEE67D1C2502_CLASS_1_2EB80ED43053882A_METHOD_1_963929CBFCB03E97_OFFSET UNITYSDK_OFFSET(0xC02DA50)
+#define CLASS_2_B105BEE67D1C2502_CLASS_1_2EB80ED43053882A__CTOR_OFFSET UNITYSDK_OFFSET(0xC02D790)
 
-inline static constexpr unsigned int Class_2_B105BEE67D1C2502_Class_1_2EB80ED43053882A_TypeDefinitionIndex = 60702;
+inline static constexpr unsigned int Class_2_B105BEE67D1C2502_Class_1_2EB80ED43053882A_TypeDefinitionIndex = 60603;
 
 class Class_2_B105BEE67D1C2502_Class_1_2EB80ED43053882A : public ::System::Object
 {
 public:
 	::System::String* JLCLCMGLKKG; // 0x10
-	::System::String* POECNOICAHL; // 0x18
-	::System::Collections::Generic::Dictionary_2<::RPG::Client::MapRotation::EffectType, ::System::Collections::Generic::List_1<::Class_2_B105BEE67D1C2502_Struct_2_C98CB9F275AE157F>*>* OFCKNBEAIDL; // 0x20
+	::System::Collections::Generic::Dictionary_2<::RPG::Client::MapRotation::EffectType, ::System::Collections::Generic::List_1<::Class_2_B105BEE67D1C2502_Struct_2_C98CB9F275AE157F>*>* OFCKNBEAIDL; // 0x18
+	::System::String* POECNOICAHL; // 0x20
 	::System::UInt32 FCFGHOHHJLE; // 0x28
-	::System::Boolean OCEMLKIOEEH; // 0x2C
-	::System::UInt32 GJPPHJMHBPF; // 0x30
+	::System::UInt32 GJPPHJMHBPF; // 0x2C
+	::System::Boolean OCEMLKIOEEH; // 0x30
 
 	::System::Void _ctor(::System::String* a1, ::System::String* a2, ::System::UInt32 a3, ::System::UInt32 a4, ::System::Boolean a5)
 	{

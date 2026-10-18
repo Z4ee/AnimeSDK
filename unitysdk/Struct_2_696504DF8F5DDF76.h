@@ -6,7 +6,7 @@
 
 namespace RPG::GameCore { class GameEntity; }
 
-inline static constexpr unsigned int Struct_2_696504DF8F5DDF76_TypeDefinitionIndex = 57872;
+inline static constexpr unsigned int Struct_2_696504DF8F5DDF76_TypeDefinitionIndex = 57718;
 
 struct alignas(8) Struct_2_696504DF8F5DDF76
 {

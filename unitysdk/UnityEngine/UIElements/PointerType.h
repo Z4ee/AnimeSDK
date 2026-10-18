@@ -4,32 +4,32 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_UIELEMENTS_POINTERTYPE_GETPOINTERTYPE_OFFSET UNITYSDK_OFFSET(0x1EDF6EF0)
-#define UNITYENGINE_UIELEMENTS_POINTERTYPE_ISDIRECTMANIPULATIONDEVICE_OFFSET UNITYSDK_OFFSET(0x1EDF3E90)
-#define UNITYENGINE_UIELEMENTS_POINTERTYPE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EDF6F90)
+#define UNITYENGINE_UIELEMENTS_POINTERTYPE_GETPOINTERTYPE_OFFSET UNITYSDK_OFFSET(0x1F4C0110)
+#define UNITYENGINE_UIELEMENTS_POINTERTYPE_ISDIRECTMANIPULATIONDEVICE_OFFSET UNITYSDK_OFFSET(0x1F4BD0B0)
+#define UNITYENGINE_UIELEMENTS_POINTERTYPE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F4C01B0)
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int PointerType_TypeDefinitionIndex = 5968;
+	inline static constexpr unsigned int PointerType_TypeDefinitionIndex = 5976;
 
 	class PointerType : public ::System::Object
 	{
 	public:
 		static ::System::String** StaticGet_pen()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(PointerType_TypeDefinitionIndex)->GetStaticField(0x1A180);
-		}
-		static ::System::String** StaticGet_unknown()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(PointerType_TypeDefinitionIndex)->GetStaticField(0x1A188);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(PointerType_TypeDefinitionIndex)->GetStaticField(0x1EE90);
 		}
 		static ::System::String** StaticGet_touch()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(PointerType_TypeDefinitionIndex)->GetStaticField(0x1A190);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(PointerType_TypeDefinitionIndex)->GetStaticField(0x1EE98);
+		}
+		static ::System::String** StaticGet_unknown()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(PointerType_TypeDefinitionIndex)->GetStaticField(0x1EEA0);
 		}
 		static ::System::String** StaticGet_mouse()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(PointerType_TypeDefinitionIndex)->GetStaticField(0x1A198);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(PointerType_TypeDefinitionIndex)->GetStaticField(0x1EEA8);
 		}
 
 		static ::System::Void _cctor()

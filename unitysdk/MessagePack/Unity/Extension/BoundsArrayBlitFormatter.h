@@ -4,12 +4,12 @@
 #include "unitysdk/MessagePack/Unity/Extension/UnsafeBlitFormatterBase_2.h"
 #include "unitysdk/UnityEngine/Bounds.h"
 
-#define MESSAGEPACK_UNITY_EXTENSION_BOUNDSARRAYBLITFORMATTER_GET_TYPECODE_OFFSET UNITYSDK_OFFSET(0x1B664940)
-#define MESSAGEPACK_UNITY_EXTENSION_BOUNDSARRAYBLITFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B664950)
+#define MESSAGEPACK_UNITY_EXTENSION_BOUNDSARRAYBLITFORMATTER_GET_TYPECODE_OFFSET UNITYSDK_OFFSET(0x1BB63680)
+#define MESSAGEPACK_UNITY_EXTENSION_BOUNDSARRAYBLITFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB63690)
 
 namespace MessagePack::Unity::Extension
 {
-	inline static constexpr unsigned int BoundsArrayBlitFormatter_TypeDefinitionIndex = 10149;
+	inline static constexpr unsigned int BoundsArrayBlitFormatter_TypeDefinitionIndex = 10162;
 
 	class BoundsArrayBlitFormatter : public ::MessagePack::Unity::Extension::UnsafeBlitFormatterBase_2<::UnityEngine::Bounds, ::MessagePack::Unity::Extension::ReverseEndianessHelperSimpleRepeat_1<::System::Single>>
 	{

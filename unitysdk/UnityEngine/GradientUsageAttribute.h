@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/PropertyAttribute.h"
 
-#define UNITYENGINE_GRADIENTUSAGEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1ED27E00)
+#define UNITYENGINE_GRADIENTUSAGEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F3EF990)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int GradientUsageAttribute_TypeDefinitionIndex = 4244;
+	inline static constexpr unsigned int GradientUsageAttribute_TypeDefinitionIndex = 4246;
 
 	class GradientUsageAttribute : public ::UnityEngine::PropertyAttribute
 	{

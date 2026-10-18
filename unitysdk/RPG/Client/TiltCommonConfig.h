@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_TILTCOMMONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xE1E3B90)
+#define RPG_CLIENT_TILTCOMMONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xE226C30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TiltCommonConfig_TypeDefinitionIndex = 60201;
+	inline static constexpr unsigned int TiltCommonConfig_TypeDefinitionIndex = 60064;
 
 	class TiltCommonConfig : public ::UnityEngine::ScriptableObject
 	{

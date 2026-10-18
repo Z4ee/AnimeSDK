@@ -10,22 +10,22 @@ namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD1BCF20)
-#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS12_0___SENDGAMEREFHTTPREQ_B__0_OFFSET UNITYSDK_OFFSET(0xD1C50C0)
-#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS12_0___SENDGAMEREFHTTPREQ_B__1_OFFSET UNITYSDK_OFFSET(0xD1C50F0)
-#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS12_0___SENDGAMEREFHTTPREQ_B__2_OFFSET UNITYSDK_OFFSET(0xD1C5120)
+#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD15D950)
+#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS12_0___SENDGAMEREFHTTPREQ_B__0_OFFSET UNITYSDK_OFFSET(0xD165240)
+#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS12_0___SENDGAMEREFHTTPREQ_B__1_OFFSET UNITYSDK_OFFSET(0xD165270)
+#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS12_0___SENDGAMEREFHTTPREQ_B__2_OFFSET UNITYSDK_OFFSET(0xD1652A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightGameRef___c__DisplayClass12_0_TypeDefinitionIndex = 64766;
+	inline static constexpr unsigned int GridFightGameRef___c__DisplayClass12_0_TypeDefinitionIndex = 64706;
 
 	class GridFightGameRef___c__DisplayClass12_0 : public ::System::Object
 	{
 	public:
-		::Class_1_AC6C63F15E9794D3* req; // 0x10
-		::System::Func_2<::System::String*, ::System::Object*>* getJsonBody; // 0x18
-		::Class_1_AC6C63F15E9794D3_Class_1_084C324841B5505D* sendParams; // 0x20
-		::System::Action_1<::Class_1_296A7AC90F028539*>* onResponce; // 0x28
+		::System::Action_1<::Class_1_296A7AC90F028539*>* onResponce; // 0x10
+		::Class_1_AC6C63F15E9794D3* req; // 0x18
+		::System::Func_2<::System::String*, ::System::Object*>* getJsonBody; // 0x20
+		::Class_1_AC6C63F15E9794D3_Class_1_084C324841B5505D* sendParams; // 0x28
 
 		::System::Void _ctor()
 		{

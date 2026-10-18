@@ -4,7 +4,7 @@
 #include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/ValueType.h"
 
-inline static constexpr unsigned int Struct_2_A2625D56F9898CFB_TypeDefinitionIndex = 66207;
+inline static constexpr unsigned int Struct_2_A2625D56F9898CFB_TypeDefinitionIndex = 66168;
 
 struct alignas(8) Struct_2_A2625D56F9898CFB
 {

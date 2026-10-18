@@ -5,12 +5,12 @@
 
 namespace RPG::Client { class AdventurePhase; }
 
-#define RPG_CLIENT_ADVENTUREPHASE___C__DISPLAYCLASS113_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC6E6510)
-#define RPG_CLIENT_ADVENTUREPHASE___C__DISPLAYCLASS113_0___DOENTITYMOVE_B__0_OFFSET UNITYSDK_OFFSET(0xC6F4250)
+#define RPG_CLIENT_ADVENTUREPHASE___C__DISPLAYCLASS113_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC604B00)
+#define RPG_CLIENT_ADVENTUREPHASE___C__DISPLAYCLASS113_0___DOENTITYMOVE_B__0_OFFSET UNITYSDK_OFFSET(0xC612560)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AdventurePhase___c__DisplayClass113_0_TypeDefinitionIndex = 60255;
+	inline static constexpr unsigned int AdventurePhase___c__DisplayClass113_0_TypeDefinitionIndex = 60119;
 
 	class AdventurePhase___c__DisplayClass113_0 : public ::System::Object
 	{

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class MarkTargetForFutureReviveAbility; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_C595530C21E9D2C1_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB838290)
-#define CLASS_3_C595530C21E9D2C1__CTOR_OFFSET UNITYSDK_OFFSET(0xB838260)
+#define CLASS_3_C595530C21E9D2C1_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB6AA360)
+#define CLASS_3_C595530C21E9D2C1__CTOR_OFFSET UNITYSDK_OFFSET(0xB6AA330)
 
-inline static constexpr unsigned int Class_3_C595530C21E9D2C1_TypeDefinitionIndex = 55375;
+inline static constexpr unsigned int Class_3_C595530C21E9D2C1_TypeDefinitionIndex = 55172;
 
 class Class_3_C595530C21E9D2C1 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::MarkTargetForFutureReviveAbility*>
 {

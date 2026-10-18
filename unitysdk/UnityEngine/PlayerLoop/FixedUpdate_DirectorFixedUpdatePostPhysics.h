@@ -4,7 +4,7 @@
 
 namespace UnityEngine::PlayerLoop
 {
-	inline static constexpr unsigned int FixedUpdate_DirectorFixedUpdatePostPhysics_TypeDefinitionIndex = 4590;
+	inline static constexpr unsigned int FixedUpdate_DirectorFixedUpdatePostPhysics_TypeDefinitionIndex = 4594;
 
 	struct alignas(1) FixedUpdate_DirectorFixedUpdatePostPhysics
 	{

@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-namespace RPG::Client { class GridFightGridData; }
-namespace RPG::Client { class GridFightGridMoveValidateResult; }
+class Class_1_ED80D3EC77F13F93;
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_868_TypeDefinitionIndex = 64905;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_868_TypeDefinitionIndex = 62580;
 
 class Class_0_16E4307DCC419505_868
 {

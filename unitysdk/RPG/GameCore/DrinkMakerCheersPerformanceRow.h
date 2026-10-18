@@ -4,19 +4,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_DRINKMAKERCHEERSPERFORMANCEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D03FD50)
-#define RPG_GAMECORE_DRINKMAKERCHEERSPERFORMANCEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D03FEC0)
+#define RPG_GAMECORE_DRINKMAKERCHEERSPERFORMANCEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D61C380)
+#define RPG_GAMECORE_DRINKMAKERCHEERSPERFORMANCEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D61C4F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DrinkMakerCheersPerformanceRow_TypeDefinitionIndex = 13105;
+	inline static constexpr unsigned int DrinkMakerCheersPerformanceRow_TypeDefinitionIndex = 13211;
 
 	class DrinkMakerCheersPerformanceRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 PerformanceID; // 0x10
-		::System::UInt32 GroupID; // 0x14
-		::System::UInt32 ID; // 0x18
+		::System::UInt32 GroupID; // 0x10
+		::System::UInt32 ID; // 0x14
+		::System::UInt32 PerformanceID; // 0x18
 
 		::System::Void _ctor()
 		{

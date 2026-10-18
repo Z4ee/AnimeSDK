@@ -4,15 +4,15 @@
 
 class Class_1_ED78E2C86A4B45C0;
 
-#define CLASS_1_B455D458E95F7013_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1C04A1D0)
+#define CLASS_1_B455D458E95F7013_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1C59B660)
 
-inline static constexpr unsigned int Class_1_B455D458E95F7013_1_TypeDefinitionIndex = 35756;
+inline static constexpr unsigned int Class_1_B455D458E95F7013_1_TypeDefinitionIndex = 36443;
 
 class Class_1_B455D458E95F7013_1 : public ::System::Object
 {
 public:
-	::Class_1_ED78E2C86A4B45C0* ILIIOLJMKME; // 0x10
-	::Il2CppArray<::System::Byte>* FNMJIJOGMKM; // 0x18
+	::Il2CppArray<::System::Byte>* FNMJIJOGMKM; // 0x10
+	::Class_1_ED78E2C86A4B45C0* ILIIOLJMKME; // 0x18
 	::System::UInt32 CABBFBKCBCE; // 0x20
 	::System::UInt32 NJGKCPOOHDM; // 0x24
 

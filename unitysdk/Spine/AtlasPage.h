@@ -7,26 +7,26 @@
 
 namespace System { class String; }
 
-#define SPINE_ATLASPAGE_CLONE_OFFSET UNITYSDK_OFFSET(0x1E5D66E0)
-#define SPINE_ATLASPAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E5D46F0)
+#define SPINE_ATLASPAGE_CLONE_OFFSET UNITYSDK_OFFSET(0x1EC9E8B0)
+#define SPINE_ATLASPAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EC9C8B0)
 
 namespace Spine
 {
-	inline static constexpr unsigned int AtlasPage_TypeDefinitionIndex = 38349;
+	inline static constexpr unsigned int AtlasPage_TypeDefinitionIndex = 39646;
 
 	class AtlasPage : public ::System::Object
 	{
 	public:
 		::System::Object* rendererObject; // 0x10
 		::System::String* name; // 0x18
-		::System::Int32 width; // 0x20
-		::Spine::TextureWrap vWrap; // 0x24
-		::Spine::TextureFilter magFilter; // 0x28
-		::Spine::TextureFilter minFilter; // 0x2C
-		::System::Int32 height; // 0x30
-		::System::Boolean pma; // 0x34
-		::Spine::Format format; // 0x38
-		::Spine::TextureWrap uWrap; // 0x3C
+		::Spine::TextureFilter minFilter; // 0x20
+		::System::Int32 width; // 0x24
+		::System::Boolean pma; // 0x28
+		::Spine::TextureWrap vWrap; // 0x2C
+		::Spine::TextureFilter magFilter; // 0x30
+		::Spine::Format format; // 0x34
+		::Spine::TextureWrap uWrap; // 0x38
+		::System::Int32 height; // 0x3C
 
 		::System::Void _ctor()
 		{

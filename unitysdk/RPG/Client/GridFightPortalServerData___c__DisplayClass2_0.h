@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_D17272E82AE804C2_469;
+class Class_1_D17272E82AE804C2_492;
 namespace RPG::Client { class GridFightPortalData; }
 
-#define RPG_CLIENT_GRIDFIGHTPORTALSERVERDATA___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD2E86D0)
-#define RPG_CLIENT_GRIDFIGHTPORTALSERVERDATA___C__DISPLAYCLASS2_0__SYNC_B__0_OFFSET UNITYSDK_OFFSET(0xD2E87F0)
+#define RPG_CLIENT_GRIDFIGHTPORTALSERVERDATA___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD1DFE80)
+#define RPG_CLIENT_GRIDFIGHTPORTALSERVERDATA___C__DISPLAYCLASS2_0__SYNC_B__0_OFFSET UNITYSDK_OFFSET(0xD1DFFA0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightPortalServerData___c__DisplayClass2_0_TypeDefinitionIndex = 65145;
+	inline static constexpr unsigned int GridFightPortalServerData___c__DisplayClass2_0_TypeDefinitionIndex = 65085;
 
 	class GridFightPortalServerData___c__DisplayClass2_0 : public ::System::Object
 	{
 	public:
-		::Class_1_D17272E82AE804C2_469* update; // 0x10
+		::Class_1_D17272E82AE804C2_492* update; // 0x10
 
 		::System::Void _ctor()
 		{

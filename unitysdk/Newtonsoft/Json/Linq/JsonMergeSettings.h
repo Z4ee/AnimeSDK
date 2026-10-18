@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define NEWTONSOFT_JSON_LINQ_JSONMERGESETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1BEC41F0)
+#define NEWTONSOFT_JSON_LINQ_JSONMERGESETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1C3D07A0)
 
 namespace Newtonsoft::Json::Linq
 {
-	inline static constexpr unsigned int JsonMergeSettings_TypeDefinitionIndex = 9697;
+	inline static constexpr unsigned int JsonMergeSettings_TypeDefinitionIndex = 9755;
 
 	class JsonMergeSettings : public ::System::Object
 	{

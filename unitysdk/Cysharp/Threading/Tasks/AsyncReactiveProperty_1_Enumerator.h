@@ -14,7 +14,7 @@ namespace System { template <typename T> class Action_1; }
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int AsyncReactiveProperty_1_Enumerator_TypeDefinitionIndex = 42539;
+	inline static constexpr unsigned int AsyncReactiveProperty_1_Enumerator_TypeDefinitionIndex = 38124;
 
 	template <typename T>
 	class AsyncReactiveProperty_1_Enumerator : public ::Cysharp::Threading::Tasks::MoveNextSource

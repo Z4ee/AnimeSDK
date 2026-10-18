@@ -4,7 +4,7 @@
 
 namespace RPG::GameCore { class FiveDimFloatingSpiritPropSpawnerParam; }
 
-inline static constexpr unsigned int Struct_2_58DDD773EFCC5548_TypeDefinitionIndex = 41848;
+inline static constexpr unsigned int Struct_2_58DDD773EFCC5548_TypeDefinitionIndex = 43490;
 
 struct alignas(8) Struct_2_58DDD773EFCC5548
 {

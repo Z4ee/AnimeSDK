@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class RogueTournRelicCocoonData; }
 
-#define RPG_CLIENT_ROGUETOURNRELICCOCOONCOLLECTION___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0xDFA30B0)
-#define RPG_CLIENT_ROGUETOURNRELICCOCOONCOLLECTION___C__DISPLAYCLASS17_0___GENERATECOCOONDATADICT_B__0_OFFSET UNITYSDK_OFFSET(0xDFA34C0)
+#define RPG_CLIENT_ROGUETOURNRELICCOCOONCOLLECTION___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0xE039A50)
+#define RPG_CLIENT_ROGUETOURNRELICCOCOONCOLLECTION___C__DISPLAYCLASS17_0___GENERATECOCOONDATADICT_B__0_OFFSET UNITYSDK_OFFSET(0xE039E60)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournRelicCocoonCollection___c__DisplayClass17_0_TypeDefinitionIndex = 67767;
+	inline static constexpr unsigned int RogueTournRelicCocoonCollection___c__DisplayClass17_0_TypeDefinitionIndex = 67769;
 
 	class RogueTournRelicCocoonCollection___c__DisplayClass17_0 : public ::System::Object
 	{

@@ -6,21 +6,21 @@ namespace MiHoYo::SDK { class NetworkResponseModel; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_REQUESTMANAGER___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BABBE30)
-#define MIHOYO_SDK_REQUESTMANAGER___C__DISPLAYCLASS7_0__MOBILECAPTCHA_B__0_OFFSET UNITYSDK_OFFSET(0x1BAC5B50)
+#define MIHOYO_SDK_REQUESTMANAGER___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BFC6900)
+#define MIHOYO_SDK_REQUESTMANAGER___C__DISPLAYCLASS7_0__MOBILECAPTCHA_B__0_OFFSET UNITYSDK_OFFSET(0x1BFD0620)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int RequestManager___c__DisplayClass7_0_TypeDefinitionIndex = 8017;
+	inline static constexpr unsigned int RequestManager___c__DisplayClass7_0_TypeDefinitionIndex = 8060;
 
 	class RequestManager___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:
-		::System::String* ticket; // 0x10
-		::System::String* mobile; // 0x18
-		::System::String* actionType; // 0x20
-		::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* callback; // 0x28
-		::System::String* url; // 0x30
+		::System::String* mobile; // 0x10
+		::System::String* url; // 0x18
+		::System::String* ticket; // 0x20
+		::System::String* actionType; // 0x28
+		::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* callback; // 0x30
 
 		::System::Void _ctor()
 		{

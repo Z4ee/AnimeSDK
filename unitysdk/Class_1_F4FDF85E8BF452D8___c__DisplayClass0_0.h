@@ -4,10 +4,10 @@
 
 namespace RPG::GameCore::Match3 { class MatchThree1v1AILevelConfig; }
 
-#define CLASS_1_F4FDF85E8BF452D8___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C54BBE0)
-#define CLASS_1_F4FDF85E8BF452D8___C__DISPLAYCLASS0_0___CTOR_B__0_OFFSET UNITYSDK_OFFSET(0x1C553B50)
+#define CLASS_1_F4FDF85E8BF452D8___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1CABF740)
+#define CLASS_1_F4FDF85E8BF452D8___C__DISPLAYCLASS0_0___CTOR_B__0_OFFSET UNITYSDK_OFFSET(0x1CAC7460)
 
-inline static constexpr unsigned int Class_1_F4FDF85E8BF452D8___c__DisplayClass0_0_TypeDefinitionIndex = 41421;
+inline static constexpr unsigned int Class_1_F4FDF85E8BF452D8___c__DisplayClass0_0_TypeDefinitionIndex = 43033;
 
 class Class_1_F4FDF85E8BF452D8___c__DisplayClass0_0 : public ::System::Object
 {

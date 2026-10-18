@@ -5,34 +5,34 @@
 namespace RPG::Client { class GridFightGridMember; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_GRIDFIGHTPROJECTIONCONFIG___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD2F18E0)
-#define RPG_CLIENT_GRIDFIGHTPROJECTIONCONFIG___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD2F1920)
-#define RPG_CLIENT_GRIDFIGHTPROJECTIONCONFIG___C__GETTRAITSUMMONRULEACTIVE_B__32_0_OFFSET UNITYSDK_OFFSET(0xD2F1A30)
-#define RPG_CLIENT_GRIDFIGHTPROJECTIONCONFIG___C__GET_SORTEDTRAITIDS_B__9_0_OFFSET UNITYSDK_OFFSET(0xD2F1930)
-#define RPG_CLIENT_GRIDFIGHTPROJECTIONCONFIG___C___GETUNLOCKRULETIP_B__33_0_OFFSET UNITYSDK_OFFSET(0xD2F1AA0)
+#define RPG_CLIENT_GRIDFIGHTPROJECTIONCONFIG___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD1E8AA0)
+#define RPG_CLIENT_GRIDFIGHTPROJECTIONCONFIG___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD1E8AE0)
+#define RPG_CLIENT_GRIDFIGHTPROJECTIONCONFIG___C__GETTRAITSUMMONRULEACTIVE_B__32_0_OFFSET UNITYSDK_OFFSET(0xD1E8BF0)
+#define RPG_CLIENT_GRIDFIGHTPROJECTIONCONFIG___C__GET_SORTEDTRAITIDS_B__9_0_OFFSET UNITYSDK_OFFSET(0xD1E8AF0)
+#define RPG_CLIENT_GRIDFIGHTPROJECTIONCONFIG___C___GETUNLOCKRULETIP_B__33_0_OFFSET UNITYSDK_OFFSET(0xD1E8C60)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightProjectionConfig___c_TypeDefinitionIndex = 65141;
+	inline static constexpr unsigned int GridFightProjectionConfig___c_TypeDefinitionIndex = 65081;
 
 	class GridFightProjectionConfig___c : public ::System::Object
 	{
 	public:
+		static ::System::Func_2<::System::UInt32, ::System::UInt32>** StaticGet___9__33_0()
+		{
+			return (::System::Func_2<::System::UInt32, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(GridFightProjectionConfig___c_TypeDefinitionIndex)->GetStaticField(0x6E160);
+		}
 		static ::System::Func_2<::RPG::Client::GridFightGridMember*, ::System::Boolean>** StaticGet___9__32_0()
 		{
-			return (::System::Func_2<::RPG::Client::GridFightGridMember*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(GridFightProjectionConfig___c_TypeDefinitionIndex)->GetStaticField(0x43820);
+			return (::System::Func_2<::RPG::Client::GridFightGridMember*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(GridFightProjectionConfig___c_TypeDefinitionIndex)->GetStaticField(0x6E168);
 		}
 		static ::RPG::Client::GridFightProjectionConfig___c** StaticGet___9()
 		{
-			return (::RPG::Client::GridFightProjectionConfig___c**)Il2CppClass::FromTypeDefinitionIndex(GridFightProjectionConfig___c_TypeDefinitionIndex)->GetStaticField(0x43828);
-		}
-		static ::System::Func_2<::System::UInt32, ::System::UInt32>** StaticGet___9__33_0()
-		{
-			return (::System::Func_2<::System::UInt32, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(GridFightProjectionConfig___c_TypeDefinitionIndex)->GetStaticField(0x43830);
+			return (::RPG::Client::GridFightProjectionConfig___c**)Il2CppClass::FromTypeDefinitionIndex(GridFightProjectionConfig___c_TypeDefinitionIndex)->GetStaticField(0x6E170);
 		}
 		static ::System::Func_2<::System::UInt32, ::System::UInt32>** StaticGet___9__9_0()
 		{
-			return (::System::Func_2<::System::UInt32, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(GridFightProjectionConfig___c_TypeDefinitionIndex)->GetStaticField(0x43838);
+			return (::System::Func_2<::System::UInt32, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(GridFightProjectionConfig___c_TypeDefinitionIndex)->GetStaticField(0x6E178);
 		}
 
 		static ::System::Void _cctor()

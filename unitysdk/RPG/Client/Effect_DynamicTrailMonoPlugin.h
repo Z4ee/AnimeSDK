@@ -5,11 +5,11 @@
 namespace RPG::Client { class DynamicTrailModule; }
 namespace RPG::Client { class Effect_DynamicTrailBehavior; }
 
-#define RPG_CLIENT_EFFECT_DYNAMICTRAILMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xCDD4F80)
+#define RPG_CLIENT_EFFECT_DYNAMICTRAILMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xCD257D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_DynamicTrailMonoPlugin_TypeDefinitionIndex = 70411;
+	inline static constexpr unsigned int Effect_DynamicTrailMonoPlugin_TypeDefinitionIndex = 70447;
 
 	class Effect_DynamicTrailMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::Effect_DynamicTrailBehavior*>
 	{

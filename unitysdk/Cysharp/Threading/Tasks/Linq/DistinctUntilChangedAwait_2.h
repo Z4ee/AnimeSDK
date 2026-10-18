@@ -11,7 +11,7 @@ namespace System::Collections::Generic { template <typename T> class IEqualityCo
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int DistinctUntilChangedAwait_2_TypeDefinitionIndex = 44209;
+	inline static constexpr unsigned int DistinctUntilChangedAwait_2_TypeDefinitionIndex = 45348;
 
 	template <typename TSource, typename TKey>
 	class DistinctUntilChangedAwait_2 : public ::System::Object

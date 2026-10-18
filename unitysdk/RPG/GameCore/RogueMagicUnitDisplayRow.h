@@ -6,19 +6,19 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ROGUEMAGICUNITDISPLAYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3F13E0)
-#define RPG_GAMECORE_ROGUEMAGICUNITDISPLAYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3F15A0)
+#define RPG_GAMECORE_ROGUEMAGICUNITDISPLAYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D9D7B50)
+#define RPG_GAMECORE_ROGUEMAGICUNITDISPLAYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D9D7D10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueMagicUnitDisplayRow_TypeDefinitionIndex = 14721;
+	inline static constexpr unsigned int RogueMagicUnitDisplayRow_TypeDefinitionIndex = 14886;
 
 	class RogueMagicUnitDisplayRow : public ::System::Object
 	{
 	public:
 		::System::String* MagicUnitIcon; // 0x10
-		::System::UInt32 MagicUnitID; // 0x18
-		::RPG::Client::TextID MagicUnitName; // 0x20
+		::RPG::Client::TextID MagicUnitName; // 0x18
+		::System::UInt32 MagicUnitID; // 0x28
 
 		::System::Void _ctor()
 		{

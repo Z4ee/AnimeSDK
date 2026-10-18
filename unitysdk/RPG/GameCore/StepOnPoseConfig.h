@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_STEPONPOSECONFIG_METHOD_2_8F7F4D0072747428_OFFSET UNITYSDK_OFFSET(0x1D56E660)
-#define RPG_GAMECORE_STEPONPOSECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D56E910)
+#define RPG_GAMECORE_STEPONPOSECONFIG_METHOD_2_8F7F4D0072747428_OFFSET UNITYSDK_OFFSET(0x1DB24050)
+#define RPG_GAMECORE_STEPONPOSECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB24300)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StepOnPoseConfig_TypeDefinitionIndex = 16231;
+	inline static constexpr unsigned int StepOnPoseConfig_TypeDefinitionIndex = 16404;
 
 	class StepOnPoseConfig : public ::RPG::GameCore::JsonConfig
 	{

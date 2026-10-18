@@ -5,24 +5,24 @@
 namespace RPG::Client { class ChallengePeak; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_MESSAGECONTENTCHALLENGEPEAKTEAMBLOCK___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD6A1CF0)
-#define RPG_CLIENT_MESSAGECONTENTCHALLENGEPEAKTEAMBLOCK___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD6A1D30)
-#define RPG_CLIENT_MESSAGECONTENTCHALLENGEPEAKTEAMBLOCK___C___CTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0xD6A1D40)
+#define RPG_CLIENT_MESSAGECONTENTCHALLENGEPEAKTEAMBLOCK___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD69E870)
+#define RPG_CLIENT_MESSAGECONTENTCHALLENGEPEAKTEAMBLOCK___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD69E8B0)
+#define RPG_CLIENT_MESSAGECONTENTCHALLENGEPEAKTEAMBLOCK___C___CTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0xD69E8C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MessageContentChallengePeakTeamBlock___c_TypeDefinitionIndex = 63327;
+	inline static constexpr unsigned int MessageContentChallengePeakTeamBlock___c_TypeDefinitionIndex = 63265;
 
 	class MessageContentChallengePeakTeamBlock___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::Client::ChallengePeak*, ::System::Boolean>** StaticGet___9__2_0()
-		{
-			return (::System::Func_2<::RPG::Client::ChallengePeak*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(MessageContentChallengePeakTeamBlock___c_TypeDefinitionIndex)->GetStaticField(0x66AD0);
-		}
 		static ::RPG::Client::MessageContentChallengePeakTeamBlock___c** StaticGet___9()
 		{
-			return (::RPG::Client::MessageContentChallengePeakTeamBlock___c**)Il2CppClass::FromTypeDefinitionIndex(MessageContentChallengePeakTeamBlock___c_TypeDefinitionIndex)->GetStaticField(0x66AD8);
+			return (::RPG::Client::MessageContentChallengePeakTeamBlock___c**)Il2CppClass::FromTypeDefinitionIndex(MessageContentChallengePeakTeamBlock___c_TypeDefinitionIndex)->GetStaticField(0x58450);
+		}
+		static ::System::Func_2<::RPG::Client::ChallengePeak*, ::System::Boolean>** StaticGet___9__2_0()
+		{
+			return (::System::Func_2<::RPG::Client::ChallengePeak*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(MessageContentChallengePeakTeamBlock___c_TypeDefinitionIndex)->GetStaticField(0x58458);
 		}
 
 		static ::System::Void _cctor()

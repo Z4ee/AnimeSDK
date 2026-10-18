@@ -9,7 +9,7 @@ namespace System { template <typename T1, typename T2, typename T3> class Func_3
 
 namespace R3
 {
-	inline static constexpr unsigned int Select_3_TypeDefinitionIndex = 35265;
+	inline static constexpr unsigned int Select_3_TypeDefinitionIndex = 35945;
 
 	template <typename T, typename TResult, typename TState>
 	class Select_3 : public ::R3::Observable_1<TResult>

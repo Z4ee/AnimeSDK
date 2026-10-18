@@ -5,11 +5,11 @@
 namespace RPG::Client::TrainParty { class TrainPartyRecordInfo; }
 namespace RPG::Client::TrainParty { class TrainPartySimpleTalkInfo; }
 
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYSIMPLETALKINFOCREATOR_CREATETALKINFOBYRECORDINFO_OFFSET UNITYSDK_OFFSET(0xE277BC0)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYSIMPLETALKINFOCREATOR_CREATETALKINFOBYRECORDINFO_OFFSET UNITYSDK_OFFSET(0xE2FDD00)
 
 namespace RPG::Client::TrainParty
 {
-	inline static constexpr unsigned int TrainPartySimpleTalkInfoCreator_TypeDefinitionIndex = 74223;
+	inline static constexpr unsigned int TrainPartySimpleTalkInfoCreator_TypeDefinitionIndex = 74322;
 
 	class TrainPartySimpleTalkInfoCreator : public ::System::Object
 	{

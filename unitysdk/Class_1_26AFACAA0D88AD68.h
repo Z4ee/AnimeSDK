@@ -1,0 +1,72 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/PetMarble/PetMarbleMatchModeType.h"
+#include "unitysdk/System/Object.h"
+
+class Class_0_16E4307DCC419505_1353;
+namespace RPG::Client::PetMarble { class PetMarblePVEMatchContext; }
+namespace RPG::Client::Promises { class Promise; }
+
+#define CLASS_1_26AFACAA0D88AD68_METHOD_1_1D1713DC50EF2833_OFFSET UNITYSDK_OFFSET(0x157588C0)
+#define CLASS_1_26AFACAA0D88AD68_METHOD_1_264E9C59ACF6E066_OFFSET UNITYSDK_OFFSET(0x15758630)
+#define CLASS_1_26AFACAA0D88AD68_METHOD_1_458DAEAB6170C584_OFFSET UNITYSDK_OFFSET(0x15758B60)
+#define CLASS_1_26AFACAA0D88AD68_METHOD_1_749948B663FCCCEF_OFFSET UNITYSDK_OFFSET(0x15758990)
+#define CLASS_1_26AFACAA0D88AD68_METHOD_1_A545BDD274253E78_OFFSET UNITYSDK_OFFSET(0x157583D0)
+#define CLASS_1_26AFACAA0D88AD68_METHOD_1_CA373AA1C7054598_1_OFFSET UNITYSDK_OFFSET(0x15758B20)
+#define CLASS_1_26AFACAA0D88AD68_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x15758AE0)
+#define CLASS_1_26AFACAA0D88AD68_METHOD_1_D4C84B0783436B6F_OFFSET UNITYSDK_OFFSET(0x15758380)
+#define CLASS_1_26AFACAA0D88AD68__CTOR_OFFSET UNITYSDK_OFFSET(0x15758BB0)
+
+inline static constexpr unsigned int Class_1_26AFACAA0D88AD68_TypeDefinitionIndex = 74713;
+
+class Class_1_26AFACAA0D88AD68 : public ::System::Object
+{
+public:
+	::Class_0_16E4307DCC419505_1353* CFKHNPGEAJA; // 0x10
+	::RPG::Client::PetMarble::PetMarblePVEMatchContext* EEFMDEHLLFI; // 0x18
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_26AFACAA0D88AD68__CTOR_OFFSET))(this);
+	}
+
+	::RPG::Client::PetMarble::PetMarbleMatchModeType Method_1_D4C84B0783436B6F()
+	{
+		return ((::RPG::Client::PetMarble::PetMarbleMatchModeType(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_26AFACAA0D88AD68_METHOD_1_D4C84B0783436B6F_OFFSET))(this);
+	}
+
+	::RPG::Client::Promises::Promise* Method_1_A545BDD274253E78(::Class_0_16E4307DCC419505_1353* a1)
+	{
+		return ((::RPG::Client::Promises::Promise*(*)(::PVOID, ::Class_0_16E4307DCC419505_1353*))((::PBYTE)hIl2Cpp + CLASS_1_26AFACAA0D88AD68_METHOD_1_A545BDD274253E78_OFFSET))(this, a1);
+	}
+
+	::RPG::Client::Promises::Promise* Method_1_1D1713DC50EF2833()
+	{
+		return ((::RPG::Client::Promises::Promise*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_26AFACAA0D88AD68_METHOD_1_1D1713DC50EF2833_OFFSET))(this);
+	}
+
+	::System::Void Method_1_749948B663FCCCEF()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_26AFACAA0D88AD68_METHOD_1_749948B663FCCCEF_OFFSET))(this);
+	}
+
+	::System::Void Method_1_CA373AA1C7054598()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_26AFACAA0D88AD68_METHOD_1_CA373AA1C7054598_OFFSET))(this);
+	}
+
+	::System::Void Method_1_CA373AA1C7054598_1()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_26AFACAA0D88AD68_METHOD_1_CA373AA1C7054598_1_OFFSET))(this);
+	}
+
+	::System::Void Method_1_458DAEAB6170C584()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_26AFACAA0D88AD68_METHOD_1_458DAEAB6170C584_OFFSET))(this);
+	}
+
+	::System::UInt32 Method_1_264E9C59ACF6E066()
+	{
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_26AFACAA0D88AD68_METHOD_1_264E9C59ACF6E066_OFFSET))(this);
+	}
+};

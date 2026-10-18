@@ -8,34 +8,34 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_PLANETFESAVATARROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D33D370)
-#define RPG_GAMECORE_PLANETFESAVATARROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D33D950)
+#define RPG_GAMECORE_PLANETFESAVATARROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D922650)
+#define RPG_GAMECORE_PLANETFESAVATARROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D922C30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlanetFesAvatarRow_TypeDefinitionIndex = 12108;
+	inline static constexpr unsigned int PlanetFesAvatarRow_TypeDefinitionIndex = 12189;
 
 	class PlanetFesAvatarRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* Skill2List; // 0x10
-		::System::String* AnimConfig; // 0x18
-		::Il2CppArray<::System::UInt32>* GachaUnlockIDList; // 0x20
-		::System::String* Body; // 0x28
-		::System::String* Description; // 0x30
-		::Il2CppArray<::System::UInt32>* Skill1List; // 0x38
-		::System::String* MiniIcon; // 0x40
-		::System::String* MidIcon; // 0x48
-		::System::String* HeadIcon; // 0x50
-		::System::String* CargoIcon; // 0x58
-		::RPG::GameCore::PlanetFesLandType LandType; // 0x60
-		::RPG::GameCore::PlanetFesStandType PlanetType; // 0x64
-		::System::UInt32 CD; // 0x68
-		::RPG::Client::TextID Name; // 0x70
-		::System::UInt32 Rarity; // 0x80
-		::System::UInt32 IncomeParam; // 0x84
-		::System::UInt32 ID; // 0x88
-		::System::UInt32 ItemID; // 0x8C
+		::Il2CppArray<::System::UInt32>* Skill1List; // 0x10
+		::System::String* MiniIcon; // 0x18
+		::System::String* Body; // 0x20
+		::System::String* MidIcon; // 0x28
+		::Il2CppArray<::System::UInt32>* Skill2List; // 0x30
+		::System::String* AnimConfig; // 0x38
+		::System::String* Description; // 0x40
+		::Il2CppArray<::System::UInt32>* GachaUnlockIDList; // 0x48
+		::System::String* CargoIcon; // 0x50
+		::System::String* HeadIcon; // 0x58
+		::RPG::Client::TextID Name; // 0x60
+		::RPG::GameCore::PlanetFesLandType LandType; // 0x70
+		::RPG::GameCore::PlanetFesStandType PlanetType; // 0x74
+		::System::UInt32 ID; // 0x78
+		::System::UInt32 ItemID; // 0x7C
+		::System::UInt32 IncomeParam; // 0x80
+		::System::UInt32 Rarity; // 0x84
+		::System::UInt32 CD; // 0x88
 
 		::System::Void _ctor()
 		{

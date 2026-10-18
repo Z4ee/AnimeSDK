@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_ENVIRONMENTSYSTEM_KEYWORDGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x80380)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM_KEYWORDGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x10480)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EnvironmentSystem_KeywordGroup_TypeDefinitionIndex = 69748;
+	inline static constexpr unsigned int EnvironmentSystem_KeywordGroup_TypeDefinitionIndex = 69783;
 
 	struct alignas(8) EnvironmentSystem_KeywordGroup
 	{

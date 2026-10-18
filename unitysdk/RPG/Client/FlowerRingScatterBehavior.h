@@ -7,90 +7,90 @@ namespace RPG::Client { class FlowerRingScatterMonoPlugin; }
 namespace UnityEngine { class ComputeBuffer; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 
-#define RPG_CLIENT_FLOWERRINGSCATTERBEHAVIOR_GET__OWNER_OFFSET UNITYSDK_OFFSET(0xD0A8450)
-#define RPG_CLIENT_FLOWERRINGSCATTERBEHAVIOR_LATETICK_OFFSET UNITYSDK_OFFSET(0xD0A7480)
-#define RPG_CLIENT_FLOWERRINGSCATTERBEHAVIOR_METHOD_3_151E25A63D14DDB0_OFFSET UNITYSDK_OFFSET(0xD0A7240)
-#define RPG_CLIENT_FLOWERRINGSCATTERBEHAVIOR_METHOD_3_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0xD0A84D0)
-#define RPG_CLIENT_FLOWERRINGSCATTERBEHAVIOR_METHOD_3_4343F372F34C05BF_1_OFFSET UNITYSDK_OFFSET(0xD0A73C0)
-#define RPG_CLIENT_FLOWERRINGSCATTERBEHAVIOR_METHOD_3_4343F372F34C05BF_2_OFFSET UNITYSDK_OFFSET(0xD0A7420)
-#define RPG_CLIENT_FLOWERRINGSCATTERBEHAVIOR_METHOD_3_4343F372F34C05BF_3_OFFSET UNITYSDK_OFFSET(0xD0A8510)
-#define RPG_CLIENT_FLOWERRINGSCATTERBEHAVIOR_METHOD_3_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0xD0A7360)
-#define RPG_CLIENT_FLOWERRINGSCATTERBEHAVIOR_METHOD_3_90A07D9BC1B409B9_OFFSET UNITYSDK_OFFSET(0xD0A6AD0)
-#define RPG_CLIENT_FLOWERRINGSCATTERBEHAVIOR_METHOD_3_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0xD0A6A40)
-#define RPG_CLIENT_FLOWERRINGSCATTERBEHAVIOR_METHOD_3_E2BCD1B56132A826_OFFSET UNITYSDK_OFFSET(0xD0A6B40)
-#define RPG_CLIENT_FLOWERRINGSCATTERBEHAVIOR__CCTOR_OFFSET UNITYSDK_OFFSET(0xD0A8580)
-#define RPG_CLIENT_FLOWERRINGSCATTERBEHAVIOR__CTOR_OFFSET UNITYSDK_OFFSET(0xD0A8570)
+#define RPG_CLIENT_FLOWERRINGSCATTERBEHAVIOR_GET__OWNER_OFFSET UNITYSDK_OFFSET(0xD0490A0)
+#define RPG_CLIENT_FLOWERRINGSCATTERBEHAVIOR_LATETICK_OFFSET UNITYSDK_OFFSET(0xD0480D0)
+#define RPG_CLIENT_FLOWERRINGSCATTERBEHAVIOR_METHOD_3_151E25A63D14DDB0_OFFSET UNITYSDK_OFFSET(0xD047E90)
+#define RPG_CLIENT_FLOWERRINGSCATTERBEHAVIOR_METHOD_3_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0xD049120)
+#define RPG_CLIENT_FLOWERRINGSCATTERBEHAVIOR_METHOD_3_4343F372F34C05BF_1_OFFSET UNITYSDK_OFFSET(0xD048010)
+#define RPG_CLIENT_FLOWERRINGSCATTERBEHAVIOR_METHOD_3_4343F372F34C05BF_2_OFFSET UNITYSDK_OFFSET(0xD048070)
+#define RPG_CLIENT_FLOWERRINGSCATTERBEHAVIOR_METHOD_3_4343F372F34C05BF_3_OFFSET UNITYSDK_OFFSET(0xD049160)
+#define RPG_CLIENT_FLOWERRINGSCATTERBEHAVIOR_METHOD_3_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0xD047FB0)
+#define RPG_CLIENT_FLOWERRINGSCATTERBEHAVIOR_METHOD_3_90A07D9BC1B409B9_OFFSET UNITYSDK_OFFSET(0xD047720)
+#define RPG_CLIENT_FLOWERRINGSCATTERBEHAVIOR_METHOD_3_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0xD047690)
+#define RPG_CLIENT_FLOWERRINGSCATTERBEHAVIOR_METHOD_3_E2BCD1B56132A826_OFFSET UNITYSDK_OFFSET(0xD047790)
+#define RPG_CLIENT_FLOWERRINGSCATTERBEHAVIOR__CCTOR_OFFSET UNITYSDK_OFFSET(0xD0491D0)
+#define RPG_CLIENT_FLOWERRINGSCATTERBEHAVIOR__CTOR_OFFSET UNITYSDK_OFFSET(0xD0491C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FlowerRingScatterBehavior_TypeDefinitionIndex = 70569;
+	inline static constexpr unsigned int FlowerRingScatterBehavior_TypeDefinitionIndex = 70605;
 
 	class FlowerRingScatterBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:
-		static ::System::Int32* StaticGet_ParticleSizeMax()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(FlowerRingScatterBehavior_TypeDefinitionIndex)->GetStaticField(0x7FB0);
-		}
-		static ::System::Int32* StaticGet_ParticleSizeMin()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(FlowerRingScatterBehavior_TypeDefinitionIndex)->GetStaticField(0x7FB4);
-		}
-		static ::System::Int32* StaticGet__ParticleRotationMin()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(FlowerRingScatterBehavior_TypeDefinitionIndex)->GetStaticField(0x7FB8);
-		}
-		static ::System::Int32* StaticGet__RingRadius()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(FlowerRingScatterBehavior_TypeDefinitionIndex)->GetStaticField(0x7FBC);
-		}
-		static ::System::Int32* StaticGet__RingThickness()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(FlowerRingScatterBehavior_TypeDefinitionIndex)->GetStaticField(0x7FC0);
-		}
-		static ::System::Int32* StaticGet__RandomSeed()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(FlowerRingScatterBehavior_TypeDefinitionIndex)->GetStaticField(0x7FC4);
-		}
-		static ::System::Int32* StaticGet__DissolveSmoothness()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(FlowerRingScatterBehavior_TypeDefinitionIndex)->GetStaticField(0x7FC8);
-		}
 		static ::System::Int32* StaticGet__GrowProgress()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(FlowerRingScatterBehavior_TypeDefinitionIndex)->GetStaticField(0x7FCC);
-		}
-		static ::System::Int32* StaticGet__DissolveTexture()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(FlowerRingScatterBehavior_TypeDefinitionIndex)->GetStaticField(0x7FD0);
-		}
-		static ::System::Int32* StaticGet__DissolveProgress()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(FlowerRingScatterBehavior_TypeDefinitionIndex)->GetStaticField(0x7FD4);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(FlowerRingScatterBehavior_TypeDefinitionIndex)->GetStaticField(0x14220);
 		}
 		static ::System::Int32* StaticGet__RandomColor0()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(FlowerRingScatterBehavior_TypeDefinitionIndex)->GetStaticField(0x7FD8);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(FlowerRingScatterBehavior_TypeDefinitionIndex)->GetStaticField(0x14224);
 		}
-		static ::System::Int32* StaticGet__Center()
+		static ::System::Int32* StaticGet_ParticleSizeMax()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(FlowerRingScatterBehavior_TypeDefinitionIndex)->GetStaticField(0x7FDC);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(FlowerRingScatterBehavior_TypeDefinitionIndex)->GetStaticField(0x14228);
 		}
-		static ::System::Int32* StaticGet__RandomColor1()
+		static ::System::Int32* StaticGet__RingThickness()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(FlowerRingScatterBehavior_TypeDefinitionIndex)->GetStaticField(0x7FE0);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(FlowerRingScatterBehavior_TypeDefinitionIndex)->GetStaticField(0x1422C);
 		}
 		static ::System::Int32* StaticGet__ParticleRotationMax()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(FlowerRingScatterBehavior_TypeDefinitionIndex)->GetStaticField(0x7FE4);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(FlowerRingScatterBehavior_TypeDefinitionIndex)->GetStaticField(0x14230);
+		}
+		static ::System::Int32* StaticGet__DissolveSmoothness()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(FlowerRingScatterBehavior_TypeDefinitionIndex)->GetStaticField(0x14234);
+		}
+		static ::System::Int32* StaticGet__DissolveTexture()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(FlowerRingScatterBehavior_TypeDefinitionIndex)->GetStaticField(0x14238);
+		}
+		static ::System::Int32* StaticGet__Center()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(FlowerRingScatterBehavior_TypeDefinitionIndex)->GetStaticField(0x1423C);
+		}
+		static ::System::Int32* StaticGet__RandomColor1()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(FlowerRingScatterBehavior_TypeDefinitionIndex)->GetStaticField(0x14240);
+		}
+		static ::System::Int32* StaticGet__RingRadius()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(FlowerRingScatterBehavior_TypeDefinitionIndex)->GetStaticField(0x14244);
 		}
 		static ::System::Int32* StaticGet__DissolveTile()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(FlowerRingScatterBehavior_TypeDefinitionIndex)->GetStaticField(0x7FE8);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(FlowerRingScatterBehavior_TypeDefinitionIndex)->GetStaticField(0x14248);
+		}
+		static ::System::Int32* StaticGet__DissolveProgress()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(FlowerRingScatterBehavior_TypeDefinitionIndex)->GetStaticField(0x1424C);
 		}
 		static ::System::Int32* StaticGet__GrowRandomSpeed()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(FlowerRingScatterBehavior_TypeDefinitionIndex)->GetStaticField(0x7FEC);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(FlowerRingScatterBehavior_TypeDefinitionIndex)->GetStaticField(0x14250);
+		}
+		static ::System::Int32* StaticGet__RandomSeed()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(FlowerRingScatterBehavior_TypeDefinitionIndex)->GetStaticField(0x14254);
+		}
+		static ::System::Int32* StaticGet_ParticleSizeMin()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(FlowerRingScatterBehavior_TypeDefinitionIndex)->GetStaticField(0x14258);
+		}
+		static ::System::Int32* StaticGet__ParticleRotationMin()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(FlowerRingScatterBehavior_TypeDefinitionIndex)->GetStaticField(0x1425C);
 		}
 		::Il2CppArray<::System::UInt32>* IndirectDrawArgs; // 0x38
 		::UnityEngine::ComputeBuffer* IndirectDrawArgsBuffer; // 0x40

@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PersonalizeCardUseType_TypeDefinitionIndex = 66478;
+	inline static constexpr unsigned int PersonalizeCardUseType_TypeDefinitionIndex = 66449;
 
 	enum class PersonalizeCardUseType : ::System::Int32
 	{

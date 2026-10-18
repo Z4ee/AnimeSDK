@@ -4,12 +4,12 @@
 
 namespace System { class Action; }
 
-#define RPG_CLIENT_GRIDFIGHTMONSTERHPSETRATIOMODIFIER___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD21FA10)
-#define RPG_CLIENT_GRIDFIGHTMONSTERHPSETRATIOMODIFIER___C__DISPLAYCLASS17_0__STARTEDIT_B__0_OFFSET UNITYSDK_OFFSET(0xD21FA20)
+#define RPG_CLIENT_GRIDFIGHTMONSTERHPSETRATIOMODIFIER___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD1C0AF0)
+#define RPG_CLIENT_GRIDFIGHTMONSTERHPSETRATIOMODIFIER___C__DISPLAYCLASS17_0__STARTEDIT_B__0_OFFSET UNITYSDK_OFFSET(0xD1C0B00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightMonsterHPSetRatioModifier___c__DisplayClass17_0_TypeDefinitionIndex = 65084;
+	inline static constexpr unsigned int GridFightMonsterHPSetRatioModifier___c__DisplayClass17_0_TypeDefinitionIndex = 65024;
 
 	class GridFightMonsterHPSetRatioModifier___c__DisplayClass17_0 : public ::System::Object
 	{

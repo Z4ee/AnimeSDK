@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Class_1_3F5064ADB89DA8D3_BodyDataOneofCase_TypeDefinitionIndex = 24769;
+inline static constexpr unsigned int Class_1_3F5064ADB89DA8D3_BodyDataOneofCase_TypeDefinitionIndex = 25052;
 
 enum class Class_1_3F5064ADB89DA8D3_BodyDataOneofCase : ::System::Int32
 {
@@ -25,4 +25,9 @@ enum class Class_1_3F5064ADB89DA8D3_BodyDataOneofCase : ::System::Int32
 	DiceCombatV2DiceChange = 267,
 	TeamTowersPvpStart = 268,
 	TeamTowersPvpEnd = 269,
+	MarbleCoopBossBegin = 280,
+	MarbleCoopBossEnd = 281,
+	MarbleCoopBossRoundBegin = 282,
+	MarbleCoopBossRoundEnd = 283,
+	MarbleCoopBossTurn = 284,
 };

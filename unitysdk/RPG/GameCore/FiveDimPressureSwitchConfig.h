@@ -3,23 +3,23 @@
 #include "unitysdk/RPG/GameCore/LittleGameComponentConfig.h"
 
 class Class_1_7A22A3DBEEDD1F80;
-namespace RPG::GameCore { class FiveDimDynamicVar; }
 namespace RPG::GameCore { class FiveDimTriggerShape; }
+namespace RPG::GameCore { class LittleGameDynamicVar; }
 namespace RPG::GameCore { class LittleGameEvent; }
 
-#define RPG_GAMECORE_FIVEDIMPRESSURESWITCHCONFIG_METHOD_3_9C7EDA87D4D0F8E0_OFFSET UNITYSDK_OFFSET(0x1D0FA130)
-#define RPG_GAMECORE_FIVEDIMPRESSURESWITCHCONFIG_METHOD_3_D0156A335922FBAE_OFFSET UNITYSDK_OFFSET(0x1D0FA170)
-#define RPG_GAMECORE_FIVEDIMPRESSURESWITCHCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0FA160)
+#define RPG_GAMECORE_FIVEDIMPRESSURESWITCHCONFIG_METHOD_3_9C7EDA87D4D0F8E0_OFFSET UNITYSDK_OFFSET(0x1D6D31A0)
+#define RPG_GAMECORE_FIVEDIMPRESSURESWITCHCONFIG_METHOD_3_D0156A335922FBAE_OFFSET UNITYSDK_OFFSET(0x1D6D31E0)
+#define RPG_GAMECORE_FIVEDIMPRESSURESWITCHCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6D31D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimPressureSwitchConfig_TypeDefinitionIndex = 18343;
+	inline static constexpr unsigned int FiveDimPressureSwitchConfig_TypeDefinitionIndex = 18558;
 
 	class FiveDimPressureSwitchConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:
 		::System::Boolean IsPressureSwitch; // 0x10
-		::RPG::GameCore::FiveDimDynamicVar* BindLevelVarName; // 0x18
+		::RPG::GameCore::LittleGameDynamicVar* BindLevelVarName; // 0x18
 		::Il2CppArray<::System::Int16>* PressValues; // 0x20
 		::Il2CppArray<::System::Int16>* ReleaseValues; // 0x28
 		::RPG::GameCore::FiveDimTriggerShape* TriggerShape; // 0x30

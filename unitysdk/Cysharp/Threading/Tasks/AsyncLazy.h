@@ -8,30 +8,30 @@ namespace Cysharp::Threading::Tasks { class UniTaskCompletionSource; }
 namespace System { template <typename T> class Action_1; }
 namespace System { template <typename T> class Func_1; }
 
-#define CYSHARP_THREADING_TASKS_ASYNCLAZY_ENSUREINITIALIZEDCORE_OFFSET UNITYSDK_OFFSET(0x1EA4BE60)
-#define CYSHARP_THREADING_TASKS_ASYNCLAZY_ENSUREINITIALIZED_OFFSET UNITYSDK_OFFSET(0x1EA4BE00)
-#define CYSHARP_THREADING_TASKS_ASYNCLAZY_GETAWAITER_OFFSET UNITYSDK_OFFSET(0x1EA4BE10)
-#define CYSHARP_THREADING_TASKS_ASYNCLAZY_GET_TASK_OFFSET UNITYSDK_OFFSET(0x1EA4BDB0)
-#define CYSHARP_THREADING_TASKS_ASYNCLAZY_SETCOMPLETIONSOURCE_1_OFFSET UNITYSDK_OFFSET(0x1EA4C060)
-#define CYSHARP_THREADING_TASKS_ASYNCLAZY_SETCOMPLETIONSOURCE_OFFSET UNITYSDK_OFFSET(0x1EA4BD10)
-#define CYSHARP_THREADING_TASKS_ASYNCLAZY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EA4C1C0)
-#define CYSHARP_THREADING_TASKS_ASYNCLAZY__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1EA4BBE0)
-#define CYSHARP_THREADING_TASKS_ASYNCLAZY__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA4BB80)
+#define CYSHARP_THREADING_TASKS_ASYNCLAZY_ENSUREINITIALIZEDCORE_OFFSET UNITYSDK_OFFSET(0x1F113810)
+#define CYSHARP_THREADING_TASKS_ASYNCLAZY_ENSUREINITIALIZED_OFFSET UNITYSDK_OFFSET(0x1F1137B0)
+#define CYSHARP_THREADING_TASKS_ASYNCLAZY_GETAWAITER_OFFSET UNITYSDK_OFFSET(0x1F1137C0)
+#define CYSHARP_THREADING_TASKS_ASYNCLAZY_GET_TASK_OFFSET UNITYSDK_OFFSET(0x1F113760)
+#define CYSHARP_THREADING_TASKS_ASYNCLAZY_SETCOMPLETIONSOURCE_1_OFFSET UNITYSDK_OFFSET(0x1F113A10)
+#define CYSHARP_THREADING_TASKS_ASYNCLAZY_SETCOMPLETIONSOURCE_OFFSET UNITYSDK_OFFSET(0x1F1136C0)
+#define CYSHARP_THREADING_TASKS_ASYNCLAZY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F113B70)
+#define CYSHARP_THREADING_TASKS_ASYNCLAZY__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F113590)
+#define CYSHARP_THREADING_TASKS_ASYNCLAZY__CTOR_OFFSET UNITYSDK_OFFSET(0x1F113530)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int AsyncLazy_TypeDefinitionIndex = 42531;
+	inline static constexpr unsigned int AsyncLazy_TypeDefinitionIndex = 38116;
 
 	class AsyncLazy : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::System::Object*>** StaticGet_continuation()
 		{
-			return (::System::Action_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(AsyncLazy_TypeDefinitionIndex)->GetStaticField(0x55870);
+			return (::System::Action_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(AsyncLazy_TypeDefinitionIndex)->GetStaticField(0x3E9C0);
 		}
-		::System::Func_1<::Cysharp::Threading::Tasks::UniTask>* taskFactory; // 0x10
-		::Cysharp::Threading::Tasks::UniTask_Awaiter awaiter; // 0x18
-		::Cysharp::Threading::Tasks::UniTaskCompletionSource* completionSource; // 0x28
+		::Cysharp::Threading::Tasks::UniTaskCompletionSource* completionSource; // 0x10
+		::System::Func_1<::Cysharp::Threading::Tasks::UniTask>* taskFactory; // 0x18
+		::Cysharp::Threading::Tasks::UniTask_Awaiter awaiter; // 0x20
 		::System::Object* syncLock; // 0x30
 		::System::Boolean initialized; // 0x38
 

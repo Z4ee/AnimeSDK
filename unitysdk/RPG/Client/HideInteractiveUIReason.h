@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int HideInteractiveUIReason_TypeDefinitionIndex = 61384;
+	inline static constexpr unsigned int HideInteractiveUIReason_TypeDefinitionIndex = 61290;
 
 	enum class HideInteractiveUIReason : ::System::Int32
 	{

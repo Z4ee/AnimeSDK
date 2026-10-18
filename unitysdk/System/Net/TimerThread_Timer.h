@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_NET_TIMERTHREAD_TIMER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1E9C56F0)
-#define SYSTEM_NET_TIMERTHREAD_TIMER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E9C56A0)
+#define SYSTEM_NET_TIMERTHREAD_TIMER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1F08D3F0)
+#define SYSTEM_NET_TIMERTHREAD_TIMER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F08D3A0)
 
 namespace System::Net
 {
@@ -12,8 +12,8 @@ namespace System::Net
 	class TimerThread_Timer : public ::System::Object
 	{
 	public:
-		::System::Int32 m_DurationMilliseconds; // 0x10
-		::System::Int32 m_StartTimeMilliseconds; // 0x14
+		::System::Int32 m_StartTimeMilliseconds; // 0x10
+		::System::Int32 m_DurationMilliseconds; // 0x14
 
 		::System::Void _ctor(::System::Int32 a1)
 		{

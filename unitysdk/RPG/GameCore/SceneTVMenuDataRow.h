@@ -5,23 +5,23 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_SCENETVMENUDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D4D5910)
-#define RPG_GAMECORE_SCENETVMENUDATAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D4D5C10)
+#define RPG_GAMECORE_SCENETVMENUDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DA89240)
+#define RPG_GAMECORE_SCENETVMENUDATAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1DA89540)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SceneTVMenuDataRow_TypeDefinitionIndex = 14397;
+	inline static constexpr unsigned int SceneTVMenuDataRow_TypeDefinitionIndex = 14562;
 
 	class SceneTVMenuDataRow : public ::System::Object
 	{
 	public:
-		::System::String* Asset; // 0x10
-		::System::String* SoundEvent; // 0x18
-		::System::String* IfAnAsset; // 0x20
-		::System::Int32 Order; // 0x28
-		::System::Int32 PlayType; // 0x2C
-		::System::UInt32 ID; // 0x30
-		::System::Int32 ProgramGroupID; // 0x34
+		::System::String* SoundEvent; // 0x10
+		::System::String* IfAnAsset; // 0x18
+		::System::String* Asset; // 0x20
+		::System::UInt32 ID; // 0x28
+		::System::Int32 Order; // 0x2C
+		::System::Int32 ProgramGroupID; // 0x30
+		::System::Int32 PlayType; // 0x34
 		::System::Single Duration; // 0x38
 
 		::System::Void _ctor()

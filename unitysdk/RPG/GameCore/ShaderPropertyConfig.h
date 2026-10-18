@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_SHADERPROPERTYCONFIG_METHOD_2_E7BC312AD1AC9CBB_OFFSET UNITYSDK_OFFSET(0x1D519DA0)
-#define RPG_GAMECORE_SHADERPROPERTYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D51A010)
+#define RPG_GAMECORE_SHADERPROPERTYCONFIG_METHOD_2_E7BC312AD1AC9CBB_OFFSET UNITYSDK_OFFSET(0x1DACE5A0)
+#define RPG_GAMECORE_SHADERPROPERTYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1DACE810)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShaderPropertyConfig_TypeDefinitionIndex = 19650;
+	inline static constexpr unsigned int ShaderPropertyConfig_TypeDefinitionIndex = 19880;
 
 	class ShaderPropertyConfig : public ::RPG::GameCore::JsonConfig
 	{

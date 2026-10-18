@@ -7,26 +7,26 @@
 
 namespace UnityEngine::ProBuilder { class ProBuilderMesh; }
 
-#define UNITYENGINE_PROBUILDER_SHAPES_TORUS_COPYSHAPE_OFFSET UNITYSDK_OFFSET(0x1EBBE100)
-#define UNITYENGINE_PROBUILDER_SHAPES_TORUS_GETCIRCLEPOINTS_1_OFFSET UNITYSDK_OFFSET(0x1EBBF490)
-#define UNITYENGINE_PROBUILDER_SHAPES_TORUS_GETCIRCLEPOINTS_OFFSET UNITYSDK_OFFSET(0x1EBBEEA0)
-#define UNITYENGINE_PROBUILDER_SHAPES_TORUS_REBUILDMESH_OFFSET UNITYSDK_OFFSET(0x1EBBE220)
-#define UNITYENGINE_PROBUILDER_SHAPES_TORUS_UPDATEBOUNDS_OFFSET UNITYSDK_OFFSET(0x1EBBE190)
-#define UNITYENGINE_PROBUILDER_SHAPES_TORUS__CTOR_OFFSET UNITYSDK_OFFSET(0x1EBBF9C0)
+#define UNITYENGINE_PROBUILDER_SHAPES_TORUS_COPYSHAPE_OFFSET UNITYSDK_OFFSET(0x1F285C80)
+#define UNITYENGINE_PROBUILDER_SHAPES_TORUS_GETCIRCLEPOINTS_1_OFFSET UNITYSDK_OFFSET(0x1F287010)
+#define UNITYENGINE_PROBUILDER_SHAPES_TORUS_GETCIRCLEPOINTS_OFFSET UNITYSDK_OFFSET(0x1F286A20)
+#define UNITYENGINE_PROBUILDER_SHAPES_TORUS_REBUILDMESH_OFFSET UNITYSDK_OFFSET(0x1F285DA0)
+#define UNITYENGINE_PROBUILDER_SHAPES_TORUS_UPDATEBOUNDS_OFFSET UNITYSDK_OFFSET(0x1F285D10)
+#define UNITYENGINE_PROBUILDER_SHAPES_TORUS__CTOR_OFFSET UNITYSDK_OFFSET(0x1F287540)
 
 namespace UnityEngine::ProBuilder::Shapes
 {
-	inline static constexpr unsigned int Torus_TypeDefinitionIndex = 43281;
+	inline static constexpr unsigned int Torus_TypeDefinitionIndex = 44473;
 
 	class Torus : public ::UnityEngine::ProBuilder::Shapes::Shape
 	{
 	public:
-		::System::Int32 m_Columns; // 0x10
-		::System::Single m_TubeRadius; // 0x14
-		::System::Single m_VerticalCircumference; // 0x18
-		::System::Int32 m_Rows; // 0x1C
-		::System::Single m_HorizontalCircumference; // 0x20
-		::System::Boolean m_Smooth; // 0x24
+		::System::Single m_TubeRadius; // 0x10
+		::System::Single m_VerticalCircumference; // 0x14
+		::System::Single m_HorizontalCircumference; // 0x18
+		::System::Int32 m_Columns; // 0x1C
+		::System::Boolean m_Smooth; // 0x20
+		::System::Int32 m_Rows; // 0x24
 
 		::System::Void _ctor()
 		{

@@ -4,7 +4,7 @@
 
 namespace System::Threading::Tasks::Sources
 {
-	inline static constexpr unsigned int IValueTaskSource_1_TypeDefinitionIndex = 6670;
+	inline static constexpr unsigned int IValueTaskSource_1_TypeDefinitionIndex = 6679;
 
 	template <typename TResult>
 	class IValueTaskSource_1

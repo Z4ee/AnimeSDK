@@ -5,27 +5,27 @@
 
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define CLASS_1_16301709DD0B0FD3___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15CE9C20)
-#define CLASS_1_16301709DD0B0FD3___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15CE9C60)
-#define CLASS_1_16301709DD0B0FD3___C__HASVALUE_B__1_0_OFFSET UNITYSDK_OFFSET(0x15CE9C70)
-#define CLASS_1_16301709DD0B0FD3___C__ISPOSITIVE_B__3_0_OFFSET UNITYSDK_OFFSET(0x15CE9CA0)
+#define CLASS_1_16301709DD0B0FD3___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x162E1DF0)
+#define CLASS_1_16301709DD0B0FD3___C__CTOR_OFFSET UNITYSDK_OFFSET(0x162E1E30)
+#define CLASS_1_16301709DD0B0FD3___C__HASVALUE_B__1_0_OFFSET UNITYSDK_OFFSET(0x162E1E40)
+#define CLASS_1_16301709DD0B0FD3___C__ISPOSITIVE_B__3_0_OFFSET UNITYSDK_OFFSET(0x162E1E70)
 
-inline static constexpr unsigned int Class_1_16301709DD0B0FD3___c_TypeDefinitionIndex = 50305;
+inline static constexpr unsigned int Class_1_16301709DD0B0FD3___c_TypeDefinitionIndex = 49979;
 
 class Class_1_16301709DD0B0FD3___c : public ::System::Object
 {
 public:
-	static ::System::Func_2<::System::Int32, ::System::Boolean>** StaticGet___9__3_0()
+	static ::System::Func_2<::RPG::Client::TextID, ::System::Boolean>** StaticGet___9__1_0()
 	{
-		return (::System::Func_2<::System::Int32, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_16301709DD0B0FD3___c_TypeDefinitionIndex)->GetStaticField(0x2F360);
+		return (::System::Func_2<::RPG::Client::TextID, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_16301709DD0B0FD3___c_TypeDefinitionIndex)->GetStaticField(0x6D660);
 	}
 	static ::Class_1_16301709DD0B0FD3___c** StaticGet___9()
 	{
-		return (::Class_1_16301709DD0B0FD3___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_16301709DD0B0FD3___c_TypeDefinitionIndex)->GetStaticField(0x2F368);
+		return (::Class_1_16301709DD0B0FD3___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_16301709DD0B0FD3___c_TypeDefinitionIndex)->GetStaticField(0x6D668);
 	}
-	static ::System::Func_2<::RPG::Client::TextID, ::System::Boolean>** StaticGet___9__1_0()
+	static ::System::Func_2<::System::Int32, ::System::Boolean>** StaticGet___9__3_0()
 	{
-		return (::System::Func_2<::RPG::Client::TextID, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_16301709DD0B0FD3___c_TypeDefinitionIndex)->GetStaticField(0x2F370);
+		return (::System::Func_2<::System::Int32, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_16301709DD0B0FD3___c_TypeDefinitionIndex)->GetStaticField(0x6D670);
 	}
 
 	static ::System::Void _cctor()

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AdvEntitySyncFreeStyleWithSound; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_1157F0F027754978_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC7A72C0)
-#define CLASS_3_1157F0F027754978__CTOR_OFFSET UNITYSDK_OFFSET(0xC7A7290)
+#define CLASS_3_1157F0F027754978_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC7367E0)
+#define CLASS_3_1157F0F027754978__CTOR_OFFSET UNITYSDK_OFFSET(0xC7367B0)
 
-inline static constexpr unsigned int Class_3_1157F0F027754978_TypeDefinitionIndex = 52647;
+inline static constexpr unsigned int Class_3_1157F0F027754978_TypeDefinitionIndex = 52372;
 
 class Class_3_1157F0F027754978 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AdvEntitySyncFreeStyleWithSound*>
 {

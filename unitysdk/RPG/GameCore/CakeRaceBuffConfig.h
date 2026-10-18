@@ -8,12 +8,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class CakeRaceEventHandler; }
 namespace RPG::GameCore { class CakeRacePropertyModifier; }
 
-#define RPG_GAMECORE_CAKERACEBUFFCONFIG_METHOD_2_B6D0FE43E2FFB509_OFFSET UNITYSDK_OFFSET(0x1CF73150)
-#define RPG_GAMECORE_CAKERACEBUFFCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF733E0)
+#define RPG_GAMECORE_CAKERACEBUFFCONFIG_METHOD_2_B6D0FE43E2FFB509_OFFSET UNITYSDK_OFFSET(0x1D54CB70)
+#define RPG_GAMECORE_CAKERACEBUFFCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D54CE00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CakeRaceBuffConfig_TypeDefinitionIndex = 18154;
+	inline static constexpr unsigned int CakeRaceBuffConfig_TypeDefinitionIndex = 18369;
 
 	class CakeRaceBuffConfig : public ::RPG::GameCore::JsonConfig
 	{

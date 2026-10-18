@@ -5,12 +5,12 @@
 namespace RPG::Client { class EntityTimelineControlNode; }
 namespace RPG::Client { class TimeRewindPathRuntime; }
 
-#define RPG_CLIENT_ENTITYTIMELINECONTROLTRACKINFO_METHOD_1_6B72D4EE8C6E907F_OFFSET UNITYSDK_OFFSET(0xCEA4F80)
-#define RPG_CLIENT_ENTITYTIMELINECONTROLTRACKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xCEA5100)
+#define RPG_CLIENT_ENTITYTIMELINECONTROLTRACKINFO_METHOD_1_6B72D4EE8C6E907F_OFFSET UNITYSDK_OFFSET(0xCDF4420)
+#define RPG_CLIENT_ENTITYTIMELINECONTROLTRACKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xCDF45A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EntityTimelineControlTrackInfo_TypeDefinitionIndex = 63833;
+	inline static constexpr unsigned int EntityTimelineControlTrackInfo_TypeDefinitionIndex = 63771;
 
 	class EntityTimelineControlTrackInfo : public ::System::Object
 	{

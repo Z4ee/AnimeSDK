@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-namespace RPG::Client::CrowdAnimator { class CrowdInstance; }
-namespace RPG::Client::CrowdAnimator { class CrowdVariant; }
+namespace RPG::Client { class IRogueTournPersonaRoomCardInGame; }
+namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_1042_TypeDefinitionIndex = 69104;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_1042_TypeDefinitionIndex = 67036;
 
 class Class_0_16E4307DCC419505_1042
 {

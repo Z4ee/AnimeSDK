@@ -6,10 +6,10 @@
 namespace RPG::GameCore { class CalcYawAngle; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_FA6C6BBA35575985_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBD71D80)
-#define CLASS_3_FA6C6BBA35575985__CTOR_OFFSET UNITYSDK_OFFSET(0xBD71CA0)
+#define CLASS_3_FA6C6BBA35575985_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBC4C3F0)
+#define CLASS_3_FA6C6BBA35575985__CTOR_OFFSET UNITYSDK_OFFSET(0xBC4C310)
 
-inline static constexpr unsigned int Class_3_FA6C6BBA35575985_TypeDefinitionIndex = 56536;
+inline static constexpr unsigned int Class_3_FA6C6BBA35575985_TypeDefinitionIndex = 56349;
 
 class Class_3_FA6C6BBA35575985 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::CalcYawAngle*>
 {

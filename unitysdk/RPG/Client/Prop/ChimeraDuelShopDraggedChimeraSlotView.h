@@ -6,12 +6,12 @@
 namespace RPG::Client::Prop { class ChimeraDuelShopChimeraInstanceView; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_PROP_CHIMERADUELSHOPDRAGGEDCHIMERASLOTVIEW_METHOD_5_5AFB73477BDE8482_OFFSET UNITYSDK_OFFSET(0xDC277C0)
-#define RPG_CLIENT_PROP_CHIMERADUELSHOPDRAGGEDCHIMERASLOTVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0xDC28470)
+#define RPG_CLIENT_PROP_CHIMERADUELSHOPDRAGGEDCHIMERASLOTVIEW_METHOD_5_5AFB73477BDE8482_OFFSET UNITYSDK_OFFSET(0xDC722E0)
+#define RPG_CLIENT_PROP_CHIMERADUELSHOPDRAGGEDCHIMERASLOTVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0xDC72F90)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraDuelShopDraggedChimeraSlotView_TypeDefinitionIndex = 77887;
+	inline static constexpr unsigned int ChimeraDuelShopDraggedChimeraSlotView_TypeDefinitionIndex = 78358;
 
 	class ChimeraDuelShopDraggedChimeraSlotView : public ::UnityEngine::MonoBehaviour
 	{

@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTCONTROLBASE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xCA0B720)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTCONTROLBASE___C__CTOR_OFFSET UNITYSDK_OFFSET(0xCA0B760)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTCONTROLBASE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC959CF0)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTCONTROLBASE___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC959D30)
 
 namespace RPG::Client::Challenge::Tierce
 {
-	inline static constexpr unsigned int ChallengeTierceStageSelectControlBase___c_TypeDefinitionIndex = 80222;
+	inline static constexpr unsigned int ChallengeTierceStageSelectControlBase___c_TypeDefinitionIndex = 81550;
 
 	class ChallengeTierceStageSelectControlBase___c : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::Challenge::Tierce::ChallengeTierceStageSelectControlBase___c** StaticGet___9()
 		{
-			return (::RPG::Client::Challenge::Tierce::ChallengeTierceStageSelectControlBase___c**)Il2CppClass::FromTypeDefinitionIndex(ChallengeTierceStageSelectControlBase___c_TypeDefinitionIndex)->GetStaticField(0x1F640);
+			return (::RPG::Client::Challenge::Tierce::ChallengeTierceStageSelectControlBase___c**)Il2CppClass::FromTypeDefinitionIndex(ChallengeTierceStageSelectControlBase___c_TypeDefinitionIndex)->GetStaticField(0x6C530);
 		}
 
 		static ::System::Void _cctor()

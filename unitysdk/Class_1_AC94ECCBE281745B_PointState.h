@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Class_1_AC94ECCBE281745B_PointState_TypeDefinitionIndex = 80595;
+inline static constexpr unsigned int Class_1_AC94ECCBE281745B_PointState_TypeDefinitionIndex = 81923;
 
 enum class Class_1_AC94ECCBE281745B_PointState : ::System::Int32
 {

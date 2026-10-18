@@ -3,23 +3,23 @@
 #include "unitysdk/System/Object.h"
 
 class Class_1_071D0EF220D742B6;
-class Class_1_1CBA230307F9C289_19;
-class Class_1_D17272E82AE804C2_7;
+class Class_1_1CBA230307F9C289_20;
+class Class_1_D17272E82AE804C2_15;
 class Class_1_DECD4383F0FCD357;
 namespace Google::Protobuf::Collections { template <typename T1, typename T2> class MapField_2; }
 namespace Google::Protobuf::Collections { template <typename T> class RepeatedField_1; }
 namespace RPG::AvatarSystem { class IAvatar; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_CHALLENGETEAMINFO_GETAVATARDATABYAVATARID_OFFSET UNITYSDK_OFFSET(0xCABDB90)
-#define RPG_CLIENT_CHALLENGETEAMINFO_GETAVATARDATABYINDEX_OFFSET UNITYSDK_OFFSET(0xCABDAD0)
-#define RPG_CLIENT_CHALLENGETEAMINFO_GETAVATARDATALIST_OFFSET UNITYSDK_OFFSET(0xCABDCF0)
-#define RPG_CLIENT_CHALLENGETEAMINFO_SYNC_OFFSET UNITYSDK_OFFSET(0xCABD580)
-#define RPG_CLIENT_CHALLENGETEAMINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xCABD540)
+#define RPG_CLIENT_CHALLENGETEAMINFO_GETAVATARDATABYAVATARID_OFFSET UNITYSDK_OFFSET(0xC9BECF0)
+#define RPG_CLIENT_CHALLENGETEAMINFO_GETAVATARDATABYINDEX_OFFSET UNITYSDK_OFFSET(0xC9BEC30)
+#define RPG_CLIENT_CHALLENGETEAMINFO_GETAVATARDATALIST_OFFSET UNITYSDK_OFFSET(0xC9BEE50)
+#define RPG_CLIENT_CHALLENGETEAMINFO_SYNC_OFFSET UNITYSDK_OFFSET(0xC9BE6E0)
+#define RPG_CLIENT_CHALLENGETEAMINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xC9BE6A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChallengeTeamInfo_TypeDefinitionIndex = 63203;
+	inline static constexpr unsigned int ChallengeTeamInfo_TypeDefinitionIndex = 63136;
 
 	class ChallengeTeamInfo : public ::System::Object
 	{
@@ -31,9 +31,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGETEAMINFO__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Sync(::Google::Protobuf::Collections::RepeatedField_1<::Class_1_1CBA230307F9C289_19*>* a1, ::Google::Protobuf::Collections::MapField_2<::System::UInt32, ::Class_1_D17272E82AE804C2_7*>* a2, ::Google::Protobuf::Collections::MapField_2<::System::UInt32, ::Class_1_071D0EF220D742B6*>* a3)
+		::System::Void Sync(::Google::Protobuf::Collections::RepeatedField_1<::Class_1_1CBA230307F9C289_20*>* a1, ::Google::Protobuf::Collections::MapField_2<::System::UInt32, ::Class_1_D17272E82AE804C2_15*>* a2, ::Google::Protobuf::Collections::MapField_2<::System::UInt32, ::Class_1_071D0EF220D742B6*>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::Collections::RepeatedField_1<::Class_1_1CBA230307F9C289_19*>*, ::Google::Protobuf::Collections::MapField_2<::System::UInt32, ::Class_1_D17272E82AE804C2_7*>*, ::Google::Protobuf::Collections::MapField_2<::System::UInt32, ::Class_1_071D0EF220D742B6*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGETEAMINFO_SYNC_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::Collections::RepeatedField_1<::Class_1_1CBA230307F9C289_20*>*, ::Google::Protobuf::Collections::MapField_2<::System::UInt32, ::Class_1_D17272E82AE804C2_15*>*, ::Google::Protobuf::Collections::MapField_2<::System::UInt32, ::Class_1_071D0EF220D742B6*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGETEAMINFO_SYNC_OFFSET))(this, a1, a2, a3);
 		}
 
 		::RPG::AvatarSystem::IAvatar* GetAvatarDataByIndex(::System::Int32 a1)

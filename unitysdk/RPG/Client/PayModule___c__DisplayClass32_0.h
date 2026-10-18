@@ -1,21 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_7CF3F1C413CAE286.h"
+#include "unitysdk/Enum_3_7D1331C413E60035.h"
 #include "unitysdk/System/Object.h"
 
 namespace RPG::Client { class Product; }
 
-#define RPG_CLIENT_PAYMODULE___C__DISPLAYCLASS32_0__CTOR_OFFSET UNITYSDK_OFFSET(0xDA49EB0)
-#define RPG_CLIENT_PAYMODULE___C__DISPLAYCLASS32_0__GETPRODUCTSBYTYPE_B__0_OFFSET UNITYSDK_OFFSET(0xDA49EC0)
+#define RPG_CLIENT_PAYMODULE___C__DISPLAYCLASS32_0__CTOR_OFFSET UNITYSDK_OFFSET(0xDA945F0)
+#define RPG_CLIENT_PAYMODULE___C__DISPLAYCLASS32_0__GETPRODUCTSBYTYPE_B__0_OFFSET UNITYSDK_OFFSET(0xDA960C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PayModule___c__DisplayClass32_0_TypeDefinitionIndex = 66467;
+	inline static constexpr unsigned int PayModule___c__DisplayClass32_0_TypeDefinitionIndex = 66438;
 
 	class PayModule___c__DisplayClass32_0 : public ::System::Object
 	{
 	public:
-		::Enum_3_7CF3F1C413CAE286 productType; // 0x10
+		::Enum_3_7D1331C413E60035 productType; // 0x10
 
 		::System::Void _ctor()
 		{

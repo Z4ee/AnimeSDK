@@ -10,19 +10,19 @@ namespace RPG::GameCore { class TaskContext; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_3_8EB88D6BF0FEB1F8_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x157E29D0)
-#define CLASS_3_8EB88D6BF0FEB1F8__CCTOR_OFFSET UNITYSDK_OFFSET(0x157E4330)
-#define CLASS_3_8EB88D6BF0FEB1F8__CTOR_OFFSET UNITYSDK_OFFSET(0x157E2920)
-#define CLASS_3_8EB88D6BF0FEB1F8__ONTASKBEGIN_G___ADDWEAK_1_0_OFFSET UNITYSDK_OFFSET(0x157E40E0)
+#define CLASS_3_8EB88D6BF0FEB1F8_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15AD91B0)
+#define CLASS_3_8EB88D6BF0FEB1F8__CCTOR_OFFSET UNITYSDK_OFFSET(0x15ADAB20)
+#define CLASS_3_8EB88D6BF0FEB1F8__CTOR_OFFSET UNITYSDK_OFFSET(0x15AD9100)
+#define CLASS_3_8EB88D6BF0FEB1F8__ONTASKBEGIN_G___ADDWEAK_1_0_OFFSET UNITYSDK_OFFSET(0x15ADA8D0)
 
-inline static constexpr unsigned int Class_3_8EB88D6BF0FEB1F8_TypeDefinitionIndex = 55034;
+inline static constexpr unsigned int Class_3_8EB88D6BF0FEB1F8_TypeDefinitionIndex = 54824;
 
 class Class_3_8EB88D6BF0FEB1F8 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AddWeakByTeamAttackType*>
 {
 public:
 	static ::System::Collections::Generic::List_1<::RPG::GameCore::AttackDamageType>** StaticGet_BKJPPNCGPOD()
 	{
-		return (::System::Collections::Generic::List_1<::RPG::GameCore::AttackDamageType>**)Il2CppClass::FromTypeDefinitionIndex(Class_3_8EB88D6BF0FEB1F8_TypeDefinitionIndex)->GetStaticField(0x48110);
+		return (::System::Collections::Generic::List_1<::RPG::GameCore::AttackDamageType>**)Il2CppClass::FromTypeDefinitionIndex(Class_3_8EB88D6BF0FEB1F8_TypeDefinitionIndex)->GetStaticField(0x660D0);
 	}
 	// static const ::System::String* AHKFNMKDDAD; // 0x0
 	::System::Collections::Generic::List_1<::RPG::GameCore::AttackDamageType>* DOIMPKLDJFO; // 0x28

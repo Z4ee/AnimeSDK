@@ -4,11 +4,11 @@
 
 namespace RPG::Client { class MiniMapZone; }
 
-#define RPG_CLIENT_UNLOCKSECTIONINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xE3D0E80)
+#define RPG_CLIENT_UNLOCKSECTIONINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xE414030)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UnlockSectionInfo_TypeDefinitionIndex = 60750;
+	inline static constexpr unsigned int UnlockSectionInfo_TypeDefinitionIndex = 60651;
 
 	class UnlockSectionInfo : public ::System::Object
 	{

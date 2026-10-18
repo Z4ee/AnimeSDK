@@ -4,7 +4,7 @@
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExAcbLoader_LoaderConfig_TypeDefinitionIndex = 38725;
+	inline static constexpr unsigned int CriAtomExAcbLoader_LoaderConfig_TypeDefinitionIndex = 40022;
 
 	struct alignas(1) CriAtomExAcbLoader_LoaderConfig
 	{

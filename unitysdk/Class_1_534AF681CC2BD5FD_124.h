@@ -2,11 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace UnityEngine { class Material; }
-namespace UnityEngine { class MaterialPropertyBlock; }
-namespace UnityEngine { class Renderer; }
-
-inline static constexpr unsigned int Class_1_534AF681CC2BD5FD_124_TypeDefinitionIndex = 69784;
+inline static constexpr unsigned int Class_1_534AF681CC2BD5FD_124_TypeDefinitionIndex = 51875;
 
 class Class_1_534AF681CC2BD5FD_124 : public ::System::Object
 {

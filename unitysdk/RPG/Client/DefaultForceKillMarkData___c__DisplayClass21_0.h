@@ -9,20 +9,20 @@ namespace RPG::Client { class DefaultForceKillMarkData; }
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 
-#define RPG_CLIENT_DEFAULTFORCEKILLMARKDATA___C__DISPLAYCLASS21_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCC9AC70)
-#define RPG_CLIENT_DEFAULTFORCEKILLMARKDATA___C__DISPLAYCLASS21_0___CACULATEFROMMODIFIERS_B__0_OFFSET UNITYSDK_OFFSET(0xCC9AC80)
+#define RPG_CLIENT_DEFAULTFORCEKILLMARKDATA___C__DISPLAYCLASS21_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCBEE710)
+#define RPG_CLIENT_DEFAULTFORCEKILLMARKDATA___C__DISPLAYCLASS21_0___CACULATEFROMMODIFIERS_B__0_OFFSET UNITYSDK_OFFSET(0xCBEE720)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DefaultForceKillMarkData___c__DisplayClass21_0_TypeDefinitionIndex = 71621;
+	inline static constexpr unsigned int DefaultForceKillMarkData___c__DisplayClass21_0_TypeDefinitionIndex = 71671;
 
 	class DefaultForceKillMarkData___c__DisplayClass21_0 : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::GameEntity* entity; // 0x10
-		::RPG::Client::DefaultForceKillMarkData* __4__this; // 0x18
-		::System::Nullable_1<::RPG::GameCore::ForceKillShowType> forceKillShowType; // 0x20
-		::System::Single maxRatio; // 0x28
+		::RPG::Client::DefaultForceKillMarkData* __4__this; // 0x10
+		::RPG::GameCore::GameEntity* entity; // 0x18
+		::System::Single maxRatio; // 0x20
+		::System::Nullable_1<::RPG::GameCore::ForceKillShowType> forceKillShowType; // 0x24
 		::System::Nullable_1<::RPG::GameCore::ForceKillMarkType> forceKillMarkType; // 0x2C
 
 		::System::Void _ctor()

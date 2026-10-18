@@ -5,24 +5,24 @@
 namespace RPG::Client { class GridFightMonsterData; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_GRIDFIGHTMONSTERBATTLESTAGEDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD21DE40)
-#define RPG_CLIENT_GRIDFIGHTMONSTERBATTLESTAGEDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD21DE80)
-#define RPG_CLIENT_GRIDFIGHTMONSTERBATTLESTAGEDATA___C__SYNC_B__0_0_OFFSET UNITYSDK_OFFSET(0xD21DE90)
+#define RPG_CLIENT_GRIDFIGHTMONSTERBATTLESTAGEDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD1BEEE0)
+#define RPG_CLIENT_GRIDFIGHTMONSTERBATTLESTAGEDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD1BEF20)
+#define RPG_CLIENT_GRIDFIGHTMONSTERBATTLESTAGEDATA___C__SYNC_B__0_0_OFFSET UNITYSDK_OFFSET(0xD1BEF30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightMonsterBattleStageData___c_TypeDefinitionIndex = 65119;
+	inline static constexpr unsigned int GridFightMonsterBattleStageData___c_TypeDefinitionIndex = 65059;
 
 	class GridFightMonsterBattleStageData___c : public ::System::Object
 	{
 	public:
 		static ::System::Comparison_1<::RPG::Client::GridFightMonsterData*>** StaticGet___9__0_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::GridFightMonsterData*>**)Il2CppClass::FromTypeDefinitionIndex(GridFightMonsterBattleStageData___c_TypeDefinitionIndex)->GetStaticField(0x3E0E0);
+			return (::System::Comparison_1<::RPG::Client::GridFightMonsterData*>**)Il2CppClass::FromTypeDefinitionIndex(GridFightMonsterBattleStageData___c_TypeDefinitionIndex)->GetStaticField(0x6DC20);
 		}
 		static ::RPG::Client::GridFightMonsterBattleStageData___c** StaticGet___9()
 		{
-			return (::RPG::Client::GridFightMonsterBattleStageData___c**)Il2CppClass::FromTypeDefinitionIndex(GridFightMonsterBattleStageData___c_TypeDefinitionIndex)->GetStaticField(0x3E0E8);
+			return (::RPG::Client::GridFightMonsterBattleStageData___c**)Il2CppClass::FromTypeDefinitionIndex(GridFightMonsterBattleStageData___c_TypeDefinitionIndex)->GetStaticField(0x6DC28);
 		}
 
 		static ::System::Void _cctor()

@@ -5,10 +5,10 @@
 namespace RPG::Client { class ChimeraDuelChimeraData; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define CLASS_2_7960AFC189023812___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC14B4E0)
-#define CLASS_2_7960AFC189023812___C__DISPLAYCLASS5_0___TRYAPPLY_B__0_OFFSET UNITYSDK_OFFSET(0xC14B640)
+#define CLASS_2_7960AFC189023812___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC1A8570)
+#define CLASS_2_7960AFC189023812___C__DISPLAYCLASS5_0___TRYAPPLY_B__0_OFFSET UNITYSDK_OFFSET(0xC1A86D0)
 
-inline static constexpr unsigned int Class_2_7960AFC189023812___c__DisplayClass5_0_TypeDefinitionIndex = 76980;
+inline static constexpr unsigned int Class_2_7960AFC189023812___c__DisplayClass5_0_TypeDefinitionIndex = 77451;
 
 class Class_2_7960AFC189023812___c__DisplayClass5_0 : public ::System::Object
 {

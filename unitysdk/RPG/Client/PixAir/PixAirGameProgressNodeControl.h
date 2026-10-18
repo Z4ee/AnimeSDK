@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Sofa/BaseSofaControl.h"
 
-#define RPG_CLIENT_PIXAIR_PIXAIRGAMEPROGRESSNODECONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0xDB055D0)
+#define RPG_CLIENT_PIXAIR_PIXAIRGAMEPROGRESSNODECONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0xDB4E120)
 
 namespace RPG::Client::PixAir
 {
-	inline static constexpr unsigned int PixAirGameProgressNodeControl_TypeDefinitionIndex = 78754;
+	inline static constexpr unsigned int PixAirGameProgressNodeControl_TypeDefinitionIndex = 79235;
 
 	class PixAirGameProgressNodeControl : public ::Sofa::BaseSofaControl
 	{

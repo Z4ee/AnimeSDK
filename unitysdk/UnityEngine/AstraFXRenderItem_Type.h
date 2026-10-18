@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int AstraFXRenderItem_Type_TypeDefinitionIndex = 4093;
+	inline static constexpr unsigned int AstraFXRenderItem_Type_TypeDefinitionIndex = 4094;
 
 	enum class AstraFXRenderItem_Type : ::System::Int32
 	{

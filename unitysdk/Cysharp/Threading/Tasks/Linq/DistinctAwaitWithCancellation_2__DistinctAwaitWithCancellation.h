@@ -11,7 +11,7 @@ namespace System::Collections::Generic { template <typename T> class IEqualityCo
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int DistinctAwaitWithCancellation_2__DistinctAwaitWithCancellation_TypeDefinitionIndex = 44204;
+	inline static constexpr unsigned int DistinctAwaitWithCancellation_2__DistinctAwaitWithCancellation_TypeDefinitionIndex = 45343;
 
 	template <typename TSource, typename TKey>
 	class DistinctAwaitWithCancellation_2__DistinctAwaitWithCancellation : public ::Cysharp::Threading::Tasks::Linq::AsyncEnumeratorAwaitSelectorBase_3<TSource, TSource, TKey>

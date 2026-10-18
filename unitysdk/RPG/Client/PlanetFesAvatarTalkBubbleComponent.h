@@ -8,28 +8,28 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace XLua { class LuaTable; }
 
-#define RPG_CLIENT_PLANETFESAVATARTALKBUBBLECOMPONENT_DISPOSE_OFFSET UNITYSDK_OFFSET(0xDB3B5C0)
-#define RPG_CLIENT_PLANETFESAVATARTALKBUBBLECOMPONENT_HASTALKDOING_OFFSET UNITYSDK_OFFSET(0xDB3BB60)
-#define RPG_CLIENT_PLANETFESAVATARTALKBUBBLECOMPONENT_HIDETALKBUBBLE_OFFSET UNITYSDK_OFFSET(0xDB3BA80)
-#define RPG_CLIENT_PLANETFESAVATARTALKBUBBLECOMPONENT_INIT_OFFSET UNITYSDK_OFFSET(0xDB3B680)
-#define RPG_CLIENT_PLANETFESAVATARTALKBUBBLECOMPONENT_SHOWTALKBUBBLE_OFFSET UNITYSDK_OFFSET(0xDB3B7C0)
-#define RPG_CLIENT_PLANETFESAVATARTALKBUBBLECOMPONENT__CCTOR_OFFSET UNITYSDK_OFFSET(0xDB3BC00)
-#define RPG_CLIENT_PLANETFESAVATARTALKBUBBLECOMPONENT__CTOR_OFFSET UNITYSDK_OFFSET(0xDB3BBF0)
-#define RPG_CLIENT_PLANETFESAVATARTALKBUBBLECOMPONENT__RECORDAVATARTALK_OFFSET UNITYSDK_OFFSET(0xDB3B9D0)
+#define RPG_CLIENT_PLANETFESAVATARTALKBUBBLECOMPONENT_DISPOSE_OFFSET UNITYSDK_OFFSET(0xDB83F70)
+#define RPG_CLIENT_PLANETFESAVATARTALKBUBBLECOMPONENT_HASTALKDOING_OFFSET UNITYSDK_OFFSET(0xDB844A0)
+#define RPG_CLIENT_PLANETFESAVATARTALKBUBBLECOMPONENT_HIDETALKBUBBLE_OFFSET UNITYSDK_OFFSET(0xDB843C0)
+#define RPG_CLIENT_PLANETFESAVATARTALKBUBBLECOMPONENT_INIT_OFFSET UNITYSDK_OFFSET(0xDB84030)
+#define RPG_CLIENT_PLANETFESAVATARTALKBUBBLECOMPONENT_SHOWTALKBUBBLE_OFFSET UNITYSDK_OFFSET(0xDB84170)
+#define RPG_CLIENT_PLANETFESAVATARTALKBUBBLECOMPONENT__CCTOR_OFFSET UNITYSDK_OFFSET(0xDB84540)
+#define RPG_CLIENT_PLANETFESAVATARTALKBUBBLECOMPONENT__CTOR_OFFSET UNITYSDK_OFFSET(0xDB84530)
+#define RPG_CLIENT_PLANETFESAVATARTALKBUBBLECOMPONENT__RECORDAVATARTALK_OFFSET UNITYSDK_OFFSET(0xDB84310)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlanetFesAvatarTalkBubbleComponent_TypeDefinitionIndex = 66697;
+	inline static constexpr unsigned int PlanetFesAvatarTalkBubbleComponent_TypeDefinitionIndex = 66665;
 
 	class PlanetFesAvatarTalkBubbleComponent : public ::RPG::GameCore::GameComponentBase
 	{
 	public:
 		static ::System::Collections::Generic::HashSet_1<::RPG::Client::PlanetFesAvatarTalkBubbleComponent*>** StaticGet__InDoingTalkBubble()
 		{
-			return (::System::Collections::Generic::HashSet_1<::RPG::Client::PlanetFesAvatarTalkBubbleComponent*>**)Il2CppClass::FromTypeDefinitionIndex(PlanetFesAvatarTalkBubbleComponent_TypeDefinitionIndex)->GetStaticField(0x5DCF0);
+			return (::System::Collections::Generic::HashSet_1<::RPG::Client::PlanetFesAvatarTalkBubbleComponent*>**)Il2CppClass::FromTypeDefinitionIndex(PlanetFesAvatarTalkBubbleComponent_TypeDefinitionIndex)->GetStaticField(0x2FA90);
 		}
-		::System::Action_2<::XLua::LuaTable*, ::RPG::Client::TextID>* _ShowTalkCallLua; // 0x18
-		::XLua::LuaTable* _TalkBubblePanel; // 0x20
+		::XLua::LuaTable* _TalkBubblePanel; // 0x18
+		::System::Action_2<::XLua::LuaTable*, ::RPG::Client::TextID>* _ShowTalkCallLua; // 0x20
 		::System::Action_1<::XLua::LuaTable*>* _HideTalkCallLua; // 0x28
 		::System::Single _TalkDuration; // 0x30
 

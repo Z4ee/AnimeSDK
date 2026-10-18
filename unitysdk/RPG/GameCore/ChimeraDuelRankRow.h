@@ -6,20 +6,20 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHIMERADUELRANKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CFCCF20)
-#define RPG_GAMECORE_CHIMERADUELRANKROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFCD5C0)
+#define RPG_GAMECORE_CHIMERADUELRANKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D5A86C0)
+#define RPG_GAMECORE_CHIMERADUELRANKROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5A8DA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraDuelRankRow_TypeDefinitionIndex = 11114;
+	inline static constexpr unsigned int ChimeraDuelRankRow_TypeDefinitionIndex = 11130;
 
 	class ChimeraDuelRankRow : public ::System::Object
 	{
 	public:
-		::System::String* RankIconPrefabPath; // 0x10
-		::System::String* RankIconPath; // 0x18
-		::System::UInt32 RankMinScore; // 0x20
-		::System::UInt32 RankLevel; // 0x24
+		::System::String* RankIconPath; // 0x10
+		::System::String* RankIconPrefabPath; // 0x18
+		::System::UInt32 RankLevel; // 0x20
+		::System::UInt32 RankMinScore; // 0x24
 		::RPG::Client::TextID RankName; // 0x28
 
 		::System::Void _ctor()

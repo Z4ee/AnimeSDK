@@ -16,7 +16,7 @@ namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int ToDictionary__ToDictionaryAsync_d__0_2_TypeDefinitionIndex = 44537;
+	inline static constexpr unsigned int ToDictionary__ToDictionaryAsync_d__0_2_TypeDefinitionIndex = 45676;
 
 	template <typename TSource, typename TKey>
 	struct ToDictionary__ToDictionaryAsync_d__0_2

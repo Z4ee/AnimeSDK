@@ -4,7 +4,7 @@
 
 template <typename T1, typename T2> class Class_1_4FC28BCB338E38DA;
 
-inline static constexpr unsigned int Class_1_4FC28BCB338E38DA_Struct_2_F4C21DD96A931F6F_TypeDefinitionIndex = 50324;
+inline static constexpr unsigned int Class_1_4FC28BCB338E38DA_Struct_2_F4C21DD96A931F6F_TypeDefinitionIndex = 50000;
 
 template <typename TViewModel, typename TView>
 struct Class_1_4FC28BCB338E38DA_Struct_2_F4C21DD96A931F6F

@@ -7,28 +7,28 @@ namespace System { class Exception; }
 namespace System { class TimeProvider; }
 namespace System { template <typename T> class Action_1; }
 
-#define R3_OBSERVABLESYSTEM_DEFAULTUNHANDLEDEXCEPTIONHANDLER_OFFSET UNITYSDK_OFFSET(0x1BF17600)
-#define R3_OBSERVABLESYSTEM_GETUNHANDLEDEXCEPTIONHANDLER_OFFSET UNITYSDK_OFFSET(0x1BF175A0)
-#define R3_OBSERVABLESYSTEM__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BF176F0)
+#define R3_OBSERVABLESYSTEM_DEFAULTUNHANDLEDEXCEPTIONHANDLER_OFFSET UNITYSDK_OFFSET(0x1C423C50)
+#define R3_OBSERVABLESYSTEM_GETUNHANDLEDEXCEPTIONHANDLER_OFFSET UNITYSDK_OFFSET(0x1C423BF0)
+#define R3_OBSERVABLESYSTEM__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C423D40)
 
 namespace R3
 {
-	inline static constexpr unsigned int ObservableSystem_TypeDefinitionIndex = 35244;
+	inline static constexpr unsigned int ObservableSystem_TypeDefinitionIndex = 35924;
 
 	class ObservableSystem : public ::System::Object
 	{
 	public:
-		static ::R3::FrameProvider** StaticGet_defaultFrameProvider()
-		{
-			return (::R3::FrameProvider**)Il2CppClass::FromTypeDefinitionIndex(ObservableSystem_TypeDefinitionIndex)->GetStaticField(0xD60);
-		}
 		static ::System::Action_1<::System::Exception*>** StaticGet_unhandledException()
 		{
-			return (::System::Action_1<::System::Exception*>**)Il2CppClass::FromTypeDefinitionIndex(ObservableSystem_TypeDefinitionIndex)->GetStaticField(0xD68);
+			return (::System::Action_1<::System::Exception*>**)Il2CppClass::FromTypeDefinitionIndex(ObservableSystem_TypeDefinitionIndex)->GetStaticField(0xA40);
 		}
 		static ::System::TimeProvider** StaticGet_defaultTimeProvider()
 		{
-			return (::System::TimeProvider**)Il2CppClass::FromTypeDefinitionIndex(ObservableSystem_TypeDefinitionIndex)->GetStaticField(0xD70);
+			return (::System::TimeProvider**)Il2CppClass::FromTypeDefinitionIndex(ObservableSystem_TypeDefinitionIndex)->GetStaticField(0xA48);
+		}
+		static ::R3::FrameProvider** StaticGet_defaultFrameProvider()
+		{
+			return (::R3::FrameProvider**)Il2CppClass::FromTypeDefinitionIndex(ObservableSystem_TypeDefinitionIndex)->GetStaticField(0xA50);
 		}
 
 		static ::System::Void _cctor()

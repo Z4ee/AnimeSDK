@@ -8,10 +8,10 @@ class Class_2_AEE59ED8DADEC1A1;
 namespace RPG::GameCore { class DiceCombatDiceSelectorConfig_SamePointCount; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_EAD95E789B53C4AB_METHOD_2_92DD19A25D47D2B3_OFFSET UNITYSDK_OFFSET(0x1C1ABBC0)
-#define CLASS_2_EAD95E789B53C4AB__CTOR_OFFSET UNITYSDK_OFFSET(0x1C1ABBB0)
+#define CLASS_2_EAD95E789B53C4AB_METHOD_2_92DD19A25D47D2B3_OFFSET UNITYSDK_OFFSET(0x1C6FC290)
+#define CLASS_2_EAD95E789B53C4AB__CTOR_OFFSET UNITYSDK_OFFSET(0x1C6FC280)
 
-inline static constexpr unsigned int Class_2_EAD95E789B53C4AB_TypeDefinitionIndex = 35690;
+inline static constexpr unsigned int Class_2_EAD95E789B53C4AB_TypeDefinitionIndex = 36377;
 
 class Class_2_EAD95E789B53C4AB : public ::Class_1_CD4EC20BEBA8A2DA
 {

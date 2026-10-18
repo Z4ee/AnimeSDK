@@ -10,7 +10,7 @@ namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int AsyncSelectorEnumerableSorter_2__ComputeKeysAsync_d__6_TypeDefinitionIndex = 44384;
+	inline static constexpr unsigned int AsyncSelectorEnumerableSorter_2__ComputeKeysAsync_d__6_TypeDefinitionIndex = 45523;
 
 	template <typename TElement, typename TKey>
 	struct AsyncSelectorEnumerableSorter_2__ComputeKeysAsync_d__6

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/StateValueEntry.h"
 
-#define RPG_CLIENT_FLOATSTATEVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0xD0A43E0)
+#define RPG_CLIENT_FLOATSTATEVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0xD045030)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FloatStateValue_TypeDefinitionIndex = 70977;
+	inline static constexpr unsigned int FloatStateValue_TypeDefinitionIndex = 71009;
 
 	class FloatStateValue : public ::RPG::Client::StateValueEntry
 	{

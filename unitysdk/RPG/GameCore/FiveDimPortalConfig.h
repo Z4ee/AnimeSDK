@@ -3,25 +3,25 @@
 #include "unitysdk/RPG/GameCore/LittleGameComponentConfig.h"
 
 class Class_1_7A22A3DBEEDD1F80;
-namespace RPG::GameCore { class FiveDimDynamicVar; }
 namespace RPG::GameCore { class FiveDimPortalTarget; }
 namespace RPG::GameCore { class FiveDimTriggerShape; }
+namespace RPG::GameCore { class LittleGameDynamicVar; }
 namespace RPG::GameCore { class LittleGameEvent; }
 namespace RPG::GameCore { class PropButtonConfig; }
 
-#define RPG_GAMECORE_FIVEDIMPORTALCONFIG_METHOD_3_7805D4966358A752_OFFSET UNITYSDK_OFFSET(0x1D0F9AA0)
-#define RPG_GAMECORE_FIVEDIMPORTALCONFIG_METHOD_3_F40267CC8661A634_OFFSET UNITYSDK_OFFSET(0x1D0F9AE0)
-#define RPG_GAMECORE_FIVEDIMPORTALCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0F9AD0)
+#define RPG_GAMECORE_FIVEDIMPORTALCONFIG_METHOD_3_7805D4966358A752_OFFSET UNITYSDK_OFFSET(0x1D6D2B10)
+#define RPG_GAMECORE_FIVEDIMPORTALCONFIG_METHOD_3_F40267CC8661A634_OFFSET UNITYSDK_OFFSET(0x1D6D2B50)
+#define RPG_GAMECORE_FIVEDIMPORTALCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6D2B40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimPortalConfig_TypeDefinitionIndex = 18345;
+	inline static constexpr unsigned int FiveDimPortalConfig_TypeDefinitionIndex = 18560;
 
 	class FiveDimPortalConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:
 		::System::Boolean IsPortal; // 0x10
-		::RPG::GameCore::FiveDimDynamicVar* BindLevelVarName; // 0x18
+		::RPG::GameCore::LittleGameDynamicVar* BindLevelVarName; // 0x18
 		::Il2CppArray<::System::Int16>* LockValues; // 0x20
 		::Il2CppArray<::System::Int16>* UnlockValues; // 0x28
 		::RPG::GameCore::FiveDimTriggerShape* TriggerShape; // 0x30

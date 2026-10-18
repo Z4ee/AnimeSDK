@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TutorialClose; }
 
-#define CLASS_3_E2F96E1C20EC40D0_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB9B5100)
-#define CLASS_3_E2F96E1C20EC40D0__CTOR_OFFSET UNITYSDK_OFFSET(0xB9B50D0)
+#define CLASS_3_E2F96E1C20EC40D0_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB86ED90)
+#define CLASS_3_E2F96E1C20EC40D0__CTOR_OFFSET UNITYSDK_OFFSET(0xB86ED60)
 
-inline static constexpr unsigned int Class_3_E2F96E1C20EC40D0_TypeDefinitionIndex = 58969;
+inline static constexpr unsigned int Class_3_E2F96E1C20EC40D0_TypeDefinitionIndex = 58821;
 
 class Class_3_E2F96E1C20EC40D0 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::TutorialClose*>
 {

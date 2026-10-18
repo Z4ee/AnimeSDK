@@ -4,11 +4,11 @@
 
 namespace RPGTools::Timeline::PostProcessing { class ChromaticAberrationTimelineBehaviour; }
 
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_CHROMATICABERRATIONTIMELINECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xE8C8990)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_CHROMATICABERRATIONTIMELINECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xE91DE60)
 
 namespace RPGTools::Timeline::PostProcessing
 {
-	inline static constexpr unsigned int ChromaticAberrationTimelineClip_TypeDefinitionIndex = 49009;
+	inline static constexpr unsigned int ChromaticAberrationTimelineClip_TypeDefinitionIndex = 48555;
 
 	class ChromaticAberrationTimelineClip : public ::RPGTools::Timeline::PostProcessing::BaseTimelineClip_1<::RPGTools::Timeline::PostProcessing::ChromaticAberrationTimelineBehaviour*>
 	{

@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_ANIMATORCLIPOVERRIDE_ANIMCLIPOVERRIDE__CTOR_OFFSET UNITYSDK_OFFSET(0xC765760)
+#define RPG_CLIENT_ANIMATORCLIPOVERRIDE_ANIMCLIPOVERRIDE__CTOR_OFFSET UNITYSDK_OFFSET(0xC6837F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AnimatorClipOverride_AnimClipOverride_TypeDefinitionIndex = 70319;
+	inline static constexpr unsigned int AnimatorClipOverride_AnimClipOverride_TypeDefinitionIndex = 70355;
 
 	class AnimatorClipOverride_AnimClipOverride : public ::System::Object
 	{

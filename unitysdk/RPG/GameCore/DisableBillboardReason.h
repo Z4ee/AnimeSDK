@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DisableBillboardReason_TypeDefinitionIndex = 57544;
+	inline static constexpr unsigned int DisableBillboardReason_TypeDefinitionIndex = 57389;
 
 	enum class DisableBillboardReason : ::System::Int32
 	{

@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_GAMECORECONSTKEYS_METHOD_2_666EBD62504AAA11_OFFSET UNITYSDK_OFFSET(0x1D12BAD0)
-#define RPG_GAMECORE_GAMECORECONSTKEYS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D13B310)
+#define RPG_GAMECORE_GAMECORECONSTKEYS_METHOD_2_666EBD62504AAA11_OFFSET UNITYSDK_OFFSET(0x1D705500)
+#define RPG_GAMECORE_GAMECORECONSTKEYS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D712250)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GameCoreConstKeys_TypeDefinitionIndex = 16904;
+	inline static constexpr unsigned int GameCoreConstKeys_TypeDefinitionIndex = 17098;
 
 	class GameCoreConstKeys : public ::RPG::GameCore::JsonConfig
 	{

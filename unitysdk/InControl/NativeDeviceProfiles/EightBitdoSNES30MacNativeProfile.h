@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/InControl/InputDeviceProfile.h"
 
-#define INCONTROL_NATIVEDEVICEPROFILES_EIGHTBITDOSNES30MACNATIVEPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x1B512380)
-#define INCONTROL_NATIVEDEVICEPROFILES_EIGHTBITDOSNES30MACNATIVEPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B512D20)
+#define INCONTROL_NATIVEDEVICEPROFILES_EIGHTBITDOSNES30MACNATIVEPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x1BA10FE0)
+#define INCONTROL_NATIVEDEVICEPROFILES_EIGHTBITDOSNES30MACNATIVEPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA11980)
 
 namespace InControl::NativeDeviceProfiles
 {
-	inline static constexpr unsigned int EightBitdoSNES30MacNativeProfile_TypeDefinitionIndex = 39960;
+	inline static constexpr unsigned int EightBitdoSNES30MacNativeProfile_TypeDefinitionIndex = 41257;
 
 	class EightBitdoSNES30MacNativeProfile : public ::InControl::InputDeviceProfile
 	{

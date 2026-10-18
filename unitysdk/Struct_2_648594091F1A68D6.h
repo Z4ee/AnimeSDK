@@ -3,16 +3,16 @@
 #include "unitysdk/Struct_2_D3B84DD3734B83D6.h"
 #include "unitysdk/System/ValueType.h"
 
-#define STRUCT_2_648594091F1A68D6__CCTOR_OFFSET UNITYSDK_OFFSET(0xB8DFDB0)
-#define STRUCT_2_648594091F1A68D6__CTOR_OFFSET UNITYSDK_OFFSET(0x833F0)
+#define STRUCT_2_648594091F1A68D6__CCTOR_OFFSET UNITYSDK_OFFSET(0xB7546A0)
+#define STRUCT_2_648594091F1A68D6__CTOR_OFFSET UNITYSDK_OFFSET(0x19D60)
 
-inline static constexpr unsigned int Struct_2_648594091F1A68D6_TypeDefinitionIndex = 57450;
+inline static constexpr unsigned int Struct_2_648594091F1A68D6_TypeDefinitionIndex = 57294;
 
 struct alignas(4) Struct_2_648594091F1A68D6
 {
 	static ::Struct_2_648594091F1A68D6* StaticGet_HGLIFJGHADE()
 	{
-		return (::Struct_2_648594091F1A68D6*)Il2CppClass::FromTypeDefinitionIndex(Struct_2_648594091F1A68D6_TypeDefinitionIndex)->GetStaticField(0x8310);
+		return (::Struct_2_648594091F1A68D6*)Il2CppClass::FromTypeDefinitionIndex(Struct_2_648594091F1A68D6_TypeDefinitionIndex)->GetStaticField(0x13170);
 	}
 	::Struct_2_D3B84DD3734B83D6 EMGADNPKAIK; // 0x10
 	::Struct_2_D3B84DD3734B83D6 CCAOGMEFNLB; // 0x18

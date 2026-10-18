@@ -4,26 +4,26 @@
 #include "unitysdk/Sirenix/OdinInspector/ValueDropdownItem_1.h"
 
 class Class_1_7A22A3DBEEDD1F80;
-namespace RPG::GameCore { class FiveDimDynamicVar; }
+namespace RPG::GameCore { class LittleGameDynamicVar; }
 namespace RPG::GameCore { class LittleGameEvent; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define RPG_GAMECORE_FIVEDIMDOORCONFIG_METHOD_3_0D372435D9CAE4BC_OFFSET UNITYSDK_OFFSET(0x1D0E0E10)
-#define RPG_GAMECORE_FIVEDIMDOORCONFIG_METHOD_3_2AAEC2282D173F5F_OFFSET UNITYSDK_OFFSET(0x1D0E0DA0)
-#define RPG_GAMECORE_FIVEDIMDOORCONFIG_METHOD_3_8D87B72FD1FC440D_OFFSET UNITYSDK_OFFSET(0x1D0E0AB0)
-#define RPG_GAMECORE_FIVEDIMDOORCONFIG_METHOD_3_D4BAA86619FFD488_OFFSET UNITYSDK_OFFSET(0x1D0E0B00)
-#define RPG_GAMECORE_FIVEDIMDOORCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0E0AF0)
+#define RPG_GAMECORE_FIVEDIMDOORCONFIG_METHOD_3_0D372435D9CAE4BC_OFFSET UNITYSDK_OFFSET(0x1D6B96F0)
+#define RPG_GAMECORE_FIVEDIMDOORCONFIG_METHOD_3_2AAEC2282D173F5F_OFFSET UNITYSDK_OFFSET(0x1D6B9680)
+#define RPG_GAMECORE_FIVEDIMDOORCONFIG_METHOD_3_8D87B72FD1FC440D_OFFSET UNITYSDK_OFFSET(0x1D6B9390)
+#define RPG_GAMECORE_FIVEDIMDOORCONFIG_METHOD_3_D4BAA86619FFD488_OFFSET UNITYSDK_OFFSET(0x1D6B93E0)
+#define RPG_GAMECORE_FIVEDIMDOORCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6B93D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimDoorConfig_TypeDefinitionIndex = 18383;
+	inline static constexpr unsigned int FiveDimDoorConfig_TypeDefinitionIndex = 18598;
 
 	class FiveDimDoorConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:
 		::System::Boolean IsFiveDimDoor; // 0x10
 		::System::UInt32 RequireKeyNumber; // 0x14
-		::Il2CppArray<::RPG::GameCore::FiveDimDynamicVar*>* BindLevelVarNames; // 0x18
+		::Il2CppArray<::RPG::GameCore::LittleGameDynamicVar*>* BindLevelVarNames; // 0x18
 		::System::Single OpenDelayDuration; // 0x20
 		::System::Boolean SendEventOnInit; // 0x24
 		::RPG::GameCore::LittleGameEvent* KeyChangeEvent; // 0x28

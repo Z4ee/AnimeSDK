@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HeartDialStepType_TypeDefinitionIndex = 10503;
+	inline static constexpr unsigned int HeartDialStepType_TypeDefinitionIndex = 10519;
 
 	enum class HeartDialStepType : ::System::Int32
 	{

@@ -4,11 +4,11 @@
 
 namespace Cinemachine { class CinemachineVirtualCameraBase; }
 
-#define RPG_CLIENT_AVATARPATHCHANGEVIRTUALCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0xC83A120)
+#define RPG_CLIENT_AVATARPATHCHANGEVIRTUALCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0xC708020)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AvatarPathChangeVirtualCamera_TypeDefinitionIndex = 71298;
+	inline static constexpr unsigned int AvatarPathChangeVirtualCamera_TypeDefinitionIndex = 71336;
 
 	class AvatarPathChangeVirtualCamera : public ::System::Object
 	{

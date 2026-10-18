@@ -1,16 +1,44 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Struct_2_62DA72730C4B8385.h"
+#include "unitysdk/ObservableCollections/CollectionChangedEvent_1.h"
+#include "unitysdk/Struct_2_85C948A9FFE82053.h"
+#include "unitysdk/Struct_2_E70C193A39BC645E.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/System/ValueTuple_2.h"
 
-namespace R3 { template <typename T> class ReactiveProperty_1; }
-namespace System { class String; }
-namespace System { template <typename T1, typename T2> class Func_2; }
-namespace UnityEngine::UI { class InputField; }
+class Class_0_16E4307DCC419505_400;
+class Class_0_16E4307DCC419505_494;
+class Class_1_5F1B5D6380BD40EB;
+class Class_1_C11F7D9FA222E14F;
+class Class_1_F82D3542098408EC;
+namespace ObservableCollections { template <typename T> class IObservableCollection_1; }
+namespace RPG::Client { class TabView; }
+namespace Sofa { class BaseSofaControl; }
+namespace System { class IDisposable; }
+namespace System { template <typename T1, typename T2> class Action_2; }
+namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+template <typename T1, typename T2, typename T3> class Class_0_16E4307DCC41950C_4;
 
-inline static constexpr unsigned int Class_1_534AF681CC2BD5FD_95_TypeDefinitionIndex = 50259;
+inline static constexpr unsigned int Class_1_534AF681CC2BD5FD_95_TypeDefinitionIndex = 49818;
 
+template <typename TViewModel, typename TTabVM>
 class Class_1_534AF681CC2BD5FD_95 : public ::System::Object
 {
 public:
+	::RPG::Client::TabView* CFKHNPGEAJA; // 0x0
+	::ObservableCollections::IObservableCollection_1<TTabVM>* BPKKKMOCFIP; // 0x0
+	::Class_0_16E4307DCC419505_400* JKCNFDEAMDJ; // 0x0
+	::Struct_2_E70C193A39BC645E LMOCIAGOJKN; // 0x0
+	::Class_0_16E4307DCC41950C_4<TViewModel, TTabVM, ::RPG::Client::TabView*>* OAOKHCMOJHL; // 0x0
+	::Class_0_16E4307DCC41950C_4<TViewModel, TTabVM, ::RPG::Client::TabView*>* OGGILOKMKPF; // 0x0
+	::Class_0_16E4307DCC41950C_4<TViewModel, TTabVM, ::RPG::Client::TabView*>* CLHAHKLKHEH; // 0x0
+	::System::Collections::Generic::List_1<::Class_1_5F1B5D6380BD40EB*>* KCEOMKFBICF; // 0x0
+	::System::Collections::Generic::List_1<TTabVM>* EBPGELJFPMB; // 0x0
+	::Class_1_F82D3542098408EC* CHIINIFPBOH; // 0x0
+	::System::Collections::Generic::Dictionary_2<::System::Int32, ::Sofa::BaseSofaControl*>* LMLNEHPMIHK; // 0x0
+	::System::Collections::Generic::Dictionary_2<::Sofa::BaseSofaControl*, ::Class_1_C11F7D9FA222E14F*>* JODOGKPDIIA; // 0x0
+	::System::Boolean GFAMGLFOMGI; // 0x0
+	::System::IDisposable* EAFMELNOBOM; // 0x0
+	::System::Action_2<::Class_1_5F1B5D6380BD40EB*, ::Class_1_5F1B5D6380BD40EB*>* IODCFHIHJHF; // 0x0
 };

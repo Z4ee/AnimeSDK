@@ -6,13 +6,13 @@
 namespace System { class String; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define UNITYENGINE_UNASSIGNEDREFERENCEEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1ED728E0)
-#define UNITYENGINE_UNASSIGNEDREFERENCEEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1ED72950)
-#define UNITYENGINE_UNASSIGNEDREFERENCEEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1ED72840)
+#define UNITYENGINE_UNASSIGNEDREFERENCEEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F43AC80)
+#define UNITYENGINE_UNASSIGNEDREFERENCEEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1F43ACF0)
+#define UNITYENGINE_UNASSIGNEDREFERENCEEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1F43ABE0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int UnassignedReferenceException_TypeDefinitionIndex = 4343;
+	inline static constexpr unsigned int UnassignedReferenceException_TypeDefinitionIndex = 4346;
 
 	class UnassignedReferenceException : public ::System::Exception
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int BlockAutoRebornReason_TypeDefinitionIndex = 41713;
+	inline static constexpr unsigned int BlockAutoRebornReason_TypeDefinitionIndex = 43355;
 
 	enum class BlockAutoRebornReason : ::System::Int32
 	{

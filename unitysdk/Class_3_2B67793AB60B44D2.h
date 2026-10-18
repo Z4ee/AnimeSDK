@@ -5,11 +5,11 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TutorialChimeraArrangementDisableDragging; }
 
-#define CLASS_3_2B67793AB60B44D2_DISPOSE_OFFSET UNITYSDK_OFFSET(0x12839CE0)
-#define CLASS_3_2B67793AB60B44D2_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x12839C60)
-#define CLASS_3_2B67793AB60B44D2__CTOR_OFFSET UNITYSDK_OFFSET(0x12839C30)
+#define CLASS_3_2B67793AB60B44D2_DISPOSE_OFFSET UNITYSDK_OFFSET(0x126836D0)
+#define CLASS_3_2B67793AB60B44D2_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x12683650)
+#define CLASS_3_2B67793AB60B44D2__CTOR_OFFSET UNITYSDK_OFFSET(0x12683620)
 
-inline static constexpr unsigned int Class_3_2B67793AB60B44D2_TypeDefinitionIndex = 58964;
+inline static constexpr unsigned int Class_3_2B67793AB60B44D2_TypeDefinitionIndex = 58816;
 
 class Class_3_2B67793AB60B44D2 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::TutorialChimeraArrangementDisableDragging*>
 {

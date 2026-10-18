@@ -5,12 +5,12 @@
 namespace UnityEngine::Rendering { class DebugUI_Value; }
 namespace UnityEngine::Rendering::UI { class DebugUIHandlerValue; }
 
-#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERPERSISTENTCANVAS___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1EC0F770)
-#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERPERSISTENTCANVAS___C__DISPLAYCLASS3_0__TOGGLE_B__0_OFFSET UNITYSDK_OFFSET(0x1EC0FA30)
+#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERPERSISTENTCANVAS___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1F2D6FE0)
+#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERPERSISTENTCANVAS___C__DISPLAYCLASS3_0__TOGGLE_B__0_OFFSET UNITYSDK_OFFSET(0x1F2D72A0)
 
 namespace UnityEngine::Rendering::UI
 {
-	inline static constexpr unsigned int DebugUIHandlerPersistentCanvas___c__DisplayClass3_0_TypeDefinitionIndex = 35024;
+	inline static constexpr unsigned int DebugUIHandlerPersistentCanvas___c__DisplayClass3_0_TypeDefinitionIndex = 35693;
 
 	class DebugUIHandlerPersistentCanvas___c__DisplayClass3_0 : public ::System::Object
 	{

@@ -7,12 +7,12 @@ namespace System { class String; }
 namespace UnityEngine { class Animation; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_2_7EE865CE35A3C84A_METHOD_2_04A81FA1DB9D4E37_OFFSET UNITYSDK_OFFSET(0xC390D20)
-#define CLASS_2_7EE865CE35A3C84A_METHOD_2_E30B6EB6F42B19F8_OFFSET UNITYSDK_OFFSET(0xC390770)
-#define CLASS_2_7EE865CE35A3C84A__CTOR_OFFSET UNITYSDK_OFFSET(0xC390E50)
-#define CLASS_2_7EE865CE35A3C84A__ONBIND_OFFSET UNITYSDK_OFFSET(0xC390550)
+#define CLASS_2_7EE865CE35A3C84A_METHOD_2_04A81FA1DB9D4E37_OFFSET UNITYSDK_OFFSET(0xC285E70)
+#define CLASS_2_7EE865CE35A3C84A_METHOD_2_E30B6EB6F42B19F8_OFFSET UNITYSDK_OFFSET(0xC2858C0)
+#define CLASS_2_7EE865CE35A3C84A__CTOR_OFFSET UNITYSDK_OFFSET(0xC285FA0)
+#define CLASS_2_7EE865CE35A3C84A__ONBIND_OFFSET UNITYSDK_OFFSET(0xC2856A0)
 
-inline static constexpr unsigned int Class_2_7EE865CE35A3C84A_TypeDefinitionIndex = 71858;
+inline static constexpr unsigned int Class_2_7EE865CE35A3C84A_TypeDefinitionIndex = 71923;
 
 class Class_2_7EE865CE35A3C84A : public ::Class_1_34917908B7833130
 {
@@ -25,11 +25,11 @@ public:
 	// static const ::System::String* FFIHGHKBPDC; // 0x0
 	// static const ::System::String* FKLLNMOHINI; // 0x0
 	// static const ::System::String* IEKOOHKCHPB; // 0x0
-	::UnityEngine::Transform* HNALEMBOBFE; // 0x60
-	::UnityEngine::Transform* OLBMACDBDPC; // 0x68
-	::UnityEngine::Transform* BHCJFANHLNL; // 0x70
+	::UnityEngine::Transform* BHCJFANHLNL; // 0x60
+	::UnityEngine::Transform* HNALEMBOBFE; // 0x68
+	::UnityEngine::Animation* KCOAILOHDND; // 0x70
 	::UnityEngine::Transform* FJIBCEKMCBP; // 0x78
-	::UnityEngine::Animation* KCOAILOHDND; // 0x80
+	::UnityEngine::Transform* OLBMACDBDPC; // 0x80
 	::RPG::Client::FeixiaoSPPointState DLNIGFGLPLJ; // 0x88
 
 	::System::Void _ctor()

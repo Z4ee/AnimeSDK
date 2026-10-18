@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_ATTACHMAPPINGITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xC7890C0)
+#define RPG_CLIENT_ATTACHMAPPINGITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xC6A72D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AttachMappingItem_TypeDefinitionIndex = 68876;
+	inline static constexpr unsigned int AttachMappingItem_TypeDefinitionIndex = 68911;
 
 	class AttachMappingItem : public ::System::Object
 	{

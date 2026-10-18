@@ -5,7 +5,7 @@
 namespace System { class Object; }
 namespace System::Xml { class XmlNode; }
 
-#define SYSTEM_XML_SERIALIZATION_XMLNODEEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1E83E7E0)
+#define SYSTEM_XML_SERIALIZATION_XMLNODEEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF07480)
 
 namespace System::Xml::Serialization
 {

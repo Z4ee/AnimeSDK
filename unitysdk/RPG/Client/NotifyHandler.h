@@ -6,14 +6,14 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define RPG_CLIENT_NOTIFYHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xD9D2000)
-#define RPG_CLIENT_NOTIFYHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xD9D2030)
-#define RPG_CLIENT_NOTIFYHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0xD9D1FF0)
-#define RPG_CLIENT_NOTIFYHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0xD9D1F00)
+#define RPG_CLIENT_NOTIFYHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xD9D4A10)
+#define RPG_CLIENT_NOTIFYHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xD9D4A40)
+#define RPG_CLIENT_NOTIFYHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0xD9D4A00)
+#define RPG_CLIENT_NOTIFYHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0xD9D4910)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int NotifyHandler_TypeDefinitionIndex = 59429;
+	inline static constexpr unsigned int NotifyHandler_TypeDefinitionIndex = 59284;
 
 	class NotifyHandler : public ::System::MulticastDelegate
 	{

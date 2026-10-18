@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class RemoveAirline; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_9B37D67D973B5B69_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC1117C0)
-#define CLASS_3_9B37D67D973B5B69__CTOR_OFFSET UNITYSDK_OFFSET(0xC111790)
+#define CLASS_3_9B37D67D973B5B69_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBFFF0B0)
+#define CLASS_3_9B37D67D973B5B69__CTOR_OFFSET UNITYSDK_OFFSET(0xBFFF080)
 
-inline static constexpr unsigned int Class_3_9B37D67D973B5B69_TypeDefinitionIndex = 58533;
+inline static constexpr unsigned int Class_3_9B37D67D973B5B69_TypeDefinitionIndex = 58384;
 
 class Class_3_9B37D67D973B5B69 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::RemoveAirline*>
 {

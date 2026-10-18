@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_CURVEPAIRVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0xCC893C0)
+#define RPG_CLIENT_CURVEPAIRVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0xCBDCD10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CurvePairValue_TypeDefinitionIndex = 70982;
+	inline static constexpr unsigned int CurvePairValue_TypeDefinitionIndex = 71014;
 
 	class CurvePairValue : public ::RPG::Client::PairValueEntry
 	{

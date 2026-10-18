@@ -3,11 +3,11 @@
 #include "unitysdk/MiHoYo/SDK/PopImageType.h"
 #include "unitysdk/System/Object.h"
 
-#define MIHOYO_SDK_PS_POPIMAGEMANAGER_POPIMAGEDATEMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA6CF30)
+#define MIHOYO_SDK_PS_POPIMAGEMANAGER_POPIMAGEDATEMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF779D0)
 
 namespace MiHoYo::SDK::PS
 {
-	inline static constexpr unsigned int PopImageManager_PopImageDateModel_TypeDefinitionIndex = 8859;
+	inline static constexpr unsigned int PopImageManager_PopImageDateModel_TypeDefinitionIndex = 8920;
 
 	class PopImageManager_PopImageDateModel : public ::System::Object
 	{

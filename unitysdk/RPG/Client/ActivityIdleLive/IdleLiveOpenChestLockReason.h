@@ -3,7 +3,7 @@
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveOpenChestLockReason_TypeDefinitionIndex = 75000;
+	inline static constexpr unsigned int IdleLiveOpenChestLockReason_TypeDefinitionIndex = 75300;
 
 	enum class IdleLiveOpenChestLockReason : ::System::Int32
 	{

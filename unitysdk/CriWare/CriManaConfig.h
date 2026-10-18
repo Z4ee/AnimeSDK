@@ -7,11 +7,11 @@ namespace CriWare { class CriManaConfig_SwitchH264PlaybackConfig; }
 namespace CriWare { class CriManaConfig_VitaH264PlaybackConfig; }
 namespace CriWare { class CriManaConfig_WebGLConfig; }
 
-#define CRIWARE_CRIMANACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16505660)
+#define CRIWARE_CRIMANACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1672C280)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriManaConfig_TypeDefinitionIndex = 38872;
+	inline static constexpr unsigned int CriManaConfig_TypeDefinitionIndex = 40169;
 
 	class CriManaConfig : public ::System::Object
 	{

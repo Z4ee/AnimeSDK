@@ -7,12 +7,12 @@ namespace System { class IAsyncResult; }
 namespace System::Threading { class ManualResetEvent; }
 namespace System::Threading { class WaitHandle; }
 
-#define SYSTEM_IO_FILESTREAMASYNCRESULT_CBWRAPPER_OFFSET UNITYSDK_OFFSET(0x1BD52DD0)
-#define SYSTEM_IO_FILESTREAMASYNCRESULT_GET_ASYNCSTATE_OFFSET UNITYSDK_OFFSET(0x1BD52E70)
-#define SYSTEM_IO_FILESTREAMASYNCRESULT_GET_ASYNCWAITHANDLE_OFFSET UNITYSDK_OFFSET(0x1BD52E90)
-#define SYSTEM_IO_FILESTREAMASYNCRESULT_GET_COMPLETEDSYNCHRONOUSLY_OFFSET UNITYSDK_OFFSET(0x1BD52E80)
-#define SYSTEM_IO_FILESTREAMASYNCRESULT_GET_ISCOMPLETED_OFFSET UNITYSDK_OFFSET(0x1BD52EA0)
-#define SYSTEM_IO_FILESTREAMASYNCRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD51A30)
+#define SYSTEM_IO_FILESTREAMASYNCRESULT_CBWRAPPER_OFFSET UNITYSDK_OFFSET(0x1C25ED50)
+#define SYSTEM_IO_FILESTREAMASYNCRESULT_GET_ASYNCSTATE_OFFSET UNITYSDK_OFFSET(0x1C25EDF0)
+#define SYSTEM_IO_FILESTREAMASYNCRESULT_GET_ASYNCWAITHANDLE_OFFSET UNITYSDK_OFFSET(0x1C25EE10)
+#define SYSTEM_IO_FILESTREAMASYNCRESULT_GET_COMPLETEDSYNCHRONOUSLY_OFFSET UNITYSDK_OFFSET(0x1C25EE00)
+#define SYSTEM_IO_FILESTREAMASYNCRESULT_GET_ISCOMPLETED_OFFSET UNITYSDK_OFFSET(0x1C25EE20)
+#define SYSTEM_IO_FILESTREAMASYNCRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x1C25D9B0)
 
 namespace System::IO
 {
@@ -23,12 +23,12 @@ namespace System::IO
 	public:
 		::System::AsyncCallback* cb; // 0x10
 		::System::Object* state; // 0x18
-		::System::AsyncCallback* realcb; // 0x20
-		::System::Threading::ManualResetEvent* wh; // 0x28
-		::System::Int32 OriginalCount; // 0x30
-		::System::Int32 BytesRead; // 0x34
-		::System::Boolean completedSynch; // 0x38
-		::System::Boolean completed; // 0x39
+		::System::Threading::ManualResetEvent* wh; // 0x20
+		::System::AsyncCallback* realcb; // 0x28
+		::System::Int32 BytesRead; // 0x30
+		::System::Boolean completedSynch; // 0x34
+		::System::Boolean completed; // 0x35
+		::System::Int32 OriginalCount; // 0x38
 		::System::Int32 Count; // 0x3C
 
 		::System::Void _ctor(::System::AsyncCallback* a1, ::System::Object* a2)

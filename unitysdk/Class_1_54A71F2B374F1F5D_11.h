@@ -4,24 +4,24 @@
 
 namespace System { class String; }
 
-#define CLASS_1_54A71F2B374F1F5D_11_METHOD_1_5790A55946AA509D_OFFSET UNITYSDK_OFFSET(0x156282A0)
+#define CLASS_1_54A71F2B374F1F5D_11_METHOD_1_5790A55946AA509D_OFFSET UNITYSDK_OFFSET(0x15945A90)
 
-inline static constexpr unsigned int Class_1_54A71F2B374F1F5D_11_TypeDefinitionIndex = 59785;
+inline static constexpr unsigned int Class_1_54A71F2B374F1F5D_11_TypeDefinitionIndex = 59640;
 
 class Class_1_54A71F2B374F1F5D_11 : public ::System::Object
 {
 public:
 	static ::System::Boolean* StaticGet_NAJGBKEANGN()
 	{
-		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_54A71F2B374F1F5D_11_TypeDefinitionIndex)->GetStaticField(0x9320);
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_54A71F2B374F1F5D_11_TypeDefinitionIndex)->GetStaticField(0x14510);
 	}
 	static ::System::Boolean* StaticGet_JDDNLBBFDCK()
 	{
-		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_54A71F2B374F1F5D_11_TypeDefinitionIndex)->GetStaticField(0x9321);
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_54A71F2B374F1F5D_11_TypeDefinitionIndex)->GetStaticField(0x14511);
 	}
 	static ::System::Boolean* StaticGet_HNNPINMLNDA()
 	{
-		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_54A71F2B374F1F5D_11_TypeDefinitionIndex)->GetStaticField(0x9322);
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_54A71F2B374F1F5D_11_TypeDefinitionIndex)->GetStaticField(0x14512);
 	}
 	// static const ::System::Int32 PLMNNMLCMIG = 0x3E8; // 0x0
 	// static const ::System::Int32 LEAGJFMEMIN = 0x7D0; // 0x0

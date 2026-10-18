@@ -6,11 +6,11 @@
 namespace System { class String; }
 namespace UnityEngine { class Material; }
 
-#define EFFECT_UVANIMATION_START_OFFSET UNITYSDK_OFFSET(0x152F4F90)
-#define EFFECT_UVANIMATION_UPDATE_OFFSET UNITYSDK_OFFSET(0x152F5060)
-#define EFFECT_UVANIMATION__CTOR_OFFSET UNITYSDK_OFFSET(0x152F51F0)
+#define EFFECT_UVANIMATION_START_OFFSET UNITYSDK_OFFSET(0x155E39A0)
+#define EFFECT_UVANIMATION_UPDATE_OFFSET UNITYSDK_OFFSET(0x155E3A70)
+#define EFFECT_UVANIMATION__CTOR_OFFSET UNITYSDK_OFFSET(0x155E3C00)
 
-inline static constexpr unsigned int Effect_UVAnimation_TypeDefinitionIndex = 47918;
+inline static constexpr unsigned int Effect_UVAnimation_TypeDefinitionIndex = 47458;
 
 class Effect_UVAnimation : public ::UnityEngine::MonoBehaviour
 {

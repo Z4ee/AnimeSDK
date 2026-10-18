@@ -7,22 +7,22 @@ namespace RPG::Client::ChenLingFes { class ChenLingFesWeekSettleValueViewModel; 
 namespace System { class String; }
 namespace UnityEngine::UI { class Text; }
 
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESWEEKSETTLEVALUECONTROL_GET__VIEWMODEL_OFFSET UNITYSDK_OFFSET(0xCB7D7B0)
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESWEEKSETTLEVALUECONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0xCB7D860)
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESWEEKSETTLEVALUECONTROL__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0xCB7D270)
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESWEEKSETTLEVALUECONTROL__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0xCB7D170)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESWEEKSETTLEVALUECONTROL_GET__VIEWMODEL_OFFSET UNITYSDK_OFFSET(0xCACCC60)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESWEEKSETTLEVALUECONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0xCACCD10)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESWEEKSETTLEVALUECONTROL__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0xCACC720)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESWEEKSETTLEVALUECONTROL__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0xCACC620)
 
 namespace RPG::Client::ChenLingFes
 {
-	inline static constexpr unsigned int ChenLingFesWeekSettleValueControl_TypeDefinitionIndex = 80023;
+	inline static constexpr unsigned int ChenLingFesWeekSettleValueControl_TypeDefinitionIndex = 81351;
 
 	class ChenLingFesWeekSettleValueControl : public ::Sofa::BaseSofaControl
 	{
 	public:
 		// static const ::System::String* PrefabPath; // 0x0
-		::RPG::Client::UIStateCtrl* _StateCtrl; // 0x38
-		::UnityEngine::UI::Text* _TextStar; // 0x40
-		::UnityEngine::UI::Text* _TextScore; // 0x48
+		::RPG::Client::UIStateCtrl* _StateCtrl; // 0x40
+		::UnityEngine::UI::Text* _TextStar; // 0x48
+		::UnityEngine::UI::Text* _TextScore; // 0x50
 
 		::System::Void _ctor()
 		{

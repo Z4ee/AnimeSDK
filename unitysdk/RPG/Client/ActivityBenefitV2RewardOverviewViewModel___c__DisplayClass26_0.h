@@ -5,12 +5,12 @@
 namespace RPG::Client { class ItemDisplayData; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define RPG_CLIENT_ACTIVITYBENEFITV2REWARDOVERVIEWVIEWMODEL___C__DISPLAYCLASS26_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC4D3F70)
-#define RPG_CLIENT_ACTIVITYBENEFITV2REWARDOVERVIEWVIEWMODEL___C__DISPLAYCLASS26_0___CTOR_B__1_OFFSET UNITYSDK_OFFSET(0xC4D42C0)
+#define RPG_CLIENT_ACTIVITYBENEFITV2REWARDOVERVIEWVIEWMODEL___C__DISPLAYCLASS26_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC3DBA00)
+#define RPG_CLIENT_ACTIVITYBENEFITV2REWARDOVERVIEWVIEWMODEL___C__DISPLAYCLASS26_0___CTOR_B__1_OFFSET UNITYSDK_OFFSET(0xC3DBD50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityBenefitV2RewardOverviewViewModel___c__DisplayClass26_0_TypeDefinitionIndex = 61510;
+	inline static constexpr unsigned int ActivityBenefitV2RewardOverviewViewModel___c__DisplayClass26_0_TypeDefinitionIndex = 61416;
 
 	class ActivityBenefitV2RewardOverviewViewModel___c__DisplayClass26_0 : public ::System::Object
 	{

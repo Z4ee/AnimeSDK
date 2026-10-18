@@ -7,19 +7,19 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_C9C9D9AECB74EF63_METHOD_1_5072DA1A8A5B638A_OFFSET UNITYSDK_OFFSET(0xBC7B500)
-#define CLASS_1_C9C9D9AECB74EF63_METHOD_1_85343C7B63B78DC4_OFFSET UNITYSDK_OFFSET(0xBC7B5D0)
-#define CLASS_1_C9C9D9AECB74EF63_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xBC7B4C0)
-#define CLASS_1_C9C9D9AECB74EF63__CTOR_OFFSET UNITYSDK_OFFSET(0xBC7AF20)
+#define CLASS_1_C9C9D9AECB74EF63_METHOD_1_5072DA1A8A5B638A_OFFSET UNITYSDK_OFFSET(0xBB52F40)
+#define CLASS_1_C9C9D9AECB74EF63_METHOD_1_85343C7B63B78DC4_OFFSET UNITYSDK_OFFSET(0xBB53010)
+#define CLASS_1_C9C9D9AECB74EF63_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xBB52F00)
+#define CLASS_1_C9C9D9AECB74EF63__CTOR_OFFSET UNITYSDK_OFFSET(0xBB52960)
 
-inline static constexpr unsigned int Class_1_C9C9D9AECB74EF63_TypeDefinitionIndex = 63438;
+inline static constexpr unsigned int Class_1_C9C9D9AECB74EF63_TypeDefinitionIndex = 63376;
 
 class Class_1_C9C9D9AECB74EF63 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::RPG::Client::ChimeraDuelMasterRecommendationData*>*>* MGCGMKBDPLL; // 0x10
+	::System::Collections::Generic::List_1<::RPG::Client::ChimeraDuelMasterRecommendationData*>* ANEGPMAIBPF; // 0x10
 	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::ChimeraDuelMasterRecommendationData*>* GPNJONIFBNH; // 0x18
-	::System::Collections::Generic::List_1<::RPG::Client::ChimeraDuelMasterRecommendationData*>* ANEGPMAIBPF; // 0x20
+	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::RPG::Client::ChimeraDuelMasterRecommendationData*>*>* MGCGMKBDPLL; // 0x20
 
 	::System::Void _ctor()
 	{

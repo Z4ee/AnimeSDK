@@ -2,16 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
+namespace MiHoYo::SDK::PC::OS { class EpicPurchaseExtension; }
 namespace MiHoYo::SDK::PC::OS { class GooglePurchaseExtension; }
 namespace MiHoYo::SDK::PC::OS { class SteamPurchaseExtension; }
 namespace MiHoYo::SDK::PC::OS { class XboxPurchaseExtension; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_PURCHASEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA38CF0)
+#define MIHOYO_SDK_PC_OS_PURCHASEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF42770)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int PurchaseData_TypeDefinitionIndex = 8539;
+	inline static constexpr unsigned int PurchaseData_TypeDefinitionIndex = 8599;
 
 	class PurchaseData : public ::System::Object
 	{
@@ -21,6 +22,7 @@ namespace MiHoYo::SDK::PC::OS
 		::MiHoYo::SDK::PC::OS::GooglePurchaseExtension* google; // 0x20
 		::MiHoYo::SDK::PC::OS::SteamPurchaseExtension* steam; // 0x28
 		::MiHoYo::SDK::PC::OS::XboxPurchaseExtension* xbox; // 0x30
+		::MiHoYo::SDK::PC::OS::EpicPurchaseExtension* epic; // 0x38
 
 		::System::Void _ctor()
 		{

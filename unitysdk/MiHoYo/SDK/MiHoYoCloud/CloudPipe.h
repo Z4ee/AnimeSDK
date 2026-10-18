@@ -7,40 +7,40 @@ namespace CloudGame::MailBox { class Mailbox_ReceiveCallbackHandler; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_MIHOYOCLOUD_CLOUDPIPE_CONNECT_OFFSET UNITYSDK_OFFSET(0x1B99A8E0)
-#define MIHOYO_SDK_MIHOYOCLOUD_CLOUDPIPE_GETSTRING_OFFSET UNITYSDK_OFFSET(0x1B99B6C0)
-#define MIHOYO_SDK_MIHOYOCLOUD_CLOUDPIPE_INIT_OFFSET UNITYSDK_OFFSET(0x1B99ABB0)
-#define MIHOYO_SDK_MIHOYOCLOUD_CLOUDPIPE_INVOKECALLBACK_OFFSET UNITYSDK_OFFSET(0x1B999140)
-#define MIHOYO_SDK_MIHOYOCLOUD_CLOUDPIPE_ONGETPIPEDATA_OFFSET UNITYSDK_OFFSET(0x1B99AC60)
-#define MIHOYO_SDK_MIHOYOCLOUD_CLOUDPIPE_ONGETRESPONSE_OFFSET UNITYSDK_OFFSET(0x1B99AE10)
-#define MIHOYO_SDK_MIHOYOCLOUD_CLOUDPIPE_SDKRECEIVECALLBACK_OFFSET UNITYSDK_OFFSET(0x1B99A710)
-#define MIHOYO_SDK_MIHOYOCLOUD_CLOUDPIPE_SENDDATA_OFFSET UNITYSDK_OFFSET(0x1B99ABC0)
-#define MIHOYO_SDK_MIHOYOCLOUD_CLOUDPIPE_SENDPARAMDATA_OFFSET UNITYSDK_OFFSET(0x1B998710)
-#define MIHOYO_SDK_MIHOYOCLOUD_CLOUDPIPE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B99B730)
-#define MIHOYO_SDK_MIHOYOCLOUD_CLOUDPIPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B99A820)
+#define MIHOYO_SDK_MIHOYOCLOUD_CLOUDPIPE_CONNECT_OFFSET UNITYSDK_OFFSET(0x1BE9A5A0)
+#define MIHOYO_SDK_MIHOYOCLOUD_CLOUDPIPE_GETSTRING_OFFSET UNITYSDK_OFFSET(0x1BE9B380)
+#define MIHOYO_SDK_MIHOYOCLOUD_CLOUDPIPE_INIT_OFFSET UNITYSDK_OFFSET(0x1BE9A870)
+#define MIHOYO_SDK_MIHOYOCLOUD_CLOUDPIPE_INVOKECALLBACK_OFFSET UNITYSDK_OFFSET(0x1BE98DD0)
+#define MIHOYO_SDK_MIHOYOCLOUD_CLOUDPIPE_ONGETPIPEDATA_OFFSET UNITYSDK_OFFSET(0x1BE9A920)
+#define MIHOYO_SDK_MIHOYOCLOUD_CLOUDPIPE_ONGETRESPONSE_OFFSET UNITYSDK_OFFSET(0x1BE9AAD0)
+#define MIHOYO_SDK_MIHOYOCLOUD_CLOUDPIPE_SDKRECEIVECALLBACK_OFFSET UNITYSDK_OFFSET(0x1BE9A3D0)
+#define MIHOYO_SDK_MIHOYOCLOUD_CLOUDPIPE_SENDDATA_OFFSET UNITYSDK_OFFSET(0x1BE9A880)
+#define MIHOYO_SDK_MIHOYOCLOUD_CLOUDPIPE_SENDPARAMDATA_OFFSET UNITYSDK_OFFSET(0x1BE982E0)
+#define MIHOYO_SDK_MIHOYOCLOUD_CLOUDPIPE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BE9B3F0)
+#define MIHOYO_SDK_MIHOYOCLOUD_CLOUDPIPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE9A4E0)
 
 namespace MiHoYo::SDK::MiHoYoCloud
 {
-	inline static constexpr unsigned int CloudPipe_TypeDefinitionIndex = 9074;
+	inline static constexpr unsigned int CloudPipe_TypeDefinitionIndex = 9135;
 
 	class CloudPipe : public ::System::Object
 	{
 	public:
-		static ::MiHoYo::SDK::MiHoYoCloud::CloudPipe** StaticGet_Instance()
-		{
-			return (::MiHoYo::SDK::MiHoYoCloud::CloudPipe**)Il2CppClass::FromTypeDefinitionIndex(CloudPipe_TypeDefinitionIndex)->GetStaticField(0x17090);
-		}
 		static ::CloudGame::MailBox::Mailbox** StaticGet_mailbox()
 		{
-			return (::CloudGame::MailBox::Mailbox**)Il2CppClass::FromTypeDefinitionIndex(CloudPipe_TypeDefinitionIndex)->GetStaticField(0x17098);
+			return (::CloudGame::MailBox::Mailbox**)Il2CppClass::FromTypeDefinitionIndex(CloudPipe_TypeDefinitionIndex)->GetStaticField(0x10920);
 		}
 		static ::CloudGame::MailBox::Mailbox_ReceiveCallbackHandler** StaticGet_receiveCallback()
 		{
-			return (::CloudGame::MailBox::Mailbox_ReceiveCallbackHandler**)Il2CppClass::FromTypeDefinitionIndex(CloudPipe_TypeDefinitionIndex)->GetStaticField(0x170A0);
+			return (::CloudGame::MailBox::Mailbox_ReceiveCallbackHandler**)Il2CppClass::FromTypeDefinitionIndex(CloudPipe_TypeDefinitionIndex)->GetStaticField(0x10928);
 		}
 		static ::System::Action_1<::Il2CppArray<::System::Byte>*>** StaticGet_OnReceiveData()
 		{
-			return (::System::Action_1<::Il2CppArray<::System::Byte>*>**)Il2CppClass::FromTypeDefinitionIndex(CloudPipe_TypeDefinitionIndex)->GetStaticField(0x170A8);
+			return (::System::Action_1<::Il2CppArray<::System::Byte>*>**)Il2CppClass::FromTypeDefinitionIndex(CloudPipe_TypeDefinitionIndex)->GetStaticField(0x10930);
+		}
+		static ::MiHoYo::SDK::MiHoYoCloud::CloudPipe** StaticGet_Instance()
+		{
+			return (::MiHoYo::SDK::MiHoYoCloud::CloudPipe**)Il2CppClass::FromTypeDefinitionIndex(CloudPipe_TypeDefinitionIndex)->GetStaticField(0x10938);
 		}
 		// static const ::System::String* InvokeFunc; // 0x0
 		// static const ::System::String* InvokeReturnFunc; // 0x0

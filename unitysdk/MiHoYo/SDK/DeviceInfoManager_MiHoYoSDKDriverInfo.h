@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_DEVICEINFOMANAGER_MIHOYOSDKDRIVERINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xB1CC980)
+#define MIHOYO_SDK_DEVICEINFOMANAGER_MIHOYOSDKDRIVERINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xAF77140)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int DeviceInfoManager_MiHoYoSDKDriverInfo_TypeDefinitionIndex = 46930;
+	inline static constexpr unsigned int DeviceInfoManager_MiHoYoSDKDriverInfo_TypeDefinitionIndex = 46470;
 
 	class DeviceInfoManager_MiHoYoSDKDriverInfo : public ::System::Object
 	{

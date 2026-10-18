@@ -11,7 +11,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace Collections::Pooled
 {
-	inline static constexpr unsigned int PooledDictionary_2_KeyCollection_TypeDefinitionIndex = 5098;
+	inline static constexpr unsigned int PooledDictionary_2_KeyCollection_TypeDefinitionIndex = 5105;
 
 	template <typename TKey, typename TValue>
 	class PooledDictionary_2_KeyCollection : public ::System::Object

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelDataExportTarget_TypeDefinitionIndex = 16972;
+	inline static constexpr unsigned int LevelDataExportTarget_TypeDefinitionIndex = 17167;
 
 	enum class LevelDataExportTarget : ::System::Int32
 	{

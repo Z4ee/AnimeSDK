@@ -7,16 +7,16 @@ class Class_2_B9E8C2EEAA5C96EC;
 namespace Entitas { class IEntity; }
 namespace UnityEngine { class GameObject; }
 
-#define CLASS_1_1A589F8D4B1F727D___C__DISPLAYCLASS46_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB977930)
-#define CLASS_1_1A589F8D4B1F727D___C__DISPLAYCLASS46_0__INITBORDERPLATEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0xB97AFE0)
+#define CLASS_1_1A589F8D4B1F727D___C__DISPLAYCLASS46_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB830BF0)
+#define CLASS_1_1A589F8D4B1F727D___C__DISPLAYCLASS46_0__INITBORDERPLATEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0xB834380)
 
-inline static constexpr unsigned int Class_1_1A589F8D4B1F727D___c__DisplayClass46_0_TypeDefinitionIndex = 76416;
+inline static constexpr unsigned int Class_1_1A589F8D4B1F727D___c__DisplayClass46_0_TypeDefinitionIndex = 76893;
 
 class Class_1_1A589F8D4B1F727D___c__DisplayClass46_0 : public ::System::Object
 {
 public:
-	::Class_2_B9E8C2EEAA5C96EC* enterEntityCaptured; // 0x10
-	::Class_1_1A589F8D4B1F727D* __4__this; // 0x18
+	::Class_1_1A589F8D4B1F727D* __4__this; // 0x10
+	::Class_2_B9E8C2EEAA5C96EC* enterEntityCaptured; // 0x18
 
 	::System::Void _ctor()
 	{

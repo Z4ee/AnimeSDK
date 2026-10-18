@@ -11,7 +11,7 @@ namespace UnityEngine { class Animator; }
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtTransformAdaptor_2_TypeDefinitionIndex = 54192;
+	inline static constexpr unsigned int RtTransformAdaptor_2_TypeDefinitionIndex = 53978;
 
 	template <typename TInitParam, typename TStartParam>
 	class RtTransformAdaptor_2 : public ::System::Object

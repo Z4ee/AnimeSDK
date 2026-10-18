@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_43BD383C98B4C0C5_149;
+class Class_1_43BD383C98B4C0C5_148;
 class Class_1_CFBEA2D53E7F4C67;
 namespace RPG::Client { class ActivitySwordTrainingExamData; }
 
-#define CLASS_1_5EFEE08E3E11BEF1__CTOR_OFFSET UNITYSDK_OFFSET(0xBE63CE0)
+#define CLASS_1_5EFEE08E3E11BEF1__CTOR_OFFSET UNITYSDK_OFFSET(0xBCF2750)
 
-inline static constexpr unsigned int Class_1_5EFEE08E3E11BEF1_TypeDefinitionIndex = 62023;
+inline static constexpr unsigned int Class_1_5EFEE08E3E11BEF1_TypeDefinitionIndex = 61939;
 
 class Class_1_5EFEE08E3E11BEF1 : public ::System::Object
 {
 public:
 	::RPG::Client::ActivitySwordTrainingExamData* JLGMOEDGOEB; // 0x10
 	::Class_1_CFBEA2D53E7F4C67* AHJAKPGEIKH; // 0x18
-	::Class_1_43BD383C98B4C0C5_149* PPBCGLJNFBL; // 0x20
+	::Class_1_43BD383C98B4C0C5_148* PPBCGLJNFBL; // 0x20
 	::System::Boolean LAJOJDBILNI; // 0x28
 
 	::System::Void _ctor()

@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define RPG_GAMECORE_CUSTOMFUNCBTNNOTIFYPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xE597680)
+#define RPG_GAMECORE_CUSTOMFUNCBTNNOTIFYPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xE62FBF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CustomFuncBtnNotifyParam_TypeDefinitionIndex = 53536;
+	inline static constexpr unsigned int CustomFuncBtnNotifyParam_TypeDefinitionIndex = 53279;
 
 	class CustomFuncBtnNotifyParam : public ::System::Object
 	{

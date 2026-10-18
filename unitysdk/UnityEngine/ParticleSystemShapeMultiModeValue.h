@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ParticleSystemShapeMultiModeValue_TypeDefinitionIndex = 5276;
+	inline static constexpr unsigned int ParticleSystemShapeMultiModeValue_TypeDefinitionIndex = 5283;
 
 	enum class ParticleSystemShapeMultiModeValue : ::System::Int32
 	{

@@ -6,10 +6,10 @@ class Class_1_E3079942E0116397;
 namespace Sofa { class BaseSofaUI3DWindow; }
 namespace Sofa { class BaseSofaWindow; }
 
-#define CLASS_1_E3079942E0116397___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCD19AE0)
-#define CLASS_1_E3079942E0116397___C__DISPLAYCLASS7_0___FETCHFORSOFA_B__0_OFFSET UNITYSDK_OFFSET(0xCD19B70)
+#define CLASS_1_E3079942E0116397___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCC8F020)
+#define CLASS_1_E3079942E0116397___C__DISPLAYCLASS7_0___FETCHFORSOFA_B__0_OFFSET UNITYSDK_OFFSET(0xCC8F0B0)
 
-inline static constexpr unsigned int Class_1_E3079942E0116397___c__DisplayClass7_0_TypeDefinitionIndex = 72912;
+inline static constexpr unsigned int Class_1_E3079942E0116397___c__DisplayClass7_0_TypeDefinitionIndex = 72995;
 
 class Class_1_E3079942E0116397___c__DisplayClass7_0 : public ::System::Object
 {

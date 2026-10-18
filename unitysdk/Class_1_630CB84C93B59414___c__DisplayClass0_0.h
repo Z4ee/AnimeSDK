@@ -3,17 +3,17 @@
 #include "unitysdk/System/Object.h"
 
 class Class_1_630CB84C93B59414;
-class Class_1_8CA784D26D9A6CF7;
+class Class_1_D7FE7C0ADCE6BFB9;
 
-#define CLASS_1_630CB84C93B59414___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0x162E4F10)
-#define CLASS_1_630CB84C93B59414___C__DISPLAYCLASS0_0__STARTFORFULLPACKAGE_B__0_OFFSET UNITYSDK_OFFSET(0x162FF6E0)
+#define CLASS_1_630CB84C93B59414___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB1CA770)
+#define CLASS_1_630CB84C93B59414___C__DISPLAYCLASS0_0__STARTFORFULLPACKAGE_B__0_OFFSET UNITYSDK_OFFSET(0xB1E4EC0)
 
-inline static constexpr unsigned int Class_1_630CB84C93B59414___c__DisplayClass0_0_TypeDefinitionIndex = 59644;
+inline static constexpr unsigned int Class_1_630CB84C93B59414___c__DisplayClass0_0_TypeDefinitionIndex = 59499;
 
 class Class_1_630CB84C93B59414___c__DisplayClass0_0 : public ::System::Object
 {
 public:
-	::Class_1_8CA784D26D9A6CF7* queue; // 0x10
+	::Class_1_D7FE7C0ADCE6BFB9* queue; // 0x10
 	::Class_1_630CB84C93B59414* __4__this; // 0x18
 
 	::System::Void _ctor()

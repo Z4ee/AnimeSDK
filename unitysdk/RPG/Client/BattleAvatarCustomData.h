@@ -2,24 +2,26 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
+class Class_1_26F7DD8BFCC364B9;
 class Class_1_89120A467F7A010D_1;
 namespace RPG::Client { class BattleSilverWolf999CustomUIData; }
 
-#define RPG_CLIENT_BATTLEAVATARCUSTOMDATA_ADDHANDLERS_OFFSET UNITYSDK_OFFSET(0xC8EFC60)
-#define RPG_CLIENT_BATTLEAVATARCUSTOMDATA_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC8EFBA0)
-#define RPG_CLIENT_BATTLEAVATARCUSTOMDATA_LATETICK_OFFSET UNITYSDK_OFFSET(0xC8EFCE0)
-#define RPG_CLIENT_BATTLEAVATARCUSTOMDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xC8EFD80)
+#define RPG_CLIENT_BATTLEAVATARCUSTOMDATA_ADDHANDLERS_OFFSET UNITYSDK_OFFSET(0xC812F90)
+#define RPG_CLIENT_BATTLEAVATARCUSTOMDATA_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC812EB0)
+#define RPG_CLIENT_BATTLEAVATARCUSTOMDATA_LATETICK_OFFSET UNITYSDK_OFFSET(0xC813090)
+#define RPG_CLIENT_BATTLEAVATARCUSTOMDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xC813130)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BattleAvatarCustomData_TypeDefinitionIndex = 71418;
+	inline static constexpr unsigned int BattleAvatarCustomData_TypeDefinitionIndex = 71459;
 
 	class BattleAvatarCustomData : public ::System::Object
 	{
 	public:
-		::RPG::Client::BattleSilverWolf999CustomUIData* SilverWolf999CustomUIData; // 0x10
+		::Class_1_26F7DD8BFCC364B9* PearlCustomUIData; // 0x10
 		::Class_1_89120A467F7A010D_1* HimekoNovaCustomUIData; // 0x18
-		::System::Boolean _AddedHandlers; // 0x20
+		::RPG::Client::BattleSilverWolf999CustomUIData* SilverWolf999CustomUIData; // 0x20
+		::System::Boolean _AddedHandlers; // 0x28
 
 		::System::Void _ctor()
 		{

@@ -5,10 +5,10 @@
 namespace System { class String; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_NAMECACHE_GETCACHEDVALUE_OFFSET UNITYSDK_OFFSET(0x1BE0DED0)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_NAMECACHE_SETCACHEDVALUE_OFFSET UNITYSDK_OFFSET(0x1BE0DF70)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_NAMECACHE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BE0E010)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_NAMECACHE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE0E000)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_NAMECACHE_GETCACHEDVALUE_OFFSET UNITYSDK_OFFSET(0x1C319B30)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_NAMECACHE_SETCACHEDVALUE_OFFSET UNITYSDK_OFFSET(0x1C319BD0)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_NAMECACHE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C319C70)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_NAMECACHE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C319C60)
 
 namespace System::Runtime::Serialization::Formatters::Binary
 {
@@ -19,7 +19,7 @@ namespace System::Runtime::Serialization::Formatters::Binary
 	public:
 		static ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::String*, ::System::Object*>** StaticGet_ht()
 		{
-			return (::System::Collections::Concurrent::ConcurrentDictionary_2<::System::String*, ::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(NameCache_TypeDefinitionIndex)->GetStaticField(0x15030);
+			return (::System::Collections::Concurrent::ConcurrentDictionary_2<::System::String*, ::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(NameCache_TypeDefinitionIndex)->GetStaticField(0x19B10);
 		}
 		::System::String* name; // 0x10
 

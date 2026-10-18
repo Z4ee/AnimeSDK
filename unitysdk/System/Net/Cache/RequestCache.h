@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_NET_CACHE_REQUESTCACHE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E9574B0)
+#define SYSTEM_NET_CACHE_REQUESTCACHE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F020410)
 
 namespace System::Net::Cache
 {
@@ -13,7 +13,7 @@ namespace System::Net::Cache
 	public:
 		static ::Il2CppArray<::System::Char>** StaticGet_LineSplits()
 		{
-			return (::Il2CppArray<::System::Char>**)Il2CppClass::FromTypeDefinitionIndex(RequestCache_TypeDefinitionIndex)->GetStaticField(0x363B0);
+			return (::Il2CppArray<::System::Char>**)Il2CppClass::FromTypeDefinitionIndex(RequestCache_TypeDefinitionIndex)->GetStaticField(0x3DB90);
 		}
 
 		static ::System::Void _cctor()

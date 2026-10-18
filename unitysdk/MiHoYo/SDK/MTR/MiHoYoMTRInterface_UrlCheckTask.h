@@ -5,11 +5,11 @@
 namespace MiHoYo::SDK::MTR { class MiHoYoMTRInterface_MiHoYoUrlUsageCallback; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_MTR_MIHOYOMTRINTERFACE_URLCHECKTASK__CTOR_OFFSET UNITYSDK_OFFSET(0xB21A770)
+#define MIHOYO_SDK_MTR_MIHOYOMTRINTERFACE_URLCHECKTASK__CTOR_OFFSET UNITYSDK_OFFSET(0xAFBF8C0)
 
 namespace MiHoYo::SDK::MTR
 {
-	inline static constexpr unsigned int MiHoYoMTRInterface_UrlCheckTask_TypeDefinitionIndex = 47143;
+	inline static constexpr unsigned int MiHoYoMTRInterface_UrlCheckTask_TypeDefinitionIndex = 46683;
 
 	class MiHoYoMTRInterface_UrlCheckTask : public ::MiHoYo::SDK::MTR::MiHoYoMTRInterface_BaseTask
 	{

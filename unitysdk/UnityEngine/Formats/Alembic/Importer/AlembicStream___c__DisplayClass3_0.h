@@ -5,18 +5,18 @@
 namespace System { class String; }
 namespace UnityEngine::Formats::Alembic::Importer { class AlembicStream; }
 
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAM___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1EAA9F90)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAM___C__DISPLAYCLASS3_0__REMAPSTREAMSWITHPATH_B__0_OFFSET UNITYSDK_OFFSET(0x1EAADF00)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAM___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1F1717C0)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAM___C__DISPLAYCLASS3_0__REMAPSTREAMSWITHPATH_B__0_OFFSET UNITYSDK_OFFSET(0x1F175760)
 
 namespace UnityEngine::Formats::Alembic::Importer
 {
-	inline static constexpr unsigned int AlembicStream___c__DisplayClass3_0_TypeDefinitionIndex = 44728;
+	inline static constexpr unsigned int AlembicStream___c__DisplayClass3_0_TypeDefinitionIndex = 45867;
 
 	class AlembicStream___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:
-		::System::String* oldPath; // 0x10
-		::System::String* newPath; // 0x18
+		::System::String* newPath; // 0x10
+		::System::String* oldPath; // 0x18
 
 		::System::Void _ctor()
 		{

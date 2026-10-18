@@ -6,7 +6,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int SyncMarkerTrack_TypeDefinitionIndex = 5725;
+	inline static constexpr unsigned int SyncMarkerTrack_TypeDefinitionIndex = 5733;
 
 	class SyncMarkerTrack : public ::System::Object
 	{

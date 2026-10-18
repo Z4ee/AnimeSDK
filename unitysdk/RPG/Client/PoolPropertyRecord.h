@@ -5,11 +5,11 @@
 
 namespace RPG::Client { class PropertyRecord; }
 
-#define RPG_CLIENT_POOLPROPERTYRECORD__CTOR_OFFSET UNITYSDK_OFFSET(0xDBBB0C0)
+#define RPG_CLIENT_POOLPROPERTYRECORD__CTOR_OFFSET UNITYSDK_OFFSET(0xDC04F10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PoolPropertyRecord_TypeDefinitionIndex = 72552;
+	inline static constexpr unsigned int PoolPropertyRecord_TypeDefinitionIndex = 72627;
 
 	class PoolPropertyRecord : public ::System::Object
 	{

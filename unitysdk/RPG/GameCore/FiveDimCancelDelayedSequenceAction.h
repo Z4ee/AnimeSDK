@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIVEDIMCANCELDELAYEDSEQUENCEACTION_METHOD_3_3000EC3C49B313FB_OFFSET UNITYSDK_OFFSET(0x1D0A5270)
-#define RPG_GAMECORE_FIVEDIMCANCELDELAYEDSEQUENCEACTION_METHOD_3_522916831F04D9FE_OFFSET UNITYSDK_OFFSET(0x1D0A5330)
-#define RPG_GAMECORE_FIVEDIMCANCELDELAYEDSEQUENCEACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0A5320)
+#define RPG_GAMECORE_FIVEDIMCANCELDELAYEDSEQUENCEACTION_METHOD_4_85426756A93BDD56_OFFSET UNITYSDK_OFFSET(0x1D6B4200)
+#define RPG_GAMECORE_FIVEDIMCANCELDELAYEDSEQUENCEACTION_METHOD_4_860F36E7999ABA93_OFFSET UNITYSDK_OFFSET(0x1D6B42C0)
+#define RPG_GAMECORE_FIVEDIMCANCELDELAYEDSEQUENCEACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6B42B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimCancelDelayedSequenceAction_TypeDefinitionIndex = 18486;
+	inline static constexpr unsigned int FiveDimCancelDelayedSequenceAction_TypeDefinitionIndex = 18696;
 
 	class FiveDimCancelDelayedSequenceAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
@@ -23,14 +23,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMCANCELDELAYEDSEQUENCEACTION__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_3000EC3C49B313FB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimCancelDelayedSequenceAction*& a2)
+		static ::System::Void Method_4_85426756A93BDD56(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimCancelDelayedSequenceAction*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimCancelDelayedSequenceAction*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMCANCELDELAYEDSEQUENCEACTION_METHOD_3_3000EC3C49B313FB_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimCancelDelayedSequenceAction*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMCANCELDELAYEDSEQUENCEACTION_METHOD_4_85426756A93BDD56_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_522916831F04D9FE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimCancelDelayedSequenceAction* a2)
+		static ::System::Void Method_4_860F36E7999ABA93(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimCancelDelayedSequenceAction* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimCancelDelayedSequenceAction*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMCANCELDELAYEDSEQUENCEACTION_METHOD_3_522916831F04D9FE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimCancelDelayedSequenceAction*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMCANCELDELAYEDSEQUENCEACTION_METHOD_4_860F36E7999ABA93_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -7,12 +7,12 @@ namespace Google::Protobuf::Reflection { class EnumValueDescriptor; }
 namespace Google::Protobuf::Reflection { class EnumValueDescriptorProto; }
 namespace Google::Protobuf::Reflection { class FileDescriptor; }
 
-#define GOOGLE_PROTOBUF_REFLECTION_ENUMDESCRIPTOR___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B36C970)
-#define GOOGLE_PROTOBUF_REFLECTION_ENUMDESCRIPTOR___C__DISPLAYCLASS4_0___CTOR_B__0_OFFSET UNITYSDK_OFFSET(0x1B36CC30)
+#define GOOGLE_PROTOBUF_REFLECTION_ENUMDESCRIPTOR___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B86E6E0)
+#define GOOGLE_PROTOBUF_REFLECTION_ENUMDESCRIPTOR___C__DISPLAYCLASS4_0___CTOR_B__0_OFFSET UNITYSDK_OFFSET(0x1B86E9A0)
 
 namespace Google::Protobuf::Reflection
 {
-	inline static constexpr unsigned int EnumDescriptor___c__DisplayClass4_0_TypeDefinitionIndex = 5526;
+	inline static constexpr unsigned int EnumDescriptor___c__DisplayClass4_0_TypeDefinitionIndex = 5533;
 
 	class EnumDescriptor___c__DisplayClass4_0 : public ::System::Object
 	{

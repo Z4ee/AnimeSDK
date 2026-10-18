@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_LIGHTNINGSTRIKEAREACONFIG_METHOD_2_3E9727ABC8492920_OFFSET UNITYSDK_OFFSET(0x1D1F24D0)
-#define RPG_GAMECORE_LIGHTNINGSTRIKEAREACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1F29B0)
+#define RPG_GAMECORE_LIGHTNINGSTRIKEAREACONFIG_METHOD_2_6B48918311730580_OFFSET UNITYSDK_OFFSET(0x1D7CFC90)
+#define RPG_GAMECORE_LIGHTNINGSTRIKEAREACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7D0190)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LightningStrikeAreaConfig_TypeDefinitionIndex = 20837;
+	inline static constexpr unsigned int LightningStrikeAreaConfig_TypeDefinitionIndex = 21075;
 
 	class LightningStrikeAreaConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -36,9 +36,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LIGHTNINGSTRIKEAREACONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_3E9727ABC8492920(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LightningStrikeAreaConfig*& a2)
+		static ::System::Void Method_2_6B48918311730580(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LightningStrikeAreaConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LightningStrikeAreaConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LIGHTNINGSTRIKEAREACONFIG_METHOD_2_3E9727ABC8492920_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LightningStrikeAreaConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LIGHTNINGSTRIKEAREACONFIG_METHOD_2_6B48918311730580_OFFSET))(a1, a2);
 		}
 	};
 }

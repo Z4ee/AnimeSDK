@@ -8,7 +8,7 @@ namespace System { class String; }
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UniTask_1_TypeDefinitionIndex = 42797;
+	inline static constexpr unsigned int UniTask_1_TypeDefinitionIndex = 38382;
 
 	template <typename T>
 	struct UniTask_1

@@ -5,7 +5,7 @@
 namespace System { class String; }
 namespace System::Reflection { class MonoCMethod; }
 
-#define SYSTEM_MONOTYPEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD73F00)
+#define SYSTEM_MONOTYPEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1C27FCA0)
 
 namespace System
 {

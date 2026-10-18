@@ -7,13 +7,13 @@ namespace System::Net::Http { class HttpRequestMessage; }
 namespace System::Net::Http { class HttpResponseMessage; }
 namespace System::Threading::Tasks { template <typename T> class Task_1; }
 
-#define SYSTEM_NET_HTTP_HTTPMESSAGEHANDLER_DISPOSE_1_OFFSET UNITYSDK_OFFSET(0x1E7961C0)
-#define SYSTEM_NET_HTTP_HTTPMESSAGEHANDLER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1E79B590)
-#define SYSTEM_NET_HTTP_HTTPMESSAGEHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E796110)
+#define SYSTEM_NET_HTTP_HTTPMESSAGEHANDLER_DISPOSE_1_OFFSET UNITYSDK_OFFSET(0x1EE5EE30)
+#define SYSTEM_NET_HTTP_HTTPMESSAGEHANDLER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1EE64200)
+#define SYSTEM_NET_HTTP_HTTPMESSAGEHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EE5ED80)
 
 namespace System::Net::Http
 {
-	inline static constexpr unsigned int HttpMessageHandler_TypeDefinitionIndex = 3768;
+	inline static constexpr unsigned int HttpMessageHandler_TypeDefinitionIndex = 3769;
 
 	class HttpMessageHandler : public ::System::Object
 	{

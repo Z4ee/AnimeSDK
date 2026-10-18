@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/XLua/LuaMemoryLeakChecker_RefInfo.h"
 
-#define XLUA_LUAMEMORYLEAKCHECKER___C__DISPLAYCLASS11_1__CTOR_OFFSET UNITYSDK_OFFSET(0x14B2D8A0)
-#define XLUA_LUAMEMORYLEAKCHECKER___C__DISPLAYCLASS11_1__MEMORYLEAKREPORT_B__6_OFFSET UNITYSDK_OFFSET(0x14B2D8B0)
+#define XLUA_LUAMEMORYLEAKCHECKER___C__DISPLAYCLASS11_1__CTOR_OFFSET UNITYSDK_OFFSET(0x14DC3D70)
+#define XLUA_LUAMEMORYLEAKCHECKER___C__DISPLAYCLASS11_1__MEMORYLEAKREPORT_B__6_OFFSET UNITYSDK_OFFSET(0x14DC3D80)
 
 namespace XLua
 {
-	inline static constexpr unsigned int LuaMemoryLeakChecker___c__DisplayClass11_1_TypeDefinitionIndex = 50435;
+	inline static constexpr unsigned int LuaMemoryLeakChecker___c__DisplayClass11_1_TypeDefinitionIndex = 50064;
 
 	class LuaMemoryLeakChecker___c__DisplayClass11_1 : public ::System::Object
 	{

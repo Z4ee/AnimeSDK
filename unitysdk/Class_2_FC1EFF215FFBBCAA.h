@@ -1,0 +1,110 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_34917908B7833130.h"
+#include "unitysdk/RPG/GameCore/StageInvasionMonsterUIData.h"
+#include "unitysdk/Struct_2_96F8F0A04B900A9E.h"
+
+class Class_1_8E3C7CE527FAD01A;
+class Class_2_4F89235CCF773E8F;
+namespace RPG::GameCore { class GameEntity; }
+namespace System { class Action; }
+namespace System { class Object; }
+
+#define CLASS_2_FC1EFF215FFBBCAA_AUTOBINDCALLBACK_OFFSET UNITYSDK_OFFSET(0xB9122E0)
+#define CLASS_2_FC1EFF215FFBBCAA_AUTOREMOVECALLBACK_OFFSET UNITYSDK_OFFSET(0xB9123B0)
+#define CLASS_2_FC1EFF215FFBBCAA_GET_PRIORITY_OFFSET UNITYSDK_OFFSET(0xB9121C0)
+#define CLASS_2_FC1EFF215FFBBCAA_METHOD_2_01509228E3A9577B_OFFSET UNITYSDK_OFFSET(0xB9121D0)
+#define CLASS_2_FC1EFF215FFBBCAA_METHOD_2_04AF66402B9859B9_OFFSET UNITYSDK_OFFSET(0xB911DD0)
+#define CLASS_2_FC1EFF215FFBBCAA_METHOD_2_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0xB911CF0)
+#define CLASS_2_FC1EFF215FFBBCAA_METHOD_2_41A074549EF25F63_OFFSET UNITYSDK_OFFSET(0xB911E70)
+#define CLASS_2_FC1EFF215FFBBCAA_METHOD_2_6A0B28503240B927_OFFSET UNITYSDK_OFFSET(0xB911FC0)
+#define CLASS_2_FC1EFF215FFBBCAA_METHOD_2_6BCEDD4814D8A8D9_OFFSET UNITYSDK_OFFSET(0xB911C70)
+#define CLASS_2_FC1EFF215FFBBCAA_METHOD_2_97D83E4CB3B11935_OFFSET UNITYSDK_OFFSET(0xB911B30)
+#define CLASS_2_FC1EFF215FFBBCAA_METHOD_2_B369395DE291E0A3_OFFSET UNITYSDK_OFFSET(0xB912090)
+#define CLASS_2_FC1EFF215FFBBCAA_METHOD_2_B87EC24C505132F6_OFFSET UNITYSDK_OFFSET(0xB911E20)
+#define CLASS_2_FC1EFF215FFBBCAA_METHOD_2_FDE09C8D62639E3E_OFFSET UNITYSDK_OFFSET(0xB911D40)
+#define CLASS_2_FC1EFF215FFBBCAA__CTOR_OFFSET UNITYSDK_OFFSET(0xB912450)
+
+inline static constexpr unsigned int Class_2_FC1EFF215FFBBCAA_TypeDefinitionIndex = 71421;
+
+class Class_2_FC1EFF215FFBBCAA : public ::Class_1_34917908B7833130
+{
+public:
+	::Class_2_4F89235CCF773E8F* HHKKDMAKFDC; // 0x60
+	::System::Action* LKMLFIPPEML; // 0x68
+	::RPG::GameCore::GameEntity* KAKEIDJDNHJ; // 0x70
+	::Class_1_8E3C7CE527FAD01A* CMEJGFPKMAC; // 0x78
+	::System::Int32 _Priority_k__BackingField; // 0x80
+	::System::Boolean KICAHMGNMED; // 0x84
+	::System::Boolean EINNACFPAEN; // 0x85
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_FC1EFF215FFBBCAA__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Method_2_97D83E4CB3B11935()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_FC1EFF215FFBBCAA_METHOD_2_97D83E4CB3B11935_OFFSET))(this);
+	}
+
+	::System::Void Method_2_6BCEDD4814D8A8D9(::Struct_2_96F8F0A04B900A9E a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Struct_2_96F8F0A04B900A9E))((::PBYTE)hIl2Cpp + CLASS_2_FC1EFF215FFBBCAA_METHOD_2_6BCEDD4814D8A8D9_OFFSET))(this, a1);
+	}
+
+	::System::Boolean Method_2_391A84BCD9F51317()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_FC1EFF215FFBBCAA_METHOD_2_391A84BCD9F51317_OFFSET))(this);
+	}
+
+	::System::Void Method_2_FDE09C8D62639E3E(::System::Boolean a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_2_FC1EFF215FFBBCAA_METHOD_2_FDE09C8D62639E3E_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_04AF66402B9859B9(::System::Action* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + CLASS_2_FC1EFF215FFBBCAA_METHOD_2_04AF66402B9859B9_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_B87EC24C505132F6(::RPG::GameCore::GameEntity* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + CLASS_2_FC1EFF215FFBBCAA_METHOD_2_B87EC24C505132F6_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_6A0B28503240B927(::RPG::GameCore::StageInvasionMonsterUIData a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::StageInvasionMonsterUIData))((::PBYTE)hIl2Cpp + CLASS_2_FC1EFF215FFBBCAA_METHOD_2_6A0B28503240B927_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_41A074549EF25F63()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_FC1EFF215FFBBCAA_METHOD_2_41A074549EF25F63_OFFSET))(this);
+	}
+
+	::Class_2_4F89235CCF773E8F* Method_2_B369395DE291E0A3(::RPG::GameCore::StageInvasionMonsterUIData a1)
+	{
+		return ((::Class_2_4F89235CCF773E8F*(*)(::PVOID, ::RPG::GameCore::StageInvasionMonsterUIData))((::PBYTE)hIl2Cpp + CLASS_2_FC1EFF215FFBBCAA_METHOD_2_B369395DE291E0A3_OFFSET))(this, a1);
+	}
+
+	::System::Int32 get_Priority()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_FC1EFF215FFBBCAA_GET_PRIORITY_OFFSET))(this);
+	}
+
+	::System::Void Method_2_01509228E3A9577B(::System::Object* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_2_FC1EFF215FFBBCAA_METHOD_2_01509228E3A9577B_OFFSET))(this, a1);
+	}
+
+	::System::Void AutoBindCallback()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_FC1EFF215FFBBCAA_AUTOBINDCALLBACK_OFFSET))(this);
+	}
+
+	::System::Void AutoRemoveCallback()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_FC1EFF215FFBBCAA_AUTOREMOVECALLBACK_OFFSET))(this);
+	}
+};

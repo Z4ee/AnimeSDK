@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LoadingTipsRandomPool_1_TypeDefinitionIndex = 65828;
+	inline static constexpr unsigned int LoadingTipsRandomPool_1_TypeDefinitionIndex = 65766;
 
 	template <typename T>
 	class LoadingTipsRandomPool_1 : public ::System::Object

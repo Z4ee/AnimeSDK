@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GeometryRegionTargetType_TypeDefinitionIndex = 10500;
+	inline static constexpr unsigned int GeometryRegionTargetType_TypeDefinitionIndex = 10516;
 
 	enum class GeometryRegionTargetType : ::System::Int32
 	{

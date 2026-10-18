@@ -6,23 +6,23 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MATCHTHREEOPPONENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D24C940)
-#define RPG_GAMECORE_MATCHTHREEOPPONENTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D24CC20)
+#define RPG_GAMECORE_MATCHTHREEOPPONENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D857450)
+#define RPG_GAMECORE_MATCHTHREEOPPONENTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D857730)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MatchThreeOpponentRow_TypeDefinitionIndex = 11876;
+	inline static constexpr unsigned int MatchThreeOpponentRow_TypeDefinitionIndex = 11899;
 
 	class MatchThreeOpponentRow : public ::System::Object
 	{
 	public:
-		::System::String* IconPath; // 0x10
-		::System::String* MapImagePath; // 0x18
-		::System::String* AIConfig; // 0x20
-		::System::String* ImagePath; // 0x28
+		::System::String* ImagePath; // 0x10
+		::System::String* IconPath; // 0x18
+		::System::String* MapImagePath; // 0x20
+		::System::String* AIConfig; // 0x28
 		::System::UInt32 AILevel; // 0x30
-		::System::UInt32 Level; // 0x34
-		::System::UInt32 OpponentID; // 0x38
+		::System::UInt32 OpponentID; // 0x34
+		::System::UInt32 Level; // 0x38
 		::RPG::Client::TextID Nickname; // 0x40
 
 		::System::Void _ctor()

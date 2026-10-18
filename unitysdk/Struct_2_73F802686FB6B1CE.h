@@ -12,7 +12,7 @@ namespace RPG::GameCore { class TaskContext; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-inline static constexpr unsigned int Struct_2_73F802686FB6B1CE_TypeDefinitionIndex = 54323;
+inline static constexpr unsigned int Struct_2_73F802686FB6B1CE_TypeDefinitionIndex = 54109;
 
 struct alignas(8) Struct_2_73F802686FB6B1CE
 {

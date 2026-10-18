@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/Multithread/SchedulerType.h"
-#include "unitysdk/Unity/Jobs/JobHandle.h"
+#include "unitysdk/UnityEngine/Quaternion.h"
+#include "unitysdk/UnityEngine/Vector3.h"
 
-class Class_0_16E4307DCC419505_292;
+class Class_1_B381667AF51B5F43;
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_294_TypeDefinitionIndex = 42179;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_294_TypeDefinitionIndex = 42668;
 
 class Class_0_16E4307DCC419505_294
 {

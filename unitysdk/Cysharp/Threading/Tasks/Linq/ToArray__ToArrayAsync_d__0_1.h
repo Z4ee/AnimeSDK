@@ -14,7 +14,7 @@ namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int ToArray__ToArrayAsync_d__0_1_TypeDefinitionIndex = 44535;
+	inline static constexpr unsigned int ToArray__ToArrayAsync_d__0_1_TypeDefinitionIndex = 45674;
 
 	template <typename TSource>
 	struct ToArray__ToArrayAsync_d__0_1

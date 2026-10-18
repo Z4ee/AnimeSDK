@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_RENDERTESTPAGECONTEXT_ANIMATIONDROPDOWNITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xDE62E50)
+#define RPG_CLIENT_RENDERTESTPAGECONTEXT_ANIMATIONDROPDOWNITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xDEB14A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RenderTestPageContext_AnimationDropDownItem_TypeDefinitionIndex = 72782;
+	inline static constexpr unsigned int RenderTestPageContext_AnimationDropDownItem_TypeDefinitionIndex = 72865;
 
 	class RenderTestPageContext_AnimationDropDownItem : public ::System::Object
 	{

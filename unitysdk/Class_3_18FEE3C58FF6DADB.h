@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TimeRewindOverrideMaxRewindTime; }
 
-#define CLASS_3_18FEE3C58FF6DADB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16249C30)
-#define CLASS_3_18FEE3C58FF6DADB__CTOR_OFFSET UNITYSDK_OFFSET(0x16249C00)
+#define CLASS_3_18FEE3C58FF6DADB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x165C1990)
+#define CLASS_3_18FEE3C58FF6DADB__CTOR_OFFSET UNITYSDK_OFFSET(0x165C1960)
 
-inline static constexpr unsigned int Class_3_18FEE3C58FF6DADB_TypeDefinitionIndex = 53660;
+inline static constexpr unsigned int Class_3_18FEE3C58FF6DADB_TypeDefinitionIndex = 53403;
 
 class Class_3_18FEE3C58FF6DADB : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::TimeRewindOverrideMaxRewindTime*>
 {

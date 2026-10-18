@@ -1,0 +1,61 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_0_16E4307DCC419505_987;
+class Class_1_AE0CA897D782D638;
+namespace RPG::AvatarSystem { class IAvatar; }
+namespace RPG::Client { class EquipmentItemData; }
+
+#define CLASS_1_B748030B75A634A4_METHOD_1_1D4018D4200358D0_OFFSET UNITYSDK_OFFSET(0xC77D140)
+#define CLASS_1_B748030B75A634A4_METHOD_1_29FC257C633B2007_OFFSET UNITYSDK_OFFSET(0xC77D4F0)
+#define CLASS_1_B748030B75A634A4_METHOD_1_3206697643131B34_OFFSET UNITYSDK_OFFSET(0xC77CF20)
+#define CLASS_1_B748030B75A634A4_METHOD_1_91A6E9E202B0499F_OFFSET UNITYSDK_OFFSET(0xC77D470)
+#define CLASS_1_B748030B75A634A4_METHOD_1_EA49255C94F209AA_OFFSET UNITYSDK_OFFSET(0xC77D1A0)
+#define CLASS_1_B748030B75A634A4__CTOR_OFFSET UNITYSDK_OFFSET(0xC77D650)
+#define CLASS_1_B748030B75A634A4__SETDATA_B__0_0_OFFSET UNITYSDK_OFFSET(0xC77D660)
+
+inline static constexpr unsigned int Class_1_B748030B75A634A4_TypeDefinitionIndex = 65578;
+
+class Class_1_B748030B75A634A4 : public ::System::Object
+{
+public:
+	::RPG::Client::EquipmentItemData* DHNNOPBAJPF; // 0x10
+	::Class_1_AE0CA897D782D638* JAPKCFJEKCH; // 0x18
+	::RPG::AvatarSystem::IAvatar* BBBMGEAKHEB; // 0x20
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_B748030B75A634A4__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Method_1_3206697643131B34(::RPG::AvatarSystem::IAvatar* a1, ::Class_1_AE0CA897D782D638* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::AvatarSystem::IAvatar*, ::Class_1_AE0CA897D782D638*))((::PBYTE)hIl2Cpp + CLASS_1_B748030B75A634A4_METHOD_1_3206697643131B34_OFFSET))(this, a1, a2);
+	}
+
+	::System::Boolean Method_1_1D4018D4200358D0()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_B748030B75A634A4_METHOD_1_1D4018D4200358D0_OFFSET))(this);
+	}
+
+	::Class_0_16E4307DCC419505_987* Method_1_EA49255C94F209AA()
+	{
+		return ((::Class_0_16E4307DCC419505_987*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_B748030B75A634A4_METHOD_1_EA49255C94F209AA_OFFSET))(this);
+	}
+
+	::System::Boolean Method_1_91A6E9E202B0499F(::RPG::Client::EquipmentItemData* a1)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::RPG::Client::EquipmentItemData*))((::PBYTE)hIl2Cpp + CLASS_1_B748030B75A634A4_METHOD_1_91A6E9E202B0499F_OFFSET))(this, a1);
+	}
+
+	::System::Int32 Method_1_29FC257C633B2007(::RPG::Client::EquipmentItemData* a1, ::RPG::Client::EquipmentItemData* a2)
+	{
+		return ((::System::Int32(*)(::PVOID, ::RPG::Client::EquipmentItemData*, ::RPG::Client::EquipmentItemData*))((::PBYTE)hIl2Cpp + CLASS_1_B748030B75A634A4_METHOD_1_29FC257C633B2007_OFFSET))(this, a1, a2);
+	}
+
+	::System::Boolean _SetData_b__0_0(::RPG::Client::EquipmentItemData* a1)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::RPG::Client::EquipmentItemData*))((::PBYTE)hIl2Cpp + CLASS_1_B748030B75A634A4__SETDATA_B__0_0_OFFSET))(this, a1);
+	}
+};

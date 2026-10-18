@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_CONSOLEINPUTPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1B941020)
+#define MIHOYO_SDK_CONSOLEINPUTPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE413D0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ConsoleInputParam_TypeDefinitionIndex = 7528;
+	inline static constexpr unsigned int ConsoleInputParam_TypeDefinitionIndex = 7582;
 
 	class ConsoleInputParam : public ::System::Object
 	{

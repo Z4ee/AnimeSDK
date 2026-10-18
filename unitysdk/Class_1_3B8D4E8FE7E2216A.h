@@ -8,38 +8,38 @@ namespace System::Collections { class Hashtable; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 
-#define CLASS_1_3B8D4E8FE7E2216A_METHOD_1_C0DBF719D15AB9AA_OFFSET UNITYSDK_OFFSET(0x1615DC70)
-#define CLASS_1_3B8D4E8FE7E2216A_METHOD_1_D1C09720CA5B1F1E_OFFSET UNITYSDK_OFFSET(0x1615DE00)
-#define CLASS_1_3B8D4E8FE7E2216A__CCTOR_OFFSET UNITYSDK_OFFSET(0x1615E6D0)
+#define CLASS_1_3B8D4E8FE7E2216A_METHOD_1_C0DBF719D15AB9AA_OFFSET UNITYSDK_OFFSET(0x164D14B0)
+#define CLASS_1_3B8D4E8FE7E2216A_METHOD_1_D1C09720CA5B1F1E_OFFSET UNITYSDK_OFFSET(0x164D1640)
+#define CLASS_1_3B8D4E8FE7E2216A__CCTOR_OFFSET UNITYSDK_OFFSET(0x164D1F10)
 
-inline static constexpr unsigned int Class_1_3B8D4E8FE7E2216A_TypeDefinitionIndex = 49424;
+inline static constexpr unsigned int Class_1_3B8D4E8FE7E2216A_TypeDefinitionIndex = 48998;
 
 class Class_1_3B8D4E8FE7E2216A : public ::System::Object
 {
 public:
-	static ::Il2CppArray<::UnityEngine::Rendering::BlendMode>** StaticGet_AJDNIEDBIBP()
+	static ::System::Collections::Hashtable** StaticGet_FBGDGOIHNGC()
 	{
-		return (::Il2CppArray<::UnityEngine::Rendering::BlendMode>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_3B8D4E8FE7E2216A_TypeDefinitionIndex)->GetStaticField(0x37030);
+		return (::System::Collections::Hashtable**)Il2CppClass::FromTypeDefinitionIndex(Class_1_3B8D4E8FE7E2216A_TypeDefinitionIndex)->GetStaticField(0x143E0);
 	}
 	static ::Il2CppArray<::UnityEngine::Rendering::BlendMode>** StaticGet_DHLANOMILKH()
 	{
-		return (::Il2CppArray<::UnityEngine::Rendering::BlendMode>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_3B8D4E8FE7E2216A_TypeDefinitionIndex)->GetStaticField(0x37038);
-	}
-	static ::UnityEngine::MaterialPropertyBlock** StaticGet_IKLBJPKGKGP()
-	{
-		return (::UnityEngine::MaterialPropertyBlock**)Il2CppClass::FromTypeDefinitionIndex(Class_1_3B8D4E8FE7E2216A_TypeDefinitionIndex)->GetStaticField(0x37040);
+		return (::Il2CppArray<::UnityEngine::Rendering::BlendMode>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_3B8D4E8FE7E2216A_TypeDefinitionIndex)->GetStaticField(0x143E8);
 	}
 	static ::Il2CppArray<::System::Boolean>** StaticGet_EMFNLMMBGFI()
 	{
-		return (::Il2CppArray<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_3B8D4E8FE7E2216A_TypeDefinitionIndex)->GetStaticField(0x37048);
+		return (::Il2CppArray<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_3B8D4E8FE7E2216A_TypeDefinitionIndex)->GetStaticField(0x143F0);
 	}
-	static ::System::Collections::Hashtable** StaticGet_FBGDGOIHNGC()
+	static ::Il2CppArray<::UnityEngine::Rendering::BlendMode>** StaticGet_AJDNIEDBIBP()
 	{
-		return (::System::Collections::Hashtable**)Il2CppClass::FromTypeDefinitionIndex(Class_1_3B8D4E8FE7E2216A_TypeDefinitionIndex)->GetStaticField(0x37050);
+		return (::Il2CppArray<::UnityEngine::Rendering::BlendMode>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_3B8D4E8FE7E2216A_TypeDefinitionIndex)->GetStaticField(0x143F8);
+	}
+	static ::UnityEngine::MaterialPropertyBlock** StaticGet_IKLBJPKGKGP()
+	{
+		return (::UnityEngine::MaterialPropertyBlock**)Il2CppClass::FromTypeDefinitionIndex(Class_1_3B8D4E8FE7E2216A_TypeDefinitionIndex)->GetStaticField(0x14400);
 	}
 	static ::System::Int32* StaticGet_HJJGGMLHFFF()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_3B8D4E8FE7E2216A_TypeDefinitionIndex)->GetStaticField(0xE4B0);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_3B8D4E8FE7E2216A_TypeDefinitionIndex)->GetStaticField(0x4CE0);
 	}
 
 	static ::System::Void _cctor()

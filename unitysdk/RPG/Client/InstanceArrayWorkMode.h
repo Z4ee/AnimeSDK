@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int InstanceArrayWorkMode_TypeDefinitionIndex = 70816;
+	inline static constexpr unsigned int InstanceArrayWorkMode_TypeDefinitionIndex = 70854;
 
 	enum class InstanceArrayWorkMode : ::System::Int32
 	{

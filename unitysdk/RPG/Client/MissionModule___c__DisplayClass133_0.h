@@ -6,12 +6,12 @@ namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 namespace RPG::GameCore { class MissionCondition; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_MISSIONMODULE___C__DISPLAYCLASS133_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD6E8DB0)
-#define RPG_CLIENT_MISSIONMODULE___C__DISPLAYCLASS133_0___GETFIRSTFAILUREMISSIONCONDITIONWITHPROMISE_B__0_OFFSET UNITYSDK_OFFSET(0xD709230)
+#define RPG_CLIENT_MISSIONMODULE___C__DISPLAYCLASS133_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD6E7CA0)
+#define RPG_CLIENT_MISSIONMODULE___C__DISPLAYCLASS133_0___GETFIRSTFAILUREMISSIONCONDITIONWITHPROMISE_B__0_OFFSET UNITYSDK_OFFSET(0xD7084E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MissionModule___c__DisplayClass133_0_TypeDefinitionIndex = 66194;
+	inline static constexpr unsigned int MissionModule___c__DisplayClass133_0_TypeDefinitionIndex = 66148;
 
 	class MissionModule___c__DisplayClass133_0 : public ::System::Object
 	{

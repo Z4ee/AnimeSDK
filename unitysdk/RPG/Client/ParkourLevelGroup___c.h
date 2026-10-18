@@ -5,29 +5,29 @@
 namespace RPG::Client { class ParkourLevel; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_PARKOURLEVELGROUP___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xDA3A850)
-#define RPG_CLIENT_PARKOURLEVELGROUP___C__CTOR_OFFSET UNITYSDK_OFFSET(0xDA3A890)
-#define RPG_CLIENT_PARKOURLEVELGROUP___C__GET_HASUNLOCKED_B__16_0_OFFSET UNITYSDK_OFFSET(0xDA3A8A0)
-#define RPG_CLIENT_PARKOURLEVELGROUP___C__GET_ISNEW_B__18_0_OFFSET UNITYSDK_OFFSET(0xDA3A8D0)
+#define RPG_CLIENT_PARKOURLEVELGROUP___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xDA86B70)
+#define RPG_CLIENT_PARKOURLEVELGROUP___C__CTOR_OFFSET UNITYSDK_OFFSET(0xDA86BB0)
+#define RPG_CLIENT_PARKOURLEVELGROUP___C__GET_HASUNLOCKED_B__16_0_OFFSET UNITYSDK_OFFSET(0xDA86BC0)
+#define RPG_CLIENT_PARKOURLEVELGROUP___C__GET_ISNEW_B__18_0_OFFSET UNITYSDK_OFFSET(0xDA86BF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ParkourLevelGroup___c_TypeDefinitionIndex = 61946;
+	inline static constexpr unsigned int ParkourLevelGroup___c_TypeDefinitionIndex = 61856;
 
 	class ParkourLevelGroup___c : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::ParkourLevelGroup___c** StaticGet___9()
 		{
-			return (::RPG::Client::ParkourLevelGroup___c**)Il2CppClass::FromTypeDefinitionIndex(ParkourLevelGroup___c_TypeDefinitionIndex)->GetStaticField(0x48440);
-		}
-		static ::System::Func_2<::RPG::Client::ParkourLevel*, ::System::Boolean>** StaticGet___9__16_0()
-		{
-			return (::System::Func_2<::RPG::Client::ParkourLevel*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ParkourLevelGroup___c_TypeDefinitionIndex)->GetStaticField(0x48448);
+			return (::RPG::Client::ParkourLevelGroup___c**)Il2CppClass::FromTypeDefinitionIndex(ParkourLevelGroup___c_TypeDefinitionIndex)->GetStaticField(0x11410);
 		}
 		static ::System::Func_2<::RPG::Client::ParkourLevel*, ::System::Boolean>** StaticGet___9__18_0()
 		{
-			return (::System::Func_2<::RPG::Client::ParkourLevel*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ParkourLevelGroup___c_TypeDefinitionIndex)->GetStaticField(0x48450);
+			return (::System::Func_2<::RPG::Client::ParkourLevel*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ParkourLevelGroup___c_TypeDefinitionIndex)->GetStaticField(0x11418);
+		}
+		static ::System::Func_2<::RPG::Client::ParkourLevel*, ::System::Boolean>** StaticGet___9__16_0()
+		{
+			return (::System::Func_2<::RPG::Client::ParkourLevel*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ParkourLevelGroup___c_TypeDefinitionIndex)->GetStaticField(0x11420);
 		}
 
 		static ::System::Void _cctor()

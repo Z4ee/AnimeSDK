@@ -5,11 +5,11 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D { class B2World; }
 
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2EXPLOSIONCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x3B778E0)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2EXPLOSIONCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x3C2C740)
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2ExplosionContext_TypeDefinitionIndex = 35978;
+	inline static constexpr unsigned int B2ExplosionContext_TypeDefinitionIndex = 36665;
 
 	struct alignas(8) B2ExplosionContext
 	{

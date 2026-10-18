@@ -9,9 +9,9 @@ namespace RPG::UINavigation { class UINavigation; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Action_1; }
 
-#define CLASS_1_8F908CF6FE611C55_METHOD_1_3C12AB5D75FF4ABA_OFFSET UNITYSDK_OFFSET(0xDD81650)
+#define CLASS_1_8F908CF6FE611C55_METHOD_1_3C12AB5D75FF4ABA_OFFSET UNITYSDK_OFFSET(0xDCBFA40)
 
-inline static constexpr unsigned int Class_1_8F908CF6FE611C55_TypeDefinitionIndex = 50202;
+inline static constexpr unsigned int Class_1_8F908CF6FE611C55_TypeDefinitionIndex = 49829;
 
 class Class_1_8F908CF6FE611C55 : public ::System::Object
 {

@@ -5,16 +5,16 @@
 namespace RPG::GameCore { class ST_ByDistToGuardPosition; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_042A0F143814F5C1_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBB7DAB0)
-#define CLASS_3_042A0F143814F5C1__CTOR_OFFSET UNITYSDK_OFFSET(0xBB7D990)
+#define CLASS_3_042A0F143814F5C1_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBA07060)
+#define CLASS_3_042A0F143814F5C1__CTOR_OFFSET UNITYSDK_OFFSET(0xBA06F40)
 
-inline static constexpr unsigned int Class_3_042A0F143814F5C1_TypeDefinitionIndex = 52472;
+inline static constexpr unsigned int Class_3_042A0F143814F5C1_TypeDefinitionIndex = 52186;
 
 class Class_3_042A0F143814F5C1 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ST_ByDistToGuardPosition*>
 {
 public:
-	::System::Single BFLNNOEKIGE; // 0x28
-	::System::Single NDOGICGCDIP; // 0x2C
+	::System::Single NDOGICGCDIP; // 0x28
+	::System::Single BFLNNOEKIGE; // 0x2C
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ST_ByDistToGuardPosition* a2)
 	{

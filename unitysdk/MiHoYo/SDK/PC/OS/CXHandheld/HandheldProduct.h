@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDPRODUCT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3B5E210)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDPRODUCT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3C13170)
 
 namespace MiHoYo::SDK::PC::OS::CXHandheld
 {
-	inline static constexpr unsigned int HandheldProduct_TypeDefinitionIndex = 8705;
+	inline static constexpr unsigned int HandheldProduct_TypeDefinitionIndex = 8766;
 
 	struct alignas(8) HandheldProduct
 	{

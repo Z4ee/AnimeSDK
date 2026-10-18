@@ -4,12 +4,12 @@
 
 class Class_1_F426C21C7E713E8A;
 
-#define RPG_CLIENT_FRIENDMODULE___C__DISPLAYCLASS203_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD0BBB80)
-#define RPG_CLIENT_FRIENDMODULE___C__DISPLAYCLASS203_0__TRYGETPLAYERBRIEFDATA_B__0_OFFSET UNITYSDK_OFFSET(0xD0C07A0)
+#define RPG_CLIENT_FRIENDMODULE___C__DISPLAYCLASS203_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD05CBF0)
+#define RPG_CLIENT_FRIENDMODULE___C__DISPLAYCLASS203_0__TRYGETPLAYERBRIEFDATA_B__0_OFFSET UNITYSDK_OFFSET(0xD061820)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FriendModule___c__DisplayClass203_0_TypeDefinitionIndex = 64315;
+	inline static constexpr unsigned int FriendModule___c__DisplayClass203_0_TypeDefinitionIndex = 64253;
 
 	class FriendModule___c__DisplayClass203_0 : public ::System::Object
 	{

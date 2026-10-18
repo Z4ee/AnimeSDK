@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int UnitStatus_TypeDefinitionIndex = 17381;
+	inline static constexpr unsigned int UnitStatus_TypeDefinitionIndex = 17592;
 
 	enum class UnitStatus : ::System::Int32
 	{

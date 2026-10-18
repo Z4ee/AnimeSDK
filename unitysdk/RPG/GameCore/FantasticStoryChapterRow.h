@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_FANTASTICSTORYCHAPTERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D088A60)
-#define RPG_GAMECORE_FANTASTICSTORYCHAPTERROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D088D10)
+#define RPG_GAMECORE_FANTASTICSTORYCHAPTERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D696A50)
+#define RPG_GAMECORE_FANTASTICSTORYCHAPTERROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D696D00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FantasticStoryChapterRow_TypeDefinitionIndex = 11447;
+	inline static constexpr unsigned int FantasticStoryChapterRow_TypeDefinitionIndex = 11463;
 
 	class FantasticStoryChapterRow : public ::System::Object
 	{
@@ -20,8 +20,8 @@ namespace RPG::GameCore
 		::System::UInt32 ChapterID; // 0x18
 		::System::UInt32 ActivityModuleID; // 0x1C
 		::RPG::Client::TextID Name; // 0x20
-		::System::UInt32 MissionID; // 0x30
-		::RPG::Client::TextID describe; // 0x38
+		::RPG::Client::TextID describe; // 0x30
+		::System::UInt32 MissionID; // 0x40
 
 		::System::Void _ctor()
 		{

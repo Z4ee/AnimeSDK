@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SRDEBUGGER_NUMBERRANGEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E674050)
+#define SRDEBUGGER_NUMBERRANGEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1ED3BF80)
 
 namespace SRDebugger
 {
-	inline static constexpr unsigned int NumberRangeAttribute_TypeDefinitionIndex = 37266;
+	inline static constexpr unsigned int NumberRangeAttribute_TypeDefinitionIndex = 37959;
 
 	class NumberRangeAttribute : public ::System::Attribute
 	{

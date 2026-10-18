@@ -11,7 +11,7 @@ namespace UnityEngine { class GameObject; }
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int IHEU_Curve_TypeDefinitionIndex = 39257;
+	inline static constexpr unsigned int IHEU_Curve_TypeDefinitionIndex = 40554;
 
 	class IHEU_Curve
 	{

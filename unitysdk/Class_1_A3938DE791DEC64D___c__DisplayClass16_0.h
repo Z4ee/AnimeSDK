@@ -4,7 +4,7 @@
 
 template <typename T> class Class_1_A3938DE791DEC64D;
 
-inline static constexpr unsigned int Class_1_A3938DE791DEC64D___c__DisplayClass16_0_TypeDefinitionIndex = 50180;
+inline static constexpr unsigned int Class_1_A3938DE791DEC64D___c__DisplayClass16_0_TypeDefinitionIndex = 49805;
 
 template <typename TItem>
 class Class_1_A3938DE791DEC64D___c__DisplayClass16_0 : public ::System::Object

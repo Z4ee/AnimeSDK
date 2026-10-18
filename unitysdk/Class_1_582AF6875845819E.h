@@ -4,9 +4,9 @@
 
 namespace RPG::Client { class FateGameData; }
 
-#define CLASS_1_582AF6875845819E__CTOR_OFFSET UNITYSDK_OFFSET(0xBF60110)
+#define CLASS_1_582AF6875845819E__CTOR_OFFSET UNITYSDK_OFFSET(0xBE45E10)
 
-inline static constexpr unsigned int Class_1_582AF6875845819E_TypeDefinitionIndex = 64099;
+inline static constexpr unsigned int Class_1_582AF6875845819E_TypeDefinitionIndex = 64037;
 
 class Class_1_582AF6875845819E : public ::System::Object
 {

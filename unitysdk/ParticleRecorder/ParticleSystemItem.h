@@ -5,11 +5,11 @@
 namespace ParticleRecorder { class ParticleClip; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define PARTICLERECORDER_PARTICLESYSTEMITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1C664860)
+#define PARTICLERECORDER_PARTICLESYSTEMITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1CBEAB80)
 
 namespace ParticleRecorder
 {
-	inline static constexpr unsigned int ParticleSystemItem_TypeDefinitionIndex = 36802;
+	inline static constexpr unsigned int ParticleSystemItem_TypeDefinitionIndex = 37489;
 
 	class ParticleSystemItem : public ::System::Object
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG
 {
-	inline static constexpr unsigned int ProfileUtility_LoadReason_TypeDefinitionIndex = 34487;
+	inline static constexpr unsigned int ProfileUtility_LoadReason_TypeDefinitionIndex = 35151;
 
 	enum class ProfileUtility_LoadReason : ::System::UInt32
 	{

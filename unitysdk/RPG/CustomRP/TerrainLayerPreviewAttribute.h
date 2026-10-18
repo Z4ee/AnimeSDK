@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define RPG_CUSTOMRP_TERRAINLAYERPREVIEWATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C6F14D0)
+#define RPG_CUSTOMRP_TERRAINLAYERPREVIEWATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC794A0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int TerrainLayerPreviewAttribute_TypeDefinitionIndex = 37042;
+	inline static constexpr unsigned int TerrainLayerPreviewAttribute_TypeDefinitionIndex = 37727;
 
 	class TerrainLayerPreviewAttribute : public ::System::Attribute
 	{

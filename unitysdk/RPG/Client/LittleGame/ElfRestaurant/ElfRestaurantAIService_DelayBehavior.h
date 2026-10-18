@@ -4,11 +4,11 @@
 
 namespace RPG::GameCore { class ElfBehaviorStateContentItem; }
 
-#define RPG_CLIENT_LITTLEGAME_ELFRESTAURANT_ELFRESTAURANTAISERVICE_DELAYBEHAVIOR__CTOR_OFFSET UNITYSDK_OFFSET(0xD4D4480)
+#define RPG_CLIENT_LITTLEGAME_ELFRESTAURANT_ELFRESTAURANTAISERVICE_DELAYBEHAVIOR__CTOR_OFFSET UNITYSDK_OFFSET(0xD42B310)
 
 namespace RPG::Client::LittleGame::ElfRestaurant
 {
-	inline static constexpr unsigned int ElfRestaurantAIService_DelayBehavior_TypeDefinitionIndex = 76780;
+	inline static constexpr unsigned int ElfRestaurantAIService_DelayBehavior_TypeDefinitionIndex = 77251;
 
 	class ElfRestaurantAIService_DelayBehavior : public ::System::Object
 	{

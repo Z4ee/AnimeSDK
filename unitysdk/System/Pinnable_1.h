@@ -4,7 +4,7 @@
 
 namespace System
 {
-	inline static constexpr unsigned int Pinnable_1_TypeDefinitionIndex = 4967;
+	inline static constexpr unsigned int Pinnable_1_TypeDefinitionIndex = 4974;
 
 	template <typename T>
 	class Pinnable_1 : public ::System::Object

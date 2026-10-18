@@ -5,18 +5,18 @@
 
 namespace System { template <typename T> class Action_1; }
 
-#define R3_INTERNAL_STUBS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BF17320)
+#define R3_INTERNAL_STUBS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C4237E0)
 
 namespace R3::Internal
 {
-	inline static constexpr unsigned int Stubs_TypeDefinitionIndex = 35288;
+	inline static constexpr unsigned int Stubs_TypeDefinitionIndex = 35975;
 
 	class Stubs : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::R3::Result>** StaticGet_HandleResult()
 		{
-			return (::System::Action_1<::R3::Result>**)Il2CppClass::FromTypeDefinitionIndex(Stubs_TypeDefinitionIndex)->GetStaticField(0xD40);
+			return (::System::Action_1<::R3::Result>**)Il2CppClass::FromTypeDefinitionIndex(Stubs_TypeDefinitionIndex)->GetStaticField(0xA10);
 		}
 
 		static ::System::Void _cctor()

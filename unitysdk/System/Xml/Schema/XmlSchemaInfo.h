@@ -9,16 +9,16 @@ namespace System::Xml::Schema { class XmlSchemaElement; }
 namespace System::Xml::Schema { class XmlSchemaSimpleType; }
 namespace System::Xml::Schema { class XmlSchemaType; }
 
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAINFO_CLEAR_OFFSET UNITYSDK_OFFSET(0x1E820240)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAINFO_GET_ISDEFAULT_OFFSET UNITYSDK_OFFSET(0x1E820290)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAINFO_GET_ISNIL_OFFSET UNITYSDK_OFFSET(0x1E8202A0)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAINFO_GET_MEMBERTYPE_OFFSET UNITYSDK_OFFSET(0x1E8202B0)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAINFO_GET_SCHEMAATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1E8202E0)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAINFO_GET_SCHEMAELEMENT_OFFSET UNITYSDK_OFFSET(0x1E8202D0)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAINFO_GET_SCHEMATYPE_OFFSET UNITYSDK_OFFSET(0x1E8202C0)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAINFO_GET_VALIDITY_OFFSET UNITYSDK_OFFSET(0x1E820280)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAINFO__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E820260)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1E820220)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAINFO_CLEAR_OFFSET UNITYSDK_OFFSET(0x1EEE8EC0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAINFO_GET_ISDEFAULT_OFFSET UNITYSDK_OFFSET(0x1EEE8F10)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAINFO_GET_ISNIL_OFFSET UNITYSDK_OFFSET(0x1EEE8F20)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAINFO_GET_MEMBERTYPE_OFFSET UNITYSDK_OFFSET(0x1EEE8F30)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAINFO_GET_SCHEMAATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1EEE8F60)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAINFO_GET_SCHEMAELEMENT_OFFSET UNITYSDK_OFFSET(0x1EEE8F50)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAINFO_GET_SCHEMATYPE_OFFSET UNITYSDK_OFFSET(0x1EEE8F40)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAINFO_GET_VALIDITY_OFFSET UNITYSDK_OFFSET(0x1EEE8F00)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAINFO__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1EEE8EE0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1EEE8EA0)
 
 namespace System::Xml::Schema
 {
@@ -27,14 +27,14 @@ namespace System::Xml::Schema
 	class XmlSchemaInfo : public ::System::Object
 	{
 	public:
-		::System::Xml::Schema::XmlSchemaAttribute* schemaAttribute; // 0x10
-		::System::Xml::Schema::XmlSchemaElement* schemaElement; // 0x18
-		::System::Xml::Schema::XmlSchemaSimpleType* memberType; // 0x20
-		::System::Xml::Schema::XmlSchemaType* schemaType; // 0x28
-		::System::Boolean isDefault; // 0x30
-		::System::Boolean isNil; // 0x31
-		::System::Xml::Schema::XmlSchemaValidity validity; // 0x34
-		::System::Xml::Schema::XmlSchemaContentType contentType; // 0x38
+		::System::Xml::Schema::XmlSchemaSimpleType* memberType; // 0x10
+		::System::Xml::Schema::XmlSchemaType* schemaType; // 0x18
+		::System::Xml::Schema::XmlSchemaElement* schemaElement; // 0x20
+		::System::Xml::Schema::XmlSchemaAttribute* schemaAttribute; // 0x28
+		::System::Xml::Schema::XmlSchemaContentType contentType; // 0x30
+		::System::Boolean isNil; // 0x34
+		::System::Boolean isDefault; // 0x35
+		::System::Xml::Schema::XmlSchemaValidity validity; // 0x38
 
 		::System::Void _ctor()
 		{

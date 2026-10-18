@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class PreloadItemSilence; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MONSTEREFFECTSPRELOADITEM_METHOD_2_FF15B12E62B4EA93_OFFSET UNITYSDK_OFFSET(0x1D2CEC50)
-#define RPG_GAMECORE_MONSTEREFFECTSPRELOADITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2CEDE0)
+#define RPG_GAMECORE_MONSTEREFFECTSPRELOADITEM_METHOD_2_FF15B12E62B4EA93_OFFSET UNITYSDK_OFFSET(0x1D8B1260)
+#define RPG_GAMECORE_MONSTEREFFECTSPRELOADITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1D8B13F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MonsterEffectsPreloadItem_TypeDefinitionIndex = 16191;
+	inline static constexpr unsigned int MonsterEffectsPreloadItem_TypeDefinitionIndex = 16364;
 
 	class MonsterEffectsPreloadItem : public ::RPG::GameCore::JsonConfig
 	{

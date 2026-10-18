@@ -6,8 +6,8 @@
 namespace System { class String; }
 namespace System::Xml { class XmlNode; }
 
-#define SYSTEM_XML_XMLNODECHANGEDEVENTARGS_GET_ACTION_OFFSET UNITYSDK_OFFSET(0x1E8B8600)
-#define SYSTEM_XML_XMLNODECHANGEDEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1E894010)
+#define SYSTEM_XML_XMLNODECHANGEDEVENTARGS_GET_ACTION_OFFSET UNITYSDK_OFFSET(0x1EF81050)
+#define SYSTEM_XML_XMLNODECHANGEDEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF5CC20)
 
 namespace System::Xml
 {
@@ -16,8 +16,8 @@ namespace System::Xml
 	class XmlNodeChangedEventArgs : public ::System::EventArgs
 	{
 	public:
-		::System::String* oldValue; // 0x10
-		::System::Xml::XmlNode* newParent; // 0x18
+		::System::Xml::XmlNode* newParent; // 0x10
+		::System::String* oldValue; // 0x18
 		::System::Xml::XmlNode* node; // 0x20
 		::System::Xml::XmlNode* oldParent; // 0x28
 		::System::String* newValue; // 0x30

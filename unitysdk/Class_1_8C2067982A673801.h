@@ -8,20 +8,20 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define CLASS_1_8C2067982A673801_METHOD_1_E9A2160FD348DB23_OFFSET UNITYSDK_OFFSET(0x1CAAEEB0)
-#define CLASS_1_8C2067982A673801__CTOR_OFFSET UNITYSDK_OFFSET(0x1CAAF180)
+#define CLASS_1_8C2067982A673801_METHOD_1_E9A2160FD348DB23_OFFSET UNITYSDK_OFFSET(0x1D065050)
+#define CLASS_1_8C2067982A673801__CTOR_OFFSET UNITYSDK_OFFSET(0x1D065320)
 
-inline static constexpr unsigned int Class_1_8C2067982A673801_TypeDefinitionIndex = 14894;
+inline static constexpr unsigned int Class_1_8C2067982A673801_TypeDefinitionIndex = 15059;
 
 class Class_1_8C2067982A673801 : public ::System::Object
 {
 public:
-	::Il2CppArray<::RPG::GameCore::FixPoint>* PBLPLDJKPEI; // 0x10
-	::System::String* OLOIFNNLKJP; // 0x18
-	::RPG::GameCore::RogueRoomAttributeCategory OOMBNFMJLEO; // 0x20
-	::System::UInt32 HHPFKDEBMGP; // 0x24
-	::RPG::Client::TextID NMAHGFAPENI; // 0x28
-	::RPG::Client::TextID MJOOFPBABEA; // 0x38
+	::System::String* OLOIFNNLKJP; // 0x10
+	::Il2CppArray<::RPG::GameCore::FixPoint>* PBLPLDJKPEI; // 0x18
+	::RPG::Client::TextID NMAHGFAPENI; // 0x20
+	::RPG::Client::TextID MJOOFPBABEA; // 0x30
+	::System::UInt32 HHPFKDEBMGP; // 0x40
+	::RPG::GameCore::RogueRoomAttributeCategory OOMBNFMJLEO; // 0x44
 
 	::System::Void _ctor()
 	{

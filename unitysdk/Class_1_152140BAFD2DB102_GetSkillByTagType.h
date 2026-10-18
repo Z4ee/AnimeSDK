@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Class_1_152140BAFD2DB102_GetSkillByTagType_TypeDefinitionIndex = 56417;
+inline static constexpr unsigned int Class_1_152140BAFD2DB102_GetSkillByTagType_TypeDefinitionIndex = 56230;
 
 enum class Class_1_152140BAFD2DB102_GetSkillByTagType : ::System::Int32
 {

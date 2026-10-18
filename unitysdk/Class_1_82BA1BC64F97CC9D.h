@@ -5,19 +5,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define CLASS_1_82BA1BC64F97CC9D_METHOD_1_417A218C63D0B3DA_OFFSET UNITYSDK_OFFSET(0x1CD1CC80)
-#define CLASS_1_82BA1BC64F97CC9D__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD1CEB0)
+#define CLASS_1_82BA1BC64F97CC9D_METHOD_1_417A218C63D0B3DA_OFFSET UNITYSDK_OFFSET(0x1D2EF590)
+#define CLASS_1_82BA1BC64F97CC9D__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2EF7C0)
 
-inline static constexpr unsigned int Class_1_82BA1BC64F97CC9D_TypeDefinitionIndex = 11547;
+inline static constexpr unsigned int Class_1_82BA1BC64F97CC9D_TypeDefinitionIndex = 11563;
 
 class Class_1_82BA1BC64F97CC9D : public ::System::Object
 {
 public:
 	::Il2CppArray<::System::UInt32>* CJEEEFLFFOL; // 0x10
-	::RPG::Client::TextID OENAMINOLLF; // 0x18
-	::System::UInt32 LIPCDDAPHNF; // 0x28
-	::System::UInt32 PHFMCACHFIJ; // 0x2C
-	::System::UInt32 AJCDFGPPLJP; // 0x30
+	::System::UInt32 AJCDFGPPLJP; // 0x18
+	::RPG::Client::TextID OENAMINOLLF; // 0x20
+	::System::UInt32 PHFMCACHFIJ; // 0x30
+	::System::UInt32 LIPCDDAPHNF; // 0x34
 
 	::System::Void _ctor()
 	{

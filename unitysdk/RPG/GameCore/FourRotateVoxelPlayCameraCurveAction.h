@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_FOURROTATEVOXELPLAYCAMERACURVEACTION_METHOD_3_A597C9C2006295AB_OFFSET UNITYSDK_OFFSET(0x1D116EE0)
-#define RPG_GAMECORE_FOURROTATEVOXELPLAYCAMERACURVEACTION_METHOD_3_B420ED1E7C60502E_OFFSET UNITYSDK_OFFSET(0x1D116FA0)
-#define RPG_GAMECORE_FOURROTATEVOXELPLAYCAMERACURVEACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D116F90)
+#define RPG_GAMECORE_FOURROTATEVOXELPLAYCAMERACURVEACTION_METHOD_4_7CBC0D1D97AA7BC3_OFFSET UNITYSDK_OFFSET(0x1D6F0C40)
+#define RPG_GAMECORE_FOURROTATEVOXELPLAYCAMERACURVEACTION_METHOD_4_A909D4CF9520C846_OFFSET UNITYSDK_OFFSET(0x1D6F0B80)
+#define RPG_GAMECORE_FOURROTATEVOXELPLAYCAMERACURVEACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6F0C30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FourRotateVoxelPlayCameraCurveAction_TypeDefinitionIndex = 16595;
+	inline static constexpr unsigned int FourRotateVoxelPlayCameraCurveAction_TypeDefinitionIndex = 16770;
 
 	class FourRotateVoxelPlayCameraCurveAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
@@ -23,14 +23,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FOURROTATEVOXELPLAYCAMERACURVEACTION__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_A597C9C2006295AB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FourRotateVoxelPlayCameraCurveAction*& a2)
+		static ::System::Void Method_4_A909D4CF9520C846(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FourRotateVoxelPlayCameraCurveAction*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FourRotateVoxelPlayCameraCurveAction*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FOURROTATEVOXELPLAYCAMERACURVEACTION_METHOD_3_A597C9C2006295AB_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FourRotateVoxelPlayCameraCurveAction*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FOURROTATEVOXELPLAYCAMERACURVEACTION_METHOD_4_A909D4CF9520C846_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_B420ED1E7C60502E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FourRotateVoxelPlayCameraCurveAction* a2)
+		static ::System::Void Method_4_7CBC0D1D97AA7BC3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FourRotateVoxelPlayCameraCurveAction* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FourRotateVoxelPlayCameraCurveAction*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FOURROTATEVOXELPLAYCAMERACURVEACTION_METHOD_3_B420ED1E7C60502E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FourRotateVoxelPlayCameraCurveAction*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FOURROTATEVOXELPLAYCAMERACURVEACTION_METHOD_4_7CBC0D1D97AA7BC3_OFFSET))(a1, a2);
 		}
 	};
 }

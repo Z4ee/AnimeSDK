@@ -8,18 +8,18 @@
 namespace System { template <typename T> class Func_1; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define CYSHARP_THREADING_TASKS_UNITASKEXTENSIONS__CONTINUEWITH_D__59_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x3BA9DE0)
-#define CYSHARP_THREADING_TASKS_UNITASKEXTENSIONS__CONTINUEWITH_D__59_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x1020)
+#define CYSHARP_THREADING_TASKS_UNITASKEXTENSIONS__CONTINUEWITH_D__59_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x3C5F1B0)
+#define CYSHARP_THREADING_TASKS_UNITASKEXTENSIONS__CONTINUEWITH_D__59_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x10B0)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UniTaskExtensions__ContinueWith_d__59_TypeDefinitionIndex = 42834;
+	inline static constexpr unsigned int UniTaskExtensions__ContinueWith_d__59_TypeDefinitionIndex = 38419;
 
 	struct alignas(8) UniTaskExtensions__ContinueWith_d__59
 	{
-		::System::Func_1<::Cysharp::Threading::Tasks::UniTask>* continuationFunction; // 0x10
-		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder __t__builder; // 0x18
-		::Cysharp::Threading::Tasks::UniTask task; // 0x28
+		::Cysharp::Threading::Tasks::UniTask task; // 0x10
+		::System::Func_1<::Cysharp::Threading::Tasks::UniTask>* continuationFunction; // 0x20
+		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder __t__builder; // 0x28
 		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x38
 		::System::Int32 __1__state; // 0x48
 

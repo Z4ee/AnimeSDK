@@ -5,12 +5,12 @@
 namespace RPG::Client::LittleGame { class ChimeraWorkTransitionCommand; }
 namespace RPG::Client::Prop { class ChimeraBattlePuzzleBoard; }
 
-#define RPG_CLIENT_LITTLEGAME_CHIMERAWORKTRANSITIONCOMMAND___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD4CE1F0)
-#define RPG_CLIENT_LITTLEGAME_CHIMERAWORKTRANSITIONCOMMAND___C__DISPLAYCLASS0_0__EXECUTE_B__0_OFFSET UNITYSDK_OFFSET(0xD4CE6A0)
+#define RPG_CLIENT_LITTLEGAME_CHIMERAWORKTRANSITIONCOMMAND___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD425770)
+#define RPG_CLIENT_LITTLEGAME_CHIMERAWORKTRANSITIONCOMMAND___C__DISPLAYCLASS0_0__EXECUTE_B__0_OFFSET UNITYSDK_OFFSET(0xD425C20)
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int ChimeraWorkTransitionCommand___c__DisplayClass0_0_TypeDefinitionIndex = 76164;
+	inline static constexpr unsigned int ChimeraWorkTransitionCommand___c__DisplayClass0_0_TypeDefinitionIndex = 76641;
 
 	class ChimeraWorkTransitionCommand___c__DisplayClass0_0 : public ::System::Object
 	{

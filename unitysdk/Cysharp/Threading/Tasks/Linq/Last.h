@@ -10,7 +10,7 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int Last_TypeDefinitionIndex = 44271;
+	inline static constexpr unsigned int Last_TypeDefinitionIndex = 45410;
 
 	class Last : public ::System::Object
 	{

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetFiveDimIgnoreCollisionTarget; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_7C0F1DD5E4C83005_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB4FA540)
-#define CLASS_3_7C0F1DD5E4C83005__CTOR_OFFSET UNITYSDK_OFFSET(0xB4FA510)
+#define CLASS_3_7C0F1DD5E4C83005_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB335F00)
+#define CLASS_3_7C0F1DD5E4C83005__CTOR_OFFSET UNITYSDK_OFFSET(0xB335ED0)
 
-inline static constexpr unsigned int Class_3_7C0F1DD5E4C83005_TypeDefinitionIndex = 53164;
+inline static constexpr unsigned int Class_3_7C0F1DD5E4C83005_TypeDefinitionIndex = 52890;
 
 class Class_3_7C0F1DD5E4C83005 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetFiveDimIgnoreCollisionTarget*>
 {

@@ -7,16 +7,16 @@
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Action_1; }
 
-#define CLASS_1_C67E04B50EC007FC__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E5B4E20)
+#define CLASS_1_C67E04B50EC007FC__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EC6F2D0)
 
-inline static constexpr unsigned int Class_1_C67E04B50EC007FC_TypeDefinitionIndex = 42448;
+inline static constexpr unsigned int Class_1_C67E04B50EC007FC_TypeDefinitionIndex = 44257;
 
 class Class_1_C67E04B50EC007FC : public ::System::Object
 {
 public:
 	static ::System::Action_1<::R3::Result>** StaticGet_JPKKNEJFEBJ()
 	{
-		return (::System::Action_1<::R3::Result>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_C67E04B50EC007FC_TypeDefinitionIndex)->GetStaticField(0x540B0);
+		return (::System::Action_1<::R3::Result>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_C67E04B50EC007FC_TypeDefinitionIndex)->GetStaticField(0x4B230);
 	}
 
 	static ::System::Void _cctor()

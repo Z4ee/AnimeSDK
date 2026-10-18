@@ -9,29 +9,29 @@ namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define CLASS_1_4DC40C4198F52F51___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xBA47ED0)
-#define CLASS_1_4DC40C4198F52F51___C__CTOR_OFFSET UNITYSDK_OFFSET(0xBA47F10)
-#define CLASS_1_4DC40C4198F52F51___C___BUILD_B__7_0_OFFSET UNITYSDK_OFFSET(0xBA480E0)
-#define CLASS_1_4DC40C4198F52F51___C___CCTOR_B__0_0_OFFSET UNITYSDK_OFFSET(0xBA47F20)
-#define CLASS_1_4DC40C4198F52F51___C___CCTOR_B__0_1_OFFSET UNITYSDK_OFFSET(0xBA48000)
-#define CLASS_1_4DC40C4198F52F51___C___ONBATTLEMODEFINISH_B__22_0_OFFSET UNITYSDK_OFFSET(0xBA48110)
+#define CLASS_1_4DC40C4198F52F51___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xB90B7C0)
+#define CLASS_1_4DC40C4198F52F51___C__CTOR_OFFSET UNITYSDK_OFFSET(0xB90B800)
+#define CLASS_1_4DC40C4198F52F51___C___BUILD_B__7_0_OFFSET UNITYSDK_OFFSET(0xB90B9D0)
+#define CLASS_1_4DC40C4198F52F51___C___CCTOR_B__0_0_OFFSET UNITYSDK_OFFSET(0xB90B810)
+#define CLASS_1_4DC40C4198F52F51___C___CCTOR_B__0_1_OFFSET UNITYSDK_OFFSET(0xB90B8F0)
+#define CLASS_1_4DC40C4198F52F51___C___ONBATTLEMODEFINISH_B__22_0_OFFSET UNITYSDK_OFFSET(0xB90BA00)
 
-inline static constexpr unsigned int Class_1_4DC40C4198F52F51___c_TypeDefinitionIndex = 54472;
+inline static constexpr unsigned int Class_1_4DC40C4198F52F51___c_TypeDefinitionIndex = 54258;
 
 class Class_1_4DC40C4198F52F51___c : public ::System::Object
 {
 public:
 	static ::Class_1_4DC40C4198F52F51___c** StaticGet___9()
 	{
-		return (::Class_1_4DC40C4198F52F51___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_4DC40C4198F52F51___c_TypeDefinitionIndex)->GetStaticField(0x480A0);
-	}
-	static ::System::Func_2<::RPG::GameCore::JsonEnum*, ::System::String*>** StaticGet___9__7_0()
-	{
-		return (::System::Func_2<::RPG::GameCore::JsonEnum*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_4DC40C4198F52F51___c_TypeDefinitionIndex)->GetStaticField(0x480A8);
+		return (::Class_1_4DC40C4198F52F51___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_4DC40C4198F52F51___c_TypeDefinitionIndex)->GetStaticField(0x6F790);
 	}
 	static ::System::Predicate_1<::RPG::GameCore::GameEntity*>** StaticGet___9__22_0()
 	{
-		return (::System::Predicate_1<::RPG::GameCore::GameEntity*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_4DC40C4198F52F51___c_TypeDefinitionIndex)->GetStaticField(0x480B0);
+		return (::System::Predicate_1<::RPG::GameCore::GameEntity*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_4DC40C4198F52F51___c_TypeDefinitionIndex)->GetStaticField(0x6F798);
+	}
+	static ::System::Func_2<::RPG::GameCore::JsonEnum*, ::System::String*>** StaticGet___9__7_0()
+	{
+		return (::System::Func_2<::RPG::GameCore::JsonEnum*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_4DC40C4198F52F51___c_TypeDefinitionIndex)->GetStaticField(0x6F7A0);
 	}
 
 	static ::System::Void _cctor()

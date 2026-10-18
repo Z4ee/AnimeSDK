@@ -5,7 +5,7 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2MouseJointDef_TypeDefinitionIndex = 36029;
+	inline static constexpr unsigned int B2MouseJointDef_TypeDefinitionIndex = 36716;
 
 	struct alignas(8) B2MouseJointDef
 	{

@@ -2,21 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_1411;
-class Class_0_16E4307DCC419505_1413;
+class Class_0_16E4307DCC419505_1613;
+class Class_0_16E4307DCC419505_1615;
 class Class_1_A0E7B93CE3D1C3B3;
 
-#define CLASS_1_A0E7B93CE3D1C3B3___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x13F17010)
-#define CLASS_1_A0E7B93CE3D1C3B3___C__DISPLAYCLASS9_0__SHOWMAINPAGEASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x13F19AC0)
+#define CLASS_1_A0E7B93CE3D1C3B3___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14513D00)
+#define CLASS_1_A0E7B93CE3D1C3B3___C__DISPLAYCLASS9_0__SHOWMAINPAGEASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x145167B0)
 
-inline static constexpr unsigned int Class_1_A0E7B93CE3D1C3B3___c__DisplayClass9_0_TypeDefinitionIndex = 80425;
+inline static constexpr unsigned int Class_1_A0E7B93CE3D1C3B3___c__DisplayClass9_0_TypeDefinitionIndex = 81753;
 
 class Class_1_A0E7B93CE3D1C3B3___c__DisplayClass9_0 : public ::System::Object
 {
 public:
-	::Class_0_16E4307DCC419505_1413* transient; // 0x10
+	::Class_0_16E4307DCC419505_1613* sceneService; // 0x10
 	::Class_1_A0E7B93CE3D1C3B3* __4__this; // 0x18
-	::Class_0_16E4307DCC419505_1411* sceneService; // 0x20
+	::Class_0_16E4307DCC419505_1615* transient; // 0x20
 
 	::System::Void _ctor()
 	{

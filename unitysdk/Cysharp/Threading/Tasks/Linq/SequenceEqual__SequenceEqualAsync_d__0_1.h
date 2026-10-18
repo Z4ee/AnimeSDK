@@ -14,7 +14,7 @@ namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int SequenceEqual__SequenceEqualAsync_d__0_1_TypeDefinitionIndex = 44434;
+	inline static constexpr unsigned int SequenceEqual__SequenceEqualAsync_d__0_1_TypeDefinitionIndex = 45573;
 
 	template <typename TSource>
 	struct SequenceEqual__SequenceEqualAsync_d__0_1

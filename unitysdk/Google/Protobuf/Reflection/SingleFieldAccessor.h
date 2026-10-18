@@ -10,13 +10,13 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Reflection { class PropertyInfo; }
 
-#define GOOGLE_PROTOBUF_REFLECTION_SINGLEFIELDACCESSOR_HASVALUE_OFFSET UNITYSDK_OFFSET(0x1B39A920)
-#define GOOGLE_PROTOBUF_REFLECTION_SINGLEFIELDACCESSOR_SETVALUE_OFFSET UNITYSDK_OFFSET(0x1B39A950)
-#define GOOGLE_PROTOBUF_REFLECTION_SINGLEFIELDACCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1B39A070)
+#define GOOGLE_PROTOBUF_REFLECTION_SINGLEFIELDACCESSOR_HASVALUE_OFFSET UNITYSDK_OFFSET(0x1B89C810)
+#define GOOGLE_PROTOBUF_REFLECTION_SINGLEFIELDACCESSOR_SETVALUE_OFFSET UNITYSDK_OFFSET(0x1B89C840)
+#define GOOGLE_PROTOBUF_REFLECTION_SINGLEFIELDACCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1B89BF60)
 
 namespace Google::Protobuf::Reflection
 {
-	inline static constexpr unsigned int SingleFieldAccessor_TypeDefinitionIndex = 5567;
+	inline static constexpr unsigned int SingleFieldAccessor_TypeDefinitionIndex = 5574;
 
 	class SingleFieldAccessor : public ::Google::Protobuf::Reflection::FieldAccessorBase
 	{

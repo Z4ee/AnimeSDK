@@ -1,12 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/MapObjectState.h"
+#include "unitysdk/UnityEngine/Vector3.h"
 
-class Class_1_11F507CAFD9CD2DF;
-class Class_1_AEC4D667AA9BE4FB;
-class Class_1_DFF28B1BAA582E14;
+class Class_0_16E4307DCC419505_384;
+namespace RPG::Client { class MapEntityDef; }
 namespace RPG::GameCore { class GameEntity; }
+namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_502_TypeDefinitionIndex = 54220;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_502_TypeDefinitionIndex = 60859;
 
 class Class_0_16E4307DCC419505_502
 {

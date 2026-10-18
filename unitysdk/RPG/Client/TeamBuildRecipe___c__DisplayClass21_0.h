@@ -4,12 +4,12 @@
 
 namespace System::Collections::Generic { template <typename T> class ICollection_1; }
 
-#define RPG_CLIENT_TEAMBUILDRECIPE___C__DISPLAYCLASS21_0__CHECKCOLLETIONSCONTAINNUMBER_B__0_OFFSET UNITYSDK_OFFSET(0xE189020)
-#define RPG_CLIENT_TEAMBUILDRECIPE___C__DISPLAYCLASS21_0__CTOR_OFFSET UNITYSDK_OFFSET(0xE188FA0)
+#define RPG_CLIENT_TEAMBUILDRECIPE___C__DISPLAYCLASS21_0__CHECKCOLLETIONSCONTAINNUMBER_B__0_OFFSET UNITYSDK_OFFSET(0xE1CB6B0)
+#define RPG_CLIENT_TEAMBUILDRECIPE___C__DISPLAYCLASS21_0__CTOR_OFFSET UNITYSDK_OFFSET(0xE1CB630)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TeamBuildRecipe___c__DisplayClass21_0_TypeDefinitionIndex = 68090;
+	inline static constexpr unsigned int TeamBuildRecipe___c__DisplayClass21_0_TypeDefinitionIndex = 68095;
 
 	class TeamBuildRecipe___c__DisplayClass21_0 : public ::System::Object
 	{

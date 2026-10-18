@@ -13,27 +13,29 @@ namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class Text; }
 
-#define RPG_CLIENT_ELATIONBUFFPRESENTER_CREAT_OFFSET UNITYSDK_OFFSET(0xCE29310)
-#define RPG_CLIENT_ELATIONBUFFPRESENTER_ONCLOSEOVERVIEWCLICK_OFFSET UNITYSDK_OFFSET(0xCE29CD0)
-#define RPG_CLIENT_ELATIONBUFFPRESENTER_ONOPENOVERVIEWCLICK_OFFSET UNITYSDK_OFFSET(0xCE29C50)
-#define RPG_CLIENT_ELATIONBUFFPRESENTER_SETUPVIEW_OFFSET UNITYSDK_OFFSET(0xCE29410)
-#define RPG_CLIENT_ELATIONBUFFPRESENTER__CTOR_OFFSET UNITYSDK_OFFSET(0xCE293C0)
-#define RPG_CLIENT_ELATIONBUFFPRESENTER__MERGEBUFFDATABYLIFE_OFFSET UNITYSDK_OFFSET(0xCE29630)
+#define RPG_CLIENT_ELATIONBUFFPRESENTER_CREAT_OFFSET UNITYSDK_OFFSET(0xCD79810)
+#define RPG_CLIENT_ELATIONBUFFPRESENTER_ONCLOSEOVERVIEWCLICK_OFFSET UNITYSDK_OFFSET(0xCD7A4E0)
+#define RPG_CLIENT_ELATIONBUFFPRESENTER_ONOPENOVERVIEWCLICK_OFFSET UNITYSDK_OFFSET(0xCD7A460)
+#define RPG_CLIENT_ELATIONBUFFPRESENTER_SETUPVIEW_OFFSET UNITYSDK_OFFSET(0xCD79930)
+#define RPG_CLIENT_ELATIONBUFFPRESENTER__CTOR_OFFSET UNITYSDK_OFFSET(0xCD798D0)
+#define RPG_CLIENT_ELATIONBUFFPRESENTER__MERGEBUFFDATABYLIFE_OFFSET UNITYSDK_OFFSET(0xCD79D40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ElationBuffPresenter_TypeDefinitionIndex = 71152;
+	inline static constexpr unsigned int ElationBuffPresenter_TypeDefinitionIndex = 71191;
 
 	class ElationBuffPresenter : public ::System::Object
 	{
 	public:
-		::UnityEngine::UI::Button* _OpenOverviewBtn; // 0x10
-		::RPG::Client::NodeListViewPanel_1<::Class_2_2DB5DEF3EA4B57A8*>* _ElationBuffList; // 0x18
-		::UnityEngine::Transform* _LineBottom; // 0x20
-		::UnityEngine::UI::Text* _TotalPointText; // 0x28
-		::UnityEngine::Transform* _NodeDesc; // 0x30
-		::UnityEngine::UI::Text* _TotalDescText; // 0x38
-		::UnityEngine::UI::Button* _CloseOverviewBtn; // 0x40
+		::UnityEngine::UI::Text* _TotalDescText; // 0x10
+		::UnityEngine::UI::Text* _TotalPointText; // 0x18
+		::UnityEngine::Transform* _NodeDesc; // 0x20
+		::UnityEngine::UI::Button* _CloseOverviewBtn; // 0x28
+		::RPG::Client::NodeListViewPanel_1<::Class_2_2DB5DEF3EA4B57A8*>* _ElationBuffList; // 0x30
+		::UnityEngine::UI::Button* _OpenOverviewBtn; // 0x38
+		::UnityEngine::Transform* _NodeMax; // 0x40
+		::UnityEngine::Transform* _NodeMaxHint; // 0x48
+		::UnityEngine::Transform* _LineBottom; // 0x50
 
 		::System::Void _ctor(::RPG::Client::ElationBuffPresenterUIParam* a1)
 		{

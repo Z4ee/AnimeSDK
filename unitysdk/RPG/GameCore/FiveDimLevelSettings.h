@@ -18,13 +18,13 @@ namespace RPG::GameCore { class MiniGameCollectCoinConfig; }
 namespace RPG::GameCore { class MiniGameFlappyBirdConfig; }
 namespace RPG::GameCore { class MiniGameHundredFloorConfig; }
 
-#define RPG_GAMECORE_FIVEDIMLEVELSETTINGS_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x1D0EE730)
-#define RPG_GAMECORE_FIVEDIMLEVELSETTINGS_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D0EE6E0)
-#define RPG_GAMECORE_FIVEDIMLEVELSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0EE720)
+#define RPG_GAMECORE_FIVEDIMLEVELSETTINGS_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x1D6C5FC0)
+#define RPG_GAMECORE_FIVEDIMLEVELSETTINGS_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D6C5F50)
+#define RPG_GAMECORE_FIVEDIMLEVELSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6C5FA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimLevelSettings_TypeDefinitionIndex = 18302;
+	inline static constexpr unsigned int FiveDimLevelSettings_TypeDefinitionIndex = 18517;
 
 	class FiveDimLevelSettings : public ::RPG::GameCore::LittleGameLevelSettings
 	{
@@ -50,9 +50,10 @@ namespace RPG::GameCore
 		::RPG::Client::TextID SimpleGameLevelTips; // 0x80
 		::RPG::Client::TextID SimepleGameLevelDesc; // 0x90
 		::System::Boolean CameraCullingOptimization; // 0xA0
-		::System::Boolean EnableEffectSimulateInSurface; // 0xA1
-		::System::Boolean UnlimitedJumpEnergy; // 0xA2
-		::RPG::GameCore::FiveDimCustomScreenTransferStyle LoadingViewStyle; // 0xA4
+		::System::Single CameraCullingFovScale; // 0xA4
+		::System::Boolean EnableEffectSimulateInSurface; // 0xA8
+		::System::Boolean UnlimitedJumpEnergy; // 0xA9
+		::RPG::GameCore::FiveDimCustomScreenTransferStyle LoadingViewStyle; // 0xAC
 
 		::System::Void _ctor()
 		{

@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_FIXPOINTCONST_METHOD_2_CD062CAC029D740A_OFFSET UNITYSDK_OFFSET(0x1D109C00)
-#define RPG_GAMECORE_FIXPOINTCONST__CTOR_OFFSET UNITYSDK_OFFSET(0x1D109D30)
+#define RPG_GAMECORE_FIXPOINTCONST_METHOD_2_CD062CAC029D740A_OFFSET UNITYSDK_OFFSET(0x1D6E3500)
+#define RPG_GAMECORE_FIXPOINTCONST__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6E3630)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FixPointConst_TypeDefinitionIndex = 16853;
+	inline static constexpr unsigned int FixPointConst_TypeDefinitionIndex = 17047;
 
 	class FixPointConst : public ::RPG::GameCore::JsonConfig
 	{

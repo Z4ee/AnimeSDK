@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class PointEvaluatorConfig; }
 namespace RPG::GameCore { class PointGeneratorConfig; }
 
-#define RPG_GAMECORE_POINTQUERYCONFIG_METHOD_2_9A4FF790F32C2757_OFFSET UNITYSDK_OFFSET(0x1D358890)
-#define RPG_GAMECORE_POINTQUERYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D358950)
+#define RPG_GAMECORE_POINTQUERYCONFIG_METHOD_2_9A4FF790F32C2757_OFFSET UNITYSDK_OFFSET(0x1D93DC80)
+#define RPG_GAMECORE_POINTQUERYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D93DD40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PointQueryConfig_TypeDefinitionIndex = 15451;
+	inline static constexpr unsigned int PointQueryConfig_TypeDefinitionIndex = 15624;
 
 	class PointQueryConfig : public ::RPG::GameCore::JsonConfig
 	{

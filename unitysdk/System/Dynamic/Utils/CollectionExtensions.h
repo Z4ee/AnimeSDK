@@ -7,7 +7,7 @@ namespace System::Collections::ObjectModel { template <typename T> class ReadOnl
 
 namespace System::Dynamic::Utils
 {
-	inline static constexpr unsigned int CollectionExtensions_TypeDefinitionIndex = 3684;
+	inline static constexpr unsigned int CollectionExtensions_TypeDefinitionIndex = 3685;
 
 	class CollectionExtensions : public ::System::Object
 	{

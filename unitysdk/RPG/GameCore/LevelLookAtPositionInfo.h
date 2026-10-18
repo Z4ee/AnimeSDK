@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_LEVELLOOKATPOSITIONINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D1CBD90)
-#define RPG_GAMECORE_LEVELLOOKATPOSITIONINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1D6530)
+#define RPG_GAMECORE_LEVELLOOKATPOSITIONINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D7B2900)
+#define RPG_GAMECORE_LEVELLOOKATPOSITIONINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7B2A50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelLookAtPositionInfo_TypeDefinitionIndex = 17164;
+	inline static constexpr unsigned int LevelLookAtPositionInfo_TypeDefinitionIndex = 17359;
 
 	class LevelLookAtPositionInfo : public ::RPG::GameCore::JsonConfig
 	{

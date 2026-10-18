@@ -1,0 +1,64 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_0_16E4307DCC419505_1535;
+class Class_0_16E4307DCC419505_1539;
+class Class_1_08228315FBA10BA4;
+class Class_1_16C4955EF2FA3814;
+class Class_1_47EB23CB5C4B2615_44;
+class Class_1_508BB2775E8F8A7D;
+class Class_1_5E2D533DC7C7E714;
+class Class_1_872D17A60BBE5EB3;
+class Class_1_A075C859E16CAB2F;
+class Class_1_D17272E82AE804C2_696;
+class Class_1_D501FC103C8A2714;
+class Class_1_DD57899CB8704013;
+namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
+namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define CLASS_1_6BA643755221E529_METHOD_1_256303B15A3BB162_OFFSET UNITYSDK_OFFSET(0xB8F4F10)
+#define CLASS_1_6BA643755221E529_METHOD_1_944B5126C84BA6A4_OFFSET UNITYSDK_OFFSET(0xB8F56A0)
+#define CLASS_1_6BA643755221E529_METHOD_1_A85C12A9D99786D3_OFFSET UNITYSDK_OFFSET(0xB8F5420)
+#define CLASS_1_6BA643755221E529_METHOD_1_BF5A29392C1F1E81_OFFSET UNITYSDK_OFFSET(0xB8F49D0)
+#define CLASS_1_6BA643755221E529__CTOR_OFFSET UNITYSDK_OFFSET(0xB8F4950)
+
+inline static constexpr unsigned int Class_1_6BA643755221E529_TypeDefinitionIndex = 80246;
+
+class Class_1_6BA643755221E529 : public ::System::Object
+{
+public:
+	::Class_0_16E4307DCC419505_1535* CEADMKKNLDH; // 0x10
+	::Class_1_A075C859E16CAB2F* MOOEPGBJJAF; // 0x18
+	::Class_1_16C4955EF2FA3814* GKPHGLBPCKD; // 0x20
+	::Class_1_872D17A60BBE5EB3* DOIMIHLLDGH; // 0x28
+	::Class_0_16E4307DCC419505_1539* MJHHLOPFDNK; // 0x30
+	::System::Collections::Generic::List_1<::System::UInt32>* PCGJCDBJIKP; // 0x38
+	::Class_1_D501FC103C8A2714* GJALMBBNNOF; // 0x40
+
+	::System::Void _ctor(::Class_1_D501FC103C8A2714* a1, ::Class_0_16E4307DCC419505_1539* a2, ::Class_0_16E4307DCC419505_1535* a3, ::Class_1_16C4955EF2FA3814* a4, ::Class_1_A075C859E16CAB2F* a5, ::Class_1_872D17A60BBE5EB3* a6)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_D501FC103C8A2714*, ::Class_0_16E4307DCC419505_1539*, ::Class_0_16E4307DCC419505_1535*, ::Class_1_16C4955EF2FA3814*, ::Class_1_A075C859E16CAB2F*, ::Class_1_872D17A60BBE5EB3*))((::PBYTE)hIl2Cpp + CLASS_1_6BA643755221E529__CTOR_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+	}
+
+	::RPG::Client::Promises::IPromise_1<::Class_1_08228315FBA10BA4*>* Method_1_BF5A29392C1F1E81(::System::UInt32 a1, ::System::Collections::Generic::IEnumerable_1<::Class_1_5E2D533DC7C7E714*>* a2, ::Class_1_DD57899CB8704013* a3)
+	{
+		return ((::RPG::Client::Promises::IPromise_1<::Class_1_08228315FBA10BA4*>*(*)(::PVOID, ::System::UInt32, ::System::Collections::Generic::IEnumerable_1<::Class_1_5E2D533DC7C7E714*>*, ::Class_1_DD57899CB8704013*))((::PBYTE)hIl2Cpp + CLASS_1_6BA643755221E529_METHOD_1_BF5A29392C1F1E81_OFFSET))(this, a1, a2, a3);
+	}
+
+	::System::Void Method_1_256303B15A3BB162(::Class_1_47EB23CB5C4B2615_44* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_47EB23CB5C4B2615_44*))((::PBYTE)hIl2Cpp + CLASS_1_6BA643755221E529_METHOD_1_256303B15A3BB162_OFFSET))(this, a1);
+	}
+
+	::RPG::Client::Promises::IPromise_1<::Class_1_08228315FBA10BA4*>* Method_1_A85C12A9D99786D3(::System::UInt32 a1, ::Class_1_D17272E82AE804C2_696* a2, ::Class_1_DD57899CB8704013* a3)
+	{
+		return ((::RPG::Client::Promises::IPromise_1<::Class_1_08228315FBA10BA4*>*(*)(::PVOID, ::System::UInt32, ::Class_1_D17272E82AE804C2_696*, ::Class_1_DD57899CB8704013*))((::PBYTE)hIl2Cpp + CLASS_1_6BA643755221E529_METHOD_1_A85C12A9D99786D3_OFFSET))(this, a1, a2, a3);
+	}
+
+	::Class_1_508BB2775E8F8A7D* Method_1_944B5126C84BA6A4(::System::UInt32 a1, ::Class_1_DD57899CB8704013* a2)
+	{
+		return ((::Class_1_508BB2775E8F8A7D*(*)(::PVOID, ::System::UInt32, ::Class_1_DD57899CB8704013*))((::PBYTE)hIl2Cpp + CLASS_1_6BA643755221E529_METHOD_1_944B5126C84BA6A4_OFFSET))(this, a1, a2);
+	}
+};

@@ -5,26 +5,26 @@
 namespace Spine { template <typename T> class ExposedList_1; }
 namespace Spine { template <typename T> class Pool_1; }
 
-#define SPINE_TRIANGULATOR_DECOMPOSE_OFFSET UNITYSDK_OFFSET(0x1E627860)
-#define SPINE_TRIANGULATOR_ISCONCAVE_OFFSET UNITYSDK_OFFSET(0x1E627700)
-#define SPINE_TRIANGULATOR_POSITIVEAREA_OFFSET UNITYSDK_OFFSET(0x1E627820)
-#define SPINE_TRIANGULATOR_TRIANGULATE_OFFSET UNITYSDK_OFFSET(0x1E626BB0)
-#define SPINE_TRIANGULATOR_WINDING_OFFSET UNITYSDK_OFFSET(0x1E6289F0)
-#define SPINE_TRIANGULATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1E628A30)
+#define SPINE_TRIANGULATOR_DECOMPOSE_OFFSET UNITYSDK_OFFSET(0x1ECEF9B0)
+#define SPINE_TRIANGULATOR_ISCONCAVE_OFFSET UNITYSDK_OFFSET(0x1ECEF850)
+#define SPINE_TRIANGULATOR_POSITIVEAREA_OFFSET UNITYSDK_OFFSET(0x1ECEF970)
+#define SPINE_TRIANGULATOR_TRIANGULATE_OFFSET UNITYSDK_OFFSET(0x1ECEED00)
+#define SPINE_TRIANGULATOR_WINDING_OFFSET UNITYSDK_OFFSET(0x1ECF0B40)
+#define SPINE_TRIANGULATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1ECF0B80)
 
 namespace Spine
 {
-	inline static constexpr unsigned int Triangulator_TypeDefinitionIndex = 38408;
+	inline static constexpr unsigned int Triangulator_TypeDefinitionIndex = 39705;
 
 	class Triangulator : public ::System::Object
 	{
 	public:
-		::Spine::ExposedList_1<::System::Int32>* indicesArray; // 0x10
-		::Spine::ExposedList_1<::Spine::ExposedList_1<::System::Single>*>* convexPolygons; // 0x18
-		::Spine::ExposedList_1<::System::Int32>* triangles; // 0x20
-		::Spine::Pool_1<::Spine::ExposedList_1<::System::Int32>*>* polygonIndicesPool; // 0x28
-		::Spine::ExposedList_1<::System::Boolean>* isConcaveArray; // 0x30
-		::Spine::Pool_1<::Spine::ExposedList_1<::System::Single>*>* polygonPool; // 0x38
+		::Spine::ExposedList_1<::System::Boolean>* isConcaveArray; // 0x10
+		::Spine::ExposedList_1<::System::Int32>* indicesArray; // 0x18
+		::Spine::Pool_1<::Spine::ExposedList_1<::System::Single>*>* polygonPool; // 0x20
+		::Spine::ExposedList_1<::System::Int32>* triangles; // 0x28
+		::Spine::Pool_1<::Spine::ExposedList_1<::System::Int32>*>* polygonIndicesPool; // 0x30
+		::Spine::ExposedList_1<::Spine::ExposedList_1<::System::Single>*>* convexPolygons; // 0x38
 		::Spine::ExposedList_1<::Spine::ExposedList_1<::System::Int32>*>* convexPolygonsIndices; // 0x40
 
 		::System::Void _ctor()

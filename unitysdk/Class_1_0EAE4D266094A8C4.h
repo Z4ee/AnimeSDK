@@ -7,21 +7,21 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define CLASS_1_0EAE4D266094A8C4_METHOD_1_0E3C9CE42200F670_OFFSET UNITYSDK_OFFSET(0x1C853E50)
-#define CLASS_1_0EAE4D266094A8C4__CTOR_OFFSET UNITYSDK_OFFSET(0x1C854180)
+#define CLASS_1_0EAE4D266094A8C4_METHOD_1_0E3C9CE42200F670_OFFSET UNITYSDK_OFFSET(0x1CDEC710)
+#define CLASS_1_0EAE4D266094A8C4__CTOR_OFFSET UNITYSDK_OFFSET(0x1CDECA40)
 
-inline static constexpr unsigned int Class_1_0EAE4D266094A8C4_TypeDefinitionIndex = 11282;
+inline static constexpr unsigned int Class_1_0EAE4D266094A8C4_TypeDefinitionIndex = 11298;
 
 class Class_1_0EAE4D266094A8C4 : public ::System::Object
 {
 public:
-	::System::String* JPLIONFJGCL; // 0x10
-	::Il2CppArray<::System::UInt32>* PBLPLDJKPEI; // 0x18
-	::RPG::Client::TextID LKMNEALKDLO; // 0x20
-	::RPG::GameCore::ActivityDiceCombatV2TitleType NJPLBONOODI; // 0x30
-	::System::UInt32 PHFMCACHFIJ; // 0x34
-	::RPG::Client::TextID OFGKEMCCMIM; // 0x38
-	::System::UInt32 NALMBOOCCIN; // 0x48
+	::Il2CppArray<::System::UInt32>* PBLPLDJKPEI; // 0x10
+	::System::String* JPLIONFJGCL; // 0x18
+	::RPG::GameCore::ActivityDiceCombatV2TitleType NJPLBONOODI; // 0x20
+	::System::UInt32 PHFMCACHFIJ; // 0x24
+	::System::UInt32 NALMBOOCCIN; // 0x28
+	::RPG::Client::TextID OFGKEMCCMIM; // 0x30
+	::RPG::Client::TextID LKMNEALKDLO; // 0x40
 
 	::System::Void _ctor()
 	{

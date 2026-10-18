@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropEnableColliderOP_TypeDefinitionIndex = 24222;
+	inline static constexpr unsigned int PropEnableColliderOP_TypeDefinitionIndex = 24501;
 
 	enum class PropEnableColliderOP : ::System::Int32
 	{

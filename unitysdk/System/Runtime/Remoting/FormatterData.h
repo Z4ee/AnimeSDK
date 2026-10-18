@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Runtime/Remoting/ProviderData.h"
 
-#define SYSTEM_RUNTIME_REMOTING_FORMATTERDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDCDCB0)
+#define SYSTEM_RUNTIME_REMOTING_FORMATTERDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1C2D99B0)
 
 namespace System::Runtime::Remoting
 {

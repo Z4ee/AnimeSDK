@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByIsInElationTime; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_A8BAAFB550255F9D_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15946D50)
-#define CLASS_3_A8BAAFB550255F9D__CTOR_OFFSET UNITYSDK_OFFSET(0x15946D20)
+#define CLASS_3_A8BAAFB550255F9D_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15C98FE0)
+#define CLASS_3_A8BAAFB550255F9D__CTOR_OFFSET UNITYSDK_OFFSET(0x15C98FB0)
 
-inline static constexpr unsigned int Class_3_A8BAAFB550255F9D_TypeDefinitionIndex = 54878;
+inline static constexpr unsigned int Class_3_A8BAAFB550255F9D_TypeDefinitionIndex = 54666;
 
 class Class_3_A8BAAFB550255F9D : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByIsInElationTime*>
 {

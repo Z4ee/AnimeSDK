@@ -4,11 +4,11 @@
 
 namespace RPG::Client { class EntityTimelineControlNodeSingleTransitionInfo; }
 
-#define RPG_CLIENT_ENTITYTIMELINECONTROLNODETRANSITION__CTOR_OFFSET UNITYSDK_OFFSET(0xCEA4F70)
+#define RPG_CLIENT_ENTITYTIMELINECONTROLNODETRANSITION__CTOR_OFFSET UNITYSDK_OFFSET(0xCDF4410)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EntityTimelineControlNodeTransition_TypeDefinitionIndex = 63832;
+	inline static constexpr unsigned int EntityTimelineControlNodeTransition_TypeDefinitionIndex = 63770;
 
 	class EntityTimelineControlNodeTransition : public ::System::Object
 	{

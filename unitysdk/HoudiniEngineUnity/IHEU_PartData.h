@@ -16,7 +16,7 @@ namespace UnityEngine { class TerrainData; }
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int IHEU_PartData_TypeDefinitionIndex = 39279;
+	inline static constexpr unsigned int IHEU_PartData_TypeDefinitionIndex = 40576;
 
 	class IHEU_PartData
 	{

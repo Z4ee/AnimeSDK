@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetFaceDirectionLocked; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_7B38BC5B06B8CF85_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x153CC3B0)
-#define CLASS_3_7B38BC5B06B8CF85__CTOR_OFFSET UNITYSDK_OFFSET(0x153CC380)
+#define CLASS_3_7B38BC5B06B8CF85_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15682650)
+#define CLASS_3_7B38BC5B06B8CF85__CTOR_OFFSET UNITYSDK_OFFSET(0x15682620)
 
-inline static constexpr unsigned int Class_3_7B38BC5B06B8CF85_TypeDefinitionIndex = 55701;
+inline static constexpr unsigned int Class_3_7B38BC5B06B8CF85_TypeDefinitionIndex = 55509;
 
 class Class_3_7B38BC5B06B8CF85 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetFaceDirectionLocked*>
 {

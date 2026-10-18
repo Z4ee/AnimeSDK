@@ -4,7 +4,7 @@
 
 namespace System { class String; }
 
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509CERTIFICATE2COLLECTION__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E9E6880)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509CERTIFICATE2COLLECTION__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F0AE3E0)
 
 namespace System::Security::Cryptography::X509Certificates
 {
@@ -15,7 +15,7 @@ namespace System::Security::Cryptography::X509Certificates
 	public:
 		static ::Il2CppArray<::System::String*>** StaticGet_newline_split()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(X509Certificate2Collection_TypeDefinitionIndex)->GetStaticField(0x218B0);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(X509Certificate2Collection_TypeDefinitionIndex)->GetStaticField(0x2F690);
 		}
 
 		static ::System::Void _cctor()

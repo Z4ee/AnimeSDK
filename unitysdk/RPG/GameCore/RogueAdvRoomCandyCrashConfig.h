@@ -7,12 +7,12 @@ namespace RPG::GameCore { class RogueAdvRoomCandyCrashGroup; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_ROGUEADVROOMCANDYCRASHCONFIG_METHOD_2_641186A55198F303_OFFSET UNITYSDK_OFFSET(0x1D3BC6A0)
-#define RPG_GAMECORE_ROGUEADVROOMCANDYCRASHCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3BC7A0)
+#define RPG_GAMECORE_ROGUEADVROOMCANDYCRASHCONFIG_METHOD_2_641186A55198F303_OFFSET UNITYSDK_OFFSET(0x1D9A2E30)
+#define RPG_GAMECORE_ROGUEADVROOMCANDYCRASHCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D9A2F30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueAdvRoomCandyCrashConfig_TypeDefinitionIndex = 17678;
+	inline static constexpr unsigned int RogueAdvRoomCandyCrashConfig_TypeDefinitionIndex = 17890;
 
 	class RogueAdvRoomCandyCrashConfig : public ::RPG::GameCore::JsonConfig
 	{

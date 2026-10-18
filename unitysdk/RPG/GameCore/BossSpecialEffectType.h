@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BossSpecialEffectType_TypeDefinitionIndex = 15867;
+	inline static constexpr unsigned int BossSpecialEffectType_TypeDefinitionIndex = 16040;
 
 	enum class BossSpecialEffectType : ::System::Int32
 	{

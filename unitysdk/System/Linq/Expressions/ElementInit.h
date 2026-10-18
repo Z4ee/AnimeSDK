@@ -6,20 +6,20 @@ namespace System::Collections::ObjectModel { template <typename T> class ReadOnl
 namespace System::Linq::Expressions { class Expression; }
 namespace System::Reflection { class MethodInfo; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_ELEMENTINIT_GETARGUMENT_OFFSET UNITYSDK_OFFSET(0x1E6DC280)
-#define SYSTEM_LINQ_EXPRESSIONS_ELEMENTINIT_GET_ADDMETHOD_OFFSET UNITYSDK_OFFSET(0x1E6DC260)
-#define SYSTEM_LINQ_EXPRESSIONS_ELEMENTINIT_GET_ARGUMENTCOUNT_OFFSET UNITYSDK_OFFSET(0x1E6DC2E0)
-#define SYSTEM_LINQ_EXPRESSIONS_ELEMENTINIT_GET_ARGUMENTS_OFFSET UNITYSDK_OFFSET(0x1E6DC270)
+#define SYSTEM_LINQ_EXPRESSIONS_ELEMENTINIT_GETARGUMENT_OFFSET UNITYSDK_OFFSET(0x1EDA4610)
+#define SYSTEM_LINQ_EXPRESSIONS_ELEMENTINIT_GET_ADDMETHOD_OFFSET UNITYSDK_OFFSET(0x1EDA45F0)
+#define SYSTEM_LINQ_EXPRESSIONS_ELEMENTINIT_GET_ARGUMENTCOUNT_OFFSET UNITYSDK_OFFSET(0x1EDA4670)
+#define SYSTEM_LINQ_EXPRESSIONS_ELEMENTINIT_GET_ARGUMENTS_OFFSET UNITYSDK_OFFSET(0x1EDA4600)
 
 namespace System::Linq::Expressions
 {
-	inline static constexpr unsigned int ElementInit_TypeDefinitionIndex = 3215;
+	inline static constexpr unsigned int ElementInit_TypeDefinitionIndex = 3216;
 
 	class ElementInit : public ::System::Object
 	{
 	public:
-		::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>* _Arguments_k__BackingField; // 0x10
-		::System::Reflection::MethodInfo* _AddMethod_k__BackingField; // 0x18
+		::System::Reflection::MethodInfo* _AddMethod_k__BackingField; // 0x10
+		::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>* _Arguments_k__BackingField; // 0x18
 
 		::System::Reflection::MethodInfo* get_AddMethod()
 		{

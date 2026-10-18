@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_F80BFD5B986D5503_2.h"
+#include "unitysdk/Enum_3_F80BFD5B986D5503_3.h"
 #include "unitysdk/RPG/GameCore/ImmediateTaskBase_1.h"
 #include "unitysdk/RPG/GameCore/StatisticEventType.h"
 
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TriggerBattleStatisticEvent; }
 
-#define CLASS_3_EDE45CC859B8AA64_METHOD_3_8050951FA39C7AE6_OFFSET UNITYSDK_OFFSET(0xB463DE0)
-#define CLASS_3_EDE45CC859B8AA64_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB463AC0)
-#define CLASS_3_EDE45CC859B8AA64__CTOR_OFFSET UNITYSDK_OFFSET(0xB463A90)
+#define CLASS_3_EDE45CC859B8AA64_METHOD_3_8050951FA39C7AE6_OFFSET UNITYSDK_OFFSET(0xB1268C0)
+#define CLASS_3_EDE45CC859B8AA64_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB1265A0)
+#define CLASS_3_EDE45CC859B8AA64__CTOR_OFFSET UNITYSDK_OFFSET(0xB126570)
 
-inline static constexpr unsigned int Class_3_EDE45CC859B8AA64_TypeDefinitionIndex = 55910;
+inline static constexpr unsigned int Class_3_EDE45CC859B8AA64_TypeDefinitionIndex = 55720;
 
 class Class_3_EDE45CC859B8AA64 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::TriggerBattleStatisticEvent*>
 {
@@ -26,8 +26,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_EDE45CC859B8AA64_ONTASKBEGIN_OFFSET))(this);
 	}
 
-	::Enum_3_F80BFD5B986D5503_2 Method_3_8050951FA39C7AE6(::RPG::GameCore::StatisticEventType a1)
+	::Enum_3_F80BFD5B986D5503_3 Method_3_8050951FA39C7AE6(::RPG::GameCore::StatisticEventType a1)
 	{
-		return ((::Enum_3_F80BFD5B986D5503_2(*)(::PVOID, ::RPG::GameCore::StatisticEventType))((::PBYTE)hIl2Cpp + CLASS_3_EDE45CC859B8AA64_METHOD_3_8050951FA39C7AE6_OFFSET))(this, a1);
+		return ((::Enum_3_F80BFD5B986D5503_3(*)(::PVOID, ::RPG::GameCore::StatisticEventType))((::PBYTE)hIl2Cpp + CLASS_3_EDE45CC859B8AA64_METHOD_3_8050951FA39C7AE6_OFFSET))(this, a1);
 	}
 };

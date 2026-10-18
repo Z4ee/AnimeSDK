@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TurnBasedGameMode_SkillExecutionEventState_TypeDefinitionIndex = 53818;
+	inline static constexpr unsigned int TurnBasedGameMode_SkillExecutionEventState_TypeDefinitionIndex = 53602;
 
 	enum class TurnBasedGameMode_SkillExecutionEventState : ::System::Int32
 	{

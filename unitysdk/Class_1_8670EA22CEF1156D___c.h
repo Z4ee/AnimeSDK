@@ -9,42 +9,42 @@ namespace RPG::Client { class ActivityLocalLegendRewardGroup; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_8670EA22CEF1156D___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xDAB5790)
-#define CLASS_1_8670EA22CEF1156D___C__CREATE_B__0_0_OFFSET UNITYSDK_OFFSET(0xDAB57E0)
-#define CLASS_1_8670EA22CEF1156D___C__CREATE_B__0_1_OFFSET UNITYSDK_OFFSET(0xDAB57F0)
-#define CLASS_1_8670EA22CEF1156D___C__CREATE_B__0_2_OFFSET UNITYSDK_OFFSET(0xDAB5C40)
-#define CLASS_1_8670EA22CEF1156D___C__CREATE_B__0_3_OFFSET UNITYSDK_OFFSET(0xDAB5C60)
-#define CLASS_1_8670EA22CEF1156D___C__CREATE_B__0_4_OFFSET UNITYSDK_OFFSET(0xDAB5C80)
-#define CLASS_1_8670EA22CEF1156D___C__CTOR_OFFSET UNITYSDK_OFFSET(0xDAB57D0)
+#define CLASS_1_8670EA22CEF1156D___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xDA415C0)
+#define CLASS_1_8670EA22CEF1156D___C__CREATE_B__0_0_OFFSET UNITYSDK_OFFSET(0xDA41610)
+#define CLASS_1_8670EA22CEF1156D___C__CREATE_B__0_1_OFFSET UNITYSDK_OFFSET(0xDA41620)
+#define CLASS_1_8670EA22CEF1156D___C__CREATE_B__0_2_OFFSET UNITYSDK_OFFSET(0xDA41A70)
+#define CLASS_1_8670EA22CEF1156D___C__CREATE_B__0_3_OFFSET UNITYSDK_OFFSET(0xDA41A90)
+#define CLASS_1_8670EA22CEF1156D___C__CREATE_B__0_4_OFFSET UNITYSDK_OFFSET(0xDA41AB0)
+#define CLASS_1_8670EA22CEF1156D___C__CTOR_OFFSET UNITYSDK_OFFSET(0xDA41600)
 
-inline static constexpr unsigned int Class_1_8670EA22CEF1156D___c_TypeDefinitionIndex = 61663;
+inline static constexpr unsigned int Class_1_8670EA22CEF1156D___c_TypeDefinitionIndex = 61569;
 
 class Class_1_8670EA22CEF1156D___c : public ::System::Object
 {
 public:
-	static ::Class_1_8670EA22CEF1156D___c** StaticGet___9()
-	{
-		return (::Class_1_8670EA22CEF1156D___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_8670EA22CEF1156D___c_TypeDefinitionIndex)->GetStaticField(0x66320);
-	}
-	static ::System::Func_2<::Class_1_D2E90365D99FC7E6_17*, ::System::UInt32>** StaticGet___9__0_4()
-	{
-		return (::System::Func_2<::Class_1_D2E90365D99FC7E6_17*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_8670EA22CEF1156D___c_TypeDefinitionIndex)->GetStaticField(0x66328);
-	}
-	static ::System::Func_2<::Class_1_D2E90365D99FC7E6_17*, ::System::Int32>** StaticGet___9__0_2()
-	{
-		return (::System::Func_2<::Class_1_D2E90365D99FC7E6_17*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_8670EA22CEF1156D___c_TypeDefinitionIndex)->GetStaticField(0x66330);
-	}
 	static ::System::Func_2<::Class_1_D2E90365D99FC7E6_17*, ::System::UInt32>** StaticGet___9__0_3()
 	{
-		return (::System::Func_2<::Class_1_D2E90365D99FC7E6_17*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_8670EA22CEF1156D___c_TypeDefinitionIndex)->GetStaticField(0x66338);
-	}
-	static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::RPG::GameCore::ActivityLocalLegendRewardType, ::System::Collections::Generic::List_1<::Class_1_D2E90365D99FC7E6_17*>*>, ::RPG::Client::ActivityLocalLegendRewardGroup*>** StaticGet___9__0_1()
-	{
-		return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::RPG::GameCore::ActivityLocalLegendRewardType, ::System::Collections::Generic::List_1<::Class_1_D2E90365D99FC7E6_17*>*>, ::RPG::Client::ActivityLocalLegendRewardGroup*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_8670EA22CEF1156D___c_TypeDefinitionIndex)->GetStaticField(0x66340);
+		return (::System::Func_2<::Class_1_D2E90365D99FC7E6_17*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_8670EA22CEF1156D___c_TypeDefinitionIndex)->GetStaticField(0x52C20);
 	}
 	static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::RPG::GameCore::ActivityLocalLegendRewardType, ::System::Collections::Generic::List_1<::Class_1_D2E90365D99FC7E6_17*>*>, ::RPG::GameCore::ActivityLocalLegendRewardType>** StaticGet___9__0_0()
 	{
-		return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::RPG::GameCore::ActivityLocalLegendRewardType, ::System::Collections::Generic::List_1<::Class_1_D2E90365D99FC7E6_17*>*>, ::RPG::GameCore::ActivityLocalLegendRewardType>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_8670EA22CEF1156D___c_TypeDefinitionIndex)->GetStaticField(0x66348);
+		return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::RPG::GameCore::ActivityLocalLegendRewardType, ::System::Collections::Generic::List_1<::Class_1_D2E90365D99FC7E6_17*>*>, ::RPG::GameCore::ActivityLocalLegendRewardType>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_8670EA22CEF1156D___c_TypeDefinitionIndex)->GetStaticField(0x52C28);
+	}
+	static ::System::Func_2<::Class_1_D2E90365D99FC7E6_17*, ::System::UInt32>** StaticGet___9__0_4()
+	{
+		return (::System::Func_2<::Class_1_D2E90365D99FC7E6_17*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_8670EA22CEF1156D___c_TypeDefinitionIndex)->GetStaticField(0x52C30);
+	}
+	static ::Class_1_8670EA22CEF1156D___c** StaticGet___9()
+	{
+		return (::Class_1_8670EA22CEF1156D___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_8670EA22CEF1156D___c_TypeDefinitionIndex)->GetStaticField(0x52C38);
+	}
+	static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::RPG::GameCore::ActivityLocalLegendRewardType, ::System::Collections::Generic::List_1<::Class_1_D2E90365D99FC7E6_17*>*>, ::RPG::Client::ActivityLocalLegendRewardGroup*>** StaticGet___9__0_1()
+	{
+		return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::RPG::GameCore::ActivityLocalLegendRewardType, ::System::Collections::Generic::List_1<::Class_1_D2E90365D99FC7E6_17*>*>, ::RPG::Client::ActivityLocalLegendRewardGroup*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_8670EA22CEF1156D___c_TypeDefinitionIndex)->GetStaticField(0x52C40);
+	}
+	static ::System::Func_2<::Class_1_D2E90365D99FC7E6_17*, ::System::Int32>** StaticGet___9__0_2()
+	{
+		return (::System::Func_2<::Class_1_D2E90365D99FC7E6_17*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_8670EA22CEF1156D___c_TypeDefinitionIndex)->GetStaticField(0x52C48);
 	}
 
 	static ::System::Void _cctor()

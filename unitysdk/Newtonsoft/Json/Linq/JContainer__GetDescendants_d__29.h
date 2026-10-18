@@ -4,7 +4,7 @@
 
 namespace Newtonsoft::Json::Linq
 {
-	inline static constexpr unsigned int JContainer__GetDescendants_d__29_TypeDefinitionIndex = 9714;
+	inline static constexpr unsigned int JContainer__GetDescendants_d__29_TypeDefinitionIndex = 9772;
 
 	class JContainer__GetDescendants_d__29 : public ::System::Object
 	{

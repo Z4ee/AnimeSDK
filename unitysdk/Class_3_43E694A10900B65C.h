@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByInTrackCameraByPathID; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_43E694A10900B65C_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15267D50)
-#define CLASS_3_43E694A10900B65C__CTOR_OFFSET UNITYSDK_OFFSET(0x15267D20)
+#define CLASS_3_43E694A10900B65C_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15510FA0)
+#define CLASS_3_43E694A10900B65C__CTOR_OFFSET UNITYSDK_OFFSET(0x15510F70)
 
-inline static constexpr unsigned int Class_3_43E694A10900B65C_TypeDefinitionIndex = 53403;
+inline static constexpr unsigned int Class_3_43E694A10900B65C_TypeDefinitionIndex = 53146;
 
 class Class_3_43E694A10900B65C : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByInTrackCameraByPathID*>
 {

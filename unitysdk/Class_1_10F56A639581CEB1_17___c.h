@@ -4,18 +4,18 @@
 
 class Class_1_10F56A639581CEB1_17;
 
-#define CLASS_1_10F56A639581CEB1_17___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D989330)
-#define CLASS_1_10F56A639581CEB1_17___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1D989370)
-#define CLASS_1_10F56A639581CEB1_17___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1D989380)
+#define CLASS_1_10F56A639581CEB1_17___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DDE4920)
+#define CLASS_1_10F56A639581CEB1_17___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1DDE4960)
+#define CLASS_1_10F56A639581CEB1_17___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1DDE4970)
 
-inline static constexpr unsigned int Class_1_10F56A639581CEB1_17___c_TypeDefinitionIndex = 30986;
+inline static constexpr unsigned int Class_1_10F56A639581CEB1_17___c_TypeDefinitionIndex = 31029;
 
 class Class_1_10F56A639581CEB1_17___c : public ::System::Object
 {
 public:
 	static ::Class_1_10F56A639581CEB1_17___c** StaticGet___9()
 	{
-		return (::Class_1_10F56A639581CEB1_17___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_10F56A639581CEB1_17___c_TypeDefinitionIndex)->GetStaticField(0xC320);
+		return (::Class_1_10F56A639581CEB1_17___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_10F56A639581CEB1_17___c_TypeDefinitionIndex)->GetStaticField(0x2BCA0);
 	}
 
 	static ::System::Void _cctor()

@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define RPGTOOLS_STORYDURATIONTIMECONFIG_STORYDURATIONTIME__CTOR_OFFSET UNITYSDK_OFFSET(0xE80B450)
+#define RPGTOOLS_STORYDURATIONTIMECONFIG_STORYDURATIONTIME__CTOR_OFFSET UNITYSDK_OFFSET(0xE8A8D60)
 
 namespace RPGTools
 {
-	inline static constexpr unsigned int StoryDurationTimeConfig_StoryDurationTime_TypeDefinitionIndex = 48241;
+	inline static constexpr unsigned int StoryDurationTimeConfig_StoryDurationTime_TypeDefinitionIndex = 47782;
 
 	class StoryDurationTimeConfig_StoryDurationTime : public ::System::Object
 	{

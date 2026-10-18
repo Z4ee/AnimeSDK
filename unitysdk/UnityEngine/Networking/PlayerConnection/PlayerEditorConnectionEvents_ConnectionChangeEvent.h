@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Events/UnityEvent_1.h"
 
-#define UNITYENGINE_NETWORKING_PLAYERCONNECTION_PLAYEREDITORCONNECTIONEVENTS_CONNECTIONCHANGEEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1ED41CC0)
+#define UNITYENGINE_NETWORKING_PLAYERCONNECTION_PLAYEREDITORCONNECTIONEVENTS_CONNECTIONCHANGEEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1F409A70)
 
 namespace UnityEngine::Networking::PlayerConnection
 {
-	inline static constexpr unsigned int PlayerEditorConnectionEvents_ConnectionChangeEvent_TypeDefinitionIndex = 4676;
+	inline static constexpr unsigned int PlayerEditorConnectionEvents_ConnectionChangeEvent_TypeDefinitionIndex = 4680;
 
 	class PlayerEditorConnectionEvents_ConnectionChangeEvent : public ::UnityEngine::Events::UnityEvent_1<::System::Int32>
 	{

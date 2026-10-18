@@ -4,24 +4,24 @@
 
 namespace System { class Action; }
 
-#define RPG_CLIENT_GRIDFIGHTFLOWDIRECTOR_MONSTERREVEALHINTSTATE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD195490)
-#define RPG_CLIENT_GRIDFIGHTFLOWDIRECTOR_MONSTERREVEALHINTSTATE___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD1954D0)
-#define RPG_CLIENT_GRIDFIGHTFLOWDIRECTOR_MONSTERREVEALHINTSTATE___C__ONENTER_B__0_0_OFFSET UNITYSDK_OFFSET(0xD1954E0)
+#define RPG_CLIENT_GRIDFIGHTFLOWDIRECTOR_MONSTERREVEALHINTSTATE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD135A10)
+#define RPG_CLIENT_GRIDFIGHTFLOWDIRECTOR_MONSTERREVEALHINTSTATE___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD135A50)
+#define RPG_CLIENT_GRIDFIGHTFLOWDIRECTOR_MONSTERREVEALHINTSTATE___C__ONENTER_B__0_0_OFFSET UNITYSDK_OFFSET(0xD135A60)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightFlowDirector_MonsterRevealHintState___c_TypeDefinitionIndex = 64663;
+	inline static constexpr unsigned int GridFightFlowDirector_MonsterRevealHintState___c_TypeDefinitionIndex = 64603;
 
 	class GridFightFlowDirector_MonsterRevealHintState___c : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::GridFightFlowDirector_MonsterRevealHintState___c** StaticGet___9()
 		{
-			return (::RPG::Client::GridFightFlowDirector_MonsterRevealHintState___c**)Il2CppClass::FromTypeDefinitionIndex(GridFightFlowDirector_MonsterRevealHintState___c_TypeDefinitionIndex)->GetStaticField(0x2C150);
+			return (::RPG::Client::GridFightFlowDirector_MonsterRevealHintState___c**)Il2CppClass::FromTypeDefinitionIndex(GridFightFlowDirector_MonsterRevealHintState___c_TypeDefinitionIndex)->GetStaticField(0x6BC40);
 		}
 		static ::System::Action** StaticGet___9__0_0()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(GridFightFlowDirector_MonsterRevealHintState___c_TypeDefinitionIndex)->GetStaticField(0x2C158);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(GridFightFlowDirector_MonsterRevealHintState___c_TypeDefinitionIndex)->GetStaticField(0x6BC48);
 		}
 
 		static ::System::Void _cctor()

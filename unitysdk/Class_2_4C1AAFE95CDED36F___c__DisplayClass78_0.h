@@ -7,16 +7,16 @@ class Class_2_4C1AAFE95CDED36F;
 namespace RPG::Client { class IAssetOperation; }
 namespace System { template <typename T> class Action_1; }
 
-#define CLASS_2_4C1AAFE95CDED36F___C__DISPLAYCLASS78_0__ASYNCLOADGAMEOBJECT_B__0_OFFSET UNITYSDK_OFFSET(0x160B5E70)
-#define CLASS_2_4C1AAFE95CDED36F___C__DISPLAYCLASS78_0__CTOR_OFFSET UNITYSDK_OFFSET(0x160B44A0)
+#define CLASS_2_4C1AAFE95CDED36F___C__DISPLAYCLASS78_0__ASYNCLOADGAMEOBJECT_B__0_OFFSET UNITYSDK_OFFSET(0x16465B80)
+#define CLASS_2_4C1AAFE95CDED36F___C__DISPLAYCLASS78_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16464180)
 
-inline static constexpr unsigned int Class_2_4C1AAFE95CDED36F___c__DisplayClass78_0_TypeDefinitionIndex = 57314;
+inline static constexpr unsigned int Class_2_4C1AAFE95CDED36F___c__DisplayClass78_0_TypeDefinitionIndex = 57150;
 
 class Class_2_4C1AAFE95CDED36F___c__DisplayClass78_0 : public ::System::Object
 {
 public:
-	::Class_2_4C1AAFE95CDED36F* __4__this; // 0x10
-	::System::Action_1<::Class_1_004034A1FAAF468A*>* onLoadAction; // 0x18
+	::System::Action_1<::Class_1_004034A1FAAF468A*>* onLoadAction; // 0x10
+	::Class_2_4C1AAFE95CDED36F* __4__this; // 0x18
 
 	::System::Void _ctor()
 	{

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class StopCurrentLittleGame; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_B6FD5D0319CB186E_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15876510)
-#define CLASS_3_B6FD5D0319CB186E__CTOR_OFFSET UNITYSDK_OFFSET(0x158764E0)
+#define CLASS_3_B6FD5D0319CB186E_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15B70AB0)
+#define CLASS_3_B6FD5D0319CB186E__CTOR_OFFSET UNITYSDK_OFFSET(0x15B70A80)
 
-inline static constexpr unsigned int Class_3_B6FD5D0319CB186E_TypeDefinitionIndex = 53253;
+inline static constexpr unsigned int Class_3_B6FD5D0319CB186E_TypeDefinitionIndex = 52979;
 
 class Class_3_B6FD5D0319CB186E : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::StopCurrentLittleGame*>
 {

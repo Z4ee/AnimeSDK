@@ -5,12 +5,12 @@
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Renderer; }
 
-#define RPG_CUSTOMRP_AVATAREFFECTHELPER_DRAWCMD_COMPARETO_OFFSET UNITYSDK_OFFSET(0x3B7F4C0)
-#define RPG_CUSTOMRP_AVATAREFFECTHELPER_DRAWCMD__COMPARETO_G__PASSTAGIDTOINDEX_7_0_OFFSET UNITYSDK_OFFSET(0x1C668FF0)
+#define RPG_CUSTOMRP_AVATAREFFECTHELPER_DRAWCMD_COMPARETO_OFFSET UNITYSDK_OFFSET(0x3C34280)
+#define RPG_CUSTOMRP_AVATAREFFECTHELPER_DRAWCMD__COMPARETO_G__PASSTAGIDTOINDEX_7_0_OFFSET UNITYSDK_OFFSET(0x1CBEF310)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int AvatarEffectHelper_DrawCmd_TypeDefinitionIndex = 36905;
+	inline static constexpr unsigned int AvatarEffectHelper_DrawCmd_TypeDefinitionIndex = 37590;
 
 	struct alignas(8) AvatarEffectHelper_DrawCmd
 	{

@@ -4,7 +4,7 @@
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int WaterLevelControllerInfo_TypeDefinitionIndex = 78446;
+	inline static constexpr unsigned int WaterLevelControllerInfo_TypeDefinitionIndex = 78917;
 
 	struct alignas(4) WaterLevelControllerInfo
 	{

@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_CHARACTEREYECTRLCONFIG_METHOD_2_9971E5FA12C1D8E2_OFFSET UNITYSDK_OFFSET(0x1CF96000)
-#define RPG_GAMECORE_CHARACTEREYECTRLCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF96390)
+#define RPG_GAMECORE_CHARACTEREYECTRLCONFIG_METHOD_2_419726741295FCBA_OFFSET UNITYSDK_OFFSET(0x1D570650)
+#define RPG_GAMECORE_CHARACTEREYECTRLCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D570F10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterEyeCtrlConfig_TypeDefinitionIndex = 17252;
+	inline static constexpr unsigned int CharacterEyeCtrlConfig_TypeDefinitionIndex = 17448;
 
 	class CharacterEyeCtrlConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -31,9 +31,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTEREYECTRLCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_9971E5FA12C1D8E2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CharacterEyeCtrlConfig*& a2)
+		static ::System::Void Method_2_419726741295FCBA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CharacterEyeCtrlConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CharacterEyeCtrlConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTEREYECTRLCONFIG_METHOD_2_9971E5FA12C1D8E2_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CharacterEyeCtrlConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTEREYECTRLCONFIG_METHOD_2_419726741295FCBA_OFFSET))(a1, a2);
 		}
 	};
 }

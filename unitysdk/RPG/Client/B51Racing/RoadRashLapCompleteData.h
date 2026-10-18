@@ -4,7 +4,7 @@
 
 namespace RPG::Client::B51Racing
 {
-	inline static constexpr unsigned int RoadRashLapCompleteData_TypeDefinitionIndex = 80345;
+	inline static constexpr unsigned int RoadRashLapCompleteData_TypeDefinitionIndex = 81673;
 
 	struct alignas(4) RoadRashLapCompleteData
 	{

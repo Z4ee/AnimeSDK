@@ -7,25 +7,25 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ACTIVITYQUESTTIMELIMITROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CDA0680)
-#define RPG_GAMECORE_ACTIVITYQUESTTIMELIMITROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CDA0ED0)
+#define RPG_GAMECORE_ACTIVITYQUESTTIMELIMITROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D375480)
+#define RPG_GAMECORE_ACTIVITYQUESTTIMELIMITROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D375CD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityQuestTimeLimitRow_TypeDefinitionIndex = 12231;
+	inline static constexpr unsigned int ActivityQuestTimeLimitRow_TypeDefinitionIndex = 12312;
 
 	class ActivityQuestTimeLimitRow : public ::System::Object
 	{
 	public:
 		::System::String* FigurePath; // 0x10
 		::Il2CppArray<::System::UInt32>* QuestList; // 0x18
-		::System::UInt32 ActivityID; // 0x20
-		::System::UInt32 QuestTimeLimitGroupID; // 0x24
-		::RPG::GameCore::ActivityQuestUITYPE UIPanelType; // 0x28
-		::System::UInt32 ActivityModuleID; // 0x2C
-		::RPG::Client::TextID Desc; // 0x30
-		::RPG::Client::TextID Name; // 0x40
-		::RPG::Client::TextID EnName; // 0x50
+		::System::UInt32 QuestTimeLimitGroupID; // 0x20
+		::RPG::GameCore::ActivityQuestUITYPE UIPanelType; // 0x24
+		::RPG::Client::TextID EnName; // 0x28
+		::RPG::Client::TextID Name; // 0x38
+		::System::UInt32 ActivityModuleID; // 0x48
+		::System::UInt32 ActivityID; // 0x4C
+		::RPG::Client::TextID Desc; // 0x50
 
 		::System::Void _ctor()
 		{

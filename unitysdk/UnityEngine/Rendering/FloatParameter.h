@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Rendering/VolumeParameter_1.h"
 
-#define UNITYENGINE_RENDERING_FLOATPARAMETER_INTERP_OFFSET UNITYSDK_OFFSET(0x1EBFA370)
-#define UNITYENGINE_RENDERING_FLOATPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EBE2D10)
+#define UNITYENGINE_RENDERING_FLOATPARAMETER_INTERP_OFFSET UNITYSDK_OFFSET(0x1F2C1CC0)
+#define UNITYENGINE_RENDERING_FLOATPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F2AAA50)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int FloatParameter_TypeDefinitionIndex = 34964;
+	inline static constexpr unsigned int FloatParameter_TypeDefinitionIndex = 35633;
 
 	class FloatParameter : public ::UnityEngine::Rendering::VolumeParameter_1<::System::Single>
 	{

@@ -5,19 +5,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_BATTLECOLLEGESTAGEINTROROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CE6CAA0)
-#define RPG_GAMECORE_BATTLECOLLEGESTAGEINTROROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE6CC60)
+#define RPG_GAMECORE_BATTLECOLLEGESTAGEINTROROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D4545E0)
+#define RPG_GAMECORE_BATTLECOLLEGESTAGEINTROROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D4547A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleCollegeStageIntroRow_TypeDefinitionIndex = 12744;
+	inline static constexpr unsigned int BattleCollegeStageIntroRow_TypeDefinitionIndex = 12838;
 
 	class BattleCollegeStageIntroRow : public ::System::Object
 	{
 	public:
 		::RPG::Client::TextID Introduction; // 0x10
-		::System::UInt32 StageIntroDescID; // 0x20
-		::System::UInt32 Index; // 0x24
+		::System::UInt32 Index; // 0x20
+		::System::UInt32 StageIntroDescID; // 0x24
 
 		::System::Void _ctor()
 		{

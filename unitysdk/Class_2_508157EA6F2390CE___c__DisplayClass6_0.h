@@ -8,10 +8,10 @@ namespace BansheeGz::BGSpline::Curve { class BGCurvePoint; }
 namespace RPG::GameCore { class LevelCurveInfo; }
 namespace RPG::GameCore { class LevelCurvePointInfo; }
 
-#define CLASS_2_508157EA6F2390CE___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15808A10)
-#define CLASS_2_508157EA6F2390CE___C__DISPLAYCLASS6_0___CREATEARRIVECURVE_B__0_OFFSET UNITYSDK_OFFSET(0x15808A20)
+#define CLASS_2_508157EA6F2390CE___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15AFFC40)
+#define CLASS_2_508157EA6F2390CE___C__DISPLAYCLASS6_0___CREATEARRIVECURVE_B__0_OFFSET UNITYSDK_OFFSET(0x15AFFC50)
 
-inline static constexpr unsigned int Class_2_508157EA6F2390CE___c__DisplayClass6_0_TypeDefinitionIndex = 53691;
+inline static constexpr unsigned int Class_2_508157EA6F2390CE___c__DisplayClass6_0_TypeDefinitionIndex = 53434;
 
 class Class_2_508157EA6F2390CE___c__DisplayClass6_0 : public ::System::Object
 {

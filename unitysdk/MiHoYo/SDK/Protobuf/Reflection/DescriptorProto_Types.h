@@ -4,7 +4,7 @@
 
 namespace MiHoYo::SDK::Protobuf::Reflection
 {
-	inline static constexpr unsigned int DescriptorProto_Types_TypeDefinitionIndex = 35094;
+	inline static constexpr unsigned int DescriptorProto_Types_TypeDefinitionIndex = 35763;
 
 	class DescriptorProto_Types : public ::System::Object
 	{

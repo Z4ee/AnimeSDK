@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Timeline/TrackAsset.h"
 
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_RESETPOSTPROCESSTIMELINETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xE8D4450)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_RESETPOSTPROCESSTIMELINETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xE929CF0)
 
 namespace RPGTools::Timeline::PostProcessing
 {
-	inline static constexpr unsigned int ResetPostProcessTimelineTrack_TypeDefinitionIndex = 49064;
+	inline static constexpr unsigned int ResetPostProcessTimelineTrack_TypeDefinitionIndex = 48610;
 
 	class ResetPostProcessTimelineTrack : public ::UnityEngine::Timeline::TrackAsset
 	{

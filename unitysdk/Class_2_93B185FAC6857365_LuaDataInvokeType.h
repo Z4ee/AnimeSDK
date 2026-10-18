@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Class_2_93B185FAC6857365_LuaDataInvokeType_TypeDefinitionIndex = 65849;
+inline static constexpr unsigned int Class_2_93B185FAC6857365_LuaDataInvokeType_TypeDefinitionIndex = 65787;
 
 enum class Class_2_93B185FAC6857365_LuaDataInvokeType : ::System::Int32
 {

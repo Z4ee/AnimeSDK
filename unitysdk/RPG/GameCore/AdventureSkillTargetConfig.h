@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ADVENTURESKILLTARGETCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CDF76C0)
-#define RPG_GAMECORE_ADVENTURESKILLTARGETCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CDF7820)
+#define RPG_GAMECORE_ADVENTURESKILLTARGETCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3CD890)
+#define RPG_GAMECORE_ADVENTURESKILLTARGETCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3CD9F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureSkillTargetConfig_TypeDefinitionIndex = 17310;
+	inline static constexpr unsigned int AdventureSkillTargetConfig_TypeDefinitionIndex = 17506;
 
 	class AdventureSkillTargetConfig : public ::RPG::GameCore::JsonConfig
 	{

@@ -9,7 +9,7 @@ namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int Concat_1__Concat__RunSecondAfterDisposeAsync_d__16_TypeDefinitionIndex = 44181;
+	inline static constexpr unsigned int Concat_1__Concat__RunSecondAfterDisposeAsync_d__16_TypeDefinitionIndex = 45320;
 
 	template <typename TSource>
 	struct Concat_1__Concat__RunSecondAfterDisposeAsync_d__16

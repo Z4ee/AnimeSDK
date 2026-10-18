@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_43BD383C98B4C0C5_213.h"
+#include "unitysdk/Class_1_43BD383C98B4C0C5_215.h"
 #include "unitysdk/RPG/GameCore/ChimeraDuelTeamType.h"
 
 class Class_1_F9FBCC956DFCF137_27;
 class Class_1_FD611945730E269E;
 namespace RPG::GameCore { class ChimeraDuelNpcDitherInNode; }
 
-#define CLASS_2_245E3A8D8EB59FF3_METHOD_2_9AE379058E90AA45_OFFSET UNITYSDK_OFFSET(0xC48D5A0)
-#define CLASS_2_245E3A8D8EB59FF3__CTOR_OFFSET UNITYSDK_OFFSET(0xC48D680)
+#define CLASS_2_245E3A8D8EB59FF3_METHOD_2_9AE379058E90AA45_OFFSET UNITYSDK_OFFSET(0xC395120)
+#define CLASS_2_245E3A8D8EB59FF3__CTOR_OFFSET UNITYSDK_OFFSET(0xC395200)
 
-inline static constexpr unsigned int Class_2_245E3A8D8EB59FF3_TypeDefinitionIndex = 77217;
+inline static constexpr unsigned int Class_2_245E3A8D8EB59FF3_TypeDefinitionIndex = 77688;
 
-class Class_2_245E3A8D8EB59FF3 : public ::Class_1_43BD383C98B4C0C5_213
+class Class_2_245E3A8D8EB59FF3 : public ::Class_1_43BD383C98B4C0C5_215
 {
 public:
 	::RPG::GameCore::ChimeraDuelNpcDitherInNode* EABKOHGCHFP; // 0x10

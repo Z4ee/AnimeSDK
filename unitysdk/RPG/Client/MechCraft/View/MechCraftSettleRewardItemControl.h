@@ -1,0 +1,43 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/MonoBehaviour.h"
+
+class Class_0_16E4307DCC419505_1508;
+namespace RPG::Client::MechCraft::View { class MechCraftSettleRewardItemControlBinder; }
+
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTSETTLEREWARDITEMCONTROL_GET_CONTENT_OFFSET UNITYSDK_OFFSET(0xD665340)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTSETTLEREWARDITEMCONTROL_METHOD_5_8183521ED0027DE8_OFFSET UNITYSDK_OFFSET(0xD665380)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTSETTLEREWARDITEMCONTROL_SET_CONTENT_OFFSET UNITYSDK_OFFSET(0xD662370)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTSETTLEREWARDITEMCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0xD6659D0)
+
+namespace RPG::Client::MechCraft::View
+{
+	inline static constexpr unsigned int MechCraftSettleRewardItemControl_TypeDefinitionIndex = 80031;
+
+	class MechCraftSettleRewardItemControl : public ::UnityEngine::MonoBehaviour
+	{
+	public:
+		::Class_0_16E4307DCC419505_1508* LFGMLJCCPCH; // 0x18
+		::RPG::Client::MechCraft::View::MechCraftSettleRewardItemControlBinder* _Binder; // 0x20
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTSETTLEREWARDITEMCONTROL__CTOR_OFFSET))(this);
+		}
+
+		::Class_0_16E4307DCC419505_1508* get_Content()
+		{
+			return ((::Class_0_16E4307DCC419505_1508*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTSETTLEREWARDITEMCONTROL_GET_CONTENT_OFFSET))(this);
+		}
+
+		::System::Void set_Content(::Class_0_16E4307DCC419505_1508* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_1508*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTSETTLEREWARDITEMCONTROL_SET_CONTENT_OFFSET))(this, a1);
+		}
+
+		::System::Void Method_5_8183521ED0027DE8(::Class_0_16E4307DCC419505_1508* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_1508*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTSETTLEREWARDITEMCONTROL_METHOD_5_8183521ED0027DE8_OFFSET))(this, a1);
+		}
+	};
+}

@@ -9,7 +9,7 @@ namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int ZipAwaitWithCancellation_3__ZipAwaitWithCancellation__DisposeAsync_d__21_TypeDefinitionIndex = 44608;
+	inline static constexpr unsigned int ZipAwaitWithCancellation_3__ZipAwaitWithCancellation__DisposeAsync_d__21_TypeDefinitionIndex = 45747;
 
 	template <typename TFirst, typename TSecond, typename TResult>
 	struct ZipAwaitWithCancellation_3__ZipAwaitWithCancellation__DisposeAsync_d__21

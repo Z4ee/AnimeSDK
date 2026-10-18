@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ActionBarUIConfig; }
 
-#define RPG_GAMECORE_TURNINSERTACTIONUICONFIG_METHOD_2_4A5664FDA4CBB716_OFFSET UNITYSDK_OFFSET(0x1D611490)
-#define RPG_GAMECORE_TURNINSERTACTIONUICONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6115B0)
+#define RPG_GAMECORE_TURNINSERTACTIONUICONFIG_METHOD_2_4A5664FDA4CBB716_OFFSET UNITYSDK_OFFSET(0x1DC656F0)
+#define RPG_GAMECORE_TURNINSERTACTIONUICONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1DC65810)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TurnInsertActionUIConfig_TypeDefinitionIndex = 22406;
+	inline static constexpr unsigned int TurnInsertActionUIConfig_TypeDefinitionIndex = 22659;
 
 	class TurnInsertActionUIConfig : public ::RPG::GameCore::JsonConfig
 	{

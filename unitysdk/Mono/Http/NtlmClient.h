@@ -10,11 +10,11 @@ namespace System::Net { class ICredentials; }
 namespace System::Net { class WebRequest; }
 namespace System::Runtime::CompilerServices { template <typename T1, typename T2> class ConditionalWeakTable_2; }
 
-#define MONO_HTTP_NTLMCLIENT_AUTHENTICATE_OFFSET UNITYSDK_OFFSET(0x1E8F1370)
-#define MONO_HTTP_NTLMCLIENT_GET_AUTHENTICATIONTYPE_OFFSET UNITYSDK_OFFSET(0x1E8F1C70)
-#define MONO_HTTP_NTLMCLIENT_PREAUTHENTICATE_OFFSET UNITYSDK_OFFSET(0x1E8F1C60)
-#define MONO_HTTP_NTLMCLIENT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E8F1C90)
-#define MONO_HTTP_NTLMCLIENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1E8F1C80)
+#define MONO_HTTP_NTLMCLIENT_AUTHENTICATE_OFFSET UNITYSDK_OFFSET(0x1EFBA3F0)
+#define MONO_HTTP_NTLMCLIENT_GET_AUTHENTICATIONTYPE_OFFSET UNITYSDK_OFFSET(0x1EFBACF0)
+#define MONO_HTTP_NTLMCLIENT_PREAUTHENTICATE_OFFSET UNITYSDK_OFFSET(0x1EFBACE0)
+#define MONO_HTTP_NTLMCLIENT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EFBAD10)
+#define MONO_HTTP_NTLMCLIENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1EFBAD00)
 
 namespace Mono::Http
 {
@@ -25,7 +25,7 @@ namespace Mono::Http
 	public:
 		static ::System::Runtime::CompilerServices::ConditionalWeakTable_2<::System::Net::HttpWebRequest*, ::Mono::Http::NtlmSession*>** StaticGet_cache()
 		{
-			return (::System::Runtime::CompilerServices::ConditionalWeakTable_2<::System::Net::HttpWebRequest*, ::Mono::Http::NtlmSession*>**)Il2CppClass::FromTypeDefinitionIndex(NtlmClient_TypeDefinitionIndex)->GetStaticField(0x2D590);
+			return (::System::Runtime::CompilerServices::ConditionalWeakTable_2<::System::Net::HttpWebRequest*, ::Mono::Http::NtlmSession*>**)Il2CppClass::FromTypeDefinitionIndex(NtlmClient_TypeDefinitionIndex)->GetStaticField(0x36900);
 		}
 
 		::System::Void _ctor()

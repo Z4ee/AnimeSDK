@@ -7,19 +7,19 @@ namespace RPG::Client { class MonoEffect; }
 namespace RPG::Client::Prop { class WormCompassPuzzleBoard; }
 namespace System { class Action; }
 
-#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD___C__DISPLAYCLASS51_0__CTOR_OFFSET UNITYSDK_OFFSET(0xDD5DEC0)
-#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD___C__DISPLAYCLASS51_0___STARTPUZZLE_B__0_OFFSET UNITYSDK_OFFSET(0xDD64A20)
-#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD___C__DISPLAYCLASS51_0___STARTPUZZLE_B__1_OFFSET UNITYSDK_OFFSET(0xDD655E0)
+#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD___C__DISPLAYCLASS51_0__CTOR_OFFSET UNITYSDK_OFFSET(0xDDE6850)
+#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD___C__DISPLAYCLASS51_0___STARTPUZZLE_B__0_OFFSET UNITYSDK_OFFSET(0xDDED280)
+#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD___C__DISPLAYCLASS51_0___STARTPUZZLE_B__1_OFFSET UNITYSDK_OFFSET(0xDDEDC20)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int WormCompassPuzzleBoard___c__DisplayClass51_0_TypeDefinitionIndex = 78457;
+	inline static constexpr unsigned int WormCompassPuzzleBoard___c__DisplayClass51_0_TypeDefinitionIndex = 78928;
 
 	class WormCompassPuzzleBoard___c__DisplayClass51_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::Prop::WormCompassPuzzleBoard* __4__this; // 0x10
-		::System::Action* __9__1; // 0x18
+		::System::Action* __9__1; // 0x10
+		::RPG::Client::Prop::WormCompassPuzzleBoard* __4__this; // 0x18
 		::System::Boolean delayRefreshHighlight; // 0x20
 
 		::System::Void _ctor()

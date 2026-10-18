@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_01618AD0437C8486_2.h"
+#include "unitysdk/Enum_3_0F1B992870941C13_1.h"
 #include "unitysdk/RPG/Client/DiceCombat/DiceCombatPVPMode.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/ValueTuple_2.h"
@@ -10,13 +10,13 @@ namespace RPG::Client::DiceCombat { class DiceCombatPVPManager; }
 namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
 namespace System { template <typename T> class Func_1; }
 
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATPVPMANAGER___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCD2BED0)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATPVPMANAGER___C__DISPLAYCLASS8_0__ENTERPVPLOBBY_B__0_OFFSET UNITYSDK_OFFSET(0xCD2E7F0)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATPVPMANAGER___C__DISPLAYCLASS8_0__ENTERPVPLOBBY_B__1_OFFSET UNITYSDK_OFFSET(0xCD2E920)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATPVPMANAGER___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCC2BC00)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATPVPMANAGER___C__DISPLAYCLASS8_0__ENTERPVPLOBBY_B__0_OFFSET UNITYSDK_OFFSET(0xCC2E440)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATPVPMANAGER___C__DISPLAYCLASS8_0__ENTERPVPLOBBY_B__1_OFFSET UNITYSDK_OFFSET(0xCC2E570)
 
 namespace RPG::Client::DiceCombat
 {
-	inline static constexpr unsigned int DiceCombatPVPManager___c__DisplayClass8_0_TypeDefinitionIndex = 75664;
+	inline static constexpr unsigned int DiceCombatPVPManager___c__DisplayClass8_0_TypeDefinitionIndex = 76141;
 
 	class DiceCombatPVPManager___c__DisplayClass8_0 : public ::System::Object
 	{
@@ -30,9 +30,9 @@ namespace RPG::Client::DiceCombat
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATPVPMANAGER___C__DISPLAYCLASS8_0__CTOR_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::IPromise_1<::RPG::Client::BaseLobby*>* _EnterPVPLobby_b__0(::System::ValueTuple_2<::System::Boolean, ::Enum_3_01618AD0437C8486_2> a1)
+		::RPG::Client::Promises::IPromise_1<::RPG::Client::BaseLobby*>* _EnterPVPLobby_b__0(::System::ValueTuple_2<::System::Boolean, ::Enum_3_0F1B992870941C13_1> a1)
 		{
-			return ((::RPG::Client::Promises::IPromise_1<::RPG::Client::BaseLobby*>*(*)(::PVOID, ::System::ValueTuple_2<::System::Boolean, ::Enum_3_01618AD0437C8486_2>))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATPVPMANAGER___C__DISPLAYCLASS8_0__ENTERPVPLOBBY_B__0_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::IPromise_1<::RPG::Client::BaseLobby*>*(*)(::PVOID, ::System::ValueTuple_2<::System::Boolean, ::Enum_3_0F1B992870941C13_1>))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATPVPMANAGER___C__DISPLAYCLASS8_0__ENTERPVPLOBBY_B__0_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::Promises::IPromise_1<::RPG::Client::BaseLobby*>* _EnterPVPLobby_b__1()

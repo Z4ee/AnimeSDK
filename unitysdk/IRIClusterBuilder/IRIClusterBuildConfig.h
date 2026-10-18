@@ -3,11 +3,11 @@
 #include "unitysdk/IRIClusterBuilder/VertexAttributeEncodeMode.h"
 #include "unitysdk/UnityEngine/ScriptableObject.h"
 
-#define IRICLUSTERBUILDER_IRICLUSTERBUILDCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x161B4030)
+#define IRICLUSTERBUILDER_IRICLUSTERBUILDCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1652C380)
 
 namespace IRIClusterBuilder
 {
-	inline static constexpr unsigned int IRIClusterBuildConfig_TypeDefinitionIndex = 48201;
+	inline static constexpr unsigned int IRIClusterBuildConfig_TypeDefinitionIndex = 47742;
 
 	class IRIClusterBuildConfig : public ::UnityEngine::ScriptableObject
 	{

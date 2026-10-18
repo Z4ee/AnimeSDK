@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_STEAMLOGINEXTENSION__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA38D10)
+#define MIHOYO_SDK_PC_OS_STEAMLOGINEXTENSION__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF42790)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int SteamLoginExtension_TypeDefinitionIndex = 8641;
+	inline static constexpr unsigned int SteamLoginExtension_TypeDefinitionIndex = 8702;
 
 	class SteamLoginExtension : public ::System::Object
 	{

@@ -5,13 +5,13 @@
 namespace UnityEngine { class Event; }
 namespace UnityEngine::UIElements { class IPanel; }
 
-#define UNITYENGINE_UIELEMENTS_DRAGUPDATEDEVENT_GETPOOLED_OFFSET UNITYSDK_OFFSET(0x1EDE6430)
-#define UNITYENGINE_UIELEMENTS_DRAGUPDATEDEVENT_POSTDISPATCH_OFFSET UNITYSDK_OFFSET(0x1EDE6650)
-#define UNITYENGINE_UIELEMENTS_DRAGUPDATEDEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1EDE6810)
+#define UNITYENGINE_UIELEMENTS_DRAGUPDATEDEVENT_GETPOOLED_OFFSET UNITYSDK_OFFSET(0x1F4AF650)
+#define UNITYENGINE_UIELEMENTS_DRAGUPDATEDEVENT_POSTDISPATCH_OFFSET UNITYSDK_OFFSET(0x1F4AF870)
+#define UNITYENGINE_UIELEMENTS_DRAGUPDATEDEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1F4AFA30)
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int DragUpdatedEvent_TypeDefinitionIndex = 5918;
+	inline static constexpr unsigned int DragUpdatedEvent_TypeDefinitionIndex = 5926;
 
 	class DragUpdatedEvent : public ::UnityEngine::UIElements::DragAndDropEventBase_1<::UnityEngine::UIElements::DragUpdatedEvent*>
 	{

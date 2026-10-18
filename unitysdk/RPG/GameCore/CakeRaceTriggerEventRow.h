@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_CAKERACETRIGGEREVENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CF79DF0)
-#define RPG_GAMECORE_CAKERACETRIGGEREVENTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF79FB0)
+#define RPG_GAMECORE_CAKERACETRIGGEREVENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D553920)
+#define RPG_GAMECORE_CAKERACETRIGGEREVENTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D553AE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CakeRaceTriggerEventRow_TypeDefinitionIndex = 11001;
+	inline static constexpr unsigned int CakeRaceTriggerEventRow_TypeDefinitionIndex = 11017;
 
 	class CakeRaceTriggerEventRow : public ::System::Object
 	{

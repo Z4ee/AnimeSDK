@@ -11,22 +11,22 @@ namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class ValueEvaluatorConfig; }
 namespace System { class String; }
 
-#define CLASS_3_CBA1E7FD4C82B228_METHOD_3_797574F762C9D389_OFFSET UNITYSDK_OFFSET(0x1CB3E040)
-#define CLASS_3_CBA1E7FD4C82B228_METHOD_3_A18832F1E35D7A11_OFFSET UNITYSDK_OFFSET(0x1CB3DF90)
-#define CLASS_3_CBA1E7FD4C82B228__CTOR_OFFSET UNITYSDK_OFFSET(0x1CB3E000)
+#define CLASS_3_CBA1E7FD4C82B228_METHOD_3_797574F762C9D389_OFFSET UNITYSDK_OFFSET(0x1D0FD2C0)
+#define CLASS_3_CBA1E7FD4C82B228_METHOD_3_A18832F1E35D7A11_OFFSET UNITYSDK_OFFSET(0x1D0FD210)
+#define CLASS_3_CBA1E7FD4C82B228__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0FD280)
 
-inline static constexpr unsigned int Class_3_CBA1E7FD4C82B228_TypeDefinitionIndex = 23946;
+inline static constexpr unsigned int Class_3_CBA1E7FD4C82B228_TypeDefinitionIndex = 24221;
 
 class Class_3_CBA1E7FD4C82B228 : public ::RPG::GameCore::TaskConfig
 {
 public:
-	::Il2CppArray<::RPG::GameCore::JsonEnum*>* KGIDDABCHON; // 0x18
-	::Il2CppArray<::System::String*>* COIKNMHIEPK; // 0x20
+	::Il2CppArray<::RPG::GameCore::SkillType>* OOOPJAECBIN; // 0x18
+	::RPG::GameCore::ValueEvaluatorConfig* MNDFOPKBHKP; // 0x20
 	::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x28
-	::RPG::GameCore::ValueEvaluatorConfig* MNDFOPKBHKP; // 0x30
-	::Il2CppArray<::RPG::GameCore::SkillType>* OOOPJAECBIN; // 0x38
-	::RPG::GameCore::PropertyModifyFunction KFAPHPGFEMK; // 0x40
-	::RPG::GameCore::RtSkillPropertyType ACHILGIPGKL; // 0x44
+	::Il2CppArray<::RPG::GameCore::JsonEnum*>* KGIDDABCHON; // 0x30
+	::Il2CppArray<::System::String*>* COIKNMHIEPK; // 0x38
+	::RPG::GameCore::RtSkillPropertyType ACHILGIPGKL; // 0x40
+	::RPG::GameCore::PropertyModifyFunction KFAPHPGFEMK; // 0x44
 
 	::System::Void _ctor()
 	{

@@ -9,27 +9,27 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ItemConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ROGUETOURNTITANTALENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D48ECF0)
-#define RPG_GAMECORE_ROGUETOURNTITANTALENTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D48F170)
+#define RPG_GAMECORE_ROGUETOURNTITANTALENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DA419A0)
+#define RPG_GAMECORE_ROGUETOURNTITANTALENTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1DA41E20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueTournTitanTalentRow_TypeDefinitionIndex = 14909;
+	inline static constexpr unsigned int RogueTournTitanTalentRow_TypeDefinitionIndex = 15074;
 
 	class RogueTournTitanTalentRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::RPG::GameCore::ItemConfig*>* Cost; // 0x10
-		::System::String* TalentIconPath; // 0x18
+		::System::String* ActJson; // 0x10
+		::Il2CppArray<::RPG::GameCore::ItemConfig*>* Cost; // 0x18
 		::Il2CppArray<::RPG::GameCore::FixPoint>* DescParamList; // 0x20
-		::System::String* ActJson; // 0x28
-		::RPG::Client::TextID ActTitle; // 0x30
-		::RPG::Client::TextID TalentDesc; // 0x40
+		::System::String* TalentIconPath; // 0x28
+		::RPG::Client::TextID TalentTitle; // 0x30
+		::RPG::Client::TextID ActTitle; // 0x40
 		::System::UInt32 Level; // 0x50
-		::RPG::GameCore::RogueTitanType TitanType; // 0x54
-		::RPG::Client::TextID TalentTitle; // 0x58
+		::System::UInt32 ID; // 0x54
+		::RPG::Client::TextID TalentDesc; // 0x58
 		::System::UInt32 PreID; // 0x68
-		::System::UInt32 ID; // 0x6C
+		::RPG::GameCore::RogueTitanType TitanType; // 0x6C
 
 		::System::Void _ctor()
 		{

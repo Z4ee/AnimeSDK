@@ -6,10 +6,10 @@ class Class_1_D93F8AE271D8A728;
 class Class_2_21AD365C113DC484;
 namespace RPG::Client::LittleGameShare { class ST_CakeRaceByCanEnterLock; }
 
-#define CLASS_3_CE7C75A6F6EB606E_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1C0D3A80)
-#define CLASS_3_CE7C75A6F6EB606E__CTOR_OFFSET UNITYSDK_OFFSET(0x1C0D3A00)
+#define CLASS_3_CE7C75A6F6EB606E_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1C624790)
+#define CLASS_3_CE7C75A6F6EB606E__CTOR_OFFSET UNITYSDK_OFFSET(0x1C624710)
 
-inline static constexpr unsigned int Class_3_CE7C75A6F6EB606E_TypeDefinitionIndex = 36292;
+inline static constexpr unsigned int Class_3_CE7C75A6F6EB606E_TypeDefinitionIndex = 36979;
 
 class Class_3_CE7C75A6F6EB606E : public ::RPG::Client::LittleGameShare::STPredicateTask_1<::RPG::Client::LittleGameShare::ST_CakeRaceByCanEnterLock*>
 {

@@ -6,12 +6,12 @@
 
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_ACTIVITYFIRENOTIFYWITHINTARGBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xE80D5C0)
-#define RPGTOOLS_TIMELINE_ACTIVITYFIRENOTIFYWITHINTARGBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xE80D6F0)
+#define RPGTOOLS_TIMELINE_ACTIVITYFIRENOTIFYWITHINTARGBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xE8AAED0)
+#define RPGTOOLS_TIMELINE_ACTIVITYFIRENOTIFYWITHINTARGBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xE8AB000)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int ActivityFireNotifyWithIntArgBehaviour_TypeDefinitionIndex = 48248;
+	inline static constexpr unsigned int ActivityFireNotifyWithIntArgBehaviour_TypeDefinitionIndex = 47789;
 
 	class ActivityFireNotifyWithIntArgBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{

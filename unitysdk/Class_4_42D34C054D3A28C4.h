@@ -1,0 +1,50 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Enum_3_ED790DAC948A65A9_1.h"
+#include "unitysdk/RPG/GameCore/PredicateConfig.h"
+
+class Class_1_7A22A3DBEEDD1F80;
+namespace RPG::GameCore { class DynamicFloat; }
+namespace SimpleJSON { class JSONNode; }
+
+#define CLASS_4_42D34C054D3A28C4_METHOD_4_657D584BE35E89A2_OFFSET UNITYSDK_OFFSET(0x1CEF8310)
+#define CLASS_4_42D34C054D3A28C4_METHOD_4_690EB21B07B220FD_OFFSET UNITYSDK_OFFSET(0x1CEF7FD0)
+#define CLASS_4_42D34C054D3A28C4_METHOD_4_998FE0E79A92DBE5_OFFSET UNITYSDK_OFFSET(0x1CEF82E0)
+#define CLASS_4_42D34C054D3A28C4_METHOD_4_F9001DC69711467A_OFFSET UNITYSDK_OFFSET(0x1CEF8010)
+#define CLASS_4_42D34C054D3A28C4__CTOR_OFFSET UNITYSDK_OFFSET(0x1CEF8000)
+
+inline static constexpr unsigned int Class_4_42D34C054D3A28C4_TypeDefinitionIndex = 19915;
+
+class Class_4_42D34C054D3A28C4 : public ::RPG::GameCore::PredicateConfig
+{
+public:
+	::Il2CppArray<::System::UInt32>* PLGIENFBKDB; // 0x20
+	::RPG::GameCore::DynamicFloat* FEHABNJEENK; // 0x28
+	::System::Boolean DKFAKDGFDGD; // 0x30
+	::Enum_3_ED790DAC948A65A9_1 ELINAHCICBC; // 0x34
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_4_42D34C054D3A28C4__CTOR_OFFSET))(this);
+	}
+
+	static ::System::Void Method_4_690EB21B07B220FD(::Class_1_7A22A3DBEEDD1F80* a1, ::Class_4_42D34C054D3A28C4*& a2)
+	{
+		return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::Class_4_42D34C054D3A28C4*&))((::PBYTE)hIl2Cpp + CLASS_4_42D34C054D3A28C4_METHOD_4_690EB21B07B220FD_OFFSET))(a1, a2);
+	}
+
+	static ::System::Void Method_4_F9001DC69711467A(::Class_1_7A22A3DBEEDD1F80* a1, ::Class_4_42D34C054D3A28C4* a2)
+	{
+		return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::Class_4_42D34C054D3A28C4*))((::PBYTE)hIl2Cpp + CLASS_4_42D34C054D3A28C4_METHOD_4_F9001DC69711467A_OFFSET))(a1, a2);
+	}
+
+	static ::System::Void Method_4_998FE0E79A92DBE5(::SimpleJSON::JSONNode* a1, ::Class_4_42D34C054D3A28C4*& a2)
+	{
+		return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::Class_4_42D34C054D3A28C4*&))((::PBYTE)hIl2Cpp + CLASS_4_42D34C054D3A28C4_METHOD_4_998FE0E79A92DBE5_OFFSET))(a1, a2);
+	}
+
+	static ::System::Void Method_4_657D584BE35E89A2(::SimpleJSON::JSONNode* a1, ::Class_4_42D34C054D3A28C4* a2)
+	{
+		return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::Class_4_42D34C054D3A28C4*))((::PBYTE)hIl2Cpp + CLASS_4_42D34C054D3A28C4_METHOD_4_657D584BE35E89A2_OFFSET))(a1, a2);
+	}
+};

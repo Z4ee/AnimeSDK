@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEMAZEVIEWMODEL_ENVIRONMENTHINTMESSAGE__CTOR_OFFSET UNITYSDK_OFFSET(0xC9FBA40)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEMAZEVIEWMODEL_ENVIRONMENTHINTMESSAGE__CTOR_OFFSET UNITYSDK_OFFSET(0xC94A100)
 
 namespace RPG::Client::Challenge::Tierce
 {
-	inline static constexpr unsigned int ChallengeTierceMazeViewModel_EnvironmentHintMessage_TypeDefinitionIndex = 80264;
+	inline static constexpr unsigned int ChallengeTierceMazeViewModel_EnvironmentHintMessage_TypeDefinitionIndex = 81592;
 
 	class ChallengeTierceMazeViewModel_EnvironmentHintMessage : public ::System::Object
 	{

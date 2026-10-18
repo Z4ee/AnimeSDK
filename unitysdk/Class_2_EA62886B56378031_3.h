@@ -1,0 +1,51 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_5772346ACD452D08.h"
+
+namespace RPG::Client { class IGamePhase; }
+namespace RPG::Client { class TeamData; }
+
+#define CLASS_2_EA62886B56378031_3_METHOD_2_30D1209326FA87FC_OFFSET UNITYSDK_OFFSET(0xB623A50)
+#define CLASS_2_EA62886B56378031_3_METHOD_2_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0xB623B50)
+#define CLASS_2_EA62886B56378031_3_METHOD_2_5D3D37F2BAE9FB65_OFFSET UNITYSDK_OFFSET(0xB623BF0)
+#define CLASS_2_EA62886B56378031_3_METHOD_2_E207C311BDEB9808_OFFSET UNITYSDK_OFFSET(0xB623900)
+#define CLASS_2_EA62886B56378031_3_METHOD_2_EBACC0EAF2A48AD8_OFFSET UNITYSDK_OFFSET(0xB623B90)
+#define CLASS_2_EA62886B56378031_3__CTOR_OFFSET UNITYSDK_OFFSET(0xB6238E0)
+
+inline static constexpr unsigned int Class_2_EA62886B56378031_3_TypeDefinitionIndex = 61185;
+
+class Class_2_EA62886B56378031_3 : public ::Class_1_5772346ACD452D08
+{
+public:
+	::RPG::Client::TeamData* BOLLAIOPGKH; // 0x20
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_EA62886B56378031_3__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Method_2_E207C311BDEB9808(::RPG::Client::IGamePhase* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::IGamePhase*))((::PBYTE)hIl2Cpp + CLASS_2_EA62886B56378031_3_METHOD_2_E207C311BDEB9808_OFFSET))(this, a1);
+	}
+
+	::System::Boolean Method_2_391A84BCD9F51317()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_EA62886B56378031_3_METHOD_2_391A84BCD9F51317_OFFSET))(this);
+	}
+
+	::RPG::Client::TeamData* Method_2_EBACC0EAF2A48AD8()
+	{
+		return ((::RPG::Client::TeamData*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_EA62886B56378031_3_METHOD_2_EBACC0EAF2A48AD8_OFFSET))(this);
+	}
+
+	::System::Void Method_2_5D3D37F2BAE9FB65()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_EA62886B56378031_3_METHOD_2_5D3D37F2BAE9FB65_OFFSET))(this);
+	}
+
+	::System::Void Method_2_30D1209326FA87FC()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_EA62886B56378031_3_METHOD_2_30D1209326FA87FC_OFFSET))(this);
+	}
+};

@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_LITTLEGAMEPRESETCATEGORYDATA_METHOD_2_55870CBE328911F8_OFFSET UNITYSDK_OFFSET(0x1D205060)
-#define RPG_GAMECORE_LITTLEGAMEPRESETCATEGORYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2051E0)
+#define RPG_GAMECORE_LITTLEGAMEPRESETCATEGORYDATA_METHOD_2_55870CBE328911F8_OFFSET UNITYSDK_OFFSET(0x1D7E5570)
+#define RPG_GAMECORE_LITTLEGAMEPRESETCATEGORYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7E56F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LittleGamePresetCategoryData_TypeDefinitionIndex = 18700;
+	inline static constexpr unsigned int LittleGamePresetCategoryData_TypeDefinitionIndex = 18923;
 
 	class LittleGamePresetCategoryData : public ::RPG::GameCore::JsonConfig
 	{

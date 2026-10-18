@@ -5,7 +5,7 @@
 namespace System::Collections { class Hashtable; }
 namespace System::Runtime::Serialization::Formatters::Binary { class SerStack; }
 
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_SEROBJECTINFOINIT__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE10050)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_SEROBJECTINFOINIT__CTOR_OFFSET UNITYSDK_OFFSET(0x1C31BBB0)
 
 namespace System::Runtime::Serialization::Formatters::Binary
 {

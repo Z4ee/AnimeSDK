@@ -8,12 +8,12 @@ namespace RPG::Client { class StageHarmonySignalAnimationBehavior; }
 namespace System { class String; }
 namespace UnityEngine { class Animation; }
 
-#define RPG_CLIENT_STAGEHARMONYSIGNALANIMATIONMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xE0D17A0)
-#define RPG_CLIENT_STAGEHARMONYSIGNALANIMATIONMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xE0D17F0)
+#define RPG_CLIENT_STAGEHARMONYSIGNALANIMATIONMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xE1124E0)
+#define RPG_CLIENT_STAGEHARMONYSIGNALANIMATIONMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xE112530)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int StageHarmonySignalAnimationMonoPlugin_TypeDefinitionIndex = 70949;
+	inline static constexpr unsigned int StageHarmonySignalAnimationMonoPlugin_TypeDefinitionIndex = 70981;
 
 	class StageHarmonySignalAnimationMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::StageHarmonySignalAnimationBehavior*>
 	{

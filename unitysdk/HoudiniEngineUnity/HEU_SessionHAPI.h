@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/HoudiniEngineUnity/HEU_SessionBase.h"
 
-#define HOUDINIENGINEUNITY_HEU_SESSIONHAPI__CTOR_OFFSET UNITYSDK_OFFSET(0x1B47BAD0)
+#define HOUDINIENGINEUNITY_HEU_SESSIONHAPI__CTOR_OFFSET UNITYSDK_OFFSET(0x1B97DBA0)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_SessionHAPI_TypeDefinitionIndex = 39289;
+	inline static constexpr unsigned int HEU_SessionHAPI_TypeDefinitionIndex = 40586;
 
 	class HEU_SessionHAPI : public ::HoudiniEngineUnity::HEU_SessionBase
 	{

@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/Client/ParkourGame/EffectConfig.h"
 #include "unitysdk/RPG/Client/ParkourGame/ParkourSkillConfig.h"
 
-#define RPG_CLIENT_PARKOURGAME_PARKOURSKILLCONFIG_FIREWORKS__CTOR_OFFSET UNITYSDK_OFFSET(0xDA30B80)
+#define RPG_CLIENT_PARKOURGAME_PARKOURSKILLCONFIG_FIREWORKS__CTOR_OFFSET UNITYSDK_OFFSET(0xDA7CE30)
 
 namespace RPG::Client::ParkourGame
 {
-	inline static constexpr unsigned int ParkourSkillConfig_Fireworks_TypeDefinitionIndex = 74029;
+	inline static constexpr unsigned int ParkourSkillConfig_Fireworks_TypeDefinitionIndex = 74128;
 
 	class ParkourSkillConfig_Fireworks : public ::RPG::Client::ParkourGame::ParkourSkillConfig
 	{

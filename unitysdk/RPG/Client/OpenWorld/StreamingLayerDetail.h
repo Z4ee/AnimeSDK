@@ -6,11 +6,11 @@
 namespace RPG::Client::OpenWorld { class StreamingLodSetting; }
 namespace System { class String; }
 
-#define RPG_CLIENT_OPENWORLD_STREAMINGLAYERDETAIL__CTOR_OFFSET UNITYSDK_OFFSET(0xDA026E0)
+#define RPG_CLIENT_OPENWORLD_STREAMINGLAYERDETAIL__CTOR_OFFSET UNITYSDK_OFFSET(0xDA0C9D0)
 
 namespace RPG::Client::OpenWorld
 {
-	inline static constexpr unsigned int StreamingLayerDetail_TypeDefinitionIndex = 73655;
+	inline static constexpr unsigned int StreamingLayerDetail_TypeDefinitionIndex = 73762;
 
 	class StreamingLayerDetail : public ::System::Object
 	{

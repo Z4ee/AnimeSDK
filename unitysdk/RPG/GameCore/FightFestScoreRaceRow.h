@@ -7,34 +7,34 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIGHTFESTSCORERACEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D097920)
-#define RPG_GAMECORE_FIGHTFESTSCORERACEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D097F20)
+#define RPG_GAMECORE_FIGHTFESTSCORERACEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D6A58C0)
+#define RPG_GAMECORE_FIGHTFESTSCORERACEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6A5EB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FightFestScoreRaceRow_TypeDefinitionIndex = 13169;
+	inline static constexpr unsigned int FightFestScoreRaceRow_TypeDefinitionIndex = 13275;
 
 	class FightFestScoreRaceRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* EventIDList; // 0x10
-		::System::String* ResultImgPath; // 0x18
-		::System::String* RaceBgFigurePath; // 0x20
-		::System::String* TutorialImgPath; // 0x28
+		::System::String* RaceBgFigurePath; // 0x10
+		::Il2CppArray<::System::UInt32>* EventIDList; // 0x18
+		::System::String* TutorialImgPath; // 0x20
+		::System::String* ResultImgPath; // 0x28
 		::System::String* DetailImgPath; // 0x30
-		::System::UInt32 SortWeight; // 0x38
-		::System::UInt32 ScoreRaceID; // 0x3C
-		::RPG::GameCore::ScoreRaceType ScoreRaceType; // 0x40
-		::System::UInt32 BlueAvatarID; // 0x44
+		::RPG::Client::TextID StageName; // 0x38
 		::System::UInt32 RewardScore; // 0x48
-		::System::UInt32 TutorialID; // 0x4C
-		::System::UInt32 EventID; // 0x50
-		::RPG::Client::TextID RaceDesc; // 0x58
-		::RPG::Client::TextID StageName; // 0x68
-		::System::UInt32 RewardID; // 0x78
-		::System::UInt32 TakeMainMissionID; // 0x7C
-		::System::UInt32 PhaseID; // 0x80
-		::System::UInt32 RedAvatarID; // 0x84
+		::System::UInt32 RewardID; // 0x4C
+		::System::UInt32 TakeMainMissionID; // 0x50
+		::System::UInt32 TutorialID; // 0x54
+		::System::UInt32 RedAvatarID; // 0x58
+		::System::UInt32 SortWeight; // 0x5C
+		::RPG::Client::TextID RaceDesc; // 0x60
+		::System::UInt32 EventID; // 0x70
+		::RPG::GameCore::ScoreRaceType ScoreRaceType; // 0x74
+		::System::UInt32 BlueAvatarID; // 0x78
+		::System::UInt32 PhaseID; // 0x7C
+		::System::UInt32 ScoreRaceID; // 0x80
 
 		::System::Void _ctor()
 		{

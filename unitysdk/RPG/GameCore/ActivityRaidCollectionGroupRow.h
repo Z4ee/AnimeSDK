@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ACTIVITYRAIDCOLLECTIONGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CDA18E0)
-#define RPG_GAMECORE_ACTIVITYRAIDCOLLECTIONGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CDA25B0)
+#define RPG_GAMECORE_ACTIVITYRAIDCOLLECTIONGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3766E0)
+#define RPG_GAMECORE_ACTIVITYRAIDCOLLECTIONGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3773E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityRaidCollectionGroupRow_TypeDefinitionIndex = 12241;
+	inline static constexpr unsigned int ActivityRaidCollectionGroupRow_TypeDefinitionIndex = 12322;
 
 	class ActivityRaidCollectionGroupRow : public ::System::Object
 	{

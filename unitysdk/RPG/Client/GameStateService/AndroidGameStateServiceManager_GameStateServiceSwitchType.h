@@ -3,7 +3,7 @@
 
 namespace RPG::Client::GameStateService
 {
-	inline static constexpr unsigned int AndroidGameStateServiceManager_GameStateServiceSwitchType_TypeDefinitionIndex = 75328;
+	inline static constexpr unsigned int AndroidGameStateServiceManager_GameStateServiceSwitchType_TypeDefinitionIndex = 75627;
 
 	enum class AndroidGameStateServiceManager_GameStateServiceSwitchType : ::System::Int32
 	{

@@ -4,19 +4,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_TRAINPARTYMTCATEGORYSCOREROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D5DF4C0)
-#define RPG_GAMECORE_TRAINPARTYMTCATEGORYSCOREROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5DF630)
+#define RPG_GAMECORE_TRAINPARTYMTCATEGORYSCOREROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DC32E90)
+#define RPG_GAMECORE_TRAINPARTYMTCATEGORYSCOREROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1DC33000)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrainPartyMtCategoryScoreRow_TypeDefinitionIndex = 15161;
+	inline static constexpr unsigned int TrainPartyMtCategoryScoreRow_TypeDefinitionIndex = 15332;
 
 	class TrainPartyMtCategoryScoreRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 CategoryID; // 0x10
-		::System::UInt32 Level; // 0x14
-		::System::UInt32 Ratio; // 0x18
+		::System::UInt32 Level; // 0x10
+		::System::UInt32 Ratio; // 0x14
+		::System::UInt32 CategoryID; // 0x18
 
 		::System::Void _ctor()
 		{

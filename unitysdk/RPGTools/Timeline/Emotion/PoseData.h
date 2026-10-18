@@ -7,11 +7,11 @@ namespace RPGTools::Timeline::Emotion { class EmoBakedPoseData; }
 namespace RPGTools::Timeline::Emotion { class EmoData; }
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_EMOTION_POSEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xE853450)
+#define RPGTOOLS_TIMELINE_EMOTION_POSEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xE8F1390)
 
 namespace RPGTools::Timeline::Emotion
 {
-	inline static constexpr unsigned int PoseData_TypeDefinitionIndex = 49195;
+	inline static constexpr unsigned int PoseData_TypeDefinitionIndex = 48741;
 
 	class PoseData : public ::System::Object
 	{

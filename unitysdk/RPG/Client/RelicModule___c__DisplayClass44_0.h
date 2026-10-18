@@ -4,12 +4,12 @@
 
 namespace RPG::AvatarSystem { class IAvatar; }
 
-#define RPG_CLIENT_RELICMODULE___C__DISPLAYCLASS44_0__CTOR_OFFSET UNITYSDK_OFFSET(0xDE2D000)
-#define RPG_CLIENT_RELICMODULE___C__DISPLAYCLASS44_0__OPENRELICSMARTSUITDIALOG_B__0_OFFSET UNITYSDK_OFFSET(0xDE2D410)
+#define RPG_CLIENT_RELICMODULE___C__DISPLAYCLASS44_0__CTOR_OFFSET UNITYSDK_OFFSET(0xDE7A960)
+#define RPG_CLIENT_RELICMODULE___C__DISPLAYCLASS44_0__OPENRELICSMARTSUITDIALOG_B__0_OFFSET UNITYSDK_OFFSET(0xDE7AD70)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RelicModule___c__DisplayClass44_0_TypeDefinitionIndex = 66879;
+	inline static constexpr unsigned int RelicModule___c__DisplayClass44_0_TypeDefinitionIndex = 66881;
 
 	class RelicModule___c__DisplayClass44_0 : public ::System::Object
 	{

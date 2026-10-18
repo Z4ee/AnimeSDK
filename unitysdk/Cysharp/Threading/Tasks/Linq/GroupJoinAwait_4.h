@@ -13,7 +13,7 @@ namespace System::Collections::Generic { template <typename T> class IEqualityCo
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int GroupJoinAwait_4_TypeDefinitionIndex = 44254;
+	inline static constexpr unsigned int GroupJoinAwait_4_TypeDefinitionIndex = 45393;
 
 	template <typename TOuter, typename TInner, typename TKey, typename TResult>
 	class GroupJoinAwait_4 : public ::System::Object

@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TSCRendererType_TypeDefinitionIndex = 70182;
+	inline static constexpr unsigned int TSCRendererType_TypeDefinitionIndex = 70218;
 
 	enum class TSCRendererType : ::System::Byte
 	{

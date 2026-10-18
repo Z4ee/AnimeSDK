@@ -6,13 +6,13 @@ namespace System { class Action; }
 namespace System { class Object; }
 namespace UnityEngine { class Animation; }
 
-#define RPG_CLIENT_GRIDFIGHTGROWUPEFFECT_ONCREATE_OFFSET UNITYSDK_OFFSET(0xD1F4740)
-#define RPG_CLIENT_GRIDFIGHTGROWUPEFFECT_PLAY_OFFSET UNITYSDK_OFFSET(0xD1F4930)
-#define RPG_CLIENT_GRIDFIGHTGROWUPEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0xD1F4A50)
+#define RPG_CLIENT_GRIDFIGHTGROWUPEFFECT_ONCREATE_OFFSET UNITYSDK_OFFSET(0xD1957C0)
+#define RPG_CLIENT_GRIDFIGHTGROWUPEFFECT_PLAY_OFFSET UNITYSDK_OFFSET(0xD1959B0)
+#define RPG_CLIENT_GRIDFIGHTGROWUPEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0xD195AD0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightGrowUpEffect_TypeDefinitionIndex = 64559;
+	inline static constexpr unsigned int GridFightGrowUpEffect_TypeDefinitionIndex = 64499;
 
 	class GridFightGrowUpEffect : public ::RPG::Client::GridFightMemberEffect
 	{

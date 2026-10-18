@@ -1,0 +1,54 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Sofa/BaseSofaWindow.h"
+
+class Class_1_98E68E4FC3F60295;
+namespace RPG::Client::MechCraft::View { class MechCraftExamDetailControl; }
+
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTEXAMDETAILWINDOW_GET__TYPEDDATACONTEXT_OFFSET UNITYSDK_OFFSET(0xD642140)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTEXAMDETAILWINDOW_SET__TYPEDDATACONTEXT_OFFSET UNITYSDK_OFFSET(0xD6421F0)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTEXAMDETAILWINDOW__CTOR_OFFSET UNITYSDK_OFFSET(0xD642200)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTEXAMDETAILWINDOW__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0xD642430)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTEXAMDETAILWINDOW__ONEXITFINALSTEP_OFFSET UNITYSDK_OFFSET(0xD6427F0)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTEXAMDETAILWINDOW__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0xD6422F0)
+
+namespace RPG::Client::MechCraft::View
+{
+	inline static constexpr unsigned int MechCraftExamDetailWindow_TypeDefinitionIndex = 79961;
+
+	class MechCraftExamDetailWindow : public ::Sofa::BaseSofaWindow
+	{
+	public:
+		::RPG::Client::MechCraft::View::MechCraftExamDetailControl* _Control; // 0x48
+
+		::System::Void _ctor(::Class_1_98E68E4FC3F60295* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_98E68E4FC3F60295*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTEXAMDETAILWINDOW__CTOR_OFFSET))(this, a1);
+		}
+
+		::Class_1_98E68E4FC3F60295* get__TypedDataContext()
+		{
+			return ((::Class_1_98E68E4FC3F60295*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTEXAMDETAILWINDOW_GET__TYPEDDATACONTEXT_OFFSET))(this);
+		}
+
+		::System::Void set__TypedDataContext(::Class_1_98E68E4FC3F60295* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_98E68E4FC3F60295*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTEXAMDETAILWINDOW_SET__TYPEDDATACONTEXT_OFFSET))(this, a1);
+		}
+
+		::System::Void _OnInitializeComponent()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTEXAMDETAILWINDOW__ONINITIALIZECOMPONENT_OFFSET))(this);
+		}
+
+		::System::Void _OnBindViewModel()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTEXAMDETAILWINDOW__ONBINDVIEWMODEL_OFFSET))(this);
+		}
+
+		::System::Void _OnExitFinalStep()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTEXAMDETAILWINDOW__ONEXITFINALSTEP_OFFSET))(this);
+		}
+	};
+}

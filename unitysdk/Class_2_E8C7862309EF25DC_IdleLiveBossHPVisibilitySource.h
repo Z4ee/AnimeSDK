@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Class_2_E8C7862309EF25DC_IdleLiveBossHPVisibilitySource_TypeDefinitionIndex = 71682;
+inline static constexpr unsigned int Class_2_E8C7862309EF25DC_IdleLiveBossHPVisibilitySource_TypeDefinitionIndex = 71735;
 
 enum class Class_2_E8C7862309EF25DC_IdleLiveBossHPVisibilitySource : ::System::Int32
 {

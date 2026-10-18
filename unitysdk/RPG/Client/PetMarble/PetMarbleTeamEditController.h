@@ -1,0 +1,237 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/PetMarble/PetMarbleTeamEditState.h"
+#include "unitysdk/Struct_2_1794A953C78D298B.h"
+#include "unitysdk/Struct_2_AEFC71A69A95B2E3.h"
+#include "unitysdk/System/Object.h"
+
+class Class_0_16E4307DCC419505_1356;
+namespace RPG::Client::ActivityMarble { class IMarbleManager; }
+namespace RPG::Client::Pet { class IPetAppearance; }
+namespace RPG::Client::PetMarble { class PetMarbleData; }
+namespace RPG::Client::PetMarble { class PetMarblePlayer; }
+namespace System { class Action; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define RPG_CLIENT_PETMARBLE_PETMARBLETEAMEDITCONTROLLER_ADD_ONALLYTEAMINFOCHANGED_OFFSET UNITYSDK_OFFSET(0xDAEAB20)
+#define RPG_CLIENT_PETMARBLE_PETMARBLETEAMEDITCONTROLLER_ADD_ONSELECTEDMARBLECHANGED_OFFSET UNITYSDK_OFFSET(0xDAEACA0)
+#define RPG_CLIENT_PETMARBLE_PETMARBLETEAMEDITCONTROLLER_ADD_ONSELFPLAYERINFOCHANGED_OFFSET UNITYSDK_OFFSET(0xDAEAA60)
+#define RPG_CLIENT_PETMARBLE_PETMARBLETEAMEDITCONTROLLER_ADD_ONTEAMEDITSTATECHANGED_OFFSET UNITYSDK_OFFSET(0xDAEABE0)
+#define RPG_CLIENT_PETMARBLE_PETMARBLETEAMEDITCONTROLLER_DISPOSE_OFFSET UNITYSDK_OFFSET(0xDAE8830)
+#define RPG_CLIENT_PETMARBLE_PETMARBLETEAMEDITCONTROLLER_DOSTART_OFFSET UNITYSDK_OFFSET(0xDAE9810)
+#define RPG_CLIENT_PETMARBLE_PETMARBLETEAMEDITCONTROLLER_EXIT_OFFSET UNITYSDK_OFFSET(0xDAE8C50)
+#define RPG_CLIENT_PETMARBLE_PETMARBLETEAMEDITCONTROLLER_GETAVAILABLEPETMARBLES_OFFSET UNITYSDK_OFFSET(0xDAE8BA0)
+#define RPG_CLIENT_PETMARBLE_PETMARBLETEAMEDITCONTROLLER_GETPETMARBLEAPPEARANCE_OFFSET UNITYSDK_OFFSET(0xDAE97B0)
+#define RPG_CLIENT_PETMARBLE_PETMARBLETEAMEDITCONTROLLER_GETPLAYERINDEXBYUID_OFFSET UNITYSDK_OFFSET(0xDAE9960)
+#define RPG_CLIENT_PETMARBLE_PETMARBLETEAMEDITCONTROLLER_GET_ALLYTEAMPLAYER_OFFSET UNITYSDK_OFFSET(0xDAEA590)
+#define RPG_CLIENT_PETMARBLE_PETMARBLETEAMEDITCONTROLLER_GET_BRIDGE_OFFSET UNITYSDK_OFFSET(0xDAEA610)
+#define RPG_CLIENT_PETMARBLE_PETMARBLETEAMEDITCONTROLLER_GET_COUNTDOWNSECONDS_OFFSET UNITYSDK_OFFSET(0xDAEA7A0)
+#define RPG_CLIENT_PETMARBLE_PETMARBLETEAMEDITCONTROLLER_GET_CURSELECTEDMARBLE_OFFSET UNITYSDK_OFFSET(0xDAEAA40)
+#define RPG_CLIENT_PETMARBLE_PETMARBLETEAMEDITCONTROLLER_GET_ENEMYTEAMPLAYER_OFFSET UNITYSDK_OFFSET(0xDAEA5D0)
+#define RPG_CLIENT_PETMARBLE_PETMARBLETEAMEDITCONTROLLER_GET_ISTEAMEDITTIMELIMITED_OFFSET UNITYSDK_OFFSET(0xDAEA8F0)
+#define RPG_CLIENT_PETMARBLE_PETMARBLETEAMEDITCONTROLLER_GET_SELFPLAYER_OFFSET UNITYSDK_OFFSET(0xDAEA550)
+#define RPG_CLIENT_PETMARBLE_PETMARBLETEAMEDITCONTROLLER_GET_STATE_OFFSET UNITYSDK_OFFSET(0xDAEA650)
+#define RPG_CLIENT_PETMARBLE_PETMARBLETEAMEDITCONTROLLER_ISMARBLEINTEAM_OFFSET UNITYSDK_OFFSET(0xDAE9460)
+#define RPG_CLIENT_PETMARBLE_PETMARBLETEAMEDITCONTROLLER_REMOVE_ONALLYTEAMINFOCHANGED_OFFSET UNITYSDK_OFFSET(0xDAEAB80)
+#define RPG_CLIENT_PETMARBLE_PETMARBLETEAMEDITCONTROLLER_REMOVE_ONSELECTEDMARBLECHANGED_OFFSET UNITYSDK_OFFSET(0xDAEAD00)
+#define RPG_CLIENT_PETMARBLE_PETMARBLETEAMEDITCONTROLLER_REMOVE_ONSELFPLAYERINFOCHANGED_OFFSET UNITYSDK_OFFSET(0xDAEAAC0)
+#define RPG_CLIENT_PETMARBLE_PETMARBLETEAMEDITCONTROLLER_REMOVE_ONTEAMEDITSTATECHANGED_OFFSET UNITYSDK_OFFSET(0xDAEAC40)
+#define RPG_CLIENT_PETMARBLE_PETMARBLETEAMEDITCONTROLLER_SETCURSELECTEDMARBLE_OFFSET UNITYSDK_OFFSET(0xDAE9730)
+#define RPG_CLIENT_PETMARBLE_PETMARBLETEAMEDITCONTROLLER_SETSELECTEDMARBLEAPPEARANCE_OFFSET UNITYSDK_OFFSET(0xDAE91B0)
+#define RPG_CLIENT_PETMARBLE_PETMARBLETEAMEDITCONTROLLER_SETSELFMARBLESELECTED_OFFSET UNITYSDK_OFFSET(0xDAE8F90)
+#define RPG_CLIENT_PETMARBLE_PETMARBLETEAMEDITCONTROLLER_SETSELFREADY_OFFSET UNITYSDK_OFFSET(0xDAE8E30)
+#define RPG_CLIENT_PETMARBLE_PETMARBLETEAMEDITCONTROLLER_SET_CURSELECTEDMARBLE_OFFSET UNITYSDK_OFFSET(0xDAEAA50)
+#define RPG_CLIENT_PETMARBLE_PETMARBLETEAMEDITCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0xDAE7AF0)
+#define RPG_CLIENT_PETMARBLE_PETMARBLETEAMEDITCONTROLLER__INITAVAILABLEPETMARBLES_OFFSET UNITYSDK_OFFSET(0xDAE7F40)
+#define RPG_CLIENT_PETMARBLE_PETMARBLETEAMEDITCONTROLLER__ONALLYTEAMCHANGED_OFFSET UNITYSDK_OFFSET(0xDAE9B60)
+#define RPG_CLIENT_PETMARBLE_PETMARBLETEAMEDITCONTROLLER__ONSELFTEAMCHANGED_OFFSET UNITYSDK_OFFSET(0xDAEA390)
+#define RPG_CLIENT_PETMARBLE_PETMARBLETEAMEDITCONTROLLER__ONTEAMEDITSTATECHANGED_OFFSET UNITYSDK_OFFSET(0xDAEA4F0)
+#define RPG_CLIENT_PETMARBLE_PETMARBLETEAMEDITCONTROLLER__RESOLVEMARBLEBYPETID_OFFSET UNITYSDK_OFFSET(0xDAE9AD0)
+
+namespace RPG::Client::PetMarble
+{
+	inline static constexpr unsigned int PetMarbleTeamEditController_TypeDefinitionIndex = 74734;
+
+	class PetMarbleTeamEditController : public ::System::Object
+	{
+	public:
+		::System::Collections::Generic::List_1<::RPG::Client::PetMarble::PetMarbleData*>* _AvailablePetMarbles; // 0x10
+		::System::Action* OnAllyTeamInfoChanged; // 0x18
+		::System::Action* OnSelfPlayerInfoChanged; // 0x20
+		::System::Action* OnTeamEditStateChanged; // 0x28
+		::RPG::Client::PetMarble::PetMarbleData* _CurSelectedMarble_k__BackingField; // 0x30
+		::Struct_2_1794A953C78D298B _Context; // 0x38
+		::System::Action* OnSelectedMarbleChanged; // 0x58
+		::RPG::Client::ActivityMarble::IMarbleManager* _MarbleManager; // 0x60
+
+		::System::Void _ctor(::Struct_2_1794A953C78D298B a1, ::RPG::Client::ActivityMarble::IMarbleManager* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::Struct_2_1794A953C78D298B, ::RPG::Client::ActivityMarble::IMarbleManager*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PETMARBLE_PETMARBLETEAMEDITCONTROLLER__CTOR_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PETMARBLE_PETMARBLETEAMEDITCONTROLLER_DISPOSE_OFFSET))(this);
+		}
+
+		::System::Collections::Generic::List_1<::RPG::Client::PetMarble::PetMarbleData*>* GetAvailablePetMarbles()
+		{
+			return ((::System::Collections::Generic::List_1<::RPG::Client::PetMarble::PetMarbleData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PETMARBLE_PETMARBLETEAMEDITCONTROLLER_GETAVAILABLEPETMARBLES_OFFSET))(this);
+		}
+
+		::System::Void Exit()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PETMARBLE_PETMARBLETEAMEDITCONTROLLER_EXIT_OFFSET))(this);
+		}
+
+		::System::Void SetSelfReady(::System::Boolean a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PETMARBLE_PETMARBLETEAMEDITCONTROLLER_SETSELFREADY_OFFSET))(this, a1);
+		}
+
+		::System::Void SetSelfMarbleSelected(::RPG::Client::PetMarble::PetMarbleData* a1, ::System::Boolean a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::PetMarble::PetMarbleData*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PETMARBLE_PETMARBLETEAMEDITCONTROLLER_SETSELFMARBLESELECTED_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void SetSelectedMarbleAppearance(::RPG::Client::PetMarble::PetMarbleData* a1, ::System::UInt32 a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::PetMarble::PetMarbleData*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PETMARBLE_PETMARBLETEAMEDITCONTROLLER_SETSELECTEDMARBLEAPPEARANCE_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void SetCurSelectedMarble(::RPG::Client::PetMarble::PetMarbleData* a1, ::System::Boolean a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::PetMarble::PetMarbleData*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PETMARBLE_PETMARBLETEAMEDITCONTROLLER_SETCURSELECTEDMARBLE_OFFSET))(this, a1, a2);
+		}
+
+		::RPG::Client::Pet::IPetAppearance* GetPetMarbleAppearance(::RPG::Client::PetMarble::PetMarbleData* a1)
+		{
+			return ((::RPG::Client::Pet::IPetAppearance*(*)(::PVOID, ::RPG::Client::PetMarble::PetMarbleData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PETMARBLE_PETMARBLETEAMEDITCONTROLLER_GETPETMARBLEAPPEARANCE_OFFSET))(this, a1);
+		}
+
+		::System::Void DoStart()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PETMARBLE_PETMARBLETEAMEDITCONTROLLER_DOSTART_OFFSET))(this);
+		}
+
+		::System::Boolean IsMarbleInTeam(::RPG::Client::PetMarble::PetMarbleData* a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::PetMarble::PetMarbleData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PETMARBLE_PETMARBLETEAMEDITCONTROLLER_ISMARBLEINTEAM_OFFSET))(this, a1);
+		}
+
+		::System::UInt32 GetPlayerIndexByUid(::System::UInt32 a1)
+		{
+			return ((::System::UInt32(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PETMARBLE_PETMARBLETEAMEDITCONTROLLER_GETPLAYERINDEXBYUID_OFFSET))(this, a1);
+		}
+
+		::System::Void _InitAvailablePetMarbles()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PETMARBLE_PETMARBLETEAMEDITCONTROLLER__INITAVAILABLEPETMARBLES_OFFSET))(this);
+		}
+
+		::RPG::Client::PetMarble::PetMarbleData* _ResolveMarbleByPetId(::System::UInt32 a1)
+		{
+			return ((::RPG::Client::PetMarble::PetMarbleData*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PETMARBLE_PETMARBLETEAMEDITCONTROLLER__RESOLVEMARBLEBYPETID_OFFSET))(this, a1);
+		}
+
+		::System::Void _OnAllyTeamChanged(::Struct_2_AEFC71A69A95B2E3 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Struct_2_AEFC71A69A95B2E3))((::PBYTE)hIl2Cpp + RPG_CLIENT_PETMARBLE_PETMARBLETEAMEDITCONTROLLER__ONALLYTEAMCHANGED_OFFSET))(this, a1);
+		}
+
+		::System::Void _OnSelfTeamChanged(::Struct_2_AEFC71A69A95B2E3 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Struct_2_AEFC71A69A95B2E3))((::PBYTE)hIl2Cpp + RPG_CLIENT_PETMARBLE_PETMARBLETEAMEDITCONTROLLER__ONSELFTEAMCHANGED_OFFSET))(this, a1);
+		}
+
+		::System::Void _OnTeamEditStateChanged()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PETMARBLE_PETMARBLETEAMEDITCONTROLLER__ONTEAMEDITSTATECHANGED_OFFSET))(this);
+		}
+
+		::RPG::Client::PetMarble::PetMarblePlayer* get_SelfPlayer()
+		{
+			return ((::RPG::Client::PetMarble::PetMarblePlayer*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PETMARBLE_PETMARBLETEAMEDITCONTROLLER_GET_SELFPLAYER_OFFSET))(this);
+		}
+
+		::RPG::Client::PetMarble::PetMarblePlayer* get_AllyTeamPlayer()
+		{
+			return ((::RPG::Client::PetMarble::PetMarblePlayer*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PETMARBLE_PETMARBLETEAMEDITCONTROLLER_GET_ALLYTEAMPLAYER_OFFSET))(this);
+		}
+
+		::RPG::Client::PetMarble::PetMarblePlayer* get_EnemyTeamPlayer()
+		{
+			return ((::RPG::Client::PetMarble::PetMarblePlayer*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PETMARBLE_PETMARBLETEAMEDITCONTROLLER_GET_ENEMYTEAMPLAYER_OFFSET))(this);
+		}
+
+		::Class_0_16E4307DCC419505_1356* get_Bridge()
+		{
+			return ((::Class_0_16E4307DCC419505_1356*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PETMARBLE_PETMARBLETEAMEDITCONTROLLER_GET_BRIDGE_OFFSET))(this);
+		}
+
+		::RPG::Client::PetMarble::PetMarbleTeamEditState get_State()
+		{
+			return ((::RPG::Client::PetMarble::PetMarbleTeamEditState(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PETMARBLE_PETMARBLETEAMEDITCONTROLLER_GET_STATE_OFFSET))(this);
+		}
+
+		::System::Single get_CountdownSeconds()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PETMARBLE_PETMARBLETEAMEDITCONTROLLER_GET_COUNTDOWNSECONDS_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsTeamEditTimeLimited()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PETMARBLE_PETMARBLETEAMEDITCONTROLLER_GET_ISTEAMEDITTIMELIMITED_OFFSET))(this);
+		}
+
+		::RPG::Client::PetMarble::PetMarbleData* get_CurSelectedMarble()
+		{
+			return ((::RPG::Client::PetMarble::PetMarbleData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PETMARBLE_PETMARBLETEAMEDITCONTROLLER_GET_CURSELECTEDMARBLE_OFFSET))(this);
+		}
+
+		::System::Void set_CurSelectedMarble(::RPG::Client::PetMarble::PetMarbleData* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::PetMarble::PetMarbleData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PETMARBLE_PETMARBLETEAMEDITCONTROLLER_SET_CURSELECTEDMARBLE_OFFSET))(this, a1);
+		}
+
+		::System::Void add_OnSelfPlayerInfoChanged(::System::Action* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PETMARBLE_PETMARBLETEAMEDITCONTROLLER_ADD_ONSELFPLAYERINFOCHANGED_OFFSET))(this, a1);
+		}
+
+		::System::Void remove_OnSelfPlayerInfoChanged(::System::Action* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PETMARBLE_PETMARBLETEAMEDITCONTROLLER_REMOVE_ONSELFPLAYERINFOCHANGED_OFFSET))(this, a1);
+		}
+
+		::System::Void add_OnAllyTeamInfoChanged(::System::Action* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PETMARBLE_PETMARBLETEAMEDITCONTROLLER_ADD_ONALLYTEAMINFOCHANGED_OFFSET))(this, a1);
+		}
+
+		::System::Void remove_OnAllyTeamInfoChanged(::System::Action* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PETMARBLE_PETMARBLETEAMEDITCONTROLLER_REMOVE_ONALLYTEAMINFOCHANGED_OFFSET))(this, a1);
+		}
+
+		::System::Void add_OnTeamEditStateChanged(::System::Action* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PETMARBLE_PETMARBLETEAMEDITCONTROLLER_ADD_ONTEAMEDITSTATECHANGED_OFFSET))(this, a1);
+		}
+
+		::System::Void remove_OnTeamEditStateChanged(::System::Action* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PETMARBLE_PETMARBLETEAMEDITCONTROLLER_REMOVE_ONTEAMEDITSTATECHANGED_OFFSET))(this, a1);
+		}
+
+		::System::Void add_OnSelectedMarbleChanged(::System::Action* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PETMARBLE_PETMARBLETEAMEDITCONTROLLER_ADD_ONSELECTEDMARBLECHANGED_OFFSET))(this, a1);
+		}
+
+		::System::Void remove_OnSelectedMarbleChanged(::System::Action* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PETMARBLE_PETMARBLETEAMEDITCONTROLLER_REMOVE_ONSELECTEDMARBLECHANGED_OFFSET))(this, a1);
+		}
+	};
+}

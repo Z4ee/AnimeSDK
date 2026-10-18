@@ -4,7 +4,7 @@
 
 namespace Cysharp::Threading::Tasks::Triggers
 {
-	inline static constexpr unsigned int IAsyncFixedUpdateHandler_TypeDefinitionIndex = 42919;
+	inline static constexpr unsigned int IAsyncFixedUpdateHandler_TypeDefinitionIndex = 38504;
 
 	class IAsyncFixedUpdateHandler
 	{

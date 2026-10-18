@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_21C7581DFE99F091_36;
+class Class_1_21C7581DFE99F091_38;
 namespace RPG::Client { class ActivityElationStage; }
 
-#define RPG_CLIENT_ACTIVITYELATIONMODULE___C__DISPLAYCLASS36_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC4E37E0)
-#define RPG_CLIENT_ACTIVITYELATIONMODULE___C__DISPLAYCLASS36_0___SETSTAGERESULT_B__0_OFFSET UNITYSDK_OFFSET(0xC4E3B30)
+#define RPG_CLIENT_ACTIVITYELATIONMODULE___C__DISPLAYCLASS36_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC3EB450)
+#define RPG_CLIENT_ACTIVITYELATIONMODULE___C__DISPLAYCLASS36_0___SETSTAGERESULT_B__0_OFFSET UNITYSDK_OFFSET(0xC3EB7A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityElationModule___c__DisplayClass36_0_TypeDefinitionIndex = 61604;
+	inline static constexpr unsigned int ActivityElationModule___c__DisplayClass36_0_TypeDefinitionIndex = 61510;
 
 	class ActivityElationModule___c__DisplayClass36_0 : public ::System::Object
 	{
 	public:
-		::Class_1_21C7581DFE99F091_36* levelData; // 0x10
+		::Class_1_21C7581DFE99F091_38* levelData; // 0x10
 
 		::System::Void _ctor()
 		{

@@ -11,45 +11,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_ACTIVITYTELEVISIONQUESTEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1CDAD340)
-#define RPG_GAMECORE_ACTIVITYTELEVISIONQUESTEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1CDAD1D0)
-#define RPG_GAMECORE_ACTIVITYTELEVISIONQUESTEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1CDACEC0)
-#define RPG_GAMECORE_ACTIVITYTELEVISIONQUESTEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1CDAD170)
-#define RPG_GAMECORE_ACTIVITYTELEVISIONQUESTEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1CDAD490)
-#define RPG_GAMECORE_ACTIVITYTELEVISIONQUESTEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1CDACF40)
-#define RPG_GAMECORE_ACTIVITYTELEVISIONQUESTEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1CDAD4D0)
-#define RPG_GAMECORE_ACTIVITYTELEVISIONQUESTEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CDAD6A0)
-#define RPG_GAMECORE_ACTIVITYTELEVISIONQUESTEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1CDAD930)
-#define RPG_GAMECORE_ACTIVITYTELEVISIONQUESTEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CDADC50)
-#define RPG_GAMECORE_ACTIVITYTELEVISIONQUESTEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1CDAD600)
-#define RPG_GAMECORE_ACTIVITYTELEVISIONQUESTEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1CDAD560)
+#define RPG_GAMECORE_ACTIVITYTELEVISIONQUESTEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1D3823F0)
+#define RPG_GAMECORE_ACTIVITYTELEVISIONQUESTEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1D382280)
+#define RPG_GAMECORE_ACTIVITYTELEVISIONQUESTEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1D381F70)
+#define RPG_GAMECORE_ACTIVITYTELEVISIONQUESTEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1D382220)
+#define RPG_GAMECORE_ACTIVITYTELEVISIONQUESTEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1D382540)
+#define RPG_GAMECORE_ACTIVITYTELEVISIONQUESTEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D381FF0)
+#define RPG_GAMECORE_ACTIVITYTELEVISIONQUESTEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1D382580)
+#define RPG_GAMECORE_ACTIVITYTELEVISIONQUESTEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D382750)
+#define RPG_GAMECORE_ACTIVITYTELEVISIONQUESTEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1D3829E0)
+#define RPG_GAMECORE_ACTIVITYTELEVISIONQUESTEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D382D00)
+#define RPG_GAMECORE_ACTIVITYTELEVISIONQUESTEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1D3826B0)
+#define RPG_GAMECORE_ACTIVITYTELEVISIONQUESTEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D382610)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityTelevisionQuestExcelTable_TypeDefinitionIndex = 12421;
+	inline static constexpr unsigned int ActivityTelevisionQuestExcelTable_TypeDefinitionIndex = 12507;
 
 	class ActivityTelevisionQuestExcelTable : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
-		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityTelevisionQuestExcelTable_TypeDefinitionIndex)->GetStaticField(0x56200);
-		}
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityTelevisionQuestExcelTable_TypeDefinitionIndex)->GetStaticField(0x56208);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityTelevisionQuestExcelTable_TypeDefinitionIndex)->GetStaticField(0x428B0);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ActivityTelevisionQuestRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ActivityTelevisionQuestRow*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityTelevisionQuestExcelTable_TypeDefinitionIndex)->GetStaticField(0x56210);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ActivityTelevisionQuestRow*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityTelevisionQuestExcelTable_TypeDefinitionIndex)->GetStaticField(0x428B8);
+		}
+		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
+		{
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityTelevisionQuestExcelTable_TypeDefinitionIndex)->GetStaticField(0x428C0);
 		}
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ActivityTelevisionQuestExcelTable_TypeDefinitionIndex)->GetStaticField(0x11FC0);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ActivityTelevisionQuestExcelTable_TypeDefinitionIndex)->GetStaticField(0x10080);
 		}
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(ActivityTelevisionQuestExcelTable_TypeDefinitionIndex)->GetStaticField(0x11FC1);
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(ActivityTelevisionQuestExcelTable_TypeDefinitionIndex)->GetStaticField(0x10081);
 		}
 
 		static ::System::Void _cctor()

@@ -8,21 +8,21 @@ namespace UnityEngine { class Animation; }
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI { class Text; }
 
-#define CLASS_2_C6F607C9BAC0CC8B_METHOD_2_88B60F3B95FAA4F1_OFFSET UNITYSDK_OFFSET(0xC0659D0)
-#define CLASS_2_C6F607C9BAC0CC8B_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xC065A40)
-#define CLASS_2_C6F607C9BAC0CC8B__CTOR_OFFSET UNITYSDK_OFFSET(0xC065B20)
+#define CLASS_2_C6F607C9BAC0CC8B_METHOD_2_88B60F3B95FAA4F1_OFFSET UNITYSDK_OFFSET(0xBF51A90)
+#define CLASS_2_C6F607C9BAC0CC8B_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xBF51B00)
+#define CLASS_2_C6F607C9BAC0CC8B__CTOR_OFFSET UNITYSDK_OFFSET(0xBF51BE0)
 
-inline static constexpr unsigned int Class_2_C6F607C9BAC0CC8B_TypeDefinitionIndex = 71374;
+inline static constexpr unsigned int Class_2_C6F607C9BAC0CC8B_TypeDefinitionIndex = 71414;
 
 class Class_2_C6F607C9BAC0CC8B : public ::Class_1_A167209E71412818
 {
 public:
-	::RPG::Client::PrefabLoadMeta* DLIACBDHHLH; // 0x18
+	::UnityEngine::Transform* AOAKLBFLHDP; // 0x18
 	::UnityEngine::UI::Text* JBGAMFPGDLI; // 0x20
-	::UnityEngine::Transform* OJLKGKMFDLG; // 0x28
-	::UnityEngine::Animation* NEPCECJCCDA; // 0x30
+	::UnityEngine::Animation* NEPCECJCCDA; // 0x28
+	::RPG::Client::PrefabLoadMeta* DLIACBDHHLH; // 0x30
 	::UnityEngine::Transform* BIEGCFNPGAF; // 0x38
-	::UnityEngine::Transform* AOAKLBFLHDP; // 0x40
+	::UnityEngine::Transform* OJLKGKMFDLG; // 0x40
 
 	::System::Void _ctor()
 	{

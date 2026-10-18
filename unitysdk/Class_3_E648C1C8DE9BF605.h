@@ -8,17 +8,17 @@
 namespace RPG::GameCore { class ByIsInModifierCallback; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_E648C1C8DE9BF605_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBE6BF80)
-#define CLASS_3_E648C1C8DE9BF605__CTOR_OFFSET UNITYSDK_OFFSET(0xBE6BD80)
+#define CLASS_3_E648C1C8DE9BF605_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBCFAD30)
+#define CLASS_3_E648C1C8DE9BF605__CTOR_OFFSET UNITYSDK_OFFSET(0xBCFAB30)
 
-inline static constexpr unsigned int Class_3_E648C1C8DE9BF605_TypeDefinitionIndex = 54880;
+inline static constexpr unsigned int Class_3_E648C1C8DE9BF605_TypeDefinitionIndex = 54668;
 
 class Class_3_E648C1C8DE9BF605 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByIsInModifierCallback*>
 {
 public:
-	::Il2CppArray<::RPG::GameCore::TurnBasedModifierEvent>* APAKIPKCAOA; // 0x28
-	::Il2CppArray<::RPG::GameCore::StringHash>* GHBNDDNICLA; // 0x30
-	::Il2CppArray<::RPG::GameCore::AbilityProperty>* NHBCLNHKCHA; // 0x38
+	::Il2CppArray<::RPG::GameCore::StringHash>* GHBNDDNICLA; // 0x28
+	::Il2CppArray<::RPG::GameCore::AbilityProperty>* NHBCLNHKCHA; // 0x30
+	::Il2CppArray<::RPG::GameCore::TurnBasedModifierEvent>* APAKIPKCAOA; // 0x38
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ByIsInModifierCallback* a2)
 	{

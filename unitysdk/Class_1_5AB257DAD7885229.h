@@ -5,10 +5,10 @@
 namespace Proto { class MonopolyActionResult; }
 namespace System { class String; }
 
-#define CLASS_1_5AB257DAD7885229_TRIGGER_OFFSET UNITYSDK_OFFSET(0xB7AB810)
-#define CLASS_1_5AB257DAD7885229__CTOR_OFFSET UNITYSDK_OFFSET(0xB7AB8B0)
+#define CLASS_1_5AB257DAD7885229_TRIGGER_OFFSET UNITYSDK_OFFSET(0xB65DB70)
+#define CLASS_1_5AB257DAD7885229__CTOR_OFFSET UNITYSDK_OFFSET(0xB65DC10)
 
-inline static constexpr unsigned int Class_1_5AB257DAD7885229_TypeDefinitionIndex = 66287;
+inline static constexpr unsigned int Class_1_5AB257DAD7885229_TypeDefinitionIndex = 66248;
 
 class Class_1_5AB257DAD7885229 : public ::System::Object
 {

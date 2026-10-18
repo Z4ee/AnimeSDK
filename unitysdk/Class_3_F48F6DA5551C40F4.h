@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class OpticalIllusionExitPerformance; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_F48F6DA5551C40F4_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1581F950)
-#define CLASS_3_F48F6DA5551C40F4__CTOR_OFFSET UNITYSDK_OFFSET(0x1581F920)
+#define CLASS_3_F48F6DA5551C40F4_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15B166A0)
+#define CLASS_3_F48F6DA5551C40F4__CTOR_OFFSET UNITYSDK_OFFSET(0x15B16670)
 
-inline static constexpr unsigned int Class_3_F48F6DA5551C40F4_TypeDefinitionIndex = 53315;
+inline static constexpr unsigned int Class_3_F48F6DA5551C40F4_TypeDefinitionIndex = 53041;
 
 class Class_3_F48F6DA5551C40F4 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::OpticalIllusionExitPerformance*>
 {

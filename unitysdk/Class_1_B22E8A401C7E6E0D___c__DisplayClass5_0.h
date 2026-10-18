@@ -6,17 +6,17 @@
 
 namespace RPG::Client::FateRin::View::Card { class FateRinCardPosControlView; }
 
-#define CLASS_1_B22E8A401C7E6E0D___C__DISPLAYCLASS5_0__CREATESETOFFSETNODEWORLDPOSECOMMAND_B__0_OFFSET UNITYSDK_OFFSET(0xB8AC690)
-#define CLASS_1_B22E8A401C7E6E0D___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB8AB120)
+#define CLASS_1_B22E8A401C7E6E0D___C__DISPLAYCLASS5_0__CREATESETOFFSETNODEWORLDPOSECOMMAND_B__0_OFFSET UNITYSDK_OFFSET(0xB720B80)
+#define CLASS_1_B22E8A401C7E6E0D___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB71F610)
 
-inline static constexpr unsigned int Class_1_B22E8A401C7E6E0D___c__DisplayClass5_0_TypeDefinitionIndex = 79521;
+inline static constexpr unsigned int Class_1_B22E8A401C7E6E0D___c__DisplayClass5_0_TypeDefinitionIndex = 80845;
 
 class Class_1_B22E8A401C7E6E0D___c__DisplayClass5_0 : public ::System::Object
 {
 public:
 	::RPG::Client::FateRin::View::Card::FateRinCardPosControlView* posCtrl; // 0x10
-	::UnityEngine::Quaternion worldRot; // 0x18
-	::UnityEngine::Vector3 worldPos; // 0x28
+	::UnityEngine::Vector3 worldPos; // 0x18
+	::UnityEngine::Quaternion worldRot; // 0x24
 
 	::System::Void _ctor()
 	{

@@ -8,23 +8,23 @@
 #include "unitysdk/System/Threading/CancellationToken.h"
 #include "unitysdk/System/Threading/CancellationTokenRegistration.h"
 
-#define CYSHARP_THREADING_TASKS_LINQ_EVERYUPDATE__EVERYUPDATE_DISPOSEASYNC_OFFSET UNITYSDK_OFFSET(0x1EA368F0)
-#define CYSHARP_THREADING_TASKS_LINQ_EVERYUPDATE__EVERYUPDATE_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1EA36810)
-#define CYSHARP_THREADING_TASKS_LINQ_EVERYUPDATE__EVERYUPDATE_MOVENEXTASYNC_OFFSET UNITYSDK_OFFSET(0x1EA36820)
-#define CYSHARP_THREADING_TASKS_LINQ_EVERYUPDATE__EVERYUPDATE_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1EA36940)
-#define CYSHARP_THREADING_TASKS_LINQ_EVERYUPDATE__EVERYUPDATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA36660)
+#define CYSHARP_THREADING_TASKS_LINQ_EVERYUPDATE__EVERYUPDATE_DISPOSEASYNC_OFFSET UNITYSDK_OFFSET(0x1F0FE1B0)
+#define CYSHARP_THREADING_TASKS_LINQ_EVERYUPDATE__EVERYUPDATE_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1F0FE0D0)
+#define CYSHARP_THREADING_TASKS_LINQ_EVERYUPDATE__EVERYUPDATE_MOVENEXTASYNC_OFFSET UNITYSDK_OFFSET(0x1F0FE0E0)
+#define CYSHARP_THREADING_TASKS_LINQ_EVERYUPDATE__EVERYUPDATE_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1F0FE200)
+#define CYSHARP_THREADING_TASKS_LINQ_EVERYUPDATE__EVERYUPDATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F0FDF20)
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int EveryUpdate__EveryUpdate_TypeDefinitionIndex = 44574;
+	inline static constexpr unsigned int EveryUpdate__EveryUpdate_TypeDefinitionIndex = 45713;
 
 	class EveryUpdate__EveryUpdate : public ::Cysharp::Threading::Tasks::MoveNextSource
 	{
 	public:
 		::System::Threading::CancellationToken cancellationToken; // 0x30
 		::System::Threading::CancellationTokenRegistration cancellationTokenRegistration; // 0x38
-		::System::Boolean disposed; // 0x50
-		::Cysharp::Threading::Tasks::PlayerLoopTiming updateTiming; // 0x54
+		::Cysharp::Threading::Tasks::PlayerLoopTiming updateTiming; // 0x50
+		::System::Boolean disposed; // 0x54
 
 		::System::Void _ctor(::Cysharp::Threading::Tasks::PlayerLoopTiming a1, ::System::Threading::CancellationToken a2, ::System::Boolean a3)
 		{

@@ -1,0 +1,80 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_0_16E4307DCC419505_1359;
+class Class_1_21C7581DFE99F091_12;
+class Class_1_7FF19F6206AF6DD7_19;
+namespace Google::Protobuf::Collections { template <typename T> class RepeatedField_1; }
+namespace RPG::Client::Promises { class IPromise; }
+namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+
+#define RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEPUBLISHORDERFRIENDSETTINGS_CANSENDPRIVATEORDERTOFRIEND_OFFSET UNITYSDK_OFFSET(0xC8A3AE0)
+#define RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEPUBLISHORDERFRIENDSETTINGS_ENSURECACHE_OFFSET UNITYSDK_OFFSET(0xC8A3760)
+#define RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEPUBLISHORDERFRIENDSETTINGS_MARKFRIENDREJECTAPPLYORDER_OFFSET UNITYSDK_OFFSET(0xC897CB0)
+#define RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEPUBLISHORDERFRIENDSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0xC89C500)
+#define RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEPUBLISHORDERFRIENDSETTINGS__ENSURECACHE_B__1_0_OFFSET UNITYSDK_OFFSET(0xC8A4060)
+#define RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEPUBLISHORDERFRIENDSETTINGS__FETCHANDSYNC_OFFSET UNITYSDK_OFFSET(0xC8A39D0)
+#define RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEPUBLISHORDERFRIENDSETTINGS__ISCACHEEXPIRED_OFFSET UNITYSDK_OFFSET(0xC8A3880)
+#define RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEPUBLISHORDERFRIENDSETTINGS__SYNCFRIENDSETTINGS_OFFSET UNITYSDK_OFFSET(0xC8A3B80)
+#define RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEPUBLISHORDERFRIENDSETTINGS___FETCHANDSYNC_B__5_0_OFFSET UNITYSDK_OFFSET(0xC8A4070)
+
+namespace RPG::Client::BlindBox::Trade
+{
+	inline static constexpr unsigned int BlindBoxTradePublishOrderFriendSettings_TypeDefinitionIndex = 74886;
+
+	class BlindBoxTradePublishOrderFriendSettings : public ::System::Object
+	{
+	public:
+		// static const ::System::UInt64 _FetchCD = 0x5; // 0x0
+		::Class_0_16E4307DCC419505_1359* _NetworkService; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::UInt64, ::System::Boolean>* _FriendRejectApplyOrderMap; // 0x18
+		::RPG::Client::Promises::IPromise* _PendingFetchPromise; // 0x20
+		::System::UInt64 _LastUpdateTime; // 0x28
+
+		::System::Void _ctor(::Class_0_16E4307DCC419505_1359* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_1359*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEPUBLISHORDERFRIENDSETTINGS__CTOR_OFFSET))(this, a1);
+		}
+
+		::RPG::Client::Promises::IPromise* EnsureCache()
+		{
+			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEPUBLISHORDERFRIENDSETTINGS_ENSURECACHE_OFFSET))(this);
+		}
+
+		::System::Boolean CanSendPrivateOrderToFriend(::System::UInt64 a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEPUBLISHORDERFRIENDSETTINGS_CANSENDPRIVATEORDERTOFRIEND_OFFSET))(this, a1);
+		}
+
+		::System::Void MarkFriendRejectApplyOrder(::System::UInt64 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEPUBLISHORDERFRIENDSETTINGS_MARKFRIENDREJECTAPPLYORDER_OFFSET))(this, a1);
+		}
+
+		::System::Boolean _IsCacheExpired()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEPUBLISHORDERFRIENDSETTINGS__ISCACHEEXPIRED_OFFSET))(this);
+		}
+
+		::RPG::Client::Promises::IPromise* _FetchAndSync()
+		{
+			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEPUBLISHORDERFRIENDSETTINGS__FETCHANDSYNC_OFFSET))(this);
+		}
+
+		::System::Void _SyncFriendSettings(::Google::Protobuf::Collections::RepeatedField_1<::Class_1_21C7581DFE99F091_12*>* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::Collections::RepeatedField_1<::Class_1_21C7581DFE99F091_12*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEPUBLISHORDERFRIENDSETTINGS__SYNCFRIENDSETTINGS_OFFSET))(this, a1);
+		}
+
+		::System::Void _EnsureCache_b__1_0()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEPUBLISHORDERFRIENDSETTINGS__ENSURECACHE_B__1_0_OFFSET))(this);
+		}
+
+		::System::Void __FetchAndSync_b__5_0(::Class_1_7FF19F6206AF6DD7_19* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_7FF19F6206AF6DD7_19*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEPUBLISHORDERFRIENDSETTINGS___FETCHANDSYNC_B__5_0_OFFSET))(this, a1);
+		}
+	};
+}

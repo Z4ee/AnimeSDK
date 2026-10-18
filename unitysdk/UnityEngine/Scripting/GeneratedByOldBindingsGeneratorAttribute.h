@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define UNITYENGINE_SCRIPTING_GENERATEDBYOLDBINDINGSGENERATORATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EDD4070)
+#define UNITYENGINE_SCRIPTING_GENERATEDBYOLDBINDINGSGENERATORATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F49D330)
 
 namespace UnityEngine::Scripting
 {
-	inline static constexpr unsigned int GeneratedByOldBindingsGeneratorAttribute_TypeDefinitionIndex = 3739;
+	inline static constexpr unsigned int GeneratedByOldBindingsGeneratorAttribute_TypeDefinitionIndex = 3740;
 
 	class GeneratedByOldBindingsGeneratorAttribute : public ::System::Attribute
 	{

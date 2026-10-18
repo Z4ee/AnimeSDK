@@ -4,10 +4,10 @@
 
 namespace System { class String; }
 
-#define SYSTEM_NET_AUTHORIZATION_GET_COMPLETE_OFFSET UNITYSDK_OFFSET(0x1E956EA0)
-#define SYSTEM_NET_AUTHORIZATION_GET_MESSAGE_OFFSET UNITYSDK_OFFSET(0x1E956E90)
-#define SYSTEM_NET_AUTHORIZATION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E956E40)
-#define SYSTEM_NET_AUTHORIZATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1E956DF0)
+#define SYSTEM_NET_AUTHORIZATION_GET_COMPLETE_OFFSET UNITYSDK_OFFSET(0x1F01FE00)
+#define SYSTEM_NET_AUTHORIZATION_GET_MESSAGE_OFFSET UNITYSDK_OFFSET(0x1F01FDF0)
+#define SYSTEM_NET_AUTHORIZATION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F01FDA0)
+#define SYSTEM_NET_AUTHORIZATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1F01FD50)
 
 namespace System::Net
 {
@@ -16,8 +16,8 @@ namespace System::Net
 	class Authorization : public ::System::Object
 	{
 	public:
-		::System::String* m_Message; // 0x10
-		::System::String* ModuleAuthenticationType; // 0x18
+		::System::String* ModuleAuthenticationType; // 0x10
+		::System::String* m_Message; // 0x18
 		::System::Boolean m_Complete; // 0x20
 
 		::System::Void _ctor(::System::String* a1)

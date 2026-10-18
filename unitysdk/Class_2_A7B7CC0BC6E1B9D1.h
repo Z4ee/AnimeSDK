@@ -8,10 +8,10 @@ class Class_2_AEE59ED8DADEC1A1;
 namespace RPG::GameCore { class DiceCombatDiceSelectorConfig_SpecialEffect; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_A7B7CC0BC6E1B9D1_METHOD_2_855D3BCDF72A33C6_OFFSET UNITYSDK_OFFSET(0x1C243480)
-#define CLASS_2_A7B7CC0BC6E1B9D1__CTOR_OFFSET UNITYSDK_OFFSET(0x1C243470)
+#define CLASS_2_A7B7CC0BC6E1B9D1_METHOD_2_855D3BCDF72A33C6_OFFSET UNITYSDK_OFFSET(0x1C7937A0)
+#define CLASS_2_A7B7CC0BC6E1B9D1__CTOR_OFFSET UNITYSDK_OFFSET(0x1C793790)
 
-inline static constexpr unsigned int Class_2_A7B7CC0BC6E1B9D1_TypeDefinitionIndex = 35695;
+inline static constexpr unsigned int Class_2_A7B7CC0BC6E1B9D1_TypeDefinitionIndex = 36382;
 
 class Class_2_A7B7CC0BC6E1B9D1 : public ::Class_1_CD4EC20BEBA8A2DA
 {

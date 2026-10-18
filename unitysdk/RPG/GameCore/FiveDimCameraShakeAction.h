@@ -7,13 +7,13 @@ namespace RPG::GameCore { class VCameraOverrideShakeV2; }
 namespace RPG::GameCore { class VCameraShakeV2; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIVEDIMCAMERASHAKEACTION_METHOD_3_621D56C7974A4B5F_OFFSET UNITYSDK_OFFSET(0x1D0A5160)
-#define RPG_GAMECORE_FIVEDIMCAMERASHAKEACTION_METHOD_3_F6D779D3138FCF30_OFFSET UNITYSDK_OFFSET(0x1D0A5120)
-#define RPG_GAMECORE_FIVEDIMCAMERASHAKEACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0A5150)
+#define RPG_GAMECORE_FIVEDIMCAMERASHAKEACTION_METHOD_4_7D249A3C110311F6_OFFSET UNITYSDK_OFFSET(0x1D6B40F0)
+#define RPG_GAMECORE_FIVEDIMCAMERASHAKEACTION_METHOD_4_B28557A8C1A32859_OFFSET UNITYSDK_OFFSET(0x1D6B40B0)
+#define RPG_GAMECORE_FIVEDIMCAMERASHAKEACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6B40E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimCameraShakeAction_TypeDefinitionIndex = 18506;
+	inline static constexpr unsigned int FiveDimCameraShakeAction_TypeDefinitionIndex = 18716;
 
 	class FiveDimCameraShakeAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
@@ -27,14 +27,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMCAMERASHAKEACTION__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_F6D779D3138FCF30(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimCameraShakeAction*& a2)
+		static ::System::Void Method_4_B28557A8C1A32859(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimCameraShakeAction*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimCameraShakeAction*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMCAMERASHAKEACTION_METHOD_3_F6D779D3138FCF30_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimCameraShakeAction*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMCAMERASHAKEACTION_METHOD_4_B28557A8C1A32859_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_621D56C7974A4B5F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimCameraShakeAction* a2)
+		static ::System::Void Method_4_7D249A3C110311F6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimCameraShakeAction* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimCameraShakeAction*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMCAMERASHAKEACTION_METHOD_3_621D56C7974A4B5F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimCameraShakeAction*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMCAMERASHAKEACTION_METHOD_4_7D249A3C110311F6_OFFSET))(a1, a2);
 		}
 	};
 }

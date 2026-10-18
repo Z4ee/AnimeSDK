@@ -6,19 +6,19 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_HELIOBUSUSERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D18BD20)
-#define RPG_GAMECORE_HELIOBUSUSERROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D18C3B0)
+#define RPG_GAMECORE_HELIOBUSUSERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D767170)
+#define RPG_GAMECORE_HELIOBUSUSERROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D767800)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HeliobusUserRow_TypeDefinitionIndex = 13634;
+	inline static constexpr unsigned int HeliobusUserRow_TypeDefinitionIndex = 13741;
 
 	class HeliobusUserRow : public ::System::Object
 	{
 	public:
 		::System::String* UserIconPath; // 0x10
-		::RPG::Client::TextID HeliobusUserName; // 0x18
-		::System::UInt32 HeliobusUserID; // 0x28
+		::System::UInt32 HeliobusUserID; // 0x18
+		::RPG::Client::TextID HeliobusUserName; // 0x20
 
 		::System::Void _ctor()
 		{

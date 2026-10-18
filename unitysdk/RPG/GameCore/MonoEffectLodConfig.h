@@ -7,12 +7,12 @@ namespace RPG::GameCore { class MonoEffectLodDetail; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_MONOEFFECTLODCONFIG_METHOD_2_53EEEEE2D9054922_OFFSET UNITYSDK_OFFSET(0x1D2B98B0)
-#define RPG_GAMECORE_MONOEFFECTLODCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2B99B0)
+#define RPG_GAMECORE_MONOEFFECTLODCONFIG_METHOD_2_53EEEEE2D9054922_OFFSET UNITYSDK_OFFSET(0x1D89BA80)
+#define RPG_GAMECORE_MONOEFFECTLODCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D89BB80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MonoEffectLodConfig_TypeDefinitionIndex = 18879;
+	inline static constexpr unsigned int MonoEffectLodConfig_TypeDefinitionIndex = 19106;
 
 	class MonoEffectLodConfig : public ::RPG::GameCore::JsonConfig
 	{

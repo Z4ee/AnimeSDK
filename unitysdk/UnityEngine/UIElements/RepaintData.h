@@ -5,12 +5,12 @@
 
 namespace UnityEngine { class Event; }
 
-#define UNITYENGINE_UIELEMENTS_REPAINTDATA_GET_CURRENTOFFSET_OFFSET UNITYSDK_OFFSET(0x1EDF7740)
-#define UNITYENGINE_UIELEMENTS_REPAINTDATA_SET_REPAINTEVENT_OFFSET UNITYSDK_OFFSET(0x1EDF7770)
+#define UNITYENGINE_UIELEMENTS_REPAINTDATA_GET_CURRENTOFFSET_OFFSET UNITYSDK_OFFSET(0x1F4C0990)
+#define UNITYENGINE_UIELEMENTS_REPAINTDATA_SET_REPAINTEVENT_OFFSET UNITYSDK_OFFSET(0x1F4C09C0)
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int RepaintData_TypeDefinitionIndex = 5879;
+	inline static constexpr unsigned int RepaintData_TypeDefinitionIndex = 5887;
 
 	class RepaintData : public ::System::Object
 	{

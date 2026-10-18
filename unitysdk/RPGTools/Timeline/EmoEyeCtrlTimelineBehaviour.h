@@ -9,12 +9,12 @@ namespace RPGTools::Timeline { class EmoEyeCtrlOffsetData; }
 namespace RPGTools::Timeline { class EmoEyeCtrlShakeData; }
 namespace System { class Object; }
 
-#define RPGTOOLS_TIMELINE_EMOEYECTRLTIMELINEBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xE843D10)
-#define RPGTOOLS_TIMELINE_EMOEYECTRLTIMELINEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xE843DA0)
+#define RPGTOOLS_TIMELINE_EMOEYECTRLTIMELINEBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xE8E1CD0)
+#define RPGTOOLS_TIMELINE_EMOEYECTRLTIMELINEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xE8E1D60)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int EmoEyeCtrlTimelineBehaviour_TypeDefinitionIndex = 48568;
+	inline static constexpr unsigned int EmoEyeCtrlTimelineBehaviour_TypeDefinitionIndex = 48108;
 
 	class EmoEyeCtrlTimelineBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{

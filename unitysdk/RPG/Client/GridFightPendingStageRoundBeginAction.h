@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/GridFightPendingStageBaseAction.h"
 
-#define RPG_CLIENT_GRIDFIGHTPENDINGSTAGEROUNDBEGINACTION_HANDLE_OFFSET UNITYSDK_OFFSET(0xD2DC4C0)
-#define RPG_CLIENT_GRIDFIGHTPENDINGSTAGEROUNDBEGINACTION__CTOR_OFFSET UNITYSDK_OFFSET(0xD2DC4B0)
+#define RPG_CLIENT_GRIDFIGHTPENDINGSTAGEROUNDBEGINACTION_HANDLE_OFFSET UNITYSDK_OFFSET(0xD1D3C70)
+#define RPG_CLIENT_GRIDFIGHTPENDINGSTAGEROUNDBEGINACTION__CTOR_OFFSET UNITYSDK_OFFSET(0xD1D3C60)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightPendingStageRoundBeginAction_TypeDefinitionIndex = 64676;
+	inline static constexpr unsigned int GridFightPendingStageRoundBeginAction_TypeDefinitionIndex = 64616;
 
 	class GridFightPendingStageRoundBeginAction : public ::RPG::Client::GridFightPendingStageBaseAction
 	{

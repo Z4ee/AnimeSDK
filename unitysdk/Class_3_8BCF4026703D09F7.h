@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByCompareSkillUsageLimit; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_8BCF4026703D09F7_EVALUATE_OFFSET UNITYSDK_OFFSET(0xDA9C950)
-#define CLASS_3_8BCF4026703D09F7__CTOR_OFFSET UNITYSDK_OFFSET(0xDA9C920)
+#define CLASS_3_8BCF4026703D09F7_EVALUATE_OFFSET UNITYSDK_OFFSET(0xDA27D00)
+#define CLASS_3_8BCF4026703D09F7__CTOR_OFFSET UNITYSDK_OFFSET(0xDA27CD0)
 
-inline static constexpr unsigned int Class_3_8BCF4026703D09F7_TypeDefinitionIndex = 54779;
+inline static constexpr unsigned int Class_3_8BCF4026703D09F7_TypeDefinitionIndex = 54567;
 
 class Class_3_8BCF4026703D09F7 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByCompareSkillUsageLimit*>
 {

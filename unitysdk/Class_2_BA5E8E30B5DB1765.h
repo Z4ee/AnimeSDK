@@ -5,18 +5,18 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class IDictionary_2; }
 
-#define CLASS_2_BA5E8E30B5DB1765_METHOD_2_0F30679B05E70FC1_OFFSET UNITYSDK_OFFSET(0xD7E4D30)
-#define CLASS_2_BA5E8E30B5DB1765_METHOD_2_35942D7A8A374AB0_OFFSET UNITYSDK_OFFSET(0xD7E4760)
-#define CLASS_2_BA5E8E30B5DB1765_METHOD_2_E5563473F4AA5B3F_OFFSET UNITYSDK_OFFSET(0xD7E4DB0)
-#define CLASS_2_BA5E8E30B5DB1765__CTOR_OFFSET UNITYSDK_OFFSET(0xD7E3E10)
+#define CLASS_2_BA5E8E30B5DB1765_METHOD_2_35942D7A8A374AB0_OFFSET UNITYSDK_OFFSET(0xD7525B0)
+#define CLASS_2_BA5E8E30B5DB1765_METHOD_2_A0433AB55CC45192_OFFSET UNITYSDK_OFFSET(0xD752B80)
+#define CLASS_2_BA5E8E30B5DB1765_METHOD_2_E5563473F4AA5B3F_OFFSET UNITYSDK_OFFSET(0xD752C00)
+#define CLASS_2_BA5E8E30B5DB1765__CTOR_OFFSET UNITYSDK_OFFSET(0xD751C60)
 
-inline static constexpr unsigned int Class_2_BA5E8E30B5DB1765_TypeDefinitionIndex = 80909;
+inline static constexpr unsigned int Class_2_BA5E8E30B5DB1765_TypeDefinitionIndex = 82289;
 
 class Class_2_BA5E8E30B5DB1765 : public ::Class_1_FAF146B3D74C3C3F
 {
 public:
-	::System::String* FODBMMCKAEN; // 0x20
-	::System::String* MNDFOPKBHKP; // 0x28
+	::System::String* MNDFOPKBHKP; // 0x20
+	::System::String* FODBMMCKAEN; // 0x28
 
 	::System::Void _ctor(::System::Int32 a1, ::System::Int32 a2, ::System::String* a3, ::System::Collections::Generic::IDictionary_2<::System::String*, ::System::String*>* a4)
 	{
@@ -28,9 +28,9 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_BA5E8E30B5DB1765_METHOD_2_35942D7A8A374AB0_OFFSET))(this);
 	}
 
-	::System::Boolean Method_2_0F30679B05E70FC1()
+	::System::Boolean Method_2_A0433AB55CC45192()
 	{
-		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_BA5E8E30B5DB1765_METHOD_2_0F30679B05E70FC1_OFFSET))(this);
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_BA5E8E30B5DB1765_METHOD_2_A0433AB55CC45192_OFFSET))(this);
 	}
 
 	::System::Int32 Method_2_E5563473F4AA5B3F()

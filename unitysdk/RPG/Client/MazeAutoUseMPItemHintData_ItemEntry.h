@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_MAZEAUTOUSEMPITEMHINTDATA_ITEMENTRY_GETITEMICONPATH_OFFSET UNITYSDK_OFFSET(0x152190)
+#define RPG_CLIENT_MAZEAUTOUSEMPITEMHINTDATA_ITEMENTRY_GETITEMICONPATH_OFFSET UNITYSDK_OFFSET(0xEAFC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MazeAutoUseMPItemHintData_ItemEntry_TypeDefinitionIndex = 62228;
+	inline static constexpr unsigned int MazeAutoUseMPItemHintData_ItemEntry_TypeDefinitionIndex = 62144;
 
 	struct alignas(4) MazeAutoUseMPItemHintData_ItemEntry
 	{

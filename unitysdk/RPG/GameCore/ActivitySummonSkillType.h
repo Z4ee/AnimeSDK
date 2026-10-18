@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivitySummonSkillType_TypeDefinitionIndex = 12324;
+	inline static constexpr unsigned int ActivitySummonSkillType_TypeDefinitionIndex = 12410;
 
 	enum class ActivitySummonSkillType : ::System::Int32
 	{

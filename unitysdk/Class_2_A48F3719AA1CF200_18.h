@@ -1,16 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_5772346ACD452D08.h"
+#include "unitysdk/Class_1_E9521D589CA4AB8B.h"
 
-#define CLASS_2_A48F3719AA1CF200_18_METHOD_2_9B9268EACFB7EA90_OFFSET UNITYSDK_OFFSET(0xD7EB510)
-#define CLASS_2_A48F3719AA1CF200_18_METHOD_2_B4FEB1F5D516A801_OFFSET UNITYSDK_OFFSET(0xD7EB370)
-#define CLASS_2_A48F3719AA1CF200_18__CTOR_OFFSET UNITYSDK_OFFSET(0xD7EB350)
-#define CLASS_2_A48F3719AA1CF200_18__PHASEEXIT_B__1_0_OFFSET UNITYSDK_OFFSET(0xD7EB650)
-#define CLASS_2_A48F3719AA1CF200_18___EXITTOTOWNBYSERVERQUITNOTIFY_B__2_0_OFFSET UNITYSDK_OFFSET(0xD7EB6A0)
+#define CLASS_2_A48F3719AA1CF200_18_ONSTARTLOADING_OFFSET UNITYSDK_OFFSET(0xBA78C70)
+#define CLASS_2_A48F3719AA1CF200_18__CTOR_OFFSET UNITYSDK_OFFSET(0xBA78CC0)
 
-inline static constexpr unsigned int Class_2_A48F3719AA1CF200_18_TypeDefinitionIndex = 61267;
+inline static constexpr unsigned int Class_2_A48F3719AA1CF200_18_TypeDefinitionIndex = 61068;
 
-class Class_2_A48F3719AA1CF200_18 : public ::Class_1_5772346ACD452D08
+class Class_2_A48F3719AA1CF200_18 : public ::Class_1_E9521D589CA4AB8B
 {
 public:
 	::System::Void _ctor()
@@ -18,23 +15,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_A48F3719AA1CF200_18__CTOR_OFFSET))(this);
 	}
 
-	::System::Void Method_2_B4FEB1F5D516A801()
+	::System::Void OnStartLoading()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_A48F3719AA1CF200_18_METHOD_2_B4FEB1F5D516A801_OFFSET))(this);
-	}
-
-	::System::Void Method_2_9B9268EACFB7EA90()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_A48F3719AA1CF200_18_METHOD_2_9B9268EACFB7EA90_OFFSET))(this);
-	}
-
-	::System::Void _PhaseExit_b__1_0()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_A48F3719AA1CF200_18__PHASEEXIT_B__1_0_OFFSET))(this);
-	}
-
-	::System::Void __ExitToTownByServerQuitNotify_b__2_0()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_A48F3719AA1CF200_18___EXITTOTOWNBYSERVERQUITNOTIFY_B__2_0_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_A48F3719AA1CF200_18_ONSTARTLOADING_OFFSET))(this);
 	}
 };

@@ -5,22 +5,22 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_H5LOGGENERALREPORT_LOGREPORTASYNC_OFFSET UNITYSDK_OFFSET(0xB1D5730)
-#define MIHOYO_SDK_H5LOGGENERALREPORT_LOGREPORT_OFFSET UNITYSDK_OFFSET(0xB1D52F0)
-#define MIHOYO_SDK_H5LOGGENERALREPORT_REPORTINNER_OFFSET UNITYSDK_OFFSET(0xB1D5520)
-#define MIHOYO_SDK_H5LOGGENERALREPORT__CCTOR_OFFSET UNITYSDK_OFFSET(0xB1D58B0)
-#define MIHOYO_SDK_H5LOGGENERALREPORT__CTOR_OFFSET UNITYSDK_OFFSET(0xB1D58A0)
+#define MIHOYO_SDK_H5LOGGENERALREPORT_LOGREPORTASYNC_OFFSET UNITYSDK_OFFSET(0xAF7FD70)
+#define MIHOYO_SDK_H5LOGGENERALREPORT_LOGREPORT_OFFSET UNITYSDK_OFFSET(0xAF7F930)
+#define MIHOYO_SDK_H5LOGGENERALREPORT_REPORTINNER_OFFSET UNITYSDK_OFFSET(0xAF7FB60)
+#define MIHOYO_SDK_H5LOGGENERALREPORT__CCTOR_OFFSET UNITYSDK_OFFSET(0xAF7FEF0)
+#define MIHOYO_SDK_H5LOGGENERALREPORT__CTOR_OFFSET UNITYSDK_OFFSET(0xAF7FEE0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int H5logGeneralReport_TypeDefinitionIndex = 46932;
+	inline static constexpr unsigned int H5logGeneralReport_TypeDefinitionIndex = 46472;
 
 	class H5logGeneralReport : public ::System::Object
 	{
 	public:
 		static ::MiHoYo::SDK::H5logGeneralReport** StaticGet_Instance()
 		{
-			return (::MiHoYo::SDK::H5logGeneralReport**)Il2CppClass::FromTypeDefinitionIndex(H5logGeneralReport_TypeDefinitionIndex)->GetStaticField(0x44830);
+			return (::MiHoYo::SDK::H5logGeneralReport**)Il2CppClass::FromTypeDefinitionIndex(H5logGeneralReport_TypeDefinitionIndex)->GetStaticField(0x20660);
 		}
 
 		::System::Void _ctor()

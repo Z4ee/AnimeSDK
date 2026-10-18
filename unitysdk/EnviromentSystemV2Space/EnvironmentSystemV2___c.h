@@ -4,24 +4,24 @@
 
 namespace System { class Action; }
 
-#define ENVIROMENTSYSTEMV2SPACE_ENVIRONMENTSYSTEMV2___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15363BD0)
-#define ENVIROMENTSYSTEMV2SPACE_ENVIRONMENTSYSTEMV2___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15363C10)
-#define ENVIROMENTSYSTEMV2SPACE_ENVIRONMENTSYSTEMV2___C__SETACTIVEPROFILEAFTERASYNCRESLOADING_B__56_1_OFFSET UNITYSDK_OFFSET(0x15363C20)
+#define ENVIROMENTSYSTEMV2SPACE_ENVIRONMENTSYSTEMV2___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x156530C0)
+#define ENVIROMENTSYSTEMV2SPACE_ENVIRONMENTSYSTEMV2___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15653100)
+#define ENVIROMENTSYSTEMV2SPACE_ENVIRONMENTSYSTEMV2___C__SETACTIVEPROFILEAFTERASYNCRESLOADING_B__56_1_OFFSET UNITYSDK_OFFSET(0x15653110)
 
 namespace EnviromentSystemV2Space
 {
-	inline static constexpr unsigned int EnvironmentSystemV2___c_TypeDefinitionIndex = 49896;
+	inline static constexpr unsigned int EnvironmentSystemV2___c_TypeDefinitionIndex = 49471;
 
 	class EnvironmentSystemV2___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__56_1()
-		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(EnvironmentSystemV2___c_TypeDefinitionIndex)->GetStaticField(0x65350);
-		}
 		static ::EnviromentSystemV2Space::EnvironmentSystemV2___c** StaticGet___9()
 		{
-			return (::EnviromentSystemV2Space::EnvironmentSystemV2___c**)Il2CppClass::FromTypeDefinitionIndex(EnvironmentSystemV2___c_TypeDefinitionIndex)->GetStaticField(0x65358);
+			return (::EnviromentSystemV2Space::EnvironmentSystemV2___c**)Il2CppClass::FromTypeDefinitionIndex(EnvironmentSystemV2___c_TypeDefinitionIndex)->GetStaticField(0x59810);
+		}
+		static ::System::Action** StaticGet___9__56_1()
+		{
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(EnvironmentSystemV2___c_TypeDefinitionIndex)->GetStaticField(0x59818);
 		}
 
 		static ::System::Void _cctor()

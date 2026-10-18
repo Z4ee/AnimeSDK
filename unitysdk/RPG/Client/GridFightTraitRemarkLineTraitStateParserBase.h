@@ -5,20 +5,20 @@
 namespace RPG::Client { class GridFightTrait; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINETRAITSTATEPARSERBASE_GET_ISACTIVE_OFFSET UNITYSDK_OFFSET(0xD369400)
-#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINETRAITSTATEPARSERBASE_GET_ISSHOW_OFFSET UNITYSDK_OFFSET(0xD369450)
-#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINETRAITSTATEPARSERBASE__CTOR_OFFSET UNITYSDK_OFFSET(0xD3690E0)
-#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINETRAITSTATEPARSERBASE__GETISACTIVE_OFFSET UNITYSDK_OFFSET(0xD3691F0)
+#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINETRAITSTATEPARSERBASE_GET_ISACTIVE_OFFSET UNITYSDK_OFFSET(0xD2C2260)
+#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINETRAITSTATEPARSERBASE_GET_ISSHOW_OFFSET UNITYSDK_OFFSET(0xD2C22B0)
+#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINETRAITSTATEPARSERBASE__CTOR_OFFSET UNITYSDK_OFFSET(0xD2C1F40)
+#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINETRAITSTATEPARSERBASE__GETISACTIVE_OFFSET UNITYSDK_OFFSET(0xD2C2050)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightTraitRemarkLineTraitStateParserBase_TypeDefinitionIndex = 65559;
+	inline static constexpr unsigned int GridFightTraitRemarkLineTraitStateParserBase_TypeDefinitionIndex = 65499;
 
 	class GridFightTraitRemarkLineTraitStateParserBase : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::UInt32>* _Layers; // 0x10
-		::RPG::Client::GridFightTrait* _trait; // 0x18
+		::RPG::Client::GridFightTrait* _trait; // 0x10
+		::System::Collections::Generic::List_1<::System::UInt32>* _Layers; // 0x18
 
 		::System::Void _ctor(::Il2CppArray<::System::UInt32>* a1, ::RPG::Client::GridFightTrait* a2)
 		{

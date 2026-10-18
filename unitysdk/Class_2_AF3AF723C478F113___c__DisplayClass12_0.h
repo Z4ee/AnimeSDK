@@ -5,10 +5,10 @@
 namespace UnityEngine { class MeshFilter; }
 namespace UnityEngine { class Object; }
 
-#define CLASS_2_AF3AF723C478F113___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1585BCD0)
-#define CLASS_2_AF3AF723C478F113___C__DISPLAYCLASS12_0__UNSERIALIZEASYNC_B__2_OFFSET UNITYSDK_OFFSET(0x1585BF00)
+#define CLASS_2_AF3AF723C478F113___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15B539B0)
+#define CLASS_2_AF3AF723C478F113___C__DISPLAYCLASS12_0__UNSERIALIZEASYNC_B__2_OFFSET UNITYSDK_OFFSET(0x15B53BE0)
 
-inline static constexpr unsigned int Class_2_AF3AF723C478F113___c__DisplayClass12_0_TypeDefinitionIndex = 49468;
+inline static constexpr unsigned int Class_2_AF3AF723C478F113___c__DisplayClass12_0_TypeDefinitionIndex = 49042;
 
 class Class_2_AF3AF723C478F113___c__DisplayClass12_0 : public ::System::Object
 {

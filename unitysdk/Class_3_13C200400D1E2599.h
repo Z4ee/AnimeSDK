@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AdvEndIsometric; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_13C200400D1E2599_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB4FC610)
-#define CLASS_3_13C200400D1E2599__CTOR_OFFSET UNITYSDK_OFFSET(0xB4FC5E0)
+#define CLASS_3_13C200400D1E2599_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB338610)
+#define CLASS_3_13C200400D1E2599__CTOR_OFFSET UNITYSDK_OFFSET(0xB3385E0)
 
-inline static constexpr unsigned int Class_3_13C200400D1E2599_TypeDefinitionIndex = 52632;
+inline static constexpr unsigned int Class_3_13C200400D1E2599_TypeDefinitionIndex = 52357;
 
 class Class_3_13C200400D1E2599 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AdvEndIsometric*>
 {

@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MAPROTATIONAIRLOCKCONFIG_METHOD_2_CCB7A9EC72C245DA_OFFSET UNITYSDK_OFFSET(0x1D2258D0)
-#define RPG_GAMECORE_MAPROTATIONAIRLOCKCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D225C00)
+#define RPG_GAMECORE_MAPROTATIONAIRLOCKCONFIG_METHOD_2_CCB7A9EC72C245DA_OFFSET UNITYSDK_OFFSET(0x1D82E860)
+#define RPG_GAMECORE_MAPROTATIONAIRLOCKCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D82EB90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MapRotationAirlockConfig_TypeDefinitionIndex = 16831;
+	inline static constexpr unsigned int MapRotationAirlockConfig_TypeDefinitionIndex = 17025;
 
 	class MapRotationAirlockConfig : public ::RPG::GameCore::JsonConfig
 	{

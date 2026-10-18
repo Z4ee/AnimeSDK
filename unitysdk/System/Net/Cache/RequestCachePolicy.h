@@ -3,7 +3,7 @@
 #include "unitysdk/System/Net/Cache/RequestCacheLevel.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_NET_CACHE_REQUESTCACHEPOLICY_GET_LEVEL_OFFSET UNITYSDK_OFFSET(0x1E957520)
+#define SYSTEM_NET_CACHE_REQUESTCACHEPOLICY_GET_LEVEL_OFFSET UNITYSDK_OFFSET(0x1F020480)
 
 namespace System::Net::Cache
 {

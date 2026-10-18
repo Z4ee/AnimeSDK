@@ -5,18 +5,18 @@
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class SkillData; }
 
-#define CLASS_1_05BD9C87E93CA0F8_CLEAR_OFFSET UNITYSDK_OFFSET(0xB5328B0)
-#define CLASS_1_05BD9C87E93CA0F8_METHOD_1_BAFE6370FC9E3E98_OFFSET UNITYSDK_OFFSET(0xB532840)
-#define CLASS_1_05BD9C87E93CA0F8__CTOR_OFFSET UNITYSDK_OFFSET(0xB532900)
+#define CLASS_1_05BD9C87E93CA0F8_CLEAR_OFFSET UNITYSDK_OFFSET(0xB371080)
+#define CLASS_1_05BD9C87E93CA0F8_METHOD_1_BAFE6370FC9E3E98_OFFSET UNITYSDK_OFFSET(0xB371010)
+#define CLASS_1_05BD9C87E93CA0F8__CTOR_OFFSET UNITYSDK_OFFSET(0xB3710D0)
 
-inline static constexpr unsigned int Class_1_05BD9C87E93CA0F8_TypeDefinitionIndex = 55576;
+inline static constexpr unsigned int Class_1_05BD9C87E93CA0F8_TypeDefinitionIndex = 55380;
 
 class Class_1_05BD9C87E93CA0F8 : public ::System::Object
 {
 public:
-	::RPG::GameCore::SkillData* NDMDINFCKNG; // 0x10
+	::RPG::GameCore::GameEntity* MCLLALGABAB; // 0x10
 	::RPG::GameCore::SkillData* KPFEFOBGMMM; // 0x18
-	::RPG::GameCore::GameEntity* MCLLALGABAB; // 0x20
+	::RPG::GameCore::SkillData* NDMDINFCKNG; // 0x20
 
 	::System::Void _ctor()
 	{

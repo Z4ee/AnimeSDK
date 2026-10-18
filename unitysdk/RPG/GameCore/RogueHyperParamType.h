@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueHyperParamType_TypeDefinitionIndex = 14536;
+	inline static constexpr unsigned int RogueHyperParamType_TypeDefinitionIndex = 14701;
 
 	enum class RogueHyperParamType : ::System::Int32
 	{

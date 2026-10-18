@@ -5,7 +5,7 @@
 
 namespace UnityEngine::Formats::Alembic::Sdk
 {
-	inline static constexpr unsigned int aiCurvesData_TypeDefinitionIndex = 44681;
+	inline static constexpr unsigned int aiCurvesData_TypeDefinitionIndex = 45820;
 
 	struct alignas(8) aiCurvesData
 	{

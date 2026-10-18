@@ -6,20 +6,20 @@
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_2C6DA1AF76ABE73E_CLEAR_OFFSET UNITYSDK_OFFSET(0x1588A9A0)
-#define CLASS_1_2C6DA1AF76ABE73E_METHOD_1_AFDAF5C37EE7F801_OFFSET UNITYSDK_OFFSET(0x1588ABE0)
-#define CLASS_1_2C6DA1AF76ABE73E_METHOD_1_C248EF2067E42139_OFFSET UNITYSDK_OFFSET(0x1588AA50)
-#define CLASS_1_2C6DA1AF76ABE73E_METHOD_1_D77F7476BCD66744_OFFSET UNITYSDK_OFFSET(0x1588AB50)
-#define CLASS_1_2C6DA1AF76ABE73E__CTOR_OFFSET UNITYSDK_OFFSET(0x1588B1C0)
+#define CLASS_1_2C6DA1AF76ABE73E_CLEAR_OFFSET UNITYSDK_OFFSET(0x15B84F20)
+#define CLASS_1_2C6DA1AF76ABE73E_METHOD_1_C248EF2067E42139_OFFSET UNITYSDK_OFFSET(0x15B84FD0)
+#define CLASS_1_2C6DA1AF76ABE73E_METHOD_1_D77F7476BCD66744_OFFSET UNITYSDK_OFFSET(0x15B850D0)
+#define CLASS_1_2C6DA1AF76ABE73E_METHOD_1_F49F04F2C0603CF5_OFFSET UNITYSDK_OFFSET(0x15B85160)
+#define CLASS_1_2C6DA1AF76ABE73E__CTOR_OFFSET UNITYSDK_OFFSET(0x15B856E0)
 
-inline static constexpr unsigned int Class_1_2C6DA1AF76ABE73E_TypeDefinitionIndex = 66690;
+inline static constexpr unsigned int Class_1_2C6DA1AF76ABE73E_TypeDefinitionIndex = 66658;
 
 class Class_1_2C6DA1AF76ABE73E : public ::System::Object
 {
 public:
 	// static const ::System::UInt32 PIPLDPEOMBI = 0x64; // 0x0
-	::System::Collections::Generic::List_1<::System::UInt32>* ANGFOPKGODF; // 0x10
-	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* INJIAJBIHCN; // 0x18
+	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* INJIAJBIHCN; // 0x10
+	::System::Collections::Generic::List_1<::System::UInt32>* ANGFOPKGODF; // 0x18
 
 	::System::Void _ctor()
 	{
@@ -41,8 +41,8 @@ public:
 		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_2C6DA1AF76ABE73E_METHOD_1_D77F7476BCD66744_OFFSET))(this, a1);
 	}
 
-	::System::Numerics::BigInteger Method_1_AFDAF5C37EE7F801(::System::Numerics::BigInteger a1)
+	::System::Numerics::BigInteger Method_1_F49F04F2C0603CF5(::System::Numerics::BigInteger a1)
 	{
-		return ((::System::Numerics::BigInteger(*)(::PVOID, ::System::Numerics::BigInteger))((::PBYTE)hIl2Cpp + CLASS_1_2C6DA1AF76ABE73E_METHOD_1_AFDAF5C37EE7F801_OFFSET))(this, a1);
+		return ((::System::Numerics::BigInteger(*)(::PVOID, ::System::Numerics::BigInteger))((::PBYTE)hIl2Cpp + CLASS_1_2C6DA1AF76ABE73E_METHOD_1_F49F04F2C0603CF5_OFFSET))(this, a1);
 	}
 };

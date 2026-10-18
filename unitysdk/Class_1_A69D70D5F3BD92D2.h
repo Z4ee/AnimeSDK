@@ -6,18 +6,18 @@ namespace RPG::GameCore { class CharacterAtlasFaceMappingConfig; }
 namespace RPG::GameCore { class CharacterAtlasFaceSet; }
 namespace System { class String; }
 
-#define CLASS_1_A69D70D5F3BD92D2_METHOD_1_419A551021319AFF_OFFSET UNITYSDK_OFFSET(0xB8298E0)
-#define CLASS_1_A69D70D5F3BD92D2_METHOD_1_5790A55946AA509D_OFFSET UNITYSDK_OFFSET(0xB829890)
-#define CLASS_1_A69D70D5F3BD92D2_METHOD_1_F8C7231308CD2C82_OFFSET UNITYSDK_OFFSET(0xB8297F0)
+#define CLASS_1_A69D70D5F3BD92D2_METHOD_1_419A551021319AFF_OFFSET UNITYSDK_OFFSET(0xB69AD20)
+#define CLASS_1_A69D70D5F3BD92D2_METHOD_1_5790A55946AA509D_OFFSET UNITYSDK_OFFSET(0xB69ACD0)
+#define CLASS_1_A69D70D5F3BD92D2_METHOD_1_F8C7231308CD2C82_OFFSET UNITYSDK_OFFSET(0xB69AC30)
 
-inline static constexpr unsigned int Class_1_A69D70D5F3BD92D2_TypeDefinitionIndex = 73196;
+inline static constexpr unsigned int Class_1_A69D70D5F3BD92D2_TypeDefinitionIndex = 73292;
 
 class Class_1_A69D70D5F3BD92D2 : public ::System::Object
 {
 public:
 	static ::RPG::GameCore::CharacterAtlasFaceMappingConfig** StaticGet_IGHAHBNLIJA()
 	{
-		return (::RPG::GameCore::CharacterAtlasFaceMappingConfig**)Il2CppClass::FromTypeDefinitionIndex(Class_1_A69D70D5F3BD92D2_TypeDefinitionIndex)->GetStaticField(0xDA40);
+		return (::RPG::GameCore::CharacterAtlasFaceMappingConfig**)Il2CppClass::FromTypeDefinitionIndex(Class_1_A69D70D5F3BD92D2_TypeDefinitionIndex)->GetStaticField(0x5CA60);
 	}
 
 	static ::System::Void Method_1_F8C7231308CD2C82()

@@ -4,9 +4,9 @@
 #include "unitysdk/RPG/GameCore/MarbleShapeType.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_78C2963AC589BAA9__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4EF750)
+#define CLASS_1_78C2963AC589BAA9__CTOR_OFFSET UNITYSDK_OFFSET(0x1CA63290)
 
-inline static constexpr unsigned int Class_1_78C2963AC589BAA9_TypeDefinitionIndex = 40904;
+inline static constexpr unsigned int Class_1_78C2963AC589BAA9_TypeDefinitionIndex = 42185;
 
 class Class_1_78C2963AC589BAA9 : public ::System::Object
 {

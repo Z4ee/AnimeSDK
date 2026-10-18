@@ -7,19 +7,19 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_IDLELIVENODETYPEDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D1A1A10)
-#define RPG_GAMECORE_IDLELIVENODETYPEDATAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1A1BE0)
+#define RPG_GAMECORE_IDLELIVENODETYPEDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D77D710)
+#define RPG_GAMECORE_IDLELIVENODETYPEDATAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D77D8E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveNodeTypeDataRow_TypeDefinitionIndex = 11678;
+	inline static constexpr unsigned int IdleLiveNodeTypeDataRow_TypeDefinitionIndex = 11701;
 
 	class IdleLiveNodeTypeDataRow : public ::System::Object
 	{
 	public:
 		::System::String* NodeIcon; // 0x10
-		::RPG::GameCore::IdleLiveNodeType Type; // 0x18
-		::RPG::Client::TextID Name; // 0x20
+		::RPG::Client::TextID Name; // 0x18
+		::RPG::GameCore::IdleLiveNodeType Type; // 0x28
 
 		::System::Void _ctor()
 		{

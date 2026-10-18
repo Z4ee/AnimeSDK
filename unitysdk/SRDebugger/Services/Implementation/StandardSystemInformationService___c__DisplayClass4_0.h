@@ -4,12 +4,12 @@
 
 namespace SRDebugger { class InfoEntry; }
 
-#define SRDEBUGGER_SERVICES_IMPLEMENTATION_STANDARDSYSTEMINFORMATIONSERVICE___C__DISPLAYCLASS4_0__ADD_B__0_OFFSET UNITYSDK_OFFSET(0x1E68AF70)
-#define SRDEBUGGER_SERVICES_IMPLEMENTATION_STANDARDSYSTEMINFORMATIONSERVICE___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1E689EE0)
+#define SRDEBUGGER_SERVICES_IMPLEMENTATION_STANDARDSYSTEMINFORMATIONSERVICE___C__DISPLAYCLASS4_0__ADD_B__0_OFFSET UNITYSDK_OFFSET(0x1ED52BF0)
+#define SRDEBUGGER_SERVICES_IMPLEMENTATION_STANDARDSYSTEMINFORMATIONSERVICE___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1ED51BC0)
 
 namespace SRDebugger::Services::Implementation
 {
-	inline static constexpr unsigned int StandardSystemInformationService___c__DisplayClass4_0_TypeDefinitionIndex = 37398;
+	inline static constexpr unsigned int StandardSystemInformationService___c__DisplayClass4_0_TypeDefinitionIndex = 38091;
 
 	class StandardSystemInformationService___c__DisplayClass4_0 : public ::System::Object
 	{

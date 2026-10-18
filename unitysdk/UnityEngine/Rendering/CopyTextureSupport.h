@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int CopyTextureSupport_TypeDefinitionIndex = 4721;
+	inline static constexpr unsigned int CopyTextureSupport_TypeDefinitionIndex = 4725;
 
 	enum class CopyTextureSupport : ::System::Int32
 	{

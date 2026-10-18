@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-inline static constexpr unsigned int GameplayWaveRenderer_WaveLayer_TypeDefinitionIndex = 47772;
+inline static constexpr unsigned int GameplayWaveRenderer_WaveLayer_TypeDefinitionIndex = 47312;
 
 struct alignas(4) GameplayWaveRenderer_WaveLayer
 {

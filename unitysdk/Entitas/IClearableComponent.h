@@ -3,7 +3,7 @@
 
 namespace Entitas
 {
-	inline static constexpr unsigned int IClearableComponent_TypeDefinitionIndex = 9978;
+	inline static constexpr unsigned int IClearableComponent_TypeDefinitionIndex = 10036;
 
 	class IClearableComponent
 	{

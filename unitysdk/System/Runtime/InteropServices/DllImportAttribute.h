@@ -7,11 +7,11 @@
 namespace System { class String; }
 namespace System::Reflection { class RuntimeMethodInfo; }
 
-#define SYSTEM_RUNTIME_INTEROPSERVICES_DLLIMPORTATTRIBUTE_GETCUSTOMATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1BDBCB40)
-#define SYSTEM_RUNTIME_INTEROPSERVICES_DLLIMPORTATTRIBUTE_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1BDBCDF0)
-#define SYSTEM_RUNTIME_INTEROPSERVICES_DLLIMPORTATTRIBUTE_ISDEFINED_OFFSET UNITYSDK_OFFSET(0x1BDBCD50)
-#define SYSTEM_RUNTIME_INTEROPSERVICES_DLLIMPORTATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1BDBCDE0)
-#define SYSTEM_RUNTIME_INTEROPSERVICES_DLLIMPORTATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDBCD00)
+#define SYSTEM_RUNTIME_INTEROPSERVICES_DLLIMPORTATTRIBUTE_GETCUSTOMATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1C2C8810)
+#define SYSTEM_RUNTIME_INTEROPSERVICES_DLLIMPORTATTRIBUTE_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1C2C8AC0)
+#define SYSTEM_RUNTIME_INTEROPSERVICES_DLLIMPORTATTRIBUTE_ISDEFINED_OFFSET UNITYSDK_OFFSET(0x1C2C8A20)
+#define SYSTEM_RUNTIME_INTEROPSERVICES_DLLIMPORTATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C2C8AB0)
+#define SYSTEM_RUNTIME_INTEROPSERVICES_DLLIMPORTATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C2C89D0)
 
 namespace System::Runtime::InteropServices
 {
@@ -20,14 +20,14 @@ namespace System::Runtime::InteropServices
 	class DllImportAttribute : public ::System::Attribute
 	{
 	public:
-		::System::String* _val; // 0x10
-		::System::String* EntryPoint; // 0x18
-		::System::Runtime::InteropServices::CharSet CharSet; // 0x20
-		::System::Boolean SetLastError; // 0x24
-		::System::Boolean PreserveSig; // 0x25
-		::System::Boolean ThrowOnUnmappableChar; // 0x26
-		::System::Boolean ExactSpelling; // 0x27
-		::System::Boolean BestFitMapping; // 0x28
+		::System::String* EntryPoint; // 0x10
+		::System::String* _val; // 0x18
+		::System::Boolean SetLastError; // 0x20
+		::System::Boolean ThrowOnUnmappableChar; // 0x21
+		::System::Boolean ExactSpelling; // 0x22
+		::System::Boolean BestFitMapping; // 0x23
+		::System::Boolean PreserveSig; // 0x24
+		::System::Runtime::InteropServices::CharSet CharSet; // 0x28
 		::System::Runtime::InteropServices::CallingConvention CallingConvention; // 0x2C
 
 		::System::Void _ctor(::System::String* a1, ::System::String* a2, ::System::Runtime::InteropServices::CharSet a3, ::System::Boolean a4, ::System::Boolean a5, ::System::Boolean a6, ::System::Runtime::InteropServices::CallingConvention a7, ::System::Boolean a8, ::System::Boolean a9)

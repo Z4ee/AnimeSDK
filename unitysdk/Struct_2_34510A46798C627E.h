@@ -4,7 +4,7 @@
 #include "unitysdk/UnityChan/SpringColliderType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-inline static constexpr unsigned int Struct_2_34510A46798C627E_TypeDefinitionIndex = 48145;
+inline static constexpr unsigned int Struct_2_34510A46798C627E_TypeDefinitionIndex = 47686;
 
 struct alignas(4) Struct_2_34510A46798C627E
 {

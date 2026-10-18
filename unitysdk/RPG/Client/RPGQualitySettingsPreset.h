@@ -6,11 +6,11 @@ namespace RPG::Client { class RPGQualitySettingsModel; }
 namespace RPG::Client { class RPGQualitySettingsPerPlatform; }
 namespace RPG::Client { class RPGQualitySettingsPresetDetail; }
 
-#define RPG_CLIENT_RPGQUALITYSETTINGSPRESET__CTOR_OFFSET UNITYSDK_OFFSET(0xDDDC5E0)
+#define RPG_CLIENT_RPGQUALITYSETTINGSPRESET__CTOR_OFFSET UNITYSDK_OFFSET(0xDE2A960)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RPGQualitySettingsPreset_TypeDefinitionIndex = 67939;
+	inline static constexpr unsigned int RPGQualitySettingsPreset_TypeDefinitionIndex = 67941;
 
 	class RPGQualitySettingsPreset : public ::System::Object
 	{

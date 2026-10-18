@@ -3,8 +3,8 @@
 #include "unitysdk/System/ComponentModel/ListChangedType.h"
 #include "unitysdk/System/EventArgs.h"
 
-#define SYSTEM_COMPONENTMODEL_LISTCHANGEDEVENTARGS__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E924280)
-#define SYSTEM_COMPONENTMODEL_LISTCHANGEDEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1E924240)
+#define SYSTEM_COMPONENTMODEL_LISTCHANGEDEVENTARGS__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1EFED100)
+#define SYSTEM_COMPONENTMODEL_LISTCHANGEDEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1EFED0C0)
 
 namespace System::ComponentModel
 {
@@ -13,9 +13,9 @@ namespace System::ComponentModel
 	class ListChangedEventArgs : public ::System::EventArgs
 	{
 	public:
-		::System::Int32 newIndex; // 0x10
-		::System::Int32 oldIndex; // 0x14
-		::System::ComponentModel::ListChangedType listChangedType; // 0x18
+		::System::Int32 oldIndex; // 0x10
+		::System::ComponentModel::ListChangedType listChangedType; // 0x14
+		::System::Int32 newIndex; // 0x18
 
 		::System::Void _ctor(::System::ComponentModel::ListChangedType a1, ::System::Int32 a2)
 		{

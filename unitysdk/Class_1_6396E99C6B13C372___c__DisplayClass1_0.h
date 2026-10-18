@@ -4,10 +4,10 @@
 
 namespace Proto { class ItemCost; }
 
-#define CLASS_1_6396E99C6B13C372___C__DISPLAYCLASS1_0__ADDCOSTITEM_B__0_OFFSET UNITYSDK_OFFSET(0xC434030)
-#define CLASS_1_6396E99C6B13C372___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC433CD0)
+#define CLASS_1_6396E99C6B13C372___C__DISPLAYCLASS1_0__ADDCOSTITEM_B__0_OFFSET UNITYSDK_OFFSET(0xC334F80)
+#define CLASS_1_6396E99C6B13C372___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC334C20)
 
-inline static constexpr unsigned int Class_1_6396E99C6B13C372___c__DisplayClass1_0_TypeDefinitionIndex = 65765;
+inline static constexpr unsigned int Class_1_6396E99C6B13C372___c__DisplayClass1_0_TypeDefinitionIndex = 65701;
 
 class Class_1_6396E99C6B13C372___c__DisplayClass1_0 : public ::System::Object
 {

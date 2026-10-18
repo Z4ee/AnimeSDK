@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_SESSIONINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x7DC40)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_SESSIONINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x111F0)
 
 namespace System::Diagnostics::Tracing
 {

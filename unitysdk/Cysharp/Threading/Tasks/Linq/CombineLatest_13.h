@@ -9,7 +9,7 @@ namespace System { template <typename T1, typename T2, typename T3, typename T4,
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int CombineLatest_13_TypeDefinitionIndex = 44166;
+	inline static constexpr unsigned int CombineLatest_13_TypeDefinitionIndex = 45305;
 
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11, typename T12, typename TResult>
 	class CombineLatest_13 : public ::System::Object

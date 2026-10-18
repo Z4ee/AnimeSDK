@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/SRDebugger/NumberRangeAttribute.h"
 
-#define SROPTIONS_NUMBERRANGEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0xB31F220)
+#define SROPTIONS_NUMBERRANGEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0xB0BF090)
 
-inline static constexpr unsigned int SROptions_NumberRangeAttribute_TypeDefinitionIndex = 44786;
+inline static constexpr unsigned int SROptions_NumberRangeAttribute_TypeDefinitionIndex = 45925;
 
 class SROptions_NumberRangeAttribute : public ::SRDebugger::NumberRangeAttribute
 {

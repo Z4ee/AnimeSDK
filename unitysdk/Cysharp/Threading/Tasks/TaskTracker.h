@@ -14,31 +14,31 @@ namespace System { template <typename T1, typename T2, typename T3, typename T4,
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Text { class StringBuilder; }
 
-#define CYSHARP_THREADING_TASKS_TASKTRACKER_CHECKANDRESETDIRTY_OFFSET UNITYSDK_OFFSET(0x1EA5D9E0)
-#define CYSHARP_THREADING_TASKS_TASKTRACKER_FOREACHACTIVETASK_OFFSET UNITYSDK_OFFSET(0x1EA5DA40)
-#define CYSHARP_THREADING_TASKS_TASKTRACKER_REMOVETRACKING_OFFSET UNITYSDK_OFFSET(0x1EA5D9D0)
-#define CYSHARP_THREADING_TASKS_TASKTRACKER_TRACKACTIVETASK_OFFSET UNITYSDK_OFFSET(0x1EA5D9C0)
-#define CYSHARP_THREADING_TASKS_TASKTRACKER_TYPEBEAUTIFY_OFFSET UNITYSDK_OFFSET(0x1EA5DF20)
-#define CYSHARP_THREADING_TASKS_TASKTRACKER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EA5E530)
+#define CYSHARP_THREADING_TASKS_TASKTRACKER_CHECKANDRESETDIRTY_OFFSET UNITYSDK_OFFSET(0x1F125390)
+#define CYSHARP_THREADING_TASKS_TASKTRACKER_FOREACHACTIVETASK_OFFSET UNITYSDK_OFFSET(0x1F1253F0)
+#define CYSHARP_THREADING_TASKS_TASKTRACKER_REMOVETRACKING_OFFSET UNITYSDK_OFFSET(0x1F125380)
+#define CYSHARP_THREADING_TASKS_TASKTRACKER_TRACKACTIVETASK_OFFSET UNITYSDK_OFFSET(0x1F125370)
+#define CYSHARP_THREADING_TASKS_TASKTRACKER_TYPEBEAUTIFY_OFFSET UNITYSDK_OFFSET(0x1F1258D0)
+#define CYSHARP_THREADING_TASKS_TASKTRACKER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F125EE0)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int TaskTracker_TypeDefinitionIndex = 42588;
+	inline static constexpr unsigned int TaskTracker_TypeDefinitionIndex = 38173;
 
 	class TaskTracker : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::Cysharp::Threading::Tasks::IUniTaskSource*, ::System::ValueTuple_4<::System::String*, ::System::Int32, ::System::DateTime, ::System::String*>>>** StaticGet_listPool()
 		{
-			return (::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::Cysharp::Threading::Tasks::IUniTaskSource*, ::System::ValueTuple_4<::System::String*, ::System::Int32, ::System::DateTime, ::System::String*>>>**)Il2CppClass::FromTypeDefinitionIndex(TaskTracker_TypeDefinitionIndex)->GetStaticField(0x56920);
+			return (::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::Cysharp::Threading::Tasks::IUniTaskSource*, ::System::ValueTuple_4<::System::String*, ::System::Int32, ::System::DateTime, ::System::String*>>>**)Il2CppClass::FromTypeDefinitionIndex(TaskTracker_TypeDefinitionIndex)->GetStaticField(0x405C0);
 		}
 		static ::Cysharp::Threading::Tasks::Internal::WeakDictionary_2<::Cysharp::Threading::Tasks::IUniTaskSource*, ::System::ValueTuple_4<::System::String*, ::System::Int32, ::System::DateTime, ::System::String*>>** StaticGet_tracking()
 		{
-			return (::Cysharp::Threading::Tasks::Internal::WeakDictionary_2<::Cysharp::Threading::Tasks::IUniTaskSource*, ::System::ValueTuple_4<::System::String*, ::System::Int32, ::System::DateTime, ::System::String*>>**)Il2CppClass::FromTypeDefinitionIndex(TaskTracker_TypeDefinitionIndex)->GetStaticField(0x56928);
+			return (::Cysharp::Threading::Tasks::Internal::WeakDictionary_2<::Cysharp::Threading::Tasks::IUniTaskSource*, ::System::ValueTuple_4<::System::String*, ::System::Int32, ::System::DateTime, ::System::String*>>**)Il2CppClass::FromTypeDefinitionIndex(TaskTracker_TypeDefinitionIndex)->GetStaticField(0x405C8);
 		}
 		static ::System::Boolean* StaticGet_dirty()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(TaskTracker_TypeDefinitionIndex)->GetStaticField(0x12270);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(TaskTracker_TypeDefinitionIndex)->GetStaticField(0xDB80);
 		}
 
 		static ::System::Void _cctor()

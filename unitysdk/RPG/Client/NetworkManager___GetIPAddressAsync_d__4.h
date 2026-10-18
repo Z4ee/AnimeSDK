@@ -9,12 +9,12 @@ namespace System { class String; }
 namespace System::Net { class IPHostEntry; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define RPG_CLIENT_NETWORKMANAGER___GETIPADDRESSASYNC_D__4_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1540F0)
-#define RPG_CLIENT_NETWORKMANAGER___GETIPADDRESSASYNC_D__4_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x14FD80)
+#define RPG_CLIENT_NETWORKMANAGER___GETIPADDRESSASYNC_D__4_MOVENEXT_OFFSET UNITYSDK_OFFSET(0xED010)
+#define RPG_CLIENT_NETWORKMANAGER___GETIPADDRESSASYNC_D__4_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x10B60)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int NetworkManager___GetIPAddressAsync_d__4_TypeDefinitionIndex = 69343;
+	inline static constexpr unsigned int NetworkManager___GetIPAddressAsync_d__4_TypeDefinitionIndex = 69379;
 
 	struct alignas(8) NetworkManager___GetIPAddressAsync_d__4
 	{

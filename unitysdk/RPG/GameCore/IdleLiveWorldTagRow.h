@@ -6,19 +6,19 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_IDLELIVEWORLDTAGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D1A5E40)
-#define RPG_GAMECORE_IDLELIVEWORLDTAGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1A5FE0)
+#define RPG_GAMECORE_IDLELIVEWORLDTAGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D781B40)
+#define RPG_GAMECORE_IDLELIVEWORLDTAGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D781CE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveWorldTagRow_TypeDefinitionIndex = 11751;
+	inline static constexpr unsigned int IdleLiveWorldTagRow_TypeDefinitionIndex = 11774;
 
 	class IdleLiveWorldTagRow : public ::System::Object
 	{
 	public:
 		::System::String* Icon; // 0x10
-		::System::UInt32 WorldTagID; // 0x18
-		::RPG::Client::TextID WorldTag; // 0x20
+		::RPG::Client::TextID WorldTag; // 0x18
+		::System::UInt32 WorldTagID; // 0x28
 
 		::System::Void _ctor()
 		{

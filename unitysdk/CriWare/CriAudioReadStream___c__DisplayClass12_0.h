@@ -4,18 +4,18 @@
 
 namespace CriWare { class CriAudioReadStream_Delegate; }
 
-#define CRIWARE_CRIAUDIOREADSTREAM___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0x164E75B0)
-#define CRIWARE_CRIAUDIOREADSTREAM___C__DISPLAYCLASS12_0___CTOR_B__0_OFFSET UNITYSDK_OFFSET(0x164E75C0)
+#define CRIWARE_CRIAUDIOREADSTREAM___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1670E1D0)
+#define CRIWARE_CRIAUDIOREADSTREAM___C__DISPLAYCLASS12_0___CTOR_B__0_OFFSET UNITYSDK_OFFSET(0x1670E1E0)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAudioReadStream___c__DisplayClass12_0_TypeDefinitionIndex = 38793;
+	inline static constexpr unsigned int CriAudioReadStream___c__DisplayClass12_0_TypeDefinitionIndex = 40090;
 
 	class CriAudioReadStream___c__DisplayClass12_0 : public ::System::Object
 	{
 	public:
-		::CriWare::CriAudioReadStream_Delegate* callback; // 0x10
-		::Il2CppArray<::Il2CppArray<::System::Single>*>* buffer; // 0x18
+		::Il2CppArray<::Il2CppArray<::System::Single>*>* buffer; // 0x10
+		::CriWare::CriAudioReadStream_Delegate* callback; // 0x18
 		::System::Int32 numChannels; // 0x20
 		::System::Int32 bufferSize; // 0x24
 

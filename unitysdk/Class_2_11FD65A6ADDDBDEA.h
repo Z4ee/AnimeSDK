@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_43BD383C98B4C0C5_213.h"
+#include "unitysdk/Class_1_43BD383C98B4C0C5_215.h"
 #include "unitysdk/RPG/GameCore/ChimeraDuelTeamType.h"
 
 class Class_1_F9FBCC956DFCF137_27;
 class Class_1_FD611945730E269E;
 namespace RPG::GameCore { class ChimeraDuelNpcAnimatorControlNode; }
 
-#define CLASS_2_11FD65A6ADDDBDEA_METHOD_2_9AE379058E90AA45_OFFSET UNITYSDK_OFFSET(0xE024030)
-#define CLASS_2_11FD65A6ADDDBDEA__CTOR_OFFSET UNITYSDK_OFFSET(0xE024110)
+#define CLASS_2_11FD65A6ADDDBDEA_METHOD_2_9AE379058E90AA45_OFFSET UNITYSDK_OFFSET(0xDFBBED0)
+#define CLASS_2_11FD65A6ADDDBDEA__CTOR_OFFSET UNITYSDK_OFFSET(0xDFBBFB0)
 
-inline static constexpr unsigned int Class_2_11FD65A6ADDDBDEA_TypeDefinitionIndex = 77216;
+inline static constexpr unsigned int Class_2_11FD65A6ADDDBDEA_TypeDefinitionIndex = 77687;
 
-class Class_2_11FD65A6ADDDBDEA : public ::Class_1_43BD383C98B4C0C5_213
+class Class_2_11FD65A6ADDDBDEA : public ::Class_1_43BD383C98B4C0C5_215
 {
 public:
 	::RPG::GameCore::ChimeraDuelNpcAnimatorControlNode* EABKOHGCHFP; // 0x10

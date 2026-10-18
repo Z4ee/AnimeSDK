@@ -5,10 +5,10 @@
 class CarFlowRoad;
 class Lane;
 
-#define CARFLOWLANEPORT_METHOD_1_48FEF66A58B92F6B_OFFSET UNITYSDK_OFFSET(0xDDA49C0)
-#define CARFLOWLANEPORT__CTOR_OFFSET UNITYSDK_OFFSET(0xDDA4F40)
+#define CARFLOWLANEPORT_METHOD_1_48FEF66A58B92F6B_OFFSET UNITYSDK_OFFSET(0xDCE3530)
+#define CARFLOWLANEPORT__CTOR_OFFSET UNITYSDK_OFFSET(0xDCE3AB0)
 
-inline static constexpr unsigned int CarFlowLanePort_TypeDefinitionIndex = 47531;
+inline static constexpr unsigned int CarFlowLanePort_TypeDefinitionIndex = 47071;
 
 class CarFlowLanePort : public ::System::Object
 {

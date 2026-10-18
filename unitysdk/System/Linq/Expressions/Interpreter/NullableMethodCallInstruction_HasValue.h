@@ -4,12 +4,12 @@
 
 namespace System::Linq::Expressions::Interpreter { class InterpretedFrame; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NULLABLEMETHODCALLINSTRUCTION_HASVALUE_RUN_OFFSET UNITYSDK_OFFSET(0x1E7594A0)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NULLABLEMETHODCALLINSTRUCTION_HASVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E758DE0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NULLABLEMETHODCALLINSTRUCTION_HASVALUE_RUN_OFFSET UNITYSDK_OFFSET(0x1EE220A0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NULLABLEMETHODCALLINSTRUCTION_HASVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EE219E0)
 
 namespace System::Linq::Expressions::Interpreter
 {
-	inline static constexpr unsigned int NullableMethodCallInstruction_HasValue_TypeDefinitionIndex = 3644;
+	inline static constexpr unsigned int NullableMethodCallInstruction_HasValue_TypeDefinitionIndex = 3645;
 
 	class NullableMethodCallInstruction_HasValue : public ::System::Linq::Expressions::Interpreter::NullableMethodCallInstruction
 	{

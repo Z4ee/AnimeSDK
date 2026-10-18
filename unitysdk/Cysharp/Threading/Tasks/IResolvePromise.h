@@ -3,7 +3,7 @@
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int IResolvePromise_TypeDefinitionIndex = 42801;
+	inline static constexpr unsigned int IResolvePromise_TypeDefinitionIndex = 38386;
 
 	class IResolvePromise
 	{

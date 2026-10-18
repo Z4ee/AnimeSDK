@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define R3_FRAMEPROVIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF17310)
+#define R3_FRAMEPROVIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4237D0)
 
 namespace R3
 {
-	inline static constexpr unsigned int FrameProvider_TypeDefinitionIndex = 35239;
+	inline static constexpr unsigned int FrameProvider_TypeDefinitionIndex = 35919;
 
 	class FrameProvider : public ::System::Object
 	{

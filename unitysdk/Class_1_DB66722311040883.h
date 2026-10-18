@@ -6,25 +6,25 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define CLASS_1_DB66722311040883_METHOD_1_F6FF3DE94D09C840_OFFSET UNITYSDK_OFFSET(0x1CBA0E70)
-#define CLASS_1_DB66722311040883__CTOR_OFFSET UNITYSDK_OFFSET(0x1CBA1270)
+#define CLASS_1_DB66722311040883_METHOD_1_F6FF3DE94D09C840_OFFSET UNITYSDK_OFFSET(0x1D165B10)
+#define CLASS_1_DB66722311040883__CTOR_OFFSET UNITYSDK_OFFSET(0x1D165F10)
 
-inline static constexpr unsigned int Class_1_DB66722311040883_TypeDefinitionIndex = 11288;
+inline static constexpr unsigned int Class_1_DB66722311040883_TypeDefinitionIndex = 11304;
 
 class Class_1_DB66722311040883 : public ::System::Object
 {
 public:
-	::System::String* HMFPPOIIKHL; // 0x10
-	::System::String* GNCEJNFIOJP; // 0x18
-	::System::String* PPEBOKHAFNL; // 0x20
+	::System::String* PPEBOKHAFNL; // 0x10
+	::System::String* HMFPPOIIKHL; // 0x18
+	::System::String* GNCEJNFIOJP; // 0x20
 	::System::UInt32 BGDFEPFLGOC; // 0x28
-	::System::UInt32 PHFMCACHFIJ; // 0x2C
-	::System::Boolean GNDCCBNILML; // 0x30
-	::System::UInt32 CKOIGMMCPKH; // 0x34
-	::System::UInt32 DGHMGKCJAAF; // 0x38
-	::System::UInt32 LEIDKFJDHMM; // 0x3C
-	::System::UInt32 LIIPLGLNPGB; // 0x40
-	::RPG::Client::TextID PPCOMAHNFOL; // 0x48
+	::System::Boolean GNDCCBNILML; // 0x2C
+	::System::UInt32 LIIPLGLNPGB; // 0x30
+	::RPG::Client::TextID PPCOMAHNFOL; // 0x38
+	::System::UInt32 CKOIGMMCPKH; // 0x48
+	::System::UInt32 LEIDKFJDHMM; // 0x4C
+	::System::UInt32 DGHMGKCJAAF; // 0x50
+	::System::UInt32 PHFMCACHFIJ; // 0x54
 
 	::System::Void _ctor()
 	{

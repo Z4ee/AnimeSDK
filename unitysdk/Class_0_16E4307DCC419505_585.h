@@ -1,9 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/RtCharacterState.h"
 
-class Class_1_D90D29A0DA06B4F8;
-
-inline static constexpr unsigned int Class_0_16E4307DCC419505_585_TypeDefinitionIndex = 56207;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_585_TypeDefinitionIndex = 53973;
 
 class Class_0_16E4307DCC419505_585
 {

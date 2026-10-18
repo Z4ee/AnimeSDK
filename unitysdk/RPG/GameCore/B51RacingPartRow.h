@@ -9,24 +9,24 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_B51RACINGPARTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CE5DC30)
-#define RPG_GAMECORE_B51RACINGPARTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE5DFA0)
+#define RPG_GAMECORE_B51RACINGPARTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D434070)
+#define RPG_GAMECORE_B51RACINGPARTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D4343C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int B51RacingPartRow_TypeDefinitionIndex = 10948;
+	inline static constexpr unsigned int B51RacingPartRow_TypeDefinitionIndex = 10964;
 
 	class B51RacingPartRow : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::B51RacingStatType, ::System::UInt32>* AddStatTierMap; // 0x10
-		::System::String* IconPath; // 0x18
+		::System::String* IconPath; // 0x10
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::B51RacingStatType, ::System::UInt32>* AddStatTierMap; // 0x18
 		::System::String* AssetPath; // 0x20
-		::RPG::Client::TextID Name; // 0x28
-		::System::UInt32 ID; // 0x38
-		::RPG::GameCore::B51RacingPartType Type; // 0x3C
-		::System::UInt32 SkillID; // 0x40
-		::System::Boolean IsDefault; // 0x44
+		::System::UInt32 ID; // 0x28
+		::System::UInt32 SkillID; // 0x2C
+		::RPG::GameCore::B51RacingPartType Type; // 0x30
+		::System::Boolean IsDefault; // 0x34
+		::RPG::Client::TextID Name; // 0x38
 
 		::System::Void _ctor()
 		{

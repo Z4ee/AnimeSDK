@@ -7,29 +7,29 @@ namespace RPG::Client { class Book; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_BOOKSERIES___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC961750)
-#define RPG_CLIENT_BOOKSERIES___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC961790)
-#define RPG_CLIENT_BOOKSERIES___C__GETBOOKS_B__5_0_OFFSET UNITYSDK_OFFSET(0xC9617A0)
-#define RPG_CLIENT_BOOKSERIES___C__GET_HASAUDIOCONTENT_B__53_0_OFFSET UNITYSDK_OFFSET(0xC961860)
+#define RPG_CLIENT_BOOKSERIES___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC8AFCB0)
+#define RPG_CLIENT_BOOKSERIES___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC8AFCF0)
+#define RPG_CLIENT_BOOKSERIES___C__GETBOOKS_B__5_0_OFFSET UNITYSDK_OFFSET(0xC8AFD00)
+#define RPG_CLIENT_BOOKSERIES___C__GET_HASAUDIOCONTENT_B__53_0_OFFSET UNITYSDK_OFFSET(0xC8AFDC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BookSeries___c_TypeDefinitionIndex = 66419;
+	inline static constexpr unsigned int BookSeries___c_TypeDefinitionIndex = 66379;
 
 	class BookSeries___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::BookSeries___c** StaticGet___9()
+		static ::System::Comparison_1<::RPG::Client::Book*>** StaticGet___9__5_0()
 		{
-			return (::RPG::Client::BookSeries___c**)Il2CppClass::FromTypeDefinitionIndex(BookSeries___c_TypeDefinitionIndex)->GetStaticField(0x12E40);
+			return (::System::Comparison_1<::RPG::Client::Book*>**)Il2CppClass::FromTypeDefinitionIndex(BookSeries___c_TypeDefinitionIndex)->GetStaticField(0x5EE70);
 		}
 		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::Book*>, ::System::Boolean>** StaticGet___9__53_0()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::Book*>, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(BookSeries___c_TypeDefinitionIndex)->GetStaticField(0x12E48);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::Book*>, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(BookSeries___c_TypeDefinitionIndex)->GetStaticField(0x5EE78);
 		}
-		static ::System::Comparison_1<::RPG::Client::Book*>** StaticGet___9__5_0()
+		static ::RPG::Client::BookSeries___c** StaticGet___9()
 		{
-			return (::System::Comparison_1<::RPG::Client::Book*>**)Il2CppClass::FromTypeDefinitionIndex(BookSeries___c_TypeDefinitionIndex)->GetStaticField(0x12E50);
+			return (::RPG::Client::BookSeries___c**)Il2CppClass::FromTypeDefinitionIndex(BookSeries___c_TypeDefinitionIndex)->GetStaticField(0x5EE80);
 		}
 
 		static ::System::Void _cctor()

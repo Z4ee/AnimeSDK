@@ -5,12 +5,12 @@
 
 namespace RPG::Client { class FightFestChallengeLevelData; }
 
-#define RPG_CLIENT_FIGHTFESTCHALLENGERESULTINFO_CREATE_OFFSET UNITYSDK_OFFSET(0xD04F300)
-#define RPG_CLIENT_FIGHTFESTCHALLENGERESULTINFO_DISPOSE_OFFSET UNITYSDK_OFFSET(0x14EF60)
+#define RPG_CLIENT_FIGHTFESTCHALLENGERESULTINFO_CREATE_OFFSET UNITYSDK_OFFSET(0xCFEE630)
+#define RPG_CLIENT_FIGHTFESTCHALLENGERESULTINFO_DISPOSE_OFFSET UNITYSDK_OFFSET(0xE8610)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FightFestChallengeResultInfo_TypeDefinitionIndex = 64254;
+	inline static constexpr unsigned int FightFestChallengeResultInfo_TypeDefinitionIndex = 64192;
 
 	struct alignas(8) FightFestChallengeResultInfo
 	{

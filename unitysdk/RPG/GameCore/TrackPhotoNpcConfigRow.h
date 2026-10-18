@@ -5,21 +5,21 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_TRACKPHOTONPCCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D5D78C0)
-#define RPG_GAMECORE_TRACKPHOTONPCCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5D7AE0)
+#define RPG_GAMECORE_TRACKPHOTONPCCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DC2AA30)
+#define RPG_GAMECORE_TRACKPHOTONPCCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1DC2AC50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrackPhotoNpcConfigRow_TypeDefinitionIndex = 12427;
+	inline static constexpr unsigned int TrackPhotoNpcConfigRow_TypeDefinitionIndex = 12513;
 
 	class TrackPhotoNpcConfigRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 NpcID; // 0x10
-		::RPG::GameCore::TrackPhotoCanType CanTypeID; // 0x14
+		::RPG::GameCore::TrackPhotoCanType CanTypeID; // 0x10
+		::System::UInt32 StageID; // 0x14
 		::System::UInt32 GroupID; // 0x18
-		::System::Boolean IsExtraNpc; // 0x1C
-		::System::UInt32 StageID; // 0x20
+		::System::UInt32 NpcID; // 0x1C
+		::System::Boolean IsExtraNpc; // 0x20
 
 		::System::Void _ctor()
 		{

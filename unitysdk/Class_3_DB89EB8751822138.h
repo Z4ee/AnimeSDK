@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByCompareLastKillSkill; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_DB89EB8751822138_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB5D8BA0)
-#define CLASS_3_DB89EB8751822138__CTOR_OFFSET UNITYSDK_OFFSET(0xB5D8B70)
+#define CLASS_3_DB89EB8751822138_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB41D430)
+#define CLASS_3_DB89EB8751822138__CTOR_OFFSET UNITYSDK_OFFSET(0xB41D400)
 
-inline static constexpr unsigned int Class_3_DB89EB8751822138_TypeDefinitionIndex = 54751;
+inline static constexpr unsigned int Class_3_DB89EB8751822138_TypeDefinitionIndex = 54539;
 
 class Class_3_DB89EB8751822138 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByCompareLastKillSkill*>
 {

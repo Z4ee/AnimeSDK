@@ -9,44 +9,44 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Threading::Tasks { class Task; }
 namespace System::Threading::Tasks { template <typename T> class Task_1; }
 
-#define CLASS_1_8A0744A5CDB04F6F_METHOD_1_001B3F400F7498C9_OFFSET UNITYSDK_OFFSET(0x162DB6C0)
-#define CLASS_1_8A0744A5CDB04F6F_METHOD_1_09E83A66EDE143F3_OFFSET UNITYSDK_OFFSET(0x162DB380)
-#define CLASS_1_8A0744A5CDB04F6F_METHOD_1_35B49A22B7095C59_OFFSET UNITYSDK_OFFSET(0x162DB950)
-#define CLASS_1_8A0744A5CDB04F6F_METHOD_1_36C424B4E32AE4B0_OFFSET UNITYSDK_OFFSET(0x162DB490)
-#define CLASS_1_8A0744A5CDB04F6F_METHOD_1_6C0CD3A613864371_OFFSET UNITYSDK_OFFSET(0x162DB290)
-#define CLASS_1_8A0744A5CDB04F6F_METHOD_1_C323ADEF529AF377_OFFSET UNITYSDK_OFFSET(0x162DB590)
-#define CLASS_1_8A0744A5CDB04F6F_METHOD_1_F03AAE4D1433A772_OFFSET UNITYSDK_OFFSET(0x162DB170)
-#define CLASS_1_8A0744A5CDB04F6F_METHOD_1_F122F1E0722CF168_OFFSET UNITYSDK_OFFSET(0x162DB060)
-#define CLASS_1_8A0744A5CDB04F6F_METHOD_1_F96C3C9AEB3FB6E2_OFFSET UNITYSDK_OFFSET(0x162DB840)
-#define CLASS_1_8A0744A5CDB04F6F__CTOR_OFFSET UNITYSDK_OFFSET(0x162DB050)
+#define CLASS_1_8A0744A5CDB04F6F_METHOD_1_001B3F400F7498C9_OFFSET UNITYSDK_OFFSET(0xB1C0FC0)
+#define CLASS_1_8A0744A5CDB04F6F_METHOD_1_08B73798457994B5_OFFSET UNITYSDK_OFFSET(0xB1C0A40)
+#define CLASS_1_8A0744A5CDB04F6F_METHOD_1_09E83A66EDE143F3_OFFSET UNITYSDK_OFFSET(0xB1C0C50)
+#define CLASS_1_8A0744A5CDB04F6F_METHOD_1_19245CCC668AF08F_OFFSET UNITYSDK_OFFSET(0xB1C0940)
+#define CLASS_1_8A0744A5CDB04F6F_METHOD_1_35B49A22B7095C59_OFFSET UNITYSDK_OFFSET(0xB1C1250)
+#define CLASS_1_8A0744A5CDB04F6F_METHOD_1_36C424B4E32AE4B0_OFFSET UNITYSDK_OFFSET(0xB1C0D60)
+#define CLASS_1_8A0744A5CDB04F6F_METHOD_1_C323ADEF529AF377_OFFSET UNITYSDK_OFFSET(0xB1C0E80)
+#define CLASS_1_8A0744A5CDB04F6F_METHOD_1_E48E23BC11B5A87C_OFFSET UNITYSDK_OFFSET(0xB1C0B60)
+#define CLASS_1_8A0744A5CDB04F6F_METHOD_1_F96C3C9AEB3FB6E2_OFFSET UNITYSDK_OFFSET(0xB1C1140)
+#define CLASS_1_8A0744A5CDB04F6F__CTOR_OFFSET UNITYSDK_OFFSET(0xB1C0930)
 
-inline static constexpr unsigned int Class_1_8A0744A5CDB04F6F_TypeDefinitionIndex = 50404;
+inline static constexpr unsigned int Class_1_8A0744A5CDB04F6F_TypeDefinitionIndex = 50033;
 
 class Class_1_8A0744A5CDB04F6F : public ::System::Object
 {
 public:
 	// static const ::System::String* BHAMKDDIOGF; // 0x0
-	::System::String* LBIEIMLONCE; // 0x10
-	::System::String* EOGGNKAHNJF; // 0x18
+	::System::String* EOGGNKAHNJF; // 0x10
+	::System::String* LBIEIMLONCE; // 0x18
 
 	::System::Void _ctor(::System::String* a1, ::System::String* a2)
 	{
 		return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_8A0744A5CDB04F6F__CTOR_OFFSET))(this, a1, a2);
 	}
 
-	::System::Threading::Tasks::Task_1<::Il2CppArray<::Il2CppArray<::Newtonsoft::Json::Linq::JToken*>*>*>* Method_1_F122F1E0722CF168(::System::String* a1, ::System::String* a2)
+	::System::Threading::Tasks::Task_1<::Il2CppArray<::Il2CppArray<::Newtonsoft::Json::Linq::JToken*>*>*>* Method_1_19245CCC668AF08F(::System::String* a1, ::System::String* a2)
 	{
-		return ((::System::Threading::Tasks::Task_1<::Il2CppArray<::Il2CppArray<::Newtonsoft::Json::Linq::JToken*>*>*>*(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_8A0744A5CDB04F6F_METHOD_1_F122F1E0722CF168_OFFSET))(this, a1, a2);
+		return ((::System::Threading::Tasks::Task_1<::Il2CppArray<::Il2CppArray<::Newtonsoft::Json::Linq::JToken*>*>*>*(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_8A0744A5CDB04F6F_METHOD_1_19245CCC668AF08F_OFFSET))(this, a1, a2);
 	}
 
-	::System::Threading::Tasks::Task_1<::System::String*>* Method_1_F03AAE4D1433A772(::System::String* a1, ::System::String* a2)
+	::System::Threading::Tasks::Task_1<::System::String*>* Method_1_08B73798457994B5(::System::String* a1, ::System::String* a2)
 	{
-		return ((::System::Threading::Tasks::Task_1<::System::String*>*(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_8A0744A5CDB04F6F_METHOD_1_F03AAE4D1433A772_OFFSET))(this, a1, a2);
+		return ((::System::Threading::Tasks::Task_1<::System::String*>*(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_8A0744A5CDB04F6F_METHOD_1_08B73798457994B5_OFFSET))(this, a1, a2);
 	}
 
-	::System::Threading::Tasks::Task_1<::Il2CppArray<::System::String*>*>* Method_1_6C0CD3A613864371(::System::String* a1)
+	::System::Threading::Tasks::Task_1<::Il2CppArray<::System::String*>*>* Method_1_E48E23BC11B5A87C(::System::String* a1)
 	{
-		return ((::System::Threading::Tasks::Task_1<::Il2CppArray<::System::String*>*>*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_8A0744A5CDB04F6F_METHOD_1_6C0CD3A613864371_OFFSET))(this, a1);
+		return ((::System::Threading::Tasks::Task_1<::Il2CppArray<::System::String*>*>*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_8A0744A5CDB04F6F_METHOD_1_E48E23BC11B5A87C_OFFSET))(this, a1);
 	}
 
 	::System::Threading::Tasks::Task_1<::System::String*>* Method_1_09E83A66EDE143F3(::System::String* a1)

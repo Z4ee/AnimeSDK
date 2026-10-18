@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_EVOLVEBUILDCOLLECTIONMONSTER__CTOR_OFFSET UNITYSDK_OFFSET(0xCED2750)
+#define RPG_CLIENT_EVOLVEBUILDCOLLECTIONMONSTER__CTOR_OFFSET UNITYSDK_OFFSET(0xCE211C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EvolveBuildCollectionMonster_TypeDefinitionIndex = 63853;
+	inline static constexpr unsigned int EvolveBuildCollectionMonster_TypeDefinitionIndex = 63791;
 
 	class EvolveBuildCollectionMonster : public ::System::Object
 	{

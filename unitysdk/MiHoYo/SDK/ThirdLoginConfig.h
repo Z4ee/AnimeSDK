@@ -5,12 +5,12 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_THIRDLOGINCONFIG_GETLOGINTYPE_OFFSET UNITYSDK_OFFSET(0x1BAD7FD0)
-#define MIHOYO_SDK_THIRDLOGINCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BAD8190)
+#define MIHOYO_SDK_THIRDLOGINCONFIG_GETLOGINTYPE_OFFSET UNITYSDK_OFFSET(0x1BFE2950)
+#define MIHOYO_SDK_THIRDLOGINCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BFE2B10)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ThirdLoginConfig_TypeDefinitionIndex = 7863;
+	inline static constexpr unsigned int ThirdLoginConfig_TypeDefinitionIndex = 7907;
 
 	class ThirdLoginConfig : public ::System::Object
 	{

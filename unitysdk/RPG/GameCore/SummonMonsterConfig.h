@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_SUMMONMONSTERCONFIG_METHOD_2_85AB3E37885635D0_OFFSET UNITYSDK_OFFSET(0x1D583B90)
-#define RPG_GAMECORE_SUMMONMONSTERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D583C50)
+#define RPG_GAMECORE_SUMMONMONSTERCONFIG_METHOD_2_85AB3E37885635D0_OFFSET UNITYSDK_OFFSET(0x1DB3A230)
+#define RPG_GAMECORE_SUMMONMONSTERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB3A2F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SummonMonsterConfig_TypeDefinitionIndex = 16192;
+	inline static constexpr unsigned int SummonMonsterConfig_TypeDefinitionIndex = 16365;
 
 	class SummonMonsterConfig : public ::RPG::GameCore::JsonConfig
 	{

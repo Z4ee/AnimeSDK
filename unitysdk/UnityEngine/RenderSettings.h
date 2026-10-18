@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class Light; }
 
-#define UNITYENGINE_RENDERSETTINGS_GET_SUN_OFFSET UNITYSDK_OFFSET(0x1ED4EA40)
+#define UNITYENGINE_RENDERSETTINGS_GET_SUN_OFFSET UNITYSDK_OFFSET(0x1F416BC0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int RenderSettings_TypeDefinitionIndex = 4137;
+	inline static constexpr unsigned int RenderSettings_TypeDefinitionIndex = 4138;
 
 	class RenderSettings : public ::UnityEngine::Object
 	{

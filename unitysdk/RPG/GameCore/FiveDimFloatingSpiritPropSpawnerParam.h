@@ -5,17 +5,17 @@
 #include "unitysdk/RPG/MVector3.h"
 
 class Class_1_7A22A3DBEEDD1F80;
-namespace RPG::GameCore { class FiveDimDynamicVar; }
 namespace RPG::GameCore { class FloatingSpiritBlock; }
+namespace RPG::GameCore { class LittleGameDynamicVar; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIVEDIMFLOATINGSPIRITPROPSPAWNERPARAM_METHOD_3_83054DEDC4FE60A2_OFFSET UNITYSDK_OFFSET(0x1D0E61E0)
-#define RPG_GAMECORE_FIVEDIMFLOATINGSPIRITPROPSPAWNERPARAM_METHOD_3_AC3925C480356C78_OFFSET UNITYSDK_OFFSET(0x1D0E6220)
-#define RPG_GAMECORE_FIVEDIMFLOATINGSPIRITPROPSPAWNERPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0E6210)
+#define RPG_GAMECORE_FIVEDIMFLOATINGSPIRITPROPSPAWNERPARAM_METHOD_3_83054DEDC4FE60A2_OFFSET UNITYSDK_OFFSET(0x1D6BE940)
+#define RPG_GAMECORE_FIVEDIMFLOATINGSPIRITPROPSPAWNERPARAM_METHOD_3_AC3925C480356C78_OFFSET UNITYSDK_OFFSET(0x1D6BE980)
+#define RPG_GAMECORE_FIVEDIMFLOATINGSPIRITPROPSPAWNERPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6BE970)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimFloatingSpiritPropSpawnerParam_TypeDefinitionIndex = 18365;
+	inline static constexpr unsigned int FiveDimFloatingSpiritPropSpawnerParam_TypeDefinitionIndex = 18580;
 
 	class FiveDimFloatingSpiritPropSpawnerParam : public ::RPG::GameCore::FiveDimPropSpawnerParam
 	{
@@ -32,7 +32,7 @@ namespace RPG::GameCore
 		::System::UInt16 StartIndex; // 0x3A
 		::System::Boolean StartMoveBackward; // 0x3C
 		::System::Boolean BindLevelVarBlock; // 0x3D
-		::RPG::GameCore::FiveDimDynamicVar* BindLevelVarName; // 0x40
+		::RPG::GameCore::LittleGameDynamicVar* BindLevelVarName; // 0x40
 		::Il2CppArray<::RPG::GameCore::FloatingSpiritBlock*>* LevelVarBlockIndex; // 0x48
 		::System::Boolean HasAttachEntity; // 0x50
 		::System::UInt32 AttachEntityID; // 0x54

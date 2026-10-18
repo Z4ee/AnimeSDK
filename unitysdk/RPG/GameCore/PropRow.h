@@ -11,36 +11,36 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class PropStateIcon; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PROPROW_FROMBINARYWITHOUTNEW_OFFSET UNITYSDK_OFFSET(0x1D3664D0)
-#define RPG_GAMECORE_PROPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D366B30)
-#define RPG_GAMECORE_PROPROW_FROMTABLEOFFSET_OFFSET UNITYSDK_OFFSET(0x1D36DBC0)
-#define RPG_GAMECORE_PROPROW_RESET_OFFSET UNITYSDK_OFFSET(0x1D36DC20)
-#define RPG_GAMECORE_PROPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D36DC60)
+#define RPG_GAMECORE_PROPROW_FROMBINARYWITHOUTNEW_OFFSET UNITYSDK_OFFSET(0x1D94B8E0)
+#define RPG_GAMECORE_PROPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D94BF30)
+#define RPG_GAMECORE_PROPROW_FROMTABLEOFFSET_OFFSET UNITYSDK_OFFSET(0x1D953550)
+#define RPG_GAMECORE_PROPROW_RESET_OFFSET UNITYSDK_OFFSET(0x1D9535B0)
+#define RPG_GAMECORE_PROPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D9535F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropRow_TypeDefinitionIndex = 13964;
+	inline static constexpr unsigned int PropRow_TypeDefinitionIndex = 14071;
 
 	class PropRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::RPG::GameCore::AttackDamageType>* DamageTypeList; // 0x10
-		::System::String* PerformanceType; // 0x18
-		::Il2CppArray<::System::Int32>* BoardShowList; // 0x20
-		::System::String* ConfigEntityPath; // 0x28
+		::System::String* PerformanceType; // 0x10
+		::Il2CppArray<::RPG::GameCore::PropState>* PropStateList; // 0x18
+		::Il2CppArray<::RPG::GameCore::AttackDamageType>* DamageTypeList; // 0x20
+		::System::String* PropIconPath; // 0x28
 		::System::String* JsonPath; // 0x30
-		::Il2CppArray<::RPG::GameCore::PropState>* PropStateList; // 0x38
-		::System::String* PropIconPath; // 0x40
-		::Il2CppArray<::RPG::GameCore::PropStateIcon*>* MiniMapStateIcons; // 0x48
-		::RPG::Client::TextID PropName; // 0x50
-		::System::UInt32 PropParam; // 0x60
-		::System::UInt32 ID; // 0x64
-		::RPG::GameCore::PropType PropType; // 0x68
-		::RPG::Client::TextID PropTitle; // 0x70
-		::System::Boolean HasRendererComponent; // 0x80
-		::System::SByte LodPriority; // 0x81
-		::System::Boolean IsMapContent; // 0x82
-		::System::UInt32 MiniMapIconType; // 0x84
+		::Il2CppArray<::RPG::GameCore::PropStateIcon*>* MiniMapStateIcons; // 0x38
+		::System::String* ConfigEntityPath; // 0x40
+		::Il2CppArray<::System::Int32>* BoardShowList; // 0x48
+		::RPG::GameCore::PropType PropType; // 0x50
+		::System::UInt32 PropParam; // 0x54
+		::System::UInt32 ID; // 0x58
+		::RPG::Client::TextID PropName; // 0x60
+		::System::SByte LodPriority; // 0x70
+		::System::Boolean IsMapContent; // 0x71
+		::System::Boolean HasRendererComponent; // 0x72
+		::System::UInt32 MiniMapIconType; // 0x74
+		::RPG::Client::TextID PropTitle; // 0x78
 
 		::System::Void _ctor()
 		{

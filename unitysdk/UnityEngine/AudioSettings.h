@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class AudioSettings_AudioConfigurationChangeHandler; }
 
-#define UNITYENGINE_AUDIOSETTINGS_INVOKEONAUDIOCONFIGURATIONCHANGED_OFFSET UNITYSDK_OFFSET(0x1ECFB4C0)
+#define UNITYENGINE_AUDIOSETTINGS_INVOKEONAUDIOCONFIGURATIONCHANGED_OFFSET UNITYSDK_OFFSET(0x1F3C3260)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int AudioSettings_TypeDefinitionIndex = 5135;
+	inline static constexpr unsigned int AudioSettings_TypeDefinitionIndex = 5142;
 
 	class AudioSettings : public ::System::Object
 	{

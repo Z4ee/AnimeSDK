@@ -6,12 +6,12 @@ class Class_1_F963C9FA5FC80637;
 namespace RPG::Client::Challenge::Tierce { class ChallengeTierceTeamEditViewModel; }
 namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
 
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITVIEWMODEL___C__DISPLAYCLASS27_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCA21670)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITVIEWMODEL___C__DISPLAYCLASS27_0__TRYSTARTCHALLENGE_B__0_OFFSET UNITYSDK_OFFSET(0xCA21A20)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITVIEWMODEL___C__DISPLAYCLASS27_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC96FD60)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITVIEWMODEL___C__DISPLAYCLASS27_0__TRYSTARTCHALLENGE_B__0_OFFSET UNITYSDK_OFFSET(0xC970110)
 
 namespace RPG::Client::Challenge::Tierce
 {
-	inline static constexpr unsigned int ChallengeTierceTeamEditViewModel___c__DisplayClass27_0_TypeDefinitionIndex = 80305;
+	inline static constexpr unsigned int ChallengeTierceTeamEditViewModel___c__DisplayClass27_0_TypeDefinitionIndex = 81633;
 
 	class ChallengeTierceTeamEditViewModel___c__DisplayClass27_0 : public ::System::Object
 	{

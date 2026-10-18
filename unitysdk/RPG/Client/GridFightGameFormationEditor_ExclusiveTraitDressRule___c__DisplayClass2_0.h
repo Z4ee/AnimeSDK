@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class GridFightEquipItemConfig; }
 
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_EXCLUSIVETRAITDRESSRULE___C__DISPLAYCLASS2_0__CANDRESS_B__0_OFFSET UNITYSDK_OFFSET(0xD1B3380)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_EXCLUSIVETRAITDRESSRULE___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD1B3370)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_EXCLUSIVETRAITDRESSRULE___C__DISPLAYCLASS2_0__CANDRESS_B__0_OFFSET UNITYSDK_OFFSET(0xD152DD0)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_EXCLUSIVETRAITDRESSRULE___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD152DC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightGameFormationEditor_ExclusiveTraitDressRule___c__DisplayClass2_0_TypeDefinitionIndex = 64694;
+	inline static constexpr unsigned int GridFightGameFormationEditor_ExclusiveTraitDressRule___c__DisplayClass2_0_TypeDefinitionIndex = 64634;
 
 	class GridFightGameFormationEditor_ExclusiveTraitDressRule___c__DisplayClass2_0 : public ::System::Object
 	{

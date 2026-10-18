@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int LightInfoFlag_TypeDefinitionIndex = 36826;
+	inline static constexpr unsigned int LightInfoFlag_TypeDefinitionIndex = 37513;
 
 	enum class LightInfoFlag : ::System::Int32
 	{
@@ -26,6 +26,7 @@ namespace UnityEngine::Rendering
 		kTSCState = 65536,
 		kLightQualityV2 = 131072,
 		kForceCharacterAffect = 262144,
+		kExpandSpotLightProxy = 524288,
 		kLightDebugAlwaysUpdate = 268435456,
 	};
 }

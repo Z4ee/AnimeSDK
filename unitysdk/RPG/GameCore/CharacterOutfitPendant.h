@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHARACTEROUTFITPENDANT_METHOD_2_7D46D474BE655A6E_OFFSET UNITYSDK_OFFSET(0x1CF99AD0)
-#define RPG_GAMECORE_CHARACTEROUTFITPENDANT__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF99D20)
+#define RPG_GAMECORE_CHARACTEROUTFITPENDANT_METHOD_2_089307D341A71330_OFFSET UNITYSDK_OFFSET(0x1D574650)
+#define RPG_GAMECORE_CHARACTEROUTFITPENDANT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5749B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterOutfitPendant_TypeDefinitionIndex = 17288;
+	inline static constexpr unsigned int CharacterOutfitPendant_TypeDefinitionIndex = 17484;
 
 	class CharacterOutfitPendant : public ::RPG::GameCore::JsonConfig
 	{
@@ -28,9 +28,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTEROUTFITPENDANT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_7D46D474BE655A6E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CharacterOutfitPendant*& a2)
+		static ::System::Void Method_2_089307D341A71330(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CharacterOutfitPendant*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CharacterOutfitPendant*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTEROUTFITPENDANT_METHOD_2_7D46D474BE655A6E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CharacterOutfitPendant*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTEROUTFITPENDANT_METHOD_2_089307D341A71330_OFFSET))(a1, a2);
 		}
 	};
 }

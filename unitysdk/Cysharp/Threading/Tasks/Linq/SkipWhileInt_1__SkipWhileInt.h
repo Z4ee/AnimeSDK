@@ -8,7 +8,7 @@ namespace System { template <typename T1, typename T2, typename T3> class Func_3
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int SkipWhileInt_1__SkipWhileInt_TypeDefinitionIndex = 44452;
+	inline static constexpr unsigned int SkipWhileInt_1__SkipWhileInt_TypeDefinitionIndex = 45591;
 
 	template <typename TSource>
 	class SkipWhileInt_1__SkipWhileInt : public ::Cysharp::Threading::Tasks::Linq::AsyncEnumeratorBase_2<TSource, TSource>

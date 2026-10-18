@@ -6,11 +6,11 @@ namespace RPG::Client { class RogueTournCollectionInfo; }
 namespace RPG::GameCore { class ByIsRogueTournCollectionDisplayingCollection; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_EDAF2148B79C0566_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15388960)
-#define CLASS_3_EDAF2148B79C0566_METHOD_3_D9869B46982E29C2_OFFSET UNITYSDK_OFFSET(0x15388D80)
-#define CLASS_3_EDAF2148B79C0566__CTOR_OFFSET UNITYSDK_OFFSET(0x15388930)
+#define CLASS_3_EDAF2148B79C0566_EVALUATE_OFFSET UNITYSDK_OFFSET(0x155926A0)
+#define CLASS_3_EDAF2148B79C0566_METHOD_3_D9869B46982E29C2_OFFSET UNITYSDK_OFFSET(0x15592AC0)
+#define CLASS_3_EDAF2148B79C0566__CTOR_OFFSET UNITYSDK_OFFSET(0x15592670)
 
-inline static constexpr unsigned int Class_3_EDAF2148B79C0566_TypeDefinitionIndex = 58136;
+inline static constexpr unsigned int Class_3_EDAF2148B79C0566_TypeDefinitionIndex = 57984;
 
 class Class_3_EDAF2148B79C0566 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByIsRogueTournCollectionDisplayingCollection*>
 {

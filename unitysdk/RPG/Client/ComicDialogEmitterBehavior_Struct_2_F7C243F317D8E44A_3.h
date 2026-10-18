@@ -4,7 +4,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ComicDialogEmitterBehavior_Struct_2_F7C243F317D8E44A_3_TypeDefinitionIndex = 70840;
+	inline static constexpr unsigned int ComicDialogEmitterBehavior_Struct_2_F7C243F317D8E44A_3_TypeDefinitionIndex = 70878;
 
 	struct alignas(4) ComicDialogEmitterBehavior_Struct_2_F7C243F317D8E44A_3
 	{

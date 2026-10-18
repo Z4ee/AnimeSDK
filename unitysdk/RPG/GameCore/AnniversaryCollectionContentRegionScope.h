@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AnniversaryCollectionContentRegionScope_TypeDefinitionIndex = 12574;
+	inline static constexpr unsigned int AnniversaryCollectionContentRegionScope_TypeDefinitionIndex = 12664;
 
 	enum class AnniversaryCollectionContentRegionScope : ::System::Int32
 	{

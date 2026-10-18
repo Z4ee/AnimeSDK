@@ -5,12 +5,12 @@
 namespace MiHoYo::SDK { class Web; }
 namespace System { class Action; }
 
-#define MIHOYO_SDK_WIN_OVERSEAPAYMANAGER___C__DISPLAYCLASS41_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8BEF30)
-#define MIHOYO_SDK_WIN_OVERSEAPAYMANAGER___C__DISPLAYCLASS41_0__SHOWPAYAGELIMITLEGACY_B__0_OFFSET UNITYSDK_OFFSET(0x1B8C7C00)
+#define MIHOYO_SDK_WIN_OVERSEAPAYMANAGER___C__DISPLAYCLASS41_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDBC1A0)
+#define MIHOYO_SDK_WIN_OVERSEAPAYMANAGER___C__DISPLAYCLASS41_0__SHOWPAYAGELIMITLEGACY_B__0_OFFSET UNITYSDK_OFFSET(0x1BDC4E70)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int OverseaPayManager___c__DisplayClass41_0_TypeDefinitionIndex = 9284;
+	inline static constexpr unsigned int OverseaPayManager___c__DisplayClass41_0_TypeDefinitionIndex = 9342;
 
 	class OverseaPayManager___c__DisplayClass41_0 : public ::System::Object
 	{

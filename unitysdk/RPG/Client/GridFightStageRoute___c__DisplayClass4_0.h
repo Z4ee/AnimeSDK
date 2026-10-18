@@ -4,12 +4,12 @@
 
 namespace RPG::GameCore { class GridFightStageRouteConfigRow; }
 
-#define RPG_CLIENT_GRIDFIGHTSTAGEROUTE___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD32FE90)
-#define RPG_CLIENT_GRIDFIGHTSTAGEROUTE___C__DISPLAYCLASS4_0__SYNCROUTEID_B__0_OFFSET UNITYSDK_OFFSET(0xD330420)
+#define RPG_CLIENT_GRIDFIGHTSTAGEROUTE___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD289330)
+#define RPG_CLIENT_GRIDFIGHTSTAGEROUTE___C__DISPLAYCLASS4_0__SYNCROUTEID_B__0_OFFSET UNITYSDK_OFFSET(0xD2898C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightStageRoute___c__DisplayClass4_0_TypeDefinitionIndex = 65311;
+	inline static constexpr unsigned int GridFightStageRoute___c__DisplayClass4_0_TypeDefinitionIndex = 65251;
 
 	class GridFightStageRoute___c__DisplayClass4_0 : public ::System::Object
 	{

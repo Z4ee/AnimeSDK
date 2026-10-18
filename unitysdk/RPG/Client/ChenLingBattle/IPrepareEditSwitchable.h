@@ -6,7 +6,7 @@ namespace System { class Object; }
 
 namespace RPG::Client::ChenLingBattle
 {
-	inline static constexpr unsigned int IPrepareEditSwitchable_TypeDefinitionIndex = 75815;
+	inline static constexpr unsigned int IPrepareEditSwitchable_TypeDefinitionIndex = 76292;
 
 	class IPrepareEditSwitchable
 	{

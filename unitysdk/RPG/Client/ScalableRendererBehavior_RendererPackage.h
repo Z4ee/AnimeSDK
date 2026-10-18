@@ -5,12 +5,12 @@
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Mesh; }
 
-#define RPG_CLIENT_SCALABLERENDERERBEHAVIOR_RENDERERPACKAGE_GET_VALIDFORRENDERING_OFFSET UNITYSDK_OFFSET(0xE05A350)
-#define RPG_CLIENT_SCALABLERENDERERBEHAVIOR_RENDERERPACKAGE__CTOR_OFFSET UNITYSDK_OFFSET(0xE058D80)
+#define RPG_CLIENT_SCALABLERENDERERBEHAVIOR_RENDERERPACKAGE_GET_VALIDFORRENDERING_OFFSET UNITYSDK_OFFSET(0xE094620)
+#define RPG_CLIENT_SCALABLERENDERERBEHAVIOR_RENDERERPACKAGE__CTOR_OFFSET UNITYSDK_OFFSET(0xE093020)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ScalableRendererBehavior_RendererPackage_TypeDefinitionIndex = 70274;
+	inline static constexpr unsigned int ScalableRendererBehavior_RendererPackage_TypeDefinitionIndex = 70310;
 
 	class ScalableRendererBehavior_RendererPackage : public ::System::Object
 	{

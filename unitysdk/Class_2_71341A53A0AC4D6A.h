@@ -7,24 +7,24 @@ namespace RPG::GameCore { class SetLoopMoveObjectSpeed; }
 namespace RPG::GameCore { class TaskContext; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define CLASS_2_71341A53A0AC4D6A_DISPOSE_OFFSET UNITYSDK_OFFSET(0x152921E0)
-#define CLASS_2_71341A53A0AC4D6A_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15292220)
-#define CLASS_2_71341A53A0AC4D6A_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15292470)
-#define CLASS_2_71341A53A0AC4D6A_TICK_OFFSET UNITYSDK_OFFSET(0x152924C0)
-#define CLASS_2_71341A53A0AC4D6A__CTOR_OFFSET UNITYSDK_OFFSET(0x152921D0)
+#define CLASS_2_71341A53A0AC4D6A_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1553BD40)
+#define CLASS_2_71341A53A0AC4D6A_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1553BD80)
+#define CLASS_2_71341A53A0AC4D6A_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1553BFD0)
+#define CLASS_2_71341A53A0AC4D6A_TICK_OFFSET UNITYSDK_OFFSET(0x1553C020)
+#define CLASS_2_71341A53A0AC4D6A__CTOR_OFFSET UNITYSDK_OFFSET(0x1553BD30)
 
-inline static constexpr unsigned int Class_2_71341A53A0AC4D6A_TypeDefinitionIndex = 58703;
+inline static constexpr unsigned int Class_2_71341A53A0AC4D6A_TypeDefinitionIndex = 58555;
 
 class Class_2_71341A53A0AC4D6A : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-	::RPG::Client::LoopSceneMoveObject* HGDAENIAFKC; // 0x20
-	::UnityEngine::AnimationCurve* BKHPEABMAOE; // 0x28
-	::RPG::GameCore::SetLoopMoveObjectSpeed* OFKGLJOAMLD; // 0x30
-	::System::Boolean DLNNFPKMHLO; // 0x38
-	::System::Single BOBKPMMHHAM; // 0x3C
-	::System::Single PGMIOKKLHIE; // 0x40
+	::RPG::GameCore::SetLoopMoveObjectSpeed* OFKGLJOAMLD; // 0x18
+	::UnityEngine::AnimationCurve* BKHPEABMAOE; // 0x20
+	::RPG::Client::LoopSceneMoveObject* HGDAENIAFKC; // 0x28
+	::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x30
+	::System::Single BOBKPMMHHAM; // 0x38
+	::System::Single PGMIOKKLHIE; // 0x3C
+	::System::Boolean DLNNFPKMHLO; // 0x40
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SetLoopMoveObjectSpeed* a2)
 	{

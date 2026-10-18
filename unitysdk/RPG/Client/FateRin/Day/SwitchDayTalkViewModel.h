@@ -9,12 +9,12 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Collections::ObjectModel { template <typename T> class ReadOnlyCollection_1; }
 
-#define RPG_CLIENT_FATERIN_DAY_SWITCHDAYTALKVIEWMODEL_GET_ENTRIES_OFFSET UNITYSDK_OFFSET(0xD001650)
-#define RPG_CLIENT_FATERIN_DAY_SWITCHDAYTALKVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xD0010A0)
+#define RPG_CLIENT_FATERIN_DAY_SWITCHDAYTALKVIEWMODEL_GET_ENTRIES_OFFSET UNITYSDK_OFFSET(0xCFA0BC0)
+#define RPG_CLIENT_FATERIN_DAY_SWITCHDAYTALKVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xCFA0610)
 
 namespace RPG::Client::FateRin::Day
 {
-	inline static constexpr unsigned int SwitchDayTalkViewModel_TypeDefinitionIndex = 79748;
+	inline static constexpr unsigned int SwitchDayTalkViewModel_TypeDefinitionIndex = 81072;
 
 	class SwitchDayTalkViewModel : public ::RPG::Client::FateRin::BaseViewModel
 	{

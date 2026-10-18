@@ -4,29 +4,29 @@
 
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_PUNKLORDINSTANCE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xDDB1460)
-#define RPG_CLIENT_PUNKLORDINSTANCE___C__CTOR_OFFSET UNITYSDK_OFFSET(0xDDB14A0)
-#define RPG_CLIENT_PUNKLORDINSTANCE___C__KILLEDBYOTHERS_B__6_0_OFFSET UNITYSDK_OFFSET(0xDDB1520)
-#define RPG_CLIENT_PUNKLORDINSTANCE___C__TIMEOUT_B__5_0_OFFSET UNITYSDK_OFFSET(0xDDB14B0)
+#define RPG_CLIENT_PUNKLORDINSTANCE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xDDFF6D0)
+#define RPG_CLIENT_PUNKLORDINSTANCE___C__CTOR_OFFSET UNITYSDK_OFFSET(0xDDFF710)
+#define RPG_CLIENT_PUNKLORDINSTANCE___C__KILLEDBYOTHERS_B__6_0_OFFSET UNITYSDK_OFFSET(0xDDFF790)
+#define RPG_CLIENT_PUNKLORDINSTANCE___C__TIMEOUT_B__5_0_OFFSET UNITYSDK_OFFSET(0xDDFF720)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PunkLordInstance___c_TypeDefinitionIndex = 66754;
+	inline static constexpr unsigned int PunkLordInstance___c_TypeDefinitionIndex = 66752;
 
 	class PunkLordInstance___c : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::System::Boolean>** StaticGet___9__5_0()
 		{
-			return (::System::Action_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(PunkLordInstance___c_TypeDefinitionIndex)->GetStaticField(0x5EA00);
-		}
-		static ::System::Action_1<::System::Boolean>** StaticGet___9__6_0()
-		{
-			return (::System::Action_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(PunkLordInstance___c_TypeDefinitionIndex)->GetStaticField(0x5EA08);
+			return (::System::Action_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(PunkLordInstance___c_TypeDefinitionIndex)->GetStaticField(0x60CA0);
 		}
 		static ::RPG::Client::PunkLordInstance___c** StaticGet___9()
 		{
-			return (::RPG::Client::PunkLordInstance___c**)Il2CppClass::FromTypeDefinitionIndex(PunkLordInstance___c_TypeDefinitionIndex)->GetStaticField(0x5EA10);
+			return (::RPG::Client::PunkLordInstance___c**)Il2CppClass::FromTypeDefinitionIndex(PunkLordInstance___c_TypeDefinitionIndex)->GetStaticField(0x60CA8);
+		}
+		static ::System::Action_1<::System::Boolean>** StaticGet___9__6_0()
+		{
+			return (::System::Action_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(PunkLordInstance___c_TypeDefinitionIndex)->GetStaticField(0x60CB0);
 		}
 
 		static ::System::Void _cctor()

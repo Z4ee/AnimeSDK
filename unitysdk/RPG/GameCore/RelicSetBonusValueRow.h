@@ -6,12 +6,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_RELICSETBONUSVALUEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3999E0)
-#define RPG_GAMECORE_RELICSETBONUSVALUEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D399BE0)
+#define RPG_GAMECORE_RELICSETBONUSVALUEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D97FE60)
+#define RPG_GAMECORE_RELICSETBONUSVALUEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D980060)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RelicSetBonusValueRow_TypeDefinitionIndex = 10869;
+	inline static constexpr unsigned int RelicSetBonusValueRow_TypeDefinitionIndex = 10885;
 
 	class RelicSetBonusValueRow : public ::System::Object
 	{

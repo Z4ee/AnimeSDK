@@ -11,45 +11,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_MAINMISSIONSCHEDULEEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1D21B0A0)
-#define RPG_GAMECORE_MAINMISSIONSCHEDULEEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1D21AF30)
-#define RPG_GAMECORE_MAINMISSIONSCHEDULEEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1D21AC20)
-#define RPG_GAMECORE_MAINMISSIONSCHEDULEEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1D21AED0)
-#define RPG_GAMECORE_MAINMISSIONSCHEDULEEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1D21B1F0)
-#define RPG_GAMECORE_MAINMISSIONSCHEDULEEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D21ACA0)
-#define RPG_GAMECORE_MAINMISSIONSCHEDULEEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1D21B230)
-#define RPG_GAMECORE_MAINMISSIONSCHEDULEEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D21B400)
-#define RPG_GAMECORE_MAINMISSIONSCHEDULEEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1D21B660)
-#define RPG_GAMECORE_MAINMISSIONSCHEDULEEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D21B980)
-#define RPG_GAMECORE_MAINMISSIONSCHEDULEEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1D21B360)
-#define RPG_GAMECORE_MAINMISSIONSCHEDULEEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D21B2C0)
+#define RPG_GAMECORE_MAINMISSIONSCHEDULEEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1D7FBD40)
+#define RPG_GAMECORE_MAINMISSIONSCHEDULEEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1D7FBBD0)
+#define RPG_GAMECORE_MAINMISSIONSCHEDULEEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1D7FB8C0)
+#define RPG_GAMECORE_MAINMISSIONSCHEDULEEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1D7FBB70)
+#define RPG_GAMECORE_MAINMISSIONSCHEDULEEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1D7FBE90)
+#define RPG_GAMECORE_MAINMISSIONSCHEDULEEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D7FB940)
+#define RPG_GAMECORE_MAINMISSIONSCHEDULEEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1D7FBED0)
+#define RPG_GAMECORE_MAINMISSIONSCHEDULEEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D7FC0A0)
+#define RPG_GAMECORE_MAINMISSIONSCHEDULEEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1D7FC300)
+#define RPG_GAMECORE_MAINMISSIONSCHEDULEEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D7FC620)
+#define RPG_GAMECORE_MAINMISSIONSCHEDULEEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1D7FC000)
+#define RPG_GAMECORE_MAINMISSIONSCHEDULEEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D7FBF60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MainMissionScheduleExcelTable_TypeDefinitionIndex = 14050;
+	inline static constexpr unsigned int MainMissionScheduleExcelTable_TypeDefinitionIndex = 14157;
 
 	class MainMissionScheduleExcelTable : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MainMissionScheduleExcelTable_TypeDefinitionIndex)->GetStaticField(0x1B200);
-		}
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MainMissionScheduleRow*>** StaticGet_dataDict_()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MainMissionScheduleRow*>**)Il2CppClass::FromTypeDefinitionIndex(MainMissionScheduleExcelTable_TypeDefinitionIndex)->GetStaticField(0x1B208);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MainMissionScheduleExcelTable_TypeDefinitionIndex)->GetStaticField(0x35230);
 		}
 		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(MainMissionScheduleExcelTable_TypeDefinitionIndex)->GetStaticField(0x1B210);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(MainMissionScheduleExcelTable_TypeDefinitionIndex)->GetStaticField(0x35238);
+		}
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MainMissionScheduleRow*>** StaticGet_dataDict_()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MainMissionScheduleRow*>**)Il2CppClass::FromTypeDefinitionIndex(MainMissionScheduleExcelTable_TypeDefinitionIndex)->GetStaticField(0x35240);
 		}
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MainMissionScheduleExcelTable_TypeDefinitionIndex)->GetStaticField(0x9690);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MainMissionScheduleExcelTable_TypeDefinitionIndex)->GetStaticField(0xB2A0);
 		}
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(MainMissionScheduleExcelTable_TypeDefinitionIndex)->GetStaticField(0x9691);
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(MainMissionScheduleExcelTable_TypeDefinitionIndex)->GetStaticField(0xB2A1);
 		}
 
 		static ::System::Void _cctor()

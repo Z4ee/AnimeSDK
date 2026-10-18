@@ -11,45 +11,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_CLOCKPARKPROGRESSREWARDEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1CFE3760)
-#define RPG_GAMECORE_CLOCKPARKPROGRESSREWARDEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1CFE3630)
-#define RPG_GAMECORE_CLOCKPARKPROGRESSREWARDEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1CFE3320)
-#define RPG_GAMECORE_CLOCKPARKPROGRESSREWARDEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1CFE35D0)
-#define RPG_GAMECORE_CLOCKPARKPROGRESSREWARDEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1CFE38F0)
-#define RPG_GAMECORE_CLOCKPARKPROGRESSREWARDEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1CFE33A0)
-#define RPG_GAMECORE_CLOCKPARKPROGRESSREWARDEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1CFE3930)
-#define RPG_GAMECORE_CLOCKPARKPROGRESSREWARDEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CFE3B00)
-#define RPG_GAMECORE_CLOCKPARKPROGRESSREWARDEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1CFE3C40)
-#define RPG_GAMECORE_CLOCKPARKPROGRESSREWARDEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CFE3F60)
-#define RPG_GAMECORE_CLOCKPARKPROGRESSREWARDEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1CFE3A60)
-#define RPG_GAMECORE_CLOCKPARKPROGRESSREWARDEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1CFE39C0)
+#define RPG_GAMECORE_CLOCKPARKPROGRESSREWARDEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1D5BF390)
+#define RPG_GAMECORE_CLOCKPARKPROGRESSREWARDEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1D5BF260)
+#define RPG_GAMECORE_CLOCKPARKPROGRESSREWARDEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1D5BEF50)
+#define RPG_GAMECORE_CLOCKPARKPROGRESSREWARDEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1D5BF200)
+#define RPG_GAMECORE_CLOCKPARKPROGRESSREWARDEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1D5BF520)
+#define RPG_GAMECORE_CLOCKPARKPROGRESSREWARDEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D5BEFD0)
+#define RPG_GAMECORE_CLOCKPARKPROGRESSREWARDEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1D5BF560)
+#define RPG_GAMECORE_CLOCKPARKPROGRESSREWARDEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D5BF730)
+#define RPG_GAMECORE_CLOCKPARKPROGRESSREWARDEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1D5BF870)
+#define RPG_GAMECORE_CLOCKPARKPROGRESSREWARDEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D5BFB90)
+#define RPG_GAMECORE_CLOCKPARKPROGRESSREWARDEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1D5BF690)
+#define RPG_GAMECORE_CLOCKPARKPROGRESSREWARDEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D5BF5F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ClockParkProgressRewardExcelTable_TypeDefinitionIndex = 11181;
+	inline static constexpr unsigned int ClockParkProgressRewardExcelTable_TypeDefinitionIndex = 11197;
 
 	class ClockParkProgressRewardExcelTable : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
+		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(ClockParkProgressRewardExcelTable_TypeDefinitionIndex)->GetStaticField(0x1C050);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ClockParkProgressRewardExcelTable_TypeDefinitionIndex)->GetStaticField(0x1A5E0);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ClockParkProgressRewardRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ClockParkProgressRewardRow*>**)Il2CppClass::FromTypeDefinitionIndex(ClockParkProgressRewardExcelTable_TypeDefinitionIndex)->GetStaticField(0x1C058);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ClockParkProgressRewardRow*>**)Il2CppClass::FromTypeDefinitionIndex(ClockParkProgressRewardExcelTable_TypeDefinitionIndex)->GetStaticField(0x1A5E8);
 		}
-		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
+		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ClockParkProgressRewardExcelTable_TypeDefinitionIndex)->GetStaticField(0x1C060);
-		}
-		static ::System::Boolean* StaticGet_isDataLoaded()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ClockParkProgressRewardExcelTable_TypeDefinitionIndex)->GetStaticField(0x99D0);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(ClockParkProgressRewardExcelTable_TypeDefinitionIndex)->GetStaticField(0x1A5F0);
 		}
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(ClockParkProgressRewardExcelTable_TypeDefinitionIndex)->GetStaticField(0x99D1);
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(ClockParkProgressRewardExcelTable_TypeDefinitionIndex)->GetStaticField(0x5FB0);
+		}
+		static ::System::Boolean* StaticGet_isDataLoaded()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ClockParkProgressRewardExcelTable_TypeDefinitionIndex)->GetStaticField(0x5FB1);
 		}
 
 		static ::System::Void _cctor()

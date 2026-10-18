@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class CloneWeakness; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_7C7A18E03D0D7FCE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBE15830)
-#define CLASS_3_7C7A18E03D0D7FCE__CTOR_OFFSET UNITYSDK_OFFSET(0xBE15800)
+#define CLASS_3_7C7A18E03D0D7FCE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBDC16A0)
+#define CLASS_3_7C7A18E03D0D7FCE__CTOR_OFFSET UNITYSDK_OFFSET(0xBDC1670)
 
-inline static constexpr unsigned int Class_3_7C7A18E03D0D7FCE_TypeDefinitionIndex = 55176;
+inline static constexpr unsigned int Class_3_7C7A18E03D0D7FCE_TypeDefinitionIndex = 54969;
 
 class Class_3_7C7A18E03D0D7FCE : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::CloneWeakness*>
 {

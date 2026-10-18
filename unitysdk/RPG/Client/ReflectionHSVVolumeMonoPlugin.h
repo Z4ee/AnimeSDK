@@ -6,12 +6,12 @@
 namespace RPG::Client { class ReflectionHSVVolumeBehavior; }
 namespace System { class String; }
 
-#define RPG_CLIENT_REFLECTIONHSVVOLUMEMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xDE17310)
-#define RPG_CLIENT_REFLECTIONHSVVOLUMEMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xDE17360)
+#define RPG_CLIENT_REFLECTIONHSVVOLUMEMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xDE647D0)
+#define RPG_CLIENT_REFLECTIONHSVVOLUMEMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xDE64820)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ReflectionHSVVolumeMonoPlugin_TypeDefinitionIndex = 70671;
+	inline static constexpr unsigned int ReflectionHSVVolumeMonoPlugin_TypeDefinitionIndex = 70707;
 
 	class ReflectionHSVVolumeMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::ReflectionHSVVolumeBehavior*>
 	{

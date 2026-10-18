@@ -4,9 +4,9 @@
 
 namespace RPG::GameCore { class FiveDimPropMoveConfig; }
 
-#define CLASS_1_E8141E24E97AC8A9__CTOR_OFFSET UNITYSDK_OFFSET(0x1C3BD490)
+#define CLASS_1_E8141E24E97AC8A9__CTOR_OFFSET UNITYSDK_OFFSET(0x1C91E890)
 
-inline static constexpr unsigned int Class_1_E8141E24E97AC8A9_TypeDefinitionIndex = 41882;
+inline static constexpr unsigned int Class_1_E8141E24E97AC8A9_TypeDefinitionIndex = 43524;
 
 class Class_1_E8141E24E97AC8A9 : public ::System::Object
 {

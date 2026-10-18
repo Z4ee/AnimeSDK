@@ -5,21 +5,21 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ACTIVITYAVATARDELIVERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CD78FC0)
-#define RPG_GAMECORE_ACTIVITYAVATARDELIVERROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD792B0)
+#define RPG_GAMECORE_ACTIVITYAVATARDELIVERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D34D3F0)
+#define RPG_GAMECORE_ACTIVITYAVATARDELIVERROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D34D6E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityAvatarDeliverRow_TypeDefinitionIndex = 10926;
+	inline static constexpr unsigned int ActivityAvatarDeliverRow_TypeDefinitionIndex = 10942;
 
 	class ActivityAvatarDeliverRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 AvatarID; // 0x10
-		::System::Single Sort; // 0x14
-		::RPG::Client::TextID Sign; // 0x18
-		::RPG::Client::TextID Name; // 0x28
-		::RPG::Client::TextID MailDesc; // 0x38
+		::RPG::Client::TextID Sign; // 0x10
+		::RPG::Client::TextID MailDesc; // 0x20
+		::RPG::Client::TextID Name; // 0x30
+		::System::UInt32 AvatarID; // 0x40
+		::System::Single Sort; // 0x44
 
 		::System::Void _ctor()
 		{

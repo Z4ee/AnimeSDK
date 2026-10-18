@@ -6,12 +6,12 @@ namespace RPG::Client { class EmoBlendShapesConfig_BlendShapesConfig; }
 namespace RPG::Client { class EmoBlendShapesConfig_BlendShapesMouthConfig; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_EMOBLENDSHAPESCONFIG_GET_MOUTHDEFAULTCONFIG_OFFSET UNITYSDK_OFFSET(0xCE955A0)
-#define RPG_CLIENT_EMOBLENDSHAPESCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xCE95AC0)
+#define RPG_CLIENT_EMOBLENDSHAPESCONFIG_GET_MOUTHDEFAULTCONFIG_OFFSET UNITYSDK_OFFSET(0xCDE4800)
+#define RPG_CLIENT_EMOBLENDSHAPESCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xCDE4D20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EmoBlendShapesConfig_TypeDefinitionIndex = 60171;
+	inline static constexpr unsigned int EmoBlendShapesConfig_TypeDefinitionIndex = 60034;
 
 	class EmoBlendShapesConfig : public ::UnityEngine::ScriptableObject
 	{

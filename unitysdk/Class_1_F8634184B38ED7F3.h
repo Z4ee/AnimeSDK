@@ -4,9 +4,9 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define CLASS_1_F8634184B38ED7F3__CTOR_OFFSET UNITYSDK_OFFSET(0x15AAF360)
+#define CLASS_1_F8634184B38ED7F3__CTOR_OFFSET UNITYSDK_OFFSET(0x15DC26A0)
 
-inline static constexpr unsigned int Class_1_F8634184B38ED7F3_TypeDefinitionIndex = 57342;
+inline static constexpr unsigned int Class_1_F8634184B38ED7F3_TypeDefinitionIndex = 57178;
 
 class Class_1_F8634184B38ED7F3 : public ::System::Object
 {

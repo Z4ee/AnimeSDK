@@ -4,11 +4,11 @@
 
 namespace RVO { class Obstacle; }
 
-#define RVO_KDTREE_OBSTACLETREENODE__CTOR_OFFSET UNITYSDK_OFFSET(0xB2EF480)
+#define RVO_KDTREE_OBSTACLETREENODE__CTOR_OFFSET UNITYSDK_OFFSET(0xB08F450)
 
 namespace RVO
 {
-	inline static constexpr unsigned int KdTree_ObstacleTreeNode_TypeDefinitionIndex = 44891;
+	inline static constexpr unsigned int KdTree_ObstacleTreeNode_TypeDefinitionIndex = 46030;
 
 	class KdTree_ObstacleTreeNode : public ::System::Object
 	{

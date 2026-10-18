@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/ArchiveData.h"
 
-class Class_1_E14A0A1A8B1F847C_3;
+class Class_1_FF220487FAB45279;
 namespace RPG::Client { class RelicArchiveEntry; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_RELICARCHIVEDATA_GETRELICARCHIVEENTRIES_OFFSET UNITYSDK_OFFSET(0xDE1CBD0)
-#define RPG_CLIENT_RELICARCHIVEDATA_REFRESH_OFFSET UNITYSDK_OFFSET(0xDE1D260)
-#define RPG_CLIENT_RELICARCHIVEDATA_SYNC_OFFSET UNITYSDK_OFFSET(0xDE1CED0)
-#define RPG_CLIENT_RELICARCHIVEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xDE1C9C0)
-#define RPG_CLIENT_RELICARCHIVEDATA__INITALLRELICENTRIES_OFFSET UNITYSDK_OFFSET(0xDE1C9D0)
+#define RPG_CLIENT_RELICARCHIVEDATA_GETRELICARCHIVEENTRIES_OFFSET UNITYSDK_OFFSET(0xDE6A1C0)
+#define RPG_CLIENT_RELICARCHIVEDATA_REFRESH_OFFSET UNITYSDK_OFFSET(0xDE6A850)
+#define RPG_CLIENT_RELICARCHIVEDATA_SYNC_OFFSET UNITYSDK_OFFSET(0xDE6A4C0)
+#define RPG_CLIENT_RELICARCHIVEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xDE69FB0)
+#define RPG_CLIENT_RELICARCHIVEDATA__INITALLRELICENTRIES_OFFSET UNITYSDK_OFFSET(0xDE69FC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RelicArchiveData_TypeDefinitionIndex = 62519;
+	inline static constexpr unsigned int RelicArchiveData_TypeDefinitionIndex = 62436;
 
 	class RelicArchiveData : public ::RPG::Client::ArchiveData
 	{
@@ -29,14 +29,14 @@ namespace RPG::Client
 			return ((::System::Collections::Generic::List_1<::RPG::Client::RelicArchiveEntry*>*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICARCHIVEDATA_GETRELICARCHIVEENTRIES_OFFSET))(this, a1);
 		}
 
-		::System::Void Sync(::Class_1_E14A0A1A8B1F847C_3* a1)
+		::System::Void Sync(::Class_1_FF220487FAB45279* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_E14A0A1A8B1F847C_3*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICARCHIVEDATA_SYNC_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Class_1_FF220487FAB45279*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICARCHIVEDATA_SYNC_OFFSET))(this, a1);
 		}
 
-		::System::Void Refresh(::Class_1_E14A0A1A8B1F847C_3* a1)
+		::System::Void Refresh(::Class_1_FF220487FAB45279* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_E14A0A1A8B1F847C_3*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICARCHIVEDATA_REFRESH_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Class_1_FF220487FAB45279*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICARCHIVEDATA_REFRESH_OFFSET))(this, a1);
 		}
 
 		::System::Void _InitAllRelicEntries()

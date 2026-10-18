@@ -4,7 +4,7 @@
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int IUniTaskAsyncEnumerator_1_TypeDefinitionIndex = 42577;
+	inline static constexpr unsigned int IUniTaskAsyncEnumerator_1_TypeDefinitionIndex = 38162;
 
 	template <typename T>
 	class IUniTaskAsyncEnumerator_1

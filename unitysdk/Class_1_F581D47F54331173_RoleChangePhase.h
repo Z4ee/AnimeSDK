@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Class_1_F581D47F54331173_RoleChangePhase_TypeDefinitionIndex = 76119;
+inline static constexpr unsigned int Class_1_F581D47F54331173_RoleChangePhase_TypeDefinitionIndex = 76596;
 
 enum class Class_1_F581D47F54331173_RoleChangePhase : ::System::Int32
 {

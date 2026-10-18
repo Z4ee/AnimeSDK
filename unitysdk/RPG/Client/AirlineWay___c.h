@@ -6,29 +6,29 @@ namespace RPG::Client { class AirlineVariableScalePoint; }
 namespace RPG::Client { class AirlineWay_Class_1_5F7BD4F39335B2FB; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_AIRLINEWAY___C__AWAKE_B__54_0_OFFSET UNITYSDK_OFFSET(0xC7276A0)
-#define RPG_CLIENT_AIRLINEWAY___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC727660)
-#define RPG_CLIENT_AIRLINEWAY___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC727690)
-#define RPG_CLIENT_AIRLINEWAY___C__INITRACINGBOOSTRINGS_B__63_0_OFFSET UNITYSDK_OFFSET(0xC7276E0)
+#define RPG_CLIENT_AIRLINEWAY___C__AWAKE_B__54_0_OFFSET UNITYSDK_OFFSET(0xC6458A0)
+#define RPG_CLIENT_AIRLINEWAY___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC645860)
+#define RPG_CLIENT_AIRLINEWAY___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC645890)
+#define RPG_CLIENT_AIRLINEWAY___C__INITRACINGBOOSTRINGS_B__63_0_OFFSET UNITYSDK_OFFSET(0xC6458E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AirlineWay___c_TypeDefinitionIndex = 59914;
+	inline static constexpr unsigned int AirlineWay___c_TypeDefinitionIndex = 59777;
 
 	class AirlineWay___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::AirlineWay___c** StaticGet___9()
-		{
-			return (::RPG::Client::AirlineWay___c**)Il2CppClass::FromTypeDefinitionIndex(AirlineWay___c_TypeDefinitionIndex)->GetStaticField(0x651D0);
-		}
 		static ::System::Comparison_1<::RPG::Client::AirlineWay_Class_1_5F7BD4F39335B2FB*>** StaticGet___9__63_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::AirlineWay_Class_1_5F7BD4F39335B2FB*>**)Il2CppClass::FromTypeDefinitionIndex(AirlineWay___c_TypeDefinitionIndex)->GetStaticField(0x651D8);
+			return (::System::Comparison_1<::RPG::Client::AirlineWay_Class_1_5F7BD4F39335B2FB*>**)Il2CppClass::FromTypeDefinitionIndex(AirlineWay___c_TypeDefinitionIndex)->GetStaticField(0x50630);
+		}
+		static ::RPG::Client::AirlineWay___c** StaticGet___9()
+		{
+			return (::RPG::Client::AirlineWay___c**)Il2CppClass::FromTypeDefinitionIndex(AirlineWay___c_TypeDefinitionIndex)->GetStaticField(0x50638);
 		}
 		static ::System::Comparison_1<::RPG::Client::AirlineVariableScalePoint*>** StaticGet___9__54_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::AirlineVariableScalePoint*>**)Il2CppClass::FromTypeDefinitionIndex(AirlineWay___c_TypeDefinitionIndex)->GetStaticField(0x651E0);
+			return (::System::Comparison_1<::RPG::Client::AirlineVariableScalePoint*>**)Il2CppClass::FromTypeDefinitionIndex(AirlineWay___c_TypeDefinitionIndex)->GetStaticField(0x50640);
 		}
 
 		static ::System::Void _cctor()

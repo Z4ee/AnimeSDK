@@ -7,10 +7,10 @@
 namespace RPG::Client { class GridFightCyreneModifyConfig; }
 namespace RPG::Client { class GridFightRoleSkillDetail; }
 
-#define CLASS_1_CF27A3C67D8DD499_METHOD_1_ADD6B66E9BD6C8BF_OFFSET UNITYSDK_OFFSET(0x159729B0)
-#define CLASS_1_CF27A3C67D8DD499__CTOR_OFFSET UNITYSDK_OFFSET(0x159729A0)
+#define CLASS_1_CF27A3C67D8DD499_METHOD_1_ADD6B66E9BD6C8BF_OFFSET UNITYSDK_OFFSET(0x15BCC6B0)
+#define CLASS_1_CF27A3C67D8DD499__CTOR_OFFSET UNITYSDK_OFFSET(0x15BCC6A0)
 
-inline static constexpr unsigned int Class_1_CF27A3C67D8DD499_TypeDefinitionIndex = 65349;
+inline static constexpr unsigned int Class_1_CF27A3C67D8DD499_TypeDefinitionIndex = 65289;
 
 class Class_1_CF27A3C67D8DD499 : public ::System::Object
 {

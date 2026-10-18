@@ -5,7 +5,7 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::Protobuf
 {
-	inline static constexpr unsigned int ICustomDiagnosticMessage_TypeDefinitionIndex = 35051;
+	inline static constexpr unsigned int ICustomDiagnosticMessage_TypeDefinitionIndex = 35720;
 
 	class ICustomDiagnosticMessage
 	{

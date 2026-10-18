@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_7B4E9156998275BE;
+class Class_1_C6F4C4ABEDB8B5E9;
 class Class_1_F3CAAE7E7C7111CC;
 template <typename T1, typename T2> class Class_1_2C496038C565E0E9;
 
-inline static constexpr unsigned int Class_1_2C496038C565E0E9_TypeDefinitionIndex = 42485;
+inline static constexpr unsigned int Class_1_2C496038C565E0E9_TypeDefinitionIndex = 44292;
 
 template <typename TConcrete, typename TFactory>
 class Class_1_2C496038C565E0E9 : public ::System::Object

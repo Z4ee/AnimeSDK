@@ -6,12 +6,12 @@ namespace RPG::Client { class CurveEdgeConnectionTriggerSetting; }
 namespace RPG::Client { class MonoCurveTriggerManager; }
 namespace RPG::GameCore { class GameEntity; }
 
-#define RPG_CLIENT_MONOCURVETRIGGERMANAGER___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD744560)
-#define RPG_CLIENT_MONOCURVETRIGGERMANAGER___C__DISPLAYCLASS4_0__SETUPCURVEEDGECONNECTIONTRIGGER_B__0_OFFSET UNITYSDK_OFFSET(0xD7466B0)
+#define RPG_CLIENT_MONOCURVETRIGGERMANAGER___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD743940)
+#define RPG_CLIENT_MONOCURVETRIGGERMANAGER___C__DISPLAYCLASS4_0__SETUPCURVEEDGECONNECTIONTRIGGER_B__0_OFFSET UNITYSDK_OFFSET(0xD745A20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoCurveTriggerManager___c__DisplayClass4_0_TypeDefinitionIndex = 68526;
+	inline static constexpr unsigned int MonoCurveTriggerManager___c__DisplayClass4_0_TypeDefinitionIndex = 68560;
 
 	class MonoCurveTriggerManager___c__DisplayClass4_0 : public ::System::Object
 	{

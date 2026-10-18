@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/CharacterMovementTiming.h"
+#include "unitysdk/RPG/MVector3.h"
 
-class Class_0_16E4307DCC419505_78;
-
-inline static constexpr unsigned int Class_0_16E4307DCC419505_685_TypeDefinitionIndex = 75929;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_685_TypeDefinitionIndex = 56947;
 
 class Class_0_16E4307DCC419505_685
 {

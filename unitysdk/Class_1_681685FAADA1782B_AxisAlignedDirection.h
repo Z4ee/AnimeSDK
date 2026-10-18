@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Class_1_681685FAADA1782B_AxisAlignedDirection_TypeDefinitionIndex = 52058;
+inline static constexpr unsigned int Class_1_681685FAADA1782B_AxisAlignedDirection_TypeDefinitionIndex = 51764;
 
 enum class Class_1_681685FAADA1782B_AxisAlignedDirection : ::System::Int32
 {

@@ -7,19 +7,19 @@
 namespace Newtonsoft::Json::Serialization { class JsonProperty; }
 namespace System { class String; }
 
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALREADER_CREATORPROPERTYCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1BEEAB50)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALREADER_CREATORPROPERTYCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1C3F6FE0)
 
 namespace Newtonsoft::Json::Serialization
 {
-	inline static constexpr unsigned int JsonSerializerInternalReader_CreatorPropertyContext_TypeDefinitionIndex = 9679;
+	inline static constexpr unsigned int JsonSerializerInternalReader_CreatorPropertyContext_TypeDefinitionIndex = 9737;
 
 	class JsonSerializerInternalReader_CreatorPropertyContext : public ::System::Object
 	{
 	public:
-		::System::String* Name; // 0x10
-		::Newtonsoft::Json::Serialization::JsonProperty* Property; // 0x18
-		::Newtonsoft::Json::Serialization::JsonProperty* ConstructorProperty; // 0x20
-		::System::Object* Value; // 0x28
+		::System::Object* Value; // 0x10
+		::System::String* Name; // 0x18
+		::Newtonsoft::Json::Serialization::JsonProperty* Property; // 0x20
+		::Newtonsoft::Json::Serialization::JsonProperty* ConstructorProperty; // 0x28
 		::System::Boolean Used; // 0x30
 		::System::Nullable_1<::Newtonsoft::Json::Serialization::JsonSerializerInternalReader_PropertyPresence> Presence; // 0x34
 

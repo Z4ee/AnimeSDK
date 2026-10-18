@@ -7,12 +7,12 @@
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_SPEEDLINETIMELINETRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8D58D0)
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_SPEEDLINETIMELINETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xE8D5980)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_SPEEDLINETIMELINETRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE92B170)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_SPEEDLINETIMELINETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xE92B220)
 
 namespace RPGTools::Timeline::PostProcessing
 {
-	inline static constexpr unsigned int SpeedLineTimelineTrack_TypeDefinitionIndex = 49072;
+	inline static constexpr unsigned int SpeedLineTimelineTrack_TypeDefinitionIndex = 48618;
 
 	class SpeedLineTimelineTrack : public ::RPGTools::Timeline::PostProcessing::PostProcessTimelineTrack
 	{

@@ -5,11 +5,11 @@
 namespace RPG::AvatarSystem { class IAvatar; }
 namespace System { class String; }
 
-#define RPG_CLIENT_BATTLEASSETPRELOAD_AVATARASSETPRELOADGROUPCREATEPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xC8D7840)
+#define RPG_CLIENT_BATTLEASSETPRELOAD_AVATARASSETPRELOADGROUPCREATEPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xC805FF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BattleAssetPreload_AvatarAssetPreloadGroupCreateParam_TypeDefinitionIndex = 59790;
+	inline static constexpr unsigned int BattleAssetPreload_AvatarAssetPreloadGroupCreateParam_TypeDefinitionIndex = 59645;
 
 	class BattleAssetPreload_AvatarAssetPreloadGroupCreateParam : public ::RPG::Client::BattleAssetPreload_AssetPreloadGroupCreateParam
 	{

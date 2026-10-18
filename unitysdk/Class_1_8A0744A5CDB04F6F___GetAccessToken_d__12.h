@@ -10,18 +10,18 @@ namespace System::Net::Http { class HttpClient; }
 namespace System::Net::Http { class HttpResponseMessage; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define CLASS_1_8A0744A5CDB04F6F___GETACCESSTOKEN_D__12_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x2DF7A30)
-#define CLASS_1_8A0744A5CDB04F6F___GETACCESSTOKEN_D__12_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2DF79F0)
+#define CLASS_1_8A0744A5CDB04F6F___GETACCESSTOKEN_D__12_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x10C30)
+#define CLASS_1_8A0744A5CDB04F6F___GETACCESSTOKEN_D__12_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x10C40)
 
-inline static constexpr unsigned int Class_1_8A0744A5CDB04F6F___GetAccessToken_d__12_TypeDefinitionIndex = 50414;
+inline static constexpr unsigned int Class_1_8A0744A5CDB04F6F___GetAccessToken_d__12_TypeDefinitionIndex = 50043;
 
 struct alignas(8) Class_1_8A0744A5CDB04F6F___GetAccessToken_d__12
 {
 	::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::String*> __u__2; // 0x10
-	::Class_1_8A0744A5CDB04F6F* __4__this; // 0x20
-	::System::Net::Http::HttpClient* _client_5__2; // 0x28
-	::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::String*> __t__builder; // 0x30
-	::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Net::Http::HttpResponseMessage*> __u__1; // 0x48
+	::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Net::Http::HttpResponseMessage*> __u__1; // 0x20
+	::Class_1_8A0744A5CDB04F6F* __4__this; // 0x30
+	::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::String*> __t__builder; // 0x38
+	::System::Net::Http::HttpClient* _client_5__2; // 0x50
 	::System::Int32 __1__state; // 0x58
 
 	::System::Void MoveNext()

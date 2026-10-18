@@ -4,19 +4,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_GRIDFIGHTTRAITELATIONTEMPLATECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D16C760)
-#define RPG_GAMECORE_GRIDFIGHTTRAITELATIONTEMPLATECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D16C990)
+#define RPG_GAMECORE_GRIDFIGHTTRAITELATIONTEMPLATECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D7475D0)
+#define RPG_GAMECORE_GRIDFIGHTTRAITELATIONTEMPLATECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D747800)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightTraitElationTemplateConfigRow_TypeDefinitionIndex = 13598;
+	inline static constexpr unsigned int GridFightTraitElationTemplateConfigRow_TypeDefinitionIndex = 13705;
 
 	class GridFightTraitElationTemplateConfigRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* FirstRecommendEquipList; // 0x10
-		::Il2CppArray<::System::UInt32>* PreEquipList; // 0x18
-		::Il2CppArray<::System::UInt32>* SecondRecommendEquipList; // 0x20
+		::Il2CppArray<::System::UInt32>* SecondRecommendEquipList; // 0x18
+		::Il2CppArray<::System::UInt32>* PreEquipList; // 0x20
 		::System::UInt32 ID; // 0x28
 		::System::UInt32 Weight; // 0x2C
 

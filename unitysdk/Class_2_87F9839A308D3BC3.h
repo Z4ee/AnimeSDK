@@ -7,23 +7,23 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 template <typename T1, typename T2> class Class_1_534AF681CC2BD5FD_1;
 
-#define CLASS_2_87F9839A308D3BC3_CREATENATIVEDICTIONARY_OFFSET UNITYSDK_OFFSET(0x1CD430B0)
-#define CLASS_2_87F9839A308D3BC3_READROW_OFFSET UNITYSDK_OFFSET(0x1CD43110)
-#define CLASS_2_87F9839A308D3BC3__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CD43170)
-#define CLASS_2_87F9839A308D3BC3__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD43060)
+#define CLASS_2_87F9839A308D3BC3_CREATENATIVEDICTIONARY_OFFSET UNITYSDK_OFFSET(0x1D316C50)
+#define CLASS_2_87F9839A308D3BC3_READROW_OFFSET UNITYSDK_OFFSET(0x1D316CB0)
+#define CLASS_2_87F9839A308D3BC3__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D316D10)
+#define CLASS_2_87F9839A308D3BC3__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2F0D30)
 
-inline static constexpr unsigned int Class_2_87F9839A308D3BC3_TypeDefinitionIndex = 10815;
+inline static constexpr unsigned int Class_2_87F9839A308D3BC3_TypeDefinitionIndex = 10831;
 
 class Class_2_87F9839A308D3BC3 : public ::RPG::GameCore::BaseConfigHeader_1<::System::UInt64>
 {
 public:
-	static ::Class_2_87F9839A308D3BC3** StaticGet_OBNANPFLCOO()
-	{
-		return (::Class_2_87F9839A308D3BC3**)Il2CppClass::FromTypeDefinitionIndex(Class_2_87F9839A308D3BC3_TypeDefinitionIndex)->GetStaticField(0x28DB0);
-	}
 	static ::Class_1_534AF681CC2BD5FD_1<::System::UInt64, ::RPG::GameCore::BaseConfigHeader_1_NativeRowInfo<::System::UInt64>>** StaticGet_LLFPDGEEGCD()
 	{
-		return (::Class_1_534AF681CC2BD5FD_1<::System::UInt64, ::RPG::GameCore::BaseConfigHeader_1_NativeRowInfo<::System::UInt64>>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_87F9839A308D3BC3_TypeDefinitionIndex)->GetStaticField(0x28DB8);
+		return (::Class_1_534AF681CC2BD5FD_1<::System::UInt64, ::RPG::GameCore::BaseConfigHeader_1_NativeRowInfo<::System::UInt64>>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_87F9839A308D3BC3_TypeDefinitionIndex)->GetStaticField(0x2CB10);
+	}
+	static ::Class_2_87F9839A308D3BC3** StaticGet_OBNANPFLCOO()
+	{
+		return (::Class_2_87F9839A308D3BC3**)Il2CppClass::FromTypeDefinitionIndex(Class_2_87F9839A308D3BC3_TypeDefinitionIndex)->GetStaticField(0x2CB18);
 	}
 
 	::System::Void _ctor(::System::String* a1)

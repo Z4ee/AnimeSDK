@@ -4,7 +4,7 @@
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomEx_ResourceUsage_TypeDefinitionIndex = 38681;
+	inline static constexpr unsigned int CriAtomEx_ResourceUsage_TypeDefinitionIndex = 39978;
 
 	struct alignas(4) CriAtomEx_ResourceUsage
 	{

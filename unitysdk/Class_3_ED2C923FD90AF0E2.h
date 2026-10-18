@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetSummonUnitAutoHide; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_ED2C923FD90AF0E2_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x161A3A10)
-#define CLASS_3_ED2C923FD90AF0E2__CTOR_OFFSET UNITYSDK_OFFSET(0x161A39E0)
+#define CLASS_3_ED2C923FD90AF0E2_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1651BE60)
+#define CLASS_3_ED2C923FD90AF0E2__CTOR_OFFSET UNITYSDK_OFFSET(0x1651BE30)
 
-inline static constexpr unsigned int Class_3_ED2C923FD90AF0E2_TypeDefinitionIndex = 58728;
+inline static constexpr unsigned int Class_3_ED2C923FD90AF0E2_TypeDefinitionIndex = 58580;
 
 class Class_3_ED2C923FD90AF0E2 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetSummonUnitAutoHide*>
 {

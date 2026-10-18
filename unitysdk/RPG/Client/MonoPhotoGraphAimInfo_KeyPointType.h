@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoPhotoGraphAimInfo_KeyPointType_TypeDefinitionIndex = 68582;
+	inline static constexpr unsigned int MonoPhotoGraphAimInfo_KeyPointType_TypeDefinitionIndex = 68616;
 
 	enum class MonoPhotoGraphAimInfo_KeyPointType : ::System::Int32
 	{

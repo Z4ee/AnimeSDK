@@ -3,12 +3,12 @@
 #include "unitysdk/RPG/Client/LittleGame/FiveDim/PhantomPlayerFrameData_1.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_PHANTOMPLAYERFRAMEQUATERNIONDATA_LERP_OFFSET UNITYSDK_OFFSET(0x1C497470)
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_PHANTOMPLAYERFRAMEQUATERNIONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1C497560)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_PHANTOMPLAYERFRAMEQUATERNIONDATA_LERP_OFFSET UNITYSDK_OFFSET(0x1CA069D0)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_PHANTOMPLAYERFRAMEQUATERNIONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1CA06AC0)
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int PhantomPlayerFrameQuaternionData_TypeDefinitionIndex = 41947;
+	inline static constexpr unsigned int PhantomPlayerFrameQuaternionData_TypeDefinitionIndex = 43589;
 
 	class PhantomPlayerFrameQuaternionData : public ::RPG::Client::LittleGame::FiveDim::PhantomPlayerFrameData_1<::UnityEngine::Quaternion>
 	{

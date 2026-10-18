@@ -7,12 +7,12 @@ namespace System { class Type; }
 namespace UnityEngine::ProBuilder { class ProBuilderMesh; }
 namespace UnityEngine::ProBuilder::Shapes { class Shape; }
 
-#define UNITYENGINE_PROBUILDER_SHAPEFACTORY_INSTANTIATE_1_OFFSET UNITYSDK_OFFSET(0x1EBA5E70)
-#define UNITYENGINE_PROBUILDER_SHAPEFACTORY_INSTANTIATE_OFFSET UNITYSDK_OFFSET(0x1EBA5C10)
+#define UNITYENGINE_PROBUILDER_SHAPEFACTORY_INSTANTIATE_1_OFFSET UNITYSDK_OFFSET(0x1F26D810)
+#define UNITYENGINE_PROBUILDER_SHAPEFACTORY_INSTANTIATE_OFFSET UNITYSDK_OFFSET(0x1F26D5B0)
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int ShapeFactory_TypeDefinitionIndex = 43238;
+	inline static constexpr unsigned int ShapeFactory_TypeDefinitionIndex = 44430;
 
 	class ShapeFactory : public ::System::Object
 	{

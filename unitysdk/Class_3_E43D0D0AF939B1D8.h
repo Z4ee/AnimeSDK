@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class PerformanceDynamicLoadCharacter; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_E43D0D0AF939B1D8_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x114D7E40)
-#define CLASS_3_E43D0D0AF939B1D8__CTOR_OFFSET UNITYSDK_OFFSET(0x114D7E10)
+#define CLASS_3_E43D0D0AF939B1D8_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x11940A90)
+#define CLASS_3_E43D0D0AF939B1D8__CTOR_OFFSET UNITYSDK_OFFSET(0x11940A60)
 
-inline static constexpr unsigned int Class_3_E43D0D0AF939B1D8_TypeDefinitionIndex = 53345;
+inline static constexpr unsigned int Class_3_E43D0D0AF939B1D8_TypeDefinitionIndex = 53071;
 
 class Class_3_E43D0D0AF939B1D8 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::PerformanceDynamicLoadCharacter*>
 {

@@ -6,11 +6,11 @@
 namespace System { class String; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_BLENDCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xC95D680)
+#define RPG_CLIENT_BLENDCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xC8859D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BlendConfig_TypeDefinitionIndex = 69665;
+	inline static constexpr unsigned int BlendConfig_TypeDefinitionIndex = 69701;
 
 	class BlendConfig : public ::System::Object
 	{

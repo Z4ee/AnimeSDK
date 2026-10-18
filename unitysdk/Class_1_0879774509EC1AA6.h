@@ -1,0 +1,40 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Struct_2_AAD4F4215611A944.h"
+#include "unitysdk/System/Object.h"
+
+class Class_0_16E4307DCC419505_772;
+class Class_1_7237858DE9116C90;
+class Class_1_7ED05899B4F4C7F2;
+class Class_1_ED80D3EC77F13F93;
+class Class_1_F9FBCC956DFCF137_14;
+namespace RPG::AvatarSystem { class Avatar; }
+
+#define CLASS_1_0879774509EC1AA6_METHOD_1_2E6680DAB3F06E40_OFFSET UNITYSDK_OFFSET(0xB552AA0)
+#define CLASS_1_0879774509EC1AA6_METHOD_1_3D3AAF6BD1F28511_OFFSET UNITYSDK_OFFSET(0xB552D20)
+#define CLASS_1_0879774509EC1AA6__CTOR_OFFSET UNITYSDK_OFFSET(0xB552980)
+
+inline static constexpr unsigned int Class_1_0879774509EC1AA6_TypeDefinitionIndex = 62690;
+
+class Class_1_0879774509EC1AA6 : public ::System::Object
+{
+public:
+	::Class_1_7ED05899B4F4C7F2* LIOJKFIGGIJ; // 0x10
+	::Class_0_16E4307DCC419505_772* MOHKEEEHFOB; // 0x18
+	::Class_1_ED80D3EC77F13F93* EEFMDEHLLFI; // 0x20
+
+	::System::Void _ctor(::Class_1_F9FBCC956DFCF137_14* a1, ::Class_0_16E4307DCC419505_772* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_F9FBCC956DFCF137_14*, ::Class_0_16E4307DCC419505_772*))((::PBYTE)hIl2Cpp + CLASS_1_0879774509EC1AA6__CTOR_OFFSET))(this, a1, a2);
+	}
+
+	::RPG::AvatarSystem::Avatar* Method_1_2E6680DAB3F06E40(::Class_1_7237858DE9116C90*& a1)
+	{
+		return ((::RPG::AvatarSystem::Avatar*(*)(::PVOID, ::Class_1_7237858DE9116C90*&))((::PBYTE)hIl2Cpp + CLASS_1_0879774509EC1AA6_METHOD_1_2E6680DAB3F06E40_OFFSET))(this, a1);
+	}
+
+	::Struct_2_AAD4F4215611A944 Method_1_3D3AAF6BD1F28511(::System::UInt32 a1)
+	{
+		return ((::Struct_2_AAD4F4215611A944(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_0879774509EC1AA6_METHOD_1_3D3AAF6BD1F28511_OFFSET))(this, a1);
+	}
+};

@@ -8,24 +8,24 @@ namespace RPG::GameCore { class CharacterReplaceMaterialRenderList; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_A34BDDEE0FB05D86_METHOD_1_082ACCEF788ADD52_OFFSET UNITYSDK_OFFSET(0x15418240)
-#define CLASS_1_A34BDDEE0FB05D86_METHOD_1_2D2B0BC0C0CD7713_OFFSET UNITYSDK_OFFSET(0x15418530)
-#define CLASS_1_A34BDDEE0FB05D86_METHOD_1_33ACA6CB2ABC73F7_OFFSET UNITYSDK_OFFSET(0x15418180)
-#define CLASS_1_A34BDDEE0FB05D86_METHOD_1_5790A55946AA509D_OFFSET UNITYSDK_OFFSET(0x15418140)
-#define CLASS_1_A34BDDEE0FB05D86__CCTOR_OFFSET UNITYSDK_OFFSET(0x15418730)
+#define CLASS_1_A34BDDEE0FB05D86_METHOD_1_082ACCEF788ADD52_OFFSET UNITYSDK_OFFSET(0x156D4E70)
+#define CLASS_1_A34BDDEE0FB05D86_METHOD_1_2D2B0BC0C0CD7713_OFFSET UNITYSDK_OFFSET(0x156D5160)
+#define CLASS_1_A34BDDEE0FB05D86_METHOD_1_33ACA6CB2ABC73F7_OFFSET UNITYSDK_OFFSET(0x156D4DB0)
+#define CLASS_1_A34BDDEE0FB05D86_METHOD_1_5790A55946AA509D_OFFSET UNITYSDK_OFFSET(0x156D4D70)
+#define CLASS_1_A34BDDEE0FB05D86__CCTOR_OFFSET UNITYSDK_OFFSET(0x156D5360)
 
-inline static constexpr unsigned int Class_1_A34BDDEE0FB05D86_TypeDefinitionIndex = 73201;
+inline static constexpr unsigned int Class_1_A34BDDEE0FB05D86_TypeDefinitionIndex = 73297;
 
 class Class_1_A34BDDEE0FB05D86 : public ::System::Object
 {
 public:
 	static ::RPG::GameCore::CharacterReplaceMaterialConfig** StaticGet_APBJIFNJEEA()
 	{
-		return (::RPG::GameCore::CharacterReplaceMaterialConfig**)Il2CppClass::FromTypeDefinitionIndex(Class_1_A34BDDEE0FB05D86_TypeDefinitionIndex)->GetStaticField(0x547B0);
+		return (::RPG::GameCore::CharacterReplaceMaterialConfig**)Il2CppClass::FromTypeDefinitionIndex(Class_1_A34BDDEE0FB05D86_TypeDefinitionIndex)->GetStaticField(0x602A0);
 	}
 	static ::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::CharacterReplaceMaterialConfig*>** StaticGet_JOJNHBFJNNH()
 	{
-		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::CharacterReplaceMaterialConfig*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_A34BDDEE0FB05D86_TypeDefinitionIndex)->GetStaticField(0x547B8);
+		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::CharacterReplaceMaterialConfig*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_A34BDDEE0FB05D86_TypeDefinitionIndex)->GetStaticField(0x602A8);
 	}
 
 	static ::System::Void _cctor()

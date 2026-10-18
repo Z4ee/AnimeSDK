@@ -10,7 +10,7 @@ namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int Create_1__Create__RunWriterTask_d__12_TypeDefinitionIndex = 44192;
+	inline static constexpr unsigned int Create_1__Create__RunWriterTask_d__12_TypeDefinitionIndex = 45331;
 
 	template <typename T>
 	struct Create_1__Create__RunWriterTask_d__12

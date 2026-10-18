@@ -11,45 +11,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_ACTIVITYQUESTREWARDTABEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1CD9F310)
-#define RPG_GAMECORE_ACTIVITYQUESTREWARDTABEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1CD9F1A0)
-#define RPG_GAMECORE_ACTIVITYQUESTREWARDTABEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1CD9EE90)
-#define RPG_GAMECORE_ACTIVITYQUESTREWARDTABEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1CD9F140)
-#define RPG_GAMECORE_ACTIVITYQUESTREWARDTABEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1CD9F460)
-#define RPG_GAMECORE_ACTIVITYQUESTREWARDTABEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1CD9EF10)
-#define RPG_GAMECORE_ACTIVITYQUESTREWARDTABEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1CD9F4A0)
-#define RPG_GAMECORE_ACTIVITYQUESTREWARDTABEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CD9F670)
-#define RPG_GAMECORE_ACTIVITYQUESTREWARDTABEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1CD9F880)
-#define RPG_GAMECORE_ACTIVITYQUESTREWARDTABEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CD9FBA0)
-#define RPG_GAMECORE_ACTIVITYQUESTREWARDTABEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1CD9F5D0)
-#define RPG_GAMECORE_ACTIVITYQUESTREWARDTABEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1CD9F530)
+#define RPG_GAMECORE_ACTIVITYQUESTREWARDTABEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1D374110)
+#define RPG_GAMECORE_ACTIVITYQUESTREWARDTABEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1D373FA0)
+#define RPG_GAMECORE_ACTIVITYQUESTREWARDTABEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1D373C90)
+#define RPG_GAMECORE_ACTIVITYQUESTREWARDTABEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1D373F40)
+#define RPG_GAMECORE_ACTIVITYQUESTREWARDTABEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1D374260)
+#define RPG_GAMECORE_ACTIVITYQUESTREWARDTABEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D373D10)
+#define RPG_GAMECORE_ACTIVITYQUESTREWARDTABEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1D3742A0)
+#define RPG_GAMECORE_ACTIVITYQUESTREWARDTABEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D374470)
+#define RPG_GAMECORE_ACTIVITYQUESTREWARDTABEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1D374680)
+#define RPG_GAMECORE_ACTIVITYQUESTREWARDTABEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D3749A0)
+#define RPG_GAMECORE_ACTIVITYQUESTREWARDTABEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1D3743D0)
+#define RPG_GAMECORE_ACTIVITYQUESTREWARDTABEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D374330)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityQuestRewardTabExcelTable_TypeDefinitionIndex = 12225;
+	inline static constexpr unsigned int ActivityQuestRewardTabExcelTable_TypeDefinitionIndex = 12306;
 
 	class ActivityQuestRewardTabExcelTable : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
+		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityQuestRewardTabExcelTable_TypeDefinitionIndex)->GetStaticField(0x54770);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityQuestRewardTabExcelTable_TypeDefinitionIndex)->GetStaticField(0x39510);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ActivityQuestRewardTabRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ActivityQuestRewardTabRow*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityQuestRewardTabExcelTable_TypeDefinitionIndex)->GetStaticField(0x54778);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ActivityQuestRewardTabRow*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityQuestRewardTabExcelTable_TypeDefinitionIndex)->GetStaticField(0x39518);
 		}
-		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
+		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityQuestRewardTabExcelTable_TypeDefinitionIndex)->GetStaticField(0x54780);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityQuestRewardTabExcelTable_TypeDefinitionIndex)->GetStaticField(0x39520);
 		}
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ActivityQuestRewardTabExcelTable_TypeDefinitionIndex)->GetStaticField(0x11BD0);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ActivityQuestRewardTabExcelTable_TypeDefinitionIndex)->GetStaticField(0xC430);
 		}
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(ActivityQuestRewardTabExcelTable_TypeDefinitionIndex)->GetStaticField(0x11BD1);
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(ActivityQuestRewardTabExcelTable_TypeDefinitionIndex)->GetStaticField(0xC431);
 		}
 
 		static ::System::Void _cctor()

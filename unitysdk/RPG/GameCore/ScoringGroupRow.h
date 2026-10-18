@@ -6,20 +6,20 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_SCORINGGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D4D65B0)
-#define RPG_GAMECORE_SCORINGGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D4D6C20)
+#define RPG_GAMECORE_SCORINGGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DA89EE0)
+#define RPG_GAMECORE_SCORINGGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1DA8A550)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ScoringGroupRow_TypeDefinitionIndex = 12789;
+	inline static constexpr unsigned int ScoringGroupRow_TypeDefinitionIndex = 12884;
 
 	class ScoringGroupRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* ScoringIDList; // 0x10
-		::RPG::Client::TextID ScoreName; // 0x18
-		::System::UInt32 ScoringGroupID; // 0x28
-		::RPG::GameCore::BattleScoringDisplayType DisplayType; // 0x2C
+		::System::UInt32 ScoringGroupID; // 0x18
+		::RPG::GameCore::BattleScoringDisplayType DisplayType; // 0x1C
+		::RPG::Client::TextID ScoreName; // 0x20
 
 		::System::Void _ctor()
 		{

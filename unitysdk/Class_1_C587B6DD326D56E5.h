@@ -8,25 +8,25 @@ class Class_3_97041AE90E3B2214;
 namespace Entitas { template <typename T> class IGroup_1; }
 namespace System { class String; }
 
-#define CLASS_1_C587B6DD326D56E5_EXECUTE_OFFSET UNITYSDK_OFFSET(0xB692AC0)
-#define CLASS_1_C587B6DD326D56E5__CCTOR_OFFSET UNITYSDK_OFFSET(0xB692B00)
-#define CLASS_1_C587B6DD326D56E5__CTOR_OFFSET UNITYSDK_OFFSET(0xB692990)
+#define CLASS_1_C587B6DD326D56E5_EXECUTE_OFFSET UNITYSDK_OFFSET(0xB536680)
+#define CLASS_1_C587B6DD326D56E5__CCTOR_OFFSET UNITYSDK_OFFSET(0xB5366C0)
+#define CLASS_1_C587B6DD326D56E5__CTOR_OFFSET UNITYSDK_OFFSET(0xB536550)
 
-inline static constexpr unsigned int Class_1_C587B6DD326D56E5_TypeDefinitionIndex = 77305;
+inline static constexpr unsigned int Class_1_C587B6DD326D56E5_TypeDefinitionIndex = 77776;
 
 class Class_1_C587B6DD326D56E5 : public ::System::Object
 {
 public:
-	static ::System::String** StaticGet_DAAKOJMCPOJ()
-	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_C587B6DD326D56E5_TypeDefinitionIndex)->GetStaticField(0x659E0);
-	}
 	static ::System::String** StaticGet_NHPMFOEICCO()
 	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_C587B6DD326D56E5_TypeDefinitionIndex)->GetStaticField(0x659E8);
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_C587B6DD326D56E5_TypeDefinitionIndex)->GetStaticField(0x5EBE0);
 	}
-	::Class_2_360C00D6092F4D31* EEFMDEHLLFI; // 0x10
-	::Entitas::IGroup_1<::Class_2_5436AF4270279182*>* MBBMBOMFIGF; // 0x18
+	static ::System::String** StaticGet_DAAKOJMCPOJ()
+	{
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_C587B6DD326D56E5_TypeDefinitionIndex)->GetStaticField(0x5EBE8);
+	}
+	::Entitas::IGroup_1<::Class_2_5436AF4270279182*>* MBBMBOMFIGF; // 0x10
+	::Class_2_360C00D6092F4D31* EEFMDEHLLFI; // 0x18
 
 	::System::Void _ctor(::Class_3_97041AE90E3B2214* a1)
 	{

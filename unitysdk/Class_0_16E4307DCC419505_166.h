@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Struct_2_DF3F1B8142DB3648.h"
+#include "unitysdk/RPG/Client/MechCraft/MechCraftAttributeType.h"
+#include "unitysdk/System/Nullable_1.h"
 
-class Class_1_76C7E08195ED7984;
-namespace RPG { template <typename T> class PoolList_1; }
+class Class_0_16E4307DCC419505_120;
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_166_TypeDefinitionIndex = 40578;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_166_TypeDefinitionIndex = 41890;
 
 class Class_0_16E4307DCC419505_166
 {

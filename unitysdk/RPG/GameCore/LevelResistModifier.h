@@ -6,21 +6,21 @@
 namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_LEVELRESISTMODIFIER_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE699BD0)
-#define RPG_GAMECORE_LEVELRESISTMODIFIER_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE699B80)
-#define RPG_GAMECORE_LEVELRESISTMODIFIER_INIT_OFFSET UNITYSDK_OFFSET(0xE699B10)
-#define RPG_GAMECORE_LEVELRESISTMODIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0xE699C20)
+#define RPG_GAMECORE_LEVELRESISTMODIFIER_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE6F4FA0)
+#define RPG_GAMECORE_LEVELRESISTMODIFIER_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE6F4F50)
+#define RPG_GAMECORE_LEVELRESISTMODIFIER_INIT_OFFSET UNITYSDK_OFFSET(0xE6F4EE0)
+#define RPG_GAMECORE_LEVELRESISTMODIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0xE6F4FF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelResistModifier_TypeDefinitionIndex = 56956;
+	inline static constexpr unsigned int LevelResistModifier_TypeDefinitionIndex = 56777;
 
 	class LevelResistModifier : public ::Class_1_BF7A075734D15E98
 	{
 	public:
-		::RPG::GameCore::GameEntity* Taker; // 0x18
-		::System::String* ModifierName; // 0x20
-		::RPG::GameCore::GameEntity* Caster; // 0x28
+		::System::String* ModifierName; // 0x18
+		::RPG::GameCore::GameEntity* Caster; // 0x20
+		::RPG::GameCore::GameEntity* Taker; // 0x28
 
 		::System::Void _ctor()
 		{

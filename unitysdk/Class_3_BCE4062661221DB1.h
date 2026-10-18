@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetViewModeEnabled; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_BCE4062661221DB1_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x151F3750)
-#define CLASS_3_BCE4062661221DB1__CTOR_OFFSET UNITYSDK_OFFSET(0x151F3720)
+#define CLASS_3_BCE4062661221DB1_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1549D380)
+#define CLASS_3_BCE4062661221DB1__CTOR_OFFSET UNITYSDK_OFFSET(0x1549D350)
 
-inline static constexpr unsigned int Class_3_BCE4062661221DB1_TypeDefinitionIndex = 58738;
+inline static constexpr unsigned int Class_3_BCE4062661221DB1_TypeDefinitionIndex = 58590;
 
 class Class_3_BCE4062661221DB1 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetViewModeEnabled*>
 {

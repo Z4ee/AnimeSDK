@@ -12,36 +12,36 @@
 namespace Cysharp::Threading::Tasks { class IUniTaskSource; }
 namespace System { template <typename T> class Action_1; }
 
-#define CYSHARP_THREADING_TASKS_UNITASK_DELAYIGNORETIMESCALEPROMISE_CREATE_OFFSET UNITYSDK_OFFSET(0x1EA79EB0)
-#define CYSHARP_THREADING_TASKS_UNITASK_DELAYIGNORETIMESCALEPROMISE_GETRESULT_OFFSET UNITYSDK_OFFSET(0x1EA80190)
-#define CYSHARP_THREADING_TASKS_UNITASK_DELAYIGNORETIMESCALEPROMISE_GETSTATUS_OFFSET UNITYSDK_OFFSET(0x1EA80390)
-#define CYSHARP_THREADING_TASKS_UNITASK_DELAYIGNORETIMESCALEPROMISE_GET_NEXTNODE_OFFSET UNITYSDK_OFFSET(0x1EA80070)
-#define CYSHARP_THREADING_TASKS_UNITASK_DELAYIGNORETIMESCALEPROMISE_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1EA80510)
-#define CYSHARP_THREADING_TASKS_UNITASK_DELAYIGNORETIMESCALEPROMISE_ONCOMPLETED_OFFSET UNITYSDK_OFFSET(0x1EA804B0)
-#define CYSHARP_THREADING_TASKS_UNITASK_DELAYIGNORETIMESCALEPROMISE_TRYRETURN_OFFSET UNITYSDK_OFFSET(0x1EA802F0)
-#define CYSHARP_THREADING_TASKS_UNITASK_DELAYIGNORETIMESCALEPROMISE_UNSAFEGETSTATUS_OFFSET UNITYSDK_OFFSET(0x1EA80460)
-#define CYSHARP_THREADING_TASKS_UNITASK_DELAYIGNORETIMESCALEPROMISE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EA80080)
-#define CYSHARP_THREADING_TASKS_UNITASK_DELAYIGNORETIMESCALEPROMISE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA80180)
+#define CYSHARP_THREADING_TASKS_UNITASK_DELAYIGNORETIMESCALEPROMISE_CREATE_OFFSET UNITYSDK_OFFSET(0x1F141610)
+#define CYSHARP_THREADING_TASKS_UNITASK_DELAYIGNORETIMESCALEPROMISE_GETRESULT_OFFSET UNITYSDK_OFFSET(0x1F1478E0)
+#define CYSHARP_THREADING_TASKS_UNITASK_DELAYIGNORETIMESCALEPROMISE_GETSTATUS_OFFSET UNITYSDK_OFFSET(0x1F147AD0)
+#define CYSHARP_THREADING_TASKS_UNITASK_DELAYIGNORETIMESCALEPROMISE_GET_NEXTNODE_OFFSET UNITYSDK_OFFSET(0x1F1477C0)
+#define CYSHARP_THREADING_TASKS_UNITASK_DELAYIGNORETIMESCALEPROMISE_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1F147C50)
+#define CYSHARP_THREADING_TASKS_UNITASK_DELAYIGNORETIMESCALEPROMISE_ONCOMPLETED_OFFSET UNITYSDK_OFFSET(0x1F147BF0)
+#define CYSHARP_THREADING_TASKS_UNITASK_DELAYIGNORETIMESCALEPROMISE_TRYRETURN_OFFSET UNITYSDK_OFFSET(0x1F147A30)
+#define CYSHARP_THREADING_TASKS_UNITASK_DELAYIGNORETIMESCALEPROMISE_UNSAFEGETSTATUS_OFFSET UNITYSDK_OFFSET(0x1F147BA0)
+#define CYSHARP_THREADING_TASKS_UNITASK_DELAYIGNORETIMESCALEPROMISE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F1477D0)
+#define CYSHARP_THREADING_TASKS_UNITASK_DELAYIGNORETIMESCALEPROMISE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F1478D0)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UniTask_DelayIgnoreTimeScalePromise_TypeDefinitionIndex = 42653;
+	inline static constexpr unsigned int UniTask_DelayIgnoreTimeScalePromise_TypeDefinitionIndex = 38238;
 
 	class UniTask_DelayIgnoreTimeScalePromise : public ::System::Object
 	{
 	public:
 		static ::Cysharp::Threading::Tasks::TaskPool_1<::Cysharp::Threading::Tasks::UniTask_DelayIgnoreTimeScalePromise*>* StaticGet_pool()
 		{
-			return (::Cysharp::Threading::Tasks::TaskPool_1<::Cysharp::Threading::Tasks::UniTask_DelayIgnoreTimeScalePromise*>*)Il2CppClass::FromTypeDefinitionIndex(UniTask_DelayIgnoreTimeScalePromise_TypeDefinitionIndex)->GetStaticField(0x58E10);
+			return (::Cysharp::Threading::Tasks::TaskPool_1<::Cysharp::Threading::Tasks::UniTask_DelayIgnoreTimeScalePromise*>*)Il2CppClass::FromTypeDefinitionIndex(UniTask_DelayIgnoreTimeScalePromise_TypeDefinitionIndex)->GetStaticField(0x46680);
 		}
-		::Cysharp::Threading::Tasks::UniTask_DelayIgnoreTimeScalePromise* nextNode; // 0x10
-		::System::Threading::CancellationToken cancellationToken; // 0x18
-		::Cysharp::Threading::Tasks::UniTaskCompletionSourceCore_1<::System::Object*> core; // 0x20
-		::System::Threading::CancellationTokenRegistration cancellationTokenRegistration; // 0x48
-		::System::Boolean cancelImmediately; // 0x60
-		::System::Single elapsed; // 0x64
-		::System::Single delayFrameTimeSpan; // 0x68
-		::System::Int32 initialFrame; // 0x6C
+		::System::Threading::CancellationTokenRegistration cancellationTokenRegistration; // 0x10
+		::Cysharp::Threading::Tasks::UniTask_DelayIgnoreTimeScalePromise* nextNode; // 0x28
+		::System::Threading::CancellationToken cancellationToken; // 0x30
+		::Cysharp::Threading::Tasks::UniTaskCompletionSourceCore_1<::System::Object*> core; // 0x38
+		::System::Single elapsed; // 0x60
+		::System::Int32 initialFrame; // 0x64
+		::System::Boolean cancelImmediately; // 0x68
+		::System::Single delayFrameTimeSpan; // 0x6C
 
 		static ::System::Void _cctor()
 		{

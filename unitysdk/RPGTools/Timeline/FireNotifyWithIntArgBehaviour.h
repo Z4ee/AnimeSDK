@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_FIRENOTIFYWITHINTARGBEHAVIOUR_METHOD_3_E3DE31A03057E055_OFFSET UNITYSDK_OFFSET(0xE85C860)
-#define RPGTOOLS_TIMELINE_FIRENOTIFYWITHINTARGBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xE85C980)
+#define RPGTOOLS_TIMELINE_FIRENOTIFYWITHINTARGBEHAVIOUR_METHOD_3_E3DE31A03057E055_OFFSET UNITYSDK_OFFSET(0xE8FACB0)
+#define RPGTOOLS_TIMELINE_FIRENOTIFYWITHINTARGBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xE8FADD0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int FireNotifyWithIntArgBehaviour_TypeDefinitionIndex = 48857;
+	inline static constexpr unsigned int FireNotifyWithIntArgBehaviour_TypeDefinitionIndex = 48403;
 
 	class FireNotifyWithIntArgBehaviour : public ::RPGTools::Timeline::CustomEventBehaviour
 	{

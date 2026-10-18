@@ -9,11 +9,11 @@ namespace System { class String; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class Renderer; }
 
-#define EFFECT_SETWEAPONOBJCENTER_START_OFFSET UNITYSDK_OFFSET(0x152F46A0)
-#define EFFECT_SETWEAPONOBJCENTER_UPDATE_OFFSET UNITYSDK_OFFSET(0x152F4700)
-#define EFFECT_SETWEAPONOBJCENTER__CTOR_OFFSET UNITYSDK_OFFSET(0x152F4F10)
+#define EFFECT_SETWEAPONOBJCENTER_START_OFFSET UNITYSDK_OFFSET(0x155E30B0)
+#define EFFECT_SETWEAPONOBJCENTER_UPDATE_OFFSET UNITYSDK_OFFSET(0x155E3110)
+#define EFFECT_SETWEAPONOBJCENTER__CTOR_OFFSET UNITYSDK_OFFSET(0x155E3920)
 
-inline static constexpr unsigned int Effect_SetWeaponObjCenter_TypeDefinitionIndex = 47917;
+inline static constexpr unsigned int Effect_SetWeaponObjCenter_TypeDefinitionIndex = 47457;
 
 class Effect_SetWeaponObjCenter : public ::UnityEngine::MonoBehaviour
 {

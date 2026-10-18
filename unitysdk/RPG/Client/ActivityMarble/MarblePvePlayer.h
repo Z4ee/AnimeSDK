@@ -3,45 +3,69 @@
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/System/Object.h"
 
-namespace RPG::Client::ActivityMarble { class MarbleSealTeamSelection; }
-namespace RPG::GameCore { class MarbleMatchPlayerRow; }
+namespace RPG::Client::ActivityMarble { class MarbleTeamSelection; }
 namespace System { class String; }
 
-#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVEPLAYER_CREATEPVEHEROPLAYER_OFFSET UNITYSDK_OFFSET(0xC624B40)
-#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVEPLAYER_CREATEPVEPLAYER_1_OFFSET UNITYSDK_OFFSET(0xC634E80)
-#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVEPLAYER_CREATEPVEPLAYER_OFFSET UNITYSDK_OFFSET(0xC632810)
-#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVEPLAYER_GETMARBLESEALTEAM_OFFSET UNITYSDK_OFFSET(0xC634F00)
-#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVEPLAYER_GET_ACTIVITYID_OFFSET UNITYSDK_OFFSET(0xC635070)
-#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVEPLAYER_GET_DESC_OFFSET UNITYSDK_OFFSET(0xC635230)
-#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVEPLAYER_GET_ICONPATH_OFFSET UNITYSDK_OFFSET(0xC635190)
-#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVEPLAYER_GET_IMAGEPATH_OFFSET UNITYSDK_OFFSET(0xC6351E0)
-#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVEPLAYER_GET_ISME_OFFSET UNITYSDK_OFFSET(0xC634FC0)
-#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVEPLAYER_GET_PLAYERID_OFFSET UNITYSDK_OFFSET(0xC622A40)
-#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVEPLAYER_GET_PLAYERNAMESTR_OFFSET UNITYSDK_OFFSET(0xC635100)
-#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVEPLAYER_GET_PLAYERNAME_OFFSET UNITYSDK_OFFSET(0xC635090)
-#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVEPLAYER_SET_ACTIVITYID_OFFSET UNITYSDK_OFFSET(0xC635080)
-#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVEPLAYER__CTOR_1_OFFSET UNITYSDK_OFFSET(0xC634E70)
-#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVEPLAYER__CTOR_OFFSET UNITYSDK_OFFSET(0xC634E30)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVEPLAYER_CREATEPVEHEROPLAYER_OFFSET UNITYSDK_OFFSET(0xC53FCD0)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVEPLAYER_CREATEPVEPLAYER_OFFSET UNITYSDK_OFFSET(0xC54F5B0)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVEPLAYER_GETMARBLETEAM_OFFSET UNITYSDK_OFFSET(0xC551E40)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVEPLAYER_GET_ACTIVITYID_OFFSET UNITYSDK_OFFSET(0xC552220)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVEPLAYER_GET_DESC_OFFSET UNITYSDK_OFFSET(0xC5521C0)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVEPLAYER_GET_HIGHNEGATIVEEMOJILIST_OFFSET UNITYSDK_OFFSET(0xC5522C0)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVEPLAYER_GET_HIGHPOSITIVEEMOJILIST_OFFSET UNITYSDK_OFFSET(0xC5522A0)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVEPLAYER_GET_ICONPATH_OFFSET UNITYSDK_OFFSET(0xC552180)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVEPLAYER_GET_IMAGEPATH_OFFSET UNITYSDK_OFFSET(0xC5521A0)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVEPLAYER_GET_ISME_OFFSET UNITYSDK_OFFSET(0xC551F00)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVEPLAYER_GET_LOWNEGATIVEEMOJILIST_OFFSET UNITYSDK_OFFSET(0xC552280)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVEPLAYER_GET_LOWPOSITIVEEMOJILIST_OFFSET UNITYSDK_OFFSET(0xC552260)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVEPLAYER_GET_PLAYERACTIONEMOJILIST_OFFSET UNITYSDK_OFFSET(0xC552240)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVEPLAYER_GET_PLAYERID_OFFSET UNITYSDK_OFFSET(0xC5520C0)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVEPLAYER_GET_PLAYERNAMESTR_OFFSET UNITYSDK_OFFSET(0xC552100)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVEPLAYER_GET_PLAYERNAME_OFFSET UNITYSDK_OFFSET(0xC5520E0)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVEPLAYER_GET_PREFABPATH_OFFSET UNITYSDK_OFFSET(0xC5521E0)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVEPLAYER_GET_SEALGROUPID_OFFSET UNITYSDK_OFFSET(0xC552200)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVEPLAYER_LOADFROMMARBLESEALEXCEL_OFFSET UNITYSDK_OFFSET(0xC551C60)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVEPLAYER_SET_ACTIVITYID_OFFSET UNITYSDK_OFFSET(0xC552230)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVEPLAYER_SET_DESC_OFFSET UNITYSDK_OFFSET(0xC5521D0)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVEPLAYER_SET_HIGHNEGATIVEEMOJILIST_OFFSET UNITYSDK_OFFSET(0xC5522D0)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVEPLAYER_SET_HIGHPOSITIVEEMOJILIST_OFFSET UNITYSDK_OFFSET(0xC5522B0)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVEPLAYER_SET_ICONPATH_OFFSET UNITYSDK_OFFSET(0xC552190)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVEPLAYER_SET_IMAGEPATH_OFFSET UNITYSDK_OFFSET(0xC5521B0)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVEPLAYER_SET_LOWNEGATIVEEMOJILIST_OFFSET UNITYSDK_OFFSET(0xC552290)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVEPLAYER_SET_LOWPOSITIVEEMOJILIST_OFFSET UNITYSDK_OFFSET(0xC552270)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVEPLAYER_SET_PLAYERACTIONEMOJILIST_OFFSET UNITYSDK_OFFSET(0xC552250)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVEPLAYER_SET_PLAYERID_OFFSET UNITYSDK_OFFSET(0xC5520D0)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVEPLAYER_SET_PLAYERNAME_OFFSET UNITYSDK_OFFSET(0xC5520F0)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVEPLAYER_SET_PREFABPATH_OFFSET UNITYSDK_OFFSET(0xC5521F0)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVEPLAYER_SET_SEALGROUPID_OFFSET UNITYSDK_OFFSET(0xC552210)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVEPLAYER__CTOR_OFFSET UNITYSDK_OFFSET(0xC551C10)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVEPLAYER__RESETDATA_OFFSET UNITYSDK_OFFSET(0xC552030)
 
 namespace RPG::Client::ActivityMarble
 {
-	inline static constexpr unsigned int MarblePvePlayer_TypeDefinitionIndex = 74590;
+	inline static constexpr unsigned int MarblePvePlayer_TypeDefinitionIndex = 75991;
 
 	class MarblePvePlayer : public ::System::Object
 	{
 	public:
-		::RPG::Client::ActivityMarble::MarbleSealTeamSelection* _TeamSelection; // 0x10
-		::RPG::GameCore::MarbleMatchPlayerRow* Row; // 0x18
-		::System::UInt32 _ActivityID_k__BackingField; // 0x20
+		::System::String* _PrefabPath_k__BackingField; // 0x10
+		::System::String* _IconPath_k__BackingField; // 0x18
+		::Il2CppArray<::System::UInt32>* _HighPositiveEmojiList_k__BackingField; // 0x20
+		::Il2CppArray<::System::UInt32>* _PlayerActionEmojiList_k__BackingField; // 0x28
+		::RPG::Client::ActivityMarble::MarbleTeamSelection* _TeamSelection; // 0x30
+		::Il2CppArray<::System::UInt32>* _HighNegativeEmojiList_k__BackingField; // 0x38
+		::System::String* _ImagePath_k__BackingField; // 0x40
+		::Il2CppArray<::System::UInt32>* _LowNegativeEmojiList_k__BackingField; // 0x48
+		::Il2CppArray<::System::UInt32>* _LowPositiveEmojiList_k__BackingField; // 0x50
+		::RPG::Client::TextID _Desc_k__BackingField; // 0x58
+		::RPG::Client::TextID _PlayerName_k__BackingField; // 0x68
+		::System::UInt32 _ActivityID_k__BackingField; // 0x78
+		::System::UInt32 _SealGroupID_k__BackingField; // 0x7C
+		::System::UInt32 _PlayerID_k__BackingField; // 0x80
 
 		::System::Void _ctor(::System::UInt32 a1, ::System::UInt32 a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVEPLAYER__CTOR_OFFSET))(this, a1, a2);
-		}
-
-		::System::Void _ctor_1(::RPG::GameCore::MarbleMatchPlayerRow* a1, ::System::UInt32 a2)
-		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::MarbleMatchPlayerRow*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVEPLAYER__CTOR_1_OFFSET))(this, a1, a2);
 		}
 
 		static ::RPG::Client::ActivityMarble::MarblePvePlayer* CreatePvePlayer(::System::UInt32 a1)
@@ -49,19 +73,24 @@ namespace RPG::Client::ActivityMarble
 			return ((::RPG::Client::ActivityMarble::MarblePvePlayer*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVEPLAYER_CREATEPVEPLAYER_OFFSET))(a1);
 		}
 
-		static ::RPG::Client::ActivityMarble::MarblePvePlayer* CreatePvePlayer_1(::RPG::GameCore::MarbleMatchPlayerRow* a1)
-		{
-			return ((::RPG::Client::ActivityMarble::MarblePvePlayer*(*)(::RPG::GameCore::MarbleMatchPlayerRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVEPLAYER_CREATEPVEPLAYER_1_OFFSET))(a1);
-		}
-
 		static ::RPG::Client::ActivityMarble::MarblePvePlayer* CreatePveHeroPlayer()
 		{
 			return ((::RPG::Client::ActivityMarble::MarblePvePlayer*(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVEPLAYER_CREATEPVEHEROPLAYER_OFFSET))();
 		}
 
-		::RPG::Client::ActivityMarble::MarbleSealTeamSelection* GetMarbleSealTeam()
+		::RPG::Client::ActivityMarble::MarbleTeamSelection* GetMarbleTeam()
 		{
-			return ((::RPG::Client::ActivityMarble::MarbleSealTeamSelection*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVEPLAYER_GETMARBLESEALTEAM_OFFSET))(this);
+			return ((::RPG::Client::ActivityMarble::MarbleTeamSelection*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVEPLAYER_GETMARBLETEAM_OFFSET))(this);
+		}
+
+		::System::Void LoadFromMarbleSealExcel()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVEPLAYER_LOADFROMMARBLESEALEXCEL_OFFSET))(this);
+		}
+
+		::System::Void _ResetData()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVEPLAYER__RESETDATA_OFFSET))(this);
 		}
 
 		::System::UInt32 get_PlayerID()
@@ -69,19 +98,19 @@ namespace RPG::Client::ActivityMarble
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVEPLAYER_GET_PLAYERID_OFFSET))(this);
 		}
 
-		::System::UInt32 get_ActivityID()
+		::System::Void set_PlayerID(::System::UInt32 a1)
 		{
-			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVEPLAYER_GET_ACTIVITYID_OFFSET))(this);
-		}
-
-		::System::Void set_ActivityID(::System::UInt32 a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVEPLAYER_SET_ACTIVITYID_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVEPLAYER_SET_PLAYERID_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::TextID get_PlayerName()
 		{
 			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVEPLAYER_GET_PLAYERNAME_OFFSET))(this);
+		}
+
+		::System::Void set_PlayerName(::RPG::Client::TextID a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::TextID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVEPLAYER_SET_PLAYERNAME_OFFSET))(this, a1);
 		}
 
 		::System::String* get_PlayerNameStr()
@@ -94,14 +123,109 @@ namespace RPG::Client::ActivityMarble
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVEPLAYER_GET_ICONPATH_OFFSET))(this);
 		}
 
+		::System::Void set_IconPath(::System::String* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVEPLAYER_SET_ICONPATH_OFFSET))(this, a1);
+		}
+
 		::System::String* get_ImagePath()
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVEPLAYER_GET_IMAGEPATH_OFFSET))(this);
 		}
 
+		::System::Void set_ImagePath(::System::String* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVEPLAYER_SET_IMAGEPATH_OFFSET))(this, a1);
+		}
+
 		::RPG::Client::TextID get_Desc()
 		{
 			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVEPLAYER_GET_DESC_OFFSET))(this);
+		}
+
+		::System::Void set_Desc(::RPG::Client::TextID a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::TextID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVEPLAYER_SET_DESC_OFFSET))(this, a1);
+		}
+
+		::System::String* get_PrefabPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVEPLAYER_GET_PREFABPATH_OFFSET))(this);
+		}
+
+		::System::Void set_PrefabPath(::System::String* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVEPLAYER_SET_PREFABPATH_OFFSET))(this, a1);
+		}
+
+		::System::UInt32 get_SealGroupID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVEPLAYER_GET_SEALGROUPID_OFFSET))(this);
+		}
+
+		::System::Void set_SealGroupID(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVEPLAYER_SET_SEALGROUPID_OFFSET))(this, a1);
+		}
+
+		::System::UInt32 get_ActivityID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVEPLAYER_GET_ACTIVITYID_OFFSET))(this);
+		}
+
+		::System::Void set_ActivityID(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVEPLAYER_SET_ACTIVITYID_OFFSET))(this, a1);
+		}
+
+		::Il2CppArray<::System::UInt32>* get_PlayerActionEmojiList()
+		{
+			return ((::Il2CppArray<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVEPLAYER_GET_PLAYERACTIONEMOJILIST_OFFSET))(this);
+		}
+
+		::System::Void set_PlayerActionEmojiList(::Il2CppArray<::System::UInt32>* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVEPLAYER_SET_PLAYERACTIONEMOJILIST_OFFSET))(this, a1);
+		}
+
+		::Il2CppArray<::System::UInt32>* get_LowPositiveEmojiList()
+		{
+			return ((::Il2CppArray<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVEPLAYER_GET_LOWPOSITIVEEMOJILIST_OFFSET))(this);
+		}
+
+		::System::Void set_LowPositiveEmojiList(::Il2CppArray<::System::UInt32>* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVEPLAYER_SET_LOWPOSITIVEEMOJILIST_OFFSET))(this, a1);
+		}
+
+		::Il2CppArray<::System::UInt32>* get_LowNegativeEmojiList()
+		{
+			return ((::Il2CppArray<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVEPLAYER_GET_LOWNEGATIVEEMOJILIST_OFFSET))(this);
+		}
+
+		::System::Void set_LowNegativeEmojiList(::Il2CppArray<::System::UInt32>* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVEPLAYER_SET_LOWNEGATIVEEMOJILIST_OFFSET))(this, a1);
+		}
+
+		::Il2CppArray<::System::UInt32>* get_HighPositiveEmojiList()
+		{
+			return ((::Il2CppArray<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVEPLAYER_GET_HIGHPOSITIVEEMOJILIST_OFFSET))(this);
+		}
+
+		::System::Void set_HighPositiveEmojiList(::Il2CppArray<::System::UInt32>* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVEPLAYER_SET_HIGHPOSITIVEEMOJILIST_OFFSET))(this, a1);
+		}
+
+		::Il2CppArray<::System::UInt32>* get_HighNegativeEmojiList()
+		{
+			return ((::Il2CppArray<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVEPLAYER_GET_HIGHNEGATIVEEMOJILIST_OFFSET))(this);
+		}
+
+		::System::Void set_HighNegativeEmojiList(::Il2CppArray<::System::UInt32>* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVEPLAYER_SET_HIGHNEGATIVEEMOJILIST_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_IsMe()

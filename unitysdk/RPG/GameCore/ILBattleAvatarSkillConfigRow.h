@@ -9,28 +9,28 @@ class Class_1_7A22A3DBEEDD1F80;
 class Class_1_FCA657D695DD9485;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ILBATTLEAVATARSKILLCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D199720)
-#define RPG_GAMECORE_ILBATTLEAVATARSKILLCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D199C70)
+#define RPG_GAMECORE_ILBATTLEAVATARSKILLCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D775420)
+#define RPG_GAMECORE_ILBATTLEAVATARSKILLCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D775970)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ILBattleAvatarSkillConfigRow_TypeDefinitionIndex = 13677;
+	inline static constexpr unsigned int ILBattleAvatarSkillConfigRow_TypeDefinitionIndex = 13784;
 
 	class ILBattleAvatarSkillConfigRow : public ::System::Object
 	{
 	public:
 		::System::String* SkillTriggerKey; // 0x10
-		::System::String* SkillNameKey; // 0x18
-		::Il2CppArray<::Class_1_FCA657D695DD9485*>* ParamList; // 0x20
-		::RPG::Client::TextID SkillName; // 0x28
-		::RPG::Client::TextID SkillDesc; // 0x38
-		::RPG::GameCore::FixPoint CoolDown; // 0x48
-		::RPG::GameCore::FixPoint InitialCD; // 0x50
-		::RPG::GameCore::AttackType AttackType; // 0x58
-		::System::UInt32 MaxLevel; // 0x5C
-		::RPG::Client::TextID SimpleSkillDesc; // 0x60
-		::System::UInt32 ID; // 0x70
-		::System::UInt32 RatedPromotionID; // 0x74
+		::Il2CppArray<::Class_1_FCA657D695DD9485*>* ParamList; // 0x18
+		::System::String* SkillNameKey; // 0x20
+		::RPG::Client::TextID SkillDesc; // 0x28
+		::RPG::GameCore::FixPoint InitialCD; // 0x38
+		::RPG::GameCore::AttackType AttackType; // 0x40
+		::System::UInt32 RatedPromotionID; // 0x44
+		::RPG::Client::TextID SkillName; // 0x48
+		::RPG::GameCore::FixPoint CoolDown; // 0x58
+		::System::UInt32 ID; // 0x60
+		::System::UInt32 MaxLevel; // 0x64
+		::RPG::Client::TextID SimpleSkillDesc; // 0x68
 
 		::System::Void _ctor()
 		{

@@ -1,0 +1,55 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_0_16E4307DCC419505_1014;
+class Class_0_16E4307DCC419505_1015;
+class Class_1_0A511EC341C76F1D;
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define CLASS_1_E8637EF90A97A449_METHOD_1_0D18CD75BD6D5688_OFFSET UNITYSDK_OFFSET(0xB9495C0)
+#define CLASS_1_E8637EF90A97A449_METHOD_1_710617EA4BA4C457_OFFSET UNITYSDK_OFFSET(0xB949950)
+#define CLASS_1_E8637EF90A97A449_METHOD_1_B1936CE4DA97AA45_OFFSET UNITYSDK_OFFSET(0xB949660)
+#define CLASS_1_E8637EF90A97A449_METHOD_1_F1C870D01294DAF7_OFFSET UNITYSDK_OFFSET(0xB9496E0)
+#define CLASS_1_E8637EF90A97A449_METHOD_1_F29D7A7F508EABE1_OFFSET UNITYSDK_OFFSET(0xB9499B0)
+#define CLASS_1_E8637EF90A97A449__CTOR_OFFSET UNITYSDK_OFFSET(0xB949500)
+
+inline static constexpr unsigned int Class_1_E8637EF90A97A449_TypeDefinitionIndex = 66716;
+
+class Class_1_E8637EF90A97A449 : public ::System::Object
+{
+public:
+	::Class_1_0A511EC341C76F1D* MEGLBLIJGCF; // 0x10
+	::Class_0_16E4307DCC419505_1014* EDLDCGGEPFG; // 0x18
+	::Class_0_16E4307DCC419505_1015* EEFMDEHLLFI; // 0x20
+
+	::System::Void _ctor(::Class_0_16E4307DCC419505_1015* a1, ::Class_1_0A511EC341C76F1D* a2, ::Class_0_16E4307DCC419505_1014* a3)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_1015*, ::Class_1_0A511EC341C76F1D*, ::Class_0_16E4307DCC419505_1014*))((::PBYTE)hIl2Cpp + CLASS_1_E8637EF90A97A449__CTOR_OFFSET))(this, a1, a2, a3);
+	}
+
+	::System::Void Method_1_0D18CD75BD6D5688(::System::Collections::Generic::List_1<::System::UInt32>* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + CLASS_1_E8637EF90A97A449_METHOD_1_0D18CD75BD6D5688_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_B1936CE4DA97AA45()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_E8637EF90A97A449_METHOD_1_B1936CE4DA97AA45_OFFSET))(this);
+	}
+
+	::System::Void Method_1_F1C870D01294DAF7()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_E8637EF90A97A449_METHOD_1_F1C870D01294DAF7_OFFSET))(this);
+	}
+
+	::System::Boolean Method_1_710617EA4BA4C457(::System::UInt32 a1)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_E8637EF90A97A449_METHOD_1_710617EA4BA4C457_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_F29D7A7F508EABE1()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_E8637EF90A97A449_METHOD_1_F29D7A7F508EABE1_OFFSET))(this);
+	}
+};

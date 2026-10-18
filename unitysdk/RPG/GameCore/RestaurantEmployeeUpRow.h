@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_RESTAURANTEMPLOYEEUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3AA4B0)
-#define RPG_GAMECORE_RESTAURANTEMPLOYEEUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3AA650)
+#define RPG_GAMECORE_RESTAURANTEMPLOYEEUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D990C50)
+#define RPG_GAMECORE_RESTAURANTEMPLOYEEUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D990DF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RestaurantEmployeeUpRow_TypeDefinitionIndex = 11330;
+	inline static constexpr unsigned int RestaurantEmployeeUpRow_TypeDefinitionIndex = 11346;
 
 	class RestaurantEmployeeUpRow : public ::System::Object
 	{

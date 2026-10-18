@@ -4,10 +4,10 @@
 
 namespace RPG::GameCore { class IdleLiveEventSentenceRow; }
 
-#define CLASS_1_E1B52763F52BED2C___C__DISPLAYCLASS2_0__CREATE_B__0_OFFSET UNITYSDK_OFFSET(0xBECEEB0)
-#define CLASS_1_E1B52763F52BED2C___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBECEB30)
+#define CLASS_1_E1B52763F52BED2C___C__DISPLAYCLASS2_0__CREATE_B__0_OFFSET UNITYSDK_OFFSET(0xBD60590)
+#define CLASS_1_E1B52763F52BED2C___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBD60210)
 
-inline static constexpr unsigned int Class_1_E1B52763F52BED2C___c__DisplayClass2_0_TypeDefinitionIndex = 74864;
+inline static constexpr unsigned int Class_1_E1B52763F52BED2C___c__DisplayClass2_0_TypeDefinitionIndex = 75164;
 
 class Class_1_E1B52763F52BED2C___c__DisplayClass2_0 : public ::System::Object
 {

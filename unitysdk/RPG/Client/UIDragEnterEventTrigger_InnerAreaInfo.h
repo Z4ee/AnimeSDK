@@ -5,12 +5,12 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_UIDRAGENTEREVENTTRIGGER_INNERAREAINFO_GET_ISACTIVE_OFFSET UNITYSDK_OFFSET(0xE358D10)
-#define RPG_CLIENT_UIDRAGENTEREVENTTRIGGER_INNERAREAINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xE358070)
+#define RPG_CLIENT_UIDRAGENTEREVENTTRIGGER_INNERAREAINFO_GET_ISACTIVE_OFFSET UNITYSDK_OFFSET(0xE398E20)
+#define RPG_CLIENT_UIDRAGENTEREVENTTRIGGER_INNERAREAINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xE398180)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIDragEnterEventTrigger_InnerAreaInfo_TypeDefinitionIndex = 72972;
+	inline static constexpr unsigned int UIDragEnterEventTrigger_InnerAreaInfo_TypeDefinitionIndex = 73058;
 
 	class UIDragEnterEventTrigger_InnerAreaInfo : public ::System::Object
 	{

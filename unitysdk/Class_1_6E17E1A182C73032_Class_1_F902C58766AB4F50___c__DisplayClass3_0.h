@@ -1,0 +1,30 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_0_16E4307DCC419505_157;
+class Class_1_6E17E1A182C73032_Class_1_F902C58766AB4F50;
+class Class_1_7B5BC5F7531D3B01;
+class Class_1_A25EAA30D33F080F;
+
+#define CLASS_1_6E17E1A182C73032_CLASS_1_F902C58766AB4F50___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC021580)
+#define CLASS_1_6E17E1A182C73032_CLASS_1_F902C58766AB4F50___C__DISPLAYCLASS3_0__TRYCREATE_B__0_OFFSET UNITYSDK_OFFSET(0xC021590)
+
+inline static constexpr unsigned int Class_1_6E17E1A182C73032_Class_1_F902C58766AB4F50___c__DisplayClass3_0_TypeDefinitionIndex = 79576;
+
+class Class_1_6E17E1A182C73032_Class_1_F902C58766AB4F50___c__DisplayClass3_0 : public ::System::Object
+{
+public:
+	::Class_0_16E4307DCC419505_157* orderConfig; // 0x10
+	::Class_1_6E17E1A182C73032_Class_1_F902C58766AB4F50* __4__this; // 0x18
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_6E17E1A182C73032_CLASS_1_F902C58766AB4F50___C__DISPLAYCLASS3_0__CTOR_OFFSET))(this);
+	}
+
+	::Class_1_A25EAA30D33F080F* _TryCreate_b__0(::Class_1_7B5BC5F7531D3B01* a1, ::System::Int32 a2)
+	{
+		return ((::Class_1_A25EAA30D33F080F*(*)(::PVOID, ::Class_1_7B5BC5F7531D3B01*, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_6E17E1A182C73032_CLASS_1_F902C58766AB4F50___C__DISPLAYCLASS3_0__TRYCREATE_B__0_OFFSET))(this, a1, a2);
+	}
+};

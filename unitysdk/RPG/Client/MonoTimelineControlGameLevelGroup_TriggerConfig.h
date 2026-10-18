@@ -6,11 +6,11 @@ namespace RPG::Client { class MonoTimelineControlGameLevelGroup_TriggerActionCon
 namespace System { class String; }
 namespace UnityEngine { class Animator; }
 
-#define RPG_CLIENT_MONOTIMELINECONTROLGAMELEVELGROUP_TRIGGERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xD86DAE0)
+#define RPG_CLIENT_MONOTIMELINECONTROLGAMELEVELGROUP_TRIGGERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xD86E3A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoTimelineControlGameLevelGroup_TriggerConfig_TypeDefinitionIndex = 60549;
+	inline static constexpr unsigned int MonoTimelineControlGameLevelGroup_TriggerConfig_TypeDefinitionIndex = 60449;
 
 	class MonoTimelineControlGameLevelGroup_TriggerConfig : public ::System::Object
 	{

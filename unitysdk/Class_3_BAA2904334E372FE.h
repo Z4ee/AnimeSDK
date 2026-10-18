@@ -6,18 +6,18 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class DynamicString; }
 
-#define CLASS_3_BAA2904334E372FE_METHOD_3_07947D5C71D40FC8_OFFSET UNITYSDK_OFFSET(0x1D445020)
-#define CLASS_3_BAA2904334E372FE_METHOD_3_400CD15A8456AED9_OFFSET UNITYSDK_OFFSET(0x1D444F30)
-#define CLASS_3_BAA2904334E372FE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D444FC0)
+#define CLASS_3_BAA2904334E372FE_METHOD_3_07947D5C71D40FC8_OFFSET UNITYSDK_OFFSET(0x1DA14200)
+#define CLASS_3_BAA2904334E372FE_METHOD_3_400CD15A8456AED9_OFFSET UNITYSDK_OFFSET(0x1DA14110)
+#define CLASS_3_BAA2904334E372FE__CTOR_OFFSET UNITYSDK_OFFSET(0x1DA141A0)
 
-inline static constexpr unsigned int Class_3_BAA2904334E372FE_TypeDefinitionIndex = 21911;
+inline static constexpr unsigned int Class_3_BAA2904334E372FE_TypeDefinitionIndex = 22159;
 
 class Class_3_BAA2904334E372FE : public ::RPG::GameCore::TaskConfig
 {
 public:
-	::RPG::GameCore::DynamicFloat* JODPHBJFOPL; // 0x18
+	::RPG::GameCore::DynamicString* BFLIFKBEOPJ; // 0x18
 	::RPG::GameCore::DynamicString* GEBAIALMBFB; // 0x20
-	::RPG::GameCore::DynamicString* BFLIFKBEOPJ; // 0x28
+	::RPG::GameCore::DynamicFloat* JODPHBJFOPL; // 0x28
 	::System::Boolean OPBKCOJPOPI; // 0x30
 
 	::System::Void _ctor()

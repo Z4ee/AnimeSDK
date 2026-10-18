@@ -5,9 +5,9 @@
 namespace RPG::Client { class BattleSilverWolf999CustomUIData; }
 namespace RPG::GameCore { class GameEntity; }
 
-#define CLASS_3_4DF2C5923A3C22B3_CLASS_1_954C9ACE7A5000A4__CTOR_OFFSET UNITYSDK_OFFSET(0xB4F8AC0)
+#define CLASS_3_4DF2C5923A3C22B3_CLASS_1_954C9ACE7A5000A4__CTOR_OFFSET UNITYSDK_OFFSET(0xB334480)
 
-inline static constexpr unsigned int Class_3_4DF2C5923A3C22B3_Class_1_954C9ACE7A5000A4_TypeDefinitionIndex = 71877;
+inline static constexpr unsigned int Class_3_4DF2C5923A3C22B3_Class_1_954C9ACE7A5000A4_TypeDefinitionIndex = 71942;
 
 class Class_3_4DF2C5923A3C22B3_Class_1_954C9ACE7A5000A4 : public ::System::Object
 {

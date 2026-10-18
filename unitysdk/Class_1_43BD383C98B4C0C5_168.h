@@ -2,9 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_43BD383C98B4C0C5_168__CTOR_OFFSET UNITYSDK_OFFSET(0x152371D0)
+#define CLASS_1_43BD383C98B4C0C5_168_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x15C67080)
+#define CLASS_1_43BD383C98B4C0C5_168_ONENTERBEGIN_OFFSET UNITYSDK_OFFSET(0x15C67000)
+#define CLASS_1_43BD383C98B4C0C5_168_ONENTEREND_OFFSET UNITYSDK_OFFSET(0x15C67040)
+#define CLASS_1_43BD383C98B4C0C5_168_ONEXITBEGIN_OFFSET UNITYSDK_OFFSET(0x15C66F80)
+#define CLASS_1_43BD383C98B4C0C5_168_ONEXITEND_OFFSET UNITYSDK_OFFSET(0x15C66FC0)
+#define CLASS_1_43BD383C98B4C0C5_168_ONTRANSITIONEND_OFFSET UNITYSDK_OFFSET(0x15C670C0)
+#define CLASS_1_43BD383C98B4C0C5_168__CTOR_OFFSET UNITYSDK_OFFSET(0x15C67100)
 
-inline static constexpr unsigned int Class_1_43BD383C98B4C0C5_168_TypeDefinitionIndex = 64285;
+inline static constexpr unsigned int Class_1_43BD383C98B4C0C5_168_TypeDefinitionIndex = 73121;
 
 class Class_1_43BD383C98B4C0C5_168 : public ::System::Object
 {
@@ -12,5 +18,35 @@ public:
 	::System::Void _ctor()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_43BD383C98B4C0C5_168__CTOR_OFFSET))(this);
+	}
+
+	::System::Void OnExitBegin()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_43BD383C98B4C0C5_168_ONEXITBEGIN_OFFSET))(this);
+	}
+
+	::System::Void OnExitEnd()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_43BD383C98B4C0C5_168_ONEXITEND_OFFSET))(this);
+	}
+
+	::System::Void OnEnterBegin()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_43BD383C98B4C0C5_168_ONENTERBEGIN_OFFSET))(this);
+	}
+
+	::System::Void OnEnterEnd()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_43BD383C98B4C0C5_168_ONENTEREND_OFFSET))(this);
+	}
+
+	::System::Void Method_1_CA373AA1C7054598()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_43BD383C98B4C0C5_168_METHOD_1_CA373AA1C7054598_OFFSET))(this);
+	}
+
+	::System::Void OnTransitionEnd()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_43BD383C98B4C0C5_168_ONTRANSITIONEND_OFFSET))(this);
 	}
 };

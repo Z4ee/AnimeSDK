@@ -10,7 +10,7 @@ namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int GroupByAwaitWithCancellation_4__GroupByAwaitWithCancellation__CreateLookup_d__15_TypeDefinitionIndex = 44250;
+	inline static constexpr unsigned int GroupByAwaitWithCancellation_4__GroupByAwaitWithCancellation__CreateLookup_d__15_TypeDefinitionIndex = 45389;
 
 	template <typename TSource, typename TKey, typename TElement, typename TResult>
 	struct GroupByAwaitWithCancellation_4__GroupByAwaitWithCancellation__CreateLookup_d__15

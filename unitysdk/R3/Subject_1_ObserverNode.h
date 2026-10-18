@@ -8,7 +8,7 @@ namespace R3 { template <typename T> class Subject_1_ObserverNode; }
 
 namespace R3
 {
-	inline static constexpr unsigned int Subject_1_ObserverNode_TypeDefinitionIndex = 35286;
+	inline static constexpr unsigned int Subject_1_ObserverNode_TypeDefinitionIndex = 35973;
 
 	template <typename T>
 	class Subject_1_ObserverNode : public ::System::Object

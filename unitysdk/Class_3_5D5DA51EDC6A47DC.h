@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByContainsCharacterState; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_5D5DA51EDC6A47DC_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB7CD4F0)
-#define CLASS_3_5D5DA51EDC6A47DC__CTOR_OFFSET UNITYSDK_OFFSET(0xB7CD4C0)
+#define CLASS_3_5D5DA51EDC6A47DC_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB4A7FF0)
+#define CLASS_3_5D5DA51EDC6A47DC__CTOR_OFFSET UNITYSDK_OFFSET(0xB4A7FC0)
 
-inline static constexpr unsigned int Class_3_5D5DA51EDC6A47DC_TypeDefinitionIndex = 55102;
+inline static constexpr unsigned int Class_3_5D5DA51EDC6A47DC_TypeDefinitionIndex = 54893;
 
 class Class_3_5D5DA51EDC6A47DC : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByContainsCharacterState*>
 {

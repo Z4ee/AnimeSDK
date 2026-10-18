@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_ROGUEHANDBOOKAEONSDATA___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0xDEBEDA0)
-#define RPG_CLIENT_ROGUEHANDBOOKAEONSDATA___C__DISPLAYCLASS1_0__UPDATEBYSERVER_B__0_OFFSET UNITYSDK_OFFSET(0xDEBF970)
+#define RPG_CLIENT_ROGUEHANDBOOKAEONSDATA___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0xDF0F810)
+#define RPG_CLIENT_ROGUEHANDBOOKAEONSDATA___C__DISPLAYCLASS1_0__UPDATEBYSERVER_B__0_OFFSET UNITYSDK_OFFSET(0xDF10430)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueHandbookAeonsData___c__DisplayClass1_0_TypeDefinitionIndex = 67367;
+	inline static constexpr unsigned int RogueHandbookAeonsData___c__DisplayClass1_0_TypeDefinitionIndex = 67369;
 
 	class RogueHandbookAeonsData___c__DisplayClass1_0 : public ::System::Object
 	{

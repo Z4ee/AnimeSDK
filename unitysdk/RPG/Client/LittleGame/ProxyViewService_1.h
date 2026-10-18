@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_116;
+class Class_0_16E4307DCC419505_187;
 class Class_1_E0103A0EA6CD0F4C;
 namespace Entitas { class IContext; }
 namespace Entitas { class IEntity; }
@@ -14,7 +14,7 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int ProxyViewService_1_TypeDefinitionIndex = 76041;
+	inline static constexpr unsigned int ProxyViewService_1_TypeDefinitionIndex = 76518;
 
 	template <typename TEntity>
 	class ProxyViewService_1 : public ::System::Object

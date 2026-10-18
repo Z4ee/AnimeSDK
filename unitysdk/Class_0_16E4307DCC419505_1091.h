@@ -1,11 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-class Class_1_95EEF67A826E14FF;
-namespace RPG::Client { class BattleBuffToastNotify; }
-namespace RPG::GameCore { class TurnBasedModifierInstance; }
+class Class_1_06F7995EB381C93A;
+namespace System { class String; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_1091_TypeDefinitionIndex = 71498;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_1091_TypeDefinitionIndex = 67549;
 
 class Class_0_16E4307DCC419505_1091
 {

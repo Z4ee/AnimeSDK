@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ROGUEMAGICCONSTDYNAMICVALUEKEYS_METHOD_2_E60FE9E4224B2DCC_OFFSET UNITYSDK_OFFSET(0x1D3ED310)
-#define RPG_GAMECORE_ROGUEMAGICCONSTDYNAMICVALUEKEYS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3ED4B0)
+#define RPG_GAMECORE_ROGUEMAGICCONSTDYNAMICVALUEKEYS_METHOD_2_E60FE9E4224B2DCC_OFFSET UNITYSDK_OFFSET(0x1D9D3AC0)
+#define RPG_GAMECORE_ROGUEMAGICCONSTDYNAMICVALUEKEYS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D9D3C60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueMagicConstDynamicValueKeys_TypeDefinitionIndex = 16934;
+	inline static constexpr unsigned int RogueMagicConstDynamicValueKeys_TypeDefinitionIndex = 17129;
 
 	class RogueMagicConstDynamicValueKeys : public ::RPG::GameCore::JsonConfig
 	{

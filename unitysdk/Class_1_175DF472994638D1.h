@@ -5,7 +5,7 @@
 #include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_318;
+class Class_0_16E4307DCC419505_397;
 namespace R3 { template <typename T> class Observable_1; }
 namespace RPG::Client { class AnimatorButton; }
 namespace RPG::Client { class CustomButton_VoidDelegate; }
@@ -15,11 +15,11 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Events { class UnityAction; }
 namespace UnityEngine::Events { template <typename T> class UnityAction_1; }
-template <typename T> class Class_0_16E4307DCC419505_320;
+template <typename T> class Class_0_16E4307DCC419505_399;
 
-#define CLASS_1_175DF472994638D1_METHOD_1_1C9F1355039F33BF_OFFSET UNITYSDK_OFFSET(0x162CD850)
+#define CLASS_1_175DF472994638D1_METHOD_1_1C9F1355039F33BF_OFFSET UNITYSDK_OFFSET(0xB1B3130)
 
-inline static constexpr unsigned int Class_1_175DF472994638D1_TypeDefinitionIndex = 50209;
+inline static constexpr unsigned int Class_1_175DF472994638D1_TypeDefinitionIndex = 49872;
 
 class Class_1_175DF472994638D1 : public ::System::Object
 {

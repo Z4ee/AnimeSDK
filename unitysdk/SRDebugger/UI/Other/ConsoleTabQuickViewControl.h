@@ -6,22 +6,22 @@ namespace SRDebugger::Services { class IConsoleService; }
 namespace System { class String; }
 namespace UnityEngine::UI { class Text; }
 
-#define SRDEBUGGER_UI_OTHER_CONSOLETABQUICKVIEWCONTROL_AWAKE_OFFSET UNITYSDK_OFFSET(0x1E69A550)
-#define SRDEBUGGER_UI_OTHER_CONSOLETABQUICKVIEWCONTROL_HASCHANGED_OFFSET UNITYSDK_OFFSET(0x1E69AB40)
-#define SRDEBUGGER_UI_OTHER_CONSOLETABQUICKVIEWCONTROL_UPDATE_OFFSET UNITYSDK_OFFSET(0x1E69A710)
-#define SRDEBUGGER_UI_OTHER_CONSOLETABQUICKVIEWCONTROL__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E69AB80)
-#define SRDEBUGGER_UI_OTHER_CONSOLETABQUICKVIEWCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x1E69AB70)
+#define SRDEBUGGER_UI_OTHER_CONSOLETABQUICKVIEWCONTROL_AWAKE_OFFSET UNITYSDK_OFFSET(0x1ED61EE0)
+#define SRDEBUGGER_UI_OTHER_CONSOLETABQUICKVIEWCONTROL_HASCHANGED_OFFSET UNITYSDK_OFFSET(0x1ED624D0)
+#define SRDEBUGGER_UI_OTHER_CONSOLETABQUICKVIEWCONTROL_UPDATE_OFFSET UNITYSDK_OFFSET(0x1ED620A0)
+#define SRDEBUGGER_UI_OTHER_CONSOLETABQUICKVIEWCONTROL__CCTOR_OFFSET UNITYSDK_OFFSET(0x1ED62510)
+#define SRDEBUGGER_UI_OTHER_CONSOLETABQUICKVIEWCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x1ED62500)
 
 namespace SRDebugger::UI::Other
 {
-	inline static constexpr unsigned int ConsoleTabQuickViewControl_TypeDefinitionIndex = 37308;
+	inline static constexpr unsigned int ConsoleTabQuickViewControl_TypeDefinitionIndex = 38001;
 
 	class ConsoleTabQuickViewControl : public ::SRF::SRMonoBehaviourEx
 	{
 	public:
 		static ::System::String** StaticGet_MaxString()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ConsoleTabQuickViewControl_TypeDefinitionIndex)->GetStaticField(0x48D00);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ConsoleTabQuickViewControl_TypeDefinitionIndex)->GetStaticField(0x3C800);
 		}
 		// static const ::System::Int32 Max = 0x3E8; // 0x0
 		::System::Int32 _prevErrorCount; // 0x48

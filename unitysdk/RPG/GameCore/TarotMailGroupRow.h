@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_TAROTMAILGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D5C0950)
-#define RPG_GAMECORE_TAROTMAILGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5C0AD0)
+#define RPG_GAMECORE_TAROTMAILGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DB77FA0)
+#define RPG_GAMECORE_TAROTMAILGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB78120)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TarotMailGroupRow_TypeDefinitionIndex = 15075;
+	inline static constexpr unsigned int TarotMailGroupRow_TypeDefinitionIndex = 15246;
 
 	class TarotMailGroupRow : public ::System::Object
 	{

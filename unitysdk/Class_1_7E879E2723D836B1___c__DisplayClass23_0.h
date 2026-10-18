@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class DynamicValue; }
 namespace System { class String; }
 
-#define CLASS_1_7E879E2723D836B1___C__DISPLAYCLASS23_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB7EEF40)
-#define CLASS_1_7E879E2723D836B1___C__DISPLAYCLASS23_0___ASYNCSHOWUI_B__0_OFFSET UNITYSDK_OFFSET(0xB7F0300)
+#define CLASS_1_7E879E2723D836B1___C__DISPLAYCLASS23_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB79F3E0)
+#define CLASS_1_7E879E2723D836B1___C__DISPLAYCLASS23_0___ASYNCSHOWUI_B__0_OFFSET UNITYSDK_OFFSET(0xB7A07A0)
 
-inline static constexpr unsigned int Class_1_7E879E2723D836B1___c__DisplayClass23_0_TypeDefinitionIndex = 75979;
+inline static constexpr unsigned int Class_1_7E879E2723D836B1___c__DisplayClass23_0_TypeDefinitionIndex = 76456;
 
 class Class_1_7E879E2723D836B1___c__DisplayClass23_0 : public ::System::Object
 {

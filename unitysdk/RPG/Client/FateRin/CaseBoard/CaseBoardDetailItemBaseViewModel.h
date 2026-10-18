@@ -4,11 +4,11 @@
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_FATERIN_CASEBOARD_CASEBOARDDETAILITEMBASEVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xCFF50D0)
+#define RPG_CLIENT_FATERIN_CASEBOARD_CASEBOARDDETAILITEMBASEVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xCEFB310)
 
 namespace RPG::Client::FateRin::CaseBoard
 {
-	inline static constexpr unsigned int CaseBoardDetailItemBaseViewModel_TypeDefinitionIndex = 79472;
+	inline static constexpr unsigned int CaseBoardDetailItemBaseViewModel_TypeDefinitionIndex = 80796;
 
 	class CaseBoardDetailItemBaseViewModel : public ::System::Object
 	{

@@ -1,0 +1,152 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_4AB01E8FEDBFD1EC.h"
+#include "unitysdk/Enum_3_0F1B992870941C13_1.h"
+#include "unitysdk/RPG/Client/LittleGame/Marble/AISimulatePhase.h"
+#include "unitysdk/RPG/Client/LittleGame/Marble/MarbleNetWorkMsg.h"
+#include "unitysdk/RPG/GameCore/PetMarbleLevelMode.h"
+#include "unitysdk/RPG/MVector2.h"
+#include "unitysdk/Struct_2_5471598AD2681E26.h"
+
+class Class_0_16E4307DCC419505_333;
+class Class_1_1FC9D91520196382;
+class Class_1_32ED9F60AC82E5A0_2;
+class Class_1_4AF717D30078CC7E_1;
+namespace System { class String; }
+namespace System::Collections { class IEnumerator; }
+
+#define CLASS_2_01150FCB8364F830_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1CAABB80)
+#define CLASS_2_01150FCB8364F830_METHOD_2_0E980D4A5613E1D8_OFFSET UNITYSDK_OFFSET(0x1CAABC80)
+#define CLASS_2_01150FCB8364F830_METHOD_2_1B5E290B917DBE41_OFFSET UNITYSDK_OFFSET(0x1CAAE720)
+#define CLASS_2_01150FCB8364F830_METHOD_2_1B9BAFE25893B138_OFFSET UNITYSDK_OFFSET(0x1CAAE7E0)
+#define CLASS_2_01150FCB8364F830_METHOD_2_26E34BE9BC0A9C6A_OFFSET UNITYSDK_OFFSET(0x1CAAE090)
+#define CLASS_2_01150FCB8364F830_METHOD_2_3533F1BA0E00FB6F_OFFSET UNITYSDK_OFFSET(0x1CAAE600)
+#define CLASS_2_01150FCB8364F830_METHOD_2_35726063E129F1A4_OFFSET UNITYSDK_OFFSET(0x1CAAC750)
+#define CLASS_2_01150FCB8364F830_METHOD_2_61113270C4B9E4F4_OFFSET UNITYSDK_OFFSET(0x1CAABC00)
+#define CLASS_2_01150FCB8364F830_METHOD_2_68195F29004CCB3F_OFFSET UNITYSDK_OFFSET(0x1CAAF500)
+#define CLASS_2_01150FCB8364F830_METHOD_2_70589F89E4D22649_OFFSET UNITYSDK_OFFSET(0x1CAAE520)
+#define CLASS_2_01150FCB8364F830_METHOD_2_7ADF79DCE424E607_OFFSET UNITYSDK_OFFSET(0x1CAAE320)
+#define CLASS_2_01150FCB8364F830_METHOD_2_AE7CA492CB45F529_OFFSET UNITYSDK_OFFSET(0x1CAAE1A0)
+#define CLASS_2_01150FCB8364F830_METHOD_2_C50B93169B85DAEA_OFFSET UNITYSDK_OFFSET(0x1CAAC700)
+#define CLASS_2_01150FCB8364F830_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x1CAAFD60)
+#define CLASS_2_01150FCB8364F830_METHOD_2_D0BD1377F2594D33_OFFSET UNITYSDK_OFFSET(0x1CAAE870)
+#define CLASS_2_01150FCB8364F830_METHOD_2_D70C8B847AF08ADE_OFFSET UNITYSDK_OFFSET(0x1CAAEBF0)
+#define CLASS_2_01150FCB8364F830_METHOD_2_D737CD2779D51A4E_OFFSET UNITYSDK_OFFSET(0x1CAAE960)
+#define CLASS_2_01150FCB8364F830_METHOD_2_EF163034B38DD121_OFFSET UNITYSDK_OFFSET(0x1CAAC480)
+#define CLASS_2_01150FCB8364F830_METHOD_2_F28100607B9372CD_OFFSET UNITYSDK_OFFSET(0x1CAAD750)
+#define CLASS_2_01150FCB8364F830__CTOR_OFFSET UNITYSDK_OFFSET(0x1CAABAB0)
+
+inline static constexpr unsigned int Class_2_01150FCB8364F830_TypeDefinitionIndex = 43080;
+
+class Class_2_01150FCB8364F830 : public ::Class_1_4AB01E8FEDBFD1EC
+{
+public:
+	::System::Collections::IEnumerator* FKLIAMKNHDN; // 0x200
+	::Class_1_1FC9D91520196382* EGMCCMAJIJD; // 0x208
+	::System::UInt32 HIACJHNEBGH; // 0x210
+	::System::Single ABJLEPENOPK; // 0x214
+	::System::Single JMIEEFMOFIG; // 0x218
+	::System::UInt32 HMJLMFLEDCC; // 0x21C
+	::RPG::Client::LittleGame::Marble::AISimulatePhase DJDFPDIGEHK; // 0x220
+	::System::Single NNMLPHCGING; // 0x224
+
+	::System::Void _ctor(::Enum_3_0F1B992870941C13_1 a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Enum_3_0F1B992870941C13_1))((::PBYTE)hIl2Cpp + CLASS_2_01150FCB8364F830__CTOR_OFFSET))(this, a1);
+	}
+
+	::System::Void Dispose()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_01150FCB8364F830_DISPOSE_OFFSET))(this);
+	}
+
+	::System::Void Method_2_61113270C4B9E4F4()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_01150FCB8364F830_METHOD_2_61113270C4B9E4F4_OFFSET))(this);
+	}
+
+	::System::Void Method_2_0E980D4A5613E1D8(::Class_1_4AF717D30078CC7E_1* a1, ::Class_0_16E4307DCC419505_333* a2, ::System::Boolean a3, ::RPG::GameCore::PetMarbleLevelMode a4, ::System::UInt32 a5, ::System::String* a6)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_4AF717D30078CC7E_1*, ::Class_0_16E4307DCC419505_333*, ::System::Boolean, ::RPG::GameCore::PetMarbleLevelMode, ::System::UInt32, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_2_01150FCB8364F830_METHOD_2_0E980D4A5613E1D8_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+	}
+
+	::System::Void Method_2_EF163034B38DD121(::System::String* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_2_01150FCB8364F830_METHOD_2_EF163034B38DD121_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_C50B93169B85DAEA(::Class_0_16E4307DCC419505_333* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_333*))((::PBYTE)hIl2Cpp + CLASS_2_01150FCB8364F830_METHOD_2_C50B93169B85DAEA_OFFSET))(this, a1);
+	}
+
+	::Class_1_32ED9F60AC82E5A0_2* Method_2_35726063E129F1A4()
+	{
+		return ((::Class_1_32ED9F60AC82E5A0_2*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_01150FCB8364F830_METHOD_2_35726063E129F1A4_OFFSET))(this);
+	}
+
+	::System::Void Method_2_F28100607B9372CD(::Class_1_32ED9F60AC82E5A0_2* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_32ED9F60AC82E5A0_2*))((::PBYTE)hIl2Cpp + CLASS_2_01150FCB8364F830_METHOD_2_F28100607B9372CD_OFFSET))(this, a1);
+	}
+
+	::Il2CppArray<::Struct_2_5471598AD2681E26>* Method_2_AE7CA492CB45F529(::System::UInt32 a1, ::RPG::MVector2 a2)
+	{
+		return ((::Il2CppArray<::Struct_2_5471598AD2681E26>*(*)(::PVOID, ::System::UInt32, ::RPG::MVector2))((::PBYTE)hIl2Cpp + CLASS_2_01150FCB8364F830_METHOD_2_AE7CA492CB45F529_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_2_7ADF79DCE424E607(::System::UInt32 a1, ::System::UInt32 a2, ::RPG::MVector2 a3)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::RPG::MVector2))((::PBYTE)hIl2Cpp + CLASS_2_01150FCB8364F830_METHOD_2_7ADF79DCE424E607_OFFSET))(this, a1, a2, a3);
+	}
+
+	::System::Void Method_2_3533F1BA0E00FB6F(::System::UInt32 a1, ::System::UInt32 a2, ::System::Boolean a3)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_2_01150FCB8364F830_METHOD_2_3533F1BA0E00FB6F_OFFSET))(this, a1, a2, a3);
+	}
+
+	::System::Void Method_2_1B5E290B917DBE41(::System::UInt32 a1, ::RPG::Client::LittleGame::Marble::MarbleNetWorkMsg a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32, ::RPG::Client::LittleGame::Marble::MarbleNetWorkMsg))((::PBYTE)hIl2Cpp + CLASS_2_01150FCB8364F830_METHOD_2_1B5E290B917DBE41_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_2_68195F29004CCB3F(::System::Single a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_2_01150FCB8364F830_METHOD_2_68195F29004CCB3F_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_1B9BAFE25893B138()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_01150FCB8364F830_METHOD_2_1B9BAFE25893B138_OFFSET))(this);
+	}
+
+	::System::Void Method_2_D0BD1377F2594D33()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_01150FCB8364F830_METHOD_2_D0BD1377F2594D33_OFFSET))(this);
+	}
+
+	::System::Void Method_2_CA373AA1C7054598()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_01150FCB8364F830_METHOD_2_CA373AA1C7054598_OFFSET))(this);
+	}
+
+	::System::Void Method_2_D737CD2779D51A4E()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_01150FCB8364F830_METHOD_2_D737CD2779D51A4E_OFFSET))(this);
+	}
+
+	::System::Boolean Method_2_70589F89E4D22649()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_01150FCB8364F830_METHOD_2_70589F89E4D22649_OFFSET))(this);
+	}
+
+	::System::Void Method_2_D70C8B847AF08ADE()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_01150FCB8364F830_METHOD_2_D70C8B847AF08ADE_OFFSET))(this);
+	}
+
+	::System::Void Method_2_26E34BE9BC0A9C6A(::System::UInt32 a1, ::System::Boolean a2, ::System::Single a3, ::RPG::MVector2 a4)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Boolean, ::System::Single, ::RPG::MVector2))((::PBYTE)hIl2Cpp + CLASS_2_01150FCB8364F830_METHOD_2_26E34BE9BC0A9C6A_OFFSET))(this, a1, a2, a3, a4);
+	}
+};

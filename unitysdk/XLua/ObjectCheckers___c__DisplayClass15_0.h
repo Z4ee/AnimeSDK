@@ -4,12 +4,12 @@
 
 namespace XLua { class ObjectCheck; }
 
-#define XLUA_OBJECTCHECKERS___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14B3B170)
-#define XLUA_OBJECTCHECKERS___C__DISPLAYCLASS15_0__GENNULLABLECHECKER_B__0_OFFSET UNITYSDK_OFFSET(0x14B3BC50)
+#define XLUA_OBJECTCHECKERS___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14DD1640)
+#define XLUA_OBJECTCHECKERS___C__DISPLAYCLASS15_0__GENNULLABLECHECKER_B__0_OFFSET UNITYSDK_OFFSET(0x14DD2120)
 
 namespace XLua
 {
-	inline static constexpr unsigned int ObjectCheckers___c__DisplayClass15_0_TypeDefinitionIndex = 50566;
+	inline static constexpr unsigned int ObjectCheckers___c__DisplayClass15_0_TypeDefinitionIndex = 50235;
 
 	class ObjectCheckers___c__DisplayClass15_0 : public ::System::Object
 	{

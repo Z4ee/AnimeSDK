@@ -6,19 +6,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define CLASS_1_1583652C74B6FEEC_METHOD_1_417A218C63D0B3DA_OFFSET UNITYSDK_OFFSET(0x1CCBDF10)
-#define CLASS_1_1583652C74B6FEEC__CTOR_OFFSET UNITYSDK_OFFSET(0x1CCBE1A0)
+#define CLASS_1_1583652C74B6FEEC_METHOD_1_417A218C63D0B3DA_OFFSET UNITYSDK_OFFSET(0x1D28ADF0)
+#define CLASS_1_1583652C74B6FEEC__CTOR_OFFSET UNITYSDK_OFFSET(0x1D28B080)
 
-inline static constexpr unsigned int Class_1_1583652C74B6FEEC_TypeDefinitionIndex = 12393;
+inline static constexpr unsigned int Class_1_1583652C74B6FEEC_TypeDefinitionIndex = 12479;
 
 class Class_1_1583652C74B6FEEC : public ::System::Object
 {
 public:
 	::Il2CppArray<::System::UInt32>* PBLPLDJKPEI; // 0x10
-	::RPG::GameCore::TeamTowersStatisticType GMPGDEINODK; // 0x18
+	::System::Boolean GNLGHALIPLD; // 0x18
 	::RPG::Client::TextID NMAHGFAPENI; // 0x20
-	::System::Boolean GNLGHALIPLD; // 0x30
-	::System::UInt32 PHFMCACHFIJ; // 0x34
+	::System::UInt32 PHFMCACHFIJ; // 0x30
+	::RPG::GameCore::TeamTowersStatisticType GMPGDEINODK; // 0x34
 
 	::System::Void _ctor()
 	{

@@ -8,7 +8,7 @@ namespace System { template <typename T> class Action_1; }
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UniTask_CanceledResultSource_1_TypeDefinitionIndex = 42661;
+	inline static constexpr unsigned int UniTask_CanceledResultSource_1_TypeDefinitionIndex = 38246;
 
 	template <typename T>
 	class UniTask_CanceledResultSource_1 : public ::System::Object

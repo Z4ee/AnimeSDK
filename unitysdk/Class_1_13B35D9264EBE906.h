@@ -8,19 +8,19 @@ namespace RPG::GameCore { class IdleLiveSpEquipSkillRow; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_13B35D9264EBE906_GET_ABILITYNAME_OFFSET UNITYSDK_OFFSET(0xBD95260)
-#define CLASS_1_13B35D9264EBE906_METHOD_1_262F3A7EADBD3DE2_OFFSET UNITYSDK_OFFSET(0xBD954C0)
-#define CLASS_1_13B35D9264EBE906_METHOD_1_DD1F80BD94ED96B3_OFFSET UNITYSDK_OFFSET(0xBD95270)
-#define CLASS_1_13B35D9264EBE906__CTOR_OFFSET UNITYSDK_OFFSET(0xBD953B0)
+#define CLASS_1_13B35D9264EBE906_GET_ABILITYNAME_OFFSET UNITYSDK_OFFSET(0xBC6FD00)
+#define CLASS_1_13B35D9264EBE906_METHOD_1_35EA095E1AFDD9C8_OFFSET UNITYSDK_OFFSET(0xBC6FF60)
+#define CLASS_1_13B35D9264EBE906_METHOD_1_DD1F80BD94ED96B3_OFFSET UNITYSDK_OFFSET(0xBC6FD10)
+#define CLASS_1_13B35D9264EBE906__CTOR_OFFSET UNITYSDK_OFFSET(0xBC6FE50)
 
-inline static constexpr unsigned int Class_1_13B35D9264EBE906_TypeDefinitionIndex = 74935;
+inline static constexpr unsigned int Class_1_13B35D9264EBE906_TypeDefinitionIndex = 75235;
 
 class Class_1_13B35D9264EBE906 : public ::System::Object
 {
 public:
 	::Il2CppArray<::RPG::GameCore::FixPoint>* HDPKLNCIMKO; // 0x10
-	::System::String* _AbilityName_k__BackingField; // 0x18
-	::System::Collections::Generic::List_1<::RPG::GameCore::FixPoint>* BGDDKFHKAKM; // 0x20
+	::System::Collections::Generic::List_1<::RPG::GameCore::FixPoint>* BGDDKFHKAKM; // 0x18
+	::System::String* _AbilityName_k__BackingField; // 0x20
 	::RPG::Client::TextID CCOIIOCJIDI; // 0x28
 
 	::System::Void _ctor(::RPG::GameCore::IdleLiveSpEquipSkillRow* a1)
@@ -38,8 +38,8 @@ public:
 		return ((::Class_1_13B35D9264EBE906*(*)(::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_13B35D9264EBE906_METHOD_1_DD1F80BD94ED96B3_OFFSET))(a1, a2);
 	}
 
-	::System::String* Method_1_262F3A7EADBD3DE2()
+	::System::String* Method_1_35EA095E1AFDD9C8()
 	{
-		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_13B35D9264EBE906_METHOD_1_262F3A7EADBD3DE2_OFFSET))(this);
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_13B35D9264EBE906_METHOD_1_35EA095E1AFDD9C8_OFFSET))(this);
 	}
 };

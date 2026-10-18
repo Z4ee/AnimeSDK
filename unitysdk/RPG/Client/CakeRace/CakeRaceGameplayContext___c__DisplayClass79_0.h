@@ -5,19 +5,19 @@
 namespace RPG::Client::CakeRace { class CakeRaceGameplayContext; }
 namespace System { class Action; }
 
-#define RPG_CLIENT_CAKERACE_CAKERACEGAMEPLAYCONTEXT___C__DISPLAYCLASS79_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC9AEF20)
-#define RPG_CLIENT_CAKERACE_CAKERACEGAMEPLAYCONTEXT___C__DISPLAYCLASS79_0__SHOWHUDPAGE_B__0_OFFSET UNITYSDK_OFFSET(0xC9B5BA0)
-#define RPG_CLIENT_CAKERACE_CAKERACEGAMEPLAYCONTEXT___C__DISPLAYCLASS79_0__SHOWHUDPAGE_B__1_OFFSET UNITYSDK_OFFSET(0xC9B5CA0)
+#define RPG_CLIENT_CAKERACE_CAKERACEGAMEPLAYCONTEXT___C__DISPLAYCLASS79_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC8FC920)
+#define RPG_CLIENT_CAKERACE_CAKERACEGAMEPLAYCONTEXT___C__DISPLAYCLASS79_0__SHOWHUDPAGE_B__0_OFFSET UNITYSDK_OFFSET(0xC9032A0)
+#define RPG_CLIENT_CAKERACE_CAKERACEGAMEPLAYCONTEXT___C__DISPLAYCLASS79_0__SHOWHUDPAGE_B__1_OFFSET UNITYSDK_OFFSET(0xC9033A0)
 
 namespace RPG::Client::CakeRace
 {
-	inline static constexpr unsigned int CakeRaceGameplayContext___c__DisplayClass79_0_TypeDefinitionIndex = 75960;
+	inline static constexpr unsigned int CakeRaceGameplayContext___c__DisplayClass79_0_TypeDefinitionIndex = 76437;
 
 	class CakeRaceGameplayContext___c__DisplayClass79_0 : public ::System::Object
 	{
 	public:
-		::System::Action* onShowHUDPageCompleted; // 0x10
-		::RPG::Client::CakeRace::CakeRaceGameplayContext* __4__this; // 0x18
+		::RPG::Client::CakeRace::CakeRaceGameplayContext* __4__this; // 0x10
+		::System::Action* onShowHUDPageCompleted; // 0x18
 
 		::System::Void _ctor()
 		{

@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int WhenEachResult_1_TypeDefinitionIndex = 42790;
+	inline static constexpr unsigned int WhenEachResult_1_TypeDefinitionIndex = 38375;
 
 	template <typename T>
 	struct WhenEachResult_1

@@ -3,12 +3,12 @@
 #include "unitysdk/UnityEngine/Component.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define UNITYENGINE_CLOTH_GET_NORMALS_OFFSET UNITYSDK_OFFSET(0x1ECFB800)
-#define UNITYENGINE_CLOTH_GET_VERTICES_OFFSET UNITYSDK_OFFSET(0x1ECFB7F0)
+#define UNITYENGINE_CLOTH_GET_NORMALS_OFFSET UNITYSDK_OFFSET(0x1F3C35A0)
+#define UNITYENGINE_CLOTH_GET_VERTICES_OFFSET UNITYSDK_OFFSET(0x1F3C3590)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int Cloth_TypeDefinitionIndex = 5766;
+	inline static constexpr unsigned int Cloth_TypeDefinitionIndex = 5774;
 
 	class Cloth : public ::UnityEngine::Component
 	{

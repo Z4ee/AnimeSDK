@@ -25,66 +25,66 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_F896A7F19FFA18B0_DISPOSE_OFFSET UNITYSDK_OFFSET(0x13504460)
-#define CLASS_1_F896A7F19FFA18B0_GET_GAMECONFIG_OFFSET UNITYSDK_OFFSET(0x13504EB0)
-#define CLASS_1_F896A7F19FFA18B0_METHOD_1_265045B8E51327D0_OFFSET UNITYSDK_OFFSET(0x13503A30)
-#define CLASS_1_F896A7F19FFA18B0_METHOD_1_5AEAA72641C1FC1E_OFFSET UNITYSDK_OFFSET(0x13504760)
-#define CLASS_1_F896A7F19FFA18B0_METHOD_1_6B7D01FB64EF22E6_OFFSET UNITYSDK_OFFSET(0x13504920)
-#define CLASS_1_F896A7F19FFA18B0_METHOD_1_7A097E7EF929F289_OFFSET UNITYSDK_OFFSET(0x135040A0)
-#define CLASS_1_F896A7F19FFA18B0_METHOD_1_8F537CE539CF0103_OFFSET UNITYSDK_OFFSET(0x13503980)
-#define CLASS_1_F896A7F19FFA18B0_METHOD_1_8F7825DAFFB9B517_OFFSET UNITYSDK_OFFSET(0x13503EA0)
-#define CLASS_1_F896A7F19FFA18B0_METHOD_1_9216B801ACD0B564_OFFSET UNITYSDK_OFFSET(0x13503670)
-#define CLASS_1_F896A7F19FFA18B0_METHOD_1_B1936CE4DA97AA45_1_OFFSET UNITYSDK_OFFSET(0x13503DA0)
-#define CLASS_1_F896A7F19FFA18B0_METHOD_1_B1936CE4DA97AA45_OFFSET UNITYSDK_OFFSET(0x13503CA0)
-#define CLASS_1_F896A7F19FFA18B0_METHOD_1_C2992E3B105F7E09_OFFSET UNITYSDK_OFFSET(0x13504880)
-#define CLASS_1_F896A7F19FFA18B0_METHOD_1_CD9F3CEFB366C27A_OFFSET UNITYSDK_OFFSET(0x13502F50)
-#define CLASS_1_F896A7F19FFA18B0_METHOD_1_E111A6E980D49A23_OFFSET UNITYSDK_OFFSET(0x13504C90)
-#define CLASS_1_F896A7F19FFA18B0_METHOD_1_E68AEBF88F1494A8_OFFSET UNITYSDK_OFFSET(0x13504E10)
-#define CLASS_1_F896A7F19FFA18B0_METHOD_1_EB644D9FEE2FE9AD_OFFSET UNITYSDK_OFFSET(0x13504AD0)
-#define CLASS_1_F896A7F19FFA18B0_SET_GAMECONFIG_OFFSET UNITYSDK_OFFSET(0x13504EC0)
-#define CLASS_1_F896A7F19FFA18B0__CCTOR_OFFSET UNITYSDK_OFFSET(0x13504ED0)
-#define CLASS_1_F896A7F19FFA18B0__CTOR_OFFSET UNITYSDK_OFFSET(0x13502D30)
+#define CLASS_1_F896A7F19FFA18B0_DISPOSE_OFFSET UNITYSDK_OFFSET(0x13A30990)
+#define CLASS_1_F896A7F19FFA18B0_GET_GAMECONFIG_OFFSET UNITYSDK_OFFSET(0x13A313D0)
+#define CLASS_1_F896A7F19FFA18B0_METHOD_1_265045B8E51327D0_OFFSET UNITYSDK_OFFSET(0x13A2FF60)
+#define CLASS_1_F896A7F19FFA18B0_METHOD_1_5AEAA72641C1FC1E_OFFSET UNITYSDK_OFFSET(0x13A30C80)
+#define CLASS_1_F896A7F19FFA18B0_METHOD_1_6B7D01FB64EF22E6_OFFSET UNITYSDK_OFFSET(0x13A30E40)
+#define CLASS_1_F896A7F19FFA18B0_METHOD_1_7A097E7EF929F289_OFFSET UNITYSDK_OFFSET(0x13A305D0)
+#define CLASS_1_F896A7F19FFA18B0_METHOD_1_8F537CE539CF0103_OFFSET UNITYSDK_OFFSET(0x13A2FEB0)
+#define CLASS_1_F896A7F19FFA18B0_METHOD_1_8F7825DAFFB9B517_OFFSET UNITYSDK_OFFSET(0x13A303D0)
+#define CLASS_1_F896A7F19FFA18B0_METHOD_1_9216B801ACD0B564_OFFSET UNITYSDK_OFFSET(0x13A2FBA0)
+#define CLASS_1_F896A7F19FFA18B0_METHOD_1_B1936CE4DA97AA45_1_OFFSET UNITYSDK_OFFSET(0x13A302D0)
+#define CLASS_1_F896A7F19FFA18B0_METHOD_1_B1936CE4DA97AA45_OFFSET UNITYSDK_OFFSET(0x13A301D0)
+#define CLASS_1_F896A7F19FFA18B0_METHOD_1_C2992E3B105F7E09_OFFSET UNITYSDK_OFFSET(0x13A30DA0)
+#define CLASS_1_F896A7F19FFA18B0_METHOD_1_CD9F3CEFB366C27A_OFFSET UNITYSDK_OFFSET(0x13A2F480)
+#define CLASS_1_F896A7F19FFA18B0_METHOD_1_E111A6E980D49A23_OFFSET UNITYSDK_OFFSET(0x13A311B0)
+#define CLASS_1_F896A7F19FFA18B0_METHOD_1_E68AEBF88F1494A8_OFFSET UNITYSDK_OFFSET(0x13A31330)
+#define CLASS_1_F896A7F19FFA18B0_METHOD_1_EB644D9FEE2FE9AD_OFFSET UNITYSDK_OFFSET(0x13A30FF0)
+#define CLASS_1_F896A7F19FFA18B0_SET_GAMECONFIG_OFFSET UNITYSDK_OFFSET(0x13A313E0)
+#define CLASS_1_F896A7F19FFA18B0__CCTOR_OFFSET UNITYSDK_OFFSET(0x13A313F0)
+#define CLASS_1_F896A7F19FFA18B0__CTOR_OFFSET UNITYSDK_OFFSET(0x13A2F260)
 
-inline static constexpr unsigned int Class_1_F896A7F19FFA18B0_TypeDefinitionIndex = 76782;
+inline static constexpr unsigned int Class_1_F896A7F19FFA18B0_TypeDefinitionIndex = 77253;
 
 class Class_1_F896A7F19FFA18B0 : public ::System::Object
 {
 public:
-	static ::System::String** StaticGet_CPCJDNNAKCJ()
-	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_F896A7F19FFA18B0_TypeDefinitionIndex)->GetStaticField(0x605D0);
-	}
 	static ::System::String** StaticGet_GKCCFPDDFML()
 	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_F896A7F19FFA18B0_TypeDefinitionIndex)->GetStaticField(0x605D8);
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_F896A7F19FFA18B0_TypeDefinitionIndex)->GetStaticField(0x70010);
+	}
+	static ::System::String** StaticGet_CPCJDNNAKCJ()
+	{
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_F896A7F19FFA18B0_TypeDefinitionIndex)->GetStaticField(0x70018);
 	}
 	static ::System::String** StaticGet_BKEODCGPDBE()
 	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_F896A7F19FFA18B0_TypeDefinitionIndex)->GetStaticField(0x605E0);
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_F896A7F19FFA18B0_TypeDefinitionIndex)->GetStaticField(0x70020);
 	}
 	static ::System::String** StaticGet_CMDFEEFNFIP()
 	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_F896A7F19FFA18B0_TypeDefinitionIndex)->GetStaticField(0x605E8);
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_F896A7F19FFA18B0_TypeDefinitionIndex)->GetStaticField(0x70028);
 	}
-	::RPG::GameCore::ElfBehaviorStateConfig* HLFCGABNIKO; // 0x10
-	::RPG::GameCore::ElfRestaurantGameConfig* _GameConfig_k__BackingField; // 0x18
-	::System::Collections::Generic::Dictionary_2<::System::Int32, ::Class_1_B587CAF66AB56ABD*>* HJMNMBENFEN; // 0x20
-	::Class_3_F4528A5C0F861AF2* PDENFEFCAGN; // 0x28
-	::Class_1_938C223DA5C0C9C7* HIHNBLKIAAL; // 0x30
-	::RPG::GameCore::LittleGameStateTreeConfig* LDJLEMJMLJJ; // 0x38
-	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::LittleGameEntityConfig*>* GOPEKIINHHD; // 0x40
-	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::ElfBehaviorStateConfig*>* GIGGFDAHCAC; // 0x48
-	::System::Collections::Generic::Dictionary_2<::RPG::GameCore::RestaurantSuperEventType, ::RPG::GameCore::LittleGameEntityConfig*>* CKKDCOPDHHK; // 0x50
-	::RPG::GameCore::ElfBuffConfig* MBOKKHFKBAJ; // 0x58
-	::RPG::GameCore::LittleGameStateTreeConfig* OFGOJIFBLBM; // 0x60
-	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::LittleGameEntityConfig*>* LLMDPDFEFNE; // 0x68
-	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::LittleGameEntityConfig*>* MFPIDNOGPOF; // 0x70
-	::RPG::GameCore::LittleGameLevelConfig* CLKEPOJFDPD; // 0x78
-	::RPG::GameCore::LittleGameStateTreeConfig* IELHPOFHKPG; // 0x80
-	::Class_2_80F8710F847F1248* EEFMDEHLLFI; // 0x88
-	::RPG::GameCore::ElfDailyWaveConfig* GPCPFJNGAJJ; // 0x90
-	::System::Collections::Generic::Dictionary_2<::RPG::GameCore::RestaurantNormalEventType, ::RPG::GameCore::RestaurantEventRewardRow*>* OPDJKHPKKNG; // 0x98
-	::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::RPG::GameCore::RestaurantSpecialBubbleRow*>*>* LJKKGBBEIMP; // 0xA0
+	::RPG::GameCore::LittleGameStateTreeConfig* LDJLEMJMLJJ; // 0x10
+	::RPG::GameCore::ElfDailyWaveConfig* GPCPFJNGAJJ; // 0x18
+	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::LittleGameEntityConfig*>* LLMDPDFEFNE; // 0x20
+	::System::Collections::Generic::Dictionary_2<::System::Int32, ::Class_1_B587CAF66AB56ABD*>* HJMNMBENFEN; // 0x28
+	::System::Collections::Generic::Dictionary_2<::RPG::GameCore::RestaurantNormalEventType, ::RPG::GameCore::RestaurantEventRewardRow*>* OPDJKHPKKNG; // 0x30
+	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::LittleGameEntityConfig*>* MFPIDNOGPOF; // 0x38
+	::Class_1_938C223DA5C0C9C7* HIHNBLKIAAL; // 0x40
+	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::LittleGameEntityConfig*>* GOPEKIINHHD; // 0x48
+	::RPG::GameCore::ElfBuffConfig* MBOKKHFKBAJ; // 0x50
+	::RPG::GameCore::LittleGameLevelConfig* CLKEPOJFDPD; // 0x58
+	::Class_2_80F8710F847F1248* EEFMDEHLLFI; // 0x60
+	::Class_3_F4528A5C0F861AF2* PDENFEFCAGN; // 0x68
+	::RPG::GameCore::ElfRestaurantGameConfig* _GameConfig_k__BackingField; // 0x70
+	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::ElfBehaviorStateConfig*>* GIGGFDAHCAC; // 0x78
+	::RPG::GameCore::LittleGameStateTreeConfig* OFGOJIFBLBM; // 0x80
+	::System::Collections::Generic::Dictionary_2<::RPG::GameCore::RestaurantSuperEventType, ::RPG::GameCore::LittleGameEntityConfig*>* CKKDCOPDHHK; // 0x88
+	::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::RPG::GameCore::RestaurantSpecialBubbleRow*>*>* LJKKGBBEIMP; // 0x90
+	::RPG::GameCore::ElfBehaviorStateConfig* HLFCGABNIKO; // 0x98
+	::RPG::GameCore::LittleGameStateTreeConfig* IELHPOFHKPG; // 0xA0
 	::System::UInt32 KJHIDGFLLGC; // 0xA8
 
 	::System::Void _ctor(::Class_3_F4528A5C0F861AF2* a1, ::Class_2_80F8710F847F1248* a2, ::RPG::GameCore::LittleGameLevelConfig* a3)

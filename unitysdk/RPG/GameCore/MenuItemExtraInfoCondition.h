@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MenuItemExtraInfoCondition_TypeDefinitionIndex = 10492;
+	inline static constexpr unsigned int MenuItemExtraInfoCondition_TypeDefinitionIndex = 10508;
 
 	enum class MenuItemExtraInfoCondition : ::System::Int32
 	{

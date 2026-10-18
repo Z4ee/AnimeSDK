@@ -7,12 +7,12 @@ namespace RPG::Client { class ChimeraTeamTalkRowWrapper; }
 namespace RPG::Client { class ChimeraWorkRoundData; }
 namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 
-#define RPG_CLIENT_CHIMERATEAMRANKMANAGER___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCC17C40)
-#define RPG_CLIENT_CHIMERATEAMRANKMANAGER___C__DISPLAYCLASS10_0__GETCURRENTROUNDTEAMTALKROWDATA_B__0_OFFSET UNITYSDK_OFFSET(0xCC18540)
+#define RPG_CLIENT_CHIMERATEAMRANKMANAGER___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCB66C90)
+#define RPG_CLIENT_CHIMERATEAMRANKMANAGER___C__DISPLAYCLASS10_0__GETCURRENTROUNDTEAMTALKROWDATA_B__0_OFFSET UNITYSDK_OFFSET(0xCB67590)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraTeamRankManager___c__DisplayClass10_0_TypeDefinitionIndex = 63501;
+	inline static constexpr unsigned int ChimeraTeamRankManager___c__DisplayClass10_0_TypeDefinitionIndex = 63439;
 
 	class ChimeraTeamRankManager___c__DisplayClass10_0 : public ::System::Object
 	{

@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define UNITYENGINE_GUICLIP_PARENTCLIPSCOPE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x3BC8120)
-#define UNITYENGINE_GUICLIP_PARENTCLIPSCOPE__CTOR_OFFSET UNITYSDK_OFFSET(0x3BC8080)
+#define UNITYENGINE_GUICLIP_PARENTCLIPSCOPE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x3C7DE20)
+#define UNITYENGINE_GUICLIP_PARENTCLIPSCOPE__CTOR_OFFSET UNITYSDK_OFFSET(0x3C7DD80)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int GUIClip_ParentClipScope_TypeDefinitionIndex = 5162;
+	inline static constexpr unsigned int GUIClip_ParentClipScope_TypeDefinitionIndex = 5169;
 
 	struct alignas(1) GUIClip_ParentClipScope
 	{

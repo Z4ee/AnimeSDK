@@ -5,18 +5,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_PSTROPHYGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D306D40)
-#define RPG_GAMECORE_PSTROPHYGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D306EC0)
+#define RPG_GAMECORE_PSTROPHYGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D8EAA30)
+#define RPG_GAMECORE_PSTROPHYGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D8EABB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PSTrophyGroupRow_TypeDefinitionIndex = 12977;
+	inline static constexpr unsigned int PSTrophyGroupRow_TypeDefinitionIndex = 13083;
 
 	class PSTrophyGroupRow : public ::System::Object
 	{
 	public:
-		::RPG::Client::TextID TrophyGroup; // 0x10
-		::System::UInt32 PSTrophyGroup; // 0x20
+		::System::UInt32 PSTrophyGroup; // 0x10
+		::RPG::Client::TextID TrophyGroup; // 0x18
 
 		::System::Void _ctor()
 		{

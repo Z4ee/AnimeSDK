@@ -7,11 +7,11 @@ namespace ObservableCollections { template <typename T> class ObservableList_1; 
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_9FDDE2816948DE8F_GET_ITEMS_OFFSET UNITYSDK_OFFSET(0xCA65300)
-#define CLASS_1_9FDDE2816948DE8F_SET_ITEMS_OFFSET UNITYSDK_OFFSET(0xCA65310)
-#define CLASS_1_9FDDE2816948DE8F__CTOR_OFFSET UNITYSDK_OFFSET(0xCA65320)
+#define CLASS_1_9FDDE2816948DE8F_GET_ITEMS_OFFSET UNITYSDK_OFFSET(0xC9DEAD0)
+#define CLASS_1_9FDDE2816948DE8F_SET_ITEMS_OFFSET UNITYSDK_OFFSET(0xC9DEAE0)
+#define CLASS_1_9FDDE2816948DE8F__CTOR_OFFSET UNITYSDK_OFFSET(0xC9DEAF0)
 
-inline static constexpr unsigned int Class_1_9FDDE2816948DE8F_TypeDefinitionIndex = 73333;
+inline static constexpr unsigned int Class_1_9FDDE2816948DE8F_TypeDefinitionIndex = 73431;
 
 class Class_1_9FDDE2816948DE8F : public ::System::Object
 {

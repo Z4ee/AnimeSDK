@@ -9,24 +9,24 @@ namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine::Events { class UnityEvent; }
 
-#define SRDEBUG_GETDEFAULTCOPYCONSOLEITEMCALLBACK_OFFSET UNITYSDK_OFFSET(0x1E66E390)
-#define SRDEBUG_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1E66E2C0)
-#define SRDEBUG_GET_MIHOYOASSETLOADER_OFFSET UNITYSDK_OFFSET(0x1E66E300)
-#define SRDEBUG_INIT_OFFSET UNITYSDK_OFFSET(0x1E66E340)
-#define SRDEBUG__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E66E460)
+#define SRDEBUG_GETDEFAULTCOPYCONSOLEITEMCALLBACK_OFFSET UNITYSDK_OFFSET(0x1ED362F0)
+#define SRDEBUG_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1ED36220)
+#define SRDEBUG_GET_MIHOYOASSETLOADER_OFFSET UNITYSDK_OFFSET(0x1ED36260)
+#define SRDEBUG_INIT_OFFSET UNITYSDK_OFFSET(0x1ED362A0)
+#define SRDEBUG__CCTOR_OFFSET UNITYSDK_OFFSET(0x1ED363C0)
 
-inline static constexpr unsigned int SRDebug_TypeDefinitionIndex = 37253;
+inline static constexpr unsigned int SRDebug_TypeDefinitionIndex = 37946;
 
 class SRDebug : public ::System::Object
 {
 public:
-	static ::UnityEngine::Events::UnityEvent** StaticGet_OnRPGAppRestart()
-	{
-		return (::UnityEngine::Events::UnityEvent**)Il2CppClass::FromTypeDefinitionIndex(SRDebug_TypeDefinitionIndex)->GetStaticField(0x43EB0);
-	}
 	static ::System::Action_1<::SRDebugger::Services::ConsoleEntry*>** StaticGet_CopyConsoleItemCallback()
 	{
-		return (::System::Action_1<::SRDebugger::Services::ConsoleEntry*>**)Il2CppClass::FromTypeDefinitionIndex(SRDebug_TypeDefinitionIndex)->GetStaticField(0x43EB8);
+		return (::System::Action_1<::SRDebugger::Services::ConsoleEntry*>**)Il2CppClass::FromTypeDefinitionIndex(SRDebug_TypeDefinitionIndex)->GetStaticField(0x38DA0);
+	}
+	static ::UnityEngine::Events::UnityEvent** StaticGet_OnRPGAppRestart()
+	{
+		return (::UnityEngine::Events::UnityEvent**)Il2CppClass::FromTypeDefinitionIndex(SRDebug_TypeDefinitionIndex)->GetStaticField(0x38DA8);
 	}
 	// static const ::System::String* Version; // 0x0
 

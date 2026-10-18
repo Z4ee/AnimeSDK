@@ -4,18 +4,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_IDLELIVETEAMSLOTLEVELLIMITROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D1A4F90)
-#define RPG_GAMECORE_IDLELIVETEAMSLOTLEVELLIMITROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1A50B0)
+#define RPG_GAMECORE_IDLELIVETEAMSLOTLEVELLIMITROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D780C90)
+#define RPG_GAMECORE_IDLELIVETEAMSLOTLEVELLIMITROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D780DB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveTeamSlotLevelLimitRow_TypeDefinitionIndex = 11697;
+	inline static constexpr unsigned int IdleLiveTeamSlotLevelLimitRow_TypeDefinitionIndex = 11720;
 
 	class IdleLiveTeamSlotLevelLimitRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 UnlockID; // 0x10
-		::System::UInt32 LevelLimit; // 0x14
+		::System::UInt32 LevelLimit; // 0x10
+		::System::UInt32 UnlockID; // 0x14
 
 		::System::Void _ctor()
 		{

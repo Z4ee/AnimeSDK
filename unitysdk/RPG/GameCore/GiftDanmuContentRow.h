@@ -5,20 +5,20 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_GIFTDANMUCONTENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D144540)
-#define RPG_GAMECORE_GIFTDANMUCONTENTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D144740)
+#define RPG_GAMECORE_GIFTDANMUCONTENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D71E1E0)
+#define RPG_GAMECORE_GIFTDANMUCONTENTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D71E3E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GiftDanmuContentRow_TypeDefinitionIndex = 15021;
+	inline static constexpr unsigned int GiftDanmuContentRow_TypeDefinitionIndex = 15192;
 
 	class GiftDanmuContentRow : public ::System::Object
 	{
 	public:
-		::RPG::Client::TextID Content; // 0x10
-		::System::UInt32 SenderID; // 0x20
-		::System::UInt32 ID; // 0x24
-		::System::UInt32 Rarity; // 0x28
+		::System::UInt32 ID; // 0x10
+		::System::UInt32 SenderID; // 0x14
+		::System::UInt32 Rarity; // 0x18
+		::RPG::Client::TextID Content; // 0x20
 
 		::System::Void _ctor()
 		{

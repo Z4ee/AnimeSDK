@@ -7,20 +7,20 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_7250E7F415FE7CC4_1_METHOD_1_64D83CC370B9B944_1_OFFSET UNITYSDK_OFFSET(0xC1502D0)
-#define CLASS_1_7250E7F415FE7CC4_1_METHOD_1_64D83CC370B9B944_OFFSET UNITYSDK_OFFSET(0xC150290)
-#define CLASS_1_7250E7F415FE7CC4_1_METHOD_1_D2E9FDD71B4930D9_OFFSET UNITYSDK_OFFSET(0xC14FFC0)
-#define CLASS_1_7250E7F415FE7CC4_1_TOSTRING_OFFSET UNITYSDK_OFFSET(0xC1500F0)
-#define CLASS_1_7250E7F415FE7CC4_1_TRIGGERACTION_OFFSET UNITYSDK_OFFSET(0xC1501A0)
-#define CLASS_1_7250E7F415FE7CC4_1__CTOR_OFFSET UNITYSDK_OFFSET(0xC14FF20)
+#define CLASS_1_7250E7F415FE7CC4_1_METHOD_1_64D83CC370B9B944_1_OFFSET UNITYSDK_OFFSET(0xC1AD340)
+#define CLASS_1_7250E7F415FE7CC4_1_METHOD_1_64D83CC370B9B944_OFFSET UNITYSDK_OFFSET(0xC1AD300)
+#define CLASS_1_7250E7F415FE7CC4_1_METHOD_1_D2E9FDD71B4930D9_OFFSET UNITYSDK_OFFSET(0xC1AD060)
+#define CLASS_1_7250E7F415FE7CC4_1_TOSTRING_OFFSET UNITYSDK_OFFSET(0xC1AD190)
+#define CLASS_1_7250E7F415FE7CC4_1_TRIGGERACTION_OFFSET UNITYSDK_OFFSET(0xC1AD240)
+#define CLASS_1_7250E7F415FE7CC4_1__CTOR_OFFSET UNITYSDK_OFFSET(0xC1ACFC0)
 
-inline static constexpr unsigned int Class_1_7250E7F415FE7CC4_1_TypeDefinitionIndex = 67054;
+inline static constexpr unsigned int Class_1_7250E7F415FE7CC4_1_TypeDefinitionIndex = 67056;
 
 class Class_1_7250E7F415FE7CC4_1 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::RPG::Client::IRogueTournPersonaRoomCardInGame*>* OLDOJJDKBOO; // 0x10
-	::System::Collections::Generic::List_1<::RPG::Client::IRogueTournPersonaRoomCardInGame*>* FICEEDILADP; // 0x18
+	::System::Collections::Generic::List_1<::RPG::Client::IRogueTournPersonaRoomCardInGame*>* FICEEDILADP; // 0x10
+	::System::Collections::Generic::List_1<::RPG::Client::IRogueTournPersonaRoomCardInGame*>* OLDOJJDKBOO; // 0x18
 
 	::System::Void _ctor(::System::Collections::Generic::IEnumerable_1<::RPG::Client::IRogueTournPersonaRoomCardInGame*>* a1, ::System::Collections::Generic::IEnumerable_1<::RPG::Client::IRogueTournPersonaRoomCardInGame*>* a2)
 	{

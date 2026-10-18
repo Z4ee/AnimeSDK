@@ -5,20 +5,20 @@
 namespace RPG::GameCore { class SkillCharacterComponent; }
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 
-#define CLASS_1_A891C8E0D74F1DB9_METHOD_1_1D4018D4200358D0_OFFSET UNITYSDK_OFFSET(0xBFC3400)
-#define CLASS_1_A891C8E0D74F1DB9__CTOR_OFFSET UNITYSDK_OFFSET(0xBFC3460)
+#define CLASS_1_A891C8E0D74F1DB9_METHOD_1_1D4018D4200358D0_OFFSET UNITYSDK_OFFSET(0xBEAA000)
+#define CLASS_1_A891C8E0D74F1DB9__CTOR_OFFSET UNITYSDK_OFFSET(0xBEAA060)
 
-inline static constexpr unsigned int Class_1_A891C8E0D74F1DB9_TypeDefinitionIndex = 56410;
+inline static constexpr unsigned int Class_1_A891C8E0D74F1DB9_TypeDefinitionIndex = 56223;
 
 class Class_1_A891C8E0D74F1DB9 : public ::System::Object
 {
 public:
-	::RPG::GameCore::TurnBasedModifierInstance* PCIDMHBGICL; // 0x10
-	::RPG::GameCore::SkillCharacterComponent* DGFJFGGIACL; // 0x18
+	::RPG::GameCore::SkillCharacterComponent* DGFJFGGIACL; // 0x10
+	::RPG::GameCore::TurnBasedModifierInstance* PCIDMHBGICL; // 0x18
 	::System::Single FOMHLJBMINK; // 0x20
 	::System::Single HKNFNCGOING; // 0x24
-	::System::Boolean FPFAFHLNPED; // 0x28
-	::System::Boolean BKPFBCADFCC; // 0x29
+	::System::Boolean BKPFBCADFCC; // 0x28
+	::System::Boolean FPFAFHLNPED; // 0x29
 
 	::System::Void _ctor()
 	{

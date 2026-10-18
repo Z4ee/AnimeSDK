@@ -6,9 +6,9 @@ namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 namespace System::Globalization { class CultureInfo; }
 
-#define SYSTEM_RESOURCES_RESOURCEFALLBACKMANAGER_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1BDABE60)
-#define SYSTEM_RESOURCES_RESOURCEFALLBACKMANAGER_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1BDABE10)
-#define SYSTEM_RESOURCES_RESOURCEFALLBACKMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDABD70)
+#define SYSTEM_RESOURCES_RESOURCEFALLBACKMANAGER_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1C2B7A30)
+#define SYSTEM_RESOURCES_RESOURCEFALLBACKMANAGER_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1C2B79E0)
+#define SYSTEM_RESOURCES_RESOURCEFALLBACKMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C2B7940)
 
 namespace System::Resources
 {
@@ -17,8 +17,8 @@ namespace System::Resources
 	class ResourceFallbackManager : public ::System::Object
 	{
 	public:
-		::System::Globalization::CultureInfo* m_neutralResourcesCulture; // 0x10
-		::System::Globalization::CultureInfo* m_startingCulture; // 0x18
+		::System::Globalization::CultureInfo* m_startingCulture; // 0x10
+		::System::Globalization::CultureInfo* m_neutralResourcesCulture; // 0x18
 		::System::Boolean m_useParents; // 0x20
 
 		::System::Void _ctor(::System::Globalization::CultureInfo* a1, ::System::Globalization::CultureInfo* a2, ::System::Boolean a3)

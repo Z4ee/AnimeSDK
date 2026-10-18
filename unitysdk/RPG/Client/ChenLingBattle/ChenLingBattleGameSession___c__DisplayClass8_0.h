@@ -4,12 +4,12 @@
 
 namespace RPG::Client::ChenLingBattle { class Soldier; }
 
-#define RPG_CLIENT_CHENLINGBATTLE_CHENLINGBATTLEGAMESESSION___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCAF5030)
-#define RPG_CLIENT_CHENLINGBATTLE_CHENLINGBATTLEGAMESESSION___C__DISPLAYCLASS8_0__GETCARDRELATEDSOLDIERS_B__0_OFFSET UNITYSDK_OFFSET(0xCB01C70)
+#define RPG_CLIENT_CHENLINGBATTLE_CHENLINGBATTLEGAMESESSION___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCA43C50)
+#define RPG_CLIENT_CHENLINGBATTLE_CHENLINGBATTLEGAMESESSION___C__DISPLAYCLASS8_0__GETCARDRELATEDSOLDIERS_B__0_OFFSET UNITYSDK_OFFSET(0xCA50AD0)
 
 namespace RPG::Client::ChenLingBattle
 {
-	inline static constexpr unsigned int ChenLingBattleGameSession___c__DisplayClass8_0_TypeDefinitionIndex = 75864;
+	inline static constexpr unsigned int ChenLingBattleGameSession___c__DisplayClass8_0_TypeDefinitionIndex = 76341;
 
 	class ChenLingBattleGameSession___c__DisplayClass8_0 : public ::System::Object
 	{

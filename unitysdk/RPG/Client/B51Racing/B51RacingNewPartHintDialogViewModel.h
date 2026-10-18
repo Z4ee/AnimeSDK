@@ -6,11 +6,11 @@
 namespace RPG::Client::B51Racing { class B51RacingPartRetentionItemViewModel; }
 namespace System { class Action; }
 
-#define RPG_CLIENT_B51RACING_B51RACINGNEWPARTHINTDIALOGVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xC895840)
+#define RPG_CLIENT_B51RACING_B51RACINGNEWPARTHINTDIALOGVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xC7B41E0)
 
 namespace RPG::Client::B51Racing
 {
-	inline static constexpr unsigned int B51RacingNewPartHintDialogViewModel_TypeDefinitionIndex = 80680;
+	inline static constexpr unsigned int B51RacingNewPartHintDialogViewModel_TypeDefinitionIndex = 82008;
 
 	class B51RacingNewPartHintDialogViewModel : public ::System::Object
 	{

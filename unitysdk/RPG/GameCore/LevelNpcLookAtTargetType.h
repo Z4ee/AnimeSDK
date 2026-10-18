@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelNpcLookAtTargetType_TypeDefinitionIndex = 17162;
+	inline static constexpr unsigned int LevelNpcLookAtTargetType_TypeDefinitionIndex = 17357;
 
 	enum class LevelNpcLookAtTargetType : ::System::Int32
 	{

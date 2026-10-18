@@ -9,22 +9,22 @@ namespace System { template <typename T> class Func_1; }
 namespace ZenFulcrum::EmbeddedBrowser { class IPromise; }
 namespace ZenFulcrum::EmbeddedBrowser { class Promise; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_PROMISE___C__DISPLAYCLASS45_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1EFA3C40)
-#define ZENFULCRUM_EMBEDDEDBROWSER_PROMISE___C__DISPLAYCLASS45_0__THEN_B__0_OFFSET UNITYSDK_OFFSET(0x1EFA4E90)
-#define ZENFULCRUM_EMBEDDEDBROWSER_PROMISE___C__DISPLAYCLASS45_0__THEN_B__1_OFFSET UNITYSDK_OFFSET(0x1EFA5000)
-#define ZENFULCRUM_EMBEDDEDBROWSER_PROMISE___C__DISPLAYCLASS45_0__THEN_B__2_OFFSET UNITYSDK_OFFSET(0x1EFA4FC0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_PROMISE___C__DISPLAYCLASS45_0__THEN_B__3_OFFSET UNITYSDK_OFFSET(0x1EFA4FE0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_PROMISE___C__DISPLAYCLASS45_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1F66C1B0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_PROMISE___C__DISPLAYCLASS45_0__THEN_B__0_OFFSET UNITYSDK_OFFSET(0x1F66D400)
+#define ZENFULCRUM_EMBEDDEDBROWSER_PROMISE___C__DISPLAYCLASS45_0__THEN_B__1_OFFSET UNITYSDK_OFFSET(0x1F66D570)
+#define ZENFULCRUM_EMBEDDEDBROWSER_PROMISE___C__DISPLAYCLASS45_0__THEN_B__2_OFFSET UNITYSDK_OFFSET(0x1F66D530)
+#define ZENFULCRUM_EMBEDDEDBROWSER_PROMISE___C__DISPLAYCLASS45_0__THEN_B__3_OFFSET UNITYSDK_OFFSET(0x1F66D550)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int Promise___c__DisplayClass45_0_TypeDefinitionIndex = 38255;
+	inline static constexpr unsigned int Promise___c__DisplayClass45_0_TypeDefinitionIndex = 39552;
 
 	class Promise___c__DisplayClass45_0 : public ::System::Object
 	{
 	public:
 		::System::Func_1<::ZenFulcrum::EmbeddedBrowser::IPromise*>* onResolved; // 0x10
-		::System::Action_1<::System::Exception*>* onRejected; // 0x18
-		::System::Action_1<::System::Exception*>* __9__3; // 0x20
+		::System::Action_1<::System::Exception*>* __9__3; // 0x18
+		::System::Action_1<::System::Exception*>* onRejected; // 0x20
 		::System::Action* __9__2; // 0x28
 		::ZenFulcrum::EmbeddedBrowser::Promise* resultPromise; // 0x30
 

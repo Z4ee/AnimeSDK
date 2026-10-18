@@ -5,9 +5,9 @@
 
 namespace System { class String; }
 
-#define LIGHTRATIOCONFIG_LIGHTRATIOCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xB97EEC0)
+#define LIGHTRATIOCONFIG_LIGHTRATIOCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xB838380)
 
-inline static constexpr unsigned int LightRatioConfig_LightRatioClip_TypeDefinitionIndex = 48022;
+inline static constexpr unsigned int LightRatioConfig_LightRatioClip_TypeDefinitionIndex = 47562;
 
 class LightRatioConfig_LightRatioClip : public ::System::Object
 {

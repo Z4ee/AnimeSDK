@@ -7,21 +7,21 @@ namespace System::Collections::ObjectModel { template <typename T> class ReadOnl
 namespace System::Linq::Expressions { class Expression; }
 namespace System::Linq::Expressions { class ParameterExpression; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_BLOCK4_GETEXPRESSION_OFFSET UNITYSDK_OFFSET(0x1E6D8EA0)
-#define SYSTEM_LINQ_EXPRESSIONS_BLOCK4_GETORMAKEEXPRESSIONS_OFFSET UNITYSDK_OFFSET(0x1E6D8F50)
-#define SYSTEM_LINQ_EXPRESSIONS_BLOCK4_GET_EXPRESSIONCOUNT_OFFSET UNITYSDK_OFFSET(0x1E6D8F40)
-#define SYSTEM_LINQ_EXPRESSIONS_BLOCK4_REWRITE_OFFSET UNITYSDK_OFFSET(0x1E6D8F60)
-#define SYSTEM_LINQ_EXPRESSIONS_BLOCK4__CTOR_OFFSET UNITYSDK_OFFSET(0x1E6D8E20)
+#define SYSTEM_LINQ_EXPRESSIONS_BLOCK4_GETEXPRESSION_OFFSET UNITYSDK_OFFSET(0x1EDA1180)
+#define SYSTEM_LINQ_EXPRESSIONS_BLOCK4_GETORMAKEEXPRESSIONS_OFFSET UNITYSDK_OFFSET(0x1EDA1230)
+#define SYSTEM_LINQ_EXPRESSIONS_BLOCK4_GET_EXPRESSIONCOUNT_OFFSET UNITYSDK_OFFSET(0x1EDA1220)
+#define SYSTEM_LINQ_EXPRESSIONS_BLOCK4_REWRITE_OFFSET UNITYSDK_OFFSET(0x1EDA1240)
+#define SYSTEM_LINQ_EXPRESSIONS_BLOCK4__CTOR_OFFSET UNITYSDK_OFFSET(0x1EDA1100)
 
 namespace System::Linq::Expressions
 {
-	inline static constexpr unsigned int Block4_TypeDefinitionIndex = 3195;
+	inline static constexpr unsigned int Block4_TypeDefinitionIndex = 3196;
 
 	class Block4 : public ::System::Linq::Expressions::BlockExpression
 	{
 	public:
-		::System::Object* _arg0; // 0x10
-		::System::Linq::Expressions::Expression* _arg1; // 0x18
+		::System::Linq::Expressions::Expression* _arg1; // 0x10
+		::System::Object* _arg0; // 0x18
 		::System::Linq::Expressions::Expression* _arg3; // 0x20
 		::System::Linq::Expressions::Expression* _arg2; // 0x28
 

@@ -7,22 +7,22 @@ namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_AAC15A8C76AF280B_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBB13290)
-#define CLASS_2_AAC15A8C76AF280B_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBB13340)
-#define CLASS_2_AAC15A8C76AF280B_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBB14140)
-#define CLASS_2_AAC15A8C76AF280B_TICK_OFFSET UNITYSDK_OFFSET(0xBB14190)
-#define CLASS_2_AAC15A8C76AF280B__CTOR_OFFSET UNITYSDK_OFFSET(0xBB13190)
+#define CLASS_2_AAC15A8C76AF280B_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB998D60)
+#define CLASS_2_AAC15A8C76AF280B_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB998E10)
+#define CLASS_2_AAC15A8C76AF280B_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB999C10)
+#define CLASS_2_AAC15A8C76AF280B_TICK_OFFSET UNITYSDK_OFFSET(0xB999C60)
+#define CLASS_2_AAC15A8C76AF280B__CTOR_OFFSET UNITYSDK_OFFSET(0xB998C60)
 
-inline static constexpr unsigned int Class_2_AAC15A8C76AF280B_TypeDefinitionIndex = 55212;
+inline static constexpr unsigned int Class_2_AAC15A8C76AF280B_TypeDefinitionIndex = 55005;
 
 class Class_2_AAC15A8C76AF280B : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::RPG::GameCore::DispelStatus* OFKGLJOAMLD; // 0x18
-	::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
-	::System::Collections::Generic::List_1<::RPG::GameCore::TurnBasedModifierInstance*>* BNLAOKGEFLK; // 0x28
-	::Class_1_5F51D4049EA87B7B* LLHKOFLJFCH; // 0x30
-	::System::Collections::Generic::List_1<::RPG::GameCore::TurnBasedModifierInstance*>* FABICEFOKHC; // 0x38
+	::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+	::System::Collections::Generic::List_1<::RPG::GameCore::TurnBasedModifierInstance*>* BNLAOKGEFLK; // 0x20
+	::Class_1_5F51D4049EA87B7B* LLHKOFLJFCH; // 0x28
+	::System::Collections::Generic::List_1<::RPG::GameCore::TurnBasedModifierInstance*>* FABICEFOKHC; // 0x30
+	::RPG::GameCore::DispelStatus* OFKGLJOAMLD; // 0x38
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::DispelStatus* a2)
 	{

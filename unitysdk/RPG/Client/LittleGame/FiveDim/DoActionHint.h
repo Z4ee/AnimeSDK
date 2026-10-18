@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int DoActionHint_TypeDefinitionIndex = 41674;
+	inline static constexpr unsigned int DoActionHint_TypeDefinitionIndex = 43315;
 
 	enum class DoActionHint : ::System::Int32
 	{

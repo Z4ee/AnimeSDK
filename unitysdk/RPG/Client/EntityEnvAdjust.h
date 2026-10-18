@@ -7,26 +7,26 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Renderer; }
 
-#define RPG_CLIENT_ENTITYENVADJUST_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xCEA2EB0)
-#define RPG_CLIENT_ENTITYENVADJUST_START_OFFSET UNITYSDK_OFFSET(0xCEA29C0)
-#define RPG_CLIENT_ENTITYENVADJUST_UPDATE_OFFSET UNITYSDK_OFFSET(0xCEA2D00)
-#define RPG_CLIENT_ENTITYENVADJUST__CCTOR_OFFSET UNITYSDK_OFFSET(0xCEA3230)
-#define RPG_CLIENT_ENTITYENVADJUST__CTOR_OFFSET UNITYSDK_OFFSET(0xCEA3190)
+#define RPG_CLIENT_ENTITYENVADJUST_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xCDF2350)
+#define RPG_CLIENT_ENTITYENVADJUST_START_OFFSET UNITYSDK_OFFSET(0xCDF1E60)
+#define RPG_CLIENT_ENTITYENVADJUST_UPDATE_OFFSET UNITYSDK_OFFSET(0xCDF21A0)
+#define RPG_CLIENT_ENTITYENVADJUST__CCTOR_OFFSET UNITYSDK_OFFSET(0xCDF26D0)
+#define RPG_CLIENT_ENTITYENVADJUST__CTOR_OFFSET UNITYSDK_OFFSET(0xCDF2630)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EntityEnvAdjust_TypeDefinitionIndex = 70237;
+	inline static constexpr unsigned int EntityEnvAdjust_TypeDefinitionIndex = 70273;
 
 	class EntityEnvAdjust : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::System::Int32* StaticGet_NIAJFKBGIGH()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(EntityEnvAdjust_TypeDefinitionIndex)->GetStaticField(0x14EA0);
-		}
 		static ::System::Int32* StaticGet_HPJJPPKHOKN()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(EntityEnvAdjust_TypeDefinitionIndex)->GetStaticField(0x14EA4);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(EntityEnvAdjust_TypeDefinitionIndex)->GetStaticField(0x11AA0);
+		}
+		static ::System::Int32* StaticGet_NIAJFKBGIGH()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(EntityEnvAdjust_TypeDefinitionIndex)->GetStaticField(0x11AA4);
 		}
 		::UnityEngine::Color EnvColor; // 0x18
 		::UnityEngine::Color AddColor; // 0x28

@@ -6,9 +6,9 @@
 namespace System { class Action; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_1_FA5914EF545C7C05__CTOR_OFFSET UNITYSDK_OFFSET(0xBC2F750)
+#define CLASS_1_FA5914EF545C7C05__CTOR_OFFSET UNITYSDK_OFFSET(0xBAF7240)
 
-inline static constexpr unsigned int Class_1_FA5914EF545C7C05_TypeDefinitionIndex = 78063;
+inline static constexpr unsigned int Class_1_FA5914EF545C7C05_TypeDefinitionIndex = 78534;
 
 class Class_1_FA5914EF545C7C05 : public ::System::Object
 {
@@ -16,9 +16,9 @@ public:
 	::UnityEngine::Transform* MCLLALGABAB; // 0x10
 	::System::Action* DPANHIICMLD; // 0x18
 	::UnityEngine::Vector3 FJMCLOIEMKG; // 0x20
-	::System::Single IEHPFADHJFD; // 0x2C
+	::System::Single PMHMEGEJDGP; // 0x2C
 	::System::Single GCJMFBKLGHI; // 0x30
-	::System::Single PMHMEGEJDGP; // 0x34
+	::System::Single IEHPFADHJFD; // 0x34
 
 	::System::Void _ctor()
 	{

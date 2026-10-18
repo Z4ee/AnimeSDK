@@ -5,21 +5,21 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define CLASS_1_D6A07C122FCF6261_METHOD_1_BCDCD4E94D23A046_OFFSET UNITYSDK_OFFSET(0x1CAD8F20)
-#define CLASS_1_D6A07C122FCF6261__CTOR_OFFSET UNITYSDK_OFFSET(0x1CAD9190)
+#define CLASS_1_D6A07C122FCF6261_METHOD_1_BCDCD4E94D23A046_OFFSET UNITYSDK_OFFSET(0x1D0911E0)
+#define CLASS_1_D6A07C122FCF6261__CTOR_OFFSET UNITYSDK_OFFSET(0x1D091450)
 
-inline static constexpr unsigned int Class_1_D6A07C122FCF6261_TypeDefinitionIndex = 14970;
+inline static constexpr unsigned int Class_1_D6A07C122FCF6261_TypeDefinitionIndex = 15137;
 
 class Class_1_D6A07C122FCF6261 : public ::System::Object
 {
 public:
-	::System::String* MEDEFCIKNLA; // 0x10
-	::System::String* BFLIFKBEOPJ; // 0x18
-	::System::String* APNFMFEMPNI; // 0x20
-	::System::String* KACPIAGHKMN; // 0x28
-	::System::String* LGNKFIIEICM; // 0x30
-	::System::String* EOAHMJFOLHD; // 0x38
-	::System::String* BIEJJCIFBGA; // 0x40
+	::System::String* LGNKFIIEICM; // 0x10
+	::System::String* MEDEFCIKNLA; // 0x18
+	::System::String* BFLIFKBEOPJ; // 0x20
+	::System::String* BIEJJCIFBGA; // 0x28
+	::System::String* EOAHMJFOLHD; // 0x30
+	::System::String* KACPIAGHKMN; // 0x38
+	::System::String* APNFMFEMPNI; // 0x40
 
 	::System::Void _ctor()
 	{

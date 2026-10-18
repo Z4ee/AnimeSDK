@@ -3,7 +3,7 @@
 #include "unitysdk/RPG/Client/Prop/AlchemyType.h"
 #include "unitysdk/System/ValueType.h"
 
-inline static constexpr unsigned int Struct_2_55917A2289D6D579_TypeDefinitionIndex = 77733;
+inline static constexpr unsigned int Struct_2_55917A2289D6D579_TypeDefinitionIndex = 78204;
 
 struct alignas(4) Struct_2_55917A2289D6D579
 {

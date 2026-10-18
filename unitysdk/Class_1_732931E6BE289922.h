@@ -14,9 +14,9 @@ namespace UnityEngine::Events { template <typename T1, typename T2, typename T3>
 namespace UnityEngine::Events { template <typename T1, typename T2> class UnityEvent_2; }
 namespace UnityEngine::Events { template <typename T> class UnityEvent_1; }
 
-#define CLASS_1_732931E6BE289922_METHOD_1_3C76C5DCEE8C8595_OFFSET UNITYSDK_OFFSET(0xD254950)
+#define CLASS_1_732931E6BE289922_METHOD_1_3C76C5DCEE8C8595_OFFSET UNITYSDK_OFFSET(0xCF27CA0)
 
-inline static constexpr unsigned int Class_1_732931E6BE289922_TypeDefinitionIndex = 50309;
+inline static constexpr unsigned int Class_1_732931E6BE289922_TypeDefinitionIndex = 49983;
 
 class Class_1_732931E6BE289922 : public ::System::Object
 {

@@ -10,54 +10,54 @@ namespace RPG::Client::DiceCombat { class DiceCombatSpecialRuleGroupData; }
 namespace System { template <typename T1, typename T2> class Converter_2; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATUTIL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xCD43E30)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATUTIL___C__CTOR_OFFSET UNITYSDK_OFFSET(0xCD43E70)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATUTIL___C__GETALLCOLLECTIONCARDINFOBYRARITY_B__70_0_OFFSET UNITYSDK_OFFSET(0xCD43F40)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATUTIL___C__GETALLCOLLECTIONSPECIALDICEINFO_B__71_0_OFFSET UNITYSDK_OFFSET(0xCD43FA0)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATUTIL___C__GETALLRANKLEVELINFO_B__33_0_OFFSET UNITYSDK_OFFSET(0xCD43E80)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATUTIL___C__GETORDEREDDICEINFOLISTBYIDLIST_B__74_0_OFFSET UNITYSDK_OFFSET(0xCD44080)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATUTIL___C__GETORDEREDDICEINFOLISTBYIDLIST_B__75_0_OFFSET UNITYSDK_OFFSET(0xCD44090)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATUTIL___C__GETOWNEDDICEINFOLISTBYRECOMMENDATION_B__72_1_OFFSET UNITYSDK_OFFSET(0xCD44000)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATUTIL___C__GETSPECRULEGROUPDATASBYMAP_B__76_0_OFFSET UNITYSDK_OFFSET(0xCD44150)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATUTIL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xCC43590)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATUTIL___C__CTOR_OFFSET UNITYSDK_OFFSET(0xCC435D0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATUTIL___C__GETALLCOLLECTIONCARDINFOBYRARITY_B__70_0_OFFSET UNITYSDK_OFFSET(0xCC436A0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATUTIL___C__GETALLCOLLECTIONSPECIALDICEINFO_B__71_0_OFFSET UNITYSDK_OFFSET(0xCC43700)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATUTIL___C__GETALLRANKLEVELINFO_B__33_0_OFFSET UNITYSDK_OFFSET(0xCC435E0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATUTIL___C__GETORDEREDDICEINFOLISTBYIDLIST_B__74_0_OFFSET UNITYSDK_OFFSET(0xCC437E0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATUTIL___C__GETORDEREDDICEINFOLISTBYIDLIST_B__75_0_OFFSET UNITYSDK_OFFSET(0xCC437F0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATUTIL___C__GETOWNEDDICEINFOLISTBYRECOMMENDATION_B__72_1_OFFSET UNITYSDK_OFFSET(0xCC43760)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATUTIL___C__GETSPECRULEGROUPDATASBYMAP_B__76_0_OFFSET UNITYSDK_OFFSET(0xCC438B0)
 
 namespace RPG::Client::DiceCombat
 {
-	inline static constexpr unsigned int DiceCombatUtil___c_TypeDefinitionIndex = 75622;
+	inline static constexpr unsigned int DiceCombatUtil___c_TypeDefinitionIndex = 76099;
 
 	class DiceCombatUtil___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::RPG::Client::DiceCombat::DiceCombatCollectionCardInfo*>** StaticGet___9__70_0()
+		static ::System::Comparison_1<::RPG::Client::DiceCombat::DiceCombatRankLevelData*>** StaticGet___9__33_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::DiceCombat::DiceCombatCollectionCardInfo*>**)Il2CppClass::FromTypeDefinitionIndex(DiceCombatUtil___c_TypeDefinitionIndex)->GetStaticField(0x609C0);
-		}
-		static ::RPG::Client::DiceCombat::DiceCombatUtil___c** StaticGet___9()
-		{
-			return (::RPG::Client::DiceCombat::DiceCombatUtil___c**)Il2CppClass::FromTypeDefinitionIndex(DiceCombatUtil___c_TypeDefinitionIndex)->GetStaticField(0x609C8);
-		}
-		static ::System::Comparison_1<::RPG::Client::DiceCombat::DiceCombatSpecialRuleGroupData*>** StaticGet___9__76_0()
-		{
-			return (::System::Comparison_1<::RPG::Client::DiceCombat::DiceCombatSpecialRuleGroupData*>**)Il2CppClass::FromTypeDefinitionIndex(DiceCombatUtil___c_TypeDefinitionIndex)->GetStaticField(0x609D0);
+			return (::System::Comparison_1<::RPG::Client::DiceCombat::DiceCombatRankLevelData*>**)Il2CppClass::FromTypeDefinitionIndex(DiceCombatUtil___c_TypeDefinitionIndex)->GetStaticField(0x26420);
 		}
 		static ::System::Comparison_1<::RPG::Client::DiceCombatDiceConfigData*>** StaticGet___9__75_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::DiceCombatDiceConfigData*>**)Il2CppClass::FromTypeDefinitionIndex(DiceCombatUtil___c_TypeDefinitionIndex)->GetStaticField(0x609D8);
+			return (::System::Comparison_1<::RPG::Client::DiceCombatDiceConfigData*>**)Il2CppClass::FromTypeDefinitionIndex(DiceCombatUtil___c_TypeDefinitionIndex)->GetStaticField(0x26428);
+		}
+		static ::RPG::Client::DiceCombat::DiceCombatUtil___c** StaticGet___9()
+		{
+			return (::RPG::Client::DiceCombat::DiceCombatUtil___c**)Il2CppClass::FromTypeDefinitionIndex(DiceCombatUtil___c_TypeDefinitionIndex)->GetStaticField(0x26430);
+		}
+		static ::System::Comparison_1<::RPG::Client::DiceCombat::DiceCombatCollectionCardInfo*>** StaticGet___9__70_0()
+		{
+			return (::System::Comparison_1<::RPG::Client::DiceCombat::DiceCombatCollectionCardInfo*>**)Il2CppClass::FromTypeDefinitionIndex(DiceCombatUtil___c_TypeDefinitionIndex)->GetStaticField(0x26438);
+		}
+		static ::System::Comparison_1<::RPG::Client::DiceCombat::DiceCombatSpecialRuleGroupData*>** StaticGet___9__76_0()
+		{
+			return (::System::Comparison_1<::RPG::Client::DiceCombat::DiceCombatSpecialRuleGroupData*>**)Il2CppClass::FromTypeDefinitionIndex(DiceCombatUtil___c_TypeDefinitionIndex)->GetStaticField(0x26440);
 		}
 		static ::System::Comparison_1<::RPG::Client::DiceCombat::DiceCombatCollectionDiceInfo*>** StaticGet___9__72_1()
 		{
-			return (::System::Comparison_1<::RPG::Client::DiceCombat::DiceCombatCollectionDiceInfo*>**)Il2CppClass::FromTypeDefinitionIndex(DiceCombatUtil___c_TypeDefinitionIndex)->GetStaticField(0x609E0);
-		}
-		static ::System::Comparison_1<::RPG::Client::DiceCombat::DiceCombatCollectionDiceInfo*>** StaticGet___9__71_0()
-		{
-			return (::System::Comparison_1<::RPG::Client::DiceCombat::DiceCombatCollectionDiceInfo*>**)Il2CppClass::FromTypeDefinitionIndex(DiceCombatUtil___c_TypeDefinitionIndex)->GetStaticField(0x609E8);
+			return (::System::Comparison_1<::RPG::Client::DiceCombat::DiceCombatCollectionDiceInfo*>**)Il2CppClass::FromTypeDefinitionIndex(DiceCombatUtil___c_TypeDefinitionIndex)->GetStaticField(0x26448);
 		}
 		static ::System::Converter_2<::System::Int32, ::System::UInt32>** StaticGet___9__74_0()
 		{
-			return (::System::Converter_2<::System::Int32, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(DiceCombatUtil___c_TypeDefinitionIndex)->GetStaticField(0x609F0);
+			return (::System::Converter_2<::System::Int32, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(DiceCombatUtil___c_TypeDefinitionIndex)->GetStaticField(0x26450);
 		}
-		static ::System::Comparison_1<::RPG::Client::DiceCombat::DiceCombatRankLevelData*>** StaticGet___9__33_0()
+		static ::System::Comparison_1<::RPG::Client::DiceCombat::DiceCombatCollectionDiceInfo*>** StaticGet___9__71_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::DiceCombat::DiceCombatRankLevelData*>**)Il2CppClass::FromTypeDefinitionIndex(DiceCombatUtil___c_TypeDefinitionIndex)->GetStaticField(0x609F8);
+			return (::System::Comparison_1<::RPG::Client::DiceCombat::DiceCombatCollectionDiceInfo*>**)Il2CppClass::FromTypeDefinitionIndex(DiceCombatUtil___c_TypeDefinitionIndex)->GetStaticField(0x26458);
 		}
 
 		static ::System::Void _cctor()

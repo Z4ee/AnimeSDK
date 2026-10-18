@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class StatusRow; }
 namespace System { class String; }
 
-#define CLASS_1_DD5A2B9CFDB86512_METHOD_1_613CBDCC2A0E6AA7_OFFSET UNITYSDK_OFFSET(0x152E6A20)
-#define CLASS_1_DD5A2B9CFDB86512__CTOR_OFFSET UNITYSDK_OFFSET(0x152E6A90)
+#define CLASS_1_DD5A2B9CFDB86512_METHOD_1_613CBDCC2A0E6AA7_OFFSET UNITYSDK_OFFSET(0x155D5130)
+#define CLASS_1_DD5A2B9CFDB86512__CTOR_OFFSET UNITYSDK_OFFSET(0x155D51A0)
 
-inline static constexpr unsigned int Class_1_DD5A2B9CFDB86512_TypeDefinitionIndex = 79730;
+inline static constexpr unsigned int Class_1_DD5A2B9CFDB86512_TypeDefinitionIndex = 81054;
 
 class Class_1_DD5A2B9CFDB86512 : public ::System::Object
 {

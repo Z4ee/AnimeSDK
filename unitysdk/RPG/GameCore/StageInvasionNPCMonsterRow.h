@@ -4,22 +4,22 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_STAGEINVASIONNPCMONSTERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D5588F0)
-#define RPG_GAMECORE_STAGEINVASIONNPCMONSTERROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D558B10)
+#define RPG_GAMECORE_STAGEINVASIONNPCMONSTERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DB0F5F0)
+#define RPG_GAMECORE_STAGEINVASIONNPCMONSTERROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB0F7F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StageInvasionNPCMonsterRow_TypeDefinitionIndex = 14994;
+	inline static constexpr unsigned int StageInvasionNPCMonsterRow_TypeDefinitionIndex = 15161;
 
 	class StageInvasionNPCMonsterRow : public ::System::Object
 	{
 	public:
 		::System::UInt32 GroupID; // 0x10
-		::System::UInt32 InvasionID; // 0x14
-		::System::UInt32 ID; // 0x18
+		::System::UInt32 FloorID; // 0x14
+		::System::UInt32 InvasionID; // 0x18
 		::System::UInt32 PlaneID; // 0x1C
-		::System::UInt32 InstanceID; // 0x20
-		::System::UInt32 FloorID; // 0x24
+		::System::UInt32 ID; // 0x20
+		::System::UInt32 InstanceID; // 0x24
 
 		::System::Void _ctor()
 		{

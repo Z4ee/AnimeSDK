@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class HideEffectByCharacterType; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_70A11A5B84AFA15A_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB5F7D90)
-#define CLASS_3_70A11A5B84AFA15A__CTOR_OFFSET UNITYSDK_OFFSET(0xB5F7D60)
+#define CLASS_3_70A11A5B84AFA15A_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB447330)
+#define CLASS_3_70A11A5B84AFA15A__CTOR_OFFSET UNITYSDK_OFFSET(0xB447300)
 
-inline static constexpr unsigned int Class_3_70A11A5B84AFA15A_TypeDefinitionIndex = 55140;
+inline static constexpr unsigned int Class_3_70A11A5B84AFA15A_TypeDefinitionIndex = 54933;
 
 class Class_3_70A11A5B84AFA15A : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::HideEffectByCharacterType*>
 {

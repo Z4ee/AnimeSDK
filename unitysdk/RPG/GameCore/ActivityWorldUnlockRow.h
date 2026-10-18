@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ACTIVITYWORLDUNLOCKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CDAF7C0)
-#define RPG_GAMECORE_ACTIVITYWORLDUNLOCKROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CDAF8B0)
+#define RPG_GAMECORE_ACTIVITYWORLDUNLOCKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D384BC0)
+#define RPG_GAMECORE_ACTIVITYWORLDUNLOCKROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D384CB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityWorldUnlockRow_TypeDefinitionIndex = 11215;
+	inline static constexpr unsigned int ActivityWorldUnlockRow_TypeDefinitionIndex = 11231;
 
 	class ActivityWorldUnlockRow : public ::System::Object
 	{

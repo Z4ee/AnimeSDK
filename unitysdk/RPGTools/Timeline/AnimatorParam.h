@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_ANIMATORPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xE812300)
+#define RPGTOOLS_TIMELINE_ANIMATORPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xE8AFC10)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int AnimatorParam_TypeDefinitionIndex = 48582;
+	inline static constexpr unsigned int AnimatorParam_TypeDefinitionIndex = 48122;
 
 	class AnimatorParam : public ::System::Object
 	{

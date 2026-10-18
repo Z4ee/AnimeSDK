@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace ZLinq::Linq
 {
-	inline static constexpr unsigned int ListWhere_1_TypeDefinitionIndex = 6137;
+	inline static constexpr unsigned int ListWhere_1_TypeDefinitionIndex = 6146;
 
 	template <typename TSource>
 	struct ListWhere_1

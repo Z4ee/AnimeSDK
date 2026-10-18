@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_GAMECORE_GRIDFIGHTSHOWGUIDEHINTWITHTEXTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xE67B6C0)
+#define RPG_GAMECORE_GRIDFIGHTSHOWGUIDEHINTWITHTEXTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xE6D6D20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightShowGuideHintWithTextConfig_TypeDefinitionIndex = 53802;
+	inline static constexpr unsigned int GridFightShowGuideHintWithTextConfig_TypeDefinitionIndex = 53586;
 
 	class GridFightShowGuideHintWithTextConfig : public ::System::Object
 	{
 	public:
-		::System::Boolean IsBegin; // 0x10
-		::System::Boolean IsEnd; // 0x11
-		::System::UInt32 TalkID; // 0x14
+		::System::UInt32 TalkID; // 0x10
+		::System::Boolean IsBegin; // 0x14
+		::System::Boolean IsEnd; // 0x15
 
 		::System::Void _ctor()
 		{

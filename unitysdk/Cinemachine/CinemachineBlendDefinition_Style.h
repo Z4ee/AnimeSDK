@@ -3,7 +3,7 @@
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineBlendDefinition_Style_TypeDefinitionIndex = 38507;
+	inline static constexpr unsigned int CinemachineBlendDefinition_Style_TypeDefinitionIndex = 39804;
 
 	enum class CinemachineBlendDefinition_Style : ::System::Int32
 	{

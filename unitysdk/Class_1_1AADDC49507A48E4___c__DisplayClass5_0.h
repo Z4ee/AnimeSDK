@@ -1,0 +1,28 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_1AADDC49507A48E4;
+namespace RPG::Client::Promises { class Promise; }
+
+#define CLASS_1_1AADDC49507A48E4___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x159605E0)
+#define CLASS_1_1AADDC49507A48E4___C__DISPLAYCLASS5_0___SHOWWORLDFINISHTOAST_B__0_OFFSET UNITYSDK_OFFSET(0x15960680)
+
+inline static constexpr unsigned int Class_1_1AADDC49507A48E4___c__DisplayClass5_0_TypeDefinitionIndex = 66959;
+
+class Class_1_1AADDC49507A48E4___c__DisplayClass5_0 : public ::System::Object
+{
+public:
+	::Class_1_1AADDC49507A48E4* __4__this; // 0x10
+	::System::Boolean isShowAfterReconnect; // 0x18
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_1AADDC49507A48E4___C__DISPLAYCLASS5_0__CTOR_OFFSET))(this);
+	}
+
+	::RPG::Client::Promises::Promise* __ShowWorldFinishToast_b__0()
+	{
+		return ((::RPG::Client::Promises::Promise*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_1AADDC49507A48E4___C__DISPLAYCLASS5_0___SHOWWORLDFINISHTOAST_B__0_OFFSET))(this);
+	}
+};

@@ -2,17 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/ChallengeInstance.h"
 
-class Class_1_3AD2528CD53B1639_1;
+class Class_1_4AF717D30078CC7E;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_CHALLENGESTORYINSTANCE_SETUPLOADINGSTRATEGY_OFFSET UNITYSDK_OFFSET(0xCABD450)
-#define RPG_CLIENT_CHALLENGESTORYINSTANCE__CALCISNEWRECORD_OFFSET UNITYSDK_OFFSET(0xCABD380)
-#define RPG_CLIENT_CHALLENGESTORYINSTANCE__CTOR_OFFSET UNITYSDK_OFFSET(0xCABCE50)
-#define RPG_CLIENT_CHALLENGESTORYINSTANCE__SYNCEXTRAINFO_OFFSET UNITYSDK_OFFSET(0xCABCEB0)
+#define RPG_CLIENT_CHALLENGESTORYINSTANCE_SETUPLOADINGSTRATEGY_OFFSET UNITYSDK_OFFSET(0xC9BE5B0)
+#define RPG_CLIENT_CHALLENGESTORYINSTANCE__CALCISNEWRECORD_OFFSET UNITYSDK_OFFSET(0xC9BE4E0)
+#define RPG_CLIENT_CHALLENGESTORYINSTANCE__CTOR_OFFSET UNITYSDK_OFFSET(0xC9BDFB0)
+#define RPG_CLIENT_CHALLENGESTORYINSTANCE__SYNCEXTRAINFO_OFFSET UNITYSDK_OFFSET(0xC9BE010)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChallengeStoryInstance_TypeDefinitionIndex = 63217;
+	inline static constexpr unsigned int ChallengeStoryInstance_TypeDefinitionIndex = 63150;
 
 	class ChallengeStoryInstance : public ::RPG::Client::ChallengeInstance
 	{
@@ -24,9 +24,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGESTORYINSTANCE__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _SyncExtraInfo(::Class_1_3AD2528CD53B1639_1* a1)
+		::System::Void _SyncExtraInfo(::Class_1_4AF717D30078CC7E* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_3AD2528CD53B1639_1*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGESTORYINSTANCE__SYNCEXTRAINFO_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Class_1_4AF717D30078CC7E*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGESTORYINSTANCE__SYNCEXTRAINFO_OFFSET))(this, a1);
 		}
 
 		::System::Void _CalcIsNewRecord()

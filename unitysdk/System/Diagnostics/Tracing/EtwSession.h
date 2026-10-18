@@ -6,11 +6,11 @@ namespace System { template <typename T> class WeakReference_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Diagnostics::Tracing { class ActivityFilter; }
 
-#define SYSTEM_DIAGNOSTICS_TRACING_ETWSESSION_GETETWSESSION_OFFSET UNITYSDK_OFFSET(0x1BCCE660)
-#define SYSTEM_DIAGNOSTICS_TRACING_ETWSESSION_REMOVEETWSESSION_OFFSET UNITYSDK_OFFSET(0x1BCCEC10)
-#define SYSTEM_DIAGNOSTICS_TRACING_ETWSESSION_TRIMGLOBALLIST_OFFSET UNITYSDK_OFFSET(0x1BCCEA60)
-#define SYSTEM_DIAGNOSTICS_TRACING_ETWSESSION__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BCCEDA0)
-#define SYSTEM_DIAGNOSTICS_TRACING_ETWSESSION__CTOR_OFFSET UNITYSDK_OFFSET(0x1BCCEA50)
+#define SYSTEM_DIAGNOSTICS_TRACING_ETWSESSION_GETETWSESSION_OFFSET UNITYSDK_OFFSET(0x1C1DA6D0)
+#define SYSTEM_DIAGNOSTICS_TRACING_ETWSESSION_REMOVEETWSESSION_OFFSET UNITYSDK_OFFSET(0x1C1DAC80)
+#define SYSTEM_DIAGNOSTICS_TRACING_ETWSESSION_TRIMGLOBALLIST_OFFSET UNITYSDK_OFFSET(0x1C1DAAD0)
+#define SYSTEM_DIAGNOSTICS_TRACING_ETWSESSION__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C1DAE10)
+#define SYSTEM_DIAGNOSTICS_TRACING_ETWSESSION__CTOR_OFFSET UNITYSDK_OFFSET(0x1C1DAAC0)
 
 namespace System::Diagnostics::Tracing
 {
@@ -21,7 +21,7 @@ namespace System::Diagnostics::Tracing
 	public:
 		static ::System::Collections::Generic::List_1<::System::WeakReference_1<::System::Diagnostics::Tracing::EtwSession*>*>** StaticGet_s_etwSessions()
 		{
-			return (::System::Collections::Generic::List_1<::System::WeakReference_1<::System::Diagnostics::Tracing::EtwSession*>*>**)Il2CppClass::FromTypeDefinitionIndex(EtwSession_TypeDefinitionIndex)->GetStaticField(0xBAC0);
+			return (::System::Collections::Generic::List_1<::System::WeakReference_1<::System::Diagnostics::Tracing::EtwSession*>*>**)Il2CppClass::FromTypeDefinitionIndex(EtwSession_TypeDefinitionIndex)->GetStaticField(0x12150);
 		}
 		::System::Diagnostics::Tracing::ActivityFilter* m_activityFilter; // 0x10
 		::System::Int32 m_etwSessionId; // 0x18

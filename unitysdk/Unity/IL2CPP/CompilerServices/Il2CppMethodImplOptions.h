@@ -3,7 +3,7 @@
 
 namespace Unity::IL2CPP::CompilerServices
 {
-	inline static constexpr unsigned int Il2CppMethodImplOptions_TypeDefinitionIndex = 3974;
+	inline static constexpr unsigned int Il2CppMethodImplOptions_TypeDefinitionIndex = 3975;
 
 	enum class Il2CppMethodImplOptions : ::System::Int32
 	{

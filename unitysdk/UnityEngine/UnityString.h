@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_UNITYSTRING_FORMAT_OFFSET UNITYSDK_OFFSET(0x1EDD4110)
+#define UNITYENGINE_UNITYSTRING_FORMAT_OFFSET UNITYSDK_OFFSET(0x1F49D3D0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int UnityString_TypeDefinitionIndex = 3717;
+	inline static constexpr unsigned int UnityString_TypeDefinitionIndex = 3718;
 
 	class UnityString : public ::System::Object
 	{

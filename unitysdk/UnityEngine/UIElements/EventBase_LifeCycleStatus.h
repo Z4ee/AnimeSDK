@@ -3,7 +3,7 @@
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int EventBase_LifeCycleStatus_TypeDefinitionIndex = 5923;
+	inline static constexpr unsigned int EventBase_LifeCycleStatus_TypeDefinitionIndex = 5931;
 
 	enum class EventBase_LifeCycleStatus : ::System::Int32
 	{

@@ -7,19 +7,19 @@ namespace Google::Protobuf::Reflection { class FieldDescriptor; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Reflection { class PropertyInfo; }
 
-#define GOOGLE_PROTOBUF_REFLECTION_FIELDACCESSORBASE_GETVALUE_OFFSET UNITYSDK_OFFSET(0x1B375FD0)
-#define GOOGLE_PROTOBUF_REFLECTION_FIELDACCESSORBASE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1B375FC0)
-#define GOOGLE_PROTOBUF_REFLECTION_FIELDACCESSORBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B375EE0)
+#define GOOGLE_PROTOBUF_REFLECTION_FIELDACCESSORBASE_GETVALUE_OFFSET UNITYSDK_OFFSET(0x1B877D40)
+#define GOOGLE_PROTOBUF_REFLECTION_FIELDACCESSORBASE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1B877D30)
+#define GOOGLE_PROTOBUF_REFLECTION_FIELDACCESSORBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B877C50)
 
 namespace Google::Protobuf::Reflection
 {
-	inline static constexpr unsigned int FieldAccessorBase_TypeDefinitionIndex = 5533;
+	inline static constexpr unsigned int FieldAccessorBase_TypeDefinitionIndex = 5540;
 
 	class FieldAccessorBase : public ::System::Object
 	{
 	public:
-		::System::Func_2<::Google::Protobuf::IMessage*, ::System::Object*>* getValueDelegate; // 0x10
-		::Google::Protobuf::Reflection::FieldDescriptor* descriptor; // 0x18
+		::Google::Protobuf::Reflection::FieldDescriptor* descriptor; // 0x10
+		::System::Func_2<::Google::Protobuf::IMessage*, ::System::Object*>* getValueDelegate; // 0x18
 
 		::System::Void _ctor(::System::Reflection::PropertyInfo* a1, ::Google::Protobuf::Reflection::FieldDescriptor* a2)
 		{

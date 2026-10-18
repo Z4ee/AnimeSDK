@@ -5,19 +5,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ROGUEDIALOGUEOPTIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3E2AD0)
-#define RPG_GAMECORE_ROGUEDIALOGUEOPTIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3E2C20)
+#define RPG_GAMECORE_ROGUEDIALOGUEOPTIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D9C92C0)
+#define RPG_GAMECORE_ROGUEDIALOGUEOPTIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D9C9410)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueDialogueOptionRow_TypeDefinitionIndex = 14653;
+	inline static constexpr unsigned int RogueDialogueOptionRow_TypeDefinitionIndex = 14818;
 
 	class RogueDialogueOptionRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::RPG::GameCore::FixPoint>* ParamList; // 0x10
-		::System::UInt32 OptionDisplayID; // 0x18
-		::System::UInt32 OptionID; // 0x1C
+		::System::UInt32 OptionID; // 0x18
+		::System::UInt32 OptionDisplayID; // 0x1C
 
 		::System::Void _ctor()
 		{

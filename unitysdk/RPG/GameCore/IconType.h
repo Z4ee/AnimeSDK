@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IconType_TypeDefinitionIndex = 14330;
+	inline static constexpr unsigned int IconType_TypeDefinitionIndex = 14495;
 
 	enum class IconType : ::System::Int32
 	{

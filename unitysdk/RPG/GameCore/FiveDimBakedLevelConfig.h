@@ -11,12 +11,12 @@ namespace RPG::GameCore { class StatisticsBakedInfo; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_FIVEDIMBAKEDLEVELCONFIG_METHOD_2_D7A4FCA0587A890A_OFFSET UNITYSDK_OFFSET(0x1D0A2310)
-#define RPG_GAMECORE_FIVEDIMBAKEDLEVELCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0A26B0)
+#define RPG_GAMECORE_FIVEDIMBAKEDLEVELCONFIG_METHOD_2_D7A4FCA0587A890A_OFFSET UNITYSDK_OFFSET(0x1D6B02F0)
+#define RPG_GAMECORE_FIVEDIMBAKEDLEVELCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6B0690)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimBakedLevelConfig_TypeDefinitionIndex = 16549;
+	inline static constexpr unsigned int FiveDimBakedLevelConfig_TypeDefinitionIndex = 16725;
 
 	class FiveDimBakedLevelConfig : public ::RPG::GameCore::JsonConfig
 	{

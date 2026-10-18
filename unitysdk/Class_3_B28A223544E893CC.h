@@ -2,16 +2,16 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/PredicateTaskBase_1.h"
 
-class Class_0_16E4307DCC419505_460;
+class Class_0_16E4307DCC419505_547;
 namespace RPG::GameCore { class ByCheckCharacterDie; }
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_B28A223544E893CC_EVALUATE_OFFSET UNITYSDK_OFFSET(0x121DECD0)
-#define CLASS_3_B28A223544E893CC_METHOD_3_5DC9989DD20A6DEF_OFFSET UNITYSDK_OFFSET(0x121DEEC0)
-#define CLASS_3_B28A223544E893CC__CTOR_OFFSET UNITYSDK_OFFSET(0x121DEBF0)
+#define CLASS_3_B28A223544E893CC_EVALUATE_OFFSET UNITYSDK_OFFSET(0x11FF9910)
+#define CLASS_3_B28A223544E893CC_METHOD_3_5DC9989DD20A6DEF_OFFSET UNITYSDK_OFFSET(0x11FF9B10)
+#define CLASS_3_B28A223544E893CC__CTOR_OFFSET UNITYSDK_OFFSET(0x11FF9830)
 
-inline static constexpr unsigned int Class_3_B28A223544E893CC_TypeDefinitionIndex = 58119;
+inline static constexpr unsigned int Class_3_B28A223544E893CC_TypeDefinitionIndex = 57967;
 
 class Class_3_B28A223544E893CC : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByCheckCharacterDie*>
 {
@@ -28,8 +28,8 @@ public:
 		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_B28A223544E893CC_EVALUATE_OFFSET))(this);
 	}
 
-	::System::Void Method_3_5DC9989DD20A6DEF(::Class_0_16E4307DCC419505_460* a1)
+	::System::Void Method_3_5DC9989DD20A6DEF(::Class_0_16E4307DCC419505_547* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_460*))((::PBYTE)hIl2Cpp + CLASS_3_B28A223544E893CC_METHOD_3_5DC9989DD20A6DEF_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_547*))((::PBYTE)hIl2Cpp + CLASS_3_B28A223544E893CC_METHOD_3_5DC9989DD20A6DEF_OFFSET))(this, a1);
 	}
 };

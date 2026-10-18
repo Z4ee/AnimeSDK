@@ -8,23 +8,23 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_E814833A43FEB1BE_METHOD_2_33AC5C72E0EF495B_OFFSET UNITYSDK_OFFSET(0xBC9CA10)
-#define CLASS_2_E814833A43FEB1BE_METHOD_2_4D2A473556700CDC_OFFSET UNITYSDK_OFFSET(0xBC9C040)
-#define CLASS_2_E814833A43FEB1BE_METHOD_2_85890DF6C487B557_OFFSET UNITYSDK_OFFSET(0xBC9C400)
-#define CLASS_2_E814833A43FEB1BE_METHOD_2_89D1F247B9D324EE_OFFSET UNITYSDK_OFFSET(0xBC9CB90)
-#define CLASS_2_E814833A43FEB1BE_METHOD_2_95780ED94B90ED36_OFFSET UNITYSDK_OFFSET(0xBC9BFF0)
-#define CLASS_2_E814833A43FEB1BE_METHOD_2_C50A2293958CA940_OFFSET UNITYSDK_OFFSET(0xBC9CB00)
-#define CLASS_2_E814833A43FEB1BE__CTOR_OFFSET UNITYSDK_OFFSET(0xBC9CC20)
+#define CLASS_2_E814833A43FEB1BE_METHOD_2_4D2A473556700CDC_OFFSET UNITYSDK_OFFSET(0xBB74440)
+#define CLASS_2_E814833A43FEB1BE_METHOD_2_78A1456A6DBF4558_OFFSET UNITYSDK_OFFSET(0xBB74E10)
+#define CLASS_2_E814833A43FEB1BE_METHOD_2_85890DF6C487B557_OFFSET UNITYSDK_OFFSET(0xBB74800)
+#define CLASS_2_E814833A43FEB1BE_METHOD_2_89D1F247B9D324EE_OFFSET UNITYSDK_OFFSET(0xBB74F60)
+#define CLASS_2_E814833A43FEB1BE_METHOD_2_95780ED94B90ED36_OFFSET UNITYSDK_OFFSET(0xBB743F0)
+#define CLASS_2_E814833A43FEB1BE_METHOD_2_C50A2293958CA940_OFFSET UNITYSDK_OFFSET(0xBB74ED0)
+#define CLASS_2_E814833A43FEB1BE__CTOR_OFFSET UNITYSDK_OFFSET(0xBB74FF0)
 
-inline static constexpr unsigned int Class_2_E814833A43FEB1BE_TypeDefinitionIndex = 49714;
+inline static constexpr unsigned int Class_2_E814833A43FEB1BE_TypeDefinitionIndex = 49288;
 
 class Class_2_E814833A43FEB1BE : public ::Class_1_455124A410922D9D<::Class_2_E814833A43FEB1BE*>
 {
 public:
-	::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::String*>* ALKHDILAGKC; // 0x10
-	::System::Collections::Generic::List_1<::System::Int32>* KMOANAPHMPG; // 0x18
-	::System::Collections::Generic::List_1<::System::Int32>* BAAMMJNKAKI; // 0x20
-	::System::Collections::Generic::Dictionary_2<::System::Int32, ::Class_2_E814833A43FEB1BE_Class_1_353E09EF44780E99*>* JPAHBNOGAEI; // 0x28
+	::System::Collections::Generic::Dictionary_2<::System::Int32, ::Class_2_E814833A43FEB1BE_Class_1_353E09EF44780E99*>* JPAHBNOGAEI; // 0x10
+	::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::String*>* ALKHDILAGKC; // 0x18
+	::System::Collections::Generic::List_1<::System::Int32>* KMOANAPHMPG; // 0x20
+	::System::Collections::Generic::List_1<::System::Int32>* BAAMMJNKAKI; // 0x28
 	::System::Int32 BJOKJMLJMKE; // 0x30
 
 	::System::Void _ctor()
@@ -47,9 +47,9 @@ public:
 		return ((::System::Int32(*)(::PVOID, ::System::Single, ::System::Action_1<::System::Int32>*, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_2_E814833A43FEB1BE_METHOD_2_85890DF6C487B557_OFFSET))(this, a1, a2, a3);
 	}
 
-	::System::String* Method_2_33AC5C72E0EF495B(::System::Int32 a1)
+	::System::String* Method_2_78A1456A6DBF4558(::System::Int32 a1)
 	{
-		return ((::System::String*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_2_E814833A43FEB1BE_METHOD_2_33AC5C72E0EF495B_OFFSET))(this, a1);
+		return ((::System::String*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_2_E814833A43FEB1BE_METHOD_2_78A1456A6DBF4558_OFFSET))(this, a1);
 	}
 
 	::System::Void Method_2_C50A2293958CA940(::System::Int32 a1)

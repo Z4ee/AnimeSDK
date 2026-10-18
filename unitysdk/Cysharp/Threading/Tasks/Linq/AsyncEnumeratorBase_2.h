@@ -13,7 +13,7 @@ namespace System { template <typename T> class Action_1; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int AsyncEnumeratorBase_2_TypeDefinitionIndex = 44087;
+	inline static constexpr unsigned int AsyncEnumeratorBase_2_TypeDefinitionIndex = 45226;
 
 	template <typename TSource, typename TResult>
 	class AsyncEnumeratorBase_2 : public ::Cysharp::Threading::Tasks::MoveNextSource

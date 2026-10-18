@@ -14,7 +14,7 @@ namespace Cysharp::Threading::Tasks::Linq { template <typename T> class QueueOpe
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int QueueOperator_1__Queue_TypeDefinitionIndex = 44400;
+	inline static constexpr unsigned int QueueOperator_1__Queue_TypeDefinitionIndex = 45539;
 
 	template <typename TSource>
 	class QueueOperator_1__Queue : public ::System::Object

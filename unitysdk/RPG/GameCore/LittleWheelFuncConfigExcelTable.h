@@ -12,45 +12,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_LITTLEWHEELFUNCCONFIGEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1D207750)
-#define RPG_GAMECORE_LITTLEWHEELFUNCCONFIGEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1D2075E0)
-#define RPG_GAMECORE_LITTLEWHEELFUNCCONFIGEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1D2072D0)
-#define RPG_GAMECORE_LITTLEWHEELFUNCCONFIGEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1D207580)
-#define RPG_GAMECORE_LITTLEWHEELFUNCCONFIGEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1D2078E0)
-#define RPG_GAMECORE_LITTLEWHEELFUNCCONFIGEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D207350)
-#define RPG_GAMECORE_LITTLEWHEELFUNCCONFIGEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1D207920)
-#define RPG_GAMECORE_LITTLEWHEELFUNCCONFIGEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D207AF0)
-#define RPG_GAMECORE_LITTLEWHEELFUNCCONFIGEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1D207CD0)
-#define RPG_GAMECORE_LITTLEWHEELFUNCCONFIGEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D208040)
-#define RPG_GAMECORE_LITTLEWHEELFUNCCONFIGEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1D207A50)
-#define RPG_GAMECORE_LITTLEWHEELFUNCCONFIGEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D2079B0)
+#define RPG_GAMECORE_LITTLEWHEELFUNCCONFIGEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1D7E8000)
+#define RPG_GAMECORE_LITTLEWHEELFUNCCONFIGEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1D7E7E90)
+#define RPG_GAMECORE_LITTLEWHEELFUNCCONFIGEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1D7E7B80)
+#define RPG_GAMECORE_LITTLEWHEELFUNCCONFIGEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1D7E7E30)
+#define RPG_GAMECORE_LITTLEWHEELFUNCCONFIGEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1D7E8190)
+#define RPG_GAMECORE_LITTLEWHEELFUNCCONFIGEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D7E7C00)
+#define RPG_GAMECORE_LITTLEWHEELFUNCCONFIGEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1D7E81D0)
+#define RPG_GAMECORE_LITTLEWHEELFUNCCONFIGEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D7E83A0)
+#define RPG_GAMECORE_LITTLEWHEELFUNCCONFIGEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1D7E8580)
+#define RPG_GAMECORE_LITTLEWHEELFUNCCONFIGEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D7E88F0)
+#define RPG_GAMECORE_LITTLEWHEELFUNCCONFIGEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1D7E8300)
+#define RPG_GAMECORE_LITTLEWHEELFUNCCONFIGEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D7E8260)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LittleWheelFuncConfigExcelTable_TypeDefinitionIndex = 13220;
+	inline static constexpr unsigned int LittleWheelFuncConfigExcelTable_TypeDefinitionIndex = 13326;
 
 	class LittleWheelFuncConfigExcelTable : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::LittleWheelFuncConfigRow*>** StaticGet_dataDict_()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::LittleWheelFuncConfigRow*>**)Il2CppClass::FromTypeDefinitionIndex(LittleWheelFuncConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x51970);
-		}
 		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(LittleWheelFuncConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x51978);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(LittleWheelFuncConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x33F50);
+		}
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::LittleWheelFuncConfigRow*>** StaticGet_dataDict_()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::LittleWheelFuncConfigRow*>**)Il2CppClass::FromTypeDefinitionIndex(LittleWheelFuncConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x33F58);
 		}
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(LittleWheelFuncConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x51980);
-		}
-		static ::System::Boolean* StaticGet_isDataLoaded()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(LittleWheelFuncConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x11180);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(LittleWheelFuncConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x33F60);
 		}
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(LittleWheelFuncConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x11181);
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(LittleWheelFuncConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0xAEB0);
+		}
+		static ::System::Boolean* StaticGet_isDataLoaded()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(LittleWheelFuncConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0xAEB1);
 		}
 
 		static ::System::Void _cctor()

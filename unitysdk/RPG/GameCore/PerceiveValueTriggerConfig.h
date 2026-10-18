@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicString; }
 
-#define RPG_GAMECORE_PERCEIVEVALUETRIGGERCONFIG_METHOD_2_74F8118125EBCC2F_OFFSET UNITYSDK_OFFSET(0x1D312150)
-#define RPG_GAMECORE_PERCEIVEVALUETRIGGERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3122B0)
+#define RPG_GAMECORE_PERCEIVEVALUETRIGGERCONFIG_METHOD_2_74F8118125EBCC2F_OFFSET UNITYSDK_OFFSET(0x1D8F5310)
+#define RPG_GAMECORE_PERCEIVEVALUETRIGGERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D8F5470)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PerceiveValueTriggerConfig_TypeDefinitionIndex = 21935;
+	inline static constexpr unsigned int PerceiveValueTriggerConfig_TypeDefinitionIndex = 22183;
 
 	class PerceiveValueTriggerConfig : public ::RPG::GameCore::JsonConfig
 	{

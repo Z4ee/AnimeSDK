@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define MONO_NET_CFRANGE__CTOR_OFFSET UNITYSDK_OFFSET(0x3BA49A0)
+#define MONO_NET_CFRANGE__CTOR_OFFSET UNITYSDK_OFFSET(0x3C59D60)
 
 namespace Mono::Net
 {

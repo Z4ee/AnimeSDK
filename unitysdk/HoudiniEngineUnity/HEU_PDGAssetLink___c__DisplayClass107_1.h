@@ -6,12 +6,12 @@ namespace HoudiniEngineUnity { class HEU_GeoSync; }
 namespace HoudiniEngineUnity { class HEU_PDGAssetLink___c__DisplayClass107_0; }
 namespace HoudiniEngineUnity { class HEU_SyncedEventData; }
 
-#define HOUDINIENGINEUNITY_HEU_PDGASSETLINK___C__DISPLAYCLASS107_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1B453660)
-#define HOUDINIENGINEUNITY_HEU_PDGASSETLINK___C__DISPLAYCLASS107_1__LOADRESULTS_B__0_OFFSET UNITYSDK_OFFSET(0x1B454110)
+#define HOUDINIENGINEUNITY_HEU_PDGASSETLINK___C__DISPLAYCLASS107_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1B954730)
+#define HOUDINIENGINEUNITY_HEU_PDGASSETLINK___C__DISPLAYCLASS107_1__LOADRESULTS_B__0_OFFSET UNITYSDK_OFFSET(0x1B9551E0)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_PDGAssetLink___c__DisplayClass107_1_TypeDefinitionIndex = 39239;
+	inline static constexpr unsigned int HEU_PDGAssetLink___c__DisplayClass107_1_TypeDefinitionIndex = 40536;
 
 	class HEU_PDGAssetLink___c__DisplayClass107_1 : public ::System::Object
 	{

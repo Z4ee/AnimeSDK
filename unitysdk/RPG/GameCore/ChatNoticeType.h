@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChatNoticeType_TypeDefinitionIndex = 12898;
+	inline static constexpr unsigned int ChatNoticeType_TypeDefinitionIndex = 13004;
 
 	enum class ChatNoticeType : ::System::Int32
 	{

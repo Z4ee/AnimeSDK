@@ -6,10 +6,10 @@
 namespace Entitas { class ICleanupSystem; }
 namespace Entitas { class ISystem; }
 
-#define CLASS_1_83966ED825ECCA4C_CLEANUP_OFFSET UNITYSDK_OFFSET(0x1631F0C0)
-#define CLASS_1_83966ED825ECCA4C__CTOR_OFFSET UNITYSDK_OFFSET(0x1631EFD0)
+#define CLASS_1_83966ED825ECCA4C_CLEANUP_OFFSET UNITYSDK_OFFSET(0xB2057B0)
+#define CLASS_1_83966ED825ECCA4C__CTOR_OFFSET UNITYSDK_OFFSET(0xB2056C0)
 
-inline static constexpr unsigned int Class_1_83966ED825ECCA4C_TypeDefinitionIndex = 76296;
+inline static constexpr unsigned int Class_1_83966ED825ECCA4C_TypeDefinitionIndex = 76773;
 
 class Class_1_83966ED825ECCA4C : public ::System::Object
 {

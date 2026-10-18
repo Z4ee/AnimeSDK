@@ -6,11 +6,11 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_ANIMATIONS_ANIMATIONPLAYABLEGRAPHEXTENSIONS_INTERNALCREATEANIMATIONOUTPUT_OFFSET UNITYSDK_OFFSET(0x1ECF06B0)
+#define UNITYENGINE_ANIMATIONS_ANIMATIONPLAYABLEGRAPHEXTENSIONS_INTERNALCREATEANIMATIONOUTPUT_OFFSET UNITYSDK_OFFSET(0x1F3B8430)
 
 namespace UnityEngine::Animations
 {
-	inline static constexpr unsigned int AnimationPlayableGraphExtensions_TypeDefinitionIndex = 5746;
+	inline static constexpr unsigned int AnimationPlayableGraphExtensions_TypeDefinitionIndex = 5754;
 
 	class AnimationPlayableGraphExtensions : public ::System::Object
 	{

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define CRIWARE_CRIFSWEBINSTALLER_MODULEPLATFORMCONFIG_GET_DEFAULTCONFIG_OFFSET UNITYSDK_OFFSET(0x164F30C0)
+#define CRIWARE_CRIFSWEBINSTALLER_MODULEPLATFORMCONFIG_GET_DEFAULTCONFIG_OFFSET UNITYSDK_OFFSET(0x16719CE0)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriFsWebInstaller_ModulePlatformConfig_TypeDefinitionIndex = 38827;
+	inline static constexpr unsigned int CriFsWebInstaller_ModulePlatformConfig_TypeDefinitionIndex = 40124;
 
 	struct alignas(1) CriFsWebInstaller_ModulePlatformConfig
 	{

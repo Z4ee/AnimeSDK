@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int SSGIDisocclusionFixMethod_TypeDefinitionIndex = 4845;
+	inline static constexpr unsigned int SSGIDisocclusionFixMethod_TypeDefinitionIndex = 4851;
 
 	enum class SSGIDisocclusionFixMethod : ::System::Int32
 	{

@@ -7,22 +7,22 @@ namespace MiHoYo::SDK::PC::OS { class XboxPayInfo; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELXBOX___C__DISPLAYCLASS40_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA30940)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELXBOX___C__DISPLAYCLASS40_0__STARTPAYMENTFLOW_B__0_OFFSET UNITYSDK_OFFSET(0x1BA34100)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELXBOX___C__DISPLAYCLASS40_0__STARTPAYMENTFLOW_B__1_OFFSET UNITYSDK_OFFSET(0x1BA342B0)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELXBOX___C__DISPLAYCLASS40_0__STARTPAYMENTFLOW_B__2_OFFSET UNITYSDK_OFFSET(0x1BA343A0)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELXBOX___C__DISPLAYCLASS40_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF3A3B0)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELXBOX___C__DISPLAYCLASS40_0__STARTPAYMENTFLOW_B__0_OFFSET UNITYSDK_OFFSET(0x1BF3DB80)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELXBOX___C__DISPLAYCLASS40_0__STARTPAYMENTFLOW_B__1_OFFSET UNITYSDK_OFFSET(0x1BF3DD30)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELXBOX___C__DISPLAYCLASS40_0__STARTPAYMENTFLOW_B__2_OFFSET UNITYSDK_OFFSET(0x1BF3DE20)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int HoYoChannelXbox___c__DisplayClass40_0_TypeDefinitionIndex = 8590;
+	inline static constexpr unsigned int HoYoChannelXbox___c__DisplayClass40_0_TypeDefinitionIndex = 8651;
 
 	class HoYoChannelXbox___c__DisplayClass40_0 : public ::System::Object
 	{
 	public:
-		::System::Action_1<::System::String*>* __9__2; // 0x10
-		::System::Action_1<::System::String*>* __9__1; // 0x18
-		::MiHoYo::SDK::PC::OS::HoYoChannelXbox* __4__this; // 0x20
-		::MiHoYo::SDK::PC::OS::XboxPayInfo* payInfo; // 0x28
+		::System::Action_1<::System::String*>* __9__1; // 0x10
+		::MiHoYo::SDK::PC::OS::HoYoChannelXbox* __4__this; // 0x18
+		::MiHoYo::SDK::PC::OS::XboxPayInfo* payInfo; // 0x20
+		::System::Action_1<::System::String*>* __9__2; // 0x28
 
 		::System::Void _ctor()
 		{

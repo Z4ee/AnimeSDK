@@ -5,22 +5,22 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_BACKGROUNDMUSICCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CE612C0)
-#define RPG_GAMECORE_BACKGROUNDMUSICCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE61A60)
+#define RPG_GAMECORE_BACKGROUNDMUSICCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D437B00)
+#define RPG_GAMECORE_BACKGROUNDMUSICCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D4382A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BackGroundMusicConfigRow_TypeDefinitionIndex = 12728;
+	inline static constexpr unsigned int BackGroundMusicConfigRow_TypeDefinitionIndex = 12818;
 
 	class BackGroundMusicConfigRow : public ::System::Object
 	{
 	public:
-		::System::Boolean Unlock; // 0x10
-		::System::UInt32 ID; // 0x14
-		::System::UInt32 GroupID; // 0x18
-		::RPG::Client::TextID MusicName; // 0x20
-		::RPG::Client::TextID UnlockDesc; // 0x30
-		::RPG::Client::TextID BGMDesc; // 0x40
+		::System::UInt32 GroupID; // 0x10
+		::RPG::Client::TextID BGMDesc; // 0x18
+		::RPG::Client::TextID UnlockDesc; // 0x28
+		::System::Boolean Unlock; // 0x38
+		::System::UInt32 ID; // 0x3C
+		::RPG::Client::TextID MusicName; // 0x40
 
 		::System::Void _ctor()
 		{

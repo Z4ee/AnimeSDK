@@ -8,13 +8,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ST_MAIN_MOVETOTARGET_METHOD_4_5CAE1946446EE189_OFFSET UNITYSDK_OFFSET(0x1D4CCA10)
-#define RPG_GAMECORE_ST_MAIN_MOVETOTARGET_METHOD_4_D381064D3211FF74_OFFSET UNITYSDK_OFFSET(0x1D4CC9B0)
-#define RPG_GAMECORE_ST_MAIN_MOVETOTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x1D4CC9F0)
+#define RPG_GAMECORE_ST_MAIN_MOVETOTARGET_METHOD_4_5CAE1946446EE189_OFFSET UNITYSDK_OFFSET(0x1DA7FEB0)
+#define RPG_GAMECORE_ST_MAIN_MOVETOTARGET_METHOD_4_A631AF28FBB01B7D_OFFSET UNITYSDK_OFFSET(0x1DA7FE30)
+#define RPG_GAMECORE_ST_MAIN_MOVETOTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x1DA7FE80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ST_Main_MoveToTarget_TypeDefinitionIndex = 19871;
+	inline static constexpr unsigned int ST_Main_MoveToTarget_TypeDefinitionIndex = 20105;
 
 	class ST_Main_MoveToTarget : public ::RPG::GameCore::STTaskConfig
 	{
@@ -29,16 +29,22 @@ namespace RPG::GameCore
 		::System::Boolean FourFeetMode; // 0x3C
 		::System::Single SpeedScale; // 0x40
 		::System::Boolean ForbidPreSteerWhenPathing; // 0x44
-		::System::Boolean FailOnBlock; // 0x45
+		::System::Boolean SkipStartTurn; // 0x45
+		::System::Boolean FailOnBlock; // 0x46
+		::System::Boolean RandomSlot; // 0x47
+		::System::Single SlotRadiusMin; // 0x48
+		::System::Single SlotRadiusMax; // 0x4C
+		::System::Single SlotAngle; // 0x50
+		::System::Int32 SlotSampleCount; // 0x54
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_MAIN_MOVETOTARGET__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_D381064D3211FF74(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ST_Main_MoveToTarget*& a2)
+		static ::System::Void Method_4_A631AF28FBB01B7D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ST_Main_MoveToTarget*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ST_Main_MoveToTarget*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_MAIN_MOVETOTARGET_METHOD_4_D381064D3211FF74_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ST_Main_MoveToTarget*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_MAIN_MOVETOTARGET_METHOD_4_A631AF28FBB01B7D_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_4_5CAE1946446EE189(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ST_Main_MoveToTarget* a2)

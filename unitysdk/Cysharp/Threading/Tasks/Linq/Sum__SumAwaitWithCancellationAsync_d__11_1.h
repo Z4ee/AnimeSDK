@@ -15,7 +15,7 @@ namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int Sum__SumAwaitWithCancellationAsync_d__11_1_TypeDefinitionIndex = 44501;
+	inline static constexpr unsigned int Sum__SumAwaitWithCancellationAsync_d__11_1_TypeDefinitionIndex = 45640;
 
 	template <typename TSource>
 	struct Sum__SumAwaitWithCancellationAsync_d__11_1

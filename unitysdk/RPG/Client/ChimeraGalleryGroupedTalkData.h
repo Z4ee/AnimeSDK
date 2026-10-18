@@ -6,13 +6,13 @@
 namespace RPG::Client { class ChimeraGalleryTalkGroupEntry; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_CHIMERAGALLERYGROUPEDTALKDATA_GET_CONFIG_OFFSET UNITYSDK_OFFSET(0xCBFB960)
-#define RPG_CLIENT_CHIMERAGALLERYGROUPEDTALKDATA_GET_TALKTEXTS_OFFSET UNITYSDK_OFFSET(0xCBFB970)
-#define RPG_CLIENT_CHIMERAGALLERYGROUPEDTALKDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xCBFB980)
+#define RPG_CLIENT_CHIMERAGALLERYGROUPEDTALKDATA_GET_CONFIG_OFFSET UNITYSDK_OFFSET(0xCB4AAE0)
+#define RPG_CLIENT_CHIMERAGALLERYGROUPEDTALKDATA_GET_TALKTEXTS_OFFSET UNITYSDK_OFFSET(0xCB4AAF0)
+#define RPG_CLIENT_CHIMERAGALLERYGROUPEDTALKDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xCB4AB00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraGalleryGroupedTalkData_TypeDefinitionIndex = 63486;
+	inline static constexpr unsigned int ChimeraGalleryGroupedTalkData_TypeDefinitionIndex = 63424;
 
 	class ChimeraGalleryGroupedTalkData : public ::System::Object
 	{

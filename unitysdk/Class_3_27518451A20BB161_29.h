@@ -2,21 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/ImmediateTaskBase_1.h"
 
-class Class_3_4534392E87FC5ACC;
+class Class_3_866FEB8E1747AA26;
 namespace RPG::GameCore { class TaskContext; }
+namespace System { class Exception; }
 
-#define CLASS_3_27518451A20BB161_29_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xD2765F0)
-#define CLASS_3_27518451A20BB161_29__CTOR_OFFSET UNITYSDK_OFFSET(0xD2765C0)
-#define CLASS_3_27518451A20BB161_29__ONTASKBEGIN_B__1_0_OFFSET UNITYSDK_OFFSET(0xD276870)
+#define CLASS_3_27518451A20BB161_29_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCF0C680)
+#define CLASS_3_27518451A20BB161_29__CTOR_OFFSET UNITYSDK_OFFSET(0xCF0C650)
+#define CLASS_3_27518451A20BB161_29__ONTASKBEGIN_B__1_0_OFFSET UNITYSDK_OFFSET(0xCF0C820)
+#define CLASS_3_27518451A20BB161_29__ONTASKBEGIN_B__1_1_OFFSET UNITYSDK_OFFSET(0xCF0C830)
 
-inline static constexpr unsigned int Class_3_27518451A20BB161_29_TypeDefinitionIndex = 53083;
+inline static constexpr unsigned int Class_3_27518451A20BB161_29_TypeDefinitionIndex = 52799;
 
-class Class_3_27518451A20BB161_29 : public ::RPG::GameCore::ImmediateTaskBase_1<::Class_3_4534392E87FC5ACC*>
+class Class_3_27518451A20BB161_29 : public ::RPG::GameCore::ImmediateTaskBase_1<::Class_3_866FEB8E1747AA26*>
 {
 public:
-	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::Class_3_4534392E87FC5ACC* a2)
+	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::Class_3_866FEB8E1747AA26* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::Class_3_4534392E87FC5ACC*))((::PBYTE)hIl2Cpp + CLASS_3_27518451A20BB161_29__CTOR_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::Class_3_866FEB8E1747AA26*))((::PBYTE)hIl2Cpp + CLASS_3_27518451A20BB161_29__CTOR_OFFSET))(this, a1, a2);
 	}
 
 	::System::Void OnTaskBegin()
@@ -27,5 +29,10 @@ public:
 	::System::Void _OnTaskBegin_b__1_0()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_27518451A20BB161_29__ONTASKBEGIN_B__1_0_OFFSET))(this);
+	}
+
+	::System::Void _OnTaskBegin_b__1_1(::System::Exception* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Exception*))((::PBYTE)hIl2Cpp + CLASS_3_27518451A20BB161_29__ONTASKBEGIN_B__1_1_OFFSET))(this, a1);
 	}
 };

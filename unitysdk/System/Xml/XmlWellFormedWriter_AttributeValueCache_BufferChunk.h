@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_XML_XMLWELLFORMEDWRITER_ATTRIBUTEVALUECACHE_BUFFERCHUNK__CTOR_OFFSET UNITYSDK_OFFSET(0x1E8EEA00)
+#define SYSTEM_XML_XMLWELLFORMEDWRITER_ATTRIBUTEVALUECACHE_BUFFERCHUNK__CTOR_OFFSET UNITYSDK_OFFSET(0x1EFB7A80)
 
 namespace System::Xml
 {
@@ -12,8 +12,8 @@ namespace System::Xml
 	{
 	public:
 		::Il2CppArray<::System::Char>* buffer; // 0x10
-		::System::Int32 count; // 0x18
-		::System::Int32 index; // 0x1C
+		::System::Int32 index; // 0x18
+		::System::Int32 count; // 0x1C
 
 		::System::Void _ctor(::Il2CppArray<::System::Char>* a1, ::System::Int32 a2, ::System::Int32 a3)
 		{

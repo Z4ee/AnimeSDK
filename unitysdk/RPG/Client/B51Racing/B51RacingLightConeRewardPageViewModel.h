@@ -4,11 +4,11 @@
 
 namespace RPG::Client { class IActivityLightConeRewardData; }
 
-#define RPG_CLIENT_B51RACING_B51RACINGLIGHTCONEREWARDPAGEVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xC890B50)
+#define RPG_CLIENT_B51RACING_B51RACINGLIGHTCONEREWARDPAGEVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xC7AF510)
 
 namespace RPG::Client::B51Racing
 {
-	inline static constexpr unsigned int B51RacingLightConeRewardPageViewModel_TypeDefinitionIndex = 80730;
+	inline static constexpr unsigned int B51RacingLightConeRewardPageViewModel_TypeDefinitionIndex = 82058;
 
 	class B51RacingLightConeRewardPageViewModel : public ::System::Object
 	{

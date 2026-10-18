@@ -13,64 +13,64 @@ namespace System { class String; }
 namespace System { class Type; }
 namespace System::Threading { class SynchronizationContext; }
 
-#define CYSHARP_THREADING_TASKS_PLAYERLOOPHELPER_ADDACTION_OFFSET UNITYSDK_OFFSET(0x1EA507D0)
-#define CYSHARP_THREADING_TASKS_PLAYERLOOPHELPER_ADDCONTINUATION_OFFSET UNITYSDK_OFFSET(0x1EA4F0E0)
-#define CYSHARP_THREADING_TASKS_PLAYERLOOPHELPER_DUMPCURRENTPLAYERLOOP_OFFSET UNITYSDK_OFFSET(0x1EA5AE50)
-#define CYSHARP_THREADING_TASKS_PLAYERLOOPHELPER_FINDLOOPSYSTEMINDEX_OFFSET UNITYSDK_OFFSET(0x1EA5AA50)
-#define CYSHARP_THREADING_TASKS_PLAYERLOOPHELPER_GET_APPLICATIONDATAPATH_OFFSET UNITYSDK_OFFSET(0x1EA59650)
-#define CYSHARP_THREADING_TASKS_PLAYERLOOPHELPER_GET_ISEDITORAPPLICATIONQUITTING_OFFSET UNITYSDK_OFFSET(0x1EA59680)
-#define CYSHARP_THREADING_TASKS_PLAYERLOOPHELPER_GET_ISMAINTHREAD_OFFSET UNITYSDK_OFFSET(0x1EA4F9F0)
-#define CYSHARP_THREADING_TASKS_PLAYERLOOPHELPER_GET_MAINTHREADID_OFFSET UNITYSDK_OFFSET(0x1EA59620)
-#define CYSHARP_THREADING_TASKS_PLAYERLOOPHELPER_GET_UNITYSYNCHRONIZATIONCONTEXT_OFFSET UNITYSDK_OFFSET(0x1EA595F0)
-#define CYSHARP_THREADING_TASKS_PLAYERLOOPHELPER_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1EA5A010)
-#define CYSHARP_THREADING_TASKS_PLAYERLOOPHELPER_INIT_OFFSET UNITYSDK_OFFSET(0x1EA59E40)
-#define CYSHARP_THREADING_TASKS_PLAYERLOOPHELPER_INSERTLOOP_OFFSET UNITYSDK_OFFSET(0x1EA5AAE0)
-#define CYSHARP_THREADING_TASKS_PLAYERLOOPHELPER_INSERTRUNNER_OFFSET UNITYSDK_OFFSET(0x1EA596F0)
-#define CYSHARP_THREADING_TASKS_PLAYERLOOPHELPER_INSERTUNITASKSYNCHRONIZATIONCONTEXT_OFFSET UNITYSDK_OFFSET(0x1EA59A20)
-#define CYSHARP_THREADING_TASKS_PLAYERLOOPHELPER_ISINJECTEDUNITASKPLAYERLOOP_OFFSET UNITYSDK_OFFSET(0x1EA5B680)
-#define CYSHARP_THREADING_TASKS_PLAYERLOOPHELPER_REMOVERUNNER_OFFSET UNITYSDK_OFFSET(0x1EA59980)
-#define CYSHARP_THREADING_TASKS_PLAYERLOOPHELPER_SET_ISEDITORAPPLICATIONQUITTING_OFFSET UNITYSDK_OFFSET(0x1EA596C0)
-#define CYSHARP_THREADING_TASKS_PLAYERLOOPHELPER_THROWINVALIDLOOPTIMING_OFFSET UNITYSDK_OFFSET(0x1EA5ADB0)
-#define CYSHARP_THREADING_TASKS_PLAYERLOOPHELPER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EA5B780)
+#define CYSHARP_THREADING_TASKS_PLAYERLOOPHELPER_ADDACTION_OFFSET UNITYSDK_OFFSET(0x1F118160)
+#define CYSHARP_THREADING_TASKS_PLAYERLOOPHELPER_ADDCONTINUATION_OFFSET UNITYSDK_OFFSET(0x1F116A60)
+#define CYSHARP_THREADING_TASKS_PLAYERLOOPHELPER_DUMPCURRENTPLAYERLOOP_OFFSET UNITYSDK_OFFSET(0x1F122800)
+#define CYSHARP_THREADING_TASKS_PLAYERLOOPHELPER_FINDLOOPSYSTEMINDEX_OFFSET UNITYSDK_OFFSET(0x1F122400)
+#define CYSHARP_THREADING_TASKS_PLAYERLOOPHELPER_GET_APPLICATIONDATAPATH_OFFSET UNITYSDK_OFFSET(0x1F121000)
+#define CYSHARP_THREADING_TASKS_PLAYERLOOPHELPER_GET_ISEDITORAPPLICATIONQUITTING_OFFSET UNITYSDK_OFFSET(0x1F121030)
+#define CYSHARP_THREADING_TASKS_PLAYERLOOPHELPER_GET_ISMAINTHREAD_OFFSET UNITYSDK_OFFSET(0x1F117380)
+#define CYSHARP_THREADING_TASKS_PLAYERLOOPHELPER_GET_MAINTHREADID_OFFSET UNITYSDK_OFFSET(0x1F120FD0)
+#define CYSHARP_THREADING_TASKS_PLAYERLOOPHELPER_GET_UNITYSYNCHRONIZATIONCONTEXT_OFFSET UNITYSDK_OFFSET(0x1F120FA0)
+#define CYSHARP_THREADING_TASKS_PLAYERLOOPHELPER_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1F1219C0)
+#define CYSHARP_THREADING_TASKS_PLAYERLOOPHELPER_INIT_OFFSET UNITYSDK_OFFSET(0x1F1217F0)
+#define CYSHARP_THREADING_TASKS_PLAYERLOOPHELPER_INSERTLOOP_OFFSET UNITYSDK_OFFSET(0x1F122490)
+#define CYSHARP_THREADING_TASKS_PLAYERLOOPHELPER_INSERTRUNNER_OFFSET UNITYSDK_OFFSET(0x1F1210A0)
+#define CYSHARP_THREADING_TASKS_PLAYERLOOPHELPER_INSERTUNITASKSYNCHRONIZATIONCONTEXT_OFFSET UNITYSDK_OFFSET(0x1F1213D0)
+#define CYSHARP_THREADING_TASKS_PLAYERLOOPHELPER_ISINJECTEDUNITASKPLAYERLOOP_OFFSET UNITYSDK_OFFSET(0x1F123030)
+#define CYSHARP_THREADING_TASKS_PLAYERLOOPHELPER_REMOVERUNNER_OFFSET UNITYSDK_OFFSET(0x1F121330)
+#define CYSHARP_THREADING_TASKS_PLAYERLOOPHELPER_SET_ISEDITORAPPLICATIONQUITTING_OFFSET UNITYSDK_OFFSET(0x1F121070)
+#define CYSHARP_THREADING_TASKS_PLAYERLOOPHELPER_THROWINVALIDLOOPTIMING_OFFSET UNITYSDK_OFFSET(0x1F122760)
+#define CYSHARP_THREADING_TASKS_PLAYERLOOPHELPER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F123130)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int PlayerLoopHelper_TypeDefinitionIndex = 42622;
+	inline static constexpr unsigned int PlayerLoopHelper_TypeDefinitionIndex = 38207;
 
 	class PlayerLoopHelper : public ::System::Object
 	{
 	public:
-		static ::Cysharp::Threading::Tasks::Internal::ContinuationQueue** StaticGet_ThrowMarkerContinuationQueue()
-		{
-			return (::Cysharp::Threading::Tasks::Internal::ContinuationQueue**)Il2CppClass::FromTypeDefinitionIndex(PlayerLoopHelper_TypeDefinitionIndex)->GetStaticField(0x563E0);
-		}
 		static ::Il2CppArray<::Cysharp::Threading::Tasks::Internal::ContinuationQueue*>** StaticGet_yielders()
 		{
-			return (::Il2CppArray<::Cysharp::Threading::Tasks::Internal::ContinuationQueue*>**)Il2CppClass::FromTypeDefinitionIndex(PlayerLoopHelper_TypeDefinitionIndex)->GetStaticField(0x563E8);
-		}
-		static ::System::String** StaticGet_applicationDataPath()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(PlayerLoopHelper_TypeDefinitionIndex)->GetStaticField(0x563F0);
-		}
-		static ::Il2CppArray<::Cysharp::Threading::Tasks::Internal::PlayerLoopRunner*>** StaticGet_runners()
-		{
-			return (::Il2CppArray<::Cysharp::Threading::Tasks::Internal::PlayerLoopRunner*>**)Il2CppClass::FromTypeDefinitionIndex(PlayerLoopHelper_TypeDefinitionIndex)->GetStaticField(0x563F8);
+			return (::Il2CppArray<::Cysharp::Threading::Tasks::Internal::ContinuationQueue*>**)Il2CppClass::FromTypeDefinitionIndex(PlayerLoopHelper_TypeDefinitionIndex)->GetStaticField(0x3FD20);
 		}
 		static ::Cysharp::Threading::Tasks::Internal::PlayerLoopRunner** StaticGet_ThrowMarkerPlayerLoopRunner()
 		{
-			return (::Cysharp::Threading::Tasks::Internal::PlayerLoopRunner**)Il2CppClass::FromTypeDefinitionIndex(PlayerLoopHelper_TypeDefinitionIndex)->GetStaticField(0x56400);
+			return (::Cysharp::Threading::Tasks::Internal::PlayerLoopRunner**)Il2CppClass::FromTypeDefinitionIndex(PlayerLoopHelper_TypeDefinitionIndex)->GetStaticField(0x3FD28);
+		}
+		static ::System::String** StaticGet_applicationDataPath()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(PlayerLoopHelper_TypeDefinitionIndex)->GetStaticField(0x3FD30);
+		}
+		static ::Cysharp::Threading::Tasks::Internal::ContinuationQueue** StaticGet_ThrowMarkerContinuationQueue()
+		{
+			return (::Cysharp::Threading::Tasks::Internal::ContinuationQueue**)Il2CppClass::FromTypeDefinitionIndex(PlayerLoopHelper_TypeDefinitionIndex)->GetStaticField(0x3FD38);
 		}
 		static ::System::Threading::SynchronizationContext** StaticGet_unitySynchronizationContext()
 		{
-			return (::System::Threading::SynchronizationContext**)Il2CppClass::FromTypeDefinitionIndex(PlayerLoopHelper_TypeDefinitionIndex)->GetStaticField(0x56408);
+			return (::System::Threading::SynchronizationContext**)Il2CppClass::FromTypeDefinitionIndex(PlayerLoopHelper_TypeDefinitionIndex)->GetStaticField(0x3FD40);
 		}
-		static ::System::Int32* StaticGet_mainThreadId()
+		static ::Il2CppArray<::Cysharp::Threading::Tasks::Internal::PlayerLoopRunner*>** StaticGet_runners()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PlayerLoopHelper_TypeDefinitionIndex)->GetStaticField(0x12000);
+			return (::Il2CppArray<::Cysharp::Threading::Tasks::Internal::PlayerLoopRunner*>**)Il2CppClass::FromTypeDefinitionIndex(PlayerLoopHelper_TypeDefinitionIndex)->GetStaticField(0x3FD48);
 		}
 		static ::System::Boolean* StaticGet__IsEditorApplicationQuitting_k__BackingField()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(PlayerLoopHelper_TypeDefinitionIndex)->GetStaticField(0x12004);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(PlayerLoopHelper_TypeDefinitionIndex)->GetStaticField(0xDA10);
+		}
+		static ::System::Int32* StaticGet_mainThreadId()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PlayerLoopHelper_TypeDefinitionIndex)->GetStaticField(0xDA14);
 		}
 
 		static ::System::Void _cctor()

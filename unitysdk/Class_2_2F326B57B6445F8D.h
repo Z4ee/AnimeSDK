@@ -5,16 +5,16 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define CLASS_2_2F326B57B6445F8D_METHOD_2_E4EE4D98EE55C81B_OFFSET UNITYSDK_OFFSET(0x1C8F98E0)
-#define CLASS_2_2F326B57B6445F8D__CTOR_OFFSET UNITYSDK_OFFSET(0x1C8F9A10)
+#define CLASS_2_2F326B57B6445F8D_METHOD_2_E4EE4D98EE55C81B_OFFSET UNITYSDK_OFFSET(0x1CE9B3D0)
+#define CLASS_2_2F326B57B6445F8D__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE9B500)
 
-inline static constexpr unsigned int Class_2_2F326B57B6445F8D_TypeDefinitionIndex = 22939;
+inline static constexpr unsigned int Class_2_2F326B57B6445F8D_TypeDefinitionIndex = 23201;
 
 class Class_2_2F326B57B6445F8D : public ::RPG::GameCore::JsonConfig
 {
 public:
-	::System::String* ICEPLFPKAHC; // 0x10
-	::System::String* BFDAADMGNFD; // 0x18
+	::System::String* BFDAADMGNFD; // 0x10
+	::System::String* ICEPLFPKAHC; // 0x18
 
 	::System::Void _ctor()
 	{

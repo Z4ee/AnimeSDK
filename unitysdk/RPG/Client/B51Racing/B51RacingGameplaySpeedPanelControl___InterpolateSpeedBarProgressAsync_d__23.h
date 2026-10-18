@@ -8,24 +8,24 @@ namespace RPG::Client::B51Racing { class B51RacingGameplaySpeedPanelControl; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 namespace System::Threading { class CancellationTokenSource; }
 
-#define RPG_CLIENT_B51RACING_B51RACINGGAMEPLAYSPEEDPANELCONTROL___INTERPOLATESPEEDBARPROGRESSASYNC_D__23_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x149D20)
-#define RPG_CLIENT_B51RACING_B51RACINGGAMEPLAYSPEEDPANELCONTROL___INTERPOLATESPEEDBARPROGRESSASYNC_D__23_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x1020)
+#define RPG_CLIENT_B51RACING_B51RACINGGAMEPLAYSPEEDPANELCONTROL___INTERPOLATESPEEDBARPROGRESSASYNC_D__23_MOVENEXT_OFFSET UNITYSDK_OFFSET(0xE2C60)
+#define RPG_CLIENT_B51RACING_B51RACINGGAMEPLAYSPEEDPANELCONTROL___INTERPOLATESPEEDBARPROGRESSASYNC_D__23_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x10B0)
 
 namespace RPG::Client::B51Racing
 {
-	inline static constexpr unsigned int B51RacingGameplaySpeedPanelControl___InterpolateSpeedBarProgressAsync_d__23_TypeDefinitionIndex = 80572;
+	inline static constexpr unsigned int B51RacingGameplaySpeedPanelControl___InterpolateSpeedBarProgressAsync_d__23_TypeDefinitionIndex = 81900;
 
 	struct alignas(8) B51RacingGameplaySpeedPanelControl___InterpolateSpeedBarProgressAsync_d__23
 	{
-		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder __t__builder; // 0x10
-		::System::Threading::CancellationTokenSource* cts; // 0x20
-		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x28
+		::System::Threading::CancellationTokenSource* cts; // 0x10
+		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x18
+		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder __t__builder; // 0x28
 		::RPG::Client::B51Racing::B51RacingGameplaySpeedPanelControl* __4__this; // 0x38
 		::System::Int32 __1__state; // 0x40
 		::System::Single targetProgress; // 0x44
-		::System::Single _startProgress_5__2; // 0x48
-		::System::Single duration; // 0x4C
-		::System::Single _elapsed_5__3; // 0x50
+		::System::Single _elapsed_5__3; // 0x48
+		::System::Single _startProgress_5__2; // 0x4C
+		::System::Single duration; // 0x50
 
 		::System::Void MoveNext()
 		{

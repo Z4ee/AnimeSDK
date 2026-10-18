@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_STEAMPARAMETERSMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1BAD7400)
+#define MIHOYO_SDK_STEAMPARAMETERSMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1BFE1D80)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int SteamParametersModel_TypeDefinitionIndex = 7848;
+	inline static constexpr unsigned int SteamParametersModel_TypeDefinitionIndex = 7892;
 
 	class SteamParametersModel : public ::System::Object
 	{

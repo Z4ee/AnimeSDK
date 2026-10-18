@@ -11,45 +11,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_MISSIONSTORYEVENTEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1D2A64C0)
-#define RPG_GAMECORE_MISSIONSTORYEVENTEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1D2A6350)
-#define RPG_GAMECORE_MISSIONSTORYEVENTEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1D2A6040)
-#define RPG_GAMECORE_MISSIONSTORYEVENTEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1D2A62F0)
-#define RPG_GAMECORE_MISSIONSTORYEVENTEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1D2A6650)
-#define RPG_GAMECORE_MISSIONSTORYEVENTEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D2A60C0)
-#define RPG_GAMECORE_MISSIONSTORYEVENTEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1D2A6690)
-#define RPG_GAMECORE_MISSIONSTORYEVENTEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D2A6860)
-#define RPG_GAMECORE_MISSIONSTORYEVENTEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1D2A6B00)
-#define RPG_GAMECORE_MISSIONSTORYEVENTEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D2A6E70)
-#define RPG_GAMECORE_MISSIONSTORYEVENTEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1D2A67C0)
-#define RPG_GAMECORE_MISSIONSTORYEVENTEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D2A6720)
+#define RPG_GAMECORE_MISSIONSTORYEVENTEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1D888310)
+#define RPG_GAMECORE_MISSIONSTORYEVENTEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1D8881A0)
+#define RPG_GAMECORE_MISSIONSTORYEVENTEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1D887E90)
+#define RPG_GAMECORE_MISSIONSTORYEVENTEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1D888140)
+#define RPG_GAMECORE_MISSIONSTORYEVENTEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1D8884A0)
+#define RPG_GAMECORE_MISSIONSTORYEVENTEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D887F10)
+#define RPG_GAMECORE_MISSIONSTORYEVENTEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1D8884E0)
+#define RPG_GAMECORE_MISSIONSTORYEVENTEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D8886B0)
+#define RPG_GAMECORE_MISSIONSTORYEVENTEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1D888700)
+#define RPG_GAMECORE_MISSIONSTORYEVENTEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D888A70)
+#define RPG_GAMECORE_MISSIONSTORYEVENTEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1D888610)
+#define RPG_GAMECORE_MISSIONSTORYEVENTEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D888570)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MissionStoryEventExcelTable_TypeDefinitionIndex = 14039;
+	inline static constexpr unsigned int MissionStoryEventExcelTable_TypeDefinitionIndex = 14146;
 
 	class MissionStoryEventExcelTable : public ::System::Object
 	{
 	public:
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MissionStoryEventRow*>** StaticGet_dataDict_()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MissionStoryEventRow*>**)Il2CppClass::FromTypeDefinitionIndex(MissionStoryEventExcelTable_TypeDefinitionIndex)->GetStaticField(0x3EE30);
+		}
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MissionStoryEventExcelTable_TypeDefinitionIndex)->GetStaticField(0x36F00);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MissionStoryEventExcelTable_TypeDefinitionIndex)->GetStaticField(0x3EE38);
 		}
 		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(MissionStoryEventExcelTable_TypeDefinitionIndex)->GetStaticField(0x36F08);
-		}
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MissionStoryEventRow*>** StaticGet_dataDict_()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MissionStoryEventRow*>**)Il2CppClass::FromTypeDefinitionIndex(MissionStoryEventExcelTable_TypeDefinitionIndex)->GetStaticField(0x36F10);
-		}
-		static ::System::Byte* StaticGet_HashIndex()
-		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(MissionStoryEventExcelTable_TypeDefinitionIndex)->GetStaticField(0xE480);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(MissionStoryEventExcelTable_TypeDefinitionIndex)->GetStaticField(0x3EE40);
 		}
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MissionStoryEventExcelTable_TypeDefinitionIndex)->GetStaticField(0xE481);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MissionStoryEventExcelTable_TypeDefinitionIndex)->GetStaticField(0xD720);
+		}
+		static ::System::Byte* StaticGet_HashIndex()
+		{
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(MissionStoryEventExcelTable_TypeDefinitionIndex)->GetStaticField(0xD721);
 		}
 
 		static ::System::Void _cctor()

@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class ChessRogueBoardCellDataItem; }
 
-#define RPG_CLIENT_CHESSROGUEBOARDCHANGEDATA___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCB9C1C0)
-#define RPG_CLIENT_CHESSROGUEBOARDCHANGEDATA___C__DISPLAYCLASS2_0__GETBEFORECELLDATAITEM_B__0_OFFSET UNITYSDK_OFFSET(0xCB9CAE0)
+#define RPG_CLIENT_CHESSROGUEBOARDCHANGEDATA___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCAEB610)
+#define RPG_CLIENT_CHESSROGUEBOARDCHANGEDATA___C__DISPLAYCLASS2_0__GETBEFORECELLDATAITEM_B__0_OFFSET UNITYSDK_OFFSET(0xCAEBF30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChessRogueBoardChangeData___c__DisplayClass2_0_TypeDefinitionIndex = 66923;
+	inline static constexpr unsigned int ChessRogueBoardChangeData___c__DisplayClass2_0_TypeDefinitionIndex = 66925;
 
 	class ChessRogueBoardChangeData___c__DisplayClass2_0 : public ::System::Object
 	{

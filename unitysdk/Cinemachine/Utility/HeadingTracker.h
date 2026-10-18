@@ -4,34 +4,34 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define CINEMACHINE_UTILITY_HEADINGTRACKER_ADD_OFFSET UNITYSDK_OFFSET(0x1648AA60)
-#define CINEMACHINE_UTILITY_HEADINGTRACKER_CLEARHISTORY_OFFSET UNITYSDK_OFFSET(0x1648AA00)
-#define CINEMACHINE_UTILITY_HEADINGTRACKER_DECAYHISTORY_OFFSET UNITYSDK_OFFSET(0x1648AE40)
-#define CINEMACHINE_UTILITY_HEADINGTRACKER_DECAY_OFFSET UNITYSDK_OFFSET(0x1648AA50)
-#define CINEMACHINE_UTILITY_HEADINGTRACKER_GETRELIABLEHEADING_OFFSET UNITYSDK_OFFSET(0x1648AF50)
-#define CINEMACHINE_UTILITY_HEADINGTRACKER_GET_FILTERSIZE_OFFSET UNITYSDK_OFFSET(0x1648AA30)
-#define CINEMACHINE_UTILITY_HEADINGTRACKER_POPBOTTOM_OFFSET UNITYSDK_OFFSET(0x1648ACA0)
-#define CINEMACHINE_UTILITY_HEADINGTRACKER__CTOR_OFFSET UNITYSDK_OFFSET(0x1648A950)
+#define CINEMACHINE_UTILITY_HEADINGTRACKER_ADD_OFFSET UNITYSDK_OFFSET(0x166B1620)
+#define CINEMACHINE_UTILITY_HEADINGTRACKER_CLEARHISTORY_OFFSET UNITYSDK_OFFSET(0x166B15C0)
+#define CINEMACHINE_UTILITY_HEADINGTRACKER_DECAYHISTORY_OFFSET UNITYSDK_OFFSET(0x166B19C0)
+#define CINEMACHINE_UTILITY_HEADINGTRACKER_DECAY_OFFSET UNITYSDK_OFFSET(0x166B1610)
+#define CINEMACHINE_UTILITY_HEADINGTRACKER_GETRELIABLEHEADING_OFFSET UNITYSDK_OFFSET(0x166B1AD0)
+#define CINEMACHINE_UTILITY_HEADINGTRACKER_GET_FILTERSIZE_OFFSET UNITYSDK_OFFSET(0x166B15F0)
+#define CINEMACHINE_UTILITY_HEADINGTRACKER_POPBOTTOM_OFFSET UNITYSDK_OFFSET(0x166B1860)
+#define CINEMACHINE_UTILITY_HEADINGTRACKER__CTOR_OFFSET UNITYSDK_OFFSET(0x166B1510)
 
 namespace Cinemachine::Utility
 {
-	inline static constexpr unsigned int HeadingTracker_TypeDefinitionIndex = 38597;
+	inline static constexpr unsigned int HeadingTracker_TypeDefinitionIndex = 39894;
 
 	class HeadingTracker : public ::System::Object
 	{
 	public:
 		static ::System::Single* StaticGet_mDecayExponent()
 		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(HeadingTracker_TypeDefinitionIndex)->GetStaticField(0x7D0);
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(HeadingTracker_TypeDefinitionIndex)->GetStaticField(0x610);
 		}
 		::Il2CppArray<::Cinemachine::Utility::HeadingTracker_Item>* mHistory; // 0x10
-		::System::Int32 mBottom; // 0x18
+		::System::Single mWeightTime; // 0x18
 		::System::Single mWeightSum; // 0x1C
-		::System::Int32 mTop; // 0x20
-		::UnityEngine::Vector3 mLastGoodHeading; // 0x24
-		::System::Int32 mCount; // 0x30
-		::UnityEngine::Vector3 mHeadingSum; // 0x34
-		::System::Single mWeightTime; // 0x40
+		::UnityEngine::Vector3 mHeadingSum; // 0x20
+		::System::Int32 mCount; // 0x2C
+		::System::Int32 mBottom; // 0x30
+		::System::Int32 mTop; // 0x34
+		::UnityEngine::Vector3 mLastGoodHeading; // 0x38
 
 		::System::Void _ctor(::System::Int32 a1)
 		{

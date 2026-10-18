@@ -7,7 +7,7 @@ namespace System { class IDisposable; }
 
 namespace R3
 {
-	inline static constexpr unsigned int Skip_1_TypeDefinitionIndex = 35269;
+	inline static constexpr unsigned int Skip_1_TypeDefinitionIndex = 35951;
 
 	template <typename T>
 	class Skip_1 : public ::R3::Observable_1<T>

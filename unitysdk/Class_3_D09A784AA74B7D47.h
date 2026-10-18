@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AddReShaSwitchProp; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_D09A784AA74B7D47_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x158E2ED0)
-#define CLASS_3_D09A784AA74B7D47__CTOR_OFFSET UNITYSDK_OFFSET(0x158E2EA0)
+#define CLASS_3_D09A784AA74B7D47_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15C335E0)
+#define CLASS_3_D09A784AA74B7D47__CTOR_OFFSET UNITYSDK_OFFSET(0x15C335B0)
 
-inline static constexpr unsigned int Class_3_D09A784AA74B7D47_TypeDefinitionIndex = 52603;
+inline static constexpr unsigned int Class_3_D09A784AA74B7D47_TypeDefinitionIndex = 52328;
 
 class Class_3_D09A784AA74B7D47 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AddReShaSwitchProp*>
 {

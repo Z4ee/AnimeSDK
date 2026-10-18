@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMFLUTEGAMEPADINPUT_INPUTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x839C0)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMFLUTEGAMEPADINPUT_INPUTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1A330)
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int FiveDimFluteGamePadInput_InputInfo_TypeDefinitionIndex = 76752;
+	inline static constexpr unsigned int FiveDimFluteGamePadInput_InputInfo_TypeDefinitionIndex = 77223;
 
 	struct alignas(4) FiveDimFluteGamePadInput_InputInfo
 	{

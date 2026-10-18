@@ -4,9 +4,9 @@
 
 class Class_2_E541610CE7338ECE;
 
-#define CLASS_2_60CBF646C3BF3115__CTOR_OFFSET UNITYSDK_OFFSET(0x1C1141B0)
+#define CLASS_2_60CBF646C3BF3115__CTOR_OFFSET UNITYSDK_OFFSET(0x1C664D90)
 
-inline static constexpr unsigned int Class_2_60CBF646C3BF3115_TypeDefinitionIndex = 36507;
+inline static constexpr unsigned int Class_2_60CBF646C3BF3115_TypeDefinitionIndex = 37194;
 
 class Class_2_60CBF646C3BF3115 : public ::Entitas::Systems
 {

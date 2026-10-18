@@ -7,11 +7,11 @@ namespace RPG::Client { class FMChannelCurveSourceBehavior; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_FMCHANNELCURVESOURCEMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xCF10580)
+#define RPG_CLIENT_FMCHANNELCURVESOURCEMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xCE5F290)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FMChannelCurveSourceMonoPlugin_TypeDefinitionIndex = 70254;
+	inline static constexpr unsigned int FMChannelCurveSourceMonoPlugin_TypeDefinitionIndex = 70290;
 
 	class FMChannelCurveSourceMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::FMChannelCurveSourceBehavior*>
 	{

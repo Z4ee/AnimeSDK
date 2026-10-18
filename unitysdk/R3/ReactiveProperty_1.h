@@ -1,6 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/R3/ReadOnlyReactiveProperty_1.h"
+#include "unitysdk/R3/Result.h"
 
 namespace R3 { template <typename T> class Observer_1; }
 namespace R3 { template <typename T> class ReactiveProperty_1_ObserverNode; }
@@ -11,7 +12,7 @@ namespace System::Collections::Generic { template <typename T> class IEqualityCo
 
 namespace R3
 {
-	inline static constexpr unsigned int ReactiveProperty_1_TypeDefinitionIndex = 35277;
+	inline static constexpr unsigned int ReactiveProperty_1_TypeDefinitionIndex = 35961;
 
 	template <typename T>
 	class ReactiveProperty_1 : public ::R3::ReadOnlyReactiveProperty_1<T>

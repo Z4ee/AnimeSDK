@@ -7,7 +7,7 @@
 template <typename T1, typename T2> class Class_1_C1803C81698D33D4;
 template <typename T1, typename T2> class Class_1_C1803C81698D33D4___c;
 
-inline static constexpr unsigned int Class_1_C1803C81698D33D4___c_TypeDefinitionIndex = 50339;
+inline static constexpr unsigned int Class_1_C1803C81698D33D4___c_TypeDefinitionIndex = 50015;
 
 template <typename TViewModel, typename TView>
 class Class_1_C1803C81698D33D4___c : public ::System::Object

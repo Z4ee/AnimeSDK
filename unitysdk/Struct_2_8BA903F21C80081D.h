@@ -6,7 +6,7 @@
 #include "unitysdk/RPG/GameCore/TeamType.h"
 #include "unitysdk/System/ValueType.h"
 
-inline static constexpr unsigned int Struct_2_8BA903F21C80081D_TypeDefinitionIndex = 54527;
+inline static constexpr unsigned int Struct_2_8BA903F21C80081D_TypeDefinitionIndex = 54313;
 
 struct alignas(8) Struct_2_8BA903F21C80081D
 {

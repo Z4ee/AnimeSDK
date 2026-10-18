@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/ComputeShaderAsset.h"
 
-#define UNITYENGINE_COMPUTEMESHMODIFIERASSET_INTERNAL_CREATE_OFFSET UNITYSDK_OFFSET(0x1ED135C0)
-#define UNITYENGINE_COMPUTEMESHMODIFIERASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x1ED135A0)
+#define UNITYENGINE_COMPUTEMESHMODIFIERASSET_INTERNAL_CREATE_OFFSET UNITYSDK_OFFSET(0x1F3DB330)
+#define UNITYENGINE_COMPUTEMESHMODIFIERASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x1F3DB310)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ComputeMeshModifierAsset_TypeDefinitionIndex = 4109;
+	inline static constexpr unsigned int ComputeMeshModifierAsset_TypeDefinitionIndex = 4110;
 
 	class ComputeMeshModifierAsset : public ::UnityEngine::ComputeShaderAsset
 	{

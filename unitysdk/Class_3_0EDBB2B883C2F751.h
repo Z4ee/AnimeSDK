@@ -9,29 +9,29 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define CLASS_3_0EDBB2B883C2F751_METHOD_3_E024E0080A08A9C9_OFFSET UNITYSDK_OFFSET(0x1D0D91F0)
-#define CLASS_3_0EDBB2B883C2F751_METHOD_3_FCE92D332F1E367F_OFFSET UNITYSDK_OFFSET(0x1D0D90F0)
-#define CLASS_3_0EDBB2B883C2F751__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0D9180)
+#define CLASS_3_0EDBB2B883C2F751_METHOD_3_E024E0080A08A9C9_OFFSET UNITYSDK_OFFSET(0x1D803A60)
+#define CLASS_3_0EDBB2B883C2F751_METHOD_3_FCE92D332F1E367F_OFFSET UNITYSDK_OFFSET(0x1D803960)
+#define CLASS_3_0EDBB2B883C2F751__CTOR_OFFSET UNITYSDK_OFFSET(0x1D8039F0)
 
-inline static constexpr unsigned int Class_3_0EDBB2B883C2F751_TypeDefinitionIndex = 22606;
+inline static constexpr unsigned int Class_3_0EDBB2B883C2F751_TypeDefinitionIndex = 22862;
 
 class Class_3_0EDBB2B883C2F751 : public ::RPG::GameCore::TaskConfig
 {
 public:
-	::RPG::GameCore::TargetEvaluator* CFINJMDGNCA; // 0x18
-	::System::String* KANLBGHKBDK; // 0x20
-	::System::String* PPPKKLJJCIJ; // 0x28
+	::System::String* EEKMBBCAGDH; // 0x18
+	::System::String* CHHGHIGBAPH; // 0x20
+	::System::String* ECHFEMAFJNN; // 0x28
 	::Class_2_E5D38AB31F1F266B* GBGBACIMHOO; // 0x30
-	::System::String* EEKMBBCAGDH; // 0x38
-	::RPG::GameCore::DynamicFloat* AEMCMEKJFAI; // 0x40
-	::System::String* CHHGHIGBAPH; // 0x48
-	::System::String* ECHFEMAFJNN; // 0x50
-	::RPG::GameCore::TargetEvaluator* BPIBFOGDDHD; // 0x58
+	::RPG::GameCore::TargetEvaluator* BPIBFOGDDHD; // 0x38
+	::System::String* KANLBGHKBDK; // 0x40
+	::RPG::GameCore::TargetEvaluator* CFINJMDGNCA; // 0x48
+	::System::String* PPPKKLJJCIJ; // 0x50
+	::RPG::GameCore::DynamicFloat* AEMCMEKJFAI; // 0x58
 	::System::Single FMJNJDMKEGN; // 0x60
-	::RPG::GameCore::StringHash DLHAAEGHLKF; // 0x64
-	::System::Boolean BMLBIIEDPBK; // 0x68
-	::System::Boolean NMMJBGFDNAI; // 0x69
-	::System::Single FIHJJLCBHHA; // 0x6C
+	::System::Boolean BMLBIIEDPBK; // 0x64
+	::System::Boolean NMMJBGFDNAI; // 0x65
+	::System::Single FIHJJLCBHHA; // 0x68
+	::RPG::GameCore::StringHash DLHAAEGHLKF; // 0x6C
 
 	::System::Void _ctor()
 	{

@@ -6,12 +6,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MUSEUMITEMSKILLCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D2E3EF0)
-#define RPG_GAMECORE_MUSEUMITEMSKILLCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2E40E0)
+#define RPG_GAMECORE_MUSEUMITEMSKILLCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D8C68A0)
+#define RPG_GAMECORE_MUSEUMITEMSKILLCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D8C6A90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MuseumItemSkillConfigRow_TypeDefinitionIndex = 14123;
+	inline static constexpr unsigned int MuseumItemSkillConfigRow_TypeDefinitionIndex = 14230;
 
 	class MuseumItemSkillConfigRow : public ::System::Object
 	{

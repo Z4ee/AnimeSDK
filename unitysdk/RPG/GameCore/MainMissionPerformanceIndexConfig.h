@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MAINMISSIONPERFORMANCEINDEXCONFIG_METHOD_2_B02BA2F82AE36061_OFFSET UNITYSDK_OFFSET(0x1D21AA60)
-#define RPG_GAMECORE_MAINMISSIONPERFORMANCEINDEXCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D21AB50)
+#define RPG_GAMECORE_MAINMISSIONPERFORMANCEINDEXCONFIG_METHOD_2_8D75238EEA540DB8_OFFSET UNITYSDK_OFFSET(0x1D7FB730)
+#define RPG_GAMECORE_MAINMISSIONPERFORMANCEINDEXCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7FB7F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MainMissionPerformanceIndexConfig_TypeDefinitionIndex = 18806;
+	inline static constexpr unsigned int MainMissionPerformanceIndexConfig_TypeDefinitionIndex = 19030;
 
 	class MainMissionPerformanceIndexConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -21,9 +21,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MAINMISSIONPERFORMANCEINDEXCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_B02BA2F82AE36061(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MainMissionPerformanceIndexConfig*& a2)
+		static ::System::Void Method_2_8D75238EEA540DB8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MainMissionPerformanceIndexConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MainMissionPerformanceIndexConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MAINMISSIONPERFORMANCEINDEXCONFIG_METHOD_2_B02BA2F82AE36061_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MainMissionPerformanceIndexConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MAINMISSIONPERFORMANCEINDEXCONFIG_METHOD_2_8D75238EEA540DB8_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -5,39 +5,39 @@
 
 namespace System { class String; }
 
-#define HOUDINIENGINEUNITY_HEU_DEFINES__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B3DF540)
-#define HOUDINIENGINEUNITY_HEU_DEFINES__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3DF530)
+#define HOUDINIENGINEUNITY_HEU_DEFINES__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B8E1340)
+#define HOUDINIENGINEUNITY_HEU_DEFINES__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8E1330)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_Defines_TypeDefinitionIndex = 39136;
+	inline static constexpr unsigned int HEU_Defines_TypeDefinitionIndex = 40433;
 
 	class HEU_Defines : public ::System::Object
 	{
 	public:
 		static ::System::String** StaticGet_HEU_TEXTURES_PATH()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(HEU_Defines_TypeDefinitionIndex)->GetStaticField(0x5E330);
-		}
-		static ::System::String** StaticGet_HEU_ENGINE_ASSETS()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(HEU_Defines_TypeDefinitionIndex)->GetStaticField(0x5E338);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(HEU_Defines_TypeDefinitionIndex)->GetStaticField(0x4BF30);
 		}
 		static ::System::String** StaticGet_HEU_BAKED_ASSETS_PATH()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(HEU_Defines_TypeDefinitionIndex)->GetStaticField(0x5E340);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(HEU_Defines_TypeDefinitionIndex)->GetStaticField(0x4BF38);
+		}
+		static ::System::String** StaticGet_HEU_ENGINE_ASSETS()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(HEU_Defines_TypeDefinitionIndex)->GetStaticField(0x4BF40);
 		}
 		static ::System::String** StaticGet_HEU_PLUGIN_PATH()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(HEU_Defines_TypeDefinitionIndex)->GetStaticField(0x5E348);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(HEU_Defines_TypeDefinitionIndex)->GetStaticField(0x4BF48);
 		}
 		static ::System::Int32* StaticGet_DEFAULT_MATERIAL_KEY()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(HEU_Defines_TypeDefinitionIndex)->GetStaticField(0x13460);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(HEU_Defines_TypeDefinitionIndex)->GetStaticField(0x118D0);
 		}
 		static ::System::Int32* StaticGet_EDITABLE_MATERIAL_KEY()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(HEU_Defines_TypeDefinitionIndex)->GetStaticField(0x13464);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(HEU_Defines_TypeDefinitionIndex)->GetStaticField(0x118D4);
 		}
 		// static const ::System::String* HEU_PRODUCT_NAME; // 0x0
 		// static const ::System::String* HEU_NAME; // 0x0

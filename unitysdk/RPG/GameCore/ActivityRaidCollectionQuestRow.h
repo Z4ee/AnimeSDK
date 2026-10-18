@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ACTIVITYRAIDCOLLECTIONQUESTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CDA4BB0)
-#define RPG_GAMECORE_ACTIVITYRAIDCOLLECTIONQUESTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CDA5250)
+#define RPG_GAMECORE_ACTIVITYRAIDCOLLECTIONQUESTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3799A0)
+#define RPG_GAMECORE_ACTIVITYRAIDCOLLECTIONQUESTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D37A040)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityRaidCollectionQuestRow_TypeDefinitionIndex = 12245;
+	inline static constexpr unsigned int ActivityRaidCollectionQuestRow_TypeDefinitionIndex = 12326;
 
 	class ActivityRaidCollectionQuestRow : public ::System::Object
 	{

@@ -9,7 +9,7 @@ namespace System::Collections::Generic { template <typename T> class IEqualityCo
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int DistinctUntilChanged_1_TypeDefinitionIndex = 44205;
+	inline static constexpr unsigned int DistinctUntilChanged_1_TypeDefinitionIndex = 45344;
 
 	template <typename TSource>
 	class DistinctUntilChanged_1 : public ::System::Object

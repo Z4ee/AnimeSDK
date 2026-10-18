@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_LOOPLISTVIEWCIRCLESNAPITEMEXTRA__CTOR_OFFSET UNITYSDK_OFFSET(0xD591540)
+#define RPG_CLIENT_LOOPLISTVIEWCIRCLESNAPITEMEXTRA__CTOR_OFFSET UNITYSDK_OFFSET(0xD4E8520)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LoopListViewCircleSnapItemExtra_TypeDefinitionIndex = 68982;
+	inline static constexpr unsigned int LoopListViewCircleSnapItemExtra_TypeDefinitionIndex = 69018;
 
 	class LoopListViewCircleSnapItemExtra : public ::UnityEngine::MonoBehaviour
 	{

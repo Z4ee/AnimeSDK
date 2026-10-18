@@ -7,30 +7,30 @@
 namespace Cinemachine { class CinemachineImpulseManager_ImpulseEvent; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CINEMACHINE_CINEMACHINEIMPULSEMANAGER_ADDIMPULSEEVENT_OFFSET UNITYSDK_OFFSET(0x16468050)
-#define CINEMACHINE_CINEMACHINEIMPULSEMANAGER_CLEAR_OFFSET UNITYSDK_OFFSET(0x16469860)
-#define CINEMACHINE_CINEMACHINEIMPULSEMANAGER_GETIMPULSEAT_OFFSET UNITYSDK_OFFSET(0x16468970)
-#define CINEMACHINE_CINEMACHINEIMPULSEMANAGER_GET_CURRENTTIME_OFFSET UNITYSDK_OFFSET(0x164697C0)
-#define CINEMACHINE_CINEMACHINEIMPULSEMANAGER_GET_IGNORETIMESCALE_OFFSET UNITYSDK_OFFSET(0x164697A0)
-#define CINEMACHINE_CINEMACHINEIMPULSEMANAGER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x16467E80)
-#define CINEMACHINE_CINEMACHINEIMPULSEMANAGER_NEWIMPULSEEVENT_OFFSET UNITYSDK_OFFSET(0x16467EF0)
-#define CINEMACHINE_CINEMACHINEIMPULSEMANAGER_SET_IGNORETIMESCALE_OFFSET UNITYSDK_OFFSET(0x164697B0)
-#define CINEMACHINE_CINEMACHINEIMPULSEMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x16468E20)
+#define CINEMACHINE_CINEMACHINEIMPULSEMANAGER_ADDIMPULSEEVENT_OFFSET UNITYSDK_OFFSET(0x1668ED50)
+#define CINEMACHINE_CINEMACHINEIMPULSEMANAGER_CLEAR_OFFSET UNITYSDK_OFFSET(0x16690540)
+#define CINEMACHINE_CINEMACHINEIMPULSEMANAGER_GETIMPULSEAT_OFFSET UNITYSDK_OFFSET(0x1668F670)
+#define CINEMACHINE_CINEMACHINEIMPULSEMANAGER_GET_CURRENTTIME_OFFSET UNITYSDK_OFFSET(0x166904A0)
+#define CINEMACHINE_CINEMACHINEIMPULSEMANAGER_GET_IGNORETIMESCALE_OFFSET UNITYSDK_OFFSET(0x16690480)
+#define CINEMACHINE_CINEMACHINEIMPULSEMANAGER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1668EB80)
+#define CINEMACHINE_CINEMACHINEIMPULSEMANAGER_NEWIMPULSEEVENT_OFFSET UNITYSDK_OFFSET(0x1668EBF0)
+#define CINEMACHINE_CINEMACHINEIMPULSEMANAGER_SET_IGNORETIMESCALE_OFFSET UNITYSDK_OFFSET(0x16690490)
+#define CINEMACHINE_CINEMACHINEIMPULSEMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1668FB00)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineImpulseManager_TypeDefinitionIndex = 38575;
+	inline static constexpr unsigned int CinemachineImpulseManager_TypeDefinitionIndex = 39872;
 
 	class CinemachineImpulseManager : public ::System::Object
 	{
 	public:
 		static ::Cinemachine::CinemachineImpulseManager** StaticGet_sInstance()
 		{
-			return (::Cinemachine::CinemachineImpulseManager**)Il2CppClass::FromTypeDefinitionIndex(CinemachineImpulseManager_TypeDefinitionIndex)->GetStaticField(0x54A70);
+			return (::Cinemachine::CinemachineImpulseManager**)Il2CppClass::FromTypeDefinitionIndex(CinemachineImpulseManager_TypeDefinitionIndex)->GetStaticField(0x54120);
 		}
 		// static const ::System::Single Epsilon; // 0x0
-		::System::Collections::Generic::List_1<::Cinemachine::CinemachineImpulseManager_ImpulseEvent*>* m_ExpiredEvents; // 0x10
-		::System::Collections::Generic::List_1<::Cinemachine::CinemachineImpulseManager_ImpulseEvent*>* m_ActiveEvents; // 0x18
+		::System::Collections::Generic::List_1<::Cinemachine::CinemachineImpulseManager_ImpulseEvent*>* m_ActiveEvents; // 0x10
+		::System::Collections::Generic::List_1<::Cinemachine::CinemachineImpulseManager_ImpulseEvent*>* m_ExpiredEvents; // 0x18
 		::System::Boolean _IgnoreTimeScale_k__BackingField; // 0x20
 
 		::System::Void _ctor()

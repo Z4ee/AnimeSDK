@@ -11,45 +11,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_DECALGAMEPLAYCONFIGEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1D01BFE0)
-#define RPG_GAMECORE_DECALGAMEPLAYCONFIGEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1D01BE70)
-#define RPG_GAMECORE_DECALGAMEPLAYCONFIGEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1D01BB60)
-#define RPG_GAMECORE_DECALGAMEPLAYCONFIGEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1D01BE10)
-#define RPG_GAMECORE_DECALGAMEPLAYCONFIGEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1D01C170)
-#define RPG_GAMECORE_DECALGAMEPLAYCONFIGEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D01BBE0)
-#define RPG_GAMECORE_DECALGAMEPLAYCONFIGEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1D01C1B0)
-#define RPG_GAMECORE_DECALGAMEPLAYCONFIGEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D01C380)
-#define RPG_GAMECORE_DECALGAMEPLAYCONFIGEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1D01C590)
-#define RPG_GAMECORE_DECALGAMEPLAYCONFIGEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D01C900)
-#define RPG_GAMECORE_DECALGAMEPLAYCONFIGEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1D01C2E0)
-#define RPG_GAMECORE_DECALGAMEPLAYCONFIGEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D01C240)
+#define RPG_GAMECORE_DECALGAMEPLAYCONFIGEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1D5F84D0)
+#define RPG_GAMECORE_DECALGAMEPLAYCONFIGEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1D5F8360)
+#define RPG_GAMECORE_DECALGAMEPLAYCONFIGEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1D5F8050)
+#define RPG_GAMECORE_DECALGAMEPLAYCONFIGEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1D5F8300)
+#define RPG_GAMECORE_DECALGAMEPLAYCONFIGEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1D5F8660)
+#define RPG_GAMECORE_DECALGAMEPLAYCONFIGEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D5F80D0)
+#define RPG_GAMECORE_DECALGAMEPLAYCONFIGEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1D5F86A0)
+#define RPG_GAMECORE_DECALGAMEPLAYCONFIGEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D5F8870)
+#define RPG_GAMECORE_DECALGAMEPLAYCONFIGEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1D5F88C0)
+#define RPG_GAMECORE_DECALGAMEPLAYCONFIGEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D5F8C30)
+#define RPG_GAMECORE_DECALGAMEPLAYCONFIGEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1D5F87D0)
+#define RPG_GAMECORE_DECALGAMEPLAYCONFIGEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D5F8730)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DecalGameplayConfigExcelTable_TypeDefinitionIndex = 13022;
+	inline static constexpr unsigned int DecalGameplayConfigExcelTable_TypeDefinitionIndex = 13128;
 
 	class DecalGameplayConfigExcelTable : public ::System::Object
 	{
 	public:
+		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
+		{
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(DecalGameplayConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x1EB30);
+		}
 		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(DecalGameplayConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x20210);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(DecalGameplayConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x1EB38);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::DecalGameplayConfigRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::DecalGameplayConfigRow*>**)Il2CppClass::FromTypeDefinitionIndex(DecalGameplayConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x20218);
-		}
-		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
-		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(DecalGameplayConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x20220);
-		}
-		static ::System::Boolean* StaticGet_isDataLoaded()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(DecalGameplayConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0xA8E0);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::DecalGameplayConfigRow*>**)Il2CppClass::FromTypeDefinitionIndex(DecalGameplayConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x1EB40);
 		}
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(DecalGameplayConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0xA8E1);
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(DecalGameplayConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x7040);
+		}
+		static ::System::Boolean* StaticGet_isDataLoaded()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(DecalGameplayConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x7041);
 		}
 
 		static ::System::Void _cctor()

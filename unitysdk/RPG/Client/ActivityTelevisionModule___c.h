@@ -5,24 +5,24 @@
 namespace RPG::Client { class ActivityTelevisionData; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_ACTIVITYTELEVISIONMODULE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC6A6000)
-#define RPG_CLIENT_ACTIVITYTELEVISIONMODULE___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC6A6030)
-#define RPG_CLIENT_ACTIVITYTELEVISIONMODULE___C___INITMODULERELATEDMISSIONDATA_B__38_0_OFFSET UNITYSDK_OFFSET(0xC6A6040)
+#define RPG_CLIENT_ACTIVITYTELEVISIONMODULE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC5C3260)
+#define RPG_CLIENT_ACTIVITYTELEVISIONMODULE___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC5C3290)
+#define RPG_CLIENT_ACTIVITYTELEVISIONMODULE___C___INITMODULERELATEDMISSIONDATA_B__38_0_OFFSET UNITYSDK_OFFSET(0xC5C32A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityTelevisionModule___c_TypeDefinitionIndex = 62084;
+	inline static constexpr unsigned int ActivityTelevisionModule___c_TypeDefinitionIndex = 62000;
 
 	class ActivityTelevisionModule___c : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::ActivityTelevisionModule___c** StaticGet___9()
 		{
-			return (::RPG::Client::ActivityTelevisionModule___c**)Il2CppClass::FromTypeDefinitionIndex(ActivityTelevisionModule___c_TypeDefinitionIndex)->GetStaticField(0x643E0);
+			return (::RPG::Client::ActivityTelevisionModule___c**)Il2CppClass::FromTypeDefinitionIndex(ActivityTelevisionModule___c_TypeDefinitionIndex)->GetStaticField(0x40230);
 		}
 		static ::System::Func_2<::RPG::Client::ActivityTelevisionData*, ::System::UInt32>** StaticGet___9__38_0()
 		{
-			return (::System::Func_2<::RPG::Client::ActivityTelevisionData*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(ActivityTelevisionModule___c_TypeDefinitionIndex)->GetStaticField(0x643E8);
+			return (::System::Func_2<::RPG::Client::ActivityTelevisionData*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(ActivityTelevisionModule___c_TypeDefinitionIndex)->GetStaticField(0x40238);
 		}
 
 		static ::System::Void _cctor()

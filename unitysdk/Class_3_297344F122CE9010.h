@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class DeployMapPoseSwitcher; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_297344F122CE9010_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBA82FF0)
-#define CLASS_3_297344F122CE9010__CTOR_OFFSET UNITYSDK_OFFSET(0xBA82FC0)
+#define CLASS_3_297344F122CE9010_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB949AA0)
+#define CLASS_3_297344F122CE9010__CTOR_OFFSET UNITYSDK_OFFSET(0xB949A70)
 
-inline static constexpr unsigned int Class_3_297344F122CE9010_TypeDefinitionIndex = 53263;
+inline static constexpr unsigned int Class_3_297344F122CE9010_TypeDefinitionIndex = 52989;
 
 class Class_3_297344F122CE9010 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::DeployMapPoseSwitcher*>
 {

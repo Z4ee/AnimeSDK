@@ -1,22 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_2_A48F3719AA1CF200_39.h"
+#include "unitysdk/Class_2_A48F3719AA1CF200_42.h"
 
 namespace RPG::Client::LittleGame::CakeRace { class CakeRaceCatMonoView; }
 namespace System { class String; }
 
-#define CLASS_3_FFB4D2A14D2C9AAF_2_METHOD_3_11B65C8014633802_OFFSET UNITYSDK_OFFSET(0xBA50F70)
-#define CLASS_3_FFB4D2A14D2C9AAF_2_ONCLEAR_OFFSET UNITYSDK_OFFSET(0xBA510D0)
-#define CLASS_3_FFB4D2A14D2C9AAF_2_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0xBA51000)
-#define CLASS_3_FFB4D2A14D2C9AAF_2__CTOR_OFFSET UNITYSDK_OFFSET(0xBA51140)
+#define CLASS_3_FFB4D2A14D2C9AAF_2_METHOD_3_11B65C8014633802_OFFSET UNITYSDK_OFFSET(0xB916A40)
+#define CLASS_3_FFB4D2A14D2C9AAF_2_ONCLEAR_OFFSET UNITYSDK_OFFSET(0xB916BA0)
+#define CLASS_3_FFB4D2A14D2C9AAF_2_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0xB916AD0)
+#define CLASS_3_FFB4D2A14D2C9AAF_2__CTOR_OFFSET UNITYSDK_OFFSET(0xB916C10)
 
-inline static constexpr unsigned int Class_3_FFB4D2A14D2C9AAF_2_TypeDefinitionIndex = 77707;
+inline static constexpr unsigned int Class_3_FFB4D2A14D2C9AAF_2_TypeDefinitionIndex = 78178;
 
-class Class_3_FFB4D2A14D2C9AAF_2 : public ::Class_2_A48F3719AA1CF200_39
+class Class_3_FFB4D2A14D2C9AAF_2 : public ::Class_2_A48F3719AA1CF200_42
 {
 public:
-	::System::String* GLGOFGALBHP; // 0x20
-	::RPG::Client::LittleGame::CakeRace::CakeRaceCatMonoView* FOIJHDEGJMM; // 0x28
+	::RPG::Client::LittleGame::CakeRace::CakeRaceCatMonoView* FOIJHDEGJMM; // 0x20
+	::System::String* GLGOFGALBHP; // 0x28
 
 	::System::Void _ctor()
 	{

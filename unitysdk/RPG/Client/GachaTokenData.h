@@ -5,13 +5,13 @@
 namespace RPG::Client { class ItemData; }
 namespace RPG::GameCore { class GachaTokenShopConfig; }
 
-#define RPG_CLIENT_GACHATOKENDATA_GET_ITEMDATA_OFFSET UNITYSDK_OFFSET(0xD0FF620)
-#define RPG_CLIENT_GACHATOKENDATA_SET_ITEMDATA_OFFSET UNITYSDK_OFFSET(0xD0FF630)
-#define RPG_CLIENT_GACHATOKENDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xD0F1840)
+#define RPG_CLIENT_GACHATOKENDATA_GET_ITEMDATA_OFFSET UNITYSDK_OFFSET(0xD09F9A0)
+#define RPG_CLIENT_GACHATOKENDATA_SET_ITEMDATA_OFFSET UNITYSDK_OFFSET(0xD09F9B0)
+#define RPG_CLIENT_GACHATOKENDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xD09F920)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GachaTokenData_TypeDefinitionIndex = 64384;
+	inline static constexpr unsigned int GachaTokenData_TypeDefinitionIndex = 64324;
 
 	class GachaTokenData : public ::System::Object
 	{

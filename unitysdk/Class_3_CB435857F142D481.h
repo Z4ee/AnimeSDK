@@ -7,10 +7,10 @@ class Class_1_43B0AF86156D9901;
 namespace RPG::GameCore { class RandomSelectDynamicValue; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_CB435857F142D481_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF3F72D0)
-#define CLASS_3_CB435857F142D481__CTOR_OFFSET UNITYSDK_OFFSET(0xF3F71C0)
+#define CLASS_3_CB435857F142D481_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x12CB10C0)
+#define CLASS_3_CB435857F142D481__CTOR_OFFSET UNITYSDK_OFFSET(0x12CB0FA0)
 
-inline static constexpr unsigned int Class_3_CB435857F142D481_TypeDefinitionIndex = 55476;
+inline static constexpr unsigned int Class_3_CB435857F142D481_TypeDefinitionIndex = 55275;
 
 class Class_3_CB435857F142D481 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::RandomSelectDynamicValue*>
 {

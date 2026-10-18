@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetHeadButtonEff; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_7BD2342C9B99ABD3_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBD5E490)
-#define CLASS_3_7BD2342C9B99ABD3__CTOR_OFFSET UNITYSDK_OFFSET(0xBD5E460)
+#define CLASS_3_7BD2342C9B99ABD3_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBC38740)
+#define CLASS_3_7BD2342C9B99ABD3__CTOR_OFFSET UNITYSDK_OFFSET(0xBC38710)
 
-inline static constexpr unsigned int Class_3_7BD2342C9B99ABD3_TypeDefinitionIndex = 55705;
+inline static constexpr unsigned int Class_3_7BD2342C9B99ABD3_TypeDefinitionIndex = 55513;
 
 class Class_3_7BD2342C9B99ABD3 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetHeadButtonEff*>
 {

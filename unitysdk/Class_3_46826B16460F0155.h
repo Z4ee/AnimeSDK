@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class IsometricEnableClusterLighting; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_46826B16460F0155_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xD267370)
-#define CLASS_3_46826B16460F0155__CTOR_OFFSET UNITYSDK_OFFSET(0xD267340)
+#define CLASS_3_46826B16460F0155_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCF407C0)
+#define CLASS_3_46826B16460F0155__CTOR_OFFSET UNITYSDK_OFFSET(0xCF40790)
 
-inline static constexpr unsigned int Class_3_46826B16460F0155_TypeDefinitionIndex = 53204;
+inline static constexpr unsigned int Class_3_46826B16460F0155_TypeDefinitionIndex = 52930;
 
 class Class_3_46826B16460F0155 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::IsometricEnableClusterLighting*>
 {

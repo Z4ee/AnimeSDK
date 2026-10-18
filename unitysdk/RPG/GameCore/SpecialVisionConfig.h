@@ -7,12 +7,12 @@ namespace RPG::GameCore { class PuppySearchPropData; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_SPECIALVISIONCONFIG_METHOD_2_CA78A002337EB670_OFFSET UNITYSDK_OFFSET(0x1D54BFC0)
-#define RPG_GAMECORE_SPECIALVISIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D54C330)
+#define RPG_GAMECORE_SPECIALVISIONCONFIG_METHOD_2_CA78A002337EB670_OFFSET UNITYSDK_OFFSET(0x1DB00F10)
+#define RPG_GAMECORE_SPECIALVISIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB01280)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SpecialVisionConfig_TypeDefinitionIndex = 17378;
+	inline static constexpr unsigned int SpecialVisionConfig_TypeDefinitionIndex = 17589;
 
 	class SpecialVisionConfig : public ::RPG::GameCore::JsonConfig
 	{

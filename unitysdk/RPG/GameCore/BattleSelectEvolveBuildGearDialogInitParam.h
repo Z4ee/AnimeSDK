@@ -5,12 +5,12 @@
 namespace RPG::GameCore { class EvolveBuildGearSelectInfo; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_GAMECORE_BATTLESELECTEVOLVEBUILDGEARDIALOGINITPARAM_DISPOSE_OFFSET UNITYSDK_OFFSET(0xE539020)
-#define RPG_GAMECORE_BATTLESELECTEVOLVEBUILDGEARDIALOGINITPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xE5390B0)
+#define RPG_GAMECORE_BATTLESELECTEVOLVEBUILDGEARDIALOGINITPARAM_DISPOSE_OFFSET UNITYSDK_OFFSET(0xE5CBA90)
+#define RPG_GAMECORE_BATTLESELECTEVOLVEBUILDGEARDIALOGINITPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xE5CBB20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleSelectEvolveBuildGearDialogInitParam_TypeDefinitionIndex = 58791;
+	inline static constexpr unsigned int BattleSelectEvolveBuildGearDialogInitParam_TypeDefinitionIndex = 58643;
 
 	class BattleSelectEvolveBuildGearDialogInitParam : public ::System::Object
 	{

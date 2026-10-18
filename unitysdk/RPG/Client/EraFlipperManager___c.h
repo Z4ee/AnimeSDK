@@ -5,24 +5,24 @@
 namespace RPG::Client { class RuntimeGroupManager_HoYoGroupUnit; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_ERAFLIPPERMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xCECBB80)
-#define RPG_CLIENT_ERAFLIPPERMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0xCECBBC0)
-#define RPG_CLIENT_ERAFLIPPERMANAGER___C___ENTERERAREGION_B__29_2_OFFSET UNITYSDK_OFFSET(0xCECBBD0)
+#define RPG_CLIENT_ERAFLIPPERMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xCE1A670)
+#define RPG_CLIENT_ERAFLIPPERMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0xCE1A6B0)
+#define RPG_CLIENT_ERAFLIPPERMANAGER___C___ENTERERAREGION_B__29_2_OFFSET UNITYSDK_OFFSET(0xCE1A6C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EraFlipperManager___c_TypeDefinitionIndex = 60607;
+	inline static constexpr unsigned int EraFlipperManager___c_TypeDefinitionIndex = 60508;
 
 	class EraFlipperManager___c : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::EraFlipperManager___c** StaticGet___9()
 		{
-			return (::RPG::Client::EraFlipperManager___c**)Il2CppClass::FromTypeDefinitionIndex(EraFlipperManager___c_TypeDefinitionIndex)->GetStaticField(0x65DA0);
+			return (::RPG::Client::EraFlipperManager___c**)Il2CppClass::FromTypeDefinitionIndex(EraFlipperManager___c_TypeDefinitionIndex)->GetStaticField(0x4FFC0);
 		}
 		static ::System::Func_2<::RPG::Client::RuntimeGroupManager_HoYoGroupUnit*, ::System::UInt32>** StaticGet___9__29_2()
 		{
-			return (::System::Func_2<::RPG::Client::RuntimeGroupManager_HoYoGroupUnit*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(EraFlipperManager___c_TypeDefinitionIndex)->GetStaticField(0x65DA8);
+			return (::System::Func_2<::RPG::Client::RuntimeGroupManager_HoYoGroupUnit*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(EraFlipperManager___c_TypeDefinitionIndex)->GetStaticField(0x4FFC8);
 		}
 
 		static ::System::Void _cctor()

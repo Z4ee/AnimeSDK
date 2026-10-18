@@ -9,27 +9,27 @@
 #include "unitysdk/System/Threading/CancellationToken.h"
 #include "unitysdk/System/Threading/CancellationTokenRegistration.h"
 
-#define CYSHARP_THREADING_TASKS_LINQ_TIMERFRAME__TIMERFRAME_DISPOSEASYNC_OFFSET UNITYSDK_OFFSET(0x1EA48E90)
-#define CYSHARP_THREADING_TASKS_LINQ_TIMERFRAME__TIMERFRAME_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1EA48D90)
-#define CYSHARP_THREADING_TASKS_LINQ_TIMERFRAME__TIMERFRAME_MOVENEXTASYNC_OFFSET UNITYSDK_OFFSET(0x1EA48DA0)
-#define CYSHARP_THREADING_TASKS_LINQ_TIMERFRAME__TIMERFRAME_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1EA48EE0)
-#define CYSHARP_THREADING_TASKS_LINQ_TIMERFRAME__TIMERFRAME__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA48B10)
+#define CYSHARP_THREADING_TASKS_LINQ_TIMERFRAME__TIMERFRAME_DISPOSEASYNC_OFFSET UNITYSDK_OFFSET(0x1F110820)
+#define CYSHARP_THREADING_TASKS_LINQ_TIMERFRAME__TIMERFRAME_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1F110730)
+#define CYSHARP_THREADING_TASKS_LINQ_TIMERFRAME__TIMERFRAME_MOVENEXTASYNC_OFFSET UNITYSDK_OFFSET(0x1F110740)
+#define CYSHARP_THREADING_TASKS_LINQ_TIMERFRAME__TIMERFRAME_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1F110870)
+#define CYSHARP_THREADING_TASKS_LINQ_TIMERFRAME__TIMERFRAME__CTOR_OFFSET UNITYSDK_OFFSET(0x1F1104B0)
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int TimerFrame__TimerFrame_TypeDefinitionIndex = 44586;
+	inline static constexpr unsigned int TimerFrame__TimerFrame_TypeDefinitionIndex = 45725;
 
 	class TimerFrame__TimerFrame : public ::Cysharp::Threading::Tasks::MoveNextSource
 	{
 	public:
 		::System::Threading::CancellationToken cancellationToken; // 0x30
 		::System::Threading::CancellationTokenRegistration cancellationTokenRegistration; // 0x38
-		::System::Int32 currentFrame; // 0x50
-		::System::Int32 dueTimeFrameCount; // 0x54
-		::System::Boolean completed; // 0x58
-		::System::Boolean dueTimePhase; // 0x59
-		::System::Boolean disposed; // 0x5A
-		::System::Int32 initialFrame; // 0x5C
+		::System::Boolean completed; // 0x50
+		::System::Boolean dueTimePhase; // 0x51
+		::System::Boolean disposed; // 0x52
+		::System::Int32 initialFrame; // 0x54
+		::System::Int32 currentFrame; // 0x58
+		::System::Int32 dueTimeFrameCount; // 0x5C
 		::System::Nullable_1<::System::Int32> periodFrameCount; // 0x60
 
 		::System::Void _ctor(::System::Int32 a1, ::System::Nullable_1<::System::Int32> a2, ::Cysharp::Threading::Tasks::PlayerLoopTiming a3, ::System::Threading::CancellationToken a4, ::System::Boolean a5)

@@ -5,20 +5,20 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_PROBUILDER_TRANSFORM2D_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EBC5DB0)
-#define UNITYENGINE_PROBUILDER_TRANSFORM2D_TRANSFORMPOINT_OFFSET UNITYSDK_OFFSET(0x1EBC5D20)
-#define UNITYENGINE_PROBUILDER_TRANSFORM2D__CTOR_OFFSET UNITYSDK_OFFSET(0x1EBC5D10)
+#define UNITYENGINE_PROBUILDER_TRANSFORM2D_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1F28DA50)
+#define UNITYENGINE_PROBUILDER_TRANSFORM2D_TRANSFORMPOINT_OFFSET UNITYSDK_OFFSET(0x1F28D9C0)
+#define UNITYENGINE_PROBUILDER_TRANSFORM2D__CTOR_OFFSET UNITYSDK_OFFSET(0x1F28D9B0)
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int Transform2D_TypeDefinitionIndex = 43249;
+	inline static constexpr unsigned int Transform2D_TypeDefinitionIndex = 44441;
 
 	class Transform2D : public ::System::Object
 	{
 	public:
 		::UnityEngine::Vector2 position; // 0x10
-		::System::Single rotation; // 0x18
-		::UnityEngine::Vector2 scale; // 0x1C
+		::UnityEngine::Vector2 scale; // 0x18
+		::System::Single rotation; // 0x20
 
 		::System::Void _ctor(::UnityEngine::Vector2 a1, ::System::Single a2, ::UnityEngine::Vector2 a3)
 		{

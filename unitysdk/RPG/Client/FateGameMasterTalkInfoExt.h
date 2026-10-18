@@ -7,12 +7,12 @@ namespace RPG::Client { class FateGameMasterTalkInfo; }
 namespace RPG::Client { class FateGameMasterTalkInfoItem; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_FATEGAMEMASTERTALKINFOEXT_GETRANDOMITEMSONOVERVIEWPAGE_OFFSET UNITYSDK_OFFSET(0xCF475A0)
-#define RPG_CLIENT_FATEGAMEMASTERTALKINFOEXT_ISPLAYERINVOLVED_OFFSET UNITYSDK_OFFSET(0xCF47260)
+#define RPG_CLIENT_FATEGAMEMASTERTALKINFOEXT_GETRANDOMITEMSONOVERVIEWPAGE_OFFSET UNITYSDK_OFFSET(0xCE96F10)
+#define RPG_CLIENT_FATEGAMEMASTERTALKINFOEXT_ISPLAYERINVOLVED_OFFSET UNITYSDK_OFFSET(0xCE96BD0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FateGameMasterTalkInfoExt_TypeDefinitionIndex = 64167;
+	inline static constexpr unsigned int FateGameMasterTalkInfoExt_TypeDefinitionIndex = 64105;
 
 	class FateGameMasterTalkInfoExt : public ::System::Object
 	{

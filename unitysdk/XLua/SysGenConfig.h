@@ -7,12 +7,12 @@ namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define XLUA_SYSGENCONFIG_GET_ADDITIONALPROPERTIES_OFFSET UNITYSDK_OFFSET(0x15169DC0)
-#define XLUA_SYSGENCONFIG_GET_GCOPTIMIZE_OFFSET UNITYSDK_OFFSET(0x15169940)
+#define XLUA_SYSGENCONFIG_GET_ADDITIONALPROPERTIES_OFFSET UNITYSDK_OFFSET(0x153BCCC0)
+#define XLUA_SYSGENCONFIG_GET_GCOPTIMIZE_OFFSET UNITYSDK_OFFSET(0x153BC840)
 
 namespace XLua
 {
-	inline static constexpr unsigned int SysGenConfig_TypeDefinitionIndex = 50465;
+	inline static constexpr unsigned int SysGenConfig_TypeDefinitionIndex = 50094;
 
 	class SysGenConfig : public ::System::Object
 	{

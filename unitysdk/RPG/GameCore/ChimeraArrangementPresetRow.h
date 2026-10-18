@@ -5,19 +5,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_CHIMERAARRANGEMENTPRESETROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CFBD8C0)
-#define RPG_GAMECORE_CHIMERAARRANGEMENTPRESETROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFBDAA0)
+#define RPG_GAMECORE_CHIMERAARRANGEMENTPRESETROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D599150)
+#define RPG_GAMECORE_CHIMERAARRANGEMENTPRESETROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D599330)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraArrangementPresetRow_TypeDefinitionIndex = 12944;
+	inline static constexpr unsigned int ChimeraArrangementPresetRow_TypeDefinitionIndex = 13050;
 
 	class ChimeraArrangementPresetRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* CommonChimeras; // 0x10
-		::RPG::Client::TextID Description; // 0x18
-		::System::UInt32 PresetID; // 0x28
+		::System::UInt32 PresetID; // 0x18
+		::RPG::Client::TextID Description; // 0x20
 
 		::System::Void _ctor()
 		{

@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_TAROTBOOKCONDITIONPARAM_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D5BE320)
-#define RPG_GAMECORE_TAROTBOOKCONDITIONPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5BE430)
+#define RPG_GAMECORE_TAROTBOOKCONDITIONPARAM_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DB75970)
+#define RPG_GAMECORE_TAROTBOOKCONDITIONPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB75A80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TarotBookConditionParam_TypeDefinitionIndex = 15067;
+	inline static constexpr unsigned int TarotBookConditionParam_TypeDefinitionIndex = 15238;
 
 	class TarotBookConditionParam : public ::System::Object
 	{

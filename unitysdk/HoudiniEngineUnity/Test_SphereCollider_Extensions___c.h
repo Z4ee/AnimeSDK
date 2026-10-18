@@ -6,29 +6,29 @@ namespace HoudiniEngineUnity { class Test_SphereCollider; }
 namespace System { template <typename T1, typename T2> class Converter_2; }
 namespace UnityEngine { class SphereCollider; }
 
-#define HOUDINIENGINEUNITY_TEST_SPHERECOLLIDER_EXTENSIONS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B4B3050)
-#define HOUDINIENGINEUNITY_TEST_SPHERECOLLIDER_EXTENSIONS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4B3090)
-#define HOUDINIENGINEUNITY_TEST_SPHERECOLLIDER_EXTENSIONS___C__TOTESTOBJECT_B__1_0_OFFSET UNITYSDK_OFFSET(0x1B4B30A0)
-#define HOUDINIENGINEUNITY_TEST_SPHERECOLLIDER_EXTENSIONS___C__TOTESTOBJECT_B__2_0_OFFSET UNITYSDK_OFFSET(0x1B4B30E0)
+#define HOUDINIENGINEUNITY_TEST_SPHERECOLLIDER_EXTENSIONS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B9B5080)
+#define HOUDINIENGINEUNITY_TEST_SPHERECOLLIDER_EXTENSIONS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9B50C0)
+#define HOUDINIENGINEUNITY_TEST_SPHERECOLLIDER_EXTENSIONS___C__TOTESTOBJECT_B__1_0_OFFSET UNITYSDK_OFFSET(0x1B9B50D0)
+#define HOUDINIENGINEUNITY_TEST_SPHERECOLLIDER_EXTENSIONS___C__TOTESTOBJECT_B__2_0_OFFSET UNITYSDK_OFFSET(0x1B9B5110)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int Test_SphereCollider_Extensions___c_TypeDefinitionIndex = 39430;
+	inline static constexpr unsigned int Test_SphereCollider_Extensions___c_TypeDefinitionIndex = 40727;
 
 	class Test_SphereCollider_Extensions___c : public ::System::Object
 	{
 	public:
+		static ::System::Converter_2<::UnityEngine::SphereCollider*, ::HoudiniEngineUnity::Test_SphereCollider*>** StaticGet___9__2_0()
+		{
+			return (::System::Converter_2<::UnityEngine::SphereCollider*, ::HoudiniEngineUnity::Test_SphereCollider*>**)Il2CppClass::FromTypeDefinitionIndex(Test_SphereCollider_Extensions___c_TypeDefinitionIndex)->GetStaticField(0x575A0);
+		}
 		static ::System::Converter_2<::UnityEngine::SphereCollider*, ::HoudiniEngineUnity::Test_SphereCollider*>** StaticGet___9__1_0()
 		{
-			return (::System::Converter_2<::UnityEngine::SphereCollider*, ::HoudiniEngineUnity::Test_SphereCollider*>**)Il2CppClass::FromTypeDefinitionIndex(Test_SphereCollider_Extensions___c_TypeDefinitionIndex)->GetStaticField(0x63190);
+			return (::System::Converter_2<::UnityEngine::SphereCollider*, ::HoudiniEngineUnity::Test_SphereCollider*>**)Il2CppClass::FromTypeDefinitionIndex(Test_SphereCollider_Extensions___c_TypeDefinitionIndex)->GetStaticField(0x575A8);
 		}
 		static ::HoudiniEngineUnity::Test_SphereCollider_Extensions___c** StaticGet___9()
 		{
-			return (::HoudiniEngineUnity::Test_SphereCollider_Extensions___c**)Il2CppClass::FromTypeDefinitionIndex(Test_SphereCollider_Extensions___c_TypeDefinitionIndex)->GetStaticField(0x63198);
-		}
-		static ::System::Converter_2<::UnityEngine::SphereCollider*, ::HoudiniEngineUnity::Test_SphereCollider*>** StaticGet___9__2_0()
-		{
-			return (::System::Converter_2<::UnityEngine::SphereCollider*, ::HoudiniEngineUnity::Test_SphereCollider*>**)Il2CppClass::FromTypeDefinitionIndex(Test_SphereCollider_Extensions___c_TypeDefinitionIndex)->GetStaticField(0x631A0);
+			return (::HoudiniEngineUnity::Test_SphereCollider_Extensions___c**)Il2CppClass::FromTypeDefinitionIndex(Test_SphereCollider_Extensions___c_TypeDefinitionIndex)->GetStaticField(0x575B0);
 		}
 
 		static ::System::Void _cctor()

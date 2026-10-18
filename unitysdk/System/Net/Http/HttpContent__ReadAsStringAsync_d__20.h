@@ -8,17 +8,17 @@ namespace System { class String; }
 namespace System::Net::Http { class HttpContent; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define SYSTEM_NET_HTTP_HTTPCONTENT__READASSTRINGASYNC_D__20_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x3B9F620)
-#define SYSTEM_NET_HTTP_HTTPCONTENT__READASSTRINGASYNC_D__20_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2DF7980)
+#define SYSTEM_NET_HTTP_HTTPCONTENT__READASSTRINGASYNC_D__20_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x3C54AA0)
+#define SYSTEM_NET_HTTP_HTTPCONTENT__READASSTRINGASYNC_D__20_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x10C20)
 
 namespace System::Net::Http
 {
-	inline static constexpr unsigned int HttpContent__ReadAsStringAsync_d__20_TypeDefinitionIndex = 3767;
+	inline static constexpr unsigned int HttpContent__ReadAsStringAsync_d__20_TypeDefinitionIndex = 3768;
 
 	struct alignas(8) HttpContent__ReadAsStringAsync_d__20
 	{
-		::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__1; // 0x10
-		::System::Net::Http::HttpContent* __4__this; // 0x20
+		::System::Net::Http::HttpContent* __4__this; // 0x10
+		::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__1; // 0x18
 		::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::String*> __t__builder; // 0x28
 		::System::Int32 __1__state; // 0x40
 

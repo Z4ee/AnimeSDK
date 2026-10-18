@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define XLUA_INT64USERDATAATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BFD5B80)
+#define XLUA_INT64USERDATAATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4E2DB0)
 
 namespace XLua
 {
-	inline static constexpr unsigned int Int64UserDataAttribute_TypeDefinitionIndex = 5597;
+	inline static constexpr unsigned int Int64UserDataAttribute_TypeDefinitionIndex = 5604;
 
 	class Int64UserDataAttribute : public ::System::Attribute
 	{

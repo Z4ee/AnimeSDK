@@ -5,20 +5,20 @@
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define CLASS_1_69CD1289148E652B_METHOD_1_8B7CCF33805E1F05_OFFSET UNITYSDK_OFFSET(0x1618E1A0)
-#define CLASS_1_69CD1289148E652B__CTOR_OFFSET UNITYSDK_OFFSET(0x1619CB60)
+#define CLASS_1_69CD1289148E652B_METHOD_1_8B7CCF33805E1F05_OFFSET UNITYSDK_OFFSET(0x16512080)
+#define CLASS_1_69CD1289148E652B__CTOR_OFFSET UNITYSDK_OFFSET(0x16512150)
 
-inline static constexpr unsigned int Class_1_69CD1289148E652B_TypeDefinitionIndex = 61048;
+inline static constexpr unsigned int Class_1_69CD1289148E652B_TypeDefinitionIndex = 60951;
 
 class Class_1_69CD1289148E652B : public ::System::Object
 {
 public:
 	::System::Object* LOMLIPOLBKM; // 0x10
-	::UnityEngine::Quaternion JDLKKPIFNDD; // 0x18
-	::RPG::Client::WorldShiftingReason KDHPKOFLNFM; // 0x28
-	::UnityEngine::Vector3 DGHHMAPHHOK; // 0x2C
-	::UnityEngine::Quaternion MCPHEDGBAOF; // 0x38
-	::UnityEngine::Vector3 JMKBGFNBOAO; // 0x48
+	::UnityEngine::Quaternion MCPHEDGBAOF; // 0x18
+	::UnityEngine::Quaternion JDLKKPIFNDD; // 0x28
+	::UnityEngine::Vector3 DGHHMAPHHOK; // 0x38
+	::UnityEngine::Vector3 JMKBGFNBOAO; // 0x44
+	::RPG::Client::WorldShiftingReason KDHPKOFLNFM; // 0x50
 
 	::System::Void _ctor()
 	{

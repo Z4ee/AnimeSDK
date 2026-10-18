@@ -5,19 +5,19 @@
 
 namespace RPG::Client::LimaoNews { class LimaoNewsTrackService; }
 
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSTRACKSERVICE___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD493990)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSTRACKSERVICE___C__DISPLAYCLASS15_0___REMOVEBILLBOARDINFO_B__0_OFFSET UNITYSDK_OFFSET(0xD494C70)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSTRACKSERVICE___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD3EAC40)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSTRACKSERVICE___C__DISPLAYCLASS15_0___REMOVEBILLBOARDINFO_B__0_OFFSET UNITYSDK_OFFSET(0xD3EBF20)
 
 namespace RPG::Client::LimaoNews
 {
-	inline static constexpr unsigned int LimaoNewsTrackService___c__DisplayClass15_0_TypeDefinitionIndex = 79020;
+	inline static constexpr unsigned int LimaoNewsTrackService___c__DisplayClass15_0_TypeDefinitionIndex = 80343;
 
 	class LimaoNewsTrackService___c__DisplayClass15_0 : public ::System::Object
 	{
 	public:
 		::RPG::Client::LimaoNews::LimaoNewsTrackService* __4__this; // 0x10
-		::System::UInt32 subMissionID; // 0x18
-		::Struct_2_6A75E669C858F984 billboardIconParam; // 0x1C
+		::Struct_2_6A75E669C858F984 billboardIconParam; // 0x18
+		::System::UInt32 subMissionID; // 0x20
 
 		::System::Void _ctor()
 		{

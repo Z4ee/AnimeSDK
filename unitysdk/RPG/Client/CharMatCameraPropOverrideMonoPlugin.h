@@ -5,11 +5,11 @@
 namespace RPG::Client { class CharMatCameraPropOverrideBehavior; }
 namespace UnityEngine { class Renderer; }
 
-#define RPG_CLIENT_CHARMATCAMERAPROPOVERRIDEMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xCAC1B60)
+#define RPG_CLIENT_CHARMATCAMERAPROPOVERRIDEMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xC9C2CC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CharMatCameraPropOverrideMonoPlugin_TypeDefinitionIndex = 70357;
+	inline static constexpr unsigned int CharMatCameraPropOverrideMonoPlugin_TypeDefinitionIndex = 70393;
 
 	class CharMatCameraPropOverrideMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::CharMatCameraPropOverrideBehavior*>
 	{

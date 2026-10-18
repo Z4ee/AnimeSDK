@@ -4,18 +4,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MONOPOLYCLICKCONTENTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D2BB000)
-#define RPG_GAMECORE_MONOPOLYCLICKCONTENTCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2BB120)
+#define RPG_GAMECORE_MONOPOLYCLICKCONTENTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D89D260)
+#define RPG_GAMECORE_MONOPOLYCLICKCONTENTCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D89D380)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MonopolyClickContentConfigRow_TypeDefinitionIndex = 11954;
+	inline static constexpr unsigned int MonopolyClickContentConfigRow_TypeDefinitionIndex = 12035;
 
 	class MonopolyClickContentConfigRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 ID; // 0x10
-		::System::UInt32 ClickNum; // 0x14
+		::System::UInt32 ClickNum; // 0x10
+		::System::UInt32 ID; // 0x14
 
 		::System::Void _ctor()
 		{

@@ -4,11 +4,11 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_PROGRESSCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xDBC3890)
+#define RPG_CLIENT_PROGRESSCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xDC0E000)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ProgressConfig_TypeDefinitionIndex = 72670;
+	inline static constexpr unsigned int ProgressConfig_TypeDefinitionIndex = 72745;
 
 	class ProgressConfig : public ::System::Object
 	{

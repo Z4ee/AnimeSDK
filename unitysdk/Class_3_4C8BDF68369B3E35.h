@@ -2,21 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/ImmediateTaskBase_1.h"
 
-class Class_0_16E4307DCC419505_462;
+class Class_0_16E4307DCC419505_549;
 namespace RPG::GameCore { class CreateFMChannelReceiver; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_4C8BDF68369B3E35_DISPOSE_OFFSET UNITYSDK_OFFSET(0xCA69D40)
-#define CLASS_3_4C8BDF68369B3E35_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCA699E0)
-#define CLASS_3_4C8BDF68369B3E35_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xCA69C20)
-#define CLASS_3_4C8BDF68369B3E35__CTOR_OFFSET UNITYSDK_OFFSET(0xCA699B0)
+#define CLASS_3_4C8BDF68369B3E35_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC9E3440)
+#define CLASS_3_4C8BDF68369B3E35_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC9E3110)
+#define CLASS_3_4C8BDF68369B3E35_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC9E3320)
+#define CLASS_3_4C8BDF68369B3E35__CTOR_OFFSET UNITYSDK_OFFSET(0xC9E30E0)
 
-inline static constexpr unsigned int Class_3_4C8BDF68369B3E35_TypeDefinitionIndex = 52993;
+inline static constexpr unsigned int Class_3_4C8BDF68369B3E35_TypeDefinitionIndex = 52719;
 
 class Class_3_4C8BDF68369B3E35 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::CreateFMChannelReceiver*>
 {
 public:
-	::Class_0_16E4307DCC419505_462* CHGNPFNGPFC; // 0x28
+	::Class_0_16E4307DCC419505_549* CHGNPFNGPFC; // 0x28
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::CreateFMChannelReceiver* a2)
 	{

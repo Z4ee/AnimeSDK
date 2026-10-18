@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Events/UnityEvent.h"
 
-#define SRF_UI_SRSPINNER_SPINEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1E6B9F00)
+#define SRF_UI_SRSPINNER_SPINEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1ED81BF0)
 
 namespace SRF::UI
 {
-	inline static constexpr unsigned int SRSpinner_SpinEvent_TypeDefinitionIndex = 34725;
+	inline static constexpr unsigned int SRSpinner_SpinEvent_TypeDefinitionIndex = 35394;
 
 	class SRSpinner_SpinEvent : public ::UnityEngine::Events::UnityEvent
 	{

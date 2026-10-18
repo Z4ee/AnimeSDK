@@ -10,27 +10,27 @@ namespace RPG::GameCore { class ChenLingFesTargetConfig; }
 namespace RPG::GameCore { class ChenLingFesToastConfig; }
 namespace System { class String; }
 
-#define CLASS_3_714E3A6CA2354616_METHOD_3_28DFC52A1206DD2C_OFFSET UNITYSDK_OFFSET(0x1C8E9860)
-#define CLASS_3_714E3A6CA2354616_METHOD_3_E024E0080A08A9C9_OFFSET UNITYSDK_OFFSET(0x1C8E98B0)
-#define CLASS_3_714E3A6CA2354616__CTOR_OFFSET UNITYSDK_OFFSET(0x1C8E98A0)
+#define CLASS_3_714E3A6CA2354616_METHOD_3_28DFC52A1206DD2C_OFFSET UNITYSDK_OFFSET(0x1CE8AF50)
+#define CLASS_3_714E3A6CA2354616_METHOD_3_E024E0080A08A9C9_OFFSET UNITYSDK_OFFSET(0x1CE8AFA0)
+#define CLASS_3_714E3A6CA2354616__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE8AF90)
 
-inline static constexpr unsigned int Class_3_714E3A6CA2354616_TypeDefinitionIndex = 21263;
+inline static constexpr unsigned int Class_3_714E3A6CA2354616_TypeDefinitionIndex = 21509;
 
 class Class_3_714E3A6CA2354616 : public ::RPG::GameCore::TaskConfig
 {
 public:
-	::System::String* NMMKDFFHOLL; // 0x18
-	::RPG::GameCore::ChenLingFesTargetConfig* GMJKHCGCNKA; // 0x20
-	::RPG::GameCore::ChenLingFesDialogConfig* GGICBIIJMPH; // 0x28
-	::System::String* KBEPAIAFLHL; // 0x30
-	::RPG::GameCore::ChenLingFesToastConfig* CCCCCCNNCJD; // 0x38
-	::RPG::GameCore::LittleGameEntityType EAMICGDAKCN; // 0x40
-	::System::Boolean GNDCCBNILML; // 0x44
-	::System::Boolean HCBMABMLFPG; // 0x45
-	::System::UInt32 NJNFNFCJHFJ; // 0x48
-	::System::UInt32 CMNOEFFFNPE; // 0x4C
-	::RPG::GameCore::ChenLingFesTargetType HILNFHCPEAD; // 0x50
-	::System::Single IEHPFADHJFD; // 0x54
+	::RPG::GameCore::ChenLingFesToastConfig* CCCCCCNNCJD; // 0x18
+	::System::String* NMMKDFFHOLL; // 0x20
+	::RPG::GameCore::ChenLingFesTargetConfig* GMJKHCGCNKA; // 0x28
+	::RPG::GameCore::ChenLingFesDialogConfig* GGICBIIJMPH; // 0x30
+	::System::String* KBEPAIAFLHL; // 0x38
+	::RPG::GameCore::ChenLingFesTargetType HILNFHCPEAD; // 0x40
+	::RPG::GameCore::LittleGameEntityType EAMICGDAKCN; // 0x44
+	::System::UInt32 CMNOEFFFNPE; // 0x48
+	::System::Boolean HCBMABMLFPG; // 0x4C
+	::System::Boolean GNDCCBNILML; // 0x4D
+	::System::Single IEHPFADHJFD; // 0x50
+	::System::UInt32 NJNFNFCJHFJ; // 0x54
 
 	::System::Void _ctor()
 	{

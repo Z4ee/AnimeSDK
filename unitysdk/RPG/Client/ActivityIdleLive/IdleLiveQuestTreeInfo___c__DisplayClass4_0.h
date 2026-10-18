@@ -4,12 +4,12 @@
 
 namespace RPG::Client::ActivityIdleLive { class IdleLiveQuestTreeTabData; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEQUESTTREEINFO___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC5D46D0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEQUESTTREEINFO___C__DISPLAYCLASS4_0__HASCHAPTERCANGETREWARDAFTER_B__0_OFFSET UNITYSDK_OFFSET(0xC5D48D0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEQUESTTREEINFO___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC4EC140)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEQUESTTREEINFO___C__DISPLAYCLASS4_0__HASCHAPTERCANGETREWARDAFTER_B__0_OFFSET UNITYSDK_OFFSET(0xC4EC340)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveQuestTreeInfo___c__DisplayClass4_0_TypeDefinitionIndex = 75075;
+	inline static constexpr unsigned int IdleLiveQuestTreeInfo___c__DisplayClass4_0_TypeDefinitionIndex = 75375;
 
 	class IdleLiveQuestTreeInfo___c__DisplayClass4_0 : public ::System::Object
 	{

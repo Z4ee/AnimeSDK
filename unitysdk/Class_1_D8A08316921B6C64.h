@@ -5,19 +5,19 @@
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_D8A08316921B6C64_METHOD_1_1021EEFD8E1ED37C_OFFSET UNITYSDK_OFFSET(0x16173CA0)
-#define CLASS_1_D8A08316921B6C64_METHOD_1_6B8C0137E53D192A_OFFSET UNITYSDK_OFFSET(0x16173D70)
-#define CLASS_1_D8A08316921B6C64__CTOR_OFFSET UNITYSDK_OFFSET(0x16173E40)
+#define CLASS_1_D8A08316921B6C64_METHOD_1_1021EEFD8E1ED37C_OFFSET UNITYSDK_OFFSET(0x164E72D0)
+#define CLASS_1_D8A08316921B6C64_METHOD_1_6B8C0137E53D192A_OFFSET UNITYSDK_OFFSET(0x164E73A0)
+#define CLASS_1_D8A08316921B6C64__CTOR_OFFSET UNITYSDK_OFFSET(0x164E7470)
 
-inline static constexpr unsigned int Class_1_D8A08316921B6C64_TypeDefinitionIndex = 73728;
+inline static constexpr unsigned int Class_1_D8A08316921B6C64_TypeDefinitionIndex = 73835;
 
 class Class_1_D8A08316921B6C64 : public ::System::Object
 {
 public:
 	::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::System::UInt32>*>* HDMFBGKLLCI; // 0x10
-	::System::Int32 NCDEGDCPCHN; // 0x18
-	::System::Int32 OPDJPDEOCJM; // 0x1C
-	::System::Single OIDOGOPLOCL; // 0x20
+	::System::Int32 OPDJPDEOCJM; // 0x18
+	::System::Single OIDOGOPLOCL; // 0x1C
+	::System::Int32 NCDEGDCPCHN; // 0x20
 
 	::System::Void _ctor()
 	{

@@ -3,17 +3,17 @@
 #include "unitysdk/RPG/GameCore/DynamicValue_DynamicValueType.h"
 #include "unitysdk/System/ValueType.h"
 
-#define RPG_GAMECORE_DYNAMICVALUE_UNIONVALUE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D04FE70)
+#define RPG_GAMECORE_DYNAMICVALUE_UNIONVALUE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D62C510)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DynamicValue_UnionValue_TypeDefinitionIndex = 10823;
+	inline static constexpr unsigned int DynamicValue_UnionValue_TypeDefinitionIndex = 10839;
 
 	struct alignas(8) DynamicValue_UnionValue
 	{
 		static ::RPG::GameCore::DynamicValue_UnionValue* StaticGet_Empty()
 		{
-			return (::RPG::GameCore::DynamicValue_UnionValue*)Il2CppClass::FromTypeDefinitionIndex(DynamicValue_UnionValue_TypeDefinitionIndex)->GetStaticField(0xB560);
+			return (::RPG::GameCore::DynamicValue_UnionValue*)Il2CppClass::FromTypeDefinitionIndex(DynamicValue_UnionValue_TypeDefinitionIndex)->GetStaticField(0x7B70);
 		}
 		::System::Double doubleValue; // 0x10
 		::System::Int64 longValue; // 0x10

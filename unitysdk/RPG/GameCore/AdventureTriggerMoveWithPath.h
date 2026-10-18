@@ -8,13 +8,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_ADVENTURETRIGGERMOVEWITHPATH_METHOD_3_6512DE8FB15A6ECF_OFFSET UNITYSDK_OFFSET(0x1CDFA3C0)
-#define RPG_GAMECORE_ADVENTURETRIGGERMOVEWITHPATH_METHOD_3_E601C3A0FFC65FC7_OFFSET UNITYSDK_OFFSET(0x1CDFA4A0)
-#define RPG_GAMECORE_ADVENTURETRIGGERMOVEWITHPATH__CTOR_OFFSET UNITYSDK_OFFSET(0x1CDFA440)
+#define RPG_GAMECORE_ADVENTURETRIGGERMOVEWITHPATH_METHOD_3_6512DE8FB15A6ECF_OFFSET UNITYSDK_OFFSET(0x1D3D0590)
+#define RPG_GAMECORE_ADVENTURETRIGGERMOVEWITHPATH_METHOD_3_F081D14680D73E00_OFFSET UNITYSDK_OFFSET(0x1D3D0670)
+#define RPG_GAMECORE_ADVENTURETRIGGERMOVEWITHPATH__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3D0610)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureTriggerMoveWithPath_TypeDefinitionIndex = 21389;
+	inline static constexpr unsigned int AdventureTriggerMoveWithPath_TypeDefinitionIndex = 21635;
 
 	class AdventureTriggerMoveWithPath : public ::RPG::GameCore::TaskConfig
 	{
@@ -39,9 +39,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdventureTriggerMoveWithPath*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURETRIGGERMOVEWITHPATH_METHOD_3_6512DE8FB15A6ECF_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_E601C3A0FFC65FC7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdventureTriggerMoveWithPath* a2)
+		static ::System::Void Method_3_F081D14680D73E00(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdventureTriggerMoveWithPath* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdventureTriggerMoveWithPath*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURETRIGGERMOVEWITHPATH_METHOD_3_E601C3A0FFC65FC7_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdventureTriggerMoveWithPath*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURETRIGGERMOVEWITHPATH_METHOD_3_F081D14680D73E00_OFFSET))(a1, a2);
 		}
 	};
 }

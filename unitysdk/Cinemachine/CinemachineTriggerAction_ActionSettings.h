@@ -7,12 +7,12 @@
 namespace Cinemachine { class CinemachineTriggerAction_ActionSettings_TriggerEvent; }
 namespace UnityEngine { class Object; }
 
-#define CINEMACHINE_CINEMACHINETRIGGERACTION_ACTIONSETTINGS_INVOKE_OFFSET UNITYSDK_OFFSET(0x2DFBB00)
-#define CINEMACHINE_CINEMACHINETRIGGERACTION_ACTIONSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x2DFBA90)
+#define CINEMACHINE_CINEMACHINETRIGGERACTION_ACTIONSETTINGS_INVOKE_OFFSET UNITYSDK_OFFSET(0x2E879C0)
+#define CINEMACHINE_CINEMACHINETRIGGERACTION_ACTIONSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x2E87950)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineTriggerAction_ActionSettings_TypeDefinitionIndex = 38561;
+	inline static constexpr unsigned int CinemachineTriggerAction_ActionSettings_TypeDefinitionIndex = 39858;
 
 	struct alignas(8) CinemachineTriggerAction_ActionSettings
 	{

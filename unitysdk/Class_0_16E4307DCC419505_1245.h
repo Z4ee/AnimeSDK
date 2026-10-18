@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-namespace RPG::Client::ActivityIdleLive { class IdleLiveNode; }
-namespace RPG::Client::Promises { class IPromise; }
+class Class_1_34917908B7833130;
+namespace System { template <typename T> class Action_1; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_1245_TypeDefinitionIndex = 74844;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_1245_TypeDefinitionIndex = 72229;
 
 class Class_0_16E4307DCC419505_1245
 {

@@ -5,11 +5,11 @@
 namespace RPG::Client { class MonoMovementPropHandle; }
 namespace UnityEngine { class Collider; }
 
-#define RPG_CLIENT_MONOESCALATORITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xD825650)
+#define RPG_CLIENT_MONOESCALATORITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xD8260D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEscalatorItem_TypeDefinitionIndex = 68556;
+	inline static constexpr unsigned int MonoEscalatorItem_TypeDefinitionIndex = 68590;
 
 	class MonoEscalatorItem : public ::UnityEngine::MonoBehaviour
 	{

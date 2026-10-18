@@ -5,11 +5,11 @@
 namespace RPG::GameCore { class LockCurrentSceneTransferAction; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_2C9047605E457AC5_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC107790)
-#define CLASS_3_2C9047605E457AC5_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC1076C0)
-#define CLASS_3_2C9047605E457AC5__CTOR_OFFSET UNITYSDK_OFFSET(0xC107690)
+#define CLASS_3_2C9047605E457AC5_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBFF4AE0)
+#define CLASS_3_2C9047605E457AC5_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBFF4A10)
+#define CLASS_3_2C9047605E457AC5__CTOR_OFFSET UNITYSDK_OFFSET(0xBFF49E0)
 
-inline static constexpr unsigned int Class_3_2C9047605E457AC5_TypeDefinitionIndex = 53258;
+inline static constexpr unsigned int Class_3_2C9047605E457AC5_TypeDefinitionIndex = 52984;
 
 class Class_3_2C9047605E457AC5 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::LockCurrentSceneTransferAction*>
 {

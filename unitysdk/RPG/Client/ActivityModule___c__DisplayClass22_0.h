@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class ActivityLoginData; }
 
-#define RPG_CLIENT_ACTIVITYMODULE___C__DISPLAYCLASS22_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC640640)
-#define RPG_CLIENT_ACTIVITYMODULE___C__DISPLAYCLASS22_0__GETACTIVITYLOGINDATABYMODULEID_B__0_OFFSET UNITYSDK_OFFSET(0xC653660)
+#define RPG_CLIENT_ACTIVITYMODULE___C__DISPLAYCLASS22_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC570AD0)
+#define RPG_CLIENT_ACTIVITYMODULE___C__DISPLAYCLASS22_0__GETACTIVITYLOGINDATABYMODULEID_B__0_OFFSET UNITYSDK_OFFSET(0xC570AE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityModule___c__DisplayClass22_0_TypeDefinitionIndex = 61780;
+	inline static constexpr unsigned int ActivityModule___c__DisplayClass22_0_TypeDefinitionIndex = 61690;
 
 	class ActivityModule___c__DisplayClass22_0 : public ::System::Object
 	{

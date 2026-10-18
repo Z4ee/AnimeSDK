@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DialogEmitterBehavior_EmitType_TypeDefinitionIndex = 70853;
+	inline static constexpr unsigned int DialogEmitterBehavior_EmitType_TypeDefinitionIndex = 70888;
 
 	enum class DialogEmitterBehavior_EmitType : ::System::Int32
 	{

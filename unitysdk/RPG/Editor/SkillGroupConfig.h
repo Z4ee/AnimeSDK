@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class RectTransform; }
 
-#define RPG_EDITOR_SKILLGROUPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xE466490)
+#define RPG_EDITOR_SKILLGROUPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xE4ADEE0)
 
 namespace RPG::Editor
 {
-	inline static constexpr unsigned int SkillGroupConfig_TypeDefinitionIndex = 52329;
+	inline static constexpr unsigned int SkillGroupConfig_TypeDefinitionIndex = 52042;
 
 	class SkillGroupConfig : public ::System::Object
 	{

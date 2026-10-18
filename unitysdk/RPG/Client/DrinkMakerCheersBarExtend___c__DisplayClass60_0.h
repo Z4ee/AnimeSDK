@@ -5,12 +5,12 @@
 namespace RPG::Client { class DrinkMakerCheersBarExtend; }
 namespace RPG::Client { class DrinkMakerCheersGuestDrinkRecordData; }
 
-#define RPG_CLIENT_DRINKMAKERCHEERSBAREXTEND___C__DISPLAYCLASS60_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCD98170)
-#define RPG_CLIENT_DRINKMAKERCHEERSBAREXTEND___C__DISPLAYCLASS60_0__PLAYDRINKGIVENAMEPERFORMANCEAFTERINVITEGUESTGIVEDRINK_B__0_OFFSET UNITYSDK_OFFSET(0xCD99960)
+#define RPG_CLIENT_DRINKMAKERCHEERSBAREXTEND___C__DISPLAYCLASS60_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCCE97B0)
+#define RPG_CLIENT_DRINKMAKERCHEERSBAREXTEND___C__DISPLAYCLASS60_0__PLAYDRINKGIVENAMEPERFORMANCEAFTERINVITEGUESTGIVEDRINK_B__0_OFFSET UNITYSDK_OFFSET(0xCCEAFA0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DrinkMakerCheersBarExtend___c__DisplayClass60_0_TypeDefinitionIndex = 63676;
+	inline static constexpr unsigned int DrinkMakerCheersBarExtend___c__DisplayClass60_0_TypeDefinitionIndex = 63614;
 
 	class DrinkMakerCheersBarExtend___c__DisplayClass60_0 : public ::System::Object
 	{

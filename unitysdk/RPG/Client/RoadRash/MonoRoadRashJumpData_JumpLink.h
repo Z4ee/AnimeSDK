@@ -4,11 +4,11 @@
 
 namespace RPG::Client { class TrackExtensionMonoPlugin; }
 
-#define RPG_CLIENT_ROADRASH_MONOROADRASHJUMPDATA_JUMPLINK__CTOR_OFFSET UNITYSDK_OFFSET(0xDE955A0)
+#define RPG_CLIENT_ROADRASH_MONOROADRASHJUMPDATA_JUMPLINK__CTOR_OFFSET UNITYSDK_OFFSET(0xDEE5BE0)
 
 namespace RPG::Client::RoadRash
 {
-	inline static constexpr unsigned int MonoRoadRashJumpData_JumpLink_TypeDefinitionIndex = 75466;
+	inline static constexpr unsigned int MonoRoadRashJumpData_JumpLink_TypeDefinitionIndex = 75881;
 
 	class MonoRoadRashJumpData_JumpLink : public ::System::Object
 	{

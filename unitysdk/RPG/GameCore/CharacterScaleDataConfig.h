@@ -7,12 +7,12 @@ namespace RPG::GameCore { class EffectAdaptCharaScaleDataItem; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_CHARACTERSCALEDATACONFIG_METHOD_2_2090B17E45945FF1_OFFSET UNITYSDK_OFFSET(0x1CF9E020)
-#define RPG_GAMECORE_CHARACTERSCALEDATACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF9E100)
+#define RPG_GAMECORE_CHARACTERSCALEDATACONFIG_METHOD_2_2090B17E45945FF1_OFFSET UNITYSDK_OFFSET(0x1D578DC0)
+#define RPG_GAMECORE_CHARACTERSCALEDATACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D578EA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterScaleDataConfig_TypeDefinitionIndex = 16320;
+	inline static constexpr unsigned int CharacterScaleDataConfig_TypeDefinitionIndex = 16493;
 
 	class CharacterScaleDataConfig : public ::RPG::GameCore::JsonConfig
 	{

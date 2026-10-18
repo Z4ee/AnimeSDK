@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_RENDERTESTITEMJSON_METHOD_2_57F8D7C286261357_OFFSET UNITYSDK_OFFSET(0x1D3A1480)
-#define RPG_GAMECORE_RENDERTESTITEMJSON__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3A15C0)
+#define RPG_GAMECORE_RENDERTESTITEMJSON_METHOD_2_EA070B37BF3506D5_OFFSET UNITYSDK_OFFSET(0x1D987900)
+#define RPG_GAMECORE_RENDERTESTITEMJSON__CTOR_OFFSET UNITYSDK_OFFSET(0x1D987AC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RenderTestItemJson_TypeDefinitionIndex = 24119;
+	inline static constexpr unsigned int RenderTestItemJson_TypeDefinitionIndex = 24398;
 
 	class RenderTestItemJson : public ::RPG::GameCore::JsonConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RENDERTESTITEMJSON__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_57F8D7C286261357(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RenderTestItemJson*& a2)
+		static ::System::Void Method_2_EA070B37BF3506D5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RenderTestItemJson*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RenderTestItemJson*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RENDERTESTITEMJSON_METHOD_2_57F8D7C286261357_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RenderTestItemJson*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RENDERTESTITEMJSON_METHOD_2_EA070B37BF3506D5_OFFSET))(a1, a2);
 		}
 	};
 }

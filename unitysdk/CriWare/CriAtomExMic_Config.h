@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define CRIWARE_CRIATOMEXMIC_CONFIG_GET_DEFAULT_OFFSET UNITYSDK_OFFSET(0x164C8C10)
+#define CRIWARE_CRIATOMEXMIC_CONFIG_GET_DEFAULT_OFFSET UNITYSDK_OFFSET(0x166EF840)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExMic_Config_TypeDefinitionIndex = 38746;
+	inline static constexpr unsigned int CriAtomExMic_Config_TypeDefinitionIndex = 40043;
 
 	struct alignas(8) CriAtomExMic_Config
 	{

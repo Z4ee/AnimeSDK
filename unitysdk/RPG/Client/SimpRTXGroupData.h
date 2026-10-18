@@ -6,11 +6,11 @@
 
 namespace RPG::Client { class SimpRTXGroup; }
 
-#define RPG_CLIENT_SIMPRTXGROUPDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x158580)
+#define RPG_CLIENT_SIMPRTXGROUPDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xF1CC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SimpRTXGroupData_TypeDefinitionIndex = 70151;
+	inline static constexpr unsigned int SimpRTXGroupData_TypeDefinitionIndex = 70187;
 
 	struct alignas(4) SimpRTXGroupData
 	{

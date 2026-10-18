@@ -11,45 +11,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_BACKGROUNDMUSICCONFIGEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1CE60F10)
-#define RPG_GAMECORE_BACKGROUNDMUSICCONFIGEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1CE60DE0)
-#define RPG_GAMECORE_BACKGROUNDMUSICCONFIGEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1CE60AD0)
-#define RPG_GAMECORE_BACKGROUNDMUSICCONFIGEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1CE60D80)
-#define RPG_GAMECORE_BACKGROUNDMUSICCONFIGEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1CE61060)
-#define RPG_GAMECORE_BACKGROUNDMUSICCONFIGEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1CE60B50)
-#define RPG_GAMECORE_BACKGROUNDMUSICCONFIGEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1CE610A0)
-#define RPG_GAMECORE_BACKGROUNDMUSICCONFIGEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CE61270)
-#define RPG_GAMECORE_BACKGROUNDMUSICCONFIGEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1CE615F0)
-#define RPG_GAMECORE_BACKGROUNDMUSICCONFIGEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CE61910)
-#define RPG_GAMECORE_BACKGROUNDMUSICCONFIGEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1CE611D0)
-#define RPG_GAMECORE_BACKGROUNDMUSICCONFIGEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1CE61130)
+#define RPG_GAMECORE_BACKGROUNDMUSICCONFIGEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1D437750)
+#define RPG_GAMECORE_BACKGROUNDMUSICCONFIGEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1D437620)
+#define RPG_GAMECORE_BACKGROUNDMUSICCONFIGEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1D437310)
+#define RPG_GAMECORE_BACKGROUNDMUSICCONFIGEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1D4375C0)
+#define RPG_GAMECORE_BACKGROUNDMUSICCONFIGEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1D4378A0)
+#define RPG_GAMECORE_BACKGROUNDMUSICCONFIGEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D437390)
+#define RPG_GAMECORE_BACKGROUNDMUSICCONFIGEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1D4378E0)
+#define RPG_GAMECORE_BACKGROUNDMUSICCONFIGEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D437AB0)
+#define RPG_GAMECORE_BACKGROUNDMUSICCONFIGEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1D437E30)
+#define RPG_GAMECORE_BACKGROUNDMUSICCONFIGEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D438150)
+#define RPG_GAMECORE_BACKGROUNDMUSICCONFIGEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1D437A10)
+#define RPG_GAMECORE_BACKGROUNDMUSICCONFIGEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D437970)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BackGroundMusicConfigExcelTable_TypeDefinitionIndex = 12729;
+	inline static constexpr unsigned int BackGroundMusicConfigExcelTable_TypeDefinitionIndex = 12819;
 
 	class BackGroundMusicConfigExcelTable : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::BackGroundMusicConfigRow*>** StaticGet_dataDict_()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::BackGroundMusicConfigRow*>**)Il2CppClass::FromTypeDefinitionIndex(BackGroundMusicConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0xAB50);
-		}
 		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(BackGroundMusicConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0xAB58);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(BackGroundMusicConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x531A0);
+		}
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::BackGroundMusicConfigRow*>** StaticGet_dataDict_()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::BackGroundMusicConfigRow*>**)Il2CppClass::FromTypeDefinitionIndex(BackGroundMusicConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x531A8);
 		}
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(BackGroundMusicConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0xAB60);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(BackGroundMusicConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x531B0);
 		}
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(BackGroundMusicConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x2520);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(BackGroundMusicConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x12750);
 		}
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(BackGroundMusicConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x2521);
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(BackGroundMusicConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x12751);
 		}
 
 		static ::System::Void _cctor()

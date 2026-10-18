@@ -5,9 +5,9 @@
 namespace RPG::Client { class ItemDisplayData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_8F58629771D14EB4__CTOR_OFFSET UNITYSDK_OFFSET(0x135004D0)
+#define CLASS_1_8F58629771D14EB4__CTOR_OFFSET UNITYSDK_OFFSET(0x13A2C710)
 
-inline static constexpr unsigned int Class_1_8F58629771D14EB4_TypeDefinitionIndex = 75989;
+inline static constexpr unsigned int Class_1_8F58629771D14EB4_TypeDefinitionIndex = 76466;
 
 class Class_1_8F58629771D14EB4 : public ::System::Object
 {

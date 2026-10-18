@@ -4,25 +4,25 @@
 
 namespace System { class String; }
 
-#define CLASS_1_E01A963C39A160F3_METHOD_1_F8E6145ED0829339_OFFSET UNITYSDK_OFFSET(0xC4163F0)
-#define CLASS_1_E01A963C39A160F3__CTOR_OFFSET UNITYSDK_OFFSET(0xC4166F0)
+#define CLASS_1_E01A963C39A160F3_METHOD_1_F8E6145ED0829339_OFFSET UNITYSDK_OFFSET(0xC317E60)
+#define CLASS_1_E01A963C39A160F3__CTOR_OFFSET UNITYSDK_OFFSET(0xC318160)
 
-inline static constexpr unsigned int Class_1_E01A963C39A160F3_TypeDefinitionIndex = 64838;
+inline static constexpr unsigned int Class_1_E01A963C39A160F3_TypeDefinitionIndex = 64778;
 
 class Class_1_E01A963C39A160F3 : public ::System::Object
 {
 public:
 	static ::Class_1_E01A963C39A160F3** StaticGet_OEHHIIEPDIK()
 	{
-		return (::Class_1_E01A963C39A160F3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_E01A963C39A160F3_TypeDefinitionIndex)->GetStaticField(0x59BF0);
+		return (::Class_1_E01A963C39A160F3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_E01A963C39A160F3_TypeDefinitionIndex)->GetStaticField(0x6FE70);
 	}
-	::System::String* AuthkeyVer; // 0x10
+	::System::String* Lang; // 0x10
 	::System::String* AuthAppID; // 0x18
-	::System::String* GameBiz; // 0x20
-	::System::String* AuthKey; // 0x28
+	::System::String* Game; // 0x20
+	::System::String* GameBiz; // 0x28
 	::System::String* SignType; // 0x30
-	::System::String* Lang; // 0x38
-	::System::String* Game; // 0x40
+	::System::String* AuthkeyVer; // 0x38
+	::System::String* AuthKey; // 0x40
 
 	::System::Void _ctor()
 	{

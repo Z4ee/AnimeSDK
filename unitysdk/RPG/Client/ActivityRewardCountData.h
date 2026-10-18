@@ -2,21 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_7FF19F6206AF6DD7_5;
+class Class_1_7FF19F6206AF6DD7_8;
 namespace RPG::Client { class ActivityRewardCountItemData; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class IReadOnlyDictionary_2; }
 namespace System::Collections::ObjectModel { template <typename T1, typename T2> class ReadOnlyDictionary_2; }
 
-#define RPG_CLIENT_ACTIVITYREWARDCOUNTDATA_GETCOUNTBYITEMID_OFFSET UNITYSDK_OFFSET(0xC683AA0)
-#define RPG_CLIENT_ACTIVITYREWARDCOUNTDATA_GET_ACTIVITYID_OFFSET UNITYSDK_OFFSET(0xC683B50)
-#define RPG_CLIENT_ACTIVITYREWARDCOUNTDATA_GET_ITEMCOUNTS_OFFSET UNITYSDK_OFFSET(0xC683B90)
-#define RPG_CLIENT_ACTIVITYREWARDCOUNTDATA_SYNC_OFFSET UNITYSDK_OFFSET(0xC682D30)
-#define RPG_CLIENT_ACTIVITYREWARDCOUNTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xC683680)
+#define RPG_CLIENT_ACTIVITYREWARDCOUNTDATA_GETCOUNTBYITEMID_OFFSET UNITYSDK_OFFSET(0xC5A0970)
+#define RPG_CLIENT_ACTIVITYREWARDCOUNTDATA_GET_ACTIVITYID_OFFSET UNITYSDK_OFFSET(0xC5A0A20)
+#define RPG_CLIENT_ACTIVITYREWARDCOUNTDATA_GET_ITEMCOUNTS_OFFSET UNITYSDK_OFFSET(0xC5A0A60)
+#define RPG_CLIENT_ACTIVITYREWARDCOUNTDATA_SYNC_OFFSET UNITYSDK_OFFSET(0xC59FC00)
+#define RPG_CLIENT_ACTIVITYREWARDCOUNTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xC5A0550)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityRewardCountData_TypeDefinitionIndex = 61876;
+	inline static constexpr unsigned int ActivityRewardCountData_TypeDefinitionIndex = 61786;
 
 	class ActivityRewardCountData : public ::System::Object
 	{
@@ -30,9 +30,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYREWARDCOUNTDATA__CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Void Sync(::Class_1_7FF19F6206AF6DD7_5* a1)
+		::System::Void Sync(::Class_1_7FF19F6206AF6DD7_8* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_7FF19F6206AF6DD7_5*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYREWARDCOUNTDATA_SYNC_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Class_1_7FF19F6206AF6DD7_8*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYREWARDCOUNTDATA_SYNC_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::ActivityRewardCountItemData* GetCountByItemID(::System::UInt32 a1)

@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_PLANETFESBONUSMASCOTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D33E8D0)
-#define RPG_GAMECORE_PLANETFESBONUSMASCOTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D33EA00)
+#define RPG_GAMECORE_PLANETFESBONUSMASCOTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D923BB0)
+#define RPG_GAMECORE_PLANETFESBONUSMASCOTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D923CE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlanetFesBonusMascotRow_TypeDefinitionIndex = 12178;
+	inline static constexpr unsigned int PlanetFesBonusMascotRow_TypeDefinitionIndex = 12259;
 
 	class PlanetFesBonusMascotRow : public ::System::Object
 	{

@@ -9,12 +9,12 @@ namespace RPG::GameCore { class AttackDamageTypeConfig; }
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class PredicateConfig; }
 
-#define RPG_GAMECORE_MODIFIERSTANCEPRESHOWCONFIG_METHOD_2_FF40999DEA72A6DE_OFFSET UNITYSDK_OFFSET(0x1D2ACFE0)
-#define RPG_GAMECORE_MODIFIERSTANCEPRESHOWCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2AD4C0)
+#define RPG_GAMECORE_MODIFIERSTANCEPRESHOWCONFIG_METHOD_2_1CFCBE3245D77F0D_OFFSET UNITYSDK_OFFSET(0x1D88F070)
+#define RPG_GAMECORE_MODIFIERSTANCEPRESHOWCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D88F570)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ModifierStancePreshowConfig_TypeDefinitionIndex = 17970;
+	inline static constexpr unsigned int ModifierStancePreshowConfig_TypeDefinitionIndex = 18184;
 
 	class ModifierStancePreshowConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -37,9 +37,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFIERSTANCEPRESHOWCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_FF40999DEA72A6DE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ModifierStancePreshowConfig*& a2)
+		static ::System::Void Method_2_1CFCBE3245D77F0D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ModifierStancePreshowConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ModifierStancePreshowConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFIERSTANCEPRESHOWCONFIG_METHOD_2_FF40999DEA72A6DE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ModifierStancePreshowConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFIERSTANCEPRESHOWCONFIG_METHOD_2_1CFCBE3245D77F0D_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -5,24 +5,24 @@
 namespace System { class Action; }
 namespace System { template <typename T> class Action_1; }
 
-#define COFFEE_UIPARTICLEINTERNAL_FASTACTION___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1649E1C0)
-#define COFFEE_UIPARTICLEINTERNAL_FASTACTION___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1649E1F0)
-#define COFFEE_UIPARTICLEINTERNAL_FASTACTION___C__INVOKE_B__0_0_OFFSET UNITYSDK_OFFSET(0x1649E200)
+#define COFFEE_UIPARTICLEINTERNAL_FASTACTION___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x166C4DF0)
+#define COFFEE_UIPARTICLEINTERNAL_FASTACTION___C__CTOR_OFFSET UNITYSDK_OFFSET(0x166C4E20)
+#define COFFEE_UIPARTICLEINTERNAL_FASTACTION___C__INVOKE_B__0_0_OFFSET UNITYSDK_OFFSET(0x166C4E30)
 
 namespace Coffee::UIParticleInternal
 {
-	inline static constexpr unsigned int FastAction___c_TypeDefinitionIndex = 43937;
+	inline static constexpr unsigned int FastAction___c_TypeDefinitionIndex = 45129;
 
 	class FastAction___c : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::System::Action*>** StaticGet___9__0_0()
 		{
-			return (::System::Action_1<::System::Action*>**)Il2CppClass::FromTypeDefinitionIndex(FastAction___c_TypeDefinitionIndex)->GetStaticField(0x1330);
+			return (::System::Action_1<::System::Action*>**)Il2CppClass::FromTypeDefinitionIndex(FastAction___c_TypeDefinitionIndex)->GetStaticField(0x1090);
 		}
 		static ::Coffee::UIParticleInternal::FastAction___c** StaticGet___9()
 		{
-			return (::Coffee::UIParticleInternal::FastAction___c**)Il2CppClass::FromTypeDefinitionIndex(FastAction___c_TypeDefinitionIndex)->GetStaticField(0x1338);
+			return (::Coffee::UIParticleInternal::FastAction___c**)Il2CppClass::FromTypeDefinitionIndex(FastAction___c_TypeDefinitionIndex)->GetStaticField(0x1098);
 		}
 
 		static ::System::Void _cctor()

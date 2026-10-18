@@ -4,12 +4,12 @@
 
 class Class_1_9E75A6F37EAB58DE;
 
-#define RPG_CLIENT_BATTLERESULAUTODECOMPOSEINFO___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC92F7C0)
-#define RPG_CLIENT_BATTLERESULAUTODECOMPOSEINFO___C__DISPLAYCLASS5_0__MERGE_B__0_OFFSET UNITYSDK_OFFSET(0xC92FE50)
+#define RPG_CLIENT_BATTLERESULAUTODECOMPOSEINFO___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC8548A0)
+#define RPG_CLIENT_BATTLERESULAUTODECOMPOSEINFO___C__DISPLAYCLASS5_0__MERGE_B__0_OFFSET UNITYSDK_OFFSET(0xC854F30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BattleResulAutoDecomposeInfo___c__DisplayClass5_0_TypeDefinitionIndex = 62953;
+	inline static constexpr unsigned int BattleResulAutoDecomposeInfo___c__DisplayClass5_0_TypeDefinitionIndex = 62886;
 
 	class BattleResulAutoDecomposeInfo___c__DisplayClass5_0 : public ::System::Object
 	{

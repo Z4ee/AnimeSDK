@@ -4,7 +4,7 @@
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int IntervalTreeNode_TypeDefinitionIndex = 37522;
+	inline static constexpr unsigned int IntervalTreeNode_TypeDefinitionIndex = 38819;
 
 	struct alignas(8) IntervalTreeNode
 	{

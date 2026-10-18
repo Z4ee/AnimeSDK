@@ -5,18 +5,18 @@
 namespace RPG::Client::ChenLingBattle { class Grid; }
 namespace RPG::Client::ChenLingBattle { class PrepareEditPhase; }
 
-#define RPG_CLIENT_CHENLINGBATTLE_PREPAREEDITPHASE___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCB09990)
-#define RPG_CLIENT_CHENLINGBATTLE_PREPAREEDITPHASE___C__DISPLAYCLASS3_0__REQUESTUSEHANDCARD_B__0_OFFSET UNITYSDK_OFFSET(0xCB0B520)
+#define RPG_CLIENT_CHENLINGBATTLE_PREPAREEDITPHASE___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCA58390)
+#define RPG_CLIENT_CHENLINGBATTLE_PREPAREEDITPHASE___C__DISPLAYCLASS3_0__REQUESTUSEHANDCARD_B__0_OFFSET UNITYSDK_OFFSET(0xCA59F20)
 
 namespace RPG::Client::ChenLingBattle
 {
-	inline static constexpr unsigned int PrepareEditPhase___c__DisplayClass3_0_TypeDefinitionIndex = 75830;
+	inline static constexpr unsigned int PrepareEditPhase___c__DisplayClass3_0_TypeDefinitionIndex = 76307;
 
 	class PrepareEditPhase___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::ChenLingBattle::Grid* grid; // 0x10
-		::RPG::Client::ChenLingBattle::PrepareEditPhase* __4__this; // 0x18
+		::RPG::Client::ChenLingBattle::PrepareEditPhase* __4__this; // 0x10
+		::RPG::Client::ChenLingBattle::Grid* grid; // 0x18
 
 		::System::Void _ctor()
 		{

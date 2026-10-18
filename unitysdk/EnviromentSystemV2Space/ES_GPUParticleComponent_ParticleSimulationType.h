@@ -3,7 +3,7 @@
 
 namespace EnviromentSystemV2Space
 {
-	inline static constexpr unsigned int ES_GPUParticleComponent_ParticleSimulationType_TypeDefinitionIndex = 49728;
+	inline static constexpr unsigned int ES_GPUParticleComponent_ParticleSimulationType_TypeDefinitionIndex = 49302;
 
 	enum class ES_GPUParticleComponent_ParticleSimulationType : ::System::Int32
 	{

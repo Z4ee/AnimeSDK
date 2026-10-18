@@ -7,24 +7,24 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_BAT_BATCONTROLLER_GRID___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC8B6670)
-#define RPG_CLIENT_BAT_BATCONTROLLER_GRID___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC8B66B0)
-#define RPG_CLIENT_BAT_BATCONTROLLER_GRID___C___UPDATE_B__3_0_OFFSET UNITYSDK_OFFSET(0xC8B66C0)
+#define RPG_CLIENT_BAT_BATCONTROLLER_GRID___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC7D5140)
+#define RPG_CLIENT_BAT_BATCONTROLLER_GRID___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC7D5180)
+#define RPG_CLIENT_BAT_BATCONTROLLER_GRID___C___UPDATE_B__3_0_OFFSET UNITYSDK_OFFSET(0xC7D5190)
 
 namespace RPG::Client::BAT
 {
-	inline static constexpr unsigned int BATController_Grid___c_TypeDefinitionIndex = 73562;
+	inline static constexpr unsigned int BATController_Grid___c_TypeDefinitionIndex = 73669;
 
 	class BATController_Grid___c : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::BAT::BATController_Grid___c** StaticGet___9()
 		{
-			return (::RPG::Client::BAT::BATController_Grid___c**)Il2CppClass::FromTypeDefinitionIndex(BATController_Grid___c_TypeDefinitionIndex)->GetStaticField(0x2EA0);
+			return (::RPG::Client::BAT::BATController_Grid___c**)Il2CppClass::FromTypeDefinitionIndex(BATController_Grid___c_TypeDefinitionIndex)->GetStaticField(0x56470);
 		}
 		static ::System::Func_2<::System::Collections::Generic::List_1<::UnityEngine::Matrix4x4>*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Matrix4x4>*>** StaticGet___9__3_0()
 		{
-			return (::System::Func_2<::System::Collections::Generic::List_1<::UnityEngine::Matrix4x4>*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Matrix4x4>*>**)Il2CppClass::FromTypeDefinitionIndex(BATController_Grid___c_TypeDefinitionIndex)->GetStaticField(0x2EA8);
+			return (::System::Func_2<::System::Collections::Generic::List_1<::UnityEngine::Matrix4x4>*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Matrix4x4>*>**)Il2CppClass::FromTypeDefinitionIndex(BATController_Grid___c_TypeDefinitionIndex)->GetStaticField(0x56478);
 		}
 
 		static ::System::Void _cctor()

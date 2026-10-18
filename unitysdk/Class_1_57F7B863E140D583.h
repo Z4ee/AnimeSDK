@@ -5,18 +5,18 @@
 
 namespace System { class String; }
 
-#define CLASS_1_57F7B863E140D583__CTOR_OFFSET UNITYSDK_OFFSET(0x15398B70)
+#define CLASS_1_57F7B863E140D583__CTOR_OFFSET UNITYSDK_OFFSET(0x15898CB0)
 
-inline static constexpr unsigned int Class_1_57F7B863E140D583_TypeDefinitionIndex = 80862;
+inline static constexpr unsigned int Class_1_57F7B863E140D583_TypeDefinitionIndex = 82242;
 
 class Class_1_57F7B863E140D583 : public ::System::Object
 {
 public:
-	::System::String* DJNKMHHLKHM; // 0x10
-	::System::String* INIPHBJBIOE; // 0x18
-	::System::UInt64 BIHIFGPMHAH; // 0x20
-	::RPG::Client::Patch::RemoteType ALOJFEAPKHC; // 0x28
-	::System::Int64 COIHCPBGBPA; // 0x30
+	::System::String* INIPHBJBIOE; // 0x10
+	::System::String* DJNKMHHLKHM; // 0x18
+	::RPG::Client::Patch::RemoteType ALOJFEAPKHC; // 0x20
+	::System::Int64 COIHCPBGBPA; // 0x28
+	::System::UInt64 BIHIFGPMHAH; // 0x30
 	::System::UInt64 APGOMHPJMEC; // 0x38
 
 	::System::Void _ctor()

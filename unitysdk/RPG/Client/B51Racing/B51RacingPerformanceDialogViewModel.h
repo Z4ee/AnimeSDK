@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_B51RACING_B51RACINGPERFORMANCEDIALOGVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xC895E00)
+#define RPG_CLIENT_B51RACING_B51RACINGPERFORMANCEDIALOGVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xC7B47F0)
 
 namespace RPG::Client::B51Racing
 {
-	inline static constexpr unsigned int B51RacingPerformanceDialogViewModel_TypeDefinitionIndex = 80716;
+	inline static constexpr unsigned int B51RacingPerformanceDialogViewModel_TypeDefinitionIndex = 82044;
 
 	class B51RacingPerformanceDialogViewModel : public ::System::Object
 	{

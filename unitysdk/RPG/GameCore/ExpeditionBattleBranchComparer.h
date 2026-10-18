@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ExpeditionBattleBranchComparer_TypeDefinitionIndex = 16023;
+	inline static constexpr unsigned int ExpeditionBattleBranchComparer_TypeDefinitionIndex = 16196;
 
 	enum class ExpeditionBattleBranchComparer : ::System::Int32
 	{

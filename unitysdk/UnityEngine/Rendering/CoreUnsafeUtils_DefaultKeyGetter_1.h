@@ -4,7 +4,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int CoreUnsafeUtils_DefaultKeyGetter_1_TypeDefinitionIndex = 34809;
+	inline static constexpr unsigned int CoreUnsafeUtils_DefaultKeyGetter_1_TypeDefinitionIndex = 35478;
 
 	template <typename T>
 	struct CoreUnsafeUtils_DefaultKeyGetter_1

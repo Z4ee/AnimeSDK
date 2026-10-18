@@ -5,12 +5,12 @@
 
 namespace RPG::Client::LimaoNews { class LimaoNewsEntityTrackService; }
 
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSENTITYTRACKSERVICE___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD450220)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSENTITYTRACKSERVICE___C__DISPLAYCLASS11_0___REMOVEBILLBOARDINFO_B__0_OFFSET UNITYSDK_OFFSET(0xD4507C0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSENTITYTRACKSERVICE___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD3A77A0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSENTITYTRACKSERVICE___C__DISPLAYCLASS11_0___REMOVEBILLBOARDINFO_B__0_OFFSET UNITYSDK_OFFSET(0xD3A7D40)
 
 namespace RPG::Client::LimaoNews
 {
-	inline static constexpr unsigned int LimaoNewsEntityTrackService___c__DisplayClass11_0_TypeDefinitionIndex = 78996;
+	inline static constexpr unsigned int LimaoNewsEntityTrackService___c__DisplayClass11_0_TypeDefinitionIndex = 80319;
 
 	class LimaoNewsEntityTrackService___c__DisplayClass11_0 : public ::System::Object
 	{

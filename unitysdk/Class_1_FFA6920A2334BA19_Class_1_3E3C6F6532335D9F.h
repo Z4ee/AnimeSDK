@@ -1,0 +1,25 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_FFA6920A2334BA19_Struct_2_27CC52E413AD62A0.h"
+#include "unitysdk/System/Object.h"
+
+#define CLASS_1_FFA6920A2334BA19_CLASS_1_3E3C6F6532335D9F_COMPARE_OFFSET UNITYSDK_OFFSET(0x15B8F890)
+#define CLASS_1_FFA6920A2334BA19_CLASS_1_3E3C6F6532335D9F__CTOR_OFFSET UNITYSDK_OFFSET(0x15B8F880)
+
+inline static constexpr unsigned int Class_1_FFA6920A2334BA19_Class_1_3E3C6F6532335D9F_TypeDefinitionIndex = 51784;
+
+class Class_1_FFA6920A2334BA19_Class_1_3E3C6F6532335D9F : public ::System::Object
+{
+public:
+	::System::Int32 JOGJNDDNCFL; // 0x10
+
+	::System::Void _ctor(::System::Int32 a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_FFA6920A2334BA19_CLASS_1_3E3C6F6532335D9F__CTOR_OFFSET))(this, a1);
+	}
+
+	::System::Int32 Compare(::Class_1_FFA6920A2334BA19_Struct_2_27CC52E413AD62A0 a1, ::Class_1_FFA6920A2334BA19_Struct_2_27CC52E413AD62A0 a2)
+	{
+		return ((::System::Int32(*)(::PVOID, ::Class_1_FFA6920A2334BA19_Struct_2_27CC52E413AD62A0, ::Class_1_FFA6920A2334BA19_Struct_2_27CC52E413AD62A0))((::PBYTE)hIl2Cpp + CLASS_1_FFA6920A2334BA19_CLASS_1_3E3C6F6532335D9F_COMPARE_OFFSET))(this, a1, a2);
+	}
+};

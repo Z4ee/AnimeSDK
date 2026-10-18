@@ -9,23 +9,23 @@ namespace System { class Action; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_PIXAIR_PIXAIRTRAILPOINTPOSITIONER___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0xDB25590)
-#define RPG_CLIENT_PIXAIR_PIXAIRTRAILPOINTPOSITIONER___C__DISPLAYCLASS10_0__PLAY_B__0_OFFSET UNITYSDK_OFFSET(0xDB255B0)
-#define RPG_CLIENT_PIXAIR_PIXAIRTRAILPOINTPOSITIONER___C__DISPLAYCLASS10_0__PLAY_B__1_OFFSET UNITYSDK_OFFSET(0xDB255F0)
+#define RPG_CLIENT_PIXAIR_PIXAIRTRAILPOINTPOSITIONER___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0xDB6DEF0)
+#define RPG_CLIENT_PIXAIR_PIXAIRTRAILPOINTPOSITIONER___C__DISPLAYCLASS10_0__PLAY_B__0_OFFSET UNITYSDK_OFFSET(0xDB6DF10)
+#define RPG_CLIENT_PIXAIR_PIXAIRTRAILPOINTPOSITIONER___C__DISPLAYCLASS10_0__PLAY_B__1_OFFSET UNITYSDK_OFFSET(0xDB6DF50)
 
 namespace RPG::Client::PixAir
 {
-	inline static constexpr unsigned int PixAirTrailPointPositioner___c__DisplayClass10_0_TypeDefinitionIndex = 78913;
+	inline static constexpr unsigned int PixAirTrailPointPositioner___c__DisplayClass10_0_TypeDefinitionIndex = 79394;
 
 	class PixAirTrailPointPositioner___c__DisplayClass10_0 : public ::System::Object
 	{
 	public:
-		::System::Action* onComplete; // 0x10
-		::RPG::Client::MonoAnimationTrigger* animTrigger; // 0x18
-		::System::Action_1<::System::String*>* animationCallback; // 0x20
-		::RPG::Client::PixAir::PixAirTrailPointPositioner* __4__this; // 0x28
-		::RPG::Client::RPGAnimationEvent* animEventCmpt; // 0x30
-		::System::Action_1<::System::String*>* onAnimEvent; // 0x38
+		::RPG::Client::RPGAnimationEvent* animEventCmpt; // 0x10
+		::RPG::Client::PixAir::PixAirTrailPointPositioner* __4__this; // 0x18
+		::System::Action_1<::System::String*>* onAnimEvent; // 0x20
+		::System::Action* onComplete; // 0x28
+		::RPG::Client::MonoAnimationTrigger* animTrigger; // 0x30
+		::System::Action_1<::System::String*>* animationCallback; // 0x38
 
 		::System::Void _ctor()
 		{

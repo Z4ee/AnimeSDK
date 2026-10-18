@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ANIMWEIGHTED_METHOD_2_17FAAD58C0CC0EAA_OFFSET UNITYSDK_OFFSET(0x1CE1D080)
-#define RPG_GAMECORE_ANIMWEIGHTED__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE1D220)
+#define RPG_GAMECORE_ANIMWEIGHTED_METHOD_2_17FAAD58C0CC0EAA_OFFSET UNITYSDK_OFFSET(0x1D3F32E0)
+#define RPG_GAMECORE_ANIMWEIGHTED__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3F3480)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AnimWeighted_TypeDefinitionIndex = 16111;
+	inline static constexpr unsigned int AnimWeighted_TypeDefinitionIndex = 16284;
 
 	class AnimWeighted : public ::RPG::GameCore::JsonConfig
 	{

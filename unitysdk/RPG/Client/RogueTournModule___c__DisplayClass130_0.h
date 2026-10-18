@@ -5,12 +5,12 @@
 namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 namespace XLua { class LuaTable; }
 
-#define RPG_CLIENT_ROGUETOURNMODULE___C__DISPLAYCLASS130_0__CTOR_OFFSET UNITYSDK_OFFSET(0xDF73790)
-#define RPG_CLIENT_ROGUETOURNMODULE___C__DISPLAYCLASS130_0__SHOWMODESELECTPAGEPROMISED_B__0_OFFSET UNITYSDK_OFFSET(0xDF7AAA0)
+#define RPG_CLIENT_ROGUETOURNMODULE___C__DISPLAYCLASS130_0__CTOR_OFFSET UNITYSDK_OFFSET(0xE009EB0)
+#define RPG_CLIENT_ROGUETOURNMODULE___C__DISPLAYCLASS130_0__SHOWMODESELECTPAGEPROMISED_B__0_OFFSET UNITYSDK_OFFSET(0xE0110D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournModule___c__DisplayClass130_0_TypeDefinitionIndex = 67797;
+	inline static constexpr unsigned int RogueTournModule___c__DisplayClass130_0_TypeDefinitionIndex = 67799;
 
 	class RogueTournModule___c__DisplayClass130_0 : public ::System::Object
 	{

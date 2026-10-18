@@ -3,21 +3,21 @@
 #include "unitysdk/Class_1_2C2DA62D5BBB20B1_PreloadType.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_9F8ADE4A87D4EA1C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15980740)
-#define CLASS_1_9F8ADE4A87D4EA1C__CTOR_OFFSET UNITYSDK_OFFSET(0x15980730)
+#define CLASS_1_9F8ADE4A87D4EA1C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15BDA480)
+#define CLASS_1_9F8ADE4A87D4EA1C__CTOR_OFFSET UNITYSDK_OFFSET(0x15BDA470)
 
-inline static constexpr unsigned int Class_1_9F8ADE4A87D4EA1C_TypeDefinitionIndex = 59815;
+inline static constexpr unsigned int Class_1_9F8ADE4A87D4EA1C_TypeDefinitionIndex = 59670;
 
 class Class_1_9F8ADE4A87D4EA1C : public ::System::Object
 {
 public:
-	static ::Class_1_2C2DA62D5BBB20B1_PreloadType* StaticGet_NMNOGJOHJEK()
-	{
-		return (::Class_1_2C2DA62D5BBB20B1_PreloadType*)Il2CppClass::FromTypeDefinitionIndex(Class_1_9F8ADE4A87D4EA1C_TypeDefinitionIndex)->GetStaticField(0x1CB0);
-	}
 	static ::Class_1_2C2DA62D5BBB20B1_PreloadType* StaticGet_GPBPJMHOGEF()
 	{
-		return (::Class_1_2C2DA62D5BBB20B1_PreloadType*)Il2CppClass::FromTypeDefinitionIndex(Class_1_9F8ADE4A87D4EA1C_TypeDefinitionIndex)->GetStaticField(0x1CB4);
+		return (::Class_1_2C2DA62D5BBB20B1_PreloadType*)Il2CppClass::FromTypeDefinitionIndex(Class_1_9F8ADE4A87D4EA1C_TypeDefinitionIndex)->GetStaticField(0x13910);
+	}
+	static ::Class_1_2C2DA62D5BBB20B1_PreloadType* StaticGet_NMNOGJOHJEK()
+	{
+		return (::Class_1_2C2DA62D5BBB20B1_PreloadType*)Il2CppClass::FromTypeDefinitionIndex(Class_1_9F8ADE4A87D4EA1C_TypeDefinitionIndex)->GetStaticField(0x13914);
 	}
 
 	::System::Void _ctor()

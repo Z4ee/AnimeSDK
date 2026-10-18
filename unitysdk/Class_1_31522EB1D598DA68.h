@@ -1,0 +1,110 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_31522EB1D598DA68_Category.h"
+#include "unitysdk/System/Nullable_1.h"
+#include "unitysdk/System/Object.h"
+
+namespace RPG::Client { class AdventureAudioManager; }
+namespace System { class String; }
+namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+namespace System::Collections::Generic { template <typename T> class HashSet_1; }
+
+#define CLASS_1_31522EB1D598DA68_METHOD_1_30B62F5CDB9079BD_1_OFFSET UNITYSDK_OFFSET(0xB87E3C0)
+#define CLASS_1_31522EB1D598DA68_METHOD_1_30B62F5CDB9079BD_OFFSET UNITYSDK_OFFSET(0xB87DEE0)
+#define CLASS_1_31522EB1D598DA68_METHOD_1_35AE813E1A9FD332_OFFSET UNITYSDK_OFFSET(0xB87E750)
+#define CLASS_1_31522EB1D598DA68_METHOD_1_536298855D45C48F_OFFSET UNITYSDK_OFFSET(0xB87E580)
+#define CLASS_1_31522EB1D598DA68_METHOD_1_5B5C6645CBC905FA_OFFSET UNITYSDK_OFFSET(0xB87E960)
+#define CLASS_1_31522EB1D598DA68_METHOD_1_6299545119B78A2D_OFFSET UNITYSDK_OFFSET(0xB87E260)
+#define CLASS_1_31522EB1D598DA68_METHOD_1_88B60F3B95FAA4F1_1_OFFSET UNITYSDK_OFFSET(0xB87E670)
+#define CLASS_1_31522EB1D598DA68_METHOD_1_88B60F3B95FAA4F1_2_OFFSET UNITYSDK_OFFSET(0xB87E6E0)
+#define CLASS_1_31522EB1D598DA68_METHOD_1_88B60F3B95FAA4F1_3_OFFSET UNITYSDK_OFFSET(0xB87E880)
+#define CLASS_1_31522EB1D598DA68_METHOD_1_88B60F3B95FAA4F1_4_OFFSET UNITYSDK_OFFSET(0xB87E8F0)
+#define CLASS_1_31522EB1D598DA68_METHOD_1_88B60F3B95FAA4F1_OFFSET UNITYSDK_OFFSET(0xB87E600)
+#define CLASS_1_31522EB1D598DA68_METHOD_1_931F68792BBBCE82_OFFSET UNITYSDK_OFFSET(0xB87DC70)
+#define CLASS_1_31522EB1D598DA68_METHOD_1_BD602FD21B0BA69F_OFFSET UNITYSDK_OFFSET(0xB87E500)
+#define CLASS_1_31522EB1D598DA68_METHOD_1_E876C8B6D3B840A6_OFFSET UNITYSDK_OFFSET(0xB87E020)
+#define CLASS_1_31522EB1D598DA68__CTOR_OFFSET UNITYSDK_OFFSET(0xB87EAE0)
+
+inline static constexpr unsigned int Class_1_31522EB1D598DA68_TypeDefinitionIndex = 80214;
+
+class Class_1_31522EB1D598DA68 : public ::System::Object
+{
+public:
+	::System::Collections::Generic::Dictionary_2<::Class_1_31522EB1D598DA68_Category, ::System::Collections::Generic::HashSet_1<::System::String*>*>* GBELPMCGMBG; // 0x10
+	::System::Nullable_1<::Class_1_31522EB1D598DA68_Category> PFJPHIPKCDJ; // 0x18
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_31522EB1D598DA68__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Method_1_931F68792BBBCE82(::Class_1_31522EB1D598DA68_Category a1, ::System::String* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_31522EB1D598DA68_Category, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_31522EB1D598DA68_METHOD_1_931F68792BBBCE82_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_1_6299545119B78A2D(::Class_1_31522EB1D598DA68_Category a1, ::System::String* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_31522EB1D598DA68_Category, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_31522EB1D598DA68_METHOD_1_6299545119B78A2D_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_1_E876C8B6D3B840A6()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_31522EB1D598DA68_METHOD_1_E876C8B6D3B840A6_OFFSET))(this);
+	}
+
+	::System::String* Method_1_88B60F3B95FAA4F1()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_31522EB1D598DA68_METHOD_1_88B60F3B95FAA4F1_OFFSET))(this);
+	}
+
+	::System::String* Method_1_88B60F3B95FAA4F1_1()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_31522EB1D598DA68_METHOD_1_88B60F3B95FAA4F1_1_OFFSET))(this);
+	}
+
+	::System::String* Method_1_88B60F3B95FAA4F1_2()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_31522EB1D598DA68_METHOD_1_88B60F3B95FAA4F1_2_OFFSET))(this);
+	}
+
+	::System::Void Method_1_30B62F5CDB9079BD()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_31522EB1D598DA68_METHOD_1_30B62F5CDB9079BD_OFFSET))(this);
+	}
+
+	::System::Void Method_1_30B62F5CDB9079BD_1()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_31522EB1D598DA68_METHOD_1_30B62F5CDB9079BD_1_OFFSET))(this);
+	}
+
+	::System::String* Method_1_88B60F3B95FAA4F1_3()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_31522EB1D598DA68_METHOD_1_88B60F3B95FAA4F1_3_OFFSET))(this);
+	}
+
+	::System::String* Method_1_88B60F3B95FAA4F1_4()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_31522EB1D598DA68_METHOD_1_88B60F3B95FAA4F1_4_OFFSET))(this);
+	}
+
+	::System::Void Method_1_536298855D45C48F(::Class_1_31522EB1D598DA68_Category a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_31522EB1D598DA68_Category))((::PBYTE)hIl2Cpp + CLASS_1_31522EB1D598DA68_METHOD_1_536298855D45C48F_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_BD602FD21B0BA69F(::Class_1_31522EB1D598DA68_Category a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_31522EB1D598DA68_Category))((::PBYTE)hIl2Cpp + CLASS_1_31522EB1D598DA68_METHOD_1_BD602FD21B0BA69F_OFFSET))(this, a1);
+	}
+
+	::System::String* Method_1_5B5C6645CBC905FA(::Class_1_31522EB1D598DA68_Category a1)
+	{
+		return ((::System::String*(*)(::PVOID, ::Class_1_31522EB1D598DA68_Category))((::PBYTE)hIl2Cpp + CLASS_1_31522EB1D598DA68_METHOD_1_5B5C6645CBC905FA_OFFSET))(this, a1);
+	}
+
+	::RPG::Client::AdventureAudioManager* Method_1_35AE813E1A9FD332()
+	{
+		return ((::RPG::Client::AdventureAudioManager*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_31522EB1D598DA68_METHOD_1_35AE813E1A9FD332_OFFSET))(this);
+	}
+};

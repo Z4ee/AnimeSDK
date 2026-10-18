@@ -4,23 +4,23 @@
 #include "unitysdk/RPG/GameCore/LittleGameComponentConfig.h"
 
 class Class_1_7A22A3DBEEDD1F80;
-namespace RPG::GameCore { class FiveDimDynamicVar; }
+namespace RPG::GameCore { class LittleGameDynamicVar; }
 namespace RPG::GameCore { class LittleGameEvent; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIVEDIMGRAVITYSWITCHLINECONFIG_METHOD_3_7EFDC5F0DFEC8AD9_OFFSET UNITYSDK_OFFSET(0x1D0EA4D0)
-#define RPG_GAMECORE_FIVEDIMGRAVITYSWITCHLINECONFIG_METHOD_3_87B1823A601ED3F6_OFFSET UNITYSDK_OFFSET(0x1D0EA510)
-#define RPG_GAMECORE_FIVEDIMGRAVITYSWITCHLINECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0EA500)
+#define RPG_GAMECORE_FIVEDIMGRAVITYSWITCHLINECONFIG_METHOD_3_7EFDC5F0DFEC8AD9_OFFSET UNITYSDK_OFFSET(0x1D6C2110)
+#define RPG_GAMECORE_FIVEDIMGRAVITYSWITCHLINECONFIG_METHOD_3_87B1823A601ED3F6_OFFSET UNITYSDK_OFFSET(0x1D6C2150)
+#define RPG_GAMECORE_FIVEDIMGRAVITYSWITCHLINECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6C2140)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimGravitySwitchLineConfig_TypeDefinitionIndex = 18380;
+	inline static constexpr unsigned int FiveDimGravitySwitchLineConfig_TypeDefinitionIndex = 18595;
 
 	class FiveDimGravitySwitchLineConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:
 		::System::Boolean IsGravitySwitchLine; // 0x10
-		::RPG::GameCore::FiveDimDynamicVar* BindLevelVarName; // 0x18
+		::RPG::GameCore::LittleGameDynamicVar* BindLevelVarName; // 0x18
 		::Il2CppArray<::System::Int16>* ActiveValues; // 0x20
 		::Il2CppArray<::System::Int16>* InactiveValues; // 0x28
 		::System::Single Length; // 0x30

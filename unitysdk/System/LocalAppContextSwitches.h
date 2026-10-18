@@ -11,7 +11,7 @@ namespace System
 	public:
 		static ::System::Boolean* StaticGet_MemberDescriptorEqualsReturnsFalseIfEquivalent()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(LocalAppContextSwitches_TypeDefinitionIndex)->GetStaticField(0xDAC0);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(LocalAppContextSwitches_TypeDefinitionIndex)->GetStaticField(0xC960);
 		}
 	};
 }

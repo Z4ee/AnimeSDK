@@ -5,18 +5,18 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_CONSTVALUEROGUEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CFFEBB0)
-#define RPG_GAMECORE_CONSTVALUEROGUEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFFF210)
+#define RPG_GAMECORE_CONSTVALUEROGUEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D5DA220)
+#define RPG_GAMECORE_CONSTVALUEROGUEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5DA880)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ConstValueRogueRow_TypeDefinitionIndex = 14554;
+	inline static constexpr unsigned int ConstValueRogueRow_TypeDefinitionIndex = 14719;
 
 	class ConstValueRogueRow : public ::System::Object
 	{
 	public:
-		::System::String* ConstValue; // 0x10
-		::System::String* ConstRogueName; // 0x18
+		::System::String* ConstRogueName; // 0x10
+		::System::String* ConstValue; // 0x18
 
 		::System::Void _ctor()
 		{

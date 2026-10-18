@@ -5,29 +5,29 @@
 namespace RPG::Client { class AchievementData; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_ACHIEVEMENTSEARCHENGINE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC4AC1A0)
-#define RPG_CLIENT_ACHIEVEMENTSEARCHENGINE___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC4AC1E0)
-#define RPG_CLIENT_ACHIEVEMENTSEARCHENGINE___C__SEARCHBYNAME_B__5_0_OFFSET UNITYSDK_OFFSET(0xC4AC1F0)
-#define RPG_CLIENT_ACHIEVEMENTSEARCHENGINE___C__SEARCHBYNAME_B__5_1_OFFSET UNITYSDK_OFFSET(0xC4AC210)
+#define RPG_CLIENT_ACHIEVEMENTSEARCHENGINE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC3B3C00)
+#define RPG_CLIENT_ACHIEVEMENTSEARCHENGINE___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC3B3C40)
+#define RPG_CLIENT_ACHIEVEMENTSEARCHENGINE___C__SEARCHBYNAME_B__5_0_OFFSET UNITYSDK_OFFSET(0xC3B3C50)
+#define RPG_CLIENT_ACHIEVEMENTSEARCHENGINE___C__SEARCHBYNAME_B__5_1_OFFSET UNITYSDK_OFFSET(0xC3B3C70)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AchievementSearchEngine___c_TypeDefinitionIndex = 61457;
+	inline static constexpr unsigned int AchievementSearchEngine___c_TypeDefinitionIndex = 61363;
 
 	class AchievementSearchEngine___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::RPG::Client::AchievementData*, ::System::UInt32>** StaticGet___9__5_0()
 		{
-			return (::System::Func_2<::RPG::Client::AchievementData*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(AchievementSearchEngine___c_TypeDefinitionIndex)->GetStaticField(0x61220);
-		}
-		static ::System::Func_2<::RPG::Client::AchievementData*, ::System::UInt32>** StaticGet___9__5_1()
-		{
-			return (::System::Func_2<::RPG::Client::AchievementData*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(AchievementSearchEngine___c_TypeDefinitionIndex)->GetStaticField(0x61228);
+			return (::System::Func_2<::RPG::Client::AchievementData*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(AchievementSearchEngine___c_TypeDefinitionIndex)->GetStaticField(0x110A0);
 		}
 		static ::RPG::Client::AchievementSearchEngine___c** StaticGet___9()
 		{
-			return (::RPG::Client::AchievementSearchEngine___c**)Il2CppClass::FromTypeDefinitionIndex(AchievementSearchEngine___c_TypeDefinitionIndex)->GetStaticField(0x61230);
+			return (::RPG::Client::AchievementSearchEngine___c**)Il2CppClass::FromTypeDefinitionIndex(AchievementSearchEngine___c_TypeDefinitionIndex)->GetStaticField(0x110A8);
+		}
+		static ::System::Func_2<::RPG::Client::AchievementData*, ::System::UInt32>** StaticGet___9__5_1()
+		{
+			return (::System::Func_2<::RPG::Client::AchievementData*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(AchievementSearchEngine___c_TypeDefinitionIndex)->GetStaticField(0x110B0);
 		}
 
 		static ::System::Void _cctor()

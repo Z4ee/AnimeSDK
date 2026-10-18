@@ -9,32 +9,32 @@
 class Class_2_5436AF4270279182;
 namespace System { class String; }
 
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTREQUESTVIEWMODEL_GETFORMATTEDTEXT_OFFSET UNITYSDK_OFFSET(0xCB7A010)
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTREQUESTVIEWMODEL_GETTARGETENTITYWORLDPOSITION_OFFSET UNITYSDK_OFFSET(0xCB78BA0)
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTREQUESTVIEWMODEL_GETWORLDPOSITION_OFFSET UNITYSDK_OFFSET(0xCB7A660)
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTREQUESTVIEWMODEL_GET_ISVALUEUP_OFFSET UNITYSDK_OFFSET(0xCB7A120)
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTREQUESTVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xCB77F20)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTREQUESTVIEWMODEL_GETFORMATTEDTEXT_OFFSET UNITYSDK_OFFSET(0xCAC9410)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTREQUESTVIEWMODEL_GETTARGETENTITYWORLDPOSITION_OFFSET UNITYSDK_OFFSET(0xCAC8030)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTREQUESTVIEWMODEL_GETWORLDPOSITION_OFFSET UNITYSDK_OFFSET(0xCAC9A60)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTREQUESTVIEWMODEL_GET_ISVALUEUP_OFFSET UNITYSDK_OFFSET(0xCAC9520)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTREQUESTVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xCAC73B0)
 
 namespace RPG::Client::ChenLingFes
 {
-	inline static constexpr unsigned int ChenLingFesToastRequestViewModel_TypeDefinitionIndex = 80081;
+	inline static constexpr unsigned int ChenLingFesToastRequestViewModel_TypeDefinitionIndex = 81409;
 
 	class ChenLingFesToastRequestViewModel : public ::Sofa::BaseViewModel
 	{
 	public:
-		::System::String* IconPath; // 0x20
-		::System::String* Text; // 0x28
-		::Class_2_5436AF4270279182* TargetEntity; // 0x30
-		::System::String* PrefabPath; // 0x38
-		::RPG::GameCore::ChenLingFesToastStyleType ToastStyleType; // 0x40
-		::System::Boolean IsHideRequest; // 0x44
-		::System::Boolean IsSpecial; // 0x45
-		::System::Boolean IsFollowTargetEntity; // 0x46
-		::UnityEngine::Vector3 WorldPosition; // 0x48
-		::RPG::GameCore::ChenLingFesDialogStyleType DialogStyleType; // 0x54
-		::System::Single DynamicValue; // 0x58
-		::System::Int32 TargetRuntimeID; // 0x5C
-		::System::Single Duration; // 0x60
+		::System::String* Text; // 0x20
+		::System::String* PrefabPath; // 0x28
+		::System::String* IconPath; // 0x30
+		::Class_2_5436AF4270279182* TargetEntity; // 0x38
+		::System::Int32 TargetRuntimeID; // 0x40
+		::RPG::GameCore::ChenLingFesToastStyleType ToastStyleType; // 0x44
+		::System::Single DynamicValue; // 0x48
+		::System::Single Duration; // 0x4C
+		::UnityEngine::Vector3 WorldPosition; // 0x50
+		::System::Boolean IsFollowTargetEntity; // 0x5C
+		::System::Boolean IsSpecial; // 0x5D
+		::System::Boolean IsHideRequest; // 0x5E
+		::RPG::GameCore::ChenLingFesDialogStyleType DialogStyleType; // 0x60
 		::RPG::Client::TextID TextID; // 0x68
 
 		::System::Void _ctor()

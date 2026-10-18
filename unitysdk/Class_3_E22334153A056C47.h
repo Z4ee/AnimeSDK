@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetActionBarRightDownMiniIcon; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_E22334153A056C47_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x121DE470)
-#define CLASS_3_E22334153A056C47__CTOR_OFFSET UNITYSDK_OFFSET(0x121DE440)
+#define CLASS_3_E22334153A056C47_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x11FF90B0)
+#define CLASS_3_E22334153A056C47__CTOR_OFFSET UNITYSDK_OFFSET(0x11FF9080)
 
-inline static constexpr unsigned int Class_3_E22334153A056C47_TypeDefinitionIndex = 55535;
+inline static constexpr unsigned int Class_3_E22334153A056C47_TypeDefinitionIndex = 55334;
 
 class Class_3_E22334153A056C47 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetActionBarRightDownMiniIcon*>
 {

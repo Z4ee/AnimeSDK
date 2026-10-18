@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Globalization/Bootstring.h"
 
-#define SYSTEM_GLOBALIZATION_PUNYCODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD286D0)
+#define SYSTEM_GLOBALIZATION_PUNYCODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C2345D0)
 
 namespace System::Globalization
 {

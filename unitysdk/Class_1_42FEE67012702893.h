@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/Client/LittleGame/ChimeraLockReason.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_42FEE67012702893__CTOR_OFFSET UNITYSDK_OFFSET(0x1C628860)
+#define CLASS_1_42FEE67012702893__CTOR_OFFSET UNITYSDK_OFFSET(0x1CBA7CE0)
 
-inline static constexpr unsigned int Class_1_42FEE67012702893_TypeDefinitionIndex = 40406;
+inline static constexpr unsigned int Class_1_42FEE67012702893_TypeDefinitionIndex = 41991;
 
 class Class_1_42FEE67012702893 : public ::System::Object
 {

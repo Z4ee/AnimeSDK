@@ -4,12 +4,12 @@
 
 namespace System { class Object; }
 
-#define NEWTONSOFT_JSON_BSON_BSONSTRING_SET_INCLUDELENGTH_OFFSET UNITYSDK_OFFSET(0x1BE6DA50)
-#define NEWTONSOFT_JSON_BSON_BSONSTRING__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE6B110)
+#define NEWTONSOFT_JSON_BSON_BSONSTRING_SET_INCLUDELENGTH_OFFSET UNITYSDK_OFFSET(0x1C379660)
+#define NEWTONSOFT_JSON_BSON_BSONSTRING__CTOR_OFFSET UNITYSDK_OFFSET(0x1C376CF0)
 
 namespace Newtonsoft::Json::Bson
 {
-	inline static constexpr unsigned int BsonString_TypeDefinitionIndex = 9797;
+	inline static constexpr unsigned int BsonString_TypeDefinitionIndex = 9855;
 
 	class BsonString : public ::Newtonsoft::Json::Bson::BsonValue
 	{

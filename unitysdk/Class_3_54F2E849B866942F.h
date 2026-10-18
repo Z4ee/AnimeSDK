@@ -8,16 +8,16 @@ namespace RPG::GameCore { class ShowBattleWhiteboxText; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_3_54F2E849B866942F_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15936650)
-#define CLASS_3_54F2E849B866942F__CTOR_OFFSET UNITYSDK_OFFSET(0x15936590)
+#define CLASS_3_54F2E849B866942F_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15C88270)
+#define CLASS_3_54F2E849B866942F__CTOR_OFFSET UNITYSDK_OFFSET(0x15C881B0)
 
-inline static constexpr unsigned int Class_3_54F2E849B866942F_TypeDefinitionIndex = 58764;
+inline static constexpr unsigned int Class_3_54F2E849B866942F_TypeDefinitionIndex = 58616;
 
 class Class_3_54F2E849B866942F : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ShowBattleWhiteboxText*>
 {
 public:
-	::Class_1_BB62CC0FD1E45ADE_8* DMFEKIIDMFL; // 0x28
-	::System::Collections::Generic::List_1<::Class_1_424581DF7DB1F4F0_Struct_2_74774458D8863C06>* MEEPDDMNLCH; // 0x30
+	::System::Collections::Generic::List_1<::Class_1_424581DF7DB1F4F0_Struct_2_74774458D8863C06>* MEEPDDMNLCH; // 0x28
+	::Class_1_BB62CC0FD1E45ADE_8* DMFEKIIDMFL; // 0x30
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ShowBattleWhiteboxText* a2)
 	{

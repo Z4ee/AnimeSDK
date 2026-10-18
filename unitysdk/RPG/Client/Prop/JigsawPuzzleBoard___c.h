@@ -4,24 +4,24 @@
 
 namespace System { class Action; }
 
-#define RPG_CLIENT_PROP_JIGSAWPUZZLEBOARD___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xDC8DAF0)
-#define RPG_CLIENT_PROP_JIGSAWPUZZLEBOARD___C__CREATEMOVEABLEITEMFROMUI_B__33_0_OFFSET UNITYSDK_OFFSET(0xDC8DB40)
-#define RPG_CLIENT_PROP_JIGSAWPUZZLEBOARD___C__CTOR_OFFSET UNITYSDK_OFFSET(0xDC8DB30)
+#define RPG_CLIENT_PROP_JIGSAWPUZZLEBOARD___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xDD16B50)
+#define RPG_CLIENT_PROP_JIGSAWPUZZLEBOARD___C__CREATEMOVEABLEITEMFROMUI_B__33_0_OFFSET UNITYSDK_OFFSET(0xDD16BA0)
+#define RPG_CLIENT_PROP_JIGSAWPUZZLEBOARD___C__CTOR_OFFSET UNITYSDK_OFFSET(0xDD16B90)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int JigsawPuzzleBoard___c_TypeDefinitionIndex = 78180;
+	inline static constexpr unsigned int JigsawPuzzleBoard___c_TypeDefinitionIndex = 78651;
 
 	class JigsawPuzzleBoard___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__33_0()
-		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(JigsawPuzzleBoard___c_TypeDefinitionIndex)->GetStaticField(0x64D30);
-		}
 		static ::RPG::Client::Prop::JigsawPuzzleBoard___c** StaticGet___9()
 		{
-			return (::RPG::Client::Prop::JigsawPuzzleBoard___c**)Il2CppClass::FromTypeDefinitionIndex(JigsawPuzzleBoard___c_TypeDefinitionIndex)->GetStaticField(0x64D38);
+			return (::RPG::Client::Prop::JigsawPuzzleBoard___c**)Il2CppClass::FromTypeDefinitionIndex(JigsawPuzzleBoard___c_TypeDefinitionIndex)->GetStaticField(0x56E80);
+		}
+		static ::System::Action** StaticGet___9__33_0()
+		{
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(JigsawPuzzleBoard___c_TypeDefinitionIndex)->GetStaticField(0x56E88);
 		}
 
 		static ::System::Void _cctor()

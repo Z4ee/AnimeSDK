@@ -14,7 +14,7 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int SkipLast_1__SkipLast_TypeDefinitionIndex = 44443;
+	inline static constexpr unsigned int SkipLast_1__SkipLast_TypeDefinitionIndex = 45582;
 
 	template <typename TSource>
 	class SkipLast_1__SkipLast : public ::Cysharp::Threading::Tasks::MoveNextSource

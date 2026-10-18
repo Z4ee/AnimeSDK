@@ -3,7 +3,7 @@
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int AUiProgressBar_Enum_3_BEB443A01708ECF3_TypeDefinitionIndex = 48189;
+	inline static constexpr unsigned int AUiProgressBar_Enum_3_BEB443A01708ECF3_TypeDefinitionIndex = 47730;
 
 	enum class AUiProgressBar_Enum_3_BEB443A01708ECF3 : ::System::Int32
 	{

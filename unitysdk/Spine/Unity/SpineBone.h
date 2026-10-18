@@ -8,13 +8,13 @@ namespace Spine::Unity { class SkeletonDataAsset; }
 namespace Spine::Unity { class SkeletonRenderer; }
 namespace System { class String; }
 
-#define SPINE_UNITY_SPINEBONE_GETBONEDATA_OFFSET UNITYSDK_OFFSET(0x1E66BB20)
-#define SPINE_UNITY_SPINEBONE_GETBONE_OFFSET UNITYSDK_OFFSET(0x1E66BAE0)
-#define SPINE_UNITY_SPINEBONE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E66BAC0)
+#define SPINE_UNITY_SPINEBONE_GETBONEDATA_OFFSET UNITYSDK_OFFSET(0x1ED33A00)
+#define SPINE_UNITY_SPINEBONE_GETBONE_OFFSET UNITYSDK_OFFSET(0x1ED339C0)
+#define SPINE_UNITY_SPINEBONE__CTOR_OFFSET UNITYSDK_OFFSET(0x1ED339A0)
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int SpineBone_TypeDefinitionIndex = 43899;
+	inline static constexpr unsigned int SpineBone_TypeDefinitionIndex = 45091;
 
 	class SpineBone : public ::Spine::Unity::SpineAttributeBase
 	{

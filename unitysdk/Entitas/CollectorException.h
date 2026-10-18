@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define ENTITAS_COLLECTOREXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x16531B50)
+#define ENTITAS_COLLECTOREXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x16758930)
 
 namespace Entitas
 {
-	inline static constexpr unsigned int CollectorException_TypeDefinitionIndex = 9923;
+	inline static constexpr unsigned int CollectorException_TypeDefinitionIndex = 9981;
 
 	class CollectorException : public ::Entitas::EntitasException
 	{

@@ -4,12 +4,12 @@
 
 class Class_1_8CF94E0F14A91ED3_2;
 
-#define RPG_CLIENT_CHENLINGBATTLETEAMSNAPSHOT___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCB27830)
-#define RPG_CLIENT_CHENLINGBATTLETEAMSNAPSHOT___C__DISPLAYCLASS4_0___CTOR_B__0_OFFSET UNITYSDK_OFFSET(0xCB28CE0)
+#define RPG_CLIENT_CHENLINGBATTLETEAMSNAPSHOT___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCA761E0)
+#define RPG_CLIENT_CHENLINGBATTLETEAMSNAPSHOT___C__DISPLAYCLASS4_0___CTOR_B__0_OFFSET UNITYSDK_OFFSET(0xCA77690)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChenLingBattleTeamSnapshot___c__DisplayClass4_0_TypeDefinitionIndex = 61530;
+	inline static constexpr unsigned int ChenLingBattleTeamSnapshot___c__DisplayClass4_0_TypeDefinitionIndex = 61436;
 
 	class ChenLingBattleTeamSnapshot___c__DisplayClass4_0 : public ::System::Object
 	{

@@ -3,7 +3,7 @@
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int MaskInitialAlphaKind_TypeDefinitionIndex = 48766;
+	inline static constexpr unsigned int MaskInitialAlphaKind_TypeDefinitionIndex = 48306;
 
 	enum class MaskInitialAlphaKind : ::System::Int32
 	{

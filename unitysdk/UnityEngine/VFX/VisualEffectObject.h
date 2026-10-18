@@ -4,7 +4,7 @@
 
 namespace UnityEngine::VFX
 {
-	inline static constexpr unsigned int VisualEffectObject_TypeDefinitionIndex = 6035;
+	inline static constexpr unsigned int VisualEffectObject_TypeDefinitionIndex = 6043;
 
 	class VisualEffectObject : public ::UnityEngine::Object
 	{

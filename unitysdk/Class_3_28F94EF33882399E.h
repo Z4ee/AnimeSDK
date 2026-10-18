@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetTargetUniqueName; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_28F94EF33882399E_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15A297D0)
-#define CLASS_3_28F94EF33882399E__CTOR_OFFSET UNITYSDK_OFFSET(0x15A297A0)
+#define CLASS_3_28F94EF33882399E_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15D39D70)
+#define CLASS_3_28F94EF33882399E__CTOR_OFFSET UNITYSDK_OFFSET(0x15D39D40)
 
-inline static constexpr unsigned int Class_3_28F94EF33882399E_TypeDefinitionIndex = 55773;
+inline static constexpr unsigned int Class_3_28F94EF33882399E_TypeDefinitionIndex = 55581;
 
 class Class_3_28F94EF33882399E : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetTargetUniqueName*>
 {

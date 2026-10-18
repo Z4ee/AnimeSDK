@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TutorialForbidAutoBattle; }
 
-#define CLASS_3_1439BE26886BCDDC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC0905C0)
-#define CLASS_3_1439BE26886BCDDC__CTOR_OFFSET UNITYSDK_OFFSET(0xC090590)
+#define CLASS_3_1439BE26886BCDDC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBF7C890)
+#define CLASS_3_1439BE26886BCDDC__CTOR_OFFSET UNITYSDK_OFFSET(0xBF7C860)
 
-inline static constexpr unsigned int Class_3_1439BE26886BCDDC_TypeDefinitionIndex = 55970;
+inline static constexpr unsigned int Class_3_1439BE26886BCDDC_TypeDefinitionIndex = 55782;
 
 class Class_3_1439BE26886BCDDC : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::TutorialForbidAutoBattle*>
 {

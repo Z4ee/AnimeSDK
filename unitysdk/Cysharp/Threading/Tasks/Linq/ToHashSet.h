@@ -10,7 +10,7 @@ namespace System::Collections::Generic { template <typename T> class IEqualityCo
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int ToHashSet_TypeDefinitionIndex = 44543;
+	inline static constexpr unsigned int ToHashSet_TypeDefinitionIndex = 45682;
 
 	class ToHashSet : public ::System::Object
 	{

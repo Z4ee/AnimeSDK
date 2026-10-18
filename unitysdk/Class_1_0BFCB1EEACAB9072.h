@@ -13,11 +13,11 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_0BFCB1EEACAB9072_METHOD_1_5A095F0618903421_OFFSET UNITYSDK_OFFSET(0x153843A0)
-#define CLASS_1_0BFCB1EEACAB9072_METHOD_1_6475A02AD37A8BE6_OFFSET UNITYSDK_OFFSET(0x15383BD0)
-#define CLASS_1_0BFCB1EEACAB9072__CTOR_OFFSET UNITYSDK_OFFSET(0x15383B20)
+#define CLASS_1_0BFCB1EEACAB9072_METHOD_1_5A095F0618903421_OFFSET UNITYSDK_OFFSET(0x1558E1A0)
+#define CLASS_1_0BFCB1EEACAB9072_METHOD_1_6475A02AD37A8BE6_OFFSET UNITYSDK_OFFSET(0x1558D9C0)
+#define CLASS_1_0BFCB1EEACAB9072__CTOR_OFFSET UNITYSDK_OFFSET(0x1558D910)
 
-inline static constexpr unsigned int Class_1_0BFCB1EEACAB9072_TypeDefinitionIndex = 79781;
+inline static constexpr unsigned int Class_1_0BFCB1EEACAB9072_TypeDefinitionIndex = 81105;
 
 class Class_1_0BFCB1EEACAB9072 : public ::System::Object
 {

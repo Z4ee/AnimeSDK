@@ -3,7 +3,7 @@
 
 namespace RPG::QA::RemoteDebug
 {
-	inline static constexpr unsigned int RemoteDebugFrameType_TypeDefinitionIndex = 52125;
+	inline static constexpr unsigned int RemoteDebugFrameType_TypeDefinitionIndex = 51831;
 
 	enum class RemoteDebugFrameType : ::System::Byte
 	{

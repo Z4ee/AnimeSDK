@@ -2,7 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/CommonIndexKey.h"
 #include "unitysdk/RPG/GameCore/FixEnumerator_2.h"
+#include "unitysdk/RPG/ZLinq/FromFixEnumerator_2.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/ZLinq/ValueEnumerable_2.h"
 
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class LoopCGConfigRow; }
@@ -11,45 +13,46 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_LOOPCGCONFIGEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1D2148E0)
-#define RPG_GAMECORE_LOOPCGCONFIGEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1D214770)
-#define RPG_GAMECORE_LOOPCGCONFIGEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1D214690)
-#define RPG_GAMECORE_LOOPCGCONFIGEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1D214710)
-#define RPG_GAMECORE_LOOPCGCONFIGEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1D213D20)
-#define RPG_GAMECORE_LOOPCGCONFIGEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D213D60)
-#define RPG_GAMECORE_LOOPCGCONFIGEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1D213F90)
-#define RPG_GAMECORE_LOOPCGCONFIGEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D214160)
-#define RPG_GAMECORE_LOOPCGCONFIGEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1D214370)
-#define RPG_GAMECORE_LOOPCGCONFIGEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D214A30)
-#define RPG_GAMECORE_LOOPCGCONFIGEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1D2140C0)
-#define RPG_GAMECORE_LOOPCGCONFIGEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D214020)
+#define RPG_GAMECORE_LOOPCGCONFIGEXCELTABLE_ASZLINQENUMERABLE_OFFSET UNITYSDK_OFFSET(0x1D7F51D0)
+#define RPG_GAMECORE_LOOPCGCONFIGEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1D7F5250)
+#define RPG_GAMECORE_LOOPCGCONFIGEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1D7F5060)
+#define RPG_GAMECORE_LOOPCGCONFIGEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1D7F4F80)
+#define RPG_GAMECORE_LOOPCGCONFIGEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1D7F5000)
+#define RPG_GAMECORE_LOOPCGCONFIGEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1D7F4610)
+#define RPG_GAMECORE_LOOPCGCONFIGEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D7F4650)
+#define RPG_GAMECORE_LOOPCGCONFIGEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1D7F4880)
+#define RPG_GAMECORE_LOOPCGCONFIGEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D7F4A50)
+#define RPG_GAMECORE_LOOPCGCONFIGEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1D7F4C60)
+#define RPG_GAMECORE_LOOPCGCONFIGEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D7F53A0)
+#define RPG_GAMECORE_LOOPCGCONFIGEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1D7F49B0)
+#define RPG_GAMECORE_LOOPCGCONFIGEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D7F4910)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LoopCGConfigExcelTable_TypeDefinitionIndex = 15246;
+	inline static constexpr unsigned int LoopCGConfigExcelTable_TypeDefinitionIndex = 15417;
 
 	class LoopCGConfigExcelTable : public ::System::Object
 	{
 	public:
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::LoopCGConfigRow*>** StaticGet_dataDict_()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::LoopCGConfigRow*>**)Il2CppClass::FromTypeDefinitionIndex(LoopCGConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x34BE0);
+		}
 		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(LoopCGConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x529F0);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(LoopCGConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x34BE8);
 		}
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(LoopCGConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x529F8);
-		}
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::LoopCGConfigRow*>** StaticGet_dataDict_()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::LoopCGConfigRow*>**)Il2CppClass::FromTypeDefinitionIndex(LoopCGConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x52A00);
-		}
-		static ::System::Boolean* StaticGet_isDataLoaded()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(LoopCGConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x11520);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(LoopCGConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x34BF0);
 		}
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(LoopCGConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x11521);
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(LoopCGConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0xB1A0);
+		}
+		static ::System::Boolean* StaticGet_isDataLoaded()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(LoopCGConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0xB1A1);
 		}
 
 		static ::System::Void _cctor()
@@ -105,6 +108,11 @@ namespace RPG::GameCore
 		static ::RPG::GameCore::FixEnumerator_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::LoopCGConfigRow*> GetEnumerator()
 		{
 			return ((::RPG::GameCore::FixEnumerator_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::LoopCGConfigRow*>(*)())((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOOPCGCONFIGEXCELTABLE_GETENUMERATOR_OFFSET))();
+		}
+
+		static ::ZLinq::ValueEnumerable_2<::RPG::ZLinq::FromFixEnumerator_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::LoopCGConfigRow*>, ::RPG::GameCore::LoopCGConfigRow*> AsZLinqEnumerable()
+		{
+			return ((::ZLinq::ValueEnumerable_2<::RPG::ZLinq::FromFixEnumerator_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::LoopCGConfigRow*>, ::RPG::GameCore::LoopCGConfigRow*>(*)())((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOOPCGCONFIGEXCELTABLE_ASZLINQENUMERABLE_OFFSET))();
 		}
 
 		static ::RPG::GameCore::LoopCGConfigRow* GetData(::System::UInt32 a1)

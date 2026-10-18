@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_STRONGCHALLENGEBUFFROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D575780)
-#define RPG_GAMECORE_STRONGCHALLENGEBUFFROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D575870)
+#define RPG_GAMECORE_STRONGCHALLENGEBUFFROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DB2BDD0)
+#define RPG_GAMECORE_STRONGCHALLENGEBUFFROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB2BEC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StrongChallengeBuffRow_TypeDefinitionIndex = 12315;
+	inline static constexpr unsigned int StrongChallengeBuffRow_TypeDefinitionIndex = 12401;
 
 	class StrongChallengeBuffRow : public ::System::Object
 	{

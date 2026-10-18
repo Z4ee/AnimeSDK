@@ -16,116 +16,116 @@ namespace System::Reflection::Emit { class FieldBuilder; }
 namespace System::Reflection::Emit { class ILGenerator; }
 namespace System::Reflection::Emit { class MethodBuilder; }
 
-#define MESSAGEPACK_RESOLVERS_DYNAMICUNIONRESOLVER_BUILDCONSTRUCTOR_OFFSET UNITYSDK_OFFSET(0x1B6D2710)
-#define MESSAGEPACK_RESOLVERS_DYNAMICUNIONRESOLVER_BUILDDESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1B6D43F0)
-#define MESSAGEPACK_RESOLVERS_DYNAMICUNIONRESOLVER_BUILDSERIALIZE_OFFSET UNITYSDK_OFFSET(0x1B6D2FE0)
-#define MESSAGEPACK_RESOLVERS_DYNAMICUNIONRESOLVER_BUILDTYPE_OFFSET UNITYSDK_OFFSET(0x1B6D1BA0)
-#define MESSAGEPACK_RESOLVERS_DYNAMICUNIONRESOLVER_ISZEROSTARTSEQUENTIAL_OFFSET UNITYSDK_OFFSET(0x1B6D5E90)
-#define MESSAGEPACK_RESOLVERS_DYNAMICUNIONRESOLVER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B6D05A0)
-#define MESSAGEPACK_RESOLVERS_DYNAMICUNIONRESOLVER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6D1B90)
+#define MESSAGEPACK_RESOLVERS_DYNAMICUNIONRESOLVER_BUILDCONSTRUCTOR_OFFSET UNITYSDK_OFFSET(0x1BBD02F0)
+#define MESSAGEPACK_RESOLVERS_DYNAMICUNIONRESOLVER_BUILDDESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1BBD1FD0)
+#define MESSAGEPACK_RESOLVERS_DYNAMICUNIONRESOLVER_BUILDSERIALIZE_OFFSET UNITYSDK_OFFSET(0x1BBD0BC0)
+#define MESSAGEPACK_RESOLVERS_DYNAMICUNIONRESOLVER_BUILDTYPE_OFFSET UNITYSDK_OFFSET(0x1BBCF780)
+#define MESSAGEPACK_RESOLVERS_DYNAMICUNIONRESOLVER_ISZEROSTARTSEQUENTIAL_OFFSET UNITYSDK_OFFSET(0x1BBD3A70)
+#define MESSAGEPACK_RESOLVERS_DYNAMICUNIONRESOLVER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BBCE180)
+#define MESSAGEPACK_RESOLVERS_DYNAMICUNIONRESOLVER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BBCF770)
 
 namespace MessagePack::Resolvers
 {
-	inline static constexpr unsigned int DynamicUnionResolver_TypeDefinitionIndex = 7207;
+	inline static constexpr unsigned int DynamicUnionResolver_TypeDefinitionIndex = 7261;
 
 	class DynamicUnionResolver : public ::System::Object
 	{
 	public:
-		static ::System::Reflection::MethodInfo** StaticGet_intIntKeyValuePairGetValue()
+		static ::System::Reflection::MethodInfo** StaticGet_getResolverFromOptions()
 		{
-			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(DynamicUnionResolver_TypeDefinitionIndex)->GetStaticField(0x2C860);
-		}
-		static ::System::Reflection::MethodInfo** StaticGet_typeMapDictionaryAdd()
-		{
-			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(DynamicUnionResolver_TypeDefinitionIndex)->GetStaticField(0x2C868);
-		}
-		static ::System::Reflection::MethodInfo** StaticGet_intIntKeyValuePairGetKey()
-		{
-			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(DynamicUnionResolver_TypeDefinitionIndex)->GetStaticField(0x2C870);
-		}
-		static ::System::Reflection::MethodInfo** StaticGet_keyMapDictionaryTryGetValue()
-		{
-			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(DynamicUnionResolver_TypeDefinitionIndex)->GetStaticField(0x2C878);
-		}
-		static ::System::Reflection::MethodInfo** StaticGet_objectGetType()
-		{
-			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(DynamicUnionResolver_TypeDefinitionIndex)->GetStaticField(0x2C880);
-		}
-		static ::System::Reflection::ConstructorInfo** StaticGet_keyMapDictionaryConstructor()
-		{
-			return (::System::Reflection::ConstructorInfo**)Il2CppClass::FromTypeDefinitionIndex(DynamicUnionResolver_TypeDefinitionIndex)->GetStaticField(0x2C888);
-		}
-		static ::System::Func_2<::System::Type*, ::System::Reflection::MethodInfo*>** StaticGet_getDeserialize()
-		{
-			return (::System::Func_2<::System::Type*, ::System::Reflection::MethodInfo*>**)Il2CppClass::FromTypeDefinitionIndex(DynamicUnionResolver_TypeDefinitionIndex)->GetStaticField(0x2C890);
-		}
-		static ::System::Reflection::ConstructorInfo** StaticGet_typeMapDictionaryConstructor()
-		{
-			return (::System::Reflection::ConstructorInfo**)Il2CppClass::FromTypeDefinitionIndex(DynamicUnionResolver_TypeDefinitionIndex)->GetStaticField(0x2C898);
-		}
-		static ::System::Reflection::MethodInfo** StaticGet_getFormatterWithVerify()
-		{
-			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(DynamicUnionResolver_TypeDefinitionIndex)->GetStaticField(0x2C8A0);
-		}
-		static ::System::Reflection::FieldInfo** StaticGet_runtimeTypeHandleEqualityComparer()
-		{
-			return (::System::Reflection::FieldInfo**)Il2CppClass::FromTypeDefinitionIndex(DynamicUnionResolver_TypeDefinitionIndex)->GetStaticField(0x2C8A8);
-		}
-		static ::MessagePack::Resolvers::DynamicUnionResolver** StaticGet_Instance()
-		{
-			return (::MessagePack::Resolvers::DynamicUnionResolver**)Il2CppClass::FromTypeDefinitionIndex(DynamicUnionResolver_TypeDefinitionIndex)->GetStaticField(0x2C8B0);
-		}
-		static ::System::Reflection::MethodInfo** StaticGet_keyMapDictionaryAdd()
-		{
-			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(DynamicUnionResolver_TypeDefinitionIndex)->GetStaticField(0x2C8B8);
-		}
-		static ::System::Type** StaticGet_refMessagePackReader()
-		{
-			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(DynamicUnionResolver_TypeDefinitionIndex)->GetStaticField(0x2C8C0);
-		}
-		static ::MessagePack::Internal::DynamicAssemblyFactory** StaticGet_DynamicAssemblyFactory()
-		{
-			return (::MessagePack::Internal::DynamicAssemblyFactory**)Il2CppClass::FromTypeDefinitionIndex(DynamicUnionResolver_TypeDefinitionIndex)->GetStaticField(0x2C8C8);
-		}
-		static ::MessagePack::MessagePackSerializerOptions** StaticGet_Options()
-		{
-			return (::MessagePack::MessagePackSerializerOptions**)Il2CppClass::FromTypeDefinitionIndex(DynamicUnionResolver_TypeDefinitionIndex)->GetStaticField(0x2C8D0);
-		}
-		static ::System::Reflection::MethodInfo** StaticGet_typeMapDictionaryTryGetValue()
-		{
-			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(DynamicUnionResolver_TypeDefinitionIndex)->GetStaticField(0x2C8D8);
-		}
-		static ::System::Reflection::ConstructorInfo** StaticGet_objectCtor()
-		{
-			return (::System::Reflection::ConstructorInfo**)Il2CppClass::FromTypeDefinitionIndex(DynamicUnionResolver_TypeDefinitionIndex)->GetStaticField(0x2C8E0);
-		}
-		static ::System::Reflection::ConstructorInfo** StaticGet_invalidOperationExceptionConstructor()
-		{
-			return (::System::Reflection::ConstructorInfo**)Il2CppClass::FromTypeDefinitionIndex(DynamicUnionResolver_TypeDefinitionIndex)->GetStaticField(0x2C8E8);
+			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(DynamicUnionResolver_TypeDefinitionIndex)->GetStaticField(0x26650);
 		}
 		static ::System::Func_2<::System::Type*, ::System::Reflection::MethodInfo*>** StaticGet_getSerialize()
 		{
-			return (::System::Func_2<::System::Type*, ::System::Reflection::MethodInfo*>**)Il2CppClass::FromTypeDefinitionIndex(DynamicUnionResolver_TypeDefinitionIndex)->GetStaticField(0x2C8F0);
+			return (::System::Func_2<::System::Type*, ::System::Reflection::MethodInfo*>**)Il2CppClass::FromTypeDefinitionIndex(DynamicUnionResolver_TypeDefinitionIndex)->GetStaticField(0x26658);
 		}
-		static ::System::Type** StaticGet_refKvp()
+		static ::MessagePack::Internal::DynamicAssemblyFactory** StaticGet_DynamicAssemblyFactory()
 		{
-			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(DynamicUnionResolver_TypeDefinitionIndex)->GetStaticField(0x2C8F8);
+			return (::MessagePack::Internal::DynamicAssemblyFactory**)Il2CppClass::FromTypeDefinitionIndex(DynamicUnionResolver_TypeDefinitionIndex)->GetStaticField(0x26660);
+		}
+		static ::System::Reflection::MethodInfo** StaticGet_typeMapDictionaryTryGetValue()
+		{
+			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(DynamicUnionResolver_TypeDefinitionIndex)->GetStaticField(0x26668);
+		}
+		static ::System::Reflection::ConstructorInfo** StaticGet_objectCtor()
+		{
+			return (::System::Reflection::ConstructorInfo**)Il2CppClass::FromTypeDefinitionIndex(DynamicUnionResolver_TypeDefinitionIndex)->GetStaticField(0x26670);
 		}
 		static ::System::Reflection::ConstructorInfo** StaticGet_intIntKeyValuePairConstructor()
 		{
-			return (::System::Reflection::ConstructorInfo**)Il2CppClass::FromTypeDefinitionIndex(DynamicUnionResolver_TypeDefinitionIndex)->GetStaticField(0x2C900);
+			return (::System::Reflection::ConstructorInfo**)Il2CppClass::FromTypeDefinitionIndex(DynamicUnionResolver_TypeDefinitionIndex)->GetStaticField(0x26678);
+		}
+		static ::System::Reflection::ConstructorInfo** StaticGet_keyMapDictionaryConstructor()
+		{
+			return (::System::Reflection::ConstructorInfo**)Il2CppClass::FromTypeDefinitionIndex(DynamicUnionResolver_TypeDefinitionIndex)->GetStaticField(0x26680);
+		}
+		static ::System::Reflection::MethodInfo** StaticGet_objectGetType()
+		{
+			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(DynamicUnionResolver_TypeDefinitionIndex)->GetStaticField(0x26688);
+		}
+		static ::System::Reflection::MethodInfo** StaticGet_keyMapDictionaryAdd()
+		{
+			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(DynamicUnionResolver_TypeDefinitionIndex)->GetStaticField(0x26690);
+		}
+		static ::System::Type** StaticGet_refKvp()
+		{
+			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(DynamicUnionResolver_TypeDefinitionIndex)->GetStaticField(0x26698);
+		}
+		static ::MessagePack::Resolvers::DynamicUnionResolver** StaticGet_Instance()
+		{
+			return (::MessagePack::Resolvers::DynamicUnionResolver**)Il2CppClass::FromTypeDefinitionIndex(DynamicUnionResolver_TypeDefinitionIndex)->GetStaticField(0x266A0);
+		}
+		static ::System::Reflection::ConstructorInfo** StaticGet_typeMapDictionaryConstructor()
+		{
+			return (::System::Reflection::ConstructorInfo**)Il2CppClass::FromTypeDefinitionIndex(DynamicUnionResolver_TypeDefinitionIndex)->GetStaticField(0x266A8);
+		}
+		static ::System::Func_2<::System::Type*, ::System::Reflection::MethodInfo*>** StaticGet_getDeserialize()
+		{
+			return (::System::Func_2<::System::Type*, ::System::Reflection::MethodInfo*>**)Il2CppClass::FromTypeDefinitionIndex(DynamicUnionResolver_TypeDefinitionIndex)->GetStaticField(0x266B0);
+		}
+		static ::System::Reflection::ConstructorInfo** StaticGet_invalidOperationExceptionConstructor()
+		{
+			return (::System::Reflection::ConstructorInfo**)Il2CppClass::FromTypeDefinitionIndex(DynamicUnionResolver_TypeDefinitionIndex)->GetStaticField(0x266B8);
+		}
+		static ::System::Reflection::MethodInfo** StaticGet_keyMapDictionaryTryGetValue()
+		{
+			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(DynamicUnionResolver_TypeDefinitionIndex)->GetStaticField(0x266C0);
+		}
+		static ::System::Reflection::MethodInfo** StaticGet_getFormatterWithVerify()
+		{
+			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(DynamicUnionResolver_TypeDefinitionIndex)->GetStaticField(0x266C8);
+		}
+		static ::System::Reflection::MethodInfo** StaticGet_intIntKeyValuePairGetKey()
+		{
+			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(DynamicUnionResolver_TypeDefinitionIndex)->GetStaticField(0x266D0);
+		}
+		static ::System::Reflection::FieldInfo** StaticGet_runtimeTypeHandleEqualityComparer()
+		{
+			return (::System::Reflection::FieldInfo**)Il2CppClass::FromTypeDefinitionIndex(DynamicUnionResolver_TypeDefinitionIndex)->GetStaticField(0x266D8);
 		}
 		static ::System::Reflection::MethodInfo** StaticGet_getTypeHandle()
 		{
-			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(DynamicUnionResolver_TypeDefinitionIndex)->GetStaticField(0x2C908);
+			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(DynamicUnionResolver_TypeDefinitionIndex)->GetStaticField(0x266E0);
 		}
-		static ::System::Reflection::MethodInfo** StaticGet_getResolverFromOptions()
+		static ::System::Type** StaticGet_refMessagePackReader()
 		{
-			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(DynamicUnionResolver_TypeDefinitionIndex)->GetStaticField(0x2C910);
+			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(DynamicUnionResolver_TypeDefinitionIndex)->GetStaticField(0x266E8);
+		}
+		static ::System::Reflection::MethodInfo** StaticGet_typeMapDictionaryAdd()
+		{
+			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(DynamicUnionResolver_TypeDefinitionIndex)->GetStaticField(0x266F0);
+		}
+		static ::MessagePack::MessagePackSerializerOptions** StaticGet_Options()
+		{
+			return (::MessagePack::MessagePackSerializerOptions**)Il2CppClass::FromTypeDefinitionIndex(DynamicUnionResolver_TypeDefinitionIndex)->GetStaticField(0x266F8);
+		}
+		static ::System::Reflection::MethodInfo** StaticGet_intIntKeyValuePairGetValue()
+		{
+			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(DynamicUnionResolver_TypeDefinitionIndex)->GetStaticField(0x26700);
 		}
 		static ::System::Int32* StaticGet_nameSequence()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DynamicUnionResolver_TypeDefinitionIndex)->GetStaticField(0xCBA0);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DynamicUnionResolver_TypeDefinitionIndex)->GetStaticField(0x83F0);
 		}
 
 		static ::System::Void _cctor()

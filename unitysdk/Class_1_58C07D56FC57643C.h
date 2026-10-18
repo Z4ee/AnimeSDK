@@ -6,15 +6,15 @@
 namespace EnviromentSystem { class EnviromentClip_OnEnvironmentClipLoadDelegate; }
 namespace EnviromentSystem { class EnviromentProfile; }
 
-#define CLASS_1_58C07D56FC57643C__CTOR_OFFSET UNITYSDK_OFFSET(0x15942700)
+#define CLASS_1_58C07D56FC57643C__CTOR_OFFSET UNITYSDK_OFFSET(0x15C94980)
 
-inline static constexpr unsigned int Class_1_58C07D56FC57643C_TypeDefinitionIndex = 69746;
+inline static constexpr unsigned int Class_1_58C07D56FC57643C_TypeDefinitionIndex = 69781;
 
 class Class_1_58C07D56FC57643C : public ::System::Object
 {
 public:
-	::EnviromentSystem::EnviromentClip_OnEnvironmentClipLoadDelegate* LDANGAKKLHM; // 0x10
-	::EnviromentSystem::EnviromentProfile* EJHLGMEBPBG; // 0x18
+	::EnviromentSystem::EnviromentProfile* EJHLGMEBPBG; // 0x10
+	::EnviromentSystem::EnviromentClip_OnEnvironmentClipLoadDelegate* LDANGAKKLHM; // 0x18
 	::RPG::GameCore::EnviromentControlPriority JGLBEJOIDLK; // 0x20
 	::System::Int32 PHCHCBKAEFH; // 0x24
 

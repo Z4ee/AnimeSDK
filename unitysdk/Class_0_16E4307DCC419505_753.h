@@ -1,9 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-namespace BansheeGz::BGSpline::Components { class BGCcMath; }
+class Class_0_16E4307DCC419505_752;
+namespace System { class String; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_753_TypeDefinitionIndex = 62429;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_753_TypeDefinitionIndex = 59826;
 
 class Class_0_16E4307DCC419505_753
 {

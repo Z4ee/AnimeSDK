@@ -5,24 +5,24 @@
 namespace RPG::Client { class RenderTestPageContext_AnimationDropDownItem; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_RENDERTESTPAGECONTEXT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xDE638D0)
-#define RPG_CLIENT_RENDERTESTPAGECONTEXT___C__CTOR_OFFSET UNITYSDK_OFFSET(0xDE63910)
-#define RPG_CLIENT_RENDERTESTPAGECONTEXT___C___INITANIMATIONDROPDOWN_B__55_0_OFFSET UNITYSDK_OFFSET(0xDE63920)
+#define RPG_CLIENT_RENDERTESTPAGECONTEXT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xDEB1E70)
+#define RPG_CLIENT_RENDERTESTPAGECONTEXT___C__CTOR_OFFSET UNITYSDK_OFFSET(0xDEB1EB0)
+#define RPG_CLIENT_RENDERTESTPAGECONTEXT___C___INITANIMATIONDROPDOWN_B__55_0_OFFSET UNITYSDK_OFFSET(0xDEB1EC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RenderTestPageContext___c_TypeDefinitionIndex = 72783;
+	inline static constexpr unsigned int RenderTestPageContext___c_TypeDefinitionIndex = 72866;
 
 	class RenderTestPageContext___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::RenderTestPageContext___c** StaticGet___9()
-		{
-			return (::RPG::Client::RenderTestPageContext___c**)Il2CppClass::FromTypeDefinitionIndex(RenderTestPageContext___c_TypeDefinitionIndex)->GetStaticField(0x61580);
-		}
 		static ::System::Comparison_1<::RPG::Client::RenderTestPageContext_AnimationDropDownItem*>** StaticGet___9__55_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::RenderTestPageContext_AnimationDropDownItem*>**)Il2CppClass::FromTypeDefinitionIndex(RenderTestPageContext___c_TypeDefinitionIndex)->GetStaticField(0x61588);
+			return (::System::Comparison_1<::RPG::Client::RenderTestPageContext_AnimationDropDownItem*>**)Il2CppClass::FromTypeDefinitionIndex(RenderTestPageContext___c_TypeDefinitionIndex)->GetStaticField(0x5B4C0);
+		}
+		static ::RPG::Client::RenderTestPageContext___c** StaticGet___9()
+		{
+			return (::RPG::Client::RenderTestPageContext___c**)Il2CppClass::FromTypeDefinitionIndex(RenderTestPageContext___c_TypeDefinitionIndex)->GetStaticField(0x5B4C8);
 		}
 
 		static ::System::Void _cctor()

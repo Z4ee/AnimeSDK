@@ -5,29 +5,29 @@
 namespace RPG::GameCore { class CycleScoreRewardRow; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_CYCLESCORE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xCC92000)
-#define RPG_CLIENT_CYCLESCORE___C__CTOR_OFFSET UNITYSDK_OFFSET(0xCC92030)
-#define RPG_CLIENT_CYCLESCORE___C__GETCANTAKEREWARDSCORERANKS_B__2_1_OFFSET UNITYSDK_OFFSET(0xCC92040)
-#define RPG_CLIENT_CYCLESCORE___C___GETMAXSCORE_B__8_0_OFFSET UNITYSDK_OFFSET(0xCC92060)
+#define RPG_CLIENT_CYCLESCORE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xCBE55F0)
+#define RPG_CLIENT_CYCLESCORE___C__CTOR_OFFSET UNITYSDK_OFFSET(0xCBE5620)
+#define RPG_CLIENT_CYCLESCORE___C__GETCANTAKEREWARDSCORERANKS_B__2_1_OFFSET UNITYSDK_OFFSET(0xCBE5630)
+#define RPG_CLIENT_CYCLESCORE___C___GETMAXSCORE_B__9_0_OFFSET UNITYSDK_OFFSET(0xCBE5650)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CycleScore___c_TypeDefinitionIndex = 63605;
+	inline static constexpr unsigned int CycleScore___c_TypeDefinitionIndex = 63543;
 
 	class CycleScore___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::GameCore::CycleScoreRewardRow*, ::System::UInt32>** StaticGet___9__8_0()
+		static ::System::Func_2<::RPG::GameCore::CycleScoreRewardRow*, ::System::UInt32>** StaticGet___9__9_0()
 		{
-			return (::System::Func_2<::RPG::GameCore::CycleScoreRewardRow*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(CycleScore___c_TypeDefinitionIndex)->GetStaticField(0x5BCA0);
+			return (::System::Func_2<::RPG::GameCore::CycleScoreRewardRow*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(CycleScore___c_TypeDefinitionIndex)->GetStaticField(0x1FA40);
 		}
 		static ::System::Func_2<::RPG::GameCore::CycleScoreRewardRow*, ::System::UInt32>** StaticGet___9__2_1()
 		{
-			return (::System::Func_2<::RPG::GameCore::CycleScoreRewardRow*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(CycleScore___c_TypeDefinitionIndex)->GetStaticField(0x5BCA8);
+			return (::System::Func_2<::RPG::GameCore::CycleScoreRewardRow*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(CycleScore___c_TypeDefinitionIndex)->GetStaticField(0x1FA48);
 		}
 		static ::RPG::Client::CycleScore___c** StaticGet___9()
 		{
-			return (::RPG::Client::CycleScore___c**)Il2CppClass::FromTypeDefinitionIndex(CycleScore___c_TypeDefinitionIndex)->GetStaticField(0x5BCB0);
+			return (::RPG::Client::CycleScore___c**)Il2CppClass::FromTypeDefinitionIndex(CycleScore___c_TypeDefinitionIndex)->GetStaticField(0x1FA50);
 		}
 
 		static ::System::Void _cctor()
@@ -45,9 +45,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID, ::RPG::GameCore::CycleScoreRewardRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CYCLESCORE___C__GETCANTAKEREWARDSCORERANKS_B__2_1_OFFSET))(this, a1);
 		}
 
-		::System::UInt32 __GetMaxScore_b__8_0(::RPG::GameCore::CycleScoreRewardRow* a1)
+		::System::UInt32 __GetMaxScore_b__9_0(::RPG::GameCore::CycleScoreRewardRow* a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::RPG::GameCore::CycleScoreRewardRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CYCLESCORE___C___GETMAXSCORE_B__8_0_OFFSET))(this, a1);
+			return ((::System::UInt32(*)(::PVOID, ::RPG::GameCore::CycleScoreRewardRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CYCLESCORE___C___GETMAXSCORE_B__9_0_OFFSET))(this, a1);
 		}
 	};
 }

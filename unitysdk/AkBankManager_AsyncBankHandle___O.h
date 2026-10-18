@@ -4,13 +4,13 @@
 
 class AkCallbackManager_BankCallback;
 
-inline static constexpr unsigned int AkBankManager_AsyncBankHandle___O_TypeDefinitionIndex = 43627;
+inline static constexpr unsigned int AkBankManager_AsyncBankHandle___O_TypeDefinitionIndex = 44819;
 
 class AkBankManager_AsyncBankHandle___O : public ::System::Object
 {
 public:
 	static ::AkCallbackManager_BankCallback** StaticGet__0___GlobalBankCallback()
 	{
-		return (::AkCallbackManager_BankCallback**)Il2CppClass::FromTypeDefinitionIndex(AkBankManager_AsyncBankHandle___O_TypeDefinitionIndex)->GetStaticField(0xF010);
+		return (::AkCallbackManager_BankCallback**)Il2CppClass::FromTypeDefinitionIndex(AkBankManager_AsyncBankHandle___O_TypeDefinitionIndex)->GetStaticField(0x1EB0);
 	}
 };

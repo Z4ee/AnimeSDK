@@ -8,12 +8,12 @@ namespace RPG::GameCore { class TutorialGuideTalkListAdaptConfig; }
 namespace RPG::GameCore { class TutorialGuideTextAdaptConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TUTORIALJSONCONFIG_METHOD_2_3C87CCB58E0C4CAF_OFFSET UNITYSDK_OFFSET(0x1D618600)
-#define RPG_GAMECORE_TUTORIALJSONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D618A00)
+#define RPG_GAMECORE_TUTORIALJSONCONFIG_METHOD_2_3C87CCB58E0C4CAF_OFFSET UNITYSDK_OFFSET(0x1DC6C860)
+#define RPG_GAMECORE_TUTORIALJSONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1DC6CC60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TutorialJsonConfig_TypeDefinitionIndex = 24118;
+	inline static constexpr unsigned int TutorialJsonConfig_TypeDefinitionIndex = 24397;
 
 	class TutorialJsonConfig : public ::RPG::GameCore::JsonConfig
 	{

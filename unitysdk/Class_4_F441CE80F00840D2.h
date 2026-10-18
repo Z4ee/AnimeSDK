@@ -6,17 +6,17 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class BaseLittleGameAbilityEffectConfig; }
 namespace RPG::GameCore { class BaseLittleGameAbilityTargetSelectorConfig; }
 
-#define CLASS_4_F441CE80F00840D2_METHOD_4_2D9EFFF687EE2FD2_OFFSET UNITYSDK_OFFSET(0x1C8D5260)
-#define CLASS_4_F441CE80F00840D2_METHOD_4_BCFF597281DB664F_OFFSET UNITYSDK_OFFSET(0x1C8D5220)
-#define CLASS_4_F441CE80F00840D2__CTOR_OFFSET UNITYSDK_OFFSET(0x1C8D5250)
+#define CLASS_4_F441CE80F00840D2_METHOD_4_2D9EFFF687EE2FD2_OFFSET UNITYSDK_OFFSET(0x1CE75F50)
+#define CLASS_4_F441CE80F00840D2_METHOD_4_BCFF597281DB664F_OFFSET UNITYSDK_OFFSET(0x1CE75F10)
+#define CLASS_4_F441CE80F00840D2__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE75F40)
 
-inline static constexpr unsigned int Class_4_F441CE80F00840D2_TypeDefinitionIndex = 21148;
+inline static constexpr unsigned int Class_4_F441CE80F00840D2_TypeDefinitionIndex = 21394;
 
 class Class_4_F441CE80F00840D2 : public ::RPG::GameCore::BaseLittleGameAbilityTaskConfig
 {
 public:
-	::RPG::GameCore::BaseLittleGameAbilityTargetSelectorConfig* GLGKAHCEPIL; // 0x18
-	::RPG::GameCore::BaseLittleGameAbilityEffectConfig* HPBAMMEFDMK; // 0x20
+	::RPG::GameCore::BaseLittleGameAbilityEffectConfig* HPBAMMEFDMK; // 0x18
+	::RPG::GameCore::BaseLittleGameAbilityTargetSelectorConfig* GLGKAHCEPIL; // 0x20
 
 	::System::Void _ctor()
 	{

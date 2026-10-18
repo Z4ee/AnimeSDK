@@ -4,9 +4,9 @@
 
 namespace RPG { template <typename T> class PoolList_1; }
 
-#define STRUCT_2_3CD9105722AE33FC_METHOD_2_FBD073B27945E0E4_OFFSET UNITYSDK_OFFSET(0x2DF96D0)
+#define STRUCT_2_3CD9105722AE33FC_METHOD_2_FBD073B27945E0E4_OFFSET UNITYSDK_OFFSET(0x12CB0)
 
-inline static constexpr unsigned int Struct_2_3CD9105722AE33FC_TypeDefinitionIndex = 56474;
+inline static constexpr unsigned int Struct_2_3CD9105722AE33FC_TypeDefinitionIndex = 56287;
 
 struct alignas(4) Struct_2_3CD9105722AE33FC
 {

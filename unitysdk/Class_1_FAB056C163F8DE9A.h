@@ -1,0 +1,90 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Enum_3_0A3761FE34514D6C_11.h"
+#include "unitysdk/RPG/Client/TextID.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_23F7D0751AC9784C;
+class Class_1_42FEB2F35536B983;
+class Class_1_649E718EC2F98478;
+class Class_1_72C17B1D77CF0527;
+class Class_1_91128CD6AC842757;
+namespace RPG::Client::SocialPlay { class SocialPlayMapInfo; }
+namespace RPG::Client::SocialPlay { class SocialPlayMapUIBridge; }
+namespace System { class String; }
+
+#define CLASS_1_FAB056C163F8DE9A_GET_MAPINFO_OFFSET UNITYSDK_OFFSET(0xB3FC7B0)
+#define CLASS_1_FAB056C163F8DE9A_METHOD_1_3617ADA7F9086B3B_OFFSET UNITYSDK_OFFSET(0xB3EC9B0)
+#define CLASS_1_FAB056C163F8DE9A_METHOD_1_5C8114BF4D4354A1_OFFSET UNITYSDK_OFFSET(0xB3FC7C0)
+#define CLASS_1_FAB056C163F8DE9A_METHOD_1_C758A15AB345A543_OFFSET UNITYSDK_OFFSET(0xB3FC750)
+#define CLASS_1_FAB056C163F8DE9A_METHOD_1_CA373AA1C7054598_1_OFFSET UNITYSDK_OFFSET(0xB3FC630)
+#define CLASS_1_FAB056C163F8DE9A_METHOD_1_CA373AA1C7054598_2_OFFSET UNITYSDK_OFFSET(0xB3FC710)
+#define CLASS_1_FAB056C163F8DE9A_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xB3FC5F0)
+#define CLASS_1_FAB056C163F8DE9A_METHOD_1_E9A575D18A0748D9_1_OFFSET UNITYSDK_OFFSET(0xB3FC6C0)
+#define CLASS_1_FAB056C163F8DE9A_METHOD_1_E9A575D18A0748D9_OFFSET UNITYSDK_OFFSET(0xB3FC670)
+#define CLASS_1_FAB056C163F8DE9A_METHOD_1_F63EA1BD001666D8_OFFSET UNITYSDK_OFFSET(0xB3ED300)
+#define CLASS_1_FAB056C163F8DE9A__CTOR_OFFSET UNITYSDK_OFFSET(0xB3EC7B0)
+
+inline static constexpr unsigned int Class_1_FAB056C163F8DE9A_TypeDefinitionIndex = 74493;
+
+class Class_1_FAB056C163F8DE9A : public ::System::Object
+{
+public:
+	::RPG::Client::SocialPlay::SocialPlayMapUIBridge* OMKPPEBPDPE; // 0x10
+	::RPG::Client::SocialPlay::SocialPlayMapInfo* _MapInfo_k__BackingField; // 0x18
+
+	::System::Void _ctor(::System::UInt32 a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_FAB056C163F8DE9A__CTOR_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_CA373AA1C7054598()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_FAB056C163F8DE9A_METHOD_1_CA373AA1C7054598_OFFSET))(this);
+	}
+
+	::System::Void Method_1_CA373AA1C7054598_1()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_FAB056C163F8DE9A_METHOD_1_CA373AA1C7054598_1_OFFSET))(this);
+	}
+
+	::System::Void Method_1_3617ADA7F9086B3B(::Class_1_72C17B1D77CF0527* a1, ::Enum_3_0A3761FE34514D6C_11 a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_72C17B1D77CF0527*, ::Enum_3_0A3761FE34514D6C_11))((::PBYTE)hIl2Cpp + CLASS_1_FAB056C163F8DE9A_METHOD_1_3617ADA7F9086B3B_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_1_E9A575D18A0748D9(::Class_1_91128CD6AC842757* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_91128CD6AC842757*))((::PBYTE)hIl2Cpp + CLASS_1_FAB056C163F8DE9A_METHOD_1_E9A575D18A0748D9_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_E9A575D18A0748D9_1(::Class_1_649E718EC2F98478* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_649E718EC2F98478*))((::PBYTE)hIl2Cpp + CLASS_1_FAB056C163F8DE9A_METHOD_1_E9A575D18A0748D9_1_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_CA373AA1C7054598_2()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_FAB056C163F8DE9A_METHOD_1_CA373AA1C7054598_2_OFFSET))(this);
+	}
+
+	::System::Boolean Method_1_F63EA1BD001666D8(::System::UInt32 a1, ::Class_1_23F7D0751AC9784C* a2, ::RPG::Client::TextID& a3)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::System::UInt32, ::Class_1_23F7D0751AC9784C*, ::RPG::Client::TextID&))((::PBYTE)hIl2Cpp + CLASS_1_FAB056C163F8DE9A_METHOD_1_F63EA1BD001666D8_OFFSET))(this, a1, a2, a3);
+	}
+
+	::System::String* Method_1_C758A15AB345A543(::System::UInt32 a1)
+	{
+		return ((::System::String*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_FAB056C163F8DE9A_METHOD_1_C758A15AB345A543_OFFSET))(this, a1);
+	}
+
+	::RPG::Client::SocialPlay::SocialPlayMapInfo* get_MapInfo()
+	{
+		return ((::RPG::Client::SocialPlay::SocialPlayMapInfo*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_FAB056C163F8DE9A_GET_MAPINFO_OFFSET))(this);
+	}
+
+	::RPG::Client::SocialPlay::SocialPlayMapUIBridge* Method_1_5C8114BF4D4354A1()
+	{
+		return ((::RPG::Client::SocialPlay::SocialPlayMapUIBridge*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_FAB056C163F8DE9A_METHOD_1_5C8114BF4D4354A1_OFFSET))(this);
+	}
+};

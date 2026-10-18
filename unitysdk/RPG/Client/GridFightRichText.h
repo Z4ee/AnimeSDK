@@ -4,38 +4,38 @@
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_43BD383C98B4C0C5_115;
+class Class_1_43BD383C98B4C0C5_116;
 class Class_1_89306F51165107EE;
 class Class_1_993DBED7F998012B;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define RPG_CLIENT_GRIDFIGHTRICHTEXT_COMPILE_1_OFFSET UNITYSDK_OFFSET(0xD2F9160)
-#define RPG_CLIENT_GRIDFIGHTRICHTEXT_COMPILE_2_OFFSET UNITYSDK_OFFSET(0xD2F9280)
-#define RPG_CLIENT_GRIDFIGHTRICHTEXT_COMPILE_3_OFFSET UNITYSDK_OFFSET(0xD2E6BB0)
-#define RPG_CLIENT_GRIDFIGHTRICHTEXT_COMPILE_4_OFFSET UNITYSDK_OFFSET(0xD2F9480)
-#define RPG_CLIENT_GRIDFIGHTRICHTEXT_COMPILE_5_OFFSET UNITYSDK_OFFSET(0xD2E7200)
-#define RPG_CLIENT_GRIDFIGHTRICHTEXT_COMPILE_6_OFFSET UNITYSDK_OFFSET(0xD2F93A0)
-#define RPG_CLIENT_GRIDFIGHTRICHTEXT_COMPILE_7_OFFSET UNITYSDK_OFFSET(0xD2F9550)
-#define RPG_CLIENT_GRIDFIGHTRICHTEXT_COMPILE_8_OFFSET UNITYSDK_OFFSET(0xD2F9090)
-#define RPG_CLIENT_GRIDFIGHTRICHTEXT_COMPILE_OFFSET UNITYSDK_OFFSET(0xD2F8F80)
-#define RPG_CLIENT_GRIDFIGHTRICHTEXT__CCTOR_OFFSET UNITYSDK_OFFSET(0xD2F9640)
-#define RPG_CLIENT_GRIDFIGHTRICHTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xD2F9630)
+#define RPG_CLIENT_GRIDFIGHTRICHTEXT_COMPILE_1_OFFSET UNITYSDK_OFFSET(0xD1F0230)
+#define RPG_CLIENT_GRIDFIGHTRICHTEXT_COMPILE_2_OFFSET UNITYSDK_OFFSET(0xD1F0350)
+#define RPG_CLIENT_GRIDFIGHTRICHTEXT_COMPILE_3_OFFSET UNITYSDK_OFFSET(0xD1DE360)
+#define RPG_CLIENT_GRIDFIGHTRICHTEXT_COMPILE_4_OFFSET UNITYSDK_OFFSET(0xD1F0550)
+#define RPG_CLIENT_GRIDFIGHTRICHTEXT_COMPILE_5_OFFSET UNITYSDK_OFFSET(0xD1DE9B0)
+#define RPG_CLIENT_GRIDFIGHTRICHTEXT_COMPILE_6_OFFSET UNITYSDK_OFFSET(0xD1F0470)
+#define RPG_CLIENT_GRIDFIGHTRICHTEXT_COMPILE_7_OFFSET UNITYSDK_OFFSET(0xD1F0620)
+#define RPG_CLIENT_GRIDFIGHTRICHTEXT_COMPILE_8_OFFSET UNITYSDK_OFFSET(0xD1F0160)
+#define RPG_CLIENT_GRIDFIGHTRICHTEXT_COMPILE_OFFSET UNITYSDK_OFFSET(0xD1F0050)
+#define RPG_CLIENT_GRIDFIGHTRICHTEXT__CCTOR_OFFSET UNITYSDK_OFFSET(0xD1F0710)
+#define RPG_CLIENT_GRIDFIGHTRICHTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xD1F0700)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightRichText_TypeDefinitionIndex = 65367;
+	inline static constexpr unsigned int GridFightRichText_TypeDefinitionIndex = 65307;
 
 	class GridFightRichText : public ::System::Object
 	{
 	public:
 		static ::Class_1_993DBED7F998012B** StaticGet__Parser()
 		{
-			return (::Class_1_993DBED7F998012B**)Il2CppClass::FromTypeDefinitionIndex(GridFightRichText_TypeDefinitionIndex)->GetStaticField(0x443E0);
+			return (::Class_1_993DBED7F998012B**)Il2CppClass::FromTypeDefinitionIndex(GridFightRichText_TypeDefinitionIndex)->GetStaticField(0x6E240);
 		}
 		static ::Class_1_89306F51165107EE** StaticGet__Compiler()
 		{
-			return (::Class_1_89306F51165107EE**)Il2CppClass::FromTypeDefinitionIndex(GridFightRichText_TypeDefinitionIndex)->GetStaticField(0x443E8);
+			return (::Class_1_89306F51165107EE**)Il2CppClass::FromTypeDefinitionIndex(GridFightRichText_TypeDefinitionIndex)->GetStaticField(0x6E248);
 		}
 
 		::System::Void _ctor()
@@ -53,19 +53,19 @@ namespace RPG::Client
 			return ((::System::String*(*)(::RPG::Client::TextID, ::Il2CppArray<::RPG::GameCore::FixPoint>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTRICHTEXT_COMPILE_OFFSET))(a1, a2);
 		}
 
-		static ::System::String* Compile_1(::RPG::Client::TextID a1, ::Il2CppArray<::RPG::GameCore::FixPoint>* a2, ::Class_1_43BD383C98B4C0C5_115* a3)
+		static ::System::String* Compile_1(::RPG::Client::TextID a1, ::Il2CppArray<::RPG::GameCore::FixPoint>* a2, ::Class_1_43BD383C98B4C0C5_116* a3)
 		{
-			return ((::System::String*(*)(::RPG::Client::TextID, ::Il2CppArray<::RPG::GameCore::FixPoint>*, ::Class_1_43BD383C98B4C0C5_115*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTRICHTEXT_COMPILE_1_OFFSET))(a1, a2, a3);
+			return ((::System::String*(*)(::RPG::Client::TextID, ::Il2CppArray<::RPG::GameCore::FixPoint>*, ::Class_1_43BD383C98B4C0C5_116*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTRICHTEXT_COMPILE_1_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::String* Compile_2(::RPG::Client::TextID a1, ::Il2CppArray<::RPG::GameCore::FixPoint>* a2, ::System::Collections::Generic::IEnumerable_1<::Class_1_43BD383C98B4C0C5_115*>* a3)
+		static ::System::String* Compile_2(::RPG::Client::TextID a1, ::Il2CppArray<::RPG::GameCore::FixPoint>* a2, ::System::Collections::Generic::IEnumerable_1<::Class_1_43BD383C98B4C0C5_116*>* a3)
 		{
-			return ((::System::String*(*)(::RPG::Client::TextID, ::Il2CppArray<::RPG::GameCore::FixPoint>*, ::System::Collections::Generic::IEnumerable_1<::Class_1_43BD383C98B4C0C5_115*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTRICHTEXT_COMPILE_2_OFFSET))(a1, a2, a3);
+			return ((::System::String*(*)(::RPG::Client::TextID, ::Il2CppArray<::RPG::GameCore::FixPoint>*, ::System::Collections::Generic::IEnumerable_1<::Class_1_43BD383C98B4C0C5_116*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTRICHTEXT_COMPILE_2_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::String* Compile_3(::RPG::Client::TextID a1, ::Il2CppArray<::RPG::GameCore::FixPoint>* a2, ::Il2CppArray<::Class_1_43BD383C98B4C0C5_115*>* a3)
+		static ::System::String* Compile_3(::RPG::Client::TextID a1, ::Il2CppArray<::RPG::GameCore::FixPoint>* a2, ::Il2CppArray<::Class_1_43BD383C98B4C0C5_116*>* a3)
 		{
-			return ((::System::String*(*)(::RPG::Client::TextID, ::Il2CppArray<::RPG::GameCore::FixPoint>*, ::Il2CppArray<::Class_1_43BD383C98B4C0C5_115*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTRICHTEXT_COMPILE_3_OFFSET))(a1, a2, a3);
+			return ((::System::String*(*)(::RPG::Client::TextID, ::Il2CppArray<::RPG::GameCore::FixPoint>*, ::Il2CppArray<::Class_1_43BD383C98B4C0C5_116*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTRICHTEXT_COMPILE_3_OFFSET))(a1, a2, a3);
 		}
 
 		static ::System::String* Compile_4(::RPG::Client::TextID a1)
@@ -73,19 +73,19 @@ namespace RPG::Client
 			return ((::System::String*(*)(::RPG::Client::TextID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTRICHTEXT_COMPILE_4_OFFSET))(a1);
 		}
 
-		static ::System::String* Compile_5(::System::String* a1, ::Class_1_43BD383C98B4C0C5_115* a2)
+		static ::System::String* Compile_5(::System::String* a1, ::Class_1_43BD383C98B4C0C5_116* a2)
 		{
-			return ((::System::String*(*)(::System::String*, ::Class_1_43BD383C98B4C0C5_115*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTRICHTEXT_COMPILE_5_OFFSET))(a1, a2);
+			return ((::System::String*(*)(::System::String*, ::Class_1_43BD383C98B4C0C5_116*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTRICHTEXT_COMPILE_5_OFFSET))(a1, a2);
 		}
 
-		static ::System::String* Compile_6(::System::String* a1, ::System::Collections::Generic::IEnumerable_1<::Class_1_43BD383C98B4C0C5_115*>* a2)
+		static ::System::String* Compile_6(::System::String* a1, ::System::Collections::Generic::IEnumerable_1<::Class_1_43BD383C98B4C0C5_116*>* a2)
 		{
-			return ((::System::String*(*)(::System::String*, ::System::Collections::Generic::IEnumerable_1<::Class_1_43BD383C98B4C0C5_115*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTRICHTEXT_COMPILE_6_OFFSET))(a1, a2);
+			return ((::System::String*(*)(::System::String*, ::System::Collections::Generic::IEnumerable_1<::Class_1_43BD383C98B4C0C5_116*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTRICHTEXT_COMPILE_6_OFFSET))(a1, a2);
 		}
 
-		static ::System::String* Compile_7(::System::String* a1, ::Il2CppArray<::Class_1_43BD383C98B4C0C5_115*>* a2)
+		static ::System::String* Compile_7(::System::String* a1, ::Il2CppArray<::Class_1_43BD383C98B4C0C5_116*>* a2)
 		{
-			return ((::System::String*(*)(::System::String*, ::Il2CppArray<::Class_1_43BD383C98B4C0C5_115*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTRICHTEXT_COMPILE_7_OFFSET))(a1, a2);
+			return ((::System::String*(*)(::System::String*, ::Il2CppArray<::Class_1_43BD383C98B4C0C5_116*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTRICHTEXT_COMPILE_7_OFFSET))(a1, a2);
 		}
 
 		static ::System::String* Compile_8(::System::String* a1)

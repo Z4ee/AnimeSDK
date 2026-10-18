@@ -5,9 +5,9 @@
 namespace RPG::GameCore { class ChimeraDuelStatusConfig; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_F66C651DDDD513C2__CTOR_OFFSET UNITYSDK_OFFSET(0x1C541B80)
+#define CLASS_1_F66C651DDDD513C2__CTOR_OFFSET UNITYSDK_OFFSET(0x1CAB56F0)
 
-inline static constexpr unsigned int Class_1_F66C651DDDD513C2_TypeDefinitionIndex = 40371;
+inline static constexpr unsigned int Class_1_F66C651DDDD513C2_TypeDefinitionIndex = 41956;
 
 class Class_1_F66C651DDDD513C2 : public ::System::Object
 {

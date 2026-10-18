@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace System::Threading::Tasks
 {
-	inline static constexpr unsigned int ValueTask_1_TypeDefinitionIndex = 6668;
+	inline static constexpr unsigned int ValueTask_1_TypeDefinitionIndex = 6677;
 
 	template <typename TResult>
 	struct ValueTask_1

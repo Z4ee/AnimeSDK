@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_CHALLENGEPEAKUTILS___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCAB9A10)
-#define RPG_CLIENT_CHALLENGEPEAKUTILS___C__DISPLAYCLASS4_0__STARTGAME_B__0_OFFSET UNITYSDK_OFFSET(0xCABA0F0)
-#define RPG_CLIENT_CHALLENGEPEAKUTILS___C__DISPLAYCLASS4_0__STARTGAME_B__1_OFFSET UNITYSDK_OFFSET(0xCABA1D0)
+#define RPG_CLIENT_CHALLENGEPEAKUTILS___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC9BAC20)
+#define RPG_CLIENT_CHALLENGEPEAKUTILS___C__DISPLAYCLASS4_0__STARTGAME_B__0_OFFSET UNITYSDK_OFFSET(0xC9BB310)
+#define RPG_CLIENT_CHALLENGEPEAKUTILS___C__DISPLAYCLASS4_0__STARTGAME_B__1_OFFSET UNITYSDK_OFFSET(0xC9BB3F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChallengePeakUtils___c__DisplayClass4_0_TypeDefinitionIndex = 63265;
+	inline static constexpr unsigned int ChallengePeakUtils___c__DisplayClass4_0_TypeDefinitionIndex = 63198;
 
 	class ChallengePeakUtils___c__DisplayClass4_0 : public ::System::Object
 	{

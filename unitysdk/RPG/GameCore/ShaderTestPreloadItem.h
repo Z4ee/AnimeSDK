@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_SHADERTESTPRELOADITEM_METHOD_2_FEF873999D24BE9D_OFFSET UNITYSDK_OFFSET(0x1D51A430)
-#define RPG_GAMECORE_SHADERTESTPRELOADITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1D51A520)
+#define RPG_GAMECORE_SHADERTESTPRELOADITEM_METHOD_2_FEF873999D24BE9D_OFFSET UNITYSDK_OFFSET(0x1DACEC30)
+#define RPG_GAMECORE_SHADERTESTPRELOADITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1DACED20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShaderTestPreloadItem_TypeDefinitionIndex = 16182;
+	inline static constexpr unsigned int ShaderTestPreloadItem_TypeDefinitionIndex = 16355;
 
 	class ShaderTestPreloadItem : public ::RPG::GameCore::JsonConfig
 	{

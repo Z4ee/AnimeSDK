@@ -1,50 +1,44 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/GameCore/FixPoint.h"
-#include "unitysdk/RPG/GameCore/PixAirEnchantmentType.h"
-#include "unitysdk/RPG/GameCore/PixAirEquipTag.h"
-#include "unitysdk/RPG/GameCore/PixAirSlotType.h"
+#include "unitysdk/RPG/Client/LittleGame/RoadRash/EImpactForbidReason.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/UnityEngine/Quaternion.h"
-#include "unitysdk/UnityEngine/Vector3.h"
 
-class Class_1_5F1329F544AC1AFF;
+class Class_1_9A6B8444E37C7412;
+class Class_1_BE051CF6859EA9BA;
+namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_43BD383C98B4C0C5_108_METHOD_1_C74CF020AA42ED85_OFFSET UNITYSDK_OFFSET(0x1C487B20)
-#define CLASS_1_43BD383C98B4C0C5_108__CTOR_OFFSET UNITYSDK_OFFSET(0x1C487B30)
+#define CLASS_1_43BD383C98B4C0C5_108__CTOR_OFFSET UNITYSDK_OFFSET(0x1C90F510)
 
-inline static constexpr unsigned int Class_1_43BD383C98B4C0C5_108_TypeDefinitionIndex = 42044;
+inline static constexpr unsigned int Class_1_43BD383C98B4C0C5_108_TypeDefinitionIndex = 42913;
 
 class Class_1_43BD383C98B4C0C5_108 : public ::System::Object
 {
 public:
-	::Il2CppArray<::Class_1_5F1329F544AC1AFF*>* JIILNFBDFDK; // 0x10
-	::Il2CppArray<::RPG::GameCore::PixAirEquipTag>* DCLGGMAEMAO; // 0x18
-	::RPG::GameCore::FixPoint FIDNHPLBGAO; // 0x20
-	::RPG::GameCore::PixAirEnchantmentType CCBIIDDBFGK; // 0x28
-	::System::UInt32 AAGKEBFHLMC; // 0x2C
-	::RPG::GameCore::FixPoint DIBNINJBFHN; // 0x30
-	::RPG::GameCore::FixPoint BKEHIGDONML; // 0x38
-	::RPG::GameCore::FixPoint DDPBPJMBFMH; // 0x40
-	::RPG::GameCore::FixPoint EPKJNNKPIPI; // 0x48
-	::RPG::GameCore::FixPoint KIEICALFCEM; // 0x50
-	::UnityEngine::Quaternion OMFNPCMGBHF; // 0x58
-	::RPG::GameCore::FixPoint CLNMPKLGCIH; // 0x68
-	::RPG::GameCore::FixPoint DHMPEOAJCCK; // 0x70
-	::UnityEngine::Vector3 NPKPNMLFOCA; // 0x78
-	::RPG::GameCore::PixAirSlotType MPADIDFJBEF; // 0x84
-	::System::Int32 EEFIPNFMELC; // 0x88
-	::UnityEngine::Vector3 JLPCCEMMJKG; // 0x8C
-	::System::Boolean NCCJHHCGFHF; // 0x98
-	::System::Int32 NBFOFKGNNIO; // 0x9C
+	::System::Collections::Generic::List_1<::Class_1_9A6B8444E37C7412*>* KEHMPHPNKOJ; // 0x10
+	::System::Collections::Generic::List_1<::Class_1_BE051CF6859EA9BA*>* GAILLLKAPBG; // 0x18
+	::System::Single DLABOOMFBOG; // 0x20
+	::System::Single FMFLEFJALHG; // 0x24
+	::System::Single ICGGAKJGMKP; // 0x28
+	::System::Single JOBIDGDKIFA; // 0x2C
+	::System::Boolean KOBBEOHKHMP; // 0x30
+	::System::Boolean HIPOBLKBCNJ; // 0x31
+	::System::Boolean OCCJEJNJPBJ; // 0x32
+	::System::Int32 DCCLODLELLG; // 0x34
+	::RPG::Client::LittleGame::RoadRash::EImpactForbidReason HGGCKKKJGEA; // 0x38
+	::System::Single OMCCJFEOHNM; // 0x3C
+	::System::Single OPCFBHBHDKP; // 0x40
+	::System::Int32 FPNAIENFKPC; // 0x44
+	::System::Single HHCHHADNNLL; // 0x48
+	::System::Single AJLMPDEEALF; // 0x4C
+	::System::Single GGBKKCNLAJC; // 0x50
+	::System::Single AHDJBLLKJHH; // 0x54
+	::System::Single ICBEAHNHEPE; // 0x58
+	::System::Single FFMCDLHHJOJ; // 0x5C
+	::System::Single JJGOEDKMFPH; // 0x60
+	::System::Single KPFEKBDCGPB; // 0x64
 
 	::System::Void _ctor()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_43BD383C98B4C0C5_108__CTOR_OFFSET))(this);
-	}
-
-	::System::Int32 Method_1_C74CF020AA42ED85()
-	{
-		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_43BD383C98B4C0C5_108_METHOD_1_C74CF020AA42ED85_OFFSET))(this);
 	}
 };

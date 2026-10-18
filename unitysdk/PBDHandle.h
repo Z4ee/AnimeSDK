@@ -8,17 +8,19 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Collections::Generic { template <typename T> class Queue_1; }
 namespace UnityEngine { class Mesh; }
 
-#define PBDHANDLE_APPLYFORCE_OFFSET UNITYSDK_OFFSET(0xC0F6BB0)
-#define PBDHANDLE_METHOD_5_3B2051C60621D523_OFFSET UNITYSDK_OFFSET(0xC0F6370)
-#define PBDHANDLE_METHOD_5_4B2D0E39C5A3C698_OFFSET UNITYSDK_OFFSET(0xC0F6E40)
-#define PBDHANDLE_METHOD_5_8451509F80A98FEC_OFFSET UNITYSDK_OFFSET(0xC0F5F00)
-#define PBDHANDLE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xC0F71B0)
-#define PBDHANDLE_ONDRAWGIZMOS_OFFSET UNITYSDK_OFFSET(0xC0F7090)
-#define PBDHANDLE_START_OFFSET UNITYSDK_OFFSET(0xC0F5890)
-#define PBDHANDLE_UPDATE_OFFSET UNITYSDK_OFFSET(0xC0F60B0)
-#define PBDHANDLE__CTOR_OFFSET UNITYSDK_OFFSET(0xC0F7200)
+#define PBDHANDLE_APPLYFORCE_OFFSET UNITYSDK_OFFSET(0xBFE4290)
+#define PBDHANDLE_ENSUREINITIALIZED_OFFSET UNITYSDK_OFFSET(0xBFE30A0)
+#define PBDHANDLE_GET_ISREADY_OFFSET UNITYSDK_OFFSET(0xBFE2FF0)
+#define PBDHANDLE_METHOD_5_3B2051C60621D523_OFFSET UNITYSDK_OFFSET(0xBFE3A50)
+#define PBDHANDLE_METHOD_5_4B2D0E39C5A3C698_OFFSET UNITYSDK_OFFSET(0xBFE4530)
+#define PBDHANDLE_METHOD_5_919E978536DF47CB_OFFSET UNITYSDK_OFFSET(0xBFE3650)
+#define PBDHANDLE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xBFE48A0)
+#define PBDHANDLE_ONDRAWGIZMOS_OFFSET UNITYSDK_OFFSET(0xBFE4780)
+#define PBDHANDLE_START_OFFSET UNITYSDK_OFFSET(0xBFE3050)
+#define PBDHANDLE_UPDATE_OFFSET UNITYSDK_OFFSET(0xBFE3780)
+#define PBDHANDLE__CTOR_OFFSET UNITYSDK_OFFSET(0xBFE4910)
 
-inline static constexpr unsigned int PBDHandle_TypeDefinitionIndex = 47601;
+inline static constexpr unsigned int PBDHandle_TypeDefinitionIndex = 47141;
 
 class PBDHandle : public ::UnityEngine::MonoBehaviour
 {
@@ -39,15 +41,26 @@ public:
 	::Il2CppArray<::UnityEngine::Vector3>* LLAEBOAFDGI; // 0x68
 	::System::Int32 ELLCPPLOAHG; // 0x70
 	::System::Single AJHHBNJIKEG; // 0x74
+	::System::Boolean CGDHNDBBDCH; // 0x78
 
 	::System::Void _ctor()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PBDHANDLE__CTOR_OFFSET))(this);
 	}
 
+	::System::Boolean get_IsReady()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + PBDHANDLE_GET_ISREADY_OFFSET))(this);
+	}
+
 	::System::Void Start()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PBDHANDLE_START_OFFSET))(this);
+	}
+
+	::System::Boolean EnsureInitialized()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + PBDHANDLE_ENSUREINITIALIZED_OFFSET))(this);
 	}
 
 	::System::Void Update()
@@ -80,8 +93,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PBDHANDLE_ONDESTROY_OFFSET))(this);
 	}
 
-	static ::System::Single Method_5_8451509F80A98FEC(::Il2CppArray<::UnityEngine::Vector3>* a1)
+	static ::System::Single Method_5_919E978536DF47CB(::Il2CppArray<::UnityEngine::Vector3>* a1)
 	{
-		return ((::System::Single(*)(::Il2CppArray<::UnityEngine::Vector3>*))((::PBYTE)hIl2Cpp + PBDHANDLE_METHOD_5_8451509F80A98FEC_OFFSET))(a1);
+		return ((::System::Single(*)(::Il2CppArray<::UnityEngine::Vector3>*))((::PBYTE)hIl2Cpp + PBDHANDLE_METHOD_5_919E978536DF47CB_OFFSET))(a1);
 	}
 };

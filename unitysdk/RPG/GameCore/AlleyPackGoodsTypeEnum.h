@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AlleyPackGoodsTypeEnum_TypeDefinitionIndex = 15510;
+	inline static constexpr unsigned int AlleyPackGoodsTypeEnum_TypeDefinitionIndex = 15683;
 
 	enum class AlleyPackGoodsTypeEnum : ::System::Int32
 	{

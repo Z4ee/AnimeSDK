@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MiniMapIconType_TypeDefinitionIndex = 60736;
+	inline static constexpr unsigned int MiniMapIconType_TypeDefinitionIndex = 60637;
 
 	enum class MiniMapIconType : ::System::Int32
 	{

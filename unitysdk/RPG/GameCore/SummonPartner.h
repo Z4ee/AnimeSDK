@@ -6,13 +6,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_SUMMONPARTNER_METHOD_3_87CAE12C7A4A24FA_OFFSET UNITYSDK_OFFSET(0x1D583CC0)
-#define RPG_GAMECORE_SUMMONPARTNER_METHOD_3_D0A3A446E2B1AEDB_OFFSET UNITYSDK_OFFSET(0x1D583C70)
-#define RPG_GAMECORE_SUMMONPARTNER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D583CB0)
+#define RPG_GAMECORE_SUMMONPARTNER_METHOD_3_20F83C65A202AA0F_OFFSET UNITYSDK_OFFSET(0x1DB3A360)
+#define RPG_GAMECORE_SUMMONPARTNER_METHOD_3_DBBBF1DE8274481D_OFFSET UNITYSDK_OFFSET(0x1DB3A310)
+#define RPG_GAMECORE_SUMMONPARTNER__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB3A350)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SummonPartner_TypeDefinitionIndex = 22440;
+	inline static constexpr unsigned int SummonPartner_TypeDefinitionIndex = 22695;
 
 	class SummonPartner : public ::RPG::GameCore::TaskConfig
 	{
@@ -31,14 +31,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SUMMONPARTNER__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_D0A3A446E2B1AEDB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SummonPartner*& a2)
+		static ::System::Void Method_3_DBBBF1DE8274481D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SummonPartner*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SummonPartner*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SUMMONPARTNER_METHOD_3_D0A3A446E2B1AEDB_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SummonPartner*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SUMMONPARTNER_METHOD_3_DBBBF1DE8274481D_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_87CAE12C7A4A24FA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SummonPartner* a2)
+		static ::System::Void Method_3_20F83C65A202AA0F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SummonPartner* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SummonPartner*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SUMMONPARTNER_METHOD_3_87CAE12C7A4A24FA_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SummonPartner*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SUMMONPARTNER_METHOD_3_20F83C65A202AA0F_OFFSET))(a1, a2);
 		}
 	};
 }

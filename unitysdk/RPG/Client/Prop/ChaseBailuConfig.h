@@ -6,11 +6,11 @@
 namespace RPG::Client::Prop { class AreaDoor; }
 namespace RPG::Client::Prop { class AreaEdge; }
 
-#define RPG_CLIENT_PROP_CHASEBAILUCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xDBF8AC0)
+#define RPG_CLIENT_PROP_CHASEBAILUCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xDC43530)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChaseBailuConfig_TypeDefinitionIndex = 77749;
+	inline static constexpr unsigned int ChaseBailuConfig_TypeDefinitionIndex = 78220;
 
 	class ChaseBailuConfig : public ::UnityEngine::MonoBehaviour
 	{

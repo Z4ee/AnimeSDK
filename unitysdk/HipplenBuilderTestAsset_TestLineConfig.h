@@ -6,9 +6,9 @@ class HipplenBuilderTestAsset_TestConfig;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define HIPPLENBUILDERTESTASSET_TESTLINECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x15ADDAA0)
+#define HIPPLENBUILDERTESTASSET_TESTLINECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x15DF1C80)
 
-inline static constexpr unsigned int HipplenBuilderTestAsset_TestLineConfig_TypeDefinitionIndex = 47694;
+inline static constexpr unsigned int HipplenBuilderTestAsset_TestLineConfig_TypeDefinitionIndex = 47234;
 
 class HipplenBuilderTestAsset_TestLineConfig : public ::System::Object
 {

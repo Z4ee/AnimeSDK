@@ -4,12 +4,12 @@
 
 namespace System { class Action; }
 
-#define RPG_CLIENT_TEXTMAPDOWNLOADMANAGER___C__DISPLAYCLASS44_0__CTOR_OFFSET UNITYSDK_OFFSET(0xE1DBAF0)
-#define RPG_CLIENT_TEXTMAPDOWNLOADMANAGER___C__DISPLAYCLASS44_0___POSTTOMAINTHREAD_B__0_OFFSET UNITYSDK_OFFSET(0xE1DD170)
+#define RPG_CLIENT_TEXTMAPDOWNLOADMANAGER___C__DISPLAYCLASS44_0__CTOR_OFFSET UNITYSDK_OFFSET(0xE21EA70)
+#define RPG_CLIENT_TEXTMAPDOWNLOADMANAGER___C__DISPLAYCLASS44_0___POSTTOMAINTHREAD_B__0_OFFSET UNITYSDK_OFFSET(0xE220090)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TextmapDownloadManager___c__DisplayClass44_0_TypeDefinitionIndex = 61344;
+	inline static constexpr unsigned int TextmapDownloadManager___c__DisplayClass44_0_TypeDefinitionIndex = 61250;
 
 	class TextmapDownloadManager___c__DisplayClass44_0 : public ::System::Object
 	{

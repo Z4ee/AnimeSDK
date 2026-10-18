@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class Mesh; }
 
-#define RPG_CLIENT_SCENE_INSTANCEARRAYMONOPLUGIN_INDEXEDMESH__CTOR_OFFSET UNITYSDK_OFFSET(0xE065960)
+#define RPG_CLIENT_SCENE_INSTANCEARRAYMONOPLUGIN_INDEXEDMESH__CTOR_OFFSET UNITYSDK_OFFSET(0xE0A02E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Scene_InstanceArrayMonoPlugin_IndexedMesh_TypeDefinitionIndex = 70821;
+	inline static constexpr unsigned int Scene_InstanceArrayMonoPlugin_IndexedMesh_TypeDefinitionIndex = 70859;
 
 	class Scene_InstanceArrayMonoPlugin_IndexedMesh : public ::System::Object
 	{

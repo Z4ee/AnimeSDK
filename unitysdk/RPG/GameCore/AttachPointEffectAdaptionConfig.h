@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ATTACHPOINTEFFECTADAPTIONCONFIG_METHOD_2_825D4E3F207634AD_OFFSET UNITYSDK_OFFSET(0x1CE2BD40)
-#define RPG_GAMECORE_ATTACHPOINTEFFECTADAPTIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE2BE50)
+#define RPG_GAMECORE_ATTACHPOINTEFFECTADAPTIONCONFIG_METHOD_2_825D4E3F207634AD_OFFSET UNITYSDK_OFFSET(0x1D4020B0)
+#define RPG_GAMECORE_ATTACHPOINTEFFECTADAPTIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D4021C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AttachPointEffectAdaptionConfig_TypeDefinitionIndex = 16337;
+	inline static constexpr unsigned int AttachPointEffectAdaptionConfig_TypeDefinitionIndex = 16510;
 
 	class AttachPointEffectAdaptionConfig : public ::RPG::GameCore::JsonConfig
 	{

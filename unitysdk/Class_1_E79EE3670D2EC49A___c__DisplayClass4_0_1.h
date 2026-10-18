@@ -5,8 +5,9 @@
 class Class_1_E79EE3670D2EC49A;
 namespace RPG::Client::FateRin { template <typename T> class PresentResult_1; }
 namespace RPG::Client::Promises { template <typename T> class Promise_1; }
+namespace System { class Exception; }
 
-inline static constexpr unsigned int Class_1_E79EE3670D2EC49A___c__DisplayClass4_0_1_TypeDefinitionIndex = 79294;
+inline static constexpr unsigned int Class_1_E79EE3670D2EC49A___c__DisplayClass4_0_1_TypeDefinitionIndex = 80618;
 
 template <typename TViewModel>
 class Class_1_E79EE3670D2EC49A___c__DisplayClass4_0_1 : public ::System::Object

@@ -9,19 +9,19 @@ namespace RPG::GameCore { class SwitchCaseByDynamicValue; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_3_A2BFE03476989FAC_DISPOSE_OFFSET UNITYSDK_OFFSET(0xF3D6B50)
-#define CLASS_3_A2BFE03476989FAC_METHOD_3_FEF7380CB714A86D_OFFSET UNITYSDK_OFFSET(0xF3D6740)
-#define CLASS_3_A2BFE03476989FAC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF3D6380)
-#define CLASS_3_A2BFE03476989FAC__CTOR_OFFSET UNITYSDK_OFFSET(0xF3D6160)
+#define CLASS_3_A2BFE03476989FAC_DISPOSE_OFFSET UNITYSDK_OFFSET(0xEB95F70)
+#define CLASS_3_A2BFE03476989FAC_METHOD_3_FEF7380CB714A86D_OFFSET UNITYSDK_OFFSET(0xEB95B60)
+#define CLASS_3_A2BFE03476989FAC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xEB957A0)
+#define CLASS_3_A2BFE03476989FAC__CTOR_OFFSET UNITYSDK_OFFSET(0xEB95580)
 
-inline static constexpr unsigned int Class_3_A2BFE03476989FAC_TypeDefinitionIndex = 56647;
+inline static constexpr unsigned int Class_3_A2BFE03476989FAC_TypeDefinitionIndex = 56462;
 
 class Class_3_A2BFE03476989FAC : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SwitchCaseByDynamicValue*>
 {
 public:
-	::Il2CppArray<::Class_3_07C3C4D2990C49EE*>* ILPALCPKGHE; // 0x28
-	::Class_3_07C3C4D2990C49EE* IHPPIJOMNAP; // 0x30
-	::System::Collections::Generic::List_1<::Class_3_07C3C4D2990C49EE*>* MPHJNIOIFFM; // 0x38
+	::Class_3_07C3C4D2990C49EE* IHPPIJOMNAP; // 0x28
+	::System::Collections::Generic::List_1<::Class_3_07C3C4D2990C49EE*>* MPHJNIOIFFM; // 0x30
+	::Il2CppArray<::Class_3_07C3C4D2990C49EE*>* ILPALCPKGHE; // 0x38
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SwitchCaseByDynamicValue* a2)
 	{

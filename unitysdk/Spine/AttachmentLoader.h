@@ -13,7 +13,7 @@ namespace System { class String; }
 
 namespace Spine
 {
-	inline static constexpr unsigned int AttachmentLoader_TypeDefinitionIndex = 38354;
+	inline static constexpr unsigned int AttachmentLoader_TypeDefinitionIndex = 39651;
 
 	class AttachmentLoader
 	{

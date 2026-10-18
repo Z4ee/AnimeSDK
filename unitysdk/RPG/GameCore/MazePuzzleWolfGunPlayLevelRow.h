@@ -7,26 +7,26 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MAZEPUZZLEWOLFGUNPLAYLEVELROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D265470)
-#define RPG_GAMECORE_MAZEPUZZLEWOLFGUNPLAYLEVELROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D265DB0)
+#define RPG_GAMECORE_MAZEPUZZLEWOLFGUNPLAYLEVELROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D86FFC0)
+#define RPG_GAMECORE_MAZEPUZZLEWOLFGUNPLAYLEVELROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D8708C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MazePuzzleWolfGunPlayLevelRow_TypeDefinitionIndex = 13978;
+	inline static constexpr unsigned int MazePuzzleWolfGunPlayLevelRow_TypeDefinitionIndex = 14085;
 
 	class MazePuzzleWolfGunPlayLevelRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* QuestList; // 0x10
-		::System::String* TriggerCustomString; // 0x18
-		::RPG::Client::TextID Title; // 0x20
+		::System::String* TriggerCustomString; // 0x10
+		::Il2CppArray<::System::UInt32>* QuestList; // 0x18
+		::System::Boolean ShowInUI; // 0x20
+		::System::UInt32 UnlockCondition; // 0x24
+		::System::UInt32 TargetScore; // 0x28
+		::RPG::GameCore::GunPlayModeType GunMode; // 0x2C
 		::RPG::Client::TextID Description; // 0x30
 		::System::UInt32 GunLevel; // 0x40
 		::System::UInt32 UnlockConditionMode; // 0x44
-		::System::UInt32 UnlockCondition; // 0x48
-		::System::Boolean ShowInUI; // 0x4C
-		::RPG::GameCore::GunPlayModeType GunMode; // 0x50
-		::System::UInt32 TargetScore; // 0x54
+		::RPG::Client::TextID Title; // 0x48
 
 		::System::Void _ctor()
 		{

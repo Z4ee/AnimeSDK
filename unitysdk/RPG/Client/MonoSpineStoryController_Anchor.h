@@ -7,7 +7,7 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoSpineStoryController_Anchor_TypeDefinitionIndex = 60402;
+	inline static constexpr unsigned int MonoSpineStoryController_Anchor_TypeDefinitionIndex = 60290;
 
 	struct alignas(8) MonoSpineStoryController_Anchor
 	{

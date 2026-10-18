@@ -11,56 +11,56 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_MESSAGEITEMRAIDENTRANCEEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1D298850)
-#define RPG_GAMECORE_MESSAGEITEMRAIDENTRANCEEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1D2984B0)
-#define RPG_GAMECORE_MESSAGEITEMRAIDENTRANCEEXCELTABLE_GETRAIDENTRANCEITEMID_OFFSET UNITYSDK_OFFSET(0x1D299120)
-#define RPG_GAMECORE_MESSAGEITEMRAIDENTRANCEEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1D26F2E0)
-#define RPG_GAMECORE_MESSAGEITEMRAIDENTRANCEEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1D298450)
-#define RPG_GAMECORE_MESSAGEITEMRAIDENTRANCEEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1D2989A0)
-#define RPG_GAMECORE_MESSAGEITEMRAIDENTRANCEEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D298620)
-#define RPG_GAMECORE_MESSAGEITEMRAIDENTRANCEEXCELTABLE_UNLOADALL_OFFSET UNITYSDK_OFFSET(0x1D2995E0)
-#define RPG_GAMECORE_MESSAGEITEMRAIDENTRANCEEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1D2989E0)
-#define RPG_GAMECORE_MESSAGEITEMRAIDENTRANCEEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D298BB0)
-#define RPG_GAMECORE_MESSAGEITEMRAIDENTRANCEEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1D298E00)
-#define RPG_GAMECORE_MESSAGEITEMRAIDENTRANCEEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D299670)
-#define RPG_GAMECORE_MESSAGEITEMRAIDENTRANCEEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1D298B10)
-#define RPG_GAMECORE_MESSAGEITEMRAIDENTRANCEEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D298A70)
-#define RPG_GAMECORE_MESSAGEITEMRAIDENTRANCEEXCELTABLE__SAFEINITIALIZE_OFFSET UNITYSDK_OFFSET(0x1D2991A0)
+#define RPG_GAMECORE_MESSAGEITEMRAIDENTRANCEEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1D87ADD0)
+#define RPG_GAMECORE_MESSAGEITEMRAIDENTRANCEEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1D87AC60)
+#define RPG_GAMECORE_MESSAGEITEMRAIDENTRANCEEXCELTABLE_GETRAIDENTRANCEITEMID_OFFSET UNITYSDK_OFFSET(0x1D87B6A0)
+#define RPG_GAMECORE_MESSAGEITEMRAIDENTRANCEEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1D87A950)
+#define RPG_GAMECORE_MESSAGEITEMRAIDENTRANCEEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1D87AC00)
+#define RPG_GAMECORE_MESSAGEITEMRAIDENTRANCEEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1D87AF20)
+#define RPG_GAMECORE_MESSAGEITEMRAIDENTRANCEEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D87A9D0)
+#define RPG_GAMECORE_MESSAGEITEMRAIDENTRANCEEXCELTABLE_UNLOADALL_OFFSET UNITYSDK_OFFSET(0x1D87BB60)
+#define RPG_GAMECORE_MESSAGEITEMRAIDENTRANCEEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1D87AF60)
+#define RPG_GAMECORE_MESSAGEITEMRAIDENTRANCEEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D87B130)
+#define RPG_GAMECORE_MESSAGEITEMRAIDENTRANCEEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1D87B380)
+#define RPG_GAMECORE_MESSAGEITEMRAIDENTRANCEEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D87BBF0)
+#define RPG_GAMECORE_MESSAGEITEMRAIDENTRANCEEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1D87B090)
+#define RPG_GAMECORE_MESSAGEITEMRAIDENTRANCEEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D87AFF0)
+#define RPG_GAMECORE_MESSAGEITEMRAIDENTRANCEEXCELTABLE__SAFEINITIALIZE_OFFSET UNITYSDK_OFFSET(0x1D87B720)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MessageItemRaidEntranceExcelTable_TypeDefinitionIndex = 14317;
+	inline static constexpr unsigned int MessageItemRaidEntranceExcelTable_TypeDefinitionIndex = 14482;
 
 	class MessageItemRaidEntranceExcelTable : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MessageItemRaidEntranceRow*>** StaticGet_dataDict_()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MessageItemRaidEntranceExcelTable_TypeDefinitionIndex)->GetStaticField(0x57DB0);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MessageItemRaidEntranceRow*>**)Il2CppClass::FromTypeDefinitionIndex(MessageItemRaidEntranceExcelTable_TypeDefinitionIndex)->GetStaticField(0x3D430);
 		}
 		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(MessageItemRaidEntranceExcelTable_TypeDefinitionIndex)->GetStaticField(0x57DB8);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(MessageItemRaidEntranceExcelTable_TypeDefinitionIndex)->GetStaticField(0x3D438);
+		}
+		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
+		{
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MessageItemRaidEntranceExcelTable_TypeDefinitionIndex)->GetStaticField(0x3D440);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>** StaticGet__RaidEntranceItem()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(MessageItemRaidEntranceExcelTable_TypeDefinitionIndex)->GetStaticField(0x57DC0);
-		}
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MessageItemRaidEntranceRow*>** StaticGet_dataDict_()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MessageItemRaidEntranceRow*>**)Il2CppClass::FromTypeDefinitionIndex(MessageItemRaidEntranceExcelTable_TypeDefinitionIndex)->GetStaticField(0x57DC8);
-		}
-		static ::System::Boolean* StaticGet__IsInitialized()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MessageItemRaidEntranceExcelTable_TypeDefinitionIndex)->GetStaticField(0x12650);
+			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(MessageItemRaidEntranceExcelTable_TypeDefinitionIndex)->GetStaticField(0x3D448);
 		}
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MessageItemRaidEntranceExcelTable_TypeDefinitionIndex)->GetStaticField(0x12651);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MessageItemRaidEntranceExcelTable_TypeDefinitionIndex)->GetStaticField(0xD210);
 		}
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(MessageItemRaidEntranceExcelTable_TypeDefinitionIndex)->GetStaticField(0x12652);
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(MessageItemRaidEntranceExcelTable_TypeDefinitionIndex)->GetStaticField(0xD211);
+		}
+		static ::System::Boolean* StaticGet__IsInitialized()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MessageItemRaidEntranceExcelTable_TypeDefinitionIndex)->GetStaticField(0xD212);
 		}
 
 		static ::System::Void _cctor()

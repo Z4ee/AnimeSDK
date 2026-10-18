@@ -7,10 +7,10 @@ namespace RPG::GameCore { class TargetReverse; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_1D287C55435965F9_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x12830E90)
-#define CLASS_2_1D287C55435965F9__CTOR_OFFSET UNITYSDK_OFFSET(0x12227C80)
+#define CLASS_2_1D287C55435965F9_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x1267A360)
+#define CLASS_2_1D287C55435965F9__CTOR_OFFSET UNITYSDK_OFFSET(0x1267A340)
 
-inline static constexpr unsigned int Class_2_1D287C55435965F9_TypeDefinitionIndex = 59353;
+inline static constexpr unsigned int Class_2_1D287C55435965F9_TypeDefinitionIndex = 59206;
 
 class Class_2_1D287C55435965F9 : public ::RPG::GameCore::TargetSeqOperationImpl_1<::RPG::GameCore::TargetReverse*>
 {

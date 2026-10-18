@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/ActivityPanelData.h"
 
-#define RPG_CLIENT_FANTASTICSTORYACTIVITYDATA_ISSHOWNORMALREDDOT_OFFSET UNITYSDK_OFFSET(0xCF15680)
-#define RPG_CLIENT_FANTASTICSTORYACTIVITYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xCF15670)
+#define RPG_CLIENT_FANTASTICSTORYACTIVITYDATA_ISSHOWNORMALREDDOT_OFFSET UNITYSDK_OFFSET(0xCE64E70)
+#define RPG_CLIENT_FANTASTICSTORYACTIVITYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xCE64E60)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FantasticStoryActivityData_TypeDefinitionIndex = 64033;
+	inline static constexpr unsigned int FantasticStoryActivityData_TypeDefinitionIndex = 63971;
 
 	class FantasticStoryActivityData : public ::RPG::Client::ActivityPanelData
 	{

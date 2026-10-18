@@ -9,7 +9,7 @@ namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int AsyncEnumerableSorter_1__SortAsync_d__2_TypeDefinitionIndex = 44380;
+	inline static constexpr unsigned int AsyncEnumerableSorter_1__SortAsync_d__2_TypeDefinitionIndex = 45519;
 
 	template <typename TElement>
 	struct AsyncEnumerableSorter_1__SortAsync_d__2

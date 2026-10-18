@@ -8,42 +8,42 @@ namespace RPG::Client { class VideoBundleInfoItem; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define CLASS_1_6299BCD581CA4C41___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xB7E4810)
-#define CLASS_1_6299BCD581CA4C41___C__CTOR_OFFSET UNITYSDK_OFFSET(0xB7E4850)
-#define CLASS_1_6299BCD581CA4C41___C__GETNEEDDOWNLOADAUDIOSIZE_B__43_0_OFFSET UNITYSDK_OFFSET(0xB7E48A0)
-#define CLASS_1_6299BCD581CA4C41___C__GETNEEDDOWNLOADSIZEFORWHITELIST_B__23_0_OFFSET UNITYSDK_OFFSET(0xB7E4860)
-#define CLASS_1_6299BCD581CA4C41___C__GETNEEDDOWNLOADSIZEFORWHITELIST_B__23_1_OFFSET UNITYSDK_OFFSET(0xB7E4880)
-#define CLASS_1_6299BCD581CA4C41___C__GETNEEDDOWNLOADVIDEOSIZE_B__44_0_OFFSET UNITYSDK_OFFSET(0xB7E48C0)
-#define CLASS_1_6299BCD581CA4C41___C___SAVEVIDEOLIST_B__58_0_OFFSET UNITYSDK_OFFSET(0xB7E48E0)
+#define CLASS_1_6299BCD581CA4C41___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xB793E20)
+#define CLASS_1_6299BCD581CA4C41___C__CTOR_OFFSET UNITYSDK_OFFSET(0xB793E60)
+#define CLASS_1_6299BCD581CA4C41___C__GETNEEDDOWNLOADAUDIOSIZE_B__43_0_OFFSET UNITYSDK_OFFSET(0xB793EB0)
+#define CLASS_1_6299BCD581CA4C41___C__GETNEEDDOWNLOADSIZEFORWHITELIST_B__23_0_OFFSET UNITYSDK_OFFSET(0xB793E70)
+#define CLASS_1_6299BCD581CA4C41___C__GETNEEDDOWNLOADSIZEFORWHITELIST_B__23_1_OFFSET UNITYSDK_OFFSET(0xB793E90)
+#define CLASS_1_6299BCD581CA4C41___C__GETNEEDDOWNLOADVIDEOSIZE_B__44_0_OFFSET UNITYSDK_OFFSET(0xB793ED0)
+#define CLASS_1_6299BCD581CA4C41___C___SAVEVIDEOLIST_B__58_0_OFFSET UNITYSDK_OFFSET(0xB793EF0)
 
-inline static constexpr unsigned int Class_1_6299BCD581CA4C41___c_TypeDefinitionIndex = 59765;
+inline static constexpr unsigned int Class_1_6299BCD581CA4C41___c_TypeDefinitionIndex = 59620;
 
 class Class_1_6299BCD581CA4C41___c : public ::System::Object
 {
 public:
 	static ::System::Func_2<::RPG::Client::VideoBundleInfoItem*, ::System::String*>** StaticGet___9__23_1()
 	{
-		return (::System::Func_2<::RPG::Client::VideoBundleInfoItem*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6299BCD581CA4C41___c_TypeDefinitionIndex)->GetStaticField(0x49570);
-	}
-	static ::Class_1_6299BCD581CA4C41___c** StaticGet___9()
-	{
-		return (::Class_1_6299BCD581CA4C41___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6299BCD581CA4C41___c_TypeDefinitionIndex)->GetStaticField(0x49578);
-	}
-	static ::System::Func_2<::Class_0_16E4307DCC419505_96*, ::System::String*>** StaticGet___9__58_0()
-	{
-		return (::System::Func_2<::Class_0_16E4307DCC419505_96*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6299BCD581CA4C41___c_TypeDefinitionIndex)->GetStaticField(0x49580);
+		return (::System::Func_2<::RPG::Client::VideoBundleInfoItem*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6299BCD581CA4C41___c_TypeDefinitionIndex)->GetStaticField(0x6F340);
 	}
 	static ::System::Func_2<::RPG::Client::AudioBundleInfoItem*, ::System::String*>** StaticGet___9__43_0()
 	{
-		return (::System::Func_2<::RPG::Client::AudioBundleInfoItem*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6299BCD581CA4C41___c_TypeDefinitionIndex)->GetStaticField(0x49588);
+		return (::System::Func_2<::RPG::Client::AudioBundleInfoItem*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6299BCD581CA4C41___c_TypeDefinitionIndex)->GetStaticField(0x6F348);
 	}
 	static ::System::Func_2<::RPG::Client::VideoBundleInfoItem*, ::System::String*>** StaticGet___9__44_0()
 	{
-		return (::System::Func_2<::RPG::Client::VideoBundleInfoItem*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6299BCD581CA4C41___c_TypeDefinitionIndex)->GetStaticField(0x49590);
+		return (::System::Func_2<::RPG::Client::VideoBundleInfoItem*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6299BCD581CA4C41___c_TypeDefinitionIndex)->GetStaticField(0x6F350);
+	}
+	static ::System::Func_2<::Class_0_16E4307DCC419505_96*, ::System::String*>** StaticGet___9__58_0()
+	{
+		return (::System::Func_2<::Class_0_16E4307DCC419505_96*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6299BCD581CA4C41___c_TypeDefinitionIndex)->GetStaticField(0x6F358);
+	}
+	static ::Class_1_6299BCD581CA4C41___c** StaticGet___9()
+	{
+		return (::Class_1_6299BCD581CA4C41___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6299BCD581CA4C41___c_TypeDefinitionIndex)->GetStaticField(0x6F360);
 	}
 	static ::System::Func_2<::RPG::Client::AudioBundleInfoItem*, ::System::String*>** StaticGet___9__23_0()
 	{
-		return (::System::Func_2<::RPG::Client::AudioBundleInfoItem*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6299BCD581CA4C41___c_TypeDefinitionIndex)->GetStaticField(0x49598);
+		return (::System::Func_2<::RPG::Client::AudioBundleInfoItem*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6299BCD581CA4C41___c_TypeDefinitionIndex)->GetStaticField(0x6F368);
 	}
 
 	static ::System::Void _cctor()

@@ -6,20 +6,20 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_PLAYERROOMSUBAREACONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D356A70)
-#define RPG_GAMECORE_PLAYERROOMSUBAREACONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D356C70)
+#define RPG_GAMECORE_PLAYERROOMSUBAREACONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D93BE60)
+#define RPG_GAMECORE_PLAYERROOMSUBAREACONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D93C060)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlayerRoomSubAreaConfigRow_TypeDefinitionIndex = 14384;
+	inline static constexpr unsigned int PlayerRoomSubAreaConfigRow_TypeDefinitionIndex = 14549;
 
 	class PlayerRoomSubAreaConfigRow : public ::System::Object
 	{
 	public:
 		::System::String* Icon; // 0x10
-		::RPG::Client::TextID Name; // 0x18
-		::System::UInt32 ID; // 0x28
-		::System::UInt32 StaticCameraID; // 0x2C
+		::System::UInt32 StaticCameraID; // 0x18
+		::System::UInt32 ID; // 0x1C
+		::RPG::Client::TextID Name; // 0x20
 
 		::System::Void _ctor()
 		{

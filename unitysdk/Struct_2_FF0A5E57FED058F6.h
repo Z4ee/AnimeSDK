@@ -7,16 +7,16 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define STRUCT_2_FF0A5E57FED058F6_METHOD_2_22947323BA9392D0_OFFSET UNITYSDK_OFFSET(0xBF77BB0)
-#define STRUCT_2_FF0A5E57FED058F6__CCTOR_OFFSET UNITYSDK_OFFSET(0xBF78010)
+#define STRUCT_2_FF0A5E57FED058F6_METHOD_2_22947323BA9392D0_OFFSET UNITYSDK_OFFSET(0xBE5E800)
+#define STRUCT_2_FF0A5E57FED058F6__CCTOR_OFFSET UNITYSDK_OFFSET(0xBE5EC60)
 
-inline static constexpr unsigned int Struct_2_FF0A5E57FED058F6_TypeDefinitionIndex = 75032;
+inline static constexpr unsigned int Struct_2_FF0A5E57FED058F6_TypeDefinitionIndex = 75332;
 
 struct alignas(8) Struct_2_FF0A5E57FED058F6
 {
 	static ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Struct_2_FF0A5E57FED058F6>** StaticGet_HGOEHHJCCIC()
 	{
-		return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Struct_2_FF0A5E57FED058F6>**)Il2CppClass::FromTypeDefinitionIndex(Struct_2_FF0A5E57FED058F6_TypeDefinitionIndex)->GetStaticField(0x673D0);
+		return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Struct_2_FF0A5E57FED058F6>**)Il2CppClass::FromTypeDefinitionIndex(Struct_2_FF0A5E57FED058F6_TypeDefinitionIndex)->GetStaticField(0x657B0);
 	}
 	::System::UInt32 PMIEAEGJNMJ; // 0x10
 	::System::String* KOIJMPDBMJF; // 0x18

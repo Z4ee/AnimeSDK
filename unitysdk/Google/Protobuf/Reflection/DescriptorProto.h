@@ -17,91 +17,91 @@ namespace Google::Protobuf::Reflection { class MessageOptions; }
 namespace Google::Protobuf::Reflection { class OneofDescriptorProto; }
 namespace System { class String; }
 
-#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORPROTO_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1B3650B0)
-#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORPROTO_CLONE_OFFSET UNITYSDK_OFFSET(0x1B3645E0)
-#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORPROTO_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1B3647D0)
-#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORPROTO_EQUALS_OFFSET UNITYSDK_OFFSET(0x1B364770)
-#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORPROTO_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1B364AA0)
-#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORPROTO_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1B364060)
-#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORPROTO_GET_ENUMTYPE_OFFSET UNITYSDK_OFFSET(0x1B364730)
-#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORPROTO_GET_EXTENSION_OFFSET UNITYSDK_OFFSET(0x1B364710)
-#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORPROTO_GET_FIELD_OFFSET UNITYSDK_OFFSET(0x1B364700)
-#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORPROTO_GET_HASNAME_OFFSET UNITYSDK_OFFSET(0x1B3646F0)
-#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORPROTO_GET_HASOPTIONS_OFFSET UNITYSDK_OFFSET(0x1B3645D0)
-#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORPROTO_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1B364630)
-#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORPROTO_GET_NESTEDTYPE_OFFSET UNITYSDK_OFFSET(0x1B364720)
-#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORPROTO_GET_ONEOFDECL_OFFSET UNITYSDK_OFFSET(0x1B364740)
-#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORPROTO_GET_OPTIONS_OFFSET UNITYSDK_OFFSET(0x1B364750)
-#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORPROTO_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x1B364000)
-#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORPROTO_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1B3657C0)
-#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORPROTO_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1B3653B0)
-#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORPROTO_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1B364240)
-#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORPROTO_SET_NAME_OFFSET UNITYSDK_OFFSET(0x1B3646A0)
-#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORPROTO_SET_OPTIONS_OFFSET UNITYSDK_OFFSET(0x1B364760)
-#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORPROTO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1B364D10)
-#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORPROTO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1B364D70)
-#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORPROTO__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B365C00)
-#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORPROTO__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B3643F0)
-#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORPROTO__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3642A0)
+#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORPROTO_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1B866E20)
+#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORPROTO_CLONE_OFFSET UNITYSDK_OFFSET(0x1B866350)
+#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORPROTO_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1B866540)
+#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORPROTO_EQUALS_OFFSET UNITYSDK_OFFSET(0x1B8664E0)
+#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORPROTO_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1B866810)
+#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORPROTO_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1B865DD0)
+#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORPROTO_GET_ENUMTYPE_OFFSET UNITYSDK_OFFSET(0x1B8664A0)
+#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORPROTO_GET_EXTENSION_OFFSET UNITYSDK_OFFSET(0x1B866480)
+#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORPROTO_GET_FIELD_OFFSET UNITYSDK_OFFSET(0x1B866470)
+#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORPROTO_GET_HASNAME_OFFSET UNITYSDK_OFFSET(0x1B866460)
+#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORPROTO_GET_HASOPTIONS_OFFSET UNITYSDK_OFFSET(0x1B866340)
+#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORPROTO_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1B8663A0)
+#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORPROTO_GET_NESTEDTYPE_OFFSET UNITYSDK_OFFSET(0x1B866490)
+#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORPROTO_GET_ONEOFDECL_OFFSET UNITYSDK_OFFSET(0x1B8664B0)
+#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORPROTO_GET_OPTIONS_OFFSET UNITYSDK_OFFSET(0x1B8664C0)
+#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORPROTO_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x1B865D70)
+#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORPROTO_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1B867530)
+#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORPROTO_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1B867120)
+#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORPROTO_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1B865FB0)
+#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORPROTO_SET_NAME_OFFSET UNITYSDK_OFFSET(0x1B866410)
+#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORPROTO_SET_OPTIONS_OFFSET UNITYSDK_OFFSET(0x1B8664D0)
+#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORPROTO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1B866A80)
+#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORPROTO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1B866AE0)
+#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORPROTO__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B867970)
+#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORPROTO__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B866160)
+#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORPROTO__CTOR_OFFSET UNITYSDK_OFFSET(0x1B866010)
 
 namespace Google::Protobuf::Reflection
 {
-	inline static constexpr unsigned int DescriptorProto_TypeDefinitionIndex = 5454;
+	inline static constexpr unsigned int DescriptorProto_TypeDefinitionIndex = 5461;
 
 	class DescriptorProto : public ::System::Object
 	{
 	public:
+		static ::Google::Protobuf::FieldCodec_1<::Google::Protobuf::Reflection::FieldDescriptorProto*>** StaticGet__repeated_field_codec()
+		{
+			return (::Google::Protobuf::FieldCodec_1<::Google::Protobuf::Reflection::FieldDescriptorProto*>**)Il2CppClass::FromTypeDefinitionIndex(DescriptorProto_TypeDefinitionIndex)->GetStaticField(0x1B9B0);
+		}
 		static ::Google::Protobuf::FieldCodec_1<::Google::Protobuf::Reflection::OneofDescriptorProto*>** StaticGet__repeated_oneofDecl_codec()
 		{
-			return (::Google::Protobuf::FieldCodec_1<::Google::Protobuf::Reflection::OneofDescriptorProto*>**)Il2CppClass::FromTypeDefinitionIndex(DescriptorProto_TypeDefinitionIndex)->GetStaticField(0x1D6C0);
-		}
-		static ::Google::Protobuf::MessageParser_1<::Google::Protobuf::Reflection::DescriptorProto*>** StaticGet__parser()
-		{
-			return (::Google::Protobuf::MessageParser_1<::Google::Protobuf::Reflection::DescriptorProto*>**)Il2CppClass::FromTypeDefinitionIndex(DescriptorProto_TypeDefinitionIndex)->GetStaticField(0x1D6C8);
-		}
-		static ::System::String** StaticGet_NameDefaultValue()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(DescriptorProto_TypeDefinitionIndex)->GetStaticField(0x1D6D0);
+			return (::Google::Protobuf::FieldCodec_1<::Google::Protobuf::Reflection::OneofDescriptorProto*>**)Il2CppClass::FromTypeDefinitionIndex(DescriptorProto_TypeDefinitionIndex)->GetStaticField(0x1B9B8);
 		}
 		static ::Google::Protobuf::FieldCodec_1<::System::String*>** StaticGet__repeated_reservedName_codec()
 		{
-			return (::Google::Protobuf::FieldCodec_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(DescriptorProto_TypeDefinitionIndex)->GetStaticField(0x1D6D8);
+			return (::Google::Protobuf::FieldCodec_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(DescriptorProto_TypeDefinitionIndex)->GetStaticField(0x1B9C0);
 		}
-		static ::Google::Protobuf::FieldCodec_1<::Google::Protobuf::Reflection::FieldDescriptorProto*>** StaticGet__repeated_extension_codec()
+		static ::System::String** StaticGet_NameDefaultValue()
 		{
-			return (::Google::Protobuf::FieldCodec_1<::Google::Protobuf::Reflection::FieldDescriptorProto*>**)Il2CppClass::FromTypeDefinitionIndex(DescriptorProto_TypeDefinitionIndex)->GetStaticField(0x1D6E0);
-		}
-		static ::Google::Protobuf::FieldCodec_1<::Google::Protobuf::Reflection::DescriptorProto_Types_ExtensionRange*>** StaticGet__repeated_extensionRange_codec()
-		{
-			return (::Google::Protobuf::FieldCodec_1<::Google::Protobuf::Reflection::DescriptorProto_Types_ExtensionRange*>**)Il2CppClass::FromTypeDefinitionIndex(DescriptorProto_TypeDefinitionIndex)->GetStaticField(0x1D6E8);
-		}
-		static ::Google::Protobuf::FieldCodec_1<::Google::Protobuf::Reflection::DescriptorProto*>** StaticGet__repeated_nestedType_codec()
-		{
-			return (::Google::Protobuf::FieldCodec_1<::Google::Protobuf::Reflection::DescriptorProto*>**)Il2CppClass::FromTypeDefinitionIndex(DescriptorProto_TypeDefinitionIndex)->GetStaticField(0x1D6F0);
-		}
-		static ::Google::Protobuf::FieldCodec_1<::Google::Protobuf::Reflection::FieldDescriptorProto*>** StaticGet__repeated_field_codec()
-		{
-			return (::Google::Protobuf::FieldCodec_1<::Google::Protobuf::Reflection::FieldDescriptorProto*>**)Il2CppClass::FromTypeDefinitionIndex(DescriptorProto_TypeDefinitionIndex)->GetStaticField(0x1D6F8);
-		}
-		static ::Google::Protobuf::FieldCodec_1<::Google::Protobuf::Reflection::DescriptorProto_Types_ReservedRange*>** StaticGet__repeated_reservedRange_codec()
-		{
-			return (::Google::Protobuf::FieldCodec_1<::Google::Protobuf::Reflection::DescriptorProto_Types_ReservedRange*>**)Il2CppClass::FromTypeDefinitionIndex(DescriptorProto_TypeDefinitionIndex)->GetStaticField(0x1D700);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(DescriptorProto_TypeDefinitionIndex)->GetStaticField(0x1B9C8);
 		}
 		static ::Google::Protobuf::FieldCodec_1<::Google::Protobuf::Reflection::EnumDescriptorProto*>** StaticGet__repeated_enumType_codec()
 		{
-			return (::Google::Protobuf::FieldCodec_1<::Google::Protobuf::Reflection::EnumDescriptorProto*>**)Il2CppClass::FromTypeDefinitionIndex(DescriptorProto_TypeDefinitionIndex)->GetStaticField(0x1D708);
+			return (::Google::Protobuf::FieldCodec_1<::Google::Protobuf::Reflection::EnumDescriptorProto*>**)Il2CppClass::FromTypeDefinitionIndex(DescriptorProto_TypeDefinitionIndex)->GetStaticField(0x1B9D0);
+		}
+		static ::Google::Protobuf::FieldCodec_1<::Google::Protobuf::Reflection::DescriptorProto_Types_ReservedRange*>** StaticGet__repeated_reservedRange_codec()
+		{
+			return (::Google::Protobuf::FieldCodec_1<::Google::Protobuf::Reflection::DescriptorProto_Types_ReservedRange*>**)Il2CppClass::FromTypeDefinitionIndex(DescriptorProto_TypeDefinitionIndex)->GetStaticField(0x1B9D8);
+		}
+		static ::Google::Protobuf::FieldCodec_1<::Google::Protobuf::Reflection::FieldDescriptorProto*>** StaticGet__repeated_extension_codec()
+		{
+			return (::Google::Protobuf::FieldCodec_1<::Google::Protobuf::Reflection::FieldDescriptorProto*>**)Il2CppClass::FromTypeDefinitionIndex(DescriptorProto_TypeDefinitionIndex)->GetStaticField(0x1B9E0);
+		}
+		static ::Google::Protobuf::FieldCodec_1<::Google::Protobuf::Reflection::DescriptorProto*>** StaticGet__repeated_nestedType_codec()
+		{
+			return (::Google::Protobuf::FieldCodec_1<::Google::Protobuf::Reflection::DescriptorProto*>**)Il2CppClass::FromTypeDefinitionIndex(DescriptorProto_TypeDefinitionIndex)->GetStaticField(0x1B9E8);
+		}
+		static ::Google::Protobuf::FieldCodec_1<::Google::Protobuf::Reflection::DescriptorProto_Types_ExtensionRange*>** StaticGet__repeated_extensionRange_codec()
+		{
+			return (::Google::Protobuf::FieldCodec_1<::Google::Protobuf::Reflection::DescriptorProto_Types_ExtensionRange*>**)Il2CppClass::FromTypeDefinitionIndex(DescriptorProto_TypeDefinitionIndex)->GetStaticField(0x1B9F0);
+		}
+		static ::Google::Protobuf::MessageParser_1<::Google::Protobuf::Reflection::DescriptorProto*>** StaticGet__parser()
+		{
+			return (::Google::Protobuf::MessageParser_1<::Google::Protobuf::Reflection::DescriptorProto*>**)Il2CppClass::FromTypeDefinitionIndex(DescriptorProto_TypeDefinitionIndex)->GetStaticField(0x1B9F8);
 		}
 		::Google::Protobuf::Collections::RepeatedField_1<::Google::Protobuf::Reflection::DescriptorProto_Types_ExtensionRange*>* extensionRange_; // 0x10
-		::Google::Protobuf::Collections::RepeatedField_1<::Google::Protobuf::Reflection::DescriptorProto*>* nestedType_; // 0x18
-		::Google::Protobuf::Collections::RepeatedField_1<::Google::Protobuf::Reflection::FieldDescriptorProto*>* extension_; // 0x20
-		::Google::Protobuf::Collections::RepeatedField_1<::Google::Protobuf::Reflection::OneofDescriptorProto*>* oneofDecl_; // 0x28
-		::System::String* name_; // 0x30
-		::Google::Protobuf::Collections::RepeatedField_1<::System::String*>* reservedName_; // 0x38
-		::Google::Protobuf::Collections::RepeatedField_1<::Google::Protobuf::Reflection::FieldDescriptorProto*>* field_; // 0x40
-		::Google::Protobuf::UnknownFieldSet* _unknownFields; // 0x48
-		::Google::Protobuf::Collections::RepeatedField_1<::Google::Protobuf::Reflection::EnumDescriptorProto*>* enumType_; // 0x50
-		::Google::Protobuf::Collections::RepeatedField_1<::Google::Protobuf::Reflection::DescriptorProto_Types_ReservedRange*>* reservedRange_; // 0x58
-		::Google::Protobuf::Reflection::MessageOptions* options_; // 0x60
+		::Google::Protobuf::Collections::RepeatedField_1<::Google::Protobuf::Reflection::OneofDescriptorProto*>* oneofDecl_; // 0x18
+		::Google::Protobuf::Reflection::MessageOptions* options_; // 0x20
+		::Google::Protobuf::Collections::RepeatedField_1<::Google::Protobuf::Reflection::FieldDescriptorProto*>* field_; // 0x28
+		::Google::Protobuf::Collections::RepeatedField_1<::Google::Protobuf::Reflection::DescriptorProto_Types_ReservedRange*>* reservedRange_; // 0x30
+		::Google::Protobuf::Collections::RepeatedField_1<::Google::Protobuf::Reflection::EnumDescriptorProto*>* enumType_; // 0x38
+		::Google::Protobuf::Collections::RepeatedField_1<::System::String*>* reservedName_; // 0x40
+		::Google::Protobuf::Collections::RepeatedField_1<::Google::Protobuf::Reflection::FieldDescriptorProto*>* extension_; // 0x48
+		::Google::Protobuf::Collections::RepeatedField_1<::Google::Protobuf::Reflection::DescriptorProto*>* nestedType_; // 0x50
+		::System::String* name_; // 0x58
+		::Google::Protobuf::UnknownFieldSet* _unknownFields; // 0x60
 
 		::System::Void _ctor()
 		{

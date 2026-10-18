@@ -7,16 +7,16 @@ class Class_1_843C5950C1E80D1D;
 class Class_1_B6045334FA181376;
 namespace UnityEngine::Pooled { template <typename T> class PooledList_1; }
 
-#define CLASS_1_843C5950C1E80D1D___C__DISPLAYCLASS111_0__CTOR_OFFSET UNITYSDK_OFFSET(0x154443F0)
-#define CLASS_1_843C5950C1E80D1D___C__DISPLAYCLASS111_0__DETECTCHARGINGROTATION_B__0_OFFSET UNITYSDK_OFFSET(0x15464F60)
+#define CLASS_1_843C5950C1E80D1D___C__DISPLAYCLASS111_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15702120)
+#define CLASS_1_843C5950C1E80D1D___C__DISPLAYCLASS111_0__DETECTCHARGINGROTATION_B__0_OFFSET UNITYSDK_OFFSET(0x15722C40)
 
-inline static constexpr unsigned int Class_1_843C5950C1E80D1D___c__DisplayClass111_0_TypeDefinitionIndex = 75528;
+inline static constexpr unsigned int Class_1_843C5950C1E80D1D___c__DisplayClass111_0_TypeDefinitionIndex = 75943;
 
 class Class_1_843C5950C1E80D1D___c__DisplayClass111_0 : public ::System::Object
 {
 public:
-	::UnityEngine::Pooled::PooledList_1<::UnityEngine::Quaternion>* tempRot; // 0x10
-	::Class_1_843C5950C1E80D1D* __4__this; // 0x18
+	::Class_1_843C5950C1E80D1D* __4__this; // 0x10
+	::UnityEngine::Pooled::PooledList_1<::UnityEngine::Quaternion>* tempRot; // 0x18
 
 	::System::Void _ctor()
 	{

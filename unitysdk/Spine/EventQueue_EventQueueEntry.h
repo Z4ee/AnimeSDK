@@ -6,11 +6,11 @@
 namespace Spine { class Event; }
 namespace Spine { class TrackEntry; }
 
-#define SPINE_EVENTQUEUE_EVENTQUEUEENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x3B75510)
+#define SPINE_EVENTQUEUE_EVENTQUEUEENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x3C2A3F0)
 
 namespace Spine
 {
-	inline static constexpr unsigned int EventQueue_EventQueueEntry_TypeDefinitionIndex = 38336;
+	inline static constexpr unsigned int EventQueue_EventQueueEntry_TypeDefinitionIndex = 39633;
 
 	struct alignas(8) EventQueue_EventQueueEntry
 	{

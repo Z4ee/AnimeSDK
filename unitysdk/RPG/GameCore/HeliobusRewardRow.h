@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_HELIOBUSREWARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D188AE0)
-#define RPG_GAMECORE_HELIOBUSREWARDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D189090)
+#define RPG_GAMECORE_HELIOBUSREWARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D763EF0)
+#define RPG_GAMECORE_HELIOBUSREWARDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7644E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HeliobusRewardRow_TypeDefinitionIndex = 13646;
+	inline static constexpr unsigned int HeliobusRewardRow_TypeDefinitionIndex = 13753;
 
 	class HeliobusRewardRow : public ::System::Object
 	{

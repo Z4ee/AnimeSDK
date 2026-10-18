@@ -4,13 +4,13 @@
 #include "unitysdk/Cysharp/Threading/Tasks/Triggers/AsyncTriggerBase_1.h"
 #include "unitysdk/Cysharp/Threading/Tasks/UniTask.h"
 
-#define CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCSTARTTRIGGER_STARTASYNC_OFFSET UNITYSDK_OFFSET(0x1EA712E0)
-#define CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCSTARTTRIGGER_START_OFFSET UNITYSDK_OFFSET(0x1EA712C0)
-#define CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCSTARTTRIGGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA714A0)
+#define CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCSTARTTRIGGER_STARTASYNC_OFFSET UNITYSDK_OFFSET(0x1F138AA0)
+#define CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCSTARTTRIGGER_START_OFFSET UNITYSDK_OFFSET(0x1F138A80)
+#define CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCSTARTTRIGGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F138C60)
 
 namespace Cysharp::Threading::Tasks::Triggers
 {
-	inline static constexpr unsigned int AsyncStartTrigger_TypeDefinitionIndex = 42913;
+	inline static constexpr unsigned int AsyncStartTrigger_TypeDefinitionIndex = 38498;
 
 	class AsyncStartTrigger : public ::Cysharp::Threading::Tasks::Triggers::AsyncTriggerBase_1<::Cysharp::Threading::Tasks::AsyncUnit>
 	{

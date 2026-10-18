@@ -5,10 +5,10 @@
 namespace System { class Object; }
 namespace System { class String; }
 
-#define SYSTEM_RUNTIME_REMOTING_METADATA_SOAPMETHODATTRIBUTE_GET_USEATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1BDEDE90)
-#define SYSTEM_RUNTIME_REMOTING_METADATA_SOAPMETHODATTRIBUTE_GET_XMLNAMESPACE_OFFSET UNITYSDK_OFFSET(0x1BDEDEA0)
-#define SYSTEM_RUNTIME_REMOTING_METADATA_SOAPMETHODATTRIBUTE_SETREFLECTIONOBJECT_OFFSET UNITYSDK_OFFSET(0x1BDEDEB0)
-#define SYSTEM_RUNTIME_REMOTING_METADATA_SOAPMETHODATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDD2430)
+#define SYSTEM_RUNTIME_REMOTING_METADATA_SOAPMETHODATTRIBUTE_GET_USEATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1C2F9AE0)
+#define SYSTEM_RUNTIME_REMOTING_METADATA_SOAPMETHODATTRIBUTE_GET_XMLNAMESPACE_OFFSET UNITYSDK_OFFSET(0x1C2F9AF0)
+#define SYSTEM_RUNTIME_REMOTING_METADATA_SOAPMETHODATTRIBUTE_SETREFLECTIONOBJECT_OFFSET UNITYSDK_OFFSET(0x1C2F9B00)
+#define SYSTEM_RUNTIME_REMOTING_METADATA_SOAPMETHODATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C2DE130)
 
 namespace System::Runtime::Remoting::Metadata
 {
@@ -17,10 +17,10 @@ namespace System::Runtime::Remoting::Metadata
 	class SoapMethodAttribute : public ::System::Runtime::Remoting::Metadata::SoapAttribute
 	{
 	public:
-		::System::String* _responseElement; // 0x28
-		::System::String* _soapAction; // 0x30
-		::System::String* _responseNamespace; // 0x38
-		::System::String* _returnElement; // 0x40
+		::System::String* _responseNamespace; // 0x28
+		::System::String* _returnElement; // 0x30
+		::System::String* _responseElement; // 0x38
+		::System::String* _soapAction; // 0x40
 		::System::String* _namespace; // 0x48
 		::System::Boolean _useAttribute; // 0x50
 

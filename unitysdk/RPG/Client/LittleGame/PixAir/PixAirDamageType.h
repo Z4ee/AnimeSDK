@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame::PixAir
 {
-	inline static constexpr unsigned int PixAirDamageType_TypeDefinitionIndex = 76835;
+	inline static constexpr unsigned int PixAirDamageType_TypeDefinitionIndex = 77306;
 
 	enum class PixAirDamageType : ::System::Int32
 	{

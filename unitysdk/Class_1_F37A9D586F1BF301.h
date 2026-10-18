@@ -1,0 +1,84 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/FileVisitorPosMode.h"
+#include "unitysdk/System/Object.h"
+
+namespace System { class String; }
+namespace System::IO { class Stream; }
+
+#define CLASS_1_F37A9D586F1BF301_METHOD_1_115D533F9C8CC8D9_OFFSET UNITYSDK_OFFSET(0x1EC37000)
+#define CLASS_1_F37A9D586F1BF301_METHOD_1_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0x1EC36F60)
+#define CLASS_1_F37A9D586F1BF301_METHOD_1_52D9D8E45C897793_OFFSET UNITYSDK_OFFSET(0x1EC37480)
+#define CLASS_1_F37A9D586F1BF301_METHOD_1_A4D3A8FB271C7E43_OFFSET UNITYSDK_OFFSET(0x1EC37110)
+#define CLASS_1_F37A9D586F1BF301_METHOD_1_C74E50CBD41F0264_OFFSET UNITYSDK_OFFSET(0x1EC36F50)
+#define CLASS_1_F37A9D586F1BF301_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x1EC36D20)
+#define CLASS_1_F37A9D586F1BF301_METHOD_1_D05EA67D8C77E21C_OFFSET UNITYSDK_OFFSET(0x1EC36FB0)
+#define CLASS_1_F37A9D586F1BF301_METHOD_1_DEC64F0F80DC8A15_OFFSET UNITYSDK_OFFSET(0x1EC37670)
+#define CLASS_1_F37A9D586F1BF301_METHOD_1_E3DE31A03057E055_OFFSET UNITYSDK_OFFSET(0x1EC36DB0)
+#define CLASS_1_F37A9D586F1BF301_METHOD_1_E41B6A823556FEEA_OFFSET UNITYSDK_OFFSET(0x1EC36D60)
+#define CLASS_1_F37A9D586F1BF301__CTOR_OFFSET UNITYSDK_OFFSET(0x1EC36D10)
+
+inline static constexpr unsigned int Class_1_F37A9D586F1BF301_TypeDefinitionIndex = 35239;
+
+class Class_1_F37A9D586F1BF301 : public ::System::Object
+{
+public:
+	::System::IO::Stream* JOKDPKKLOIO; // 0x10
+	::System::Boolean KFMAKPOKELE; // 0x18
+	::RPG::Client::FileVisitorPosMode GCDOIJFBIDL; // 0x1C
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F37A9D586F1BF301__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Method_1_CA373AA1C7054598()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F37A9D586F1BF301_METHOD_1_CA373AA1C7054598_OFFSET))(this);
+	}
+
+	::System::Void Method_1_E41B6A823556FEEA()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F37A9D586F1BF301_METHOD_1_E41B6A823556FEEA_OFFSET))(this);
+	}
+
+	::System::Void Method_1_C74E50CBD41F0264(::System::Boolean a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_F37A9D586F1BF301_METHOD_1_C74E50CBD41F0264_OFFSET))(this, a1);
+	}
+
+	::System::Boolean Method_1_391A84BCD9F51317()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F37A9D586F1BF301_METHOD_1_391A84BCD9F51317_OFFSET))(this);
+	}
+
+	::System::Void Method_1_D05EA67D8C77E21C(::RPG::Client::FileVisitorPosMode a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::FileVisitorPosMode))((::PBYTE)hIl2Cpp + CLASS_1_F37A9D586F1BF301_METHOD_1_D05EA67D8C77E21C_OFFSET))(this, a1);
+	}
+
+	::System::Int64 Method_1_115D533F9C8CC8D9()
+	{
+		return ((::System::Int64(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F37A9D586F1BF301_METHOD_1_115D533F9C8CC8D9_OFFSET))(this);
+	}
+
+	::System::Boolean Method_1_A4D3A8FB271C7E43(::System::String* a1)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_F37A9D586F1BF301_METHOD_1_A4D3A8FB271C7E43_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_E3DE31A03057E055()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F37A9D586F1BF301_METHOD_1_E3DE31A03057E055_OFFSET))(this);
+	}
+
+	::System::Int64 Method_1_52D9D8E45C897793(::System::Int64 a1)
+	{
+		return ((::System::Int64(*)(::PVOID, ::System::Int64))((::PBYTE)hIl2Cpp + CLASS_1_F37A9D586F1BF301_METHOD_1_52D9D8E45C897793_OFFSET))(this, a1);
+	}
+
+	::Il2CppArray<::System::Byte>* Method_1_DEC64F0F80DC8A15(::System::Int64 a1, ::System::Int64 a2, ::Il2CppArray<::System::Byte>* a3)
+	{
+		return ((::Il2CppArray<::System::Byte>*(*)(::PVOID, ::System::Int64, ::System::Int64, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + CLASS_1_F37A9D586F1BF301_METHOD_1_DEC64F0F80DC8A15_OFFSET))(this, a1, a2, a3);
+	}
+};

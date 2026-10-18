@@ -6,13 +6,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_HIPPLENBALLFETCHINTERACTWORKCONFIG_METHOD_3_1C39CE2AD128FB0E_OFFSET UNITYSDK_OFFSET(0x1D18F250)
-#define RPG_GAMECORE_HIPPLENBALLFETCHINTERACTWORKCONFIG_METHOD_3_BEC33EF161559520_OFFSET UNITYSDK_OFFSET(0x1D18F1F0)
-#define RPG_GAMECORE_HIPPLENBALLFETCHINTERACTWORKCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D18F240)
+#define RPG_GAMECORE_HIPPLENBALLFETCHINTERACTWORKCONFIG_METHOD_3_68C8002755F5E730_OFFSET UNITYSDK_OFFSET(0x1D76A610)
+#define RPG_GAMECORE_HIPPLENBALLFETCHINTERACTWORKCONFIG_METHOD_3_7C1A717A3F4A17BF_OFFSET UNITYSDK_OFFSET(0x1D76A670)
+#define RPG_GAMECORE_HIPPLENBALLFETCHINTERACTWORKCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D76A660)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HipplenBallFetchInteractWorkConfig_TypeDefinitionIndex = 16609;
+	inline static constexpr unsigned int HipplenBallFetchInteractWorkConfig_TypeDefinitionIndex = 16785;
 
 	class HipplenBallFetchInteractWorkConfig : public ::RPG::GameCore::HipplenInteractWorkConfig
 	{
@@ -39,14 +39,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HIPPLENBALLFETCHINTERACTWORKCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_BEC33EF161559520(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::HipplenBallFetchInteractWorkConfig*& a2)
+		static ::System::Void Method_3_68C8002755F5E730(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::HipplenBallFetchInteractWorkConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::HipplenBallFetchInteractWorkConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HIPPLENBALLFETCHINTERACTWORKCONFIG_METHOD_3_BEC33EF161559520_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::HipplenBallFetchInteractWorkConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HIPPLENBALLFETCHINTERACTWORKCONFIG_METHOD_3_68C8002755F5E730_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_1C39CE2AD128FB0E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::HipplenBallFetchInteractWorkConfig* a2)
+		static ::System::Void Method_3_7C1A717A3F4A17BF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::HipplenBallFetchInteractWorkConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::HipplenBallFetchInteractWorkConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HIPPLENBALLFETCHINTERACTWORKCONFIG_METHOD_3_1C39CE2AD128FB0E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::HipplenBallFetchInteractWorkConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HIPPLENBALLFETCHINTERACTWORKCONFIG_METHOD_3_7C1A717A3F4A17BF_OFFSET))(a1, a2);
 		}
 	};
 }

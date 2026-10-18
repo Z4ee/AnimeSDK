@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_PLAYEROUTFITBASEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3511D0)
-#define RPG_GAMECORE_PLAYEROUTFITBASEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D351320)
+#define RPG_GAMECORE_PLAYEROUTFITBASEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D9364F0)
+#define RPG_GAMECORE_PLAYEROUTFITBASEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D936640)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlayerOutfitBaseRow_TypeDefinitionIndex = 14344;
+	inline static constexpr unsigned int PlayerOutfitBaseRow_TypeDefinitionIndex = 14509;
 
 	class PlayerOutfitBaseRow : public ::System::Object
 	{

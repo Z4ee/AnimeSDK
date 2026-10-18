@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByIsAutoBattle; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_B26AEF6D4A7C9E95_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBE8FF70)
-#define CLASS_3_B26AEF6D4A7C9E95__CTOR_OFFSET UNITYSDK_OFFSET(0xBE8FF40)
+#define CLASS_3_B26AEF6D4A7C9E95_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBD210B0)
+#define CLASS_3_B26AEF6D4A7C9E95__CTOR_OFFSET UNITYSDK_OFFSET(0xBD21080)
 
-inline static constexpr unsigned int Class_3_B26AEF6D4A7C9E95_TypeDefinitionIndex = 54846;
+inline static constexpr unsigned int Class_3_B26AEF6D4A7C9E95_TypeDefinitionIndex = 54634;
 
 class Class_3_B26AEF6D4A7C9E95 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByIsAutoBattle*>
 {

@@ -9,11 +9,11 @@ namespace Google::Protobuf::Collections { template <typename T> class RepeatedFi
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_BAB7878C1DBCE4EF_METHOD_1_13723A944904BB41_OFFSET UNITYSDK_OFFSET(0xC027680)
-#define CLASS_1_BAB7878C1DBCE4EF_METHOD_1_3DB54BF3B1645FAD_OFFSET UNITYSDK_OFFSET(0xC027D30)
-#define CLASS_1_BAB7878C1DBCE4EF__CTOR_OFFSET UNITYSDK_OFFSET(0xC027CA0)
+#define CLASS_1_BAB7878C1DBCE4EF_METHOD_1_13723A944904BB41_OFFSET UNITYSDK_OFFSET(0xBF10DC0)
+#define CLASS_1_BAB7878C1DBCE4EF_METHOD_1_3DB54BF3B1645FAD_OFFSET UNITYSDK_OFFSET(0xBF11470)
+#define CLASS_1_BAB7878C1DBCE4EF__CTOR_OFFSET UNITYSDK_OFFSET(0xBF113E0)
 
-inline static constexpr unsigned int Class_1_BAB7878C1DBCE4EF_TypeDefinitionIndex = 56277;
+inline static constexpr unsigned int Class_1_BAB7878C1DBCE4EF_TypeDefinitionIndex = 56090;
 
 class Class_1_BAB7878C1DBCE4EF : public ::System::Object
 {

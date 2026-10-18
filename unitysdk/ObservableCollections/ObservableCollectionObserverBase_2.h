@@ -11,7 +11,7 @@ namespace R3 { template <typename T> class Observer_1; }
 
 namespace ObservableCollections
 {
-	inline static constexpr unsigned int ObservableCollectionObserverBase_2_TypeDefinitionIndex = 40070;
+	inline static constexpr unsigned int ObservableCollectionObserverBase_2_TypeDefinitionIndex = 41367;
 
 	template <typename T, typename TEvent>
 	class ObservableCollectionObserverBase_2 : public ::System::Object

@@ -5,19 +5,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_HEARTDIALSDFROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D17D580)
-#define RPG_GAMECORE_HEARTDIALSDFROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D17D800)
+#define RPG_GAMECORE_HEARTDIALSDFROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D7588B0)
+#define RPG_GAMECORE_HEARTDIALSDFROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D758B10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HeartDialSDFRow_TypeDefinitionIndex = 13623;
+	inline static constexpr unsigned int HeartDialSDFRow_TypeDefinitionIndex = 13730;
 
 	class HeartDialSDFRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* FloorIDList; // 0x10
-		::System::UInt32 VoiceID; // 0x18
-		::System::UInt32 ID; // 0x1C
+		::System::UInt32 ID; // 0x18
+		::System::UInt32 VoiceID; // 0x1C
 		::System::Boolean IsKaomoji; // 0x20
 		::RPG::Client::TextID SDFText; // 0x28
 

@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_MESSAGECONTENTGOTOBLOCK_AVATARGUIDEGOTOCOMMAND_EXECUTE_OFFSET UNITYSDK_OFFSET(0xD6A2FE0)
-#define RPG_CLIENT_MESSAGECONTENTGOTOBLOCK_AVATARGUIDEGOTOCOMMAND__CTOR_OFFSET UNITYSDK_OFFSET(0xD6A2D90)
+#define RPG_CLIENT_MESSAGECONTENTGOTOBLOCK_AVATARGUIDEGOTOCOMMAND_EXECUTE_OFFSET UNITYSDK_OFFSET(0xD69FB60)
+#define RPG_CLIENT_MESSAGECONTENTGOTOBLOCK_AVATARGUIDEGOTOCOMMAND__CTOR_OFFSET UNITYSDK_OFFSET(0xD69F910)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MessageContentGotoBlock_AvatarGuideGotoCommand_TypeDefinitionIndex = 63310;
+	inline static constexpr unsigned int MessageContentGotoBlock_AvatarGuideGotoCommand_TypeDefinitionIndex = 63245;
 
 	class MessageContentGotoBlock_AvatarGuideGotoCommand : public ::System::Object
 	{

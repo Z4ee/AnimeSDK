@@ -10,7 +10,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace Cysharp::Threading::Tasks::Internal
 {
-	inline static constexpr unsigned int WeakDictionary_2_TypeDefinitionIndex = 43106;
+	inline static constexpr unsigned int WeakDictionary_2_TypeDefinitionIndex = 38691;
 
 	template <typename TKey, typename TValue>
 	class WeakDictionary_2 : public ::System::Object

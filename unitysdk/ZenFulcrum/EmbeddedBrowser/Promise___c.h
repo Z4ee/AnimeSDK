@@ -9,34 +9,34 @@ namespace System { template <typename T> class Action_1; }
 namespace System { template <typename T> class Func_1; }
 namespace ZenFulcrum::EmbeddedBrowser { class IPromise; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_PROMISE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EFA4B60)
-#define ZENFULCRUM_EMBEDDEDBROWSER_PROMISE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1EFA4BA0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_PROMISE___C__SEQUENCE_B__54_0_OFFSET UNITYSDK_OFFSET(0x1EFA4BB0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_PROMISE___C__TOWAITFOR_B__63_0_OFFSET UNITYSDK_OFFSET(0x1EFA4C70)
-#define ZENFULCRUM_EMBEDDEDBROWSER_PROMISE___C__TOWAITFOR_B__63_1_OFFSET UNITYSDK_OFFSET(0x1EFA4C80)
+#define ZENFULCRUM_EMBEDDEDBROWSER_PROMISE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F66D0D0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_PROMISE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1F66D110)
+#define ZENFULCRUM_EMBEDDEDBROWSER_PROMISE___C__SEQUENCE_B__54_0_OFFSET UNITYSDK_OFFSET(0x1F66D120)
+#define ZENFULCRUM_EMBEDDEDBROWSER_PROMISE___C__TOWAITFOR_B__63_0_OFFSET UNITYSDK_OFFSET(0x1F66D1E0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_PROMISE___C__TOWAITFOR_B__63_1_OFFSET UNITYSDK_OFFSET(0x1F66D1F0)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int Promise___c_TypeDefinitionIndex = 38251;
+	inline static constexpr unsigned int Promise___c_TypeDefinitionIndex = 39548;
 
 	class Promise___c : public ::System::Object
 	{
 	public:
-		static ::ZenFulcrum::EmbeddedBrowser::Promise___c** StaticGet___9()
-		{
-			return (::ZenFulcrum::EmbeddedBrowser::Promise___c**)Il2CppClass::FromTypeDefinitionIndex(Promise___c_TypeDefinitionIndex)->GetStaticField(0x3FA90);
-		}
 		static ::System::Action_1<::System::Exception*>** StaticGet___9__63_1()
 		{
-			return (::System::Action_1<::System::Exception*>**)Il2CppClass::FromTypeDefinitionIndex(Promise___c_TypeDefinitionIndex)->GetStaticField(0x3FA98);
+			return (::System::Action_1<::System::Exception*>**)Il2CppClass::FromTypeDefinitionIndex(Promise___c_TypeDefinitionIndex)->GetStaticField(0x47910);
 		}
-		static ::System::Action** StaticGet___9__63_0()
+		static ::ZenFulcrum::EmbeddedBrowser::Promise___c** StaticGet___9()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(Promise___c_TypeDefinitionIndex)->GetStaticField(0x3FAA0);
+			return (::ZenFulcrum::EmbeddedBrowser::Promise___c**)Il2CppClass::FromTypeDefinitionIndex(Promise___c_TypeDefinitionIndex)->GetStaticField(0x47918);
 		}
 		static ::System::Func_3<::ZenFulcrum::EmbeddedBrowser::IPromise*, ::System::Func_1<::ZenFulcrum::EmbeddedBrowser::IPromise*>*, ::ZenFulcrum::EmbeddedBrowser::IPromise*>** StaticGet___9__54_0()
 		{
-			return (::System::Func_3<::ZenFulcrum::EmbeddedBrowser::IPromise*, ::System::Func_1<::ZenFulcrum::EmbeddedBrowser::IPromise*>*, ::ZenFulcrum::EmbeddedBrowser::IPromise*>**)Il2CppClass::FromTypeDefinitionIndex(Promise___c_TypeDefinitionIndex)->GetStaticField(0x3FAA8);
+			return (::System::Func_3<::ZenFulcrum::EmbeddedBrowser::IPromise*, ::System::Func_1<::ZenFulcrum::EmbeddedBrowser::IPromise*>*, ::ZenFulcrum::EmbeddedBrowser::IPromise*>**)Il2CppClass::FromTypeDefinitionIndex(Promise___c_TypeDefinitionIndex)->GetStaticField(0x47920);
+		}
+		static ::System::Action** StaticGet___9__63_0()
+		{
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(Promise___c_TypeDefinitionIndex)->GetStaticField(0x47928);
 		}
 
 		static ::System::Void _cctor()

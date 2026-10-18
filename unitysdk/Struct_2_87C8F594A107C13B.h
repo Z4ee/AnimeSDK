@@ -7,10 +7,10 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class String; }
 
-#define STRUCT_2_87C8F594A107C13B_GET_PARAMLIST_OFFSET UNITYSDK_OFFSET(0x2CFE0)
-#define STRUCT_2_87C8F594A107C13B_SET_PARAMLIST_OFFSET UNITYSDK_OFFSET(0x2CFF0)
+#define STRUCT_2_87C8F594A107C13B_GET_PARAMLIST_OFFSET UNITYSDK_OFFSET(0x94F0)
+#define STRUCT_2_87C8F594A107C13B_SET_PARAMLIST_OFFSET UNITYSDK_OFFSET(0x9500)
 
-inline static constexpr unsigned int Struct_2_87C8F594A107C13B_TypeDefinitionIndex = 54214;
+inline static constexpr unsigned int Struct_2_87C8F594A107C13B_TypeDefinitionIndex = 54000;
 
 struct alignas(8) Struct_2_87C8F594A107C13B
 {

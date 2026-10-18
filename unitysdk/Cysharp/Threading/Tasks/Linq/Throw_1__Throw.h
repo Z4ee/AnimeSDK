@@ -9,7 +9,7 @@ namespace System { class Exception; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int Throw_1__Throw_TypeDefinitionIndex = 44533;
+	inline static constexpr unsigned int Throw_1__Throw_TypeDefinitionIndex = 45672;
 
 	template <typename TValue>
 	class Throw_1__Throw : public ::System::Object

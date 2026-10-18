@@ -5,12 +5,12 @@
 namespace RPG::Client { class GridFightGridData; }
 namespace RPG::Client { class GridFightGridMoveValidateResult; }
 
-#define RPG_CLIENT_GRIDFIGHTGRIDOPERATIONVALIDATOR_FULLBOARDCONSTRAIT_VALIDATE_OFFSET UNITYSDK_OFFSET(0xD1F2890)
-#define RPG_CLIENT_GRIDFIGHTGRIDOPERATIONVALIDATOR_FULLBOARDCONSTRAIT__CTOR_OFFSET UNITYSDK_OFFSET(0xD1F2D50)
+#define RPG_CLIENT_GRIDFIGHTGRIDOPERATIONVALIDATOR_FULLBOARDCONSTRAIT_VALIDATE_OFFSET UNITYSDK_OFFSET(0xD193380)
+#define RPG_CLIENT_GRIDFIGHTGRIDOPERATIONVALIDATOR_FULLBOARDCONSTRAIT__CTOR_OFFSET UNITYSDK_OFFSET(0xD192B00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightGridOperationValidator_FullBoardConstrait_TypeDefinitionIndex = 64907;
+	inline static constexpr unsigned int GridFightGridOperationValidator_FullBoardConstrait_TypeDefinitionIndex = 64847;
 
 	class GridFightGridOperationValidator_FullBoardConstrait : public ::System::Object
 	{

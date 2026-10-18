@@ -5,9 +5,9 @@
 class FiveDimRenderingItem;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_D38A5848A793D38F_CLASS_1_132A9C759E078134__CTOR_OFFSET UNITYSDK_OFFSET(0x153C4A10)
+#define CLASS_2_D38A5848A793D38F_CLASS_1_132A9C759E078134__CTOR_OFFSET UNITYSDK_OFFSET(0x15679EA0)
 
-inline static constexpr unsigned int Class_2_D38A5848A793D38F_Class_1_132A9C759E078134_TypeDefinitionIndex = 76251;
+inline static constexpr unsigned int Class_2_D38A5848A793D38F_Class_1_132A9C759E078134_TypeDefinitionIndex = 76728;
 
 class Class_2_D38A5848A793D38F_Class_1_132A9C759E078134 : public ::System::Object
 {

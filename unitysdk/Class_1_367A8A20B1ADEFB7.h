@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/Client/ChallengeLineupAvatarSaveType.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_367A8A20B1ADEFB7__CTOR_OFFSET UNITYSDK_OFFSET(0x15B78EE0)
+#define CLASS_1_367A8A20B1ADEFB7__CTOR_OFFSET UNITYSDK_OFFSET(0x15ED71E0)
 
-inline static constexpr unsigned int Class_1_367A8A20B1ADEFB7_TypeDefinitionIndex = 63162;
+inline static constexpr unsigned int Class_1_367A8A20B1ADEFB7_TypeDefinitionIndex = 63095;
 
 class Class_1_367A8A20B1ADEFB7 : public ::System::Object
 {

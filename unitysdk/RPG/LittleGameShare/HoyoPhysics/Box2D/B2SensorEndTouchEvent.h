@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2ShapeId.h"
 #include "unitysdk/System/ValueType.h"
 
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2SENSORENDTOUCHEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x2DF4490)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2SENSORENDTOUCHEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0xFB50)
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2SensorEndTouchEvent_TypeDefinitionIndex = 36062;
+	inline static constexpr unsigned int B2SensorEndTouchEvent_TypeDefinitionIndex = 36749;
 
 	struct alignas(8) B2SensorEndTouchEvent
 	{

@@ -5,12 +5,12 @@
 
 namespace System { class String; }
 
-#define RPG_GAMECORE_TALKTRIGGER_DIALOGUEGROUPINFO_RESET_OFFSET UNITYSDK_OFFSET(0x15CDC0)
-#define RPG_GAMECORE_TALKTRIGGER_DIALOGUEGROUPINFO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x15CE10)
+#define RPG_GAMECORE_TALKTRIGGER_DIALOGUEGROUPINFO_RESET_OFFSET UNITYSDK_OFFSET(0xF6540)
+#define RPG_GAMECORE_TALKTRIGGER_DIALOGUEGROUPINFO_TOSTRING_OFFSET UNITYSDK_OFFSET(0xF6590)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TalkTrigger_DialogueGroupInfo_TypeDefinitionIndex = 57686;
+	inline static constexpr unsigned int TalkTrigger_DialogueGroupInfo_TypeDefinitionIndex = 57532;
 
 	struct alignas(4) TalkTrigger_DialogueGroupInfo
 	{

@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/InControl/InputDeviceProfile.h"
 
-#define INCONTROL_NATIVEDEVICEPROFILES_PLAYSTATIONANALOGJOYSTICKWINDOWSNATIVEPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x1B539F00)
-#define INCONTROL_NATIVEDEVICEPROFILES_PLAYSTATIONANALOGJOYSTICKWINDOWSNATIVEPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B53AE10)
+#define INCONTROL_NATIVEDEVICEPROFILES_PLAYSTATIONANALOGJOYSTICKWINDOWSNATIVEPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x1BA38B60)
+#define INCONTROL_NATIVEDEVICEPROFILES_PLAYSTATIONANALOGJOYSTICKWINDOWSNATIVEPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA39A70)
 
 namespace InControl::NativeDeviceProfiles
 {
-	inline static constexpr unsigned int PlayStationAnalogJoystickWindowsNativeProfile_TypeDefinitionIndex = 40023;
+	inline static constexpr unsigned int PlayStationAnalogJoystickWindowsNativeProfile_TypeDefinitionIndex = 41320;
 
 	class PlayStationAnalogJoystickWindowsNativeProfile : public ::InControl::InputDeviceProfile
 	{

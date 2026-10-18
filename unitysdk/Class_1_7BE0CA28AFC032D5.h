@@ -2,36 +2,36 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_1341;
+class Class_0_16E4307DCC419505_1545;
 namespace Sofa { class BaseSofaUI3DWindow; }
 namespace Sofa { class BaseSofaWindow; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_7BE0CA28AFC032D5_METHOD_1_0D64F99BAAA7B5C4_OFFSET UNITYSDK_OFFSET(0xD80FC80)
-#define CLASS_1_7BE0CA28AFC032D5_METHOD_1_1FD1F9CBED9E87D7_OFFSET UNITYSDK_OFFSET(0xD80F350)
-#define CLASS_1_7BE0CA28AFC032D5_METHOD_1_4B1A826666FC43AC_OFFSET UNITYSDK_OFFSET(0xD80F5A0)
-#define CLASS_1_7BE0CA28AFC032D5_METHOD_1_5B23F70339574615_OFFSET UNITYSDK_OFFSET(0xD80F050)
-#define CLASS_1_7BE0CA28AFC032D5_METHOD_1_80DB7AD8D6D5425D_OFFSET UNITYSDK_OFFSET(0xD80FF70)
-#define CLASS_1_7BE0CA28AFC032D5_METHOD_1_90288C4892CFA531_OFFSET UNITYSDK_OFFSET(0xD80F970)
-#define CLASS_1_7BE0CA28AFC032D5_METHOD_1_A12DAB7A1C07C3DA_OFFSET UNITYSDK_OFFSET(0xD80FDD0)
-#define CLASS_1_7BE0CA28AFC032D5_METHOD_1_B05206AAE4BD674C_OFFSET UNITYSDK_OFFSET(0xD80F7F0)
-#define CLASS_1_7BE0CA28AFC032D5__CTOR_OFFSET UNITYSDK_OFFSET(0xD80EE20)
+#define CLASS_1_7BE0CA28AFC032D5_METHOD_1_0D64F99BAAA7B5C4_OFFSET UNITYSDK_OFFSET(0xD780320)
+#define CLASS_1_7BE0CA28AFC032D5_METHOD_1_1FD1F9CBED9E87D7_OFFSET UNITYSDK_OFFSET(0xD77F9F0)
+#define CLASS_1_7BE0CA28AFC032D5_METHOD_1_4B1A826666FC43AC_OFFSET UNITYSDK_OFFSET(0xD77FC40)
+#define CLASS_1_7BE0CA28AFC032D5_METHOD_1_5B23F70339574615_1_OFFSET UNITYSDK_OFFSET(0xD77FE90)
+#define CLASS_1_7BE0CA28AFC032D5_METHOD_1_5B23F70339574615_OFFSET UNITYSDK_OFFSET(0xD77F6F0)
+#define CLASS_1_7BE0CA28AFC032D5_METHOD_1_80DB7AD8D6D5425D_OFFSET UNITYSDK_OFFSET(0xD780610)
+#define CLASS_1_7BE0CA28AFC032D5_METHOD_1_90288C4892CFA531_OFFSET UNITYSDK_OFFSET(0xD780010)
+#define CLASS_1_7BE0CA28AFC032D5_METHOD_1_A12DAB7A1C07C3DA_OFFSET UNITYSDK_OFFSET(0xD780470)
+#define CLASS_1_7BE0CA28AFC032D5__CTOR_OFFSET UNITYSDK_OFFSET(0xD77F4C0)
 
-inline static constexpr unsigned int Class_1_7BE0CA28AFC032D5_TypeDefinitionIndex = 79185;
+inline static constexpr unsigned int Class_1_7BE0CA28AFC032D5_TypeDefinitionIndex = 80509;
 
 class Class_1_7BE0CA28AFC032D5 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::Dictionary_2<::System::Object*, ::Sofa::BaseSofaWindow*>* MLHKFHBHDKJ; // 0x10
-	::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::String*>* PCAHNFJEMML; // 0x18
-	::Class_0_16E4307DCC419505_1341* NIBNJBOGMID; // 0x20
-	::System::Collections::Generic::Dictionary_2<::System::Object*, ::Sofa::BaseSofaUI3DWindow*>* MIAJGJLGPOJ; // 0x28
+	::System::Collections::Generic::Dictionary_2<::System::Object*, ::Sofa::BaseSofaUI3DWindow*>* MIAJGJLGPOJ; // 0x10
+	::Class_0_16E4307DCC419505_1545* NIBNJBOGMID; // 0x18
+	::System::Collections::Generic::Dictionary_2<::System::Object*, ::Sofa::BaseSofaWindow*>* MLHKFHBHDKJ; // 0x20
+	::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::String*>* PCAHNFJEMML; // 0x28
 	::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::String*>* FKOEKIGAGAJ; // 0x30
 
-	::System::Void _ctor(::Class_0_16E4307DCC419505_1341* a1)
+	::System::Void _ctor(::Class_0_16E4307DCC419505_1545* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_1341*))((::PBYTE)hIl2Cpp + CLASS_1_7BE0CA28AFC032D5__CTOR_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_1545*))((::PBYTE)hIl2Cpp + CLASS_1_7BE0CA28AFC032D5__CTOR_OFFSET))(this, a1);
 	}
 
 	::System::Void Method_1_5B23F70339574615(::System::Object* a1, ::System::String* a2)
@@ -39,9 +39,9 @@ public:
 		return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_7BE0CA28AFC032D5_METHOD_1_5B23F70339574615_OFFSET))(this, a1, a2);
 	}
 
-	::System::Void Method_1_B05206AAE4BD674C(::System::Object* a1, ::System::String* a2)
+	::System::Void Method_1_5B23F70339574615_1(::System::Object* a1, ::System::String* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_7BE0CA28AFC032D5_METHOD_1_B05206AAE4BD674C_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_7BE0CA28AFC032D5_METHOD_1_5B23F70339574615_1_OFFSET))(this, a1, a2);
 	}
 
 	::System::Void Method_1_0D64F99BAAA7B5C4(::System::Object* a1)

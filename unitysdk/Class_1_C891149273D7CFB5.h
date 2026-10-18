@@ -6,22 +6,22 @@
 class Class_3_07C3C4D2990C49EE;
 namespace RPG::Client { class CameraBlendCurve; }
 
-#define CLASS_1_C891149273D7CFB5_METHOD_1_7DB49B5407C8FD68_OFFSET UNITYSDK_OFFSET(0xBAE5170)
-#define CLASS_1_C891149273D7CFB5__CTOR_OFFSET UNITYSDK_OFFSET(0xBAE5250)
+#define CLASS_1_C891149273D7CFB5_METHOD_1_7DB49B5407C8FD68_OFFSET UNITYSDK_OFFSET(0xB969DB0)
+#define CLASS_1_C891149273D7CFB5__CTOR_OFFSET UNITYSDK_OFFSET(0xB969E90)
 
-inline static constexpr unsigned int Class_1_C891149273D7CFB5_TypeDefinitionIndex = 57225;
+inline static constexpr unsigned int Class_1_C891149273D7CFB5_TypeDefinitionIndex = 57058;
 
 class Class_1_C891149273D7CFB5 : public ::System::Object
 {
 public:
-	::RPG::Client::CameraBlendCurve* KFCELIGJDAD; // 0x10
-	::Class_3_07C3C4D2990C49EE* MGJLINFADJK; // 0x18
-	::System::Boolean FKLBDDFFBMD; // 0x20
+	::Class_3_07C3C4D2990C49EE* MGJLINFADJK; // 0x10
+	::RPG::Client::CameraBlendCurve* KFCELIGJDAD; // 0x18
+	::System::UInt32 IHKEHJCACDO; // 0x20
 	::System::Single MFOKFOOCHPA; // 0x24
-	::UnityEngine::Vector3 HMFELPGGPMI; // 0x28
-	::System::Single DGLGPLADDFB; // 0x34
-	::System::UInt32 IHKEHJCACDO; // 0x38
-	::System::UInt32 CDPKHFMJBPF; // 0x3C
+	::System::UInt32 CDPKHFMJBPF; // 0x28
+	::System::Single DGLGPLADDFB; // 0x2C
+	::UnityEngine::Vector3 HMFELPGGPMI; // 0x30
+	::System::Boolean FKLBDDFFBMD; // 0x3C
 
 	::System::Void _ctor()
 	{

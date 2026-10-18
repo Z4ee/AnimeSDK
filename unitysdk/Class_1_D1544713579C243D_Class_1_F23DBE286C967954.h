@@ -1,0 +1,35 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Struct_2_5C51850AEEA325C9.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_D1544713579C243D_Class_1_CC4648AAFFEDA45F;
+namespace RPG { template <typename T> class PoolList_1; }
+
+#define CLASS_1_D1544713579C243D_CLASS_1_F23DBE286C967954_GET_MEMBER_OFFSET UNITYSDK_OFFSET(0x15A91750)
+#define CLASS_1_D1544713579C243D_CLASS_1_F23DBE286C967954_GET_OPTIONS_OFFSET UNITYSDK_OFFSET(0x15A91770)
+#define CLASS_1_D1544713579C243D_CLASS_1_F23DBE286C967954__CTOR_OFFSET UNITYSDK_OFFSET(0x15A8E850)
+
+inline static constexpr unsigned int Class_1_D1544713579C243D_Class_1_F23DBE286C967954_TypeDefinitionIndex = 53525;
+
+class Class_1_D1544713579C243D_Class_1_F23DBE286C967954 : public ::System::Object
+{
+public:
+	::RPG::PoolList_1<::Class_1_D1544713579C243D_Class_1_CC4648AAFFEDA45F*>* _Options_k__BackingField; // 0x10
+	::Struct_2_5C51850AEEA325C9 _Member_k__BackingField; // 0x18
+
+	::System::Void _ctor(::Struct_2_5C51850AEEA325C9 a1, ::RPG::PoolList_1<::Class_1_D1544713579C243D_Class_1_CC4648AAFFEDA45F*>* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::Struct_2_5C51850AEEA325C9, ::RPG::PoolList_1<::Class_1_D1544713579C243D_Class_1_CC4648AAFFEDA45F*>*))((::PBYTE)hIl2Cpp + CLASS_1_D1544713579C243D_CLASS_1_F23DBE286C967954__CTOR_OFFSET))(this, a1, a2);
+	}
+
+	::Struct_2_5C51850AEEA325C9 get_Member()
+	{
+		return ((::Struct_2_5C51850AEEA325C9(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_D1544713579C243D_CLASS_1_F23DBE286C967954_GET_MEMBER_OFFSET))(this);
+	}
+
+	::RPG::PoolList_1<::Class_1_D1544713579C243D_Class_1_CC4648AAFFEDA45F*>* get_Options()
+	{
+		return ((::RPG::PoolList_1<::Class_1_D1544713579C243D_Class_1_CC4648AAFFEDA45F*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_D1544713579C243D_CLASS_1_F23DBE286C967954_GET_OPTIONS_OFFSET))(this);
+	}
+};

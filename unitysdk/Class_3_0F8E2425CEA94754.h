@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class EnableCharacterAttachmentSolverPoint; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_0F8E2425CEA94754_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1631EE10)
-#define CLASS_3_0F8E2425CEA94754__CTOR_OFFSET UNITYSDK_OFFSET(0x1631EDE0)
+#define CLASS_3_0F8E2425CEA94754_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB2054F0)
+#define CLASS_3_0F8E2425CEA94754__CTOR_OFFSET UNITYSDK_OFFSET(0xB2054C0)
 
-inline static constexpr unsigned int Class_3_0F8E2425CEA94754_TypeDefinitionIndex = 53017;
+inline static constexpr unsigned int Class_3_0F8E2425CEA94754_TypeDefinitionIndex = 52743;
 
 class Class_3_0F8E2425CEA94754 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::EnableCharacterAttachmentSolverPoint*>
 {

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class InitFlipperLightDevice; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_DC345A54B1341EBE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBADAE60)
-#define CLASS_3_DC345A54B1341EBE__CTOR_OFFSET UNITYSDK_OFFSET(0xBADAE30)
+#define CLASS_3_DC345A54B1341EBE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBA77940)
+#define CLASS_3_DC345A54B1341EBE__CTOR_OFFSET UNITYSDK_OFFSET(0xBA77910)
 
-inline static constexpr unsigned int Class_3_DC345A54B1341EBE_TypeDefinitionIndex = 53040;
+inline static constexpr unsigned int Class_3_DC345A54B1341EBE_TypeDefinitionIndex = 52766;
 
 class Class_3_DC345A54B1341EBE : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::InitFlipperLightDevice*>
 {

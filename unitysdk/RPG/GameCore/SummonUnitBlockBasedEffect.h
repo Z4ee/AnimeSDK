@@ -7,12 +7,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class EntityPosAdaptionConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SUMMONUNITBLOCKBASEDEFFECT_METHOD_2_28BDB93E13437B4B_OFFSET UNITYSDK_OFFSET(0x1D584300)
-#define RPG_GAMECORE_SUMMONUNITBLOCKBASEDEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D584650)
+#define RPG_GAMECORE_SUMMONUNITBLOCKBASEDEFFECT_METHOD_2_20D171A5D079068D_OFFSET UNITYSDK_OFFSET(0x1DB3AA20)
+#define RPG_GAMECORE_SUMMONUNITBLOCKBASEDEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB3ADF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SummonUnitBlockBasedEffect_TypeDefinitionIndex = 17398;
+	inline static constexpr unsigned int SummonUnitBlockBasedEffect_TypeDefinitionIndex = 17610;
 
 	class SummonUnitBlockBasedEffect : public ::RPG::GameCore::JsonConfig
 	{
@@ -33,9 +33,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SUMMONUNITBLOCKBASEDEFFECT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_28BDB93E13437B4B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SummonUnitBlockBasedEffect*& a2)
+		static ::System::Void Method_2_20D171A5D079068D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SummonUnitBlockBasedEffect*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SummonUnitBlockBasedEffect*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SUMMONUNITBLOCKBASEDEFFECT_METHOD_2_28BDB93E13437B4B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SummonUnitBlockBasedEffect*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SUMMONUNITBLOCKBASEDEFFECT_METHOD_2_20D171A5D079068D_OFFSET))(a1, a2);
 		}
 	};
 }

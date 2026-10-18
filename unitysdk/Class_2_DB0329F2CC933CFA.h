@@ -6,10 +6,10 @@ namespace RPG::Client::ActivityIdleLive { class IdleLiveAvatarInfo; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_DB0329F2CC933CFA_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x152474F0)
-#define CLASS_2_DB0329F2CC933CFA__CTOR_OFFSET UNITYSDK_OFFSET(0x15247470)
+#define CLASS_2_DB0329F2CC933CFA_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x154EF460)
+#define CLASS_2_DB0329F2CC933CFA__CTOR_OFFSET UNITYSDK_OFFSET(0x154EF3E0)
 
-inline static constexpr unsigned int Class_2_DB0329F2CC933CFA_TypeDefinitionIndex = 75059;
+inline static constexpr unsigned int Class_2_DB0329F2CC933CFA_TypeDefinitionIndex = 75359;
 
 class Class_2_DB0329F2CC933CFA : public ::Class_1_3713064DEE761936
 {

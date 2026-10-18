@@ -11,24 +11,24 @@ namespace RPG::Client::LittleGame::FourRotateVoxel { template <typename T> class
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_12717824E30066E1_METHOD_1_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0x1C4B4EB0)
-#define CLASS_1_12717824E30066E1_METHOD_1_3E7178C5ECF017DB_OFFSET UNITYSDK_OFFSET(0x1C4B4F00)
-#define CLASS_1_12717824E30066E1__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4B4F60)
+#define CLASS_1_12717824E30066E1_METHOD_1_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0x1CA28470)
+#define CLASS_1_12717824E30066E1_METHOD_1_3E7178C5ECF017DB_OFFSET UNITYSDK_OFFSET(0x1CA284C0)
+#define CLASS_1_12717824E30066E1__CTOR_OFFSET UNITYSDK_OFFSET(0x1CA28520)
 
-inline static constexpr unsigned int Class_1_12717824E30066E1_TypeDefinitionIndex = 41537;
+inline static constexpr unsigned int Class_1_12717824E30066E1_TypeDefinitionIndex = 43177;
 
 class Class_1_12717824E30066E1 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameViewCoord>* JAGJDMEHJDM; // 0x10
+	::Class_2_B8E38BF47138A2E5* OFHDAHHPNPJ; // 0x10
 	::System::Collections::Generic::List_1<::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelLayerBase_1<::Class_2_1A8148841049062A*>*>* DKMKPJDKHPP; // 0x18
-	::Class_2_B8E38BF47138A2E5* OFHDAHHPNPJ; // 0x20
-	::System::Int32 MOGHLGBCKFA; // 0x28
-	::System::Boolean HNFLBHAALCG; // 0x2C
-	::System::Boolean PGMNHIPKCMD; // 0x2D
-	::System::Boolean AOCKKNBBKPB; // 0x2E
-	::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameViewDirection LJDHGFECMHJ; // 0x30
-	::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameSceneItemType LINLNNHIBAK; // 0x34
+	::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameViewCoord>* JAGJDMEHJDM; // 0x20
+	::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameViewDirection LJDHGFECMHJ; // 0x28
+	::System::Int32 MOGHLGBCKFA; // 0x2C
+	::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameSceneItemType LINLNNHIBAK; // 0x30
+	::System::Boolean AOCKKNBBKPB; // 0x34
+	::System::Boolean HNFLBHAALCG; // 0x35
+	::System::Boolean PGMNHIPKCMD; // 0x36
 	::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameViewCoord GCGIFJAEHLP; // 0x38
 	::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameViewCoord FOCNBOANONM; // 0x50
 

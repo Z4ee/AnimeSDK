@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_FIVEDIMCLEARPLAYERVELOCITYACTION_METHOD_3_4B0190CFBF819176_OFFSET UNITYSDK_OFFSET(0x1D0A6AF0)
-#define RPG_GAMECORE_FIVEDIMCLEARPLAYERVELOCITYACTION_METHOD_3_E0A36FF4B1731BE7_OFFSET UNITYSDK_OFFSET(0x1D0A6B70)
-#define RPG_GAMECORE_FIVEDIMCLEARPLAYERVELOCITYACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0A6B60)
+#define RPG_GAMECORE_FIVEDIMCLEARPLAYERVELOCITYACTION_METHOD_4_23892BB6051297ED_OFFSET UNITYSDK_OFFSET(0x1D6B5C10)
+#define RPG_GAMECORE_FIVEDIMCLEARPLAYERVELOCITYACTION_METHOD_4_6EF8C1ACE1901A08_OFFSET UNITYSDK_OFFSET(0x1D6B5C90)
+#define RPG_GAMECORE_FIVEDIMCLEARPLAYERVELOCITYACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6B5C80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimClearPlayerVelocityAction_TypeDefinitionIndex = 18556;
+	inline static constexpr unsigned int FiveDimClearPlayerVelocityAction_TypeDefinitionIndex = 18766;
 
 	class FiveDimClearPlayerVelocityAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
@@ -20,14 +20,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMCLEARPLAYERVELOCITYACTION__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_4B0190CFBF819176(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimClearPlayerVelocityAction*& a2)
+		static ::System::Void Method_4_23892BB6051297ED(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimClearPlayerVelocityAction*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimClearPlayerVelocityAction*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMCLEARPLAYERVELOCITYACTION_METHOD_3_4B0190CFBF819176_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimClearPlayerVelocityAction*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMCLEARPLAYERVELOCITYACTION_METHOD_4_23892BB6051297ED_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_E0A36FF4B1731BE7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimClearPlayerVelocityAction* a2)
+		static ::System::Void Method_4_6EF8C1ACE1901A08(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimClearPlayerVelocityAction* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimClearPlayerVelocityAction*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMCLEARPLAYERVELOCITYACTION_METHOD_3_E0A36FF4B1731BE7_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimClearPlayerVelocityAction*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMCLEARPLAYERVELOCITYACTION_METHOD_4_6EF8C1ACE1901A08_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -4,12 +4,12 @@
 #include "unitysdk/UnityEngine/Playables/FrameData.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 
-#define RPGTOOLS_TIMELINE_SHOWHIPPLENGROWTHDIALOGBEHAVIOUR_ONBEHAVIOURPAUSE_OFFSET UNITYSDK_OFFSET(0xE8E44C0)
-#define RPGTOOLS_TIMELINE_SHOWHIPPLENGROWTHDIALOGBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xE8E4540)
+#define RPGTOOLS_TIMELINE_SHOWHIPPLENGROWTHDIALOGBEHAVIOUR_ONBEHAVIOURPAUSE_OFFSET UNITYSDK_OFFSET(0xE9398E0)
+#define RPGTOOLS_TIMELINE_SHOWHIPPLENGROWTHDIALOGBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xE939960)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int ShowHipplenGrowthDialogBehaviour_TypeDefinitionIndex = 48759;
+	inline static constexpr unsigned int ShowHipplenGrowthDialogBehaviour_TypeDefinitionIndex = 48299;
 
 	class ShowHipplenGrowthDialogBehaviour : public ::RPGTools::Timeline::BaseShowDialogBehaviour
 	{

@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/GameCore/RogueTournModifierForbidOpenDoorReason.h"
 
-class Class_1_21C7581DFE99F091_117;
+namespace System { class Action; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_993_TypeDefinitionIndex = 67692;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_993_TypeDefinitionIndex = 65681;
 
 class Class_0_16E4307DCC419505_993
 {

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class GlobalSetBillboardShowType; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_3E5113BB348BC281_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x152E01E0)
-#define CLASS_3_3E5113BB348BC281__CTOR_OFFSET UNITYSDK_OFFSET(0x152E01B0)
+#define CLASS_3_3E5113BB348BC281_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x155CE920)
+#define CLASS_3_3E5113BB348BC281__CTOR_OFFSET UNITYSDK_OFFSET(0x155CE8F0)
 
-inline static constexpr unsigned int Class_3_3E5113BB348BC281_TypeDefinitionIndex = 58289;
+inline static constexpr unsigned int Class_3_3E5113BB348BC281_TypeDefinitionIndex = 58137;
 
 class Class_3_3E5113BB348BC281 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::GlobalSetBillboardShowType*>
 {

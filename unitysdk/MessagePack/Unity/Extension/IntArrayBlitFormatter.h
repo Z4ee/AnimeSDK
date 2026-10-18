@@ -3,12 +3,12 @@
 #include "unitysdk/MessagePack/Unity/Extension/ReverseEndianessHelperSimpleSingle.h"
 #include "unitysdk/MessagePack/Unity/Extension/UnsafeBlitFormatterBase_2.h"
 
-#define MESSAGEPACK_UNITY_EXTENSION_INTARRAYBLITFORMATTER_GET_TYPECODE_OFFSET UNITYSDK_OFFSET(0x1B664A00)
-#define MESSAGEPACK_UNITY_EXTENSION_INTARRAYBLITFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B664A10)
+#define MESSAGEPACK_UNITY_EXTENSION_INTARRAYBLITFORMATTER_GET_TYPECODE_OFFSET UNITYSDK_OFFSET(0x1BB63740)
+#define MESSAGEPACK_UNITY_EXTENSION_INTARRAYBLITFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB63750)
 
 namespace MessagePack::Unity::Extension
 {
-	inline static constexpr unsigned int IntArrayBlitFormatter_TypeDefinitionIndex = 10151;
+	inline static constexpr unsigned int IntArrayBlitFormatter_TypeDefinitionIndex = 10164;
 
 	class IntArrayBlitFormatter : public ::MessagePack::Unity::Extension::UnsafeBlitFormatterBase_2<::System::Int32, ::MessagePack::Unity::Extension::ReverseEndianessHelperSimpleSingle>
 	{

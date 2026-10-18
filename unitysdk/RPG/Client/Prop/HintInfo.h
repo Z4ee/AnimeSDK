@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_PROP_HINTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xDC6F240)
+#define RPG_CLIENT_PROP_HINTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xDCF8190)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int HintInfo_TypeDefinitionIndex = 78051;
+	inline static constexpr unsigned int HintInfo_TypeDefinitionIndex = 78522;
 
 	class HintInfo : public ::System::Object
 	{

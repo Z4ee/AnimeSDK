@@ -6,16 +6,16 @@
 class Class_2_B8E38BF47138A2E5;
 class Class_3_4CB32DEBF4243416;
 
-#define CLASS_3_4CB32DEBF4243416___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBB37150)
-#define CLASS_3_4CB32DEBF4243416___C__DISPLAYCLASS4_0___ONENTER_B__0_OFFSET UNITYSDK_OFFSET(0xBB37930)
+#define CLASS_3_4CB32DEBF4243416___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB9BFAC0)
+#define CLASS_3_4CB32DEBF4243416___C__DISPLAYCLASS4_0___ONENTER_B__0_OFFSET UNITYSDK_OFFSET(0xB9BFEB0)
 
-inline static constexpr unsigned int Class_3_4CB32DEBF4243416___c__DisplayClass4_0_TypeDefinitionIndex = 76323;
+inline static constexpr unsigned int Class_3_4CB32DEBF4243416___c__DisplayClass4_0_TypeDefinitionIndex = 76800;
 
 class Class_3_4CB32DEBF4243416___c__DisplayClass4_0 : public ::System::Object
 {
 public:
-	::Class_3_4CB32DEBF4243416* __4__this; // 0x10
-	::Class_2_B8E38BF47138A2E5* player; // 0x18
+	::Class_2_B8E38BF47138A2E5* player; // 0x10
+	::Class_3_4CB32DEBF4243416* __4__this; // 0x18
 	::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameViewCoord targetCoord; // 0x20
 
 	::System::Void _ctor()

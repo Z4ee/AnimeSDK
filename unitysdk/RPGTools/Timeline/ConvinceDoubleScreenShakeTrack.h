@@ -6,12 +6,12 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_CONVINCEDOUBLESCREENSHAKETRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xE8378A0)
-#define RPGTOOLS_TIMELINE_CONVINCEDOUBLESCREENSHAKETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xE837A20)
+#define RPGTOOLS_TIMELINE_CONVINCEDOUBLESCREENSHAKETRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xE8D5620)
+#define RPGTOOLS_TIMELINE_CONVINCEDOUBLESCREENSHAKETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xE8D57A0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int ConvinceDoubleScreenShakeTrack_TypeDefinitionIndex = 48501;
+	inline static constexpr unsigned int ConvinceDoubleScreenShakeTrack_TypeDefinitionIndex = 48041;
 
 	class ConvinceDoubleScreenShakeTrack : public ::UnityEngine::Timeline::TrackAsset
 	{

@@ -4,7 +4,7 @@
 
 namespace System { class String; }
 
-inline static constexpr unsigned int SubwayScheduleData_SubwayMemberTypeWeightConfig_TypeDefinitionIndex = 47554;
+inline static constexpr unsigned int SubwayScheduleData_SubwayMemberTypeWeightConfig_TypeDefinitionIndex = 47094;
 
 struct alignas(8) SubwayScheduleData_SubwayMemberTypeWeightConfig
 {

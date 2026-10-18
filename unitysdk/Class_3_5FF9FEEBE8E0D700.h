@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class FormationMoveToStation; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_5FF9FEEBE8E0D700_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x114E2C60)
-#define CLASS_3_5FF9FEEBE8E0D700__CTOR_OFFSET UNITYSDK_OFFSET(0x114E2C30)
+#define CLASS_3_5FF9FEEBE8E0D700_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1194B710)
+#define CLASS_3_5FF9FEEBE8E0D700__CTOR_OFFSET UNITYSDK_OFFSET(0x1194B6E0)
 
-inline static constexpr unsigned int Class_3_5FF9FEEBE8E0D700_TypeDefinitionIndex = 58287;
+inline static constexpr unsigned int Class_3_5FF9FEEBE8E0D700_TypeDefinitionIndex = 58135;
 
 class Class_3_5FF9FEEBE8E0D700 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::FormationMoveToStation*>
 {

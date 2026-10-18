@@ -5,26 +5,26 @@
 class Class_1_0471857D35382E2E;
 namespace RPG::Client::FateRin::Battle { class FateRinBattleHudTargetSingleViewModel; }
 
-#define RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEHUDTARGETVIEWMODEL___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCF839B0)
-#define RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEHUDTARGETVIEWMODEL___C__DISPLAYCLASS3_0___REFRESHVIEWMODEL_B__1_OFFSET UNITYSDK_OFFSET(0xCF839C0)
+#define RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEHUDTARGETVIEWMODEL___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCED5F40)
+#define RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEHUDTARGETVIEWMODEL___C__DISPLAYCLASS3_0___REFRESHVIEWMODEL_B__0_OFFSET UNITYSDK_OFFSET(0xCED6040)
 
 namespace RPG::Client::FateRin::Battle
 {
-	inline static constexpr unsigned int FateRinBattleHudTargetViewModel___c__DisplayClass3_0_TypeDefinitionIndex = 79613;
+	inline static constexpr unsigned int FateRinBattleHudTargetViewModel___c__DisplayClass3_0_TypeDefinitionIndex = 80937;
 
 	class FateRinBattleHudTargetViewModel___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::FateRin::Battle::FateRinBattleHudTargetSingleViewModel* x; // 0x10
+		::RPG::Client::FateRin::Battle::FateRinBattleHudTargetSingleViewModel* targetViewModel; // 0x10
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEHUDTARGETVIEWMODEL___C__DISPLAYCLASS3_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean __RefreshViewModel_b__1(::Class_1_0471857D35382E2E* a1)
+		::System::Boolean __RefreshViewModel_b__0(::Class_1_0471857D35382E2E* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_0471857D35382E2E*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEHUDTARGETVIEWMODEL___C__DISPLAYCLASS3_0___REFRESHVIEWMODEL_B__1_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::Class_1_0471857D35382E2E*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEHUDTARGETVIEWMODEL___C__DISPLAYCLASS3_0___REFRESHVIEWMODEL_B__0_OFFSET))(this, a1);
 		}
 	};
 }

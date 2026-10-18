@@ -7,18 +7,18 @@
 namespace Cysharp::Threading::Tasks { template <typename T> class IUniTaskAsyncEnumerator_1; }
 namespace UnityEngine::Events { class UnityEvent; }
 
-#define CYSHARP_THREADING_TASKS_UNITYEVENTHANDLERASYNCENUMERABLE_GETASYNCENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1EA9B680)
-#define CYSHARP_THREADING_TASKS_UNITYEVENTHANDLERASYNCENUMERABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA92710)
+#define CYSHARP_THREADING_TASKS_UNITYEVENTHANDLERASYNCENUMERABLE_GETASYNCENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1F162E50)
+#define CYSHARP_THREADING_TASKS_UNITYEVENTHANDLERASYNCENUMERABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F159EE0)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UnityEventHandlerAsyncEnumerable_TypeDefinitionIndex = 42898;
+	inline static constexpr unsigned int UnityEventHandlerAsyncEnumerable_TypeDefinitionIndex = 38483;
 
 	class UnityEventHandlerAsyncEnumerable : public ::System::Object
 	{
 	public:
-		::System::Threading::CancellationToken cancellationToken1; // 0x10
-		::UnityEngine::Events::UnityEvent* unityEvent; // 0x18
+		::UnityEngine::Events::UnityEvent* unityEvent; // 0x10
+		::System::Threading::CancellationToken cancellationToken1; // 0x18
 
 		::System::Void _ctor(::UnityEngine::Events::UnityEvent* a1, ::System::Threading::CancellationToken a2)
 		{

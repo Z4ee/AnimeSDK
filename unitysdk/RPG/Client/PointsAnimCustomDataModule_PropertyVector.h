@@ -8,12 +8,12 @@ namespace RPG::Client::TAUtils { class Vector4AnimationCurve; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_POINTSANIMCUSTOMDATAMODULE_PROPERTYVECTOR_METHOD_1_12CEF1F3F4C83D6A_OFFSET UNITYSDK_OFFSET(0xDBB64B0)
-#define RPG_CLIENT_POINTSANIMCUSTOMDATAMODULE_PROPERTYVECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0xDBB69C0)
+#define RPG_CLIENT_POINTSANIMCUSTOMDATAMODULE_PROPERTYVECTOR_METHOD_1_12CEF1F3F4C83D6A_OFFSET UNITYSDK_OFFSET(0xDC00300)
+#define RPG_CLIENT_POINTSANIMCUSTOMDATAMODULE_PROPERTYVECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0xDC00810)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PointsAnimCustomDataModule_PropertyVector_TypeDefinitionIndex = 70590;
+	inline static constexpr unsigned int PointsAnimCustomDataModule_PropertyVector_TypeDefinitionIndex = 70626;
 
 	class PointsAnimCustomDataModule_PropertyVector : public ::System::Object
 	{

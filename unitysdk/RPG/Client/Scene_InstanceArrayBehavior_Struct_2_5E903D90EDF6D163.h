@@ -5,7 +5,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Scene_InstanceArrayBehavior_Struct_2_5E903D90EDF6D163_TypeDefinitionIndex = 70810;
+	inline static constexpr unsigned int Scene_InstanceArrayBehavior_Struct_2_5E903D90EDF6D163_TypeDefinitionIndex = 70848;
 
 	struct alignas(4) Scene_InstanceArrayBehavior_Struct_2_5E903D90EDF6D163
 	{

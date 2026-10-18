@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CameraBattleTransitionAimDirection_TypeDefinitionIndex = 24226;
+	inline static constexpr unsigned int CameraBattleTransitionAimDirection_TypeDefinitionIndex = 24505;
 
 	enum class CameraBattleTransitionAimDirection : ::System::Int32
 	{

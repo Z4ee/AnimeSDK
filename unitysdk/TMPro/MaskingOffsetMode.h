@@ -3,7 +3,7 @@
 
 namespace TMPro
 {
-	inline static constexpr unsigned int MaskingOffsetMode_TypeDefinitionIndex = 43459;
+	inline static constexpr unsigned int MaskingOffsetMode_TypeDefinitionIndex = 44651;
 
 	enum class MaskingOffsetMode : ::System::Int32
 	{

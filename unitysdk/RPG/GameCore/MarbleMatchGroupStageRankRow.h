@@ -4,22 +4,22 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MARBLEMATCHGROUPSTAGERANKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D235D40)
-#define RPG_GAMECORE_MARBLEMATCHGROUPSTAGERANKROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D235F60)
+#define RPG_GAMECORE_MARBLEMATCHGROUPSTAGERANKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D8403B0)
+#define RPG_GAMECORE_MARBLEMATCHGROUPSTAGERANKROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D8405D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MarbleMatchGroupStageRankRow_TypeDefinitionIndex = 11848;
+	inline static constexpr unsigned int MarbleMatchGroupStageRankRow_TypeDefinitionIndex = 11871;
 
 	class MarbleMatchGroupStageRankRow : public ::System::Object
 	{
 	public:
 		::System::UInt32 WinNum; // 0x10
-		::System::UInt32 Rank; // 0x14
-		::System::UInt32 ID; // 0x18
-		::System::UInt32 Index; // 0x1C
-		::System::UInt32 LostNum; // 0x20
-		::System::UInt32 PlayerID; // 0x24
+		::System::UInt32 PlayerID; // 0x14
+		::System::UInt32 LostNum; // 0x18
+		::System::UInt32 Rank; // 0x1C
+		::System::UInt32 ID; // 0x20
+		::System::UInt32 Index; // 0x24
 
 		::System::Void _ctor()
 		{

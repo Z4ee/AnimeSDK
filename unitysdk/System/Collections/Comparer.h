@@ -7,12 +7,12 @@ namespace System::Globalization { class CompareInfo; }
 namespace System::Globalization { class CultureInfo; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_COLLECTIONS_COMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0x1BBB2690)
-#define SYSTEM_COLLECTIONS_COMPARER_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x1BBB51B0)
-#define SYSTEM_COLLECTIONS_COMPARER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BBB5250)
-#define SYSTEM_COLLECTIONS_COMPARER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1BBB4F40)
-#define SYSTEM_COLLECTIONS_COMPARER__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1BBB5000)
-#define SYSTEM_COLLECTIONS_COMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BBB4F30)
+#define SYSTEM_COLLECTIONS_COMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0x1C0BE6F0)
+#define SYSTEM_COLLECTIONS_COMPARER_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x1C0C1210)
+#define SYSTEM_COLLECTIONS_COMPARER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C0C12B0)
+#define SYSTEM_COLLECTIONS_COMPARER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C0C0FA0)
+#define SYSTEM_COLLECTIONS_COMPARER__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1C0C1060)
+#define SYSTEM_COLLECTIONS_COMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C0C0F90)
 
 namespace System::Collections
 {
@@ -21,13 +21,13 @@ namespace System::Collections
 	class Comparer : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Comparer** StaticGet_Default()
-		{
-			return (::System::Collections::Comparer**)Il2CppClass::FromTypeDefinitionIndex(Comparer_TypeDefinitionIndex)->GetStaticField(0x78C0);
-		}
 		static ::System::Collections::Comparer** StaticGet_DefaultInvariant()
 		{
-			return (::System::Collections::Comparer**)Il2CppClass::FromTypeDefinitionIndex(Comparer_TypeDefinitionIndex)->GetStaticField(0x78C8);
+			return (::System::Collections::Comparer**)Il2CppClass::FromTypeDefinitionIndex(Comparer_TypeDefinitionIndex)->GetStaticField(0xE7F0);
+		}
+		static ::System::Collections::Comparer** StaticGet_Default()
+		{
+			return (::System::Collections::Comparer**)Il2CppClass::FromTypeDefinitionIndex(Comparer_TypeDefinitionIndex)->GetStaticField(0xE7F8);
 		}
 		::System::Globalization::CompareInfo* m_compareInfo; // 0x10
 

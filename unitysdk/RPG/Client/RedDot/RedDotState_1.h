@@ -4,13 +4,13 @@
 #include "unitysdk/RPG/GameCore/RedDotType.h"
 #include "unitysdk/System/ValueTuple_2.h"
 
-class Class_0_16E4307DCC419505_1327;
-class Class_1_F512C5C8F4EF9039;
+class Class_0_16E4307DCC419505_1472;
+class Class_1_7E6CC96E08E99895;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
 namespace RPG::Client::RedDot
 {
-	inline static constexpr unsigned int RedDotState_1_TypeDefinitionIndex = 78689;
+	inline static constexpr unsigned int RedDotState_1_TypeDefinitionIndex = 79168;
 
 	template <typename TInstanceKey>
 	class RedDotState_1 : public ::Class_1_6045926B515B7744

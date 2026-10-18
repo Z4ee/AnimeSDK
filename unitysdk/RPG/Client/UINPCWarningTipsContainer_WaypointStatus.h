@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UINPCWarningTipsContainer_WaypointStatus_TypeDefinitionIndex = 69071;
+	inline static constexpr unsigned int UINPCWarningTipsContainer_WaypointStatus_TypeDefinitionIndex = 69107;
 
 	enum class UINPCWarningTipsContainer_WaypointStatus : ::System::Int32
 	{

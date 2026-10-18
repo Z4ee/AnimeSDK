@@ -6,12 +6,12 @@ namespace MiHoYo::SDK { class NetworkResponseModel; }
 namespace MiHoYo::SDK::Win { class NoticeManager___c__DisplayClass7_0; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_WIN_NOTICEMANAGER___C__DISPLAYCLASS7_1__CHECKPOPNOTICE_B__0_OFFSET UNITYSDK_OFFSET(0x1B8A78A0)
-#define MIHOYO_SDK_WIN_NOTICEMANAGER___C__DISPLAYCLASS7_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8A03B0)
+#define MIHOYO_SDK_WIN_NOTICEMANAGER___C__DISPLAYCLASS7_1__CHECKPOPNOTICE_B__0_OFFSET UNITYSDK_OFFSET(0x1BDA39D0)
+#define MIHOYO_SDK_WIN_NOTICEMANAGER___C__DISPLAYCLASS7_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD9C520)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int NoticeManager___c__DisplayClass7_1_TypeDefinitionIndex = 9341;
+	inline static constexpr unsigned int NoticeManager___c__DisplayClass7_1_TypeDefinitionIndex = 9399;
 
 	class NoticeManager___c__DisplayClass7_1 : public ::System::Object
 	{

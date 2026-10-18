@@ -7,23 +7,23 @@
 
 namespace RPG::GameCore { class GameEntity; }
 
-#define RPG_GAMECORE_LEVELENTITYSPCHANGE_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE6924B0)
-#define RPG_GAMECORE_LEVELENTITYSPCHANGE_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE692460)
-#define RPG_GAMECORE_LEVELENTITYSPCHANGE_INIT_OFFSET UNITYSDK_OFFSET(0xE692390)
-#define RPG_GAMECORE_LEVELENTITYSPCHANGE__CTOR_OFFSET UNITYSDK_OFFSET(0xE692500)
+#define RPG_GAMECORE_LEVELENTITYSPCHANGE_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE6ED6B0)
+#define RPG_GAMECORE_LEVELENTITYSPCHANGE_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE6ED660)
+#define RPG_GAMECORE_LEVELENTITYSPCHANGE_INIT_OFFSET UNITYSDK_OFFSET(0xE6ED590)
+#define RPG_GAMECORE_LEVELENTITYSPCHANGE__CTOR_OFFSET UNITYSDK_OFFSET(0xE6ED700)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelEntitySPChange_TypeDefinitionIndex = 56936;
+	inline static constexpr unsigned int LevelEntitySPChange_TypeDefinitionIndex = 56757;
 
 	class LevelEntitySPChange : public ::Class_1_BF7A075734D15E98
 	{
 	public:
 		::Struct_2_5909FD7779934CCA ChangeParams; // 0x18
-		::RPG::GameCore::GameEntity* Target; // 0x120
-		::RPG::GameCore::FixPoint OldValue; // 0x128
-		::RPG::GameCore::FixPoint ChangeValue; // 0x130
+		::RPG::GameCore::GameEntity* Target; // 0x128
+		::RPG::GameCore::FixPoint OldValue; // 0x130
 		::RPG::GameCore::FixPoint NewValue; // 0x138
+		::RPG::GameCore::FixPoint ChangeValue; // 0x140
 
 		::System::Void _ctor()
 		{

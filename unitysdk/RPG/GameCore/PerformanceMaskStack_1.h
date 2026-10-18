@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PerformanceMaskStack_1_TypeDefinitionIndex = 53773;
+	inline static constexpr unsigned int PerformanceMaskStack_1_TypeDefinitionIndex = 53557;
 
 	template <typename T>
 	class PerformanceMaskStack_1 : public ::System::Object

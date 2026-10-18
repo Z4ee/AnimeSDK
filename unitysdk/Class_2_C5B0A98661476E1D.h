@@ -7,10 +7,10 @@ namespace RPG::AvatarSystem::Property { template <typename T> class PropertyModi
 namespace RPG::Client::ActivityIdleLive { class IIdleLiveAvatarData; }
 namespace RPG::Client::ActivityIdleLive { class IdleLiveTechTreeInfo; }
 
-#define CLASS_2_C5B0A98661476E1D_BUILD_OFFSET UNITYSDK_OFFSET(0xB4E37E0)
-#define CLASS_2_C5B0A98661476E1D__CTOR_OFFSET UNITYSDK_OFFSET(0xB4E37C0)
+#define CLASS_2_C5B0A98661476E1D_BUILD_OFFSET UNITYSDK_OFFSET(0xB48F1C0)
+#define CLASS_2_C5B0A98661476E1D__CTOR_OFFSET UNITYSDK_OFFSET(0xB48F1A0)
 
-inline static constexpr unsigned int Class_2_C5B0A98661476E1D_TypeDefinitionIndex = 74832;
+inline static constexpr unsigned int Class_2_C5B0A98661476E1D_TypeDefinitionIndex = 75132;
 
 class Class_2_C5B0A98661476E1D : public ::RPG::Client::ActivityIdleLive::IdleLiveModifierBuilder_1<::RPG::Client::ActivityIdleLive::IdleLiveDecimal>
 {

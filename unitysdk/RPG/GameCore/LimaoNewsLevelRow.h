@@ -5,21 +5,21 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_LIMAONEWSLEVELROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D1F3380)
-#define RPG_GAMECORE_LIMAONEWSLEVELROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1F3B10)
+#define RPG_GAMECORE_LIMAONEWSLEVELROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D7D0B60)
+#define RPG_GAMECORE_LIMAONEWSLEVELROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7D12F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LimaoNewsLevelRow_TypeDefinitionIndex = 13844;
+	inline static constexpr unsigned int LimaoNewsLevelRow_TypeDefinitionIndex = 13951;
 
 	class LimaoNewsLevelRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* EventFinishConditionIDList; // 0x10
-		::System::Boolean IsTriggerEvent; // 0x18
-		::System::UInt32 Level; // 0x1C
-		::RPG::Client::TextID BeforeLevelEvent; // 0x20
-		::RPG::Client::TextID AfterLevelEvent; // 0x30
+		::RPG::Client::TextID BeforeLevelEvent; // 0x18
+		::RPG::Client::TextID AfterLevelEvent; // 0x28
+		::System::Boolean IsTriggerEvent; // 0x38
+		::System::UInt32 Level; // 0x3C
 
 		::System::Void _ctor()
 		{

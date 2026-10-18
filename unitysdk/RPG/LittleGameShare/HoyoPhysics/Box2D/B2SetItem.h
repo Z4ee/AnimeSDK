@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2SETITEM_CLEAR_OFFSET UNITYSDK_OFFSET(0x3B78740)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2SETITEM_CLEAR_OFFSET UNITYSDK_OFFSET(0x3C2D5A0)
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2SetItem_TypeDefinitionIndex = 36072;
+	inline static constexpr unsigned int B2SetItem_TypeDefinitionIndex = 36759;
 
 	struct alignas(8) B2SetItem
 	{

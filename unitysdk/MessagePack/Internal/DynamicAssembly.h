@@ -11,20 +11,20 @@ namespace System::Reflection::Emit { class AssemblyBuilder; }
 namespace System::Reflection::Emit { class ModuleBuilder; }
 namespace System::Reflection::Emit { class TypeBuilder; }
 
-#define MESSAGEPACK_INTERNAL_DYNAMICASSEMBLY_DEFINETYPE_OFFSET UNITYSDK_OFFSET(0x1B68CEF0)
-#define MESSAGEPACK_INTERNAL_DYNAMICASSEMBLY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B68CF20)
-#define MESSAGEPACK_INTERNAL_DYNAMICASSEMBLY__CTOR_OFFSET UNITYSDK_OFFSET(0x1B68CEA0)
+#define MESSAGEPACK_INTERNAL_DYNAMICASSEMBLY_DEFINETYPE_OFFSET UNITYSDK_OFFSET(0x1BB8B670)
+#define MESSAGEPACK_INTERNAL_DYNAMICASSEMBLY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BB8B6A0)
+#define MESSAGEPACK_INTERNAL_DYNAMICASSEMBLY__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB8B620)
 
 namespace MessagePack::Internal
 {
-	inline static constexpr unsigned int DynamicAssembly_TypeDefinitionIndex = 7236;
+	inline static constexpr unsigned int DynamicAssembly_TypeDefinitionIndex = 7290;
 
 	class DynamicAssembly : public ::System::Object
 	{
 	public:
 		static ::System::Boolean* StaticGet_AvoidDynamicCode()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(DynamicAssembly_TypeDefinitionIndex)->GetStaticField(0xC850);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(DynamicAssembly_TypeDefinitionIndex)->GetStaticField(0x82D0);
 		}
 		::System::Reflection::Emit::ModuleBuilder* moduleBuilder; // 0x10
 		::System::Reflection::Emit::AssemblyBuilder* assemblyBuilder; // 0x18

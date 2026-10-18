@@ -7,20 +7,20 @@ namespace System::Linq::Expressions { class LambdaExpression; }
 namespace System::Linq::Expressions::Interpreter { class Interpreter; }
 namespace System::Runtime::CompilerServices { class IStrongBox; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LIGHTDELEGATECREATOR_CREATEDELEGATE_1_OFFSET UNITYSDK_OFFSET(0x1E716A90)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LIGHTDELEGATECREATOR_CREATEDELEGATE_OFFSET UNITYSDK_OFFSET(0x1E74BC50)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LIGHTDELEGATECREATOR_GET_INTERPRETER_OFFSET UNITYSDK_OFFSET(0x1E74BC40)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LIGHTDELEGATECREATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1E733880)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LIGHTDELEGATECREATOR_CREATEDELEGATE_1_OFFSET UNITYSDK_OFFSET(0x1EDDF750)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LIGHTDELEGATECREATOR_CREATEDELEGATE_OFFSET UNITYSDK_OFFSET(0x1EE14850)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LIGHTDELEGATECREATOR_GET_INTERPRETER_OFFSET UNITYSDK_OFFSET(0x1EE14840)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LIGHTDELEGATECREATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1EDFC590)
 
 namespace System::Linq::Expressions::Interpreter
 {
-	inline static constexpr unsigned int LightDelegateCreator_TypeDefinitionIndex = 3493;
+	inline static constexpr unsigned int LightDelegateCreator_TypeDefinitionIndex = 3494;
 
 	class LightDelegateCreator : public ::System::Object
 	{
 	public:
-		::System::Linq::Expressions::Interpreter::Interpreter* _Interpreter_k__BackingField; // 0x10
-		::System::Linq::Expressions::LambdaExpression* _lambda; // 0x18
+		::System::Linq::Expressions::LambdaExpression* _lambda; // 0x10
+		::System::Linq::Expressions::Interpreter::Interpreter* _Interpreter_k__BackingField; // 0x18
 
 		::System::Void _ctor(::System::Linq::Expressions::Interpreter::Interpreter* a1, ::System::Linq::Expressions::LambdaExpression* a2)
 		{

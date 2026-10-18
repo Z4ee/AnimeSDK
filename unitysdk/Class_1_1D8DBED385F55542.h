@@ -6,18 +6,18 @@
 class Class_1_2F02D0D2C192BA56;
 namespace UnityEngine { class Material; }
 
-#define CLASS_1_1D8DBED385F55542_CLEAR_OFFSET UNITYSDK_OFFSET(0xE59D660)
-#define CLASS_1_1D8DBED385F55542__CTOR_OFFSET UNITYSDK_OFFSET(0xE59D6B0)
+#define CLASS_1_1D8DBED385F55542_CLEAR_OFFSET UNITYSDK_OFFSET(0xE4F1550)
+#define CLASS_1_1D8DBED385F55542__CTOR_OFFSET UNITYSDK_OFFSET(0xE4F15A0)
 
-inline static constexpr unsigned int Class_1_1D8DBED385F55542_TypeDefinitionIndex = 69808;
+inline static constexpr unsigned int Class_1_1D8DBED385F55542_TypeDefinitionIndex = 69842;
 
 class Class_1_1D8DBED385F55542 : public ::System::Object
 {
 public:
-	::Il2CppArray<::UnityEngine::Material*>* HNOOHPDGPEA; // 0x10
-	::Class_1_2F02D0D2C192BA56* CPOAKCIODHA; // 0x18
-	::Struct_2_203A76DC77D7F043 MJMEEOIEMMM; // 0x20
-	::System::Int32 BJIOBCHFCAA; // 0x30
+	::Class_1_2F02D0D2C192BA56* CPOAKCIODHA; // 0x10
+	::Il2CppArray<::UnityEngine::Material*>* HNOOHPDGPEA; // 0x18
+	::System::Int32 BJIOBCHFCAA; // 0x20
+	::Struct_2_203A76DC77D7F043 MJMEEOIEMMM; // 0x24
 
 	::System::Void _ctor()
 	{

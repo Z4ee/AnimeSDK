@@ -3,15 +3,15 @@
 #include "unitysdk/RPG/Client/LittleGame/Marble/MarbleEventType.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_2D6ABDD39EFBFFEB__CTOR_OFFSET UNITYSDK_OFFSET(0x1C625450)
+#define CLASS_1_2D6ABDD39EFBFFEB__CTOR_OFFSET UNITYSDK_OFFSET(0x1CBA3380)
 
-inline static constexpr unsigned int Class_1_2D6ABDD39EFBFFEB_TypeDefinitionIndex = 41444;
+inline static constexpr unsigned int Class_1_2D6ABDD39EFBFFEB_TypeDefinitionIndex = 43058;
 
 class Class_1_2D6ABDD39EFBFFEB : public ::System::Object
 {
 public:
-	::System::Boolean CLIIGEPCNDE; // 0x10
-	::RPG::Client::LittleGame::Marble::MarbleEventType LAOACNPDOLD; // 0x14
+	::RPG::Client::LittleGame::Marble::MarbleEventType LAOACNPDOLD; // 0x10
+	::System::Boolean CLIIGEPCNDE; // 0x14
 
 	::System::Void _ctor()
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StuffStats_TypeDefinitionIndex = 14125;
+	inline static constexpr unsigned int StuffStats_TypeDefinitionIndex = 14232;
 
 	enum class StuffStats : ::System::Int32
 	{

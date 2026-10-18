@@ -1,0 +1,30 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+namespace RPG::Client { class GridFightGameTrait; }
+namespace RPG::Client { class GridFightTrait; }
+
+#define RPG_CLIENT_GRIDFIGHTUTILS___C__DISPLAYCLASS37_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD2D27A0)
+#define RPG_CLIENT_GRIDFIGHTUTILS___C__DISPLAYCLASS37_0__SORTTRAITIDSBYTEAM_B__0_OFFSET UNITYSDK_OFFSET(0xD2D6190)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int GridFightUtils___c__DisplayClass37_0_TypeDefinitionIndex = 64886;
+
+	class GridFightUtils___c__DisplayClass37_0 : public ::System::Object
+	{
+	public:
+		::RPG::Client::GridFightGameTrait* gameTrait; // 0x10
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTUTILS___C__DISPLAYCLASS37_0__CTOR_OFFSET))(this);
+		}
+
+		::RPG::Client::GridFightTrait* _SortTraitIDsByTeam_b__0(::System::UInt32 a1)
+		{
+			return ((::RPG::Client::GridFightTrait*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTUTILS___C__DISPLAYCLASS37_0__SORTTRAITIDSBYTEAM_B__0_OFFSET))(this, a1);
+		}
+	};
+}

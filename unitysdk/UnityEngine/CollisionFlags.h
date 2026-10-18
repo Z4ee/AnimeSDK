@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int CollisionFlags_TypeDefinitionIndex = 5300;
+	inline static constexpr unsigned int CollisionFlags_TypeDefinitionIndex = 5307;
 
 	enum class CollisionFlags : ::System::Int32
 	{

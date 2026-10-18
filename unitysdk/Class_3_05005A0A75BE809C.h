@@ -6,10 +6,10 @@
 namespace RPG::GameCore { class SetDynamicValueByWaitUltraCount; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_05005A0A75BE809C_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x161F67E0)
-#define CLASS_3_05005A0A75BE809C__CTOR_OFFSET UNITYSDK_OFFSET(0x161F6700)
+#define CLASS_3_05005A0A75BE809C_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1656DD90)
+#define CLASS_3_05005A0A75BE809C__CTOR_OFFSET UNITYSDK_OFFSET(0x1656DCB0)
 
-inline static constexpr unsigned int Class_3_05005A0A75BE809C_TypeDefinitionIndex = 55111;
+inline static constexpr unsigned int Class_3_05005A0A75BE809C_TypeDefinitionIndex = 54904;
 
 class Class_3_05005A0A75BE809C : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetDynamicValueByWaitUltraCount*>
 {

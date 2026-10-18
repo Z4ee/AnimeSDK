@@ -5,10 +5,10 @@
 namespace RPG::Client::Promises { class Promise; }
 namespace XLua { class LuaTable; }
 
-#define CLASS_2_0076F4905B051640___C__DISPLAYCLASS8_1__CTOR_OFFSET UNITYSDK_OFFSET(0xB7323E0)
-#define CLASS_2_0076F4905B051640___C__DISPLAYCLASS8_1___SHOWROGUETOURNENTRANCEPAGE_B__2_OFFSET UNITYSDK_OFFSET(0xB7323F0)
+#define CLASS_2_0076F4905B051640___C__DISPLAYCLASS8_1__CTOR_OFFSET UNITYSDK_OFFSET(0xB5DFDA0)
+#define CLASS_2_0076F4905B051640___C__DISPLAYCLASS8_1___SHOWROGUETOURNENTRANCEPAGE_B__2_OFFSET UNITYSDK_OFFSET(0xB5DFDB0)
 
-inline static constexpr unsigned int Class_2_0076F4905B051640___c__DisplayClass8_1_TypeDefinitionIndex = 67830;
+inline static constexpr unsigned int Class_2_0076F4905B051640___c__DisplayClass8_1_TypeDefinitionIndex = 67832;
 
 class Class_2_0076F4905B051640___c__DisplayClass8_1 : public ::System::Object
 {

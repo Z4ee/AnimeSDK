@@ -9,7 +9,7 @@ namespace System::Collections::Immutable { template <typename T> class Immutable
 
 namespace System::Collections::Immutable
 {
-	inline static constexpr unsigned int ImmutableHashSet_TypeDefinitionIndex = 6628;
+	inline static constexpr unsigned int ImmutableHashSet_TypeDefinitionIndex = 6637;
 
 	class ImmutableHashSet : public ::System::Object
 	{

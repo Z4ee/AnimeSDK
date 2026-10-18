@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DrinkMakerRequestSourceType_TypeDefinitionIndex = 63661;
+	inline static constexpr unsigned int DrinkMakerRequestSourceType_TypeDefinitionIndex = 63599;
 
 	enum class DrinkMakerRequestSourceType : ::System::Int32
 	{

@@ -5,24 +5,24 @@
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class ComputeBuffer; }
 
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICPOINTSRENDERER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EAA9AE0)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICPOINTSRENDERER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1EAA9B20)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICPOINTSRENDERER___C__ONDESTROY_B__39_0_OFFSET UNITYSDK_OFFSET(0x1EAA9B30)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICPOINTSRENDERER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F171310)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICPOINTSRENDERER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1F171350)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICPOINTSRENDERER___C__ONDESTROY_B__39_0_OFFSET UNITYSDK_OFFSET(0x1F171360)
 
 namespace UnityEngine::Formats::Alembic::Importer
 {
-	inline static constexpr unsigned int AlembicPointsRenderer___c_TypeDefinitionIndex = 44746;
+	inline static constexpr unsigned int AlembicPointsRenderer___c_TypeDefinitionIndex = 45885;
 
 	class AlembicPointsRenderer___c : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::Formats::Alembic::Importer::AlembicPointsRenderer___c** StaticGet___9()
-		{
-			return (::UnityEngine::Formats::Alembic::Importer::AlembicPointsRenderer___c**)Il2CppClass::FromTypeDefinitionIndex(AlembicPointsRenderer___c_TypeDefinitionIndex)->GetStaticField(0x1D4A0);
-		}
 		static ::System::Action_1<::UnityEngine::ComputeBuffer*>** StaticGet___9__39_0()
 		{
-			return (::System::Action_1<::UnityEngine::ComputeBuffer*>**)Il2CppClass::FromTypeDefinitionIndex(AlembicPointsRenderer___c_TypeDefinitionIndex)->GetStaticField(0x1D4A8);
+			return (::System::Action_1<::UnityEngine::ComputeBuffer*>**)Il2CppClass::FromTypeDefinitionIndex(AlembicPointsRenderer___c_TypeDefinitionIndex)->GetStaticField(0x15AB0);
+		}
+		static ::UnityEngine::Formats::Alembic::Importer::AlembicPointsRenderer___c** StaticGet___9()
+		{
+			return (::UnityEngine::Formats::Alembic::Importer::AlembicPointsRenderer___c**)Il2CppClass::FromTypeDefinitionIndex(AlembicPointsRenderer___c_TypeDefinitionIndex)->GetStaticField(0x15AB8);
 		}
 
 		static ::System::Void _cctor()

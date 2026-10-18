@@ -5,24 +5,24 @@
 namespace RPG::Client { class Effect_TransformToMaterialBehavior_TransformPropertyMapping; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_EFFECT_TRANSFORMTOMATERIALBEHAVIOR___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xCE24480)
-#define RPG_CLIENT_EFFECT_TRANSFORMTOMATERIALBEHAVIOR___C__CTOR_OFFSET UNITYSDK_OFFSET(0xCE244C0)
-#define RPG_CLIENT_EFFECT_TRANSFORMTOMATERIALBEHAVIOR___C__ONENABLE_B__7_0_OFFSET UNITYSDK_OFFSET(0xCE244D0)
+#define RPG_CLIENT_EFFECT_TRANSFORMTOMATERIALBEHAVIOR___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xCD74900)
+#define RPG_CLIENT_EFFECT_TRANSFORMTOMATERIALBEHAVIOR___C__CTOR_OFFSET UNITYSDK_OFFSET(0xCD74940)
+#define RPG_CLIENT_EFFECT_TRANSFORMTOMATERIALBEHAVIOR___C__ONENABLE_B__7_0_OFFSET UNITYSDK_OFFSET(0xCD74950)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_TransformToMaterialBehavior___c_TypeDefinitionIndex = 70547;
+	inline static constexpr unsigned int Effect_TransformToMaterialBehavior___c_TypeDefinitionIndex = 70583;
 
 	class Effect_TransformToMaterialBehavior___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::Client::Effect_TransformToMaterialBehavior_TransformPropertyMapping*, ::System::Boolean>** StaticGet___9__7_0()
-		{
-			return (::System::Func_2<::RPG::Client::Effect_TransformToMaterialBehavior_TransformPropertyMapping*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Effect_TransformToMaterialBehavior___c_TypeDefinitionIndex)->GetStaticField(0x64B70);
-		}
 		static ::RPG::Client::Effect_TransformToMaterialBehavior___c** StaticGet___9()
 		{
-			return (::RPG::Client::Effect_TransformToMaterialBehavior___c**)Il2CppClass::FromTypeDefinitionIndex(Effect_TransformToMaterialBehavior___c_TypeDefinitionIndex)->GetStaticField(0x64B78);
+			return (::RPG::Client::Effect_TransformToMaterialBehavior___c**)Il2CppClass::FromTypeDefinitionIndex(Effect_TransformToMaterialBehavior___c_TypeDefinitionIndex)->GetStaticField(0x3F600);
+		}
+		static ::System::Func_2<::RPG::Client::Effect_TransformToMaterialBehavior_TransformPropertyMapping*, ::System::Boolean>** StaticGet___9__7_0()
+		{
+			return (::System::Func_2<::RPG::Client::Effect_TransformToMaterialBehavior_TransformPropertyMapping*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Effect_TransformToMaterialBehavior___c_TypeDefinitionIndex)->GetStaticField(0x3F608);
 		}
 
 		static ::System::Void _cctor()

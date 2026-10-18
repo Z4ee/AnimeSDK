@@ -6,9 +6,9 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::Timeline { class GroupTrack; }
 namespace UnityEngine::Timeline { class TrackAsset; }
 
-#define CLASS_1_2F51BD0FF76EEB32__CTOR_OFFSET UNITYSDK_OFFSET(0x12E85490)
+#define CLASS_1_2F51BD0FF76EEB32__CTOR_OFFSET UNITYSDK_OFFSET(0x1330F850)
 
-inline static constexpr unsigned int Class_1_2F51BD0FF76EEB32_TypeDefinitionIndex = 48973;
+inline static constexpr unsigned int Class_1_2F51BD0FF76EEB32_TypeDefinitionIndex = 48519;
 
 class Class_1_2F51BD0FF76EEB32 : public ::System::Object
 {

@@ -3,7 +3,7 @@
 #include "unitysdk/System/DateTime.h"
 #include "unitysdk/System/EventArgs.h"
 
-#define SYSTEM_TIMERS_ELAPSEDEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA12570)
+#define SYSTEM_TIMERS_ELAPSEDEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1F0D9DF0)
 
 namespace System::Timers
 {

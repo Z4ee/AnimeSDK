@@ -9,19 +9,19 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationClip; }
 namespace UnityEngine { class SkinnedMeshRenderer; }
 
-#define RPG_CLIENT_TAUTILS_MESHSELFINTERSECTIONDEBUGGER__CCTOR_OFFSET UNITYSDK_OFFSET(0xE14F1A0)
-#define RPG_CLIENT_TAUTILS_MESHSELFINTERSECTIONDEBUGGER__CTOR_OFFSET UNITYSDK_OFFSET(0xE14F190)
+#define RPG_CLIENT_TAUTILS_MESHSELFINTERSECTIONDEBUGGER__CCTOR_OFFSET UNITYSDK_OFFSET(0xE1904E0)
+#define RPG_CLIENT_TAUTILS_MESHSELFINTERSECTIONDEBUGGER__CTOR_OFFSET UNITYSDK_OFFSET(0xE1904D0)
 
 namespace RPG::Client::TAUtils
 {
-	inline static constexpr unsigned int MeshSelfIntersectionDebugger_TypeDefinitionIndex = 73528;
+	inline static constexpr unsigned int MeshSelfIntersectionDebugger_TypeDefinitionIndex = 73635;
 
 	class MeshSelfIntersectionDebugger : public ::RPG::Client::TAMonoBase
 	{
 	public:
 		static ::Il2CppArray<::UnityEngine::Color>** StaticGet_NOFFDGKAJEL()
 		{
-			return (::Il2CppArray<::UnityEngine::Color>**)Il2CppClass::FromTypeDefinitionIndex(MeshSelfIntersectionDebugger_TypeDefinitionIndex)->GetStaticField(0x3BD00);
+			return (::Il2CppArray<::UnityEngine::Color>**)Il2CppClass::FromTypeDefinitionIndex(MeshSelfIntersectionDebugger_TypeDefinitionIndex)->GetStaticField(0x31C0);
 		}
 		::Il2CppArray<::UnityEngine::SkinnedMeshRenderer*>* targetRenderers; // 0x18
 		::UnityEngine::AnimationClip* overrideClip; // 0x20

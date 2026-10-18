@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class MatchThreeV2RankData; }
 
-#define RPG_CLIENT_MATCHTHREEV2RANKINFOS___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD6726D0)
-#define RPG_CLIENT_MATCHTHREEV2RANKINFOS___C__DISPLAYCLASS5_0__GETRANKDATABYID_B__0_OFFSET UNITYSDK_OFFSET(0xD672810)
+#define RPG_CLIENT_MATCHTHREEV2RANKINFOS___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD5CB830)
+#define RPG_CLIENT_MATCHTHREEV2RANKINFOS___C__DISPLAYCLASS5_0__GETRANKDATABYID_B__0_OFFSET UNITYSDK_OFFSET(0xD5CB970)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MatchThreeV2RankInfos___c__DisplayClass5_0_TypeDefinitionIndex = 66070;
+	inline static constexpr unsigned int MatchThreeV2RankInfos___c__DisplayClass5_0_TypeDefinitionIndex = 66024;
 
 	class MatchThreeV2RankInfos___c__DisplayClass5_0 : public ::System::Object
 	{

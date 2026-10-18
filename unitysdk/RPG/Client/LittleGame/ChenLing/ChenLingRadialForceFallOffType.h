@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame::ChenLing
 {
-	inline static constexpr unsigned int ChenLingRadialForceFallOffType_TypeDefinitionIndex = 42119;
+	inline static constexpr unsigned int ChenLingRadialForceFallOffType_TypeDefinitionIndex = 43761;
 
 	enum class ChenLingRadialForceFallOffType : ::System::Int32
 	{

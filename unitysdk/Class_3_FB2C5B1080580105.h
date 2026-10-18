@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ExitGameFlow; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_FB2C5B1080580105_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x158C6ED0)
-#define CLASS_3_FB2C5B1080580105__CTOR_OFFSET UNITYSDK_OFFSET(0x158C6EA0)
+#define CLASS_3_FB2C5B1080580105_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15C16900)
+#define CLASS_3_FB2C5B1080580105__CTOR_OFFSET UNITYSDK_OFFSET(0x15C168D0)
 
-inline static constexpr unsigned int Class_3_FB2C5B1080580105_TypeDefinitionIndex = 58273;
+inline static constexpr unsigned int Class_3_FB2C5B1080580105_TypeDefinitionIndex = 58121;
 
 class Class_3_FB2C5B1080580105 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ExitGameFlow*>
 {

@@ -5,12 +5,12 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_LOOPGENERATEBEHAVIOR_RUNTIMESLIDER_METHOD_1_32B2368221A04800_OFFSET UNITYSDK_OFFSET(0xD58C740)
-#define RPG_CLIENT_LOOPGENERATEBEHAVIOR_RUNTIMESLIDER__CTOR_OFFSET UNITYSDK_OFFSET(0xD58C7F0)
+#define RPG_CLIENT_LOOPGENERATEBEHAVIOR_RUNTIMESLIDER_METHOD_1_32B2368221A04800_OFFSET UNITYSDK_OFFSET(0xD4DF570)
+#define RPG_CLIENT_LOOPGENERATEBEHAVIOR_RUNTIMESLIDER__CTOR_OFFSET UNITYSDK_OFFSET(0xD4DFBC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LoopGenerateBehavior_RuntimeSlider_TypeDefinitionIndex = 70876;
+	inline static constexpr unsigned int LoopGenerateBehavior_RuntimeSlider_TypeDefinitionIndex = 70909;
 
 	class LoopGenerateBehavior_RuntimeSlider : public ::System::Object
 	{

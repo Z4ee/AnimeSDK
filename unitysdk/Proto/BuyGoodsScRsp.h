@@ -10,51 +10,51 @@ namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 namespace Proto { class ItemList; }
 namespace System { class String; }
 
-#define PROTO_BUYGOODSSCRSP_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1D930220)
-#define PROTO_BUYGOODSSCRSP_CLONE_OFFSET UNITYSDK_OFFSET(0x1D92FBF0)
-#define PROTO_BUYGOODSSCRSP_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1D92FE20)
-#define PROTO_BUYGOODSSCRSP_EQUALS_OFFSET UNITYSDK_OFFSET(0x1D92FD10)
-#define PROTO_BUYGOODSSCRSP_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1D92FF30)
-#define PROTO_BUYGOODSSCRSP_GET_GOODSBUYTIMES_OFFSET UNITYSDK_OFFSET(0x1D92FC90)
-#define PROTO_BUYGOODSSCRSP_GET_GOODSID_OFFSET UNITYSDK_OFFSET(0x1D92FCD0)
-#define PROTO_BUYGOODSSCRSP_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x1D92FB30)
-#define PROTO_BUYGOODSSCRSP_GET_RETCODE_OFFSET UNITYSDK_OFFSET(0x1D92FC70)
-#define PROTO_BUYGOODSSCRSP_GET_RETURNITEMLIST_OFFSET UNITYSDK_OFFSET(0x1D92FCB0)
-#define PROTO_BUYGOODSSCRSP_GET_SHOPID_OFFSET UNITYSDK_OFFSET(0x1D92FCF0)
-#define PROTO_BUYGOODSSCRSP_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1D930510)
-#define PROTO_BUYGOODSSCRSP_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1D930460)
-#define PROTO_BUYGOODSSCRSP_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1D92FB60)
-#define PROTO_BUYGOODSSCRSP_SET_GOODSBUYTIMES_OFFSET UNITYSDK_OFFSET(0x1D92FCA0)
-#define PROTO_BUYGOODSSCRSP_SET_GOODSID_OFFSET UNITYSDK_OFFSET(0x1D92FCE0)
-#define PROTO_BUYGOODSSCRSP_SET_RETCODE_OFFSET UNITYSDK_OFFSET(0x1D92FC80)
-#define PROTO_BUYGOODSSCRSP_SET_RETURNITEMLIST_OFFSET UNITYSDK_OFFSET(0x1D92FCC0)
-#define PROTO_BUYGOODSSCRSP_SET_SHOPID_OFFSET UNITYSDK_OFFSET(0x1D92FD00)
-#define PROTO_BUYGOODSSCRSP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1D92FFD0)
-#define PROTO_BUYGOODSSCRSP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1D930030)
-#define PROTO_BUYGOODSSCRSP__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D930610)
-#define PROTO_BUYGOODSSCRSP__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1D92FB80)
-#define PROTO_BUYGOODSSCRSP__CTOR_OFFSET UNITYSDK_OFFSET(0x1D92FB70)
+#define PROTO_BUYGOODSSCRSP_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1DFE8CE0)
+#define PROTO_BUYGOODSSCRSP_CLONE_OFFSET UNITYSDK_OFFSET(0x1DFE8680)
+#define PROTO_BUYGOODSSCRSP_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1DFE8860)
+#define PROTO_BUYGOODSSCRSP_EQUALS_OFFSET UNITYSDK_OFFSET(0x1DFE8750)
+#define PROTO_BUYGOODSSCRSP_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1DFE8970)
+#define PROTO_BUYGOODSSCRSP_GET_GOODSBUYTIMES_OFFSET UNITYSDK_OFFSET(0x1DFE8710)
+#define PROTO_BUYGOODSSCRSP_GET_GOODSID_OFFSET UNITYSDK_OFFSET(0x1DFE8730)
+#define PROTO_BUYGOODSSCRSP_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x1DFE8510)
+#define PROTO_BUYGOODSSCRSP_GET_RETCODE_OFFSET UNITYSDK_OFFSET(0x1DFE86F0)
+#define PROTO_BUYGOODSSCRSP_GET_RETURNITEMLIST_OFFSET UNITYSDK_OFFSET(0x1DFE86B0)
+#define PROTO_BUYGOODSSCRSP_GET_SHOPID_OFFSET UNITYSDK_OFFSET(0x1DFE86D0)
+#define PROTO_BUYGOODSSCRSP_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1DFE9160)
+#define PROTO_BUYGOODSSCRSP_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1DFE8F20)
+#define PROTO_BUYGOODSSCRSP_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1DFE8540)
+#define PROTO_BUYGOODSSCRSP_SET_GOODSBUYTIMES_OFFSET UNITYSDK_OFFSET(0x1DFE8720)
+#define PROTO_BUYGOODSSCRSP_SET_GOODSID_OFFSET UNITYSDK_OFFSET(0x1DFE8740)
+#define PROTO_BUYGOODSSCRSP_SET_RETCODE_OFFSET UNITYSDK_OFFSET(0x1DFE8700)
+#define PROTO_BUYGOODSSCRSP_SET_RETURNITEMLIST_OFFSET UNITYSDK_OFFSET(0x1DFE86C0)
+#define PROTO_BUYGOODSSCRSP_SET_SHOPID_OFFSET UNITYSDK_OFFSET(0x1DFE86E0)
+#define PROTO_BUYGOODSSCRSP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DFE8A90)
+#define PROTO_BUYGOODSSCRSP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DFE8AF0)
+#define PROTO_BUYGOODSSCRSP__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DFE9260)
+#define PROTO_BUYGOODSSCRSP__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1DFE8560)
+#define PROTO_BUYGOODSSCRSP__CTOR_OFFSET UNITYSDK_OFFSET(0x1DFE8550)
 
 namespace Proto
 {
-	inline static constexpr unsigned int BuyGoodsScRsp_TypeDefinitionIndex = 33527;
+	inline static constexpr unsigned int BuyGoodsScRsp_TypeDefinitionIndex = 34181;
 
 	class BuyGoodsScRsp : public ::System::Object
 	{
 	public:
 		static ::Google::Protobuf::MessageParser_1<::Proto::BuyGoodsScRsp*>** StaticGet__parser()
 		{
-			return (::Google::Protobuf::MessageParser_1<::Proto::BuyGoodsScRsp*>**)Il2CppClass::FromTypeDefinitionIndex(BuyGoodsScRsp_TypeDefinitionIndex)->GetStaticField(0x57660);
+			return (::Google::Protobuf::MessageParser_1<::Proto::BuyGoodsScRsp*>**)Il2CppClass::FromTypeDefinitionIndex(BuyGoodsScRsp_TypeDefinitionIndex)->GetStaticField(0x260C0);
 		}
-		// static const ::System::Int32 RetcodeFieldNumber = 0x8; // 0x0
-		// static const ::System::Int32 GoodsBuyTimesFieldNumber = 0x1; // 0x0
-		// static const ::System::Int32 ReturnItemListFieldNumber = 0x4; // 0x0
-		// static const ::System::Int32 GoodsIdFieldNumber = 0xD; // 0x0
-		// static const ::System::Int32 ShopIdFieldNumber = 0x3; // 0x0
+		// static const ::System::Int32 ReturnItemListFieldNumber = 0xE; // 0x0
+		// static const ::System::Int32 ShopIdFieldNumber = 0xA; // 0x0
+		// static const ::System::Int32 RetcodeFieldNumber = 0x9; // 0x0
+		// static const ::System::Int32 GoodsBuyTimesFieldNumber = 0x2; // 0x0
+		// static const ::System::Int32 GoodsIdFieldNumber = 0x4; // 0x0
 		::Proto::ItemList* returnItemList_; // 0x10
 		::Google::Protobuf::UnknownFieldSet* _unknownFields; // 0x18
-		::System::UInt32 goodsBuyTimes_; // 0x20
-		::System::UInt32 retcode_; // 0x24
+		::System::UInt32 retcode_; // 0x20
+		::System::UInt32 goodsBuyTimes_; // 0x24
 		::System::UInt32 goodsId_; // 0x28
 		::System::UInt32 shopId_; // 0x2C
 
@@ -88,6 +88,26 @@ namespace Proto
 			return ((::Proto::BuyGoodsScRsp*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_BUYGOODSSCRSP_CLONE_OFFSET))(this);
 		}
 
+		::Proto::ItemList* get_ReturnItemList()
+		{
+			return ((::Proto::ItemList*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_BUYGOODSSCRSP_GET_RETURNITEMLIST_OFFSET))(this);
+		}
+
+		::System::Void set_ReturnItemList(::Proto::ItemList* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Proto::ItemList*))((::PBYTE)hIl2Cpp + PROTO_BUYGOODSSCRSP_SET_RETURNITEMLIST_OFFSET))(this, a1);
+		}
+
+		::System::UInt32 get_ShopId()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_BUYGOODSSCRSP_GET_SHOPID_OFFSET))(this);
+		}
+
+		::System::Void set_ShopId(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_BUYGOODSSCRSP_SET_SHOPID_OFFSET))(this, a1);
+		}
+
 		::System::UInt32 get_Retcode()
 		{
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_BUYGOODSSCRSP_GET_RETCODE_OFFSET))(this);
@@ -108,16 +128,6 @@ namespace Proto
 			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_BUYGOODSSCRSP_SET_GOODSBUYTIMES_OFFSET))(this, a1);
 		}
 
-		::Proto::ItemList* get_ReturnItemList()
-		{
-			return ((::Proto::ItemList*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_BUYGOODSSCRSP_GET_RETURNITEMLIST_OFFSET))(this);
-		}
-
-		::System::Void set_ReturnItemList(::Proto::ItemList* a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::Proto::ItemList*))((::PBYTE)hIl2Cpp + PROTO_BUYGOODSSCRSP_SET_RETURNITEMLIST_OFFSET))(this, a1);
-		}
-
 		::System::UInt32 get_GoodsId()
 		{
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_BUYGOODSSCRSP_GET_GOODSID_OFFSET))(this);
@@ -126,16 +136,6 @@ namespace Proto
 		::System::Void set_GoodsId(::System::UInt32 a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_BUYGOODSSCRSP_SET_GOODSID_OFFSET))(this, a1);
-		}
-
-		::System::UInt32 get_ShopId()
-		{
-			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_BUYGOODSSCRSP_GET_SHOPID_OFFSET))(this);
-		}
-
-		::System::Void set_ShopId(::System::UInt32 a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_BUYGOODSSCRSP_SET_SHOPID_OFFSET))(this, a1);
 		}
 
 		::System::Boolean Equals(::System::Object* a1)

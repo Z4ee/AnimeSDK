@@ -6,12 +6,12 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_TRANSITIONTIMELINETRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xE8D75E0)
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_TRANSITIONTIMELINETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xE8D7790)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_TRANSITIONTIMELINETRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xE92CE50)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_TRANSITIONTIMELINETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xE92D000)
 
 namespace RPGTools::Timeline::PostProcessing
 {
-	inline static constexpr unsigned int TransitionTimelineTrack_TypeDefinitionIndex = 49082;
+	inline static constexpr unsigned int TransitionTimelineTrack_TypeDefinitionIndex = 48628;
 
 	class TransitionTimelineTrack : public ::UnityEngine::Timeline::TrackAsset
 	{

@@ -13,42 +13,42 @@ namespace ZenFulcrum::EmbeddedBrowser { class BrowserNative_ReportFunc; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int Browser___O_TypeDefinitionIndex = 38039;
+	inline static constexpr unsigned int Browser___O_TypeDefinitionIndex = 39336;
 
 	class Browser___O : public ::System::Object
 	{
 	public:
-		static ::ZenFulcrum::EmbeddedBrowser::BrowserNative_ConsoleFunc** StaticGet__2___CB_ConsoleFunc()
-		{
-			return (::ZenFulcrum::EmbeddedBrowser::BrowserNative_ConsoleFunc**)Il2CppClass::FromTypeDefinitionIndex(Browser___O_TypeDefinitionIndex)->GetStaticField(0x55550);
-		}
 		static ::ZenFulcrum::EmbeddedBrowser::BrowserNative_NewWindowFunc** StaticGet__7___CB_NewWindowFunc()
 		{
-			return (::ZenFulcrum::EmbeddedBrowser::BrowserNative_NewWindowFunc**)Il2CppClass::FromTypeDefinitionIndex(Browser___O_TypeDefinitionIndex)->GetStaticField(0x55558);
-		}
-		static ::ZenFulcrum::EmbeddedBrowser::BrowserNative_ReadyFunc** StaticGet__4___CB_ReadyFunc()
-		{
-			return (::ZenFulcrum::EmbeddedBrowser::BrowserNative_ReadyFunc**)Il2CppClass::FromTypeDefinitionIndex(Browser___O_TypeDefinitionIndex)->GetStaticField(0x55560);
-		}
-		static ::ZenFulcrum::EmbeddedBrowser::BrowserNative_ChangeFunc** StaticGet__1___CB_ChangeFunc()
-		{
-			return (::ZenFulcrum::EmbeddedBrowser::BrowserNative_ChangeFunc**)Il2CppClass::FromTypeDefinitionIndex(Browser___O_TypeDefinitionIndex)->GetStaticField(0x55568);
-		}
-		static ::ZenFulcrum::EmbeddedBrowser::BrowserNative_NavStateFunc** StaticGet__5___CB_NavStateFunc()
-		{
-			return (::ZenFulcrum::EmbeddedBrowser::BrowserNative_NavStateFunc**)Il2CppClass::FromTypeDefinitionIndex(Browser___O_TypeDefinitionIndex)->GetStaticField(0x55570);
-		}
-		static ::ZenFulcrum::EmbeddedBrowser::BrowserNative_ReportFunc** StaticGet__6___CB_ReportFunc()
-		{
-			return (::ZenFulcrum::EmbeddedBrowser::BrowserNative_ReportFunc**)Il2CppClass::FromTypeDefinitionIndex(Browser___O_TypeDefinitionIndex)->GetStaticField(0x55578);
+			return (::ZenFulcrum::EmbeddedBrowser::BrowserNative_NewWindowFunc**)Il2CppClass::FromTypeDefinitionIndex(Browser___O_TypeDefinitionIndex)->GetStaticField(0x4E340);
 		}
 		static ::ZenFulcrum::EmbeddedBrowser::BrowserNative_ForwardJSCallFunc** StaticGet__0___CB_ForwardJSCallFunc()
 		{
-			return (::ZenFulcrum::EmbeddedBrowser::BrowserNative_ForwardJSCallFunc**)Il2CppClass::FromTypeDefinitionIndex(Browser___O_TypeDefinitionIndex)->GetStaticField(0x55580);
+			return (::ZenFulcrum::EmbeddedBrowser::BrowserNative_ForwardJSCallFunc**)Il2CppClass::FromTypeDefinitionIndex(Browser___O_TypeDefinitionIndex)->GetStaticField(0x4E348);
+		}
+		static ::ZenFulcrum::EmbeddedBrowser::BrowserNative_ConsoleFunc** StaticGet__2___CB_ConsoleFunc()
+		{
+			return (::ZenFulcrum::EmbeddedBrowser::BrowserNative_ConsoleFunc**)Il2CppClass::FromTypeDefinitionIndex(Browser___O_TypeDefinitionIndex)->GetStaticField(0x4E350);
 		}
 		static ::ZenFulcrum::EmbeddedBrowser::BrowserNative_DisplayDialogFunc** StaticGet__3___CB_DisplayDialogFunc()
 		{
-			return (::ZenFulcrum::EmbeddedBrowser::BrowserNative_DisplayDialogFunc**)Il2CppClass::FromTypeDefinitionIndex(Browser___O_TypeDefinitionIndex)->GetStaticField(0x55588);
+			return (::ZenFulcrum::EmbeddedBrowser::BrowserNative_DisplayDialogFunc**)Il2CppClass::FromTypeDefinitionIndex(Browser___O_TypeDefinitionIndex)->GetStaticField(0x4E358);
+		}
+		static ::ZenFulcrum::EmbeddedBrowser::BrowserNative_ChangeFunc** StaticGet__1___CB_ChangeFunc()
+		{
+			return (::ZenFulcrum::EmbeddedBrowser::BrowserNative_ChangeFunc**)Il2CppClass::FromTypeDefinitionIndex(Browser___O_TypeDefinitionIndex)->GetStaticField(0x4E360);
+		}
+		static ::ZenFulcrum::EmbeddedBrowser::BrowserNative_NavStateFunc** StaticGet__5___CB_NavStateFunc()
+		{
+			return (::ZenFulcrum::EmbeddedBrowser::BrowserNative_NavStateFunc**)Il2CppClass::FromTypeDefinitionIndex(Browser___O_TypeDefinitionIndex)->GetStaticField(0x4E368);
+		}
+		static ::ZenFulcrum::EmbeddedBrowser::BrowserNative_ReadyFunc** StaticGet__4___CB_ReadyFunc()
+		{
+			return (::ZenFulcrum::EmbeddedBrowser::BrowserNative_ReadyFunc**)Il2CppClass::FromTypeDefinitionIndex(Browser___O_TypeDefinitionIndex)->GetStaticField(0x4E370);
+		}
+		static ::ZenFulcrum::EmbeddedBrowser::BrowserNative_ReportFunc** StaticGet__6___CB_ReportFunc()
+		{
+			return (::ZenFulcrum::EmbeddedBrowser::BrowserNative_ReportFunc**)Il2CppClass::FromTypeDefinitionIndex(Browser___O_TypeDefinitionIndex)->GetStaticField(0x4E378);
 		}
 	};
 }

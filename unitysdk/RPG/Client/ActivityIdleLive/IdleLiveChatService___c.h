@@ -5,24 +5,24 @@
 class Class_1_B547B56320B70AD4;
 namespace System { template <typename T> class Predicate_1; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECHATSERVICE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC59EB70)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECHATSERVICE___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC59EBB0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECHATSERVICE___C___CLEARINVALIDSPECIALCHATS_B__9_0_OFFSET UNITYSDK_OFFSET(0xC59EBC0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECHATSERVICE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC46F700)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECHATSERVICE___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC46F740)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECHATSERVICE___C___CLEARINVALIDSPECIALCHATS_B__9_0_OFFSET UNITYSDK_OFFSET(0xC46F750)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveChatService___c_TypeDefinitionIndex = 74982;
+	inline static constexpr unsigned int IdleLiveChatService___c_TypeDefinitionIndex = 75282;
 
 	class IdleLiveChatService___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::ActivityIdleLive::IdleLiveChatService___c** StaticGet___9()
-		{
-			return (::RPG::Client::ActivityIdleLive::IdleLiveChatService___c**)Il2CppClass::FromTypeDefinitionIndex(IdleLiveChatService___c_TypeDefinitionIndex)->GetStaticField(0x5B070);
-		}
 		static ::System::Predicate_1<::Class_1_B547B56320B70AD4*>** StaticGet___9__9_0()
 		{
-			return (::System::Predicate_1<::Class_1_B547B56320B70AD4*>**)Il2CppClass::FromTypeDefinitionIndex(IdleLiveChatService___c_TypeDefinitionIndex)->GetStaticField(0x5B078);
+			return (::System::Predicate_1<::Class_1_B547B56320B70AD4*>**)Il2CppClass::FromTypeDefinitionIndex(IdleLiveChatService___c_TypeDefinitionIndex)->GetStaticField(0x22690);
+		}
+		static ::RPG::Client::ActivityIdleLive::IdleLiveChatService___c** StaticGet___9()
+		{
+			return (::RPG::Client::ActivityIdleLive::IdleLiveChatService___c**)Il2CppClass::FromTypeDefinitionIndex(IdleLiveChatService___c_TypeDefinitionIndex)->GetStaticField(0x22698);
 		}
 
 		static ::System::Void _cctor()

@@ -6,22 +6,22 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_STANDALONEWEBRESOURCES_HANDLEREQUEST_OFFSET UNITYSDK_OFFSET(0x1EFA63F0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_STANDALONEWEBRESOURCES_LOADINDEX_OFFSET UNITYSDK_OFFSET(0x1EFA5E80)
-#define ZENFULCRUM_EMBEDDEDBROWSER_STANDALONEWEBRESOURCES_WRITEDATA_OFFSET UNITYSDK_OFFSET(0x1EFA6810)
-#define ZENFULCRUM_EMBEDDEDBROWSER_STANDALONEWEBRESOURCES__CTOR_OFFSET UNITYSDK_OFFSET(0x1EFA5DB0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_STANDALONEWEBRESOURCES_HANDLEREQUEST_OFFSET UNITYSDK_OFFSET(0x1F66E960)
+#define ZENFULCRUM_EMBEDDEDBROWSER_STANDALONEWEBRESOURCES_LOADINDEX_OFFSET UNITYSDK_OFFSET(0x1F66E3F0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_STANDALONEWEBRESOURCES_WRITEDATA_OFFSET UNITYSDK_OFFSET(0x1F66ED80)
+#define ZENFULCRUM_EMBEDDEDBROWSER_STANDALONEWEBRESOURCES__CTOR_OFFSET UNITYSDK_OFFSET(0x1F66E320)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int StandaloneWebResources_TypeDefinitionIndex = 38266;
+	inline static constexpr unsigned int StandaloneWebResources_TypeDefinitionIndex = 39563;
 
 	class StandaloneWebResources : public ::ZenFulcrum::EmbeddedBrowser::WebResources
 	{
 	public:
 		// static const ::System::String* FileHeader; // 0x0
 		// static const ::System::String* DefaultPath; // 0x0
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::ZenFulcrum::EmbeddedBrowser::StandaloneWebResources_IndexEntry>* toc; // 0x10
-		::System::String* dataFile; // 0x18
+		::System::String* dataFile; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::ZenFulcrum::EmbeddedBrowser::StandaloneWebResources_IndexEntry>* toc; // 0x18
 
 		::System::Void _ctor(::System::String* a1)
 		{

@@ -10,13 +10,13 @@ namespace UnityEngine { class CanvasGroup; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine::UI { class Text; }
 
-#define SRDEBUGGER_UI_CONTROLS_CONSOLEENTRYVIEW_AWAKE_OFFSET UNITYSDK_OFFSET(0x1E68C6B0)
-#define SRDEBUGGER_UI_CONTROLS_CONSOLEENTRYVIEW_SETDATACONTEXT_OFFSET UNITYSDK_OFFSET(0x1E68C010)
-#define SRDEBUGGER_UI_CONTROLS_CONSOLEENTRYVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0x1E68C780)
+#define SRDEBUGGER_UI_CONTROLS_CONSOLEENTRYVIEW_AWAKE_OFFSET UNITYSDK_OFFSET(0x1ED54330)
+#define SRDEBUGGER_UI_CONTROLS_CONSOLEENTRYVIEW_SETDATACONTEXT_OFFSET UNITYSDK_OFFSET(0x1ED53D00)
+#define SRDEBUGGER_UI_CONTROLS_CONSOLEENTRYVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0x1ED54400)
 
 namespace SRDebugger::UI::Controls
 {
-	inline static constexpr unsigned int ConsoleEntryView_TypeDefinitionIndex = 37327;
+	inline static constexpr unsigned int ConsoleEntryView_TypeDefinitionIndex = 38020;
 
 	class ConsoleEntryView : public ::SRF::SRMonoBehaviourEx
 	{

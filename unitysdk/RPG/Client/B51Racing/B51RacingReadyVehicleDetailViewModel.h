@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_B51RACING_B51RACINGREADYVEHICLEDETAILVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xC896060)
+#define RPG_CLIENT_B51RACING_B51RACINGREADYVEHICLEDETAILVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xC7B4A50)
 
 namespace RPG::Client::B51Racing
 {
-	inline static constexpr unsigned int B51RacingReadyVehicleDetailViewModel_TypeDefinitionIndex = 80722;
+	inline static constexpr unsigned int B51RacingReadyVehicleDetailViewModel_TypeDefinitionIndex = 82050;
 
 	class B51RacingReadyVehicleDetailViewModel : public ::System::Object
 	{

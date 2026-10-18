@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_43BD383C98B4C0C5_213.h"
+#include "unitysdk/Class_1_43BD383C98B4C0C5_215.h"
 
 class Class_1_F9FBCC956DFCF137_27;
 class Class_1_FD611945730E269E;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_B97F91670F801CBC_METHOD_2_98FE8344617B99D4_OFFSET UNITYSDK_OFFSET(0xB83E940)
-#define CLASS_2_B97F91670F801CBC__CTOR_OFFSET UNITYSDK_OFFSET(0xB83E930)
+#define CLASS_2_B97F91670F801CBC_METHOD_2_98FE8344617B99D4_OFFSET UNITYSDK_OFFSET(0xB6B13F0)
+#define CLASS_2_B97F91670F801CBC__CTOR_OFFSET UNITYSDK_OFFSET(0xB6B13E0)
 
-inline static constexpr unsigned int Class_2_B97F91670F801CBC_TypeDefinitionIndex = 77229;
+inline static constexpr unsigned int Class_2_B97F91670F801CBC_TypeDefinitionIndex = 77700;
 
-class Class_2_B97F91670F801CBC : public ::Class_1_43BD383C98B4C0C5_213
+class Class_2_B97F91670F801CBC : public ::Class_1_43BD383C98B4C0C5_215
 {
 public:
 	::System::Collections::Generic::List_1<::System::Int32>* KPJHIOKBJEI; // 0x10

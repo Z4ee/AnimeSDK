@@ -5,19 +5,19 @@
 namespace RPG::Client::FateRin::Battle { class IFateRinBattleHudCardPileBtnViewModel; }
 namespace RPG::Client::Promises { class IPendingPromise; }
 
-#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINSHUFFLETRAILEFFECTVIEW___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD02D770)
-#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINSHUFFLETRAILEFFECTVIEW___C__DISPLAYCLASS7_0__PLAYSHUFFLEFLOW_B__0_OFFSET UNITYSDK_OFFSET(0xD02DFD0)
-#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINSHUFFLETRAILEFFECTVIEW___C__DISPLAYCLASS7_0__PLAYSHUFFLEFLOW_B__1_OFFSET UNITYSDK_OFFSET(0xD02E050)
+#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINSHUFFLETRAILEFFECTVIEW___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCFCC220)
+#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINSHUFFLETRAILEFFECTVIEW___C__DISPLAYCLASS7_0__PLAYSHUFFLEFLOW_B__0_OFFSET UNITYSDK_OFFSET(0xCFCC230)
+#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINSHUFFLETRAILEFFECTVIEW___C__DISPLAYCLASS7_0__PLAYSHUFFLEFLOW_B__1_OFFSET UNITYSDK_OFFSET(0xCFCC2B0)
 
 namespace RPG::Client::FateRin::View::Battle
 {
-	inline static constexpr unsigned int FateRinShuffleTrailEffectView___c__DisplayClass7_0_TypeDefinitionIndex = 79375;
+	inline static constexpr unsigned int FateRinShuffleTrailEffectView___c__DisplayClass7_0_TypeDefinitionIndex = 80699;
 
 	class FateRinShuffleTrailEffectView___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::Promises::IPendingPromise* pending; // 0x10
-		::RPG::Client::FateRin::Battle::IFateRinBattleHudCardPileBtnViewModel* cardPileBtnVm; // 0x18
+		::RPG::Client::FateRin::Battle::IFateRinBattleHudCardPileBtnViewModel* cardPileBtnVm; // 0x10
+		::RPG::Client::Promises::IPendingPromise* pending; // 0x18
 		::System::Int32 discardPileVisualOffset; // 0x20
 		::System::Int32 drawPileVisualOffset; // 0x24
 

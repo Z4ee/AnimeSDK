@@ -5,7 +5,7 @@ namespace RPG::Client::FateRin::Battle { class IFateRinBattleHudInputSource; }
 
 namespace RPG::Client::FateRin::Battle
 {
-	inline static constexpr unsigned int IFateRinBattleHudInputBrain_TypeDefinitionIndex = 79636;
+	inline static constexpr unsigned int IFateRinBattleHudInputBrain_TypeDefinitionIndex = 80960;
 
 	class IFateRinBattleHudInputBrain
 	{

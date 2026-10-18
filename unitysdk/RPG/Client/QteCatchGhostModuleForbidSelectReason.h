@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int QteCatchGhostModuleForbidSelectReason_TypeDefinitionIndex = 60387;
+	inline static constexpr unsigned int QteCatchGhostModuleForbidSelectReason_TypeDefinitionIndex = 60275;
 
 	enum class QteCatchGhostModuleForbidSelectReason : ::System::Int32
 	{

@@ -6,21 +6,21 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ROGUETOURNGAMBLEUNITROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D488D50)
-#define RPG_GAMECORE_ROGUETOURNGAMBLEUNITROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D488F40)
+#define RPG_GAMECORE_ROGUETOURNGAMBLEUNITROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DA3BA00)
+#define RPG_GAMECORE_ROGUETOURNGAMBLEUNITROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1DA3BBF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueTournGambleUnitRow_TypeDefinitionIndex = 14878;
+	inline static constexpr unsigned int RogueTournGambleUnitRow_TypeDefinitionIndex = 15043;
 
 	class RogueTournGambleUnitRow : public ::System::Object
 	{
 	public:
 		::System::String* GambleUnitIcon; // 0x10
 		::System::UInt32 GambleUnitParam; // 0x18
-		::RPG::GameCore::RogueGambleUnitType GambleUnitType; // 0x1C
+		::System::UInt32 UnitTextureParam; // 0x1C
 		::System::UInt32 GambleUnitID; // 0x20
-		::System::UInt32 UnitTextureParam; // 0x24
+		::RPG::GameCore::RogueGambleUnitType GambleUnitType; // 0x24
 
 		::System::Void _ctor()
 		{

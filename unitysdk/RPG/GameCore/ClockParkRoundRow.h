@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_CLOCKPARKROUNDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CFE5760)
-#define RPG_GAMECORE_CLOCKPARKROUNDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFE5DC0)
+#define RPG_GAMECORE_CLOCKPARKROUNDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D5C1390)
+#define RPG_GAMECORE_CLOCKPARKROUNDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5C19F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ClockParkRoundRow_TypeDefinitionIndex = 11153;
+	inline static constexpr unsigned int ClockParkRoundRow_TypeDefinitionIndex = 11169;
 
 	class ClockParkRoundRow : public ::System::Object
 	{

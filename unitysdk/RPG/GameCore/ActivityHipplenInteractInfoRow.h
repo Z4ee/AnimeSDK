@@ -7,18 +7,18 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ACTIVITYHIPPLENINTERACTINFOROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CD92960)
-#define RPG_GAMECORE_ACTIVITYHIPPLENINTERACTINFOROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD92C90)
+#define RPG_GAMECORE_ACTIVITYHIPPLENINTERACTINFOROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3677E0)
+#define RPG_GAMECORE_ACTIVITYHIPPLENINTERACTINFOROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D367B10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityHipplenInteractInfoRow_TypeDefinitionIndex = 11636;
+	inline static constexpr unsigned int ActivityHipplenInteractInfoRow_TypeDefinitionIndex = 11659;
 
 	class ActivityHipplenInteractInfoRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* PropIDList; // 0x10
-		::System::String* JsonConfigPath; // 0x18
+		::System::String* JsonConfigPath; // 0x10
+		::Il2CppArray<::System::UInt32>* PropIDList; // 0x18
 		::System::String* PrefabPath; // 0x20
 		::System::String* IconPath; // 0x28
 		::RPG::GameCore::HipplenInteractType Type; // 0x30

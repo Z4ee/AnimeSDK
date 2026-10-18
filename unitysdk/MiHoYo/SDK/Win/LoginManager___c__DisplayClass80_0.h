@@ -6,12 +6,12 @@ namespace MiHoYo::SDK { class NetworkResponseModelEx; }
 namespace MiHoYo::SDK::Win { class LoginManager; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS80_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B874170)
-#define MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS80_0__REQUESTLOGINBYTWITTER_B__1_OFFSET UNITYSDK_OFFSET(0x1B888E00)
+#define MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS80_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD70150)
+#define MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS80_0__REQUESTLOGINBYTWITTER_B__1_OFFSET UNITYSDK_OFFSET(0x1BD84D60)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int LoginManager___c__DisplayClass80_0_TypeDefinitionIndex = 9397;
+	inline static constexpr unsigned int LoginManager___c__DisplayClass80_0_TypeDefinitionIndex = 9455;
 
 	class LoginManager___c__DisplayClass80_0 : public ::System::Object
 	{

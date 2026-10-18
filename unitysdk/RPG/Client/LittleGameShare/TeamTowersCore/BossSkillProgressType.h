@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGameShare::TeamTowersCore
 {
-	inline static constexpr unsigned int BossSkillProgressType_TypeDefinitionIndex = 36388;
+	inline static constexpr unsigned int BossSkillProgressType_TypeDefinitionIndex = 37075;
 
 	enum class BossSkillProgressType : ::System::Byte
 	{

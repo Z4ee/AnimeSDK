@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/Client/LittleGame/RoadRash/AICarRuntimeState.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_6C6457C1BDD067C7__CTOR_OFFSET UNITYSDK_OFFSET(0x1C5588F0)
+#define CLASS_1_6C6457C1BDD067C7__CTOR_OFFSET UNITYSDK_OFFSET(0x1CACC1F0)
 
-inline static constexpr unsigned int Class_1_6C6457C1BDD067C7_TypeDefinitionIndex = 41285;
+inline static constexpr unsigned int Class_1_6C6457C1BDD067C7_TypeDefinitionIndex = 42897;
 
 class Class_1_6C6457C1BDD067C7 : public ::System::Object
 {

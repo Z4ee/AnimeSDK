@@ -7,12 +7,12 @@ namespace MiHoYo::SDK { class NetworkResponseModel; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_MIHOYOSDKUPLOADER___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB24D4E0)
-#define MIHOYO_SDK_MIHOYOSDKUPLOADER___C__DISPLAYCLASS17_0__POSTREQUEST_B__0_OFFSET UNITYSDK_OFFSET(0xB24F8E0)
+#define MIHOYO_SDK_MIHOYOSDKUPLOADER___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0xAFE2D10)
+#define MIHOYO_SDK_MIHOYOSDKUPLOADER___C__DISPLAYCLASS17_0__POSTREQUEST_B__0_OFFSET UNITYSDK_OFFSET(0xAFE5140)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MiHoYoSDKUploader___c__DisplayClass17_0_TypeDefinitionIndex = 46926;
+	inline static constexpr unsigned int MiHoYoSDKUploader___c__DisplayClass17_0_TypeDefinitionIndex = 46466;
 
 	class MiHoYoSDKUploader___c__DisplayClass17_0 : public ::System::Object
 	{

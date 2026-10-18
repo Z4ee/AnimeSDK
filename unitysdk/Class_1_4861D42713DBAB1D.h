@@ -8,10 +8,10 @@ namespace RPG::Client::FateRin::Avatar { class IFateRinAvatarViewModel; }
 namespace RPG::Client::FateRin::Logging { class ILogger; }
 namespace RPG::Client::FateRin::Logging { class ILoggerFactory; }
 
-#define CLASS_1_4861D42713DBAB1D_METHOD_1_876C3F8E8206B5CD_OFFSET UNITYSDK_OFFSET(0xC11DB50)
-#define CLASS_1_4861D42713DBAB1D__CTOR_OFFSET UNITYSDK_OFFSET(0xC11DAA0)
+#define CLASS_1_4861D42713DBAB1D_METHOD_1_876C3F8E8206B5CD_OFFSET UNITYSDK_OFFSET(0xC00B500)
+#define CLASS_1_4861D42713DBAB1D__CTOR_OFFSET UNITYSDK_OFFSET(0xC00B450)
 
-inline static constexpr unsigned int Class_1_4861D42713DBAB1D_TypeDefinitionIndex = 79909;
+inline static constexpr unsigned int Class_1_4861D42713DBAB1D_TypeDefinitionIndex = 81233;
 
 class Class_1_4861D42713DBAB1D : public ::System::Object
 {

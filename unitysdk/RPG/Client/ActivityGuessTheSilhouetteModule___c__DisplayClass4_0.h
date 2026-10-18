@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class ActivityGuessTheSilhouetteData; }
 
-#define RPG_CLIENT_ACTIVITYGUESSTHESILHOUETTEMODULE___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC536050)
-#define RPG_CLIENT_ACTIVITYGUESSTHESILHOUETTEMODULE___C__DISPLAYCLASS4_0__GETACTIVITYGUESSTHESILHOUETTETUTORIALDATA_B__0_OFFSET UNITYSDK_OFFSET(0xC536060)
+#define RPG_CLIENT_ACTIVITYGUESSTHESILHOUETTEMODULE___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC4068A0)
+#define RPG_CLIENT_ACTIVITYGUESSTHESILHOUETTEMODULE___C__DISPLAYCLASS4_0__GETACTIVITYGUESSTHESILHOUETTETUTORIALDATA_B__0_OFFSET UNITYSDK_OFFSET(0xC4068B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityGuessTheSilhouetteModule___c__DisplayClass4_0_TypeDefinitionIndex = 61617;
+	inline static constexpr unsigned int ActivityGuessTheSilhouetteModule___c__DisplayClass4_0_TypeDefinitionIndex = 61523;
 
 	class ActivityGuessTheSilhouetteModule___c__DisplayClass4_0 : public ::System::Object
 	{

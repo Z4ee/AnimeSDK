@@ -3,7 +3,7 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-inline static constexpr unsigned int Class_1_C15D42F68202F156_Struct_2_97AE06CE5D4F548E_TypeDefinitionIndex = 60348;
+inline static constexpr unsigned int Class_1_C15D42F68202F156_Struct_2_97AE06CE5D4F548E_TypeDefinitionIndex = 60236;
 
 struct alignas(4) Class_1_C15D42F68202F156_Struct_2_97AE06CE5D4F548E
 {

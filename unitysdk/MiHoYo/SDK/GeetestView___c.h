@@ -5,24 +5,24 @@
 namespace MiHoYo::SDK { class GeetestView; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_GEETESTVIEW___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B9453D0)
-#define MIHOYO_SDK_GEETESTVIEW___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B945410)
-#define MIHOYO_SDK_GEETESTVIEW___C__SHOW_B__14_0_OFFSET UNITYSDK_OFFSET(0x1B945420)
+#define MIHOYO_SDK_GEETESTVIEW___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BE44D60)
+#define MIHOYO_SDK_GEETESTVIEW___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE44DA0)
+#define MIHOYO_SDK_GEETESTVIEW___C__SHOW_B__14_0_OFFSET UNITYSDK_OFFSET(0x1BE44DB0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int GeetestView___c_TypeDefinitionIndex = 8211;
+	inline static constexpr unsigned int GeetestView___c_TypeDefinitionIndex = 8254;
 
 	class GeetestView___c : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::MiHoYo::SDK::GeetestView*>** StaticGet___9__14_0()
-		{
-			return (::System::Action_1<::MiHoYo::SDK::GeetestView*>**)Il2CppClass::FromTypeDefinitionIndex(GeetestView___c_TypeDefinitionIndex)->GetStaticField(0x11360);
-		}
 		static ::MiHoYo::SDK::GeetestView___c** StaticGet___9()
 		{
-			return (::MiHoYo::SDK::GeetestView___c**)Il2CppClass::FromTypeDefinitionIndex(GeetestView___c_TypeDefinitionIndex)->GetStaticField(0x11368);
+			return (::MiHoYo::SDK::GeetestView___c**)Il2CppClass::FromTypeDefinitionIndex(GeetestView___c_TypeDefinitionIndex)->GetStaticField(0xD2D0);
+		}
+		static ::System::Action_1<::MiHoYo::SDK::GeetestView*>** StaticGet___9__14_0()
+		{
+			return (::System::Action_1<::MiHoYo::SDK::GeetestView*>**)Il2CppClass::FromTypeDefinitionIndex(GeetestView___c_TypeDefinitionIndex)->GetStaticField(0xD2D8);
 		}
 
 		static ::System::Void _cctor()

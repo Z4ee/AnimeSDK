@@ -5,24 +5,24 @@
 namespace RPG::GameCore { class ItemConfig; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_GROWTHTARGETNEEDMATERIALDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD389C30)
-#define RPG_CLIENT_GROWTHTARGETNEEDMATERIALDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD389C70)
-#define RPG_CLIENT_GROWTHTARGETNEEDMATERIALDATA___C___ENSURECOMPOSEMATERIALMAP_B__8_0_OFFSET UNITYSDK_OFFSET(0xD389C80)
+#define RPG_CLIENT_GROWTHTARGETNEEDMATERIALDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD2E3570)
+#define RPG_CLIENT_GROWTHTARGETNEEDMATERIALDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD2E35B0)
+#define RPG_CLIENT_GROWTHTARGETNEEDMATERIALDATA___C___ENSURECOMPOSEMATERIALMAP_B__8_0_OFFSET UNITYSDK_OFFSET(0xD2E35C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GrowthTargetNeedMaterialData___c_TypeDefinitionIndex = 65667;
+	inline static constexpr unsigned int GrowthTargetNeedMaterialData___c_TypeDefinitionIndex = 65607;
 
 	class GrowthTargetNeedMaterialData___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::GameCore::ItemConfig*, ::System::UInt32>** StaticGet___9__8_0()
-		{
-			return (::System::Func_2<::RPG::GameCore::ItemConfig*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(GrowthTargetNeedMaterialData___c_TypeDefinitionIndex)->GetStaticField(0x564D0);
-		}
 		static ::RPG::Client::GrowthTargetNeedMaterialData___c** StaticGet___9()
 		{
-			return (::RPG::Client::GrowthTargetNeedMaterialData___c**)Il2CppClass::FromTypeDefinitionIndex(GrowthTargetNeedMaterialData___c_TypeDefinitionIndex)->GetStaticField(0x564D8);
+			return (::RPG::Client::GrowthTargetNeedMaterialData___c**)Il2CppClass::FromTypeDefinitionIndex(GrowthTargetNeedMaterialData___c_TypeDefinitionIndex)->GetStaticField(0xE600);
+		}
+		static ::System::Func_2<::RPG::GameCore::ItemConfig*, ::System::UInt32>** StaticGet___9__8_0()
+		{
+			return (::System::Func_2<::RPG::GameCore::ItemConfig*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(GrowthTargetNeedMaterialData___c_TypeDefinitionIndex)->GetStaticField(0xE608);
 		}
 
 		static ::System::Void _cctor()

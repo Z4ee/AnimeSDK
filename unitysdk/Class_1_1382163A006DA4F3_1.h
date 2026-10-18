@@ -2,56 +2,42 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace System { class String; }
+#define CLASS_1_1382163A006DA4F3_1_GET_INCREASEPERCENT_OFFSET UNITYSDK_OFFSET(0x1C57E070)
+#define CLASS_1_1382163A006DA4F3_1_GET_PARTNERACTORID_OFFSET UNITYSDK_OFFSET(0x1C57E050)
+#define CLASS_1_1382163A006DA4F3_1_SET_INCREASEPERCENT_OFFSET UNITYSDK_OFFSET(0x1C57E080)
+#define CLASS_1_1382163A006DA4F3_1_SET_PARTNERACTORID_OFFSET UNITYSDK_OFFSET(0x1C57E060)
+#define CLASS_1_1382163A006DA4F3_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1C5728E0)
 
-#define CLASS_1_1382163A006DA4F3_1_GET_DATASOURCESKILLID_OFFSET UNITYSDK_OFFSET(0x1C3CC450)
-#define CLASS_1_1382163A006DA4F3_1_GET_OVERRIDECASTERID_OFFSET UNITYSDK_OFFSET(0x1C3CC470)
-#define CLASS_1_1382163A006DA4F3_1_METHOD_1_128774387667156B_1_OFFSET UNITYSDK_OFFSET(0x1C3CC410)
-#define CLASS_1_1382163A006DA4F3_1_METHOD_1_128774387667156B_OFFSET UNITYSDK_OFFSET(0x1C3CC3D0)
-#define CLASS_1_1382163A006DA4F3_1_SET_DATASOURCESKILLID_OFFSET UNITYSDK_OFFSET(0x1C3CC460)
-#define CLASS_1_1382163A006DA4F3_1_SET_OVERRIDECASTERID_OFFSET UNITYSDK_OFFSET(0x1C3CC480)
-#define CLASS_1_1382163A006DA4F3_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1C3CC490)
-
-inline static constexpr unsigned int Class_1_1382163A006DA4F3_1_TypeDefinitionIndex = 40375;
+inline static constexpr unsigned int Class_1_1382163A006DA4F3_1_TypeDefinitionIndex = 41874;
 
 class Class_1_1382163A006DA4F3_1 : public ::System::Object
 {
 public:
-	::System::Int32 _OverrideCasterID_k__BackingField; // 0x10
-	::System::UInt32 _DataSourceSkillID_k__BackingField; // 0x14
+	::System::UInt32 _PartnerActorID_k__BackingField; // 0x10
+	::System::Int32 _IncreasePercent_k__BackingField; // 0x14
 
 	::System::Void _ctor()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_1382163A006DA4F3_1__CTOR_OFFSET))(this);
 	}
 
-	static ::System::String* Method_1_128774387667156B()
+	::System::UInt32 get_PartnerActorID()
 	{
-		return ((::System::String*(*)())((::PBYTE)hIl2Cpp + CLASS_1_1382163A006DA4F3_1_METHOD_1_128774387667156B_OFFSET))();
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_1382163A006DA4F3_1_GET_PARTNERACTORID_OFFSET))(this);
 	}
 
-	::System::String* Method_1_128774387667156B_1()
+	::System::Void set_PartnerActorID(::System::UInt32 a1)
 	{
-		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_1382163A006DA4F3_1_METHOD_1_128774387667156B_1_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_1382163A006DA4F3_1_SET_PARTNERACTORID_OFFSET))(this, a1);
 	}
 
-	::System::UInt32 get_DataSourceSkillID()
+	::System::Int32 get_IncreasePercent()
 	{
-		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_1382163A006DA4F3_1_GET_DATASOURCESKILLID_OFFSET))(this);
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_1382163A006DA4F3_1_GET_INCREASEPERCENT_OFFSET))(this);
 	}
 
-	::System::Void set_DataSourceSkillID(::System::UInt32 a1)
+	::System::Void set_IncreasePercent(::System::Int32 a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_1382163A006DA4F3_1_SET_DATASOURCESKILLID_OFFSET))(this, a1);
-	}
-
-	::System::Int32 get_OverrideCasterID()
-	{
-		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_1382163A006DA4F3_1_GET_OVERRIDECASTERID_OFFSET))(this);
-	}
-
-	::System::Void set_OverrideCasterID(::System::Int32 a1)
-	{
-		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_1382163A006DA4F3_1_SET_OVERRIDECASTERID_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_1382163A006DA4F3_1_SET_INCREASEPERCENT_OFFSET))(this, a1);
 	}
 };

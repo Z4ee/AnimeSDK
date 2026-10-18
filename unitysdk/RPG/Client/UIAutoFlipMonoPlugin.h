@@ -7,12 +7,12 @@ namespace RPG::Client { class UIAutoFlipBehavior; }
 namespace RPG::Client { class UIPageTurnMonoPlugin; }
 namespace System { class String; }
 
-#define RPG_CLIENT_UIAUTOFLIPMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xE343290)
-#define RPG_CLIENT_UIAUTOFLIPMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xE3432E0)
+#define RPG_CLIENT_UIAUTOFLIPMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xE381D30)
+#define RPG_CLIENT_UIAUTOFLIPMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xE381D80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIAutoFlipMonoPlugin_TypeDefinitionIndex = 71023;
+	inline static constexpr unsigned int UIAutoFlipMonoPlugin_TypeDefinitionIndex = 71055;
 
 	class UIAutoFlipMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::UIAutoFlipBehavior*>
 	{

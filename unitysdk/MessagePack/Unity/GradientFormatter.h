@@ -7,13 +7,13 @@
 namespace MessagePack { class MessagePackSerializerOptions; }
 namespace UnityEngine { class Gradient; }
 
-#define MESSAGEPACK_UNITY_GRADIENTFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1B6662B0)
-#define MESSAGEPACK_UNITY_GRADIENTFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1B665EB0)
-#define MESSAGEPACK_UNITY_GRADIENTFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B666860)
+#define MESSAGEPACK_UNITY_GRADIENTFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1BB64FF0)
+#define MESSAGEPACK_UNITY_GRADIENTFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1BB64BF0)
+#define MESSAGEPACK_UNITY_GRADIENTFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB655A0)
 
 namespace MessagePack::Unity
 {
-	inline static constexpr unsigned int GradientFormatter_TypeDefinitionIndex = 10119;
+	inline static constexpr unsigned int GradientFormatter_TypeDefinitionIndex = 10132;
 
 	class GradientFormatter : public ::System::Object
 	{

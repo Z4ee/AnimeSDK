@@ -3,17 +3,17 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define RPG_CLIENT_SCENEQUADDEFORMDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0xE05A900)
+#define RPG_CLIENT_SCENEQUADDEFORMDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0xE094BE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SceneQuadDeformData_TypeDefinitionIndex = 70811;
+	inline static constexpr unsigned int SceneQuadDeformData_TypeDefinitionIndex = 70849;
 
 	struct alignas(4) SceneQuadDeformData
 	{
 		static ::RPG::Client::SceneQuadDeformData* StaticGet_Default()
 		{
-			return (::RPG::Client::SceneQuadDeformData*)Il2CppClass::FromTypeDefinitionIndex(SceneQuadDeformData_TypeDefinitionIndex)->GetStaticField(0xA890);
+			return (::RPG::Client::SceneQuadDeformData*)Il2CppClass::FromTypeDefinitionIndex(SceneQuadDeformData_TypeDefinitionIndex)->GetStaticField(0x15580);
 		}
 		::UnityEngine::Vector3 ModuleSize; // 0x10
 		::System::Single LeftTopOffsetZ; // 0x1C

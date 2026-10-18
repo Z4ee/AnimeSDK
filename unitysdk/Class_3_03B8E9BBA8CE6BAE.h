@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetFloorCustomBoolV2; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_03B8E9BBA8CE6BAE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x114D7FB0)
-#define CLASS_3_03B8E9BBA8CE6BAE__CTOR_OFFSET UNITYSDK_OFFSET(0x114D7F80)
+#define CLASS_3_03B8E9BBA8CE6BAE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x11940C00)
+#define CLASS_3_03B8E9BBA8CE6BAE__CTOR_OFFSET UNITYSDK_OFFSET(0x11940BD0)
 
-inline static constexpr unsigned int Class_3_03B8E9BBA8CE6BAE_TypeDefinitionIndex = 53488;
+inline static constexpr unsigned int Class_3_03B8E9BBA8CE6BAE_TypeDefinitionIndex = 53231;
 
 class Class_3_03B8E9BBA8CE6BAE : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetFloorCustomBoolV2*>
 {

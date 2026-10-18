@@ -2,21 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_7B4E9156998275BE;
+class Class_1_C6F4C4ABEDB8B5E9;
 namespace System { template <typename T> class Action_1; }
 
-#define CLASS_1_547FBBCFF4F06610_2_METHOD_1_0AB718BEE9EA06D7_OFFSET UNITYSDK_OFFSET(0xBC7FB50)
-#define CLASS_1_547FBBCFF4F06610_2__CCTOR_OFFSET UNITYSDK_OFFSET(0xBC7FC00)
-#define CLASS_1_547FBBCFF4F06610_2__CTOR_OFFSET UNITYSDK_OFFSET(0xBC7FBF0)
+#define CLASS_1_547FBBCFF4F06610_2_METHOD_1_0AB718BEE9EA06D7_OFFSET UNITYSDK_OFFSET(0xBB575C0)
+#define CLASS_1_547FBBCFF4F06610_2__CCTOR_OFFSET UNITYSDK_OFFSET(0xBB57670)
+#define CLASS_1_547FBBCFF4F06610_2__CTOR_OFFSET UNITYSDK_OFFSET(0xBB57660)
 
-inline static constexpr unsigned int Class_1_547FBBCFF4F06610_2_TypeDefinitionIndex = 50146;
+inline static constexpr unsigned int Class_1_547FBBCFF4F06610_2_TypeDefinitionIndex = 49774;
 
 class Class_1_547FBBCFF4F06610_2 : public ::System::Object
 {
 public:
-	static ::System::Action_1<::Class_1_7B4E9156998275BE*>** StaticGet_BEJJCPGEMIG()
+	static ::System::Action_1<::Class_1_C6F4C4ABEDB8B5E9*>** StaticGet_BEJJCPGEMIG()
 	{
-		return (::System::Action_1<::Class_1_7B4E9156998275BE*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_547FBBCFF4F06610_2_TypeDefinitionIndex)->GetStaticField(0x5E7F0);
+		return (::System::Action_1<::Class_1_C6F4C4ABEDB8B5E9*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_547FBBCFF4F06610_2_TypeDefinitionIndex)->GetStaticField(0x2E5A0);
 	}
 
 	::System::Void _ctor()
@@ -29,8 +29,8 @@ public:
 		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CLASS_1_547FBBCFF4F06610_2__CCTOR_OFFSET))();
 	}
 
-	::System::Void Method_1_0AB718BEE9EA06D7(::Class_1_7B4E9156998275BE* a1)
+	::System::Void Method_1_0AB718BEE9EA06D7(::Class_1_C6F4C4ABEDB8B5E9* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_1_7B4E9156998275BE*))((::PBYTE)hIl2Cpp + CLASS_1_547FBBCFF4F06610_2_METHOD_1_0AB718BEE9EA06D7_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::Class_1_C6F4C4ABEDB8B5E9*))((::PBYTE)hIl2Cpp + CLASS_1_547FBBCFF4F06610_2_METHOD_1_0AB718BEE9EA06D7_OFFSET))(this, a1);
 	}
 };

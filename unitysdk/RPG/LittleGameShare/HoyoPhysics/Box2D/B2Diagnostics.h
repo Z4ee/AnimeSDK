@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2DIAGNOSTICS_B2_ASSERT_OFFSET UNITYSDK_OFFSET(0x1C2D4870)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2DIAGNOSTICS_B2_ASSERT_OFFSET UNITYSDK_OFFSET(0x1C824A40)
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2Diagnostics_TypeDefinitionIndex = 35969;
+	inline static constexpr unsigned int B2Diagnostics_TypeDefinitionIndex = 36656;
 
 	class B2Diagnostics : public ::System::Object
 	{

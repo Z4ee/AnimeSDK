@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ELATIONUICONFIG_METHOD_2_0CAE43A34B87BB44_OFFSET UNITYSDK_OFFSET(0x1D055A60)
-#define RPG_GAMECORE_ELATIONUICONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D056E20)
+#define RPG_GAMECORE_ELATIONUICONFIG_METHOD_2_0CAE43A34B87BB44_OFFSET UNITYSDK_OFFSET(0x1D632580)
+#define RPG_GAMECORE_ELATIONUICONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6338E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ElationUIConfig_TypeDefinitionIndex = 16373;
+	inline static constexpr unsigned int ElationUIConfig_TypeDefinitionIndex = 16546;
 
 	class ElationUIConfig : public ::RPG::GameCore::JsonConfig
 	{

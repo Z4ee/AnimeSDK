@@ -1,19 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_DFCB42601400F441.h"
+#include "unitysdk/Enum_3_DFCB42601400F441_1.h"
 #include "unitysdk/RPG/Client/TrainPartyBuildItemDynamicBindValue.h"
 
-#define RPG_CLIENT_TRAINPARTYBUILDITEMDYNAMICBINDVALUE_AVATARBASEPATH_METHOD_2_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0xE277FB0)
-#define RPG_CLIENT_TRAINPARTYBUILDITEMDYNAMICBINDVALUE_AVATARBASEPATH__CTOR_OFFSET UNITYSDK_OFFSET(0xE278000)
+#define RPG_CLIENT_TRAINPARTYBUILDITEMDYNAMICBINDVALUE_AVATARBASEPATH_METHOD_2_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0xE2FE090)
+#define RPG_CLIENT_TRAINPARTYBUILDITEMDYNAMICBINDVALUE_AVATARBASEPATH__CTOR_OFFSET UNITYSDK_OFFSET(0xE2FE0E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TrainPartyBuildItemDynamicBindValue_AvatarBasePath_TypeDefinitionIndex = 68847;
+	inline static constexpr unsigned int TrainPartyBuildItemDynamicBindValue_AvatarBasePath_TypeDefinitionIndex = 68881;
 
 	class TrainPartyBuildItemDynamicBindValue_AvatarBasePath : public ::RPG::Client::TrainPartyBuildItemDynamicBindValue
 	{
 	public:
-		::Enum_3_DFCB42601400F441 Type; // 0x10
+		::Enum_3_DFCB42601400F441_1 Type; // 0x10
 
 		::System::Void _ctor()
 		{

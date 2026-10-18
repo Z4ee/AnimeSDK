@@ -6,37 +6,37 @@ class Class_1_FCC22A0BAD3D5A17;
 namespace RPG::Client::Challenge::Tierce { class ChallengeTierceSessionStageResultBase; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define CLASS_1_75219786140526ED___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x134DD470)
-#define CLASS_1_75219786140526ED___C__CTOR_OFFSET UNITYSDK_OFFSET(0x134DD4B0)
-#define CLASS_1_75219786140526ED___C___CREATEFORDEFAULT_B__1_0_OFFSET UNITYSDK_OFFSET(0x134DD4C0)
-#define CLASS_1_75219786140526ED___C___CREATEFORMEMORY_B__2_1_OFFSET UNITYSDK_OFFSET(0x134DD510)
-#define CLASS_1_75219786140526ED___C___CREATEFORSTORY_B__3_6_OFFSET UNITYSDK_OFFSET(0x134DD560)
-#define CLASS_1_75219786140526ED___C___CREATEFORSTORY_B__3_7_OFFSET UNITYSDK_OFFSET(0x134DD660)
+#define CLASS_1_75219786140526ED___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15560EA0)
+#define CLASS_1_75219786140526ED___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15560EE0)
+#define CLASS_1_75219786140526ED___C___CREATEFORDEFAULT_B__1_0_OFFSET UNITYSDK_OFFSET(0x15560EF0)
+#define CLASS_1_75219786140526ED___C___CREATEFORMEMORY_B__2_1_OFFSET UNITYSDK_OFFSET(0x15560F40)
+#define CLASS_1_75219786140526ED___C___CREATEFORSTORY_B__3_6_OFFSET UNITYSDK_OFFSET(0x15560F90)
+#define CLASS_1_75219786140526ED___C___CREATEFORSTORY_B__3_7_OFFSET UNITYSDK_OFFSET(0x15561090)
 
-inline static constexpr unsigned int Class_1_75219786140526ED___c_TypeDefinitionIndex = 80238;
+inline static constexpr unsigned int Class_1_75219786140526ED___c_TypeDefinitionIndex = 81566;
 
 class Class_1_75219786140526ED___c : public ::System::Object
 {
 public:
-	static ::System::Func_2<::Class_1_FCC22A0BAD3D5A17*, ::System::Int32>** StaticGet___9__3_6()
+	static ::System::Func_2<::Class_1_FCC22A0BAD3D5A17*, ::RPG::Client::Challenge::Tierce::ChallengeTierceSessionStageResultBase*>** StaticGet___9__1_0()
 	{
-		return (::System::Func_2<::Class_1_FCC22A0BAD3D5A17*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_75219786140526ED___c_TypeDefinitionIndex)->GetStaticField(0x196A0);
+		return (::System::Func_2<::Class_1_FCC22A0BAD3D5A17*, ::RPG::Client::Challenge::Tierce::ChallengeTierceSessionStageResultBase*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_75219786140526ED___c_TypeDefinitionIndex)->GetStaticField(0x5DFA0);
 	}
 	static ::Class_1_75219786140526ED___c** StaticGet___9()
 	{
-		return (::Class_1_75219786140526ED___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_75219786140526ED___c_TypeDefinitionIndex)->GetStaticField(0x196A8);
-	}
-	static ::System::Func_2<::Class_1_FCC22A0BAD3D5A17*, ::RPG::Client::Challenge::Tierce::ChallengeTierceSessionStageResultBase*>** StaticGet___9__2_1()
-	{
-		return (::System::Func_2<::Class_1_FCC22A0BAD3D5A17*, ::RPG::Client::Challenge::Tierce::ChallengeTierceSessionStageResultBase*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_75219786140526ED___c_TypeDefinitionIndex)->GetStaticField(0x196B0);
+		return (::Class_1_75219786140526ED___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_75219786140526ED___c_TypeDefinitionIndex)->GetStaticField(0x5DFA8);
 	}
 	static ::System::Func_2<::Class_1_FCC22A0BAD3D5A17*, ::RPG::Client::Challenge::Tierce::ChallengeTierceSessionStageResultBase*>** StaticGet___9__3_7()
 	{
-		return (::System::Func_2<::Class_1_FCC22A0BAD3D5A17*, ::RPG::Client::Challenge::Tierce::ChallengeTierceSessionStageResultBase*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_75219786140526ED___c_TypeDefinitionIndex)->GetStaticField(0x196B8);
+		return (::System::Func_2<::Class_1_FCC22A0BAD3D5A17*, ::RPG::Client::Challenge::Tierce::ChallengeTierceSessionStageResultBase*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_75219786140526ED___c_TypeDefinitionIndex)->GetStaticField(0x5DFB0);
 	}
-	static ::System::Func_2<::Class_1_FCC22A0BAD3D5A17*, ::RPG::Client::Challenge::Tierce::ChallengeTierceSessionStageResultBase*>** StaticGet___9__1_0()
+	static ::System::Func_2<::Class_1_FCC22A0BAD3D5A17*, ::RPG::Client::Challenge::Tierce::ChallengeTierceSessionStageResultBase*>** StaticGet___9__2_1()
 	{
-		return (::System::Func_2<::Class_1_FCC22A0BAD3D5A17*, ::RPG::Client::Challenge::Tierce::ChallengeTierceSessionStageResultBase*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_75219786140526ED___c_TypeDefinitionIndex)->GetStaticField(0x196C0);
+		return (::System::Func_2<::Class_1_FCC22A0BAD3D5A17*, ::RPG::Client::Challenge::Tierce::ChallengeTierceSessionStageResultBase*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_75219786140526ED___c_TypeDefinitionIndex)->GetStaticField(0x5DFB8);
+	}
+	static ::System::Func_2<::Class_1_FCC22A0BAD3D5A17*, ::System::Int32>** StaticGet___9__3_6()
+	{
+		return (::System::Func_2<::Class_1_FCC22A0BAD3D5A17*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_75219786140526ED___c_TypeDefinitionIndex)->GetStaticField(0x5DFC0);
 	}
 
 	static ::System::Void _cctor()

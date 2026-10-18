@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define CINEMACHINE_CINEMACHINETRACKEDDOLLY_AUTODOLLY__CTOR_OFFSET UNITYSDK_OFFSET(0x2DFBA50)
+#define CINEMACHINE_CINEMACHINETRACKEDDOLLY_AUTODOLLY__CTOR_OFFSET UNITYSDK_OFFSET(0x2E87910)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineTrackedDolly_AutoDolly_TypeDefinitionIndex = 38494;
+	inline static constexpr unsigned int CinemachineTrackedDolly_AutoDolly_TypeDefinitionIndex = 39791;
 
 	struct alignas(4) CinemachineTrackedDolly_AutoDolly
 	{

@@ -7,12 +7,12 @@ namespace RPG::GameCore { class CakeRaceOwlbertAnim; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_CAKERACEOWLBERTANIMCONFIG_METHOD_2_BD854603E796B065_OFFSET UNITYSDK_OFFSET(0x1CF780F0)
-#define RPG_GAMECORE_CAKERACEOWLBERTANIMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF781D0)
+#define RPG_GAMECORE_CAKERACEOWLBERTANIMCONFIG_METHOD_2_BD854603E796B065_OFFSET UNITYSDK_OFFSET(0x1D551B20)
+#define RPG_GAMECORE_CAKERACEOWLBERTANIMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D551C00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CakeRaceOwlbertAnimConfig_TypeDefinitionIndex = 18157;
+	inline static constexpr unsigned int CakeRaceOwlbertAnimConfig_TypeDefinitionIndex = 18372;
 
 	class CakeRaceOwlbertAnimConfig : public ::RPG::GameCore::JsonConfig
 	{

@@ -8,18 +8,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
+namespace RPG::GameCore { class MonsterEnergyBarBaseClickConfig; }
 namespace RPG::GameCore { class MonsterEnergyBarCustomColor; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class UITextNode; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SETMONSTERENERGYBARSTATE_METHOD_3_2924F40EA2AA79FA_OFFSET UNITYSDK_OFFSET(0x1D506F20)
-#define RPG_GAMECORE_SETMONSTERENERGYBARSTATE_METHOD_3_29ED9B97CE08E4F7_OFFSET UNITYSDK_OFFSET(0x1D507000)
-#define RPG_GAMECORE_SETMONSTERENERGYBARSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D506FA0)
+#define RPG_GAMECORE_SETMONSTERENERGYBARSTATE_METHOD_3_2924F40EA2AA79FA_OFFSET UNITYSDK_OFFSET(0x1DABB1C0)
+#define RPG_GAMECORE_SETMONSTERENERGYBARSTATE_METHOD_3_29ED9B97CE08E4F7_OFFSET UNITYSDK_OFFSET(0x1DABB2A0)
+#define RPG_GAMECORE_SETMONSTERENERGYBARSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1DABB240)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetMonsterEnergyBarState_TypeDefinitionIndex = 23380;
+	inline static constexpr unsigned int SetMonsterEnergyBarState_TypeDefinitionIndex = 23650;
 
 	class SetMonsterEnergyBarState : public ::RPG::GameCore::TaskConfig
 	{
@@ -44,6 +45,7 @@ namespace RPG::GameCore
 		::System::String* SpecialEffPath; // 0x90
 		::RPG::GameCore::MonsterEnergyBarNumColor NumColor; // 0x98
 		::RPG::GameCore::MonsterEnergyBarCustomColor* CustomColor; // 0xA0
+		::RPG::GameCore::MonsterEnergyBarBaseClickConfig* ClickConfig; // 0xA8
 
 		::System::Void _ctor()
 		{

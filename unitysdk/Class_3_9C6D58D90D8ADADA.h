@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AdvLogisticsRobotReachEnd; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_9C6D58D90D8ADADA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x162BF8F0)
-#define CLASS_3_9C6D58D90D8ADADA__CTOR_OFFSET UNITYSDK_OFFSET(0x162BF8C0)
+#define CLASS_3_9C6D58D90D8ADADA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB1A5030)
+#define CLASS_3_9C6D58D90D8ADADA__CTOR_OFFSET UNITYSDK_OFFSET(0xB1A5000)
 
-inline static constexpr unsigned int Class_3_9C6D58D90D8ADADA_TypeDefinitionIndex = 52669;
+inline static constexpr unsigned int Class_3_9C6D58D90D8ADADA_TypeDefinitionIndex = 52394;
 
 class Class_3_9C6D58D90D8ADADA : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AdvLogisticsRobotReachEnd*>
 {

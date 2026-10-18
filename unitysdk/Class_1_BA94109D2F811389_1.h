@@ -6,9 +6,9 @@ namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_BA94109D2F811389_1__CTOR_OFFSET UNITYSDK_OFFSET(0xB8E5B90)
+#define CLASS_1_BA94109D2F811389_1__CTOR_OFFSET UNITYSDK_OFFSET(0xB75A2D0)
 
-inline static constexpr unsigned int Class_1_BA94109D2F811389_1_TypeDefinitionIndex = 72055;
+inline static constexpr unsigned int Class_1_BA94109D2F811389_1_TypeDefinitionIndex = 72128;
 
 class Class_1_BA94109D2F811389_1 : public ::System::Object
 {

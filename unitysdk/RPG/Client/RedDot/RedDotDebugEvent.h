@@ -3,7 +3,7 @@
 
 namespace RPG::Client::RedDot
 {
-	inline static constexpr unsigned int RedDotDebugEvent_TypeDefinitionIndex = 78692;
+	inline static constexpr unsigned int RedDotDebugEvent_TypeDefinitionIndex = 79170;
 
 	enum class RedDotDebugEvent : ::System::Int32
 	{
@@ -11,5 +11,6 @@ namespace RPG::Client::RedDot
 		Unsubscribe = 1,
 		DirtyStateChanged = 2,
 		LogicStateRefreshed = 3,
+		ViewPathsReset = 4,
 	};
 }

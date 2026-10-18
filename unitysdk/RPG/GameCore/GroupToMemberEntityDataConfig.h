@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicString; }
 
-#define RPG_GAMECORE_GROUPTOMEMBERENTITYDATACONFIG_METHOD_2_CC54ACB79E06AB09_OFFSET UNITYSDK_OFFSET(0x1D171D10)
-#define RPG_GAMECORE_GROUPTOMEMBERENTITYDATACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D171E90)
+#define RPG_GAMECORE_GROUPTOMEMBERENTITYDATACONFIG_METHOD_2_CC54ACB79E06AB09_OFFSET UNITYSDK_OFFSET(0x1D74CD10)
+#define RPG_GAMECORE_GROUPTOMEMBERENTITYDATACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D74CE90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GroupToMemberEntityDataConfig_TypeDefinitionIndex = 20501;
+	inline static constexpr unsigned int GroupToMemberEntityDataConfig_TypeDefinitionIndex = 20740;
 
 	class GroupToMemberEntityDataConfig : public ::RPG::GameCore::JsonConfig
 	{

@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/GameCore/RtSkillConditionMask.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_333F5245BE633597_METHOD_1_99F64D2AFD4CAAD3_OFFSET UNITYSDK_OFFSET(0x15CEBF40)
+#define CLASS_1_333F5245BE633597_METHOD_1_99F64D2AFD4CAAD3_OFFSET UNITYSDK_OFFSET(0x162E4110)
 
-inline static constexpr unsigned int Class_1_333F5245BE633597_TypeDefinitionIndex = 54268;
+inline static constexpr unsigned int Class_1_333F5245BE633597_TypeDefinitionIndex = 54054;
 
 class Class_1_333F5245BE633597 : public ::System::Object
 {

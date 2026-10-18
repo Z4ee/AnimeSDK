@@ -8,18 +8,18 @@ template <typename T> class Class_1_D837DED66799FBE3_DelegateParseJson_1;
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StageConfig___O_TypeDefinitionIndex = 18914;
+	inline static constexpr unsigned int StageConfig___O_TypeDefinitionIndex = 19141;
 
 	class StageConfig___O : public ::System::Object
 	{
 	public:
 		static ::Class_1_D837DED66799FBE3_DelegateParseJson_1<::System::String*>** StaticGet__0___FromJson()
 		{
-			return (::Class_1_D837DED66799FBE3_DelegateParseJson_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(StageConfig___O_TypeDefinitionIndex)->GetStaticField(0x1ED30);
+			return (::Class_1_D837DED66799FBE3_DelegateParseJson_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(StageConfig___O_TypeDefinitionIndex)->GetStaticField(0x1BC40);
 		}
 		static ::Class_1_D837DED66799FBE3_DelegateParseJson_1<::RPG::GameCore::GraphicQuality>** StaticGet__1___FromJson()
 		{
-			return (::Class_1_D837DED66799FBE3_DelegateParseJson_1<::RPG::GameCore::GraphicQuality>**)Il2CppClass::FromTypeDefinitionIndex(StageConfig___O_TypeDefinitionIndex)->GetStaticField(0x1ED38);
+			return (::Class_1_D837DED66799FBE3_DelegateParseJson_1<::RPG::GameCore::GraphicQuality>**)Il2CppClass::FromTypeDefinitionIndex(StageConfig___O_TypeDefinitionIndex)->GetStaticField(0x1BC48);
 		}
 	};
 }

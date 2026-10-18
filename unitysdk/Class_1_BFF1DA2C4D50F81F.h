@@ -10,21 +10,21 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_BFF1DA2C4D50F81F_METHOD_1_256303B15A3BB162_OFFSET UNITYSDK_OFFSET(0xC4173D0)
-#define CLASS_1_BFF1DA2C4D50F81F_METHOD_1_739DB9F245C7FAD0_OFFSET UNITYSDK_OFFSET(0xC416D30)
-#define CLASS_1_BFF1DA2C4D50F81F_METHOD_1_8389A972740050D0_OFFSET UNITYSDK_OFFSET(0xC417060)
-#define CLASS_1_BFF1DA2C4D50F81F_METHOD_1_898CAF31EC6C83C1_OFFSET UNITYSDK_OFFSET(0xC416740)
-#define CLASS_1_BFF1DA2C4D50F81F_METHOD_1_E6C7D6104577BCA9_OFFSET UNITYSDK_OFFSET(0xC416700)
-#define CLASS_1_BFF1DA2C4D50F81F__CTOR_OFFSET UNITYSDK_OFFSET(0xC417860)
+#define CLASS_1_BFF1DA2C4D50F81F_METHOD_1_256303B15A3BB162_OFFSET UNITYSDK_OFFSET(0xC318E40)
+#define CLASS_1_BFF1DA2C4D50F81F_METHOD_1_739DB9F245C7FAD0_OFFSET UNITYSDK_OFFSET(0xC3187A0)
+#define CLASS_1_BFF1DA2C4D50F81F_METHOD_1_8389A972740050D0_OFFSET UNITYSDK_OFFSET(0xC318AD0)
+#define CLASS_1_BFF1DA2C4D50F81F_METHOD_1_898CAF31EC6C83C1_OFFSET UNITYSDK_OFFSET(0xC3181B0)
+#define CLASS_1_BFF1DA2C4D50F81F_METHOD_1_E6C7D6104577BCA9_OFFSET UNITYSDK_OFFSET(0xC318170)
+#define CLASS_1_BFF1DA2C4D50F81F__CTOR_OFFSET UNITYSDK_OFFSET(0xC3192D0)
 
-inline static constexpr unsigned int Class_1_BFF1DA2C4D50F81F_TypeDefinitionIndex = 61499;
+inline static constexpr unsigned int Class_1_BFF1DA2C4D50F81F_TypeDefinitionIndex = 61405;
 
 class Class_1_BFF1DA2C4D50F81F : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::System::UInt32>* JJACEJGDPAK; // 0x10
-	::System::Collections::Generic::List_1<::RPG::Client::ActivityBenefitV2Round*>* JBMFDPFFBGC; // 0x18
-	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::ScheduleTask*>* BMMCEEADIAJ; // 0x20
+	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::ScheduleTask*>* BMMCEEADIAJ; // 0x10
+	::System::Collections::Generic::List_1<::System::UInt32>* JJACEJGDPAK; // 0x18
+	::System::Collections::Generic::List_1<::RPG::Client::ActivityBenefitV2Round*>* JBMFDPFFBGC; // 0x20
 	::System::UInt32 NFLNCFNGOAD; // 0x28
 
 	::System::Void _ctor()

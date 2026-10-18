@@ -5,7 +5,7 @@
 
 namespace Google::Protobuf::Collections
 {
-	inline static constexpr unsigned int MapField_2___c__DisplayClass7_0_TypeDefinitionIndex = 5578;
+	inline static constexpr unsigned int MapField_2___c__DisplayClass7_0_TypeDefinitionIndex = 5585;
 
 	template <typename TKey, typename TValue>
 	class MapField_2___c__DisplayClass7_0 : public ::System::Object

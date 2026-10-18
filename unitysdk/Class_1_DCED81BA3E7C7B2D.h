@@ -5,17 +5,17 @@
 namespace RPG::GameCore { class SpecialNPCDataRow; }
 namespace System { class String; }
 
-#define CLASS_1_DCED81BA3E7C7B2D__CTOR_OFFSET UNITYSDK_OFFSET(0xB6DD2C0)
+#define CLASS_1_DCED81BA3E7C7B2D__CTOR_OFFSET UNITYSDK_OFFSET(0xB581750)
 
-inline static constexpr unsigned int Class_1_DCED81BA3E7C7B2D_TypeDefinitionIndex = 68100;
+inline static constexpr unsigned int Class_1_DCED81BA3E7C7B2D_TypeDefinitionIndex = 68105;
 
 class Class_1_DCED81BA3E7C7B2D : public ::System::Object
 {
 public:
 	::System::String* IFIKOCPHOAP; // 0x10
 	::RPG::GameCore::SpecialNPCDataRow* NKFANPJFKFN; // 0x18
-	::System::UInt32 GAKJEOCGEIN; // 0x20
-	::System::UInt32 FDOELDMEBPE; // 0x24
+	::System::UInt32 FDOELDMEBPE; // 0x20
+	::System::UInt32 GAKJEOCGEIN; // 0x24
 
 	::System::Void _ctor(::System::UInt32 a1)
 	{

@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ExpeditionBattleFlowStateConfig; }
 
-#define RPG_GAMECORE_EXPEDITIONBATTLEFLOWSTATECONFIGCONTAINER_METHOD_2_BFB83A0BB75120D2_OFFSET UNITYSDK_OFFSET(0x1D080E40)
-#define RPG_GAMECORE_EXPEDITIONBATTLEFLOWSTATECONFIGCONTAINER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D080F00)
+#define RPG_GAMECORE_EXPEDITIONBATTLEFLOWSTATECONFIGCONTAINER_METHOD_2_BFB83A0BB75120D2_OFFSET UNITYSDK_OFFSET(0x1D68EE30)
+#define RPG_GAMECORE_EXPEDITIONBATTLEFLOWSTATECONFIGCONTAINER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D68EEF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ExpeditionBattleFlowStateConfigContainer_TypeDefinitionIndex = 16051;
+	inline static constexpr unsigned int ExpeditionBattleFlowStateConfigContainer_TypeDefinitionIndex = 16224;
 
 	class ExpeditionBattleFlowStateConfigContainer : public ::RPG::GameCore::JsonConfig
 	{

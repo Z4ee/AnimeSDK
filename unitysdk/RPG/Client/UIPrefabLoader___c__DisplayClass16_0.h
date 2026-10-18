@@ -6,18 +6,18 @@ namespace RPG::Client { class UIPrefabLoader; }
 namespace RPG::Client { class UIPrefabLoader_LoadResult; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_UIPREFABLOADER___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0xE3A8D20)
-#define RPG_CLIENT_UIPREFABLOADER___C__DISPLAYCLASS16_0___ASYNCLOADPREFAB_B__0_OFFSET UNITYSDK_OFFSET(0xE3A9320)
+#define RPG_CLIENT_UIPREFABLOADER___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0xE3EA180)
+#define RPG_CLIENT_UIPREFABLOADER___C__DISPLAYCLASS16_0___ASYNCLOADPREFAB_B__0_OFFSET UNITYSDK_OFFSET(0xE3EA610)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIPrefabLoader___c__DisplayClass16_0_TypeDefinitionIndex = 73003;
+	inline static constexpr unsigned int UIPrefabLoader___c__DisplayClass16_0_TypeDefinitionIndex = 73098;
 
 	class UIPrefabLoader___c__DisplayClass16_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::UIPrefabLoader* __4__this; // 0x10
-		::System::Action_1<::RPG::Client::UIPrefabLoader_LoadResult*>* callback; // 0x18
+		::System::Action_1<::RPG::Client::UIPrefabLoader_LoadResult*>* callback; // 0x10
+		::RPG::Client::UIPrefabLoader* __4__this; // 0x18
 		::System::Boolean autoRelease; // 0x20
 		::System::Boolean autoReturnCache; // 0x21
 

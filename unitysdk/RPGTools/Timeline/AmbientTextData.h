@@ -8,12 +8,12 @@ namespace RPG::Client { class FontAssetConfig; }
 namespace RPGTools::Timeline { class AmbientTextItemConfig; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPGTOOLS_TIMELINE_AMBIENTTEXTDATA_GETENABLEDTEXTIDS_OFFSET UNITYSDK_OFFSET(0xE80DCF0)
-#define RPGTOOLS_TIMELINE_AMBIENTTEXTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xE80DE30)
+#define RPGTOOLS_TIMELINE_AMBIENTTEXTDATA_GETENABLEDTEXTIDS_OFFSET UNITYSDK_OFFSET(0xE8AB600)
+#define RPGTOOLS_TIMELINE_AMBIENTTEXTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xE8AB740)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int AmbientTextData_TypeDefinitionIndex = 48304;
+	inline static constexpr unsigned int AmbientTextData_TypeDefinitionIndex = 47845;
 
 	class AmbientTextData : public ::System::Object
 	{

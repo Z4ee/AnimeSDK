@@ -3,7 +3,7 @@
 
 namespace RPG::Client::B51Racing
 {
-	inline static constexpr unsigned int B51RacingGameplaySpeedPanelControl_SpeedBarGear_TypeDefinitionIndex = 80571;
+	inline static constexpr unsigned int B51RacingGameplaySpeedPanelControl_SpeedBarGear_TypeDefinitionIndex = 81899;
 
 	enum class B51RacingGameplaySpeedPanelControl_SpeedBarGear : ::System::Int32
 	{

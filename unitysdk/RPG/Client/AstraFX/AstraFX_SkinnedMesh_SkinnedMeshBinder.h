@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace UnityEngine { class SkinnedMeshRenderer; }
 
-#define RPG_CLIENT_ASTRAFX_ASTRAFX_SKINNEDMESH_SKINNEDMESHBINDER_GET_VALID_OFFSET UNITYSDK_OFFSET(0x1488D0)
+#define RPG_CLIENT_ASTRAFX_ASTRAFX_SKINNEDMESH_SKINNEDMESHBINDER_GET_VALID_OFFSET UNITYSDK_OFFSET(0xE1490)
 
 namespace RPG::Client::AstraFX
 {
-	inline static constexpr unsigned int AstraFX_SkinnedMesh_SkinnedMeshBinder_TypeDefinitionIndex = 73585;
+	inline static constexpr unsigned int AstraFX_SkinnedMesh_SkinnedMeshBinder_TypeDefinitionIndex = 73692;
 
 	struct alignas(8) AstraFX_SkinnedMesh_SkinnedMeshBinder
 	{

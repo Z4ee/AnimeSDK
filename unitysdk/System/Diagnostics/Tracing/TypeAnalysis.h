@@ -12,7 +12,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Diagnostics::Tracing { class EventDataAttribute; }
 namespace System::Diagnostics::Tracing { class PropertyAnalysis; }
 
-#define SYSTEM_DIAGNOSTICS_TRACING_TYPEANALYSIS__CTOR_OFFSET UNITYSDK_OFFSET(0x1BCF6390)
+#define SYSTEM_DIAGNOSTICS_TRACING_TYPEANALYSIS__CTOR_OFFSET UNITYSDK_OFFSET(0x1C2023E0)
 
 namespace System::Diagnostics::Tracing
 {
@@ -23,10 +23,10 @@ namespace System::Diagnostics::Tracing
 	public:
 		::System::String* name; // 0x10
 		::Il2CppArray<::System::Diagnostics::Tracing::PropertyAnalysis*>* properties; // 0x18
-		::System::Diagnostics::Tracing::EventKeywords keywords; // 0x20
-		::System::Diagnostics::Tracing::EventOpcode opcode; // 0x28
-		::System::Diagnostics::Tracing::EventTags tags; // 0x2C
-		::System::Diagnostics::Tracing::EventLevel level; // 0x30
+		::System::Diagnostics::Tracing::EventTags tags; // 0x20
+		::System::Diagnostics::Tracing::EventOpcode opcode; // 0x24
+		::System::Diagnostics::Tracing::EventLevel level; // 0x28
+		::System::Diagnostics::Tracing::EventKeywords keywords; // 0x30
 
 		::System::Void _ctor(::System::Type* a1, ::System::Diagnostics::Tracing::EventDataAttribute* a2, ::System::Collections::Generic::List_1<::System::Type*>* a3)
 		{

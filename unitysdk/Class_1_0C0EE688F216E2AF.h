@@ -4,9 +4,9 @@
 
 namespace RPG::GameCore { class FourRotateVoxelEntityStateConfig; }
 
-#define CLASS_1_0C0EE688F216E2AF__CTOR_OFFSET UNITYSDK_OFFSET(0x1C578B00)
+#define CLASS_1_0C0EE688F216E2AF__CTOR_OFFSET UNITYSDK_OFFSET(0x1CAECF10)
 
-inline static constexpr unsigned int Class_1_0C0EE688F216E2AF_TypeDefinitionIndex = 41590;
+inline static constexpr unsigned int Class_1_0C0EE688F216E2AF_TypeDefinitionIndex = 43230;
 
 class Class_1_0C0EE688F216E2AF : public ::System::Object
 {

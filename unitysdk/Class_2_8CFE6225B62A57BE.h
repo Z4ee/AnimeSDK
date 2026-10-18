@@ -9,11 +9,11 @@ namespace RPG::GameCore { class DiceCombatDiceSelectorConfig_Pair; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_8CFE6225B62A57BE_METHOD_2_40B5733C34838AEB_OFFSET UNITYSDK_OFFSET(0x1C0D3360)
-#define CLASS_2_8CFE6225B62A57BE_METHOD_2_7B94E26B994F1459_OFFSET UNITYSDK_OFFSET(0x1C0D36F0)
-#define CLASS_2_8CFE6225B62A57BE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C0D3350)
+#define CLASS_2_8CFE6225B62A57BE_METHOD_2_40B5733C34838AEB_OFFSET UNITYSDK_OFFSET(0x1C624070)
+#define CLASS_2_8CFE6225B62A57BE_METHOD_2_7B94E26B994F1459_OFFSET UNITYSDK_OFFSET(0x1C624400)
+#define CLASS_2_8CFE6225B62A57BE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C624060)
 
-inline static constexpr unsigned int Class_2_8CFE6225B62A57BE_TypeDefinitionIndex = 35687;
+inline static constexpr unsigned int Class_2_8CFE6225B62A57BE_TypeDefinitionIndex = 36374;
 
 class Class_2_8CFE6225B62A57BE : public ::Class_1_CD4EC20BEBA8A2DA
 {

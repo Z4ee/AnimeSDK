@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ST_ByCompareVariableBool; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_BA1891FE137592EC_EVALUATE_OFFSET UNITYSDK_OFFSET(0x153F9490)
-#define CLASS_3_BA1891FE137592EC__CTOR_OFFSET UNITYSDK_OFFSET(0x153F9460)
+#define CLASS_3_BA1891FE137592EC_EVALUATE_OFFSET UNITYSDK_OFFSET(0x156AFC80)
+#define CLASS_3_BA1891FE137592EC__CTOR_OFFSET UNITYSDK_OFFSET(0x156AFC50)
 
-inline static constexpr unsigned int Class_3_BA1891FE137592EC_TypeDefinitionIndex = 52468;
+inline static constexpr unsigned int Class_3_BA1891FE137592EC_TypeDefinitionIndex = 52182;
 
 class Class_3_BA1891FE137592EC : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ST_ByCompareVariableBool*>
 {

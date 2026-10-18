@@ -6,12 +6,12 @@
 namespace RPG::Client { class GridFightTraitBonusConfig; }
 namespace RPG::Client { class GridFightTraitSpaceEffect; }
 
-#define RPG_CLIENT_GRIDFIGHTTRAITSPACEEFFECT___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD36DA40)
-#define RPG_CLIENT_GRIDFIGHTTRAITSPACEEFFECT___C__DISPLAYCLASS19_0__GETCURRENTBONUSCONFIG_B__0_OFFSET UNITYSDK_OFFSET(0xD36E9F0)
+#define RPG_CLIENT_GRIDFIGHTTRAITSPACEEFFECT___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD2C68A0)
+#define RPG_CLIENT_GRIDFIGHTTRAITSPACEEFFECT___C__DISPLAYCLASS19_0__GETCURRENTBONUSCONFIG_B__0_OFFSET UNITYSDK_OFFSET(0xD2C7850)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightTraitSpaceEffect___c__DisplayClass19_0_TypeDefinitionIndex = 64481;
+	inline static constexpr unsigned int GridFightTraitSpaceEffect___c__DisplayClass19_0_TypeDefinitionIndex = 64421;
 
 	class GridFightTraitSpaceEffect___c__DisplayClass19_0 : public ::System::Object
 	{

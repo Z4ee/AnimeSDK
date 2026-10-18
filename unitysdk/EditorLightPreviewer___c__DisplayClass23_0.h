@@ -5,10 +5,10 @@
 
 namespace ScenenLightManager { class LightSetQualityExportData; }
 
-#define EDITORLIGHTPREVIEWER___C__DISPLAYCLASS23_0__CHANGEQUALITY_B__0_OFFSET UNITYSDK_OFFSET(0x152F1090)
-#define EDITORLIGHTPREVIEWER___C__DISPLAYCLASS23_0__CTOR_OFFSET UNITYSDK_OFFSET(0x152EF2D0)
+#define EDITORLIGHTPREVIEWER___C__DISPLAYCLASS23_0__CHANGEQUALITY_B__0_OFFSET UNITYSDK_OFFSET(0x155DFAA0)
+#define EDITORLIGHTPREVIEWER___C__DISPLAYCLASS23_0__CTOR_OFFSET UNITYSDK_OFFSET(0x155DDE70)
 
-inline static constexpr unsigned int EditorLightPreviewer___c__DisplayClass23_0_TypeDefinitionIndex = 47805;
+inline static constexpr unsigned int EditorLightPreviewer___c__DisplayClass23_0_TypeDefinitionIndex = 47345;
 
 class EditorLightPreviewer___c__DisplayClass23_0 : public ::System::Object
 {

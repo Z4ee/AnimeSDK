@@ -5,16 +5,16 @@
 class Class_1_D8BECDCE48063EC7;
 namespace RPG::GameCore { class DiceCombatTaskConfig_WriteCustomValue_ModifierData; }
 
-#define CLASS_2_6DA49A6BFBCD9355_METHOD_2_BA1BB49741CFDFE1_OFFSET UNITYSDK_OFFSET(0x1C280A20)
-#define CLASS_2_6DA49A6BFBCD9355__CTOR_OFFSET UNITYSDK_OFFSET(0x1C280A10)
+#define CLASS_2_6DA49A6BFBCD9355_METHOD_2_BA1BB49741CFDFE1_OFFSET UNITYSDK_OFFSET(0x1C7D0AB0)
+#define CLASS_2_6DA49A6BFBCD9355__CTOR_OFFSET UNITYSDK_OFFSET(0x1C7D0AA0)
 
-inline static constexpr unsigned int Class_2_6DA49A6BFBCD9355_TypeDefinitionIndex = 35680;
+inline static constexpr unsigned int Class_2_6DA49A6BFBCD9355_TypeDefinitionIndex = 36367;
 
 class Class_2_6DA49A6BFBCD9355 : public ::Class_1_B55037134F9E6688
 {
 public:
-	::RPG::GameCore::DiceCombatTaskConfig_WriteCustomValue_ModifierData* IGHAHBNLIJA; // 0x18
-	::Class_1_D8BECDCE48063EC7* EEFMDEHLLFI; // 0x20
+	::Class_1_D8BECDCE48063EC7* EEFMDEHLLFI; // 0x18
+	::RPG::GameCore::DiceCombatTaskConfig_WriteCustomValue_ModifierData* IGHAHBNLIJA; // 0x20
 
 	::System::Void _ctor(::RPG::GameCore::DiceCombatTaskConfig_WriteCustomValue_ModifierData* a1, ::Class_1_D8BECDCE48063EC7* a2)
 	{

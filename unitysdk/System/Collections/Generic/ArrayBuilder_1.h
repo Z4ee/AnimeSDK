@@ -4,7 +4,7 @@
 
 namespace System::Collections::Generic
 {
-	inline static constexpr unsigned int ArrayBuilder_1_TypeDefinitionIndex = 3692;
+	inline static constexpr unsigned int ArrayBuilder_1_TypeDefinitionIndex = 3693;
 
 	template <typename T>
 	struct ArrayBuilder_1

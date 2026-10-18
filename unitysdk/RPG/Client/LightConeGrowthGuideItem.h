@@ -6,11 +6,11 @@ namespace RPG::Client { class EquipmentItemData; }
 namespace System { class String; }
 namespace System { template <typename T> class Func_1; }
 
-#define RPG_CLIENT_LIGHTCONEGROWTHGUIDEITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xD43EF20)
+#define RPG_CLIENT_LIGHTCONEGROWTHGUIDEITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xD395930)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LightConeGrowthGuideItem_TypeDefinitionIndex = 65613;
+	inline static constexpr unsigned int LightConeGrowthGuideItem_TypeDefinitionIndex = 65553;
 
 	class LightConeGrowthGuideItem : public ::RPG::Client::BaseGrowthGuideItem
 	{

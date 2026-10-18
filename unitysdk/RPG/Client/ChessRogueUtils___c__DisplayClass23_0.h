@@ -4,12 +4,12 @@
 
 namespace System { class Action; }
 
-#define RPG_CLIENT_CHESSROGUEUTILS___C__DISPLAYCLASS23_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCBBAC20)
-#define RPG_CLIENT_CHESSROGUEUTILS___C__DISPLAYCLASS23_0__TELEPORTTOENTRANCE_B__0_OFFSET UNITYSDK_OFFSET(0xCBBB3B0)
+#define RPG_CLIENT_CHESSROGUEUTILS___C__DISPLAYCLASS23_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCB0A0E0)
+#define RPG_CLIENT_CHESSROGUEUTILS___C__DISPLAYCLASS23_0__TELEPORTTOENTRANCE_B__0_OFFSET UNITYSDK_OFFSET(0xCB0A870)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChessRogueUtils___c__DisplayClass23_0_TypeDefinitionIndex = 66935;
+	inline static constexpr unsigned int ChessRogueUtils___c__DisplayClass23_0_TypeDefinitionIndex = 66937;
 
 	class ChessRogueUtils___c__DisplayClass23_0 : public ::System::Object
 	{

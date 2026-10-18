@@ -2,30 +2,30 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_2594562E2DDF2BC6;
+class Class_1_2568E3CEAD1BEC7A;
 class Class_2_70116CD78AE84CFB;
 class Class_2_FBC1E64DC5B2C441;
 class Class_3_FA020C2C23A72B3F;
 namespace RPG::Client::CakeRace { class CakeRaceGameFlow; }
 namespace RPG::Client::CakeRace { class CakeRaceGameplayContext; }
 
-#define RPG_CLIENT_CAKERACESHORTCUTS_GET_COREINSTANCE_OFFSET UNITYSDK_OFFSET(0xC9DA240)
-#define RPG_CLIENT_CAKERACESHORTCUTS_GET_GAMEFLOW_OFFSET UNITYSDK_OFFSET(0xC9DA0F0)
-#define RPG_CLIENT_CAKERACESHORTCUTS_GET_GAMEINSTANCE_OFFSET UNITYSDK_OFFSET(0xC9DA380)
-#define RPG_CLIENT_CAKERACESHORTCUTS_GET_GAMEPLAYCONTEXT_OFFSET UNITYSDK_OFFSET(0xC9DA300)
-#define RPG_CLIENT_CAKERACESHORTCUTS_GET_GAMEPLAYMANAGER_OFFSET UNITYSDK_OFFSET(0xC9DA1F0)
-#define RPG_CLIENT_CAKERACESHORTCUTS_GET_PLAYERUID_OFFSET UNITYSDK_OFFSET(0xC9DA050)
+#define RPG_CLIENT_CAKERACESHORTCUTS_GET_COREINSTANCE_OFFSET UNITYSDK_OFFSET(0xC928270)
+#define RPG_CLIENT_CAKERACESHORTCUTS_GET_GAMEFLOW_OFFSET UNITYSDK_OFFSET(0xC928120)
+#define RPG_CLIENT_CAKERACESHORTCUTS_GET_GAMEINSTANCE_OFFSET UNITYSDK_OFFSET(0xC928330)
+#define RPG_CLIENT_CAKERACESHORTCUTS_GET_GAMEPLAYCONTEXT_OFFSET UNITYSDK_OFFSET(0xC917DE0)
+#define RPG_CLIENT_CAKERACESHORTCUTS_GET_GAMEPLAYMANAGER_OFFSET UNITYSDK_OFFSET(0xC928220)
+#define RPG_CLIENT_CAKERACESHORTCUTS_GET_PLAYERUID_OFFSET UNITYSDK_OFFSET(0xC926F00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CakeRaceShortcuts_TypeDefinitionIndex = 63079;
+	inline static constexpr unsigned int CakeRaceShortcuts_TypeDefinitionIndex = 63012;
 
 	class CakeRaceShortcuts : public ::System::Object
 	{
 	public:
 		static ::Class_3_FA020C2C23A72B3F** StaticGet_Services()
 		{
-			return (::Class_3_FA020C2C23A72B3F**)Il2CppClass::FromTypeDefinitionIndex(CakeRaceShortcuts_TypeDefinitionIndex)->GetStaticField(0x15D80);
+			return (::Class_3_FA020C2C23A72B3F**)Il2CppClass::FromTypeDefinitionIndex(CakeRaceShortcuts_TypeDefinitionIndex)->GetStaticField(0xAEC0);
 		}
 
 		static ::System::UInt32 get_PlayerUID()
@@ -38,9 +38,9 @@ namespace RPG::Client
 			return ((::RPG::Client::CakeRace::CakeRaceGameFlow*(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACESHORTCUTS_GET_GAMEFLOW_OFFSET))();
 		}
 
-		static ::Class_1_2594562E2DDF2BC6* get_GameplayManager()
+		static ::Class_1_2568E3CEAD1BEC7A* get_GameplayManager()
 		{
-			return ((::Class_1_2594562E2DDF2BC6*(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACESHORTCUTS_GET_GAMEPLAYMANAGER_OFFSET))();
+			return ((::Class_1_2568E3CEAD1BEC7A*(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACESHORTCUTS_GET_GAMEPLAYMANAGER_OFFSET))();
 		}
 
 		static ::Class_2_FBC1E64DC5B2C441* get_CoreInstance()

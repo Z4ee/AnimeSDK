@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class DynamicString; }
 
-#define RPG_GAMECORE_PHOTOGRAPHUPDATETWOPOINTFOURPARAM_METHOD_2_F9638EDB50AA69E8_OFFSET UNITYSDK_OFFSET(0x1D32EDD0)
-#define RPG_GAMECORE_PHOTOGRAPHUPDATETWOPOINTFOURPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1D32F060)
+#define RPG_GAMECORE_PHOTOGRAPHUPDATETWOPOINTFOURPARAM_METHOD_2_F9638EDB50AA69E8_OFFSET UNITYSDK_OFFSET(0x1D913F60)
+#define RPG_GAMECORE_PHOTOGRAPHUPDATETWOPOINTFOURPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1D9141F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PhotoGraphUpdateTwoPointFourParam_TypeDefinitionIndex = 21409;
+	inline static constexpr unsigned int PhotoGraphUpdateTwoPointFourParam_TypeDefinitionIndex = 21655;
 
 	class PhotoGraphUpdateTwoPointFourParam : public ::RPG::GameCore::JsonConfig
 	{

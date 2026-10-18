@@ -8,13 +8,14 @@ namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T> class IComparer_1; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
+namespace System::Collections::Immutable { template <typename T> class IImmutableSet_1; }
 namespace System::Collections::Immutable { template <typename T> class ImmutableSortedSet_1; }
 namespace System::Collections::Immutable { template <typename T> class ImmutableSortedSet_1_Builder; }
 namespace System::Collections::Immutable { template <typename T> class ImmutableSortedSet_1_Node; }
 
 namespace System::Collections::Immutable
 {
-	inline static constexpr unsigned int ImmutableSortedSet_1_TypeDefinitionIndex = 6644;
+	inline static constexpr unsigned int ImmutableSortedSet_1_TypeDefinitionIndex = 6653;
 
 	template <typename T>
 	class ImmutableSortedSet_1 : public ::System::Object

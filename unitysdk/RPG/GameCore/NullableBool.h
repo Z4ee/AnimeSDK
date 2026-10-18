@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int NullableBool_TypeDefinitionIndex = 10391;
+	inline static constexpr unsigned int NullableBool_TypeDefinitionIndex = 10406;
 
 	enum class NullableBool : ::System::Int32
 	{

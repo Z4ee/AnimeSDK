@@ -9,7 +9,7 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CharacterCustomBlushBehavior_Struct_2_6406F0003F78CC40_TypeDefinitionIndex = 70224;
+	inline static constexpr unsigned int CharacterCustomBlushBehavior_Struct_2_6406F0003F78CC40_TypeDefinitionIndex = 70260;
 
 	struct alignas(8) CharacterCustomBlushBehavior_Struct_2_6406F0003F78CC40
 	{

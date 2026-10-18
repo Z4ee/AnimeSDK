@@ -10,7 +10,7 @@ namespace System { template <typename T1, typename T2, typename T3> class Func_3
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int WhereIntAwait_1_TypeDefinitionIndex = 44594;
+	inline static constexpr unsigned int WhereIntAwait_1_TypeDefinitionIndex = 45733;
 
 	template <typename TSource>
 	class WhereIntAwait_1 : public ::System::Object

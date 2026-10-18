@@ -6,29 +6,29 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHENLINGDECKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CFAFF00)
-#define RPG_GAMECORE_CHENLINGDECKROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFB0440)
+#define RPG_GAMECORE_CHENLINGDECKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D58B300)
+#define RPG_GAMECORE_CHENLINGDECKROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D58B840)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingDeckRow_TypeDefinitionIndex = 11033;
+	inline static constexpr unsigned int ChenLingDeckRow_TypeDefinitionIndex = 11049;
 
 	class ChenLingDeckRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* RelatedCardList; // 0x10
+		::Il2CppArray<::System::UInt32>* CardList; // 0x10
 		::Il2CppArray<::System::UInt32>* ActivityPanelSoldieList; // 0x18
-		::Il2CppArray<::System::UInt32>* ShowCardList; // 0x20
-		::System::String* DeckIconPath; // 0x28
-		::Il2CppArray<::System::UInt32>* InitialCardList; // 0x30
-		::Il2CppArray<::System::UInt32>* CardList; // 0x38
-		::System::String* IconPath; // 0x40
-		::Il2CppArray<::System::UInt32>* InitialEffectList; // 0x48
-		::RPG::Client::TextID Desc; // 0x50
-		::System::UInt32 GuideGroupID; // 0x60
-		::System::UInt32 ID; // 0x64
-		::RPG::Client::TextID BGDesc; // 0x68
-		::RPG::Client::TextID Name; // 0x78
+		::System::String* IconPath; // 0x20
+		::Il2CppArray<::System::UInt32>* InitialEffectList; // 0x28
+		::System::String* DeckIconPath; // 0x30
+		::Il2CppArray<::System::UInt32>* RelatedCardList; // 0x38
+		::Il2CppArray<::System::UInt32>* ShowCardList; // 0x40
+		::Il2CppArray<::System::UInt32>* InitialCardList; // 0x48
+		::RPG::Client::TextID Name; // 0x50
+		::RPG::Client::TextID Desc; // 0x60
+		::RPG::Client::TextID BGDesc; // 0x70
+		::System::UInt32 ID; // 0x80
+		::System::UInt32 GuideGroupID; // 0x84
 
 		::System::Void _ctor()
 		{

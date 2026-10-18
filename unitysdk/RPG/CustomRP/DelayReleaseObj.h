@@ -3,7 +3,7 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int DelayReleaseObj_TypeDefinitionIndex = 36861;
+	inline static constexpr unsigned int DelayReleaseObj_TypeDefinitionIndex = 37548;
 
 	enum class DelayReleaseObj : ::System::Int32
 	{

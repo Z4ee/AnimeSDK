@@ -4,42 +4,29 @@
 
 namespace System { class String; }
 
-#define CLASS_1_7291C38274750BA2_3_GET_ACCOUNTID_OFFSET UNITYSDK_OFFSET(0xBDC6200)
-#define CLASS_1_7291C38274750BA2_3_GET_ONLINEID_OFFSET UNITYSDK_OFFSET(0xBDC6220)
-#define CLASS_1_7291C38274750BA2_3_SET_ACCOUNTID_OFFSET UNITYSDK_OFFSET(0xBDC6210)
-#define CLASS_1_7291C38274750BA2_3_SET_ONLINEID_OFFSET UNITYSDK_OFFSET(0xBDC6230)
-#define CLASS_1_7291C38274750BA2_3__CTOR_OFFSET UNITYSDK_OFFSET(0xBDC6240)
+#define CLASS_1_7291C38274750BA2_3_METHOD_1_AA54247FF5D7BBB1_OFFSET UNITYSDK_OFFSET(0x15E025B0)
+#define CLASS_1_7291C38274750BA2_3_METHOD_1_CDB67F8643E189E2_OFFSET UNITYSDK_OFFSET(0x15E02630)
+#define CLASS_1_7291C38274750BA2_3__CTOR_OFFSET UNITYSDK_OFFSET(0x15E02620)
 
-inline static constexpr unsigned int Class_1_7291C38274750BA2_3_TypeDefinitionIndex = 66738;
+inline static constexpr unsigned int Class_1_7291C38274750BA2_3_TypeDefinitionIndex = 65987;
 
 class Class_1_7291C38274750BA2_3 : public ::System::Object
 {
 public:
-	::System::String* _AccountID_k__BackingField; // 0x10
-	::System::String* _OnlineID_k__BackingField; // 0x18
+	::System::String* JHLIDACEDBD; // 0x10
 
-	::System::Void _ctor()
+	::System::Void _ctor(::System::String* a1)
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_7291C38274750BA2_3__CTOR_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_7291C38274750BA2_3__CTOR_OFFSET))(this, a1);
 	}
 
-	::System::String* get_AccountID()
+	static ::Class_1_7291C38274750BA2_3* Method_1_AA54247FF5D7BBB1(::System::String* a1)
 	{
-		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_7291C38274750BA2_3_GET_ACCOUNTID_OFFSET))(this);
+		return ((::Class_1_7291C38274750BA2_3*(*)(::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_7291C38274750BA2_3_METHOD_1_AA54247FF5D7BBB1_OFFSET))(a1);
 	}
 
-	::System::Void set_AccountID(::System::String* a1)
+	::System::Boolean Method_1_CDB67F8643E189E2()
 	{
-		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_7291C38274750BA2_3_SET_ACCOUNTID_OFFSET))(this, a1);
-	}
-
-	::System::String* get_OnlineID()
-	{
-		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_7291C38274750BA2_3_GET_ONLINEID_OFFSET))(this);
-	}
-
-	::System::Void set_OnlineID(::System::String* a1)
-	{
-		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_7291C38274750BA2_3_SET_ONLINEID_OFFSET))(this, a1);
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_7291C38274750BA2_3_METHOD_1_CDB67F8643E189E2_OFFSET))(this);
 	}
 };

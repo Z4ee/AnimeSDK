@@ -4,19 +4,19 @@
 
 namespace UnityEngine { class Material; }
 
-#define RPG_CUSTOMRP_AVATAREFFECTINFO_EFFECTMATERIALGROUP_CREATE_OFFSET UNITYSDK_OFFSET(0x1C66B3D0)
-#define RPG_CUSTOMRP_AVATAREFFECTINFO_EFFECTMATERIALGROUP_RESET_OFFSET UNITYSDK_OFFSET(0x1C66B4B0)
-#define RPG_CUSTOMRP_AVATAREFFECTINFO_EFFECTMATERIALGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1C66B4C0)
+#define RPG_CUSTOMRP_AVATAREFFECTINFO_EFFECTMATERIALGROUP_CREATE_OFFSET UNITYSDK_OFFSET(0x1CBF1700)
+#define RPG_CUSTOMRP_AVATAREFFECTINFO_EFFECTMATERIALGROUP_RESET_OFFSET UNITYSDK_OFFSET(0x1CBF17E0)
+#define RPG_CUSTOMRP_AVATAREFFECTINFO_EFFECTMATERIALGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1CBF17F0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int AvatarEffectInfo_EffectMaterialGroup_TypeDefinitionIndex = 36899;
+	inline static constexpr unsigned int AvatarEffectInfo_EffectMaterialGroup_TypeDefinitionIndex = 37584;
 
 	class AvatarEffectInfo_EffectMaterialGroup : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::Int32>* passIDs; // 0x10
-		::UnityEngine::Material* mat; // 0x18
+		::UnityEngine::Material* mat; // 0x10
+		::Il2CppArray<::System::Int32>* passIDs; // 0x18
 		::System::Boolean afterTransparent; // 0x20
 
 		::System::Void _ctor()

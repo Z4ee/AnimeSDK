@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/GameCore/B51RacingStatType.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_B51RACING_B51RACINGCARSTATDESCDIALOGVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xC85FE80)
+#define RPG_CLIENT_B51RACING_B51RACINGCARSTATDESCDIALOGVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xC72D920)
 
 namespace RPG::Client::B51Racing
 {
-	inline static constexpr unsigned int B51RacingCarStatDescDialogViewModel_TypeDefinitionIndex = 80689;
+	inline static constexpr unsigned int B51RacingCarStatDescDialogViewModel_TypeDefinitionIndex = 82017;
 
 	class B51RacingCarStatDescDialogViewModel : public ::System::Object
 	{

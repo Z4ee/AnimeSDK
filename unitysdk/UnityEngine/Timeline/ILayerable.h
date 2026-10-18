@@ -7,7 +7,7 @@ namespace UnityEngine { class GameObject; }
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int ILayerable_TypeDefinitionIndex = 37543;
+	inline static constexpr unsigned int ILayerable_TypeDefinitionIndex = 38840;
 
 	class ILayerable
 	{

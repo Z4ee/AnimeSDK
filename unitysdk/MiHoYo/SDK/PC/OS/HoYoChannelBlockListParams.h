@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELBLOCKLISTPARAMS_TOJSON_OFFSET UNITYSDK_OFFSET(0x1BA1DE30)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELBLOCKLISTPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA124F0)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELBLOCKLISTPARAMS_TOJSON_OFFSET UNITYSDK_OFFSET(0x1BF22020)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELBLOCKLISTPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF16510)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int HoYoChannelBlockListParams_TypeDefinitionIndex = 8561;
+	inline static constexpr unsigned int HoYoChannelBlockListParams_TypeDefinitionIndex = 8622;
 
 	class HoYoChannelBlockListParams : public ::MiHoYo::SDK::PC::OS::HoYoChannelAsyncParams
 	{

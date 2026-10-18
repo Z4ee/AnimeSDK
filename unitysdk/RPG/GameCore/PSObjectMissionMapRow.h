@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_PSOBJECTMISSIONMAPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D306BF0)
-#define RPG_GAMECORE_PSOBJECTMISSIONMAPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D306D30)
+#define RPG_GAMECORE_PSOBJECTMISSIONMAPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D8EA8E0)
+#define RPG_GAMECORE_PSOBJECTMISSIONMAPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D8EAA20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PSObjectMissionMapRow_TypeDefinitionIndex = 12975;
+	inline static constexpr unsigned int PSObjectMissionMapRow_TypeDefinitionIndex = 13081;
 
 	class PSObjectMissionMapRow : public ::System::Object
 	{

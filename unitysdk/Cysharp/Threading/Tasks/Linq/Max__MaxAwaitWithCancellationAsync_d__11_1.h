@@ -15,7 +15,7 @@ namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int Max__MaxAwaitWithCancellationAsync_d__11_1_TypeDefinitionIndex = 44315;
+	inline static constexpr unsigned int Max__MaxAwaitWithCancellationAsync_d__11_1_TypeDefinitionIndex = 45454;
 
 	template <typename TSource>
 	struct Max__MaxAwaitWithCancellationAsync_d__11_1

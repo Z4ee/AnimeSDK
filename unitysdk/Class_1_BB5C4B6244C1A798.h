@@ -8,19 +8,19 @@ class Class_3_1E4F9B0ED3BF21DE;
 namespace Entitas { template <typename T> class IGroup_1; }
 namespace RPG { template <typename T> class PoolList_1; }
 
-#define CLASS_1_BB5C4B6244C1A798_EXECUTE_OFFSET UNITYSDK_OFFSET(0x153687D0)
-#define CLASS_1_BB5C4B6244C1A798__CTOR_OFFSET UNITYSDK_OFFSET(0x15368680)
+#define CLASS_1_BB5C4B6244C1A798_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1556FDB0)
+#define CLASS_1_BB5C4B6244C1A798__CTOR_OFFSET UNITYSDK_OFFSET(0x1556FC60)
 
-inline static constexpr unsigned int Class_1_BB5C4B6244C1A798_TypeDefinitionIndex = 76442;
+inline static constexpr unsigned int Class_1_BB5C4B6244C1A798_TypeDefinitionIndex = 76919;
 
 class Class_1_BB5C4B6244C1A798 : public ::System::Object
 {
 public:
-	::Class_1_B4357A1C72BABC6B* FKINCGODJEP; // 0x10
-	::Entitas::IGroup_1<::Class_2_B9E8C2EEAA5C96EC*>* CDHCLKMJJIL; // 0x18
-	::RPG::PoolList_1<::Class_2_B9E8C2EEAA5C96EC*>* FLLDODFPLHK; // 0x20
-	::Class_3_1E4F9B0ED3BF21DE* PDENFEFCAGN; // 0x28
-	::Entitas::IGroup_1<::Class_2_B9E8C2EEAA5C96EC*>* OEKLGLKBJMB; // 0x30
+	::Class_3_1E4F9B0ED3BF21DE* PDENFEFCAGN; // 0x10
+	::Class_1_B4357A1C72BABC6B* FKINCGODJEP; // 0x18
+	::Entitas::IGroup_1<::Class_2_B9E8C2EEAA5C96EC*>* OEKLGLKBJMB; // 0x20
+	::Entitas::IGroup_1<::Class_2_B9E8C2EEAA5C96EC*>* CDHCLKMJJIL; // 0x28
+	::RPG::PoolList_1<::Class_2_B9E8C2EEAA5C96EC*>* FLLDODFPLHK; // 0x30
 
 	::System::Void _ctor(::Class_1_B4357A1C72BABC6B* a1, ::Class_3_1E4F9B0ED3BF21DE* a2)
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EvolveBuildStageStatus_TypeDefinitionIndex = 63869;
+	inline static constexpr unsigned int EvolveBuildStageStatus_TypeDefinitionIndex = 63807;
 
 	enum class EvolveBuildStageStatus : ::System::Int32
 	{

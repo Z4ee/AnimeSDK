@@ -6,22 +6,22 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_EXPEDITIONBATTLEDISPLAYCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D080970)
-#define RPG_GAMECORE_EXPEDITIONBATTLEDISPLAYCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D080C90)
+#define RPG_GAMECORE_EXPEDITIONBATTLEDISPLAYCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D68E960)
+#define RPG_GAMECORE_EXPEDITIONBATTLEDISPLAYCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D68EC80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ExpeditionBattleDisplayConfigRow_TypeDefinitionIndex = 11438;
+	inline static constexpr unsigned int ExpeditionBattleDisplayConfigRow_TypeDefinitionIndex = 11454;
 
 	class ExpeditionBattleDisplayConfigRow : public ::System::Object
 	{
 	public:
 		::System::String* BattleEmojiPath; // 0x10
 		::System::String* EmojiPath; // 0x18
-		::RPG::Client::TextID CommonTalk; // 0x20
-		::System::UInt32 AvatarID; // 0x30
-		::RPG::Client::TextID VictoryTalk; // 0x38
-		::RPG::Client::TextID StartTalk; // 0x48
+		::System::UInt32 AvatarID; // 0x20
+		::RPG::Client::TextID VictoryTalk; // 0x28
+		::RPG::Client::TextID StartTalk; // 0x38
+		::RPG::Client::TextID CommonTalk; // 0x48
 
 		::System::Void _ctor()
 		{

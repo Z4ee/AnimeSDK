@@ -1,15 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_945ACFB1FEBC7A2C_21.h"
+#include "unitysdk/Class_1_945ACFB1FEBC7A2C_20.h"
 
 class Class_1_5C7F69784A5C81DE_1;
 namespace System { class String; }
 
-#define CLASS_2_EA3A8105D06385C1__CTOR_OFFSET UNITYSDK_OFFSET(0xB4FEEC0)
+#define CLASS_2_EA3A8105D06385C1__CTOR_OFFSET UNITYSDK_OFFSET(0xB33AED0)
 
-inline static constexpr unsigned int Class_2_EA3A8105D06385C1_TypeDefinitionIndex = 55786;
+inline static constexpr unsigned int Class_2_EA3A8105D06385C1_TypeDefinitionIndex = 55594;
 
-class Class_2_EA3A8105D06385C1 : public ::Class_1_945ACFB1FEBC7A2C_21
+class Class_2_EA3A8105D06385C1 : public ::Class_1_945ACFB1FEBC7A2C_20
 {
 public:
 	::Class_1_5C7F69784A5C81DE_1* FJCAKOIDONG; // 0x18

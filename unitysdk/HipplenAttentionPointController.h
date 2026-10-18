@@ -5,10 +5,10 @@
 
 namespace UnityEngine { class Transform; }
 
-#define HIPPLENATTENTIONPOINTCONTROLLER_UPDATE_OFFSET UNITYSDK_OFFSET(0x15ACE960)
-#define HIPPLENATTENTIONPOINTCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x15ACF0D0)
+#define HIPPLENATTENTIONPOINTCONTROLLER_UPDATE_OFFSET UNITYSDK_OFFSET(0x15DE27A0)
+#define HIPPLENATTENTIONPOINTCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x15DE2F10)
 
-inline static constexpr unsigned int HipplenAttentionPointController_TypeDefinitionIndex = 47659;
+inline static constexpr unsigned int HipplenAttentionPointController_TypeDefinitionIndex = 47199;
 
 class HipplenAttentionPointController : public ::UnityEngine::MonoBehaviour
 {

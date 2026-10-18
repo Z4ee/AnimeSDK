@@ -9,14 +9,14 @@ namespace Spine { class SkeletonLoader_LinkedMesh; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define SPINE_SKELETONLOADER_GET_SCALE_OFFSET UNITYSDK_OFFSET(0x1E621920)
-#define SPINE_SKELETONLOADER_SET_SCALE_OFFSET UNITYSDK_OFFSET(0x1E621930)
-#define SPINE_SKELETONLOADER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E5EE320)
-#define SPINE_SKELETONLOADER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E5EE3B0)
+#define SPINE_SKELETONLOADER_GET_SCALE_OFFSET UNITYSDK_OFFSET(0x1ECE9AA0)
+#define SPINE_SKELETONLOADER_SET_SCALE_OFFSET UNITYSDK_OFFSET(0x1ECE9AB0)
+#define SPINE_SKELETONLOADER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1ECB64D0)
+#define SPINE_SKELETONLOADER__CTOR_OFFSET UNITYSDK_OFFSET(0x1ECB6560)
 
 namespace Spine
 {
-	inline static constexpr unsigned int SkeletonLoader_TypeDefinitionIndex = 38397;
+	inline static constexpr unsigned int SkeletonLoader_TypeDefinitionIndex = 39694;
 
 	class SkeletonLoader : public ::System::Object
 	{

@@ -4,7 +4,7 @@
 #include "unitysdk/RPG/GameCore/FiveDimCustomScreenTransferStyle.h"
 #include "unitysdk/System/ValueType.h"
 
-inline static constexpr unsigned int Struct_2_BCB788C3176747F4_TypeDefinitionIndex = 41916;
+inline static constexpr unsigned int Struct_2_BCB788C3176747F4_TypeDefinitionIndex = 43558;
 
 struct alignas(4) Struct_2_BCB788C3176747F4
 {
@@ -13,5 +13,6 @@ struct alignas(4) Struct_2_BCB788C3176747F4
 	::RPG::Client::LittleGame::FiveDim::FiveDimExitType BIIHMECEPPO; // 0x18
 	::System::Boolean HBMDCFNCHMJ; // 0x1C
 	::System::Boolean OOMOFODFCBH; // 0x1D
+	::System::Boolean FIIGINAGCKL; // 0x1E
 	::RPG::GameCore::FiveDimCustomScreenTransferStyle JJIDJALHONN; // 0x20
 };

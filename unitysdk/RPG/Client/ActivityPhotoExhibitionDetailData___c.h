@@ -4,24 +4,24 @@
 
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_ACTIVITYPHOTOEXHIBITIONDETAILDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC667150)
-#define RPG_CLIENT_ACTIVITYPHOTOEXHIBITIONDETAILDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC667190)
-#define RPG_CLIENT_ACTIVITYPHOTOEXHIBITIONDETAILDATA___C__GET__ISANYTASKOPTIONFINISH_B__21_0_OFFSET UNITYSDK_OFFSET(0xC6671A0)
+#define RPG_CLIENT_ACTIVITYPHOTOEXHIBITIONDETAILDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC583C00)
+#define RPG_CLIENT_ACTIVITYPHOTOEXHIBITIONDETAILDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC583C40)
+#define RPG_CLIENT_ACTIVITYPHOTOEXHIBITIONDETAILDATA___C__GET__ISANYTASKOPTIONFINISH_B__21_0_OFFSET UNITYSDK_OFFSET(0xC583C50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityPhotoExhibitionDetailData___c_TypeDefinitionIndex = 61816;
+	inline static constexpr unsigned int ActivityPhotoExhibitionDetailData___c_TypeDefinitionIndex = 61726;
 
 	class ActivityPhotoExhibitionDetailData___c : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::ActivityPhotoExhibitionDetailData___c** StaticGet___9()
 		{
-			return (::RPG::Client::ActivityPhotoExhibitionDetailData___c**)Il2CppClass::FromTypeDefinitionIndex(ActivityPhotoExhibitionDetailData___c_TypeDefinitionIndex)->GetStaticField(0x633D0);
+			return (::RPG::Client::ActivityPhotoExhibitionDetailData___c**)Il2CppClass::FromTypeDefinitionIndex(ActivityPhotoExhibitionDetailData___c_TypeDefinitionIndex)->GetStaticField(0x37B50);
 		}
 		static ::System::Func_2<::System::UInt32, ::System::Boolean>** StaticGet___9__21_0()
 		{
-			return (::System::Func_2<::System::UInt32, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ActivityPhotoExhibitionDetailData___c_TypeDefinitionIndex)->GetStaticField(0x633D8);
+			return (::System::Func_2<::System::UInt32, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ActivityPhotoExhibitionDetailData___c_TypeDefinitionIndex)->GetStaticField(0x37B58);
 		}
 
 		static ::System::Void _cctor()

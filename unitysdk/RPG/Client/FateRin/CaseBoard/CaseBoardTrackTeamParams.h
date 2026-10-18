@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/GameCore/FateRinCaseBoardTeamType.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_FATERIN_CASEBOARD_CASEBOARDTRACKTEAMPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0xCFF7FF0)
+#define RPG_CLIENT_FATERIN_CASEBOARD_CASEBOARDTRACKTEAMPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0xCF989C0)
 
 namespace RPG::Client::FateRin::CaseBoard
 {
-	inline static constexpr unsigned int CaseBoardTrackTeamParams_TypeDefinitionIndex = 79483;
+	inline static constexpr unsigned int CaseBoardTrackTeamParams_TypeDefinitionIndex = 80807;
 
 	class CaseBoardTrackTeamParams : public ::System::Object
 	{

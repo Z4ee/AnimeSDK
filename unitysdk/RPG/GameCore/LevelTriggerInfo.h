@@ -7,12 +7,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_LEVELTRIGGERINFO_METHOD_2_3617773D477CAA19_OFFSET UNITYSDK_OFFSET(0x1D1F13A0)
-#define RPG_GAMECORE_LEVELTRIGGERINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1F1680)
+#define RPG_GAMECORE_LEVELTRIGGERINFO_METHOD_2_64A0E2CD0AD540EB_OFFSET UNITYSDK_OFFSET(0x1D7B47C0)
+#define RPG_GAMECORE_LEVELTRIGGERINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7CEFB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelTriggerInfo_TypeDefinitionIndex = 17033;
+	inline static constexpr unsigned int LevelTriggerInfo_TypeDefinitionIndex = 17228;
 
 	class LevelTriggerInfo : public ::RPG::GameCore::JsonConfig
 	{
@@ -31,9 +31,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELTRIGGERINFO__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_3617773D477CAA19(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelTriggerInfo*& a2)
+		static ::System::Void Method_2_64A0E2CD0AD540EB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelTriggerInfo*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelTriggerInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELTRIGGERINFO_METHOD_2_3617773D477CAA19_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelTriggerInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELTRIGGERINFO_METHOD_2_64A0E2CD0AD540EB_OFFSET))(a1, a2);
 		}
 	};
 }

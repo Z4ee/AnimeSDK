@@ -7,7 +7,7 @@ namespace System { class Exception; }
 
 namespace R3
 {
-	inline static constexpr unsigned int AppendPrepend_1__Append_TypeDefinitionIndex = 35252;
+	inline static constexpr unsigned int AppendPrepend_1__Append_TypeDefinitionIndex = 35932;
 
 	template <typename T>
 	class AppendPrepend_1__Append : public ::R3::Observer_1<T>

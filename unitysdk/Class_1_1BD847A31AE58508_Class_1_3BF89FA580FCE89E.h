@@ -1,0 +1,33 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/UnityEngine/Vector2Int.h"
+
+class Class_0_16E4307DCC419505_1490;
+
+#define CLASS_1_1BD847A31AE58508_CLASS_1_3BF89FA580FCE89E_GET_SOURCE_OFFSET UNITYSDK_OFFSET(0x1591AEA0)
+#define CLASS_1_1BD847A31AE58508_CLASS_1_3BF89FA580FCE89E_SET_SOURCE_OFFSET UNITYSDK_OFFSET(0x1591AEB0)
+#define CLASS_1_1BD847A31AE58508_CLASS_1_3BF89FA580FCE89E__CTOR_OFFSET UNITYSDK_OFFSET(0x1591AE90)
+
+inline static constexpr unsigned int Class_1_1BD847A31AE58508_Class_1_3BF89FA580FCE89E_TypeDefinitionIndex = 79489;
+
+class Class_1_1BD847A31AE58508_Class_1_3BF89FA580FCE89E : public ::System::Object
+{
+public:
+	::Class_0_16E4307DCC419505_1490* _Source_k__BackingField; // 0x10
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_1BD847A31AE58508_CLASS_1_3BF89FA580FCE89E__CTOR_OFFSET))(this);
+	}
+
+	::Class_0_16E4307DCC419505_1490* get_Source()
+	{
+		return ((::Class_0_16E4307DCC419505_1490*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_1BD847A31AE58508_CLASS_1_3BF89FA580FCE89E_GET_SOURCE_OFFSET))(this);
+	}
+
+	::System::Void set_Source(::Class_0_16E4307DCC419505_1490* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_1490*))((::PBYTE)hIl2Cpp + CLASS_1_1BD847A31AE58508_CLASS_1_3BF89FA580FCE89E_SET_SOURCE_OFFSET))(this, a1);
+	}
+};

@@ -7,10 +7,10 @@ namespace Entitas { class IEntity; }
 namespace RPG::GameCore { class FiveDimEffectItem; }
 namespace UnityEngine { class GameObject; }
 
-#define CLASS_1_AE4CA5FB1615574B___C__DISPLAYCLASS47_1__CTOR_OFFSET UNITYSDK_OFFSET(0x16285AC0)
-#define CLASS_1_AE4CA5FB1615574B___C__DISPLAYCLASS47_1___FIREPLAYEREFFECTWITHGLOBALEFFECTNAME_B__0_OFFSET UNITYSDK_OFFSET(0x16286C70)
+#define CLASS_1_AE4CA5FB1615574B___C__DISPLAYCLASS47_1__CTOR_OFFSET UNITYSDK_OFFSET(0x16636F30)
+#define CLASS_1_AE4CA5FB1615574B___C__DISPLAYCLASS47_1___FIREPLAYEREFFECTWITHGLOBALEFFECTNAME_B__0_OFFSET UNITYSDK_OFFSET(0x166380E0)
 
-inline static constexpr unsigned int Class_1_AE4CA5FB1615574B___c__DisplayClass47_1_TypeDefinitionIndex = 76236;
+inline static constexpr unsigned int Class_1_AE4CA5FB1615574B___c__DisplayClass47_1_TypeDefinitionIndex = 76713;
 
 class Class_1_AE4CA5FB1615574B___c__DisplayClass47_1 : public ::System::Object
 {

@@ -10,7 +10,7 @@ namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PendingRspEntry_1___WatchTimeoutAsync_d__23_TypeDefinitionIndex = 69374;
+	inline static constexpr unsigned int PendingRspEntry_1___WatchTimeoutAsync_d__23_TypeDefinitionIndex = 69410;
 
 	template <typename TRsp>
 	struct PendingRspEntry_1___WatchTimeoutAsync_d__23

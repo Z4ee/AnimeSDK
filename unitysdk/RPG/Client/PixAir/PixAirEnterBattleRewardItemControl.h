@@ -7,21 +7,21 @@ namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI { class Image; }
 namespace UnityEngine::UI { class Text; }
 
-#define RPG_CLIENT_PIXAIR_PIXAIRENTERBATTLEREWARDITEMCONTROL_GET__VIEWMODEL_OFFSET UNITYSDK_OFFSET(0xDAEFAB0)
-#define RPG_CLIENT_PIXAIR_PIXAIRENTERBATTLEREWARDITEMCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0xDAEFB60)
-#define RPG_CLIENT_PIXAIR_PIXAIRENTERBATTLEREWARDITEMCONTROL__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0xDAEFA00)
-#define RPG_CLIENT_PIXAIR_PIXAIRENTERBATTLEREWARDITEMCONTROL__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0xDAEF940)
+#define RPG_CLIENT_PIXAIR_PIXAIRENTERBATTLEREWARDITEMCONTROL_GET__VIEWMODEL_OFFSET UNITYSDK_OFFSET(0xDB38260)
+#define RPG_CLIENT_PIXAIR_PIXAIRENTERBATTLEREWARDITEMCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0xDB38310)
+#define RPG_CLIENT_PIXAIR_PIXAIRENTERBATTLEREWARDITEMCONTROL__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0xDB381B0)
+#define RPG_CLIENT_PIXAIR_PIXAIRENTERBATTLEREWARDITEMCONTROL__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0xDB380F0)
 
 namespace RPG::Client::PixAir
 {
-	inline static constexpr unsigned int PixAirEnterBattleRewardItemControl_TypeDefinitionIndex = 78759;
+	inline static constexpr unsigned int PixAirEnterBattleRewardItemControl_TypeDefinitionIndex = 79240;
 
 	class PixAirEnterBattleRewardItemControl : public ::Sofa::BaseSofaControl
 	{
 	public:
-		::UnityEngine::Transform* _NodeNum; // 0x38
-		::UnityEngine::UI::Text* _TextNum; // 0x40
-		::UnityEngine::UI::Image* _ImgReward; // 0x48
+		::UnityEngine::Transform* _NodeNum; // 0x40
+		::UnityEngine::UI::Text* _TextNum; // 0x48
+		::UnityEngine::UI::Image* _ImgReward; // 0x50
 
 		::System::Void _ctor()
 		{

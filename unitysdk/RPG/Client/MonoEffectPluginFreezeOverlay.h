@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/MonoEffectPluginCharaOverlayMatBase.h"
 
-#define RPG_CLIENT_MONOEFFECTPLUGINFREEZEOVERLAY_METHOD_8_508D4DD02D3DB74E_OFFSET UNITYSDK_OFFSET(0xD7BDEE0)
-#define RPG_CLIENT_MONOEFFECTPLUGINFREEZEOVERLAY__CTOR_OFFSET UNITYSDK_OFFSET(0xD7BE0D0)
+#define RPG_CLIENT_MONOEFFECTPLUGINFREEZEOVERLAY_METHOD_8_508D4DD02D3DB74E_OFFSET UNITYSDK_OFFSET(0xD7FFEC0)
+#define RPG_CLIENT_MONOEFFECTPLUGINFREEZEOVERLAY__CTOR_OFFSET UNITYSDK_OFFSET(0xD8000B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginFreezeOverlay_TypeDefinitionIndex = 69972;
+	inline static constexpr unsigned int MonoEffectPluginFreezeOverlay_TypeDefinitionIndex = 70006;
 
 	class MonoEffectPluginFreezeOverlay : public ::RPG::Client::MonoEffectPluginCharaOverlayMatBase
 	{

@@ -8,7 +8,7 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::RoadRash
 {
-	inline static constexpr unsigned int ProjectileAutoEffectConfig_TypeDefinitionIndex = 75445;
+	inline static constexpr unsigned int ProjectileAutoEffectConfig_TypeDefinitionIndex = 75860;
 
 	struct alignas(8) ProjectileAutoEffectConfig
 	{

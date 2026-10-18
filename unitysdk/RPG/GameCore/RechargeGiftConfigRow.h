@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_RECHARGEGIFTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D38B7E0)
-#define RPG_GAMECORE_RECHARGEGIFTCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D38BE50)
+#define RPG_GAMECORE_RECHARGEGIFTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D971CF0)
+#define RPG_GAMECORE_RECHARGEGIFTCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D972320)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RechargeGiftConfigRow_TypeDefinitionIndex = 14457;
+	inline static constexpr unsigned int RechargeGiftConfigRow_TypeDefinitionIndex = 14622;
 
 	class RechargeGiftConfigRow : public ::System::Object
 	{

@@ -9,7 +9,7 @@ namespace System { template <typename T1, typename T2, typename T3, typename T4>
 
 namespace R3
 {
-	inline static constexpr unsigned int CombineLatest_4_TypeDefinitionIndex = 35256;
+	inline static constexpr unsigned int CombineLatest_4_TypeDefinitionIndex = 35936;
 
 	template <typename T1, typename T2, typename T3, typename TResult>
 	class CombineLatest_4 : public ::R3::Observable_1<TResult>

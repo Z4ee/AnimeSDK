@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByComparePhoneMessageItem; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_CFFAF95695F46AA4_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBEE6640)
-#define CLASS_3_CFFAF95695F46AA4__CTOR_OFFSET UNITYSDK_OFFSET(0xBEE6610)
+#define CLASS_3_CFFAF95695F46AA4_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBD77D70)
+#define CLASS_3_CFFAF95695F46AA4__CTOR_OFFSET UNITYSDK_OFFSET(0xBD77D40)
 
-inline static constexpr unsigned int Class_3_CFFAF95695F46AA4_TypeDefinitionIndex = 52858;
+inline static constexpr unsigned int Class_3_CFFAF95695F46AA4_TypeDefinitionIndex = 52584;
 
 class Class_3_CFFAF95695F46AA4 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByComparePhoneMessageItem*>
 {

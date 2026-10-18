@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetCharacterAtlasFaceEmotion; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_8B1B70527EA388C4_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBD06930)
-#define CLASS_3_8B1B70527EA388C4__CTOR_OFFSET UNITYSDK_OFFSET(0xBD06900)
+#define CLASS_3_8B1B70527EA388C4_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBBE08E0)
+#define CLASS_3_8B1B70527EA388C4__CTOR_OFFSET UNITYSDK_OFFSET(0xBBE08B0)
 
-inline static constexpr unsigned int Class_3_8B1B70527EA388C4_TypeDefinitionIndex = 56583;
+inline static constexpr unsigned int Class_3_8B1B70527EA388C4_TypeDefinitionIndex = 56396;
 
 class Class_3_8B1B70527EA388C4 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetCharacterAtlasFaceEmotion*>
 {

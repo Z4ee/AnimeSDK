@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int MatchThreeTimelineBattleField_MatchThreeTimelineType_TypeDefinitionIndex = 76080;
+	inline static constexpr unsigned int MatchThreeTimelineBattleField_MatchThreeTimelineType_TypeDefinitionIndex = 76557;
 
 	enum class MatchThreeTimelineBattleField_MatchThreeTimelineType : ::System::Int32
 	{

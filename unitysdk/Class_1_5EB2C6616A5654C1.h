@@ -5,20 +5,20 @@
 
 namespace System { class String; }
 
-#define CLASS_1_5EB2C6616A5654C1__CTOR_OFFSET UNITYSDK_OFFSET(0xBAF6930)
+#define CLASS_1_5EB2C6616A5654C1__CTOR_OFFSET UNITYSDK_OFFSET(0xB97B5F0)
 
-inline static constexpr unsigned int Class_1_5EB2C6616A5654C1_TypeDefinitionIndex = 55781;
+inline static constexpr unsigned int Class_1_5EB2C6616A5654C1_TypeDefinitionIndex = 55589;
 
 class Class_1_5EB2C6616A5654C1 : public ::System::Object
 {
 public:
-	::System::String* PDPFAPMCMMI; // 0x10
-	::System::String* AJHFKOGFFOP; // 0x18
-	::RPG::GameCore::FixPoint BCCHCNNIEDB; // 0x20
-	::RPG::GameCore::FixPoint EFJAHDEMACL; // 0x28
-	::RPG::GameCore::FixPoint HOELGLIGJMC; // 0x30
-	::System::Boolean LEFMBOJIBDM; // 0x38
-	::System::Boolean FEDOIDAMKEI; // 0x39
+	::System::String* AJHFKOGFFOP; // 0x10
+	::System::String* PDPFAPMCMMI; // 0x18
+	::RPG::GameCore::FixPoint EFJAHDEMACL; // 0x20
+	::RPG::GameCore::FixPoint HOELGLIGJMC; // 0x28
+	::System::Boolean LEFMBOJIBDM; // 0x30
+	::System::Boolean FEDOIDAMKEI; // 0x31
+	::RPG::GameCore::FixPoint BCCHCNNIEDB; // 0x38
 
 	::System::Void _ctor()
 	{

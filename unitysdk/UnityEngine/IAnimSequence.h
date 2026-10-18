@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int IAnimSequence_TypeDefinitionIndex = 5718;
+	inline static constexpr unsigned int IAnimSequence_TypeDefinitionIndex = 5726;
 
 	class IAnimSequence
 	{

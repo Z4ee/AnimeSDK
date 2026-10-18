@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/TMPro/TMP_TextElement_Legacy.h"
 
-#define TMPRO_TMP_GLYPH_CLONE_OFFSET UNITYSDK_OFFSET(0x1EC3B590)
-#define TMPRO_TMP_GLYPH__CTOR_OFFSET UNITYSDK_OFFSET(0x1EC3B600)
+#define TMPRO_TMP_GLYPH_CLONE_OFFSET UNITYSDK_OFFSET(0x1F302AB0)
+#define TMPRO_TMP_GLYPH__CTOR_OFFSET UNITYSDK_OFFSET(0x1F302B20)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TMP_Glyph_TypeDefinitionIndex = 43381;
+	inline static constexpr unsigned int TMP_Glyph_TypeDefinitionIndex = 44573;
 
 	class TMP_Glyph : public ::TMPro::TMP_TextElement_Legacy
 	{

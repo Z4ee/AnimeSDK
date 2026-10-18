@@ -15,7 +15,7 @@ namespace System::Collections::ObjectModel { template <typename T> class ReadOnl
 
 namespace Collections::Pooled
 {
-	inline static constexpr unsigned int IPooledList_1_TypeDefinitionIndex = 5088;
+	inline static constexpr unsigned int IPooledList_1_TypeDefinitionIndex = 5095;
 
 	template <typename T>
 	class IPooledList_1

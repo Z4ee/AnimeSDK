@@ -4,9 +4,9 @@
 #include "unitysdk/UnityEngine/Matrix4x4.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define CLASS_1_225F859A4891E6CB_CLASS_1_5DCFAD097C9B3F93_METHOD_1_E03EB47A91F48276_OFFSET UNITYSDK_OFFSET(0xD80E490)
+#define CLASS_1_225F859A4891E6CB_CLASS_1_5DCFAD097C9B3F93_METHOD_1_E03EB47A91F48276_OFFSET UNITYSDK_OFFSET(0xD77EB30)
 
-inline static constexpr unsigned int Class_1_225F859A4891E6CB_Class_1_5DCFAD097C9B3F93_TypeDefinitionIndex = 47589;
+inline static constexpr unsigned int Class_1_225F859A4891E6CB_Class_1_5DCFAD097C9B3F93_TypeDefinitionIndex = 47129;
 
 class Class_1_225F859A4891E6CB_Class_1_5DCFAD097C9B3F93 : public ::System::Object
 {

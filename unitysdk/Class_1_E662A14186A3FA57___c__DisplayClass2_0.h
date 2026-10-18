@@ -5,7 +5,7 @@
 
 namespace RPG::Client { class ListView; }
 
-inline static constexpr unsigned int Class_1_E662A14186A3FA57___c__DisplayClass2_0_TypeDefinitionIndex = 50174;
+inline static constexpr unsigned int Class_1_E662A14186A3FA57___c__DisplayClass2_0_TypeDefinitionIndex = 49799;
 
 template <typename TViewModel>
 class Class_1_E662A14186A3FA57___c__DisplayClass2_0 : public ::System::Object

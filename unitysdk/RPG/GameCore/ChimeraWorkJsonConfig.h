@@ -7,12 +7,12 @@ namespace RPG::GameCore { class ChimeraAbilityStart; }
 namespace RPG::GameCore { class ChimeraEventHandlers; }
 namespace RPG::GameCore { class ChimeraWorkPhaseConfig; }
 
-#define RPG_GAMECORE_CHIMERAWORKJSONCONFIG_METHOD_2_337BB6FCD821A54F_OFFSET UNITYSDK_OFFSET(0x1CFD5760)
-#define RPG_GAMECORE_CHIMERAWORKJSONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFD5900)
+#define RPG_GAMECORE_CHIMERAWORKJSONCONFIG_METHOD_2_337BB6FCD821A54F_OFFSET UNITYSDK_OFFSET(0x1D5B1350)
+#define RPG_GAMECORE_CHIMERAWORKJSONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5B14F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraWorkJsonConfig_TypeDefinitionIndex = 15710;
+	inline static constexpr unsigned int ChimeraWorkJsonConfig_TypeDefinitionIndex = 15883;
 
 	class ChimeraWorkJsonConfig : public ::RPG::GameCore::JsonConfig
 	{

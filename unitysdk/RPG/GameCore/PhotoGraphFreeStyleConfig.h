@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class PhotoGraphFreeStyleDataConfig; }
 
-#define RPG_GAMECORE_PHOTOGRAPHFREESTYLECONFIG_METHOD_2_809EA9D54C0FF098_OFFSET UNITYSDK_OFFSET(0x1D32BC30)
-#define RPG_GAMECORE_PHOTOGRAPHFREESTYLECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D32BCF0)
+#define RPG_GAMECORE_PHOTOGRAPHFREESTYLECONFIG_METHOD_2_809EA9D54C0FF098_OFFSET UNITYSDK_OFFSET(0x1D910DC0)
+#define RPG_GAMECORE_PHOTOGRAPHFREESTYLECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D910E80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PhotoGraphFreeStyleConfig_TypeDefinitionIndex = 18825;
+	inline static constexpr unsigned int PhotoGraphFreeStyleConfig_TypeDefinitionIndex = 19049;
 
 	class PhotoGraphFreeStyleConfig : public ::RPG::GameCore::JsonConfig
 	{

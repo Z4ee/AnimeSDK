@@ -7,10 +7,10 @@
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Xml { class XmlNameTable; }
 
-#define SYSTEM_XML_XPATH_XPATHDOCUMENT_GETXMLNAMESPACENODE_OFFSET UNITYSDK_OFFSET(0x1E876DE0)
-#define SYSTEM_XML_XPATH_XPATHDOCUMENT_GET_HASLINEINFO_OFFSET UNITYSDK_OFFSET(0x1E876DD0)
-#define SYSTEM_XML_XPATH_XPATHDOCUMENT_GET_NAMETABLE_OFFSET UNITYSDK_OFFSET(0x1E876DC0)
-#define SYSTEM_XML_XPATH_XPATHDOCUMENT_LOOKUPNAMESPACES_OFFSET UNITYSDK_OFFSET(0x1E876DF0)
+#define SYSTEM_XML_XPATH_XPATHDOCUMENT_GETXMLNAMESPACENODE_OFFSET UNITYSDK_OFFSET(0x1EF3FA40)
+#define SYSTEM_XML_XPATH_XPATHDOCUMENT_GET_HASLINEINFO_OFFSET UNITYSDK_OFFSET(0x1EF3FA30)
+#define SYSTEM_XML_XPATH_XPATHDOCUMENT_GET_NAMETABLE_OFFSET UNITYSDK_OFFSET(0x1EF3FA20)
+#define SYSTEM_XML_XPATH_XPATHDOCUMENT_LOOKUPNAMESPACES_OFFSET UNITYSDK_OFFSET(0x1EF3FA50)
 
 namespace System::Xml::XPath
 {
@@ -20,10 +20,10 @@ namespace System::Xml::XPath
 	{
 	public:
 		::System::Collections::Generic::Dictionary_2<::MS::Internal::Xml::Cache::XPathNodeRef, ::MS::Internal::Xml::Cache::XPathNodeRef>* mapNmsp; // 0x10
-		::Il2CppArray<::MS::Internal::Xml::Cache::XPathNode>* pageXmlNmsp; // 0x18
-		::System::Xml::XmlNameTable* nameTable; // 0x20
-		::System::Int32 idxXmlNmsp; // 0x28
-		::System::Boolean hasLineInfo; // 0x2C
+		::System::Xml::XmlNameTable* nameTable; // 0x18
+		::Il2CppArray<::MS::Internal::Xml::Cache::XPathNode>* pageXmlNmsp; // 0x20
+		::System::Boolean hasLineInfo; // 0x28
+		::System::Int32 idxXmlNmsp; // 0x2C
 
 		::System::Xml::XmlNameTable* get_NameTable()
 		{

@@ -3,7 +3,7 @@
 #include "unitysdk/RPG/GameCore/TeamTowersPlayerModifierType.h"
 #include "unitysdk/System/ValueType.h"
 
-inline static constexpr unsigned int Struct_2_7D4897E4F10341CE_TypeDefinitionIndex = 36402;
+inline static constexpr unsigned int Struct_2_7D4897E4F10341CE_TypeDefinitionIndex = 37089;
 
 struct alignas(8) Struct_2_7D4897E4F10341CE
 {

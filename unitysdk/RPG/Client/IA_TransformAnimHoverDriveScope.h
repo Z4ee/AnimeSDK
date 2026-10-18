@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IA_TransformAnimHoverDriveScope_TypeDefinitionIndex = 70805;
+	inline static constexpr unsigned int IA_TransformAnimHoverDriveScope_TypeDefinitionIndex = 70843;
 
 	enum class IA_TransformAnimHoverDriveScope : ::System::Int32
 	{

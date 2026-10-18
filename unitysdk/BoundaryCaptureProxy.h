@@ -6,9 +6,9 @@ class Class_3_8FE15D155B05EF4E;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define BOUNDARYCAPTUREPROXY__CTOR_OFFSET UNITYSDK_OFFSET(0xC4F37B0)
+#define BOUNDARYCAPTUREPROXY__CTOR_OFFSET UNITYSDK_OFFSET(0xC1B7270)
 
-inline static constexpr unsigned int BoundaryCaptureProxy_TypeDefinitionIndex = 47943;
+inline static constexpr unsigned int BoundaryCaptureProxy_TypeDefinitionIndex = 47483;
 
 class BoundaryCaptureProxy : public ::RPG::Client::TAMonoPlugin_1<::Class_3_8FE15D155B05EF4E*>
 {

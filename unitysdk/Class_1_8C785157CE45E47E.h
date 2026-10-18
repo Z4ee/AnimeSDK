@@ -1,0 +1,34 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_0_16E4307DCC419505_506;
+class Class_1_071D0EF220D742B6;
+class Class_1_D17272E82AE804C2_15;
+namespace RPG::AvatarSystem { class IAvatar; }
+namespace RPG::Client { class EquipmentItemData; }
+
+#define CLASS_1_8C785157CE45E47E_METHOD_1_1BFE9871CAE90932_OFFSET UNITYSDK_OFFSET(0xBC3E9C0)
+#define CLASS_1_8C785157CE45E47E_METHOD_1_529A5DDCC4BADC33_OFFSET UNITYSDK_OFFSET(0xBC3E780)
+#define CLASS_1_8C785157CE45E47E_METHOD_1_609040254E82EB68_OFFSET UNITYSDK_OFFSET(0xBC3EA50)
+
+inline static constexpr unsigned int Class_1_8C785157CE45E47E_TypeDefinitionIndex = 62544;
+
+class Class_1_8C785157CE45E47E : public ::System::Object
+{
+public:
+	static ::Class_0_16E4307DCC419505_506* Method_1_529A5DDCC4BADC33(::Class_0_16E4307DCC419505_506* a1, ::RPG::AvatarSystem::IAvatar* a2, ::Class_1_D17272E82AE804C2_15* a3)
+	{
+		return ((::Class_0_16E4307DCC419505_506*(*)(::Class_0_16E4307DCC419505_506*, ::RPG::AvatarSystem::IAvatar*, ::Class_1_D17272E82AE804C2_15*))((::PBYTE)hIl2Cpp + CLASS_1_8C785157CE45E47E_METHOD_1_529A5DDCC4BADC33_OFFSET))(a1, a2, a3);
+	}
+
+	static ::RPG::Client::EquipmentItemData* Method_1_1BFE9871CAE90932(::RPG::AvatarSystem::IAvatar* a1, ::Class_1_D17272E82AE804C2_15* a2)
+	{
+		return ((::RPG::Client::EquipmentItemData*(*)(::RPG::AvatarSystem::IAvatar*, ::Class_1_D17272E82AE804C2_15*))((::PBYTE)hIl2Cpp + CLASS_1_8C785157CE45E47E_METHOD_1_1BFE9871CAE90932_OFFSET))(a1, a2);
+	}
+
+	static ::Class_0_16E4307DCC419505_506* Method_1_609040254E82EB68(::Class_0_16E4307DCC419505_506* a1, ::Class_1_071D0EF220D742B6* a2)
+	{
+		return ((::Class_0_16E4307DCC419505_506*(*)(::Class_0_16E4307DCC419505_506*, ::Class_1_071D0EF220D742B6*))((::PBYTE)hIl2Cpp + CLASS_1_8C785157CE45E47E_METHOD_1_609040254E82EB68_OFFSET))(a1, a2);
+	}
+};

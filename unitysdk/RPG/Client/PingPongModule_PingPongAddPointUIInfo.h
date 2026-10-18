@@ -2,27 +2,27 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_PINGPONGMODULE_PINGPONGADDPOINTUIINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xDADDDC0)
+#define RPG_CLIENT_PINGPONGMODULE_PINGPONGADDPOINTUIINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xDB265B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PingPongModule_PingPongAddPointUIInfo_TypeDefinitionIndex = 66496;
+	inline static constexpr unsigned int PingPongModule_PingPongAddPointUIInfo_TypeDefinitionIndex = 66464;
 
 	class PingPongModule_PingPongAddPointUIInfo : public ::System::Object
 	{
 	public:
-		::System::Int32 MaxRacketLengthPointNum; // 0x10
-		::System::Boolean AllowSP; // 0x14
-		::System::Boolean AllowRacketLength; // 0x15
-		::System::Int32 MaxMPPointNum; // 0x18
-		::System::Int32 MaxHPPointNum; // 0x1C
-		::System::Int32 MaxSPPointNum; // 0x20
+		::System::Int32 MaxSPPointNum; // 0x10
+		::System::Int32 MaxRacketSpeedPointNum; // 0x14
+		::System::Int32 MaxHPPointNum; // 0x18
+		::System::Int32 MaxMPPointNum; // 0x1C
+		::System::Boolean AllowMP; // 0x20
+		::System::Boolean AllowSP; // 0x21
 		::System::Int32 PointNum; // 0x24
-		::System::Boolean ShowAddPointUI; // 0x28
-		::System::Boolean AllowHP; // 0x29
-		::System::Boolean AllowMP; // 0x2A
+		::System::Boolean AllowHP; // 0x28
+		::System::Boolean AllowRacketLength; // 0x29
+		::System::Boolean ShowAddPointUI; // 0x2A
 		::System::Boolean AllowRacketSpeed; // 0x2B
-		::System::Int32 MaxRacketSpeedPointNum; // 0x2C
+		::System::Int32 MaxRacketLengthPointNum; // 0x2C
 
 		::System::Void _ctor()
 		{

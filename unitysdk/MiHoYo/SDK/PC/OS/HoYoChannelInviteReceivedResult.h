@@ -5,12 +5,12 @@
 namespace MiHoYo::SDK::PC::OS { class XboxInviteReceivedExtension; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELINVITERECEIVEDRESULT_TOJSON_OFFSET UNITYSDK_OFFSET(0x1BA271C0)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELINVITERECEIVEDRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA271D0)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELINVITERECEIVEDRESULT_TOJSON_OFFSET UNITYSDK_OFFSET(0x1BF30C00)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELINVITERECEIVEDRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF30C10)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int HoYoChannelInviteReceivedResult_TypeDefinitionIndex = 8580;
+	inline static constexpr unsigned int HoYoChannelInviteReceivedResult_TypeDefinitionIndex = 8641;
 
 	class HoYoChannelInviteReceivedResult : public ::MiHoYo::SDK::PC::OS::HoYoChannelBaseResult
 	{

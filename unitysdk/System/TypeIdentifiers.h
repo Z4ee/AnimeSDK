@@ -5,7 +5,7 @@
 namespace System { class String; }
 namespace System { class TypeIdentifier; }
 
-#define SYSTEM_TYPEIDENTIFIERS_FROMDISPLAY_OFFSET UNITYSDK_OFFSET(0x1BC7A560)
+#define SYSTEM_TYPEIDENTIFIERS_FROMDISPLAY_OFFSET UNITYSDK_OFFSET(0x1C1864B0)
 
 namespace System
 {

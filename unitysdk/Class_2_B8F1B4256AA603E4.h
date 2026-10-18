@@ -14,29 +14,29 @@ namespace RPG::GameCore { template <typename T1, typename T2, typename T3> class
 namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_B8F1B4256AA603E4_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC370980)
-#define CLASS_2_B8F1B4256AA603E4_METHOD_2_48088EB3A1EB3C82_OFFSET UNITYSDK_OFFSET(0xC3719A0)
-#define CLASS_2_B8F1B4256AA603E4_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC36ED00)
-#define CLASS_2_B8F1B4256AA603E4_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC3708C0)
-#define CLASS_2_B8F1B4256AA603E4_TICK_OFFSET UNITYSDK_OFFSET(0xC3709D0)
-#define CLASS_2_B8F1B4256AA603E4__CCTOR_OFFSET UNITYSDK_OFFSET(0xC371B00)
-#define CLASS_2_B8F1B4256AA603E4__CTOR_OFFSET UNITYSDK_OFFSET(0xC36EAB0)
+#define CLASS_2_B8F1B4256AA603E4_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC265720)
+#define CLASS_2_B8F1B4256AA603E4_METHOD_2_48088EB3A1EB3C82_OFFSET UNITYSDK_OFFSET(0xC266750)
+#define CLASS_2_B8F1B4256AA603E4_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC263880)
+#define CLASS_2_B8F1B4256AA603E4_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC265660)
+#define CLASS_2_B8F1B4256AA603E4_TICK_OFFSET UNITYSDK_OFFSET(0xC265770)
+#define CLASS_2_B8F1B4256AA603E4__CCTOR_OFFSET UNITYSDK_OFFSET(0xC2668A0)
+#define CLASS_2_B8F1B4256AA603E4__CTOR_OFFSET UNITYSDK_OFFSET(0xC263630)
 
-inline static constexpr unsigned int Class_2_B8F1B4256AA603E4_TypeDefinitionIndex = 55942;
+inline static constexpr unsigned int Class_2_B8F1B4256AA603E4_TypeDefinitionIndex = 55754;
 
 class Class_2_B8F1B4256AA603E4 : public ::Class_1_5F51D4049EA87B7B
 {
 public:
 	static ::System::Type** StaticGet_MAEAGHJCHON()
 	{
-		return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Class_2_B8F1B4256AA603E4_TypeDefinitionIndex)->GetStaticField(0x46C50);
+		return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Class_2_B8F1B4256AA603E4_TypeDefinitionIndex)->GetStaticField(0x6F730);
 	}
 	::RPG::GameCore::TriggerParallelAbility* OFKGLJOAMLD; // 0x18
-	::Il2CppArray<::Class_1_5F51D4049EA87B7B*>* PDJBMIJCFIK; // 0x20
-	::Class_1_07A210D994F284D8_6* ONPOGINJBCB; // 0x28
-	::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x30
-	::System::Collections::Generic::List_1<::Class_2_1DB6C02CA182EEBA*>* PKGNHLKEFKE; // 0x38
-	::System::Collections::Generic::List_1<::RPG::GameCore::Triple_3<::System::Boolean, ::RPG::GameCore::TurnBasedAbilityComponent*, ::RPG::GameCore::GameEntityList*>*>* NEFGIAGAMLD; // 0x40
+	::System::Collections::Generic::List_1<::Class_2_1DB6C02CA182EEBA*>* PKGNHLKEFKE; // 0x20
+	::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x28
+	::Class_1_07A210D994F284D8_6* ONPOGINJBCB; // 0x30
+	::System::Collections::Generic::List_1<::RPG::GameCore::Triple_3<::System::Boolean, ::RPG::GameCore::TurnBasedAbilityComponent*, ::RPG::GameCore::GameEntityList*>*>* NEFGIAGAMLD; // 0x38
+	::Il2CppArray<::Class_1_5F51D4049EA87B7B*>* PDJBMIJCFIK; // 0x40
 	::System::Boolean MEHFJLMANBO; // 0x48
 	::RPG::GameCore::FixPoint OFNOKLJEBBO; // 0x50
 

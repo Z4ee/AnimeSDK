@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T> class IComparer_1
 
 namespace System
 {
-	inline static constexpr unsigned int ArraySortHelper_1_TypeDefinitionIndex = 6065;
+	inline static constexpr unsigned int ArraySortHelper_1_TypeDefinitionIndex = 6073;
 
 	template <typename T>
 	class ArraySortHelper_1 : public ::System::Object

@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int CameraEvent_TypeDefinitionIndex = 4697;
+	inline static constexpr unsigned int CameraEvent_TypeDefinitionIndex = 4701;
 
 	enum class CameraEvent : ::System::Int32
 	{

@@ -9,14 +9,14 @@ namespace RPG::Client { class PhotoGraphResultCondition; }
 namespace RPG::GameCore { class PhotoGraphShotResultCondition; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define RPG_CLIENT_PHOTOGRAPHRESULTCONDITIONPACK_CHECKRESULT_OFFSET UNITYSDK_OFFSET(0xDA78AB0)
-#define RPG_CLIENT_PHOTOGRAPHRESULTCONDITIONPACK_DISPOSE_OFFSET UNITYSDK_OFFSET(0xDA78B40)
-#define RPG_CLIENT_PHOTOGRAPHRESULTCONDITIONPACK_TICK_OFFSET UNITYSDK_OFFSET(0xDA78980)
-#define RPG_CLIENT_PHOTOGRAPHRESULTCONDITIONPACK__CTOR_OFFSET UNITYSDK_OFFSET(0xDA787F0)
+#define RPG_CLIENT_PHOTOGRAPHRESULTCONDITIONPACK_CHECKRESULT_OFFSET UNITYSDK_OFFSET(0xDB00A20)
+#define RPG_CLIENT_PHOTOGRAPHRESULTCONDITIONPACK_DISPOSE_OFFSET UNITYSDK_OFFSET(0xDB00AB0)
+#define RPG_CLIENT_PHOTOGRAPHRESULTCONDITIONPACK_TICK_OFFSET UNITYSDK_OFFSET(0xDB008F0)
+#define RPG_CLIENT_PHOTOGRAPHRESULTCONDITIONPACK__CTOR_OFFSET UNITYSDK_OFFSET(0xDB00760)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PhotoGraphResultConditionPack_TypeDefinitionIndex = 69420;
+	inline static constexpr unsigned int PhotoGraphResultConditionPack_TypeDefinitionIndex = 69456;
 
 	class PhotoGraphResultConditionPack : public ::System::Object
 	{
@@ -25,8 +25,8 @@ namespace RPG::Client
 		::Il2CppArray<::RPG::Client::PhotoGraphResultCondition*>* PhotoGraphResultSingleConditions; // 0x18
 		::RPG::Client::TextID ConditionName; // 0x20
 		::RPG::GameCore::PhotoGraphFovLevel TargetFovLevel; // 0x30
-		::System::Boolean _LastResult; // 0x34
-		::System::Boolean AutoSnapFovLevel; // 0x35
+		::System::Boolean AutoSnapFovLevel; // 0x34
+		::System::Boolean _LastResult; // 0x35
 
 		::System::Void _ctor(::RPG::GameCore::PhotoGraphShotResultCondition* a1, ::RPG::GameCore::TaskContext* a2, ::Class_3_B8A086DB341E9298* a3)
 		{

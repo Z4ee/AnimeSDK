@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/InControl/NativeDeviceProfiles/Xbox360DriverMacNativeProfile.h"
 
-#define INCONTROL_NATIVEDEVICEPROFILES_PDPAFTERGLOWPRISMATICCONTROLLERMACNATIVEPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x1B52FF60)
-#define INCONTROL_NATIVEDEVICEPROFILES_PDPAFTERGLOWPRISMATICCONTROLLERMACNATIVEPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B530050)
+#define INCONTROL_NATIVEDEVICEPROFILES_PDPAFTERGLOWPRISMATICCONTROLLERMACNATIVEPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x1BA2EBC0)
+#define INCONTROL_NATIVEDEVICEPROFILES_PDPAFTERGLOWPRISMATICCONTROLLERMACNATIVEPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA2ECB0)
 
 namespace InControl::NativeDeviceProfiles
 {
-	inline static constexpr unsigned int PDPAfterglowPrismaticControllerMacNativeProfile_TypeDefinitionIndex = 39904;
+	inline static constexpr unsigned int PDPAfterglowPrismaticControllerMacNativeProfile_TypeDefinitionIndex = 41201;
 
 	class PDPAfterglowPrismaticControllerMacNativeProfile : public ::InControl::NativeDeviceProfiles::Xbox360DriverMacNativeProfile
 	{

@@ -3,17 +3,17 @@
 #include "unitysdk/Struct_2_0814C3CA012BD292.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_855;
+class Class_0_16E4307DCC419505_954;
 namespace RPG::Client { class GridFightEquipTrack; }
 namespace RPG::Client { class GridFightEquipTrackData; }
 namespace RPG::Client { class GridFightRole; }
 
-#define CLASS_1_229B74AAA4ABB8C3_METHOD_1_104FFD794943BFEC_OFFSET UNITYSDK_OFFSET(0xC1360A0)
-#define CLASS_1_229B74AAA4ABB8C3_METHOD_1_2FC4DBF736C8F4ED_OFFSET UNITYSDK_OFFSET(0xC136440)
-#define CLASS_1_229B74AAA4ABB8C3_METHOD_1_896D441B7CAC218B_OFFSET UNITYSDK_OFFSET(0xC1364A0)
-#define CLASS_1_229B74AAA4ABB8C3__CTOR_OFFSET UNITYSDK_OFFSET(0xC136540)
+#define CLASS_1_229B74AAA4ABB8C3_METHOD_1_104FFD794943BFEC_OFFSET UNITYSDK_OFFSET(0xC1922A0)
+#define CLASS_1_229B74AAA4ABB8C3_METHOD_1_2FC4DBF736C8F4ED_OFFSET UNITYSDK_OFFSET(0xC192640)
+#define CLASS_1_229B74AAA4ABB8C3_METHOD_1_896D441B7CAC218B_OFFSET UNITYSDK_OFFSET(0xC1926A0)
+#define CLASS_1_229B74AAA4ABB8C3__CTOR_OFFSET UNITYSDK_OFFSET(0xC192740)
 
-inline static constexpr unsigned int Class_1_229B74AAA4ABB8C3_TypeDefinitionIndex = 64991;
+inline static constexpr unsigned int Class_1_229B74AAA4ABB8C3_TypeDefinitionIndex = 64931;
 
 class Class_1_229B74AAA4ABB8C3 : public ::System::Object
 {
@@ -23,9 +23,9 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_229B74AAA4ABB8C3__CTOR_OFFSET))(this);
 	}
 
-	::RPG::Client::GridFightRole* Method_1_104FFD794943BFEC(::System::UInt32 a1, ::Class_0_16E4307DCC419505_855* a2)
+	::RPG::Client::GridFightRole* Method_1_104FFD794943BFEC(::System::UInt32 a1, ::Class_0_16E4307DCC419505_954* a2)
 	{
-		return ((::RPG::Client::GridFightRole*(*)(::PVOID, ::System::UInt32, ::Class_0_16E4307DCC419505_855*))((::PBYTE)hIl2Cpp + CLASS_1_229B74AAA4ABB8C3_METHOD_1_104FFD794943BFEC_OFFSET))(this, a1, a2);
+		return ((::RPG::Client::GridFightRole*(*)(::PVOID, ::System::UInt32, ::Class_0_16E4307DCC419505_954*))((::PBYTE)hIl2Cpp + CLASS_1_229B74AAA4ABB8C3_METHOD_1_104FFD794943BFEC_OFFSET))(this, a1, a2);
 	}
 
 	::RPG::Client::GridFightEquipTrack* Method_1_2FC4DBF736C8F4ED(::System::UInt32 a1, ::RPG::Client::GridFightEquipTrackData* a2)
@@ -33,8 +33,8 @@ public:
 		return ((::RPG::Client::GridFightEquipTrack*(*)(::PVOID, ::System::UInt32, ::RPG::Client::GridFightEquipTrackData*))((::PBYTE)hIl2Cpp + CLASS_1_229B74AAA4ABB8C3_METHOD_1_2FC4DBF736C8F4ED_OFFSET))(this, a1, a2);
 	}
 
-	::System::UInt32 Method_1_896D441B7CAC218B(::System::UInt32 a1, ::Class_0_16E4307DCC419505_855* a2)
+	::System::UInt32 Method_1_896D441B7CAC218B(::System::UInt32 a1, ::Class_0_16E4307DCC419505_954* a2)
 	{
-		return ((::System::UInt32(*)(::PVOID, ::System::UInt32, ::Class_0_16E4307DCC419505_855*))((::PBYTE)hIl2Cpp + CLASS_1_229B74AAA4ABB8C3_METHOD_1_896D441B7CAC218B_OFFSET))(this, a1, a2);
+		return ((::System::UInt32(*)(::PVOID, ::System::UInt32, ::Class_0_16E4307DCC419505_954*))((::PBYTE)hIl2Cpp + CLASS_1_229B74AAA4ABB8C3_METHOD_1_896D441B7CAC218B_OFFSET))(this, a1, a2);
 	}
 };

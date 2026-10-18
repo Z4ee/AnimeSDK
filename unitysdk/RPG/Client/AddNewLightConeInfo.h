@@ -7,12 +7,12 @@ namespace RPG::Client { class EquipmentItemData; }
 namespace RPG::GameCore { class ItemConfig; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ADDNEWLIGHTCONEINFO_CREATEADDNEWLIGHTCONEINFO_OFFSET UNITYSDK_OFFSET(0xC6ABD00)
-#define RPG_CLIENT_ADDNEWLIGHTCONEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xC6AC110)
+#define RPG_CLIENT_ADDNEWLIGHTCONEINFO_CREATEADDNEWLIGHTCONEINFO_OFFSET UNITYSDK_OFFSET(0xC5C91A0)
+#define RPG_CLIENT_ADDNEWLIGHTCONEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xC5C9690)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AddNewLightConeInfo_TypeDefinitionIndex = 65739;
+	inline static constexpr unsigned int AddNewLightConeInfo_TypeDefinitionIndex = 65674;
 
 	class AddNewLightConeInfo : public ::System::Object
 	{

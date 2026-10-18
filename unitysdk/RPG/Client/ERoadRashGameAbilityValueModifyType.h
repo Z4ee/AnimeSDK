@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ERoadRashGameAbilityValueModifyType_TypeDefinitionIndex = 10311;
+	inline static constexpr unsigned int ERoadRashGameAbilityValueModifyType_TypeDefinitionIndex = 10326;
 
 	enum class ERoadRashGameAbilityValueModifyType : ::System::Int32
 	{

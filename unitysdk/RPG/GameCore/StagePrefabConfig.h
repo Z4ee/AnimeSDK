@@ -7,12 +7,12 @@ namespace RPG::GameCore { class StageTypePrefabs; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_STAGEPREFABCONFIG_METHOD_2_ACC913841008953F_OFFSET UNITYSDK_OFFSET(0x1D55BF70)
-#define RPG_GAMECORE_STAGEPREFABCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D55C070)
+#define RPG_GAMECORE_STAGEPREFABCONFIG_METHOD_2_ACC913841008953F_OFFSET UNITYSDK_OFFSET(0x1DB13000)
+#define RPG_GAMECORE_STAGEPREFABCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB13100)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StagePrefabConfig_TypeDefinitionIndex = 16186;
+	inline static constexpr unsigned int StagePrefabConfig_TypeDefinitionIndex = 16359;
 
 	class StagePrefabConfig : public ::RPG::GameCore::JsonConfig
 	{

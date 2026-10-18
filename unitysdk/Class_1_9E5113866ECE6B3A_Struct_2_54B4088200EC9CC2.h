@@ -5,7 +5,7 @@
 
 namespace RPG::GameCore { class SmellPathEdge; }
 
-inline static constexpr unsigned int Class_1_9E5113866ECE6B3A_Struct_2_54B4088200EC9CC2_TypeDefinitionIndex = 61042;
+inline static constexpr unsigned int Class_1_9E5113866ECE6B3A_Struct_2_54B4088200EC9CC2_TypeDefinitionIndex = 60945;
 
 struct alignas(8) Class_1_9E5113866ECE6B3A_Struct_2_54B4088200EC9CC2
 {

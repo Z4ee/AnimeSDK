@@ -11,34 +11,34 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_IDLELIVETECHTREEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D1A5740)
-#define RPG_GAMECORE_IDLELIVETECHTREEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1A5E30)
+#define RPG_GAMECORE_IDLELIVETECHTREEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D781440)
+#define RPG_GAMECORE_IDLELIVETECHTREEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D781B30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveTechTreeRow_TypeDefinitionIndex = 11706;
+	inline static constexpr unsigned int IdleLiveTechTreeRow_TypeDefinitionIndex = 11729;
 
 	class IdleLiveTechTreeRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::RPG::GameCore::FixPoint>* AbilityParamList; // 0x10
-		::System::String* AbilityName; // 0x18
-		::Il2CppArray<::System::UInt32>* PrePointIDList; // 0x20
-		::System::String* IconPath; // 0x28
-		::System::UInt32 Cost; // 0x30
-		::RPG::GameCore::IdleLiveAvatarPropertyType PropertyType; // 0x34
-		::RPG::GameCore::FixPoint TechPowerFactor; // 0x38
-		::System::Boolean IsMainPoint; // 0x40
-		::System::Boolean IsBase; // 0x41
-		::RPG::GameCore::ILBattleAvatarTag TechPowerTagLimit; // 0x44
-		::RPG::GameCore::FixPoint TechAddPower; // 0x48
-		::System::Double PropertyParam; // 0x50
-		::RPG::Client::TextID Desc; // 0x58
-		::RPG::GameCore::IdleLiveTechTreeEffectType Type; // 0x68
-		::System::UInt32 ID; // 0x6C
-		::RPG::Client::TextID Name; // 0x70
-		::System::UInt32 Param; // 0x80
-		::RPG::GameCore::IdleLiveAvatarPropertyTargetType PropertyTarget; // 0x84
+		::System::String* AbilityName; // 0x10
+		::System::String* IconPath; // 0x18
+		::Il2CppArray<::RPG::GameCore::FixPoint>* AbilityParamList; // 0x20
+		::Il2CppArray<::System::UInt32>* PrePointIDList; // 0x28
+		::System::UInt32 Param; // 0x30
+		::RPG::GameCore::IdleLiveTechTreeEffectType Type; // 0x34
+		::System::Double PropertyParam; // 0x38
+		::RPG::Client::TextID Name; // 0x40
+		::System::UInt32 ID; // 0x50
+		::System::Boolean IsMainPoint; // 0x54
+		::System::Boolean IsBase; // 0x55
+		::RPG::GameCore::ILBattleAvatarTag TechPowerTagLimit; // 0x58
+		::System::UInt32 Cost; // 0x5C
+		::RPG::GameCore::IdleLiveAvatarPropertyType PropertyType; // 0x60
+		::RPG::GameCore::IdleLiveAvatarPropertyTargetType PropertyTarget; // 0x64
+		::RPG::GameCore::FixPoint TechAddPower; // 0x68
+		::RPG::Client::TextID Desc; // 0x70
+		::RPG::GameCore::FixPoint TechPowerFactor; // 0x80
 
 		::System::Void _ctor()
 		{

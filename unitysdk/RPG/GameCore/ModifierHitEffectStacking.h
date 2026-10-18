@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ModifierHitEffectStacking_TypeDefinitionIndex = 24467;
+	inline static constexpr unsigned int ModifierHitEffectStacking_TypeDefinitionIndex = 24749;
 
 	enum class ModifierHitEffectStacking : ::System::Int32
 	{

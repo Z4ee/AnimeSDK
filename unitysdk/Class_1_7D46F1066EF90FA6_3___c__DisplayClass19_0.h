@@ -6,10 +6,10 @@
 namespace RPG::AvatarSystem { class IAvatar; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define CLASS_1_7D46F1066EF90FA6_3___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB6E6590)
-#define CLASS_1_7D46F1066EF90FA6_3___C__DISPLAYCLASS19_0__FILLSPECIFICPATHAVATARSBYROLETO_B__0_OFFSET UNITYSDK_OFFSET(0xB6E66B0)
+#define CLASS_1_7D46F1066EF90FA6_3___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB58B530)
+#define CLASS_1_7D46F1066EF90FA6_3___C__DISPLAYCLASS19_0__FILLSPECIFICPATHAVATARSBYROLETO_B__0_OFFSET UNITYSDK_OFFSET(0xB58B650)
 
-inline static constexpr unsigned int Class_1_7D46F1066EF90FA6_3___c__DisplayClass19_0_TypeDefinitionIndex = 62756;
+inline static constexpr unsigned int Class_1_7D46F1066EF90FA6_3___c__DisplayClass19_0_TypeDefinitionIndex = 62674;
 
 class Class_1_7D46F1066EF90FA6_3___c__DisplayClass19_0 : public ::System::Object
 {

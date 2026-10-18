@@ -6,7 +6,7 @@
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int AsyncEnumerableSorter_1_TypeDefinitionIndex = 44379;
+	inline static constexpr unsigned int AsyncEnumerableSorter_1_TypeDefinitionIndex = 45518;
 
 	template <typename TElement>
 	class AsyncEnumerableSorter_1 : public ::System::Object

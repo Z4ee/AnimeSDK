@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CUSTOMRP_REFLECTIONSETTING_SSRSETTINGDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1C6E6630)
+#define RPG_CUSTOMRP_REFLECTIONSETTING_SSRSETTINGDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC6CC30)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int ReflectionSetting_SSRSettingData_TypeDefinitionIndex = 37167;
+	inline static constexpr unsigned int ReflectionSetting_SSRSettingData_TypeDefinitionIndex = 37853;
 
 	class ReflectionSetting_SSRSettingData : public ::System::Object
 	{
@@ -23,9 +23,11 @@ namespace RPG::CustomRP
 		::System::Boolean UsePreviousFrameColor; // 0x30
 		::System::Boolean EnableSpatialFilter; // 0x31
 		::System::Boolean EnableBilateralFilter; // 0x32
-		::System::Single TemporalStaticWeight; // 0x34
-		::System::Single TemporalDynamicWeight; // 0x38
-		::System::Single Thickness; // 0x3C
+		::System::Boolean EnableSDFTrace; // 0x33
+		::System::Int32 MaxRaysPerPixel; // 0x34
+		::System::Single TemporalStaticWeight; // 0x38
+		::System::Single TemporalDynamicWeight; // 0x3C
+		::System::Single Thickness; // 0x40
 
 		::System::Void _ctor()
 		{

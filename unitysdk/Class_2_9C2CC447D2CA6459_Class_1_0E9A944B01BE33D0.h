@@ -5,9 +5,9 @@
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TurnBasedGameMode; }
 
-#define CLASS_2_9C2CC447D2CA6459_CLASS_1_0E9A944B01BE33D0__CTOR_OFFSET UNITYSDK_OFFSET(0xBCD2950)
+#define CLASS_2_9C2CC447D2CA6459_CLASS_1_0E9A944B01BE33D0__CTOR_OFFSET UNITYSDK_OFFSET(0xBBABC10)
 
-inline static constexpr unsigned int Class_2_9C2CC447D2CA6459_Class_1_0E9A944B01BE33D0_TypeDefinitionIndex = 71538;
+inline static constexpr unsigned int Class_2_9C2CC447D2CA6459_Class_1_0E9A944B01BE33D0_TypeDefinitionIndex = 71589;
 
 class Class_2_9C2CC447D2CA6459_Class_1_0E9A944B01BE33D0 : public ::System::Object
 {

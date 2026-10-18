@@ -7,23 +7,23 @@
 
 namespace System { class String; }
 
-#define RPG_GAMECORE_BASEMODIFIERINSTANCE_MODIFIERMUTEXEFFECTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xE527C40)
+#define RPG_GAMECORE_BASEMODIFIERINSTANCE_MODIFIERMUTEXEFFECTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xE5BA570)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BaseModifierInstance_ModifierMutexEffectData_TypeDefinitionIndex = 54645;
+	inline static constexpr unsigned int BaseModifierInstance_ModifierMutexEffectData_TypeDefinitionIndex = 54432;
 
 	class BaseModifierInstance_ModifierMutexEffectData : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::RPG::GameCore::MonoEffectFlag>* Flag; // 0x10
-		::System::String* DynamicAttach; // 0x18
+		::System::String* DynamicAttach; // 0x10
+		::Il2CppArray<::RPG::GameCore::MonoEffectFlag>* Flag; // 0x18
 		::System::String* EffectPath; // 0x20
-		::RPG::MVector3 RotationOffset; // 0x28
-		::System::Int32 MaxMutexCount; // 0x34
-		::RPG::GameCore::EffectMutexType MutexType; // 0x38
-		::System::Single MinMutexTime; // 0x3C
-		::RPG::MVector3 PositionOffset; // 0x40
+		::System::Int32 MaxMutexCount; // 0x28
+		::RPG::MVector3 RotationOffset; // 0x2C
+		::System::Single MinMutexTime; // 0x38
+		::RPG::MVector3 PositionOffset; // 0x3C
+		::RPG::GameCore::EffectMutexType MutexType; // 0x48
 
 		::System::Void _ctor(::System::String* a1, ::System::String* a2, ::RPG::MVector3 a3, ::RPG::MVector3 a4, ::Il2CppArray<::RPG::GameCore::MonoEffectFlag>* a5, ::RPG::GameCore::EffectMutexType a6, ::System::Single a7, ::System::Int32 a8)
 		{

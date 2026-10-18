@@ -4,12 +4,12 @@
 
 namespace RPG::GameCore { class GridFightScoreRewardConfigRow; }
 
-#define RPG_CLIENT_GRIDFIGHTWEEKLYSCORE___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD37FC20)
-#define RPG_CLIENT_GRIDFIGHTWEEKLYSCORE___C__DISPLAYCLASS5_0__GETREWARDBYSCORERANK_B__0_OFFSET UNITYSDK_OFFSET(0xD381410)
+#define RPG_CLIENT_GRIDFIGHTWEEKLYSCORE___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD2D9630)
+#define RPG_CLIENT_GRIDFIGHTWEEKLYSCORE___C__DISPLAYCLASS5_0__GETREWARDBYSCORERANK_B__0_OFFSET UNITYSDK_OFFSET(0xD2DADB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightWeeklyScore___c__DisplayClass5_0_TypeDefinitionIndex = 65588;
+	inline static constexpr unsigned int GridFightWeeklyScore___c__DisplayClass5_0_TypeDefinitionIndex = 65528;
 
 	class GridFightWeeklyScore___c__DisplayClass5_0 : public ::System::Object
 	{

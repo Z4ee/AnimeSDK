@@ -2,25 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_E01A66D05D835284_1;
+class Class_1_B9D6E7E76075C6E2_2;
 
-#define CLASS_1_F9FBCC956DFCF137_43_GET_RULE_OFFSET UNITYSDK_OFFSET(0xBC7B770)
-#define CLASS_1_F9FBCC956DFCF137_43__CTOR_OFFSET UNITYSDK_OFFSET(0xBC7B760)
+#define CLASS_1_F9FBCC956DFCF137_43__CTOR_OFFSET UNITYSDK_OFFSET(0x15D796B0)
 
-inline static constexpr unsigned int Class_1_F9FBCC956DFCF137_43_TypeDefinitionIndex = 79389;
+inline static constexpr unsigned int Class_1_F9FBCC956DFCF137_43_TypeDefinitionIndex = 80563;
 
 class Class_1_F9FBCC956DFCF137_43 : public ::System::Object
 {
 public:
-	::Class_1_E01A66D05D835284_1* _Rule_k__BackingField; // 0x10
+	::Class_1_B9D6E7E76075C6E2_2* HNEOOKPBCNK; // 0x10
 
-	::System::Void _ctor(::Class_1_E01A66D05D835284_1* a1)
+	::System::Void _ctor(::Class_1_B9D6E7E76075C6E2_2* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_1_E01A66D05D835284_1*))((::PBYTE)hIl2Cpp + CLASS_1_F9FBCC956DFCF137_43__CTOR_OFFSET))(this, a1);
-	}
-
-	::Class_1_E01A66D05D835284_1* get_Rule()
-	{
-		return ((::Class_1_E01A66D05D835284_1*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F9FBCC956DFCF137_43_GET_RULE_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID, ::Class_1_B9D6E7E76075C6E2_2*))((::PBYTE)hIl2Cpp + CLASS_1_F9FBCC956DFCF137_43__CTOR_OFFSET))(this, a1);
 	}
 };

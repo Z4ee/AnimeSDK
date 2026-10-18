@@ -4,31 +4,31 @@
 
 namespace System { class String; }
 
-#define CLASS_1_631000B5AAE32A04_METHOD_1_019433AA5F044915_OFFSET UNITYSDK_OFFSET(0xC4F9AE0)
-#define CLASS_1_631000B5AAE32A04_METHOD_1_71F0872EB31B61BD_OFFSET UNITYSDK_OFFSET(0xC4F9E80)
-#define CLASS_1_631000B5AAE32A04_METHOD_1_7BE812B945CF0498_OFFSET UNITYSDK_OFFSET(0xC4F9CE0)
-#define CLASS_1_631000B5AAE32A04__CCTOR_OFFSET UNITYSDK_OFFSET(0xC4F9F00)
+#define CLASS_1_631000B5AAE32A04_METHOD_1_019433AA5F044915_OFFSET UNITYSDK_OFFSET(0xC1BD6C0)
+#define CLASS_1_631000B5AAE32A04_METHOD_1_71F0872EB31B61BD_OFFSET UNITYSDK_OFFSET(0xC1BDA60)
+#define CLASS_1_631000B5AAE32A04_METHOD_1_7BE812B945CF0498_OFFSET UNITYSDK_OFFSET(0xC1BD8C0)
+#define CLASS_1_631000B5AAE32A04__CCTOR_OFFSET UNITYSDK_OFFSET(0xC1BDAE0)
 
-inline static constexpr unsigned int Class_1_631000B5AAE32A04_TypeDefinitionIndex = 61450;
+inline static constexpr unsigned int Class_1_631000B5AAE32A04_TypeDefinitionIndex = 61356;
 
 class Class_1_631000B5AAE32A04 : public ::System::Object
 {
 public:
-	static ::System::String** StaticGet_ACLDOADLKGE()
+	static ::System::String** StaticGet_EDMGDJLAOLP()
 	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_631000B5AAE32A04_TypeDefinitionIndex)->GetStaticField(0x60440);
-	}
-	static ::System::String** StaticGet_NJBINOCOCED()
-	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_631000B5AAE32A04_TypeDefinitionIndex)->GetStaticField(0x60448);
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_631000B5AAE32A04_TypeDefinitionIndex)->GetStaticField(0xD4D0);
 	}
 	static ::System::String** StaticGet_HKODCLIDLAI()
 	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_631000B5AAE32A04_TypeDefinitionIndex)->GetStaticField(0x60450);
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_631000B5AAE32A04_TypeDefinitionIndex)->GetStaticField(0xD4D8);
 	}
-	static ::System::String** StaticGet_EDMGDJLAOLP()
+	static ::System::String** StaticGet_NJBINOCOCED()
 	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_631000B5AAE32A04_TypeDefinitionIndex)->GetStaticField(0x60458);
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_631000B5AAE32A04_TypeDefinitionIndex)->GetStaticField(0xD4E0);
+	}
+	static ::System::String** StaticGet_ACLDOADLKGE()
+	{
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_631000B5AAE32A04_TypeDefinitionIndex)->GetStaticField(0xD4E8);
 	}
 
 	static ::System::Void _cctor()

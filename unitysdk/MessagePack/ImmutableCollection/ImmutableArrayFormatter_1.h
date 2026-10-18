@@ -4,7 +4,7 @@
 
 namespace MessagePack::ImmutableCollection
 {
-	inline static constexpr unsigned int ImmutableArrayFormatter_1_TypeDefinitionIndex = 7300;
+	inline static constexpr unsigned int ImmutableArrayFormatter_1_TypeDefinitionIndex = 7354;
 
 	template <typename T>
 	class ImmutableArrayFormatter_1 : public ::System::Object

@@ -5,20 +5,20 @@
 class Class_1_A0E178FC9445316D;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_C58549E83E2A95B6_GET_GRAPHDESC_OFFSET UNITYSDK_OFFSET(0xBA26EF0)
-#define CLASS_1_C58549E83E2A95B6_GET_WAYPOINTS_OFFSET UNITYSDK_OFFSET(0xBA26ED0)
-#define CLASS_1_C58549E83E2A95B6_SET_GRAPHDESC_OFFSET UNITYSDK_OFFSET(0xBA26F00)
-#define CLASS_1_C58549E83E2A95B6_SET_WAYPOINTS_OFFSET UNITYSDK_OFFSET(0xBA26EE0)
-#define CLASS_1_C58549E83E2A95B6__CTOR_1_OFFSET UNITYSDK_OFFSET(0xBA26F20)
-#define CLASS_1_C58549E83E2A95B6__CTOR_OFFSET UNITYSDK_OFFSET(0xBA26F10)
+#define CLASS_1_C58549E83E2A95B6_GET_GRAPHDESC_OFFSET UNITYSDK_OFFSET(0xB8E83A0)
+#define CLASS_1_C58549E83E2A95B6_GET_WAYPOINTS_OFFSET UNITYSDK_OFFSET(0xB8E8380)
+#define CLASS_1_C58549E83E2A95B6_SET_GRAPHDESC_OFFSET UNITYSDK_OFFSET(0xB8E83B0)
+#define CLASS_1_C58549E83E2A95B6_SET_WAYPOINTS_OFFSET UNITYSDK_OFFSET(0xB8E8390)
+#define CLASS_1_C58549E83E2A95B6__CTOR_1_OFFSET UNITYSDK_OFFSET(0xB8E83D0)
+#define CLASS_1_C58549E83E2A95B6__CTOR_OFFSET UNITYSDK_OFFSET(0xB8E83C0)
 
-inline static constexpr unsigned int Class_1_C58549E83E2A95B6_TypeDefinitionIndex = 59117;
+inline static constexpr unsigned int Class_1_C58549E83E2A95B6_TypeDefinitionIndex = 58969;
 
 class Class_1_C58549E83E2A95B6 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::Class_1_A0E178FC9445316D*>* _Waypoints_k__BackingField; // 0x10
-	::System::Collections::Generic::List_1<::Il2CppArray<::System::UInt32>*>* _GraphDesc_k__BackingField; // 0x18
+	::System::Collections::Generic::List_1<::Il2CppArray<::System::UInt32>*>* _GraphDesc_k__BackingField; // 0x10
+	::System::Collections::Generic::List_1<::Class_1_A0E178FC9445316D*>* _Waypoints_k__BackingField; // 0x18
 
 	::System::Void _ctor(::System::Collections::Generic::List_1<::Class_1_A0E178FC9445316D*>* a1)
 	{

@@ -3,17 +3,17 @@
 #include "unitysdk/RPGTools/Timeline/BindInfo.h"
 #include "unitysdk/UnityEngine/ScriptableObject.h"
 
-class Class_1_A2C90C566F67A6EF;
+class Class_1_931C16ED05EDD797;
 namespace RPGTools::Timeline { class ArchiveAsset; }
 namespace System { class String; }
 namespace UnityEngine::Playables { class PlayableDirector; }
 
-#define RPGTOOLS_TIMELINE_BINDINGDATA_METHOD_3_05ACC7784C84BBE4_OFFSET UNITYSDK_OFFSET(0xE81D960)
-#define RPGTOOLS_TIMELINE_BINDINGDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xE81DBC0)
+#define RPGTOOLS_TIMELINE_BINDINGDATA_METHOD_3_05ACC7784C84BBE4_OFFSET UNITYSDK_OFFSET(0xE8BB470)
+#define RPGTOOLS_TIMELINE_BINDINGDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xE8BB6D0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int BindingData_TypeDefinitionIndex = 48964;
+	inline static constexpr unsigned int BindingData_TypeDefinitionIndex = 48510;
 
 	class BindingData : public ::UnityEngine::ScriptableObject
 	{
@@ -27,9 +27,9 @@ namespace RPGTools::Timeline
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_BINDINGDATA__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Method_3_05ACC7784C84BBE4(::UnityEngine::Playables::PlayableDirector* a1, ::Class_1_A2C90C566F67A6EF* a2)
+		::System::Void Method_3_05ACC7784C84BBE4(::UnityEngine::Playables::PlayableDirector* a1, ::Class_1_931C16ED05EDD797* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::PlayableDirector*, ::Class_1_A2C90C566F67A6EF*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_BINDINGDATA_METHOD_3_05ACC7784C84BBE4_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::PlayableDirector*, ::Class_1_931C16ED05EDD797*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_BINDINGDATA_METHOD_3_05ACC7784C84BBE4_OFFSET))(this, a1, a2);
 		}
 	};
 }

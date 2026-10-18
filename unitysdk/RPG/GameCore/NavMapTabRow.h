@@ -6,23 +6,23 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_NAVMAPTABROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D2F2460)
-#define RPG_GAMECORE_NAVMAPTABROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2F2C10)
+#define RPG_GAMECORE_NAVMAPTABROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D8D4D50)
+#define RPG_GAMECORE_NAVMAPTABROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D8D5500)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int NavMapTabRow_TypeDefinitionIndex = 13895;
+	inline static constexpr unsigned int NavMapTabRow_TypeDefinitionIndex = 14002;
 
 	class NavMapTabRow : public ::System::Object
 	{
 	public:
 		::System::UInt32 SortID; // 0x10
+		::RPG::GameCore::MapSpaceType MapSpaceType; // 0x14
 		::RPG::Client::TextID Name; // 0x18
-		::RPG::GameCore::MapSpaceType MapSpaceType; // 0x28
-		::System::UInt32 MenuIconID; // 0x2C
-		::RPG::Client::TextID Desc; // 0x30
-		::System::UInt32 WorldID; // 0x40
-		::System::UInt32 ID; // 0x44
+		::System::UInt32 ID; // 0x28
+		::System::UInt32 WorldID; // 0x2C
+		::System::UInt32 MenuIconID; // 0x30
+		::RPG::Client::TextID Desc; // 0x38
 
 		::System::Void _ctor()
 		{

@@ -1,8 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/Struct_2_85C948A9FFE82053.h"
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_422_TypeDefinitionIndex = 52193;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_422_TypeDefinitionIndex = 44232;
 
+template <typename TViewModel, typename TView>
 class Class_0_16E4307DCC419505_422
 {
 public:

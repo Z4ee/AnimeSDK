@@ -9,7 +9,7 @@ namespace Cysharp::Threading::Tasks { template <typename T> class IUniTaskAsyncE
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int Pairwise_1_TypeDefinitionIndex = 44393;
+	inline static constexpr unsigned int Pairwise_1_TypeDefinitionIndex = 45532;
 
 	template <typename TSource>
 	class Pairwise_1 : public ::System::Object

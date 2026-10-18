@@ -9,11 +9,11 @@ namespace RPG::Client { class CurveObjectLoadTrigger; }
 namespace System { class String; }
 namespace UnityEngine { class Collider; }
 
-#define RPG_CLIENT_CURVEOBJECTLOGICTRIGGERSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0xCC89370)
+#define RPG_CLIENT_CURVEOBJECTLOGICTRIGGERSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0xCBDCCC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CurveObjectLogicTriggerSetting_TypeDefinitionIndex = 68522;
+	inline static constexpr unsigned int CurveObjectLogicTriggerSetting_TypeDefinitionIndex = 68556;
 
 	class CurveObjectLogicTriggerSetting : public ::System::Object
 	{

@@ -7,22 +7,22 @@ class Class_1_7A22A3DBEEDD1F80;
 class Class_1_A4D134A7DAD941E3;
 namespace System { class String; }
 
-#define RPG_GAMECORE_RELICSETSKILLCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D39B4B0)
-#define RPG_GAMECORE_RELICSETSKILLCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D39BBA0)
+#define RPG_GAMECORE_RELICSETSKILLCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D981930)
+#define RPG_GAMECORE_RELICSETSKILLCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D982020)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RelicSetSkillConfigRow_TypeDefinitionIndex = 14473;
+	inline static constexpr unsigned int RelicSetSkillConfigRow_TypeDefinitionIndex = 14638;
 
 	class RelicSetSkillConfigRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::RPG::GameCore::FixPoint>* AbilityParamList; // 0x10
-		::System::String* SkillDesc; // 0x18
-		::System::String* AbilityName; // 0x20
-		::Il2CppArray<::Class_1_A4D134A7DAD941E3*>* PropertyList; // 0x28
-		::System::UInt32 RequireNum; // 0x30
-		::System::UInt32 SetID; // 0x34
+		::System::String* AbilityName; // 0x10
+		::Il2CppArray<::Class_1_A4D134A7DAD941E3*>* PropertyList; // 0x18
+		::System::String* SkillDesc; // 0x20
+		::Il2CppArray<::RPG::GameCore::FixPoint>* AbilityParamList; // 0x28
+		::System::UInt32 SetID; // 0x30
+		::System::UInt32 RequireNum; // 0x34
 
 		::System::Void _ctor()
 		{

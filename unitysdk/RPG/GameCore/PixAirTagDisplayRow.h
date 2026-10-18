@@ -6,12 +6,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_PIXAIRTAGDISPLAYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D338DB0)
-#define RPG_GAMECORE_PIXAIRTAGDISPLAYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D338FB0)
+#define RPG_GAMECORE_PIXAIRTAGDISPLAYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D91E090)
+#define RPG_GAMECORE_PIXAIRTAGDISPLAYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D91E290)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PixAirTagDisplayRow_TypeDefinitionIndex = 12086;
+	inline static constexpr unsigned int PixAirTagDisplayRow_TypeDefinitionIndex = 12167;
 
 	class PixAirTagDisplayRow : public ::System::Object
 	{

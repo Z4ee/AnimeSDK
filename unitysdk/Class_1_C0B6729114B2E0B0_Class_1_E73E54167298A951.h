@@ -5,9 +5,9 @@
 namespace Cinemachine { class CinemachineCRPVirtualCamera; }
 namespace UnityEngine::Rendering { class CRPVirtualCamera; }
 
-#define CLASS_1_C0B6729114B2E0B0_CLASS_1_E73E54167298A951__CTOR_OFFSET UNITYSDK_OFFSET(0xBA30710)
+#define CLASS_1_C0B6729114B2E0B0_CLASS_1_E73E54167298A951__CTOR_OFFSET UNITYSDK_OFFSET(0xB8F3360)
 
-inline static constexpr unsigned int Class_1_C0B6729114B2E0B0_Class_1_E73E54167298A951_TypeDefinitionIndex = 60767;
+inline static constexpr unsigned int Class_1_C0B6729114B2E0B0_Class_1_E73E54167298A951_TypeDefinitionIndex = 60668;
 
 class Class_1_C0B6729114B2E0B0_Class_1_E73E54167298A951 : public ::System::Object
 {

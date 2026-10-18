@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_AVATARPATHCHANGEVIRTUALCAMERABLENDCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xC83A130)
+#define RPG_CLIENT_AVATARPATHCHANGEVIRTUALCAMERABLENDCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xC708030)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AvatarPathChangeVirtualCameraBlendConfig_TypeDefinitionIndex = 71299;
+	inline static constexpr unsigned int AvatarPathChangeVirtualCameraBlendConfig_TypeDefinitionIndex = 71337;
 
 	class AvatarPathChangeVirtualCameraBlendConfig : public ::System::Object
 	{

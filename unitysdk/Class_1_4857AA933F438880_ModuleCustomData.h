@@ -6,17 +6,17 @@
 
 class Class_1_4857AA933F438880_ItemData;
 
-#define CLASS_1_4857AA933F438880_MODULECUSTOMDATA_GET_CUSTOMUVTILLING_OFFSET UNITYSDK_OFFSET(0x8C0E0)
-#define CLASS_1_4857AA933F438880_MODULECUSTOMDATA_GET_ITEMDATA_OFFSET UNITYSDK_OFFSET(0x8C150)
-#define CLASS_1_4857AA933F438880_MODULECUSTOMDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0xBE99E10)
+#define CLASS_1_4857AA933F438880_MODULECUSTOMDATA_GET_CUSTOMUVTILLING_OFFSET UNITYSDK_OFFSET(0x22A10)
+#define CLASS_1_4857AA933F438880_MODULECUSTOMDATA_GET_ITEMDATA_OFFSET UNITYSDK_OFFSET(0x22A80)
+#define CLASS_1_4857AA933F438880_MODULECUSTOMDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0xBD2AFA0)
 
-inline static constexpr unsigned int Class_1_4857AA933F438880_ModuleCustomData_TypeDefinitionIndex = 49312;
+inline static constexpr unsigned int Class_1_4857AA933F438880_ModuleCustomData_TypeDefinitionIndex = 48866;
 
 struct alignas(4) Class_1_4857AA933F438880_ModuleCustomData
 {
 	static ::Class_1_4857AA933F438880_ModuleCustomData* StaticGet_Default()
 	{
-		return (::Class_1_4857AA933F438880_ModuleCustomData*)Il2CppClass::FromTypeDefinitionIndex(Class_1_4857AA933F438880_ModuleCustomData_TypeDefinitionIndex)->GetStaticField(0xF7C0);
+		return (::Class_1_4857AA933F438880_ModuleCustomData*)Il2CppClass::FromTypeDefinitionIndex(Class_1_4857AA933F438880_ModuleCustomData_TypeDefinitionIndex)->GetStaticField(0x13E20);
 	}
 	::System::Boolean IfEnableDeform; // 0x10
 	::System::Boolean IfEnableStretch; // 0x11

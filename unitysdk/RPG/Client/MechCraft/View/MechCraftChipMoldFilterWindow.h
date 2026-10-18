@@ -1,0 +1,48 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Sofa/BaseSofaWindow.h"
+
+class Class_1_372FFC98CCCE471B;
+namespace RPG::Client::MechCraft::View { class MechCraftChipMoldFilterControl; }
+
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCHIPMOLDFILTERWINDOW_GET__TYPEDDATACONTEXT_OFFSET UNITYSDK_OFFSET(0xD5F4C50)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCHIPMOLDFILTERWINDOW_SET__TYPEDDATACONTEXT_OFFSET UNITYSDK_OFFSET(0xD5F4D00)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCHIPMOLDFILTERWINDOW__CTOR_OFFSET UNITYSDK_OFFSET(0xD5F4D10)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCHIPMOLDFILTERWINDOW__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0xD5F4F30)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCHIPMOLDFILTERWINDOW__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0xD5F4DF0)
+
+namespace RPG::Client::MechCraft::View
+{
+	inline static constexpr unsigned int MechCraftChipMoldFilterWindow_TypeDefinitionIndex = 79903;
+
+	class MechCraftChipMoldFilterWindow : public ::Sofa::BaseSofaWindow
+	{
+	public:
+		::RPG::Client::MechCraft::View::MechCraftChipMoldFilterControl* _Control; // 0x48
+
+		::System::Void _ctor(::Class_1_372FFC98CCCE471B* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_372FFC98CCCE471B*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCHIPMOLDFILTERWINDOW__CTOR_OFFSET))(this, a1);
+		}
+
+		::Class_1_372FFC98CCCE471B* get__TypedDataContext()
+		{
+			return ((::Class_1_372FFC98CCCE471B*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCHIPMOLDFILTERWINDOW_GET__TYPEDDATACONTEXT_OFFSET))(this);
+		}
+
+		::System::Void set__TypedDataContext(::Class_1_372FFC98CCCE471B* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_372FFC98CCCE471B*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCHIPMOLDFILTERWINDOW_SET__TYPEDDATACONTEXT_OFFSET))(this, a1);
+		}
+
+		::System::Void _OnInitializeComponent()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCHIPMOLDFILTERWINDOW__ONINITIALIZECOMPONENT_OFFSET))(this);
+		}
+
+		::System::Void _OnBindViewModel()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCHIPMOLDFILTERWINDOW__ONBINDVIEWMODEL_OFFSET))(this);
+		}
+	};
+}

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class DronesSwitchDynamicCollider; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_EBA0335A18625977_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xDD8FEA0)
-#define CLASS_3_EBA0335A18625977__CTOR_OFFSET UNITYSDK_OFFSET(0xDD8FE70)
+#define CLASS_3_EBA0335A18625977_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xDCCDFF0)
+#define CLASS_3_EBA0335A18625977__CTOR_OFFSET UNITYSDK_OFFSET(0xDCCDFC0)
 
-inline static constexpr unsigned int Class_3_EBA0335A18625977_TypeDefinitionIndex = 58244;
+inline static constexpr unsigned int Class_3_EBA0335A18625977_TypeDefinitionIndex = 58092;
 
 class Class_3_EBA0335A18625977 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::DronesSwitchDynamicCollider*>
 {

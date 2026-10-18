@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_TEAMTOWERSROBOTCONFIG_METHOD_2_090B6B8A25740C79_OFFSET UNITYSDK_OFFSET(0x1D5C5890)
-#define RPG_GAMECORE_TEAMTOWERSROBOTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5C6A30)
+#define RPG_GAMECORE_TEAMTOWERSROBOTCONFIG_METHOD_2_383E81313637EF82_OFFSET UNITYSDK_OFFSET(0x1DB7CF80)
+#define RPG_GAMECORE_TEAMTOWERSROBOTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB7E1A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TeamTowersRobotConfig_TypeDefinitionIndex = 18720;
+	inline static constexpr unsigned int TeamTowersRobotConfig_TypeDefinitionIndex = 18944;
 
 	class TeamTowersRobotConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -29,9 +29,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMTOWERSROBOTCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_090B6B8A25740C79(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TeamTowersRobotConfig*& a2)
+		static ::System::Void Method_2_383E81313637EF82(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TeamTowersRobotConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TeamTowersRobotConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMTOWERSROBOTCONFIG_METHOD_2_090B6B8A25740C79_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TeamTowersRobotConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMTOWERSROBOTCONFIG_METHOD_2_383E81313637EF82_OFFSET))(a1, a2);
 		}
 	};
 }

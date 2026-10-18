@@ -4,10 +4,10 @@
 
 namespace RPG::Client::LittleGame::FiveDim { class SidePuzzleTargetData; }
 
-#define CLASS_1_7D93990153DD34ED___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC521370)
-#define CLASS_1_7D93990153DD34ED___C__DISPLAYCLASS4_0___ONQUESTUPDATED_B__0_OFFSET UNITYSDK_OFFSET(0xC523DF0)
+#define CLASS_1_7D93990153DD34ED___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC49A3A0)
+#define CLASS_1_7D93990153DD34ED___C__DISPLAYCLASS4_0___ONQUESTUPDATED_B__0_OFFSET UNITYSDK_OFFSET(0xC49CE10)
 
-inline static constexpr unsigned int Class_1_7D93990153DD34ED___c__DisplayClass4_0_TypeDefinitionIndex = 76358;
+inline static constexpr unsigned int Class_1_7D93990153DD34ED___c__DisplayClass4_0_TypeDefinitionIndex = 76835;
 
 class Class_1_7D93990153DD34ED___c__DisplayClass4_0 : public ::System::Object
 {

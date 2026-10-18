@@ -8,52 +8,52 @@ namespace Proto { class PerformanceStartSnapshot; }
 namespace System { class String; }
 namespace System::IO { class Stream; }
 
-#define RPG_CLIENT_PERFORMANCEREPLAYUTILS_AESDECRYPT_OFFSET UNITYSDK_OFFSET(0xDA58F20)
-#define RPG_CLIENT_PERFORMANCEREPLAYUTILS_AESENCRYPT_OFFSET UNITYSDK_OFFSET(0xDA59770)
-#define RPG_CLIENT_PERFORMANCEREPLAYUTILS_GETPERFORMANCESNAPSHOTFILENAME_OFFSET UNITYSDK_OFFSET(0xDA58D90)
-#define RPG_CLIENT_PERFORMANCEREPLAYUTILS_LOADPERFORMANCESTARTSNAPSHOTWITHBACKUP_OFFSET UNITYSDK_OFFSET(0xDA58A90)
-#define RPG_CLIENT_PERFORMANCEREPLAYUTILS_LOADPERFORMANCESTARTSNAPSHOT_OFFSET UNITYSDK_OFFSET(0xDA58B40)
-#define RPG_CLIENT_PERFORMANCEREPLAYUTILS_WRITETOSTREAM_OFFSET UNITYSDK_OFFSET(0xDA592A0)
-#define RPG_CLIENT_PERFORMANCEREPLAYUTILS__CCTOR_OFFSET UNITYSDK_OFFSET(0xDA59AF0)
+#define RPG_CLIENT_PERFORMANCEREPLAYUTILS_AESDECRYPT_OFFSET UNITYSDK_OFFSET(0xDAA5020)
+#define RPG_CLIENT_PERFORMANCEREPLAYUTILS_AESENCRYPT_OFFSET UNITYSDK_OFFSET(0xDAA58D0)
+#define RPG_CLIENT_PERFORMANCEREPLAYUTILS_GETPERFORMANCESNAPSHOTFILENAME_OFFSET UNITYSDK_OFFSET(0xDAA4EA0)
+#define RPG_CLIENT_PERFORMANCEREPLAYUTILS_LOADPERFORMANCESTARTSNAPSHOTWITHBACKUP_OFFSET UNITYSDK_OFFSET(0xDAA4BA0)
+#define RPG_CLIENT_PERFORMANCEREPLAYUTILS_LOADPERFORMANCESTARTSNAPSHOT_OFFSET UNITYSDK_OFFSET(0xDAA4C50)
+#define RPG_CLIENT_PERFORMANCEREPLAYUTILS_WRITETOSTREAM_OFFSET UNITYSDK_OFFSET(0xDAA53D0)
+#define RPG_CLIENT_PERFORMANCEREPLAYUTILS__CCTOR_OFFSET UNITYSDK_OFFSET(0xDAA5C80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PerformanceReplayUtils_TypeDefinitionIndex = 62294;
+	inline static constexpr unsigned int PerformanceReplayUtils_TypeDefinitionIndex = 62211;
 
 	class PerformanceReplayUtils : public ::System::Object
 	{
 	public:
 		static ::System::String** StaticGet_PerformanceSnapshotLoadPath()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(PerformanceReplayUtils_TypeDefinitionIndex)->GetStaticField(0x52870);
-		}
-		static ::System::String** StaticGet_PerformanceLogPath()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(PerformanceReplayUtils_TypeDefinitionIndex)->GetStaticField(0x52878);
-		}
-		static ::System::String** StaticGet_PacketLogFilePath()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(PerformanceReplayUtils_TypeDefinitionIndex)->GetStaticField(0x52880);
-		}
-		static ::System::String** StaticGet__DefaultAESKey()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(PerformanceReplayUtils_TypeDefinitionIndex)->GetStaticField(0x52888);
-		}
-		static ::System::String** StaticGet_JsonExtension()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(PerformanceReplayUtils_TypeDefinitionIndex)->GetStaticField(0x52890);
-		}
-		static ::System::String** StaticGet__DefaultAESIV()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(PerformanceReplayUtils_TypeDefinitionIndex)->GetStaticField(0x52898);
-		}
-		static ::System::String** StaticGet_PerformanceSnapshotOutputPath()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(PerformanceReplayUtils_TypeDefinitionIndex)->GetStaticField(0x528A0);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(PerformanceReplayUtils_TypeDefinitionIndex)->GetStaticField(0x140C0);
 		}
 		static ::System::String** StaticGet_ByteExtension()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(PerformanceReplayUtils_TypeDefinitionIndex)->GetStaticField(0x528A8);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(PerformanceReplayUtils_TypeDefinitionIndex)->GetStaticField(0x140C8);
+		}
+		static ::System::String** StaticGet_JsonExtension()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(PerformanceReplayUtils_TypeDefinitionIndex)->GetStaticField(0x140D0);
+		}
+		static ::System::String** StaticGet__DefaultAESIV()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(PerformanceReplayUtils_TypeDefinitionIndex)->GetStaticField(0x140D8);
+		}
+		static ::System::String** StaticGet_PerformanceSnapshotOutputPath()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(PerformanceReplayUtils_TypeDefinitionIndex)->GetStaticField(0x140E0);
+		}
+		static ::System::String** StaticGet_PerformanceLogPath()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(PerformanceReplayUtils_TypeDefinitionIndex)->GetStaticField(0x140E8);
+		}
+		static ::System::String** StaticGet__DefaultAESKey()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(PerformanceReplayUtils_TypeDefinitionIndex)->GetStaticField(0x140F0);
+		}
+		static ::System::String** StaticGet_PacketLogFilePath()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(PerformanceReplayUtils_TypeDefinitionIndex)->GetStaticField(0x140F8);
 		}
 
 		static ::System::Void _cctor()

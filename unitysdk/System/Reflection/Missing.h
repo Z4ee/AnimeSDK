@@ -5,9 +5,9 @@
 
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_REFLECTION_MISSING_SYSTEM_RUNTIME_SERIALIZATION_ISERIALIZABLE_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x1BD9A810)
-#define SYSTEM_REFLECTION_MISSING__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BD9A880)
-#define SYSTEM_REFLECTION_MISSING__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD9A800)
+#define SYSTEM_REFLECTION_MISSING_SYSTEM_RUNTIME_SERIALIZATION_ISERIALIZABLE_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x1C2A6420)
+#define SYSTEM_REFLECTION_MISSING__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C2A6490)
+#define SYSTEM_REFLECTION_MISSING__CTOR_OFFSET UNITYSDK_OFFSET(0x1C2A6410)
 
 namespace System::Reflection
 {
@@ -18,7 +18,7 @@ namespace System::Reflection
 	public:
 		static ::System::Reflection::Missing** StaticGet_Value()
 		{
-			return (::System::Reflection::Missing**)Il2CppClass::FromTypeDefinitionIndex(Missing_TypeDefinitionIndex)->GetStaticField(0xFF70);
+			return (::System::Reflection::Missing**)Il2CppClass::FromTypeDefinitionIndex(Missing_TypeDefinitionIndex)->GetStaticField(0x14680);
 		}
 
 		::System::Void _ctor()

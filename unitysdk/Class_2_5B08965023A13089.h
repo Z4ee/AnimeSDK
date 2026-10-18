@@ -8,22 +8,22 @@ namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class IDictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_5B08965023A13089_METHOD_2_C1E0405EEC95DC65_OFFSET UNITYSDK_OFFSET(0xBF57C70)
-#define CLASS_2_5B08965023A13089_METHOD_2_CFC95121222309BD_OFFSET UNITYSDK_OFFSET(0xBF57ED0)
-#define CLASS_2_5B08965023A13089__CTOR_OFFSET UNITYSDK_OFFSET(0xBF57820)
+#define CLASS_2_5B08965023A13089_METHOD_2_C1E0405EEC95DC65_OFFSET UNITYSDK_OFFSET(0xBE3C540)
+#define CLASS_2_5B08965023A13089_METHOD_2_CFC95121222309BD_OFFSET UNITYSDK_OFFSET(0xBE3C7A0)
+#define CLASS_2_5B08965023A13089__CTOR_OFFSET UNITYSDK_OFFSET(0xBE3C0F0)
 
-inline static constexpr unsigned int Class_2_5B08965023A13089_TypeDefinitionIndex = 80891;
+inline static constexpr unsigned int Class_2_5B08965023A13089_TypeDefinitionIndex = 82271;
 
 class Class_2_5B08965023A13089 : public ::Class_1_FAF146B3D74C3C3F
 {
 public:
 	static ::System::Int32* StaticGet_GMDBHJKEAEI()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_2_5B08965023A13089_TypeDefinitionIndex)->GetStaticField(0x15590);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_2_5B08965023A13089_TypeDefinitionIndex)->GetStaticField(0x14C30);
 	}
-	::System::String* JIBMHCAGPNC; // 0x20
-	::System::String* GKHIHPGCLIK; // 0x28
-	::System::Collections::Generic::List_1<::Class_1_FAF146B3D74C3C3F*>* HIMBONECCJK; // 0x30
+	::System::Collections::Generic::List_1<::Class_1_FAF146B3D74C3C3F*>* HIMBONECCJK; // 0x20
+	::System::String* JIBMHCAGPNC; // 0x28
+	::System::String* GKHIHPGCLIK; // 0x30
 	::System::Type* EPGPJMHNBON; // 0x38
 	::RPG::Client::CachedAssetLogicType HEOJLHCIINP; // 0x40
 

@@ -5,12 +5,12 @@
 namespace RPG::Client { class FlipDevicePoint; }
 namespace RPG::GameCore { class GameEntity; }
 
-#define RPG_CLIENT_PARTIALFLIPDEVICECOMPONENT___C__DISPLAYCLASS32_0__CTOR_OFFSET UNITYSDK_OFFSET(0xDA41360)
-#define RPG_CLIENT_PARTIALFLIPDEVICECOMPONENT___C__DISPLAYCLASS32_0__FOLLOWPLAYER_B__0_OFFSET UNITYSDK_OFFSET(0xDA42B00)
+#define RPG_CLIENT_PARTIALFLIPDEVICECOMPONENT___C__DISPLAYCLASS32_0__CTOR_OFFSET UNITYSDK_OFFSET(0xDA8D590)
+#define RPG_CLIENT_PARTIALFLIPDEVICECOMPONENT___C__DISPLAYCLASS32_0__FOLLOWPLAYER_B__0_OFFSET UNITYSDK_OFFSET(0xDA8EC70)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PartialFlipDeviceComponent___c__DisplayClass32_0_TypeDefinitionIndex = 73227;
+	inline static constexpr unsigned int PartialFlipDeviceComponent___c__DisplayClass32_0_TypeDefinitionIndex = 73323;
 
 	class PartialFlipDeviceComponent___c__DisplayClass32_0 : public ::System::Object
 	{

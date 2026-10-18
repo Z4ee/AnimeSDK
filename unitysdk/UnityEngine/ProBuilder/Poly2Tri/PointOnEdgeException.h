@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace UnityEngine::ProBuilder::Poly2Tri { class TriangulationPoint; }
 
-#define UNITYENGINE_PROBUILDER_POLY2TRI_POINTONEDGEEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1EAC4B70)
+#define UNITYENGINE_PROBUILDER_POLY2TRI_POINTONEDGEEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1F18C3D0)
 
 namespace UnityEngine::ProBuilder::Poly2Tri
 {
-	inline static constexpr unsigned int PointOnEdgeException_TypeDefinitionIndex = 37450;
+	inline static constexpr unsigned int PointOnEdgeException_TypeDefinitionIndex = 38747;
 
 	class PointOnEdgeException : public ::System::NotImplementedException
 	{

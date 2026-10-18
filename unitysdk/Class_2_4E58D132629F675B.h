@@ -1,27 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_29B23DDF98AF43AC.h"
+#include "unitysdk/Class_1_CBE3940117D4417A.h"
 #include "unitysdk/RPG/GameCore/TriggerExitReason.h"
 
 class Class_2_20B6963C31BED713;
 namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
 
-#define CLASS_2_4E58D132629F675B_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1618C9D0)
-#define CLASS_2_4E58D132629F675B_DOONENTER_OFFSET UNITYSDK_OFFSET(0x1618CA20)
-#define CLASS_2_4E58D132629F675B_DOONEXIT_OFFSET UNITYSDK_OFFSET(0x1618CAA0)
-#define CLASS_2_4E58D132629F675B__CTOR_OFFSET UNITYSDK_OFFSET(0x1618C8D0)
+#define CLASS_2_4E58D132629F675B_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16500970)
+#define CLASS_2_4E58D132629F675B_DOONENTER_OFFSET UNITYSDK_OFFSET(0x16500A10)
+#define CLASS_2_4E58D132629F675B_DOONEXIT_OFFSET UNITYSDK_OFFSET(0x16500A90)
+#define CLASS_2_4E58D132629F675B__CTOR_OFFSET UNITYSDK_OFFSET(0x16500870)
 
-inline static constexpr unsigned int Class_2_4E58D132629F675B_TypeDefinitionIndex = 60692;
+inline static constexpr unsigned int Class_2_4E58D132629F675B_TypeDefinitionIndex = 60593;
 
-class Class_2_4E58D132629F675B : public ::Class_1_29B23DDF98AF43AC
+class Class_2_4E58D132629F675B : public ::Class_1_CBE3940117D4417A
 {
 public:
-	::System::String* LOHNGOHDLEK; // 0x98
-	::Class_2_20B6963C31BED713* NLOIFCLPHAC; // 0xA0
-	::System::UInt32 JGGDKOCIEGH; // 0xA8
-	::System::UInt32 JAGLDFFBENK; // 0xAC
+	::System::String* LOHNGOHDLEK; // 0xA0
+	::Class_2_20B6963C31BED713* NLOIFCLPHAC; // 0xA8
 	::System::UInt32 PEEFHNHDBMF; // 0xB0
+	::System::UInt32 JAGLDFFBENK; // 0xB4
+	::System::UInt32 JGGDKOCIEGH; // 0xB8
 
 	::System::Void _ctor(::RPG::GameCore::GameEntity* a1, ::System::UInt32 a2, ::System::UInt32 a3, ::System::String* a4, ::System::UInt32 a5)
 	{

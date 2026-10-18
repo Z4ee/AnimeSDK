@@ -5,6 +5,7 @@
 #include "unitysdk/ZLinq/Linq/ArraySelect_2.h"
 #include "unitysdk/ZLinq/Linq/ArrayWhere_1.h"
 #include "unitysdk/ZLinq/Linq/Concat_3.h"
+#include "unitysdk/ZLinq/Linq/DistinctBy_3.h"
 #include "unitysdk/ZLinq/Linq/Distinct_2.h"
 #include "unitysdk/ZLinq/Linq/Except_3.h"
 #include "unitysdk/ZLinq/Linq/FromArray_1.h"
@@ -40,7 +41,7 @@ namespace ZLinq::Internal { template <typename T> class HashSetSlim_1; }
 
 namespace ZLinq
 {
-	inline static constexpr unsigned int ValueEnumerableExtensions_TypeDefinitionIndex = 6082;
+	inline static constexpr unsigned int ValueEnumerableExtensions_TypeDefinitionIndex = 6090;
 
 	class ValueEnumerableExtensions : public ::System::Object
 	{

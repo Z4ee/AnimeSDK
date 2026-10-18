@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_TIMEREWINDDESTRUCTIBLEBRIDGESTATICBINDINFO_METHOD_2_CFEDE5BE7CA1D7A8_OFFSET UNITYSDK_OFFSET(0x1D5CFBC0)
-#define RPG_GAMECORE_TIMEREWINDDESTRUCTIBLEBRIDGESTATICBINDINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5CFDE0)
+#define RPG_GAMECORE_TIMEREWINDDESTRUCTIBLEBRIDGESTATICBINDINFO_METHOD_2_E1CA8BAD689830CC_OFFSET UNITYSDK_OFFSET(0x1DB875C0)
+#define RPG_GAMECORE_TIMEREWINDDESTRUCTIBLEBRIDGESTATICBINDINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB87A00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TimeRewindDestructibleBridgeStaticBindInfo_TypeDefinitionIndex = 16420;
+	inline static constexpr unsigned int TimeRewindDestructibleBridgeStaticBindInfo_TypeDefinitionIndex = 16596;
 
 	class TimeRewindDestructibleBridgeStaticBindInfo : public ::RPG::GameCore::JsonConfig
 	{
@@ -28,9 +28,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TIMEREWINDDESTRUCTIBLEBRIDGESTATICBINDINFO__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_CFEDE5BE7CA1D7A8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TimeRewindDestructibleBridgeStaticBindInfo*& a2)
+		static ::System::Void Method_2_E1CA8BAD689830CC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TimeRewindDestructibleBridgeStaticBindInfo*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TimeRewindDestructibleBridgeStaticBindInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TIMEREWINDDESTRUCTIBLEBRIDGESTATICBINDINFO_METHOD_2_CFEDE5BE7CA1D7A8_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TimeRewindDestructibleBridgeStaticBindInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TIMEREWINDDESTRUCTIBLEBRIDGESTATICBINDINFO_METHOD_2_E1CA8BAD689830CC_OFFSET))(a1, a2);
 		}
 	};
 }

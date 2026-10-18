@@ -4,28 +4,28 @@
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_FE94DD0247D9ECA0_METHOD_1_9A0E758B85376FD1_1_OFFSET UNITYSDK_OFFSET(0x162620F0)
-#define CLASS_1_FE94DD0247D9ECA0_METHOD_1_9A0E758B85376FD1_OFFSET UNITYSDK_OFFSET(0x16261FF0)
-#define CLASS_1_FE94DD0247D9ECA0_METHOD_1_9BF40280E0B406FF_OFFSET UNITYSDK_OFFSET(0x16261F70)
-#define CLASS_1_FE94DD0247D9ECA0_METHOD_1_DEBB7291DCB11224_OFFSET UNITYSDK_OFFSET(0x162621F0)
-#define CLASS_1_FE94DD0247D9ECA0__CCTOR_OFFSET UNITYSDK_OFFSET(0x162622A0)
+#define CLASS_1_FE94DD0247D9ECA0_METHOD_1_9A0E758B85376FD1_1_OFFSET UNITYSDK_OFFSET(0x16612570)
+#define CLASS_1_FE94DD0247D9ECA0_METHOD_1_9A0E758B85376FD1_OFFSET UNITYSDK_OFFSET(0x16612470)
+#define CLASS_1_FE94DD0247D9ECA0_METHOD_1_9BF40280E0B406FF_OFFSET UNITYSDK_OFFSET(0x166123F0)
+#define CLASS_1_FE94DD0247D9ECA0_METHOD_1_DEBB7291DCB11224_OFFSET UNITYSDK_OFFSET(0x16612670)
+#define CLASS_1_FE94DD0247D9ECA0__CCTOR_OFFSET UNITYSDK_OFFSET(0x16612720)
 
-inline static constexpr unsigned int Class_1_FE94DD0247D9ECA0_TypeDefinitionIndex = 54662;
+inline static constexpr unsigned int Class_1_FE94DD0247D9ECA0_TypeDefinitionIndex = 54449;
 
 class Class_1_FE94DD0247D9ECA0 : public ::System::Object
 {
 public:
-	static ::Il2CppArray<::RPG::GameCore::FixPoint>** StaticGet_JAFCIONPLCI()
-	{
-		return (::Il2CppArray<::RPG::GameCore::FixPoint>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_FE94DD0247D9ECA0_TypeDefinitionIndex)->GetStaticField(0x55310);
-	}
 	static ::Il2CppArray<::RPG::GameCore::FixPoint>** StaticGet_GLPMBHGPMNO()
 	{
-		return (::Il2CppArray<::RPG::GameCore::FixPoint>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_FE94DD0247D9ECA0_TypeDefinitionIndex)->GetStaticField(0x55318);
+		return (::Il2CppArray<::RPG::GameCore::FixPoint>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_FE94DD0247D9ECA0_TypeDefinitionIndex)->GetStaticField(0x6F260);
+	}
+	static ::Il2CppArray<::RPG::GameCore::FixPoint>** StaticGet_JAFCIONPLCI()
+	{
+		return (::Il2CppArray<::RPG::GameCore::FixPoint>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_FE94DD0247D9ECA0_TypeDefinitionIndex)->GetStaticField(0x6F268);
 	}
 	static ::RPG::GameCore::FixPoint* StaticGet_NPKGLMNBMOA()
 	{
-		return (::RPG::GameCore::FixPoint*)Il2CppClass::FromTypeDefinitionIndex(Class_1_FE94DD0247D9ECA0_TypeDefinitionIndex)->GetStaticField(0x11E10);
+		return (::RPG::GameCore::FixPoint*)Il2CppClass::FromTypeDefinitionIndex(Class_1_FE94DD0247D9ECA0_TypeDefinitionIndex)->GetStaticField(0x15890);
 	}
 
 	static ::System::Void _cctor()

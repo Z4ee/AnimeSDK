@@ -12,11 +12,11 @@ namespace System::Xml::Schema { class ValidationEventHandler; }
 namespace System::Xml::Schema { class XmlSchema; }
 namespace System::Xml::Schema { class XmlSchemaCompilationSettings; }
 
-#define SYSTEM_XML_SCHEMA_XMLSCHEMASET_COPYTO_OFFSET UNITYSDK_OFFSET(0x1E820CB0)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMASET_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x1E820C20)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMASET_INTERNALVALIDATIONCALLBACK_OFFSET UNITYSDK_OFFSET(0x1E820EE0)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMASET__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E8208D0)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMASET__CTOR_OFFSET UNITYSDK_OFFSET(0x1E820810)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMASET_COPYTO_OFFSET UNITYSDK_OFFSET(0x1EEE9930)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMASET_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x1EEE98A0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMASET_INTERNALVALIDATIONCALLBACK_OFFSET UNITYSDK_OFFSET(0x1EEE9B60)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMASET__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1EEE9550)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMASET__CTOR_OFFSET UNITYSDK_OFFSET(0x1EEE9490)
 
 namespace System::Xml::Schema
 {
@@ -25,16 +25,16 @@ namespace System::Xml::Schema
 	class XmlSchemaSet : public ::System::Object
 	{
 	public:
-		::System::Xml::Schema::SchemaInfo* cachedCompiledInfo; // 0x10
-		::System::Collections::SortedList* schemas; // 0x18
-		::System::Xml::Schema::XmlSchemaCompilationSettings* compilationSettings; // 0x20
+		::System::Collections::Hashtable* chameleonSchemas; // 0x10
+		::System::Xml::Schema::XmlSchemaCompilationSettings* compilationSettings; // 0x18
+		::System::Xml::Schema::ValidationEventHandler* internalEventHandler; // 0x20
 		::System::Xml::XmlNameTable* nameTable; // 0x28
 		::System::Xml::XmlReaderSettings* readerSettings; // 0x30
-		::System::Collections::Hashtable* targetNamespaces; // 0x38
+		::System::Xml::Schema::SchemaInfo* cachedCompiledInfo; // 0x38
 		::System::Collections::Hashtable* schemaLocations; // 0x40
-		::System::Xml::Schema::ValidationEventHandler* internalEventHandler; // 0x48
+		::System::Collections::Hashtable* targetNamespaces; // 0x48
 		::System::Xml::Schema::ValidationEventHandler* eventHandler; // 0x50
-		::System::Collections::Hashtable* chameleonSchemas; // 0x58
+		::System::Collections::SortedList* schemas; // 0x58
 		::System::Boolean compileAll; // 0x60
 
 		::System::Void _ctor()

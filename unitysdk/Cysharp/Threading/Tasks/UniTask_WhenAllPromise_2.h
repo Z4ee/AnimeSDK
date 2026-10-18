@@ -12,7 +12,7 @@ namespace System { template <typename T> class Action_1; }
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UniTask_WhenAllPromise_2_TypeDefinitionIndex = 42681;
+	inline static constexpr unsigned int UniTask_WhenAllPromise_2_TypeDefinitionIndex = 38266;
 
 	template <typename T1, typename T2>
 	class UniTask_WhenAllPromise_2 : public ::System::Object

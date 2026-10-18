@@ -4,11 +4,11 @@
 
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_PROP_CHIMERADUELSHOPVIEWEFFECTBASE__CTOR_OFFSET UNITYSDK_OFFSET(0xDC286B0)
+#define RPG_CLIENT_PROP_CHIMERADUELSHOPVIEWEFFECTBASE__CTOR_OFFSET UNITYSDK_OFFSET(0xDC731D0)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraDuelShopViewEffectBase_TypeDefinitionIndex = 77892;
+	inline static constexpr unsigned int ChimeraDuelShopViewEffectBase_TypeDefinitionIndex = 78363;
 
 	class ChimeraDuelShopViewEffectBase : public ::System::Object
 	{

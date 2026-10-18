@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define UNITYENGINE_EXECUTEINEDITMODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1ED23300)
+#define UNITYENGINE_EXECUTEINEDITMODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F3EAE90)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ExecuteInEditMode_TypeDefinitionIndex = 4304;
+	inline static constexpr unsigned int ExecuteInEditMode_TypeDefinitionIndex = 4307;
 
 	class ExecuteInEditMode : public ::System::Attribute
 	{

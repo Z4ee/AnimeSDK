@@ -15,7 +15,7 @@ namespace System::Threading { class CancellationTokenSource; }
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UniTaskExtensions__TimeoutWithoutException_d__47_1_TypeDefinitionIndex = 42842;
+	inline static constexpr unsigned int UniTaskExtensions__TimeoutWithoutException_d__47_1_TypeDefinitionIndex = 38427;
 
 	template <typename T>
 	struct UniTaskExtensions__TimeoutWithoutException_d__47_1

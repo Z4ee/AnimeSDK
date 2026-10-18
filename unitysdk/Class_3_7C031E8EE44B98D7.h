@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AdvEntitySetExtAnimLayerEnable; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_7C031E8EE44B98D7_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x152A8410)
-#define CLASS_3_7C031E8EE44B98D7__CTOR_OFFSET UNITYSDK_OFFSET(0x152A83E0)
+#define CLASS_3_7C031E8EE44B98D7_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15552500)
+#define CLASS_3_7C031E8EE44B98D7__CTOR_OFFSET UNITYSDK_OFFSET(0x155524D0)
 
-inline static constexpr unsigned int Class_3_7C031E8EE44B98D7_TypeDefinitionIndex = 52644;
+inline static constexpr unsigned int Class_3_7C031E8EE44B98D7_TypeDefinitionIndex = 52369;
 
 class Class_3_7C031E8EE44B98D7 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AdvEntitySetExtAnimLayerEnable*>
 {

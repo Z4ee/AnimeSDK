@@ -4,7 +4,7 @@
 #include "unitysdk/System/Runtime/ConstrainedExecution/Cer.h"
 #include "unitysdk/System/Runtime/ConstrainedExecution/Consistency.h"
 
-#define SYSTEM_RUNTIME_CONSTRAINEDEXECUTION_RELIABILITYCONTRACTATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDBC400)
+#define SYSTEM_RUNTIME_CONSTRAINEDEXECUTION_RELIABILITYCONTRACTATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C2C80D0)
 
 namespace System::Runtime::ConstrainedExecution
 {
@@ -13,8 +13,8 @@ namespace System::Runtime::ConstrainedExecution
 	class ReliabilityContractAttribute : public ::System::Attribute
 	{
 	public:
-		::System::Runtime::ConstrainedExecution::Consistency _consistency; // 0x10
-		::System::Runtime::ConstrainedExecution::Cer _cer; // 0x14
+		::System::Runtime::ConstrainedExecution::Cer _cer; // 0x10
+		::System::Runtime::ConstrainedExecution::Consistency _consistency; // 0x14
 
 		::System::Void _ctor(::System::Runtime::ConstrainedExecution::Consistency a1, ::System::Runtime::ConstrainedExecution::Cer a2)
 		{

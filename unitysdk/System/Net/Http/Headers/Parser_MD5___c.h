@@ -4,20 +4,20 @@
 
 namespace System { class String; }
 
-#define SYSTEM_NET_HTTP_HEADERS_PARSER_MD5___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E78EEB0)
-#define SYSTEM_NET_HTTP_HEADERS_PARSER_MD5___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1E78EEF0)
-#define SYSTEM_NET_HTTP_HEADERS_PARSER_MD5___C___CCTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0x1E78EF00)
+#define SYSTEM_NET_HTTP_HEADERS_PARSER_MD5___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EE57BA0)
+#define SYSTEM_NET_HTTP_HEADERS_PARSER_MD5___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1EE57BE0)
+#define SYSTEM_NET_HTTP_HEADERS_PARSER_MD5___C___CCTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0x1EE57BF0)
 
 namespace System::Net::Http::Headers
 {
-	inline static constexpr unsigned int Parser_MD5___c_TypeDefinitionIndex = 3816;
+	inline static constexpr unsigned int Parser_MD5___c_TypeDefinitionIndex = 3817;
 
 	class Parser_MD5___c : public ::System::Object
 	{
 	public:
 		static ::System::Net::Http::Headers::Parser_MD5___c** StaticGet___9()
 		{
-			return (::System::Net::Http::Headers::Parser_MD5___c**)Il2CppClass::FromTypeDefinitionIndex(Parser_MD5___c_TypeDefinitionIndex)->GetStaticField(0x9690);
+			return (::System::Net::Http::Headers::Parser_MD5___c**)Il2CppClass::FromTypeDefinitionIndex(Parser_MD5___c_TypeDefinitionIndex)->GetStaticField(0x3210);
 		}
 
 		static ::System::Void _cctor()

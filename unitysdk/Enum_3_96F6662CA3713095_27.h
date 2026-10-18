@@ -1,14 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Enum_3_96F6662CA3713095_27_TypeDefinitionIndex = 33570;
+inline static constexpr unsigned int Enum_3_96F6662CA3713095_27_TypeDefinitionIndex = 31457;
 
 enum class Enum_3_96F6662CA3713095_27 : ::System::Int32
 {
 	Value_0 = 0,
-	Value_7163 = 7163,
-	Value_7162 = 7162,
-	Value_7166 = 7166,
-	Value_7164 = 7164,
-	Value_7169 = 7169,
+	Value_8124 = 8124,
+	Value_8130 = 8130,
+	Value_8136 = 8136,
+	Value_8137 = 8137,
+	Value_8128 = 8128,
 };

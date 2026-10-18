@@ -3,7 +3,7 @@
 
 namespace UnityEngine::ProBuilder::KdTree
 {
-	inline static constexpr unsigned int AddDuplicateBehavior_TypeDefinitionIndex = 37423;
+	inline static constexpr unsigned int AddDuplicateBehavior_TypeDefinitionIndex = 38720;
 
 	enum class AddDuplicateBehavior : ::System::Int32
 	{

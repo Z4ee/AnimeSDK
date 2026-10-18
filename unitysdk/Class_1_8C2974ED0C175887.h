@@ -6,24 +6,22 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define CLASS_1_8C2974ED0C175887_METHOD_1_BA928C31B09C0D39_OFFSET UNITYSDK_OFFSET(0x1D42C4C0)
-#define CLASS_1_8C2974ED0C175887__CTOR_OFFSET UNITYSDK_OFFSET(0x1D42C8A0)
+#define CLASS_1_8C2974ED0C175887_METHOD_1_BA928C31B09C0D39_OFFSET UNITYSDK_OFFSET(0x1D2D9610)
+#define CLASS_1_8C2974ED0C175887__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2E1940)
 
-inline static constexpr unsigned int Class_1_8C2974ED0C175887_TypeDefinitionIndex = 14020;
+inline static constexpr unsigned int Class_1_8C2974ED0C175887_TypeDefinitionIndex = 14432;
 
 class Class_1_8C2974ED0C175887 : public ::System::Object
 {
 public:
-	::System::String* FBKAMIHGLFK; // 0x10
-	::System::String* LDIHBHDHOMF; // 0x18
-	::Il2CppArray<::System::UInt32>* PCFNMMOAGLA; // 0x20
-	::Il2CppArray<::System::UInt32>* OFABOLACEEN; // 0x28
-	::System::UInt32 JMEJCLEBFHN; // 0x30
-	::System::UInt32 KEMBKKLCPBD; // 0x34
-	::System::UInt32 FPGMJLNEJCF; // 0x38
+	::System::String* OLOIFNNLKJP; // 0x10
+	::Il2CppArray<::System::UInt32>* ACECCFPKEHJ; // 0x18
+	::System::String* KILFKBDMJGI; // 0x20
+	::RPG::Client::TextID OENAMINOLLF; // 0x28
+	::System::UInt32 CANEJABOMFI; // 0x38
 	::System::UInt32 PHFMCACHFIJ; // 0x3C
-	::RPG::Client::TextID LGPDIDLJFOI; // 0x40
-	::RPG::Client::TextID GFOGDOBBJAF; // 0x50
+	::System::UInt32 HDFPMFOJCLD; // 0x40
+	::RPG::Client::TextID NMAHGFAPENI; // 0x48
 
 	::System::Void _ctor()
 	{

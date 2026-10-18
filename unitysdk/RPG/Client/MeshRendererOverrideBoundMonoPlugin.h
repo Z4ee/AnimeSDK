@@ -5,12 +5,12 @@
 namespace RPG::Client { class MeshRendererOverrideBoundBehavior; }
 namespace System { class String; }
 
-#define RPG_CLIENT_MESHRENDEREROVERRIDEBOUNDMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xD698A40)
-#define RPG_CLIENT_MESHRENDEREROVERRIDEBOUNDMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xD698A90)
+#define RPG_CLIENT_MESHRENDEREROVERRIDEBOUNDMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xD695AF0)
+#define RPG_CLIENT_MESHRENDEREROVERRIDEBOUNDMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xD695B40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MeshRendererOverrideBoundMonoPlugin_TypeDefinitionIndex = 70642;
+	inline static constexpr unsigned int MeshRendererOverrideBoundMonoPlugin_TypeDefinitionIndex = 70678;
 
 	class MeshRendererOverrideBoundMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::MeshRendererOverrideBoundBehavior*>
 	{

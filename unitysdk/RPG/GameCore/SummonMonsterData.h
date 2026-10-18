@@ -9,12 +9,12 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SUMMONMONSTERDATA_METHOD_2_886FBAA8BB9B68B5_OFFSET UNITYSDK_OFFSET(0x1D582F60)
-#define RPG_GAMECORE_SUMMONMONSTERDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1D583C60)
+#define RPG_GAMECORE_SUMMONMONSTERDATA_METHOD_2_886FBAA8BB9B68B5_OFFSET UNITYSDK_OFFSET(0x1DB39600)
+#define RPG_GAMECORE_SUMMONMONSTERDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB3A300)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SummonMonsterData_TypeDefinitionIndex = 22402;
+	inline static constexpr unsigned int SummonMonsterData_TypeDefinitionIndex = 22655;
 
 	class SummonMonsterData : public ::RPG::GameCore::JsonConfig
 	{

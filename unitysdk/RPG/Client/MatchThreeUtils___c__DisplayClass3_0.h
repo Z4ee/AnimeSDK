@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_MATCHTHREEUTILS___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD657830)
-#define RPG_CLIENT_MATCHTHREEUTILS___C__DISPLAYCLASS3_0__JOINANDOPENLOBBY_B__0_OFFSET UNITYSDK_OFFSET(0xD6592A0)
+#define RPG_CLIENT_MATCHTHREEUTILS___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD5B1710)
+#define RPG_CLIENT_MATCHTHREEUTILS___C__DISPLAYCLASS3_0__JOINANDOPENLOBBY_B__0_OFFSET UNITYSDK_OFFSET(0xD5B30E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MatchThreeUtils___c__DisplayClass3_0_TypeDefinitionIndex = 66028;
+	inline static constexpr unsigned int MatchThreeUtils___c__DisplayClass3_0_TypeDefinitionIndex = 65982;
 
 	class MatchThreeUtils___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:
-		::System::UInt32 birdID; // 0x10
-		::System::UInt64 roomID; // 0x18
+		::System::UInt64 roomID; // 0x10
+		::System::UInt32 birdID; // 0x18
 
 		::System::Void _ctor()
 		{

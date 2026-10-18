@@ -7,21 +7,21 @@ namespace RPG::Client { class GridFightRoleProperty; }
 namespace RPG::Client { class GridFightTraitEffectElationProperty; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_GRIDFIGHTELATIONTRAITEFFECTPROPERTYOVERVIEW_GETPROPERTY_OFFSET UNITYSDK_OFFSET(0xD1648D0)
-#define RPG_CLIENT_GRIDFIGHTELATIONTRAITEFFECTPROPERTYOVERVIEW_GET_PROPERTYCOUNT_OFFSET UNITYSDK_OFFSET(0xD164820)
-#define RPG_CLIENT_GRIDFIGHTELATIONTRAITEFFECTPROPERTYOVERVIEW__CCTOR_OFFSET UNITYSDK_OFFSET(0xD1649D0)
-#define RPG_CLIENT_GRIDFIGHTELATIONTRAITEFFECTPROPERTYOVERVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0xD164810)
+#define RPG_CLIENT_GRIDFIGHTELATIONTRAITEFFECTPROPERTYOVERVIEW_GETPROPERTY_OFFSET UNITYSDK_OFFSET(0xD104CB0)
+#define RPG_CLIENT_GRIDFIGHTELATIONTRAITEFFECTPROPERTYOVERVIEW_GET_PROPERTYCOUNT_OFFSET UNITYSDK_OFFSET(0xD104C00)
+#define RPG_CLIENT_GRIDFIGHTELATIONTRAITEFFECTPROPERTYOVERVIEW__CCTOR_OFFSET UNITYSDK_OFFSET(0xD104DB0)
+#define RPG_CLIENT_GRIDFIGHTELATIONTRAITEFFECTPROPERTYOVERVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0xD104BF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightElationTraitEffectPropertyOverview_TypeDefinitionIndex = 65433;
+	inline static constexpr unsigned int GridFightElationTraitEffectPropertyOverview_TypeDefinitionIndex = 65373;
 
 	class GridFightElationTraitEffectPropertyOverview : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::List_1<::RPG::GameCore::AvatarPropertyType>** StaticGet__PropertyTypes()
 		{
-			return (::System::Collections::Generic::List_1<::RPG::GameCore::AvatarPropertyType>**)Il2CppClass::FromTypeDefinitionIndex(GridFightElationTraitEffectPropertyOverview_TypeDefinitionIndex)->GetStaticField(0x26C90);
+			return (::System::Collections::Generic::List_1<::RPG::GameCore::AvatarPropertyType>**)Il2CppClass::FromTypeDefinitionIndex(GridFightElationTraitEffectPropertyOverview_TypeDefinitionIndex)->GetStaticField(0x65AA0);
 		}
 		::RPG::Client::GridFightTraitEffectElationProperty* _Provider; // 0x10
 

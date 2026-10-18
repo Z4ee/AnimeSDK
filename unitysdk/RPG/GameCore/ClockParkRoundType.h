@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ClockParkRoundType_TypeDefinitionIndex = 11141;
+	inline static constexpr unsigned int ClockParkRoundType_TypeDefinitionIndex = 11157;
 
 	enum class ClockParkRoundType : ::System::Int32
 	{

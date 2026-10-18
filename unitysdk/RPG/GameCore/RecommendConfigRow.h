@@ -5,28 +5,28 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_RECOMMENDCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D38CA00)
-#define RPG_GAMECORE_RECOMMENDCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D38D280)
+#define RPG_GAMECORE_RECOMMENDCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D972ED0)
+#define RPG_GAMECORE_RECOMMENDCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D973710)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RecommendConfigRow_TypeDefinitionIndex = 14449;
+	inline static constexpr unsigned int RecommendConfigRow_TypeDefinitionIndex = 14614;
 
 	class RecommendConfigRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* GoodsID; // 0x10
-		::System::String* NameText; // 0x18
-		::System::String* ImagePath; // 0x20
-		::System::UInt32 ActivityModuleID; // 0x28
-		::System::UInt32 ID; // 0x2C
-		::System::Boolean HideAfterSell; // 0x30
-		::System::UInt32 Order; // 0x34
-		::System::UInt32 Schedule; // 0x38
-		::System::UInt32 OrderAfterSell; // 0x3C
-		::System::UInt32 ItemID; // 0x40
-		::System::UInt32 ShopID; // 0x44
-		::System::UInt32 Type; // 0x48
+		::System::String* ImagePath; // 0x10
+		::Il2CppArray<::System::UInt32>* GoodsID; // 0x18
+		::System::String* NameText; // 0x20
+		::System::UInt32 Type; // 0x28
+		::System::UInt32 OrderAfterSell; // 0x2C
+		::System::UInt32 ItemID; // 0x30
+		::System::UInt32 ShopID; // 0x34
+		::System::UInt32 ActivityModuleID; // 0x38
+		::System::UInt32 Schedule; // 0x3C
+		::System::UInt32 ID; // 0x40
+		::System::UInt32 Order; // 0x44
+		::System::Boolean HideAfterSell; // 0x48
 
 		::System::Void _ctor()
 		{

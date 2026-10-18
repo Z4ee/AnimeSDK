@@ -3,9 +3,9 @@
 #include "unitysdk/ScenenLightManager/LightTypeID.h"
 #include "unitysdk/System/ValueType.h"
 
-#define CLASS_1_D5F753285A84494D_STRUCT_2_6DD8A4C3C136E201__CTOR_OFFSET UNITYSDK_OFFSET(0x2DE9F20)
+#define CLASS_1_D5F753285A84494D_STRUCT_2_6DD8A4C3C136E201__CTOR_OFFSET UNITYSDK_OFFSET(0x2E77AA0)
 
-inline static constexpr unsigned int Class_1_D5F753285A84494D_Struct_2_6DD8A4C3C136E201_TypeDefinitionIndex = 49567;
+inline static constexpr unsigned int Class_1_D5F753285A84494D_Struct_2_6DD8A4C3C136E201_TypeDefinitionIndex = 49141;
 
 struct alignas(4) Class_1_D5F753285A84494D_Struct_2_6DD8A4C3C136E201
 {

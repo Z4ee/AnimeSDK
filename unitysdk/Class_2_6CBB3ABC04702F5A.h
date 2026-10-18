@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_945ACFB1FEBC7A2C_21.h"
+#include "unitysdk/Class_1_945ACFB1FEBC7A2C_20.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 
-#define CLASS_2_6CBB3ABC04702F5A__CTOR_OFFSET UNITYSDK_OFFSET(0x15573BF0)
+#define CLASS_2_6CBB3ABC04702F5A__CTOR_OFFSET UNITYSDK_OFFSET(0x1583D8B0)
 
-inline static constexpr unsigned int Class_2_6CBB3ABC04702F5A_TypeDefinitionIndex = 55788;
+inline static constexpr unsigned int Class_2_6CBB3ABC04702F5A_TypeDefinitionIndex = 55596;
 
-class Class_2_6CBB3ABC04702F5A : public ::Class_1_945ACFB1FEBC7A2C_21
+class Class_2_6CBB3ABC04702F5A : public ::Class_1_945ACFB1FEBC7A2C_20
 {
 public:
-	::RPG::GameCore::FixPoint MJECLGFJOIA; // 0x18
-	::RPG::GameCore::FixPoint MLPAPJINGID; // 0x20
+	::RPG::GameCore::FixPoint MLPAPJINGID; // 0x18
+	::RPG::GameCore::FixPoint MJECLGFJOIA; // 0x20
 
 	::System::Void _ctor()
 	{

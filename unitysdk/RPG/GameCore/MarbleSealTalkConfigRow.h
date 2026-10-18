@@ -6,19 +6,19 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MARBLESEALTALKCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D23D670)
-#define RPG_GAMECORE_MARBLESEALTALKCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D23D840)
+#define RPG_GAMECORE_MARBLESEALTALKCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D8480B0)
+#define RPG_GAMECORE_MARBLESEALTALKCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D848280)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MarbleSealTalkConfigRow_TypeDefinitionIndex = 11834;
+	inline static constexpr unsigned int MarbleSealTalkConfigRow_TypeDefinitionIndex = 11857;
 
 	class MarbleSealTalkConfigRow : public ::System::Object
 	{
 	public:
 		::System::String* VoiceEvt; // 0x10
-		::RPG::Client::TextID Talk; // 0x18
-		::System::UInt32 ID; // 0x28
+		::System::UInt32 ID; // 0x18
+		::RPG::Client::TextID Talk; // 0x20
 
 		::System::Void _ctor()
 		{

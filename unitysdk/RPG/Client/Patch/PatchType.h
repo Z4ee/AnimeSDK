@@ -3,7 +3,7 @@
 
 namespace RPG::Client::Patch
 {
-	inline static constexpr unsigned int PatchType_TypeDefinitionIndex = 80857;
+	inline static constexpr unsigned int PatchType_TypeDefinitionIndex = 82237;
 
 	enum class PatchType : ::System::Int32
 	{

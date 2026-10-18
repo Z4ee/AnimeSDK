@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame::FourRotateVoxel
 {
-	inline static constexpr unsigned int RoomTransitionBlockReason_TypeDefinitionIndex = 41560;
+	inline static constexpr unsigned int RoomTransitionBlockReason_TypeDefinitionIndex = 43200;
 
 	enum class RoomTransitionBlockReason : ::System::Int32
 	{

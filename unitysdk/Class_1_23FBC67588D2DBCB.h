@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_865;
+class Class_0_16E4307DCC419505_964;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_23FBC67588D2DBCB_METHOD_1_1573374BAE4788FB_OFFSET UNITYSDK_OFFSET(0xE02B780)
+#define CLASS_1_23FBC67588D2DBCB_METHOD_1_1573374BAE4788FB_OFFSET UNITYSDK_OFFSET(0xDFC3E10)
 
-inline static constexpr unsigned int Class_1_23FBC67588D2DBCB_TypeDefinitionIndex = 64805;
+inline static constexpr unsigned int Class_1_23FBC67588D2DBCB_TypeDefinitionIndex = 64745;
 
 class Class_1_23FBC67588D2DBCB : public ::System::Object
 {
 public:
-	static ::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_865*>* Method_1_1573374BAE4788FB()
+	static ::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_964*>* Method_1_1573374BAE4788FB()
 	{
-		return ((::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_865*>*(*)())((::PBYTE)hIl2Cpp + CLASS_1_23FBC67588D2DBCB_METHOD_1_1573374BAE4788FB_OFFSET))();
+		return ((::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_964*>*(*)())((::PBYTE)hIl2Cpp + CLASS_1_23FBC67588D2DBCB_METHOD_1_1573374BAE4788FB_OFFSET))();
 	}
 };

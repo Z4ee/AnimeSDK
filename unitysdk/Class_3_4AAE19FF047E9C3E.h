@@ -6,10 +6,10 @@ class Class_1_D93F8AE271D8A728;
 class Class_2_21AD365C113DC484;
 namespace RPG::Client::LittleGameShare { class ST_CakeRaceByIdleCanEnterAIState; }
 
-#define CLASS_3_4AAE19FF047E9C3E_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1C1FCE10)
-#define CLASS_3_4AAE19FF047E9C3E__CTOR_OFFSET UNITYSDK_OFFSET(0x1C1FCD90)
+#define CLASS_3_4AAE19FF047E9C3E_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1C74D100)
+#define CLASS_3_4AAE19FF047E9C3E__CTOR_OFFSET UNITYSDK_OFFSET(0x1C74D080)
 
-inline static constexpr unsigned int Class_3_4AAE19FF047E9C3E_TypeDefinitionIndex = 36297;
+inline static constexpr unsigned int Class_3_4AAE19FF047E9C3E_TypeDefinitionIndex = 36984;
 
 class Class_3_4AAE19FF047E9C3E : public ::RPG::Client::LittleGameShare::STPredicateTask_1<::RPG::Client::LittleGameShare::ST_CakeRaceByIdleCanEnterAIState*>
 {

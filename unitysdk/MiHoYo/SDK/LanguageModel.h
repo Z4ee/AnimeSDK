@@ -4,21 +4,21 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_LANGUAGEMODEL_LOADFROMJSON_OFFSET UNITYSDK_OFFSET(0x1B98FAA0)
-#define MIHOYO_SDK_LANGUAGEMODEL_REPLACECHAR_OFFSET UNITYSDK_OFFSET(0x1B995090)
-#define MIHOYO_SDK_LANGUAGEMODEL__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B995390)
-#define MIHOYO_SDK_LANGUAGEMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9911C0)
+#define MIHOYO_SDK_LANGUAGEMODEL_LOADFROMJSON_OFFSET UNITYSDK_OFFSET(0x1BE8F610)
+#define MIHOYO_SDK_LANGUAGEMODEL_REPLACECHAR_OFFSET UNITYSDK_OFFSET(0x1BE94C20)
+#define MIHOYO_SDK_LANGUAGEMODEL__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BE94F20)
+#define MIHOYO_SDK_LANGUAGEMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE90D30)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int LanguageModel_TypeDefinitionIndex = 7840;
+	inline static constexpr unsigned int LanguageModel_TypeDefinitionIndex = 7884;
 
 	class LanguageModel : public ::System::Object
 	{
 	public:
 		static ::MiHoYo::SDK::LanguageModel** StaticGet_Instance()
 		{
-			return (::MiHoYo::SDK::LanguageModel**)Il2CppClass::FromTypeDefinitionIndex(LanguageModel_TypeDefinitionIndex)->GetStaticField(0x1FF0);
+			return (::MiHoYo::SDK::LanguageModel**)Il2CppClass::FromTypeDefinitionIndex(LanguageModel_TypeDefinitionIndex)->GetStaticField(0x1320);
 		}
 		::System::String* account_login; // 0x10
 		::System::String* agree; // 0x18
@@ -702,16 +702,18 @@ namespace MiHoYo::SDK
 		::System::String* xbox_sdk_fail_to_init_generic; // 0x1548
 		::System::String* xbox_sdk_fail_to_init_no_client; // 0x1550
 		::System::String* xbox_sdk_fail_to_init_version_mismatch; // 0x1558
-		::System::String* bind_device_title; // 0x1560
-		::System::String* bind_device_content_first; // 0x1568
-		::System::String* bind_device_content_second; // 0x1570
-		::System::String* bind_device_warn_pc; // 0x1578
-		::System::String* bind_device_confirm_title; // 0x1580
-		::System::String* bind_device_confirm; // 0x1588
-		::System::String* bind_device_limit; // 0x1590
-		::System::String* client_name_pc; // 0x1598
-		::System::String* client_name_cloud_pc; // 0x15A0
-		::System::String* loading; // 0x15A8
+		::System::String* epic_sdk_fail_to_init_title; // 0x1560
+		::System::String* epic_sdk_fail_to_init_generic; // 0x1568
+		::System::String* bind_device_title; // 0x1570
+		::System::String* bind_device_content_first; // 0x1578
+		::System::String* bind_device_content_second; // 0x1580
+		::System::String* bind_device_warn_pc; // 0x1588
+		::System::String* bind_device_confirm_title; // 0x1590
+		::System::String* bind_device_confirm; // 0x1598
+		::System::String* bind_device_limit; // 0x15A0
+		::System::String* client_name_pc; // 0x15A8
+		::System::String* client_name_cloud_pc; // 0x15B0
+		::System::String* loading; // 0x15B8
 
 		::System::Void _ctor()
 		{

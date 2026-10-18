@@ -4,19 +4,19 @@
 #include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_318;
+class Class_0_16E4307DCC419505_397;
 namespace RPG::Client { class AnimatorButton; }
 namespace RPG::Client { class LongPressEvent; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace UnityEngine::Events { class UnityAction; }
 
-inline static constexpr unsigned int Class_1_175DF472994638D1_Class_1_211B9C633CF9473A_TypeDefinitionIndex = 50211;
+inline static constexpr unsigned int Class_1_175DF472994638D1_Class_1_211B9C633CF9473A_TypeDefinitionIndex = 49874;
 
 template <typename TViewModel>
 class Class_1_175DF472994638D1_Class_1_211B9C633CF9473A : public ::System::Object
 {
 public:
-	::Class_0_16E4307DCC419505_318* MKKLHFCCCNF; // 0x0
+	::Class_0_16E4307DCC419505_397* MKKLHFCCCNF; // 0x0
 	::System::Action_2<::RPG::Client::LongPressEvent*, ::UnityEngine::Events::UnityAction*>* DBCJCOGGODF; // 0x0
 	::System::Action_2<::RPG::Client::LongPressEvent*, ::UnityEngine::Events::UnityAction*>* GBMLHDDJMJM; // 0x0
 	::System::Nullable_1<::System::Single> KKPEIMJKION; // 0x0

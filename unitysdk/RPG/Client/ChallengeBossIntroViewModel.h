@@ -6,21 +6,21 @@ namespace RPG::Client { class ChallengeBossData; }
 namespace RPG::Client { class ChallengeBossIntroStageViewModel; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_CHALLENGEBOSSINTROVIEWMODEL_CREATE_OFFSET UNITYSDK_OFFSET(0xCA2B070)
-#define RPG_CLIENT_CHALLENGEBOSSINTROVIEWMODEL_GETSTAGE_OFFSET UNITYSDK_OFFSET(0xCA2AFF0)
-#define RPG_CLIENT_CHALLENGEBOSSINTROVIEWMODEL_GET_CHALLENGEDATA_OFFSET UNITYSDK_OFFSET(0xCA2AF90)
-#define RPG_CLIENT_CHALLENGEBOSSINTROVIEWMODEL_GET_STAGECOUNT_OFFSET UNITYSDK_OFFSET(0xCA2AFA0)
-#define RPG_CLIENT_CHALLENGEBOSSINTROVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xCA2B190)
+#define RPG_CLIENT_CHALLENGEBOSSINTROVIEWMODEL_CREATE_OFFSET UNITYSDK_OFFSET(0xC9796D0)
+#define RPG_CLIENT_CHALLENGEBOSSINTROVIEWMODEL_GETSTAGE_OFFSET UNITYSDK_OFFSET(0xC979650)
+#define RPG_CLIENT_CHALLENGEBOSSINTROVIEWMODEL_GET_CHALLENGEDATA_OFFSET UNITYSDK_OFFSET(0xC9795F0)
+#define RPG_CLIENT_CHALLENGEBOSSINTROVIEWMODEL_GET_STAGECOUNT_OFFSET UNITYSDK_OFFSET(0xC979600)
+#define RPG_CLIENT_CHALLENGEBOSSINTROVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xC9797F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChallengeBossIntroViewModel_TypeDefinitionIndex = 63143;
+	inline static constexpr unsigned int ChallengeBossIntroViewModel_TypeDefinitionIndex = 63076;
 
 	class ChallengeBossIntroViewModel : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::RPG::Client::ChallengeBossIntroStageViewModel*>* _Stages; // 0x10
-		::RPG::Client::ChallengeBossData* _ChallengeData_k__BackingField; // 0x18
+		::RPG::Client::ChallengeBossData* _ChallengeData_k__BackingField; // 0x10
+		::System::Collections::Generic::List_1<::RPG::Client::ChallengeBossIntroStageViewModel*>* _Stages; // 0x18
 
 		::System::Void _ctor(::RPG::Client::ChallengeBossData* a1, ::System::Collections::Generic::List_1<::RPG::Client::ChallengeBossIntroStageViewModel*>* a2)
 		{

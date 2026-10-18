@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_TITANATLASVOICEPOOLROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D5D2950)
-#define RPG_GAMECORE_TITANATLASVOICEPOOLROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5D2AE0)
+#define RPG_GAMECORE_TITANATLASVOICEPOOLROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DB8A5F0)
+#define RPG_GAMECORE_TITANATLASVOICEPOOLROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB8A780)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TitanAtlasVoicePoolRow_TypeDefinitionIndex = 15128;
+	inline static constexpr unsigned int TitanAtlasVoicePoolRow_TypeDefinitionIndex = 15299;
 
 	class TitanAtlasVoicePoolRow : public ::System::Object
 	{

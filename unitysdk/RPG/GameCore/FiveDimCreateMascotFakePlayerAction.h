@@ -7,13 +7,13 @@ namespace RPG::GameCore { class FiveDimEffectItem; }
 namespace RPG::GameCore { class LittleGameEvent; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIVEDIMCREATEMASCOTFAKEPLAYERACTION_METHOD_3_71408E4F92E57120_OFFSET UNITYSDK_OFFSET(0x1D0A75E0)
-#define RPG_GAMECORE_FIVEDIMCREATEMASCOTFAKEPLAYERACTION_METHOD_3_DFCF1393B81B3F91_OFFSET UNITYSDK_OFFSET(0x1D0A7620)
-#define RPG_GAMECORE_FIVEDIMCREATEMASCOTFAKEPLAYERACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0A7610)
+#define RPG_GAMECORE_FIVEDIMCREATEMASCOTFAKEPLAYERACTION_METHOD_4_926CF4A2671BC6BE_OFFSET UNITYSDK_OFFSET(0x1D6B6740)
+#define RPG_GAMECORE_FIVEDIMCREATEMASCOTFAKEPLAYERACTION_METHOD_4_9A362FA86FBB8253_OFFSET UNITYSDK_OFFSET(0x1D6B6700)
+#define RPG_GAMECORE_FIVEDIMCREATEMASCOTFAKEPLAYERACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6B6730)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimCreateMascotFakePlayerAction_TypeDefinitionIndex = 18468;
+	inline static constexpr unsigned int FiveDimCreateMascotFakePlayerAction_TypeDefinitionIndex = 18677;
 
 	class FiveDimCreateMascotFakePlayerAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
@@ -33,14 +33,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMCREATEMASCOTFAKEPLAYERACTION__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_71408E4F92E57120(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimCreateMascotFakePlayerAction*& a2)
+		static ::System::Void Method_4_9A362FA86FBB8253(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimCreateMascotFakePlayerAction*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimCreateMascotFakePlayerAction*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMCREATEMASCOTFAKEPLAYERACTION_METHOD_3_71408E4F92E57120_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimCreateMascotFakePlayerAction*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMCREATEMASCOTFAKEPLAYERACTION_METHOD_4_9A362FA86FBB8253_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_DFCF1393B81B3F91(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimCreateMascotFakePlayerAction* a2)
+		static ::System::Void Method_4_926CF4A2671BC6BE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimCreateMascotFakePlayerAction* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimCreateMascotFakePlayerAction*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMCREATEMASCOTFAKEPLAYERACTION_METHOD_3_DFCF1393B81B3F91_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimCreateMascotFakePlayerAction*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMCREATEMASCOTFAKEPLAYERACTION_METHOD_4_926CF4A2671BC6BE_OFFSET))(a1, a2);
 		}
 	};
 }

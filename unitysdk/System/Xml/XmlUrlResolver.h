@@ -12,11 +12,11 @@ namespace System::Net::Cache { class RequestCachePolicy; }
 namespace System::Threading::Tasks { template <typename T> class Task_1; }
 namespace System::Xml { class XmlDownloadManager; }
 
-#define SYSTEM_XML_XMLURLRESOLVER_GETENTITYASYNC_OFFSET UNITYSDK_OFFSET(0x1E8DF3A0)
-#define SYSTEM_XML_XMLURLRESOLVER_GETENTITY_OFFSET UNITYSDK_OFFSET(0x1E8DF1E0)
-#define SYSTEM_XML_XMLURLRESOLVER_GET_DOWNLOADMANAGER_OFFSET UNITYSDK_OFFSET(0x1E8DF110)
-#define SYSTEM_XML_XMLURLRESOLVER_RESOLVEURI_OFFSET UNITYSDK_OFFSET(0x1E8DF390)
-#define SYSTEM_XML_XMLURLRESOLVER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E8DF1D0)
+#define SYSTEM_XML_XMLURLRESOLVER_GETENTITYASYNC_OFFSET UNITYSDK_OFFSET(0x1EFA83D0)
+#define SYSTEM_XML_XMLURLRESOLVER_GETENTITY_OFFSET UNITYSDK_OFFSET(0x1EFA8210)
+#define SYSTEM_XML_XMLURLRESOLVER_GET_DOWNLOADMANAGER_OFFSET UNITYSDK_OFFSET(0x1EFA8140)
+#define SYSTEM_XML_XMLURLRESOLVER_RESOLVEURI_OFFSET UNITYSDK_OFFSET(0x1EFA83C0)
+#define SYSTEM_XML_XMLURLRESOLVER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EFA8200)
 
 namespace System::Xml
 {
@@ -27,11 +27,11 @@ namespace System::Xml
 	public:
 		static ::System::Object** StaticGet_s_DownloadManager()
 		{
-			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(XmlUrlResolver_TypeDefinitionIndex)->GetStaticField(0x29800);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(XmlUrlResolver_TypeDefinitionIndex)->GetStaticField(0x326B0);
 		}
-		::System::Net::Cache::RequestCachePolicy* _cachePolicy; // 0x10
-		::System::Net::ICredentials* _credentials; // 0x18
-		::System::Net::IWebProxy* _proxy; // 0x20
+		::System::Net::ICredentials* _credentials; // 0x10
+		::System::Net::IWebProxy* _proxy; // 0x18
+		::System::Net::Cache::RequestCachePolicy* _cachePolicy; // 0x20
 
 		::System::Void _ctor()
 		{

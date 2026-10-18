@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ACTIVITYLOGINCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CD96300)
-#define RPG_GAMECORE_ACTIVITYLOGINCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD96900)
+#define RPG_GAMECORE_ACTIVITYLOGINCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D36B180)
+#define RPG_GAMECORE_ACTIVITYLOGINCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D36B740)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityLoginConfigRow_TypeDefinitionIndex = 11203;
+	inline static constexpr unsigned int ActivityLoginConfigRow_TypeDefinitionIndex = 11219;
 
 	class ActivityLoginConfigRow : public ::System::Object
 	{

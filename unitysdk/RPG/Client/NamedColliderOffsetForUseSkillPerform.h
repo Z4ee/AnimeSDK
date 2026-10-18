@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_NAMEDCOLLIDEROFFSETFORUSESKILLPERFORM__CTOR_OFFSET UNITYSDK_OFFSET(0xD92FAB0)
+#define RPG_CLIENT_NAMEDCOLLIDEROFFSETFORUSESKILLPERFORM__CTOR_OFFSET UNITYSDK_OFFSET(0xD930770)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int NamedColliderOffsetForUseSkillPerform_TypeDefinitionIndex = 69552;
+	inline static constexpr unsigned int NamedColliderOffsetForUseSkillPerform_TypeDefinitionIndex = 69588;
 
 	class NamedColliderOffsetForUseSkillPerform : public ::System::Object
 	{

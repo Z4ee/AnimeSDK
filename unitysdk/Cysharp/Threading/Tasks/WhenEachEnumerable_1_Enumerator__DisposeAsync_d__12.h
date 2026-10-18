@@ -9,7 +9,7 @@ namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int WhenEachEnumerable_1_Enumerator__DisposeAsync_d__12_TypeDefinitionIndex = 42794;
+	inline static constexpr unsigned int WhenEachEnumerable_1_Enumerator__DisposeAsync_d__12_TypeDefinitionIndex = 38379;
 
 	template <typename T>
 	struct WhenEachEnumerable_1_Enumerator__DisposeAsync_d__12

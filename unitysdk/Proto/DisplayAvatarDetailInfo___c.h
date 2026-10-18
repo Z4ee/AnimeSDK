@@ -4,20 +4,20 @@
 
 namespace Proto { class DisplayAvatarDetailInfo; }
 
-#define PROTO_DISPLAYAVATARDETAILINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D935430)
-#define PROTO_DISPLAYAVATARDETAILINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1D935470)
-#define PROTO_DISPLAYAVATARDETAILINFO___C___CCTOR_B__78_0_OFFSET UNITYSDK_OFFSET(0x1D935480)
+#define PROTO_DISPLAYAVATARDETAILINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DFEE1D0)
+#define PROTO_DISPLAYAVATARDETAILINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1DFEE210)
+#define PROTO_DISPLAYAVATARDETAILINFO___C___CCTOR_B__78_0_OFFSET UNITYSDK_OFFSET(0x1DFEE220)
 
 namespace Proto
 {
-	inline static constexpr unsigned int DisplayAvatarDetailInfo___c_TypeDefinitionIndex = 28361;
+	inline static constexpr unsigned int DisplayAvatarDetailInfo___c_TypeDefinitionIndex = 28886;
 
 	class DisplayAvatarDetailInfo___c : public ::System::Object
 	{
 	public:
 		static ::Proto::DisplayAvatarDetailInfo___c** StaticGet___9()
 		{
-			return (::Proto::DisplayAvatarDetailInfo___c**)Il2CppClass::FromTypeDefinitionIndex(DisplayAvatarDetailInfo___c_TypeDefinitionIndex)->GetStaticField(0x580D0);
+			return (::Proto::DisplayAvatarDetailInfo___c**)Il2CppClass::FromTypeDefinitionIndex(DisplayAvatarDetailInfo___c_TypeDefinitionIndex)->GetStaticField(0x43A70);
 		}
 
 		static ::System::Void _cctor()

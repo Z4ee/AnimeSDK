@@ -10,7 +10,7 @@ namespace Cysharp::Threading::Tasks::Linq { template <typename T> class OrderedA
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int OrderedAsyncEnumerable_1__OrderedAsyncEnumerator_TypeDefinitionIndex = 44388;
+	inline static constexpr unsigned int OrderedAsyncEnumerable_1__OrderedAsyncEnumerator_TypeDefinitionIndex = 45527;
 
 	template <typename TElement>
 	class OrderedAsyncEnumerable_1__OrderedAsyncEnumerator : public ::Cysharp::Threading::Tasks::MoveNextSource

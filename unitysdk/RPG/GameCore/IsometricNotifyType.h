@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IsometricNotifyType_TypeDefinitionIndex = 24331;
+	inline static constexpr unsigned int IsometricNotifyType_TypeDefinitionIndex = 24610;
 
 	enum class IsometricNotifyType : ::System::Int32
 	{

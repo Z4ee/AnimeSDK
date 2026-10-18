@@ -5,12 +5,12 @@
 namespace RPG::Client { class LevelDirector; }
 namespace RPG::GameCore { class VCameraBlend; }
 
-#define RPG_CLIENT_CAMERADATAANDFLAGS___C__DISPLAYCLASS300_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC9E4530)
-#define RPG_CLIENT_CAMERADATAANDFLAGS___C__DISPLAYCLASS300_0__SETBLENDCONFIG_B__0_OFFSET UNITYSDK_OFFSET(0xC9E5520)
+#define RPG_CLIENT_CAMERADATAANDFLAGS___C__DISPLAYCLASS300_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC932380)
+#define RPG_CLIENT_CAMERADATAANDFLAGS___C__DISPLAYCLASS300_0__SETBLENDCONFIG_B__0_OFFSET UNITYSDK_OFFSET(0xC933350)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CameraDataAndFlags___c__DisplayClass300_0_TypeDefinitionIndex = 69524;
+	inline static constexpr unsigned int CameraDataAndFlags___c__DisplayClass300_0_TypeDefinitionIndex = 69560;
 
 	class CameraDataAndFlags___c__DisplayClass300_0 : public ::System::Object
 	{

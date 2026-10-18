@@ -2,24 +2,43 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/ImmediateTaskBase_1.h"
 
-class Class_3_422FB73ADFAD14F8_1;
+class Class_3_3A361C133909F092;
+namespace RPG::Client::LimaoNews { class LimaoNewsMainEntrance3DViewModel; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_27518451A20BB161_85_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x160BC060)
-#define CLASS_3_27518451A20BB161_85__CTOR_OFFSET UNITYSDK_OFFSET(0x160BC030)
+#define CLASS_3_27518451A20BB161_85_METHOD_3_06723957EC12298C_OFFSET UNITYSDK_OFFSET(0x1569E1A0)
+#define CLASS_3_27518451A20BB161_85_METHOD_3_919E09C96DEA0001_OFFSET UNITYSDK_OFFSET(0x1569E0B0)
+#define CLASS_3_27518451A20BB161_85_METHOD_3_BD0ACFAEB4C78308_OFFSET UNITYSDK_OFFSET(0x1569E200)
+#define CLASS_3_27518451A20BB161_85_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1569DF70)
+#define CLASS_3_27518451A20BB161_85__CTOR_OFFSET UNITYSDK_OFFSET(0x1569DF40)
 
-inline static constexpr unsigned int Class_3_27518451A20BB161_85_TypeDefinitionIndex = 53240;
+inline static constexpr unsigned int Class_3_27518451A20BB161_85_TypeDefinitionIndex = 52948;
 
-class Class_3_27518451A20BB161_85 : public ::RPG::GameCore::ImmediateTaskBase_1<::Class_3_422FB73ADFAD14F8_1*>
+class Class_3_27518451A20BB161_85 : public ::RPG::GameCore::ImmediateTaskBase_1<::Class_3_3A361C133909F092*>
 {
 public:
-	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::Class_3_422FB73ADFAD14F8_1* a2)
+	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::Class_3_3A361C133909F092* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::Class_3_422FB73ADFAD14F8_1*))((::PBYTE)hIl2Cpp + CLASS_3_27518451A20BB161_85__CTOR_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::Class_3_3A361C133909F092*))((::PBYTE)hIl2Cpp + CLASS_3_27518451A20BB161_85__CTOR_OFFSET))(this, a1, a2);
 	}
 
 	::System::Void OnTaskBegin()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_27518451A20BB161_85_ONTASKBEGIN_OFFSET))(this);
+	}
+
+	::RPG::Client::LimaoNews::LimaoNewsMainEntrance3DViewModel* Method_3_BD0ACFAEB4C78308(::Il2CppArray<::System::UInt32>* a1)
+	{
+		return ((::RPG::Client::LimaoNews::LimaoNewsMainEntrance3DViewModel*(*)(::PVOID, ::Il2CppArray<::System::UInt32>*))((::PBYTE)hIl2Cpp + CLASS_3_27518451A20BB161_85_METHOD_3_BD0ACFAEB4C78308_OFFSET))(this, a1);
+	}
+
+	static ::Il2CppArray<::System::UInt32>* Method_3_919E09C96DEA0001(::Il2CppArray<::System::UInt32>* a1)
+	{
+		return ((::Il2CppArray<::System::UInt32>*(*)(::Il2CppArray<::System::UInt32>*))((::PBYTE)hIl2Cpp + CLASS_3_27518451A20BB161_85_METHOD_3_919E09C96DEA0001_OFFSET))(a1);
+	}
+
+	static ::System::Void Method_3_06723957EC12298C(::Il2CppArray<::System::UInt32>* a1)
+	{
+		return ((::System::Void(*)(::Il2CppArray<::System::UInt32>*))((::PBYTE)hIl2Cpp + CLASS_3_27518451A20BB161_85_METHOD_3_06723957EC12298C_OFFSET))(a1);
 	}
 };

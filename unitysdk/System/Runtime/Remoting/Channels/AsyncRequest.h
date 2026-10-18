@@ -5,7 +5,7 @@
 namespace System::Runtime::Remoting::Messaging { class IMessage; }
 namespace System::Runtime::Remoting::Messaging { class IMessageSink; }
 
-#define SYSTEM_RUNTIME_REMOTING_CHANNELS_ASYNCREQUEST__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDC42A0)
+#define SYSTEM_RUNTIME_REMOTING_CHANNELS_ASYNCREQUEST__CTOR_OFFSET UNITYSDK_OFFSET(0x1C2CFF70)
 
 namespace System::Runtime::Remoting::Channels
 {

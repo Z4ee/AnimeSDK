@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SharedValueType_TypeDefinitionIndex = 10425;
+	inline static constexpr unsigned int SharedValueType_TypeDefinitionIndex = 10440;
 
 	enum class SharedValueType : ::System::Int32
 	{

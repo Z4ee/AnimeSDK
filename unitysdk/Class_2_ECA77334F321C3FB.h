@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_F9FBCC956DFCF137_5.h"
+#include "unitysdk/Class_1_F9FBCC956DFCF137_4.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 
 class Class_1_AC66714FF5876767;
 namespace RPG::GameCore { class CheckTurnStateAxis; }
 
-#define CLASS_2_ECA77334F321C3FB_METHOD_2_770FD2CFDE656E17_OFFSET UNITYSDK_OFFSET(0xB8EE280)
-#define CLASS_2_ECA77334F321C3FB__CTOR_OFFSET UNITYSDK_OFFSET(0xB8EE270)
+#define CLASS_2_ECA77334F321C3FB_METHOD_2_770FD2CFDE656E17_OFFSET UNITYSDK_OFFSET(0xB762A00)
+#define CLASS_2_ECA77334F321C3FB__CTOR_OFFSET UNITYSDK_OFFSET(0xB7629F0)
 
-inline static constexpr unsigned int Class_2_ECA77334F321C3FB_TypeDefinitionIndex = 54590;
+inline static constexpr unsigned int Class_2_ECA77334F321C3FB_TypeDefinitionIndex = 54376;
 
-class Class_2_ECA77334F321C3FB : public ::Class_1_F9FBCC956DFCF137_5
+class Class_2_ECA77334F321C3FB : public ::Class_1_F9FBCC956DFCF137_4
 {
 public:
 	::RPG::GameCore::CheckTurnStateAxis* IGHAHBNLIJA; // 0x18

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/LittleGame/FiveDim/PhantomPlayerFrameData_1.h"
 
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_PHANTOMPLAYERRECORDFRAMES_SYSTEM_BOOLEAN_AUTOGEN__CTOR_OFFSET UNITYSDK_OFFSET(0x1C497990)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_PHANTOMPLAYERRECORDFRAMES_SYSTEM_BOOLEAN_AUTOGEN__CTOR_OFFSET UNITYSDK_OFFSET(0x1CA06EF0)
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int PhantomPlayerRecordFrames_System_Boolean_AutoGen_TypeDefinitionIndex = 41993;
+	inline static constexpr unsigned int PhantomPlayerRecordFrames_System_Boolean_AutoGen_TypeDefinitionIndex = 43636;
 
 	class PhantomPlayerRecordFrames_System_Boolean_AutoGen : public ::RPG::Client::LittleGame::FiveDim::PhantomPlayerFrameData_1<::System::Boolean>
 	{

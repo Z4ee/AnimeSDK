@@ -4,10 +4,10 @@
 
 namespace ScenenLightManager { class Tup; }
 
-#define CLASS_1_3C6C434BD07FF323_COMPARE_OFFSET UNITYSDK_OFFSET(0xBC4B430)
-#define CLASS_1_3C6C434BD07FF323__CTOR_OFFSET UNITYSDK_OFFSET(0xBC4B4C0)
+#define CLASS_1_3C6C434BD07FF323_COMPARE_OFFSET UNITYSDK_OFFSET(0xBB14C60)
+#define CLASS_1_3C6C434BD07FF323__CTOR_OFFSET UNITYSDK_OFFSET(0xBB14CF0)
 
-inline static constexpr unsigned int Class_1_3C6C434BD07FF323_TypeDefinitionIndex = 49591;
+inline static constexpr unsigned int Class_1_3C6C434BD07FF323_TypeDefinitionIndex = 49165;
 
 class Class_1_3C6C434BD07FF323 : public ::System::Object
 {

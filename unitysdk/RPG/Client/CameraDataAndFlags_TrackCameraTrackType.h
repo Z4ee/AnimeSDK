@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CameraDataAndFlags_TrackCameraTrackType_TypeDefinitionIndex = 69521;
+	inline static constexpr unsigned int CameraDataAndFlags_TrackCameraTrackType_TypeDefinitionIndex = 69557;
 
 	enum class CameraDataAndFlags_TrackCameraTrackType : ::System::Int32
 	{

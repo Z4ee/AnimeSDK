@@ -7,11 +7,11 @@ namespace RPG::GameCore { class SkillCharacterComponent; }
 namespace RPG::GameCore { class SkillData; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_6421FCA7574ADCFA_EVALUATE_OFFSET UNITYSDK_OFFSET(0x163F8810)
-#define CLASS_3_6421FCA7574ADCFA_METHOD_3_F1824A3363EA4A00_OFFSET UNITYSDK_OFFSET(0x163F8BA0)
-#define CLASS_3_6421FCA7574ADCFA__CTOR_OFFSET UNITYSDK_OFFSET(0x163F87E0)
+#define CLASS_3_6421FCA7574ADCFA_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB2E4C50)
+#define CLASS_3_6421FCA7574ADCFA_METHOD_3_F1824A3363EA4A00_OFFSET UNITYSDK_OFFSET(0xB2E5020)
+#define CLASS_3_6421FCA7574ADCFA__CTOR_OFFSET UNITYSDK_OFFSET(0xB2E4C20)
 
-inline static constexpr unsigned int Class_3_6421FCA7574ADCFA_TypeDefinitionIndex = 54777;
+inline static constexpr unsigned int Class_3_6421FCA7574ADCFA_TypeDefinitionIndex = 54565;
 
 class Class_3_6421FCA7574ADCFA : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByCompareSkillBPChangePreview*>
 {

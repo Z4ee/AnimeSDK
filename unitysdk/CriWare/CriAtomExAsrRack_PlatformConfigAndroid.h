@@ -3,12 +3,12 @@
 #include "unitysdk/CriWare/CriAtomExAsrRack_StreamType.h"
 #include "unitysdk/System/ValueType.h"
 
-#define CRIWARE_CRIATOMEXASRRACK_PLATFORMCONFIGANDROID_DEFAULT_OFFSET UNITYSDK_OFFSET(0x164C1120)
-#define CRIWARE_CRIATOMEXASRRACK_PLATFORMCONFIGANDROID_ISSUPPORTEDPLATFORM_OFFSET UNITYSDK_OFFSET(0x2E002B0)
+#define CRIWARE_CRIATOMEXASRRACK_PLATFORMCONFIGANDROID_DEFAULT_OFFSET UNITYSDK_OFFSET(0x166E7D50)
+#define CRIWARE_CRIATOMEXASRRACK_PLATFORMCONFIGANDROID_ISSUPPORTEDPLATFORM_OFFSET UNITYSDK_OFFSET(0x2E8C190)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExAsrRack_PlatformConfigAndroid_TypeDefinitionIndex = 38617;
+	inline static constexpr unsigned int CriAtomExAsrRack_PlatformConfigAndroid_TypeDefinitionIndex = 39914;
 
 	struct alignas(4) CriAtomExAsrRack_PlatformConfigAndroid
 	{

@@ -4,11 +4,11 @@
 #include "unitysdk/CriWare/CriAtom_SpeakerMapping.h"
 #include "unitysdk/System/ValueType.h"
 
-#define CRIWARE_CRIATOMEXASRRACK_CONFIG_DEFAULT_OFFSET UNITYSDK_OFFSET(0x164C0FA0)
+#define CRIWARE_CRIATOMEXASRRACK_CONFIG_DEFAULT_OFFSET UNITYSDK_OFFSET(0x166E7BD0)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExAsrRack_Config_TypeDefinitionIndex = 38620;
+	inline static constexpr unsigned int CriAtomExAsrRack_Config_TypeDefinitionIndex = 39917;
 
 	struct alignas(8) CriAtomExAsrRack_Config
 	{

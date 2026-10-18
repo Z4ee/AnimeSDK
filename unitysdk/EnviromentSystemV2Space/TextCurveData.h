@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define ENVIROMENTSYSTEMV2SPACE_TEXTCURVEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x153A7D00)
+#define ENVIROMENTSYSTEMV2SPACE_TEXTCURVEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x15657C00)
 
 namespace EnviromentSystemV2Space
 {
-	inline static constexpr unsigned int TextCurveData_TypeDefinitionIndex = 49822;
+	inline static constexpr unsigned int TextCurveData_TypeDefinitionIndex = 49397;
 
 	class TextCurveData : public ::System::Object
 	{

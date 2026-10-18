@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TimeRewindOverrideHitProtectTime; }
 
-#define CLASS_3_4446B0EBEF91F2B8_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBC41210)
-#define CLASS_3_4446B0EBEF91F2B8__CTOR_OFFSET UNITYSDK_OFFSET(0xBC411E0)
+#define CLASS_3_4446B0EBEF91F2B8_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBB0A430)
+#define CLASS_3_4446B0EBEF91F2B8__CTOR_OFFSET UNITYSDK_OFFSET(0xBB0A400)
 
-inline static constexpr unsigned int Class_3_4446B0EBEF91F2B8_TypeDefinitionIndex = 53659;
+inline static constexpr unsigned int Class_3_4446B0EBEF91F2B8_TypeDefinitionIndex = 53402;
 
 class Class_3_4446B0EBEF91F2B8 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::TimeRewindOverrideHitProtectTime*>
 {

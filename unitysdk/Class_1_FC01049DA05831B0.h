@@ -5,9 +5,9 @@
 namespace RPG::Client { class ChimeraDuelTalkData; }
 namespace RPG::GameCore { class ChimeraDuelBubbleEventListener; }
 
-#define CLASS_1_FC01049DA05831B0__CTOR_OFFSET UNITYSDK_OFFSET(0x155298B0)
+#define CLASS_1_FC01049DA05831B0__CTOR_OFFSET UNITYSDK_OFFSET(0x157F0690)
 
-inline static constexpr unsigned int Class_1_FC01049DA05831B0_TypeDefinitionIndex = 77807;
+inline static constexpr unsigned int Class_1_FC01049DA05831B0_TypeDefinitionIndex = 78278;
 
 class Class_1_FC01049DA05831B0 : public ::System::Object
 {

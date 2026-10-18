@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class OverrideAdventureCharacterTiltConfig; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_00024C4E67953652_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x163EEA80)
-#define CLASS_3_00024C4E67953652__CTOR_OFFSET UNITYSDK_OFFSET(0x163EEA50)
+#define CLASS_3_00024C4E67953652_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB2DACA0)
+#define CLASS_3_00024C4E67953652__CTOR_OFFSET UNITYSDK_OFFSET(0xB2DAC70)
 
-inline static constexpr unsigned int Class_3_00024C4E67953652_TypeDefinitionIndex = 53320;
+inline static constexpr unsigned int Class_3_00024C4E67953652_TypeDefinitionIndex = 53046;
 
 class Class_3_00024C4E67953652 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::OverrideAdventureCharacterTiltConfig*>
 {

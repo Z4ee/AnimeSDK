@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByIsFakeSkillByName; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_6BC5F16E0322E4F1_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB8E8640)
-#define CLASS_3_6BC5F16E0322E4F1__CTOR_OFFSET UNITYSDK_OFFSET(0xB8E8610)
+#define CLASS_3_6BC5F16E0322E4F1_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB75CDA0)
+#define CLASS_3_6BC5F16E0322E4F1__CTOR_OFFSET UNITYSDK_OFFSET(0xB75CD70)
 
-inline static constexpr unsigned int Class_3_6BC5F16E0322E4F1_TypeDefinitionIndex = 54868;
+inline static constexpr unsigned int Class_3_6BC5F16E0322E4F1_TypeDefinitionIndex = 54656;
 
 class Class_3_6BC5F16E0322E4F1 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByIsFakeSkillByName*>
 {

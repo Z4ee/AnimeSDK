@@ -10,30 +10,30 @@ class Class_1_7A22A3DBEEDD1F80;
 class Class_1_A88C3AAF0DD46F4C_1;
 namespace System { class String; }
 
-#define RPG_GAMECORE_EVOLVEBUILDSHOPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D077E40)
-#define RPG_GAMECORE_EVOLVEBUILDSHOPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D078440)
+#define RPG_GAMECORE_EVOLVEBUILDSHOPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D685E30)
+#define RPG_GAMECORE_EVOLVEBUILDSHOPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D686430)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EvolveBuildShopRow_TypeDefinitionIndex = 11409;
+	inline static constexpr unsigned int EvolveBuildShopRow_TypeDefinitionIndex = 11425;
 
 	class EvolveBuildShopRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::RPG::GameCore::FixPoint>* ParamList; // 0x10
 		::System::String* ItemBackground; // 0x18
-		::Il2CppArray<::Class_1_A88C3AAF0DD46F4C_1*>* PriceList; // 0x20
-		::System::String* ItemIcon; // 0x28
-		::RPG::Client::TextID BuffTextFormat; // 0x30
-		::System::UInt32 LvMax; // 0x40
-		::System::UInt32 ID; // 0x44
-		::RPG::Client::TextID Name; // 0x48
-		::RPG::Client::TextID ShopDesc; // 0x58
-		::RPG::Client::TextID Category; // 0x68
-		::RPG::Client::TextID TotalBuff; // 0x78
-		::RPG::GameCore::EvolveBuildProtductType ShopType; // 0x88
-		::System::UInt32 MazeBuffID; // 0x8C
-		::RPG::GameCore::EvolveBuildSeason Season; // 0x90
+		::System::String* ItemIcon; // 0x20
+		::Il2CppArray<::Class_1_A88C3AAF0DD46F4C_1*>* PriceList; // 0x28
+		::RPG::GameCore::EvolveBuildSeason Season; // 0x30
+		::System::UInt32 ID; // 0x34
+		::RPG::Client::TextID Category; // 0x38
+		::RPG::Client::TextID TotalBuff; // 0x48
+		::System::UInt32 MazeBuffID; // 0x58
+		::System::UInt32 LvMax; // 0x5C
+		::RPG::GameCore::EvolveBuildProtductType ShopType; // 0x60
+		::RPG::Client::TextID Name; // 0x68
+		::RPG::Client::TextID BuffTextFormat; // 0x78
+		::RPG::Client::TextID ShopDesc; // 0x88
 
 		::System::Void _ctor()
 		{

@@ -5,12 +5,12 @@
 namespace System::Runtime::CompilerServices { class IRuntimeVariables; }
 namespace System::Runtime::CompilerServices { class IStrongBox; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_RUNTIMEVARIABLES_CREATE_OFFSET UNITYSDK_OFFSET(0x1E75F850)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_RUNTIMEVARIABLES__CTOR_OFFSET UNITYSDK_OFFSET(0x1E75F840)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_RUNTIMEVARIABLES_CREATE_OFFSET UNITYSDK_OFFSET(0x1EE28450)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_RUNTIMEVARIABLES__CTOR_OFFSET UNITYSDK_OFFSET(0x1EE28440)
 
 namespace System::Linq::Expressions::Interpreter
 {
-	inline static constexpr unsigned int RuntimeVariables_TypeDefinitionIndex = 3618;
+	inline static constexpr unsigned int RuntimeVariables_TypeDefinitionIndex = 3619;
 
 	class RuntimeVariables : public ::System::Object
 	{

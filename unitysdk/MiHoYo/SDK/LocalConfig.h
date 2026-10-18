@@ -14,11 +14,11 @@ namespace MiHoYo::SDK { class SteamParametersModel; }
 namespace MiHoYo::SDK { class WatermarkInfo; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_LOCALCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B995FB0)
+#define MIHOYO_SDK_LOCALCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE95B80)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int LocalConfig_TypeDefinitionIndex = 7861;
+	inline static constexpr unsigned int LocalConfig_TypeDefinitionIndex = 7905;
 
 	class LocalConfig : public ::System::Object
 	{

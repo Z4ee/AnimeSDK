@@ -9,45 +9,45 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class IDictionary_2; }
 namespace ZXing::Common { class BitMatrix; }
 
-#define ZXING_ONED_PLESSEYWRITER_ENCODE_1_OFFSET UNITYSDK_OFFSET(0x1EFFCED0)
-#define ZXING_ONED_PLESSEYWRITER_ENCODE_OFFSET UNITYSDK_OFFSET(0x1EFFCE20)
-#define ZXING_ONED_PLESSEYWRITER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EFFE090)
-#define ZXING_ONED_PLESSEYWRITER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EFEF0E0)
+#define ZXING_ONED_PLESSEYWRITER_ENCODE_1_OFFSET UNITYSDK_OFFSET(0x1F6C5410)
+#define ZXING_ONED_PLESSEYWRITER_ENCODE_OFFSET UNITYSDK_OFFSET(0x1F6C5360)
+#define ZXING_ONED_PLESSEYWRITER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F6C65D0)
+#define ZXING_ONED_PLESSEYWRITER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F6B7670)
 
 namespace ZXing::OneD
 {
-	inline static constexpr unsigned int PlesseyWriter_TypeDefinitionIndex = 6983;
+	inline static constexpr unsigned int PlesseyWriter_TypeDefinitionIndex = 6992;
 
 	class PlesseyWriter : public ::ZXing::OneD::OneDimensionalCodeWriter
 	{
 	public:
-		static ::Il2CppArray<::System::Int32>** StaticGet_crc1Widths()
+		static ::Il2CppArray<::Il2CppArray<::System::Int32>*>** StaticGet_numberWidths()
 		{
-			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(PlesseyWriter_TypeDefinitionIndex)->GetStaticField(0x27660);
+			return (::Il2CppArray<::Il2CppArray<::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(PlesseyWriter_TypeDefinitionIndex)->GetStaticField(0x22E20);
 		}
 		static ::Il2CppArray<::System::Int32>** StaticGet_endWidths()
 		{
-			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(PlesseyWriter_TypeDefinitionIndex)->GetStaticField(0x27668);
-		}
-		static ::Il2CppArray<::Il2CppArray<::System::Int32>*>** StaticGet_numberWidths()
-		{
-			return (::Il2CppArray<::Il2CppArray<::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(PlesseyWriter_TypeDefinitionIndex)->GetStaticField(0x27670);
-		}
-		static ::Il2CppArray<::System::Int32>** StaticGet_crc0Widths()
-		{
-			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(PlesseyWriter_TypeDefinitionIndex)->GetStaticField(0x27678);
-		}
-		static ::Il2CppArray<::System::Int32>** StaticGet_terminationWidths()
-		{
-			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(PlesseyWriter_TypeDefinitionIndex)->GetStaticField(0x27680);
+			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(PlesseyWriter_TypeDefinitionIndex)->GetStaticField(0x22E28);
 		}
 		static ::Il2CppArray<::System::Byte>** StaticGet_crcGrid()
 		{
-			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(PlesseyWriter_TypeDefinitionIndex)->GetStaticField(0x27688);
+			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(PlesseyWriter_TypeDefinitionIndex)->GetStaticField(0x22E30);
 		}
 		static ::Il2CppArray<::System::Int32>** StaticGet_startWidths()
 		{
-			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(PlesseyWriter_TypeDefinitionIndex)->GetStaticField(0x27690);
+			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(PlesseyWriter_TypeDefinitionIndex)->GetStaticField(0x22E38);
+		}
+		static ::Il2CppArray<::System::Int32>** StaticGet_crc1Widths()
+		{
+			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(PlesseyWriter_TypeDefinitionIndex)->GetStaticField(0x22E40);
+		}
+		static ::Il2CppArray<::System::Int32>** StaticGet_crc0Widths()
+		{
+			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(PlesseyWriter_TypeDefinitionIndex)->GetStaticField(0x22E48);
+		}
+		static ::Il2CppArray<::System::Int32>** StaticGet_terminationWidths()
+		{
+			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(PlesseyWriter_TypeDefinitionIndex)->GetStaticField(0x22E50);
 		}
 
 		::System::Void _ctor()

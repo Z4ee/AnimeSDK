@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ACTIONBARSTYLESIZESETTING_METHOD_2_0864A1CB29B85CAD_OFFSET UNITYSDK_OFFSET(0x1CD6ED60)
-#define RPG_GAMECORE_ACTIONBARSTYLESIZESETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD6F830)
+#define RPG_GAMECORE_ACTIONBARSTYLESIZESETTING_METHOD_2_810324C5A2C41E42_OFFSET UNITYSDK_OFFSET(0x1D342520)
+#define RPG_GAMECORE_ACTIONBARSTYLESIZESETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x1D343C10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActionBarStyleSizeSetting_TypeDefinitionIndex = 16957;
+	inline static constexpr unsigned int ActionBarStyleSizeSetting_TypeDefinitionIndex = 17152;
 
 	class ActionBarStyleSizeSetting : public ::RPG::GameCore::JsonConfig
 	{
@@ -58,9 +58,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIONBARSTYLESIZESETTING__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_0864A1CB29B85CAD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ActionBarStyleSizeSetting*& a2)
+		static ::System::Void Method_2_810324C5A2C41E42(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ActionBarStyleSizeSetting*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ActionBarStyleSizeSetting*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIONBARSTYLESIZESETTING_METHOD_2_0864A1CB29B85CAD_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ActionBarStyleSizeSetting*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIONBARSTYLESIZESETTING_METHOD_2_810324C5A2C41E42_OFFSET))(a1, a2);
 		}
 	};
 }

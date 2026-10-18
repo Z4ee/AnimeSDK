@@ -7,13 +7,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ChenLingFesRegionCellConfig; }
 namespace RPG::GameCore { class ChenLingFesRegionItemConfig; }
 
-#define RPG_GAMECORE_CHENLINGFESREGIONCONFIG_METHOD_3_479522B08F6F87D4_OFFSET UNITYSDK_OFFSET(0x1CFB50A0)
-#define RPG_GAMECORE_CHENLINGFESREGIONCONFIG_METHOD_3_8CADC1BF4708F0B5_OFFSET UNITYSDK_OFFSET(0x1CFB5100)
-#define RPG_GAMECORE_CHENLINGFESREGIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFB50F0)
+#define RPG_GAMECORE_CHENLINGFESREGIONCONFIG_METHOD_3_B8EE52BEF13E0B44_OFFSET UNITYSDK_OFFSET(0x1D590600)
+#define RPG_GAMECORE_CHENLINGFESREGIONCONFIG_METHOD_3_E2D2CD3BD61F34EC_OFFSET UNITYSDK_OFFSET(0x1D590660)
+#define RPG_GAMECORE_CHENLINGFESREGIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D590650)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingFesRegionConfig_TypeDefinitionIndex = 18229;
+	inline static constexpr unsigned int ChenLingFesRegionConfig_TypeDefinitionIndex = 18444;
 
 	class ChenLingFesRegionConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
@@ -31,14 +31,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGFESREGIONCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_479522B08F6F87D4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChenLingFesRegionConfig*& a2)
+		static ::System::Void Method_3_B8EE52BEF13E0B44(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChenLingFesRegionConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChenLingFesRegionConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGFESREGIONCONFIG_METHOD_3_479522B08F6F87D4_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChenLingFesRegionConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGFESREGIONCONFIG_METHOD_3_B8EE52BEF13E0B44_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_8CADC1BF4708F0B5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChenLingFesRegionConfig* a2)
+		static ::System::Void Method_3_E2D2CD3BD61F34EC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChenLingFesRegionConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChenLingFesRegionConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGFESREGIONCONFIG_METHOD_3_8CADC1BF4708F0B5_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChenLingFesRegionConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGFESREGIONCONFIG_METHOD_3_E2D2CD3BD61F34EC_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -10,7 +10,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int WhenEachEnumerable_1_TypeDefinitionIndex = 42792;
+	inline static constexpr unsigned int WhenEachEnumerable_1_TypeDefinitionIndex = 38377;
 
 	template <typename T>
 	class WhenEachEnumerable_1 : public ::System::Object

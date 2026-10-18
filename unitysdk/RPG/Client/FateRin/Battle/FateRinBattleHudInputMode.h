@@ -3,7 +3,7 @@
 
 namespace RPG::Client::FateRin::Battle
 {
-	inline static constexpr unsigned int FateRinBattleHudInputMode_TypeDefinitionIndex = 79606;
+	inline static constexpr unsigned int FateRinBattleHudInputMode_TypeDefinitionIndex = 80930;
 
 	enum class FateRinBattleHudInputMode : ::System::Int32
 	{

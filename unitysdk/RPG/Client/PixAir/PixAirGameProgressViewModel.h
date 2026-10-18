@@ -2,32 +2,32 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Sofa/BaseViewModel.h"
 
-class Class_1_47EB23CB5C4B2615_42;
+class Class_1_47EB23CB5C4B2615_43;
 class Class_1_91C9195F7AC754D8;
 namespace RPG::Client::PixAir { class PixAirGameProgressNodeViewModel; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_PIXAIR_PIXAIRGAMEPROGRESSVIEWMODEL_GET_NODEVIEWMODELS_OFFSET UNITYSDK_OFFSET(0xDB05640)
-#define RPG_CLIENT_PIXAIR_PIXAIRGAMEPROGRESSVIEWMODEL_SET_NODEVIEWMODELS_OFFSET UNITYSDK_OFFSET(0xDB05650)
-#define RPG_CLIENT_PIXAIR_PIXAIRGAMEPROGRESSVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xDB04470)
+#define RPG_CLIENT_PIXAIR_PIXAIRGAMEPROGRESSVIEWMODEL_GET_NODEVIEWMODELS_OFFSET UNITYSDK_OFFSET(0xDB4E190)
+#define RPG_CLIENT_PIXAIR_PIXAIRGAMEPROGRESSVIEWMODEL_SET_NODEVIEWMODELS_OFFSET UNITYSDK_OFFSET(0xDB4E1A0)
+#define RPG_CLIENT_PIXAIR_PIXAIRGAMEPROGRESSVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xDB4CEF0)
 
 namespace RPG::Client::PixAir
 {
-	inline static constexpr unsigned int PixAirGameProgressViewModel_TypeDefinitionIndex = 78777;
+	inline static constexpr unsigned int PixAirGameProgressViewModel_TypeDefinitionIndex = 79258;
 
 	class PixAirGameProgressViewModel : public ::Sofa::BaseViewModel
 	{
 	public:
-		::Class_1_47EB23CB5C4B2615_42* _WindowService; // 0x20
-		::System::Collections::Generic::List_1<::RPG::Client::PixAir::PixAirGameProgressNodeViewModel*>* _NodeViewModels_k__BackingField; // 0x28
+		::System::Collections::Generic::List_1<::RPG::Client::PixAir::PixAirGameProgressNodeViewModel*>* _NodeViewModels_k__BackingField; // 0x20
+		::Class_1_47EB23CB5C4B2615_43* _WindowService; // 0x28
 		::Class_1_91C9195F7AC754D8* _GameFlowService; // 0x30
-		::System::UInt32 CurNodeID; // 0x38
+		::System::Single Progress; // 0x38
 		::System::UInt32 CurAreaID; // 0x3C
-		::System::Single Progress; // 0x40
+		::System::UInt32 CurNodeID; // 0x40
 
-		::System::Void _ctor(::Class_1_47EB23CB5C4B2615_42* a1, ::Class_1_91C9195F7AC754D8* a2)
+		::System::Void _ctor(::Class_1_47EB23CB5C4B2615_43* a1, ::Class_1_91C9195F7AC754D8* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_47EB23CB5C4B2615_42*, ::Class_1_91C9195F7AC754D8*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIRGAMEPROGRESSVIEWMODEL__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::Class_1_47EB23CB5C4B2615_43*, ::Class_1_91C9195F7AC754D8*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIRGAMEPROGRESSVIEWMODEL__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Collections::Generic::List_1<::RPG::Client::PixAir::PixAirGameProgressNodeViewModel*>* get_NodeViewModels()

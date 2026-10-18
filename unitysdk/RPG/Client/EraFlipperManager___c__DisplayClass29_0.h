@@ -2,28 +2,28 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_D8BCA6FA1DEB13B9;
+class Class_1_B338251AE5C2EEC8;
 namespace RPG::Client { class EraFlipperManager; }
 namespace RPG::Client { class MapPropDef; }
 namespace RPG::Client { class RuntimeGroupManager_HoYoGroupUnit; }
 namespace RPG::GameCore { class EraRegion; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_ERAFLIPPERMANAGER___C__DISPLAYCLASS29_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCEC96E0)
-#define RPG_CLIENT_ERAFLIPPERMANAGER___C__DISPLAYCLASS29_0___ENTERERAREGION_B__0_OFFSET UNITYSDK_OFFSET(0xCECBC00)
-#define RPG_CLIENT_ERAFLIPPERMANAGER___C__DISPLAYCLASS29_0___ENTERERAREGION_B__1_OFFSET UNITYSDK_OFFSET(0xCECBC70)
-#define RPG_CLIENT_ERAFLIPPERMANAGER___C__DISPLAYCLASS29_0___ENTERERAREGION_B__3_OFFSET UNITYSDK_OFFSET(0xCECC130)
+#define RPG_CLIENT_ERAFLIPPERMANAGER___C__DISPLAYCLASS29_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCE18190)
+#define RPG_CLIENT_ERAFLIPPERMANAGER___C__DISPLAYCLASS29_0___ENTERERAREGION_B__0_OFFSET UNITYSDK_OFFSET(0xCE1A6F0)
+#define RPG_CLIENT_ERAFLIPPERMANAGER___C__DISPLAYCLASS29_0___ENTERERAREGION_B__1_OFFSET UNITYSDK_OFFSET(0xCE1A760)
+#define RPG_CLIENT_ERAFLIPPERMANAGER___C__DISPLAYCLASS29_0___ENTERERAREGION_B__3_OFFSET UNITYSDK_OFFSET(0xCE1AC20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EraFlipperManager___c__DisplayClass29_0_TypeDefinitionIndex = 60608;
+	inline static constexpr unsigned int EraFlipperManager___c__DisplayClass29_0_TypeDefinitionIndex = 60509;
 
 	class EraFlipperManager___c__DisplayClass29_0 : public ::System::Object
 	{
 	public:
 		::System::Func_2<::RPG::Client::MapPropDef*, ::System::Boolean>* __9__3; // 0x10
-		::RPG::Client::EraFlipperManager* __4__this; // 0x18
-		::Class_1_D8BCA6FA1DEB13B9* stageRegion; // 0x20
+		::Class_1_B338251AE5C2EEC8* stageRegion; // 0x18
+		::RPG::Client::EraFlipperManager* __4__this; // 0x20
 
 		::System::Void _ctor()
 		{

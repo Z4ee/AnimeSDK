@@ -3,12 +3,12 @@
 #include "unitysdk/UnityEngine/GridLayout.h"
 #include "unitysdk/UnityEngine/Vector3Int.h"
 
-#define UNITYENGINE_TILEMAPS_TILEMAP_REFRESHTILE_INJECTED_OFFSET UNITYSDK_OFFSET(0x1EDE0B10)
-#define UNITYENGINE_TILEMAPS_TILEMAP_REFRESHTILE_OFFSET UNITYSDK_OFFSET(0x1EDE0620)
+#define UNITYENGINE_TILEMAPS_TILEMAP_REFRESHTILE_INJECTED_OFFSET UNITYSDK_OFFSET(0x1F4A9D30)
+#define UNITYENGINE_TILEMAPS_TILEMAP_REFRESHTILE_OFFSET UNITYSDK_OFFSET(0x1F4A9840)
 
 namespace UnityEngine::Tilemaps
 {
-	inline static constexpr unsigned int Tilemap_TypeDefinitionIndex = 5850;
+	inline static constexpr unsigned int Tilemap_TypeDefinitionIndex = 5858;
 
 	class Tilemap : public ::UnityEngine::GridLayout
 	{

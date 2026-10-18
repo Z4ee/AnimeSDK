@@ -14,7 +14,7 @@ namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int SingleOperator__SingleAsync_d__1_1_TypeDefinitionIndex = 44437;
+	inline static constexpr unsigned int SingleOperator__SingleAsync_d__1_1_TypeDefinitionIndex = 45576;
 
 	template <typename TSource>
 	struct SingleOperator__SingleAsync_d__1_1

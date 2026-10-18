@@ -3,7 +3,7 @@
 
 namespace Sofa::Runtime::ReactiveBinding
 {
-	inline static constexpr unsigned int LoadSessionPhase_TypeDefinitionIndex = 50292;
+	inline static constexpr unsigned int LoadSessionPhase_TypeDefinitionIndex = 49966;
 
 	enum class LoadSessionPhase : ::System::Int32
 	{

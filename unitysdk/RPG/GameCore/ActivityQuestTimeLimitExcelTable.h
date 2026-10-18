@@ -11,45 +11,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_ACTIVITYQUESTTIMELIMITEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1CDA02D0)
-#define RPG_GAMECORE_ACTIVITYQUESTTIMELIMITEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1CDA01A0)
-#define RPG_GAMECORE_ACTIVITYQUESTTIMELIMITEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1CD9FE90)
-#define RPG_GAMECORE_ACTIVITYQUESTTIMELIMITEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1CDA0140)
-#define RPG_GAMECORE_ACTIVITYQUESTTIMELIMITEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1CDA0420)
-#define RPG_GAMECORE_ACTIVITYQUESTTIMELIMITEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1CD9FF10)
-#define RPG_GAMECORE_ACTIVITYQUESTTIMELIMITEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1CDA0460)
-#define RPG_GAMECORE_ACTIVITYQUESTTIMELIMITEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CDA0630)
-#define RPG_GAMECORE_ACTIVITYQUESTTIMELIMITEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1CDA0A60)
-#define RPG_GAMECORE_ACTIVITYQUESTTIMELIMITEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CDA0D80)
-#define RPG_GAMECORE_ACTIVITYQUESTTIMELIMITEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1CDA0590)
-#define RPG_GAMECORE_ACTIVITYQUESTTIMELIMITEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1CDA04F0)
+#define RPG_GAMECORE_ACTIVITYQUESTTIMELIMITEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1D3750D0)
+#define RPG_GAMECORE_ACTIVITYQUESTTIMELIMITEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1D374FA0)
+#define RPG_GAMECORE_ACTIVITYQUESTTIMELIMITEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1D374C90)
+#define RPG_GAMECORE_ACTIVITYQUESTTIMELIMITEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1D374F40)
+#define RPG_GAMECORE_ACTIVITYQUESTTIMELIMITEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1D375220)
+#define RPG_GAMECORE_ACTIVITYQUESTTIMELIMITEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D374D10)
+#define RPG_GAMECORE_ACTIVITYQUESTTIMELIMITEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1D375260)
+#define RPG_GAMECORE_ACTIVITYQUESTTIMELIMITEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D375430)
+#define RPG_GAMECORE_ACTIVITYQUESTTIMELIMITEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1D375860)
+#define RPG_GAMECORE_ACTIVITYQUESTTIMELIMITEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D375B80)
+#define RPG_GAMECORE_ACTIVITYQUESTTIMELIMITEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1D375390)
+#define RPG_GAMECORE_ACTIVITYQUESTTIMELIMITEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D3752F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityQuestTimeLimitExcelTable_TypeDefinitionIndex = 12232;
+	inline static constexpr unsigned int ActivityQuestTimeLimitExcelTable_TypeDefinitionIndex = 12313;
 
 	class ActivityQuestTimeLimitExcelTable : public ::System::Object
 	{
 	public:
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ActivityQuestTimeLimitRow*>** StaticGet_dataDict_()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ActivityQuestTimeLimitRow*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityQuestTimeLimitExcelTable_TypeDefinitionIndex)->GetStaticField(0x41DC0);
+		}
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityQuestTimeLimitExcelTable_TypeDefinitionIndex)->GetStaticField(0x547E0);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityQuestTimeLimitExcelTable_TypeDefinitionIndex)->GetStaticField(0x41DC8);
 		}
 		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityQuestTimeLimitExcelTable_TypeDefinitionIndex)->GetStaticField(0x547E8);
-		}
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ActivityQuestTimeLimitRow*>** StaticGet_dataDict_()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ActivityQuestTimeLimitRow*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityQuestTimeLimitExcelTable_TypeDefinitionIndex)->GetStaticField(0x547F0);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityQuestTimeLimitExcelTable_TypeDefinitionIndex)->GetStaticField(0x41DD0);
 		}
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ActivityQuestTimeLimitExcelTable_TypeDefinitionIndex)->GetStaticField(0x11BE0);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ActivityQuestTimeLimitExcelTable_TypeDefinitionIndex)->GetStaticField(0xFF20);
 		}
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(ActivityQuestTimeLimitExcelTable_TypeDefinitionIndex)->GetStaticField(0x11BE1);
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(ActivityQuestTimeLimitExcelTable_TypeDefinitionIndex)->GetStaticField(0xFF21);
 		}
 
 		static ::System::Void _cctor()

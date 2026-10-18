@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MODIFIERBINDEFFECTCONFIG_METHOD_2_F113802BBF355DAD_OFFSET UNITYSDK_OFFSET(0x1D2AB3F0)
-#define RPG_GAMECORE_MODIFIERBINDEFFECTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2AB520)
+#define RPG_GAMECORE_MODIFIERBINDEFFECTCONFIG_METHOD_2_F113802BBF355DAD_OFFSET UNITYSDK_OFFSET(0x1D88D2B0)
+#define RPG_GAMECORE_MODIFIERBINDEFFECTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D88D3E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ModifierBindEffectConfig_TypeDefinitionIndex = 16314;
+	inline static constexpr unsigned int ModifierBindEffectConfig_TypeDefinitionIndex = 16487;
 
 	class ModifierBindEffectConfig : public ::RPG::GameCore::JsonConfig
 	{

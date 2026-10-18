@@ -6,11 +6,11 @@ namespace HoudiniEngineUnity { class HEU_InputPreset; }
 namespace HoudiniEngineUnity { class HEU_VolumeCachePreset; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define HOUDINIENGINEUNITY_HEU_RECOOKPRESET__CTOR_OFFSET UNITYSDK_OFFSET(0x1B479C50)
+#define HOUDINIENGINEUNITY_HEU_RECOOKPRESET__CTOR_OFFSET UNITYSDK_OFFSET(0x1B97BCE0)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_RecookPreset_TypeDefinitionIndex = 39074;
+	inline static constexpr unsigned int HEU_RecookPreset_TypeDefinitionIndex = 40371;
 
 	class HEU_RecookPreset : public ::System::Object
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AudioGameState_TypeDefinitionIndex = 16204;
+	inline static constexpr unsigned int AudioGameState_TypeDefinitionIndex = 16377;
 
 	enum class AudioGameState : ::System::Int32
 	{

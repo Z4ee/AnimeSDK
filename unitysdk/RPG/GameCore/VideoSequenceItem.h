@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_VIDEOSEQUENCEITEM_METHOD_2_6AA7D88FD7BB9E64_OFFSET UNITYSDK_OFFSET(0x1D69AED0)
-#define RPG_GAMECORE_VIDEOSEQUENCEITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1D69B0E0)
+#define RPG_GAMECORE_VIDEOSEQUENCEITEM_METHOD_2_6AA7D88FD7BB9E64_OFFSET UNITYSDK_OFFSET(0x1DC900C0)
+#define RPG_GAMECORE_VIDEOSEQUENCEITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1DC902D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int VideoSequenceItem_TypeDefinitionIndex = 16823;
+	inline static constexpr unsigned int VideoSequenceItem_TypeDefinitionIndex = 17017;
 
 	class VideoSequenceItem : public ::RPG::GameCore::JsonConfig
 	{

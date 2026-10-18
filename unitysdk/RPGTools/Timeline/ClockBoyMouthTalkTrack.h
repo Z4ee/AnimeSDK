@@ -7,12 +7,12 @@
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_CLOCKBOYMOUTHTALKTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8363E0)
-#define RPGTOOLS_TIMELINE_CLOCKBOYMOUTHTALKTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xE836520)
+#define RPGTOOLS_TIMELINE_CLOCKBOYMOUTHTALKTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8D4160)
+#define RPGTOOLS_TIMELINE_CLOCKBOYMOUTHTALKTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xE8D42A0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int ClockBoyMouthTalkTrack_TypeDefinitionIndex = 48496;
+	inline static constexpr unsigned int ClockBoyMouthTalkTrack_TypeDefinitionIndex = 48036;
 
 	class ClockBoyMouthTalkTrack : public ::RPGTools::Timeline::CharacterTrack
 	{

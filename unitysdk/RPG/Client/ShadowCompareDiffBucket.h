@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ShadowCompareDiffBucket_TypeDefinitionIndex = 62263;
+	inline static constexpr unsigned int ShadowCompareDiffBucket_TypeDefinitionIndex = 62180;
 
 	enum class ShadowCompareDiffBucket : ::System::Int32
 	{

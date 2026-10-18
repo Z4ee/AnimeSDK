@@ -6,12 +6,12 @@ namespace RPG::Client::FateRin::View::Card { class FateRinCardPosControlView; }
 namespace RPG::Client::Promises { class IPendingPromise; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 
-#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINADDCARDTOHANDFLOWVIEW___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD014040)
-#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINADDCARDTOHANDFLOWVIEW___C__DISPLAYCLASS6_0__PLAYADDCARDTOHANDFLOW_B__0_OFFSET UNITYSDK_OFFSET(0xD015B10)
+#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINADDCARDTOHANDFLOWVIEW___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCFB3290)
+#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINADDCARDTOHANDFLOWVIEW___C__DISPLAYCLASS6_0__PLAYADDCARDTOHANDFLOW_B__0_OFFSET UNITYSDK_OFFSET(0xCFB4CB0)
 
 namespace RPG::Client::FateRin::View::Battle
 {
-	inline static constexpr unsigned int FateRinAddCardToHandFlowView___c__DisplayClass6_0_TypeDefinitionIndex = 79328;
+	inline static constexpr unsigned int FateRinAddCardToHandFlowView___c__DisplayClass6_0_TypeDefinitionIndex = 80652;
 
 	class FateRinAddCardToHandFlowView___c__DisplayClass6_0 : public ::System::Object
 	{

@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ROGUEHANDBOOKTYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3E83B0)
-#define RPG_GAMECORE_ROGUEHANDBOOKTYPEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3E8AD0)
+#define RPG_GAMECORE_ROGUEHANDBOOKTYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D9CEBA0)
+#define RPG_GAMECORE_ROGUEHANDBOOKTYPEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D9CF2C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueHandbookTypeRow_TypeDefinitionIndex = 14663;
+	inline static constexpr unsigned int RogueHandbookTypeRow_TypeDefinitionIndex = 14828;
 
 	class RogueHandbookTypeRow : public ::System::Object
 	{

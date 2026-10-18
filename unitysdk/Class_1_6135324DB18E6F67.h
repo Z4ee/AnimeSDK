@@ -10,23 +10,23 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_1_6135324DB18E6F67_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15385720)
-#define CLASS_1_6135324DB18E6F67_METHOD_1_1D44F502338E9435_OFFSET UNITYSDK_OFFSET(0x15384F40)
-#define CLASS_1_6135324DB18E6F67_METHOD_1_3E113CA4DD9458DF_OFFSET UNITYSDK_OFFSET(0x15384F90)
-#define CLASS_1_6135324DB18E6F67_METHOD_1_8C4AEC0BC1CA0CB4_OFFSET UNITYSDK_OFFSET(0x15385630)
-#define CLASS_1_6135324DB18E6F67_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x15384F00)
-#define CLASS_1_6135324DB18E6F67__CTOR_OFFSET UNITYSDK_OFFSET(0x15384CF0)
+#define CLASS_1_6135324DB18E6F67_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1558F520)
+#define CLASS_1_6135324DB18E6F67_METHOD_1_1D44F502338E9435_OFFSET UNITYSDK_OFFSET(0x1558ED40)
+#define CLASS_1_6135324DB18E6F67_METHOD_1_3E113CA4DD9458DF_OFFSET UNITYSDK_OFFSET(0x1558ED90)
+#define CLASS_1_6135324DB18E6F67_METHOD_1_8C4AEC0BC1CA0CB4_OFFSET UNITYSDK_OFFSET(0x1558F430)
+#define CLASS_1_6135324DB18E6F67_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x1558ED00)
+#define CLASS_1_6135324DB18E6F67__CTOR_OFFSET UNITYSDK_OFFSET(0x1558EAF0)
 
-inline static constexpr unsigned int Class_1_6135324DB18E6F67_TypeDefinitionIndex = 78000;
+inline static constexpr unsigned int Class_1_6135324DB18E6F67_TypeDefinitionIndex = 78471;
 
 class Class_1_6135324DB18E6F67 : public ::System::Object
 {
 public:
-	::RPG::Client::Prop::ChimeraPreparationStateControllerBase* DDCEKHJGMMJ; // 0x10
-	::System::Collections::Generic::Dictionary_2<::RPG::Client::Prop::ChimeraPreparationState, ::UnityEngine::GameObject*>* MEELBMCGOFK; // 0x18
-	::Class_1_9C1673530BBC4E15* IPLGCJPLIKH; // 0x20
-	::System::Collections::Generic::Dictionary_2<::RPG::Client::Prop::ChimeraPreparationState, ::RPG::Client::Prop::ChimeraPreparationStateControllerBase*>* IAIHPPPOMFD; // 0x28
-	::UnityEngine::Transform* GKNBCPMJHMN; // 0x30
+	::System::Collections::Generic::Dictionary_2<::RPG::Client::Prop::ChimeraPreparationState, ::UnityEngine::GameObject*>* MEELBMCGOFK; // 0x10
+	::System::Collections::Generic::Dictionary_2<::RPG::Client::Prop::ChimeraPreparationState, ::RPG::Client::Prop::ChimeraPreparationStateControllerBase*>* IAIHPPPOMFD; // 0x18
+	::UnityEngine::Transform* GKNBCPMJHMN; // 0x20
+	::RPG::Client::Prop::ChimeraPreparationStateControllerBase* DDCEKHJGMMJ; // 0x28
+	::Class_1_9C1673530BBC4E15* IPLGCJPLIKH; // 0x30
 
 	::System::Void _ctor(::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* a1, ::UnityEngine::Transform* a2, ::Class_1_9C1673530BBC4E15* a3)
 	{

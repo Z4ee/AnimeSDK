@@ -15,28 +15,28 @@ namespace XLua { class ObjectCheckers; }
 namespace XLua { class ObjectTranslator; }
 namespace XLua::LuaDLL { class lua_CSFunction; }
 
-#define XLUA_METHODWRAPSCACHE_GETCONSTRUCTORWRAP_OFFSET UNITYSDK_OFFSET(0x14B2FD70)
-#define XLUA_METHODWRAPSCACHE_GETDELEGATEWRAP_OFFSET UNITYSDK_OFFSET(0x14B311E0)
-#define XLUA_METHODWRAPSCACHE_GETEVENTWRAP_OFFSET UNITYSDK_OFFSET(0x14B31570)
-#define XLUA_METHODWRAPSCACHE_GETMETHODWRAPINCACHE_OFFSET UNITYSDK_OFFSET(0x14B30F40)
-#define XLUA_METHODWRAPSCACHE_GETMETHODWRAP_OFFSET UNITYSDK_OFFSET(0x14B30A90)
-#define XLUA_METHODWRAPSCACHE_TRYMAKEGENERICMETHOD_OFFSET UNITYSDK_OFFSET(0x14B31BD0)
-#define XLUA_METHODWRAPSCACHE__CTOR_OFFSET UNITYSDK_OFFSET(0x14B2FBF0)
-#define XLUA_METHODWRAPSCACHE__GENMETHODWRAP_OFFSET UNITYSDK_OFFSET(0x14B30440)
+#define XLUA_METHODWRAPSCACHE_GETCONSTRUCTORWRAP_OFFSET UNITYSDK_OFFSET(0x14DC6240)
+#define XLUA_METHODWRAPSCACHE_GETDELEGATEWRAP_OFFSET UNITYSDK_OFFSET(0x14DC76B0)
+#define XLUA_METHODWRAPSCACHE_GETEVENTWRAP_OFFSET UNITYSDK_OFFSET(0x14DC7A40)
+#define XLUA_METHODWRAPSCACHE_GETMETHODWRAPINCACHE_OFFSET UNITYSDK_OFFSET(0x14DC7410)
+#define XLUA_METHODWRAPSCACHE_GETMETHODWRAP_OFFSET UNITYSDK_OFFSET(0x14DC6F60)
+#define XLUA_METHODWRAPSCACHE_TRYMAKEGENERICMETHOD_OFFSET UNITYSDK_OFFSET(0x14DC80A0)
+#define XLUA_METHODWRAPSCACHE__CTOR_OFFSET UNITYSDK_OFFSET(0x14DC60C0)
+#define XLUA_METHODWRAPSCACHE__GENMETHODWRAP_OFFSET UNITYSDK_OFFSET(0x14DC6910)
 
 namespace XLua
 {
-	inline static constexpr unsigned int MethodWrapsCache_TypeDefinitionIndex = 50547;
+	inline static constexpr unsigned int MethodWrapsCache_TypeDefinitionIndex = 50216;
 
 	class MethodWrapsCache : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::XLua::LuaDLL::lua_CSFunction*>*>* methodsCache; // 0x10
-		::XLua::ObjectCheckers* objCheckers; // 0x18
-		::System::Collections::Generic::Dictionary_2<::System::Type*, ::XLua::LuaDLL::lua_CSFunction*>* constructorCache; // 0x20
-		::XLua::ObjectCasters* objCasters; // 0x28
-		::XLua::ObjectTranslator* translator; // 0x30
-		::System::Collections::Generic::Dictionary_2<::System::Type*, ::XLua::LuaDLL::lua_CSFunction*>* delegateCache; // 0x38
+		::System::Collections::Generic::Dictionary_2<::System::Type*, ::XLua::LuaDLL::lua_CSFunction*>* constructorCache; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::Type*, ::XLua::LuaDLL::lua_CSFunction*>* delegateCache; // 0x20
+		::XLua::ObjectCheckers* objCheckers; // 0x28
+		::XLua::ObjectCasters* objCasters; // 0x30
+		::XLua::ObjectTranslator* translator; // 0x38
 
 		::System::Void _ctor(::XLua::ObjectTranslator* a1, ::XLua::ObjectCheckers* a2, ::XLua::ObjectCasters* a3)
 		{

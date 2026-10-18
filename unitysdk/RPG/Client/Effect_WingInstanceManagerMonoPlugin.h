@@ -6,11 +6,11 @@ namespace RPG::Client { class Effect_WingInstanceManagerBehavior; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Mesh; }
 
-#define RPG_CLIENT_EFFECT_WINGINSTANCEMANAGERMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xCE28490)
+#define RPG_CLIENT_EFFECT_WINGINSTANCEMANAGERMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xCD78910)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_WingInstanceManagerMonoPlugin_TypeDefinitionIndex = 70498;
+	inline static constexpr unsigned int Effect_WingInstanceManagerMonoPlugin_TypeDefinitionIndex = 70534;
 
 	class Effect_WingInstanceManagerMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::Effect_WingInstanceManagerBehavior*>
 	{

@@ -6,10 +6,10 @@ namespace System { class String; }
 namespace System::Net { class IPAddress; }
 namespace System::Net { class IPHostEntry; }
 
-#define SYSTEM_NET_NCLUTILITIES_GETLOCALHOST_OFFSET UNITYSDK_OFFSET(0x1E9A3B10)
-#define SYSTEM_NET_NCLUTILITIES_GET_LOCALADDRESSESLOCK_OFFSET UNITYSDK_OFFSET(0x1E9A3B30)
-#define SYSTEM_NET_NCLUTILITIES_GET_LOCALADDRESSES_OFFSET UNITYSDK_OFFSET(0x1E9A36C0)
-#define SYSTEM_NET_NCLUTILITIES_ISADDRESSLOCAL_OFFSET UNITYSDK_OFFSET(0x1E9A3640)
+#define SYSTEM_NET_NCLUTILITIES_GETLOCALHOST_OFFSET UNITYSDK_OFFSET(0x1F06C370)
+#define SYSTEM_NET_NCLUTILITIES_GET_LOCALADDRESSESLOCK_OFFSET UNITYSDK_OFFSET(0x1F06C390)
+#define SYSTEM_NET_NCLUTILITIES_GET_LOCALADDRESSES_OFFSET UNITYSDK_OFFSET(0x1F06BF20)
+#define SYSTEM_NET_NCLUTILITIES_ISADDRESSLOCAL_OFFSET UNITYSDK_OFFSET(0x1F06BEA0)
 
 namespace System::Net
 {
@@ -18,17 +18,17 @@ namespace System::Net
 	class NclUtilities : public ::System::Object
 	{
 	public:
+		static ::System::String** StaticGet__LocalDomainName()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(NclUtilities_TypeDefinitionIndex)->GetStaticField(0x26850);
+		}
 		static ::Il2CppArray<::System::Net::IPAddress*>** StaticGet__LocalAddresses()
 		{
-			return (::Il2CppArray<::System::Net::IPAddress*>**)Il2CppClass::FromTypeDefinitionIndex(NclUtilities_TypeDefinitionIndex)->GetStaticField(0x1D450);
+			return (::Il2CppArray<::System::Net::IPAddress*>**)Il2CppClass::FromTypeDefinitionIndex(NclUtilities_TypeDefinitionIndex)->GetStaticField(0x26858);
 		}
 		static ::System::Object** StaticGet__LocalAddressesLock()
 		{
-			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(NclUtilities_TypeDefinitionIndex)->GetStaticField(0x1D458);
-		}
-		static ::System::String** StaticGet__LocalDomainName()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(NclUtilities_TypeDefinitionIndex)->GetStaticField(0x1D460);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(NclUtilities_TypeDefinitionIndex)->GetStaticField(0x26860);
 		}
 
 		static ::System::Boolean IsAddressLocal(::System::Net::IPAddress* a1)

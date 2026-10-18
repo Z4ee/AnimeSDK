@@ -5,13 +5,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_LITTLEGAMETRANSFORMCOMPONENTCONFIG_METHOD_3_B30215058B13169B_OFFSET UNITYSDK_OFFSET(0x1D206970)
-#define RPG_GAMECORE_LITTLEGAMETRANSFORMCOMPONENTCONFIG_METHOD_3_F8738315250329FC_OFFSET UNITYSDK_OFFSET(0x1D2069D0)
-#define RPG_GAMECORE_LITTLEGAMETRANSFORMCOMPONENTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2069B0)
+#define RPG_GAMECORE_LITTLEGAMETRANSFORMCOMPONENTCONFIG_METHOD_3_D0DE7FE50E75FA67_OFFSET UNITYSDK_OFFSET(0x1D7E70A0)
+#define RPG_GAMECORE_LITTLEGAMETRANSFORMCOMPONENTCONFIG_METHOD_3_E59CAA762131B436_OFFSET UNITYSDK_OFFSET(0x1D7E7100)
+#define RPG_GAMECORE_LITTLEGAMETRANSFORMCOMPONENTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7E70E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LittleGameTransformComponentConfig_TypeDefinitionIndex = 18635;
+	inline static constexpr unsigned int LittleGameTransformComponentConfig_TypeDefinitionIndex = 18845;
 
 	class LittleGameTransformComponentConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
@@ -25,14 +25,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMETRANSFORMCOMPONENTCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_B30215058B13169B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LittleGameTransformComponentConfig*& a2)
+		static ::System::Void Method_3_D0DE7FE50E75FA67(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LittleGameTransformComponentConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LittleGameTransformComponentConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMETRANSFORMCOMPONENTCONFIG_METHOD_3_B30215058B13169B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LittleGameTransformComponentConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMETRANSFORMCOMPONENTCONFIG_METHOD_3_D0DE7FE50E75FA67_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_F8738315250329FC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LittleGameTransformComponentConfig* a2)
+		static ::System::Void Method_3_E59CAA762131B436(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LittleGameTransformComponentConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LittleGameTransformComponentConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMETRANSFORMCOMPONENTCONFIG_METHOD_3_F8738315250329FC_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LittleGameTransformComponentConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMETRANSFORMCOMPONENTCONFIG_METHOD_3_E59CAA762131B436_OFFSET))(a1, a2);
 		}
 	};
 }

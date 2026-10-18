@@ -7,36 +7,36 @@ class EnvLocalVolume;
 namespace RPG::Client { class EnvironmentSystem; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_24B10CB562F3162A_METHOD_1_23286C4E1BC884C6_OFFSET UNITYSDK_OFFSET(0xCFB63B0)
-#define CLASS_1_24B10CB562F3162A_METHOD_1_4310021D693F4B87_OFFSET UNITYSDK_OFFSET(0xCFB4510)
-#define CLASS_1_24B10CB562F3162A_METHOD_1_61EC2AC0BD93363E_OFFSET UNITYSDK_OFFSET(0xCFB4890)
-#define CLASS_1_24B10CB562F3162A_METHOD_1_6B4A3A1B5816B81E_OFFSET UNITYSDK_OFFSET(0xCFB4410)
-#define CLASS_1_24B10CB562F3162A_METHOD_1_788680C28AC4B447_OFFSET UNITYSDK_OFFSET(0xCFB5A50)
-#define CLASS_1_24B10CB562F3162A_METHOD_1_9FA27692C03EB82C_OFFSET UNITYSDK_OFFSET(0xCFB4700)
-#define CLASS_1_24B10CB562F3162A_METHOD_1_B0997313D408BC49_OFFSET UNITYSDK_OFFSET(0xCFB4A40)
-#define CLASS_1_24B10CB562F3162A_METHOD_1_CD3491FE1E196278_OFFSET UNITYSDK_OFFSET(0xCFB64A0)
-#define CLASS_1_24B10CB562F3162A__CTOR_OFFSET UNITYSDK_OFFSET(0xCFB4400)
+#define CLASS_1_24B10CB562F3162A_METHOD_1_23286C4E1BC884C6_OFFSET UNITYSDK_OFFSET(0xCF74900)
+#define CLASS_1_24B10CB562F3162A_METHOD_1_4310021D693F4B87_OFFSET UNITYSDK_OFFSET(0xCF72A60)
+#define CLASS_1_24B10CB562F3162A_METHOD_1_61EC2AC0BD93363E_OFFSET UNITYSDK_OFFSET(0xCF72DE0)
+#define CLASS_1_24B10CB562F3162A_METHOD_1_6B4A3A1B5816B81E_OFFSET UNITYSDK_OFFSET(0xCF72960)
+#define CLASS_1_24B10CB562F3162A_METHOD_1_788680C28AC4B447_OFFSET UNITYSDK_OFFSET(0xCF73FA0)
+#define CLASS_1_24B10CB562F3162A_METHOD_1_9FA27692C03EB82C_OFFSET UNITYSDK_OFFSET(0xCF72C50)
+#define CLASS_1_24B10CB562F3162A_METHOD_1_B0997313D408BC49_OFFSET UNITYSDK_OFFSET(0xCF72F90)
+#define CLASS_1_24B10CB562F3162A_METHOD_1_CD3491FE1E196278_OFFSET UNITYSDK_OFFSET(0xCF749F0)
+#define CLASS_1_24B10CB562F3162A__CTOR_OFFSET UNITYSDK_OFFSET(0xCF72950)
 
-inline static constexpr unsigned int Class_1_24B10CB562F3162A_TypeDefinitionIndex = 47758;
+inline static constexpr unsigned int Class_1_24B10CB562F3162A_TypeDefinitionIndex = 47298;
 
 class Class_1_24B10CB562F3162A : public ::System::Object
 {
 public:
 	static ::System::Collections::Generic::List_1<::EnvLocalVolume*>** StaticGet_LHEGFPCLBML()
 	{
-		return (::System::Collections::Generic::List_1<::EnvLocalVolume*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_24B10CB562F3162A_TypeDefinitionIndex)->GetStaticField(0x61040);
+		return (::System::Collections::Generic::List_1<::EnvLocalVolume*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_24B10CB562F3162A_TypeDefinitionIndex)->GetStaticField(0x2FCF0);
 	}
 	static ::System::Collections::Generic::List_1<::EnvLocalVolume*>** StaticGet_BNMOAACGJHG()
 	{
-		return (::System::Collections::Generic::List_1<::EnvLocalVolume*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_24B10CB562F3162A_TypeDefinitionIndex)->GetStaticField(0x61048);
+		return (::System::Collections::Generic::List_1<::EnvLocalVolume*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_24B10CB562F3162A_TypeDefinitionIndex)->GetStaticField(0x2FCF8);
 	}
 	static ::System::Boolean* StaticGet_OBHCNLJCFGG()
 	{
-		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_24B10CB562F3162A_TypeDefinitionIndex)->GetStaticField(0x13E10);
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_24B10CB562F3162A_TypeDefinitionIndex)->GetStaticField(0xA1B0);
 	}
-	::EnvLocalVolume* BFJFENJJAFP; // 0x10
-	::RPG::Client::EnvironmentSystem* NGDKDCIDMBC; // 0x18
-	::EnvLocalVolume* LJOHADCJLGN; // 0x20
+	::EnvLocalVolume* LJOHADCJLGN; // 0x10
+	::EnvLocalVolume* BFJFENJJAFP; // 0x18
+	::RPG::Client::EnvironmentSystem* NGDKDCIDMBC; // 0x20
 	::UnityEngine::Vector3 BJNKIKNBFOJ; // 0x28
 
 	::System::Void _ctor(::RPG::Client::EnvironmentSystem* a1)

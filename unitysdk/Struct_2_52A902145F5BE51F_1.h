@@ -3,7 +3,7 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 
-inline static constexpr unsigned int Struct_2_52A902145F5BE51F_1_TypeDefinitionIndex = 41299;
+inline static constexpr unsigned int Struct_2_52A902145F5BE51F_1_TypeDefinitionIndex = 42911;
 
 struct alignas(4) Struct_2_52A902145F5BE51F_1
 {

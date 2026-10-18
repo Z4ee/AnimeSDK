@@ -7,12 +7,12 @@ class Class_1_7A22A3DBEEDD1F80;
 class Class_1_DA5E269DBF62B292;
 namespace System { class String; }
 
-#define RPG_GAMECORE_IDLELIVECHAPTERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D19CE00)
-#define RPG_GAMECORE_IDLELIVECHAPTERROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D19D2C0)
+#define RPG_GAMECORE_IDLELIVECHAPTERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D778B00)
+#define RPG_GAMECORE_IDLELIVECHAPTERROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D778FC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveChapterRow_TypeDefinitionIndex = 11667;
+	inline static constexpr unsigned int IdleLiveChapterRow_TypeDefinitionIndex = 11690;
 
 	class IdleLiveChapterRow : public ::System::Object
 	{
@@ -20,15 +20,15 @@ namespace RPG::GameCore
 		::System::String* BackgroundState; // 0x10
 		::System::String* IconPath; // 0x18
 		::Il2CppArray<::Class_1_DA5E269DBF62B292*>* FSVList; // 0x20
-		::System::UInt32 ActivityModuleID; // 0x28
-		::System::UInt32 FinalAct; // 0x2C
-		::RPG::Client::TextID Number; // 0x30
-		::System::Boolean ReturntoMaze; // 0x40
-		::System::Boolean IsHardMode; // 0x41
-		::System::UInt32 FinalActChatPhase; // 0x44
-		::RPG::Client::TextID Name; // 0x48
-		::System::UInt32 ChapterIndex; // 0x58
-		::System::UInt32 BossID; // 0x5C
+		::RPG::Client::TextID Name; // 0x28
+		::RPG::Client::TextID Number; // 0x38
+		::System::UInt32 BossID; // 0x48
+		::System::UInt32 FinalActChatPhase; // 0x4C
+		::System::UInt32 FinalAct; // 0x50
+		::System::UInt32 ChapterIndex; // 0x54
+		::System::Boolean ReturntoMaze; // 0x58
+		::System::Boolean IsHardMode; // 0x59
+		::System::UInt32 ActivityModuleID; // 0x5C
 
 		::System::Void _ctor()
 		{

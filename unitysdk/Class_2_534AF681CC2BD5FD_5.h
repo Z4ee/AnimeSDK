@@ -1,13 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_FF9B582F5E956AED.h"
+#include "unitysdk/Class_1_1C6C366B8555A29F.h"
 
-namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
+namespace System { class Action; }
+namespace System { class IDisposable; }
 
-inline static constexpr unsigned int Class_2_534AF681CC2BD5FD_5_TypeDefinitionIndex = 50138;
+inline static constexpr unsigned int Class_2_534AF681CC2BD5FD_5_TypeDefinitionIndex = 49962;
 
-template <typename T>
-class Class_2_534AF681CC2BD5FD_5 : public ::Class_1_FF9B582F5E956AED<::RPG::Client::Promises::IPromise_1<T>*>
+template <typename TView>
+class Class_2_534AF681CC2BD5FD_5 : public ::Class_1_1C6C366B8555A29F<TView>
 {
 public:
 };

@@ -11,45 +11,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_CHIMERADUELRANKEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1CFCCB70)
-#define RPG_GAMECORE_CHIMERADUELRANKEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1CFCCA40)
-#define RPG_GAMECORE_CHIMERADUELRANKEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1CFCC730)
-#define RPG_GAMECORE_CHIMERADUELRANKEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1CFCC9E0)
-#define RPG_GAMECORE_CHIMERADUELRANKEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1CFCCCC0)
-#define RPG_GAMECORE_CHIMERADUELRANKEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1CFCC7B0)
-#define RPG_GAMECORE_CHIMERADUELRANKEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1CFCCD00)
-#define RPG_GAMECORE_CHIMERADUELRANKEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CFCCED0)
-#define RPG_GAMECORE_CHIMERADUELRANKEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1CFCD150)
-#define RPG_GAMECORE_CHIMERADUELRANKEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CFCD470)
-#define RPG_GAMECORE_CHIMERADUELRANKEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1CFCCE30)
-#define RPG_GAMECORE_CHIMERADUELRANKEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1CFCCD90)
+#define RPG_GAMECORE_CHIMERADUELRANKEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1D5A8120)
+#define RPG_GAMECORE_CHIMERADUELRANKEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1D5A7FF0)
+#define RPG_GAMECORE_CHIMERADUELRANKEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1D5A7CE0)
+#define RPG_GAMECORE_CHIMERADUELRANKEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1D5A7F90)
+#define RPG_GAMECORE_CHIMERADUELRANKEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1D5A8460)
+#define RPG_GAMECORE_CHIMERADUELRANKEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D5A7D60)
+#define RPG_GAMECORE_CHIMERADUELRANKEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1D5A84A0)
+#define RPG_GAMECORE_CHIMERADUELRANKEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D5A8670)
+#define RPG_GAMECORE_CHIMERADUELRANKEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1D5A88F0)
+#define RPG_GAMECORE_CHIMERADUELRANKEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D5A8C10)
+#define RPG_GAMECORE_CHIMERADUELRANKEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1D5A85D0)
+#define RPG_GAMECORE_CHIMERADUELRANKEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D5A8530)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraDuelRankExcelTable_TypeDefinitionIndex = 11115;
+	inline static constexpr unsigned int ChimeraDuelRankExcelTable_TypeDefinitionIndex = 11131;
 
 	class ChimeraDuelRankExcelTable : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(ChimeraDuelRankExcelTable_TypeDefinitionIndex)->GetStaticField(0x1A7B0);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(ChimeraDuelRankExcelTable_TypeDefinitionIndex)->GetStaticField(0x18620);
 		}
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ChimeraDuelRankExcelTable_TypeDefinitionIndex)->GetStaticField(0x1A7B8);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ChimeraDuelRankExcelTable_TypeDefinitionIndex)->GetStaticField(0x18628);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ChimeraDuelRankRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ChimeraDuelRankRow*>**)Il2CppClass::FromTypeDefinitionIndex(ChimeraDuelRankExcelTable_TypeDefinitionIndex)->GetStaticField(0x1A7C0);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ChimeraDuelRankRow*>**)Il2CppClass::FromTypeDefinitionIndex(ChimeraDuelRankExcelTable_TypeDefinitionIndex)->GetStaticField(0x18630);
 		}
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ChimeraDuelRankExcelTable_TypeDefinitionIndex)->GetStaticField(0x94C0);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ChimeraDuelRankExcelTable_TypeDefinitionIndex)->GetStaticField(0x5A60);
 		}
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(ChimeraDuelRankExcelTable_TypeDefinitionIndex)->GetStaticField(0x94C1);
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(ChimeraDuelRankExcelTable_TypeDefinitionIndex)->GetStaticField(0x5A61);
 		}
 
 		static ::System::Void _cctor()

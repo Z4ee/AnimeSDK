@@ -5,10 +5,10 @@
 namespace RPG::Client { class PlanetFesAvatarStopMove; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_6D317A26D69DD876_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xFA8F6A0)
-#define CLASS_3_6D317A26D69DD876__CTOR_OFFSET UNITYSDK_OFFSET(0xFA8F670)
+#define CLASS_3_6D317A26D69DD876_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xFEC7F80)
+#define CLASS_3_6D317A26D69DD876__CTOR_OFFSET UNITYSDK_OFFSET(0xFEC7F50)
 
-inline static constexpr unsigned int Class_3_6D317A26D69DD876_TypeDefinitionIndex = 58407;
+inline static constexpr unsigned int Class_3_6D317A26D69DD876_TypeDefinitionIndex = 58258;
 
 class Class_3_6D317A26D69DD876 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::Client::PlanetFesAvatarStopMove*>
 {

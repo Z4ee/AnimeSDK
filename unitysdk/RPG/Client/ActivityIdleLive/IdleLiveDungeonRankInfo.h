@@ -7,21 +7,21 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Collections::ObjectModel { template <typename T> class ReadOnlyCollection_1; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONRANKINFO_GETRANKDATASSORTED_OFFSET UNITYSDK_OFFSET(0xC5B1410)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONRANKINFO_GETSELFRANKDATA_OFFSET UNITYSDK_OFFSET(0xC5ADD90)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONRANKINFO_UPDATEFRIENDINFO_OFFSET UNITYSDK_OFFSET(0xC5ADED0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONRANKINFO_UPDATESELFASSISTCOUNT_OFFSET UNITYSDK_OFFSET(0xC5B07B0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONRANKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xC5AA7D0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONRANKINFO_GETRANKDATASSORTED_OFFSET UNITYSDK_OFFSET(0xC4C9020)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONRANKINFO_GETSELFRANKDATA_OFFSET UNITYSDK_OFFSET(0xC4C59B0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONRANKINFO_UPDATEFRIENDINFO_OFFSET UNITYSDK_OFFSET(0xC4C5AF0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONRANKINFO_UPDATESELFASSISTCOUNT_OFFSET UNITYSDK_OFFSET(0xC4C83D0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONRANKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xC4C2470)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveDungeonRankInfo_TypeDefinitionIndex = 74918;
+	inline static constexpr unsigned int IdleLiveDungeonRankInfo_TypeDefinitionIndex = 75218;
 
 	class IdleLiveDungeonRankInfo : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::RPG::Client::ActivityIdleLive::IdleLiveDungeonRankData*>* _CachedRankDatas; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::ActivityIdleLive::IdleLiveDungeonRankData*>* _RankDatas; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::ActivityIdleLive::IdleLiveDungeonRankData*>* _RankDatas; // 0x10
+		::System::Collections::Generic::List_1<::RPG::Client::ActivityIdleLive::IdleLiveDungeonRankData*>* _CachedRankDatas; // 0x18
 		::System::Boolean _IsDirty; // 0x20
 
 		::System::Void _ctor()

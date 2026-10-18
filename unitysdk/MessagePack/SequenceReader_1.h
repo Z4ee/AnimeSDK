@@ -8,7 +8,7 @@
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int SequenceReader_1_TypeDefinitionIndex = 7189;
+	inline static constexpr unsigned int SequenceReader_1_TypeDefinitionIndex = 7243;
 
 	template <typename T>
 	struct SequenceReader_1

@@ -5,18 +5,18 @@
 namespace RPG::Client { class GridFightAnimEffect; }
 namespace RPG::Client { class GridFightEffectController; }
 
-#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER___C__DISPLAYCLASS26_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD15FC70)
-#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER___C__DISPLAYCLASS26_0__PLAYSHOPROLEREPLACE_B__0_OFFSET UNITYSDK_OFFSET(0xD1621A0)
+#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER___C__DISPLAYCLASS26_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD100050)
+#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER___C__DISPLAYCLASS26_0__PLAYSHOPROLEREPLACE_B__0_OFFSET UNITYSDK_OFFSET(0xD102580)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightEffectController___c__DisplayClass26_0_TypeDefinitionIndex = 64544;
+	inline static constexpr unsigned int GridFightEffectController___c__DisplayClass26_0_TypeDefinitionIndex = 64484;
 
 	class GridFightEffectController___c__DisplayClass26_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::GridFightAnimEffect* effect; // 0x10
-		::RPG::Client::GridFightEffectController* __4__this; // 0x18
+		::RPG::Client::GridFightEffectController* __4__this; // 0x10
+		::RPG::Client::GridFightAnimEffect* effect; // 0x18
 
 		::System::Void _ctor()
 		{

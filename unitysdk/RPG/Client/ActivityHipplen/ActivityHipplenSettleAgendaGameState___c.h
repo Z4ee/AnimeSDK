@@ -5,24 +5,24 @@
 namespace RPG::Client::ActivityHipplen { class ActivityHipplenGiftData; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENSETTLEAGENDAGAMESTATE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC558F00)
-#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENSETTLEAGENDAGAMESTATE___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC558F40)
-#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENSETTLEAGENDAGAMESTATE___C___CTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0xC558F50)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENSETTLEAGENDAGAMESTATE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC429960)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENSETTLEAGENDAGAMESTATE___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC4299A0)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENSETTLEAGENDAGAMESTATE___C___CTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0xC4299B0)
 
 namespace RPG::Client::ActivityHipplen
 {
-	inline static constexpr unsigned int ActivityHipplenSettleAgendaGameState___c_TypeDefinitionIndex = 75224;
+	inline static constexpr unsigned int ActivityHipplenSettleAgendaGameState___c_TypeDefinitionIndex = 75524;
 
 	class ActivityHipplenSettleAgendaGameState___c : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::ActivityHipplen::ActivityHipplenSettleAgendaGameState___c** StaticGet___9()
 		{
-			return (::RPG::Client::ActivityHipplen::ActivityHipplenSettleAgendaGameState___c**)Il2CppClass::FromTypeDefinitionIndex(ActivityHipplenSettleAgendaGameState___c_TypeDefinitionIndex)->GetStaticField(0x63CD0);
+			return (::RPG::Client::ActivityHipplen::ActivityHipplenSettleAgendaGameState___c**)Il2CppClass::FromTypeDefinitionIndex(ActivityHipplenSettleAgendaGameState___c_TypeDefinitionIndex)->GetStaticField(0x1BA20);
 		}
 		static ::System::Func_2<::System::UInt32, ::RPG::Client::ActivityHipplen::ActivityHipplenGiftData*>** StaticGet___9__2_0()
 		{
-			return (::System::Func_2<::System::UInt32, ::RPG::Client::ActivityHipplen::ActivityHipplenGiftData*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityHipplenSettleAgendaGameState___c_TypeDefinitionIndex)->GetStaticField(0x63CD8);
+			return (::System::Func_2<::System::UInt32, ::RPG::Client::ActivityHipplen::ActivityHipplenGiftData*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityHipplenSettleAgendaGameState___c_TypeDefinitionIndex)->GetStaticField(0x1BA28);
 		}
 
 		static ::System::Void _cctor()

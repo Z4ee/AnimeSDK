@@ -7,18 +7,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define CLASS_1_5D31C4140DCE7D34_METHOD_1_13A4856CD0BBDB3F_OFFSET UNITYSDK_OFFSET(0x1CD38D00)
-#define CLASS_1_5D31C4140DCE7D34__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD38F40)
+#define CLASS_1_5D31C4140DCE7D34_METHOD_1_13A4856CD0BBDB3F_OFFSET UNITYSDK_OFFSET(0x1D30C970)
+#define CLASS_1_5D31C4140DCE7D34__CTOR_OFFSET UNITYSDK_OFFSET(0x1D30CBB0)
 
-inline static constexpr unsigned int Class_1_5D31C4140DCE7D34_TypeDefinitionIndex = 12960;
+inline static constexpr unsigned int Class_1_5D31C4140DCE7D34_TypeDefinitionIndex = 13066;
 
 class Class_1_5D31C4140DCE7D34 : public ::System::Object
 {
 public:
-	::RPG::GameCore::AttackDamageType PAIECOBACKB; // 0x10
-	::RPG::GameCore::SkillDamageRange HJNEHAAIIGI; // 0x14
+	::RPG::GameCore::FixPoint ABINBKACLJK; // 0x10
 	::RPG::GameCore::FixPoint PIBDDOGGDKL; // 0x18
-	::RPG::GameCore::FixPoint ABINBKACLJK; // 0x20
+	::RPG::GameCore::AttackDamageType PAIECOBACKB; // 0x20
+	::RPG::GameCore::SkillDamageRange HJNEHAAIIGI; // 0x24
 
 	::System::Void _ctor()
 	{

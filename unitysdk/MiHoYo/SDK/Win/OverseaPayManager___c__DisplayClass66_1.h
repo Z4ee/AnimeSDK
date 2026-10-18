@@ -5,12 +5,12 @@
 namespace MiHoYo::SDK { class NetworkResponseModelEx; }
 namespace MiHoYo::SDK::Win { class OverseaPayManager___c__DisplayClass66_0; }
 
-#define MIHOYO_SDK_WIN_OVERSEAPAYMANAGER___C__DISPLAYCLASS66_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8C9C70)
-#define MIHOYO_SDK_WIN_OVERSEAPAYMANAGER___C__DISPLAYCLASS66_1__REQUESTADYENCREATEORDER_G__FAILEDCALLBACK_2_OFFSET UNITYSDK_OFFSET(0x1B8C9CB0)
+#define MIHOYO_SDK_WIN_OVERSEAPAYMANAGER___C__DISPLAYCLASS66_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDC6EE0)
+#define MIHOYO_SDK_WIN_OVERSEAPAYMANAGER___C__DISPLAYCLASS66_1__REQUESTADYENCREATEORDER_G__FAILEDCALLBACK_2_OFFSET UNITYSDK_OFFSET(0x1BDC6F20)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int OverseaPayManager___c__DisplayClass66_1_TypeDefinitionIndex = 9289;
+	inline static constexpr unsigned int OverseaPayManager___c__DisplayClass66_1_TypeDefinitionIndex = 9347;
 
 	class OverseaPayManager___c__DisplayClass66_1 : public ::System::Object
 	{

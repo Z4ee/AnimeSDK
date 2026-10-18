@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SkipBillboardModelVisibleCheck; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_F7736F0CD04EFBA3_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB508C00)
-#define CLASS_3_F7736F0CD04EFBA3__CTOR_OFFSET UNITYSDK_OFFSET(0xB508BD0)
+#define CLASS_3_F7736F0CD04EFBA3_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB344EC0)
+#define CLASS_3_F7736F0CD04EFBA3__CTOR_OFFSET UNITYSDK_OFFSET(0xB344E90)
 
-inline static constexpr unsigned int Class_3_F7736F0CD04EFBA3_TypeDefinitionIndex = 58860;
+inline static constexpr unsigned int Class_3_F7736F0CD04EFBA3_TypeDefinitionIndex = 58712;
 
 class Class_3_F7736F0CD04EFBA3 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SkipBillboardModelVisibleCheck*>
 {

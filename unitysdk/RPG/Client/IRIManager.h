@@ -9,14 +9,14 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class RPGInstancedItemBlock; }
 
-#define RPG_CLIENT_IRIMANAGER_ADDVOLUME_OFFSET UNITYSDK_OFFSET(0xD3E5560)
-#define RPG_CLIENT_IRIMANAGER_REMOVEVOLUME_OFFSET UNITYSDK_OFFSET(0xD3E58D0)
-#define RPG_CLIENT_IRIMANAGER_SETVOLUMEVISIBLE_OFFSET UNITYSDK_OFFSET(0xD3E59D0)
-#define RPG_CLIENT_IRIMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0xD3E5A50)
+#define RPG_CLIENT_IRIMANAGER_ADDVOLUME_OFFSET UNITYSDK_OFFSET(0xD33B320)
+#define RPG_CLIENT_IRIMANAGER_REMOVEVOLUME_OFFSET UNITYSDK_OFFSET(0xD33B690)
+#define RPG_CLIENT_IRIMANAGER_SETVOLUMEVISIBLE_OFFSET UNITYSDK_OFFSET(0xD33B790)
+#define RPG_CLIENT_IRIMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0xD33B810)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IRIManager_TypeDefinitionIndex = 68856;
+	inline static constexpr unsigned int IRIManager_TypeDefinitionIndex = 68890;
 
 	class IRIManager : public ::UnityEngine::MonoBehaviour
 	{

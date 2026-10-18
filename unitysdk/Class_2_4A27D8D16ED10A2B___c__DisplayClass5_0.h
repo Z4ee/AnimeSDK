@@ -9,19 +9,19 @@ namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
 namespace System { class Exception; }
 namespace System { template <typename T> class Action_1; }
 
-#define CLASS_2_4A27D8D16ED10A2B___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD28C050)
-#define CLASS_2_4A27D8D16ED10A2B___C__DISPLAYCLASS5_0___DOJOINLOBBY_B__0_OFFSET UNITYSDK_OFFSET(0xD2913E0)
-#define CLASS_2_4A27D8D16ED10A2B___C__DISPLAYCLASS5_0___DOJOINLOBBY_B__1_OFFSET UNITYSDK_OFFSET(0xD291490)
-#define CLASS_2_4A27D8D16ED10A2B___C__DISPLAYCLASS5_0___DOJOINLOBBY_B__2_OFFSET UNITYSDK_OFFSET(0xD291750)
+#define CLASS_2_4A27D8D16ED10A2B___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD20C590)
+#define CLASS_2_4A27D8D16ED10A2B___C__DISPLAYCLASS5_0___DOJOINLOBBY_B__0_OFFSET UNITYSDK_OFFSET(0xD211950)
+#define CLASS_2_4A27D8D16ED10A2B___C__DISPLAYCLASS5_0___DOJOINLOBBY_B__1_OFFSET UNITYSDK_OFFSET(0xD211A00)
+#define CLASS_2_4A27D8D16ED10A2B___C__DISPLAYCLASS5_0___DOJOINLOBBY_B__2_OFFSET UNITYSDK_OFFSET(0xD211CC0)
 
-inline static constexpr unsigned int Class_2_4A27D8D16ED10A2B___c__DisplayClass5_0_TypeDefinitionIndex = 78951;
+inline static constexpr unsigned int Class_2_4A27D8D16ED10A2B___c__DisplayClass5_0_TypeDefinitionIndex = 80274;
 
 class Class_2_4A27D8D16ED10A2B___c__DisplayClass5_0 : public ::System::Object
 {
 public:
-	::Class_2_4A27D8D16ED10A2B* __4__this; // 0x10
-	::System::Action_1<::System::Exception*>* __9__2; // 0x18
-	::Class_1_C7A3189C9B32F559* session; // 0x20
+	::System::Action_1<::System::Exception*>* __9__2; // 0x10
+	::Class_1_C7A3189C9B32F559* session; // 0x18
+	::Class_2_4A27D8D16ED10A2B* __4__this; // 0x20
 
 	::System::Void _ctor()
 	{

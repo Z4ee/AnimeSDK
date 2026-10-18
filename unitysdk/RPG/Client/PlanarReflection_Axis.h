@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlanarReflection_Axis_TypeDefinitionIndex = 70129;
+	inline static constexpr unsigned int PlanarReflection_Axis_TypeDefinitionIndex = 70165;
 
 	enum class PlanarReflection_Axis : ::System::Int32
 	{

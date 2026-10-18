@@ -8,9 +8,9 @@ namespace System::Threading { class ContextCallback; }
 namespace System::Threading { class ExecutionContext; }
 namespace System::Threading { class SynchronizationContext; }
 
-#define SYSTEM_THREADING_CANCELLATIONCALLBACKINFO_EXECUTECALLBACK_OFFSET UNITYSDK_OFFSET(0x1BC34D90)
-#define SYSTEM_THREADING_CANCELLATIONCALLBACKINFO_EXECUTIONCONTEXTCALLBACK_OFFSET UNITYSDK_OFFSET(0x1BC34F90)
-#define SYSTEM_THREADING_CANCELLATIONCALLBACKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC34D70)
+#define SYSTEM_THREADING_CANCELLATIONCALLBACKINFO_EXECUTECALLBACK_OFFSET UNITYSDK_OFFSET(0x1C140EF0)
+#define SYSTEM_THREADING_CANCELLATIONCALLBACKINFO_EXECUTIONCONTEXTCALLBACK_OFFSET UNITYSDK_OFFSET(0x1C1410F0)
+#define SYSTEM_THREADING_CANCELLATIONCALLBACKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1C140ED0)
 
 namespace System::Threading
 {
@@ -21,13 +21,13 @@ namespace System::Threading
 	public:
 		static ::System::Threading::ContextCallback** StaticGet_s_executionContextCallback()
 		{
-			return (::System::Threading::ContextCallback**)Il2CppClass::FromTypeDefinitionIndex(CancellationCallbackInfo_TypeDefinitionIndex)->GetStaticField(0x125D0);
+			return (::System::Threading::ContextCallback**)Il2CppClass::FromTypeDefinitionIndex(CancellationCallbackInfo_TypeDefinitionIndex)->GetStaticField(0x1F5D0);
 		}
 		::System::Threading::CancellationTokenSource* CancellationTokenSource; // 0x10
-		::System::Threading::SynchronizationContext* TargetSyncContext; // 0x18
-		::System::Action_1<::System::Object*>* Callback; // 0x20
-		::System::Threading::ExecutionContext* TargetExecutionContext; // 0x28
-		::System::Object* StateForCallback; // 0x30
+		::System::Action_1<::System::Object*>* Callback; // 0x18
+		::System::Object* StateForCallback; // 0x20
+		::System::Threading::SynchronizationContext* TargetSyncContext; // 0x28
+		::System::Threading::ExecutionContext* TargetExecutionContext; // 0x30
 
 		::System::Void _ctor(::System::Action_1<::System::Object*>* a1, ::System::Object* a2, ::System::Threading::SynchronizationContext* a3, ::System::Threading::ExecutionContext* a4, ::System::Threading::CancellationTokenSource* a5)
 		{

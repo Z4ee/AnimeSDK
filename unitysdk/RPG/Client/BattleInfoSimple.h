@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_BATTLEINFOSIMPLE__CTOR_OFFSET UNITYSDK_OFFSET(0xC919A60)
+#define RPG_CLIENT_BATTLEINFOSIMPLE__CTOR_OFFSET UNITYSDK_OFFSET(0xC83DC20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BattleInfoSimple_TypeDefinitionIndex = 62098;
+	inline static constexpr unsigned int BattleInfoSimple_TypeDefinitionIndex = 62014;
 
 	class BattleInfoSimple : public ::System::Object
 	{
 	public:
-		::System::Boolean IsReconnect; // 0x10
-		::System::UInt32 StageID; // 0x14
-		::System::UInt32 RetCode; // 0x18
+		::System::UInt32 StageID; // 0x10
+		::System::UInt32 RetCode; // 0x14
+		::System::Boolean IsReconnect; // 0x18
 
 		::System::Void _ctor()
 		{

@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MONSTERSNEAKCONST_METHOD_2_EDA7D147F13CB5EF_OFFSET UNITYSDK_OFFSET(0x1D2D75D0)
-#define RPG_GAMECORE_MONSTERSNEAKCONST__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2D79A0)
+#define RPG_GAMECORE_MONSTERSNEAKCONST_METHOD_2_EDA7D147F13CB5EF_OFFSET UNITYSDK_OFFSET(0x1D8B9F50)
+#define RPG_GAMECORE_MONSTERSNEAKCONST__CTOR_OFFSET UNITYSDK_OFFSET(0x1D8BA320)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MonsterSneakConst_TypeDefinitionIndex = 16927;
+	inline static constexpr unsigned int MonsterSneakConst_TypeDefinitionIndex = 17122;
 
 	class MonsterSneakConst : public ::RPG::GameCore::JsonConfig
 	{

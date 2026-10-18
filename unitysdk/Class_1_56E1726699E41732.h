@@ -4,9 +4,9 @@
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define CLASS_1_56E1726699E41732__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4C0670)
+#define CLASS_1_56E1726699E41732__CTOR_OFFSET UNITYSDK_OFFSET(0x1CA33A40)
 
-inline static constexpr unsigned int Class_1_56E1726699E41732_TypeDefinitionIndex = 42128;
+inline static constexpr unsigned int Class_1_56E1726699E41732_TypeDefinitionIndex = 43770;
 
 class Class_1_56E1726699E41732 : public ::System::Object
 {

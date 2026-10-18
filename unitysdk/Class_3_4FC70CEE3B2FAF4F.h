@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/Client/OpenWorld/VolumeParameter_1.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define CLASS_3_4FC70CEE3B2FAF4F_GET_VALUE_OFFSET UNITYSDK_OFFSET(0xBE8AAD0)
-#define CLASS_3_4FC70CEE3B2FAF4F_SET_VALUE_OFFSET UNITYSDK_OFFSET(0xBE8AAE0)
-#define CLASS_3_4FC70CEE3B2FAF4F__CTOR_OFFSET UNITYSDK_OFFSET(0xBE8AB50)
+#define CLASS_3_4FC70CEE3B2FAF4F_GET_VALUE_OFFSET UNITYSDK_OFFSET(0xBD1B220)
+#define CLASS_3_4FC70CEE3B2FAF4F_SET_VALUE_OFFSET UNITYSDK_OFFSET(0xBD1B230)
+#define CLASS_3_4FC70CEE3B2FAF4F__CTOR_OFFSET UNITYSDK_OFFSET(0xBD1B2A0)
 
-inline static constexpr unsigned int Class_3_4FC70CEE3B2FAF4F_TypeDefinitionIndex = 73916;
+inline static constexpr unsigned int Class_3_4FC70CEE3B2FAF4F_TypeDefinitionIndex = 74023;
 
 class Class_3_4FC70CEE3B2FAF4F : public ::RPG::Client::OpenWorld::VolumeParameter_1<::UnityEngine::Vector2>
 {

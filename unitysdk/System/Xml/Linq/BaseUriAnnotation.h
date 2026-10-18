@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define SYSTEM_XML_LINQ_BASEURIANNOTATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7B84B0)
+#define SYSTEM_XML_LINQ_BASEURIANNOTATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1EE811D0)
 
 namespace System::Xml::Linq
 {
-	inline static constexpr unsigned int BaseUriAnnotation_TypeDefinitionIndex = 3883;
+	inline static constexpr unsigned int BaseUriAnnotation_TypeDefinitionIndex = 3884;
 
 	class BaseUriAnnotation : public ::System::Object
 	{

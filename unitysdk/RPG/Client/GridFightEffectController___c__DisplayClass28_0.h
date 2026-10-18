@@ -6,22 +6,22 @@ namespace RPG::Client { class GridFightEffectController; }
 namespace System { class Action; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER___C__DISPLAYCLASS28_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD1605B0)
-#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER___C__DISPLAYCLASS28_0__PLAYUPGRADEEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0xD1622D0)
+#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER___C__DISPLAYCLASS28_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD100990)
+#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER___C__DISPLAYCLASS28_0__PLAYUPGRADEEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0xD1026B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightEffectController___c__DisplayClass28_0_TypeDefinitionIndex = 64546;
+	inline static constexpr unsigned int GridFightEffectController___c__DisplayClass28_0_TypeDefinitionIndex = 64486;
 
 	class GridFightEffectController___c__DisplayClass28_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::GridFightEffectController* __4__this; // 0x10
-		::System::Action* __9__0; // 0x18
-		::UnityEngine::Transform* end; // 0x20
-		::System::Action* onFinished; // 0x28
-		::System::Int32 star; // 0x30
-		::System::Boolean isEndPerspective; // 0x34
+		::UnityEngine::Transform* end; // 0x10
+		::System::Action* onFinished; // 0x18
+		::RPG::Client::GridFightEffectController* __4__this; // 0x20
+		::System::Action* __9__0; // 0x28
+		::System::Boolean isEndPerspective; // 0x30
+		::System::Int32 star; // 0x34
 
 		::System::Void _ctor()
 		{

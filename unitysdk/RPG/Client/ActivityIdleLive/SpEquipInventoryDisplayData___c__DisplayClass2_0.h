@@ -6,18 +6,18 @@
 namespace RPG::Client::ActivityIdleLive { class SpEquipInventoryDisplayData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_SPEQUIPINVENTORYDISPLAYDATA___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC5FC4E0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_SPEQUIPINVENTORYDISPLAYDATA___C__DISPLAYCLASS2_0__WEARSTRONGESTEQUIPS_B__0_OFFSET UNITYSDK_OFFSET(0xC5FD130)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_SPEQUIPINVENTORYDISPLAYDATA___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC513EC0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_SPEQUIPINVENTORYDISPLAYDATA___C__DISPLAYCLASS2_0__WEARSTRONGESTEQUIPS_B__0_OFFSET UNITYSDK_OFFSET(0xC514B10)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int SpEquipInventoryDisplayData___c__DisplayClass2_0_TypeDefinitionIndex = 75139;
+	inline static constexpr unsigned int SpEquipInventoryDisplayData___c__DisplayClass2_0_TypeDefinitionIndex = 75439;
 
 	class SpEquipInventoryDisplayData___c__DisplayClass2_0 : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>* strongestEquipList; // 0x10
-		::RPG::Client::ActivityIdleLive::SpEquipInventoryDisplayData* __4__this; // 0x18
+		::RPG::Client::ActivityIdleLive::SpEquipInventoryDisplayData* __4__this; // 0x10
+		::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>* strongestEquipList; // 0x18
 
 		::System::Void _ctor()
 		{

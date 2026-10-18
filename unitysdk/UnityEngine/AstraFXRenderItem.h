@@ -11,7 +11,7 @@ namespace UnityEngine { class Mesh; }
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int AstraFXRenderItem_TypeDefinitionIndex = 4092;
+	inline static constexpr unsigned int AstraFXRenderItem_TypeDefinitionIndex = 4093;
 
 	struct alignas(8) AstraFXRenderItem
 	{

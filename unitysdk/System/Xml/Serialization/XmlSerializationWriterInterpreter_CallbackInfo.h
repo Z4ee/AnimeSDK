@@ -5,9 +5,9 @@
 namespace System::Xml::Serialization { class XmlSerializationWriterInterpreter; }
 namespace System::Xml::Serialization { class XmlTypeMapping; }
 
-#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_CALLBACKINFO_WRITEENUM_OFFSET UNITYSDK_OFFSET(0x1E86F9E0)
-#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_CALLBACKINFO_WRITEOBJECT_OFFSET UNITYSDK_OFFSET(0x1E86F900)
-#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_CALLBACKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1E8685E0)
+#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_CALLBACKINFO_WRITEENUM_OFFSET UNITYSDK_OFFSET(0x1EF38670)
+#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_CALLBACKINFO_WRITEOBJECT_OFFSET UNITYSDK_OFFSET(0x1EF38590)
+#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_CALLBACKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF31270)
 
 namespace System::Xml::Serialization
 {
@@ -16,8 +16,8 @@ namespace System::Xml::Serialization
 	class XmlSerializationWriterInterpreter_CallbackInfo : public ::System::Object
 	{
 	public:
-		::System::Xml::Serialization::XmlSerializationWriterInterpreter* _swi; // 0x10
-		::System::Xml::Serialization::XmlTypeMapping* _typeMap; // 0x18
+		::System::Xml::Serialization::XmlTypeMapping* _typeMap; // 0x10
+		::System::Xml::Serialization::XmlSerializationWriterInterpreter* _swi; // 0x18
 
 		::System::Void _ctor(::System::Xml::Serialization::XmlSerializationWriterInterpreter* a1, ::System::Xml::Serialization::XmlTypeMapping* a2)
 		{

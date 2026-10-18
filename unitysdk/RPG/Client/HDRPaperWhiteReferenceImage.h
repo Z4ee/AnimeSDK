@@ -7,49 +7,49 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class TextAsset; }
 namespace UnityEngine::UI { class Image; }
 
-#define RPG_CLIENT_HDRPAPERWHITEREFERENCEIMAGE_START_OFFSET UNITYSDK_OFFSET(0xD38C1A0)
-#define RPG_CLIENT_HDRPAPERWHITEREFERENCEIMAGE_UPDATE_OFFSET UNITYSDK_OFFSET(0xD38C350)
-#define RPG_CLIENT_HDRPAPERWHITEREFERENCEIMAGE__CCTOR_OFFSET UNITYSDK_OFFSET(0xD38C590)
-#define RPG_CLIENT_HDRPAPERWHITEREFERENCEIMAGE__CTOR_OFFSET UNITYSDK_OFFSET(0xD38C580)
+#define RPG_CLIENT_HDRPAPERWHITEREFERENCEIMAGE_START_OFFSET UNITYSDK_OFFSET(0xD2E54D0)
+#define RPG_CLIENT_HDRPAPERWHITEREFERENCEIMAGE_UPDATE_OFFSET UNITYSDK_OFFSET(0xD2E5650)
+#define RPG_CLIENT_HDRPAPERWHITEREFERENCEIMAGE__CCTOR_OFFSET UNITYSDK_OFFSET(0xD2E5890)
+#define RPG_CLIENT_HDRPAPERWHITEREFERENCEIMAGE__CTOR_OFFSET UNITYSDK_OFFSET(0xD2E5880)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int HDRPaperWhiteReferenceImage_TypeDefinitionIndex = 72725;
+	inline static constexpr unsigned int HDRPaperWhiteReferenceImage_TypeDefinitionIndex = 72805;
 
 	class HDRPaperWhiteReferenceImage : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::System::Int32* StaticGet_JANJLLAJLGF()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(HDRPaperWhiteReferenceImage_TypeDefinitionIndex)->GetStaticField(0x12200);
-		}
-		static ::System::Int32* StaticGet_CJLICPBKFGB()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(HDRPaperWhiteReferenceImage_TypeDefinitionIndex)->GetStaticField(0x12204);
-		}
 		static ::System::Int32* StaticGet_ECMJLFALECH()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(HDRPaperWhiteReferenceImage_TypeDefinitionIndex)->GetStaticField(0x12208);
-		}
-		static ::System::Int32* StaticGet_ILHCDFBNEHN()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(HDRPaperWhiteReferenceImage_TypeDefinitionIndex)->GetStaticField(0x1220C);
-		}
-		static ::System::Int32* StaticGet_FMDDHMGJBPG()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(HDRPaperWhiteReferenceImage_TypeDefinitionIndex)->GetStaticField(0x12210);
-		}
-		static ::System::Int32* StaticGet_IOOLDFFILPI()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(HDRPaperWhiteReferenceImage_TypeDefinitionIndex)->GetStaticField(0x12214);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(HDRPaperWhiteReferenceImage_TypeDefinitionIndex)->GetStaticField(0x30E0);
 		}
 		static ::System::Int32* StaticGet_PEJDNHPLHKK()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(HDRPaperWhiteReferenceImage_TypeDefinitionIndex)->GetStaticField(0x12218);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(HDRPaperWhiteReferenceImage_TypeDefinitionIndex)->GetStaticField(0x30E4);
+		}
+		static ::System::Int32* StaticGet_ILHCDFBNEHN()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(HDRPaperWhiteReferenceImage_TypeDefinitionIndex)->GetStaticField(0x30E8);
 		}
 		static ::System::Int32* StaticGet_LHPECKJBPFB()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(HDRPaperWhiteReferenceImage_TypeDefinitionIndex)->GetStaticField(0x1221C);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(HDRPaperWhiteReferenceImage_TypeDefinitionIndex)->GetStaticField(0x30EC);
+		}
+		static ::System::Int32* StaticGet_IOOLDFFILPI()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(HDRPaperWhiteReferenceImage_TypeDefinitionIndex)->GetStaticField(0x30F0);
+		}
+		static ::System::Int32* StaticGet_FMDDHMGJBPG()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(HDRPaperWhiteReferenceImage_TypeDefinitionIndex)->GetStaticField(0x30F4);
+		}
+		static ::System::Int32* StaticGet_JANJLLAJLGF()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(HDRPaperWhiteReferenceImage_TypeDefinitionIndex)->GetStaticField(0x30F8);
+		}
+		static ::System::Int32* StaticGet_CJLICPBKFGB()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(HDRPaperWhiteReferenceImage_TypeDefinitionIndex)->GetStaticField(0x30FC);
 		}
 		::UnityEngine::UI::Image* KIODLMCBHLL; // 0x18
 		::UnityEngine::Material* PCANJIIKLDC; // 0x20

@@ -14,7 +14,7 @@ namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UnityBindingExtensions__BindToCore_d__12_2_TypeDefinitionIndex = 42903;
+	inline static constexpr unsigned int UnityBindingExtensions__BindToCore_d__12_2_TypeDefinitionIndex = 38488;
 
 	template <typename TSource, typename TObject>
 	struct UnityBindingExtensions__BindToCore_d__12_2

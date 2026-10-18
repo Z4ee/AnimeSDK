@@ -4,24 +4,24 @@
 
 namespace System { class Action; }
 
-#define RPG_GAMECORE_NPCCOMPONENT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xE6B75A0)
-#define RPG_GAMECORE_NPCCOMPONENT___C__CTOR_OFFSET UNITYSDK_OFFSET(0xE6B75E0)
-#define RPG_GAMECORE_NPCCOMPONENT___C___BEGINFADEIN_B__36_0_OFFSET UNITYSDK_OFFSET(0xE6B75F0)
+#define RPG_GAMECORE_NPCCOMPONENT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xE712C20)
+#define RPG_GAMECORE_NPCCOMPONENT___C__CTOR_OFFSET UNITYSDK_OFFSET(0xE712C60)
+#define RPG_GAMECORE_NPCCOMPONENT___C___BEGINFADEIN_B__36_0_OFFSET UNITYSDK_OFFSET(0xE712C70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int NPCComponent___c_TypeDefinitionIndex = 57275;
+	inline static constexpr unsigned int NPCComponent___c_TypeDefinitionIndex = 57108;
 
 	class NPCComponent___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__36_0()
-		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(NPCComponent___c_TypeDefinitionIndex)->GetStaticField(0xE4D0);
-		}
 		static ::RPG::GameCore::NPCComponent___c** StaticGet___9()
 		{
-			return (::RPG::GameCore::NPCComponent___c**)Il2CppClass::FromTypeDefinitionIndex(NPCComponent___c_TypeDefinitionIndex)->GetStaticField(0xE4D8);
+			return (::RPG::GameCore::NPCComponent___c**)Il2CppClass::FromTypeDefinitionIndex(NPCComponent___c_TypeDefinitionIndex)->GetStaticField(0x69820);
+		}
+		static ::System::Action** StaticGet___9__36_0()
+		{
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(NPCComponent___c_TypeDefinitionIndex)->GetStaticField(0x69828);
 		}
 
 		static ::System::Void _cctor()

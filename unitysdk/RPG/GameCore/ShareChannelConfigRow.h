@@ -5,26 +5,26 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_SHARECHANNELCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D51AF50)
-#define RPG_GAMECORE_SHARECHANNELCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D51B7B0)
+#define RPG_GAMECORE_SHARECHANNELCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DACF750)
+#define RPG_GAMECORE_SHARECHANNELCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1DACFFB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShareChannelConfigRow_TypeDefinitionIndex = 14328;
+	inline static constexpr unsigned int ShareChannelConfigRow_TypeDefinitionIndex = 14493;
 
 	class ShareChannelConfigRow : public ::System::Object
 	{
 	public:
-		::System::String* UrlTitle; // 0x10
-		::System::String* Platform; // 0x18
-		::Il2CppArray<::System::String*>* DisplayLanguageList; // 0x20
+		::System::String* Title; // 0x10
+		::System::String* Forum; // 0x18
+		::System::String* UrlTitle; // 0x20
 		::System::String* Content; // 0x28
-		::System::String* Forum; // 0x30
-		::System::String* Title; // 0x38
-		::System::String* IconPath; // 0x40
-		::Il2CppArray<::System::String*>* Topics; // 0x48
-		::System::Boolean ShareByNative; // 0x50
-		::System::UInt32 ShareChannelID; // 0x54
+		::System::String* IconPath; // 0x30
+		::Il2CppArray<::System::String*>* Topics; // 0x38
+		::Il2CppArray<::System::String*>* DisplayLanguageList; // 0x40
+		::System::String* Platform; // 0x48
+		::System::UInt32 ShareChannelID; // 0x50
+		::System::Boolean ShareByNative; // 0x54
 
 		::System::Void _ctor()
 		{

@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define NEWTONSOFT_JSON_SERIALIZATION_CAMELCASEPROPERTYNAMESCONTRACTRESOLVER_RESOLVEPROPERTYNAME_OFFSET UNITYSDK_OFFSET(0x1BEC4440)
-#define NEWTONSOFT_JSON_SERIALIZATION_CAMELCASEPROPERTYNAMESCONTRACTRESOLVER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BEC4350)
+#define NEWTONSOFT_JSON_SERIALIZATION_CAMELCASEPROPERTYNAMESCONTRACTRESOLVER_RESOLVEPROPERTYNAME_OFFSET UNITYSDK_OFFSET(0x1C3D09F0)
+#define NEWTONSOFT_JSON_SERIALIZATION_CAMELCASEPROPERTYNAMESCONTRACTRESOLVER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C3D0900)
 
 namespace Newtonsoft::Json::Serialization
 {
-	inline static constexpr unsigned int CamelCasePropertyNamesContractResolver_TypeDefinitionIndex = 9644;
+	inline static constexpr unsigned int CamelCasePropertyNamesContractResolver_TypeDefinitionIndex = 9702;
 
 	class CamelCasePropertyNamesContractResolver : public ::Newtonsoft::Json::Serialization::DefaultContractResolver
 	{

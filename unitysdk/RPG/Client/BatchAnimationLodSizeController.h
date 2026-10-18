@@ -5,12 +5,12 @@
 
 namespace UnityEngine::Rendering { class BatchAnimation; }
 
-#define RPG_CLIENT_BATCHANIMATIONLODSIZECONTROLLER_ONENABLE_OFFSET UNITYSDK_OFFSET(0xC8D2C90)
-#define RPG_CLIENT_BATCHANIMATIONLODSIZECONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0xC8D2DD0)
+#define RPG_CLIENT_BATCHANIMATIONLODSIZECONTROLLER_ONENABLE_OFFSET UNITYSDK_OFFSET(0xC7F5B10)
+#define RPG_CLIENT_BATCHANIMATIONLODSIZECONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0xC7F5C50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BatchAnimationLodSizeController_TypeDefinitionIndex = 69480;
+	inline static constexpr unsigned int BatchAnimationLodSizeController_TypeDefinitionIndex = 69516;
 
 	class BatchAnimationLodSizeController : public ::UnityEngine::MonoBehaviour
 	{

@@ -1,0 +1,43 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/MonoBehaviour.h"
+
+class Class_1_F9FBCC956DFCF137_32;
+namespace RPG::Client::MechCraft::View { class MechCraftConditionControlBinder; }
+
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCONDITIONCONTROL_METHOD_5_7F68D6D1D153FE6C_OFFSET UNITYSDK_OFFSET(0xD5F60E0)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCONDITIONCONTROL_METHOD_5_8D0A2531C88B32B1_OFFSET UNITYSDK_OFFSET(0xD5F6080)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCONDITIONCONTROL_METHOD_5_F8B73ECE7F883AC1_OFFSET UNITYSDK_OFFSET(0xD5F6040)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCONDITIONCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0xD5F6340)
+
+namespace RPG::Client::MechCraft::View
+{
+	inline static constexpr unsigned int MechCraftConditionControl_TypeDefinitionIndex = 79989;
+
+	class MechCraftConditionControl : public ::UnityEngine::MonoBehaviour
+	{
+	public:
+		::Class_1_F9FBCC956DFCF137_32* LFGMLJCCPCH; // 0x18
+		::RPG::Client::MechCraft::View::MechCraftConditionControlBinder* _Binder; // 0x20
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCONDITIONCONTROL__CTOR_OFFSET))(this);
+		}
+
+		::Class_1_F9FBCC956DFCF137_32* Method_5_F8B73ECE7F883AC1()
+		{
+			return ((::Class_1_F9FBCC956DFCF137_32*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCONDITIONCONTROL_METHOD_5_F8B73ECE7F883AC1_OFFSET))(this);
+		}
+
+		::System::Void Method_5_8D0A2531C88B32B1(::Class_1_F9FBCC956DFCF137_32* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_F9FBCC956DFCF137_32*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCONDITIONCONTROL_METHOD_5_8D0A2531C88B32B1_OFFSET))(this, a1);
+		}
+
+		::System::Void Method_5_7F68D6D1D153FE6C(::Class_1_F9FBCC956DFCF137_32* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_F9FBCC956DFCF137_32*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCONDITIONCONTROL_METHOD_5_7F68D6D1D153FE6C_OFFSET))(this, a1);
+		}
+	};
+}

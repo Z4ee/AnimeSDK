@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_EXPEDITIONBATTLEAVATARSAVEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xCEF7140)
+#define RPG_CLIENT_EXPEDITIONBATTLEAVATARSAVEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xCE45D00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ExpeditionBattleAvatarSaveData_TypeDefinitionIndex = 63900;
+	inline static constexpr unsigned int ExpeditionBattleAvatarSaveData_TypeDefinitionIndex = 63838;
 
 	class ExpeditionBattleAvatarSaveData : public ::System::Object
 	{

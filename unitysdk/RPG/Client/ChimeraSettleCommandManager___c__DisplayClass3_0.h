@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class IChimeraSettleCommand; }
 
-#define RPG_CLIENT_CHIMERASETTLECOMMANDMANAGER___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCC0A080)
-#define RPG_CLIENT_CHIMERASETTLECOMMANDMANAGER___C__DISPLAYCLASS3_0__IMMEDIATELYEXECUTECOMMAND_B__0_OFFSET UNITYSDK_OFFSET(0xCC0A5F0)
+#define RPG_CLIENT_CHIMERASETTLECOMMANDMANAGER___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCB59580)
+#define RPG_CLIENT_CHIMERASETTLECOMMANDMANAGER___C__DISPLAYCLASS3_0__IMMEDIATELYEXECUTECOMMAND_B__0_OFFSET UNITYSDK_OFFSET(0xCB59AF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraSettleCommandManager___c__DisplayClass3_0_TypeDefinitionIndex = 63521;
+	inline static constexpr unsigned int ChimeraSettleCommandManager___c__DisplayClass3_0_TypeDefinitionIndex = 63459;
 
 	class ChimeraSettleCommandManager___c__DisplayClass3_0 : public ::System::Object
 	{

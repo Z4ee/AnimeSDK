@@ -1,0 +1,41 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_F367C0154B7F634C;
+
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTPROGRESSATTRTRAITDETAILCONTROL___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD62DFB0)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTPROGRESSATTRTRAITDETAILCONTROL___C__DISPLAYCLASS8_0___BIND_B__0_OFFSET UNITYSDK_OFFSET(0xD62FF50)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTPROGRESSATTRTRAITDETAILCONTROL___C__DISPLAYCLASS8_0___BIND_B__1_OFFSET UNITYSDK_OFFSET(0xD6300A0)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTPROGRESSATTRTRAITDETAILCONTROL___C__DISPLAYCLASS8_0___BIND_B__2_OFFSET UNITYSDK_OFFSET(0xD6301F0)
+
+namespace RPG::Client::MechCraft::View
+{
+	inline static constexpr unsigned int MechCraftCraftProgressAttrTraitDetailControl___c__DisplayClass8_0_TypeDefinitionIndex = 79924;
+
+	class MechCraftCraftProgressAttrTraitDetailControl___c__DisplayClass8_0 : public ::System::Object
+	{
+	public:
+		::Class_1_F367C0154B7F634C* vm; // 0x10
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTPROGRESSATTRTRAITDETAILCONTROL___C__DISPLAYCLASS8_0__CTOR_OFFSET))(this);
+		}
+
+		::System::Void __Bind_b__0()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTPROGRESSATTRTRAITDETAILCONTROL___C__DISPLAYCLASS8_0___BIND_B__0_OFFSET))(this);
+		}
+
+		::System::Void __Bind_b__1()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTPROGRESSATTRTRAITDETAILCONTROL___C__DISPLAYCLASS8_0___BIND_B__1_OFFSET))(this);
+		}
+
+		::System::Void __Bind_b__2(::System::Object* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTPROGRESSATTRTRAITDETAILCONTROL___C__DISPLAYCLASS8_0___BIND_B__2_OFFSET))(this, a1);
+		}
+	};
+}

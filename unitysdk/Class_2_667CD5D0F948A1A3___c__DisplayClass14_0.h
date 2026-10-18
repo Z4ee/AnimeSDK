@@ -8,10 +8,10 @@ class Class_2_B9E8C2EEAA5C96EC;
 namespace RPG::GameCore { class FiveDimTriggerEventEmitterConfig; }
 namespace UnityEngine { class Collider; }
 
-#define CLASS_2_667CD5D0F948A1A3___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0x134B7270)
-#define CLASS_2_667CD5D0F948A1A3___C__DISPLAYCLASS14_0___CREATEONTRIGGERENTERCALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0x134B7E10)
+#define CLASS_2_667CD5D0F948A1A3___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0x12CC0BF0)
+#define CLASS_2_667CD5D0F948A1A3___C__DISPLAYCLASS14_0___CREATEONTRIGGERENTERCALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0x12CC1790)
 
-inline static constexpr unsigned int Class_2_667CD5D0F948A1A3___c__DisplayClass14_0_TypeDefinitionIndex = 76621;
+inline static constexpr unsigned int Class_2_667CD5D0F948A1A3___c__DisplayClass14_0_TypeDefinitionIndex = 77092;
 
 class Class_2_667CD5D0F948A1A3___c__DisplayClass14_0 : public ::System::Object
 {

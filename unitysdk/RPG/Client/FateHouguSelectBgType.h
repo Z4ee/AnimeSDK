@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FateHouguSelectBgType_TypeDefinitionIndex = 64144;
+	inline static constexpr unsigned int FateHouguSelectBgType_TypeDefinitionIndex = 64082;
 
 	enum class FateHouguSelectBgType : ::System::Int32
 	{

@@ -5,16 +5,16 @@
 class Class_2_3ECED1616C364900;
 namespace RPG::GameCore { class PropComponent; }
 
-#define CLASS_2_3ECED1616C364900___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB457960)
-#define CLASS_2_3ECED1616C364900___C__DISPLAYCLASS5_0___ONGETROLLSHOPINFOSCRSP_B__0_OFFSET UNITYSDK_OFFSET(0xB457B00)
+#define CLASS_2_3ECED1616C364900___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB11A560)
+#define CLASS_2_3ECED1616C364900___C__DISPLAYCLASS5_0___ONGETROLLSHOPINFOSCRSP_B__0_OFFSET UNITYSDK_OFFSET(0xB11A700)
 
-inline static constexpr unsigned int Class_2_3ECED1616C364900___c__DisplayClass5_0_TypeDefinitionIndex = 58484;
+inline static constexpr unsigned int Class_2_3ECED1616C364900___c__DisplayClass5_0_TypeDefinitionIndex = 58335;
 
 class Class_2_3ECED1616C364900___c__DisplayClass5_0 : public ::System::Object
 {
 public:
-	::RPG::GameCore::PropComponent* propCmpt; // 0x10
-	::Class_2_3ECED1616C364900* __4__this; // 0x18
+	::Class_2_3ECED1616C364900* __4__this; // 0x10
+	::RPG::GameCore::PropComponent* propCmpt; // 0x18
 
 	::System::Void _ctor()
 	{

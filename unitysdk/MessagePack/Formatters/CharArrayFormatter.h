@@ -6,21 +6,21 @@
 
 namespace MessagePack { class MessagePackSerializerOptions; }
 
-#define MESSAGEPACK_FORMATTERS_CHARARRAYFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1B6716F0)
-#define MESSAGEPACK_FORMATTERS_CHARARRAYFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1B671530)
-#define MESSAGEPACK_FORMATTERS_CHARARRAYFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B6718E0)
-#define MESSAGEPACK_FORMATTERS_CHARARRAYFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B671520)
+#define MESSAGEPACK_FORMATTERS_CHARARRAYFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1BB702B0)
+#define MESSAGEPACK_FORMATTERS_CHARARRAYFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1BB700F0)
+#define MESSAGEPACK_FORMATTERS_CHARARRAYFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BB704A0)
+#define MESSAGEPACK_FORMATTERS_CHARARRAYFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB700E0)
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int CharArrayFormatter_TypeDefinitionIndex = 7424;
+	inline static constexpr unsigned int CharArrayFormatter_TypeDefinitionIndex = 7478;
 
 	class CharArrayFormatter : public ::System::Object
 	{
 	public:
 		static ::MessagePack::Formatters::CharArrayFormatter** StaticGet_Instance()
 		{
-			return (::MessagePack::Formatters::CharArrayFormatter**)Il2CppClass::FromTypeDefinitionIndex(CharArrayFormatter_TypeDefinitionIndex)->GetStaticField(0x29EB0);
+			return (::MessagePack::Formatters::CharArrayFormatter**)Il2CppClass::FromTypeDefinitionIndex(CharArrayFormatter_TypeDefinitionIndex)->GetStaticField(0x24BB0);
 		}
 
 		::System::Void _ctor()

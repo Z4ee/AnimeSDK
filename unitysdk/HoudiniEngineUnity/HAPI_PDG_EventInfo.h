@@ -4,7 +4,7 @@
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HAPI_PDG_EventInfo_TypeDefinitionIndex = 39221;
+	inline static constexpr unsigned int HAPI_PDG_EventInfo_TypeDefinitionIndex = 40518;
 
 	struct alignas(4) HAPI_PDG_EventInfo
 	{

@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class CullingGroup_StateChanged; }
 
-#define UNITYENGINE_CULLINGGROUP_SENDEVENTS_OFFSET UNITYSDK_OFFSET(0x1ED15B70)
+#define UNITYENGINE_CULLINGGROUP_SENDEVENTS_OFFSET UNITYSDK_OFFSET(0x1F3DD8C0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int CullingGroup_TypeDefinitionIndex = 4048;
+	inline static constexpr unsigned int CullingGroup_TypeDefinitionIndex = 4049;
 
 	class CullingGroup : public ::System::Object
 	{

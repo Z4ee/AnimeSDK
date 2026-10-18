@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_CONFIGGETONTRAIN_METHOD_2_320A9650ABC3AB2A_OFFSET UNITYSDK_OFFSET(0x1CFF9420)
-#define RPG_GAMECORE_CONFIGGETONTRAIN__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFF98B0)
+#define RPG_GAMECORE_CONFIGGETONTRAIN_METHOD_2_320A9650ABC3AB2A_OFFSET UNITYSDK_OFFSET(0x1D5D51A0)
+#define RPG_GAMECORE_CONFIGGETONTRAIN__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5D56B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ConfigGetOnTrain_TypeDefinitionIndex = 16727;
+	inline static constexpr unsigned int ConfigGetOnTrain_TypeDefinitionIndex = 16921;
 
 	class ConfigGetOnTrain : public ::RPG::GameCore::JsonConfig
 	{

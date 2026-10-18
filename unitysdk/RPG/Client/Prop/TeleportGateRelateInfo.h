@@ -4,7 +4,7 @@
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int TeleportGateRelateInfo_TypeDefinitionIndex = 78427;
+	inline static constexpr unsigned int TeleportGateRelateInfo_TypeDefinitionIndex = 78898;
 
 	struct alignas(8) TeleportGateRelateInfo
 	{

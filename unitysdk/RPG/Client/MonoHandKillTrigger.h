@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class Collider; }
 
-#define RPG_CLIENT_MONOHANDKILLTRIGGER__CTOR_OFFSET UNITYSDK_OFFSET(0xD833F20)
+#define RPG_CLIENT_MONOHANDKILLTRIGGER__CTOR_OFFSET UNITYSDK_OFFSET(0xD834990)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoHandKillTrigger_TypeDefinitionIndex = 68744;
+	inline static constexpr unsigned int MonoHandKillTrigger_TypeDefinitionIndex = 68778;
 
 	class MonoHandKillTrigger : public ::UnityEngine::MonoBehaviour
 	{

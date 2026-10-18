@@ -5,20 +5,20 @@
 namespace MessagePack { class IFormatterResolver; }
 namespace MessagePack::Formatters { template <typename T> class IMessagePackFormatter_1; }
 
-#define RPG_CLIENT_LITTLEGAMESHARE_REPLICATIONFORMATTERRESOLVER_REGISTERTOGLOBALRESOLVER_OFFSET UNITYSDK_OFFSET(0x1C2A7DB0)
-#define RPG_CLIENT_LITTLEGAMESHARE_REPLICATIONFORMATTERRESOLVER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C2A7E30)
-#define RPG_CLIENT_LITTLEGAMESHARE_REPLICATIONFORMATTERRESOLVER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C2A7DA0)
+#define RPG_CLIENT_LITTLEGAMESHARE_REPLICATIONFORMATTERRESOLVER_REGISTERTOGLOBALRESOLVER_OFFSET UNITYSDK_OFFSET(0x1C7F7E20)
+#define RPG_CLIENT_LITTLEGAMESHARE_REPLICATIONFORMATTERRESOLVER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C7F7EA0)
+#define RPG_CLIENT_LITTLEGAMESHARE_REPLICATIONFORMATTERRESOLVER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C7F7E10)
 
 namespace RPG::Client::LittleGameShare
 {
-	inline static constexpr unsigned int ReplicationFormatterResolver_TypeDefinitionIndex = 36377;
+	inline static constexpr unsigned int ReplicationFormatterResolver_TypeDefinitionIndex = 37064;
 
 	class ReplicationFormatterResolver : public ::System::Object
 	{
 	public:
 		static ::MessagePack::IFormatterResolver** StaticGet_FMJPMFEDIJL()
 		{
-			return (::MessagePack::IFormatterResolver**)Il2CppClass::FromTypeDefinitionIndex(ReplicationFormatterResolver_TypeDefinitionIndex)->GetStaticField(0x24D50);
+			return (::MessagePack::IFormatterResolver**)Il2CppClass::FromTypeDefinitionIndex(ReplicationFormatterResolver_TypeDefinitionIndex)->GetStaticField(0x1D7A0);
 		}
 
 		::System::Void _ctor()

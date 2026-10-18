@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_EMOJIICONASSET__CTOR_OFFSET UNITYSDK_OFFSET(0xCE99FF0)
+#define RPG_CLIENT_EMOJIICONASSET__CTOR_OFFSET UNITYSDK_OFFSET(0xCDE9250)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EmojiIconAsset_TypeDefinitionIndex = 60176;
+	inline static constexpr unsigned int EmojiIconAsset_TypeDefinitionIndex = 60039;
 
 	class EmojiIconAsset : public ::UnityEngine::ScriptableObject
 	{

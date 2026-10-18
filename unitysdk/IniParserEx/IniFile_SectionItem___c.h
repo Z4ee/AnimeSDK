@@ -7,29 +7,29 @@ namespace IniParserEx { class IniFile_SectionItem; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define INIPARSEREX_INIFILE_SECTIONITEM___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1ED008B0)
-#define INIPARSEREX_INIFILE_SECTIONITEM___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1ED008F0)
-#define INIPARSEREX_INIFILE_SECTIONITEM___C__TOSTRING_B__30_0_OFFSET UNITYSDK_OFFSET(0x1ED00900)
-#define INIPARSEREX_INIFILE_SECTIONITEM___C__TOSTRING_B__30_1_OFFSET UNITYSDK_OFFSET(0x1ED00920)
+#define INIPARSEREX_INIFILE_SECTIONITEM___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F3C8650)
+#define INIPARSEREX_INIFILE_SECTIONITEM___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1F3C8690)
+#define INIPARSEREX_INIFILE_SECTIONITEM___C__TOSTRING_B__30_0_OFFSET UNITYSDK_OFFSET(0x1F3C86A0)
+#define INIPARSEREX_INIFILE_SECTIONITEM___C__TOSTRING_B__30_1_OFFSET UNITYSDK_OFFSET(0x1F3C86C0)
 
 namespace IniParserEx
 {
-	inline static constexpr unsigned int IniFile_SectionItem___c_TypeDefinitionIndex = 3936;
+	inline static constexpr unsigned int IniFile_SectionItem___c_TypeDefinitionIndex = 3937;
 
 	class IniFile_SectionItem___c : public ::System::Object
 	{
 	public:
+		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::IniParserEx::IniFile_SectionItem*>, ::System::String*>** StaticGet___9__30_1()
+		{
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::IniParserEx::IniFile_SectionItem*>, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(IniFile_SectionItem___c_TypeDefinitionIndex)->GetStaticField(0xDAB0);
+		}
 		static ::System::Func_2<::IniParserEx::IniFile_SectionItem*, ::System::String*>** StaticGet___9__30_0()
 		{
-			return (::System::Func_2<::IniParserEx::IniFile_SectionItem*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(IniFile_SectionItem___c_TypeDefinitionIndex)->GetStaticField(0xBAF0);
+			return (::System::Func_2<::IniParserEx::IniFile_SectionItem*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(IniFile_SectionItem___c_TypeDefinitionIndex)->GetStaticField(0xDAB8);
 		}
 		static ::IniParserEx::IniFile_SectionItem___c** StaticGet___9()
 		{
-			return (::IniParserEx::IniFile_SectionItem___c**)Il2CppClass::FromTypeDefinitionIndex(IniFile_SectionItem___c_TypeDefinitionIndex)->GetStaticField(0xBAF8);
-		}
-		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::IniParserEx::IniFile_SectionItem*>, ::System::String*>** StaticGet___9__30_1()
-		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::IniParserEx::IniFile_SectionItem*>, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(IniFile_SectionItem___c_TypeDefinitionIndex)->GetStaticField(0xBB00);
+			return (::IniParserEx::IniFile_SectionItem___c**)Il2CppClass::FromTypeDefinitionIndex(IniFile_SectionItem___c_TypeDefinitionIndex)->GetStaticField(0xDAC0);
 		}
 
 		static ::System::Void _cctor()

@@ -13,7 +13,7 @@ namespace System { template <typename T> class Action_1; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int ForEach_TypeDefinitionIndex = 44226;
+	inline static constexpr unsigned int ForEach_TypeDefinitionIndex = 45365;
 
 	class ForEach : public ::System::Object
 	{

@@ -7,12 +7,12 @@
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_GAUSSIANBLURTIMELINETRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8CE9D0)
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_GAUSSIANBLURTIMELINETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xE8CEA80)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_GAUSSIANBLURTIMELINETRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE924250)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_GAUSSIANBLURTIMELINETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xE924300)
 
 namespace RPGTools::Timeline::PostProcessing
 {
-	inline static constexpr unsigned int GaussianBlurTimelineTrack_TypeDefinitionIndex = 49029;
+	inline static constexpr unsigned int GaussianBlurTimelineTrack_TypeDefinitionIndex = 48575;
 
 	class GaussianBlurTimelineTrack : public ::RPGTools::Timeline::PostProcessing::PostProcessTimelineTrack
 	{

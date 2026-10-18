@@ -8,9 +8,9 @@ namespace System::Collections { class Hashtable; }
 namespace System::Collections { class IDictionary; }
 namespace System::Collections { class IList; }
 
-#define SYSTEM_RUNTIME_REMOTING_CHANNELS_SINKPROVIDERDATA_GET_CHILDREN_OFFSET UNITYSDK_OFFSET(0x1BDC9C00)
-#define SYSTEM_RUNTIME_REMOTING_CHANNELS_SINKPROVIDERDATA_GET_PROPERTIES_OFFSET UNITYSDK_OFFSET(0x1BDC9C10)
-#define SYSTEM_RUNTIME_REMOTING_CHANNELS_SINKPROVIDERDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDC9B60)
+#define SYSTEM_RUNTIME_REMOTING_CHANNELS_SINKPROVIDERDATA_GET_CHILDREN_OFFSET UNITYSDK_OFFSET(0x1C2D5900)
+#define SYSTEM_RUNTIME_REMOTING_CHANNELS_SINKPROVIDERDATA_GET_PROPERTIES_OFFSET UNITYSDK_OFFSET(0x1C2D5910)
+#define SYSTEM_RUNTIME_REMOTING_CHANNELS_SINKPROVIDERDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1C2D5860)
 
 namespace System::Runtime::Remoting::Channels
 {
@@ -19,8 +19,8 @@ namespace System::Runtime::Remoting::Channels
 	class SinkProviderData : public ::System::Object
 	{
 	public:
-		::System::Collections::ArrayList* children; // 0x10
-		::System::String* sinkName; // 0x18
+		::System::String* sinkName; // 0x10
+		::System::Collections::ArrayList* children; // 0x18
 		::System::Collections::Hashtable* properties; // 0x20
 
 		::System::Void _ctor(::System::String* a1)

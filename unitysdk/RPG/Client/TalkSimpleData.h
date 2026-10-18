@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_TALKSIMPLEDATA_CREATE_1_OFFSET UNITYSDK_OFFSET(0xE1670A0)
-#define RPG_CLIENT_TALKSIMPLEDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xE166F90)
-#define RPG_CLIENT_TALKSIMPLEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xE167090)
+#define RPG_CLIENT_TALKSIMPLEDATA_CREATE_1_OFFSET UNITYSDK_OFFSET(0xE1A8DD0)
+#define RPG_CLIENT_TALKSIMPLEDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xE1A8CC0)
+#define RPG_CLIENT_TALKSIMPLEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xE1A8DC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TalkSimpleData_TypeDefinitionIndex = 68038;
+	inline static constexpr unsigned int TalkSimpleData_TypeDefinitionIndex = 68043;
 
 	class TalkSimpleData : public ::System::Object
 	{

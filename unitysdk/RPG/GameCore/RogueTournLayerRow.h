@@ -4,18 +4,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ROGUETOURNLAYERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D48B360)
-#define RPG_GAMECORE_ROGUETOURNLAYERROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D48BB10)
+#define RPG_GAMECORE_ROGUETOURNLAYERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DA3E010)
+#define RPG_GAMECORE_ROGUETOURNLAYERROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1DA3E7C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueTournLayerRow_TypeDefinitionIndex = 14791;
+	inline static constexpr unsigned int RogueTournLayerRow_TypeDefinitionIndex = 14956;
 
 	class RogueTournLayerRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 LayerNumID; // 0x10
-		::System::UInt32 LayerID; // 0x14
+		::System::UInt32 LayerID; // 0x10
+		::System::UInt32 LayerNumID; // 0x14
 
 		::System::Void _ctor()
 		{

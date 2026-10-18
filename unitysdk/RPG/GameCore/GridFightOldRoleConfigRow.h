@@ -7,27 +7,27 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_GRIDFIGHTOLDROLECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D15C6F0)
-#define RPG_GAMECORE_GRIDFIGHTOLDROLECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D15CAA0)
+#define RPG_GAMECORE_GRIDFIGHTOLDROLECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D7374E0)
+#define RPG_GAMECORE_GRIDFIGHTOLDROLECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D737890)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightOldRoleConfigRow_TypeDefinitionIndex = 13457;
+	inline static constexpr unsigned int GridFightOldRoleConfigRow_TypeDefinitionIndex = 13564;
 
 	class GridFightOldRoleConfigRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* TraitList; // 0x10
-		::Il2CppArray<::System::UInt32>* BackendRankList; // 0x18
-		::Il2CppArray<::RPG::GameCore::GridFightChargeType>* ChargeType; // 0x20
-		::System::String* MaxSPIcon; // 0x28
+		::Il2CppArray<::RPG::GameCore::GridFightChargeType>* ChargeType; // 0x18
+		::System::String* MaxSPIcon; // 0x20
+		::Il2CppArray<::System::UInt32>* BackendRankList; // 0x28
 		::System::UInt32 EquipmentID; // 0x30
-		::System::UInt32 AvatarID; // 0x34
-		::System::UInt32 SpecialAvatarID; // 0x38
-		::System::UInt32 Rarity; // 0x3C
-		::System::UInt32 ID; // 0x40
-		::System::UInt32 ExistSeason; // 0x44
-		::RPG::GameCore::GridFightPreset FrontBackType; // 0x48
+		::System::UInt32 Rarity; // 0x34
+		::System::UInt32 ID; // 0x38
+		::System::UInt32 ExistSeason; // 0x3C
+		::System::UInt32 SpecialAvatarID; // 0x40
+		::RPG::GameCore::GridFightPreset FrontBackType; // 0x44
+		::System::UInt32 AvatarID; // 0x48
 
 		::System::Void _ctor()
 		{

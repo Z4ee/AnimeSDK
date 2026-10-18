@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Sofa/BaseViewModel.h"
 
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESITEMPLACEGRIDVIEWMODEL_GET_ISSHOW_OFFSET UNITYSDK_OFFSET(0xCB71C60)
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESITEMPLACEGRIDVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xCB71000)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESITEMPLACEGRIDVIEWMODEL_GET_ISSHOW_OFFSET UNITYSDK_OFFSET(0xCAC1140)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESITEMPLACEGRIDVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xCAC04C0)
 
 namespace RPG::Client::ChenLingFes
 {
-	inline static constexpr unsigned int ChenLingFesItemPlaceGridViewModel_TypeDefinitionIndex = 80066;
+	inline static constexpr unsigned int ChenLingFesItemPlaceGridViewModel_TypeDefinitionIndex = 81394;
 
 	class ChenLingFesItemPlaceGridViewModel : public ::Sofa::BaseViewModel
 	{

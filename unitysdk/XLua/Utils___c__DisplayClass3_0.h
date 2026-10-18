@@ -5,19 +5,19 @@
 namespace System { class Type; }
 namespace System::Reflection { class FieldInfo; }
 
-#define XLUA_UTILS___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1516F360)
-#define XLUA_UTILS___C__DISPLAYCLASS3_0__GENFIELDGETTER_B__0_OFFSET UNITYSDK_OFFSET(0x15181C70)
-#define XLUA_UTILS___C__DISPLAYCLASS3_0__GENFIELDGETTER_B__1_OFFSET UNITYSDK_OFFSET(0x15181D60)
+#define XLUA_UTILS___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x153C2260)
+#define XLUA_UTILS___C__DISPLAYCLASS3_0__GENFIELDGETTER_B__0_OFFSET UNITYSDK_OFFSET(0x153D4B60)
+#define XLUA_UTILS___C__DISPLAYCLASS3_0__GENFIELDGETTER_B__1_OFFSET UNITYSDK_OFFSET(0x153D4C50)
 
 namespace XLua
 {
-	inline static constexpr unsigned int Utils___c__DisplayClass3_0_TypeDefinitionIndex = 50605;
+	inline static constexpr unsigned int Utils___c__DisplayClass3_0_TypeDefinitionIndex = 50274;
 
 	class Utils___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:
-		::System::Type* type; // 0x10
-		::System::Reflection::FieldInfo* field; // 0x18
+		::System::Reflection::FieldInfo* field; // 0x10
+		::System::Type* type; // 0x18
 
 		::System::Void _ctor()
 		{

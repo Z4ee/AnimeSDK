@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_6CE70F4211D79CD5_4__CTOR_OFFSET UNITYSDK_OFFSET(0xF4077B0)
+#define CLASS_1_6CE70F4211D79CD5_4__CTOR_OFFSET UNITYSDK_OFFSET(0xF2358E0)
 
-inline static constexpr unsigned int Class_1_6CE70F4211D79CD5_4_TypeDefinitionIndex = 56028;
+inline static constexpr unsigned int Class_1_6CE70F4211D79CD5_4_TypeDefinitionIndex = 55840;
 
 class Class_1_6CE70F4211D79CD5_4 : public ::System::Object
 {

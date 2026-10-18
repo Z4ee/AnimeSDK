@@ -5,17 +5,17 @@
 namespace RPG::Client { class LevelNpcMaterialReplacer; }
 namespace RPG::Client { class LookAtIK; }
 
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSMAINLIMAOCONTROL_LIMAOITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xD46A060)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSMAINLIMAOCONTROL_LIMAOITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xD3C0BD0)
 
 namespace RPG::Client::LimaoNews
 {
-	inline static constexpr unsigned int LimaoNewsMainLimaoControl_LimaoItem_TypeDefinitionIndex = 79044;
+	inline static constexpr unsigned int LimaoNewsMainLimaoControl_LimaoItem_TypeDefinitionIndex = 80367;
 
 	class LimaoNewsMainLimaoControl_LimaoItem : public ::System::Object
 	{
 	public:
-		::RPG::Client::LevelNpcMaterialReplacer* MaterialReplacer; // 0x10
-		::RPG::Client::LookAtIK* LookAtIK; // 0x18
+		::RPG::Client::LookAtIK* LookAtIK; // 0x10
+		::RPG::Client::LevelNpcMaterialReplacer* MaterialReplacer; // 0x18
 
 		::System::Void _ctor()
 		{

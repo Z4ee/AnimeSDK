@@ -5,22 +5,22 @@
 namespace RPG::Client::PixAir { class PixAirSlot; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define CLASS_1_1C4138E8422654D8___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xB99F090)
-#define CLASS_1_1C4138E8422654D8___C__CTOR_OFFSET UNITYSDK_OFFSET(0xB99F0D0)
-#define CLASS_1_1C4138E8422654D8___C__FINDEQUIPMENTINRANGE_B__40_0_OFFSET UNITYSDK_OFFSET(0xB99F0E0)
+#define CLASS_1_1C4138E8422654D8___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xB858E20)
+#define CLASS_1_1C4138E8422654D8___C__CTOR_OFFSET UNITYSDK_OFFSET(0xB858E60)
+#define CLASS_1_1C4138E8422654D8___C__FINDEQUIPMENTINRANGE_B__40_0_OFFSET UNITYSDK_OFFSET(0xB858E70)
 
-inline static constexpr unsigned int Class_1_1C4138E8422654D8___c_TypeDefinitionIndex = 78858;
+inline static constexpr unsigned int Class_1_1C4138E8422654D8___c_TypeDefinitionIndex = 79339;
 
 class Class_1_1C4138E8422654D8___c : public ::System::Object
 {
 public:
 	static ::Class_1_1C4138E8422654D8___c** StaticGet___9()
 	{
-		return (::Class_1_1C4138E8422654D8___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_1C4138E8422654D8___c_TypeDefinitionIndex)->GetStaticField(0x35350);
+		return (::Class_1_1C4138E8422654D8___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_1C4138E8422654D8___c_TypeDefinitionIndex)->GetStaticField(0x6E390);
 	}
 	static ::System::Comparison_1<::RPG::Client::PixAir::PixAirSlot*>** StaticGet___9__40_0()
 	{
-		return (::System::Comparison_1<::RPG::Client::PixAir::PixAirSlot*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_1C4138E8422654D8___c_TypeDefinitionIndex)->GetStaticField(0x35358);
+		return (::System::Comparison_1<::RPG::Client::PixAir::PixAirSlot*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_1C4138E8422654D8___c_TypeDefinitionIndex)->GetStaticField(0x6E398);
 	}
 
 	static ::System::Void _cctor()

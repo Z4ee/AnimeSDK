@@ -6,10 +6,10 @@
 namespace RPG::Client { class EmotionData; }
 namespace System { class String; }
 
-#define CLASS_1_F132777AFBDFF108_METHOD_1_829BBB0BC7202A57_OFFSET UNITYSDK_OFFSET(0x12E74E40)
-#define CLASS_1_F132777AFBDFF108__CTOR_OFFSET UNITYSDK_OFFSET(0x12E74F90)
+#define CLASS_1_F132777AFBDFF108_METHOD_1_829BBB0BC7202A57_OFFSET UNITYSDK_OFFSET(0x12D137C0)
+#define CLASS_1_F132777AFBDFF108__CTOR_OFFSET UNITYSDK_OFFSET(0x12D13910)
 
-inline static constexpr unsigned int Class_1_F132777AFBDFF108_TypeDefinitionIndex = 69384;
+inline static constexpr unsigned int Class_1_F132777AFBDFF108_TypeDefinitionIndex = 69420;
 
 class Class_1_F132777AFBDFF108 : public ::System::Object
 {

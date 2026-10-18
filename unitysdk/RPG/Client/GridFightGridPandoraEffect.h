@@ -1,20 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_43BD383C98B4C0C5_170.h"
+#include "unitysdk/Class_1_43BD383C98B4C0C5_169.h"
 #include "unitysdk/RPG/Client/GridFightGridEffectType.h"
 
 namespace RPG::Client { class GridFightGameSession; }
 namespace RPG::Client { class GridFightGridData; }
 
-#define RPG_CLIENT_GRIDFIGHTGRIDPANDORAEFFECT_CANCASTER_OFFSET UNITYSDK_OFFSET(0xD1F3F70)
-#define RPG_CLIENT_GRIDFIGHTGRIDPANDORAEFFECT_GET_TYPE_OFFSET UNITYSDK_OFFSET(0xD1F3F20)
-#define RPG_CLIENT_GRIDFIGHTGRIDPANDORAEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0xD1F42D0)
+#define RPG_CLIENT_GRIDFIGHTGRIDPANDORAEFFECT_CANCASTER_OFFSET UNITYSDK_OFFSET(0xD194FF0)
+#define RPG_CLIENT_GRIDFIGHTGRIDPANDORAEFFECT_GET_TYPE_OFFSET UNITYSDK_OFFSET(0xD194FA0)
+#define RPG_CLIENT_GRIDFIGHTGRIDPANDORAEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0xD195350)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightGridPandoraEffect_TypeDefinitionIndex = 64894;
+	inline static constexpr unsigned int GridFightGridPandoraEffect_TypeDefinitionIndex = 64834;
 
-	class GridFightGridPandoraEffect : public ::Class_1_43BD383C98B4C0C5_170
+	class GridFightGridPandoraEffect : public ::Class_1_43BD383C98B4C0C5_169
 	{
 	public:
 		::System::Void _ctor()

@@ -6,9 +6,9 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Net { class SimpleAsyncCallback; }
 namespace System::Net { class SimpleAsyncResult; }
 
-#define SYSTEM_NET_SIMPLEASYNCRESULT___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1E9B27C0)
-#define SYSTEM_NET_SIMPLEASYNCRESULT___C__DISPLAYCLASS11_0__RUNWITHLOCK_B__0_OFFSET UNITYSDK_OFFSET(0x1E9B2FE0)
-#define SYSTEM_NET_SIMPLEASYNCRESULT___C__DISPLAYCLASS11_0__RUNWITHLOCK_B__1_OFFSET UNITYSDK_OFFSET(0x1E9B3040)
+#define SYSTEM_NET_SIMPLEASYNCRESULT___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1F07AF40)
+#define SYSTEM_NET_SIMPLEASYNCRESULT___C__DISPLAYCLASS11_0__RUNWITHLOCK_B__0_OFFSET UNITYSDK_OFFSET(0x1F07B760)
+#define SYSTEM_NET_SIMPLEASYNCRESULT___C__DISPLAYCLASS11_0__RUNWITHLOCK_B__1_OFFSET UNITYSDK_OFFSET(0x1F07B7C0)
 
 namespace System::Net
 {
@@ -17,9 +17,9 @@ namespace System::Net
 	class SimpleAsyncResult___c__DisplayClass11_0 : public ::System::Object
 	{
 	public:
-		::System::Func_2<::System::Net::SimpleAsyncResult*, ::System::Boolean>* func; // 0x10
+		::System::Object* locker; // 0x10
 		::System::Net::SimpleAsyncCallback* callback; // 0x18
-		::System::Object* locker; // 0x20
+		::System::Func_2<::System::Net::SimpleAsyncResult*, ::System::Boolean>* func; // 0x20
 
 		::System::Void _ctor()
 		{

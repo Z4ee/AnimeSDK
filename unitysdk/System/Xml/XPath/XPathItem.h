@@ -8,8 +8,8 @@ namespace System { class Type; }
 namespace System::Xml { class IXmlNamespaceResolver; }
 namespace System::Xml::Schema { class XmlSchemaType; }
 
-#define SYSTEM_XML_XPATH_XPATHITEM_VALUEAS_OFFSET UNITYSDK_OFFSET(0x1E876E80)
-#define SYSTEM_XML_XPATH_XPATHITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1E876F10)
+#define SYSTEM_XML_XPATH_XPATHITEM_VALUEAS_OFFSET UNITYSDK_OFFSET(0x1EF3FAE0)
+#define SYSTEM_XML_XPATH_XPATHITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF3FB70)
 
 namespace System::Xml::XPath
 {

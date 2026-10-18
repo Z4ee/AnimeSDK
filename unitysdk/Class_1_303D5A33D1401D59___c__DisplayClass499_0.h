@@ -5,28 +5,28 @@
 class Class_1_303D5A33D1401D59;
 class Class_1_53BE720C46D20BF8;
 namespace UnityEngine { class GameObject; }
-namespace UnityEngine { class RPGPointCloudGrassBlockData; }
+namespace UnityEngine { class RPGDensityMapGrassBlockData; }
 
-#define CLASS_1_303D5A33D1401D59___C__DISPLAYCLASS499_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB67FC70)
-#define CLASS_1_303D5A33D1401D59___C__DISPLAYCLASS499_0___ONPOINTCLOUDGRASSDATALOADED_B__0_OFFSET UNITYSDK_OFFSET(0xB680520)
+#define CLASS_1_303D5A33D1401D59___C__DISPLAYCLASS499_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB523C60)
+#define CLASS_1_303D5A33D1401D59___C__DISPLAYCLASS499_0___ONDENSITYMAPGRASSDATALOADED_B__0_OFFSET UNITYSDK_OFFSET(0xB5246D0)
 
-inline static constexpr unsigned int Class_1_303D5A33D1401D59___c__DisplayClass499_0_TypeDefinitionIndex = 73808;
+inline static constexpr unsigned int Class_1_303D5A33D1401D59___c__DisplayClass499_0_TypeDefinitionIndex = 73914;
 
 class Class_1_303D5A33D1401D59___c__DisplayClass499_0 : public ::System::Object
 {
 public:
-	::UnityEngine::GameObject* grassNode; // 0x10
-	::Class_1_303D5A33D1401D59* __4__this; // 0x18
-	::Class_1_53BE720C46D20BF8* block; // 0x20
-	::UnityEngine::RPGPointCloudGrassBlockData* grassData; // 0x28
+	::Class_1_53BE720C46D20BF8* block; // 0x10
+	::UnityEngine::GameObject* grassNode; // 0x18
+	::Class_1_303D5A33D1401D59* __4__this; // 0x20
+	::UnityEngine::RPGDensityMapGrassBlockData* grassData; // 0x28
 
 	::System::Void _ctor()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_303D5A33D1401D59___C__DISPLAYCLASS499_0__CTOR_OFFSET))(this);
 	}
 
-	::System::Void __OnPointCloudGrassDataLoaded_b__0()
+	::System::Void __OnDensityMapGrassDataLoaded_b__0()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_303D5A33D1401D59___C__DISPLAYCLASS499_0___ONPOINTCLOUDGRASSDATALOADED_B__0_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_303D5A33D1401D59___C__DISPLAYCLASS499_0___ONDENSITYMAPGRASSDATALOADED_B__0_OFFSET))(this);
 	}
 };

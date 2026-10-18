@@ -7,12 +7,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class BaseExpeditionBattleNode; }
 
-#define RPG_GAMECORE_EXPEDITIONBATTLEBRANCHCASE_METHOD_2_44FF08DF91B74BF0_OFFSET UNITYSDK_OFFSET(0x1D080310)
-#define RPG_GAMECORE_EXPEDITIONBATTLEBRANCHCASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0804E0)
+#define RPG_GAMECORE_EXPEDITIONBATTLEBRANCHCASE_METHOD_2_44FF08DF91B74BF0_OFFSET UNITYSDK_OFFSET(0x1D68E300)
+#define RPG_GAMECORE_EXPEDITIONBATTLEBRANCHCASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D68E4D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ExpeditionBattleBranchCase_TypeDefinitionIndex = 16028;
+	inline static constexpr unsigned int ExpeditionBattleBranchCase_TypeDefinitionIndex = 16201;
 
 	class ExpeditionBattleBranchCase : public ::RPG::GameCore::JsonConfig
 	{

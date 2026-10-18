@@ -3,12 +3,12 @@
 #include "unitysdk/HoudiniEngineUnity/HAPI_RSTOrder.h"
 #include "unitysdk/System/ValueType.h"
 
-#define HOUDINIENGINEUNITY_HAPI_TRANSFORM_INIT_OFFSET UNITYSDK_OFFSET(0x2FD20A0)
-#define HOUDINIENGINEUNITY_HAPI_TRANSFORM__CTOR_OFFSET UNITYSDK_OFFSET(0x2FD2010)
+#define HOUDINIENGINEUNITY_HAPI_TRANSFORM_INIT_OFFSET UNITYSDK_OFFSET(0x304BB70)
+#define HOUDINIENGINEUNITY_HAPI_TRANSFORM__CTOR_OFFSET UNITYSDK_OFFSET(0x304BAE0)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HAPI_Transform_TypeDefinitionIndex = 39193;
+	inline static constexpr unsigned int HAPI_Transform_TypeDefinitionIndex = 40490;
 
 	struct alignas(8) HAPI_Transform
 	{

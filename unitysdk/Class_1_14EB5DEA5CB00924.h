@@ -8,9 +8,9 @@
 namespace RPG::GameCore { class SkillCharacterComponent; }
 namespace System { class String; }
 
-#define CLASS_1_14EB5DEA5CB00924__CTOR_OFFSET UNITYSDK_OFFSET(0x152C6140)
+#define CLASS_1_14EB5DEA5CB00924__CTOR_OFFSET UNITYSDK_OFFSET(0x155AFBC0)
 
-inline static constexpr unsigned int Class_1_14EB5DEA5CB00924_TypeDefinitionIndex = 56021;
+inline static constexpr unsigned int Class_1_14EB5DEA5CB00924_TypeDefinitionIndex = 55833;
 
 class Class_1_14EB5DEA5CB00924 : public ::System::Object
 {

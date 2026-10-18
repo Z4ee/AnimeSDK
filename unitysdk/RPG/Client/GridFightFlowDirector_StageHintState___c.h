@@ -4,24 +4,24 @@
 
 namespace System { class Action; }
 
-#define RPG_CLIENT_GRIDFIGHTFLOWDIRECTOR_STAGEHINTSTATE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD197020)
-#define RPG_CLIENT_GRIDFIGHTFLOWDIRECTOR_STAGEHINTSTATE___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD197060)
-#define RPG_CLIENT_GRIDFIGHTFLOWDIRECTOR_STAGEHINTSTATE___C__ONENTER_B__0_0_OFFSET UNITYSDK_OFFSET(0xD197070)
+#define RPG_CLIENT_GRIDFIGHTFLOWDIRECTOR_STAGEHINTSTATE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD137580)
+#define RPG_CLIENT_GRIDFIGHTFLOWDIRECTOR_STAGEHINTSTATE___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD1375C0)
+#define RPG_CLIENT_GRIDFIGHTFLOWDIRECTOR_STAGEHINTSTATE___C__ONENTER_B__0_0_OFFSET UNITYSDK_OFFSET(0xD1375D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightFlowDirector_StageHintState___c_TypeDefinitionIndex = 64661;
+	inline static constexpr unsigned int GridFightFlowDirector_StageHintState___c_TypeDefinitionIndex = 64601;
 
 	class GridFightFlowDirector_StageHintState___c : public ::System::Object
 	{
 	public:
 		static ::System::Action** StaticGet___9__0_0()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(GridFightFlowDirector_StageHintState___c_TypeDefinitionIndex)->GetStaticField(0x2C2E0);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(GridFightFlowDirector_StageHintState___c_TypeDefinitionIndex)->GetStaticField(0x6BCE0);
 		}
 		static ::RPG::Client::GridFightFlowDirector_StageHintState___c** StaticGet___9()
 		{
-			return (::RPG::Client::GridFightFlowDirector_StageHintState___c**)Il2CppClass::FromTypeDefinitionIndex(GridFightFlowDirector_StageHintState___c_TypeDefinitionIndex)->GetStaticField(0x2C2E8);
+			return (::RPG::Client::GridFightFlowDirector_StageHintState___c**)Il2CppClass::FromTypeDefinitionIndex(GridFightFlowDirector_StageHintState___c_TypeDefinitionIndex)->GetStaticField(0x6BCE8);
 		}
 
 		static ::System::Void _cctor()

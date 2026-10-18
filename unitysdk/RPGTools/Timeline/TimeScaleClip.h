@@ -8,13 +8,13 @@
 namespace RPGTools::Timeline { class TimeScaleBehaviour; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_TIMESCALECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8F5C00)
-#define RPGTOOLS_TIMELINE_TIMESCALECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE8F5DA0)
-#define RPGTOOLS_TIMELINE_TIMESCALECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xE8F5DB0)
+#define RPGTOOLS_TIMELINE_TIMESCALECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE94BB50)
+#define RPGTOOLS_TIMELINE_TIMESCALECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE94BCF0)
+#define RPGTOOLS_TIMELINE_TIMESCALECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xE94BD00)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int TimeScaleClip_TypeDefinitionIndex = 48970;
+	inline static constexpr unsigned int TimeScaleClip_TypeDefinitionIndex = 48516;
 
 	class TimeScaleClip : public ::UnityEngine::Playables::PlayableAsset
 	{

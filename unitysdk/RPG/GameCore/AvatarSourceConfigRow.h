@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_AVATARSOURCECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CE59FE0)
-#define RPG_GAMECORE_AVATARSOURCECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE5A0D0)
+#define RPG_GAMECORE_AVATARSOURCECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D430460)
+#define RPG_GAMECORE_AVATARSOURCECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D430550)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AvatarSourceConfigRow_TypeDefinitionIndex = 10924;
+	inline static constexpr unsigned int AvatarSourceConfigRow_TypeDefinitionIndex = 10940;
 
 	class AvatarSourceConfigRow : public ::System::Object
 	{

@@ -8,12 +8,12 @@
 namespace RPG::CustomRP { class RPGSpeedLine; }
 namespace System { class Object; }
 
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_SPEEDLINETIMELINEBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xE8D4C40)
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_SPEEDLINETIMELINEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xE8D57E0)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_SPEEDLINETIMELINEBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xE92A4E0)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_SPEEDLINETIMELINEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xE92B080)
 
 namespace RPGTools::Timeline::PostProcessing
 {
-	inline static constexpr unsigned int SpeedLineTimelineBehaviour_TypeDefinitionIndex = 49070;
+	inline static constexpr unsigned int SpeedLineTimelineBehaviour_TypeDefinitionIndex = 48616;
 
 	class SpeedLineTimelineBehaviour : public ::RPGTools::Timeline::PostProcessing::BasePlayableBehaviour_1<::RPG::CustomRP::RPGSpeedLine*>
 	{

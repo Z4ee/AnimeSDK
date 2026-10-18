@@ -6,12 +6,12 @@ namespace MiHoYo::SDK { class AccountModel; }
 namespace MiHoYo::SDK::PC::OS { class LoginManager; }
 namespace System { class Action; }
 
-#define MIHOYO_SDK_PC_OS_LOGINMANAGER___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA36510)
-#define MIHOYO_SDK_PC_OS_LOGINMANAGER___C__DISPLAYCLASS8_0__REFRESHACCOUNTINFO_B__0_OFFSET UNITYSDK_OFFSET(0x1BA36FC0)
+#define MIHOYO_SDK_PC_OS_LOGINMANAGER___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF3FF90)
+#define MIHOYO_SDK_PC_OS_LOGINMANAGER___C__DISPLAYCLASS8_0__REFRESHACCOUNTINFO_B__0_OFFSET UNITYSDK_OFFSET(0x1BF40A40)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int LoginManager___c__DisplayClass8_0_TypeDefinitionIndex = 8651;
+	inline static constexpr unsigned int LoginManager___c__DisplayClass8_0_TypeDefinitionIndex = 8712;
 
 	class LoginManager___c__DisplayClass8_0 : public ::System::Object
 	{

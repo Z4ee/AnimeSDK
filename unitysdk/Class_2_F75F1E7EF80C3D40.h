@@ -10,25 +10,25 @@ namespace UnityEngine::UI { class Image; }
 namespace UnityEngine::UI { class RawImage; }
 namespace UnityEngine::UI { class Text; }
 
-#define CLASS_2_F75F1E7EF80C3D40_METHOD_2_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0xB9F77C0)
-#define CLASS_2_F75F1E7EF80C3D40_METHOD_2_88B60F3B95FAA4F1_OFFSET UNITYSDK_OFFSET(0xB9F7750)
-#define CLASS_2_F75F1E7EF80C3D40__CTOR_OFFSET UNITYSDK_OFFSET(0xB9F7950)
+#define CLASS_2_F75F1E7EF80C3D40_METHOD_2_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0xB8B8B20)
+#define CLASS_2_F75F1E7EF80C3D40_METHOD_2_88B60F3B95FAA4F1_OFFSET UNITYSDK_OFFSET(0xB8B8AB0)
+#define CLASS_2_F75F1E7EF80C3D40__CTOR_OFFSET UNITYSDK_OFFSET(0xB8B8CB0)
 
-inline static constexpr unsigned int Class_2_F75F1E7EF80C3D40_TypeDefinitionIndex = 72844;
+inline static constexpr unsigned int Class_2_F75F1E7EF80C3D40_TypeDefinitionIndex = 72927;
 
 class Class_2_F75F1E7EF80C3D40 : public ::Class_1_A167209E71412818
 {
 public:
 	::UnityEngine::UI::Button* ILJAPGEMAEC; // 0x18
-	::UnityEngine::UI::Button* DEIHEPPPHGA; // 0x20
-	::UnityEngine::UI::RawImage* GBODBEHAPCN; // 0x28
-	::UnityEngine::UI::AspectRatioFitter* AFMOKBNCLKK; // 0x30
+	::UnityEngine::UI::Button* JEOIHFIIPDJ; // 0x20
+	::UnityEngine::UI::Image* AJMIIBNLHNO; // 0x28
+	::UnityEngine::Transform* LMHMPGIKBEB; // 0x30
 	::UnityEngine::Transform* LMFBMGNCAPI; // 0x38
-	::UnityEngine::UI::Image* AJMIIBNLHNO; // 0x40
-	::UnityEngine::UI::AspectRatioFitter* BBGGMKDMDNG; // 0x48
-	::UnityEngine::Transform* LMHMPGIKBEB; // 0x50
-	::UnityEngine::UI::Button* JEOIHFIIPDJ; // 0x58
-	::UnityEngine::UI::Text* OAOPDOFHOKO; // 0x60
+	::UnityEngine::UI::RawImage* GBODBEHAPCN; // 0x40
+	::UnityEngine::UI::AspectRatioFitter* AFMOKBNCLKK; // 0x48
+	::UnityEngine::UI::Text* OAOPDOFHOKO; // 0x50
+	::UnityEngine::UI::AspectRatioFitter* BBGGMKDMDNG; // 0x58
+	::UnityEngine::UI::Button* DEIHEPPPHGA; // 0x60
 
 	::System::Void _ctor()
 	{

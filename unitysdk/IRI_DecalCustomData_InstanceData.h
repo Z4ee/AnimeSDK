@@ -4,15 +4,15 @@
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
-#define IRI_DECALCUSTOMDATA_INSTANCEDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0x161BB390)
+#define IRI_DECALCUSTOMDATA_INSTANCEDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0x16533720)
 
-inline static constexpr unsigned int IRI_DecalCustomData_InstanceData_TypeDefinitionIndex = 47631;
+inline static constexpr unsigned int IRI_DecalCustomData_InstanceData_TypeDefinitionIndex = 47171;
 
 struct alignas(4) IRI_DecalCustomData_InstanceData
 {
 	static ::IRI_DecalCustomData_InstanceData* StaticGet_DefaultValue()
 	{
-		return (::IRI_DecalCustomData_InstanceData*)Il2CppClass::FromTypeDefinitionIndex(IRI_DecalCustomData_InstanceData_TypeDefinitionIndex)->GetStaticField(0xF760);
+		return (::IRI_DecalCustomData_InstanceData*)Il2CppClass::FromTypeDefinitionIndex(IRI_DecalCustomData_InstanceData_TypeDefinitionIndex)->GetStaticField(0x15410);
 	}
 	::System::Int32 AtlasID; // 0x10
 	::System::Single SmoothScale; // 0x14

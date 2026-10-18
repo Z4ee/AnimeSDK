@@ -7,7 +7,7 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace RPG::Client::RoadRash
 {
-	inline static constexpr unsigned int RoadRashObstaclePhysicsImpactConfig_TypeDefinitionIndex = 75452;
+	inline static constexpr unsigned int RoadRashObstaclePhysicsImpactConfig_TypeDefinitionIndex = 75867;
 
 	struct alignas(8) RoadRashObstaclePhysicsImpactConfig
 	{

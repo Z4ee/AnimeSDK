@@ -4,16 +4,16 @@
 
 namespace RPG::GameCore { class GameEntity; }
 
-#define CLASS_2_31616C8D89AF6421___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBBD4D70)
-#define CLASS_2_31616C8D89AF6421___C__DISPLAYCLASS3_0__ONTASKBEGIN_B__0_OFFSET UNITYSDK_OFFSET(0xBBD58F0)
+#define CLASS_2_31616C8D89AF6421___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBA9CDC0)
+#define CLASS_2_31616C8D89AF6421___C__DISPLAYCLASS3_0__ONTASKBEGIN_B__0_OFFSET UNITYSDK_OFFSET(0xBA9D970)
 
-inline static constexpr unsigned int Class_2_31616C8D89AF6421___c__DisplayClass3_0_TypeDefinitionIndex = 52637;
+inline static constexpr unsigned int Class_2_31616C8D89AF6421___c__DisplayClass3_0_TypeDefinitionIndex = 52362;
 
 class Class_2_31616C8D89AF6421___c__DisplayClass3_0 : public ::System::Object
 {
 public:
-	::RPG::GameCore::GameEntity* source; // 0x10
-	::RPG::GameCore::GameEntity* target; // 0x18
+	::RPG::GameCore::GameEntity* target; // 0x10
+	::RPG::GameCore::GameEntity* source; // 0x18
 
 	::System::Void _ctor()
 	{

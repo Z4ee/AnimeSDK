@@ -5,9 +5,9 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define DEBUGORBITAGENTMOVE__CTOR_OFFSET UNITYSDK_OFFSET(0x12214BC0)
+#define DEBUGORBITAGENTMOVE__CTOR_OFFSET UNITYSDK_OFFSET(0x12666CA0)
 
-inline static constexpr unsigned int DebugOrbitAgentMove_TypeDefinitionIndex = 47556;
+inline static constexpr unsigned int DebugOrbitAgentMove_TypeDefinitionIndex = 47096;
 
 class DebugOrbitAgentMove : public ::UnityEngine::MonoBehaviour
 {

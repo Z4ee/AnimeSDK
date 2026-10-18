@@ -4,9 +4,9 @@
 
 namespace RPG::GameCore { class JsonEnum; }
 
-#define CLASS_1_3E2D01EE3DA54F49__CTOR_OFFSET UNITYSDK_OFFSET(0x1571F580)
+#define CLASS_1_3E2D01EE3DA54F49__CTOR_OFFSET UNITYSDK_OFFSET(0x15A03240)
 
-inline static constexpr unsigned int Class_1_3E2D01EE3DA54F49_TypeDefinitionIndex = 57913;
+inline static constexpr unsigned int Class_1_3E2D01EE3DA54F49_TypeDefinitionIndex = 57759;
 
 class Class_1_3E2D01EE3DA54F49 : public ::System::Object
 {

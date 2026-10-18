@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByCurrentRogueShopHasStage; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_DF8C8DDA500B19C9_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15368410)
-#define CLASS_3_DF8C8DDA500B19C9__CTOR_OFFSET UNITYSDK_OFFSET(0x153683E0)
+#define CLASS_3_DF8C8DDA500B19C9_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1556F9F0)
+#define CLASS_3_DF8C8DDA500B19C9__CTOR_OFFSET UNITYSDK_OFFSET(0x1556F9C0)
 
-inline static constexpr unsigned int Class_3_DF8C8DDA500B19C9_TypeDefinitionIndex = 53398;
+inline static constexpr unsigned int Class_3_DF8C8DDA500B19C9_TypeDefinitionIndex = 53141;
 
 class Class_3_DF8C8DDA500B19C9 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByCurrentRogueShopHasStage*>
 {

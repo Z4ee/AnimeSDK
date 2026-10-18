@@ -3,11 +3,11 @@
 #include "unitysdk/RPGTools/Timeline/PostProcessing/TransitionParameter.h"
 #include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_TRANSITIONTIMELINEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xE8D64A0)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_TRANSITIONTIMELINEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xE92BD40)
 
 namespace RPGTools::Timeline::PostProcessing
 {
-	inline static constexpr unsigned int TransitionTimelineBehaviour_TypeDefinitionIndex = 49079;
+	inline static constexpr unsigned int TransitionTimelineBehaviour_TypeDefinitionIndex = 48625;
 
 	class TransitionTimelineBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{

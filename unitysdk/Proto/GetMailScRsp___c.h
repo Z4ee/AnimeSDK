@@ -4,20 +4,20 @@
 
 namespace Proto { class GetMailScRsp; }
 
-#define PROTO_GETMAILSCRSP___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D95F0D0)
-#define PROTO_GETMAILSCRSP___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1D95F100)
-#define PROTO_GETMAILSCRSP___C___CCTOR_B__48_0_OFFSET UNITYSDK_OFFSET(0x1D95F110)
+#define PROTO_GETMAILSCRSP___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DFF6980)
+#define PROTO_GETMAILSCRSP___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1DFF69B0)
+#define PROTO_GETMAILSCRSP___C___CCTOR_B__48_0_OFFSET UNITYSDK_OFFSET(0x1DFF69C0)
 
 namespace Proto
 {
-	inline static constexpr unsigned int GetMailScRsp___c_TypeDefinitionIndex = 29958;
+	inline static constexpr unsigned int GetMailScRsp___c_TypeDefinitionIndex = 30487;
 
 	class GetMailScRsp___c : public ::System::Object
 	{
 	public:
 		static ::Proto::GetMailScRsp___c** StaticGet___9()
 		{
-			return (::Proto::GetMailScRsp___c**)Il2CppClass::FromTypeDefinitionIndex(GetMailScRsp___c_TypeDefinitionIndex)->GetStaticField(0x59270);
+			return (::Proto::GetMailScRsp___c**)Il2CppClass::FromTypeDefinitionIndex(GetMailScRsp___c_TypeDefinitionIndex)->GetStaticField(0x43BB0);
 		}
 
 		static ::System::Void _cctor()

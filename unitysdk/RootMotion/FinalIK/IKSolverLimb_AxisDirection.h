@@ -3,11 +3,11 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define ROOTMOTION_FINALIK_IKSOLVERLIMB_AXISDIRECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x30960)
+#define ROOTMOTION_FINALIK_IKSOLVERLIMB_AXISDIRECTION__CTOR_OFFSET UNITYSDK_OFFSET(0xCF50)
 
 namespace RootMotion::FinalIK
 {
-	inline static constexpr unsigned int IKSolverLimb_AxisDirection_TypeDefinitionIndex = 44883;
+	inline static constexpr unsigned int IKSolverLimb_AxisDirection_TypeDefinitionIndex = 46022;
 
 	struct alignas(4) IKSolverLimb_AxisDirection
 	{

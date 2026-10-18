@@ -5,12 +5,12 @@
 
 namespace System::Threading { class SynchronizationContext; }
 
-#define CYSHARP_THREADING_TASKS_RETURNTOSYNCHRONIZATIONCONTEXT_DISPOSEASYNC_OFFSET UNITYSDK_OFFSET(0x3BA96B0)
-#define CYSHARP_THREADING_TASKS_RETURNTOSYNCHRONIZATIONCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x3BA96A0)
+#define CYSHARP_THREADING_TASKS_RETURNTOSYNCHRONIZATIONCONTEXT_DISPOSEASYNC_OFFSET UNITYSDK_OFFSET(0x3C5EA80)
+#define CYSHARP_THREADING_TASKS_RETURNTOSYNCHRONIZATIONCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x3C5EA70)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int ReturnToSynchronizationContext_TypeDefinitionIndex = 42788;
+	inline static constexpr unsigned int ReturnToSynchronizationContext_TypeDefinitionIndex = 38373;
 
 	struct alignas(8) ReturnToSynchronizationContext
 	{

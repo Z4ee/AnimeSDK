@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_FIVEDIMADDMONEYACTION_METHOD_3_92F641EF45881CAA_OFFSET UNITYSDK_OFFSET(0x1D0A06A0)
-#define RPG_GAMECORE_FIVEDIMADDMONEYACTION_METHOD_3_D08C0B26602BB61C_OFFSET UNITYSDK_OFFSET(0x1D0A0750)
-#define RPG_GAMECORE_FIVEDIMADDMONEYACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0A0740)
+#define RPG_GAMECORE_FIVEDIMADDMONEYACTION_METHOD_4_3B529CDF18671659_OFFSET UNITYSDK_OFFSET(0x1D6AE6B0)
+#define RPG_GAMECORE_FIVEDIMADDMONEYACTION_METHOD_4_F23C9F14C4CF7F77_OFFSET UNITYSDK_OFFSET(0x1D6AE600)
+#define RPG_GAMECORE_FIVEDIMADDMONEYACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6AE6A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimAddMoneyAction_TypeDefinitionIndex = 18514;
+	inline static constexpr unsigned int FiveDimAddMoneyAction_TypeDefinitionIndex = 18724;
 
 	class FiveDimAddMoneyAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
@@ -22,14 +22,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMADDMONEYACTION__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_92F641EF45881CAA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimAddMoneyAction*& a2)
+		static ::System::Void Method_4_F23C9F14C4CF7F77(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimAddMoneyAction*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimAddMoneyAction*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMADDMONEYACTION_METHOD_3_92F641EF45881CAA_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimAddMoneyAction*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMADDMONEYACTION_METHOD_4_F23C9F14C4CF7F77_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_D08C0B26602BB61C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimAddMoneyAction* a2)
+		static ::System::Void Method_4_3B529CDF18671659(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimAddMoneyAction* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimAddMoneyAction*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMADDMONEYACTION_METHOD_3_D08C0B26602BB61C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimAddMoneyAction*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMADDMONEYACTION_METHOD_4_3B529CDF18671659_OFFSET))(a1, a2);
 		}
 	};
 }

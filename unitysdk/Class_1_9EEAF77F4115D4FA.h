@@ -13,46 +13,46 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Renderer; }
 
-#define CLASS_1_9EEAF77F4115D4FA_GET_ENTITY_OFFSET UNITYSDK_OFFSET(0xF4414C0)
-#define CLASS_1_9EEAF77F4115D4FA_METHOD_1_0A7450AABE61E278_OFFSET UNITYSDK_OFFSET(0xF440BC0)
-#define CLASS_1_9EEAF77F4115D4FA_METHOD_1_26607FBDCE24B1D0_OFFSET UNITYSDK_OFFSET(0xF4413C0)
-#define CLASS_1_9EEAF77F4115D4FA_METHOD_1_39E4B299C143F018_OFFSET UNITYSDK_OFFSET(0xF441030)
-#define CLASS_1_9EEAF77F4115D4FA_METHOD_1_47614828655E04EE_OFFSET UNITYSDK_OFFSET(0xF440380)
-#define CLASS_1_9EEAF77F4115D4FA_METHOD_1_627557CE4CD0ABB4_OFFSET UNITYSDK_OFFSET(0xF441250)
-#define CLASS_1_9EEAF77F4115D4FA_METHOD_1_A5015AA5634490EB_OFFSET UNITYSDK_OFFSET(0xF4412F0)
-#define CLASS_1_9EEAF77F4115D4FA_METHOD_1_DA7D5FED1E10712C_OFFSET UNITYSDK_OFFSET(0xF440E80)
-#define CLASS_1_9EEAF77F4115D4FA_SET_ENTITY_OFFSET UNITYSDK_OFFSET(0xF4414D0)
-#define CLASS_1_9EEAF77F4115D4FA__CCTOR_OFFSET UNITYSDK_OFFSET(0xF4414E0)
-#define CLASS_1_9EEAF77F4115D4FA__CTOR_OFFSET UNITYSDK_OFFSET(0xF440270)
+#define CLASS_1_9EEAF77F4115D4FA_GET_ENTITY_OFFSET UNITYSDK_OFFSET(0xF890350)
+#define CLASS_1_9EEAF77F4115D4FA_METHOD_1_0A7450AABE61E278_OFFSET UNITYSDK_OFFSET(0xF88FA50)
+#define CLASS_1_9EEAF77F4115D4FA_METHOD_1_26607FBDCE24B1D0_OFFSET UNITYSDK_OFFSET(0xF890250)
+#define CLASS_1_9EEAF77F4115D4FA_METHOD_1_39E4B299C143F018_OFFSET UNITYSDK_OFFSET(0xF88FEC0)
+#define CLASS_1_9EEAF77F4115D4FA_METHOD_1_47614828655E04EE_OFFSET UNITYSDK_OFFSET(0xF88F210)
+#define CLASS_1_9EEAF77F4115D4FA_METHOD_1_627557CE4CD0ABB4_OFFSET UNITYSDK_OFFSET(0xF8900E0)
+#define CLASS_1_9EEAF77F4115D4FA_METHOD_1_A5015AA5634490EB_OFFSET UNITYSDK_OFFSET(0xF890180)
+#define CLASS_1_9EEAF77F4115D4FA_METHOD_1_DA7D5FED1E10712C_OFFSET UNITYSDK_OFFSET(0xF88FD10)
+#define CLASS_1_9EEAF77F4115D4FA_SET_ENTITY_OFFSET UNITYSDK_OFFSET(0xF890360)
+#define CLASS_1_9EEAF77F4115D4FA__CCTOR_OFFSET UNITYSDK_OFFSET(0xF890370)
+#define CLASS_1_9EEAF77F4115D4FA__CTOR_OFFSET UNITYSDK_OFFSET(0xF88F100)
 
-inline static constexpr unsigned int Class_1_9EEAF77F4115D4FA_TypeDefinitionIndex = 55386;
+inline static constexpr unsigned int Class_1_9EEAF77F4115D4FA_TypeDefinitionIndex = 55183;
 
 class Class_1_9EEAF77F4115D4FA : public ::System::Object
 {
 public:
-	static ::System::Int32* StaticGet_LMEDHJLHMFM()
+	static ::System::Int32* StaticGet_JEJLEFAMBAK()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_9EEAF77F4115D4FA_TypeDefinitionIndex)->GetStaticField(0x7F20);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_9EEAF77F4115D4FA_TypeDefinitionIndex)->GetStaticField(0x13D00);
 	}
 	static ::System::Int32* StaticGet_KJLLAFEBBMG()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_9EEAF77F4115D4FA_TypeDefinitionIndex)->GetStaticField(0x7F24);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_9EEAF77F4115D4FA_TypeDefinitionIndex)->GetStaticField(0x13D04);
 	}
-	static ::System::Int32* StaticGet_JEJLEFAMBAK()
+	static ::System::Int32* StaticGet_LMEDHJLHMFM()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_9EEAF77F4115D4FA_TypeDefinitionIndex)->GetStaticField(0x7F28);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_9EEAF77F4115D4FA_TypeDefinitionIndex)->GetStaticField(0x13D08);
 	}
-	::Il2CppArray<::UnityEngine::Renderer*>* JEKLDIIKPLI; // 0x10
-	::RPG::GameCore::ModifierPlayerChangeEffect* DOCBCODGIEH; // 0x18
+	::System::Collections::Generic::Dictionary_2<::UnityEngine::Renderer*, ::Il2CppArray<::UnityEngine::Material*>*>* GDJKHEEEPJM; // 0x10
+	::Il2CppArray<::UnityEngine::Renderer*>* JEKLDIIKPLI; // 0x18
 	::System::Collections::Generic::Dictionary_2<::UnityEngine::Renderer*, ::Il2CppArray<::UnityEngine::Material*>*>* KFOBOAGEAML; // 0x20
-	::System::Collections::Generic::Dictionary_2<::UnityEngine::Renderer*, ::Il2CppArray<::UnityEngine::Material*>*>* GDJKHEEEPJM; // 0x28
-	::System::Collections::Generic::List_1<::UnityEngine::Material*>* OIPDNIJEMAF; // 0x30
-	::RPG::GameCore::GameEntity* _Entity_k__BackingField; // 0x38
-	::System::Single AHNCHIOFGLB; // 0x40
-	::UnityEngine::Color KAPOKDONACI; // 0x44
-	::System::Int32 GMDBHJKEAEI; // 0x54
-	::UnityEngine::Vector4 BKOECPKLOGD; // 0x58
-	::System::Single KHCBCLOMOHE; // 0x68
+	::RPG::GameCore::GameEntity* _Entity_k__BackingField; // 0x28
+	::RPG::GameCore::ModifierPlayerChangeEffect* DOCBCODGIEH; // 0x30
+	::System::Collections::Generic::List_1<::UnityEngine::Material*>* OIPDNIJEMAF; // 0x38
+	::UnityEngine::Vector4 BKOECPKLOGD; // 0x40
+	::System::Single KHCBCLOMOHE; // 0x50
+	::UnityEngine::Color KAPOKDONACI; // 0x54
+	::System::Single AHNCHIOFGLB; // 0x64
+	::System::Int32 GMDBHJKEAEI; // 0x68
 
 	::System::Void _ctor(::RPG::GameCore::ModifierPlayerChangeEffect* a1)
 	{

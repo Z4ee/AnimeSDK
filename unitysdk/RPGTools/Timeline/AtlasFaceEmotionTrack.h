@@ -7,12 +7,12 @@
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_ATLASFACEEMOTIONTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE813880)
-#define RPGTOOLS_TIMELINE_ATLASFACEEMOTIONTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xE813980)
+#define RPGTOOLS_TIMELINE_ATLASFACEEMOTIONTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8B1140)
+#define RPGTOOLS_TIMELINE_ATLASFACEEMOTIONTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xE8B1240)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int AtlasFaceEmotionTrack_TypeDefinitionIndex = 48490;
+	inline static constexpr unsigned int AtlasFaceEmotionTrack_TypeDefinitionIndex = 48030;
 
 	class AtlasFaceEmotionTrack : public ::RPGTools::Timeline::CharacterTrack
 	{

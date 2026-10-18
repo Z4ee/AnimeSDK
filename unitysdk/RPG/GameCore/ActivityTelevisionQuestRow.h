@@ -5,19 +5,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ACTIVITYTELEVISIONQUESTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CDAD6F0)
-#define RPG_GAMECORE_ACTIVITYTELEVISIONQUESTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CDADDA0)
+#define RPG_GAMECORE_ACTIVITYTELEVISIONQUESTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3827A0)
+#define RPG_GAMECORE_ACTIVITYTELEVISIONQUESTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D382E50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityTelevisionQuestRow_TypeDefinitionIndex = 12420;
+	inline static constexpr unsigned int ActivityTelevisionQuestRow_TypeDefinitionIndex = 12506;
 
 	class ActivityTelevisionQuestRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* QuestIDList; // 0x10
-		::RPG::Client::TextID TabName; // 0x18
-		::System::UInt32 QuestGroupID; // 0x28
+		::System::UInt32 QuestGroupID; // 0x18
+		::RPG::Client::TextID TabName; // 0x20
 		::RPG::Client::TextID OriginalTabName; // 0x30
 
 		::System::Void _ctor()

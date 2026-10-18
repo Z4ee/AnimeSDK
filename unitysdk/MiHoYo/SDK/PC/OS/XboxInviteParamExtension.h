@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_XBOXINVITEPARAMEXTENSION__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA38E50)
+#define MIHOYO_SDK_PC_OS_XBOXINVITEPARAMEXTENSION__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF428E0)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int XboxInviteParamExtension_TypeDefinitionIndex = 8614;
+	inline static constexpr unsigned int XboxInviteParamExtension_TypeDefinitionIndex = 8675;
 
 	class XboxInviteParamExtension : public ::System::Object
 	{

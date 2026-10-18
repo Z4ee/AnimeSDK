@@ -4,7 +4,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LRUEntity_2_TypeDefinitionIndex = 34622;
+	inline static constexpr unsigned int LRUEntity_2_TypeDefinitionIndex = 35286;
 
 	template <typename TKey, typename TValue>
 	class LRUEntity_2 : public ::System::Object

@@ -4,12 +4,12 @@
 
 class Class_1_0F76144571501212;
 
-#define RPG_CLIENT_PLAYERMEMORYRECORDDATA_SYNC_OFFSET UNITYSDK_OFFSET(0xDBA6E20)
-#define RPG_CLIENT_PLAYERMEMORYRECORDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xDBA3100)
+#define RPG_CLIENT_PLAYERMEMORYRECORDDATA_SYNC_OFFSET UNITYSDK_OFFSET(0xDBF0A90)
+#define RPG_CLIENT_PLAYERMEMORYRECORDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xDBEC040)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlayerMemoryRecordData_TypeDefinitionIndex = 64333;
+	inline static constexpr unsigned int PlayerMemoryRecordData_TypeDefinitionIndex = 64273;
 
 	class PlayerMemoryRecordData : public ::RPG::Client::PlayerChallengeRecordData
 	{

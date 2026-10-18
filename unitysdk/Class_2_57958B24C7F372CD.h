@@ -12,25 +12,25 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define CLASS_2_57958B24C7F372CD_METHOD_2_1B5CCAA3C91F67F2_OFFSET UNITYSDK_OFFSET(0xBE014E0)
-#define CLASS_2_57958B24C7F372CD_METHOD_2_EAD24AFE10569E66_OFFSET UNITYSDK_OFFSET(0xBE013A0)
-#define CLASS_2_57958B24C7F372CD__CTOR_OFFSET UNITYSDK_OFFSET(0xBE01840)
-#define CLASS_2_57958B24C7F372CD__ONBIND_OFFSET UNITYSDK_OFFSET(0xBE01210)
+#define CLASS_2_57958B24C7F372CD_METHOD_2_1B5CCAA3C91F67F2_OFFSET UNITYSDK_OFFSET(0xBDACA40)
+#define CLASS_2_57958B24C7F372CD_METHOD_2_EAD24AFE10569E66_OFFSET UNITYSDK_OFFSET(0xBDAC900)
+#define CLASS_2_57958B24C7F372CD__CTOR_OFFSET UNITYSDK_OFFSET(0xBDACD90)
+#define CLASS_2_57958B24C7F372CD__ONBIND_OFFSET UNITYSDK_OFFSET(0xBDAC770)
 
-inline static constexpr unsigned int Class_2_57958B24C7F372CD_TypeDefinitionIndex = 72226;
+inline static constexpr unsigned int Class_2_57958B24C7F372CD_TypeDefinitionIndex = 72299;
 
 class Class_2_57958B24C7F372CD : public ::Class_1_34917908B7833130
 {
 public:
 	// static const ::System::String* DJCBDJMACFH; // 0x0
-	::RPG::Client::GridFightTraitEffectConfig* HECGJKBHOMI; // 0x60
-	::System::String* CGNGHKIIGCM; // 0x68
-	::RPG::Client::AnimatorButton* NHNPPHCCPGA; // 0x70
+	::RPG::Client::GridFightTraitConfigBase* AJDMLJMMPMJ; // 0x60
+	::RPG::Client::AnimatorButton* NHNPPHCCPGA; // 0x68
+	::System::String* CGNGHKIIGCM; // 0x70
 	::System::Action_1<::System::Object*>* AMIEOPJOEIJ; // 0x78
-	::RPG::Client::GridFightTrait* ENFAMOIAMGL; // 0x80
-	::RPG::Client::GridFightTraitConfigBase* AJDMLJMMPMJ; // 0x88
-	::RPG::GameCore::BattleGridFightTeamTraitData* NHDBMHJLKNF; // 0x90
-	::System::String* IIFENECAOBG; // 0x98
+	::RPG::GameCore::BattleGridFightTeamTraitData* NHDBMHJLKNF; // 0x80
+	::RPG::Client::GridFightTraitEffectConfig* HECGJKBHOMI; // 0x88
+	::System::String* IIFENECAOBG; // 0x90
+	::RPG::Client::GridFightTrait* ENFAMOIAMGL; // 0x98
 
 	::System::Void _ctor()
 	{

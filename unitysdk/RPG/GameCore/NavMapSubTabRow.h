@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_NAVMAPSUBTABROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D2F15F0)
-#define RPG_GAMECORE_NAVMAPSUBTABROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2F1C20)
+#define RPG_GAMECORE_NAVMAPSUBTABROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D8D3EE0)
+#define RPG_GAMECORE_NAVMAPSUBTABROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D8D4510)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int NavMapSubTabRow_TypeDefinitionIndex = 13897;
+	inline static constexpr unsigned int NavMapSubTabRow_TypeDefinitionIndex = 14004;
 
 	class NavMapSubTabRow : public ::System::Object
 	{

@@ -6,10 +6,10 @@
 namespace RPG::GameCore { class SetDynamicValueByPreCalcStanceDamage; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_DC43B236C49374BE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x159A70F0)
-#define CLASS_3_DC43B236C49374BE__CTOR_OFFSET UNITYSDK_OFFSET(0x159A7010)
+#define CLASS_3_DC43B236C49374BE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15CB10C0)
+#define CLASS_3_DC43B236C49374BE__CTOR_OFFSET UNITYSDK_OFFSET(0x15CB0FE0)
 
-inline static constexpr unsigned int Class_3_DC43B236C49374BE_TypeDefinitionIndex = 55650;
+inline static constexpr unsigned int Class_3_DC43B236C49374BE_TypeDefinitionIndex = 55458;
 
 class Class_3_DC43B236C49374BE : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetDynamicValueByPreCalcStanceDamage*>
 {

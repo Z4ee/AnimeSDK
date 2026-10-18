@@ -10,7 +10,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int EnumerableAsyncExtensions_TypeDefinitionIndex = 42567;
+	inline static constexpr unsigned int EnumerableAsyncExtensions_TypeDefinitionIndex = 38152;
 
 	class EnumerableAsyncExtensions : public ::System::Object
 	{

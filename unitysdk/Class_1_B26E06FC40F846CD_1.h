@@ -2,96 +2,96 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_A952181C6CF1F2FF;
+class Class_1_426391BD841CEF9C;
+class Class_1_84DA91D3CFCB2E68;
+class Class_1_A8AC1AB191A5FBF8;
+class Class_1_B9D6E7E76075C6E2_2;
+class Class_1_FF80A1ACD786CECB_9;
 
-#define CLASS_1_B26E06FC40F846CD_1_GET_CHALLENGEBESTTIME_OFFSET UNITYSDK_OFFSET(0x158B5EA0)
-#define CLASS_1_B26E06FC40F846CD_1_GET_FINISHEDMATCHNUM_OFFSET UNITYSDK_OFFSET(0x158B5E40)
-#define CLASS_1_B26E06FC40F846CD_1_GET_ISCYCLEFINISHED_OFFSET UNITYSDK_OFFSET(0x158B5E60)
-#define CLASS_1_B26E06FC40F846CD_1_GET_MATCHID_OFFSET UNITYSDK_OFFSET(0x158B5E00)
-#define CLASS_1_B26E06FC40F846CD_1_GET_NEXTAGENDADTO_OFFSET UNITYSDK_OFFSET(0x158B5E80)
-#define CLASS_1_B26E06FC40F846CD_1_GET_TRACKID_OFFSET UNITYSDK_OFFSET(0x158B5E20)
-#define CLASS_1_B26E06FC40F846CD_1_SET_CHALLENGEBESTTIME_OFFSET UNITYSDK_OFFSET(0x158B5EB0)
-#define CLASS_1_B26E06FC40F846CD_1_SET_FINISHEDMATCHNUM_OFFSET UNITYSDK_OFFSET(0x158B5E50)
-#define CLASS_1_B26E06FC40F846CD_1_SET_ISCYCLEFINISHED_OFFSET UNITYSDK_OFFSET(0x158B5E70)
-#define CLASS_1_B26E06FC40F846CD_1_SET_MATCHID_OFFSET UNITYSDK_OFFSET(0x158B5E10)
-#define CLASS_1_B26E06FC40F846CD_1_SET_NEXTAGENDADTO_OFFSET UNITYSDK_OFFSET(0x158B5E90)
-#define CLASS_1_B26E06FC40F846CD_1_SET_TRACKID_OFFSET UNITYSDK_OFFSET(0x158B5E30)
-#define CLASS_1_B26E06FC40F846CD_1__CTOR_OFFSET UNITYSDK_OFFSET(0x158B5EC0)
+#define CLASS_1_B26E06FC40F846CD_1_GET_BATTLEDECKID_OFFSET UNITYSDK_OFFSET(0x12678850)
+#define CLASS_1_B26E06FC40F846CD_1_GET_CARDGAMESTATE_OFFSET UNITYSDK_OFFSET(0x12678880)
+#define CLASS_1_B26E06FC40F846CD_1_GET_DAMAGESTATISTICSSTATE_OFFSET UNITYSDK_OFFSET(0x126788A0)
+#define CLASS_1_B26E06FC40F846CD_1_GET_ENEMYSTATE_OFFSET UNITYSDK_OFFSET(0x12678890)
+#define CLASS_1_B26E06FC40F846CD_1_GET_FRIENDSTATE_OFFSET UNITYSDK_OFFSET(0x12678870)
+#define CLASS_1_B26E06FC40F846CD_1_GET_ISPLAYERACTION_OFFSET UNITYSDK_OFFSET(0x12678810)
+#define CLASS_1_B26E06FC40F846CD_1_GET_WAITINGULTRAORDERAVATARID_OFFSET UNITYSDK_OFFSET(0x12678830)
+#define CLASS_1_B26E06FC40F846CD_1_GET_WAVEINFOSTATE_OFFSET UNITYSDK_OFFSET(0x126788B0)
+#define CLASS_1_B26E06FC40F846CD_1_SET_BATTLEDECKID_OFFSET UNITYSDK_OFFSET(0x12678860)
+#define CLASS_1_B26E06FC40F846CD_1_SET_ISPLAYERACTION_OFFSET UNITYSDK_OFFSET(0x12678820)
+#define CLASS_1_B26E06FC40F846CD_1_SET_WAITINGULTRAORDERAVATARID_OFFSET UNITYSDK_OFFSET(0x12678840)
+#define CLASS_1_B26E06FC40F846CD_1__CTOR_OFFSET UNITYSDK_OFFSET(0x126788C0)
 
-inline static constexpr unsigned int Class_1_B26E06FC40F846CD_1_TypeDefinitionIndex = 80608;
+inline static constexpr unsigned int Class_1_B26E06FC40F846CD_1_TypeDefinitionIndex = 80822;
 
 class Class_1_B26E06FC40F846CD_1 : public ::System::Object
 {
 public:
-	::Class_1_A952181C6CF1F2FF* _NextAgendaDto_k__BackingField; // 0x10
-	::System::UInt32 _FinishedMatchNum_k__BackingField; // 0x18
-	::System::UInt32 _MatchId_k__BackingField; // 0x1C
-	::System::UInt32 _TrackId_k__BackingField; // 0x20
-	::System::UInt32 _ChallengeBestTime_k__BackingField; // 0x24
-	::System::Boolean _IsCycleFinished_k__BackingField; // 0x28
+	::Class_1_FF80A1ACD786CECB_9* _WaveInfoState_k__BackingField; // 0x10
+	::Class_1_84DA91D3CFCB2E68* _FriendState_k__BackingField; // 0x18
+	::Class_1_A8AC1AB191A5FBF8* _DamageStatisticsState_k__BackingField; // 0x20
+	::Class_1_426391BD841CEF9C* _CardGameState_k__BackingField; // 0x28
+	::Class_1_B9D6E7E76075C6E2_2* _EnemyState_k__BackingField; // 0x30
+	::System::Boolean _IsPlayerAction_k__BackingField; // 0x38
+	::System::UInt32 _BattleDeckID_k__BackingField; // 0x3C
+	::System::UInt32 _WaitingUltraOrderAvatarID_k__BackingField; // 0x40
 
 	::System::Void _ctor()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_B26E06FC40F846CD_1__CTOR_OFFSET))(this);
 	}
 
-	::System::UInt32 get_MatchId()
+	::System::Boolean get_IsPlayerAction()
 	{
-		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_B26E06FC40F846CD_1_GET_MATCHID_OFFSET))(this);
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_B26E06FC40F846CD_1_GET_ISPLAYERACTION_OFFSET))(this);
 	}
 
-	::System::Void set_MatchId(::System::UInt32 a1)
+	::System::Void set_IsPlayerAction(::System::Boolean a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_B26E06FC40F846CD_1_SET_MATCHID_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_B26E06FC40F846CD_1_SET_ISPLAYERACTION_OFFSET))(this, a1);
 	}
 
-	::System::UInt32 get_TrackId()
+	::System::UInt32 get_WaitingUltraOrderAvatarID()
 	{
-		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_B26E06FC40F846CD_1_GET_TRACKID_OFFSET))(this);
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_B26E06FC40F846CD_1_GET_WAITINGULTRAORDERAVATARID_OFFSET))(this);
 	}
 
-	::System::Void set_TrackId(::System::UInt32 a1)
+	::System::Void set_WaitingUltraOrderAvatarID(::System::UInt32 a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_B26E06FC40F846CD_1_SET_TRACKID_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_B26E06FC40F846CD_1_SET_WAITINGULTRAORDERAVATARID_OFFSET))(this, a1);
 	}
 
-	::System::UInt32 get_FinishedMatchNum()
+	::System::UInt32 get_BattleDeckID()
 	{
-		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_B26E06FC40F846CD_1_GET_FINISHEDMATCHNUM_OFFSET))(this);
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_B26E06FC40F846CD_1_GET_BATTLEDECKID_OFFSET))(this);
 	}
 
-	::System::Void set_FinishedMatchNum(::System::UInt32 a1)
+	::System::Void set_BattleDeckID(::System::UInt32 a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_B26E06FC40F846CD_1_SET_FINISHEDMATCHNUM_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_B26E06FC40F846CD_1_SET_BATTLEDECKID_OFFSET))(this, a1);
 	}
 
-	::System::Boolean get_IsCycleFinished()
+	::Class_1_84DA91D3CFCB2E68* get_FriendState()
 	{
-		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_B26E06FC40F846CD_1_GET_ISCYCLEFINISHED_OFFSET))(this);
+		return ((::Class_1_84DA91D3CFCB2E68*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_B26E06FC40F846CD_1_GET_FRIENDSTATE_OFFSET))(this);
 	}
 
-	::System::Void set_IsCycleFinished(::System::Boolean a1)
+	::Class_1_426391BD841CEF9C* get_CardGameState()
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_B26E06FC40F846CD_1_SET_ISCYCLEFINISHED_OFFSET))(this, a1);
+		return ((::Class_1_426391BD841CEF9C*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_B26E06FC40F846CD_1_GET_CARDGAMESTATE_OFFSET))(this);
 	}
 
-	::Class_1_A952181C6CF1F2FF* get_NextAgendaDto()
+	::Class_1_B9D6E7E76075C6E2_2* get_EnemyState()
 	{
-		return ((::Class_1_A952181C6CF1F2FF*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_B26E06FC40F846CD_1_GET_NEXTAGENDADTO_OFFSET))(this);
+		return ((::Class_1_B9D6E7E76075C6E2_2*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_B26E06FC40F846CD_1_GET_ENEMYSTATE_OFFSET))(this);
 	}
 
-	::System::Void set_NextAgendaDto(::Class_1_A952181C6CF1F2FF* a1)
+	::Class_1_A8AC1AB191A5FBF8* get_DamageStatisticsState()
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_1_A952181C6CF1F2FF*))((::PBYTE)hIl2Cpp + CLASS_1_B26E06FC40F846CD_1_SET_NEXTAGENDADTO_OFFSET))(this, a1);
+		return ((::Class_1_A8AC1AB191A5FBF8*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_B26E06FC40F846CD_1_GET_DAMAGESTATISTICSSTATE_OFFSET))(this);
 	}
 
-	::System::UInt32 get_ChallengeBestTime()
+	::Class_1_FF80A1ACD786CECB_9* get_WaveInfoState()
 	{
-		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_B26E06FC40F846CD_1_GET_CHALLENGEBESTTIME_OFFSET))(this);
-	}
-
-	::System::Void set_ChallengeBestTime(::System::UInt32 a1)
-	{
-		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_B26E06FC40F846CD_1_SET_CHALLENGEBESTTIME_OFFSET))(this, a1);
+		return ((::Class_1_FF80A1ACD786CECB_9*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_B26E06FC40F846CD_1_GET_WAVEINFOSTATE_OFFSET))(this);
 	}
 };

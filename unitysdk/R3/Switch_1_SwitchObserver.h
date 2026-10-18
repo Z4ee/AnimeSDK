@@ -8,7 +8,7 @@ namespace System { class Exception; }
 
 namespace R3
 {
-	inline static constexpr unsigned int Switch_1_SwitchObserver_TypeDefinitionIndex = 35273;
+	inline static constexpr unsigned int Switch_1_SwitchObserver_TypeDefinitionIndex = 35955;
 
 	template <typename T>
 	class Switch_1_SwitchObserver : public ::R3::Observer_1<T>

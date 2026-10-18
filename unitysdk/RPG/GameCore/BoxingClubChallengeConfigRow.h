@@ -9,32 +9,32 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_BOXINGCLUBCHALLENGECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CE91D60)
-#define RPG_GAMECORE_BOXINGCLUBCHALLENGECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE927D0)
+#define RPG_GAMECORE_BOXINGCLUBCHALLENGECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D47A4B0)
+#define RPG_GAMECORE_BOXINGCLUBCHALLENGECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D47AF20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BoxingClubChallengeConfigRow_TypeDefinitionIndex = 12808;
+	inline static constexpr unsigned int BoxingClubChallengeConfigRow_TypeDefinitionIndex = 12914;
 
 	class BoxingClubChallengeConfigRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* StageGroupList; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* StageBuffAndGroupMap; // 0x10
 		::System::String* IconPath; // 0x18
-		::Il2CppArray<::RPG::GameCore::AttackDamageType>* DamageType; // 0x20
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* StageBuffAndGroupMap; // 0x28
-		::Il2CppArray<::System::UInt32>* SpecialAvatarIDList; // 0x30
-		::System::UInt32 PreChallengeID; // 0x38
-		::System::UInt32 FirstPassRewardID; // 0x3C
-		::System::UInt32 ChallengeID; // 0x40
-		::System::UInt32 ChallengeTurnLimit; // 0x44
+		::Il2CppArray<::System::UInt32>* StageGroupList; // 0x20
+		::Il2CppArray<::System::UInt32>* SpecialAvatarIDList; // 0x28
+		::Il2CppArray<::RPG::GameCore::AttackDamageType>* DamageType; // 0x30
+		::RPG::GameCore::BoxingClubActivityType Type; // 0x38
+		::System::UInt32 ChallengeTurnLimit; // 0x3C
+		::System::UInt32 PerfectTurn; // 0x40
+		::System::UInt32 SpecialAvatarActivityModule; // 0x44
 		::System::Boolean IsSpecialChallenge; // 0x48
-		::System::UInt32 SpecialAvatarActivityModule; // 0x4C
-		::RPG::Client::TextID ChallengeTip; // 0x50
-		::System::UInt32 PerfectTurn; // 0x60
-		::System::UInt32 ChallengeBuff; // 0x64
-		::System::UInt32 ActivityModuleID; // 0x68
-		::RPG::GameCore::BoxingClubActivityType Type; // 0x6C
+		::System::UInt32 ActivityModuleID; // 0x4C
+		::System::UInt32 ChallengeID; // 0x50
+		::System::UInt32 ChallengeBuff; // 0x54
+		::RPG::Client::TextID ChallengeTip; // 0x58
+		::System::UInt32 PreChallengeID; // 0x68
+		::System::UInt32 FirstPassRewardID; // 0x6C
 		::RPG::Client::TextID Name; // 0x70
 
 		::System::Void _ctor()

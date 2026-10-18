@@ -10,12 +10,12 @@ namespace RPG::GameCore { class DistrictAudioRTPCConfig; }
 namespace RPG::GameCore { class DynamicLoadBlockData; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_UNIFIEDBATTLEAREACONFIG_METHOD_2_FD408B355B224B38_OFFSET UNITYSDK_OFFSET(0x1D61E620)
-#define RPG_GAMECORE_UNIFIEDBATTLEAREACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D61E9B0)
+#define RPG_GAMECORE_UNIFIEDBATTLEAREACONFIG_METHOD_2_04E4E1DF256E7D32_OFFSET UNITYSDK_OFFSET(0x1DC72860)
+#define RPG_GAMECORE_UNIFIEDBATTLEAREACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1DC72C70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int UnifiedBattleAreaConfig_TypeDefinitionIndex = 17227;
+	inline static constexpr unsigned int UnifiedBattleAreaConfig_TypeDefinitionIndex = 17423;
 
 	class UnifiedBattleAreaConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -36,9 +36,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UNIFIEDBATTLEAREACONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_FD408B355B224B38(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::UnifiedBattleAreaConfig*& a2)
+		static ::System::Void Method_2_04E4E1DF256E7D32(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::UnifiedBattleAreaConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::UnifiedBattleAreaConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UNIFIEDBATTLEAREACONFIG_METHOD_2_FD408B355B224B38_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::UnifiedBattleAreaConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UNIFIEDBATTLEAREACONFIG_METHOD_2_04E4E1DF256E7D32_OFFSET))(a1, a2);
 		}
 	};
 }

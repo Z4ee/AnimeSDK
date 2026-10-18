@@ -7,13 +7,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicJsonList; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MODIFYAUDIENCEGROUPANIMTYPE_METHOD_3_D4B6DC0477BD9835_OFFSET UNITYSDK_OFFSET(0x1D2AEDC0)
-#define RPG_GAMECORE_MODIFYAUDIENCEGROUPANIMTYPE_METHOD_3_F1E5F8BB9379CC4C_OFFSET UNITYSDK_OFFSET(0x1D2AED80)
-#define RPG_GAMECORE_MODIFYAUDIENCEGROUPANIMTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2AEDB0)
+#define RPG_GAMECORE_MODIFYAUDIENCEGROUPANIMTYPE_METHOD_3_6978306236A0C3BA_OFFSET UNITYSDK_OFFSET(0x1D890E30)
+#define RPG_GAMECORE_MODIFYAUDIENCEGROUPANIMTYPE_METHOD_3_F4D77E6C732F5DA3_OFFSET UNITYSDK_OFFSET(0x1D890E70)
+#define RPG_GAMECORE_MODIFYAUDIENCEGROUPANIMTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D890E60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ModifyAudienceGroupAnimType_TypeDefinitionIndex = 21632;
+	inline static constexpr unsigned int ModifyAudienceGroupAnimType_TypeDefinitionIndex = 21880;
 
 	class ModifyAudienceGroupAnimType : public ::RPG::GameCore::TaskConfig
 	{
@@ -27,14 +27,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFYAUDIENCEGROUPANIMTYPE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_F1E5F8BB9379CC4C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ModifyAudienceGroupAnimType*& a2)
+		static ::System::Void Method_3_6978306236A0C3BA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ModifyAudienceGroupAnimType*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ModifyAudienceGroupAnimType*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFYAUDIENCEGROUPANIMTYPE_METHOD_3_F1E5F8BB9379CC4C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ModifyAudienceGroupAnimType*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFYAUDIENCEGROUPANIMTYPE_METHOD_3_6978306236A0C3BA_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_D4B6DC0477BD9835(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ModifyAudienceGroupAnimType* a2)
+		static ::System::Void Method_3_F4D77E6C732F5DA3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ModifyAudienceGroupAnimType* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ModifyAudienceGroupAnimType*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFYAUDIENCEGROUPANIMTYPE_METHOD_3_D4B6DC0477BD9835_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ModifyAudienceGroupAnimType*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFYAUDIENCEGROUPANIMTYPE_METHOD_3_F4D77E6C732F5DA3_OFFSET))(a1, a2);
 		}
 	};
 }

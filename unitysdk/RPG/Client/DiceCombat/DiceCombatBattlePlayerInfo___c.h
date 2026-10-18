@@ -5,24 +5,24 @@
 class Class_1_D508B1981C147C96;
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLEPLAYERINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xCCCA930)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLEPLAYERINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0xCCCA970)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLEPLAYERINFO___C__HASROLLEDDICERESULT_B__25_0_OFFSET UNITYSDK_OFFSET(0xCCCA980)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLEPLAYERINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xCC1DD60)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLEPLAYERINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0xCC1DDA0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLEPLAYERINFO___C__HASROLLEDDICERESULT_B__25_0_OFFSET UNITYSDK_OFFSET(0xCC1DDB0)
 
 namespace RPG::Client::DiceCombat
 {
-	inline static constexpr unsigned int DiceCombatBattlePlayerInfo___c_TypeDefinitionIndex = 75568;
+	inline static constexpr unsigned int DiceCombatBattlePlayerInfo___c_TypeDefinitionIndex = 76045;
 
 	class DiceCombatBattlePlayerInfo___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::Class_1_D508B1981C147C96*, ::System::Boolean>** StaticGet___9__25_0()
-		{
-			return (::System::Func_2<::Class_1_D508B1981C147C96*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(DiceCombatBattlePlayerInfo___c_TypeDefinitionIndex)->GetStaticField(0x5DC60);
-		}
 		static ::RPG::Client::DiceCombat::DiceCombatBattlePlayerInfo___c** StaticGet___9()
 		{
-			return (::RPG::Client::DiceCombat::DiceCombatBattlePlayerInfo___c**)Il2CppClass::FromTypeDefinitionIndex(DiceCombatBattlePlayerInfo___c_TypeDefinitionIndex)->GetStaticField(0x5DC68);
+			return (::RPG::Client::DiceCombat::DiceCombatBattlePlayerInfo___c**)Il2CppClass::FromTypeDefinitionIndex(DiceCombatBattlePlayerInfo___c_TypeDefinitionIndex)->GetStaticField(0x25200);
+		}
+		static ::System::Func_2<::Class_1_D508B1981C147C96*, ::System::Boolean>** StaticGet___9__25_0()
+		{
+			return (::System::Func_2<::Class_1_D508B1981C147C96*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(DiceCombatBattlePlayerInfo___c_TypeDefinitionIndex)->GetStaticField(0x25208);
 		}
 
 		static ::System::Void _cctor()

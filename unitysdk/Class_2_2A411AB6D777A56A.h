@@ -1,29 +1,29 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_FD893FD36F6A3A6D_2.h"
+#include "unitysdk/Class_1_FD893FD36F6A3A6D_4.h"
 #include "unitysdk/RPG/Client/LittleGame/MovieAchievementType.h"
 
 class Class_1_D33B7D6901AE39E9;
 namespace RPG::Client { class AchievementData; }
 namespace RPG::GameCore { class MovieGameConstConfig; }
 
-#define CLASS_2_2A411AB6D777A56A_METHOD_2_F8EC267083B75509_OFFSET UNITYSDK_OFFSET(0x155F4680)
-#define CLASS_2_2A411AB6D777A56A__CTOR_OFFSET UNITYSDK_OFFSET(0x155F4500)
+#define CLASS_2_2A411AB6D777A56A_METHOD_2_F8EC267083B75509_OFFSET UNITYSDK_OFFSET(0x15910060)
+#define CLASS_2_2A411AB6D777A56A__CTOR_OFFSET UNITYSDK_OFFSET(0x1590FEE0)
 
-inline static constexpr unsigned int Class_2_2A411AB6D777A56A_TypeDefinitionIndex = 76124;
+inline static constexpr unsigned int Class_2_2A411AB6D777A56A_TypeDefinitionIndex = 76601;
 
-class Class_2_2A411AB6D777A56A : public ::Class_1_FD893FD36F6A3A6D_2
+class Class_2_2A411AB6D777A56A : public ::Class_1_FD893FD36F6A3A6D_4
 {
 public:
-	::RPG::Client::AchievementData* GKMPLOCPNML; // 0x18
+	::RPG::GameCore::MovieGameConstConfig* POIDJMHLKJN; // 0x18
 	::RPG::Client::AchievementData* ECIKBNDOLIE; // 0x20
-	::RPG::Client::AchievementData* LFEONCLDPNC; // 0x28
-	::RPG::Client::AchievementData* FGGMNKBLPEK; // 0x30
-	::RPG::GameCore::MovieGameConstConfig* POIDJMHLKJN; // 0x38
-	::RPG::Client::AchievementData* PEJCKNIOJAP; // 0x40
-	::RPG::Client::AchievementData* LPEJGOIKMBA; // 0x48
-	::RPG::Client::AchievementData* JCCAJEIKLLI; // 0x50
-	::RPG::Client::AchievementData* FJBMPELICHA; // 0x58
+	::RPG::Client::AchievementData* FGGMNKBLPEK; // 0x28
+	::RPG::Client::AchievementData* GKMPLOCPNML; // 0x30
+	::RPG::Client::AchievementData* PEJCKNIOJAP; // 0x38
+	::RPG::Client::AchievementData* FJBMPELICHA; // 0x40
+	::RPG::Client::AchievementData* LFEONCLDPNC; // 0x48
+	::RPG::Client::AchievementData* LPEJGOIKMBA; // 0x50
+	::RPG::Client::AchievementData* JCCAJEIKLLI; // 0x58
 
 	::System::Void _ctor(::Class_1_D33B7D6901AE39E9* a1, ::RPG::GameCore::MovieGameConstConfig* a2)
 	{

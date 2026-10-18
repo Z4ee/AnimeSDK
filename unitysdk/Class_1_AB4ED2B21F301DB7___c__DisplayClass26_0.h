@@ -4,10 +4,10 @@
 
 namespace RPG::Client::LimaoNews { class LimaoNewsEmployeeCheckData; }
 
-#define CLASS_1_AB4ED2B21F301DB7___C__DISPLAYCLASS26_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB54CC10)
-#define CLASS_1_AB4ED2B21F301DB7___C__DISPLAYCLASS26_0___PICKLEAVEEMPLOYEE_B__1_OFFSET UNITYSDK_OFFSET(0xB54DA10)
+#define CLASS_1_AB4ED2B21F301DB7___C__DISPLAYCLASS26_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB38E220)
+#define CLASS_1_AB4ED2B21F301DB7___C__DISPLAYCLASS26_0___PICKLEAVEEMPLOYEE_B__1_OFFSET UNITYSDK_OFFSET(0xB38F050)
 
-inline static constexpr unsigned int Class_1_AB4ED2B21F301DB7___c__DisplayClass26_0_TypeDefinitionIndex = 78993;
+inline static constexpr unsigned int Class_1_AB4ED2B21F301DB7___c__DisplayClass26_0_TypeDefinitionIndex = 80316;
 
 class Class_1_AB4ED2B21F301DB7___c__DisplayClass26_0 : public ::System::Object
 {

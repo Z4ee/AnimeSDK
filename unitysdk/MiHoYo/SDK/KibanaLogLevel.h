@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int KibanaLogLevel_TypeDefinitionIndex = 7518;
+	inline static constexpr unsigned int KibanaLogLevel_TypeDefinitionIndex = 7572;
 
 	enum class KibanaLogLevel : ::System::Int32
 	{

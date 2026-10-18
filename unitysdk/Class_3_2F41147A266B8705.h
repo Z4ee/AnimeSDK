@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SwitchMascotTriggerUIShootEffect; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_2F41147A266B8705_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15623930)
-#define CLASS_3_2F41147A266B8705__CTOR_OFFSET UNITYSDK_OFFSET(0x15623900)
+#define CLASS_3_2F41147A266B8705_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x159410C0)
+#define CLASS_3_2F41147A266B8705__CTOR_OFFSET UNITYSDK_OFFSET(0x15941090)
 
-inline static constexpr unsigned int Class_3_2F41147A266B8705_TypeDefinitionIndex = 58900;
+inline static constexpr unsigned int Class_3_2F41147A266B8705_TypeDefinitionIndex = 58752;
 
 class Class_3_2F41147A266B8705 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SwitchMascotTriggerUIShootEffect*>
 {

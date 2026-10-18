@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CombatPowerLightconeRarityType_TypeDefinitionIndex = 10460;
+	inline static constexpr unsigned int CombatPowerLightconeRarityType_TypeDefinitionIndex = 10475;
 
 	enum class CombatPowerLightconeRarityType : ::System::Int32
 	{

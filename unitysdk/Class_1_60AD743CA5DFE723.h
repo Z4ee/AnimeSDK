@@ -3,21 +3,21 @@
 #include "unitysdk/RPG/Client/LittleGame/ChenLing/ChenLingAIState.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_147;
-class Class_0_16E4307DCC419505_148;
+class Class_0_16E4307DCC419505_257;
+class Class_0_16E4307DCC419505_258;
 
-#define CLASS_1_60AD743CA5DFE723__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4DD160)
+#define CLASS_1_60AD743CA5DFE723__CTOR_OFFSET UNITYSDK_OFFSET(0x1CA50760)
 
-inline static constexpr unsigned int Class_1_60AD743CA5DFE723_TypeDefinitionIndex = 42082;
+inline static constexpr unsigned int Class_1_60AD743CA5DFE723_TypeDefinitionIndex = 43724;
 
 class Class_1_60AD743CA5DFE723 : public ::System::Object
 {
 public:
-	::Class_0_16E4307DCC419505_148* FKIBGPJNCIJ; // 0x10
-	::Class_0_16E4307DCC419505_147* LAEFPCAIHEJ; // 0x18
+	::Class_0_16E4307DCC419505_257* LAEFPCAIHEJ; // 0x10
+	::Class_0_16E4307DCC419505_258* FKIBGPJNCIJ; // 0x18
 	::System::Single NAJMCEJEHDC; // 0x20
-	::RPG::Client::LittleGame::ChenLing::ChenLingAIState MEPFOEEGBEA; // 0x24
-	::System::Int32 IKCBJEIEJGC; // 0x28
+	::System::Int32 IKCBJEIEJGC; // 0x24
+	::RPG::Client::LittleGame::ChenLing::ChenLingAIState MEPFOEEGBEA; // 0x28
 
 	::System::Void _ctor()
 	{

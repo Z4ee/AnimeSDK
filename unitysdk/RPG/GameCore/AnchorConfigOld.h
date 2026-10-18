@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ANCHORCONFIGOLD_METHOD_2_5A90264E9E0C7380_OFFSET UNITYSDK_OFFSET(0x1CE1C170)
-#define RPG_GAMECORE_ANCHORCONFIGOLD__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE1C1B0)
+#define RPG_GAMECORE_ANCHORCONFIGOLD_METHOD_2_5A90264E9E0C7380_OFFSET UNITYSDK_OFFSET(0x1D3F23D0)
+#define RPG_GAMECORE_ANCHORCONFIGOLD__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3F2410)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AnchorConfigOld_TypeDefinitionIndex = 18106;
+	inline static constexpr unsigned int AnchorConfigOld_TypeDefinitionIndex = 18321;
 
 	class AnchorConfigOld : public ::RPG::GameCore::JsonConfig
 	{

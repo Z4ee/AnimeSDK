@@ -7,19 +7,19 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class MeshRenderer; }
 
-#define SCENENLIGHTMANAGER_MESHRENDEREXPORTDATA___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0xE910700)
-#define SCENENLIGHTMANAGER_MESHRENDEREXPORTDATA___C__DISPLAYCLASS9_0__TOMESHRENDER_B__0_OFFSET UNITYSDK_OFFSET(0xE910790)
+#define SCENENLIGHTMANAGER_MESHRENDEREXPORTDATA___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0xE966230)
+#define SCENENLIGHTMANAGER_MESHRENDEREXPORTDATA___C__DISPLAYCLASS9_0__TOMESHRENDER_B__0_OFFSET UNITYSDK_OFFSET(0xE9662C0)
 
 namespace ScenenLightManager
 {
-	inline static constexpr unsigned int MeshRenderExportData___c__DisplayClass9_0_TypeDefinitionIndex = 49573;
+	inline static constexpr unsigned int MeshRenderExportData___c__DisplayClass9_0_TypeDefinitionIndex = 49147;
 
 	class MeshRenderExportData___c__DisplayClass9_0 : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::Material*>* mats; // 0x10
-		::UnityEngine::MeshRenderer* mr; // 0x18
-		::System::Action_1<::UnityEngine::Material*>* __9__0; // 0x20
+		::System::Action_1<::UnityEngine::Material*>* __9__0; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::Material*>* mats; // 0x18
+		::UnityEngine::MeshRenderer* mr; // 0x20
 		::System::Int32 counter; // 0x28
 		::System::Int32 i; // 0x2C
 

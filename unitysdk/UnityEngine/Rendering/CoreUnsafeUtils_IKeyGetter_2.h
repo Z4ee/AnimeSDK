@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int CoreUnsafeUtils_IKeyGetter_2_TypeDefinitionIndex = 34808;
+	inline static constexpr unsigned int CoreUnsafeUtils_IKeyGetter_2_TypeDefinitionIndex = 35477;
 
 	template <typename TValue, typename TKey>
 	class CoreUnsafeUtils_IKeyGetter_2

@@ -4,24 +4,24 @@
 
 namespace System { template <typename T> class Action_1; }
 
-#define CYSHARP_THREADING_TASKS_LINQ_TIMERFRAME__TIMERFRAME___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EA49270)
-#define CYSHARP_THREADING_TASKS_LINQ_TIMERFRAME__TIMERFRAME___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA492B0)
-#define CYSHARP_THREADING_TASKS_LINQ_TIMERFRAME__TIMERFRAME___C___CTOR_B__9_0_OFFSET UNITYSDK_OFFSET(0x1EA492C0)
+#define CYSHARP_THREADING_TASKS_LINQ_TIMERFRAME__TIMERFRAME___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F110C00)
+#define CYSHARP_THREADING_TASKS_LINQ_TIMERFRAME__TIMERFRAME___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1F110C40)
+#define CYSHARP_THREADING_TASKS_LINQ_TIMERFRAME__TIMERFRAME___C___CTOR_B__9_0_OFFSET UNITYSDK_OFFSET(0x1F110C50)
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int TimerFrame__TimerFrame___c_TypeDefinitionIndex = 44587;
+	inline static constexpr unsigned int TimerFrame__TimerFrame___c_TypeDefinitionIndex = 45726;
 
 	class TimerFrame__TimerFrame___c : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::System::Object*>** StaticGet___9__9_0()
-		{
-			return (::System::Action_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(TimerFrame__TimerFrame___c_TypeDefinitionIndex)->GetStaticField(0x14F0);
-		}
 		static ::Cysharp::Threading::Tasks::Linq::TimerFrame__TimerFrame___c** StaticGet___9()
 		{
-			return (::Cysharp::Threading::Tasks::Linq::TimerFrame__TimerFrame___c**)Il2CppClass::FromTypeDefinitionIndex(TimerFrame__TimerFrame___c_TypeDefinitionIndex)->GetStaticField(0x14F8);
+			return (::Cysharp::Threading::Tasks::Linq::TimerFrame__TimerFrame___c**)Il2CppClass::FromTypeDefinitionIndex(TimerFrame__TimerFrame___c_TypeDefinitionIndex)->GetStaticField(0x11C0);
+		}
+		static ::System::Action_1<::System::Object*>** StaticGet___9__9_0()
+		{
+			return (::System::Action_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(TimerFrame__TimerFrame___c_TypeDefinitionIndex)->GetStaticField(0x11C8);
 		}
 
 		static ::System::Void _cctor()

@@ -4,17 +4,17 @@
 
 namespace RPG::Client { class GridFightGameRefData; }
 
-#define CLASS_1_30700BDD5BCB4E91_METHOD_1_DEA11431BE9F8B28_OFFSET UNITYSDK_OFFSET(0x15A35240)
-#define CLASS_1_30700BDD5BCB4E91__CTOR_OFFSET UNITYSDK_OFFSET(0x15A35030)
+#define CLASS_1_30700BDD5BCB4E91_METHOD_1_DEA11431BE9F8B28_OFFSET UNITYSDK_OFFSET(0x15D463D0)
+#define CLASS_1_30700BDD5BCB4E91__CTOR_OFFSET UNITYSDK_OFFSET(0x15D461C0)
 
-inline static constexpr unsigned int Class_1_30700BDD5BCB4E91_TypeDefinitionIndex = 64816;
+inline static constexpr unsigned int Class_1_30700BDD5BCB4E91_TypeDefinitionIndex = 64756;
 
 class Class_1_30700BDD5BCB4E91 : public ::System::Object
 {
 public:
-	::System::Single CANJKAAENID; // 0x10
-	::System::Single DBHMJLCJCME; // 0x14
-	::System::Single MGGJCMBONME; // 0x18
+	::System::Single DBHMJLCJCME; // 0x10
+	::System::Single MGGJCMBONME; // 0x14
+	::System::Single CANJKAAENID; // 0x18
 
 	::System::Void _ctor()
 	{

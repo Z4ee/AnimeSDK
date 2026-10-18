@@ -5,7 +5,7 @@
 
 namespace RPG::Client::RoadRash
 {
-	inline static constexpr unsigned int RoadRashObstacleImpactVisualOverrideConfig_TypeDefinitionIndex = 75462;
+	inline static constexpr unsigned int RoadRashObstacleImpactVisualOverrideConfig_TypeDefinitionIndex = 75877;
 
 	struct alignas(8) RoadRashObstacleImpactVisualOverrideConfig
 	{

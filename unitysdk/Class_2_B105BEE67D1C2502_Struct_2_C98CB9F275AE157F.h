@@ -5,9 +5,9 @@
 namespace RPG::GameCore { class MapRotationEntityEffect; }
 namespace System { class String; }
 
-#define CLASS_2_B105BEE67D1C2502_STRUCT_2_C98CB9F275AE157F__CTOR_OFFSET UNITYSDK_OFFSET(0x80380)
+#define CLASS_2_B105BEE67D1C2502_STRUCT_2_C98CB9F275AE157F__CTOR_OFFSET UNITYSDK_OFFSET(0x10480)
 
-inline static constexpr unsigned int Class_2_B105BEE67D1C2502_Struct_2_C98CB9F275AE157F_TypeDefinitionIndex = 60701;
+inline static constexpr unsigned int Class_2_B105BEE67D1C2502_Struct_2_C98CB9F275AE157F_TypeDefinitionIndex = 60602;
 
 struct alignas(8) Class_2_B105BEE67D1C2502_Struct_2_C98CB9F275AE157F
 {

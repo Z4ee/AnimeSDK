@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_AUDIENCEGROUPINSTANCE_CLASS_1_9A90CD018E72DF20_14__CTOR_OFFSET UNITYSDK_OFFSET(0xC792CF0)
+#define RPG_CLIENT_AUDIENCEGROUPINSTANCE_CLASS_1_9A90CD018E72DF20_14__CTOR_OFFSET UNITYSDK_OFFSET(0xC6B1900)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AudienceGroupInstance_Class_1_9A90CD018E72DF20_14_TypeDefinitionIndex = 69107;
+	inline static constexpr unsigned int AudienceGroupInstance_Class_1_9A90CD018E72DF20_14_TypeDefinitionIndex = 69143;
 
 	class AudienceGroupInstance_Class_1_9A90CD018E72DF20_14 : public ::System::Object
 	{

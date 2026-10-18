@@ -6,17 +6,17 @@ class Class_1_3DA052367006D50D;
 namespace RPG::Client { class ExpeditionBattleBuff; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_614D679AB9AEB872_GET_BUFFS_OFFSET UNITYSDK_OFFSET(0x152E3E10)
-#define CLASS_1_614D679AB9AEB872_METHOD_1_E43929D58C17696E_OFFSET UNITYSDK_OFFSET(0x152E3EA0)
-#define CLASS_1_614D679AB9AEB872__CTOR_OFFSET UNITYSDK_OFFSET(0x152E3E20)
+#define CLASS_1_614D679AB9AEB872_GET_BUFFS_OFFSET UNITYSDK_OFFSET(0x155D2520)
+#define CLASS_1_614D679AB9AEB872_METHOD_1_E43929D58C17696E_OFFSET UNITYSDK_OFFSET(0x155D25B0)
+#define CLASS_1_614D679AB9AEB872__CTOR_OFFSET UNITYSDK_OFFSET(0x155D2530)
 
-inline static constexpr unsigned int Class_1_614D679AB9AEB872_TypeDefinitionIndex = 63984;
+inline static constexpr unsigned int Class_1_614D679AB9AEB872_TypeDefinitionIndex = 63922;
 
 class Class_1_614D679AB9AEB872 : public ::System::Object
 {
 public:
-	::Class_1_3DA052367006D50D* LEMBDFBOFLG; // 0x10
-	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::ExpeditionBattleBuff*>* _Buffs_k__BackingField; // 0x18
+	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::ExpeditionBattleBuff*>* _Buffs_k__BackingField; // 0x10
+	::Class_1_3DA052367006D50D* LEMBDFBOFLG; // 0x18
 
 	::System::Void _ctor(::Class_1_3DA052367006D50D* a1)
 	{

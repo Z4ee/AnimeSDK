@@ -11,11 +11,11 @@ namespace System { class String; }
 namespace UnityEngine { class Gradient; }
 namespace UnityEngine { class Texture2D; }
 
-#define RPG_CLIENT_STAGEDYNAMICLIGHTBOXBEHAVIOR_DYNAMICLIGHTBOXTEMPLATE__CTOR_OFFSET UNITYSDK_OFFSET(0xE0CA760)
+#define RPG_CLIENT_STAGEDYNAMICLIGHTBOXBEHAVIOR_DYNAMICLIGHTBOXTEMPLATE__CTOR_OFFSET UNITYSDK_OFFSET(0xE10B490)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int StageDynamicLightBoxBehavior_DynamicLightBoxTemplate_TypeDefinitionIndex = 70925;
+	inline static constexpr unsigned int StageDynamicLightBoxBehavior_DynamicLightBoxTemplate_TypeDefinitionIndex = 70957;
 
 	class StageDynamicLightBoxBehavior_DynamicLightBoxTemplate : public ::System::Object
 	{

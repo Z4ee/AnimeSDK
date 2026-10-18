@@ -4,7 +4,7 @@
 
 namespace Microsoft::Win32::SafeHandles { class SafeProcessHandle; }
 
-#define SYSTEM_DIAGNOSTICS_PROCESSWAITHANDLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E942B00)
+#define SYSTEM_DIAGNOSTICS_PROCESSWAITHANDLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F00B980)
 
 namespace System::Diagnostics
 {

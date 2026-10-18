@@ -7,22 +7,22 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ClockParkUnlockCost; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CLOCKPARKTALENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CFEAEA0)
-#define RPG_GAMECORE_CLOCKPARKTALENTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFEB610)
+#define RPG_GAMECORE_CLOCKPARKTALENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D5C6AD0)
+#define RPG_GAMECORE_CLOCKPARKTALENTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5C7240)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ClockParkTalentRow_TypeDefinitionIndex = 11166;
+	inline static constexpr unsigned int ClockParkTalentRow_TypeDefinitionIndex = 11182;
 
 	class ClockParkTalentRow : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::ClockParkUnlockCost* TalentUnlockCost; // 0x10
-		::System::String* TalentDesc; // 0x18
-		::System::String* ImgPath; // 0x20
-		::System::UInt32 TalentBuffID; // 0x28
-		::System::UInt32 ActivityTalentID; // 0x2C
-		::RPG::Client::TextID TalentTitle; // 0x30
+		::System::String* ImgPath; // 0x10
+		::RPG::GameCore::ClockParkUnlockCost* TalentUnlockCost; // 0x18
+		::System::String* TalentDesc; // 0x20
+		::RPG::Client::TextID TalentTitle; // 0x28
+		::System::UInt32 TalentBuffID; // 0x38
+		::System::UInt32 ActivityTalentID; // 0x3C
 
 		::System::Void _ctor()
 		{

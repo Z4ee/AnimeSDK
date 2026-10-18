@@ -6,20 +6,20 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_RESTAURANTFACILITYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3AAAD0)
-#define RPG_GAMECORE_RESTAURANTFACILITYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3AACC0)
+#define RPG_GAMECORE_RESTAURANTFACILITYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D991270)
+#define RPG_GAMECORE_RESTAURANTFACILITYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D991460)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RestaurantFacilityRow_TypeDefinitionIndex = 11321;
+	inline static constexpr unsigned int RestaurantFacilityRow_TypeDefinitionIndex = 11337;
 
 	class RestaurantFacilityRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* UnlockIDList; // 0x10
 		::RPG::Client::TextID Name; // 0x18
-		::System::UInt32 FacilityID; // 0x28
-		::RPG::GameCore::RestaurantFacilityType Type; // 0x2C
+		::RPG::GameCore::RestaurantFacilityType Type; // 0x28
+		::System::UInt32 FacilityID; // 0x2C
 
 		::System::Void _ctor()
 		{

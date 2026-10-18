@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define JETBRAINS_ANNOTATIONS_NOTNULLATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1ED03920)
+#define JETBRAINS_ANNOTATIONS_NOTNULLATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F3CB6C0)
 
 namespace JetBrains::Annotations
 {
-	inline static constexpr unsigned int NotNullAttribute_TypeDefinitionIndex = 4008;
+	inline static constexpr unsigned int NotNullAttribute_TypeDefinitionIndex = 4009;
 
 	class NotNullAttribute : public ::System::Attribute
 	{

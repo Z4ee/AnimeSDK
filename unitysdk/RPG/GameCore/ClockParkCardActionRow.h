@@ -6,24 +6,24 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_CLOCKPARKCARDACTIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CFDE4D0)
-#define RPG_GAMECORE_CLOCKPARKCARDACTIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFDE8A0)
+#define RPG_GAMECORE_CLOCKPARKCARDACTIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D5BA2F0)
+#define RPG_GAMECORE_CLOCKPARKCARDACTIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5BA6C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ClockParkCardActionRow_TypeDefinitionIndex = 11160;
+	inline static constexpr unsigned int ClockParkCardActionRow_TypeDefinitionIndex = 11176;
 
 	class ClockParkCardActionRow : public ::System::Object
 	{
 	public:
-		::System::String* ImgPath2; // 0x10
-		::System::String* ImgPath; // 0x18
-		::System::String* ForeImgPath; // 0x20
+		::System::String* ForeImgPath; // 0x10
+		::Il2CppArray<::System::UInt32>* EffectList; // 0x18
+		::System::String* ImgPath; // 0x20
 		::System::String* ImgPath1; // 0x28
-		::Il2CppArray<::System::UInt32>* SuccessEffectList; // 0x30
-		::Il2CppArray<::System::UInt32>* EffectList; // 0x38
-		::Il2CppArray<::System::UInt32>* DiceList; // 0x40
-		::System::String* ImgPath3; // 0x48
+		::Il2CppArray<::System::UInt32>* DiceList; // 0x30
+		::System::String* ImgPath3; // 0x38
+		::Il2CppArray<::System::UInt32>* SuccessEffectList; // 0x40
+		::System::String* ImgPath2; // 0x48
 		::System::UInt32 CardActionID; // 0x50
 		::RPG::Client::TextID CardDesc; // 0x58
 

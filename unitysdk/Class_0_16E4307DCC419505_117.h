@@ -1,9 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/MechCraft/MechCraftAttributeType.h"
+#include "unitysdk/RPG/Client/TextID.h"
 
 namespace System { class String; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_117_TypeDefinitionIndex = 40447;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_117_TypeDefinitionIndex = 41679;
 
 class Class_0_16E4307DCC419505_117
 {

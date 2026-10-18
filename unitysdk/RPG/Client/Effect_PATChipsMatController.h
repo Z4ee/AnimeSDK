@@ -7,12 +7,12 @@ class PATRenderer;
 namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_EFFECT_PATCHIPSMATCONTROLLER_UPDATE_OFFSET UNITYSDK_OFFSET(0xCDFC990)
-#define RPG_CLIENT_EFFECT_PATCHIPSMATCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0xCDFCDF0)
+#define RPG_CLIENT_EFFECT_PATCHIPSMATCONTROLLER_UPDATE_OFFSET UNITYSDK_OFFSET(0xCD4D1E0)
+#define RPG_CLIENT_EFFECT_PATCHIPSMATCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0xCD4D640)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_PATChipsMatController_TypeDefinitionIndex = 70479;
+	inline static constexpr unsigned int Effect_PATChipsMatController_TypeDefinitionIndex = 70515;
 
 	class Effect_PATChipsMatController : public ::UnityEngine::MonoBehaviour
 	{

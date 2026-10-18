@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class IAvatarComparer; }
 
-#define RPG_CLIENT_AVATAREDUCATIONCOMPARERFACTORY_CREATEFORHIGHLIGHT_OFFSET UNITYSDK_OFFSET(0xC8033B0)
-#define RPG_CLIENT_AVATAREDUCATIONCOMPARERFACTORY__CTOR_OFFSET UNITYSDK_OFFSET(0xC803790)
+#define RPG_CLIENT_AVATAREDUCATIONCOMPARERFACTORY_CREATEFORHIGHLIGHT_OFFSET UNITYSDK_OFFSET(0xC6D0720)
+#define RPG_CLIENT_AVATAREDUCATIONCOMPARERFACTORY__CTOR_OFFSET UNITYSDK_OFFSET(0xC6D0B00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AvatarEducationComparerFactory_TypeDefinitionIndex = 62543;
+	inline static constexpr unsigned int AvatarEducationComparerFactory_TypeDefinitionIndex = 62460;
 
 	class AvatarEducationComparerFactory : public ::System::Object
 	{

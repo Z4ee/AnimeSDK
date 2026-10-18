@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define UNITYENGINE_BEFORERENDERORDERATTRIBUTE_GET_ORDER_OFFSET UNITYSDK_OFFSET(0x1ED0C1F0)
+#define UNITYENGINE_BEFORERENDERORDERATTRIBUTE_GET_ORDER_OFFSET UNITYSDK_OFFSET(0x1F3D3F60)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int BeforeRenderOrderAttribute_TypeDefinitionIndex = 4095;
+	inline static constexpr unsigned int BeforeRenderOrderAttribute_TypeDefinitionIndex = 4096;
 
 	class BeforeRenderOrderAttribute : public ::System::Attribute
 	{

@@ -1,8 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/NotifyType.h"
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_1160_TypeDefinitionIndex = 73046;
+namespace RPG::Client { class CameraDataAndFlags; }
+namespace RPG::Client { class CameraModuleConfigCollection; }
+namespace RPG::Client { class PipelineCameraEngine; }
+namespace RPG::Client { class PipelineCameraGlobalConfig; }
+
+inline static constexpr unsigned int Class_0_16E4307DCC419505_1160_TypeDefinitionIndex = 69572;
 
 class Class_0_16E4307DCC419505_1160
 {

@@ -4,7 +4,7 @@
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomEx_CueLinkInfo_TypeDefinitionIndex = 38683;
+	inline static constexpr unsigned int CriAtomEx_CueLinkInfo_TypeDefinitionIndex = 39980;
 
 	struct alignas(8) CriAtomEx_CueLinkInfo
 	{

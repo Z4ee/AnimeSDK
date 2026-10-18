@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SwitchMascotSetSectionVisible; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_38B43B942353F253_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x152C0340)
-#define CLASS_3_38B43B942353F253__CTOR_OFFSET UNITYSDK_OFFSET(0x152C0310)
+#define CLASS_3_38B43B942353F253_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x155A8D40)
+#define CLASS_3_38B43B942353F253__CTOR_OFFSET UNITYSDK_OFFSET(0x155A8D10)
 
-inline static constexpr unsigned int Class_3_38B43B942353F253_TypeDefinitionIndex = 58899;
+inline static constexpr unsigned int Class_3_38B43B942353F253_TypeDefinitionIndex = 58751;
 
 class Class_3_38B43B942353F253 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SwitchMascotSetSectionVisible*>
 {

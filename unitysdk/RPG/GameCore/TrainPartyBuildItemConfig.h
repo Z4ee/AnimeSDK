@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TrainPartyBuildBlock; }
 
-#define RPG_GAMECORE_TRAINPARTYBUILDITEMCONFIG_METHOD_2_B9F2FDA3756AE097_OFFSET UNITYSDK_OFFSET(0x1D5DAC60)
-#define RPG_GAMECORE_TRAINPARTYBUILDITEMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5DAD50)
+#define RPG_GAMECORE_TRAINPARTYBUILDITEMCONFIG_METHOD_2_B9F2FDA3756AE097_OFFSET UNITYSDK_OFFSET(0x1DC2DE10)
+#define RPG_GAMECORE_TRAINPARTYBUILDITEMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1DC2DF00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrainPartyBuildItemConfig_TypeDefinitionIndex = 16099;
+	inline static constexpr unsigned int TrainPartyBuildItemConfig_TypeDefinitionIndex = 16272;
 
 	class TrainPartyBuildItemConfig : public ::RPG::GameCore::JsonConfig
 	{

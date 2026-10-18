@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TimeRewindRaycastType_TypeDefinitionIndex = 60940;
+	inline static constexpr unsigned int TimeRewindRaycastType_TypeDefinitionIndex = 60843;
 
 	enum class TimeRewindRaycastType : ::System::Int32
 	{

@@ -9,11 +9,11 @@
 
 namespace RPG::Client { class IA_TransformAnim_HoverBehavior; }
 
-#define RPG_CLIENT_IA_TRANSFORMANIM_HOVERMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xD3DF740)
+#define RPG_CLIENT_IA_TRANSFORMANIM_HOVERMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xD3354E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IA_TransformAnim_HoverMonoPlugin_TypeDefinitionIndex = 70806;
+	inline static constexpr unsigned int IA_TransformAnim_HoverMonoPlugin_TypeDefinitionIndex = 70844;
 
 	class IA_TransformAnim_HoverMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::IA_TransformAnim_HoverBehavior*>
 	{

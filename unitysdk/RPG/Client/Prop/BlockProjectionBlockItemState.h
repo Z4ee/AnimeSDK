@@ -3,7 +3,7 @@
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int BlockProjectionBlockItemState_TypeDefinitionIndex = 77741;
+	inline static constexpr unsigned int BlockProjectionBlockItemState_TypeDefinitionIndex = 78212;
 
 	enum class BlockProjectionBlockItemState : ::System::Int32
 	{

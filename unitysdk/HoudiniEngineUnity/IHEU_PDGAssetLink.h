@@ -13,7 +13,7 @@ namespace UnityEngine { class GameObject; }
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int IHEU_PDGAssetLink_TypeDefinitionIndex = 39272;
+	inline static constexpr unsigned int IHEU_PDGAssetLink_TypeDefinitionIndex = 40569;
 
 	class IHEU_PDGAssetLink
 	{

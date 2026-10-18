@@ -4,11 +4,11 @@
 
 namespace RPG::Client { class CameraFightStateOrbitCruiseConfigData; }
 
-#define RPG_CLIENT_CAMERAFIGHTSTATEORBITCRUISECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xC9E88F0)
+#define RPG_CLIENT_CAMERAFIGHTSTATEORBITCRUISECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xC936710)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CameraFightStateOrbitCruiseConfig_TypeDefinitionIndex = 69545;
+	inline static constexpr unsigned int CameraFightStateOrbitCruiseConfig_TypeDefinitionIndex = 69581;
 
 	class CameraFightStateOrbitCruiseConfig : public ::RPG::Client::CameraFightStateCommonConfig
 	{

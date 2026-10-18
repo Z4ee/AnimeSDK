@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-class Class_1_D8203AFB32E9259C;
+namespace RPG::GameCore { class ServantRowData; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_533_TypeDefinitionIndex = 54355;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_533_TypeDefinitionIndex = 51933;
 
 class Class_0_16E4307DCC419505_533
 {

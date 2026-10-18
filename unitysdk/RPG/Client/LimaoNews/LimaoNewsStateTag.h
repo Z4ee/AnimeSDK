@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LimaoNews
 {
-	inline static constexpr unsigned int LimaoNewsStateTag_TypeDefinitionIndex = 78977;
+	inline static constexpr unsigned int LimaoNewsStateTag_TypeDefinitionIndex = 80300;
 
 	enum class LimaoNewsStateTag : ::System::Int32
 	{

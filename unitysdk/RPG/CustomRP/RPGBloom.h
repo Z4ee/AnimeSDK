@@ -7,12 +7,12 @@ namespace UnityEngine::Rendering { class BoolParameter; }
 namespace UnityEngine::Rendering { class FloatParameter; }
 namespace UnityEngine::Rendering { class Vector4Parameter; }
 
-#define RPG_CUSTOMRP_RPGBLOOM_ISACTIVEIMPL_OFFSET UNITYSDK_OFFSET(0x1C6B6F30)
-#define RPG_CUSTOMRP_RPGBLOOM__CTOR_OFFSET UNITYSDK_OFFSET(0x1C6B7010)
+#define RPG_CUSTOMRP_RPGBLOOM_ISACTIVEIMPL_OFFSET UNITYSDK_OFFSET(0x1CC3CD50)
+#define RPG_CUSTOMRP_RPGBLOOM__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC3CE30)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int RPGBloom_TypeDefinitionIndex = 37105;
+	inline static constexpr unsigned int RPGBloom_TypeDefinitionIndex = 37790;
 
 	class RPGBloom : public ::RPG::CustomRP::CustomVolumeComponent
 	{

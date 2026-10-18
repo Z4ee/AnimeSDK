@@ -6,12 +6,12 @@ namespace RPG::Client { class AttachPointMapping; }
 namespace RPG::GameCore { class ChimeraFireEffect; }
 namespace System { class Action; }
 
-#define RPG_CLIENT_PROP_CHIMERAEFFECTMANAGER_PLAY_OFFSET UNITYSDK_OFFSET(0xDC2A010)
-#define RPG_CLIENT_PROP_CHIMERAEFFECTMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0xDC2A500)
+#define RPG_CLIENT_PROP_CHIMERAEFFECTMANAGER_PLAY_OFFSET UNITYSDK_OFFSET(0xDC74B00)
+#define RPG_CLIENT_PROP_CHIMERAEFFECTMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0xDC75000)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraEffectManager_TypeDefinitionIndex = 77960;
+	inline static constexpr unsigned int ChimeraEffectManager_TypeDefinitionIndex = 78431;
 
 	class ChimeraEffectManager : public ::UnityEngine::MonoBehaviour
 	{

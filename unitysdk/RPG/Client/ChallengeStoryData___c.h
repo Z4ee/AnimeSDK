@@ -4,24 +4,24 @@
 
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_CHALLENGESTORYDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xCABCC60)
-#define RPG_CLIENT_CHALLENGESTORYDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0xCABCCA0)
-#define RPG_CLIENT_CHALLENGESTORYDATA___C__GETVORACITYINVASIONLEVEL_B__7_0_OFFSET UNITYSDK_OFFSET(0xCABCCB0)
+#define RPG_CLIENT_CHALLENGESTORYDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC9BDDC0)
+#define RPG_CLIENT_CHALLENGESTORYDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC9BDE00)
+#define RPG_CLIENT_CHALLENGESTORYDATA___C__GETVORACITYINVASIONLEVEL_B__7_0_OFFSET UNITYSDK_OFFSET(0xC9BDE10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChallengeStoryData___c_TypeDefinitionIndex = 63215;
+	inline static constexpr unsigned int ChallengeStoryData___c_TypeDefinitionIndex = 63148;
 
 	class ChallengeStoryData___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::System::UInt32, ::System::UInt32>** StaticGet___9__7_0()
 		{
-			return (::System::Func_2<::System::UInt32, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(ChallengeStoryData___c_TypeDefinitionIndex)->GetStaticField(0x27760);
+			return (::System::Func_2<::System::UInt32, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(ChallengeStoryData___c_TypeDefinitionIndex)->GetStaticField(0x6DB40);
 		}
 		static ::RPG::Client::ChallengeStoryData___c** StaticGet___9()
 		{
-			return (::RPG::Client::ChallengeStoryData___c**)Il2CppClass::FromTypeDefinitionIndex(ChallengeStoryData___c_TypeDefinitionIndex)->GetStaticField(0x27768);
+			return (::RPG::Client::ChallengeStoryData___c**)Il2CppClass::FromTypeDefinitionIndex(ChallengeStoryData___c_TypeDefinitionIndex)->GetStaticField(0x6DB48);
 		}
 
 		static ::System::Void _cctor()

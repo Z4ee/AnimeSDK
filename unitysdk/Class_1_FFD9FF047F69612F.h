@@ -5,16 +5,16 @@
 class Class_1_82297B6AFFE49354_1;
 namespace RPG::GameCore { class FiveDimDashOrbConfig; }
 
-#define CLASS_1_FFD9FF047F69612F_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C3CAFF0)
-#define CLASS_1_FFD9FF047F69612F__CTOR_OFFSET UNITYSDK_OFFSET(0x1C3CB050)
+#define CLASS_1_FFD9FF047F69612F_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C92C9A0)
+#define CLASS_1_FFD9FF047F69612F__CTOR_OFFSET UNITYSDK_OFFSET(0x1C92CA00)
 
-inline static constexpr unsigned int Class_1_FFD9FF047F69612F_TypeDefinitionIndex = 41868;
+inline static constexpr unsigned int Class_1_FFD9FF047F69612F_TypeDefinitionIndex = 43510;
 
 class Class_1_FFD9FF047F69612F : public ::System::Object
 {
 public:
-	::Class_1_82297B6AFFE49354_1* BPAPBAFOMCH; // 0x10
-	::RPG::GameCore::FiveDimDashOrbConfig* EABKOHGCHFP; // 0x18
+	::RPG::GameCore::FiveDimDashOrbConfig* EABKOHGCHFP; // 0x10
+	::Class_1_82297B6AFFE49354_1* BPAPBAFOMCH; // 0x18
 
 	::System::Void _ctor()
 	{

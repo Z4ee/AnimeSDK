@@ -5,11 +5,11 @@
 namespace CriWare::CriMana { class MovieInfo; }
 namespace UnityEngine { class Shader; }
 
-#define CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCEH264YUV__CTOR_OFFSET UNITYSDK_OFFSET(0x164F4750)
+#define CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCEH264YUV__CTOR_OFFSET UNITYSDK_OFFSET(0x1671B370)
 
 namespace CriWare::CriMana::Detail
 {
-	inline static constexpr unsigned int RendererResourceH264Yuv_TypeDefinitionIndex = 38935;
+	inline static constexpr unsigned int RendererResourceH264Yuv_TypeDefinitionIndex = 40232;
 
 	class RendererResourceH264Yuv : public ::CriWare::CriMana::Detail::RendererResourceSofdecPrimeYuvRawData
 	{

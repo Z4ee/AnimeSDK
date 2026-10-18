@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByCompareProjectileLifetime; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_9B29954161D50D08_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15605310)
-#define CLASS_3_9B29954161D50D08__CTOR_OFFSET UNITYSDK_OFFSET(0x156052E0)
+#define CLASS_3_9B29954161D50D08_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15920600)
+#define CLASS_3_9B29954161D50D08__CTOR_OFFSET UNITYSDK_OFFSET(0x159205D0)
 
-inline static constexpr unsigned int Class_3_9B29954161D50D08_TypeDefinitionIndex = 54768;
+inline static constexpr unsigned int Class_3_9B29954161D50D08_TypeDefinitionIndex = 54556;
 
 class Class_3_9B29954161D50D08 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByCompareProjectileLifetime*>
 {

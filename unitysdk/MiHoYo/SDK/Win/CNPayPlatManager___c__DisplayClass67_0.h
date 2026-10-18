@@ -6,18 +6,18 @@
 namespace MiHoYo::SDK { class JSONObject; }
 namespace MiHoYo::SDK::Win { class CNPayPlatManager; }
 
-#define MIHOYO_SDK_WIN_CNPAYPLATMANAGER___C__DISPLAYCLASS67_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B80EF10)
-#define MIHOYO_SDK_WIN_CNPAYPLATMANAGER___C__DISPLAYCLASS67_0__SHOWPAYPLATOVERDUE_B__0_OFFSET UNITYSDK_OFFSET(0x1B811970)
+#define MIHOYO_SDK_WIN_CNPAYPLATMANAGER___C__DISPLAYCLASS67_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD0FA70)
+#define MIHOYO_SDK_WIN_CNPAYPLATMANAGER___C__DISPLAYCLASS67_0__SHOWPAYPLATOVERDUE_B__0_OFFSET UNITYSDK_OFFSET(0x1BD124D0)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int CNPayPlatManager___c__DisplayClass67_0_TypeDefinitionIndex = 9221;
+	inline static constexpr unsigned int CNPayPlatManager___c__DisplayClass67_0_TypeDefinitionIndex = 9283;
 
 	class CNPayPlatManager___c__DisplayClass67_0 : public ::System::Object
 	{
 	public:
-		::MiHoYo::SDK::Win::CNPayPlatManager* __4__this; // 0x10
-		::MiHoYo::SDK::JSONObject* cBodyJson; // 0x18
+		::MiHoYo::SDK::JSONObject* cBodyJson; // 0x10
+		::MiHoYo::SDK::Win::CNPayPlatManager* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

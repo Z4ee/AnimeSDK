@@ -9,7 +9,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BaseFrameSynchor_2_TypeDefinitionIndex = 53877;
+	inline static constexpr unsigned int BaseFrameSynchor_2_TypeDefinitionIndex = 53663;
 
 	template <typename TContext, typename TInitParam>
 	class BaseFrameSynchor_2 : public ::System::Object

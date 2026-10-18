@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class AdventureCharacterFloatingTemplateConfig; }
 
-#define RPG_GAMECORE_ADVENTURECHARACTERFLOATINGTEMPLATECONFIGS_METHOD_2_F1F77C38D434BC8F_OFFSET UNITYSDK_OFFSET(0x1CDF14A0)
-#define RPG_GAMECORE_ADVENTURECHARACTERFLOATINGTEMPLATECONFIGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1CDF1560)
+#define RPG_GAMECORE_ADVENTURECHARACTERFLOATINGTEMPLATECONFIGS_METHOD_2_F1F77C38D434BC8F_OFFSET UNITYSDK_OFFSET(0x1D3C73B0)
+#define RPG_GAMECORE_ADVENTURECHARACTERFLOATINGTEMPLATECONFIGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3C7470)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureCharacterFloatingTemplateConfigs_TypeDefinitionIndex = 17293;
+	inline static constexpr unsigned int AdventureCharacterFloatingTemplateConfigs_TypeDefinitionIndex = 17489;
 
 	class AdventureCharacterFloatingTemplateConfigs : public ::RPG::GameCore::JsonConfig
 	{

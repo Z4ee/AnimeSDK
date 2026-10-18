@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define CRIWARE_CRIFSBINDER_CONTENTSFILEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x2E01BF0)
+#define CRIWARE_CRIFSBINDER_CONTENTSFILEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x2E8DAD0)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriFsBinder_ContentsFileInfo_TypeDefinitionIndex = 38807;
+	inline static constexpr unsigned int CriFsBinder_ContentsFileInfo_TypeDefinitionIndex = 40104;
 
 	struct alignas(8) CriFsBinder_ContentsFileInfo
 	{

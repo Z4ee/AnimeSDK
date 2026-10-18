@@ -6,29 +6,29 @@ namespace HoudiniEngineUnity { class Test_LODGroup; }
 namespace System { template <typename T1, typename T2> class Converter_2; }
 namespace UnityEngine { class LODGroup; }
 
-#define HOUDINIENGINEUNITY_TEST_LODGROUP_EXTENSIONS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B4B0AF0)
-#define HOUDINIENGINEUNITY_TEST_LODGROUP_EXTENSIONS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4B0B30)
-#define HOUDINIENGINEUNITY_TEST_LODGROUP_EXTENSIONS___C__TOTESTOBJECT_B__1_0_OFFSET UNITYSDK_OFFSET(0x1B4B0B40)
-#define HOUDINIENGINEUNITY_TEST_LODGROUP_EXTENSIONS___C__TOTESTOBJECT_B__2_0_OFFSET UNITYSDK_OFFSET(0x1B4B0B80)
+#define HOUDINIENGINEUNITY_TEST_LODGROUP_EXTENSIONS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B9B2B20)
+#define HOUDINIENGINEUNITY_TEST_LODGROUP_EXTENSIONS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9B2B60)
+#define HOUDINIENGINEUNITY_TEST_LODGROUP_EXTENSIONS___C__TOTESTOBJECT_B__1_0_OFFSET UNITYSDK_OFFSET(0x1B9B2B70)
+#define HOUDINIENGINEUNITY_TEST_LODGROUP_EXTENSIONS___C__TOTESTOBJECT_B__2_0_OFFSET UNITYSDK_OFFSET(0x1B9B2BB0)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int Test_LODGroup_Extensions___c_TypeDefinitionIndex = 39415;
+	inline static constexpr unsigned int Test_LODGroup_Extensions___c_TypeDefinitionIndex = 40712;
 
 	class Test_LODGroup_Extensions___c : public ::System::Object
 	{
 	public:
-		static ::System::Converter_2<::UnityEngine::LODGroup*, ::HoudiniEngineUnity::Test_LODGroup*>** StaticGet___9__1_0()
-		{
-			return (::System::Converter_2<::UnityEngine::LODGroup*, ::HoudiniEngineUnity::Test_LODGroup*>**)Il2CppClass::FromTypeDefinitionIndex(Test_LODGroup_Extensions___c_TypeDefinitionIndex)->GetStaticField(0x63020);
-		}
 		static ::System::Converter_2<::UnityEngine::LODGroup*, ::HoudiniEngineUnity::Test_LODGroup*>** StaticGet___9__2_0()
 		{
-			return (::System::Converter_2<::UnityEngine::LODGroup*, ::HoudiniEngineUnity::Test_LODGroup*>**)Il2CppClass::FromTypeDefinitionIndex(Test_LODGroup_Extensions___c_TypeDefinitionIndex)->GetStaticField(0x63028);
+			return (::System::Converter_2<::UnityEngine::LODGroup*, ::HoudiniEngineUnity::Test_LODGroup*>**)Il2CppClass::FromTypeDefinitionIndex(Test_LODGroup_Extensions___c_TypeDefinitionIndex)->GetStaticField(0x57230);
 		}
 		static ::HoudiniEngineUnity::Test_LODGroup_Extensions___c** StaticGet___9()
 		{
-			return (::HoudiniEngineUnity::Test_LODGroup_Extensions___c**)Il2CppClass::FromTypeDefinitionIndex(Test_LODGroup_Extensions___c_TypeDefinitionIndex)->GetStaticField(0x63030);
+			return (::HoudiniEngineUnity::Test_LODGroup_Extensions___c**)Il2CppClass::FromTypeDefinitionIndex(Test_LODGroup_Extensions___c_TypeDefinitionIndex)->GetStaticField(0x57238);
+		}
+		static ::System::Converter_2<::UnityEngine::LODGroup*, ::HoudiniEngineUnity::Test_LODGroup*>** StaticGet___9__1_0()
+		{
+			return (::System::Converter_2<::UnityEngine::LODGroup*, ::HoudiniEngineUnity::Test_LODGroup*>**)Il2CppClass::FromTypeDefinitionIndex(Test_LODGroup_Extensions___c_TypeDefinitionIndex)->GetStaticField(0x57240);
 		}
 
 		static ::System::Void _cctor()

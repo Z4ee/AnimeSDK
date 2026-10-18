@@ -3,7 +3,7 @@
 
 namespace IFix::Core
 {
-	inline static constexpr unsigned int ExceptionHandlerType_TypeDefinitionIndex = 10045;
+	inline static constexpr unsigned int ExceptionHandlerType_TypeDefinitionIndex = 7112;
 
 	enum class ExceptionHandlerType : ::System::Int32
 	{

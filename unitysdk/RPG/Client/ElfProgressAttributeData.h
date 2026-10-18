@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_ELFPROGRESSATTRIBUTEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xCE58570)
+#define RPG_CLIENT_ELFPROGRESSATTRIBUTEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xCDA8D00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ElfProgressAttributeData_TypeDefinitionIndex = 63780;
+	inline static constexpr unsigned int ElfProgressAttributeData_TypeDefinitionIndex = 63718;
 
 	class ElfProgressAttributeData : public ::System::Object
 	{

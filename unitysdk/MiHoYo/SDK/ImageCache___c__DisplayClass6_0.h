@@ -5,12 +5,12 @@
 namespace MiHoYo::SDK { class ImageCache; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_IMAGECACHE___C__DISPLAYCLASS6_0__ASYNCDOWNLOADTEXTURE_B__1_OFFSET UNITYSDK_OFFSET(0x1B97EC30)
-#define MIHOYO_SDK_IMAGECACHE___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B97E450)
+#define MIHOYO_SDK_IMAGECACHE___C__DISPLAYCLASS6_0__ASYNCDOWNLOADTEXTURE_B__1_OFFSET UNITYSDK_OFFSET(0x1BE7E580)
+#define MIHOYO_SDK_IMAGECACHE___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE7DDA0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ImageCache___c__DisplayClass6_0_TypeDefinitionIndex = 7936;
+	inline static constexpr unsigned int ImageCache___c__DisplayClass6_0_TypeDefinitionIndex = 7979;
 
 	class ImageCache___c__DisplayClass6_0 : public ::System::Object
 	{

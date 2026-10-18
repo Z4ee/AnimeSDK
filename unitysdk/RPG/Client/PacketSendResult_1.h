@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PacketSendResult_1_TypeDefinitionIndex = 69376;
+	inline static constexpr unsigned int PacketSendResult_1_TypeDefinitionIndex = 69412;
 
 	template <typename TRsp>
 	struct PacketSendResult_1

@@ -6,12 +6,12 @@
 namespace MiHoYo::SDK::Win { class MerchantInfoModel; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_WIN_PAYPLATINFOMODEL_GETPAYPLATTYPE_OFFSET UNITYSDK_OFFSET(0x1B8D8E70)
-#define MIHOYO_SDK_WIN_PAYPLATINFOMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8D9030)
+#define MIHOYO_SDK_WIN_PAYPLATINFOMODEL_GETPAYPLATTYPE_OFFSET UNITYSDK_OFFSET(0x1BDD7050)
+#define MIHOYO_SDK_WIN_PAYPLATINFOMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDD7210)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int PayPlatInfoModel_TypeDefinitionIndex = 9200;
+	inline static constexpr unsigned int PayPlatInfoModel_TypeDefinitionIndex = 9261;
 
 	class PayPlatInfoModel : public ::System::Object
 	{

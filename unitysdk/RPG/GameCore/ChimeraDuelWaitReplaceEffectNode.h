@@ -7,13 +7,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class BaseChimeraDuelEntitiesSelectorConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHIMERADUELWAITREPLACEEFFECTNODE_METHOD_3_63DABA5147D8619C_OFFSET UNITYSDK_OFFSET(0x1CFD0A20)
-#define RPG_GAMECORE_CHIMERADUELWAITREPLACEEFFECTNODE_METHOD_3_EC294DFD3D49235C_OFFSET UNITYSDK_OFFSET(0x1CFD09A0)
-#define RPG_GAMECORE_CHIMERADUELWAITREPLACEEFFECTNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFD0A00)
+#define RPG_GAMECORE_CHIMERADUELWAITREPLACEEFFECTNODE_METHOD_3_63DABA5147D8619C_OFFSET UNITYSDK_OFFSET(0x1D5AC200)
+#define RPG_GAMECORE_CHIMERADUELWAITREPLACEEFFECTNODE_METHOD_3_BE120938F00F2E25_OFFSET UNITYSDK_OFFSET(0x1D5AC180)
+#define RPG_GAMECORE_CHIMERADUELWAITREPLACEEFFECTNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5AC1E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraDuelWaitReplaceEffectNode_TypeDefinitionIndex = 15783;
+	inline static constexpr unsigned int ChimeraDuelWaitReplaceEffectNode_TypeDefinitionIndex = 15956;
 
 	class ChimeraDuelWaitReplaceEffectNode : public ::RPG::GameCore::BaseChimeraDuelNode
 	{
@@ -30,9 +30,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELWAITREPLACEEFFECTNODE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_EC294DFD3D49235C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraDuelWaitReplaceEffectNode*& a2)
+		static ::System::Void Method_3_BE120938F00F2E25(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraDuelWaitReplaceEffectNode*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChimeraDuelWaitReplaceEffectNode*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELWAITREPLACEEFFECTNODE_METHOD_3_EC294DFD3D49235C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChimeraDuelWaitReplaceEffectNode*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELWAITREPLACEEFFECTNODE_METHOD_3_BE120938F00F2E25_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_63DABA5147D8619C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraDuelWaitReplaceEffectNode* a2)

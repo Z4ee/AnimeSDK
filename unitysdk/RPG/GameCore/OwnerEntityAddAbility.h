@@ -8,13 +8,13 @@ namespace RPG::GameCore { class DynamicString; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_OWNERENTITYADDABILITY_METHOD_3_083DAF970A0DD37E_OFFSET UNITYSDK_OFFSET(0x1D306050)
-#define RPG_GAMECORE_OWNERENTITYADDABILITY_METHOD_3_184482C3DAA87523_OFFSET UNITYSDK_OFFSET(0x1D306090)
-#define RPG_GAMECORE_OWNERENTITYADDABILITY__CTOR_OFFSET UNITYSDK_OFFSET(0x1D306080)
+#define RPG_GAMECORE_OWNERENTITYADDABILITY_METHOD_3_083DAF970A0DD37E_OFFSET UNITYSDK_OFFSET(0x1D8E9D40)
+#define RPG_GAMECORE_OWNERENTITYADDABILITY_METHOD_3_184482C3DAA87523_OFFSET UNITYSDK_OFFSET(0x1D8E9D80)
+#define RPG_GAMECORE_OWNERENTITYADDABILITY__CTOR_OFFSET UNITYSDK_OFFSET(0x1D8E9D70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int OwnerEntityAddAbility_TypeDefinitionIndex = 22226;
+	inline static constexpr unsigned int OwnerEntityAddAbility_TypeDefinitionIndex = 22475;
 
 	class OwnerEntityAddAbility : public ::RPG::GameCore::TaskConfig
 	{

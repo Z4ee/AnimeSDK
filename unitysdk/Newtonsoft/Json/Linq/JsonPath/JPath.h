@@ -4,7 +4,7 @@
 
 namespace Newtonsoft::Json::Linq::JsonPath
 {
-	inline static constexpr unsigned int JPath_TypeDefinitionIndex = 9745;
+	inline static constexpr unsigned int JPath_TypeDefinitionIndex = 9803;
 
 	class JPath : public ::System::Object
 	{

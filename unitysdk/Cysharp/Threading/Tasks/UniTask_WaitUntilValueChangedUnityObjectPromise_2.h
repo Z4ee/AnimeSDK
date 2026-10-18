@@ -17,7 +17,7 @@ namespace UnityEngine { class Object; }
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UniTask_WaitUntilValueChangedUnityObjectPromise_2_TypeDefinitionIndex = 42677;
+	inline static constexpr unsigned int UniTask_WaitUntilValueChangedUnityObjectPromise_2_TypeDefinitionIndex = 38262;
 
 	template <typename T, typename U>
 	class UniTask_WaitUntilValueChangedUnityObjectPromise_2 : public ::System::Object

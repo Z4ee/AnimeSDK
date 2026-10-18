@@ -4,24 +4,24 @@
 
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_CLIENTSTARTUPPHASE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xCC2A1E0)
-#define RPG_CLIENT_CLIENTSTARTUPPHASE___C__CTOR_OFFSET UNITYSDK_OFFSET(0xCC2A220)
-#define RPG_CLIENT_CLIENTSTARTUPPHASE___C___ONEXCEPTION_B__9_0_OFFSET UNITYSDK_OFFSET(0xCC2A230)
+#define RPG_CLIENT_CLIENTSTARTUPPHASE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xCB791D0)
+#define RPG_CLIENT_CLIENTSTARTUPPHASE___C__CTOR_OFFSET UNITYSDK_OFFSET(0xCB79210)
+#define RPG_CLIENT_CLIENTSTARTUPPHASE___C___ONEXCEPTION_B__9_0_OFFSET UNITYSDK_OFFSET(0xCB79220)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ClientStartupPhase___c_TypeDefinitionIndex = 61234;
+	inline static constexpr unsigned int ClientStartupPhase___c_TypeDefinitionIndex = 61139;
 
 	class ClientStartupPhase___c : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::System::Boolean>** StaticGet___9__9_0()
 		{
-			return (::System::Action_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ClientStartupPhase___c_TypeDefinitionIndex)->GetStaticField(0x54060);
+			return (::System::Action_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ClientStartupPhase___c_TypeDefinitionIndex)->GetStaticField(0x16EB0);
 		}
 		static ::RPG::Client::ClientStartupPhase___c** StaticGet___9()
 		{
-			return (::RPG::Client::ClientStartupPhase___c**)Il2CppClass::FromTypeDefinitionIndex(ClientStartupPhase___c_TypeDefinitionIndex)->GetStaticField(0x54068);
+			return (::RPG::Client::ClientStartupPhase___c**)Il2CppClass::FromTypeDefinitionIndex(ClientStartupPhase___c_TypeDefinitionIndex)->GetStaticField(0x16EB8);
 		}
 
 		static ::System::Void _cctor()

@@ -5,24 +5,24 @@
 namespace RPG::Client { class MatchThreeV2ReputationData; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_MATCHTHREEV2REPUTATIONINFOS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD6734B0)
-#define RPG_CLIENT_MATCHTHREEV2REPUTATIONINFOS___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD6734F0)
-#define RPG_CLIENT_MATCHTHREEV2REPUTATIONINFOS___C__GETCHALLENGINGREPUTATIONDATALIST_B__6_0_OFFSET UNITYSDK_OFFSET(0xD673500)
+#define RPG_CLIENT_MATCHTHREEV2REPUTATIONINFOS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD5CC980)
+#define RPG_CLIENT_MATCHTHREEV2REPUTATIONINFOS___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD5CC9C0)
+#define RPG_CLIENT_MATCHTHREEV2REPUTATIONINFOS___C__GETCHALLENGINGREPUTATIONDATALIST_B__6_0_OFFSET UNITYSDK_OFFSET(0xD5CC9D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MatchThreeV2ReputationInfos___c_TypeDefinitionIndex = 66073;
+	inline static constexpr unsigned int MatchThreeV2ReputationInfos___c_TypeDefinitionIndex = 66027;
 
 	class MatchThreeV2ReputationInfos___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::MatchThreeV2ReputationInfos___c** StaticGet___9()
-		{
-			return (::RPG::Client::MatchThreeV2ReputationInfos___c**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeV2ReputationInfos___c_TypeDefinitionIndex)->GetStaticField(0x66670);
-		}
 		static ::System::Func_2<::RPG::Client::MatchThreeV2ReputationData*, ::System::Boolean>** StaticGet___9__6_0()
 		{
-			return (::System::Func_2<::RPG::Client::MatchThreeV2ReputationData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeV2ReputationInfos___c_TypeDefinitionIndex)->GetStaticField(0x66678);
+			return (::System::Func_2<::RPG::Client::MatchThreeV2ReputationData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeV2ReputationInfos___c_TypeDefinitionIndex)->GetStaticField(0x55B00);
+		}
+		static ::RPG::Client::MatchThreeV2ReputationInfos___c** StaticGet___9()
+		{
+			return (::RPG::Client::MatchThreeV2ReputationInfos___c**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeV2ReputationInfos___c_TypeDefinitionIndex)->GetStaticField(0x55B08);
 		}
 
 		static ::System::Void _cctor()

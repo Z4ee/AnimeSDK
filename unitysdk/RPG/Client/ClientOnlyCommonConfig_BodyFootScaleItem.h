@@ -4,11 +4,11 @@
 #include "unitysdk/RPG/MVector3.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_CLIENTONLYCOMMONCONFIG_BODYFOOTSCALEITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xCC273C0)
+#define RPG_CLIENT_CLIENTONLYCOMMONCONFIG_BODYFOOTSCALEITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xCB764D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ClientOnlyCommonConfig_BodyFootScaleItem_TypeDefinitionIndex = 60156;
+	inline static constexpr unsigned int ClientOnlyCommonConfig_BodyFootScaleItem_TypeDefinitionIndex = 60019;
 
 	class ClientOnlyCommonConfig_BodyFootScaleItem : public ::System::Object
 	{

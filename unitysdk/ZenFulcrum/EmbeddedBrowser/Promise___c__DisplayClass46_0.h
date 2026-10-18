@@ -7,20 +7,20 @@ namespace System { class Exception; }
 namespace System { template <typename T> class Action_1; }
 namespace ZenFulcrum::EmbeddedBrowser { class Promise; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_PROMISE___C__DISPLAYCLASS46_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1EFA3C50)
-#define ZENFULCRUM_EMBEDDEDBROWSER_PROMISE___C__DISPLAYCLASS46_0__THEN_B__0_OFFSET UNITYSDK_OFFSET(0x1EFA5040)
-#define ZENFULCRUM_EMBEDDEDBROWSER_PROMISE___C__DISPLAYCLASS46_0__THEN_B__1_OFFSET UNITYSDK_OFFSET(0x1EFA5080)
+#define ZENFULCRUM_EMBEDDEDBROWSER_PROMISE___C__DISPLAYCLASS46_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1F66C1C0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_PROMISE___C__DISPLAYCLASS46_0__THEN_B__0_OFFSET UNITYSDK_OFFSET(0x1F66D5B0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_PROMISE___C__DISPLAYCLASS46_0__THEN_B__1_OFFSET UNITYSDK_OFFSET(0x1F66D5F0)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int Promise___c__DisplayClass46_0_TypeDefinitionIndex = 38256;
+	inline static constexpr unsigned int Promise___c__DisplayClass46_0_TypeDefinitionIndex = 39553;
 
 	class Promise___c__DisplayClass46_0 : public ::System::Object
 	{
 	public:
-		::System::Action* onResolved; // 0x10
-		::System::Action_1<::System::Exception*>* onRejected; // 0x18
-		::ZenFulcrum::EmbeddedBrowser::Promise* resultPromise; // 0x20
+		::ZenFulcrum::EmbeddedBrowser::Promise* resultPromise; // 0x10
+		::System::Action* onResolved; // 0x18
+		::System::Action_1<::System::Exception*>* onRejected; // 0x20
 
 		::System::Void _ctor()
 		{

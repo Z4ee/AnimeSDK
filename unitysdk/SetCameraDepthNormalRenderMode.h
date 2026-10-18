@@ -5,10 +5,10 @@
 
 namespace UnityEngine { class Camera; }
 
-#define SETCAMERADEPTHNORMALRENDERMODE_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1E55BEE0)
-#define SETCAMERADEPTHNORMALRENDERMODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E55BF10)
+#define SETCAMERADEPTHNORMALRENDERMODE_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1EBEB390)
+#define SETCAMERADEPTHNORMALRENDERMODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EBEB3C0)
 
-inline static constexpr unsigned int SetCameraDepthNormalRenderMode_TypeDefinitionIndex = 42300;
+inline static constexpr unsigned int SetCameraDepthNormalRenderMode_TypeDefinitionIndex = 43987;
 
 class SetCameraDepthNormalRenderMode : public ::UnityEngine::MonoBehaviour
 {

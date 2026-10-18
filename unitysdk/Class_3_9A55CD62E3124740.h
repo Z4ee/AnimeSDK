@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class RtBattleTriggerCharacterCamera; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_9A55CD62E3124740_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB953810)
-#define CLASS_3_9A55CD62E3124740__CTOR_OFFSET UNITYSDK_OFFSET(0xB9537E0)
+#define CLASS_3_9A55CD62E3124740_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB80B6A0)
+#define CLASS_3_9A55CD62E3124740__CTOR_OFFSET UNITYSDK_OFFSET(0xB80B670)
 
-inline static constexpr unsigned int Class_3_9A55CD62E3124740_TypeDefinitionIndex = 54372;
+inline static constexpr unsigned int Class_3_9A55CD62E3124740_TypeDefinitionIndex = 54158;
 
 class Class_3_9A55CD62E3124740 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::RtBattleTriggerCharacterCamera*>
 {

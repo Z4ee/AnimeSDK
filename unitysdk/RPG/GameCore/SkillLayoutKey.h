@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SkillLayoutKey_TypeDefinitionIndex = 24343;
+	inline static constexpr unsigned int SkillLayoutKey_TypeDefinitionIndex = 24622;
 
 	enum class SkillLayoutKey : ::System::Int32
 	{

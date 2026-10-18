@@ -3,10 +3,10 @@
 #include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_4D67A08A38F491FB_CLEAR_OFFSET UNITYSDK_OFFSET(0xB9598D0)
-#define CLASS_1_4D67A08A38F491FB__CTOR_OFFSET UNITYSDK_OFFSET(0xB959920)
+#define CLASS_1_4D67A08A38F491FB_CLEAR_OFFSET UNITYSDK_OFFSET(0xB811730)
+#define CLASS_1_4D67A08A38F491FB__CTOR_OFFSET UNITYSDK_OFFSET(0xB811780)
 
-inline static constexpr unsigned int Class_1_4D67A08A38F491FB_TypeDefinitionIndex = 48881;
+inline static constexpr unsigned int Class_1_4D67A08A38F491FB_TypeDefinitionIndex = 48427;
 
 class Class_1_4D67A08A38F491FB : public ::System::Object
 {

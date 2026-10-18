@@ -4,12 +4,12 @@
 
 namespace RPG::Client::ChenLingBattle { class Condition; }
 
-#define RPG_CLIENT_CHENLINGBATTLE_SOLDIERPROMOTION___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCB17A30)
-#define RPG_CLIENT_CHENLINGBATTLE_SOLDIERPROMOTION___C__DISPLAYCLASS3_0__ISNEEDCONDITION_B__0_OFFSET UNITYSDK_OFFSET(0xCB18360)
+#define RPG_CLIENT_CHENLINGBATTLE_SOLDIERPROMOTION___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCA66410)
+#define RPG_CLIENT_CHENLINGBATTLE_SOLDIERPROMOTION___C__DISPLAYCLASS3_0__ISNEEDCONDITION_B__0_OFFSET UNITYSDK_OFFSET(0xCA66D40)
 
 namespace RPG::Client::ChenLingBattle
 {
-	inline static constexpr unsigned int SoldierPromotion___c__DisplayClass3_0_TypeDefinitionIndex = 75897;
+	inline static constexpr unsigned int SoldierPromotion___c__DisplayClass3_0_TypeDefinitionIndex = 76374;
 
 	class SoldierPromotion___c__DisplayClass3_0 : public ::System::Object
 	{

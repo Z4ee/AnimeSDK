@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define RPG_CLIENT_CHENLINGPREPARECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xCB8B410)
+#define RPG_CLIENT_CHENLINGPREPARECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xCADA8D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChenLingPrepareConfig_TypeDefinitionIndex = 72394;
+	inline static constexpr unsigned int ChenLingPrepareConfig_TypeDefinitionIndex = 72467;
 
 	class ChenLingPrepareConfig : public ::UnityEngine::MonoBehaviour
 	{

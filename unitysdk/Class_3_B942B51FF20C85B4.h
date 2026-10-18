@@ -7,19 +7,19 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class FiveDimTrainEnergyGear; }
 
-#define CLASS_3_B942B51FF20C85B4_METHOD_3_292FA0EEF6659E6F_OFFSET UNITYSDK_OFFSET(0x1CB595F0)
-#define CLASS_3_B942B51FF20C85B4_METHOD_3_E29CAE0C7AB44E72_OFFSET UNITYSDK_OFFSET(0x1CB595B0)
-#define CLASS_3_B942B51FF20C85B4__CTOR_OFFSET UNITYSDK_OFFSET(0x1CB595E0)
+#define CLASS_3_B942B51FF20C85B4_METHOD_3_292FA0EEF6659E6F_OFFSET UNITYSDK_OFFSET(0x1D118DB0)
+#define CLASS_3_B942B51FF20C85B4_METHOD_3_E29CAE0C7AB44E72_OFFSET UNITYSDK_OFFSET(0x1D118D70)
+#define CLASS_3_B942B51FF20C85B4__CTOR_OFFSET UNITYSDK_OFFSET(0x1D118DA0)
 
-inline static constexpr unsigned int Class_3_B942B51FF20C85B4_TypeDefinitionIndex = 21223;
+inline static constexpr unsigned int Class_3_B942B51FF20C85B4_TypeDefinitionIndex = 21469;
 
 class Class_3_B942B51FF20C85B4 : public ::RPG::GameCore::TaskConfig
 {
 public:
-	::RPG::GameCore::DynamicFloat* IAMKAPIJLGP; // 0x18
-	::RPG::GameCore::DynamicString* OAOGPNFPBCC; // 0x20
-	::RPG::GameCore::DynamicFloat* DBNCAMCCAFM; // 0x28
-	::Il2CppArray<::RPG::GameCore::FiveDimTrainEnergyGear*>* FFDJIJCCDFO; // 0x30
+	::RPG::GameCore::DynamicFloat* DBNCAMCCAFM; // 0x18
+	::Il2CppArray<::RPG::GameCore::FiveDimTrainEnergyGear*>* FFDJIJCCDFO; // 0x20
+	::RPG::GameCore::DynamicString* OAOGPNFPBCC; // 0x28
+	::RPG::GameCore::DynamicFloat* IAMKAPIJLGP; // 0x30
 
 	::System::Void _ctor()
 	{

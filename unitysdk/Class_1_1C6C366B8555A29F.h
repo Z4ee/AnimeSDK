@@ -9,7 +9,7 @@ namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-inline static constexpr unsigned int Class_1_1C6C366B8555A29F_TypeDefinitionIndex = 50293;
+inline static constexpr unsigned int Class_1_1C6C366B8555A29F_TypeDefinitionIndex = 49967;
 
 template <typename TView>
 class Class_1_1C6C366B8555A29F : public ::System::Object

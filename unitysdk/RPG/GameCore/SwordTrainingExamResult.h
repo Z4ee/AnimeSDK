@@ -4,18 +4,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_SWORDTRAININGEXAMRESULT_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D593510)
-#define RPG_GAMECORE_SWORDTRAININGEXAMRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D593630)
+#define RPG_GAMECORE_SWORDTRAININGEXAMRESULT_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DB4A140)
+#define RPG_GAMECORE_SWORDTRAININGEXAMRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB4A260)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SwordTrainingExamResult_TypeDefinitionIndex = 12337;
+	inline static constexpr unsigned int SwordTrainingExamResult_TypeDefinitionIndex = 12423;
 
 	class SwordTrainingExamResult : public ::System::Object
 	{
 	public:
-		::System::UInt32 CombatRatio; // 0x10
-		::System::UInt32 EffectID; // 0x14
+		::System::UInt32 EffectID; // 0x10
+		::System::UInt32 CombatRatio; // 0x14
 
 		::System::Void _ctor()
 		{

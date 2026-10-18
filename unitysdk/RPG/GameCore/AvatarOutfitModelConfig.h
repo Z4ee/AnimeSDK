@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class AvatarOutfitDecorationConfig; }
 namespace RPG::GameCore { class AvatarOutfitPartConfig; }
 
-#define RPG_GAMECORE_AVATAROUTFITMODELCONFIG_METHOD_2_E068529EE4FD8635_OFFSET UNITYSDK_OFFSET(0x1CE42320)
-#define RPG_GAMECORE_AVATAROUTFITMODELCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE42450)
+#define RPG_GAMECORE_AVATAROUTFITMODELCONFIG_METHOD_2_E068529EE4FD8635_OFFSET UNITYSDK_OFFSET(0x1D418760)
+#define RPG_GAMECORE_AVATAROUTFITMODELCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D418890)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AvatarOutfitModelConfig_TypeDefinitionIndex = 16412;
+	inline static constexpr unsigned int AvatarOutfitModelConfig_TypeDefinitionIndex = 16588;
 
 	class AvatarOutfitModelConfig : public ::RPG::GameCore::JsonConfig
 	{

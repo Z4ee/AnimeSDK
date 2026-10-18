@@ -1,11 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/ValueTuple_2.h"
+#include "unitysdk/UnityEngine/Quaternion.h"
+#include "unitysdk/UnityEngine/Vector3.h"
 
-class Class_1_7B4E9156998275BE;
-class Class_1_F3CAAE7E7C7111CC;
-namespace System { class Object; }
+class Class_2_B9E8C2EEAA5C96EC;
+namespace System { class String; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_343_TypeDefinitionIndex = 42486;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_343_TypeDefinitionIndex = 43611;
 
 class Class_0_16E4307DCC419505_343
 {

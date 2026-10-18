@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class EffectDurationConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SINGLEELATIONSKILLRESBAKECONFIG_METHOD_2_017041355F7C712F_OFFSET UNITYSDK_OFFSET(0x1D5365B0)
-#define RPG_GAMECORE_SINGLEELATIONSKILLRESBAKECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D536810)
+#define RPG_GAMECORE_SINGLEELATIONSKILLRESBAKECONFIG_METHOD_2_4C35FEECAC2DF654_OFFSET UNITYSDK_OFFSET(0x1DAEB250)
+#define RPG_GAMECORE_SINGLEELATIONSKILLRESBAKECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1DAEB480)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SingleElationSkillResBakeConfig_TypeDefinitionIndex = 16173;
+	inline static constexpr unsigned int SingleElationSkillResBakeConfig_TypeDefinitionIndex = 16346;
 
 	class SingleElationSkillResBakeConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -28,9 +28,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SINGLEELATIONSKILLRESBAKECONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_017041355F7C712F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SingleElationSkillResBakeConfig*& a2)
+		static ::System::Void Method_2_4C35FEECAC2DF654(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SingleElationSkillResBakeConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SingleElationSkillResBakeConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SINGLEELATIONSKILLRESBAKECONFIG_METHOD_2_017041355F7C712F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SingleElationSkillResBakeConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SINGLEELATIONSKILLRESBAKECONFIG_METHOD_2_4C35FEECAC2DF654_OFFSET))(a1, a2);
 		}
 	};
 }

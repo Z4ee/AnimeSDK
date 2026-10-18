@@ -4,10 +4,10 @@
 
 namespace System::Text { class EncoderFallbackBuffer; }
 
-#define SYSTEM_TEXT_ENCODERFALLBACK_GET_EXCEPTIONFALLBACK_OFFSET UNITYSDK_OFFSET(0x1BC0BF60)
-#define SYSTEM_TEXT_ENCODERFALLBACK_GET_INTERNALSYNCOBJECT_OFFSET UNITYSDK_OFFSET(0x1BC0BE20)
-#define SYSTEM_TEXT_ENCODERFALLBACK_GET_REPLACEMENTFALLBACK_OFFSET UNITYSDK_OFFSET(0x1BC0A780)
-#define SYSTEM_TEXT_ENCODERFALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC0B670)
+#define SYSTEM_TEXT_ENCODERFALLBACK_GET_EXCEPTIONFALLBACK_OFFSET UNITYSDK_OFFSET(0x1C118130)
+#define SYSTEM_TEXT_ENCODERFALLBACK_GET_INTERNALSYNCOBJECT_OFFSET UNITYSDK_OFFSET(0x1C117FF0)
+#define SYSTEM_TEXT_ENCODERFALLBACK_GET_REPLACEMENTFALLBACK_OFFSET UNITYSDK_OFFSET(0x1C116950)
+#define SYSTEM_TEXT_ENCODERFALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1C117840)
 
 namespace System::Text
 {
@@ -16,17 +16,17 @@ namespace System::Text
 	class EncoderFallback : public ::System::Object
 	{
 	public:
-		static ::System::Text::EncoderFallback** StaticGet_exceptionFallback()
-		{
-			return (::System::Text::EncoderFallback**)Il2CppClass::FromTypeDefinitionIndex(EncoderFallback_TypeDefinitionIndex)->GetStaticField(0x10C90);
-		}
 		static ::System::Text::EncoderFallback** StaticGet_replacementFallback()
 		{
-			return (::System::Text::EncoderFallback**)Il2CppClass::FromTypeDefinitionIndex(EncoderFallback_TypeDefinitionIndex)->GetStaticField(0x10C98);
+			return (::System::Text::EncoderFallback**)Il2CppClass::FromTypeDefinitionIndex(EncoderFallback_TypeDefinitionIndex)->GetStaticField(0x1CC30);
 		}
 		static ::System::Object** StaticGet_s_InternalSyncObject()
 		{
-			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(EncoderFallback_TypeDefinitionIndex)->GetStaticField(0x10CA0);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(EncoderFallback_TypeDefinitionIndex)->GetStaticField(0x1CC38);
+		}
+		static ::System::Text::EncoderFallback** StaticGet_exceptionFallback()
+		{
+			return (::System::Text::EncoderFallback**)Il2CppClass::FromTypeDefinitionIndex(EncoderFallback_TypeDefinitionIndex)->GetStaticField(0x1CC40);
 		}
 		::System::Boolean bIsMicrosoftBestFitFallback; // 0x10
 

@@ -4,12 +4,12 @@
 #include "unitysdk/MessagePack/Unity/Extension/UnsafeBlitFormatterBase_2.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define MESSAGEPACK_UNITY_EXTENSION_VECTOR2ARRAYBLITFORMATTER_GET_TYPECODE_OFFSET UNITYSDK_OFFSET(0x1B665510)
-#define MESSAGEPACK_UNITY_EXTENSION_VECTOR2ARRAYBLITFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B665520)
+#define MESSAGEPACK_UNITY_EXTENSION_VECTOR2ARRAYBLITFORMATTER_GET_TYPECODE_OFFSET UNITYSDK_OFFSET(0x1BB64250)
+#define MESSAGEPACK_UNITY_EXTENSION_VECTOR2ARRAYBLITFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB64260)
 
 namespace MessagePack::Unity::Extension
 {
-	inline static constexpr unsigned int Vector2ArrayBlitFormatter_TypeDefinitionIndex = 10144;
+	inline static constexpr unsigned int Vector2ArrayBlitFormatter_TypeDefinitionIndex = 10157;
 
 	class Vector2ArrayBlitFormatter : public ::MessagePack::Unity::Extension::UnsafeBlitFormatterBase_2<::UnityEngine::Vector2, ::MessagePack::Unity::Extension::ReverseEndianessHelperSimpleRepeat_1<::System::Single>>
 	{

@@ -7,22 +7,22 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_EXPEDITIONBATTLEFUNTITLECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D080F10)
-#define RPG_GAMECORE_EXPEDITIONBATTLEFUNTITLECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0811F0)
+#define RPG_GAMECORE_EXPEDITIONBATTLEFUNTITLECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D68EF00)
+#define RPG_GAMECORE_EXPEDITIONBATTLEFUNTITLECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D68F1E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ExpeditionBattleFunTitleConfigRow_TypeDefinitionIndex = 11436;
+	inline static constexpr unsigned int ExpeditionBattleFunTitleConfigRow_TypeDefinitionIndex = 11452;
 
 	class ExpeditionBattleFunTitleConfigRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 ID; // 0x10
-		::RPG::GameCore::ExpeditionBattleTitelType Type; // 0x14
+		::System::UInt32 ConditionParam; // 0x10
+		::RPG::GameCore::ExpeditionBattleConditionType ConditionParamType; // 0x14
 		::RPG::Client::TextID FunTitleDesc; // 0x18
-		::RPG::GameCore::ExpeditionBattleConditionType ConditionParamType; // 0x28
-		::System::UInt32 ConditionParam; // 0x2C
-		::RPG::Client::TextID FunTitleName; // 0x30
+		::RPG::Client::TextID FunTitleName; // 0x28
+		::System::UInt32 ID; // 0x38
+		::RPG::GameCore::ExpeditionBattleTitelType Type; // 0x3C
 
 		::System::Void _ctor()
 		{

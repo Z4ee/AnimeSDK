@@ -7,34 +7,34 @@ namespace RPG::Client { class LuaUIController; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_MATCHTHREEUTILS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD658D50)
-#define RPG_CLIENT_MATCHTHREEUTILS___C__CREATEANDOPENLOBBY_B__2_3_OFFSET UNITYSDK_OFFSET(0xD658DA0)
-#define RPG_CLIENT_MATCHTHREEUTILS___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD658D90)
-#define RPG_CLIENT_MATCHTHREEUTILS___C__SHOWCONFIRMGIVEUPDIALOG_B__15_0_OFFSET UNITYSDK_OFFSET(0xD658E60)
-#define RPG_CLIENT_MATCHTHREEUTILS___C___BEGINJOINLOBBY_B__4_0_OFFSET UNITYSDK_OFFSET(0xD658E50)
+#define RPG_CLIENT_MATCHTHREEUTILS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD5B2B90)
+#define RPG_CLIENT_MATCHTHREEUTILS___C__CREATEANDOPENLOBBY_B__2_3_OFFSET UNITYSDK_OFFSET(0xD5B2BE0)
+#define RPG_CLIENT_MATCHTHREEUTILS___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD5B2BD0)
+#define RPG_CLIENT_MATCHTHREEUTILS___C__SHOWCONFIRMGIVEUPDIALOG_B__15_0_OFFSET UNITYSDK_OFFSET(0xD5B2CA0)
+#define RPG_CLIENT_MATCHTHREEUTILS___C___BEGINJOINLOBBY_B__4_0_OFFSET UNITYSDK_OFFSET(0xD5B2C90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MatchThreeUtils___c_TypeDefinitionIndex = 66026;
+	inline static constexpr unsigned int MatchThreeUtils___c_TypeDefinitionIndex = 65980;
 
 	class MatchThreeUtils___c : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::RPG::Client::BaseLobby*>** StaticGet___9__4_0()
-		{
-			return (::System::Action_1<::RPG::Client::BaseLobby*>**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeUtils___c_TypeDefinitionIndex)->GetStaticField(0x663F0);
-		}
-		static ::System::Func_2<::RPG::Client::BaseLobby*, ::RPG::Client::LuaUIController*>** StaticGet___9__2_3()
-		{
-			return (::System::Func_2<::RPG::Client::BaseLobby*, ::RPG::Client::LuaUIController*>**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeUtils___c_TypeDefinitionIndex)->GetStaticField(0x663F8);
-		}
 		static ::System::Action_1<::System::Boolean>** StaticGet___9__15_0()
 		{
-			return (::System::Action_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeUtils___c_TypeDefinitionIndex)->GetStaticField(0x66400);
+			return (::System::Action_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeUtils___c_TypeDefinitionIndex)->GetStaticField(0x54ED0);
+		}
+		static ::System::Action_1<::RPG::Client::BaseLobby*>** StaticGet___9__4_0()
+		{
+			return (::System::Action_1<::RPG::Client::BaseLobby*>**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeUtils___c_TypeDefinitionIndex)->GetStaticField(0x54ED8);
 		}
 		static ::RPG::Client::MatchThreeUtils___c** StaticGet___9()
 		{
-			return (::RPG::Client::MatchThreeUtils___c**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeUtils___c_TypeDefinitionIndex)->GetStaticField(0x66408);
+			return (::RPG::Client::MatchThreeUtils___c**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeUtils___c_TypeDefinitionIndex)->GetStaticField(0x54EE0);
+		}
+		static ::System::Func_2<::RPG::Client::BaseLobby*, ::RPG::Client::LuaUIController*>** StaticGet___9__2_3()
+		{
+			return (::System::Func_2<::RPG::Client::BaseLobby*, ::RPG::Client::LuaUIController*>**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeUtils___c_TypeDefinitionIndex)->GetStaticField(0x54EE8);
 		}
 
 		static ::System::Void _cctor()

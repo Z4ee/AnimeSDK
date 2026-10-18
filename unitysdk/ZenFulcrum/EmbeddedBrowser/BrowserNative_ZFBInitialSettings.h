@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int BrowserNative_ZFBInitialSettings_TypeDefinitionIndex = 38098;
+	inline static constexpr unsigned int BrowserNative_ZFBInitialSettings_TypeDefinitionIndex = 39395;
 
 	struct alignas(8) BrowserNative_ZFBInitialSettings
 	{

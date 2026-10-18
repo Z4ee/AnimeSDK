@@ -5,20 +5,20 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ACTIVITYPUNKLORDREWARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CD9CA50)
-#define RPG_GAMECORE_ACTIVITYPUNKLORDREWARDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD9D150)
+#define RPG_GAMECORE_ACTIVITYPUNKLORDREWARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D371890)
+#define RPG_GAMECORE_ACTIVITYPUNKLORDREWARDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D371F50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityPunkLordRewardRow_TypeDefinitionIndex = 12210;
+	inline static constexpr unsigned int ActivityPunkLordRewardRow_TypeDefinitionIndex = 12291;
 
 	class ActivityPunkLordRewardRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 RewardLevel; // 0x10
-		::RPG::Client::TextID RewardLevelName; // 0x18
+		::RPG::Client::TextID RewardLevelName; // 0x10
+		::System::UInt32 RewardID; // 0x20
+		::System::UInt32 RewardLevel; // 0x24
 		::System::UInt32 RewardPoint; // 0x28
-		::System::UInt32 RewardID; // 0x2C
 
 		::System::Void _ctor()
 		{

@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ACTIVITYPANELSINGLEREWARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CD9A330)
-#define RPG_GAMECORE_ACTIVITYPANELSINGLEREWARDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD9A4D0)
+#define RPG_GAMECORE_ACTIVITYPANELSINGLEREWARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D36F170)
+#define RPG_GAMECORE_ACTIVITYPANELSINGLEREWARDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D36F310)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityPanelSingleRewardRow_TypeDefinitionIndex = 11207;
+	inline static constexpr unsigned int ActivityPanelSingleRewardRow_TypeDefinitionIndex = 11223;
 
 	class ActivityPanelSingleRewardRow : public ::System::Object
 	{

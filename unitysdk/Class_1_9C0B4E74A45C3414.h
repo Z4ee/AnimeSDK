@@ -6,25 +6,25 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define CLASS_1_9C0B4E74A45C3414_METHOD_1_F6FF3DE94D09C840_OFFSET UNITYSDK_OFFSET(0x1C860C90)
-#define CLASS_1_9C0B4E74A45C3414__CTOR_OFFSET UNITYSDK_OFFSET(0x1C861200)
+#define CLASS_1_9C0B4E74A45C3414_METHOD_1_F6FF3DE94D09C840_OFFSET UNITYSDK_OFFSET(0x1CDFBF40)
+#define CLASS_1_9C0B4E74A45C3414__CTOR_OFFSET UNITYSDK_OFFSET(0x1CDFC4B0)
 
-inline static constexpr unsigned int Class_1_9C0B4E74A45C3414_TypeDefinitionIndex = 11274;
+inline static constexpr unsigned int Class_1_9C0B4E74A45C3414_TypeDefinitionIndex = 11290;
 
 class Class_1_9C0B4E74A45C3414 : public ::System::Object
 {
 public:
-	::System::String* FNFACKPFNKL; // 0x10
-	::System::String* DOEJKEGCHIG; // 0x18
-	::System::String* HBAEOBMGAOO; // 0x20
-	::System::String* OOLEAPLDIEA; // 0x28
-	::System::String* EPBIIPGGHIJ; // 0x30
-	::System::String* HOHLFFPPBON; // 0x38
-	::RPG::Client::TextID OBCPCPLBIGP; // 0x40
-	::RPG::Client::TextID KANFOJDEPME; // 0x50
-	::RPG::Client::TextID JPBADMFEFKL; // 0x60
-	::System::UInt32 PHFMCACHFIJ; // 0x70
-	::RPG::Client::TextID ELAIIFMNEHD; // 0x78
+	::System::String* OOLEAPLDIEA; // 0x10
+	::System::String* EPBIIPGGHIJ; // 0x18
+	::System::String* HOHLFFPPBON; // 0x20
+	::System::String* HBAEOBMGAOO; // 0x28
+	::System::String* FNFACKPFNKL; // 0x30
+	::System::String* DOEJKEGCHIG; // 0x38
+	::RPG::Client::TextID JPBADMFEFKL; // 0x40
+	::System::UInt32 PHFMCACHFIJ; // 0x50
+	::RPG::Client::TextID ELAIIFMNEHD; // 0x58
+	::RPG::Client::TextID KANFOJDEPME; // 0x68
+	::RPG::Client::TextID OBCPCPLBIGP; // 0x78
 	::RPG::Client::TextID GFLNPPIFGGE; // 0x88
 
 	::System::Void _ctor()

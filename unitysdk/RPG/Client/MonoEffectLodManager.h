@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define RPG_CLIENT_MONOEFFECTLODMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0xD769090)
+#define RPG_CLIENT_MONOEFFECTLODMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0xD7AA7C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectLodManager_TypeDefinitionIndex = 69878;
+	inline static constexpr unsigned int MonoEffectLodManager_TypeDefinitionIndex = 69912;
 
 	class MonoEffectLodManager : public ::UnityEngine::MonoBehaviour
 	{

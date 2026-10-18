@@ -2,31 +2,31 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define STRUCT_2_FE845636D354B5F8__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C0AA160)
+#define STRUCT_2_FE845636D354B5F8__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C5FADF0)
 
-inline static constexpr unsigned int Struct_2_FE845636D354B5F8_TypeDefinitionIndex = 35581;
+inline static constexpr unsigned int Struct_2_FE845636D354B5F8_TypeDefinitionIndex = 36268;
 
 struct alignas(1) Struct_2_FE845636D354B5F8
 {
 	static ::Struct_2_FE845636D354B5F8* StaticGet_GFGPFNNHNPD()
 	{
-		return (::Struct_2_FE845636D354B5F8*)Il2CppClass::FromTypeDefinitionIndex(Struct_2_FE845636D354B5F8_TypeDefinitionIndex)->GetStaticField(0x16B0);
-	}
-	static ::Struct_2_FE845636D354B5F8* StaticGet_ACAOCKPIGPL()
-	{
-		return (::Struct_2_FE845636D354B5F8*)Il2CppClass::FromTypeDefinitionIndex(Struct_2_FE845636D354B5F8_TypeDefinitionIndex)->GetStaticField(0x16B4);
+		return (::Struct_2_FE845636D354B5F8*)Il2CppClass::FromTypeDefinitionIndex(Struct_2_FE845636D354B5F8_TypeDefinitionIndex)->GetStaticField(0x13BC0);
 	}
 	static ::Struct_2_FE845636D354B5F8* StaticGet_JOINAABKFHM()
 	{
-		return (::Struct_2_FE845636D354B5F8*)Il2CppClass::FromTypeDefinitionIndex(Struct_2_FE845636D354B5F8_TypeDefinitionIndex)->GetStaticField(0x16B8);
+		return (::Struct_2_FE845636D354B5F8*)Il2CppClass::FromTypeDefinitionIndex(Struct_2_FE845636D354B5F8_TypeDefinitionIndex)->GetStaticField(0x13BC4);
+	}
+	static ::Struct_2_FE845636D354B5F8* StaticGet_ACAOCKPIGPL()
+	{
+		return (::Struct_2_FE845636D354B5F8*)Il2CppClass::FromTypeDefinitionIndex(Struct_2_FE845636D354B5F8_TypeDefinitionIndex)->GetStaticField(0x13BC8);
 	}
 	static ::Struct_2_FE845636D354B5F8* StaticGet_PLFFEGJOADD()
 	{
-		return (::Struct_2_FE845636D354B5F8*)Il2CppClass::FromTypeDefinitionIndex(Struct_2_FE845636D354B5F8_TypeDefinitionIndex)->GetStaticField(0x16BC);
+		return (::Struct_2_FE845636D354B5F8*)Il2CppClass::FromTypeDefinitionIndex(Struct_2_FE845636D354B5F8_TypeDefinitionIndex)->GetStaticField(0x13BCC);
 	}
 	static ::Struct_2_FE845636D354B5F8* StaticGet_KOJMNNOAHHN()
 	{
-		return (::Struct_2_FE845636D354B5F8*)Il2CppClass::FromTypeDefinitionIndex(Struct_2_FE845636D354B5F8_TypeDefinitionIndex)->GetStaticField(0x16C0);
+		return (::Struct_2_FE845636D354B5F8*)Il2CppClass::FromTypeDefinitionIndex(Struct_2_FE845636D354B5F8_TypeDefinitionIndex)->GetStaticField(0x13BD0);
 	}
 	::System::Boolean PJONDAHHJGL; // 0x10
 	::System::Boolean NJEMAHGDCON; // 0x11

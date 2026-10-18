@@ -5,24 +5,24 @@
 namespace RPG::Client { class GridFightEquipItemData; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_GRIDFIGHTTEAMCALCULATOR___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD34A000)
-#define RPG_CLIENT_GRIDFIGHTTEAMCALCULATOR___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD34A040)
-#define RPG_CLIENT_GRIDFIGHTTEAMCALCULATOR___C___CALCULATEEMBLEMSCORE_B__28_0_OFFSET UNITYSDK_OFFSET(0xD34A050)
+#define RPG_CLIENT_GRIDFIGHTTEAMCALCULATOR___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD2A39B0)
+#define RPG_CLIENT_GRIDFIGHTTEAMCALCULATOR___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD2A39F0)
+#define RPG_CLIENT_GRIDFIGHTTEAMCALCULATOR___C___CALCULATEEMBLEMSCORE_B__28_0_OFFSET UNITYSDK_OFFSET(0xD2A3A00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightTeamCalculator___c_TypeDefinitionIndex = 64885;
+	inline static constexpr unsigned int GridFightTeamCalculator___c_TypeDefinitionIndex = 64825;
 
 	class GridFightTeamCalculator___c : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::GridFightTeamCalculator___c** StaticGet___9()
 		{
-			return (::RPG::Client::GridFightTeamCalculator___c**)Il2CppClass::FromTypeDefinitionIndex(GridFightTeamCalculator___c_TypeDefinitionIndex)->GetStaticField(0x52D50);
+			return (::RPG::Client::GridFightTeamCalculator___c**)Il2CppClass::FromTypeDefinitionIndex(GridFightTeamCalculator___c_TypeDefinitionIndex)->GetStaticField(0x22E0);
 		}
 		static ::System::Func_2<::RPG::Client::GridFightEquipItemData*, ::System::Boolean>** StaticGet___9__28_0()
 		{
-			return (::System::Func_2<::RPG::Client::GridFightEquipItemData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(GridFightTeamCalculator___c_TypeDefinitionIndex)->GetStaticField(0x52D58);
+			return (::System::Func_2<::RPG::Client::GridFightEquipItemData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(GridFightTeamCalculator___c_TypeDefinitionIndex)->GetStaticField(0x22E8);
 		}
 
 		static ::System::Void _cctor()

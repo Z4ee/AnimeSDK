@@ -5,22 +5,22 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ACTIVITYSTARFIGHTSTAGECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CDA9E50)
-#define RPG_GAMECORE_ACTIVITYSTARFIGHTSTAGECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CDAA070)
+#define RPG_GAMECORE_ACTIVITYSTARFIGHTSTAGECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D37EF00)
+#define RPG_GAMECORE_ACTIVITYSTARFIGHTSTAGECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D37F120)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityStarFightStageConfigRow_TypeDefinitionIndex = 12303;
+	inline static constexpr unsigned int ActivityStarFightStageConfigRow_TypeDefinitionIndex = 12389;
 
 	class ActivityStarFightStageConfigRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* QuestList; // 0x10
-		::System::UInt32 EventID; // 0x18
-		::RPG::GameCore::StarFightDifficulty DifficultyLevel; // 0x1C
-		::System::UInt32 BattleAreaID; // 0x20
-		::System::UInt32 GroupID; // 0x24
-		::System::UInt32 UnlockQuest; // 0x28
+		::RPG::GameCore::StarFightDifficulty DifficultyLevel; // 0x18
+		::System::UInt32 GroupID; // 0x1C
+		::System::UInt32 EventID; // 0x20
+		::System::UInt32 UnlockQuest; // 0x24
+		::System::UInt32 BattleAreaID; // 0x28
 
 		::System::Void _ctor()
 		{

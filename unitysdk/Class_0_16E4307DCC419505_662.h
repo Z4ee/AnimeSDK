@@ -1,11 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/AvatarBaseType.h"
+#include "unitysdk/RPG/GameCore/AvatarBaseTypeKind.h"
+#include "unitysdk/RPG/GameCore/AvatarBaseTypeMask.h"
+#include "unitysdk/RPG/GameCore/AvatarSpecialUltraType.h"
 
-class Class_1_F84162D45373F557_Class_1_880304D4E9A590C8;
-namespace RPG::Client { class CloudUIPosReporterMono; }
-namespace System::Collections::Generic { template <typename T> class List_1; }
+namespace RPG::AvatarSystem { class IAvatar; }
+namespace RPG::GameCore { class AvatarBaseTypeCollection; }
+namespace RPG::GameCore { class AvatarUltraSkillConfigRow; }
+namespace RPG::GameCore { class SpecialAvatarRow; }
+namespace System { class String; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_662_TypeDefinitionIndex = 59994;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_662_TypeDefinitionIndex = 56929;
 
 class Class_0_16E4307DCC419505_662
 {

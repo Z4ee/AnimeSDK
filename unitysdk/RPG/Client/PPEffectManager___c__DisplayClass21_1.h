@@ -5,12 +5,12 @@
 class Class_1_E4DE5172E22946B7;
 namespace RPG::GameCore { class GameEntity; }
 
-#define RPG_CLIENT_PPEFFECTMANAGER___C__DISPLAYCLASS21_1__CTOR_OFFSET UNITYSDK_OFFSET(0xDA15180)
-#define RPG_CLIENT_PPEFFECTMANAGER___C__DISPLAYCLASS21_1__REFRESHAVATARINTENSITY_B__1_OFFSET UNITYSDK_OFFSET(0xDA1A860)
+#define RPG_CLIENT_PPEFFECTMANAGER___C__DISPLAYCLASS21_1__CTOR_OFFSET UNITYSDK_OFFSET(0xDA612C0)
+#define RPG_CLIENT_PPEFFECTMANAGER___C__DISPLAYCLASS21_1__REFRESHAVATARINTENSITY_B__1_OFFSET UNITYSDK_OFFSET(0xDA66B90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PPEffectManager___c__DisplayClass21_1_TypeDefinitionIndex = 69738;
+	inline static constexpr unsigned int PPEffectManager___c__DisplayClass21_1_TypeDefinitionIndex = 69773;
 
 	class PPEffectManager___c__DisplayClass21_1 : public ::System::Object
 	{

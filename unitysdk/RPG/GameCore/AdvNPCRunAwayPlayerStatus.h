@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvNPCRunAwayPlayerStatus_TypeDefinitionIndex = 52712;
+	inline static constexpr unsigned int AdvNPCRunAwayPlayerStatus_TypeDefinitionIndex = 52437;
 
 	enum class AdvNPCRunAwayPlayerStatus : ::System::Int32
 	{

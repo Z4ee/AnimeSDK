@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509EXTENSIONCOLLECTION__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E9ECAC0)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509EXTENSIONCOLLECTION__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F0B4650)
 
 namespace System::Security::Cryptography::X509Certificates
 {
@@ -13,7 +13,7 @@ namespace System::Security::Cryptography::X509Certificates
 	public:
 		static ::Il2CppArray<::System::Byte>** StaticGet_Empty()
 		{
-			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(X509ExtensionCollection_TypeDefinitionIndex)->GetStaticField(0x24510);
+			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(X509ExtensionCollection_TypeDefinitionIndex)->GetStaticField(0x30580);
 		}
 
 		static ::System::Void _cctor()

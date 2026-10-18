@@ -8,12 +8,12 @@ namespace RPG::Client { class Effect_InstanceDataGPUParticlesBehavior; }
 namespace System { class String; }
 namespace UnityEngine { class GPUParticlesRenderer; }
 
-#define RPG_CLIENT_EFFECT_INSTANCEDATAGPUPARTICLES_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xCDEC3A0)
-#define RPG_CLIENT_EFFECT_INSTANCEDATAGPUPARTICLES__CTOR_OFFSET UNITYSDK_OFFSET(0xCDEC3F0)
+#define RPG_CLIENT_EFFECT_INSTANCEDATAGPUPARTICLES_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xCD3CC00)
+#define RPG_CLIENT_EFFECT_INSTANCEDATAGPUPARTICLES__CTOR_OFFSET UNITYSDK_OFFSET(0xCD3CC50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_InstanceDataGPUParticles_TypeDefinitionIndex = 70603;
+	inline static constexpr unsigned int Effect_InstanceDataGPUParticles_TypeDefinitionIndex = 70639;
 
 	class Effect_InstanceDataGPUParticles : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::Effect_InstanceDataGPUParticlesBehavior*>
 	{

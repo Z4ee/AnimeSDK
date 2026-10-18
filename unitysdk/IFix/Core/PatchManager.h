@@ -18,43 +18,43 @@ namespace System::Reflection { class MethodBase; }
 namespace System::Reflection { class MethodInfo; }
 namespace System::Reflection { class ParameterInfo; }
 
-#define IFIX_CORE_PATCHMANAGER_APPENDPATCH_OFFSET UNITYSDK_OFFSET(0x1B4C7810)
-#define IFIX_CORE_PATCHMANAGER_GETMAPID_1_OFFSET UNITYSDK_OFFSET(0x1B4BE7A0)
-#define IFIX_CORE_PATCHMANAGER_GETMAPID_OFFSET UNITYSDK_OFFSET(0x1B4BE280)
-#define IFIX_CORE_PATCHMANAGER_LOADMANIFEST_OFFSET UNITYSDK_OFFSET(0x1B4C5360)
-#define IFIX_CORE_PATCHMANAGER_LOAD_OFFSET UNITYSDK_OFFSET(0x1B4BF690)
-#define IFIX_CORE_PATCHMANAGER_LOGFORMAT_OFFSET UNITYSDK_OFFSET(0x1B4BF1F0)
-#define IFIX_CORE_PATCHMANAGER_LOG_OFFSET UNITYSDK_OFFSET(0x1B4BF160)
-#define IFIX_CORE_PATCHMANAGER_MERGEWRAPPER_OFFSET UNITYSDK_OFFSET(0x1B4CBA90)
-#define IFIX_CORE_PATCHMANAGER_READMETHOD_OFFSET UNITYSDK_OFFSET(0x1B4BC900)
-#define IFIX_CORE_PATCHMANAGER_READSLOTINFO_OFFSET UNITYSDK_OFFSET(0x1B4BEAD0)
-#define IFIX_CORE_PATCHMANAGER_SETANONYMOUSSTOREYINFO_OFFSET UNITYSDK_OFFSET(0x1B4BF340)
-#define IFIX_CORE_PATCHMANAGER_VALIDATEANONYMOUSSTOREYCTORINFO_OFFSET UNITYSDK_OFFSET(0x1B4BF530)
-#define IFIX_CORE_PATCHMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B4CC6A0)
-#define IFIX_CORE_PATCHMANAGER__READMETHOD_M__0_OFFSET UNITYSDK_OFFSET(0x1B4CC7B0)
+#define IFIX_CORE_PATCHMANAGER_APPENDPATCH_OFFSET UNITYSDK_OFFSET(0x1B9C97C0)
+#define IFIX_CORE_PATCHMANAGER_GETMAPID_1_OFFSET UNITYSDK_OFFSET(0x1B9C0900)
+#define IFIX_CORE_PATCHMANAGER_GETMAPID_OFFSET UNITYSDK_OFFSET(0x1B9C03E0)
+#define IFIX_CORE_PATCHMANAGER_LOADMANIFEST_OFFSET UNITYSDK_OFFSET(0x1B9C7330)
+#define IFIX_CORE_PATCHMANAGER_LOAD_OFFSET UNITYSDK_OFFSET(0x1B9C1750)
+#define IFIX_CORE_PATCHMANAGER_LOGFORMAT_OFFSET UNITYSDK_OFFSET(0x1B9C1350)
+#define IFIX_CORE_PATCHMANAGER_LOG_OFFSET UNITYSDK_OFFSET(0x1B9C12C0)
+#define IFIX_CORE_PATCHMANAGER_MERGEWRAPPER_OFFSET UNITYSDK_OFFSET(0x1B9CDA40)
+#define IFIX_CORE_PATCHMANAGER_READMETHOD_OFFSET UNITYSDK_OFFSET(0x1B9BEA30)
+#define IFIX_CORE_PATCHMANAGER_READSLOTINFO_OFFSET UNITYSDK_OFFSET(0x1B9C0C30)
+#define IFIX_CORE_PATCHMANAGER_SETANONYMOUSSTOREYINFO_OFFSET UNITYSDK_OFFSET(0x1B9C1400)
+#define IFIX_CORE_PATCHMANAGER_VALIDATEANONYMOUSSTOREYCTORINFO_OFFSET UNITYSDK_OFFSET(0x1B9C15F0)
+#define IFIX_CORE_PATCHMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B9CE650)
+#define IFIX_CORE_PATCHMANAGER__READMETHOD_M__0_OFFSET UNITYSDK_OFFSET(0x1B9CE760)
 
 namespace IFix::Core
 {
-	inline static constexpr unsigned int PatchManager_TypeDefinitionIndex = 10035;
+	inline static constexpr unsigned int PatchManager_TypeDefinitionIndex = 7102;
 
 	class PatchManager : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::System::String*>** StaticGet_DLog()
 		{
-			return (::System::Action_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(PatchManager_TypeDefinitionIndex)->GetStaticField(0x640);
-		}
-		static ::System::Collections::Generic::Dictionary_2<::System::Reflection::Assembly*, ::System::Action*>** StaticGet_removers()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Reflection::Assembly*, ::System::Action*>**)Il2CppClass::FromTypeDefinitionIndex(PatchManager_TypeDefinitionIndex)->GetStaticField(0x648);
-		}
-		static ::System::Func_2<::System::Reflection::ParameterInfo*, ::System::Type*>** StaticGet___f__am_cache0()
-		{
-			return (::System::Func_2<::System::Reflection::ParameterInfo*, ::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(PatchManager_TypeDefinitionIndex)->GetStaticField(0x650);
+			return (::System::Action_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(PatchManager_TypeDefinitionIndex)->GetStaticField(0x530);
 		}
 		static ::System::Collections::Generic::List_1<::System::Int32>** StaticGet_PatchedMethodIDs()
 		{
-			return (::System::Collections::Generic::List_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(PatchManager_TypeDefinitionIndex)->GetStaticField(0x658);
+			return (::System::Collections::Generic::List_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(PatchManager_TypeDefinitionIndex)->GetStaticField(0x538);
+		}
+		static ::System::Func_2<::System::Reflection::ParameterInfo*, ::System::Type*>** StaticGet___f__am_cache0()
+		{
+			return (::System::Func_2<::System::Reflection::ParameterInfo*, ::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(PatchManager_TypeDefinitionIndex)->GetStaticField(0x540);
+		}
+		static ::System::Collections::Generic::Dictionary_2<::System::Reflection::Assembly*, ::System::Action*>** StaticGet_removers()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::Reflection::Assembly*, ::System::Action*>**)Il2CppClass::FromTypeDefinitionIndex(PatchManager_TypeDefinitionIndex)->GetStaticField(0x548);
 		}
 
 		static ::System::Void _cctor()

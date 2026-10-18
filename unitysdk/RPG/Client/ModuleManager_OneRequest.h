@@ -4,11 +4,11 @@
 
 namespace System { class Action; }
 
-#define RPG_CLIENT_MODULEMANAGER_ONEREQUEST__CTOR_OFFSET UNITYSDK_OFFSET(0xD72CCC0)
+#define RPG_CLIENT_MODULEMANAGER_ONEREQUEST__CTOR_OFFSET UNITYSDK_OFFSET(0xD72C0B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ModuleManager_OneRequest_TypeDefinitionIndex = 66250;
+	inline static constexpr unsigned int ModuleManager_OneRequest_TypeDefinitionIndex = 66211;
 
 	class ModuleManager_OneRequest : public ::System::Object
 	{

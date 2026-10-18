@@ -10,7 +10,7 @@ namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int SkipUntil_1__SkipUntil__RunOther_d__18_TypeDefinitionIndex = 44446;
+	inline static constexpr unsigned int SkipUntil_1__SkipUntil__RunOther_d__18_TypeDefinitionIndex = 45585;
 
 	template <typename TSource>
 	struct SkipUntil_1__SkipUntil__RunOther_d__18

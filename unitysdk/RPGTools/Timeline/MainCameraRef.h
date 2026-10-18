@@ -6,12 +6,12 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_MAINCAMERAREF_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xE86DD70)
-#define RPGTOOLS_TIMELINE_MAINCAMERAREF__CTOR_OFFSET UNITYSDK_OFFSET(0xE86E700)
+#define RPGTOOLS_TIMELINE_MAINCAMERAREF_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xE90BF00)
+#define RPGTOOLS_TIMELINE_MAINCAMERAREF__CTOR_OFFSET UNITYSDK_OFFSET(0xE90C890)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int MainCameraRef_TypeDefinitionIndex = 48898;
+	inline static constexpr unsigned int MainCameraRef_TypeDefinitionIndex = 48444;
 
 	class MainCameraRef : public ::UnityEngine::Timeline::TrackAsset
 	{

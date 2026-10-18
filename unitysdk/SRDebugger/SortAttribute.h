@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SRDEBUGGER_SORTATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E68C000)
+#define SRDEBUGGER_SORTATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1ED53CF0)
 
 namespace SRDebugger
 {
-	inline static constexpr unsigned int SortAttribute_TypeDefinitionIndex = 37268;
+	inline static constexpr unsigned int SortAttribute_TypeDefinitionIndex = 37961;
 
 	class SortAttribute : public ::System::Attribute
 	{

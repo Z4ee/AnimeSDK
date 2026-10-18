@@ -7,27 +7,27 @@ namespace System::Collections::Concurrent { template <typename T1, typename T2> 
 namespace System::ComponentModel { class PropertyChangedEventArgs; }
 namespace System::ComponentModel { class PropertyChangedEventHandler; }
 
-#define SOFA_CORE_OBSERVABLEOBJECT_ADD_PROPERTYCHANGED_OFFSET UNITYSDK_OFFSET(0x1E5C89E0)
-#define SOFA_CORE_OBSERVABLEOBJECT_REMOVE_PROPERTYCHANGED_OFFSET UNITYSDK_OFFSET(0x1E5C8A40)
-#define SOFA_CORE_OBSERVABLEOBJECT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E5C8D00)
-#define SOFA_CORE_OBSERVABLEOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1E5C8CF0)
-#define SOFA_CORE_OBSERVABLEOBJECT__GETPROPERTYCHANGEDEVENTARGS_OFFSET UNITYSDK_OFFSET(0x1E5C8B30)
-#define SOFA_CORE_OBSERVABLEOBJECT__ONPROPERTYCHANGED_OFFSET UNITYSDK_OFFSET(0x1E5C8AA0)
+#define SOFA_CORE_OBSERVABLEOBJECT_ADD_PROPERTYCHANGED_OFFSET UNITYSDK_OFFSET(0x1EC90C80)
+#define SOFA_CORE_OBSERVABLEOBJECT_REMOVE_PROPERTYCHANGED_OFFSET UNITYSDK_OFFSET(0x1EC90CE0)
+#define SOFA_CORE_OBSERVABLEOBJECT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EC90FA0)
+#define SOFA_CORE_OBSERVABLEOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1EC90F90)
+#define SOFA_CORE_OBSERVABLEOBJECT__GETPROPERTYCHANGEDEVENTARGS_OFFSET UNITYSDK_OFFSET(0x1EC90DD0)
+#define SOFA_CORE_OBSERVABLEOBJECT__ONPROPERTYCHANGED_OFFSET UNITYSDK_OFFSET(0x1EC90D40)
 
 namespace Sofa::Core
 {
-	inline static constexpr unsigned int ObservableObject_TypeDefinitionIndex = 42424;
+	inline static constexpr unsigned int ObservableObject_TypeDefinitionIndex = 44107;
 
 	class ObservableObject : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::String*, ::System::ComponentModel::PropertyChangedEventArgs*>** StaticGet__PROPERTY_EVENT_ARGS()
 		{
-			return (::System::Collections::Concurrent::ConcurrentDictionary_2<::System::String*, ::System::ComponentModel::PropertyChangedEventArgs*>**)Il2CppClass::FromTypeDefinitionIndex(ObservableObject_TypeDefinitionIndex)->GetStaticField(0x54BB0);
+			return (::System::Collections::Concurrent::ConcurrentDictionary_2<::System::String*, ::System::ComponentModel::PropertyChangedEventArgs*>**)Il2CppClass::FromTypeDefinitionIndex(ObservableObject_TypeDefinitionIndex)->GetStaticField(0x4FFE0);
 		}
 		static ::System::ComponentModel::PropertyChangedEventArgs** StaticGet__NULL_EVENT_ARGS()
 		{
-			return (::System::ComponentModel::PropertyChangedEventArgs**)Il2CppClass::FromTypeDefinitionIndex(ObservableObject_TypeDefinitionIndex)->GetStaticField(0x54BB8);
+			return (::System::ComponentModel::PropertyChangedEventArgs**)Il2CppClass::FromTypeDefinitionIndex(ObservableObject_TypeDefinitionIndex)->GetStaticField(0x4FFE8);
 		}
 		::System::ComponentModel::PropertyChangedEventHandler* PropertyChanged; // 0x10
 

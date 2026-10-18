@@ -7,7 +7,7 @@ namespace System { template <typename T> class Action_1; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int EveryValueChangedUnityObject_2__EveryValueChanged___c_TypeDefinitionIndex = 44578;
+	inline static constexpr unsigned int EveryValueChangedUnityObject_2__EveryValueChanged___c_TypeDefinitionIndex = 45717;
 
 	template <typename TTarget, typename TProperty>
 	class EveryValueChangedUnityObject_2__EveryValueChanged___c : public ::System::Object

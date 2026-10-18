@@ -4,7 +4,7 @@
 
 namespace RPG::Client { class RuntimeGroupManager_GroupRefreshExtraInfo; }
 
-inline static constexpr unsigned int Struct_2_C2B892F638207307_TypeDefinitionIndex = 62277;
+inline static constexpr unsigned int Struct_2_C2B892F638207307_TypeDefinitionIndex = 62194;
 
 struct alignas(8) Struct_2_C2B892F638207307
 {

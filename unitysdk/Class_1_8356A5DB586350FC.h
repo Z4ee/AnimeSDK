@@ -5,15 +5,15 @@
 
 namespace System { class Action; }
 
-#define CLASS_1_8356A5DB586350FC__CTOR_OFFSET UNITYSDK_OFFSET(0x1C780A60)
+#define CLASS_1_8356A5DB586350FC__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD11070)
 
-inline static constexpr unsigned int Class_1_8356A5DB586350FC_TypeDefinitionIndex = 10357;
+inline static constexpr unsigned int Class_1_8356A5DB586350FC_TypeDefinitionIndex = 10372;
 
 class Class_1_8356A5DB586350FC : public ::System::Object
 {
 public:
-	::System::Action* ECHFHBKOMLC; // 0x10
-	::System::Action* MMLNGGEKDEN; // 0x18
+	::System::Action* MMLNGGEKDEN; // 0x10
+	::System::Action* ECHFHBKOMLC; // 0x18
 	::RPG::Expression::Precedence BPCGJGFOAGM; // 0x20
 
 	::System::Void _ctor()

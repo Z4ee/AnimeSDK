@@ -7,13 +7,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_CHARACTERTRIGGERFREESTYLEGRAPH_METHOD_3_1A8C022A72BE14D7_OFFSET UNITYSDK_OFFSET(0x1CF9F4A0)
-#define RPG_GAMECORE_CHARACTERTRIGGERFREESTYLEGRAPH_METHOD_3_551DA7DCC80DC32A_OFFSET UNITYSDK_OFFSET(0x1CF9F510)
-#define RPG_GAMECORE_CHARACTERTRIGGERFREESTYLEGRAPH__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF9F4F0)
+#define RPG_GAMECORE_CHARACTERTRIGGERFREESTYLEGRAPH_METHOD_3_B5A32838D1FEAFD2_OFFSET UNITYSDK_OFFSET(0x1D57A240)
+#define RPG_GAMECORE_CHARACTERTRIGGERFREESTYLEGRAPH_METHOD_3_DE2DE619130647CF_OFFSET UNITYSDK_OFFSET(0x1D57A2B0)
+#define RPG_GAMECORE_CHARACTERTRIGGERFREESTYLEGRAPH__CTOR_OFFSET UNITYSDK_OFFSET(0x1D57A290)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterTriggerFreeStyleGraph_TypeDefinitionIndex = 20993;
+	inline static constexpr unsigned int CharacterTriggerFreeStyleGraph_TypeDefinitionIndex = 21239;
 
 	class CharacterTriggerFreeStyleGraph : public ::RPG::GameCore::TaskConfig
 	{
@@ -29,14 +29,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERTRIGGERFREESTYLEGRAPH__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_1A8C022A72BE14D7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CharacterTriggerFreeStyleGraph*& a2)
+		static ::System::Void Method_3_B5A32838D1FEAFD2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CharacterTriggerFreeStyleGraph*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CharacterTriggerFreeStyleGraph*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERTRIGGERFREESTYLEGRAPH_METHOD_3_1A8C022A72BE14D7_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CharacterTriggerFreeStyleGraph*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERTRIGGERFREESTYLEGRAPH_METHOD_3_B5A32838D1FEAFD2_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_551DA7DCC80DC32A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CharacterTriggerFreeStyleGraph* a2)
+		static ::System::Void Method_3_DE2DE619130647CF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CharacterTriggerFreeStyleGraph* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CharacterTriggerFreeStyleGraph*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERTRIGGERFREESTYLEGRAPH_METHOD_3_551DA7DCC80DC32A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CharacterTriggerFreeStyleGraph*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERTRIGGERFREESTYLEGRAPH_METHOD_3_DE2DE619130647CF_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -9,18 +9,18 @@ class Class_2_465A9E6CC2B0EF21;
 namespace Entitas { template <typename T> class IGroup_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_DFCA81E8920AA8E9_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1C084A90)
-#define CLASS_1_DFCA81E8920AA8E9_METHOD_1_A5AEAE73113C71B0_OFFSET UNITYSDK_OFFSET(0x1C085090)
-#define CLASS_1_DFCA81E8920AA8E9__CTOR_OFFSET UNITYSDK_OFFSET(0x1C0849B0)
+#define CLASS_1_DFCA81E8920AA8E9_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1C5D58B0)
+#define CLASS_1_DFCA81E8920AA8E9_METHOD_1_A5AEAE73113C71B0_OFFSET UNITYSDK_OFFSET(0x1C5D5E10)
+#define CLASS_1_DFCA81E8920AA8E9__CTOR_OFFSET UNITYSDK_OFFSET(0x1C5D57D0)
 
-inline static constexpr unsigned int Class_1_DFCA81E8920AA8E9_TypeDefinitionIndex = 36459;
+inline static constexpr unsigned int Class_1_DFCA81E8920AA8E9_TypeDefinitionIndex = 37146;
 
 class Class_1_DFCA81E8920AA8E9 : public ::System::Object
 {
 public:
-	::Class_2_35962C2B7535512E* PDENFEFCAGN; // 0x10
-	::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_27*>* IDLGPCJKGEP; // 0x18
-	::Entitas::IGroup_1<::Class_2_465A9E6CC2B0EF21*>* PGJOLIFOBJE; // 0x20
+	::Entitas::IGroup_1<::Class_2_465A9E6CC2B0EF21*>* PGJOLIFOBJE; // 0x10
+	::Class_2_35962C2B7535512E* PDENFEFCAGN; // 0x18
+	::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_27*>* IDLGPCJKGEP; // 0x20
 
 	::System::Void _ctor(::Class_2_35962C2B7535512E* a1)
 	{

@@ -8,10 +8,10 @@ namespace RPG::GameCore { class TargetMapDynamicEntityParam; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_4C04F568A816EEDC_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x16115380)
-#define CLASS_2_4C04F568A816EEDC__CTOR_OFFSET UNITYSDK_OFFSET(0x161152A0)
+#define CLASS_2_4C04F568A816EEDC_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x16308ED0)
+#define CLASS_2_4C04F568A816EEDC__CTOR_OFFSET UNITYSDK_OFFSET(0x16308DF0)
 
-inline static constexpr unsigned int Class_2_4C04F568A816EEDC_TypeDefinitionIndex = 59302;
+inline static constexpr unsigned int Class_2_4C04F568A816EEDC_TypeDefinitionIndex = 59155;
 
 class Class_2_4C04F568A816EEDC : public ::RPG::GameCore::TargetSeqOperationImpl_1<::RPG::GameCore::TargetMapDynamicEntityParam*>
 {

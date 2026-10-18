@@ -1,12 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueTuple_2.h"
+#include "unitysdk/UnityEngine/Color.h"
 
-class Class_0_16E4307DCC419505_1208;
-namespace System { template <typename T1, typename T2> class Func_2; }
-namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+namespace RPG::Client { class ForceKillMarkDataProvider; }
+namespace System { template <typename T> class Action_1; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_1209_TypeDefinitionIndex = 74415;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_1209_TypeDefinitionIndex = 71658;
 
 class Class_0_16E4307DCC419505_1209
 {

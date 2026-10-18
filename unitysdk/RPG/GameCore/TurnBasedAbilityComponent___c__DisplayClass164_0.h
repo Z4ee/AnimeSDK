@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_D41D7845C8B57A10;
+class Class_1_8E6012BE9F3248EC;
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 
-#define RPG_GAMECORE_TURNBASEDABILITYCOMPONENT___C__DISPLAYCLASS164_0__ADDMODIFIEREXTRAMAXLAYER_B__1_OFFSET UNITYSDK_OFFSET(0xE785EC0)
-#define RPG_GAMECORE_TURNBASEDABILITYCOMPONENT___C__DISPLAYCLASS164_0__CTOR_OFFSET UNITYSDK_OFFSET(0xE7739B0)
+#define RPG_GAMECORE_TURNBASEDABILITYCOMPONENT___C__DISPLAYCLASS164_0__ADDMODIFIEREXTRAMAXLAYER_B__1_OFFSET UNITYSDK_OFFSET(0xE7E41C0)
+#define RPG_GAMECORE_TURNBASEDABILITYCOMPONENT___C__DISPLAYCLASS164_0__CTOR_OFFSET UNITYSDK_OFFSET(0xE7CDFF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TurnBasedAbilityComponent___c__DisplayClass164_0_TypeDefinitionIndex = 55062;
+	inline static constexpr unsigned int TurnBasedAbilityComponent___c__DisplayClass164_0_TypeDefinitionIndex = 54852;
 
 	class TurnBasedAbilityComponent___c__DisplayClass164_0 : public ::System::Object
 	{
 	public:
-		::Class_1_D41D7845C8B57A10* pConfig; // 0x10
+		::Class_1_8E6012BE9F3248EC* pConfig; // 0x10
 
 		::System::Void _ctor()
 		{

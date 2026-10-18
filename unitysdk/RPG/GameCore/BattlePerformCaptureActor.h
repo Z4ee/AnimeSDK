@@ -7,12 +7,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_BATTLEPERFORMCAPTUREACTOR_METHOD_2_522A9CE74C4B1787_OFFSET UNITYSDK_OFFSET(0x1CE7C6F0)
-#define RPG_GAMECORE_BATTLEPERFORMCAPTUREACTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE7C8B0)
+#define RPG_GAMECORE_BATTLEPERFORMCAPTUREACTOR_METHOD_2_F0BB01AED69A18A4_OFFSET UNITYSDK_OFFSET(0x1D4646D0)
+#define RPG_GAMECORE_BATTLEPERFORMCAPTUREACTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1D464860)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattlePerformCaptureActor_TypeDefinitionIndex = 23120;
+	inline static constexpr unsigned int BattlePerformCaptureActor_TypeDefinitionIndex = 23385;
 
 	class BattlePerformCaptureActor : public ::RPG::GameCore::JsonConfig
 	{
@@ -28,9 +28,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEPERFORMCAPTUREACTOR__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_522A9CE74C4B1787(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BattlePerformCaptureActor*& a2)
+		static ::System::Void Method_2_F0BB01AED69A18A4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BattlePerformCaptureActor*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BattlePerformCaptureActor*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEPERFORMCAPTUREACTOR_METHOD_2_522A9CE74C4B1787_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BattlePerformCaptureActor*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEPERFORMCAPTUREACTOR_METHOD_2_F0BB01AED69A18A4_OFFSET))(a1, a2);
 		}
 	};
 }

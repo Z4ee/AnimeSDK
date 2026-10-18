@@ -1,17 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_2_B3BCC9AA95120603_Struct_2_749864A93B6EEBBE.h"
 
-class Class_0_16E4307DCC419505_464_Class_3_363670394F299996;
-class Class_0_16E4307DCC419505_464_Class_3_410EEB4A0F592FBB;
-class Class_1_38A5D85D4AE9F24D;
-namespace RPG::GameCore { class GameEntity; }
-namespace RPG::GameCore { class GameWorld; }
-namespace RPG::GameCore { class TaskContext; }
-namespace System { class String; }
-namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+class Class_0_16E4307DCC419505_455;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_464_TypeDefinitionIndex = 57300;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_464_TypeDefinitionIndex = 49532;
 
 class Class_0_16E4307DCC419505_464
 {

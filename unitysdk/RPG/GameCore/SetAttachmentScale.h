@@ -7,13 +7,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class AttachmentVisibilityNode; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_SETATTACHMENTSCALE_METHOD_3_5E179B45EEA77677_OFFSET UNITYSDK_OFFSET(0x1D4E0A60)
-#define RPG_GAMECORE_SETATTACHMENTSCALE_METHOD_3_EF7EC2D2C8B45A06_OFFSET UNITYSDK_OFFSET(0x1D4E08C0)
-#define RPG_GAMECORE_SETATTACHMENTSCALE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D4E0A40)
+#define RPG_GAMECORE_SETATTACHMENTSCALE_METHOD_3_3CFBDEF1403093F9_OFFSET UNITYSDK_OFFSET(0x1DA947A0)
+#define RPG_GAMECORE_SETATTACHMENTSCALE_METHOD_3_EF7EC2D2C8B45A06_OFFSET UNITYSDK_OFFSET(0x1DA94600)
+#define RPG_GAMECORE_SETATTACHMENTSCALE__CTOR_OFFSET UNITYSDK_OFFSET(0x1DA94780)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetAttachmentScale_TypeDefinitionIndex = 22128;
+	inline static constexpr unsigned int SetAttachmentScale_TypeDefinitionIndex = 22377;
 
 	class SetAttachmentScale : public ::RPG::GameCore::TaskConfig
 	{
@@ -34,9 +34,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetAttachmentScale*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETATTACHMENTSCALE_METHOD_3_EF7EC2D2C8B45A06_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_5E179B45EEA77677(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetAttachmentScale* a2)
+		static ::System::Void Method_3_3CFBDEF1403093F9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetAttachmentScale* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetAttachmentScale*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETATTACHMENTSCALE_METHOD_3_5E179B45EEA77677_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetAttachmentScale*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETATTACHMENTSCALE_METHOD_3_3CFBDEF1403093F9_OFFSET))(a1, a2);
 		}
 	};
 }

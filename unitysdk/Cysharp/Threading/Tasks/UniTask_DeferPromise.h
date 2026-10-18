@@ -8,22 +8,22 @@
 namespace System { template <typename T> class Action_1; }
 namespace System { template <typename T> class Func_1; }
 
-#define CYSHARP_THREADING_TASKS_UNITASK_DEFERPROMISE_GETRESULT_OFFSET UNITYSDK_OFFSET(0x1EA7F8E0)
-#define CYSHARP_THREADING_TASKS_UNITASK_DEFERPROMISE_GETSTATUS_OFFSET UNITYSDK_OFFSET(0x1EA7F8F0)
-#define CYSHARP_THREADING_TASKS_UNITASK_DEFERPROMISE_ONCOMPLETED_OFFSET UNITYSDK_OFFSET(0x1EA7F940)
-#define CYSHARP_THREADING_TASKS_UNITASK_DEFERPROMISE_UNSAFEGETSTATUS_OFFSET UNITYSDK_OFFSET(0x1EA7F950)
-#define CYSHARP_THREADING_TASKS_UNITASK_DEFERPROMISE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA7B140)
+#define CYSHARP_THREADING_TASKS_UNITASK_DEFERPROMISE_GETRESULT_OFFSET UNITYSDK_OFFSET(0x1F147050)
+#define CYSHARP_THREADING_TASKS_UNITASK_DEFERPROMISE_GETSTATUS_OFFSET UNITYSDK_OFFSET(0x1F147060)
+#define CYSHARP_THREADING_TASKS_UNITASK_DEFERPROMISE_ONCOMPLETED_OFFSET UNITYSDK_OFFSET(0x1F1470B0)
+#define CYSHARP_THREADING_TASKS_UNITASK_DEFERPROMISE_UNSAFEGETSTATUS_OFFSET UNITYSDK_OFFSET(0x1F1470C0)
+#define CYSHARP_THREADING_TASKS_UNITASK_DEFERPROMISE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F1428A0)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UniTask_DeferPromise_TypeDefinitionIndex = 42662;
+	inline static constexpr unsigned int UniTask_DeferPromise_TypeDefinitionIndex = 38247;
 
 	class UniTask_DeferPromise : public ::System::Object
 	{
 	public:
-		::Cysharp::Threading::Tasks::UniTask task; // 0x10
-		::System::Func_1<::Cysharp::Threading::Tasks::UniTask>* factory; // 0x20
-		::Cysharp::Threading::Tasks::UniTask_Awaiter awaiter; // 0x28
+		::Cysharp::Threading::Tasks::UniTask_Awaiter awaiter; // 0x10
+		::Cysharp::Threading::Tasks::UniTask task; // 0x20
+		::System::Func_1<::Cysharp::Threading::Tasks::UniTask>* factory; // 0x30
 
 		::System::Void _ctor(::System::Func_1<::Cysharp::Threading::Tasks::UniTask>* a1)
 		{

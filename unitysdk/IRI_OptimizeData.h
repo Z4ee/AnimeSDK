@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define IRI_OPTIMIZEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x161BF5D0)
+#define IRI_OPTIMIZEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x16537960)
 
-inline static constexpr unsigned int IRI_OptimizeData_TypeDefinitionIndex = 47641;
+inline static constexpr unsigned int IRI_OptimizeData_TypeDefinitionIndex = 47181;
 
 class IRI_OptimizeData : public ::UnityEngine::MonoBehaviour
 {

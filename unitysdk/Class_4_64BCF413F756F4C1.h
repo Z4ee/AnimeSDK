@@ -7,18 +7,18 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TaskConfig; }
 namespace System { class String; }
 
-#define CLASS_4_64BCF413F756F4C1_METHOD_4_3051109D4354B20C_OFFSET UNITYSDK_OFFSET(0x1C8A9900)
-#define CLASS_4_64BCF413F756F4C1_METHOD_4_637CBE131CC2826D_OFFSET UNITYSDK_OFFSET(0x1C8A98B0)
-#define CLASS_4_64BCF413F756F4C1__CTOR_OFFSET UNITYSDK_OFFSET(0x1C8A98F0)
+#define CLASS_4_64BCF413F756F4C1_METHOD_4_3051109D4354B20C_OFFSET UNITYSDK_OFFSET(0x1CE467D0)
+#define CLASS_4_64BCF413F756F4C1_METHOD_4_637CBE131CC2826D_OFFSET UNITYSDK_OFFSET(0x1CE46780)
+#define CLASS_4_64BCF413F756F4C1__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE467C0)
 
-inline static constexpr unsigned int Class_4_64BCF413F756F4C1_TypeDefinitionIndex = 22076;
+inline static constexpr unsigned int Class_4_64BCF413F756F4C1_TypeDefinitionIndex = 22324;
 
 class Class_4_64BCF413F756F4C1 : public ::RPG::GameCore::AdvWaitingEventBase
 {
 public:
-	::RPG::GameCore::DynamicFloat* AMHGLPIJMBN; // 0x20
-	::Il2CppArray<::RPG::GameCore::TaskConfig*>* JEEACGDIOCE; // 0x28
-	::System::String* LJPOEMIKGKB; // 0x30
+	::System::String* LJPOEMIKGKB; // 0x20
+	::RPG::GameCore::DynamicFloat* AMHGLPIJMBN; // 0x28
+	::Il2CppArray<::RPG::GameCore::TaskConfig*>* JEEACGDIOCE; // 0x30
 	::System::Boolean KHCFEEHLEFH; // 0x38
 
 	::System::Void _ctor()

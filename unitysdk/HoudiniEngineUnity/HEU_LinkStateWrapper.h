@@ -3,7 +3,7 @@
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_LinkStateWrapper_TypeDefinitionIndex = 39271;
+	inline static constexpr unsigned int HEU_LinkStateWrapper_TypeDefinitionIndex = 40568;
 
 	enum class HEU_LinkStateWrapper : ::System::Int32
 	{

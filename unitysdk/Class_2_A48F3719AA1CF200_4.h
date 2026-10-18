@@ -1,16 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_5F51D4049EA87B7B.h"
+#include "unitysdk/Class_1_5BE136E515AF9A61_1.h"
 
-namespace RPG::GameCore { class TaskContext; }
-namespace System::Collections::Generic { template <typename T> class IList_1; }
+#define CLASS_2_A48F3719AA1CF200_4_METHOD_2_C8E2469222842786_OFFSET UNITYSDK_OFFSET(0x1C908540)
+#define CLASS_2_A48F3719AA1CF200_4__CTOR_OFFSET UNITYSDK_OFFSET(0x1C9089E0)
 
-#define CLASS_2_A48F3719AA1CF200_4_METHOD_2_EBE2AAB1D76E90D3_OFFSET UNITYSDK_OFFSET(0xBE1BA40)
-#define CLASS_2_A48F3719AA1CF200_4__CTOR_OFFSET UNITYSDK_OFFSET(0xBE1BA50)
+inline static constexpr unsigned int Class_2_A48F3719AA1CF200_4_TypeDefinitionIndex = 42474;
 
-inline static constexpr unsigned int Class_2_A48F3719AA1CF200_4_TypeDefinitionIndex = 54982;
-
-class Class_2_A48F3719AA1CF200_4 : public ::Class_1_5F51D4049EA87B7B
+class Class_2_A48F3719AA1CF200_4 : public ::Class_1_5BE136E515AF9A61_1
 {
 public:
 	::System::Void _ctor()
@@ -18,8 +15,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_A48F3719AA1CF200_4__CTOR_OFFSET))(this);
 	}
 
-	::System::Collections::Generic::IList_1<::Class_1_5F51D4049EA87B7B*>* Method_2_EBE2AAB1D76E90D3()
+	::System::Void Method_2_C8E2469222842786()
 	{
-		return ((::System::Collections::Generic::IList_1<::Class_1_5F51D4049EA87B7B*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_A48F3719AA1CF200_4_METHOD_2_EBE2AAB1D76E90D3_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_A48F3719AA1CF200_4_METHOD_2_C8E2469222842786_OFFSET))(this);
 	}
 };

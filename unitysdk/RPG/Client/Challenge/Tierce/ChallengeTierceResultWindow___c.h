@@ -7,34 +7,34 @@ namespace RPG::Client::Challenge { class ChallengeTargetViewModel; }
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCERESULTWINDOW___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xCA03C20)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCERESULTWINDOW___C__CTOR_OFFSET UNITYSDK_OFFSET(0xCA03C60)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCERESULTWINDOW___C___CREATEANIMATIONCOROUTINE_B__19_0_OFFSET UNITYSDK_OFFSET(0xCA03C70)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCERESULTWINDOW___C___CREATEANIMATIONCOROUTINE_B__19_1_OFFSET UNITYSDK_OFFSET(0xCA03C90)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCERESULTWINDOW___C___CREATEANIMATIONCOROUTINE_B__19_2_OFFSET UNITYSDK_OFFSET(0xCA03CB0)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCERESULTWINDOW___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC9521C0)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCERESULTWINDOW___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC952200)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCERESULTWINDOW___C___CREATEANIMATIONCOROUTINE_B__19_0_OFFSET UNITYSDK_OFFSET(0xC952210)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCERESULTWINDOW___C___CREATEANIMATIONCOROUTINE_B__19_1_OFFSET UNITYSDK_OFFSET(0xC952230)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCERESULTWINDOW___C___CREATEANIMATIONCOROUTINE_B__19_2_OFFSET UNITYSDK_OFFSET(0xC952250)
 
 namespace RPG::Client::Challenge::Tierce
 {
-	inline static constexpr unsigned int ChallengeTierceResultWindow___c_TypeDefinitionIndex = 80213;
+	inline static constexpr unsigned int ChallengeTierceResultWindow___c_TypeDefinitionIndex = 81541;
 
 	class ChallengeTierceResultWindow___c : public ::System::Object
 	{
 	public:
+		static ::RPG::Client::Challenge::Tierce::ChallengeTierceResultWindow___c** StaticGet___9()
+		{
+			return (::RPG::Client::Challenge::Tierce::ChallengeTierceResultWindow___c**)Il2CppClass::FromTypeDefinitionIndex(ChallengeTierceResultWindow___c_TypeDefinitionIndex)->GetStaticField(0x6C0C0);
+		}
 		static ::System::Func_3<::RPG::Client::Challenge::ChallengeTargetViewModel*, ::System::Int32, ::System::ValueTuple_2<::RPG::Client::Challenge::ChallengeTargetViewModel*, ::System::Int32>>** StaticGet___9__19_0()
 		{
-			return (::System::Func_3<::RPG::Client::Challenge::ChallengeTargetViewModel*, ::System::Int32, ::System::ValueTuple_2<::RPG::Client::Challenge::ChallengeTargetViewModel*, ::System::Int32>>**)Il2CppClass::FromTypeDefinitionIndex(ChallengeTierceResultWindow___c_TypeDefinitionIndex)->GetStaticField(0x1DE80);
+			return (::System::Func_3<::RPG::Client::Challenge::ChallengeTargetViewModel*, ::System::Int32, ::System::ValueTuple_2<::RPG::Client::Challenge::ChallengeTargetViewModel*, ::System::Int32>>**)Il2CppClass::FromTypeDefinitionIndex(ChallengeTierceResultWindow___c_TypeDefinitionIndex)->GetStaticField(0x6C0C8);
 		}
 		static ::System::Func_2<::System::ValueTuple_2<::RPG::Client::Challenge::ChallengeTargetViewModel*, ::System::Int32>, ::System::Int32>** StaticGet___9__19_2()
 		{
-			return (::System::Func_2<::System::ValueTuple_2<::RPG::Client::Challenge::ChallengeTargetViewModel*, ::System::Int32>, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(ChallengeTierceResultWindow___c_TypeDefinitionIndex)->GetStaticField(0x1DE88);
-		}
-		static ::RPG::Client::Challenge::Tierce::ChallengeTierceResultWindow___c** StaticGet___9()
-		{
-			return (::RPG::Client::Challenge::Tierce::ChallengeTierceResultWindow___c**)Il2CppClass::FromTypeDefinitionIndex(ChallengeTierceResultWindow___c_TypeDefinitionIndex)->GetStaticField(0x1DE90);
+			return (::System::Func_2<::System::ValueTuple_2<::RPG::Client::Challenge::ChallengeTargetViewModel*, ::System::Int32>, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(ChallengeTierceResultWindow___c_TypeDefinitionIndex)->GetStaticField(0x6C0D0);
 		}
 		static ::System::Func_2<::System::ValueTuple_2<::RPG::Client::Challenge::ChallengeTargetViewModel*, ::System::Int32>, ::System::Boolean>** StaticGet___9__19_1()
 		{
-			return (::System::Func_2<::System::ValueTuple_2<::RPG::Client::Challenge::ChallengeTargetViewModel*, ::System::Int32>, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ChallengeTierceResultWindow___c_TypeDefinitionIndex)->GetStaticField(0x1DE98);
+			return (::System::Func_2<::System::ValueTuple_2<::RPG::Client::Challenge::ChallengeTargetViewModel*, ::System::Int32>, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ChallengeTierceResultWindow___c_TypeDefinitionIndex)->GetStaticField(0x6C0D8);
 		}
 
 		static ::System::Void _cctor()

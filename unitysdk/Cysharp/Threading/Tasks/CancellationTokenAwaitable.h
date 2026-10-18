@@ -3,12 +3,12 @@
 #include "unitysdk/System/Threading/CancellationToken.h"
 #include "unitysdk/System/ValueType.h"
 
-#define CYSHARP_THREADING_TASKS_CANCELLATIONTOKENAWAITABLE_GETAWAITER_OFFSET UNITYSDK_OFFSET(0x5AB0)
-#define CYSHARP_THREADING_TASKS_CANCELLATIONTOKENAWAITABLE__CTOR_OFFSET UNITYSDK_OFFSET(0xC610)
+#define CYSHARP_THREADING_TASKS_CANCELLATIONTOKENAWAITABLE_GETAWAITER_OFFSET UNITYSDK_OFFSET(0x1D30)
+#define CYSHARP_THREADING_TASKS_CANCELLATIONTOKENAWAITABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x94B0)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int CancellationTokenAwaitable_TypeDefinitionIndex = 42551;
+	inline static constexpr unsigned int CancellationTokenAwaitable_TypeDefinitionIndex = 38136;
 
 	struct alignas(8) CancellationTokenAwaitable
 	{

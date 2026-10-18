@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AetherDivideChallengeType_TypeDefinitionIndex = 10887;
+	inline static constexpr unsigned int AetherDivideChallengeType_TypeDefinitionIndex = 10903;
 
 	enum class AetherDivideChallengeType : ::System::Int32
 	{

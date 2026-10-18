@@ -10,12 +10,12 @@ namespace RPG::GameCore { class LocationConfig; }
 namespace RPG::GameCore { class MonsterConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHARACTERPHASEOVERRIDECONFIG_METHOD_2_FDD0CA0ECFBE05A6_OFFSET UNITYSDK_OFFSET(0x1CF9BA60)
-#define RPG_GAMECORE_CHARACTERPHASEOVERRIDECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF9BC90)
+#define RPG_GAMECORE_CHARACTERPHASEOVERRIDECONFIG_METHOD_2_FDD0CA0ECFBE05A6_OFFSET UNITYSDK_OFFSET(0x1D5766F0)
+#define RPG_GAMECORE_CHARACTERPHASEOVERRIDECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D576920)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterPhaseOverrideConfig_TypeDefinitionIndex = 16331;
+	inline static constexpr unsigned int CharacterPhaseOverrideConfig_TypeDefinitionIndex = 16504;
 
 	class CharacterPhaseOverrideConfig : public ::RPG::GameCore::JsonConfig
 	{

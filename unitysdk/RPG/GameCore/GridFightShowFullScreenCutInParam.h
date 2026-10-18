@@ -5,19 +5,19 @@
 
 namespace System { class String; }
 
-#define RPG_GAMECORE_GRIDFIGHTSHOWFULLSCREENCUTINPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xE67B6B0)
+#define RPG_GAMECORE_GRIDFIGHTSHOWFULLSCREENCUTINPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xE6D6D10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightShowFullScreenCutInParam_TypeDefinitionIndex = 58294;
+	inline static constexpr unsigned int GridFightShowFullScreenCutInParam_TypeDefinitionIndex = 58142;
 
 	class GridFightShowFullScreenCutInParam : public ::System::Object
 	{
 	public:
 		::System::String* OverrideImagePath; // 0x10
 		::System::String* TraitSearchKey; // 0x18
-		::RPG::GameCore::GridFightShowFullScreenCutInType CutInType; // 0x20
-		::System::UInt32 TraitLv; // 0x24
+		::System::UInt32 TraitLv; // 0x20
+		::RPG::GameCore::GridFightShowFullScreenCutInType CutInType; // 0x24
 
 		::System::Void _ctor()
 		{

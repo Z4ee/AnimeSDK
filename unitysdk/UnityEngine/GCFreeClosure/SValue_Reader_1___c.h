@@ -7,7 +7,7 @@ namespace UnityEngine::GCFreeClosure { template <typename T> class SValue_Reader
 
 namespace UnityEngine::GCFreeClosure
 {
-	inline static constexpr unsigned int SValue_Reader_1___c_TypeDefinitionIndex = 4470;
+	inline static constexpr unsigned int SValue_Reader_1___c_TypeDefinitionIndex = 4474;
 
 	template <typename T>
 	class SValue_Reader_1___c : public ::System::Object

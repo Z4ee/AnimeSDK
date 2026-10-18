@@ -4,12 +4,12 @@
 
 namespace RPG::Client::Promises { class Promise; }
 
-#define RPG_CLIENT_CHENLINGBATTLE_CHENLINGBATTLEGAMECONTEXT___C__DISPLAYCLASS15_1__CTOR_OFFSET UNITYSDK_OFFSET(0xCAEFFF0)
-#define RPG_CLIENT_CHENLINGBATTLE_CHENLINGBATTLEGAMECONTEXT___C__DISPLAYCLASS15_1___INITPHASE_B__1_OFFSET UNITYSDK_OFFSET(0xCAF0B10)
+#define RPG_CLIENT_CHENLINGBATTLE_CHENLINGBATTLEGAMECONTEXT___C__DISPLAYCLASS15_1__CTOR_OFFSET UNITYSDK_OFFSET(0xCA3EC10)
+#define RPG_CLIENT_CHENLINGBATTLE_CHENLINGBATTLEGAMECONTEXT___C__DISPLAYCLASS15_1___INITPHASE_B__1_OFFSET UNITYSDK_OFFSET(0xCA3F730)
 
 namespace RPG::Client::ChenLingBattle
 {
-	inline static constexpr unsigned int ChenLingBattleGameContext___c__DisplayClass15_1_TypeDefinitionIndex = 75751;
+	inline static constexpr unsigned int ChenLingBattleGameContext___c__DisplayClass15_1_TypeDefinitionIndex = 76228;
 
 	class ChenLingBattleGameContext___c__DisplayClass15_1 : public ::System::Object
 	{

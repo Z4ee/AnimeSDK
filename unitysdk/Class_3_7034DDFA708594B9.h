@@ -8,26 +8,26 @@ namespace RPG::Client::LittleGame { class ElfRestaurantGameEntity; }
 namespace RPG::GameCore { class ST_Main_ElfWaiterPutdownFood; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_7034DDFA708594B9_METHOD_3_84B92802FDAFF6C8_OFFSET UNITYSDK_OFFSET(0x16082020)
-#define CLASS_3_7034DDFA708594B9_METHOD_3_D0EDFA57F5E97657_OFFSET UNITYSDK_OFFSET(0x160821A0)
-#define CLASS_3_7034DDFA708594B9_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x160816B0)
-#define CLASS_3_7034DDFA708594B9_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x16082AF0)
-#define CLASS_3_7034DDFA708594B9_TICK_OFFSET UNITYSDK_OFFSET(0x16081D10)
-#define CLASS_3_7034DDFA708594B9__CTOR_OFFSET UNITYSDK_OFFSET(0x16081690)
+#define CLASS_3_7034DDFA708594B9_METHOD_3_84B92802FDAFF6C8_OFFSET UNITYSDK_OFFSET(0x1642F210)
+#define CLASS_3_7034DDFA708594B9_METHOD_3_D0EDFA57F5E97657_OFFSET UNITYSDK_OFFSET(0x1642F390)
+#define CLASS_3_7034DDFA708594B9_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1642E8A0)
+#define CLASS_3_7034DDFA708594B9_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1642FCE0)
+#define CLASS_3_7034DDFA708594B9_TICK_OFFSET UNITYSDK_OFFSET(0x1642EF00)
+#define CLASS_3_7034DDFA708594B9__CTOR_OFFSET UNITYSDK_OFFSET(0x1642E880)
 
-inline static constexpr unsigned int Class_3_7034DDFA708594B9_TypeDefinitionIndex = 52459;
+inline static constexpr unsigned int Class_3_7034DDFA708594B9_TypeDefinitionIndex = 52172;
 
 class Class_3_7034DDFA708594B9 : public ::RPG::GameCore::ST_Task_1<::RPG::GameCore::ST_Main_ElfWaiterPutdownFood*>
 {
 public:
-	::RPG::Client::LittleGame::ElfRestaurantGameEntity* EHMJOACJLCG; // 0x28
-	::RPG::Client::LittleGame::ElfRestaurantGameEntity* IJDCKBPPNMD; // 0x30
-	::RPG::Client::LittleGame::ElfRestaurantGameEntity* GPONHMHCEDI; // 0x38
-	::Class_1_938C223DA5C0C9C7* CFLPIIGIFDM; // 0x40
-	::RPG::Client::ElfRestaurantGameInstance* MIJMIIENKAK; // 0x48
+	::RPG::Client::ElfRestaurantGameInstance* MIJMIIENKAK; // 0x28
+	::Class_1_938C223DA5C0C9C7* CFLPIIGIFDM; // 0x30
+	::RPG::Client::LittleGame::ElfRestaurantGameEntity* IJDCKBPPNMD; // 0x38
+	::RPG::Client::LittleGame::ElfRestaurantGameEntity* EHMJOACJLCG; // 0x40
+	::RPG::Client::LittleGame::ElfRestaurantGameEntity* GPONHMHCEDI; // 0x48
 	::RPG::Client::LittleGame::ElfRestaurantGameEntity* ONBOKIHOBCA; // 0x50
-	::System::Boolean NINPJMDPDPO; // 0x58
-	::System::Int32 NOLLEHFIJHH; // 0x5C
+	::System::Int32 NOLLEHFIJHH; // 0x58
+	::System::Boolean NINPJMDPDPO; // 0x5C
 	::System::Single PGMIOKKLHIE; // 0x60
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ST_Main_ElfWaiterPutdownFood* a2)

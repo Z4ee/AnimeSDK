@@ -9,11 +9,11 @@ namespace RPG::Client::B51Racing { class B51RacingCarStatItemViewModel; }
 namespace RPG::Client::B51Racing { class B51RacingDevelopValueIconListViewModel; }
 namespace System { class String; }
 
-#define RPG_CLIENT_B51RACING_B51RACINGCARDETAILDIALOGVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xC84FA10)
+#define RPG_CLIENT_B51RACING_B51RACINGCARDETAILDIALOGVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xC71DA80)
 
 namespace RPG::Client::B51Racing
 {
-	inline static constexpr unsigned int B51RacingCarDetailDialogViewModel_TypeDefinitionIndex = 80683;
+	inline static constexpr unsigned int B51RacingCarDetailDialogViewModel_TypeDefinitionIndex = 82011;
 
 	class B51RacingCarDetailDialogViewModel : public ::System::Object
 	{
@@ -22,10 +22,10 @@ namespace RPG::Client::B51Racing
 		::System::String* DriverIconID; // 0x18
 		::Il2CppArray<::RPG::Client::B51Racing::B51RacingBuffSkillItemViewModel*>* BuffSkillItems; // 0x20
 		::RPG::Client::B51Racing::B51RacingDevelopValueIconListViewModel* TargetStatIconList; // 0x28
-		::System::UInt32 ActiveSkillID; // 0x30
-		::System::Single ActiveSkillExpProgress; // 0x34
-		::System::UInt32 ActiveSkillLevel; // 0x38
-		::RPG::Client::B51Racing::B51RacingCarDetailDisplayMode DisplayMode; // 0x3C
+		::System::Single ActiveSkillExpProgress; // 0x30
+		::RPG::Client::B51Racing::B51RacingCarDetailDisplayMode DisplayMode; // 0x34
+		::System::UInt32 ActiveSkillID; // 0x38
+		::System::UInt32 ActiveSkillLevel; // 0x3C
 		::RPG::Client::TextID DriverBonusText; // 0x40
 
 		::System::Void _ctor()

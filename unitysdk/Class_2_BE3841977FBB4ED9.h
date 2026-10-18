@@ -4,8 +4,8 @@
 #include "unitysdk/RPG/GameCore/RelicType.h"
 #include "unitysdk/System/ValueTuple_2.h"
 
-class Class_0_16E4307DCC419505_914;
-class Class_0_16E4307DCC419505_915;
+class Class_0_16E4307DCC419505_1018;
+class Class_0_16E4307DCC419505_1019;
 class Class_1_A0C0ADCC8A5FDABE;
 namespace RPG::Client { class RelicItemData; }
 namespace RPG::Client::RelicSmartSuit { class RelicSmartSuitCalculationResultData; }
@@ -13,29 +13,29 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Collections::Generic { template <typename T> class SortedSet_1; }
 
-#define CLASS_2_BE3841977FBB4ED9_GET__MAX_DFS_COUNT_OFFSET UNITYSDK_OFFSET(0xB85E190)
-#define CLASS_2_BE3841977FBB4ED9_METHOD_2_13488CF29D8DA4B1_OFFSET UNITYSDK_OFFSET(0xB85E550)
-#define CLASS_2_BE3841977FBB4ED9_METHOD_2_28E6455C4F76B16C_OFFSET UNITYSDK_OFFSET(0xB85E870)
-#define CLASS_2_BE3841977FBB4ED9_METHOD_2_33637005173630E2_OFFSET UNITYSDK_OFFSET(0xB85F250)
-#define CLASS_2_BE3841977FBB4ED9_METHOD_2_476B0279F25FD25D_OFFSET UNITYSDK_OFFSET(0xB85E4B0)
-#define CLASS_2_BE3841977FBB4ED9_METHOD_2_663DA90389052737_OFFSET UNITYSDK_OFFSET(0xB85EE30)
-#define CLASS_2_BE3841977FBB4ED9_METHOD_2_6A68132927FE80E3_OFFSET UNITYSDK_OFFSET(0xB85EB10)
-#define CLASS_2_BE3841977FBB4ED9_METHOD_2_920A8EAE135DB974_OFFSET UNITYSDK_OFFSET(0xB85F1E0)
-#define CLASS_2_BE3841977FBB4ED9_METHOD_2_BC7B5A0AC7E2F4A4_OFFSET UNITYSDK_OFFSET(0xB85E1A0)
-#define CLASS_2_BE3841977FBB4ED9__CTOR_OFFSET UNITYSDK_OFFSET(0xB85E220)
+#define CLASS_2_BE3841977FBB4ED9_GET__MAX_DFS_COUNT_OFFSET UNITYSDK_OFFSET(0xB6D1850)
+#define CLASS_2_BE3841977FBB4ED9_METHOD_2_13488CF29D8DA4B1_OFFSET UNITYSDK_OFFSET(0xB6D1C10)
+#define CLASS_2_BE3841977FBB4ED9_METHOD_2_28E6455C4F76B16C_OFFSET UNITYSDK_OFFSET(0xB6D1F30)
+#define CLASS_2_BE3841977FBB4ED9_METHOD_2_33637005173630E2_OFFSET UNITYSDK_OFFSET(0xB6D2960)
+#define CLASS_2_BE3841977FBB4ED9_METHOD_2_476B0279F25FD25D_OFFSET UNITYSDK_OFFSET(0xB6D1B70)
+#define CLASS_2_BE3841977FBB4ED9_METHOD_2_663DA90389052737_OFFSET UNITYSDK_OFFSET(0xB6D2540)
+#define CLASS_2_BE3841977FBB4ED9_METHOD_2_8F5C8ACD58F41C31_OFFSET UNITYSDK_OFFSET(0xB6D21D0)
+#define CLASS_2_BE3841977FBB4ED9_METHOD_2_920A8EAE135DB974_OFFSET UNITYSDK_OFFSET(0xB6D28F0)
+#define CLASS_2_BE3841977FBB4ED9_METHOD_2_BC7B5A0AC7E2F4A4_OFFSET UNITYSDK_OFFSET(0xB6D1860)
+#define CLASS_2_BE3841977FBB4ED9__CTOR_OFFSET UNITYSDK_OFFSET(0xB6D18E0)
 
-inline static constexpr unsigned int Class_2_BE3841977FBB4ED9_TypeDefinitionIndex = 66896;
+inline static constexpr unsigned int Class_2_BE3841977FBB4ED9_TypeDefinitionIndex = 66898;
 
 class Class_2_BE3841977FBB4ED9 : public ::Class_1_F9FBCC956DFCF137_21
 {
 public:
 	// static const ::System::UInt32 CKLDHFFCEHO = 0x6; // 0x0
 	::System::Collections::Generic::Dictionary_2<::RPG::GameCore::RelicType, ::System::Collections::Generic::SortedSet_1<::System::ValueTuple_2<::System::Single, ::RPG::Client::RelicItemData*>>*>* LMPNNEPFHIO; // 0x18
-	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Class_0_16E4307DCC419505_914*>* IKGMBOFODPD; // 0x20
+	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Class_0_16E4307DCC419505_1018*>* IKGMBOFODPD; // 0x20
 	::System::UInt32 JHJMCFNGMEH; // 0x28
-	::System::UInt32 PFPDCGKODOO; // 0x2C
-	::System::UInt32 __MAX_DFS_COUNT_k__BackingField; // 0x30
-	::System::UInt32 KMFBBJGBPFA; // 0x34
+	::System::UInt32 KMFBBJGBPFA; // 0x2C
+	::System::UInt32 PFPDCGKODOO; // 0x30
+	::System::UInt32 __MAX_DFS_COUNT_k__BackingField; // 0x34
 
 	::System::Void _ctor(::Class_1_A0C0ADCC8A5FDABE* a1)
 	{
@@ -47,9 +47,9 @@ public:
 		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_BE3841977FBB4ED9_GET__MAX_DFS_COUNT_OFFSET))(this);
 	}
 
-	static ::Class_0_16E4307DCC419505_915* Method_2_BC7B5A0AC7E2F4A4(::Class_1_A0C0ADCC8A5FDABE* a1)
+	static ::Class_0_16E4307DCC419505_1019* Method_2_BC7B5A0AC7E2F4A4(::Class_1_A0C0ADCC8A5FDABE* a1)
 	{
-		return ((::Class_0_16E4307DCC419505_915*(*)(::Class_1_A0C0ADCC8A5FDABE*))((::PBYTE)hIl2Cpp + CLASS_2_BE3841977FBB4ED9_METHOD_2_BC7B5A0AC7E2F4A4_OFFSET))(a1);
+		return ((::Class_0_16E4307DCC419505_1019*(*)(::Class_1_A0C0ADCC8A5FDABE*))((::PBYTE)hIl2Cpp + CLASS_2_BE3841977FBB4ED9_METHOD_2_BC7B5A0AC7E2F4A4_OFFSET))(a1);
 	}
 
 	::RPG::Client::RelicSmartSuit::RelicSmartSuitCalculationResultData* Method_2_476B0279F25FD25D()
@@ -67,9 +67,9 @@ public:
 		return ((::System::Collections::Generic::SortedSet_1<::System::ValueTuple_2<::System::Single, ::RPG::Client::RelicItemData*>>*(*)(::PVOID, ::RPG::GameCore::RelicType))((::PBYTE)hIl2Cpp + CLASS_2_BE3841977FBB4ED9_METHOD_2_28E6455C4F76B16C_OFFSET))(this, a1);
 	}
 
-	::System::Void Method_2_6A68132927FE80E3(::System::Collections::Generic::SortedSet_1<::System::ValueTuple_2<::System::Single, ::RPG::Client::RelicItemData*>>* a1, ::RPG::Client::RelicItemData* a2)
+	::System::Void Method_2_8F5C8ACD58F41C31(::System::Collections::Generic::SortedSet_1<::System::ValueTuple_2<::System::Single, ::RPG::Client::RelicItemData*>>* a1, ::RPG::Client::RelicItemData* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::SortedSet_1<::System::ValueTuple_2<::System::Single, ::RPG::Client::RelicItemData*>>*, ::RPG::Client::RelicItemData*))((::PBYTE)hIl2Cpp + CLASS_2_BE3841977FBB4ED9_METHOD_2_6A68132927FE80E3_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::SortedSet_1<::System::ValueTuple_2<::System::Single, ::RPG::Client::RelicItemData*>>*, ::RPG::Client::RelicItemData*))((::PBYTE)hIl2Cpp + CLASS_2_BE3841977FBB4ED9_METHOD_2_8F5C8ACD58F41C31_OFFSET))(this, a1, a2);
 	}
 
 	::System::Void Method_2_663DA90389052737(::System::Collections::Generic::SortedSet_1<::System::ValueTuple_2<::System::Single, ::RPG::Client::RelicItemData*>>* a1)

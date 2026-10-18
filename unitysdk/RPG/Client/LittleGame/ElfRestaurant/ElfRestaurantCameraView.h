@@ -4,11 +4,11 @@
 
 namespace Cinemachine { class CinemachineVirtualCamera; }
 
-#define RPG_CLIENT_LITTLEGAME_ELFRESTAURANT_ELFRESTAURANTCAMERAVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0xD4D4C20)
+#define RPG_CLIENT_LITTLEGAME_ELFRESTAURANT_ELFRESTAURANTCAMERAVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0xD42BAB0)
 
 namespace RPG::Client::LittleGame::ElfRestaurant
 {
-	inline static constexpr unsigned int ElfRestaurantCameraView_TypeDefinitionIndex = 76806;
+	inline static constexpr unsigned int ElfRestaurantCameraView_TypeDefinitionIndex = 77277;
 
 	class ElfRestaurantCameraView : public ::RPG::Client::LittleGame::ElfRestaurant::ElfRestaurantView
 	{

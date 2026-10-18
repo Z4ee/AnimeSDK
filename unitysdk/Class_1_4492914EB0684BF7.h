@@ -9,7 +9,7 @@ namespace RPG::UINavigation { class UINavigationArea_FirstSelectableDelegate; }
 namespace System { class IDisposable; }
 namespace UnityEngine { class GameObject; }
 
-inline static constexpr unsigned int Class_1_4492914EB0684BF7_TypeDefinitionIndex = 50198;
+inline static constexpr unsigned int Class_1_4492914EB0684BF7_TypeDefinitionIndex = 49825;
 
 template <typename TItem>
 class Class_1_4492914EB0684BF7 : public ::System::Object

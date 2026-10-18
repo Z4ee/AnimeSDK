@@ -7,13 +7,13 @@ namespace System { class String; }
 namespace UnityEngine::Events { template <typename T1, typename T2, typename T3> class UnityAction_3; }
 namespace UnityEngine::Events { template <typename T1, typename T2, typename T3> class UnityEvent_3; }
 
-#define CYSHARP_THREADING_TASKS_TEXTSELECTIONEVENTCONVERTER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1EA5E700)
-#define CYSHARP_THREADING_TASKS_TEXTSELECTIONEVENTCONVERTER_INVOKECORE_OFFSET UNITYSDK_OFFSET(0x1EA5E6A0)
-#define CYSHARP_THREADING_TASKS_TEXTSELECTIONEVENTCONVERTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA5E5D0)
+#define CYSHARP_THREADING_TASKS_TEXTSELECTIONEVENTCONVERTER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1F1260B0)
+#define CYSHARP_THREADING_TASKS_TEXTSELECTIONEVENTCONVERTER_INVOKECORE_OFFSET UNITYSDK_OFFSET(0x1F126050)
+#define CYSHARP_THREADING_TASKS_TEXTSELECTIONEVENTCONVERTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F125F80)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int TextSelectionEventConverter_TypeDefinitionIndex = 42895;
+	inline static constexpr unsigned int TextSelectionEventConverter_TypeDefinitionIndex = 38480;
 
 	class TextSelectionEventConverter : public ::UnityEngine::Events::UnityEvent_1<::System::ValueTuple_3<::System::String*, ::System::Int32, ::System::Int32>>
 	{

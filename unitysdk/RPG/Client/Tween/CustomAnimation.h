@@ -7,7 +7,7 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace RPG::Client::Tween
 {
-	inline static constexpr unsigned int CustomAnimation_TypeDefinitionIndex = 73373;
+	inline static constexpr unsigned int CustomAnimation_TypeDefinitionIndex = 73480;
 
 	struct alignas(8) CustomAnimation
 	{

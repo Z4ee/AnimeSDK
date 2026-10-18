@@ -11,45 +11,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_MONSTERDROPEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1D2CE140)
-#define RPG_GAMECORE_MONSTERDROPEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1D2CDFD0)
-#define RPG_GAMECORE_MONSTERDROPEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1D2CDCC0)
-#define RPG_GAMECORE_MONSTERDROPEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1D2CDF70)
-#define RPG_GAMECORE_MONSTERDROPEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1D2CE310)
-#define RPG_GAMECORE_MONSTERDROPEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D2CDD40)
-#define RPG_GAMECORE_MONSTERDROPEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1D2CE350)
-#define RPG_GAMECORE_MONSTERDROPEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D2CE520)
-#define RPG_GAMECORE_MONSTERDROPEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1D2CE730)
-#define RPG_GAMECORE_MONSTERDROPEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D2CEAD0)
-#define RPG_GAMECORE_MONSTERDROPEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1D2CE480)
-#define RPG_GAMECORE_MONSTERDROPEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D2CE3E0)
+#define RPG_GAMECORE_MONSTERDROPEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1D8B0750)
+#define RPG_GAMECORE_MONSTERDROPEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1D8B05E0)
+#define RPG_GAMECORE_MONSTERDROPEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1D8B02D0)
+#define RPG_GAMECORE_MONSTERDROPEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1D8B0580)
+#define RPG_GAMECORE_MONSTERDROPEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1D8B0920)
+#define RPG_GAMECORE_MONSTERDROPEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D8B0350)
+#define RPG_GAMECORE_MONSTERDROPEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1D8B0960)
+#define RPG_GAMECORE_MONSTERDROPEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D8B0B30)
+#define RPG_GAMECORE_MONSTERDROPEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1D8B0D40)
+#define RPG_GAMECORE_MONSTERDROPEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D8B10E0)
+#define RPG_GAMECORE_MONSTERDROPEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1D8B0A90)
+#define RPG_GAMECORE_MONSTERDROPEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D8B09F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MonsterDropExcelTable_TypeDefinitionIndex = 14087;
+	inline static constexpr unsigned int MonsterDropExcelTable_TypeDefinitionIndex = 14194;
 
 	class MonsterDropExcelTable : public ::System::Object
 	{
 	public:
+		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
+		{
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MonsterDropExcelTable_TypeDefinitionIndex)->GetStaticField(0x42230);
+		}
 		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(MonsterDropExcelTable_TypeDefinitionIndex)->GetStaticField(0xC610);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(MonsterDropExcelTable_TypeDefinitionIndex)->GetStaticField(0x42238);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MonsterDropRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MonsterDropRow*>**)Il2CppClass::FromTypeDefinitionIndex(MonsterDropExcelTable_TypeDefinitionIndex)->GetStaticField(0xC618);
-		}
-		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
-		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MonsterDropExcelTable_TypeDefinitionIndex)->GetStaticField(0xC620);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MonsterDropRow*>**)Il2CppClass::FromTypeDefinitionIndex(MonsterDropExcelTable_TypeDefinitionIndex)->GetStaticField(0x42240);
 		}
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(MonsterDropExcelTable_TypeDefinitionIndex)->GetStaticField(0x3CE0);
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(MonsterDropExcelTable_TypeDefinitionIndex)->GetStaticField(0xFFD0);
 		}
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MonsterDropExcelTable_TypeDefinitionIndex)->GetStaticField(0x3CE1);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MonsterDropExcelTable_TypeDefinitionIndex)->GetStaticField(0xFFD1);
 		}
 
 		static ::System::Void _cctor()

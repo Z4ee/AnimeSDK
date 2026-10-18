@@ -3,11 +3,11 @@
 #include "unitysdk/System/Attribute.h"
 #include "unitysdk/UnityEngine/Timeline/TimelineAsset_MediaType.h"
 
-#define UNITYENGINE_TIMELINE_TRACKMEDIATYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1ECE0330)
+#define UNITYENGINE_TIMELINE_TRACKMEDIATYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F3A8010)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int TrackMediaType_TypeDefinitionIndex = 37558;
+	inline static constexpr unsigned int TrackMediaType_TypeDefinitionIndex = 38855;
 
 	class TrackMediaType : public ::System::Attribute
 	{

@@ -5,11 +5,11 @@
 namespace UnityEngine { class Camera; }
 namespace UnityEngine { class GameObject; }
 
-#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_PICKEDOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x16515630)
+#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_PICKEDOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1673C320)
 
 namespace HedgehogTeam::EasyTouch
 {
-	inline static constexpr unsigned int EasyTouch_PickedObject_TypeDefinitionIndex = 38991;
+	inline static constexpr unsigned int EasyTouch_PickedObject_TypeDefinitionIndex = 40288;
 
 	class EasyTouch_PickedObject : public ::System::Object
 	{

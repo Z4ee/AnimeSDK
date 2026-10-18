@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RaidConfigType_TypeDefinitionIndex = 14417;
+	inline static constexpr unsigned int RaidConfigType_TypeDefinitionIndex = 14582;
 
 	enum class RaidConfigType : ::System::Int32
 	{

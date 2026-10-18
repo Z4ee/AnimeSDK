@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class PhaseSkillInfoMappingList; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_CHARACTERPHASESKILLINFOMAPPINGCONFIG_METHOD_2_57492CA46A37658D_OFFSET UNITYSDK_OFFSET(0x1CF9BDC0)
-#define RPG_GAMECORE_CHARACTERPHASESKILLINFOMAPPINGCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF9BEA0)
+#define RPG_GAMECORE_CHARACTERPHASESKILLINFOMAPPINGCONFIG_METHOD_2_57492CA46A37658D_OFFSET UNITYSDK_OFFSET(0x1D576B60)
+#define RPG_GAMECORE_CHARACTERPHASESKILLINFOMAPPINGCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D576C40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterPhaseSkillInfoMappingConfig_TypeDefinitionIndex = 16361;
+	inline static constexpr unsigned int CharacterPhaseSkillInfoMappingConfig_TypeDefinitionIndex = 16534;
 
 	class CharacterPhaseSkillInfoMappingConfig : public ::RPG::GameCore::JsonConfig
 	{

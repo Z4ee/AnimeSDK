@@ -5,18 +5,18 @@
 namespace RPG::Client::Prop { class ProbePuzzleBoard; }
 namespace RPG::Client::Prop { class ProbePuzzleItem; }
 
-#define RPG_CLIENT_PROP_PROBEPUZZLEBOARD___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0xDCFA450)
-#define RPG_CLIENT_PROP_PROBEPUZZLEBOARD___C__DISPLAYCLASS6_0___ONMODEPROBETRIGGERED_B__0_OFFSET UNITYSDK_OFFSET(0xDCFBB40)
+#define RPG_CLIENT_PROP_PROBEPUZZLEBOARD___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0xDD82CF0)
+#define RPG_CLIENT_PROP_PROBEPUZZLEBOARD___C__DISPLAYCLASS6_0___ONMODEPROBETRIGGERED_B__0_OFFSET UNITYSDK_OFFSET(0xDD84410)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ProbePuzzleBoard___c__DisplayClass6_0_TypeDefinitionIndex = 78308;
+	inline static constexpr unsigned int ProbePuzzleBoard___c__DisplayClass6_0_TypeDefinitionIndex = 78779;
 
 	class ProbePuzzleBoard___c__DisplayClass6_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::Prop::ProbePuzzleItem* puzzleProbe; // 0x10
-		::RPG::Client::Prop::ProbePuzzleBoard* __4__this; // 0x18
+		::RPG::Client::Prop::ProbePuzzleBoard* __4__this; // 0x10
+		::RPG::Client::Prop::ProbePuzzleItem* puzzleProbe; // 0x18
 
 		::System::Void _ctor()
 		{

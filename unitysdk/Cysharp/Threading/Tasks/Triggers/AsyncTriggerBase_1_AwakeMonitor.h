@@ -6,7 +6,7 @@ namespace Cysharp::Threading::Tasks::Triggers { template <typename T> class Asyn
 
 namespace Cysharp::Threading::Tasks::Triggers
 {
-	inline static constexpr unsigned int AsyncTriggerBase_1_AwakeMonitor_TypeDefinitionIndex = 42916;
+	inline static constexpr unsigned int AsyncTriggerBase_1_AwakeMonitor_TypeDefinitionIndex = 38501;
 
 	template <typename T>
 	class AsyncTriggerBase_1_AwakeMonitor : public ::System::Object

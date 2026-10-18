@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterVisibleReason_TypeDefinitionIndex = 57388;
+	inline static constexpr unsigned int CharacterVisibleReason_TypeDefinitionIndex = 57224;
 
 	enum class CharacterVisibleReason : ::System::Byte
 	{
@@ -47,5 +47,6 @@ namespace RPG::GameCore
 		Activity = 0x25,
 		SummonUnit = 0x26,
 		CakeCatch = 0x27,
+		ConditionAutoVisible = 0x28,
 	};
 }

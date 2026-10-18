@@ -5,7 +5,7 @@
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExVoicePool_ExTimeStretchConfig_TypeDefinitionIndex = 38781;
+	inline static constexpr unsigned int CriAtomExVoicePool_ExTimeStretchConfig_TypeDefinitionIndex = 40078;
 
 	struct alignas(4) CriAtomExVoicePool_ExTimeStretchConfig
 	{

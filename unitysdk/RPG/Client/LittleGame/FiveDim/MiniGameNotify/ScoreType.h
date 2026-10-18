@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame::FiveDim::MiniGameNotify
 {
-	inline static constexpr unsigned int ScoreType_TypeDefinitionIndex = 76773;
+	inline static constexpr unsigned int ScoreType_TypeDefinitionIndex = 77244;
 
 	enum class ScoreType : ::System::Int32
 	{

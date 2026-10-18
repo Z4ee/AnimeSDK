@@ -6,12 +6,12 @@ namespace MiHoYo::SDK::PC::OS { class HoYoChannelCheckPermissionResult; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_PC_OS_HOYOCHANNEL___C__DISPLAYCLASS11_0__CHECKPERMISSION_B__0_OFFSET UNITYSDK_OFFSET(0x1BA1A4D0)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNEL___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA120F0)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNEL___C__DISPLAYCLASS11_0__CHECKPERMISSION_B__0_OFFSET UNITYSDK_OFFSET(0x1BF1E6C0)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNEL___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF16110)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int HoYoChannel___c__DisplayClass11_0_TypeDefinitionIndex = 8458;
+	inline static constexpr unsigned int HoYoChannel___c__DisplayClass11_0_TypeDefinitionIndex = 8501;
 
 	class HoYoChannel___c__DisplayClass11_0 : public ::System::Object
 	{

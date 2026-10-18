@@ -13,7 +13,7 @@ namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int LongCount__LongCountAsync_d__0_1_TypeDefinitionIndex = 44277;
+	inline static constexpr unsigned int LongCount__LongCountAsync_d__0_1_TypeDefinitionIndex = 45416;
 
 	template <typename TSource>
 	struct LongCount__LongCountAsync_d__0_1

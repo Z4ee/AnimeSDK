@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/GridFightTraitEffectBase.h"
 
-class Class_1_640990790F67F83E;
+class Class_1_A35769836978C45E;
 namespace RPG::Client { class GridFightTrait; }
 namespace RPG::Client { class GridFightTraitSubTraitConfig; }
 namespace RPG::Client { class IGridFightTraitEffect; }
@@ -10,26 +10,26 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_GRIDFIGHTTRAITCHOOSEEFFECT_GETCURSUBTRAITMODULEID_OFFSET UNITYSDK_OFFSET(0xD3500E0)
-#define RPG_CLIENT_GRIDFIGHTTRAITCHOOSEEFFECT_GET_CURRENTSUBTRAITCONFIG_OFFSET UNITYSDK_OFFSET(0xD356420)
-#define RPG_CLIENT_GRIDFIGHTTRAITCHOOSEEFFECT_GET_ISSUBTRAITACTIVE_OFFSET UNITYSDK_OFFSET(0xD3563E0)
-#define RPG_CLIENT_GRIDFIGHTTRAITCHOOSEEFFECT_GET_SUBTRAITEFFECTS_OFFSET UNITYSDK_OFFSET(0xD3566A0)
-#define RPG_CLIENT_GRIDFIGHTTRAITCHOOSEEFFECT_ONUPDATE_OFFSET UNITYSDK_OFFSET(0xD356FB0)
-#define RPG_CLIENT_GRIDFIGHTTRAITCHOOSEEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0xD356920)
-#define RPG_CLIENT_GRIDFIGHTTRAITCHOOSEEFFECT__GETCUREFFECTS_OFFSET UNITYSDK_OFFSET(0xD3566F0)
-#define RPG_CLIENT_GRIDFIGHTTRAITCHOOSEEFFECT__GETCURSUBTRAITCONFIG_OFFSET UNITYSDK_OFFSET(0xD356470)
-#define RPG_CLIENT_GRIDFIGHTTRAITCHOOSEEFFECT__INITSUBTRAITCONFIG_OFFSET UNITYSDK_OFFSET(0xD356B50)
+#define RPG_CLIENT_GRIDFIGHTTRAITCHOOSEEFFECT_GETCURSUBTRAITMODULEID_OFFSET UNITYSDK_OFFSET(0xD2A9AA0)
+#define RPG_CLIENT_GRIDFIGHTTRAITCHOOSEEFFECT_GET_CURRENTSUBTRAITCONFIG_OFFSET UNITYSDK_OFFSET(0xD2AFC80)
+#define RPG_CLIENT_GRIDFIGHTTRAITCHOOSEEFFECT_GET_ISSUBTRAITACTIVE_OFFSET UNITYSDK_OFFSET(0xD2AFC40)
+#define RPG_CLIENT_GRIDFIGHTTRAITCHOOSEEFFECT_GET_SUBTRAITEFFECTS_OFFSET UNITYSDK_OFFSET(0xD2AFF00)
+#define RPG_CLIENT_GRIDFIGHTTRAITCHOOSEEFFECT_ONUPDATE_OFFSET UNITYSDK_OFFSET(0xD2B0810)
+#define RPG_CLIENT_GRIDFIGHTTRAITCHOOSEEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0xD2B0180)
+#define RPG_CLIENT_GRIDFIGHTTRAITCHOOSEEFFECT__GETCUREFFECTS_OFFSET UNITYSDK_OFFSET(0xD2AFF50)
+#define RPG_CLIENT_GRIDFIGHTTRAITCHOOSEEFFECT__GETCURSUBTRAITCONFIG_OFFSET UNITYSDK_OFFSET(0xD2AFCD0)
+#define RPG_CLIENT_GRIDFIGHTTRAITCHOOSEEFFECT__INITSUBTRAITCONFIG_OFFSET UNITYSDK_OFFSET(0xD2B03B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightTraitChooseEffect_TypeDefinitionIndex = 65452;
+	inline static constexpr unsigned int GridFightTraitChooseEffect_TypeDefinitionIndex = 65392;
 
 	class GridFightTraitChooseEffect : public ::RPG::Client::GridFightTraitEffectBase
 	{
 	public:
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::GridFightTraitSubTraitConfig*>* _SubTraitConfigByModuleID; // 0x30
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::RPG::Client::IGridFightTraitEffect*>*>* _SubTraitEffectsByModuleID; // 0x38
-		::RPG::Client::GridFightTraitSubTraitConfig* _DefaultSubTraitConfig; // 0x40
+		::RPG::Client::GridFightTraitSubTraitConfig* _DefaultSubTraitConfig; // 0x38
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::RPG::Client::IGridFightTraitEffect*>*>* _SubTraitEffectsByModuleID; // 0x40
 		::System::Collections::Generic::List_1<::RPG::Client::IGridFightTraitEffect*>* _DefaultSubTraitEffects; // 0x48
 
 		::System::Void _ctor(::System::UInt32 a1, ::RPG::Client::GridFightTrait* a2)
@@ -52,9 +52,9 @@ namespace RPG::Client
 			return ((::System::Collections::Generic::IEnumerable_1<::RPG::Client::IGridFightTraitEffect*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITCHOOSEEFFECT_GET_SUBTRAITEFFECTS_OFFSET))(this);
 		}
 
-		::System::Void OnUpdate(::Class_1_640990790F67F83E* a1)
+		::System::Void OnUpdate(::Class_1_A35769836978C45E* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_640990790F67F83E*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITCHOOSEEFFECT_ONUPDATE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Class_1_A35769836978C45E*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITCHOOSEEFFECT_ONUPDATE_OFFSET))(this, a1);
 		}
 
 		::System::Void _InitSubTraitConfig()

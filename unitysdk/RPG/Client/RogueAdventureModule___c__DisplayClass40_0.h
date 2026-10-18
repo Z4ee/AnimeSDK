@@ -2,14 +2,14 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_708;
+class Class_0_16E4307DCC419505_805;
 
-#define RPG_CLIENT_ROGUEADVENTUREMODULE___C__DISPLAYCLASS40_0__CTOR_OFFSET UNITYSDK_OFFSET(0xDE99250)
-#define RPG_CLIENT_ROGUEADVENTUREMODULE___C__DISPLAYCLASS40_0__REMOVETRIGGEREDACTIONID_B__0_OFFSET UNITYSDK_OFFSET(0xDE9CEB0)
+#define RPG_CLIENT_ROGUEADVENTUREMODULE___C__DISPLAYCLASS40_0__CTOR_OFFSET UNITYSDK_OFFSET(0xDEE9870)
+#define RPG_CLIENT_ROGUEADVENTUREMODULE___C__DISPLAYCLASS40_0__REMOVETRIGGEREDACTIONID_B__0_OFFSET UNITYSDK_OFFSET(0xDEED4C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueAdventureModule___c__DisplayClass40_0_TypeDefinitionIndex = 67362;
+	inline static constexpr unsigned int RogueAdventureModule___c__DisplayClass40_0_TypeDefinitionIndex = 67364;
 
 	class RogueAdventureModule___c__DisplayClass40_0 : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEADVENTUREMODULE___C__DISPLAYCLASS40_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _RemoveTriggeredActionID_b__0(::Class_0_16E4307DCC419505_708* a1)
+		::System::Boolean _RemoveTriggeredActionID_b__0(::Class_0_16E4307DCC419505_805* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_0_16E4307DCC419505_708*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEADVENTUREMODULE___C__DISPLAYCLASS40_0__REMOVETRIGGEREDACTIONID_B__0_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::Class_0_16E4307DCC419505_805*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEADVENTUREMODULE___C__DISPLAYCLASS40_0__REMOVETRIGGEREDACTIONID_B__0_OFFSET))(this, a1);
 		}
 	};
 }

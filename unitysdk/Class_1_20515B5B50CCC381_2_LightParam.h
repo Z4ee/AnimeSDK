@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Class_1_20515B5B50CCC381_2_LightParam_TypeDefinitionIndex = 47843;
+inline static constexpr unsigned int Class_1_20515B5B50CCC381_2_LightParam_TypeDefinitionIndex = 47383;
 
 enum class Class_1_20515B5B50CCC381_2_LightParam : ::System::Int32
 {

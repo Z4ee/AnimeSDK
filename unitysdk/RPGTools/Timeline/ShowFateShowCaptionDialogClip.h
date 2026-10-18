@@ -8,25 +8,25 @@
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_SHOWFATESHOWCAPTIONDIALOGCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8E3F10)
-#define RPGTOOLS_TIMELINE_SHOWFATESHOWCAPTIONDIALOGCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE8E3F00)
-#define RPGTOOLS_TIMELINE_SHOWFATESHOWCAPTIONDIALOGCLIP__CCTOR_OFFSET UNITYSDK_OFFSET(0xE8E4150)
-#define RPGTOOLS_TIMELINE_SHOWFATESHOWCAPTIONDIALOGCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xE8E40E0)
+#define RPGTOOLS_TIMELINE_SHOWFATESHOWCAPTIONDIALOGCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE939330)
+#define RPGTOOLS_TIMELINE_SHOWFATESHOWCAPTIONDIALOGCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE939320)
+#define RPGTOOLS_TIMELINE_SHOWFATESHOWCAPTIONDIALOGCLIP__CCTOR_OFFSET UNITYSDK_OFFSET(0xE939570)
+#define RPGTOOLS_TIMELINE_SHOWFATESHOWCAPTIONDIALOGCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xE939500)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int ShowFateShowCaptionDialogClip_TypeDefinitionIndex = 48754;
+	inline static constexpr unsigned int ShowFateShowCaptionDialogClip_TypeDefinitionIndex = 48294;
 
 	class ShowFateShowCaptionDialogClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:
-		static ::System::String** StaticGet_UI_LUA_PATH()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ShowFateShowCaptionDialogClip_TypeDefinitionIndex)->GetStaticField(0x3D2F0);
-		}
 		static ::System::String** StaticGet_UI_NAME()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ShowFateShowCaptionDialogClip_TypeDefinitionIndex)->GetStaticField(0x3D2F8);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ShowFateShowCaptionDialogClip_TypeDefinitionIndex)->GetStaticField(0x6FDF0);
+		}
+		static ::System::String** StaticGet_UI_LUA_PATH()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ShowFateShowCaptionDialogClip_TypeDefinitionIndex)->GetStaticField(0x6FDF8);
 		}
 		::System::String* UILuaPath; // 0x18
 		::System::String* UIParam; // 0x20

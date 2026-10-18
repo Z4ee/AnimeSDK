@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class DestroyCurvePropGroupPuzzle; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_8DE8277C13AB9F8C_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xD7EAF10)
-#define CLASS_3_8DE8277C13AB9F8C__CTOR_OFFSET UNITYSDK_OFFSET(0xD7EAEE0)
+#define CLASS_3_8DE8277C13AB9F8C_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xD758E00)
+#define CLASS_3_8DE8277C13AB9F8C__CTOR_OFFSET UNITYSDK_OFFSET(0xD758DD0)
 
-inline static constexpr unsigned int Class_3_8DE8277C13AB9F8C_TypeDefinitionIndex = 58226;
+inline static constexpr unsigned int Class_3_8DE8277C13AB9F8C_TypeDefinitionIndex = 58074;
 
 class Class_3_8DE8277C13AB9F8C : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::DestroyCurvePropGroupPuzzle*>
 {

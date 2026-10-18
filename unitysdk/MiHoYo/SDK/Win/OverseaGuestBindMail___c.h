@@ -5,24 +5,24 @@
 namespace MiHoYo::SDK::Win { class OverseaGuestBindMail; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_WIN_OVERSEAGUESTBINDMAIL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B8B4FE0)
-#define MIHOYO_SDK_WIN_OVERSEAGUESTBINDMAIL___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8B5020)
-#define MIHOYO_SDK_WIN_OVERSEAGUESTBINDMAIL___C__SHOW_B__26_0_OFFSET UNITYSDK_OFFSET(0x1B8B5030)
+#define MIHOYO_SDK_WIN_OVERSEAGUESTBINDMAIL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BDB1D60)
+#define MIHOYO_SDK_WIN_OVERSEAGUESTBINDMAIL___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDB1DA0)
+#define MIHOYO_SDK_WIN_OVERSEAGUESTBINDMAIL___C__SHOW_B__26_0_OFFSET UNITYSDK_OFFSET(0x1BDB1DB0)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int OverseaGuestBindMail___c_TypeDefinitionIndex = 9438;
+	inline static constexpr unsigned int OverseaGuestBindMail___c_TypeDefinitionIndex = 9496;
 
 	class OverseaGuestBindMail___c : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::MiHoYo::SDK::Win::OverseaGuestBindMail*>** StaticGet___9__26_0()
 		{
-			return (::System::Action_1<::MiHoYo::SDK::Win::OverseaGuestBindMail*>**)Il2CppClass::FromTypeDefinitionIndex(OverseaGuestBindMail___c_TypeDefinitionIndex)->GetStaticField(0x35800);
+			return (::System::Action_1<::MiHoYo::SDK::Win::OverseaGuestBindMail*>**)Il2CppClass::FromTypeDefinitionIndex(OverseaGuestBindMail___c_TypeDefinitionIndex)->GetStaticField(0x22030);
 		}
 		static ::MiHoYo::SDK::Win::OverseaGuestBindMail___c** StaticGet___9()
 		{
-			return (::MiHoYo::SDK::Win::OverseaGuestBindMail___c**)Il2CppClass::FromTypeDefinitionIndex(OverseaGuestBindMail___c_TypeDefinitionIndex)->GetStaticField(0x35808);
+			return (::MiHoYo::SDK::Win::OverseaGuestBindMail___c**)Il2CppClass::FromTypeDefinitionIndex(OverseaGuestBindMail___c_TypeDefinitionIndex)->GetStaticField(0x22038);
 		}
 
 		static ::System::Void _cctor()

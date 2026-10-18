@@ -9,7 +9,7 @@ namespace System::Security::Cryptography { class Oid; }
 namespace System::Security::Cryptography::X509Certificates { class PublicKey; }
 namespace System::Security::Cryptography::X509Certificates { class X509CertificateImplCollection; }
 
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509CERTIFICATE2IMPL__CTOR_OFFSET UNITYSDK_OFFSET(0x1E9E6910)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509CERTIFICATE2IMPL__CTOR_OFFSET UNITYSDK_OFFSET(0x1F0AE470)
 
 namespace System::Security::Cryptography::X509Certificates
 {

@@ -4,20 +4,20 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MATCHTHREEVERSIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D2530E0)
-#define RPG_GAMECORE_MATCHTHREEVERSIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D253280)
+#define RPG_GAMECORE_MATCHTHREEVERSIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D85DBB0)
+#define RPG_GAMECORE_MATCHTHREEVERSIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D85DD50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MatchThreeVersionRow_TypeDefinitionIndex = 11872;
+	inline static constexpr unsigned int MatchThreeVersionRow_TypeDefinitionIndex = 11895;
 
 	class MatchThreeVersionRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* BirdIDList; // 0x10
-		::System::UInt32 ActivityVersion; // 0x18
+		::System::UInt32 ActivityID; // 0x18
 		::System::UInt32 PVPModuleID; // 0x1C
-		::System::UInt32 ActivityID; // 0x20
+		::System::UInt32 ActivityVersion; // 0x20
 
 		::System::Void _ctor()
 		{

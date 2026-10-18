@@ -12,28 +12,28 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define CLASS_3_D8CD91A9FE5659F7_METHOD_3_E024E0080A08A9C9_OFFSET UNITYSDK_OFFSET(0x1D6C82D0)
-#define CLASS_3_D8CD91A9FE5659F7_METHOD_3_FCE92D332F1E367F_OFFSET UNITYSDK_OFFSET(0x1D6C81C0)
-#define CLASS_3_D8CD91A9FE5659F7__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6C8260)
+#define CLASS_3_D8CD91A9FE5659F7_METHOD_3_E024E0080A08A9C9_OFFSET UNITYSDK_OFFSET(0x1DCD1930)
+#define CLASS_3_D8CD91A9FE5659F7_METHOD_3_FCE92D332F1E367F_OFFSET UNITYSDK_OFFSET(0x1DCD1820)
+#define CLASS_3_D8CD91A9FE5659F7__CTOR_OFFSET UNITYSDK_OFFSET(0x1DCD18C0)
 
-inline static constexpr unsigned int Class_3_D8CD91A9FE5659F7_TypeDefinitionIndex = 23889;
+inline static constexpr unsigned int Class_3_D8CD91A9FE5659F7_TypeDefinitionIndex = 24164;
 
 class Class_3_D8CD91A9FE5659F7 : public ::RPG::GameCore::TaskConfig
 {
 public:
-	::RPG::GameCore::DynamicFloat* PIBDDOGGDKL; // 0x18
-	::System::String* FDFONLOKOHJ; // 0x20
-	::RPG::GameCore::DynamicFloat* MIAFMBHCMOG; // 0x28
+	::System::String* FDFONLOKOHJ; // 0x18
+	::RPG::GameCore::DynamicFloat* MIAFMBHCMOG; // 0x20
+	::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x28
 	::RPG::GameCore::TargetEvaluator* NFMKOFNEKLA; // 0x30
-	::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x38
+	::RPG::GameCore::DynamicFloat* ABINBKACLJK; // 0x38
 	::RPG::GameCore::DamageDisplayData* AIMHHKODFJN; // 0x40
-	::RPG::GameCore::DynamicFloat* ABINBKACLJK; // 0x48
-	::System::Boolean AELFMDGFAIK; // 0x50
-	::System::Boolean AGFGDBPMPPB; // 0x51
-	::RPG::GameCore::TargetRatioType LMCJKOCHIAI; // 0x54
-	::RPG::GameCore::AttackDamageType PAIECOBACKB; // 0x58
-	::RPG::GameCore::AttackType HIFKEKCELFB; // 0x5C
-	::RPG::GameCore::DynamicValueContextScope AMEKHLANFKP; // 0x60
+	::RPG::GameCore::DynamicFloat* PIBDDOGGDKL; // 0x48
+	::RPG::GameCore::AttackDamageType PAIECOBACKB; // 0x50
+	::RPG::GameCore::DynamicValueContextScope AMEKHLANFKP; // 0x54
+	::RPG::GameCore::TargetRatioType LMCJKOCHIAI; // 0x58
+	::System::Boolean AGFGDBPMPPB; // 0x5C
+	::System::Boolean AELFMDGFAIK; // 0x5D
+	::RPG::GameCore::AttackType HIFKEKCELFB; // 0x60
 
 	::System::Void _ctor()
 	{

@@ -5,12 +5,12 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_PEDESTRIANMEMBEREXTERNALCONFIG_FLOATING_GET_SPECIALTAG_OFFSET UNITYSDK_OFFSET(0xDA4A5C0)
-#define RPG_CLIENT_PEDESTRIANMEMBEREXTERNALCONFIG_FLOATING__CTOR_OFFSET UNITYSDK_OFFSET(0xDA4A5D0)
+#define RPG_CLIENT_PEDESTRIANMEMBEREXTERNALCONFIG_FLOATING_GET_SPECIALTAG_OFFSET UNITYSDK_OFFSET(0xDA96790)
+#define RPG_CLIENT_PEDESTRIANMEMBEREXTERNALCONFIG_FLOATING__CTOR_OFFSET UNITYSDK_OFFSET(0xDA967A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PedestrianMemberExternalConfig_Floating_TypeDefinitionIndex = 69211;
+	inline static constexpr unsigned int PedestrianMemberExternalConfig_Floating_TypeDefinitionIndex = 69247;
 
 	class PedestrianMemberExternalConfig_Floating : public ::RPG::Client::IPedestrianMemberExternalConfig
 	{

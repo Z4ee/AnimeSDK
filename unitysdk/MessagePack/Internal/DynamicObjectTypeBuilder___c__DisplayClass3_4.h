@@ -5,12 +5,12 @@
 namespace MessagePack::Internal { class DynamicObjectTypeBuilder___c__DisplayClass3_3; }
 namespace System::Reflection { class FieldInfo; }
 
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS3_4__BUILDTYPE_B__4_OFFSET UNITYSDK_OFFSET(0x1B6A6FB0)
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS3_4__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6A6FA0)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS3_4__BUILDTYPE_B__4_OFFSET UNITYSDK_OFFSET(0x1BBA5730)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS3_4__CTOR_OFFSET UNITYSDK_OFFSET(0x1BBA5720)
 
 namespace MessagePack::Internal
 {
-	inline static constexpr unsigned int DynamicObjectTypeBuilder___c__DisplayClass3_4_TypeDefinitionIndex = 7275;
+	inline static constexpr unsigned int DynamicObjectTypeBuilder___c__DisplayClass3_4_TypeDefinitionIndex = 7329;
 
 	class DynamicObjectTypeBuilder___c__DisplayClass3_4 : public ::System::Object
 	{

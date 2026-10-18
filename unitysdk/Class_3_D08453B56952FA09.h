@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TriggerUINotifyWithTarget; }
 
-#define CLASS_3_D08453B56952FA09_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC330D90)
-#define CLASS_3_D08453B56952FA09__CTOR_OFFSET UNITYSDK_OFFSET(0xC330D60)
+#define CLASS_3_D08453B56952FA09_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC223EF0)
+#define CLASS_3_D08453B56952FA09__CTOR_OFFSET UNITYSDK_OFFSET(0xC223EC0)
 
-inline static constexpr unsigned int Class_3_D08453B56952FA09_TypeDefinitionIndex = 56664;
+inline static constexpr unsigned int Class_3_D08453B56952FA09_TypeDefinitionIndex = 56479;
 
 class Class_3_D08453B56952FA09 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::TriggerUINotifyWithTarget*>
 {

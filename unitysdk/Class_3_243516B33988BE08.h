@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByEnableStoryStreamingSource; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_243516B33988BE08_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB49F9C0)
-#define CLASS_3_243516B33988BE08__CTOR_OFFSET UNITYSDK_OFFSET(0xB49F990)
+#define CLASS_3_243516B33988BE08_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB174BF0)
+#define CLASS_3_243516B33988BE08__CTOR_OFFSET UNITYSDK_OFFSET(0xB174BC0)
 
-inline static constexpr unsigned int Class_3_243516B33988BE08_TypeDefinitionIndex = 52374;
+inline static constexpr unsigned int Class_3_243516B33988BE08_TypeDefinitionIndex = 52087;
 
 class Class_3_243516B33988BE08 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByEnableStoryStreamingSource*>
 {

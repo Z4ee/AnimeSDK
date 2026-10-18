@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Timeline/TrackAsset.h"
 
-#define RPGTOOLS_TIMELINE_VFX_VFXANIMATORCROSSFADETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xE8FD600)
+#define RPGTOOLS_TIMELINE_VFX_VFXANIMATORCROSSFADETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xE953120)
 
 namespace RPGTools::Timeline::VFX
 {
-	inline static constexpr unsigned int VFXAnimatorCrossFadeTrack_TypeDefinitionIndex = 49118;
+	inline static constexpr unsigned int VFXAnimatorCrossFadeTrack_TypeDefinitionIndex = 48664;
 
 	class VFXAnimatorCrossFadeTrack : public ::UnityEngine::Timeline::TrackAsset
 	{

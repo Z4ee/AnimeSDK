@@ -11,21 +11,21 @@ namespace RPG::Client { class CameraFightStateSelectServantConfig; }
 namespace RPG::GameCore { class GameEntity; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_E1E91309AFCC537D_GETFIGHTSTATECONFIG_OFFSET UNITYSDK_OFFSET(0x16133D70)
-#define CLASS_1_E1E91309AFCC537D_INIT_OFFSET UNITYSDK_OFFSET(0x16133070)
-#define CLASS_1_E1E91309AFCC537D_METHOD_1_FA7F53A70E53979D_OFFSET UNITYSDK_OFFSET(0x16133760)
-#define CLASS_1_E1E91309AFCC537D_REFRESH_OFFSET UNITYSDK_OFFSET(0x161331C0)
-#define CLASS_1_E1E91309AFCC537D_RESET_OFFSET UNITYSDK_OFFSET(0x16133120)
-#define CLASS_1_E1E91309AFCC537D__CTOR_OFFSET UNITYSDK_OFFSET(0x16133DB0)
+#define CLASS_1_E1E91309AFCC537D_GETFIGHTSTATECONFIG_OFFSET UNITYSDK_OFFSET(0xB1564D0)
+#define CLASS_1_E1E91309AFCC537D_INIT_OFFSET UNITYSDK_OFFSET(0xB1557B0)
+#define CLASS_1_E1E91309AFCC537D_METHOD_1_AEF77B72895129F4_OFFSET UNITYSDK_OFFSET(0xB155EB0)
+#define CLASS_1_E1E91309AFCC537D_REFRESH_OFFSET UNITYSDK_OFFSET(0xB155900)
+#define CLASS_1_E1E91309AFCC537D_RESET_OFFSET UNITYSDK_OFFSET(0xB155860)
+#define CLASS_1_E1E91309AFCC537D__CTOR_OFFSET UNITYSDK_OFFSET(0xB156510)
 
-inline static constexpr unsigned int Class_1_E1E91309AFCC537D_TypeDefinitionIndex = 69569;
+inline static constexpr unsigned int Class_1_E1E91309AFCC537D_TypeDefinitionIndex = 69605;
 
 class Class_1_E1E91309AFCC537D : public ::System::Object
 {
 public:
 	::RPG::Client::CameraFightStateSelectServantConfig* MAFIONBKPIE; // 0x10
-	::RPG::Client::CameraDataAndFlags* OMKPPIGCFDN; // 0x18
-	::Class_2_4C3F9D9CF221EFEC* LEOGIKABIGF; // 0x20
+	::Class_2_4C3F9D9CF221EFEC* LEOGIKABIGF; // 0x18
+	::RPG::Client::CameraDataAndFlags* OMKPPIGCFDN; // 0x20
 	::UnityEngine::Vector3 EPGIKHNGDEB; // 0x28
 
 	::System::Void _ctor()
@@ -53,8 +53,8 @@ public:
 		return ((::RPG::Client::CameraFightStateCommonConfig*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_E1E91309AFCC537D_GETFIGHTSTATECONFIG_OFFSET))(this);
 	}
 
-	::RPG::MVector3 Method_1_FA7F53A70E53979D(::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* a1)
+	::RPG::MVector3 Method_1_AEF77B72895129F4(::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* a1)
 	{
-		return ((::RPG::MVector3(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>*))((::PBYTE)hIl2Cpp + CLASS_1_E1E91309AFCC537D_METHOD_1_FA7F53A70E53979D_OFFSET))(this, a1);
+		return ((::RPG::MVector3(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>*))((::PBYTE)hIl2Cpp + CLASS_1_E1E91309AFCC537D_METHOD_1_AEF77B72895129F4_OFFSET))(this, a1);
 	}
 };

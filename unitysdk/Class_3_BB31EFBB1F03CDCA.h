@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetTimelineEntityState; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_BB31EFBB1F03CDCA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x157AEF90)
-#define CLASS_3_BB31EFBB1F03CDCA__CTOR_OFFSET UNITYSDK_OFFSET(0x157AEF60)
+#define CLASS_3_BB31EFBB1F03CDCA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15AA2810)
+#define CLASS_3_BB31EFBB1F03CDCA__CTOR_OFFSET UNITYSDK_OFFSET(0x15AA27E0)
 
-inline static constexpr unsigned int Class_3_BB31EFBB1F03CDCA_TypeDefinitionIndex = 53653;
+inline static constexpr unsigned int Class_3_BB31EFBB1F03CDCA_TypeDefinitionIndex = 53396;
 
 class Class_3_BB31EFBB1F03CDCA : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetTimelineEntityState*>
 {

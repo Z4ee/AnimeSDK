@@ -6,12 +6,12 @@
 namespace MiHoYo::SDK { class JSONArray; }
 namespace System { template <typename T1, typename T2, typename T3, typename T4> class Action_4; }
 
-#define MIHOYO_SDK_BASE_GOODSPLATFORM_THIRDPARTYSTORE___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B73A100)
-#define MIHOYO_SDK_BASE_GOODSPLATFORM_THIRDPARTYSTORE___C__DISPLAYCLASS16_0__EXCHANGESONYSTOREITEMINFO_B__0_OFFSET UNITYSDK_OFFSET(0x1B73AFA0)
+#define MIHOYO_SDK_BASE_GOODSPLATFORM_THIRDPARTYSTORE___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC38730)
+#define MIHOYO_SDK_BASE_GOODSPLATFORM_THIRDPARTYSTORE___C__DISPLAYCLASS16_0__EXCHANGESONYSTOREITEMINFO_B__0_OFFSET UNITYSDK_OFFSET(0x1BC395D0)
 
 namespace MiHoYo::SDK::Base::GoodsPlatform
 {
-	inline static constexpr unsigned int ThirdpartyStore___c__DisplayClass16_0_TypeDefinitionIndex = 8790;
+	inline static constexpr unsigned int ThirdpartyStore___c__DisplayClass16_0_TypeDefinitionIndex = 8851;
 
 	class ThirdpartyStore___c__DisplayClass16_0 : public ::System::Object
 	{

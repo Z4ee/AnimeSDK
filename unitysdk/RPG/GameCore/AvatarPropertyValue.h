@@ -6,18 +6,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_AVATARPROPERTYVALUE_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CE48F50)
-#define RPG_GAMECORE_AVATARPROPERTYVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE490A0)
+#define RPG_GAMECORE_AVATARPROPERTYVALUE_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D41F370)
+#define RPG_GAMECORE_AVATARPROPERTYVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D41F4C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AvatarPropertyValue_TypeDefinitionIndex = 12617;
+	inline static constexpr unsigned int AvatarPropertyValue_TypeDefinitionIndex = 12707;
 
 	class AvatarPropertyValue : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::AvatarPropertyType PropertyType; // 0x10
-		::RPG::GameCore::FixPoint Value; // 0x18
+		::RPG::GameCore::FixPoint Value; // 0x10
+		::RPG::GameCore::AvatarPropertyType PropertyType; // 0x18
 
 		::System::Void _ctor()
 		{

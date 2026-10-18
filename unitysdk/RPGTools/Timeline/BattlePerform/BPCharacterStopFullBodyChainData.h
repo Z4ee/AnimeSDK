@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_BATTLEPERFORM_BPCHARACTERSTOPFULLBODYCHAINDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xE81BA50)
+#define RPGTOOLS_TIMELINE_BATTLEPERFORM_BPCHARACTERSTOPFULLBODYCHAINDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xE8B97C0)
 
 namespace RPGTools::Timeline::BattlePerform
 {
-	inline static constexpr unsigned int BPCharacterStopFullBodyChainData_TypeDefinitionIndex = 49260;
+	inline static constexpr unsigned int BPCharacterStopFullBodyChainData_TypeDefinitionIndex = 48809;
 
 	class BPCharacterStopFullBodyChainData : public ::System::Object
 	{

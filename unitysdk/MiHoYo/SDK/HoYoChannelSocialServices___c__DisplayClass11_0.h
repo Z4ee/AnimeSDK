@@ -6,12 +6,12 @@ namespace MiHoYo::SDK::PC::OS { class HoYoChannelBlockListResult; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_HOYOCHANNELSOCIALSERVICES___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB1F5FD0)
-#define MIHOYO_SDK_HOYOCHANNELSOCIALSERVICES___C__DISPLAYCLASS11_0__ONBLOCKLISTCALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0xB1F6CE0)
+#define MIHOYO_SDK_HOYOCHANNELSOCIALSERVICES___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0xAF9D6B0)
+#define MIHOYO_SDK_HOYOCHANNELSOCIALSERVICES___C__DISPLAYCLASS11_0__ONBLOCKLISTCALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0xAF9E3C0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int HoYoChannelSocialServices___c__DisplayClass11_0_TypeDefinitionIndex = 47012;
+	inline static constexpr unsigned int HoYoChannelSocialServices___c__DisplayClass11_0_TypeDefinitionIndex = 46552;
 
 	class HoYoChannelSocialServices___c__DisplayClass11_0 : public ::System::Object
 	{

@@ -1,0 +1,69 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/MonoBehaviour.h"
+
+class Class_1_E3B9F9CBA6310E1A;
+namespace R3 { class CompositeDisposable; }
+namespace RPG::Client::MechCraft::View { class MechCraftCraftProgressOverlapControlBinder; }
+namespace System { class Object; }
+namespace System { class String; }
+
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTPROGRESSOVERLAPCONTROL_GET_CONTENT_OFFSET UNITYSDK_OFFSET(0xD635680)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTPROGRESSOVERLAPCONTROL_METHOD_5_3160EACC8F1729F2_OFFSET UNITYSDK_OFFSET(0xD635E20)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTPROGRESSOVERLAPCONTROL_METHOD_5_9A7B1D406C8D78E8_OFFSET UNITYSDK_OFFSET(0xD635790)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTPROGRESSOVERLAPCONTROL_METHOD_5_DFD2F0CF05331FC2_OFFSET UNITYSDK_OFFSET(0xD6356C0)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTPROGRESSOVERLAPCONTROL_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xD635CD0)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTPROGRESSOVERLAPCONTROL_SET_CONTENT_OFFSET UNITYSDK_OFFSET(0xD632290)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTPROGRESSOVERLAPCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0xD636130)
+
+namespace RPG::Client::MechCraft::View
+{
+	inline static constexpr unsigned int MechCraftCraftProgressOverlapControl_TypeDefinitionIndex = 79941;
+
+	class MechCraftCraftProgressOverlapControl : public ::UnityEngine::MonoBehaviour
+	{
+	public:
+		::Class_1_E3B9F9CBA6310E1A* LFGMLJCCPCH; // 0x18
+		::R3::CompositeDisposable* GLJKCIFADHM; // 0x20
+		::RPG::Client::MechCraft::View::MechCraftCraftProgressOverlapControlBinder* _Binder; // 0x28
+		::System::String* _StateNormal; // 0x30
+		::System::String* _StateError; // 0x38
+		::System::String* _AnimEventCraftFadeInHintOverlap; // 0x40
+		::System::String* _AnimEventCraftTargetFinished; // 0x48
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTPROGRESSOVERLAPCONTROL__CTOR_OFFSET))(this);
+		}
+
+		::Class_1_E3B9F9CBA6310E1A* get_Content()
+		{
+			return ((::Class_1_E3B9F9CBA6310E1A*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTPROGRESSOVERLAPCONTROL_GET_CONTENT_OFFSET))(this);
+		}
+
+		::System::Void set_Content(::Class_1_E3B9F9CBA6310E1A* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_E3B9F9CBA6310E1A*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTPROGRESSOVERLAPCONTROL_SET_CONTENT_OFFSET))(this, a1);
+		}
+
+		::System::Void OnDestroy()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTPROGRESSOVERLAPCONTROL_ONDESTROY_OFFSET))(this);
+		}
+
+		::System::Void Method_5_9A7B1D406C8D78E8(::Class_1_E3B9F9CBA6310E1A* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_E3B9F9CBA6310E1A*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTPROGRESSOVERLAPCONTROL_METHOD_5_9A7B1D406C8D78E8_OFFSET))(this, a1);
+		}
+
+		::System::Void Method_5_DFD2F0CF05331FC2(::Class_1_E3B9F9CBA6310E1A* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_E3B9F9CBA6310E1A*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTPROGRESSOVERLAPCONTROL_METHOD_5_DFD2F0CF05331FC2_OFFSET))(this, a1);
+		}
+
+		::System::Void Method_5_3160EACC8F1729F2(::System::Object* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTPROGRESSOVERLAPCONTROL_METHOD_5_3160EACC8F1729F2_OFFSET))(this, a1);
+		}
+	};
+}

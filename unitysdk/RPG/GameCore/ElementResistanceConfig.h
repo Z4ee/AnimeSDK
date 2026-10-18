@@ -6,12 +6,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ELEMENTRESISTANCECONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D056E30)
-#define RPG_GAMECORE_ELEMENTRESISTANCECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D056F80)
+#define RPG_GAMECORE_ELEMENTRESISTANCECONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D6338F0)
+#define RPG_GAMECORE_ELEMENTRESISTANCECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D633A40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ElementResistanceConfig_TypeDefinitionIndex = 12968;
+	inline static constexpr unsigned int ElementResistanceConfig_TypeDefinitionIndex = 13074;
 
 	class ElementResistanceConfig : public ::System::Object
 	{

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class PropCurveMoveModifySpeed; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_5DEAC0D78798C38F_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE5CAEA0)
-#define CLASS_3_5DEAC0D78798C38F__CTOR_OFFSET UNITYSDK_OFFSET(0xE5CAE70)
+#define CLASS_3_5DEAC0D78798C38F_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE520020)
+#define CLASS_3_5DEAC0D78798C38F__CTOR_OFFSET UNITYSDK_OFFSET(0xE51FFF0)
 
-inline static constexpr unsigned int Class_3_5DEAC0D78798C38F_TypeDefinitionIndex = 58455;
+inline static constexpr unsigned int Class_3_5DEAC0D78798C38F_TypeDefinitionIndex = 58306;
 
 class Class_3_5DEAC0D78798C38F : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::PropCurveMoveModifySpeed*>
 {

@@ -12,7 +12,7 @@ namespace System { template <typename T1, typename T2, typename T3> class Func_3
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int Create_1__Create_TypeDefinitionIndex = 44191;
+	inline static constexpr unsigned int Create_1__Create_TypeDefinitionIndex = 45330;
 
 	template <typename T>
 	class Create_1__Create : public ::Cysharp::Threading::Tasks::MoveNextSource

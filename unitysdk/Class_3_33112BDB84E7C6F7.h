@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AbortInsertAbility; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_33112BDB84E7C6F7_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1615E950)
-#define CLASS_3_33112BDB84E7C6F7__CTOR_OFFSET UNITYSDK_OFFSET(0x1615E920)
+#define CLASS_3_33112BDB84E7C6F7_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x164D2190)
+#define CLASS_3_33112BDB84E7C6F7__CTOR_OFFSET UNITYSDK_OFFSET(0x164D2160)
 
-inline static constexpr unsigned int Class_3_33112BDB84E7C6F7_TypeDefinitionIndex = 55004;
+inline static constexpr unsigned int Class_3_33112BDB84E7C6F7_TypeDefinitionIndex = 54794;
 
 class Class_3_33112BDB84E7C6F7 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AbortInsertAbility*>
 {

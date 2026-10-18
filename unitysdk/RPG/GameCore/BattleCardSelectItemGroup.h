@@ -7,12 +7,12 @@ namespace RPG::GameCore { class BattleCardSelectItem; }
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_BATTLECARDSELECTITEMGROUP_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CE6B670)
-#define RPG_GAMECORE_BATTLECARDSELECTITEMGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE6B830)
+#define RPG_GAMECORE_BATTLECARDSELECTITEMGROUP_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D4531B0)
+#define RPG_GAMECORE_BATTLECARDSELECTITEMGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1D453370)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleCardSelectItemGroup_TypeDefinitionIndex = 22294;
+	inline static constexpr unsigned int BattleCardSelectItemGroup_TypeDefinitionIndex = 22543;
 
 	class BattleCardSelectItemGroup : public ::RPG::GameCore::JsonConfig
 	{

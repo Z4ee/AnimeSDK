@@ -15,74 +15,74 @@ namespace RPG::GameCore { class PlayerReturnInviteRow; }
 namespace System { class Action; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_ACTIVITYPLAYERRETURNMODULE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC67E010)
-#define RPG_CLIENT_ACTIVITYPLAYERRETURNMODULE___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC67E040)
-#define RPG_CLIENT_ACTIVITYPLAYERRETURNMODULE___C__SENDBINDINVITATIONCODEWWWREQ_B__94_0_OFFSET UNITYSDK_OFFSET(0xC67E220)
-#define RPG_CLIENT_ACTIVITYPLAYERRETURNMODULE___C__SENDBINDINVITATIONCODEWWWREQ_B__94_1_OFFSET UNITYSDK_OFFSET(0xC67E250)
-#define RPG_CLIENT_ACTIVITYPLAYERRETURNMODULE___C__SENDBINDINVITATIONCODEWWWREQ_B__94_2_OFFSET UNITYSDK_OFFSET(0xC67E2A0)
-#define RPG_CLIENT_ACTIVITYPLAYERRETURNMODULE___C__SENDGETINVITEEINFOWWWREQ_B__93_0_OFFSET UNITYSDK_OFFSET(0xC67E1A0)
-#define RPG_CLIENT_ACTIVITYPLAYERRETURNMODULE___C__SENDGETINVITEEINFOWWWREQ_B__93_1_OFFSET UNITYSDK_OFFSET(0xC67E1D0)
-#define RPG_CLIENT_ACTIVITYPLAYERRETURNMODULE___C__SENDGETINVITERINFOWWWREQ_B__92_0_OFFSET UNITYSDK_OFFSET(0xC67E120)
-#define RPG_CLIENT_ACTIVITYPLAYERRETURNMODULE___C__SENDGETINVITERINFOWWWREQ_B__92_1_OFFSET UNITYSDK_OFFSET(0xC67E150)
-#define RPG_CLIENT_ACTIVITYPLAYERRETURNMODULE___C___ONPLAYERRETURNINFOQUERYSCRSP_B__184_0_OFFSET UNITYSDK_OFFSET(0xC67E2B0)
-#define RPG_CLIENT_ACTIVITYPLAYERRETURNMODULE___C___ONPLAYERRETURNTAKEEXTRAHCOINSCNOTIFY_B__15_1_OFFSET UNITYSDK_OFFSET(0xC67E050)
-#define RPG_CLIENT_ACTIVITYPLAYERRETURNMODULE___C___REFRESHCURINVITECONFIG_B__57_0_OFFSET UNITYSDK_OFFSET(0xC67E090)
-#define RPG_CLIENT_ACTIVITYPLAYERRETURNMODULE___C___REFRESHCURINVITECONFIG_B__57_1_OFFSET UNITYSDK_OFFSET(0xC67E0B0)
+#define RPG_CLIENT_ACTIVITYPLAYERRETURNMODULE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC59A860)
+#define RPG_CLIENT_ACTIVITYPLAYERRETURNMODULE___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC59A890)
+#define RPG_CLIENT_ACTIVITYPLAYERRETURNMODULE___C__SENDBINDINVITATIONCODEWWWREQ_B__94_0_OFFSET UNITYSDK_OFFSET(0xC59AA70)
+#define RPG_CLIENT_ACTIVITYPLAYERRETURNMODULE___C__SENDBINDINVITATIONCODEWWWREQ_B__94_1_OFFSET UNITYSDK_OFFSET(0xC59AAA0)
+#define RPG_CLIENT_ACTIVITYPLAYERRETURNMODULE___C__SENDBINDINVITATIONCODEWWWREQ_B__94_2_OFFSET UNITYSDK_OFFSET(0xC59AAF0)
+#define RPG_CLIENT_ACTIVITYPLAYERRETURNMODULE___C__SENDGETINVITEEINFOWWWREQ_B__93_0_OFFSET UNITYSDK_OFFSET(0xC59A9F0)
+#define RPG_CLIENT_ACTIVITYPLAYERRETURNMODULE___C__SENDGETINVITEEINFOWWWREQ_B__93_1_OFFSET UNITYSDK_OFFSET(0xC59AA20)
+#define RPG_CLIENT_ACTIVITYPLAYERRETURNMODULE___C__SENDGETINVITERINFOWWWREQ_B__92_0_OFFSET UNITYSDK_OFFSET(0xC59A970)
+#define RPG_CLIENT_ACTIVITYPLAYERRETURNMODULE___C__SENDGETINVITERINFOWWWREQ_B__92_1_OFFSET UNITYSDK_OFFSET(0xC59A9A0)
+#define RPG_CLIENT_ACTIVITYPLAYERRETURNMODULE___C___ONPLAYERRETURNINFOQUERYSCRSP_B__184_0_OFFSET UNITYSDK_OFFSET(0xC59AB00)
+#define RPG_CLIENT_ACTIVITYPLAYERRETURNMODULE___C___ONPLAYERRETURNTAKEEXTRAHCOINSCNOTIFY_B__15_1_OFFSET UNITYSDK_OFFSET(0xC59A8A0)
+#define RPG_CLIENT_ACTIVITYPLAYERRETURNMODULE___C___REFRESHCURINVITECONFIG_B__57_0_OFFSET UNITYSDK_OFFSET(0xC59A8E0)
+#define RPG_CLIENT_ACTIVITYPLAYERRETURNMODULE___C___REFRESHCURINVITECONFIG_B__57_1_OFFSET UNITYSDK_OFFSET(0xC59A900)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityPlayerReturnModule___c_TypeDefinitionIndex = 61959;
+	inline static constexpr unsigned int ActivityPlayerReturnModule___c_TypeDefinitionIndex = 61869;
 
 	class ActivityPlayerReturnModule___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__15_1()
+		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::UInt32>, ::RPG::Client::ItemData*>** StaticGet___9__57_1()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(ActivityPlayerReturnModule___c_TypeDefinitionIndex)->GetStaticField(0x63570);
-		}
-		static ::System::Func_2<::Class_1_AC6C63F15E9794D3*, ::RPG::Client::Promises::IPromise_1<::Class_1_296A7AC90F028539*>*>** StaticGet___9__93_0()
-		{
-			return (::System::Func_2<::Class_1_AC6C63F15E9794D3*, ::RPG::Client::Promises::IPromise_1<::Class_1_296A7AC90F028539*>*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityPlayerReturnModule___c_TypeDefinitionIndex)->GetStaticField(0x63578);
-		}
-		static ::System::Func_2<::Class_1_296A7AC90F028539*, ::RPG::Client::RPGHttpPlatformActResponse_1<::Class_1_A509A996D269C6F2_2*>*>** StaticGet___9__92_1()
-		{
-			return (::System::Func_2<::Class_1_296A7AC90F028539*, ::RPG::Client::RPGHttpPlatformActResponse_1<::Class_1_A509A996D269C6F2_2*>*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityPlayerReturnModule___c_TypeDefinitionIndex)->GetStaticField(0x63580);
-		}
-		static ::System::Func_2<::Class_1_AC6C63F15E9794D3*, ::RPG::Client::Promises::IPromise_1<::Class_1_296A7AC90F028539*>*>** StaticGet___9__92_0()
-		{
-			return (::System::Func_2<::Class_1_AC6C63F15E9794D3*, ::RPG::Client::Promises::IPromise_1<::Class_1_296A7AC90F028539*>*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityPlayerReturnModule___c_TypeDefinitionIndex)->GetStaticField(0x63588);
-		}
-		static ::System::Func_2<::Class_1_AC6C63F15E9794D3*, ::RPG::Client::Promises::IPromise_1<::Class_1_296A7AC90F028539*>*>** StaticGet___9__94_0()
-		{
-			return (::System::Func_2<::Class_1_AC6C63F15E9794D3*, ::RPG::Client::Promises::IPromise_1<::Class_1_296A7AC90F028539*>*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityPlayerReturnModule___c_TypeDefinitionIndex)->GetStaticField(0x63590);
-		}
-		static ::System::Action** StaticGet___9__94_2()
-		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(ActivityPlayerReturnModule___c_TypeDefinitionIndex)->GetStaticField(0x63598);
-		}
-		static ::System::Func_2<::RPG::GameCore::PlayerReturnInviteRow*, ::System::UInt32>** StaticGet___9__57_0()
-		{
-			return (::System::Func_2<::RPG::GameCore::PlayerReturnInviteRow*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(ActivityPlayerReturnModule___c_TypeDefinitionIndex)->GetStaticField(0x635A0);
-		}
-		static ::System::Func_2<::Class_1_296A7AC90F028539*, ::RPG::Client::RPGHttpPlatformActResponse_1<::Class_1_BB62CC0FD1E45ADE_11*>*>** StaticGet___9__93_1()
-		{
-			return (::System::Func_2<::Class_1_296A7AC90F028539*, ::RPG::Client::RPGHttpPlatformActResponse_1<::Class_1_BB62CC0FD1E45ADE_11*>*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityPlayerReturnModule___c_TypeDefinitionIndex)->GetStaticField(0x635A8);
-		}
-		static ::System::Func_2<::System::Int32, ::System::Boolean>** StaticGet___9__184_0()
-		{
-			return (::System::Func_2<::System::Int32, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ActivityPlayerReturnModule___c_TypeDefinitionIndex)->GetStaticField(0x635B0);
-		}
-		static ::RPG::Client::ActivityPlayerReturnModule___c** StaticGet___9()
-		{
-			return (::RPG::Client::ActivityPlayerReturnModule___c**)Il2CppClass::FromTypeDefinitionIndex(ActivityPlayerReturnModule___c_TypeDefinitionIndex)->GetStaticField(0x635B8);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::UInt32>, ::RPG::Client::ItemData*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityPlayerReturnModule___c_TypeDefinitionIndex)->GetStaticField(0x38910);
 		}
 		static ::System::Func_2<::Class_1_296A7AC90F028539*, ::Class_1_D8AE373904B194A5*>** StaticGet___9__94_1()
 		{
-			return (::System::Func_2<::Class_1_296A7AC90F028539*, ::Class_1_D8AE373904B194A5*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityPlayerReturnModule___c_TypeDefinitionIndex)->GetStaticField(0x635C0);
+			return (::System::Func_2<::Class_1_296A7AC90F028539*, ::Class_1_D8AE373904B194A5*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityPlayerReturnModule___c_TypeDefinitionIndex)->GetStaticField(0x38918);
 		}
-		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::UInt32>, ::RPG::Client::ItemData*>** StaticGet___9__57_1()
+		static ::System::Action** StaticGet___9__94_2()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::UInt32>, ::RPG::Client::ItemData*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityPlayerReturnModule___c_TypeDefinitionIndex)->GetStaticField(0x635C8);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(ActivityPlayerReturnModule___c_TypeDefinitionIndex)->GetStaticField(0x38920);
+		}
+		static ::System::Func_2<::System::Int32, ::System::Boolean>** StaticGet___9__184_0()
+		{
+			return (::System::Func_2<::System::Int32, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ActivityPlayerReturnModule___c_TypeDefinitionIndex)->GetStaticField(0x38928);
+		}
+		static ::System::Func_2<::Class_1_AC6C63F15E9794D3*, ::RPG::Client::Promises::IPromise_1<::Class_1_296A7AC90F028539*>*>** StaticGet___9__93_0()
+		{
+			return (::System::Func_2<::Class_1_AC6C63F15E9794D3*, ::RPG::Client::Promises::IPromise_1<::Class_1_296A7AC90F028539*>*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityPlayerReturnModule___c_TypeDefinitionIndex)->GetStaticField(0x38930);
+		}
+		static ::System::Func_2<::Class_1_296A7AC90F028539*, ::RPG::Client::RPGHttpPlatformActResponse_1<::Class_1_BB62CC0FD1E45ADE_11*>*>** StaticGet___9__93_1()
+		{
+			return (::System::Func_2<::Class_1_296A7AC90F028539*, ::RPG::Client::RPGHttpPlatformActResponse_1<::Class_1_BB62CC0FD1E45ADE_11*>*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityPlayerReturnModule___c_TypeDefinitionIndex)->GetStaticField(0x38938);
+		}
+		static ::System::Func_2<::Class_1_296A7AC90F028539*, ::RPG::Client::RPGHttpPlatformActResponse_1<::Class_1_A509A996D269C6F2_2*>*>** StaticGet___9__92_1()
+		{
+			return (::System::Func_2<::Class_1_296A7AC90F028539*, ::RPG::Client::RPGHttpPlatformActResponse_1<::Class_1_A509A996D269C6F2_2*>*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityPlayerReturnModule___c_TypeDefinitionIndex)->GetStaticField(0x38940);
+		}
+		static ::System::Func_2<::Class_1_AC6C63F15E9794D3*, ::RPG::Client::Promises::IPromise_1<::Class_1_296A7AC90F028539*>*>** StaticGet___9__94_0()
+		{
+			return (::System::Func_2<::Class_1_AC6C63F15E9794D3*, ::RPG::Client::Promises::IPromise_1<::Class_1_296A7AC90F028539*>*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityPlayerReturnModule___c_TypeDefinitionIndex)->GetStaticField(0x38948);
+		}
+		static ::System::Func_2<::Class_1_AC6C63F15E9794D3*, ::RPG::Client::Promises::IPromise_1<::Class_1_296A7AC90F028539*>*>** StaticGet___9__92_0()
+		{
+			return (::System::Func_2<::Class_1_AC6C63F15E9794D3*, ::RPG::Client::Promises::IPromise_1<::Class_1_296A7AC90F028539*>*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityPlayerReturnModule___c_TypeDefinitionIndex)->GetStaticField(0x38950);
+		}
+		static ::System::Func_2<::RPG::GameCore::PlayerReturnInviteRow*, ::System::UInt32>** StaticGet___9__57_0()
+		{
+			return (::System::Func_2<::RPG::GameCore::PlayerReturnInviteRow*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(ActivityPlayerReturnModule___c_TypeDefinitionIndex)->GetStaticField(0x38958);
+		}
+		static ::System::Action** StaticGet___9__15_1()
+		{
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(ActivityPlayerReturnModule___c_TypeDefinitionIndex)->GetStaticField(0x38960);
+		}
+		static ::RPG::Client::ActivityPlayerReturnModule___c** StaticGet___9()
+		{
+			return (::RPG::Client::ActivityPlayerReturnModule___c**)Il2CppClass::FromTypeDefinitionIndex(ActivityPlayerReturnModule___c_TypeDefinitionIndex)->GetStaticField(0x38968);
 		}
 
 		static ::System::Void _cctor()

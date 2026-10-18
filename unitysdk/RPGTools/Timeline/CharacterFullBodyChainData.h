@@ -7,11 +7,11 @@
 
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_CHARACTERFULLBODYCHAINDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xE82ABE0)
+#define RPGTOOLS_TIMELINE_CHARACTERFULLBODYCHAINDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xE8C89B0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int CharacterFullBodyChainData_TypeDefinitionIndex = 48422;
+	inline static constexpr unsigned int CharacterFullBodyChainData_TypeDefinitionIndex = 47962;
 
 	class CharacterFullBodyChainData : public ::System::Object
 	{

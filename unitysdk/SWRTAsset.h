@@ -13,10 +13,10 @@
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Texture; }
 
-#define SWRTASSET_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C6FCF20)
-#define SWRTASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x1C6FD120)
+#define SWRTASSET_CLEAR_OFFSET UNITYSDK_OFFSET(0x1CC84570)
+#define SWRTASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC84770)
 
-inline static constexpr unsigned int SWRTAsset_TypeDefinitionIndex = 36796;
+inline static constexpr unsigned int SWRTAsset_TypeDefinitionIndex = 37483;
 
 class SWRTAsset : public ::UnityEngine::ScriptableObject
 {

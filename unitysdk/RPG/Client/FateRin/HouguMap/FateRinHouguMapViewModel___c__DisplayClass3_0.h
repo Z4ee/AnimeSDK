@@ -2,27 +2,27 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_1350;
-class Class_1_310250D457C6B8CD;
+class Class_0_16E4307DCC419505_1553;
 class Class_1_5060AE803DAE1512;
+class Class_1_8E8D0A80717F489D;
 namespace RPG::Client::FateRin::HouguMap { class FateRinHouguMapFight; }
 namespace RPG::Client::FateRin::HouguMap { class FateRinHouguMapViewModel; }
 namespace RPG::Client::FateRin::HouguMap { class HouguMapFightViewModel; }
 
-#define RPG_CLIENT_FATERIN_HOUGUMAP_FATERINHOUGUMAPVIEWMODEL___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD00A9B0)
-#define RPG_CLIENT_FATERIN_HOUGUMAP_FATERINHOUGUMAPVIEWMODEL___C__DISPLAYCLASS3_0___BUILDFIGHTVIEWMODELS_B__1_OFFSET UNITYSDK_OFFSET(0xD00AF40)
+#define RPG_CLIENT_FATERIN_HOUGUMAP_FATERINHOUGUMAPVIEWMODEL___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCFA9B70)
+#define RPG_CLIENT_FATERIN_HOUGUMAP_FATERINHOUGUMAPVIEWMODEL___C__DISPLAYCLASS3_0___BUILDFIGHTVIEWMODELS_B__1_OFFSET UNITYSDK_OFFSET(0xCFAA120)
 
 namespace RPG::Client::FateRin::HouguMap
 {
-	inline static constexpr unsigned int FateRinHouguMapViewModel___c__DisplayClass3_0_TypeDefinitionIndex = 79444;
+	inline static constexpr unsigned int FateRinHouguMapViewModel___c__DisplayClass3_0_TypeDefinitionIndex = 80768;
 
 	class FateRinHouguMapViewModel___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:
 		::Class_1_5060AE803DAE1512* missionProgressService; // 0x10
-		::Class_0_16E4307DCC419505_1350* redDotService; // 0x18
+		::Class_1_8E8D0A80717F489D* overrideService; // 0x18
 		::RPG::Client::FateRin::HouguMap::FateRinHouguMapViewModel* __4__this; // 0x20
-		::Class_1_310250D457C6B8CD* overrideService; // 0x28
+		::Class_0_16E4307DCC419505_1553* redDotService; // 0x28
 		::System::Boolean bossIsHard; // 0x30
 
 		::System::Void _ctor()

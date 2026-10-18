@@ -5,19 +5,19 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MONOPOLYCELLMOVECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D2BA4F0)
-#define RPG_GAMECORE_MONOPOLYCELLMOVECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2BA680)
+#define RPG_GAMECORE_MONOPOLYCELLMOVECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D89C750)
+#define RPG_GAMECORE_MONOPOLYCELLMOVECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D89C8E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MonopolyCellMoveConfigRow_TypeDefinitionIndex = 12008;
+	inline static constexpr unsigned int MonopolyCellMoveConfigRow_TypeDefinitionIndex = 12089;
 
 	class MonopolyCellMoveConfigRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::String*>* MoveParam; // 0x10
-		::System::UInt32 MapID; // 0x18
-		::System::UInt32 CellID; // 0x1C
+		::System::UInt32 CellID; // 0x18
+		::System::UInt32 MapID; // 0x1C
 
 		::System::Void _ctor()
 		{

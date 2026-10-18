@@ -6,12 +6,12 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_YCORRECTIONENABLETRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xE907140)
-#define RPGTOOLS_TIMELINE_YCORRECTIONENABLETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xE907240)
+#define RPGTOOLS_TIMELINE_YCORRECTIONENABLETRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xE95CB00)
+#define RPGTOOLS_TIMELINE_YCORRECTIONENABLETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xE95CC00)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int YCorrectionEnableTrack_TypeDefinitionIndex = 48874;
+	inline static constexpr unsigned int YCorrectionEnableTrack_TypeDefinitionIndex = 48420;
 
 	class YCorrectionEnableTrack : public ::UnityEngine::Timeline::TrackAsset
 	{

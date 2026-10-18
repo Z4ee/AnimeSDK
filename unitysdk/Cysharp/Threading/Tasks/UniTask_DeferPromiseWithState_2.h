@@ -10,7 +10,7 @@ namespace System { template <typename T> class Action_1; }
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UniTask_DeferPromiseWithState_2_TypeDefinitionIndex = 42665;
+	inline static constexpr unsigned int UniTask_DeferPromiseWithState_2_TypeDefinitionIndex = 38250;
 
 	template <typename TState, typename TResult>
 	class UniTask_DeferPromiseWithState_2 : public ::System::Object

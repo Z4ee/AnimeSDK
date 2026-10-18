@@ -4,14 +4,15 @@
 #include "unitysdk/RPG/GameCore/MarbleValue.h"
 
 class Class_1_7A22A3DBEEDD1F80;
+namespace System { class String; }
 
-#define RPG_GAMECORE_MARBLEBYVALUEREACH_METHOD_4_456A6BC244A0D216_OFFSET UNITYSDK_OFFSET(0x1D231AF0)
-#define RPG_GAMECORE_MARBLEBYVALUEREACH_METHOD_4_E448FB0DE221C1F5_OFFSET UNITYSDK_OFFSET(0x1D231B50)
-#define RPG_GAMECORE_MARBLEBYVALUEREACH__CTOR_OFFSET UNITYSDK_OFFSET(0x1D231B40)
+#define RPG_GAMECORE_MARBLEBYVALUEREACH_METHOD_4_456A6BC244A0D216_OFFSET UNITYSDK_OFFSET(0x1D83BC60)
+#define RPG_GAMECORE_MARBLEBYVALUEREACH_METHOD_4_E448FB0DE221C1F5_OFFSET UNITYSDK_OFFSET(0x1D83BCC0)
+#define RPG_GAMECORE_MARBLEBYVALUEREACH__CTOR_OFFSET UNITYSDK_OFFSET(0x1D83BCB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MarbleByValueReach_TypeDefinitionIndex = 16695;
+	inline static constexpr unsigned int MarbleByValueReach_TypeDefinitionIndex = 16884;
 
 	class MarbleByValueReach : public ::RPG::GameCore::MarblePredicateConfig
 	{
@@ -19,6 +20,7 @@ namespace RPG::GameCore
 		::RPG::GameCore::MarbleValue ValueType; // 0x28
 		::System::Boolean IsLoop; // 0x2C
 		::System::Int32 Value; // 0x30
+		::System::String* ValueDynamic; // 0x38
 
 		::System::Void _ctor()
 		{

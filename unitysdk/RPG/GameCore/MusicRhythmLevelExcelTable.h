@@ -11,45 +11,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_MUSICRHYTHMLEVELEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1D2EA6A0)
-#define RPG_GAMECORE_MUSICRHYTHMLEVELEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1D2EA570)
-#define RPG_GAMECORE_MUSICRHYTHMLEVELEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1D2EA260)
-#define RPG_GAMECORE_MUSICRHYTHMLEVELEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1D2EA510)
-#define RPG_GAMECORE_MUSICRHYTHMLEVELEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1D2EA7F0)
-#define RPG_GAMECORE_MUSICRHYTHMLEVELEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D2EA2E0)
-#define RPG_GAMECORE_MUSICRHYTHMLEVELEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1D2EA830)
-#define RPG_GAMECORE_MUSICRHYTHMLEVELEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D2EAA00)
-#define RPG_GAMECORE_MUSICRHYTHMLEVELEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1D2EAD90)
-#define RPG_GAMECORE_MUSICRHYTHMLEVELEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D2EB0B0)
-#define RPG_GAMECORE_MUSICRHYTHMLEVELEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1D2EA960)
-#define RPG_GAMECORE_MUSICRHYTHMLEVELEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D2EA8C0)
+#define RPG_GAMECORE_MUSICRHYTHMLEVELEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1D8CD050)
+#define RPG_GAMECORE_MUSICRHYTHMLEVELEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1D8CCF20)
+#define RPG_GAMECORE_MUSICRHYTHMLEVELEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1D8CCC10)
+#define RPG_GAMECORE_MUSICRHYTHMLEVELEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1D8CCEC0)
+#define RPG_GAMECORE_MUSICRHYTHMLEVELEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1D8CD1A0)
+#define RPG_GAMECORE_MUSICRHYTHMLEVELEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D8CCC90)
+#define RPG_GAMECORE_MUSICRHYTHMLEVELEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1D8CD1E0)
+#define RPG_GAMECORE_MUSICRHYTHMLEVELEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D8CD3B0)
+#define RPG_GAMECORE_MUSICRHYTHMLEVELEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1D8CD740)
+#define RPG_GAMECORE_MUSICRHYTHMLEVELEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D8CDA60)
+#define RPG_GAMECORE_MUSICRHYTHMLEVELEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1D8CD310)
+#define RPG_GAMECORE_MUSICRHYTHMLEVELEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D8CD270)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MusicRhythmLevelExcelTable_TypeDefinitionIndex = 14155;
+	inline static constexpr unsigned int MusicRhythmLevelExcelTable_TypeDefinitionIndex = 14262;
 
 	class MusicRhythmLevelExcelTable : public ::System::Object
 	{
 	public:
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MusicRhythmLevelRow*>** StaticGet_dataDict_()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MusicRhythmLevelRow*>**)Il2CppClass::FromTypeDefinitionIndex(MusicRhythmLevelExcelTable_TypeDefinitionIndex)->GetStaticField(0x3DF80);
+		}
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MusicRhythmLevelExcelTable_TypeDefinitionIndex)->GetStaticField(0x5C310);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MusicRhythmLevelExcelTable_TypeDefinitionIndex)->GetStaticField(0x3DF88);
 		}
 		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(MusicRhythmLevelExcelTable_TypeDefinitionIndex)->GetStaticField(0x5C318);
-		}
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MusicRhythmLevelRow*>** StaticGet_dataDict_()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MusicRhythmLevelRow*>**)Il2CppClass::FromTypeDefinitionIndex(MusicRhythmLevelExcelTable_TypeDefinitionIndex)->GetStaticField(0x5C320);
-		}
-		static ::System::Byte* StaticGet_HashIndex()
-		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(MusicRhythmLevelExcelTable_TypeDefinitionIndex)->GetStaticField(0x12F80);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(MusicRhythmLevelExcelTable_TypeDefinitionIndex)->GetStaticField(0x3DF90);
 		}
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MusicRhythmLevelExcelTable_TypeDefinitionIndex)->GetStaticField(0x12F81);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MusicRhythmLevelExcelTable_TypeDefinitionIndex)->GetStaticField(0xD420);
+		}
+		static ::System::Byte* StaticGet_HashIndex()
+		{
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(MusicRhythmLevelExcelTable_TypeDefinitionIndex)->GetStaticField(0xD421);
 		}
 
 		static ::System::Void _cctor()

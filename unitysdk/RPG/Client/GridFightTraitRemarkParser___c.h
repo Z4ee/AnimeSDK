@@ -5,24 +5,24 @@
 namespace RPG::Client { class GridFightTraitRemarkLineEffectBase; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_GRIDFIGHTTRAITREMARKPARSER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD369E00)
-#define RPG_CLIENT_GRIDFIGHTTRAITREMARKPARSER___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD369E40)
-#define RPG_CLIENT_GRIDFIGHTTRAITREMARKPARSER___C___GETSHOWINGLINEPARSERS_B__3_0_OFFSET UNITYSDK_OFFSET(0xD369E50)
+#define RPG_CLIENT_GRIDFIGHTTRAITREMARKPARSER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD2C2C60)
+#define RPG_CLIENT_GRIDFIGHTTRAITREMARKPARSER___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD2C2CA0)
+#define RPG_CLIENT_GRIDFIGHTTRAITREMARKPARSER___C___GETSHOWINGLINEPARSERS_B__3_0_OFFSET UNITYSDK_OFFSET(0xD2C2CB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightTraitRemarkParser___c_TypeDefinitionIndex = 65539;
+	inline static constexpr unsigned int GridFightTraitRemarkParser___c_TypeDefinitionIndex = 65479;
 
 	class GridFightTraitRemarkParser___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::Client::GridFightTraitRemarkLineEffectBase*, ::System::UInt32>** StaticGet___9__3_0()
-		{
-			return (::System::Func_2<::RPG::Client::GridFightTraitRemarkLineEffectBase*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(GridFightTraitRemarkParser___c_TypeDefinitionIndex)->GetStaticField(0x543D0);
-		}
 		static ::RPG::Client::GridFightTraitRemarkParser___c** StaticGet___9()
 		{
-			return (::RPG::Client::GridFightTraitRemarkParser___c**)Il2CppClass::FromTypeDefinitionIndex(GridFightTraitRemarkParser___c_TypeDefinitionIndex)->GetStaticField(0x543D8);
+			return (::RPG::Client::GridFightTraitRemarkParser___c**)Il2CppClass::FromTypeDefinitionIndex(GridFightTraitRemarkParser___c_TypeDefinitionIndex)->GetStaticField(0xB240);
+		}
+		static ::System::Func_2<::RPG::Client::GridFightTraitRemarkLineEffectBase*, ::System::UInt32>** StaticGet___9__3_0()
+		{
+			return (::System::Func_2<::RPG::Client::GridFightTraitRemarkLineEffectBase*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(GridFightTraitRemarkParser___c_TypeDefinitionIndex)->GetStaticField(0xB248);
 		}
 
 		static ::System::Void _cctor()

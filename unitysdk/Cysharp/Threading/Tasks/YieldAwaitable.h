@@ -3,13 +3,13 @@
 #include "unitysdk/Cysharp/Threading/Tasks/PlayerLoopTiming.h"
 #include "unitysdk/System/ValueType.h"
 
-#define CYSHARP_THREADING_TASKS_YIELDAWAITABLE_GETAWAITER_OFFSET UNITYSDK_OFFSET(0x5F00)
-#define CYSHARP_THREADING_TASKS_YIELDAWAITABLE_TOUNITASK_OFFSET UNITYSDK_OFFSET(0x3BAA3F0)
-#define CYSHARP_THREADING_TASKS_YIELDAWAITABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x2E950)
+#define CYSHARP_THREADING_TASKS_YIELDAWAITABLE_GETAWAITER_OFFSET UNITYSDK_OFFSET(0xE620)
+#define CYSHARP_THREADING_TASKS_YIELDAWAITABLE_TOUNITASK_OFFSET UNITYSDK_OFFSET(0x3C5F7C0)
+#define CYSHARP_THREADING_TASKS_YIELDAWAITABLE__CTOR_OFFSET UNITYSDK_OFFSET(0xAF40)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int YieldAwaitable_TypeDefinitionIndex = 42775;
+	inline static constexpr unsigned int YieldAwaitable_TypeDefinitionIndex = 38360;
 
 	struct alignas(4) YieldAwaitable
 	{

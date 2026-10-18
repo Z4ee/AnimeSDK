@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGameShare::TeamTowersCore
 {
-	inline static constexpr unsigned int PlayerState_TypeDefinitionIndex = 36403;
+	inline static constexpr unsigned int PlayerState_TypeDefinitionIndex = 37090;
 
 	enum class PlayerState : ::System::Int32
 	{

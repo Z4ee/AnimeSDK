@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_F9FBCC956DFCF137_5.h"
+#include "unitysdk/Class_1_F9FBCC956DFCF137_4.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 
 class Class_1_AC66714FF5876767;
 namespace RPG::GameCore { class CheckVisionAxis; }
 
-#define CLASS_2_3DECAB416F6B1081_METHOD_2_E2C273CA106EBD0B_OFFSET UNITYSDK_OFFSET(0xBB173A0)
-#define CLASS_2_3DECAB416F6B1081__CTOR_OFFSET UNITYSDK_OFFSET(0xBB17390)
+#define CLASS_2_3DECAB416F6B1081_METHOD_2_E2C273CA106EBD0B_OFFSET UNITYSDK_OFFSET(0xB99CE70)
+#define CLASS_2_3DECAB416F6B1081__CTOR_OFFSET UNITYSDK_OFFSET(0xB99CE60)
 
-inline static constexpr unsigned int Class_2_3DECAB416F6B1081_TypeDefinitionIndex = 54591;
+inline static constexpr unsigned int Class_2_3DECAB416F6B1081_TypeDefinitionIndex = 54377;
 
-class Class_2_3DECAB416F6B1081 : public ::Class_1_F9FBCC956DFCF137_5
+class Class_2_3DECAB416F6B1081 : public ::Class_1_F9FBCC956DFCF137_4
 {
 public:
 	::RPG::GameCore::CheckVisionAxis* IGHAHBNLIJA; // 0x18

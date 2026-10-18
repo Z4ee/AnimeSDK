@@ -4,9 +4,9 @@
 
 namespace RPG::GameCore { class LevelCurveInstance; }
 
-#define CLASS_1_695BA9A73779D495__CTOR_OFFSET UNITYSDK_OFFSET(0x161E63B0)
+#define CLASS_1_695BA9A73779D495__CTOR_OFFSET UNITYSDK_OFFSET(0x1655BF40)
 
-inline static constexpr unsigned int Class_1_695BA9A73779D495_TypeDefinitionIndex = 64301;
+inline static constexpr unsigned int Class_1_695BA9A73779D495_TypeDefinitionIndex = 64239;
 
 class Class_1_695BA9A73779D495 : public ::System::Object
 {

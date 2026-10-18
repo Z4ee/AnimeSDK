@@ -4,12 +4,12 @@
 
 namespace System { class IDisposable; }
 
-#define R3_SERIALDISPOSABLECORE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x3B72620)
-#define R3_SERIALDISPOSABLECORE_SET_DISPOSABLE_OFFSET UNITYSDK_OFFSET(0x3B72610)
+#define R3_SERIALDISPOSABLECORE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x3C26F80)
+#define R3_SERIALDISPOSABLECORE_SET_DISPOSABLE_OFFSET UNITYSDK_OFFSET(0x3C26F70)
 
 namespace R3
 {
-	inline static constexpr unsigned int SerialDisposableCore_TypeDefinitionIndex = 35280;
+	inline static constexpr unsigned int SerialDisposableCore_TypeDefinitionIndex = 35967;
 
 	struct alignas(8) SerialDisposableCore
 	{

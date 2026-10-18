@@ -5,26 +5,26 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_PROBUILDER_PREFERENCEKEYS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EB873F0)
+#define UNITYENGINE_PROBUILDER_PREFERENCEKEYS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F24EB60)
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int PreferenceKeys_TypeDefinitionIndex = 43194;
+	inline static constexpr unsigned int PreferenceKeys_TypeDefinitionIndex = 44386;
 
 	class PreferenceKeys : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::Color* StaticGet_proBuilderLightGray()
-		{
-			return (::UnityEngine::Color*)Il2CppClass::FromTypeDefinitionIndex(PreferenceKeys_TypeDefinitionIndex)->GetStaticField(0x135A0);
-		}
 		static ::UnityEngine::Color* StaticGet_proBuilderBlue()
 		{
-			return (::UnityEngine::Color*)Il2CppClass::FromTypeDefinitionIndex(PreferenceKeys_TypeDefinitionIndex)->GetStaticField(0x135B0);
+			return (::UnityEngine::Color*)Il2CppClass::FromTypeDefinitionIndex(PreferenceKeys_TypeDefinitionIndex)->GetStaticField(0x12D40);
+		}
+		static ::UnityEngine::Color* StaticGet_proBuilderLightGray()
+		{
+			return (::UnityEngine::Color*)Il2CppClass::FromTypeDefinitionIndex(PreferenceKeys_TypeDefinitionIndex)->GetStaticField(0x12D50);
 		}
 		static ::UnityEngine::Color* StaticGet_proBuilderDarkGray()
 		{
-			return (::UnityEngine::Color*)Il2CppClass::FromTypeDefinitionIndex(PreferenceKeys_TypeDefinitionIndex)->GetStaticField(0x135C0);
+			return (::UnityEngine::Color*)Il2CppClass::FromTypeDefinitionIndex(PreferenceKeys_TypeDefinitionIndex)->GetStaticField(0x12D60);
 		}
 		// static const ::System::String* pluginTitle; // 0x0
 		// static const ::System::Single k_MaxPointDistanceFromControl; // 0x0

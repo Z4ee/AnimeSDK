@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Newtonsoft/Json/Linq/JsonPath/PathFilter.h"
 
-#define NEWTONSOFT_JSON_LINQ_JSONPATH_SCANFILTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BEC4340)
+#define NEWTONSOFT_JSON_LINQ_JSONPATH_SCANFILTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C3D08F0)
 
 namespace Newtonsoft::Json::Linq::JsonPath
 {
-	inline static constexpr unsigned int ScanFilter_TypeDefinitionIndex = 9753;
+	inline static constexpr unsigned int ScanFilter_TypeDefinitionIndex = 9811;
 
 	class ScanFilter : public ::Newtonsoft::Json::Linq::JsonPath::PathFilter
 	{

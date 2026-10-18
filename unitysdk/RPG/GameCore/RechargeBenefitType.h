@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RechargeBenefitType_TypeDefinitionIndex = 14446;
+	inline static constexpr unsigned int RechargeBenefitType_TypeDefinitionIndex = 14611;
 
 	enum class RechargeBenefitType : ::System::Int32
 	{

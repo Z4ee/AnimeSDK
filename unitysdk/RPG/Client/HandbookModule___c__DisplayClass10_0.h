@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class HandbookChapterData; }
 
-#define RPG_CLIENT_HANDBOOKMODULE___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD3A09B0)
-#define RPG_CLIENT_HANDBOOKMODULE___C__DISPLAYCLASS10_0__GETCHAPTERDATA_B__0_OFFSET UNITYSDK_OFFSET(0xD3AE870)
+#define RPG_CLIENT_HANDBOOKMODULE___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD2F98D0)
+#define RPG_CLIENT_HANDBOOKMODULE___C__DISPLAYCLASS10_0__GETCHAPTERDATA_B__0_OFFSET UNITYSDK_OFFSET(0xD304550)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int HandbookModule___c__DisplayClass10_0_TypeDefinitionIndex = 65691;
+	inline static constexpr unsigned int HandbookModule___c__DisplayClass10_0_TypeDefinitionIndex = 65632;
 
 	class HandbookModule___c__DisplayClass10_0 : public ::System::Object
 	{

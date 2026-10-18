@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/BookletStepState.h"
 
-namespace RPG::Client { class IBookletView; }
+class Class_1_849EE5CF9026AE9F;
+namespace UnityEngine { class RectTransform; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_1142_TypeDefinitionIndex = 72379;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_1142_TypeDefinitionIndex = 68943;
 
 class Class_0_16E4307DCC419505_1142
 {

@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_REDMODESTANCEBARSETTING_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D38F370)
-#define RPG_GAMECORE_REDMODESTANCEBARSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x1D38F480)
+#define RPG_GAMECORE_REDMODESTANCEBARSETTING_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D975820)
+#define RPG_GAMECORE_REDMODESTANCEBARSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x1D975930)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RedModeStanceBarSetting_TypeDefinitionIndex = 16954;
+	inline static constexpr unsigned int RedModeStanceBarSetting_TypeDefinitionIndex = 17149;
 
 	class RedModeStanceBarSetting : public ::RPG::GameCore::JsonConfig
 	{

@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int AstraFXResource_AliasMode_TypeDefinitionIndex = 4087;
+	inline static constexpr unsigned int AstraFXResource_AliasMode_TypeDefinitionIndex = 4088;
 
 	enum class AstraFXResource_AliasMode : ::System::Int32
 	{

@@ -3,7 +3,7 @@
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int VFXTearClip_FaceTearState_TypeDefinitionIndex = 48536;
+	inline static constexpr unsigned int VFXTearClip_FaceTearState_TypeDefinitionIndex = 48076;
 
 	enum class VFXTearClip_FaceTearState : ::System::Int32
 	{

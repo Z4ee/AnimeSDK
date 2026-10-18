@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ParticleSystemShapeType_TypeDefinitionIndex = 5250;
+	inline static constexpr unsigned int ParticleSystemShapeType_TypeDefinitionIndex = 5257;
 
 	enum class ParticleSystemShapeType : ::System::Int32
 	{

@@ -6,9 +6,9 @@ namespace RPG::GameCore { class SingleTimeRewindEntityAnimEventBaseConfig; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_22DFC3839E157DF2__CTOR_OFFSET UNITYSDK_OFFSET(0xBF0E650)
+#define CLASS_1_22DFC3839E157DF2__CTOR_OFFSET UNITYSDK_OFFSET(0xBDF1C00)
 
-inline static constexpr unsigned int Class_1_22DFC3839E157DF2_TypeDefinitionIndex = 63823;
+inline static constexpr unsigned int Class_1_22DFC3839E157DF2_TypeDefinitionIndex = 63761;
 
 class Class_1_22DFC3839E157DF2 : public ::System::Object
 {

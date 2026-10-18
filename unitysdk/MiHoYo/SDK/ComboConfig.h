@@ -7,11 +7,11 @@ namespace MiHoYo::SDK { class QRAppIcons; }
 namespace MiHoYo::SDK { class QREnabledApps; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_COMBOCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B748D90)
+#define MIHOYO_SDK_COMBOCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC473C0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ComboConfig_TypeDefinitionIndex = 7868;
+	inline static constexpr unsigned int ComboConfig_TypeDefinitionIndex = 7912;
 
 	class ComboConfig : public ::System::Object
 	{

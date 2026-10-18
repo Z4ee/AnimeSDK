@@ -9,7 +9,7 @@
 #include "unitysdk/UnityEngine/Rect.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-class Class_0_16E4307DCC419505_1187;
+class Class_0_16E4307DCC419505_1311;
 class Class_1_303D5A33D1401D59;
 class Class_1_3F28033F34305C46;
 class Class_1_8A6989C352B0F0F0;
@@ -28,12 +28,16 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client::OpenWorld
 {
-	inline static constexpr unsigned int SceneItemHLODStreamingLayer_1_TypeDefinitionIndex = 73714;
+	inline static constexpr unsigned int SceneItemHLODStreamingLayer_1_TypeDefinitionIndex = 73821;
 
 	template <typename T>
 	class SceneItemHLODStreamingLayer_1 : public ::Class_1_E7175D70942CF05A
 	{
 	public:
+		::System::Boolean _NeedFocusInitialize; // 0x0
+		::System::Boolean _FocusSolveFinished; // 0x0
+		::System::Boolean _FocusRoundFinished; // 0x0
+		::System::Int32 _FocusRootCursor; // 0x0
 		::System::Single _WatchDelay; // 0x0
 		::RPG::Client::OpenWorld::SceneItemHLODStreamingLayer_1_HLODTransitionMonitor<T>* _TransitionMonitor; // 0x0
 		::System::Collections::Generic::List_1<::Class_1_CD49E6413051D9AA*>* _ReadyToShrinkNodes; // 0x0

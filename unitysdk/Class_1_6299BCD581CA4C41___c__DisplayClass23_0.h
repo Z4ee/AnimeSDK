@@ -6,10 +6,10 @@
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define CLASS_1_6299BCD581CA4C41___C__DISPLAYCLASS23_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB7DBC50)
-#define CLASS_1_6299BCD581CA4C41___C__DISPLAYCLASS23_0__GETNEEDDOWNLOADSIZEFORWHITELIST_B__2_OFFSET UNITYSDK_OFFSET(0xB7E49E0)
+#define CLASS_1_6299BCD581CA4C41___C__DISPLAYCLASS23_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB78BD60)
+#define CLASS_1_6299BCD581CA4C41___C__DISPLAYCLASS23_0__GETNEEDDOWNLOADSIZEFORWHITELIST_B__2_OFFSET UNITYSDK_OFFSET(0xB793FF0)
 
-inline static constexpr unsigned int Class_1_6299BCD581CA4C41___c__DisplayClass23_0_TypeDefinitionIndex = 59766;
+inline static constexpr unsigned int Class_1_6299BCD581CA4C41___c__DisplayClass23_0_TypeDefinitionIndex = 59621;
 
 class Class_1_6299BCD581CA4C41___c__DisplayClass23_0 : public ::System::Object
 {

@@ -6,25 +6,25 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_B51RACINGTRACKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CE5EDC0)
-#define RPG_GAMECORE_B51RACINGTRACKROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE5F170)
+#define RPG_GAMECORE_B51RACINGTRACKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D4351E0)
+#define RPG_GAMECORE_B51RACINGTRACKROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D435590)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int B51RacingTrackRow_TypeDefinitionIndex = 10944;
+	inline static constexpr unsigned int B51RacingTrackRow_TypeDefinitionIndex = 10960;
 
 	class B51RacingTrackRow : public ::System::Object
 	{
 	public:
-		::System::String* MinimapPath; // 0x10
-		::System::String* RecordDriverIconPath; // 0x18
-		::System::String* MinimapPath_Dark; // 0x20
+		::System::String* RecordDriverIconPath; // 0x10
+		::System::String* MinimapPath_Dark; // 0x18
+		::System::String* MinimapPath; // 0x20
 		::System::String* LittleGameConfig; // 0x28
-		::RPG::Client::TextID RecordDriverName; // 0x30
-		::System::Single RecordTime; // 0x40
-		::System::UInt32 ID; // 0x44
-		::System::UInt32 TotalLap; // 0x48
-		::RPG::Client::TextID Name; // 0x50
+		::RPG::Client::TextID Name; // 0x30
+		::RPG::Client::TextID RecordDriverName; // 0x40
+		::System::UInt32 ID; // 0x50
+		::System::Single RecordTime; // 0x54
+		::System::UInt32 TotalLap; // 0x58
 
 		::System::Void _ctor()
 		{

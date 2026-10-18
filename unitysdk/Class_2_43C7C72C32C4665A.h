@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/FloorConnectivityData.h"
 
-#define CLASS_2_43C7C72C32C4665A_SETUPDATA_OFFSET UNITYSDK_OFFSET(0xBACF620)
-#define CLASS_2_43C7C72C32C4665A__CTOR_OFFSET UNITYSDK_OFFSET(0xBACFDD0)
+#define CLASS_2_43C7C72C32C4665A_SETUPDATA_OFFSET UNITYSDK_OFFSET(0xBA6B340)
+#define CLASS_2_43C7C72C32C4665A__CTOR_OFFSET UNITYSDK_OFFSET(0xBA6BB10)
 
-inline static constexpr unsigned int Class_2_43C7C72C32C4665A_TypeDefinitionIndex = 64294;
+inline static constexpr unsigned int Class_2_43C7C72C32C4665A_TypeDefinitionIndex = 64232;
 
 class Class_2_43C7C72C32C4665A : public ::RPG::Client::FloorConnectivityData
 {

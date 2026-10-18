@@ -3,7 +3,7 @@
 
 namespace RPG::Embree
 {
-	inline static constexpr unsigned int EmbreeWrapper_RTCBufferType_TypeDefinitionIndex = 47478;
+	inline static constexpr unsigned int EmbreeWrapper_RTCBufferType_TypeDefinitionIndex = 47018;
 
 	enum class EmbreeWrapper_RTCBufferType : ::System::Int32
 	{

@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-template <typename T> class Class_0_16E4307DCC41950C;
+class Class_1_38CD02622A43811A;
+class Class_1_9DB6F6BB628BF86A;
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_332_TypeDefinitionIndex = 42428;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_332_TypeDefinitionIndex = 43042;
 
-template <typename TView>
 class Class_0_16E4307DCC419505_332
 {
 public:

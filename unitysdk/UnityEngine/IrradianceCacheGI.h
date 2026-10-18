@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class ComputeBuffer; }
 
-#define UNITYENGINE_IRRADIANCECACHEGI_SETDEBUGPATHTRACINGINFO_OFFSET UNITYSDK_OFFSET(0x1ED2B650)
+#define UNITYENGINE_IRRADIANCECACHEGI_SETDEBUGPATHTRACINGINFO_OFFSET UNITYSDK_OFFSET(0x1F3F3170)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int IrradianceCacheGI_TypeDefinitionIndex = 4268;
+	inline static constexpr unsigned int IrradianceCacheGI_TypeDefinitionIndex = 4270;
 
 	class IrradianceCacheGI : public ::System::Object
 	{

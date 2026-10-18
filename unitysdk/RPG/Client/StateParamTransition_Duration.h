@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace UnityEngine { class Animator; }
 
-#define RPG_CLIENT_STATEPARAMTRANSITION_DURATION__CTOR_OFFSET UNITYSDK_OFFSET(0xE0EEA10)
+#define RPG_CLIENT_STATEPARAMTRANSITION_DURATION__CTOR_OFFSET UNITYSDK_OFFSET(0xE12F680)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int StateParamTransition_Duration_TypeDefinitionIndex = 68802;
+	inline static constexpr unsigned int StateParamTransition_Duration_TypeDefinitionIndex = 68836;
 
 	class StateParamTransition_Duration : public ::System::Object
 	{

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AdvPlayerEnterAlertDeviceTrigger; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_0BCBCAEEDFDE0AF2_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x157DCB20)
-#define CLASS_3_0BCBCAEEDFDE0AF2__CTOR_OFFSET UNITYSDK_OFFSET(0x157DCAF0)
+#define CLASS_3_0BCBCAEEDFDE0AF2_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15AD2BF0)
+#define CLASS_3_0BCBCAEEDFDE0AF2__CTOR_OFFSET UNITYSDK_OFFSET(0x15AD2BC0)
 
-inline static constexpr unsigned int Class_3_0BCBCAEEDFDE0AF2_TypeDefinitionIndex = 52743;
+inline static constexpr unsigned int Class_3_0BCBCAEEDFDE0AF2_TypeDefinitionIndex = 52468;
 
 class Class_3_0BCBCAEEDFDE0AF2 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AdvPlayerEnterAlertDeviceTrigger*>
 {

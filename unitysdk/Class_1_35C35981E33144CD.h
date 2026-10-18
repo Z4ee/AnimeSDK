@@ -5,16 +5,16 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define CLASS_1_35C35981E33144CD_METHOD_1_975B9AC31CF05C24_OFFSET UNITYSDK_OFFSET(0x1D6D2B00)
-#define CLASS_1_35C35981E33144CD__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6D2C30)
+#define CLASS_1_35C35981E33144CD_METHOD_1_975B9AC31CF05C24_OFFSET UNITYSDK_OFFSET(0x1DCDC180)
+#define CLASS_1_35C35981E33144CD__CTOR_OFFSET UNITYSDK_OFFSET(0x1DCDC2B0)
 
-inline static constexpr unsigned int Class_1_35C35981E33144CD_TypeDefinitionIndex = 11607;
+inline static constexpr unsigned int Class_1_35C35981E33144CD_TypeDefinitionIndex = 11630;
 
 class Class_1_35C35981E33144CD : public ::System::Object
 {
 public:
-	::RPG::GameCore::HipplenStatType GMPGDEINODK; // 0x10
-	::System::UInt32 NNACKOBKFGE; // 0x14
+	::System::UInt32 NNACKOBKFGE; // 0x10
+	::RPG::GameCore::HipplenStatType GMPGDEINODK; // 0x14
 
 	::System::Void _ctor()
 	{

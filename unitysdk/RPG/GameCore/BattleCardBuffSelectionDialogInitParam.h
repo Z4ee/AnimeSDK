@@ -4,12 +4,12 @@
 
 namespace RPG::GameCore { class ShowBattleCardBuffSelection; }
 
-#define RPG_GAMECORE_BATTLECARDBUFFSELECTIONDIALOGINITPARAM_DISPOSE_OFFSET UNITYSDK_OFFSET(0xE527CA0)
-#define RPG_GAMECORE_BATTLECARDBUFFSELECTIONDIALOGINITPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xE527CF0)
+#define RPG_GAMECORE_BATTLECARDBUFFSELECTIONDIALOGINITPARAM_DISPOSE_OFFSET UNITYSDK_OFFSET(0xE5BA5D0)
+#define RPG_GAMECORE_BATTLECARDBUFFSELECTIONDIALOGINITPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xE5BA620)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleCardBuffSelectionDialogInitParam_TypeDefinitionIndex = 58755;
+	inline static constexpr unsigned int BattleCardBuffSelectionDialogInitParam_TypeDefinitionIndex = 58607;
 
 	class BattleCardBuffSelectionDialogInitParam : public ::System::Object
 	{

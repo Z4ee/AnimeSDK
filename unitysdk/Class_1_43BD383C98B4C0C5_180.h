@@ -1,48 +1,37 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RootMotion/FinalIK/GrounderIKThreadSolver.h"
-#include "unitysdk/Struct_2_05A67A9E2D5889AA.h"
-#include "unitysdk/Struct_2_1E36AD6D9A5F486C.h"
-#include "unitysdk/Struct_2_9337153130FDFA1E.h"
-#include "unitysdk/Struct_2_9FC3BF6B16C6AFE6.h"
-#include "unitysdk/Struct_2_B87BAA35D432DB99.h"
-#include "unitysdk/Struct_2_F15D3B4A9D0D9701.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/UnityEngine/Quaternion.h"
+#include "unitysdk/UnityEngine/Vector3.h"
 
-namespace RPG::GameCore { class GameEntity; }
+namespace UnityEngine { class Transform; }
 
-#define CLASS_1_43BD383C98B4C0C5_180_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC3C0E40)
-#define CLASS_1_43BD383C98B4C0C5_180__CTOR_OFFSET UNITYSDK_OFFSET(0xC3C0E30)
+#define CLASS_1_43BD383C98B4C0C5_180__CTOR_OFFSET UNITYSDK_OFFSET(0xB3EF6E0)
 
-inline static constexpr unsigned int Class_1_43BD383C98B4C0C5_180_TypeDefinitionIndex = 68430;
+inline static constexpr unsigned int Class_1_43BD383C98B4C0C5_180_TypeDefinitionIndex = 68458;
 
 class Class_1_43BD383C98B4C0C5_180 : public ::System::Object
 {
 public:
-	::Struct_2_F15D3B4A9D0D9701 IOCCJDPHPMO; // 0x10
-	::Struct_2_9FC3BF6B16C6AFE6 NFJFMDNNBIG; // 0x48
-	::RootMotion::FinalIK::GrounderIKThreadSolver HBHLPDHLAMN; // 0xF8
-	::Struct_2_9337153130FDFA1E MNOINHJJNEA; // 0x130
-	::Struct_2_B87BAA35D432DB99 LKACFMGFOAC; // 0x168
-	::Struct_2_05A67A9E2D5889AA LHFALBCKKLB; // 0x190
-	::Struct_2_1E36AD6D9A5F486C FDBILNKGHHE; // 0x398
-	::RPG::GameCore::GameEntity* OFHDAHHPNPJ; // 0x5D8
-	::System::Boolean HDMBBDFNNNH; // 0x5E0
-	::System::Boolean GJLGMCCCDCJ; // 0x5E1
-	::System::Boolean NPALIKFPBAK; // 0x5E2
-	::System::Boolean ICBBMHAMLML; // 0x5E3
-	::System::Boolean KFPFKBDANBH; // 0x5E4
-	::System::Boolean OJHMAKLGPAJ; // 0x5E5
-	::System::Boolean NAHPIFIEDHL; // 0x5E6
-	::System::Boolean CHGIKGMLPMI; // 0x5E7
+	::UnityEngine::Transform* MCLLALGABAB; // 0x10
+	::UnityEngine::Vector3 IOEDIDIGDJK; // 0x18
+	::System::Single MLDKFEKPLFK; // 0x24
+	::UnityEngine::Vector3 FJMCLOIEMKG; // 0x28
+	::UnityEngine::Quaternion MPDAOFHBLOD; // 0x34
+	::UnityEngine::Quaternion KPAODKOHDHE; // 0x44
+	::System::Single CPILOCNMCDG; // 0x54
+	::UnityEngine::Vector3 EFELHFFDBLK; // 0x58
+	::UnityEngine::Vector3 JFEGMABDCIF; // 0x64
+	::System::Single EBMNDJKKHLD; // 0x70
+	::System::Single FPNNKEJPHNN; // 0x74
+	::UnityEngine::Quaternion BPKPHOCKMOA; // 0x78
+	::System::Single AEHLICKJCDA; // 0x88
+	::UnityEngine::Vector3 IGENCKALDIN; // 0x8C
+	::UnityEngine::Vector3 KGKAHGNKDCD; // 0x98
+	::System::Int32 GMDBHJKEAEI; // 0xA4
 
 	::System::Void _ctor()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_43BD383C98B4C0C5_180__CTOR_OFFSET))(this);
-	}
-
-	::System::Void Dispose()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_43BD383C98B4C0C5_180_DISPOSE_OFFSET))(this);
 	}
 };

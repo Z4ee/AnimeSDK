@@ -6,7 +6,7 @@ namespace UnityEngine::Events { class UnityAction; }
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int BeforeRenderHelper_OrderBlock_TypeDefinitionIndex = 4097;
+	inline static constexpr unsigned int BeforeRenderHelper_OrderBlock_TypeDefinitionIndex = 4098;
 
 	struct alignas(8) BeforeRenderHelper_OrderBlock
 	{

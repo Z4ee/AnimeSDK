@@ -5,12 +5,12 @@
 namespace RPG::Client::ActivityHipplen { class ActivityHipplenGameInstance; }
 namespace RPG::Client::ActivityHipplen { class ActivityHipplenSettleTrialGameState; }
 
-#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENSETTLETRIALGAMESTATE___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC559470)
-#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENSETTLETRIALGAMESTATE___C__DISPLAYCLASS3_0__RPG_CLIENT_ACTIVITYHIPPLEN_IACTIVITYHIPPLENGAMESTATE_ONENTER_B__0_OFFSET UNITYSDK_OFFSET(0xC559620)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENSETTLETRIALGAMESTATE___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC429ED0)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENSETTLETRIALGAMESTATE___C__DISPLAYCLASS3_0__RPG_CLIENT_ACTIVITYHIPPLEN_IACTIVITYHIPPLENGAMESTATE_ONENTER_B__0_OFFSET UNITYSDK_OFFSET(0xC42A080)
 
 namespace RPG::Client::ActivityHipplen
 {
-	inline static constexpr unsigned int ActivityHipplenSettleTrialGameState___c__DisplayClass3_0_TypeDefinitionIndex = 75228;
+	inline static constexpr unsigned int ActivityHipplenSettleTrialGameState___c__DisplayClass3_0_TypeDefinitionIndex = 75528;
 
 	class ActivityHipplenSettleTrialGameState___c__DisplayClass3_0 : public ::System::Object
 	{

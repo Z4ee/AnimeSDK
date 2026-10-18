@@ -10,38 +10,38 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_AETHERDIVIDESPIRITSKILLROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CE05960)
-#define RPG_GAMECORE_AETHERDIVIDESPIRITSKILLROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE06830)
+#define RPG_GAMECORE_AETHERDIVIDESPIRITSKILLROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3DBBE0)
+#define RPG_GAMECORE_AETHERDIVIDESPIRITSKILLROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3DCAB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AetherDivideSpiritSkillRow_TypeDefinitionIndex = 10892;
+	inline static constexpr unsigned int AetherDivideSpiritSkillRow_TypeDefinitionIndex = 10908;
 
 	class AetherDivideSpiritSkillRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::RPG::GameCore::FixPoint>* ParamList; // 0x10
-		::Il2CppArray<::System::UInt32>* SimpleExtraEffectIDList; // 0x18
-		::Il2CppArray<::System::UInt32>* ExtraEffectIDList; // 0x20
-		::Il2CppArray<::RPG::GameCore::FixPoint>* SimpleParamList; // 0x28
-		::System::String* SkillTriggerKey; // 0x30
-		::System::String* SkillIcon; // 0x38
-		::System::String* UltraSkillIcon; // 0x40
-		::RPG::Client::TextID SkillDesc; // 0x48
-		::RPG::GameCore::FixPoint SkillComboValueDelta; // 0x58
-		::RPG::Client::TextID SimpleSkillDesc; // 0x60
-		::RPG::GameCore::FixPoint BPNeed; // 0x70
-		::RPG::Client::TextID SkillName; // 0x78
-		::System::UInt32 SkillID; // 0x88
-		::RPG::GameCore::AetherSpiritType PropertyType; // 0x8C
-		::RPG::GameCore::FixPoint SPBase; // 0x90
-		::RPG::GameCore::SkillEffect SkillEffect; // 0x98
-		::RPG::GameCore::AttackType AttackType; // 0x9C
-		::RPG::GameCore::FixPoint BPAdd; // 0xA0
-		::RPG::Client::TextID SkillTag; // 0xA8
-		::RPG::Client::TextID SkillTypeDesc; // 0xB8
-		::RPG::GameCore::FixPoint SPNeed; // 0xC8
-		::RPG::GameCore::FixPoint SPMultipleRatio; // 0xD0
+		::System::String* UltraSkillIcon; // 0x10
+		::System::String* SkillIcon; // 0x18
+		::System::String* SkillTriggerKey; // 0x20
+		::Il2CppArray<::System::UInt32>* SimpleExtraEffectIDList; // 0x28
+		::Il2CppArray<::RPG::GameCore::FixPoint>* ParamList; // 0x30
+		::Il2CppArray<::System::UInt32>* ExtraEffectIDList; // 0x38
+		::Il2CppArray<::RPG::GameCore::FixPoint>* SimpleParamList; // 0x40
+		::RPG::Client::TextID SkillTag; // 0x48
+		::RPG::Client::TextID SkillName; // 0x58
+		::RPG::GameCore::AttackType AttackType; // 0x68
+		::RPG::GameCore::SkillEffect SkillEffect; // 0x6C
+		::RPG::Client::TextID SkillDesc; // 0x70
+		::RPG::GameCore::FixPoint BPAdd; // 0x80
+		::RPG::GameCore::FixPoint SPNeed; // 0x88
+		::RPG::Client::TextID SimpleSkillDesc; // 0x90
+		::System::UInt32 SkillID; // 0xA0
+		::RPG::GameCore::AetherSpiritType PropertyType; // 0xA4
+		::RPG::GameCore::FixPoint BPNeed; // 0xA8
+		::RPG::GameCore::FixPoint SPMultipleRatio; // 0xB0
+		::RPG::GameCore::FixPoint SkillComboValueDelta; // 0xB8
+		::RPG::GameCore::FixPoint SPBase; // 0xC0
+		::RPG::Client::TextID SkillTypeDesc; // 0xC8
 
 		::System::Void _ctor()
 		{

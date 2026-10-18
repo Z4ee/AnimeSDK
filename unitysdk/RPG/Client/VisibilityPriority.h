@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int VisibilityPriority_TypeDefinitionIndex = 62238;
+	inline static constexpr unsigned int VisibilityPriority_TypeDefinitionIndex = 62155;
 
 	enum class VisibilityPriority : ::System::Int32
 	{

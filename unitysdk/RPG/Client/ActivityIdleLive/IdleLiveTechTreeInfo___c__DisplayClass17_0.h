@@ -6,12 +6,12 @@
 namespace RPG::Client::ActivityIdleLive { class IdleLiveTechTreeNode; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETECHTREEINFO___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC5F1C50)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETECHTREEINFO___C__DISPLAYCLASS17_0__GETPOWERFACTOR_B__0_OFFSET UNITYSDK_OFFSET(0xC5F1F80)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETECHTREEINFO___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC509670)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETECHTREEINFO___C__DISPLAYCLASS17_0__GETPOWERFACTOR_B__0_OFFSET UNITYSDK_OFFSET(0xC5099A0)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveTechTreeInfo___c__DisplayClass17_0_TypeDefinitionIndex = 75107;
+	inline static constexpr unsigned int IdleLiveTechTreeInfo___c__DisplayClass17_0_TypeDefinitionIndex = 75407;
 
 	class IdleLiveTechTreeInfo___c__DisplayClass17_0 : public ::System::Object
 	{

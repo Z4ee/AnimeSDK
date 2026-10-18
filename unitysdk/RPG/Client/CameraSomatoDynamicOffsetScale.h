@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/GameCore/CharacterSomatoType.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_CAMERASOMATODYNAMICOFFSETSCALE__CTOR_OFFSET UNITYSDK_OFFSET(0xC9EA930)
+#define RPG_CLIENT_CAMERASOMATODYNAMICOFFSETSCALE__CTOR_OFFSET UNITYSDK_OFFSET(0xC939040)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CameraSomatoDynamicOffsetScale_TypeDefinitionIndex = 69692;
+	inline static constexpr unsigned int CameraSomatoDynamicOffsetScale_TypeDefinitionIndex = 69727;
 
 	class CameraSomatoDynamicOffsetScale : public ::System::Object
 	{

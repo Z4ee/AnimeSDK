@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_29B23DDF98AF43AC.h"
+#include "unitysdk/Class_1_CBE3940117D4417A.h"
 #include "unitysdk/RPG/GameCore/AirlockEvent.h"
 #include "unitysdk/RPG/GameCore/TriggerExitReason.h"
 #include "unitysdk/UnityEngine/Vector3.h"
@@ -9,22 +9,22 @@ namespace RPG::GameCore { class GameEntity; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_2_6913162F9B84888B_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBD40E50)
-#define CLASS_2_6913162F9B84888B_DOONENTER_OFFSET UNITYSDK_OFFSET(0xBD40EB0)
-#define CLASS_2_6913162F9B84888B_DOONEXIT_OFFSET UNITYSDK_OFFSET(0xBD41130)
-#define CLASS_2_6913162F9B84888B_METHOD_2_6287030D53179AEE_OFFSET UNITYSDK_OFFSET(0xBD40FA0)
-#define CLASS_2_6913162F9B84888B__CTOR_OFFSET UNITYSDK_OFFSET(0xBD40DD0)
+#define CLASS_2_6913162F9B84888B_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBC1B220)
+#define CLASS_2_6913162F9B84888B_DOONENTER_OFFSET UNITYSDK_OFFSET(0xBC1B280)
+#define CLASS_2_6913162F9B84888B_DOONEXIT_OFFSET UNITYSDK_OFFSET(0xBC1B500)
+#define CLASS_2_6913162F9B84888B_METHOD_2_6287030D53179AEE_OFFSET UNITYSDK_OFFSET(0xBC1B370)
+#define CLASS_2_6913162F9B84888B__CTOR_OFFSET UNITYSDK_OFFSET(0xBC1B1A0)
 
-inline static constexpr unsigned int Class_2_6913162F9B84888B_TypeDefinitionIndex = 57653;
+inline static constexpr unsigned int Class_2_6913162F9B84888B_TypeDefinitionIndex = 57498;
 
-class Class_2_6913162F9B84888B : public ::Class_1_29B23DDF98AF43AC
+class Class_2_6913162F9B84888B : public ::Class_1_CBE3940117D4417A
 {
 public:
-	::UnityEngine::Transform* MMIPMDKKPNN; // 0x98
 	::System::Action_2<::System::Int32, ::RPG::GameCore::AirlockEvent>* ILEMLGEGLCC; // 0xA0
 	::UnityEngine::Transform* MELOKNOIJPA; // 0xA8
-	::System::Boolean IBMOGFCHNBN; // 0xB0
-	::System::Int32 KKPGNHCACEB; // 0xB4
+	::UnityEngine::Transform* MMIPMDKKPNN; // 0xB0
+	::System::Int32 KKPGNHCACEB; // 0xB8
+	::System::Boolean IBMOGFCHNBN; // 0xBC
 
 	::System::Void _ctor(::RPG::GameCore::GameEntity* a1, ::System::Int32 a2, ::UnityEngine::Transform* a3, ::UnityEngine::Transform* a4, ::System::Action_2<::System::Int32, ::RPG::GameCore::AirlockEvent>* a5)
 	{

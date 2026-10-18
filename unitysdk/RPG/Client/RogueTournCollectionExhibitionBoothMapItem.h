@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define RPG_CLIENT_ROGUETOURNCOLLECTIONEXHIBITIONBOOTHMAPITEM_TRIGGERSWITCHITEMICONNOTIFY_OFFSET UNITYSDK_OFFSET(0xDF47B20)
-#define RPG_CLIENT_ROGUETOURNCOLLECTIONEXHIBITIONBOOTHMAPITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xDF47BD0)
+#define RPG_CLIENT_ROGUETOURNCOLLECTIONEXHIBITIONBOOTHMAPITEM_TRIGGERSWITCHITEMICONNOTIFY_OFFSET UNITYSDK_OFFSET(0xDF97E40)
+#define RPG_CLIENT_ROGUETOURNCOLLECTIONEXHIBITIONBOOTHMAPITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xDF97EF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournCollectionExhibitionBoothMapItem_TypeDefinitionIndex = 68976;
+	inline static constexpr unsigned int RogueTournCollectionExhibitionBoothMapItem_TypeDefinitionIndex = 69012;
 
 	class RogueTournCollectionExhibitionBoothMapItem : public ::UnityEngine::MonoBehaviour
 	{

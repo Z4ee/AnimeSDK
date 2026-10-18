@@ -1,0 +1,32 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_171F9D986BE70A7F.h"
+
+namespace RPG::Client { class FateBuffData; }
+
+#define CLASS_2_23A03E77486DF40D_4_METHOD_2_4055ECB72605C82D_OFFSET UNITYSDK_OFFSET(0xBD136D0)
+#define CLASS_2_23A03E77486DF40D_4__CTOR_OFFSET UNITYSDK_OFFSET(0xBD136C0)
+#define CLASS_2_23A03E77486DF40D_4__EVALUATE_B__1_0_OFFSET UNITYSDK_OFFSET(0xBD139B0)
+
+inline static constexpr unsigned int Class_2_23A03E77486DF40D_4_TypeDefinitionIndex = 64136;
+
+class Class_2_23A03E77486DF40D_4 : public ::Class_1_171F9D986BE70A7F
+{
+public:
+	::System::UInt32 BDHMCFLOEOC; // 0x10
+
+	::System::Void _ctor(::System::UInt32 a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_2_23A03E77486DF40D_4__CTOR_OFFSET))(this, a1);
+	}
+
+	::System::Double Method_2_4055ECB72605C82D()
+	{
+		return ((::System::Double(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_23A03E77486DF40D_4_METHOD_2_4055ECB72605C82D_OFFSET))(this);
+	}
+
+	::System::Boolean _Evaluate_b__1_0(::RPG::Client::FateBuffData* a1)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::RPG::Client::FateBuffData*))((::PBYTE)hIl2Cpp + CLASS_2_23A03E77486DF40D_4__EVALUATE_B__1_0_OFFSET))(this, a1);
+	}
+};

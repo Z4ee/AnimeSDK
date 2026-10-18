@@ -7,11 +7,11 @@ namespace RPG::GameCore { class AudienceGroupMemberInfo; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPGTOOLS_TIMELINE_MODIFYAUDIENCEGROUPANIMTYPECLIPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xE8B95F0)
+#define RPGTOOLS_TIMELINE_MODIFYAUDIENCEGROUPANIMTYPECLIPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xE90EE50)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int ModifyAudienceGroupAnimTypeClipConfig_TypeDefinitionIndex = 48652;
+	inline static constexpr unsigned int ModifyAudienceGroupAnimTypeClipConfig_TypeDefinitionIndex = 48192;
 
 	class ModifyAudienceGroupAnimTypeClipConfig : public ::System::Object
 	{

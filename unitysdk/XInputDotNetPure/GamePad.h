@@ -4,13 +4,13 @@
 #include "unitysdk/XInputDotNetPure/GamePadState.h"
 #include "unitysdk/XInputDotNetPure/PlayerIndex.h"
 
-#define XINPUTDOTNETPURE_GAMEPAD_GETSTATE_OFFSET UNITYSDK_OFFSET(0x1B661680)
-#define XINPUTDOTNETPURE_GAMEPAD_SETVIBRATION_OFFSET UNITYSDK_OFFSET(0x1B660140)
-#define XINPUTDOTNETPURE_GAMEPAD__CTOR_OFFSET UNITYSDK_OFFSET(0x1B661F90)
+#define XINPUTDOTNETPURE_GAMEPAD_GETSTATE_OFFSET UNITYSDK_OFFSET(0x1BB603C0)
+#define XINPUTDOTNETPURE_GAMEPAD_SETVIBRATION_OFFSET UNITYSDK_OFFSET(0x1BB5EE80)
+#define XINPUTDOTNETPURE_GAMEPAD__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB60CD0)
 
 namespace XInputDotNetPure
 {
-	inline static constexpr unsigned int GamePad_TypeDefinitionIndex = 39494;
+	inline static constexpr unsigned int GamePad_TypeDefinitionIndex = 40791;
 
 	class GamePad : public ::System::Object
 	{

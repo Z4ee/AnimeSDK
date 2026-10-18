@@ -12,38 +12,38 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class Text; }
 
-#define MIHOYO_SDK_CONFIRMWITHJOYPAD_AWAKE_OFFSET UNITYSDK_OFFSET(0x1B75F8C0)
-#define MIHOYO_SDK_CONFIRMWITHJOYPAD_CLOSE_OFFSET UNITYSDK_OFFSET(0x1B760E10)
-#define MIHOYO_SDK_CONFIRMWITHJOYPAD_HIDE_OFFSET UNITYSDK_OFFSET(0x1B760BA0)
-#define MIHOYO_SDK_CONFIRMWITHJOYPAD_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1B7617F0)
-#define MIHOYO_SDK_CONFIRMWITHJOYPAD_ONTAPACCEPT_OFFSET UNITYSDK_OFFSET(0x1B760740)
-#define MIHOYO_SDK_CONFIRMWITHJOYPAD_ONTAPCANCEL_OFFSET UNITYSDK_OFFSET(0x1B7607B0)
-#define MIHOYO_SDK_CONFIRMWITHJOYPAD_SETJOYPADSTATUS_OFFSET UNITYSDK_OFFSET(0x1B760ED0)
-#define MIHOYO_SDK_CONFIRMWITHJOYPAD_SHOW_OFFSET UNITYSDK_OFFSET(0x1B760820)
-#define MIHOYO_SDK_CONFIRMWITHJOYPAD_START_OFFSET UNITYSDK_OFFSET(0x1B760060)
-#define MIHOYO_SDK_CONFIRMWITHJOYPAD_UPDATEJOYPADICON_OFFSET UNITYSDK_OFFSET(0x1B7613A0)
-#define MIHOYO_SDK_CONFIRMWITHJOYPAD_UPDATE_OFFSET UNITYSDK_OFFSET(0x1B760220)
-#define MIHOYO_SDK_CONFIRMWITHJOYPAD__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B7618E0)
-#define MIHOYO_SDK_CONFIRMWITHJOYPAD__CTOR_OFFSET UNITYSDK_OFFSET(0x1B761880)
+#define MIHOYO_SDK_CONFIRMWITHJOYPAD_AWAKE_OFFSET UNITYSDK_OFFSET(0x1BC5DD80)
+#define MIHOYO_SDK_CONFIRMWITHJOYPAD_CLOSE_OFFSET UNITYSDK_OFFSET(0x1BC5F440)
+#define MIHOYO_SDK_CONFIRMWITHJOYPAD_HIDE_OFFSET UNITYSDK_OFFSET(0x1BC5F1D0)
+#define MIHOYO_SDK_CONFIRMWITHJOYPAD_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1BC5FE70)
+#define MIHOYO_SDK_CONFIRMWITHJOYPAD_ONTAPACCEPT_OFFSET UNITYSDK_OFFSET(0x1BC5ED70)
+#define MIHOYO_SDK_CONFIRMWITHJOYPAD_ONTAPCANCEL_OFFSET UNITYSDK_OFFSET(0x1BC5EDE0)
+#define MIHOYO_SDK_CONFIRMWITHJOYPAD_SETJOYPADSTATUS_OFFSET UNITYSDK_OFFSET(0x1BC5F500)
+#define MIHOYO_SDK_CONFIRMWITHJOYPAD_SHOW_OFFSET UNITYSDK_OFFSET(0x1BC5EE50)
+#define MIHOYO_SDK_CONFIRMWITHJOYPAD_START_OFFSET UNITYSDK_OFFSET(0x1BC5E690)
+#define MIHOYO_SDK_CONFIRMWITHJOYPAD_UPDATEJOYPADICON_OFFSET UNITYSDK_OFFSET(0x1BC5FA20)
+#define MIHOYO_SDK_CONFIRMWITHJOYPAD_UPDATE_OFFSET UNITYSDK_OFFSET(0x1BC5E850)
+#define MIHOYO_SDK_CONFIRMWITHJOYPAD__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BC5FF60)
+#define MIHOYO_SDK_CONFIRMWITHJOYPAD__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC5FF00)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ConfirmWithJoypad_TypeDefinitionIndex = 7954;
+	inline static constexpr unsigned int ConfirmWithJoypad_TypeDefinitionIndex = 7997;
 
 	class ConfirmWithJoypad : public ::MiHoYo::SDK::UIElement
 	{
 	public:
-		static ::MiHoYo::SDK::ConfirmWithJoypad** StaticGet_Instance()
+		static ::MiHoYo::SDK::UIManager** StaticGet_manager()
 		{
-			return (::MiHoYo::SDK::ConfirmWithJoypad**)Il2CppClass::FromTypeDefinitionIndex(ConfirmWithJoypad_TypeDefinitionIndex)->GetStaticField(0x7220);
+			return (::MiHoYo::SDK::UIManager**)Il2CppClass::FromTypeDefinitionIndex(ConfirmWithJoypad_TypeDefinitionIndex)->GetStaticField(0x30A30);
 		}
 		static ::System::Collections::Generic::List_1<::System::Action*>** StaticGet_sm_hideTask()
 		{
-			return (::System::Collections::Generic::List_1<::System::Action*>**)Il2CppClass::FromTypeDefinitionIndex(ConfirmWithJoypad_TypeDefinitionIndex)->GetStaticField(0x7228);
+			return (::System::Collections::Generic::List_1<::System::Action*>**)Il2CppClass::FromTypeDefinitionIndex(ConfirmWithJoypad_TypeDefinitionIndex)->GetStaticField(0x30A38);
 		}
-		static ::MiHoYo::SDK::UIManager** StaticGet_manager()
+		static ::MiHoYo::SDK::ConfirmWithJoypad** StaticGet_Instance()
 		{
-			return (::MiHoYo::SDK::UIManager**)Il2CppClass::FromTypeDefinitionIndex(ConfirmWithJoypad_TypeDefinitionIndex)->GetStaticField(0x7230);
+			return (::MiHoYo::SDK::ConfirmWithJoypad**)Il2CppClass::FromTypeDefinitionIndex(ConfirmWithJoypad_TypeDefinitionIndex)->GetStaticField(0x30A40);
 		}
 		// static const ::System::String* PrefabName; // 0x0
 		// static const ::System::String* DialogPath; // 0x0

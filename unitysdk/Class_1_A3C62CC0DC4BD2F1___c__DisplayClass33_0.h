@@ -4,10 +4,10 @@
 
 namespace RPG::Client::NavMap::FiveDim { class Face; }
 
-#define CLASS_1_A3C62CC0DC4BD2F1___C__DISPLAYCLASS33_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15694040)
-#define CLASS_1_A3C62CC0DC4BD2F1___C__DISPLAYCLASS33_0__GETFACE_B__0_OFFSET UNITYSDK_OFFSET(0x15694180)
+#define CLASS_1_A3C62CC0DC4BD2F1___C__DISPLAYCLASS33_0__CTOR_OFFSET UNITYSDK_OFFSET(0x158C9340)
+#define CLASS_1_A3C62CC0DC4BD2F1___C__DISPLAYCLASS33_0__GETFACE_B__0_OFFSET UNITYSDK_OFFSET(0x158C9480)
 
-inline static constexpr unsigned int Class_1_A3C62CC0DC4BD2F1___c__DisplayClass33_0_TypeDefinitionIndex = 74545;
+inline static constexpr unsigned int Class_1_A3C62CC0DC4BD2F1___c__DisplayClass33_0_TypeDefinitionIndex = 74673;
 
 class Class_1_A3C62CC0DC4BD2F1___c__DisplayClass33_0 : public ::System::Object
 {

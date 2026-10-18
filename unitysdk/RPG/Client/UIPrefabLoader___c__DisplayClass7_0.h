@@ -10,20 +10,20 @@ namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_UIPREFABLOADER___C__DISPLAYCLASS7_0__ASYNCLOADVIEWPREFAB_B__0_OFFSET UNITYSDK_OFFSET(0xE3A9510)
-#define RPG_CLIENT_UIPREFABLOADER___C__DISPLAYCLASS7_0__ASYNCLOADVIEWPREFAB_B__1_OFFSET UNITYSDK_OFFSET(0xE3A9550)
-#define RPG_CLIENT_UIPREFABLOADER___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0xE3A7B00)
+#define RPG_CLIENT_UIPREFABLOADER___C__DISPLAYCLASS7_0__ASYNCLOADVIEWPREFAB_B__0_OFFSET UNITYSDK_OFFSET(0xE3EA800)
+#define RPG_CLIENT_UIPREFABLOADER___C__DISPLAYCLASS7_0__ASYNCLOADVIEWPREFAB_B__1_OFFSET UNITYSDK_OFFSET(0xE3EA840)
+#define RPG_CLIENT_UIPREFABLOADER___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0xE3E9030)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIPrefabLoader___c__DisplayClass7_0_TypeDefinitionIndex = 73006;
+	inline static constexpr unsigned int UIPrefabLoader___c__DisplayClass7_0_TypeDefinitionIndex = 73101;
 
 	class UIPrefabLoader___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:
-		::Class_1_3A34A5229D2C5A1E* viewCache; // 0x10
-		::System::Action_1<::UnityEngine::GameObject*>* callback; // 0x18
-		::Class_1_321DAC1151B4F640* cacheEntry; // 0x20
+		::Class_1_321DAC1151B4F640* cacheEntry; // 0x10
+		::Class_1_3A34A5229D2C5A1E* viewCache; // 0x18
+		::System::Action_1<::UnityEngine::GameObject*>* callback; // 0x20
 		::System::String* path; // 0x28
 		::RPG::Client::ViewCacheType cacheType; // 0x30
 

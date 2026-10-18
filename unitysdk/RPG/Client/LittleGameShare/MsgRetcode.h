@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGameShare
 {
-	inline static constexpr unsigned int MsgRetcode_TypeDefinitionIndex = 36266;
+	inline static constexpr unsigned int MsgRetcode_TypeDefinitionIndex = 36953;
 
 	enum class MsgRetcode : ::System::Int32
 	{

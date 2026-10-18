@@ -5,29 +5,29 @@
 class Class_1_1CBA230307F9C289;
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_PLAYERCHALLENGERECORDDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xDBA27E0)
-#define RPG_CLIENT_PLAYERCHALLENGERECORDDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0xDBA2820)
-#define RPG_CLIENT_PLAYERCHALLENGERECORDDATA___C___SYNCLINEUP_B__2_0_OFFSET UNITYSDK_OFFSET(0xDBA2830)
-#define RPG_CLIENT_PLAYERCHALLENGERECORDDATA___C___SYNCLINEUP_B__2_1_OFFSET UNITYSDK_OFFSET(0xDBA2870)
+#define RPG_CLIENT_PLAYERCHALLENGERECORDDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xDBEB710)
+#define RPG_CLIENT_PLAYERCHALLENGERECORDDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0xDBEB750)
+#define RPG_CLIENT_PLAYERCHALLENGERECORDDATA___C___SYNCLINEUP_B__2_0_OFFSET UNITYSDK_OFFSET(0xDBEB760)
+#define RPG_CLIENT_PLAYERCHALLENGERECORDDATA___C___SYNCLINEUP_B__2_1_OFFSET UNITYSDK_OFFSET(0xDBEB7A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlayerChallengeRecordData___c_TypeDefinitionIndex = 64337;
+	inline static constexpr unsigned int PlayerChallengeRecordData___c_TypeDefinitionIndex = 64277;
 
 	class PlayerChallengeRecordData___c : public ::System::Object
 	{
 	public:
 		static ::System::Comparison_1<::Class_1_1CBA230307F9C289*>** StaticGet___9__2_0()
 		{
-			return (::System::Comparison_1<::Class_1_1CBA230307F9C289*>**)Il2CppClass::FromTypeDefinitionIndex(PlayerChallengeRecordData___c_TypeDefinitionIndex)->GetStaticField(0x60BE0);
-		}
-		static ::System::Comparison_1<::Class_1_1CBA230307F9C289*>** StaticGet___9__2_1()
-		{
-			return (::System::Comparison_1<::Class_1_1CBA230307F9C289*>**)Il2CppClass::FromTypeDefinitionIndex(PlayerChallengeRecordData___c_TypeDefinitionIndex)->GetStaticField(0x60BE8);
+			return (::System::Comparison_1<::Class_1_1CBA230307F9C289*>**)Il2CppClass::FromTypeDefinitionIndex(PlayerChallengeRecordData___c_TypeDefinitionIndex)->GetStaticField(0x39BA0);
 		}
 		static ::RPG::Client::PlayerChallengeRecordData___c** StaticGet___9()
 		{
-			return (::RPG::Client::PlayerChallengeRecordData___c**)Il2CppClass::FromTypeDefinitionIndex(PlayerChallengeRecordData___c_TypeDefinitionIndex)->GetStaticField(0x60BF0);
+			return (::RPG::Client::PlayerChallengeRecordData___c**)Il2CppClass::FromTypeDefinitionIndex(PlayerChallengeRecordData___c_TypeDefinitionIndex)->GetStaticField(0x39BA8);
+		}
+		static ::System::Comparison_1<::Class_1_1CBA230307F9C289*>** StaticGet___9__2_1()
+		{
+			return (::System::Comparison_1<::Class_1_1CBA230307F9C289*>**)Il2CppClass::FromTypeDefinitionIndex(PlayerChallengeRecordData___c_TypeDefinitionIndex)->GetStaticField(0x39BB0);
 		}
 
 		static ::System::Void _cctor()

@@ -1,11 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Struct_2_EBD47A6A04BEEE4E.h"
-#include "unitysdk/UnityEngine/Vector3.h"
 
-namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+class Class_0_16E4307DCC419505_183;
+class Class_1_47EE63CB5C4DC8FC_3;
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_285_TypeDefinitionIndex = 41992;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_285_TypeDefinitionIndex = 42659;
 
 class Class_0_16E4307DCC419505_285
 {

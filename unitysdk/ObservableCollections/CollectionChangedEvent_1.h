@@ -10,7 +10,7 @@ namespace System::Text { class StringBuilder; }
 
 namespace ObservableCollections
 {
-	inline static constexpr unsigned int CollectionChangedEvent_1_TypeDefinitionIndex = 40066;
+	inline static constexpr unsigned int CollectionChangedEvent_1_TypeDefinitionIndex = 41363;
 
 	template <typename T>
 	struct CollectionChangedEvent_1

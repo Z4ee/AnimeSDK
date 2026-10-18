@@ -1,7 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/FindChestMarkConfig.h"
+#include "unitysdk/RPG/MVector3.h"
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_945_TypeDefinitionIndex = 67122;
+namespace RPG::Client::NavMap { class ICartographer; }
+
+inline static constexpr unsigned int Class_0_16E4307DCC419505_945_TypeDefinitionIndex = 64204;
 
 class Class_0_16E4307DCC419505_945
 {

@@ -8,18 +8,18 @@
 class Class_1_843DD6330B22E422;
 namespace RPG::GameCore { class TurnBasedAbilityComponent; }
 
-#define CLASS_1_A25E3CD516D76ABF_METHOD_1_4C4B5CDC79FEB1DB_OFFSET UNITYSDK_OFFSET(0x154A6490)
-#define CLASS_1_A25E3CD516D76ABF_METHOD_1_DEB80637BDD70713_OFFSET UNITYSDK_OFFSET(0x154A6360)
-#define CLASS_1_A25E3CD516D76ABF__CCTOR_OFFSET UNITYSDK_OFFSET(0x154A76B0)
+#define CLASS_1_A25E3CD516D76ABF_METHOD_1_4C4B5CDC79FEB1DB_OFFSET UNITYSDK_OFFSET(0x15767830)
+#define CLASS_1_A25E3CD516D76ABF_METHOD_1_DEB80637BDD70713_OFFSET UNITYSDK_OFFSET(0x15767700)
+#define CLASS_1_A25E3CD516D76ABF__CCTOR_OFFSET UNITYSDK_OFFSET(0x15768A40)
 
-inline static constexpr unsigned int Class_1_A25E3CD516D76ABF_TypeDefinitionIndex = 56162;
+inline static constexpr unsigned int Class_1_A25E3CD516D76ABF_TypeDefinitionIndex = 55974;
 
 class Class_1_A25E3CD516D76ABF : public ::System::Object
 {
 public:
 	static ::RPG::GameCore::FixPoint* StaticGet_EPBPACPCLPP()
 	{
-		return (::RPG::GameCore::FixPoint*)Il2CppClass::FromTypeDefinitionIndex(Class_1_A25E3CD516D76ABF_TypeDefinitionIndex)->GetStaticField(0x133F0);
+		return (::RPG::GameCore::FixPoint*)Il2CppClass::FromTypeDefinitionIndex(Class_1_A25E3CD516D76ABF_TypeDefinitionIndex)->GetStaticField(0x14EE0);
 	}
 
 	static ::System::Void _cctor()

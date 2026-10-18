@@ -2,22 +2,22 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Class_2_A047D65884258648.h"
 
-class Class_1_EFDEDB2BC2764B7D;
+class Class_1_7325E2A200EF063B;
 namespace RPG::GameCore { class MarbleByImmuneAttackBack; }
 
-#define CLASS_3_B76C6ADD8A83B6DB_METHOD_3_A3FAE12D7B6ACD62_OFFSET UNITYSDK_OFFSET(0x1C4A3EE0)
-#define CLASS_3_B76C6ADD8A83B6DB__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4A3EC0)
+#define CLASS_3_B76C6ADD8A83B6DB_METHOD_3_A3FAE12D7B6ACD62_OFFSET UNITYSDK_OFFSET(0x1CA14140)
+#define CLASS_3_B76C6ADD8A83B6DB__CTOR_OFFSET UNITYSDK_OFFSET(0x1CA14120)
 
-inline static constexpr unsigned int Class_3_B76C6ADD8A83B6DB_TypeDefinitionIndex = 41520;
+inline static constexpr unsigned int Class_3_B76C6ADD8A83B6DB_TypeDefinitionIndex = 43160;
 
 class Class_3_B76C6ADD8A83B6DB : public ::Class_2_A047D65884258648
 {
 public:
 	::RPG::GameCore::MarbleByImmuneAttackBack* IGHAHBNLIJA; // 0x30
 
-	::System::Void _ctor(::RPG::GameCore::MarbleByImmuneAttackBack* a1, ::Class_1_EFDEDB2BC2764B7D* a2)
+	::System::Void _ctor(::RPG::GameCore::MarbleByImmuneAttackBack* a1, ::Class_1_7325E2A200EF063B* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::MarbleByImmuneAttackBack*, ::Class_1_EFDEDB2BC2764B7D*))((::PBYTE)hIl2Cpp + CLASS_3_B76C6ADD8A83B6DB__CTOR_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::MarbleByImmuneAttackBack*, ::Class_1_7325E2A200EF063B*))((::PBYTE)hIl2Cpp + CLASS_3_B76C6ADD8A83B6DB__CTOR_OFFSET))(this, a1, a2);
 	}
 
 	::System::Boolean Method_3_A3FAE12D7B6ACD62()

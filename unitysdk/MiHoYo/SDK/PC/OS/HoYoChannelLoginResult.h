@@ -2,17 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MiHoYo/SDK/PC/OS/HoYoChannelBaseResult.h"
 
+namespace MiHoYo::SDK::PC::OS { class EpicLoginExtension; }
 namespace MiHoYo::SDK::PC::OS { class SteamLoginExtension; }
 namespace MiHoYo::SDK::PC::OS { class XboxLoginExtension; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELLOGINRESULT_FROMJSON_OFFSET UNITYSDK_OFFSET(0x1BA272E0)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELLOGINRESULT_TOJSON_OFFSET UNITYSDK_OFFSET(0x1BA272D0)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELLOGINRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA27320)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELLOGINRESULT_FROMJSON_OFFSET UNITYSDK_OFFSET(0x1BF30D20)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELLOGINRESULT_TOJSON_OFFSET UNITYSDK_OFFSET(0x1BF30D10)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELLOGINRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF30D60)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int HoYoChannelLoginResult_TypeDefinitionIndex = 8535;
+	inline static constexpr unsigned int HoYoChannelLoginResult_TypeDefinitionIndex = 8595;
 
 	class HoYoChannelLoginResult : public ::MiHoYo::SDK::PC::OS::HoYoChannelBaseResult
 	{
@@ -22,6 +23,7 @@ namespace MiHoYo::SDK::PC::OS
 		::System::Boolean authenticated; // 0x30
 		::MiHoYo::SDK::PC::OS::SteamLoginExtension* steam; // 0x38
 		::MiHoYo::SDK::PC::OS::XboxLoginExtension* xbox; // 0x40
+		::MiHoYo::SDK::PC::OS::EpicLoginExtension* epic; // 0x48
 
 		::System::Void _ctor()
 		{

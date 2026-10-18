@@ -1,19 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_43BD383C98B4C0C5_151.h"
+#include "unitysdk/Class_1_43BD383C98B4C0C5_150.h"
 #include "unitysdk/RPG/Client/RuntimeGroupManager_HoYoGroupUnit_RegionRefreshState.h"
 
 class Class_1_B040C6AB11F70C95;
 class Class_1_F236C4DB0600E05D;
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define CLASS_2_5D2DAB04CEC9DFDB_METHOD_2_AC4316562DA73BB5_OFFSET UNITYSDK_OFFSET(0xCA4E950)
-#define CLASS_2_5D2DAB04CEC9DFDB_METHOD_2_D146709AEC7342B9_OFFSET UNITYSDK_OFFSET(0xCA4EFD0)
-#define CLASS_2_5D2DAB04CEC9DFDB__CTOR_OFFSET UNITYSDK_OFFSET(0xCA4F1B0)
+#define CLASS_2_5D2DAB04CEC9DFDB_METHOD_2_AC4316562DA73BB5_OFFSET UNITYSDK_OFFSET(0xC7796F0)
+#define CLASS_2_5D2DAB04CEC9DFDB_METHOD_2_D146709AEC7342B9_OFFSET UNITYSDK_OFFSET(0xC779D60)
+#define CLASS_2_5D2DAB04CEC9DFDB__CTOR_OFFSET UNITYSDK_OFFSET(0xC779F40)
 
-inline static constexpr unsigned int Class_2_5D2DAB04CEC9DFDB_TypeDefinitionIndex = 62130;
+inline static constexpr unsigned int Class_2_5D2DAB04CEC9DFDB_TypeDefinitionIndex = 62046;
 
-class Class_2_5D2DAB04CEC9DFDB : public ::Class_1_43BD383C98B4C0C5_151
+class Class_2_5D2DAB04CEC9DFDB : public ::Class_1_43BD383C98B4C0C5_150
 {
 public:
 	::System::Collections::Generic::HashSet_1<::System::UInt32>* NHJLHHCJKEL; // 0x10

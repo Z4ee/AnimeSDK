@@ -5,16 +5,16 @@
 class Class_2_48488E8DBD9F6BCE;
 namespace RPG::GameCore { class DiceCombatTaskConfig_TacticsEffect_AlignDefend; }
 
-#define CLASS_2_6772C174E0BC303F_METHOD_2_3AA20A0DA6990FBE_OFFSET UNITYSDK_OFFSET(0x1C1BF0A0)
-#define CLASS_2_6772C174E0BC303F__CTOR_OFFSET UNITYSDK_OFFSET(0x1C1BF090)
+#define CLASS_2_6772C174E0BC303F_METHOD_2_3AA20A0DA6990FBE_OFFSET UNITYSDK_OFFSET(0x1C70F4E0)
+#define CLASS_2_6772C174E0BC303F__CTOR_OFFSET UNITYSDK_OFFSET(0x1C70F4D0)
 
-inline static constexpr unsigned int Class_2_6772C174E0BC303F_TypeDefinitionIndex = 35646;
+inline static constexpr unsigned int Class_2_6772C174E0BC303F_TypeDefinitionIndex = 36333;
 
 class Class_2_6772C174E0BC303F : public ::Class_1_B55037134F9E6688
 {
 public:
-	::RPG::GameCore::DiceCombatTaskConfig_TacticsEffect_AlignDefend* IGHAHBNLIJA; // 0x18
-	::Class_2_48488E8DBD9F6BCE* EEFMDEHLLFI; // 0x20
+	::Class_2_48488E8DBD9F6BCE* EEFMDEHLLFI; // 0x18
+	::RPG::GameCore::DiceCombatTaskConfig_TacticsEffect_AlignDefend* IGHAHBNLIJA; // 0x20
 
 	::System::Void _ctor(::RPG::GameCore::DiceCombatTaskConfig_TacticsEffect_AlignDefend* a1, ::Class_2_48488E8DBD9F6BCE* a2)
 	{

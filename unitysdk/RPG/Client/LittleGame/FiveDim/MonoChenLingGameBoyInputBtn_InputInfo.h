@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_MONOCHENLINGGAMEBOYINPUTBTN_INPUTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x151060)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_MONOCHENLINGGAMEBOYINPUTBTN_INPUTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xE9D80)
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int MonoChenLingGameBoyInputBtn_InputInfo_TypeDefinitionIndex = 76760;
+	inline static constexpr unsigned int MonoChenLingGameBoyInputBtn_InputInfo_TypeDefinitionIndex = 77231;
 
 	struct alignas(8) MonoChenLingGameBoyInputBtn_InputInfo
 	{

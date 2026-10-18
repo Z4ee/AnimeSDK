@@ -5,18 +5,18 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_F3BFA3A578369157_METHOD_1_15D2AB20F4DFBD38_OFFSET UNITYSDK_OFFSET(0x1586E510)
-#define CLASS_1_F3BFA3A578369157__CCTOR_OFFSET UNITYSDK_OFFSET(0x1586EA70)
-#define CLASS_1_F3BFA3A578369157__CTOR_OFFSET UNITYSDK_OFFSET(0x1586EA60)
+#define CLASS_1_F3BFA3A578369157_METHOD_1_15D2AB20F4DFBD38_OFFSET UNITYSDK_OFFSET(0x15B67AB0)
+#define CLASS_1_F3BFA3A578369157__CCTOR_OFFSET UNITYSDK_OFFSET(0x15B68010)
+#define CLASS_1_F3BFA3A578369157__CTOR_OFFSET UNITYSDK_OFFSET(0x15B68000)
 
-inline static constexpr unsigned int Class_1_F3BFA3A578369157_TypeDefinitionIndex = 50038;
+inline static constexpr unsigned int Class_1_F3BFA3A578369157_TypeDefinitionIndex = 49613;
 
 class Class_1_F3BFA3A578369157 : public ::System::Object
 {
 public:
 	static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*>** StaticGet_EJCIOGFMOMF()
 	{
-		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_F3BFA3A578369157_TypeDefinitionIndex)->GetStaticField(0x5B400);
+		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_F3BFA3A578369157_TypeDefinitionIndex)->GetStaticField(0x6D9E0);
 	}
 
 	::System::Void _ctor()

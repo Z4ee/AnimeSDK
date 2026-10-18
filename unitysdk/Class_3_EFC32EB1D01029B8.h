@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ModifyGridFightCustomProperty; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_EFC32EB1D01029B8_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBDB1AA0)
-#define CLASS_3_EFC32EB1D01029B8__CTOR_OFFSET UNITYSDK_OFFSET(0xBDB1A70)
+#define CLASS_3_EFC32EB1D01029B8_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBC86380)
+#define CLASS_3_EFC32EB1D01029B8__CTOR_OFFSET UNITYSDK_OFFSET(0xBC86350)
 
-inline static constexpr unsigned int Class_3_EFC32EB1D01029B8_TypeDefinitionIndex = 55406;
+inline static constexpr unsigned int Class_3_EFC32EB1D01029B8_TypeDefinitionIndex = 55203;
 
 class Class_3_EFC32EB1D01029B8 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ModifyGridFightCustomProperty*>
 {

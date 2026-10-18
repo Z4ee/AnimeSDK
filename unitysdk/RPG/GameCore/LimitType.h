@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LimitType_TypeDefinitionIndex = 15255;
+	inline static constexpr unsigned int LimitType_TypeDefinitionIndex = 15426;
 
 	enum class LimitType : ::System::Int32
 	{

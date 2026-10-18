@@ -7,7 +7,7 @@ namespace RPG::Client::FateRin::Battle { class IFateRinBattleSpeedUpButtonViewMo
 
 namespace RPG::Client::FateRin::Battle
 {
-	inline static constexpr unsigned int IFateRinBattleFunctionAreaViewModel_TypeDefinitionIndex = 79553;
+	inline static constexpr unsigned int IFateRinBattleFunctionAreaViewModel_TypeDefinitionIndex = 80877;
 
 	class IFateRinBattleFunctionAreaViewModel
 	{

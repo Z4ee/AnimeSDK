@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace System::Runtime::InteropServices
 {
-	inline static constexpr unsigned int CollectionsMarshal_TypeDefinitionIndex = 35222;
+	inline static constexpr unsigned int CollectionsMarshal_TypeDefinitionIndex = 35896;
 
 	class CollectionsMarshal : public ::System::Object
 	{

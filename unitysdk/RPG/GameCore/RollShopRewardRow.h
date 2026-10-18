@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ROLLSHOPREWARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D493FC0)
-#define RPG_GAMECORE_ROLLSHOPREWARDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D4940B0)
+#define RPG_GAMECORE_ROLLSHOPREWARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DA46C70)
+#define RPG_GAMECORE_ROLLSHOPREWARDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1DA46D60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RollShopRewardRow_TypeDefinitionIndex = 14915;
+	inline static constexpr unsigned int RollShopRewardRow_TypeDefinitionIndex = 15080;
 
 	class RollShopRewardRow : public ::System::Object
 	{

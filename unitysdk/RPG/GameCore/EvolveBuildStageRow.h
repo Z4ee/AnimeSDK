@@ -9,40 +9,40 @@ class Class_1_942D40AEEDD1812F;
 class Class_1_A88C3AAF0DD46F4C_2;
 namespace System { class String; }
 
-#define RPG_GAMECORE_EVOLVEBUILDSTAGEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D078C80)
-#define RPG_GAMECORE_EVOLVEBUILDSTAGEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D07AD00)
+#define RPG_GAMECORE_EVOLVEBUILDSTAGEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D686C70)
+#define RPG_GAMECORE_EVOLVEBUILDSTAGEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D688CF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EvolveBuildStageRow_TypeDefinitionIndex = 11394;
+	inline static constexpr unsigned int EvolveBuildStageRow_TypeDefinitionIndex = 11410;
 
 	class EvolveBuildStageRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* StagePeriod4; // 0x10
+		::System::String* TeamBonusIconPath; // 0x10
 		::Il2CppArray<::Class_1_A88C3AAF0DD46F4C_2*>* RecommendList; // 0x18
-		::Il2CppArray<::System::UInt32>* FirstWinQuest; // 0x20
-		::Il2CppArray<::System::UInt32>* TrialAvatar; // 0x28
-		::Il2CppArray<::System::UInt32>* StagePeriod2; // 0x30
-		::Il2CppArray<::System::UInt32>* GearRecommendList; // 0x38
-		::System::String* TeamBonusIconPath; // 0x40
-		::Il2CppArray<::System::UInt32>* StagePeriod3; // 0x48
-		::Il2CppArray<::System::UInt32>* InitialWeapon; // 0x50
-		::Il2CppArray<::System::UInt32>* StagePeriod1; // 0x58
-		::Il2CppArray<::Class_1_942D40AEEDD1812F*>* RankList; // 0x60
-		::System::UInt32 IntroID; // 0x68
-		::RPG::Client::TextID TeamBonusShortDesc; // 0x70
-		::RPG::Client::TextID PreName; // 0x80
-		::System::UInt32 StageMergedID; // 0x90
-		::System::UInt32 TeamBonusMazeBuffID; // 0x94
-		::RPG::GameCore::EvolveBuildSeason Season; // 0x98
-		::System::Int32 Difficulty; // 0x9C
-		::RPG::Client::TextID Name; // 0xA0
-		::RPG::Client::TextID BuffTextFormat; // 0xB0
-		::RPG::Client::TextID Desc; // 0xC0
-		::System::Boolean WeaponSelectable; // 0xD0
-		::System::UInt32 UnlockQuest; // 0xD4
-		::RPG::Client::TextID DevilDesc; // 0xD8
+		::Il2CppArray<::System::UInt32>* StagePeriod3; // 0x20
+		::Il2CppArray<::System::UInt32>* InitialWeapon; // 0x28
+		::Il2CppArray<::System::UInt32>* TrialAvatar; // 0x30
+		::Il2CppArray<::Class_1_942D40AEEDD1812F*>* RankList; // 0x38
+		::Il2CppArray<::System::UInt32>* StagePeriod1; // 0x40
+		::Il2CppArray<::System::UInt32>* StagePeriod4; // 0x48
+		::Il2CppArray<::System::UInt32>* FirstWinQuest; // 0x50
+		::Il2CppArray<::System::UInt32>* StagePeriod2; // 0x58
+		::Il2CppArray<::System::UInt32>* GearRecommendList; // 0x60
+		::RPG::Client::TextID Name; // 0x68
+		::RPG::Client::TextID DevilDesc; // 0x78
+		::RPG::Client::TextID TeamBonusShortDesc; // 0x88
+		::System::UInt32 StageMergedID; // 0x98
+		::System::UInt32 UnlockQuest; // 0x9C
+		::RPG::Client::TextID BuffTextFormat; // 0xA0
+		::System::Int32 Difficulty; // 0xB0
+		::System::UInt32 IntroID; // 0xB4
+		::System::Boolean WeaponSelectable; // 0xB8
+		::RPG::Client::TextID PreName; // 0xC0
+		::RPG::Client::TextID Desc; // 0xD0
+		::RPG::GameCore::EvolveBuildSeason Season; // 0xE0
+		::System::UInt32 TeamBonusMazeBuffID; // 0xE4
 
 		::System::Void _ctor()
 		{

@@ -6,7 +6,7 @@
 
 namespace ZLinq::Internal
 {
-	inline static constexpr unsigned int SegmentedArrayProvider_1_TypeDefinitionIndex = 6143;
+	inline static constexpr unsigned int SegmentedArrayProvider_1_TypeDefinitionIndex = 6152;
 
 	template <typename T>
 	struct SegmentedArrayProvider_1

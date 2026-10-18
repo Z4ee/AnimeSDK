@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_PRELOADITEMSILENCE_METHOD_2_598C07C9A42FA419_OFFSET UNITYSDK_OFFSET(0x1D35AB80)
-#define RPG_GAMECORE_PRELOADITEMSILENCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D35AD00)
+#define RPG_GAMECORE_PRELOADITEMSILENCE_METHOD_2_598C07C9A42FA419_OFFSET UNITYSDK_OFFSET(0x1D93FF70)
+#define RPG_GAMECORE_PRELOADITEMSILENCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D9400F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PreloadItemSilence_TypeDefinitionIndex = 16188;
+	inline static constexpr unsigned int PreloadItemSilence_TypeDefinitionIndex = 16361;
 
 	class PreloadItemSilence : public ::RPG::GameCore::JsonConfig
 	{

@@ -5,12 +5,12 @@
 
 namespace MiHoYo::SDK::PC::OS::CXHandheld { class HandheldUserAgreementDialog; }
 
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDUSERAGREEMENTDIALOG___C__DISPLAYCLASS32_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9F2D30)
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDUSERAGREEMENTDIALOG___C__DISPLAYCLASS32_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1B9F64E0)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDUSERAGREEMENTDIALOG___C__DISPLAYCLASS32_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BEF5B90)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDUSERAGREEMENTDIALOG___C__DISPLAYCLASS32_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1BEF9720)
 
 namespace MiHoYo::SDK::PC::OS::CXHandheld
 {
-	inline static constexpr unsigned int HandheldUserAgreementDialog___c__DisplayClass32_0_TypeDefinitionIndex = 8760;
+	inline static constexpr unsigned int HandheldUserAgreementDialog___c__DisplayClass32_0_TypeDefinitionIndex = 8821;
 
 	class HandheldUserAgreementDialog___c__DisplayClass32_0 : public ::System::Object
 	{

@@ -10,13 +10,13 @@ namespace System::Linq::Expressions::Interpreter { class InterpretedFrame; }
 namespace System::Linq::Expressions::Interpreter { class LocalVariables; }
 namespace System::Reflection { class PropertyInfo; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_PROPERTYBYREFUPDATER_UNDEFINETEMPS_OFFSET UNITYSDK_OFFSET(0x1E75DA00)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_PROPERTYBYREFUPDATER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1E75D840)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_PROPERTYBYREFUPDATER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E75D820)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_PROPERTYBYREFUPDATER_UNDEFINETEMPS_OFFSET UNITYSDK_OFFSET(0x1EE26600)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_PROPERTYBYREFUPDATER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1EE26440)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_PROPERTYBYREFUPDATER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EE26420)
 
 namespace System::Linq::Expressions::Interpreter
 {
-	inline static constexpr unsigned int PropertyByRefUpdater_TypeDefinitionIndex = 3491;
+	inline static constexpr unsigned int PropertyByRefUpdater_TypeDefinitionIndex = 3492;
 
 	class PropertyByRefUpdater : public ::System::Linq::Expressions::Interpreter::ByRefUpdater
 	{

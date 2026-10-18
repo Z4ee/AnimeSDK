@@ -7,32 +7,32 @@ namespace RPG::GameCore { class LevelNPCInfo; }
 namespace RPG::GameCore { class LevelPropInfo; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define CLASS_2_9F1F16EC4B9BAE24___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC3991E0)
-#define CLASS_2_9F1F16EC4B9BAE24___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC399220)
-#define CLASS_2_9F1F16EC4B9BAE24___C___GETINSTANCESFROMGROUP_B__6_0_OFFSET UNITYSDK_OFFSET(0xC399230)
-#define CLASS_2_9F1F16EC4B9BAE24___C___GETINSTANCESFROMGROUP_B__6_1_OFFSET UNITYSDK_OFFSET(0xC399250)
-#define CLASS_2_9F1F16EC4B9BAE24___C___GETINSTANCESFROMGROUP_B__6_2_OFFSET UNITYSDK_OFFSET(0xC399270)
+#define CLASS_2_9F1F16EC4B9BAE24___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC28E3A0)
+#define CLASS_2_9F1F16EC4B9BAE24___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC28E3E0)
+#define CLASS_2_9F1F16EC4B9BAE24___C___GETINSTANCESFROMGROUP_B__6_0_OFFSET UNITYSDK_OFFSET(0xC28E3F0)
+#define CLASS_2_9F1F16EC4B9BAE24___C___GETINSTANCESFROMGROUP_B__6_1_OFFSET UNITYSDK_OFFSET(0xC28E410)
+#define CLASS_2_9F1F16EC4B9BAE24___C___GETINSTANCESFROMGROUP_B__6_2_OFFSET UNITYSDK_OFFSET(0xC28E430)
 
-inline static constexpr unsigned int Class_2_9F1F16EC4B9BAE24___c_TypeDefinitionIndex = 52622;
+inline static constexpr unsigned int Class_2_9F1F16EC4B9BAE24___c_TypeDefinitionIndex = 52347;
 
 class Class_2_9F1F16EC4B9BAE24___c : public ::System::Object
 {
 public:
-	static ::System::Func_2<::RPG::GameCore::LevelPropInfo*, ::System::UInt32>** StaticGet___9__6_0()
-	{
-		return (::System::Func_2<::RPG::GameCore::LevelPropInfo*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_9F1F16EC4B9BAE24___c_TypeDefinitionIndex)->GetStaticField(0x53660);
-	}
-	static ::Class_2_9F1F16EC4B9BAE24___c** StaticGet___9()
-	{
-		return (::Class_2_9F1F16EC4B9BAE24___c**)Il2CppClass::FromTypeDefinitionIndex(Class_2_9F1F16EC4B9BAE24___c_TypeDefinitionIndex)->GetStaticField(0x53668);
-	}
 	static ::System::Func_2<::RPG::GameCore::LevelNPCInfo*, ::System::UInt32>** StaticGet___9__6_1()
 	{
-		return (::System::Func_2<::RPG::GameCore::LevelNPCInfo*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_9F1F16EC4B9BAE24___c_TypeDefinitionIndex)->GetStaticField(0x53670);
+		return (::System::Func_2<::RPG::GameCore::LevelNPCInfo*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_9F1F16EC4B9BAE24___c_TypeDefinitionIndex)->GetStaticField(0x6F9D0);
 	}
 	static ::System::Func_2<::RPG::GameCore::LevelMonsterInfo*, ::System::UInt32>** StaticGet___9__6_2()
 	{
-		return (::System::Func_2<::RPG::GameCore::LevelMonsterInfo*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_9F1F16EC4B9BAE24___c_TypeDefinitionIndex)->GetStaticField(0x53678);
+		return (::System::Func_2<::RPG::GameCore::LevelMonsterInfo*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_9F1F16EC4B9BAE24___c_TypeDefinitionIndex)->GetStaticField(0x6F9D8);
+	}
+	static ::System::Func_2<::RPG::GameCore::LevelPropInfo*, ::System::UInt32>** StaticGet___9__6_0()
+	{
+		return (::System::Func_2<::RPG::GameCore::LevelPropInfo*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_9F1F16EC4B9BAE24___c_TypeDefinitionIndex)->GetStaticField(0x6F9E0);
+	}
+	static ::Class_2_9F1F16EC4B9BAE24___c** StaticGet___9()
+	{
+		return (::Class_2_9F1F16EC4B9BAE24___c**)Il2CppClass::FromTypeDefinitionIndex(Class_2_9F1F16EC4B9BAE24___c_TypeDefinitionIndex)->GetStaticField(0x6F9E8);
 	}
 
 	static ::System::Void _cctor()

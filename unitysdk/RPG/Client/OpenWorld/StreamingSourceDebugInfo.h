@@ -7,26 +7,26 @@
 class Class_1_DE4C6B309308A230;
 namespace System { class String; }
 
-#define RPG_CLIENT_OPENWORLD_STREAMINGSOURCEDEBUGINFO_METHOD_5_2A5799BE64F46116_OFFSET UNITYSDK_OFFSET(0xDA031A0)
-#define RPG_CLIENT_OPENWORLD_STREAMINGSOURCEDEBUGINFO_METHOD_5_A959CCC503F0030B_OFFSET UNITYSDK_OFFSET(0xDA02F60)
-#define RPG_CLIENT_OPENWORLD_STREAMINGSOURCEDEBUGINFO_UPDATEINFO_OFFSET UNITYSDK_OFFSET(0xDA02D30)
-#define RPG_CLIENT_OPENWORLD_STREAMINGSOURCEDEBUGINFO__CCTOR_OFFSET UNITYSDK_OFFSET(0xDA03440)
-#define RPG_CLIENT_OPENWORLD_STREAMINGSOURCEDEBUGINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xDA03430)
+#define RPG_CLIENT_OPENWORLD_STREAMINGSOURCEDEBUGINFO_METHOD_5_2A5799BE64F46116_OFFSET UNITYSDK_OFFSET(0xDA0D490)
+#define RPG_CLIENT_OPENWORLD_STREAMINGSOURCEDEBUGINFO_METHOD_5_A959CCC503F0030B_OFFSET UNITYSDK_OFFSET(0xDA0D250)
+#define RPG_CLIENT_OPENWORLD_STREAMINGSOURCEDEBUGINFO_UPDATEINFO_OFFSET UNITYSDK_OFFSET(0xDA0D020)
+#define RPG_CLIENT_OPENWORLD_STREAMINGSOURCEDEBUGINFO__CCTOR_OFFSET UNITYSDK_OFFSET(0xDA0D730)
+#define RPG_CLIENT_OPENWORLD_STREAMINGSOURCEDEBUGINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xDA0D720)
 
 namespace RPG::Client::OpenWorld
 {
-	inline static constexpr unsigned int StreamingSourceDebugInfo_TypeDefinitionIndex = 73837;
+	inline static constexpr unsigned int StreamingSourceDebugInfo_TypeDefinitionIndex = 73944;
 
 	class StreamingSourceDebugInfo : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		static ::Il2CppArray<::System::String*>** StaticGet_MMDBIBADGPK()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(StreamingSourceDebugInfo_TypeDefinitionIndex)->GetStaticField(0x41C60);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(StreamingSourceDebugInfo_TypeDefinitionIndex)->GetStaticField(0xD8A0);
 		}
 		static ::Il2CppArray<::System::Int32>** StaticGet_DIIOBHMCNMN()
 		{
-			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(StreamingSourceDebugInfo_TypeDefinitionIndex)->GetStaticField(0x41C68);
+			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(StreamingSourceDebugInfo_TypeDefinitionIndex)->GetStaticField(0xD8A8);
 		}
 		::System::Int32 _EffectTypeMask; // 0x18
 		::System::String* _EffectTypeNames; // 0x20

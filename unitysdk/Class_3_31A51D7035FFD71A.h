@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetIronTombProgress; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_31A51D7035FFD71A_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x162563A0)
-#define CLASS_3_31A51D7035FFD71A__CTOR_OFFSET UNITYSDK_OFFSET(0x16256370)
+#define CLASS_3_31A51D7035FFD71A_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x165CEE00)
+#define CLASS_3_31A51D7035FFD71A__CTOR_OFFSET UNITYSDK_OFFSET(0x165CEDD0)
 
-inline static constexpr unsigned int Class_3_31A51D7035FFD71A_TypeDefinitionIndex = 55718;
+inline static constexpr unsigned int Class_3_31A51D7035FFD71A_TypeDefinitionIndex = 55526;
 
 class Class_3_31A51D7035FFD71A : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetIronTombProgress*>
 {

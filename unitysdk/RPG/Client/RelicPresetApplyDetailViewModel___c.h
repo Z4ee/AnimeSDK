@@ -5,24 +5,24 @@
 namespace RPG::Client { class RelicPresetPlanViewModel; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_RELICPRESETAPPLYDETAILVIEWMODEL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xDE2E010)
-#define RPG_CLIENT_RELICPRESETAPPLYDETAILVIEWMODEL___C__CTOR_OFFSET UNITYSDK_OFFSET(0xDE2E050)
-#define RPG_CLIENT_RELICPRESETAPPLYDETAILVIEWMODEL___C__GETNOTEMPTYPLANVIEWMODELS_B__14_0_OFFSET UNITYSDK_OFFSET(0xDE2E060)
+#define RPG_CLIENT_RELICPRESETAPPLYDETAILVIEWMODEL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xDE7B800)
+#define RPG_CLIENT_RELICPRESETAPPLYDETAILVIEWMODEL___C__CTOR_OFFSET UNITYSDK_OFFSET(0xDE7B840)
+#define RPG_CLIENT_RELICPRESETAPPLYDETAILVIEWMODEL___C__GETNOTEMPTYPLANVIEWMODELS_B__14_0_OFFSET UNITYSDK_OFFSET(0xDE7B850)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RelicPresetApplyDetailViewModel___c_TypeDefinitionIndex = 66854;
+	inline static constexpr unsigned int RelicPresetApplyDetailViewModel___c_TypeDefinitionIndex = 66856;
 
 	class RelicPresetApplyDetailViewModel___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::Client::RelicPresetPlanViewModel*, ::System::Boolean>** StaticGet___9__14_0()
-		{
-			return (::System::Func_2<::RPG::Client::RelicPresetPlanViewModel*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(RelicPresetApplyDetailViewModel___c_TypeDefinitionIndex)->GetStaticField(0x5EDF0);
-		}
 		static ::RPG::Client::RelicPresetApplyDetailViewModel___c** StaticGet___9()
 		{
-			return (::RPG::Client::RelicPresetApplyDetailViewModel___c**)Il2CppClass::FromTypeDefinitionIndex(RelicPresetApplyDetailViewModel___c_TypeDefinitionIndex)->GetStaticField(0x5EDF8);
+			return (::RPG::Client::RelicPresetApplyDetailViewModel___c**)Il2CppClass::FromTypeDefinitionIndex(RelicPresetApplyDetailViewModel___c_TypeDefinitionIndex)->GetStaticField(0x58B00);
+		}
+		static ::System::Func_2<::RPG::Client::RelicPresetPlanViewModel*, ::System::Boolean>** StaticGet___9__14_0()
+		{
+			return (::System::Func_2<::RPG::Client::RelicPresetPlanViewModel*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(RelicPresetApplyDetailViewModel___c_TypeDefinitionIndex)->GetStaticField(0x58B08);
 		}
 
 		static ::System::Void _cctor()

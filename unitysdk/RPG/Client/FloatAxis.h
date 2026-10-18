@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FloatAxis_TypeDefinitionIndex = 70530;
+	inline static constexpr unsigned int FloatAxis_TypeDefinitionIndex = 70566;
 
 	enum class FloatAxis : ::System::Int32
 	{

@@ -9,7 +9,7 @@ namespace Entitas { template <typename T> class IContext_1; }
 
 namespace RPG::Client::LittleGameShare
 {
-	inline static constexpr unsigned int SnapshotServerProcessor_1_TypeDefinitionIndex = 36253;
+	inline static constexpr unsigned int SnapshotServerProcessor_1_TypeDefinitionIndex = 36940;
 
 	template <typename TEntity>
 	class SnapshotServerProcessor_1 : public ::System::Object

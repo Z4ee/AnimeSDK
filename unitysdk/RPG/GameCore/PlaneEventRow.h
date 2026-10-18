@@ -6,27 +6,27 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ItemConfig; }
 
-#define RPG_GAMECORE_PLANEEVENTROW_FROMBINARYWITHOUTNEW_OFFSET UNITYSDK_OFFSET(0x1D339F60)
-#define RPG_GAMECORE_PLANEEVENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D33A2A0)
-#define RPG_GAMECORE_PLANEEVENTROW_FROMTABLEOFFSET_OFFSET UNITYSDK_OFFSET(0x1D33AE70)
-#define RPG_GAMECORE_PLANEEVENTROW_RESET_OFFSET UNITYSDK_OFFSET(0x1D33AED0)
-#define RPG_GAMECORE_PLANEEVENTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D33AEF0)
+#define RPG_GAMECORE_PLANEEVENTROW_FROMBINARYWITHOUTNEW_OFFSET UNITYSDK_OFFSET(0x1D91F240)
+#define RPG_GAMECORE_PLANEEVENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D91F580)
+#define RPG_GAMECORE_PLANEEVENTROW_FROMTABLEOFFSET_OFFSET UNITYSDK_OFFSET(0x1D920150)
+#define RPG_GAMECORE_PLANEEVENTROW_RESET_OFFSET UNITYSDK_OFFSET(0x1D9201B0)
+#define RPG_GAMECORE_PLANEEVENTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D9201D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlaneEventRow_TypeDefinitionIndex = 13961;
+	inline static constexpr unsigned int PlaneEventRow_TypeDefinitionIndex = 14068;
 
 	class PlaneEventRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* DropList; // 0x10
 		::Il2CppArray<::RPG::GameCore::ItemConfig*>* DisplayItemList; // 0x18
-		::System::UInt32 EventID; // 0x20
-		::System::UInt32 WorldLevel; // 0x24
-		::System::UInt32 AvatarExpReward; // 0x28
-		::System::Boolean IsUseMonsterDrop; // 0x2C
-		::System::UInt32 Reward; // 0x30
-		::System::UInt32 StageID; // 0x34
+		::System::UInt32 AvatarExpReward; // 0x20
+		::System::UInt32 Reward; // 0x24
+		::System::UInt32 StageID; // 0x28
+		::System::UInt32 EventID; // 0x2C
+		::System::Boolean IsUseMonsterDrop; // 0x30
+		::System::UInt32 WorldLevel; // 0x34
 
 		::System::Void _ctor()
 		{

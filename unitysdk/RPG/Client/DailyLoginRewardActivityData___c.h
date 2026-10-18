@@ -5,24 +5,24 @@
 
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_DAILYLOGINREWARDACTIVITYDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xCC94400)
-#define RPG_CLIENT_DAILYLOGINREWARDACTIVITYDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0xCC94440)
-#define RPG_CLIENT_DAILYLOGINREWARDACTIVITYDATA___C__ISSHOWNORMALREDDOT_B__2_0_OFFSET UNITYSDK_OFFSET(0xCC94450)
+#define RPG_CLIENT_DAILYLOGINREWARDACTIVITYDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xCBE7900)
+#define RPG_CLIENT_DAILYLOGINREWARDACTIVITYDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0xCBE7940)
+#define RPG_CLIENT_DAILYLOGINREWARDACTIVITYDATA___C__ISSHOWNORMALREDDOT_B__2_0_OFFSET UNITYSDK_OFFSET(0xCBE7950)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DailyLoginRewardActivityData___c_TypeDefinitionIndex = 61702;
+	inline static constexpr unsigned int DailyLoginRewardActivityData___c_TypeDefinitionIndex = 61609;
 
 	class DailyLoginRewardActivityData___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::DailyLoginRewardActivityData___c** StaticGet___9()
-		{
-			return (::RPG::Client::DailyLoginRewardActivityData___c**)Il2CppClass::FromTypeDefinitionIndex(DailyLoginRewardActivityData___c_TypeDefinitionIndex)->GetStaticField(0x5BE30);
-		}
 		static ::System::Func_2<::RPG::Client::ActivityLoginData_RewardStatus, ::System::Boolean>** StaticGet___9__2_0()
 		{
-			return (::System::Func_2<::RPG::Client::ActivityLoginData_RewardStatus, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(DailyLoginRewardActivityData___c_TypeDefinitionIndex)->GetStaticField(0x5BE38);
+			return (::System::Func_2<::RPG::Client::ActivityLoginData_RewardStatus, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(DailyLoginRewardActivityData___c_TypeDefinitionIndex)->GetStaticField(0x1FDC0);
+		}
+		static ::RPG::Client::DailyLoginRewardActivityData___c** StaticGet___9()
+		{
+			return (::RPG::Client::DailyLoginRewardActivityData___c**)Il2CppClass::FromTypeDefinitionIndex(DailyLoginRewardActivityData___c_TypeDefinitionIndex)->GetStaticField(0x1FDC8);
 		}
 
 		static ::System::Void _cctor()

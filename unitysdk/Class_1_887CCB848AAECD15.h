@@ -17,34 +17,34 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_887CCB848AAECD15_DISPOSE_OFFSET UNITYSDK_OFFSET(0x161E1B00)
-#define CLASS_1_887CCB848AAECD15_METHOD_1_0AF4CE7C8DFA88EA_OFFSET UNITYSDK_OFFSET(0x161E5510)
-#define CLASS_1_887CCB848AAECD15_METHOD_1_1BB4029F51995479_OFFSET UNITYSDK_OFFSET(0x161E2280)
-#define CLASS_1_887CCB848AAECD15_METHOD_1_2D7BCAC596B761F5_OFFSET UNITYSDK_OFFSET(0x161E4880)
-#define CLASS_1_887CCB848AAECD15_METHOD_1_49ADA46607FD0232_OFFSET UNITYSDK_OFFSET(0x161E5420)
-#define CLASS_1_887CCB848AAECD15_METHOD_1_4EB43C16317324C2_OFFSET UNITYSDK_OFFSET(0x161E5230)
-#define CLASS_1_887CCB848AAECD15_METHOD_1_6E52C560F1CFA9E6_OFFSET UNITYSDK_OFFSET(0x161E4B40)
-#define CLASS_1_887CCB848AAECD15_METHOD_1_71B491B8E8FC8DB1_OFFSET UNITYSDK_OFFSET(0x161E5750)
-#define CLASS_1_887CCB848AAECD15_METHOD_1_875B5A2C484EB12F_OFFSET UNITYSDK_OFFSET(0x161E2430)
-#define CLASS_1_887CCB848AAECD15_METHOD_1_AA9B228A20DFC054_OFFSET UNITYSDK_OFFSET(0x161E5A10)
-#define CLASS_1_887CCB848AAECD15_METHOD_1_BD80C6357E7F49AB_OFFSET UNITYSDK_OFFSET(0x161E20F0)
-#define CLASS_1_887CCB848AAECD15_METHOD_1_E59814C03DDCB2BD_OFFSET UNITYSDK_OFFSET(0x161E2370)
-#define CLASS_1_887CCB848AAECD15_METHOD_1_E8AA568336882BB4_OFFSET UNITYSDK_OFFSET(0x161E5090)
-#define CLASS_1_887CCB848AAECD15_METHOD_1_F0459A000D3888AC_OFFSET UNITYSDK_OFFSET(0x161E2510)
-#define CLASS_1_887CCB848AAECD15__CTOR_OFFSET UNITYSDK_OFFSET(0x161E1C00)
+#define CLASS_1_887CCB848AAECD15_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16557660)
+#define CLASS_1_887CCB848AAECD15_METHOD_1_0AF4CE7C8DFA88EA_OFFSET UNITYSDK_OFFSET(0x1655B0B0)
+#define CLASS_1_887CCB848AAECD15_METHOD_1_1BB4029F51995479_OFFSET UNITYSDK_OFFSET(0x16557DE0)
+#define CLASS_1_887CCB848AAECD15_METHOD_1_2D7BCAC596B761F5_OFFSET UNITYSDK_OFFSET(0x1655A420)
+#define CLASS_1_887CCB848AAECD15_METHOD_1_49ADA46607FD0232_OFFSET UNITYSDK_OFFSET(0x1655AFC0)
+#define CLASS_1_887CCB848AAECD15_METHOD_1_4EB43C16317324C2_OFFSET UNITYSDK_OFFSET(0x1655ADD0)
+#define CLASS_1_887CCB848AAECD15_METHOD_1_6E52C560F1CFA9E6_OFFSET UNITYSDK_OFFSET(0x1655A6E0)
+#define CLASS_1_887CCB848AAECD15_METHOD_1_875B5A2C484EB12F_OFFSET UNITYSDK_OFFSET(0x16557F90)
+#define CLASS_1_887CCB848AAECD15_METHOD_1_AA9B228A20DFC054_OFFSET UNITYSDK_OFFSET(0x1655B5A0)
+#define CLASS_1_887CCB848AAECD15_METHOD_1_BD80C6357E7F49AB_OFFSET UNITYSDK_OFFSET(0x16557C50)
+#define CLASS_1_887CCB848AAECD15_METHOD_1_E59814C03DDCB2BD_OFFSET UNITYSDK_OFFSET(0x16557ED0)
+#define CLASS_1_887CCB848AAECD15_METHOD_1_E8AA568336882BB4_OFFSET UNITYSDK_OFFSET(0x1655AC30)
+#define CLASS_1_887CCB848AAECD15_METHOD_1_F0459A000D3888AC_OFFSET UNITYSDK_OFFSET(0x16558070)
+#define CLASS_1_887CCB848AAECD15_METHOD_1_FD732D297595F342_OFFSET UNITYSDK_OFFSET(0x1655B2F0)
+#define CLASS_1_887CCB848AAECD15__CTOR_OFFSET UNITYSDK_OFFSET(0x16557760)
 
-inline static constexpr unsigned int Class_1_887CCB848AAECD15_TypeDefinitionIndex = 59446;
+inline static constexpr unsigned int Class_1_887CCB848AAECD15_TypeDefinitionIndex = 59301;
 
 class Class_1_887CCB848AAECD15 : public ::System::Object
 {
 public:
-	::RPG::GameCore::GameWorld* BJPKBELGNCM; // 0x10
-	::System::String* PJPBKBAGFPO; // 0x18
-	::System::Collections::Generic::List_1<::System::String*>* MLIKICDJOJP; // 0x20
-	::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::FormationData*>* MHFEOGIGAEK; // 0x28
-	::System::Collections::Generic::List_1<::RPG::GameCore::FormationAssetConfig*>* FMBCNIIIBLO; // 0x30
-	::System::Collections::Generic::List_1<::Struct_2_0347AE3FB0036865>* FDOAAJKKJLN; // 0x38
-	::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::GameEntityList*>* AMOAAOEENHD; // 0x40
+	::System::String* PJPBKBAGFPO; // 0x10
+	::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::GameEntityList*>* AMOAAOEENHD; // 0x18
+	::System::Collections::Generic::List_1<::RPG::GameCore::FormationAssetConfig*>* FMBCNIIIBLO; // 0x20
+	::System::Collections::Generic::List_1<::Struct_2_0347AE3FB0036865>* FDOAAJKKJLN; // 0x28
+	::RPG::GameCore::GameWorld* BJPKBELGNCM; // 0x30
+	::System::Collections::Generic::List_1<::System::String*>* MLIKICDJOJP; // 0x38
+	::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::FormationData*>* MHFEOGIGAEK; // 0x40
 
 	::System::Void _ctor(::RPG::GameCore::GameWorld* a1)
 	{
@@ -111,9 +111,9 @@ public:
 		return ((::System::Int32(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>*, ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>*, ::RPG::GameCore::TaskContext*))((::PBYTE)hIl2Cpp + CLASS_1_887CCB848AAECD15_METHOD_1_0AF4CE7C8DFA88EA_OFFSET))(this, a1, a2, a3);
 	}
 
-	::System::Int32 Method_1_71B491B8E8FC8DB1(::System::Int32 a1, ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* a2, ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* a3, ::RPG::GameCore::TaskContext* a4)
+	::System::Int32 Method_1_FD732D297595F342(::System::Int32 a1, ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* a2, ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* a3, ::RPG::GameCore::TaskContext* a4)
 	{
-		return ((::System::Int32(*)(::PVOID, ::System::Int32, ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>*, ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>*, ::RPG::GameCore::TaskContext*))((::PBYTE)hIl2Cpp + CLASS_1_887CCB848AAECD15_METHOD_1_71B491B8E8FC8DB1_OFFSET))(this, a1, a2, a3, a4);
+		return ((::System::Int32(*)(::PVOID, ::System::Int32, ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>*, ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>*, ::RPG::GameCore::TaskContext*))((::PBYTE)hIl2Cpp + CLASS_1_887CCB848AAECD15_METHOD_1_FD732D297595F342_OFFSET))(this, a1, a2, a3, a4);
 	}
 
 	::System::Int32 Method_1_AA9B228A20DFC054(::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* a1, ::RPG::GameCore::TaskContext* a2)

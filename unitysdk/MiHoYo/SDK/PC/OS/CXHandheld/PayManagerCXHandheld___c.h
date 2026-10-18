@@ -5,29 +5,29 @@
 namespace MiHoYo::SDK { class NetworkResponseModel; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_PAYMANAGERCXHANDHELD___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BA09CF0)
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_PAYMANAGERCXHANDHELD___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA09D30)
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_PAYMANAGERCXHANDHELD___C__REQUESTDETECTPAY_B__18_1_OFFSET UNITYSDK_OFFSET(0x1BA09D40)
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_PAYMANAGERCXHANDHELD___C__REQUESTDETECTPAY_B__18_3_OFFSET UNITYSDK_OFFSET(0x1BA09EE0)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_PAYMANAGERCXHANDHELD___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BF0D110)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_PAYMANAGERCXHANDHELD___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF0D150)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_PAYMANAGERCXHANDHELD___C__REQUESTDETECTPAY_B__18_1_OFFSET UNITYSDK_OFFSET(0x1BF0D160)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_PAYMANAGERCXHANDHELD___C__REQUESTDETECTPAY_B__18_3_OFFSET UNITYSDK_OFFSET(0x1BF0D300)
 
 namespace MiHoYo::SDK::PC::OS::CXHandheld
 {
-	inline static constexpr unsigned int PayManagerCXHandheld___c_TypeDefinitionIndex = 8710;
+	inline static constexpr unsigned int PayManagerCXHandheld___c_TypeDefinitionIndex = 8771;
 
 	class PayManagerCXHandheld___c : public ::System::Object
 	{
 	public:
-		static ::MiHoYo::SDK::PC::OS::CXHandheld::PayManagerCXHandheld___c** StaticGet___9()
+		static ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>** StaticGet___9__18_3()
 		{
-			return (::MiHoYo::SDK::PC::OS::CXHandheld::PayManagerCXHandheld___c**)Il2CppClass::FromTypeDefinitionIndex(PayManagerCXHandheld___c_TypeDefinitionIndex)->GetStaticField(0x1D3D0);
+			return (::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>**)Il2CppClass::FromTypeDefinitionIndex(PayManagerCXHandheld___c_TypeDefinitionIndex)->GetStaticField(0x13B90);
 		}
 		static ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>** StaticGet___9__18_1()
 		{
-			return (::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>**)Il2CppClass::FromTypeDefinitionIndex(PayManagerCXHandheld___c_TypeDefinitionIndex)->GetStaticField(0x1D3D8);
+			return (::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>**)Il2CppClass::FromTypeDefinitionIndex(PayManagerCXHandheld___c_TypeDefinitionIndex)->GetStaticField(0x13B98);
 		}
-		static ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>** StaticGet___9__18_3()
+		static ::MiHoYo::SDK::PC::OS::CXHandheld::PayManagerCXHandheld___c** StaticGet___9()
 		{
-			return (::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>**)Il2CppClass::FromTypeDefinitionIndex(PayManagerCXHandheld___c_TypeDefinitionIndex)->GetStaticField(0x1D3E0);
+			return (::MiHoYo::SDK::PC::OS::CXHandheld::PayManagerCXHandheld___c**)Il2CppClass::FromTypeDefinitionIndex(PayManagerCXHandheld___c_TypeDefinitionIndex)->GetStaticField(0x13BA0);
 		}
 
 		static ::System::Void _cctor()

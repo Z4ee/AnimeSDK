@@ -24,25 +24,25 @@ namespace System { class String; }
 namespace System::Security::Cryptography::X509Certificates { class X509Certificate; }
 namespace System::Security::Cryptography::X509Certificates { class X509CertificateCollection; }
 
-#define MONO_UNITY_UNITYTLSCONTEXT_CERTIFICATECALLBACK_1_OFFSET UNITYSDK_OFFSET(0x1E90A700)
-#define MONO_UNITY_UNITYTLSCONTEXT_CERTIFICATECALLBACK_OFFSET UNITYSDK_OFFSET(0x1E908770)
-#define MONO_UNITY_UNITYTLSCONTEXT_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1E909FA0)
-#define MONO_UNITY_UNITYTLSCONTEXT_EXTRACTNATIVEKEYANDCHAINFROMMANAGEDCERTIFICATE_OFFSET UNITYSDK_OFFSET(0x1E9097B0)
-#define MONO_UNITY_UNITYTLSCONTEXT_FINISHHANDSHAKE_OFFSET UNITYSDK_OFFSET(0x1E8FED80)
-#define MONO_UNITY_UNITYTLSCONTEXT_GET_ISAUTHENTICATED_OFFSET UNITYSDK_OFFSET(0x1E909CF0)
-#define MONO_UNITY_UNITYTLSCONTEXT_GET_LOCALCLIENTCERTIFICATE_OFFSET UNITYSDK_OFFSET(0x1E909D00)
-#define MONO_UNITY_UNITYTLSCONTEXT_PROCESSHANDSHAKE_OFFSET UNITYSDK_OFFSET(0x1E8FEB40)
-#define MONO_UNITY_UNITYTLSCONTEXT_READCALLBACK_1_OFFSET UNITYSDK_OFFSET(0x1E90A2B0)
-#define MONO_UNITY_UNITYTLSCONTEXT_READCALLBACK_OFFSET UNITYSDK_OFFSET(0x1E9085B0)
-#define MONO_UNITY_UNITYTLSCONTEXT_READ_OFFSET UNITYSDK_OFFSET(0x1E8FEF40)
-#define MONO_UNITY_UNITYTLSCONTEXT_SHUTDOWN_OFFSET UNITYSDK_OFFSET(0x1E909D10)
-#define MONO_UNITY_UNITYTLSCONTEXT_STARTHANDSHAKE_OFFSET UNITYSDK_OFFSET(0x1E8FE890)
-#define MONO_UNITY_UNITYTLSCONTEXT_VERIFYCALLBACK_1_OFFSET UNITYSDK_OFFSET(0x1E90A5D0)
-#define MONO_UNITY_UNITYTLSCONTEXT_VERIFYCALLBACK_OFFSET UNITYSDK_OFFSET(0x1E908690)
-#define MONO_UNITY_UNITYTLSCONTEXT_WRITECALLBACK_1_OFFSET UNITYSDK_OFFSET(0x1E90A0A0)
-#define MONO_UNITY_UNITYTLSCONTEXT_WRITECALLBACK_OFFSET UNITYSDK_OFFSET(0x1E9084D0)
-#define MONO_UNITY_UNITYTLSCONTEXT_WRITE_OFFSET UNITYSDK_OFFSET(0x1E8FF160)
-#define MONO_UNITY_UNITYTLSCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1E908860)
+#define MONO_UNITY_UNITYTLSCONTEXT_CERTIFICATECALLBACK_1_OFFSET UNITYSDK_OFFSET(0x1EFD35B0)
+#define MONO_UNITY_UNITYTLSCONTEXT_CERTIFICATECALLBACK_OFFSET UNITYSDK_OFFSET(0x1EFD1630)
+#define MONO_UNITY_UNITYTLSCONTEXT_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1EFD2E70)
+#define MONO_UNITY_UNITYTLSCONTEXT_EXTRACTNATIVEKEYANDCHAINFROMMANAGEDCERTIFICATE_OFFSET UNITYSDK_OFFSET(0x1EFD2680)
+#define MONO_UNITY_UNITYTLSCONTEXT_FINISHHANDSHAKE_OFFSET UNITYSDK_OFFSET(0x1EFC7DC0)
+#define MONO_UNITY_UNITYTLSCONTEXT_GET_ISAUTHENTICATED_OFFSET UNITYSDK_OFFSET(0x1EFD2BC0)
+#define MONO_UNITY_UNITYTLSCONTEXT_GET_LOCALCLIENTCERTIFICATE_OFFSET UNITYSDK_OFFSET(0x1EFD2BD0)
+#define MONO_UNITY_UNITYTLSCONTEXT_PROCESSHANDSHAKE_OFFSET UNITYSDK_OFFSET(0x1EFC7B80)
+#define MONO_UNITY_UNITYTLSCONTEXT_READCALLBACK_1_OFFSET UNITYSDK_OFFSET(0x1EFD3180)
+#define MONO_UNITY_UNITYTLSCONTEXT_READCALLBACK_OFFSET UNITYSDK_OFFSET(0x1EFD1470)
+#define MONO_UNITY_UNITYTLSCONTEXT_READ_OFFSET UNITYSDK_OFFSET(0x1EFC7F80)
+#define MONO_UNITY_UNITYTLSCONTEXT_SHUTDOWN_OFFSET UNITYSDK_OFFSET(0x1EFD2BE0)
+#define MONO_UNITY_UNITYTLSCONTEXT_STARTHANDSHAKE_OFFSET UNITYSDK_OFFSET(0x1EFC78D0)
+#define MONO_UNITY_UNITYTLSCONTEXT_VERIFYCALLBACK_1_OFFSET UNITYSDK_OFFSET(0x1EFD3490)
+#define MONO_UNITY_UNITYTLSCONTEXT_VERIFYCALLBACK_OFFSET UNITYSDK_OFFSET(0x1EFD1550)
+#define MONO_UNITY_UNITYTLSCONTEXT_WRITECALLBACK_1_OFFSET UNITYSDK_OFFSET(0x1EFD2F70)
+#define MONO_UNITY_UNITYTLSCONTEXT_WRITECALLBACK_OFFSET UNITYSDK_OFFSET(0x1EFD1390)
+#define MONO_UNITY_UNITYTLSCONTEXT_WRITE_OFFSET UNITYSDK_OFFSET(0x1EFC81B0)
+#define MONO_UNITY_UNITYTLSCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1EFD1720)
 
 namespace Mono::Unity
 {
@@ -51,23 +51,23 @@ namespace Mono::Unity
 	class UnityTlsContext : public ::Mono::Net::Security::MobileTlsContext
 	{
 	public:
-		::System::Exception* lastException; // 0x48
-		::Il2CppArray<::System::Byte>* writeBuffer; // 0x50
-		::Mono::Unity::UnityTls_unitytls_tlsctx_certificate_callback* certificateCallback; // 0x58
-		::Mono::Security::Interface::MonoTlsConnectionInfo* connectioninfo; // 0x60
-		::Mono::Unity::UnityTls_unitytls_tlsctx_write_callback* writeCallback; // 0x68
-		::Mono::Unity::UnityTls_unitytls_tlsctx_read_callback* readCallback; // 0x70
-		::Il2CppArray<::System::Byte>* readBuffer; // 0x78
-		::System::Security::Cryptography::X509Certificates::X509Certificate* remoteCertificate; // 0x80
-		::System::Security::Cryptography::X509Certificates::X509Certificate* localClientCertificate; // 0x88
+		::Mono::Unity::UnityTls_unitytls_tlsctx_write_callback* writeCallback; // 0x48
+		::Il2CppArray<::System::Byte>* readBuffer; // 0x50
+		::Il2CppArray<::System::Byte>* writeBuffer; // 0x58
+		::System::Exception* lastException; // 0x60
+		::Mono::Security::Interface::MonoTlsConnectionInfo* connectioninfo; // 0x68
+		::System::Security::Cryptography::X509Certificates::X509Certificate* remoteCertificate; // 0x70
+		::Mono::Unity::UnityTls_unitytls_tlsctx_read_callback* readCallback; // 0x78
+		::System::Security::Cryptography::X509Certificates::X509Certificate* localClientCertificate; // 0x80
+		::Mono::Unity::UnityTls_unitytls_tlsctx_certificate_callback* certificateCallback; // 0x88
 		::Mono::Unity::UnityTls_unitytls_tlsctx_x509verify_callback* verifyCallback; // 0x90
-		::Mono::Unity::UnityTls_unitytls_tlsctx* tlsContext; // 0x98
-		::Mono::Unity::UnityTls_unitytls_key* requestedClientKey; // 0xA0
-		::Mono::Unity::UnityTls_unitytls_x509list* requestedClientCertChain; // 0xA8
-		::System::Runtime::InteropServices::GCHandle handle; // 0xB0
-		::System::Boolean closedGraceful; // 0xB4
-		::System::Boolean isAuthenticated; // 0xB5
-		::System::Boolean hasContext; // 0xB6
+		::Mono::Unity::UnityTls_unitytls_key* requestedClientKey; // 0x98
+		::Mono::Unity::UnityTls_unitytls_x509list* requestedClientCertChain; // 0xA0
+		::Mono::Unity::UnityTls_unitytls_tlsctx* tlsContext; // 0xA8
+		::System::Boolean closedGraceful; // 0xB0
+		::System::Boolean isAuthenticated; // 0xB1
+		::System::Boolean hasContext; // 0xB2
+		::System::Runtime::InteropServices::GCHandle handle; // 0xB4
 
 		::System::Void _ctor(::Mono::Net::Security::MobileAuthenticatedStream* a1, ::System::Boolean a2, ::System::String* a3, ::System::Security::Authentication::SslProtocols a4, ::System::Security::Cryptography::X509Certificates::X509Certificate* a5, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* a6, ::System::Boolean a7)
 		{

@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Collections/ArrayList.h"
 
-#define SYSTEM_XML_SERIALIZATION_XMLTYPEMAPELEMENTINFOLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x1E8479C0)
+#define SYSTEM_XML_SERIALIZATION_XMLTYPEMAPELEMENTINFOLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF10660)
 
 namespace System::Xml::Serialization
 {

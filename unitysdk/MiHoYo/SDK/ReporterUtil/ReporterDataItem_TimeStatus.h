@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK::ReporterUtil
 {
-	inline static constexpr unsigned int ReporterDataItem_TimeStatus_TypeDefinitionIndex = 47107;
+	inline static constexpr unsigned int ReporterDataItem_TimeStatus_TypeDefinitionIndex = 46647;
 
 	enum class ReporterDataItem_TimeStatus : ::System::Int32
 	{

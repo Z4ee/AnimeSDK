@@ -5,12 +5,12 @@
 namespace RPG::Client::LimaoNews { class LimaoNewsWindowService; }
 namespace RPG::Client::LimaoNews { class LimaoNewsWorkProgressResultViewModel; }
 
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSWINDOWSERVICE___C__DISPLAYCLASS31_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD49B220)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSWINDOWSERVICE___C__DISPLAYCLASS31_0__SHOWWORKPROGRESSRESULTPAGEBYVIEWMODEL_B__0_OFFSET UNITYSDK_OFFSET(0xD49BF30)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSWINDOWSERVICE___C__DISPLAYCLASS31_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD3F1A60)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSWINDOWSERVICE___C__DISPLAYCLASS31_0__SHOWWORKPROGRESSRESULTPAGEBYVIEWMODEL_B__0_OFFSET UNITYSDK_OFFSET(0xD3F2710)
 
 namespace RPG::Client::LimaoNews
 {
-	inline static constexpr unsigned int LimaoNewsWindowService___c__DisplayClass31_0_TypeDefinitionIndex = 79027;
+	inline static constexpr unsigned int LimaoNewsWindowService___c__DisplayClass31_0_TypeDefinitionIndex = 80350;
 
 	class LimaoNewsWindowService___c__DisplayClass31_0 : public ::System::Object
 	{

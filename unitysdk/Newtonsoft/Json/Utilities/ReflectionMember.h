@@ -6,23 +6,23 @@ namespace System { class Type; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONMEMBER_GET_GETTER_OFFSET UNITYSDK_OFFSET(0x1BF06AE0)
-#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONMEMBER_GET_MEMBERTYPE_OFFSET UNITYSDK_OFFSET(0x1BF06AC0)
-#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONMEMBER_SET_GETTER_OFFSET UNITYSDK_OFFSET(0x1BF06AF0)
-#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONMEMBER_SET_MEMBERTYPE_OFFSET UNITYSDK_OFFSET(0x1BF06AD0)
-#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONMEMBER_SET_SETTER_OFFSET UNITYSDK_OFFSET(0x1BF06B00)
-#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONMEMBER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF06B10)
+#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONMEMBER_GET_GETTER_OFFSET UNITYSDK_OFFSET(0x1C412E80)
+#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONMEMBER_GET_MEMBERTYPE_OFFSET UNITYSDK_OFFSET(0x1C412E60)
+#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONMEMBER_SET_GETTER_OFFSET UNITYSDK_OFFSET(0x1C412E90)
+#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONMEMBER_SET_MEMBERTYPE_OFFSET UNITYSDK_OFFSET(0x1C412E70)
+#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONMEMBER_SET_SETTER_OFFSET UNITYSDK_OFFSET(0x1C412EA0)
+#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONMEMBER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C412EB0)
 
 namespace Newtonsoft::Json::Utilities
 {
-	inline static constexpr unsigned int ReflectionMember_TypeDefinitionIndex = 9587;
+	inline static constexpr unsigned int ReflectionMember_TypeDefinitionIndex = 9645;
 
 	class ReflectionMember : public ::System::Object
 	{
 	public:
-		::System::Type* _MemberType_k__BackingField; // 0x10
+		::System::Action_2<::System::Object*, ::System::Object*>* _Setter_k__BackingField; // 0x10
 		::System::Func_2<::System::Object*, ::System::Object*>* _Getter_k__BackingField; // 0x18
-		::System::Action_2<::System::Object*, ::System::Object*>* _Setter_k__BackingField; // 0x20
+		::System::Type* _MemberType_k__BackingField; // 0x20
 
 		::System::Void _ctor()
 		{

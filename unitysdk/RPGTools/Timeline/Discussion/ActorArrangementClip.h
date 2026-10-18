@@ -7,18 +7,19 @@
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
 
 namespace RPG::GameCore { class LevelPerformanceInitialize; }
+namespace RPGTools::Timeline::Discussion { class StandTemplateUsageInfo; }
 namespace RPGTools::Timeline::Discussion { class SwitchAnchorData; }
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_DISCUSSION_ACTORARRANGEMENTCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE83D0A0)
-#define RPGTOOLS_TIMELINE_DISCUSSION_ACTORARRANGEMENTCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE83D090)
-#define RPGTOOLS_TIMELINE_DISCUSSION_ACTORARRANGEMENTCLIP_METHOD_4_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xE83D200)
-#define RPGTOOLS_TIMELINE_DISCUSSION_ACTORARRANGEMENTCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xE83D240)
+#define RPGTOOLS_TIMELINE_DISCUSSION_ACTORARRANGEMENTCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8DADF0)
+#define RPGTOOLS_TIMELINE_DISCUSSION_ACTORARRANGEMENTCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE8DADE0)
+#define RPGTOOLS_TIMELINE_DISCUSSION_ACTORARRANGEMENTCLIP_METHOD_4_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xE8DAF50)
+#define RPGTOOLS_TIMELINE_DISCUSSION_ACTORARRANGEMENTCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xE8DAF90)
 
 namespace RPGTools::Timeline::Discussion
 {
-	inline static constexpr unsigned int ActorArrangementClip_TypeDefinitionIndex = 49233;
+	inline static constexpr unsigned int ActorArrangementClip_TypeDefinitionIndex = 48782;
 
 	class ActorArrangementClip : public ::UnityEngine::Playables::PlayableAsset
 	{
@@ -28,7 +29,8 @@ namespace RPGTools::Timeline::Discussion
 		::System::String* AnchorName; // 0x28
 		::Il2CppArray<::RPGTools::Timeline::Discussion::RelativeTransform>* Transforms; // 0x30
 		::Il2CppArray<::RPGTools::Timeline::Discussion::SwitchAnchorData*>* SwitchAnchors; // 0x38
-		::RPG::GameCore::LevelPerformanceInitialize* _levelPerformanceInitialize; // 0x40
+		::RPGTools::Timeline::Discussion::StandTemplateUsageInfo* StandTemplateUsage; // 0x40
+		::RPG::GameCore::LevelPerformanceInitialize* _levelPerformanceInitialize; // 0x48
 
 		::System::Void _ctor()
 		{

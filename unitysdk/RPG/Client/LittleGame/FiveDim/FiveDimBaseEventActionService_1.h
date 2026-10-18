@@ -2,13 +2,14 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/LittleGame/FiveDim/TimeScaleReason.h"
 #include "unitysdk/RPG/GCFreeClosure/ClosureEvent_2.h"
-#include "unitysdk/Struct_2_4127FF4C06B070D3.h"
-#include "unitysdk/Struct_2_DF3F1B8142DB3648.h"
 #include "unitysdk/System/Object.h"
 
+class Class_1_3A66EF8194C962E2;
+class Class_1_46AC29DEBE45F8A8_1;
 class Class_1_F3391C70DC37088D;
 namespace Entitas { class IEntity; }
 namespace RPG { template <typename T> class PoolHashSet_1; }
+namespace RPG { template <typename T> class PoolList_1; }
 namespace RPG::Client::LittleGame { template <typename T> class Services_1; }
 namespace RPG::Client::LittleGame::FiveDim { template <typename T> class IEntityVarServices_1; }
 namespace RPG::Client::LittleGame::FiveDim { template <typename T> class IFiveDimDestructibleService_1; }
@@ -24,7 +25,6 @@ namespace RPG::GameCore { class FiveDimAddRTPCAction; }
 namespace RPG::GameCore { class FiveDimApplyPlayerInteractAction; }
 namespace RPG::GameCore { class FiveDimAudioPostEventAction; }
 namespace RPG::GameCore { class FiveDimAudioSetStateAction; }
-namespace RPG::GameCore { class FiveDimBaseEventAction; }
 namespace RPG::GameCore { class FiveDimBaseEventCondition; }
 namespace RPG::GameCore { class FiveDimBaseScrollGameEndAction; }
 namespace RPG::GameCore { class FiveDimBeatBackPlayerAction; }
@@ -128,6 +128,7 @@ namespace RPG::GameCore { class FiveDimSetRenderVisibleAction; }
 namespace RPG::GameCore { class FiveDimSetRenderVisibleNeverDitherAction; }
 namespace RPG::GameCore { class FiveDimSetRenderingItemStateAction; }
 namespace RPG::GameCore { class FiveDimSetResetPointAction; }
+namespace RPG::GameCore { class FiveDimSetSharedMatStateAction; }
 namespace RPG::GameCore { class FiveDimSetSplineMoveDirectionAction; }
 namespace RPG::GameCore { class FiveDimSetSplineMoveSpeedMultiplierAction; }
 namespace RPG::GameCore { class FiveDimSetSplineTraceEffectVisibleAction; }
@@ -160,6 +161,8 @@ namespace RPG::GameCore { class FiveDimTriggerGameLoadingViewAction; }
 namespace RPG::GameCore { class FiveDimTriggerSelfEventAction; }
 namespace RPG::GameCore { class FiveDimTryMutePlayerMoveOnSurfaceDestroyAction; }
 namespace RPG::GameCore { class FiveDimUIPileToastMessageTextIDAction; }
+namespace RPG::GameCore { class LittleGameBaseEventAction; }
+namespace RPG::GameCore { class LittleGameBaseEventCondition; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
@@ -168,7 +171,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int FiveDimBaseEventActionService_1_TypeDefinitionIndex = 76405;
+	inline static constexpr unsigned int FiveDimBaseEventActionService_1_TypeDefinitionIndex = 76882;
 
 	template <typename T>
 	class FiveDimBaseEventActionService_1 : public ::System::Object

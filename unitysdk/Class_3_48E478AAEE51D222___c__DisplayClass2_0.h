@@ -5,9 +5,9 @@
 class Class_2_B66C1067C0468FBB;
 class Class_3_48E478AAEE51D222;
 
-#define CLASS_3_48E478AAEE51D222___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC0C6ED0)
+#define CLASS_3_48E478AAEE51D222___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBFB3BA0)
 
-inline static constexpr unsigned int Class_3_48E478AAEE51D222___c__DisplayClass2_0_TypeDefinitionIndex = 76990;
+inline static constexpr unsigned int Class_3_48E478AAEE51D222___c__DisplayClass2_0_TypeDefinitionIndex = 77461;
 
 class Class_3_48E478AAEE51D222___c__DisplayClass2_0 : public ::System::Object
 {

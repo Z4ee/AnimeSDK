@@ -4,11 +4,11 @@
 
 namespace RPG::Client { class RecommendEntryDataRepository; }
 
-#define RPG_CLIENT_RECOMMENDENTRYDATAHELPER_GETREPOSITORY_OFFSET UNITYSDK_OFFSET(0xDE13F30)
+#define RPG_CLIENT_RECOMMENDENTRYDATAHELPER_GETREPOSITORY_OFFSET UNITYSDK_OFFSET(0xDE612B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RecommendEntryDataHelper_TypeDefinitionIndex = 66804;
+	inline static constexpr unsigned int RecommendEntryDataHelper_TypeDefinitionIndex = 66805;
 
 	class RecommendEntryDataHelper : public ::System::Object
 	{

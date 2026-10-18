@@ -4,12 +4,12 @@
 
 namespace Cysharp::Threading::Tasks::Triggers { class AsyncDestroyTrigger; }
 
-#define CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCDESTROYTRIGGER_AWAKEMONITOR_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1EA64FA0)
-#define CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCDESTROYTRIGGER_AWAKEMONITOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA64CB0)
+#define CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCDESTROYTRIGGER_AWAKEMONITOR_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1F12C900)
+#define CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCDESTROYTRIGGER_AWAKEMONITOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1F12C610)
 
 namespace Cysharp::Threading::Tasks::Triggers
 {
-	inline static constexpr unsigned int AsyncDestroyTrigger_AwakeMonitor_TypeDefinitionIndex = 42911;
+	inline static constexpr unsigned int AsyncDestroyTrigger_AwakeMonitor_TypeDefinitionIndex = 38496;
 
 	class AsyncDestroyTrigger_AwakeMonitor : public ::System::Object
 	{

@@ -5,18 +5,18 @@
 namespace System { class String; }
 namespace UnityEngine { class RectTransform; }
 
-#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINSTACKABLEADDCARDTOHANDFLOWVIEW___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD02ED50)
-#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINSTACKABLEADDCARDTOHANDFLOWVIEW___C__DISPLAYCLASS8_0___CREATECARDANIMATORPLAYACTIONCOMMAND_B__0_OFFSET UNITYSDK_OFFSET(0xD02FA50)
+#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINSTACKABLEADDCARDTOHANDFLOWVIEW___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCFCD990)
+#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINSTACKABLEADDCARDTOHANDFLOWVIEW___C__DISPLAYCLASS8_0___CREATECARDANIMATORPLAYACTIONCOMMAND_B__0_OFFSET UNITYSDK_OFFSET(0xCFCE690)
 
 namespace RPG::Client::FateRin::View::Battle
 {
-	inline static constexpr unsigned int FateRinStackableAddCardToHandFlowView___c__DisplayClass8_0_TypeDefinitionIndex = 79381;
+	inline static constexpr unsigned int FateRinStackableAddCardToHandFlowView___c__DisplayClass8_0_TypeDefinitionIndex = 80705;
 
 	class FateRinStackableAddCardToHandFlowView___c__DisplayClass8_0 : public ::System::Object
 	{
 	public:
-		::UnityEngine::RectTransform* root; // 0x10
-		::System::String* triggerName; // 0x18
+		::System::String* triggerName; // 0x10
+		::UnityEngine::RectTransform* root; // 0x18
 
 		::System::Void _ctor()
 		{

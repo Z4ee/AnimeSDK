@@ -10,19 +10,19 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Collections::Generic { template <typename T> class Queue_1; }
 
-#define CLASS_4_93A9EED86FE5EFB4_METHOD_4_69991F529EC8B8E0_OFFSET UNITYSDK_OFFSET(0xC0C7700)
-#define CLASS_4_93A9EED86FE5EFB4_METHOD_4_BA13A8E9CC31465F_OFFSET UNITYSDK_OFFSET(0xC0C72F0)
-#define CLASS_4_93A9EED86FE5EFB4__CTOR_OFFSET UNITYSDK_OFFSET(0xC0C7270)
-#define CLASS_4_93A9EED86FE5EFB4__SELECTENTITYIDS_B__4_2_OFFSET UNITYSDK_OFFSET(0xC0C7780)
+#define CLASS_4_93A9EED86FE5EFB4_METHOD_4_69991F529EC8B8E0_OFFSET UNITYSDK_OFFSET(0xBFB43D0)
+#define CLASS_4_93A9EED86FE5EFB4_METHOD_4_BA13A8E9CC31465F_OFFSET UNITYSDK_OFFSET(0xBFB3FC0)
+#define CLASS_4_93A9EED86FE5EFB4__CTOR_OFFSET UNITYSDK_OFFSET(0xBFB3F40)
+#define CLASS_4_93A9EED86FE5EFB4__SELECTENTITYIDS_B__4_2_OFFSET UNITYSDK_OFFSET(0xBFB4450)
 
-inline static constexpr unsigned int Class_4_93A9EED86FE5EFB4_TypeDefinitionIndex = 77173;
+inline static constexpr unsigned int Class_4_93A9EED86FE5EFB4_TypeDefinitionIndex = 77644;
 
 class Class_4_93A9EED86FE5EFB4 : public ::Class_3_8350EB57484CE308
 {
 public:
-	::System::Collections::Generic::Queue_1<::Class_2_DCFF4DF692D90D03*>* JIOFGGJAALC; // 0x30
+	::System::Collections::Generic::List_1<::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache*>* PIJFBMKEOIE; // 0x30
 	::System::Collections::Generic::List_1<::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache*>* IBKPFCOIKOI; // 0x38
-	::System::Collections::Generic::List_1<::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache*>* PIJFBMKEOIE; // 0x40
+	::System::Collections::Generic::Queue_1<::Class_2_DCFF4DF692D90D03*>* JIOFGGJAALC; // 0x40
 
 	::System::Void _ctor()
 	{

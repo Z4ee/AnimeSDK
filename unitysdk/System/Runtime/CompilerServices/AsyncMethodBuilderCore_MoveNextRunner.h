@@ -6,9 +6,9 @@ namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 namespace System::Threading { class ContextCallback; }
 namespace System::Threading { class ExecutionContext; }
 
-#define SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCMETHODBUILDERCORE_MOVENEXTRUNNER_INVOKEMOVENEXT_OFFSET UNITYSDK_OFFSET(0x1BDBAEA0)
-#define SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCMETHODBUILDERCORE_MOVENEXTRUNNER_RUN_OFFSET UNITYSDK_OFFSET(0x1BDBAC70)
-#define SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCMETHODBUILDERCORE_MOVENEXTRUNNER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDBA190)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCMETHODBUILDERCORE_MOVENEXTRUNNER_INVOKEMOVENEXT_OFFSET UNITYSDK_OFFSET(0x1C2C6AF0)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCMETHODBUILDERCORE_MOVENEXTRUNNER_RUN_OFFSET UNITYSDK_OFFSET(0x1C2C68C0)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCMETHODBUILDERCORE_MOVENEXTRUNNER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C2C5DE0)
 
 namespace System::Runtime::CompilerServices
 {
@@ -19,7 +19,7 @@ namespace System::Runtime::CompilerServices
 	public:
 		static ::System::Threading::ContextCallback** StaticGet_s_invokeMoveNext()
 		{
-			return (::System::Threading::ContextCallback**)Il2CppClass::FromTypeDefinitionIndex(AsyncMethodBuilderCore_MoveNextRunner_TypeDefinitionIndex)->GetStaticField(0x12200);
+			return (::System::Threading::ContextCallback**)Il2CppClass::FromTypeDefinitionIndex(AsyncMethodBuilderCore_MoveNextRunner_TypeDefinitionIndex)->GetStaticField(0x15930);
 		}
 		::System::Threading::ExecutionContext* m_context; // 0x10
 		::System::Runtime::CompilerServices::IAsyncStateMachine* m_stateMachine; // 0x18

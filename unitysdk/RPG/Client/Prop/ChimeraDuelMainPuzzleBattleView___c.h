@@ -5,24 +5,24 @@
 namespace RPG::Client::Prop { class ChimeraDuelChimeraModelView; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLEBATTLEVIEW___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xDC1A7C0)
-#define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLEBATTLEVIEW___C__CTOR_OFFSET UNITYSDK_OFFSET(0xDC1A800)
-#define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLEBATTLEVIEW___C__LOADCHIMERAWITHANCHOR_B__15_0_OFFSET UNITYSDK_OFFSET(0xDC1A810)
+#define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLEBATTLEVIEW___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xDC649D0)
+#define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLEBATTLEVIEW___C__CTOR_OFFSET UNITYSDK_OFFSET(0xDC64A10)
+#define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLEBATTLEVIEW___C__LOADCHIMERAWITHANCHOR_B__15_0_OFFSET UNITYSDK_OFFSET(0xDC64A20)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraDuelMainPuzzleBattleView___c_TypeDefinitionIndex = 77901;
+	inline static constexpr unsigned int ChimeraDuelMainPuzzleBattleView___c_TypeDefinitionIndex = 78372;
 
 	class ChimeraDuelMainPuzzleBattleView___c : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::RPG::Client::Prop::ChimeraDuelChimeraModelView*>** StaticGet___9__15_0()
-		{
-			return (::System::Action_1<::RPG::Client::Prop::ChimeraDuelChimeraModelView*>**)Il2CppClass::FromTypeDefinitionIndex(ChimeraDuelMainPuzzleBattleView___c_TypeDefinitionIndex)->GetStaticField(0x63A10);
-		}
 		static ::RPG::Client::Prop::ChimeraDuelMainPuzzleBattleView___c** StaticGet___9()
 		{
-			return (::RPG::Client::Prop::ChimeraDuelMainPuzzleBattleView___c**)Il2CppClass::FromTypeDefinitionIndex(ChimeraDuelMainPuzzleBattleView___c_TypeDefinitionIndex)->GetStaticField(0x63A18);
+			return (::RPG::Client::Prop::ChimeraDuelMainPuzzleBattleView___c**)Il2CppClass::FromTypeDefinitionIndex(ChimeraDuelMainPuzzleBattleView___c_TypeDefinitionIndex)->GetStaticField(0x4BE80);
+		}
+		static ::System::Action_1<::RPG::Client::Prop::ChimeraDuelChimeraModelView*>** StaticGet___9__15_0()
+		{
+			return (::System::Action_1<::RPG::Client::Prop::ChimeraDuelChimeraModelView*>**)Il2CppClass::FromTypeDefinitionIndex(ChimeraDuelMainPuzzleBattleView___c_TypeDefinitionIndex)->GetStaticField(0x4BE88);
 		}
 
 		static ::System::Void _cctor()

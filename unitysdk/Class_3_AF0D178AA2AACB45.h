@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ResetBillboardInfo; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_AF0D178AA2AACB45_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBD36F80)
-#define CLASS_3_AF0D178AA2AACB45__CTOR_OFFSET UNITYSDK_OFFSET(0xBD36F50)
+#define CLASS_3_AF0D178AA2AACB45_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBC11250)
+#define CLASS_3_AF0D178AA2AACB45__CTOR_OFFSET UNITYSDK_OFFSET(0xBC11220)
 
-inline static constexpr unsigned int Class_3_AF0D178AA2AACB45_TypeDefinitionIndex = 58543;
+inline static constexpr unsigned int Class_3_AF0D178AA2AACB45_TypeDefinitionIndex = 58394;
 
 class Class_3_AF0D178AA2AACB45 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ResetBillboardInfo*>
 {

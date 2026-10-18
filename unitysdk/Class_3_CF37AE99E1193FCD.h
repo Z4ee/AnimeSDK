@@ -5,16 +5,16 @@
 class Class_2_48488E8DBD9F6BCE;
 namespace RPG::GameCore { class DiceCombatPredicateConfig_AttackerCompareDefender; }
 
-#define CLASS_3_CF37AE99E1193FCD_METHOD_3_5855525A2684D673_OFFSET UNITYSDK_OFFSET(0x1C0A9DA0)
-#define CLASS_3_CF37AE99E1193FCD__CTOR_OFFSET UNITYSDK_OFFSET(0x1C08E4E0)
+#define CLASS_3_CF37AE99E1193FCD_METHOD_3_5855525A2684D673_OFFSET UNITYSDK_OFFSET(0x1C5FAA30)
+#define CLASS_3_CF37AE99E1193FCD__CTOR_OFFSET UNITYSDK_OFFSET(0x1C5DF2B0)
 
-inline static constexpr unsigned int Class_3_CF37AE99E1193FCD_TypeDefinitionIndex = 35629;
+inline static constexpr unsigned int Class_3_CF37AE99E1193FCD_TypeDefinitionIndex = 36316;
 
 class Class_3_CF37AE99E1193FCD : public ::Class_2_98A798C0C96648F9
 {
 public:
-	::RPG::GameCore::DiceCombatPredicateConfig_AttackerCompareDefender* MLDMHGBPDGK; // 0x30
-	::Class_2_48488E8DBD9F6BCE* JFBABKALCPJ; // 0x38
+	::Class_2_48488E8DBD9F6BCE* JFBABKALCPJ; // 0x30
+	::RPG::GameCore::DiceCombatPredicateConfig_AttackerCompareDefender* MLDMHGBPDGK; // 0x38
 
 	::System::Void _ctor(::RPG::GameCore::DiceCombatPredicateConfig_AttackerCompareDefender* a1, ::Class_2_48488E8DBD9F6BCE* a2)
 	{

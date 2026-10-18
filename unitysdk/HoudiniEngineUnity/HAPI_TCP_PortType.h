@@ -3,7 +3,7 @@
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HAPI_TCP_PortType_TypeDefinitionIndex = 39190;
+	inline static constexpr unsigned int HAPI_TCP_PortType_TypeDefinitionIndex = 40487;
 
 	enum class HAPI_TCP_PortType : ::System::Int32
 	{

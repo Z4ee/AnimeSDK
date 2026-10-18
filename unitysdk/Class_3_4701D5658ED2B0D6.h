@@ -12,42 +12,42 @@ namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_3_4701D5658ED2B0D6_METHOD_3_0CF8DABEC48D56B0_OFFSET UNITYSDK_OFFSET(0x1C738CA0)
-#define CLASS_3_4701D5658ED2B0D6_METHOD_3_41307200E9DE3ABB_OFFSET UNITYSDK_OFFSET(0x1C738E20)
-#define CLASS_3_4701D5658ED2B0D6__CTOR_OFFSET UNITYSDK_OFFSET(0x1C738D70)
+#define CLASS_3_4701D5658ED2B0D6_METHOD_3_0CF8DABEC48D56B0_OFFSET UNITYSDK_OFFSET(0x1CCC2080)
+#define CLASS_3_4701D5658ED2B0D6_METHOD_3_41307200E9DE3ABB_OFFSET UNITYSDK_OFFSET(0x1CCC2210)
+#define CLASS_3_4701D5658ED2B0D6__CTOR_OFFSET UNITYSDK_OFFSET(0x1CCC2160)
 
-inline static constexpr unsigned int Class_3_4701D5658ED2B0D6_TypeDefinitionIndex = 23911;
+inline static constexpr unsigned int Class_3_4701D5658ED2B0D6_TypeDefinitionIndex = 24186;
 
 class Class_3_4701D5658ED2B0D6 : public ::RPG::GameCore::TaskConfig
 {
 public:
-	::Il2CppArray<::RPG::GameCore::TaskConfig*>* LFHAABBNJDJ; // 0x18
-	::System::String* MKFEAAIKJNA; // 0x20
-	::System::String* BJAPMKJMKNH; // 0x28
-	::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x30
+	::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x18
+	::RPG::GameCore::DynamicFloat* HCDEOKNIGKG; // 0x20
+	::System::String* MMCICOAEEJI; // 0x28
+	::RPG::GameCore::DynamicFloat* FOJKIIBENMC; // 0x30
 	::RPG::GameCore::DynamicFloat* FMIINGDFPKN; // 0x38
-	::RPG::GameCore::DynamicFloat* FOJKIIBENMC; // 0x40
-	::RPG::GameCore::DynamicFloat* PGKFGKELKDI; // 0x48
-	::Il2CppArray<::RPG::GameCore::TaskConfig*>* KAKEMNLIPIH; // 0x50
-	::RPG::GameCore::DynamicString* IFNAGLOMHBK; // 0x58
-	::System::String* MMCICOAEEJI; // 0x60
-	::RPG::GameCore::DynamicFloat* KIPAGNCANAJ; // 0x68
-	::RPG::GameCore::DynamicFloat* LKFNPPCHCII; // 0x70
-	::Il2CppArray<::RPG::GameCore::TaskConfig*>* DLCFLIBOFPN; // 0x78
-	::RPG::GameCore::DynamicFloat* CFKOIAGCFDA; // 0x80
-	::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::DynamicFloat*>* FMCJJBALBEN; // 0x88
-	::RPG::GameCore::DynamicFloat* HCDEOKNIGKG; // 0x90
-	::RPG::GameCore::ModifierStackingFlag MLLIBMECPGM; // 0x98
-	::RPG::GameCore::ModifierCasterType ALCIIPJMPAF; // 0x9C
-	::System::Single LDFKGILGIOA; // 0xA0
-	::System::Single OCAGLPIKAKC; // 0xA4
-	::System::Boolean GCCGAPOANDM; // 0xA8
-	::System::Boolean APFPPJAKNBF; // 0xA9
-	::System::Boolean BPEKOACCGHK; // 0xAA
-	::System::Boolean CPFEDPAGDFF; // 0xAB
-	::RPG::MVector3 HNNPEMAPANP; // 0xAC
-	::System::Boolean LHAFBLMBGHB; // 0xB8
-	::System::Boolean DNNKBICNJOA; // 0xB9
+	::System::String* MKFEAAIKJNA; // 0x40
+	::RPG::GameCore::DynamicFloat* CFKOIAGCFDA; // 0x48
+	::Il2CppArray<::RPG::GameCore::TaskConfig*>* LFHAABBNJDJ; // 0x50
+	::RPG::GameCore::DynamicFloat* KIPAGNCANAJ; // 0x58
+	::Il2CppArray<::RPG::GameCore::TaskConfig*>* DLCFLIBOFPN; // 0x60
+	::Il2CppArray<::RPG::GameCore::TaskConfig*>* KAKEMNLIPIH; // 0x68
+	::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::DynamicFloat*>* FMCJJBALBEN; // 0x70
+	::System::String* BJAPMKJMKNH; // 0x78
+	::RPG::GameCore::DynamicString* IFNAGLOMHBK; // 0x80
+	::RPG::GameCore::DynamicFloat* LKFNPPCHCII; // 0x88
+	::RPG::GameCore::DynamicFloat* PGKFGKELKDI; // 0x90
+	::RPG::MVector3 HNNPEMAPANP; // 0x98
+	::System::Single LDFKGILGIOA; // 0xA4
+	::System::Boolean CPFEDPAGDFF; // 0xA8
+	::System::Boolean GCCGAPOANDM; // 0xA9
+	::System::Single OCAGLPIKAKC; // 0xAC
+	::RPG::GameCore::ModifierStackingFlag MLLIBMECPGM; // 0xB0
+	::RPG::GameCore::ModifierCasterType ALCIIPJMPAF; // 0xB4
+	::System::Boolean DNNKBICNJOA; // 0xB8
+	::System::Boolean LHAFBLMBGHB; // 0xB9
+	::System::Boolean BPEKOACCGHK; // 0xBA
+	::System::Boolean APFPPJAKNBF; // 0xBB
 
 	::System::Void _ctor()
 	{

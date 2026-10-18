@@ -6,17 +6,17 @@ namespace RPG::QA::ProfilePipeline::RPGLuaProfiler { class FrameSample; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_QA_PROFILEPIPELINE_RPGLUAPROFILER_SESSION__CTOR_OFFSET UNITYSDK_OFFSET(0xE7E0A40)
+#define RPG_QA_PROFILEPIPELINE_RPGLUAPROFILER_SESSION__CTOR_OFFSET UNITYSDK_OFFSET(0xE87CA00)
 
 namespace RPG::QA::ProfilePipeline::RPGLuaProfiler
 {
-	inline static constexpr unsigned int Session_TypeDefinitionIndex = 52123;
+	inline static constexpr unsigned int Session_TypeDefinitionIndex = 51829;
 
 	class Session : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::RPG::QA::ProfilePipeline::RPGLuaProfiler::FrameSample*>* FrameSamples; // 0x10
-		::System::String* BeginDate; // 0x18
+		::System::String* BeginDate; // 0x10
+		::System::Collections::Generic::List_1<::RPG::QA::ProfilePipeline::RPGLuaProfiler::FrameSample*>* FrameSamples; // 0x18
 		::System::String* EndDate; // 0x20
 
 		::System::Void _ctor()

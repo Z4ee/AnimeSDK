@@ -5,11 +5,11 @@
 namespace RPG::GameCore { class ForcePlayerLockAdventureTarget; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_82467EF2FA2A0BE0_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB632E00)
-#define CLASS_3_82467EF2FA2A0BE0_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB632E40)
-#define CLASS_3_82467EF2FA2A0BE0__CTOR_OFFSET UNITYSDK_OFFSET(0xB632DD0)
+#define CLASS_3_82467EF2FA2A0BE0_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB4D60A0)
+#define CLASS_3_82467EF2FA2A0BE0_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB4D60E0)
+#define CLASS_3_82467EF2FA2A0BE0__CTOR_OFFSET UNITYSDK_OFFSET(0xB4D6070)
 
-inline static constexpr unsigned int Class_3_82467EF2FA2A0BE0_TypeDefinitionIndex = 53174;
+inline static constexpr unsigned int Class_3_82467EF2FA2A0BE0_TypeDefinitionIndex = 52900;
 
 class Class_3_82467EF2FA2A0BE0 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ForcePlayerLockAdventureTarget*>
 {

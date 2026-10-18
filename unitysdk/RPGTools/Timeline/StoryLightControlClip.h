@@ -11,13 +11,13 @@ namespace RPGTools::Timeline { class StoryLightControlBehaviour; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_STORYLIGHTCONTROLCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8EDC20)
-#define RPGTOOLS_TIMELINE_STORYLIGHTCONTROLCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE8EDE00)
-#define RPGTOOLS_TIMELINE_STORYLIGHTCONTROLCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xE8EDE10)
+#define RPGTOOLS_TIMELINE_STORYLIGHTCONTROLCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE943020)
+#define RPGTOOLS_TIMELINE_STORYLIGHTCONTROLCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE9431D0)
+#define RPGTOOLS_TIMELINE_STORYLIGHTCONTROLCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xE9431E0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int StoryLightControlClip_TypeDefinitionIndex = 48802;
+	inline static constexpr unsigned int StoryLightControlClip_TypeDefinitionIndex = 48342;
 
 	class StoryLightControlClip : public ::UnityEngine::Playables::PlayableAsset
 	{

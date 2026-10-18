@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_SCRIPTSINFOJSON_METHOD_2_94AB2AD039EBA52B_OFFSET UNITYSDK_OFFSET(0x1D4D7C90)
-#define RPG_GAMECORE_SCRIPTSINFOJSON__CTOR_OFFSET UNITYSDK_OFFSET(0x1D4D80A0)
+#define RPG_GAMECORE_SCRIPTSINFOJSON_METHOD_2_94AB2AD039EBA52B_OFFSET UNITYSDK_OFFSET(0x1DA8B5C0)
+#define RPG_GAMECORE_SCRIPTSINFOJSON__CTOR_OFFSET UNITYSDK_OFFSET(0x1DA8B9D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ScriptsInfoJson_TypeDefinitionIndex = 18839;
+	inline static constexpr unsigned int ScriptsInfoJson_TypeDefinitionIndex = 19063;
 
 	class ScriptsInfoJson : public ::RPG::GameCore::JsonConfig
 	{

@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_PROPDAILYICON_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D363860)
-#define RPG_GAMECORE_PROPDAILYICON__CTOR_OFFSET UNITYSDK_OFFSET(0x1D363A00)
+#define RPG_GAMECORE_PROPDAILYICON_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D948E40)
+#define RPG_GAMECORE_PROPDAILYICON__CTOR_OFFSET UNITYSDK_OFFSET(0x1D948FE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropDailyIcon_TypeDefinitionIndex = 12457;
+	inline static constexpr unsigned int PropDailyIcon_TypeDefinitionIndex = 12547;
 
 	class PropDailyIcon : public ::System::Object
 	{

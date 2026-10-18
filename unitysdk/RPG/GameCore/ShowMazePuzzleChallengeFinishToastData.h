@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_GAMECORE_SHOWMAZEPUZZLECHALLENGEFINISHTOASTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xE6F14B0)
+#define RPG_GAMECORE_SHOWMAZEPUZZLECHALLENGEFINISHTOASTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xE74CC20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShowMazePuzzleChallengeFinishToastData_TypeDefinitionIndex = 53534;
+	inline static constexpr unsigned int ShowMazePuzzleChallengeFinishToastData_TypeDefinitionIndex = 53277;
 
 	class ShowMazePuzzleChallengeFinishToastData : public ::System::Object
 	{

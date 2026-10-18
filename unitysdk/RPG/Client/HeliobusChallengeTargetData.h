@@ -4,19 +4,19 @@
 
 namespace RPG::GameCore { class BattleTargetConfigRow; }
 
-#define RPG_CLIENT_HELIOBUSCHALLENGETARGETDATA__CTOR_1_OFFSET UNITYSDK_OFFSET(0xD3BE0F0)
-#define RPG_CLIENT_HELIOBUSCHALLENGETARGETDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xD3BDEC0)
+#define RPG_CLIENT_HELIOBUSCHALLENGETARGETDATA__CTOR_1_OFFSET UNITYSDK_OFFSET(0xD314180)
+#define RPG_CLIENT_HELIOBUSCHALLENGETARGETDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xD313F50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int HeliobusChallengeTargetData_TypeDefinitionIndex = 65726;
+	inline static constexpr unsigned int HeliobusChallengeTargetData_TypeDefinitionIndex = 65661;
 
 	class HeliobusChallengeTargetData : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::BattleTargetConfigRow* TargetData; // 0x10
-		::System::UInt32 TargetID; // 0x18
-		::System::Boolean IsTargetFinished; // 0x1C
+		::System::Boolean IsTargetFinished; // 0x18
+		::System::UInt32 TargetID; // 0x1C
 
 		::System::Void _ctor(::System::UInt32 a1)
 		{

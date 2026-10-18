@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int LineTextureMode_TypeDefinitionIndex = 4181;
+	inline static constexpr unsigned int LineTextureMode_TypeDefinitionIndex = 4182;
 
 	enum class LineTextureMode : ::System::Int32
 	{

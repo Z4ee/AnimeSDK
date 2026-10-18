@@ -2,35 +2,35 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_9FE8AEA7686E2A0B;
+class Class_0_16E4307DCC419505_1299;
 class Class_1_AAA19EA40697FDA1;
 namespace ObservableCollections { template <typename T> class IObservableCollection_1; }
 namespace R3 { template <typename T> class ReactiveProperty_1; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_UI_SAMPLES_TABVIEWSAMPLEREACTIVECONTROL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xE3CF180)
-#define RPG_CLIENT_UI_SAMPLES_TABVIEWSAMPLEREACTIVECONTROL___C__CTOR_OFFSET UNITYSDK_OFFSET(0xE3CF1C0)
-#define RPG_CLIENT_UI_SAMPLES_TABVIEWSAMPLEREACTIVECONTROL___C___BINDING_B__2_0_OFFSET UNITYSDK_OFFSET(0xE3CF1D0)
-#define RPG_CLIENT_UI_SAMPLES_TABVIEWSAMPLEREACTIVECONTROL___C___BINDING_B__2_1_OFFSET UNITYSDK_OFFSET(0xE3CF1F0)
+#define RPG_CLIENT_UI_SAMPLES_TABVIEWSAMPLEREACTIVECONTROL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xE411650)
+#define RPG_CLIENT_UI_SAMPLES_TABVIEWSAMPLEREACTIVECONTROL___C__CTOR_OFFSET UNITYSDK_OFFSET(0xE411690)
+#define RPG_CLIENT_UI_SAMPLES_TABVIEWSAMPLEREACTIVECONTROL___C___BINDING_B__2_0_OFFSET UNITYSDK_OFFSET(0xE4116A0)
+#define RPG_CLIENT_UI_SAMPLES_TABVIEWSAMPLEREACTIVECONTROL___C___BINDING_B__2_1_OFFSET UNITYSDK_OFFSET(0xE4116C0)
 
 namespace RPG::Client::Ui::Samples
 {
-	inline static constexpr unsigned int TabViewSampleReactiveControl___c_TypeDefinitionIndex = 73361;
+	inline static constexpr unsigned int TabViewSampleReactiveControl___c_TypeDefinitionIndex = 73465;
 
 	class TabViewSampleReactiveControl___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::Class_1_9FE8AEA7686E2A0B*, ::ObservableCollections::IObservableCollection_1<::Class_1_AAA19EA40697FDA1*>*>** StaticGet___9__2_1()
+		static ::System::Func_2<::Class_0_16E4307DCC419505_1299*, ::ObservableCollections::IObservableCollection_1<::Class_1_AAA19EA40697FDA1*>*>** StaticGet___9__2_1()
 		{
-			return (::System::Func_2<::Class_1_9FE8AEA7686E2A0B*, ::ObservableCollections::IObservableCollection_1<::Class_1_AAA19EA40697FDA1*>*>**)Il2CppClass::FromTypeDefinitionIndex(TabViewSampleReactiveControl___c_TypeDefinitionIndex)->GetStaticField(0x64150);
+			return (::System::Func_2<::Class_0_16E4307DCC419505_1299*, ::ObservableCollections::IObservableCollection_1<::Class_1_AAA19EA40697FDA1*>*>**)Il2CppClass::FromTypeDefinitionIndex(TabViewSampleReactiveControl___c_TypeDefinitionIndex)->GetStaticField(0x42780);
+		}
+		static ::System::Func_2<::Class_0_16E4307DCC419505_1299*, ::R3::ReactiveProperty_1<::System::Int32>*>** StaticGet___9__2_0()
+		{
+			return (::System::Func_2<::Class_0_16E4307DCC419505_1299*, ::R3::ReactiveProperty_1<::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(TabViewSampleReactiveControl___c_TypeDefinitionIndex)->GetStaticField(0x42788);
 		}
 		static ::RPG::Client::Ui::Samples::TabViewSampleReactiveControl___c** StaticGet___9()
 		{
-			return (::RPG::Client::Ui::Samples::TabViewSampleReactiveControl___c**)Il2CppClass::FromTypeDefinitionIndex(TabViewSampleReactiveControl___c_TypeDefinitionIndex)->GetStaticField(0x64158);
-		}
-		static ::System::Func_2<::Class_1_9FE8AEA7686E2A0B*, ::R3::ReactiveProperty_1<::System::Int32>*>** StaticGet___9__2_0()
-		{
-			return (::System::Func_2<::Class_1_9FE8AEA7686E2A0B*, ::R3::ReactiveProperty_1<::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(TabViewSampleReactiveControl___c_TypeDefinitionIndex)->GetStaticField(0x64160);
+			return (::RPG::Client::Ui::Samples::TabViewSampleReactiveControl___c**)Il2CppClass::FromTypeDefinitionIndex(TabViewSampleReactiveControl___c_TypeDefinitionIndex)->GetStaticField(0x42790);
 		}
 
 		static ::System::Void _cctor()
@@ -43,14 +43,14 @@ namespace RPG::Client::Ui::Samples
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI_SAMPLES_TABVIEWSAMPLEREACTIVECONTROL___C__CTOR_OFFSET))(this);
 		}
 
-		::R3::ReactiveProperty_1<::System::Int32>* __Binding_b__2_0(::Class_1_9FE8AEA7686E2A0B* a1)
+		::R3::ReactiveProperty_1<::System::Int32>* __Binding_b__2_0(::Class_0_16E4307DCC419505_1299* a1)
 		{
-			return ((::R3::ReactiveProperty_1<::System::Int32>*(*)(::PVOID, ::Class_1_9FE8AEA7686E2A0B*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI_SAMPLES_TABVIEWSAMPLEREACTIVECONTROL___C___BINDING_B__2_0_OFFSET))(this, a1);
+			return ((::R3::ReactiveProperty_1<::System::Int32>*(*)(::PVOID, ::Class_0_16E4307DCC419505_1299*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI_SAMPLES_TABVIEWSAMPLEREACTIVECONTROL___C___BINDING_B__2_0_OFFSET))(this, a1);
 		}
 
-		::ObservableCollections::IObservableCollection_1<::Class_1_AAA19EA40697FDA1*>* __Binding_b__2_1(::Class_1_9FE8AEA7686E2A0B* a1)
+		::ObservableCollections::IObservableCollection_1<::Class_1_AAA19EA40697FDA1*>* __Binding_b__2_1(::Class_0_16E4307DCC419505_1299* a1)
 		{
-			return ((::ObservableCollections::IObservableCollection_1<::Class_1_AAA19EA40697FDA1*>*(*)(::PVOID, ::Class_1_9FE8AEA7686E2A0B*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI_SAMPLES_TABVIEWSAMPLEREACTIVECONTROL___C___BINDING_B__2_1_OFFSET))(this, a1);
+			return ((::ObservableCollections::IObservableCollection_1<::Class_1_AAA19EA40697FDA1*>*(*)(::PVOID, ::Class_0_16E4307DCC419505_1299*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI_SAMPLES_TABVIEWSAMPLEREACTIVECONTROL___C___BINDING_B__2_1_OFFSET))(this, a1);
 		}
 	};
 }

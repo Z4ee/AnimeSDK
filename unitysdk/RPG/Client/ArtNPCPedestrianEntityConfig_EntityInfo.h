@@ -7,11 +7,11 @@ namespace RPG::Client { class AssemblyNPCAttachPointInfo; }
 namespace System { class String; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_ARTNPCPEDESTRIANENTITYCONFIG_ENTITYINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xC77BCE0)
+#define RPG_CLIENT_ARTNPCPEDESTRIANENTITYCONFIG_ENTITYINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xC699B70)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ArtNPCPedestrianEntityConfig_EntityInfo_TypeDefinitionIndex = 69199;
+	inline static constexpr unsigned int ArtNPCPedestrianEntityConfig_EntityInfo_TypeDefinitionIndex = 69235;
 
 	class ArtNPCPedestrianEntityConfig_EntityInfo : public ::System::Object
 	{

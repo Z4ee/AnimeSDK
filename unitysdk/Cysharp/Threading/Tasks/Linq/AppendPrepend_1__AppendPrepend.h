@@ -14,7 +14,7 @@ namespace System { template <typename T> class Action_1; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int AppendPrepend_1__AppendPrepend_TypeDefinitionIndex = 44085;
+	inline static constexpr unsigned int AppendPrepend_1__AppendPrepend_TypeDefinitionIndex = 45224;
 
 	template <typename TSource>
 	class AppendPrepend_1__AppendPrepend : public ::Cysharp::Threading::Tasks::MoveNextSource

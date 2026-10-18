@@ -14,57 +14,57 @@ namespace RPG::Client { class RogueFormulaData; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define CLASS_1_DA74864571A0573D___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15435240)
-#define CLASS_1_DA74864571A0573D___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15435270)
-#define CLASS_1_DA74864571A0573D___C__HANDLEPOSTPROCESS_B__1_0_OFFSET UNITYSDK_OFFSET(0x15435280)
-#define CLASS_1_DA74864571A0573D___C__HANDLEPOSTPROCESS_B__1_1_OFFSET UNITYSDK_OFFSET(0x15435610)
-#define CLASS_1_DA74864571A0573D___C__HANDLEPOSTPROCESS_B__1_2_OFFSET UNITYSDK_OFFSET(0x154359C0)
-#define CLASS_1_DA74864571A0573D___C__HANDLEPOSTPROCESS_B__1_3_OFFSET UNITYSDK_OFFSET(0x15435D50)
-#define CLASS_1_DA74864571A0573D___C__HANDLEPOSTPROCESS_B__1_4_OFFSET UNITYSDK_OFFSET(0x154355F0)
-#define CLASS_1_DA74864571A0573D___C__HANDLEPOSTPROCESS_B__1_5_OFFSET UNITYSDK_OFFSET(0x154359A0)
-#define CLASS_1_DA74864571A0573D___C__HANDLEPOSTPROCESS_B__1_6_OFFSET UNITYSDK_OFFSET(0x15435D30)
-#define CLASS_1_DA74864571A0573D___C__HANDLEPOSTPROCESS_B__1_7_OFFSET UNITYSDK_OFFSET(0x154360E0)
+#define CLASS_1_DA74864571A0573D___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x156F2F60)
+#define CLASS_1_DA74864571A0573D___C__CTOR_OFFSET UNITYSDK_OFFSET(0x156F2F90)
+#define CLASS_1_DA74864571A0573D___C__HANDLEPOSTPROCESS_B__1_0_OFFSET UNITYSDK_OFFSET(0x156F2FA0)
+#define CLASS_1_DA74864571A0573D___C__HANDLEPOSTPROCESS_B__1_1_OFFSET UNITYSDK_OFFSET(0x156F3330)
+#define CLASS_1_DA74864571A0573D___C__HANDLEPOSTPROCESS_B__1_2_OFFSET UNITYSDK_OFFSET(0x156F36E0)
+#define CLASS_1_DA74864571A0573D___C__HANDLEPOSTPROCESS_B__1_3_OFFSET UNITYSDK_OFFSET(0x156F3A70)
+#define CLASS_1_DA74864571A0573D___C__HANDLEPOSTPROCESS_B__1_4_OFFSET UNITYSDK_OFFSET(0x156F3310)
+#define CLASS_1_DA74864571A0573D___C__HANDLEPOSTPROCESS_B__1_5_OFFSET UNITYSDK_OFFSET(0x156F36C0)
+#define CLASS_1_DA74864571A0573D___C__HANDLEPOSTPROCESS_B__1_6_OFFSET UNITYSDK_OFFSET(0x156F3A50)
+#define CLASS_1_DA74864571A0573D___C__HANDLEPOSTPROCESS_B__1_7_OFFSET UNITYSDK_OFFSET(0x156F3E00)
 
-inline static constexpr unsigned int Class_1_DA74864571A0573D___c_TypeDefinitionIndex = 67137;
+inline static constexpr unsigned int Class_1_DA74864571A0573D___c_TypeDefinitionIndex = 67139;
 
 class Class_1_DA74864571A0573D___c : public ::System::Object
 {
 public:
-	static ::Class_1_DA74864571A0573D___c** StaticGet___9()
-	{
-		return (::Class_1_DA74864571A0573D___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_DA74864571A0573D___c_TypeDefinitionIndex)->GetStaticField(0x58570);
-	}
-	static ::System::Func_2<::Class_1_985D1692B58B6702_1*, ::RPG::Client::RogueFormulaData*>** StaticGet___9__1_4()
-	{
-		return (::System::Func_2<::Class_1_985D1692B58B6702_1*, ::RPG::Client::RogueFormulaData*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_DA74864571A0573D___c_TypeDefinitionIndex)->GetStaticField(0x58578);
-	}
-	static ::System::Func_2<::Class_1_985D1692B58B6702*, ::RPG::Client::RogueFormulaData*>** StaticGet___9__1_6()
-	{
-		return (::System::Func_2<::Class_1_985D1692B58B6702*, ::RPG::Client::RogueFormulaData*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_DA74864571A0573D___c_TypeDefinitionIndex)->GetStaticField(0x58580);
-	}
-	static ::System::Func_2<::System::Collections::Generic::IEnumerable_1<::Class_1_985D1692B58B6702_3*>*, ::Class_1_30FEFBE80B59FC00_3*>** StaticGet___9__1_1()
-	{
-		return (::System::Func_2<::System::Collections::Generic::IEnumerable_1<::Class_1_985D1692B58B6702_3*>*, ::Class_1_30FEFBE80B59FC00_3*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_DA74864571A0573D___c_TypeDefinitionIndex)->GetStaticField(0x58588);
-	}
-	static ::System::Func_2<::System::Collections::Generic::IEnumerable_1<::Class_1_985D1692B58B6702_1*>*, ::Class_1_30FEFBE80B59FC00_1*>** StaticGet___9__1_0()
-	{
-		return (::System::Func_2<::System::Collections::Generic::IEnumerable_1<::Class_1_985D1692B58B6702_1*>*, ::Class_1_30FEFBE80B59FC00_1*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_DA74864571A0573D___c_TypeDefinitionIndex)->GetStaticField(0x58590);
-	}
 	static ::System::Func_2<::Class_1_985D1692B58B6702_3*, ::RPG::Client::RogueFormulaData*>** StaticGet___9__1_5()
 	{
-		return (::System::Func_2<::Class_1_985D1692B58B6702_3*, ::RPG::Client::RogueFormulaData*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_DA74864571A0573D___c_TypeDefinitionIndex)->GetStaticField(0x58598);
-	}
-	static ::System::Func_2<::Class_1_985D1692B58B6702_2*, ::RPG::Client::RogueFormulaData*>** StaticGet___9__1_7()
-	{
-		return (::System::Func_2<::Class_1_985D1692B58B6702_2*, ::RPG::Client::RogueFormulaData*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_DA74864571A0573D___c_TypeDefinitionIndex)->GetStaticField(0x585A0);
-	}
-	static ::System::Func_2<::System::Collections::Generic::IEnumerable_1<::Class_1_985D1692B58B6702*>*, ::Class_1_30FEFBE80B59FC00*>** StaticGet___9__1_2()
-	{
-		return (::System::Func_2<::System::Collections::Generic::IEnumerable_1<::Class_1_985D1692B58B6702*>*, ::Class_1_30FEFBE80B59FC00*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_DA74864571A0573D___c_TypeDefinitionIndex)->GetStaticField(0x585A8);
+		return (::System::Func_2<::Class_1_985D1692B58B6702_3*, ::RPG::Client::RogueFormulaData*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_DA74864571A0573D___c_TypeDefinitionIndex)->GetStaticField(0x610E0);
 	}
 	static ::System::Func_2<::System::Collections::Generic::IEnumerable_1<::Class_1_985D1692B58B6702_2*>*, ::Class_1_30FEFBE80B59FC00_2*>** StaticGet___9__1_3()
 	{
-		return (::System::Func_2<::System::Collections::Generic::IEnumerable_1<::Class_1_985D1692B58B6702_2*>*, ::Class_1_30FEFBE80B59FC00_2*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_DA74864571A0573D___c_TypeDefinitionIndex)->GetStaticField(0x585B0);
+		return (::System::Func_2<::System::Collections::Generic::IEnumerable_1<::Class_1_985D1692B58B6702_2*>*, ::Class_1_30FEFBE80B59FC00_2*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_DA74864571A0573D___c_TypeDefinitionIndex)->GetStaticField(0x610E8);
+	}
+	static ::System::Func_2<::Class_1_985D1692B58B6702*, ::RPG::Client::RogueFormulaData*>** StaticGet___9__1_6()
+	{
+		return (::System::Func_2<::Class_1_985D1692B58B6702*, ::RPG::Client::RogueFormulaData*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_DA74864571A0573D___c_TypeDefinitionIndex)->GetStaticField(0x610F0);
+	}
+	static ::System::Func_2<::System::Collections::Generic::IEnumerable_1<::Class_1_985D1692B58B6702_1*>*, ::Class_1_30FEFBE80B59FC00_1*>** StaticGet___9__1_0()
+	{
+		return (::System::Func_2<::System::Collections::Generic::IEnumerable_1<::Class_1_985D1692B58B6702_1*>*, ::Class_1_30FEFBE80B59FC00_1*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_DA74864571A0573D___c_TypeDefinitionIndex)->GetStaticField(0x610F8);
+	}
+	static ::System::Func_2<::Class_1_985D1692B58B6702_1*, ::RPG::Client::RogueFormulaData*>** StaticGet___9__1_4()
+	{
+		return (::System::Func_2<::Class_1_985D1692B58B6702_1*, ::RPG::Client::RogueFormulaData*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_DA74864571A0573D___c_TypeDefinitionIndex)->GetStaticField(0x61100);
+	}
+	static ::Class_1_DA74864571A0573D___c** StaticGet___9()
+	{
+		return (::Class_1_DA74864571A0573D___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_DA74864571A0573D___c_TypeDefinitionIndex)->GetStaticField(0x61108);
+	}
+	static ::System::Func_2<::System::Collections::Generic::IEnumerable_1<::Class_1_985D1692B58B6702*>*, ::Class_1_30FEFBE80B59FC00*>** StaticGet___9__1_2()
+	{
+		return (::System::Func_2<::System::Collections::Generic::IEnumerable_1<::Class_1_985D1692B58B6702*>*, ::Class_1_30FEFBE80B59FC00*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_DA74864571A0573D___c_TypeDefinitionIndex)->GetStaticField(0x61110);
+	}
+	static ::System::Func_2<::Class_1_985D1692B58B6702_2*, ::RPG::Client::RogueFormulaData*>** StaticGet___9__1_7()
+	{
+		return (::System::Func_2<::Class_1_985D1692B58B6702_2*, ::RPG::Client::RogueFormulaData*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_DA74864571A0573D___c_TypeDefinitionIndex)->GetStaticField(0x61118);
+	}
+	static ::System::Func_2<::System::Collections::Generic::IEnumerable_1<::Class_1_985D1692B58B6702_3*>*, ::Class_1_30FEFBE80B59FC00_3*>** StaticGet___9__1_1()
+	{
+		return (::System::Func_2<::System::Collections::Generic::IEnumerable_1<::Class_1_985D1692B58B6702_3*>*, ::Class_1_30FEFBE80B59FC00_3*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_DA74864571A0573D___c_TypeDefinitionIndex)->GetStaticField(0x61120);
 	}
 
 	static ::System::Void _cctor()

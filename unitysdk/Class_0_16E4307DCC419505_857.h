@@ -1,11 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/FixPoint.h"
 
-namespace RPG::Client { class GridFightConsumableItemData; }
-namespace RPG::Client { class GridFightEquipItemData; }
-namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
+class Class_0_16E4307DCC419505_858;
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_857_TypeDefinitionIndex = 64594;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_857_TypeDefinitionIndex = 62512;
 
 class Class_0_16E4307DCC419505_857
 {

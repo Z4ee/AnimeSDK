@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/InControl/NativeDeviceProfiles/Xbox360DriverMacNativeProfile.h"
 
-#define INCONTROL_NATIVEDEVICEPROFILES_DRAGONRISEARCADESTICKMACNATIVEPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x1B508E40)
-#define INCONTROL_NATIVEDEVICEPROFILES_DRAGONRISEARCADESTICKMACNATIVEPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B508EC0)
+#define INCONTROL_NATIVEDEVICEPROFILES_DRAGONRISEARCADESTICKMACNATIVEPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x1BA07AA0)
+#define INCONTROL_NATIVEDEVICEPROFILES_DRAGONRISEARCADESTICKMACNATIVEPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA07B20)
 
 namespace InControl::NativeDeviceProfiles
 {
-	inline static constexpr unsigned int DragonRiseArcadeStickMacNativeProfile_TypeDefinitionIndex = 39816;
+	inline static constexpr unsigned int DragonRiseArcadeStickMacNativeProfile_TypeDefinitionIndex = 41113;
 
 	class DragonRiseArcadeStickMacNativeProfile : public ::InControl::NativeDeviceProfiles::Xbox360DriverMacNativeProfile
 	{

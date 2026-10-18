@@ -6,17 +6,17 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define SYSTEM_IO_TEXTREADER_CLOSE_OFFSET UNITYSDK_OFFSET(0x1BD63820)
-#define SYSTEM_IO_TEXTREADER_DISPOSE_1_OFFSET UNITYSDK_OFFSET(0x1BD5EF50)
-#define SYSTEM_IO_TEXTREADER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1BD63900)
-#define SYSTEM_IO_TEXTREADER_PEEK_OFFSET UNITYSDK_OFFSET(0x1BD639E0)
-#define SYSTEM_IO_TEXTREADER_READLINE_OFFSET UNITYSDK_OFFSET(0x1BD63D80)
-#define SYSTEM_IO_TEXTREADER_READTOEND_OFFSET UNITYSDK_OFFSET(0x1BD63C10)
-#define SYSTEM_IO_TEXTREADER_READ_1_OFFSET UNITYSDK_OFFSET(0x1BD63A00)
-#define SYSTEM_IO_TEXTREADER_READ_OFFSET UNITYSDK_OFFSET(0x1BD639F0)
-#define SYSTEM_IO_TEXTREADER_SYNCHRONIZED_OFFSET UNITYSDK_OFFSET(0x1BD64110)
-#define SYSTEM_IO_TEXTREADER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BD641C0)
-#define SYSTEM_IO_TEXTREADER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD5E590)
+#define SYSTEM_IO_TEXTREADER_CLOSE_OFFSET UNITYSDK_OFFSET(0x1C26F5E0)
+#define SYSTEM_IO_TEXTREADER_DISPOSE_1_OFFSET UNITYSDK_OFFSET(0x1C26ADE0)
+#define SYSTEM_IO_TEXTREADER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1C26F6C0)
+#define SYSTEM_IO_TEXTREADER_PEEK_OFFSET UNITYSDK_OFFSET(0x1C26F7A0)
+#define SYSTEM_IO_TEXTREADER_READLINE_OFFSET UNITYSDK_OFFSET(0x1C26FB40)
+#define SYSTEM_IO_TEXTREADER_READTOEND_OFFSET UNITYSDK_OFFSET(0x1C26F9D0)
+#define SYSTEM_IO_TEXTREADER_READ_1_OFFSET UNITYSDK_OFFSET(0x1C26F7C0)
+#define SYSTEM_IO_TEXTREADER_READ_OFFSET UNITYSDK_OFFSET(0x1C26F7B0)
+#define SYSTEM_IO_TEXTREADER_SYNCHRONIZED_OFFSET UNITYSDK_OFFSET(0x1C26FED0)
+#define SYSTEM_IO_TEXTREADER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C26FF80)
+#define SYSTEM_IO_TEXTREADER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C26A410)
 
 namespace System::IO
 {
@@ -25,17 +25,17 @@ namespace System::IO
 	class TextReader : public ::System::MarshalByRefObject
 	{
 	public:
+		static ::System::Func_2<::System::Object*, ::System::Int32>** StaticGet__ReadDelegate()
+		{
+			return (::System::Func_2<::System::Object*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(TextReader_TypeDefinitionIndex)->GetStaticField(0x15F40);
+		}
 		static ::System::Func_2<::System::Object*, ::System::String*>** StaticGet__ReadLineDelegate()
 		{
-			return (::System::Func_2<::System::Object*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(TextReader_TypeDefinitionIndex)->GetStaticField(0xCD60);
+			return (::System::Func_2<::System::Object*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(TextReader_TypeDefinitionIndex)->GetStaticField(0x15F48);
 		}
 		static ::System::IO::TextReader** StaticGet_Null()
 		{
-			return (::System::IO::TextReader**)Il2CppClass::FromTypeDefinitionIndex(TextReader_TypeDefinitionIndex)->GetStaticField(0xCD68);
-		}
-		static ::System::Func_2<::System::Object*, ::System::Int32>** StaticGet__ReadDelegate()
-		{
-			return (::System::Func_2<::System::Object*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(TextReader_TypeDefinitionIndex)->GetStaticField(0xCD70);
+			return (::System::IO::TextReader**)Il2CppClass::FromTypeDefinitionIndex(TextReader_TypeDefinitionIndex)->GetStaticField(0x15F50);
 		}
 
 		::System::Void _ctor()

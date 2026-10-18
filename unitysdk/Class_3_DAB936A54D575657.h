@@ -5,18 +5,18 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ChenLingFesTargetConfig; }
 
-#define CLASS_3_DAB936A54D575657_METHOD_3_55F575C0E5D8F0DB_OFFSET UNITYSDK_OFFSET(0x1C7CAC50)
-#define CLASS_3_DAB936A54D575657_METHOD_3_FF096862EF90B096_OFFSET UNITYSDK_OFFSET(0x1C7CAC10)
-#define CLASS_3_DAB936A54D575657__CTOR_OFFSET UNITYSDK_OFFSET(0x1C7CAC40)
+#define CLASS_3_DAB936A54D575657_METHOD_3_55F575C0E5D8F0DB_OFFSET UNITYSDK_OFFSET(0x1CD5E290)
+#define CLASS_3_DAB936A54D575657_METHOD_3_FF096862EF90B096_OFFSET UNITYSDK_OFFSET(0x1CD5E250)
+#define CLASS_3_DAB936A54D575657__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD5E280)
 
-inline static constexpr unsigned int Class_3_DAB936A54D575657_TypeDefinitionIndex = 21270;
+inline static constexpr unsigned int Class_3_DAB936A54D575657_TypeDefinitionIndex = 21516;
 
 class Class_3_DAB936A54D575657 : public ::RPG::GameCore::TaskConfig
 {
 public:
-	::Il2CppArray<::RPG::GameCore::TaskConfig*>* KAKEMNLIPIH; // 0x18
-	::Il2CppArray<::RPG::GameCore::TaskConfig*>* MAONBNHOPBJ; // 0x20
-	::RPG::GameCore::ChenLingFesTargetConfig* PNMNKFNNKEI; // 0x28
+	::RPG::GameCore::ChenLingFesTargetConfig* PNMNKFNNKEI; // 0x18
+	::Il2CppArray<::RPG::GameCore::TaskConfig*>* KAKEMNLIPIH; // 0x20
+	::Il2CppArray<::RPG::GameCore::TaskConfig*>* MAONBNHOPBJ; // 0x28
 	::System::Boolean ALJKBHGDOEK; // 0x30
 	::System::Boolean IMMHPCNFCCG; // 0x31
 

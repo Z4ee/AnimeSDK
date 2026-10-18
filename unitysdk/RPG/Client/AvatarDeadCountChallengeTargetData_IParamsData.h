@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AvatarDeadCountChallengeTargetData_IParamsData_TypeDefinitionIndex = 63172;
+	inline static constexpr unsigned int AvatarDeadCountChallengeTargetData_IParamsData_TypeDefinitionIndex = 63105;
 
 	class AvatarDeadCountChallengeTargetData_IParamsData
 	{

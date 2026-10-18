@@ -18,7 +18,7 @@ namespace System::Linq { template <typename T1, typename T2> class IGrouping_2; 
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int ToLookup_Lookup_2_TypeDefinitionIndex = 44548;
+	inline static constexpr unsigned int ToLookup_Lookup_2_TypeDefinitionIndex = 45687;
 
 	template <typename TKey, typename TElement>
 	class ToLookup_Lookup_2 : public ::System::Object

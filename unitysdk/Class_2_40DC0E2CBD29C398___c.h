@@ -8,27 +8,27 @@ namespace Entitas { class IEntity; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Func_1; }
 
-#define CLASS_2_40DC0E2CBD29C398___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C4EDDB0)
-#define CLASS_2_40DC0E2CBD29C398___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4EDDF0)
-#define CLASS_2_40DC0E2CBD29C398___C___CTOR_B__476_0_OFFSET UNITYSDK_OFFSET(0x1C4EDE00)
-#define CLASS_2_40DC0E2CBD29C398___C___CTOR_B__476_1_OFFSET UNITYSDK_OFFSET(0x1C4EDE30)
+#define CLASS_2_40DC0E2CBD29C398___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CA61280)
+#define CLASS_2_40DC0E2CBD29C398___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1CA612C0)
+#define CLASS_2_40DC0E2CBD29C398___C___CTOR_B__476_0_OFFSET UNITYSDK_OFFSET(0x1CA612D0)
+#define CLASS_2_40DC0E2CBD29C398___C___CTOR_B__476_1_OFFSET UNITYSDK_OFFSET(0x1CA61300)
 
-inline static constexpr unsigned int Class_2_40DC0E2CBD29C398___c_TypeDefinitionIndex = 40783;
+inline static constexpr unsigned int Class_2_40DC0E2CBD29C398___c_TypeDefinitionIndex = 42599;
 
 class Class_2_40DC0E2CBD29C398___c : public ::System::Object
 {
 public:
-	static ::Class_2_40DC0E2CBD29C398___c** StaticGet___9()
-	{
-		return (::Class_2_40DC0E2CBD29C398___c**)Il2CppClass::FromTypeDefinitionIndex(Class_2_40DC0E2CBD29C398___c_TypeDefinitionIndex)->GetStaticField(0x2F950);
-	}
 	static ::System::Func_1<::Class_2_4706D3AD6019CD01*>** StaticGet___9__476_1()
 	{
-		return (::System::Func_1<::Class_2_4706D3AD6019CD01*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_40DC0E2CBD29C398___c_TypeDefinitionIndex)->GetStaticField(0x2F958);
+		return (::System::Func_1<::Class_2_4706D3AD6019CD01*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_40DC0E2CBD29C398___c_TypeDefinitionIndex)->GetStaticField(0x2FF50);
 	}
 	static ::System::Func_2<::Entitas::IEntity*, ::Entitas::IAERC*>** StaticGet___9__476_0()
 	{
-		return (::System::Func_2<::Entitas::IEntity*, ::Entitas::IAERC*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_40DC0E2CBD29C398___c_TypeDefinitionIndex)->GetStaticField(0x2F960);
+		return (::System::Func_2<::Entitas::IEntity*, ::Entitas::IAERC*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_40DC0E2CBD29C398___c_TypeDefinitionIndex)->GetStaticField(0x2FF58);
+	}
+	static ::Class_2_40DC0E2CBD29C398___c** StaticGet___9()
+	{
+		return (::Class_2_40DC0E2CBD29C398___c**)Il2CppClass::FromTypeDefinitionIndex(Class_2_40DC0E2CBD29C398___c_TypeDefinitionIndex)->GetStaticField(0x2FF60);
 	}
 
 	static ::System::Void _cctor()

@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ACTIVITYTHEMEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CDAE770)
-#define RPG_GAMECORE_ACTIVITYTHEMEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CDAE9C0)
+#define RPG_GAMECORE_ACTIVITYTHEMEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D383820)
+#define RPG_GAMECORE_ACTIVITYTHEMEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D383A70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityThemeRow_TypeDefinitionIndex = 11197;
+	inline static constexpr unsigned int ActivityThemeRow_TypeDefinitionIndex = 11213;
 
 	class ActivityThemeRow : public ::System::Object
 	{

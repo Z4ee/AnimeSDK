@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_MODIFIERBEHAVIORFLAGEVENTCONFIG_METHOD_2_E416FDA235ABDE4D_OFFSET UNITYSDK_OFFSET(0x1D2AA6D0)
-#define RPG_GAMECORE_MODIFIERBEHAVIORFLAGEVENTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2AA800)
+#define RPG_GAMECORE_MODIFIERBEHAVIORFLAGEVENTCONFIG_METHOD_2_E416FDA235ABDE4D_OFFSET UNITYSDK_OFFSET(0x1D88C590)
+#define RPG_GAMECORE_MODIFIERBEHAVIORFLAGEVENTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D88C6C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ModifierBehaviorFlagEventConfig_TypeDefinitionIndex = 16916;
+	inline static constexpr unsigned int ModifierBehaviorFlagEventConfig_TypeDefinitionIndex = 17111;
 
 	class ModifierBehaviorFlagEventConfig : public ::RPG::GameCore::JsonConfig
 	{

@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-class Class_0_16E4307DCC419505_318;
+class Class_0_16E4307DCC419505_397;
 namespace RPG::Client::FateRin { class ViewModelEventHandler; }
 namespace RPG::Client::FateRin { template <typename T> class ViewModelEventHandler_1; }
 namespace RPG::Client::FateRin::Battle { class FateRinBattleEnemyHudBossViewModel; }
@@ -15,11 +15,11 @@ namespace RPG::Client::FateRin::Battle { class IFateRinBattleHudDeckTipViewModel
 namespace RPG::Client::FateRin::Battle { class IFateRinBattleHudEndActionButtonViewModel; }
 namespace RPG::Client::FateRin::Battle { class IFateRinBattleHudFriendAreaViewModel; }
 namespace RPG::Client::FateRin::Tutorial { class IFateRinBattleTutorialViewModel; }
-template <typename T> class Class_0_16E4307DCC419505_320;
+template <typename T> class Class_0_16E4307DCC419505_399;
 
 namespace RPG::Client::FateRin::Battle
 {
-	inline static constexpr unsigned int IFateRinBattleHudViewModel_TypeDefinitionIndex = 79619;
+	inline static constexpr unsigned int IFateRinBattleHudViewModel_TypeDefinitionIndex = 80943;
 
 	class IFateRinBattleHudViewModel
 	{

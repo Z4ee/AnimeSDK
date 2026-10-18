@@ -16,7 +16,7 @@ namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int Average__AverageAwaitAsync_d__34_1_TypeDefinitionIndex = 44117;
+	inline static constexpr unsigned int Average__AverageAwaitAsync_d__34_1_TypeDefinitionIndex = 45256;
 
 	template <typename TSource>
 	struct Average__AverageAwaitAsync_d__34_1

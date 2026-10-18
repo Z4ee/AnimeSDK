@@ -5,11 +5,11 @@
 namespace MiHoYo::SDK::PC::OS { class HoYoChannelPermissionReason; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELPERMISSIONENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA273B0)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELPERMISSIONENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF30DF0)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int HoYoChannelPermissionEntry_TypeDefinitionIndex = 8632;
+	inline static constexpr unsigned int HoYoChannelPermissionEntry_TypeDefinitionIndex = 8693;
 
 	class HoYoChannelPermissionEntry : public ::System::Object
 	{

@@ -7,12 +7,12 @@ namespace RPG::Client { class VolumeFogOptVolumeBehavior; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_VOLUMEFOGOPTVOLUMEMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xE4141E0)
-#define RPG_CLIENT_VOLUMEFOGOPTVOLUMEMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xE414230)
+#define RPG_CLIENT_VOLUMEFOGOPTVOLUMEMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xE45A4E0)
+#define RPG_CLIENT_VOLUMEFOGOPTVOLUMEMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xE45A530)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int VolumeFogOptVolumeMonoPlugin_TypeDefinitionIndex = 70802;
+	inline static constexpr unsigned int VolumeFogOptVolumeMonoPlugin_TypeDefinitionIndex = 70840;
 
 	class VolumeFogOptVolumeMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::VolumeFogOptVolumeBehavior*>
 	{

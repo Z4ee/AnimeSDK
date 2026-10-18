@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define UNITYENGINE_BINDINGS_NOTNULLATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EDD3F70)
+#define UNITYENGINE_BINDINGS_NOTNULLATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F49D230)
 
 namespace UnityEngine::Bindings
 {
-	inline static constexpr unsigned int NotNullAttribute_TypeDefinitionIndex = 3729;
+	inline static constexpr unsigned int NotNullAttribute_TypeDefinitionIndex = 3730;
 
 	class NotNullAttribute : public ::System::Attribute
 	{

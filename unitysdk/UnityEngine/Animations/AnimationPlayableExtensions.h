@@ -5,11 +5,11 @@
 
 namespace UnityEngine { class AnimationClip; }
 
-#define UNITYENGINE_ANIMATIONS_ANIMATIONPLAYABLEEXTENSIONS_SETANIMATEDPROPERTIESINTERNAL_OFFSET UNITYSDK_OFFSET(0x1ECF06A0)
+#define UNITYENGINE_ANIMATIONS_ANIMATIONPLAYABLEEXTENSIONS_SETANIMATEDPROPERTIESINTERNAL_OFFSET UNITYSDK_OFFSET(0x1F3B8420)
 
 namespace UnityEngine::Animations
 {
-	inline static constexpr unsigned int AnimationPlayableExtensions_TypeDefinitionIndex = 5745;
+	inline static constexpr unsigned int AnimationPlayableExtensions_TypeDefinitionIndex = 5753;
 
 	class AnimationPlayableExtensions : public ::System::Object
 	{

@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_FINISHTYPECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D09BEE0)
-#define RPG_GAMECORE_FINISHTYPECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D09C040)
+#define RPG_GAMECORE_FINISHTYPECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D6A9E30)
+#define RPG_GAMECORE_FINISHTYPECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6A9F90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FinishTypeConfigRow_TypeDefinitionIndex = 14051;
+	inline static constexpr unsigned int FinishTypeConfigRow_TypeDefinitionIndex = 14158;
 
 	class FinishTypeConfigRow : public ::System::Object
 	{

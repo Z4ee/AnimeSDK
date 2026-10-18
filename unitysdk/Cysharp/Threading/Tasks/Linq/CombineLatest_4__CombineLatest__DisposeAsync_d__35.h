@@ -9,7 +9,7 @@ namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int CombineLatest_4__CombineLatest__DisposeAsync_d__35_TypeDefinitionIndex = 44141;
+	inline static constexpr unsigned int CombineLatest_4__CombineLatest__DisposeAsync_d__35_TypeDefinitionIndex = 45280;
 
 	template <typename T1, typename T2, typename T3, typename TResult>
 	struct CombineLatest_4__CombineLatest__DisposeAsync_d__35

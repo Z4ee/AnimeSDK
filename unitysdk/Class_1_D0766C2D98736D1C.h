@@ -8,21 +8,21 @@ namespace RPG::Client::OpenWorld { class StreamingItemData; }
 namespace RPG::Client::OpenWorld { class Volume; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define CLASS_1_D0766C2D98736D1C_GET_FILTERSTREAMINGBLOCK_OFFSET UNITYSDK_OFFSET(0x15A8AAB0)
-#define CLASS_1_D0766C2D98736D1C_GET_FILTERSTREAMINGITEM_OFFSET UNITYSDK_OFFSET(0x15A8AA90)
-#define CLASS_1_D0766C2D98736D1C_SET_FILTERSTREAMINGBLOCK_OFFSET UNITYSDK_OFFSET(0x15A8AAC0)
-#define CLASS_1_D0766C2D98736D1C_SET_FILTERSTREAMINGITEM_OFFSET UNITYSDK_OFFSET(0x15A8AAA0)
-#define CLASS_1_D0766C2D98736D1C__CTOR_OFFSET UNITYSDK_OFFSET(0x15A8AAD0)
+#define CLASS_1_D0766C2D98736D1C_GET_FILTERSTREAMINGBLOCK_OFFSET UNITYSDK_OFFSET(0x15D9E7A0)
+#define CLASS_1_D0766C2D98736D1C_GET_FILTERSTREAMINGITEM_OFFSET UNITYSDK_OFFSET(0x15D9E780)
+#define CLASS_1_D0766C2D98736D1C_SET_FILTERSTREAMINGBLOCK_OFFSET UNITYSDK_OFFSET(0x15D9E7B0)
+#define CLASS_1_D0766C2D98736D1C_SET_FILTERSTREAMINGITEM_OFFSET UNITYSDK_OFFSET(0x15D9E790)
+#define CLASS_1_D0766C2D98736D1C__CTOR_OFFSET UNITYSDK_OFFSET(0x15D9E7C0)
 
-inline static constexpr unsigned int Class_1_D0766C2D98736D1C_TypeDefinitionIndex = 73892;
+inline static constexpr unsigned int Class_1_D0766C2D98736D1C_TypeDefinitionIndex = 73999;
 
 class Class_1_D0766C2D98736D1C : public ::System::Object
 {
 public:
-	::System::Collections::Generic::HashSet_1<::Class_1_303D5A33D1401D59*>* _FilterStreamingBlock_k__BackingField; // 0x10
-	::Class_1_D70A30D666F20D90* EKHCOEPOJDL; // 0x18
-	::System::Collections::Generic::HashSet_1<::RPG::Client::OpenWorld::StreamingItemData*>* _FilterStreamingItem_k__BackingField; // 0x20
-	::RPG::Client::OpenWorld::Volume* EDHBBJADHHJ; // 0x28
+	::Class_1_D70A30D666F20D90* EKHCOEPOJDL; // 0x10
+	::System::Collections::Generic::HashSet_1<::Class_1_303D5A33D1401D59*>* _FilterStreamingBlock_k__BackingField; // 0x18
+	::RPG::Client::OpenWorld::Volume* EDHBBJADHHJ; // 0x20
+	::System::Collections::Generic::HashSet_1<::RPG::Client::OpenWorld::StreamingItemData*>* _FilterStreamingItem_k__BackingField; // 0x28
 
 	::System::Void _ctor()
 	{

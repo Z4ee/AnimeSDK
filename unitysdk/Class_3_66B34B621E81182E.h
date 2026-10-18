@@ -6,11 +6,11 @@ namespace RPG::GameCore { class PropComponent; }
 namespace RPG::GameCore { class PropDestructImmediately; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_66B34B621E81182E_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1564E570)
-#define CLASS_3_66B34B621E81182E_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1564E5C0)
-#define CLASS_3_66B34B621E81182E__CTOR_OFFSET UNITYSDK_OFFSET(0x1564E540)
+#define CLASS_3_66B34B621E81182E_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1596B3A0)
+#define CLASS_3_66B34B621E81182E_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1596B3F0)
+#define CLASS_3_66B34B621E81182E__CTOR_OFFSET UNITYSDK_OFFSET(0x1596B370)
 
-inline static constexpr unsigned int Class_3_66B34B621E81182E_TypeDefinitionIndex = 53429;
+inline static constexpr unsigned int Class_3_66B34B621E81182E_TypeDefinitionIndex = 53172;
 
 class Class_3_66B34B621E81182E : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::PropDestructImmediately*>
 {

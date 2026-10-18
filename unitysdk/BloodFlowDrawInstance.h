@@ -12,18 +12,18 @@ namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class Renderer; }
 
-#define BLOODFLOWDRAWINSTANCE_GET_MAXNUMINSTANCES_OFFSET UNITYSDK_OFFSET(0xC4F1C80)
-#define BLOODFLOWDRAWINSTANCE__CCTOR_OFFSET UNITYSDK_OFFSET(0xC4F21C0)
-#define BLOODFLOWDRAWINSTANCE__CTOR_OFFSET UNITYSDK_OFFSET(0xC4F1CD0)
+#define BLOODFLOWDRAWINSTANCE_GET_MAXNUMINSTANCES_OFFSET UNITYSDK_OFFSET(0xC1B5740)
+#define BLOODFLOWDRAWINSTANCE__CCTOR_OFFSET UNITYSDK_OFFSET(0xC1B5C80)
+#define BLOODFLOWDRAWINSTANCE__CTOR_OFFSET UNITYSDK_OFFSET(0xC1B5790)
 
-inline static constexpr unsigned int BloodFlowDrawInstance_TypeDefinitionIndex = 47910;
+inline static constexpr unsigned int BloodFlowDrawInstance_TypeDefinitionIndex = 47450;
 
 class BloodFlowDrawInstance : public ::UnityEngine::MonoBehaviour
 {
 public:
 	static ::Il2CppArray<::UnityEngine::Keyframe>** StaticGet_frames()
 	{
-		return (::Il2CppArray<::UnityEngine::Keyframe>**)Il2CppClass::FromTypeDefinitionIndex(BloodFlowDrawInstance_TypeDefinitionIndex)->GetStaticField(0x60040);
+		return (::Il2CppArray<::UnityEngine::Keyframe>**)Il2CppClass::FromTypeDefinitionIndex(BloodFlowDrawInstance_TypeDefinitionIndex)->GetStaticField(0xCC50);
 	}
 	::System::Single Opacity; // 0x18
 	::System::Single FlowTime; // 0x1C

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class RtGridMoveToTarget; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_69E2730A7122D8BA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1548F5A0)
-#define CLASS_3_69E2730A7122D8BA__CTOR_OFFSET UNITYSDK_OFFSET(0x1548F570)
+#define CLASS_3_69E2730A7122D8BA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1574D3A0)
+#define CLASS_3_69E2730A7122D8BA__CTOR_OFFSET UNITYSDK_OFFSET(0x1574D370)
 
-inline static constexpr unsigned int Class_3_69E2730A7122D8BA_TypeDefinitionIndex = 54390;
+inline static constexpr unsigned int Class_3_69E2730A7122D8BA_TypeDefinitionIndex = 54176;
 
 class Class_3_69E2730A7122D8BA : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::RtGridMoveToTarget*>
 {

@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_154297DE1BCCA968;
 class Class_2_25E482C4AD2F8486_Class_1_ACF0E08C68D3724A;
+class Class_2_4FFA1EF262510C03;
 
-#define CLASS_1_630CB84C93B59414___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x162E7720)
-#define CLASS_1_630CB84C93B59414___C__DISPLAYCLASS4_0__ONDESIGNDATAHPATCHFINISH_B__0_OFFSET UNITYSDK_OFFSET(0x163016A0)
+#define CLASS_1_630CB84C93B59414___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB1CCE90)
+#define CLASS_1_630CB84C93B59414___C__DISPLAYCLASS4_0__ONDESIGNDATAHPATCHFINISH_B__0_OFFSET UNITYSDK_OFFSET(0xB1E6E80)
 
-inline static constexpr unsigned int Class_1_630CB84C93B59414___c__DisplayClass4_0_TypeDefinitionIndex = 59661;
+inline static constexpr unsigned int Class_1_630CB84C93B59414___c__DisplayClass4_0_TypeDefinitionIndex = 59516;
 
 class Class_1_630CB84C93B59414___c__DisplayClass4_0 : public ::System::Object
 {
 public:
-	::Class_2_154297DE1BCCA968* designPatch; // 0x10
+	::Class_2_4FFA1EF262510C03* designPatch; // 0x10
 
 	::System::Void _ctor()
 	{

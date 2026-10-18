@@ -4,7 +4,7 @@
 
 namespace System { class IOSelectorJob; }
 
-#define SYSTEM_IOSELECTOR_ADD_OFFSET UNITYSDK_OFFSET(0x1E9506F0)
+#define SYSTEM_IOSELECTOR_ADD_OFFSET UNITYSDK_OFFSET(0x1F019650)
 
 namespace System
 {

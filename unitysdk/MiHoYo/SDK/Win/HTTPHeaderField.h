@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int HTTPHeaderField_TypeDefinitionIndex = 9348;
+	inline static constexpr unsigned int HTTPHeaderField_TypeDefinitionIndex = 9406;
 
 	enum class HTTPHeaderField : ::System::Int32
 	{

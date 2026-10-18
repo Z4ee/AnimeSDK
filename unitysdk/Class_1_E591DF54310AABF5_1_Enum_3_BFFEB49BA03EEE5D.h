@@ -1,0 +1,47 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int Class_1_E591DF54310AABF5_1_Enum_3_BFFEB49BA03EEE5D_TypeDefinitionIndex = 29254;
+
+enum class Class_1_E591DF54310AABF5_1_Enum_3_BFFEB49BA03EEE5D : ::System::Int32
+{
+	Value_0 = 0,
+	Value_161 = 161,
+	Value_563 = 563,
+	Value_1868 = 1868,
+	Value_1452 = 1452,
+	Value_1885 = 1885,
+	Value_1909 = 1909,
+	Value_463 = 463,
+	Value_648 = 648,
+	Value_1850 = 1850,
+	Value_1614 = 1614,
+	Value_809 = 809,
+	Value_1463 = 1463,
+	Value_227 = 227,
+	Value_991 = 991,
+	Value_1301 = 1301,
+	Value_707 = 707,
+	Value_17 = 17,
+	Value_1433 = 1433,
+	Value_1217 = 1217,
+	Value_1445 = 1445,
+	Value_1228 = 1228,
+	Value_767 = 767,
+	Value_1694 = 1694,
+	Value_749 = 749,
+	Value_1267 = 1267,
+	Value_93 = 93,
+	Value_189 = 189,
+	Value_1484 = 1484,
+	Value_1080 = 1080,
+	Value_1063 = 1063,
+	Value_1949 = 1949,
+	Value_932 = 932,
+	Value_1012 = 1012,
+	Value_2024 = 2024,
+	Value_495 = 495,
+	Value_1890 = 1890,
+	Value_1995 = 1995,
+	Value_673 = 673,
+};

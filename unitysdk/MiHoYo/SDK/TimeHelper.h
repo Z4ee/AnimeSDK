@@ -3,23 +3,23 @@
 #include "unitysdk/System/DateTime.h"
 #include "unitysdk/System/Object.h"
 
-#define MIHOYO_SDK_TIMEHELPER_CLIENTNOWSECONDS_OFFSET UNITYSDK_OFFSET(0xB2B5BD0)
-#define MIHOYO_SDK_TIMEHELPER_CLIENTNOW_OFFSET UNITYSDK_OFFSET(0xB2B5B40)
-#define MIHOYO_SDK_TIMEHELPER_GETNOWTICK_OFFSET UNITYSDK_OFFSET(0xB2B5C70)
-#define MIHOYO_SDK_TIMEHELPER_MILLISECONDSTODATETIME_OFFSET UNITYSDK_OFFSET(0xB2B5EE0)
-#define MIHOYO_SDK_TIMEHELPER_NOW_OFFSET UNITYSDK_OFFSET(0xB2B5DF0)
-#define MIHOYO_SDK_TIMEHELPER__CCTOR_OFFSET UNITYSDK_OFFSET(0xB2B5F70)
+#define MIHOYO_SDK_TIMEHELPER_CLIENTNOWSECONDS_OFFSET UNITYSDK_OFFSET(0xB055AE0)
+#define MIHOYO_SDK_TIMEHELPER_CLIENTNOW_OFFSET UNITYSDK_OFFSET(0xB055A50)
+#define MIHOYO_SDK_TIMEHELPER_GETNOWTICK_OFFSET UNITYSDK_OFFSET(0xB055B80)
+#define MIHOYO_SDK_TIMEHELPER_MILLISECONDSTODATETIME_OFFSET UNITYSDK_OFFSET(0xB038850)
+#define MIHOYO_SDK_TIMEHELPER_NOW_OFFSET UNITYSDK_OFFSET(0xB055D00)
+#define MIHOYO_SDK_TIMEHELPER__CCTOR_OFFSET UNITYSDK_OFFSET(0xB055DF0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int TimeHelper_TypeDefinitionIndex = 46588;
+	inline static constexpr unsigned int TimeHelper_TypeDefinitionIndex = 46139;
 
 	class TimeHelper : public ::System::Object
 	{
 	public:
 		static ::System::Int64* StaticGet_epoch()
 		{
-			return (::System::Int64*)Il2CppClass::FromTypeDefinitionIndex(TimeHelper_TypeDefinitionIndex)->GetStaticField(0x12E70);
+			return (::System::Int64*)Il2CppClass::FromTypeDefinitionIndex(TimeHelper_TypeDefinitionIndex)->GetStaticField(0xB120);
 		}
 
 		static ::System::Void _cctor()

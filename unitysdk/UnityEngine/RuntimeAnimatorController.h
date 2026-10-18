@@ -4,12 +4,12 @@
 
 namespace UnityEngine { class AnimationClip; }
 
-#define UNITYENGINE_RUNTIMEANIMATORCONTROLLER_GET_ANIMATIONCLIPS_OFFSET UNITYSDK_OFFSET(0x1ECF8300)
-#define UNITYENGINE_RUNTIMEANIMATORCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1ECF75E0)
+#define UNITYENGINE_RUNTIMEANIMATORCONTROLLER_GET_ANIMATIONCLIPS_OFFSET UNITYSDK_OFFSET(0x1F3C00A0)
+#define UNITYENGINE_RUNTIMEANIMATORCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F3BF390)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int RuntimeAnimatorController_TypeDefinitionIndex = 5720;
+	inline static constexpr unsigned int RuntimeAnimatorController_TypeDefinitionIndex = 5728;
 
 	class RuntimeAnimatorController : public ::UnityEngine::Object
 	{

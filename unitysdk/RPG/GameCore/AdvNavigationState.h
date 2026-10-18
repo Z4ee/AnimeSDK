@@ -3,15 +3,16 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvNavigationState_TypeDefinitionIndex = 57281;
+	inline static constexpr unsigned int AdvNavigationState_TypeDefinitionIndex = 57115;
 
 	enum class AdvNavigationState : ::System::Int32
 	{
 		Ready = 0,
-		PreSteer = 1,
-		Pathing = 2,
-		WaitForRootMotion = 3,
-		PostSteer = 4,
-		WaitForStop = 5,
+		Calculating = 1,
+		PreSteer = 2,
+		Pathing = 3,
+		WaitForRootMotion = 4,
+		PostSteer = 5,
+		WaitForStop = 6,
 	};
 }

@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DiceCombatPresetTurnActorAddLimitedDiceConfig; }
 namespace RPG::GameCore { class DiceCombatPresetTurnActorRollConfig; }
 
-#define RPG_GAMECORE_DICECOMBATPRESETTURNACTORCONFIG_METHOD_2_E5781A87DA93C563_OFFSET UNITYSDK_OFFSET(0x1D033930)
-#define RPG_GAMECORE_DICECOMBATPRESETTURNACTORCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D033B70)
+#define RPG_GAMECORE_DICECOMBATPRESETTURNACTORCONFIG_METHOD_2_E5781A87DA93C563_OFFSET UNITYSDK_OFFSET(0x1D60FE60)
+#define RPG_GAMECORE_DICECOMBATPRESETTURNACTORCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6100A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DiceCombatPresetTurnActorConfig_TypeDefinitionIndex = 15959;
+	inline static constexpr unsigned int DiceCombatPresetTurnActorConfig_TypeDefinitionIndex = 16132;
 
 	class DiceCombatPresetTurnActorConfig : public ::RPG::GameCore::JsonConfig
 	{

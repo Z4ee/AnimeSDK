@@ -5,7 +5,7 @@
 namespace RPG::Client { class BattleAssetPreload_CharacterPreloadGroupBase; }
 namespace System { class String; }
 
-inline static constexpr unsigned int Struct_2_1DF9223AD64279D4_TypeDefinitionIndex = 59812;
+inline static constexpr unsigned int Struct_2_1DF9223AD64279D4_TypeDefinitionIndex = 59667;
 
 struct alignas(8) Struct_2_1DF9223AD64279D4
 {

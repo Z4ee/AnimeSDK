@@ -3,7 +3,7 @@
 
 namespace RPG::Client::Ui::Samples
 {
-	inline static constexpr unsigned int TabViewSampleControl_SampleMode_TypeDefinitionIndex = 73359;
+	inline static constexpr unsigned int TabViewSampleControl_SampleMode_TypeDefinitionIndex = 73463;
 
 	enum class TabViewSampleControl_SampleMode : ::System::Int32
 	{

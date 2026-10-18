@@ -1,20 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_43BD383C98B4C0C5_17.h"
+#include "unitysdk/Class_1_43BD383C98B4C0C5_16.h"
 
 class Class_3_F65294BF89CA0784;
 namespace RPG::GameCore { class DiceCombatAIEffectEvaluatorConfig_DicePointSameWithEnemy; }
 
-#define CLASS_2_D4F6B27EA1E44B35_METHOD_2_A36150C5DCC8409E_OFFSET UNITYSDK_OFFSET(0x1C0EE2A0)
-#define CLASS_2_D4F6B27EA1E44B35__CTOR_OFFSET UNITYSDK_OFFSET(0x1C0EE290)
+#define CLASS_2_D4F6B27EA1E44B35_METHOD_2_A36150C5DCC8409E_OFFSET UNITYSDK_OFFSET(0x1C63EEE0)
+#define CLASS_2_D4F6B27EA1E44B35__CTOR_OFFSET UNITYSDK_OFFSET(0x1C63EED0)
 
-inline static constexpr unsigned int Class_2_D4F6B27EA1E44B35_TypeDefinitionIndex = 35530;
+inline static constexpr unsigned int Class_2_D4F6B27EA1E44B35_TypeDefinitionIndex = 36217;
 
-class Class_2_D4F6B27EA1E44B35 : public ::Class_1_43BD383C98B4C0C5_17
+class Class_2_D4F6B27EA1E44B35 : public ::Class_1_43BD383C98B4C0C5_16
 {
 public:
-	::RPG::GameCore::DiceCombatAIEffectEvaluatorConfig_DicePointSameWithEnemy* IGHAHBNLIJA; // 0x10
-	::Class_3_F65294BF89CA0784* EEFMDEHLLFI; // 0x18
+	::Class_3_F65294BF89CA0784* EEFMDEHLLFI; // 0x10
+	::RPG::GameCore::DiceCombatAIEffectEvaluatorConfig_DicePointSameWithEnemy* IGHAHBNLIJA; // 0x18
 
 	::System::Void _ctor(::RPG::GameCore::DiceCombatAIEffectEvaluatorConfig_DicePointSameWithEnemy* a1, ::Class_3_F65294BF89CA0784* a2)
 	{

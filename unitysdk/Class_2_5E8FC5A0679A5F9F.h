@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_29B23DDF98AF43AC.h"
+#include "unitysdk/Class_1_CBE3940117D4417A.h"
 #include "unitysdk/RPG/GameCore/TriggerExitReason.h"
 
 namespace RPG::GameCore { class GameEntity; }
 
-#define CLASS_2_5E8FC5A0679A5F9F_DOONENTER_OFFSET UNITYSDK_OFFSET(0xB81BF40)
-#define CLASS_2_5E8FC5A0679A5F9F_DOONEXIT_OFFSET UNITYSDK_OFFSET(0xB81C0E0)
-#define CLASS_2_5E8FC5A0679A5F9F__CTOR_OFFSET UNITYSDK_OFFSET(0xB81BF00)
+#define CLASS_2_5E8FC5A0679A5F9F_DOONENTER_OFFSET UNITYSDK_OFFSET(0xB68C7D0)
+#define CLASS_2_5E8FC5A0679A5F9F_DOONEXIT_OFFSET UNITYSDK_OFFSET(0xB68C970)
+#define CLASS_2_5E8FC5A0679A5F9F__CTOR_OFFSET UNITYSDK_OFFSET(0xB68C790)
 
-inline static constexpr unsigned int Class_2_5E8FC5A0679A5F9F_TypeDefinitionIndex = 57669;
+inline static constexpr unsigned int Class_2_5E8FC5A0679A5F9F_TypeDefinitionIndex = 57515;
 
-class Class_2_5E8FC5A0679A5F9F : public ::Class_1_29B23DDF98AF43AC
+class Class_2_5E8FC5A0679A5F9F : public ::Class_1_CBE3940117D4417A
 {
 public:
 	::System::Void _ctor(::RPG::GameCore::GameEntity* a1)

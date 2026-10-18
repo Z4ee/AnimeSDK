@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define WWISECUSTOM_CUSTOMWWISESETTING_GETMODIFYWWISEMEMSETTINGFUNC_OFFSET UNITYSDK_OFFSET(0x1ED79D50)
+#define WWISECUSTOM_CUSTOMWWISESETTING_GETMODIFYWWISEMEMSETTINGFUNC_OFFSET UNITYSDK_OFFSET(0x1F442100)
 
 namespace WwiseCustom
 {
-	inline static constexpr unsigned int CustomWwiseSetting_TypeDefinitionIndex = 3914;
+	inline static constexpr unsigned int CustomWwiseSetting_TypeDefinitionIndex = 3915;
 
 	class CustomWwiseSetting : public ::System::Object
 	{

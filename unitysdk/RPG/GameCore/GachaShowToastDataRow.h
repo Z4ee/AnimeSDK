@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_GACHASHOWTOASTDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D123650)
-#define RPG_GAMECORE_GACHASHOWTOASTDATAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D123E30)
+#define RPG_GAMECORE_GACHASHOWTOASTDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D6FD370)
+#define RPG_GAMECORE_GACHASHOWTOASTDATAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6FDB50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GachaShowToastDataRow_TypeDefinitionIndex = 13261;
+	inline static constexpr unsigned int GachaShowToastDataRow_TypeDefinitionIndex = 13367;
 
 	class GachaShowToastDataRow : public ::System::Object
 	{
@@ -19,12 +19,12 @@ namespace RPG::GameCore
 		::System::String* GotoBGMState; // 0x10
 		::System::String* LoopBGMState; // 0x18
 		::RPG::Client::TextID AvatarShowTitle; // 0x20
-		::System::UInt32 LoopVideoID; // 0x30
+		::System::Single LoopBGMOpenTime; // 0x30
 		::System::Single LoopUIOpenTime; // 0x34
-		::System::Single LoopBGMOpenTime; // 0x38
-		::System::UInt32 GachaID; // 0x3C
-		::System::UInt32 ShowVideoID; // 0x40
-		::System::UInt32 TransitionVideoID; // 0x44
+		::System::UInt32 ShowVideoID; // 0x38
+		::System::UInt32 LoopVideoID; // 0x3C
+		::System::UInt32 TransitionVideoID; // 0x40
+		::System::UInt32 GachaID; // 0x44
 
 		::System::Void _ctor()
 		{

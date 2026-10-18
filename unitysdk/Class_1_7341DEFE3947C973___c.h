@@ -2,25 +2,25 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_21DCD4640D389503_44;
+class Class_1_21DCD4640D389503_53;
 namespace System { template <typename T> class Comparison_1; }
 
-#define CLASS_1_7341DEFE3947C973___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BFC26F0)
-#define CLASS_1_7341DEFE3947C973___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1BFC2730)
-#define CLASS_1_7341DEFE3947C973___C__LOAD_B__4_0_OFFSET UNITYSDK_OFFSET(0x1BFC2740)
+#define CLASS_1_7341DEFE3947C973___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C4CF8C0)
+#define CLASS_1_7341DEFE3947C973___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4CF900)
+#define CLASS_1_7341DEFE3947C973___C__LOAD_B__4_0_OFFSET UNITYSDK_OFFSET(0x1C4CF910)
 
-inline static constexpr unsigned int Class_1_7341DEFE3947C973___c_TypeDefinitionIndex = 40236;
+inline static constexpr unsigned int Class_1_7341DEFE3947C973___c_TypeDefinitionIndex = 41533;
 
 class Class_1_7341DEFE3947C973___c : public ::System::Object
 {
 public:
-	static ::System::Comparison_1<::Class_1_21DCD4640D389503_44*>** StaticGet___9__4_0()
+	static ::System::Comparison_1<::Class_1_21DCD4640D389503_53*>** StaticGet___9__4_0()
 	{
-		return (::System::Comparison_1<::Class_1_21DCD4640D389503_44*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_7341DEFE3947C973___c_TypeDefinitionIndex)->GetStaticField(0x19B20);
+		return (::System::Comparison_1<::Class_1_21DCD4640D389503_53*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_7341DEFE3947C973___c_TypeDefinitionIndex)->GetStaticField(0x15530);
 	}
 	static ::Class_1_7341DEFE3947C973___c** StaticGet___9()
 	{
-		return (::Class_1_7341DEFE3947C973___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_7341DEFE3947C973___c_TypeDefinitionIndex)->GetStaticField(0x19B28);
+		return (::Class_1_7341DEFE3947C973___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_7341DEFE3947C973___c_TypeDefinitionIndex)->GetStaticField(0x15538);
 	}
 
 	static ::System::Void _cctor()
@@ -33,8 +33,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_7341DEFE3947C973___C__CTOR_OFFSET))(this);
 	}
 
-	::System::Int32 _Load_b__4_0(::Class_1_21DCD4640D389503_44* a1, ::Class_1_21DCD4640D389503_44* a2)
+	::System::Int32 _Load_b__4_0(::Class_1_21DCD4640D389503_53* a1, ::Class_1_21DCD4640D389503_53* a2)
 	{
-		return ((::System::Int32(*)(::PVOID, ::Class_1_21DCD4640D389503_44*, ::Class_1_21DCD4640D389503_44*))((::PBYTE)hIl2Cpp + CLASS_1_7341DEFE3947C973___C__LOAD_B__4_0_OFFSET))(this, a1, a2);
+		return ((::System::Int32(*)(::PVOID, ::Class_1_21DCD4640D389503_53*, ::Class_1_21DCD4640D389503_53*))((::PBYTE)hIl2Cpp + CLASS_1_7341DEFE3947C973___C__LOAD_B__4_0_OFFSET))(this, a1, a2);
 	}
 };

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MessageSpecialChangeType_TypeDefinitionIndex = 14291;
+	inline static constexpr unsigned int MessageSpecialChangeType_TypeDefinitionIndex = 14456;
 
 	enum class MessageSpecialChangeType : ::System::Int32
 	{

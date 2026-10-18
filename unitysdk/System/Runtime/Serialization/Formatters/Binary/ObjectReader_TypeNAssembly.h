@@ -5,7 +5,7 @@
 namespace System { class String; }
 namespace System { class Type; }
 
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_OBJECTREADER_TYPENASSEMBLY__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE15340)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_OBJECTREADER_TYPENASSEMBLY__CTOR_OFFSET UNITYSDK_OFFSET(0x1C320E40)
 
 namespace System::Runtime::Serialization::Formatters::Binary
 {
@@ -14,8 +14,8 @@ namespace System::Runtime::Serialization::Formatters::Binary
 	class ObjectReader_TypeNAssembly : public ::System::Object
 	{
 	public:
-		::System::Type* type; // 0x10
-		::System::String* assemblyName; // 0x18
+		::System::String* assemblyName; // 0x10
+		::System::Type* type; // 0x18
 
 		::System::Void _ctor()
 		{

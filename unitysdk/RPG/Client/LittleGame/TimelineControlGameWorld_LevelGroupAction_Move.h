@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/Client/LittleGame/TimelineControlGameWorld_LevelGroupAction.h"
 #include "unitysdk/UnityEngine/Vector3Int.h"
 
-#define RPG_CLIENT_LITTLEGAME_TIMELINECONTROLGAMEWORLD_LEVELGROUPACTION_MOVE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C49A300)
+#define RPG_CLIENT_LITTLEGAME_TIMELINECONTROLGAMEWORLD_LEVELGROUPACTION_MOVE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CA09850)
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int TimelineControlGameWorld_LevelGroupAction_Move_TypeDefinitionIndex = 41233;
+	inline static constexpr unsigned int TimelineControlGameWorld_LevelGroupAction_Move_TypeDefinitionIndex = 42522;
 
 	class TimelineControlGameWorld_LevelGroupAction_Move : public ::RPG::Client::LittleGame::TimelineControlGameWorld_LevelGroupAction
 	{

@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_STATUSRESISTANCETYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D56DFB0)
-#define RPG_GAMECORE_STATUSRESISTANCETYPEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D56E530)
+#define RPG_GAMECORE_STATUSRESISTANCETYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DB239A0)
+#define RPG_GAMECORE_STATUSRESISTANCETYPEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB23F20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StatusResistanceTypeRow_TypeDefinitionIndex = 14084;
+	inline static constexpr unsigned int StatusResistanceTypeRow_TypeDefinitionIndex = 14191;
 
 	class StatusResistanceTypeRow : public ::System::Object
 	{

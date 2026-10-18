@@ -4,12 +4,12 @@
 
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_CAMERASHAKETRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0xE825E50)
-#define RPGTOOLS_TIMELINE_CAMERASHAKETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xE825F50)
+#define RPGTOOLS_TIMELINE_CAMERASHAKETRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0xE8C3AD0)
+#define RPGTOOLS_TIMELINE_CAMERASHAKETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xE8C3BD0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int CameraShakeTrack_TypeDefinitionIndex = 48270;
+	inline static constexpr unsigned int CameraShakeTrack_TypeDefinitionIndex = 47811;
 
 	class CameraShakeTrack : public ::UnityEngine::Timeline::TrackAsset
 	{

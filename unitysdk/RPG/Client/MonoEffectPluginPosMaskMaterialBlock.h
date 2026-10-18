@@ -7,12 +7,12 @@
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_MONOEFFECTPLUGINPOSMASKMATERIALBLOCK_SETMATERIALPROPETIES_OFFSET UNITYSDK_OFFSET(0xD7C4460)
-#define RPG_CLIENT_MONOEFFECTPLUGINPOSMASKMATERIALBLOCK__CTOR_OFFSET UNITYSDK_OFFSET(0xD7C4690)
+#define RPG_CLIENT_MONOEFFECTPLUGINPOSMASKMATERIALBLOCK_SETMATERIALPROPETIES_OFFSET UNITYSDK_OFFSET(0xD8064B0)
+#define RPG_CLIENT_MONOEFFECTPLUGINPOSMASKMATERIALBLOCK__CTOR_OFFSET UNITYSDK_OFFSET(0xD8066E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginPosMaskMaterialBlock_TypeDefinitionIndex = 69899;
+	inline static constexpr unsigned int MonoEffectPluginPosMaskMaterialBlock_TypeDefinitionIndex = 69933;
 
 	class MonoEffectPluginPosMaskMaterialBlock : public ::RPG::Client::MonoEffectPluginCompoundMaterialBlock
 	{

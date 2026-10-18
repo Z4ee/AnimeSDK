@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int B51RacingStatType_TypeDefinitionIndex = 10932;
+	inline static constexpr unsigned int B51RacingStatType_TypeDefinitionIndex = 10948;
 
 	enum class B51RacingStatType : ::System::Int32
 	{

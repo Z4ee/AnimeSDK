@@ -7,20 +7,20 @@
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define RPG_GAMECORE_LEVELELATIONPOINTCHANGE_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE690DB0)
-#define RPG_GAMECORE_LEVELELATIONPOINTCHANGE_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE690D60)
-#define RPG_GAMECORE_LEVELELATIONPOINTCHANGE_INIT_OFFSET UNITYSDK_OFFSET(0xE690CD0)
-#define RPG_GAMECORE_LEVELELATIONPOINTCHANGE__CTOR_OFFSET UNITYSDK_OFFSET(0xE690E00)
+#define RPG_GAMECORE_LEVELELATIONPOINTCHANGE_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE6EBFB0)
+#define RPG_GAMECORE_LEVELELATIONPOINTCHANGE_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE6EBF60)
+#define RPG_GAMECORE_LEVELELATIONPOINTCHANGE_INIT_OFFSET UNITYSDK_OFFSET(0xE6EBED0)
+#define RPG_GAMECORE_LEVELELATIONPOINTCHANGE__CTOR_OFFSET UNITYSDK_OFFSET(0xE6EC000)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelElationPointChange_TypeDefinitionIndex = 56937;
+	inline static constexpr unsigned int LevelElationPointChange_TypeDefinitionIndex = 56758;
 
 	class LevelElationPointChange : public ::Class_1_BF7A075734D15E98
 	{
 	public:
-		::RPG::GameCore::GameEntity* Source; // 0x18
-		::RPG::GameCore::TaskContext* Context; // 0x20
+		::RPG::GameCore::TaskContext* Context; // 0x18
+		::RPG::GameCore::GameEntity* Source; // 0x20
 		::RPG::GameCore::FixPoint ChangeValue; // 0x28
 		::RPG::GameCore::FixPoint NewValue; // 0x30
 		::RPG::GameCore::FixPoint OldValue; // 0x38

@@ -5,15 +5,15 @@
 
 namespace System { class String; }
 
-#define CLASS_1_9268626D960D1854__CTOR_OFFSET UNITYSDK_OFFSET(0xB5BB110)
+#define CLASS_1_9268626D960D1854__CTOR_OFFSET UNITYSDK_OFFSET(0xB3FFB70)
 
-inline static constexpr unsigned int Class_1_9268626D960D1854_TypeDefinitionIndex = 55800;
+inline static constexpr unsigned int Class_1_9268626D960D1854_TypeDefinitionIndex = 55608;
 
 class Class_1_9268626D960D1854 : public ::System::Object
 {
 public:
-	::System::String* CDEEHGCEOKN; // 0x10
-	::System::String* GFNAPNFFGPJ; // 0x18
+	::System::String* GFNAPNFFGPJ; // 0x10
+	::System::String* CDEEHGCEOKN; // 0x18
 	::System::Int32 NALMBOOCCIN; // 0x20
 	::System::Boolean GNDCCBNILML; // 0x24
 	::RPG::GameCore::BattleScreenEffectType DLMINHHKKMK; // 0x28

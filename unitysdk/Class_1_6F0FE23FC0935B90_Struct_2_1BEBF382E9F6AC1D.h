@@ -6,7 +6,7 @@
 class Class_3_2CA3754E0AA55F4B;
 namespace System { class Type; }
 
-inline static constexpr unsigned int Class_1_6F0FE23FC0935B90_Struct_2_1BEBF382E9F6AC1D_TypeDefinitionIndex = 56176;
+inline static constexpr unsigned int Class_1_6F0FE23FC0935B90_Struct_2_1BEBF382E9F6AC1D_TypeDefinitionIndex = 55988;
 
 struct alignas(8) Class_1_6F0FE23FC0935B90_Struct_2_1BEBF382E9F6AC1D
 {

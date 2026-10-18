@@ -6,7 +6,7 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System::Xml { class XmlElement; }
 
-#define SYSTEM_XML_SERIALIZATION_XMLELEMENTEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1E83E520)
+#define SYSTEM_XML_SERIALIZATION_XMLELEMENTEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF071C0)
 
 namespace System::Xml::Serialization
 {
@@ -15,11 +15,11 @@ namespace System::Xml::Serialization
 	class XmlElementEventArgs : public ::System::EventArgs
 	{
 	public:
-		::System::Xml::XmlElement* elem; // 0x10
-		::System::String* qnames; // 0x18
+		::System::String* qnames; // 0x10
+		::System::Xml::XmlElement* elem; // 0x18
 		::System::Object* o; // 0x20
-		::System::Int32 lineNumber; // 0x28
-		::System::Int32 linePosition; // 0x2C
+		::System::Int32 linePosition; // 0x28
+		::System::Int32 lineNumber; // 0x2C
 
 		::System::Void _ctor(::System::Xml::XmlElement* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Object* a4, ::System::String* a5)
 		{

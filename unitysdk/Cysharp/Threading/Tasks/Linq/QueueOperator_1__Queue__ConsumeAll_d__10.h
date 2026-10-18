@@ -13,7 +13,7 @@ namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int QueueOperator_1__Queue__ConsumeAll_d__10_TypeDefinitionIndex = 44401;
+	inline static constexpr unsigned int QueueOperator_1__Queue__ConsumeAll_d__10_TypeDefinitionIndex = 45540;
 
 	template <typename TSource>
 	struct QueueOperator_1__Queue__ConsumeAll_d__10

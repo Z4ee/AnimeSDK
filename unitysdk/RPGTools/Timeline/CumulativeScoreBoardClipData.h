@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_CUMULATIVESCOREBOARDCLIPDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xE8393C0)
+#define RPGTOOLS_TIMELINE_CUMULATIVESCOREBOARDCLIPDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xE8D7140)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int CumulativeScoreBoardClipData_TypeDefinitionIndex = 48738;
+	inline static constexpr unsigned int CumulativeScoreBoardClipData_TypeDefinitionIndex = 48278;
 
 	class CumulativeScoreBoardClipData : public ::System::Object
 	{

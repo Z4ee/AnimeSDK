@@ -5,12 +5,12 @@
 namespace RPG::Client { class CharacterAtlasFace; }
 namespace RPG::Client { class MonoAnimatorStateSimpleEvent; }
 
-#define RPG_CLIENT_MONOANIMATORSTATESIMPLEEVENT_EVENT_SETCHARACTERATLASFACE_METHOD_2_785C4F72B6B07E5A_OFFSET UNITYSDK_OFFSET(0xD72FA40)
-#define RPG_CLIENT_MONOANIMATORSTATESIMPLEEVENT_EVENT_SETCHARACTERATLASFACE__CTOR_OFFSET UNITYSDK_OFFSET(0xD72FAA0)
+#define RPG_CLIENT_MONOANIMATORSTATESIMPLEEVENT_EVENT_SETCHARACTERATLASFACE_METHOD_2_785C4F72B6B07E5A_OFFSET UNITYSDK_OFFSET(0xD72EE40)
+#define RPG_CLIENT_MONOANIMATORSTATESIMPLEEVENT_EVENT_SETCHARACTERATLASFACE__CTOR_OFFSET UNITYSDK_OFFSET(0xD72EEA0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoAnimatorStateSimpleEvent_Event_SetCharacterAtlasFace_TypeDefinitionIndex = 68489;
+	inline static constexpr unsigned int MonoAnimatorStateSimpleEvent_Event_SetCharacterAtlasFace_TypeDefinitionIndex = 68523;
 
 	class MonoAnimatorStateSimpleEvent_Event_SetCharacterAtlasFace : public ::RPG::Client::MonoAnimatorStateSimpleEvent_Event
 	{

@@ -6,18 +6,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ROGUETALKNAMECOLORROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D412100)
-#define RPG_GAMECORE_ROGUETALKNAMECOLORROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D412960)
+#define RPG_GAMECORE_ROGUETALKNAMECOLORROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DA2FDC0)
+#define RPG_GAMECORE_ROGUETALKNAMECOLORROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1DA30620)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueTalkNameColorRow_TypeDefinitionIndex = 14646;
+	inline static constexpr unsigned int RogueTalkNameColorRow_TypeDefinitionIndex = 14811;
 
 	class RogueTalkNameColorRow : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::RogueTalkColorType Color; // 0x10
-		::RPG::Client::TextID TextmapID; // 0x18
+		::RPG::Client::TextID TextmapID; // 0x10
+		::RPG::GameCore::RogueTalkColorType Color; // 0x20
 
 		::System::Void _ctor()
 		{

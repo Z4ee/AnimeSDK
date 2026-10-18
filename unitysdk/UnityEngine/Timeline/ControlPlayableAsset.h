@@ -22,60 +22,60 @@ namespace UnityEngine { class Transform; }
 namespace UnityEngine::Playables { class PlayableDirector; }
 namespace UnityEngine::Timeline { class IPropertyCollector; }
 
-#define UNITYENGINE_TIMELINE_CONTROLPLAYABLEASSET_CONNECTMIXERANDPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1ECBF750)
-#define UNITYENGINE_TIMELINE_CONTROLPLAYABLEASSET_CONNECTPLAYABLESTOMIXER_OFFSET UNITYSDK_OFFSET(0x1ECBF4D0)
-#define UNITYENGINE_TIMELINE_CONTROLPLAYABLEASSET_CREATEACTIVATIONPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1ECBE2D0)
-#define UNITYENGINE_TIMELINE_CONTROLPLAYABLEASSET_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1ECBC370)
-#define UNITYENGINE_TIMELINE_CONTROLPLAYABLEASSET_GATHERPROPERTIES_OFFSET UNITYSDK_OFFSET(0x1ECBFFC0)
-#define UNITYENGINE_TIMELINE_CONTROLPLAYABLEASSET_GETCONTROLABLESCRIPTS_OFFSET UNITYSDK_OFFSET(0x1ECBEF20)
-#define UNITYENGINE_TIMELINE_CONTROLPLAYABLEASSET_GETCONTROLDATAS_OFFSET UNITYSDK_OFFSET(0x1ECC1600)
-#define UNITYENGINE_TIMELINE_CONTROLPLAYABLEASSET_GETPARTICLESYSTEMROOTS_1_OFFSET UNITYSDK_OFFSET(0x1ECBFDA0)
-#define UNITYENGINE_TIMELINE_CONTROLPLAYABLEASSET_GETPARTICLESYSTEMROOTS_OFFSET UNITYSDK_OFFSET(0x1ECBD0F0)
-#define UNITYENGINE_TIMELINE_CONTROLPLAYABLEASSET_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1ECBC360)
-#define UNITYENGINE_TIMELINE_CONTROLPLAYABLEASSET_GET_CONTROLLINGDIRECTORS_OFFSET UNITYSDK_OFFSET(0x1ECBC2E0)
-#define UNITYENGINE_TIMELINE_CONTROLPLAYABLEASSET_GET_CONTROLLINGPARTICLES_OFFSET UNITYSDK_OFFSET(0x1ECBC300)
-#define UNITYENGINE_TIMELINE_CONTROLPLAYABLEASSET_GET_DURATION_OFFSET UNITYSDK_OFFSET(0x1ECBC350)
-#define UNITYENGINE_TIMELINE_CONTROLPLAYABLEASSET_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1ECBC320)
-#define UNITYENGINE_TIMELINE_CONTROLPLAYABLEASSET_SEARCHHIEARCHYANDCONNECTPARTICLESYSTEM_OFFSET UNITYSDK_OFFSET(0x1ECBE9E0)
-#define UNITYENGINE_TIMELINE_CONTROLPLAYABLEASSET_SEARCHHIERARCHYANDCONNECTCONTROLABLESCRIPTS_OFFSET UNITYSDK_OFFSET(0x1ECBEF80)
-#define UNITYENGINE_TIMELINE_CONTROLPLAYABLEASSET_SEARCHHIERARCHYANDCONNECTDIRECTOR_OFFSET UNITYSDK_OFFSET(0x1ECBE3C0)
-#define UNITYENGINE_TIMELINE_CONTROLPLAYABLEASSET_SETCONTROLDATAS_OFFSET UNITYSDK_OFFSET(0x1ECC14F0)
-#define UNITYENGINE_TIMELINE_CONTROLPLAYABLEASSET_SET_CONTROLLINGDIRECTORS_OFFSET UNITYSDK_OFFSET(0x1ECBC2F0)
-#define UNITYENGINE_TIMELINE_CONTROLPLAYABLEASSET_SET_CONTROLLINGPARTICLES_OFFSET UNITYSDK_OFFSET(0x1ECBC310)
-#define UNITYENGINE_TIMELINE_CONTROLPLAYABLEASSET_UPDATEDURATIONANDLOOPFLAG_OFFSET UNITYSDK_OFFSET(0x1ECBD1A0)
-#define UNITYENGINE_TIMELINE_CONTROLPLAYABLEASSET__CCTOR_OFFSET UNITYSDK_OFFSET(0x1ECC1820)
-#define UNITYENGINE_TIMELINE_CONTROLPLAYABLEASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x1ECC17D0)
+#define UNITYENGINE_TIMELINE_CONTROLPLAYABLEASSET_CONNECTMIXERANDPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1F387420)
+#define UNITYENGINE_TIMELINE_CONTROLPLAYABLEASSET_CONNECTPLAYABLESTOMIXER_OFFSET UNITYSDK_OFFSET(0x1F3871A0)
+#define UNITYENGINE_TIMELINE_CONTROLPLAYABLEASSET_CREATEACTIVATIONPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1F385FA0)
+#define UNITYENGINE_TIMELINE_CONTROLPLAYABLEASSET_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1F384040)
+#define UNITYENGINE_TIMELINE_CONTROLPLAYABLEASSET_GATHERPROPERTIES_OFFSET UNITYSDK_OFFSET(0x1F387C90)
+#define UNITYENGINE_TIMELINE_CONTROLPLAYABLEASSET_GETCONTROLABLESCRIPTS_OFFSET UNITYSDK_OFFSET(0x1F386BF0)
+#define UNITYENGINE_TIMELINE_CONTROLPLAYABLEASSET_GETCONTROLDATAS_OFFSET UNITYSDK_OFFSET(0x1F3892D0)
+#define UNITYENGINE_TIMELINE_CONTROLPLAYABLEASSET_GETPARTICLESYSTEMROOTS_1_OFFSET UNITYSDK_OFFSET(0x1F387A70)
+#define UNITYENGINE_TIMELINE_CONTROLPLAYABLEASSET_GETPARTICLESYSTEMROOTS_OFFSET UNITYSDK_OFFSET(0x1F384DC0)
+#define UNITYENGINE_TIMELINE_CONTROLPLAYABLEASSET_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1F384030)
+#define UNITYENGINE_TIMELINE_CONTROLPLAYABLEASSET_GET_CONTROLLINGDIRECTORS_OFFSET UNITYSDK_OFFSET(0x1F383FB0)
+#define UNITYENGINE_TIMELINE_CONTROLPLAYABLEASSET_GET_CONTROLLINGPARTICLES_OFFSET UNITYSDK_OFFSET(0x1F383FD0)
+#define UNITYENGINE_TIMELINE_CONTROLPLAYABLEASSET_GET_DURATION_OFFSET UNITYSDK_OFFSET(0x1F384020)
+#define UNITYENGINE_TIMELINE_CONTROLPLAYABLEASSET_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1F383FF0)
+#define UNITYENGINE_TIMELINE_CONTROLPLAYABLEASSET_SEARCHHIEARCHYANDCONNECTPARTICLESYSTEM_OFFSET UNITYSDK_OFFSET(0x1F3866B0)
+#define UNITYENGINE_TIMELINE_CONTROLPLAYABLEASSET_SEARCHHIERARCHYANDCONNECTCONTROLABLESCRIPTS_OFFSET UNITYSDK_OFFSET(0x1F386C50)
+#define UNITYENGINE_TIMELINE_CONTROLPLAYABLEASSET_SEARCHHIERARCHYANDCONNECTDIRECTOR_OFFSET UNITYSDK_OFFSET(0x1F386090)
+#define UNITYENGINE_TIMELINE_CONTROLPLAYABLEASSET_SETCONTROLDATAS_OFFSET UNITYSDK_OFFSET(0x1F3891C0)
+#define UNITYENGINE_TIMELINE_CONTROLPLAYABLEASSET_SET_CONTROLLINGDIRECTORS_OFFSET UNITYSDK_OFFSET(0x1F383FC0)
+#define UNITYENGINE_TIMELINE_CONTROLPLAYABLEASSET_SET_CONTROLLINGPARTICLES_OFFSET UNITYSDK_OFFSET(0x1F383FE0)
+#define UNITYENGINE_TIMELINE_CONTROLPLAYABLEASSET_UPDATEDURATIONANDLOOPFLAG_OFFSET UNITYSDK_OFFSET(0x1F384E70)
+#define UNITYENGINE_TIMELINE_CONTROLPLAYABLEASSET__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F3894F0)
+#define UNITYENGINE_TIMELINE_CONTROLPLAYABLEASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x1F3894A0)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int ControlPlayableAsset_TypeDefinitionIndex = 37516;
+	inline static constexpr unsigned int ControlPlayableAsset_TypeDefinitionIndex = 38813;
 
 	class ControlPlayableAsset : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:
 		static ::System::Collections::Generic::List_1<::UnityEngine::ParticleSystem*>** StaticGet_k_EmptyParticlesList()
 		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::ParticleSystem*>**)Il2CppClass::FromTypeDefinitionIndex(ControlPlayableAsset_TypeDefinitionIndex)->GetStaticField(0x52AC0);
+			return (::System::Collections::Generic::List_1<::UnityEngine::ParticleSystem*>**)Il2CppClass::FromTypeDefinitionIndex(ControlPlayableAsset_TypeDefinitionIndex)->GetStaticField(0x4B4B0);
 		}
 		static ::System::Collections::Generic::HashSet_1<::UnityEngine::GameObject*>** StaticGet_s_CreatedPrefabs()
 		{
-			return (::System::Collections::Generic::HashSet_1<::UnityEngine::GameObject*>**)Il2CppClass::FromTypeDefinitionIndex(ControlPlayableAsset_TypeDefinitionIndex)->GetStaticField(0x52AC8);
-		}
-		static ::System::Func_2<::UnityEngine::Timeline::ControlPlayableAsset*, ::Il2CppArray<::UnityEngine::ScriptableObject*>*>** StaticGet_OnAddControlDatas()
-		{
-			return (::System::Func_2<::UnityEngine::Timeline::ControlPlayableAsset*, ::Il2CppArray<::UnityEngine::ScriptableObject*>*>**)Il2CppClass::FromTypeDefinitionIndex(ControlPlayableAsset_TypeDefinitionIndex)->GetStaticField(0x52AD0);
-		}
-		static ::System::Collections::Generic::List_1<::UnityEngine::Playables::PlayableDirector*>** StaticGet_k_EmptyDirectorsList()
-		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::Playables::PlayableDirector*>**)Il2CppClass::FromTypeDefinitionIndex(ControlPlayableAsset_TypeDefinitionIndex)->GetStaticField(0x52AD8);
-		}
-		static ::System::Collections::Generic::HashSet_1<::UnityEngine::Playables::PlayableDirector*>** StaticGet_s_ProcessedDirectors()
-		{
-			return (::System::Collections::Generic::HashSet_1<::UnityEngine::Playables::PlayableDirector*>**)Il2CppClass::FromTypeDefinitionIndex(ControlPlayableAsset_TypeDefinitionIndex)->GetStaticField(0x52AE0);
+			return (::System::Collections::Generic::HashSet_1<::UnityEngine::GameObject*>**)Il2CppClass::FromTypeDefinitionIndex(ControlPlayableAsset_TypeDefinitionIndex)->GetStaticField(0x4B4B8);
 		}
 		static ::System::Action_4<::UnityEngine::Timeline::ControlPlayableAsset*, ::UnityEngine::GameObject*, ::UnityEngine::Playables::PlayableGraph, ::System::Collections::Generic::List_1<::UnityEngine::Playables::Playable>*>** StaticGet_OnModifyPlayables()
 		{
-			return (::System::Action_4<::UnityEngine::Timeline::ControlPlayableAsset*, ::UnityEngine::GameObject*, ::UnityEngine::Playables::PlayableGraph, ::System::Collections::Generic::List_1<::UnityEngine::Playables::Playable>*>**)Il2CppClass::FromTypeDefinitionIndex(ControlPlayableAsset_TypeDefinitionIndex)->GetStaticField(0x52AE8);
+			return (::System::Action_4<::UnityEngine::Timeline::ControlPlayableAsset*, ::UnityEngine::GameObject*, ::UnityEngine::Playables::PlayableGraph, ::System::Collections::Generic::List_1<::UnityEngine::Playables::Playable>*>**)Il2CppClass::FromTypeDefinitionIndex(ControlPlayableAsset_TypeDefinitionIndex)->GetStaticField(0x4B4C0);
+		}
+		static ::System::Collections::Generic::HashSet_1<::UnityEngine::Playables::PlayableDirector*>** StaticGet_s_ProcessedDirectors()
+		{
+			return (::System::Collections::Generic::HashSet_1<::UnityEngine::Playables::PlayableDirector*>**)Il2CppClass::FromTypeDefinitionIndex(ControlPlayableAsset_TypeDefinitionIndex)->GetStaticField(0x4B4C8);
+		}
+		static ::System::Func_2<::UnityEngine::Timeline::ControlPlayableAsset*, ::Il2CppArray<::UnityEngine::ScriptableObject*>*>** StaticGet_OnAddControlDatas()
+		{
+			return (::System::Func_2<::UnityEngine::Timeline::ControlPlayableAsset*, ::Il2CppArray<::UnityEngine::ScriptableObject*>*>**)Il2CppClass::FromTypeDefinitionIndex(ControlPlayableAsset_TypeDefinitionIndex)->GetStaticField(0x4B4D0);
+		}
+		static ::System::Collections::Generic::List_1<::UnityEngine::Playables::PlayableDirector*>** StaticGet_k_EmptyDirectorsList()
+		{
+			return (::System::Collections::Generic::List_1<::UnityEngine::Playables::PlayableDirector*>**)Il2CppClass::FromTypeDefinitionIndex(ControlPlayableAsset_TypeDefinitionIndex)->GetStaticField(0x4B4D8);
 		}
 		// static const ::System::Int32 k_MaxRandInt = 0x2710; // 0x0
 		::UnityEngine::ExposedReference_1<::UnityEngine::GameObject*> sourceGameObject; // 0x18

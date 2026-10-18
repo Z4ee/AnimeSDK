@@ -7,12 +7,12 @@ namespace RPG::GameCore { class MarbleSkillConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_GLOBALMARBLESKILLCONFIG_METHOD_2_C60FB29768ACD3CC_OFFSET UNITYSDK_OFFSET(0x1D12A160)
-#define RPG_GAMECORE_GLOBALMARBLESKILLCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D144E50)
+#define RPG_GAMECORE_GLOBALMARBLESKILLCONFIG_METHOD_2_C60FB29768ACD3CC_OFFSET UNITYSDK_OFFSET(0x1D71EE40)
+#define RPG_GAMECORE_GLOBALMARBLESKILLCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D71EF40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GlobalMarbleSkillConfig_TypeDefinitionIndex = 16707;
+	inline static constexpr unsigned int GlobalMarbleSkillConfig_TypeDefinitionIndex = 16899;
 
 	class GlobalMarbleSkillConfig : public ::RPG::GameCore::JsonConfig
 	{

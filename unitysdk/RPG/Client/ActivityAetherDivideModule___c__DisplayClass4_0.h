@@ -5,12 +5,12 @@
 namespace RPG::Client { class ActivityAetherDivideData; }
 namespace RPG::GameCore { class AetherDivideActivityQuestRow; }
 
-#define RPG_CLIENT_ACTIVITYAETHERDIVIDEMODULE___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC4B0800)
-#define RPG_CLIENT_ACTIVITYAETHERDIVIDEMODULE___C__DISPLAYCLASS4_0___INITDATA_B__0_OFFSET UNITYSDK_OFFSET(0xC4B1340)
+#define RPG_CLIENT_ACTIVITYAETHERDIVIDEMODULE___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC3B8310)
+#define RPG_CLIENT_ACTIVITYAETHERDIVIDEMODULE___C__DISPLAYCLASS4_0___INITDATA_B__0_OFFSET UNITYSDK_OFFSET(0xC3B8D80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityAetherDivideModule___c__DisplayClass4_0_TypeDefinitionIndex = 61482;
+	inline static constexpr unsigned int ActivityAetherDivideModule___c__DisplayClass4_0_TypeDefinitionIndex = 61388;
 
 	class ActivityAetherDivideModule___c__DisplayClass4_0 : public ::System::Object
 	{

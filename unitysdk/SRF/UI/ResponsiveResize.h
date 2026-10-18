@@ -3,12 +3,12 @@
 #include "unitysdk/SRF/UI/ResponsiveBase.h"
 #include "unitysdk/SRF/UI/ResponsiveResize_Element.h"
 
-#define SRF_UI_RESPONSIVERESIZE_REFRESH_OFFSET UNITYSDK_OFFSET(0x1E6B8B80)
-#define SRF_UI_RESPONSIVERESIZE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E6B8F00)
+#define SRF_UI_RESPONSIVERESIZE_REFRESH_OFFSET UNITYSDK_OFFSET(0x1ED808A0)
+#define SRF_UI_RESPONSIVERESIZE__CTOR_OFFSET UNITYSDK_OFFSET(0x1ED80C20)
 
 namespace SRF::UI
 {
-	inline static constexpr unsigned int ResponsiveResize_TypeDefinitionIndex = 34718;
+	inline static constexpr unsigned int ResponsiveResize_TypeDefinitionIndex = 35387;
 
 	class ResponsiveResize : public ::SRF::UI::ResponsiveBase
 	{

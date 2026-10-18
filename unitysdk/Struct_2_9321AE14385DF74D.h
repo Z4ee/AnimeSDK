@@ -4,7 +4,7 @@
 
 namespace RPG::GameCore { class FiveDimSplineMovePoint; }
 
-inline static constexpr unsigned int Struct_2_9321AE14385DF74D_TypeDefinitionIndex = 41907;
+inline static constexpr unsigned int Struct_2_9321AE14385DF74D_TypeDefinitionIndex = 43549;
 
 struct alignas(8) Struct_2_9321AE14385DF74D
 {

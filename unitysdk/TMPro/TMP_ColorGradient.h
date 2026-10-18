@@ -4,21 +4,21 @@
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/ScriptableObject.h"
 
-#define TMPRO_TMP_COLORGRADIENT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EC22EE0)
-#define TMPRO_TMP_COLORGRADIENT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1EC22E30)
-#define TMPRO_TMP_COLORGRADIENT__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1EC22E80)
-#define TMPRO_TMP_COLORGRADIENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1EC22DA0)
+#define TMPRO_TMP_COLORGRADIENT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F2EA740)
+#define TMPRO_TMP_COLORGRADIENT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F2EA690)
+#define TMPRO_TMP_COLORGRADIENT__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1F2EA6E0)
+#define TMPRO_TMP_COLORGRADIENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1F2EA600)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TMP_ColorGradient_TypeDefinitionIndex = 43355;
+	inline static constexpr unsigned int TMP_ColorGradient_TypeDefinitionIndex = 44547;
 
 	class TMP_ColorGradient : public ::UnityEngine::ScriptableObject
 	{
 	public:
 		static ::UnityEngine::Color* StaticGet_k_DefaultColor()
 		{
-			return (::UnityEngine::Color*)Il2CppClass::FromTypeDefinitionIndex(TMP_ColorGradient_TypeDefinitionIndex)->GetStaticField(0xF70);
+			return (::UnityEngine::Color*)Il2CppClass::FromTypeDefinitionIndex(TMP_ColorGradient_TypeDefinitionIndex)->GetStaticField(0x13870);
 		}
 		// static const ::TMPro::ColorMode k_DefaultColorMode; // 0x0
 		::TMPro::ColorMode colorMode; // 0x18

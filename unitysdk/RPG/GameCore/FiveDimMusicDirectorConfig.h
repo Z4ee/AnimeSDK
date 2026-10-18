@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class FiveDimMusicInfo; }
 
-#define RPG_GAMECORE_FIVEDIMMUSICDIRECTORCONFIG_METHOD_2_418A0938EF72B667_OFFSET UNITYSDK_OFFSET(0x1D0F5FA0)
-#define RPG_GAMECORE_FIVEDIMMUSICDIRECTORCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0F6090)
+#define RPG_GAMECORE_FIVEDIMMUSICDIRECTORCONFIG_METHOD_2_418A0938EF72B667_OFFSET UNITYSDK_OFFSET(0x1D6CE200)
+#define RPG_GAMECORE_FIVEDIMMUSICDIRECTORCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6CE2F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimMusicDirectorConfig_TypeDefinitionIndex = 18610;
+	inline static constexpr unsigned int FiveDimMusicDirectorConfig_TypeDefinitionIndex = 18820;
 
 	class FiveDimMusicDirectorConfig : public ::RPG::GameCore::JsonConfig
 	{

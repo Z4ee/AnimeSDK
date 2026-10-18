@@ -7,19 +7,19 @@
 
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_46A6E722A2DBC61B_METHOD_1_28F5A9EB02018B43_OFFSET UNITYSDK_OFFSET(0xBD23E60)
-#define CLASS_1_46A6E722A2DBC61B_METHOD_1_670FCB2B9E2FF6DE_OFFSET UNITYSDK_OFFSET(0xBD24030)
-#define CLASS_1_46A6E722A2DBC61B_METHOD_1_7043D7C56BCA4898_OFFSET UNITYSDK_OFFSET(0xBD24620)
-#define CLASS_1_46A6E722A2DBC61B_METHOD_1_C2EBF5998016ADC5_OFFSET UNITYSDK_OFFSET(0xBD241F0)
-#define CLASS_1_46A6E722A2DBC61B__CTOR_OFFSET UNITYSDK_OFFSET(0xBD24540)
+#define CLASS_1_46A6E722A2DBC61B_METHOD_1_28F5A9EB02018B43_OFFSET UNITYSDK_OFFSET(0xBBFE190)
+#define CLASS_1_46A6E722A2DBC61B_METHOD_1_670FCB2B9E2FF6DE_OFFSET UNITYSDK_OFFSET(0xBBFE360)
+#define CLASS_1_46A6E722A2DBC61B_METHOD_1_7043D7C56BCA4898_OFFSET UNITYSDK_OFFSET(0xBBFE950)
+#define CLASS_1_46A6E722A2DBC61B_METHOD_1_C2EBF5998016ADC5_OFFSET UNITYSDK_OFFSET(0xBBFE520)
+#define CLASS_1_46A6E722A2DBC61B__CTOR_OFFSET UNITYSDK_OFFSET(0xBBFE870)
 
-inline static constexpr unsigned int Class_1_46A6E722A2DBC61B_TypeDefinitionIndex = 62734;
+inline static constexpr unsigned int Class_1_46A6E722A2DBC61B_TypeDefinitionIndex = 62652;
 
 class Class_1_46A6E722A2DBC61B : public ::System::Object
 {
 public:
-	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::ValueTuple_2<::Struct_2_BC950E36747FB4C9, ::RPG::GameCore::AvatarSkillTreeAnchorType>>* LCIBIGFOMCA; // 0x10
-	::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::AvatarSkillTreeAnchorType, ::System::UInt32>*>* FGKDDIMLIMC; // 0x18
+	::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::AvatarSkillTreeAnchorType, ::System::UInt32>*>* FGKDDIMLIMC; // 0x10
+	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::ValueTuple_2<::Struct_2_BC950E36747FB4C9, ::RPG::GameCore::AvatarSkillTreeAnchorType>>* LCIBIGFOMCA; // 0x18
 
 	::System::Void _ctor()
 	{

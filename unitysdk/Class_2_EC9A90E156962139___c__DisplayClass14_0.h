@@ -6,16 +6,16 @@
 namespace RPG::Client { class MonoEffect; }
 namespace System { template <typename T> class Action_1; }
 
-#define CLASS_2_EC9A90E156962139___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1599B360)
-#define CLASS_2_EC9A90E156962139___C__DISPLAYCLASS14_0___DRAWLASER_B__0_OFFSET UNITYSDK_OFFSET(0x1599B4A0)
+#define CLASS_2_EC9A90E156962139___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15E7DA40)
+#define CLASS_2_EC9A90E156962139___C__DISPLAYCLASS14_0___DRAWLASER_B__0_OFFSET UNITYSDK_OFFSET(0x15E7DB80)
 
-inline static constexpr unsigned int Class_2_EC9A90E156962139___c__DisplayClass14_0_TypeDefinitionIndex = 77429;
+inline static constexpr unsigned int Class_2_EC9A90E156962139___c__DisplayClass14_0_TypeDefinitionIndex = 77900;
 
 class Class_2_EC9A90E156962139___c__DisplayClass14_0 : public ::System::Object
 {
 public:
-	::System::Action_1<::UnityEngine::Vector3>* onHit; // 0x10
-	::RPG::Client::MonoEffect* effectInstance; // 0x18
+	::RPG::Client::MonoEffect* effectInstance; // 0x10
+	::System::Action_1<::UnityEngine::Vector3>* onHit; // 0x18
 	::UnityEngine::Vector3 targetPos; // 0x20
 
 	::System::Void _ctor()

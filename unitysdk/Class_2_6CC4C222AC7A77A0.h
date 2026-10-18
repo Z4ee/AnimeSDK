@@ -6,17 +6,17 @@ namespace System { class String; }
 namespace UnityEngine::UI { class Image; }
 namespace UnityEngine::UI { class Text; }
 
-#define CLASS_2_6CC4C222AC7A77A0_METHOD_2_C5D11BE2748B8FC9_OFFSET UNITYSDK_OFFSET(0x16260C00)
-#define CLASS_2_6CC4C222AC7A77A0__CTOR_OFFSET UNITYSDK_OFFSET(0x16260CB0)
-#define CLASS_2_6CC4C222AC7A77A0__ONBIND_OFFSET UNITYSDK_OFFSET(0x16260B60)
+#define CLASS_2_6CC4C222AC7A77A0_METHOD_2_C5D11BE2748B8FC9_OFFSET UNITYSDK_OFFSET(0x16611080)
+#define CLASS_2_6CC4C222AC7A77A0__CTOR_OFFSET UNITYSDK_OFFSET(0x16611130)
+#define CLASS_2_6CC4C222AC7A77A0__ONBIND_OFFSET UNITYSDK_OFFSET(0x16610FE0)
 
-inline static constexpr unsigned int Class_2_6CC4C222AC7A77A0_TypeDefinitionIndex = 72218;
+inline static constexpr unsigned int Class_2_6CC4C222AC7A77A0_TypeDefinitionIndex = 72291;
 
 class Class_2_6CC4C222AC7A77A0 : public ::Class_1_34917908B7833130
 {
 public:
-	::UnityEngine::UI::Text* CALNLFBNMPM; // 0x60
-	::UnityEngine::UI::Image* LPMHMLOGPPN; // 0x68
+	::UnityEngine::UI::Image* LPMHMLOGPPN; // 0x60
+	::UnityEngine::UI::Text* CALNLFBNMPM; // 0x68
 
 	::System::Void _ctor()
 	{

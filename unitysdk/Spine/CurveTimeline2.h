@@ -4,13 +4,13 @@
 
 namespace System { class String; }
 
-#define SPINE_CURVETIMELINE2_GET_FRAMEENTRIES_OFFSET UNITYSDK_OFFSET(0x1E5D9650)
-#define SPINE_CURVETIMELINE2_SETFRAME_OFFSET UNITYSDK_OFFSET(0x1E5D9660)
-#define SPINE_CURVETIMELINE2__CTOR_OFFSET UNITYSDK_OFFSET(0x1E5D9530)
+#define SPINE_CURVETIMELINE2_GET_FRAMEENTRIES_OFFSET UNITYSDK_OFFSET(0x1ECA17F0)
+#define SPINE_CURVETIMELINE2_SETFRAME_OFFSET UNITYSDK_OFFSET(0x1ECA1800)
+#define SPINE_CURVETIMELINE2__CTOR_OFFSET UNITYSDK_OFFSET(0x1ECA16D0)
 
 namespace Spine
 {
-	inline static constexpr unsigned int CurveTimeline2_TypeDefinitionIndex = 38305;
+	inline static constexpr unsigned int CurveTimeline2_TypeDefinitionIndex = 39602;
 
 	class CurveTimeline2 : public ::Spine::CurveTimeline
 	{

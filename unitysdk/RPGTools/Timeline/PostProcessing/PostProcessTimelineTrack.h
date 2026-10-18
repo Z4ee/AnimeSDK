@@ -4,12 +4,12 @@
 
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_POSTPROCESSTIMELINETRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0xE8D2240)
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_POSTPROCESSTIMELINETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xE8C86C0)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_POSTPROCESSTIMELINETRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0xE927AE0)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_POSTPROCESSTIMELINETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xE9243E0)
 
 namespace RPGTools::Timeline::PostProcessing
 {
-	inline static constexpr unsigned int PostProcessTimelineTrack_TypeDefinitionIndex = 49051;
+	inline static constexpr unsigned int PostProcessTimelineTrack_TypeDefinitionIndex = 48597;
 
 	class PostProcessTimelineTrack : public ::UnityEngine::Timeline::TrackAsset
 	{

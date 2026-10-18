@@ -3,7 +3,7 @@
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int WhenEachState_TypeDefinitionIndex = 42791;
+	inline static constexpr unsigned int WhenEachState_TypeDefinitionIndex = 38376;
 
 	enum class WhenEachState : ::System::Byte
 	{

@@ -6,7 +6,7 @@
 #include "unitysdk/System/ValueTuple_2.h"
 #include "unitysdk/System/ValueType.h"
 
-inline static constexpr unsigned int Struct_2_C16DDFE2B0F9CE52_TypeDefinitionIndex = 40936;
+inline static constexpr unsigned int Struct_2_C16DDFE2B0F9CE52_TypeDefinitionIndex = 42221;
 
 struct alignas(4) Struct_2_C16DDFE2B0F9CE52
 {

@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace RPG::Client::RoadRash
 {
-	inline static constexpr unsigned int RoadRashObstacleTriggerEffectConfig_TypeDefinitionIndex = 75450;
+	inline static constexpr unsigned int RoadRashObstacleTriggerEffectConfig_TypeDefinitionIndex = 75865;
 
 	struct alignas(8) RoadRashObstacleTriggerEffectConfig
 	{

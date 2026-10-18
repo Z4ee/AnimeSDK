@@ -4,12 +4,12 @@
 
 namespace RPG::GameCore { class ToastPage; }
 
-#define RPGTOOLS_TIMELINE_TOASTPAGEBEHAVIOUR_METHOD_3_229CEF33F0AF9039_OFFSET UNITYSDK_OFFSET(0xE8F71C0)
-#define RPGTOOLS_TIMELINE_TOASTPAGEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xE8F7230)
+#define RPGTOOLS_TIMELINE_TOASTPAGEBEHAVIOUR_METHOD_3_229CEF33F0AF9039_OFFSET UNITYSDK_OFFSET(0xE94CC10)
+#define RPGTOOLS_TIMELINE_TOASTPAGEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xE94CC80)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int ToastPageBehaviour_TypeDefinitionIndex = 48866;
+	inline static constexpr unsigned int ToastPageBehaviour_TypeDefinitionIndex = 48412;
 
 	class ToastPageBehaviour : public ::RPGTools::Timeline::CustomEventBehaviour
 	{

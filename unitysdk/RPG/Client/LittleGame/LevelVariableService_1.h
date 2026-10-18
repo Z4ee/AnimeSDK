@@ -14,7 +14,7 @@ namespace System { template <typename T> class Action_1; }
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int LevelVariableService_1_TypeDefinitionIndex = 76027;
+	inline static constexpr unsigned int LevelVariableService_1_TypeDefinitionIndex = 76504;
 
 	template <typename TEntity>
 	class LevelVariableService_1 : public ::System::Object

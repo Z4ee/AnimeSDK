@@ -5,7 +5,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UILineRenderer_Curve_TypeDefinitionIndex = 72620;
+	inline static constexpr unsigned int UILineRenderer_Curve_TypeDefinitionIndex = 72695;
 
 	struct alignas(4) UILineRenderer_Curve
 	{

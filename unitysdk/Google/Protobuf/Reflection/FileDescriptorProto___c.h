@@ -4,20 +4,20 @@
 
 namespace Google::Protobuf::Reflection { class FileDescriptorProto; }
 
-#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTORPROTO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B384300)
-#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTORPROTO___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B384340)
-#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTORPROTO___C___CCTOR_B__98_0_OFFSET UNITYSDK_OFFSET(0x1B384350)
+#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTORPROTO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B886100)
+#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTORPROTO___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B886140)
+#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTORPROTO___C___CCTOR_B__98_0_OFFSET UNITYSDK_OFFSET(0x1B886150)
 
 namespace Google::Protobuf::Reflection
 {
-	inline static constexpr unsigned int FileDescriptorProto___c_TypeDefinitionIndex = 5453;
+	inline static constexpr unsigned int FileDescriptorProto___c_TypeDefinitionIndex = 5460;
 
 	class FileDescriptorProto___c : public ::System::Object
 	{
 	public:
 		static ::Google::Protobuf::Reflection::FileDescriptorProto___c** StaticGet___9()
 		{
-			return (::Google::Protobuf::Reflection::FileDescriptorProto___c**)Il2CppClass::FromTypeDefinitionIndex(FileDescriptorProto___c_TypeDefinitionIndex)->GetStaticField(0x1F330);
+			return (::Google::Protobuf::Reflection::FileDescriptorProto___c**)Il2CppClass::FromTypeDefinitionIndex(FileDescriptorProto___c_TypeDefinitionIndex)->GetStaticField(0x1D8C0);
 		}
 
 		static ::System::Void _cctor()

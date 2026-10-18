@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DisableYFollowMode_TypeDefinitionIndex = 18409;
+	inline static constexpr unsigned int DisableYFollowMode_TypeDefinitionIndex = 18620;
 
 	enum class DisableYFollowMode : ::System::Int32
 	{

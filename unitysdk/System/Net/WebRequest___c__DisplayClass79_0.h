@@ -7,8 +7,8 @@ namespace System::Net { class WebResponse; }
 namespace System::Security::Principal { class WindowsIdentity; }
 namespace System::Threading::Tasks { template <typename T> class Task_1; }
 
-#define SYSTEM_NET_WEBREQUEST___C__DISPLAYCLASS79_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1E9DBD30)
-#define SYSTEM_NET_WEBREQUEST___C__DISPLAYCLASS79_0__GETRESPONSEASYNC_B__1_OFFSET UNITYSDK_OFFSET(0x1E9DD1E0)
+#define SYSTEM_NET_WEBREQUEST___C__DISPLAYCLASS79_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1F0A38A0)
+#define SYSTEM_NET_WEBREQUEST___C__DISPLAYCLASS79_0__GETRESPONSEASYNC_B__1_OFFSET UNITYSDK_OFFSET(0x1F0A4D30)
 
 namespace System::Net
 {

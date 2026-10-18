@@ -8,22 +8,22 @@ namespace System { class String; }
 namespace UnityEngine::UI { class Image; }
 namespace UnityEngine::UI { class Text; }
 
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESITEMTAGCONTROL_GET__VIEWMODEL_OFFSET UNITYSDK_OFFSET(0xCB720E0)
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESITEMTAGCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0xCB723E0)
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESITEMTAGCONTROL__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0xCB71D70)
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESITEMTAGCONTROL__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0xCB71CB0)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESITEMTAGCONTROL_GET__VIEWMODEL_OFFSET UNITYSDK_OFFSET(0xCAC15C0)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESITEMTAGCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0xCAC1830)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESITEMTAGCONTROL__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0xCAC1250)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESITEMTAGCONTROL__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0xCAC1190)
 
 namespace RPG::Client::ChenLingFes
 {
-	inline static constexpr unsigned int ChenLingFesItemTagControl_TypeDefinitionIndex = 80012;
+	inline static constexpr unsigned int ChenLingFesItemTagControl_TypeDefinitionIndex = 81340;
 
 	class ChenLingFesItemTagControl : public ::Sofa::BaseSofaControl
 	{
 	public:
 		// static const ::System::String* PrefabPath; // 0x0
-		::UnityEngine::UI::Text* _Text; // 0x38
-		::UnityEngine::UI::Image* _Icon; // 0x40
-		::RPG::Client::MonoUIColorSwitcher* _ColorSwitcher; // 0x48
+		::UnityEngine::UI::Text* _Text; // 0x40
+		::UnityEngine::UI::Image* _Icon; // 0x48
+		::RPG::Client::MonoUIColorSwitcher* _ColorSwitcher; // 0x50
 
 		::System::Void _ctor()
 		{

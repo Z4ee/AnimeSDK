@@ -4,9 +4,9 @@
 
 namespace UnityEngine { class Material; }
 
-#define CLASS_1_3B8D4E8FE7E2216A_CLASS_1_D1816BF8FC921BEF__CTOR_OFFSET UNITYSDK_OFFSET(0x1615E200)
+#define CLASS_1_3B8D4E8FE7E2216A_CLASS_1_D1816BF8FC921BEF__CTOR_OFFSET UNITYSDK_OFFSET(0x164D1A40)
 
-inline static constexpr unsigned int Class_1_3B8D4E8FE7E2216A_Class_1_D1816BF8FC921BEF_TypeDefinitionIndex = 49431;
+inline static constexpr unsigned int Class_1_3B8D4E8FE7E2216A_Class_1_D1816BF8FC921BEF_TypeDefinitionIndex = 49005;
 
 class Class_1_3B8D4E8FE7E2216A_Class_1_D1816BF8FC921BEF : public ::System::Object
 {

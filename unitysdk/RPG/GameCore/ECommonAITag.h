@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ECommonAITag_TypeDefinitionIndex = 54558;
+	inline static constexpr unsigned int ECommonAITag_TypeDefinitionIndex = 54344;
 
 	enum class ECommonAITag : ::System::Byte
 	{

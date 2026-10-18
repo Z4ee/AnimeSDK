@@ -9,7 +9,7 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int TakeWhile_1_TypeDefinitionIndex = 44520;
+	inline static constexpr unsigned int TakeWhile_1_TypeDefinitionIndex = 45659;
 
 	template <typename TSource>
 	class TakeWhile_1 : public ::System::Object

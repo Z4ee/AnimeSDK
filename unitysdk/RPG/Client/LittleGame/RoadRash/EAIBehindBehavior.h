@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame::RoadRash
 {
-	inline static constexpr unsigned int EAIBehindBehavior_TypeDefinitionIndex = 41287;
+	inline static constexpr unsigned int EAIBehindBehavior_TypeDefinitionIndex = 42899;
 
 	enum class EAIBehindBehavior : ::System::Int32
 	{

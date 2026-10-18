@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AdvIsometricCameraSizeBlend; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_44D223E9B4C5DA72_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB4C97A0)
-#define CLASS_3_44D223E9B4C5DA72__CTOR_OFFSET UNITYSDK_OFFSET(0xB4C9770)
+#define CLASS_3_44D223E9B4C5DA72_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB472BB0)
+#define CLASS_3_44D223E9B4C5DA72__CTOR_OFFSET UNITYSDK_OFFSET(0xB472B80)
 
-inline static constexpr unsigned int Class_3_44D223E9B4C5DA72_TypeDefinitionIndex = 52661;
+inline static constexpr unsigned int Class_3_44D223E9B4C5DA72_TypeDefinitionIndex = 52386;
 
 class Class_3_44D223E9B4C5DA72 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AdvIsometricCameraSizeBlend*>
 {

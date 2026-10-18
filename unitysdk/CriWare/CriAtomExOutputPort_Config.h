@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define CRIWARE_CRIATOMEXOUTPUTPORT_CONFIG_DEFAULT_OFFSET UNITYSDK_OFFSET(0x164CBA50)
+#define CRIWARE_CRIATOMEXOUTPUTPORT_CONFIG_DEFAULT_OFFSET UNITYSDK_OFFSET(0x166F2680)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExOutputPort_Config_TypeDefinitionIndex = 38754;
+	inline static constexpr unsigned int CriAtomExOutputPort_Config_TypeDefinitionIndex = 40051;
 
 	struct alignas(8) CriAtomExOutputPort_Config
 	{

@@ -5,24 +5,24 @@
 namespace RPG::Client::LittleGame::PixAir { class PixAirEquipStatistics; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_LITTLEGAME_PIXAIR_PIXAIRPLANESTATISTICS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C49A000)
-#define RPG_CLIENT_LITTLEGAME_PIXAIR_PIXAIRPLANESTATISTICS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1C49A040)
-#define RPG_CLIENT_LITTLEGAME_PIXAIR_PIXAIRPLANESTATISTICS___C__GETEQUIPSTATSSORTEDBYUSECOUNT_B__7_0_OFFSET UNITYSDK_OFFSET(0x1C49A050)
+#define RPG_CLIENT_LITTLEGAME_PIXAIR_PIXAIRPLANESTATISTICS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CA09560)
+#define RPG_CLIENT_LITTLEGAME_PIXAIR_PIXAIRPLANESTATISTICS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1CA095A0)
+#define RPG_CLIENT_LITTLEGAME_PIXAIR_PIXAIRPLANESTATISTICS___C__GETEQUIPSTATSSORTEDBYUSECOUNT_B__7_0_OFFSET UNITYSDK_OFFSET(0x1CA095B0)
 
 namespace RPG::Client::LittleGame::PixAir
 {
-	inline static constexpr unsigned int PixAirPlaneStatistics___c_TypeDefinitionIndex = 42035;
+	inline static constexpr unsigned int PixAirPlaneStatistics___c_TypeDefinitionIndex = 43677;
 
 	class PixAirPlaneStatistics___c : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::LittleGame::PixAir::PixAirPlaneStatistics___c** StaticGet___9()
 		{
-			return (::RPG::Client::LittleGame::PixAir::PixAirPlaneStatistics___c**)Il2CppClass::FromTypeDefinitionIndex(PixAirPlaneStatistics___c_TypeDefinitionIndex)->GetStaticField(0x46D20);
+			return (::RPG::Client::LittleGame::PixAir::PixAirPlaneStatistics___c**)Il2CppClass::FromTypeDefinitionIndex(PixAirPlaneStatistics___c_TypeDefinitionIndex)->GetStaticField(0x5E5A0);
 		}
 		static ::System::Comparison_1<::RPG::Client::LittleGame::PixAir::PixAirEquipStatistics*>** StaticGet___9__7_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::LittleGame::PixAir::PixAirEquipStatistics*>**)Il2CppClass::FromTypeDefinitionIndex(PixAirPlaneStatistics___c_TypeDefinitionIndex)->GetStaticField(0x46D28);
+			return (::System::Comparison_1<::RPG::Client::LittleGame::PixAir::PixAirEquipStatistics*>**)Il2CppClass::FromTypeDefinitionIndex(PixAirPlaneStatistics___c_TypeDefinitionIndex)->GetStaticField(0x5E5A8);
 		}
 
 		static ::System::Void _cctor()

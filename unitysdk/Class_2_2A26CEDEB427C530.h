@@ -2,31 +2,31 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Entitas/ReactiveSystem_1.h"
 
-class Class_0_16E4307DCC419505_102;
-class Class_0_16E4307DCC419505_103;
+class Class_0_16E4307DCC419505_173;
+class Class_0_16E4307DCC419505_174;
 class Class_2_40B4F44059E8FC53;
 class Class_2_FD51057495DB654F;
 namespace Entitas { template <typename T> class ICollector_1; }
 namespace Entitas { template <typename T> class IContext_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_2A26CEDEB427C530_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1C42D450)
-#define CLASS_2_2A26CEDEB427C530_FILTER_OFFSET UNITYSDK_OFFSET(0x1C42D360)
-#define CLASS_2_2A26CEDEB427C530_GETTRIGGER_OFFSET UNITYSDK_OFFSET(0x1C42D240)
-#define CLASS_2_2A26CEDEB427C530__CTOR_OFFSET UNITYSDK_OFFSET(0x1C42D1C0)
+#define CLASS_2_2A26CEDEB427C530_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1C994D20)
+#define CLASS_2_2A26CEDEB427C530_FILTER_OFFSET UNITYSDK_OFFSET(0x1C994C30)
+#define CLASS_2_2A26CEDEB427C530_GETTRIGGER_OFFSET UNITYSDK_OFFSET(0x1C994B10)
+#define CLASS_2_2A26CEDEB427C530__CTOR_OFFSET UNITYSDK_OFFSET(0x1C994A90)
 
-inline static constexpr unsigned int Class_2_2A26CEDEB427C530_TypeDefinitionIndex = 40886;
+inline static constexpr unsigned int Class_2_2A26CEDEB427C530_TypeDefinitionIndex = 42167;
 
 class Class_2_2A26CEDEB427C530 : public ::Entitas::ReactiveSystem_1<::Class_2_FD51057495DB654F*>
 {
 public:
-	::Class_0_16E4307DCC419505_103* MBKIEFPKECG; // 0x28
-	::Class_0_16E4307DCC419505_102* OFJNMDOGNDP; // 0x30
+	::Class_0_16E4307DCC419505_173* OFJNMDOGNDP; // 0x28
+	::Class_0_16E4307DCC419505_174* MBKIEFPKECG; // 0x30
 	::System::Boolean EGPMPLCFHEG; // 0x38
 
-	::System::Void _ctor(::Class_0_16E4307DCC419505_103* a1, ::Class_2_40B4F44059E8FC53* a2, ::System::Boolean a3)
+	::System::Void _ctor(::Class_0_16E4307DCC419505_174* a1, ::Class_2_40B4F44059E8FC53* a2, ::System::Boolean a3)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_103*, ::Class_2_40B4F44059E8FC53*, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_2_2A26CEDEB427C530__CTOR_OFFSET))(this, a1, a2, a3);
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_174*, ::Class_2_40B4F44059E8FC53*, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_2_2A26CEDEB427C530__CTOR_OFFSET))(this, a1, a2, a3);
 	}
 
 	::Entitas::ICollector_1<::Class_2_FD51057495DB654F*>* GetTrigger(::Entitas::IContext_1<::Class_2_FD51057495DB654F*>* a1)

@@ -13,7 +13,7 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 
 namespace RPG::Client::LittleGameShare
 {
-	inline static constexpr unsigned int SnapshotPredicationHistorySystem_1_TypeDefinitionIndex = 36239;
+	inline static constexpr unsigned int SnapshotPredicationHistorySystem_1_TypeDefinitionIndex = 36926;
 
 	template <typename TEntity>
 	class SnapshotPredicationHistorySystem_1 : public ::System::Object

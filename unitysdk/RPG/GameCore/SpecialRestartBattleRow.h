@@ -4,19 +4,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_SPECIALRESTARTBATTLEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D54BE40)
-#define RPG_GAMECORE_SPECIALRESTARTBATTLEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D54BFB0)
+#define RPG_GAMECORE_SPECIALRESTARTBATTLEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DB00D90)
+#define RPG_GAMECORE_SPECIALRESTARTBATTLEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB00F00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SpecialRestartBattleRow_TypeDefinitionIndex = 15001;
+	inline static constexpr unsigned int SpecialRestartBattleRow_TypeDefinitionIndex = 15172;
 
 	class SpecialRestartBattleRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 TowardEventID; // 0x10
+		::System::UInt32 BattleAreaConfigID; // 0x10
 		::System::UInt32 EventID; // 0x14
-		::System::UInt32 BattleAreaConfigID; // 0x18
+		::System::UInt32 TowardEventID; // 0x18
 
 		::System::Void _ctor()
 		{

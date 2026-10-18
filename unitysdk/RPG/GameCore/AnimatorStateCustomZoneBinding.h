@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ANIMATORSTATECUSTOMZONEBINDING_METHOD_2_1313132CA92D192A_OFFSET UNITYSDK_OFFSET(0x1CE1E820)
-#define RPG_GAMECORE_ANIMATORSTATECUSTOMZONEBINDING__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE1E960)
+#define RPG_GAMECORE_ANIMATORSTATECUSTOMZONEBINDING_METHOD_2_1313132CA92D192A_OFFSET UNITYSDK_OFFSET(0x1D3F4AD0)
+#define RPG_GAMECORE_ANIMATORSTATECUSTOMZONEBINDING__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3F4C10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AnimatorStateCustomZoneBinding_TypeDefinitionIndex = 16160;
+	inline static constexpr unsigned int AnimatorStateCustomZoneBinding_TypeDefinitionIndex = 16333;
 
 	class AnimatorStateCustomZoneBinding : public ::RPG::GameCore::JsonConfig
 	{

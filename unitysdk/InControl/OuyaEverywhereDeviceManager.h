@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/InControl/InputDeviceManager.h"
 
-#define INCONTROL_OUYAEVERYWHEREDEVICEMANAGER_ENABLE_OFFSET UNITYSDK_OFFSET(0x1B571680)
-#define INCONTROL_OUYAEVERYWHEREDEVICEMANAGER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1B571300)
-#define INCONTROL_OUYAEVERYWHEREDEVICEMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B571060)
+#define INCONTROL_OUYAEVERYWHEREDEVICEMANAGER_ENABLE_OFFSET UNITYSDK_OFFSET(0x1BA70330)
+#define INCONTROL_OUYAEVERYWHEREDEVICEMANAGER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1BA6FFB0)
+#define INCONTROL_OUYAEVERYWHEREDEVICEMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA6FD10)
 
 namespace InControl
 {
-	inline static constexpr unsigned int OuyaEverywhereDeviceManager_TypeDefinitionIndex = 39577;
+	inline static constexpr unsigned int OuyaEverywhereDeviceManager_TypeDefinitionIndex = 40874;
 
 	class OuyaEverywhereDeviceManager : public ::InControl::InputDeviceManager
 	{

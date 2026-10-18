@@ -1,0 +1,13 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/ValueType.h"
+#include "unitysdk/UnityEngine/Quaternion.h"
+#include "unitysdk/UnityEngine/Vector3.h"
+
+inline static constexpr unsigned int Struct_2_FBA4730A60751401_3_TypeDefinitionIndex = 53544;
+
+struct alignas(4) Struct_2_FBA4730A60751401_3
+{
+	::UnityEngine::Vector3 AGLKFNBKODJ; // 0x10
+	::UnityEngine::Quaternion LOLLEGPLMOO; // 0x1C
+};

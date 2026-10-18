@@ -5,12 +5,12 @@
 namespace Newtonsoft::Json::Serialization { class JsonProperty; }
 namespace Newtonsoft::Json::Serialization { class JsonSerializerInternalReader_CreatorPropertyContext; }
 
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALREADER___C__DISPLAYCLASS36_0__CREATEOBJECTUSINGCREATORWITHPARAMETERS_B__1_OFFSET UNITYSDK_OFFSET(0x1BEEB710)
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALREADER___C__DISPLAYCLASS36_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BEEAB40)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALREADER___C__DISPLAYCLASS36_0__CREATEOBJECTUSINGCREATORWITHPARAMETERS_B__1_OFFSET UNITYSDK_OFFSET(0x1C3F7BA0)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALREADER___C__DISPLAYCLASS36_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C3F6FD0)
 
 namespace Newtonsoft::Json::Serialization
 {
-	inline static constexpr unsigned int JsonSerializerInternalReader___c__DisplayClass36_0_TypeDefinitionIndex = 9680;
+	inline static constexpr unsigned int JsonSerializerInternalReader___c__DisplayClass36_0_TypeDefinitionIndex = 9738;
 
 	class JsonSerializerInternalReader___c__DisplayClass36_0 : public ::System::Object
 	{

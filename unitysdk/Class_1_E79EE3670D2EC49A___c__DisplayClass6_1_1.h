@@ -5,7 +5,7 @@
 namespace RPG::Client { class LuaUIController; }
 template <typename T> class Class_1_E79EE3670D2EC49A___c__DisplayClass6_0_1;
 
-inline static constexpr unsigned int Class_1_E79EE3670D2EC49A___c__DisplayClass6_1_1_TypeDefinitionIndex = 79298;
+inline static constexpr unsigned int Class_1_E79EE3670D2EC49A___c__DisplayClass6_1_1_TypeDefinitionIndex = 80622;
 
 template <typename TViewModel>
 class Class_1_E79EE3670D2EC49A___c__DisplayClass6_1_1 : public ::System::Object

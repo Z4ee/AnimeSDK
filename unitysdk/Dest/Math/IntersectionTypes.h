@@ -3,7 +3,7 @@
 
 namespace Dest::Math
 {
-	inline static constexpr unsigned int IntersectionTypes_TypeDefinitionIndex = 6246;
+	inline static constexpr unsigned int IntersectionTypes_TypeDefinitionIndex = 6255;
 
 	enum class IntersectionTypes : ::System::Int32
 	{

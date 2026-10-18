@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/GameCore/VCameraState.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_B9C702BA1E12DFA3__CTOR_OFFSET UNITYSDK_OFFSET(0xBA5A4F0)
+#define CLASS_1_B9C702BA1E12DFA3__CTOR_OFFSET UNITYSDK_OFFSET(0xB920920)
 
-inline static constexpr unsigned int Class_1_B9C702BA1E12DFA3_TypeDefinitionIndex = 69585;
+inline static constexpr unsigned int Class_1_B9C702BA1E12DFA3_TypeDefinitionIndex = 69621;
 
 class Class_1_B9C702BA1E12DFA3 : public ::System::Object
 {

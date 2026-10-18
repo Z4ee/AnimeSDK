@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_SERVERREGIONMANAGER_SUFFIX__CTOR_OFFSET UNITYSDK_OFFSET(0x1BAD6290)
+#define MIHOYO_SDK_SERVERREGIONMANAGER_SUFFIX__CTOR_OFFSET UNITYSDK_OFFSET(0x1BFE0C10)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ServerRegionManager_Suffix_TypeDefinitionIndex = 7922;
+	inline static constexpr unsigned int ServerRegionManager_Suffix_TypeDefinitionIndex = 7965;
 
 	class ServerRegionManager_Suffix : public ::System::Object
 	{

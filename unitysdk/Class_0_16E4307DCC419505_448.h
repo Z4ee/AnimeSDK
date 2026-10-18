@@ -1,10 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Struct_2_276321B6B122C69C_1.h"
+#include "unitysdk/RPG/CustomRP/CustomLightQualityFilter.h"
+#include "unitysdk/ScenenLightManager/FadingState.h"
 
-class Class_1_C85C4DAB350DD5FC_1;
+class Class_1_95BCA8EECFBAC876_Class_1_ACB700F0EE23EB47;
+class Class_1_E4CB20B056222958;
+namespace ScenenLightManager { class BaseComponentExportData; }
+namespace UnityEngine { class Transform; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_448_TypeDefinitionIndex = 52236;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_448_TypeDefinitionIndex = 49068;
 
 class Class_0_16E4307DCC419505_448
 {

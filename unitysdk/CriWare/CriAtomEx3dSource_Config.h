@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define CRIWARE_CRIATOMEX3DSOURCE_CONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x150F00)
+#define CRIWARE_CRIATOMEX3DSOURCE_CONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xE9C20)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomEx3dSource_Config_TypeDefinitionIndex = 38715;
+	inline static constexpr unsigned int CriAtomEx3dSource_Config_TypeDefinitionIndex = 40012;
 
 	struct alignas(4) CriAtomEx3dSource_Config
 	{

@@ -3,7 +3,7 @@
 #include "unitysdk/RPG/Client/CityAtmosphereThread/ECityAtmosphereThreadType.h"
 #include "unitysdk/System/ValueType.h"
 
-inline static constexpr unsigned int Struct_2_153BE034A1108AC0_Struct_2_87E5E80057022BD4_TypeDefinitionIndex = 71042;
+inline static constexpr unsigned int Struct_2_153BE034A1108AC0_Struct_2_87E5E80057022BD4_TypeDefinitionIndex = 71074;
 
 struct alignas(4) Struct_2_153BE034A1108AC0_Struct_2_87E5E80057022BD4
 {

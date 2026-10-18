@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_OPENWORLD_PVSRUNTIMEREPLAYSAMPLERCHECKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xDA00C30)
+#define RPG_CLIENT_OPENWORLD_PVSRUNTIMEREPLAYSAMPLERCHECKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xDA0AEF0)
 
 namespace RPG::Client::OpenWorld
 {
-	inline static constexpr unsigned int PVSRuntimeReplaySamplerCheckInfo_TypeDefinitionIndex = 73658;
+	inline static constexpr unsigned int PVSRuntimeReplaySamplerCheckInfo_TypeDefinitionIndex = 73765;
 
 	class PVSRuntimeReplaySamplerCheckInfo : public ::System::Object
 	{

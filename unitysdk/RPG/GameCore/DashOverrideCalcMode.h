@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DashOverrideCalcMode_TypeDefinitionIndex = 18361;
+	inline static constexpr unsigned int DashOverrideCalcMode_TypeDefinitionIndex = 18576;
 
 	enum class DashOverrideCalcMode : ::System::Int32
 	{

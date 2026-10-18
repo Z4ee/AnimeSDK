@@ -4,11 +4,11 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ADVENTURESKILLMAXMPCHANGEPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xC703140)
+#define RPG_CLIENT_ADVENTURESKILLMAXMPCHANGEPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xC6210D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AdventureSkillMaxMPChangeParam_TypeDefinitionIndex = 68120;
+	inline static constexpr unsigned int AdventureSkillMaxMPChangeParam_TypeDefinitionIndex = 68127;
 
 	class AdventureSkillMaxMPChangeParam : public ::System::Object
 	{

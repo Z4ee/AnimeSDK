@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetUseTemporaryLockTarget; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_2AD16B68CB7AEA86_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16431B50)
-#define CLASS_3_2AD16B68CB7AEA86__CTOR_OFFSET UNITYSDK_OFFSET(0x16431B20)
+#define CLASS_3_2AD16B68CB7AEA86_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB31EA40)
+#define CLASS_3_2AD16B68CB7AEA86__CTOR_OFFSET UNITYSDK_OFFSET(0xB31EA10)
 
-inline static constexpr unsigned int Class_3_2AD16B68CB7AEA86_TypeDefinitionIndex = 55778;
+inline static constexpr unsigned int Class_3_2AD16B68CB7AEA86_TypeDefinitionIndex = 55586;
 
 class Class_3_2AD16B68CB7AEA86 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetUseTemporaryLockTarget*>
 {

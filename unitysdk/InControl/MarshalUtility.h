@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define INCONTROL_MARSHALUTILITY_COPY_OFFSET UNITYSDK_OFFSET(0x1B501FA0)
-#define INCONTROL_MARSHALUTILITY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B502090)
+#define INCONTROL_MARSHALUTILITY_COPY_OFFSET UNITYSDK_OFFSET(0x1BA00C00)
+#define INCONTROL_MARSHALUTILITY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BA00CF0)
 
 namespace InControl
 {
-	inline static constexpr unsigned int MarshalUtility_TypeDefinitionIndex = 39606;
+	inline static constexpr unsigned int MarshalUtility_TypeDefinitionIndex = 40903;
 
 	class MarshalUtility : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::System::Int32>** StaticGet_buffer()
 		{
-			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(MarshalUtility_TypeDefinitionIndex)->GetStaticField(0x3E30);
+			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(MarshalUtility_TypeDefinitionIndex)->GetStaticField(0x58E30);
 		}
 
 		static ::System::Void _cctor()

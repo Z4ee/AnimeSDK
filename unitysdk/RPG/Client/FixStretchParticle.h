@@ -10,13 +10,13 @@
 namespace RPG::Client { class FixStretchParticleBehavior; }
 namespace System { class String; }
 
-#define RPG_CLIENT_FIXSTRETCHPARTICLE_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xD09D000)
-#define RPG_CLIENT_FIXSTRETCHPARTICLE_METHOD_7_F0088C88851A7DFB_OFFSET UNITYSDK_OFFSET(0xD09CFF0)
-#define RPG_CLIENT_FIXSTRETCHPARTICLE__CTOR_OFFSET UNITYSDK_OFFSET(0xD09D050)
+#define RPG_CLIENT_FIXSTRETCHPARTICLE_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xD03DA40)
+#define RPG_CLIENT_FIXSTRETCHPARTICLE_METHOD_7_F0088C88851A7DFB_OFFSET UNITYSDK_OFFSET(0xD03DA30)
+#define RPG_CLIENT_FIXSTRETCHPARTICLE__CTOR_OFFSET UNITYSDK_OFFSET(0xD03DA90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FixStretchParticle_TypeDefinitionIndex = 70557;
+	inline static constexpr unsigned int FixStretchParticle_TypeDefinitionIndex = 70593;
 
 	class FixStretchParticle : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::FixStretchParticleBehavior*>
 	{

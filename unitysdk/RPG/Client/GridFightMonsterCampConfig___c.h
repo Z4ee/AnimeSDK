@@ -5,34 +5,34 @@
 namespace RPG::Client { class GridFightMonsterData; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_GRIDFIGHTMONSTERCAMPCONFIG___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD21E7B0)
-#define RPG_CLIENT_GRIDFIGHTMONSTERCAMPCONFIG___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD21E7F0)
-#define RPG_CLIENT_GRIDFIGHTMONSTERCAMPCONFIG___C__GETBOSS_B__2_0_OFFSET UNITYSDK_OFFSET(0xD21E800)
-#define RPG_CLIENT_GRIDFIGHTMONSTERCAMPCONFIG___C__GETELITE_B__3_0_OFFSET UNITYSDK_OFFSET(0xD21E840)
-#define RPG_CLIENT_GRIDFIGHTMONSTERCAMPCONFIG___C__GETMINION_B__4_0_OFFSET UNITYSDK_OFFSET(0xD21E880)
+#define RPG_CLIENT_GRIDFIGHTMONSTERCAMPCONFIG___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD1BF860)
+#define RPG_CLIENT_GRIDFIGHTMONSTERCAMPCONFIG___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD1BF8A0)
+#define RPG_CLIENT_GRIDFIGHTMONSTERCAMPCONFIG___C__GETBOSS_B__2_0_OFFSET UNITYSDK_OFFSET(0xD1BF8B0)
+#define RPG_CLIENT_GRIDFIGHTMONSTERCAMPCONFIG___C__GETELITE_B__3_0_OFFSET UNITYSDK_OFFSET(0xD1BF8F0)
+#define RPG_CLIENT_GRIDFIGHTMONSTERCAMPCONFIG___C__GETMINION_B__4_0_OFFSET UNITYSDK_OFFSET(0xD1BF930)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightMonsterCampConfig___c_TypeDefinitionIndex = 65115;
+	inline static constexpr unsigned int GridFightMonsterCampConfig___c_TypeDefinitionIndex = 65055;
 
 	class GridFightMonsterCampConfig___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::Client::GridFightMonsterData*, ::System::Boolean>** StaticGet___9__4_0()
+		static ::RPG::Client::GridFightMonsterCampConfig___c** StaticGet___9()
 		{
-			return (::System::Func_2<::RPG::Client::GridFightMonsterData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(GridFightMonsterCampConfig___c_TypeDefinitionIndex)->GetStaticField(0x3E170);
+			return (::RPG::Client::GridFightMonsterCampConfig___c**)Il2CppClass::FromTypeDefinitionIndex(GridFightMonsterCampConfig___c_TypeDefinitionIndex)->GetStaticField(0x6DC30);
 		}
 		static ::System::Func_2<::RPG::Client::GridFightMonsterData*, ::System::Boolean>** StaticGet___9__3_0()
 		{
-			return (::System::Func_2<::RPG::Client::GridFightMonsterData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(GridFightMonsterCampConfig___c_TypeDefinitionIndex)->GetStaticField(0x3E178);
-		}
-		static ::RPG::Client::GridFightMonsterCampConfig___c** StaticGet___9()
-		{
-			return (::RPG::Client::GridFightMonsterCampConfig___c**)Il2CppClass::FromTypeDefinitionIndex(GridFightMonsterCampConfig___c_TypeDefinitionIndex)->GetStaticField(0x3E180);
+			return (::System::Func_2<::RPG::Client::GridFightMonsterData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(GridFightMonsterCampConfig___c_TypeDefinitionIndex)->GetStaticField(0x6DC38);
 		}
 		static ::System::Func_2<::RPG::Client::GridFightMonsterData*, ::System::Boolean>** StaticGet___9__2_0()
 		{
-			return (::System::Func_2<::RPG::Client::GridFightMonsterData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(GridFightMonsterCampConfig___c_TypeDefinitionIndex)->GetStaticField(0x3E188);
+			return (::System::Func_2<::RPG::Client::GridFightMonsterData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(GridFightMonsterCampConfig___c_TypeDefinitionIndex)->GetStaticField(0x6DC40);
+		}
+		static ::System::Func_2<::RPG::Client::GridFightMonsterData*, ::System::Boolean>** StaticGet___9__4_0()
+		{
+			return (::System::Func_2<::RPG::Client::GridFightMonsterData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(GridFightMonsterCampConfig___c_TypeDefinitionIndex)->GetStaticField(0x6DC48);
 		}
 
 		static ::System::Void _cctor()

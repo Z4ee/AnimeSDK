@@ -7,32 +7,32 @@ class Class_1_FD21020B0878C0A0;
 namespace RPG::Client { class ItemDisplayData; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define CLASS_1_115E551636659526___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC37B050)
-#define CLASS_1_115E551636659526___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC37B090)
-#define CLASS_1_115E551636659526___C__GET_ISSESSIONSETTLED_B__20_0_OFFSET UNITYSDK_OFFSET(0xC37B0A0)
-#define CLASS_1_115E551636659526___C___CTOR_B__53_0_OFFSET UNITYSDK_OFFSET(0xC37B0F0)
-#define CLASS_1_115E551636659526___C___CTOR_B__53_2_OFFSET UNITYSDK_OFFSET(0xC37B150)
+#define CLASS_1_115E551636659526___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC270100)
+#define CLASS_1_115E551636659526___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC270140)
+#define CLASS_1_115E551636659526___C__GET_ISSESSIONSETTLED_B__20_0_OFFSET UNITYSDK_OFFSET(0xC270150)
+#define CLASS_1_115E551636659526___C___CTOR_B__53_0_OFFSET UNITYSDK_OFFSET(0xC2701A0)
+#define CLASS_1_115E551636659526___C___CTOR_B__53_2_OFFSET UNITYSDK_OFFSET(0xC270200)
 
-inline static constexpr unsigned int Class_1_115E551636659526___c_TypeDefinitionIndex = 80285;
+inline static constexpr unsigned int Class_1_115E551636659526___c_TypeDefinitionIndex = 81613;
 
 class Class_1_115E551636659526___c : public ::System::Object
 {
 public:
-	static ::System::Func_2<::Class_1_FCC22A0BAD3D5A17*, ::System::Boolean>** StaticGet___9__20_0()
-	{
-		return (::System::Func_2<::Class_1_FCC22A0BAD3D5A17*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_115E551636659526___c_TypeDefinitionIndex)->GetStaticField(0x478C0);
-	}
-	static ::Class_1_115E551636659526___c** StaticGet___9()
-	{
-		return (::Class_1_115E551636659526___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_115E551636659526___c_TypeDefinitionIndex)->GetStaticField(0x478C8);
-	}
 	static ::System::Func_2<::RPG::Client::ItemDisplayData*, ::Class_1_FD21020B0878C0A0*>** StaticGet___9__53_0()
 	{
-		return (::System::Func_2<::RPG::Client::ItemDisplayData*, ::Class_1_FD21020B0878C0A0*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_115E551636659526___c_TypeDefinitionIndex)->GetStaticField(0x478D0);
+		return (::System::Func_2<::RPG::Client::ItemDisplayData*, ::Class_1_FD21020B0878C0A0*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_115E551636659526___c_TypeDefinitionIndex)->GetStaticField(0x6F830);
+	}
+	static ::System::Func_2<::Class_1_FCC22A0BAD3D5A17*, ::System::Boolean>** StaticGet___9__20_0()
+	{
+		return (::System::Func_2<::Class_1_FCC22A0BAD3D5A17*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_115E551636659526___c_TypeDefinitionIndex)->GetStaticField(0x6F838);
 	}
 	static ::System::Func_2<::RPG::Client::ItemDisplayData*, ::System::UInt32>** StaticGet___9__53_2()
 	{
-		return (::System::Func_2<::RPG::Client::ItemDisplayData*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_115E551636659526___c_TypeDefinitionIndex)->GetStaticField(0x478D8);
+		return (::System::Func_2<::RPG::Client::ItemDisplayData*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_115E551636659526___c_TypeDefinitionIndex)->GetStaticField(0x6F840);
+	}
+	static ::Class_1_115E551636659526___c** StaticGet___9()
+	{
+		return (::Class_1_115E551636659526___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_115E551636659526___c_TypeDefinitionIndex)->GetStaticField(0x6F848);
 	}
 
 	static ::System::Void _cctor()

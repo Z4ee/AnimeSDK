@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TimeRewindOverlayMaterials; }
 
-#define RPG_GAMECORE_TIMEREWINDMATERIALOVERLAYCONFIG_METHOD_2_0B83937208F5943C_OFFSET UNITYSDK_OFFSET(0x1D5D0A80)
-#define RPG_GAMECORE_TIMEREWINDMATERIALOVERLAYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5D0BE0)
+#define RPG_GAMECORE_TIMEREWINDMATERIALOVERLAYCONFIG_METHOD_2_0B83937208F5943C_OFFSET UNITYSDK_OFFSET(0x1DB886A0)
+#define RPG_GAMECORE_TIMEREWINDMATERIALOVERLAYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB88800)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TimeRewindMaterialOverlayConfig_TypeDefinitionIndex = 17357;
+	inline static constexpr unsigned int TimeRewindMaterialOverlayConfig_TypeDefinitionIndex = 17568;
 
 	class TimeRewindMaterialOverlayConfig : public ::RPG::GameCore::JsonConfig
 	{

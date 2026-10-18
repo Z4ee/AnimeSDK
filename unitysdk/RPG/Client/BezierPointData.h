@@ -6,7 +6,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BezierPointData_TypeDefinitionIndex = 35394;
+	inline static constexpr unsigned int BezierPointData_TypeDefinitionIndex = 36081;
 
 	struct alignas(4) BezierPointData
 	{

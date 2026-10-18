@@ -4,11 +4,11 @@
 #include "unitysdk/RPG/GameCore/StageInvasionMonsterState.h"
 #include "unitysdk/System/ValueType.h"
 
-#define RPG_GAMECORE_STAGEINVASIONMONSTERUIDATA_ISVALID_OFFSET UNITYSDK_OFFSET(0x15CD70)
+#define RPG_GAMECORE_STAGEINVASIONMONSTERUIDATA_ISVALID_OFFSET UNITYSDK_OFFSET(0xF64F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StageInvasionMonsterUIData_TypeDefinitionIndex = 56367;
+	inline static constexpr unsigned int StageInvasionMonsterUIData_TypeDefinitionIndex = 56180;
 
 	struct alignas(8) StageInvasionMonsterUIData
 	{

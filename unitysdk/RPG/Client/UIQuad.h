@@ -9,27 +9,27 @@ namespace UnityEngine { class Sprite; }
 namespace UnityEngine { class Texture; }
 namespace UnityEngine::UI { class VertexHelper; }
 
-#define RPG_CLIENT_UIQUAD_FORCEMESHUPDATE_OFFSET UNITYSDK_OFFSET(0xE3B24F0)
-#define RPG_CLIENT_UIQUAD_GET_MAINTEXTURE_OFFSET UNITYSDK_OFFSET(0xE3B3220)
-#define RPG_CLIENT_UIQUAD_ONPOPULATEMESH_OFFSET UNITYSDK_OFFSET(0xE3B25C0)
-#define RPG_CLIENT_UIQUAD_SETPROGRESS_OFFSET UNITYSDK_OFFSET(0xE3B34D0)
-#define RPG_CLIENT_UIQUAD__CCTOR_OFFSET UNITYSDK_OFFSET(0xE3B38B0)
-#define RPG_CLIENT_UIQUAD__CTOR_OFFSET UNITYSDK_OFFSET(0xE3B3650)
+#define RPG_CLIENT_UIQUAD_FORCEMESHUPDATE_OFFSET UNITYSDK_OFFSET(0xE3F3710)
+#define RPG_CLIENT_UIQUAD_GET_MAINTEXTURE_OFFSET UNITYSDK_OFFSET(0xE3F4440)
+#define RPG_CLIENT_UIQUAD_ONPOPULATEMESH_OFFSET UNITYSDK_OFFSET(0xE3F37E0)
+#define RPG_CLIENT_UIQUAD_SETPROGRESS_OFFSET UNITYSDK_OFFSET(0xE3F46F0)
+#define RPG_CLIENT_UIQUAD__CCTOR_OFFSET UNITYSDK_OFFSET(0xE3F4AD0)
+#define RPG_CLIENT_UIQUAD__CTOR_OFFSET UNITYSDK_OFFSET(0xE3F4870)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIQuad_TypeDefinitionIndex = 72634;
+	inline static constexpr unsigned int UIQuad_TypeDefinitionIndex = 72709;
 
 	class UIQuad : public ::UnityEngine::UI::MaskableGraphic
 	{
 	public:
 		static ::UnityEngine::Vector3* StaticGet_UINormal()
 		{
-			return (::UnityEngine::Vector3*)Il2CppClass::FromTypeDefinitionIndex(UIQuad_TypeDefinitionIndex)->GetStaticField(0x14220);
+			return (::UnityEngine::Vector3*)Il2CppClass::FromTypeDefinitionIndex(UIQuad_TypeDefinitionIndex)->GetStaticField(0xB200);
 		}
 		static ::UnityEngine::Vector4* StaticGet_UITangent()
 		{
-			return (::UnityEngine::Vector4*)Il2CppClass::FromTypeDefinitionIndex(UIQuad_TypeDefinitionIndex)->GetStaticField(0x1422C);
+			return (::UnityEngine::Vector4*)Il2CppClass::FromTypeDefinitionIndex(UIQuad_TypeDefinitionIndex)->GetStaticField(0xB20C);
 		}
 		::UnityEngine::Sprite* sprite; // 0xF0
 		::System::Single StartValue; // 0xF8

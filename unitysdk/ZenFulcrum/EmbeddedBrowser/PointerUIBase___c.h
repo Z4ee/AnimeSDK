@@ -4,29 +4,29 @@
 
 namespace System { class Action; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_POINTERUIBASE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EFA1000)
-#define ZENFULCRUM_EMBEDDEDBROWSER_POINTERUIBASE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1EFA1040)
-#define ZENFULCRUM_EMBEDDEDBROWSER_POINTERUIBASE___C___CTOR_B__76_0_OFFSET UNITYSDK_OFFSET(0x1EFA1050)
-#define ZENFULCRUM_EMBEDDEDBROWSER_POINTERUIBASE___C___CTOR_B__76_1_OFFSET UNITYSDK_OFFSET(0x1EFA1060)
+#define ZENFULCRUM_EMBEDDEDBROWSER_POINTERUIBASE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F669590)
+#define ZENFULCRUM_EMBEDDEDBROWSER_POINTERUIBASE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1F6695D0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_POINTERUIBASE___C___CTOR_B__76_0_OFFSET UNITYSDK_OFFSET(0x1F6695E0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_POINTERUIBASE___C___CTOR_B__76_1_OFFSET UNITYSDK_OFFSET(0x1F6695F0)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int PointerUIBase___c_TypeDefinitionIndex = 38186;
+	inline static constexpr unsigned int PointerUIBase___c_TypeDefinitionIndex = 39483;
 
 	class PointerUIBase___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__76_1()
+		static ::ZenFulcrum::EmbeddedBrowser::PointerUIBase___c** StaticGet___9()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(PointerUIBase___c_TypeDefinitionIndex)->GetStaticField(0x3F200);
+			return (::ZenFulcrum::EmbeddedBrowser::PointerUIBase___c**)Il2CppClass::FromTypeDefinitionIndex(PointerUIBase___c_TypeDefinitionIndex)->GetStaticField(0x46DC0);
 		}
 		static ::System::Action** StaticGet___9__76_0()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(PointerUIBase___c_TypeDefinitionIndex)->GetStaticField(0x3F208);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(PointerUIBase___c_TypeDefinitionIndex)->GetStaticField(0x46DC8);
 		}
-		static ::ZenFulcrum::EmbeddedBrowser::PointerUIBase___c** StaticGet___9()
+		static ::System::Action** StaticGet___9__76_1()
 		{
-			return (::ZenFulcrum::EmbeddedBrowser::PointerUIBase___c**)Il2CppClass::FromTypeDefinitionIndex(PointerUIBase___c_TypeDefinitionIndex)->GetStaticField(0x3F210);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(PointerUIBase___c_TypeDefinitionIndex)->GetStaticField(0x46DD0);
 		}
 
 		static ::System::Void _cctor()

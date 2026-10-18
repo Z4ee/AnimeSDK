@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SaveCharacterStateMask_TypeDefinitionIndex = 24373;
+	inline static constexpr unsigned int SaveCharacterStateMask_TypeDefinitionIndex = 24652;
 
 	enum class SaveCharacterStateMask : ::System::UInt32
 	{

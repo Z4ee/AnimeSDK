@@ -5,18 +5,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_STORYTEXTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D573730)
-#define RPG_GAMECORE_STORYTEXTCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5738B0)
+#define RPG_GAMECORE_STORYTEXTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DB291A0)
+#define RPG_GAMECORE_STORYTEXTCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB29320)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StoryTextConfigRow_TypeDefinitionIndex = 12602;
+	inline static constexpr unsigned int StoryTextConfigRow_TypeDefinitionIndex = 12692;
 
 	class StoryTextConfigRow : public ::System::Object
 	{
 	public:
-		::RPG::Client::TextID StoryName; // 0x10
-		::System::UInt32 StoryID; // 0x20
+		::System::UInt32 StoryID; // 0x10
+		::RPG::Client::TextID StoryName; // 0x18
 
 		::System::Void _ctor()
 		{

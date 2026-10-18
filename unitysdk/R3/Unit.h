@@ -5,25 +5,25 @@
 namespace System { class Object; }
 namespace System { class String; }
 
-#define R3_UNIT_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x3B727B0)
-#define R3_UNIT_EQUALS_OFFSET UNITYSDK_OFFSET(0x2E7B0D0)
-#define R3_UNIT_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x2E002B0)
-#define R3_UNIT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3B72800)
-#define R3_UNIT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BF19FB0)
+#define R3_UNIT_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x3C27110)
+#define R3_UNIT_EQUALS_OFFSET UNITYSDK_OFFSET(0x2F09290)
+#define R3_UNIT_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x2E8C190)
+#define R3_UNIT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3C27160)
+#define R3_UNIT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C426600)
 
 namespace R3
 {
-	inline static constexpr unsigned int Unit_TypeDefinitionIndex = 35287;
+	inline static constexpr unsigned int Unit_TypeDefinitionIndex = 35974;
 
 	struct alignas(1) Unit
 	{
 		static ::System::Object** StaticGet_Box()
 		{
-			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(Unit_TypeDefinitionIndex)->GetStaticField(0xDB0);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(Unit_TypeDefinitionIndex)->GetStaticField(0xA90);
 		}
 		static ::R3::Unit* StaticGet_Default()
 		{
-			return (::R3::Unit*)Il2CppClass::FromTypeDefinitionIndex(Unit_TypeDefinitionIndex)->GetStaticField(0x710);
+			return (::R3::Unit*)Il2CppClass::FromTypeDefinitionIndex(Unit_TypeDefinitionIndex)->GetStaticField(0x550);
 		}
 
 		static ::System::Void _cctor()

@@ -9,22 +9,22 @@ namespace Spine { class Skeleton; }
 namespace Spine { template <typename T> class ExposedList_1; }
 namespace System { class String; }
 
-#define SPINE_DRAWORDERTIMELINE_APPLY_OFFSET UNITYSDK_OFFSET(0x1E5DAEE0)
-#define SPINE_DRAWORDERTIMELINE_GET_DRAWORDERS_OFFSET UNITYSDK_OFFSET(0x1E5DAE30)
-#define SPINE_DRAWORDERTIMELINE_SETFRAME_OFFSET UNITYSDK_OFFSET(0x1E5DAE40)
-#define SPINE_DRAWORDERTIMELINE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E5DB170)
-#define SPINE_DRAWORDERTIMELINE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E5DADD0)
+#define SPINE_DRAWORDERTIMELINE_APPLY_OFFSET UNITYSDK_OFFSET(0x1ECA3080)
+#define SPINE_DRAWORDERTIMELINE_GET_DRAWORDERS_OFFSET UNITYSDK_OFFSET(0x1ECA2FD0)
+#define SPINE_DRAWORDERTIMELINE_SETFRAME_OFFSET UNITYSDK_OFFSET(0x1ECA2FE0)
+#define SPINE_DRAWORDERTIMELINE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1ECA3310)
+#define SPINE_DRAWORDERTIMELINE__CTOR_OFFSET UNITYSDK_OFFSET(0x1ECA2F70)
 
 namespace Spine
 {
-	inline static constexpr unsigned int DrawOrderTimeline_TypeDefinitionIndex = 38324;
+	inline static constexpr unsigned int DrawOrderTimeline_TypeDefinitionIndex = 39621;
 
 	class DrawOrderTimeline : public ::Spine::Timeline
 	{
 	public:
 		static ::Il2CppArray<::System::String*>** StaticGet_propertyIds()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(DrawOrderTimeline_TypeDefinitionIndex)->GetStaticField(0x46370);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(DrawOrderTimeline_TypeDefinitionIndex)->GetStaticField(0x4BCB0);
 		}
 		::Il2CppArray<::Il2CppArray<::System::Int32>*>* drawOrders; // 0x20
 

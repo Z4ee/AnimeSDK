@@ -1,21 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_2_99AE43441189916F.h"
+#include "unitysdk/Class_2_1889DE49D24AA9B9.h"
 
 namespace System { class String; }
 
-#define CLASS_3_AB2FEFAE944B8D6F__CCTOR_OFFSET UNITYSDK_OFFSET(0xBBAF330)
-#define CLASS_3_AB2FEFAE944B8D6F__CTOR_OFFSET UNITYSDK_OFFSET(0xBBAF300)
-#define CLASS_3_AB2FEFAE944B8D6F__ONBIND_OFFSET UNITYSDK_OFFSET(0xBBAEFB0)
+#define CLASS_3_AB2FEFAE944B8D6F__CCTOR_OFFSET UNITYSDK_OFFSET(0xBA39300)
+#define CLASS_3_AB2FEFAE944B8D6F__CTOR_OFFSET UNITYSDK_OFFSET(0xBA392D0)
+#define CLASS_3_AB2FEFAE944B8D6F__ONBIND_OFFSET UNITYSDK_OFFSET(0xBA38F80)
 
-inline static constexpr unsigned int Class_3_AB2FEFAE944B8D6F_TypeDefinitionIndex = 71455;
+inline static constexpr unsigned int Class_3_AB2FEFAE944B8D6F_TypeDefinitionIndex = 71497;
 
-class Class_3_AB2FEFAE944B8D6F : public ::Class_2_99AE43441189916F
+class Class_3_AB2FEFAE944B8D6F : public ::Class_2_1889DE49D24AA9B9
 {
 public:
 	static ::System::String** StaticGet_JFCMCPFPDFP()
 	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_3_AB2FEFAE944B8D6F_TypeDefinitionIndex)->GetStaticField(0x5ADC0);
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_3_AB2FEFAE944B8D6F_TypeDefinitionIndex)->GetStaticField(0x15D00);
 	}
 
 	::System::Void _ctor()

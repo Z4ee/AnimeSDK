@@ -4,10 +4,10 @@
 
 class AkEnvironment;
 
-#define AKENVIRONMENT_AKENVIRONMENT_COMPAREBYSELECTIONALGORITHM_COMPARE_OFFSET UNITYSDK_OFFSET(0x1EEC7C30)
-#define AKENVIRONMENT_AKENVIRONMENT_COMPAREBYSELECTIONALGORITHM__CTOR_OFFSET UNITYSDK_OFFSET(0x1EEC7B90)
+#define AKENVIRONMENT_AKENVIRONMENT_COMPAREBYSELECTIONALGORITHM_COMPARE_OFFSET UNITYSDK_OFFSET(0x1F58F7E0)
+#define AKENVIRONMENT_AKENVIRONMENT_COMPAREBYSELECTIONALGORITHM__CTOR_OFFSET UNITYSDK_OFFSET(0x1F58F740)
 
-inline static constexpr unsigned int AkEnvironment_AkEnvironment_CompareBySelectionAlgorithm_TypeDefinitionIndex = 43727;
+inline static constexpr unsigned int AkEnvironment_AkEnvironment_CompareBySelectionAlgorithm_TypeDefinitionIndex = 44919;
 
 class AkEnvironment_AkEnvironment_CompareBySelectionAlgorithm : public ::AkEnvironment_AkEnvironment_CompareByPriority
 {

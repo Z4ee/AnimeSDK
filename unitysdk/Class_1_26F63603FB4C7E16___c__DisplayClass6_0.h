@@ -7,19 +7,19 @@ class Class_1_26F63603FB4C7E16;
 namespace System { class Action; }
 namespace System { template <typename T> class Action_1; }
 
-#define CLASS_1_26F63603FB4C7E16___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15A37F90)
-#define CLASS_1_26F63603FB4C7E16___C__DISPLAYCLASS6_0__SUBSCRIBEISOPEN_B__0_OFFSET UNITYSDK_OFFSET(0x15A38970)
-#define CLASS_1_26F63603FB4C7E16___C__DISPLAYCLASS6_0__SUBSCRIBEISOPEN_B__1_OFFSET UNITYSDK_OFFSET(0x15A389D0)
+#define CLASS_1_26F63603FB4C7E16___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15D49120)
+#define CLASS_1_26F63603FB4C7E16___C__DISPLAYCLASS6_0__SUBSCRIBEISOPEN_B__0_OFFSET UNITYSDK_OFFSET(0x15D49990)
+#define CLASS_1_26F63603FB4C7E16___C__DISPLAYCLASS6_0__SUBSCRIBEISOPEN_B__1_OFFSET UNITYSDK_OFFSET(0x15D499F0)
 
-inline static constexpr unsigned int Class_1_26F63603FB4C7E16___c__DisplayClass6_0_TypeDefinitionIndex = 80180;
+inline static constexpr unsigned int Class_1_26F63603FB4C7E16___c__DisplayClass6_0_TypeDefinitionIndex = 81508;
 
 class Class_1_26F63603FB4C7E16___c__DisplayClass6_0 : public ::System::Object
 {
 public:
-	::System::Action_1<::System::UInt32>* observing; // 0x10
-	::System::Action* callback; // 0x18
-	::Class_1_26F63603FB4C7E16* __4__this; // 0x20
-	::Class_1_06E38C65842C3B24* tierce; // 0x28
+	::Class_1_06E38C65842C3B24* tierce; // 0x10
+	::Class_1_26F63603FB4C7E16* __4__this; // 0x18
+	::System::Action_1<::System::UInt32>* observing; // 0x20
+	::System::Action* callback; // 0x28
 
 	::System::Void _ctor()
 	{

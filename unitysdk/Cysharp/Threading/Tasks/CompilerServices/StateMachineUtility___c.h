@@ -5,24 +5,24 @@
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Reflection { class FieldInfo; }
 
-#define CYSHARP_THREADING_TASKS_COMPILERSERVICES_STATEMACHINEUTILITY___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EA4F590)
-#define CYSHARP_THREADING_TASKS_COMPILERSERVICES_STATEMACHINEUTILITY___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA4F5D0)
-#define CYSHARP_THREADING_TASKS_COMPILERSERVICES_STATEMACHINEUTILITY___C__GETSTATE_B__0_0_OFFSET UNITYSDK_OFFSET(0x1EA4F5E0)
+#define CYSHARP_THREADING_TASKS_COMPILERSERVICES_STATEMACHINEUTILITY___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F116F10)
+#define CYSHARP_THREADING_TASKS_COMPILERSERVICES_STATEMACHINEUTILITY___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1F116F50)
+#define CYSHARP_THREADING_TASKS_COMPILERSERVICES_STATEMACHINEUTILITY___C__GETSTATE_B__0_0_OFFSET UNITYSDK_OFFSET(0x1F116F60)
 
 namespace Cysharp::Threading::Tasks::CompilerServices
 {
-	inline static constexpr unsigned int StateMachineUtility___c_TypeDefinitionIndex = 43124;
+	inline static constexpr unsigned int StateMachineUtility___c_TypeDefinitionIndex = 38709;
 
 	class StateMachineUtility___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::Reflection::FieldInfo*, ::System::Boolean>** StaticGet___9__0_0()
-		{
-			return (::System::Func_2<::System::Reflection::FieldInfo*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(StateMachineUtility___c_TypeDefinitionIndex)->GetStaticField(0x55A00);
-		}
 		static ::Cysharp::Threading::Tasks::CompilerServices::StateMachineUtility___c** StaticGet___9()
 		{
-			return (::Cysharp::Threading::Tasks::CompilerServices::StateMachineUtility___c**)Il2CppClass::FromTypeDefinitionIndex(StateMachineUtility___c_TypeDefinitionIndex)->GetStaticField(0x55A08);
+			return (::Cysharp::Threading::Tasks::CompilerServices::StateMachineUtility___c**)Il2CppClass::FromTypeDefinitionIndex(StateMachineUtility___c_TypeDefinitionIndex)->GetStaticField(0x3EDC0);
+		}
+		static ::System::Func_2<::System::Reflection::FieldInfo*, ::System::Boolean>** StaticGet___9__0_0()
+		{
+			return (::System::Func_2<::System::Reflection::FieldInfo*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(StateMachineUtility___c_TypeDefinitionIndex)->GetStaticField(0x3EDC8);
 		}
 
 		static ::System::Void _cctor()

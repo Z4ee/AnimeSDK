@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class MatchThreeGameOpponent; }
 
-#define RPG_CLIENT_MATCHTHREEGAME___C__DISPLAYCLASS73_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD63D830)
-#define RPG_CLIENT_MATCHTHREEGAME___C__DISPLAYCLASS73_0___UPDATEPLAYER_B__0_OFFSET UNITYSDK_OFFSET(0xD641D00)
+#define RPG_CLIENT_MATCHTHREEGAME___C__DISPLAYCLASS73_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD59B280)
+#define RPG_CLIENT_MATCHTHREEGAME___C__DISPLAYCLASS73_0___UPDATEPLAYER_B__0_OFFSET UNITYSDK_OFFSET(0xD59B290)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MatchThreeGame___c__DisplayClass73_0_TypeDefinitionIndex = 65994;
+	inline static constexpr unsigned int MatchThreeGame___c__DisplayClass73_0_TypeDefinitionIndex = 65948;
 
 	class MatchThreeGame___c__DisplayClass73_0 : public ::System::Object
 	{

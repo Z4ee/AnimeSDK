@@ -1,0 +1,46 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/JsonConfig.h"
+#include "unitysdk/RPG/GameCore/LittleGameEntityVarType.h"
+
+class Class_1_7A22A3DBEEDD1F80;
+namespace RPG::GameCore { class LittleGameLevelVariable; }
+namespace System { class String; }
+
+#define RPG_GAMECORE_LITTLEGAMEENTITYVAR_METHOD_2_128774387667156B_OFFSET UNITYSDK_OFFSET(0x1D7E0F20)
+#define RPG_GAMECORE_LITTLEGAMEENTITYVAR_METHOD_2_7ACFE89BC3828E66_OFFSET UNITYSDK_OFFSET(0x1D7E1DA0)
+#define RPG_GAMECORE_LITTLEGAMEENTITYVAR__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7E20B0)
+
+namespace RPG::GameCore
+{
+	inline static constexpr unsigned int LittleGameEntityVar_TypeDefinitionIndex = 18868;
+
+	class LittleGameEntityVar : public ::RPG::GameCore::JsonConfig
+	{
+	public:
+		::System::String* ID; // 0x10
+		::System::String* EntityVarName; // 0x18
+		::RPG::GameCore::LittleGameEntityVarType EntityVarType; // 0x20
+		::System::String* BindLevelVarType; // 0x28
+		::System::String* BindLevelVarName; // 0x30
+		::RPG::GameCore::LittleGameLevelVariable* DefaultLevelVar; // 0x38
+		::System::Boolean AutoCreateAndBindLevelVar; // 0x40
+		::System::Int32 Value; // 0x44
+		::System::Single FloatValue; // 0x48
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEENTITYVAR__CTOR_OFFSET))(this);
+		}
+
+		static ::System::Void Method_2_7ACFE89BC3828E66(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LittleGameEntityVar*& a2)
+		{
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LittleGameEntityVar*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEENTITYVAR_METHOD_2_7ACFE89BC3828E66_OFFSET))(a1, a2);
+		}
+
+		::System::String* Method_2_128774387667156B()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEENTITYVAR_METHOD_2_128774387667156B_OFFSET))(this);
+		}
+	};
+}

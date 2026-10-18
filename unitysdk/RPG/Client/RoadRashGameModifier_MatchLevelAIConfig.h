@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::Client { class RoadRashGameModifier_MatchLevelAIConfig_ProgressKeyframe; }
 
-#define RPG_CLIENT_ROADRASHGAMEMODIFIER_MATCHLEVELAICONFIG_METHOD_2_CD286B0D837E8DF5_OFFSET UNITYSDK_OFFSET(0x1CD5E000)
-#define RPG_CLIENT_ROADRASHGAMEMODIFIER_MATCHLEVELAICONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD5EA30)
+#define RPG_CLIENT_ROADRASHGAMEMODIFIER_MATCHLEVELAICONFIG_METHOD_2_CD286B0D837E8DF5_OFFSET UNITYSDK_OFFSET(0x1D331820)
+#define RPG_CLIENT_ROADRASHGAMEMODIFIER_MATCHLEVELAICONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D332250)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RoadRashGameModifier_MatchLevelAIConfig_TypeDefinitionIndex = 10302;
+	inline static constexpr unsigned int RoadRashGameModifier_MatchLevelAIConfig_TypeDefinitionIndex = 10316;
 
 	class RoadRashGameModifier_MatchLevelAIConfig : public ::RPG::GameCore::JsonConfig
 	{

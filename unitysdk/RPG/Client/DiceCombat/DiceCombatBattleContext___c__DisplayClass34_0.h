@@ -6,18 +6,18 @@ namespace RPG::Client::DiceCombat { class DiceCombatPerformanceBattleEvent; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace XLua { class LuaTable; }
 
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLECONTEXT___C__DISPLAYCLASS34_0__APPENDPERFORMANCEEVENTHANDLER_B__0_OFFSET UNITYSDK_OFFSET(0xCCC6910)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLECONTEXT___C__DISPLAYCLASS34_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCCC4EB0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLECONTEXT___C__DISPLAYCLASS34_0__APPENDPERFORMANCEEVENTHANDLER_B__0_OFFSET UNITYSDK_OFFSET(0xCC19AC0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLECONTEXT___C__DISPLAYCLASS34_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCC188C0)
 
 namespace RPG::Client::DiceCombat
 {
-	inline static constexpr unsigned int DiceCombatBattleContext___c__DisplayClass34_0_TypeDefinitionIndex = 75559;
+	inline static constexpr unsigned int DiceCombatBattleContext___c__DisplayClass34_0_TypeDefinitionIndex = 76036;
 
 	class DiceCombatBattleContext___c__DisplayClass34_0 : public ::System::Object
 	{
 	public:
-		::XLua::LuaTable* target; // 0x10
-		::System::Action_2<::XLua::LuaTable*, ::RPG::Client::DiceCombat::DiceCombatPerformanceBattleEvent*>* eventHandler; // 0x18
+		::System::Action_2<::XLua::LuaTable*, ::RPG::Client::DiceCombat::DiceCombatPerformanceBattleEvent*>* eventHandler; // 0x10
+		::XLua::LuaTable* target; // 0x18
 
 		::System::Void _ctor()
 		{

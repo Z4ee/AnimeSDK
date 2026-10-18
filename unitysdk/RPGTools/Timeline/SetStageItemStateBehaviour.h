@@ -3,12 +3,12 @@
 #include "unitysdk/RPGTools/Timeline/CustomEventBehaviour.h"
 #include "unitysdk/RPGTools/Timeline/StageItemInfo.h"
 
-#define RPGTOOLS_TIMELINE_SETSTAGEITEMSTATEBEHAVIOUR_METHOD_3_8542E37E74FDE1B5_OFFSET UNITYSDK_OFFSET(0xE8E1CF0)
-#define RPGTOOLS_TIMELINE_SETSTAGEITEMSTATEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xE8E20C0)
+#define RPGTOOLS_TIMELINE_SETSTAGEITEMSTATEBEHAVIOUR_METHOD_3_8542E37E74FDE1B5_OFFSET UNITYSDK_OFFSET(0xE9370C0)
+#define RPGTOOLS_TIMELINE_SETSTAGEITEMSTATEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xE937490)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int SetStageItemStateBehaviour_TypeDefinitionIndex = 48860;
+	inline static constexpr unsigned int SetStageItemStateBehaviour_TypeDefinitionIndex = 48406;
 
 	class SetStageItemStateBehaviour : public ::RPGTools::Timeline::CustomEventBehaviour
 	{

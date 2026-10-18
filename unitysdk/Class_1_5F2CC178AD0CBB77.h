@@ -5,18 +5,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define CLASS_1_5F2CC178AD0CBB77_METHOD_1_5A9446C22EB45706_OFFSET UNITYSDK_OFFSET(0x1C740540)
-#define CLASS_1_5F2CC178AD0CBB77__CTOR_OFFSET UNITYSDK_OFFSET(0x1C740770)
+#define CLASS_1_5F2CC178AD0CBB77_METHOD_1_5A9446C22EB45706_OFFSET UNITYSDK_OFFSET(0x1CCC99C0)
+#define CLASS_1_5F2CC178AD0CBB77__CTOR_OFFSET UNITYSDK_OFFSET(0x1CCC9BF0)
 
-inline static constexpr unsigned int Class_1_5F2CC178AD0CBB77_TypeDefinitionIndex = 10966;
+inline static constexpr unsigned int Class_1_5F2CC178AD0CBB77_TypeDefinitionIndex = 10982;
 
 class Class_1_5F2CC178AD0CBB77 : public ::System::Object
 {
 public:
-	::Il2CppArray<::System::UInt32>* EJDNMAFLACG; // 0x10
-	::Il2CppArray<::RPG::Client::TextID>* LDCCBCIIIEC; // 0x18
-	::RPG::Client::TextID MJOOFPBABEA; // 0x20
-	::System::UInt32 PHFMCACHFIJ; // 0x30
+	::Il2CppArray<::RPG::Client::TextID>* LDCCBCIIIEC; // 0x10
+	::Il2CppArray<::System::UInt32>* EJDNMAFLACG; // 0x18
+	::System::UInt32 PHFMCACHFIJ; // 0x20
+	::RPG::Client::TextID MJOOFPBABEA; // 0x28
 
 	::System::Void _ctor()
 	{

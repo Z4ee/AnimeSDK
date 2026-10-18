@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class RedDotNodeConfig; }
 
-#define RPG_GAMECORE_REDDOTGRAPHCONFIG_METHOD_2_CCDAC0D6CEB90D6D_OFFSET UNITYSDK_OFFSET(0x1D38EE10)
-#define RPG_GAMECORE_REDDOTGRAPHCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D38EED0)
+#define RPG_GAMECORE_REDDOTGRAPHCONFIG_METHOD_2_CCDAC0D6CEB90D6D_OFFSET UNITYSDK_OFFSET(0x1D9752A0)
+#define RPG_GAMECORE_REDDOTGRAPHCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D975360)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RedDotGraphConfig_TypeDefinitionIndex = 16900;
+	inline static constexpr unsigned int RedDotGraphConfig_TypeDefinitionIndex = 17094;
 
 	class RedDotGraphConfig : public ::RPG::GameCore::JsonConfig
 	{

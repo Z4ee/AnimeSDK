@@ -9,7 +9,7 @@ namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int Merge_1__Merge__DisposeAsync_d__13_TypeDefinitionIndex = 44329;
+	inline static constexpr unsigned int Merge_1__Merge__DisposeAsync_d__13_TypeDefinitionIndex = 45468;
 
 	template <typename T>
 	struct Merge_1__Merge__DisposeAsync_d__13

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MunicipalChatCharacterType_TypeDefinitionIndex = 16721;
+	inline static constexpr unsigned int MunicipalChatCharacterType_TypeDefinitionIndex = 16915;
 
 	enum class MunicipalChatCharacterType : ::System::Int32
 	{

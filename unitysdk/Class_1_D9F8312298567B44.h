@@ -16,29 +16,29 @@
 
 namespace System { class String; }
 
-#define CLASS_1_D9F8312298567B44_METHOD_1_43CCBC2ADB276A81_OFFSET UNITYSDK_OFFSET(0x1521AE60)
-#define CLASS_1_D9F8312298567B44__CCTOR_OFFSET UNITYSDK_OFFSET(0x1521AEC0)
+#define CLASS_1_D9F8312298567B44_METHOD_1_43CCBC2ADB276A81_OFFSET UNITYSDK_OFFSET(0x154C4BB0)
+#define CLASS_1_D9F8312298567B44__CCTOR_OFFSET UNITYSDK_OFFSET(0x154C4C10)
 
-inline static constexpr unsigned int Class_1_D9F8312298567B44_TypeDefinitionIndex = 49412;
+inline static constexpr unsigned int Class_1_D9F8312298567B44_TypeDefinitionIndex = 48986;
 
 class Class_1_D9F8312298567B44 : public ::System::Object
 {
 public:
 	static ::UnityEngine::Vector3* StaticGet_BFJMPGOIEND()
 	{
-		return (::UnityEngine::Vector3*)Il2CppClass::FromTypeDefinitionIndex(Class_1_D9F8312298567B44_TypeDefinitionIndex)->GetStaticField(0x11D00);
-	}
-	static ::System::Boolean* StaticGet_AMLFKIFMDAF()
-	{
-		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_D9F8312298567B44_TypeDefinitionIndex)->GetStaticField(0x11D0C);
-	}
-	static ::UnityEngine::LayerMask* StaticGet_NJHGKJIKBPB()
-	{
-		return (::UnityEngine::LayerMask*)Il2CppClass::FromTypeDefinitionIndex(Class_1_D9F8312298567B44_TypeDefinitionIndex)->GetStaticField(0x11D10);
+		return (::UnityEngine::Vector3*)Il2CppClass::FromTypeDefinitionIndex(Class_1_D9F8312298567B44_TypeDefinitionIndex)->GetStaticField(0x4D40);
 	}
 	static ::UnityEngine::Color* StaticGet_COEBBAICICB()
 	{
-		return (::UnityEngine::Color*)Il2CppClass::FromTypeDefinitionIndex(Class_1_D9F8312298567B44_TypeDefinitionIndex)->GetStaticField(0x11D14);
+		return (::UnityEngine::Color*)Il2CppClass::FromTypeDefinitionIndex(Class_1_D9F8312298567B44_TypeDefinitionIndex)->GetStaticField(0x4D4C);
+	}
+	static ::System::Boolean* StaticGet_AMLFKIFMDAF()
+	{
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_D9F8312298567B44_TypeDefinitionIndex)->GetStaticField(0x4D5C);
+	}
+	static ::UnityEngine::LayerMask* StaticGet_NJHGKJIKBPB()
+	{
+		return (::UnityEngine::LayerMask*)Il2CppClass::FromTypeDefinitionIndex(Class_1_D9F8312298567B44_TypeDefinitionIndex)->GetStaticField(0x4D60);
 	}
 	// static const ::System::String* MHJAEKOHKEM; // 0x0
 	// static const ::System::String* FPGAEPJPFKG; // 0x0

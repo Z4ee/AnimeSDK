@@ -7,18 +7,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define CLASS_1_E8C259E730C95D15_METHOD_1_13A4856CD0BBDB3F_OFFSET UNITYSDK_OFFSET(0x1C8ADD30)
-#define CLASS_1_E8C259E730C95D15__CTOR_OFFSET UNITYSDK_OFFSET(0x1C8ADF70)
+#define CLASS_1_E8C259E730C95D15_METHOD_1_13A4856CD0BBDB3F_OFFSET UNITYSDK_OFFSET(0x1CE4C130)
+#define CLASS_1_E8C259E730C95D15__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE4C370)
 
-inline static constexpr unsigned int Class_1_E8C259E730C95D15_TypeDefinitionIndex = 12961;
+inline static constexpr unsigned int Class_1_E8C259E730C95D15_TypeDefinitionIndex = 13067;
 
 class Class_1_E8C259E730C95D15 : public ::System::Object
 {
 public:
-	::RPG::GameCore::FixPoint ABINBKACLJK; // 0x10
-	::RPG::GameCore::FixPoint PIBDDOGGDKL; // 0x18
-	::RPG::GameCore::SkillDamageRange HJNEHAAIIGI; // 0x20
-	::RPG::GameCore::HealFormulaType POAHAIDOOKL; // 0x24
+	::RPG::GameCore::HealFormulaType POAHAIDOOKL; // 0x10
+	::RPG::GameCore::SkillDamageRange HJNEHAAIIGI; // 0x14
+	::RPG::GameCore::FixPoint ABINBKACLJK; // 0x18
+	::RPG::GameCore::FixPoint PIBDDOGGDKL; // 0x20
 
 	::System::Void _ctor()
 	{

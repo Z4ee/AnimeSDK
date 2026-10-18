@@ -8,24 +8,24 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Text { class StringBuilder; }
 
-#define CLASS_1_DF769287778AC293_METHOD_1_5BF44407DD8AE9FB_OFFSET UNITYSDK_OFFSET(0x1637BD20)
-#define CLASS_1_DF769287778AC293_METHOD_1_A53A08945959EB6D_OFFSET UNITYSDK_OFFSET(0x1637B9B0)
-#define CLASS_1_DF769287778AC293_METHOD_1_D67BAA276D731371_OFFSET UNITYSDK_OFFSET(0x1637C720)
-#define CLASS_1_DF769287778AC293__CTOR_OFFSET UNITYSDK_OFFSET(0x1637CAC0)
+#define CLASS_1_DF769287778AC293_METHOD_1_5BF44407DD8AE9FB_OFFSET UNITYSDK_OFFSET(0xB2659A0)
+#define CLASS_1_DF769287778AC293_METHOD_1_A53A08945959EB6D_OFFSET UNITYSDK_OFFSET(0xB265630)
+#define CLASS_1_DF769287778AC293_METHOD_1_D67BAA276D731371_OFFSET UNITYSDK_OFFSET(0xB2663A0)
+#define CLASS_1_DF769287778AC293__CTOR_OFFSET UNITYSDK_OFFSET(0xB266740)
 
-inline static constexpr unsigned int Class_1_DF769287778AC293_TypeDefinitionIndex = 59157;
+inline static constexpr unsigned int Class_1_DF769287778AC293_TypeDefinitionIndex = 59009;
 
 class Class_1_DF769287778AC293 : public ::System::Object
 {
 public:
 	static ::Il2CppArray<::System::Byte>** StaticGet_DMMAEFCLCHK()
 	{
-		return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_DF769287778AC293_TypeDefinitionIndex)->GetStaticField(0x58BC0);
+		return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_DF769287778AC293_TypeDefinitionIndex)->GetStaticField(0x1EA10);
 	}
 	::System::Collections::Generic::List_1<::Struct_2_64F26B9ED0181D80>* CNJNGIOGGKH; // 0x10
 	::System::UInt32 FGIGJGGFIOP; // 0x18
-	::System::UInt32 AMCPMEAOJJK; // 0x1C
-	::System::UInt32 KAPJNJDCACL; // 0x20
+	::System::UInt32 KAPJNJDCACL; // 0x1C
+	::System::UInt32 AMCPMEAOJJK; // 0x20
 
 	::System::Void _ctor()
 	{

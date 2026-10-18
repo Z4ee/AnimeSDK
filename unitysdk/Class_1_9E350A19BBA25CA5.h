@@ -4,9 +4,9 @@
 
 namespace RPG::Client::Promises { class IPromise; }
 
-#define CLASS_1_9E350A19BBA25CA5__CTOR_OFFSET UNITYSDK_OFFSET(0xBFEE370)
+#define CLASS_1_9E350A19BBA25CA5__CTOR_OFFSET UNITYSDK_OFFSET(0xBED6920)
 
-inline static constexpr unsigned int Class_1_9E350A19BBA25CA5_TypeDefinitionIndex = 61164;
+inline static constexpr unsigned int Class_1_9E350A19BBA25CA5_TypeDefinitionIndex = 61069;
 
 class Class_1_9E350A19BBA25CA5 : public ::System::Object
 {

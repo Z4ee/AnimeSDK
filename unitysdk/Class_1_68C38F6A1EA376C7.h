@@ -6,18 +6,18 @@ namespace RPG::Client::Promises { class Promise; }
 namespace RPG::Client::Prop { class ChimeraBattlePuzzleBoard; }
 namespace RPG::GameCore { class PlayChimeraAnimation; }
 
-#define CLASS_1_68C38F6A1EA376C7_METHOD_1_8F9DF3D751E1E0BF_OFFSET UNITYSDK_OFFSET(0xC45DDC0)
-#define CLASS_1_68C38F6A1EA376C7_METHOD_1_B877181B6123B7F6_OFFSET UNITYSDK_OFFSET(0xC45DE00)
-#define CLASS_1_68C38F6A1EA376C7__CTOR_OFFSET UNITYSDK_OFFSET(0xC45DD70)
+#define CLASS_1_68C38F6A1EA376C7_METHOD_1_8F9DF3D751E1E0BF_OFFSET UNITYSDK_OFFSET(0xC35FD50)
+#define CLASS_1_68C38F6A1EA376C7_METHOD_1_B877181B6123B7F6_OFFSET UNITYSDK_OFFSET(0xC35FD90)
+#define CLASS_1_68C38F6A1EA376C7__CTOR_OFFSET UNITYSDK_OFFSET(0xC35FD00)
 
-inline static constexpr unsigned int Class_1_68C38F6A1EA376C7_TypeDefinitionIndex = 77943;
+inline static constexpr unsigned int Class_1_68C38F6A1EA376C7_TypeDefinitionIndex = 78414;
 
 class Class_1_68C38F6A1EA376C7 : public ::System::Object
 {
 public:
-	::RPG::Client::Promises::Promise* KKHPFDBFKHH; // 0x10
-	::RPG::Client::Prop::ChimeraBattlePuzzleBoard* PNMFAOJNNIC; // 0x18
-	::RPG::GameCore::PlayChimeraAnimation* IGHAHBNLIJA; // 0x20
+	::RPG::GameCore::PlayChimeraAnimation* IGHAHBNLIJA; // 0x10
+	::RPG::Client::Promises::Promise* KKHPFDBFKHH; // 0x18
+	::RPG::Client::Prop::ChimeraBattlePuzzleBoard* PNMFAOJNNIC; // 0x20
 	::System::UInt32 AJLJMGEEKOJ; // 0x28
 	::System::UInt32 NCBAPGKFFJA; // 0x2C
 

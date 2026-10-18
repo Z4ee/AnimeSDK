@@ -1,21 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Class_1_CD6736B46496BBF4.h"
-#include "unitysdk/Enum_3_63BCB6C405BA8A1D_3.h"
+#include "unitysdk/Enum_3_63BCB6C405BA8A1D_4.h"
 
 namespace RPG::Client { class RogueKeywordInfo; }
 
-#define CLASS_2_3A284BE358DB4BF2__CTOR_OFFSET UNITYSDK_OFFSET(0xC3EC2B0)
+#define CLASS_2_3A284BE358DB4BF2__CTOR_OFFSET UNITYSDK_OFFSET(0xC2ED490)
 
-inline static constexpr unsigned int Class_2_3A284BE358DB4BF2_TypeDefinitionIndex = 67086;
+inline static constexpr unsigned int Class_2_3A284BE358DB4BF2_TypeDefinitionIndex = 67088;
 
 class Class_2_3A284BE358DB4BF2 : public ::Class_1_CD6736B46496BBF4
 {
 public:
 	::RPG::Client::RogueKeywordInfo* JDDDOAKKMJN; // 0x20
 
-	::System::Void _ctor(::Enum_3_63BCB6C405BA8A1D_3 a1, ::RPG::Client::RogueKeywordInfo* a2)
+	::System::Void _ctor(::Enum_3_63BCB6C405BA8A1D_4 a1, ::RPG::Client::RogueKeywordInfo* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::Enum_3_63BCB6C405BA8A1D_3, ::RPG::Client::RogueKeywordInfo*))((::PBYTE)hIl2Cpp + CLASS_2_3A284BE358DB4BF2__CTOR_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::Enum_3_63BCB6C405BA8A1D_4, ::RPG::Client::RogueKeywordInfo*))((::PBYTE)hIl2Cpp + CLASS_2_3A284BE358DB4BF2__CTOR_OFFSET))(this, a1, a2);
 	}
 };

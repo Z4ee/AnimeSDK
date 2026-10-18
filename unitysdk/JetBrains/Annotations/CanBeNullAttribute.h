@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define JETBRAINS_ANNOTATIONS_CANBENULLATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1ED03910)
+#define JETBRAINS_ANNOTATIONS_CANBENULLATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F3CB6B0)
 
 namespace JetBrains::Annotations
 {
-	inline static constexpr unsigned int CanBeNullAttribute_TypeDefinitionIndex = 4007;
+	inline static constexpr unsigned int CanBeNullAttribute_TypeDefinitionIndex = 4008;
 
 	class CanBeNullAttribute : public ::System::Attribute
 	{

@@ -6,19 +6,19 @@
 namespace Proto { class MonopolyActionResult; }
 namespace System { class String; }
 
-#define CLASS_1_FE1D7619D3D998AA_TRIGGER_OFFSET UNITYSDK_OFFSET(0x1618ED70)
-#define CLASS_1_FE1D7619D3D998AA__CTOR_OFFSET UNITYSDK_OFFSET(0x1618EEC0)
+#define CLASS_1_FE1D7619D3D998AA_TRIGGER_OFFSET UNITYSDK_OFFSET(0x16502CB0)
+#define CLASS_1_FE1D7619D3D998AA__CTOR_OFFSET UNITYSDK_OFFSET(0x16502E00)
 
-inline static constexpr unsigned int Class_1_FE1D7619D3D998AA_TypeDefinitionIndex = 66267;
+inline static constexpr unsigned int Class_1_FE1D7619D3D998AA_TypeDefinitionIndex = 66228;
 
 class Class_1_FE1D7619D3D998AA : public ::System::Object
 {
 public:
 	// static const ::System::String* NNKPLACOBCD; // 0x0
-	::System::UInt32 HKAHFHHICEN; // 0x10
-	::System::UInt32 AIKAPJELHNK; // 0x14
-	::RPG::Client::MonopolyEffectShowType GDEIGEOELDJ; // 0x18
-	::System::UInt32 IHHNMMBAAGN; // 0x1C
+	::System::UInt32 AIKAPJELHNK; // 0x10
+	::System::UInt32 IHHNMMBAAGN; // 0x14
+	::System::UInt32 HKAHFHHICEN; // 0x18
+	::RPG::Client::MonopolyEffectShowType GDEIGEOELDJ; // 0x1C
 
 	::System::Void _ctor(::Proto::MonopolyActionResult* a1)
 	{

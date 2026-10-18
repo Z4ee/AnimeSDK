@@ -12,24 +12,24 @@
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 namespace System::Threading { class CancellationTokenSource; }
 
-#define CYSHARP_THREADING_TASKS_UNITASKEXTENSIONS__TIMEOUTWITHOUTEXCEPTION_D__46_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x3BA9E10)
-#define CYSHARP_THREADING_TASKS_UNITASKEXTENSIONS__TIMEOUTWITHOUTEXCEPTION_D__46_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x1020)
+#define CYSHARP_THREADING_TASKS_UNITASKEXTENSIONS__TIMEOUTWITHOUTEXCEPTION_D__46_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x3C5F1E0)
+#define CYSHARP_THREADING_TASKS_UNITASKEXTENSIONS__TIMEOUTWITHOUTEXCEPTION_D__46_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x10B0)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UniTaskExtensions__TimeoutWithoutException_d__46_TypeDefinitionIndex = 42841;
+	inline static constexpr unsigned int UniTaskExtensions__TimeoutWithoutException_d__46_TypeDefinitionIndex = 38426;
 
 	struct alignas(8) UniTaskExtensions__TimeoutWithoutException_d__46
 	{
-		::Cysharp::Threading::Tasks::UniTask_1_Awaiter<::System::ValueTuple_3<::System::Int32, ::System::Boolean, ::System::Boolean>> __u__1; // 0x10
-		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder_1<::System::Boolean> __t__builder; // 0x28
-		::Cysharp::Threading::Tasks::UniTask task; // 0x40
-		::System::Threading::CancellationTokenSource* taskCancellationTokenSource; // 0x50
-		::System::Threading::CancellationTokenSource* _delayCancellationTokenSource_5__2; // 0x58
-		::Cysharp::Threading::Tasks::DelayType delayType; // 0x60
-		::System::TimeSpan timeout; // 0x68
-		::System::Int32 __1__state; // 0x70
-		::Cysharp::Threading::Tasks::PlayerLoopTiming timeoutCheckTiming; // 0x74
+		::System::Threading::CancellationTokenSource* taskCancellationTokenSource; // 0x10
+		::System::Threading::CancellationTokenSource* _delayCancellationTokenSource_5__2; // 0x18
+		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder_1<::System::Boolean> __t__builder; // 0x20
+		::Cysharp::Threading::Tasks::UniTask_1_Awaiter<::System::ValueTuple_3<::System::Int32, ::System::Boolean, ::System::Boolean>> __u__1; // 0x38
+		::Cysharp::Threading::Tasks::UniTask task; // 0x50
+		::System::Int32 __1__state; // 0x60
+		::Cysharp::Threading::Tasks::DelayType delayType; // 0x64
+		::Cysharp::Threading::Tasks::PlayerLoopTiming timeoutCheckTiming; // 0x68
+		::System::TimeSpan timeout; // 0x70
 
 		::System::Void MoveNext()
 		{

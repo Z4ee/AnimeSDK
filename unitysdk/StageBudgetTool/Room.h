@@ -8,12 +8,12 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-#define STAGEBUDGETTOOL_ROOM_METHOD_1_63E8F19CFED33AB3_OFFSET UNITYSDK_OFFSET(0xE935450)
-#define STAGEBUDGETTOOL_ROOM__CTOR_OFFSET UNITYSDK_OFFSET(0xE9355B0)
+#define STAGEBUDGETTOOL_ROOM_METHOD_1_63E8F19CFED33AB3_OFFSET UNITYSDK_OFFSET(0xE98AC10)
+#define STAGEBUDGETTOOL_ROOM__CTOR_OFFSET UNITYSDK_OFFSET(0xE98AD70)
 
 namespace StageBudgetTool
 {
-	inline static constexpr unsigned int Room_TypeDefinitionIndex = 48181;
+	inline static constexpr unsigned int Room_TypeDefinitionIndex = 47722;
 
 	class Room : public ::System::Object
 	{

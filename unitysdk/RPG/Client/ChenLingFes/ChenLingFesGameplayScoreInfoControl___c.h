@@ -5,34 +5,34 @@
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYSCOREINFOCONTROL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xCB524E0)
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYSCOREINFOCONTROL___C__CTOR_OFFSET UNITYSDK_OFFSET(0xCB52520)
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYSCOREINFOCONTROL___C___ONBINDVIEWMODEL_B__3_2_OFFSET UNITYSDK_OFFSET(0xCB52530)
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYSCOREINFOCONTROL___C___ONBINDVIEWMODEL_B__3_5_OFFSET UNITYSDK_OFFSET(0xCB52590)
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYSCOREINFOCONTROL___C___ONBINDVIEWMODEL_B__3_8_OFFSET UNITYSDK_OFFSET(0xCB525F0)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYSCOREINFOCONTROL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xCAA15B0)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYSCOREINFOCONTROL___C__CTOR_OFFSET UNITYSDK_OFFSET(0xCAA15F0)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYSCOREINFOCONTROL___C___ONBINDVIEWMODEL_B__3_2_OFFSET UNITYSDK_OFFSET(0xCAA1600)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYSCOREINFOCONTROL___C___ONBINDVIEWMODEL_B__3_5_OFFSET UNITYSDK_OFFSET(0xCAA1660)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYSCOREINFOCONTROL___C___ONBINDVIEWMODEL_B__3_8_OFFSET UNITYSDK_OFFSET(0xCAA16C0)
 
 namespace RPG::Client::ChenLingFes
 {
-	inline static constexpr unsigned int ChenLingFesGameplayScoreInfoControl___c_TypeDefinitionIndex = 79995;
+	inline static constexpr unsigned int ChenLingFesGameplayScoreInfoControl___c_TypeDefinitionIndex = 81323;
 
 	class ChenLingFesGameplayScoreInfoControl___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::Int32, ::System::String*>** StaticGet___9__3_8()
-		{
-			return (::System::Func_2<::System::Int32, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ChenLingFesGameplayScoreInfoControl___c_TypeDefinitionIndex)->GetStaticField(0x37120);
-		}
-		static ::RPG::Client::ChenLingFes::ChenLingFesGameplayScoreInfoControl___c** StaticGet___9()
-		{
-			return (::RPG::Client::ChenLingFes::ChenLingFesGameplayScoreInfoControl___c**)Il2CppClass::FromTypeDefinitionIndex(ChenLingFesGameplayScoreInfoControl___c_TypeDefinitionIndex)->GetStaticField(0x37128);
-		}
 		static ::System::Func_2<::System::Int32, ::System::String*>** StaticGet___9__3_5()
 		{
-			return (::System::Func_2<::System::Int32, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ChenLingFesGameplayScoreInfoControl___c_TypeDefinitionIndex)->GetStaticField(0x37130);
+			return (::System::Func_2<::System::Int32, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ChenLingFesGameplayScoreInfoControl___c_TypeDefinitionIndex)->GetStaticField(0x6EE00);
 		}
 		static ::System::Func_2<::System::Int32, ::System::String*>** StaticGet___9__3_2()
 		{
-			return (::System::Func_2<::System::Int32, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ChenLingFesGameplayScoreInfoControl___c_TypeDefinitionIndex)->GetStaticField(0x37138);
+			return (::System::Func_2<::System::Int32, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ChenLingFesGameplayScoreInfoControl___c_TypeDefinitionIndex)->GetStaticField(0x6EE08);
+		}
+		static ::RPG::Client::ChenLingFes::ChenLingFesGameplayScoreInfoControl___c** StaticGet___9()
+		{
+			return (::RPG::Client::ChenLingFes::ChenLingFesGameplayScoreInfoControl___c**)Il2CppClass::FromTypeDefinitionIndex(ChenLingFesGameplayScoreInfoControl___c_TypeDefinitionIndex)->GetStaticField(0x6EE10);
+		}
+		static ::System::Func_2<::System::Int32, ::System::String*>** StaticGet___9__3_8()
+		{
+			return (::System::Func_2<::System::Int32, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ChenLingFesGameplayScoreInfoControl___c_TypeDefinitionIndex)->GetStaticField(0x6EE18);
 		}
 
 		static ::System::Void _cctor()

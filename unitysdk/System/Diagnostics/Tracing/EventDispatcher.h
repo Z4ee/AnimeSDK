@@ -4,7 +4,7 @@
 
 namespace System::Diagnostics::Tracing { class EventListener; }
 
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTDISPATCHER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BCCF740)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTDISPATCHER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C1DB7B0)
 
 namespace System::Diagnostics::Tracing
 {
@@ -13,9 +13,9 @@ namespace System::Diagnostics::Tracing
 	class EventDispatcher : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::Boolean>* m_EventEnabled; // 0x10
-		::System::Diagnostics::Tracing::EventListener* m_Listener; // 0x18
-		::System::Diagnostics::Tracing::EventDispatcher* m_Next; // 0x20
+		::System::Diagnostics::Tracing::EventDispatcher* m_Next; // 0x10
+		::Il2CppArray<::System::Boolean>* m_EventEnabled; // 0x18
+		::System::Diagnostics::Tracing::EventListener* m_Listener; // 0x20
 		::System::Boolean m_activityFilteringEnabled; // 0x28
 
 		::System::Void _ctor(::System::Diagnostics::Tracing::EventDispatcher* a1, ::Il2CppArray<::System::Boolean>* a2, ::System::Diagnostics::Tracing::EventListener* a3)

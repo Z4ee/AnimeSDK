@@ -1,15 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/TextID.h"
+#include "unitysdk/RPG/Client/EInflateIntent.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_4581653E1FF18BF3_3_GETFAILHINTTEXT_OFFSET UNITYSDK_OFFSET(0x12844B20)
-#define CLASS_1_4581653E1FF18BF3_3_HASTRIGGERACTION_OFFSET UNITYSDK_OFFSET(0x12844CF0)
-#define CLASS_1_4581653E1FF18BF3_3_ONTRIGGER_OFFSET UNITYSDK_OFFSET(0x12844D30)
-#define CLASS_1_4581653E1FF18BF3_3_SHOULDTRIGGER_OFFSET UNITYSDK_OFFSET(0x12844BD0)
-#define CLASS_1_4581653E1FF18BF3_3__CTOR_OFFSET UNITYSDK_OFFSET(0x12844DB0)
+#define CLASS_1_4581653E1FF18BF3_3_METHOD_1_391A84BCD9F51317_1_OFFSET UNITYSDK_OFFSET(0x1662CEA0)
+#define CLASS_1_4581653E1FF18BF3_3_METHOD_1_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0x1662CE60)
+#define CLASS_1_4581653E1FF18BF3_3_METHOD_1_54491DD3A31B63AB_OFFSET UNITYSDK_OFFSET(0x1662CE20)
+#define CLASS_1_4581653E1FF18BF3_3__CTOR_OFFSET UNITYSDK_OFFSET(0x1662CEE0)
 
-inline static constexpr unsigned int Class_1_4581653E1FF18BF3_3_TypeDefinitionIndex = 75087;
+inline static constexpr unsigned int Class_1_4581653E1FF18BF3_3_TypeDefinitionIndex = 68681;
 
 class Class_1_4581653E1FF18BF3_3 : public ::System::Object
 {
@@ -19,23 +18,18 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_4581653E1FF18BF3_3__CTOR_OFFSET))(this);
 	}
 
-	::RPG::Client::TextID GetFailHintText()
+	::RPG::Client::EInflateIntent Method_1_54491DD3A31B63AB()
 	{
-		return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_4581653E1FF18BF3_3_GETFAILHINTTEXT_OFFSET))(this);
+		return ((::RPG::Client::EInflateIntent(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_4581653E1FF18BF3_3_METHOD_1_54491DD3A31B63AB_OFFSET))(this);
 	}
 
-	::System::Boolean ShouldTrigger()
+	::System::Boolean Method_1_391A84BCD9F51317()
 	{
-		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_4581653E1FF18BF3_3_SHOULDTRIGGER_OFFSET))(this);
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_4581653E1FF18BF3_3_METHOD_1_391A84BCD9F51317_OFFSET))(this);
 	}
 
-	::System::Boolean HasTriggerAction()
+	::System::Boolean Method_1_391A84BCD9F51317_1()
 	{
-		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_4581653E1FF18BF3_3_HASTRIGGERACTION_OFFSET))(this);
-	}
-
-	::System::Void OnTrigger()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_4581653E1FF18BF3_3_ONTRIGGER_OFFSET))(this);
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_4581653E1FF18BF3_3_METHOD_1_391A84BCD9F51317_1_OFFSET))(this);
 	}
 };

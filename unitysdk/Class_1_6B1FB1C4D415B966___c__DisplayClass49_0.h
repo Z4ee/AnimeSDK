@@ -3,19 +3,19 @@
 #include "unitysdk/RPG/Client/TriggerEffectCallbackParams.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_43BD383C98B4C0C5_98;
+class Class_1_43BD383C98B4C0C5_106;
 namespace RPG::Client { class MonoEffect; }
 
-#define CLASS_1_6B1FB1C4D415B966___C__DISPLAYCLASS49_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCCFC860)
-#define CLASS_1_6B1FB1C4D415B966___C__DISPLAYCLASS49_0__FIRESPEEDEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0xCD12A50)
-#define CLASS_1_6B1FB1C4D415B966___C__DISPLAYCLASS49_0__FIRESPEEDEFFECT_B__1_OFFSET UNITYSDK_OFFSET(0xCD12AF0)
+#define CLASS_1_6B1FB1C4D415B966___C__DISPLAYCLASS49_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCC6F0C0)
+#define CLASS_1_6B1FB1C4D415B966___C__DISPLAYCLASS49_0__FIRESPEEDEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0xCC85170)
+#define CLASS_1_6B1FB1C4D415B966___C__DISPLAYCLASS49_0__FIRESPEEDEFFECT_B__1_OFFSET UNITYSDK_OFFSET(0xCC85210)
 
-inline static constexpr unsigned int Class_1_6B1FB1C4D415B966___c__DisplayClass49_0_TypeDefinitionIndex = 75505;
+inline static constexpr unsigned int Class_1_6B1FB1C4D415B966___c__DisplayClass49_0_TypeDefinitionIndex = 75920;
 
 class Class_1_6B1FB1C4D415B966___c__DisplayClass49_0 : public ::System::Object
 {
 public:
-	::Class_1_43BD383C98B4C0C5_98* car; // 0x10
+	::Class_1_43BD383C98B4C0C5_106* car; // 0x10
 	::System::UInt32 speedEffectPartID; // 0x18
 
 	::System::Void _ctor()

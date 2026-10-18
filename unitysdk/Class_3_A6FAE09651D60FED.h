@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class MappingAttachPoint; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_A6FAE09651D60FED_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x158E02E0)
-#define CLASS_3_A6FAE09651D60FED__CTOR_OFFSET UNITYSDK_OFFSET(0x158E02B0)
+#define CLASS_3_A6FAE09651D60FED_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15C301E0)
+#define CLASS_3_A6FAE09651D60FED__CTOR_OFFSET UNITYSDK_OFFSET(0x15C301B0)
 
-inline static constexpr unsigned int Class_3_A6FAE09651D60FED_TypeDefinitionIndex = 55373;
+inline static constexpr unsigned int Class_3_A6FAE09651D60FED_TypeDefinitionIndex = 55170;
 
 class Class_3_A6FAE09651D60FED : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::MappingAttachPoint*>
 {

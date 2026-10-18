@@ -5,27 +5,27 @@
 namespace RPG::Client::Prop { class ChimeraDuelShopViewEffectBase; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define CLASS_1_B7473CCDD2B9AE2A___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC15C240)
-#define CLASS_1_B7473CCDD2B9AE2A___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC15C280)
-#define CLASS_1_B7473CCDD2B9AE2A___C__TRYCREATEWITHEFFECT_B__2_0_OFFSET UNITYSDK_OFFSET(0xC15C290)
-#define CLASS_1_B7473CCDD2B9AE2A___C___TRYCREATEEFFECT_B__6_1_OFFSET UNITYSDK_OFFSET(0xC15C2A0)
+#define CLASS_1_B7473CCDD2B9AE2A___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC010CD0)
+#define CLASS_1_B7473CCDD2B9AE2A___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC010D10)
+#define CLASS_1_B7473CCDD2B9AE2A___C__TRYCREATEWITHEFFECT_B__2_0_OFFSET UNITYSDK_OFFSET(0xC010D20)
+#define CLASS_1_B7473CCDD2B9AE2A___C___TRYCREATEEFFECT_B__6_1_OFFSET UNITYSDK_OFFSET(0xC010D30)
 
-inline static constexpr unsigned int Class_1_B7473CCDD2B9AE2A___c_TypeDefinitionIndex = 77876;
+inline static constexpr unsigned int Class_1_B7473CCDD2B9AE2A___c_TypeDefinitionIndex = 78347;
 
 class Class_1_B7473CCDD2B9AE2A___c : public ::System::Object
 {
 public:
-	static ::System::Func_2<::RPG::Client::Prop::ChimeraDuelShopViewEffectBase*, ::System::Boolean>** StaticGet___9__6_1()
-	{
-		return (::System::Func_2<::RPG::Client::Prop::ChimeraDuelShopViewEffectBase*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_B7473CCDD2B9AE2A___c_TypeDefinitionIndex)->GetStaticField(0x1CE50);
-	}
 	static ::System::Func_2<::System::UInt32, ::System::Int32>** StaticGet___9__2_0()
 	{
-		return (::System::Func_2<::System::UInt32, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_B7473CCDD2B9AE2A___c_TypeDefinitionIndex)->GetStaticField(0x1CE58);
+		return (::System::Func_2<::System::UInt32, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_B7473CCDD2B9AE2A___c_TypeDefinitionIndex)->GetStaticField(0x65520);
 	}
 	static ::Class_1_B7473CCDD2B9AE2A___c** StaticGet___9()
 	{
-		return (::Class_1_B7473CCDD2B9AE2A___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_B7473CCDD2B9AE2A___c_TypeDefinitionIndex)->GetStaticField(0x1CE60);
+		return (::Class_1_B7473CCDD2B9AE2A___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_B7473CCDD2B9AE2A___c_TypeDefinitionIndex)->GetStaticField(0x65528);
+	}
+	static ::System::Func_2<::RPG::Client::Prop::ChimeraDuelShopViewEffectBase*, ::System::Boolean>** StaticGet___9__6_1()
+	{
+		return (::System::Func_2<::RPG::Client::Prop::ChimeraDuelShopViewEffectBase*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_B7473CCDD2B9AE2A___c_TypeDefinitionIndex)->GetStaticField(0x65530);
 	}
 
 	static ::System::Void _cctor()

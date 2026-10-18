@@ -6,20 +6,20 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHENLINGFESLEVELABILITYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CFB3A00)
-#define RPG_GAMECORE_CHENLINGFESLEVELABILITYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFB3CB0)
+#define RPG_GAMECORE_CHENLINGFESLEVELABILITYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D58EF60)
+#define RPG_GAMECORE_CHENLINGFESLEVELABILITYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D58F210)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingFesLevelAbilityRow_TypeDefinitionIndex = 11095;
+	inline static constexpr unsigned int ChenLingFesLevelAbilityRow_TypeDefinitionIndex = 11111;
 
 	class ChenLingFesLevelAbilityRow : public ::System::Object
 	{
 	public:
-		::System::String* IconPath; // 0x10
-		::Il2CppArray<::System::UInt32>* ParamList; // 0x18
-		::RPG::Client::TextID AbilityDesc; // 0x20
-		::System::UInt32 ID; // 0x30
+		::Il2CppArray<::System::UInt32>* ParamList; // 0x10
+		::System::String* IconPath; // 0x18
+		::System::UInt32 ID; // 0x20
+		::RPG::Client::TextID AbilityDesc; // 0x28
 		::RPG::Client::TextID AbilityName; // 0x38
 
 		::System::Void _ctor()

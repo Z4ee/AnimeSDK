@@ -20,30 +20,30 @@ namespace System::Xml::Schema { class XmlSchemaSimpleType; }
 namespace System::Xml::Schema { class XmlSchemaType; }
 namespace System::Xml::Schema { class XmlValueConverter; }
 
-#define SYSTEM_XML_SCHEMA_DATATYPEIMPLEMENTATION_COMPARE_OFFSET UNITYSDK_OFFSET(0x1E7E9E90)
-#define SYSTEM_XML_SCHEMA_DATATYPEIMPLEMENTATION_CREATEBUILTINTYPES_OFFSET UNITYSDK_OFFSET(0x1E7E8000)
-#define SYSTEM_XML_SCHEMA_DATATYPEIMPLEMENTATION_CREATEVALUECONVERTER_OFFSET UNITYSDK_OFFSET(0x1E7E9A80)
-#define SYSTEM_XML_SCHEMA_DATATYPEIMPLEMENTATION_DERIVEBYLIST_OFFSET UNITYSDK_OFFSET(0x1E7E6140)
-#define SYSTEM_XML_SCHEMA_DATATYPEIMPLEMENTATION_FINISHBUILTINTYPE_OFFSET UNITYSDK_OFFSET(0x1E7E9310)
-#define SYSTEM_XML_SCHEMA_DATATYPEIMPLEMENTATION_FROMTYPENAME_OFFSET UNITYSDK_OFFSET(0x1E7E9130)
-#define SYSTEM_XML_SCHEMA_DATATYPEIMPLEMENTATION_FROMXMLTOKENIZEDTYPE_OFFSET UNITYSDK_OFFSET(0x1E7E90A0)
-#define SYSTEM_XML_SCHEMA_DATATYPEIMPLEMENTATION_GETSIMPLETYPEFROMTYPECODE_OFFSET UNITYSDK_OFFSET(0x1E7E97A0)
-#define SYSTEM_XML_SCHEMA_DATATYPEIMPLEMENTATION_GETTYPENAME_OFFSET UNITYSDK_OFFSET(0x1E7E9DF0)
-#define SYSTEM_XML_SCHEMA_DATATYPEIMPLEMENTATION_GET_ANYSIMPLETYPE_OFFSET UNITYSDK_OFFSET(0x1E7E8FE0)
-#define SYSTEM_XML_SCHEMA_DATATYPEIMPLEMENTATION_GET_BUILTINWHITESPACEFACET_OFFSET UNITYSDK_OFFSET(0x1E7E9BF0)
-#define SYSTEM_XML_SCHEMA_DATATYPEIMPLEMENTATION_GET_FACETSCHECKER_OFFSET UNITYSDK_OFFSET(0x1E7E9A90)
-#define SYSTEM_XML_SCHEMA_DATATYPEIMPLEMENTATION_GET_RESTRICTION_OFFSET UNITYSDK_OFFSET(0x1E7E9BE0)
-#define SYSTEM_XML_SCHEMA_DATATYPEIMPLEMENTATION_GET_TOKENIZEDTYPE_OFFSET UNITYSDK_OFFSET(0x1E7E9B80)
-#define SYSTEM_XML_SCHEMA_DATATYPEIMPLEMENTATION_GET_TYPECODE_OFFSET UNITYSDK_OFFSET(0x1E7E9BD0)
-#define SYSTEM_XML_SCHEMA_DATATYPEIMPLEMENTATION_GET_UNTYPEDATOMICTYPE_OFFSET UNITYSDK_OFFSET(0x1E7E9040)
-#define SYSTEM_XML_SCHEMA_DATATYPEIMPLEMENTATION_GET_VALUECONVERTER_OFFSET UNITYSDK_OFFSET(0x1E7E9AF0)
-#define SYSTEM_XML_SCHEMA_DATATYPEIMPLEMENTATION_GET_VALUETYPE_OFFSET UNITYSDK_OFFSET(0x1E7E9B90)
-#define SYSTEM_XML_SCHEMA_DATATYPEIMPLEMENTATION_GET_VARIETY_OFFSET UNITYSDK_OFFSET(0x1E7E9BC0)
-#define SYSTEM_XML_SCHEMA_DATATYPEIMPLEMENTATION_ISEQUAL_OFFSET UNITYSDK_OFFSET(0x1E7E99F0)
-#define SYSTEM_XML_SCHEMA_DATATYPEIMPLEMENTATION_PARSEVALUE_OFFSET UNITYSDK_OFFSET(0x1E7E9C00)
-#define SYSTEM_XML_SCHEMA_DATATYPEIMPLEMENTATION_STARTBUILTINTYPE_OFFSET UNITYSDK_OFFSET(0x1E7E9210)
-#define SYSTEM_XML_SCHEMA_DATATYPEIMPLEMENTATION__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E7E02D0)
-#define SYSTEM_XML_SCHEMA_DATATYPEIMPLEMENTATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7E9EF0)
+#define SYSTEM_XML_SCHEMA_DATATYPEIMPLEMENTATION_COMPARE_OFFSET UNITYSDK_OFFSET(0x1EEB2B70)
+#define SYSTEM_XML_SCHEMA_DATATYPEIMPLEMENTATION_CREATEBUILTINTYPES_OFFSET UNITYSDK_OFFSET(0x1EEB0CE0)
+#define SYSTEM_XML_SCHEMA_DATATYPEIMPLEMENTATION_CREATEVALUECONVERTER_OFFSET UNITYSDK_OFFSET(0x1EEB2760)
+#define SYSTEM_XML_SCHEMA_DATATYPEIMPLEMENTATION_DERIVEBYLIST_OFFSET UNITYSDK_OFFSET(0x1EEAEE20)
+#define SYSTEM_XML_SCHEMA_DATATYPEIMPLEMENTATION_FINISHBUILTINTYPE_OFFSET UNITYSDK_OFFSET(0x1EEB1FF0)
+#define SYSTEM_XML_SCHEMA_DATATYPEIMPLEMENTATION_FROMTYPENAME_OFFSET UNITYSDK_OFFSET(0x1EEB1E10)
+#define SYSTEM_XML_SCHEMA_DATATYPEIMPLEMENTATION_FROMXMLTOKENIZEDTYPE_OFFSET UNITYSDK_OFFSET(0x1EEB1D80)
+#define SYSTEM_XML_SCHEMA_DATATYPEIMPLEMENTATION_GETSIMPLETYPEFROMTYPECODE_OFFSET UNITYSDK_OFFSET(0x1EEB2480)
+#define SYSTEM_XML_SCHEMA_DATATYPEIMPLEMENTATION_GETTYPENAME_OFFSET UNITYSDK_OFFSET(0x1EEB2AD0)
+#define SYSTEM_XML_SCHEMA_DATATYPEIMPLEMENTATION_GET_ANYSIMPLETYPE_OFFSET UNITYSDK_OFFSET(0x1EEB1CC0)
+#define SYSTEM_XML_SCHEMA_DATATYPEIMPLEMENTATION_GET_BUILTINWHITESPACEFACET_OFFSET UNITYSDK_OFFSET(0x1EEB28D0)
+#define SYSTEM_XML_SCHEMA_DATATYPEIMPLEMENTATION_GET_FACETSCHECKER_OFFSET UNITYSDK_OFFSET(0x1EEB2770)
+#define SYSTEM_XML_SCHEMA_DATATYPEIMPLEMENTATION_GET_RESTRICTION_OFFSET UNITYSDK_OFFSET(0x1EEB28C0)
+#define SYSTEM_XML_SCHEMA_DATATYPEIMPLEMENTATION_GET_TOKENIZEDTYPE_OFFSET UNITYSDK_OFFSET(0x1EEB2860)
+#define SYSTEM_XML_SCHEMA_DATATYPEIMPLEMENTATION_GET_TYPECODE_OFFSET UNITYSDK_OFFSET(0x1EEB28B0)
+#define SYSTEM_XML_SCHEMA_DATATYPEIMPLEMENTATION_GET_UNTYPEDATOMICTYPE_OFFSET UNITYSDK_OFFSET(0x1EEB1D20)
+#define SYSTEM_XML_SCHEMA_DATATYPEIMPLEMENTATION_GET_VALUECONVERTER_OFFSET UNITYSDK_OFFSET(0x1EEB27D0)
+#define SYSTEM_XML_SCHEMA_DATATYPEIMPLEMENTATION_GET_VALUETYPE_OFFSET UNITYSDK_OFFSET(0x1EEB2870)
+#define SYSTEM_XML_SCHEMA_DATATYPEIMPLEMENTATION_GET_VARIETY_OFFSET UNITYSDK_OFFSET(0x1EEB28A0)
+#define SYSTEM_XML_SCHEMA_DATATYPEIMPLEMENTATION_ISEQUAL_OFFSET UNITYSDK_OFFSET(0x1EEB26D0)
+#define SYSTEM_XML_SCHEMA_DATATYPEIMPLEMENTATION_PARSEVALUE_OFFSET UNITYSDK_OFFSET(0x1EEB28E0)
+#define SYSTEM_XML_SCHEMA_DATATYPEIMPLEMENTATION_STARTBUILTINTYPE_OFFSET UNITYSDK_OFFSET(0x1EEB1EF0)
+#define SYSTEM_XML_SCHEMA_DATATYPEIMPLEMENTATION__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EEA8FB0)
+#define SYSTEM_XML_SCHEMA_DATATYPEIMPLEMENTATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1EEB2BD0)
 
 namespace System::Xml::Schema
 {
@@ -52,346 +52,346 @@ namespace System::Xml::Schema
 	class DatatypeImplementation : public ::System::Xml::Schema::XmlSchemaDatatype
 	{
 	public:
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_IDREFS()
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_NCName()
 		{
-			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x18C70);
-		}
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_boolean()
-		{
-			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x18C78);
-		}
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_untypedAtomicType()
-		{
-			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x18C80);
-		}
-		static ::System::Xml::XmlQualifiedName** StaticGet_QnAnyType()
-		{
-			return (::System::Xml::XmlQualifiedName**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x18C88);
-		}
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_double()
-		{
-			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x18C90);
-		}
-		static ::System::Xml::Schema::FacetsChecker** StaticGet_dateTimeFacetsChecker()
-		{
-			return (::System::Xml::Schema::FacetsChecker**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x18C98);
-		}
-		static ::System::Xml::Schema::FacetsChecker** StaticGet_unionFacetsChecker()
-		{
-			return (::System::Xml::Schema::FacetsChecker**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x18CA0);
-		}
-		static ::System::Xml::Schema::XmlSchemaSimpleType** StaticGet_untypedAtomicType()
-		{
-			return (::System::Xml::Schema::XmlSchemaSimpleType**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x18CA8);
-		}
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_byte()
-		{
-			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x18CB0);
-		}
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_float()
-		{
-			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x18CB8);
-		}
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_integer()
-		{
-			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x18CC0);
-		}
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_int()
-		{
-			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x18CC8);
-		}
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_nonPositiveInteger()
-		{
-			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x18CD0);
-		}
-		static ::System::Xml::Schema::FacetsChecker** StaticGet_binaryFacetsChecker()
-		{
-			return (::System::Xml::Schema::FacetsChecker**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x18CD8);
-		}
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_anyAtomicType()
-		{
-			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x18CE0);
-		}
-		static ::Il2CppArray<::System::Xml::Schema::DatatypeImplementation_SchemaDatatypeMap*>** StaticGet_c_XsdTypes()
-		{
-			return (::Il2CppArray<::System::Xml::Schema::DatatypeImplementation_SchemaDatatypeMap*>**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x18CE8);
-		}
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_ID()
-		{
-			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x18CF0);
-		}
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_decimal()
-		{
-			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x18CF8);
-		}
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_yearMonthDuration()
-		{
-			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x18D00);
-		}
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_uuid()
-		{
-			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x18D08);
-		}
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_anySimpleType()
-		{
-			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x18D10);
-		}
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_month()
-		{
-			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x18D18);
-		}
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_char()
-		{
-			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x18D20);
-		}
-		static ::Il2CppArray<::System::Xml::Schema::XmlSchemaSimpleType*>** StaticGet_enumToTypeCode()
-		{
-			return (::Il2CppArray<::System::Xml::Schema::XmlSchemaSimpleType*>**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x18D28);
-		}
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_yearMonth()
-		{
-			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x18D30);
-		}
-		static ::Il2CppArray<::System::Xml::Schema::DatatypeImplementation*>** StaticGet_c_tokenizedTypesXsd()
-		{
-			return (::Il2CppArray<::System::Xml::Schema::DatatypeImplementation*>**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x18D38);
-		}
-		static ::System::Xml::XmlQualifiedName** StaticGet_QnAnySimpleType()
-		{
-			return (::System::Xml::XmlQualifiedName**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x18D40);
-		}
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_nonNegativeInteger()
-		{
-			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x18D48);
-		}
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_normalizedStringV1Compat()
-		{
-			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x18D50);
-		}
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_NMTOKEN()
-		{
-			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x18D58);
-		}
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_date()
-		{
-			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x18D60);
-		}
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_ENTITIES()
-		{
-			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x18D68);
-		}
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_base64Binary()
-		{
-			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x18D70);
-		}
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_positiveInteger()
-		{
-			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x18D78);
+			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x21AC0);
 		}
 		static ::System::Xml::Schema::FacetsChecker** StaticGet_miscFacetsChecker()
 		{
-			return (::System::Xml::Schema::FacetsChecker**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x18D80);
-		}
-		static ::System::Collections::Hashtable** StaticGet_builtinTypes()
-		{
-			return (::System::Collections::Hashtable**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x18D88);
-		}
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_fixed()
-		{
-			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x18D90);
+			return (::System::Xml::Schema::FacetsChecker**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x21AC8);
 		}
 		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_short()
 		{
-			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x18D98);
-		}
-		static ::System::Xml::Schema::XmlSchemaSimpleType** StaticGet_anyAtomicType()
-		{
-			return (::System::Xml::Schema::XmlSchemaSimpleType**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x18DA0);
-		}
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_Name()
-		{
-			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x18DA8);
+			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x21AD0);
 		}
 		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_unsignedInt()
 		{
-			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x18DB0);
-		}
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_string()
-		{
-			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x18DB8);
-		}
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_ENTITY()
-		{
-			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x18DC0);
-		}
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_dayTimeDuration()
-		{
-			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x18DC8);
-		}
-		static ::System::Xml::Schema::FacetsChecker** StaticGet_durationFacetsChecker()
-		{
-			return (::System::Xml::Schema::FacetsChecker**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x18DD0);
-		}
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_IDREF()
-		{
-			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x18DD8);
-		}
-		static ::Il2CppArray<::System::Xml::Schema::DatatypeImplementation_SchemaDatatypeMap*>** StaticGet_c_XdrTypes()
-		{
-			return (::Il2CppArray<::System::Xml::Schema::DatatypeImplementation_SchemaDatatypeMap*>**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x18DE0);
-		}
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_floatXdr()
-		{
-			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x18DE8);
-		}
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_NCName()
-		{
-			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x18DF0);
-		}
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_normalizedString()
-		{
-			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x18DF8);
-		}
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_hexBinary()
-		{
-			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x18E00);
-		}
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_ENUMERATION()
-		{
-			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x18E08);
-		}
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_token()
-		{
-			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x18E10);
-		}
-		static ::Il2CppArray<::System::Xml::Schema::DatatypeImplementation*>** StaticGet_c_tokenizedTypes()
-		{
-			return (::Il2CppArray<::System::Xml::Schema::DatatypeImplementation*>**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x18E18);
-		}
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_NMTOKENS()
-		{
-			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x18E20);
-		}
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_language()
-		{
-			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x18E28);
-		}
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_duration()
-		{
-			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x18E30);
-		}
-		static ::System::Xml::Schema::FacetsChecker** StaticGet_stringFacetsChecker()
-		{
-			return (::System::Xml::Schema::FacetsChecker**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x18E38);
-		}
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_unsignedLong()
-		{
-			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x18E40);
-		}
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_doubleXdr()
-		{
-			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x18E48);
+			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x21AD8);
 		}
 		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_dateTimeNoTz()
 		{
-			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x18E50);
+			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x21AE0);
 		}
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_unsignedByte()
+		static ::System::Xml::Schema::FacetsChecker** StaticGet_dateTimeFacetsChecker()
 		{
-			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x18E58);
+			return (::System::Xml::Schema::FacetsChecker**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x21AE8);
 		}
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_dateTimeTz()
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_date()
 		{
-			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x18E60);
+			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x21AF0);
 		}
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_timeTz()
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_ENTITIES()
 		{
-			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x18E68);
+			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x21AF8);
 		}
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_NOTATION()
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_positiveInteger()
 		{
-			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x18E70);
+			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x21B00);
 		}
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_unsignedShort()
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_uuid()
 		{
-			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x18E78);
+			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x21B08);
 		}
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_time()
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_integer()
 		{
-			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x18E80);
-		}
-		static ::System::Xml::Schema::XmlSchemaSimpleType** StaticGet_dayTimeDurationType()
-		{
-			return (::System::Xml::Schema::XmlSchemaSimpleType**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x18E88);
-		}
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_year()
-		{
-			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x18E90);
-		}
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_dateTime()
-		{
-			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x18E98);
+			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x21B10);
 		}
 		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_QName()
 		{
-			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x18EA0);
+			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x21B18);
 		}
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_day()
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_duration()
 		{
-			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x18EA8);
+			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x21B20);
 		}
-		static ::System::Xml::Schema::FacetsChecker** StaticGet_listFacetsChecker()
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_time()
 		{
-			return (::System::Xml::Schema::FacetsChecker**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x18EB0);
+			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x21B28);
 		}
-		static ::System::Xml::Schema::XmlSchemaSimpleType** StaticGet_anySimpleType()
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_yearMonthDuration()
 		{
-			return (::System::Xml::Schema::XmlSchemaSimpleType**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x18EB8);
+			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x21B30);
 		}
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_timeNoTz()
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_nonNegativeInteger()
 		{
-			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x18EC0);
+			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x21B38);
 		}
-		static ::System::Xml::Schema::FacetsChecker** StaticGet_numeric2FacetsChecker()
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_ENTITY()
 		{
-			return (::System::Xml::Schema::FacetsChecker**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x18EC8);
+			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x21B40);
 		}
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_tokenV1Compat()
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_normalizedStringV1Compat()
 		{
-			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x18ED0);
+			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x21B48);
 		}
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_long()
+		static ::System::Xml::Schema::FacetsChecker** StaticGet_durationFacetsChecker()
 		{
-			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x18ED8);
-		}
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_anyURI()
-		{
-			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x18EE0);
-		}
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_monthDay()
-		{
-			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x18EE8);
-		}
-		static ::System::Xml::Schema::XmlSchemaSimpleType** StaticGet_yearMonthDurationType()
-		{
-			return (::System::Xml::Schema::XmlSchemaSimpleType**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x18EF0);
-		}
-		static ::System::Xml::Schema::FacetsChecker** StaticGet_qnameFacetsChecker()
-		{
-			return (::System::Xml::Schema::FacetsChecker**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x18EF8);
+			return (::System::Xml::Schema::FacetsChecker**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x21B50);
 		}
 		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_QNameXdr()
 		{
-			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x18F00);
+			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x21B58);
+		}
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_unsignedLong()
+		{
+			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x21B60);
+		}
+		static ::System::Xml::Schema::FacetsChecker** StaticGet_binaryFacetsChecker()
+		{
+			return (::System::Xml::Schema::FacetsChecker**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x21B68);
+		}
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_IDREF()
+		{
+			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x21B70);
+		}
+		static ::System::Xml::Schema::XmlSchemaSimpleType** StaticGet_anyAtomicType()
+		{
+			return (::System::Xml::Schema::XmlSchemaSimpleType**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x21B78);
+		}
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_NMTOKEN()
+		{
+			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x21B80);
+		}
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_Name()
+		{
+			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x21B88);
+		}
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_anyURI()
+		{
+			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x21B90);
+		}
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_NOTATION()
+		{
+			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x21B98);
+		}
+		static ::System::Xml::Schema::XmlSchemaSimpleType** StaticGet_yearMonthDurationType()
+		{
+			return (::System::Xml::Schema::XmlSchemaSimpleType**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x21BA0);
 		}
 		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_negativeInteger()
 		{
-			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x18F08);
+			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x21BA8);
+		}
+		static ::Il2CppArray<::System::Xml::Schema::DatatypeImplementation*>** StaticGet_c_tokenizedTypes()
+		{
+			return (::Il2CppArray<::System::Xml::Schema::DatatypeImplementation*>**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x21BB0);
+		}
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_NMTOKENS()
+		{
+			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x21BB8);
+		}
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_IDREFS()
+		{
+			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x21BC0);
+		}
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_yearMonth()
+		{
+			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x21BC8);
+		}
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_nonPositiveInteger()
+		{
+			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x21BD0);
+		}
+		static ::Il2CppArray<::System::Xml::Schema::DatatypeImplementation*>** StaticGet_c_tokenizedTypesXsd()
+		{
+			return (::Il2CppArray<::System::Xml::Schema::DatatypeImplementation*>**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x21BD8);
+		}
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_decimal()
+		{
+			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x21BE0);
+		}
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_hexBinary()
+		{
+			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x21BE8);
+		}
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_long()
+		{
+			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x21BF0);
+		}
+		static ::Il2CppArray<::System::Xml::Schema::XmlSchemaSimpleType*>** StaticGet_enumToTypeCode()
+		{
+			return (::Il2CppArray<::System::Xml::Schema::XmlSchemaSimpleType*>**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x21BF8);
+		}
+		static ::System::Collections::Hashtable** StaticGet_builtinTypes()
+		{
+			return (::System::Collections::Hashtable**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x21C00);
+		}
+		static ::System::Xml::Schema::FacetsChecker** StaticGet_qnameFacetsChecker()
+		{
+			return (::System::Xml::Schema::FacetsChecker**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x21C08);
+		}
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_int()
+		{
+			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x21C10);
+		}
+		static ::System::Xml::Schema::FacetsChecker** StaticGet_numeric2FacetsChecker()
+		{
+			return (::System::Xml::Schema::FacetsChecker**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x21C18);
+		}
+		static ::System::Xml::XmlQualifiedName** StaticGet_QnAnySimpleType()
+		{
+			return (::System::Xml::XmlQualifiedName**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x21C20);
+		}
+		static ::Il2CppArray<::System::Xml::Schema::DatatypeImplementation_SchemaDatatypeMap*>** StaticGet_c_XdrTypes()
+		{
+			return (::Il2CppArray<::System::Xml::Schema::DatatypeImplementation_SchemaDatatypeMap*>**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x21C28);
+		}
+		static ::System::Xml::Schema::FacetsChecker** StaticGet_listFacetsChecker()
+		{
+			return (::System::Xml::Schema::FacetsChecker**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x21C30);
+		}
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_dateTimeTz()
+		{
+			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x21C38);
+		}
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_float()
+		{
+			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x21C40);
+		}
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_dayTimeDuration()
+		{
+			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x21C48);
+		}
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_boolean()
+		{
+			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x21C50);
+		}
+		static ::System::Xml::Schema::FacetsChecker** StaticGet_unionFacetsChecker()
+		{
+			return (::System::Xml::Schema::FacetsChecker**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x21C58);
+		}
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_char()
+		{
+			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x21C60);
+		}
+		static ::System::Xml::Schema::XmlSchemaSimpleType** StaticGet_anySimpleType()
+		{
+			return (::System::Xml::Schema::XmlSchemaSimpleType**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x21C68);
+		}
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_unsignedShort()
+		{
+			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x21C70);
+		}
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_day()
+		{
+			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x21C78);
+		}
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_tokenV1Compat()
+		{
+			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x21C80);
+		}
+		static ::System::Xml::XmlQualifiedName** StaticGet_QnAnyType()
+		{
+			return (::System::Xml::XmlQualifiedName**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x21C88);
+		}
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_token()
+		{
+			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x21C90);
+		}
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_year()
+		{
+			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x21C98);
+		}
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_base64Binary()
+		{
+			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x21CA0);
+		}
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_doubleXdr()
+		{
+			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x21CA8);
+		}
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_normalizedString()
+		{
+			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x21CB0);
+		}
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_ID()
+		{
+			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x21CB8);
+		}
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_language()
+		{
+			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x21CC0);
+		}
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_double()
+		{
+			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x21CC8);
+		}
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_byte()
+		{
+			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x21CD0);
+		}
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_string()
+		{
+			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x21CD8);
+		}
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_timeTz()
+		{
+			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x21CE0);
+		}
+		static ::Il2CppArray<::System::Xml::Schema::DatatypeImplementation_SchemaDatatypeMap*>** StaticGet_c_XsdTypes()
+		{
+			return (::Il2CppArray<::System::Xml::Schema::DatatypeImplementation_SchemaDatatypeMap*>**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x21CE8);
+		}
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_anySimpleType()
+		{
+			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x21CF0);
+		}
+		static ::System::Xml::Schema::XmlSchemaSimpleType** StaticGet_untypedAtomicType()
+		{
+			return (::System::Xml::Schema::XmlSchemaSimpleType**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x21CF8);
+		}
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_timeNoTz()
+		{
+			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x21D00);
+		}
+		static ::System::Xml::Schema::XmlSchemaSimpleType** StaticGet_dayTimeDurationType()
+		{
+			return (::System::Xml::Schema::XmlSchemaSimpleType**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x21D08);
+		}
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_ENUMERATION()
+		{
+			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x21D10);
+		}
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_floatXdr()
+		{
+			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x21D18);
+		}
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_unsignedByte()
+		{
+			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x21D20);
+		}
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_fixed()
+		{
+			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x21D28);
+		}
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_anyAtomicType()
+		{
+			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x21D30);
+		}
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_dateTime()
+		{
+			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x21D38);
+		}
+		static ::System::Xml::Schema::FacetsChecker** StaticGet_stringFacetsChecker()
+		{
+			return (::System::Xml::Schema::FacetsChecker**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x21D40);
+		}
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_untypedAtomicType()
+		{
+			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x21D48);
+		}
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_monthDay()
+		{
+			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x21D50);
+		}
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_month()
+		{
+			return (::System::Xml::Schema::DatatypeImplementation**)Il2CppClass::FromTypeDefinitionIndex(DatatypeImplementation_TypeDefinitionIndex)->GetStaticField(0x21D58);
 		}
 		::System::Xml::Schema::XmlSchemaType* parentSchemaType; // 0x10
-		::System::Xml::Schema::XmlValueConverter* valueConverter; // 0x18
-		::System::Xml::Schema::RestrictionFacets* restriction; // 0x20
-		::System::Xml::Schema::DatatypeImplementation* baseType; // 0x28
+		::System::Xml::Schema::DatatypeImplementation* baseType; // 0x18
+		::System::Xml::Schema::XmlValueConverter* valueConverter; // 0x20
+		::System::Xml::Schema::RestrictionFacets* restriction; // 0x28
 		::System::Xml::Schema::XmlSchemaDatatypeVariety variety; // 0x30
 
 		static ::System::Void _cctor()

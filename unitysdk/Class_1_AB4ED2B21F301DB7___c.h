@@ -7,27 +7,27 @@ namespace RPG::Client::LimaoNews { class LimaoNewsEmployeeCheckData; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define CLASS_1_AB4ED2B21F301DB7___C__BUILDDISPLAYOPTIONS_B__13_2_OFFSET UNITYSDK_OFFSET(0xB54D930)
-#define CLASS_1_AB4ED2B21F301DB7___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xB54D8F0)
-#define CLASS_1_AB4ED2B21F301DB7___C__CTOR_OFFSET UNITYSDK_OFFSET(0xB54D920)
-#define CLASS_1_AB4ED2B21F301DB7___C___PICKLEAVEEMPLOYEE_B__26_0_OFFSET UNITYSDK_OFFSET(0xB54D940)
+#define CLASS_1_AB4ED2B21F301DB7___C__BUILDDISPLAYOPTIONS_B__13_2_OFFSET UNITYSDK_OFFSET(0xB38EF70)
+#define CLASS_1_AB4ED2B21F301DB7___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xB38EF30)
+#define CLASS_1_AB4ED2B21F301DB7___C__CTOR_OFFSET UNITYSDK_OFFSET(0xB38EF60)
+#define CLASS_1_AB4ED2B21F301DB7___C___PICKLEAVEEMPLOYEE_B__26_0_OFFSET UNITYSDK_OFFSET(0xB38EF80)
 
-inline static constexpr unsigned int Class_1_AB4ED2B21F301DB7___c_TypeDefinitionIndex = 78990;
+inline static constexpr unsigned int Class_1_AB4ED2B21F301DB7___c_TypeDefinitionIndex = 80313;
 
 class Class_1_AB4ED2B21F301DB7___c : public ::System::Object
 {
 public:
-	static ::System::Func_2<::RPG::Client::LimaoNewsDutyCheckOptionTalkInfo*, ::System::Boolean>** StaticGet___9__13_2()
+	static ::Class_1_AB4ED2B21F301DB7___c** StaticGet___9()
 	{
-		return (::System::Func_2<::RPG::Client::LimaoNewsDutyCheckOptionTalkInfo*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_AB4ED2B21F301DB7___c_TypeDefinitionIndex)->GetStaticField(0x60EA0);
+		return (::Class_1_AB4ED2B21F301DB7___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_AB4ED2B21F301DB7___c_TypeDefinitionIndex)->GetStaticField(0x45700);
 	}
 	static ::System::Predicate_1<::RPG::Client::LimaoNews::LimaoNewsEmployeeCheckData*>** StaticGet___9__26_0()
 	{
-		return (::System::Predicate_1<::RPG::Client::LimaoNews::LimaoNewsEmployeeCheckData*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_AB4ED2B21F301DB7___c_TypeDefinitionIndex)->GetStaticField(0x60EA8);
+		return (::System::Predicate_1<::RPG::Client::LimaoNews::LimaoNewsEmployeeCheckData*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_AB4ED2B21F301DB7___c_TypeDefinitionIndex)->GetStaticField(0x45708);
 	}
-	static ::Class_1_AB4ED2B21F301DB7___c** StaticGet___9()
+	static ::System::Func_2<::RPG::Client::LimaoNewsDutyCheckOptionTalkInfo*, ::System::Boolean>** StaticGet___9__13_2()
 	{
-		return (::Class_1_AB4ED2B21F301DB7___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_AB4ED2B21F301DB7___c_TypeDefinitionIndex)->GetStaticField(0x60EB0);
+		return (::System::Func_2<::RPG::Client::LimaoNewsDutyCheckOptionTalkInfo*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_AB4ED2B21F301DB7___c_TypeDefinitionIndex)->GetStaticField(0x45710);
 	}
 
 	static ::System::Void _cctor()

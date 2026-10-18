@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_PROBUILDER_SHAPES_SHAPEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EBB96A0)
+#define UNITYENGINE_PROBUILDER_SHAPES_SHAPEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F2811A0)
 
 namespace UnityEngine::ProBuilder::Shapes
 {
-	inline static constexpr unsigned int ShapeAttribute_TypeDefinitionIndex = 43276;
+	inline static constexpr unsigned int ShapeAttribute_TypeDefinitionIndex = 44468;
 
 	class ShapeAttribute : public ::System::Attribute
 	{

@@ -7,12 +7,12 @@
 
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_AUDIOMANAGER_AUDIOLISTENERINFO_INIT_OFFSET UNITYSDK_OFFSET(0xC7EB8A0)
-#define RPG_CLIENT_AUDIOMANAGER_AUDIOLISTENERINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xC7F0F30)
+#define RPG_CLIENT_AUDIOMANAGER_AUDIOLISTENERINFO_INIT_OFFSET UNITYSDK_OFFSET(0xC6BB500)
+#define RPG_CLIENT_AUDIOMANAGER_AUDIOLISTENERINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xC6BFE40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AudioManager_AudioListenerInfo_TypeDefinitionIndex = 59873;
+	inline static constexpr unsigned int AudioManager_AudioListenerInfo_TypeDefinitionIndex = 59730;
 
 	class AudioManager_AudioListenerInfo : public ::System::Object
 	{

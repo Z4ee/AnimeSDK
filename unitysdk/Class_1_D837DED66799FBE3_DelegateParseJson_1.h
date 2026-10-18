@@ -7,7 +7,7 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-inline static constexpr unsigned int Class_1_D837DED66799FBE3_DelegateParseJson_1_TypeDefinitionIndex = 10521;
+inline static constexpr unsigned int Class_1_D837DED66799FBE3_DelegateParseJson_1_TypeDefinitionIndex = 10537;
 
 template <typename T>
 class Class_1_D837DED66799FBE3_DelegateParseJson_1 : public ::System::MulticastDelegate

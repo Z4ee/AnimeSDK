@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_0A3761FE34514D6C_10.h"
+#include "unitysdk/Enum_3_0A3761FE34514D6C_17.h"
 
 class Class_1_BFE5EE5C9B965FB7;
 namespace RPG::Client { class PlanetFesTradingCardApplyItem; }
@@ -10,7 +10,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlanetFesTradingCardPersonalData_IServerAgent_TypeDefinitionIndex = 66618;
+	inline static constexpr unsigned int PlanetFesTradingCardPersonalData_IServerAgent_TypeDefinitionIndex = 66586;
 
 	class PlanetFesTradingCardPersonalData_IServerAgent
 	{

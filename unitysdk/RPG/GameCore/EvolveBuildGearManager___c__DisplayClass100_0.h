@@ -5,12 +5,12 @@
 class Class_1_1CB8CBC69B962B41;
 namespace RPG::GameCore { class EvolveBuildGearManager; }
 
-#define RPG_GAMECORE_EVOLVEBUILDGEARMANAGER___C__DISPLAYCLASS100_0__CTOR_OFFSET UNITYSDK_OFFSET(0xE62D2C0)
-#define RPG_GAMECORE_EVOLVEBUILDGEARMANAGER___C__DISPLAYCLASS100_0__GETGEARSELECTPROGRESS_B__0_OFFSET UNITYSDK_OFFSET(0xE631900)
+#define RPG_GAMECORE_EVOLVEBUILDGEARMANAGER___C__DISPLAYCLASS100_0__CTOR_OFFSET UNITYSDK_OFFSET(0xE685370)
+#define RPG_GAMECORE_EVOLVEBUILDGEARMANAGER___C__DISPLAYCLASS100_0__GETGEARSELECTPROGRESS_B__0_OFFSET UNITYSDK_OFFSET(0xE6899D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EvolveBuildGearManager___c__DisplayClass100_0_TypeDefinitionIndex = 56259;
+	inline static constexpr unsigned int EvolveBuildGearManager___c__DisplayClass100_0_TypeDefinitionIndex = 56072;
 
 	class EvolveBuildGearManager___c__DisplayClass100_0 : public ::System::Object
 	{

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AdvEnableEntityLinkCable; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_3EF779F77D220AB1_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC3BB7B0)
-#define CLASS_3_3EF779F77D220AB1__CTOR_OFFSET UNITYSDK_OFFSET(0xC3BB780)
+#define CLASS_3_3EF779F77D220AB1_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC2BA200)
+#define CLASS_3_3EF779F77D220AB1__CTOR_OFFSET UNITYSDK_OFFSET(0xC2BA1D0)
 
-inline static constexpr unsigned int Class_3_3EF779F77D220AB1_TypeDefinitionIndex = 52627;
+inline static constexpr unsigned int Class_3_3EF779F77D220AB1_TypeDefinitionIndex = 52352;
 
 class Class_3_3EF779F77D220AB1 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AdvEnableEntityLinkCable*>
 {

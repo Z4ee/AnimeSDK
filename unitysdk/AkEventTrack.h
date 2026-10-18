@@ -6,10 +6,10 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define AKEVENTTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x1EECA560)
-#define AKEVENTTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1EECABC0)
+#define AKEVENTTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x1F592110)
+#define AKEVENTTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1F592770)
 
-inline static constexpr unsigned int AkEventTrack_TypeDefinitionIndex = 43736;
+inline static constexpr unsigned int AkEventTrack_TypeDefinitionIndex = 44928;
 
 class AkEventTrack : public ::UnityEngine::Timeline::TrackAsset
 {

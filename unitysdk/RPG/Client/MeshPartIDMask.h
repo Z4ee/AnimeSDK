@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_MESHPARTIDMASK_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xD6982D0)
-#define RPG_CLIENT_MESHPARTIDMASK__CTOR_OFFSET UNITYSDK_OFFSET(0xD698380)
+#define RPG_CLIENT_MESHPARTIDMASK_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xD695380)
+#define RPG_CLIENT_MESHPARTIDMASK__CTOR_OFFSET UNITYSDK_OFFSET(0xD695430)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MeshPartIDMask_TypeDefinitionIndex = 69722;
+	inline static constexpr unsigned int MeshPartIDMask_TypeDefinitionIndex = 69757;
 
 	class MeshPartIDMask : public ::System::Object
 	{

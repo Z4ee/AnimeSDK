@@ -6,11 +6,11 @@ namespace RPG::Editor { class SkillLineAssetConfig_LineTypeState; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_EDITOR_SKILLLINEASSETCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xE465950)
+#define RPG_EDITOR_SKILLLINEASSETCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xE4AD3A0)
 
 namespace RPG::Editor
 {
-	inline static constexpr unsigned int SkillLineAssetConfig_TypeDefinitionIndex = 52324;
+	inline static constexpr unsigned int SkillLineAssetConfig_TypeDefinitionIndex = 52037;
 
 	class SkillLineAssetConfig : public ::System::Object
 	{

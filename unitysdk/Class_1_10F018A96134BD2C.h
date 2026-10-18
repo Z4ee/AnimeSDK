@@ -4,9 +4,9 @@
 
 namespace RPG::GameCore { class AlleyPackGoodItemConfig; }
 
-#define CLASS_1_10F018A96134BD2C__CTOR_OFFSET UNITYSDK_OFFSET(0x1634C1B0)
+#define CLASS_1_10F018A96134BD2C__CTOR_OFFSET UNITYSDK_OFFSET(0xB233FF0)
 
-inline static constexpr unsigned int Class_1_10F018A96134BD2C_TypeDefinitionIndex = 74007;
+inline static constexpr unsigned int Class_1_10F018A96134BD2C_TypeDefinitionIndex = 74106;
 
 class Class_1_10F018A96134BD2C : public ::System::Object
 {

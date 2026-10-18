@@ -8,18 +8,18 @@ namespace UnityEngine { class Animator; }
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI { class RawImage; }
 
-#define CLASS_2_5A0CFCCE9DEA8840_METHOD_2_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x15CE30C0)
-#define CLASS_2_5A0CFCCE9DEA8840_METHOD_2_DA1BF2C227DC3D86_OFFSET UNITYSDK_OFFSET(0x15CE3020)
-#define CLASS_2_5A0CFCCE9DEA8840__CTOR_OFFSET UNITYSDK_OFFSET(0x15CE3060)
+#define CLASS_2_5A0CFCCE9DEA8840_METHOD_2_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x15EA7E20)
+#define CLASS_2_5A0CFCCE9DEA8840_METHOD_2_DA1BF2C227DC3D86_OFFSET UNITYSDK_OFFSET(0x15EA7D80)
+#define CLASS_2_5A0CFCCE9DEA8840__CTOR_OFFSET UNITYSDK_OFFSET(0x15EA7DC0)
 
-inline static constexpr unsigned int Class_2_5A0CFCCE9DEA8840_TypeDefinitionIndex = 72291;
+inline static constexpr unsigned int Class_2_5A0CFCCE9DEA8840_TypeDefinitionIndex = 72364;
 
 class Class_2_5A0CFCCE9DEA8840 : public ::Class_1_A167209E71412818
 {
 public:
-	::UnityEngine::Animator* CKDKOONONCG; // 0x18
-	::System::String* GEJIJFFILEB; // 0x20
-	::UnityEngine::Transform* NAGNPIOHKEF; // 0x28
+	::UnityEngine::Transform* NAGNPIOHKEF; // 0x18
+	::UnityEngine::Animator* CKDKOONONCG; // 0x20
+	::System::String* GEJIJFFILEB; // 0x28
 	::UnityEngine::UI::RawImage* NEECNLPLKJG; // 0x30
 
 	::System::Void _ctor(::RPG::GameCore::TeamType a1)

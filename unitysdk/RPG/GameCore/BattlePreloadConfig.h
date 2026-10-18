@@ -13,12 +13,12 @@ namespace RPG::GameCore { class SummonMonsterConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_BATTLEPRELOADCONFIG_METHOD_2_FC569A99DA90AA78_OFFSET UNITYSDK_OFFSET(0x1CE7DF70)
-#define RPG_GAMECORE_BATTLEPRELOADCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE7E360)
+#define RPG_GAMECORE_BATTLEPRELOADCONFIG_METHOD_2_FC569A99DA90AA78_OFFSET UNITYSDK_OFFSET(0x1D465EA0)
+#define RPG_GAMECORE_BATTLEPRELOADCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D466290)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattlePreloadConfig_TypeDefinitionIndex = 16194;
+	inline static constexpr unsigned int BattlePreloadConfig_TypeDefinitionIndex = 16367;
 
 	class BattlePreloadConfig : public ::RPG::GameCore::JsonConfig
 	{

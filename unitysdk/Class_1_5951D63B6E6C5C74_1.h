@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_5951D63B6E6C5C74_1__CTOR_OFFSET UNITYSDK_OFFSET(0xBE8F0F0)
+#define CLASS_1_5951D63B6E6C5C74_1__CTOR_OFFSET UNITYSDK_OFFSET(0xBD20220)
 
-inline static constexpr unsigned int Class_1_5951D63B6E6C5C74_1_TypeDefinitionIndex = 65573;
+inline static constexpr unsigned int Class_1_5951D63B6E6C5C74_1_TypeDefinitionIndex = 65513;
 
 class Class_1_5951D63B6E6C5C74_1 : public ::System::Object
 {

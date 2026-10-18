@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class PropRuntimeReplaceArtPrefab; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_4524EA0751E2B311_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB5E3A70)
-#define CLASS_3_4524EA0751E2B311__CTOR_OFFSET UNITYSDK_OFFSET(0xB5E3A40)
+#define CLASS_3_4524EA0751E2B311_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB432760)
+#define CLASS_3_4524EA0751E2B311__CTOR_OFFSET UNITYSDK_OFFSET(0xB432730)
 
-inline static constexpr unsigned int Class_3_4524EA0751E2B311_TypeDefinitionIndex = 58494;
+inline static constexpr unsigned int Class_3_4524EA0751E2B311_TypeDefinitionIndex = 58345;
 
 class Class_3_4524EA0751E2B311 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::PropRuntimeReplaceArtPrefab*>
 {

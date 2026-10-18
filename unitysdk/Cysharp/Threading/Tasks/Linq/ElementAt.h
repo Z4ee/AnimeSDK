@@ -8,7 +8,7 @@ namespace Cysharp::Threading::Tasks { template <typename T> class IUniTaskAsyncE
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int ElementAt_TypeDefinitionIndex = 44215;
+	inline static constexpr unsigned int ElementAt_TypeDefinitionIndex = 45354;
 
 	class ElementAt : public ::System::Object
 	{

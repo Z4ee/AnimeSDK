@@ -7,12 +7,12 @@ namespace RPG::GameCore { class HoyoTagContainer; }
 namespace RPG::GameCore { class WaterReflectionFoamShaderParam; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIVEDIMLEVELGLOBALCONFIG_METHOD_2_661D6E1574E5B2EF_OFFSET UNITYSDK_OFFSET(0x1D0E7DF0)
-#define RPG_GAMECORE_FIVEDIMLEVELGLOBALCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0EE6D0)
+#define RPG_GAMECORE_FIVEDIMLEVELGLOBALCONFIG_METHOD_2_661D6E1574E5B2EF_OFFSET UNITYSDK_OFFSET(0x1D6C0160)
+#define RPG_GAMECORE_FIVEDIMLEVELGLOBALCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6C5F40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimLevelGlobalConfig_TypeDefinitionIndex = 16534;
+	inline static constexpr unsigned int FiveDimLevelGlobalConfig_TypeDefinitionIndex = 16710;
 
 	class FiveDimLevelGlobalConfig : public ::RPG::GameCore::JsonConfig
 	{

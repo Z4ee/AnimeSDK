@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Class_2_8BD8B458C2AE3E06_IdleLiveBGMArea_TypeDefinitionIndex = 74968;
+inline static constexpr unsigned int Class_2_8BD8B458C2AE3E06_IdleLiveBGMArea_TypeDefinitionIndex = 75268;
 
 enum class Class_2_8BD8B458C2AE3E06_IdleLiveBGMArea : ::System::Int32
 {

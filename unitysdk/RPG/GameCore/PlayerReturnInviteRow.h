@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_PLAYERRETURNINVITEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D353A60)
-#define RPG_GAMECORE_PLAYERRETURNINVITEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D353C00)
+#define RPG_GAMECORE_PLAYERRETURNINVITEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D938DB0)
+#define RPG_GAMECORE_PLAYERRETURNINVITEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D938F50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlayerReturnInviteRow_TypeDefinitionIndex = 14375;
+	inline static constexpr unsigned int PlayerReturnInviteRow_TypeDefinitionIndex = 14540;
 
 	class PlayerReturnInviteRow : public ::System::Object
 	{

@@ -8,20 +8,20 @@
 class Class_1_7A22A3DBEEDD1F80;
 class Class_1_980894BED8163CEE;
 
-#define CLASS_1_73C1DBA2BBC7D4F7_METHOD_1_BA928C31B09C0D39_OFFSET UNITYSDK_OFFSET(0x1D43B120)
-#define CLASS_1_73C1DBA2BBC7D4F7__CTOR_OFFSET UNITYSDK_OFFSET(0x1D43B360)
+#define CLASS_1_73C1DBA2BBC7D4F7_METHOD_1_BA928C31B09C0D39_OFFSET UNITYSDK_OFFSET(0x1DA095D0)
+#define CLASS_1_73C1DBA2BBC7D4F7__CTOR_OFFSET UNITYSDK_OFFSET(0x1DA09810)
 
-inline static constexpr unsigned int Class_1_73C1DBA2BBC7D4F7_TypeDefinitionIndex = 15237;
+inline static constexpr unsigned int Class_1_73C1DBA2BBC7D4F7_TypeDefinitionIndex = 15408;
 
 class Class_1_73C1DBA2BBC7D4F7 : public ::System::Object
 {
 public:
 	::Il2CppArray<::Class_1_980894BED8163CEE*>* HHBEAPOCLPC; // 0x10
-	::RPG::GameCore::CombatPowerRelicRarityType GMNJOHLBFDA; // 0x18
-	::System::UInt32 PPBBCGALMLJ; // 0x1C
-	::RPG::GameCore::RelicType EMLJEDBDDDM; // 0x20
-	::RPG::GameCore::UpgradeAvatarSubRelicType AMAPBCEEKFP; // 0x24
-	::System::UInt32 FAONKFODAHF; // 0x28
+	::RPG::GameCore::RelicType EMLJEDBDDDM; // 0x18
+	::RPG::GameCore::UpgradeAvatarSubRelicType AMAPBCEEKFP; // 0x1C
+	::System::UInt32 PPBBCGALMLJ; // 0x20
+	::System::UInt32 FAONKFODAHF; // 0x24
+	::RPG::GameCore::CombatPowerRelicRarityType GMNJOHLBFDA; // 0x28
 
 	::System::Void _ctor()
 	{

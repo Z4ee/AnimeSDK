@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_FUNNUMMULTIPLIERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D11C0E0)
-#define RPG_GAMECORE_FUNNUMMULTIPLIERROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D11C220)
+#define RPG_GAMECORE_FUNNUMMULTIPLIERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D6F5DC0)
+#define RPG_GAMECORE_FUNNUMMULTIPLIERROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6F5F00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FunNumMultiplierRow_TypeDefinitionIndex = 13111;
+	inline static constexpr unsigned int FunNumMultiplierRow_TypeDefinitionIndex = 13217;
 
 	class FunNumMultiplierRow : public ::System::Object
 	{

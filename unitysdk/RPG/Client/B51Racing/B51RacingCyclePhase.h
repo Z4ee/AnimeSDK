@@ -3,7 +3,7 @@
 
 namespace RPG::Client::B51Racing
 {
-	inline static constexpr unsigned int B51RacingCyclePhase_TypeDefinitionIndex = 80378;
+	inline static constexpr unsigned int B51RacingCyclePhase_TypeDefinitionIndex = 81706;
 
 	enum class B51RacingCyclePhase : ::System::Int32
 	{

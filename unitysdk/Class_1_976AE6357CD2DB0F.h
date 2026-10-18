@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_976AE6357CD2DB0F__CCTOR_OFFSET UNITYSDK_OFFSET(0xBCBAA10)
+#define CLASS_1_976AE6357CD2DB0F__CCTOR_OFFSET UNITYSDK_OFFSET(0xBB92890)
 
-inline static constexpr unsigned int Class_1_976AE6357CD2DB0F_TypeDefinitionIndex = 57348;
+inline static constexpr unsigned int Class_1_976AE6357CD2DB0F_TypeDefinitionIndex = 57184;
 
 class Class_1_976AE6357CD2DB0F : public ::System::Object
 {
 public:
 	static ::Il2CppArray<::System::Int32>** StaticGet_LPEGKMECBEL()
 	{
-		return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_976AE6357CD2DB0F_TypeDefinitionIndex)->GetStaticField(0x577A0);
+		return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_976AE6357CD2DB0F_TypeDefinitionIndex)->GetStaticField(0x1D410);
 	}
 	static ::Il2CppArray<::System::Int32>** StaticGet_IGDHNKPPFMB()
 	{
-		return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_976AE6357CD2DB0F_TypeDefinitionIndex)->GetStaticField(0x577A8);
+		return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_976AE6357CD2DB0F_TypeDefinitionIndex)->GetStaticField(0x1D418);
 	}
 
 	static ::System::Void _cctor()

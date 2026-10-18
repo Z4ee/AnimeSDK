@@ -4,10 +4,10 @@
 
 class CharacterLineLightGroup_CLLG_Point;
 
-#define CHARACTERLINELIGHTGROUP_CLLG_LINE_METHOD_1_F54DE4640CE99063_OFFSET UNITYSDK_OFFSET(0xDDAA4D0)
-#define CHARACTERLINELIGHTGROUP_CLLG_LINE__CTOR_OFFSET UNITYSDK_OFFSET(0xDDAA140)
+#define CHARACTERLINELIGHTGROUP_CLLG_LINE_METHOD_1_F54DE4640CE99063_OFFSET UNITYSDK_OFFSET(0xDCE9080)
+#define CHARACTERLINELIGHTGROUP_CLLG_LINE__CTOR_OFFSET UNITYSDK_OFFSET(0xDCE8CF0)
 
-inline static constexpr unsigned int CharacterLineLightGroup_CLLG_Line_TypeDefinitionIndex = 47923;
+inline static constexpr unsigned int CharacterLineLightGroup_CLLG_Line_TypeDefinitionIndex = 47463;
 
 class CharacterLineLightGroup_CLLG_Line : public ::System::Object
 {

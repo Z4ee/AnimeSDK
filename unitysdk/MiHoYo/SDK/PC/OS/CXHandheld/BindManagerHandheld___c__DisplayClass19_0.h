@@ -6,12 +6,12 @@ namespace MiHoYo::SDK { class NetworkResponseModel; }
 namespace MiHoYo::SDK::PC::OS::CXHandheld { class BindManagerHandheld; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_BINDMANAGERHANDHELD___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9D5C60)
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_BINDMANAGERHANDHELD___C__DISPLAYCLASS19_0__GETCAPTCHACODE_B__0_OFFSET UNITYSDK_OFFSET(0x1B9D75F0)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_BINDMANAGERHANDHELD___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BED72A0)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_BINDMANAGERHANDHELD___C__DISPLAYCLASS19_0__GETCAPTCHACODE_B__0_OFFSET UNITYSDK_OFFSET(0x1BED8C40)
 
 namespace MiHoYo::SDK::PC::OS::CXHandheld
 {
-	inline static constexpr unsigned int BindManagerHandheld___c__DisplayClass19_0_TypeDefinitionIndex = 8679;
+	inline static constexpr unsigned int BindManagerHandheld___c__DisplayClass19_0_TypeDefinitionIndex = 8740;
 
 	class BindManagerHandheld___c__DisplayClass19_0 : public ::System::Object
 	{

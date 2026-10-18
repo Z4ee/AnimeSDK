@@ -11,8 +11,8 @@ namespace System::ComponentModel
 	class EventHandlerList_ListEntry : public ::System::Object
 	{
 	public:
-		::System::Delegate* handler; // 0x10
-		::System::Object* key; // 0x18
-		::System::ComponentModel::EventHandlerList_ListEntry* next; // 0x20
+		::System::Object* key; // 0x10
+		::System::ComponentModel::EventHandlerList_ListEntry* next; // 0x18
+		::System::Delegate* handler; // 0x20
 	};
 }

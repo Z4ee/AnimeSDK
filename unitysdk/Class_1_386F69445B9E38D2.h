@@ -8,25 +8,25 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define CLASS_1_386F69445B9E38D2_METHOD_1_1F29F81CADD13A09_OFFSET UNITYSDK_OFFSET(0x1D297FE0)
-#define CLASS_1_386F69445B9E38D2__CTOR_OFFSET UNITYSDK_OFFSET(0x1D298440)
+#define CLASS_1_386F69445B9E38D2_METHOD_1_1F29F81CADD13A09_OFFSET UNITYSDK_OFFSET(0x1D9E8E30)
+#define CLASS_1_386F69445B9E38D2__CTOR_OFFSET UNITYSDK_OFFSET(0x1D9E9290)
 
-inline static constexpr unsigned int Class_1_386F69445B9E38D2_TypeDefinitionIndex = 13842;
+inline static constexpr unsigned int Class_1_386F69445B9E38D2_TypeDefinitionIndex = 13949;
 
 class Class_1_386F69445B9E38D2 : public ::System::Object
 {
 public:
-	::System::String* FBKAMIHGLFK; // 0x10
-	::Il2CppArray<::System::UInt32>* BHNIBPKLDKO; // 0x18
-	::System::UInt32 JAKLCIIEDON; // 0x20
-	::System::UInt32 LDLDCLEIFML; // 0x24
-	::RPG::GameCore::LimaoNewsMessageSenderType GEFCMECLLIJ; // 0x28
+	::Il2CppArray<::System::UInt32>* BHNIBPKLDKO; // 0x10
+	::System::String* FBKAMIHGLFK; // 0x18
+	::RPG::GameCore::LimaoNewsMessageSenderType GEFCMECLLIJ; // 0x20
+	::RPG::GameCore::LimaoNewsMessageItemType LINLNNHIBAK; // 0x24
+	::System::Boolean BGOCHGHFOLJ; // 0x28
 	::System::UInt32 IJBDLNLOJKK; // 0x2C
-	::System::UInt32 NJFABJDCPNC; // 0x30
-	::RPG::GameCore::LimaoNewsMessageItemType LINLNNHIBAK; // 0x34
-	::RPG::Client::TextID JGMIOKAJMFB; // 0x38
-	::RPG::Client::TextID HMGLFJABIII; // 0x48
-	::System::Boolean BGOCHGHFOLJ; // 0x58
+	::System::UInt32 JAKLCIIEDON; // 0x30
+	::System::UInt32 NJFABJDCPNC; // 0x34
+	::System::UInt32 LDLDCLEIFML; // 0x38
+	::RPG::Client::TextID HMGLFJABIII; // 0x40
+	::RPG::Client::TextID JGMIOKAJMFB; // 0x50
 
 	::System::Void _ctor()
 	{

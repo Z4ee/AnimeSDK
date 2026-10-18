@@ -9,11 +9,11 @@ namespace System { class IFormatProvider; }
 namespace System { class String; }
 namespace System::Globalization { class DateTimeFormatInfo; }
 
-#define SYSTEM_GLOBALIZATION_TIMESPANFORMAT_FORMATCUSTOMIZED_OFFSET UNITYSDK_OFFSET(0x1BD301C0)
-#define SYSTEM_GLOBALIZATION_TIMESPANFORMAT_FORMATSTANDARD_OFFSET UNITYSDK_OFFSET(0x1BD2FC30)
-#define SYSTEM_GLOBALIZATION_TIMESPANFORMAT_FORMAT_OFFSET UNITYSDK_OFFSET(0x1BD2FA00)
-#define SYSTEM_GLOBALIZATION_TIMESPANFORMAT_INTTOSTRING_OFFSET UNITYSDK_OFFSET(0x1BD2F9D0)
-#define SYSTEM_GLOBALIZATION_TIMESPANFORMAT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BD313E0)
+#define SYSTEM_GLOBALIZATION_TIMESPANFORMAT_FORMATCUSTOMIZED_OFFSET UNITYSDK_OFFSET(0x1C23C0B0)
+#define SYSTEM_GLOBALIZATION_TIMESPANFORMAT_FORMATSTANDARD_OFFSET UNITYSDK_OFFSET(0x1C23BB20)
+#define SYSTEM_GLOBALIZATION_TIMESPANFORMAT_FORMAT_OFFSET UNITYSDK_OFFSET(0x1C23B8F0)
+#define SYSTEM_GLOBALIZATION_TIMESPANFORMAT_INTTOSTRING_OFFSET UNITYSDK_OFFSET(0x1C23B8C0)
+#define SYSTEM_GLOBALIZATION_TIMESPANFORMAT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C23D2D0)
 
 namespace System::Globalization
 {
@@ -24,11 +24,11 @@ namespace System::Globalization
 	public:
 		static ::System::Globalization::TimeSpanFormat_FormatLiterals* StaticGet_NegativeInvariantFormatLiterals()
 		{
-			return (::System::Globalization::TimeSpanFormat_FormatLiterals*)Il2CppClass::FromTypeDefinitionIndex(TimeSpanFormat_TypeDefinitionIndex)->GetStaticField(0xA5E0);
+			return (::System::Globalization::TimeSpanFormat_FormatLiterals*)Il2CppClass::FromTypeDefinitionIndex(TimeSpanFormat_TypeDefinitionIndex)->GetStaticField(0x13390);
 		}
 		static ::System::Globalization::TimeSpanFormat_FormatLiterals* StaticGet_PositiveInvariantFormatLiterals()
 		{
-			return (::System::Globalization::TimeSpanFormat_FormatLiterals*)Il2CppClass::FromTypeDefinitionIndex(TimeSpanFormat_TypeDefinitionIndex)->GetStaticField(0xA608);
+			return (::System::Globalization::TimeSpanFormat_FormatLiterals*)Il2CppClass::FromTypeDefinitionIndex(TimeSpanFormat_TypeDefinitionIndex)->GetStaticField(0x133B8);
 		}
 
 		static ::System::Void _cctor()

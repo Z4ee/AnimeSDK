@@ -5,20 +5,20 @@
 class Class_1_F9FBCC956DFCF137_27;
 namespace System { class Action; }
 
-#define RPG_CLIENT_PROP_CHIMERADUELSHOPWAITSECONDSCOMMAND_EXECUTE_OFFSET UNITYSDK_OFFSET(0xDC29630)
-#define RPG_CLIENT_PROP_CHIMERADUELSHOPWAITSECONDSCOMMAND_TICK_OFFSET UNITYSDK_OFFSET(0xDC29690)
-#define RPG_CLIENT_PROP_CHIMERADUELSHOPWAITSECONDSCOMMAND__CTOR_OFFSET UNITYSDK_OFFSET(0xDC29620)
+#define RPG_CLIENT_PROP_CHIMERADUELSHOPWAITSECONDSCOMMAND_EXECUTE_OFFSET UNITYSDK_OFFSET(0xDC74120)
+#define RPG_CLIENT_PROP_CHIMERADUELSHOPWAITSECONDSCOMMAND_TICK_OFFSET UNITYSDK_OFFSET(0xDC74180)
+#define RPG_CLIENT_PROP_CHIMERADUELSHOPWAITSECONDSCOMMAND__CTOR_OFFSET UNITYSDK_OFFSET(0xDC74110)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraDuelShopWaitSecondsCommand_TypeDefinitionIndex = 77880;
+	inline static constexpr unsigned int ChimeraDuelShopWaitSecondsCommand_TypeDefinitionIndex = 78351;
 
 	class ChimeraDuelShopWaitSecondsCommand : public ::System::Object
 	{
 	public:
 		::System::Action* _OnComplete; // 0x10
-		::System::Single _Total; // 0x18
-		::System::Single _Elapsed; // 0x1C
+		::System::Single _Elapsed; // 0x18
+		::System::Single _Total; // 0x1C
 
 		::System::Void _ctor(::System::Single a1)
 		{

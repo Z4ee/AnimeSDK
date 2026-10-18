@@ -6,17 +6,17 @@ class Class_1_CC4789213986EBB7;
 class Class_1_E2FB7E5A9E3705C7_1;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_941ED7C919523397_GET_DISPLAYS_OFFSET UNITYSDK_OFFSET(0xBA3B330)
-#define CLASS_1_941ED7C919523397_METHOD_1_CA99028638214CFF_OFFSET UNITYSDK_OFFSET(0xBA3B3E0)
-#define CLASS_1_941ED7C919523397__CTOR_OFFSET UNITYSDK_OFFSET(0xBA3B340)
+#define CLASS_1_941ED7C919523397_GET_DISPLAYS_OFFSET UNITYSDK_OFFSET(0xB8FEB30)
+#define CLASS_1_941ED7C919523397_METHOD_1_CA99028638214CFF_OFFSET UNITYSDK_OFFSET(0xB8FEBE0)
+#define CLASS_1_941ED7C919523397__CTOR_OFFSET UNITYSDK_OFFSET(0xB8FEB40)
 
-inline static constexpr unsigned int Class_1_941ED7C919523397_TypeDefinitionIndex = 63985;
+inline static constexpr unsigned int Class_1_941ED7C919523397_TypeDefinitionIndex = 63923;
 
 class Class_1_941ED7C919523397 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Class_1_E2FB7E5A9E3705C7_1*>* _Displays_k__BackingField; // 0x10
-	::Class_1_CC4789213986EBB7* OEPBFOINIOO; // 0x18
+	::Class_1_CC4789213986EBB7* OEPBFOINIOO; // 0x10
+	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Class_1_E2FB7E5A9E3705C7_1*>* _Displays_k__BackingField; // 0x18
 
 	::System::Void _ctor(::Class_1_CC4789213986EBB7* a1)
 	{

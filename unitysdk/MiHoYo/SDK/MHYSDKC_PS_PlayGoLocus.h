@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MHYSDKC_PS_PlayGoLocus_TypeDefinitionIndex = 46596;
+	inline static constexpr unsigned int MHYSDKC_PS_PlayGoLocus_TypeDefinitionIndex = 46147;
 
 	enum class MHYSDKC_PS_PlayGoLocus : ::System::Int32
 	{

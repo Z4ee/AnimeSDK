@@ -13,23 +13,23 @@ namespace System::Xml::Schema { class SchemaElementDecl; }
 namespace System::Xml::Schema { class SchemaEntity; }
 namespace System::Xml::Schema { class SchemaNotation; }
 
-#define SYSTEM_XML_SCHEMA_SCHEMAINFO_FINISH_OFFSET UNITYSDK_OFFSET(0x1E7FF9A0)
-#define SYSTEM_XML_SCHEMA_SCHEMAINFO_GET_ELEMENTDECLS_OFFSET UNITYSDK_OFFSET(0x1E7FF750)
-#define SYSTEM_XML_SCHEMA_SCHEMAINFO_GET_GENERALENTITIES_OFFSET UNITYSDK_OFFSET(0x1E7FF770)
-#define SYSTEM_XML_SCHEMA_SCHEMAINFO_GET_NOTATIONS_OFFSET UNITYSDK_OFFSET(0x1E7FF8F0)
-#define SYSTEM_XML_SCHEMA_SCHEMAINFO_GET_PARAMETERENTITIES_OFFSET UNITYSDK_OFFSET(0x1E7FF820)
-#define SYSTEM_XML_SCHEMA_SCHEMAINFO_GET_SCHEMATYPE_OFFSET UNITYSDK_OFFSET(0x1E7FF8D0)
-#define SYSTEM_XML_SCHEMA_SCHEMAINFO_GET_UNDECLAREDELEMENTDECLS_OFFSET UNITYSDK_OFFSET(0x1E7FF760)
-#define SYSTEM_XML_SCHEMA_SCHEMAINFO_SET_DOCTYPENAME_OFFSET UNITYSDK_OFFSET(0x1E7FF730)
-#define SYSTEM_XML_SCHEMA_SCHEMAINFO_SET_INTERNALDTDSUBSET_OFFSET UNITYSDK_OFFSET(0x1E7FF740)
-#define SYSTEM_XML_SCHEMA_SCHEMAINFO_SET_SCHEMATYPE_OFFSET UNITYSDK_OFFSET(0x1E7FF8E0)
-#define SYSTEM_XML_SCHEMA_SCHEMAINFO_SYSTEM_XML_IDTDINFO_GET_HASDEFAULTATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x1E7FFC40)
-#define SYSTEM_XML_SCHEMA_SCHEMAINFO_SYSTEM_XML_IDTDINFO_GET_HASNONCDATAATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x1E7FFC50)
-#define SYSTEM_XML_SCHEMA_SCHEMAINFO_SYSTEM_XML_IDTDINFO_GET_INTERNALDTDSUBSET_OFFSET UNITYSDK_OFFSET(0x1E7FFED0)
-#define SYSTEM_XML_SCHEMA_SCHEMAINFO_SYSTEM_XML_IDTDINFO_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1E7FFEC0)
-#define SYSTEM_XML_SCHEMA_SCHEMAINFO_SYSTEM_XML_IDTDINFO_LOOKUPATTRIBUTELIST_OFFSET UNITYSDK_OFFSET(0x1E7FFC60)
-#define SYSTEM_XML_SCHEMA_SCHEMAINFO_SYSTEM_XML_IDTDINFO_LOOKUPENTITY_OFFSET UNITYSDK_OFFSET(0x1E7FFDC0)
-#define SYSTEM_XML_SCHEMA_SCHEMAINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7FF490)
+#define SYSTEM_XML_SCHEMA_SCHEMAINFO_FINISH_OFFSET UNITYSDK_OFFSET(0x1EEC8690)
+#define SYSTEM_XML_SCHEMA_SCHEMAINFO_GET_ELEMENTDECLS_OFFSET UNITYSDK_OFFSET(0x1EEC8440)
+#define SYSTEM_XML_SCHEMA_SCHEMAINFO_GET_GENERALENTITIES_OFFSET UNITYSDK_OFFSET(0x1EEC8460)
+#define SYSTEM_XML_SCHEMA_SCHEMAINFO_GET_NOTATIONS_OFFSET UNITYSDK_OFFSET(0x1EEC85E0)
+#define SYSTEM_XML_SCHEMA_SCHEMAINFO_GET_PARAMETERENTITIES_OFFSET UNITYSDK_OFFSET(0x1EEC8510)
+#define SYSTEM_XML_SCHEMA_SCHEMAINFO_GET_SCHEMATYPE_OFFSET UNITYSDK_OFFSET(0x1EEC85C0)
+#define SYSTEM_XML_SCHEMA_SCHEMAINFO_GET_UNDECLAREDELEMENTDECLS_OFFSET UNITYSDK_OFFSET(0x1EEC8450)
+#define SYSTEM_XML_SCHEMA_SCHEMAINFO_SET_DOCTYPENAME_OFFSET UNITYSDK_OFFSET(0x1EEC8420)
+#define SYSTEM_XML_SCHEMA_SCHEMAINFO_SET_INTERNALDTDSUBSET_OFFSET UNITYSDK_OFFSET(0x1EEC8430)
+#define SYSTEM_XML_SCHEMA_SCHEMAINFO_SET_SCHEMATYPE_OFFSET UNITYSDK_OFFSET(0x1EEC85D0)
+#define SYSTEM_XML_SCHEMA_SCHEMAINFO_SYSTEM_XML_IDTDINFO_GET_HASDEFAULTATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x1EEC8930)
+#define SYSTEM_XML_SCHEMA_SCHEMAINFO_SYSTEM_XML_IDTDINFO_GET_HASNONCDATAATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x1EEC8940)
+#define SYSTEM_XML_SCHEMA_SCHEMAINFO_SYSTEM_XML_IDTDINFO_GET_INTERNALDTDSUBSET_OFFSET UNITYSDK_OFFSET(0x1EEC8BC0)
+#define SYSTEM_XML_SCHEMA_SCHEMAINFO_SYSTEM_XML_IDTDINFO_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1EEC8BB0)
+#define SYSTEM_XML_SCHEMA_SCHEMAINFO_SYSTEM_XML_IDTDINFO_LOOKUPATTRIBUTELIST_OFFSET UNITYSDK_OFFSET(0x1EEC8950)
+#define SYSTEM_XML_SCHEMA_SCHEMAINFO_SYSTEM_XML_IDTDINFO_LOOKUPENTITY_OFFSET UNITYSDK_OFFSET(0x1EEC8AB0)
+#define SYSTEM_XML_SCHEMA_SCHEMAINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1EEC8180)
 
 namespace System::Xml::Schema
 {
@@ -38,16 +38,16 @@ namespace System::Xml::Schema
 	class SchemaInfo : public ::System::Object
 	{
 	public:
-		::System::String* internalDtdSubset; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Xml::Schema::SchemaAttDef*>* attributeDecls; // 0x18
-		::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Xml::Schema::SchemaElementDecl*>* elementDecls; // 0x20
-		::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Xml::Schema::SchemaElementDecl*>* elementDeclsByType; // 0x28
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Boolean>* targetNamespaces; // 0x30
-		::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Xml::Schema::SchemaEntity*>* parameterEntities; // 0x38
-		::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Xml::Schema::SchemaElementDecl*>* undeclaredElementDecls; // 0x40
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Xml::Schema::SchemaNotation*>* notations; // 0x48
-		::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Xml::Schema::SchemaEntity*>* generalEntities; // 0x50
-		::System::Xml::XmlQualifiedName* docTypeName; // 0x58
+		::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Xml::Schema::SchemaEntity*>* generalEntities; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Xml::Schema::SchemaElementDecl*>* elementDeclsByType; // 0x18
+		::System::Xml::XmlQualifiedName* docTypeName; // 0x20
+		::System::String* internalDtdSubset; // 0x28
+		::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Xml::Schema::SchemaAttDef*>* attributeDecls; // 0x30
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Boolean>* targetNamespaces; // 0x38
+		::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Xml::Schema::SchemaElementDecl*>* elementDecls; // 0x40
+		::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Xml::Schema::SchemaEntity*>* parameterEntities; // 0x48
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Xml::Schema::SchemaNotation*>* notations; // 0x50
+		::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Xml::Schema::SchemaElementDecl*>* undeclaredElementDecls; // 0x58
 		::System::Xml::Schema::SchemaType schemaType; // 0x60
 		::System::Boolean hasNonCDataAttributes; // 0x64
 		::System::Boolean hasDefaultAttributes; // 0x65

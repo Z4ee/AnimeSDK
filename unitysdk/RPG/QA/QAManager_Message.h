@@ -4,13 +4,13 @@
 
 namespace System { class String; }
 
-#define RPG_QA_QAMANAGER_MESSAGE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x15D150)
-#define RPG_QA_QAMANAGER_MESSAGE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x15D130)
-#define RPG_QA_QAMANAGER_MESSAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x15D110)
+#define RPG_QA_QAMANAGER_MESSAGE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xF6D40)
+#define RPG_QA_QAMANAGER_MESSAGE__CTOR_1_OFFSET UNITYSDK_OFFSET(0xF6D20)
+#define RPG_QA_QAMANAGER_MESSAGE__CTOR_OFFSET UNITYSDK_OFFSET(0xF6D00)
 
 namespace RPG::QA
 {
-	inline static constexpr unsigned int QAManager_Message_TypeDefinitionIndex = 52110;
+	inline static constexpr unsigned int QAManager_Message_TypeDefinitionIndex = 51816;
 
 	struct alignas(8) QAManager_Message
 	{

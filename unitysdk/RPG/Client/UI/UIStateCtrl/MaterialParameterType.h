@@ -3,7 +3,7 @@
 
 namespace RPG::Client::UI::UIStateCtrl
 {
-	inline static constexpr unsigned int MaterialParameterType_TypeDefinitionIndex = 73961;
+	inline static constexpr unsigned int MaterialParameterType_TypeDefinitionIndex = 74060;
 
 	enum class MaterialParameterType : ::System::Int32
 	{

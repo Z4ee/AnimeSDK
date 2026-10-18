@@ -1,10 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/FixPoint.h"
 
-class Class_1_6C30C65EACF8D014;
-namespace RPG::GameCore { class GameEntity; }
-
-inline static constexpr unsigned int Class_0_16E4307DCC419505_598_TypeDefinitionIndex = 57141;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_598_TypeDefinitionIndex = 54018;
 
 class Class_0_16E4307DCC419505_598
 {

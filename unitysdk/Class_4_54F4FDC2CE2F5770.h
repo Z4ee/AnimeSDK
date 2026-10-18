@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ChangeCharacterConfigParamClientOnly; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_4_54F4FDC2CE2F5770_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBA69E60)
-#define CLASS_4_54F4FDC2CE2F5770__CTOR_OFFSET UNITYSDK_OFFSET(0xBA69E30)
+#define CLASS_4_54F4FDC2CE2F5770_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB9300A0)
+#define CLASS_4_54F4FDC2CE2F5770__CTOR_OFFSET UNITYSDK_OFFSET(0xB930070)
 
-inline static constexpr unsigned int Class_4_54F4FDC2CE2F5770_TypeDefinitionIndex = 55122;
+inline static constexpr unsigned int Class_4_54F4FDC2CE2F5770_TypeDefinitionIndex = 54915;
 
 class Class_4_54F4FDC2CE2F5770 : public ::Class_3_77CF7DC62C1C1163
 {

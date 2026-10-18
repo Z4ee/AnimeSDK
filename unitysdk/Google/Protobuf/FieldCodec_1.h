@@ -13,7 +13,7 @@ namespace System::Collections::Generic { template <typename T> class EqualityCom
 
 namespace Google::Protobuf
 {
-	inline static constexpr unsigned int FieldCodec_1_TypeDefinitionIndex = 5377;
+	inline static constexpr unsigned int FieldCodec_1_TypeDefinitionIndex = 5384;
 
 	template <typename T>
 	class FieldCodec_1 : public ::System::Object

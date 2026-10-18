@@ -3,15 +3,15 @@
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_A67090E7C81489C5__CTOR_OFFSET UNITYSDK_OFFSET(0xC42FEB0)
+#define CLASS_1_A67090E7C81489C5__CTOR_OFFSET UNITYSDK_OFFSET(0xC330E20)
 
-inline static constexpr unsigned int Class_1_A67090E7C81489C5_TypeDefinitionIndex = 80721;
+inline static constexpr unsigned int Class_1_A67090E7C81489C5_TypeDefinitionIndex = 82049;
 
 class Class_1_A67090E7C81489C5 : public ::System::Object
 {
 public:
-	::System::Boolean MMKEDDICDHK; // 0x10
-	::RPG::Client::TextID IFNMFPACLKL; // 0x18
+	::RPG::Client::TextID IFNMFPACLKL; // 0x10
+	::System::Boolean MMKEDDICDHK; // 0x20
 
 	::System::Void _ctor()
 	{

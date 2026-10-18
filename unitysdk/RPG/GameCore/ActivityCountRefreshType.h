@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityCountRefreshType_TypeDefinitionIndex = 11459;
+	inline static constexpr unsigned int ActivityCountRefreshType_TypeDefinitionIndex = 11475;
 
 	enum class ActivityCountRefreshType : ::System::Int32
 	{

@@ -6,19 +6,19 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MATCHTHREEENVIRONMENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D24AD30)
-#define RPG_GAMECORE_MATCHTHREEENVIRONMENTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D24B470)
+#define RPG_GAMECORE_MATCHTHREEENVIRONMENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D855880)
+#define RPG_GAMECORE_MATCHTHREEENVIRONMENTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D855FC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MatchThreeEnvironmentRow_TypeDefinitionIndex = 11878;
+	inline static constexpr unsigned int MatchThreeEnvironmentRow_TypeDefinitionIndex = 11901;
 
 	class MatchThreeEnvironmentRow : public ::System::Object
 	{
 	public:
 		::System::String* ImagePath; // 0x10
-		::System::String* IconPath; // 0x18
-		::Il2CppArray<::System::String*>* ParamList; // 0x20
+		::Il2CppArray<::System::String*>* ParamList; // 0x18
+		::System::String* IconPath; // 0x20
 		::RPG::Client::TextID Name; // 0x28
 		::RPG::Client::TextID Desc; // 0x38
 		::System::UInt32 EnvironmentID; // 0x48

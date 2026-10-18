@@ -6,29 +6,29 @@
 class Class_2_0748E0E1B406181B;
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_MAPDEF___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD5EB0D0)
-#define RPG_CLIENT_MAPDEF___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD5EB110)
-#define RPG_CLIENT_MAPDEF___C__GETACTIVEGROUPDEFS_B__212_0_OFFSET UNITYSDK_OFFSET(0xD5EB120)
-#define RPG_CLIENT_MAPDEF___C__GETACTIVEGROUPDEFS_B__212_1_OFFSET UNITYSDK_OFFSET(0xD5EB130)
+#define RPG_CLIENT_MAPDEF___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD542BA0)
+#define RPG_CLIENT_MAPDEF___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD542BE0)
+#define RPG_CLIENT_MAPDEF___C__GETACTIVEGROUPDEFS_B__212_0_OFFSET UNITYSDK_OFFSET(0xD542BF0)
+#define RPG_CLIENT_MAPDEF___C__GETACTIVEGROUPDEFS_B__212_1_OFFSET UNITYSDK_OFFSET(0xD542C00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MapDef___c_TypeDefinitionIndex = 62165;
+	inline static constexpr unsigned int MapDef___c_TypeDefinitionIndex = 62081;
 
 	class MapDef___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::Class_2_0748E0E1B406181B*>, ::Class_2_0748E0E1B406181B*>** StaticGet___9__212_1()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::Class_2_0748E0E1B406181B*>, ::Class_2_0748E0E1B406181B*>**)Il2CppClass::FromTypeDefinitionIndex(MapDef___c_TypeDefinitionIndex)->GetStaticField(0x655E0);
-		}
-		static ::RPG::Client::MapDef___c** StaticGet___9()
-		{
-			return (::RPG::Client::MapDef___c**)Il2CppClass::FromTypeDefinitionIndex(MapDef___c_TypeDefinitionIndex)->GetStaticField(0x655E8);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::Class_2_0748E0E1B406181B*>, ::Class_2_0748E0E1B406181B*>**)Il2CppClass::FromTypeDefinitionIndex(MapDef___c_TypeDefinitionIndex)->GetStaticField(0x485D0);
 		}
 		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::Class_2_0748E0E1B406181B*>, ::System::UInt32>** StaticGet___9__212_0()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::Class_2_0748E0E1B406181B*>, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(MapDef___c_TypeDefinitionIndex)->GetStaticField(0x655F0);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::Class_2_0748E0E1B406181B*>, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(MapDef___c_TypeDefinitionIndex)->GetStaticField(0x485D8);
+		}
+		static ::RPG::Client::MapDef___c** StaticGet___9()
+		{
+			return (::RPG::Client::MapDef___c**)Il2CppClass::FromTypeDefinitionIndex(MapDef___c_TypeDefinitionIndex)->GetStaticField(0x485E0);
 		}
 
 		static ::System::Void _cctor()

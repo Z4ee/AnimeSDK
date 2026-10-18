@@ -4,12 +4,12 @@
 
 namespace System::Linq::Expressions { class Expression; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_FULLCONDITIONALEXPRESSION_GETFALSE_OFFSET UNITYSDK_OFFSET(0x1E70D160)
-#define SYSTEM_LINQ_EXPRESSIONS_FULLCONDITIONALEXPRESSION__CTOR_OFFSET UNITYSDK_OFFSET(0x1E6DB470)
+#define SYSTEM_LINQ_EXPRESSIONS_FULLCONDITIONALEXPRESSION_GETFALSE_OFFSET UNITYSDK_OFFSET(0x1EDD5DB0)
+#define SYSTEM_LINQ_EXPRESSIONS_FULLCONDITIONALEXPRESSION__CTOR_OFFSET UNITYSDK_OFFSET(0x1EDA37C0)
 
 namespace System::Linq::Expressions
 {
-	inline static constexpr unsigned int FullConditionalExpression_TypeDefinitionIndex = 3209;
+	inline static constexpr unsigned int FullConditionalExpression_TypeDefinitionIndex = 3210;
 
 	class FullConditionalExpression : public ::System::Linq::Expressions::ConditionalExpression
 	{

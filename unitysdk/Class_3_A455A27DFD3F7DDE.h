@@ -7,10 +7,10 @@ namespace RPG::GameCore { class TargetFetchCurrentDamageAttacker; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_3_A455A27DFD3F7DDE_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBB11200)
-#define CLASS_3_A455A27DFD3F7DDE__CTOR_OFFSET UNITYSDK_OFFSET(0xBB11190)
+#define CLASS_3_A455A27DFD3F7DDE_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB996CE0)
+#define CLASS_3_A455A27DFD3F7DDE__CTOR_OFFSET UNITYSDK_OFFSET(0xB996C70)
 
-inline static constexpr unsigned int Class_3_A455A27DFD3F7DDE_TypeDefinitionIndex = 59265;
+inline static constexpr unsigned int Class_3_A455A27DFD3F7DDE_TypeDefinitionIndex = 59117;
 
 class Class_3_A455A27DFD3F7DDE : public ::RPG::GameCore::TargetEvaluatorImpl_1<::RPG::GameCore::TargetFetchCurrentDamageAttacker*>
 {

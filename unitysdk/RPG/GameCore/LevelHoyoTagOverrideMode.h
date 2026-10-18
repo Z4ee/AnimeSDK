@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelHoyoTagOverrideMode_TypeDefinitionIndex = 17009;
+	inline static constexpr unsigned int LevelHoyoTagOverrideMode_TypeDefinitionIndex = 17204;
 
 	enum class LevelHoyoTagOverrideMode : ::System::Int32
 	{

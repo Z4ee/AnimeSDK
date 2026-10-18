@@ -7,7 +7,7 @@ namespace System { class Exception; }
 
 namespace R3
 {
-	inline static constexpr unsigned int Skip_1__Skip_TypeDefinitionIndex = 35270;
+	inline static constexpr unsigned int Skip_1__Skip_TypeDefinitionIndex = 35952;
 
 	template <typename T>
 	class Skip_1__Skip : public ::R3::Observer_1<T>

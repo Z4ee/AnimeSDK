@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Vector2Int.h"
 
-class Class_1_B86B1EABA6E666F2;
-class Class_1_F9F003D6AE4C8C22;
-namespace RPG::GameCore { class FiveDimContactEventEmitterConfig; }
+namespace R3 { template <typename T> class ReadOnlyReactiveProperty_1; }
+namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_163_TypeDefinitionIndex = 40575;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_163_TypeDefinitionIndex = 41789;
 
 class Class_0_16E4307DCC419505_163
 {

@@ -5,24 +5,24 @@
 namespace RPG::Client { class MatchThreeV2RankData; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_MATCHTHREEV2RANKINFOS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD672780)
-#define RPG_CLIENT_MATCHTHREEV2RANKINFOS___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD6727B0)
-#define RPG_CLIENT_MATCHTHREEV2RANKINFOS___C___INIT_B__3_0_OFFSET UNITYSDK_OFFSET(0xD6727C0)
+#define RPG_CLIENT_MATCHTHREEV2RANKINFOS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD5CB8E0)
+#define RPG_CLIENT_MATCHTHREEV2RANKINFOS___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD5CB910)
+#define RPG_CLIENT_MATCHTHREEV2RANKINFOS___C___INIT_B__3_0_OFFSET UNITYSDK_OFFSET(0xD5CB920)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MatchThreeV2RankInfos___c_TypeDefinitionIndex = 66068;
+	inline static constexpr unsigned int MatchThreeV2RankInfos___c_TypeDefinitionIndex = 66022;
 
 	class MatchThreeV2RankInfos___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::MatchThreeV2RankInfos___c** StaticGet___9()
-		{
-			return (::RPG::Client::MatchThreeV2RankInfos___c**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeV2RankInfos___c_TypeDefinitionIndex)->GetStaticField(0x66630);
-		}
 		static ::System::Func_2<::RPG::Client::MatchThreeV2RankData*, ::System::UInt32>** StaticGet___9__3_0()
 		{
-			return (::System::Func_2<::RPG::Client::MatchThreeV2RankData*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeV2RankInfos___c_TypeDefinitionIndex)->GetStaticField(0x66638);
+			return (::System::Func_2<::RPG::Client::MatchThreeV2RankData*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeV2RankInfos___c_TypeDefinitionIndex)->GetStaticField(0x55AE0);
+		}
+		static ::RPG::Client::MatchThreeV2RankInfos___c** StaticGet___9()
+		{
+			return (::RPG::Client::MatchThreeV2RankInfos___c**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeV2RankInfos___c_TypeDefinitionIndex)->GetStaticField(0x55AE8);
 		}
 
 		static ::System::Void _cctor()

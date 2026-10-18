@@ -7,13 +7,13 @@ namespace RPG::Client { class TutorialGuideViewNode; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_TUTORIALGUIDEVIEWBINDER_GET_NODELIST_OFFSET UNITYSDK_OFFSET(0xE300E50)
-#define RPG_CLIENT_TUTORIALGUIDEVIEWBINDER_GET_OFFSET UNITYSDK_OFFSET(0xE300D80)
-#define RPG_CLIENT_TUTORIALGUIDEVIEWBINDER__CTOR_OFFSET UNITYSDK_OFFSET(0xE300E90)
+#define RPG_CLIENT_TUTORIALGUIDEVIEWBINDER_GET_NODELIST_OFFSET UNITYSDK_OFFSET(0xE33FBD0)
+#define RPG_CLIENT_TUTORIALGUIDEVIEWBINDER_GET_OFFSET UNITYSDK_OFFSET(0xE33FB00)
+#define RPG_CLIENT_TUTORIALGUIDEVIEWBINDER__CTOR_OFFSET UNITYSDK_OFFSET(0xE33FC10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TutorialGuideViewBinder_TypeDefinitionIndex = 68206;
+	inline static constexpr unsigned int TutorialGuideViewBinder_TypeDefinitionIndex = 68214;
 
 	class TutorialGuideViewBinder : public ::UnityEngine::MonoBehaviour
 	{

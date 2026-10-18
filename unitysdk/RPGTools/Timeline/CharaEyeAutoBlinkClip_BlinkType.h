@@ -3,7 +3,7 @@
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int CharaEyeAutoBlinkClip_BlinkType_TypeDefinitionIndex = 48387;
+	inline static constexpr unsigned int CharaEyeAutoBlinkClip_BlinkType_TypeDefinitionIndex = 47927;
 
 	enum class CharaEyeAutoBlinkClip_BlinkType : ::System::Int32
 	{

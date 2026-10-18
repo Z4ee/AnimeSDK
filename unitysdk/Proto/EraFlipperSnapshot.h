@@ -12,40 +12,40 @@ namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 namespace Proto { class EraFlipperRegionDataSnapshot; }
 namespace System { class String; }
 
-#define PROTO_ERAFLIPPERSNAPSHOT_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1D937570)
-#define PROTO_ERAFLIPPERSNAPSHOT_CLONE_OFFSET UNITYSDK_OFFSET(0x1D9370F0)
-#define PROTO_ERAFLIPPERSNAPSHOT_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1D9372D0)
-#define PROTO_ERAFLIPPERSNAPSHOT_EQUALS_OFFSET UNITYSDK_OFFSET(0x1D937150)
-#define PROTO_ERAFLIPPERSNAPSHOT_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1D9373F0)
-#define PROTO_ERAFLIPPERSNAPSHOT_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x1D936F80)
-#define PROTO_ERAFLIPPERSNAPSHOT_GET_REGIONDATALIST_OFFSET UNITYSDK_OFFSET(0x1D937140)
-#define PROTO_ERAFLIPPERSNAPSHOT_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1D9376B0)
-#define PROTO_ERAFLIPPERSNAPSHOT_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1D937610)
-#define PROTO_ERAFLIPPERSNAPSHOT_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1D936FE0)
-#define PROTO_ERAFLIPPERSNAPSHOT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1D937460)
-#define PROTO_ERAFLIPPERSNAPSHOT_WRITETO_OFFSET UNITYSDK_OFFSET(0x1D9374C0)
-#define PROTO_ERAFLIPPERSNAPSHOT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D937870)
-#define PROTO_ERAFLIPPERSNAPSHOT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1D937040)
-#define PROTO_ERAFLIPPERSNAPSHOT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D936FF0)
+#define PROTO_ERAFLIPPERSNAPSHOT_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1DFF0630)
+#define PROTO_ERAFLIPPERSNAPSHOT_CLONE_OFFSET UNITYSDK_OFFSET(0x1DFF01B0)
+#define PROTO_ERAFLIPPERSNAPSHOT_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1DFF0390)
+#define PROTO_ERAFLIPPERSNAPSHOT_EQUALS_OFFSET UNITYSDK_OFFSET(0x1DFF0210)
+#define PROTO_ERAFLIPPERSNAPSHOT_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1DFF04B0)
+#define PROTO_ERAFLIPPERSNAPSHOT_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x1DFF0040)
+#define PROTO_ERAFLIPPERSNAPSHOT_GET_REGIONDATALIST_OFFSET UNITYSDK_OFFSET(0x1DFF0200)
+#define PROTO_ERAFLIPPERSNAPSHOT_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1DFF0770)
+#define PROTO_ERAFLIPPERSNAPSHOT_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1DFF06D0)
+#define PROTO_ERAFLIPPERSNAPSHOT_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1DFF00A0)
+#define PROTO_ERAFLIPPERSNAPSHOT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DFF0520)
+#define PROTO_ERAFLIPPERSNAPSHOT_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DFF0580)
+#define PROTO_ERAFLIPPERSNAPSHOT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DFF0930)
+#define PROTO_ERAFLIPPERSNAPSHOT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1DFF0100)
+#define PROTO_ERAFLIPPERSNAPSHOT__CTOR_OFFSET UNITYSDK_OFFSET(0x1DFF00B0)
 
 namespace Proto
 {
-	inline static constexpr unsigned int EraFlipperSnapshot_TypeDefinitionIndex = 25501;
+	inline static constexpr unsigned int EraFlipperSnapshot_TypeDefinitionIndex = 25844;
 
 	class EraFlipperSnapshot : public ::System::Object
 	{
 	public:
 		static ::Google::Protobuf::MessageParser_1<::Proto::EraFlipperSnapshot*>** StaticGet__parser()
 		{
-			return (::Google::Protobuf::MessageParser_1<::Proto::EraFlipperSnapshot*>**)Il2CppClass::FromTypeDefinitionIndex(EraFlipperSnapshot_TypeDefinitionIndex)->GetStaticField(0x586E0);
+			return (::Google::Protobuf::MessageParser_1<::Proto::EraFlipperSnapshot*>**)Il2CppClass::FromTypeDefinitionIndex(EraFlipperSnapshot_TypeDefinitionIndex)->GetStaticField(0x43AC0);
 		}
 		static ::Google::Protobuf::FieldCodec_1<::Proto::EraFlipperRegionDataSnapshot*>** StaticGet__repeated_regionDataList_codec()
 		{
-			return (::Google::Protobuf::FieldCodec_1<::Proto::EraFlipperRegionDataSnapshot*>**)Il2CppClass::FromTypeDefinitionIndex(EraFlipperSnapshot_TypeDefinitionIndex)->GetStaticField(0x586E8);
+			return (::Google::Protobuf::FieldCodec_1<::Proto::EraFlipperRegionDataSnapshot*>**)Il2CppClass::FromTypeDefinitionIndex(EraFlipperSnapshot_TypeDefinitionIndex)->GetStaticField(0x43AC8);
 		}
 		// static const ::System::Int32 RegionDataListFieldNumber = 0x1; // 0x0
-		::Google::Protobuf::Collections::RepeatedField_1<::Proto::EraFlipperRegionDataSnapshot*>* regionDataList_; // 0x10
-		::Google::Protobuf::UnknownFieldSet* _unknownFields; // 0x18
+		::Google::Protobuf::UnknownFieldSet* _unknownFields; // 0x10
+		::Google::Protobuf::Collections::RepeatedField_1<::Proto::EraFlipperRegionDataSnapshot*>* regionDataList_; // 0x18
 
 		::System::Void _ctor()
 		{

@@ -5,11 +5,11 @@
 namespace RPG::Client { class ElfSelectEventMessageData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ELFSELECTEVENTMESSAGESEQUENCE__CTOR_OFFSET UNITYSDK_OFFSET(0xCE922E0)
+#define RPG_CLIENT_ELFSELECTEVENTMESSAGESEQUENCE__CTOR_OFFSET UNITYSDK_OFFSET(0xCDE1610)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ElfSelectEventMessageSequence_TypeDefinitionIndex = 63734;
+	inline static constexpr unsigned int ElfSelectEventMessageSequence_TypeDefinitionIndex = 63672;
 
 	class ElfSelectEventMessageSequence : public ::System::Object
 	{

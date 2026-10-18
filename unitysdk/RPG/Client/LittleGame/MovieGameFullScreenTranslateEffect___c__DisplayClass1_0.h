@@ -7,12 +7,12 @@ namespace Entitas { class IComponent; }
 namespace Entitas { class IEntity; }
 namespace RPG::Client::LittleGame { class MovieGameFullScreenTranslateEffect; }
 
-#define RPG_CLIENT_LITTLEGAME_MOVIEGAMEFULLSCREENTRANSLATEEFFECT___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD520950)
-#define RPG_CLIENT_LITTLEGAME_MOVIEGAMEFULLSCREENTRANSLATEEFFECT___C__DISPLAYCLASS1_0__INITIALIZEVIEW_B__0_OFFSET UNITYSDK_OFFSET(0xD521000)
+#define RPG_CLIENT_LITTLEGAME_MOVIEGAMEFULLSCREENTRANSLATEEFFECT___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD477590)
+#define RPG_CLIENT_LITTLEGAME_MOVIEGAMEFULLSCREENTRANSLATEEFFECT___C__DISPLAYCLASS1_0__INITIALIZEVIEW_B__0_OFFSET UNITYSDK_OFFSET(0xD477C50)
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int MovieGameFullScreenTranslateEffect___c__DisplayClass1_0_TypeDefinitionIndex = 76133;
+	inline static constexpr unsigned int MovieGameFullScreenTranslateEffect___c__DisplayClass1_0_TypeDefinitionIndex = 76610;
 
 	class MovieGameFullScreenTranslateEffect___c__DisplayClass1_0 : public ::System::Object
 	{

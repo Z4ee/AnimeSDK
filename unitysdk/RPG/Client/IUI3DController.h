@@ -8,7 +8,7 @@ namespace UnityEngine { class Camera; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IUI3DController_TypeDefinitionIndex = 72884;
+	inline static constexpr unsigned int IUI3DController_TypeDefinitionIndex = 72967;
 
 	class IUI3DController
 	{

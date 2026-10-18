@@ -18,46 +18,46 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Object; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_PROP_PROBEPUZZLEBOARD_DISPOSE_OFFSET UNITYSDK_OFFSET(0xDCF8830)
-#define RPG_CLIENT_PROP_PROBEPUZZLEBOARD_INITPUZZLE_OFFSET UNITYSDK_OFFSET(0xDCF7E40)
-#define RPG_CLIENT_PROP_PROBEPUZZLEBOARD_ISPUZZLEFINISH_OFFSET UNITYSDK_OFFSET(0xDCF87E0)
-#define RPG_CLIENT_PROP_PROBEPUZZLEBOARD_METHOD_6_2372762F4122DEB8_OFFSET UNITYSDK_OFFSET(0xDCF84B0)
-#define RPG_CLIENT_PROP_PROBEPUZZLEBOARD_METHOD_6_38C5F8CD1ED91C27_OFFSET UNITYSDK_OFFSET(0xDCFAD70)
-#define RPG_CLIENT_PROP_PROBEPUZZLEBOARD_METHOD_6_C958C75CB08323C3_OFFSET UNITYSDK_OFFSET(0xDCF90C0)
-#define RPG_CLIENT_PROP_PROBEPUZZLEBOARD_METHOD_6_D6F4C32AC4421431_OFFSET UNITYSDK_OFFSET(0xDCFB560)
-#define RPG_CLIENT_PROP_PROBEPUZZLEBOARD_METHOD_6_D93DEBA456F620BE_OFFSET UNITYSDK_OFFSET(0xDCFA460)
-#define RPG_CLIENT_PROP_PROBEPUZZLEBOARD_RESET_OFFSET UNITYSDK_OFFSET(0xDCF8CF0)
-#define RPG_CLIENT_PROP_PROBEPUZZLEBOARD_SETRESETNUMBER_OFFSET UNITYSDK_OFFSET(0xDCF8C40)
-#define RPG_CLIENT_PROP_PROBEPUZZLEBOARD_UPDATE_OFFSET UNITYSDK_OFFSET(0xDCF8530)
-#define RPG_CLIENT_PROP_PROBEPUZZLEBOARD__CCTOR_OFFSET UNITYSDK_OFFSET(0xDCFBAC0)
-#define RPG_CLIENT_PROP_PROBEPUZZLEBOARD__CTOR_OFFSET UNITYSDK_OFFSET(0xDCFB9A0)
+#define RPG_CLIENT_PROP_PROBEPUZZLEBOARD_DISPOSE_OFFSET UNITYSDK_OFFSET(0xDD810B0)
+#define RPG_CLIENT_PROP_PROBEPUZZLEBOARD_INITPUZZLE_OFFSET UNITYSDK_OFFSET(0xDD806B0)
+#define RPG_CLIENT_PROP_PROBEPUZZLEBOARD_ISPUZZLEFINISH_OFFSET UNITYSDK_OFFSET(0xDD81060)
+#define RPG_CLIENT_PROP_PROBEPUZZLEBOARD_METHOD_6_2372762F4122DEB8_OFFSET UNITYSDK_OFFSET(0xDD80D30)
+#define RPG_CLIENT_PROP_PROBEPUZZLEBOARD_METHOD_6_38C5F8CD1ED91C27_OFFSET UNITYSDK_OFFSET(0xDD83620)
+#define RPG_CLIENT_PROP_PROBEPUZZLEBOARD_METHOD_6_C958C75CB08323C3_OFFSET UNITYSDK_OFFSET(0xDD81950)
+#define RPG_CLIENT_PROP_PROBEPUZZLEBOARD_METHOD_6_D6F4C32AC4421431_OFFSET UNITYSDK_OFFSET(0xDD83E20)
+#define RPG_CLIENT_PROP_PROBEPUZZLEBOARD_METHOD_6_D93DEBA456F620BE_OFFSET UNITYSDK_OFFSET(0xDD82D00)
+#define RPG_CLIENT_PROP_PROBEPUZZLEBOARD_RESET_OFFSET UNITYSDK_OFFSET(0xDD81570)
+#define RPG_CLIENT_PROP_PROBEPUZZLEBOARD_SETRESETNUMBER_OFFSET UNITYSDK_OFFSET(0xDD814C0)
+#define RPG_CLIENT_PROP_PROBEPUZZLEBOARD_UPDATE_OFFSET UNITYSDK_OFFSET(0xDD80DB0)
+#define RPG_CLIENT_PROP_PROBEPUZZLEBOARD__CCTOR_OFFSET UNITYSDK_OFFSET(0xDD84390)
+#define RPG_CLIENT_PROP_PROBEPUZZLEBOARD__CTOR_OFFSET UNITYSDK_OFFSET(0xDD84270)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ProbePuzzleBoard_TypeDefinitionIndex = 78307;
+	inline static constexpr unsigned int ProbePuzzleBoard_TypeDefinitionIndex = 78778;
 
 	class ProbePuzzleBoard : public ::RPG::Client::Prop::PuzzleBoardBase
 	{
 	public:
 		static ::System::String** StaticGet_CJDIFCBFIAB()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ProbePuzzleBoard_TypeDefinitionIndex)->GetStaticField(0x65730);
-		}
-		static ::UnityEngine::Vector3* StaticGet_HMEHAGGCBHF()
-		{
-			return (::UnityEngine::Vector3*)Il2CppClass::FromTypeDefinitionIndex(ProbePuzzleBoard_TypeDefinitionIndex)->GetStaticField(0x14DF0);
-		}
-		static ::System::Int32* StaticGet_LKENCCLAPAE()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ProbePuzzleBoard_TypeDefinitionIndex)->GetStaticField(0x14DFC);
-		}
-		static ::UnityEngine::Vector3* StaticGet_OIPLILIGFCL()
-		{
-			return (::UnityEngine::Vector3*)Il2CppClass::FromTypeDefinitionIndex(ProbePuzzleBoard_TypeDefinitionIndex)->GetStaticField(0x14E00);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ProbePuzzleBoard_TypeDefinitionIndex)->GetStaticField(0x5BBE0);
 		}
 		static ::System::Int32* StaticGet_HPFOEOPAFNI()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ProbePuzzleBoard_TypeDefinitionIndex)->GetStaticField(0x14E0C);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ProbePuzzleBoard_TypeDefinitionIndex)->GetStaticField(0x13EC0);
+		}
+		static ::UnityEngine::Vector3* StaticGet_HMEHAGGCBHF()
+		{
+			return (::UnityEngine::Vector3*)Il2CppClass::FromTypeDefinitionIndex(ProbePuzzleBoard_TypeDefinitionIndex)->GetStaticField(0x13EC4);
+		}
+		static ::System::Int32* StaticGet_LKENCCLAPAE()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ProbePuzzleBoard_TypeDefinitionIndex)->GetStaticField(0x13ED0);
+		}
+		static ::UnityEngine::Vector3* StaticGet_OIPLILIGFCL()
+		{
+			return (::UnityEngine::Vector3*)Il2CppClass::FromTypeDefinitionIndex(ProbePuzzleBoard_TypeDefinitionIndex)->GetStaticField(0x13ED4);
 		}
 		::System::String* Target; // 0x48
 		::System::String* ProbePropID_DS; // 0x50

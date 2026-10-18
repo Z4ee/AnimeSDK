@@ -5,25 +5,25 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_PLANETFESBUSINESSDAYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D33F520)
-#define RPG_GAMECORE_PLANETFESBUSINESSDAYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D33FD20)
+#define RPG_GAMECORE_PLANETFESBUSINESSDAYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D924800)
+#define RPG_GAMECORE_PLANETFESBUSINESSDAYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D925000)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlanetFesBusinessDayRow_TypeDefinitionIndex = 12148;
+	inline static constexpr unsigned int PlanetFesBusinessDayRow_TypeDefinitionIndex = 12229;
 
 	class PlanetFesBusinessDayRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 LittleBonusNum; // 0x10
-		::System::UInt32 LargeBonusNum; // 0x14
-		::System::UInt32 NaturalDay; // 0x18
-		::System::UInt32 MiddleBonusNum; // 0x1C
-		::System::UInt32 BusinessDay; // 0x20
-		::System::UInt32 PamNum; // 0x24
-		::System::UInt32 AvatarEventNum; // 0x28
-		::System::UInt32 GameNum; // 0x2C
-		::RPG::Client::TextID StartText; // 0x30
+		::System::UInt32 AvatarEventNum; // 0x10
+		::System::UInt32 BusinessDay; // 0x14
+		::System::UInt32 MiddleBonusNum; // 0x18
+		::System::UInt32 PamNum; // 0x1C
+		::System::UInt32 LittleBonusNum; // 0x20
+		::System::UInt32 GameNum; // 0x24
+		::RPG::Client::TextID StartText; // 0x28
+		::System::UInt32 LargeBonusNum; // 0x38
+		::System::UInt32 NaturalDay; // 0x3C
 
 		::System::Void _ctor()
 		{

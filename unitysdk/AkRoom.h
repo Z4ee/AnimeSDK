@@ -8,32 +8,32 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Collider; }
 namespace UnityEngine { class GameObject; }
 
-#define AKROOM_EXIT_OFFSET UNITYSDK_OFFSET(0x1EEF01D0)
-#define AKROOM_GETAKROOMID_OFFSET UNITYSDK_OFFSET(0x1EEEFDC0)
-#define AKROOM_GETID_OFFSET UNITYSDK_OFFSET(0x1EEEFEF0)
-#define AKROOM_GET_ROOMCOUNT_OFFSET UNITYSDK_OFFSET(0x1EEEFFD0)
-#define AKROOM_HANDLEEVENT_OFFSET UNITYSDK_OFFSET(0x1EEF26A0)
-#define AKROOM_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1EEF1A20)
-#define AKROOM_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1EEF0290)
-#define AKROOM_ONTRIGGERENTER_OFFSET UNITYSDK_OFFSET(0x1EEF2250)
-#define AKROOM_ONTRIGGEREXIT_OFFSET UNITYSDK_OFFSET(0x1EEF2360)
-#define AKROOM_POSTROOMTONE_OFFSET UNITYSDK_OFFSET(0x1EEF2470)
-#define AKROOM_SET_ROOMCOUNT_OFFSET UNITYSDK_OFFSET(0x1EEEFFE0)
-#define AKROOM_TRYENTER_OFFSET UNITYSDK_OFFSET(0x1EEEFFF0)
-#define AKROOM__CTOR_OFFSET UNITYSDK_OFFSET(0x1EEF26F0)
+#define AKROOM_EXIT_OFFSET UNITYSDK_OFFSET(0x1F5B7D80)
+#define AKROOM_GETAKROOMID_OFFSET UNITYSDK_OFFSET(0x1F5B7970)
+#define AKROOM_GETID_OFFSET UNITYSDK_OFFSET(0x1F5B7AA0)
+#define AKROOM_GET_ROOMCOUNT_OFFSET UNITYSDK_OFFSET(0x1F5B7B80)
+#define AKROOM_HANDLEEVENT_OFFSET UNITYSDK_OFFSET(0x1F5BA250)
+#define AKROOM_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1F5B95D0)
+#define AKROOM_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1F5B7E40)
+#define AKROOM_ONTRIGGERENTER_OFFSET UNITYSDK_OFFSET(0x1F5B9E00)
+#define AKROOM_ONTRIGGEREXIT_OFFSET UNITYSDK_OFFSET(0x1F5B9F10)
+#define AKROOM_POSTROOMTONE_OFFSET UNITYSDK_OFFSET(0x1F5BA020)
+#define AKROOM_SET_ROOMCOUNT_OFFSET UNITYSDK_OFFSET(0x1F5B7B90)
+#define AKROOM_TRYENTER_OFFSET UNITYSDK_OFFSET(0x1F5B7BA0)
+#define AKROOM__CTOR_OFFSET UNITYSDK_OFFSET(0x1F5BA2A0)
 
-inline static constexpr unsigned int AkRoom_TypeDefinitionIndex = 43751;
+inline static constexpr unsigned int AkRoom_TypeDefinitionIndex = 44943;
 
 class AkRoom : public ::AkTriggerHandler
 {
 public:
-	static ::System::Int32* StaticGet__RoomCount_k__BackingField()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(AkRoom_TypeDefinitionIndex)->GetStaticField(0x7910);
-	}
 	static ::System::UInt64* StaticGet_INVALID_ROOM_ID()
 	{
-		return (::System::UInt64*)Il2CppClass::FromTypeDefinitionIndex(AkRoom_TypeDefinitionIndex)->GetStaticField(0x7918);
+		return (::System::UInt64*)Il2CppClass::FromTypeDefinitionIndex(AkRoom_TypeDefinitionIndex)->GetStaticField(0x2B20);
+	}
+	static ::System::Int32* StaticGet__RoomCount_k__BackingField()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(AkRoom_TypeDefinitionIndex)->GetStaticField(0x2B28);
 	}
 	::System::Int32 priority; // 0x30
 	::System::UInt32 reverbAuxBusID; // 0x34

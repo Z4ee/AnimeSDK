@@ -6,23 +6,23 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define CLASS_1_E2DCA4DCC2D0E91F_METHOD_1_70FC9BA3400F387E_OFFSET UNITYSDK_OFFSET(0x1CD29A40)
-#define CLASS_1_E2DCA4DCC2D0E91F__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD29D70)
+#define CLASS_1_E2DCA4DCC2D0E91F_METHOD_1_70FC9BA3400F387E_OFFSET UNITYSDK_OFFSET(0x1D2FC3C0)
+#define CLASS_1_E2DCA4DCC2D0E91F__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2FC6F0)
 
-inline static constexpr unsigned int Class_1_E2DCA4DCC2D0E91F_TypeDefinitionIndex = 11474;
+inline static constexpr unsigned int Class_1_E2DCA4DCC2D0E91F_TypeDefinitionIndex = 11490;
 
 class Class_1_E2DCA4DCC2D0E91F : public ::System::Object
 {
 public:
-	::Il2CppArray<::RPG::GameCore::FixPoint>* LKJNMGCBCAK; // 0x10
-	::Il2CppArray<::RPG::GameCore::FixPoint>* JAKDNHOHINO; // 0x18
+	::Il2CppArray<::RPG::GameCore::FixPoint>* JAKDNHOHINO; // 0x10
+	::Il2CppArray<::RPG::GameCore::FixPoint>* LKJNMGCBCAK; // 0x18
 	::Il2CppArray<::RPG::GameCore::FateRoundType>* MLNNCPNNDOO; // 0x20
-	::System::UInt32 HFGNHCDNPHL; // 0x28
-	::System::UInt32 COPIFAPBMJH; // 0x2C
-	::System::UInt32 AENCLGAIGMD; // 0x30
+	::System::UInt32 POCKPDCKPMA; // 0x28
+	::System::UInt32 AENCLGAIGMD; // 0x2C
+	::System::UInt32 MKPCBHODIFB; // 0x30
 	::System::UInt32 LOEPLBPFMEN; // 0x34
-	::System::UInt32 POCKPDCKPMA; // 0x38
-	::System::UInt32 MKPCBHODIFB; // 0x3C
+	::System::UInt32 COPIFAPBMJH; // 0x38
+	::System::UInt32 HFGNHCDNPHL; // 0x3C
 
 	::System::Void _ctor()
 	{

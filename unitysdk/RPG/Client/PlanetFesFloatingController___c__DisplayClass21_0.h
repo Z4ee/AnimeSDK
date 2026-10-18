@@ -6,12 +6,12 @@ namespace RPG::Client { class PlanetFesAnimEffect; }
 namespace RPG::Client { class PlanetFesFloatingController; }
 namespace System { class Action; }
 
-#define RPG_CLIENT_PLANETFESFLOATINGCONTROLLER___C__DISPLAYCLASS21_0__CTOR_OFFSET UNITYSDK_OFFSET(0xDB4A3D0)
-#define RPG_CLIENT_PLANETFESFLOATINGCONTROLLER___C__DISPLAYCLASS21_0__DOSHOWITEMEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0xDB4C1A0)
+#define RPG_CLIENT_PLANETFESFLOATINGCONTROLLER___C__DISPLAYCLASS21_0__CTOR_OFFSET UNITYSDK_OFFSET(0xDB929E0)
+#define RPG_CLIENT_PLANETFESFLOATINGCONTROLLER___C__DISPLAYCLASS21_0__DOSHOWITEMEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0xDB945F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlanetFesFloatingController___c__DisplayClass21_0_TypeDefinitionIndex = 66522;
+	inline static constexpr unsigned int PlanetFesFloatingController___c__DisplayClass21_0_TypeDefinitionIndex = 66490;
 
 	class PlanetFesFloatingController___c__DisplayClass21_0 : public ::System::Object
 	{
