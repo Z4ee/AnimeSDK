@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_PARKOURGAME_MONOPARKOURPROJECTILE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4DD290)
+#define RPG_CLIENT_PARKOURGAME_MONOPARKOURPROJECTILE__CTOR_OFFSET UNITYSDK_OFFSET(0xDA6D100)
 
 namespace RPG::Client::ParkourGame
 {
-	inline static constexpr unsigned int MonoParkourProjectile_TypeDefinitionIndex = 74054;
+	inline static constexpr unsigned int MonoParkourProjectile_TypeDefinitionIndex = 74153;
 
 	class MonoParkourProjectile : public ::UnityEngine::MonoBehaviour
 	{

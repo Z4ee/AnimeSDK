@@ -6,17 +6,17 @@ class Class_1_89A70EF203D563DC;
 namespace RPG::Client { class ExpeditionBattleMap; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_D065E7ED7DC532BE_GET_MAPS_OFFSET UNITYSDK_OFFSET(0x14C29B90)
-#define CLASS_1_D065E7ED7DC532BE_METHOD_1_8DA6C0776D002B6D_OFFSET UNITYSDK_OFFSET(0x14C29C20)
-#define CLASS_1_D065E7ED7DC532BE__CTOR_OFFSET UNITYSDK_OFFSET(0x14C29BA0)
+#define CLASS_1_D065E7ED7DC532BE_GET_MAPS_OFFSET UNITYSDK_OFFSET(0xB16D2D0)
+#define CLASS_1_D065E7ED7DC532BE_METHOD_1_8DA6C0776D002B6D_OFFSET UNITYSDK_OFFSET(0xB16D360)
+#define CLASS_1_D065E7ED7DC532BE__CTOR_OFFSET UNITYSDK_OFFSET(0xB16D2E0)
 
-inline static constexpr unsigned int Class_1_D065E7ED7DC532BE_TypeDefinitionIndex = 63989;
+inline static constexpr unsigned int Class_1_D065E7ED7DC532BE_TypeDefinitionIndex = 63927;
 
 class Class_1_D065E7ED7DC532BE : public ::System::Object
 {
 public:
-	::Class_1_89A70EF203D563DC* NIJOOBIAPGP; // 0x10
-	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::ExpeditionBattleMap*>* _Maps_k__BackingField; // 0x18
+	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::ExpeditionBattleMap*>* _Maps_k__BackingField; // 0x10
+	::Class_1_89A70EF203D563DC* NIJOOBIAPGP; // 0x18
 
 	::System::Void _ctor(::Class_1_89A70EF203D563DC* a1)
 	{

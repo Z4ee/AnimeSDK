@@ -5,12 +5,12 @@
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_UI3DCONTROLLERBASE___C__DISPLAYCLASS48_0__ASYNCLOADPREFAB_B__0_OFFSET UNITYSDK_OFFSET(0x1B12A990)
-#define RPG_CLIENT_UI3DCONTROLLERBASE___C__DISPLAYCLASS48_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1298C0)
+#define RPG_CLIENT_UI3DCONTROLLERBASE___C__DISPLAYCLASS48_0__ASYNCLOADPREFAB_B__0_OFFSET UNITYSDK_OFFSET(0xE34C330)
+#define RPG_CLIENT_UI3DCONTROLLERBASE___C__DISPLAYCLASS48_0__CTOR_OFFSET UNITYSDK_OFFSET(0xE34B330)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UI3DControllerBase___c__DisplayClass48_0_TypeDefinitionIndex = 72917;
+	inline static constexpr unsigned int UI3DControllerBase___c__DisplayClass48_0_TypeDefinitionIndex = 73000;
 
 	class UI3DControllerBase___c__DisplayClass48_0 : public ::System::Object
 	{

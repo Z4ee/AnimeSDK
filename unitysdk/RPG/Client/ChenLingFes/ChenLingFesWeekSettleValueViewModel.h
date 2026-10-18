@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Sofa/BaseViewModel.h"
 
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESWEEKSETTLEVALUEVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1B75F050)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESWEEKSETTLEVALUEVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xCAC38E0)
 
 namespace RPG::Client::ChenLingFes
 {
-	inline static constexpr unsigned int ChenLingFesWeekSettleValueViewModel_TypeDefinitionIndex = 80078;
+	inline static constexpr unsigned int ChenLingFesWeekSettleValueViewModel_TypeDefinitionIndex = 81406;
 
 	class ChenLingFesWeekSettleValueViewModel : public ::Sofa::BaseViewModel
 	{

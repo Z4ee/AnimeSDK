@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RechargeGiftRewardStatus_TypeDefinitionIndex = 66793;
+	inline static constexpr unsigned int RechargeGiftRewardStatus_TypeDefinitionIndex = 66794;
 
 	enum class RechargeGiftRewardStatus : ::System::Int32
 	{

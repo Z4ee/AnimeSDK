@@ -2,45 +2,45 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Sofa/BaseSofaControl_1.h"
 
-class Class_0_16E4307DCC419505_677;
+class Class_0_16E4307DCC419505_769;
 namespace UnityEngine::UI { class Slider; }
 template <typename T> class Class_1_D90286A3143EECEC;
 
-#define RPG_CLIENT_AVATARHPBARCONTROL__BINDHP_OFFSET UNITYSDK_OFFSET(0x193E1B10)
-#define RPG_CLIENT_AVATARHPBARCONTROL__BINDING_OFFSET UNITYSDK_OFFSET(0x193E1AB0)
-#define RPG_CLIENT_AVATARHPBARCONTROL__BINDPLUSHP_OFFSET UNITYSDK_OFFSET(0x193E21E0)
-#define RPG_CLIENT_AVATARHPBARCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x193E2570)
+#define RPG_CLIENT_AVATARHPBARCONTROL__BINDHP_OFFSET UNITYSDK_OFFSET(0xC6ECD90)
+#define RPG_CLIENT_AVATARHPBARCONTROL__BINDING_OFFSET UNITYSDK_OFFSET(0xC6ECD30)
+#define RPG_CLIENT_AVATARHPBARCONTROL__BINDPLUSHP_OFFSET UNITYSDK_OFFSET(0xC6ED460)
+#define RPG_CLIENT_AVATARHPBARCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0xC6ED7F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AvatarHpBarControl_TypeDefinitionIndex = 60227;
+	inline static constexpr unsigned int AvatarHpBarControl_TypeDefinitionIndex = 60090;
 
-	class AvatarHpBarControl : public ::Sofa::BaseSofaControl_1<::Class_0_16E4307DCC419505_677*>
+	class AvatarHpBarControl : public ::Sofa::BaseSofaControl_1<::Class_0_16E4307DCC419505_769*>
 	{
 	public:
 		// static const ::System::Single _DangerHpRatioThreshold; // 0x0
-		::UnityEngine::UI::Slider* _HpDangerSlider; // 0x58
-		::UnityEngine::UI::Slider* _HpNormalSlider; // 0x60
-		::UnityEngine::UI::Slider* _HpPlusSlider; // 0x68
+		::UnityEngine::UI::Slider* _HpDangerSlider; // 0x70
+		::UnityEngine::UI::Slider* _HpNormalSlider; // 0x78
+		::UnityEngine::UI::Slider* _HpPlusSlider; // 0x80
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARHPBARCONTROL__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _Binding(::Class_1_D90286A3143EECEC<::Class_0_16E4307DCC419505_677*>* a1)
+		::System::Void _Binding(::Class_1_D90286A3143EECEC<::Class_0_16E4307DCC419505_769*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_D90286A3143EECEC<::Class_0_16E4307DCC419505_677*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARHPBARCONTROL__BINDING_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Class_1_D90286A3143EECEC<::Class_0_16E4307DCC419505_769*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARHPBARCONTROL__BINDING_OFFSET))(this, a1);
 		}
 
-		::System::Void _BindHp(::Class_1_D90286A3143EECEC<::Class_0_16E4307DCC419505_677*>* a1)
+		::System::Void _BindHp(::Class_1_D90286A3143EECEC<::Class_0_16E4307DCC419505_769*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_D90286A3143EECEC<::Class_0_16E4307DCC419505_677*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARHPBARCONTROL__BINDHP_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Class_1_D90286A3143EECEC<::Class_0_16E4307DCC419505_769*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARHPBARCONTROL__BINDHP_OFFSET))(this, a1);
 		}
 
-		::System::Void _BindPlusHp(::Class_1_D90286A3143EECEC<::Class_0_16E4307DCC419505_677*>* a1)
+		::System::Void _BindPlusHp(::Class_1_D90286A3143EECEC<::Class_0_16E4307DCC419505_769*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_D90286A3143EECEC<::Class_0_16E4307DCC419505_677*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARHPBARCONTROL__BINDPLUSHP_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Class_1_D90286A3143EECEC<::Class_0_16E4307DCC419505_769*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARHPBARCONTROL__BINDPLUSHP_OFFSET))(this, a1);
 		}
 	};
 }

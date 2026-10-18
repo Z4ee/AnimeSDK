@@ -7,25 +7,25 @@ namespace RPG::GameCore { class EntityLodLoadingData; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_ADVENTUREPHASECACHE_GETENTITYLODLOADINGDATA_OFFSET UNITYSDK_OFFSET(0x19405180)
-#define RPG_GAMECORE_ADVENTUREPHASECACHE_GETMESHLODPATH_OFFSET UNITYSDK_OFFSET(0x194053E0)
-#define RPG_GAMECORE_ADVENTUREPHASECACHE_RELEASEONSWITCHMAP_OFFSET UNITYSDK_OFFSET(0x194050C0)
-#define RPG_GAMECORE_ADVENTUREPHASECACHE__CCTOR_OFFSET UNITYSDK_OFFSET(0x19405600)
+#define RPG_GAMECORE_ADVENTUREPHASECACHE_GETENTITYLODLOADINGDATA_OFFSET UNITYSDK_OFFSET(0xE570D90)
+#define RPG_GAMECORE_ADVENTUREPHASECACHE_GETMESHLODPATH_OFFSET UNITYSDK_OFFSET(0xE570FF0)
+#define RPG_GAMECORE_ADVENTUREPHASECACHE_RELEASEONSWITCHMAP_OFFSET UNITYSDK_OFFSET(0xE570CD0)
+#define RPG_GAMECORE_ADVENTUREPHASECACHE__CCTOR_OFFSET UNITYSDK_OFFSET(0xE571210)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventurePhaseCache_TypeDefinitionIndex = 52546;
+	inline static constexpr unsigned int AdventurePhaseCache_TypeDefinitionIndex = 52263;
 
 	class AdventurePhaseCache : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::EntityLodLoadingData*>** StaticGet__LoadingDataCache()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::EntityLodLoadingData*>**)Il2CppClass::FromTypeDefinitionIndex(AdventurePhaseCache_TypeDefinitionIndex)->GetStaticField(0x65FD0);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::EntityLodLoadingData*>**)Il2CppClass::FromTypeDefinitionIndex(AdventurePhaseCache_TypeDefinitionIndex)->GetStaticField(0x4F800);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Int32>, ::System::String*>** StaticGet__MeshLodPathDict()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Int32>, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(AdventurePhaseCache_TypeDefinitionIndex)->GetStaticField(0x65FD8);
+			return (::System::Collections::Generic::Dictionary_2<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Int32>, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(AdventurePhaseCache_TypeDefinitionIndex)->GetStaticField(0x4F808);
 		}
 
 		static ::System::Void _cctor()

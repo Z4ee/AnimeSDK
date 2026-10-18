@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_CLOUDDEFINE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1B0410)
+#define MIHOYO_SDK_CLOUDDEFINE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC26BF0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int CloudDefine_TypeDefinitionIndex = 7889;
+	inline static constexpr unsigned int CloudDefine_TypeDefinitionIndex = 7933;
 
 	class CloudDefine : public ::System::Object
 	{
@@ -21,10 +21,6 @@ namespace MiHoYo::SDK
 		// static const ::System::String* SHARE; // 0x0
 		// static const ::System::String* HAS_FORUM; // 0x0
 		// static const ::System::String* OPEN_FORUM; // 0x0
-		// static const ::System::String* VOX_SET_ENV; // 0x0
-		// static const ::System::String* VOX_SET_USER_ID; // 0x0
-		// static const ::System::String* VOX_SET_REGION; // 0x0
-		// static const ::System::String* VOX_SET_GAMEBIZ; // 0x0
 		// static const ::System::String* SET_ENABLED; // 0x0
 		// static const ::System::String* SET_CONFIG; // 0x0
 		// static const ::System::String* SET_LAUNCH_PARAMETERS; // 0x0
@@ -42,6 +38,14 @@ namespace MiHoYo::SDK
 		// static const ::System::String* INFO_GET_CHANNEL_ID; // 0x0
 		// static const ::System::String* INFO_GET_SUB_CHANNEL_ID; // 0x0
 		// static const ::System::String* INFO_GET_DEVICE_ID; // 0x0
+		// static const ::System::String* VOX_SET_ENV; // 0x0
+		// static const ::System::String* VOX_SET_USER_ID; // 0x0
+		// static const ::System::String* VOX_SET_REGION; // 0x0
+		// static const ::System::String* VOX_SET_GAMEBIZ; // 0x0
+		// static const ::System::String* LAUNCH_SHOW_USER_AGREEMENT; // 0x0
+		// static const ::System::String* LAUNCH_SHOW_USER_AGREEMENT_WITH_PARAMETERS; // 0x0
+		// static const ::System::String* LAUNCH_SHOW_USER_AGREEMENT_WITH_PARAMETERS_COMPLIANCE; // 0x0
+		// static const ::System::String* BLOCKED_USER_AGREEMENT_RESPONSE; // 0x0
 
 		::System::Void _ctor()
 		{

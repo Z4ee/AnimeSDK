@@ -7,12 +7,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TimeRewindSpreadEffConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TIMEREWINDATTACHEFF_METHOD_2_84544CE0FDCC3441_OFFSET UNITYSDK_OFFSET(0x1D526DE0)
-#define RPG_GAMECORE_TIMEREWINDATTACHEFF__CTOR_OFFSET UNITYSDK_OFFSET(0x1D527040)
+#define RPG_GAMECORE_TIMEREWINDATTACHEFF_METHOD_2_EF408963EBBEE8A2_OFFSET UNITYSDK_OFFSET(0x1DB58D30)
+#define RPG_GAMECORE_TIMEREWINDATTACHEFF__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB590A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TimeRewindAttachEff_TypeDefinitionIndex = 16431;
+	inline static constexpr unsigned int TimeRewindAttachEff_TypeDefinitionIndex = 16607;
 
 	class TimeRewindAttachEff : public ::RPG::GameCore::JsonConfig
 	{
@@ -30,9 +30,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TIMEREWINDATTACHEFF__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_84544CE0FDCC3441(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TimeRewindAttachEff*& a2)
+		static ::System::Void Method_2_EF408963EBBEE8A2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TimeRewindAttachEff*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TimeRewindAttachEff*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TIMEREWINDATTACHEFF_METHOD_2_84544CE0FDCC3441_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TimeRewindAttachEff*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TIMEREWINDATTACHEFF_METHOD_2_EF408963EBBEE8A2_OFFSET))(a1, a2);
 		}
 	};
 }

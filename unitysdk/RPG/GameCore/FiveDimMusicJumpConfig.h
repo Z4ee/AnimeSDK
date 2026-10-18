@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIVEDIMMUSICJUMPCONFIG_METHOD_2_76D357A82E8F8E6F_OFFSET UNITYSDK_OFFSET(0x1D867930)
-#define RPG_GAMECORE_FIVEDIMMUSICJUMPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D86EF80)
+#define RPG_GAMECORE_FIVEDIMMUSICJUMPCONFIG_METHOD_2_76D357A82E8F8E6F_OFFSET UNITYSDK_OFFSET(0x1D6A0CE0)
+#define RPG_GAMECORE_FIVEDIMMUSICJUMPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6A0F50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimMusicJumpConfig_TypeDefinitionIndex = 18304;
+	inline static constexpr unsigned int FiveDimMusicJumpConfig_TypeDefinitionIndex = 18519;
 
 	class FiveDimMusicJumpConfig : public ::RPG::GameCore::JsonConfig
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::Client::RoadRash
 {
-	inline static constexpr unsigned int ERoadRashImpactShakeType_TypeDefinitionIndex = 75425;
+	inline static constexpr unsigned int ERoadRashImpactShakeType_TypeDefinitionIndex = 75840;
 
 	enum class ERoadRashImpactShakeType : ::System::Int32
 	{

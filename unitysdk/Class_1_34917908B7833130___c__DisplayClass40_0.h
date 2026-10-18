@@ -6,16 +6,16 @@ class Class_1_34917908B7833130;
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class GameObject; }
 
-#define CLASS_1_34917908B7833130___C__DISPLAYCLASS40_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A836BC0)
-#define CLASS_1_34917908B7833130___C__DISPLAYCLASS40_0___ASYNCLOADPREFAB_B__0_OFFSET UNITYSDK_OFFSET(0x1A837D00)
+#define CLASS_1_34917908B7833130___C__DISPLAYCLASS40_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15859290)
+#define CLASS_1_34917908B7833130___C__DISPLAYCLASS40_0___ASYNCLOADPREFAB_B__0_OFFSET UNITYSDK_OFFSET(0x1585A8F0)
 
-inline static constexpr unsigned int Class_1_34917908B7833130___c__DisplayClass40_0_TypeDefinitionIndex = 72942;
+inline static constexpr unsigned int Class_1_34917908B7833130___c__DisplayClass40_0_TypeDefinitionIndex = 73025;
 
 class Class_1_34917908B7833130___c__DisplayClass40_0 : public ::System::Object
 {
 public:
-	::System::Action_1<::UnityEngine::GameObject*>* callback; // 0x10
-	::Class_1_34917908B7833130* __4__this; // 0x18
+	::Class_1_34917908B7833130* __4__this; // 0x10
+	::System::Action_1<::UnityEngine::GameObject*>* callback; // 0x18
 
 	::System::Void _ctor()
 	{

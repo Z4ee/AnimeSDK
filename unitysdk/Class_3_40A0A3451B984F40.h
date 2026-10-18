@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class StopDitherClose; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_40A0A3451B984F40_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x184B8820)
-#define CLASS_3_40A0A3451B984F40__CTOR_OFFSET UNITYSDK_OFFSET(0x184B87F0)
+#define CLASS_3_40A0A3451B984F40_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xDFB4C70)
+#define CLASS_3_40A0A3451B984F40__CTOR_OFFSET UNITYSDK_OFFSET(0xDFB4C40)
 
-inline static constexpr unsigned int Class_3_40A0A3451B984F40_TypeDefinitionIndex = 53552;
+inline static constexpr unsigned int Class_3_40A0A3451B984F40_TypeDefinitionIndex = 53295;
 
 class Class_3_40A0A3451B984F40 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::StopDitherClose*>
 {

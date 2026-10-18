@@ -7,7 +7,7 @@ namespace RPG::Client { template <typename T> class TAMonoPlugin_1; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TAMonoPlugin_1___c__DisplayClass6_0_TypeDefinitionIndex = 70737;
+	inline static constexpr unsigned int TAMonoPlugin_1___c__DisplayClass6_0_TypeDefinitionIndex = 70773;
 
 	template <typename TBehavior>
 	class TAMonoPlugin_1___c__DisplayClass6_0 : public ::System::Object

@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Class_2_FB5FAC13BADBFA34_TweenAnimState_TypeDefinitionIndex = 71628;
+inline static constexpr unsigned int Class_2_FB5FAC13BADBFA34_TweenAnimState_TypeDefinitionIndex = 71681;
 
 enum class Class_2_FB5FAC13BADBFA34_TweenAnimState : ::System::Int32
 {

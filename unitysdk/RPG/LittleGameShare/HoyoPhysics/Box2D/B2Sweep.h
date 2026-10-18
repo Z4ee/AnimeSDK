@@ -4,11 +4,11 @@
 #include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2Vec2.h"
 #include "unitysdk/System/ValueType.h"
 
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2SWEEP__CTOR_OFFSET UNITYSDK_OFFSET(0x37AC450)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2SWEEP__CTOR_OFFSET UNITYSDK_OFFSET(0xF5480)
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2Sweep_TypeDefinitionIndex = 36099;
+	inline static constexpr unsigned int B2Sweep_TypeDefinitionIndex = 36786;
 
 	struct alignas(4) B2Sweep
 	{

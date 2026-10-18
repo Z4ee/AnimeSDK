@@ -5,7 +5,7 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int CPPCaptureData_TypeDefinitionIndex = 36935;
+	inline static constexpr unsigned int CPPCaptureData_TypeDefinitionIndex = 37620;
 
 	struct alignas(8) CPPCaptureData
 	{

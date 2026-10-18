@@ -6,12 +6,12 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ENVIRONMENTBLOCKSETTINGS_METHOD_3_BBD36158AE50EC8B_OFFSET UNITYSDK_OFFSET(0x1991AA60)
-#define RPG_CLIENT_ENVIRONMENTBLOCKSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1991AAD0)
+#define RPG_CLIENT_ENVIRONMENTBLOCKSETTINGS_METHOD_3_BBD36158AE50EC8B_OFFSET UNITYSDK_OFFSET(0xCDF1E80)
+#define RPG_CLIENT_ENVIRONMENTBLOCKSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0xCDF1EF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EnvironmentBlockSettings_TypeDefinitionIndex = 69741;
+	inline static constexpr unsigned int EnvironmentBlockSettings_TypeDefinitionIndex = 69776;
 
 	class EnvironmentBlockSettings : public ::UnityEngine::ScriptableObject
 	{

@@ -5,7 +5,7 @@ namespace RPG::Client::RedDot { template <typename T> class RedDotState_1; }
 
 namespace RPG::Client::RedDot
 {
-	inline static constexpr unsigned int IRedDotChecker_1_TypeDefinitionIndex = 78671;
+	inline static constexpr unsigned int IRedDotChecker_1_TypeDefinitionIndex = 79150;
 
 	template <typename TInstanceKey>
 	class IRedDotChecker_1

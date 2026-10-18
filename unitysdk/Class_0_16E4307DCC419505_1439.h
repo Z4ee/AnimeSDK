@@ -1,10 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/ChimeraBattleAnimationType.h"
 
-class Class_0_16E4307DCC419505_671;
-namespace RPG::GameCore { class MiParameterConfigBase; }
-
-inline static constexpr unsigned int Class_0_16E4307DCC419505_1439_TypeDefinitionIndex = 80773;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_1439_TypeDefinitionIndex = 77707;
 
 class Class_0_16E4307DCC419505_1439
 {

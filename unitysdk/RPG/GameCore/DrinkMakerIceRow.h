@@ -6,23 +6,23 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_DRINKMAKERICEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DB13E40)
-#define RPG_GAMECORE_DRINKMAKERICEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB14100)
+#define RPG_GAMECORE_DRINKMAKERICEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D5F2B60)
+#define RPG_GAMECORE_DRINKMAKERICEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5F2E20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DrinkMakerIceRow_TypeDefinitionIndex = 13066;
+	inline static constexpr unsigned int DrinkMakerIceRow_TypeDefinitionIndex = 13172;
 
 	class DrinkMakerIceRow : public ::System::Object
 	{
 	public:
-		::System::String* CupAnchoPath; // 0x10
-		::System::String* AudioEvent; // 0x18
-		::Il2CppArray<::System::UInt32>* IncludeTagList; // 0x20
-		::System::String* PrefabPath; // 0x28
-		::System::String* IconPath; // 0x30
-		::RPG::Client::TextID IceName; // 0x38
-		::System::UInt32 ID; // 0x48
+		::System::String* IconPath; // 0x10
+		::System::String* CupAnchoPath; // 0x18
+		::System::String* AudioEvent; // 0x20
+		::Il2CppArray<::System::UInt32>* IncludeTagList; // 0x28
+		::System::String* PrefabPath; // 0x30
+		::System::UInt32 ID; // 0x38
+		::RPG::Client::TextID IceName; // 0x40
 
 		::System::Void _ctor()
 		{

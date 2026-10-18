@@ -6,12 +6,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_CHIMERAGALLERYTALKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E33F380)
-#define RPG_GAMECORE_CHIMERAGALLERYTALKROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1E33F5C0)
+#define RPG_GAMECORE_CHIMERAGALLERYTALKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D57FBE0)
+#define RPG_GAMECORE_CHIMERAGALLERYTALKROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D57FE20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraGalleryTalkRow_TypeDefinitionIndex = 12946;
+	inline static constexpr unsigned int ChimeraGalleryTalkRow_TypeDefinitionIndex = 13052;
 
 	class ChimeraGalleryTalkRow : public ::System::Object
 	{

@@ -4,11 +4,11 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_LIMAONEWSLIMAOICONTALKOPTIONEXTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4BF010)
+#define RPG_CLIENT_LIMAONEWSLIMAOICONTALKOPTIONEXTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xD3EE380)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LimaoNewsLimaoIconTalkOptionExtData_TypeDefinitionIndex = 68036;
+	inline static constexpr unsigned int LimaoNewsLimaoIconTalkOptionExtData_TypeDefinitionIndex = 68041;
 
 	class LimaoNewsLimaoIconTalkOptionExtData : public ::System::Object
 	{

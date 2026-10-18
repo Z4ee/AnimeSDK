@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/Client/DesignDataShortNameHash.h"
 #include "unitysdk/System/ValueType.h"
 
-#define STRUCT_2_D6670131E0ADDFF3_METHOD_2_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0x3A2CCC0)
+#define STRUCT_2_D6670131E0ADDFF3_METHOD_2_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0x3C27F60)
 
-inline static constexpr unsigned int Struct_2_D6670131E0ADDFF3_TypeDefinitionIndex = 40129;
+inline static constexpr unsigned int Struct_2_D6670131E0ADDFF3_TypeDefinitionIndex = 41426;
 
 struct alignas(8) Struct_2_D6670131E0ADDFF3
 {

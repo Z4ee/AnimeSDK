@@ -7,10 +7,10 @@ class Class_1_424D497930AB4C44;
 namespace RPG::Client::PixAir { class PixAirEquipItemChangeInfo; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_BB7DDE74F5CB66C8_METHOD_1_81D4FE699CC17D37_OFFSET UNITYSDK_OFFSET(0x17FDB620)
-#define CLASS_1_BB7DDE74F5CB66C8__CTOR_OFFSET UNITYSDK_OFFSET(0x17FDB700)
+#define CLASS_1_BB7DDE74F5CB66C8_METHOD_1_81D4FE699CC17D37_OFFSET UNITYSDK_OFFSET(0x15D7F8B0)
+#define CLASS_1_BB7DDE74F5CB66C8__CTOR_OFFSET UNITYSDK_OFFSET(0x15D7F990)
 
-inline static constexpr unsigned int Class_1_BB7DDE74F5CB66C8_TypeDefinitionIndex = 78794;
+inline static constexpr unsigned int Class_1_BB7DDE74F5CB66C8_TypeDefinitionIndex = 79275;
 
 class Class_1_BB7DDE74F5CB66C8 : public ::System::Object
 {

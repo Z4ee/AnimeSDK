@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TryAsyncLoadUI; }
 
-#define CLASS_3_9C59E5C0F2F844A4_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18CEFD90)
-#define CLASS_3_9C59E5C0F2F844A4__CTOR_OFFSET UNITYSDK_OFFSET(0x18CEFD60)
+#define CLASS_3_9C59E5C0F2F844A4_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE258DB0)
+#define CLASS_3_9C59E5C0F2F844A4__CTOR_OFFSET UNITYSDK_OFFSET(0xE258D80)
 
-inline static constexpr unsigned int Class_3_9C59E5C0F2F844A4_TypeDefinitionIndex = 53712;
+inline static constexpr unsigned int Class_3_9C59E5C0F2F844A4_TypeDefinitionIndex = 53456;
 
 class Class_3_9C59E5C0F2F844A4 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::TryAsyncLoadUI*>
 {

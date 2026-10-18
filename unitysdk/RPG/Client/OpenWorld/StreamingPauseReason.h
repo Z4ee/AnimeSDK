@@ -3,7 +3,7 @@
 
 namespace RPG::Client::OpenWorld
 {
-	inline static constexpr unsigned int StreamingPauseReason_TypeDefinitionIndex = 73762;
+	inline static constexpr unsigned int StreamingPauseReason_TypeDefinitionIndex = 73869;
 
 	enum class StreamingPauseReason : ::System::Int32
 	{

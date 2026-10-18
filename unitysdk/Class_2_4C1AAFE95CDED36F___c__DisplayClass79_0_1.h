@@ -7,7 +7,7 @@ namespace RPG::Client { class IAssetOperation; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace UnityEngine { class Object; }
 
-inline static constexpr unsigned int Class_2_4C1AAFE95CDED36F___c__DisplayClass79_0_1_TypeDefinitionIndex = 57315;
+inline static constexpr unsigned int Class_2_4C1AAFE95CDED36F___c__DisplayClass79_0_1_TypeDefinitionIndex = 57151;
 
 template <typename T>
 class Class_2_4C1AAFE95CDED36F___c__DisplayClass79_0_1 : public ::System::Object

@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Class_1_20515B5B50CCC381_1_LightMethod_TypeDefinitionIndex = 47834;
+inline static constexpr unsigned int Class_1_20515B5B50CCC381_1_LightMethod_TypeDefinitionIndex = 47374;
 
 enum class Class_1_20515B5B50CCC381_1_LightMethod : ::System::Int32
 {

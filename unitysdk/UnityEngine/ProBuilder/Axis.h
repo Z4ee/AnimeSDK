@@ -3,7 +3,7 @@
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int Axis_TypeDefinitionIndex = 43202;
+	inline static constexpr unsigned int Axis_TypeDefinitionIndex = 44394;
 
 	enum class Axis : ::System::Int32
 	{

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByCurrentTurnState; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_F9B16DB30A02C30D_EVALUATE_OFFSET UNITYSDK_OFFSET(0x163E8150)
-#define CLASS_3_F9B16DB30A02C30D__CTOR_OFFSET UNITYSDK_OFFSET(0x163E8120)
+#define CLASS_3_F9B16DB30A02C30D_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC2184B0)
+#define CLASS_3_F9B16DB30A02C30D__CTOR_OFFSET UNITYSDK_OFFSET(0xC218480)
 
-inline static constexpr unsigned int Class_3_F9B16DB30A02C30D_TypeDefinitionIndex = 55103;
+inline static constexpr unsigned int Class_3_F9B16DB30A02C30D_TypeDefinitionIndex = 54894;
 
 class Class_3_F9B16DB30A02C30D : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByCurrentTurnState*>
 {

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ModifyAddModifierBindValue; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_1BBD4D97587294B9_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A6D6E30)
-#define CLASS_3_1BBD4D97587294B9__CTOR_OFFSET UNITYSDK_OFFSET(0x1A6D6E00)
+#define CLASS_3_1BBD4D97587294B9_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x155C07B0)
+#define CLASS_3_1BBD4D97587294B9__CTOR_OFFSET UNITYSDK_OFFSET(0x155C0780)
 
-inline static constexpr unsigned int Class_3_1BBD4D97587294B9_TypeDefinitionIndex = 55391;
+inline static constexpr unsigned int Class_3_1BBD4D97587294B9_TypeDefinitionIndex = 55188;
 
 class Class_3_1BBD4D97587294B9 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ModifyAddModifierBindValue*>
 {

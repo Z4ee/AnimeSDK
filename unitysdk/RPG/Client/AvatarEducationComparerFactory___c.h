@@ -5,24 +5,24 @@
 namespace RPG::AvatarSystem { class IAvatar; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_AVATAREDUCATIONCOMPARERFACTORY___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x193BFF00)
-#define RPG_CLIENT_AVATAREDUCATIONCOMPARERFACTORY___C__CREATEFORHIGHLIGHT_B__0_0_OFFSET UNITYSDK_OFFSET(0x193BFF50)
-#define RPG_CLIENT_AVATAREDUCATIONCOMPARERFACTORY___C__CTOR_OFFSET UNITYSDK_OFFSET(0x193BFF40)
+#define RPG_CLIENT_AVATAREDUCATIONCOMPARERFACTORY___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC6CA860)
+#define RPG_CLIENT_AVATAREDUCATIONCOMPARERFACTORY___C__CREATEFORHIGHLIGHT_B__0_0_OFFSET UNITYSDK_OFFSET(0xC6CA8B0)
+#define RPG_CLIENT_AVATAREDUCATIONCOMPARERFACTORY___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC6CA8A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AvatarEducationComparerFactory___c_TypeDefinitionIndex = 62545;
+	inline static constexpr unsigned int AvatarEducationComparerFactory___c_TypeDefinitionIndex = 62462;
 
 	class AvatarEducationComparerFactory___c : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::AvatarEducationComparerFactory___c** StaticGet___9()
 		{
-			return (::RPG::Client::AvatarEducationComparerFactory___c**)Il2CppClass::FromTypeDefinitionIndex(AvatarEducationComparerFactory___c_TypeDefinitionIndex)->GetStaticField(0x658E0);
+			return (::RPG::Client::AvatarEducationComparerFactory___c**)Il2CppClass::FromTypeDefinitionIndex(AvatarEducationComparerFactory___c_TypeDefinitionIndex)->GetStaticField(0x4C210);
 		}
 		static ::System::Func_2<::RPG::AvatarSystem::IAvatar*, ::System::Boolean>** StaticGet___9__0_0()
 		{
-			return (::System::Func_2<::RPG::AvatarSystem::IAvatar*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(AvatarEducationComparerFactory___c_TypeDefinitionIndex)->GetStaticField(0x658E8);
+			return (::System::Func_2<::RPG::AvatarSystem::IAvatar*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(AvatarEducationComparerFactory___c_TypeDefinitionIndex)->GetStaticField(0x4C218);
 		}
 
 		static ::System::Void _cctor()

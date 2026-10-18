@@ -8,10 +8,10 @@ namespace RPG::Client::ActivityIdleLive { class IIdleLiveAvatarData; }
 namespace RPG::Client::ActivityIdleLive { class IdleLiveBaseTeamInfo; }
 namespace RPG::Client::ActivityIdleLive { class SpEquipSlotInfo; }
 
-#define CLASS_2_F381088144B39337_BUILD_OFFSET UNITYSDK_OFFSET(0x178C97A0)
-#define CLASS_2_F381088144B39337__CTOR_OFFSET UNITYSDK_OFFSET(0x178C9780)
+#define CLASS_2_F381088144B39337_BUILD_OFFSET UNITYSDK_OFFSET(0xCEFCEA0)
+#define CLASS_2_F381088144B39337__CTOR_OFFSET UNITYSDK_OFFSET(0xCEFCE80)
 
-inline static constexpr unsigned int Class_2_F381088144B39337_TypeDefinitionIndex = 74833;
+inline static constexpr unsigned int Class_2_F381088144B39337_TypeDefinitionIndex = 75133;
 
 class Class_2_F381088144B39337 : public ::RPG::Client::ActivityIdleLive::IdleLiveModifierBuilder_1<::RPG::Client::ActivityIdleLive::IdleLiveDecimal>
 {

@@ -3,7 +3,7 @@
 
 namespace CriWare::CriMana
 {
-	inline static constexpr unsigned int Player_MovieEventSyncMode_TypeDefinitionIndex = 38920;
+	inline static constexpr unsigned int Player_MovieEventSyncMode_TypeDefinitionIndex = 40217;
 
 	enum class Player_MovieEventSyncMode : ::System::Int32
 	{

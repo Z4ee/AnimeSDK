@@ -6,15 +6,15 @@
 class AkCallbackInfo;
 namespace UnityEngine { class GameObject; }
 
-#define AKEVENTCALLBACKMSG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D59A130)
+#define AKEVENTCALLBACKMSG__CTOR_OFFSET UNITYSDK_OFFSET(0x1F5622F0)
 
-inline static constexpr unsigned int AkEventCallbackMsg_TypeDefinitionIndex = 43729;
+inline static constexpr unsigned int AkEventCallbackMsg_TypeDefinitionIndex = 44921;
 
 class AkEventCallbackMsg : public ::System::Object
 {
 public:
-	::UnityEngine::GameObject* sender; // 0x10
-	::AkCallbackInfo* info; // 0x18
+	::AkCallbackInfo* info; // 0x10
+	::UnityEngine::GameObject* sender; // 0x18
 	::AkCallbackType type; // 0x20
 
 	::System::Void _ctor()

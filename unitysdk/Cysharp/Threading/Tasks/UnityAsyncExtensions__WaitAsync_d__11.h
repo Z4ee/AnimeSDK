@@ -9,20 +9,20 @@
 
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define CYSHARP_THREADING_TASKS_UNITYASYNCEXTENSIONS__WAITASYNC_D__11_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x3BB8280)
-#define CYSHARP_THREADING_TASKS_UNITYASYNCEXTENSIONS__WAITASYNC_D__11_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x10F00)
+#define CYSHARP_THREADING_TASKS_UNITYASYNCEXTENSIONS__WAITASYNC_D__11_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x3C5FA60)
+#define CYSHARP_THREADING_TASKS_UNITYASYNCEXTENSIONS__WAITASYNC_D__11_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x10B0)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UnityAsyncExtensions__WaitAsync_d__11_TypeDefinitionIndex = 42886;
+	inline static constexpr unsigned int UnityAsyncExtensions__WaitAsync_d__11_TypeDefinitionIndex = 38471;
 
 	struct alignas(8) UnityAsyncExtensions__WaitAsync_d__11
 	{
-		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder __t__builder; // 0x10
-		::System::Threading::CancellationToken cancellationToken; // 0x20
-		::Cysharp::Threading::Tasks::YieldAwaitable_Awaiter __u__1; // 0x28
+		::System::Threading::CancellationToken cancellationToken; // 0x10
+		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder __t__builder; // 0x18
+		::Cysharp::Threading::Tasks::PlayerLoopTiming waitTiming; // 0x28
 		::System::Int32 __1__state; // 0x2C
-		::Cysharp::Threading::Tasks::PlayerLoopTiming waitTiming; // 0x30
+		::Cysharp::Threading::Tasks::YieldAwaitable_Awaiter __u__1; // 0x30
 		::Unity::Jobs::JobHandle jobHandle; // 0x38
 
 		::System::Void MoveNext()

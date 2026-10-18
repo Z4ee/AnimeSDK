@@ -1,23 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_43BD383C98B4C0C5_213.h"
+#include "unitysdk/Class_1_43BD383C98B4C0C5_215.h"
 #include "unitysdk/System/Nullable_1.h"
 
 class Class_1_F9FBCC956DFCF137_27;
 class Class_1_FD611945730E269E;
 namespace RPG::GameCore { class ChimeraDuelSwapPositionNode; }
 
-#define CLASS_2_48960C526AFA0F72_METHOD_2_98FE8344617B99D4_OFFSET UNITYSDK_OFFSET(0x184BADF0)
-#define CLASS_2_48960C526AFA0F72__CTOR_OFFSET UNITYSDK_OFFSET(0x184BAE90)
+#define CLASS_2_48960C526AFA0F72_METHOD_2_98FE8344617B99D4_OFFSET UNITYSDK_OFFSET(0xDFB7260)
+#define CLASS_2_48960C526AFA0F72__CTOR_OFFSET UNITYSDK_OFFSET(0xDFB7300)
 
-inline static constexpr unsigned int Class_2_48960C526AFA0F72_TypeDefinitionIndex = 77226;
+inline static constexpr unsigned int Class_2_48960C526AFA0F72_TypeDefinitionIndex = 77697;
 
-class Class_2_48960C526AFA0F72 : public ::Class_1_43BD383C98B4C0C5_213
+class Class_2_48960C526AFA0F72 : public ::Class_1_43BD383C98B4C0C5_215
 {
 public:
 	::RPG::GameCore::ChimeraDuelSwapPositionNode* EABKOHGCHFP; // 0x10
-	::System::Nullable_1<::System::Int32> OLCHHDKKPLI; // 0x18
-	::System::Nullable_1<::System::Int32> ICGKFDEILKA; // 0x20
+	::System::Nullable_1<::System::Int32> ICGKFDEILKA; // 0x18
+	::System::Nullable_1<::System::Int32> OLCHHDKKPLI; // 0x20
 
 	::System::Void _ctor()
 	{

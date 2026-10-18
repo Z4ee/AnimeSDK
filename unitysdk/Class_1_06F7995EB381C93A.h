@@ -5,23 +5,23 @@
 class Class_1_7807B2B04302CD7B_32;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_06F7995EB381C93A_CLEAR_OFFSET UNITYSDK_OFFSET(0x15819B10)
-#define CLASS_1_06F7995EB381C93A_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15819E20)
-#define CLASS_1_06F7995EB381C93A__CTOR_OFFSET UNITYSDK_OFFSET(0x15819E90)
+#define CLASS_1_06F7995EB381C93A_CLEAR_OFFSET UNITYSDK_OFFSET(0xCC8D670)
+#define CLASS_1_06F7995EB381C93A_DISPOSE_OFFSET UNITYSDK_OFFSET(0xCC8D980)
+#define CLASS_1_06F7995EB381C93A__CTOR_OFFSET UNITYSDK_OFFSET(0xCC8D9F0)
 
-inline static constexpr unsigned int Class_1_06F7995EB381C93A_TypeDefinitionIndex = 67552;
+inline static constexpr unsigned int Class_1_06F7995EB381C93A_TypeDefinitionIndex = 67554;
 
 class Class_1_06F7995EB381C93A : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::Class_1_7807B2B04302CD7B_32*>* KDNCHAPIFME; // 0x10
-	::System::Collections::Generic::List_1<::System::UInt32>* KNIGNIIIBIE; // 0x18
-	::System::Collections::Generic::List_1<::System::UInt32>* IENDLNEPDBB; // 0x20
-	::System::Collections::Generic::List_1<::System::UInt32>* EEKLCEMHPDP; // 0x28
-	::System::Collections::Generic::List_1<::System::UInt32>* AHHGCGNNOCC; // 0x30
+	::System::Collections::Generic::List_1<::System::UInt32>* IENDLNEPDBB; // 0x10
+	::System::Collections::Generic::List_1<::System::UInt32>* EEKLCEMHPDP; // 0x18
+	::System::Collections::Generic::List_1<::System::UInt32>* AHHGCGNNOCC; // 0x20
+	::System::Collections::Generic::List_1<::System::UInt32>* KNIGNIIIBIE; // 0x28
+	::System::Collections::Generic::List_1<::Class_1_7807B2B04302CD7B_32*>* KDNCHAPIFME; // 0x30
 	::System::UInt32 NDPOIKOIFFM; // 0x38
-	::System::UInt32 JDPPODLLEAN; // 0x3C
-	::System::UInt32 EHCDPMAMHGK; // 0x40
+	::System::UInt32 EHCDPMAMHGK; // 0x3C
+	::System::UInt32 JDPPODLLEAN; // 0x40
 
 	::System::Void _ctor()
 	{

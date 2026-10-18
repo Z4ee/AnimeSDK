@@ -2,24 +2,31 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/ImmediateTaskBase_1.h"
 
-class Class_3_6BA10DC46C47290E_11;
+class Class_3_AEB473993EF0DACB;
+namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_27518451A20BB161_211_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16CCC0F0)
-#define CLASS_3_27518451A20BB161_211__CTOR_OFFSET UNITYSDK_OFFSET(0x16CCC0C0)
+#define CLASS_3_27518451A20BB161_211_METHOD_3_67C7CE7CDAA79B6E_OFFSET UNITYSDK_OFFSET(0xBCC0FD0)
+#define CLASS_3_27518451A20BB161_211_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBCC0D90)
+#define CLASS_3_27518451A20BB161_211__CTOR_OFFSET UNITYSDK_OFFSET(0xBCC0D60)
 
-inline static constexpr unsigned int Class_3_27518451A20BB161_211_TypeDefinitionIndex = 55468;
+inline static constexpr unsigned int Class_3_27518451A20BB161_211_TypeDefinitionIndex = 55223;
 
-class Class_3_27518451A20BB161_211 : public ::RPG::GameCore::ImmediateTaskBase_1<::Class_3_6BA10DC46C47290E_11*>
+class Class_3_27518451A20BB161_211 : public ::RPG::GameCore::ImmediateTaskBase_1<::Class_3_AEB473993EF0DACB*>
 {
 public:
-	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::Class_3_6BA10DC46C47290E_11* a2)
+	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::Class_3_AEB473993EF0DACB* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::Class_3_6BA10DC46C47290E_11*))((::PBYTE)hIl2Cpp + CLASS_3_27518451A20BB161_211__CTOR_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::Class_3_AEB473993EF0DACB*))((::PBYTE)hIl2Cpp + CLASS_3_27518451A20BB161_211__CTOR_OFFSET))(this, a1, a2);
 	}
 
 	::System::Void OnTaskBegin()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_27518451A20BB161_211_ONTASKBEGIN_OFFSET))(this);
+	}
+
+	::System::Boolean Method_3_67C7CE7CDAA79B6E(::RPG::GameCore::GameEntity* a1)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + CLASS_3_27518451A20BB161_211_METHOD_3_67C7CE7CDAA79B6E_OFFSET))(this, a1);
 	}
 };

@@ -6,21 +6,21 @@
 namespace System { class Action; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define CLASS_1_96057A1FFF160C58__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE0ABE0)
+#define CLASS_1_96057A1FFF160C58__CTOR_OFFSET UNITYSDK_OFFSET(0x1C889D20)
 
-inline static constexpr unsigned int Class_1_96057A1FFF160C58_TypeDefinitionIndex = 42084;
+inline static constexpr unsigned int Class_1_96057A1FFF160C58_TypeDefinitionIndex = 43726;
 
 class Class_1_96057A1FFF160C58 : public ::System::Object
 {
 public:
 	::System::Action* DPANHIICMLD; // 0x10
 	::UnityEngine::AnimationCurve* HDLKELNBCNL; // 0x18
-	::System::Single AEFONDFPGEI; // 0x20
-	::System::Single FAFBLAFJGJD; // 0x24
-	::System::Single HKOANFBDPCK; // 0x28
-	::UnityEngine::Vector3 DLKMKNFJLIK; // 0x2C
-	::System::Single IEHPFADHJFD; // 0x38
-	::UnityEngine::Vector3 EKKNKFAGHLE; // 0x3C
+	::System::Single HKOANFBDPCK; // 0x20
+	::UnityEngine::Vector3 EKKNKFAGHLE; // 0x24
+	::System::Single FAFBLAFJGJD; // 0x30
+	::System::Single AEFONDFPGEI; // 0x34
+	::UnityEngine::Vector3 DLKMKNFJLIK; // 0x38
+	::System::Single IEHPFADHJFD; // 0x44
 	::System::Single NKICNCOLGFF; // 0x48
 
 	::System::Void _ctor()

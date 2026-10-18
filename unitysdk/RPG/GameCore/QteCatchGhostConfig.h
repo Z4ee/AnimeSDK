@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_QTECATCHGHOSTCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D18C1A0)
-#define RPG_GAMECORE_QTECATCHGHOSTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D18C510)
+#define RPG_GAMECORE_QTECATCHGHOSTCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D930DB0)
+#define RPG_GAMECORE_QTECATCHGHOSTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D931120)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int QteCatchGhostConfig_TypeDefinitionIndex = 17377;
+	inline static constexpr unsigned int QteCatchGhostConfig_TypeDefinitionIndex = 17588;
 
 	class QteCatchGhostConfig : public ::RPG::GameCore::JsonConfig
 	{

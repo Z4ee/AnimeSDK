@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define UNITYENGINE_BINDINGS_UNMARSHALLEDATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F00F840)
+#define UNITYENGINE_BINDINGS_UNMARSHALLEDATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F46F420)
 
 namespace UnityEngine::Bindings
 {
-	inline static constexpr unsigned int UnmarshalledAttribute_TypeDefinitionIndex = 3730;
+	inline static constexpr unsigned int UnmarshalledAttribute_TypeDefinitionIndex = 3731;
 
 	class UnmarshalledAttribute : public ::System::Attribute
 	{

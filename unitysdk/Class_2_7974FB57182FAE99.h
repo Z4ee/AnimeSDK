@@ -5,16 +5,16 @@
 class Class_1_D8BECDCE48063EC7;
 namespace RPG::GameCore { class DiceCombatTaskConfig_MarkWeatherInEffect; }
 
-#define CLASS_2_7974FB57182FAE99_METHOD_2_EDFD49C942C75D6C_OFFSET UNITYSDK_OFFSET(0x1AAF97C0)
-#define CLASS_2_7974FB57182FAE99__CTOR_OFFSET UNITYSDK_OFFSET(0x1AAF97B0)
+#define CLASS_2_7974FB57182FAE99_METHOD_2_EDFD49C942C75D6C_OFFSET UNITYSDK_OFFSET(0x1C6C7140)
+#define CLASS_2_7974FB57182FAE99__CTOR_OFFSET UNITYSDK_OFFSET(0x1C6C7130)
 
-inline static constexpr unsigned int Class_2_7974FB57182FAE99_TypeDefinitionIndex = 35607;
+inline static constexpr unsigned int Class_2_7974FB57182FAE99_TypeDefinitionIndex = 36294;
 
 class Class_2_7974FB57182FAE99 : public ::Class_1_B55037134F9E6688
 {
 public:
-	::Class_1_D8BECDCE48063EC7* EEFMDEHLLFI; // 0x18
-	::RPG::GameCore::DiceCombatTaskConfig_MarkWeatherInEffect* IGHAHBNLIJA; // 0x20
+	::RPG::GameCore::DiceCombatTaskConfig_MarkWeatherInEffect* IGHAHBNLIJA; // 0x18
+	::Class_1_D8BECDCE48063EC7* EEFMDEHLLFI; // 0x20
 
 	::System::Void _ctor(::RPG::GameCore::DiceCombatTaskConfig_MarkWeatherInEffect* a1, ::Class_1_D8BECDCE48063EC7* a2)
 	{

@@ -3,10 +3,10 @@
 #include "unitysdk/Struct_2_F8D9CEC872B937AF.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_110;
-class Class_0_16E4307DCC419505_111;
-class Class_0_16E4307DCC419505_115;
-class Class_0_16E4307DCC419505_116;
+class Class_0_16E4307DCC419505_181;
+class Class_0_16E4307DCC419505_182;
+class Class_0_16E4307DCC419505_186;
+class Class_0_16E4307DCC419505_187;
 namespace Entitas { class IContext; }
 namespace Entitas { class IEntity; }
 namespace Entitas { template <typename T> class IContext_1; }
@@ -19,7 +19,7 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int SimpleViewService_1_TypeDefinitionIndex = 76049;
+	inline static constexpr unsigned int SimpleViewService_1_TypeDefinitionIndex = 76526;
 
 	template <typename TEntity>
 	class SimpleViewService_1 : public ::System::Object

@@ -5,12 +5,12 @@
 
 namespace UnityEngine { class Transform; }
 
-#define ROOTMOTION_FINALIK_IKSOLVER_TIPPOINT_GET_TIPPOSITION_OFFSET UNITYSDK_OFFSET(0x196A17D0)
-#define ROOTMOTION_FINALIK_IKSOLVER_TIPPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x196AA9C0)
+#define ROOTMOTION_FINALIK_IKSOLVER_TIPPOINT_GET_TIPPOSITION_OFFSET UNITYSDK_OFFSET(0xB0A8630)
+#define ROOTMOTION_FINALIK_IKSOLVER_TIPPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0xB0B1DF0)
 
 namespace RootMotion::FinalIK
 {
-	inline static constexpr unsigned int IKSolver_TipPoint_TypeDefinitionIndex = 44875;
+	inline static constexpr unsigned int IKSolver_TipPoint_TypeDefinitionIndex = 46014;
 
 	class IKSolver_TipPoint : public ::System::Object
 	{

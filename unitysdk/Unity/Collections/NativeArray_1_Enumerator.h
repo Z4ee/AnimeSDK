@@ -7,7 +7,7 @@ namespace System { class Object; }
 
 namespace Unity::Collections
 {
-	inline static constexpr unsigned int NativeArray_1_Enumerator_TypeDefinitionIndex = 3988;
+	inline static constexpr unsigned int NativeArray_1_Enumerator_TypeDefinitionIndex = 3989;
 
 	template <typename T>
 	struct NativeArray_1_Enumerator

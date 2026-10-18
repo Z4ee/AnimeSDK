@@ -4,12 +4,12 @@
 
 namespace RPG::Client::Promises { class Promise; }
 
-#define RPG_CLIENT_UI3DTRANSITION___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16FE5BC0)
-#define RPG_CLIENT_UI3DTRANSITION___C__DISPLAYCLASS6_0___WAITFOR_B__0_OFFSET UNITYSDK_OFFSET(0x16FE5BD0)
+#define RPG_CLIENT_UI3DTRANSITION___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0xE35D060)
+#define RPG_CLIENT_UI3DTRANSITION___C__DISPLAYCLASS6_0___WAITFOR_B__0_OFFSET UNITYSDK_OFFSET(0xE35D8A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UI3DTransition___c__DisplayClass6_0_TypeDefinitionIndex = 72929;
+	inline static constexpr unsigned int UI3DTransition___c__DisplayClass6_0_TypeDefinitionIndex = 73012;
 
 	class UI3DTransition___c__DisplayClass6_0 : public ::System::Object
 	{

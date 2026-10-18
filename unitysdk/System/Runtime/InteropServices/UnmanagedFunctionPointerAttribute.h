@@ -4,7 +4,7 @@
 #include "unitysdk/System/Runtime/InteropServices/CallingConvention.h"
 #include "unitysdk/System/Runtime/InteropServices/CharSet.h"
 
-#define SYSTEM_RUNTIME_INTEROPSERVICES_UNMANAGEDFUNCTIONPOINTERATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C45A210)
+#define SYSTEM_RUNTIME_INTEROPSERVICES_UNMANAGEDFUNCTIONPOINTERATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C29CC70)
 
 namespace System::Runtime::InteropServices
 {
@@ -15,9 +15,9 @@ namespace System::Runtime::InteropServices
 	public:
 		::System::Runtime::InteropServices::CallingConvention m_callingConvention; // 0x10
 		::System::Runtime::InteropServices::CharSet CharSet; // 0x14
-		::System::Boolean SetLastError; // 0x18
-		::System::Boolean BestFitMapping; // 0x19
-		::System::Boolean ThrowOnUnmappableChar; // 0x1A
+		::System::Boolean BestFitMapping; // 0x18
+		::System::Boolean ThrowOnUnmappableChar; // 0x19
+		::System::Boolean SetLastError; // 0x1A
 
 		::System::Void _ctor(::System::Runtime::InteropServices::CallingConvention a1)
 		{

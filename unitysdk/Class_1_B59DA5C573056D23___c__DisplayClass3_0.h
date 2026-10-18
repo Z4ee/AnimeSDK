@@ -7,16 +7,16 @@ class Class_1_5AD3EC2EA1B1D5CD;
 class Class_1_B59DA5C573056D23;
 namespace RPG::Client::Promises { class IPromise; }
 
-#define CLASS_1_B59DA5C573056D23___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1764CC20)
-#define CLASS_1_B59DA5C573056D23___C__DISPLAYCLASS3_0__DEVELOPCARASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x1764EB70)
+#define CLASS_1_B59DA5C573056D23___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15BA65E0)
+#define CLASS_1_B59DA5C573056D23___C__DISPLAYCLASS3_0__DEVELOPCARASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x15BA8520)
 
-inline static constexpr unsigned int Class_1_B59DA5C573056D23___c__DisplayClass3_0_TypeDefinitionIndex = 80483;
+inline static constexpr unsigned int Class_1_B59DA5C573056D23___c__DisplayClass3_0_TypeDefinitionIndex = 81811;
 
 class Class_1_B59DA5C573056D23___c__DisplayClass3_0 : public ::System::Object
 {
 public:
-	::Class_1_B59DA5C573056D23* __4__this; // 0x10
-	::Class_1_5AD3EC2EA1B1D5CD* carBeforeDevelop; // 0x18
+	::Class_1_5AD3EC2EA1B1D5CD* carBeforeDevelop; // 0x10
+	::Class_1_B59DA5C573056D23* __4__this; // 0x18
 
 	::System::Void _ctor()
 	{

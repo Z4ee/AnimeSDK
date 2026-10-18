@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChallengeBossInfoPanelState_TypeDefinitionIndex = 24434;
+	inline static constexpr unsigned int ChallengeBossInfoPanelState_TypeDefinitionIndex = 24715;
 
 	enum class ChallengeBossInfoPanelState : ::System::Int32
 	{

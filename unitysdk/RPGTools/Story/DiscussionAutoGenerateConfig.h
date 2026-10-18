@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/ScriptableObject.h"
 
-#define RPGTOOLS_STORY_DISCUSSIONAUTOGENERATECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B529530)
+#define RPGTOOLS_STORY_DISCUSSIONAUTOGENERATECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xE89E690)
 
 namespace RPGTools::Story
 {
-	inline static constexpr unsigned int DiscussionAutoGenerateConfig_TypeDefinitionIndex = 49390;
+	inline static constexpr unsigned int DiscussionAutoGenerateConfig_TypeDefinitionIndex = 48964;
 
 	class DiscussionAutoGenerateConfig : public ::UnityEngine::ScriptableObject
 	{

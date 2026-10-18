@@ -6,18 +6,18 @@ namespace MiHoYo::SDK { class Tooltip; }
 namespace System { class String; }
 namespace UnityEngine { class RectTransform; }
 
-#define MIHOYO_SDK_TOOLTIP___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9BCF40)
-#define MIHOYO_SDK_TOOLTIP___C__DISPLAYCLASS12_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1B9BCFA0)
+#define MIHOYO_SDK_TOOLTIP___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BFB8FC0)
+#define MIHOYO_SDK_TOOLTIP___C__DISPLAYCLASS12_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1BFB9020)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int Tooltip___c__DisplayClass12_0_TypeDefinitionIndex = 7975;
+	inline static constexpr unsigned int Tooltip___c__DisplayClass12_0_TypeDefinitionIndex = 8018;
 
 	class Tooltip___c__DisplayClass12_0 : public ::System::Object
 	{
 	public:
-		::System::String* content; // 0x10
-		::UnityEngine::RectTransform* ownerTransform; // 0x18
+		::UnityEngine::RectTransform* ownerTransform; // 0x10
+		::System::String* content; // 0x18
 
 		::System::Void _ctor()
 		{

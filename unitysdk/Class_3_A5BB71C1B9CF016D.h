@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class VCameraNoiseCloseForBattleDataView; }
 
-#define CLASS_3_A5BB71C1B9CF016D_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1845A520)
-#define CLASS_3_A5BB71C1B9CF016D__CTOR_OFFSET UNITYSDK_OFFSET(0x1845A4F0)
+#define CLASS_3_A5BB71C1B9CF016D_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB59A790)
+#define CLASS_3_A5BB71C1B9CF016D__CTOR_OFFSET UNITYSDK_OFFSET(0xB59A760)
 
-inline static constexpr unsigned int Class_3_A5BB71C1B9CF016D_TypeDefinitionIndex = 55988;
+inline static constexpr unsigned int Class_3_A5BB71C1B9CF016D_TypeDefinitionIndex = 55800;
 
 class Class_3_A5BB71C1B9CF016D : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::VCameraNoiseCloseForBattleDataView*>
 {

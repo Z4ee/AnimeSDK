@@ -6,23 +6,23 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHENLINGPRIVILEGEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E01A370)
-#define RPG_GAMECORE_CHENLINGPRIVILEGEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1E01A670)
+#define RPG_GAMECORE_CHENLINGPRIVILEGEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D565C90)
+#define RPG_GAMECORE_CHENLINGPRIVILEGEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D565F90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingPrivilegeRow_TypeDefinitionIndex = 11068;
+	inline static constexpr unsigned int ChenLingPrivilegeRow_TypeDefinitionIndex = 11084;
 
 	class ChenLingPrivilegeRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* NextIDList; // 0x10
-		::System::String* IconPath; // 0x18
-		::RPG::Client::TextID Name; // 0x20
-		::RPG::Client::TextID SkillDesc; // 0x30
-		::System::UInt32 Cost; // 0x40
-		::System::UInt32 ID; // 0x44
-		::System::UInt32 EffectID; // 0x48
+		::System::String* IconPath; // 0x10
+		::Il2CppArray<::System::UInt32>* NextIDList; // 0x18
+		::System::UInt32 EffectID; // 0x20
+		::RPG::Client::TextID SkillDesc; // 0x28
+		::System::UInt32 ID; // 0x38
+		::System::UInt32 Cost; // 0x3C
+		::RPG::Client::TextID Name; // 0x40
 
 		::System::Void _ctor()
 		{

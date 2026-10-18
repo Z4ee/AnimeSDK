@@ -4,20 +4,20 @@
 
 namespace Proto { class SavePointsInfoNotify; }
 
-#define PROTO_SAVEPOINTSINFONOTIFY___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DD51B70)
-#define PROTO_SAVEPOINTSINFONOTIFY___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD51BB0)
-#define PROTO_SAVEPOINTSINFONOTIFY___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1DD51BC0)
+#define PROTO_SAVEPOINTSINFONOTIFY___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DFE3430)
+#define PROTO_SAVEPOINTSINFONOTIFY___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1DFE3470)
+#define PROTO_SAVEPOINTSINFONOTIFY___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1DFE3480)
 
 namespace Proto
 {
-	inline static constexpr unsigned int SavePointsInfoNotify___c_TypeDefinitionIndex = 33378;
+	inline static constexpr unsigned int SavePointsInfoNotify___c_TypeDefinitionIndex = 34028;
 
 	class SavePointsInfoNotify___c : public ::System::Object
 	{
 	public:
 		static ::Proto::SavePointsInfoNotify___c** StaticGet___9()
 		{
-			return (::Proto::SavePointsInfoNotify___c**)Il2CppClass::FromTypeDefinitionIndex(SavePointsInfoNotify___c_TypeDefinitionIndex)->GetStaticField(0x5C840);
+			return (::Proto::SavePointsInfoNotify___c**)Il2CppClass::FromTypeDefinitionIndex(SavePointsInfoNotify___c_TypeDefinitionIndex)->GetStaticField(0x4EA50);
 		}
 
 		static ::System::Void _cctor()

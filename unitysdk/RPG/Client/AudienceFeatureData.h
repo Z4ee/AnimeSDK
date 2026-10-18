@@ -6,12 +6,12 @@
 namespace RPG::Client { class AudiencePrefabConfig; }
 namespace System { class String; }
 
-#define RPG_CLIENT_AUDIENCEFEATUREDATA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1B33CE20)
-#define RPG_CLIENT_AUDIENCEFEATUREDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B33CF30)
+#define RPG_CLIENT_AUDIENCEFEATUREDATA_TOSTRING_OFFSET UNITYSDK_OFFSET(0xC6A4420)
+#define RPG_CLIENT_AUDIENCEFEATUREDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xC6A4530)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AudienceFeatureData_TypeDefinitionIndex = 69087;
+	inline static constexpr unsigned int AudienceFeatureData_TypeDefinitionIndex = 69123;
 
 	class AudienceFeatureData : public ::System::Object
 	{

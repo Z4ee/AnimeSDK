@@ -3,7 +3,7 @@
 
 namespace SRDebugger::UI::Tabs
 {
-	inline static constexpr unsigned int ConsoleTabController_CopyToClipboardStates_TypeDefinitionIndex = 37294;
+	inline static constexpr unsigned int ConsoleTabController_CopyToClipboardStates_TypeDefinitionIndex = 37987;
 
 	enum class ConsoleTabController_CopyToClipboardStates : ::System::Int32
 	{

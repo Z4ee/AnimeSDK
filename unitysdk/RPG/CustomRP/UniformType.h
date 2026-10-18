@@ -3,7 +3,7 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int UniformType_TypeDefinitionIndex = 37069;
+	inline static constexpr unsigned int UniformType_TypeDefinitionIndex = 37754;
 
 	enum class UniformType : ::System::Byte
 	{

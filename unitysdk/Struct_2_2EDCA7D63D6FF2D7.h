@@ -9,10 +9,10 @@ namespace RPG::GameCore { class BaseLittleGameAbilityEffectConfig; }
 namespace RPG::GameCore { class BaseLittleGameAbilityTargetSelectorConfig; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define STRUCT_2_2EDCA7D63D6FF2D7_METHOD_2_24F974931E9789BB_OFFSET UNITYSDK_OFFSET(0x3AFDC70)
-#define STRUCT_2_2EDCA7D63D6FF2D7_METHOD_2_55B393D44D9358E3_OFFSET UNITYSDK_OFFSET(0x3AFDC10)
+#define STRUCT_2_2EDCA7D63D6FF2D7_METHOD_2_24F974931E9789BB_OFFSET UNITYSDK_OFFSET(0x3C2C240)
+#define STRUCT_2_2EDCA7D63D6FF2D7_METHOD_2_55B393D44D9358E3_OFFSET UNITYSDK_OFFSET(0x3C2C1E0)
 
-inline static constexpr unsigned int Struct_2_2EDCA7D63D6FF2D7_TypeDefinitionIndex = 36448;
+inline static constexpr unsigned int Struct_2_2EDCA7D63D6FF2D7_TypeDefinitionIndex = 37135;
 
 struct alignas(8) Struct_2_2EDCA7D63D6FF2D7
 {

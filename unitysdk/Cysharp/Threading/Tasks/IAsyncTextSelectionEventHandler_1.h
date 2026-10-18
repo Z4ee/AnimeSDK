@@ -4,7 +4,7 @@
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int IAsyncTextSelectionEventHandler_1_TypeDefinitionIndex = 42891;
+	inline static constexpr unsigned int IAsyncTextSelectionEventHandler_1_TypeDefinitionIndex = 38476;
 
 	template <typename T>
 	class IAsyncTextSelectionEventHandler_1

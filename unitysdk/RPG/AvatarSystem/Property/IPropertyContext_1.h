@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-class Class_0_16E4307DCC419505_457;
+class Class_0_16E4307DCC419505_544;
 
 namespace RPG::AvatarSystem::Property
 {
-	inline static constexpr unsigned int IPropertyContext_1_TypeDefinitionIndex = 52292;
+	inline static constexpr unsigned int IPropertyContext_1_TypeDefinitionIndex = 52005;
 
 	template <typename TValue>
 	class IPropertyContext_1

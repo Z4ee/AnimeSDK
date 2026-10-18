@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class FormationMoveAddStream; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_6485C8A7E38B4E35_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16E47100)
-#define CLASS_3_6485C8A7E38B4E35__CTOR_OFFSET UNITYSDK_OFFSET(0x16E470D0)
+#define CLASS_3_6485C8A7E38B4E35_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xD20B240)
+#define CLASS_3_6485C8A7E38B4E35__CTOR_OFFSET UNITYSDK_OFFSET(0xD20B210)
 
-inline static constexpr unsigned int Class_3_6485C8A7E38B4E35_TypeDefinitionIndex = 58281;
+inline static constexpr unsigned int Class_3_6485C8A7E38B4E35_TypeDefinitionIndex = 58129;
 
 class Class_3_6485C8A7E38B4E35 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::FormationMoveAddStream*>
 {

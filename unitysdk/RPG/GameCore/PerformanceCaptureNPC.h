@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_PERFORMANCECAPTURENPC_METHOD_2_89452837824197B0_OFFSET UNITYSDK_OFFSET(0x1D41DF80)
-#define RPG_GAMECORE_PERFORMANCECAPTURENPC__CTOR_OFFSET UNITYSDK_OFFSET(0x1D41E1C0)
+#define RPG_GAMECORE_PERFORMANCECAPTURENPC_METHOD_2_89452837824197B0_OFFSET UNITYSDK_OFFSET(0x1D8CAA50)
+#define RPG_GAMECORE_PERFORMANCECAPTURENPC__CTOR_OFFSET UNITYSDK_OFFSET(0x1D8CAC90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PerformanceCaptureNPC_TypeDefinitionIndex = 21607;
+	inline static constexpr unsigned int PerformanceCaptureNPC_TypeDefinitionIndex = 21855;
 
 	class PerformanceCaptureNPC : public ::RPG::GameCore::JsonConfig
 	{

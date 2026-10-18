@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_LOGINFLOWNOTIFICATIONBOXCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1A628930)
+#define MIHOYO_SDK_LOGINFLOWNOTIFICATIONBOXCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE6CB20)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int LoginFlowNotificationBoxConfig_TypeDefinitionIndex = 7879;
+	inline static constexpr unsigned int LoginFlowNotificationBoxConfig_TypeDefinitionIndex = 7923;
 
 	class LoginFlowNotificationBoxConfig : public ::System::Object
 	{

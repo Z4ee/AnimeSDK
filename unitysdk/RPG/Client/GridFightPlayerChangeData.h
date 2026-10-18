@@ -4,23 +4,23 @@
 #include "unitysdk/RPG/Client/GridFightPlayerPropertyType.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_GRIDFIGHTPLAYERCHANGEDATA_GET_FROMAUGMENT_OFFSET UNITYSDK_OFFSET(0x1CA55320)
-#define RPG_CLIENT_GRIDFIGHTPLAYERCHANGEDATA_GET_FROMBATTLE_OFFSET UNITYSDK_OFFSET(0x1CA55370)
-#define RPG_CLIENT_GRIDFIGHTPLAYERCHANGEDATA_GET_UNKNOWNREASON_OFFSET UNITYSDK_OFFSET(0x1CA553C0)
-#define RPG_CLIENT_GRIDFIGHTPLAYERCHANGEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1CA55410)
+#define RPG_CLIENT_GRIDFIGHTPLAYERCHANGEDATA_GET_FROMAUGMENT_OFFSET UNITYSDK_OFFSET(0xD1D5270)
+#define RPG_CLIENT_GRIDFIGHTPLAYERCHANGEDATA_GET_FROMBATTLE_OFFSET UNITYSDK_OFFSET(0xD1D52C0)
+#define RPG_CLIENT_GRIDFIGHTPLAYERCHANGEDATA_GET_UNKNOWNREASON_OFFSET UNITYSDK_OFFSET(0xD1D5310)
+#define RPG_CLIENT_GRIDFIGHTPLAYERCHANGEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xD1D5360)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightPlayerChangeData_TypeDefinitionIndex = 65127;
+	inline static constexpr unsigned int GridFightPlayerChangeData_TypeDefinitionIndex = 65067;
 
 	class GridFightPlayerChangeData : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* Params; // 0x10
-		::Enum_3_75A1C8C41006A504 SrcType; // 0x18
-		::System::Int32 ChangeValue; // 0x1C
-		::System::Int32 OldValue; // 0x20
-		::RPG::Client::GridFightPlayerPropertyType PropertyType; // 0x24
+		::System::Int32 OldValue; // 0x18
+		::RPG::Client::GridFightPlayerPropertyType PropertyType; // 0x1C
+		::System::Int32 ChangeValue; // 0x20
+		::Enum_3_75A1C8C41006A504 SrcType; // 0x24
 
 		::System::Void _ctor()
 		{

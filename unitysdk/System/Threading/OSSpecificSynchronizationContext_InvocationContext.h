@@ -4,8 +4,8 @@
 
 namespace System::Threading { class SendOrPostCallback; }
 
-#define SYSTEM_THREADING_OSSPECIFICSYNCHRONIZATIONCONTEXT_INVOCATIONCONTEXT_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B3E7950)
-#define SYSTEM_THREADING_OSSPECIFICSYNCHRONIZATIONCONTEXT_INVOCATIONCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3E7930)
+#define SYSTEM_THREADING_OSSPECIFICSYNCHRONIZATIONCONTEXT_INVOCATIONCONTEXT_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C11ADF0)
+#define SYSTEM_THREADING_OSSPECIFICSYNCHRONIZATIONCONTEXT_INVOCATIONCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1C11ADD0)
 
 namespace System::Threading
 {
@@ -14,8 +14,8 @@ namespace System::Threading
 	class OSSpecificSynchronizationContext_InvocationContext : public ::System::Object
 	{
 	public:
-		::System::Threading::SendOrPostCallback* m_Delegate; // 0x10
-		::System::Object* m_State; // 0x18
+		::System::Object* m_State; // 0x10
+		::System::Threading::SendOrPostCallback* m_Delegate; // 0x18
 
 		::System::Void _ctor(::System::Threading::SendOrPostCallback* a1, ::System::Object* a2)
 		{

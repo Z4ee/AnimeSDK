@@ -8,18 +8,18 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define CLASS_3_550C42FE954A4893_METHOD_3_5FDBC3ED1A2E374E_OFFSET UNITYSDK_OFFSET(0x1CB5B220)
-#define CLASS_3_550C42FE954A4893_METHOD_3_FAE3758F0912001F_OFFSET UNITYSDK_OFFSET(0x1CB5B260)
-#define CLASS_3_550C42FE954A4893__CTOR_OFFSET UNITYSDK_OFFSET(0x1CB5B250)
+#define CLASS_3_550C42FE954A4893_METHOD_3_5FDBC3ED1A2E374E_OFFSET UNITYSDK_OFFSET(0x1D1DA160)
+#define CLASS_3_550C42FE954A4893_METHOD_3_FAE3758F0912001F_OFFSET UNITYSDK_OFFSET(0x1D1DA1A0)
+#define CLASS_3_550C42FE954A4893__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1DA190)
 
-inline static constexpr unsigned int Class_3_550C42FE954A4893_TypeDefinitionIndex = 22236;
+inline static constexpr unsigned int Class_3_550C42FE954A4893_TypeDefinitionIndex = 22485;
 
 class Class_3_550C42FE954A4893 : public ::RPG::GameCore::TaskConfig
 {
 public:
-	::RPG::GameCore::TargetEvaluator* HOPKBCJIOCD; // 0x18
+	::System::String* ECNKCCNJNPJ; // 0x18
 	::RPG::GameCore::DynamicFloat* IEHPFADHJFD; // 0x20
-	::System::String* ECNKCCNJNPJ; // 0x28
+	::RPG::GameCore::TargetEvaluator* HOPKBCJIOCD; // 0x28
 	::RPG::GameCore::BattleAvatarUltraSkillEnergyFlyEffectType DLMINHHKKMK; // 0x30
 
 	::System::Void _ctor()

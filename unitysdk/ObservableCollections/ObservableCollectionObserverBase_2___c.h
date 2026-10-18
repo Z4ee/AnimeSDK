@@ -7,7 +7,7 @@ namespace System { template <typename T> class Action_1; }
 
 namespace ObservableCollections
 {
-	inline static constexpr unsigned int ObservableCollectionObserverBase_2___c_TypeDefinitionIndex = 40071;
+	inline static constexpr unsigned int ObservableCollectionObserverBase_2___c_TypeDefinitionIndex = 41368;
 
 	template <typename T, typename TEvent>
 	class ObservableCollectionObserverBase_2___c : public ::System::Object

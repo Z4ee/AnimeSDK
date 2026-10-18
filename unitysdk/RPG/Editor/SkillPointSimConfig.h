@@ -7,12 +7,12 @@
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_EDITOR_SKILLPOINTSIMCONFIG_GET_CONTENTTITLE_OFFSET UNITYSDK_OFFSET(0x16849A60)
-#define RPG_EDITOR_SKILLPOINTSIMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x168499F0)
+#define RPG_EDITOR_SKILLPOINTSIMCONFIG_GET_CONTENTTITLE_OFFSET UNITYSDK_OFFSET(0xE4A3640)
+#define RPG_EDITOR_SKILLPOINTSIMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xE4A35D0)
 
 namespace RPG::Editor
 {
-	inline static constexpr unsigned int SkillPointSimConfig_TypeDefinitionIndex = 52331;
+	inline static constexpr unsigned int SkillPointSimConfig_TypeDefinitionIndex = 52044;
 
 	class SkillPointSimConfig : public ::System::Object
 	{

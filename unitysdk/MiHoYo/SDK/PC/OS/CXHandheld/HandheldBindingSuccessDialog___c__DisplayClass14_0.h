@@ -5,18 +5,18 @@
 namespace MiHoYo::SDK::PC::OS::CXHandheld { class HandheldBindingSuccessDialog; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDBINDINGSUCCESSDIALOG___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A23D6C0)
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDBINDINGSUCCESSDIALOG___C__DISPLAYCLASS14_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1A23E240)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDBINDINGSUCCESSDIALOG___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BEBFF60)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDBINDINGSUCCESSDIALOG___C__DISPLAYCLASS14_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1BEC0AE0)
 
 namespace MiHoYo::SDK::PC::OS::CXHandheld
 {
-	inline static constexpr unsigned int HandheldBindingSuccessDialog___c__DisplayClass14_0_TypeDefinitionIndex = 8745;
+	inline static constexpr unsigned int HandheldBindingSuccessDialog___c__DisplayClass14_0_TypeDefinitionIndex = 8806;
 
 	class HandheldBindingSuccessDialog___c__DisplayClass14_0 : public ::System::Object
 	{
 	public:
-		::System::String* accountName; // 0x10
-		::System::String* hoyoAccountName; // 0x18
+		::System::String* hoyoAccountName; // 0x10
+		::System::String* accountName; // 0x18
 
 		::System::Void _ctor()
 		{

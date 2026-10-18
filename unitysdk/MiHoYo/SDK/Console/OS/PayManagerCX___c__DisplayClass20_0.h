@@ -6,12 +6,12 @@
 namespace MiHoYo::SDK { class JSONArray; }
 namespace MiHoYo::SDK::Console::OS { class PayManagerCX; }
 
-#define MIHOYO_SDK_CONSOLE_OS_PAYMANAGERCX___C__DISPLAYCLASS20_0__CTOR_OFFSET UNITYSDK_OFFSET(0x173786A0)
-#define MIHOYO_SDK_CONSOLE_OS_PAYMANAGERCX___C__DISPLAYCLASS20_0__TRYGETPRODUCTS_B__0_OFFSET UNITYSDK_OFFSET(0x1737A700)
+#define MIHOYO_SDK_CONSOLE_OS_PAYMANAGERCX___C__DISPLAYCLASS20_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BCAABD0)
+#define MIHOYO_SDK_CONSOLE_OS_PAYMANAGERCX___C__DISPLAYCLASS20_0__TRYGETPRODUCTS_B__0_OFFSET UNITYSDK_OFFSET(0x1BCACC60)
 
 namespace MiHoYo::SDK::Console::OS
 {
-	inline static constexpr unsigned int PayManagerCX___c__DisplayClass20_0_TypeDefinitionIndex = 9042;
+	inline static constexpr unsigned int PayManagerCX___c__DisplayClass20_0_TypeDefinitionIndex = 9103;
 
 	class PayManagerCX___c__DisplayClass20_0 : public ::System::Object
 	{

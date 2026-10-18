@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/GameCore/FateRinCaseBoardTeamType.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_FATERIN_CASEBOARD_CASEBOARDSHOWREWARDPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x1CBF8910)
+#define RPG_CLIENT_FATERIN_CASEBOARD_CASEBOARDSHOWREWARDPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0xCEF6F10)
 
 namespace RPG::Client::FateRin::CaseBoard
 {
-	inline static constexpr unsigned int CaseBoardShowRewardParams_TypeDefinitionIndex = 79486;
+	inline static constexpr unsigned int CaseBoardShowRewardParams_TypeDefinitionIndex = 80810;
 
 	class CaseBoardShowRewardParams : public ::System::Object
 	{

@@ -11,45 +11,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_LINEARQUESTEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1DD5DF40)
-#define RPG_GAMECORE_LINEARQUESTEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1DD5DDD0)
-#define RPG_GAMECORE_LINEARQUESTEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1DD5DAC0)
-#define RPG_GAMECORE_LINEARQUESTEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1DD5DD70)
-#define RPG_GAMECORE_LINEARQUESTEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1DD5E0D0)
-#define RPG_GAMECORE_LINEARQUESTEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1DD5DB40)
-#define RPG_GAMECORE_LINEARQUESTEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1DD5E110)
-#define RPG_GAMECORE_LINEARQUESTEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DD5E2E0)
-#define RPG_GAMECORE_LINEARQUESTEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1DD5E4F0)
-#define RPG_GAMECORE_LINEARQUESTEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DD5E860)
-#define RPG_GAMECORE_LINEARQUESTEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1DD5E240)
-#define RPG_GAMECORE_LINEARQUESTEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1DD5E1A0)
+#define RPG_GAMECORE_LINEARQUESTEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1D7A5C30)
+#define RPG_GAMECORE_LINEARQUESTEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1D7A5AC0)
+#define RPG_GAMECORE_LINEARQUESTEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1D7A57B0)
+#define RPG_GAMECORE_LINEARQUESTEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1D7A5A60)
+#define RPG_GAMECORE_LINEARQUESTEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1D7A5DC0)
+#define RPG_GAMECORE_LINEARQUESTEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D7A5830)
+#define RPG_GAMECORE_LINEARQUESTEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1D7A5E00)
+#define RPG_GAMECORE_LINEARQUESTEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D7A5FD0)
+#define RPG_GAMECORE_LINEARQUESTEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1D7A61E0)
+#define RPG_GAMECORE_LINEARQUESTEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D7A6550)
+#define RPG_GAMECORE_LINEARQUESTEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1D7A5F30)
+#define RPG_GAMECORE_LINEARQUESTEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D7A5E90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LinearQuestExcelTable_TypeDefinitionIndex = 14408;
+	inline static constexpr unsigned int LinearQuestExcelTable_TypeDefinitionIndex = 14573;
 
 	class LinearQuestExcelTable : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::LinearQuestRow*>** StaticGet_dataDict_()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::LinearQuestRow*>**)Il2CppClass::FromTypeDefinitionIndex(LinearQuestExcelTable_TypeDefinitionIndex)->GetStaticField(0x354F0);
-		}
 		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(LinearQuestExcelTable_TypeDefinitionIndex)->GetStaticField(0x354F8);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(LinearQuestExcelTable_TypeDefinitionIndex)->GetStaticField(0x3FA20);
 		}
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(LinearQuestExcelTable_TypeDefinitionIndex)->GetStaticField(0x35500);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(LinearQuestExcelTable_TypeDefinitionIndex)->GetStaticField(0x3FA28);
+		}
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::LinearQuestRow*>** StaticGet_dataDict_()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::LinearQuestRow*>**)Il2CppClass::FromTypeDefinitionIndex(LinearQuestExcelTable_TypeDefinitionIndex)->GetStaticField(0x3FA30);
 		}
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(LinearQuestExcelTable_TypeDefinitionIndex)->GetStaticField(0xDF60);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(LinearQuestExcelTable_TypeDefinitionIndex)->GetStaticField(0xF0D0);
 		}
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(LinearQuestExcelTable_TypeDefinitionIndex)->GetStaticField(0xDF61);
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(LinearQuestExcelTable_TypeDefinitionIndex)->GetStaticField(0xF0D1);
 		}
 
 		static ::System::Void _cctor()

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByTargetListIntersects; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_D56759F1A11DB012_EVALUATE_OFFSET UNITYSDK_OFFSET(0x17F760A0)
-#define CLASS_3_D56759F1A11DB012__CTOR_OFFSET UNITYSDK_OFFSET(0x17F76070)
+#define CLASS_3_D56759F1A11DB012_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15B0DDE0)
+#define CLASS_3_D56759F1A11DB012__CTOR_OFFSET UNITYSDK_OFFSET(0x15B0DDB0)
 
-inline static constexpr unsigned int Class_3_D56759F1A11DB012_TypeDefinitionIndex = 54935;
+inline static constexpr unsigned int Class_3_D56759F1A11DB012_TypeDefinitionIndex = 54725;
 
 class Class_3_D56759F1A11DB012 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByTargetListIntersects*>
 {

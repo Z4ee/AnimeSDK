@@ -2,24 +2,24 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_900;
+class Class_0_16E4307DCC419505_999;
 namespace RPG { template <typename T> class PoolList_1; }
 namespace RPG::Client { class IMissionChroniclePathUnlockConditionData; }
 namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_MISSIONCHRONICLEPATHUNLOCKCONDITIONHELPER___C__DISPLAYCLASS0_0__COLLECTUNLOCKCONDITIONS_B__0_OFFSET UNITYSDK_OFFSET(0x16973670)
-#define RPG_CLIENT_MISSIONCHRONICLEPATHUNLOCKCONDITIONHELPER___C__DISPLAYCLASS0_0__COLLECTUNLOCKCONDITIONS_B__1_OFFSET UNITYSDK_OFFSET(0x16973920)
-#define RPG_CLIENT_MISSIONCHRONICLEPATHUNLOCKCONDITIONHELPER___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16973110)
+#define RPG_CLIENT_MISSIONCHRONICLEPATHUNLOCKCONDITIONHELPER___C__DISPLAYCLASS0_0__COLLECTUNLOCKCONDITIONS_B__0_OFFSET UNITYSDK_OFFSET(0xD6CCAD0)
+#define RPG_CLIENT_MISSIONCHRONICLEPATHUNLOCKCONDITIONHELPER___C__DISPLAYCLASS0_0__COLLECTUNLOCKCONDITIONS_B__1_OFFSET UNITYSDK_OFFSET(0xD6CCD80)
+#define RPG_CLIENT_MISSIONCHRONICLEPATHUNLOCKCONDITIONHELPER___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD6CC570)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MissionChroniclePathUnlockConditionHelper___c__DisplayClass0_0_TypeDefinitionIndex = 66173;
+	inline static constexpr unsigned int MissionChroniclePathUnlockConditionHelper___c__DisplayClass0_0_TypeDefinitionIndex = 66127;
 
 	class MissionChroniclePathUnlockConditionHelper___c__DisplayClass0_0 : public ::System::Object
 	{
 	public:
-		::RPG::PoolList_1<::Class_0_16E4307DCC419505_900*>* collectors; // 0x10
+		::RPG::PoolList_1<::Class_0_16E4307DCC419505_999*>* collectors; // 0x10
 
 		::System::Void _ctor()
 		{

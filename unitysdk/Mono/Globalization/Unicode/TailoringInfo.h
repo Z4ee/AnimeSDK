@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MONO_GLOBALIZATION_UNICODE_TAILORINGINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x16DE1E10)
+#define MONO_GLOBALIZATION_UNICODE_TAILORINGINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1C02AEC0)
 
 namespace Mono::Globalization::Unicode
 {
@@ -11,8 +11,8 @@ namespace Mono::Globalization::Unicode
 	class TailoringInfo : public ::System::Object
 	{
 	public:
-		::System::Int32 TailoringCount; // 0x10
-		::System::Boolean FrenchSort; // 0x14
+		::System::Boolean FrenchSort; // 0x10
+		::System::Int32 TailoringCount; // 0x14
 		::System::Int32 LCID; // 0x18
 		::System::Int32 TailoringIndex; // 0x1C
 

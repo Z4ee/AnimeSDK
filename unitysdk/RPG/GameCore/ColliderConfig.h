@@ -6,12 +6,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_COLLIDERCONFIG_METHOD_2_DB1183BA0272677E_OFFSET UNITYSDK_OFFSET(0x1D9A5940)
-#define RPG_GAMECORE_COLLIDERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D9A5AB0)
+#define RPG_GAMECORE_COLLIDERCONFIG_METHOD_2_E8A3912C50122931_OFFSET UNITYSDK_OFFSET(0x1D59CF70)
+#define RPG_GAMECORE_COLLIDERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D59D1F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ColliderConfig_TypeDefinitionIndex = 17290;
+	inline static constexpr unsigned int ColliderConfig_TypeDefinitionIndex = 17486;
 
 	class ColliderConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_COLLIDERCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_DB1183BA0272677E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ColliderConfig*& a2)
+		static ::System::Void Method_2_E8A3912C50122931(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ColliderConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ColliderConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_COLLIDERCONFIG_METHOD_2_DB1183BA0272677E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ColliderConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_COLLIDERCONFIG_METHOD_2_E8A3912C50122931_OFFSET))(a1, a2);
 		}
 	};
 }

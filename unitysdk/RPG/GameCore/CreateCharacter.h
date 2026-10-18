@@ -7,13 +7,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_CREATECHARACTER_METHOD_3_AFB1AAB8CC21D8DC_OFFSET UNITYSDK_OFFSET(0x1D9BE0D0)
-#define RPG_GAMECORE_CREATECHARACTER_METHOD_3_C76A0B7408ED1B01_OFFSET UNITYSDK_OFFSET(0x1D9BE130)
-#define RPG_GAMECORE_CREATECHARACTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D9BE110)
+#define RPG_GAMECORE_CREATECHARACTER_METHOD_3_AFB1AAB8CC21D8DC_OFFSET UNITYSDK_OFFSET(0x1D5B52E0)
+#define RPG_GAMECORE_CREATECHARACTER_METHOD_3_C76A0B7408ED1B01_OFFSET UNITYSDK_OFFSET(0x1D5B5340)
+#define RPG_GAMECORE_CREATECHARACTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5B5320)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CreateCharacter_TypeDefinitionIndex = 20580;
+	inline static constexpr unsigned int CreateCharacter_TypeDefinitionIndex = 20819;
 
 	class CreateCharacter : public ::RPG::GameCore::TaskConfig
 	{
@@ -36,6 +36,7 @@ namespace RPG::GameCore
 		::System::Int32 ArtReplaceIndex; // 0x78
 		::System::String* FloatingTemplateName; // 0x80
 		::System::Boolean EnableStandByBreak; // 0x88
+		::System::String* StillGradeAnimID; // 0x90
 
 		::System::Void _ctor()
 		{

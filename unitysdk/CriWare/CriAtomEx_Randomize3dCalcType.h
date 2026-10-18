@@ -3,7 +3,7 @@
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomEx_Randomize3dCalcType_TypeDefinitionIndex = 38669;
+	inline static constexpr unsigned int CriAtomEx_Randomize3dCalcType_TypeDefinitionIndex = 39966;
 
 	enum class CriAtomEx_Randomize3dCalcType : ::System::Int32
 	{

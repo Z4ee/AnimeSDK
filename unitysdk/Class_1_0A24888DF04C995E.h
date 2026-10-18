@@ -3,19 +3,19 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define CLASS_1_0A24888DF04C995E__CTOR_OFFSET UNITYSDK_OFFSET(0x1A6140E0)
+#define CLASS_1_0A24888DF04C995E__CTOR_OFFSET UNITYSDK_OFFSET(0x1C9452C0)
 
-inline static constexpr unsigned int Class_1_0A24888DF04C995E_TypeDefinitionIndex = 41169;
+inline static constexpr unsigned int Class_1_0A24888DF04C995E_TypeDefinitionIndex = 42458;
 
 class Class_1_0A24888DF04C995E : public ::System::Object
 {
 public:
-	::System::Single EMNHIJAIMBE; // 0x10
-	::UnityEngine::Vector3 LDDBFJDDNJO; // 0x14
-	::System::Boolean JBDJFBPNAGG; // 0x20
-	::System::Boolean LBJCCPDANIB; // 0x21
-	::System::Boolean AANFGJCJMPF; // 0x22
-	::System::Boolean LGLGFNFFBMI; // 0x23
+	::UnityEngine::Vector3 LDDBFJDDNJO; // 0x10
+	::System::Boolean JBDJFBPNAGG; // 0x1C
+	::System::Boolean LBJCCPDANIB; // 0x1D
+	::System::Boolean AANFGJCJMPF; // 0x1E
+	::System::Boolean LGLGFNFFBMI; // 0x1F
+	::System::Single EMNHIJAIMBE; // 0x20
 
 	::System::Void _ctor()
 	{

@@ -5,18 +5,18 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class IDictionary_2; }
 
-#define CLASS_2_BA5E8E30B5DB1765_METHOD_2_0F30679B05E70FC1_OFFSET UNITYSDK_OFFSET(0x1A0C4370)
-#define CLASS_2_BA5E8E30B5DB1765_METHOD_2_35942D7A8A374AB0_OFFSET UNITYSDK_OFFSET(0x1A0C3DA0)
-#define CLASS_2_BA5E8E30B5DB1765_METHOD_2_E5563473F4AA5B3F_OFFSET UNITYSDK_OFFSET(0x1A0C43F0)
-#define CLASS_2_BA5E8E30B5DB1765__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0C3450)
+#define CLASS_2_BA5E8E30B5DB1765_METHOD_2_35942D7A8A374AB0_OFFSET UNITYSDK_OFFSET(0xD74BEA0)
+#define CLASS_2_BA5E8E30B5DB1765_METHOD_2_A0433AB55CC45192_OFFSET UNITYSDK_OFFSET(0xD74C470)
+#define CLASS_2_BA5E8E30B5DB1765_METHOD_2_E5563473F4AA5B3F_OFFSET UNITYSDK_OFFSET(0xD74C4F0)
+#define CLASS_2_BA5E8E30B5DB1765__CTOR_OFFSET UNITYSDK_OFFSET(0xD74B550)
 
-inline static constexpr unsigned int Class_2_BA5E8E30B5DB1765_TypeDefinitionIndex = 80908;
+inline static constexpr unsigned int Class_2_BA5E8E30B5DB1765_TypeDefinitionIndex = 82288;
 
 class Class_2_BA5E8E30B5DB1765 : public ::Class_1_FAF146B3D74C3C3F
 {
 public:
-	::System::String* FODBMMCKAEN; // 0x20
-	::System::String* MNDFOPKBHKP; // 0x28
+	::System::String* MNDFOPKBHKP; // 0x20
+	::System::String* FODBMMCKAEN; // 0x28
 
 	::System::Void _ctor(::System::Int32 a1, ::System::Int32 a2, ::System::String* a3, ::System::Collections::Generic::IDictionary_2<::System::String*, ::System::String*>* a4)
 	{
@@ -28,9 +28,9 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_BA5E8E30B5DB1765_METHOD_2_35942D7A8A374AB0_OFFSET))(this);
 	}
 
-	::System::Boolean Method_2_0F30679B05E70FC1()
+	::System::Boolean Method_2_A0433AB55CC45192()
 	{
-		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_BA5E8E30B5DB1765_METHOD_2_0F30679B05E70FC1_OFFSET))(this);
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_BA5E8E30B5DB1765_METHOD_2_A0433AB55CC45192_OFFSET))(this);
 	}
 
 	::System::Int32 Method_2_E5563473F4AA5B3F()

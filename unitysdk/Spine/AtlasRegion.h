@@ -5,35 +5,35 @@
 namespace Spine { class AtlasPage; }
 namespace System { class String; }
 
-#define SPINE_ATLASREGION_CLONE_OFFSET UNITYSDK_OFFSET(0x160511C0)
-#define SPINE_ATLASREGION_GET_ORIGINALHEIGHT_OFFSET UNITYSDK_OFFSET(0x160511B0)
-#define SPINE_ATLASREGION_GET_ORIGINALWIDTH_OFFSET UNITYSDK_OFFSET(0x160511A0)
-#define SPINE_ATLASREGION_GET_PACKEDHEIGHT_OFFSET UNITYSDK_OFFSET(0x16051180)
-#define SPINE_ATLASREGION_GET_PACKEDWIDTH_OFFSET UNITYSDK_OFFSET(0x16051160)
-#define SPINE_ATLASREGION_SET_PACKEDHEIGHT_OFFSET UNITYSDK_OFFSET(0x16051190)
-#define SPINE_ATLASREGION_SET_PACKEDWIDTH_OFFSET UNITYSDK_OFFSET(0x16051170)
-#define SPINE_ATLASREGION__CTOR_OFFSET UNITYSDK_OFFSET(0x1604F0D0)
+#define SPINE_ATLASREGION_CLONE_OFFSET UNITYSDK_OFFSET(0x1EC712F0)
+#define SPINE_ATLASREGION_GET_ORIGINALHEIGHT_OFFSET UNITYSDK_OFFSET(0x1EC712E0)
+#define SPINE_ATLASREGION_GET_ORIGINALWIDTH_OFFSET UNITYSDK_OFFSET(0x1EC712D0)
+#define SPINE_ATLASREGION_GET_PACKEDHEIGHT_OFFSET UNITYSDK_OFFSET(0x1EC712B0)
+#define SPINE_ATLASREGION_GET_PACKEDWIDTH_OFFSET UNITYSDK_OFFSET(0x1EC71290)
+#define SPINE_ATLASREGION_SET_PACKEDHEIGHT_OFFSET UNITYSDK_OFFSET(0x1EC712C0)
+#define SPINE_ATLASREGION_SET_PACKEDWIDTH_OFFSET UNITYSDK_OFFSET(0x1EC712A0)
+#define SPINE_ATLASREGION__CTOR_OFFSET UNITYSDK_OFFSET(0x1EC6F240)
 
 namespace Spine
 {
-	inline static constexpr unsigned int AtlasRegion_TypeDefinitionIndex = 38350;
+	inline static constexpr unsigned int AtlasRegion_TypeDefinitionIndex = 39647;
 
 	class AtlasRegion : public ::Spine::TextureRegion
 	{
 	public:
-		::System::String* name; // 0x28
+		::Il2CppArray<::Il2CppArray<::System::Int32>*>* values; // 0x28
 		::Il2CppArray<::System::String*>* names; // 0x30
 		::Spine::AtlasPage* page; // 0x38
-		::Il2CppArray<::Il2CppArray<::System::Int32>*>* values; // 0x40
-		::System::Int32 originalHeight; // 0x48
-		::System::Int32 degrees; // 0x4C
-		::System::Int32 y; // 0x50
-		::System::Boolean rotate; // 0x54
-		::System::Int32 x; // 0x58
-		::System::Int32 index; // 0x5C
+		::System::String* name; // 0x40
+		::System::Int32 y; // 0x48
+		::System::Int32 x; // 0x4C
+		::System::Int32 degrees; // 0x50
+		::System::Single offsetY; // 0x54
+		::System::Int32 originalHeight; // 0x58
+		::System::Boolean rotate; // 0x5C
 		::System::Single offsetX; // 0x60
-		::System::Single offsetY; // 0x64
-		::System::Int32 originalWidth; // 0x68
+		::System::Int32 originalWidth; // 0x64
+		::System::Int32 index; // 0x68
 
 		::System::Void _ctor()
 		{

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TargetHudType_TypeDefinitionIndex = 57893;
+	inline static constexpr unsigned int TargetHudType_TypeDefinitionIndex = 57739;
 
 	enum class TargetHudType : ::System::Int32
 	{

@@ -14,7 +14,7 @@ namespace System { template <typename T> class Action_1; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int ZipAwaitWithCancellation_3__ZipAwaitWithCancellation_TypeDefinitionIndex = 44607;
+	inline static constexpr unsigned int ZipAwaitWithCancellation_3__ZipAwaitWithCancellation_TypeDefinitionIndex = 45746;
 
 	template <typename TFirst, typename TSecond, typename TResult>
 	class ZipAwaitWithCancellation_3__ZipAwaitWithCancellation : public ::Cysharp::Threading::Tasks::MoveNextSource

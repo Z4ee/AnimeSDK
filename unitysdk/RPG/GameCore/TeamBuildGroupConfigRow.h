@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_TEAMBUILDGROUPCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E1CAF60)
-#define RPG_GAMECORE_TEAMBUILDGROUPCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1E1CB0A0)
+#define RPG_GAMECORE_TEAMBUILDGROUPCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DB4C360)
+#define RPG_GAMECORE_TEAMBUILDGROUPCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB4C4A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TeamBuildGroupConfigRow_TypeDefinitionIndex = 15103;
+	inline static constexpr unsigned int TeamBuildGroupConfigRow_TypeDefinitionIndex = 15274;
 
 	class TeamBuildGroupConfigRow : public ::System::Object
 	{

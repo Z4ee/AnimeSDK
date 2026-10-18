@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ALLEYDESKTALKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CBD17D0)
-#define RPG_GAMECORE_ALLEYDESKTALKROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CBD1F50)
+#define RPG_GAMECORE_ALLEYDESKTALKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3B33A0)
+#define RPG_GAMECORE_ALLEYDESKTALKROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3B3AE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AlleyDeskTalkRow_TypeDefinitionIndex = 12542;
+	inline static constexpr unsigned int AlleyDeskTalkRow_TypeDefinitionIndex = 12632;
 
 	class AlleyDeskTalkRow : public ::System::Object
 	{
@@ -21,8 +21,8 @@ namespace RPG::GameCore
 		::System::String* CustomString; // 0x20
 		::System::UInt32 TalkID; // 0x28
 		::System::UInt32 TalkPriority; // 0x2C
-		::System::UInt32 TalkWeight; // 0x30
-		::RPG::GameCore::AlleyTalkType TalkType; // 0x34
+		::RPG::GameCore::AlleyTalkType TalkType; // 0x30
+		::System::UInt32 TalkWeight; // 0x34
 
 		::System::Void _ctor()
 		{

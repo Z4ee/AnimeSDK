@@ -9,23 +9,23 @@ namespace RPG::Client::FateRin::CaseBoard { class TeamViewModel; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_D04575A520F91692_GET_CURRENTPERFORMFORTASK_OFFSET UNITYSDK_OFFSET(0x1AB9B6F0)
-#define CLASS_1_D04575A520F91692_METHOD_1_6EE518C04B7D8C3B_OFFSET UNITYSDK_OFFSET(0x1AB9B710)
-#define CLASS_1_D04575A520F91692_METHOD_1_B57EC84B10E068A8_OFFSET UNITYSDK_OFFSET(0x1AB9B7B0)
-#define CLASS_1_D04575A520F91692_SET_CURRENTPERFORMFORTASK_OFFSET UNITYSDK_OFFSET(0x1AB9B700)
-#define CLASS_1_D04575A520F91692__CTOR_OFFSET UNITYSDK_OFFSET(0x1AB9BA00)
+#define CLASS_1_D04575A520F91692_GET_CURRENTPERFORMFORTASK_OFFSET UNITYSDK_OFFSET(0xC384BB0)
+#define CLASS_1_D04575A520F91692_METHOD_1_6EE518C04B7D8C3B_OFFSET UNITYSDK_OFFSET(0xC384BD0)
+#define CLASS_1_D04575A520F91692_METHOD_1_B57EC84B10E068A8_OFFSET UNITYSDK_OFFSET(0xC384C70)
+#define CLASS_1_D04575A520F91692_SET_CURRENTPERFORMFORTASK_OFFSET UNITYSDK_OFFSET(0xC384BC0)
+#define CLASS_1_D04575A520F91692__CTOR_OFFSET UNITYSDK_OFFSET(0xC384EC0)
 
-inline static constexpr unsigned int Class_1_D04575A520F91692_TypeDefinitionIndex = 79464;
+inline static constexpr unsigned int Class_1_D04575A520F91692_TypeDefinitionIndex = 80788;
 
 class Class_1_D04575A520F91692 : public ::System::Object
 {
 public:
 	static ::RPG::Client::FateRin::CaseBoard::CaseBoardPerformViewModel** StaticGet__CurrentPerformForTask_k__BackingField()
 	{
-		return (::RPG::Client::FateRin::CaseBoard::CaseBoardPerformViewModel**)Il2CppClass::FromTypeDefinitionIndex(Class_1_D04575A520F91692_TypeDefinitionIndex)->GetStaticField(0x57A0);
+		return (::RPG::Client::FateRin::CaseBoard::CaseBoardPerformViewModel**)Il2CppClass::FromTypeDefinitionIndex(Class_1_D04575A520F91692_TypeDefinitionIndex)->GetStaticField(0xD830);
 	}
-	::Class_1_C28E571CD1C66CE4* DLNIGFGLPLJ; // 0x10
-	::System::String* NLCHDCHBCAL; // 0x18
+	::System::String* NLCHDCHBCAL; // 0x10
+	::Class_1_C28E571CD1C66CE4* DLNIGFGLPLJ; // 0x18
 
 	::System::Void _ctor()
 	{

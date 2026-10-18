@@ -5,19 +5,19 @@
 namespace MiHoYo::SDK { class AccountModel; }
 namespace MiHoYo::SDK::Win { class SecondRealnameGrantPhone; }
 
-#define MIHOYO_SDK_WIN_SECONDREALNAMEGRANTPHONE___C__DISPLAYCLASS38_0__CTOR_OFFSET UNITYSDK_OFFSET(0x187ABB20)
-#define MIHOYO_SDK_WIN_SECONDREALNAMEGRANTPHONE___C__DISPLAYCLASS38_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x187ABE20)
+#define MIHOYO_SDK_WIN_SECONDREALNAMEGRANTPHONE___C__DISPLAYCLASS38_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDCB150)
+#define MIHOYO_SDK_WIN_SECONDREALNAMEGRANTPHONE___C__DISPLAYCLASS38_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1BDCB450)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int SecondRealnameGrantPhone___c__DisplayClass38_0_TypeDefinitionIndex = 9467;
+	inline static constexpr unsigned int SecondRealnameGrantPhone___c__DisplayClass38_0_TypeDefinitionIndex = 9525;
 
 	class SecondRealnameGrantPhone___c__DisplayClass38_0 : public ::System::Object
 	{
 	public:
 		::MiHoYo::SDK::AccountModel* model; // 0x10
-		::System::Boolean isShowRedirect; // 0x18
-		::System::Boolean isShowOtherVerify; // 0x19
+		::System::Boolean isShowOtherVerify; // 0x18
+		::System::Boolean isShowRedirect; // 0x19
 
 		::System::Void _ctor()
 		{

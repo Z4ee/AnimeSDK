@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MAZEPUZZLESPECIALUIINFOROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D281250)
-#define RPG_GAMECORE_MAZEPUZZLESPECIALUIINFOROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2819B0)
+#define RPG_GAMECORE_MAZEPUZZLESPECIALUIINFOROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D840AD0)
+#define RPG_GAMECORE_MAZEPUZZLESPECIALUIINFOROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D841230)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MazePuzzleSpecialUIInfoRow_TypeDefinitionIndex = 13930;
+	inline static constexpr unsigned int MazePuzzleSpecialUIInfoRow_TypeDefinitionIndex = 14037;
 
 	class MazePuzzleSpecialUIInfoRow : public ::System::Object
 	{
@@ -19,9 +19,9 @@ namespace RPG::GameCore
 		::System::String* Title; // 0x18
 		::System::String* Desc01; // 0x20
 		::System::String* Desc02; // 0x28
-		::System::UInt32 SpecialModeID; // 0x30
+		::System::Boolean IsUImode; // 0x30
 		::System::UInt32 PuzzleType; // 0x34
-		::System::Boolean IsUImode; // 0x38
+		::System::UInt32 SpecialModeID; // 0x38
 
 		::System::Void _ctor()
 		{

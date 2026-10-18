@@ -1,7 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_478_TypeDefinitionIndex = 53912;
+namespace R3 { template <typename T> class ReactiveProperty_1; }
+namespace System { class String; }
+
+inline static constexpr unsigned int Class_0_16E4307DCC419505_478_TypeDefinitionIndex = 49671;
 
 class Class_0_16E4307DCC419505_478
 {

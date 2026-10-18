@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int ReflectionProbeType_TypeDefinitionIndex = 4711;
+	inline static constexpr unsigned int ReflectionProbeType_TypeDefinitionIndex = 4715;
 
 	enum class ReflectionProbeType : ::System::Int32
 	{

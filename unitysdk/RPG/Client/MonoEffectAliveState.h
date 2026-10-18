@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectAliveState_TypeDefinitionIndex = 69879;
+	inline static constexpr unsigned int MonoEffectAliveState_TypeDefinitionIndex = 69913;
 
 	enum class MonoEffectAliveState : ::System::Int32
 	{

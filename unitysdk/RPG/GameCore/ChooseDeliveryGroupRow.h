@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_CHOOSEDELIVERYGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E3437D0)
-#define RPG_GAMECORE_CHOOSEDELIVERYGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1E343910)
+#define RPG_GAMECORE_CHOOSEDELIVERYGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D5842D0)
+#define RPG_GAMECORE_CHOOSEDELIVERYGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D584410)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChooseDeliveryGroupRow_TypeDefinitionIndex = 12952;
+	inline static constexpr unsigned int ChooseDeliveryGroupRow_TypeDefinitionIndex = 13058;
 
 	class ChooseDeliveryGroupRow : public ::System::Object
 	{

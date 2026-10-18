@@ -5,24 +5,24 @@
 namespace RPG::Client::LimaoNews { class LimaoNewsEmployeeCheckData; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSEMPLOYEECHECKENTRANCEVIEWMODEL___C__BUILDSORTEDEMPLOYEEDATAS_B__2_0_OFFSET UNITYSDK_OFFSET(0x1950C200)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSEMPLOYEECHECKENTRANCEVIEWMODEL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1950C1B0)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSEMPLOYEECHECKENTRANCEVIEWMODEL___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1950C1F0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSEMPLOYEECHECKENTRANCEVIEWMODEL___C__BUILDSORTEDEMPLOYEEDATAS_B__2_0_OFFSET UNITYSDK_OFFSET(0xD39CEE0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSEMPLOYEECHECKENTRANCEVIEWMODEL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD39CE90)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSEMPLOYEECHECKENTRANCEVIEWMODEL___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD39CED0)
 
 namespace RPG::Client::LimaoNews
 {
-	inline static constexpr unsigned int LimaoNewsEmployeeCheckEntranceViewModel___c_TypeDefinitionIndex = 79100;
+	inline static constexpr unsigned int LimaoNewsEmployeeCheckEntranceViewModel___c_TypeDefinitionIndex = 80423;
 
 	class LimaoNewsEmployeeCheckEntranceViewModel___c : public ::System::Object
 	{
 	public:
 		static ::System::Comparison_1<::RPG::Client::LimaoNews::LimaoNewsEmployeeCheckData*>** StaticGet___9__2_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::LimaoNews::LimaoNewsEmployeeCheckData*>**)Il2CppClass::FromTypeDefinitionIndex(LimaoNewsEmployeeCheckEntranceViewModel___c_TypeDefinitionIndex)->GetStaticField(0x59F30);
+			return (::System::Comparison_1<::RPG::Client::LimaoNews::LimaoNewsEmployeeCheckData*>**)Il2CppClass::FromTypeDefinitionIndex(LimaoNewsEmployeeCheckEntranceViewModel___c_TypeDefinitionIndex)->GetStaticField(0x1B990);
 		}
 		static ::RPG::Client::LimaoNews::LimaoNewsEmployeeCheckEntranceViewModel___c** StaticGet___9()
 		{
-			return (::RPG::Client::LimaoNews::LimaoNewsEmployeeCheckEntranceViewModel___c**)Il2CppClass::FromTypeDefinitionIndex(LimaoNewsEmployeeCheckEntranceViewModel___c_TypeDefinitionIndex)->GetStaticField(0x59F38);
+			return (::RPG::Client::LimaoNews::LimaoNewsEmployeeCheckEntranceViewModel___c**)Il2CppClass::FromTypeDefinitionIndex(LimaoNewsEmployeeCheckEntranceViewModel___c_TypeDefinitionIndex)->GetStaticField(0x1B998);
 		}
 
 		static ::System::Void _cctor()

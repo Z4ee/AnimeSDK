@@ -2,30 +2,30 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_821;
+class Class_0_16E4307DCC419505_920;
 class Class_1_933C07741192A471;
 namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
 namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class Queue_1; }
 
-#define CLASS_1_085A149A901F5E47_GET_ISSTOPPED_OFFSET UNITYSDK_OFFSET(0x17F3DE60)
-#define CLASS_1_085A149A901F5E47_METHOD_1_6F7271C62F1FE776_OFFSET UNITYSDK_OFFSET(0x17F3E0C0)
-#define CLASS_1_085A149A901F5E47_METHOD_1_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0x17F3DFB0)
-#define CLASS_1_085A149A901F5E47_METHOD_1_D0F4F94C34321A18_OFFSET UNITYSDK_OFFSET(0x17F3DE80)
-#define CLASS_1_085A149A901F5E47_METHOD_1_D78B51BFDA4B8B32_OFFSET UNITYSDK_OFFSET(0x17F3E020)
-#define CLASS_1_085A149A901F5E47_SET_ISSTOPPED_OFFSET UNITYSDK_OFFSET(0x17F3DE70)
-#define CLASS_1_085A149A901F5E47__CTOR_OFFSET UNITYSDK_OFFSET(0x17F3E2F0)
-#define CLASS_1_085A149A901F5E47__TICK_B__11_0_OFFSET UNITYSDK_OFFSET(0x17F3E300)
+#define CLASS_1_085A149A901F5E47_GET_ISSTOPPED_OFFSET UNITYSDK_OFFSET(0xBC7B4E0)
+#define CLASS_1_085A149A901F5E47_METHOD_1_6F7271C62F1FE776_OFFSET UNITYSDK_OFFSET(0xBC7B740)
+#define CLASS_1_085A149A901F5E47_METHOD_1_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0xBC7B630)
+#define CLASS_1_085A149A901F5E47_METHOD_1_D0F4F94C34321A18_OFFSET UNITYSDK_OFFSET(0xBC7B500)
+#define CLASS_1_085A149A901F5E47_METHOD_1_D78B51BFDA4B8B32_OFFSET UNITYSDK_OFFSET(0xBC7B6A0)
+#define CLASS_1_085A149A901F5E47_SET_ISSTOPPED_OFFSET UNITYSDK_OFFSET(0xBC7B4F0)
+#define CLASS_1_085A149A901F5E47__CTOR_OFFSET UNITYSDK_OFFSET(0xBC7B970)
+#define CLASS_1_085A149A901F5E47__TICK_B__11_0_OFFSET UNITYSDK_OFFSET(0xBC7B980)
 
-inline static constexpr unsigned int Class_1_085A149A901F5E47_TypeDefinitionIndex = 77867;
+inline static constexpr unsigned int Class_1_085A149A901F5E47_TypeDefinitionIndex = 78338;
 
 class Class_1_085A149A901F5E47 : public ::System::Object
 {
 public:
-	::Class_1_933C07741192A471* NIHJGJMOEGB; // 0x10
-	::Class_0_16E4307DCC419505_821* MLAEBDBIGLD; // 0x18
-	::System::Collections::Generic::Queue_1<::Class_0_16E4307DCC419505_821*>* OJFECHILFHG; // 0x20
+	::Class_0_16E4307DCC419505_920* MLAEBDBIGLD; // 0x10
+	::System::Collections::Generic::Queue_1<::Class_0_16E4307DCC419505_920*>* OJFECHILFHG; // 0x18
+	::Class_1_933C07741192A471* NIHJGJMOEGB; // 0x20
 	::RPG::Client::Promises::Promise_1<::System::Boolean>* HDKMCJLGOFI; // 0x28
 	::System::Boolean _IsStopped_k__BackingField; // 0x30
 
@@ -44,9 +44,9 @@ public:
 		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_085A149A901F5E47_SET_ISSTOPPED_OFFSET))(this, a1);
 	}
 
-	::RPG::Client::Promises::IPromise_1<::System::Boolean>* Method_1_D0F4F94C34321A18(::Class_1_933C07741192A471* a1, ::System::Collections::Generic::IEnumerable_1<::Class_0_16E4307DCC419505_821*>* a2)
+	::RPG::Client::Promises::IPromise_1<::System::Boolean>* Method_1_D0F4F94C34321A18(::Class_1_933C07741192A471* a1, ::System::Collections::Generic::IEnumerable_1<::Class_0_16E4307DCC419505_920*>* a2)
 	{
-		return ((::RPG::Client::Promises::IPromise_1<::System::Boolean>*(*)(::PVOID, ::Class_1_933C07741192A471*, ::System::Collections::Generic::IEnumerable_1<::Class_0_16E4307DCC419505_821*>*))((::PBYTE)hIl2Cpp + CLASS_1_085A149A901F5E47_METHOD_1_D0F4F94C34321A18_OFFSET))(this, a1, a2);
+		return ((::RPG::Client::Promises::IPromise_1<::System::Boolean>*(*)(::PVOID, ::Class_1_933C07741192A471*, ::System::Collections::Generic::IEnumerable_1<::Class_0_16E4307DCC419505_920*>*))((::PBYTE)hIl2Cpp + CLASS_1_085A149A901F5E47_METHOD_1_D0F4F94C34321A18_OFFSET))(this, a1, a2);
 	}
 
 	::System::Void Method_1_9681042564541CD6()

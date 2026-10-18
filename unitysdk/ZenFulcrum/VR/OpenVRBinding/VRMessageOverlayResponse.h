@@ -3,7 +3,7 @@
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int VRMessageOverlayResponse_TypeDefinitionIndex = 37955;
+	inline static constexpr unsigned int VRMessageOverlayResponse_TypeDefinitionIndex = 39252;
 
 	enum class VRMessageOverlayResponse : ::System::Int32
 	{

@@ -5,19 +5,19 @@
 namespace RPG::CustomRP { class FrameBlending_IFrameBlendingEndOP; }
 namespace UnityEngine { class RenderTexture; }
 
-#define RPG_CUSTOMRP_FRAMEBLENDING_ENDBLENDING_OFFSET UNITYSDK_OFFSET(0x18579AD0)
-#define RPG_CUSTOMRP_FRAMEBLENDING_STARTBLENDING_OFFSET UNITYSDK_OFFSET(0x18579A80)
+#define RPG_CUSTOMRP_FRAMEBLENDING_ENDBLENDING_OFFSET UNITYSDK_OFFSET(0x1CC02390)
+#define RPG_CUSTOMRP_FRAMEBLENDING_STARTBLENDING_OFFSET UNITYSDK_OFFSET(0x1CC02340)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int FrameBlending_TypeDefinitionIndex = 36922;
+	inline static constexpr unsigned int FrameBlending_TypeDefinitionIndex = 37607;
 
 	class FrameBlending : public ::System::Object
 	{
 	public:
 		static ::RPG::CustomRP::FrameBlending_IFrameBlendingEndOP** StaticGet__Op()
 		{
-			return (::RPG::CustomRP::FrameBlending_IFrameBlendingEndOP**)Il2CppClass::FromTypeDefinitionIndex(FrameBlending_TypeDefinitionIndex)->GetStaticField(0x38F70);
+			return (::RPG::CustomRP::FrameBlending_IFrameBlendingEndOP**)Il2CppClass::FromTypeDefinitionIndex(FrameBlending_TypeDefinitionIndex)->GetStaticField(0x2C830);
 		}
 
 		static ::System::Void StartBlending(::UnityEngine::RenderTexture* a1, ::System::Single a2, ::System::Single a3, ::RPG::CustomRP::FrameBlending_IFrameBlendingEndOP* a4)

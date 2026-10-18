@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class CreateBattleTarget; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_E41CF9E964F7A1DE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18AA2CD0)
-#define CLASS_3_E41CF9E964F7A1DE__CTOR_OFFSET UNITYSDK_OFFSET(0x18AA2CA0)
+#define CLASS_3_E41CF9E964F7A1DE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x157B7580)
+#define CLASS_3_E41CF9E964F7A1DE__CTOR_OFFSET UNITYSDK_OFFSET(0x157B7550)
 
-inline static constexpr unsigned int Class_3_E41CF9E964F7A1DE_TypeDefinitionIndex = 58196;
+inline static constexpr unsigned int Class_3_E41CF9E964F7A1DE_TypeDefinitionIndex = 58044;
 
 class Class_3_E41CF9E964F7A1DE : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::CreateBattleTarget*>
 {

@@ -6,16 +6,16 @@ class Class_1_EC9AE4C13166BF65;
 namespace RPG::Client::DiceCombat { class DiceCombatTeamEditDialogMsgParam; }
 namespace RPG::Client::Promises { class IPromise; }
 
-#define CLASS_1_EC9AE4C13166BF65___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19B7B3D0)
-#define CLASS_1_EC9AE4C13166BF65___C__DISPLAYCLASS19_0__HANDLESHOWTEAMEDITDIALOG_B__0_OFFSET UNITYSDK_OFFSET(0x19B7DB40)
+#define CLASS_1_EC9AE4C13166BF65___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBC62380)
+#define CLASS_1_EC9AE4C13166BF65___C__DISPLAYCLASS19_0__HANDLESHOWTEAMEDITDIALOG_B__0_OFFSET UNITYSDK_OFFSET(0xBC64AE0)
 
-inline static constexpr unsigned int Class_1_EC9AE4C13166BF65___c__DisplayClass19_0_TypeDefinitionIndex = 75708;
+inline static constexpr unsigned int Class_1_EC9AE4C13166BF65___c__DisplayClass19_0_TypeDefinitionIndex = 76185;
 
 class Class_1_EC9AE4C13166BF65___c__DisplayClass19_0 : public ::System::Object
 {
 public:
-	::Class_1_EC9AE4C13166BF65* __4__this; // 0x10
-	::RPG::Client::DiceCombat::DiceCombatTeamEditDialogMsgParam* param; // 0x18
+	::RPG::Client::DiceCombat::DiceCombatTeamEditDialogMsgParam* param; // 0x10
+	::Class_1_EC9AE4C13166BF65* __4__this; // 0x18
 
 	::System::Void _ctor()
 	{

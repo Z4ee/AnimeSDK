@@ -5,24 +5,24 @@
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Reflection { class FieldInfo; }
 
-#define CYSHARP_THREADING_TASKS_COMPILERSERVICES_STATEMACHINEUTILITY___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D747870)
-#define CYSHARP_THREADING_TASKS_COMPILERSERVICES_STATEMACHINEUTILITY___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7478B0)
-#define CYSHARP_THREADING_TASKS_COMPILERSERVICES_STATEMACHINEUTILITY___C__GETSTATE_B__0_0_OFFSET UNITYSDK_OFFSET(0x1D7478C0)
+#define CYSHARP_THREADING_TASKS_COMPILERSERVICES_STATEMACHINEUTILITY___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F0E9540)
+#define CYSHARP_THREADING_TASKS_COMPILERSERVICES_STATEMACHINEUTILITY___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1F0E9580)
+#define CYSHARP_THREADING_TASKS_COMPILERSERVICES_STATEMACHINEUTILITY___C__GETSTATE_B__0_0_OFFSET UNITYSDK_OFFSET(0x1F0E9590)
 
 namespace Cysharp::Threading::Tasks::CompilerServices
 {
-	inline static constexpr unsigned int StateMachineUtility___c_TypeDefinitionIndex = 43124;
+	inline static constexpr unsigned int StateMachineUtility___c_TypeDefinitionIndex = 38709;
 
 	class StateMachineUtility___c : public ::System::Object
 	{
 	public:
 		static ::Cysharp::Threading::Tasks::CompilerServices::StateMachineUtility___c** StaticGet___9()
 		{
-			return (::Cysharp::Threading::Tasks::CompilerServices::StateMachineUtility___c**)Il2CppClass::FromTypeDefinitionIndex(StateMachineUtility___c_TypeDefinitionIndex)->GetStaticField(0x619A0);
+			return (::Cysharp::Threading::Tasks::CompilerServices::StateMachineUtility___c**)Il2CppClass::FromTypeDefinitionIndex(StateMachineUtility___c_TypeDefinitionIndex)->GetStaticField(0x36950);
 		}
 		static ::System::Func_2<::System::Reflection::FieldInfo*, ::System::Boolean>** StaticGet___9__0_0()
 		{
-			return (::System::Func_2<::System::Reflection::FieldInfo*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(StateMachineUtility___c_TypeDefinitionIndex)->GetStaticField(0x619A8);
+			return (::System::Func_2<::System::Reflection::FieldInfo*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(StateMachineUtility___c_TypeDefinitionIndex)->GetStaticField(0x36958);
 		}
 
 		static ::System::Void _cctor()

@@ -6,29 +6,29 @@ namespace HoudiniEngineUnity { class Test_Mesh; }
 namespace System { template <typename T1, typename T2> class Converter_2; }
 namespace UnityEngine { class Mesh; }
 
-#define HOUDINIENGINEUNITY_TEST_MESH_EXTENSIONS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EEEF5E0)
-#define HOUDINIENGINEUNITY_TEST_MESH_EXTENSIONS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1EEEF620)
-#define HOUDINIENGINEUNITY_TEST_MESH_EXTENSIONS___C__TOTESTOBJECT_B__1_0_OFFSET UNITYSDK_OFFSET(0x1EEEF630)
-#define HOUDINIENGINEUNITY_TEST_MESH_EXTENSIONS___C__TOTESTOBJECT_B__2_0_OFFSET UNITYSDK_OFFSET(0x1EEEF670)
+#define HOUDINIENGINEUNITY_TEST_MESH_EXTENSIONS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B994750)
+#define HOUDINIENGINEUNITY_TEST_MESH_EXTENSIONS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B994790)
+#define HOUDINIENGINEUNITY_TEST_MESH_EXTENSIONS___C__TOTESTOBJECT_B__1_0_OFFSET UNITYSDK_OFFSET(0x1B9947A0)
+#define HOUDINIENGINEUNITY_TEST_MESH_EXTENSIONS___C__TOTESTOBJECT_B__2_0_OFFSET UNITYSDK_OFFSET(0x1B9947E0)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int Test_Mesh_Extensions___c_TypeDefinitionIndex = 39439;
+	inline static constexpr unsigned int Test_Mesh_Extensions___c_TypeDefinitionIndex = 40736;
 
 	class Test_Mesh_Extensions___c : public ::System::Object
 	{
 	public:
+		static ::System::Converter_2<::UnityEngine::Mesh*, ::HoudiniEngineUnity::Test_Mesh*>** StaticGet___9__2_0()
+		{
+			return (::System::Converter_2<::UnityEngine::Mesh*, ::HoudiniEngineUnity::Test_Mesh*>**)Il2CppClass::FromTypeDefinitionIndex(Test_Mesh_Extensions___c_TypeDefinitionIndex)->GetStaticField(0x642F0);
+		}
 		static ::HoudiniEngineUnity::Test_Mesh_Extensions___c** StaticGet___9()
 		{
-			return (::HoudiniEngineUnity::Test_Mesh_Extensions___c**)Il2CppClass::FromTypeDefinitionIndex(Test_Mesh_Extensions___c_TypeDefinitionIndex)->GetStaticField(0x5CFA0);
+			return (::HoudiniEngineUnity::Test_Mesh_Extensions___c**)Il2CppClass::FromTypeDefinitionIndex(Test_Mesh_Extensions___c_TypeDefinitionIndex)->GetStaticField(0x642F8);
 		}
 		static ::System::Converter_2<::UnityEngine::Mesh*, ::HoudiniEngineUnity::Test_Mesh*>** StaticGet___9__1_0()
 		{
-			return (::System::Converter_2<::UnityEngine::Mesh*, ::HoudiniEngineUnity::Test_Mesh*>**)Il2CppClass::FromTypeDefinitionIndex(Test_Mesh_Extensions___c_TypeDefinitionIndex)->GetStaticField(0x5CFA8);
-		}
-		static ::System::Converter_2<::UnityEngine::Mesh*, ::HoudiniEngineUnity::Test_Mesh*>** StaticGet___9__2_0()
-		{
-			return (::System::Converter_2<::UnityEngine::Mesh*, ::HoudiniEngineUnity::Test_Mesh*>**)Il2CppClass::FromTypeDefinitionIndex(Test_Mesh_Extensions___c_TypeDefinitionIndex)->GetStaticField(0x5CFB0);
+			return (::System::Converter_2<::UnityEngine::Mesh*, ::HoudiniEngineUnity::Test_Mesh*>**)Il2CppClass::FromTypeDefinitionIndex(Test_Mesh_Extensions___c_TypeDefinitionIndex)->GetStaticField(0x64300);
 		}
 
 		static ::System::Void _cctor()

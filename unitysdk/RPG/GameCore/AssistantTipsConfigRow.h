@@ -6,12 +6,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ASSISTANTTIPSCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1C579AA0)
-#define RPG_GAMECORE_ASSISTANTTIPSCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1C579CA0)
+#define RPG_GAMECORE_ASSISTANTTIPSCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3D32C0)
+#define RPG_GAMECORE_ASSISTANTTIPSCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3D34C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AssistantTipsConfigRow_TypeDefinitionIndex = 12586;
+	inline static constexpr unsigned int AssistantTipsConfigRow_TypeDefinitionIndex = 12676;
 
 	class AssistantTipsConfigRow : public ::System::Object
 	{

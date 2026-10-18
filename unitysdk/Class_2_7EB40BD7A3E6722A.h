@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_43BD383C98B4C0C5_213.h"
+#include "unitysdk/Class_1_43BD383C98B4C0C5_215.h"
 
 class Class_1_F9FBCC956DFCF137_27;
 class Class_1_FD611945730E269E;
 namespace RPG::GameCore { class ChimeraDuelFireEffectNode; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_7EB40BD7A3E6722A_METHOD_2_98FE8344617B99D4_OFFSET UNITYSDK_OFFSET(0x19FC01B0)
-#define CLASS_2_7EB40BD7A3E6722A__CTOR_OFFSET UNITYSDK_OFFSET(0x19FC0250)
+#define CLASS_2_7EB40BD7A3E6722A_METHOD_2_98FE8344617B99D4_OFFSET UNITYSDK_OFFSET(0x15565C50)
+#define CLASS_2_7EB40BD7A3E6722A__CTOR_OFFSET UNITYSDK_OFFSET(0x15565CF0)
 
-inline static constexpr unsigned int Class_2_7EB40BD7A3E6722A_TypeDefinitionIndex = 77208;
+inline static constexpr unsigned int Class_2_7EB40BD7A3E6722A_TypeDefinitionIndex = 77679;
 
-class Class_2_7EB40BD7A3E6722A : public ::Class_1_43BD383C98B4C0C5_213
+class Class_2_7EB40BD7A3E6722A : public ::Class_1_43BD383C98B4C0C5_215
 {
 public:
 	::System::Collections::Generic::List_1<::System::Int32>* KPJHIOKBJEI; // 0x10

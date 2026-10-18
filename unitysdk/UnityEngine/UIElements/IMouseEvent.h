@@ -5,7 +5,7 @@
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int IMouseEvent_TypeDefinitionIndex = 5949;
+	inline static constexpr unsigned int IMouseEvent_TypeDefinitionIndex = 5957;
 
 	class IMouseEvent
 	{

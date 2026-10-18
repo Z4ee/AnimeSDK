@@ -6,25 +6,25 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define CLASS_1_23156025CD6B40ED_METHOD_1_95FA3048B3F79507_OFFSET UNITYSDK_OFFSET(0x1B4AB700)
-#define CLASS_1_23156025CD6B40ED__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4ABB00)
+#define CLASS_1_23156025CD6B40ED_METHOD_1_95FA3048B3F79507_OFFSET UNITYSDK_OFFSET(0x1D1381D0)
+#define CLASS_1_23156025CD6B40ED__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1385D0)
 
-inline static constexpr unsigned int Class_1_23156025CD6B40ED_TypeDefinitionIndex = 11225;
+inline static constexpr unsigned int Class_1_23156025CD6B40ED_TypeDefinitionIndex = 11241;
 
 class Class_1_23156025CD6B40ED : public ::System::Object
 {
 public:
-	::System::String* LNPCPJCEMHL; // 0x10
-	::System::String* NAODLBMKJKN; // 0x18
+	::System::String* BDACPPLKLGL; // 0x10
+	::System::String* BFJGHPDNIOI; // 0x18
 	::System::String* HLMCIPNJIHM; // 0x20
-	::System::String* BDACPPLKLGL; // 0x28
-	::System::String* PNIDDEEJPCI; // 0x30
-	::System::String* JACANFAMGBO; // 0x38
-	::System::String* OLOIFNNLKJP; // 0x40
-	::System::String* JBNNNICBNFE; // 0x48
-	::System::String* BFJGHPDNIOI; // 0x50
-	::System::String* CILPGJAFCOK; // 0x58
-	::Il2CppArray<::System::Single>* MBNNCBAAHFC; // 0x60
+	::System::String* PNIDDEEJPCI; // 0x28
+	::System::String* JBNNNICBNFE; // 0x30
+	::System::String* OLOIFNNLKJP; // 0x38
+	::Il2CppArray<::System::Single>* MBNNCBAAHFC; // 0x40
+	::System::String* CILPGJAFCOK; // 0x48
+	::System::String* NAODLBMKJKN; // 0x50
+	::System::String* JACANFAMGBO; // 0x58
+	::System::String* LNPCPJCEMHL; // 0x60
 	::RPG::GameCore::DiceCombatDiceType PBFMMOGEBAK; // 0x68
 
 	::System::Void _ctor()

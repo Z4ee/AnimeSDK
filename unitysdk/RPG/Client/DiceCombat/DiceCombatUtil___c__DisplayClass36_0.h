@@ -5,12 +5,12 @@
 
 namespace RPG::Client::DiceCombat { class DiceCombatCommunicateData; }
 
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATUTIL___C__DISPLAYCLASS36_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C421720)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATUTIL___C__DISPLAYCLASS36_0__GETCOMMUNICATEDATAS_B__0_OFFSET UNITYSDK_OFFSET(0x1C428EB0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATUTIL___C__DISPLAYCLASS36_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCC343F0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATUTIL___C__DISPLAYCLASS36_0__GETCOMMUNICATEDATAS_B__0_OFFSET UNITYSDK_OFFSET(0xCC3BB50)
 
 namespace RPG::Client::DiceCombat
 {
-	inline static constexpr unsigned int DiceCombatUtil___c__DisplayClass36_0_TypeDefinitionIndex = 75625;
+	inline static constexpr unsigned int DiceCombatUtil___c__DisplayClass36_0_TypeDefinitionIndex = 76102;
 
 	class DiceCombatUtil___c__DisplayClass36_0 : public ::System::Object
 	{

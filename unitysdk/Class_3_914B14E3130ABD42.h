@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ForbidBattleConditionOnStart; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_914B14E3130ABD42_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16E95D80)
-#define CLASS_3_914B14E3130ABD42__CTOR_OFFSET UNITYSDK_OFFSET(0x16E95D50)
+#define CLASS_3_914B14E3130ABD42_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15865930)
+#define CLASS_3_914B14E3130ABD42__CTOR_OFFSET UNITYSDK_OFFSET(0x15865900)
 
-inline static constexpr unsigned int Class_3_914B14E3130ABD42_TypeDefinitionIndex = 58277;
+inline static constexpr unsigned int Class_3_914B14E3130ABD42_TypeDefinitionIndex = 58125;
 
 class Class_3_914B14E3130ABD42 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ForbidBattleConditionOnStart*>
 {

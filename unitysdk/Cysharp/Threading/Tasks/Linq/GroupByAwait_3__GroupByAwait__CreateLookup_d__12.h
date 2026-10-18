@@ -10,7 +10,7 @@ namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int GroupByAwait_3__GroupByAwait__CreateLookup_d__12_TypeDefinitionIndex = 44241;
+	inline static constexpr unsigned int GroupByAwait_3__GroupByAwait__CreateLookup_d__12_TypeDefinitionIndex = 45380;
 
 	template <typename TSource, typename TKey, typename TElement>
 	struct GroupByAwait_3__GroupByAwait__CreateLookup_d__12

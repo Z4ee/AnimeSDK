@@ -4,11 +4,11 @@
 
 namespace System::Collections::ObjectModel { template <typename T> class ReadOnlyCollection_1; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_MEMBERMEMBERBINDING_GET_BINDINGS_OFFSET UNITYSDK_OFFSET(0x1DF4AE30)
+#define SYSTEM_LINQ_EXPRESSIONS_MEMBERMEMBERBINDING_GET_BINDINGS_OFFSET UNITYSDK_OFFSET(0x1EE003C0)
 
 namespace System::Linq::Expressions
 {
-	inline static constexpr unsigned int MemberMemberBinding_TypeDefinitionIndex = 3248;
+	inline static constexpr unsigned int MemberMemberBinding_TypeDefinitionIndex = 3249;
 
 	class MemberMemberBinding : public ::System::Linq::Expressions::MemberBinding
 	{

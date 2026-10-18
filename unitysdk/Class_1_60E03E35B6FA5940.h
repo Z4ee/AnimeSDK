@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/Client/LittleGame/Match3/Match3GameState.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_60E03E35B6FA5940__CTOR_OFFSET UNITYSDK_OFFSET(0x1CDEE4B0)
+#define CLASS_1_60E03E35B6FA5940__CTOR_OFFSET UNITYSDK_OFFSET(0x1CB5C160)
 
-inline static constexpr unsigned int Class_1_60E03E35B6FA5940_TypeDefinitionIndex = 40956;
+inline static constexpr unsigned int Class_1_60E03E35B6FA5940_TypeDefinitionIndex = 42241;
 
 class Class_1_60E03E35B6FA5940 : public ::System::Object
 {

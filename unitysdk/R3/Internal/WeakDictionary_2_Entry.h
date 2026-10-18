@@ -8,7 +8,7 @@ namespace System { template <typename T> class WeakReference_1; }
 
 namespace R3::Internal
 {
-	inline static constexpr unsigned int WeakDictionary_2_Entry_TypeDefinitionIndex = 35291;
+	inline static constexpr unsigned int WeakDictionary_2_Entry_TypeDefinitionIndex = 35978;
 
 	template <typename TKey, typename TValue>
 	class WeakDictionary_2_Entry : public ::System::Object

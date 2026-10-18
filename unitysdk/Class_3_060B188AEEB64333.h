@@ -8,11 +8,11 @@ namespace RPG::GameCore { class SwitchCaseByAttackDamageType; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_3_060B188AEEB64333_DISPOSE_OFFSET UNITYSDK_OFFSET(0x18E5EEF0)
-#define CLASS_3_060B188AEEB64333_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18E5F1A0)
-#define CLASS_3_060B188AEEB64333__CTOR_OFFSET UNITYSDK_OFFSET(0x18E5EC90)
+#define CLASS_3_060B188AEEB64333_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16517E40)
+#define CLASS_3_060B188AEEB64333_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x165180F0)
+#define CLASS_3_060B188AEEB64333__CTOR_OFFSET UNITYSDK_OFFSET(0x16517BE0)
 
-inline static constexpr unsigned int Class_3_060B188AEEB64333_TypeDefinitionIndex = 55868;
+inline static constexpr unsigned int Class_3_060B188AEEB64333_TypeDefinitionIndex = 55676;
 
 class Class_3_060B188AEEB64333 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SwitchCaseByAttackDamageType*>
 {

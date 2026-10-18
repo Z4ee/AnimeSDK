@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define UNITYENGINE_SCRIPTINGUTILITY_ISMANAGEDCODEWORKING_OFFSET UNITYSDK_OFFSET(0x1DCDA320)
+#define UNITYENGINE_SCRIPTINGUTILITY_ISMANAGEDCODEWORKING_OFFSET UNITYSDK_OFFSET(0x1F3FE370)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ScriptingUtility_TypeDefinitionIndex = 4337;
+	inline static constexpr unsigned int ScriptingUtility_TypeDefinitionIndex = 4340;
 
 	class ScriptingUtility : public ::System::Object
 	{

@@ -2,25 +2,25 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPGTools/Timeline/CustomEventBehaviour.h"
 
-class Class_1_945ACFB1FEBC7A2C_17;
+class Class_1_945ACFB1FEBC7A2C_16;
 namespace RPGTools::Timeline { class CharacterFullBodyChainData; }
 namespace RPGTools::Timeline { class CharacterFullBodyClip; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_3_75E66032522D4667_METHOD_3_0CACDFAF951A2118_OFFSET UNITYSDK_OFFSET(0x16EE2370)
-#define CLASS_3_75E66032522D4667_METHOD_3_AA7E3074254D484A_OFFSET UNITYSDK_OFFSET(0x16EE1AF0)
-#define CLASS_3_75E66032522D4667_METHOD_3_EDB27C1AE53E0E20_OFFSET UNITYSDK_OFFSET(0x16EE21F0)
-#define CLASS_3_75E66032522D4667__CTOR_OFFSET UNITYSDK_OFFSET(0x16EE2570)
+#define CLASS_3_75E66032522D4667_METHOD_3_0CACDFAF951A2118_OFFSET UNITYSDK_OFFSET(0x157D9E10)
+#define CLASS_3_75E66032522D4667_METHOD_3_AA7E3074254D484A_OFFSET UNITYSDK_OFFSET(0x157D9590)
+#define CLASS_3_75E66032522D4667_METHOD_3_EDB27C1AE53E0E20_OFFSET UNITYSDK_OFFSET(0x157D9C90)
+#define CLASS_3_75E66032522D4667__CTOR_OFFSET UNITYSDK_OFFSET(0x157DA010)
 
-inline static constexpr unsigned int Class_3_75E66032522D4667_TypeDefinitionIndex = 48419;
+inline static constexpr unsigned int Class_3_75E66032522D4667_TypeDefinitionIndex = 47959;
 
 class Class_3_75E66032522D4667 : public ::RPGTools::Timeline::CustomEventBehaviour
 {
 public:
-	::Class_1_945ACFB1FEBC7A2C_17* EABKOHGCHFP; // 0x20
-	::RPGTools::Timeline::CharacterFullBodyClip* PJCDEGEDNFA; // 0x28
-	::Il2CppArray<::RPGTools::Timeline::CharacterFullBodyChainData*>* MMAEKLBBLOD; // 0x30
+	::RPGTools::Timeline::CharacterFullBodyClip* PJCDEGEDNFA; // 0x20
+	::Il2CppArray<::RPGTools::Timeline::CharacterFullBodyChainData*>* MMAEKLBBLOD; // 0x28
+	::Class_1_945ACFB1FEBC7A2C_16* EABKOHGCHFP; // 0x30
 
 	::System::Void _ctor()
 	{

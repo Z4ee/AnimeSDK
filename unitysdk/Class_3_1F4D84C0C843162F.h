@@ -7,10 +7,10 @@ namespace RPG::GameCore { class TargetFetchCurrentPlayerMazeSkillLockTarget; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_3_1F4D84C0C843162F_EVALUATE_OFFSET UNITYSDK_OFFSET(0x14C448C0)
-#define CLASS_3_1F4D84C0C843162F__CTOR_OFFSET UNITYSDK_OFFSET(0x14C44850)
+#define CLASS_3_1F4D84C0C843162F_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB188000)
+#define CLASS_3_1F4D84C0C843162F__CTOR_OFFSET UNITYSDK_OFFSET(0xB187F90)
 
-inline static constexpr unsigned int Class_3_1F4D84C0C843162F_TypeDefinitionIndex = 59245;
+inline static constexpr unsigned int Class_3_1F4D84C0C843162F_TypeDefinitionIndex = 59097;
 
 class Class_3_1F4D84C0C843162F : public ::RPG::GameCore::TargetEvaluatorImpl_1<::RPG::GameCore::TargetFetchCurrentPlayerMazeSkillLockTarget*>
 {

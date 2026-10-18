@@ -6,13 +6,13 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_CHIMERADUELCHIMERALEVELINFO_SELLRULE_CREATEWITHCONSTVALUES_OFFSET UNITYSDK_OFFSET(0x1C1C3480)
-#define RPG_CLIENT_CHIMERADUELCHIMERALEVELINFO_SELLRULE_GETSELLPRICEFORLEVEL_OFFSET UNITYSDK_OFFSET(0x1C1C49E0)
-#define RPG_CLIENT_CHIMERADUELCHIMERALEVELINFO_SELLRULE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C1C4870)
+#define RPG_CLIENT_CHIMERADUELCHIMERALEVELINFO_SELLRULE_CREATEWITHCONSTVALUES_OFFSET UNITYSDK_OFFSET(0xCB168F0)
+#define RPG_CLIENT_CHIMERADUELCHIMERALEVELINFO_SELLRULE_GETSELLPRICEFORLEVEL_OFFSET UNITYSDK_OFFSET(0xCB17DF0)
+#define RPG_CLIENT_CHIMERADUELCHIMERALEVELINFO_SELLRULE__CTOR_OFFSET UNITYSDK_OFFSET(0xCB17C80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraDuelChimeraLevelInfo_SellRule_TypeDefinitionIndex = 63415;
+	inline static constexpr unsigned int ChimeraDuelChimeraLevelInfo_SellRule_TypeDefinitionIndex = 63353;
 
 	class ChimeraDuelChimeraLevelInfo_SellRule : public ::System::Object
 	{

@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2Plane.h"
 #include "unitysdk/System/ValueType.h"
 
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2COLLISIONPLANE__CTOR_OFFSET UNITYSDK_OFFSET(0x82DD40)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2COLLISIONPLANE__CTOR_OFFSET UNITYSDK_OFFSET(0x3C2C870)
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2CollisionPlane_TypeDefinitionIndex = 35925;
+	inline static constexpr unsigned int B2CollisionPlane_TypeDefinitionIndex = 36612;
 
 	struct alignas(4) B2CollisionPlane
 	{

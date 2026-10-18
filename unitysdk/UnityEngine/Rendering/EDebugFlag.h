@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int EDebugFlag_TypeDefinitionIndex = 36836;
+	inline static constexpr unsigned int EDebugFlag_TypeDefinitionIndex = 37523;
 
 	enum class EDebugFlag : ::System::Int64
 	{
@@ -40,7 +40,7 @@ namespace UnityEngine::Rendering
 		kQueryFogEmissionBakeVolume = 536870912,
 		kEnableGrassProfile = 1073741824,
 		kEnableEditGeometryShadow = 2147483648,
-		kAOVLocalLight = 4294967296,
+		kAOVLocalLight_NotUse = 4294967296,
 		kDrawSceneVoxel_NotUse = 8589934592,
 		kEnableGPUParticlesProfile = 17179869184,
 	};

@@ -6,10 +6,10 @@ namespace RPG::GameCore { class ActivityElationShowCutIn; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class String; }
 
-#define CLASS_3_311863009DC59A1A_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17053590)
-#define CLASS_3_311863009DC59A1A__CTOR_OFFSET UNITYSDK_OFFSET(0x17053560)
+#define CLASS_3_311863009DC59A1A_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBB4B4A0)
+#define CLASS_3_311863009DC59A1A__CTOR_OFFSET UNITYSDK_OFFSET(0xBB4B470)
 
-inline static constexpr unsigned int Class_3_311863009DC59A1A_TypeDefinitionIndex = 56528;
+inline static constexpr unsigned int Class_3_311863009DC59A1A_TypeDefinitionIndex = 56341;
 
 class Class_3_311863009DC59A1A : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ActivityElationShowCutIn*>
 {

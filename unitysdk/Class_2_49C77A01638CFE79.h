@@ -8,10 +8,10 @@ class Class_2_AEE59ED8DADEC1A1;
 namespace RPG::GameCore { class DiceCombatDiceSelectorConfig_Color; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_49C77A01638CFE79_METHOD_2_63CDCFC43A9B7109_OFFSET UNITYSDK_OFFSET(0x19D460D0)
-#define CLASS_2_49C77A01638CFE79__CTOR_OFFSET UNITYSDK_OFFSET(0x19D460C0)
+#define CLASS_2_49C77A01638CFE79_METHOD_2_63CDCFC43A9B7109_OFFSET UNITYSDK_OFFSET(0x1C7BC510)
+#define CLASS_2_49C77A01638CFE79__CTOR_OFFSET UNITYSDK_OFFSET(0x1C7BC500)
 
-inline static constexpr unsigned int Class_2_49C77A01638CFE79_TypeDefinitionIndex = 35696;
+inline static constexpr unsigned int Class_2_49C77A01638CFE79_TypeDefinitionIndex = 36383;
 
 class Class_2_49C77A01638CFE79 : public ::Class_1_CD4EC20BEBA8A2DA
 {

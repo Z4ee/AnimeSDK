@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int MSAASamples_TypeDefinitionIndex = 34911;
+	inline static constexpr unsigned int MSAASamples_TypeDefinitionIndex = 35580;
 
 	enum class MSAASamples : ::System::Int32
 	{

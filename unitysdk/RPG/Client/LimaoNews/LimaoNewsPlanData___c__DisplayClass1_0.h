@@ -4,12 +4,12 @@
 
 namespace RPG::Client::LimaoNews { class LimaoNewsPlanPhaseData; }
 
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSPLANDATA___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C5589F0)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSPLANDATA___C__DISPLAYCLASS1_0__GETPLANPHASEDATA_B__0_OFFSET UNITYSDK_OFFSET(0x1C558AC0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSPLANDATA___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD3C45B0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSPLANDATA___C__DISPLAYCLASS1_0__GETPLANPHASEDATA_B__0_OFFSET UNITYSDK_OFFSET(0xD3C4680)
 
 namespace RPG::Client::LimaoNews
 {
-	inline static constexpr unsigned int LimaoNewsPlanData___c__DisplayClass1_0_TypeDefinitionIndex = 78979;
+	inline static constexpr unsigned int LimaoNewsPlanData___c__DisplayClass1_0_TypeDefinitionIndex = 80302;
 
 	class LimaoNewsPlanData___c__DisplayClass1_0 : public ::System::Object
 	{

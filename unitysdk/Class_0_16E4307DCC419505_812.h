@@ -1,7 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_812_TypeDefinitionIndex = 63000;
+namespace RPG::Client { class MessageReplyUiData; }
+
+inline static constexpr unsigned int Class_0_16E4307DCC419505_812_TypeDefinitionIndex = 61545;
 
 class Class_0_16E4307DCC419505_812
 {

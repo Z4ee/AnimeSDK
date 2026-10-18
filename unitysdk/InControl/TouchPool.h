@@ -6,24 +6,24 @@ namespace InControl { class Touch; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Collections::ObjectModel { template <typename T> class ReadOnlyCollection_1; }
 
-#define INCONTROL_TOUCHPOOL_FINDORCREATETOUCH_OFFSET UNITYSDK_OFFSET(0x1498E690)
-#define INCONTROL_TOUCHPOOL_FINDTOUCH_OFFSET UNITYSDK_OFFSET(0x1498F380)
-#define INCONTROL_TOUCHPOOL_FREEENDEDTOUCHES_OFFSET UNITYSDK_OFFSET(0x1498E560)
-#define INCONTROL_TOUCHPOOL_FREETOUCH_OFFSET UNITYSDK_OFFSET(0x14990920)
-#define INCONTROL_TOUCHPOOL_NEWTOUCH_OFFSET UNITYSDK_OFFSET(0x14990880)
-#define INCONTROL_TOUCHPOOL__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1498E550)
-#define INCONTROL_TOUCHPOOL__CTOR_OFFSET UNITYSDK_OFFSET(0x149906F0)
+#define INCONTROL_TOUCHPOOL_FINDORCREATETOUCH_OFFSET UNITYSDK_OFFSET(0x1BA5CF30)
+#define INCONTROL_TOUCHPOOL_FINDTOUCH_OFFSET UNITYSDK_OFFSET(0x1BA5DC20)
+#define INCONTROL_TOUCHPOOL_FREEENDEDTOUCHES_OFFSET UNITYSDK_OFFSET(0x1BA5CE00)
+#define INCONTROL_TOUCHPOOL_FREETOUCH_OFFSET UNITYSDK_OFFSET(0x1BA5F200)
+#define INCONTROL_TOUCHPOOL_NEWTOUCH_OFFSET UNITYSDK_OFFSET(0x1BA5F160)
+#define INCONTROL_TOUCHPOOL__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1BA5CDF0)
+#define INCONTROL_TOUCHPOOL__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA5EFC0)
 
 namespace InControl
 {
-	inline static constexpr unsigned int TouchPool_TypeDefinitionIndex = 39594;
+	inline static constexpr unsigned int TouchPool_TypeDefinitionIndex = 40891;
 
 	class TouchPool : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::InControl::Touch*>* freeTouches; // 0x10
-		::System::Collections::Generic::List_1<::InControl::Touch*>* usedTouches; // 0x18
-		::System::Collections::ObjectModel::ReadOnlyCollection_1<::InControl::Touch*>* Touches; // 0x20
+		::System::Collections::Generic::List_1<::InControl::Touch*>* usedTouches; // 0x10
+		::System::Collections::ObjectModel::ReadOnlyCollection_1<::InControl::Touch*>* Touches; // 0x18
+		::System::Collections::Generic::List_1<::InControl::Touch*>* freeTouches; // 0x20
 
 		::System::Void _ctor(::System::Int32 a1)
 		{

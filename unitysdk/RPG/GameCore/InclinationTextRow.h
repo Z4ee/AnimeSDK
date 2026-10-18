@@ -4,20 +4,20 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_INCLINATIONTEXTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D21B3D0)
-#define RPG_GAMECORE_INCLINATIONTEXTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D21B580)
+#define RPG_GAMECORE_INCLINATIONTEXTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D758050)
+#define RPG_GAMECORE_INCLINATIONTEXTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D758200)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int InclinationTextRow_TypeDefinitionIndex = 13698;
+	inline static constexpr unsigned int InclinationTextRow_TypeDefinitionIndex = 13805;
 
 	class InclinationTextRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* InclinationAddValueList; // 0x10
-		::Il2CppArray<::System::UInt32>* InclinationTypeList; // 0x18
-		::System::UInt32 InclinationType; // 0x20
-		::System::UInt32 TalkSentenceID; // 0x24
+		::Il2CppArray<::System::UInt32>* InclinationTypeList; // 0x10
+		::Il2CppArray<::System::UInt32>* InclinationAddValueList; // 0x18
+		::System::UInt32 TalkSentenceID; // 0x20
+		::System::UInt32 InclinationType; // 0x24
 
 		::System::Void _ctor()
 		{

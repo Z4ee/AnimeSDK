@@ -10,13 +10,13 @@ namespace RPG::GameCore { class FiveDimGravityBoardCameraConfig; }
 namespace RPG::GameCore { class LittleGameEvent; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIVEDIMGRAVITYWALKBOARDCONFIG_METHOD_3_186B1C452A0F5895_OFFSET UNITYSDK_OFFSET(0x1D8635A0)
-#define RPG_GAMECORE_FIVEDIMGRAVITYWALKBOARDCONFIG_METHOD_3_6BCCAE829A5D1719_OFFSET UNITYSDK_OFFSET(0x1D863550)
-#define RPG_GAMECORE_FIVEDIMGRAVITYWALKBOARDCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D863590)
+#define RPG_GAMECORE_FIVEDIMGRAVITYWALKBOARDCONFIG_METHOD_3_18746436CDA9A473_OFFSET UNITYSDK_OFFSET(0x1D694C90)
+#define RPG_GAMECORE_FIVEDIMGRAVITYWALKBOARDCONFIG_METHOD_3_5BBC85FDE97F20A8_OFFSET UNITYSDK_OFFSET(0x1D694CE0)
+#define RPG_GAMECORE_FIVEDIMGRAVITYWALKBOARDCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D694CD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimGravityWalkBoardConfig_TypeDefinitionIndex = 18356;
+	inline static constexpr unsigned int FiveDimGravityWalkBoardConfig_TypeDefinitionIndex = 18571;
 
 	class FiveDimGravityWalkBoardConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
@@ -42,14 +42,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMGRAVITYWALKBOARDCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_6BCCAE829A5D1719(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimGravityWalkBoardConfig*& a2)
+		static ::System::Void Method_3_18746436CDA9A473(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimGravityWalkBoardConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimGravityWalkBoardConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMGRAVITYWALKBOARDCONFIG_METHOD_3_6BCCAE829A5D1719_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimGravityWalkBoardConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMGRAVITYWALKBOARDCONFIG_METHOD_3_18746436CDA9A473_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_186B1C452A0F5895(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimGravityWalkBoardConfig* a2)
+		static ::System::Void Method_3_5BBC85FDE97F20A8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimGravityWalkBoardConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimGravityWalkBoardConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMGRAVITYWALKBOARDCONFIG_METHOD_3_186B1C452A0F5895_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimGravityWalkBoardConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMGRAVITYWALKBOARDCONFIG_METHOD_3_5BBC85FDE97F20A8_OFFSET))(a1, a2);
 		}
 	};
 }

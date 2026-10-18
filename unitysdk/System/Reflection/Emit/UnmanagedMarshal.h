@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_REFLECTION_EMIT_UNMANAGEDMARSHAL__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC1F6D0)
+#define SYSTEM_REFLECTION_EMIT_UNMANAGEDMARSHAL__CTOR_OFFSET UNITYSDK_OFFSET(0x1C273740)
 
 namespace System::Reflection::Emit
 {

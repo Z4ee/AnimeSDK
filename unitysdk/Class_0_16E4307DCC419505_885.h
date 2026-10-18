@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/GameCore/AvatarPropertyType.h"
 
-namespace RPG::Client { class GridFightRoleProperty; }
+namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_885_TypeDefinitionIndex = 65583;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_885_TypeDefinitionIndex = 62758;
 
 class Class_0_16E4307DCC419505_885
 {

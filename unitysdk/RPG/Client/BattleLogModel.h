@@ -5,11 +5,11 @@
 namespace RPG::Client { class BattleLogUploadContent; }
 namespace System { class String; }
 
-#define RPG_CLIENT_BATTLELOGMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x19F6ABC0)
+#define RPG_CLIENT_BATTLELOGMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xC83AF40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BattleLogModel_TypeDefinitionIndex = 61054;
+	inline static constexpr unsigned int BattleLogModel_TypeDefinitionIndex = 60957;
 
 	class BattleLogModel : public ::System::Object
 	{

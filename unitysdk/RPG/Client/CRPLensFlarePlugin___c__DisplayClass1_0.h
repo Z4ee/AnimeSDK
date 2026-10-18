@@ -6,18 +6,18 @@ namespace RPG::Client { class CRPLensFlarePlugin; }
 namespace RPG::Client { class IAssetOperation; }
 namespace RPG::Client { class OnAssetOperationDelegate; }
 
-#define RPG_CLIENT_CRPLENSFLAREPLUGIN___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A11D220)
-#define RPG_CLIENT_CRPLENSFLAREPLUGIN___C__DISPLAYCLASS1_0___ASYNCLOAD_B__0_OFFSET UNITYSDK_OFFSET(0x1A11D840)
+#define RPG_CLIENT_CRPLENSFLAREPLUGIN___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC8C5A50)
+#define RPG_CLIENT_CRPLENSFLAREPLUGIN___C__DISPLAYCLASS1_0___ASYNCLOAD_B__0_OFFSET UNITYSDK_OFFSET(0xC8C6070)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CRPLensFlarePlugin___c__DisplayClass1_0_TypeDefinitionIndex = 70131;
+	inline static constexpr unsigned int CRPLensFlarePlugin___c__DisplayClass1_0_TypeDefinitionIndex = 70167;
 
 	class CRPLensFlarePlugin___c__DisplayClass1_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::CRPLensFlarePlugin* __4__this; // 0x10
-		::RPG::Client::OnAssetOperationDelegate* __9__0; // 0x18
+		::RPG::Client::OnAssetOperationDelegate* __9__0; // 0x10
+		::RPG::Client::CRPLensFlarePlugin* __4__this; // 0x18
 		::System::Int32 totalLoadCount; // 0x20
 
 		::System::Void _ctor()

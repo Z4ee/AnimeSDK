@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/InControl/InputDeviceProfile.h"
 
-#define INCONTROL_UNITYDEVICEPROFILES_EXECUTIONERXWINDOWSUNITYPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0xC0A8090)
-#define INCONTROL_UNITYDEVICEPROFILES_EXECUTIONERXWINDOWSUNITYPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0xC0A9320)
+#define INCONTROL_UNITYDEVICEPROFILES_EXECUTIONERXWINDOWSUNITYPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x1BA883A0)
+#define INCONTROL_UNITYDEVICEPROFILES_EXECUTIONERXWINDOWSUNITYPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA89630)
 
 namespace InControl::UnityDeviceProfiles
 {
-	inline static constexpr unsigned int ExecutionerXWindowsUnityProfile_TypeDefinitionIndex = 39769;
+	inline static constexpr unsigned int ExecutionerXWindowsUnityProfile_TypeDefinitionIndex = 41066;
 
 	class ExecutionerXWindowsUnityProfile : public ::InControl::InputDeviceProfile
 	{

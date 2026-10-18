@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_NOTIFYSETBATTLEENTITYVIEWACTIVE__CTOR_OFFSET UNITYSDK_OFFSET(0x191C1C20)
+#define RPG_CLIENT_NOTIFYSETBATTLEENTITYVIEWACTIVE__CTOR_OFFSET UNITYSDK_OFFSET(0xD9CE740)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int NotifySetBattleEntityViewActive_TypeDefinitionIndex = 71305;
+	inline static constexpr unsigned int NotifySetBattleEntityViewActive_TypeDefinitionIndex = 71343;
 
 	class NotifySetBattleEntityViewActive : public ::System::Object
 	{

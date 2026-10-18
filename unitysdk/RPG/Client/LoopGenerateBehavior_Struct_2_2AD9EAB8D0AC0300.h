@@ -6,7 +6,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LoopGenerateBehavior_Struct_2_2AD9EAB8D0AC0300_TypeDefinitionIndex = 70873;
+	inline static constexpr unsigned int LoopGenerateBehavior_Struct_2_2AD9EAB8D0AC0300_TypeDefinitionIndex = 70906;
 
 	struct alignas(4) LoopGenerateBehavior_Struct_2_2AD9EAB8D0AC0300
 	{

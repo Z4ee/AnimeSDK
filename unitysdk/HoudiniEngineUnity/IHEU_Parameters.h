@@ -15,7 +15,7 @@ namespace UnityEngine { class GameObject; }
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int IHEU_Parameters_TypeDefinitionIndex = 39278;
+	inline static constexpr unsigned int IHEU_Parameters_TypeDefinitionIndex = 40575;
 
 	class IHEU_Parameters
 	{

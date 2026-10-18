@@ -11,36 +11,36 @@ namespace RPG::GameCore { class FreeStyleTriggerGraphInfo; }
 namespace RPG::GameCore { class FreeStyleTriggerGraphTemplateConfig; }
 namespace System { class String; }
 
-#define CLASS_1_B00F7C4C3DDAC6B6_METHOD_1_1AD5857B8C9C3CBE_OFFSET UNITYSDK_OFFSET(0x17E8B620)
-#define CLASS_1_B00F7C4C3DDAC6B6_METHOD_1_207232411D7EF2B4_OFFSET UNITYSDK_OFFSET(0x17E8B990)
-#define CLASS_1_B00F7C4C3DDAC6B6_METHOD_1_401CDFF85DCB5396_1_OFFSET UNITYSDK_OFFSET(0x17E8CA50)
-#define CLASS_1_B00F7C4C3DDAC6B6_METHOD_1_401CDFF85DCB5396_OFFSET UNITYSDK_OFFSET(0x17E8C680)
-#define CLASS_1_B00F7C4C3DDAC6B6_METHOD_1_503CD42A0C349327_OFFSET UNITYSDK_OFFSET(0x17E8B820)
-#define CLASS_1_B00F7C4C3DDAC6B6_METHOD_1_96BD6DEE3137F1D5_OFFSET UNITYSDK_OFFSET(0x17E8B570)
-#define CLASS_1_B00F7C4C3DDAC6B6_METHOD_1_A1E2B53079D1C108_OFFSET UNITYSDK_OFFSET(0x17E8C9B0)
-#define CLASS_1_B00F7C4C3DDAC6B6_METHOD_1_EBB11CF0AA6652B5_OFFSET UNITYSDK_OFFSET(0x17E8C730)
-#define CLASS_1_B00F7C4C3DDAC6B6__CCTOR_OFFSET UNITYSDK_OFFSET(0x17E8CB00)
+#define CLASS_1_B00F7C4C3DDAC6B6_METHOD_1_1AD5857B8C9C3CBE_OFFSET UNITYSDK_OFFSET(0xB747760)
+#define CLASS_1_B00F7C4C3DDAC6B6_METHOD_1_207232411D7EF2B4_OFFSET UNITYSDK_OFFSET(0xB747AD0)
+#define CLASS_1_B00F7C4C3DDAC6B6_METHOD_1_401CDFF85DCB5396_1_OFFSET UNITYSDK_OFFSET(0xB748BB0)
+#define CLASS_1_B00F7C4C3DDAC6B6_METHOD_1_401CDFF85DCB5396_OFFSET UNITYSDK_OFFSET(0xB7487E0)
+#define CLASS_1_B00F7C4C3DDAC6B6_METHOD_1_503CD42A0C349327_OFFSET UNITYSDK_OFFSET(0xB747960)
+#define CLASS_1_B00F7C4C3DDAC6B6_METHOD_1_96BD6DEE3137F1D5_OFFSET UNITYSDK_OFFSET(0xB7476B0)
+#define CLASS_1_B00F7C4C3DDAC6B6_METHOD_1_A1E2B53079D1C108_OFFSET UNITYSDK_OFFSET(0xB748B10)
+#define CLASS_1_B00F7C4C3DDAC6B6_METHOD_1_EBB11CF0AA6652B5_OFFSET UNITYSDK_OFFSET(0xB748890)
+#define CLASS_1_B00F7C4C3DDAC6B6__CCTOR_OFFSET UNITYSDK_OFFSET(0xB748C60)
 
-inline static constexpr unsigned int Class_1_B00F7C4C3DDAC6B6_TypeDefinitionIndex = 57427;
+inline static constexpr unsigned int Class_1_B00F7C4C3DDAC6B6_TypeDefinitionIndex = 57271;
 
 class Class_1_B00F7C4C3DDAC6B6 : public ::System::Object
 {
 public:
+	static ::RPG::Client::LRUCache_2<::System::String*, ::Class_1_92E3E110E38400D6*>** StaticGet_AOAPMGJGHOC()
+	{
+		return (::RPG::Client::LRUCache_2<::System::String*, ::Class_1_92E3E110E38400D6*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_B00F7C4C3DDAC6B6_TypeDefinitionIndex)->GetStaticField(0x698E0);
+	}
 	static ::RPG::Client::LRUCache_2<::System::String*, ::RPG::GameCore::FreeStyleTriggerGraphTemplateConfig*>** StaticGet_EOLPHFHNKMI()
 	{
-		return (::RPG::Client::LRUCache_2<::System::String*, ::RPG::GameCore::FreeStyleTriggerGraphTemplateConfig*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_B00F7C4C3DDAC6B6_TypeDefinitionIndex)->GetStaticField(0x1E600);
+		return (::RPG::Client::LRUCache_2<::System::String*, ::RPG::GameCore::FreeStyleTriggerGraphTemplateConfig*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_B00F7C4C3DDAC6B6_TypeDefinitionIndex)->GetStaticField(0x698E8);
 	}
 	static ::System::String** StaticGet_HABAOLGJMBI()
 	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_B00F7C4C3DDAC6B6_TypeDefinitionIndex)->GetStaticField(0x1E608);
-	}
-	static ::RPG::Client::LRUCache_2<::System::String*, ::Class_1_92E3E110E38400D6*>** StaticGet_AOAPMGJGHOC()
-	{
-		return (::RPG::Client::LRUCache_2<::System::String*, ::Class_1_92E3E110E38400D6*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_B00F7C4C3DDAC6B6_TypeDefinitionIndex)->GetStaticField(0x1E610);
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_B00F7C4C3DDAC6B6_TypeDefinitionIndex)->GetStaticField(0x698F0);
 	}
 	static ::RPG::GameCore::FreeStyleCharacterIDMappingConfig** StaticGet_HLGKFCGLCPG()
 	{
-		return (::RPG::GameCore::FreeStyleCharacterIDMappingConfig**)Il2CppClass::FromTypeDefinitionIndex(Class_1_B00F7C4C3DDAC6B6_TypeDefinitionIndex)->GetStaticField(0x1E618);
+		return (::RPG::GameCore::FreeStyleCharacterIDMappingConfig**)Il2CppClass::FromTypeDefinitionIndex(Class_1_B00F7C4C3DDAC6B6_TypeDefinitionIndex)->GetStaticField(0x698F8);
 	}
 
 	static ::System::Void _cctor()

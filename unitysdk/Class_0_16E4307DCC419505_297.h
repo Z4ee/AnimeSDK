@@ -1,13 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/GameFramework/FileSystem/FileSystemAccess.h"
+#include "unitysdk/UnityEngine/Quaternion.h"
+#include "unitysdk/UnityEngine/Vector3.h"
 
-class Class_0_16E4307DCC419505_298;
-class Class_0_16E4307DCC419505_299;
-namespace System { class String; }
-namespace System::Collections::Generic { template <typename T> class List_1; }
+class Class_1_964A712EA586728B;
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_297_TypeDefinitionIndex = 42222;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_297_TypeDefinitionIndex = 42671;
 
 class Class_0_16E4307DCC419505_297
 {

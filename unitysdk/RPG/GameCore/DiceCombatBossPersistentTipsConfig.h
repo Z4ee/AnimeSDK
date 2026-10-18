@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DiceCombatTaskConfig; }
 
-#define RPG_GAMECORE_DICECOMBATBOSSPERSISTENTTIPSCONFIG_METHOD_2_949FCF4B093FFA9B_OFFSET UNITYSDK_OFFSET(0x1D820110)
-#define RPG_GAMECORE_DICECOMBATBOSSPERSISTENTTIPSCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D820200)
+#define RPG_GAMECORE_DICECOMBATBOSSPERSISTENTTIPSCONFIG_METHOD_2_949FCF4B093FFA9B_OFFSET UNITYSDK_OFFSET(0x1D5D7E70)
+#define RPG_GAMECORE_DICECOMBATBOSSPERSISTENTTIPSCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5D7F60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DiceCombatBossPersistentTipsConfig_TypeDefinitionIndex = 16016;
+	inline static constexpr unsigned int DiceCombatBossPersistentTipsConfig_TypeDefinitionIndex = 16189;
 
 	class DiceCombatBossPersistentTipsConfig : public ::RPG::GameCore::JsonConfig
 	{

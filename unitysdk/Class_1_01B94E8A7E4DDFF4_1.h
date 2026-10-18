@@ -4,29 +4,29 @@
 
 namespace System { class String; }
 
-#define CLASS_1_01B94E8A7E4DDFF4_1__CCTOR_OFFSET UNITYSDK_OFFSET(0x18975C40)
-#define CLASS_1_01B94E8A7E4DDFF4_1__CTOR_OFFSET UNITYSDK_OFFSET(0x18975C30)
+#define CLASS_1_01B94E8A7E4DDFF4_1__CCTOR_OFFSET UNITYSDK_OFFSET(0xE83E8D0)
+#define CLASS_1_01B94E8A7E4DDFF4_1__CTOR_OFFSET UNITYSDK_OFFSET(0xE83E8C0)
 
-inline static constexpr unsigned int Class_1_01B94E8A7E4DDFF4_1_TypeDefinitionIndex = 78284;
+inline static constexpr unsigned int Class_1_01B94E8A7E4DDFF4_1_TypeDefinitionIndex = 78755;
 
 class Class_1_01B94E8A7E4DDFF4_1 : public ::System::Object
 {
 public:
-	static ::System::String** StaticGet_NCECAMLOOMI()
-	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_01B94E8A7E4DDFF4_1_TypeDefinitionIndex)->GetStaticField(0x3DB0);
-	}
 	static ::System::String** StaticGet_FHMMAOOCOPN()
 	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_01B94E8A7E4DDFF4_1_TypeDefinitionIndex)->GetStaticField(0x3DB8);
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_01B94E8A7E4DDFF4_1_TypeDefinitionIndex)->GetStaticField(0x48BC0);
 	}
 	static ::System::String** StaticGet_KENNHJJMKMN()
 	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_01B94E8A7E4DDFF4_1_TypeDefinitionIndex)->GetStaticField(0x3DC0);
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_01B94E8A7E4DDFF4_1_TypeDefinitionIndex)->GetStaticField(0x48BC8);
 	}
 	static ::System::String** StaticGet_OIPFHHEPHBH()
 	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_01B94E8A7E4DDFF4_1_TypeDefinitionIndex)->GetStaticField(0x3DC8);
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_01B94E8A7E4DDFF4_1_TypeDefinitionIndex)->GetStaticField(0x48BD0);
+	}
+	static ::System::String** StaticGet_NCECAMLOOMI()
+	{
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_01B94E8A7E4DDFF4_1_TypeDefinitionIndex)->GetStaticField(0x48BD8);
 	}
 
 	::System::Void _ctor()

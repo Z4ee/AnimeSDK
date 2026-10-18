@@ -7,10 +7,10 @@ class Class_2_D41426B74FA833B4;
 namespace System { template <typename T> class Predicate_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_34F62ED85ED3BF77___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0x179417B0)
-#define CLASS_2_34F62ED85ED3BF77___C__DISPLAYCLASS11_0___DORELOADALL_B__0_OFFSET UNITYSDK_OFFSET(0x17941C30)
+#define CLASS_2_34F62ED85ED3BF77___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0x154F21E0)
+#define CLASS_2_34F62ED85ED3BF77___C__DISPLAYCLASS11_0___DORELOADALL_B__0_OFFSET UNITYSDK_OFFSET(0x154F2660)
 
-inline static constexpr unsigned int Class_2_34F62ED85ED3BF77___c__DisplayClass11_0_TypeDefinitionIndex = 71998;
+inline static constexpr unsigned int Class_2_34F62ED85ED3BF77___c__DisplayClass11_0_TypeDefinitionIndex = 72071;
 
 class Class_2_34F62ED85ED3BF77___c__DisplayClass11_0 : public ::System::Object
 {

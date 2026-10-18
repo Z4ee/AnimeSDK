@@ -7,7 +7,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int UIBlurSettings_TypeDefinitionIndex = 4837;
+	inline static constexpr unsigned int UIBlurSettings_TypeDefinitionIndex = 4843;
 
 	struct alignas(4) UIBlurSettings
 	{

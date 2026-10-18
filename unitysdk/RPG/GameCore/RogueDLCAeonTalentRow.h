@@ -7,25 +7,25 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ROGUEDLCAEONTALENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D91F0F0)
-#define RPG_GAMECORE_ROGUEDLCAEONTALENTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D91F920)
+#define RPG_GAMECORE_ROGUEDLCAEONTALENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D98B0B0)
+#define RPG_GAMECORE_ROGUEDLCAEONTALENTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D98B8E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueDLCAeonTalentRow_TypeDefinitionIndex = 14584;
+	inline static constexpr unsigned int RogueDLCAeonTalentRow_TypeDefinitionIndex = 14749;
 
 	class RogueDLCAeonTalentRow : public ::System::Object
 	{
 	public:
-		::System::String* TalentIcon; // 0x10
-		::Il2CppArray<::System::UInt32>* GamePlayEffectList; // 0x18
+		::Il2CppArray<::System::UInt32>* GamePlayEffectList; // 0x10
+		::System::String* TalentIcon; // 0x18
 		::Il2CppArray<::RPG::GameCore::FixPoint>* EffectDescParamList; // 0x20
-		::System::UInt32 UnlockAeonDimensionPoint; // 0x28
-		::System::UInt32 AeonTalentID; // 0x2C
-		::RPG::Client::TextID EffectDesc; // 0x30
-		::RPG::Client::TextID EffectTitle; // 0x40
-		::System::UInt32 AeonDimensionID; // 0x50
-		::System::Boolean IsImportant; // 0x54
+		::RPG::Client::TextID EffectTitle; // 0x28
+		::System::UInt32 UnlockAeonDimensionPoint; // 0x38
+		::System::Boolean IsImportant; // 0x3C
+		::RPG::Client::TextID EffectDesc; // 0x40
+		::System::UInt32 AeonTalentID; // 0x50
+		::System::UInt32 AeonDimensionID; // 0x54
 
 		::System::Void _ctor()
 		{

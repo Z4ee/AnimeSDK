@@ -3,12 +3,12 @@
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_12ABE890CAA92AB9;
 class Class_1_2AEC7C4C0F203579;
+class Class_1_671DC0E69EA9EC51;
 class Class_1_9015B34004B876E5;
 class Class_1_9015B34004B876E5_1;
 class Class_1_AE4553DBAC72BB2D;
-class Class_1_D17272E82AE804C2_29;
+class Class_1_D17272E82AE804C2_42;
 namespace RPG { template <typename T> class PoolList_1; }
 namespace RPG::GameCore { class BattleGridFightAvatarData; }
 namespace RPG::GameCore { class BattleGridFightTeamTraitData; }
@@ -17,44 +17,44 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_22B8FDC4E33ACC56_METHOD_1_2372762F4122DEB8_OFFSET UNITYSDK_OFFSET(0x16776D80)
-#define CLASS_1_22B8FDC4E33ACC56_METHOD_1_546CAA3EBBF2E065_OFFSET UNITYSDK_OFFSET(0x16776DF0)
-#define CLASS_1_22B8FDC4E33ACC56_METHOD_1_A85C48C9FFC0CF55_OFFSET UNITYSDK_OFFSET(0x16776780)
-#define CLASS_1_22B8FDC4E33ACC56_METHOD_1_DCEFF804A18F7728_OFFSET UNITYSDK_OFFSET(0x16776AF0)
-#define CLASS_1_22B8FDC4E33ACC56_METHOD_1_FCEBEAD2390B94D2_OFFSET UNITYSDK_OFFSET(0x167769C0)
-#define CLASS_1_22B8FDC4E33ACC56__CTOR_OFFSET UNITYSDK_OFFSET(0x16777B50)
+#define CLASS_1_22B8FDC4E33ACC56_METHOD_1_2372762F4122DEB8_OFFSET UNITYSDK_OFFSET(0x15ACBDC0)
+#define CLASS_1_22B8FDC4E33ACC56_METHOD_1_546CAA3EBBF2E065_OFFSET UNITYSDK_OFFSET(0x15ACBE30)
+#define CLASS_1_22B8FDC4E33ACC56_METHOD_1_A85C48C9FFC0CF55_OFFSET UNITYSDK_OFFSET(0x15ACB7C0)
+#define CLASS_1_22B8FDC4E33ACC56_METHOD_1_DCEFF804A18F7728_OFFSET UNITYSDK_OFFSET(0x15ACBB30)
+#define CLASS_1_22B8FDC4E33ACC56_METHOD_1_FCEBEAD2390B94D2_OFFSET UNITYSDK_OFFSET(0x15ACBA00)
+#define CLASS_1_22B8FDC4E33ACC56__CTOR_OFFSET UNITYSDK_OFFSET(0x15ACCB90)
 
-inline static constexpr unsigned int Class_1_22B8FDC4E33ACC56_TypeDefinitionIndex = 56480;
+inline static constexpr unsigned int Class_1_22B8FDC4E33ACC56_TypeDefinitionIndex = 56293;
 
 class Class_1_22B8FDC4E33ACC56 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::RPG::GameCore::BattleGridFightTeamTraitData*>* GOBDPJABGEH; // 0x10
-	::System::Collections::Generic::List_1<::Class_1_D17272E82AE804C2_29*>* KCOMPKMJCMC; // 0x18
-	::Class_1_12ABE890CAA92AB9* HLFDLAIDABN; // 0x20
-	::System::Collections::Generic::List_1<::RPG::GameCore::BattleGridFightTeamTraitData*>* MAOCICGPNOE; // 0x28
+	::Class_1_2AEC7C4C0F203579* KAEJCAMAIIE; // 0x10
+	::Class_1_671DC0E69EA9EC51* HLFDLAIDABN; // 0x18
+	::System::Collections::Generic::List_1<::RPG::GameCore::LineUpCharacter*>* JOBFPOMPGOC; // 0x20
+	::System::Collections::Generic::List_1<::Class_1_9015B34004B876E5_1*>* BHLMEOBLIDG; // 0x28
 	::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::FixPoint>* FCDAMKENCCE; // 0x30
-	::System::Collections::Generic::List_1<::Class_1_AE4553DBAC72BB2D*>* AHKBIHOGBJB; // 0x38
-	::System::Collections::Generic::List_1<::RPG::GameCore::LineUpCharacter*>* JOBFPOMPGOC; // 0x40
-	::System::Collections::Generic::List_1<::RPG::GameCore::BattleGridFightAvatarData*>* LEOOKBHBABM; // 0x48
-	::Class_1_2AEC7C4C0F203579* KAEJCAMAIIE; // 0x50
-	::System::Collections::Generic::List_1<::RPG::GameCore::BattleGridFightTeamTraitData*>* PNLOHHEENGI; // 0x58
-	::System::Collections::Generic::List_1<::Class_1_9015B34004B876E5_1*>* BHLMEOBLIDG; // 0x60
-	::System::Collections::Generic::List_1<::Class_1_9015B34004B876E5*>* KIACPLNFMLH; // 0x68
-	::System::UInt32 KOMFCJAFGPA; // 0x70
-	::System::UInt32 BHFNGFHKKMF; // 0x74
-	::System::UInt32 AACGBEBGDPE; // 0x78
-	::System::UInt32 HBPDNKBPOKL; // 0x7C
-	::System::UInt32 CJCCMAACJDB; // 0x80
-	::System::UInt32 EHNJDIDABHD; // 0x84
-	::System::UInt32 LIFBHELMEAI; // 0x88
-	::System::UInt32 NFBJINKLLLK; // 0x8C
-	::System::UInt32 LDFEJAAOLKB; // 0x90
-	::System::Boolean OHJAOGJDJPO; // 0x94
+	::System::Collections::Generic::List_1<::RPG::GameCore::BattleGridFightTeamTraitData*>* PNLOHHEENGI; // 0x38
+	::System::Collections::Generic::List_1<::RPG::GameCore::BattleGridFightTeamTraitData*>* GOBDPJABGEH; // 0x40
+	::System::Collections::Generic::List_1<::Class_1_9015B34004B876E5*>* KIACPLNFMLH; // 0x48
+	::System::Collections::Generic::List_1<::RPG::GameCore::BattleGridFightAvatarData*>* LEOOKBHBABM; // 0x50
+	::System::Collections::Generic::List_1<::Class_1_AE4553DBAC72BB2D*>* AHKBIHOGBJB; // 0x58
+	::System::Collections::Generic::List_1<::RPG::GameCore::BattleGridFightTeamTraitData*>* MAOCICGPNOE; // 0x60
+	::System::Collections::Generic::List_1<::Class_1_D17272E82AE804C2_42*>* KCOMPKMJCMC; // 0x68
+	::System::UInt32 AACGBEBGDPE; // 0x70
+	::System::UInt32 NFBJINKLLLK; // 0x74
+	::System::UInt32 KOMFCJAFGPA; // 0x78
+	::System::UInt32 LDFEJAAOLKB; // 0x7C
+	::System::UInt32 MLHLNECCDPD; // 0x80
+	::RPG::GameCore::FixPoint PKANAKAEJBF; // 0x88
+	::System::UInt32 BHFNGFHKKMF; // 0x90
+	::System::UInt32 LODNFLMBIEH; // 0x94
 	::System::UInt32 OOFPAKJPBAL; // 0x98
-	::System::UInt32 LODNFLMBIEH; // 0x9C
-	::System::UInt32 MLHLNECCDPD; // 0xA0
-	::RPG::GameCore::FixPoint PKANAKAEJBF; // 0xA8
+	::System::UInt32 LIFBHELMEAI; // 0x9C
+	::System::UInt32 HBPDNKBPOKL; // 0xA0
+	::System::Boolean OHJAOGJDJPO; // 0xA4
+	::System::UInt32 EHNJDIDABHD; // 0xA8
+	::System::UInt32 CJCCMAACJDB; // 0xAC
 
 	::System::Void _ctor()
 	{

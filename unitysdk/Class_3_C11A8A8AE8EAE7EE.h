@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class RemoveAdventureModifier; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_C11A8A8AE8EAE7EE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18BE45D0)
-#define CLASS_3_C11A8A8AE8EAE7EE__CTOR_OFFSET UNITYSDK_OFFSET(0x18BE45A0)
+#define CLASS_3_C11A8A8AE8EAE7EE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB9ABC00)
+#define CLASS_3_C11A8A8AE8EAE7EE__CTOR_OFFSET UNITYSDK_OFFSET(0xB9ABBD0)
 
-inline static constexpr unsigned int Class_3_C11A8A8AE8EAE7EE_TypeDefinitionIndex = 58532;
+inline static constexpr unsigned int Class_3_C11A8A8AE8EAE7EE_TypeDefinitionIndex = 58383;
 
 class Class_3_C11A8A8AE8EAE7EE : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::RemoveAdventureModifier*>
 {

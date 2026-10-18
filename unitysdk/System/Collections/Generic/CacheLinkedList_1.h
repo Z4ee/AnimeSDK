@@ -17,7 +17,7 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System::Collections::Generic
 {
-	inline static constexpr unsigned int CacheLinkedList_1_TypeDefinitionIndex = 6298;
+	inline static constexpr unsigned int CacheLinkedList_1_TypeDefinitionIndex = 6307;
 
 	template <typename T>
 	class CacheLinkedList_1 : public ::System::Object

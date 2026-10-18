@@ -3,7 +3,7 @@
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_Curve_Interaction_TypeDefinitionIndex = 39085;
+	inline static constexpr unsigned int HEU_Curve_Interaction_TypeDefinitionIndex = 40382;
 
 	enum class HEU_Curve_Interaction : ::System::Int32
 	{

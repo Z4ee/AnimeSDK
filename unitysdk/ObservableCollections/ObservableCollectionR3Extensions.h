@@ -9,7 +9,7 @@ namespace R3 { template <typename T> class Observable_1; }
 
 namespace ObservableCollections
 {
-	inline static constexpr unsigned int ObservableCollectionR3Extensions_TypeDefinitionIndex = 40067;
+	inline static constexpr unsigned int ObservableCollectionR3Extensions_TypeDefinitionIndex = 41364;
 
 	class ObservableCollectionR3Extensions : public ::System::Object
 	{

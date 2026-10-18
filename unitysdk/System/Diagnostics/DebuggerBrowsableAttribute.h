@@ -3,7 +3,7 @@
 #include "unitysdk/System/Attribute.h"
 #include "unitysdk/System/Diagnostics/DebuggerBrowsableState.h"
 
-#define SYSTEM_DIAGNOSTICS_DEBUGGERBROWSABLEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1AB515D0)
+#define SYSTEM_DIAGNOSTICS_DEBUGGERBROWSABLEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C1A35E0)
 
 namespace System::Diagnostics
 {

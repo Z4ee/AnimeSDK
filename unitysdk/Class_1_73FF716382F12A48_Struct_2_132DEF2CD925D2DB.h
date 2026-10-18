@@ -5,7 +5,7 @@
 
 namespace UnityEngine { class Collider; }
 
-inline static constexpr unsigned int Class_1_73FF716382F12A48_Struct_2_132DEF2CD925D2DB_TypeDefinitionIndex = 68635;
+inline static constexpr unsigned int Class_1_73FF716382F12A48_Struct_2_132DEF2CD925D2DB_TypeDefinitionIndex = 68669;
 
 struct alignas(8) Class_1_73FF716382F12A48_Struct_2_132DEF2CD925D2DB
 {

@@ -7,7 +7,7 @@ namespace System { template <typename T1, typename T2> class Action_2; }
 namespace UnityEngine::Events { class UnityAction; }
 template <typename T> class Class_1_175DF472994638D1___c__15_1;
 
-inline static constexpr unsigned int Class_1_175DF472994638D1___c__15_1_TypeDefinitionIndex = 50222;
+inline static constexpr unsigned int Class_1_175DF472994638D1___c__15_1_TypeDefinitionIndex = 49885;
 
 template <typename TViewModel>
 class Class_1_175DF472994638D1___c__15_1 : public ::System::Object

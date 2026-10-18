@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_CLOSEUPSHOTPROCEDURECONFIG_METHOD_2_35F8BED0A63117EE_OFFSET UNITYSDK_OFFSET(0x1D9A3190)
-#define RPG_GAMECORE_CLOSEUPSHOTPROCEDURECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D9A3B00)
+#define RPG_GAMECORE_CLOSEUPSHOTPROCEDURECONFIG_METHOD_2_35F8BED0A63117EE_OFFSET UNITYSDK_OFFSET(0x1D59A720)
+#define RPG_GAMECORE_CLOSEUPSHOTPROCEDURECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D59B0F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CloseupShotProcedureConfig_TypeDefinitionIndex = 16240;
+	inline static constexpr unsigned int CloseupShotProcedureConfig_TypeDefinitionIndex = 16413;
 
 	class CloseupShotProcedureConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -43,7 +43,8 @@ namespace RPG::GameCore
 		::System::String* DynamicOffsetScaleBlendCurvePath; // 0x78
 		::System::Single TimelineYLimit; // 0x80
 		::System::Boolean ApplyResolutionDelta; // 0x84
-		::System::Boolean ApplyMonsterDynamicOffset; // 0x85
+		::System::Boolean AllowSwitchSpeedUp; // 0x85
+		::System::Boolean ApplyMonsterDynamicOffset; // 0x86
 
 		::System::Void _ctor()
 		{

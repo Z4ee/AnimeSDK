@@ -7,21 +7,21 @@ class Class_1_7A22A3DBEEDD1F80;
 class Class_1_A88C3AAF0DD46F4C_8;
 namespace System { class String; }
 
-#define RPG_GAMECORE_IDLELIVETEAMRECOMMENDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D216320)
-#define RPG_GAMECORE_IDLELIVETEAMRECOMMENDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2165B0)
+#define RPG_GAMECORE_IDLELIVETEAMRECOMMENDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D752F60)
+#define RPG_GAMECORE_IDLELIVETEAMRECOMMENDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7531F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveTeamRecommendRow_TypeDefinitionIndex = 11686;
+	inline static constexpr unsigned int IdleLiveTeamRecommendRow_TypeDefinitionIndex = 11709;
 
 	class IdleLiveTeamRecommendRow : public ::System::Object
 	{
 	public:
 		::System::String* DisplayCondition; // 0x10
 		::Il2CppArray<::Class_1_A88C3AAF0DD46F4C_8*>* TeamMember; // 0x18
-		::RPG::Client::TextID Desc; // 0x20
-		::RPG::Client::TextID Title; // 0x30
-		::System::UInt32 ID; // 0x40
+		::RPG::Client::TextID Title; // 0x20
+		::System::UInt32 ID; // 0x30
+		::RPG::Client::TextID Desc; // 0x38
 
 		::System::Void _ctor()
 		{

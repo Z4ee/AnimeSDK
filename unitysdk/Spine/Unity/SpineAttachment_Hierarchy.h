@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define SPINE_UNITY_SPINEATTACHMENT_HIERARCHY__CTOR_OFFSET UNITYSDK_OFFSET(0x3ADE460)
+#define SPINE_UNITY_SPINEATTACHMENT_HIERARCHY__CTOR_OFFSET UNITYSDK_OFFSET(0x3C547A0)
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int SpineAttachment_Hierarchy_TypeDefinitionIndex = 43908;
+	inline static constexpr unsigned int SpineAttachment_Hierarchy_TypeDefinitionIndex = 45100;
 
 	struct alignas(8) SpineAttachment_Hierarchy
 	{

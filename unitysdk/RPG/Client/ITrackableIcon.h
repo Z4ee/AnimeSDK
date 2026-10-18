@@ -5,7 +5,7 @@ namespace RPG::Client { class IMapIconTrackSnapshot; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ITrackableIcon_TypeDefinitionIndex = 62980;
+	inline static constexpr unsigned int ITrackableIcon_TypeDefinitionIndex = 62913;
 
 	class ITrackableIcon
 	{

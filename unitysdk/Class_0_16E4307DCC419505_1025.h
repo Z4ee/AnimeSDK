@@ -1,9 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/Enum_3_ED790DAC948A65A9_16.h"
+#include "unitysdk/RPG/Client/TextID.h"
 
-namespace UnityEngine { class Animator; }
+namespace System { class String; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_1025_TypeDefinitionIndex = 68786;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_1025_TypeDefinitionIndex = 66944;
 
 class Class_0_16E4307DCC419505_1025
 {

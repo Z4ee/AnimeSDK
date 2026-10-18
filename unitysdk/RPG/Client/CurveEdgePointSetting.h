@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_CURVEEDGEPOINTSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x3B1A5F0)
+#define RPG_CLIENT_CURVEEDGEPOINTSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0xE45E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CurveEdgePointSetting_TypeDefinitionIndex = 68531;
+	inline static constexpr unsigned int CurveEdgePointSetting_TypeDefinitionIndex = 68565;
 
 	struct alignas(8) CurveEdgePointSetting
 	{

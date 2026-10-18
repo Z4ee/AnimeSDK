@@ -4,7 +4,7 @@
 
 namespace System::Xml::Linq
 {
-	inline static constexpr unsigned int XHashtable_1_XHashtableState_Entry_TypeDefinitionIndex = 3880;
+	inline static constexpr unsigned int XHashtable_1_XHashtableState_Entry_TypeDefinitionIndex = 3881;
 
 	template <typename TValue>
 	struct XHashtable_1_XHashtableState_Entry

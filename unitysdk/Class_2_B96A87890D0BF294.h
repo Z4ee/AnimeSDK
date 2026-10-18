@@ -7,10 +7,10 @@ namespace RPG::GameCore { class RtTargetMapBornPoint; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_B96A87890D0BF294_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x18D232D0)
-#define CLASS_2_B96A87890D0BF294__CTOR_OFFSET UNITYSDK_OFFSET(0x18D232B0)
+#define CLASS_2_B96A87890D0BF294_TRANSFORM_OFFSET UNITYSDK_OFFSET(0xB429B70)
+#define CLASS_2_B96A87890D0BF294__CTOR_OFFSET UNITYSDK_OFFSET(0xB429B50)
 
-inline static constexpr unsigned int Class_2_B96A87890D0BF294_TypeDefinitionIndex = 54023;
+inline static constexpr unsigned int Class_2_B96A87890D0BF294_TypeDefinitionIndex = 53809;
 
 class Class_2_B96A87890D0BF294 : public ::RPG::GameCore::TargetSeqOperationImpl_1<::RPG::GameCore::RtTargetMapBornPoint*>
 {

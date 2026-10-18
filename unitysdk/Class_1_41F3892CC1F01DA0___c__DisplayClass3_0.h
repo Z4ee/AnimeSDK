@@ -5,16 +5,16 @@
 class Class_1_41F3892CC1F01DA0;
 namespace System { class Action; }
 
-#define CLASS_1_41F3892CC1F01DA0___C__DISPLAYCLASS3_0__CREATEANDSTARTLG_B__0_OFFSET UNITYSDK_OFFSET(0x16940D40)
-#define CLASS_1_41F3892CC1F01DA0___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x169408D0)
+#define CLASS_1_41F3892CC1F01DA0___C__DISPLAYCLASS3_0__CREATEANDSTARTLG_B__0_OFFSET UNITYSDK_OFFSET(0xB232F20)
+#define CLASS_1_41F3892CC1F01DA0___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB232AB0)
 
-inline static constexpr unsigned int Class_1_41F3892CC1F01DA0___c__DisplayClass3_0_TypeDefinitionIndex = 75178;
+inline static constexpr unsigned int Class_1_41F3892CC1F01DA0___c__DisplayClass3_0_TypeDefinitionIndex = 75478;
 
 class Class_1_41F3892CC1F01DA0___c__DisplayClass3_0 : public ::System::Object
 {
 public:
-	::System::Action* endCallback; // 0x10
-	::Class_1_41F3892CC1F01DA0* __4__this; // 0x18
+	::Class_1_41F3892CC1F01DA0* __4__this; // 0x10
+	::System::Action* endCallback; // 0x18
 
 	::System::Void _ctor()
 	{

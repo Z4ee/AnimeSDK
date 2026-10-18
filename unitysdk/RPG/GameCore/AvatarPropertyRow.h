@@ -7,29 +7,29 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_AVATARPROPERTYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1C596650)
-#define RPG_GAMECORE_AVATARPROPERTYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1C597FD0)
+#define RPG_GAMECORE_AVATARPROPERTYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3EFF60)
+#define RPG_GAMECORE_AVATARPROPERTYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3F18E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AvatarPropertyRow_TypeDefinitionIndex = 12655;
+	inline static constexpr unsigned int AvatarPropertyRow_TypeDefinitionIndex = 12745;
 
 	class AvatarPropertyRow : public ::System::Object
 	{
 	public:
 		::System::String* IconPath; // 0x10
-		::System::UInt32 PropertyInstructionID; // 0x18
-		::System::UInt32 Order; // 0x1C
-		::RPG::Client::TextID PropertyName; // 0x20
-		::RPG::Client::TextID PropertyNameFilter; // 0x30
-		::RPG::Client::TextID PropertyNameRelic; // 0x40
-		::System::UInt32 MainRelicFilter; // 0x50
-		::System::UInt32 SubRelicFilter; // 0x54
-		::RPG::GameCore::AvatarPropertyType PropertyType; // 0x58
-		::System::UInt32 PropertyClassify; // 0x5C
-		::System::Boolean IsDisplay; // 0x60
-		::System::Boolean isBattleDisplay; // 0x61
-		::RPG::Client::TextID PropertyNameSkillTree; // 0x68
+		::System::Boolean IsDisplay; // 0x18
+		::System::Boolean isBattleDisplay; // 0x19
+		::System::UInt32 MainRelicFilter; // 0x1C
+		::System::UInt32 Order; // 0x20
+		::RPG::Client::TextID PropertyName; // 0x28
+		::RPG::Client::TextID PropertyNameSkillTree; // 0x38
+		::RPG::Client::TextID PropertyNameRelic; // 0x48
+		::RPG::Client::TextID PropertyNameFilter; // 0x58
+		::RPG::GameCore::AvatarPropertyType PropertyType; // 0x68
+		::System::UInt32 PropertyClassify; // 0x6C
+		::System::UInt32 SubRelicFilter; // 0x70
+		::System::UInt32 PropertyInstructionID; // 0x74
 
 		::System::Void _ctor()
 		{

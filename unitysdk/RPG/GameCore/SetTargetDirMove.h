@@ -8,13 +8,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class EntityPosAdaptionConfig; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_SETTARGETDIRMOVE_METHOD_3_378E7CB9136C3B37_OFFSET UNITYSDK_OFFSET(0x1E0910C0)
-#define RPG_GAMECORE_SETTARGETDIRMOVE_METHOD_3_BDE2DCDC0D511B31_OFFSET UNITYSDK_OFFSET(0x1E091220)
-#define RPG_GAMECORE_SETTARGETDIRMOVE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E091180)
+#define RPG_GAMECORE_SETTARGETDIRMOVE_METHOD_3_378E7CB9136C3B37_OFFSET UNITYSDK_OFFSET(0x1DA97D00)
+#define RPG_GAMECORE_SETTARGETDIRMOVE_METHOD_3_78CDC2CFE0E9BA75_OFFSET UNITYSDK_OFFSET(0x1DA97E60)
+#define RPG_GAMECORE_SETTARGETDIRMOVE__CTOR_OFFSET UNITYSDK_OFFSET(0x1DA97DC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetTargetDirMove_TypeDefinitionIndex = 19935;
+	inline static constexpr unsigned int SetTargetDirMove_TypeDefinitionIndex = 20172;
 
 	class SetTargetDirMove : public ::RPG::GameCore::TaskConfig
 	{
@@ -37,9 +37,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetTargetDirMove*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETTARGETDIRMOVE_METHOD_3_378E7CB9136C3B37_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_BDE2DCDC0D511B31(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetTargetDirMove* a2)
+		static ::System::Void Method_3_78CDC2CFE0E9BA75(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetTargetDirMove* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetTargetDirMove*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETTARGETDIRMOVE_METHOD_3_BDE2DCDC0D511B31_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetTargetDirMove*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETTARGETDIRMOVE_METHOD_3_78CDC2CFE0E9BA75_OFFSET))(a1, a2);
 		}
 	};
 }

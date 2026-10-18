@@ -4,11 +4,11 @@
 
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define TMPRO_TMP_SETTINGS_LINEBREAKINGTABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x18B5D970)
+#define TMPRO_TMP_SETTINGS_LINEBREAKINGTABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F2F1B50)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TMP_Settings_LineBreakingTable_TypeDefinitionIndex = 43438;
+	inline static constexpr unsigned int TMP_Settings_LineBreakingTable_TypeDefinitionIndex = 44630;
 
 	class TMP_Settings_LineBreakingTable : public ::System::Object
 	{

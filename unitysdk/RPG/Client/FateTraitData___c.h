@@ -5,24 +5,24 @@
 namespace RPG::Client { class FateTraitBuffItem; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_FATETRAITDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AE41820)
-#define RPG_CLIENT_FATETRAITDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE41860)
-#define RPG_CLIENT_FATETRAITDATA___C__ISANYBUFFACTIVE_B__6_0_OFFSET UNITYSDK_OFFSET(0x1AE41870)
+#define RPG_CLIENT_FATETRAITDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xCFD9C50)
+#define RPG_CLIENT_FATETRAITDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0xCFD9C90)
+#define RPG_CLIENT_FATETRAITDATA___C__ISANYBUFFACTIVE_B__6_0_OFFSET UNITYSDK_OFFSET(0xCFD9CA0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FateTraitData___c_TypeDefinitionIndex = 64070;
+	inline static constexpr unsigned int FateTraitData___c_TypeDefinitionIndex = 64008;
 
 	class FateTraitData___c : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::FateTraitData___c** StaticGet___9()
 		{
-			return (::RPG::Client::FateTraitData___c**)Il2CppClass::FromTypeDefinitionIndex(FateTraitData___c_TypeDefinitionIndex)->GetStaticField(0xE170);
+			return (::RPG::Client::FateTraitData___c**)Il2CppClass::FromTypeDefinitionIndex(FateTraitData___c_TypeDefinitionIndex)->GetStaticField(0x5AD80);
 		}
 		static ::System::Func_2<::RPG::Client::FateTraitBuffItem*, ::System::Boolean>** StaticGet___9__6_0()
 		{
-			return (::System::Func_2<::RPG::Client::FateTraitBuffItem*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(FateTraitData___c_TypeDefinitionIndex)->GetStaticField(0xE178);
+			return (::System::Func_2<::RPG::Client::FateTraitBuffItem*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(FateTraitData___c_TypeDefinitionIndex)->GetStaticField(0x5AD88);
 		}
 
 		static ::System::Void _cctor()

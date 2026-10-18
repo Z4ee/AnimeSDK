@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class EraFlipGroupConfig; }
 
-#define RPG_GAMECORE_ERAFLIPSET_METHOD_2_647A3D62B7DAAA99_OFFSET UNITYSDK_OFFSET(0x1D7CD9C0)
-#define RPG_GAMECORE_ERAFLIPSET__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7CDB10)
+#define RPG_GAMECORE_ERAFLIPSET_METHOD_2_647A3D62B7DAAA99_OFFSET UNITYSDK_OFFSET(0x1D6533A0)
+#define RPG_GAMECORE_ERAFLIPSET__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6534F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EraFlipSet_TypeDefinitionIndex = 16440;
+	inline static constexpr unsigned int EraFlipSet_TypeDefinitionIndex = 16616;
 
 	class EraFlipSet : public ::RPG::GameCore::JsonConfig
 	{

@@ -6,21 +6,21 @@
 namespace RPGTools::Timeline::Emotion { class EmoMouthBakedBlendShapes; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPGTOOLS_TIMELINE_EMOTION_EMOMOUTHBAKEDBLENDSHAPESDATA_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x1B580DC0)
-#define RPGTOOLS_TIMELINE_EMOTION_EMOMOUTHBAKEDBLENDSHAPESDATA_GET_LENGTH_OFFSET UNITYSDK_OFFSET(0x1B580E60)
-#define RPGTOOLS_TIMELINE_EMOTION_EMOMOUTHBAKEDBLENDSHAPESDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B580F10)
-#define RPGTOOLS_TIMELINE_EMOTION_EMOMOUTHBAKEDBLENDSHAPESDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B580EF0)
+#define RPGTOOLS_TIMELINE_EMOTION_EMOMOUTHBAKEDBLENDSHAPESDATA_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0xE8E5EB0)
+#define RPGTOOLS_TIMELINE_EMOTION_EMOMOUTHBAKEDBLENDSHAPESDATA_GET_LENGTH_OFFSET UNITYSDK_OFFSET(0xE8E5F50)
+#define RPGTOOLS_TIMELINE_EMOTION_EMOMOUTHBAKEDBLENDSHAPESDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0xE8E6000)
+#define RPGTOOLS_TIMELINE_EMOTION_EMOMOUTHBAKEDBLENDSHAPESDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xE8E5FE0)
 
 namespace RPGTools::Timeline::Emotion
 {
-	inline static constexpr unsigned int EmoMouthBakedBlendShapesData_TypeDefinitionIndex = 49225;
+	inline static constexpr unsigned int EmoMouthBakedBlendShapesData_TypeDefinitionIndex = 48771;
 
 	class EmoMouthBakedBlendShapesData : public ::UnityEngine::ScriptableObject
 	{
 	public:
 		static ::UnityEngine::AnimationCurve** StaticGet_s_EaseInOutCurve()
 		{
-			return (::UnityEngine::AnimationCurve**)Il2CppClass::FromTypeDefinitionIndex(EmoMouthBakedBlendShapesData_TypeDefinitionIndex)->GetStaticField(0x13AD0);
+			return (::UnityEngine::AnimationCurve**)Il2CppClass::FromTypeDefinitionIndex(EmoMouthBakedBlendShapesData_TypeDefinitionIndex)->GetStaticField(0x68A10);
 		}
 		::RPGTools::Timeline::Emotion::BlendCurve Curve; // 0x18
 		::Il2CppArray<::RPGTools::Timeline::Emotion::EmoMouthBakedBlendShapes*>* BlendShapes; // 0x20

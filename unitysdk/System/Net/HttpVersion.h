@@ -4,7 +4,7 @@
 
 namespace System { class Version; }
 
-#define SYSTEM_NET_HTTPVERSION__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B037C50)
+#define SYSTEM_NET_HTTPVERSION__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F02E640)
 
 namespace System::Net
 {
@@ -15,11 +15,11 @@ namespace System::Net
 	public:
 		static ::System::Version** StaticGet_Version11()
 		{
-			return (::System::Version**)Il2CppClass::FromTypeDefinitionIndex(HttpVersion_TypeDefinitionIndex)->GetStaticField(0xAA20);
+			return (::System::Version**)Il2CppClass::FromTypeDefinitionIndex(HttpVersion_TypeDefinitionIndex)->GetStaticField(0xB030);
 		}
 		static ::System::Version** StaticGet_Version10()
 		{
-			return (::System::Version**)Il2CppClass::FromTypeDefinitionIndex(HttpVersion_TypeDefinitionIndex)->GetStaticField(0xAA28);
+			return (::System::Version**)Il2CppClass::FromTypeDefinitionIndex(HttpVersion_TypeDefinitionIndex)->GetStaticField(0xB038);
 		}
 
 		static ::System::Void _cctor()

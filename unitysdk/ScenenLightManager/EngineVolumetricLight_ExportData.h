@@ -6,11 +6,11 @@
 
 namespace System { class String; }
 
-#define SCENENLIGHTMANAGER_ENGINEVOLUMETRICLIGHT_EXPORTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF43890)
+#define SCENENLIGHTMANAGER_ENGINEVOLUMETRICLIGHT_EXPORTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xE959890)
 
 namespace ScenenLightManager
 {
-	inline static constexpr unsigned int EngineVolumetricLight_ExportData_TypeDefinitionIndex = 49527;
+	inline static constexpr unsigned int EngineVolumetricLight_ExportData_TypeDefinitionIndex = 49101;
 
 	class EngineVolumetricLight_ExportData : public ::System::Object
 	{

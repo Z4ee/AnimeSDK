@@ -10,13 +10,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SETCHARACTERFORMATION_METHOD_3_0C2FECA127A92F59_OFFSET UNITYSDK_OFFSET(0x1E812D00)
-#define RPG_GAMECORE_SETCHARACTERFORMATION_METHOD_3_CABA182431796E19_OFFSET UNITYSDK_OFFSET(0x1E812BF0)
-#define RPG_GAMECORE_SETCHARACTERFORMATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1E812C90)
+#define RPG_GAMECORE_SETCHARACTERFORMATION_METHOD_3_92EAB4FA8310A3EB_OFFSET UNITYSDK_OFFSET(0x1DA6CFE0)
+#define RPG_GAMECORE_SETCHARACTERFORMATION_METHOD_3_CABA182431796E19_OFFSET UNITYSDK_OFFSET(0x1DA6CED0)
+#define RPG_GAMECORE_SETCHARACTERFORMATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1DA6CF70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetCharacterFormation_TypeDefinitionIndex = 22390;
+	inline static constexpr unsigned int SetCharacterFormation_TypeDefinitionIndex = 22643;
 
 	class SetCharacterFormation : public ::RPG::GameCore::TaskConfig
 	{
@@ -46,9 +46,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetCharacterFormation*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETCHARACTERFORMATION_METHOD_3_CABA182431796E19_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_0C2FECA127A92F59(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetCharacterFormation* a2)
+		static ::System::Void Method_3_92EAB4FA8310A3EB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetCharacterFormation* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetCharacterFormation*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETCHARACTERFORMATION_METHOD_3_0C2FECA127A92F59_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetCharacterFormation*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETCHARACTERFORMATION_METHOD_3_92EAB4FA8310A3EB_OFFSET))(a1, a2);
 		}
 	};
 }

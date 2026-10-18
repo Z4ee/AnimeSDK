@@ -1,19 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_DFCB42601400F441.h"
+#include "unitysdk/Enum_3_DFCB42601400F441_1.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_MULTIPATHAVATARSETTYPENOTIFYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6E8710)
+#define RPG_CLIENT_MULTIPATHAVATARSETTYPENOTIFYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xD8D1A60)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MultiPathAvatarSetTypeNotifyData_TypeDefinitionIndex = 66343;
+	inline static constexpr unsigned int MultiPathAvatarSetTypeNotifyData_TypeDefinitionIndex = 66304;
 
 	class MultiPathAvatarSetTypeNotifyData : public ::System::Object
 	{
 	public:
-		::Enum_3_DFCB42601400F441 OldPathAvatarType; // 0x10
-		::Enum_3_DFCB42601400F441 NewPathAvatarType; // 0x14
+		::Enum_3_DFCB42601400F441_1 OldPathAvatarType; // 0x10
+		::Enum_3_DFCB42601400F441_1 NewPathAvatarType; // 0x14
 
 		::System::Void _ctor()
 		{

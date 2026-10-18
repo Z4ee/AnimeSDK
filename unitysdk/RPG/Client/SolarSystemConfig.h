@@ -6,11 +6,11 @@ namespace RPG::Client { class CelestialConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_SOLARSYSTEMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x196D7600)
+#define RPG_CLIENT_SOLARSYSTEMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xE0E4700)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SolarSystemConfig_TypeDefinitionIndex = 69756;
+	inline static constexpr unsigned int SolarSystemConfig_TypeDefinitionIndex = 69790;
 
 	class SolarSystemConfig : public ::UnityEngine::ScriptableObject
 	{

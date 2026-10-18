@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByPreShowRedStanceBreak; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_8B4CB4308763E69D_EVALUATE_OFFSET UNITYSDK_OFFSET(0x17F6C000)
-#define CLASS_3_8B4CB4308763E69D__CTOR_OFFSET UNITYSDK_OFFSET(0x17F6BFD0)
+#define CLASS_3_8B4CB4308763E69D_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBCA95E0)
+#define CLASS_3_8B4CB4308763E69D__CTOR_OFFSET UNITYSDK_OFFSET(0xBCA95B0)
 
-inline static constexpr unsigned int Class_3_8B4CB4308763E69D_TypeDefinitionIndex = 54917;
+inline static constexpr unsigned int Class_3_8B4CB4308763E69D_TypeDefinitionIndex = 54706;
 
 class Class_3_8B4CB4308763E69D : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByPreShowRedStanceBreak*>
 {

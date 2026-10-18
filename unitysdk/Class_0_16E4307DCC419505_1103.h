@@ -1,11 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Struct_2_5B421F8FFABD4CA3_1.h"
+#include "unitysdk/Enum_3_71AA90D596A09AC8_1.h"
 
-class Class_2_291F7DA21A504FC4;
-namespace System { class String; }
+namespace RPG::AvatarSystem { class IAvatar; }
+namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_1103_TypeDefinitionIndex = 71675;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_1103_TypeDefinitionIndex = 68107;
 
 class Class_0_16E4307DCC419505_1103
 {

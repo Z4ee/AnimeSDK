@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define ENTITAS_ENTITASEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1EEC85B0)
+#define ENTITAS_ENTITASEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x167494A0)
 
 namespace Entitas
 {
-	inline static constexpr unsigned int EntitasException_TypeDefinitionIndex = 9944;
+	inline static constexpr unsigned int EntitasException_TypeDefinitionIndex = 10002;
 
 	class EntitasException : public ::System::Exception
 	{

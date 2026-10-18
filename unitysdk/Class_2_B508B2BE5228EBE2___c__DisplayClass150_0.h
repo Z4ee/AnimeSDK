@@ -2,22 +2,22 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_374;
-class Class_0_16E4307DCC419505_379;
+class Class_0_16E4307DCC419505_455;
+class Class_0_16E4307DCC419505_460;
 class Class_2_B508B2BE5228EBE2;
 namespace System { class Action; }
 
-#define CLASS_2_B508B2BE5228EBE2___C__DISPLAYCLASS150_0__APPLYSTACKASYNCRESLOADING_B__0_OFFSET UNITYSDK_OFFSET(0x1B43EBC0)
-#define CLASS_2_B508B2BE5228EBE2___C__DISPLAYCLASS150_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B43BC90)
+#define CLASS_2_B508B2BE5228EBE2___C__DISPLAYCLASS150_0__APPLYSTACKASYNCRESLOADING_B__0_OFFSET UNITYSDK_OFFSET(0x15C7AA00)
+#define CLASS_2_B508B2BE5228EBE2___C__DISPLAYCLASS150_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15C77AB0)
 
-inline static constexpr unsigned int Class_2_B508B2BE5228EBE2___c__DisplayClass150_0_TypeDefinitionIndex = 49710;
+inline static constexpr unsigned int Class_2_B508B2BE5228EBE2___c__DisplayClass150_0_TypeDefinitionIndex = 49284;
 
 class Class_2_B508B2BE5228EBE2___c__DisplayClass150_0 : public ::System::Object
 {
 public:
-	::Class_2_B508B2BE5228EBE2* __4__this; // 0x10
-	::Class_0_16E4307DCC419505_374* profileChangeAsyncHandle; // 0x18
-	::Class_0_16E4307DCC419505_379* s; // 0x20
+	::Class_0_16E4307DCC419505_455* profileChangeAsyncHandle; // 0x10
+	::Class_2_B508B2BE5228EBE2* __4__this; // 0x18
+	::Class_0_16E4307DCC419505_460* s; // 0x20
 	::System::Action* onFinish; // 0x28
 
 	::System::Void _ctor()

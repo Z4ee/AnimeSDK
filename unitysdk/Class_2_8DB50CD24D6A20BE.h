@@ -7,18 +7,18 @@
 class Class_1_535E4088B549C341;
 namespace System { class String; }
 
-#define CLASS_2_8DB50CD24D6A20BE_METHOD_2_41AA181104E03F2C_OFFSET UNITYSDK_OFFSET(0x16ECFA50)
-#define CLASS_2_8DB50CD24D6A20BE__CTOR_OFFSET UNITYSDK_OFFSET(0x16ECF9C0)
+#define CLASS_2_8DB50CD24D6A20BE_METHOD_2_41AA181104E03F2C_OFFSET UNITYSDK_OFFSET(0x158EC550)
+#define CLASS_2_8DB50CD24D6A20BE__CTOR_OFFSET UNITYSDK_OFFSET(0x158EC4C0)
 
-inline static constexpr unsigned int Class_2_8DB50CD24D6A20BE_TypeDefinitionIndex = 69766;
+inline static constexpr unsigned int Class_2_8DB50CD24D6A20BE_TypeDefinitionIndex = 69800;
 
 class Class_2_8DB50CD24D6A20BE : public ::Class_1_C7C4EDD02A4426B2
 {
 public:
 	::Class_1_535E4088B549C341* CCDHDAGPMNA; // 0x28
-	::UnityEngine::Vector2 HMAGPLNGNMP; // 0x30
-	::System::Single DMMINDDMKGC; // 0x38
-	::CelestialBodyType DJGDEEGEPCJ; // 0x3C
+	::CelestialBodyType DJGDEEGEPCJ; // 0x30
+	::System::Single DMMINDDMKGC; // 0x34
+	::UnityEngine::Vector2 HMAGPLNGNMP; // 0x38
 	::System::Single JEJPHFEPFPN; // 0x40
 
 	::System::Void _ctor(::System::String* a1, ::CelestialBodyType a2)

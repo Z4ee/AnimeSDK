@@ -6,18 +6,18 @@ class Class_1_BBE48024BDD3E027;
 class Class_1_BBE48024BDD3E027_Class_3_AE31F159F362893C;
 namespace RPG::Client { class IAssetOperation; }
 
-#define CLASS_1_BBE48024BDD3E027___C__DISPLAYCLASS37_0__ASYNCLOADDATABLOCK_B__0_OFFSET UNITYSDK_OFFSET(0x184854D0)
-#define CLASS_1_BBE48024BDD3E027___C__DISPLAYCLASS37_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18482180)
+#define CLASS_1_BBE48024BDD3E027___C__DISPLAYCLASS37_0__ASYNCLOADDATABLOCK_B__0_OFFSET UNITYSDK_OFFSET(0xB5C6870)
+#define CLASS_1_BBE48024BDD3E027___C__DISPLAYCLASS37_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB5C34E0)
 
-inline static constexpr unsigned int Class_1_BBE48024BDD3E027___c__DisplayClass37_0_TypeDefinitionIndex = 49610;
+inline static constexpr unsigned int Class_1_BBE48024BDD3E027___c__DisplayClass37_0_TypeDefinitionIndex = 49184;
 
 class Class_1_BBE48024BDD3E027___c__DisplayClass37_0 : public ::System::Object
 {
 public:
 	::Class_1_BBE48024BDD3E027* __4__this; // 0x10
 	::Class_1_BBE48024BDD3E027_Class_3_AE31F159F362893C* cb; // 0x18
-	::System::Boolean finished; // 0x20
-	::System::Int32 blockId; // 0x24
+	::System::Int32 blockId; // 0x20
+	::System::Boolean finished; // 0x24
 
 	::System::Void _ctor()
 	{

@@ -16,7 +16,7 @@ namespace System { template <typename T> class Action_1; }
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int SingleConsumerUnboundedChannel_1_SingleConsumerUnboundedChannelReader_TypeDefinitionIndex = 42563;
+	inline static constexpr unsigned int SingleConsumerUnboundedChannel_1_SingleConsumerUnboundedChannelReader_TypeDefinitionIndex = 38148;
 
 	template <typename T>
 	class SingleConsumerUnboundedChannel_1_SingleConsumerUnboundedChannelReader : public ::Cysharp::Threading::Tasks::ChannelReader_1<T>

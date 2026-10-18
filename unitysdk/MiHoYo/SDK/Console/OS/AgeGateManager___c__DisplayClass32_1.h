@@ -5,12 +5,12 @@
 namespace MiHoYo::SDK::Console::OS { class AgeGateManager; }
 namespace MiHoYo::SDK::UI::OS { class IAgeGateAgeAppealOptionDialog; }
 
-#define MIHOYO_SDK_CONSOLE_OS_AGEGATEMANAGER___C__DISPLAYCLASS32_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1735E6E0)
-#define MIHOYO_SDK_CONSOLE_OS_AGEGATEMANAGER___C__DISPLAYCLASS32_1__PROCESSAGEGATETICKET_B__3_OFFSET UNITYSDK_OFFSET(0x1735EB30)
+#define MIHOYO_SDK_CONSOLE_OS_AGEGATEMANAGER___C__DISPLAYCLASS32_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC90D00)
+#define MIHOYO_SDK_CONSOLE_OS_AGEGATEMANAGER___C__DISPLAYCLASS32_1__PROCESSAGEGATETICKET_B__3_OFFSET UNITYSDK_OFFSET(0x1BC91150)
 
 namespace MiHoYo::SDK::Console::OS
 {
-	inline static constexpr unsigned int AgeGateManager___c__DisplayClass32_1_TypeDefinitionIndex = 8998;
+	inline static constexpr unsigned int AgeGateManager___c__DisplayClass32_1_TypeDefinitionIndex = 9059;
 
 	class AgeGateManager___c__DisplayClass32_1 : public ::System::Object
 	{

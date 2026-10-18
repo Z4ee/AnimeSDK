@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class RtSkillAllowBeHit; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_ED1E0AA4005645E2_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x164187D0)
-#define CLASS_3_ED1E0AA4005645E2__CTOR_OFFSET UNITYSDK_OFFSET(0x164187A0)
+#define CLASS_3_ED1E0AA4005645E2_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB45AEC0)
+#define CLASS_3_ED1E0AA4005645E2__CTOR_OFFSET UNITYSDK_OFFSET(0xB45AE90)
 
-inline static constexpr unsigned int Class_3_ED1E0AA4005645E2_TypeDefinitionIndex = 54146;
+inline static constexpr unsigned int Class_3_ED1E0AA4005645E2_TypeDefinitionIndex = 53932;
 
 class Class_3_ED1E0AA4005645E2 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::RtSkillAllowBeHit*>
 {

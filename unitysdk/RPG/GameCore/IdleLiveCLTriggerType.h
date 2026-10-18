@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveCLTriggerType_TypeDefinitionIndex = 11658;
+	inline static constexpr unsigned int IdleLiveCLTriggerType_TypeDefinitionIndex = 11681;
 
 	enum class IdleLiveCLTriggerType : ::System::Int32
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ModifierBehaviorFlag_TypeDefinitionIndex = 10392;
+	inline static constexpr unsigned int ModifierBehaviorFlag_TypeDefinitionIndex = 10407;
 
 	enum class ModifierBehaviorFlag : ::System::Int32
 	{
@@ -99,6 +99,7 @@ namespace RPG::GameCore
 		FireFlyRedMode = 89,
 		TeamBlock = 90,
 		SkipInsertAction = 91,
+		SingleBlock = 92,
 		STAT_DefenceDown = 100,
 		STAT_Fatigue = 101,
 		STAT_SpeedDown = 102,

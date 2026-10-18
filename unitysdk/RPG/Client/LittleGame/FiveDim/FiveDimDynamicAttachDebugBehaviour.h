@@ -5,11 +5,11 @@
 namespace RPG::Client::LittleGame::FiveDim { class FiveDimEntityBehaviour; }
 namespace System { class String; }
 
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMDYNAMICATTACHDEBUGBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x1AC3DF30)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMDYNAMICATTACHDEBUGBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xD4276A0)
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int FiveDimDynamicAttachDebugBehaviour_TypeDefinitionIndex = 76391;
+	inline static constexpr unsigned int FiveDimDynamicAttachDebugBehaviour_TypeDefinitionIndex = 76868;
 
 	class FiveDimDynamicAttachDebugBehaviour : public ::UnityEngine::MonoBehaviour
 	{

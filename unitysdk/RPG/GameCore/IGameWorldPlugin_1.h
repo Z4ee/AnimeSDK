@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IGameWorldPlugin_1_TypeDefinitionIndex = 57985;
+	inline static constexpr unsigned int IGameWorldPlugin_1_TypeDefinitionIndex = 57832;
 
 	template <typename T>
 	class IGameWorldPlugin_1

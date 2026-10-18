@@ -5,12 +5,12 @@
 class Class_1_A4ED94721C8F4303_2;
 namespace System { template <typename T> class Predicate_1; }
 
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSINTERVIEWDETAILVIEWMODEL___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C537170)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSINTERVIEWDETAILVIEWMODEL___C__DISPLAYCLASS1_0__SETDEFAULTCONTENTID_B__0_OFFSET UNITYSDK_OFFSET(0x1C538040)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSINTERVIEWDETAILVIEWMODEL___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD3A4D00)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSINTERVIEWDETAILVIEWMODEL___C__DISPLAYCLASS1_0__SETDEFAULTCONTENTID_B__0_OFFSET UNITYSDK_OFFSET(0xD3A5BD0)
 
 namespace RPG::Client::LimaoNews
 {
-	inline static constexpr unsigned int LimaoNewsInterviewDetailViewModel___c__DisplayClass1_0_TypeDefinitionIndex = 79133;
+	inline static constexpr unsigned int LimaoNewsInterviewDetailViewModel___c__DisplayClass1_0_TypeDefinitionIndex = 80456;
 
 	class LimaoNewsInterviewDetailViewModel___c__DisplayClass1_0 : public ::System::Object
 	{

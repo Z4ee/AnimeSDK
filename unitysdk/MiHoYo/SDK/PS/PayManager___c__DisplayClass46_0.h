@@ -7,20 +7,20 @@ namespace MiHoYo::SDK { class PSDelegate_ProductsCallback; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 
-#define MIHOYO_SDK_PS_PAYMANAGER___C__DISPLAYCLASS46_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1AC11360)
-#define MIHOYO_SDK_PS_PAYMANAGER___C__DISPLAYCLASS46_0__GETPRODUCTS_B__0_OFFSET UNITYSDK_OFFSET(0x1AC12320)
-#define MIHOYO_SDK_PS_PAYMANAGER___C__DISPLAYCLASS46_0__GETPRODUCTS_B__1_OFFSET UNITYSDK_OFFSET(0x1AC124B0)
+#define MIHOYO_SDK_PS_PAYMANAGER___C__DISPLAYCLASS46_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF47A10)
+#define MIHOYO_SDK_PS_PAYMANAGER___C__DISPLAYCLASS46_0__GETPRODUCTS_B__0_OFFSET UNITYSDK_OFFSET(0x1BF48A10)
+#define MIHOYO_SDK_PS_PAYMANAGER___C__DISPLAYCLASS46_0__GETPRODUCTS_B__1_OFFSET UNITYSDK_OFFSET(0x1BF48BA0)
 
 namespace MiHoYo::SDK::PS
 {
-	inline static constexpr unsigned int PayManager___c__DisplayClass46_0_TypeDefinitionIndex = 8857;
+	inline static constexpr unsigned int PayManager___c__DisplayClass46_0_TypeDefinitionIndex = 8918;
 
 	class PayManager___c__DisplayClass46_0 : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::String*>* idList; // 0x10
-		::System::Action_2<::Il2CppArray<::MiHoYo::SDK::PS::PayManager_PSProduct>*, ::System::Int32>* callback; // 0x18
-		::MiHoYo::SDK::PSDelegate_ProductsCallback* __9__1; // 0x20
+		::MiHoYo::SDK::PSDelegate_ProductsCallback* __9__1; // 0x18
+		::System::Action_2<::Il2CppArray<::MiHoYo::SDK::PS::PayManager_PSProduct>*, ::System::Int32>* callback; // 0x20
 
 		::System::Void _ctor()
 		{

@@ -8,19 +8,19 @@
 
 namespace System { class String; }
 
-#define CLASS_1_B3478091817B6770__CTOR_OFFSET UNITYSDK_OFFSET(0x1846D7C0)
+#define CLASS_1_B3478091817B6770__CTOR_OFFSET UNITYSDK_OFFSET(0xB5AD890)
 
-inline static constexpr unsigned int Class_1_B3478091817B6770_TypeDefinitionIndex = 58299;
+inline static constexpr unsigned int Class_1_B3478091817B6770_TypeDefinitionIndex = 58147;
 
 class Class_1_B3478091817B6770 : public ::System::Object
 {
 public:
 	::System::String* LHOJDELAMJL; // 0x10
-	::RPG::GameCore::GridFightTraitEffectChangeHintType HMOAIJEANAP; // 0x18
-	::RPG::GameCore::GridFightTraitEffectChargeType MJPHFBALDBM; // 0x1C
-	::RPG::GameCore::FixPoint APMCPIPIJOI; // 0x20
-	::RPG::GameCore::FixPoint JIAOEIMMPBB; // 0x28
-	::RPG::Client::TextID MPIEEPEGFGA; // 0x30
+	::RPG::GameCore::FixPoint APMCPIPIJOI; // 0x18
+	::RPG::Client::TextID MPIEEPEGFGA; // 0x20
+	::RPG::GameCore::GridFightTraitEffectChangeHintType HMOAIJEANAP; // 0x30
+	::RPG::GameCore::GridFightTraitEffectChargeType MJPHFBALDBM; // 0x34
+	::RPG::GameCore::FixPoint JIAOEIMMPBB; // 0x38
 
 	::System::Void _ctor()
 	{

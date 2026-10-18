@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Sofa/Core/ObservableObject.h"
 
-#define RPG_CLIENT_CHIMERADUEL_CHIMERADUELBATTLEMASTERMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1C1B95F0)
+#define RPG_CLIENT_CHIMERADUEL_CHIMERADUELBATTLEMASTERMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xCB0CA60)
 
 namespace RPG::Client::ChimeraDuel
 {
-	inline static constexpr unsigned int ChimeraDuelBattleMasterModel_TypeDefinitionIndex = 79920;
+	inline static constexpr unsigned int ChimeraDuelBattleMasterModel_TypeDefinitionIndex = 81248;
 
 	class ChimeraDuelBattleMasterModel : public ::Sofa::Core::ObservableObject
 	{

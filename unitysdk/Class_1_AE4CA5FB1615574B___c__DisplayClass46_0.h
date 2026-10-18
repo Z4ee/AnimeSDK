@@ -6,9 +6,9 @@ namespace RPG::GameCore { class FiveDimEffectItem; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class GameObject; }
 
-#define CLASS_1_AE4CA5FB1615574B___C__DISPLAYCLASS46_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1853E410)
+#define CLASS_1_AE4CA5FB1615574B___C__DISPLAYCLASS46_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16627A10)
 
-inline static constexpr unsigned int Class_1_AE4CA5FB1615574B___c__DisplayClass46_0_TypeDefinitionIndex = 76232;
+inline static constexpr unsigned int Class_1_AE4CA5FB1615574B___c__DisplayClass46_0_TypeDefinitionIndex = 76709;
 
 class Class_1_AE4CA5FB1615574B___c__DisplayClass46_0 : public ::System::Object
 {

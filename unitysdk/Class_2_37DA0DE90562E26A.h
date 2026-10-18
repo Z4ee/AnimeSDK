@@ -11,21 +11,21 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class IDictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_37DA0DE90562E26A_METHOD_2_B961D33AD47A2113_OFFSET UNITYSDK_OFFSET(0x17A47980)
-#define CLASS_2_37DA0DE90562E26A_METHOD_2_CFC95121222309BD_OFFSET UNITYSDK_OFFSET(0x17A47F70)
-#define CLASS_2_37DA0DE90562E26A_METHOD_2_ED8E19FE96307A82_OFFSET UNITYSDK_OFFSET(0x17A47AC0)
-#define CLASS_2_37DA0DE90562E26A__CTOR_OFFSET UNITYSDK_OFFSET(0x17A47560)
+#define CLASS_2_37DA0DE90562E26A_METHOD_2_B961D33AD47A2113_OFFSET UNITYSDK_OFFSET(0x15B6C230)
+#define CLASS_2_37DA0DE90562E26A_METHOD_2_CFC95121222309BD_OFFSET UNITYSDK_OFFSET(0x15B6C820)
+#define CLASS_2_37DA0DE90562E26A_METHOD_2_ED8E19FE96307A82_OFFSET UNITYSDK_OFFSET(0x15B6C370)
+#define CLASS_2_37DA0DE90562E26A__CTOR_OFFSET UNITYSDK_OFFSET(0x15B6BE10)
 
-inline static constexpr unsigned int Class_2_37DA0DE90562E26A_TypeDefinitionIndex = 80900;
+inline static constexpr unsigned int Class_2_37DA0DE90562E26A_TypeDefinitionIndex = 82280;
 
 class Class_2_37DA0DE90562E26A : public ::Class_1_FAF146B3D74C3C3F
 {
 public:
-	::System::String* GKHIHPGCLIK; // 0x20
-	::System::Collections::Generic::List_1<::Class_1_FAF146B3D74C3C3F*>* HIMBONECCJK; // 0x28
-	::Class_2_293C6AF513403273* FPAHLFBBNMK; // 0x30
-	::RPG::Client::AssetEventType GMCNLFICNOB; // 0x38
-	::RPG::Client::AssetEventPort IGMPALOKGKF; // 0x3C
+	::Class_2_293C6AF513403273* FPAHLFBBNMK; // 0x20
+	::System::String* GKHIHPGCLIK; // 0x28
+	::System::Collections::Generic::List_1<::Class_1_FAF146B3D74C3C3F*>* HIMBONECCJK; // 0x30
+	::RPG::Client::AssetEventPort IGMPALOKGKF; // 0x38
+	::RPG::Client::AssetEventType GMCNLFICNOB; // 0x3C
 
 	::System::Void _ctor(::System::Int32 a1, ::System::Int32 a2, ::System::String* a3, ::System::Collections::Generic::IDictionary_2<::System::String*, ::System::String*>* a4)
 	{

@@ -4,7 +4,7 @@
 
 namespace Proto { class SceneEntityInfo; }
 
-inline static constexpr unsigned int Struct_2_BAE911D80EFAC905_TypeDefinitionIndex = 62100;
+inline static constexpr unsigned int Struct_2_BAE911D80EFAC905_TypeDefinitionIndex = 62016;
 
 struct alignas(8) Struct_2_BAE911D80EFAC905
 {

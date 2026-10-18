@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGameShare::CakeRaceCore
 {
-	inline static constexpr unsigned int CakeRaceSyncReason_TypeDefinitionIndex = 36532;
+	inline static constexpr unsigned int CakeRaceSyncReason_TypeDefinitionIndex = 37219;
 
 	enum class CakeRaceSyncReason : ::System::Int32
 	{

@@ -5,16 +5,16 @@
 namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
 
-#define CLASS_1_8363DE4575CCE892__CTOR_OFFSET UNITYSDK_OFFSET(0x1705CEE0)
+#define CLASS_1_8363DE4575CCE892__CTOR_OFFSET UNITYSDK_OFFSET(0xBB54F70)
 
-inline static constexpr unsigned int Class_1_8363DE4575CCE892_TypeDefinitionIndex = 55706;
+inline static constexpr unsigned int Class_1_8363DE4575CCE892_TypeDefinitionIndex = 55514;
 
 class Class_1_8363DE4575CCE892 : public ::System::Object
 {
 public:
-	::System::String* LLOGCJNGEDA; // 0x10
+	::RPG::GameCore::GameEntity* GGKGFABFGFE; // 0x10
 	::System::String* BOJIADNJMJK; // 0x18
-	::RPG::GameCore::GameEntity* GGKGFABFGFE; // 0x20
+	::System::String* LLOGCJNGEDA; // 0x20
 	::System::Boolean IOBJFEJFLJP; // 0x28
 
 	::System::Void _ctor()

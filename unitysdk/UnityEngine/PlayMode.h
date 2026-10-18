@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int PlayMode_TypeDefinitionIndex = 5728;
+	inline static constexpr unsigned int PlayMode_TypeDefinitionIndex = 5736;
 
 	enum class PlayMode : ::System::Int32
 	{

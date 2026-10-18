@@ -10,27 +10,27 @@ namespace RPG::GameCore { class ChenLingFesTargetConfig; }
 namespace RPG::GameCore { class ChenLingFesToastConfig; }
 namespace System { class String; }
 
-#define CLASS_3_714E3A6CA2354616_METHOD_3_28DFC52A1206DD2C_OFFSET UNITYSDK_OFFSET(0x1D069890)
-#define CLASS_3_714E3A6CA2354616_METHOD_3_E024E0080A08A9C9_OFFSET UNITYSDK_OFFSET(0x1D0698E0)
-#define CLASS_3_714E3A6CA2354616__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0698D0)
+#define CLASS_3_714E3A6CA2354616_METHOD_3_28DFC52A1206DD2C_OFFSET UNITYSDK_OFFSET(0x1CE5CE50)
+#define CLASS_3_714E3A6CA2354616_METHOD_3_E024E0080A08A9C9_OFFSET UNITYSDK_OFFSET(0x1CE5CEA0)
+#define CLASS_3_714E3A6CA2354616__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE5CE90)
 
-inline static constexpr unsigned int Class_3_714E3A6CA2354616_TypeDefinitionIndex = 21263;
+inline static constexpr unsigned int Class_3_714E3A6CA2354616_TypeDefinitionIndex = 21509;
 
 class Class_3_714E3A6CA2354616 : public ::RPG::GameCore::TaskConfig
 {
 public:
-	::RPG::GameCore::ChenLingFesToastConfig* CCCCCCNNCJD; // 0x18
+	::System::String* KBEPAIAFLHL; // 0x18
 	::System::String* NMMKDFFHOLL; // 0x20
-	::System::String* KBEPAIAFLHL; // 0x28
-	::RPG::GameCore::ChenLingFesTargetConfig* GMJKHCGCNKA; // 0x30
-	::RPG::GameCore::ChenLingFesDialogConfig* GGICBIIJMPH; // 0x38
-	::System::Single IEHPFADHJFD; // 0x40
-	::System::UInt32 NJNFNFCJHFJ; // 0x44
-	::System::Boolean HCBMABMLFPG; // 0x48
-	::System::Boolean GNDCCBNILML; // 0x49
+	::RPG::GameCore::ChenLingFesToastConfig* CCCCCCNNCJD; // 0x28
+	::RPG::GameCore::ChenLingFesDialogConfig* GGICBIIJMPH; // 0x30
+	::RPG::GameCore::ChenLingFesTargetConfig* GMJKHCGCNKA; // 0x38
+	::System::Boolean GNDCCBNILML; // 0x40
+	::System::Boolean HCBMABMLFPG; // 0x41
+	::RPG::GameCore::LittleGameEntityType EAMICGDAKCN; // 0x44
+	::System::UInt32 NJNFNFCJHFJ; // 0x48
 	::RPG::GameCore::ChenLingFesTargetType HILNFHCPEAD; // 0x4C
-	::RPG::GameCore::LittleGameEntityType EAMICGDAKCN; // 0x50
-	::System::UInt32 CMNOEFFFNPE; // 0x54
+	::System::UInt32 CMNOEFFFNPE; // 0x50
+	::System::Single IEHPFADHJFD; // 0x54
 
 	::System::Void _ctor()
 	{

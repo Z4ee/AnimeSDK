@@ -10,7 +10,7 @@ namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int GroupJoin_4__GroupJoin__CreateLookup_d__17_TypeDefinitionIndex = 44253;
+	inline static constexpr unsigned int GroupJoin_4__GroupJoin__CreateLookup_d__17_TypeDefinitionIndex = 45392;
 
 	template <typename TOuter, typename TInner, typename TKey, typename TResult>
 	struct GroupJoin_4__GroupJoin__CreateLookup_d__17

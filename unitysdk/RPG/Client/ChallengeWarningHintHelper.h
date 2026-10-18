@@ -7,33 +7,33 @@
 namespace RPG::Client { class ChallengeGroupData; }
 namespace System { class String; }
 
-#define RPG_CLIENT_CHALLENGEWARNINGHINTHELPER_TRYGETWARNINGHINT_OFFSET UNITYSDK_OFFSET(0x1AD71D10)
-#define RPG_CLIENT_CHALLENGEWARNINGHINTHELPER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AD722B0)
-#define RPG_CLIENT_CHALLENGEWARNINGHINTHELPER__GETTYPENAMETEXTID_OFFSET UNITYSDK_OFFSET(0x1AD72190)
-#define RPG_CLIENT_CHALLENGEWARNINGHINTHELPER__TRYGET5WEEKDURATION_OFFSET UNITYSDK_OFFSET(0x1AD71DE0)
+#define RPG_CLIENT_CHALLENGEWARNINGHINTHELPER_TRYGETWARNINGHINT_OFFSET UNITYSDK_OFFSET(0xC9B9750)
+#define RPG_CLIENT_CHALLENGEWARNINGHINTHELPER__CCTOR_OFFSET UNITYSDK_OFFSET(0xC9B9CF0)
+#define RPG_CLIENT_CHALLENGEWARNINGHINTHELPER__GETTYPENAMETEXTID_OFFSET UNITYSDK_OFFSET(0xC9B9BD0)
+#define RPG_CLIENT_CHALLENGEWARNINGHINTHELPER__TRYGET5WEEKDURATION_OFFSET UNITYSDK_OFFSET(0xC9B9820)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChallengeWarningHintHelper_TypeDefinitionIndex = 63187;
+	inline static constexpr unsigned int ChallengeWarningHintHelper_TypeDefinitionIndex = 63120;
 
 	class ChallengeWarningHintHelper : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::TextID* StaticGet__StoryNameTextID()
+		static ::RPG::Client::TextID* StaticGet__MemoryNameTextID()
 		{
-			return (::RPG::Client::TextID*)Il2CppClass::FromTypeDefinitionIndex(ChallengeWarningHintHelper_TypeDefinitionIndex)->GetStaticField(0xC1A0);
-		}
-		static ::RPG::Client::TextID* StaticGet__BossNameTextID()
-		{
-			return (::RPG::Client::TextID*)Il2CppClass::FromTypeDefinitionIndex(ChallengeWarningHintHelper_TypeDefinitionIndex)->GetStaticField(0xC1B0);
+			return (::RPG::Client::TextID*)Il2CppClass::FromTypeDefinitionIndex(ChallengeWarningHintHelper_TypeDefinitionIndex)->GetStaticField(0x15420);
 		}
 		static ::RPG::Client::TextID* StaticGet__Warning5WeekTextID()
 		{
-			return (::RPG::Client::TextID*)Il2CppClass::FromTypeDefinitionIndex(ChallengeWarningHintHelper_TypeDefinitionIndex)->GetStaticField(0xC1C0);
+			return (::RPG::Client::TextID*)Il2CppClass::FromTypeDefinitionIndex(ChallengeWarningHintHelper_TypeDefinitionIndex)->GetStaticField(0x15430);
 		}
-		static ::RPG::Client::TextID* StaticGet__MemoryNameTextID()
+		static ::RPG::Client::TextID* StaticGet__StoryNameTextID()
 		{
-			return (::RPG::Client::TextID*)Il2CppClass::FromTypeDefinitionIndex(ChallengeWarningHintHelper_TypeDefinitionIndex)->GetStaticField(0xC1D0);
+			return (::RPG::Client::TextID*)Il2CppClass::FromTypeDefinitionIndex(ChallengeWarningHintHelper_TypeDefinitionIndex)->GetStaticField(0x15440);
+		}
+		static ::RPG::Client::TextID* StaticGet__BossNameTextID()
+		{
+			return (::RPG::Client::TextID*)Il2CppClass::FromTypeDefinitionIndex(ChallengeWarningHintHelper_TypeDefinitionIndex)->GetStaticField(0x15450);
 		}
 		// static const ::System::String* _Special5WeekConstKey; // 0x0
 

@@ -7,12 +7,12 @@
 namespace Cysharp::Threading::Tasks { template <typename T> class IUniTaskAsyncEnumerator_1; }
 namespace UnityEngine::Events { class UnityEvent; }
 
-#define CYSHARP_THREADING_TASKS_UNITYEVENTHANDLERASYNCENUMERABLE_GETASYNCENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1CE294D0)
-#define CYSHARP_THREADING_TASKS_UNITYEVENTHANDLERASYNCENUMERABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE205A0)
+#define CYSHARP_THREADING_TASKS_UNITYEVENTHANDLERASYNCENUMERABLE_GETASYNCENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1F1351B0)
+#define CYSHARP_THREADING_TASKS_UNITYEVENTHANDLERASYNCENUMERABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F12C290)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UnityEventHandlerAsyncEnumerable_TypeDefinitionIndex = 42898;
+	inline static constexpr unsigned int UnityEventHandlerAsyncEnumerable_TypeDefinitionIndex = 38483;
 
 	class UnityEventHandlerAsyncEnumerable : public ::System::Object
 	{

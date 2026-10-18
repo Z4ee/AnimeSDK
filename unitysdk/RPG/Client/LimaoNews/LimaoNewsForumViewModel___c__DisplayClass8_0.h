@@ -4,12 +4,12 @@
 
 namespace RPG::Client::LimaoNews { class LimaoNewsPostViewModel; }
 
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSFORUMVIEWMODEL___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C5331C0)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSFORUMVIEWMODEL___C__DISPLAYCLASS8_0__TRYOPENPOSTDETAIL_B__0_OFFSET UNITYSDK_OFFSET(0x1C533C00)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSFORUMVIEWMODEL___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD3A0A50)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSFORUMVIEWMODEL___C__DISPLAYCLASS8_0__TRYOPENPOSTDETAIL_B__0_OFFSET UNITYSDK_OFFSET(0xD3A1510)
 
 namespace RPG::Client::LimaoNews
 {
-	inline static constexpr unsigned int LimaoNewsForumViewModel___c__DisplayClass8_0_TypeDefinitionIndex = 79138;
+	inline static constexpr unsigned int LimaoNewsForumViewModel___c__DisplayClass8_0_TypeDefinitionIndex = 80461;
 
 	class LimaoNewsForumViewModel___c__DisplayClass8_0 : public ::System::Object
 	{

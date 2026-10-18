@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/Client/WanFaLianJiStartType.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_873A267154DB19A0__CTOR_OFFSET UNITYSDK_OFFSET(0x176918E0)
+#define CLASS_1_873A267154DB19A0__CTOR_OFFSET UNITYSDK_OFFSET(0x15E740B0)
 
-inline static constexpr unsigned int Class_1_873A267154DB19A0_TypeDefinitionIndex = 66701;
+inline static constexpr unsigned int Class_1_873A267154DB19A0_TypeDefinitionIndex = 66670;
 
 class Class_1_873A267154DB19A0 : public ::System::Object
 {

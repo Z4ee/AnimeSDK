@@ -4,12 +4,12 @@
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define RPG_CUSTOMRP_PPFILTERSTACK_VIGNETTEPARAMETER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x3A996E0)
-#define RPG_CUSTOMRP_PPFILTERSTACK_VIGNETTEPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x3A996A0)
+#define RPG_CUSTOMRP_PPFILTERSTACK_VIGNETTEPARAMETER__CTOR_1_OFFSET UNITYSDK_OFFSET(0xF52D0)
+#define RPG_CUSTOMRP_PPFILTERSTACK_VIGNETTEPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0xF5290)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int PPFilterStack_VignetteParameter_TypeDefinitionIndex = 52150;
+	inline static constexpr unsigned int PPFilterStack_VignetteParameter_TypeDefinitionIndex = 51856;
 
 	struct alignas(4) PPFilterStack_VignetteParameter
 	{

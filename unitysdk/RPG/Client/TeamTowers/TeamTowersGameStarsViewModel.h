@@ -6,20 +6,20 @@ class Class_3_E7D29F43FB80184D;
 namespace RPG::Client::TeamTowers { class TeamTowersGameStageStarInfo; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSGAMESTARSVIEWMODEL_GETSTARVIEWMODELS_OFFSET UNITYSDK_OFFSET(0x1A3ABCA0)
-#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSGAMESTARSVIEWMODEL_REFRESH_OFFSET UNITYSDK_OFFSET(0x1A3AB970)
-#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSGAMESTARSVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1A3AB960)
-#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSGAMESTARSVIEWMODEL__INITSTARVIEWMODELS_OFFSET UNITYSDK_OFFSET(0x1A3ABD00)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSGAMESTARSVIEWMODEL_GETSTARVIEWMODELS_OFFSET UNITYSDK_OFFSET(0xE1E7270)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSGAMESTARSVIEWMODEL_REFRESH_OFFSET UNITYSDK_OFFSET(0xE1E6F40)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSGAMESTARSVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xE1E6F30)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSGAMESTARSVIEWMODEL__INITSTARVIEWMODELS_OFFSET UNITYSDK_OFFSET(0xE1E72D0)
 
 namespace RPG::Client::TeamTowers
 {
-	inline static constexpr unsigned int TeamTowersGameStarsViewModel_TypeDefinitionIndex = 78590;
+	inline static constexpr unsigned int TeamTowersGameStarsViewModel_TypeDefinitionIndex = 79061;
 
 	class TeamTowersGameStarsViewModel : public ::System::Object
 	{
 	public:
-		::Class_3_E7D29F43FB80184D* _OwnerGame; // 0x10
-		::System::Collections::Generic::List_1<::RPG::Client::TeamTowers::TeamTowersGameStageStarInfo*>* _StarViewModels; // 0x18
+		::System::Collections::Generic::List_1<::RPG::Client::TeamTowers::TeamTowersGameStageStarInfo*>* _StarViewModels; // 0x10
+		::Class_3_E7D29F43FB80184D* _OwnerGame; // 0x18
 
 		::System::Void _ctor(::Class_3_E7D29F43FB80184D* a1)
 		{

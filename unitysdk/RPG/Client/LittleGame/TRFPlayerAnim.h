@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int TRFPlayerAnim_TypeDefinitionIndex = 41141;
+	inline static constexpr unsigned int TRFPlayerAnim_TypeDefinitionIndex = 42430;
 
 	enum class TRFPlayerAnim : ::System::Int32
 	{

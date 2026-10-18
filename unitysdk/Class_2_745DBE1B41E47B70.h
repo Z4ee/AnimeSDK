@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/SyncCheckItemBase.h"
 
-#define CLASS_2_745DBE1B41E47B70__CTOR_OFFSET UNITYSDK_OFFSET(0x17A77760)
-#define CLASS_2_745DBE1B41E47B70__DOCHECKIMPL_OFFSET UNITYSDK_OFFSET(0x17A77680)
+#define CLASS_2_745DBE1B41E47B70__CTOR_OFFSET UNITYSDK_OFFSET(0xB84E650)
+#define CLASS_2_745DBE1B41E47B70__DOCHECKIMPL_OFFSET UNITYSDK_OFFSET(0xB84E570)
 
-inline static constexpr unsigned int Class_2_745DBE1B41E47B70_TypeDefinitionIndex = 60020;
+inline static constexpr unsigned int Class_2_745DBE1B41E47B70_TypeDefinitionIndex = 59883;
 
 class Class_2_745DBE1B41E47B70 : public ::RPG::Client::SyncCheckItemBase
 {

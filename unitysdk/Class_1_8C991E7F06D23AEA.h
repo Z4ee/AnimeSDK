@@ -7,19 +7,19 @@ namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI { class Image; }
 namespace UnityEngine::UI { class Text; }
 
-#define CLASS_1_8C991E7F06D23AEA_METHOD_1_ECA72114536D14FE_OFFSET UNITYSDK_OFFSET(0x17D32690)
-#define CLASS_1_8C991E7F06D23AEA__CTOR_OFFSET UNITYSDK_OFFSET(0x17D32790)
+#define CLASS_1_8C991E7F06D23AEA_METHOD_1_ECA72114536D14FE_OFFSET UNITYSDK_OFFSET(0xBF849C0)
+#define CLASS_1_8C991E7F06D23AEA__CTOR_OFFSET UNITYSDK_OFFSET(0xBF84AC0)
 
-inline static constexpr unsigned int Class_1_8C991E7F06D23AEA_TypeDefinitionIndex = 71589;
+inline static constexpr unsigned int Class_1_8C991E7F06D23AEA_TypeDefinitionIndex = 71639;
 
 class Class_1_8C991E7F06D23AEA : public ::System::Object
 {
 public:
 	// static const ::System::String* BDACPPLKLGL; // 0x0
-	::UnityEngine::Transform* IEIDNLCEAJG; // 0x10
-	::UnityEngine::UI::Text* HOKNLLFPFNB; // 0x18
-	::UnityEngine::UI::Image* GBMPJLHLAJC; // 0x20
-	::UnityEngine::UI::Text* JHNKMEDDFLH; // 0x28
+	::UnityEngine::UI::Text* JHNKMEDDFLH; // 0x10
+	::UnityEngine::Transform* IEIDNLCEAJG; // 0x18
+	::UnityEngine::UI::Text* HOKNLLFPFNB; // 0x20
+	::UnityEngine::UI::Image* GBMPJLHLAJC; // 0x28
 	::UnityEngine::UI::Text* BJBIDNHJAMF; // 0x30
 
 	::System::Void _ctor()

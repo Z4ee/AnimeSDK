@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2MOVEPAIR__CTOR_OFFSET UNITYSDK_OFFSET(0xC2CBA60)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2MOVEPAIR__CTOR_OFFSET UNITYSDK_OFFSET(0x1C7CEFB0)
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2MovePair_TypeDefinitionIndex = 36031;
+	inline static constexpr unsigned int B2MovePair_TypeDefinitionIndex = 36718;
 
 	class B2MovePair : public ::System::Object
 	{

@@ -1,0 +1,25 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+namespace MiHoYo::SDK { class JSONNode; }
+namespace MiHoYo::SDK::PC::OS { class ProductData; }
+
+#define MIHOYO_SDK_PC_OS_EPICPAYINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1BEE4D20)
+
+namespace MiHoYo::SDK::PC::OS
+{
+	inline static constexpr unsigned int EpicPayInfo_TypeDefinitionIndex = 8534;
+
+	class EpicPayInfo : public ::System::Object
+	{
+	public:
+		::MiHoYo::SDK::PC::OS::ProductData* productData; // 0x10
+		::MiHoYo::SDK::JSONNode* paramsInfo; // 0x18
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_EPICPAYINFO__CTOR_OFFSET))(this);
+		}
+	};
+}

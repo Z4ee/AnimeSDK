@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_TAROTBOOKCHARACTERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E1C6570)
-#define RPG_GAMECORE_TAROTBOOKCHARACTERROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1E1C6AB0)
+#define RPG_GAMECORE_TAROTBOOKCHARACTERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DB47970)
+#define RPG_GAMECORE_TAROTBOOKCHARACTERROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB47EB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TarotBookCharacterRow_TypeDefinitionIndex = 15059;
+	inline static constexpr unsigned int TarotBookCharacterRow_TypeDefinitionIndex = 15230;
 
 	class TarotBookCharacterRow : public ::System::Object
 	{
@@ -21,14 +21,14 @@ namespace RPG::GameCore
 		::System::String* TabIconPath; // 0x20
 		::System::String* RectIconPath; // 0x28
 		::System::String* RoundIconPath; // 0x30
-		::RPG::Client::TextID StarUnlockToast; // 0x38
-		::System::UInt32 MaxLevel; // 0x48
-		::System::UInt32 Position; // 0x4C
-		::System::UInt32 Tag; // 0x50
-		::System::UInt32 ID; // 0x54
-		::RPG::Client::TextID SubCatalogTitle; // 0x58
-		::RPG::Client::TextID Name; // 0x68
-		::RPG::Client::TextID MainCatalogTitle; // 0x78
+		::System::UInt32 Tag; // 0x38
+		::System::UInt32 ID; // 0x3C
+		::RPG::Client::TextID SubCatalogTitle; // 0x40
+		::RPG::Client::TextID MainCatalogTitle; // 0x50
+		::RPG::Client::TextID StarUnlockToast; // 0x60
+		::System::UInt32 MaxLevel; // 0x70
+		::System::UInt32 Position; // 0x74
+		::RPG::Client::TextID Name; // 0x78
 
 		::System::Void _ctor()
 		{

@@ -5,24 +5,24 @@
 namespace RPG::Client { class RogueTournExhibitionData; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_ROGUETOURNEXHIBITIONINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AF16A00)
-#define RPG_CLIENT_ROGUETOURNEXHIBITIONINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF16A40)
-#define RPG_CLIENT_ROGUETOURNEXHIBITIONINFO___C__GET_UNLOCKEDEXHIBITIONCOUNT_B__26_0_OFFSET UNITYSDK_OFFSET(0x1AF16A50)
+#define RPG_CLIENT_ROGUETOURNEXHIBITIONINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xDFDED40)
+#define RPG_CLIENT_ROGUETOURNEXHIBITIONINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0xDFDED80)
+#define RPG_CLIENT_ROGUETOURNEXHIBITIONINFO___C__GET_UNLOCKEDEXHIBITIONCOUNT_B__26_0_OFFSET UNITYSDK_OFFSET(0xDFDED90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournExhibitionInfo___c_TypeDefinitionIndex = 67574;
+	inline static constexpr unsigned int RogueTournExhibitionInfo___c_TypeDefinitionIndex = 67576;
 
 	class RogueTournExhibitionInfo___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::Client::RogueTournExhibitionData*, ::System::Boolean>** StaticGet___9__26_0()
-		{
-			return (::System::Func_2<::RPG::Client::RogueTournExhibitionData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournExhibitionInfo___c_TypeDefinitionIndex)->GetStaticField(0x12050);
-		}
 		static ::RPG::Client::RogueTournExhibitionInfo___c** StaticGet___9()
 		{
-			return (::RPG::Client::RogueTournExhibitionInfo___c**)Il2CppClass::FromTypeDefinitionIndex(RogueTournExhibitionInfo___c_TypeDefinitionIndex)->GetStaticField(0x12058);
+			return (::RPG::Client::RogueTournExhibitionInfo___c**)Il2CppClass::FromTypeDefinitionIndex(RogueTournExhibitionInfo___c_TypeDefinitionIndex)->GetStaticField(0x6A270);
+		}
+		static ::System::Func_2<::RPG::Client::RogueTournExhibitionData*, ::System::Boolean>** StaticGet___9__26_0()
+		{
+			return (::System::Func_2<::RPG::Client::RogueTournExhibitionData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournExhibitionInfo___c_TypeDefinitionIndex)->GetStaticField(0x6A278);
 		}
 
 		static ::System::Void _cctor()

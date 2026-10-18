@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class RemoveTimelineEntity; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_601A72406FB91AF7_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17BE4C10)
-#define CLASS_3_601A72406FB91AF7__CTOR_OFFSET UNITYSDK_OFFSET(0x17BE4BE0)
+#define CLASS_3_601A72406FB91AF7_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15CE33E0)
+#define CLASS_3_601A72406FB91AF7__CTOR_OFFSET UNITYSDK_OFFSET(0x15CE33B0)
 
-inline static constexpr unsigned int Class_3_601A72406FB91AF7_TypeDefinitionIndex = 53643;
+inline static constexpr unsigned int Class_3_601A72406FB91AF7_TypeDefinitionIndex = 53386;
 
 class Class_3_601A72406FB91AF7 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::RemoveTimelineEntity*>
 {

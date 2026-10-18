@@ -9,13 +9,13 @@ namespace RPG::GameCore { class BaseChenLingBattleValueGetter; }
 namespace RPG::GameCore { class ChenLingBattleAirMotionConfig; }
 namespace RPG::GameCore { class ChenLingBattleEffectConfig; }
 
-#define RPG_GAMECORE_CHENLINGBATTLEABILITY_SPLIT_METHOD_3_46DE5E90F19987EE_OFFSET UNITYSDK_OFFSET(0x1E008EE0)
-#define RPG_GAMECORE_CHENLINGBATTLEABILITY_SPLIT_METHOD_3_77C5B0FC05C44497_OFFSET UNITYSDK_OFFSET(0x1E008E80)
-#define RPG_GAMECORE_CHENLINGBATTLEABILITY_SPLIT__CTOR_OFFSET UNITYSDK_OFFSET(0x1E008ED0)
+#define RPG_GAMECORE_CHENLINGBATTLEABILITY_SPLIT_METHOD_3_982BE337D272F25A_OFFSET UNITYSDK_OFFSET(0x1D553C40)
+#define RPG_GAMECORE_CHENLINGBATTLEABILITY_SPLIT_METHOD_3_F4380A3511C07833_OFFSET UNITYSDK_OFFSET(0x1D553CA0)
+#define RPG_GAMECORE_CHENLINGBATTLEABILITY_SPLIT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D553C90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingBattleAbility_Split_TypeDefinitionIndex = 15573;
+	inline static constexpr unsigned int ChenLingBattleAbility_Split_TypeDefinitionIndex = 15746;
 
 	class ChenLingBattleAbility_Split : public ::RPG::GameCore::BaseChenLingBattleAbilityNodeConfig
 	{
@@ -35,14 +35,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLEABILITY_SPLIT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_77C5B0FC05C44497(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChenLingBattleAbility_Split*& a2)
+		static ::System::Void Method_3_982BE337D272F25A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChenLingBattleAbility_Split*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChenLingBattleAbility_Split*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLEABILITY_SPLIT_METHOD_3_77C5B0FC05C44497_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChenLingBattleAbility_Split*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLEABILITY_SPLIT_METHOD_3_982BE337D272F25A_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_46DE5E90F19987EE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChenLingBattleAbility_Split* a2)
+		static ::System::Void Method_3_F4380A3511C07833(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChenLingBattleAbility_Split* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChenLingBattleAbility_Split*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLEABILITY_SPLIT_METHOD_3_46DE5E90F19987EE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChenLingBattleAbility_Split*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLEABILITY_SPLIT_METHOD_3_F4380A3511C07833_OFFSET))(a1, a2);
 		}
 	};
 }

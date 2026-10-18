@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define RPG_CLIENT_MONOALLEYROUTEDEBUG__CTOR_OFFSET UNITYSDK_OFFSET(0x19E28990)
+#define RPG_CLIENT_MONOALLEYROUTEDEBUG__CTOR_OFFSET UNITYSDK_OFFSET(0xD724080)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoAlleyRouteDebug_TypeDefinitionIndex = 62401;
+	inline static constexpr unsigned int MonoAlleyRouteDebug_TypeDefinitionIndex = 62318;
 
 	class MonoAlleyRouteDebug : public ::UnityEngine::MonoBehaviour
 	{

@@ -1,39 +1,41 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_0F1B992870941C13_5.h"
+#include "unitysdk/Enum_3_237A657B7EBA40A4_3.h"
 #include "unitysdk/System/Object.h"
 
+class Class_1_C50F5982E5600913;
 namespace RPG::Client { class PlayerPlatformInfo; }
 namespace System { class String; }
 
-#define RPG_CLIENT_ADDFRIENDDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x19646A00)
-#define RPG_CLIENT_ADDFRIENDDATA_GET_FRIENDAPPLYSOURCE_OFFSET UNITYSDK_OFFSET(0x196469E0)
-#define RPG_CLIENT_ADDFRIENDDATA_GET_HEADICONID_OFFSET UNITYSDK_OFFSET(0x19646980)
-#define RPG_CLIENT_ADDFRIENDDATA_GET_LEVEL_OFFSET UNITYSDK_OFFSET(0x196469A0)
-#define RPG_CLIENT_ADDFRIENDDATA_GET_NAME_OFFSET UNITYSDK_OFFSET(0x19646960)
-#define RPG_CLIENT_ADDFRIENDDATA_GET_PLATFORMINFO_OFFSET UNITYSDK_OFFSET(0x196469C0)
-#define RPG_CLIENT_ADDFRIENDDATA_GET_UID_OFFSET UNITYSDK_OFFSET(0x19646940)
-#define RPG_CLIENT_ADDFRIENDDATA_SET_FRIENDAPPLYSOURCE_OFFSET UNITYSDK_OFFSET(0x196469F0)
-#define RPG_CLIENT_ADDFRIENDDATA_SET_HEADICONID_OFFSET UNITYSDK_OFFSET(0x19646990)
-#define RPG_CLIENT_ADDFRIENDDATA_SET_LEVEL_OFFSET UNITYSDK_OFFSET(0x196469B0)
-#define RPG_CLIENT_ADDFRIENDDATA_SET_NAME_OFFSET UNITYSDK_OFFSET(0x19646970)
-#define RPG_CLIENT_ADDFRIENDDATA_SET_PLATFORMINFO_OFFSET UNITYSDK_OFFSET(0x196469D0)
-#define RPG_CLIENT_ADDFRIENDDATA_SET_UID_OFFSET UNITYSDK_OFFSET(0x19646950)
-#define RPG_CLIENT_ADDFRIENDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x19646B90)
+#define RPG_CLIENT_ADDFRIENDDATA_CREATE_1_OFFSET UNITYSDK_OFFSET(0xC5C27C0)
+#define RPG_CLIENT_ADDFRIENDDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xC5C2660)
+#define RPG_CLIENT_ADDFRIENDDATA_GET_FRIENDAPPLYSOURCE_OFFSET UNITYSDK_OFFSET(0xC5C2640)
+#define RPG_CLIENT_ADDFRIENDDATA_GET_HEADICONID_OFFSET UNITYSDK_OFFSET(0xC5C25E0)
+#define RPG_CLIENT_ADDFRIENDDATA_GET_LEVEL_OFFSET UNITYSDK_OFFSET(0xC5C2600)
+#define RPG_CLIENT_ADDFRIENDDATA_GET_NAME_OFFSET UNITYSDK_OFFSET(0xC5C25C0)
+#define RPG_CLIENT_ADDFRIENDDATA_GET_PLATFORMINFO_OFFSET UNITYSDK_OFFSET(0xC5C2620)
+#define RPG_CLIENT_ADDFRIENDDATA_GET_UID_OFFSET UNITYSDK_OFFSET(0xC5C25A0)
+#define RPG_CLIENT_ADDFRIENDDATA_SET_FRIENDAPPLYSOURCE_OFFSET UNITYSDK_OFFSET(0xC5C2650)
+#define RPG_CLIENT_ADDFRIENDDATA_SET_HEADICONID_OFFSET UNITYSDK_OFFSET(0xC5C25F0)
+#define RPG_CLIENT_ADDFRIENDDATA_SET_LEVEL_OFFSET UNITYSDK_OFFSET(0xC5C2610)
+#define RPG_CLIENT_ADDFRIENDDATA_SET_NAME_OFFSET UNITYSDK_OFFSET(0xC5C25D0)
+#define RPG_CLIENT_ADDFRIENDDATA_SET_PLATFORMINFO_OFFSET UNITYSDK_OFFSET(0xC5C2630)
+#define RPG_CLIENT_ADDFRIENDDATA_SET_UID_OFFSET UNITYSDK_OFFSET(0xC5C25B0)
+#define RPG_CLIENT_ADDFRIENDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xC5C2950)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AddFriendData_TypeDefinitionIndex = 64306;
+	inline static constexpr unsigned int AddFriendData_TypeDefinitionIndex = 64244;
 
 	class AddFriendData : public ::System::Object
 	{
 	public:
-		::RPG::Client::PlayerPlatformInfo* _PlatformInfo_k__BackingField; // 0x10
-		::System::String* _Name_k__BackingField; // 0x18
-		::System::UInt32 _HeadIconID_k__BackingField; // 0x20
-		::Enum_3_0F1B992870941C13_5 _FriendApplySource_k__BackingField; // 0x24
-		::System::UInt32 _UID_k__BackingField; // 0x28
-		::System::UInt32 _Level_k__BackingField; // 0x2C
+		::System::String* _Name_k__BackingField; // 0x10
+		::RPG::Client::PlayerPlatformInfo* _PlatformInfo_k__BackingField; // 0x18
+		::System::UInt32 _Level_k__BackingField; // 0x20
+		::System::UInt32 _UID_k__BackingField; // 0x24
+		::System::UInt32 _HeadIconID_k__BackingField; // 0x28
+		::Enum_3_237A657B7EBA40A4_3 _FriendApplySource_k__BackingField; // 0x2C
 
 		::System::Void _ctor()
 		{
@@ -90,19 +92,24 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::PlayerPlatformInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ADDFRIENDDATA_SET_PLATFORMINFO_OFFSET))(this, a1);
 		}
 
-		::Enum_3_0F1B992870941C13_5 get_FriendApplySource()
+		::Enum_3_237A657B7EBA40A4_3 get_FriendApplySource()
 		{
-			return ((::Enum_3_0F1B992870941C13_5(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ADDFRIENDDATA_GET_FRIENDAPPLYSOURCE_OFFSET))(this);
+			return ((::Enum_3_237A657B7EBA40A4_3(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ADDFRIENDDATA_GET_FRIENDAPPLYSOURCE_OFFSET))(this);
 		}
 
-		::System::Void set_FriendApplySource(::Enum_3_0F1B992870941C13_5 a1)
+		::System::Void set_FriendApplySource(::Enum_3_237A657B7EBA40A4_3 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Enum_3_0F1B992870941C13_5))((::PBYTE)hIl2Cpp + RPG_CLIENT_ADDFRIENDDATA_SET_FRIENDAPPLYSOURCE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Enum_3_237A657B7EBA40A4_3))((::PBYTE)hIl2Cpp + RPG_CLIENT_ADDFRIENDDATA_SET_FRIENDAPPLYSOURCE_OFFSET))(this, a1);
 		}
 
-		static ::RPG::Client::AddFriendData* Create(::System::UInt32 a1, ::System::String* a2, ::System::UInt32 a3, ::System::UInt32 a4, ::RPG::Client::PlayerPlatformInfo* a5, ::Enum_3_0F1B992870941C13_5 a6)
+		static ::RPG::Client::AddFriendData* Create(::Class_1_C50F5982E5600913* a1, ::Enum_3_237A657B7EBA40A4_3 a2)
 		{
-			return ((::RPG::Client::AddFriendData*(*)(::System::UInt32, ::System::String*, ::System::UInt32, ::System::UInt32, ::RPG::Client::PlayerPlatformInfo*, ::Enum_3_0F1B992870941C13_5))((::PBYTE)hIl2Cpp + RPG_CLIENT_ADDFRIENDDATA_CREATE_OFFSET))(a1, a2, a3, a4, a5, a6);
+			return ((::RPG::Client::AddFriendData*(*)(::Class_1_C50F5982E5600913*, ::Enum_3_237A657B7EBA40A4_3))((::PBYTE)hIl2Cpp + RPG_CLIENT_ADDFRIENDDATA_CREATE_OFFSET))(a1, a2);
+		}
+
+		static ::RPG::Client::AddFriendData* Create_1(::System::UInt32 a1, ::System::String* a2, ::System::UInt32 a3, ::System::UInt32 a4, ::RPG::Client::PlayerPlatformInfo* a5, ::Enum_3_237A657B7EBA40A4_3 a6)
+		{
+			return ((::RPG::Client::AddFriendData*(*)(::System::UInt32, ::System::String*, ::System::UInt32, ::System::UInt32, ::RPG::Client::PlayerPlatformInfo*, ::Enum_3_237A657B7EBA40A4_3))((::PBYTE)hIl2Cpp + RPG_CLIENT_ADDFRIENDDATA_CREATE_1_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 	};
 }

@@ -1,0 +1,227 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_AADBCF55B84BE104;
+namespace RPG::Client { class CakeRacePVEGameManager; }
+namespace RPG::Client { class CakeRaceStartGameData; }
+namespace RPG::Client::CakeRace { class CakeRaceGameFlow; }
+namespace RPG::Client::CakeRace { class CakeRaceGameplayContext; }
+namespace RPG::Client::Promises { class IPromise; }
+namespace System { class IDisposable; }
+
+#define CLASS_1_2568E3CEAD1BEC7A_DISPOSE_OFFSET UNITYSDK_OFFSET(0xDFB3310)
+#define CLASS_1_2568E3CEAD1BEC7A_GET_GAMEPLAYCONTEXT_OFFSET UNITYSDK_OFFSET(0xDFB31D0)
+#define CLASS_1_2568E3CEAD1BEC7A_GET_PVEGAMEMANAGER_OFFSET UNITYSDK_OFFSET(0xDFB3100)
+#define CLASS_1_2568E3CEAD1BEC7A_GET_PVPGAMEMANAGER_OFFSET UNITYSDK_OFFSET(0xDFB30E0)
+#define CLASS_1_2568E3CEAD1BEC7A_METHOD_1_1D4018D4200358D0_OFFSET UNITYSDK_OFFSET(0xDFB3170)
+#define CLASS_1_2568E3CEAD1BEC7A_METHOD_1_21D73357A3B49643_OFFSET UNITYSDK_OFFSET(0xDFB3890)
+#define CLASS_1_2568E3CEAD1BEC7A_METHOD_1_358A144584A5DBFC_OFFSET UNITYSDK_OFFSET(0xDFB31F0)
+#define CLASS_1_2568E3CEAD1BEC7A_METHOD_1_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0xDFB3120)
+#define CLASS_1_2568E3CEAD1BEC7A_METHOD_1_3D6062A0872E36D3_1_OFFSET UNITYSDK_OFFSET(0xDFB3CB0)
+#define CLASS_1_2568E3CEAD1BEC7A_METHOD_1_3D6062A0872E36D3_OFFSET UNITYSDK_OFFSET(0xDFB3E90)
+#define CLASS_1_2568E3CEAD1BEC7A_METHOD_1_48DFFE87859ABA7E_OFFSET UNITYSDK_OFFSET(0xDFB3030)
+#define CLASS_1_2568E3CEAD1BEC7A_METHOD_1_58D5590C3662938B_OFFSET UNITYSDK_OFFSET(0xDFB3BE0)
+#define CLASS_1_2568E3CEAD1BEC7A_METHOD_1_5F8502D02411330C_OFFSET UNITYSDK_OFFSET(0xDFB3AD0)
+#define CLASS_1_2568E3CEAD1BEC7A_METHOD_1_646B7672F0B3276E_OFFSET UNITYSDK_OFFSET(0xDFB41F0)
+#define CLASS_1_2568E3CEAD1BEC7A_METHOD_1_7530D08B9DEFCB05_OFFSET UNITYSDK_OFFSET(0xDFB36B0)
+#define CLASS_1_2568E3CEAD1BEC7A_METHOD_1_7842FB10066FED93_OFFSET UNITYSDK_OFFSET(0xDFB4070)
+#define CLASS_1_2568E3CEAD1BEC7A_METHOD_1_7DDBD306F12D6A4B_OFFSET UNITYSDK_OFFSET(0xDFB4440)
+#define CLASS_1_2568E3CEAD1BEC7A_METHOD_1_7FBAA229ED524F8E_OFFSET UNITYSDK_OFFSET(0xDFB4AA0)
+#define CLASS_1_2568E3CEAD1BEC7A_METHOD_1_91E0761278B0E1FD_OFFSET UNITYSDK_OFFSET(0xDFB4830)
+#define CLASS_1_2568E3CEAD1BEC7A_METHOD_1_9634D6F0AC458C59_OFFSET UNITYSDK_OFFSET(0xDFB45D0)
+#define CLASS_1_2568E3CEAD1BEC7A_METHOD_1_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0xDFB34D0)
+#define CLASS_1_2568E3CEAD1BEC7A_METHOD_1_97D83E4CB3B11935_OFFSET UNITYSDK_OFFSET(0xDFB3530)
+#define CLASS_1_2568E3CEAD1BEC7A_METHOD_1_A1781348F0A89177_OFFSET UNITYSDK_OFFSET(0xDFB38F0)
+#define CLASS_1_2568E3CEAD1BEC7A_METHOD_1_A2E29675A3D496BD_OFFSET UNITYSDK_OFFSET(0xDFB48C0)
+#define CLASS_1_2568E3CEAD1BEC7A_METHOD_1_BB93C69D78C65A48_OFFSET UNITYSDK_OFFSET(0xDFB4AF0)
+#define CLASS_1_2568E3CEAD1BEC7A_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xDFB32C0)
+#define CLASS_1_2568E3CEAD1BEC7A_METHOD_1_D63E8DDE1BF6AA37_OFFSET UNITYSDK_OFFSET(0xDFB4390)
+#define CLASS_1_2568E3CEAD1BEC7A_METHOD_1_F0238F9540F47818_OFFSET UNITYSDK_OFFSET(0xDFB4A40)
+#define CLASS_1_2568E3CEAD1BEC7A_SET_GAMEPLAYCONTEXT_OFFSET UNITYSDK_OFFSET(0xDFB31E0)
+#define CLASS_1_2568E3CEAD1BEC7A_SET_PVEGAMEMANAGER_OFFSET UNITYSDK_OFFSET(0xDFB3110)
+#define CLASS_1_2568E3CEAD1BEC7A_SET_PVPGAMEMANAGER_OFFSET UNITYSDK_OFFSET(0xDFB30F0)
+#define CLASS_1_2568E3CEAD1BEC7A__CTOR_OFFSET UNITYSDK_OFFSET(0xDFB32B0)
+#define CLASS_1_2568E3CEAD1BEC7A__TRYEXITGAME_B__33_0_OFFSET UNITYSDK_OFFSET(0xDFB4B70)
+#define CLASS_1_2568E3CEAD1BEC7A__TRYEXITGAME_B__33_1_OFFSET UNITYSDK_OFFSET(0xDFB4C00)
+
+inline static constexpr unsigned int Class_1_2568E3CEAD1BEC7A_TypeDefinitionIndex = 76451;
+
+class Class_1_2568E3CEAD1BEC7A : public ::System::Object
+{
+public:
+	::RPG::Client::CakeRacePVEGameManager* _PVEGameManager_k__BackingField; // 0x10
+	::Class_1_AADBCF55B84BE104* _PVPGameManager_k__BackingField; // 0x18
+	::System::IDisposable* IDDCLDHMEEM; // 0x20
+	::RPG::Client::CakeRace::CakeRaceGameplayContext* _GameplayContext_k__BackingField; // 0x28
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_2568E3CEAD1BEC7A__CTOR_OFFSET))(this);
+	}
+
+	::RPG::Client::CakeRace::CakeRaceGameFlow* Method_1_48DFFE87859ABA7E()
+	{
+		return ((::RPG::Client::CakeRace::CakeRaceGameFlow*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_2568E3CEAD1BEC7A_METHOD_1_48DFFE87859ABA7E_OFFSET))(this);
+	}
+
+	::Class_1_AADBCF55B84BE104* get_PVPGameManager()
+	{
+		return ((::Class_1_AADBCF55B84BE104*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_2568E3CEAD1BEC7A_GET_PVPGAMEMANAGER_OFFSET))(this);
+	}
+
+	::System::Void set_PVPGameManager(::Class_1_AADBCF55B84BE104* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_AADBCF55B84BE104*))((::PBYTE)hIl2Cpp + CLASS_1_2568E3CEAD1BEC7A_SET_PVPGAMEMANAGER_OFFSET))(this, a1);
+	}
+
+	::RPG::Client::CakeRacePVEGameManager* get_PVEGameManager()
+	{
+		return ((::RPG::Client::CakeRacePVEGameManager*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_2568E3CEAD1BEC7A_GET_PVEGAMEMANAGER_OFFSET))(this);
+	}
+
+	::System::Void set_PVEGameManager(::RPG::Client::CakeRacePVEGameManager* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::CakeRacePVEGameManager*))((::PBYTE)hIl2Cpp + CLASS_1_2568E3CEAD1BEC7A_SET_PVEGAMEMANAGER_OFFSET))(this, a1);
+	}
+
+	::System::Boolean Method_1_391A84BCD9F51317()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_2568E3CEAD1BEC7A_METHOD_1_391A84BCD9F51317_OFFSET))(this);
+	}
+
+	::System::Boolean Method_1_1D4018D4200358D0()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_2568E3CEAD1BEC7A_METHOD_1_1D4018D4200358D0_OFFSET))(this);
+	}
+
+	::RPG::Client::CakeRace::CakeRaceGameplayContext* get_GameplayContext()
+	{
+		return ((::RPG::Client::CakeRace::CakeRaceGameplayContext*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_2568E3CEAD1BEC7A_GET_GAMEPLAYCONTEXT_OFFSET))(this);
+	}
+
+	::System::Void set_GameplayContext(::RPG::Client::CakeRace::CakeRaceGameplayContext* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::CakeRace::CakeRaceGameplayContext*))((::PBYTE)hIl2Cpp + CLASS_1_2568E3CEAD1BEC7A_SET_GAMEPLAYCONTEXT_OFFSET))(this, a1);
+	}
+
+	static ::Class_1_2568E3CEAD1BEC7A* Method_1_358A144584A5DBFC()
+	{
+		return ((::Class_1_2568E3CEAD1BEC7A*(*)())((::PBYTE)hIl2Cpp + CLASS_1_2568E3CEAD1BEC7A_METHOD_1_358A144584A5DBFC_OFFSET))();
+	}
+
+	::System::Void Method_1_CA373AA1C7054598()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_2568E3CEAD1BEC7A_METHOD_1_CA373AA1C7054598_OFFSET))(this);
+	}
+
+	::System::Void Dispose()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_2568E3CEAD1BEC7A_DISPOSE_OFFSET))(this);
+	}
+
+	::System::Void Method_1_97D83E4CB3B11935()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_2568E3CEAD1BEC7A_METHOD_1_97D83E4CB3B11935_OFFSET))(this);
+	}
+
+	::RPG::Client::Promises::IPromise* Method_1_7530D08B9DEFCB05(::RPG::Client::CakeRaceStartGameData* a1)
+	{
+		return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::RPG::Client::CakeRaceStartGameData*))((::PBYTE)hIl2Cpp + CLASS_1_2568E3CEAD1BEC7A_METHOD_1_7530D08B9DEFCB05_OFFSET))(this, a1);
+	}
+
+	::RPG::Client::Promises::IPromise* Method_1_21D73357A3B49643()
+	{
+		return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_2568E3CEAD1BEC7A_METHOD_1_21D73357A3B49643_OFFSET))(this);
+	}
+
+	::System::Void Method_1_A1781348F0A89177()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_2568E3CEAD1BEC7A_METHOD_1_A1781348F0A89177_OFFSET))(this);
+	}
+
+	::RPG::Client::Promises::IPromise* Method_1_5F8502D02411330C(::RPG::Client::CakeRaceStartGameData* a1)
+	{
+		return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::RPG::Client::CakeRaceStartGameData*))((::PBYTE)hIl2Cpp + CLASS_1_2568E3CEAD1BEC7A_METHOD_1_5F8502D02411330C_OFFSET))(this, a1);
+	}
+
+	::RPG::Client::Promises::IPromise* Method_1_58D5590C3662938B()
+	{
+		return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_2568E3CEAD1BEC7A_METHOD_1_58D5590C3662938B_OFFSET))(this);
+	}
+
+	::RPG::Client::Promises::IPromise* Method_1_3D6062A0872E36D3()
+	{
+		return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_2568E3CEAD1BEC7A_METHOD_1_3D6062A0872E36D3_OFFSET))(this);
+	}
+
+	::RPG::Client::Promises::IPromise* Method_1_3D6062A0872E36D3_1()
+	{
+		return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_2568E3CEAD1BEC7A_METHOD_1_3D6062A0872E36D3_1_OFFSET))(this);
+	}
+
+	::RPG::Client::Promises::IPromise* Method_1_7842FB10066FED93()
+	{
+		return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_2568E3CEAD1BEC7A_METHOD_1_7842FB10066FED93_OFFSET))(this);
+	}
+
+	::RPG::Client::Promises::IPromise* Method_1_646B7672F0B3276E()
+	{
+		return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_2568E3CEAD1BEC7A_METHOD_1_646B7672F0B3276E_OFFSET))(this);
+	}
+
+	::RPG::Client::Promises::IPromise* Method_1_D63E8DDE1BF6AA37(::RPG::Client::CakeRaceStartGameData* a1)
+	{
+		return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::RPG::Client::CakeRaceStartGameData*))((::PBYTE)hIl2Cpp + CLASS_1_2568E3CEAD1BEC7A_METHOD_1_D63E8DDE1BF6AA37_OFFSET))(this, a1);
+	}
+
+	::RPG::Client::Promises::IPromise* Method_1_7DDBD306F12D6A4B()
+	{
+		return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_2568E3CEAD1BEC7A_METHOD_1_7DDBD306F12D6A4B_OFFSET))(this);
+	}
+
+	::RPG::Client::Promises::IPromise* Method_1_9634D6F0AC458C59()
+	{
+		return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_2568E3CEAD1BEC7A_METHOD_1_9634D6F0AC458C59_OFFSET))(this);
+	}
+
+	::RPG::Client::Promises::IPromise* Method_1_91E0761278B0E1FD(::System::Boolean a1)
+	{
+		return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_2568E3CEAD1BEC7A_METHOD_1_91E0761278B0E1FD_OFFSET))(this, a1);
+	}
+
+	::RPG::Client::Promises::IPromise* Method_1_A2E29675A3D496BD()
+	{
+		return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_2568E3CEAD1BEC7A_METHOD_1_A2E29675A3D496BD_OFFSET))(this);
+	}
+
+	::RPG::Client::Promises::IPromise* Method_1_F0238F9540F47818()
+	{
+		return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_2568E3CEAD1BEC7A_METHOD_1_F0238F9540F47818_OFFSET))(this);
+	}
+
+	::System::Void Method_1_9681042564541CD6()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_2568E3CEAD1BEC7A_METHOD_1_9681042564541CD6_OFFSET))(this);
+	}
+
+	::System::Void Method_1_7FBAA229ED524F8E()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_2568E3CEAD1BEC7A_METHOD_1_7FBAA229ED524F8E_OFFSET))(this);
+	}
+
+	::RPG::Client::Promises::IPromise* Method_1_BB93C69D78C65A48()
+	{
+		return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_2568E3CEAD1BEC7A_METHOD_1_BB93C69D78C65A48_OFFSET))(this);
+	}
+
+	::RPG::Client::Promises::IPromise* _TryExitGame_b__33_0()
+	{
+		return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_2568E3CEAD1BEC7A__TRYEXITGAME_B__33_0_OFFSET))(this);
+	}
+
+	::System::Void _TryExitGame_b__33_1()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_2568E3CEAD1BEC7A__TRYEXITGAME_B__33_1_OFFSET))(this);
+	}
+};

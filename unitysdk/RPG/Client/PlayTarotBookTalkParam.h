@@ -4,11 +4,11 @@
 
 namespace RPG::GameCore { class TarotBookTalkInfo; }
 
-#define RPG_CLIENT_PLAYTAROTBOOKTALKPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1C2D7760)
+#define RPG_CLIENT_PLAYTAROTBOOKTALKPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xDBD53A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlayTarotBookTalkParam_TypeDefinitionIndex = 68044;
+	inline static constexpr unsigned int PlayTarotBookTalkParam_TypeDefinitionIndex = 68049;
 
 	class PlayTarotBookTalkParam : public ::System::Object
 	{

@@ -1,14 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/MechCraft/MechCraftEffectType.h"
 
-class Class_1_47EE63CB5C4DC8FC_5;
-namespace Entitas { class IContext; }
-namespace Entitas { class IEntity; }
-namespace System { class String; }
-namespace UnityEngine { class GameObject; }
-namespace UnityEngine { class Transform; }
+namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_111_TypeDefinitionIndex = 40454;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_111_TypeDefinitionIndex = 41673;
 
 class Class_0_16E4307DCC419505_111
 {

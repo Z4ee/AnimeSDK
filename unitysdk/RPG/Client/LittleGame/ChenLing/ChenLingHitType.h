@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame::ChenLing
 {
-	inline static constexpr unsigned int ChenLingHitType_TypeDefinitionIndex = 42109;
+	inline static constexpr unsigned int ChenLingHitType_TypeDefinitionIndex = 43751;
 
 	enum class ChenLingHitType : ::System::Int32
 	{

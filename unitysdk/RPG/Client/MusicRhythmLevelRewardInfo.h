@@ -5,12 +5,12 @@
 
 namespace RPG::Client { class ItemDisplayData; }
 
-#define RPG_CLIENT_MUSICRHYTHMLEVELREWARDINFO_CREATE_OFFSET UNITYSDK_OFFSET(0x1A305490)
-#define RPG_CLIENT_MUSICRHYTHMLEVELREWARDINFO_GET_TEXTID_OFFSET UNITYSDK_OFFSET(0x3B1A640)
+#define RPG_CLIENT_MUSICRHYTHMLEVELREWARDINFO_CREATE_OFFSET UNITYSDK_OFFSET(0xD908D30)
+#define RPG_CLIENT_MUSICRHYTHMLEVELREWARDINFO_GET_TEXTID_OFFSET UNITYSDK_OFFSET(0xEC940)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MusicRhythmLevelRewardInfo_TypeDefinitionIndex = 61909;
+	inline static constexpr unsigned int MusicRhythmLevelRewardInfo_TypeDefinitionIndex = 61819;
 
 	struct alignas(8) MusicRhythmLevelRewardInfo
 	{

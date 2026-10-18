@@ -6,62 +6,62 @@ namespace XLua { class ObjectCast; }
 
 namespace XLua
 {
-	inline static constexpr unsigned int ObjectCasters___O_TypeDefinitionIndex = 50568;
+	inline static constexpr unsigned int ObjectCasters___O_TypeDefinitionIndex = 50237;
 
 	class ObjectCasters___O : public ::System::Object
 	{
 	public:
-		static ::XLua::ObjectCast** StaticGet__7___longCaster()
+		static ::XLua::ObjectCast** StaticGet__2___byteCaster()
 		{
-			return (::XLua::ObjectCast**)Il2CppClass::FromTypeDefinitionIndex(ObjectCasters___O_TypeDefinitionIndex)->GetStaticField(0x65E90);
-		}
-		static ::XLua::ObjectCast** StaticGet__10___floatCaster()
-		{
-			return (::XLua::ObjectCast**)Il2CppClass::FromTypeDefinitionIndex(ObjectCasters___O_TypeDefinitionIndex)->GetStaticField(0x65E98);
-		}
-		static ::XLua::ObjectCast** StaticGet__11___getBoolean()
-		{
-			return (::XLua::ObjectCast**)Il2CppClass::FromTypeDefinitionIndex(ObjectCasters___O_TypeDefinitionIndex)->GetStaticField(0x65EA0);
-		}
-		static ::XLua::ObjectCast** StaticGet__3___shortCaster()
-		{
-			return (::XLua::ObjectCast**)Il2CppClass::FromTypeDefinitionIndex(ObjectCasters___O_TypeDefinitionIndex)->GetStaticField(0x65EA8);
+			return (::XLua::ObjectCast**)Il2CppClass::FromTypeDefinitionIndex(ObjectCasters___O_TypeDefinitionIndex)->GetStaticField(0x43410);
 		}
 		static ::XLua::ObjectCast** StaticGet__6___uintCaster()
 		{
-			return (::XLua::ObjectCast**)Il2CppClass::FromTypeDefinitionIndex(ObjectCasters___O_TypeDefinitionIndex)->GetStaticField(0x65EB0);
-		}
-		static ::XLua::ObjectCast** StaticGet__8___ulongCaster()
-		{
-			return (::XLua::ObjectCast**)Il2CppClass::FromTypeDefinitionIndex(ObjectCasters___O_TypeDefinitionIndex)->GetStaticField(0x65EB8);
-		}
-		static ::XLua::ObjectCast** StaticGet__2___byteCaster()
-		{
-			return (::XLua::ObjectCast**)Il2CppClass::FromTypeDefinitionIndex(ObjectCasters___O_TypeDefinitionIndex)->GetStaticField(0x65EC0);
-		}
-		static ::XLua::ObjectCast** StaticGet__5___intCaster()
-		{
-			return (::XLua::ObjectCast**)Il2CppClass::FromTypeDefinitionIndex(ObjectCasters___O_TypeDefinitionIndex)->GetStaticField(0x65EC8);
+			return (::XLua::ObjectCast**)Il2CppClass::FromTypeDefinitionIndex(ObjectCasters___O_TypeDefinitionIndex)->GetStaticField(0x43418);
 		}
 		static ::XLua::ObjectCast** StaticGet__12___getString()
 		{
-			return (::XLua::ObjectCast**)Il2CppClass::FromTypeDefinitionIndex(ObjectCasters___O_TypeDefinitionIndex)->GetStaticField(0x65ED0);
-		}
-		static ::XLua::ObjectCast** StaticGet__1___sbyteCaster()
-		{
-			return (::XLua::ObjectCast**)Il2CppClass::FromTypeDefinitionIndex(ObjectCasters___O_TypeDefinitionIndex)->GetStaticField(0x65ED8);
-		}
-		static ::XLua::ObjectCast** StaticGet__0___charCaster()
-		{
-			return (::XLua::ObjectCast**)Il2CppClass::FromTypeDefinitionIndex(ObjectCasters___O_TypeDefinitionIndex)->GetStaticField(0x65EE0);
+			return (::XLua::ObjectCast**)Il2CppClass::FromTypeDefinitionIndex(ObjectCasters___O_TypeDefinitionIndex)->GetStaticField(0x43420);
 		}
 		static ::XLua::ObjectCast** StaticGet__4___ushortCaster()
 		{
-			return (::XLua::ObjectCast**)Il2CppClass::FromTypeDefinitionIndex(ObjectCasters___O_TypeDefinitionIndex)->GetStaticField(0x65EE8);
+			return (::XLua::ObjectCast**)Il2CppClass::FromTypeDefinitionIndex(ObjectCasters___O_TypeDefinitionIndex)->GetStaticField(0x43428);
+		}
+		static ::XLua::ObjectCast** StaticGet__11___getBoolean()
+		{
+			return (::XLua::ObjectCast**)Il2CppClass::FromTypeDefinitionIndex(ObjectCasters___O_TypeDefinitionIndex)->GetStaticField(0x43430);
 		}
 		static ::XLua::ObjectCast** StaticGet__9___getDouble()
 		{
-			return (::XLua::ObjectCast**)Il2CppClass::FromTypeDefinitionIndex(ObjectCasters___O_TypeDefinitionIndex)->GetStaticField(0x65EF0);
+			return (::XLua::ObjectCast**)Il2CppClass::FromTypeDefinitionIndex(ObjectCasters___O_TypeDefinitionIndex)->GetStaticField(0x43438);
+		}
+		static ::XLua::ObjectCast** StaticGet__10___floatCaster()
+		{
+			return (::XLua::ObjectCast**)Il2CppClass::FromTypeDefinitionIndex(ObjectCasters___O_TypeDefinitionIndex)->GetStaticField(0x43440);
+		}
+		static ::XLua::ObjectCast** StaticGet__3___shortCaster()
+		{
+			return (::XLua::ObjectCast**)Il2CppClass::FromTypeDefinitionIndex(ObjectCasters___O_TypeDefinitionIndex)->GetStaticField(0x43448);
+		}
+		static ::XLua::ObjectCast** StaticGet__1___sbyteCaster()
+		{
+			return (::XLua::ObjectCast**)Il2CppClass::FromTypeDefinitionIndex(ObjectCasters___O_TypeDefinitionIndex)->GetStaticField(0x43450);
+		}
+		static ::XLua::ObjectCast** StaticGet__7___longCaster()
+		{
+			return (::XLua::ObjectCast**)Il2CppClass::FromTypeDefinitionIndex(ObjectCasters___O_TypeDefinitionIndex)->GetStaticField(0x43458);
+		}
+		static ::XLua::ObjectCast** StaticGet__8___ulongCaster()
+		{
+			return (::XLua::ObjectCast**)Il2CppClass::FromTypeDefinitionIndex(ObjectCasters___O_TypeDefinitionIndex)->GetStaticField(0x43460);
+		}
+		static ::XLua::ObjectCast** StaticGet__5___intCaster()
+		{
+			return (::XLua::ObjectCast**)Il2CppClass::FromTypeDefinitionIndex(ObjectCasters___O_TypeDefinitionIndex)->GetStaticField(0x43468);
+		}
+		static ::XLua::ObjectCast** StaticGet__0___charCaster()
+		{
+			return (::XLua::ObjectCast**)Il2CppClass::FromTypeDefinitionIndex(ObjectCasters___O_TypeDefinitionIndex)->GetStaticField(0x43470);
 		}
 	};
 }

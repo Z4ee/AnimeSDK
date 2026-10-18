@@ -1,9 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-namespace RPG::Client::Prop { class ChimeraDuelMainPuzzleMonoStateView; }
+class Class_0_16E4307DCC419505_1174;
+class Class_1_3F28033F34305C46;
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_1311_TypeDefinitionIndex = 77835;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_1311_TypeDefinitionIndex = 73889;
 
 class Class_0_16E4307DCC419505_1311
 {

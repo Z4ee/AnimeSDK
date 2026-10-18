@@ -3,7 +3,7 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2TOIState_TypeDefinitionIndex = 36102;
+	inline static constexpr unsigned int B2TOIState_TypeDefinitionIndex = 36789;
 
 	enum class B2TOIState : ::System::Int32
 	{

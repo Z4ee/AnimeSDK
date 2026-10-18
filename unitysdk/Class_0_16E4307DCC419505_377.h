@@ -1,7 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_377_TypeDefinitionIndex = 49677;
+namespace RPG::GameCore { class DynamicValue; }
+namespace System { class String; }
+
+inline static constexpr unsigned int Class_0_16E4307DCC419505_377_TypeDefinitionIndex = 43879;
 
 class Class_0_16E4307DCC419505_377
 {

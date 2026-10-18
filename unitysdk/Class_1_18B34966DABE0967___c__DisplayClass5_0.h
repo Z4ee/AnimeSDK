@@ -4,9 +4,9 @@
 
 class Class_1_18B34966DABE0967;
 
-#define CLASS_1_18B34966DABE0967___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x190FAB10)
+#define CLASS_1_18B34966DABE0967___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15901150)
 
-inline static constexpr unsigned int Class_1_18B34966DABE0967___c__DisplayClass5_0_TypeDefinitionIndex = 63969;
+inline static constexpr unsigned int Class_1_18B34966DABE0967___c__DisplayClass5_0_TypeDefinitionIndex = 63907;
 
 class Class_1_18B34966DABE0967___c__DisplayClass5_0 : public ::System::Object
 {

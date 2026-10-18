@@ -6,13 +6,13 @@ namespace RPG::Client { class LocalizedText; }
 namespace RPG::Client { class UIStateCtrl; }
 namespace System { class String; }
 
-#define RPG_CLIENT_B51RACING_B51RACINGDEVELOPVALUEICONITEMCONTROL_SETUPVIEW_OFFSET UNITYSDK_OFFSET(0x19EE49F0)
-#define RPG_CLIENT_B51RACING_B51RACINGDEVELOPVALUEICONITEMCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x19EFC7D0)
-#define RPG_CLIENT_B51RACING_B51RACINGDEVELOPVALUEICONITEMCONTROL__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0x19EFC6B0)
+#define RPG_CLIENT_B51RACING_B51RACINGDEVELOPVALUEICONITEMCONTROL_SETUPVIEW_OFFSET UNITYSDK_OFFSET(0xC78C560)
+#define RPG_CLIENT_B51RACING_B51RACINGDEVELOPVALUEICONITEMCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0xC78C790)
+#define RPG_CLIENT_B51RACING_B51RACINGDEVELOPVALUEICONITEMCONTROL__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0xC78C440)
 
 namespace RPG::Client::B51Racing
 {
-	inline static constexpr unsigned int B51RacingDevelopValueIconItemControl_TypeDefinitionIndex = 80495;
+	inline static constexpr unsigned int B51RacingDevelopValueIconItemControl_TypeDefinitionIndex = 81823;
 
 	class B51RacingDevelopValueIconItemControl : public ::Sofa::BaseSofaControl
 	{
@@ -23,12 +23,12 @@ namespace RPG::Client::B51Racing
 		// static const ::System::String* _STATE_VALUE_UP; // 0x0
 		// static const ::System::String* _STATE_TARGET; // 0x0
 		// static const ::System::String* _STATE_AVATAR; // 0x0
-		::RPG::Client::UIStateCtrl* _StatTypeStateCtrl; // 0x38
-		::RPG::Client::UIStateCtrl* _RootStateCtrl; // 0x40
-		::RPG::Client::UIStateCtrl* _ValueUpStateCtrl; // 0x48
-		::RPG::Client::UIStateCtrl* _TargetStateCtrl; // 0x50
-		::RPG::Client::UIStateCtrl* _AvatarStateCtrl; // 0x58
-		::RPG::Client::LocalizedText* _NumText; // 0x60
+		::RPG::Client::UIStateCtrl* _StatTypeStateCtrl; // 0x40
+		::RPG::Client::UIStateCtrl* _RootStateCtrl; // 0x48
+		::RPG::Client::UIStateCtrl* _ValueUpStateCtrl; // 0x50
+		::RPG::Client::UIStateCtrl* _TargetStateCtrl; // 0x58
+		::RPG::Client::UIStateCtrl* _AvatarStateCtrl; // 0x60
+		::RPG::Client::LocalizedText* _NumText; // 0x68
 
 		::System::Void _ctor()
 		{

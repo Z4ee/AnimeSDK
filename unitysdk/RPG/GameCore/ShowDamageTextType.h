@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShowDamageTextType_TypeDefinitionIndex = 24476;
+	inline static constexpr unsigned int ShowDamageTextType_TypeDefinitionIndex = 24758;
 
 	enum class ShowDamageTextType : ::System::Int32
 	{

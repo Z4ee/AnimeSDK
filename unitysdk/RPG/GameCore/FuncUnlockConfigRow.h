@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ConditionParam; }
 
-#define RPG_GAMECORE_FUNCUNLOCKCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DCBED40)
-#define RPG_GAMECORE_FUNCUNLOCKCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1DCBF9E0)
+#define RPG_GAMECORE_FUNCUNLOCKCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D6C9C00)
+#define RPG_GAMECORE_FUNCUNLOCKCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6CA8E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FuncUnlockConfigRow_TypeDefinitionIndex = 13211;
+	inline static constexpr unsigned int FuncUnlockConfigRow_TypeDefinitionIndex = 13317;
 
 	class FuncUnlockConfigRow : public ::System::Object
 	{

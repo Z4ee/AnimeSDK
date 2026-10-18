@@ -5,10 +5,10 @@
 
 namespace RPG::GameCore { class FiveDimCrystalConfig; }
 
-#define CLASS_1_AA1C76C9473E754F_CLEAR_OFFSET UNITYSDK_OFFSET(0x1BAB83E0)
-#define CLASS_1_AA1C76C9473E754F__CTOR_OFFSET UNITYSDK_OFFSET(0x1A5D46C0)
+#define CLASS_1_AA1C76C9473E754F_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C8FF900)
+#define CLASS_1_AA1C76C9473E754F__CTOR_OFFSET UNITYSDK_OFFSET(0x1C8FF950)
 
-inline static constexpr unsigned int Class_1_AA1C76C9473E754F_TypeDefinitionIndex = 41873;
+inline static constexpr unsigned int Class_1_AA1C76C9473E754F_TypeDefinitionIndex = 43515;
 
 class Class_1_AA1C76C9473E754F : public ::System::Object
 {

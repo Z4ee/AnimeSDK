@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_FIVEDIMSETENTITYVISIBLEACTION_METHOD_3_4479E6C96497FFF9_OFFSET UNITYSDK_OFFSET(0x1D878C00)
-#define RPG_GAMECORE_FIVEDIMSETENTITYVISIBLEACTION_METHOD_3_46C19EDFAAE9BAFC_OFFSET UNITYSDK_OFFSET(0x1D878CE0)
-#define RPG_GAMECORE_FIVEDIMSETENTITYVISIBLEACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D878CD0)
+#define RPG_GAMECORE_FIVEDIMSETENTITYVISIBLEACTION_METHOD_4_15DF3F66B94C7705_OFFSET UNITYSDK_OFFSET(0x1D6ABF80)
+#define RPG_GAMECORE_FIVEDIMSETENTITYVISIBLEACTION_METHOD_4_25A3836348231488_OFFSET UNITYSDK_OFFSET(0x1D6ABEA0)
+#define RPG_GAMECORE_FIVEDIMSETENTITYVISIBLEACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6ABF70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimSetEntityVisibleAction_TypeDefinitionIndex = 18474;
+	inline static constexpr unsigned int FiveDimSetEntityVisibleAction_TypeDefinitionIndex = 18683;
 
 	class FiveDimSetEntityVisibleAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
@@ -22,14 +22,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMSETENTITYVISIBLEACTION__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_4479E6C96497FFF9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimSetEntityVisibleAction*& a2)
+		static ::System::Void Method_4_25A3836348231488(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimSetEntityVisibleAction*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimSetEntityVisibleAction*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMSETENTITYVISIBLEACTION_METHOD_3_4479E6C96497FFF9_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimSetEntityVisibleAction*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMSETENTITYVISIBLEACTION_METHOD_4_25A3836348231488_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_46C19EDFAAE9BAFC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimSetEntityVisibleAction* a2)
+		static ::System::Void Method_4_15DF3F66B94C7705(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimSetEntityVisibleAction* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimSetEntityVisibleAction*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMSETENTITYVISIBLEACTION_METHOD_3_46C19EDFAAE9BAFC_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimSetEntityVisibleAction*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMSETENTITYVISIBLEACTION_METHOD_4_15DF3F66B94C7705_OFFSET))(a1, a2);
 		}
 	};
 }

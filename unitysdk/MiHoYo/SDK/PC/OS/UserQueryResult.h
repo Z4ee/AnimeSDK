@@ -5,11 +5,11 @@
 namespace MiHoYo::SDK::PC::OS { class UserQueryXboxExtension; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_USERQUERYRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x1ABE1090)
+#define MIHOYO_SDK_PC_OS_USERQUERYRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF177A0)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int UserQueryResult_TypeDefinitionIndex = 8583;
+	inline static constexpr unsigned int UserQueryResult_TypeDefinitionIndex = 8644;
 
 	class UserQueryResult : public ::System::Object
 	{

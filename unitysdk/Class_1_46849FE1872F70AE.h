@@ -3,15 +3,15 @@
 #include "unitysdk/RPG/Client/LittleGame/BossTransitionReason.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_46849FE1872F70AE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE007C0)
+#define CLASS_1_46849FE1872F70AE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C87F380)
 
-inline static constexpr unsigned int Class_1_46849FE1872F70AE_TypeDefinitionIndex = 41089;
+inline static constexpr unsigned int Class_1_46849FE1872F70AE_TypeDefinitionIndex = 42375;
 
 class Class_1_46849FE1872F70AE : public ::System::Object
 {
 public:
-	::System::Single HMBJNEIEIJK; // 0x10
-	::RPG::Client::LittleGame::BossTransitionReason KDHPKOFLNFM; // 0x14
+	::RPG::Client::LittleGame::BossTransitionReason KDHPKOFLNFM; // 0x10
+	::System::Single HMBJNEIEIJK; // 0x14
 
 	::System::Void _ctor()
 	{

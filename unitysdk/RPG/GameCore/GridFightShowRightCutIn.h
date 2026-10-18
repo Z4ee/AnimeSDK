@@ -9,13 +9,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_GRIDFIGHTSHOWRIGHTCUTIN_METHOD_3_191083B57327F901_OFFSET UNITYSDK_OFFSET(0x1D3B9E60)
-#define RPG_GAMECORE_GRIDFIGHTSHOWRIGHTCUTIN_METHOD_3_2933020CF4AF36F6_OFFSET UNITYSDK_OFFSET(0x1D3B9E20)
-#define RPG_GAMECORE_GRIDFIGHTSHOWRIGHTCUTIN__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3B9E50)
+#define RPG_GAMECORE_GRIDFIGHTSHOWRIGHTCUTIN_METHOD_3_191083B57327F901_OFFSET UNITYSDK_OFFSET(0x1D714D60)
+#define RPG_GAMECORE_GRIDFIGHTSHOWRIGHTCUTIN_METHOD_3_2933020CF4AF36F6_OFFSET UNITYSDK_OFFSET(0x1D714D20)
+#define RPG_GAMECORE_GRIDFIGHTSHOWRIGHTCUTIN__CTOR_OFFSET UNITYSDK_OFFSET(0x1D714D50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightShowRightCutIn_TypeDefinitionIndex = 22973;
+	inline static constexpr unsigned int GridFightShowRightCutIn_TypeDefinitionIndex = 23235;
 
 	class GridFightShowRightCutIn : public ::RPG::GameCore::TaskConfig
 	{
@@ -27,7 +27,8 @@ namespace RPG::GameCore
 		::System::String* TraitSearchKey; // 0x40
 		::RPG::GameCore::DynamicFloat* TraitLv; // 0x48
 		::System::Boolean TraitShowAvatarImg; // 0x50
-		::RPG::GameCore::GridFightShowRightCutInTraitImgType TraitShowImgType; // 0x54
+		::System::String* AugmentID; // 0x58
+		::RPG::GameCore::GridFightShowRightCutInTraitImgType TraitShowImgType; // 0x60
 
 		::System::Void _ctor()
 		{

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define UNITYENGINE_CSHARPONLYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E1E99F0)
+#define UNITYENGINE_CSHARPONLYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F3A7A70)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int CSharpOnlyAttribute_TypeDefinitionIndex = 4312;
+	inline static constexpr unsigned int CSharpOnlyAttribute_TypeDefinitionIndex = 4315;
 
 	class CSharpOnlyAttribute : public ::System::Attribute
 	{

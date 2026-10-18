@@ -1,41 +1,58 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/MiHoYo/SDK/Alert_AlertResult.h"
 #include "unitysdk/System/Object.h"
 
+namespace MiHoYo::SDK { class AccountModel; }
+namespace MiHoYo::SDK { class Alert_OnAlertDelegate; }
 namespace MiHoYo::SDK { class NetworkResponseModelEx; }
 namespace MiHoYo::SDK::PC::OS { class GooglePlayBillingPayInfo; }
 namespace MiHoYo::SDK::PC::OS { class HoYoChannelGooglePlay; }
 namespace System { class Action; }
 
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1ABCA570)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY___C__DISPLAYCLASS12_0__VERIFYORDER_B__0_OFFSET UNITYSDK_OFFSET(0x1ABCD0D0)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY___C__DISPLAYCLASS12_0__VERIFYORDER_B__1_OFFSET UNITYSDK_OFFSET(0x1ABCD870)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF00B10)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY___C__DISPLAYCLASS12_0__PAY_B__0_OFFSET UNITYSDK_OFFSET(0x1BF02420)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY___C__DISPLAYCLASS12_0__PAY_B__1_OFFSET UNITYSDK_OFFSET(0x1BF02F00)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY___C__DISPLAYCLASS12_0__PAY_B__4_OFFSET UNITYSDK_OFFSET(0x1BF02ED0)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY___C__DISPLAYCLASS12_0__PAY_B__6_OFFSET UNITYSDK_OFFSET(0x1BF02F90)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int HoYoChannelGooglePlay___c__DisplayClass12_0_TypeDefinitionIndex = 8518;
+	inline static constexpr unsigned int HoYoChannelGooglePlay___c__DisplayClass12_0_TypeDefinitionIndex = 8575;
 
 	class HoYoChannelGooglePlay___c__DisplayClass12_0 : public ::System::Object
 	{
 	public:
-		::MiHoYo::SDK::PC::OS::GooglePlayBillingPayInfo* payInfo; // 0x10
-		::System::Action* __9__1; // 0x18
-		::MiHoYo::SDK::PC::OS::HoYoChannelGooglePlay* __4__this; // 0x20
-		::System::Boolean isSlient; // 0x28
+		::MiHoYo::SDK::Alert_OnAlertDelegate* __9__6; // 0x10
+		::MiHoYo::SDK::PC::OS::HoYoChannelGooglePlay* __4__this; // 0x18
+		::MiHoYo::SDK::Alert_OnAlertDelegate* __9__1; // 0x20
+		::MiHoYo::SDK::PC::OS::GooglePlayBillingPayInfo* gamePayInfo; // 0x28
+		::System::Action* __9__4; // 0x30
+		::MiHoYo::SDK::AccountModel* accountModel; // 0x38
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY___C__DISPLAYCLASS12_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _VerifyOrder_b__0(::MiHoYo::SDK::NetworkResponseModelEx* a1)
+		::System::Void _Pay_b__0(::MiHoYo::SDK::NetworkResponseModelEx* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::NetworkResponseModelEx*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY___C__DISPLAYCLASS12_0__VERIFYORDER_B__0_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::NetworkResponseModelEx*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY___C__DISPLAYCLASS12_0__PAY_B__0_OFFSET))(this, a1);
 		}
 
-		::System::Void _VerifyOrder_b__1()
+		::System::Void _Pay_b__4()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY___C__DISPLAYCLASS12_0__VERIFYORDER_B__1_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY___C__DISPLAYCLASS12_0__PAY_B__4_OFFSET))(this);
+		}
+
+		::System::Void _Pay_b__1(::MiHoYo::SDK::Alert_AlertResult a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Alert_AlertResult))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY___C__DISPLAYCLASS12_0__PAY_B__1_OFFSET))(this, a1);
+		}
+
+		::System::Void _Pay_b__6(::MiHoYo::SDK::Alert_AlertResult a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Alert_AlertResult))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY___C__DISPLAYCLASS12_0__PAY_B__6_OFFSET))(this, a1);
 		}
 	};
 }

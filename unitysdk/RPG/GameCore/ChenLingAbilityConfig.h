@@ -8,12 +8,12 @@ namespace RPG::GameCore { class BaseChenLingBattleAbilityNodeConfig; }
 namespace RPG::GameCore { class BaseChenLingBattleValueGetter; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHENLINGABILITYCONFIG_METHOD_2_8861A2F6987B016C_OFFSET UNITYSDK_OFFSET(0x1E0054A0)
-#define RPG_GAMECORE_CHENLINGABILITYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1E0056B0)
+#define RPG_GAMECORE_CHENLINGABILITYCONFIG_METHOD_2_8861A2F6987B016C_OFFSET UNITYSDK_OFFSET(0x1D550370)
+#define RPG_GAMECORE_CHENLINGABILITYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D550580)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingAbilityConfig_TypeDefinitionIndex = 15532;
+	inline static constexpr unsigned int ChenLingAbilityConfig_TypeDefinitionIndex = 15705;
 
 	class ChenLingAbilityConfig : public ::RPG::GameCore::JsonConfig
 	{

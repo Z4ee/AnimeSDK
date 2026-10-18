@@ -6,10 +6,10 @@
 namespace RPG::GameCore { class SetDynamicValueByBPChange; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_99D8454F8E5AD48B_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x19F8D920)
-#define CLASS_3_99D8454F8E5AD48B__CTOR_OFFSET UNITYSDK_OFFSET(0x19F8D840)
+#define CLASS_3_99D8454F8E5AD48B_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16473C50)
+#define CLASS_3_99D8454F8E5AD48B__CTOR_OFFSET UNITYSDK_OFFSET(0x16473B70)
 
-inline static constexpr unsigned int Class_3_99D8454F8E5AD48B_TypeDefinitionIndex = 55600;
+inline static constexpr unsigned int Class_3_99D8454F8E5AD48B_TypeDefinitionIndex = 55407;
 
 class Class_3_99D8454F8E5AD48B : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetDynamicValueByBPChange*>
 {

@@ -4,8 +4,8 @@
 #include "unitysdk/System/Runtime/CompilerServices/MethodCodeType.h"
 #include "unitysdk/System/Runtime/CompilerServices/MethodImplOptions.h"
 
-#define SYSTEM_RUNTIME_COMPILERSERVICES_METHODIMPLATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C456920)
-#define SYSTEM_RUNTIME_COMPILERSERVICES_METHODIMPLATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C456910)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_METHODIMPLATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C299330)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_METHODIMPLATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C299320)
 
 namespace System::Runtime::CompilerServices
 {
@@ -14,8 +14,8 @@ namespace System::Runtime::CompilerServices
 	class MethodImplAttribute : public ::System::Attribute
 	{
 	public:
-		::System::Runtime::CompilerServices::MethodImplOptions _val; // 0x10
-		::System::Runtime::CompilerServices::MethodCodeType MethodCodeType; // 0x14
+		::System::Runtime::CompilerServices::MethodCodeType MethodCodeType; // 0x10
+		::System::Runtime::CompilerServices::MethodImplOptions _val; // 0x14
 
 		::System::Void _ctor(::System::Int16 a1)
 		{

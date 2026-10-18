@@ -6,7 +6,7 @@ class Class_1_3F28033F34305C46;
 
 namespace RPG::Client::OpenWorld
 {
-	inline static constexpr unsigned int SceneItemHLODStreamingLayer_1_HLODTransitionContext_TypeDefinitionIndex = 73716;
+	inline static constexpr unsigned int SceneItemHLODStreamingLayer_1_HLODTransitionContext_TypeDefinitionIndex = 73823;
 
 	template <typename T>
 	struct SceneItemHLODStreamingLayer_1_HLODTransitionContext

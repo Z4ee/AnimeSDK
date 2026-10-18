@@ -6,14 +6,14 @@ namespace InControl { class DeadZoneFunc; }
 
 namespace InControl
 {
-	inline static constexpr unsigned int InputDevice___O_TypeDefinitionIndex = 39540;
+	inline static constexpr unsigned int InputDevice___O_TypeDefinitionIndex = 40837;
 
 	class InputDevice___O : public ::System::Object
 	{
 	public:
 		static ::InControl::DeadZoneFunc** StaticGet__0___Separate()
 		{
-			return (::InControl::DeadZoneFunc**)Il2CppClass::FromTypeDefinitionIndex(InputDevice___O_TypeDefinitionIndex)->GetStaticField(0x2A40);
+			return (::InControl::DeadZoneFunc**)Il2CppClass::FromTypeDefinitionIndex(InputDevice___O_TypeDefinitionIndex)->GetStaticField(0x64A30);
 		}
 	};
 }

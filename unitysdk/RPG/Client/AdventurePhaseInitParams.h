@@ -9,25 +9,25 @@ namespace EnviromentSystem { class EnviromentProfile; }
 namespace RPG::Client { class Map; }
 namespace System { class String; }
 
-#define RPG_CLIENT_ADVENTUREPHASEINITPARAMS_CLEARPLAYERSTARTPOSITION_OFFSET UNITYSDK_OFFSET(0x19DF0820)
-#define RPG_CLIENT_ADVENTUREPHASEINITPARAMS_SETUPENTERMAPTRIGGERSTORY_OFFSET UNITYSDK_OFFSET(0x19DF0860)
-#define RPG_CLIENT_ADVENTUREPHASEINITPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x19DF0800)
+#define RPG_CLIENT_ADVENTUREPHASEINITPARAMS_CLEARPLAYERSTARTPOSITION_OFFSET UNITYSDK_OFFSET(0xC61AB30)
+#define RPG_CLIENT_ADVENTUREPHASEINITPARAMS_SETUPENTERMAPTRIGGERSTORY_OFFSET UNITYSDK_OFFSET(0xC61AB70)
+#define RPG_CLIENT_ADVENTUREPHASEINITPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0xC61AB10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AdventurePhaseInitParams_TypeDefinitionIndex = 60267;
+	inline static constexpr unsigned int AdventurePhaseInitParams_TypeDefinitionIndex = 60131;
 
 	class AdventurePhaseInitParams : public ::System::Object
 	{
 	public:
-		::RPG::Client::Map* Map; // 0x10
-		::Class_2_2CF600F518D344A2* StageCache; // 0x18
+		::Class_2_2CF600F518D344A2* StageCache; // 0x10
+		::EnviromentSystem::EnviromentProfile* DefaultEnvProfile; // 0x18
 		::System::String* EnterFrom; // 0x20
-		::EnviromentSystem::EnviromentProfile* DefaultEnvProfile; // 0x28
-		::RPG::Client::AdventureBattleResult BattleResult; // 0x30
-		::System::Boolean LoadMapStageOnly; // 0x34
-		::System::Boolean IsFromSwitchMap; // 0x35
-		::System::Boolean IsFromBattle; // 0x36
+		::RPG::Client::Map* Map; // 0x28
+		::System::Boolean IsFromBattle; // 0x30
+		::System::Boolean LoadMapStageOnly; // 0x31
+		::System::Boolean IsFromSwitchMap; // 0x32
+		::RPG::Client::AdventureBattleResult BattleResult; // 0x34
 
 		::System::Void _ctor()
 		{

@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_MONOCONVINCEDOUBLESCREENANCHOR__CTOR_OFFSET UNITYSDK_OFFSET(0x19E35F30)
+#define RPG_CLIENT_MONOCONVINCEDOUBLESCREENANCHOR__CTOR_OFFSET UNITYSDK_OFFSET(0xD731630)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoConvinceDoubleScreenAnchor_TypeDefinitionIndex = 60786;
+	inline static constexpr unsigned int MonoConvinceDoubleScreenAnchor_TypeDefinitionIndex = 60687;
 
 	class MonoConvinceDoubleScreenAnchor : public ::UnityEngine::MonoBehaviour
 	{

@@ -3,12 +3,12 @@
 #include "unitysdk/RPG/Client/B51Racing/B51RacingMatchUIShowType.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_1428;
+class Class_0_16E4307DCC419505_1630;
 
-#define CLASS_1_70577C20FA4364DC_METHOD_1_EA818E66B0408165_OFFSET UNITYSDK_OFFSET(0x18D25300)
-#define CLASS_1_70577C20FA4364DC__CTOR_OFFSET UNITYSDK_OFFSET(0x18D25390)
+#define CLASS_1_70577C20FA4364DC_METHOD_1_EA818E66B0408165_OFFSET UNITYSDK_OFFSET(0xB42BBA0)
+#define CLASS_1_70577C20FA4364DC__CTOR_OFFSET UNITYSDK_OFFSET(0xB42BC30)
 
-inline static constexpr unsigned int Class_1_70577C20FA4364DC_TypeDefinitionIndex = 80584;
+inline static constexpr unsigned int Class_1_70577C20FA4364DC_TypeDefinitionIndex = 81912;
 
 class Class_1_70577C20FA4364DC : public ::System::Object
 {
@@ -18,8 +18,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_70577C20FA4364DC__CTOR_OFFSET))(this);
 	}
 
-	::RPG::Client::B51Racing::B51RacingMatchUIShowType Method_1_EA818E66B0408165(::Class_0_16E4307DCC419505_1428* a1)
+	::RPG::Client::B51Racing::B51RacingMatchUIShowType Method_1_EA818E66B0408165(::Class_0_16E4307DCC419505_1630* a1)
 	{
-		return ((::RPG::Client::B51Racing::B51RacingMatchUIShowType(*)(::PVOID, ::Class_0_16E4307DCC419505_1428*))((::PBYTE)hIl2Cpp + CLASS_1_70577C20FA4364DC_METHOD_1_EA818E66B0408165_OFFSET))(this, a1);
+		return ((::RPG::Client::B51Racing::B51RacingMatchUIShowType(*)(::PVOID, ::Class_0_16E4307DCC419505_1630*))((::PBYTE)hIl2Cpp + CLASS_1_70577C20FA4364DC_METHOD_1_EA818E66B0408165_OFFSET))(this, a1);
 	}
 };

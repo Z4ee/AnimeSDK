@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class FightFestShowCutIn; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_8B670B5D5AE5CD90_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x179FC7F0)
-#define CLASS_3_8B670B5D5AE5CD90__CTOR_OFFSET UNITYSDK_OFFSET(0x179FC7C0)
+#define CLASS_3_8B670B5D5AE5CD90_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBEF67D0)
+#define CLASS_3_8B670B5D5AE5CD90__CTOR_OFFSET UNITYSDK_OFFSET(0xBEF67A0)
 
-inline static constexpr unsigned int Class_3_8B670B5D5AE5CD90_TypeDefinitionIndex = 56543;
+inline static constexpr unsigned int Class_3_8B670B5D5AE5CD90_TypeDefinitionIndex = 56356;
 
 class Class_3_8B670B5D5AE5CD90 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::FightFestShowCutIn*>
 {

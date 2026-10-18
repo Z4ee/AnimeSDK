@@ -6,9 +6,9 @@
 class Class_2_1A8148841049062A;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_7C57167F2658AA69__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF89850)
+#define CLASS_1_7C57167F2658AA69__CTOR_OFFSET UNITYSDK_OFFSET(0x1CB79430)
 
-inline static constexpr unsigned int Class_1_7C57167F2658AA69_TypeDefinitionIndex = 41579;
+inline static constexpr unsigned int Class_1_7C57167F2658AA69_TypeDefinitionIndex = 43219;
 
 class Class_1_7C57167F2658AA69 : public ::System::Object
 {
@@ -16,8 +16,8 @@ public:
 	::System::Collections::Generic::List_1<::System::Single>* JANOBFIFPLI; // 0x10
 	::Class_2_1A8148841049062A* LCINDEDLCLG; // 0x18
 	::System::Collections::Generic::List_1<::UnityEngine::Vector3>* LJOOHOPBAJJ; // 0x20
-	::System::Int32 NJPFJJCLNFL; // 0x28
-	::System::Single NGFAGMJHKJO; // 0x2C
+	::System::Single NGFAGMJHKJO; // 0x28
+	::System::Int32 NJPFJJCLNFL; // 0x2C
 
 	::System::Void _ctor()
 	{

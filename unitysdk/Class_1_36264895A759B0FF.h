@@ -12,38 +12,38 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Events { class UnityAction; }
 namespace UnityEngine::Playables { class PlayableDirector; }
 
-#define CLASS_1_36264895A759B0FF_METHOD_1_08DCF72FBE01FF99_OFFSET UNITYSDK_OFFSET(0x187225F0)
-#define CLASS_1_36264895A759B0FF_METHOD_1_30D1209326FA87FC_OFFSET UNITYSDK_OFFSET(0x18722C10)
-#define CLASS_1_36264895A759B0FF_METHOD_1_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x18722810)
-#define CLASS_1_36264895A759B0FF_METHOD_1_85C746F74910D9C1_OFFSET UNITYSDK_OFFSET(0x18722DE0)
-#define CLASS_1_36264895A759B0FF_METHOD_1_BA05915D19667892_OFFSET UNITYSDK_OFFSET(0x18722D00)
-#define CLASS_1_36264895A759B0FF_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x18722CB0)
-#define CLASS_1_36264895A759B0FF_METHOD_1_D94FD23FDC64EBE6_OFFSET UNITYSDK_OFFSET(0x18722D80)
-#define CLASS_1_36264895A759B0FF_METHOD_1_EEF0744B559AC089_OFFSET UNITYSDK_OFFSET(0x18722870)
-#define CLASS_1_36264895A759B0FF__CTOR_OFFSET UNITYSDK_OFFSET(0x187225D0)
+#define CLASS_1_36264895A759B0FF_METHOD_1_08DCF72FBE01FF99_OFFSET UNITYSDK_OFFSET(0x12CFE340)
+#define CLASS_1_36264895A759B0FF_METHOD_1_30D1209326FA87FC_OFFSET UNITYSDK_OFFSET(0x12CFE960)
+#define CLASS_1_36264895A759B0FF_METHOD_1_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x12CFE560)
+#define CLASS_1_36264895A759B0FF_METHOD_1_85C746F74910D9C1_OFFSET UNITYSDK_OFFSET(0x12CFEB30)
+#define CLASS_1_36264895A759B0FF_METHOD_1_BA05915D19667892_OFFSET UNITYSDK_OFFSET(0x12CFEA50)
+#define CLASS_1_36264895A759B0FF_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x12CFEA00)
+#define CLASS_1_36264895A759B0FF_METHOD_1_D94FD23FDC64EBE6_OFFSET UNITYSDK_OFFSET(0x12CFEAD0)
+#define CLASS_1_36264895A759B0FF_METHOD_1_EEF0744B559AC089_OFFSET UNITYSDK_OFFSET(0x12CFE5C0)
+#define CLASS_1_36264895A759B0FF__CTOR_OFFSET UNITYSDK_OFFSET(0x12CFE320)
 
-inline static constexpr unsigned int Class_1_36264895A759B0FF_TypeDefinitionIndex = 48946;
+inline static constexpr unsigned int Class_1_36264895A759B0FF_TypeDefinitionIndex = 48492;
 
 class Class_1_36264895A759B0FF : public ::System::Object
 {
 public:
-	::System::String* DKMKBPLKNDC; // 0x10
-	::System::Collections::Generic::Dictionary_2<::UnityEngine::GameObject*, ::UnityEngine::GameObject*>* IEFMDBOGJFA; // 0x18
-	::UnityEngine::Events::UnityAction* FMNFMLKMHHL; // 0x20
-	::System::Action_1<::UnityEngine::Playables::PlayableDirector*>* NOLDNHOCOLH; // 0x28
-	::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* MCBALJMOIKL; // 0x30
-	::UnityEngine::GameObject* IHOJMGFDIHL; // 0x38
-	::UnityEngine::Playables::PlayableDirector* LDALFGDPLLF; // 0x40
-	::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* DAMHMJPFPDN; // 0x48
-	::System::String* FEBCMBILJMP; // 0x50
-	::System::Int32 PHFMCACHFIJ; // 0x58
-	::System::Single AJKNDBOBHFK; // 0x5C
-	::System::Double GKBFJPGEIJK; // 0x60
+	::UnityEngine::Events::UnityAction* FMNFMLKMHHL; // 0x10
+	::System::Action_1<::UnityEngine::Playables::PlayableDirector*>* NOLDNHOCOLH; // 0x18
+	::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* MCBALJMOIKL; // 0x20
+	::System::Collections::Generic::Dictionary_2<::UnityEngine::GameObject*, ::UnityEngine::GameObject*>* IEFMDBOGJFA; // 0x28
+	::System::String* DKMKBPLKNDC; // 0x30
+	::UnityEngine::Playables::PlayableDirector* LDALFGDPLLF; // 0x38
+	::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* DAMHMJPFPDN; // 0x40
+	::System::String* FEBCMBILJMP; // 0x48
+	::UnityEngine::GameObject* IHOJMGFDIHL; // 0x50
+	::System::UInt32 OOFOCLJKNCM; // 0x58
+	::System::Int32 PHFMCACHFIJ; // 0x5C
+	::System::Single AJKNDBOBHFK; // 0x60
 	::System::Double CKGKCODHELK; // 0x68
-	::System::Double JNJEDNMKCKI; // 0x70
-	::Class_1_36264895A759B0FF_DirectorState MEPFOEEGBEA; // 0x78
-	::System::UInt32 BMELGCPFLNA; // 0x7C
-	::System::UInt32 OOFOCLJKNCM; // 0x80
+	::System::Double GKBFJPGEIJK; // 0x70
+	::System::UInt32 BMELGCPFLNA; // 0x78
+	::Class_1_36264895A759B0FF_DirectorState MEPFOEEGBEA; // 0x7C
+	::System::Double JNJEDNMKCKI; // 0x80
 
 	::System::Void _ctor(::UnityEngine::Playables::PlayableDirector* a1)
 	{

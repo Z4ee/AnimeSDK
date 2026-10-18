@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_SUMMONUNITGATHERCONFIG_METHOD_2_AC7ED80FB052894F_OFFSET UNITYSDK_OFFSET(0x1CB13EB0)
-#define RPG_GAMECORE_SUMMONUNITGATHERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CB14F30)
+#define RPG_GAMECORE_SUMMONUNITGATHERCONFIG_METHOD_2_AC7ED80FB052894F_OFFSET UNITYSDK_OFFSET(0x1DB0F670)
+#define RPG_GAMECORE_SUMMONUNITGATHERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB106F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SummonUnitGatherConfig_TypeDefinitionIndex = 17392;
+	inline static constexpr unsigned int SummonUnitGatherConfig_TypeDefinitionIndex = 17604;
 
 	class SummonUnitGatherConfig : public ::RPG::GameCore::JsonConfig
 	{

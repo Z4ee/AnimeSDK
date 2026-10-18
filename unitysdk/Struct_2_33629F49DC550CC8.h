@@ -6,7 +6,7 @@ namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 namespace System::Collections::Generic { template <typename T> class LinkedListNode_1; }
 
-inline static constexpr unsigned int Struct_2_33629F49DC550CC8_TypeDefinitionIndex = 42203;
+inline static constexpr unsigned int Struct_2_33629F49DC550CC8_TypeDefinitionIndex = 43845;
 
 template <typename T>
 struct Struct_2_33629F49DC550CC8

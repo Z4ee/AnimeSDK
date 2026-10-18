@@ -11,33 +11,33 @@ namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Tuple_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_BILLBOARDCOMPONENT_NOTIFYPARAM_COPYTO_OFFSET UNITYSDK_OFFSET(0x1B63A560)
-#define RPG_GAMECORE_BILLBOARDCOMPONENT_NOTIFYPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1B63A6F0)
+#define RPG_GAMECORE_BILLBOARDCOMPONENT_NOTIFYPARAM_COPYTO_OFFSET UNITYSDK_OFFSET(0xE5C65C0)
+#define RPG_GAMECORE_BILLBOARDCOMPONENT_NOTIFYPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xE5C6750)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BillboardComponent_NotifyParam_TypeDefinitionIndex = 57322;
+	inline static constexpr unsigned int BillboardComponent_NotifyParam_TypeDefinitionIndex = 57158;
 
 	class BillboardComponent_NotifyParam : public ::System::Object
 	{
 	public:
-		::RPG::Client::Billboard::IBillboardHost* Host; // 0x10
-		::RPG::GameCore::GameEntity* Entity; // 0x18
-		::System::Tuple_2<::System::String*, ::System::String*>* FiveDimSidePuzzlePanelPaths; // 0x20
+		::System::Tuple_2<::System::String*, ::System::String*>* FiveDimSidePuzzlePanelPaths; // 0x10
+		::System::String* TypeIconPath; // 0x18
+		::RPG::Client::Billboard::IBillboardHost* Host; // 0x20
 		::System::Collections::Generic::Dictionary_2<::RPG::Client::BillboardShowType, ::System::Single>* TypeToShowDistance; // 0x28
-		::System::String* TypeIconPath; // 0x30
-		::RPG::GameCore::InwardBubbleTalkType InwardType; // 0x38
-		::System::Single ZOffset; // 0x3C
-		::RPG::Client::BillboardShowType BoardShowBit; // 0x40
-		::System::Boolean ShowTop; // 0x44
-		::System::Boolean IsShowFiveDimSidePuzzleChest; // 0x45
-		::System::Boolean ShowInStoryMode; // 0x46
-		::System::UInt32 NPCID; // 0x48
-		::System::Single YOffset; // 0x4C
-		::RPG::Client::TextID FloatingText; // 0x50
-		::RPG::Client::TextID TextIDName; // 0x60
-		::System::Single XOffset; // 0x70
-		::RPG::Client::TextID TextTitle; // 0x78
+		::RPG::GameCore::GameEntity* Entity; // 0x30
+		::System::Single ZOffset; // 0x38
+		::System::Single YOffset; // 0x3C
+		::RPG::Client::TextID FloatingText; // 0x40
+		::RPG::GameCore::InwardBubbleTalkType InwardType; // 0x50
+		::RPG::Client::BillboardShowType BoardShowBit; // 0x54
+		::RPG::Client::TextID TextTitle; // 0x58
+		::System::Single XOffset; // 0x68
+		::System::UInt32 NPCID; // 0x6C
+		::System::Boolean IsShowFiveDimSidePuzzleChest; // 0x70
+		::System::Boolean ShowInStoryMode; // 0x71
+		::System::Boolean ShowTop; // 0x72
+		::RPG::Client::TextID TextIDName; // 0x78
 
 		::System::Void _ctor()
 		{

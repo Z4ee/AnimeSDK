@@ -7,12 +7,12 @@ namespace RPG::GameCore { class AdventureHitConfig; }
 namespace RPG::GameCore { class LightningStrikeAreaAchievementConfig; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_LIGHTNINGSTRIKEAREAGLOBALCONFIG_METHOD_2_5FCC1CF643C3824D_OFFSET UNITYSDK_OFFSET(0x1DD5ABE0)
-#define RPG_GAMECORE_LIGHTNINGSTRIKEAREAGLOBALCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD5AD00)
+#define RPG_GAMECORE_LIGHTNINGSTRIKEAREAGLOBALCONFIG_METHOD_2_5FCC1CF643C3824D_OFFSET UNITYSDK_OFFSET(0x1D7A2740)
+#define RPG_GAMECORE_LIGHTNINGSTRIKEAREAGLOBALCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7A2860)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LightningStrikeAreaGlobalConfig_TypeDefinitionIndex = 16641;
+	inline static constexpr unsigned int LightningStrikeAreaGlobalConfig_TypeDefinitionIndex = 16817;
 
 	class LightningStrikeAreaGlobalConfig : public ::RPG::GameCore::JsonConfig
 	{

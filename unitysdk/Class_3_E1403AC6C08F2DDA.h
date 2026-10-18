@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ShowRogueTalkBg; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_E1403AC6C08F2DDA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x105DCA90)
-#define CLASS_3_E1403AC6C08F2DDA__CTOR_OFFSET UNITYSDK_OFFSET(0x105DCA60)
+#define CLASS_3_E1403AC6C08F2DDA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xFEB9DF0)
+#define CLASS_3_E1403AC6C08F2DDA__CTOR_OFFSET UNITYSDK_OFFSET(0xFEB9DC0)
 
-inline static constexpr unsigned int Class_3_E1403AC6C08F2DDA_TypeDefinitionIndex = 58836;
+inline static constexpr unsigned int Class_3_E1403AC6C08F2DDA_TypeDefinitionIndex = 58688;
 
 class Class_3_E1403AC6C08F2DDA : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ShowRogueTalkBg*>
 {

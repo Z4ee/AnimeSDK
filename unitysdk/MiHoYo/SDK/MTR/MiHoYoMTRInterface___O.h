@@ -6,18 +6,18 @@ namespace System::Threading { class ParameterizedThreadStart; }
 
 namespace MiHoYo::SDK::MTR
 {
-	inline static constexpr unsigned int MiHoYoMTRInterface___O_TypeDefinitionIndex = 47147;
+	inline static constexpr unsigned int MiHoYoMTRInterface___O_TypeDefinitionIndex = 46687;
 
 	class MiHoYoMTRInterface___O : public ::System::Object
 	{
 	public:
 		static ::System::Threading::ParameterizedThreadStart** StaticGet__1___StopUrlUsageProc()
 		{
-			return (::System::Threading::ParameterizedThreadStart**)Il2CppClass::FromTypeDefinitionIndex(MiHoYoMTRInterface___O_TypeDefinitionIndex)->GetStaticField(0x534E0);
+			return (::System::Threading::ParameterizedThreadStart**)Il2CppClass::FromTypeDefinitionIndex(MiHoYoMTRInterface___O_TypeDefinitionIndex)->GetStaticField(0x2A320);
 		}
 		static ::System::Threading::ParameterizedThreadStart** StaticGet__0___StopMTRProc()
 		{
-			return (::System::Threading::ParameterizedThreadStart**)Il2CppClass::FromTypeDefinitionIndex(MiHoYoMTRInterface___O_TypeDefinitionIndex)->GetStaticField(0x534E8);
+			return (::System::Threading::ParameterizedThreadStart**)Il2CppClass::FromTypeDefinitionIndex(MiHoYoMTRInterface___O_TypeDefinitionIndex)->GetStaticField(0x2A328);
 		}
 	};
 }

@@ -5,7 +5,7 @@ namespace Entitas { template <typename T> class IMatcher_1; }
 
 namespace RPG::Client::LittleGameShare
 {
-	inline static constexpr unsigned int ITransformContext_1_TypeDefinitionIndex = 36353;
+	inline static constexpr unsigned int ITransformContext_1_TypeDefinitionIndex = 37050;
 
 	template <typename TEntity>
 	class ITransformContext_1

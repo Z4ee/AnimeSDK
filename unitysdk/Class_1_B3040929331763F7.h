@@ -5,7 +5,7 @@
 namespace R3 { template <typename T> class ReactiveProperty_1; }
 namespace System { template <typename T> class Action_1; }
 
-inline static constexpr unsigned int Class_1_B3040929331763F7_TypeDefinitionIndex = 50206;
+inline static constexpr unsigned int Class_1_B3040929331763F7_TypeDefinitionIndex = 49834;
 
 template <typename TNavigation>
 class Class_1_B3040929331763F7 : public ::System::Object

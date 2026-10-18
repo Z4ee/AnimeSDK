@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK::UI::Internal::OS
 {
-	inline static constexpr unsigned int OAuthType_TypeDefinitionIndex = 8395;
+	inline static constexpr unsigned int OAuthType_TypeDefinitionIndex = 8438;
 
 	enum class OAuthType : ::System::Int32
 	{

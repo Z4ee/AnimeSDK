@@ -6,11 +6,11 @@ namespace RPG::Client::LittleGame { class ElfRestaurantGameEntity; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_C6119CC8979BE9EC_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C148170)
-#define CLASS_1_C6119CC8979BE9EC_METHOD_1_B09E78EE7EE4F8FA_OFFSET UNITYSDK_OFFSET(0x1C1480D0)
-#define CLASS_1_C6119CC8979BE9EC__CTOR_OFFSET UNITYSDK_OFFSET(0x1C148220)
+#define CLASS_1_C6119CC8979BE9EC_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C85F8E0)
+#define CLASS_1_C6119CC8979BE9EC_METHOD_1_B09E78EE7EE4F8FA_OFFSET UNITYSDK_OFFSET(0x1C85F840)
+#define CLASS_1_C6119CC8979BE9EC__CTOR_OFFSET UNITYSDK_OFFSET(0x1C85F990)
 
-inline static constexpr unsigned int Class_1_C6119CC8979BE9EC_TypeDefinitionIndex = 40508;
+inline static constexpr unsigned int Class_1_C6119CC8979BE9EC_TypeDefinitionIndex = 42110;
 
 class Class_1_C6119CC8979BE9EC : public ::System::Object
 {

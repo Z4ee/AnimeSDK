@@ -7,22 +7,22 @@ namespace RPG::Client::ChenLingFes { class ChenLingFesGameAwardItemViewModel; }
 namespace System { class String; }
 namespace UnityEngine::UI { class Text; }
 
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEAWARDITEMCONTROL_GET__VIEWMODEL_OFFSET UNITYSDK_OFFSET(0x1CC52E30)
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEAWARDITEMCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC53000)
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEAWARDITEMCONTROL__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x1CC52AF0)
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEAWARDITEMCONTROL__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0x1CC52A30)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEAWARDITEMCONTROL_GET__VIEWMODEL_OFFSET UNITYSDK_OFFSET(0xCA7A210)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEAWARDITEMCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0xCA7A3E0)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEAWARDITEMCONTROL__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0xCA79ED0)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEAWARDITEMCONTROL__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0xCA79E10)
 
 namespace RPG::Client::ChenLingFes
 {
-	inline static constexpr unsigned int ChenLingFesGameAwardItemControl_TypeDefinitionIndex = 80012;
+	inline static constexpr unsigned int ChenLingFesGameAwardItemControl_TypeDefinitionIndex = 81340;
 
 	class ChenLingFesGameAwardItemControl : public ::Sofa::BaseSofaControl
 	{
 	public:
 		// static const ::System::String* PrefabPath; // 0x0
-		::UnityEngine::UI::Text* _TextDesc; // 0x38
-		::UnityEngine::UI::Text* _TextValue; // 0x40
-		::RPG::Client::UIStateCtrl* _UIStateCtrl; // 0x48
+		::UnityEngine::UI::Text* _TextDesc; // 0x40
+		::UnityEngine::UI::Text* _TextValue; // 0x48
+		::RPG::Client::UIStateCtrl* _UIStateCtrl; // 0x50
 
 		::System::Void _ctor()
 		{

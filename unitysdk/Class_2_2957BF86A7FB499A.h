@@ -7,29 +7,29 @@ namespace RPG::Client { class LocalizedText; }
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_2_2957BF86A7FB499A_METHOD_2_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x162E6D40)
-#define CLASS_2_2957BF86A7FB499A_METHOD_2_88B60F3B95FAA4F1_OFFSET UNITYSDK_OFFSET(0x162E6F30)
-#define CLASS_2_2957BF86A7FB499A__CTOR_OFFSET UNITYSDK_OFFSET(0x162E6FA0)
+#define CLASS_2_2957BF86A7FB499A_METHOD_2_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0xB1F54D0)
+#define CLASS_2_2957BF86A7FB499A_METHOD_2_88B60F3B95FAA4F1_OFFSET UNITYSDK_OFFSET(0xB1F56C0)
+#define CLASS_2_2957BF86A7FB499A__CTOR_OFFSET UNITYSDK_OFFSET(0xB1F5730)
 
-inline static constexpr unsigned int Class_2_2957BF86A7FB499A_TypeDefinitionIndex = 72649;
+inline static constexpr unsigned int Class_2_2957BF86A7FB499A_TypeDefinitionIndex = 72724;
 
 class Class_2_2957BF86A7FB499A : public ::Class_1_A167209E71412818
 {
 public:
-	::RPG::Client::CustomButton* OKJEFKPNIKB; // 0x18
-	::UnityEngine::Transform* PGFAFAHOBEF; // 0x20
-	::RPG::Client::LocalizedText* CADMEMOFOEM; // 0x28
-	::RPG::Client::CustomButton* FPNIIGOJKGG; // 0x30
-	::RPG::Client::CustomButton* NNLKPJKDJBP; // 0x38
-	::UnityEngine::Transform* EDJNKKDHJBO; // 0x40
-	::RPG::Client::CustomButton* AEJFLBOIKNK; // 0x48
-	::RPG::Client::LocalizedText* NDDEKDDEGAP; // 0x50
+	::UnityEngine::Transform* HJNFHLOBOCM; // 0x18
+	::RPG::Client::LocalizedText* NDDEKDDEGAP; // 0x20
+	::UnityEngine::Transform* NABMKCEBNOL; // 0x28
+	::RPG::Client::CustomButton* AEJFLBOIKNK; // 0x30
+	::RPG::Client::LocalizedText* CADMEMOFOEM; // 0x38
+	::RPG::Client::CustomButton* LAHOOFIEBKF; // 0x40
+	::RPG::Client::CustomButton* NNLKPJKDJBP; // 0x48
+	::RPG::Client::LocalizedText* HDDAJHCLMGF; // 0x50
 	::RPG::Client::LocalizedText* LIEPKHCEILC; // 0x58
-	::RPG::Client::CustomButton* LAHOOFIEBKF; // 0x60
-	::RPG::Client::LocalizedText* HDDAJHCLMGF; // 0x68
-	::UnityEngine::Transform* NABMKCEBNOL; // 0x70
-	::RPG::Client::CustomButton* LFEAAPCBADA; // 0x78
-	::UnityEngine::Transform* HJNFHLOBOCM; // 0x80
+	::RPG::Client::CustomButton* OKJEFKPNIKB; // 0x60
+	::UnityEngine::Transform* EDJNKKDHJBO; // 0x68
+	::RPG::Client::CustomButton* LFEAAPCBADA; // 0x70
+	::RPG::Client::CustomButton* FPNIIGOJKGG; // 0x78
+	::UnityEngine::Transform* PGFAFAHOBEF; // 0x80
 
 	::System::Void _ctor()
 	{

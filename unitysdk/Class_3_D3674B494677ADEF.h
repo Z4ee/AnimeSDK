@@ -7,10 +7,10 @@ namespace RPG::GameCore { class TargetFetchCurrentGroupNPCMonsters; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_3_D3674B494677ADEF_EVALUATE_OFFSET UNITYSDK_OFFSET(0x190F7A70)
-#define CLASS_3_D3674B494677ADEF__CTOR_OFFSET UNITYSDK_OFFSET(0x190F7A20)
+#define CLASS_3_D3674B494677ADEF_EVALUATE_OFFSET UNITYSDK_OFFSET(0x158FE0A0)
+#define CLASS_3_D3674B494677ADEF__CTOR_OFFSET UNITYSDK_OFFSET(0x158FE050)
 
-inline static constexpr unsigned int Class_3_D3674B494677ADEF_TypeDefinitionIndex = 59232;
+inline static constexpr unsigned int Class_3_D3674B494677ADEF_TypeDefinitionIndex = 59084;
 
 class Class_3_D3674B494677ADEF : public ::RPG::GameCore::TargetEvaluatorImpl_1<::RPG::GameCore::TargetFetchCurrentGroupNPCMonsters*>
 {

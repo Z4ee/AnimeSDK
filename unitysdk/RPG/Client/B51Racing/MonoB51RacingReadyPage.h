@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/Sofa/BaseSofaControl.h"
 
-class Class_0_16E4307DCC419505_1306;
-class Class_0_16E4307DCC419505_1411;
-class Class_0_16E4307DCC419505_1413;
-class Class_0_16E4307DCC419505_1414;
-class Class_0_16E4307DCC419505_1418;
+class Class_0_16E4307DCC419505_1448;
+class Class_0_16E4307DCC419505_1613;
+class Class_0_16E4307DCC419505_1615;
+class Class_0_16E4307DCC419505_1616;
+class Class_0_16E4307DCC419505_1620;
 class Class_1_41DC55EACF71282F;
 class Class_1_A67090E7C81489C5;
 class Class_1_E2E6EA8FA1A071A6;
@@ -30,85 +30,85 @@ namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI { class Image; }
 namespace XLua { class LuaTable; }
 
-#define RPG_CLIENT_B51RACING_MONOB51RACINGREADYPAGE_ONEXITCLICK_OFFSET UNITYSDK_OFFSET(0x1B6DEE50)
-#define RPG_CLIENT_B51RACING_MONOB51RACINGREADYPAGE_ONGAMEPADSKILLCHECKCLICK_OFFSET UNITYSDK_OFFSET(0x1B6DF130)
-#define RPG_CLIENT_B51RACING_MONOB51RACINGREADYPAGE_ONGAMEPADSWITCHAVATARCLICK_OFFSET UNITYSDK_OFFSET(0x1B6DF0D0)
-#define RPG_CLIENT_B51RACING_MONOB51RACINGREADYPAGE_ONRETURNTOTOP_OFFSET UNITYSDK_OFFSET(0x1B6DF280)
-#define RPG_CLIENT_B51RACING_MONOB51RACINGREADYPAGE_ONSTARTRACECLICK_OFFSET UNITYSDK_OFFSET(0x1B6DF020)
-#define RPG_CLIENT_B51RACING_MONOB51RACINGREADYPAGE_ONTABSELECT_OFFSET UNITYSDK_OFFSET(0x1B6DF190)
-#define RPG_CLIENT_B51RACING_MONOB51RACINGREADYPAGE_SETUPVIEW_OFFSET UNITYSDK_OFFSET(0x1B6DD360)
-#define RPG_CLIENT_B51RACING_MONOB51RACINGREADYPAGE__ACQUIRESCENETOKEN_OFFSET UNITYSDK_OFFSET(0x1B6DCCB0)
-#define RPG_CLIENT_B51RACING_MONOB51RACINGREADYPAGE__ADAPTCAMERAFOV_OFFSET UNITYSDK_OFFSET(0x1B6DF9B0)
-#define RPG_CLIENT_B51RACING_MONOB51RACINGREADYPAGE__APPLYSTATICTEXTIDS_OFFSET UNITYSDK_OFFSET(0x1B6DDB30)
-#define RPG_CLIENT_B51RACING_MONOB51RACINGREADYPAGE__APPLYTABSTATE_OFFSET UNITYSDK_OFFSET(0x1B6DDD60)
-#define RPG_CLIENT_B51RACING_MONOB51RACINGREADYPAGE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B6DFF00)
-#define RPG_CLIENT_B51RACING_MONOB51RACINGREADYPAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6DFED0)
-#define RPG_CLIENT_B51RACING_MONOB51RACINGREADYPAGE__GETBRIDGEHANDLE_OFFSET UNITYSDK_OFFSET(0x1B6DD2C0)
-#define RPG_CLIENT_B51RACING_MONOB51RACINGREADYPAGE__GETCAMERASERVICE_OFFSET UNITYSDK_OFFSET(0x1B6DF8E0)
-#define RPG_CLIENT_B51RACING_MONOB51RACINGREADYPAGE__GETCARSERVICE_OFFSET UNITYSDK_OFFSET(0x1B6DFE00)
-#define RPG_CLIENT_B51RACING_MONOB51RACINGREADYPAGE__GETSCENESERVICE_OFFSET UNITYSDK_OFFSET(0x1B6DCBE0)
-#define RPG_CLIENT_B51RACING_MONOB51RACINGREADYPAGE__GETSERVICE_OFFSET UNITYSDK_OFFSET(0x1B6DEF20)
-#define RPG_CLIENT_B51RACING_MONOB51RACINGREADYPAGE__ONBACKPRESSED_OFFSET UNITYSDK_OFFSET(0x1B6DEFD0)
-#define RPG_CLIENT_B51RACING_MONOB51RACINGREADYPAGE__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x1B6DCD50)
-#define RPG_CLIENT_B51RACING_MONOB51RACINGREADYPAGE__ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1B6DEBB0)
-#define RPG_CLIENT_B51RACING_MONOB51RACINGREADYPAGE__ONEXITCLICK_B__52_0_OFFSET UNITYSDK_OFFSET(0x1B6E00A0)
-#define RPG_CLIENT_B51RACING_MONOB51RACINGREADYPAGE__ONGETRANKITEM_OFFSET UNITYSDK_OFFSET(0x1B6DF710)
-#define RPG_CLIENT_B51RACING_MONOB51RACINGREADYPAGE__ONGETTARGETITEM_OFFSET UNITYSDK_OFFSET(0x1B6DF2F0)
-#define RPG_CLIENT_B51RACING_MONOB51RACINGREADYPAGE__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0x1B6DC5B0)
-#define RPG_CLIENT_B51RACING_MONOB51RACINGREADYPAGE__ONSTARTENTERMATCHRAID_OFFSET UNITYSDK_OFFSET(0x1B6DF080)
-#define RPG_CLIENT_B51RACING_MONOB51RACINGREADYPAGE__ONUISCREENSIZECHANGED_OFFSET UNITYSDK_OFFSET(0x1B6DFB30)
-#define RPG_CLIENT_B51RACING_MONOB51RACINGREADYPAGE__REFRESHDRIVERPANEL_OFFSET UNITYSDK_OFFSET(0x1B6DDFB0)
-#define RPG_CLIENT_B51RACING_MONOB51RACINGREADYPAGE__REFRESHMAPAREA_OFFSET UNITYSDK_OFFSET(0x1B6DE030)
-#define RPG_CLIENT_B51RACING_MONOB51RACINGREADYPAGE__REFRESHRANKLIST_OFFSET UNITYSDK_OFFSET(0x1B6DE8A0)
-#define RPG_CLIENT_B51RACING_MONOB51RACINGREADYPAGE__REFRESHSTARTBUTTON_OFFSET UNITYSDK_OFFSET(0x1B6DEA50)
-#define RPG_CLIENT_B51RACING_MONOB51RACINGREADYPAGE__REFRESHTARGETLIST_OFFSET UNITYSDK_OFFSET(0x1B6DE6E0)
-#define RPG_CLIENT_B51RACING_MONOB51RACINGREADYPAGE__RELEASETRANSIENTTOKEN_OFFSET UNITYSDK_OFFSET(0x1B6DDAB0)
-#define RPG_CLIENT_B51RACING_MONOB51RACINGREADYPAGE__SETUPCAMERA_OFFSET UNITYSDK_OFFSET(0x1B6DD970)
-#define RPG_CLIENT_B51RACING_MONOB51RACINGREADYPAGE__SETUPREADYPAGECONTENT_OFFSET UNITYSDK_OFFSET(0x1B6DD710)
-#define RPG_CLIENT_B51RACING_MONOB51RACINGREADYPAGE__TRYINITDRIVERPANEL_OFFSET UNITYSDK_OFFSET(0x1B6DFB80)
+#define RPG_CLIENT_B51RACING_MONOB51RACINGREADYPAGE_ONEXITCLICK_OFFSET UNITYSDK_OFFSET(0xC7C2490)
+#define RPG_CLIENT_B51RACING_MONOB51RACINGREADYPAGE_ONGAMEPADSKILLCHECKCLICK_OFFSET UNITYSDK_OFFSET(0xC7C2770)
+#define RPG_CLIENT_B51RACING_MONOB51RACINGREADYPAGE_ONGAMEPADSWITCHAVATARCLICK_OFFSET UNITYSDK_OFFSET(0xC7C2710)
+#define RPG_CLIENT_B51RACING_MONOB51RACINGREADYPAGE_ONRETURNTOTOP_OFFSET UNITYSDK_OFFSET(0xC7C28C0)
+#define RPG_CLIENT_B51RACING_MONOB51RACINGREADYPAGE_ONSTARTRACECLICK_OFFSET UNITYSDK_OFFSET(0xC7C2660)
+#define RPG_CLIENT_B51RACING_MONOB51RACINGREADYPAGE_ONTABSELECT_OFFSET UNITYSDK_OFFSET(0xC7C27D0)
+#define RPG_CLIENT_B51RACING_MONOB51RACINGREADYPAGE_SETUPVIEW_OFFSET UNITYSDK_OFFSET(0xC7C0A50)
+#define RPG_CLIENT_B51RACING_MONOB51RACINGREADYPAGE__ACQUIRESCENETOKEN_OFFSET UNITYSDK_OFFSET(0xC7C03A0)
+#define RPG_CLIENT_B51RACING_MONOB51RACINGREADYPAGE__ADAPTCAMERAFOV_OFFSET UNITYSDK_OFFSET(0xC7C35D0)
+#define RPG_CLIENT_B51RACING_MONOB51RACINGREADYPAGE__APPLYSTATICTEXTIDS_OFFSET UNITYSDK_OFFSET(0xC7C1220)
+#define RPG_CLIENT_B51RACING_MONOB51RACINGREADYPAGE__APPLYTABSTATE_OFFSET UNITYSDK_OFFSET(0xC7C1450)
+#define RPG_CLIENT_B51RACING_MONOB51RACINGREADYPAGE__CCTOR_OFFSET UNITYSDK_OFFSET(0xC7C3B20)
+#define RPG_CLIENT_B51RACING_MONOB51RACINGREADYPAGE__CTOR_OFFSET UNITYSDK_OFFSET(0xC7C3AF0)
+#define RPG_CLIENT_B51RACING_MONOB51RACINGREADYPAGE__GETBRIDGEHANDLE_OFFSET UNITYSDK_OFFSET(0xC7C09B0)
+#define RPG_CLIENT_B51RACING_MONOB51RACINGREADYPAGE__GETCAMERASERVICE_OFFSET UNITYSDK_OFFSET(0xC7C3500)
+#define RPG_CLIENT_B51RACING_MONOB51RACINGREADYPAGE__GETCARSERVICE_OFFSET UNITYSDK_OFFSET(0xC7C3A20)
+#define RPG_CLIENT_B51RACING_MONOB51RACINGREADYPAGE__GETSCENESERVICE_OFFSET UNITYSDK_OFFSET(0xC7C02D0)
+#define RPG_CLIENT_B51RACING_MONOB51RACINGREADYPAGE__GETSERVICE_OFFSET UNITYSDK_OFFSET(0xC7C2560)
+#define RPG_CLIENT_B51RACING_MONOB51RACINGREADYPAGE__ONBACKPRESSED_OFFSET UNITYSDK_OFFSET(0xC7C2610)
+#define RPG_CLIENT_B51RACING_MONOB51RACINGREADYPAGE__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0xC7C0440)
+#define RPG_CLIENT_B51RACING_MONOB51RACINGREADYPAGE__ONDESTROY_OFFSET UNITYSDK_OFFSET(0xC7C21F0)
+#define RPG_CLIENT_B51RACING_MONOB51RACINGREADYPAGE__ONEXITCLICK_B__53_0_OFFSET UNITYSDK_OFFSET(0xC7C3CC0)
+#define RPG_CLIENT_B51RACING_MONOB51RACINGREADYPAGE__ONGETRANKITEM_OFFSET UNITYSDK_OFFSET(0xC7C2D40)
+#define RPG_CLIENT_B51RACING_MONOB51RACINGREADYPAGE__ONGETTARGETITEM_OFFSET UNITYSDK_OFFSET(0xC7C2930)
+#define RPG_CLIENT_B51RACING_MONOB51RACINGREADYPAGE__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0xC7BFBB0)
+#define RPG_CLIENT_B51RACING_MONOB51RACINGREADYPAGE__ONSTARTENTERMATCHRAID_OFFSET UNITYSDK_OFFSET(0xC7C26C0)
+#define RPG_CLIENT_B51RACING_MONOB51RACINGREADYPAGE__ONUISCREENSIZECHANGED_OFFSET UNITYSDK_OFFSET(0xC7C3750)
+#define RPG_CLIENT_B51RACING_MONOB51RACINGREADYPAGE__REFRESHDRIVERPANEL_OFFSET UNITYSDK_OFFSET(0xC7C16A0)
+#define RPG_CLIENT_B51RACING_MONOB51RACINGREADYPAGE__REFRESHMAPAREA_OFFSET UNITYSDK_OFFSET(0xC7C1720)
+#define RPG_CLIENT_B51RACING_MONOB51RACINGREADYPAGE__REFRESHRANKLIST_OFFSET UNITYSDK_OFFSET(0xC7C1EE0)
+#define RPG_CLIENT_B51RACING_MONOB51RACINGREADYPAGE__REFRESHSTARTBUTTON_OFFSET UNITYSDK_OFFSET(0xC7C2090)
+#define RPG_CLIENT_B51RACING_MONOB51RACINGREADYPAGE__REFRESHTARGETLIST_OFFSET UNITYSDK_OFFSET(0xC7C1D20)
+#define RPG_CLIENT_B51RACING_MONOB51RACINGREADYPAGE__RELEASETRANSIENTTOKEN_OFFSET UNITYSDK_OFFSET(0xC7C11A0)
+#define RPG_CLIENT_B51RACING_MONOB51RACINGREADYPAGE__SETUPCAMERA_OFFSET UNITYSDK_OFFSET(0xC7C1060)
+#define RPG_CLIENT_B51RACING_MONOB51RACINGREADYPAGE__SETUPREADYPAGECONTENT_OFFSET UNITYSDK_OFFSET(0xC7C0E00)
+#define RPG_CLIENT_B51RACING_MONOB51RACINGREADYPAGE__TRYINITDRIVERPANEL_OFFSET UNITYSDK_OFFSET(0xC7C37A0)
 
 namespace RPG::Client::B51Racing
 {
-	inline static constexpr unsigned int MonoB51RacingReadyPage_TypeDefinitionIndex = 80631;
+	inline static constexpr unsigned int MonoB51RacingReadyPage_TypeDefinitionIndex = 81959;
 
 	class MonoB51RacingReadyPage : public ::Sofa::BaseSofaControl
 	{
 	public:
+		static ::RPG::Client::TextID* StaticGet_s_TextMatchLap()
+		{
+			return (::RPG::Client::TextID*)Il2CppClass::FromTypeDefinitionIndex(MonoB51RacingReadyPage_TypeDefinitionIndex)->GetStaticField(0x134A0);
+		}
 		static ::RPG::Client::TextID* StaticGet_s_TextMap()
 		{
-			return (::RPG::Client::TextID*)Il2CppClass::FromTypeDefinitionIndex(MonoB51RacingReadyPage_TypeDefinitionIndex)->GetStaticField(0x153B0);
-		}
-		static ::RPG::Client::TextID* StaticGet_s_TextMatchIndex()
-		{
-			return (::RPG::Client::TextID*)Il2CppClass::FromTypeDefinitionIndex(MonoB51RacingReadyPage_TypeDefinitionIndex)->GetStaticField(0x153C0);
-		}
-		static ::RPG::Client::TextID* StaticGet_s_TextStartRace()
-		{
-			return (::RPG::Client::TextID*)Il2CppClass::FromTypeDefinitionIndex(MonoB51RacingReadyPage_TypeDefinitionIndex)->GetStaticField(0x153D0);
+			return (::RPG::Client::TextID*)Il2CppClass::FromTypeDefinitionIndex(MonoB51RacingReadyPage_TypeDefinitionIndex)->GetStaticField(0x134B0);
 		}
 		static ::RPG::Client::TextID* StaticGet_s_TextScoreDetailBtn()
 		{
-			return (::RPG::Client::TextID*)Il2CppClass::FromTypeDefinitionIndex(MonoB51RacingReadyPage_TypeDefinitionIndex)->GetStaticField(0x153E0);
-		}
-		static ::RPG::Client::TextID* StaticGet_s_TextRace()
-		{
-			return (::RPG::Client::TextID*)Il2CppClass::FromTypeDefinitionIndex(MonoB51RacingReadyPage_TypeDefinitionIndex)->GetStaticField(0x153F0);
-		}
-		static ::RPG::Client::TextID* StaticGet_s_TextTarget()
-		{
-			return (::RPG::Client::TextID*)Il2CppClass::FromTypeDefinitionIndex(MonoB51RacingReadyPage_TypeDefinitionIndex)->GetStaticField(0x15400);
-		}
-		static ::RPG::Client::TextID* StaticGet_s_TextTrackDescription()
-		{
-			return (::RPG::Client::TextID*)Il2CppClass::FromTypeDefinitionIndex(MonoB51RacingReadyPage_TypeDefinitionIndex)->GetStaticField(0x15410);
-		}
-		static ::RPG::Client::TextID* StaticGet_s_TextMatchLap()
-		{
-			return (::RPG::Client::TextID*)Il2CppClass::FromTypeDefinitionIndex(MonoB51RacingReadyPage_TypeDefinitionIndex)->GetStaticField(0x15420);
+			return (::RPG::Client::TextID*)Il2CppClass::FromTypeDefinitionIndex(MonoB51RacingReadyPage_TypeDefinitionIndex)->GetStaticField(0x134C0);
 		}
 		static ::RPG::Client::TextID* StaticGet_s_TextScoreRank()
 		{
-			return (::RPG::Client::TextID*)Il2CppClass::FromTypeDefinitionIndex(MonoB51RacingReadyPage_TypeDefinitionIndex)->GetStaticField(0x15430);
+			return (::RPG::Client::TextID*)Il2CppClass::FromTypeDefinitionIndex(MonoB51RacingReadyPage_TypeDefinitionIndex)->GetStaticField(0x134D0);
+		}
+		static ::RPG::Client::TextID* StaticGet_s_TextTrackDescription()
+		{
+			return (::RPG::Client::TextID*)Il2CppClass::FromTypeDefinitionIndex(MonoB51RacingReadyPage_TypeDefinitionIndex)->GetStaticField(0x134E0);
+		}
+		static ::RPG::Client::TextID* StaticGet_s_TextMatchIndex()
+		{
+			return (::RPG::Client::TextID*)Il2CppClass::FromTypeDefinitionIndex(MonoB51RacingReadyPage_TypeDefinitionIndex)->GetStaticField(0x134F0);
+		}
+		static ::RPG::Client::TextID* StaticGet_s_TextTarget()
+		{
+			return (::RPG::Client::TextID*)Il2CppClass::FromTypeDefinitionIndex(MonoB51RacingReadyPage_TypeDefinitionIndex)->GetStaticField(0x13500);
+		}
+		static ::RPG::Client::TextID* StaticGet_s_TextRace()
+		{
+			return (::RPG::Client::TextID*)Il2CppClass::FromTypeDefinitionIndex(MonoB51RacingReadyPage_TypeDefinitionIndex)->GetStaticField(0x13510);
+		}
+		static ::RPG::Client::TextID* StaticGet_s_TextStartRace()
+		{
+			return (::RPG::Client::TextID*)Il2CppClass::FromTypeDefinitionIndex(MonoB51RacingReadyPage_TypeDefinitionIndex)->GetStaticField(0x13520);
 		}
 		// static const ::System::Int32 TAB_INDEX_MAP = 0x0; // 0x0
 		// static const ::System::Int32 TAB_INDEX_RANK = 0x1; // 0x0
@@ -119,47 +119,48 @@ namespace RPG::Client::B51Racing
 		// static const ::System::Single RATIO_169; // 0x0
 		// static const ::System::Single RATIO_229; // 0x0
 		// static const ::System::Single RATIO_43; // 0x0
-		::RPG::Client::UIStateCtrl* _RightPanelStateCtrl; // 0x38
-		::UnityEngine::Transform* _MapRoot; // 0x40
-		::RPG::Client::LocalizedText* _MapTitle; // 0x48
-		::RPG::Client::LocalizedText* _TrackName; // 0x50
-		::RPG::Client::LocalizedText* _RoundNum; // 0x58
-		::RPG::Client::LocalizedText* _RoundText; // 0x60
-		::RPG::Client::LocalizedText* _MatchIndexTitle; // 0x68
-		::RPG::Client::LocalizedText* _MapText; // 0x70
-		::UnityEngine::UI::Image* _TrackImage; // 0x78
-		::UnityEngine::Transform* _RankRoot; // 0x80
-		::RPG::Client::StaticListView* _RankListView; // 0x88
-		::RPG::Client::StaticListView* _TargetListView; // 0x90
-		::RPG::Client::LocalizedText* _TargetTitle; // 0x98
-		::RPG::Client::LocalizedText* _BtnGoText; // 0xA0
-		::UnityEngine::Transform* _BtnGoDisable; // 0xA8
-		::UnityEngine::Transform* _TopTabArea; // 0xB0
-		::RPG::Client::LocalizedText* _Tab1TextSelected; // 0xB8
-		::RPG::Client::LocalizedText* _Tab2TextSelected; // 0xC0
-		::RPG::Client::AnimatorButton* _BtnExit; // 0xC8
-		::RPG::Client::AnimatorButton* _BtnGo; // 0xD0
-		::RPG::Client::AnimatorButton* _BtnGamepadSwitchAvatar; // 0xD8
-		::RPG::Client::AnimatorButton* _BtnGamepadSkillCheck; // 0xE0
-		::RPG::Client::UIFollow3DTarget* _SwitchAvatarFollowTarget; // 0xE8
-		::RPG::Client::UIFollow3DTarget* _SkillCheckFollowTarget; // 0xF0
-		::RPG::Client::B51Racing::MonoB51RacingReadyDriverPanel* _DriverPanel; // 0xF8
-		::UnityEngine::GameObject* _BGContentPoint; // 0x100
-		::UnityEngine::Transform* _CamFollowPoint; // 0x108
-		::UnityEngine::Animation* _BGCarAnimation; // 0x110
-		::UnityEngine::Transform* _BGCarRoot; // 0x118
-		::System::Boolean _HasStartedEnteringMatchRaid; // 0x120
-		::System::Boolean _targetListViewInitialized; // 0x121
-		::System::Boolean _rankListViewInitialized; // 0x122
-		::System::Collections::Generic::List_1<::Class_1_A67090E7C81489C5*>* _cachedTargets; // 0x128
-		::System::Collections::Generic::List_1<::Class_1_41DC55EACF71282F*>* _cachedRankEntries; // 0x130
-		::Class_0_16E4307DCC419505_1413* _SceneToken; // 0x138
-		::Class_1_E2E6EA8FA1A071A6* _ReadyPageCarAppearanceHelper; // 0x140
-		::Class_0_16E4307DCC419505_1414* _CameraService; // 0x148
-		::Class_0_16E4307DCC419505_1411* _SceneService; // 0x150
-		::Class_0_16E4307DCC419505_1306* _CarService; // 0x158
-		::System::Single _BaseFov169; // 0x160
-		::Cinemachine::CinemachineVirtualCamera* _ReadyPageVCam; // 0x168
+		::RPG::Client::UIStateCtrl* _RightPanelStateCtrl; // 0x40
+		::UnityEngine::Transform* _MapRoot; // 0x48
+		::RPG::Client::LocalizedText* _MapTitle; // 0x50
+		::RPG::Client::LocalizedText* _TrackName; // 0x58
+		::RPG::Client::LocalizedText* _RoundNum; // 0x60
+		::RPG::Client::LocalizedText* _RoundText; // 0x68
+		::RPG::Client::LocalizedText* _MatchIndexTitle; // 0x70
+		::RPG::Client::LocalizedText* _MapText; // 0x78
+		::UnityEngine::UI::Image* _TrackImage; // 0x80
+		::UnityEngine::Transform* _RankRoot; // 0x88
+		::RPG::Client::StaticListView* _RankListView; // 0x90
+		::RPG::Client::StaticListView* _TargetListView; // 0x98
+		::RPG::Client::LocalizedText* _TargetTitle; // 0xA0
+		::RPG::Client::LocalizedText* _BtnGoText; // 0xA8
+		::UnityEngine::Transform* _BtnGoDisable; // 0xB0
+		::UnityEngine::Transform* _TopTabArea; // 0xB8
+		::RPG::Client::LocalizedText* _Tab1TextSelected; // 0xC0
+		::RPG::Client::LocalizedText* _Tab2TextSelected; // 0xC8
+		::RPG::Client::AnimatorButton* _BtnExit; // 0xD0
+		::RPG::Client::AnimatorButton* _BtnGo; // 0xD8
+		::RPG::Client::AnimatorButton* _BtnGamepadSwitchAvatar; // 0xE0
+		::RPG::Client::AnimatorButton* _BtnGamepadSkillCheck; // 0xE8
+		::RPG::Client::UIFollow3DTarget* _SwitchAvatarFollowTarget; // 0xF0
+		::RPG::Client::UIFollow3DTarget* _SkillCheckFollowTarget; // 0xF8
+		::RPG::Client::B51Racing::MonoB51RacingReadyDriverPanel* _DriverPanel; // 0x100
+		::UnityEngine::GameObject* _BGContentPoint; // 0x108
+		::UnityEngine::Transform* _CamFollowPoint; // 0x110
+		::UnityEngine::Animation* _BGCarAnimation; // 0x118
+		::UnityEngine::Transform* _BGCarRoot; // 0x120
+		::Cinemachine::CinemachineVirtualCamera* _PageVCam; // 0x128
+		::System::Boolean _HasStartedEnteringMatchRaid; // 0x130
+		::System::Boolean _targetListViewInitialized; // 0x131
+		::System::Boolean _rankListViewInitialized; // 0x132
+		::System::Collections::Generic::List_1<::Class_1_A67090E7C81489C5*>* _cachedTargets; // 0x138
+		::System::Collections::Generic::List_1<::Class_1_41DC55EACF71282F*>* _cachedRankEntries; // 0x140
+		::Class_0_16E4307DCC419505_1615* _SceneToken; // 0x148
+		::Class_1_E2E6EA8FA1A071A6* _ReadyPageCarAppearanceHelper; // 0x150
+		::Class_0_16E4307DCC419505_1616* _CameraService; // 0x158
+		::Class_0_16E4307DCC419505_1613* _SceneService; // 0x160
+		::Class_0_16E4307DCC419505_1448* _CarService; // 0x168
+		::System::Single _BaseFov169; // 0x170
+		::Cinemachine::CinemachineVirtualCamera* _ReadyPageVCam; // 0x178
 
 		::System::Void _ctor()
 		{
@@ -281,9 +282,9 @@ namespace RPG::Client::B51Racing
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::B51Racing::B51RacingReadyPageViewModel*))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_MONOB51RACINGREADYPAGE__REFRESHSTARTBUTTON_OFFSET))(this, a1);
 		}
 
-		::Class_0_16E4307DCC419505_1418* _GetService()
+		::Class_0_16E4307DCC419505_1620* _GetService()
 		{
-			return ((::Class_0_16E4307DCC419505_1418*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_MONOB51RACINGREADYPAGE__GETSERVICE_OFFSET))(this);
+			return ((::Class_0_16E4307DCC419505_1620*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_MONOB51RACINGREADYPAGE__GETSERVICE_OFFSET))(this);
 		}
 
 		::System::Void _SetUpCamera()
@@ -321,24 +322,24 @@ namespace RPG::Client::B51Racing
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_MONOB51RACINGREADYPAGE__RELEASETRANSIENTTOKEN_OFFSET))(this);
 		}
 
-		::Class_0_16E4307DCC419505_1414* _GetCameraService()
+		::Class_0_16E4307DCC419505_1616* _GetCameraService()
 		{
-			return ((::Class_0_16E4307DCC419505_1414*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_MONOB51RACINGREADYPAGE__GETCAMERASERVICE_OFFSET))(this);
+			return ((::Class_0_16E4307DCC419505_1616*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_MONOB51RACINGREADYPAGE__GETCAMERASERVICE_OFFSET))(this);
 		}
 
-		::Class_0_16E4307DCC419505_1411* _GetSceneService()
+		::Class_0_16E4307DCC419505_1613* _GetSceneService()
 		{
-			return ((::Class_0_16E4307DCC419505_1411*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_MONOB51RACINGREADYPAGE__GETSCENESERVICE_OFFSET))(this);
+			return ((::Class_0_16E4307DCC419505_1613*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_MONOB51RACINGREADYPAGE__GETSCENESERVICE_OFFSET))(this);
 		}
 
-		::Class_0_16E4307DCC419505_1306* _GetCarService()
+		::Class_0_16E4307DCC419505_1448* _GetCarService()
 		{
-			return ((::Class_0_16E4307DCC419505_1306*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_MONOB51RACINGREADYPAGE__GETCARSERVICE_OFFSET))(this);
+			return ((::Class_0_16E4307DCC419505_1448*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_MONOB51RACINGREADYPAGE__GETCARSERVICE_OFFSET))(this);
 		}
 
-		::System::Void _OnExitClick_b__52_0()
+		::System::Void _OnExitClick_b__53_0()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_MONOB51RACINGREADYPAGE__ONEXITCLICK_B__52_0_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_MONOB51RACINGREADYPAGE__ONEXITCLICK_B__53_0_OFFSET))(this);
 		}
 	};
 }

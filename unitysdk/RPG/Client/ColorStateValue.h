@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/Client/StateValueEntry.h"
 #include "unitysdk/UnityEngine/Color.h"
 
-#define RPG_CLIENT_COLORSTATEVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A277A10)
+#define RPG_CLIENT_COLORSTATEVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0xCB94500)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ColorStateValue_TypeDefinitionIndex = 70978;
+	inline static constexpr unsigned int ColorStateValue_TypeDefinitionIndex = 71010;
 
 	class ColorStateValue : public ::RPG::Client::StateValueEntry
 	{

@@ -7,24 +7,24 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MONOPOLYGOODSCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D1C5740)
-#define RPG_GAMECORE_MONOPOLYGOODSCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1C5AA0)
+#define RPG_GAMECORE_MONOPOLYGOODSCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D873870)
+#define RPG_GAMECORE_MONOPOLYGOODSCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D873BD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MonopolyGoodsConfigRow_TypeDefinitionIndex = 11969;
+	inline static constexpr unsigned int MonopolyGoodsConfigRow_TypeDefinitionIndex = 12050;
 
 	class MonopolyGoodsConfigRow : public ::System::Object
 	{
 	public:
 		::System::String* IconPath; // 0x10
-		::RPG::Client::TextID Desc; // 0x18
-		::System::UInt32 TextDisplayParam2; // 0x28
-		::System::UInt32 Cost; // 0x2C
-		::System::UInt32 TextDisplayParam1; // 0x30
-		::RPG::Client::TextID Name; // 0x38
-		::System::UInt32 GoodsID; // 0x48
-		::RPG::GameCore::MonopolyGoodsType GoodsType; // 0x4C
+		::RPG::Client::TextID Name; // 0x18
+		::System::UInt32 GoodsID; // 0x28
+		::System::UInt32 TextDisplayParam1; // 0x2C
+		::System::UInt32 Cost; // 0x30
+		::RPG::GameCore::MonopolyGoodsType GoodsType; // 0x34
+		::RPG::Client::TextID Desc; // 0x38
+		::System::UInt32 TextDisplayParam2; // 0x48
 
 		::System::Void _ctor()
 		{

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class OpenTarotBookletPageForCharater; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_C0551D44188C7DBE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1996B9F0)
-#define CLASS_3_C0551D44188C7DBE__CTOR_OFFSET UNITYSDK_OFFSET(0x1996B9C0)
+#define CLASS_3_C0551D44188C7DBE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15C30BB0)
+#define CLASS_3_C0551D44188C7DBE__CTOR_OFFSET UNITYSDK_OFFSET(0x15C30B80)
 
-inline static constexpr unsigned int Class_3_C0551D44188C7DBE_TypeDefinitionIndex = 53587;
+inline static constexpr unsigned int Class_3_C0551D44188C7DBE_TypeDefinitionIndex = 53330;
 
 class Class_3_C0551D44188C7DBE : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::OpenTarotBookletPageForCharater*>
 {

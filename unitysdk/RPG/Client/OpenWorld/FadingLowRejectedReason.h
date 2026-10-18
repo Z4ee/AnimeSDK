@@ -3,7 +3,7 @@
 
 namespace RPG::Client::OpenWorld
 {
-	inline static constexpr unsigned int FadingLowRejectedReason_TypeDefinitionIndex = 73846;
+	inline static constexpr unsigned int FadingLowRejectedReason_TypeDefinitionIndex = 73953;
 
 	enum class FadingLowRejectedReason : ::System::Int32
 	{

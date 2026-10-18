@@ -9,49 +9,49 @@ namespace Google::Protobuf { template <typename T> class MessageParser_1; }
 namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 namespace System { class String; }
 
-#define PROTO_ASSISTSIMPLEINFO_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1E056B80)
-#define PROTO_ASSISTSIMPLEINFO_CLONE_OFFSET UNITYSDK_OFFSET(0x1E056750)
-#define PROTO_ASSISTSIMPLEINFO_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1E056870)
-#define PROTO_ASSISTSIMPLEINFO_EQUALS_OFFSET UNITYSDK_OFFSET(0x1E056820)
-#define PROTO_ASSISTSIMPLEINFO_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1E056950)
-#define PROTO_ASSISTSIMPLEINFO_GET_AVATARID_OFFSET UNITYSDK_OFFSET(0x1E056800)
-#define PROTO_ASSISTSIMPLEINFO_GET_DRESSEDSKINID_OFFSET UNITYSDK_OFFSET(0x1E0567A0)
-#define PROTO_ASSISTSIMPLEINFO_GET_LEVEL_OFFSET UNITYSDK_OFFSET(0x1E0567E0)
-#define PROTO_ASSISTSIMPLEINFO_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x1E0566D0)
-#define PROTO_ASSISTSIMPLEINFO_GET_POS_OFFSET UNITYSDK_OFFSET(0x1E0567C0)
-#define PROTO_ASSISTSIMPLEINFO_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1E056DE0)
-#define PROTO_ASSISTSIMPLEINFO_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1E056D90)
-#define PROTO_ASSISTSIMPLEINFO_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1E056700)
-#define PROTO_ASSISTSIMPLEINFO_SET_AVATARID_OFFSET UNITYSDK_OFFSET(0x1E056810)
-#define PROTO_ASSISTSIMPLEINFO_SET_DRESSEDSKINID_OFFSET UNITYSDK_OFFSET(0x1E0567B0)
-#define PROTO_ASSISTSIMPLEINFO_SET_LEVEL_OFFSET UNITYSDK_OFFSET(0x1E0567F0)
-#define PROTO_ASSISTSIMPLEINFO_SET_POS_OFFSET UNITYSDK_OFFSET(0x1E0567D0)
-#define PROTO_ASSISTSIMPLEINFO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E056990)
-#define PROTO_ASSISTSIMPLEINFO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0569F0)
-#define PROTO_ASSISTSIMPLEINFO__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E056E80)
-#define PROTO_ASSISTSIMPLEINFO__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E056720)
-#define PROTO_ASSISTSIMPLEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1E056710)
+#define PROTO_ASSISTSIMPLEINFO_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1DFBAA20)
+#define PROTO_ASSISTSIMPLEINFO_CLONE_OFFSET UNITYSDK_OFFSET(0x1DFBA5F0)
+#define PROTO_ASSISTSIMPLEINFO_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1DFBA710)
+#define PROTO_ASSISTSIMPLEINFO_EQUALS_OFFSET UNITYSDK_OFFSET(0x1DFBA6C0)
+#define PROTO_ASSISTSIMPLEINFO_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1DFBA7F0)
+#define PROTO_ASSISTSIMPLEINFO_GET_AVATARID_OFFSET UNITYSDK_OFFSET(0x1DFBA640)
+#define PROTO_ASSISTSIMPLEINFO_GET_DRESSEDSKINID_OFFSET UNITYSDK_OFFSET(0x1DFBA680)
+#define PROTO_ASSISTSIMPLEINFO_GET_LEVEL_OFFSET UNITYSDK_OFFSET(0x1DFBA660)
+#define PROTO_ASSISTSIMPLEINFO_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x1DFBA570)
+#define PROTO_ASSISTSIMPLEINFO_GET_POS_OFFSET UNITYSDK_OFFSET(0x1DFBA6A0)
+#define PROTO_ASSISTSIMPLEINFO_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1DFBAC80)
+#define PROTO_ASSISTSIMPLEINFO_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1DFBAC30)
+#define PROTO_ASSISTSIMPLEINFO_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1DFBA5A0)
+#define PROTO_ASSISTSIMPLEINFO_SET_AVATARID_OFFSET UNITYSDK_OFFSET(0x1DFBA650)
+#define PROTO_ASSISTSIMPLEINFO_SET_DRESSEDSKINID_OFFSET UNITYSDK_OFFSET(0x1DFBA690)
+#define PROTO_ASSISTSIMPLEINFO_SET_LEVEL_OFFSET UNITYSDK_OFFSET(0x1DFBA670)
+#define PROTO_ASSISTSIMPLEINFO_SET_POS_OFFSET UNITYSDK_OFFSET(0x1DFBA6B0)
+#define PROTO_ASSISTSIMPLEINFO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DFBA830)
+#define PROTO_ASSISTSIMPLEINFO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DFBA890)
+#define PROTO_ASSISTSIMPLEINFO__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DFBAD20)
+#define PROTO_ASSISTSIMPLEINFO__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1DFBA5C0)
+#define PROTO_ASSISTSIMPLEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1DFBA5B0)
 
 namespace Proto
 {
-	inline static constexpr unsigned int AssistSimpleInfo_TypeDefinitionIndex = 28338;
+	inline static constexpr unsigned int AssistSimpleInfo_TypeDefinitionIndex = 25861;
 
 	class AssistSimpleInfo : public ::System::Object
 	{
 	public:
 		static ::Google::Protobuf::MessageParser_1<::Proto::AssistSimpleInfo*>** StaticGet__parser()
 		{
-			return (::Google::Protobuf::MessageParser_1<::Proto::AssistSimpleInfo*>**)Il2CppClass::FromTypeDefinitionIndex(AssistSimpleInfo_TypeDefinitionIndex)->GetStaticField(0x1E570);
+			return (::Google::Protobuf::MessageParser_1<::Proto::AssistSimpleInfo*>**)Il2CppClass::FromTypeDefinitionIndex(AssistSimpleInfo_TypeDefinitionIndex)->GetStaticField(0x48E30);
 		}
-		// static const ::System::Int32 DressedSkinIdFieldNumber = 0xD; // 0x0
-		// static const ::System::Int32 PosFieldNumber = 0xE; // 0x0
-		// static const ::System::Int32 LevelFieldNumber = 0x5; // 0x0
-		// static const ::System::Int32 AvatarIdFieldNumber = 0xA; // 0x0
+		// static const ::System::Int32 AvatarIdFieldNumber = 0x1; // 0x0
+		// static const ::System::Int32 LevelFieldNumber = 0x2; // 0x0
+		// static const ::System::Int32 DressedSkinIdFieldNumber = 0x3; // 0x0
+		// static const ::System::Int32 PosFieldNumber = 0x4; // 0x0
 		::Google::Protobuf::UnknownFieldSet* _unknownFields; // 0x10
 		::System::UInt32 dressedSkinId_; // 0x18
-		::System::UInt32 pos_; // 0x1C
+		::System::UInt32 avatarId_; // 0x1C
 		::System::UInt32 level_; // 0x20
-		::System::UInt32 avatarId_; // 0x24
+		::System::UInt32 pos_; // 0x24
 
 		::System::Void _ctor()
 		{
@@ -83,6 +83,26 @@ namespace Proto
 			return ((::Proto::AssistSimpleInfo*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_ASSISTSIMPLEINFO_CLONE_OFFSET))(this);
 		}
 
+		::System::UInt32 get_AvatarId()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_ASSISTSIMPLEINFO_GET_AVATARID_OFFSET))(this);
+		}
+
+		::System::Void set_AvatarId(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_ASSISTSIMPLEINFO_SET_AVATARID_OFFSET))(this, a1);
+		}
+
+		::System::UInt32 get_Level()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_ASSISTSIMPLEINFO_GET_LEVEL_OFFSET))(this);
+		}
+
+		::System::Void set_Level(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_ASSISTSIMPLEINFO_SET_LEVEL_OFFSET))(this, a1);
+		}
+
 		::System::UInt32 get_DressedSkinId()
 		{
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_ASSISTSIMPLEINFO_GET_DRESSEDSKINID_OFFSET))(this);
@@ -101,26 +121,6 @@ namespace Proto
 		::System::Void set_Pos(::System::UInt32 a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_ASSISTSIMPLEINFO_SET_POS_OFFSET))(this, a1);
-		}
-
-		::System::UInt32 get_Level()
-		{
-			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_ASSISTSIMPLEINFO_GET_LEVEL_OFFSET))(this);
-		}
-
-		::System::Void set_Level(::System::UInt32 a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_ASSISTSIMPLEINFO_SET_LEVEL_OFFSET))(this, a1);
-		}
-
-		::System::UInt32 get_AvatarId()
-		{
-			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_ASSISTSIMPLEINFO_GET_AVATARID_OFFSET))(this);
-		}
-
-		::System::Void set_AvatarId(::System::UInt32 a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_ASSISTSIMPLEINFO_SET_AVATARID_OFFSET))(this, a1);
 		}
 
 		::System::Boolean Equals(::System::Object* a1)

@@ -2,35 +2,35 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace RPG::Client::Challenge::Tierce { class ChallengeTierceNodeListControl_Class_3_6EEFE48F0F19B50B; }
+namespace RPG::Client::Challenge::Tierce { class ChallengeTierceNodeListControl_Class_3_6EEFE48F0F19B50B_1; }
 namespace RPG::Client::Challenge::Tierce { class ChallengeTierceStageViewModel; }
 namespace System { class Action; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTBOSSCONTROL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18BEF700)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTBOSSCONTROL___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18BEF740)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTBOSSCONTROL___C__SET_PRIVATESTAGERECOMMENDDAMAGETYPES_B__49_1_OFFSET UNITYSDK_OFFSET(0x18BEF750)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTBOSSCONTROL___C___ONBINDVIEWMODEL_B__59_15_OFFSET UNITYSDK_OFFSET(0x18BEF8C0)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTBOSSCONTROL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC951660)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTBOSSCONTROL___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC9516A0)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTBOSSCONTROL___C__SET_PRIVATESTAGERECOMMENDDAMAGETYPES_B__49_1_OFFSET UNITYSDK_OFFSET(0xC9516B0)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTBOSSCONTROL___C___ONBINDVIEWMODEL_B__59_15_OFFSET UNITYSDK_OFFSET(0xC951820)
 
 namespace RPG::Client::Challenge::Tierce
 {
-	inline static constexpr unsigned int ChallengeTierceStageSelectBossControl___c_TypeDefinitionIndex = 80219;
+	inline static constexpr unsigned int ChallengeTierceStageSelectBossControl___c_TypeDefinitionIndex = 81547;
 
 	class ChallengeTierceStageSelectBossControl___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::Challenge::Tierce::ChallengeTierceNodeListControl_Class_3_6EEFE48F0F19B50B** StaticGet___9__49_1()
+		static ::System::Func_2<::RPG::Client::Challenge::Tierce::ChallengeTierceStageViewModel*, ::System::Int32>** StaticGet___9__59_15()
 		{
-			return (::RPG::Client::Challenge::Tierce::ChallengeTierceNodeListControl_Class_3_6EEFE48F0F19B50B**)Il2CppClass::FromTypeDefinitionIndex(ChallengeTierceStageSelectBossControl___c_TypeDefinitionIndex)->GetStaticField(0x1D4E0);
+			return (::System::Func_2<::RPG::Client::Challenge::Tierce::ChallengeTierceStageViewModel*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(ChallengeTierceStageSelectBossControl___c_TypeDefinitionIndex)->GetStaticField(0x6A240);
 		}
 		static ::RPG::Client::Challenge::Tierce::ChallengeTierceStageSelectBossControl___c** StaticGet___9()
 		{
-			return (::RPG::Client::Challenge::Tierce::ChallengeTierceStageSelectBossControl___c**)Il2CppClass::FromTypeDefinitionIndex(ChallengeTierceStageSelectBossControl___c_TypeDefinitionIndex)->GetStaticField(0x1D4E8);
+			return (::RPG::Client::Challenge::Tierce::ChallengeTierceStageSelectBossControl___c**)Il2CppClass::FromTypeDefinitionIndex(ChallengeTierceStageSelectBossControl___c_TypeDefinitionIndex)->GetStaticField(0x6A248);
 		}
-		static ::System::Func_2<::RPG::Client::Challenge::Tierce::ChallengeTierceStageViewModel*, ::System::Int32>** StaticGet___9__59_15()
+		static ::RPG::Client::Challenge::Tierce::ChallengeTierceNodeListControl_Class_3_6EEFE48F0F19B50B_1** StaticGet___9__49_1()
 		{
-			return (::System::Func_2<::RPG::Client::Challenge::Tierce::ChallengeTierceStageViewModel*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(ChallengeTierceStageSelectBossControl___c_TypeDefinitionIndex)->GetStaticField(0x1D4F0);
+			return (::RPG::Client::Challenge::Tierce::ChallengeTierceNodeListControl_Class_3_6EEFE48F0F19B50B_1**)Il2CppClass::FromTypeDefinitionIndex(ChallengeTierceStageSelectBossControl___c_TypeDefinitionIndex)->GetStaticField(0x6A250);
 		}
 
 		static ::System::Void _cctor()

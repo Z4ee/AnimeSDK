@@ -11,13 +11,13 @@ namespace RPG::GameCore { class SkillConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_ENPCE07CONFIG_METHOD_2_244455AF3EDE21FA_OFFSET UNITYSDK_OFFSET(0x1DB20DE0)
-#define RPG_GAMECORE_ENPCE07CONFIG_METHOD_2_603BA52744C1049D_OFFSET UNITYSDK_OFFSET(0x1DB211B0)
-#define RPG_GAMECORE_ENPCE07CONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB211A0)
+#define RPG_GAMECORE_ENPCE07CONFIG_METHOD_2_244455AF3EDE21FA_OFFSET UNITYSDK_OFFSET(0x1D5FFBB0)
+#define RPG_GAMECORE_ENPCE07CONFIG_METHOD_2_603BA52744C1049D_OFFSET UNITYSDK_OFFSET(0x1D5FFF80)
+#define RPG_GAMECORE_ENPCE07CONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5FFF70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ENpcE07Config_TypeDefinitionIndex = 16347;
+	inline static constexpr unsigned int ENpcE07Config_TypeDefinitionIndex = 16520;
 
 	class ENpcE07Config : public ::RPG::GameCore::JsonConfig
 	{

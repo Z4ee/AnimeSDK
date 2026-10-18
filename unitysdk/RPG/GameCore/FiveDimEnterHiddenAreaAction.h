@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_FIVEDIMENTERHIDDENAREAACTION_METHOD_3_165CAF032D89E277_OFFSET UNITYSDK_OFFSET(0x1D85BA10)
-#define RPG_GAMECORE_FIVEDIMENTERHIDDENAREAACTION_METHOD_3_421184B1EAED5886_OFFSET UNITYSDK_OFFSET(0x1D85B990)
-#define RPG_GAMECORE_FIVEDIMENTERHIDDENAREAACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D85BA00)
+#define RPG_GAMECORE_FIVEDIMENTERHIDDENAREAACTION_METHOD_4_BC6F6B078AC1DEBD_OFFSET UNITYSDK_OFFSET(0x1D68DCD0)
+#define RPG_GAMECORE_FIVEDIMENTERHIDDENAREAACTION_METHOD_4_E4CA8B7DA2F87158_OFFSET UNITYSDK_OFFSET(0x1D68DD50)
+#define RPG_GAMECORE_FIVEDIMENTERHIDDENAREAACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D68DD40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimEnterHiddenAreaAction_TypeDefinitionIndex = 18440;
+	inline static constexpr unsigned int FiveDimEnterHiddenAreaAction_TypeDefinitionIndex = 18649;
 
 	class FiveDimEnterHiddenAreaAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
@@ -20,14 +20,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMENTERHIDDENAREAACTION__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_421184B1EAED5886(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimEnterHiddenAreaAction*& a2)
+		static ::System::Void Method_4_BC6F6B078AC1DEBD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimEnterHiddenAreaAction*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimEnterHiddenAreaAction*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMENTERHIDDENAREAACTION_METHOD_3_421184B1EAED5886_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimEnterHiddenAreaAction*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMENTERHIDDENAREAACTION_METHOD_4_BC6F6B078AC1DEBD_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_165CAF032D89E277(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimEnterHiddenAreaAction* a2)
+		static ::System::Void Method_4_E4CA8B7DA2F87158(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimEnterHiddenAreaAction* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimEnterHiddenAreaAction*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMENTERHIDDENAREAACTION_METHOD_3_165CAF032D89E277_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimEnterHiddenAreaAction*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMENTERHIDDENAREAACTION_METHOD_4_E4CA8B7DA2F87158_OFFSET))(a1, a2);
 		}
 	};
 }

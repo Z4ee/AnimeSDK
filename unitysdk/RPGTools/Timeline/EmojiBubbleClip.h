@@ -11,13 +11,13 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_EMOJIBUBBLECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1B575260)
-#define RPGTOOLS_TIMELINE_EMOJIBUBBLECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1B575250)
-#define RPGTOOLS_TIMELINE_EMOJIBUBBLECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5753F0)
+#define RPGTOOLS_TIMELINE_EMOJIBUBBLECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8D9E30)
+#define RPGTOOLS_TIMELINE_EMOJIBUBBLECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE8D9E20)
+#define RPGTOOLS_TIMELINE_EMOJIBUBBLECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xE8D9F90)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int EmojiBubbleClip_TypeDefinitionIndex = 48556;
+	inline static constexpr unsigned int EmojiBubbleClip_TypeDefinitionIndex = 48096;
 
 	class EmojiBubbleClip : public ::UnityEngine::Playables::PlayableAsset
 	{

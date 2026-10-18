@@ -4,12 +4,12 @@
 
 namespace UnityEngine { class Sprite; }
 
-#define MIHOYO_SDK_UI_CHANNELICONIMAGE_AWAKE_OFFSET UNITYSDK_OFFSET(0x1B9C9C90)
-#define MIHOYO_SDK_UI_CHANNELICONIMAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9C9E40)
+#define MIHOYO_SDK_UI_CHANNELICONIMAGE_AWAKE_OFFSET UNITYSDK_OFFSET(0x1BFC5C10)
+#define MIHOYO_SDK_UI_CHANNELICONIMAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BFC5D90)
 
 namespace MiHoYo::SDK::UI
 {
-	inline static constexpr unsigned int ChannelIconImage_TypeDefinitionIndex = 8348;
+	inline static constexpr unsigned int ChannelIconImage_TypeDefinitionIndex = 8391;
 
 	class ChannelIconImage : public ::UnityEngine::MonoBehaviour
 	{

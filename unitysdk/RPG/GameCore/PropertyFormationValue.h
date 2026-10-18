@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_PROPERTYFORMATIONVALUE_METHOD_2_C5134D4F75D7D61B_OFFSET UNITYSDK_OFFSET(0x1D18A340)
-#define RPG_GAMECORE_PROPERTYFORMATIONVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D18A480)
+#define RPG_GAMECORE_PROPERTYFORMATIONVALUE_METHOD_2_C5134D4F75D7D61B_OFFSET UNITYSDK_OFFSET(0x1D92EF50)
+#define RPG_GAMECORE_PROPERTYFORMATIONVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D92F090)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropertyFormationValue_TypeDefinitionIndex = 15354;
+	inline static constexpr unsigned int PropertyFormationValue_TypeDefinitionIndex = 15525;
 
 	class PropertyFormationValue : public ::RPG::GameCore::JsonConfig
 	{

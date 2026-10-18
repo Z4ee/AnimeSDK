@@ -6,22 +6,22 @@
 class Class_1_938C223DA5C0C9C7;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_31C5B68702ED1703_CLEAR_OFFSET UNITYSDK_OFFSET(0x1BF868C0)
-#define CLASS_1_31C5B68702ED1703_METHOD_1_1D4018D4200358D0_OFFSET UNITYSDK_OFFSET(0x1BF86860)
-#define CLASS_1_31C5B68702ED1703__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF86910)
+#define CLASS_1_31C5B68702ED1703_CLEAR_OFFSET UNITYSDK_OFFSET(0x1CB74FD0)
+#define CLASS_1_31C5B68702ED1703_METHOD_1_1D4018D4200358D0_OFFSET UNITYSDK_OFFSET(0x1CB74F70)
+#define CLASS_1_31C5B68702ED1703__CTOR_OFFSET UNITYSDK_OFFSET(0x1CB75020)
 
-inline static constexpr unsigned int Class_1_31C5B68702ED1703_TypeDefinitionIndex = 40509;
+inline static constexpr unsigned int Class_1_31C5B68702ED1703_TypeDefinitionIndex = 42111;
 
 class Class_1_31C5B68702ED1703 : public ::System::Object
 {
 public:
-	::Class_1_938C223DA5C0C9C7* EDIMGKLHMBG; // 0x10
-	::System::Collections::Generic::List_1<::System::UInt32>* LEABPMKPDKP; // 0x18
+	::System::Collections::Generic::List_1<::System::UInt32>* LEABPMKPDKP; // 0x10
+	::Class_1_938C223DA5C0C9C7* EDIMGKLHMBG; // 0x18
 	::System::Int32 BEFKNFBNBGJ; // 0x20
 	::RPG::Client::LittleGame::ElfRestaurant::SIMFoodState MEPFOEEGBEA; // 0x24
 	::System::Boolean BOPGCHFNIPK; // 0x28
-	::System::UInt32 AAGKEBFHLMC; // 0x2C
-	::System::UInt32 PHFMCACHFIJ; // 0x30
+	::System::UInt32 PHFMCACHFIJ; // 0x2C
+	::System::UInt32 AAGKEBFHLMC; // 0x30
 
 	::System::Void _ctor()
 	{

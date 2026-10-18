@@ -10,7 +10,7 @@ namespace UnityEngine { class Transform; }
 
 namespace Coffee::UIParticleInternal
 {
-	inline static constexpr unsigned int ComponentExtensions_TypeDefinitionIndex = 43931;
+	inline static constexpr unsigned int ComponentExtensions_TypeDefinitionIndex = 45123;
 
 	class ComponentExtensions : public ::System::Object
 	{

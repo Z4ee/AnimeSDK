@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define SYSTEM_NET_HTTP_HEADERS_PARSER_TOKEN_CHECK_OFFSET UNITYSDK_OFFSET(0x1E7DE960)
-#define SYSTEM_NET_HTTP_HEADERS_PARSER_TOKEN_TRYCHECK_OFFSET UNITYSDK_OFFSET(0x1E7DEA20)
+#define SYSTEM_NET_HTTP_HEADERS_PARSER_TOKEN_CHECK_OFFSET UNITYSDK_OFFSET(0x1EE25710)
+#define SYSTEM_NET_HTTP_HEADERS_PARSER_TOKEN_TRYCHECK_OFFSET UNITYSDK_OFFSET(0x1EE257D0)
 
 namespace System::Net::Http::Headers
 {
-	inline static constexpr unsigned int Parser_Token_TypeDefinitionIndex = 3808;
+	inline static constexpr unsigned int Parser_Token_TypeDefinitionIndex = 3809;
 
 	class Parser_Token : public ::System::Object
 	{

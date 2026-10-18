@@ -2,21 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_1411;
-class Class_0_16E4307DCC419505_1413;
+class Class_0_16E4307DCC419505_1613;
+class Class_0_16E4307DCC419505_1615;
 namespace RPG::Client::B51Racing { class B51RacingNewPartDisplayPageViewModel; }
 
-#define CLASS_1_A0E7B93CE3D1C3B3___C__DISPLAYCLASS25_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17237B50)
-#define CLASS_1_A0E7B93CE3D1C3B3___C__DISPLAYCLASS25_0__SHOWNEWPARTDISPLAYPAGEASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x17238C10)
+#define CLASS_1_A0E7B93CE3D1C3B3___C__DISPLAYCLASS25_0__CTOR_OFFSET UNITYSDK_OFFSET(0x145121B0)
+#define CLASS_1_A0E7B93CE3D1C3B3___C__DISPLAYCLASS25_0__SHOWNEWPARTDISPLAYPAGEASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x14513270)
 
-inline static constexpr unsigned int Class_1_A0E7B93CE3D1C3B3___c__DisplayClass25_0_TypeDefinitionIndex = 80421;
+inline static constexpr unsigned int Class_1_A0E7B93CE3D1C3B3___c__DisplayClass25_0_TypeDefinitionIndex = 81749;
 
 class Class_1_A0E7B93CE3D1C3B3___c__DisplayClass25_0 : public ::System::Object
 {
 public:
-	::Class_0_16E4307DCC419505_1413* transient; // 0x10
-	::Class_0_16E4307DCC419505_1411* sceneService; // 0x18
-	::RPG::Client::B51Racing::B51RacingNewPartDisplayPageViewModel* viewModel; // 0x20
+	::Class_0_16E4307DCC419505_1613* sceneService; // 0x10
+	::RPG::Client::B51Racing::B51RacingNewPartDisplayPageViewModel* viewModel; // 0x18
+	::Class_0_16E4307DCC419505_1615* transient; // 0x20
 
 	::System::Void _ctor()
 	{

@@ -7,12 +7,12 @@ namespace Newtonsoft::Json::Serialization { class DefaultContractResolver___c__D
 namespace Newtonsoft::Json::Serialization { template <typename T> class ObjectConstructor_1; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define NEWTONSOFT_JSON_SERIALIZATION_DEFAULTCONTRACTRESOLVER___C__DISPLAYCLASS34_2__CTOR_OFFSET UNITYSDK_OFFSET(0x172D8B40)
-#define NEWTONSOFT_JSON_SERIALIZATION_DEFAULTCONTRACTRESOLVER___C__DISPLAYCLASS34_2__SETEXTENSIONDATADELEGATES_B__1_OFFSET UNITYSDK_OFFSET(0x172E2820)
+#define NEWTONSOFT_JSON_SERIALIZATION_DEFAULTCONTRACTRESOLVER___C__DISPLAYCLASS34_2__CTOR_OFFSET UNITYSDK_OFFSET(0x1C3A6390)
+#define NEWTONSOFT_JSON_SERIALIZATION_DEFAULTCONTRACTRESOLVER___C__DISPLAYCLASS34_2__SETEXTENSIONDATADELEGATES_B__1_OFFSET UNITYSDK_OFFSET(0x1C3AFF70)
 
 namespace Newtonsoft::Json::Serialization
 {
-	inline static constexpr unsigned int DefaultContractResolver___c__DisplayClass34_2_TypeDefinitionIndex = 9653;
+	inline static constexpr unsigned int DefaultContractResolver___c__DisplayClass34_2_TypeDefinitionIndex = 9711;
 
 	class DefaultContractResolver___c__DisplayClass34_2 : public ::System::Object
 	{

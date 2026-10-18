@@ -2,24 +2,24 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-class Class_2_D8E60A4D7D755F3F;
+class Class_2_2A98030F4AD4BAA1;
 namespace RPG::GameCore { class GameEntity; }
 namespace UnityEngine { class Collider; }
 
-#define RPG_CLIENT_CHENLINGSTACKDROPPROXY_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x1CB24220)
-#define RPG_CLIENT_CHENLINGSTACKDROPPROXY_GET_PROXYCOLLIDER_OFFSET UNITYSDK_OFFSET(0x1CB24210)
-#define RPG_CLIENT_CHENLINGSTACKDROPPROXY_INIT_OFFSET UNITYSDK_OFFSET(0x1CB241B0)
-#define RPG_CLIENT_CHENLINGSTACKDROPPROXY_ONHITBYATTACK_OFFSET UNITYSDK_OFFSET(0x1CB24280)
-#define RPG_CLIENT_CHENLINGSTACKDROPPROXY__CTOR_OFFSET UNITYSDK_OFFSET(0x1CB24340)
+#define RPG_CLIENT_CHENLINGSTACKDROPPROXY_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0xCAD5740)
+#define RPG_CLIENT_CHENLINGSTACKDROPPROXY_GET_PROXYCOLLIDER_OFFSET UNITYSDK_OFFSET(0xCAD5730)
+#define RPG_CLIENT_CHENLINGSTACKDROPPROXY_INIT_OFFSET UNITYSDK_OFFSET(0xCAD56D0)
+#define RPG_CLIENT_CHENLINGSTACKDROPPROXY_ONHITBYATTACK_OFFSET UNITYSDK_OFFSET(0xCAD57A0)
+#define RPG_CLIENT_CHENLINGSTACKDROPPROXY__CTOR_OFFSET UNITYSDK_OFFSET(0xCAD5860)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChenLingStackDropProxy_TypeDefinitionIndex = 69200;
+	inline static constexpr unsigned int ChenLingStackDropProxy_TypeDefinitionIndex = 69236;
 
 	class ChenLingStackDropProxy : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		::Class_2_D8E60A4D7D755F3F* MHAEBFAEFCG; // 0x18
+		::Class_2_2A98030F4AD4BAA1* MHAEBFAEFCG; // 0x18
 		::UnityEngine::Collider* NDGCMCAAKBO; // 0x20
 
 		::System::Void _ctor()
@@ -27,9 +27,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGSTACKDROPPROXY__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Init(::Class_2_D8E60A4D7D755F3F* a1, ::UnityEngine::Collider* a2)
+		::System::Void Init(::Class_2_2A98030F4AD4BAA1* a1, ::UnityEngine::Collider* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_2_D8E60A4D7D755F3F*, ::UnityEngine::Collider*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGSTACKDROPPROXY_INIT_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::Class_2_2A98030F4AD4BAA1*, ::UnityEngine::Collider*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGSTACKDROPPROXY_INIT_OFFSET))(this, a1, a2);
 		}
 
 		::UnityEngine::Collider* get_ProxyCollider()

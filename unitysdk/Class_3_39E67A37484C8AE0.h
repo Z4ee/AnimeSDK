@@ -6,11 +6,11 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class PlayVoice; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_39E67A37484C8AE0_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16293700)
-#define CLASS_3_39E67A37484C8AE0_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16293860)
-#define CLASS_3_39E67A37484C8AE0__CTOR_OFFSET UNITYSDK_OFFSET(0x162936D0)
+#define CLASS_3_39E67A37484C8AE0_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB1A12F0)
+#define CLASS_3_39E67A37484C8AE0_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB1A1450)
+#define CLASS_3_39E67A37484C8AE0__CTOR_OFFSET UNITYSDK_OFFSET(0xB1A12C0)
 
-inline static constexpr unsigned int Class_3_39E67A37484C8AE0_TypeDefinitionIndex = 56566;
+inline static constexpr unsigned int Class_3_39E67A37484C8AE0_TypeDefinitionIndex = 56379;
 
 class Class_3_39E67A37484C8AE0 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::PlayVoice*>
 {

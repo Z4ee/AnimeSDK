@@ -4,20 +4,20 @@
 
 namespace Google::Protobuf::Reflection { class GeneratedCodeInfo; }
 
-#define GOOGLE_PROTOBUF_REFLECTION_GENERATEDCODEINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AAB1DA0)
-#define GOOGLE_PROTOBUF_REFLECTION_GENERATEDCODEINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1AAB1DE0)
-#define GOOGLE_PROTOBUF_REFLECTION_GENERATEDCODEINFO___C___CCTOR_B__26_0_OFFSET UNITYSDK_OFFSET(0x1AAB1DF0)
+#define GOOGLE_PROTOBUF_REFLECTION_GENERATEDCODEINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B86B1B0)
+#define GOOGLE_PROTOBUF_REFLECTION_GENERATEDCODEINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B86B1F0)
+#define GOOGLE_PROTOBUF_REFLECTION_GENERATEDCODEINFO___C___CCTOR_B__26_0_OFFSET UNITYSDK_OFFSET(0x1B86B200)
 
 namespace Google::Protobuf::Reflection
 {
-	inline static constexpr unsigned int GeneratedCodeInfo___c_TypeDefinitionIndex = 5518;
+	inline static constexpr unsigned int GeneratedCodeInfo___c_TypeDefinitionIndex = 5525;
 
 	class GeneratedCodeInfo___c : public ::System::Object
 	{
 	public:
 		static ::Google::Protobuf::Reflection::GeneratedCodeInfo___c** StaticGet___9()
 		{
-			return (::Google::Protobuf::Reflection::GeneratedCodeInfo___c**)Il2CppClass::FromTypeDefinitionIndex(GeneratedCodeInfo___c_TypeDefinitionIndex)->GetStaticField(0x21CC0);
+			return (::Google::Protobuf::Reflection::GeneratedCodeInfo___c**)Il2CppClass::FromTypeDefinitionIndex(GeneratedCodeInfo___c_TypeDefinitionIndex)->GetStaticField(0x21ED0);
 		}
 
 		static ::System::Void _cctor()

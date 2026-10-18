@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_PAIRVALUEENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4D30D0)
+#define RPG_CLIENT_PAIRVALUEENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0xDA62F50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PairValueEntry_TypeDefinitionIndex = 70981;
+	inline static constexpr unsigned int PairValueEntry_TypeDefinitionIndex = 71013;
 
 	class PairValueEntry : public ::System::Object
 	{

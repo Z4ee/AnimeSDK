@@ -12,7 +12,7 @@ namespace UnityEngine { class GameObject; }
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int IHEU_InputNode_TypeDefinitionIndex = 39267;
+	inline static constexpr unsigned int IHEU_InputNode_TypeDefinitionIndex = 40564;
 
 	class IHEU_InputNode
 	{

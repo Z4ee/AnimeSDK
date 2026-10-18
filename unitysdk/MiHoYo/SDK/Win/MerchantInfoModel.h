@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_WIN_MERCHANTINFOMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x18AFF450)
+#define MIHOYO_SDK_WIN_MERCHANTINFOMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD65680)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int MerchantInfoModel_TypeDefinitionIndex = 9199;
+	inline static constexpr unsigned int MerchantInfoModel_TypeDefinitionIndex = 9260;
 
 	class MerchantInfoModel : public ::System::Object
 	{

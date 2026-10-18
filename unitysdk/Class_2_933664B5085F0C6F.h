@@ -7,10 +7,10 @@ namespace RPG::GameCore { class TargetSortByValueEvaluator; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_933664B5085F0C6F_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x18FD19D0)
-#define CLASS_2_933664B5085F0C6F__CTOR_OFFSET UNITYSDK_OFFSET(0x18FD19B0)
+#define CLASS_2_933664B5085F0C6F_TRANSFORM_OFFSET UNITYSDK_OFFSET(0xB570B80)
+#define CLASS_2_933664B5085F0C6F__CTOR_OFFSET UNITYSDK_OFFSET(0xB570B60)
 
-inline static constexpr unsigned int Class_2_933664B5085F0C6F_TypeDefinitionIndex = 59310;
+inline static constexpr unsigned int Class_2_933664B5085F0C6F_TypeDefinitionIndex = 59163;
 
 class Class_2_933664B5085F0C6F : public ::RPG::GameCore::TargetSeqOperationImpl_1<::RPG::GameCore::TargetSortByValueEvaluator*>
 {

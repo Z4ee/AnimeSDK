@@ -3,7 +3,7 @@
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int BoxmanDir_TypeDefinitionIndex = 78371;
+	inline static constexpr unsigned int BoxmanDir_TypeDefinitionIndex = 78842;
 
 	enum class BoxmanDir : ::System::Int32
 	{

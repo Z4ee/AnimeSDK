@@ -7,10 +7,10 @@ class Class_2_4C1AAFE95CDED36F;
 namespace RPG::Client { class IAssetOperation; }
 namespace System { template <typename T> class Action_1; }
 
-#define CLASS_2_4C1AAFE95CDED36F___C__DISPLAYCLASS78_0__ASYNCLOADGAMEOBJECT_B__0_OFFSET UNITYSDK_OFFSET(0x18B92B70)
-#define CLASS_2_4C1AAFE95CDED36F___C__DISPLAYCLASS78_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18B91170)
+#define CLASS_2_4C1AAFE95CDED36F___C__DISPLAYCLASS78_0__ASYNCLOADGAMEOBJECT_B__0_OFFSET UNITYSDK_OFFSET(0x16458680)
+#define CLASS_2_4C1AAFE95CDED36F___C__DISPLAYCLASS78_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16456C70)
 
-inline static constexpr unsigned int Class_2_4C1AAFE95CDED36F___c__DisplayClass78_0_TypeDefinitionIndex = 57314;
+inline static constexpr unsigned int Class_2_4C1AAFE95CDED36F___c__DisplayClass78_0_TypeDefinitionIndex = 57150;
 
 class Class_2_4C1AAFE95CDED36F___c__DisplayClass78_0 : public ::System::Object
 {

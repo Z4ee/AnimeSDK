@@ -7,19 +7,19 @@
 
 namespace UnityEngine::ProBuilder { class ProBuilderMesh; }
 
-#define UNITYENGINE_PROBUILDER_SHAPES_DOOR_COPYSHAPE_OFFSET UNITYSDK_OFFSET(0x192300F0)
-#define UNITYENGINE_PROBUILDER_SHAPES_DOOR_REBUILDMESH_OFFSET UNITYSDK_OFFSET(0x192301A0)
-#define UNITYENGINE_PROBUILDER_SHAPES_DOOR__CTOR_OFFSET UNITYSDK_OFFSET(0x19231D90)
+#define UNITYENGINE_PROBUILDER_SHAPES_DOOR_COPYSHAPE_OFFSET UNITYSDK_OFFSET(0x1F24E400)
+#define UNITYENGINE_PROBUILDER_SHAPES_DOOR_REBUILDMESH_OFFSET UNITYSDK_OFFSET(0x1F24E4B0)
+#define UNITYENGINE_PROBUILDER_SHAPES_DOOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1F2500A0)
 
 namespace UnityEngine::ProBuilder::Shapes
 {
-	inline static constexpr unsigned int Door_TypeDefinitionIndex = 43270;
+	inline static constexpr unsigned int Door_TypeDefinitionIndex = 44462;
 
 	class Door : public ::UnityEngine::ProBuilder::Shapes::Shape
 	{
 	public:
-		::System::Single m_LegWidth; // 0x10
-		::System::Single m_DoorHeight; // 0x14
+		::System::Single m_DoorHeight; // 0x10
+		::System::Single m_LegWidth; // 0x14
 
 		::System::Void _ctor()
 		{

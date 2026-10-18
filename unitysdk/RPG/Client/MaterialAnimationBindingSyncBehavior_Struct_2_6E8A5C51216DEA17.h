@@ -7,7 +7,7 @@ namespace UnityEngine { class MaterialAnimationBinding; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MaterialAnimationBindingSyncBehavior_Struct_2_6E8A5C51216DEA17_TypeDefinitionIndex = 70257;
+	inline static constexpr unsigned int MaterialAnimationBindingSyncBehavior_Struct_2_6E8A5C51216DEA17_TypeDefinitionIndex = 70293;
 
 	struct alignas(8) MaterialAnimationBindingSyncBehavior_Struct_2_6E8A5C51216DEA17
 	{

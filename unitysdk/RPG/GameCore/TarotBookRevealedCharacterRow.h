@@ -5,20 +5,20 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_TAROTBOOKREVEALEDCHARACTERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E1C8400)
-#define RPG_GAMECORE_TAROTBOOKREVEALEDCHARACTERROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1E1C8630)
+#define RPG_GAMECORE_TAROTBOOKREVEALEDCHARACTERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DB49800)
+#define RPG_GAMECORE_TAROTBOOKREVEALEDCHARACTERROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB49A30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TarotBookRevealedCharacterRow_TypeDefinitionIndex = 15060;
+	inline static constexpr unsigned int TarotBookRevealedCharacterRow_TypeDefinitionIndex = 15231;
 
 	class TarotBookRevealedCharacterRow : public ::System::Object
 	{
 	public:
-		::RPG::Client::TextID MainCatalogTitle; // 0x10
-		::RPG::Client::TextID Name; // 0x20
-		::System::UInt32 ID; // 0x30
-		::System::UInt32 UnlockID; // 0x34
+		::RPG::Client::TextID Name; // 0x10
+		::RPG::Client::TextID MainCatalogTitle; // 0x20
+		::System::UInt32 UnlockID; // 0x30
+		::System::UInt32 ID; // 0x34
 
 		::System::Void _ctor()
 		{

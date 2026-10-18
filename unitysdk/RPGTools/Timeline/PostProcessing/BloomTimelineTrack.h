@@ -7,12 +7,12 @@
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_BLOOMTIMELINETRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1B0A6790)
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_BLOOMTIMELINETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0A6840)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_BLOOMTIMELINETRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE913880)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_BLOOMTIMELINETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xE913930)
 
 namespace RPGTools::Timeline::PostProcessing
 {
-	inline static constexpr unsigned int BloomTimelineTrack_TypeDefinitionIndex = 49006;
+	inline static constexpr unsigned int BloomTimelineTrack_TypeDefinitionIndex = 48552;
 
 	class BloomTimelineTrack : public ::RPGTools::Timeline::PostProcessing::PostProcessTimelineTrack
 	{

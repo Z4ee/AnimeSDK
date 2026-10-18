@@ -8,19 +8,19 @@ namespace RPG::GameCore { class IdleLiveSpEquipSkillRow; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_13B35D9264EBE906_GET_ABILITYNAME_OFFSET UNITYSDK_OFFSET(0x19B82350)
-#define CLASS_1_13B35D9264EBE906_METHOD_1_35EA095E1AFDD9C8_OFFSET UNITYSDK_OFFSET(0x19B825B0)
-#define CLASS_1_13B35D9264EBE906_METHOD_1_DD1F80BD94ED96B3_OFFSET UNITYSDK_OFFSET(0x19B82360)
-#define CLASS_1_13B35D9264EBE906__CTOR_OFFSET UNITYSDK_OFFSET(0x19B824A0)
+#define CLASS_1_13B35D9264EBE906_GET_ABILITYNAME_OFFSET UNITYSDK_OFFSET(0xBC69260)
+#define CLASS_1_13B35D9264EBE906_METHOD_1_35EA095E1AFDD9C8_OFFSET UNITYSDK_OFFSET(0xBC694C0)
+#define CLASS_1_13B35D9264EBE906_METHOD_1_DD1F80BD94ED96B3_OFFSET UNITYSDK_OFFSET(0xBC69270)
+#define CLASS_1_13B35D9264EBE906__CTOR_OFFSET UNITYSDK_OFFSET(0xBC693B0)
 
-inline static constexpr unsigned int Class_1_13B35D9264EBE906_TypeDefinitionIndex = 74934;
+inline static constexpr unsigned int Class_1_13B35D9264EBE906_TypeDefinitionIndex = 75234;
 
 class Class_1_13B35D9264EBE906 : public ::System::Object
 {
 public:
 	::System::Collections::Generic::List_1<::RPG::GameCore::FixPoint>* BGDDKFHKAKM; // 0x10
-	::System::String* _AbilityName_k__BackingField; // 0x18
-	::Il2CppArray<::RPG::GameCore::FixPoint>* HDPKLNCIMKO; // 0x20
+	::Il2CppArray<::RPG::GameCore::FixPoint>* HDPKLNCIMKO; // 0x18
+	::System::String* _AbilityName_k__BackingField; // 0x20
 	::RPG::Client::TextID CCOIIOCJIDI; // 0x28
 
 	::System::Void _ctor(::RPG::GameCore::IdleLiveSpEquipSkillRow* a1)

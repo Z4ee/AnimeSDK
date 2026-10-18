@@ -5,11 +5,11 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_AVATAREMOTIONCLIPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x193C2A10)
+#define RPG_CLIENT_AVATAREMOTIONCLIPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xC6CD370)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AvatarEmotionClipConfig_TypeDefinitionIndex = 69381;
+	inline static constexpr unsigned int AvatarEmotionClipConfig_TypeDefinitionIndex = 69417;
 
 	class AvatarEmotionClipConfig : public ::UnityEngine::ScriptableObject
 	{

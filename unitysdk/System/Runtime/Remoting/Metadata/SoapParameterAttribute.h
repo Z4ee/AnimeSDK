@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Runtime/Remoting/Metadata/SoapAttribute.h"
 
-#define SYSTEM_RUNTIME_REMOTING_METADATA_SOAPPARAMETERATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x19430D50)
+#define SYSTEM_RUNTIME_REMOTING_METADATA_SOAPPARAMETERATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C2AFB60)
 
 namespace System::Runtime::Remoting::Metadata
 {

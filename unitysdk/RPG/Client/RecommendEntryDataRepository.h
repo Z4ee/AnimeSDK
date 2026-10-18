@@ -5,13 +5,14 @@
 namespace RPG::Client { class RecommendEntryData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_RECOMMENDENTRYDATAREPOSITORY_GETALL_OFFSET UNITYSDK_OFFSET(0x1B654690)
-#define RPG_CLIENT_RECOMMENDENTRYDATAREPOSITORY_GETBYID_OFFSET UNITYSDK_OFFSET(0x1B6546D0)
-#define RPG_CLIENT_RECOMMENDENTRYDATAREPOSITORY__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6543C0)
+#define RPG_CLIENT_RECOMMENDENTRYDATAREPOSITORY_GETALL_OFFSET UNITYSDK_OFFSET(0xDE56D70)
+#define RPG_CLIENT_RECOMMENDENTRYDATAREPOSITORY_GETBYID_OFFSET UNITYSDK_OFFSET(0xDE56DB0)
+#define RPG_CLIENT_RECOMMENDENTRYDATAREPOSITORY_GETBYITEMID_OFFSET UNITYSDK_OFFSET(0xDE56EB0)
+#define RPG_CLIENT_RECOMMENDENTRYDATAREPOSITORY__CTOR_OFFSET UNITYSDK_OFFSET(0xDE56AB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RecommendEntryDataRepository_TypeDefinitionIndex = 66806;
+	inline static constexpr unsigned int RecommendEntryDataRepository_TypeDefinitionIndex = 66807;
 
 	class RecommendEntryDataRepository : public ::System::Object
 	{
@@ -31,6 +32,11 @@ namespace RPG::Client
 		::RPG::Client::RecommendEntryData* GetByID(::System::UInt32 a1)
 		{
 			return ((::RPG::Client::RecommendEntryData*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_RECOMMENDENTRYDATAREPOSITORY_GETBYID_OFFSET))(this, a1);
+		}
+
+		::RPG::Client::RecommendEntryData* GetByItemID(::System::UInt32 a1)
+		{
+			return ((::RPG::Client::RecommendEntryData*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_RECOMMENDENTRYDATAREPOSITORY_GETBYITEMID_OFFSET))(this, a1);
 		}
 	};
 }

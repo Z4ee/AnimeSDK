@@ -4,20 +4,20 @@
 
 namespace Proto { class StartCocoonStageScRsp; }
 
-#define PROTO_STARTCOCOONSTAGESCRSP___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DD555C0)
-#define PROTO_STARTCOCOONSTAGESCRSP___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD55600)
-#define PROTO_STARTCOCOONSTAGESCRSP___C___CCTOR_B__48_0_OFFSET UNITYSDK_OFFSET(0x1DD55610)
+#define PROTO_STARTCOCOONSTAGESCRSP___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DFE6E60)
+#define PROTO_STARTCOCOONSTAGESCRSP___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1DFE6EA0)
+#define PROTO_STARTCOCOONSTAGESCRSP___C___CCTOR_B__48_0_OFFSET UNITYSDK_OFFSET(0x1DFE6EB0)
 
 namespace Proto
 {
-	inline static constexpr unsigned int StartCocoonStageScRsp___c_TypeDefinitionIndex = 33384;
+	inline static constexpr unsigned int StartCocoonStageScRsp___c_TypeDefinitionIndex = 34034;
 
 	class StartCocoonStageScRsp___c : public ::System::Object
 	{
 	public:
 		static ::Proto::StartCocoonStageScRsp___c** StaticGet___9()
 		{
-			return (::Proto::StartCocoonStageScRsp___c**)Il2CppClass::FromTypeDefinitionIndex(StartCocoonStageScRsp___c_TypeDefinitionIndex)->GetStaticField(0x5C880);
+			return (::Proto::StartCocoonStageScRsp___c**)Il2CppClass::FromTypeDefinitionIndex(StartCocoonStageScRsp___c_TypeDefinitionIndex)->GetStaticField(0x4ED40);
 		}
 
 		static ::System::Void _cctor()

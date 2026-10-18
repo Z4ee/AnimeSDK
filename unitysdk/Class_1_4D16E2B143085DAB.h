@@ -5,17 +5,17 @@
 class Class_1_6C555725EE740F88;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_4D16E2B143085DAB_METHOD_1_CFE6FB160FFF5938_OFFSET UNITYSDK_OFFSET(0x18B86150)
-#define CLASS_1_4D16E2B143085DAB_METHOD_1_F026F9F94BAA5E1F_OFFSET UNITYSDK_OFFSET(0x18B861F0)
-#define CLASS_1_4D16E2B143085DAB__CTOR_OFFSET UNITYSDK_OFFSET(0x18B86250)
+#define CLASS_1_4D16E2B143085DAB_METHOD_1_CFE6FB160FFF5938_OFFSET UNITYSDK_OFFSET(0x1644BCB0)
+#define CLASS_1_4D16E2B143085DAB_METHOD_1_F026F9F94BAA5E1F_OFFSET UNITYSDK_OFFSET(0x1644BD50)
+#define CLASS_1_4D16E2B143085DAB__CTOR_OFFSET UNITYSDK_OFFSET(0x1644BDB0)
 
-inline static constexpr unsigned int Class_1_4D16E2B143085DAB_TypeDefinitionIndex = 72003;
+inline static constexpr unsigned int Class_1_4D16E2B143085DAB_TypeDefinitionIndex = 72076;
 
 class Class_1_4D16E2B143085DAB : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::Class_1_6C555725EE740F88*>* OHPGEHKFABM; // 0x10
-	::System::Collections::Generic::List_1<::Class_1_6C555725EE740F88*>* HPAPACKPNJD; // 0x18
+	::System::Collections::Generic::List_1<::Class_1_6C555725EE740F88*>* HPAPACKPNJD; // 0x10
+	::System::Collections::Generic::List_1<::Class_1_6C555725EE740F88*>* OHPGEHKFABM; // 0x18
 
 	::System::Void _ctor()
 	{

@@ -13,115 +13,115 @@ namespace UnityEngine { class MeshFilter; }
 namespace UnityEngine { class MeshRenderer; }
 namespace UnityEngine { class RenderTexture; }
 
-#define RPG_CLIENT_OPTIMIZE_ENVGPUPARTICLEREMOTETESTBEHAVIOR_GET__OWNERMONOPLUGIN_OFFSET UNITYSDK_OFFSET(0x191F9C30)
-#define RPG_CLIENT_OPTIMIZE_ENVGPUPARTICLEREMOTETESTBEHAVIOR_METHOD_3_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0x191FA6A0)
-#define RPG_CLIENT_OPTIMIZE_ENVGPUPARTICLEREMOTETESTBEHAVIOR_METHOD_3_3CCA0B8A31B650A8_OFFSET UNITYSDK_OFFSET(0x191FA470)
-#define RPG_CLIENT_OPTIMIZE_ENVGPUPARTICLEREMOTETESTBEHAVIOR_METHOD_3_50B174C236FA5278_OFFSET UNITYSDK_OFFSET(0x191FB630)
-#define RPG_CLIENT_OPTIMIZE_ENVGPUPARTICLEREMOTETESTBEHAVIOR_METHOD_3_5BCE9210F4ACDD0B_OFFSET UNITYSDK_OFFSET(0x191F93F0)
-#define RPG_CLIENT_OPTIMIZE_ENVGPUPARTICLEREMOTETESTBEHAVIOR_METHOD_3_7B411317D337F87A_OFFSET UNITYSDK_OFFSET(0x191F9CB0)
-#define RPG_CLIENT_OPTIMIZE_ENVGPUPARTICLEREMOTETESTBEHAVIOR_METHOD_3_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0x191F9360)
-#define RPG_CLIENT_OPTIMIZE_ENVGPUPARTICLEREMOTETESTBEHAVIOR_METHOD_3_9E38127F40B34F1F_OFFSET UNITYSDK_OFFSET(0x191FA6E0)
-#define RPG_CLIENT_OPTIMIZE_ENVGPUPARTICLEREMOTETESTBEHAVIOR_METHOD_3_ABE7715DB28B2DD1_OFFSET UNITYSDK_OFFSET(0x191F9460)
-#define RPG_CLIENT_OPTIMIZE_ENVGPUPARTICLEREMOTETESTBEHAVIOR_METHOD_3_B77F621C85AADA36_OFFSET UNITYSDK_OFFSET(0x191FA850)
-#define RPG_CLIENT_OPTIMIZE_ENVGPUPARTICLEREMOTETESTBEHAVIOR_METHOD_3_D0D67BA4C4BC9E64_OFFSET UNITYSDK_OFFSET(0x191FA730)
-#define RPG_CLIENT_OPTIMIZE_ENVGPUPARTICLEREMOTETESTBEHAVIOR_METHOD_3_D87A7D8243E04FD7_OFFSET UNITYSDK_OFFSET(0x191F9940)
-#define RPG_CLIENT_OPTIMIZE_ENVGPUPARTICLEREMOTETESTBEHAVIOR_METHOD_3_F206290BA342BA13_1_OFFSET UNITYSDK_OFFSET(0x191F9A40)
-#define RPG_CLIENT_OPTIMIZE_ENVGPUPARTICLEREMOTETESTBEHAVIOR_METHOD_3_F206290BA342BA13_OFFSET UNITYSDK_OFFSET(0x191F98D0)
-#define RPG_CLIENT_OPTIMIZE_ENVGPUPARTICLEREMOTETESTBEHAVIOR_METHOD_3_F63FE1AA9633F811_OFFSET UNITYSDK_OFFSET(0x191FB130)
-#define RPG_CLIENT_OPTIMIZE_ENVGPUPARTICLEREMOTETESTBEHAVIOR_TICK_OFFSET UNITYSDK_OFFSET(0x191F9AB0)
-#define RPG_CLIENT_OPTIMIZE_ENVGPUPARTICLEREMOTETESTBEHAVIOR__CCTOR_OFFSET UNITYSDK_OFFSET(0x191FBF20)
-#define RPG_CLIENT_OPTIMIZE_ENVGPUPARTICLEREMOTETESTBEHAVIOR__CTOR_OFFSET UNITYSDK_OFFSET(0x191FBF10)
+#define RPG_CLIENT_OPTIMIZE_ENVGPUPARTICLEREMOTETESTBEHAVIOR_GET__OWNERMONOPLUGIN_OFFSET UNITYSDK_OFFSET(0xDA0D850)
+#define RPG_CLIENT_OPTIMIZE_ENVGPUPARTICLEREMOTETESTBEHAVIOR_METHOD_3_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0xDA0E2C0)
+#define RPG_CLIENT_OPTIMIZE_ENVGPUPARTICLEREMOTETESTBEHAVIOR_METHOD_3_3CCA0B8A31B650A8_OFFSET UNITYSDK_OFFSET(0xDA0E090)
+#define RPG_CLIENT_OPTIMIZE_ENVGPUPARTICLEREMOTETESTBEHAVIOR_METHOD_3_50B174C236FA5278_OFFSET UNITYSDK_OFFSET(0xDA0F250)
+#define RPG_CLIENT_OPTIMIZE_ENVGPUPARTICLEREMOTETESTBEHAVIOR_METHOD_3_5BCE9210F4ACDD0B_OFFSET UNITYSDK_OFFSET(0xDA0D010)
+#define RPG_CLIENT_OPTIMIZE_ENVGPUPARTICLEREMOTETESTBEHAVIOR_METHOD_3_7B411317D337F87A_OFFSET UNITYSDK_OFFSET(0xDA0D8D0)
+#define RPG_CLIENT_OPTIMIZE_ENVGPUPARTICLEREMOTETESTBEHAVIOR_METHOD_3_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0xDA0CF80)
+#define RPG_CLIENT_OPTIMIZE_ENVGPUPARTICLEREMOTETESTBEHAVIOR_METHOD_3_9E38127F40B34F1F_OFFSET UNITYSDK_OFFSET(0xDA0E300)
+#define RPG_CLIENT_OPTIMIZE_ENVGPUPARTICLEREMOTETESTBEHAVIOR_METHOD_3_ABE7715DB28B2DD1_OFFSET UNITYSDK_OFFSET(0xDA0D080)
+#define RPG_CLIENT_OPTIMIZE_ENVGPUPARTICLEREMOTETESTBEHAVIOR_METHOD_3_B77F621C85AADA36_OFFSET UNITYSDK_OFFSET(0xDA0E470)
+#define RPG_CLIENT_OPTIMIZE_ENVGPUPARTICLEREMOTETESTBEHAVIOR_METHOD_3_D0D67BA4C4BC9E64_OFFSET UNITYSDK_OFFSET(0xDA0E350)
+#define RPG_CLIENT_OPTIMIZE_ENVGPUPARTICLEREMOTETESTBEHAVIOR_METHOD_3_D87A7D8243E04FD7_OFFSET UNITYSDK_OFFSET(0xDA0D560)
+#define RPG_CLIENT_OPTIMIZE_ENVGPUPARTICLEREMOTETESTBEHAVIOR_METHOD_3_F206290BA342BA13_1_OFFSET UNITYSDK_OFFSET(0xDA0D660)
+#define RPG_CLIENT_OPTIMIZE_ENVGPUPARTICLEREMOTETESTBEHAVIOR_METHOD_3_F206290BA342BA13_OFFSET UNITYSDK_OFFSET(0xDA0D4F0)
+#define RPG_CLIENT_OPTIMIZE_ENVGPUPARTICLEREMOTETESTBEHAVIOR_METHOD_3_F63FE1AA9633F811_OFFSET UNITYSDK_OFFSET(0xDA0ED50)
+#define RPG_CLIENT_OPTIMIZE_ENVGPUPARTICLEREMOTETESTBEHAVIOR_TICK_OFFSET UNITYSDK_OFFSET(0xDA0D6D0)
+#define RPG_CLIENT_OPTIMIZE_ENVGPUPARTICLEREMOTETESTBEHAVIOR__CCTOR_OFFSET UNITYSDK_OFFSET(0xDA0FB40)
+#define RPG_CLIENT_OPTIMIZE_ENVGPUPARTICLEREMOTETESTBEHAVIOR__CTOR_OFFSET UNITYSDK_OFFSET(0xDA0FB30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Optimize_EnvGPUParticleRemoteTestBehavior_TypeDefinitionIndex = 70795;
+	inline static constexpr unsigned int Optimize_EnvGPUParticleRemoteTestBehavior_TypeDefinitionIndex = 70833;
 
 	class Optimize_EnvGPUParticleRemoteTestBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:
 		static ::Il2CppArray<::UnityEngine::Matrix4x4>** StaticGet_s_EmptyOccluders()
 		{
-			return (::Il2CppArray<::UnityEngine::Matrix4x4>**)Il2CppClass::FromTypeDefinitionIndex(Optimize_EnvGPUParticleRemoteTestBehavior_TypeDefinitionIndex)->GetStaticField(0x52590);
-		}
-		static ::System::Int32* StaticGet__EmissionScaleID()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Optimize_EnvGPUParticleRemoteTestBehavior_TypeDefinitionIndex)->GetStaticField(0x11120);
-		}
-		static ::System::Int32* StaticGet__RangeMinOldID()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Optimize_EnvGPUParticleRemoteTestBehavior_TypeDefinitionIndex)->GetStaticField(0x11124);
-		}
-		static ::System::Int32* StaticGet__NoiseScaleID()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Optimize_EnvGPUParticleRemoteTestBehavior_TypeDefinitionIndex)->GetStaticField(0x11128);
-		}
-		static ::System::Int32* StaticGet__RangeMaxOldID()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Optimize_EnvGPUParticleRemoteTestBehavior_TypeDefinitionIndex)->GetStaticField(0x1112C);
-		}
-		static ::System::Int32* StaticGet__WindID()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Optimize_EnvGPUParticleRemoteTestBehavior_TypeDefinitionIndex)->GetStaticField(0x11130);
-		}
-		static ::System::Int32* StaticGet__RangeMaxID()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Optimize_EnvGPUParticleRemoteTestBehavior_TypeDefinitionIndex)->GetStaticField(0x11134);
-		}
-		static ::System::Int32* StaticGet__SizeID()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Optimize_EnvGPUParticleRemoteTestBehavior_TypeDefinitionIndex)->GetStaticField(0x11138);
-		}
-		static ::System::Int32* StaticGet__PosTexID()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Optimize_EnvGPUParticleRemoteTestBehavior_TypeDefinitionIndex)->GetStaticField(0x1113C);
-		}
-		static ::System::Int32* StaticGet__FadingRateID()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Optimize_EnvGPUParticleRemoteTestBehavior_TypeDefinitionIndex)->GetStaticField(0x11140);
-		}
-		static ::System::Int32* StaticGet__RangeMinID()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Optimize_EnvGPUParticleRemoteTestBehavior_TypeDefinitionIndex)->GetStaticField(0x11144);
-		}
-		static ::System::Int32* StaticGet__WindScaleID()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Optimize_EnvGPUParticleRemoteTestBehavior_TypeDefinitionIndex)->GetStaticField(0x11148);
-		}
-		static ::System::Int32* StaticGet__SpeedTexID()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Optimize_EnvGPUParticleRemoteTestBehavior_TypeDefinitionIndex)->GetStaticField(0x1114C);
-		}
-		static ::System::Int32* StaticGet__NoiseTexID()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Optimize_EnvGPUParticleRemoteTestBehavior_TypeDefinitionIndex)->GetStaticField(0x11150);
+			return (::Il2CppArray<::UnityEngine::Matrix4x4>**)Il2CppClass::FromTypeDefinitionIndex(Optimize_EnvGPUParticleRemoteTestBehavior_TypeDefinitionIndex)->GetStaticField(0xE310);
 		}
 		static ::System::Int32* StaticGet__StencilOpID()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Optimize_EnvGPUParticleRemoteTestBehavior_TypeDefinitionIndex)->GetStaticField(0x11154);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Optimize_EnvGPUParticleRemoteTestBehavior_TypeDefinitionIndex)->GetStaticField(0x2E50);
 		}
-		static ::System::Int32* StaticGet__DensityScaleID()
+		static ::System::Int32* StaticGet__RangeMaxOldID()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Optimize_EnvGPUParticleRemoteTestBehavior_TypeDefinitionIndex)->GetStaticField(0x11158);
-		}
-		static ::System::Int32* StaticGet__OccluderAsVolumeID()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Optimize_EnvGPUParticleRemoteTestBehavior_TypeDefinitionIndex)->GetStaticField(0x1115C);
-		}
-		static ::System::Int32* StaticGet__OccluderMatrixID()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Optimize_EnvGPUParticleRemoteTestBehavior_TypeDefinitionIndex)->GetStaticField(0x11160);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Optimize_EnvGPUParticleRemoteTestBehavior_TypeDefinitionIndex)->GetStaticField(0x2E54);
 		}
 		static ::System::Int32* StaticGet__DeltaTimeID()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Optimize_EnvGPUParticleRemoteTestBehavior_TypeDefinitionIndex)->GetStaticField(0x11164);
-		}
-		static ::System::Int32* StaticGet__TimeID()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Optimize_EnvGPUParticleRemoteTestBehavior_TypeDefinitionIndex)->GetStaticField(0x11168);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Optimize_EnvGPUParticleRemoteTestBehavior_TypeDefinitionIndex)->GetStaticField(0x2E58);
 		}
 		static ::System::Int32* StaticGet__NoiseTillingID()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Optimize_EnvGPUParticleRemoteTestBehavior_TypeDefinitionIndex)->GetStaticField(0x1116C);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Optimize_EnvGPUParticleRemoteTestBehavior_TypeDefinitionIndex)->GetStaticField(0x2E5C);
+		}
+		static ::System::Int32* StaticGet__SizeID()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Optimize_EnvGPUParticleRemoteTestBehavior_TypeDefinitionIndex)->GetStaticField(0x2E60);
+		}
+		static ::System::Int32* StaticGet__PosTexID()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Optimize_EnvGPUParticleRemoteTestBehavior_TypeDefinitionIndex)->GetStaticField(0x2E64);
+		}
+		static ::System::Int32* StaticGet__NoiseScaleID()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Optimize_EnvGPUParticleRemoteTestBehavior_TypeDefinitionIndex)->GetStaticField(0x2E68);
+		}
+		static ::System::Int32* StaticGet__EmissionScaleID()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Optimize_EnvGPUParticleRemoteTestBehavior_TypeDefinitionIndex)->GetStaticField(0x2E6C);
+		}
+		static ::System::Int32* StaticGet__RangeMaxID()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Optimize_EnvGPUParticleRemoteTestBehavior_TypeDefinitionIndex)->GetStaticField(0x2E70);
+		}
+		static ::System::Int32* StaticGet__RangeMinID()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Optimize_EnvGPUParticleRemoteTestBehavior_TypeDefinitionIndex)->GetStaticField(0x2E74);
+		}
+		static ::System::Int32* StaticGet__FadingRateID()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Optimize_EnvGPUParticleRemoteTestBehavior_TypeDefinitionIndex)->GetStaticField(0x2E78);
+		}
+		static ::System::Int32* StaticGet__OccluderMatrixID()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Optimize_EnvGPUParticleRemoteTestBehavior_TypeDefinitionIndex)->GetStaticField(0x2E7C);
+		}
+		static ::System::Int32* StaticGet__TimeID()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Optimize_EnvGPUParticleRemoteTestBehavior_TypeDefinitionIndex)->GetStaticField(0x2E80);
+		}
+		static ::System::Int32* StaticGet__DensityScaleID()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Optimize_EnvGPUParticleRemoteTestBehavior_TypeDefinitionIndex)->GetStaticField(0x2E84);
+		}
+		static ::System::Int32* StaticGet__WindScaleID()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Optimize_EnvGPUParticleRemoteTestBehavior_TypeDefinitionIndex)->GetStaticField(0x2E88);
+		}
+		static ::System::Int32* StaticGet__SpeedTexID()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Optimize_EnvGPUParticleRemoteTestBehavior_TypeDefinitionIndex)->GetStaticField(0x2E8C);
+		}
+		static ::System::Int32* StaticGet__WindID()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Optimize_EnvGPUParticleRemoteTestBehavior_TypeDefinitionIndex)->GetStaticField(0x2E90);
+		}
+		static ::System::Int32* StaticGet__OccluderAsVolumeID()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Optimize_EnvGPUParticleRemoteTestBehavior_TypeDefinitionIndex)->GetStaticField(0x2E94);
+		}
+		static ::System::Int32* StaticGet__NoiseTexID()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Optimize_EnvGPUParticleRemoteTestBehavior_TypeDefinitionIndex)->GetStaticField(0x2E98);
+		}
+		static ::System::Int32* StaticGet__RangeMinOldID()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Optimize_EnvGPUParticleRemoteTestBehavior_TypeDefinitionIndex)->GetStaticField(0x2E9C);
 		}
 		// static const ::System::Int32 KernelSpawn = 0x0; // 0x0
 		// static const ::System::Int32 KernelUpdate = 0x1; // 0x0

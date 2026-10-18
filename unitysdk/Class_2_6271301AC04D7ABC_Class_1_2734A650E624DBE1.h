@@ -5,9 +5,9 @@
 class Class_1_CD4EC20BEBA8A2DA;
 namespace System { class String; }
 
-#define CLASS_2_6271301AC04D7ABC_CLASS_1_2734A650E624DBE1__CTOR_OFFSET UNITYSDK_OFFSET(0x19D50400)
+#define CLASS_2_6271301AC04D7ABC_CLASS_1_2734A650E624DBE1__CTOR_OFFSET UNITYSDK_OFFSET(0x1C7C68A0)
 
-inline static constexpr unsigned int Class_2_6271301AC04D7ABC_Class_1_2734A650E624DBE1_TypeDefinitionIndex = 35605;
+inline static constexpr unsigned int Class_2_6271301AC04D7ABC_Class_1_2734A650E624DBE1_TypeDefinitionIndex = 36292;
 
 class Class_2_6271301AC04D7ABC_Class_1_2734A650E624DBE1 : public ::System::Object
 {

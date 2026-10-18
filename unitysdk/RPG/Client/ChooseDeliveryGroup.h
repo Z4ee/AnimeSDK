@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_CHOOSEDELIVERYGROUP_GET_GROUPID_OFFSET UNITYSDK_OFFSET(0x1BBF93B0)
-#define RPG_CLIENT_CHOOSEDELIVERYGROUP_SET_GROUPID_OFFSET UNITYSDK_OFFSET(0x1BBF93C0)
-#define RPG_CLIENT_CHOOSEDELIVERYGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1BBF93D0)
+#define RPG_CLIENT_CHOOSEDELIVERYGROUP_GET_GROUPID_OFFSET UNITYSDK_OFFSET(0xCB65D20)
+#define RPG_CLIENT_CHOOSEDELIVERYGROUP_SET_GROUPID_OFFSET UNITYSDK_OFFSET(0xCB65D30)
+#define RPG_CLIENT_CHOOSEDELIVERYGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0xCB65D40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChooseDeliveryGroup_TypeDefinitionIndex = 63582;
+	inline static constexpr unsigned int ChooseDeliveryGroup_TypeDefinitionIndex = 63520;
 
 	class ChooseDeliveryGroup : public ::System::Object
 	{

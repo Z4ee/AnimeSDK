@@ -8,13 +8,13 @@ namespace System { class Action; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_WIN_BINDMANAGER___C__DISPLAYCLASS14_0__BINDIDENTITY_B__0_OFFSET UNITYSDK_OFFSET(0x15CED9F0)
-#define MIHOYO_SDK_WIN_BINDMANAGER___C__DISPLAYCLASS14_0__BINDIDENTITY_B__1_OFFSET UNITYSDK_OFFSET(0x15CEDB00)
-#define MIHOYO_SDK_WIN_BINDMANAGER___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15CE5090)
+#define MIHOYO_SDK_WIN_BINDMANAGER___C__DISPLAYCLASS14_0__BINDIDENTITY_B__0_OFFSET UNITYSDK_OFFSET(0x1BCD0E30)
+#define MIHOYO_SDK_WIN_BINDMANAGER___C__DISPLAYCLASS14_0__BINDIDENTITY_B__1_OFFSET UNITYSDK_OFFSET(0x1BCD0F40)
+#define MIHOYO_SDK_WIN_BINDMANAGER___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BCC84E0)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int BindManager___c__DisplayClass14_0_TypeDefinitionIndex = 9319;
+	inline static constexpr unsigned int BindManager___c__DisplayClass14_0_TypeDefinitionIndex = 9377;
 
 	class BindManager___c__DisplayClass14_0 : public ::System::Object
 	{

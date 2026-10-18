@@ -8,20 +8,20 @@ namespace RPG::Client { class MapNpcDef; }
 namespace RPG::Client { class MapPropDef; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_3423680D9D7EF5F0_METHOD_1_016158E5DEAADD20_OFFSET UNITYSDK_OFFSET(0x1A857DC0)
-#define CLASS_1_3423680D9D7EF5F0_METHOD_1_568AE7A1499723FD_OFFSET UNITYSDK_OFFSET(0x1A857C20)
-#define CLASS_1_3423680D9D7EF5F0_METHOD_1_D78B51BFDA4B8B32_OFFSET UNITYSDK_OFFSET(0x1A857CC0)
-#define CLASS_1_3423680D9D7EF5F0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A857F40)
+#define CLASS_1_3423680D9D7EF5F0_METHOD_1_016158E5DEAADD20_OFFSET UNITYSDK_OFFSET(0xDCCC0C0)
+#define CLASS_1_3423680D9D7EF5F0_METHOD_1_568AE7A1499723FD_OFFSET UNITYSDK_OFFSET(0xDCCBF20)
+#define CLASS_1_3423680D9D7EF5F0_METHOD_1_D78B51BFDA4B8B32_OFFSET UNITYSDK_OFFSET(0xDCCBFC0)
+#define CLASS_1_3423680D9D7EF5F0__CTOR_OFFSET UNITYSDK_OFFSET(0xDCCC240)
 
-inline static constexpr unsigned int Class_1_3423680D9D7EF5F0_TypeDefinitionIndex = 62191;
+inline static constexpr unsigned int Class_1_3423680D9D7EF5F0_TypeDefinitionIndex = 62107;
 
 class Class_1_3423680D9D7EF5F0 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::RPG::Client::MapNpcDef*>* GAPILEHAEGN; // 0x10
-	::System::Collections::Generic::List_1<::RPG::Client::MapDistrictDef*>* ABMOPLPFDOM; // 0x18
+	::System::Collections::Generic::List_1<::RPG::Client::MapDistrictDef*>* ABMOPLPFDOM; // 0x10
+	::System::Collections::Generic::List_1<::RPG::Client::MapNpcDef*>* EPCMNACKPLF; // 0x18
 	::System::Collections::Generic::List_1<::RPG::Client::MapPropDef*>* BPPKNKJBABP; // 0x20
-	::System::Collections::Generic::List_1<::RPG::Client::MapNpcDef*>* EPCMNACKPLF; // 0x28
+	::System::Collections::Generic::List_1<::RPG::Client::MapNpcDef*>* GAPILEHAEGN; // 0x28
 
 	::System::Void _ctor()
 	{

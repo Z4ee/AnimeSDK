@@ -3,21 +3,21 @@
 #include "unitysdk/RPG/GameCore/TargetEvaluatorImpl_1.h"
 
 namespace RPG::GameCore { class GameEntity; }
-namespace RPG::GameCore { class TargetFetchAdvSkillTargetEntityList; }
+namespace RPG::GameCore { class TargetFetchLastKillTarget; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_3_24E0DDCD354A6D38_EVALUATE_OFFSET UNITYSDK_OFFSET(0x19275470)
-#define CLASS_3_24E0DDCD354A6D38__CTOR_OFFSET UNITYSDK_OFFSET(0x19275420)
+#define CLASS_3_24E0DDCD354A6D38_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBCF67B0)
+#define CLASS_3_24E0DDCD354A6D38__CTOR_OFFSET UNITYSDK_OFFSET(0xBCF6740)
 
-inline static constexpr unsigned int Class_3_24E0DDCD354A6D38_TypeDefinitionIndex = 59227;
+inline static constexpr unsigned int Class_3_24E0DDCD354A6D38_TypeDefinitionIndex = 59125;
 
-class Class_3_24E0DDCD354A6D38 : public ::RPG::GameCore::TargetEvaluatorImpl_1<::RPG::GameCore::TargetFetchAdvSkillTargetEntityList*>
+class Class_3_24E0DDCD354A6D38 : public ::RPG::GameCore::TargetEvaluatorImpl_1<::RPG::GameCore::TargetFetchLastKillTarget*>
 {
 public:
-	::System::Void _ctor(::RPG::GameCore::TargetFetchAdvSkillTargetEntityList* a1)
+	::System::Void _ctor(::RPG::GameCore::TargetFetchLastKillTarget* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TargetFetchAdvSkillTargetEntityList*))((::PBYTE)hIl2Cpp + CLASS_3_24E0DDCD354A6D38__CTOR_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TargetFetchLastKillTarget*))((::PBYTE)hIl2Cpp + CLASS_3_24E0DDCD354A6D38__CTOR_OFFSET))(this, a1);
 	}
 
 	::System::Void Evaluate(::RPG::GameCore::TaskContext* a1, ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* a2)

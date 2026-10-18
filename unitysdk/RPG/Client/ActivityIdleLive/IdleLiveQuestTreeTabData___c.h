@@ -5,29 +5,29 @@
 namespace RPG::Client::ActivityIdleLive { class IdleLiveQuestTreeItemData; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEQUESTTREETABDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C0FF1A0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEQUESTTREETABDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1C0FF1E0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEQUESTTREETABDATA___C__GETCHAPTERQUESTLISTREWARD_B__3_0_OFFSET UNITYSDK_OFFSET(0x1C0FF1F0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEQUESTTREETABDATA___C__GETCHAPTERQUESTLISTREWARD_B__3_1_OFFSET UNITYSDK_OFFSET(0x1C0FF250)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEQUESTTREETABDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC4E5EA0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEQUESTTREETABDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC4E5EE0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEQUESTTREETABDATA___C__GETCHAPTERQUESTLISTREWARD_B__3_0_OFFSET UNITYSDK_OFFSET(0xC4E5EF0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEQUESTTREETABDATA___C__GETCHAPTERQUESTLISTREWARD_B__3_1_OFFSET UNITYSDK_OFFSET(0xC4E5F50)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveQuestTreeTabData___c_TypeDefinitionIndex = 75078;
+	inline static constexpr unsigned int IdleLiveQuestTreeTabData___c_TypeDefinitionIndex = 75378;
 
 	class IdleLiveQuestTreeTabData___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::Client::ActivityIdleLive::IdleLiveQuestTreeItemData*, ::System::UInt32>** StaticGet___9__3_1()
-		{
-			return (::System::Func_2<::RPG::Client::ActivityIdleLive::IdleLiveQuestTreeItemData*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(IdleLiveQuestTreeTabData___c_TypeDefinitionIndex)->GetStaticField(0x5AFE0);
-		}
 		static ::System::Func_2<::RPG::Client::ActivityIdleLive::IdleLiveQuestTreeItemData*, ::System::Boolean>** StaticGet___9__3_0()
 		{
-			return (::System::Func_2<::RPG::Client::ActivityIdleLive::IdleLiveQuestTreeItemData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(IdleLiveQuestTreeTabData___c_TypeDefinitionIndex)->GetStaticField(0x5AFE8);
+			return (::System::Func_2<::RPG::Client::ActivityIdleLive::IdleLiveQuestTreeItemData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(IdleLiveQuestTreeTabData___c_TypeDefinitionIndex)->GetStaticField(0x21D50);
+		}
+		static ::System::Func_2<::RPG::Client::ActivityIdleLive::IdleLiveQuestTreeItemData*, ::System::UInt32>** StaticGet___9__3_1()
+		{
+			return (::System::Func_2<::RPG::Client::ActivityIdleLive::IdleLiveQuestTreeItemData*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(IdleLiveQuestTreeTabData___c_TypeDefinitionIndex)->GetStaticField(0x21D58);
 		}
 		static ::RPG::Client::ActivityIdleLive::IdleLiveQuestTreeTabData___c** StaticGet___9()
 		{
-			return (::RPG::Client::ActivityIdleLive::IdleLiveQuestTreeTabData___c**)Il2CppClass::FromTypeDefinitionIndex(IdleLiveQuestTreeTabData___c_TypeDefinitionIndex)->GetStaticField(0x5AFF0);
+			return (::RPG::Client::ActivityIdleLive::IdleLiveQuestTreeTabData___c**)Il2CppClass::FromTypeDefinitionIndex(IdleLiveQuestTreeTabData___c_TypeDefinitionIndex)->GetStaticField(0x21D60);
 		}
 
 		static ::System::Void _cctor()

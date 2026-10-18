@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHIMERADUELRANKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E33A580)
-#define RPG_GAMECORE_CHIMERADUELRANKROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1E33AC20)
+#define RPG_GAMECORE_CHIMERADUELRANKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D57AC70)
+#define RPG_GAMECORE_CHIMERADUELRANKROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D57B310)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraDuelRankRow_TypeDefinitionIndex = 11114;
+	inline static constexpr unsigned int ChimeraDuelRankRow_TypeDefinitionIndex = 11130;
 
 	class ChimeraDuelRankRow : public ::System::Object
 	{

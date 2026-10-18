@@ -6,11 +6,11 @@
 namespace MiHoYo::SDK { class JSONNode; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_WIN_NEWDEVICEINFOMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x18B0F3C0)
+#define MIHOYO_SDK_WIN_NEWDEVICEINFOMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD75590)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int NewDeviceInfoModel_TypeDefinitionIndex = 9275;
+	inline static constexpr unsigned int NewDeviceInfoModel_TypeDefinitionIndex = 9333;
 
 	class NewDeviceInfoModel : public ::System::Object
 	{

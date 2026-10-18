@@ -3,18 +3,18 @@
 #include "unitysdk/RPG/GameCore/AnimZoneType.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_9CC9BA8044EDE678_CLASS_1_61A89E2AE773A3FD__CTOR_OFFSET UNITYSDK_OFFSET(0x18D13A90)
+#define CLASS_1_9CC9BA8044EDE678_CLASS_1_61A89E2AE773A3FD__CTOR_OFFSET UNITYSDK_OFFSET(0xB410070)
 
-inline static constexpr unsigned int Class_1_9CC9BA8044EDE678_Class_1_61A89E2AE773A3FD_TypeDefinitionIndex = 56105;
+inline static constexpr unsigned int Class_1_9CC9BA8044EDE678_Class_1_61A89E2AE773A3FD_TypeDefinitionIndex = 55917;
 
 class Class_1_9CC9BA8044EDE678_Class_1_61A89E2AE773A3FD : public ::System::Object
 {
 public:
 	::RPG::GameCore::AnimZoneType KMLICIEMKFI; // 0x10
-	::System::Boolean DMJNFJBJOAH; // 0x14
-	::System::Boolean FDEEGMNHLOL; // 0x15
-	::System::Boolean NMOPDKGMDNM; // 0x16
-	::System::Boolean KCNGAOLBCCD; // 0x17
+	::System::Boolean FDEEGMNHLOL; // 0x14
+	::System::Boolean DMJNFJBJOAH; // 0x15
+	::System::Boolean KCNGAOLBCCD; // 0x16
+	::System::Boolean NMOPDKGMDNM; // 0x17
 
 	::System::Void _ctor()
 	{

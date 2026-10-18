@@ -5,19 +5,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ROGUESHOPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E5496B0)
-#define RPG_GAMECORE_ROGUESHOPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1E549820)
+#define RPG_GAMECORE_ROGUESHOPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DA010A0)
+#define RPG_GAMECORE_ROGUESHOPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1DA01210)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueShopRow_TypeDefinitionIndex = 14526;
+	inline static constexpr unsigned int RogueShopRow_TypeDefinitionIndex = 14691;
 
 	class RogueShopRow : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::RogueShopType ShopType; // 0x10
+		::System::UInt32 RogueShopID; // 0x10
 		::System::UInt32 StageID; // 0x14
-		::System::UInt32 RogueShopID; // 0x18
+		::RPG::GameCore::RogueShopType ShopType; // 0x18
 
 		::System::Void _ctor()
 		{

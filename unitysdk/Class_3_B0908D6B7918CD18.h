@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ForceSyncActionDelayLink; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_B0908D6B7918CD18_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A76FCD0)
-#define CLASS_3_B0908D6B7918CD18__CTOR_OFFSET UNITYSDK_OFFSET(0x1A76FCA0)
+#define CLASS_3_B0908D6B7918CD18_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC1A34C0)
+#define CLASS_3_B0908D6B7918CD18__CTOR_OFFSET UNITYSDK_OFFSET(0xC1A3490)
 
-inline static constexpr unsigned int Class_3_B0908D6B7918CD18_TypeDefinitionIndex = 55281;
+inline static constexpr unsigned int Class_3_B0908D6B7918CD18_TypeDefinitionIndex = 55075;
 
 class Class_3_B0908D6B7918CD18 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ForceSyncActionDelayLink*>
 {

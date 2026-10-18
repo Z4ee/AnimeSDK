@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TeamFormationTemplateSingleConfig; }
 
-#define RPG_GAMECORE_TEAMFORMATIONTEMPLATECONFIG_METHOD_2_40BBC85B884BA868_OFFSET UNITYSDK_OFFSET(0x1E1CB0B0)
-#define RPG_GAMECORE_TEAMFORMATIONTEMPLATECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1E1CB1A0)
+#define RPG_GAMECORE_TEAMFORMATIONTEMPLATECONFIG_METHOD_2_40BBC85B884BA868_OFFSET UNITYSDK_OFFSET(0x1DB4C4B0)
+#define RPG_GAMECORE_TEAMFORMATIONTEMPLATECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB4C5A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TeamFormationTemplateConfig_TypeDefinitionIndex = 16407;
+	inline static constexpr unsigned int TeamFormationTemplateConfig_TypeDefinitionIndex = 16582;
 
 	class TeamFormationTemplateConfig : public ::RPG::GameCore::JsonConfig
 	{

@@ -9,25 +9,25 @@ namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MIHOYO_SDK_WIN_GOOGLEPCMANAGER___C__DISPLAYCLASS25_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15D3CBD0)
-#define MIHOYO_SDK_WIN_GOOGLEPCMANAGER___C__DISPLAYCLASS25_0__PAY_B__0_OFFSET UNITYSDK_OFFSET(0x15D3F6D0)
-#define MIHOYO_SDK_WIN_GOOGLEPCMANAGER___C__DISPLAYCLASS25_0__PAY_B__1_OFFSET UNITYSDK_OFFSET(0x15D3FF30)
+#define MIHOYO_SDK_WIN_GOOGLEPCMANAGER___C__DISPLAYCLASS25_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD18C30)
+#define MIHOYO_SDK_WIN_GOOGLEPCMANAGER___C__DISPLAYCLASS25_0__PAY_B__0_OFFSET UNITYSDK_OFFSET(0x1BD1B730)
+#define MIHOYO_SDK_WIN_GOOGLEPCMANAGER___C__DISPLAYCLASS25_0__PAY_B__1_OFFSET UNITYSDK_OFFSET(0x1BD1BF90)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int GooglePCManager___c__DisplayClass25_0_TypeDefinitionIndex = 9278;
+	inline static constexpr unsigned int GooglePCManager___c__DisplayClass25_0_TypeDefinitionIndex = 9336;
 
 	class GooglePCManager___c__DisplayClass25_0 : public ::System::Object
 	{
 	public:
 		::MiHoYo::SDK::JSONNode* payInfo; // 0x10
-		::System::Collections::Generic::List_1<::System::String*>* goodsIdList; // 0x18
-		::System::Action_1<::System::String*>* callback; // 0x20
-		::System::String* accountId; // 0x28
-		::MiHoYo::SDK::Win::GooglePCManager* __4__this; // 0x30
-		::System::String* token; // 0x38
+		::MiHoYo::SDK::Win::GooglePCManager* __4__this; // 0x18
+		::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* OnGetGoogleQueryGoods; // 0x20
+		::System::Action_1<::System::String*>* callback; // 0x28
+		::System::Collections::Generic::List_1<::System::String*>* goodsIdList; // 0x30
+		::System::String* accountId; // 0x38
 		::System::String* payGoodsId; // 0x40
-		::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* OnGetGoogleQueryGoods; // 0x48
+		::System::String* token; // 0x48
 
 		::System::Void _ctor()
 		{

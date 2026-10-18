@@ -7,12 +7,12 @@ namespace RPG::GameCore { class ActivityMovieStartBuffConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_MOVIEGAMECONSTCONFIG_METHOD_2_AF9CA7D68282BF17_OFFSET UNITYSDK_OFFSET(0x1CE75810)
-#define RPG_GAMECORE_MOVIEGAMECONSTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE75B50)
+#define RPG_GAMECORE_MOVIEGAMECONSTCONFIG_METHOD_2_AF9CA7D68282BF17_OFFSET UNITYSDK_OFFSET(0x1D890F20)
+#define RPG_GAMECORE_MOVIEGAMECONSTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D891260)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MovieGameConstConfig_TypeDefinitionIndex = 17343;
+	inline static constexpr unsigned int MovieGameConstConfig_TypeDefinitionIndex = 17539;
 
 	class MovieGameConstConfig : public ::RPG::GameCore::JsonConfig
 	{

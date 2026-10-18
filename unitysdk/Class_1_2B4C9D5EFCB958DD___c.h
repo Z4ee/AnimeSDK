@@ -6,22 +6,22 @@ namespace RPG::Client { class UIController; }
 namespace RPG::Client::Promises { class IPromise; }
 namespace System { template <typename T1, typename T2> class Converter_2; }
 
-#define CLASS_1_2B4C9D5EFCB958DD___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A002A20)
-#define CLASS_1_2B4C9D5EFCB958DD___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A002A50)
-#define CLASS_1_2B4C9D5EFCB958DD___C___SHOWLAST_B__9_0_OFFSET UNITYSDK_OFFSET(0x1A002A60)
+#define CLASS_1_2B4C9D5EFCB958DD___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15696C50)
+#define CLASS_1_2B4C9D5EFCB958DD___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15696C80)
+#define CLASS_1_2B4C9D5EFCB958DD___C___SHOWLAST_B__9_0_OFFSET UNITYSDK_OFFSET(0x15696C90)
 
-inline static constexpr unsigned int Class_1_2B4C9D5EFCB958DD___c_TypeDefinitionIndex = 72959;
+inline static constexpr unsigned int Class_1_2B4C9D5EFCB958DD___c_TypeDefinitionIndex = 73043;
 
 class Class_1_2B4C9D5EFCB958DD___c : public ::System::Object
 {
 public:
 	static ::System::Converter_2<::RPG::Client::UIController*, ::RPG::Client::Promises::IPromise*>** StaticGet___9__9_0()
 	{
-		return (::System::Converter_2<::RPG::Client::UIController*, ::RPG::Client::Promises::IPromise*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_2B4C9D5EFCB958DD___c_TypeDefinitionIndex)->GetStaticField(0x65810);
+		return (::System::Converter_2<::RPG::Client::UIController*, ::RPG::Client::Promises::IPromise*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_2B4C9D5EFCB958DD___c_TypeDefinitionIndex)->GetStaticField(0x53DC0);
 	}
 	static ::Class_1_2B4C9D5EFCB958DD___c** StaticGet___9()
 	{
-		return (::Class_1_2B4C9D5EFCB958DD___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_2B4C9D5EFCB958DD___c_TypeDefinitionIndex)->GetStaticField(0x65818);
+		return (::Class_1_2B4C9D5EFCB958DD___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_2B4C9D5EFCB958DD___c_TypeDefinitionIndex)->GetStaticField(0x53DC8);
 	}
 
 	static ::System::Void _cctor()

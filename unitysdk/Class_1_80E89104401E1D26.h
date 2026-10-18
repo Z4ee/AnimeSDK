@@ -5,16 +5,16 @@
 
 class Class_1_3EEDB4263A2F6FE3;
 
-#define CLASS_1_80E89104401E1D26__CTOR_OFFSET UNITYSDK_OFFSET(0x11EE7D40)
+#define CLASS_1_80E89104401E1D26__CTOR_OFFSET UNITYSDK_OFFSET(0x11FCED40)
 
-inline static constexpr unsigned int Class_1_80E89104401E1D26_TypeDefinitionIndex = 80664;
+inline static constexpr unsigned int Class_1_80E89104401E1D26_TypeDefinitionIndex = 81992;
 
 class Class_1_80E89104401E1D26 : public ::System::Object
 {
 public:
 	::Il2CppArray<::Class_1_3EEDB4263A2F6FE3*>* PGHEGHLPIDH; // 0x10
-	::System::UInt32 EHGGOCGBBLJ; // 0x18
-	::RPG::Client::TextID GBCGKDHLIKO; // 0x20
+	::RPG::Client::TextID GBCGKDHLIKO; // 0x18
+	::System::UInt32 EHGGOCGBBLJ; // 0x28
 
 	::System::Void _ctor()
 	{

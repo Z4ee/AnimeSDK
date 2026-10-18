@@ -3,7 +3,7 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int LightCollection_LightMode_TypeDefinitionIndex = 52133;
+	inline static constexpr unsigned int LightCollection_LightMode_TypeDefinitionIndex = 51839;
 
 	enum class LightCollection_LightMode : ::System::Int32
 	{

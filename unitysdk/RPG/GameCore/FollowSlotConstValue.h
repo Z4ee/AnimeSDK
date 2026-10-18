@@ -5,12 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class FollowSlotConfig; }
 
-#define RPG_GAMECORE_FOLLOWSLOTCONSTVALUE_METHOD_2_4DB188DF7CD9C0F4_OFFSET UNITYSDK_OFFSET(0x1DCAF680)
-#define RPG_GAMECORE_FOLLOWSLOTCONSTVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1DCAF810)
+#define RPG_GAMECORE_FOLLOWSLOTCONSTVALUE_METHOD_2_4DB188DF7CD9C0F4_OFFSET UNITYSDK_OFFSET(0x1D6BA0B0)
+#define RPG_GAMECORE_FOLLOWSLOTCONSTVALUE_METHOD_2_6F4083C4B119AAA7_OFFSET UNITYSDK_OFFSET(0x1D6B9F80)
+#define RPG_GAMECORE_FOLLOWSLOTCONSTVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6BA0A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FollowSlotConstValue_TypeDefinitionIndex = 15445;
+	inline static constexpr unsigned int FollowSlotConstValue_TypeDefinitionIndex = 15617;
 
 	class FollowSlotConstValue : public ::RPG::GameCore::JsonConfig
 	{
@@ -24,9 +25,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FOLLOWSLOTCONSTVALUE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_4DB188DF7CD9C0F4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FollowSlotConstValue*& a2)
+		static ::System::Void Method_2_6F4083C4B119AAA7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FollowSlotConstValue*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FollowSlotConstValue*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FOLLOWSLOTCONSTVALUE_METHOD_2_4DB188DF7CD9C0F4_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FollowSlotConstValue*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FOLLOWSLOTCONSTVALUE_METHOD_2_6F4083C4B119AAA7_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_2_4DB188DF7CD9C0F4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FollowSlotConstValue* a2)
+		{
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FollowSlotConstValue*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FOLLOWSLOTCONSTVALUE_METHOD_2_4DB188DF7CD9C0F4_OFFSET))(a1, a2);
 		}
 	};
 }

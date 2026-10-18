@@ -5,9 +5,9 @@
 
 namespace UnityEngine { class Transform; }
 
-#define STRUCT_2_241BF863AE3123B3_METHOD_2_1D4018D4200358D0_OFFSET UNITYSDK_OFFSET(0x3B65750)
+#define STRUCT_2_241BF863AE3123B3_METHOD_2_1D4018D4200358D0_OFFSET UNITYSDK_OFFSET(0x3C31F90)
 
-inline static constexpr unsigned int Struct_2_241BF863AE3123B3_TypeDefinitionIndex = 41789;
+inline static constexpr unsigned int Struct_2_241BF863AE3123B3_TypeDefinitionIndex = 43431;
 
 struct alignas(8) Struct_2_241BF863AE3123B3
 {

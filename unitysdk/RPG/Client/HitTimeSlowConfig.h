@@ -6,11 +6,11 @@
 
 namespace RPG::Client { class NamedCurve; }
 
-#define RPG_CLIENT_HITTIMESLOWCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19824510)
+#define RPG_CLIENT_HITTIMESLOWCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xD327830)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int HitTimeSlowConfig_TypeDefinitionIndex = 60179;
+	inline static constexpr unsigned int HitTimeSlowConfig_TypeDefinitionIndex = 60042;
 
 	class HitTimeSlowConfig : public ::System::Object
 	{

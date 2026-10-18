@@ -5,24 +5,24 @@
 
 namespace UnityEngine { class RectTransform; }
 
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYMEETINGCARDCONTROLLER_CARDMOVEINFO_ISFINISH_OFFSET UNITYSDK_OFFSET(0x1BDF5F20)
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYMEETINGCARDCONTROLLER_CARDMOVEINFO_TICK_OFFSET UNITYSDK_OFFSET(0x1BDF5DF0)
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYMEETINGCARDCONTROLLER_CARDMOVEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDF5B30)
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYMEETINGCARDCONTROLLER_CARDMOVEINFO__FINISHCURRENTMOVE_OFFSET UNITYSDK_OFFSET(0x1BDF5FE0)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYMEETINGCARDCONTROLLER_CARDMOVEINFO_ISFINISH_OFFSET UNITYSDK_OFFSET(0xE2E22E0)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYMEETINGCARDCONTROLLER_CARDMOVEINFO_TICK_OFFSET UNITYSDK_OFFSET(0xE2E21B0)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYMEETINGCARDCONTROLLER_CARDMOVEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xE2E1EF0)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYMEETINGCARDCONTROLLER_CARDMOVEINFO__FINISHCURRENTMOVE_OFFSET UNITYSDK_OFFSET(0xE2E23A0)
 
 namespace RPG::Client::TrainParty
 {
-	inline static constexpr unsigned int TrainPartyMeetingCardController_CardMoveInfo_TypeDefinitionIndex = 74179;
+	inline static constexpr unsigned int TrainPartyMeetingCardController_CardMoveInfo_TypeDefinitionIndex = 74278;
 
 	class TrainPartyMeetingCardController_CardMoveInfo : public ::System::Object
 	{
 	public:
 		::UnityEngine::RectTransform* Target; // 0x10
-		::System::Boolean _IsFinish; // 0x18
+		::System::Single _CumulativeTime; // 0x18
 		::UnityEngine::Vector2 _SourcePos; // 0x1C
-		::System::Single _Duration; // 0x24
-		::System::Single _CumulativeTime; // 0x28
-		::UnityEngine::Vector2 _FinalPos; // 0x2C
+		::System::Boolean _IsFinish; // 0x24
+		::UnityEngine::Vector2 _FinalPos; // 0x28
+		::System::Single _Duration; // 0x30
 
 		::System::Void _ctor(::UnityEngine::RectTransform* a1, ::UnityEngine::RectTransform* a2, ::System::Single a3)
 		{

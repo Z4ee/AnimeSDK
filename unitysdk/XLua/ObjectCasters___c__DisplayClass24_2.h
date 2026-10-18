@@ -6,21 +6,21 @@ namespace System { class Type; }
 namespace XLua { class ObjectCast; }
 namespace XLua { class ObjectCasters___c__DisplayClass24_0; }
 
-#define XLUA_OBJECTCASTERS___C__DISPLAYCLASS24_2__CTOR_OFFSET UNITYSDK_OFFSET(0x1186E6E0)
-#define XLUA_OBJECTCASTERS___C__DISPLAYCLASS24_2__GENCASTER_B__8_OFFSET UNITYSDK_OFFSET(0x11870CC0)
+#define XLUA_OBJECTCASTERS___C__DISPLAYCLASS24_2__CTOR_OFFSET UNITYSDK_OFFSET(0x14DC0DB0)
+#define XLUA_OBJECTCASTERS___C__DISPLAYCLASS24_2__GENCASTER_B__8_OFFSET UNITYSDK_OFFSET(0x14DC3360)
 
 namespace XLua
 {
-	inline static constexpr unsigned int ObjectCasters___c__DisplayClass24_2_TypeDefinitionIndex = 50571;
+	inline static constexpr unsigned int ObjectCasters___c__DisplayClass24_2_TypeDefinitionIndex = 50240;
 
 	class ObjectCasters___c__DisplayClass24_2 : public ::System::Object
 	{
 	public:
 		::XLua::ObjectCast* valueCaster; // 0x10
-		::XLua::ObjectCast* keyCaster; // 0x18
-		::System::Type* valueType; // 0x20
+		::XLua::ObjectCasters___c__DisplayClass24_0* CS___8__locals2; // 0x18
+		::XLua::ObjectCast* keyCaster; // 0x20
 		::System::Type* keyType; // 0x28
-		::XLua::ObjectCasters___c__DisplayClass24_0* CS___8__locals2; // 0x30
+		::System::Type* valueType; // 0x30
 
 		::System::Void _ctor()
 		{

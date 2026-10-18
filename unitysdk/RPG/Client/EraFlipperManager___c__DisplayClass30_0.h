@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_D8BCA6FA1DEB13B9;
+class Class_1_B338251AE5C2EEC8;
 namespace RPG::GameCore { class EraRegion; }
 
-#define RPG_CLIENT_ERAFLIPPERMANAGER___C__DISPLAYCLASS30_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1993A120)
-#define RPG_CLIENT_ERAFLIPPERMANAGER___C__DISPLAYCLASS30_0___ONCURRENTREGIONENTER_B__0_OFFSET UNITYSDK_OFFSET(0x1993C0C0)
+#define RPG_CLIENT_ERAFLIPPERMANAGER___C__DISPLAYCLASS30_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCE10B50)
+#define RPG_CLIENT_ERAFLIPPERMANAGER___C__DISPLAYCLASS30_0___ONCURRENTREGIONENTER_B__0_OFFSET UNITYSDK_OFFSET(0xCE12AF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EraFlipperManager___c__DisplayClass30_0_TypeDefinitionIndex = 60609;
+	inline static constexpr unsigned int EraFlipperManager___c__DisplayClass30_0_TypeDefinitionIndex = 60510;
 
 	class EraFlipperManager___c__DisplayClass30_0 : public ::System::Object
 	{
 	public:
-		::Class_1_D8BCA6FA1DEB13B9* region; // 0x10
+		::Class_1_B338251AE5C2EEC8* region; // 0x10
 
 		::System::Void _ctor()
 		{

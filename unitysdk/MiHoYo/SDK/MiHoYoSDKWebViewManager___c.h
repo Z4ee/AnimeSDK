@@ -5,24 +5,24 @@
 namespace ZenFulcrum::EmbeddedBrowser { class Browser; }
 namespace ZenFulcrum::EmbeddedBrowser { class Browser_VisibleChangedDelegate; }
 
-#define MIHOYO_SDK_MIHOYOSDKWEBVIEWMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C69A010)
-#define MIHOYO_SDK_MIHOYOSDKWEBVIEWMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1C69A050)
-#define MIHOYO_SDK_MIHOYOSDKWEBVIEWMANAGER___C__INIT_B__148_0_OFFSET UNITYSDK_OFFSET(0x1C69A060)
+#define MIHOYO_SDK_MIHOYOSDKWEBVIEWMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xB0103A0)
+#define MIHOYO_SDK_MIHOYOSDKWEBVIEWMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0xB0103E0)
+#define MIHOYO_SDK_MIHOYOSDKWEBVIEWMANAGER___C__INIT_B__148_0_OFFSET UNITYSDK_OFFSET(0xB0103F0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MiHoYoSDKWebViewManager___c_TypeDefinitionIndex = 47083;
+	inline static constexpr unsigned int MiHoYoSDKWebViewManager___c_TypeDefinitionIndex = 46623;
 
 	class MiHoYoSDKWebViewManager___c : public ::System::Object
 	{
 	public:
-		static ::ZenFulcrum::EmbeddedBrowser::Browser_VisibleChangedDelegate** StaticGet___9__148_0()
-		{
-			return (::ZenFulcrum::EmbeddedBrowser::Browser_VisibleChangedDelegate**)Il2CppClass::FromTypeDefinitionIndex(MiHoYoSDKWebViewManager___c_TypeDefinitionIndex)->GetStaticField(0x585C0);
-		}
 		static ::MiHoYo::SDK::MiHoYoSDKWebViewManager___c** StaticGet___9()
 		{
-			return (::MiHoYo::SDK::MiHoYoSDKWebViewManager___c**)Il2CppClass::FromTypeDefinitionIndex(MiHoYoSDKWebViewManager___c_TypeDefinitionIndex)->GetStaticField(0x585C8);
+			return (::MiHoYo::SDK::MiHoYoSDKWebViewManager___c**)Il2CppClass::FromTypeDefinitionIndex(MiHoYoSDKWebViewManager___c_TypeDefinitionIndex)->GetStaticField(0x2DAA0);
+		}
+		static ::ZenFulcrum::EmbeddedBrowser::Browser_VisibleChangedDelegate** StaticGet___9__148_0()
+		{
+			return (::ZenFulcrum::EmbeddedBrowser::Browser_VisibleChangedDelegate**)Il2CppClass::FromTypeDefinitionIndex(MiHoYoSDKWebViewManager___c_TypeDefinitionIndex)->GetStaticField(0x2DAA8);
 		}
 
 		static ::System::Void _cctor()

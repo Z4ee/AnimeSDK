@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define RPG_CLIENT_MONOWOLFBROBULLETPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x1C29A4C0)
+#define RPG_CLIENT_MONOWOLFBROBULLETPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0xD876E30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoWolfBroBulletPoint_TypeDefinitionIndex = 68686;
+	inline static constexpr unsigned int MonoWolfBroBulletPoint_TypeDefinitionIndex = 68720;
 
 	class MonoWolfBroBulletPoint : public ::UnityEngine::MonoBehaviour
 	{

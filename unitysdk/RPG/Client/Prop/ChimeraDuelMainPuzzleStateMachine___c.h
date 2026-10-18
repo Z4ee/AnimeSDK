@@ -6,24 +6,24 @@ namespace RPG::Client::Promises { class IPromise; }
 namespace RPG::Client::Prop { class IChimeraDuelMainPuzzleState; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLESTATEMACHINE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A8E0A00)
-#define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLESTATEMACHINE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A8E0A40)
-#define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLESTATEMACHINE___C__PREPAREONSTARTPUZZLE_B__10_0_OFFSET UNITYSDK_OFFSET(0x1A8E0A50)
+#define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLESTATEMACHINE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xDC65620)
+#define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLESTATEMACHINE___C__CTOR_OFFSET UNITYSDK_OFFSET(0xDC65660)
+#define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLESTATEMACHINE___C__PREPAREONSTARTPUZZLE_B__10_0_OFFSET UNITYSDK_OFFSET(0xDC65670)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraDuelMainPuzzleStateMachine___c_TypeDefinitionIndex = 77837;
+	inline static constexpr unsigned int ChimeraDuelMainPuzzleStateMachine___c_TypeDefinitionIndex = 78308;
 
 	class ChimeraDuelMainPuzzleStateMachine___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::Prop::ChimeraDuelMainPuzzleStateMachine___c** StaticGet___9()
-		{
-			return (::RPG::Client::Prop::ChimeraDuelMainPuzzleStateMachine___c**)Il2CppClass::FromTypeDefinitionIndex(ChimeraDuelMainPuzzleStateMachine___c_TypeDefinitionIndex)->GetStaticField(0x61F20);
-		}
 		static ::System::Func_2<::RPG::Client::Prop::IChimeraDuelMainPuzzleState*, ::RPG::Client::Promises::IPromise*>** StaticGet___9__10_0()
 		{
-			return (::System::Func_2<::RPG::Client::Prop::IChimeraDuelMainPuzzleState*, ::RPG::Client::Promises::IPromise*>**)Il2CppClass::FromTypeDefinitionIndex(ChimeraDuelMainPuzzleStateMachine___c_TypeDefinitionIndex)->GetStaticField(0x61F28);
+			return (::System::Func_2<::RPG::Client::Prop::IChimeraDuelMainPuzzleState*, ::RPG::Client::Promises::IPromise*>**)Il2CppClass::FromTypeDefinitionIndex(ChimeraDuelMainPuzzleStateMachine___c_TypeDefinitionIndex)->GetStaticField(0x3A520);
+		}
+		static ::RPG::Client::Prop::ChimeraDuelMainPuzzleStateMachine___c** StaticGet___9()
+		{
+			return (::RPG::Client::Prop::ChimeraDuelMainPuzzleStateMachine___c**)Il2CppClass::FromTypeDefinitionIndex(ChimeraDuelMainPuzzleStateMachine___c_TypeDefinitionIndex)->GetStaticField(0x3A528);
 		}
 
 		static ::System::Void _cctor()

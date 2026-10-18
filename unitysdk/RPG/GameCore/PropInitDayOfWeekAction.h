@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class PropDayOfWeekActionParamObject; }
 
-#define RPG_GAMECORE_PROPINITDAYOFWEEKACTION_METHOD_3_7584F3A358AC11BF_OFFSET UNITYSDK_OFFSET(0x1D17C120)
-#define RPG_GAMECORE_PROPINITDAYOFWEEKACTION_METHOD_3_DE220E7E9C90040C_OFFSET UNITYSDK_OFFSET(0x1D17C0E0)
-#define RPG_GAMECORE_PROPINITDAYOFWEEKACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D17C110)
+#define RPG_GAMECORE_PROPINITDAYOFWEEKACTION_METHOD_3_C8C20455C9B428D6_OFFSET UNITYSDK_OFFSET(0x1D91FFB0)
+#define RPG_GAMECORE_PROPINITDAYOFWEEKACTION_METHOD_3_DA10D459A1BF7FD5_OFFSET UNITYSDK_OFFSET(0x1D91FF70)
+#define RPG_GAMECORE_PROPINITDAYOFWEEKACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D91FFA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropInitDayOfWeekAction_TypeDefinitionIndex = 21828;
+	inline static constexpr unsigned int PropInitDayOfWeekAction_TypeDefinitionIndex = 22076;
 
 	class PropInitDayOfWeekAction : public ::RPG::GameCore::TaskConfig
 	{
@@ -23,14 +23,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPINITDAYOFWEEKACTION__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_DE220E7E9C90040C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropInitDayOfWeekAction*& a2)
+		static ::System::Void Method_3_DA10D459A1BF7FD5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropInitDayOfWeekAction*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropInitDayOfWeekAction*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPINITDAYOFWEEKACTION_METHOD_3_DE220E7E9C90040C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropInitDayOfWeekAction*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPINITDAYOFWEEKACTION_METHOD_3_DA10D459A1BF7FD5_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_7584F3A358AC11BF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropInitDayOfWeekAction* a2)
+		static ::System::Void Method_3_C8C20455C9B428D6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropInitDayOfWeekAction* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropInitDayOfWeekAction*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPINITDAYOFWEEKACTION_METHOD_3_7584F3A358AC11BF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropInitDayOfWeekAction*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPINITDAYOFWEEKACTION_METHOD_3_C8C20455C9B428D6_OFFSET))(a1, a2);
 		}
 	};
 }

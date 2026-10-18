@@ -13,23 +13,23 @@ namespace System { template <typename T1, typename T2> class Tuple_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_8B7E7C2DCDDA55DF___C__DISPLAYCLASS18_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1596CF80)
-#define CLASS_1_8B7E7C2DCDDA55DF___C__DISPLAYCLASS18_0___ADD2DBRICKINTERACTTRIGGER_B__0_OFFSET UNITYSDK_OFFSET(0x1596D7F0)
-#define CLASS_1_8B7E7C2DCDDA55DF___C__DISPLAYCLASS18_0___ADD2DBRICKINTERACTTRIGGER_B__1_OFFSET UNITYSDK_OFFSET(0x1596DB50)
-#define CLASS_1_8B7E7C2DCDDA55DF___C__DISPLAYCLASS18_0___ADD2DBRICKINTERACTTRIGGER_B__2_OFFSET UNITYSDK_OFFSET(0x1596DCC0)
+#define CLASS_1_8B7E7C2DCDDA55DF___C__DISPLAYCLASS18_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16594B60)
+#define CLASS_1_8B7E7C2DCDDA55DF___C__DISPLAYCLASS18_0___ADD2DBRICKINTERACTTRIGGER_B__0_OFFSET UNITYSDK_OFFSET(0x16595720)
+#define CLASS_1_8B7E7C2DCDDA55DF___C__DISPLAYCLASS18_0___ADD2DBRICKINTERACTTRIGGER_B__1_OFFSET UNITYSDK_OFFSET(0x16595A80)
+#define CLASS_1_8B7E7C2DCDDA55DF___C__DISPLAYCLASS18_0___ADD2DBRICKINTERACTTRIGGER_B__2_OFFSET UNITYSDK_OFFSET(0x16595BF0)
 
-inline static constexpr unsigned int Class_1_8B7E7C2DCDDA55DF___c__DisplayClass18_0_TypeDefinitionIndex = 76342;
+inline static constexpr unsigned int Class_1_8B7E7C2DCDDA55DF___c__DisplayClass18_0_TypeDefinitionIndex = 76819;
 
 class Class_1_8B7E7C2DCDDA55DF___c__DisplayClass18_0 : public ::System::Object
 {
 public:
-	::RPG::GameCore::PropButtonConfig* buttonConfig; // 0x10
-	::Class_1_8B7E7C2DCDDA55DF* __4__this; // 0x18
-	::Class_2_B8E38BF47138A2E5* triggerEntity; // 0x20
-	::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelStructGameView* parentStruct; // 0x28
-	::System::Tuple_2<::System::Collections::Generic::List_1<::Class_2_1A8148841049062A*>*, ::System::Collections::Generic::Dictionary_2<::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameViewCoord, ::Class_2_1A8148841049062A*>*>* data; // 0x30
-	::Class_1_AF85D707C83D7C65* scene; // 0x38
-	::Class_2_B8E38BF47138A2E5* ownerEntity; // 0x40
+	::Class_2_B8E38BF47138A2E5* ownerEntity; // 0x10
+	::RPG::GameCore::PropButtonConfig* buttonConfig; // 0x18
+	::Class_1_AF85D707C83D7C65* scene; // 0x20
+	::Class_2_B8E38BF47138A2E5* triggerEntity; // 0x28
+	::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelStructGameView* parentStruct; // 0x30
+	::Class_1_8B7E7C2DCDDA55DF* __4__this; // 0x38
+	::System::Tuple_2<::System::Collections::Generic::List_1<::Class_2_1A8148841049062A*>*, ::System::Collections::Generic::Dictionary_2<::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameViewCoord, ::Class_2_1A8148841049062A*>*>* data; // 0x40
 
 	::System::Void _ctor()
 	{

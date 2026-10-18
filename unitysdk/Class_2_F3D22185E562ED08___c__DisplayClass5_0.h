@@ -6,17 +6,17 @@
 class AkCallbackInfo;
 class Class_2_F3D22185E562ED08;
 
-#define CLASS_2_F3D22185E562ED08___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0D1180)
-#define CLASS_2_F3D22185E562ED08___C__DISPLAYCLASS5_0__POSTSFX_B__0_OFFSET UNITYSDK_OFFSET(0x1A0D1390)
+#define CLASS_2_F3D22185E562ED08___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD759350)
+#define CLASS_2_F3D22185E562ED08___C__DISPLAYCLASS5_0__POSTSFX_B__0_OFFSET UNITYSDK_OFFSET(0xD759560)
 
-inline static constexpr unsigned int Class_2_F3D22185E562ED08___c__DisplayClass5_0_TypeDefinitionIndex = 49295;
+inline static constexpr unsigned int Class_2_F3D22185E562ED08___c__DisplayClass5_0_TypeDefinitionIndex = 48849;
 
 class Class_2_F3D22185E562ED08___c__DisplayClass5_0 : public ::System::Object
 {
 public:
 	::Class_2_F3D22185E562ED08* __4__this; // 0x10
-	::System::UInt32 sfxID; // 0x18
-	::System::Double endTime; // 0x20
+	::System::Double endTime; // 0x18
+	::System::UInt32 sfxID; // 0x20
 
 	::System::Void _ctor()
 	{

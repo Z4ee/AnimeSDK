@@ -4,45 +4,45 @@
 
 namespace RPG::Client { class Effect_BATControllerMonoPlugin; }
 
-#define RPG_CLIENT_EFFECT_BATCONTROLLERBEHAVIOR_GET__OWNERMONOPLUGIN_OFFSET UNITYSDK_OFFSET(0x15E4F8B0)
-#define RPG_CLIENT_EFFECT_BATCONTROLLERBEHAVIOR_LATETICK_OFFSET UNITYSDK_OFFSET(0x15E4F5C0)
-#define RPG_CLIENT_EFFECT_BATCONTROLLERBEHAVIOR_METHOD_3_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0x15E4FAE0)
-#define RPG_CLIENT_EFFECT_BATCONTROLLERBEHAVIOR_METHOD_3_4343F372F34C05BF_1_OFFSET UNITYSDK_OFFSET(0x15E4F440)
-#define RPG_CLIENT_EFFECT_BATCONTROLLERBEHAVIOR_METHOD_3_4343F372F34C05BF_2_OFFSET UNITYSDK_OFFSET(0x15E4F4A0)
-#define RPG_CLIENT_EFFECT_BATCONTROLLERBEHAVIOR_METHOD_3_4343F372F34C05BF_3_OFFSET UNITYSDK_OFFSET(0x15E4F500)
-#define RPG_CLIENT_EFFECT_BATCONTROLLERBEHAVIOR_METHOD_3_4343F372F34C05BF_4_OFFSET UNITYSDK_OFFSET(0x15E4F560)
-#define RPG_CLIENT_EFFECT_BATCONTROLLERBEHAVIOR_METHOD_3_4343F372F34C05BF_5_OFFSET UNITYSDK_OFFSET(0x15E4FB20)
-#define RPG_CLIENT_EFFECT_BATCONTROLLERBEHAVIOR_METHOD_3_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x15E4F3E0)
-#define RPG_CLIENT_EFFECT_BATCONTROLLERBEHAVIOR_METHOD_3_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0x15E4F350)
-#define RPG_CLIENT_EFFECT_BATCONTROLLERBEHAVIOR__CCTOR_OFFSET UNITYSDK_OFFSET(0x15E4FB90)
-#define RPG_CLIENT_EFFECT_BATCONTROLLERBEHAVIOR__CTOR_OFFSET UNITYSDK_OFFSET(0x15E4FB80)
+#define RPG_CLIENT_EFFECT_BATCONTROLLERBEHAVIOR_GET__OWNERMONOPLUGIN_OFFSET UNITYSDK_OFFSET(0xCD160F0)
+#define RPG_CLIENT_EFFECT_BATCONTROLLERBEHAVIOR_LATETICK_OFFSET UNITYSDK_OFFSET(0xCD15E00)
+#define RPG_CLIENT_EFFECT_BATCONTROLLERBEHAVIOR_METHOD_3_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0xCD16320)
+#define RPG_CLIENT_EFFECT_BATCONTROLLERBEHAVIOR_METHOD_3_4343F372F34C05BF_1_OFFSET UNITYSDK_OFFSET(0xCD15C80)
+#define RPG_CLIENT_EFFECT_BATCONTROLLERBEHAVIOR_METHOD_3_4343F372F34C05BF_2_OFFSET UNITYSDK_OFFSET(0xCD15CE0)
+#define RPG_CLIENT_EFFECT_BATCONTROLLERBEHAVIOR_METHOD_3_4343F372F34C05BF_3_OFFSET UNITYSDK_OFFSET(0xCD15D40)
+#define RPG_CLIENT_EFFECT_BATCONTROLLERBEHAVIOR_METHOD_3_4343F372F34C05BF_4_OFFSET UNITYSDK_OFFSET(0xCD15DA0)
+#define RPG_CLIENT_EFFECT_BATCONTROLLERBEHAVIOR_METHOD_3_4343F372F34C05BF_5_OFFSET UNITYSDK_OFFSET(0xCD16360)
+#define RPG_CLIENT_EFFECT_BATCONTROLLERBEHAVIOR_METHOD_3_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0xCD15C20)
+#define RPG_CLIENT_EFFECT_BATCONTROLLERBEHAVIOR_METHOD_3_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0xCD15B90)
+#define RPG_CLIENT_EFFECT_BATCONTROLLERBEHAVIOR__CCTOR_OFFSET UNITYSDK_OFFSET(0xCD163D0)
+#define RPG_CLIENT_EFFECT_BATCONTROLLERBEHAVIOR__CTOR_OFFSET UNITYSDK_OFFSET(0xCD163C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_BATControllerBehavior_TypeDefinitionIndex = 70395;
+	inline static constexpr unsigned int Effect_BATControllerBehavior_TypeDefinitionIndex = 70431;
 
 	class Effect_BATControllerBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:
-		static ::System::Int32* StaticGet__NumberOfBones()
+		static ::System::Int32* StaticGet__AnimationTexture()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Effect_BATControllerBehavior_TypeDefinitionIndex)->GetStaticField(0x138B0);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Effect_BATControllerBehavior_TypeDefinitionIndex)->GetStaticField(0xA110);
 		}
 		static ::System::Int32* StaticGet__FrameIndex()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Effect_BATControllerBehavior_TypeDefinitionIndex)->GetStaticField(0x138B4);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Effect_BATControllerBehavior_TypeDefinitionIndex)->GetStaticField(0xA114);
 		}
-		static ::System::Int32* StaticGet__VertexCount()
+		static ::System::Int32* StaticGet__NumberOfBones()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Effect_BATControllerBehavior_TypeDefinitionIndex)->GetStaticField(0x138B8);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Effect_BATControllerBehavior_TypeDefinitionIndex)->GetStaticField(0xA118);
 		}
 		static ::System::Int32* StaticGet__BoneIndicesWeightsTexture()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Effect_BATControllerBehavior_TypeDefinitionIndex)->GetStaticField(0x138BC);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Effect_BATControllerBehavior_TypeDefinitionIndex)->GetStaticField(0xA11C);
 		}
-		static ::System::Int32* StaticGet__AnimationTexture()
+		static ::System::Int32* StaticGet__VertexCount()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Effect_BATControllerBehavior_TypeDefinitionIndex)->GetStaticField(0x138C0);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Effect_BATControllerBehavior_TypeDefinitionIndex)->GetStaticField(0xA120);
 		}
 		::System::Single _TickTime; // 0x38
 

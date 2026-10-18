@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-template <typename T> class Class_0_16E4307DCC41950C;
+template <typename T> class Class_0_16E4307DCC41950C_2;
 
-inline static constexpr unsigned int Class_1_95CD475825F1276E_TypeDefinitionIndex = 50287;
+inline static constexpr unsigned int Class_1_95CD475825F1276E_TypeDefinitionIndex = 49961;
 
 template <typename TView>
 class Class_1_95CD475825F1276E : public ::System::Object

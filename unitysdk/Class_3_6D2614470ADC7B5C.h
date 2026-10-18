@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class RemoveMazeBuff; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_6D2614470ADC7B5C_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17DFFA90)
-#define CLASS_3_6D2614470ADC7B5C__CTOR_OFFSET UNITYSDK_OFFSET(0x17DFFA60)
+#define CLASS_3_6D2614470ADC7B5C_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15504360)
+#define CLASS_3_6D2614470ADC7B5C__CTOR_OFFSET UNITYSDK_OFFSET(0x15504330)
 
-inline static constexpr unsigned int Class_3_6D2614470ADC7B5C_TypeDefinitionIndex = 58537;
+inline static constexpr unsigned int Class_3_6D2614470ADC7B5C_TypeDefinitionIndex = 58388;
 
 class Class_3_6D2614470ADC7B5C : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::RemoveMazeBuff*>
 {

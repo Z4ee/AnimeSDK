@@ -9,7 +9,7 @@ namespace System::Collections::Generic { template <typename T> class IEqualityCo
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int Contains_TypeDefinitionIndex = 44182;
+	inline static constexpr unsigned int Contains_TypeDefinitionIndex = 45321;
 
 	class Contains : public ::System::Object
 	{

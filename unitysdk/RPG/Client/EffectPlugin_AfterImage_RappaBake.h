@@ -5,12 +5,12 @@
 namespace RPG::Client { class Effect_AfterImageNew; }
 namespace RPG::GameCore { class GameEntity; }
 
-#define RPG_CLIENT_EFFECTPLUGIN_AFTERIMAGE_RAPPABAKE_ALLOWBAKEMESH_OFFSET UNITYSDK_OFFSET(0x1A6A8320)
-#define RPG_CLIENT_EFFECTPLUGIN_AFTERIMAGE_RAPPABAKE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A6A8380)
+#define RPG_CLIENT_EFFECTPLUGIN_AFTERIMAGE_RAPPABAKE_ALLOWBAKEMESH_OFFSET UNITYSDK_OFFSET(0xCD0E9E0)
+#define RPG_CLIENT_EFFECTPLUGIN_AFTERIMAGE_RAPPABAKE__CTOR_OFFSET UNITYSDK_OFFSET(0xCD0EA40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EffectPlugin_AfterImage_RappaBake_TypeDefinitionIndex = 70381;
+	inline static constexpr unsigned int EffectPlugin_AfterImage_RappaBake_TypeDefinitionIndex = 70417;
 
 	class EffectPlugin_AfterImage_RappaBake : public ::UnityEngine::MonoBehaviour
 	{

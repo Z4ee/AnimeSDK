@@ -21,13 +21,13 @@ namespace RPG::GameCore { class SkillTransitAnimConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_RTCHARACTERCONFIG_METHOD_2_E8A598B0645C5782_OFFSET UNITYSDK_OFFSET(0x1CCE0390)
-#define RPG_GAMECORE_RTCHARACTERCONFIG_METHOD_2_F4234ACBBEEBDE7F_OFFSET UNITYSDK_OFFSET(0x1CCE06A0)
-#define RPG_GAMECORE_RTCHARACTERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CCD69D0)
+#define RPG_GAMECORE_RTCHARACTERCONFIG_METHOD_2_517CBB9896B07138_OFFSET UNITYSDK_OFFSET(0x1DA29020)
+#define RPG_GAMECORE_RTCHARACTERCONFIG_METHOD_2_E8A598B0645C5782_OFFSET UNITYSDK_OFFSET(0x1DA28D10)
+#define RPG_GAMECORE_RTCHARACTERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1DA1F350)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtCharacterConfig_TypeDefinitionIndex = 17438;
+	inline static constexpr unsigned int RtCharacterConfig_TypeDefinitionIndex = 17650;
 
 	class RtCharacterConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -76,9 +76,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtCharacterConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTCHARACTERCONFIG_METHOD_2_E8A598B0645C5782_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_2_F4234ACBBEEBDE7F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtCharacterConfig* a2)
+		static ::System::Void Method_2_517CBB9896B07138(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtCharacterConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtCharacterConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTCHARACTERCONFIG_METHOD_2_F4234ACBBEEBDE7F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtCharacterConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTCHARACTERCONFIG_METHOD_2_517CBB9896B07138_OFFSET))(a1, a2);
 		}
 	};
 }

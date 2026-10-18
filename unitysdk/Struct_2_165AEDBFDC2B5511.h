@@ -7,10 +7,10 @@ namespace RPG::GameCore { class ComplexSkillAIConfig; }
 namespace RPG::GameCore { class SkillConfig; }
 namespace RPG::GameCore { class SkillExtensionComplexSkillAIConfig; }
 
-#define STRUCT_2_165AEDBFDC2B5511_METHOD_2_6CCF7D2CA5164C7C_OFFSET UNITYSDK_OFFSET(0x177C4E60)
-#define STRUCT_2_165AEDBFDC2B5511_METHOD_2_947E47DF64C960C1_OFFSET UNITYSDK_OFFSET(0x177C4F40)
+#define STRUCT_2_165AEDBFDC2B5511_METHOD_2_6CCF7D2CA5164C7C_OFFSET UNITYSDK_OFFSET(0x16564750)
+#define STRUCT_2_165AEDBFDC2B5511_METHOD_2_947E47DF64C960C1_OFFSET UNITYSDK_OFFSET(0x16564830)
 
-inline static constexpr unsigned int Struct_2_165AEDBFDC2B5511_TypeDefinitionIndex = 57835;
+inline static constexpr unsigned int Struct_2_165AEDBFDC2B5511_TypeDefinitionIndex = 57681;
 
 struct alignas(8) Struct_2_165AEDBFDC2B5511
 {

@@ -4,11 +4,11 @@
 
 namespace RPG::Client { class Airship_AirshipEffectConfig; }
 
-#define RPG_CLIENT_AIRLINEWAY_CLASS_1_5F7BD4F39335B2FB__CTOR_OFFSET UNITYSDK_OFFSET(0x19C51A50)
+#define RPG_CLIENT_AIRLINEWAY_CLASS_1_5F7BD4F39335B2FB__CTOR_OFFSET UNITYSDK_OFFSET(0xC63D090)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AirlineWay_Class_1_5F7BD4F39335B2FB_TypeDefinitionIndex = 59912;
+	inline static constexpr unsigned int AirlineWay_Class_1_5F7BD4F39335B2FB_TypeDefinitionIndex = 59775;
 
 	class AirlineWay_Class_1_5F7BD4F39335B2FB : public ::System::Object
 	{

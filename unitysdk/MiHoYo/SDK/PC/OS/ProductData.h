@@ -2,14 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
+namespace MiHoYo::SDK::PC::OS { class EpicProductExtension; }
 namespace MiHoYo::SDK::PC::OS { class XboxProductExtension; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_PRODUCTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1ABE1030)
+#define MIHOYO_SDK_PC_OS_PRODUCTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF17740)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int ProductData_TypeDefinitionIndex = 8538;
+	inline static constexpr unsigned int ProductData_TypeDefinitionIndex = 8598;
 
 	class ProductData : public ::System::Object
 	{
@@ -23,6 +24,7 @@ namespace MiHoYo::SDK::PC::OS
 		::System::Double price; // 0x40
 		::System::String* offerId; // 0x48
 		::MiHoYo::SDK::PC::OS::XboxProductExtension* xbox; // 0x50
+		::MiHoYo::SDK::PC::OS::EpicProductExtension* epic; // 0x58
 
 		::System::Void _ctor()
 		{

@@ -4,7 +4,7 @@
 
 namespace Unity::Collections::LowLevel::Unsafe
 {
-	inline static constexpr unsigned int NativeContainerIsReadOnlyAttribute_TypeDefinitionIndex = 3992;
+	inline static constexpr unsigned int NativeContainerIsReadOnlyAttribute_TypeDefinitionIndex = 3993;
 
 	class NativeContainerIsReadOnlyAttribute : public ::System::Attribute
 	{

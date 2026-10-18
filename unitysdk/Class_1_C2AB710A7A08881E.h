@@ -5,17 +5,17 @@
 
 namespace RPG::Client::LittleGame { class ElfRestaurantGameEntity; }
 
-#define CLASS_1_C2AB710A7A08881E__CTOR_OFFSET UNITYSDK_OFFSET(0x1C506330)
+#define CLASS_1_C2AB710A7A08881E__CTOR_OFFSET UNITYSDK_OFFSET(0x1C9E52D0)
 
-inline static constexpr unsigned int Class_1_C2AB710A7A08881E_TypeDefinitionIndex = 40516;
+inline static constexpr unsigned int Class_1_C2AB710A7A08881E_TypeDefinitionIndex = 42118;
 
 class Class_1_C2AB710A7A08881E : public ::System::Object
 {
 public:
 	::RPG::Client::LittleGame::ElfRestaurantGameEntity* LPIINKCPJPO; // 0x10
-	::RPG::GameCore::ElfTakeOutState MEPFOEEGBEA; // 0x18
-	::System::Single LKKHEOOEGMG; // 0x1C
-	::System::UInt32 CLDPGBHMEOB; // 0x20
+	::System::UInt32 CLDPGBHMEOB; // 0x18
+	::RPG::GameCore::ElfTakeOutState MEPFOEEGBEA; // 0x1C
+	::System::Single LKKHEOOEGMG; // 0x20
 
 	::System::Void _ctor()
 	{

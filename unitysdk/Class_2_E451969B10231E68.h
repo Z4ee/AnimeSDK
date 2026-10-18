@@ -7,24 +7,24 @@ namespace RPG::GameCore { class LittleGameEntityConfig; }
 namespace RPG::GameCore { class LittleGameLevelConfig; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_2_E451969B10231E68_METHOD_2_00DEF5A164D9A9D5_OFFSET UNITYSDK_OFFSET(0x19D53000)
-#define CLASS_2_E451969B10231E68_METHOD_2_1290EA767C459179_OFFSET UNITYSDK_OFFSET(0x19D53280)
-#define CLASS_2_E451969B10231E68_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x19D53240)
-#define CLASS_2_E451969B10231E68_METHOD_2_D9B69CBFF2C3295F_OFFSET UNITYSDK_OFFSET(0x19D533C0)
-#define CLASS_2_E451969B10231E68__CTOR_OFFSET UNITYSDK_OFFSET(0x19D52F30)
+#define CLASS_2_E451969B10231E68_METHOD_2_00DEF5A164D9A9D5_OFFSET UNITYSDK_OFFSET(0x1C7C94A0)
+#define CLASS_2_E451969B10231E68_METHOD_2_1290EA767C459179_OFFSET UNITYSDK_OFFSET(0x1C7C9720)
+#define CLASS_2_E451969B10231E68_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x1C7C96E0)
+#define CLASS_2_E451969B10231E68_METHOD_2_D9B69CBFF2C3295F_OFFSET UNITYSDK_OFFSET(0x1C7C9860)
+#define CLASS_2_E451969B10231E68__CTOR_OFFSET UNITYSDK_OFFSET(0x1C7C93D0)
 
-inline static constexpr unsigned int Class_2_E451969B10231E68_TypeDefinitionIndex = 36500;
+inline static constexpr unsigned int Class_2_E451969B10231E68_TypeDefinitionIndex = 37187;
 
 class Class_2_E451969B10231E68 : public ::Class_1_1382163A006DA4F3
 {
 public:
-	::RPG::GameCore::LittleGameEntityConfig* PBFLDBBIGNB; // 0x18
-	::RPG::GameCore::LittleGameConstConfig* OEBCGADNGII; // 0x20
-	::RPG::GameCore::LittleGameLevelConfig* CLKEPOJFDPD; // 0x28
-	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::LittleGameEntityConfig*>* NKKOKKFGNHC; // 0x30
+	::RPG::GameCore::LittleGameLevelConfig* CLKEPOJFDPD; // 0x18
+	::RPG::GameCore::LittleGameEntityConfig* LOAGALADJPN; // 0x20
+	::RPG::GameCore::LittleGameConstConfig* OEBCGADNGII; // 0x28
+	::RPG::GameCore::LittleGameEntityConfig* EBEHGIPOOEI; // 0x30
 	::RPG::GameCore::LittleGameEntityConfig* PMBJAHLGBEG; // 0x38
-	::RPG::GameCore::LittleGameEntityConfig* LOAGALADJPN; // 0x40
-	::RPG::GameCore::LittleGameEntityConfig* EBEHGIPOOEI; // 0x48
+	::RPG::GameCore::LittleGameEntityConfig* PBFLDBBIGNB; // 0x40
+	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::LittleGameEntityConfig*>* NKKOKKFGNHC; // 0x48
 
 	::System::Void _ctor(::System::UInt32 a1)
 	{

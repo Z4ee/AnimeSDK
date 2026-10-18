@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int JSONTextMode_TypeDefinitionIndex = 8080;
+	inline static constexpr unsigned int JSONTextMode_TypeDefinitionIndex = 8123;
 
 	enum class JSONTextMode : ::System::Int32
 	{

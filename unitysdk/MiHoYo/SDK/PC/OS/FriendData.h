@@ -5,11 +5,11 @@
 namespace MiHoYo::SDK::PC::OS { class XboxFriendExtension; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_FRIENDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1A262330)
+#define MIHOYO_SDK_PC_OS_FRIENDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1BEE58A0)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int FriendData_TypeDefinitionIndex = 8559;
+	inline static constexpr unsigned int FriendData_TypeDefinitionIndex = 8620;
 
 	class FriendData : public ::System::Object
 	{

@@ -7,12 +7,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_LIGHTCONECUSTOMPOSITIONSCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DD59D90)
-#define RPG_GAMECORE_LIGHTCONECUSTOMPOSITIONSCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD59E90)
+#define RPG_GAMECORE_LIGHTCONECUSTOMPOSITIONSCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D7A1850)
+#define RPG_GAMECORE_LIGHTCONECUSTOMPOSITIONSCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7A1950)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LightConeCustomPositionsConfig_TypeDefinitionIndex = 17296;
+	inline static constexpr unsigned int LightConeCustomPositionsConfig_TypeDefinitionIndex = 17492;
 
 	class LightConeCustomPositionsConfig : public ::RPG::GameCore::JsonConfig
 	{

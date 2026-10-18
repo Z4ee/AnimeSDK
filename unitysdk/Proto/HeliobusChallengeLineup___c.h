@@ -4,20 +4,20 @@
 
 namespace Proto { class HeliobusChallengeLineup; }
 
-#define PROTO_HELIOBUSCHALLENGELINEUP___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DD3EEA0)
-#define PROTO_HELIOBUSCHALLENGELINEUP___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD3EED0)
-#define PROTO_HELIOBUSCHALLENGELINEUP___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1DD3EEE0)
+#define PROTO_HELIOBUSCHALLENGELINEUP___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DFD00A0)
+#define PROTO_HELIOBUSCHALLENGELINEUP___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1DFD00D0)
+#define PROTO_HELIOBUSCHALLENGELINEUP___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1DFD00E0)
 
 namespace Proto
 {
-	inline static constexpr unsigned int HeliobusChallengeLineup___c_TypeDefinitionIndex = 29245;
+	inline static constexpr unsigned int HeliobusChallengeLineup___c_TypeDefinitionIndex = 29770;
 
 	class HeliobusChallengeLineup___c : public ::System::Object
 	{
 	public:
 		static ::Proto::HeliobusChallengeLineup___c** StaticGet___9()
 		{
-			return (::Proto::HeliobusChallengeLineup___c**)Il2CppClass::FromTypeDefinitionIndex(HeliobusChallengeLineup___c_TypeDefinitionIndex)->GetStaticField(0x5BA40);
+			return (::Proto::HeliobusChallengeLineup___c**)Il2CppClass::FromTypeDefinitionIndex(HeliobusChallengeLineup___c_TypeDefinitionIndex)->GetStaticField(0x4C240);
 		}
 
 		static ::System::Void _cctor()

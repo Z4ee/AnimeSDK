@@ -7,19 +7,19 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_PHOTOGRAPHCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D433EE0)
-#define RPG_GAMECORE_PHOTOGRAPHCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D4340C0)
+#define RPG_GAMECORE_PHOTOGRAPHCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D8E2A00)
+#define RPG_GAMECORE_PHOTOGRAPHCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D8E2BE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PhotoGraphConfigRow_TypeDefinitionIndex = 14324;
+	inline static constexpr unsigned int PhotoGraphConfigRow_TypeDefinitionIndex = 14489;
 
 	class PhotoGraphConfigRow : public ::System::Object
 	{
 	public:
 		::System::String* EmotionIconPath; // 0x10
-		::RPG::Client::TextID EmotionName; // 0x18
-		::RPG::GameCore::EmotionID EmotionID; // 0x28
+		::RPG::GameCore::EmotionID EmotionID; // 0x18
+		::RPG::Client::TextID EmotionName; // 0x20
 
 		::System::Void _ctor()
 		{

@@ -7,12 +7,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ACTIVITYHIPPLENTRIALROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CA0A270)
-#define RPG_GAMECORE_ACTIVITYHIPPLENTRIALROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CA0A490)
+#define RPG_GAMECORE_ACTIVITYHIPPLENTRIALROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D33BA20)
+#define RPG_GAMECORE_ACTIVITYHIPPLENTRIALROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D33BC40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityHipplenTrialRow_TypeDefinitionIndex = 11616;
+	inline static constexpr unsigned int ActivityHipplenTrialRow_TypeDefinitionIndex = 11639;
 
 	class ActivityHipplenTrialRow : public ::System::Object
 	{

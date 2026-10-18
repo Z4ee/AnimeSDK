@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class RemoveBpFeature; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_FE5A25CFD093D945_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16488480)
-#define CLASS_3_FE5A25CFD093D945__CTOR_OFFSET UNITYSDK_OFFSET(0x16488450)
+#define CLASS_3_FE5A25CFD093D945_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBBD47F0)
+#define CLASS_3_FE5A25CFD093D945__CTOR_OFFSET UNITYSDK_OFFSET(0xBBD47C0)
 
-inline static constexpr unsigned int Class_3_FE5A25CFD093D945_TypeDefinitionIndex = 55502;
+inline static constexpr unsigned int Class_3_FE5A25CFD093D945_TypeDefinitionIndex = 55301;
 
 class Class_3_FE5A25CFD093D945 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::RemoveBpFeature*>
 {

@@ -16,7 +16,7 @@ namespace System::Linq { template <typename T1, typename T2> class IGrouping_2; 
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int GroupBy_4__GroupBy_TypeDefinitionIndex = 44237;
+	inline static constexpr unsigned int GroupBy_4__GroupBy_TypeDefinitionIndex = 45376;
 
 	template <typename TSource, typename TKey, typename TElement, typename TResult>
 	class GroupBy_4__GroupBy : public ::Cysharp::Threading::Tasks::MoveNextSource

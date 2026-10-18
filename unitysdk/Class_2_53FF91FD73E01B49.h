@@ -3,10 +3,10 @@
 #include "unitysdk/RPG/Client/FullBodyBipedChainBlender_1.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define CLASS_2_53FF91FD73E01B49_EVALUATE_OFFSET UNITYSDK_OFFSET(0x19A04090)
-#define CLASS_2_53FF91FD73E01B49__CTOR_OFFSET UNITYSDK_OFFSET(0x19A041F0)
+#define CLASS_2_53FF91FD73E01B49_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1566EE50)
+#define CLASS_2_53FF91FD73E01B49__CTOR_OFFSET UNITYSDK_OFFSET(0x1566EFB0)
 
-inline static constexpr unsigned int Class_2_53FF91FD73E01B49_TypeDefinitionIndex = 68564;
+inline static constexpr unsigned int Class_2_53FF91FD73E01B49_TypeDefinitionIndex = 68598;
 
 class Class_2_53FF91FD73E01B49 : public ::RPG::Client::FullBodyBipedChainBlender_1<::UnityEngine::Vector3>
 {

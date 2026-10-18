@@ -6,18 +6,18 @@ namespace RPG::Client { class Stage; }
 namespace RPG::GameCore { class SetStageItemState; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_31F639F6C436C0BD_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1A8255C0)
-#define CLASS_3_31F639F6C436C0BD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A825070)
-#define CLASS_3_31F639F6C436C0BD_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1A825420)
-#define CLASS_3_31F639F6C436C0BD__CTOR_OFFSET UNITYSDK_OFFSET(0x1A825040)
+#define CLASS_3_31F639F6C436C0BD_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15847AB0)
+#define CLASS_3_31F639F6C436C0BD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15847560)
+#define CLASS_3_31F639F6C436C0BD_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15847910)
+#define CLASS_3_31F639F6C436C0BD__CTOR_OFFSET UNITYSDK_OFFSET(0x15847530)
 
-inline static constexpr unsigned int Class_3_31F639F6C436C0BD_TypeDefinitionIndex = 58726;
+inline static constexpr unsigned int Class_3_31F639F6C436C0BD_TypeDefinitionIndex = 58578;
 
 class Class_3_31F639F6C436C0BD : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetStageItemState*>
 {
 public:
-	::RPG::Client::Stage* PDAIGLPEMEE; // 0x28
-	::RPG::GameCore::SetStageItemState* EJJEEJENLDA; // 0x30
+	::RPG::GameCore::SetStageItemState* EJJEEJENLDA; // 0x28
+	::RPG::Client::Stage* PDAIGLPEMEE; // 0x30
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SetStageItemState* a2)
 	{

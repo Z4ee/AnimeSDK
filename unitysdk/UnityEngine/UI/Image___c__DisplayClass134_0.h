@@ -7,7 +7,7 @@ namespace UnityEngine::UI { class Image; }
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int Image___c__DisplayClass134_0_TypeDefinitionIndex = 6729;
+	inline static constexpr unsigned int Image___c__DisplayClass134_0_TypeDefinitionIndex = 6738;
 
 	struct alignas(8) Image___c__DisplayClass134_0
 	{

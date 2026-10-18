@@ -5,8 +5,8 @@
 namespace System { class String; }
 namespace System::Security::Cryptography { class HashAlgorithm; }
 
-#define MONO_SECURITY_CRYPTOGRAPHY_PKCS1_CREATEFROMNAME_OFFSET UNITYSDK_OFFSET(0x1D23FB90)
-#define MONO_SECURITY_CRYPTOGRAPHY_PKCS1__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D23FFE0)
+#define MONO_SECURITY_CRYPTOGRAPHY_PKCS1_CREATEFROMNAME_OFFSET UNITYSDK_OFFSET(0x1C001B50)
+#define MONO_SECURITY_CRYPTOGRAPHY_PKCS1__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C001FA0)
 
 namespace Mono::Security::Cryptography
 {
@@ -17,19 +17,19 @@ namespace Mono::Security::Cryptography
 	public:
 		static ::Il2CppArray<::System::Byte>** StaticGet_emptySHA1()
 		{
-			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(PKCS1_TypeDefinitionIndex)->GetStaticField(0x2B5A0);
-		}
-		static ::Il2CppArray<::System::Byte>** StaticGet_emptySHA512()
-		{
-			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(PKCS1_TypeDefinitionIndex)->GetStaticField(0x2B5A8);
+			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(PKCS1_TypeDefinitionIndex)->GetStaticField(0x25490);
 		}
 		static ::Il2CppArray<::System::Byte>** StaticGet_emptySHA384()
 		{
-			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(PKCS1_TypeDefinitionIndex)->GetStaticField(0x2B5B0);
+			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(PKCS1_TypeDefinitionIndex)->GetStaticField(0x25498);
 		}
 		static ::Il2CppArray<::System::Byte>** StaticGet_emptySHA256()
 		{
-			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(PKCS1_TypeDefinitionIndex)->GetStaticField(0x2B5B8);
+			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(PKCS1_TypeDefinitionIndex)->GetStaticField(0x254A0);
+		}
+		static ::Il2CppArray<::System::Byte>** StaticGet_emptySHA512()
+		{
+			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(PKCS1_TypeDefinitionIndex)->GetStaticField(0x254A8);
 		}
 
 		static ::System::Void _cctor()

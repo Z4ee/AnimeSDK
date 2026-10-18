@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MARBLESEALTALKCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D4B2920)
-#define RPG_GAMECORE_MARBLESEALTALKCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D4B2AF0)
+#define RPG_GAMECORE_MARBLESEALTALKCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D81A6C0)
+#define RPG_GAMECORE_MARBLESEALTALKCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D81A890)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MarbleSealTalkConfigRow_TypeDefinitionIndex = 11834;
+	inline static constexpr unsigned int MarbleSealTalkConfigRow_TypeDefinitionIndex = 11857;
 
 	class MarbleSealTalkConfigRow : public ::System::Object
 	{

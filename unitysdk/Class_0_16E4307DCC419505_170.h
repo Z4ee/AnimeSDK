@@ -1,11 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/MechCraft/MechCraftAttributeType.h"
+#include "unitysdk/RPG/Client/MechCraft/MechCraftPartType.h"
 
-class Class_1_5F08A88160B0E2D6;
-class Class_1_6BB5DBAA1BCBF32D;
-namespace RPG::GameCore { class FiveDimEntityVarConfig; }
+namespace System { class String; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_170_TypeDefinitionIndex = 40583;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_170_TypeDefinitionIndex = 41900;
 
 class Class_0_16E4307DCC419505_170
 {

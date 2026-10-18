@@ -4,10 +4,10 @@
 
 namespace RPG::Client::LittleGame::CakeRace { class CakeRaceCatMonoView; }
 
-#define CLASS_3_48CD54D7224F0892_2___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18E60370)
-#define CLASS_3_48CD54D7224F0892_2___C__DISPLAYCLASS2_0___PLAYICESTORM_B__1_OFFSET UNITYSDK_OFFSET(0x18E60380)
+#define CLASS_3_48CD54D7224F0892_2___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16519180)
+#define CLASS_3_48CD54D7224F0892_2___C__DISPLAYCLASS2_0___PLAYICESTORM_B__1_OFFSET UNITYSDK_OFFSET(0x16519190)
 
-inline static constexpr unsigned int Class_3_48CD54D7224F0892_2___c__DisplayClass2_0_TypeDefinitionIndex = 77531;
+inline static constexpr unsigned int Class_3_48CD54D7224F0892_2___c__DisplayClass2_0_TypeDefinitionIndex = 78002;
 
 class Class_3_48CD54D7224F0892_2___c__DisplayClass2_0 : public ::System::Object
 {

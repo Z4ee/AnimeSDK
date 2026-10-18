@@ -5,22 +5,22 @@
 namespace RPG::Client { class GridFightGridMember; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define CLASS_1_9F1CCF0374E58E56___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x162A7220)
-#define CLASS_1_9F1CCF0374E58E56___C__CTOR_OFFSET UNITYSDK_OFFSET(0x162A7260)
-#define CLASS_1_9F1CCF0374E58E56___C__SATISFY_B__0_0_OFFSET UNITYSDK_OFFSET(0x162A7270)
+#define CLASS_1_9F1CCF0374E58E56___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xB1B4EC0)
+#define CLASS_1_9F1CCF0374E58E56___C__CTOR_OFFSET UNITYSDK_OFFSET(0xB1B4F00)
+#define CLASS_1_9F1CCF0374E58E56___C__SATISFY_B__0_0_OFFSET UNITYSDK_OFFSET(0xB1B4F10)
 
-inline static constexpr unsigned int Class_1_9F1CCF0374E58E56___c_TypeDefinitionIndex = 64969;
+inline static constexpr unsigned int Class_1_9F1CCF0374E58E56___c_TypeDefinitionIndex = 64909;
 
 class Class_1_9F1CCF0374E58E56___c : public ::System::Object
 {
 public:
-	static ::Class_1_9F1CCF0374E58E56___c** StaticGet___9()
-	{
-		return (::Class_1_9F1CCF0374E58E56___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_9F1CCF0374E58E56___c_TypeDefinitionIndex)->GetStaticField(0x5EC60);
-	}
 	static ::System::Func_2<::RPG::Client::GridFightGridMember*, ::System::Boolean>** StaticGet___9__0_0()
 	{
-		return (::System::Func_2<::RPG::Client::GridFightGridMember*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_9F1CCF0374E58E56___c_TypeDefinitionIndex)->GetStaticField(0x5EC68);
+		return (::System::Func_2<::RPG::Client::GridFightGridMember*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_9F1CCF0374E58E56___c_TypeDefinitionIndex)->GetStaticField(0x12040);
+	}
+	static ::Class_1_9F1CCF0374E58E56___c** StaticGet___9()
+	{
+		return (::Class_1_9F1CCF0374E58E56___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_9F1CCF0374E58E56___c_TypeDefinitionIndex)->GetStaticField(0x12048);
 	}
 
 	static ::System::Void _cctor()

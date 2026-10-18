@@ -5,20 +5,20 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_IDLELIVETASKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D216110)
-#define RPG_GAMECORE_IDLELIVETASKROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D216310)
+#define RPG_GAMECORE_IDLELIVETASKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D752D50)
+#define RPG_GAMECORE_IDLELIVETASKROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D752F50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveTaskRow_TypeDefinitionIndex = 11703;
+	inline static constexpr unsigned int IdleLiveTaskRow_TypeDefinitionIndex = 11726;
 
 	class IdleLiveTaskRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 ID; // 0x10
-		::System::UInt32 RewardID; // 0x14
-		::System::UInt32 FinishwayID; // 0x18
-		::RPG::Client::TextID Desc; // 0x20
+		::RPG::Client::TextID Desc; // 0x10
+		::System::UInt32 FinishwayID; // 0x20
+		::System::UInt32 ID; // 0x24
+		::System::UInt32 RewardID; // 0x28
 
 		::System::Void _ctor()
 		{

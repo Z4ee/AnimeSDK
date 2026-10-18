@@ -8,7 +8,7 @@ namespace RPG::GameCore { class ConsiderationAxisConfig; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IConsiderationAxisLuaHack_TypeDefinitionIndex = 59543;
+	inline static constexpr unsigned int IConsiderationAxisLuaHack_TypeDefinitionIndex = 59398;
 
 	class IConsiderationAxisLuaHack
 	{

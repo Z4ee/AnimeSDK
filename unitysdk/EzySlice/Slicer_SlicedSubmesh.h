@@ -5,21 +5,21 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define EZYSLICE_SLICER_SLICEDSUBMESH_GET_HASNORMAL_OFFSET UNITYSDK_OFFSET(0x1D458DF0)
-#define EZYSLICE_SLICER_SLICEDSUBMESH_GET_HASTANGENT_OFFSET UNITYSDK_OFFSET(0x1D458E60)
-#define EZYSLICE_SLICER_SLICEDSUBMESH_GET_HASUV_OFFSET UNITYSDK_OFFSET(0x1D458D80)
-#define EZYSLICE_SLICER_SLICEDSUBMESH_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x1D4578B0)
-#define EZYSLICE_SLICER_SLICEDSUBMESH__CTOR_OFFSET UNITYSDK_OFFSET(0x1D457720)
+#define EZYSLICE_SLICER_SLICEDSUBMESH_GET_HASNORMAL_OFFSET UNITYSDK_OFFSET(0xAF265C0)
+#define EZYSLICE_SLICER_SLICEDSUBMESH_GET_HASTANGENT_OFFSET UNITYSDK_OFFSET(0xAF26630)
+#define EZYSLICE_SLICER_SLICEDSUBMESH_GET_HASUV_OFFSET UNITYSDK_OFFSET(0xAF26550)
+#define EZYSLICE_SLICER_SLICEDSUBMESH_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0xAF25080)
+#define EZYSLICE_SLICER_SLICEDSUBMESH__CTOR_OFFSET UNITYSDK_OFFSET(0xAF24EF0)
 
 namespace EzySlice
 {
-	inline static constexpr unsigned int Slicer_SlicedSubmesh_TypeDefinitionIndex = 47467;
+	inline static constexpr unsigned int Slicer_SlicedSubmesh_TypeDefinitionIndex = 47007;
 
 	class Slicer_SlicedSubmesh : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::EzySlice::Triangle>* upperHull; // 0x10
-		::System::Collections::Generic::List_1<::EzySlice::Triangle>* lowerHull; // 0x18
+		::System::Collections::Generic::List_1<::EzySlice::Triangle>* lowerHull; // 0x10
+		::System::Collections::Generic::List_1<::EzySlice::Triangle>* upperHull; // 0x18
 
 		::System::Void _ctor()
 		{

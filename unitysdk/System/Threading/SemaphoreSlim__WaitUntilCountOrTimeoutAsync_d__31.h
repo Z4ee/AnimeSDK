@@ -12,8 +12,8 @@ namespace System::Threading { class SemaphoreSlim; }
 namespace System::Threading { class SemaphoreSlim_TaskNode; }
 namespace System::Threading::Tasks { class Task; }
 
-#define SYSTEM_THREADING_SEMAPHORESLIM__WAITUNTILCOUNTORTIMEOUTASYNC_D__31_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x3B7BC10)
-#define SYSTEM_THREADING_SEMAPHORESLIM__WAITUNTILCOUNTORTIMEOUTASYNC_D__31_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x3A4D9C0)
+#define SYSTEM_THREADING_SEMAPHORESLIM__WAITUNTILCOUNTORTIMEOUTASYNC_D__31_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x3C17CF0)
+#define SYSTEM_THREADING_SEMAPHORESLIM__WAITUNTILCOUNTORTIMEOUTASYNC_D__31_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x10B90)
 
 namespace System::Threading
 {
@@ -21,16 +21,16 @@ namespace System::Threading
 
 	struct alignas(8) SemaphoreSlim__WaitUntilCountOrTimeoutAsync_d__31
 	{
-		::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Boolean> __u__2; // 0x10
-		::System::Threading::SemaphoreSlim_TaskNode* asyncWaiter; // 0x20
-		::System::Threading::CancellationTokenSource* _cts_5__1; // 0x28
-		::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Boolean> __t__builder; // 0x30
-		::System::Threading::CancellationToken cancellationToken; // 0x48
-		::System::Threading::SemaphoreSlim* __4__this; // 0x50
-		::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Threading::Tasks::Task*> __u__1; // 0x58
-		::System::Object* __7__wrap1; // 0x68
-		::System::Int32 millisecondsTimeout; // 0x70
-		::System::Int32 __1__state; // 0x74
+		::System::Threading::CancellationToken cancellationToken; // 0x10
+		::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Threading::Tasks::Task*> __u__1; // 0x18
+		::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Boolean> __u__2; // 0x28
+		::System::Threading::CancellationTokenSource* _cts_5__1; // 0x38
+		::System::Threading::SemaphoreSlim* __4__this; // 0x40
+		::System::Object* __7__wrap1; // 0x48
+		::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Boolean> __t__builder; // 0x50
+		::System::Threading::SemaphoreSlim_TaskNode* asyncWaiter; // 0x68
+		::System::Int32 __1__state; // 0x70
+		::System::Int32 millisecondsTimeout; // 0x74
 
 		::System::Void MoveNext()
 		{

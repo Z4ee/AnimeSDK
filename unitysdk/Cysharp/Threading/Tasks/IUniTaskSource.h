@@ -7,7 +7,7 @@ namespace System { template <typename T> class Action_1; }
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int IUniTaskSource_TypeDefinitionIndex = 42585;
+	inline static constexpr unsigned int IUniTaskSource_TypeDefinitionIndex = 38170;
 
 	class IUniTaskSource
 	{

@@ -11,30 +11,30 @@ namespace System::Text { class StringBuilder; }
 namespace UnityEngine { class GUIStyle; }
 namespace UnityEngine { class Object; }
 
-#define CINEMACHINE_UTILITY_CINEMACHINEDEBUG_GETSCREENPOS_OFFSET UNITYSDK_OFFSET(0x1EF0E7A0)
-#define CINEMACHINE_UTILITY_CINEMACHINEDEBUG_RELEASESCREENPOS_OFFSET UNITYSDK_OFFSET(0x1EF0E710)
-#define CINEMACHINE_UTILITY_CINEMACHINEDEBUG_RETURNTOPOOL_OFFSET UNITYSDK_OFFSET(0x1EF0EC30)
-#define CINEMACHINE_UTILITY_CINEMACHINEDEBUG_SBFROMPOOL_OFFSET UNITYSDK_OFFSET(0x1EF0EB20)
-#define CINEMACHINE_UTILITY_CINEMACHINEDEBUG__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF0ED20)
+#define CINEMACHINE_UTILITY_CINEMACHINEDEBUG_GETSCREENPOS_OFFSET UNITYSDK_OFFSET(0x166A0E60)
+#define CINEMACHINE_UTILITY_CINEMACHINEDEBUG_RELEASESCREENPOS_OFFSET UNITYSDK_OFFSET(0x166A0DD0)
+#define CINEMACHINE_UTILITY_CINEMACHINEDEBUG_RETURNTOPOOL_OFFSET UNITYSDK_OFFSET(0x166A12F0)
+#define CINEMACHINE_UTILITY_CINEMACHINEDEBUG_SBFROMPOOL_OFFSET UNITYSDK_OFFSET(0x166A11E0)
+#define CINEMACHINE_UTILITY_CINEMACHINEDEBUG__CTOR_OFFSET UNITYSDK_OFFSET(0x166A13E0)
 
 namespace Cinemachine::Utility
 {
-	inline static constexpr unsigned int CinemachineDebug_TypeDefinitionIndex = 38589;
+	inline static constexpr unsigned int CinemachineDebug_TypeDefinitionIndex = 39886;
 
 	class CinemachineDebug : public ::System::Object
 	{
 	public:
 		static ::Cinemachine::Utility::CinemachineDebug_OnGUIDelegate** StaticGet_OnGUIHandlers()
 		{
-			return (::Cinemachine::Utility::CinemachineDebug_OnGUIDelegate**)Il2CppClass::FromTypeDefinitionIndex(CinemachineDebug_TypeDefinitionIndex)->GetStaticField(0xE60);
-		}
-		static ::System::Collections::Generic::List_1<::System::Text::StringBuilder*>** StaticGet_mAvailableStringBuilders()
-		{
-			return (::System::Collections::Generic::List_1<::System::Text::StringBuilder*>**)Il2CppClass::FromTypeDefinitionIndex(CinemachineDebug_TypeDefinitionIndex)->GetStaticField(0xE68);
+			return (::Cinemachine::Utility::CinemachineDebug_OnGUIDelegate**)Il2CppClass::FromTypeDefinitionIndex(CinemachineDebug_TypeDefinitionIndex)->GetStaticField(0xB40);
 		}
 		static ::System::Collections::Generic::HashSet_1<::UnityEngine::Object*>** StaticGet_mClients()
 		{
-			return (::System::Collections::Generic::HashSet_1<::UnityEngine::Object*>**)Il2CppClass::FromTypeDefinitionIndex(CinemachineDebug_TypeDefinitionIndex)->GetStaticField(0xE70);
+			return (::System::Collections::Generic::HashSet_1<::UnityEngine::Object*>**)Il2CppClass::FromTypeDefinitionIndex(CinemachineDebug_TypeDefinitionIndex)->GetStaticField(0xB48);
+		}
+		static ::System::Collections::Generic::List_1<::System::Text::StringBuilder*>** StaticGet_mAvailableStringBuilders()
+		{
+			return (::System::Collections::Generic::List_1<::System::Text::StringBuilder*>**)Il2CppClass::FromTypeDefinitionIndex(CinemachineDebug_TypeDefinitionIndex)->GetStaticField(0xB50);
 		}
 
 		::System::Void _ctor()

@@ -5,24 +5,24 @@
 namespace RPG::Client { class ActivityTelevisionData; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_ACTIVITYTELEVISIONACTIVITYDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1963BB00)
-#define RPG_CLIENT_ACTIVITYTELEVISIONACTIVITYDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1963BB40)
-#define RPG_CLIENT_ACTIVITYTELEVISIONACTIVITYDATA___C___HAVENEWUNLOCKLEVEL_B__4_0_OFFSET UNITYSDK_OFFSET(0x1963BB50)
+#define RPG_CLIENT_ACTIVITYTELEVISIONACTIVITYDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC5B76D0)
+#define RPG_CLIENT_ACTIVITYTELEVISIONACTIVITYDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC5B7710)
+#define RPG_CLIENT_ACTIVITYTELEVISIONACTIVITYDATA___C___HAVENEWUNLOCKLEVEL_B__4_0_OFFSET UNITYSDK_OFFSET(0xC5B7720)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityTelevisionActivityData___c_TypeDefinitionIndex = 61681;
+	inline static constexpr unsigned int ActivityTelevisionActivityData___c_TypeDefinitionIndex = 61587;
 
 	class ActivityTelevisionActivityData___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::Client::ActivityTelevisionData*, ::System::Boolean>** StaticGet___9__4_0()
-		{
-			return (::System::Func_2<::RPG::Client::ActivityTelevisionData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ActivityTelevisionActivityData___c_TypeDefinitionIndex)->GetStaticField(0x63620);
-		}
 		static ::RPG::Client::ActivityTelevisionActivityData___c** StaticGet___9()
 		{
-			return (::RPG::Client::ActivityTelevisionActivityData___c**)Il2CppClass::FromTypeDefinitionIndex(ActivityTelevisionActivityData___c_TypeDefinitionIndex)->GetStaticField(0x63628);
+			return (::RPG::Client::ActivityTelevisionActivityData___c**)Il2CppClass::FromTypeDefinitionIndex(ActivityTelevisionActivityData___c_TypeDefinitionIndex)->GetStaticField(0x347B0);
+		}
+		static ::System::Func_2<::RPG::Client::ActivityTelevisionData*, ::System::Boolean>** StaticGet___9__4_0()
+		{
+			return (::System::Func_2<::RPG::Client::ActivityTelevisionData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ActivityTelevisionActivityData___c_TypeDefinitionIndex)->GetStaticField(0x347B8);
 		}
 
 		static ::System::Void _cctor()

@@ -9,7 +9,7 @@ namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int Zip_3__Zip__DisposeAsync_d__18_TypeDefinitionIndex = 44602;
+	inline static constexpr unsigned int Zip_3__Zip__DisposeAsync_d__18_TypeDefinitionIndex = 45741;
 
 	template <typename TFirst, typename TSecond, typename TResult>
 	struct Zip_3__Zip__DisposeAsync_d__18

@@ -7,12 +7,12 @@ namespace RPG::GameCore { class AutoBubbleConfig; }
 namespace RPG::GameCore { class NoteComboConfig; }
 namespace RPG::GameCore { class NoteConfig; }
 
-#define RPG_GAMECORE_NOTEGROUPCONFIG_METHOD_2_388FABFE3C1182FC_OFFSET UNITYSDK_OFFSET(0x1CE8FF20)
-#define RPG_GAMECORE_NOTEGROUPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE90250)
+#define RPG_GAMECORE_NOTEGROUPCONFIG_METHOD_2_388FABFE3C1182FC_OFFSET UNITYSDK_OFFSET(0x1D8AC670)
+#define RPG_GAMECORE_NOTEGROUPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D8AC9A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int NoteGroupConfig_TypeDefinitionIndex = 16754;
+	inline static constexpr unsigned int NoteGroupConfig_TypeDefinitionIndex = 16948;
 
 	class NoteGroupConfig : public ::RPG::GameCore::JsonConfig
 	{

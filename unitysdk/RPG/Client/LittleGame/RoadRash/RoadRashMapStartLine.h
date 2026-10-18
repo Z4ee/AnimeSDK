@@ -6,7 +6,7 @@ class Class_1_B6045334FA181376;
 
 namespace RPG::Client::LittleGame::RoadRash
 {
-	inline static constexpr unsigned int RoadRashMapStartLine_TypeDefinitionIndex = 41309;
+	inline static constexpr unsigned int RoadRashMapStartLine_TypeDefinitionIndex = 42921;
 
 	struct alignas(8) RoadRashMapStartLine
 	{

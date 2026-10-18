@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class EnableIsometricTeleport; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_18CF66D91CB2EC6C_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x11624580)
-#define CLASS_3_18CF66D91CB2EC6C__CTOR_OFFSET UNITYSDK_OFFSET(0x11624550)
+#define CLASS_3_18CF66D91CB2EC6C_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC031050)
+#define CLASS_3_18CF66D91CB2EC6C__CTOR_OFFSET UNITYSDK_OFFSET(0xC031020)
 
-inline static constexpr unsigned int Class_3_18CF66D91CB2EC6C_TypeDefinitionIndex = 53018;
+inline static constexpr unsigned int Class_3_18CF66D91CB2EC6C_TypeDefinitionIndex = 52744;
 
 class Class_3_18CF66D91CB2EC6C : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::EnableIsometricTeleport*>
 {

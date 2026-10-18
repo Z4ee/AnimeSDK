@@ -6,24 +6,24 @@
 namespace RPG::Client { class TimeRewindSingleTarget; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 
-#define RPG_CLIENT_TIMEREWINDSINGLETARGET___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19792D20)
-#define RPG_CLIENT_TIMEREWINDSINGLETARGET___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19792D60)
-#define RPG_CLIENT_TIMEREWINDSINGLETARGET___C__MANUALSNAPLOOPREWINDRATIO_B__9_0_OFFSET UNITYSDK_OFFSET(0x19792D70)
+#define RPG_CLIENT_TIMEREWINDSINGLETARGET___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xE27E800)
+#define RPG_CLIENT_TIMEREWINDSINGLETARGET___C__CTOR_OFFSET UNITYSDK_OFFSET(0xE27E840)
+#define RPG_CLIENT_TIMEREWINDSINGLETARGET___C__MANUALSNAPLOOPREWINDRATIO_B__9_0_OFFSET UNITYSDK_OFFSET(0xE27E850)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TimeRewindSingleTarget___c_TypeDefinitionIndex = 60918;
+	inline static constexpr unsigned int TimeRewindSingleTarget___c_TypeDefinitionIndex = 60821;
 
 	class TimeRewindSingleTarget___c : public ::System::Object
 	{
 	public:
-		static ::System::Action_2<::RPG::Client::TimeRewindSingleTarget*, ::Struct_2_F8D9CEC872B937AF>** StaticGet___9__9_0()
-		{
-			return (::System::Action_2<::RPG::Client::TimeRewindSingleTarget*, ::Struct_2_F8D9CEC872B937AF>**)Il2CppClass::FromTypeDefinitionIndex(TimeRewindSingleTarget___c_TypeDefinitionIndex)->GetStaticField(0x59070);
-		}
 		static ::RPG::Client::TimeRewindSingleTarget___c** StaticGet___9()
 		{
-			return (::RPG::Client::TimeRewindSingleTarget___c**)Il2CppClass::FromTypeDefinitionIndex(TimeRewindSingleTarget___c_TypeDefinitionIndex)->GetStaticField(0x59078);
+			return (::RPG::Client::TimeRewindSingleTarget___c**)Il2CppClass::FromTypeDefinitionIndex(TimeRewindSingleTarget___c_TypeDefinitionIndex)->GetStaticField(0x19200);
+		}
+		static ::System::Action_2<::RPG::Client::TimeRewindSingleTarget*, ::Struct_2_F8D9CEC872B937AF>** StaticGet___9__9_0()
+		{
+			return (::System::Action_2<::RPG::Client::TimeRewindSingleTarget*, ::Struct_2_F8D9CEC872B937AF>**)Il2CppClass::FromTypeDefinitionIndex(TimeRewindSingleTarget___c_TypeDefinitionIndex)->GetStaticField(0x19208);
 		}
 
 		static ::System::Void _cctor()

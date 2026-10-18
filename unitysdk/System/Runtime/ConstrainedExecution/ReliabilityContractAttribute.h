@@ -4,7 +4,7 @@
 #include "unitysdk/System/Runtime/ConstrainedExecution/Cer.h"
 #include "unitysdk/System/Runtime/ConstrainedExecution/Consistency.h"
 
-#define SYSTEM_RUNTIME_CONSTRAINEDEXECUTION_RELIABILITYCONTRACTATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C457290)
+#define SYSTEM_RUNTIME_CONSTRAINEDEXECUTION_RELIABILITYCONTRACTATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C299CA0)
 
 namespace System::Runtime::ConstrainedExecution
 {

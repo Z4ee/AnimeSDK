@@ -7,11 +7,11 @@
 
 namespace HoudiniEngineUnity { class HEU_InputCurveInfo; }
 
-#define HOUDINIENGINEUNITY_HAPI_INPUTCURVEINFO_FILLDATA_OFFSET UNITYSDK_OFFSET(0x3A96480)
+#define HOUDINIENGINEUNITY_HAPI_INPUTCURVEINFO_FILLDATA_OFFSET UNITYSDK_OFFSET(0x304B6B0)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HAPI_InputCurveInfo_TypeDefinitionIndex = 39218;
+	inline static constexpr unsigned int HAPI_InputCurveInfo_TypeDefinitionIndex = 40515;
 
 	struct alignas(4) HAPI_InputCurveInfo
 	{

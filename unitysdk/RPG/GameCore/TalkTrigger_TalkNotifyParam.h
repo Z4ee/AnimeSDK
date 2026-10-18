@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/GameCore/TalkTrigger_DialogueGroupInfo.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_GAMECORE_TALKTRIGGER_TALKNOTIFYPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x119CA520)
+#define RPG_GAMECORE_TALKTRIGGER_TALKNOTIFYPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xE7765C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TalkTrigger_TalkNotifyParam_TypeDefinitionIndex = 57688;
+	inline static constexpr unsigned int TalkTrigger_TalkNotifyParam_TypeDefinitionIndex = 57534;
 
 	class TalkTrigger_TalkNotifyParam : public ::System::Object
 	{

@@ -9,7 +9,7 @@ namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int SelectMany_3__SelectMany__DisposeAsync_d__26_TypeDefinitionIndex = 44426;
+	inline static constexpr unsigned int SelectMany_3__SelectMany__DisposeAsync_d__26_TypeDefinitionIndex = 45565;
 
 	template <typename TSource, typename TCollection, typename TResult>
 	struct SelectMany_3__SelectMany__DisposeAsync_d__26

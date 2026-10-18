@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Color32.h"
 
-#define UNITYENGINE_UI_RAMPDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x17705620)
+#define UNITYENGINE_UI_RAMPDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1F4D4890)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int RampData_TypeDefinitionIndex = 6794;
+	inline static constexpr unsigned int RampData_TypeDefinitionIndex = 6803;
 
 	class RampData : public ::System::Object
 	{

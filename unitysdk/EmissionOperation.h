@@ -2,24 +2,28 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FDRIMatStateOperation.h"
 #include "unitysdk/UnityEngine/Color.h"
+#include "unitysdk/UnityEngine/Vector4.h"
 
 class FiveDimRenderingItem;
 
-#define EMISSIONOPERATION_METHOD_3_6454AD7212B2C6DE_1_OFFSET UNITYSDK_OFFSET(0x10679050)
-#define EMISSIONOPERATION_METHOD_3_6454AD7212B2C6DE_OFFSET UNITYSDK_OFFSET(0x10678C70)
-#define EMISSIONOPERATION_METHOD_3_A1D8CD775DEC3C21_OFFSET UNITYSDK_OFFSET(0x10679350)
-#define EMISSIONOPERATION_METHOD_3_A4A57157C453DC3A_OFFSET UNITYSDK_OFFSET(0x10678F40)
-#define EMISSIONOPERATION__CCTOR_OFFSET UNITYSDK_OFFSET(0x106793C0)
-#define EMISSIONOPERATION__CTOR_OFFSET UNITYSDK_OFFSET(0x106793A0)
+#define EMISSIONOPERATION_METHOD_3_2FE10362D7B73426_OFFSET UNITYSDK_OFFSET(0x155D89A0)
+#define EMISSIONOPERATION_METHOD_3_6454AD7212B2C6DE_1_OFFSET UNITYSDK_OFFSET(0x155D85D0)
+#define EMISSIONOPERATION_METHOD_3_6454AD7212B2C6DE_OFFSET UNITYSDK_OFFSET(0x155D81F0)
+#define EMISSIONOPERATION_METHOD_3_7FC1C5EEA9D38187_OFFSET UNITYSDK_OFFSET(0x155D89F0)
+#define EMISSIONOPERATION_METHOD_3_A1D8CD775DEC3C21_OFFSET UNITYSDK_OFFSET(0x155D88D0)
+#define EMISSIONOPERATION_METHOD_3_A4A57157C453DC3A_OFFSET UNITYSDK_OFFSET(0x155D84C0)
+#define EMISSIONOPERATION_METHOD_3_F026F9F94BAA5E1F_OFFSET UNITYSDK_OFFSET(0x155D8920)
+#define EMISSIONOPERATION__CCTOR_OFFSET UNITYSDK_OFFSET(0x155D8B30)
+#define EMISSIONOPERATION__CTOR_OFFSET UNITYSDK_OFFSET(0x155D8B10)
 
-inline static constexpr unsigned int EmissionOperation_TypeDefinitionIndex = 47577;
+inline static constexpr unsigned int EmissionOperation_TypeDefinitionIndex = 47117;
 
 class EmissionOperation : public ::FDRIMatStateOperation
 {
 public:
 	static ::System::Int32* StaticGet__EmissionUseCustomData()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(EmissionOperation_TypeDefinitionIndex)->GetStaticField(0x14930);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(EmissionOperation_TypeDefinitionIndex)->GetStaticField(0x10AC0);
 	}
 	::UnityEngine::Color EmissionColor; // 0x20
 	::System::Single EmissionIntensity; // 0x30
@@ -53,5 +57,20 @@ public:
 	::System::Int32 Method_3_A1D8CD775DEC3C21()
 	{
 		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + EMISSIONOPERATION_METHOD_3_A1D8CD775DEC3C21_OFFSET))(this);
+	}
+
+	::System::Int32 Method_3_F026F9F94BAA5E1F()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + EMISSIONOPERATION_METHOD_3_F026F9F94BAA5E1F_OFFSET))(this);
+	}
+
+	::System::Int32 Method_3_2FE10362D7B73426(::FiveDimRenderingItem* a1)
+	{
+		return ((::System::Int32(*)(::PVOID, ::FiveDimRenderingItem*))((::PBYTE)hIl2Cpp + EMISSIONOPERATION_METHOD_3_2FE10362D7B73426_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_3_7FC1C5EEA9D38187(::UnityEngine::Vector4& a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector4&))((::PBYTE)hIl2Cpp + EMISSIONOPERATION_METHOD_3_7FC1C5EEA9D38187_OFFSET))(this, a1);
 	}
 };

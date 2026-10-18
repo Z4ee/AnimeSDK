@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_00F42EF4C596AD0B_METHOD_1_ADF4AD3331B4D7AD_OFFSET UNITYSDK_OFFSET(0x1C51E370)
-#define CLASS_1_00F42EF4C596AD0B__CTOR_OFFSET UNITYSDK_OFFSET(0x1C51E3C0)
+#define CLASS_1_00F42EF4C596AD0B_METHOD_1_ADF4AD3331B4D7AD_OFFSET UNITYSDK_OFFSET(0x1CA00370)
+#define CLASS_1_00F42EF4C596AD0B__CTOR_OFFSET UNITYSDK_OFFSET(0x1CA003C0)
 
-inline static constexpr unsigned int Class_1_00F42EF4C596AD0B_TypeDefinitionIndex = 40495;
+inline static constexpr unsigned int Class_1_00F42EF4C596AD0B_TypeDefinitionIndex = 42097;
 
 class Class_1_00F42EF4C596AD0B : public ::System::Object
 {
 public:
-	::System::Single CNJCEMNOIEB; // 0x10
-	::System::Single CENECBNFGLD; // 0x14
-	::System::Int32 MEPFOEEGBEA; // 0x18
-	::System::Boolean LLOIGOPMMHI; // 0x1C
-	::System::Boolean GCIIENDDJLA; // 0x1D
+	::System::Boolean LLOIGOPMMHI; // 0x10
+	::System::Boolean GCIIENDDJLA; // 0x11
+	::System::Int32 MEPFOEEGBEA; // 0x14
+	::System::Single CENECBNFGLD; // 0x18
+	::System::Single CNJCEMNOIEB; // 0x1C
 
 	::System::Void _ctor()
 	{

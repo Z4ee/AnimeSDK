@@ -1,0 +1,46 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Sofa/Core/ObservableObject.h"
+
+#define RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTTALENTPOINTPHASEVIEWMODEL_GET_ISUNLOCKED_OFFSET UNITYSDK_OFFSET(0xD67D710)
+#define RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTTALENTPOINTPHASEVIEWMODEL_GET_REQUIREDWORKSHOPLEVEL_OFFSET UNITYSDK_OFFSET(0xD67D6F0)
+#define RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTTALENTPOINTPHASEVIEWMODEL_SET_ISUNLOCKED_OFFSET UNITYSDK_OFFSET(0xD67D750)
+#define RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTTALENTPOINTPHASEVIEWMODEL_SET_REQUIREDWORKSHOPLEVEL_OFFSET UNITYSDK_OFFSET(0xD67D700)
+#define RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTTALENTPOINTPHASEVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xD67D7C0)
+
+namespace RPG::Client::MechCraft::ViewModel
+{
+	inline static constexpr unsigned int MechCraftTalentPointPhaseViewModel_TypeDefinitionIndex = 79764;
+
+	class MechCraftTalentPointPhaseViewModel : public ::Sofa::Core::ObservableObject
+	{
+	public:
+		::System::Boolean _IsUnlocked; // 0x18
+		::System::UInt32 _RequiredWorkshopLevel_k__BackingField; // 0x1C
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTTALENTPOINTPHASEVIEWMODEL__CTOR_OFFSET))(this);
+		}
+
+		::System::UInt32 get_RequiredWorkshopLevel()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTTALENTPOINTPHASEVIEWMODEL_GET_REQUIREDWORKSHOPLEVEL_OFFSET))(this);
+		}
+
+		::System::Void set_RequiredWorkshopLevel(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTTALENTPOINTPHASEVIEWMODEL_SET_REQUIREDWORKSHOPLEVEL_OFFSET))(this, a1);
+		}
+
+		::System::Boolean get_IsUnlocked()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTTALENTPOINTPHASEVIEWMODEL_GET_ISUNLOCKED_OFFSET))(this);
+		}
+
+		::System::Void set_IsUnlocked(::System::Boolean a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTTALENTPOINTPHASEVIEWMODEL_SET_ISUNLOCKED_OFFSET))(this, a1);
+		}
+	};
+}

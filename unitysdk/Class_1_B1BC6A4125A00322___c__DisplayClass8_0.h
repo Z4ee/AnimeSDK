@@ -5,16 +5,16 @@
 class Class_1_B1BC6A4125A00322;
 namespace System { class String; }
 
-#define CLASS_1_B1BC6A4125A00322___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x198AA700)
-#define CLASS_1_B1BC6A4125A00322___C__DISPLAYCLASS8_0__SETTIMEOUT_B__0_OFFSET UNITYSDK_OFFSET(0x198ABD70)
+#define CLASS_1_B1BC6A4125A00322___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB4A1AB0)
+#define CLASS_1_B1BC6A4125A00322___C__DISPLAYCLASS8_0__SETTIMEOUT_B__0_OFFSET UNITYSDK_OFFSET(0xB4A3120)
 
-inline static constexpr unsigned int Class_1_B1BC6A4125A00322___c__DisplayClass8_0_TypeDefinitionIndex = 49627;
+inline static constexpr unsigned int Class_1_B1BC6A4125A00322___c__DisplayClass8_0_TypeDefinitionIndex = 49201;
 
 class Class_1_B1BC6A4125A00322___c__DisplayClass8_0 : public ::System::Object
 {
 public:
-	::System::String* info; // 0x10
-	::Class_1_B1BC6A4125A00322* __4__this; // 0x18
+	::Class_1_B1BC6A4125A00322* __4__this; // 0x10
+	::System::String* info; // 0x18
 
 	::System::Void _ctor()
 	{

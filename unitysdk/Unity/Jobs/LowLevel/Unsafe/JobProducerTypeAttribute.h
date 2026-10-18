@@ -4,11 +4,11 @@
 
 namespace System { class Type; }
 
-#define UNITY_JOBS_LOWLEVEL_UNSAFE_JOBPRODUCERTYPEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E1E0830)
+#define UNITY_JOBS_LOWLEVEL_UNSAFE_JOBPRODUCERTYPEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F39E8A0)
 
 namespace Unity::Jobs::LowLevel::Unsafe
 {
-	inline static constexpr unsigned int JobProducerTypeAttribute_TypeDefinitionIndex = 3962;
+	inline static constexpr unsigned int JobProducerTypeAttribute_TypeDefinitionIndex = 3963;
 
 	class JobProducerTypeAttribute : public ::System::Attribute
 	{

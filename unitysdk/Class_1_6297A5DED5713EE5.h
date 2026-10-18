@@ -7,20 +7,20 @@ class Class_1_0EF1FE815B5E0EF7;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_6297A5DED5713EE5__CTOR_OFFSET UNITYSDK_OFFSET(0x18238320)
+#define CLASS_1_6297A5DED5713EE5__CTOR_OFFSET UNITYSDK_OFFSET(0x154B5550)
 
-inline static constexpr unsigned int Class_1_6297A5DED5713EE5_TypeDefinitionIndex = 61188;
+inline static constexpr unsigned int Class_1_6297A5DED5713EE5_TypeDefinitionIndex = 61093;
 
 class Class_1_6297A5DED5713EE5 : public ::System::Object
 {
 public:
-	::Class_1_0EF1FE815B5E0EF7* OHIPGNMJDGG; // 0x10
-	::System::Collections::Generic::List_1<::System::String*>* JEGAGKHJACD; // 0x18
-	::System::String* JHFIFEGLDEC; // 0x20
-	::System::String* AABNPBGMOFN; // 0x28
-	::System::String* NJIAFHIPAFO; // 0x30
-	::System::String* BFHFGLBKHDH; // 0x38
-	::System::String* PHJMDBNHNBH; // 0x40
+	::System::String* BFHFGLBKHDH; // 0x10
+	::System::String* PHJMDBNHNBH; // 0x18
+	::System::String* NJIAFHIPAFO; // 0x20
+	::Class_1_0EF1FE815B5E0EF7* OHIPGNMJDGG; // 0x28
+	::System::String* JHFIFEGLDEC; // 0x30
+	::System::Collections::Generic::List_1<::System::String*>* JEGAGKHJACD; // 0x38
+	::System::String* AABNPBGMOFN; // 0x40
 	::System::Nullable_1<::System::Boolean> ENENJJENNOL; // 0x48
 
 	::System::Void _ctor()

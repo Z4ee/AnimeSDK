@@ -3,20 +3,20 @@
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
 
 class Class_1_7A22A3DBEEDD1F80;
-namespace RPG::GameCore { class FiveDimDynamicVar; }
+namespace RPG::GameCore { class LittleGameDynamicVar; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIVEDIMSIDEPUZZLECONFIG_METHOD_2_BA7D430F748B6CF7_OFFSET UNITYSDK_OFFSET(0x1D87AD70)
-#define RPG_GAMECORE_FIVEDIMSIDEPUZZLECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D87AF10)
+#define RPG_GAMECORE_FIVEDIMSIDEPUZZLECONFIG_METHOD_2_BA7D430F748B6CF7_OFFSET UNITYSDK_OFFSET(0x1D6AE150)
+#define RPG_GAMECORE_FIVEDIMSIDEPUZZLECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6AE2F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimSidePuzzleConfig_TypeDefinitionIndex = 18347;
+	inline static constexpr unsigned int FiveDimSidePuzzleConfig_TypeDefinitionIndex = 18562;
 
 	class FiveDimSidePuzzleConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:
-		::RPG::GameCore::FiveDimDynamicVar* PuzzleStateLevelVar; // 0x10
+		::RPG::GameCore::LittleGameDynamicVar* PuzzleStateLevelVar; // 0x10
 		::System::String* SkillIconNode; // 0x18
 		::System::String* PuzzleIconNode; // 0x20
 		::System::String* ChestIconNode; // 0x28

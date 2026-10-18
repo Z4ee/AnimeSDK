@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK::HoYoUI
 {
-	inline static constexpr unsigned int ImageStretchMode_TypeDefinitionIndex = 47181;
+	inline static constexpr unsigned int ImageStretchMode_TypeDefinitionIndex = 46721;
 
 	enum class ImageStretchMode : ::System::Int32
 	{

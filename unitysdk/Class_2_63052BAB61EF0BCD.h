@@ -8,31 +8,31 @@ class Class_2_38BE07B1D66262C2;
 class Class_2_792B76992050D353;
 namespace RPG::Client::Prop { class ChimeraDuelNpcModelView; }
 
-#define CLASS_2_63052BAB61EF0BCD_METHOD_2_28EB11670A8E5A86_OFFSET UNITYSDK_OFFSET(0x17941CF0)
-#define CLASS_2_63052BAB61EF0BCD_METHOD_2_D43B99F9545128F5_OFFSET UNITYSDK_OFFSET(0x17941F20)
-#define CLASS_2_63052BAB61EF0BCD__CCTOR_OFFSET UNITYSDK_OFFSET(0x17942540)
-#define CLASS_2_63052BAB61EF0BCD__CTOR_OFFSET UNITYSDK_OFFSET(0x17941CE0)
+#define CLASS_2_63052BAB61EF0BCD_METHOD_2_28EB11670A8E5A86_OFFSET UNITYSDK_OFFSET(0x154F2720)
+#define CLASS_2_63052BAB61EF0BCD_METHOD_2_D43B99F9545128F5_OFFSET UNITYSDK_OFFSET(0x154F2950)
+#define CLASS_2_63052BAB61EF0BCD__CCTOR_OFFSET UNITYSDK_OFFSET(0x154F2F70)
+#define CLASS_2_63052BAB61EF0BCD__CTOR_OFFSET UNITYSDK_OFFSET(0x154F2710)
 
-inline static constexpr unsigned int Class_2_63052BAB61EF0BCD_TypeDefinitionIndex = 77783;
+inline static constexpr unsigned int Class_2_63052BAB61EF0BCD_TypeDefinitionIndex = 78254;
 
 class Class_2_63052BAB61EF0BCD : public ::Class_1_FD611945730E269E
 {
 public:
-	static ::System::Int32* StaticGet_CEMIJHIHOEN()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_2_63052BAB61EF0BCD_TypeDefinitionIndex)->GetStaticField(0x13BA0);
-	}
 	static ::System::Int32* StaticGet_HEOKJKOGNBK()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_2_63052BAB61EF0BCD_TypeDefinitionIndex)->GetStaticField(0x13BA4);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_2_63052BAB61EF0BCD_TypeDefinitionIndex)->GetStaticField(0xABB0);
 	}
-	::Class_2_792B76992050D353* MKKLHFCCCNF; // 0x18
-	::RPG::Client::Prop::ChimeraDuelNpcModelView* ILAJEHHAPBD; // 0x20
-	::Class_2_38BE07B1D66262C2* EEFMDEHLLFI; // 0x28
-	::System::Single FOMCKBAHCFM; // 0x30
-	::UnityEngine::Vector3 OIMMGKNHKOA; // 0x34
-	::UnityEngine::Quaternion HBAIICJGPGC; // 0x40
-	::System::Boolean CMPCNMBHDBE; // 0x50
+	static ::System::Int32* StaticGet_CEMIJHIHOEN()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_2_63052BAB61EF0BCD_TypeDefinitionIndex)->GetStaticField(0xABB4);
+	}
+	::Class_2_38BE07B1D66262C2* EEFMDEHLLFI; // 0x18
+	::Class_2_792B76992050D353* MKKLHFCCCNF; // 0x20
+	::RPG::Client::Prop::ChimeraDuelNpcModelView* ILAJEHHAPBD; // 0x28
+	::UnityEngine::Vector3 OIMMGKNHKOA; // 0x30
+	::UnityEngine::Quaternion HBAIICJGPGC; // 0x3C
+	::System::Boolean CMPCNMBHDBE; // 0x4C
+	::System::Single FOMCKBAHCFM; // 0x50
 	::System::Single ANIPBKCEANB; // 0x54
 
 	::System::Void _ctor(::Class_2_792B76992050D353* a1, ::Class_2_38BE07B1D66262C2* a2)

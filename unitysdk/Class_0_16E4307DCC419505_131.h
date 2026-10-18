@@ -1,11 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Quaternion.h"
-#include "unitysdk/UnityEngine/Vector3.h"
+#include "unitysdk/Class_0_16E4307DCC419505_131_Struct_2_B9CEE00E07603401.h"
+#include "unitysdk/RPG/Client/MechCraft/MechCraftAttributeType.h"
+#include "unitysdk/RPG/Client/MechCraft/MechCraftPartType.h"
 
-namespace UnityEngine { class Transform; }
+namespace System { class String; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_131_TypeDefinitionIndex = 40467;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_131_TypeDefinitionIndex = 41693;
 
 class Class_0_16E4307DCC419505_131
 {

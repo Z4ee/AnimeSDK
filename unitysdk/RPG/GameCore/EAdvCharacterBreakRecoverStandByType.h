@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EAdvCharacterBreakRecoverStandByType_TypeDefinitionIndex = 10496;
+	inline static constexpr unsigned int EAdvCharacterBreakRecoverStandByType_TypeDefinitionIndex = 10512;
 
 	enum class EAdvCharacterBreakRecoverStandByType : ::System::Int32
 	{

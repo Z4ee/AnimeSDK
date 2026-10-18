@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_43BD383C98B4C0C5_181.h"
+#include "unitysdk/Class_1_43BD383C98B4C0C5_182.h"
 #include "unitysdk/Cysharp/Threading/Tasks/UniTaskVoid.h"
 #include "unitysdk/Cysharp/Threading/Tasks/UniTask_1.h"
 #include "unitysdk/RPG/Client/PacketSendResult_1.h"
@@ -15,10 +15,10 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PendingRspEntry_1_TypeDefinitionIndex = 69371;
+	inline static constexpr unsigned int PendingRspEntry_1_TypeDefinitionIndex = 69407;
 
 	template <typename TRsp>
-	class PendingRspEntry_1 : public ::Class_1_43BD383C98B4C0C5_181
+	class PendingRspEntry_1 : public ::Class_1_43BD383C98B4C0C5_182
 	{
 	public:
 		static ::System::UInt16* StaticGet_s_RspCmdID()

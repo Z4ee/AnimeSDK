@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace UnityEngine { class RuntimeAnimatorController; }
 
-#define RPG_CLIENT_OVERRIDECONTROLLERSWITCHER_CONTROLLERWITHNAME__CTOR_OFFSET UNITYSDK_OFFSET(0x191FE3B0)
+#define RPG_CLIENT_OVERRIDECONTROLLERSWITCHER_CONTROLLERWITHNAME__CTOR_OFFSET UNITYSDK_OFFSET(0xDA11E90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int OverrideControllerSwitcher_ControllerWithName_TypeDefinitionIndex = 68602;
+	inline static constexpr unsigned int OverrideControllerSwitcher_ControllerWithName_TypeDefinitionIndex = 68636;
 
 	class OverrideControllerSwitcher_ControllerWithName : public ::System::Object
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::Client::PixAir
 {
-	inline static constexpr unsigned int PixAirPlaneStatus_TypeDefinitionIndex = 78887;
+	inline static constexpr unsigned int PixAirPlaneStatus_TypeDefinitionIndex = 79368;
 
 	enum class PixAirPlaneStatus : ::System::Int32
 	{

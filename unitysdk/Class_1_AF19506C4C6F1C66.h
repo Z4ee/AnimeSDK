@@ -1,19 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Struct_2_52A902145F5BE513.h"
+#include "unitysdk/Struct_2_52A902145F5BE513_1.h"
 #include "unitysdk/System/Object.h"
 
 namespace RPG::GameCore { class BaseScrollGameConfig; }
 
-#define CLASS_1_AF19506C4C6F1C66__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA9CFD0)
+#define CLASS_1_AF19506C4C6F1C66__CTOR_OFFSET UNITYSDK_OFFSET(0x1C8E0DC0)
 
-inline static constexpr unsigned int Class_1_AF19506C4C6F1C66_TypeDefinitionIndex = 41744;
+inline static constexpr unsigned int Class_1_AF19506C4C6F1C66_TypeDefinitionIndex = 43386;
 
 class Class_1_AF19506C4C6F1C66 : public ::System::Object
 {
 public:
 	::RPG::GameCore::BaseScrollGameConfig* EABKOHGCHFP; // 0x10
-	::Struct_2_52A902145F5BE513 NPAOBGDKLHB; // 0x18
+	::Struct_2_52A902145F5BE513_1 NPAOBGDKLHB; // 0x18
 
 	::System::Void _ctor()
 	{

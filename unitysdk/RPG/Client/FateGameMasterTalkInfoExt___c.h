@@ -5,24 +5,24 @@
 namespace RPG::Client { class FateGameMasterTalkInfoItem; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_FATEGAMEMASTERTALKINFOEXT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C18B5C0)
-#define RPG_CLIENT_FATEGAMEMASTERTALKINFOEXT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1C18B600)
-#define RPG_CLIENT_FATEGAMEMASTERTALKINFOEXT___C__GETRANDOMITEMSONOVERVIEWPAGE_B__1_0_OFFSET UNITYSDK_OFFSET(0x1C18B610)
+#define RPG_CLIENT_FATEGAMEMASTERTALKINFOEXT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xCE8F470)
+#define RPG_CLIENT_FATEGAMEMASTERTALKINFOEXT___C__CTOR_OFFSET UNITYSDK_OFFSET(0xCE8F4B0)
+#define RPG_CLIENT_FATEGAMEMASTERTALKINFOEXT___C__GETRANDOMITEMSONOVERVIEWPAGE_B__1_0_OFFSET UNITYSDK_OFFSET(0xCE8F4C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FateGameMasterTalkInfoExt___c_TypeDefinitionIndex = 64168;
+	inline static constexpr unsigned int FateGameMasterTalkInfoExt___c_TypeDefinitionIndex = 64106;
 
 	class FateGameMasterTalkInfoExt___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::FateGameMasterTalkInfoExt___c** StaticGet___9()
-		{
-			return (::RPG::Client::FateGameMasterTalkInfoExt___c**)Il2CppClass::FromTypeDefinitionIndex(FateGameMasterTalkInfoExt___c_TypeDefinitionIndex)->GetStaticField(0x65280);
-		}
 		static ::System::Func_2<::RPG::Client::FateGameMasterTalkInfoItem*, ::System::Boolean>** StaticGet___9__1_0()
 		{
-			return (::System::Func_2<::RPG::Client::FateGameMasterTalkInfoItem*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(FateGameMasterTalkInfoExt___c_TypeDefinitionIndex)->GetStaticField(0x65288);
+			return (::System::Func_2<::RPG::Client::FateGameMasterTalkInfoItem*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(FateGameMasterTalkInfoExt___c_TypeDefinitionIndex)->GetStaticField(0x4D320);
+		}
+		static ::RPG::Client::FateGameMasterTalkInfoExt___c** StaticGet___9()
+		{
+			return (::RPG::Client::FateGameMasterTalkInfoExt___c**)Il2CppClass::FromTypeDefinitionIndex(FateGameMasterTalkInfoExt___c_TypeDefinitionIndex)->GetStaticField(0x4D328);
 		}
 
 		static ::System::Void _cctor()

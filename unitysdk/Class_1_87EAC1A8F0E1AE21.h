@@ -3,16 +3,16 @@
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_87EAC1A8F0E1AE21__CTOR_OFFSET UNITYSDK_OFFSET(0x163D1740)
+#define CLASS_1_87EAC1A8F0E1AE21__CTOR_OFFSET UNITYSDK_OFFSET(0xC2000B0)
 
-inline static constexpr unsigned int Class_1_87EAC1A8F0E1AE21_TypeDefinitionIndex = 69396;
+inline static constexpr unsigned int Class_1_87EAC1A8F0E1AE21_TypeDefinitionIndex = 69432;
 
 class Class_1_87EAC1A8F0E1AE21 : public ::System::Object
 {
 public:
-	::System::Int32 IGOIDKOLPMO; // 0x10
-	::System::Single EDKJKBENBBL; // 0x14
-	::RPG::Client::TextID KBEPAIAFLHL; // 0x18
+	::RPG::Client::TextID KBEPAIAFLHL; // 0x10
+	::System::Int32 IGOIDKOLPMO; // 0x20
+	::System::Single EDKJKBENBBL; // 0x24
 
 	::System::Void _ctor()
 	{

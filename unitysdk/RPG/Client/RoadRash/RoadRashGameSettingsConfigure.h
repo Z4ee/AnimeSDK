@@ -11,11 +11,11 @@ namespace RPG::Client::RoadRash { class MonoRoadRashGameCar; }
 namespace RPG::Client::RoadRash { class RoadRashGameSettingsConfigure_AICarConfig; }
 namespace RPG::Client::RoadRash { class RoadRashGameSettingsConfigure_RoadRashTREventDetectorConfig; }
 
-#define RPG_CLIENT_ROADRASH_ROADRASHGAMESETTINGSCONFIGURE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC6B550)
+#define RPG_CLIENT_ROADRASH_ROADRASHGAMESETTINGSCONFIGURE__CTOR_OFFSET UNITYSDK_OFFSET(0xDEDBAD0)
 
 namespace RPG::Client::RoadRash
 {
-	inline static constexpr unsigned int RoadRashGameSettingsConfigure_TypeDefinitionIndex = 75479;
+	inline static constexpr unsigned int RoadRashGameSettingsConfigure_TypeDefinitionIndex = 75894;
 
 	class RoadRashGameSettingsConfigure : public ::UnityEngine::ScriptableObject
 	{

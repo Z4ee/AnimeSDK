@@ -1,0 +1,75 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_FF34D7C26BF683C5_ContentType.h"
+#include "unitysdk/RPG/Client/TextID.h"
+#include "unitysdk/UnityEngine/MonoBehaviour.h"
+
+class Class_1_AF79CD6062632116;
+class Class_1_FF34D7C26BF683C5;
+namespace RPG::Client { class LocalizedText; }
+namespace System { class IDisposable; }
+namespace System { class String; }
+namespace UnityEngine { class Animation; }
+
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTEDITERRORHINTCONTROL_GET_CONTENT_OFFSET UNITYSDK_OFFSET(0xD611440)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTEDITERRORHINTCONTROL_METHOD_5_3B10EBB5408EF02E_OFFSET UNITYSDK_OFFSET(0xD6115D0)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTEDITERRORHINTCONTROL_METHOD_5_6B69D75EC85CB83E_OFFSET UNITYSDK_OFFSET(0xD611840)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTEDITERRORHINTCONTROL_METHOD_5_B9DF9B407FAC57E9_OFFSET UNITYSDK_OFFSET(0xD611480)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTEDITERRORHINTCONTROL_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xD6117B0)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTEDITERRORHINTCONTROL_SET_CONTENT_OFFSET UNITYSDK_OFFSET(0xD60D2A0)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTEDITERRORHINTCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0xD6119D0)
+
+namespace RPG::Client::MechCraft::View
+{
+	inline static constexpr unsigned int MechCraftCraftEditErrorHintControl_TypeDefinitionIndex = 79877;
+
+	class MechCraftCraftEditErrorHintControl : public ::UnityEngine::MonoBehaviour
+	{
+	public:
+		::Class_1_FF34D7C26BF683C5* LFGMLJCCPCH; // 0x18
+		::System::IDisposable* GLJKCIFADHM; // 0x20
+		::RPG::Client::LocalizedText* _Text; // 0x28
+		::RPG::Client::TextID _TextIDDiscouraged; // 0x30
+		::RPG::Client::TextID _TextIDCoveringBanned; // 0x40
+		::RPG::Client::TextID _TextIDOverOverlapped; // 0x50
+		::UnityEngine::Animation* _Anim; // 0x60
+		::System::String* _AnimNameFadeIn; // 0x68
+		::System::String* _AnimNameFadeOut; // 0x70
+		::Class_1_AF79CD6062632116* MHDKFLLGCFH; // 0x78
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTEDITERRORHINTCONTROL__CTOR_OFFSET))(this);
+		}
+
+		::Class_1_FF34D7C26BF683C5* get_Content()
+		{
+			return ((::Class_1_FF34D7C26BF683C5*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTEDITERRORHINTCONTROL_GET_CONTENT_OFFSET))(this);
+		}
+
+		::System::Void set_Content(::Class_1_FF34D7C26BF683C5* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_FF34D7C26BF683C5*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTEDITERRORHINTCONTROL_SET_CONTENT_OFFSET))(this, a1);
+		}
+
+		::System::Void OnDestroy()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTEDITERRORHINTCONTROL_ONDESTROY_OFFSET))(this);
+		}
+
+		::System::Void Method_5_3B10EBB5408EF02E(::Class_1_FF34D7C26BF683C5* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_FF34D7C26BF683C5*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTEDITERRORHINTCONTROL_METHOD_5_3B10EBB5408EF02E_OFFSET))(this, a1);
+		}
+
+		::System::Void Method_5_B9DF9B407FAC57E9(::Class_1_FF34D7C26BF683C5* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_FF34D7C26BF683C5*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTEDITERRORHINTCONTROL_METHOD_5_B9DF9B407FAC57E9_OFFSET))(this, a1);
+		}
+
+		::System::Void Method_5_6B69D75EC85CB83E(::Class_1_FF34D7C26BF683C5_ContentType a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_FF34D7C26BF683C5_ContentType))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTEDITERRORHINTCONTROL_METHOD_5_6B69D75EC85CB83E_OFFSET))(this, a1);
+		}
+	};
+}

@@ -6,24 +6,24 @@
 namespace RPG::Client::ActivityIdleLive { class IdleLiveAvatarTagConfig; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEAVATARCONFIG___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B90D370)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEAVATARCONFIG___C__CREATE_B__0_0_OFFSET UNITYSDK_OFFSET(0x1B90D3C0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEAVATARCONFIG___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B90D3B0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEAVATARCONFIG___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC455380)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEAVATARCONFIG___C__CREATE_B__0_0_OFFSET UNITYSDK_OFFSET(0xC4553D0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEAVATARCONFIG___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC4553C0)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveAvatarConfig___c_TypeDefinitionIndex = 74769;
+	inline static constexpr unsigned int IdleLiveAvatarConfig___c_TypeDefinitionIndex = 75069;
 
 	class IdleLiveAvatarConfig___c : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::ActivityIdleLive::IdleLiveAvatarConfig___c** StaticGet___9()
 		{
-			return (::RPG::Client::ActivityIdleLive::IdleLiveAvatarConfig___c**)Il2CppClass::FromTypeDefinitionIndex(IdleLiveAvatarConfig___c_TypeDefinitionIndex)->GetStaticField(0x56D20);
+			return (::RPG::Client::ActivityIdleLive::IdleLiveAvatarConfig___c**)Il2CppClass::FromTypeDefinitionIndex(IdleLiveAvatarConfig___c_TypeDefinitionIndex)->GetStaticField(0x1C590);
 		}
 		static ::System::Func_2<::RPG::GameCore::ILBattleAvatarTag, ::RPG::Client::ActivityIdleLive::IdleLiveAvatarTagConfig*>** StaticGet___9__0_0()
 		{
-			return (::System::Func_2<::RPG::GameCore::ILBattleAvatarTag, ::RPG::Client::ActivityIdleLive::IdleLiveAvatarTagConfig*>**)Il2CppClass::FromTypeDefinitionIndex(IdleLiveAvatarConfig___c_TypeDefinitionIndex)->GetStaticField(0x56D28);
+			return (::System::Func_2<::RPG::GameCore::ILBattleAvatarTag, ::RPG::Client::ActivityIdleLive::IdleLiveAvatarTagConfig*>**)Il2CppClass::FromTypeDefinitionIndex(IdleLiveAvatarConfig___c_TypeDefinitionIndex)->GetStaticField(0x1C598);
 		}
 
 		static ::System::Void _cctor()

@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_CLOCKPARKBUFFTYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D994E60)
-#define RPG_GAMECORE_CLOCKPARKBUFFTYPEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D9950D0)
+#define RPG_GAMECORE_CLOCKPARKBUFFTYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D58C5E0)
+#define RPG_GAMECORE_CLOCKPARKBUFFTYPEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D58C850)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ClockParkBuffTypeRow_TypeDefinitionIndex = 11170;
+	inline static constexpr unsigned int ClockParkBuffTypeRow_TypeDefinitionIndex = 11186;
 
 	class ClockParkBuffTypeRow : public ::System::Object
 	{

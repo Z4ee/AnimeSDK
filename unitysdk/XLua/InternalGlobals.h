@@ -12,48 +12,48 @@ namespace XLua { class InternalGlobals_TryArraySet; }
 namespace XLua { class ObjectTranslatorPool; }
 namespace XLua::LuaDLL { class lua_CSFunction; }
 
-#define XLUA_INTERNALGLOBALS_INITEXTENSIONMETHODS_00_OFFSET UNITYSDK_OFFSET(0x12B19960)
-#define XLUA_INTERNALGLOBALS__CCTOR_OFFSET UNITYSDK_OFFSET(0x12B191D0)
-#define XLUA_INTERNALGLOBALS__CTOR_OFFSET UNITYSDK_OFFSET(0x12B1F9C0)
+#define XLUA_INTERNALGLOBALS_INITEXTENSIONMETHODS_00_OFFSET UNITYSDK_OFFSET(0x14D98950)
+#define XLUA_INTERNALGLOBALS__CCTOR_OFFSET UNITYSDK_OFFSET(0x14D981C0)
+#define XLUA_INTERNALGLOBALS__CTOR_OFFSET UNITYSDK_OFFSET(0x14DA1D70)
 
 namespace XLua
 {
-	inline static constexpr unsigned int InternalGlobals_TypeDefinitionIndex = 50466;
+	inline static constexpr unsigned int InternalGlobals_TypeDefinitionIndex = 50095;
 
 	class InternalGlobals : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::Byte>** StaticGet_strBuff()
-		{
-			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(InternalGlobals_TypeDefinitionIndex)->GetStaticField(0x65980);
-		}
-		static ::XLua::ObjectTranslatorPool** StaticGet_objectTranslatorPool()
-		{
-			return (::XLua::ObjectTranslatorPool**)Il2CppClass::FromTypeDefinitionIndex(InternalGlobals_TypeDefinitionIndex)->GetStaticField(0x65988);
-		}
-		static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Collections::Generic::IEnumerable_1<::System::Reflection::MethodInfo*>*>** StaticGet_extensionMethodMap()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Collections::Generic::IEnumerable_1<::System::Reflection::MethodInfo*>*>**)Il2CppClass::FromTypeDefinitionIndex(InternalGlobals_TypeDefinitionIndex)->GetStaticField(0x65990);
-		}
 		static ::XLua::InternalGlobals_TryArraySet** StaticGet_genTryArraySetPtr()
 		{
-			return (::XLua::InternalGlobals_TryArraySet**)Il2CppClass::FromTypeDefinitionIndex(InternalGlobals_TypeDefinitionIndex)->GetStaticField(0x65998);
+			return (::XLua::InternalGlobals_TryArraySet**)Il2CppClass::FromTypeDefinitionIndex(InternalGlobals_TypeDefinitionIndex)->GetStaticField(0x40080);
 		}
-		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>** StaticGet_supportOp()
+		static ::Il2CppArray<::System::Byte>** StaticGet_strBuff()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(InternalGlobals_TypeDefinitionIndex)->GetStaticField(0x659A0);
+			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(InternalGlobals_TypeDefinitionIndex)->GetStaticField(0x40088);
 		}
 		static ::XLua::InternalGlobals_TryArrayGet** StaticGet_genTryArrayGetPtr()
 		{
-			return (::XLua::InternalGlobals_TryArrayGet**)Il2CppClass::FromTypeDefinitionIndex(InternalGlobals_TypeDefinitionIndex)->GetStaticField(0x659A8);
+			return (::XLua::InternalGlobals_TryArrayGet**)Il2CppClass::FromTypeDefinitionIndex(InternalGlobals_TypeDefinitionIndex)->GetStaticField(0x40090);
+		}
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>** StaticGet_supportOp()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(InternalGlobals_TypeDefinitionIndex)->GetStaticField(0x40098);
+		}
+		static ::XLua::ObjectTranslatorPool** StaticGet_objectTranslatorPool()
+		{
+			return (::XLua::ObjectTranslatorPool**)Il2CppClass::FromTypeDefinitionIndex(InternalGlobals_TypeDefinitionIndex)->GetStaticField(0x400A0);
 		}
 		static ::XLua::LuaDLL::lua_CSFunction** StaticGet_LazyReflectionWrap()
 		{
-			return (::XLua::LuaDLL::lua_CSFunction**)Il2CppClass::FromTypeDefinitionIndex(InternalGlobals_TypeDefinitionIndex)->GetStaticField(0x659B0);
+			return (::XLua::LuaDLL::lua_CSFunction**)Il2CppClass::FromTypeDefinitionIndex(InternalGlobals_TypeDefinitionIndex)->GetStaticField(0x400A8);
+		}
+		static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Collections::Generic::IEnumerable_1<::System::Reflection::MethodInfo*>*>** StaticGet_extensionMethodMap()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Collections::Generic::IEnumerable_1<::System::Reflection::MethodInfo*>*>**)Il2CppClass::FromTypeDefinitionIndex(InternalGlobals_TypeDefinitionIndex)->GetStaticField(0x400B0);
 		}
 		static ::System::Int32* StaticGet_LUA_REGISTRYINDEX()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(InternalGlobals_TypeDefinitionIndex)->GetStaticField(0x150A0);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(InternalGlobals_TypeDefinitionIndex)->GetStaticField(0xF2C0);
 		}
 
 		static ::System::Void _cctor()

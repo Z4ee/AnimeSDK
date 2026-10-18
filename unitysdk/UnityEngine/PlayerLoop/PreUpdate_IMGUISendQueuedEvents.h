@@ -4,7 +4,7 @@
 
 namespace UnityEngine::PlayerLoop
 {
-	inline static constexpr unsigned int PreUpdate_IMGUISendQueuedEvents_TypeDefinitionIndex = 4597;
+	inline static constexpr unsigned int PreUpdate_IMGUISendQueuedEvents_TypeDefinitionIndex = 4601;
 
 	struct alignas(1) PreUpdate_IMGUISendQueuedEvents
 	{

@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_CHALLENGE_CHALLENGETARGETINFOROWCONTROL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C862BC0)
-#define RPG_CLIENT_CHALLENGE_CHALLENGETARGETINFOROWCONTROL___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1C862C00)
+#define RPG_CLIENT_CHALLENGE_CHALLENGETARGETINFOROWCONTROL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC939B70)
+#define RPG_CLIENT_CHALLENGE_CHALLENGETARGETINFOROWCONTROL___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC939BB0)
 
 namespace RPG::Client::Challenge
 {
-	inline static constexpr unsigned int ChallengeTargetInfoRowControl___c_TypeDefinitionIndex = 80092;
+	inline static constexpr unsigned int ChallengeTargetInfoRowControl___c_TypeDefinitionIndex = 81420;
 
 	class ChallengeTargetInfoRowControl___c : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::Challenge::ChallengeTargetInfoRowControl___c** StaticGet___9()
 		{
-			return (::RPG::Client::Challenge::ChallengeTargetInfoRowControl___c**)Il2CppClass::FromTypeDefinitionIndex(ChallengeTargetInfoRowControl___c_TypeDefinitionIndex)->GetStaticField(0x1B0F0);
+			return (::RPG::Client::Challenge::ChallengeTargetInfoRowControl___c**)Il2CppClass::FromTypeDefinitionIndex(ChallengeTargetInfoRowControl___c_TypeDefinitionIndex)->GetStaticField(0x69F50);
 		}
 
 		static ::System::Void _cctor()

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/MonoValueEvaluateConfigure_Evaluator.h"
 
-#define RPG_CLIENT_MONOVALUEEVALUATECONFIGURE_FLOATEVALUATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1C299A30)
+#define RPG_CLIENT_MONOVALUEEVALUATECONFIGURE_FLOATEVALUATOR__CTOR_OFFSET UNITYSDK_OFFSET(0xD8763D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoValueEvaluateConfigure_FloatEvaluator_TypeDefinitionIndex = 68595;
+	inline static constexpr unsigned int MonoValueEvaluateConfigure_FloatEvaluator_TypeDefinitionIndex = 68629;
 
 	class MonoValueEvaluateConfigure_FloatEvaluator : public ::RPG::Client::MonoValueEvaluateConfigure_Evaluator
 	{

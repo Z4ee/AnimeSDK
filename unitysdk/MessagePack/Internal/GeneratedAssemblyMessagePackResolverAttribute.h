@@ -4,19 +4,19 @@
 
 namespace System { class Type; }
 
-#define MESSAGEPACK_INTERNAL_GENERATEDASSEMBLYMESSAGEPACKRESOLVERATTRIBUTE_GET_RESOLVERTYPE_OFFSET UNITYSDK_OFFSET(0x166A59A0)
-#define MESSAGEPACK_INTERNAL_GENERATEDASSEMBLYMESSAGEPACKRESOLVERATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x166A5990)
+#define MESSAGEPACK_INTERNAL_GENERATEDASSEMBLYMESSAGEPACKRESOLVERATTRIBUTE_GET_RESOLVERTYPE_OFFSET UNITYSDK_OFFSET(0x1BB86DC0)
+#define MESSAGEPACK_INTERNAL_GENERATEDASSEMBLYMESSAGEPACKRESOLVERATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB86DB0)
 
 namespace MessagePack::Internal
 {
-	inline static constexpr unsigned int GeneratedAssemblyMessagePackResolverAttribute_TypeDefinitionIndex = 7239;
+	inline static constexpr unsigned int GeneratedAssemblyMessagePackResolverAttribute_TypeDefinitionIndex = 7293;
 
 	class GeneratedAssemblyMessagePackResolverAttribute : public ::System::Attribute
 	{
 	public:
 		::System::Type* _ResolverType_k__BackingField; // 0x10
-		::System::Int32 _MajorVersion_k__BackingField; // 0x18
-		::System::Int32 _MinorVersion_k__BackingField; // 0x1C
+		::System::Int32 _MinorVersion_k__BackingField; // 0x18
+		::System::Int32 _MajorVersion_k__BackingField; // 0x1C
 
 		::System::Void _ctor(::System::Type* a1, ::System::Int32 a2, ::System::Int32 a3)
 		{

@@ -3,21 +3,21 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3Int.h"
 
-#define CYSHARP_THREADING_TASKS_INTERNAL_UNITYEQUALITYCOMPARER_VECTOR3INTEQUALITYCOMPARER_EQUALS_OFFSET UNITYSDK_OFFSET(0x1D750BA0)
-#define CYSHARP_THREADING_TASKS_INTERNAL_UNITYEQUALITYCOMPARER_VECTOR3INTEQUALITYCOMPARER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1D750C60)
-#define CYSHARP_THREADING_TASKS_INTERNAL_UNITYEQUALITYCOMPARER_VECTOR3INTEQUALITYCOMPARER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D751360)
-#define CYSHARP_THREADING_TASKS_INTERNAL_UNITYEQUALITYCOMPARER_VECTOR3INTEQUALITYCOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D750930)
+#define CYSHARP_THREADING_TASKS_INTERNAL_UNITYEQUALITYCOMPARER_VECTOR3INTEQUALITYCOMPARER_EQUALS_OFFSET UNITYSDK_OFFSET(0x1F0F2890)
+#define CYSHARP_THREADING_TASKS_INTERNAL_UNITYEQUALITYCOMPARER_VECTOR3INTEQUALITYCOMPARER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1F0F2950)
+#define CYSHARP_THREADING_TASKS_INTERNAL_UNITYEQUALITYCOMPARER_VECTOR3INTEQUALITYCOMPARER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F0F3050)
+#define CYSHARP_THREADING_TASKS_INTERNAL_UNITYEQUALITYCOMPARER_VECTOR3INTEQUALITYCOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F0F2620)
 
 namespace Cysharp::Threading::Tasks::Internal
 {
-	inline static constexpr unsigned int UnityEqualityComparer_Vector3IntEqualityComparer_TypeDefinitionIndex = 43100;
+	inline static constexpr unsigned int UnityEqualityComparer_Vector3IntEqualityComparer_TypeDefinitionIndex = 38685;
 
 	class UnityEqualityComparer_Vector3IntEqualityComparer : public ::System::Object
 	{
 	public:
 		static ::Cysharp::Threading::Tasks::Internal::UnityEqualityComparer_Vector3IntEqualityComparer** StaticGet_Default()
 		{
-			return (::Cysharp::Threading::Tasks::Internal::UnityEqualityComparer_Vector3IntEqualityComparer**)Il2CppClass::FromTypeDefinitionIndex(UnityEqualityComparer_Vector3IntEqualityComparer_TypeDefinitionIndex)->GetStaticField(0x61B50);
+			return (::Cysharp::Threading::Tasks::Internal::UnityEqualityComparer_Vector3IntEqualityComparer**)Il2CppClass::FromTypeDefinitionIndex(UnityEqualityComparer_Vector3IntEqualityComparer_TypeDefinitionIndex)->GetStaticField(0x37050);
 		}
 
 		::System::Void _ctor()

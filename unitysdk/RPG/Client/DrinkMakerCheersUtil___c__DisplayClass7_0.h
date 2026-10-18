@@ -4,12 +4,12 @@
 
 namespace System { class Action; }
 
-#define RPG_CLIENT_DRINKMAKERCHEERSUTIL___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A6800B0)
-#define RPG_CLIENT_DRINKMAKERCHEERSUTIL___C__DISPLAYCLASS7_0__PLAYTYPEDPERFORMANCEWITHLOCKINPUT_B__0_OFFSET UNITYSDK_OFFSET(0x1A6801C0)
+#define RPG_CLIENT_DRINKMAKERCHEERSUTIL___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCCE7F90)
+#define RPG_CLIENT_DRINKMAKERCHEERSUTIL___C__DISPLAYCLASS7_0__PLAYTYPEDPERFORMANCEWITHLOCKINPUT_B__0_OFFSET UNITYSDK_OFFSET(0xCCE80A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DrinkMakerCheersUtil___c__DisplayClass7_0_TypeDefinitionIndex = 63691;
+	inline static constexpr unsigned int DrinkMakerCheersUtil___c__DisplayClass7_0_TypeDefinitionIndex = 63629;
 
 	class DrinkMakerCheersUtil___c__DisplayClass7_0 : public ::System::Object
 	{

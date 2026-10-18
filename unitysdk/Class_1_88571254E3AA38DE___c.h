@@ -5,32 +5,32 @@
 namespace RPG::AvatarSystem { class IAvatar; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define CLASS_1_88571254E3AA38DE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A6D7D80)
-#define CLASS_1_88571254E3AA38DE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A6D7DB0)
-#define CLASS_1_88571254E3AA38DE___C__ORDERBYDAMAGETYPE_B__5_0_OFFSET UNITYSDK_OFFSET(0x1A6D7DC0)
-#define CLASS_1_88571254E3AA38DE___C__PREFERHIGHERRARITY_B__7_0_OFFSET UNITYSDK_OFFSET(0x1A6D7E30)
-#define CLASS_1_88571254E3AA38DE___C__PREFERLATERRELEASED_B__6_0_OFFSET UNITYSDK_OFFSET(0x1A6D7DD0)
+#define CLASS_1_88571254E3AA38DE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x155C1710)
+#define CLASS_1_88571254E3AA38DE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x155C1740)
+#define CLASS_1_88571254E3AA38DE___C__ORDERBYDAMAGETYPE_B__5_0_OFFSET UNITYSDK_OFFSET(0x155C1750)
+#define CLASS_1_88571254E3AA38DE___C__PREFERHIGHERRARITY_B__7_0_OFFSET UNITYSDK_OFFSET(0x155C17C0)
+#define CLASS_1_88571254E3AA38DE___C__PREFERLATERRELEASED_B__6_0_OFFSET UNITYSDK_OFFSET(0x155C1760)
 
-inline static constexpr unsigned int Class_1_88571254E3AA38DE___c_TypeDefinitionIndex = 62869;
+inline static constexpr unsigned int Class_1_88571254E3AA38DE___c_TypeDefinitionIndex = 62802;
 
 class Class_1_88571254E3AA38DE___c : public ::System::Object
 {
 public:
 	static ::System::Func_2<::RPG::AvatarSystem::IAvatar*, ::System::Int32>** StaticGet___9__7_0()
 	{
-		return (::System::Func_2<::RPG::AvatarSystem::IAvatar*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_88571254E3AA38DE___c_TypeDefinitionIndex)->GetStaticField(0x64180);
+		return (::System::Func_2<::RPG::AvatarSystem::IAvatar*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_88571254E3AA38DE___c_TypeDefinitionIndex)->GetStaticField(0x43950);
 	}
 	static ::System::Func_2<::RPG::AvatarSystem::IAvatar*, ::System::Int32>** StaticGet___9__6_0()
 	{
-		return (::System::Func_2<::RPG::AvatarSystem::IAvatar*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_88571254E3AA38DE___c_TypeDefinitionIndex)->GetStaticField(0x64188);
+		return (::System::Func_2<::RPG::AvatarSystem::IAvatar*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_88571254E3AA38DE___c_TypeDefinitionIndex)->GetStaticField(0x43958);
 	}
 	static ::System::Func_2<::RPG::AvatarSystem::IAvatar*, ::System::Int32>** StaticGet___9__5_0()
 	{
-		return (::System::Func_2<::RPG::AvatarSystem::IAvatar*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_88571254E3AA38DE___c_TypeDefinitionIndex)->GetStaticField(0x64190);
+		return (::System::Func_2<::RPG::AvatarSystem::IAvatar*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_88571254E3AA38DE___c_TypeDefinitionIndex)->GetStaticField(0x43960);
 	}
 	static ::Class_1_88571254E3AA38DE___c** StaticGet___9()
 	{
-		return (::Class_1_88571254E3AA38DE___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_88571254E3AA38DE___c_TypeDefinitionIndex)->GetStaticField(0x64198);
+		return (::Class_1_88571254E3AA38DE___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_88571254E3AA38DE___c_TypeDefinitionIndex)->GetStaticField(0x43968);
 	}
 
 	static ::System::Void _cctor()

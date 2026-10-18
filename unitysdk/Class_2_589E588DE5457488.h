@@ -8,28 +8,28 @@ class Class_1_F0825ADB8AC159C8;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_2_589E588DE5457488__CTOR_OFFSET UNITYSDK_OFFSET(0x198B67C0)
+#define CLASS_2_589E588DE5457488__CTOR_OFFSET UNITYSDK_OFFSET(0xB7822D0)
 
-inline static constexpr unsigned int Class_2_589E588DE5457488_TypeDefinitionIndex = 57778;
+inline static constexpr unsigned int Class_2_589E588DE5457488_TypeDefinitionIndex = 57624;
 
 class Class_2_589E588DE5457488 : public ::Class_1_1750960FB5F747AB
 {
 public:
 	::System::Collections::Generic::Dictionary_2<::RPG::GameCore::AttackType, ::System::Double>* EKOIOILEJID; // 0x30
-	::System::Collections::Generic::Dictionary_2<::System::String*, ::Class_1_F0825ADB8AC159C8*>* GPEDJCOOAHK; // 0x38
-	::System::Collections::Generic::Dictionary_2<::RPG::GameCore::AttackType, ::System::Double>* KEOOJBHFLFD; // 0x40
-	::System::Collections::Generic::Dictionary_2<::System::String*, ::System::UInt32>* NKBJJKNKEHI; // 0x48
+	::System::Collections::Generic::Dictionary_2<::RPG::GameCore::AttackType, ::System::Double>* KEOOJBHFLFD; // 0x38
+	::System::Collections::Generic::Dictionary_2<::System::String*, ::System::UInt32>* NKBJJKNKEHI; // 0x40
+	::System::Collections::Generic::Dictionary_2<::System::String*, ::Class_1_F0825ADB8AC159C8*>* GPEDJCOOAHK; // 0x48
 	::System::Collections::Generic::Dictionary_2<::RPG::GameCore::AttackType, ::System::Double>* HNJNDLEFMBE; // 0x50
-	::System::Int32 LIMCHBECKPC; // 0x58
-	::System::Int32 MGGOBENBMGI; // 0x5C
-	::RPG::GameCore::FixPoint ENCMPAHMDBN; // 0x60
-	::RPG::GameCore::FixPoint FLDANBDGGLO; // 0x68
-	::RPG::GameCore::FixPoint GKEEIFGGKHJ; // 0x70
-	::System::Int32 CPEINOFIHEI; // 0x78
-	::System::Int32 CJGCEKPOGBF; // 0x7C
-	::RPG::GameCore::FixPoint FLBALEEBHKN; // 0x80
-	::RPG::GameCore::FixPoint OOKAPAKPFGK; // 0x88
-	::RPG::GameCore::FixPoint EAPPECOODMI; // 0x90
+	::RPG::GameCore::FixPoint FLDANBDGGLO; // 0x58
+	::RPG::GameCore::FixPoint FLBALEEBHKN; // 0x60
+	::System::Int32 LIMCHBECKPC; // 0x68
+	::System::Int32 CPEINOFIHEI; // 0x6C
+	::RPG::GameCore::FixPoint OOKAPAKPFGK; // 0x70
+	::RPG::GameCore::FixPoint GKEEIFGGKHJ; // 0x78
+	::RPG::GameCore::FixPoint EAPPECOODMI; // 0x80
+	::RPG::GameCore::FixPoint ENCMPAHMDBN; // 0x88
+	::System::Int32 CJGCEKPOGBF; // 0x90
+	::System::Int32 MGGOBENBMGI; // 0x94
 
 	::System::Void _ctor()
 	{

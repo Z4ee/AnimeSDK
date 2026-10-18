@@ -3,7 +3,7 @@
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int EVRScreenshotError_TypeDefinitionIndex = 37965;
+	inline static constexpr unsigned int EVRScreenshotError_TypeDefinitionIndex = 39262;
 
 	enum class EVRScreenshotError : ::System::Int32
 	{

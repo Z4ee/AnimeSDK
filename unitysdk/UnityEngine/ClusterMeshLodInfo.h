@@ -5,7 +5,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ClusterMeshLodInfo_TypeDefinitionIndex = 4288;
+	inline static constexpr unsigned int ClusterMeshLodInfo_TypeDefinitionIndex = 4291;
 
 	struct alignas(8) ClusterMeshLodInfo
 	{

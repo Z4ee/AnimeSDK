@@ -7,16 +7,16 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define CLASS_1_A10B52E49B18C483_METHOD_1_9A97CC9BA4751B18_OFFSET UNITYSDK_OFFSET(0x1D3488D0)
-#define CLASS_1_A10B52E49B18C483__CTOR_OFFSET UNITYSDK_OFFSET(0x1D348B20)
+#define CLASS_1_A10B52E49B18C483_METHOD_1_9A97CC9BA4751B18_OFFSET UNITYSDK_OFFSET(0x1CD93420)
+#define CLASS_1_A10B52E49B18C483__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD93670)
 
-inline static constexpr unsigned int Class_1_A10B52E49B18C483_TypeDefinitionIndex = 13808;
+inline static constexpr unsigned int Class_1_A10B52E49B18C483_TypeDefinitionIndex = 13915;
 
 class Class_1_A10B52E49B18C483 : public ::System::Object
 {
 public:
-	::System::String* ODLDEEANNCM; // 0x10
-	::System::String* EEIEODMEMFI; // 0x18
+	::System::String* EEIEODMEMFI; // 0x10
+	::System::String* ODLDEEANNCM; // 0x18
 	::RPG::GameCore::LimaoNewsInterviewContentType MMNJODIJPOE; // 0x20
 	::System::UInt32 DFFLADLLADD; // 0x24
 	::RPG::Client::TextID ANECPHCPLPP; // 0x28

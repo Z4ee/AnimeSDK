@@ -7,22 +7,22 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Renderer; }
 
-#define CLASS_1_C427585D3B690B54_METHOD_1_4902E6AECD9F20DD_OFFSET UNITYSDK_OFFSET(0x171078C0)
-#define CLASS_1_C427585D3B690B54__CCTOR_OFFSET UNITYSDK_OFFSET(0x17107A70)
-#define CLASS_1_C427585D3B690B54__CTOR_OFFSET UNITYSDK_OFFSET(0x17107A60)
+#define CLASS_1_C427585D3B690B54_METHOD_1_4902E6AECD9F20DD_OFFSET UNITYSDK_OFFSET(0xBE265A0)
+#define CLASS_1_C427585D3B690B54__CCTOR_OFFSET UNITYSDK_OFFSET(0xBE26750)
+#define CLASS_1_C427585D3B690B54__CTOR_OFFSET UNITYSDK_OFFSET(0xBE26740)
 
-inline static constexpr unsigned int Class_1_C427585D3B690B54_TypeDefinitionIndex = 73790;
+inline static constexpr unsigned int Class_1_C427585D3B690B54_TypeDefinitionIndex = 73897;
 
 class Class_1_C427585D3B690B54 : public ::System::Object
 {
 public:
-	static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::Il2CppArray<::UnityEngine::Material*>*>** StaticGet_AKPBPAGFPCP()
-	{
-		return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::Il2CppArray<::UnityEngine::Material*>*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_C427585D3B690B54_TypeDefinitionIndex)->GetStaticField(0x66F60);
-	}
 	static ::System::Collections::Generic::List_1<::UnityEngine::Renderer*>** StaticGet_HDINMFOOIEK()
 	{
-		return (::System::Collections::Generic::List_1<::UnityEngine::Renderer*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_C427585D3B690B54_TypeDefinitionIndex)->GetStaticField(0x66F68);
+		return (::System::Collections::Generic::List_1<::UnityEngine::Renderer*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_C427585D3B690B54_TypeDefinitionIndex)->GetStaticField(0x5FD70);
+	}
+	static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::Il2CppArray<::UnityEngine::Material*>*>** StaticGet_AKPBPAGFPCP()
+	{
+		return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::Il2CppArray<::UnityEngine::Material*>*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_C427585D3B690B54_TypeDefinitionIndex)->GetStaticField(0x5FD78);
 	}
 
 	::System::Void _ctor()

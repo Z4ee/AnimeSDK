@@ -5,11 +5,11 @@
 
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_BLUSHLOCKEDTRANSFORMENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD903D0)
+#define RPG_CLIENT_BLUSHLOCKEDTRANSFORMENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0xC8A4DF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BlushLockedTransformEntry_TypeDefinitionIndex = 70226;
+	inline static constexpr unsigned int BlushLockedTransformEntry_TypeDefinitionIndex = 70262;
 
 	class BlushLockedTransformEntry : public ::System::Object
 	{

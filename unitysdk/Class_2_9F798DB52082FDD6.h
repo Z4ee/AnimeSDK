@@ -1,16 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_43BD383C98B4C0C5_17.h"
+#include "unitysdk/Class_1_43BD383C98B4C0C5_16.h"
 
 class Class_3_F65294BF89CA0784;
 namespace RPG::GameCore { class DiceCombatAIEffectEvaluatorConfig_DiceRerollCount; }
 
-#define CLASS_2_9F798DB52082FDD6_METHOD_2_861970C5F2C21AB2_OFFSET UNITYSDK_OFFSET(0x1A57D490)
-#define CLASS_2_9F798DB52082FDD6__CTOR_OFFSET UNITYSDK_OFFSET(0x1A57D480)
+#define CLASS_2_9F798DB52082FDD6_METHOD_2_861970C5F2C21AB2_OFFSET UNITYSDK_OFFSET(0x1C5CD020)
+#define CLASS_2_9F798DB52082FDD6__CTOR_OFFSET UNITYSDK_OFFSET(0x1C5CD010)
 
-inline static constexpr unsigned int Class_2_9F798DB52082FDD6_TypeDefinitionIndex = 35532;
+inline static constexpr unsigned int Class_2_9F798DB52082FDD6_TypeDefinitionIndex = 36219;
 
-class Class_2_9F798DB52082FDD6 : public ::Class_1_43BD383C98B4C0C5_17
+class Class_2_9F798DB52082FDD6 : public ::Class_1_43BD383C98B4C0C5_16
 {
 public:
 	::Class_3_F65294BF89CA0784* EEFMDEHLLFI; // 0x10

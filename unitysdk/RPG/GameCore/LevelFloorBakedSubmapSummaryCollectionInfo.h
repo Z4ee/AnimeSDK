@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class LevelFloorBakedSubmapSummaryInfo; }
 
-#define RPG_GAMECORE_LEVELFLOORBAKEDSUBMAPSUMMARYCOLLECTIONINFO_METHOD_2_B413D07E47D0E3CC_OFFSET UNITYSDK_OFFSET(0x1C1143C0)
-#define RPG_GAMECORE_LEVELFLOORBAKEDSUBMAPSUMMARYCOLLECTIONINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1C114480)
+#define RPG_GAMECORE_LEVELFLOORBAKEDSUBMAPSUMMARYCOLLECTIONINFO_METHOD_2_B413D07E47D0E3CC_OFFSET UNITYSDK_OFFSET(0x1D77F070)
+#define RPG_GAMECORE_LEVELFLOORBAKEDSUBMAPSUMMARYCOLLECTIONINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1D77F130)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelFloorBakedSubmapSummaryCollectionInfo_TypeDefinitionIndex = 16971;
+	inline static constexpr unsigned int LevelFloorBakedSubmapSummaryCollectionInfo_TypeDefinitionIndex = 17166;
 
 	class LevelFloorBakedSubmapSummaryCollectionInfo : public ::RPG::GameCore::JsonConfig
 	{

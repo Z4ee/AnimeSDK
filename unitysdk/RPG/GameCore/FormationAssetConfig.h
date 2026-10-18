@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class FormationData; }
 
-#define RPG_GAMECORE_FORMATIONASSETCONFIG_METHOD_2_68F8E1EA5D323F32_OFFSET UNITYSDK_OFFSET(0x1DCB1F20)
-#define RPG_GAMECORE_FORMATIONASSETCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1DCB1FE0)
+#define RPG_GAMECORE_FORMATIONASSETCONFIG_METHOD_2_68F8E1EA5D323F32_OFFSET UNITYSDK_OFFSET(0x1D6BCAC0)
+#define RPG_GAMECORE_FORMATIONASSETCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6BCB80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FormationAssetConfig_TypeDefinitionIndex = 16939;
+	inline static constexpr unsigned int FormationAssetConfig_TypeDefinitionIndex = 17134;
 
 	class FormationAssetConfig : public ::RPG::GameCore::JsonConfig
 	{

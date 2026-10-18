@@ -13,12 +13,12 @@ namespace RPG::GameCore { class FourRotateVoxelLevelEnvConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_FOURROTATEVOXELLEVELCONFIG_METHOD_2_787DAFD785C867E7_OFFSET UNITYSDK_OFFSET(0x1DCB6460)
-#define RPG_GAMECORE_FOURROTATEVOXELLEVELCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1DCB7080)
+#define RPG_GAMECORE_FOURROTATEVOXELLEVELCONFIG_METHOD_2_787DAFD785C867E7_OFFSET UNITYSDK_OFFSET(0x1D6C1270)
+#define RPG_GAMECORE_FOURROTATEVOXELLEVELCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6C1F20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FourRotateVoxelLevelConfig_TypeDefinitionIndex = 16567;
+	inline static constexpr unsigned int FourRotateVoxelLevelConfig_TypeDefinitionIndex = 16743;
 
 	class FourRotateVoxelLevelConfig : public ::RPG::GameCore::JsonConfig
 	{

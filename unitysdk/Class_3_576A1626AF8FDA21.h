@@ -6,10 +6,10 @@ class Class_2_9A097580DF02CED3;
 namespace RPG::GameCore { class ST_ByFoundSmartObject; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_576A1626AF8FDA21_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1910A1E0)
-#define CLASS_3_576A1626AF8FDA21__CTOR_OFFSET UNITYSDK_OFFSET(0x1910A120)
+#define CLASS_3_576A1626AF8FDA21_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1590FFE0)
+#define CLASS_3_576A1626AF8FDA21__CTOR_OFFSET UNITYSDK_OFFSET(0x1590FF20)
 
-inline static constexpr unsigned int Class_3_576A1626AF8FDA21_TypeDefinitionIndex = 52478;
+inline static constexpr unsigned int Class_3_576A1626AF8FDA21_TypeDefinitionIndex = 52192;
 
 class Class_3_576A1626AF8FDA21 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ST_ByFoundSmartObject*>
 {

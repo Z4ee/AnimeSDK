@@ -11,45 +11,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_ITEMUSECONDITIONEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1C105B00)
-#define RPG_GAMECORE_ITEMUSECONDITIONEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1C105990)
-#define RPG_GAMECORE_ITEMUSECONDITIONEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1C105680)
-#define RPG_GAMECORE_ITEMUSECONDITIONEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1C105930)
-#define RPG_GAMECORE_ITEMUSECONDITIONEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1C105C90)
-#define RPG_GAMECORE_ITEMUSECONDITIONEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1C105700)
-#define RPG_GAMECORE_ITEMUSECONDITIONEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1C105CD0)
-#define RPG_GAMECORE_ITEMUSECONDITIONEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1C105EA0)
-#define RPG_GAMECORE_ITEMUSECONDITIONEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1C106040)
-#define RPG_GAMECORE_ITEMUSECONDITIONEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C1063B0)
-#define RPG_GAMECORE_ITEMUSECONDITIONEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1C105E00)
-#define RPG_GAMECORE_ITEMUSECONDITIONEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1C105D60)
+#define RPG_GAMECORE_ITEMUSECONDITIONEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1D770890)
+#define RPG_GAMECORE_ITEMUSECONDITIONEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1D770720)
+#define RPG_GAMECORE_ITEMUSECONDITIONEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1D770410)
+#define RPG_GAMECORE_ITEMUSECONDITIONEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1D7706C0)
+#define RPG_GAMECORE_ITEMUSECONDITIONEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1D770A20)
+#define RPG_GAMECORE_ITEMUSECONDITIONEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D770490)
+#define RPG_GAMECORE_ITEMUSECONDITIONEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1D770A60)
+#define RPG_GAMECORE_ITEMUSECONDITIONEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D770C30)
+#define RPG_GAMECORE_ITEMUSECONDITIONEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1D770DD0)
+#define RPG_GAMECORE_ITEMUSECONDITIONEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D771140)
+#define RPG_GAMECORE_ITEMUSECONDITIONEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1D770B90)
+#define RPG_GAMECORE_ITEMUSECONDITIONEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D770AF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ItemUseConditionExcelTable_TypeDefinitionIndex = 13775;
+	inline static constexpr unsigned int ItemUseConditionExcelTable_TypeDefinitionIndex = 13882;
 
 	class ItemUseConditionExcelTable : public ::System::Object
 	{
 	public:
+		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
+		{
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ItemUseConditionExcelTable_TypeDefinitionIndex)->GetStaticField(0x39850);
+		}
 		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(ItemUseConditionExcelTable_TypeDefinitionIndex)->GetStaticField(0x30EA0);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(ItemUseConditionExcelTable_TypeDefinitionIndex)->GetStaticField(0x39858);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ItemUseConditionRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ItemUseConditionRow*>**)Il2CppClass::FromTypeDefinitionIndex(ItemUseConditionExcelTable_TypeDefinitionIndex)->GetStaticField(0x30EA8);
-		}
-		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
-		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ItemUseConditionExcelTable_TypeDefinitionIndex)->GetStaticField(0x30EB0);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ItemUseConditionRow*>**)Il2CppClass::FromTypeDefinitionIndex(ItemUseConditionExcelTable_TypeDefinitionIndex)->GetStaticField(0x39860);
 		}
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(ItemUseConditionExcelTable_TypeDefinitionIndex)->GetStaticField(0xCFD0);
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(ItemUseConditionExcelTable_TypeDefinitionIndex)->GetStaticField(0xBA80);
 		}
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ItemUseConditionExcelTable_TypeDefinitionIndex)->GetStaticField(0xCFD1);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ItemUseConditionExcelTable_TypeDefinitionIndex)->GetStaticField(0xBA81);
 		}
 
 		static ::System::Void _cctor()

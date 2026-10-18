@@ -6,20 +6,20 @@ namespace MessagePack { class IFormatterResolver; }
 namespace MessagePack::Formatters { template <typename T> class IMessagePackFormatter_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MESSAGEPACK_RESOLVERS_GLOBALFORMATTERRESOLVER_REGISTERRESOLVER_OFFSET UNITYSDK_OFFSET(0x1D572870)
-#define MESSAGEPACK_RESOLVERS_GLOBALFORMATTERRESOLVER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D5729C0)
-#define MESSAGEPACK_RESOLVERS_GLOBALFORMATTERRESOLVER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D572830)
+#define MESSAGEPACK_RESOLVERS_GLOBALFORMATTERRESOLVER_REGISTERRESOLVER_OFFSET UNITYSDK_OFFSET(0x1BBB4930)
+#define MESSAGEPACK_RESOLVERS_GLOBALFORMATTERRESOLVER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BBB4A80)
+#define MESSAGEPACK_RESOLVERS_GLOBALFORMATTERRESOLVER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BBB48F0)
 
 namespace MessagePack::Resolvers
 {
-	inline static constexpr unsigned int GlobalFormatterResolver_TypeDefinitionIndex = 7215;
+	inline static constexpr unsigned int GlobalFormatterResolver_TypeDefinitionIndex = 7269;
 
 	class GlobalFormatterResolver : public ::System::Object
 	{
 	public:
 		static ::MessagePack::Resolvers::GlobalFormatterResolver** StaticGet_Instance()
 		{
-			return (::MessagePack::Resolvers::GlobalFormatterResolver**)Il2CppClass::FromTypeDefinitionIndex(GlobalFormatterResolver_TypeDefinitionIndex)->GetStaticField(0x38940);
+			return (::MessagePack::Resolvers::GlobalFormatterResolver**)Il2CppClass::FromTypeDefinitionIndex(GlobalFormatterResolver_TypeDefinitionIndex)->GetStaticField(0x4BDD0);
 		}
 		::System::Collections::Generic::List_1<::MessagePack::IFormatterResolver*>* registeredResolvers; // 0x10
 

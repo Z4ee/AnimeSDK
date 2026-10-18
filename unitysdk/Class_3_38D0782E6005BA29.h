@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ClearFormationFaceDelta; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_38D0782E6005BA29_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x186E94E0)
-#define CLASS_3_38D0782E6005BA29__CTOR_OFFSET UNITYSDK_OFFSET(0x186E94B0)
+#define CLASS_3_38D0782E6005BA29_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x12677090)
+#define CLASS_3_38D0782E6005BA29__CTOR_OFFSET UNITYSDK_OFFSET(0x12677060)
 
-inline static constexpr unsigned int Class_3_38D0782E6005BA29_TypeDefinitionIndex = 55129;
+inline static constexpr unsigned int Class_3_38D0782E6005BA29_TypeDefinitionIndex = 54922;
 
 class Class_3_38D0782E6005BA29 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ClearFormationFaceDelta*>
 {

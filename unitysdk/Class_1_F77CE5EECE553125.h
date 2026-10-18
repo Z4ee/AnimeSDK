@@ -8,10 +8,10 @@ namespace RPG::Client::FateRin::Logging { class ILogger; }
 namespace RPG::Client::FateRin::Logging { class ILoggerFactory; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_F77CE5EECE553125_METHOD_1_043757E685D9C7D5_OFFSET UNITYSDK_OFFSET(0x1601F560)
-#define CLASS_1_F77CE5EECE553125__CTOR_OFFSET UNITYSDK_OFFSET(0x1601F210)
+#define CLASS_1_F77CE5EECE553125_METHOD_1_043757E685D9C7D5_OFFSET UNITYSDK_OFFSET(0x12650520)
+#define CLASS_1_F77CE5EECE553125__CTOR_OFFSET UNITYSDK_OFFSET(0x126501D0)
 
-inline static constexpr unsigned int Class_1_F77CE5EECE553125_TypeDefinitionIndex = 79767;
+inline static constexpr unsigned int Class_1_F77CE5EECE553125_TypeDefinitionIndex = 81091;
 
 class Class_1_F77CE5EECE553125 : public ::System::Object
 {

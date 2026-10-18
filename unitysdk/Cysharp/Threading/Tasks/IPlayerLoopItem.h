@@ -3,7 +3,7 @@
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int IPlayerLoopItem_TypeDefinitionIndex = 42621;
+	inline static constexpr unsigned int IPlayerLoopItem_TypeDefinitionIndex = 38206;
 
 	class IPlayerLoopItem
 	{

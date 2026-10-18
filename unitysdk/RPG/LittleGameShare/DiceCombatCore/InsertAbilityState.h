@@ -3,7 +3,7 @@
 
 namespace RPG::LittleGameShare::DiceCombatCore
 {
-	inline static constexpr unsigned int InsertAbilityState_TypeDefinitionIndex = 35739;
+	inline static constexpr unsigned int InsertAbilityState_TypeDefinitionIndex = 36426;
 
 	enum class InsertAbilityState : ::System::Int32
 	{

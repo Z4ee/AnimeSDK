@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_LOOKDEVBLOCKLODTEMPLATECACHEITEM_METHOD_2_D1633386120149C7_OFFSET UNITYSDK_OFFSET(0x1D488EE0)
-#define RPG_GAMECORE_LOOKDEVBLOCKLODTEMPLATECACHEITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1D488FD0)
+#define RPG_GAMECORE_LOOKDEVBLOCKLODTEMPLATECACHEITEM_METHOD_2_D1633386120149C7_OFFSET UNITYSDK_OFFSET(0x1D7C6A90)
+#define RPG_GAMECORE_LOOKDEVBLOCKLODTEMPLATECACHEITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7C6B80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LookDevBlockLodTemplateCacheItem_TypeDefinitionIndex = 18981;
+	inline static constexpr unsigned int LookDevBlockLodTemplateCacheItem_TypeDefinitionIndex = 19208;
 
 	class LookDevBlockLodTemplateCacheItem : public ::RPG::GameCore::JsonConfig
 	{

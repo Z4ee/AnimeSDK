@@ -6,12 +6,12 @@ class Class_1_4F30521532511E50;
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ALLEYMAPGRADEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1C55FB30)
-#define RPG_GAMECORE_ALLEYMAPGRADEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1C560150)
+#define RPG_GAMECORE_ALLEYMAPGRADEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3B9610)
+#define RPG_GAMECORE_ALLEYMAPGRADEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3B9C30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AlleyMapGradeRow_TypeDefinitionIndex = 12546;
+	inline static constexpr unsigned int AlleyMapGradeRow_TypeDefinitionIndex = 12636;
 
 	class AlleyMapGradeRow : public ::System::Object
 	{

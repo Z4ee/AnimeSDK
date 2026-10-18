@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByIsShowInActionBar; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_EEBAB8F71327B4F3_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1800CDA0)
-#define CLASS_3_EEBAB8F71327B4F3__CTOR_OFFSET UNITYSDK_OFFSET(0x1800CD70)
+#define CLASS_3_EEBAB8F71327B4F3_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15DB24E0)
+#define CLASS_3_EEBAB8F71327B4F3__CTOR_OFFSET UNITYSDK_OFFSET(0x15DB24B0)
 
-inline static constexpr unsigned int Class_3_EEBAB8F71327B4F3_TypeDefinitionIndex = 54893;
+inline static constexpr unsigned int Class_3_EEBAB8F71327B4F3_TypeDefinitionIndex = 54682;
 
 class Class_3_EEBAB8F71327B4F3 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByIsShowInActionBar*>
 {

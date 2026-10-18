@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define ENVIROMENTSYSTEMV2SPACE_ANIMATIONCURVE4__CTOR_OFFSET UNITYSDK_OFFSET(0x106C80B0)
+#define ENVIROMENTSYSTEMV2SPACE_ANIMATIONCURVE4__CTOR_OFFSET UNITYSDK_OFFSET(0x15627BC0)
 
 namespace EnviromentSystemV2Space
 {
-	inline static constexpr unsigned int AnimationCurve4_TypeDefinitionIndex = 49801;
+	inline static constexpr unsigned int AnimationCurve4_TypeDefinitionIndex = 49376;
 
 	class AnimationCurve4 : public ::System::Object
 	{

@@ -14,11 +14,11 @@ namespace UnityEngine { class Camera; }
 namespace UnityEngine { class RenderTexture; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CUSTOMRP_REFLECTIONRENDERDATA_RESET_OFFSET UNITYSDK_OFFSET(0x3AE1CC0)
+#define RPG_CUSTOMRP_REFLECTIONRENDERDATA_RESET_OFFSET UNITYSDK_OFFSET(0x3C35F50)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int ReflectionRenderData_TypeDefinitionIndex = 36882;
+	inline static constexpr unsigned int ReflectionRenderData_TypeDefinitionIndex = 37567;
 
 	struct alignas(8) ReflectionRenderData
 	{

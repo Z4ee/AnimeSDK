@@ -6,10 +6,10 @@
 namespace RPG::GameCore { class SetDynamicValueByWorldLevel; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_D2A433CCD8D752D0_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15931CC0)
-#define CLASS_3_D2A433CCD8D752D0__CTOR_OFFSET UNITYSDK_OFFSET(0x15931BE0)
+#define CLASS_3_D2A433CCD8D752D0_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBBAD340)
+#define CLASS_3_D2A433CCD8D752D0__CTOR_OFFSET UNITYSDK_OFFSET(0xBBAD260)
 
-inline static constexpr unsigned int Class_3_D2A433CCD8D752D0_TypeDefinitionIndex = 55673;
+inline static constexpr unsigned int Class_3_D2A433CCD8D752D0_TypeDefinitionIndex = 55481;
 
 class Class_3_D2A433CCD8D752D0 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetDynamicValueByWorldLevel*>
 {

@@ -8,7 +8,7 @@ namespace System { class String; }
 
 namespace RPGCamera
 {
-	inline static constexpr unsigned int ICameraState_TypeDefinitionIndex = 44803;
+	inline static constexpr unsigned int ICameraState_TypeDefinitionIndex = 45942;
 
 	class ICameraState
 	{

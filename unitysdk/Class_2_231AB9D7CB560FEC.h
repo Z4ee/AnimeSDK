@@ -8,19 +8,19 @@ namespace RPG::GameCore { class JsonEnum; }
 namespace RPG::GameCore { class RtSummonCharacterExtraDataBase; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define CLASS_2_231AB9D7CB560FEC_METHOD_2_4D6789FBC58A056F_OFFSET UNITYSDK_OFFSET(0x1C8C4B90)
-#define CLASS_2_231AB9D7CB560FEC__CTOR_OFFSET UNITYSDK_OFFSET(0x1C8C4ED0)
+#define CLASS_2_231AB9D7CB560FEC_METHOD_2_4D6789FBC58A056F_OFFSET UNITYSDK_OFFSET(0x1CC80E00)
+#define CLASS_2_231AB9D7CB560FEC__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC81140)
 
-inline static constexpr unsigned int Class_2_231AB9D7CB560FEC_TypeDefinitionIndex = 23847;
+inline static constexpr unsigned int Class_2_231AB9D7CB560FEC_TypeDefinitionIndex = 24122;
 
 class Class_2_231AB9D7CB560FEC : public ::RPG::GameCore::JsonConfig
 {
 public:
-	::Il2CppArray<::RPG::GameCore::JsonEnum*>* DCLGGMAEMAO; // 0x10
-	::RPG::GameCore::DynamicFloat* EPFPKBLIIOI; // 0x18
-	::RPG::GameCore::DynamicFloat* HCDEOKNIGKG; // 0x20
-	::RPG::GameCore::RtSummonCharacterExtraDataBase* PDLNGNHJJEI; // 0x28
-	::RPG::GameCore::DynamicFloat* JIDLKIHJLFL; // 0x30
+	::RPG::GameCore::DynamicFloat* HCDEOKNIGKG; // 0x10
+	::Il2CppArray<::RPG::GameCore::JsonEnum*>* DCLGGMAEMAO; // 0x18
+	::RPG::GameCore::DynamicFloat* JIDLKIHJLFL; // 0x20
+	::RPG::GameCore::DynamicFloat* EPFPKBLIIOI; // 0x28
+	::RPG::GameCore::RtSummonCharacterExtraDataBase* PDLNGNHJJEI; // 0x30
 	::RPG::GameCore::TargetEvaluator* PPKKOLKCKOI; // 0x38
 
 	::System::Void _ctor()

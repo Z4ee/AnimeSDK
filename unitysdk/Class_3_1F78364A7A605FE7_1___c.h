@@ -9,32 +9,32 @@ namespace System { template <typename T1, typename T2, typename T3> class Action
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 
-#define CLASS_3_1F78364A7A605FE7_1___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A803B20)
-#define CLASS_3_1F78364A7A605FE7_1___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A803B50)
-#define CLASS_3_1F78364A7A605FE7_1___C__INIT_B__1_0_OFFSET UNITYSDK_OFFSET(0x1A803B60)
-#define CLASS_3_1F78364A7A605FE7_1___C__INIT_B__1_1_OFFSET UNITYSDK_OFFSET(0x1A803D10)
-#define CLASS_3_1F78364A7A605FE7_1___C__INIT_B__1_2_OFFSET UNITYSDK_OFFSET(0x1A803D20)
+#define CLASS_3_1F78364A7A605FE7_1___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x12CB8540)
+#define CLASS_3_1F78364A7A605FE7_1___C__CTOR_OFFSET UNITYSDK_OFFSET(0x12CB8570)
+#define CLASS_3_1F78364A7A605FE7_1___C__INIT_B__1_0_OFFSET UNITYSDK_OFFSET(0x12CB8580)
+#define CLASS_3_1F78364A7A605FE7_1___C__INIT_B__1_1_OFFSET UNITYSDK_OFFSET(0x12CB8730)
+#define CLASS_3_1F78364A7A605FE7_1___C__INIT_B__1_2_OFFSET UNITYSDK_OFFSET(0x12CB8740)
 
-inline static constexpr unsigned int Class_3_1F78364A7A605FE7_1___c_TypeDefinitionIndex = 61433;
+inline static constexpr unsigned int Class_3_1F78364A7A605FE7_1___c_TypeDefinitionIndex = 61335;
 
 class Class_3_1F78364A7A605FE7_1___c : public ::System::Object
 {
 public:
-	static ::System::Func_3<::InControl::PlayerAction*, ::InControl::BindingSource*, ::System::Boolean>** StaticGet___9__1_0()
-	{
-		return (::System::Func_3<::InControl::PlayerAction*, ::InControl::BindingSource*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_3_1F78364A7A605FE7_1___c_TypeDefinitionIndex)->GetStaticField(0xB700);
-	}
-	static ::Class_3_1F78364A7A605FE7_1___c** StaticGet___9()
-	{
-		return (::Class_3_1F78364A7A605FE7_1___c**)Il2CppClass::FromTypeDefinitionIndex(Class_3_1F78364A7A605FE7_1___c_TypeDefinitionIndex)->GetStaticField(0xB708);
-	}
 	static ::System::Action_2<::InControl::PlayerAction*, ::InControl::BindingSource*>** StaticGet___9__1_1()
 	{
-		return (::System::Action_2<::InControl::PlayerAction*, ::InControl::BindingSource*>**)Il2CppClass::FromTypeDefinitionIndex(Class_3_1F78364A7A605FE7_1___c_TypeDefinitionIndex)->GetStaticField(0xB710);
+		return (::System::Action_2<::InControl::PlayerAction*, ::InControl::BindingSource*>**)Il2CppClass::FromTypeDefinitionIndex(Class_3_1F78364A7A605FE7_1___c_TypeDefinitionIndex)->GetStaticField(0x56B60);
+	}
+	static ::System::Func_3<::InControl::PlayerAction*, ::InControl::BindingSource*, ::System::Boolean>** StaticGet___9__1_0()
+	{
+		return (::System::Func_3<::InControl::PlayerAction*, ::InControl::BindingSource*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_3_1F78364A7A605FE7_1___c_TypeDefinitionIndex)->GetStaticField(0x56B68);
 	}
 	static ::System::Action_3<::InControl::PlayerAction*, ::InControl::BindingSource*, ::InControl::BindingSourceRejectionType>** StaticGet___9__1_2()
 	{
-		return (::System::Action_3<::InControl::PlayerAction*, ::InControl::BindingSource*, ::InControl::BindingSourceRejectionType>**)Il2CppClass::FromTypeDefinitionIndex(Class_3_1F78364A7A605FE7_1___c_TypeDefinitionIndex)->GetStaticField(0xB718);
+		return (::System::Action_3<::InControl::PlayerAction*, ::InControl::BindingSource*, ::InControl::BindingSourceRejectionType>**)Il2CppClass::FromTypeDefinitionIndex(Class_3_1F78364A7A605FE7_1___c_TypeDefinitionIndex)->GetStaticField(0x56B70);
+	}
+	static ::Class_3_1F78364A7A605FE7_1___c** StaticGet___9()
+	{
+		return (::Class_3_1F78364A7A605FE7_1___c**)Il2CppClass::FromTypeDefinitionIndex(Class_3_1F78364A7A605FE7_1___c_TypeDefinitionIndex)->GetStaticField(0x56B78);
 	}
 
 	static ::System::Void _cctor()

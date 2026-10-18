@@ -3,7 +3,7 @@
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int DronesPuzzleBoard_EActionType_TypeDefinitionIndex = 78094;
+	inline static constexpr unsigned int DronesPuzzleBoard_EActionType_TypeDefinitionIndex = 78565;
 
 	enum class DronesPuzzleBoard_EActionType : ::System::Int32
 	{

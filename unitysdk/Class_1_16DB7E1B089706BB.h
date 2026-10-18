@@ -5,16 +5,16 @@
 class Class_1_A7BB374B2DB46D73;
 namespace RPG::GameCore { class FiveDimBorderPlatConfig; }
 
-#define CLASS_1_16DB7E1B089706BB_CLEAR_OFFSET UNITYSDK_OFFSET(0x1A5DA320)
-#define CLASS_1_16DB7E1B089706BB__CTOR_OFFSET UNITYSDK_OFFSET(0x1A5DA380)
+#define CLASS_1_16DB7E1B089706BB_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C9068F0)
+#define CLASS_1_16DB7E1B089706BB__CTOR_OFFSET UNITYSDK_OFFSET(0x1C906950)
 
-inline static constexpr unsigned int Class_1_16DB7E1B089706BB_TypeDefinitionIndex = 41859;
+inline static constexpr unsigned int Class_1_16DB7E1B089706BB_TypeDefinitionIndex = 43501;
 
 class Class_1_16DB7E1B089706BB : public ::System::Object
 {
 public:
-	::RPG::GameCore::FiveDimBorderPlatConfig* EABKOHGCHFP; // 0x10
-	::Class_1_A7BB374B2DB46D73* BPAPBAFOMCH; // 0x18
+	::Class_1_A7BB374B2DB46D73* BPAPBAFOMCH; // 0x10
+	::RPG::GameCore::FiveDimBorderPlatConfig* EABKOHGCHFP; // 0x18
 
 	::System::Void _ctor()
 	{

@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/BaseRedDotFilter.h"
 
-#define CLASS_2_880B97E2DED4BCEE__CTOR_OFFSET UNITYSDK_OFFSET(0x163FDF20)
+#define CLASS_2_880B97E2DED4BCEE__CTOR_OFFSET UNITYSDK_OFFSET(0xC22EDE0)
 
-inline static constexpr unsigned int Class_2_880B97E2DED4BCEE_TypeDefinitionIndex = 64322;
+inline static constexpr unsigned int Class_2_880B97E2DED4BCEE_TypeDefinitionIndex = 64262;
 
 class Class_2_880B97E2DED4BCEE : public ::RPG::Client::BaseRedDotFilter
 {

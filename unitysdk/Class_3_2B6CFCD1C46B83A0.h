@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class RA_TriggerInstantAbility; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_2B6CFCD1C46B83A0_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17673900)
-#define CLASS_3_2B6CFCD1C46B83A0__CTOR_OFFSET UNITYSDK_OFFSET(0x176738D0)
+#define CLASS_3_2B6CFCD1C46B83A0_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15BCD4A0)
+#define CLASS_3_2B6CFCD1C46B83A0__CTOR_OFFSET UNITYSDK_OFFSET(0x15BCD470)
 
-inline static constexpr unsigned int Class_3_2B6CFCD1C46B83A0_TypeDefinitionIndex = 52391;
+inline static constexpr unsigned int Class_3_2B6CFCD1C46B83A0_TypeDefinitionIndex = 52104;
 
 class Class_3_2B6CFCD1C46B83A0 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::RA_TriggerInstantAbility*>
 {

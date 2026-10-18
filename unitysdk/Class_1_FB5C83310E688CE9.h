@@ -2,22 +2,22 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_722;
+class Class_0_16E4307DCC419505_819;
 namespace RPG::Client { class IActivityQuestRewardTabGroupInfo; }
 
-#define CLASS_1_FB5C83310E688CE9_METHOD_1_6CCC6FC10E95995A_OFFSET UNITYSDK_OFFSET(0x1A7CF000)
-#define CLASS_1_FB5C83310E688CE9__CTOR_OFFSET UNITYSDK_OFFSET(0x1A7CEFB0)
+#define CLASS_1_FB5C83310E688CE9_METHOD_1_6CCC6FC10E95995A_OFFSET UNITYSDK_OFFSET(0xBA123C0)
+#define CLASS_1_FB5C83310E688CE9__CTOR_OFFSET UNITYSDK_OFFSET(0xBA12370)
 
-inline static constexpr unsigned int Class_1_FB5C83310E688CE9_TypeDefinitionIndex = 61825;
+inline static constexpr unsigned int Class_1_FB5C83310E688CE9_TypeDefinitionIndex = 61735;
 
 class Class_1_FB5C83310E688CE9 : public ::System::Object
 {
 public:
-	::Class_0_16E4307DCC419505_722* NCANCCINJDP; // 0x10
+	::Class_0_16E4307DCC419505_819* NCANCCINJDP; // 0x10
 
-	::System::Void _ctor(::Class_0_16E4307DCC419505_722* a1)
+	::System::Void _ctor(::Class_0_16E4307DCC419505_819* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_722*))((::PBYTE)hIl2Cpp + CLASS_1_FB5C83310E688CE9__CTOR_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_819*))((::PBYTE)hIl2Cpp + CLASS_1_FB5C83310E688CE9__CTOR_OFFSET))(this, a1);
 	}
 
 	::RPG::Client::IActivityQuestRewardTabGroupInfo* Method_1_6CCC6FC10E95995A(::System::UInt32 a1)

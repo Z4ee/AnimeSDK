@@ -4,11 +4,11 @@
 
 class Class_1_2BF31F3092BDFD9E;
 
-#define RPG_CLIENT_WOLFBROGUNPLAYTARGET_REPLACE__CTOR_OFFSET UNITYSDK_OFFSET(0x168145F0)
+#define RPG_CLIENT_WOLFBROGUNPLAYTARGET_REPLACE__CTOR_OFFSET UNITYSDK_OFFSET(0xE46E490)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int WolfBroGunPlayTarget_Replace_TypeDefinitionIndex = 68697;
+	inline static constexpr unsigned int WolfBroGunPlayTarget_Replace_TypeDefinitionIndex = 68731;
 
 	class WolfBroGunPlayTarget_Replace : public ::RPG::Client::WolfBroGunPlayTarget
 	{

@@ -4,20 +4,20 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_VERSIONREVIEWMISSIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DEAE4A0)
-#define RPG_GAMECORE_VERSIONREVIEWMISSIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1DEAEA90)
+#define RPG_GAMECORE_VERSIONREVIEWMISSIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DC60C40)
+#define RPG_GAMECORE_VERSIONREVIEWMISSIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1DC61230)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int VersionReviewMissionRow_TypeDefinitionIndex = 14059;
+	inline static constexpr unsigned int VersionReviewMissionRow_TypeDefinitionIndex = 14166;
 
 	class VersionReviewMissionRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 StoryPerformanceID; // 0x10
-		::System::UInt32 StoryStartEntranceID; // 0x14
-		::System::UInt32 ReviewMainMissionID; // 0x18
-		::System::UInt32 PreMainMissionID; // 0x1C
+		::System::UInt32 PreMainMissionID; // 0x10
+		::System::UInt32 StoryPerformanceID; // 0x14
+		::System::UInt32 StoryStartEntranceID; // 0x18
+		::System::UInt32 ReviewMainMissionID; // 0x1C
 
 		::System::Void _ctor()
 		{

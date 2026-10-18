@@ -2,25 +2,25 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_373;
+class Class_0_16E4307DCC419505_454;
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define CLASS_2_B508B2BE5228EBE2___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B43E960)
-#define CLASS_2_B508B2BE5228EBE2___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B43E990)
-#define CLASS_2_B508B2BE5228EBE2___C__REGISTERCOMPONENTADAPTERS_B__178_0_OFFSET UNITYSDK_OFFSET(0x1B43E9A0)
+#define CLASS_2_B508B2BE5228EBE2___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15C7A770)
+#define CLASS_2_B508B2BE5228EBE2___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15C7A7A0)
+#define CLASS_2_B508B2BE5228EBE2___C__REGISTERCOMPONENTADAPTERS_B__178_0_OFFSET UNITYSDK_OFFSET(0x15C7A7B0)
 
-inline static constexpr unsigned int Class_2_B508B2BE5228EBE2___c_TypeDefinitionIndex = 49706;
+inline static constexpr unsigned int Class_2_B508B2BE5228EBE2___c_TypeDefinitionIndex = 49280;
 
 class Class_2_B508B2BE5228EBE2___c : public ::System::Object
 {
 public:
+	static ::System::Func_2<::System::Object*, ::Class_0_16E4307DCC419505_454*>** StaticGet___9__178_0()
+	{
+		return (::System::Func_2<::System::Object*, ::Class_0_16E4307DCC419505_454*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_B508B2BE5228EBE2___c_TypeDefinitionIndex)->GetStaticField(0x131D0);
+	}
 	static ::Class_2_B508B2BE5228EBE2___c** StaticGet___9()
 	{
-		return (::Class_2_B508B2BE5228EBE2___c**)Il2CppClass::FromTypeDefinitionIndex(Class_2_B508B2BE5228EBE2___c_TypeDefinitionIndex)->GetStaticField(0x629C0);
-	}
-	static ::System::Func_2<::System::Object*, ::Class_0_16E4307DCC419505_373*>** StaticGet___9__178_0()
-	{
-		return (::System::Func_2<::System::Object*, ::Class_0_16E4307DCC419505_373*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_B508B2BE5228EBE2___c_TypeDefinitionIndex)->GetStaticField(0x629C8);
+		return (::Class_2_B508B2BE5228EBE2___c**)Il2CppClass::FromTypeDefinitionIndex(Class_2_B508B2BE5228EBE2___c_TypeDefinitionIndex)->GetStaticField(0x131D8);
 	}
 
 	static ::System::Void _cctor()
@@ -33,8 +33,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_B508B2BE5228EBE2___C__CTOR_OFFSET))(this);
 	}
 
-	::Class_0_16E4307DCC419505_373* _RegisterComponentAdapters_b__178_0(::System::Object* a1)
+	::Class_0_16E4307DCC419505_454* _RegisterComponentAdapters_b__178_0(::System::Object* a1)
 	{
-		return ((::Class_0_16E4307DCC419505_373*(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_2_B508B2BE5228EBE2___C__REGISTERCOMPONENTADAPTERS_B__178_0_OFFSET))(this, a1);
+		return ((::Class_0_16E4307DCC419505_454*(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_2_B508B2BE5228EBE2___C__REGISTERCOMPONENTADAPTERS_B__178_0_OFFSET))(this, a1);
 	}
 };

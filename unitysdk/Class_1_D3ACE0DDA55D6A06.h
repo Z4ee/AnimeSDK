@@ -6,20 +6,20 @@ namespace System { class String; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class Renderer; }
 
-#define CLASS_1_D3ACE0DDA55D6A06_METHOD_1_8FAD57395F26ACC4_OFFSET UNITYSDK_OFFSET(0x18370BA0)
-#define CLASS_1_D3ACE0DDA55D6A06_TOSTRING_OFFSET UNITYSDK_OFFSET(0x18370C60)
-#define CLASS_1_D3ACE0DDA55D6A06__CTOR_OFFSET UNITYSDK_OFFSET(0x18370B20)
+#define CLASS_1_D3ACE0DDA55D6A06_METHOD_1_8FAD57395F26ACC4_OFFSET UNITYSDK_OFFSET(0x164D5E00)
+#define CLASS_1_D3ACE0DDA55D6A06_TOSTRING_OFFSET UNITYSDK_OFFSET(0x164D5EC0)
+#define CLASS_1_D3ACE0DDA55D6A06__CTOR_OFFSET UNITYSDK_OFFSET(0x164D5D80)
 
-inline static constexpr unsigned int Class_1_D3ACE0DDA55D6A06_TypeDefinitionIndex = 70141;
+inline static constexpr unsigned int Class_1_D3ACE0DDA55D6A06_TypeDefinitionIndex = 70177;
 
 class Class_1_D3ACE0DDA55D6A06 : public ::System::Object
 {
 public:
 	::UnityEngine::Renderer* JAMDAALMOAL; // 0x10
 	::UnityEngine::MaterialPropertyBlock* DMOKGPMOFGM; // 0x18
-	::System::Single NEHMFKCDKDI; // 0x20
+	::System::Int32 LAPPEBCGDEG; // 0x20
 	::System::Single NHGFCDCCBNL; // 0x24
-	::System::Int32 LAPPEBCGDEG; // 0x28
+	::System::Single NEHMFKCDKDI; // 0x28
 
 	::System::Void _ctor(::UnityEngine::Renderer* a1, ::System::String* a2, ::System::Single a3)
 	{

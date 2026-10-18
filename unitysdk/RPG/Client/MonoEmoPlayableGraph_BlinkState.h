@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEmoPlayableGraph_BlinkState_TypeDefinitionIndex = 71123;
+	inline static constexpr unsigned int MonoEmoPlayableGraph_BlinkState_TypeDefinitionIndex = 71155;
 
 	enum class MonoEmoPlayableGraph_BlinkState : ::System::Int32
 	{

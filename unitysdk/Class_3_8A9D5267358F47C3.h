@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AdvTriggerAIEvent; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_8A9D5267358F47C3_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x19969840)
-#define CLASS_3_8A9D5267358F47C3__CTOR_OFFSET UNITYSDK_OFFSET(0x19969810)
+#define CLASS_3_8A9D5267358F47C3_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15C2E9F0)
+#define CLASS_3_8A9D5267358F47C3__CTOR_OFFSET UNITYSDK_OFFSET(0x15C2E9C0)
 
-inline static constexpr unsigned int Class_3_8A9D5267358F47C3_TypeDefinitionIndex = 52791;
+inline static constexpr unsigned int Class_3_8A9D5267358F47C3_TypeDefinitionIndex = 52516;
 
 class Class_3_8A9D5267358F47C3 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AdvTriggerAIEvent*>
 {

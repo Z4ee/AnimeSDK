@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int AkDynamicSequenceType_TypeDefinitionIndex = 43546;
+inline static constexpr unsigned int AkDynamicSequenceType_TypeDefinitionIndex = 44738;
 
 enum class AkDynamicSequenceType : ::System::Int32
 {

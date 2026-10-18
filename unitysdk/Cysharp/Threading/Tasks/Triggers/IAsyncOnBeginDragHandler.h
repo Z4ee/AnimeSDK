@@ -6,7 +6,7 @@ namespace UnityEngine::EventSystems { class PointerEventData; }
 
 namespace Cysharp::Threading::Tasks::Triggers
 {
-	inline static constexpr unsigned int IAsyncOnBeginDragHandler_TypeDefinitionIndex = 43033;
+	inline static constexpr unsigned int IAsyncOnBeginDragHandler_TypeDefinitionIndex = 38618;
 
 	class IAsyncOnBeginDragHandler
 	{

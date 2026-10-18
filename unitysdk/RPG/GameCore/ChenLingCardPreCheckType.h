@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingCardPreCheckType_TypeDefinitionIndex = 11032;
+	inline static constexpr unsigned int ChenLingCardPreCheckType_TypeDefinitionIndex = 11048;
 
 	enum class ChenLingCardPreCheckType : ::System::Int32
 	{

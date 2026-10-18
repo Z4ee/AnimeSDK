@@ -7,7 +7,7 @@ namespace System { class Exception; }
 
 namespace R3
 {
-	inline static constexpr unsigned int WrappedObserver_1_TypeDefinitionIndex = 35250;
+	inline static constexpr unsigned int WrappedObserver_1_TypeDefinitionIndex = 35930;
 
 	template <typename T>
 	class WrappedObserver_1 : public ::R3::Observer_1<T>

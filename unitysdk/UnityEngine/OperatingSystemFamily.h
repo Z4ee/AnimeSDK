@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int OperatingSystemFamily_TypeDefinitionIndex = 4388;
+	inline static constexpr unsigned int OperatingSystemFamily_TypeDefinitionIndex = 4391;
 
 	enum class OperatingSystemFamily : ::System::Int32
 	{

@@ -6,19 +6,19 @@ namespace MiHoYo::SDK::PluginUI { class MiHoYoSDKUIContainer; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_PLUGINUI_MIHOYOSDKUICONTAINER___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C6B30D0)
-#define MIHOYO_SDK_PLUGINUI_MIHOYOSDKUICONTAINER___C__DISPLAYCLASS19_0__DOLISTITEMACTION_B__0_OFFSET UNITYSDK_OFFSET(0x1C6B3DA0)
+#define MIHOYO_SDK_PLUGINUI_MIHOYOSDKUICONTAINER___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB02A080)
+#define MIHOYO_SDK_PLUGINUI_MIHOYOSDKUICONTAINER___C__DISPLAYCLASS19_0__DOLISTITEMACTION_B__0_OFFSET UNITYSDK_OFFSET(0xB02A090)
 
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int MiHoYoSDKUIContainer___c__DisplayClass19_0_TypeDefinitionIndex = 47341;
+	inline static constexpr unsigned int MiHoYoSDKUIContainer___c__DisplayClass19_0_TypeDefinitionIndex = 46881;
 
 	class MiHoYoSDKUIContainer___c__DisplayClass19_0 : public ::System::Object
 	{
 	public:
 		::MiHoYo::SDK::PluginUI::MiHoYoSDKUIContainer* __4__this; // 0x10
-		::System::String* strElementID; // 0x18
-		::System::Action_1<::System::String*>* callback; // 0x20
+		::System::Action_1<::System::String*>* callback; // 0x18
+		::System::String* strElementID; // 0x20
 		::System::Boolean bIsDeleteAction; // 0x28
 		::System::Int32 nItemIndex; // 0x2C
 

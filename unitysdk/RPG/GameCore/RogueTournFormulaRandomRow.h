@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ROGUETOURNFORMULARANDOMROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CCC58B0)
-#define RPG_GAMECORE_ROGUETOURNFORMULARANDOMROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CCC5970)
+#define RPG_GAMECORE_ROGUETOURNFORMULARANDOMROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DA0DE10)
+#define RPG_GAMECORE_ROGUETOURNFORMULARANDOMROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1DA0DED0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueTournFormulaRandomRow_TypeDefinitionIndex = 14840;
+	inline static constexpr unsigned int RogueTournFormulaRandomRow_TypeDefinitionIndex = 15005;
 
 	class RogueTournFormulaRandomRow : public ::System::Object
 	{

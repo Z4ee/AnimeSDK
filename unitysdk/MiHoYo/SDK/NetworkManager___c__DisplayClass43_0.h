@@ -7,13 +7,13 @@ namespace MiHoYo::SDK { class NetworkResponseModel; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_NETWORKMANAGER___C__DISPLAYCLASS43_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A6417C0)
-#define MIHOYO_SDK_NETWORKMANAGER___C__DISPLAYCLASS43_0__POSTREQUEST_B__0_OFFSET UNITYSDK_OFFSET(0x1A644620)
-#define MIHOYO_SDK_NETWORKMANAGER___C__DISPLAYCLASS43_0__POSTREQUEST_B__1_OFFSET UNITYSDK_OFFSET(0x1A644670)
+#define MIHOYO_SDK_NETWORKMANAGER___C__DISPLAYCLASS43_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE85D60)
+#define MIHOYO_SDK_NETWORKMANAGER___C__DISPLAYCLASS43_0__POSTREQUEST_B__0_OFFSET UNITYSDK_OFFSET(0x1BE88BC0)
+#define MIHOYO_SDK_NETWORKMANAGER___C__DISPLAYCLASS43_0__POSTREQUEST_B__1_OFFSET UNITYSDK_OFFSET(0x1BE88C10)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int NetworkManager___c__DisplayClass43_0_TypeDefinitionIndex = 8123;
+	inline static constexpr unsigned int NetworkManager___c__DisplayClass43_0_TypeDefinitionIndex = 8166;
 
 	class NetworkManager___c__DisplayClass43_0 : public ::System::Object
 	{

@@ -5,24 +5,24 @@
 namespace RPG::Client { class RogueTournPersonaGameStyleGiftData; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_ROGUETOURNPERSONASTYLEINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C7B19E0)
-#define RPG_CLIENT_ROGUETOURNPERSONASTYLEINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1C7B1A10)
-#define RPG_CLIENT_ROGUETOURNPERSONASTYLEINFO___C__GETGIFTSFORMENU_B__8_0_OFFSET UNITYSDK_OFFSET(0x1C7B1A20)
+#define RPG_CLIENT_ROGUETOURNPERSONASTYLEINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xE02B1C0)
+#define RPG_CLIENT_ROGUETOURNPERSONASTYLEINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0xE02B1F0)
+#define RPG_CLIENT_ROGUETOURNPERSONASTYLEINFO___C__GETGIFTSFORMENU_B__8_0_OFFSET UNITYSDK_OFFSET(0xE02B200)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournPersonaStyleInfo___c_TypeDefinitionIndex = 67757;
+	inline static constexpr unsigned int RogueTournPersonaStyleInfo___c_TypeDefinitionIndex = 67759;
 
 	class RogueTournPersonaStyleInfo___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::Client::RogueTournPersonaGameStyleGiftData*, ::System::Boolean>** StaticGet___9__8_0()
-		{
-			return (::System::Func_2<::RPG::Client::RogueTournPersonaGameStyleGiftData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournPersonaStyleInfo___c_TypeDefinitionIndex)->GetStaticField(0x18080);
-		}
 		static ::RPG::Client::RogueTournPersonaStyleInfo___c** StaticGet___9()
 		{
-			return (::RPG::Client::RogueTournPersonaStyleInfo___c**)Il2CppClass::FromTypeDefinitionIndex(RogueTournPersonaStyleInfo___c_TypeDefinitionIndex)->GetStaticField(0x18088);
+			return (::RPG::Client::RogueTournPersonaStyleInfo___c**)Il2CppClass::FromTypeDefinitionIndex(RogueTournPersonaStyleInfo___c_TypeDefinitionIndex)->GetStaticField(0x6B2C0);
+		}
+		static ::System::Func_2<::RPG::Client::RogueTournPersonaGameStyleGiftData*, ::System::Boolean>** StaticGet___9__8_0()
+		{
+			return (::System::Func_2<::RPG::Client::RogueTournPersonaGameStyleGiftData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournPersonaStyleInfo___c_TypeDefinitionIndex)->GetStaticField(0x6B2C8);
 		}
 
 		static ::System::Void _cctor()

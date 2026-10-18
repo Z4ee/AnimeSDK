@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ResolvedIntentKind_TypeDefinitionIndex = 62246;
+	inline static constexpr unsigned int ResolvedIntentKind_TypeDefinitionIndex = 62163;
 
 	enum class ResolvedIntentKind : ::System::Int32
 	{

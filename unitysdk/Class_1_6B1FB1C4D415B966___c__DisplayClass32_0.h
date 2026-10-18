@@ -8,16 +8,16 @@ class Class_2_230F5EDDB35DAEBA;
 namespace RPG::Client { class MonoEffect; }
 namespace RPG::Client::RoadRash { class MonoRoadRashGameCar; }
 
-#define CLASS_1_6B1FB1C4D415B966___C__DISPLAYCLASS32_0__CTOR_OFFSET UNITYSDK_OFFSET(0x157F70B0)
-#define CLASS_1_6B1FB1C4D415B966___C__DISPLAYCLASS32_0__FIRECAREFFECT_B__0_OFFSET UNITYSDK_OFFSET(0x1580F250)
+#define CLASS_1_6B1FB1C4D415B966___C__DISPLAYCLASS32_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCC67B30)
+#define CLASS_1_6B1FB1C4D415B966___C__DISPLAYCLASS32_0__FIRECAREFFECT_B__0_OFFSET UNITYSDK_OFFSET(0xCC7FE10)
 
-inline static constexpr unsigned int Class_1_6B1FB1C4D415B966___c__DisplayClass32_0_TypeDefinitionIndex = 75503;
+inline static constexpr unsigned int Class_1_6B1FB1C4D415B966___c__DisplayClass32_0_TypeDefinitionIndex = 75918;
 
 class Class_1_6B1FB1C4D415B966___c__DisplayClass32_0 : public ::System::Object
 {
 public:
-	::Class_1_6B1FB1C4D415B966* __4__this; // 0x10
-	::Class_2_230F5EDDB35DAEBA* entity; // 0x18
+	::Class_2_230F5EDDB35DAEBA* entity; // 0x10
+	::Class_1_6B1FB1C4D415B966* __4__this; // 0x18
 	::RPG::Client::RoadRash::MonoRoadRashGameCar* monoCar; // 0x20
 
 	::System::Void _ctor()

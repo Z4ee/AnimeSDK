@@ -6,10 +6,10 @@
 namespace RPG::GameCore { class SetDynamicValueByStatusCount; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_3167B359CEECB096_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x176F6970)
-#define CLASS_3_3167B359CEECB096__CTOR_OFFSET UNITYSDK_OFFSET(0x176F6890)
+#define CLASS_3_3167B359CEECB096_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBCF6990)
+#define CLASS_3_3167B359CEECB096__CTOR_OFFSET UNITYSDK_OFFSET(0xBCF68B0)
 
-inline static constexpr unsigned int Class_3_3167B359CEECB096_TypeDefinitionIndex = 55662;
+inline static constexpr unsigned int Class_3_3167B359CEECB096_TypeDefinitionIndex = 55470;
 
 class Class_3_3167B359CEECB096 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetDynamicValueByStatusCount*>
 {

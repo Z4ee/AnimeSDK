@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCERECORDBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C86F150)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCERECORDBASE__CTOR_OFFSET UNITYSDK_OFFSET(0xC945FD0)
 
 namespace RPG::Client::Challenge::Tierce
 {
-	inline static constexpr unsigned int ChallengeTierceRecordBase_TypeDefinitionIndex = 80136;
+	inline static constexpr unsigned int ChallengeTierceRecordBase_TypeDefinitionIndex = 81464;
 
 	class ChallengeTierceRecordBase : public ::System::Object
 	{

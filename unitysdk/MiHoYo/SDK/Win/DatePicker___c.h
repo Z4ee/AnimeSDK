@@ -5,24 +5,24 @@
 namespace MiHoYo::SDK::Win { class DatePicker; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_WIN_DATEPICKER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15D30A60)
-#define MIHOYO_SDK_WIN_DATEPICKER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15D30AA0)
-#define MIHOYO_SDK_WIN_DATEPICKER___C__SHOW_B__39_0_OFFSET UNITYSDK_OFFSET(0x15D30AB0)
+#define MIHOYO_SDK_WIN_DATEPICKER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BD10EB0)
+#define MIHOYO_SDK_WIN_DATEPICKER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD10EF0)
+#define MIHOYO_SDK_WIN_DATEPICKER___C__SHOW_B__39_0_OFFSET UNITYSDK_OFFSET(0x1BD10F00)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int DatePicker___c_TypeDefinitionIndex = 9227;
+	inline static constexpr unsigned int DatePicker___c_TypeDefinitionIndex = 9289;
 
 	class DatePicker___c : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::MiHoYo::SDK::Win::DatePicker*>** StaticGet___9__39_0()
-		{
-			return (::System::Action_1<::MiHoYo::SDK::Win::DatePicker*>**)Il2CppClass::FromTypeDefinitionIndex(DatePicker___c_TypeDefinitionIndex)->GetStaticField(0x2B6A0);
-		}
 		static ::MiHoYo::SDK::Win::DatePicker___c** StaticGet___9()
 		{
-			return (::MiHoYo::SDK::Win::DatePicker___c**)Il2CppClass::FromTypeDefinitionIndex(DatePicker___c_TypeDefinitionIndex)->GetStaticField(0x2B6A8);
+			return (::MiHoYo::SDK::Win::DatePicker___c**)Il2CppClass::FromTypeDefinitionIndex(DatePicker___c_TypeDefinitionIndex)->GetStaticField(0x30C50);
+		}
+		static ::System::Action_1<::MiHoYo::SDK::Win::DatePicker*>** StaticGet___9__39_0()
+		{
+			return (::System::Action_1<::MiHoYo::SDK::Win::DatePicker*>**)Il2CppClass::FromTypeDefinitionIndex(DatePicker___c_TypeDefinitionIndex)->GetStaticField(0x30C58);
 		}
 
 		static ::System::Void _cctor()

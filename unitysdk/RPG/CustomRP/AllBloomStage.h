@@ -5,11 +5,11 @@
 namespace RPG::CustomRP { class BloomStage; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CUSTOMRP_ALLBLOOMSTAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x19299440)
+#define RPG_CUSTOMRP_ALLBLOOMSTAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CBBF5A0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int AllBloomStage_TypeDefinitionIndex = 37103;
+	inline static constexpr unsigned int AllBloomStage_TypeDefinitionIndex = 37788;
 
 	class AllBloomStage : public ::System::Object
 	{

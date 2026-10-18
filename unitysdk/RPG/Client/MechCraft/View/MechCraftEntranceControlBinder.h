@@ -1,0 +1,125 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/MechCraft/View/MechCraftBinderBase.h"
+
+namespace RPG::Client { class AnimatorButton; }
+namespace RPG::Client { class LocalizedText; }
+namespace RPG::Client { class MonoAnimationTrigger; }
+namespace RPG::Client { class UIStateCtrl; }
+namespace RPG::Client::MechCraft::View { class MechCraftCoinIconControl; }
+namespace RPG::Client::MechCraft::View { class MechCraftEntranceRevenueControl; }
+namespace RPG::Client::MechCraft::View { class MechCraftTalentTreeEntranceControl; }
+namespace UnityEngine { class Animation; }
+namespace UnityEngine { class RectTransform; }
+
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTENTRANCECONTROLBINDER_GET_ANIMHINT_OFFSET UNITYSDK_OFFSET(0xD6350C0)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTENTRANCECONTROLBINDER_GET_ANIMTRIGGER_OFFSET UNITYSDK_OFFSET(0xD6347A0)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTENTRANCECONTROLBINDER_GET_BTNCLOSE_OFFSET UNITYSDK_OFFSET(0xD635580)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTENTRANCECONTROLBINDER_GET_BTNDIY_OFFSET UNITYSDK_OFFSET(0xD635420)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTENTRANCECONTROLBINDER_GET_BTNRESIDENTREWARD_OFFSET UNITYSDK_OFFSET(0xD6354D0)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTENTRANCECONTROLBINDER_GET_BTNSTART_OFFSET UNITYSDK_OFFSET(0xD634BF0)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTENTRANCECONTROLBINDER_GET_HINTRESIDENTREWARDCLAIMABLE_OFFSET UNITYSDK_OFFSET(0xD634B40)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTENTRANCECONTROLBINDER_GET_HINTSTATE_OFFSET UNITYSDK_OFFSET(0xD635010)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTENTRANCECONTROLBINDER_GET_IMGCOINCONTROL_OFFSET UNITYSDK_OFFSET(0xD634EB0)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTENTRANCECONTROLBINDER_GET_REVENUE_OFFSET UNITYSDK_OFFSET(0xD634960)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTENTRANCECONTROLBINDER_GET_TALENTTREEENTRANCE_OFFSET UNITYSDK_OFFSET(0xD634A90)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTENTRANCECONTROLBINDER_GET_TEXTBTNSTART_OFFSET UNITYSDK_OFFSET(0xD634F60)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTENTRANCECONTROLBINDER_GET_TEXTDESIGNLEVEL_OFFSET UNITYSDK_OFFSET(0xD634E00)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTENTRANCECONTROLBINDER_GET_TEXTHINT_OFFSET UNITYSDK_OFFSET(0xD635630)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTENTRANCECONTROLBINDER_GET_TEXTTARGETCURRENCY_OFFSET UNITYSDK_OFFSET(0xD634D50)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTENTRANCECONTROLBINDER_GET_TEXTTARGETPROGRESS_OFFSET UNITYSDK_OFFSET(0xD634CA0)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTENTRANCECONTROLBINDER__CTOR_OFFSET UNITYSDK_OFFSET(0xD6356E0)
+
+namespace RPG::Client::MechCraft::View
+{
+	inline static constexpr unsigned int MechCraftEntranceControlBinder_TypeDefinitionIndex = 79954;
+
+	class MechCraftEntranceControlBinder : public ::RPG::Client::MechCraft::View::MechCraftBinderBase
+	{
+	public:
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTENTRANCECONTROLBINDER__CTOR_OFFSET))(this);
+		}
+
+		::RPG::Client::AnimatorButton* get_BtnDiy()
+		{
+			return ((::RPG::Client::AnimatorButton*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTENTRANCECONTROLBINDER_GET_BTNDIY_OFFSET))(this);
+		}
+
+		::RPG::Client::MechCraft::View::MechCraftTalentTreeEntranceControl* get_TalentTreeEntrance()
+		{
+			return ((::RPG::Client::MechCraft::View::MechCraftTalentTreeEntranceControl*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTENTRANCECONTROLBINDER_GET_TALENTTREEENTRANCE_OFFSET))(this);
+		}
+
+		::RPG::Client::AnimatorButton* get_BtnResidentReward()
+		{
+			return ((::RPG::Client::AnimatorButton*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTENTRANCECONTROLBINDER_GET_BTNRESIDENTREWARD_OFFSET))(this);
+		}
+
+		::UnityEngine::RectTransform* get_HintResidentRewardClaimable()
+		{
+			return ((::UnityEngine::RectTransform*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTENTRANCECONTROLBINDER_GET_HINTRESIDENTREWARDCLAIMABLE_OFFSET))(this);
+		}
+
+		::RPG::Client::AnimatorButton* get_BtnClose()
+		{
+			return ((::RPG::Client::AnimatorButton*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTENTRANCECONTROLBINDER_GET_BTNCLOSE_OFFSET))(this);
+		}
+
+		::RPG::Client::AnimatorButton* get_BtnStart()
+		{
+			return ((::RPG::Client::AnimatorButton*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTENTRANCECONTROLBINDER_GET_BTNSTART_OFFSET))(this);
+		}
+
+		::RPG::Client::MechCraft::View::MechCraftEntranceRevenueControl* get_Revenue()
+		{
+			return ((::RPG::Client::MechCraft::View::MechCraftEntranceRevenueControl*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTENTRANCECONTROLBINDER_GET_REVENUE_OFFSET))(this);
+		}
+
+		::RPG::Client::LocalizedText* get_TextTargetCurrency()
+		{
+			return ((::RPG::Client::LocalizedText*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTENTRANCECONTROLBINDER_GET_TEXTTARGETCURRENCY_OFFSET))(this);
+		}
+
+		::RPG::Client::LocalizedText* get_TextTargetProgress()
+		{
+			return ((::RPG::Client::LocalizedText*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTENTRANCECONTROLBINDER_GET_TEXTTARGETPROGRESS_OFFSET))(this);
+		}
+
+		::RPG::Client::LocalizedText* get_TextDesignLevel()
+		{
+			return ((::RPG::Client::LocalizedText*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTENTRANCECONTROLBINDER_GET_TEXTDESIGNLEVEL_OFFSET))(this);
+		}
+
+		::RPG::Client::MechCraft::View::MechCraftCoinIconControl* get_ImgCoinControl()
+		{
+			return ((::RPG::Client::MechCraft::View::MechCraftCoinIconControl*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTENTRANCECONTROLBINDER_GET_IMGCOINCONTROL_OFFSET))(this);
+		}
+
+		::RPG::Client::LocalizedText* get_TextHint()
+		{
+			return ((::RPG::Client::LocalizedText*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTENTRANCECONTROLBINDER_GET_TEXTHINT_OFFSET))(this);
+		}
+
+		::RPG::Client::LocalizedText* get_TextBtnStart()
+		{
+			return ((::RPG::Client::LocalizedText*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTENTRANCECONTROLBINDER_GET_TEXTBTNSTART_OFFSET))(this);
+		}
+
+		::RPG::Client::UIStateCtrl* get_HintState()
+		{
+			return ((::RPG::Client::UIStateCtrl*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTENTRANCECONTROLBINDER_GET_HINTSTATE_OFFSET))(this);
+		}
+
+		::UnityEngine::Animation* get_AnimHint()
+		{
+			return ((::UnityEngine::Animation*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTENTRANCECONTROLBINDER_GET_ANIMHINT_OFFSET))(this);
+		}
+
+		::RPG::Client::MonoAnimationTrigger* get_AnimTrigger()
+		{
+			return ((::RPG::Client::MonoAnimationTrigger*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTENTRANCECONTROLBINDER_GET_ANIMTRIGGER_OFFSET))(this);
+		}
+	};
+}

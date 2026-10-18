@@ -5,20 +5,20 @@
 namespace RPG::GameCore { class World3DMapEntranceConfigRow; }
 namespace System { class String; }
 
-#define RPG_CLIENT_WORLD3DMAPENTRANCECONFIG_CREATE_OFFSET UNITYSDK_OFFSET(0x1681AEB0)
-#define RPG_CLIENT_WORLD3DMAPENTRANCECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1681AF50)
+#define RPG_CLIENT_WORLD3DMAPENTRANCECONFIG_CREATE_OFFSET UNITYSDK_OFFSET(0xE474D40)
+#define RPG_CLIENT_WORLD3DMAPENTRANCECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xE474DE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int World3DMapEntranceConfig_TypeDefinitionIndex = 68250;
+	inline static constexpr unsigned int World3DMapEntranceConfig_TypeDefinitionIndex = 68281;
 
 	class World3DMapEntranceConfig : public ::System::Object
 	{
 	public:
 		::System::String* Anchor; // 0x10
-		::System::UInt32 ID; // 0x18
-		::System::UInt32 FormID; // 0x1C
-		::System::UInt32 Priority; // 0x20
+		::System::UInt32 FormID; // 0x18
+		::System::UInt32 Priority; // 0x1C
+		::System::UInt32 ID; // 0x20
 
 		::System::Void _ctor()
 		{

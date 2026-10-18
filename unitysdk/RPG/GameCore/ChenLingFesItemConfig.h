@@ -7,13 +7,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ChenLingFesPosition; }
 namespace RPG::GameCore { class PreviewCellPerformConfig; }
 
-#define RPG_GAMECORE_CHENLINGFESITEMCONFIG_METHOD_3_89760219F30609A1_OFFSET UNITYSDK_OFFSET(0x1E015090)
-#define RPG_GAMECORE_CHENLINGFESITEMCONFIG_METHOD_3_B731C295AFC01886_OFFSET UNITYSDK_OFFSET(0x1E015100)
-#define RPG_GAMECORE_CHENLINGFESITEMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1E0150F0)
+#define RPG_GAMECORE_CHENLINGFESITEMCONFIG_METHOD_3_349AFCC42773436F_OFFSET UNITYSDK_OFFSET(0x1D5608C0)
+#define RPG_GAMECORE_CHENLINGFESITEMCONFIG_METHOD_3_89760219F30609A1_OFFSET UNITYSDK_OFFSET(0x1D560850)
+#define RPG_GAMECORE_CHENLINGFESITEMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5608B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingFesItemConfig_TypeDefinitionIndex = 18225;
+	inline static constexpr unsigned int ChenLingFesItemConfig_TypeDefinitionIndex = 18440;
 
 	class ChenLingFesItemConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
@@ -40,9 +40,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChenLingFesItemConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGFESITEMCONFIG_METHOD_3_89760219F30609A1_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_B731C295AFC01886(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChenLingFesItemConfig* a2)
+		static ::System::Void Method_3_349AFCC42773436F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChenLingFesItemConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChenLingFesItemConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGFESITEMCONFIG_METHOD_3_B731C295AFC01886_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChenLingFesItemConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGFESITEMCONFIG_METHOD_3_349AFCC42773436F_OFFSET))(a1, a2);
 		}
 	};
 }

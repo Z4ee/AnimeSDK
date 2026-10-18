@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ATLASUNLOCKTEXTMAPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1C579FB0)
-#define RPG_GAMECORE_ATLASUNLOCKTEXTMAPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1C57A130)
+#define RPG_GAMECORE_ATLASUNLOCKTEXTMAPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3D37D0)
+#define RPG_GAMECORE_ATLASUNLOCKTEXTMAPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3D3950)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AtlasUnlockTextmapRow_TypeDefinitionIndex = 12600;
+	inline static constexpr unsigned int AtlasUnlockTextmapRow_TypeDefinitionIndex = 12690;
 
 	class AtlasUnlockTextmapRow : public ::System::Object
 	{

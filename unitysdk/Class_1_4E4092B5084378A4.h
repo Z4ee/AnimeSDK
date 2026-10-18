@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/GameCore/FateRinActionIntentType.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_4E4092B5084378A4__CTOR_OFFSET UNITYSDK_OFFSET(0x19282760)
+#define CLASS_1_4E4092B5084378A4__CTOR_OFFSET UNITYSDK_OFFSET(0xBFF7D90)
 
-inline static constexpr unsigned int Class_1_4E4092B5084378A4_TypeDefinitionIndex = 79267;
+inline static constexpr unsigned int Class_1_4E4092B5084378A4_TypeDefinitionIndex = 80591;
 
 class Class_1_4E4092B5084378A4 : public ::System::Object
 {

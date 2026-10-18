@@ -11,11 +11,11 @@ namespace System::Diagnostics::Tracing { class EventDispatcher; }
 namespace System::Diagnostics::Tracing { class EventListener; }
 namespace System::Diagnostics::Tracing { class EventSource; }
 
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTCOMMANDEVENTARGS_GET_ARGUMENTS_OFFSET UNITYSDK_OFFSET(0x1AB5A8A0)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTCOMMANDEVENTARGS_GET_COMMAND_OFFSET UNITYSDK_OFFSET(0x1AB5A880)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTCOMMANDEVENTARGS_SET_ARGUMENTS_OFFSET UNITYSDK_OFFSET(0x1AB5A8B0)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTCOMMANDEVENTARGS_SET_COMMAND_OFFSET UNITYSDK_OFFSET(0x1AB5A890)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTCOMMANDEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1AB5A8C0)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTCOMMANDEVENTARGS_GET_ARGUMENTS_OFFSET UNITYSDK_OFFSET(0x1C1AC890)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTCOMMANDEVENTARGS_GET_COMMAND_OFFSET UNITYSDK_OFFSET(0x1C1AC870)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTCOMMANDEVENTARGS_SET_ARGUMENTS_OFFSET UNITYSDK_OFFSET(0x1C1AC8A0)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTCOMMANDEVENTARGS_SET_COMMAND_OFFSET UNITYSDK_OFFSET(0x1C1AC880)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTCOMMANDEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1C1AC8B0)
 
 namespace System::Diagnostics::Tracing
 {
@@ -24,17 +24,17 @@ namespace System::Diagnostics::Tracing
 	class EventCommandEventArgs : public ::System::EventArgs
 	{
 	public:
-		::System::Diagnostics::Tracing::EventDispatcher* dispatcher; // 0x10
-		::System::Diagnostics::Tracing::EventListener* listener; // 0x18
+		::System::Diagnostics::Tracing::EventListener* listener; // 0x10
+		::System::Diagnostics::Tracing::EventDispatcher* dispatcher; // 0x18
 		::System::Diagnostics::Tracing::EventCommandEventArgs* nextCommand; // 0x20
-		::System::Diagnostics::Tracing::EventSource* eventSource; // 0x28
-		::System::Collections::Generic::IDictionary_2<::System::String*, ::System::String*>* _Arguments_k__BackingField; // 0x30
+		::System::Collections::Generic::IDictionary_2<::System::String*, ::System::String*>* _Arguments_k__BackingField; // 0x28
+		::System::Diagnostics::Tracing::EventSource* eventSource; // 0x30
 		::System::Diagnostics::Tracing::EventKeywords matchAnyKeyword; // 0x38
 		::System::Diagnostics::Tracing::EventLevel level; // 0x40
-		::System::Diagnostics::Tracing::EventCommand _Command_k__BackingField; // 0x44
-		::System::Int32 perEventSourceSessionId; // 0x48
+		::System::Int32 etwSessionId; // 0x44
+		::System::Diagnostics::Tracing::EventCommand _Command_k__BackingField; // 0x48
 		::System::Boolean enable; // 0x4C
-		::System::Int32 etwSessionId; // 0x50
+		::System::Int32 perEventSourceSessionId; // 0x50
 
 		::System::Void _ctor(::System::Diagnostics::Tracing::EventCommand a1, ::System::Collections::Generic::IDictionary_2<::System::String*, ::System::String*>* a2, ::System::Diagnostics::Tracing::EventSource* a3, ::System::Diagnostics::Tracing::EventListener* a4, ::System::Int32 a5, ::System::Int32 a6, ::System::Boolean a7, ::System::Diagnostics::Tracing::EventLevel a8, ::System::Diagnostics::Tracing::EventKeywords a9)
 		{

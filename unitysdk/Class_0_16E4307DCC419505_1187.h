@@ -1,10 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/GenderType.h"
 
-class Class_0_16E4307DCC419505_1064;
-class Class_1_3F28033F34305C46;
+namespace RPG::Client { class Product; }
+namespace System { class Object; }
+namespace System { class String; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_1187_TypeDefinitionIndex = 73782;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_1187_TypeDefinitionIndex = 71169;
 
 class Class_0_16E4307DCC419505_1187
 {

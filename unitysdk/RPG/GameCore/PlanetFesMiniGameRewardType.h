@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlanetFesMiniGameRewardType_TypeDefinitionIndex = 12102;
+	inline static constexpr unsigned int PlanetFesMiniGameRewardType_TypeDefinitionIndex = 12183;
 
 	enum class PlanetFesMiniGameRewardType : ::System::Int32
 	{

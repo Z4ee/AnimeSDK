@@ -6,14 +6,14 @@
 namespace RPG::Client { class GridFightEquipCraftRecipe; }
 namespace RPG::Client { class GridFightEquipCraftRecipeCollection; }
 namespace RPG::Client { class GridFightEquipInfo; }
-template <typename T1, typename T2> class __f__AnonymousType1_2;
+template <typename T1, typename T2> class __f__AnonymousType2_2;
 
-#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTMAPINFO___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C978F60)
-#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTMAPINFO___C__DISPLAYCLASS4_0__GETRECIPESCANCRAFT_B__2_OFFSET UNITYSDK_OFFSET(0x1C9797E0)
+#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTMAPINFO___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD107B50)
+#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTMAPINFO___C__DISPLAYCLASS4_0__GETRECIPESCANCRAFT_B__2_OFFSET UNITYSDK_OFFSET(0xD1082F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightEquipCraftMapInfo___c__DisplayClass4_0_TypeDefinitionIndex = 64581;
+	inline static constexpr unsigned int GridFightEquipCraftMapInfo___c__DisplayClass4_0_TypeDefinitionIndex = 64521;
 
 	class GridFightEquipCraftMapInfo___c__DisplayClass4_0 : public ::System::Object
 	{
@@ -25,9 +25,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPCRAFTMAPINFO___C__DISPLAYCLASS4_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _GetRecipesCanCraft_b__2(::__f__AnonymousType1_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::GridFightEquipCraftRecipeCollection*>, ::RPG::Client::GridFightEquipCraftRecipe*>* a1)
+		::System::Boolean _GetRecipesCanCraft_b__2(::__f__AnonymousType2_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::GridFightEquipCraftRecipeCollection*>, ::RPG::Client::GridFightEquipCraftRecipe*>* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::__f__AnonymousType1_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::GridFightEquipCraftRecipeCollection*>, ::RPG::Client::GridFightEquipCraftRecipe*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPCRAFTMAPINFO___C__DISPLAYCLASS4_0__GETRECIPESCANCRAFT_B__2_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::__f__AnonymousType2_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::GridFightEquipCraftRecipeCollection*>, ::RPG::Client::GridFightEquipCraftRecipe*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPCRAFTMAPINFO___C__DISPLAYCLASS4_0__GETRECIPESCANCRAFT_B__2_OFFSET))(this, a1);
 		}
 	};
 }

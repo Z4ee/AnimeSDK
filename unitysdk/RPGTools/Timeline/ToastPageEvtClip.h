@@ -7,12 +7,12 @@
 namespace RPGTools::Timeline { class ToastPageBehaviour; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_TOASTPAGEEVTCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1BF2C7E0)
-#define RPGTOOLS_TIMELINE_TOASTPAGEEVTCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF2C980)
+#define RPGTOOLS_TIMELINE_TOASTPAGEEVTCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE942810)
+#define RPGTOOLS_TIMELINE_TOASTPAGEEVTCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xE9429B0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int ToastPageEvtClip_TypeDefinitionIndex = 48865;
+	inline static constexpr unsigned int ToastPageEvtClip_TypeDefinitionIndex = 48411;
 
 	class ToastPageEvtClip : public ::RPGTools::Timeline::CustomEventClip
 	{

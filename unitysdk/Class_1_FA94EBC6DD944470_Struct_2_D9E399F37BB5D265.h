@@ -5,7 +5,7 @@
 class Class_2_B9E8C2EEAA5C96EC;
 namespace RPG::GameCore { class LittleGameEvent; }
 
-inline static constexpr unsigned int Class_1_FA94EBC6DD944470_Struct_2_D9E399F37BB5D265_TypeDefinitionIndex = 76417;
+inline static constexpr unsigned int Class_1_FA94EBC6DD944470_Struct_2_D9E399F37BB5D265_TypeDefinitionIndex = 76894;
 
 struct alignas(8) Class_1_FA94EBC6DD944470_Struct_2_D9E399F37BB5D265
 {

@@ -10,25 +10,25 @@ namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI { class Image; }
 namespace UnityEngine::UI { class Text; }
 
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSINTERVIEWCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x1C535E80)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSINTERVIEWCONTROL__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x1C534E90)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSINTERVIEWCONTROL__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0x1C534DA0)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSINTERVIEWCONTROL__SETUPDECO_OFFSET UNITYSDK_OFFSET(0x1C5356D0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSINTERVIEWCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0xD3A39E0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSINTERVIEWCONTROL__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0xD3A29F0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSINTERVIEWCONTROL__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0xD3A28D0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSINTERVIEWCONTROL__SETUPDECO_OFFSET UNITYSDK_OFFSET(0xD3A3230)
 
 namespace RPG::Client::LimaoNews
 {
-	inline static constexpr unsigned int LimaoNewsInterviewControl_TypeDefinitionIndex = 79061;
+	inline static constexpr unsigned int LimaoNewsInterviewControl_TypeDefinitionIndex = 80384;
 
 	class LimaoNewsInterviewControl : public ::Sofa::BaseSofaControl
 	{
 	public:
-		::RPG::Client::MonoPrefabSwitcher* _PrefabSwitcher; // 0x38
-		::RPG::Client::AnimatorButton* _Btn; // 0x40
-		::UnityEngine::UI::Image* _InterviewImage; // 0x48
-		::UnityEngine::UI::Text* _InterviewTitle; // 0x50
-		::UnityEngine::UI::Text* _InterviewIntro; // 0x58
-		::RPG::Client::PrefabLoadMeta* _DecoPrefabLoad; // 0x60
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::Transform*>* _DecoPrefabs; // 0x68
+		::RPG::Client::MonoPrefabSwitcher* _PrefabSwitcher; // 0x40
+		::RPG::Client::AnimatorButton* _Btn; // 0x48
+		::UnityEngine::UI::Image* _InterviewImage; // 0x50
+		::UnityEngine::UI::Text* _InterviewTitle; // 0x58
+		::UnityEngine::UI::Text* _InterviewIntro; // 0x60
+		::RPG::Client::PrefabLoadMeta* _DecoPrefabLoad; // 0x68
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::Transform*>* _DecoPrefabs; // 0x70
 
 		::System::Void _ctor()
 		{

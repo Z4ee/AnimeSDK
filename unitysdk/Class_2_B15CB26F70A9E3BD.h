@@ -10,10 +10,10 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_B15CB26F70A9E3BD_METHOD_2_DFC598624F4DD14B_OFFSET UNITYSDK_OFFSET(0x18A002A0)
-#define CLASS_2_B15CB26F70A9E3BD__CTOR_OFFSET UNITYSDK_OFFSET(0x18A00230)
+#define CLASS_2_B15CB26F70A9E3BD_METHOD_2_DFC598624F4DD14B_OFFSET UNITYSDK_OFFSET(0x15E191B0)
+#define CLASS_2_B15CB26F70A9E3BD__CTOR_OFFSET UNITYSDK_OFFSET(0x15E19140)
 
-inline static constexpr unsigned int Class_2_B15CB26F70A9E3BD_TypeDefinitionIndex = 61019;
+inline static constexpr unsigned int Class_2_B15CB26F70A9E3BD_TypeDefinitionIndex = 60922;
 
 class Class_2_B15CB26F70A9E3BD : public ::Class_1_B343FAFD80A8B29B
 {

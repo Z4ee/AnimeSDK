@@ -6,34 +6,34 @@
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define CYSHARP_THREADING_TASKS_PLAYERLOOPHELPER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D753B10)
-#define CYSHARP_THREADING_TASKS_PLAYERLOOPHELPER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1D753B40)
-#define CYSHARP_THREADING_TASKS_PLAYERLOOPHELPER___C__INSERTUNITASKSYNCHRONIZATIONCONTEXT_B__21_0_OFFSET UNITYSDK_OFFSET(0x1D753B50)
-#define CYSHARP_THREADING_TASKS_PLAYERLOOPHELPER___C__INSERTUNITASKSYNCHRONIZATIONCONTEXT_B__21_1_OFFSET UNITYSDK_OFFSET(0x1D753B90)
-#define CYSHARP_THREADING_TASKS_PLAYERLOOPHELPER___C__INSERTUNITASKSYNCHRONIZATIONCONTEXT_B__21_2_OFFSET UNITYSDK_OFFSET(0x1D753C50)
+#define CYSHARP_THREADING_TASKS_PLAYERLOOPHELPER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F0F5800)
+#define CYSHARP_THREADING_TASKS_PLAYERLOOPHELPER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1F0F5830)
+#define CYSHARP_THREADING_TASKS_PLAYERLOOPHELPER___C__INSERTUNITASKSYNCHRONIZATIONCONTEXT_B__21_0_OFFSET UNITYSDK_OFFSET(0x1F0F5840)
+#define CYSHARP_THREADING_TASKS_PLAYERLOOPHELPER___C__INSERTUNITASKSYNCHRONIZATIONCONTEXT_B__21_1_OFFSET UNITYSDK_OFFSET(0x1F0F5880)
+#define CYSHARP_THREADING_TASKS_PLAYERLOOPHELPER___C__INSERTUNITASKSYNCHRONIZATIONCONTEXT_B__21_2_OFFSET UNITYSDK_OFFSET(0x1F0F5940)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int PlayerLoopHelper___c_TypeDefinitionIndex = 42624;
+	inline static constexpr unsigned int PlayerLoopHelper___c_TypeDefinitionIndex = 38209;
 
 	class PlayerLoopHelper___c : public ::System::Object
 	{
 	public:
+		static ::System::Predicate_1<::UnityEngine::LowLevel::PlayerLoopSystem>** StaticGet___9__21_2()
+		{
+			return (::System::Predicate_1<::UnityEngine::LowLevel::PlayerLoopSystem>**)Il2CppClass::FromTypeDefinitionIndex(PlayerLoopHelper___c_TypeDefinitionIndex)->GetStaticField(0x372B0);
+		}
 		static ::System::Func_2<::UnityEngine::LowLevel::PlayerLoopSystem, ::System::Boolean>** StaticGet___9__21_0()
 		{
-			return (::System::Func_2<::UnityEngine::LowLevel::PlayerLoopSystem, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(PlayerLoopHelper___c_TypeDefinitionIndex)->GetStaticField(0x61C00);
-		}
-		static ::System::Predicate_1<::UnityEngine::LowLevel::PlayerLoopSystem>** StaticGet___9__21_1()
-		{
-			return (::System::Predicate_1<::UnityEngine::LowLevel::PlayerLoopSystem>**)Il2CppClass::FromTypeDefinitionIndex(PlayerLoopHelper___c_TypeDefinitionIndex)->GetStaticField(0x61C08);
+			return (::System::Func_2<::UnityEngine::LowLevel::PlayerLoopSystem, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(PlayerLoopHelper___c_TypeDefinitionIndex)->GetStaticField(0x372B8);
 		}
 		static ::Cysharp::Threading::Tasks::PlayerLoopHelper___c** StaticGet___9()
 		{
-			return (::Cysharp::Threading::Tasks::PlayerLoopHelper___c**)Il2CppClass::FromTypeDefinitionIndex(PlayerLoopHelper___c_TypeDefinitionIndex)->GetStaticField(0x61C10);
+			return (::Cysharp::Threading::Tasks::PlayerLoopHelper___c**)Il2CppClass::FromTypeDefinitionIndex(PlayerLoopHelper___c_TypeDefinitionIndex)->GetStaticField(0x372C0);
 		}
-		static ::System::Predicate_1<::UnityEngine::LowLevel::PlayerLoopSystem>** StaticGet___9__21_2()
+		static ::System::Predicate_1<::UnityEngine::LowLevel::PlayerLoopSystem>** StaticGet___9__21_1()
 		{
-			return (::System::Predicate_1<::UnityEngine::LowLevel::PlayerLoopSystem>**)Il2CppClass::FromTypeDefinitionIndex(PlayerLoopHelper___c_TypeDefinitionIndex)->GetStaticField(0x61C18);
+			return (::System::Predicate_1<::UnityEngine::LowLevel::PlayerLoopSystem>**)Il2CppClass::FromTypeDefinitionIndex(PlayerLoopHelper___c_TypeDefinitionIndex)->GetStaticField(0x372C8);
 		}
 
 		static ::System::Void _cctor()

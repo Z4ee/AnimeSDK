@@ -5,20 +5,20 @@
 namespace System { class Type; }
 namespace System::Reflection { class FieldInfo; }
 
-#define IFIX_CORE_PATCHMANAGER__LOAD_C__ANONSTOREY2__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC6B4B0)
-#define IFIX_CORE_PATCHMANAGER__LOAD_C__ANONSTOREY2___M__0_OFFSET UNITYSDK_OFFSET(0x1CC72AA0)
+#define IFIX_CORE_PATCHMANAGER__LOAD_C__ANONSTOREY2__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9A6EF0)
+#define IFIX_CORE_PATCHMANAGER__LOAD_C__ANONSTOREY2___M__0_OFFSET UNITYSDK_OFFSET(0x1B9AE4C0)
 
 namespace IFix::Core
 {
-	inline static constexpr unsigned int PatchManager__Load_c__AnonStorey2_TypeDefinitionIndex = 10038;
+	inline static constexpr unsigned int PatchManager__Load_c__AnonStorey2_TypeDefinitionIndex = 7105;
 
 	class PatchManager__Load_c__AnonStorey2 : public ::System::Object
 	{
 	public:
 		::System::Type* IFixPatched; // 0x10
 		::System::Reflection::FieldInfo* patchedIDs; // 0x18
-		::System::Int32 maxPos; // 0x20
-		::System::Int32 fixCount; // 0x24
+		::System::Int32 fixCount; // 0x20
+		::System::Int32 maxPos; // 0x24
 
 		::System::Void _ctor()
 		{

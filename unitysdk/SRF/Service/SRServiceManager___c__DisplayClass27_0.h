@@ -6,19 +6,19 @@ namespace SRF::Service { class SRServiceManager_ServiceStub; }
 namespace SRF::Service { class ServiceConstructorAttribute; }
 namespace System::Reflection { class MethodInfo; }
 
-#define SRF_SERVICE_SRSERVICEMANAGER___C__DISPLAYCLASS27_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1EC41A30)
-#define SRF_SERVICE_SRSERVICEMANAGER___C__DISPLAYCLASS27_0__SCANTYPEFORCONSTRUCTORS_B__0_OFFSET UNITYSDK_OFFSET(0x1EC41C70)
-#define SRF_SERVICE_SRSERVICEMANAGER___C__DISPLAYCLASS27_0__SCANTYPEFORCONSTRUCTORS_B__1_OFFSET UNITYSDK_OFFSET(0x1EC41CA0)
+#define SRF_SERVICE_SRSERVICEMANAGER___C__DISPLAYCLASS27_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1ED4C150)
+#define SRF_SERVICE_SRSERVICEMANAGER___C__DISPLAYCLASS27_0__SCANTYPEFORCONSTRUCTORS_B__0_OFFSET UNITYSDK_OFFSET(0x1ED4C3C0)
+#define SRF_SERVICE_SRSERVICEMANAGER___C__DISPLAYCLASS27_0__SCANTYPEFORCONSTRUCTORS_B__1_OFFSET UNITYSDK_OFFSET(0x1ED4C3F0)
 
 namespace SRF::Service
 {
-	inline static constexpr unsigned int SRServiceManager___c__DisplayClass27_0_TypeDefinitionIndex = 34752;
+	inline static constexpr unsigned int SRServiceManager___c__DisplayClass27_0_TypeDefinitionIndex = 35421;
 
 	class SRServiceManager___c__DisplayClass27_0 : public ::System::Object
 	{
 	public:
-		::SRF::Service::ServiceConstructorAttribute* attrib; // 0x10
-		::System::Reflection::MethodInfo* m; // 0x18
+		::System::Reflection::MethodInfo* m; // 0x10
+		::SRF::Service::ServiceConstructorAttribute* attrib; // 0x18
 
 		::System::Void _ctor()
 		{

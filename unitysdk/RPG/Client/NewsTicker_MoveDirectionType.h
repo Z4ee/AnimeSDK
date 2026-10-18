@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int NewsTicker_MoveDirectionType_TypeDefinitionIndex = 68957;
+	inline static constexpr unsigned int NewsTicker_MoveDirectionType_TypeDefinitionIndex = 68993;
 
 	enum class NewsTicker_MoveDirectionType : ::System::Int32
 	{

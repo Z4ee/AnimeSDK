@@ -4,11 +4,11 @@
 
 namespace RPG::Client { class SimpRTXBehavior; }
 
-#define RPG_CLIENT_SIMPRTXMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x196B7470)
+#define RPG_CLIENT_SIMPRTXMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xE0BFEB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SimpRTXMonoPlugin_TypeDefinitionIndex = 70154;
+	inline static constexpr unsigned int SimpRTXMonoPlugin_TypeDefinitionIndex = 70190;
 
 	class SimpRTXMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::SimpRTXBehavior*>
 	{

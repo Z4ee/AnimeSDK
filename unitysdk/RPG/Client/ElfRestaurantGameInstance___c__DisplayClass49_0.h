@@ -6,20 +6,20 @@ namespace RPG::Client::LittleGame { class ElfRestaurantGameEntity; }
 namespace System { class Action; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_ELFRESTAURANTGAMEINSTANCE___C__DISPLAYCLASS49_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A14FEA0)
-#define RPG_CLIENT_ELFRESTAURANTGAMEINSTANCE___C__DISPLAYCLASS49_0___SETUPTABLES_B__0_OFFSET UNITYSDK_OFFSET(0x1A151010)
+#define RPG_CLIENT_ELFRESTAURANTGAMEINSTANCE___C__DISPLAYCLASS49_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCDB9670)
+#define RPG_CLIENT_ELFRESTAURANTGAMEINSTANCE___C__DISPLAYCLASS49_0___SETUPTABLES_B__0_OFFSET UNITYSDK_OFFSET(0xCDBA760)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ElfRestaurantGameInstance___c__DisplayClass49_0_TypeDefinitionIndex = 60498;
+	inline static constexpr unsigned int ElfRestaurantGameInstance___c__DisplayClass49_0_TypeDefinitionIndex = 60386;
 
 	class ElfRestaurantGameInstance___c__DisplayClass49_0 : public ::System::Object
 	{
 	public:
-		::System::Action* onTableLoad; // 0x10
-		::System::Action_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>* __9__0; // 0x18
-		::System::Int32 loadedCount; // 0x20
-		::System::Int32 toLoadCount; // 0x24
+		::System::Action_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>* __9__0; // 0x10
+		::System::Action* onTableLoad; // 0x18
+		::System::Int32 toLoadCount; // 0x20
+		::System::Int32 loadedCount; // 0x24
 
 		::System::Void _ctor()
 		{

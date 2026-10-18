@@ -1,14 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_2_AA09F550E1A23C5D.h"
-#include "unitysdk/RPG/Client/Prop/DestroyRootPuzzleChessType.h"
+#include "unitysdk/Class_2_9C4F8205C3DCBA57_1.h"
 
-#define CLASS_3_DCB7F8B839F0C44B_2_METHOD_3_AD91E5F8037967A4_OFFSET UNITYSDK_OFFSET(0x170C20B0)
-#define CLASS_3_DCB7F8B839F0C44B_2__CTOR_OFFSET UNITYSDK_OFFSET(0x170C2100)
+namespace System { class String; }
 
-inline static constexpr unsigned int Class_3_DCB7F8B839F0C44B_2_TypeDefinitionIndex = 78081;
+#define CLASS_3_DCB7F8B839F0C44B_2_METHOD_3_88B60F3B95FAA4F1_OFFSET UNITYSDK_OFFSET(0x163FD260)
+#define CLASS_3_DCB7F8B839F0C44B_2__CTOR_OFFSET UNITYSDK_OFFSET(0x163FD2D0)
 
-class Class_3_DCB7F8B839F0C44B_2 : public ::Class_2_AA09F550E1A23C5D
+inline static constexpr unsigned int Class_3_DCB7F8B839F0C44B_2_TypeDefinitionIndex = 77568;
+
+class Class_3_DCB7F8B839F0C44B_2 : public ::Class_2_9C4F8205C3DCBA57_1
 {
 public:
 	::System::Void _ctor()
@@ -16,8 +17,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_DCB7F8B839F0C44B_2__CTOR_OFFSET))(this);
 	}
 
-	::RPG::Client::Prop::DestroyRootPuzzleChessType Method_3_AD91E5F8037967A4()
+	::System::String* Method_3_88B60F3B95FAA4F1()
 	{
-		return ((::RPG::Client::Prop::DestroyRootPuzzleChessType(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_DCB7F8B839F0C44B_2_METHOD_3_AD91E5F8037967A4_OFFSET))(this);
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_DCB7F8B839F0C44B_2_METHOD_3_88B60F3B95FAA4F1_OFFSET))(this);
 	}
 };

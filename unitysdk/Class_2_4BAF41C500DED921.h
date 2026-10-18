@@ -7,11 +7,11 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_4BAF41C500DED921_METHOD_2_0A32ABCEA39CED97_OFFSET UNITYSDK_OFFSET(0x19AB7B00)
-#define CLASS_2_4BAF41C500DED921_METHOD_2_E240D159E3150659_OFFSET UNITYSDK_OFFSET(0x19AB7B80)
-#define CLASS_2_4BAF41C500DED921__CTOR_OFFSET UNITYSDK_OFFSET(0x19AB7A80)
+#define CLASS_2_4BAF41C500DED921_METHOD_2_0A32ABCEA39CED97_OFFSET UNITYSDK_OFFSET(0x159D51C0)
+#define CLASS_2_4BAF41C500DED921_METHOD_2_E240D159E3150659_OFFSET UNITYSDK_OFFSET(0x159D5240)
+#define CLASS_2_4BAF41C500DED921__CTOR_OFFSET UNITYSDK_OFFSET(0x159D5140)
 
-inline static constexpr unsigned int Class_2_4BAF41C500DED921_TypeDefinitionIndex = 78514;
+inline static constexpr unsigned int Class_2_4BAF41C500DED921_TypeDefinitionIndex = 78985;
 
 class Class_2_4BAF41C500DED921 : public ::Class_1_8EE73BB839E63837
 {

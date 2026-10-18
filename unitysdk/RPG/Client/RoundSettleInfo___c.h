@@ -5,24 +5,24 @@
 class Class_1_B9E3601D1336B415;
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_ROUNDSETTLEINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x16A1DE70)
-#define RPG_CLIENT_ROUNDSETTLEINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0x16A1DEB0)
-#define RPG_CLIENT_ROUNDSETTLEINFO___C___CTOR_B__0_0_OFFSET UNITYSDK_OFFSET(0x16A1DEC0)
+#define RPG_CLIENT_ROUNDSETTLEINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xE064030)
+#define RPG_CLIENT_ROUNDSETTLEINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0xE064070)
+#define RPG_CLIENT_ROUNDSETTLEINFO___C___CTOR_B__0_0_OFFSET UNITYSDK_OFFSET(0xE064080)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RoundSettleInfo___c_TypeDefinitionIndex = 61535;
+	inline static constexpr unsigned int RoundSettleInfo___c_TypeDefinitionIndex = 61441;
 
 	class RoundSettleInfo___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::RoundSettleInfo___c** StaticGet___9()
-		{
-			return (::RPG::Client::RoundSettleInfo___c**)Il2CppClass::FromTypeDefinitionIndex(RoundSettleInfo___c_TypeDefinitionIndex)->GetStaticField(0x1B380);
-		}
 		static ::System::Func_2<::Class_1_B9E3601D1336B415*, ::System::UInt32>** StaticGet___9__0_0()
 		{
-			return (::System::Func_2<::Class_1_B9E3601D1336B415*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(RoundSettleInfo___c_TypeDefinitionIndex)->GetStaticField(0x1B388);
+			return (::System::Func_2<::Class_1_B9E3601D1336B415*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(RoundSettleInfo___c_TypeDefinitionIndex)->GetStaticField(0x6B9E0);
+		}
+		static ::RPG::Client::RoundSettleInfo___c** StaticGet___9()
+		{
+			return (::RPG::Client::RoundSettleInfo___c**)Il2CppClass::FromTypeDefinitionIndex(RoundSettleInfo___c_TypeDefinitionIndex)->GetStaticField(0x6B9E8);
 		}
 
 		static ::System::Void _cctor()

@@ -7,12 +7,12 @@ namespace System { class Action; }
 namespace System { class Exception; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_COROUTINEUTILS___C__DISPLAYCLASS22_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C8A8500)
-#define RPG_CLIENT_COROUTINEUTILS___C__DISPLAYCLASS22_0__INVOKEAFTERFRAMESPROMISE_B__0_OFFSET UNITYSDK_OFFSET(0x1C8A8900)
+#define RPG_CLIENT_COROUTINEUTILS___C__DISPLAYCLASS22_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1EC149F0)
+#define RPG_CLIENT_COROUTINEUTILS___C__DISPLAYCLASS22_0__INVOKEAFTERFRAMESPROMISE_B__0_OFFSET UNITYSDK_OFFSET(0x1EC14ED0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CoroutineUtils___c__DisplayClass22_0_TypeDefinitionIndex = 34562;
+	inline static constexpr unsigned int CoroutineUtils___c__DisplayClass22_0_TypeDefinitionIndex = 35226;
 
 	class CoroutineUtils___c__DisplayClass22_0 : public ::System::Object
 	{

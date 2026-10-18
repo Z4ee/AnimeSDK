@@ -4,9 +4,9 @@
 
 namespace System { class String; }
 
-#define SCENELIGHTMANAGERCONFIGDATA_STAGEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF3E9B0)
+#define SCENELIGHTMANAGERCONFIGDATA_STAGEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xE9548B0)
 
-inline static constexpr unsigned int SceneLightManagerConfigData_StageData_TypeDefinitionIndex = 47848;
+inline static constexpr unsigned int SceneLightManagerConfigData_StageData_TypeDefinitionIndex = 47388;
 
 class SceneLightManagerConfigData_StageData : public ::System::Object
 {
@@ -21,6 +21,7 @@ public:
 	::System::Int32 singleFrameUnloadLightCount; // 0x30
 	::System::Int32 flushCount; // 0x34
 	::System::Boolean enableDynamicLightBlock; // 0x38
+	::System::Boolean useLightVolumeExportOrder; // 0x39
 
 	::System::Void _ctor()
 	{

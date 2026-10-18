@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class RtBattleCharacterCameraConfig; }
 namespace RPG::GameCore { class ValueEvaluatorConfig; }
 
-#define RPG_GAMECORE_RTBATTLECHARACTERCONFIG_METHOD_3_53E70177D1609FB4_OFFSET UNITYSDK_OFFSET(0x1CCD5990)
-#define RPG_GAMECORE_RTBATTLECHARACTERCONFIG_METHOD_3_9FFE49F6BD516DAB_OFFSET UNITYSDK_OFFSET(0x1CCD5870)
-#define RPG_GAMECORE_RTBATTLECHARACTERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CCD5910)
+#define RPG_GAMECORE_RTBATTLECHARACTERCONFIG_METHOD_3_9FFE49F6BD516DAB_OFFSET UNITYSDK_OFFSET(0x1DA1E060)
+#define RPG_GAMECORE_RTBATTLECHARACTERCONFIG_METHOD_3_B32C08A51FFCFCE7_OFFSET UNITYSDK_OFFSET(0x1DA1E180)
+#define RPG_GAMECORE_RTBATTLECHARACTERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1DA1E100)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtBattleCharacterConfig_TypeDefinitionIndex = 17825;
+	inline static constexpr unsigned int RtBattleCharacterConfig_TypeDefinitionIndex = 18037;
 
 	class RtBattleCharacterConfig : public ::RPG::GameCore::RtCharacterConfig
 	{
@@ -30,9 +30,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtBattleCharacterConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTBATTLECHARACTERCONFIG_METHOD_3_9FFE49F6BD516DAB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_53E70177D1609FB4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtBattleCharacterConfig* a2)
+		static ::System::Void Method_3_B32C08A51FFCFCE7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtBattleCharacterConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtBattleCharacterConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTBATTLECHARACTERCONFIG_METHOD_3_53E70177D1609FB4_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtBattleCharacterConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTBATTLECHARACTERCONFIG_METHOD_3_B32C08A51FFCFCE7_OFFSET))(a1, a2);
 		}
 	};
 }

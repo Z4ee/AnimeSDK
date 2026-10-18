@@ -3,7 +3,7 @@
 
 namespace RPG::Client::OpenWorld
 {
-	inline static constexpr unsigned int StreamingBlockStatusChangeFlag_TypeDefinitionIndex = 73809;
+	inline static constexpr unsigned int StreamingBlockStatusChangeFlag_TypeDefinitionIndex = 73916;
 
 	enum class StreamingBlockStatusChangeFlag : ::System::Int32
 	{

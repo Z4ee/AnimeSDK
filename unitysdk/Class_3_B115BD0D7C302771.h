@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByCanAutoUseItemToRecoverMP; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_B115BD0D7C302771_EVALUATE_OFFSET UNITYSDK_OFFSET(0x157DEFF0)
-#define CLASS_3_B115BD0D7C302771__CTOR_OFFSET UNITYSDK_OFFSET(0x157DEFC0)
+#define CLASS_3_B115BD0D7C302771_EVALUATE_OFFSET UNITYSDK_OFFSET(0xCC4F1C0)
+#define CLASS_3_B115BD0D7C302771__CTOR_OFFSET UNITYSDK_OFFSET(0xCC4F190)
 
-inline static constexpr unsigned int Class_3_B115BD0D7C302771_TypeDefinitionIndex = 52822;
+inline static constexpr unsigned int Class_3_B115BD0D7C302771_TypeDefinitionIndex = 52548;
 
 class Class_3_B115BD0D7C302771 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByCanAutoUseItemToRecoverMP*>
 {

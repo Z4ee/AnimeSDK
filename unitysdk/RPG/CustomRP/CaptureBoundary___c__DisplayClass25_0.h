@@ -7,21 +7,21 @@ namespace RPG::CustomRP { class CaptureBoundary; }
 namespace RPG::CustomRP { class CaptureBoundary_FetchTextureDelegate; }
 namespace UnityEngine { class Camera; }
 
-#define RPG_CUSTOMRP_CAPTUREBOUNDARY___C__DISPLAYCLASS25_0__CAPTUREIMPL_B__0_OFFSET UNITYSDK_OFFSET(0x192B9EF0)
-#define RPG_CUSTOMRP_CAPTUREBOUNDARY___C__DISPLAYCLASS25_0__CAPTUREIMPL_B__1_OFFSET UNITYSDK_OFFSET(0x192B9F20)
-#define RPG_CUSTOMRP_CAPTUREBOUNDARY___C__DISPLAYCLASS25_0__CAPTUREIMPL_B__2_OFFSET UNITYSDK_OFFSET(0x192B9F50)
-#define RPG_CUSTOMRP_CAPTUREBOUNDARY___C__DISPLAYCLASS25_0__CTOR_OFFSET UNITYSDK_OFFSET(0x192B9440)
+#define RPG_CUSTOMRP_CAPTUREBOUNDARY___C__DISPLAYCLASS25_0__CAPTUREIMPL_B__0_OFFSET UNITYSDK_OFFSET(0x1CBE0190)
+#define RPG_CUSTOMRP_CAPTUREBOUNDARY___C__DISPLAYCLASS25_0__CAPTUREIMPL_B__1_OFFSET UNITYSDK_OFFSET(0x1CBE01C0)
+#define RPG_CUSTOMRP_CAPTUREBOUNDARY___C__DISPLAYCLASS25_0__CAPTUREIMPL_B__2_OFFSET UNITYSDK_OFFSET(0x1CBE01F0)
+#define RPG_CUSTOMRP_CAPTUREBOUNDARY___C__DISPLAYCLASS25_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1CBDF6E0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int CaptureBoundary___c__DisplayClass25_0_TypeDefinitionIndex = 36913;
+	inline static constexpr unsigned int CaptureBoundary___c__DisplayClass25_0_TypeDefinitionIndex = 37598;
 
 	class CaptureBoundary___c__DisplayClass25_0 : public ::System::Object
 	{
 	public:
-		::RPG::CustomRP::CaptureBoundary* __4__this; // 0x10
-		::UnityEngine::Camera* camera; // 0x18
-		::RPG::CustomRP::CaptureBoundary_FetchTextureDelegate* fd; // 0x20
+		::UnityEngine::Camera* camera; // 0x10
+		::RPG::CustomRP::CaptureBoundary_FetchTextureDelegate* fd; // 0x18
+		::RPG::CustomRP::CaptureBoundary* __4__this; // 0x20
 
 		::System::Void _ctor()
 		{

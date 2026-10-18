@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_CUSTOMNOTICEPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1C5FBF30)
+#define MIHOYO_SDK_CUSTOMNOTICEPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE181B0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int CustomNoticeParam_TypeDefinitionIndex = 7526;
+	inline static constexpr unsigned int CustomNoticeParam_TypeDefinitionIndex = 7580;
 
 	class CustomNoticeParam : public ::System::Object
 	{

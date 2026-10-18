@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SpecialStateType_TypeDefinitionIndex = 24205;
+	inline static constexpr unsigned int SpecialStateType_TypeDefinitionIndex = 24484;
 
 	enum class SpecialStateType : ::System::Int32
 	{

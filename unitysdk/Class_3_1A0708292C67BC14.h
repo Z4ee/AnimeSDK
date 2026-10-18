@@ -9,10 +9,10 @@ namespace RPG::Client::OpenWorld { class StreamingItemData; }
 namespace RPG::GameCore { class BlockNodeConfig; }
 namespace System { class String; }
 
-#define CLASS_3_1A0708292C67BC14_GETAPPLYSTREAMINGLAYER_OFFSET UNITYSDK_OFFSET(0x19F8DE10)
-#define CLASS_3_1A0708292C67BC14__CTOR_OFFSET UNITYSDK_OFFSET(0x19F8DDD0)
+#define CLASS_3_1A0708292C67BC14_GETAPPLYSTREAMINGLAYER_OFFSET UNITYSDK_OFFSET(0x16474140)
+#define CLASS_3_1A0708292C67BC14__CTOR_OFFSET UNITYSDK_OFFSET(0x16474100)
 
-inline static constexpr unsigned int Class_3_1A0708292C67BC14_TypeDefinitionIndex = 73788;
+inline static constexpr unsigned int Class_3_1A0708292C67BC14_TypeDefinitionIndex = 73895;
 
 class Class_3_1A0708292C67BC14 : public ::Class_2_7CF36DB1DCE43BAF
 {

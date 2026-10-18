@@ -3,7 +3,7 @@
 
 namespace RootMotion::FinalIK
 {
-	inline static constexpr unsigned int Grounding_EFinalIKLockFootMode_TypeDefinitionIndex = 44866;
+	inline static constexpr unsigned int Grounding_EFinalIKLockFootMode_TypeDefinitionIndex = 46005;
 
 	enum class Grounding_EFinalIKLockFootMode : ::System::Int32
 	{

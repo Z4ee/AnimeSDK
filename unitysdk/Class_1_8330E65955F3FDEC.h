@@ -10,16 +10,16 @@ namespace System { class Action; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 
-#define CLASS_1_8330E65955F3FDEC_CLEAR_OFFSET UNITYSDK_OFFSET(0x1DBE0510)
-#define CLASS_1_8330E65955F3FDEC__CTOR_OFFSET UNITYSDK_OFFSET(0x1DBE0690)
+#define CLASS_1_8330E65955F3FDEC_CLEAR_OFFSET UNITYSDK_OFFSET(0x1CA21EE0)
+#define CLASS_1_8330E65955F3FDEC__CTOR_OFFSET UNITYSDK_OFFSET(0x1CA22060)
 
-inline static constexpr unsigned int Class_1_8330E65955F3FDEC_TypeDefinitionIndex = 40430;
+inline static constexpr unsigned int Class_1_8330E65955F3FDEC_TypeDefinitionIndex = 42019;
 
 class Class_1_8330E65955F3FDEC : public ::System::Object
 {
 public:
-	::RPG::PoolDictionary_2<::System::ValueTuple_2<::System::String*, ::System::Int32>, ::System::Action*>* PJOEHACIIJO; // 0x10
-	::System::Action_3<::System::String*, ::System::UInt32, ::System::Int32>* LGPFAMLMIGD; // 0x18
+	::System::Action_3<::System::String*, ::System::UInt32, ::System::Int32>* LGPFAMLMIGD; // 0x10
+	::RPG::PoolDictionary_2<::System::ValueTuple_2<::System::String*, ::System::Int32>, ::System::Action*>* PJOEHACIIJO; // 0x18
 	::RPG::PoolDictionary_2<::System::ValueTuple_2<::System::String*, ::System::UInt32>, ::System::Action*>* IFFINOBAHLE; // 0x20
 	::RPG::PoolDictionary_2<::System::Int32, ::RPG::PoolHashSet_1<::Struct_2_7C3EF1FF302C26DE>*>* AOPGPJBIHPF; // 0x28
 

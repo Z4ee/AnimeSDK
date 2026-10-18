@@ -13,7 +13,7 @@ namespace UnityEngine { class Object; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int EveryValueChangedUnityObject_2__EveryValueChanged_TypeDefinitionIndex = 44577;
+	inline static constexpr unsigned int EveryValueChangedUnityObject_2__EveryValueChanged_TypeDefinitionIndex = 45716;
 
 	template <typename TTarget, typename TProperty>
 	class EveryValueChangedUnityObject_2__EveryValueChanged : public ::Cysharp::Threading::Tasks::MoveNextSource

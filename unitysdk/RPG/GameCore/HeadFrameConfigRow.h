@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_HEADFRAMECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3CCA70)
-#define RPG_GAMECORE_HEADFRAMECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3CCB70)
+#define RPG_GAMECORE_HEADFRAMECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D727EC0)
+#define RPG_GAMECORE_HEADFRAMECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D727FC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HeadFrameConfigRow_TypeDefinitionIndex = 12882;
+	inline static constexpr unsigned int HeadFrameConfigRow_TypeDefinitionIndex = 12988;
 
 	class HeadFrameConfigRow : public ::System::Object
 	{

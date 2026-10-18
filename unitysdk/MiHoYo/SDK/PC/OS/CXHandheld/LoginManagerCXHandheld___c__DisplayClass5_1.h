@@ -5,12 +5,12 @@
 namespace MiHoYo::SDK { class AccountModel; }
 namespace MiHoYo::SDK::PC::OS::CXHandheld { class LoginManagerCXHandheld___c__DisplayClass5_0; }
 
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_LOGINMANAGERCXHANDHELD___C__DISPLAYCLASS5_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1A254470)
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_LOGINMANAGERCXHANDHELD___C__DISPLAYCLASS5_1__ONHANDHELDLOGINCALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0x1A2555B0)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_LOGINMANAGERCXHANDHELD___C__DISPLAYCLASS5_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1BED6D40)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_LOGINMANAGERCXHANDHELD___C__DISPLAYCLASS5_1__ONHANDHELDLOGINCALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0x1BED7E80)
 
 namespace MiHoYo::SDK::PC::OS::CXHandheld
 {
-	inline static constexpr unsigned int LoginManagerCXHandheld___c__DisplayClass5_1_TypeDefinitionIndex = 8700;
+	inline static constexpr unsigned int LoginManagerCXHandheld___c__DisplayClass5_1_TypeDefinitionIndex = 8761;
 
 	class LoginManagerCXHandheld___c__DisplayClass5_1 : public ::System::Object
 	{

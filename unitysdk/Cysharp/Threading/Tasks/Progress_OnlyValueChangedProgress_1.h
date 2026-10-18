@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T> class IEqualityCo
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int Progress_OnlyValueChangedProgress_1_TypeDefinitionIndex = 42633;
+	inline static constexpr unsigned int Progress_OnlyValueChangedProgress_1_TypeDefinitionIndex = 38218;
 
 	template <typename T>
 	class Progress_OnlyValueChangedProgress_1 : public ::System::Object

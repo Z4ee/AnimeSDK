@@ -3,7 +3,7 @@
 
 namespace RPG::Client::OpenWorld
 {
-	inline static constexpr unsigned int OpenWorldDebugTag_TypeDefinitionIndex = 73670;
+	inline static constexpr unsigned int OpenWorldDebugTag_TypeDefinitionIndex = 73778;
 
 	enum class OpenWorldDebugTag : ::System::Int32
 	{
@@ -17,5 +17,6 @@ namespace RPG::Client::OpenWorld
 		TAMonoTick = 64,
 		Fading = 128,
 		BattleArea = 256,
+		Performance = 512,
 	};
 }

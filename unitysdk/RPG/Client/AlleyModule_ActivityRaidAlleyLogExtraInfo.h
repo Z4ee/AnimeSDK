@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AlleyModule_ActivityRaidAlleyLogExtraInfo_TypeDefinitionIndex = 62329;
+	inline static constexpr unsigned int AlleyModule_ActivityRaidAlleyLogExtraInfo_TypeDefinitionIndex = 62246;
 
 	struct alignas(8) AlleyModule_ActivityRaidAlleyLogExtraInfo
 	{

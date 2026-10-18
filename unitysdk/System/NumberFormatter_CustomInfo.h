@@ -6,10 +6,10 @@ namespace System { class String; }
 namespace System::Globalization { class NumberFormatInfo; }
 namespace System::Text { class StringBuilder; }
 
-#define SYSTEM_NUMBERFORMATTER_CUSTOMINFO_FORMAT_OFFSET UNITYSDK_OFFSET(0x1CC09E10)
-#define SYSTEM_NUMBERFORMATTER_CUSTOMINFO_GETACTIVESECTION_OFFSET UNITYSDK_OFFSET(0x1CC09190)
-#define SYSTEM_NUMBERFORMATTER_CUSTOMINFO_PARSE_OFFSET UNITYSDK_OFFSET(0x1CC09510)
-#define SYSTEM_NUMBERFORMATTER_CUSTOMINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC0B350)
+#define SYSTEM_NUMBERFORMATTER_CUSTOMINFO_FORMAT_OFFSET UNITYSDK_OFFSET(0x1C25DE50)
+#define SYSTEM_NUMBERFORMATTER_CUSTOMINFO_GETACTIVESECTION_OFFSET UNITYSDK_OFFSET(0x1C25D1D0)
+#define SYSTEM_NUMBERFORMATTER_CUSTOMINFO_PARSE_OFFSET UNITYSDK_OFFSET(0x1C25D550)
+#define SYSTEM_NUMBERFORMATTER_CUSTOMINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1C25F3B0)
 
 namespace System
 {
@@ -18,20 +18,20 @@ namespace System
 	class NumberFormatter_CustomInfo : public ::System::Object
 	{
 	public:
-		::System::Int32 ExponentTailSharpDigits; // 0x10
-		::System::Int32 IntegerHeadSharpDigits; // 0x14
-		::System::Boolean UseExponent; // 0x18
-		::System::Boolean ExponentNegativeSignOnly; // 0x19
-		::System::Boolean UseGroup; // 0x1A
-		::System::Int32 IntegerDigits; // 0x1C
-		::System::Int32 DecimalTailSharpDigits; // 0x20
-		::System::Int32 DividePlaces; // 0x24
-		::System::Int32 Percents; // 0x28
-		::System::Int32 DecimalPointPos; // 0x2C
-		::System::Int32 ExponentDigits; // 0x30
-		::System::Int32 DecimalDigits; // 0x34
-		::System::Int32 Permilles; // 0x38
-		::System::Int32 IntegerHeadPos; // 0x3C
+		::System::Int32 Permilles; // 0x10
+		::System::Boolean UseGroup; // 0x14
+		::System::Boolean UseExponent; // 0x15
+		::System::Boolean ExponentNegativeSignOnly; // 0x16
+		::System::Int32 DecimalTailSharpDigits; // 0x18
+		::System::Int32 IntegerHeadSharpDigits; // 0x1C
+		::System::Int32 DecimalPointPos; // 0x20
+		::System::Int32 IntegerDigits; // 0x24
+		::System::Int32 ExponentTailSharpDigits; // 0x28
+		::System::Int32 DecimalDigits; // 0x2C
+		::System::Int32 IntegerHeadPos; // 0x30
+		::System::Int32 ExponentDigits; // 0x34
+		::System::Int32 DividePlaces; // 0x38
+		::System::Int32 Percents; // 0x3C
 
 		::System::Void _ctor()
 		{

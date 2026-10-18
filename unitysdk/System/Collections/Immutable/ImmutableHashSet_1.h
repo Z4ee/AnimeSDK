@@ -13,13 +13,14 @@ namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 namespace System::Collections::Generic { template <typename T> class IEqualityComparer_1; }
+namespace System::Collections::Immutable { template <typename T> class IImmutableSet_1; }
 namespace System::Collections::Immutable { template <typename T> class ImmutableHashSet_1; }
 namespace System::Collections::Immutable { template <typename T> class ImmutableHashSet_1_Builder; }
 namespace System::Collections::Immutable { template <typename T> class SortedInt32KeyNode_1; }
 
 namespace System::Collections::Immutable
 {
-	inline static constexpr unsigned int ImmutableHashSet_1_TypeDefinitionIndex = 6588;
+	inline static constexpr unsigned int ImmutableHashSet_1_TypeDefinitionIndex = 6597;
 
 	template <typename T>
 	class ImmutableHashSet_1 : public ::System::Object

@@ -5,8 +5,8 @@
 namespace System { class Action; }
 namespace System::Threading::Tasks { class Task; }
 
-#define SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCMETHODBUILDERCORE_CONTINUATIONWRAPPER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C455AD0)
-#define SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCMETHODBUILDERCORE_CONTINUATIONWRAPPER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C455770)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCMETHODBUILDERCORE_CONTINUATIONWRAPPER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C298460)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCMETHODBUILDERCORE_CONTINUATIONWRAPPER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C298100)
 
 namespace System::Runtime::CompilerServices
 {
@@ -15,9 +15,9 @@ namespace System::Runtime::CompilerServices
 	class AsyncMethodBuilderCore_ContinuationWrapper : public ::System::Object
 	{
 	public:
-		::System::Action* m_invokeAction; // 0x10
-		::System::Threading::Tasks::Task* m_innerTask; // 0x18
-		::System::Action* m_continuation; // 0x20
+		::System::Threading::Tasks::Task* m_innerTask; // 0x10
+		::System::Action* m_continuation; // 0x18
+		::System::Action* m_invokeAction; // 0x20
 
 		::System::Void _ctor(::System::Action* a1, ::System::Action* a2, ::System::Threading::Tasks::Task* a3)
 		{

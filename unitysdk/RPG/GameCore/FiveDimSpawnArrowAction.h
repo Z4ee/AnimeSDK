@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIVEDIMSPAWNARROWACTION_METHOD_3_91299958A77AA346_OFFSET UNITYSDK_OFFSET(0x1D87BEF0)
-#define RPG_GAMECORE_FIVEDIMSPAWNARROWACTION_METHOD_3_AA30613C2FEF2F3B_OFFSET UNITYSDK_OFFSET(0x1D87BF30)
-#define RPG_GAMECORE_FIVEDIMSPAWNARROWACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D87BF20)
+#define RPG_GAMECORE_FIVEDIMSPAWNARROWACTION_METHOD_4_9A78C7F1AB557ABC_OFFSET UNITYSDK_OFFSET(0x1D6AF430)
+#define RPG_GAMECORE_FIVEDIMSPAWNARROWACTION_METHOD_4_AA49E8DC7C62C59D_OFFSET UNITYSDK_OFFSET(0x1D6AF3F0)
+#define RPG_GAMECORE_FIVEDIMSPAWNARROWACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6AF420)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimSpawnArrowAction_TypeDefinitionIndex = 18520;
+	inline static constexpr unsigned int FiveDimSpawnArrowAction_TypeDefinitionIndex = 18730;
 
 	class FiveDimSpawnArrowAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
@@ -26,14 +26,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMSPAWNARROWACTION__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_91299958A77AA346(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimSpawnArrowAction*& a2)
+		static ::System::Void Method_4_AA49E8DC7C62C59D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimSpawnArrowAction*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimSpawnArrowAction*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMSPAWNARROWACTION_METHOD_3_91299958A77AA346_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimSpawnArrowAction*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMSPAWNARROWACTION_METHOD_4_AA49E8DC7C62C59D_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_AA30613C2FEF2F3B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimSpawnArrowAction* a2)
+		static ::System::Void Method_4_9A78C7F1AB557ABC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimSpawnArrowAction* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimSpawnArrowAction*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMSPAWNARROWACTION_METHOD_3_AA30613C2FEF2F3B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimSpawnArrowAction*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMSPAWNARROWACTION_METHOD_4_9A78C7F1AB557ABC_OFFSET))(a1, a2);
 		}
 	};
 }

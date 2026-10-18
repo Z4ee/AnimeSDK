@@ -6,13 +6,13 @@ namespace RPG::AvatarSystem { class IAvatar; }
 namespace RPG::Client { class ActivityElationAvatarData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ACTIVITYELATIONAVATARHIGHLIGHTCOMPARER_ISMODIFIEDAVATAR_OFFSET UNITYSDK_OFFSET(0x1AD3B250)
-#define RPG_CLIENT_ACTIVITYELATIONAVATARHIGHLIGHTCOMPARER__COMPAREIMPL_OFFSET UNITYSDK_OFFSET(0x1AD3B1B0)
-#define RPG_CLIENT_ACTIVITYELATIONAVATARHIGHLIGHTCOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD3B140)
+#define RPG_CLIENT_ACTIVITYELATIONAVATARHIGHLIGHTCOMPARER_ISMODIFIEDAVATAR_OFFSET UNITYSDK_OFFSET(0xC3E0AD0)
+#define RPG_CLIENT_ACTIVITYELATIONAVATARHIGHLIGHTCOMPARER__COMPAREIMPL_OFFSET UNITYSDK_OFFSET(0xC3E0A30)
+#define RPG_CLIENT_ACTIVITYELATIONAVATARHIGHLIGHTCOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0xC3E09C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityElationAvatarHighlightComparer_TypeDefinitionIndex = 61599;
+	inline static constexpr unsigned int ActivityElationAvatarHighlightComparer_TypeDefinitionIndex = 61505;
 
 	class ActivityElationAvatarHighlightComparer : public ::RPG::Client::AvatarComparerBase
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BlushLockedTransformChannel_TypeDefinitionIndex = 70225;
+	inline static constexpr unsigned int BlushLockedTransformChannel_TypeDefinitionIndex = 70261;
 
 	enum class BlushLockedTransformChannel : ::System::Int32
 	{

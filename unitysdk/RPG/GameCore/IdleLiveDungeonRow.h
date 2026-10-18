@@ -7,33 +7,33 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_IDLELIVEDUNGEONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D20F100)
-#define RPG_GAMECORE_IDLELIVEDUNGEONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D20F6E0)
+#define RPG_GAMECORE_IDLELIVEDUNGEONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D74BD40)
+#define RPG_GAMECORE_IDLELIVEDUNGEONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D74C320)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveDungeonRow_TypeDefinitionIndex = 11714;
+	inline static constexpr unsigned int IdleLiveDungeonRow_TypeDefinitionIndex = 11737;
 
 	class IdleLiveDungeonRow : public ::System::Object
 	{
 	public:
-		::System::String* BossIconPath; // 0x10
+		::System::String* BossFigurePath; // 0x10
 		::System::String* BGMState; // 0x18
-		::Il2CppArray<::RPG::GameCore::ILBattleAvatarTag>* RecommondTagList; // 0x20
-		::System::String* BossFigurePath; // 0x28
-		::System::String* MonsterFigure; // 0x30
-		::System::UInt32 TicketPerHourIncrease; // 0x38
+		::System::String* BossIconPath; // 0x20
+		::System::String* MonsterFigure; // 0x28
+		::Il2CppArray<::RPG::GameCore::ILBattleAvatarTag>* RecommondTagList; // 0x30
+		::System::UInt32 StageID; // 0x38
 		::System::UInt32 CrystalPerHourIncrease; // 0x3C
-		::System::UInt32 ChatPhase; // 0x40
-		::System::UInt32 RewardID; // 0x44
-		::RPG::Client::TextID Desc; // 0x48
-		::System::UInt32 MaxHpProgress; // 0x58
-		::System::UInt32 ID; // 0x5C
+		::RPG::Client::TextID Desc; // 0x40
+		::System::UInt32 ID; // 0x50
+		::System::UInt32 MaxHpProgress; // 0x54
+		::System::UInt32 RewardID; // 0x58
+		::System::UInt32 BattleTime; // 0x5C
 		::RPG::Client::TextID Name; // 0x60
-		::System::UInt32 BattleTime; // 0x70
-		::System::UInt32 StageID; // 0x74
-		::System::UInt32 ChestPerHourIncrease; // 0x78
-		::System::UInt32 UnlockChapterIndex; // 0x7C
+		::System::UInt32 ChestPerHourIncrease; // 0x70
+		::System::UInt32 UnlockChapterIndex; // 0x74
+		::System::UInt32 TicketPerHourIncrease; // 0x78
+		::System::UInt32 ChatPhase; // 0x7C
 		::System::UInt32 IncomeHpProgress; // 0x80
 
 		::System::Void _ctor()

@@ -9,7 +9,7 @@ namespace System { template <typename T1, typename T2, typename T3> class Func_3
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int TakeWhileAwaitWithCancellation_1__TakeWhileAwaitWithCancellation_TypeDefinitionIndex = 44529;
+	inline static constexpr unsigned int TakeWhileAwaitWithCancellation_1__TakeWhileAwaitWithCancellation_TypeDefinitionIndex = 45668;
 
 	template <typename TSource>
 	class TakeWhileAwaitWithCancellation_1__TakeWhileAwaitWithCancellation : public ::Cysharp::Threading::Tasks::Linq::AsyncEnumeratorAwaitSelectorBase_3<TSource, TSource, ::System::Boolean>

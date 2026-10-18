@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_THREADTASKCONFIG_METHOD_2_183B1B91442726DB_OFFSET UNITYSDK_OFFSET(0x1E1D55A0)
-#define RPG_GAMECORE_THREADTASKCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1E1D5760)
+#define RPG_GAMECORE_THREADTASKCONFIG_METHOD_2_183B1B91442726DB_OFFSET UNITYSDK_OFFSET(0x1DB56B50)
+#define RPG_GAMECORE_THREADTASKCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB56D10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ThreadTaskConfig_TypeDefinitionIndex = 24123;
+	inline static constexpr unsigned int ThreadTaskConfig_TypeDefinitionIndex = 24402;
 
 	class ThreadTaskConfig : public ::RPG::GameCore::JsonConfig
 	{

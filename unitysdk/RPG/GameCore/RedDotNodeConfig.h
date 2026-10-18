@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_REDDOTNODECONFIG_METHOD_2_E2F8E4E924FCE758_OFFSET UNITYSDK_OFFSET(0x1DB7D870)
-#define RPG_GAMECORE_REDDOTNODECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB7DB20)
+#define RPG_GAMECORE_REDDOTNODECONFIG_METHOD_2_56B1A6108700387F_OFFSET UNITYSDK_OFFSET(0x1D947BD0)
+#define RPG_GAMECORE_REDDOTNODECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D947EA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RedDotNodeConfig_TypeDefinitionIndex = 16899;
+	inline static constexpr unsigned int RedDotNodeConfig_TypeDefinitionIndex = 17093;
 
 	class RedDotNodeConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -29,9 +29,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REDDOTNODECONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_E2F8E4E924FCE758(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RedDotNodeConfig*& a2)
+		static ::System::Void Method_2_56B1A6108700387F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RedDotNodeConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RedDotNodeConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REDDOTNODECONFIG_METHOD_2_E2F8E4E924FCE758_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RedDotNodeConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REDDOTNODECONFIG_METHOD_2_56B1A6108700387F_OFFSET))(a1, a2);
 		}
 	};
 }

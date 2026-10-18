@@ -12,27 +12,27 @@ namespace System { class Object; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 namespace UnityEngine::UI { class Selectable; }
 
-#define CYSHARP_THREADING_TASKS_UNITYBINDINGEXTENSIONS__BINDTOCORE_D__9_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x3BB8730)
-#define CYSHARP_THREADING_TASKS_UNITYBINDINGEXTENSIONS__BINDTOCORE_D__9_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x10F00)
+#define CYSHARP_THREADING_TASKS_UNITYBINDINGEXTENSIONS__BINDTOCORE_D__9_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x3C5FF10)
+#define CYSHARP_THREADING_TASKS_UNITYBINDINGEXTENSIONS__BINDTOCORE_D__9_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x10B0)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UnityBindingExtensions__BindToCore_d__9_TypeDefinitionIndex = 42906;
+	inline static constexpr unsigned int UnityBindingExtensions__BindToCore_d__9_TypeDefinitionIndex = 38491;
 
 	struct alignas(8) UnityBindingExtensions__BindToCore_d__9
 	{
 		::Cysharp::Threading::Tasks::UniTask_1_Awaiter<::System::Boolean> __u__1; // 0x10
-		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskVoidMethodBuilder __t__builder; // 0x20
-		::System::Object* __7__wrap3; // 0x28
-		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__2; // 0x30
-		::System::Threading::CancellationToken cancellationToken; // 0x40
-		::Cysharp::Threading::Tasks::IUniTaskAsyncEnumerator_1<::System::Boolean>* _e_5__3; // 0x48
-		::UnityEngine::UI::Selectable* selectable; // 0x50
-		::Cysharp::Threading::Tasks::IUniTaskAsyncEnumerable_1<::System::Boolean>* source; // 0x58
+		::System::Threading::CancellationToken cancellationToken; // 0x20
+		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskVoidMethodBuilder __t__builder; // 0x28
+		::Cysharp::Threading::Tasks::IUniTaskAsyncEnumerator_1<::System::Boolean>* _e_5__3; // 0x30
+		::UnityEngine::UI::Selectable* selectable; // 0x38
+		::Cysharp::Threading::Tasks::IUniTaskAsyncEnumerable_1<::System::Boolean>* source; // 0x40
+		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__2; // 0x48
+		::System::Object* __7__wrap3; // 0x58
 		::System::Int32 __1__state; // 0x60
-		::System::Boolean rebindOnError; // 0x64
-		::System::Boolean _repeat_5__2; // 0x65
-		::System::Int32 __7__wrap4; // 0x68
+		::System::Int32 __7__wrap4; // 0x64
+		::System::Boolean _repeat_5__2; // 0x68
+		::System::Boolean rebindOnError; // 0x69
 
 		::System::Void MoveNext()
 		{

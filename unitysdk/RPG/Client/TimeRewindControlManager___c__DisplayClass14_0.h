@@ -5,12 +5,12 @@
 namespace ParticleRecorder { class BackwardParticlesInfoSO; }
 namespace RPG::Client { class TimeRewindControlManager_TimeRewindEffBackwardSOAssetInfo; }
 
-#define RPG_CLIENT_TIMEREWINDCONTROLMANAGER___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1ACCEAB0)
-#define RPG_CLIENT_TIMEREWINDCONTROLMANAGER___C__DISPLAYCLASS14_0___TICKCACHEDASSET_B__0_OFFSET UNITYSDK_OFFSET(0x1ACCEAC0)
+#define RPG_CLIENT_TIMEREWINDCONTROLMANAGER___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0xE270BC0)
+#define RPG_CLIENT_TIMEREWINDCONTROLMANAGER___C__DISPLAYCLASS14_0___TICKCACHEDASSET_B__0_OFFSET UNITYSDK_OFFSET(0xE270BD0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TimeRewindControlManager___c__DisplayClass14_0_TypeDefinitionIndex = 60925;
+	inline static constexpr unsigned int TimeRewindControlManager___c__DisplayClass14_0_TypeDefinitionIndex = 60828;
 
 	class TimeRewindControlManager___c__DisplayClass14_0 : public ::System::Object
 	{

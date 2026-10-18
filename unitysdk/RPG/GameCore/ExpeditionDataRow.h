@@ -8,27 +8,27 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ItemConfig; }
 
-#define RPG_GAMECORE_EXPEDITIONDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D7DE600)
-#define RPG_GAMECORE_EXPEDITIONDATAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7DEF30)
+#define RPG_GAMECORE_EXPEDITIONDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D664130)
+#define RPG_GAMECORE_EXPEDITIONDATAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D664A60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ExpeditionDataRow_TypeDefinitionIndex = 13155;
+	inline static constexpr unsigned int ExpeditionDataRow_TypeDefinitionIndex = 13261;
 
 	class ExpeditionDataRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::RPG::GameCore::AttackDamageType>* BonusDamageTypeList; // 0x10
+		::Il2CppArray<::System::UInt32>* AssignerIDList; // 0x10
 		::Il2CppArray<::RPG::GameCore::AvatarBaseType>* BonusBaseTypeList; // 0x18
-		::Il2CppArray<::RPG::GameCore::ItemConfig*>* DisplayItemList; // 0x20
-		::Il2CppArray<::System::UInt32>* AssignerIDList; // 0x28
+		::Il2CppArray<::RPG::GameCore::AttackDamageType>* BonusDamageTypeList; // 0x20
+		::Il2CppArray<::RPG::GameCore::ItemConfig*>* DisplayItemList; // 0x28
 		::RPG::Client::TextID Name; // 0x30
-		::System::UInt32 AvatarNumMin; // 0x40
-		::System::UInt32 UnlockMission; // 0x44
-		::System::UInt32 AvatarNumMax; // 0x48
-		::System::UInt32 ExpeditionID; // 0x4C
-		::RPG::Client::TextID AssignDesc; // 0x50
-		::System::UInt32 GroupID; // 0x60
+		::System::UInt32 AvatarNumMax; // 0x40
+		::System::UInt32 AvatarNumMin; // 0x44
+		::System::UInt32 ExpeditionID; // 0x48
+		::System::UInt32 GroupID; // 0x4C
+		::System::UInt32 UnlockMission; // 0x50
+		::RPG::Client::TextID AssignDesc; // 0x58
 
 		::System::Void _ctor()
 		{

@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_TAROTBOOKREADREWARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E1C82B0)
-#define RPG_GAMECORE_TAROTBOOKREADREWARDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1E1C83F0)
+#define RPG_GAMECORE_TAROTBOOKREADREWARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DB496B0)
+#define RPG_GAMECORE_TAROTBOOKREADREWARDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB497F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TarotBookReadRewardRow_TypeDefinitionIndex = 15066;
+	inline static constexpr unsigned int TarotBookReadRewardRow_TypeDefinitionIndex = 15237;
 
 	class TarotBookReadRewardRow : public ::System::Object
 	{

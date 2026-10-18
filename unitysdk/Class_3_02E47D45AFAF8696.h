@@ -7,19 +7,19 @@ namespace RPG::Client::LittleGame { class ElfRestaurantGameEntity; }
 namespace RPG::GameCore { class ST_Main_ElfWaiterTimeOverPerform; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_02E47D45AFAF8696_METHOD_3_A27DC2C5A103933A_OFFSET UNITYSDK_OFFSET(0x178CA290)
-#define CLASS_3_02E47D45AFAF8696_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x178C9FB0)
-#define CLASS_3_02E47D45AFAF8696_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x178CA790)
-#define CLASS_3_02E47D45AFAF8696_TICK_OFFSET UNITYSDK_OFFSET(0x178CA200)
-#define CLASS_3_02E47D45AFAF8696__CTOR_OFFSET UNITYSDK_OFFSET(0x178C9F80)
+#define CLASS_3_02E47D45AFAF8696_METHOD_3_AB88190D695EBEA9_OFFSET UNITYSDK_OFFSET(0xCEFD990)
+#define CLASS_3_02E47D45AFAF8696_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCEFD6B0)
+#define CLASS_3_02E47D45AFAF8696_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xCEFDDF0)
+#define CLASS_3_02E47D45AFAF8696_TICK_OFFSET UNITYSDK_OFFSET(0xCEFD900)
+#define CLASS_3_02E47D45AFAF8696__CTOR_OFFSET UNITYSDK_OFFSET(0xCEFD680)
 
-inline static constexpr unsigned int Class_3_02E47D45AFAF8696_TypeDefinitionIndex = 52462;
+inline static constexpr unsigned int Class_3_02E47D45AFAF8696_TypeDefinitionIndex = 52175;
 
 class Class_3_02E47D45AFAF8696 : public ::RPG::GameCore::ST_Task_1<::RPG::GameCore::ST_Main_ElfWaiterTimeOverPerform*>
 {
 public:
-	::RPG::Client::LittleGame::ElfRestaurantGameEntity* DKPFOJDAALN; // 0x28
-	::RPG::Client::ElfRestaurantGameInstance* MIJMIIENKAK; // 0x30
+	::RPG::Client::ElfRestaurantGameInstance* MIJMIIENKAK; // 0x28
+	::RPG::Client::LittleGame::ElfRestaurantGameEntity* DKPFOJDAALN; // 0x30
 	::System::Single PGMIOKKLHIE; // 0x38
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ST_Main_ElfWaiterTimeOverPerform* a2)
@@ -42,8 +42,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_02E47D45AFAF8696_ONTASKRESET_OFFSET))(this);
 	}
 
-	::System::Void Method_3_A27DC2C5A103933A()
+	::System::Void Method_3_AB88190D695EBEA9()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_02E47D45AFAF8696_METHOD_3_A27DC2C5A103933A_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_02E47D45AFAF8696_METHOD_3_AB88190D695EBEA9_OFFSET))(this);
 	}
 };

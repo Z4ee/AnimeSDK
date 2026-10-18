@@ -1,0 +1,43 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/MonoBehaviour.h"
+
+class Class_1_D3359DF62696519E_1;
+namespace RPG::Client::MechCraft::View { class MechCraftCraftProgressExamConstraintsControlBinder; }
+
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTPROGRESSEXAMCONSTRAINTSCONTROL_GET_CONTENT_OFFSET UNITYSDK_OFFSET(0xD62A5E0)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTPROGRESSEXAMCONSTRAINTSCONTROL_METHOD_5_ECDAE4AFE5A0B739_OFFSET UNITYSDK_OFFSET(0xD62A620)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTPROGRESSEXAMCONSTRAINTSCONTROL_SET_CONTENT_OFFSET UNITYSDK_OFFSET(0xD6295B0)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTPROGRESSEXAMCONSTRAINTSCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0xD62A990)
+
+namespace RPG::Client::MechCraft::View
+{
+	inline static constexpr unsigned int MechCraftCraftProgressExamConstraintsControl_TypeDefinitionIndex = 79933;
+
+	class MechCraftCraftProgressExamConstraintsControl : public ::UnityEngine::MonoBehaviour
+	{
+	public:
+		::Class_1_D3359DF62696519E_1* LFGMLJCCPCH; // 0x18
+		::RPG::Client::MechCraft::View::MechCraftCraftProgressExamConstraintsControlBinder* _Binder; // 0x20
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTPROGRESSEXAMCONSTRAINTSCONTROL__CTOR_OFFSET))(this);
+		}
+
+		::Class_1_D3359DF62696519E_1* get_Content()
+		{
+			return ((::Class_1_D3359DF62696519E_1*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTPROGRESSEXAMCONSTRAINTSCONTROL_GET_CONTENT_OFFSET))(this);
+		}
+
+		::System::Void set_Content(::Class_1_D3359DF62696519E_1* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_D3359DF62696519E_1*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTPROGRESSEXAMCONSTRAINTSCONTROL_SET_CONTENT_OFFSET))(this, a1);
+		}
+
+		::System::Void Method_5_ECDAE4AFE5A0B739(::Class_1_D3359DF62696519E_1* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_D3359DF62696519E_1*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTPROGRESSEXAMCONSTRAINTSCONTROL_METHOD_5_ECDAE4AFE5A0B739_OFFSET))(this, a1);
+		}
+	};
+}

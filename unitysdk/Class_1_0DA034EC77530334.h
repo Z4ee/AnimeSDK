@@ -9,25 +9,25 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define CLASS_1_0DA034EC77530334_METHOD_1_0E3C9CE42200F670_OFFSET UNITYSDK_OFFSET(0x1DC60AD0)
-#define CLASS_1_0DA034EC77530334__CTOR_OFFSET UNITYSDK_OFFSET(0x1DC60F80)
+#define CLASS_1_0DA034EC77530334_METHOD_1_0E3C9CE42200F670_OFFSET UNITYSDK_OFFSET(0x1D051480)
+#define CLASS_1_0DA034EC77530334__CTOR_OFFSET UNITYSDK_OFFSET(0x1D051930)
 
-inline static constexpr unsigned int Class_1_0DA034EC77530334_TypeDefinitionIndex = 11507;
+inline static constexpr unsigned int Class_1_0DA034EC77530334_TypeDefinitionIndex = 11523;
 
 class Class_1_0DA034EC77530334 : public ::System::Object
 {
 public:
-	::Il2CppArray<::System::UInt32>* EPHLMOECOHP; // 0x10
-	::System::String* LBLJLNPBDPB; // 0x18
-	::Il2CppArray<::RPG::GameCore::FixPoint>* PBLPLDJKPEI; // 0x20
-	::RPG::GameCore::FateTraitTag NHALJPDONCP; // 0x28
+	::Il2CppArray<::RPG::GameCore::FixPoint>* PBLPLDJKPEI; // 0x10
+	::Il2CppArray<::System::UInt32>* EPHLMOECOHP; // 0x18
+	::System::String* LBLJLNPBDPB; // 0x20
+	::System::UInt32 ENJOALLODBG; // 0x28
 	::RPG::GameCore::FateTraitMode FCGFFAJIBKA; // 0x2C
-	::System::UInt32 ENJOALLODBG; // 0x30
-	::System::UInt32 PDMPABKDHDI; // 0x34
-	::RPG::Client::TextID GODMIEOJGAE; // 0x38
-	::RPG::Client::TextID KBNHPKIOGLH; // 0x48
-	::System::UInt32 BNCKFPAGOMF; // 0x58
-	::RPG::Client::TextID JFKADAONNOD; // 0x60
+	::RPG::GameCore::FateTraitTag NHALJPDONCP; // 0x30
+	::System::UInt32 BNCKFPAGOMF; // 0x34
+	::System::UInt32 PDMPABKDHDI; // 0x38
+	::RPG::Client::TextID GODMIEOJGAE; // 0x40
+	::RPG::Client::TextID JFKADAONNOD; // 0x50
+	::RPG::Client::TextID KBNHPKIOGLH; // 0x60
 
 	::System::Void _ctor()
 	{

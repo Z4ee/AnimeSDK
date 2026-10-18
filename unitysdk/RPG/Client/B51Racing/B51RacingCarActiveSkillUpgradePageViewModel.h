@@ -6,24 +6,24 @@
 namespace RPG::Client::B51Racing { class B51RacingCarActiveSkillItemViewModel; }
 namespace System { class Action; }
 
-#define RPG_CLIENT_B51RACING_B51RACINGCARACTIVESKILLUPGRADEPAGEVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x19ED66D0)
+#define RPG_CLIENT_B51RACING_B51RACINGCARACTIVESKILLUPGRADEPAGEVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xC715900)
 
 namespace RPG::Client::B51Racing
 {
-	inline static constexpr unsigned int B51RacingCarActiveSkillUpgradePageViewModel_TypeDefinitionIndex = 80656;
+	inline static constexpr unsigned int B51RacingCarActiveSkillUpgradePageViewModel_TypeDefinitionIndex = 81984;
 
 	class B51RacingCarActiveSkillUpgradePageViewModel : public ::System::Object
 	{
 	public:
-		::System::Action* OnClose; // 0x10
-		::RPG::Client::B51Racing::B51RacingCarActiveSkillItemViewModel* CurrentSkill; // 0x18
-		::RPG::Client::B51Racing::B51RacingCarActiveSkillItemViewModel* BeforeSkill; // 0x20
+		::RPG::Client::B51Racing::B51RacingCarActiveSkillItemViewModel* CurrentSkill; // 0x10
+		::RPG::Client::B51Racing::B51RacingCarActiveSkillItemViewModel* BeforeSkill; // 0x18
+		::System::Action* OnClose; // 0x20
 		::RPG::Client::B51Racing::B51RacingCarActiveSkillItemViewModel* AfterSkill; // 0x28
-		::System::Single ExpTo; // 0x30
-		::System::Single ExpFrom; // 0x34
-		::System::UInt32 DayIndex; // 0x38
-		::System::Boolean IsLevelUp; // 0x3C
-		::RPG::Client::TextID Title; // 0x40
+		::RPG::Client::TextID Title; // 0x30
+		::System::Boolean IsLevelUp; // 0x40
+		::System::Single ExpFrom; // 0x44
+		::System::UInt32 DayIndex; // 0x48
+		::System::Single ExpTo; // 0x4C
 
 		::System::Void _ctor()
 		{

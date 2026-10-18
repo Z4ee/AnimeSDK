@@ -8,17 +8,17 @@ namespace UnityEngine { class Animation; }
 namespace UnityEngine::UI { class Image; }
 namespace UnityEngine::UI { class Text; }
 
-#define CLASS_2_E620574958B4D3A7_METHOD_2_B7BC87E745BCE92A_OFFSET UNITYSDK_OFFSET(0x185BE430)
-#define CLASS_2_E620574958B4D3A7__CTOR_OFFSET UNITYSDK_OFFSET(0x185BE5C0)
-#define CLASS_2_E620574958B4D3A7__ONBIND_OFFSET UNITYSDK_OFFSET(0x185BE500)
+#define CLASS_2_E620574958B4D3A7_METHOD_2_B7BC87E745BCE92A_OFFSET UNITYSDK_OFFSET(0xE4F0470)
+#define CLASS_2_E620574958B4D3A7__CTOR_OFFSET UNITYSDK_OFFSET(0xE4F0600)
+#define CLASS_2_E620574958B4D3A7__ONBIND_OFFSET UNITYSDK_OFFSET(0xE4F0540)
 
-inline static constexpr unsigned int Class_2_E620574958B4D3A7_TypeDefinitionIndex = 71693;
+inline static constexpr unsigned int Class_2_E620574958B4D3A7_TypeDefinitionIndex = 71746;
 
 class Class_2_E620574958B4D3A7 : public ::Class_1_34917908B7833130
 {
 public:
-	::UnityEngine::UI::Text* GEAHKAMKAOJ; // 0x60
-	::UnityEngine::UI::Image* OBGCEDPOAEF; // 0x68
+	::UnityEngine::UI::Image* OBGCEDPOAEF; // 0x60
+	::UnityEngine::UI::Text* GEAHKAMKAOJ; // 0x68
 	::UnityEngine::Animation* KCOAILOHDND; // 0x70
 
 	::System::Void _ctor()

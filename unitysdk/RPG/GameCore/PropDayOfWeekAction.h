@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropDayOfWeekAction_TypeDefinitionIndex = 10441;
+	inline static constexpr unsigned int PropDayOfWeekAction_TypeDefinitionIndex = 10456;
 
 	enum class PropDayOfWeekAction : ::System::Int32
 	{

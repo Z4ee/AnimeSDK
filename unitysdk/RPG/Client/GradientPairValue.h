@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class Gradient; }
 
-#define RPG_CLIENT_GRADIENTPAIRVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1ADA43C0)
+#define RPG_CLIENT_GRADIENTPAIRVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0xD0B8E20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GradientPairValue_TypeDefinitionIndex = 70983;
+	inline static constexpr unsigned int GradientPairValue_TypeDefinitionIndex = 71015;
 
 	class GradientPairValue : public ::RPG::Client::PairValueEntry
 	{

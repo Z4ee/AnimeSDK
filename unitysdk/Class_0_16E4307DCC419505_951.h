@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-class Class_0_16E4307DCC419505_952;
-namespace System { class String; }
+namespace RPG::Client { class BaseGameFlow; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_951_TypeDefinitionIndex = 67164;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_951_TypeDefinitionIndex = 64349;
 
 class Class_0_16E4307DCC419505_951
 {

@@ -4,12 +4,12 @@
 
 namespace UnityEngine::Rendering { class BatchAnimationInstance; }
 
-#define UNITYENGINE_RENDERING_BASTATEGROUPNODEPARAMATERS_GETACTIVESTATE_OFFSET UNITYSDK_OFFSET(0x1EAC5810)
-#define UNITYENGINE_RENDERING_BASTATEGROUPNODEPARAMATERS_PLAY_OFFSET UNITYSDK_OFFSET(0x1EAC5800)
+#define UNITYENGINE_RENDERING_BASTATEGROUPNODEPARAMATERS_GETACTIVESTATE_OFFSET UNITYSDK_OFFSET(0x1F3ECEF0)
+#define UNITYENGINE_RENDERING_BASTATEGROUPNODEPARAMATERS_PLAY_OFFSET UNITYSDK_OFFSET(0x1F3ECEE0)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int BAStateGroupNodeParamaters_TypeDefinitionIndex = 4795;
+	inline static constexpr unsigned int BAStateGroupNodeParamaters_TypeDefinitionIndex = 4800;
 
 	struct alignas(1) BAStateGroupNodeParamaters
 	{

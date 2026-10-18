@@ -1,0 +1,37 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_1BD847A31AE58508_Class_1_3BF89FA580FCE89E.h"
+#include "unitysdk/UnityEngine/Vector2Int.h"
+
+#define CLASS_1_1BD847A31AE58508_CLASS_2_7B88E64451E01D17_GET_TARGETPOSITION_OFFSET UNITYSDK_OFFSET(0x1590FDB0)
+#define CLASS_1_1BD847A31AE58508_CLASS_2_7B88E64451E01D17_METHOD_2_8369B9BE7F06A56A_OFFSET UNITYSDK_OFFSET(0x1590FDD0)
+#define CLASS_1_1BD847A31AE58508_CLASS_2_7B88E64451E01D17_SET_TARGETPOSITION_OFFSET UNITYSDK_OFFSET(0x1590FDC0)
+#define CLASS_1_1BD847A31AE58508_CLASS_2_7B88E64451E01D17__CTOR_OFFSET UNITYSDK_OFFSET(0x1590FE20)
+
+inline static constexpr unsigned int Class_1_1BD847A31AE58508_Class_2_7B88E64451E01D17_TypeDefinitionIndex = 79490;
+
+class Class_1_1BD847A31AE58508_Class_2_7B88E64451E01D17 : public ::Class_1_1BD847A31AE58508_Class_1_3BF89FA580FCE89E
+{
+public:
+	::UnityEngine::Vector2Int _TargetPosition_k__BackingField; // 0x18
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_1BD847A31AE58508_CLASS_2_7B88E64451E01D17__CTOR_OFFSET))(this);
+	}
+
+	::UnityEngine::Vector2Int get_TargetPosition()
+	{
+		return ((::UnityEngine::Vector2Int(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_1BD847A31AE58508_CLASS_2_7B88E64451E01D17_GET_TARGETPOSITION_OFFSET))(this);
+	}
+
+	::System::Void set_TargetPosition(::UnityEngine::Vector2Int a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2Int))((::PBYTE)hIl2Cpp + CLASS_1_1BD847A31AE58508_CLASS_2_7B88E64451E01D17_SET_TARGETPOSITION_OFFSET))(this, a1);
+	}
+
+	::System::Boolean Method_2_8369B9BE7F06A56A(::UnityEngine::Vector2Int& a1)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector2Int&))((::PBYTE)hIl2Cpp + CLASS_1_1BD847A31AE58508_CLASS_2_7B88E64451E01D17_METHOD_2_8369B9BE7F06A56A_OFFSET))(this, a1);
+	}
+};

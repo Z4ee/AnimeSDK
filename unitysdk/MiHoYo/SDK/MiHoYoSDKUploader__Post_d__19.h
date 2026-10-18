@@ -7,26 +7,26 @@ namespace System { class Action; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_MIHOYOSDKUPLOADER__POST_D__19_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x194B1490)
-#define MIHOYO_SDK_MIHOYOSDKUPLOADER__POST_D__19_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x194B1560)
-#define MIHOYO_SDK_MIHOYOSDKUPLOADER__POST_D__19_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x194B15C0)
-#define MIHOYO_SDK_MIHOYOSDKUPLOADER__POST_D__19_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x194B1570)
-#define MIHOYO_SDK_MIHOYOSDKUPLOADER__POST_D__19_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x194B1480)
-#define MIHOYO_SDK_MIHOYOSDKUPLOADER__POST_D__19__CTOR_OFFSET UNITYSDK_OFFSET(0x194B03F0)
+#define MIHOYO_SDK_MIHOYOSDKUPLOADER__POST_D__19_MOVENEXT_OFFSET UNITYSDK_OFFSET(0xAFE4250)
+#define MIHOYO_SDK_MIHOYOSDKUPLOADER__POST_D__19_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xAFE4320)
+#define MIHOYO_SDK_MIHOYOSDKUPLOADER__POST_D__19_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xAFE4380)
+#define MIHOYO_SDK_MIHOYOSDKUPLOADER__POST_D__19_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0xAFE4330)
+#define MIHOYO_SDK_MIHOYOSDKUPLOADER__POST_D__19_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xAFE4240)
+#define MIHOYO_SDK_MIHOYOSDKUPLOADER__POST_D__19__CTOR_OFFSET UNITYSDK_OFFSET(0xAFE31B0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MiHoYoSDKUploader__Post_d__19_TypeDefinitionIndex = 46927;
+	inline static constexpr unsigned int MiHoYoSDKUploader__Post_d__19_TypeDefinitionIndex = 46467;
 
 	class MiHoYoSDKUploader__Post_d__19 : public ::System::Object
 	{
 	public:
-		::System::Action_1<::System::String*>* callback; // 0x10
-		::System::Object* __2__current; // 0x18
-		::System::Action* timeoutCallback; // 0x20
-		::MiHoYo::SDK::MiHoYoSDKUploader* __4__this; // 0x28
+		::MiHoYo::SDK::MiHoYoSDKUploader* __4__this; // 0x10
+		::System::String* requestUrl; // 0x18
+		::System::Object* __2__current; // 0x20
+		::System::Action_1<::System::String*>* callback; // 0x28
 		::System::String* bodyString; // 0x30
-		::System::String* requestUrl; // 0x38
+		::System::Action* timeoutCallback; // 0x38
 		::System::Int32 retryTime; // 0x40
 		::System::Single timeoutSecond; // 0x44
 		::System::Int32 __1__state; // 0x48

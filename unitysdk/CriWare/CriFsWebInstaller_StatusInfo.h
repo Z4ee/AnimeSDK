@@ -6,7 +6,7 @@
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriFsWebInstaller_StatusInfo_TypeDefinitionIndex = 38825;
+	inline static constexpr unsigned int CriFsWebInstaller_StatusInfo_TypeDefinitionIndex = 40122;
 
 	struct alignas(8) CriFsWebInstaller_StatusInfo
 	{

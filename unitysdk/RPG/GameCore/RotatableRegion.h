@@ -10,12 +10,12 @@ namespace RPG::GameCore { class MapRotationVolumeConfig; }
 namespace RPG::GameCore { class RotatableRegionPose; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ROTATABLEREGION_METHOD_2_4FAD0C96DF78CBE8_OFFSET UNITYSDK_OFFSET(0x1CCD1100)
-#define RPG_GAMECORE_ROTATABLEREGION__CTOR_OFFSET UNITYSDK_OFFSET(0x1CCD15C0)
+#define RPG_GAMECORE_ROTATABLEREGION_METHOD_2_62FBBE097CC72202_OFFSET UNITYSDK_OFFSET(0x1DA19660)
+#define RPG_GAMECORE_ROTATABLEREGION__CTOR_OFFSET UNITYSDK_OFFSET(0x1DA19C30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RotatableRegion_TypeDefinitionIndex = 16832;
+	inline static constexpr unsigned int RotatableRegion_TypeDefinitionIndex = 17026;
 
 	class RotatableRegion : public ::RPG::GameCore::JsonConfig
 	{
@@ -40,9 +40,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROTATABLEREGION__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_4FAD0C96DF78CBE8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RotatableRegion*& a2)
+		static ::System::Void Method_2_62FBBE097CC72202(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RotatableRegion*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RotatableRegion*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROTATABLEREGION_METHOD_2_4FAD0C96DF78CBE8_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RotatableRegion*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROTATABLEREGION_METHOD_2_62FBBE097CC72202_OFFSET))(a1, a2);
 		}
 	};
 }

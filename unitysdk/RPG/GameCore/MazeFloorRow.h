@@ -7,33 +7,33 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MAZEFLOORROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D279B50)
-#define RPG_GAMECORE_MAZEFLOORROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D27A590)
+#define RPG_GAMECORE_MAZEFLOORROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D839360)
+#define RPG_GAMECORE_MAZEFLOORROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D839D90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MazeFloorRow_TypeDefinitionIndex = 13941;
+	inline static constexpr unsigned int MazeFloorRow_TypeDefinitionIndex = 14048;
 
 	class MazeFloorRow : public ::System::Object
 	{
 	public:
-		::System::String* FloorName; // 0x10
-		::Il2CppArray<::System::String*>* FloorTag; // 0x18
-		::System::String* FloorBGMNormalStateName; // 0x20
-		::System::String* FloorDefaultEmotion; // 0x28
-		::System::String* CombatBGMLow; // 0x30
-		::System::String* MunicipalConfigPath; // 0x38
-		::Il2CppArray<::System::String*>* ExitAudioEvent; // 0x40
-		::System::String* CombatBGMHigh; // 0x48
-		::System::String* OptionalLoadBlocksConfig; // 0x50
-		::System::String* FloorBGMBusyStateName; // 0x58
-		::System::String* BGMWorldState; // 0x60
+		::Il2CppArray<::RPG::Client::TextID>* MapLayerNameList; // 0x10
+		::System::String* BGMWorldState; // 0x18
+		::System::String* FloorDefaultEmotion; // 0x20
+		::System::String* FloorName; // 0x28
+		::System::String* OptionalLoadBlocksConfig; // 0x30
+		::Il2CppArray<::System::String*>* ExitAudioEvent; // 0x38
+		::System::String* CombatBGMLow; // 0x40
+		::Il2CppArray<::System::String*>* EnterAudioEvent; // 0x48
+		::System::String* FloorBGMBusyStateName; // 0x50
+		::Il2CppArray<::System::String*>* FloorTag; // 0x58
+		::System::String* CombatBGMHigh; // 0x60
 		::System::String* FloorBGMGroupName; // 0x68
-		::Il2CppArray<::System::String*>* EnterAudioEvent; // 0x70
-		::Il2CppArray<::RPG::Client::TextID>* MapLayerNameList; // 0x78
-		::System::UInt32 FloorID; // 0x80
-		::System::UInt32 BaseFloorID; // 0x84
-		::RPG::GameCore::FloorType FloorType; // 0x88
+		::System::String* MunicipalConfigPath; // 0x70
+		::System::String* FloorBGMNormalStateName; // 0x78
+		::RPG::GameCore::FloorType FloorType; // 0x80
+		::System::UInt32 FloorID; // 0x84
+		::System::UInt32 BaseFloorID; // 0x88
 		::System::Single WalkingEffectAdditiveScale; // 0x8C
 
 		::System::Void _ctor()

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightSelectEnhanceKeepRule_TypeDefinitionIndex = 13495;
+	inline static constexpr unsigned int GridFightSelectEnhanceKeepRule_TypeDefinitionIndex = 13602;
 
 	enum class GridFightSelectEnhanceKeepRule : ::System::Int32
 	{

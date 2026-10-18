@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_CUMULATIVESCOREBOARDCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D802380)
-#define RPG_GAMECORE_CUMULATIVESCOREBOARDCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D802E90)
+#define RPG_GAMECORE_CUMULATIVESCOREBOARDCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D5B9960)
+#define RPG_GAMECORE_CUMULATIVESCOREBOARDCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5BA470)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CumulativeScoreBoardConfigRow_TypeDefinitionIndex = 15016;
+	inline static constexpr unsigned int CumulativeScoreBoardConfigRow_TypeDefinitionIndex = 15187;
 
 	class CumulativeScoreBoardConfigRow : public ::System::Object
 	{
@@ -18,9 +18,9 @@ namespace RPG::GameCore
 		::System::String* IconPath; // 0x10
 		::System::String* TargetValue; // 0x18
 		::System::Boolean IsDecrease; // 0x20
-		::System::UInt32 ZeroFillLength; // 0x24
-		::System::Int32 MaxDigit; // 0x28
-		::System::UInt32 ConfigID; // 0x2C
+		::System::UInt32 ConfigID; // 0x24
+		::System::UInt32 ZeroFillLength; // 0x28
+		::System::Int32 MaxDigit; // 0x2C
 
 		::System::Void _ctor()
 		{

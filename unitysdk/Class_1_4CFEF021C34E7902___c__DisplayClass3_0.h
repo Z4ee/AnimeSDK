@@ -4,10 +4,10 @@
 
 namespace System { class Action; }
 
-#define CLASS_1_4CFEF021C34E7902___C__DISPLAYCLASS3_0__ADDHANDLER_B__0_OFFSET UNITYSDK_OFFSET(0x18501C00)
-#define CLASS_1_4CFEF021C34E7902___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18501AD0)
+#define CLASS_1_4CFEF021C34E7902___C__DISPLAYCLASS3_0__ADDHANDLER_B__0_OFFSET UNITYSDK_OFFSET(0xC303E60)
+#define CLASS_1_4CFEF021C34E7902___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC303D30)
 
-inline static constexpr unsigned int Class_1_4CFEF021C34E7902___c__DisplayClass3_0_TypeDefinitionIndex = 64398;
+inline static constexpr unsigned int Class_1_4CFEF021C34E7902___c__DisplayClass3_0_TypeDefinitionIndex = 64338;
 
 class Class_1_4CFEF021C34E7902___c__DisplayClass3_0 : public ::System::Object
 {

@@ -8,14 +8,14 @@ class Class_2_230F5EDDB35DAEBA;
 class Class_2_D55679E3C796A7AF;
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define CLASS_1_45DF33F3C047F379_METHOD_1_212DA8CA976C0BF5_OFFSET UNITYSDK_OFFSET(0x16B4D220)
-#define CLASS_1_45DF33F3C047F379_METHOD_1_252E1B7D8217075E_OFFSET UNITYSDK_OFFSET(0x16B4CF90)
-#define CLASS_1_45DF33F3C047F379_METHOD_1_3721BC1812D33797_OFFSET UNITYSDK_OFFSET(0x16B4D940)
-#define CLASS_1_45DF33F3C047F379_METHOD_1_6739FA9A64743A84_OFFSET UNITYSDK_OFFSET(0x16B4CB80)
-#define CLASS_1_45DF33F3C047F379_METHOD_1_F5D48728763F6068_OFFSET UNITYSDK_OFFSET(0x16B4D010)
-#define CLASS_1_45DF33F3C047F379_METHOD_1_F8A48F162161F00B_OFFSET UNITYSDK_OFFSET(0x16B4D670)
+#define CLASS_1_45DF33F3C047F379_METHOD_1_22C3BE82FCBABDAC_OFFSET UNITYSDK_OFFSET(0xB2CDF40)
+#define CLASS_1_45DF33F3C047F379_METHOD_1_252E1B7D8217075E_OFFSET UNITYSDK_OFFSET(0xB2CDCB0)
+#define CLASS_1_45DF33F3C047F379_METHOD_1_3721BC1812D33797_OFFSET UNITYSDK_OFFSET(0xB2CE5C0)
+#define CLASS_1_45DF33F3C047F379_METHOD_1_6739FA9A64743A84_OFFSET UNITYSDK_OFFSET(0xB2CD950)
+#define CLASS_1_45DF33F3C047F379_METHOD_1_F5D48728763F6068_OFFSET UNITYSDK_OFFSET(0xB2CDD30)
+#define CLASS_1_45DF33F3C047F379_METHOD_1_F8A48F162161F00B_OFFSET UNITYSDK_OFFSET(0xB2CE2F0)
 
-inline static constexpr unsigned int Class_1_45DF33F3C047F379_TypeDefinitionIndex = 76931;
+inline static constexpr unsigned int Class_1_45DF33F3C047F379_TypeDefinitionIndex = 77402;
 
 class Class_1_45DF33F3C047F379 : public ::System::Object
 {
@@ -25,9 +25,9 @@ public:
 		return ((::System::Void(*)(::Class_2_D55679E3C796A7AF*, ::Class_1_45DF33F3C047F379_ObstacleLockKind, ::Class_2_230F5EDDB35DAEBA*, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single&, ::Class_2_230F5EDDB35DAEBA*&))((::PBYTE)hIl2Cpp + CLASS_1_45DF33F3C047F379_METHOD_1_6739FA9A64743A84_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11);
 	}
 
-	static ::System::Void Method_1_212DA8CA976C0BF5(::Class_2_D55679E3C796A7AF* a1, ::Class_1_45DF33F3C047F379_ObstacleLockKind a2, ::Class_2_230F5EDDB35DAEBA* a3, ::UnityEngine::Vector3 a4, ::UnityEngine::Vector3 a5, ::System::Single a6, ::System::Single a7, ::System::Single a8, ::System::Single a9, ::System::Collections::Generic::HashSet_1<::System::Int32>* a10)
+	static ::System::Void Method_1_22C3BE82FCBABDAC(::Class_2_D55679E3C796A7AF* a1, ::Class_1_45DF33F3C047F379_ObstacleLockKind a2, ::Class_2_230F5EDDB35DAEBA* a3, ::UnityEngine::Vector3 a4, ::UnityEngine::Vector3 a5, ::System::Single a6, ::System::Single a7, ::System::Single a8, ::System::Single a9, ::System::Collections::Generic::HashSet_1<::System::Int32>* a10)
 	{
-		return ((::System::Void(*)(::Class_2_D55679E3C796A7AF*, ::Class_1_45DF33F3C047F379_ObstacleLockKind, ::Class_2_230F5EDDB35DAEBA*, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Collections::Generic::HashSet_1<::System::Int32>*))((::PBYTE)hIl2Cpp + CLASS_1_45DF33F3C047F379_METHOD_1_212DA8CA976C0BF5_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8, a9, a10);
+		return ((::System::Void(*)(::Class_2_D55679E3C796A7AF*, ::Class_1_45DF33F3C047F379_ObstacleLockKind, ::Class_2_230F5EDDB35DAEBA*, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Collections::Generic::HashSet_1<::System::Int32>*))((::PBYTE)hIl2Cpp + CLASS_1_45DF33F3C047F379_METHOD_1_22C3BE82FCBABDAC_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8, a9, a10);
 	}
 
 	static ::System::Boolean Method_1_252E1B7D8217075E(::Class_2_230F5EDDB35DAEBA* a1, ::Class_1_45DF33F3C047F379_ObstacleLockKind a2)

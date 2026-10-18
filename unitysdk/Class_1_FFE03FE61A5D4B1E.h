@@ -5,15 +5,15 @@
 namespace System { class Action; }
 namespace System { template <typename T> class Func_1; }
 
-#define CLASS_1_FFE03FE61A5D4B1E__CTOR_OFFSET UNITYSDK_OFFSET(0x16770810)
+#define CLASS_1_FFE03FE61A5D4B1E__CTOR_OFFSET UNITYSDK_OFFSET(0x15AC56C0)
 
-inline static constexpr unsigned int Class_1_FFE03FE61A5D4B1E_TypeDefinitionIndex = 68519;
+inline static constexpr unsigned int Class_1_FFE03FE61A5D4B1E_TypeDefinitionIndex = 68553;
 
 class Class_1_FFE03FE61A5D4B1E : public ::System::Object
 {
 public:
-	::System::Action* FIEEBOGPOBK; // 0x10
-	::System::Func_1<::System::Boolean>* FHIOCDNJPPA; // 0x18
+	::System::Func_1<::System::Boolean>* FHIOCDNJPPA; // 0x10
+	::System::Action* FIEEBOGPOBK; // 0x18
 	::System::Boolean AEEABMOELKF; // 0x20
 
 	::System::Void _ctor()

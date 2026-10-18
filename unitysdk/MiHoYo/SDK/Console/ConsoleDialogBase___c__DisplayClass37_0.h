@@ -6,12 +6,12 @@ namespace MiHoYo::SDK::Console { class ConsoleDialogBase; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::EventSystems { class BaseEventData; }
 
-#define MIHOYO_SDK_CONSOLE_CONSOLEDIALOGBASE___C__DISPLAYCLASS37_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1733ADC0)
-#define MIHOYO_SDK_CONSOLE_CONSOLEDIALOGBASE___C__DISPLAYCLASS37_0__REGISTERINPUTFIELDTOUCHHANDLER_B__0_OFFSET UNITYSDK_OFFSET(0x1733ADD0)
+#define MIHOYO_SDK_CONSOLE_CONSOLEDIALOGBASE___C__DISPLAYCLASS37_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC6D550)
+#define MIHOYO_SDK_CONSOLE_CONSOLEDIALOGBASE___C__DISPLAYCLASS37_0__REGISTERINPUTFIELDTOUCHHANDLER_B__0_OFFSET UNITYSDK_OFFSET(0x1BC6D560)
 
 namespace MiHoYo::SDK::Console
 {
-	inline static constexpr unsigned int ConsoleDialogBase___c__DisplayClass37_0_TypeDefinitionIndex = 8944;
+	inline static constexpr unsigned int ConsoleDialogBase___c__DisplayClass37_0_TypeDefinitionIndex = 9005;
 
 	class ConsoleDialogBase___c__DisplayClass37_0 : public ::System::Object
 	{

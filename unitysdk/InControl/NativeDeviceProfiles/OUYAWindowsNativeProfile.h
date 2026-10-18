@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/InControl/InputDeviceProfile.h"
 
-#define INCONTROL_NATIVEDEVICEPROFILES_OUYAWINDOWSNATIVEPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x1493D5C0)
-#define INCONTROL_NATIVEDEVICEPROFILES_OUYAWINDOWSNATIVEPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x1493E4F0)
+#define INCONTROL_NATIVEDEVICEPROFILES_OUYAWINDOWSNATIVEPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x1BA0BE40)
+#define INCONTROL_NATIVEDEVICEPROFILES_OUYAWINDOWSNATIVEPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA0CD70)
 
 namespace InControl::NativeDeviceProfiles
 {
-	inline static constexpr unsigned int OUYAWindowsNativeProfile_TypeDefinitionIndex = 40018;
+	inline static constexpr unsigned int OUYAWindowsNativeProfile_TypeDefinitionIndex = 41315;
 
 	class OUYAWindowsNativeProfile : public ::InControl::InputDeviceProfile
 	{

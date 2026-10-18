@@ -2,17 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace MiHoYo::SDK { class JSONArray; }
+namespace MiHoYo::SDK { class JSONNode; }
 namespace MiHoYo::SDK { class JSONObject; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 
-#define MIHOYO_SDK_BASE_GOODSPLATFORM_APIDATASOURCE_REQUESTGOODSLIST_OFFSET UNITYSDK_OFFSET(0x1A19B4C0)
-#define MIHOYO_SDK_BASE_GOODSPLATFORM_APIDATASOURCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A19B8B0)
+#define MIHOYO_SDK_BASE_GOODSPLATFORM_APIDATASOURCE_REQUESTGOODSLIST_OFFSET UNITYSDK_OFFSET(0x1BC11420)
+#define MIHOYO_SDK_BASE_GOODSPLATFORM_APIDATASOURCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC11810)
 
 namespace MiHoYo::SDK::Base::GoodsPlatform
 {
-	inline static constexpr unsigned int APIDataSource_TypeDefinitionIndex = 8774;
+	inline static constexpr unsigned int APIDataSource_TypeDefinitionIndex = 8835;
 
 	class APIDataSource : public ::System::Object
 	{
@@ -29,9 +29,9 @@ namespace MiHoYo::SDK::Base::GoodsPlatform
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BASE_GOODSPLATFORM_APIDATASOURCE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void RequestGoodsList(::MiHoYo::SDK::JSONObject* a1, ::System::Action_3<::System::Int32, ::System::String*, ::MiHoYo::SDK::JSONArray*>* a2)
+		static ::System::Void RequestGoodsList(::MiHoYo::SDK::JSONObject* a1, ::System::Action_3<::System::Int32, ::System::String*, ::MiHoYo::SDK::JSONNode*>* a2)
 		{
-			return ((::System::Void(*)(::MiHoYo::SDK::JSONObject*, ::System::Action_3<::System::Int32, ::System::String*, ::MiHoYo::SDK::JSONArray*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BASE_GOODSPLATFORM_APIDATASOURCE_REQUESTGOODSLIST_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::MiHoYo::SDK::JSONObject*, ::System::Action_3<::System::Int32, ::System::String*, ::MiHoYo::SDK::JSONNode*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BASE_GOODSPLATFORM_APIDATASOURCE_REQUESTGOODSLIST_OFFSET))(a1, a2);
 		}
 	};
 }

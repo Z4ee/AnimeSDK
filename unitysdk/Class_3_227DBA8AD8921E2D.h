@@ -2,22 +2,22 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TargetEvaluatorImpl_1.h"
 
-class Class_0_16E4307DCC419505_573;
+class Class_0_16E4307DCC419505_661;
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TargetSequence; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_3_227DBA8AD8921E2D_EVALUATE_OFFSET UNITYSDK_OFFSET(0x16028120)
-#define CLASS_3_227DBA8AD8921E2D_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x16027F20)
-#define CLASS_3_227DBA8AD8921E2D__CTOR_OFFSET UNITYSDK_OFFSET(0x16027DB0)
+#define CLASS_3_227DBA8AD8921E2D_EVALUATE_OFFSET UNITYSDK_OFFSET(0x12659160)
+#define CLASS_3_227DBA8AD8921E2D_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x12658F60)
+#define CLASS_3_227DBA8AD8921E2D__CTOR_OFFSET UNITYSDK_OFFSET(0x12658DF0)
 
-inline static constexpr unsigned int Class_3_227DBA8AD8921E2D_TypeDefinitionIndex = 59346;
+inline static constexpr unsigned int Class_3_227DBA8AD8921E2D_TypeDefinitionIndex = 59199;
 
 class Class_3_227DBA8AD8921E2D : public ::RPG::GameCore::TargetEvaluatorImpl_1<::RPG::GameCore::TargetSequence*>
 {
 public:
-	::Il2CppArray<::Class_0_16E4307DCC419505_573*>* PDOFFHLJMGJ; // 0x18
+	::Il2CppArray<::Class_0_16E4307DCC419505_661*>* PDOFFHLJMGJ; // 0x18
 	::System::Boolean MNGCOMODOEB; // 0x20
 
 	::System::Void _ctor(::RPG::GameCore::TargetSequence* a1)

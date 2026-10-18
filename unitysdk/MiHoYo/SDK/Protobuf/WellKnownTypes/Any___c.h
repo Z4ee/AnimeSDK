@@ -4,20 +4,20 @@
 
 namespace MiHoYo::SDK::Protobuf::WellKnownTypes { class Any; }
 
-#define MIHOYO_SDK_PROTOBUF_WELLKNOWNTYPES_ANY___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EF826E0)
-#define MIHOYO_SDK_PROTOBUF_WELLKNOWNTYPES_ANY___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF82720)
-#define MIHOYO_SDK_PROTOBUF_WELLKNOWNTYPES_ANY___C___CCTOR_B__35_0_OFFSET UNITYSDK_OFFSET(0x1EF82730)
+#define MIHOYO_SDK_PROTOBUF_WELLKNOWNTYPES_ANY___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BBF52D0)
+#define MIHOYO_SDK_PROTOBUF_WELLKNOWNTYPES_ANY___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1BBF5310)
+#define MIHOYO_SDK_PROTOBUF_WELLKNOWNTYPES_ANY___C___CCTOR_B__35_0_OFFSET UNITYSDK_OFFSET(0x1BBF5320)
 
 namespace MiHoYo::SDK::Protobuf::WellKnownTypes
 {
-	inline static constexpr unsigned int Any___c_TypeDefinitionIndex = 35069;
+	inline static constexpr unsigned int Any___c_TypeDefinitionIndex = 35738;
 
 	class Any___c : public ::System::Object
 	{
 	public:
 		static ::MiHoYo::SDK::Protobuf::WellKnownTypes::Any___c** StaticGet___9()
 		{
-			return (::MiHoYo::SDK::Protobuf::WellKnownTypes::Any___c**)Il2CppClass::FromTypeDefinitionIndex(Any___c_TypeDefinitionIndex)->GetStaticField(0xBE0);
+			return (::MiHoYo::SDK::Protobuf::WellKnownTypes::Any___c**)Il2CppClass::FromTypeDefinitionIndex(Any___c_TypeDefinitionIndex)->GetStaticField(0x8B0);
 		}
 
 		static ::System::Void _cctor()

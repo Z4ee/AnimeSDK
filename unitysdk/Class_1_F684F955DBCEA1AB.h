@@ -5,15 +5,15 @@
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_1_F684F955DBCEA1AB__CTOR_OFFSET UNITYSDK_OFFSET(0x1C517CC0)
+#define CLASS_1_F684F955DBCEA1AB__CTOR_OFFSET UNITYSDK_OFFSET(0x1C9F9EE0)
 
-inline static constexpr unsigned int Class_1_F684F955DBCEA1AB_TypeDefinitionIndex = 41548;
+inline static constexpr unsigned int Class_1_F684F955DBCEA1AB_TypeDefinitionIndex = 43188;
 
 class Class_1_F684F955DBCEA1AB : public ::System::Object
 {
 public:
-	::UnityEngine::GameObject* MOAGBKPPHCF; // 0x10
-	::UnityEngine::Transform* FMMNCMNFDHP; // 0x18
+	::UnityEngine::Transform* FMMNCMNFDHP; // 0x10
+	::UnityEngine::GameObject* MOAGBKPPHCF; // 0x18
 	::UnityEngine::GameObject* HIJPCPIOCNL; // 0x20
 
 	::System::Void _ctor()

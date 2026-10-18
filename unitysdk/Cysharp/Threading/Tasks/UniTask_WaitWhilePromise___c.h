@@ -4,25 +4,25 @@
 
 namespace System { template <typename T> class Action_1; }
 
-#define CYSHARP_THREADING_TASKS_UNITASK_WAITWHILEPROMISE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CE12800)
-#define CYSHARP_THREADING_TASKS_UNITASK_WAITWHILEPROMISE___C__CREATE_B__11_0_OFFSET UNITYSDK_OFFSET(0x1CE128B0)
-#define CYSHARP_THREADING_TASKS_UNITASK_WAITWHILEPROMISE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE12840)
-#define CYSHARP_THREADING_TASKS_UNITASK_WAITWHILEPROMISE___C___CCTOR_B__4_0_OFFSET UNITYSDK_OFFSET(0x1CE12850)
+#define CYSHARP_THREADING_TASKS_UNITASK_WAITWHILEPROMISE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F11E6E0)
+#define CYSHARP_THREADING_TASKS_UNITASK_WAITWHILEPROMISE___C__CREATE_B__11_0_OFFSET UNITYSDK_OFFSET(0x1F11E790)
+#define CYSHARP_THREADING_TASKS_UNITASK_WAITWHILEPROMISE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1F11E720)
+#define CYSHARP_THREADING_TASKS_UNITASK_WAITWHILEPROMISE___C___CCTOR_B__4_0_OFFSET UNITYSDK_OFFSET(0x1F11E730)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UniTask_WaitWhilePromise___c_TypeDefinitionIndex = 42672;
+	inline static constexpr unsigned int UniTask_WaitWhilePromise___c_TypeDefinitionIndex = 38257;
 
 	class UniTask_WaitWhilePromise___c : public ::System::Object
 	{
 	public:
 		static ::Cysharp::Threading::Tasks::UniTask_WaitWhilePromise___c** StaticGet___9()
 		{
-			return (::Cysharp::Threading::Tasks::UniTask_WaitWhilePromise___c**)Il2CppClass::FromTypeDefinitionIndex(UniTask_WaitWhilePromise___c_TypeDefinitionIndex)->GetStaticField(0x62860);
+			return (::Cysharp::Threading::Tasks::UniTask_WaitWhilePromise___c**)Il2CppClass::FromTypeDefinitionIndex(UniTask_WaitWhilePromise___c_TypeDefinitionIndex)->GetStaticField(0x3A080);
 		}
 		static ::System::Action_1<::System::Object*>** StaticGet___9__11_0()
 		{
-			return (::System::Action_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(UniTask_WaitWhilePromise___c_TypeDefinitionIndex)->GetStaticField(0x62868);
+			return (::System::Action_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(UniTask_WaitWhilePromise___c_TypeDefinitionIndex)->GetStaticField(0x3A088);
 		}
 
 		static ::System::Void _cctor()

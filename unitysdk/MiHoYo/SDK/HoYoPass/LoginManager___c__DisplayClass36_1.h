@@ -6,18 +6,18 @@
 namespace MiHoYo::SDK::HoYoPass { class LoginManager___c__DisplayClass36_0; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS36_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE9D2F0)
-#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS36_1__REFRESHCURRENTACCOUNTINFO_B__1_OFFSET UNITYSDK_OFFSET(0x1AE9D300)
+#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS36_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE44550)
+#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS36_1__REFRESHCURRENTACCOUNTINFO_B__1_OFFSET UNITYSDK_OFFSET(0x1BE44560)
 
 namespace MiHoYo::SDK::HoYoPass
 {
-	inline static constexpr unsigned int LoginManager___c__DisplayClass36_1_TypeDefinitionIndex = 8265;
+	inline static constexpr unsigned int LoginManager___c__DisplayClass36_1_TypeDefinitionIndex = 8308;
 
 	class LoginManager___c__DisplayClass36_1 : public ::System::Object
 	{
 	public:
-		::MiHoYo::SDK::HoYoPass::LoginManager___c__DisplayClass36_0* CS___8__locals1; // 0x10
-		::System::String* accountInfo; // 0x18
+		::System::String* accountInfo; // 0x10
+		::MiHoYo::SDK::HoYoPass::LoginManager___c__DisplayClass36_0* CS___8__locals1; // 0x18
 		::MiHoYo::SDK::HoYoPass::HoYoPassSDK_ErrorCode ret; // 0x20
 
 		::System::Void _ctor()

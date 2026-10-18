@@ -7,10 +7,10 @@ class Class_1_6417078E6DA36F89;
 namespace RPG::Client::FateRin::CaseBoard { class TeamViewModel; }
 namespace RPG::GameCore { class FateRinCaseBoardBaseTeamInfo; }
 
-#define CLASS_1_C852F5794E5A33A5_1_METHOD_1_EEFF76A4A86AD370_OFFSET UNITYSDK_OFFSET(0x19281180)
-#define CLASS_1_C852F5794E5A33A5_1__CTOR_OFFSET UNITYSDK_OFFSET(0x192810D0)
+#define CLASS_1_C852F5794E5A33A5_1_METHOD_1_EEFF76A4A86AD370_OFFSET UNITYSDK_OFFSET(0xBFF67F0)
+#define CLASS_1_C852F5794E5A33A5_1__CTOR_OFFSET UNITYSDK_OFFSET(0xBFF6740)
 
-inline static constexpr unsigned int Class_1_C852F5794E5A33A5_1_TypeDefinitionIndex = 79492;
+inline static constexpr unsigned int Class_1_C852F5794E5A33A5_1_TypeDefinitionIndex = 80816;
 
 class Class_1_C852F5794E5A33A5_1 : public ::System::Object
 {

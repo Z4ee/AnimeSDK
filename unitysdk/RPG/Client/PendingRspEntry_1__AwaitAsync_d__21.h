@@ -13,7 +13,7 @@ namespace System::Threading { class CancellationTokenSource; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PendingRspEntry_1__AwaitAsync_d__21_TypeDefinitionIndex = 69373;
+	inline static constexpr unsigned int PendingRspEntry_1__AwaitAsync_d__21_TypeDefinitionIndex = 69409;
 
 	template <typename TRsp>
 	struct PendingRspEntry_1__AwaitAsync_d__21

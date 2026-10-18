@@ -6,11 +6,11 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_OPENWORLD_PVSRUNTIMEREPLAYCASEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x191ED5C0)
+#define RPG_CLIENT_OPENWORLD_PVSRUNTIMEREPLAYCASEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xDA011A0)
 
 namespace RPG::Client::OpenWorld
 {
-	inline static constexpr unsigned int PVSRuntimeReplayCaseData_TypeDefinitionIndex = 73656;
+	inline static constexpr unsigned int PVSRuntimeReplayCaseData_TypeDefinitionIndex = 73763;
 
 	class PVSRuntimeReplayCaseData : public ::System::Object
 	{

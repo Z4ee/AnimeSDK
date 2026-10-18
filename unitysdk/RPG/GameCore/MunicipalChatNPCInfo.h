@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MUNICIPALCHATNPCINFO_METHOD_2_8CAB1F244D7EF77C_OFFSET UNITYSDK_OFFSET(0x1CE78870)
-#define RPG_GAMECORE_MUNICIPALCHATNPCINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE78980)
+#define RPG_GAMECORE_MUNICIPALCHATNPCINFO_METHOD_2_8CAB1F244D7EF77C_OFFSET UNITYSDK_OFFSET(0x1D893F80)
+#define RPG_GAMECORE_MUNICIPALCHATNPCINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1D894090)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MunicipalChatNPCInfo_TypeDefinitionIndex = 16739;
+	inline static constexpr unsigned int MunicipalChatNPCInfo_TypeDefinitionIndex = 16933;
 
 	class MunicipalChatNPCInfo : public ::RPG::GameCore::JsonConfig
 	{

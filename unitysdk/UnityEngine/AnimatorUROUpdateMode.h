@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int AnimatorUROUpdateMode_TypeDefinitionIndex = 5701;
+	inline static constexpr unsigned int AnimatorUROUpdateMode_TypeDefinitionIndex = 5709;
 
 	enum class AnimatorUROUpdateMode : ::System::Int32
 	{

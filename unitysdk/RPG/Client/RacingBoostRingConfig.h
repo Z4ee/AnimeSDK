@@ -7,11 +7,11 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_RACINGBOOSTRINGCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18059DF0)
+#define RPG_CLIENT_RACINGBOOSTRINGCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xDE34F30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RacingBoostRingConfig_TypeDefinitionIndex = 59909;
+	inline static constexpr unsigned int RacingBoostRingConfig_TypeDefinitionIndex = 59772;
 
 	class RacingBoostRingConfig : public ::System::Object
 	{

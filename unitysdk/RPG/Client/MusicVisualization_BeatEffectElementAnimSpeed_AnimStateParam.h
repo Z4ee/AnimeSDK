@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_MUSICVISUALIZATION_BEATEFFECTELEMENTANIMSPEED_ANIMSTATEPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1A313F20)
+#define RPG_CLIENT_MUSICVISUALIZATION_BEATEFFECTELEMENTANIMSPEED_ANIMSTATEPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xD9184D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MusicVisualization_BeatEffectElementAnimSpeed_AnimStateParam_TypeDefinitionIndex = 70773;
+	inline static constexpr unsigned int MusicVisualization_BeatEffectElementAnimSpeed_AnimStateParam_TypeDefinitionIndex = 70811;
 
 	class MusicVisualization_BeatEffectElementAnimSpeed_AnimStateParam : public ::System::Object
 	{

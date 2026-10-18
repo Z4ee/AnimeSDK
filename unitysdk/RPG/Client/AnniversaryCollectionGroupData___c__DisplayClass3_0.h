@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class AnniversaryCollectionPanelData; }
 
-#define RPG_CLIENT_ANNIVERSARYCOLLECTIONGROUPDATA___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B31CF70)
-#define RPG_CLIENT_ANNIVERSARYCOLLECTIONGROUPDATA___C__DISPLAYCLASS3_0__GETPANELDATABYID_B__0_OFFSET UNITYSDK_OFFSET(0x1B31D2B0)
+#define RPG_CLIENT_ANNIVERSARYCOLLECTIONGROUPDATA___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC684030)
+#define RPG_CLIENT_ANNIVERSARYCOLLECTIONGROUPDATA___C__DISPLAYCLASS3_0__GETPANELDATABYID_B__0_OFFSET UNITYSDK_OFFSET(0xC684370)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AnniversaryCollectionGroupData___c__DisplayClass3_0_TypeDefinitionIndex = 62485;
+	inline static constexpr unsigned int AnniversaryCollectionGroupData___c__DisplayClass3_0_TypeDefinitionIndex = 62402;
 
 	class AnniversaryCollectionGroupData___c__DisplayClass3_0 : public ::System::Object
 	{

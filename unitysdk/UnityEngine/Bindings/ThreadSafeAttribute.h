@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Bindings/NativeMethodAttribute.h"
 
-#define UNITYENGINE_BINDINGS_THREADSAFEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F00F830)
+#define UNITYENGINE_BINDINGS_THREADSAFEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F46F410)
 
 namespace UnityEngine::Bindings
 {
-	inline static constexpr unsigned int ThreadSafeAttribute_TypeDefinitionIndex = 3732;
+	inline static constexpr unsigned int ThreadSafeAttribute_TypeDefinitionIndex = 3733;
 
 	class ThreadSafeAttribute : public ::UnityEngine::Bindings::NativeMethodAttribute
 	{

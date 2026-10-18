@@ -5,24 +5,24 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_GACHPOOLREWARDCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DCC0EE0)
-#define RPG_GAMECORE_GACHPOOLREWARDCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1DCC12B0)
+#define RPG_GAMECORE_GACHPOOLREWARDCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D6CBDE0)
+#define RPG_GAMECORE_GACHPOOLREWARDCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6CC1B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GachPoolRewardConfigRow_TypeDefinitionIndex = 14461;
+	inline static constexpr unsigned int GachPoolRewardConfigRow_TypeDefinitionIndex = 14626;
 
 	class GachPoolRewardConfigRow : public ::System::Object
 	{
 	public:
-		::RPG::Client::TextID Desc; // 0x10
-		::System::UInt32 ActivityID; // 0x20
-		::System::UInt32 ID; // 0x24
-		::RPG::Client::TextID Tips; // 0x28
-		::RPG::Client::TextID Title; // 0x38
-		::RPG::Client::TextID Bubble; // 0x48
-		::System::UInt32 GachaID; // 0x58
-		::System::UInt32 QuestID; // 0x5C
+		::RPG::Client::TextID Title; // 0x10
+		::RPG::Client::TextID Bubble; // 0x20
+		::RPG::Client::TextID Desc; // 0x30
+		::RPG::Client::TextID Tips; // 0x40
+		::System::UInt32 ActivityID; // 0x50
+		::System::UInt32 ID; // 0x54
+		::System::UInt32 QuestID; // 0x58
+		::System::UInt32 GachaID; // 0x5C
 
 		::System::Void _ctor()
 		{

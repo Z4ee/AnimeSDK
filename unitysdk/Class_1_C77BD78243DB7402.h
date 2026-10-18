@@ -7,17 +7,17 @@ class Class_1_1782F263438830D6;
 class Class_1_8A0D924C14430663_4;
 namespace RPG::Client { class Freelook3rdRigParams; }
 
-#define CLASS_1_C77BD78243DB7402_METHOD_1_14428232032DCF74_OFFSET UNITYSDK_OFFSET(0x1A0EABF0)
-#define CLASS_1_C77BD78243DB7402__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0EAD00)
+#define CLASS_1_C77BD78243DB7402_METHOD_1_14428232032DCF74_OFFSET UNITYSDK_OFFSET(0xD775560)
+#define CLASS_1_C77BD78243DB7402__CTOR_OFFSET UNITYSDK_OFFSET(0xD775670)
 
-inline static constexpr unsigned int Class_1_C77BD78243DB7402_TypeDefinitionIndex = 69642;
+inline static constexpr unsigned int Class_1_C77BD78243DB7402_TypeDefinitionIndex = 69678;
 
 class Class_1_C77BD78243DB7402 : public ::System::Object
 {
 public:
-	::Class_1_1782F263438830D6* MBJHFKGGHKP; // 0x10
-	::Il2CppArray<::RPG::Client::Freelook3rdRigParams*>* GACLJJDFHIK; // 0x18
-	::Class_1_8A0D924C14430663_4* OKDKLBDEKHC; // 0x20
+	::Il2CppArray<::RPG::Client::Freelook3rdRigParams*>* GACLJJDFHIK; // 0x10
+	::Class_1_8A0D924C14430663_4* OKDKLBDEKHC; // 0x18
+	::Class_1_1782F263438830D6* MBJHFKGGHKP; // 0x20
 	::UnityEngine::Vector2 NCKPDKAOMFG; // 0x28
 
 	::System::Void _ctor()

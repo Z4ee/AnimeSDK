@@ -10,24 +10,24 @@ namespace MiHoYo::SDK::Protobuf::Reflection { class OneofDescriptorProto; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_ONEOFDESCRIPTOR_CREATEACCESSOR_OFFSET UNITYSDK_OFFSET(0x1B0FD460)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_ONEOFDESCRIPTOR_CROSSLINK_OFFSET UNITYSDK_OFFSET(0x1B0F9660)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_ONEOFDESCRIPTOR_GET_ACCESSOR_OFFSET UNITYSDK_OFFSET(0x1B0D6F10)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_ONEOFDESCRIPTOR_GET_CONTAININGTYPE_OFFSET UNITYSDK_OFFSET(0x1B0FD440)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_ONEOFDESCRIPTOR_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1B0FD5F0)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_ONEOFDESCRIPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0FA0B0)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_ONEOFDESCRIPTOR_CREATEACCESSOR_OFFSET UNITYSDK_OFFSET(0x1BBEC590)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_ONEOFDESCRIPTOR_CROSSLINK_OFFSET UNITYSDK_OFFSET(0x1BBE8790)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_ONEOFDESCRIPTOR_GET_ACCESSOR_OFFSET UNITYSDK_OFFSET(0x1BBC6030)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_ONEOFDESCRIPTOR_GET_CONTAININGTYPE_OFFSET UNITYSDK_OFFSET(0x1BBEC570)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_ONEOFDESCRIPTOR_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1BBEC720)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_ONEOFDESCRIPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1BBE91E0)
 
 namespace MiHoYo::SDK::Protobuf::Reflection
 {
-	inline static constexpr unsigned int OneofDescriptor_TypeDefinitionIndex = 35175;
+	inline static constexpr unsigned int OneofDescriptor_TypeDefinitionIndex = 35844;
 
 	class OneofDescriptor : public ::MiHoYo::SDK::Protobuf::Reflection::DescriptorBase
 	{
 	public:
-		::MiHoYo::SDK::Protobuf::Reflection::MessageDescriptor* containingType; // 0x28
-		::System::Collections::Generic::IList_1<::MiHoYo::SDK::Protobuf::Reflection::FieldDescriptor*>* fields; // 0x30
+		::System::Collections::Generic::IList_1<::MiHoYo::SDK::Protobuf::Reflection::FieldDescriptor*>* fields; // 0x28
+		::MiHoYo::SDK::Protobuf::Reflection::OneofDescriptorProto* proto; // 0x30
 		::MiHoYo::SDK::Protobuf::Reflection::OneofAccessor* accessor; // 0x38
-		::MiHoYo::SDK::Protobuf::Reflection::OneofDescriptorProto* proto; // 0x40
+		::MiHoYo::SDK::Protobuf::Reflection::MessageDescriptor* containingType; // 0x40
 
 		::System::Void _ctor(::MiHoYo::SDK::Protobuf::Reflection::OneofDescriptorProto* a1, ::MiHoYo::SDK::Protobuf::Reflection::FileDescriptor* a2, ::MiHoYo::SDK::Protobuf::Reflection::MessageDescriptor* a3, ::System::Int32 a4, ::System::String* a5)
 		{

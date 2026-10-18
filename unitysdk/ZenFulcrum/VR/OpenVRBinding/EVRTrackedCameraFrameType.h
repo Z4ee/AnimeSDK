@@ -3,7 +3,7 @@
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int EVRTrackedCameraFrameType_TypeDefinitionIndex = 37944;
+	inline static constexpr unsigned int EVRTrackedCameraFrameType_TypeDefinitionIndex = 39241;
 
 	enum class EVRTrackedCameraFrameType : ::System::Int32
 	{

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TimeRewindControllerInteract; }
 
-#define CLASS_3_F9D6387585C95B44_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16B157A0)
-#define CLASS_3_F9D6387585C95B44__CTOR_OFFSET UNITYSDK_OFFSET(0x16B15770)
+#define CLASS_3_F9D6387585C95B44_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB9CDDE0)
+#define CLASS_3_F9D6387585C95B44__CTOR_OFFSET UNITYSDK_OFFSET(0xB9CDDB0)
 
-inline static constexpr unsigned int Class_3_F9D6387585C95B44_TypeDefinitionIndex = 53655;
+inline static constexpr unsigned int Class_3_F9D6387585C95B44_TypeDefinitionIndex = 53398;
 
 class Class_3_F9D6387585C95B44 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::TimeRewindControllerInteract*>
 {

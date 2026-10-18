@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_DIMENSIONINCREMENTSCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DB0A0D0)
-#define RPG_GAMECORE_DIMENSIONINCREMENTSCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB0A1C0)
+#define RPG_GAMECORE_DIMENSIONINCREMENTSCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D5E8C60)
+#define RPG_GAMECORE_DIMENSIONINCREMENTSCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5E8D50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DimensionIncrementsConfig_TypeDefinitionIndex = 14571;
+	inline static constexpr unsigned int DimensionIncrementsConfig_TypeDefinitionIndex = 14736;
 
 	class DimensionIncrementsConfig : public ::System::Object
 	{

@@ -9,11 +9,11 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class Mesh; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_TIMESPACECRISSCROSSIRIMONOPLUGIN_TSCINSTANCEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x197A66A0)
+#define RPG_CLIENT_TIMESPACECRISSCROSSIRIMONOPLUGIN_TSCINSTANCEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xE292240)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TimeSpaceCrisscrossIRIMonoPlugin_TSCInstanceData_TypeDefinitionIndex = 70192;
+	inline static constexpr unsigned int TimeSpaceCrisscrossIRIMonoPlugin_TSCInstanceData_TypeDefinitionIndex = 70228;
 
 	class TimeSpaceCrisscrossIRIMonoPlugin_TSCInstanceData : public ::System::Object
 	{

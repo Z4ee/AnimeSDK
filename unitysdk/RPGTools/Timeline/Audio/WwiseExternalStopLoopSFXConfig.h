@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPGTOOLS_TIMELINE_AUDIO_WWISEEXTERNALSTOPLOOPSFXCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1286D0)
+#define RPGTOOLS_TIMELINE_AUDIO_WWISEEXTERNALSTOPLOOPSFXCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xE8A8F40)
 
 namespace RPGTools::Timeline::Audio
 {
-	inline static constexpr unsigned int WwiseExternalStopLoopSFXConfig_TypeDefinitionIndex = 49298;
+	inline static constexpr unsigned int WwiseExternalStopLoopSFXConfig_TypeDefinitionIndex = 48852;
 
 	class WwiseExternalStopLoopSFXConfig : public ::System::Object
 	{

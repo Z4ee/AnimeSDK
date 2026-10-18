@@ -4,24 +4,24 @@
 
 namespace System { class Action; }
 
-#define MIHOYO_SDK_WIN_GOOGLEOAUTHSERVER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15D39D40)
-#define MIHOYO_SDK_WIN_GOOGLEOAUTHSERVER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15D39D80)
-#define MIHOYO_SDK_WIN_GOOGLEOAUTHSERVER___C__REDIRECTRESULTURL_B__25_0_OFFSET UNITYSDK_OFFSET(0x15D39D90)
+#define MIHOYO_SDK_WIN_GOOGLEOAUTHSERVER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BD15DA0)
+#define MIHOYO_SDK_WIN_GOOGLEOAUTHSERVER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD15DE0)
+#define MIHOYO_SDK_WIN_GOOGLEOAUTHSERVER___C__REDIRECTRESULTURL_B__25_0_OFFSET UNITYSDK_OFFSET(0x1BD15DF0)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int GoogleOAuthServer___c_TypeDefinitionIndex = 9254;
+	inline static constexpr unsigned int GoogleOAuthServer___c_TypeDefinitionIndex = 9316;
 
 	class GoogleOAuthServer___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__25_0()
-		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(GoogleOAuthServer___c_TypeDefinitionIndex)->GetStaticField(0x2FCD0);
-		}
 		static ::MiHoYo::SDK::Win::GoogleOAuthServer___c** StaticGet___9()
 		{
-			return (::MiHoYo::SDK::Win::GoogleOAuthServer___c**)Il2CppClass::FromTypeDefinitionIndex(GoogleOAuthServer___c_TypeDefinitionIndex)->GetStaticField(0x2FCD8);
+			return (::MiHoYo::SDK::Win::GoogleOAuthServer___c**)Il2CppClass::FromTypeDefinitionIndex(GoogleOAuthServer___c_TypeDefinitionIndex)->GetStaticField(0x30F60);
+		}
+		static ::System::Action** StaticGet___9__25_0()
+		{
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(GoogleOAuthServer___c_TypeDefinitionIndex)->GetStaticField(0x30F68);
 		}
 
 		static ::System::Void _cctor()

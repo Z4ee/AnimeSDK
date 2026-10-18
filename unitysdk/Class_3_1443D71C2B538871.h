@@ -3,7 +3,7 @@
 #include "unitysdk/RPG/GameCore/PropInteractionTrigger.h"
 #include "unitysdk/RPG/GameCore/TriggerExitReason.h"
 
-class Class_0_16E4307DCC419505_617;
+class Class_0_16E4307DCC419505_707;
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class PropComponent; }
 namespace RPG::GameCore { class PropInteractionTrigger_ButtonParam; }
@@ -12,37 +12,37 @@ namespace RPG::GameCore { class TaskContext; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define CLASS_3_1443D71C2B538871_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1ABA1C90)
-#define CLASS_3_1443D71C2B538871_DOONENTER_OFFSET UNITYSDK_OFFSET(0x1ABA1E70)
-#define CLASS_3_1443D71C2B538871_DOONEXIT_OFFSET UNITYSDK_OFFSET(0x1ABA2080)
-#define CLASS_3_1443D71C2B538871_METHOD_3_0ABEB23FF62F8B8F_OFFSET UNITYSDK_OFFSET(0x1ABA21D0)
-#define CLASS_3_1443D71C2B538871_METHOD_3_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0x1ABA1D70)
-#define CLASS_3_1443D71C2B538871_METHOD_3_BF5E2DCAE0BF038A_OFFSET UNITYSDK_OFFSET(0x1ABA1EE0)
-#define CLASS_3_1443D71C2B538871_ONTRIGGEREDLOGICFINISH_OFFSET UNITYSDK_OFFSET(0x1ABA20E0)
-#define CLASS_3_1443D71C2B538871__CCTOR_OFFSET UNITYSDK_OFFSET(0x1ABA2620)
-#define CLASS_3_1443D71C2B538871__CTOR_OFFSET UNITYSDK_OFFSET(0x1ABA1B70)
-#define CLASS_3_1443D71C2B538871__TICKCD_OFFSET UNITYSDK_OFFSET(0x1ABA2120)
+#define CLASS_3_1443D71C2B538871_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC38D090)
+#define CLASS_3_1443D71C2B538871_DOONENTER_OFFSET UNITYSDK_OFFSET(0xC38D270)
+#define CLASS_3_1443D71C2B538871_DOONEXIT_OFFSET UNITYSDK_OFFSET(0xC38D480)
+#define CLASS_3_1443D71C2B538871_METHOD_3_0ABEB23FF62F8B8F_OFFSET UNITYSDK_OFFSET(0xC38D5D0)
+#define CLASS_3_1443D71C2B538871_METHOD_3_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0xC38D170)
+#define CLASS_3_1443D71C2B538871_METHOD_3_BF5E2DCAE0BF038A_OFFSET UNITYSDK_OFFSET(0xC38D2E0)
+#define CLASS_3_1443D71C2B538871_ONTRIGGEREDLOGICFINISH_OFFSET UNITYSDK_OFFSET(0xC38D4E0)
+#define CLASS_3_1443D71C2B538871__CCTOR_OFFSET UNITYSDK_OFFSET(0xC38DA20)
+#define CLASS_3_1443D71C2B538871__CTOR_OFFSET UNITYSDK_OFFSET(0xC38CF70)
+#define CLASS_3_1443D71C2B538871__TICKCD_OFFSET UNITYSDK_OFFSET(0xC38D520)
 
-inline static constexpr unsigned int Class_3_1443D71C2B538871_TypeDefinitionIndex = 57679;
+inline static constexpr unsigned int Class_3_1443D71C2B538871_TypeDefinitionIndex = 57525;
 
 class Class_3_1443D71C2B538871 : public ::RPG::GameCore::PropInteractionTrigger
 {
 public:
 	static ::System::String** StaticGet_JKMABBEGEAH()
 	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_3_1443D71C2B538871_TypeDefinitionIndex)->GetStaticField(0x60ED0);
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_3_1443D71C2B538871_TypeDefinitionIndex)->GetStaticField(0xE1D0);
 	}
-	::Il2CppArray<::RPG::GameCore::TaskConfig*>* KIIOOGNDFPM; // 0xC8
-	::RPG::GameCore::PropInteractionTrigger_ButtonParam* PJDOOHMAJEJ; // 0xD0
-	::Il2CppArray<::RPG::GameCore::TaskConfig*>* IJLODCCJMFH; // 0xD8
-	::RPG::GameCore::PropInteractionTrigger_ButtonParam* PNCCMJKGPAK; // 0xE0
-	::System::Single MIFCMKJDOOM; // 0xE8
-	::System::Single KLADNOMNBJJ; // 0xEC
-	::System::UInt32 JJBOPOPCOCH; // 0xF0
+	::Il2CppArray<::RPG::GameCore::TaskConfig*>* IJLODCCJMFH; // 0xD0
+	::RPG::GameCore::PropInteractionTrigger_ButtonParam* PJDOOHMAJEJ; // 0xD8
+	::Il2CppArray<::RPG::GameCore::TaskConfig*>* KIIOOGNDFPM; // 0xE0
+	::RPG::GameCore::PropInteractionTrigger_ButtonParam* PNCCMJKGPAK; // 0xE8
+	::System::Single MIFCMKJDOOM; // 0xF0
+	::System::Single KLADNOMNBJJ; // 0xF4
+	::System::UInt32 JJBOPOPCOCH; // 0xF8
 
-	::System::Void _ctor(::RPG::GameCore::PropComponent* a1, ::RPG::GameCore::TaskContext* a2, ::Class_0_16E4307DCC419505_617* a3, ::Class_0_16E4307DCC419505_617* a4, ::Il2CppArray<::RPG::GameCore::TaskConfig*>* a5, ::Il2CppArray<::RPG::GameCore::TaskConfig*>* a6, ::System::Single a7)
+	::System::Void _ctor(::RPG::GameCore::PropComponent* a1, ::RPG::GameCore::TaskContext* a2, ::Class_0_16E4307DCC419505_707* a3, ::Class_0_16E4307DCC419505_707* a4, ::Il2CppArray<::RPG::GameCore::TaskConfig*>* a5, ::Il2CppArray<::RPG::GameCore::TaskConfig*>* a6, ::System::Single a7)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::PropComponent*, ::RPG::GameCore::TaskContext*, ::Class_0_16E4307DCC419505_617*, ::Class_0_16E4307DCC419505_617*, ::Il2CppArray<::RPG::GameCore::TaskConfig*>*, ::Il2CppArray<::RPG::GameCore::TaskConfig*>*, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_3_1443D71C2B538871__CTOR_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::PropComponent*, ::RPG::GameCore::TaskContext*, ::Class_0_16E4307DCC419505_707*, ::Class_0_16E4307DCC419505_707*, ::Il2CppArray<::RPG::GameCore::TaskConfig*>*, ::Il2CppArray<::RPG::GameCore::TaskConfig*>*, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_3_1443D71C2B538871__CTOR_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 	}
 
 	static ::System::Void _cctor()

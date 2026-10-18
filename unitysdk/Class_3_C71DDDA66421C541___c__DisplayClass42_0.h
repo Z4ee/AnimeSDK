@@ -2,16 +2,16 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_3_C71DDDA66421C541___C__DISPLAYCLASS42_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A424E60)
-#define CLASS_3_C71DDDA66421C541___C__DISPLAYCLASS42_0__ONROBOTCOMMUNICATEPERFORMANCE_B__0_OFFSET UNITYSDK_OFFSET(0x1A431D20)
+#define CLASS_3_C71DDDA66421C541___C__DISPLAYCLASS42_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB7B6530)
+#define CLASS_3_C71DDDA66421C541___C__DISPLAYCLASS42_0__ONROBOTCOMMUNICATEPERFORMANCE_B__0_OFFSET UNITYSDK_OFFSET(0xB7C32D0)
 
-inline static constexpr unsigned int Class_3_C71DDDA66421C541___c__DisplayClass42_0_TypeDefinitionIndex = 60493;
+inline static constexpr unsigned int Class_3_C71DDDA66421C541___c__DisplayClass42_0_TypeDefinitionIndex = 60381;
 
 class Class_3_C71DDDA66421C541___c__DisplayClass42_0 : public ::System::Object
 {
 public:
-	::System::UInt32 playerUID; // 0x10
-	::System::UInt32 communicateID; // 0x14
+	::System::UInt32 communicateID; // 0x10
+	::System::UInt32 playerUID; // 0x14
 
 	::System::Void _ctor()
 	{

@@ -8,12 +8,12 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PHOTOGRAPHOVERRIDEMODECONFIG_METHOD_2_23A3D134F7763D34_OFFSET UNITYSDK_OFFSET(0x1D4356F0)
-#define RPG_GAMECORE_PHOTOGRAPHOVERRIDEMODECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D435C70)
+#define RPG_GAMECORE_PHOTOGRAPHOVERRIDEMODECONFIG_METHOD_2_23A3D134F7763D34_OFFSET UNITYSDK_OFFSET(0x1D8E4210)
+#define RPG_GAMECORE_PHOTOGRAPHOVERRIDEMODECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D8E4790)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PhotoGraphOverrideModeConfig_TypeDefinitionIndex = 21391;
+	inline static constexpr unsigned int PhotoGraphOverrideModeConfig_TypeDefinitionIndex = 21637;
 
 	class PhotoGraphOverrideModeConfig : public ::RPG::GameCore::JsonConfig
 	{

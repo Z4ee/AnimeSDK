@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/InControl/InputDeviceProfile.h"
 
-#define INCONTROL_UNITYDEVICEPROFILES_MAXFIREBLAZE5WINDOWSUNITYPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0xC0E3040)
-#define INCONTROL_UNITYDEVICEPROFILES_MAXFIREBLAZE5WINDOWSUNITYPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0xC0E42C0)
+#define INCONTROL_UNITYDEVICEPROFILES_MAXFIREBLAZE5WINDOWSUNITYPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x1BAC3350)
+#define INCONTROL_UNITYDEVICEPROFILES_MAXFIREBLAZE5WINDOWSUNITYPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BAC45D0)
 
 namespace InControl::UnityDeviceProfiles
 {
-	inline static constexpr unsigned int MaxFireBlaze5WindowsUnityProfile_TypeDefinitionIndex = 39782;
+	inline static constexpr unsigned int MaxFireBlaze5WindowsUnityProfile_TypeDefinitionIndex = 41079;
 
 	class MaxFireBlaze5WindowsUnityProfile : public ::InControl::InputDeviceProfile
 	{

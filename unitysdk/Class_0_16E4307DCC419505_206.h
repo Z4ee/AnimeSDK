@@ -1,10 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Vector3.h"
 
-class Class_1_C65FB61BCA66847A;
-namespace RPG::GameCore { class LevelTriggerInfo; }
-
-inline static constexpr unsigned int Class_0_16E4307DCC419505_206_TypeDefinitionIndex = 40623;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_206_TypeDefinitionIndex = 42061;
 
 class Class_0_16E4307DCC419505_206
 {

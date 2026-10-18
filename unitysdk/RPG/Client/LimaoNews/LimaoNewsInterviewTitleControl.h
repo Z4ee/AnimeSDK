@@ -4,19 +4,19 @@
 
 namespace UnityEngine::UI { class Text; }
 
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSINTERVIEWTITLECONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x1C53B020)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSINTERVIEWTITLECONTROL__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x1C53AE40)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSINTERVIEWTITLECONTROL__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0x1C53ADA0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSINTERVIEWTITLECONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0xD3A8CB0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSINTERVIEWTITLECONTROL__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0xD3A8AA0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSINTERVIEWTITLECONTROL__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0xD3A8A00)
 
 namespace RPG::Client::LimaoNews
 {
-	inline static constexpr unsigned int LimaoNewsInterviewTitleControl_TypeDefinitionIndex = 79057;
+	inline static constexpr unsigned int LimaoNewsInterviewTitleControl_TypeDefinitionIndex = 80380;
 
 	class LimaoNewsInterviewTitleControl : public ::Sofa::BaseSofaControl
 	{
 	public:
-		::UnityEngine::UI::Text* _IssueIndexText; // 0x38
-		::UnityEngine::UI::Text* _TextTitle; // 0x40
+		::UnityEngine::UI::Text* _IssueIndexText; // 0x40
+		::UnityEngine::UI::Text* _TextTitle; // 0x48
 
 		::System::Void _ctor()
 		{

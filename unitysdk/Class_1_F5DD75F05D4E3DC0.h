@@ -5,17 +5,17 @@
 
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_F5DD75F05D4E3DC0_METHOD_1_050AA269690E657E_OFFSET UNITYSDK_OFFSET(0x1B2610B0)
-#define CLASS_1_F5DD75F05D4E3DC0__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B2611A0)
+#define CLASS_1_F5DD75F05D4E3DC0_METHOD_1_050AA269690E657E_OFFSET UNITYSDK_OFFSET(0x1C649CC0)
+#define CLASS_1_F5DD75F05D4E3DC0__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C649DB0)
 
-inline static constexpr unsigned int Class_1_F5DD75F05D4E3DC0_TypeDefinitionIndex = 36522;
+inline static constexpr unsigned int Class_1_F5DD75F05D4E3DC0_TypeDefinitionIndex = 37209;
 
 class Class_1_F5DD75F05D4E3DC0 : public ::System::Object
 {
 public:
 	static ::System::Collections::Generic::Dictionary_2<::System::RuntimeTypeHandle, ::System::Object*>** StaticGet_DJDMBFHDHON()
 	{
-		return (::System::Collections::Generic::Dictionary_2<::System::RuntimeTypeHandle, ::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_F5DD75F05D4E3DC0_TypeDefinitionIndex)->GetStaticField(0xE630);
+		return (::System::Collections::Generic::Dictionary_2<::System::RuntimeTypeHandle, ::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_F5DD75F05D4E3DC0_TypeDefinitionIndex)->GetStaticField(0x20F0);
 	}
 
 	static ::System::Void _cctor()

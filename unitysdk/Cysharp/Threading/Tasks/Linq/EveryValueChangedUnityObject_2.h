@@ -10,7 +10,7 @@ namespace System::Collections::Generic { template <typename T> class IEqualityCo
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int EveryValueChangedUnityObject_2_TypeDefinitionIndex = 44576;
+	inline static constexpr unsigned int EveryValueChangedUnityObject_2_TypeDefinitionIndex = 45715;
 
 	template <typename TTarget, typename TProperty>
 	class EveryValueChangedUnityObject_2 : public ::System::Object

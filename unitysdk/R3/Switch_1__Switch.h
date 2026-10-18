@@ -11,7 +11,7 @@ namespace System { class Object; }
 
 namespace R3
 {
-	inline static constexpr unsigned int Switch_1__Switch_TypeDefinitionIndex = 35272;
+	inline static constexpr unsigned int Switch_1__Switch_TypeDefinitionIndex = 35954;
 
 	template <typename T>
 	class Switch_1__Switch : public ::R3::Observer_1<::R3::Observable_1<T>*>

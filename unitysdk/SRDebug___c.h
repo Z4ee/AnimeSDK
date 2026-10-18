@@ -5,22 +5,22 @@
 namespace SRDebugger::Services { class ConsoleEntry; }
 namespace System { template <typename T> class Action_1; }
 
-#define SRDEBUG___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BD98350)
-#define SRDEBUG___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD98380)
-#define SRDEBUG___C__GETDEFAULTCOPYCONSOLEITEMCALLBACK_B__8_0_OFFSET UNITYSDK_OFFSET(0x1BD98390)
+#define SRDEBUG___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1ED08CF0)
+#define SRDEBUG___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1ED08D20)
+#define SRDEBUG___C__GETDEFAULTCOPYCONSOLEITEMCALLBACK_B__8_0_OFFSET UNITYSDK_OFFSET(0x1ED08D30)
 
-inline static constexpr unsigned int SRDebug___c_TypeDefinitionIndex = 37254;
+inline static constexpr unsigned int SRDebug___c_TypeDefinitionIndex = 37947;
 
 class SRDebug___c : public ::System::Object
 {
 public:
 	static ::System::Action_1<::SRDebugger::Services::ConsoleEntry*>** StaticGet___9__8_0()
 	{
-		return (::System::Action_1<::SRDebugger::Services::ConsoleEntry*>**)Il2CppClass::FromTypeDefinitionIndex(SRDebug___c_TypeDefinitionIndex)->GetStaticField(0x3E400);
+		return (::System::Action_1<::SRDebugger::Services::ConsoleEntry*>**)Il2CppClass::FromTypeDefinitionIndex(SRDebug___c_TypeDefinitionIndex)->GetStaticField(0x32FA0);
 	}
 	static ::SRDebug___c** StaticGet___9()
 	{
-		return (::SRDebug___c**)Il2CppClass::FromTypeDefinitionIndex(SRDebug___c_TypeDefinitionIndex)->GetStaticField(0x3E408);
+		return (::SRDebug___c**)Il2CppClass::FromTypeDefinitionIndex(SRDebug___c_TypeDefinitionIndex)->GetStaticField(0x32FA8);
 	}
 
 	static ::System::Void _cctor()

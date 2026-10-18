@@ -4,7 +4,7 @@
 
 namespace RPG::Client { class ListView; }
 
-inline static constexpr unsigned int Class_1_B1B1DCD678344160___SelectWhenShown_d__5_TypeDefinitionIndex = 50177;
+inline static constexpr unsigned int Class_1_B1B1DCD678344160___SelectWhenShown_d__5_TypeDefinitionIndex = 49802;
 
 template <typename TViewModel, typename TItem, typename TMessage>
 class Class_1_B1B1DCD678344160___SelectWhenShown_d__5 : public ::System::Object

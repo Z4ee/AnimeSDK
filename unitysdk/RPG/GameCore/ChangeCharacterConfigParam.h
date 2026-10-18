@@ -16,13 +16,13 @@ namespace RPG::GameCore { class LocationConfig; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHANGECHARACTERCONFIGPARAM_METHOD_3_094C8096E8739648_OFFSET UNITYSDK_OFFSET(0x1D1156B0)
-#define RPG_GAMECORE_CHANGECHARACTERCONFIGPARAM_METHOD_3_87795E0FA3DBA95A_OFFSET UNITYSDK_OFFSET(0x1D1159C0)
-#define RPG_GAMECORE_CHANGECHARACTERCONFIGPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1D115920)
+#define RPG_GAMECORE_CHANGECHARACTERCONFIGPARAM_METHOD_3_094C8096E8739648_OFFSET UNITYSDK_OFFSET(0x1D536940)
+#define RPG_GAMECORE_CHANGECHARACTERCONFIGPARAM_METHOD_3_A09383456EBF4C86_OFFSET UNITYSDK_OFFSET(0x1D536C50)
+#define RPG_GAMECORE_CHANGECHARACTERCONFIGPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1D536BB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChangeCharacterConfigParam_TypeDefinitionIndex = 23407;
+	inline static constexpr unsigned int ChangeCharacterConfigParam_TypeDefinitionIndex = 23679;
 
 	class ChangeCharacterConfigParam : public ::RPG::GameCore::TaskConfig
 	{
@@ -59,9 +59,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChangeCharacterConfigParam*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHANGECHARACTERCONFIGPARAM_METHOD_3_094C8096E8739648_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_87795E0FA3DBA95A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChangeCharacterConfigParam* a2)
+		static ::System::Void Method_3_A09383456EBF4C86(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChangeCharacterConfigParam* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChangeCharacterConfigParam*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHANGECHARACTERCONFIGPARAM_METHOD_3_87795E0FA3DBA95A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChangeCharacterConfigParam*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHANGECHARACTERCONFIGPARAM_METHOD_3_A09383456EBF4C86_OFFSET))(a1, a2);
 		}
 	};
 }

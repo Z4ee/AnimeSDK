@@ -4,20 +4,20 @@
 
 namespace Proto { class GetBasicInfoScRsp; }
 
-#define PROTO_GETBASICINFOSCRSP___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DD372F0)
-#define PROTO_GETBASICINFOSCRSP___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD37320)
-#define PROTO_GETBASICINFOSCRSP___C___CCTOR_B__68_0_OFFSET UNITYSDK_OFFSET(0x1DD37330)
+#define PROTO_GETBASICINFOSCRSP___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DFC8510)
+#define PROTO_GETBASICINFOSCRSP___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1DFC8540)
+#define PROTO_GETBASICINFOSCRSP___C___CCTOR_B__68_0_OFFSET UNITYSDK_OFFSET(0x1DFC8550)
 
 namespace Proto
 {
-	inline static constexpr unsigned int GetBasicInfoScRsp___c_TypeDefinitionIndex = 31399;
+	inline static constexpr unsigned int GetBasicInfoScRsp___c_TypeDefinitionIndex = 32039;
 
 	class GetBasicInfoScRsp___c : public ::System::Object
 	{
 	public:
 		static ::Proto::GetBasicInfoScRsp___c** StaticGet___9()
 		{
-			return (::Proto::GetBasicInfoScRsp___c**)Il2CppClass::FromTypeDefinitionIndex(GetBasicInfoScRsp___c_TypeDefinitionIndex)->GetStaticField(0x5AAB0);
+			return (::Proto::GetBasicInfoScRsp___c**)Il2CppClass::FromTypeDefinitionIndex(GetBasicInfoScRsp___c_TypeDefinitionIndex)->GetStaticField(0x4AD20);
 		}
 
 		static ::System::Void _cctor()

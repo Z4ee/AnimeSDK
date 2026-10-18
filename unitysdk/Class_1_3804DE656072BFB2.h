@@ -5,9 +5,9 @@
 class Class_2_16B9C35244A9496A_1;
 class Class_3_F4D810DFD0752D1F;
 
-#define CLASS_1_3804DE656072BFB2_METHOD_1_9CED32D366E0F5A4_OFFSET UNITYSDK_OFFSET(0x14C596F0)
+#define CLASS_1_3804DE656072BFB2_METHOD_1_9CED32D366E0F5A4_OFFSET UNITYSDK_OFFSET(0xB46E960)
 
-inline static constexpr unsigned int Class_1_3804DE656072BFB2_TypeDefinitionIndex = 61230;
+inline static constexpr unsigned int Class_1_3804DE656072BFB2_TypeDefinitionIndex = 61135;
 
 class Class_1_3804DE656072BFB2 : public ::System::Object
 {

@@ -12,13 +12,13 @@ namespace RPG::Client::LittleGame::FiveDim { template <typename T> class IEntity
 namespace RPG::Client::LittleGame::FiveDim { template <typename T> class IFiveDimEventService_1; }
 namespace RPG::Client::LittleGame::FiveDim { template <typename T> class IFiveDimLevelVarService_1; }
 namespace RPG::GameCore { class FiveDimChestConfig; }
-namespace RPG::GameCore { class FiveDimDynamicVar; }
+namespace RPG::GameCore { class LittleGameDynamicVar; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int BaseChestSystem_1_TypeDefinitionIndex = 76595;
+	inline static constexpr unsigned int BaseChestSystem_1_TypeDefinitionIndex = 77066;
 
 	template <typename T>
 	class BaseChestSystem_1 : public ::System::Object

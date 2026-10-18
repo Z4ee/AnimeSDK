@@ -7,14 +7,14 @@ template <typename T> class Class_1_D837DED66799FBE3_DelegateParseJson_1;
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PckPatchPlatform___O_TypeDefinitionIndex = 16220;
+	inline static constexpr unsigned int PckPatchPlatform___O_TypeDefinitionIndex = 16393;
 
 	class PckPatchPlatform___O : public ::System::Object
 	{
 	public:
 		static ::Class_1_D837DED66799FBE3_DelegateParseJson_1<::System::String*>** StaticGet__0___FromJson()
 		{
-			return (::Class_1_D837DED66799FBE3_DelegateParseJson_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(PckPatchPlatform___O_TypeDefinitionIndex)->GetStaticField(0x43E00);
+			return (::Class_1_D837DED66799FBE3_DelegateParseJson_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(PckPatchPlatform___O_TypeDefinitionIndex)->GetStaticField(0x53390);
 		}
 	};
 }

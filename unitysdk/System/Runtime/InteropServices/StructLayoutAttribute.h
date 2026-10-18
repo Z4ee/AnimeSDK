@@ -6,9 +6,9 @@
 
 namespace System { class RuntimeType; }
 
-#define SYSTEM_RUNTIME_INTEROPSERVICES_STRUCTLAYOUTATTRIBUTE_GETCUSTOMATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1C459E40)
-#define SYSTEM_RUNTIME_INTEROPSERVICES_STRUCTLAYOUTATTRIBUTE_ISDEFINED_OFFSET UNITYSDK_OFFSET(0x1C45A130)
-#define SYSTEM_RUNTIME_INTEROPSERVICES_STRUCTLAYOUTATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C45A1F0)
+#define SYSTEM_RUNTIME_INTEROPSERVICES_STRUCTLAYOUTATTRIBUTE_GETCUSTOMATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1C29C8A0)
+#define SYSTEM_RUNTIME_INTEROPSERVICES_STRUCTLAYOUTATTRIBUTE_ISDEFINED_OFFSET UNITYSDK_OFFSET(0x1C29CB90)
+#define SYSTEM_RUNTIME_INTEROPSERVICES_STRUCTLAYOUTATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C29CC50)
 
 namespace System::Runtime::InteropServices
 {
@@ -17,9 +17,9 @@ namespace System::Runtime::InteropServices
 	class StructLayoutAttribute : public ::System::Attribute
 	{
 	public:
-		::System::Runtime::InteropServices::LayoutKind _val; // 0x10
-		::System::Runtime::InteropServices::CharSet CharSet; // 0x14
-		::System::Int32 Size; // 0x18
+		::System::Runtime::InteropServices::CharSet CharSet; // 0x10
+		::System::Int32 Size; // 0x14
+		::System::Runtime::InteropServices::LayoutKind _val; // 0x18
 		::System::Int32 Pack; // 0x1C
 
 		::System::Void _ctor(::System::Runtime::InteropServices::LayoutKind a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Runtime::InteropServices::CharSet a4)

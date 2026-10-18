@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define RPG_CLIENT_MONOUIAUTOACTIVE_AWAKE_OFFSET UNITYSDK_OFFSET(0x1C294CA0)
-#define RPG_CLIENT_MONOUIAUTOACTIVE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C294E00)
+#define RPG_CLIENT_MONOUIAUTOACTIVE_AWAKE_OFFSET UNITYSDK_OFFSET(0xD871710)
+#define RPG_CLIENT_MONOUIAUTOACTIVE__CTOR_OFFSET UNITYSDK_OFFSET(0xD871870)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoUIAutoActive_TypeDefinitionIndex = 72537;
+	inline static constexpr unsigned int MonoUIAutoActive_TypeDefinitionIndex = 72611;
 
 	class MonoUIAutoActive : public ::UnityEngine::MonoBehaviour
 	{

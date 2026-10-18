@@ -7,7 +7,7 @@ namespace System { class Exception; }
 
 namespace Cysharp::Threading::Tasks::Internal
 {
-	inline static constexpr unsigned int EmptyObserver_1_TypeDefinitionIndex = 43113;
+	inline static constexpr unsigned int EmptyObserver_1_TypeDefinitionIndex = 38698;
 
 	template <typename T>
 	class EmptyObserver_1 : public ::System::Object

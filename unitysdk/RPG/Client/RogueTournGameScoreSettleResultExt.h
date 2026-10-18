@@ -4,11 +4,11 @@
 
 namespace RPG::Client { class IRogueTournGameScoreSettleResult; }
 
-#define RPG_CLIENT_ROGUETOURNGAMESCORESETTLERESULTEXT_ISEMPTY_OFFSET UNITYSDK_OFFSET(0x1C32B420)
+#define RPG_CLIENT_ROGUETOURNGAMESCORESETTLERESULTEXT_ISEMPTY_OFFSET UNITYSDK_OFFSET(0xDFE3E10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournGameScoreSettleResultExt_TypeDefinitionIndex = 67844;
+	inline static constexpr unsigned int RogueTournGameScoreSettleResultExt_TypeDefinitionIndex = 67846;
 
 	class RogueTournGameScoreSettleResultExt : public ::System::Object
 	{

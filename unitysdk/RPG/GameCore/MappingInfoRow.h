@@ -8,12 +8,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ItemConfig; }
 
-#define RPG_GAMECORE_MAPPINGINFOROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D4A18F0)
-#define RPG_GAMECORE_MAPPINGINFOROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D4A2250)
+#define RPG_GAMECORE_MAPPINGINFOROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D807CD0)
+#define RPG_GAMECORE_MAPPINGINFOROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D808630)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MappingInfoRow_TypeDefinitionIndex = 12468;
+	inline static constexpr unsigned int MappingInfoRow_TypeDefinitionIndex = 12558;
 
 	class MappingInfoRow : public ::System::Object
 	{
@@ -21,14 +21,14 @@ namespace RPG::GameCore
 		::Il2CppArray<::System::UInt32>* ShowMonsterList; // 0x10
 		::Il2CppArray<::RPG::GameCore::ItemConfig*>* DisplayItemList; // 0x18
 		::System::UInt32 WorldLevel; // 0x20
-		::RPG::Client::TextID Name; // 0x28
-		::RPG::Client::TextID Desc; // 0x38
-		::System::Boolean isShowCleared; // 0x48
-		::System::Boolean IsShowInFog; // 0x49
-		::System::Boolean IsShowMonsterSummon; // 0x4A
-		::RPG::GameCore::MappingInfoType Type; // 0x4C
-		::System::UInt32 ID; // 0x50
-		::RPG::GameCore::FarmTypeConfig FarmType; // 0x54
+		::RPG::GameCore::FarmTypeConfig FarmType; // 0x24
+		::RPG::GameCore::MappingInfoType Type; // 0x28
+		::RPG::Client::TextID Name; // 0x30
+		::System::UInt32 ID; // 0x40
+		::System::Boolean IsShowMonsterSummon; // 0x44
+		::System::Boolean isShowCleared; // 0x45
+		::System::Boolean IsShowInFog; // 0x46
+		::RPG::Client::TextID Desc; // 0x48
 
 		::System::Void _ctor()
 		{

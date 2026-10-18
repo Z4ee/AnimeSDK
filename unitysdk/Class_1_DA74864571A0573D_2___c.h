@@ -14,67 +14,67 @@ namespace RPG::Client { class IRogueTournPersonaRoomCardInGame; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define CLASS_1_DA74864571A0573D_2___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17A08070)
-#define CLASS_1_DA74864571A0573D_2___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17A080A0)
-#define CLASS_1_DA74864571A0573D_2___C__HANDLEPOSTPROCESS_B__1_0_OFFSET UNITYSDK_OFFSET(0x17A080B0)
-#define CLASS_1_DA74864571A0573D_2___C__HANDLEPOSTPROCESS_B__1_1_OFFSET UNITYSDK_OFFSET(0x17A083C0)
-#define CLASS_1_DA74864571A0573D_2___C__HANDLEPOSTPROCESS_B__1_2_OFFSET UNITYSDK_OFFSET(0x17A086D0)
-#define CLASS_1_DA74864571A0573D_2___C__HANDLEPOSTPROCESS_B__1_3_OFFSET UNITYSDK_OFFSET(0x17A08DE0)
-#define CLASS_1_DA74864571A0573D_2___C__HANDLEPOSTPROCESS_B__1_4_OFFSET UNITYSDK_OFFSET(0x17A083A0)
-#define CLASS_1_DA74864571A0573D_2___C__HANDLEPOSTPROCESS_B__1_5_OFFSET UNITYSDK_OFFSET(0x17A086B0)
-#define CLASS_1_DA74864571A0573D_2___C__HANDLEPOSTPROCESS_B__1_6_OFFSET UNITYSDK_OFFSET(0x17A08DA0)
-#define CLASS_1_DA74864571A0573D_2___C__HANDLEPOSTPROCESS_B__1_7_OFFSET UNITYSDK_OFFSET(0x17A08DC0)
-#define CLASS_1_DA74864571A0573D_2___C__HANDLEPOSTPROCESS_B__1_8_OFFSET UNITYSDK_OFFSET(0x17A094B0)
-#define CLASS_1_DA74864571A0573D_2___C__HANDLEPOSTPROCESS_B__1_9_OFFSET UNITYSDK_OFFSET(0x17A094D0)
+#define CLASS_1_DA74864571A0573D_2___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xBF01FE0)
+#define CLASS_1_DA74864571A0573D_2___C__CTOR_OFFSET UNITYSDK_OFFSET(0xBF02010)
+#define CLASS_1_DA74864571A0573D_2___C__HANDLEPOSTPROCESS_B__1_0_OFFSET UNITYSDK_OFFSET(0xBF02020)
+#define CLASS_1_DA74864571A0573D_2___C__HANDLEPOSTPROCESS_B__1_1_OFFSET UNITYSDK_OFFSET(0xBF02330)
+#define CLASS_1_DA74864571A0573D_2___C__HANDLEPOSTPROCESS_B__1_2_OFFSET UNITYSDK_OFFSET(0xBF02660)
+#define CLASS_1_DA74864571A0573D_2___C__HANDLEPOSTPROCESS_B__1_3_OFFSET UNITYSDK_OFFSET(0xBF02D70)
+#define CLASS_1_DA74864571A0573D_2___C__HANDLEPOSTPROCESS_B__1_4_OFFSET UNITYSDK_OFFSET(0xBF02310)
+#define CLASS_1_DA74864571A0573D_2___C__HANDLEPOSTPROCESS_B__1_5_OFFSET UNITYSDK_OFFSET(0xBF02640)
+#define CLASS_1_DA74864571A0573D_2___C__HANDLEPOSTPROCESS_B__1_6_OFFSET UNITYSDK_OFFSET(0xBF02D30)
+#define CLASS_1_DA74864571A0573D_2___C__HANDLEPOSTPROCESS_B__1_7_OFFSET UNITYSDK_OFFSET(0xBF02D50)
+#define CLASS_1_DA74864571A0573D_2___C__HANDLEPOSTPROCESS_B__1_8_OFFSET UNITYSDK_OFFSET(0xBF03440)
+#define CLASS_1_DA74864571A0573D_2___C__HANDLEPOSTPROCESS_B__1_9_OFFSET UNITYSDK_OFFSET(0xBF03460)
 
-inline static constexpr unsigned int Class_1_DA74864571A0573D_2___c_TypeDefinitionIndex = 67142;
+inline static constexpr unsigned int Class_1_DA74864571A0573D_2___c_TypeDefinitionIndex = 67144;
 
 class Class_1_DA74864571A0573D_2___c : public ::System::Object
 {
 public:
-	static ::System::Func_2<::Class_1_8CDC550DCBD951F8*, ::RPG::Client::IRogueTournPersonaRoomCardInGame*>** StaticGet___9__1_4()
-	{
-		return (::System::Func_2<::Class_1_8CDC550DCBD951F8*, ::RPG::Client::IRogueTournPersonaRoomCardInGame*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_DA74864571A0573D_2___c_TypeDefinitionIndex)->GetStaticField(0x48F0);
-	}
-	static ::System::Func_2<::System::Collections::Generic::IEnumerable_1<::Class_1_1AA7C889AB82E323*>*, ::Class_1_7250E7F415FE7CC4*>** StaticGet___9__1_3()
-	{
-		return (::System::Func_2<::System::Collections::Generic::IEnumerable_1<::Class_1_1AA7C889AB82E323*>*, ::Class_1_7250E7F415FE7CC4*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_DA74864571A0573D_2___c_TypeDefinitionIndex)->GetStaticField(0x48F8);
-	}
 	static ::Class_1_DA74864571A0573D_2___c** StaticGet___9()
 	{
-		return (::Class_1_DA74864571A0573D_2___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_DA74864571A0573D_2___c_TypeDefinitionIndex)->GetStaticField(0x4900);
-	}
-	static ::System::Func_2<::Class_1_B83918E94A567BE1*, ::RPG::Client::IRogueTournPersonaRoomCardInGame*>** StaticGet___9__1_5()
-	{
-		return (::System::Func_2<::Class_1_B83918E94A567BE1*, ::RPG::Client::IRogueTournPersonaRoomCardInGame*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_DA74864571A0573D_2___c_TypeDefinitionIndex)->GetStaticField(0x4908);
+		return (::Class_1_DA74864571A0573D_2___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_DA74864571A0573D_2___c_TypeDefinitionIndex)->GetStaticField(0x5C910);
 	}
 	static ::System::Func_2<::System::Collections::Generic::IEnumerable_1<::Class_1_B83918E94A567BE1*>*, ::Class_1_9FAC60B77F29B899_1*>** StaticGet___9__1_1()
 	{
-		return (::System::Func_2<::System::Collections::Generic::IEnumerable_1<::Class_1_B83918E94A567BE1*>*, ::Class_1_9FAC60B77F29B899_1*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_DA74864571A0573D_2___c_TypeDefinitionIndex)->GetStaticField(0x4910);
-	}
-	static ::System::Func_2<::Class_1_1AA7C889AB82E323*, ::RPG::Client::IRogueTournPersonaRoomCardInGame*>** StaticGet___9__1_9()
-	{
-		return (::System::Func_2<::Class_1_1AA7C889AB82E323*, ::RPG::Client::IRogueTournPersonaRoomCardInGame*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_DA74864571A0573D_2___c_TypeDefinitionIndex)->GetStaticField(0x4918);
-	}
-	static ::System::Func_2<::Class_1_1AA7C889AB82E323*, ::RPG::Client::IRogueTournPersonaRoomCardInGame*>** StaticGet___9__1_8()
-	{
-		return (::System::Func_2<::Class_1_1AA7C889AB82E323*, ::RPG::Client::IRogueTournPersonaRoomCardInGame*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_DA74864571A0573D_2___c_TypeDefinitionIndex)->GetStaticField(0x4920);
-	}
-	static ::System::Func_2<::Class_1_1AA7C889AB82E323_2*, ::RPG::Client::IRogueTournPersonaRoomCardInGame*>** StaticGet___9__1_6()
-	{
-		return (::System::Func_2<::Class_1_1AA7C889AB82E323_2*, ::RPG::Client::IRogueTournPersonaRoomCardInGame*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_DA74864571A0573D_2___c_TypeDefinitionIndex)->GetStaticField(0x4928);
-	}
-	static ::System::Func_2<::System::Collections::Generic::IEnumerable_1<::Class_1_8CDC550DCBD951F8*>*, ::Class_1_9FAC60B77F29B899*>** StaticGet___9__1_0()
-	{
-		return (::System::Func_2<::System::Collections::Generic::IEnumerable_1<::Class_1_8CDC550DCBD951F8*>*, ::Class_1_9FAC60B77F29B899*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_DA74864571A0573D_2___c_TypeDefinitionIndex)->GetStaticField(0x4930);
+		return (::System::Func_2<::System::Collections::Generic::IEnumerable_1<::Class_1_B83918E94A567BE1*>*, ::Class_1_9FAC60B77F29B899_1*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_DA74864571A0573D_2___c_TypeDefinitionIndex)->GetStaticField(0x5C918);
 	}
 	static ::System::Func_2<::Class_1_1AA7C889AB82E323_2*, ::RPG::Client::IRogueTournPersonaRoomCardInGame*>** StaticGet___9__1_7()
 	{
-		return (::System::Func_2<::Class_1_1AA7C889AB82E323_2*, ::RPG::Client::IRogueTournPersonaRoomCardInGame*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_DA74864571A0573D_2___c_TypeDefinitionIndex)->GetStaticField(0x4938);
+		return (::System::Func_2<::Class_1_1AA7C889AB82E323_2*, ::RPG::Client::IRogueTournPersonaRoomCardInGame*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_DA74864571A0573D_2___c_TypeDefinitionIndex)->GetStaticField(0x5C920);
+	}
+	static ::System::Func_2<::Class_1_1AA7C889AB82E323*, ::RPG::Client::IRogueTournPersonaRoomCardInGame*>** StaticGet___9__1_8()
+	{
+		return (::System::Func_2<::Class_1_1AA7C889AB82E323*, ::RPG::Client::IRogueTournPersonaRoomCardInGame*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_DA74864571A0573D_2___c_TypeDefinitionIndex)->GetStaticField(0x5C928);
+	}
+	static ::System::Func_2<::Class_1_1AA7C889AB82E323*, ::RPG::Client::IRogueTournPersonaRoomCardInGame*>** StaticGet___9__1_9()
+	{
+		return (::System::Func_2<::Class_1_1AA7C889AB82E323*, ::RPG::Client::IRogueTournPersonaRoomCardInGame*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_DA74864571A0573D_2___c_TypeDefinitionIndex)->GetStaticField(0x5C930);
+	}
+	static ::System::Func_2<::Class_1_1AA7C889AB82E323_2*, ::RPG::Client::IRogueTournPersonaRoomCardInGame*>** StaticGet___9__1_6()
+	{
+		return (::System::Func_2<::Class_1_1AA7C889AB82E323_2*, ::RPG::Client::IRogueTournPersonaRoomCardInGame*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_DA74864571A0573D_2___c_TypeDefinitionIndex)->GetStaticField(0x5C938);
+	}
+	static ::System::Func_2<::System::Collections::Generic::IEnumerable_1<::Class_1_8CDC550DCBD951F8*>*, ::Class_1_9FAC60B77F29B899*>** StaticGet___9__1_0()
+	{
+		return (::System::Func_2<::System::Collections::Generic::IEnumerable_1<::Class_1_8CDC550DCBD951F8*>*, ::Class_1_9FAC60B77F29B899*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_DA74864571A0573D_2___c_TypeDefinitionIndex)->GetStaticField(0x5C940);
+	}
+	static ::System::Func_2<::System::Collections::Generic::IEnumerable_1<::Class_1_1AA7C889AB82E323*>*, ::Class_1_7250E7F415FE7CC4*>** StaticGet___9__1_3()
+	{
+		return (::System::Func_2<::System::Collections::Generic::IEnumerable_1<::Class_1_1AA7C889AB82E323*>*, ::Class_1_7250E7F415FE7CC4*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_DA74864571A0573D_2___c_TypeDefinitionIndex)->GetStaticField(0x5C948);
 	}
 	static ::System::Func_2<::System::Collections::Generic::IEnumerable_1<::Class_1_1AA7C889AB82E323_2*>*, ::Class_1_7250E7F415FE7CC4_1*>** StaticGet___9__1_2()
 	{
-		return (::System::Func_2<::System::Collections::Generic::IEnumerable_1<::Class_1_1AA7C889AB82E323_2*>*, ::Class_1_7250E7F415FE7CC4_1*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_DA74864571A0573D_2___c_TypeDefinitionIndex)->GetStaticField(0x4940);
+		return (::System::Func_2<::System::Collections::Generic::IEnumerable_1<::Class_1_1AA7C889AB82E323_2*>*, ::Class_1_7250E7F415FE7CC4_1*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_DA74864571A0573D_2___c_TypeDefinitionIndex)->GetStaticField(0x5C950);
+	}
+	static ::System::Func_2<::Class_1_B83918E94A567BE1*, ::RPG::Client::IRogueTournPersonaRoomCardInGame*>** StaticGet___9__1_5()
+	{
+		return (::System::Func_2<::Class_1_B83918E94A567BE1*, ::RPG::Client::IRogueTournPersonaRoomCardInGame*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_DA74864571A0573D_2___c_TypeDefinitionIndex)->GetStaticField(0x5C958);
+	}
+	static ::System::Func_2<::Class_1_8CDC550DCBD951F8*, ::RPG::Client::IRogueTournPersonaRoomCardInGame*>** StaticGet___9__1_4()
+	{
+		return (::System::Func_2<::Class_1_8CDC550DCBD951F8*, ::RPG::Client::IRogueTournPersonaRoomCardInGame*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_DA74864571A0573D_2___c_TypeDefinitionIndex)->GetStaticField(0x5C960);
 	}
 
 	static ::System::Void _cctor()

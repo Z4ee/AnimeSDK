@@ -4,12 +4,12 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_EDITEVENT_CLEAR_OFFSET UNITYSDK_OFFSET(0x1BD61DE0)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_EDITEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD621D0)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_EDITEVENT_CLEAR_OFFSET UNITYSDK_OFFSET(0xD14A260)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_EDITEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0xD14A2C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightGameFormationEditor_EditEvent_TypeDefinitionIndex = 64712;
+	inline static constexpr unsigned int GridFightGameFormationEditor_EditEvent_TypeDefinitionIndex = 64652;
 
 	class GridFightGameFormationEditor_EditEvent : public ::System::Object
 	{

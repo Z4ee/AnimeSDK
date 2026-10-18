@@ -6,29 +6,29 @@ namespace RPG::Client::ChenLingFes { class ChenLingFesGameplayStarViewModel; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYTARGETITEMVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1B741610)
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYTARGETITEMVIEWMODEL__INITSTARVMS_OFFSET UNITYSDK_OFFSET(0x1B741730)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYTARGETITEMVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xCAA5850)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYTARGETITEMVIEWMODEL__INITSTARVMS_OFFSET UNITYSDK_OFFSET(0xCAA5970)
 
 namespace RPG::Client::ChenLingFes
 {
-	inline static constexpr unsigned int ChenLingFesGameplayTargetItemViewModel_TypeDefinitionIndex = 80061;
+	inline static constexpr unsigned int ChenLingFesGameplayTargetItemViewModel_TypeDefinitionIndex = 81389;
 
 	class ChenLingFesGameplayTargetItemViewModel : public ::Sofa::BaseViewModel
 	{
 	public:
 		// static const ::System::Int32 MaxStarDisplayCount = 0x3; // 0x0
-		::System::Collections::Generic::List_1<::RPG::Client::ChenLingFes::ChenLingFesGameplayStarViewModel*>* StarVMs; // 0x20
-		::System::String* TitleStr; // 0x28
-		::System::Int32 TargetScore; // 0x30
-		::System::Int32 WeekIndex; // 0x34
-		::System::Int32 Star; // 0x38
-		::System::Boolean IsCurWeek; // 0x3C
-		::System::Boolean IsFinished; // 0x3D
-		::System::Int32 DayCount; // 0x40
-		::System::Boolean IsShowGlobalTarget; // 0x44
-		::System::Boolean IsEndlessModeForBoss; // 0x45
-		::System::Boolean IsEndlessMode; // 0x46
-		::System::Int32 RequiredStarCount; // 0x48
+		::System::String* TitleStr; // 0x20
+		::System::Collections::Generic::List_1<::RPG::Client::ChenLingFes::ChenLingFesGameplayStarViewModel*>* StarVMs; // 0x28
+		::System::Int32 WeekIndex; // 0x30
+		::System::Int32 Star; // 0x34
+		::System::Int32 RequiredStarCount; // 0x38
+		::System::Int32 DayCount; // 0x3C
+		::System::Boolean IsCurWeek; // 0x40
+		::System::Boolean IsEndlessModeForBoss; // 0x41
+		::System::Boolean IsEndlessMode; // 0x42
+		::System::Boolean IsShowGlobalTarget; // 0x43
+		::System::Boolean IsFinished; // 0x44
+		::System::Int32 TargetScore; // 0x48
 
 		::System::Void _ctor(::System::Int32 a1, ::System::Boolean a2, ::System::Boolean a3, ::System::Boolean a4, ::System::Int32 a5, ::System::Int32 a6, ::System::Int32 a7, ::System::Int32 a8, ::System::Boolean a9, ::System::Boolean a10, ::System::String* a11)
 		{

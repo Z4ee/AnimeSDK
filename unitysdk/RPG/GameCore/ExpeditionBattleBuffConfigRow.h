@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_EXPEDITIONBATTLEBUFFCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D7DAF30)
-#define RPG_GAMECORE_EXPEDITIONBATTLEBUFFCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7DB1A0)
+#define RPG_GAMECORE_EXPEDITIONBATTLEBUFFCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D660A60)
+#define RPG_GAMECORE_EXPEDITIONBATTLEBUFFCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D660CD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ExpeditionBattleBuffConfigRow_TypeDefinitionIndex = 11432;
+	inline static constexpr unsigned int ExpeditionBattleBuffConfigRow_TypeDefinitionIndex = 11448;
 
 	class ExpeditionBattleBuffConfigRow : public ::System::Object
 	{

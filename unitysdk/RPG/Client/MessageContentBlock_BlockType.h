@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MessageContentBlock_BlockType_TypeDefinitionIndex = 63300;
+	inline static constexpr unsigned int MessageContentBlock_BlockType_TypeDefinitionIndex = 63234;
 
 	enum class MessageContentBlock_BlockType : ::System::Int32
 	{
@@ -17,24 +17,26 @@ namespace RPG::Client
 		Video = 7,
 		Link = 8,
 		Invite = 9,
-		PlanetFes = 10,
-		SuggestionPlainText = 11,
-		AvatarGrowth = 12,
-		SelectGrowthTarget = 13,
-		LightConeRecommend = 14,
-		RelicRank = 15,
-		RelicRecommend = 16,
-		ChallengeTeam = 17,
-		ChallengePeakTeam = 18,
-		TeamBuild = 19,
-		Quest = 20,
-		QuickFunction = 21,
-		RelicExplain = 22,
-		TeamExplain = 23,
-		PamTouch = 24,
-		Context = 25,
-		Feedback = 26,
-		Suggestion = 27,
-		Typing = 28,
+		SocialPlay = 10,
+		PlanetFes = 11,
+		Trade = 12,
+		SuggestionPlainText = 13,
+		AvatarGrowth = 14,
+		SelectGrowthTarget = 15,
+		LightConeRecommend = 16,
+		RelicRank = 17,
+		RelicRecommend = 18,
+		ChallengeTeam = 19,
+		ChallengePeakTeam = 20,
+		TeamBuild = 21,
+		Quest = 22,
+		QuickFunction = 23,
+		RelicExplain = 24,
+		TeamExplain = 25,
+		PamTouch = 26,
+		Context = 27,
+		Feedback = 28,
+		Suggestion = 29,
+		Typing = 30,
 	};
 }

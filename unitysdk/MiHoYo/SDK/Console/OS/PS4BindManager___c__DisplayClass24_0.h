@@ -6,19 +6,19 @@ namespace MiHoYo::SDK { class NetworkResponseModel; }
 namespace MiHoYo::SDK::Console::OS { class PS4BindManager; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_CONSOLE_OS_PS4BINDMANAGER___C__DISPLAYCLASS24_0__BINDBYINPUT_B__1_OFFSET UNITYSDK_OFFSET(0x17375C10)
-#define MIHOYO_SDK_CONSOLE_OS_PS4BINDMANAGER___C__DISPLAYCLASS24_0__BINDBYINPUT_G__ONVERFIYCALLBACK_0_OFFSET UNITYSDK_OFFSET(0x17375A80)
-#define MIHOYO_SDK_CONSOLE_OS_PS4BINDMANAGER___C__DISPLAYCLASS24_0__CTOR_OFFSET UNITYSDK_OFFSET(0x173732A0)
+#define MIHOYO_SDK_CONSOLE_OS_PS4BINDMANAGER___C__DISPLAYCLASS24_0__BINDBYINPUT_B__1_OFFSET UNITYSDK_OFFSET(0x1BCA8140)
+#define MIHOYO_SDK_CONSOLE_OS_PS4BINDMANAGER___C__DISPLAYCLASS24_0__BINDBYINPUT_G__ONVERFIYCALLBACK_0_OFFSET UNITYSDK_OFFSET(0x1BCA7FB0)
+#define MIHOYO_SDK_CONSOLE_OS_PS4BINDMANAGER___C__DISPLAYCLASS24_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BCA58D0)
 
 namespace MiHoYo::SDK::Console::OS
 {
-	inline static constexpr unsigned int PS4BindManager___c__DisplayClass24_0_TypeDefinitionIndex = 9045;
+	inline static constexpr unsigned int PS4BindManager___c__DisplayClass24_0_TypeDefinitionIndex = 9106;
 
 	class PS4BindManager___c__DisplayClass24_0 : public ::System::Object
 	{
 	public:
-		::System::String* email; // 0x10
-		::MiHoYo::SDK::Console::OS::PS4BindManager* __4__this; // 0x18
+		::MiHoYo::SDK::Console::OS::PS4BindManager* __4__this; // 0x10
+		::System::String* email; // 0x18
 
 		::System::Void _ctor()
 		{

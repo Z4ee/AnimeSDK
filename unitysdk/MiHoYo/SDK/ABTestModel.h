@@ -5,11 +5,11 @@
 namespace MiHoYo::SDK { class ABTestConfig; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_ABTESTMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1A18AA00)
+#define MIHOYO_SDK_ABTESTMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC00720)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ABTestModel_TypeDefinitionIndex = 7818;
+	inline static constexpr unsigned int ABTestModel_TypeDefinitionIndex = 7862;
 
 	class ABTestModel : public ::System::Object
 	{

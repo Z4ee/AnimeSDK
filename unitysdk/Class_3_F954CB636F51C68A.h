@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByCompareRogueDiceRotateImmediately; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_F954CB636F51C68A_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1711DD10)
-#define CLASS_3_F954CB636F51C68A__CTOR_OFFSET UNITYSDK_OFFSET(0x1711DCE0)
+#define CLASS_3_F954CB636F51C68A_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBE3F730)
+#define CLASS_3_F954CB636F51C68A__CTOR_OFFSET UNITYSDK_OFFSET(0xBE3F700)
 
-inline static constexpr unsigned int Class_3_F954CB636F51C68A_TypeDefinitionIndex = 52864;
+inline static constexpr unsigned int Class_3_F954CB636F51C68A_TypeDefinitionIndex = 52590;
 
 class Class_3_F954CB636F51C68A : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByCompareRogueDiceRotateImmediately*>
 {

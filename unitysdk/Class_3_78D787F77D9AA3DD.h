@@ -8,19 +8,19 @@ namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_3_78D787F77D9AA3DD_METHOD_3_A6F54A9E721BB5D2_OFFSET UNITYSDK_OFFSET(0x1DC71750)
-#define CLASS_3_78D787F77D9AA3DD_METHOD_3_FCE92D332F1E367F_OFFSET UNITYSDK_OFFSET(0x1DC71710)
-#define CLASS_3_78D787F77D9AA3DD__CTOR_OFFSET UNITYSDK_OFFSET(0x1DC71740)
+#define CLASS_3_78D787F77D9AA3DD_METHOD_3_A6F54A9E721BB5D2_OFFSET UNITYSDK_OFFSET(0x1D063020)
+#define CLASS_3_78D787F77D9AA3DD_METHOD_3_FCE92D332F1E367F_OFFSET UNITYSDK_OFFSET(0x1D062FE0)
+#define CLASS_3_78D787F77D9AA3DD__CTOR_OFFSET UNITYSDK_OFFSET(0x1D063010)
 
-inline static constexpr unsigned int Class_3_78D787F77D9AA3DD_TypeDefinitionIndex = 22474;
+inline static constexpr unsigned int Class_3_78D787F77D9AA3DD_TypeDefinitionIndex = 22729;
 
 class Class_3_78D787F77D9AA3DD : public ::RPG::GameCore::TaskConfig
 {
 public:
-	::System::String* FHLJGDGMMHK; // 0x18
-	::RPG::GameCore::TargetEvaluator* NFPGAMINPLM; // 0x20
-	::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x28
-	::System::Collections::Generic::Dictionary_2<::System::Single, ::System::Single>* PBLCIKOCKPB; // 0x30
+	::System::Collections::Generic::Dictionary_2<::System::Single, ::System::Single>* PBLCIKOCKPB; // 0x18
+	::System::String* FHLJGDGMMHK; // 0x20
+	::RPG::GameCore::TargetEvaluator* NFPGAMINPLM; // 0x28
+	::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x30
 	::RPG::GameCore::DynamicValueContextScope AMEKHLANFKP; // 0x38
 
 	::System::Void _ctor()

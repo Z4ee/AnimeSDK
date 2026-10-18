@@ -4,7 +4,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int WaterSettings_TypeDefinitionIndex = 4847;
+	inline static constexpr unsigned int WaterSettings_TypeDefinitionIndex = 4853;
 
 	struct alignas(4) WaterSettings
 	{

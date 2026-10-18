@@ -5,12 +5,12 @@
 namespace SRDebugger { class OptionDefinition; }
 namespace SRDebugger::UI::Controls { class DataBoundControl; }
 
-#define SRDEBUGGER_INTERNAL_OPTIONCONTROLFACTORY___C__DISPLAYCLASS4_0__CREATEDATACONTROL_B__0_OFFSET UNITYSDK_OFFSET(0x1BD9C090)
-#define SRDEBUGGER_INTERNAL_OPTIONCONTROLFACTORY___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD9BF40)
+#define SRDEBUGGER_INTERNAL_OPTIONCONTROLFACTORY___C__DISPLAYCLASS4_0__CREATEDATACONTROL_B__0_OFFSET UNITYSDK_OFFSET(0x1ED0CA00)
+#define SRDEBUGGER_INTERNAL_OPTIONCONTROLFACTORY___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1ED0C8B0)
 
 namespace SRDebugger::Internal
 {
-	inline static constexpr unsigned int OptionControlFactory___c__DisplayClass4_0_TypeDefinitionIndex = 37411;
+	inline static constexpr unsigned int OptionControlFactory___c__DisplayClass4_0_TypeDefinitionIndex = 38104;
 
 	class OptionControlFactory___c__DisplayClass4_0 : public ::System::Object
 	{

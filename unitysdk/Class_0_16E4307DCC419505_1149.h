@@ -1,7 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_1149_TypeDefinitionIndex = 72375;
+namespace RPG::Client { class AudienceMoodMapConfig; }
+namespace RPG::Client::CrowdAnimator { class CrowdVariant; }
+namespace System { class String; }
+
+inline static constexpr unsigned int Class_0_16E4307DCC419505_1149_TypeDefinitionIndex = 69129;
 
 class Class_0_16E4307DCC419505_1149
 {

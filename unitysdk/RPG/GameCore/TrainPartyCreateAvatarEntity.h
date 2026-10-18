@@ -6,13 +6,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_TRAINPARTYCREATEAVATARENTITY_METHOD_3_3AF55DC6707AEA4E_OFFSET UNITYSDK_OFFSET(0x1D534840)
-#define RPG_GAMECORE_TRAINPARTYCREATEAVATARENTITY_METHOD_3_DD57FF90AE5E28DB_OFFSET UNITYSDK_OFFSET(0x1D5347B0)
-#define RPG_GAMECORE_TRAINPARTYCREATEAVATARENTITY__CTOR_OFFSET UNITYSDK_OFFSET(0x1D534810)
+#define RPG_GAMECORE_TRAINPARTYCREATEAVATARENTITY_METHOD_3_4C13F9029605C601_OFFSET UNITYSDK_OFFSET(0x1DC024A0)
+#define RPG_GAMECORE_TRAINPARTYCREATEAVATARENTITY_METHOD_3_CE46419673951355_OFFSET UNITYSDK_OFFSET(0x1DC02530)
+#define RPG_GAMECORE_TRAINPARTYCREATEAVATARENTITY__CTOR_OFFSET UNITYSDK_OFFSET(0x1DC02500)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrainPartyCreateAvatarEntity_TypeDefinitionIndex = 22117;
+	inline static constexpr unsigned int TrainPartyCreateAvatarEntity_TypeDefinitionIndex = 22366;
 
 	class TrainPartyCreateAvatarEntity : public ::RPG::GameCore::TaskConfig
 	{
@@ -28,14 +28,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYCREATEAVATARENTITY__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_DD57FF90AE5E28DB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TrainPartyCreateAvatarEntity*& a2)
+		static ::System::Void Method_3_4C13F9029605C601(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TrainPartyCreateAvatarEntity*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TrainPartyCreateAvatarEntity*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYCREATEAVATARENTITY_METHOD_3_DD57FF90AE5E28DB_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TrainPartyCreateAvatarEntity*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYCREATEAVATARENTITY_METHOD_3_4C13F9029605C601_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_3AF55DC6707AEA4E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TrainPartyCreateAvatarEntity* a2)
+		static ::System::Void Method_3_CE46419673951355(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TrainPartyCreateAvatarEntity* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TrainPartyCreateAvatarEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYCREATEAVATARENTITY_METHOD_3_3AF55DC6707AEA4E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TrainPartyCreateAvatarEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYCREATEAVATARENTITY_METHOD_3_CE46419673951355_OFFSET))(a1, a2);
 		}
 	};
 }

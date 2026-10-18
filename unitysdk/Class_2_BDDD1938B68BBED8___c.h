@@ -5,22 +5,22 @@
 namespace RPG::Client { class ChallengeGroupData; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define CLASS_2_BDDD1938B68BBED8___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1783C360)
-#define CLASS_2_BDDD1938B68BBED8___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1783C3A0)
-#define CLASS_2_BDDD1938B68BBED8___C___GETDEFAULTCHALLENGEGROUP_B__7_0_OFFSET UNITYSDK_OFFSET(0x1783C3B0)
+#define CLASS_2_BDDD1938B68BBED8___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xB3766A0)
+#define CLASS_2_BDDD1938B68BBED8___C__CTOR_OFFSET UNITYSDK_OFFSET(0xB3766E0)
+#define CLASS_2_BDDD1938B68BBED8___C___GETDEFAULTCHALLENGEGROUP_B__7_0_OFFSET UNITYSDK_OFFSET(0xB3766F0)
 
-inline static constexpr unsigned int Class_2_BDDD1938B68BBED8___c_TypeDefinitionIndex = 53529;
+inline static constexpr unsigned int Class_2_BDDD1938B68BBED8___c_TypeDefinitionIndex = 53272;
 
 class Class_2_BDDD1938B68BBED8___c : public ::System::Object
 {
 public:
-	static ::Class_2_BDDD1938B68BBED8___c** StaticGet___9()
-	{
-		return (::Class_2_BDDD1938B68BBED8___c**)Il2CppClass::FromTypeDefinitionIndex(Class_2_BDDD1938B68BBED8___c_TypeDefinitionIndex)->GetStaticField(0x5FCB0);
-	}
 	static ::System::Func_2<::RPG::Client::ChallengeGroupData*, ::System::Boolean>** StaticGet___9__7_0()
 	{
-		return (::System::Func_2<::RPG::Client::ChallengeGroupData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_BDDD1938B68BBED8___c_TypeDefinitionIndex)->GetStaticField(0x5FCB8);
+		return (::System::Func_2<::RPG::Client::ChallengeGroupData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_BDDD1938B68BBED8___c_TypeDefinitionIndex)->GetStaticField(0x3CE10);
+	}
+	static ::Class_2_BDDD1938B68BBED8___c** StaticGet___9()
+	{
+		return (::Class_2_BDDD1938B68BBED8___c**)Il2CppClass::FromTypeDefinitionIndex(Class_2_BDDD1938B68BBED8___c_TypeDefinitionIndex)->GetStaticField(0x3CE18);
 	}
 
 	static ::System::Void _cctor()

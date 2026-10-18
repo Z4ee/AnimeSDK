@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_IDLELIVEWORLDTAGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D217470)
-#define RPG_GAMECORE_IDLELIVEWORLDTAGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D217610)
+#define RPG_GAMECORE_IDLELIVEWORLDTAGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D7540B0)
+#define RPG_GAMECORE_IDLELIVEWORLDTAGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D754250)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveWorldTagRow_TypeDefinitionIndex = 11751;
+	inline static constexpr unsigned int IdleLiveWorldTagRow_TypeDefinitionIndex = 11774;
 
 	class IdleLiveWorldTagRow : public ::System::Object
 	{

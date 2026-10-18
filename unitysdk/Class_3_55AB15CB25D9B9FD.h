@@ -8,18 +8,18 @@ class Class_3_9846D5C553A9930F_1;
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_3_55AB15CB25D9B9FD_DISPOSE_OFFSET UNITYSDK_OFFSET(0x188EA8F0)
-#define CLASS_3_55AB15CB25D9B9FD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x188EAA50)
-#define CLASS_3_55AB15CB25D9B9FD__CTOR_OFFSET UNITYSDK_OFFSET(0x188EA7E0)
+#define CLASS_3_55AB15CB25D9B9FD_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBD5CE30)
+#define CLASS_3_55AB15CB25D9B9FD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBD5CF90)
+#define CLASS_3_55AB15CB25D9B9FD__CTOR_OFFSET UNITYSDK_OFFSET(0xBD5CD20)
 
-inline static constexpr unsigned int Class_3_55AB15CB25D9B9FD_TypeDefinitionIndex = 55248;
+inline static constexpr unsigned int Class_3_55AB15CB25D9B9FD_TypeDefinitionIndex = 55041;
 
 class Class_3_55AB15CB25D9B9FD : public ::RPG::GameCore::ImmediateTaskBase_1<::Class_3_9846D5C553A9930F_1*>
 {
 public:
 	::Class_3_07C3C4D2990C49EE* LNMOCNDILJN; // 0x28
-	::System::Collections::Generic::List_1<::Struct_2_F52539D238DC1365_1>* AAECKGKGJFG; // 0x30
-	::Class_3_07C3C4D2990C49EE* CHOOMNGLJHI; // 0x38
+	::Class_3_07C3C4D2990C49EE* CHOOMNGLJHI; // 0x30
+	::System::Collections::Generic::List_1<::Struct_2_F52539D238DC1365_1>* AAECKGKGJFG; // 0x38
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::Class_3_9846D5C553A9930F_1* a2)
 	{

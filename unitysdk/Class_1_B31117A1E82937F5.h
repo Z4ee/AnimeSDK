@@ -7,19 +7,19 @@
 
 namespace RPG::GameCore { class GameEntity; }
 
-#define CLASS_1_B31117A1E82937F5_CLEAR_OFFSET UNITYSDK_OFFSET(0x1A02CC00)
-#define CLASS_1_B31117A1E82937F5__CTOR_OFFSET UNITYSDK_OFFSET(0x1A02CC60)
+#define CLASS_1_B31117A1E82937F5_CLEAR_OFFSET UNITYSDK_OFFSET(0x156C4830)
+#define CLASS_1_B31117A1E82937F5__CTOR_OFFSET UNITYSDK_OFFSET(0x156C48A0)
 
-inline static constexpr unsigned int Class_1_B31117A1E82937F5_TypeDefinitionIndex = 57230;
+inline static constexpr unsigned int Class_1_B31117A1E82937F5_TypeDefinitionIndex = 57063;
 
 class Class_1_B31117A1E82937F5 : public ::System::Object
 {
 public:
 	::RPG::GameCore::GameEntity* FMBKMMFOPIL; // 0x10
-	::UnityEngine::Vector3 BBFOLEOPPPL; // 0x18
-	::RPG::GameCore::AdventureMoveOnNavMeshMoveCalcType HPOPKKLENGD; // 0x24
-	::RPG::GameCore::AdventureMoveOnNavMeshFaceToType OGMHHHNEEGI; // 0x28
-	::System::Single IEHPFADHJFD; // 0x2C
+	::RPG::GameCore::AdventureMoveOnNavMeshFaceToType OGMHHHNEEGI; // 0x18
+	::RPG::GameCore::AdventureMoveOnNavMeshMoveCalcType HPOPKKLENGD; // 0x1C
+	::System::Single IEHPFADHJFD; // 0x20
+	::UnityEngine::Vector3 BBFOLEOPPPL; // 0x24
 	::System::Single GCJMFBKLGHI; // 0x30
 
 	::System::Void _ctor()

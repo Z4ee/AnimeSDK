@@ -5,21 +5,21 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ILHARDLEVELGROUPCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D20CB60)
-#define RPG_GAMECORE_ILHARDLEVELGROUPCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D20CE10)
+#define RPG_GAMECORE_ILHARDLEVELGROUPCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D7497A0)
+#define RPG_GAMECORE_ILHARDLEVELGROUPCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D749A50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ILHardLevelGroupConfigRow_TypeDefinitionIndex = 13692;
+	inline static constexpr unsigned int ILHardLevelGroupConfigRow_TypeDefinitionIndex = 13799;
 
 	class ILHardLevelGroupConfigRow : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::FixPoint HPRatio; // 0x10
-		::RPG::GameCore::FixPoint DefenceRatio; // 0x18
-		::RPG::GameCore::FixPoint AttackRatio; // 0x20
-		::System::UInt32 HardLevelGroup; // 0x28
-		::System::UInt32 Level; // 0x2C
+		::RPG::GameCore::FixPoint DefenceRatio; // 0x10
+		::System::UInt32 HardLevelGroup; // 0x18
+		::System::UInt32 Level; // 0x1C
+		::RPG::GameCore::FixPoint HPRatio; // 0x20
+		::RPG::GameCore::FixPoint AttackRatio; // 0x28
 
 		::System::Void _ctor()
 		{

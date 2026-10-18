@@ -7,7 +7,7 @@ namespace System { template <typename T> class Action_1; }
 
 namespace R3
 {
-	inline static constexpr unsigned int FromEvent_2__FromEventPattern___c_TypeDefinitionIndex = 35236;
+	inline static constexpr unsigned int FromEvent_2__FromEventPattern___c_TypeDefinitionIndex = 35916;
 
 	template <typename TDelegate, typename T>
 	class FromEvent_2__FromEventPattern___c : public ::System::Object

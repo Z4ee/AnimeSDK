@@ -6,29 +6,29 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHALLENGEPEAKGROUPCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D113050)
-#define RPG_GAMECORE_CHALLENGEPEAKGROUPCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1134F0)
+#define RPG_GAMECORE_CHALLENGEPEAKGROUPCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D5342E0)
+#define RPG_GAMECORE_CHALLENGEPEAKGROUPCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D534780)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChallengePeakGroupConfigRow_TypeDefinitionIndex = 12871;
+	inline static constexpr unsigned int ChallengePeakGroupConfigRow_TypeDefinitionIndex = 12977;
 
 	class ChallengePeakGroupConfigRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* PreLevelIDList; // 0x10
+		::Il2CppArray<::System::String*>* RankIconPathList; // 0x10
 		::System::String* BossUI3DAnimatorPath; // 0x18
-		::Il2CppArray<::System::String*>* RankIconPathList; // 0x20
-		::System::String* HandBookPanelBannerPath; // 0x28
-		::System::String* ThemeIconPicPath; // 0x30
+		::System::String* ThemePosterTabPicPath; // 0x20
+		::System::String* ThemeIconPicPath; // 0x28
+		::Il2CppArray<::System::UInt32>* PreLevelIDList; // 0x30
 		::System::String* BossUI3DPrefabPath; // 0x38
-		::System::String* ThemePosterTabPicPath; // 0x40
-		::System::UInt32 RewardGroupID; // 0x48
+		::System::String* HandBookPanelBannerPath; // 0x40
+		::System::UInt32 BossLevelID; // 0x48
 		::System::UInt32 HintGoodsID; // 0x4C
-		::System::UInt32 ActivityModule; // 0x50
+		::System::UInt32 RecommendID; // 0x50
 		::System::UInt32 ID; // 0x54
-		::System::UInt32 RecommendID; // 0x58
-		::System::UInt32 BossLevelID; // 0x5C
+		::System::UInt32 ActivityModule; // 0x58
+		::System::UInt32 RewardGroupID; // 0x5C
 		::RPG::Client::TextID Title; // 0x60
 
 		::System::Void _ctor()

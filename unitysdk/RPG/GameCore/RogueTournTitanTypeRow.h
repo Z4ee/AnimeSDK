@@ -8,25 +8,25 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ROGUETOURNTITANTYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CCCC8A0)
-#define RPG_GAMECORE_ROGUETOURNTITANTYPEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CCCD120)
+#define RPG_GAMECORE_ROGUETOURNTITANTYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DA14E00)
+#define RPG_GAMECORE_ROGUETOURNTITANTYPEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1DA15680)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueTournTitanTypeRow_TypeDefinitionIndex = 14907;
+	inline static constexpr unsigned int RogueTournTitanTypeRow_TypeDefinitionIndex = 15072;
 
 	class RogueTournTitanTypeRow : public ::System::Object
 	{
 	public:
-		::System::String* RogueTitanCardIcon; // 0x10
-		::System::String* RogueTitanTalentIcon; // 0x18
-		::System::String* RogueTitanCardShadowIcon; // 0x20
-		::System::String* RogueTitanAvatarRoundIconMid; // 0x28
-		::System::String* RogueTitanAvatarRoundIconSmall; // 0x30
+		::System::String* RogueTitanAvatarRoundIconSmall; // 0x10
+		::System::String* RogueTitanCardShadowIcon; // 0x18
+		::System::String* RogueTitanAvatarRoundIconMid; // 0x20
+		::System::String* RogueTitanTalentIcon; // 0x28
+		::System::String* RogueTitanCardIcon; // 0x30
 		::RPG::Client::TextID TitanTitle; // 0x38
-		::RPG::Client::TextID CharacterName; // 0x48
-		::RPG::GameCore::RogueTitanCategory RogueTitanCategory; // 0x58
-		::RPG::GameCore::RogueTitanType RogueTitanType; // 0x5C
+		::RPG::GameCore::RogueTitanType RogueTitanType; // 0x48
+		::RPG::GameCore::RogueTitanCategory RogueTitanCategory; // 0x4C
+		::RPG::Client::TextID CharacterName; // 0x50
 
 		::System::Void _ctor()
 		{

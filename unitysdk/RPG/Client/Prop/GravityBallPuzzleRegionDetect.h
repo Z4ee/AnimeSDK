@@ -5,12 +5,12 @@
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class Collider; }
 
-#define RPG_CLIENT_PROP_GRAVITYBALLPUZZLEREGIONDETECT_ONTRIGGEREXIT_OFFSET UNITYSDK_OFFSET(0x1A928080)
-#define RPG_CLIENT_PROP_GRAVITYBALLPUZZLEREGIONDETECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A9280F0)
+#define RPG_CLIENT_PROP_GRAVITYBALLPUZZLEREGIONDETECT_ONTRIGGEREXIT_OFFSET UNITYSDK_OFFSET(0xDCEA560)
+#define RPG_CLIENT_PROP_GRAVITYBALLPUZZLEREGIONDETECT__CTOR_OFFSET UNITYSDK_OFFSET(0xDCEA5D0)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int GravityBallPuzzleRegionDetect_TypeDefinitionIndex = 78121;
+	inline static constexpr unsigned int GravityBallPuzzleRegionDetect_TypeDefinitionIndex = 78592;
 
 	class GravityBallPuzzleRegionDetect : public ::UnityEngine::MonoBehaviour
 	{

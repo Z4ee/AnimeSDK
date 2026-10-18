@@ -6,22 +6,22 @@
 namespace RPG::Client { class RelicItemData; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define CLASS_2_BE3841977FBB4ED9___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x165D6420)
-#define CLASS_2_BE3841977FBB4ED9___C__CTOR_OFFSET UNITYSDK_OFFSET(0x165D6460)
-#define CLASS_2_BE3841977FBB4ED9___C___GETORCREATEHIGHSCORERELICDATASBYRELICTYPE_B__13_0_OFFSET UNITYSDK_OFFSET(0x165D6470)
+#define CLASS_2_BE3841977FBB4ED9___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xB6CC4A0)
+#define CLASS_2_BE3841977FBB4ED9___C__CTOR_OFFSET UNITYSDK_OFFSET(0xB6CC4E0)
+#define CLASS_2_BE3841977FBB4ED9___C___GETORCREATEHIGHSCORERELICDATASBYRELICTYPE_B__13_0_OFFSET UNITYSDK_OFFSET(0xB6CC4F0)
 
-inline static constexpr unsigned int Class_2_BE3841977FBB4ED9___c_TypeDefinitionIndex = 66897;
+inline static constexpr unsigned int Class_2_BE3841977FBB4ED9___c_TypeDefinitionIndex = 66899;
 
 class Class_2_BE3841977FBB4ED9___c : public ::System::Object
 {
 public:
-	static ::Class_2_BE3841977FBB4ED9___c** StaticGet___9()
-	{
-		return (::Class_2_BE3841977FBB4ED9___c**)Il2CppClass::FromTypeDefinitionIndex(Class_2_BE3841977FBB4ED9___c_TypeDefinitionIndex)->GetStaticField(0x13E60);
-	}
 	static ::System::Comparison_1<::System::ValueTuple_2<::System::Single, ::RPG::Client::RelicItemData*>>** StaticGet___9__13_0()
 	{
-		return (::System::Comparison_1<::System::ValueTuple_2<::System::Single, ::RPG::Client::RelicItemData*>>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_BE3841977FBB4ED9___c_TypeDefinitionIndex)->GetStaticField(0x13E68);
+		return (::System::Comparison_1<::System::ValueTuple_2<::System::Single, ::RPG::Client::RelicItemData*>>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_BE3841977FBB4ED9___c_TypeDefinitionIndex)->GetStaticField(0x63D20);
+	}
+	static ::Class_2_BE3841977FBB4ED9___c** StaticGet___9()
+	{
+		return (::Class_2_BE3841977FBB4ED9___c**)Il2CppClass::FromTypeDefinitionIndex(Class_2_BE3841977FBB4ED9___c_TypeDefinitionIndex)->GetStaticField(0x63D28);
 	}
 
 	static ::System::Void _cctor()

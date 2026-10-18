@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Timeline/TrackAsset.h"
 
-#define UNITYENGINE_TIMELINE_CONTROLTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF64700)
+#define UNITYENGINE_TIMELINE_CONTROLTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1F35BB50)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int ControlTrack_TypeDefinitionIndex = 37518;
+	inline static constexpr unsigned int ControlTrack_TypeDefinitionIndex = 38815;
 
 	class ControlTrack : public ::UnityEngine::Timeline::TrackAsset
 	{

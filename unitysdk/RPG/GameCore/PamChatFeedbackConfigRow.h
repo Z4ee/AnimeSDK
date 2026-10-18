@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_PAMCHATFEEDBACKCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D410A60)
-#define RPG_GAMECORE_PAMCHATFEEDBACKCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D410BE0)
+#define RPG_GAMECORE_PAMCHATFEEDBACKCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D8BE0C0)
+#define RPG_GAMECORE_PAMCHATFEEDBACKCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D8BE240)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PamChatFeedbackConfigRow_TypeDefinitionIndex = 14203;
+	inline static constexpr unsigned int PamChatFeedbackConfigRow_TypeDefinitionIndex = 14310;
 
 	class PamChatFeedbackConfigRow : public ::System::Object
 	{

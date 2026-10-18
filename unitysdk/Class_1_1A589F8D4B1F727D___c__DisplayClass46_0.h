@@ -7,10 +7,10 @@ class Class_2_B9E8C2EEAA5C96EC;
 namespace Entitas { class IEntity; }
 namespace UnityEngine { class GameObject; }
 
-#define CLASS_1_1A589F8D4B1F727D___C__DISPLAYCLASS46_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4748F0)
-#define CLASS_1_1A589F8D4B1F727D___C__DISPLAYCLASS46_0__INITBORDERPLATEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0x1A477F70)
+#define CLASS_1_1A589F8D4B1F727D___C__DISPLAYCLASS46_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB82A4E0)
+#define CLASS_1_1A589F8D4B1F727D___C__DISPLAYCLASS46_0__INITBORDERPLATEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0xB82DC40)
 
-inline static constexpr unsigned int Class_1_1A589F8D4B1F727D___c__DisplayClass46_0_TypeDefinitionIndex = 76415;
+inline static constexpr unsigned int Class_1_1A589F8D4B1F727D___c__DisplayClass46_0_TypeDefinitionIndex = 76892;
 
 class Class_1_1A589F8D4B1F727D___c__DisplayClass46_0 : public ::System::Object
 {

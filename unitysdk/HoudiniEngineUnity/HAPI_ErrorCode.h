@@ -3,7 +3,7 @@
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HAPI_ErrorCode_TypeDefinitionIndex = 39153;
+	inline static constexpr unsigned int HAPI_ErrorCode_TypeDefinitionIndex = 40450;
 
 	enum class HAPI_ErrorCode : ::System::Int32
 	{

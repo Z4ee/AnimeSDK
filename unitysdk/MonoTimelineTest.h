@@ -4,10 +4,10 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define MONOTIMELINETEST_UPDATE_OFFSET UNITYSDK_OFFSET(0x19C96740)
-#define MONOTIMELINETEST__CTOR_OFFSET UNITYSDK_OFFSET(0x19C96AA0)
+#define MONOTIMELINETEST_UPDATE_OFFSET UNITYSDK_OFFSET(0xBA49530)
+#define MONOTIMELINETEST__CTOR_OFFSET UNITYSDK_OFFSET(0xBA49890)
 
-inline static constexpr unsigned int MonoTimelineTest_TypeDefinitionIndex = 48027;
+inline static constexpr unsigned int MonoTimelineTest_TypeDefinitionIndex = 47567;
 
 class MonoTimelineTest : public ::UnityEngine::MonoBehaviour
 {

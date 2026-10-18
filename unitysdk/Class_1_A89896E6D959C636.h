@@ -4,9 +4,9 @@
 
 namespace RPG::Client { class IRogueTournGame; }
 
-#define CLASS_1_A89896E6D959C636_METHOD_1_E0905A976CD9F945_OFFSET UNITYSDK_OFFSET(0x18919710)
+#define CLASS_1_A89896E6D959C636_METHOD_1_E0905A976CD9F945_OFFSET UNITYSDK_OFFSET(0xBD8C830)
 
-inline static constexpr unsigned int Class_1_A89896E6D959C636_TypeDefinitionIndex = 67640;
+inline static constexpr unsigned int Class_1_A89896E6D959C636_TypeDefinitionIndex = 67642;
 
 class Class_1_A89896E6D959C636 : public ::System::Object
 {

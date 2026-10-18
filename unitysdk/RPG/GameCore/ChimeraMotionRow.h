@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_CHIMERAMOTIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E33F5E0)
-#define RPG_GAMECORE_CHIMERAMOTIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1E33F720)
+#define RPG_GAMECORE_CHIMERAMOTIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D57FFF0)
+#define RPG_GAMECORE_CHIMERAMOTIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D580130)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraMotionRow_TypeDefinitionIndex = 12932;
+	inline static constexpr unsigned int ChimeraMotionRow_TypeDefinitionIndex = 13038;
 
 	class ChimeraMotionRow : public ::System::Object
 	{

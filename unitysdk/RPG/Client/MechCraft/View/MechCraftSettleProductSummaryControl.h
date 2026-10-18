@@ -1,0 +1,43 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/MonoBehaviour.h"
+
+class Class_0_16E4307DCC419505_1511;
+namespace RPG::Client::MechCraft::View { class MechCraftSettleProductSummaryControlBinder; }
+
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTSETTLEPRODUCTSUMMARYCONTROL_GET_CONTENT_OFFSET UNITYSDK_OFFSET(0xD65B870)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTSETTLEPRODUCTSUMMARYCONTROL_METHOD_5_EF343326A0C7462C_OFFSET UNITYSDK_OFFSET(0xD65B8B0)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTSETTLEPRODUCTSUMMARYCONTROL_SET_CONTENT_OFFSET UNITYSDK_OFFSET(0xD657140)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTSETTLEPRODUCTSUMMARYCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0xD65BA90)
+
+namespace RPG::Client::MechCraft::View
+{
+	inline static constexpr unsigned int MechCraftSettleProductSummaryControl_TypeDefinitionIndex = 80044;
+
+	class MechCraftSettleProductSummaryControl : public ::UnityEngine::MonoBehaviour
+	{
+	public:
+		::Class_0_16E4307DCC419505_1511* LFGMLJCCPCH; // 0x18
+		::RPG::Client::MechCraft::View::MechCraftSettleProductSummaryControlBinder* _Binder; // 0x20
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTSETTLEPRODUCTSUMMARYCONTROL__CTOR_OFFSET))(this);
+		}
+
+		::Class_0_16E4307DCC419505_1511* get_Content()
+		{
+			return ((::Class_0_16E4307DCC419505_1511*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTSETTLEPRODUCTSUMMARYCONTROL_GET_CONTENT_OFFSET))(this);
+		}
+
+		::System::Void set_Content(::Class_0_16E4307DCC419505_1511* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_1511*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTSETTLEPRODUCTSUMMARYCONTROL_SET_CONTENT_OFFSET))(this, a1);
+		}
+
+		::System::Void Method_5_EF343326A0C7462C(::Class_0_16E4307DCC419505_1511* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_1511*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTSETTLEPRODUCTSUMMARYCONTROL_METHOD_5_EF343326A0C7462C_OFFSET))(this, a1);
+		}
+	};
+}

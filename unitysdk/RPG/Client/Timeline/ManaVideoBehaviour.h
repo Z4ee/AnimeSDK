@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 
-#define RPG_CLIENT_TIMELINE_MANAVIDEOBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x197ADF30)
+#define RPG_CLIENT_TIMELINE_MANAVIDEOBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xE299A70)
 
 namespace RPG::Client::Timeline
 {
-	inline static constexpr unsigned int ManaVideoBehaviour_TypeDefinitionIndex = 73249;
+	inline static constexpr unsigned int ManaVideoBehaviour_TypeDefinitionIndex = 73345;
 
 	class ManaVideoBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{

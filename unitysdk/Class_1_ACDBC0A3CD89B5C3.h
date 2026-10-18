@@ -3,52 +3,52 @@
 #include "unitysdk/System/Object.h"
 
 class Class_1_36816D4DE394D200;
-class Class_1_B072F3932DB9488D_1;
+class Class_1_99EFA45B40B96447;
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_ACDBC0A3CD89B5C3_METHOD_1_171C06C7A35BD279_OFFSET UNITYSDK_OFFSET(0x14C5F5C0)
-#define CLASS_1_ACDBC0A3CD89B5C3_METHOD_1_411FD78C9ECCF191_OFFSET UNITYSDK_OFFSET(0x14C5F4E0)
-#define CLASS_1_ACDBC0A3CD89B5C3_METHOD_1_48D63B3F1BB73F6B_OFFSET UNITYSDK_OFFSET(0x14C5F250)
-#define CLASS_1_ACDBC0A3CD89B5C3_METHOD_1_6D82BA6D42D4F85D_OFFSET UNITYSDK_OFFSET(0x14C5F400)
-#define CLASS_1_ACDBC0A3CD89B5C3_METHOD_1_8DA3FEE3379AFF0E_OFFSET UNITYSDK_OFFSET(0x14C5F1C0)
-#define CLASS_1_ACDBC0A3CD89B5C3__CTOR_OFFSET UNITYSDK_OFFSET(0x14C5F6F0)
+#define CLASS_1_ACDBC0A3CD89B5C3_METHOD_1_19A941F7642B1EB0_OFFSET UNITYSDK_OFFSET(0xB474980)
+#define CLASS_1_ACDBC0A3CD89B5C3_METHOD_1_411FD78C9ECCF191_OFFSET UNITYSDK_OFFSET(0xB4748A0)
+#define CLASS_1_ACDBC0A3CD89B5C3_METHOD_1_48D63B3F1BB73F6B_OFFSET UNITYSDK_OFFSET(0xB474640)
+#define CLASS_1_ACDBC0A3CD89B5C3_METHOD_1_BD9C62A454623742_OFFSET UNITYSDK_OFFSET(0xB4747F0)
+#define CLASS_1_ACDBC0A3CD89B5C3_METHOD_1_E1CA3E9CF2DA12EB_OFFSET UNITYSDK_OFFSET(0xB4745B0)
+#define CLASS_1_ACDBC0A3CD89B5C3__CTOR_OFFSET UNITYSDK_OFFSET(0xB474A70)
 
-inline static constexpr unsigned int Class_1_ACDBC0A3CD89B5C3_TypeDefinitionIndex = 71955;
+inline static constexpr unsigned int Class_1_ACDBC0A3CD89B5C3_TypeDefinitionIndex = 72020;
 
 class Class_1_ACDBC0A3CD89B5C3 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::Dictionary_2<::RPG::GameCore::TurnBasedModifierInstance*, ::Class_1_B072F3932DB9488D_1*>* EPADNMDFGMP; // 0x10
+	::System::Collections::Generic::Dictionary_2<::RPG::GameCore::TurnBasedModifierInstance*, ::Class_1_99EFA45B40B96447*>* EPADNMDFGMP; // 0x10
 
 	::System::Void _ctor()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_ACDBC0A3CD89B5C3__CTOR_OFFSET))(this);
 	}
 
-	::System::Void Method_1_8DA3FEE3379AFF0E(::Class_1_36816D4DE394D200* a1)
+	::System::Void Method_1_E1CA3E9CF2DA12EB(::Class_1_36816D4DE394D200* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_1_36816D4DE394D200*))((::PBYTE)hIl2Cpp + CLASS_1_ACDBC0A3CD89B5C3_METHOD_1_8DA3FEE3379AFF0E_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::Class_1_36816D4DE394D200*))((::PBYTE)hIl2Cpp + CLASS_1_ACDBC0A3CD89B5C3_METHOD_1_E1CA3E9CF2DA12EB_OFFSET))(this, a1);
 	}
 
-	::System::Void Method_1_6D82BA6D42D4F85D(::RPG::GameCore::TurnBasedModifierInstance* a1)
+	::System::Void Method_1_BD9C62A454623742(::RPG::GameCore::TurnBasedModifierInstance* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TurnBasedModifierInstance*))((::PBYTE)hIl2Cpp + CLASS_1_ACDBC0A3CD89B5C3_METHOD_1_6D82BA6D42D4F85D_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TurnBasedModifierInstance*))((::PBYTE)hIl2Cpp + CLASS_1_ACDBC0A3CD89B5C3_METHOD_1_BD9C62A454623742_OFFSET))(this, a1);
 	}
 
-	::Class_1_B072F3932DB9488D_1* Method_1_411FD78C9ECCF191(::RPG::GameCore::TurnBasedModifierInstance* a1)
+	::Class_1_99EFA45B40B96447* Method_1_411FD78C9ECCF191(::RPG::GameCore::TurnBasedModifierInstance* a1)
 	{
-		return ((::Class_1_B072F3932DB9488D_1*(*)(::PVOID, ::RPG::GameCore::TurnBasedModifierInstance*))((::PBYTE)hIl2Cpp + CLASS_1_ACDBC0A3CD89B5C3_METHOD_1_411FD78C9ECCF191_OFFSET))(this, a1);
+		return ((::Class_1_99EFA45B40B96447*(*)(::PVOID, ::RPG::GameCore::TurnBasedModifierInstance*))((::PBYTE)hIl2Cpp + CLASS_1_ACDBC0A3CD89B5C3_METHOD_1_411FD78C9ECCF191_OFFSET))(this, a1);
 	}
 
-	::System::Collections::Generic::List_1<::RPG::GameCore::TurnBasedModifierInstance*>* Method_1_171C06C7A35BD279()
+	::System::Collections::Generic::List_1<::RPG::GameCore::TurnBasedModifierInstance*>* Method_1_19A941F7642B1EB0()
 	{
-		return ((::System::Collections::Generic::List_1<::RPG::GameCore::TurnBasedModifierInstance*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_ACDBC0A3CD89B5C3_METHOD_1_171C06C7A35BD279_OFFSET))(this);
+		return ((::System::Collections::Generic::List_1<::RPG::GameCore::TurnBasedModifierInstance*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_ACDBC0A3CD89B5C3_METHOD_1_19A941F7642B1EB0_OFFSET))(this);
 	}
 
-	::Class_1_B072F3932DB9488D_1* Method_1_48D63B3F1BB73F6B(::RPG::GameCore::TurnBasedModifierInstance* a1)
+	::Class_1_99EFA45B40B96447* Method_1_48D63B3F1BB73F6B(::RPG::GameCore::TurnBasedModifierInstance* a1)
 	{
-		return ((::Class_1_B072F3932DB9488D_1*(*)(::PVOID, ::RPG::GameCore::TurnBasedModifierInstance*))((::PBYTE)hIl2Cpp + CLASS_1_ACDBC0A3CD89B5C3_METHOD_1_48D63B3F1BB73F6B_OFFSET))(this, a1);
+		return ((::Class_1_99EFA45B40B96447*(*)(::PVOID, ::RPG::GameCore::TurnBasedModifierInstance*))((::PBYTE)hIl2Cpp + CLASS_1_ACDBC0A3CD89B5C3_METHOD_1_48D63B3F1BB73F6B_OFFSET))(this, a1);
 	}
 };

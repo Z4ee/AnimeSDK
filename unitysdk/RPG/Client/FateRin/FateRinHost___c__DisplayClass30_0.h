@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_FATERIN_FATERINHOST___C__DISPLAYCLASS30_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5A6CA0)
-#define RPG_CLIENT_FATERIN_FATERINHOST___C__DISPLAYCLASS30_0__PLAYEASTEREGGPERFORMANCE_B__0_OFFSET UNITYSDK_OFFSET(0x1B5A8420)
+#define RPG_CLIENT_FATERIN_FATERINHOST___C__DISPLAYCLASS30_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCF9CDE0)
+#define RPG_CLIENT_FATERIN_FATERINHOST___C__DISPLAYCLASS30_0__PLAYEASTEREGGPERFORMANCE_B__0_OFFSET UNITYSDK_OFFSET(0xCF9E580)
 
 namespace RPG::Client::FateRin
 {
-	inline static constexpr unsigned int FateRinHost___c__DisplayClass30_0_TypeDefinitionIndex = 79205;
+	inline static constexpr unsigned int FateRinHost___c__DisplayClass30_0_TypeDefinitionIndex = 80529;
 
 	class FateRinHost___c__DisplayClass30_0 : public ::System::Object
 	{

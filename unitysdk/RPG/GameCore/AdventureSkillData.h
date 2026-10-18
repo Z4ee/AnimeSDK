@@ -5,20 +5,20 @@
 namespace RPG::GameCore { class AdventureSkillConfig; }
 namespace RPG::GameCore { class MazeSkillRow; }
 
-#define RPG_GAMECORE_ADVENTURESKILLDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1940E1F0)
+#define RPG_GAMECORE_ADVENTURESKILLDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xE5780B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureSkillData_TypeDefinitionIndex = 57038;
+	inline static constexpr unsigned int AdventureSkillData_TypeDefinitionIndex = 56860;
 
 	class AdventureSkillData : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::AdventureSkillConfig* SkillConfig; // 0x10
 		::RPG::GameCore::MazeSkillRow* SkillRow; // 0x18
-		::System::Single CDTimer; // 0x20
-		::System::Int32 SkillIndex; // 0x24
-		::System::Int32 UseTime; // 0x28
+		::System::Int32 UseTime; // 0x20
+		::System::Single CDTimer; // 0x24
+		::System::Int32 SkillIndex; // 0x28
 
 		::System::Void _ctor()
 		{

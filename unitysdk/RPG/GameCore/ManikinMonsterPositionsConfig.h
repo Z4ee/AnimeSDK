@@ -7,12 +7,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_MANIKINMONSTERPOSITIONSCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D4949D0)
-#define RPG_GAMECORE_MANIKINMONSTERPOSITIONSCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D494C70)
+#define RPG_GAMECORE_MANIKINMONSTERPOSITIONSCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D7FAAF0)
+#define RPG_GAMECORE_MANIKINMONSTERPOSITIONSCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7FAD90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ManikinMonsterPositionsConfig_TypeDefinitionIndex = 17281;
+	inline static constexpr unsigned int ManikinMonsterPositionsConfig_TypeDefinitionIndex = 17477;
 
 	class ManikinMonsterPositionsConfig : public ::RPG::GameCore::JsonConfig
 	{

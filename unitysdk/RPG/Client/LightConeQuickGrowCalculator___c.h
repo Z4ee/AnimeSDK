@@ -7,29 +7,29 @@ namespace RPG::GameCore { class ItemConfig; }
 namespace System { template <typename T> class Comparison_1; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define RPG_CLIENT_LIGHTCONEQUICKGROWCALCULATOR___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19500E90)
-#define RPG_CLIENT_LIGHTCONEQUICKGROWCALCULATOR___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19500ED0)
-#define RPG_CLIENT_LIGHTCONEQUICKGROWCALCULATOR___C___BUILDEXPSOURCES_B__45_0_OFFSET UNITYSDK_OFFSET(0x19500F00)
-#define RPG_CLIENT_LIGHTCONEQUICKGROWCALCULATOR___C___TRIMEXPOVERFLOW_B__41_0_OFFSET UNITYSDK_OFFSET(0x19500EE0)
+#define RPG_CLIENT_LIGHTCONEQUICKGROWCALCULATOR___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD391530)
+#define RPG_CLIENT_LIGHTCONEQUICKGROWCALCULATOR___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD391570)
+#define RPG_CLIENT_LIGHTCONEQUICKGROWCALCULATOR___C___BUILDEXPSOURCES_B__45_0_OFFSET UNITYSDK_OFFSET(0xD3915A0)
+#define RPG_CLIENT_LIGHTCONEQUICKGROWCALCULATOR___C___TRIMEXPOVERFLOW_B__41_0_OFFSET UNITYSDK_OFFSET(0xD391580)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LightConeQuickGrowCalculator___c_TypeDefinitionIndex = 65787;
+	inline static constexpr unsigned int LightConeQuickGrowCalculator___c_TypeDefinitionIndex = 65723;
 
 	class LightConeQuickGrowCalculator___c : public ::System::Object
 	{
 	public:
 		static ::System::Predicate_1<::RPG::GameCore::ItemConfig*>** StaticGet___9__41_0()
 		{
-			return (::System::Predicate_1<::RPG::GameCore::ItemConfig*>**)Il2CppClass::FromTypeDefinitionIndex(LightConeQuickGrowCalculator___c_TypeDefinitionIndex)->GetStaticField(0x593A0);
-		}
-		static ::System::Comparison_1<::RPG::Client::LightConeQuickGrowCalculator_ExpSourceRow*>** StaticGet___9__45_0()
-		{
-			return (::System::Comparison_1<::RPG::Client::LightConeQuickGrowCalculator_ExpSourceRow*>**)Il2CppClass::FromTypeDefinitionIndex(LightConeQuickGrowCalculator___c_TypeDefinitionIndex)->GetStaticField(0x593A8);
+			return (::System::Predicate_1<::RPG::GameCore::ItemConfig*>**)Il2CppClass::FromTypeDefinitionIndex(LightConeQuickGrowCalculator___c_TypeDefinitionIndex)->GetStaticField(0x18EE0);
 		}
 		static ::RPG::Client::LightConeQuickGrowCalculator___c** StaticGet___9()
 		{
-			return (::RPG::Client::LightConeQuickGrowCalculator___c**)Il2CppClass::FromTypeDefinitionIndex(LightConeQuickGrowCalculator___c_TypeDefinitionIndex)->GetStaticField(0x593B0);
+			return (::RPG::Client::LightConeQuickGrowCalculator___c**)Il2CppClass::FromTypeDefinitionIndex(LightConeQuickGrowCalculator___c_TypeDefinitionIndex)->GetStaticField(0x18EE8);
+		}
+		static ::System::Comparison_1<::RPG::Client::LightConeQuickGrowCalculator_ExpSourceRow*>** StaticGet___9__45_0()
+		{
+			return (::System::Comparison_1<::RPG::Client::LightConeQuickGrowCalculator_ExpSourceRow*>**)Il2CppClass::FromTypeDefinitionIndex(LightConeQuickGrowCalculator___c_TypeDefinitionIndex)->GetStaticField(0x18EF0);
 		}
 
 		static ::System::Void _cctor()

@@ -2,17 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_GAMECORE_BATTLERAIDTARGETCHANGEPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6342E0)
+#define RPG_GAMECORE_BATTLERAIDTARGETCHANGEPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0xE5C0060)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleRaidTargetChangeParams_TypeDefinitionIndex = 58721;
+	inline static constexpr unsigned int BattleRaidTargetChangeParams_TypeDefinitionIndex = 58573;
 
 	class BattleRaidTargetChangeParams : public ::System::Object
 	{
 	public:
-		::System::UInt32 RaidTargetID; // 0x10
-		::System::Int32 CurrentProgress; // 0x14
+		::System::Int32 CurrentProgress; // 0x10
+		::System::UInt32 RaidTargetID; // 0x14
 
 		::System::Void _ctor()
 		{

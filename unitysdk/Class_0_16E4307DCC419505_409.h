@@ -1,9 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-namespace UnityEngine { class Transform; }
+namespace System { class Object; }
+template <typename T1, typename T2> class Class_3_B60F6C2F126D2E26_3;
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_409_TypeDefinitionIndex = 50298;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_409_TypeDefinitionIndex = 44260;
 
 class Class_0_16E4307DCC419505_409
 {

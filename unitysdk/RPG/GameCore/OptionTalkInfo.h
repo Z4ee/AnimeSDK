@@ -8,13 +8,13 @@ namespace RPG::GameCore { class JsonEnum; }
 namespace RPG::GameCore { class PredicateConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_OPTIONTALKINFO_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x1D40A0E0)
-#define RPG_GAMECORE_OPTIONTALKINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D409D70)
-#define RPG_GAMECORE_OPTIONTALKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1D40A0A0)
+#define RPG_GAMECORE_OPTIONTALKINFO_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x1D8B7680)
+#define RPG_GAMECORE_OPTIONTALKINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D8B7310)
+#define RPG_GAMECORE_OPTIONTALKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1D8B7640)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int OptionTalkInfo_TypeDefinitionIndex = 15306;
+	inline static constexpr unsigned int OptionTalkInfo_TypeDefinitionIndex = 15477;
 
 	class OptionTalkInfo : public ::RPG::GameCore::JsonConfig
 	{

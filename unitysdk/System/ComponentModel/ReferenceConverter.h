@@ -4,7 +4,7 @@
 
 namespace System { class String; }
 
-#define SYSTEM_COMPONENTMODEL_REFERENCECONVERTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AB12BC0)
+#define SYSTEM_COMPONENTMODEL_REFERENCECONVERTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EFC4210)
 
 namespace System::ComponentModel
 {
@@ -15,7 +15,7 @@ namespace System::ComponentModel
 	public:
 		static ::System::String** StaticGet_none()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ReferenceConverter_TypeDefinitionIndex)->GetStaticField(0x34B20);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ReferenceConverter_TypeDefinitionIndex)->GetStaticField(0x2C130);
 		}
 
 		static ::System::Void _cctor()

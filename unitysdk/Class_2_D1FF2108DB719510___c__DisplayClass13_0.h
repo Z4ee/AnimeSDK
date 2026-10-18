@@ -5,16 +5,16 @@
 class Class_2_D1FF2108DB719510;
 namespace RPG::GameCore { class BaseModifierInstance_ModifierEffectData; }
 
-#define CLASS_2_D1FF2108DB719510___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15E36F20)
-#define CLASS_2_D1FF2108DB719510___C__DISPLAYCLASS13_0___TRYDESTORYMODIFIEREFFECT_B__0_OFFSET UNITYSDK_OFFSET(0x15E37160)
+#define CLASS_2_D1FF2108DB719510___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC7630D0)
+#define CLASS_2_D1FF2108DB719510___C__DISPLAYCLASS13_0___TRYDESTORYMODIFIEREFFECT_B__0_OFFSET UNITYSDK_OFFSET(0xC763310)
 
-inline static constexpr unsigned int Class_2_D1FF2108DB719510___c__DisplayClass13_0_TypeDefinitionIndex = 53957;
+inline static constexpr unsigned int Class_2_D1FF2108DB719510___c__DisplayClass13_0_TypeDefinitionIndex = 53743;
 
 class Class_2_D1FF2108DB719510___c__DisplayClass13_0 : public ::System::Object
 {
 public:
-	::RPG::GameCore::BaseModifierInstance_ModifierEffectData* effectData; // 0x10
-	::Class_2_D1FF2108DB719510* __4__this; // 0x18
+	::Class_2_D1FF2108DB719510* __4__this; // 0x10
+	::RPG::GameCore::BaseModifierInstance_ModifierEffectData* effectData; // 0x18
 
 	::System::Void _ctor()
 	{

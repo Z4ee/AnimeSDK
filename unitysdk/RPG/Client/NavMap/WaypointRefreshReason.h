@@ -3,7 +3,7 @@
 
 namespace RPG::Client::NavMap
 {
-	inline static constexpr unsigned int WaypointRefreshReason_TypeDefinitionIndex = 74466;
+	inline static constexpr unsigned int WaypointRefreshReason_TypeDefinitionIndex = 74593;
 
 	enum class WaypointRefreshReason : ::System::Int32
 	{

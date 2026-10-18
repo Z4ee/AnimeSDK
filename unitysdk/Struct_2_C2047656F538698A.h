@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_0A3761FE34514D6C_76.h"
+#include "unitysdk/Enum_3_0A3761FE34514D6C_85.h"
 #include "unitysdk/RPG/MVector3.h"
 #include "unitysdk/System/ValueType.h"
 
@@ -10,30 +10,30 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define STRUCT_2_C2047656F538698A_METHOD_2_3F0DB1B0D6BAF251_OFFSET UNITYSDK_OFFSET(0x3AE6BF0)
-#define STRUCT_2_C2047656F538698A__CCTOR_OFFSET UNITYSDK_OFFSET(0x189825B0)
+#define STRUCT_2_C2047656F538698A_METHOD_2_3F0DB1B0D6BAF251_OFFSET UNITYSDK_OFFSET(0xF68E0)
+#define STRUCT_2_C2047656F538698A__CCTOR_OFFSET UNITYSDK_OFFSET(0xE84E120)
 
-inline static constexpr unsigned int Struct_2_C2047656F538698A_TypeDefinitionIndex = 69364;
+inline static constexpr unsigned int Struct_2_C2047656F538698A_TypeDefinitionIndex = 69400;
 
 struct alignas(8) Struct_2_C2047656F538698A
 {
-	static ::Il2CppArray<::Enum_3_0A3761FE34514D6C_76>** StaticGet_HKHKOPBHOBF()
+	static ::Il2CppArray<::Enum_3_0A3761FE34514D6C_85>** StaticGet_HKHKOPBHOBF()
 	{
-		return (::Il2CppArray<::Enum_3_0A3761FE34514D6C_76>**)Il2CppClass::FromTypeDefinitionIndex(Struct_2_C2047656F538698A_TypeDefinitionIndex)->GetStaticField(0x4BF0);
+		return (::Il2CppArray<::Enum_3_0A3761FE34514D6C_85>**)Il2CppClass::FromTypeDefinitionIndex(Struct_2_C2047656F538698A_TypeDefinitionIndex)->GetStaticField(0x63F30);
 	}
-	static ::Il2CppArray<::Enum_3_0A3761FE34514D6C_76>** StaticGet_JJGGODNBFKK()
+	static ::Il2CppArray<::Enum_3_0A3761FE34514D6C_85>** StaticGet_JJGGODNBFKK()
 	{
-		return (::Il2CppArray<::Enum_3_0A3761FE34514D6C_76>**)Il2CppClass::FromTypeDefinitionIndex(Struct_2_C2047656F538698A_TypeDefinitionIndex)->GetStaticField(0x4BF8);
+		return (::Il2CppArray<::Enum_3_0A3761FE34514D6C_85>**)Il2CppClass::FromTypeDefinitionIndex(Struct_2_C2047656F538698A_TypeDefinitionIndex)->GetStaticField(0x63F38);
 	}
-	static ::Il2CppArray<::Enum_3_0A3761FE34514D6C_76>** StaticGet_KDHKBFENLDH()
+	static ::Il2CppArray<::Enum_3_0A3761FE34514D6C_85>** StaticGet_KDHKBFENLDH()
 	{
-		return (::Il2CppArray<::Enum_3_0A3761FE34514D6C_76>**)Il2CppClass::FromTypeDefinitionIndex(Struct_2_C2047656F538698A_TypeDefinitionIndex)->GetStaticField(0x4C00);
+		return (::Il2CppArray<::Enum_3_0A3761FE34514D6C_85>**)Il2CppClass::FromTypeDefinitionIndex(Struct_2_C2047656F538698A_TypeDefinitionIndex)->GetStaticField(0x63F40);
 	}
 	::System::UInt32 GEEJAJPPGDG; // 0x10
 	::System::UInt32 KLIHOACGEIO; // 0x14
 	::System::UInt32 FOGBHFGKEIA; // 0x18
 	::System::String* FNCJLBKBKBI; // 0x20
-	::System::Collections::Generic::IList_1<::Enum_3_0A3761FE34514D6C_76>* MIAOGDAKOEM; // 0x28
+	::System::Collections::Generic::IList_1<::Enum_3_0A3761FE34514D6C_85>* MIAOGDAKOEM; // 0x28
 	::System::Collections::Generic::List_1<::System::UInt32>* EEDPLDBFMMM; // 0x30
 	::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::System::UInt32>*>* BMIBPINLEEJ; // 0x38
 	::RPG::MVector3 BBFOLEOPPPL; // 0x40

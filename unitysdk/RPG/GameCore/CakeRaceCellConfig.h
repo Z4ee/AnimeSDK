@@ -7,12 +7,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class CakeRaceActionBase; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CAKERACECELLCONFIG_METHOD_2_F5D51BB8A206E480_OFFSET UNITYSDK_OFFSET(0x1D0FF970)
-#define RPG_GAMECORE_CAKERACECELLCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0FFC60)
+#define RPG_GAMECORE_CAKERACECELLCONFIG_METHOD_2_F5D51BB8A206E480_OFFSET UNITYSDK_OFFSET(0x1D5206C0)
+#define RPG_GAMECORE_CAKERACECELLCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5209B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CakeRaceCellConfig_TypeDefinitionIndex = 18203;
+	inline static constexpr unsigned int CakeRaceCellConfig_TypeDefinitionIndex = 18418;
 
 	class CakeRaceCellConfig : public ::RPG::GameCore::JsonConfig
 	{

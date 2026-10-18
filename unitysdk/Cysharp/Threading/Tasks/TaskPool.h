@@ -8,25 +8,25 @@ namespace System { template <typename T> class Func_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define CYSHARP_THREADING_TASKS_TASKPOOL_GETCACHESIZEINFO_OFFSET UNITYSDK_OFFSET(0x1D7557F0)
-#define CYSHARP_THREADING_TASKS_TASKPOOL_REGISTERSIZEGETTER_OFFSET UNITYSDK_OFFSET(0x1D744EA0)
-#define CYSHARP_THREADING_TASKS_TASKPOOL_SETMAXPOOLSIZE_OFFSET UNITYSDK_OFFSET(0x1D755790)
-#define CYSHARP_THREADING_TASKS_TASKPOOL__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D7555C0)
+#define CYSHARP_THREADING_TASKS_TASKPOOL_GETCACHESIZEINFO_OFFSET UNITYSDK_OFFSET(0x1F0F74E0)
+#define CYSHARP_THREADING_TASKS_TASKPOOL_REGISTERSIZEGETTER_OFFSET UNITYSDK_OFFSET(0x1F0E6BA0)
+#define CYSHARP_THREADING_TASKS_TASKPOOL_SETMAXPOOLSIZE_OFFSET UNITYSDK_OFFSET(0x1F0F7480)
+#define CYSHARP_THREADING_TASKS_TASKPOOL__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F0F72B0)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int TaskPool_TypeDefinitionIndex = 42634;
+	inline static constexpr unsigned int TaskPool_TypeDefinitionIndex = 38219;
 
 	class TaskPool : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Func_1<::System::Int32>*>** StaticGet_sizes()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Func_1<::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(TaskPool_TypeDefinitionIndex)->GetStaticField(0x61CE0);
+			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Func_1<::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(TaskPool_TypeDefinitionIndex)->GetStaticField(0x376F0);
 		}
 		static ::System::Int32* StaticGet_MaxPoolSize()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TaskPool_TypeDefinitionIndex)->GetStaticField(0x141E0);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TaskPool_TypeDefinitionIndex)->GetStaticField(0xB320);
 		}
 
 		static ::System::Void _cctor()

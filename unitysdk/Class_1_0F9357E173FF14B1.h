@@ -5,9 +5,9 @@
 namespace RPG::Client::FateRin::Card { class IFateRinCardViewModel; }
 namespace System { class String; }
 
-#define CLASS_1_0F9357E173FF14B1_METHOD_1_20D78142557EF460_OFFSET UNITYSDK_OFFSET(0x19CC7FC0)
+#define CLASS_1_0F9357E173FF14B1_METHOD_1_20D78142557EF460_OFFSET UNITYSDK_OFFSET(0xBAB83C0)
 
-inline static constexpr unsigned int Class_1_0F9357E173FF14B1_TypeDefinitionIndex = 79339;
+inline static constexpr unsigned int Class_1_0F9357E173FF14B1_TypeDefinitionIndex = 80663;
 
 class Class_1_0F9357E173FF14B1 : public ::System::Object
 {

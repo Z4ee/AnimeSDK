@@ -8,7 +8,7 @@ namespace R3 { template <typename T> class Observable_1; }
 namespace RPG::Client { class ListView; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-inline static constexpr unsigned int Class_1_E662A14186A3FA57_TypeDefinitionIndex = 50173;
+inline static constexpr unsigned int Class_1_E662A14186A3FA57_TypeDefinitionIndex = 49798;
 
 template <typename TViewModel>
 class Class_1_E662A14186A3FA57 : public ::System::Object

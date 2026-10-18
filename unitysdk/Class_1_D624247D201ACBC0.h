@@ -1,0 +1,119 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_D624247D201ACBC0_RF_GameInfoComponent.h"
+#include "unitysdk/RPG/Client/LittleGameShare/ReplicationFlag.h"
+#include "unitysdk/RPG/Client/LittleGameShare/TeamTowersCore/TeamTowersCoreGameState.h"
+#include "unitysdk/RPG/GameCore/TeamTowersLevelGameMode.h"
+#include "unitysdk/System/Object.h"
+
+class Class_0_16E4307DCC419505_33;
+class Class_0_16E4307DCC419505_34;
+
+#define CLASS_1_D624247D201ACBC0_METHOD_1_02A3D10A9D535169_1_OFFSET UNITYSDK_OFFSET(0x1C6F24B0)
+#define CLASS_1_D624247D201ACBC0_METHOD_1_02A3D10A9D535169_OFFSET UNITYSDK_OFFSET(0x1C6F2390)
+#define CLASS_1_D624247D201ACBC0_METHOD_1_123DFB09BD2C9B9E_1_OFFSET UNITYSDK_OFFSET(0x1C6F24C0)
+#define CLASS_1_D624247D201ACBC0_METHOD_1_123DFB09BD2C9B9E_OFFSET UNITYSDK_OFFSET(0x1C6F23A0)
+#define CLASS_1_D624247D201ACBC0_METHOD_1_276C738E781DA057_OFFSET UNITYSDK_OFFSET(0x1C6F2A30)
+#define CLASS_1_D624247D201ACBC0_METHOD_1_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0x1C6F2A80)
+#define CLASS_1_D624247D201ACBC0_METHOD_1_3B3A8581B2D63382_OFFSET UNITYSDK_OFFSET(0x1C6F2460)
+#define CLASS_1_D624247D201ACBC0_METHOD_1_5B45402E2F82F05F_OFFSET UNITYSDK_OFFSET(0x1C6F23F0)
+#define CLASS_1_D624247D201ACBC0_METHOD_1_7EE549901EF3B892_OFFSET UNITYSDK_OFFSET(0x1C6F2510)
+#define CLASS_1_D624247D201ACBC0_METHOD_1_A5FB11C82FC95330_OFFSET UNITYSDK_OFFSET(0x1C6F27A0)
+#define CLASS_1_D624247D201ACBC0_METHOD_1_A78B34F2E0416E2F_OFFSET UNITYSDK_OFFSET(0x1C6F29D0)
+#define CLASS_1_D624247D201ACBC0_METHOD_1_B8AA312F859F6A2D_OFFSET UNITYSDK_OFFSET(0x1C6F2450)
+#define CLASS_1_D624247D201ACBC0_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x1C6F2350)
+#define CLASS_1_D624247D201ACBC0_METHOD_1_E0C601A0295063D8_OFFSET UNITYSDK_OFFSET(0x1C6F2400)
+#define CLASS_1_D624247D201ACBC0_METHOD_1_F0088C88851A7DFB_OFFSET UNITYSDK_OFFSET(0x1C6F2340)
+#define CLASS_1_D624247D201ACBC0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C6F2AD0)
+
+inline static constexpr unsigned int Class_1_D624247D201ACBC0_TypeDefinitionIndex = 37080;
+
+class Class_1_D624247D201ACBC0 : public ::System::Object
+{
+public:
+	::System::UInt32 PHIJEONIBLN; // 0x10
+	::Class_1_D624247D201ACBC0_RF_GameInfoComponent HFKLFHBEDEM; // 0x14
+	::RPG::GameCore::TeamTowersLevelGameMode GLIJDAFOJNC; // 0x15
+	::RPG::Client::LittleGameShare::TeamTowersCore::TeamTowersCoreGameState OCLBNFLFCDH; // 0x16
+	::System::UInt32 ACKNHIBHHBC; // 0x18
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_D624247D201ACBC0__CTOR_OFFSET))(this);
+	}
+
+	::System::Boolean Method_1_F0088C88851A7DFB()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_D624247D201ACBC0_METHOD_1_F0088C88851A7DFB_OFFSET))(this);
+	}
+
+	::System::Void Method_1_CA373AA1C7054598()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_D624247D201ACBC0_METHOD_1_CA373AA1C7054598_OFFSET))(this);
+	}
+
+	::System::UInt32 Method_1_02A3D10A9D535169()
+	{
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_D624247D201ACBC0_METHOD_1_02A3D10A9D535169_OFFSET))(this);
+	}
+
+	::System::Void Method_1_123DFB09BD2C9B9E(::System::UInt32 a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_D624247D201ACBC0_METHOD_1_123DFB09BD2C9B9E_OFFSET))(this, a1);
+	}
+
+	::RPG::Client::LittleGameShare::TeamTowersCore::TeamTowersCoreGameState Method_1_5B45402E2F82F05F()
+	{
+		return ((::RPG::Client::LittleGameShare::TeamTowersCore::TeamTowersCoreGameState(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_D624247D201ACBC0_METHOD_1_5B45402E2F82F05F_OFFSET))(this);
+	}
+
+	::System::Void Method_1_E0C601A0295063D8(::RPG::Client::LittleGameShare::TeamTowersCore::TeamTowersCoreGameState a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::LittleGameShare::TeamTowersCore::TeamTowersCoreGameState))((::PBYTE)hIl2Cpp + CLASS_1_D624247D201ACBC0_METHOD_1_E0C601A0295063D8_OFFSET))(this, a1);
+	}
+
+	::RPG::GameCore::TeamTowersLevelGameMode Method_1_B8AA312F859F6A2D()
+	{
+		return ((::RPG::GameCore::TeamTowersLevelGameMode(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_D624247D201ACBC0_METHOD_1_B8AA312F859F6A2D_OFFSET))(this);
+	}
+
+	::System::Void Method_1_3B3A8581B2D63382(::RPG::GameCore::TeamTowersLevelGameMode a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TeamTowersLevelGameMode))((::PBYTE)hIl2Cpp + CLASS_1_D624247D201ACBC0_METHOD_1_3B3A8581B2D63382_OFFSET))(this, a1);
+	}
+
+	::System::UInt32 Method_1_02A3D10A9D535169_1()
+	{
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_D624247D201ACBC0_METHOD_1_02A3D10A9D535169_1_OFFSET))(this);
+	}
+
+	::System::Void Method_1_123DFB09BD2C9B9E_1(::System::UInt32 a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_D624247D201ACBC0_METHOD_1_123DFB09BD2C9B9E_1_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_7EE549901EF3B892(::Class_0_16E4307DCC419505_33* a1, ::RPG::Client::LittleGameShare::ReplicationFlag a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_33*, ::RPG::Client::LittleGameShare::ReplicationFlag))((::PBYTE)hIl2Cpp + CLASS_1_D624247D201ACBC0_METHOD_1_7EE549901EF3B892_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_1_A5FB11C82FC95330(::Class_0_16E4307DCC419505_34* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_34*))((::PBYTE)hIl2Cpp + CLASS_1_D624247D201ACBC0_METHOD_1_A5FB11C82FC95330_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_A78B34F2E0416E2F(::Class_0_16E4307DCC419505_34* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_34*))((::PBYTE)hIl2Cpp + CLASS_1_D624247D201ACBC0_METHOD_1_A78B34F2E0416E2F_OFFSET))(this, a1);
+	}
+
+	::System::Boolean Method_1_276C738E781DA057(::Class_1_D624247D201ACBC0_RF_GameInfoComponent a1)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::Class_1_D624247D201ACBC0_RF_GameInfoComponent))((::PBYTE)hIl2Cpp + CLASS_1_D624247D201ACBC0_METHOD_1_276C738E781DA057_OFFSET))(this, a1);
+	}
+
+	::System::Boolean Method_1_391A84BCD9F51317()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_D624247D201ACBC0_METHOD_1_391A84BCD9F51317_OFFSET))(this);
+	}
+};

@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_PROJECTILEONHITLIST_METHOD_2_1D51F1CB2BE6E251_OFFSET UNITYSDK_OFFSET(0x1D172DF0)
-#define RPG_GAMECORE_PROJECTILEONHITLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x1D172F60)
+#define RPG_GAMECORE_PROJECTILEONHITLIST_METHOD_2_1D51F1CB2BE6E251_OFFSET UNITYSDK_OFFSET(0x1D916FC0)
+#define RPG_GAMECORE_PROJECTILEONHITLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x1D917130)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ProjectileOnHitList_TypeDefinitionIndex = 22336;
+	inline static constexpr unsigned int ProjectileOnHitList_TypeDefinitionIndex = 22587;
 
 	class ProjectileOnHitList : public ::RPG::GameCore::JsonConfig
 	{

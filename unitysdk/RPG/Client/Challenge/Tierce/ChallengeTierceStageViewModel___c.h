@@ -4,24 +4,24 @@
 
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGEVIEWMODEL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18BFEC90)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGEVIEWMODEL___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18BFECD0)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGEVIEWMODEL___C__GET_VORACITYINVASIONLEVEL_B__22_0_OFFSET UNITYSDK_OFFSET(0x18BFECE0)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGEVIEWMODEL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC961820)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGEVIEWMODEL___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC961860)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGEVIEWMODEL___C__GET_VORACITYINVASIONLEVEL_B__22_0_OFFSET UNITYSDK_OFFSET(0xC961870)
 
 namespace RPG::Client::Challenge::Tierce
 {
-	inline static constexpr unsigned int ChallengeTierceStageViewModel___c_TypeDefinitionIndex = 80251;
+	inline static constexpr unsigned int ChallengeTierceStageViewModel___c_TypeDefinitionIndex = 81579;
 
 	class ChallengeTierceStageViewModel___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::UInt32, ::System::UInt32>** StaticGet___9__22_0()
-		{
-			return (::System::Func_2<::System::UInt32, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(ChallengeTierceStageViewModel___c_TypeDefinitionIndex)->GetStaticField(0x1E580);
-		}
 		static ::RPG::Client::Challenge::Tierce::ChallengeTierceStageViewModel___c** StaticGet___9()
 		{
-			return (::RPG::Client::Challenge::Tierce::ChallengeTierceStageViewModel___c**)Il2CppClass::FromTypeDefinitionIndex(ChallengeTierceStageViewModel___c_TypeDefinitionIndex)->GetStaticField(0x1E588);
+			return (::RPG::Client::Challenge::Tierce::ChallengeTierceStageViewModel___c**)Il2CppClass::FromTypeDefinitionIndex(ChallengeTierceStageViewModel___c_TypeDefinitionIndex)->GetStaticField(0x6A8B0);
+		}
+		static ::System::Func_2<::System::UInt32, ::System::UInt32>** StaticGet___9__22_0()
+		{
+			return (::System::Func_2<::System::UInt32, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(ChallengeTierceStageViewModel___c_TypeDefinitionIndex)->GetStaticField(0x6A8B8);
 		}
 
 		static ::System::Void _cctor()

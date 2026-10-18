@@ -3,12 +3,12 @@
 #include "unitysdk/RPG/Client/MaterialPropertySerializeFieldTemplate1_MaterialPropertySerializeField.h"
 #include "unitysdk/RPG/Client/MaterialPropertySerializeFieldTemplate8.h"
 
-#define RPG_CLIENT_MATERIALPROPERTYSERIALIZEFIELDTEMPLATE9_GETPROPERTYFIELDS_OFFSET UNITYSDK_OFFSET(0x1B2183C0)
-#define RPG_CLIENT_MATERIALPROPERTYSERIALIZEFIELDTEMPLATE9__CTOR_OFFSET UNITYSDK_OFFSET(0x1B213B40)
+#define RPG_CLIENT_MATERIALPROPERTYSERIALIZEFIELDTEMPLATE9_GETPROPERTYFIELDS_OFFSET UNITYSDK_OFFSET(0xD5D2180)
+#define RPG_CLIENT_MATERIALPROPERTYSERIALIZEFIELDTEMPLATE9__CTOR_OFFSET UNITYSDK_OFFSET(0xD5CD900)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MaterialPropertySerializeFieldTemplate9_TypeDefinitionIndex = 70640;
+	inline static constexpr unsigned int MaterialPropertySerializeFieldTemplate9_TypeDefinitionIndex = 70676;
 
 	class MaterialPropertySerializeFieldTemplate9 : public ::RPG::Client::MaterialPropertySerializeFieldTemplate8
 	{

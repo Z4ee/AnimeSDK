@@ -19,7 +19,7 @@ namespace System::Linq { template <typename T1, typename T2> class ILookup_2; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int GroupJoin_4__GroupJoin_TypeDefinitionIndex = 44252;
+	inline static constexpr unsigned int GroupJoin_4__GroupJoin_TypeDefinitionIndex = 45391;
 
 	template <typename TOuter, typename TInner, typename TKey, typename TResult>
 	class GroupJoin_4__GroupJoin : public ::Cysharp::Threading::Tasks::MoveNextSource

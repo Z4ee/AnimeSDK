@@ -3,28 +3,28 @@
 #include "unitysdk/Struct_2_A0005A7419DEF7CE.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_955;
+class Class_0_16E4307DCC419505_1059;
 class Class_1_B38D05F57D395ACE;
 namespace System { class String; }
 namespace System::Text::RegularExpressions { class Regex; }
 
-#define CLASS_1_036E8CAA413BFC02_METHOD_1_88B60F3B95FAA4F1_OFFSET UNITYSDK_OFFSET(0x1691B280)
-#define CLASS_1_036E8CAA413BFC02_METHOD_1_B370CA2766300922_OFFSET UNITYSDK_OFFSET(0x1691B2F0)
-#define CLASS_1_036E8CAA413BFC02__CCTOR_OFFSET UNITYSDK_OFFSET(0x1691B820)
-#define CLASS_1_036E8CAA413BFC02__CTOR_OFFSET UNITYSDK_OFFSET(0x1691B810)
+#define CLASS_1_036E8CAA413BFC02_METHOD_1_88B60F3B95FAA4F1_OFFSET UNITYSDK_OFFSET(0xB20C5A0)
+#define CLASS_1_036E8CAA413BFC02_METHOD_1_B370CA2766300922_OFFSET UNITYSDK_OFFSET(0xB20C610)
+#define CLASS_1_036E8CAA413BFC02__CCTOR_OFFSET UNITYSDK_OFFSET(0xB20CB40)
+#define CLASS_1_036E8CAA413BFC02__CTOR_OFFSET UNITYSDK_OFFSET(0xB20CB30)
 
-inline static constexpr unsigned int Class_1_036E8CAA413BFC02_TypeDefinitionIndex = 73261;
+inline static constexpr unsigned int Class_1_036E8CAA413BFC02_TypeDefinitionIndex = 73357;
 
 class Class_1_036E8CAA413BFC02 : public ::System::Object
 {
 public:
 	static ::System::Text::RegularExpressions::Regex** StaticGet_ELEDGDBNMNL()
 	{
-		return (::System::Text::RegularExpressions::Regex**)Il2CppClass::FromTypeDefinitionIndex(Class_1_036E8CAA413BFC02_TypeDefinitionIndex)->GetStaticField(0x60E60);
+		return (::System::Text::RegularExpressions::Regex**)Il2CppClass::FromTypeDefinitionIndex(Class_1_036E8CAA413BFC02_TypeDefinitionIndex)->GetStaticField(0x196C0);
 	}
 	static ::System::Text::RegularExpressions::Regex** StaticGet_JPLECFMABNF()
 	{
-		return (::System::Text::RegularExpressions::Regex**)Il2CppClass::FromTypeDefinitionIndex(Class_1_036E8CAA413BFC02_TypeDefinitionIndex)->GetStaticField(0x60E68);
+		return (::System::Text::RegularExpressions::Regex**)Il2CppClass::FromTypeDefinitionIndex(Class_1_036E8CAA413BFC02_TypeDefinitionIndex)->GetStaticField(0x196C8);
 	}
 
 	::System::Void _ctor()
@@ -42,8 +42,8 @@ public:
 		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_036E8CAA413BFC02_METHOD_1_88B60F3B95FAA4F1_OFFSET))(this);
 	}
 
-	::System::String* Method_1_B370CA2766300922(::System::String* a1, ::Struct_2_A0005A7419DEF7CE a2, ::Class_0_16E4307DCC419505_955* a3, ::Class_1_B38D05F57D395ACE* a4)
+	::System::String* Method_1_B370CA2766300922(::System::String* a1, ::Struct_2_A0005A7419DEF7CE a2, ::Class_0_16E4307DCC419505_1059* a3, ::Class_1_B38D05F57D395ACE* a4)
 	{
-		return ((::System::String*(*)(::PVOID, ::System::String*, ::Struct_2_A0005A7419DEF7CE, ::Class_0_16E4307DCC419505_955*, ::Class_1_B38D05F57D395ACE*))((::PBYTE)hIl2Cpp + CLASS_1_036E8CAA413BFC02_METHOD_1_B370CA2766300922_OFFSET))(this, a1, a2, a3, a4);
+		return ((::System::String*(*)(::PVOID, ::System::String*, ::Struct_2_A0005A7419DEF7CE, ::Class_0_16E4307DCC419505_1059*, ::Class_1_B38D05F57D395ACE*))((::PBYTE)hIl2Cpp + CLASS_1_036E8CAA413BFC02_METHOD_1_B370CA2766300922_OFFSET))(this, a1, a2, a3, a4);
 	}
 };

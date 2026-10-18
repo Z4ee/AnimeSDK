@@ -1,0 +1,56 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Sofa/BaseSofaWindow.h"
+
+class Class_1_061585F9B8C87A36;
+namespace RPG::Client::MechCraft::View { class MechCraftWorkshopLevelUpControl; }
+namespace System { class Action; }
+
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTWORKSHOPLEVELUPWINDOW_GET__TYPEDDATACONTEXT_OFFSET UNITYSDK_OFFSET(0xD66CAB0)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTWORKSHOPLEVELUPWINDOW_SET__TYPEDDATACONTEXT_OFFSET UNITYSDK_OFFSET(0xD66CB60)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTWORKSHOPLEVELUPWINDOW__CTOR_OFFSET UNITYSDK_OFFSET(0xD66CB70)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTWORKSHOPLEVELUPWINDOW__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0xD66CD10)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTWORKSHOPLEVELUPWINDOW__ONEXITFINALSTEP_OFFSET UNITYSDK_OFFSET(0xD66D0D0)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTWORKSHOPLEVELUPWINDOW__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0xD66CC60)
+
+namespace RPG::Client::MechCraft::View
+{
+	inline static constexpr unsigned int MechCraftWorkshopLevelUpWindow_TypeDefinitionIndex = 80078;
+
+	class MechCraftWorkshopLevelUpWindow : public ::Sofa::BaseSofaWindow
+	{
+	public:
+		::System::Action* _OnClosed; // 0x48
+		::RPG::Client::MechCraft::View::MechCraftWorkshopLevelUpControl* _Control; // 0x50
+
+		::System::Void _ctor(::Class_1_061585F9B8C87A36* a1, ::System::Action* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_061585F9B8C87A36*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTWORKSHOPLEVELUPWINDOW__CTOR_OFFSET))(this, a1, a2);
+		}
+
+		::Class_1_061585F9B8C87A36* get__TypedDataContext()
+		{
+			return ((::Class_1_061585F9B8C87A36*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTWORKSHOPLEVELUPWINDOW_GET__TYPEDDATACONTEXT_OFFSET))(this);
+		}
+
+		::System::Void set__TypedDataContext(::Class_1_061585F9B8C87A36* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_061585F9B8C87A36*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTWORKSHOPLEVELUPWINDOW_SET__TYPEDDATACONTEXT_OFFSET))(this, a1);
+		}
+
+		::System::Void _OnInitializeComponent()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTWORKSHOPLEVELUPWINDOW__ONINITIALIZECOMPONENT_OFFSET))(this);
+		}
+
+		::System::Void _OnBindViewModel()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTWORKSHOPLEVELUPWINDOW__ONBINDVIEWMODEL_OFFSET))(this);
+		}
+
+		::System::Void _OnExitFinalStep()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTWORKSHOPLEVELUPWINDOW__ONEXITFINALSTEP_OFFSET))(this);
+		}
+	};
+}

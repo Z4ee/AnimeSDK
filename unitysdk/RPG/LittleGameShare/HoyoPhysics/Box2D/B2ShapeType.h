@@ -3,7 +3,7 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2ShapeType_TypeDefinitionIndex = 36082;
+	inline static constexpr unsigned int B2ShapeType_TypeDefinitionIndex = 36769;
 
 	enum class B2ShapeType : ::System::Int32
 	{

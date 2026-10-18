@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SYSTEM_RUNTIME_COMPILERSERVICES_NATIVEINTEGERATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1EFCB650)
-#define SYSTEM_RUNTIME_COMPILERSERVICES_NATIVEINTEGERATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EFCB610)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_NATIVEINTEGERATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1EC1EA90)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_NATIVEINTEGERATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EC1EA50)
 
 namespace System::Runtime::CompilerServices
 {
-	inline static constexpr unsigned int NativeIntegerAttribute_TypeDefinitionIndex = 34505;
+	inline static constexpr unsigned int NativeIntegerAttribute_TypeDefinitionIndex = 35169;
 
 	class NativeIntegerAttribute : public ::System::Attribute
 	{

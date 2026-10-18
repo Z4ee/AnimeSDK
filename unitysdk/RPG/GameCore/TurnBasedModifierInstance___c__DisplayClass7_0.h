@@ -7,12 +7,12 @@ namespace RPG::Client { class MonoEffect; }
 namespace RPG::GameCore { class BaseModifierInstance_ModifierEffectData; }
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 
-#define RPG_GAMECORE_TURNBASEDMODIFIERINSTANCE___C__DISPLAYCLASS7_0__ATTACHEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0x1A359D80)
-#define RPG_GAMECORE_TURNBASEDMODIFIERINSTANCE___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A344FD0)
+#define RPG_GAMECORE_TURNBASEDMODIFIERINSTANCE___C__DISPLAYCLASS7_0__ATTACHEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0xE8562E0)
+#define RPG_GAMECORE_TURNBASEDMODIFIERINSTANCE___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0xE8562D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TurnBasedModifierInstance___c__DisplayClass7_0_TypeDefinitionIndex = 55059;
+	inline static constexpr unsigned int TurnBasedModifierInstance___c__DisplayClass7_0_TypeDefinitionIndex = 54849;
 
 	class TurnBasedModifierInstance___c__DisplayClass7_0 : public ::System::Object
 	{

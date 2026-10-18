@@ -7,12 +7,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class LodDetail; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_NORMDISTANCELODTEMPLATE_METHOD_2_33CDAC60D40CD452_OFFSET UNITYSDK_OFFSET(0x1CE8F340)
-#define RPG_GAMECORE_NORMDISTANCELODTEMPLATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE8F690)
+#define RPG_GAMECORE_NORMDISTANCELODTEMPLATE_METHOD_2_33CDAC60D40CD452_OFFSET UNITYSDK_OFFSET(0x1D8ABA90)
+#define RPG_GAMECORE_NORMDISTANCELODTEMPLATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D8ABDE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int NormDistanceLodTemplate_TypeDefinitionIndex = 18980;
+	inline static constexpr unsigned int NormDistanceLodTemplate_TypeDefinitionIndex = 19207;
 
 	class NormDistanceLodTemplate : public ::RPG::GameCore::JsonConfig
 	{

@@ -4,11 +4,11 @@
 
 namespace System::Reflection { class TargetInvocationException; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_EXCEPTIONHELPERS_UNWRAPANDRETHROW_OFFSET UNITYSDK_OFFSET(0x1AFD0A40)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_EXCEPTIONHELPERS_UNWRAPANDRETHROW_OFFSET UNITYSDK_OFFSET(0x1EDAEC60)
 
 namespace System::Linq::Expressions::Interpreter
 {
-	inline static constexpr unsigned int ExceptionHelpers_TypeDefinitionIndex = 3663;
+	inline static constexpr unsigned int ExceptionHelpers_TypeDefinitionIndex = 3664;
 
 	class ExceptionHelpers : public ::System::Object
 	{

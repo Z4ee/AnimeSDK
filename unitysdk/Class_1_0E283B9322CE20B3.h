@@ -7,10 +7,10 @@
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_0E283B9322CE20B3_METHOD_1_7027832C8B8A9FCB_OFFSET UNITYSDK_OFFSET(0x15FF3260)
-#define CLASS_1_0E283B9322CE20B3_METHOD_1_A876CF1DCB808A06_OFFSET UNITYSDK_OFFSET(0x15FF3690)
+#define CLASS_1_0E283B9322CE20B3_METHOD_1_7027832C8B8A9FCB_OFFSET UNITYSDK_OFFSET(0x11FECCF0)
+#define CLASS_1_0E283B9322CE20B3_METHOD_1_A876CF1DCB808A06_OFFSET UNITYSDK_OFFSET(0x11FED120)
 
-inline static constexpr unsigned int Class_1_0E283B9322CE20B3_TypeDefinitionIndex = 66498;
+inline static constexpr unsigned int Class_1_0E283B9322CE20B3_TypeDefinitionIndex = 66466;
 
 class Class_1_0E283B9322CE20B3 : public ::System::Object
 {

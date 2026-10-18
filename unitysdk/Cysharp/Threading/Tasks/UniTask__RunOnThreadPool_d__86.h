@@ -12,25 +12,25 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define CYSHARP_THREADING_TASKS_UNITASK__RUNONTHREADPOOL_D__86_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x3BB7E60)
-#define CYSHARP_THREADING_TASKS_UNITASK__RUNONTHREADPOOL_D__86_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x10F00)
+#define CYSHARP_THREADING_TASKS_UNITASK__RUNONTHREADPOOL_D__86_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x3C5F640)
+#define CYSHARP_THREADING_TASKS_UNITASK__RUNONTHREADPOOL_D__86_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x10B0)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UniTask__RunOnThreadPool_d__86_TypeDefinitionIndex = 42769;
+	inline static constexpr unsigned int UniTask__RunOnThreadPool_d__86_TypeDefinitionIndex = 38354;
 
 	struct alignas(8) UniTask__RunOnThreadPool_d__86
 	{
-		::System::Func_2<::System::Object*, ::Cysharp::Threading::Tasks::UniTask>* action; // 0x10
-		::System::Threading::CancellationToken cancellationToken; // 0x18
-		::System::Object* state; // 0x20
-		::System::Object* __7__wrap1; // 0x28
-		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__2; // 0x30
-		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder __t__builder; // 0x40
-		::Cysharp::Threading::Tasks::SwitchToThreadPoolAwaitable_Awaiter __u__1; // 0x50
-		::System::Boolean configureAwait; // 0x51
+		::System::Object* state; // 0x10
+		::System::Func_2<::System::Object*, ::Cysharp::Threading::Tasks::UniTask>* action; // 0x18
+		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__2; // 0x20
+		::System::Object* __7__wrap1; // 0x30
+		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder __t__builder; // 0x38
+		::System::Threading::CancellationToken cancellationToken; // 0x48
+		::System::Int32 __1__state; // 0x50
 		::Cysharp::Threading::Tasks::YieldAwaitable_Awaiter __u__3; // 0x54
-		::System::Int32 __1__state; // 0x58
+		::System::Boolean configureAwait; // 0x58
+		::Cysharp::Threading::Tasks::SwitchToThreadPoolAwaitable_Awaiter __u__1; // 0x59
 		::System::Int32 __7__wrap2; // 0x5C
 
 		::System::Void MoveNext()

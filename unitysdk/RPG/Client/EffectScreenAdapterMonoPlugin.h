@@ -6,11 +6,11 @@
 namespace RPG::Client { class EffectScreenAdapterBehavior; }
 namespace RPG::Client { class TransformScreenAdapter; }
 
-#define RPG_CLIENT_EFFECTSCREENADAPTERMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x15E49050)
+#define RPG_CLIENT_EFFECTSCREENADAPTERMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xCD0F890)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EffectScreenAdapterMonoPlugin_TypeDefinitionIndex = 70384;
+	inline static constexpr unsigned int EffectScreenAdapterMonoPlugin_TypeDefinitionIndex = 70420;
 
 	class EffectScreenAdapterMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::EffectScreenAdapterBehavior*>
 	{

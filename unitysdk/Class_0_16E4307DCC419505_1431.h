@@ -1,11 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/TextID.h"
 
-class Class_1_A4088D9A55CD220E;
-namespace RPG::Client::B51Racing { class B51RacingPauseDialogViewModel; }
-
-inline static constexpr unsigned int Class_0_16E4307DCC419505_1431_TypeDefinitionIndex = 80604;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_1431_TypeDefinitionIndex = 77589;
 
 class Class_0_16E4307DCC419505_1431
 {

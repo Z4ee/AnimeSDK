@@ -6,12 +6,12 @@ namespace System { class Action; }
 namespace UnityEngine { class Animation; }
 namespace UnityEngine { class RectTransform; }
 
-#define RPG_CLIENT_EXPEDITIONBATTLEFLYCONTROL_PLAY_OFFSET UNITYSDK_OFFSET(0x1B88EA90)
-#define RPG_CLIENT_EXPEDITIONBATTLEFLYCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x1B88EDF0)
+#define RPG_CLIENT_EXPEDITIONBATTLEFLYCONTROL_PLAY_OFFSET UNITYSDK_OFFSET(0xCE416D0)
+#define RPG_CLIENT_EXPEDITIONBATTLEFLYCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0xCE41A30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ExpeditionBattleFlyControl_TypeDefinitionIndex = 64022;
+	inline static constexpr unsigned int ExpeditionBattleFlyControl_TypeDefinitionIndex = 63960;
 
 	class ExpeditionBattleFlyControl : public ::UnityEngine::MonoBehaviour
 	{

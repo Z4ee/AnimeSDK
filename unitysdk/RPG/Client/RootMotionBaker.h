@@ -9,11 +9,11 @@ namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Animator; }
 
-#define RPG_CLIENT_ROOTMOTIONBAKER__CTOR_OFFSET UNITYSDK_OFFSET(0x16A1CEA0)
+#define RPG_CLIENT_ROOTMOTIONBAKER__CTOR_OFFSET UNITYSDK_OFFSET(0xE063060)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RootMotionBaker_TypeDefinitionIndex = 68783;
+	inline static constexpr unsigned int RootMotionBaker_TypeDefinitionIndex = 68817;
 
 	class RootMotionBaker : public ::UnityEngine::MonoBehaviour
 	{

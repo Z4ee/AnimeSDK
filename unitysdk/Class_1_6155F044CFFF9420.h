@@ -4,24 +4,24 @@
 #include "unitysdk/RPG/Client/WorkNodeState.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_A48F3719AA1CF200_14;
+class Class_2_A48F3719AA1CF200_18;
 namespace System { class String; }
 namespace System { template <typename T> class Func_1; }
 
-#define CLASS_1_6155F044CFFF9420__CCTOR_OFFSET UNITYSDK_OFFSET(0x19CAC910)
+#define CLASS_1_6155F044CFFF9420__CCTOR_OFFSET UNITYSDK_OFFSET(0xBA9D410)
 
-inline static constexpr unsigned int Class_1_6155F044CFFF9420_TypeDefinitionIndex = 61145;
+inline static constexpr unsigned int Class_1_6155F044CFFF9420_TypeDefinitionIndex = 61050;
 
 class Class_1_6155F044CFFF9420 : public ::System::Object
 {
 public:
-	static ::Il2CppArray<::RPG::Client::WorkNodeState>** StaticGet_ICKAAJIMECL()
-	{
-		return (::Il2CppArray<::RPG::Client::WorkNodeState>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6155F044CFFF9420_TypeDefinitionIndex)->GetStaticField(0x62D00);
-	}
 	static ::Il2CppArray<::RPG::Client::WorkNodeState>** StaticGet_HDELBPBOCEP()
 	{
-		return (::Il2CppArray<::RPG::Client::WorkNodeState>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6155F044CFFF9420_TypeDefinitionIndex)->GetStaticField(0x62D08);
+		return (::Il2CppArray<::RPG::Client::WorkNodeState>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6155F044CFFF9420_TypeDefinitionIndex)->GetStaticField(0x1C680);
+	}
+	static ::Il2CppArray<::RPG::Client::WorkNodeState>** StaticGet_ICKAAJIMECL()
+	{
+		return (::Il2CppArray<::RPG::Client::WorkNodeState>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6155F044CFFF9420_TypeDefinitionIndex)->GetStaticField(0x1C688);
 	}
 
 	static ::System::Void _cctor()

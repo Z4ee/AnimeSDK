@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define CRIWARE_CRIATOMEXBEATSYNC_INFO_GET_LABEL_OFFSET UNITYSDK_OFFSET(0x3BB1980)
+#define CRIWARE_CRIATOMEXBEATSYNC_INFO_GET_LABEL_OFFSET UNITYSDK_OFFSET(0x2E8D4C0)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExBeatSync_Info_TypeDefinitionIndex = 38704;
+	inline static constexpr unsigned int CriAtomExBeatSync_Info_TypeDefinitionIndex = 40001;
 
 	struct alignas(8) CriAtomExBeatSync_Info
 	{

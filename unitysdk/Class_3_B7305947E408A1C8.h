@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByCheckTimeRewindEntityPauseBySkillCount; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_B7305947E408A1C8_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15996B40)
-#define CLASS_3_B7305947E408A1C8__CTOR_OFFSET UNITYSDK_OFFSET(0x15996B10)
+#define CLASS_3_B7305947E408A1C8_EVALUATE_OFFSET UNITYSDK_OFFSET(0x165BFB60)
+#define CLASS_3_B7305947E408A1C8__CTOR_OFFSET UNITYSDK_OFFSET(0x165BFB30)
 
-inline static constexpr unsigned int Class_3_B7305947E408A1C8_TypeDefinitionIndex = 53622;
+inline static constexpr unsigned int Class_3_B7305947E408A1C8_TypeDefinitionIndex = 53365;
 
 class Class_3_B7305947E408A1C8 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByCheckTimeRewindEntityPauseBySkillCount*>
 {

@@ -5,19 +5,19 @@
 namespace RPG::Client { class BaseLobby; }
 namespace RPG::Client::Promises { class Promise; }
 
-#define RPG_CLIENT_BASELOBBY___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19F14D70)
-#define RPG_CLIENT_BASELOBBY___C__DISPLAYCLASS9_0__KICKOUTPROMISE_B__0_OFFSET UNITYSDK_OFFSET(0x19F190C0)
-#define RPG_CLIENT_BASELOBBY___C__DISPLAYCLASS9_0__KICKOUTPROMISE_B__1_OFFSET UNITYSDK_OFFSET(0x19F190F0)
+#define RPG_CLIENT_BASELOBBY___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC7E4B80)
+#define RPG_CLIENT_BASELOBBY___C__DISPLAYCLASS9_0__KICKOUTPROMISE_B__0_OFFSET UNITYSDK_OFFSET(0xC7E8ED0)
+#define RPG_CLIENT_BASELOBBY___C__DISPLAYCLASS9_0__KICKOUTPROMISE_B__1_OFFSET UNITYSDK_OFFSET(0xC7E8F00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BaseLobby___c__DisplayClass9_0_TypeDefinitionIndex = 65835;
+	inline static constexpr unsigned int BaseLobby___c__DisplayClass9_0_TypeDefinitionIndex = 65773;
 
 	class BaseLobby___c__DisplayClass9_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::BaseLobby* __4__this; // 0x10
-		::RPG::Client::Promises::Promise* kickOutPromise; // 0x18
+		::RPG::Client::Promises::Promise* kickOutPromise; // 0x10
+		::RPG::Client::BaseLobby* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

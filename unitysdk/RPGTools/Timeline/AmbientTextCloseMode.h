@@ -3,7 +3,7 @@
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int AmbientTextCloseMode_TypeDefinitionIndex = 48302;
+	inline static constexpr unsigned int AmbientTextCloseMode_TypeDefinitionIndex = 47843;
 
 	enum class AmbientTextCloseMode : ::System::Int32
 	{

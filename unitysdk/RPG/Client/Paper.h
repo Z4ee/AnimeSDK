@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_PAPER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4D8CD0)
+#define RPG_CLIENT_PAPER__CTOR_OFFSET UNITYSDK_OFFSET(0xDA68B40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Paper_TypeDefinitionIndex = 71026;
+	inline static constexpr unsigned int Paper_TypeDefinitionIndex = 71058;
 
 	class Paper : public ::System::Object
 	{

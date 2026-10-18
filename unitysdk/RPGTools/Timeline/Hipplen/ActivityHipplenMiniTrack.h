@@ -7,12 +7,12 @@
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_HIPPLEN_ACTIVITYHIPPLENMINITRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1B593240)
-#define RPGTOOLS_TIMELINE_HIPPLEN_ACTIVITYHIPPLENMINITRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1B593370)
+#define RPGTOOLS_TIMELINE_HIPPLEN_ACTIVITYHIPPLENMINITRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8F84C0)
+#define RPGTOOLS_TIMELINE_HIPPLEN_ACTIVITYHIPPLENMINITRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xE8F85F0)
 
 namespace RPGTools::Timeline::Hipplen
 {
-	inline static constexpr unsigned int ActivityHipplenMiniTrack_TypeDefinitionIndex = 49101;
+	inline static constexpr unsigned int ActivityHipplenMiniTrack_TypeDefinitionIndex = 48647;
 
 	class ActivityHipplenMiniTrack : public ::RPGTools::Timeline::CustomUniqueNameTrack
 	{

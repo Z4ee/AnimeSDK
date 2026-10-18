@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CmdLineRPGQualitySettingsBoolWrapper_TypeDefinitionIndex = 34545;
+	inline static constexpr unsigned int CmdLineRPGQualitySettingsBoolWrapper_TypeDefinitionIndex = 35209;
 
 	enum class CmdLineRPGQualitySettingsBoolWrapper : ::System::Int32
 	{

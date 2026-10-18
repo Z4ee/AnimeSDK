@@ -4,7 +4,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int WorkNode_1_TypeDefinitionIndex = 61157;
+	inline static constexpr unsigned int WorkNode_1_TypeDefinitionIndex = 61062;
 
 	template <typename TParam>
 	class WorkNode_1 : public ::Class_1_E9521D589CA4AB8B

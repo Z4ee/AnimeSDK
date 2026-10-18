@@ -3,7 +3,7 @@
 #include "unitysdk/RPG/Client/LittleGameShare/CakeRaceCore/SparkleStatus.h"
 #include "unitysdk/System/ValueType.h"
 
-inline static constexpr unsigned int Struct_2_1B0CE17D2E8B4B92_TypeDefinitionIndex = 36613;
+inline static constexpr unsigned int Struct_2_1B0CE17D2E8B4B92_TypeDefinitionIndex = 37300;
 
 struct alignas(8) Struct_2_1B0CE17D2E8B4B92
 {

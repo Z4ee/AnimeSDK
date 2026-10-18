@@ -5,18 +5,18 @@
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_PC_OS_HOYOCHANNEL___C__DISPLAYCLASS40_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A26C650)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNEL___C__DISPLAYCLASS40_0__SENDSESSIONINVITE_B__0_OFFSET UNITYSDK_OFFSET(0x1A272CB0)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNEL___C__DISPLAYCLASS40_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BEEFBF0)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNEL___C__DISPLAYCLASS40_0__SENDSESSIONINVITE_B__0_OFFSET UNITYSDK_OFFSET(0x1BEF6410)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int HoYoChannel___c__DisplayClass40_0_TypeDefinitionIndex = 8473;
+	inline static constexpr unsigned int HoYoChannel___c__DisplayClass40_0_TypeDefinitionIndex = 8516;
 
 	class HoYoChannel___c__DisplayClass40_0 : public ::System::Object
 	{
 	public:
-		::System::Action_1<::System::String*>* callback; // 0x10
-		::System::String* jsonString; // 0x18
+		::System::String* jsonString; // 0x10
+		::System::Action_1<::System::String*>* callback; // 0x18
 
 		::System::Void _ctor()
 		{

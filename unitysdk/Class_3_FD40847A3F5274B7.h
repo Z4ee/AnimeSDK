@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class BattleSeekOnBGM; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_FD40847A3F5274B7_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1675EC30)
-#define CLASS_3_FD40847A3F5274B7__CTOR_OFFSET UNITYSDK_OFFSET(0x1675EC00)
+#define CLASS_3_FD40847A3F5274B7_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15AB1620)
+#define CLASS_3_FD40847A3F5274B7__CTOR_OFFSET UNITYSDK_OFFSET(0x15AB15F0)
 
-inline static constexpr unsigned int Class_3_FD40847A3F5274B7_TypeDefinitionIndex = 58109;
+inline static constexpr unsigned int Class_3_FD40847A3F5274B7_TypeDefinitionIndex = 57957;
 
 class Class_3_FD40847A3F5274B7 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::BattleSeekOnBGM*>
 {

@@ -8,18 +8,18 @@ namespace RPG::GameCore { class AnchorInfo; }
 namespace RPG::GameCore { class GameEntity; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_2_CB38D1CC30518745_CLASS_1_AEB398135389F96A__CTOR_OFFSET UNITYSDK_OFFSET(0x17EAF220)
+#define CLASS_2_CB38D1CC30518745_CLASS_1_AEB398135389F96A__CTOR_OFFSET UNITYSDK_OFFSET(0xB12E590)
 
-inline static constexpr unsigned int Class_2_CB38D1CC30518745_Class_1_AEB398135389F96A_TypeDefinitionIndex = 58593;
+inline static constexpr unsigned int Class_2_CB38D1CC30518745_Class_1_AEB398135389F96A_TypeDefinitionIndex = 58444;
 
 class Class_2_CB38D1CC30518745_Class_1_AEB398135389F96A : public ::System::Object
 {
 public:
-	::RPG::Client::Prop::RogueDLCRayModule* BBBFOLNCOBO; // 0x10
-	::UnityEngine::Transform* NIJNPFOOJLC; // 0x18
-	::RPG::GameCore::AnchorInfo* OEOOFDAGECM; // 0x20
-	::RPG::Client::MonoEffect* CPKPOBMFMJI; // 0x28
-	::RPG::GameCore::GameEntity* GMLKHIBJJLC; // 0x30
+	::RPG::GameCore::GameEntity* GMLKHIBJJLC; // 0x10
+	::RPG::Client::MonoEffect* CPKPOBMFMJI; // 0x18
+	::UnityEngine::Transform* NIJNPFOOJLC; // 0x20
+	::RPG::GameCore::AnchorInfo* OEOOFDAGECM; // 0x28
+	::RPG::Client::Prop::RogueDLCRayModule* BBBFOLNCOBO; // 0x30
 
 	::System::Void _ctor()
 	{

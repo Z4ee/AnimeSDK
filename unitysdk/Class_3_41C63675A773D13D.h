@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AdvAddExtraBattleMonster; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_41C63675A773D13D_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17EBDB40)
-#define CLASS_3_41C63675A773D13D__CTOR_OFFSET UNITYSDK_OFFSET(0x17EBDB10)
+#define CLASS_3_41C63675A773D13D_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB13D510)
+#define CLASS_3_41C63675A773D13D__CTOR_OFFSET UNITYSDK_OFFSET(0xB13D4E0)
 
-inline static constexpr unsigned int Class_3_41C63675A773D13D_TypeDefinitionIndex = 52608;
+inline static constexpr unsigned int Class_3_41C63675A773D13D_TypeDefinitionIndex = 52333;
 
 class Class_3_41C63675A773D13D : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AdvAddExtraBattleMonster*>
 {

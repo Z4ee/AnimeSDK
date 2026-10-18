@@ -4,7 +4,7 @@
 
 namespace Unity::Jobs
 {
-	inline static constexpr unsigned int IJobExtensions_JobStruct_1_TypeDefinitionIndex = 3955;
+	inline static constexpr unsigned int IJobExtensions_JobStruct_1_TypeDefinitionIndex = 3956;
 
 	template <typename T>
 	struct IJobExtensions_JobStruct_1

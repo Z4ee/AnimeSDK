@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_PUPPYSEARCHPROPDATA_METHOD_2_F18ED0756F9C8C91_OFFSET UNITYSDK_OFFSET(0x1D18B680)
-#define RPG_GAMECORE_PUPPYSEARCHPROPDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1D18B7B0)
+#define RPG_GAMECORE_PUPPYSEARCHPROPDATA_METHOD_2_F18ED0756F9C8C91_OFFSET UNITYSDK_OFFSET(0x1D930290)
+#define RPG_GAMECORE_PUPPYSEARCHPROPDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1D9303C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PuppySearchPropData_TypeDefinitionIndex = 17379;
+	inline static constexpr unsigned int PuppySearchPropData_TypeDefinitionIndex = 17590;
 
 	class PuppySearchPropData : public ::RPG::GameCore::JsonConfig
 	{

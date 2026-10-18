@@ -9,18 +9,18 @@
 
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define CYSHARP_THREADING_TASKS_UNITASKEXTENSIONS__UNWRAP_D__63_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x3BB8170)
-#define CYSHARP_THREADING_TASKS_UNITASKEXTENSIONS__UNWRAP_D__63_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x10F00)
+#define CYSHARP_THREADING_TASKS_UNITASKEXTENSIONS__UNWRAP_D__63_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x3C5F950)
+#define CYSHARP_THREADING_TASKS_UNITASKEXTENSIONS__UNWRAP_D__63_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x10B0)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UniTaskExtensions__Unwrap_d__63_TypeDefinitionIndex = 42844;
+	inline static constexpr unsigned int UniTaskExtensions__Unwrap_d__63_TypeDefinitionIndex = 38429;
 
 	struct alignas(8) UniTaskExtensions__Unwrap_d__63
 	{
-		::Cysharp::Threading::Tasks::UniTask_1_Awaiter<::Cysharp::Threading::Tasks::UniTask> __u__1; // 0x10
-		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder __t__builder; // 0x30
-		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__2; // 0x40
+		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__2; // 0x10
+		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder __t__builder; // 0x20
+		::Cysharp::Threading::Tasks::UniTask_1_Awaiter<::Cysharp::Threading::Tasks::UniTask> __u__1; // 0x30
 		::Cysharp::Threading::Tasks::UniTask_1<::Cysharp::Threading::Tasks::UniTask> task; // 0x50
 		::System::Int32 __1__state; // 0x70
 

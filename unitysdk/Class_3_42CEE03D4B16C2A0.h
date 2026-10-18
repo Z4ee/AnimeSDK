@@ -5,10 +5,10 @@
 namespace RPG::Client { class ByIsPlanetFesBusinessDayFinished; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_42CEE03D4B16C2A0_EVALUATE_OFFSET UNITYSDK_OFFSET(0x179C5E70)
-#define CLASS_3_42CEE03D4B16C2A0__CTOR_OFFSET UNITYSDK_OFFSET(0x179C5E40)
+#define CLASS_3_42CEE03D4B16C2A0_EVALUATE_OFFSET UNITYSDK_OFFSET(0x157650A0)
+#define CLASS_3_42CEE03D4B16C2A0__CTOR_OFFSET UNITYSDK_OFFSET(0x15765070)
 
-inline static constexpr unsigned int Class_3_42CEE03D4B16C2A0_TypeDefinitionIndex = 58134;
+inline static constexpr unsigned int Class_3_42CEE03D4B16C2A0_TypeDefinitionIndex = 57982;
 
 class Class_3_42CEE03D4B16C2A0 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::Client::ByIsPlanetFesBusinessDayFinished*>
 {

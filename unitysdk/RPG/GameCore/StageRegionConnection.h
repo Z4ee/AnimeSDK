@@ -7,12 +7,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class StageVolumeConfigV2; }
 
-#define RPG_GAMECORE_STAGEREGIONCONNECTION_METHOD_2_EA2CB7BE152764C7_OFFSET UNITYSDK_OFFSET(0x1CAEA500)
-#define RPG_GAMECORE_STAGEREGIONCONNECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1CAEA980)
+#define RPG_GAMECORE_STAGEREGIONCONNECTION_METHOD_2_F93A7FBB55BBFA12_OFFSET UNITYSDK_OFFSET(0x1DAE6130)
+#define RPG_GAMECORE_STAGEREGIONCONNECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1DAE6630)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StageRegionConnection_TypeDefinitionIndex = 18963;
+	inline static constexpr unsigned int StageRegionConnection_TypeDefinitionIndex = 19190;
 
 	class StageRegionConnection : public ::RPG::GameCore::JsonConfig
 	{
@@ -35,9 +35,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STAGEREGIONCONNECTION__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_EA2CB7BE152764C7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StageRegionConnection*& a2)
+		static ::System::Void Method_2_F93A7FBB55BBFA12(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StageRegionConnection*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StageRegionConnection*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STAGEREGIONCONNECTION_METHOD_2_EA2CB7BE152764C7_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StageRegionConnection*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STAGEREGIONCONNECTION_METHOD_2_F93A7FBB55BBFA12_OFFSET))(a1, a2);
 		}
 	};
 }

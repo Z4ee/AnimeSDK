@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_MONOMAPROTATIONVOLUMEV2__CTOR_OFFSET UNITYSDK_OFFSET(0x1ACF54F0)
+#define RPG_CLIENT_MONOMAPROTATIONVOLUMEV2__CTOR_OFFSET UNITYSDK_OFFSET(0xD841FC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoMapRotationVolumeV2_TypeDefinitionIndex = 68576;
+	inline static constexpr unsigned int MonoMapRotationVolumeV2_TypeDefinitionIndex = 68610;
 
 	class MonoMapRotationVolumeV2 : public ::UnityEngine::MonoBehaviour
 	{

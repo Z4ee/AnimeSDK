@@ -2,7 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/CommonIndexKey.h"
 #include "unitysdk/RPG/GameCore/FixEnumerator_2.h"
+#include "unitysdk/RPG/ZLinq/FromFixEnumerator_2.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/ZLinq/ValueEnumerable_2.h"
 
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ShopConfigRow; }
@@ -11,45 +13,46 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_SHOPCONFIGEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1E09E900)
-#define RPG_GAMECORE_SHOPCONFIGEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1E09E790)
-#define RPG_GAMECORE_SHOPCONFIGEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1E09E6B0)
-#define RPG_GAMECORE_SHOPCONFIGEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1E09E730)
-#define RPG_GAMECORE_SHOPCONFIGEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1E09D870)
-#define RPG_GAMECORE_SHOPCONFIGEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1E09D8B0)
-#define RPG_GAMECORE_SHOPCONFIGEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1E09DAE0)
-#define RPG_GAMECORE_SHOPCONFIGEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E09DCB0)
-#define RPG_GAMECORE_SHOPCONFIGEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1E09E390)
-#define RPG_GAMECORE_SHOPCONFIGEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E09EA50)
-#define RPG_GAMECORE_SHOPCONFIGEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1E09DC10)
-#define RPG_GAMECORE_SHOPCONFIGEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1E09DB70)
+#define RPG_GAMECORE_SHOPCONFIGEXCELTABLE_ASZLINQENUMERABLE_OFFSET UNITYSDK_OFFSET(0x1DAA5760)
+#define RPG_GAMECORE_SHOPCONFIGEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1DAA57E0)
+#define RPG_GAMECORE_SHOPCONFIGEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1DAA55F0)
+#define RPG_GAMECORE_SHOPCONFIGEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1DAA5510)
+#define RPG_GAMECORE_SHOPCONFIGEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1DAA5590)
+#define RPG_GAMECORE_SHOPCONFIGEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1DAA46D0)
+#define RPG_GAMECORE_SHOPCONFIGEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1DAA4710)
+#define RPG_GAMECORE_SHOPCONFIGEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1DAA4940)
+#define RPG_GAMECORE_SHOPCONFIGEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DAA4B10)
+#define RPG_GAMECORE_SHOPCONFIGEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1DAA51F0)
+#define RPG_GAMECORE_SHOPCONFIGEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DAA5930)
+#define RPG_GAMECORE_SHOPCONFIGEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1DAA4A70)
+#define RPG_GAMECORE_SHOPCONFIGEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1DAA49D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShopConfigExcelTable_TypeDefinitionIndex = 14942;
+	inline static constexpr unsigned int ShopConfigExcelTable_TypeDefinitionIndex = 15107;
 
 	class ShopConfigExcelTable : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ShopConfigRow*>** StaticGet_dataDict_()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ShopConfigRow*>**)Il2CppClass::FromTypeDefinitionIndex(ShopConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x1CD50);
-		}
 		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(ShopConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x1CD58);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(ShopConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x17790);
 		}
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ShopConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x1CD60);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ShopConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x17798);
 		}
-		static ::System::Byte* StaticGet_HashIndex()
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ShopConfigRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(ShopConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x9BA0);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ShopConfigRow*>**)Il2CppClass::FromTypeDefinitionIndex(ShopConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x177A0);
 		}
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ShopConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x9BA1);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ShopConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x50A0);
+		}
+		static ::System::Byte* StaticGet_HashIndex()
+		{
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(ShopConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x50A1);
 		}
 
 		static ::System::Void _cctor()
@@ -105,6 +108,11 @@ namespace RPG::GameCore
 		static ::RPG::GameCore::FixEnumerator_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ShopConfigRow*> GetEnumerator()
 		{
 			return ((::RPG::GameCore::FixEnumerator_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ShopConfigRow*>(*)())((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOPCONFIGEXCELTABLE_GETENUMERATOR_OFFSET))();
+		}
+
+		static ::ZLinq::ValueEnumerable_2<::RPG::ZLinq::FromFixEnumerator_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ShopConfigRow*>, ::RPG::GameCore::ShopConfigRow*> AsZLinqEnumerable()
+		{
+			return ((::ZLinq::ValueEnumerable_2<::RPG::ZLinq::FromFixEnumerator_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ShopConfigRow*>, ::RPG::GameCore::ShopConfigRow*>(*)())((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOPCONFIGEXCELTABLE_ASZLINQENUMERABLE_OFFSET))();
 		}
 
 		static ::RPG::GameCore::ShopConfigRow* GetData(::System::UInt32 a1)

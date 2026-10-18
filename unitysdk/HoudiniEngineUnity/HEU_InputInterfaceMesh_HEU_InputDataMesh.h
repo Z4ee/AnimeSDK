@@ -9,26 +9,26 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class Mesh; }
 namespace UnityEngine { class Transform; }
 
-#define HOUDINIENGINEUNITY_HEU_INPUTINTERFACEMESH_HEU_INPUTDATAMESH__CTOR_OFFSET UNITYSDK_OFFSET(0x11A58180)
+#define HOUDINIENGINEUNITY_HEU_INPUTINTERFACEMESH_HEU_INPUTDATAMESH__CTOR_OFFSET UNITYSDK_OFFSET(0x1B916190)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_InputInterfaceMesh_HEU_InputDataMesh_TypeDefinitionIndex = 39352;
+	inline static constexpr unsigned int HEU_InputInterfaceMesh_HEU_InputDataMesh_TypeDefinitionIndex = 40649;
 
 	class HEU_InputInterfaceMesh_HEU_InputDataMesh : public ::System::Object
 	{
 	public:
-		::System::String* _meshPath; // 0x10
-		::Il2CppArray<::UnityEngine::Material*>* _materials; // 0x18
-		::UnityEngine::Mesh* _mesh; // 0x20
-		::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputInterfaceMesh_HEU_InputDataCollider*>* _colliders; // 0x28
-		::Il2CppArray<::System::UInt32>* _indexCount; // 0x30
-		::Il2CppArray<::System::UInt32>* _indexStart; // 0x38
-		::UnityEngine::Transform* _transform; // 0x40
+		::Il2CppArray<::System::UInt32>* _indexCount; // 0x10
+		::UnityEngine::Transform* _transform; // 0x18
+		::Il2CppArray<::System::UInt32>* _indexStart; // 0x20
+		::Il2CppArray<::UnityEngine::Material*>* _materials; // 0x28
+		::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputInterfaceMesh_HEU_InputDataCollider*>* _colliders; // 0x30
+		::UnityEngine::Mesh* _mesh; // 0x38
+		::System::String* _meshPath; // 0x40
 		::System::String* _meshName; // 0x48
 		::System::Int32 _numSubMeshes; // 0x50
-		::System::Single _LODScreenTransition; // 0x54
-		::System::Int32 _numVertices; // 0x58
+		::System::Int32 _numVertices; // 0x54
+		::System::Single _LODScreenTransition; // 0x58
 
 		::System::Void _ctor()
 		{

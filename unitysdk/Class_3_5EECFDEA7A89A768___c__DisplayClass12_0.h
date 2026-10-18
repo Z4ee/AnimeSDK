@@ -7,17 +7,17 @@
 namespace RPG::Client { class MonoEffect; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 
-#define CLASS_3_5EECFDEA7A89A768___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18BBB270)
-#define CLASS_3_5EECFDEA7A89A768___C__DISPLAYCLASS12_0___PLAYDAMAGEHITEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0x18BBB4C0)
+#define CLASS_3_5EECFDEA7A89A768___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB980630)
+#define CLASS_3_5EECFDEA7A89A768___C__DISPLAYCLASS12_0___PLAYDAMAGEHITEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0xB980800)
 
-inline static constexpr unsigned int Class_3_5EECFDEA7A89A768___c__DisplayClass12_0_TypeDefinitionIndex = 54068;
+inline static constexpr unsigned int Class_3_5EECFDEA7A89A768___c__DisplayClass12_0_TypeDefinitionIndex = 53854;
 
 class Class_3_5EECFDEA7A89A768___c__DisplayClass12_0 : public ::System::Object
 {
 public:
 	::System::Action_2<::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams>* __9__0; // 0x10
-	::RPG::MVector3 vHitPos; // 0x18
-	::RPG::MVector3 vHitSourcePos; // 0x24
+	::RPG::MVector3 vHitSourcePos; // 0x18
+	::RPG::MVector3 vHitPos; // 0x24
 	::System::Single fConfigEffectHeight; // 0x30
 
 	::System::Void _ctor()

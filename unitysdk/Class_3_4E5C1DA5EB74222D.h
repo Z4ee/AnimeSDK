@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TriggerWavePerformStartString; }
 
-#define CLASS_3_4E5C1DA5EB74222D_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x19988620)
-#define CLASS_3_4E5C1DA5EB74222D__CTOR_OFFSET UNITYSDK_OFFSET(0x199885F0)
+#define CLASS_3_4E5C1DA5EB74222D_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15C4D870)
+#define CLASS_3_4E5C1DA5EB74222D__CTOR_OFFSET UNITYSDK_OFFSET(0x15C4D840)
 
-inline static constexpr unsigned int Class_3_4E5C1DA5EB74222D_TypeDefinitionIndex = 58951;
+inline static constexpr unsigned int Class_3_4E5C1DA5EB74222D_TypeDefinitionIndex = 58803;
 
 class Class_3_4E5C1DA5EB74222D : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::TriggerWavePerformStartString*>
 {

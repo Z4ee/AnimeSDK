@@ -9,29 +9,29 @@
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_SHOWB51RACINGPERFORMANCEDIALOGCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1B0C1250)
-#define RPGTOOLS_TIMELINE_SHOWB51RACINGPERFORMANCEDIALOGCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1B0C1240)
-#define RPGTOOLS_TIMELINE_SHOWB51RACINGPERFORMANCEDIALOGCLIP__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B0C14B0)
-#define RPGTOOLS_TIMELINE_SHOWB51RACINGPERFORMANCEDIALOGCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0C1440)
+#define RPGTOOLS_TIMELINE_SHOWB51RACINGPERFORMANCEDIALOGCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE92DAC0)
+#define RPGTOOLS_TIMELINE_SHOWB51RACINGPERFORMANCEDIALOGCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE92DAB0)
+#define RPGTOOLS_TIMELINE_SHOWB51RACINGPERFORMANCEDIALOGCLIP__CCTOR_OFFSET UNITYSDK_OFFSET(0xE92DD20)
+#define RPGTOOLS_TIMELINE_SHOWB51RACINGPERFORMANCEDIALOGCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xE92DCB0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int ShowB51RacingPerformanceDialogClip_TypeDefinitionIndex = 48747;
+	inline static constexpr unsigned int ShowB51RacingPerformanceDialogClip_TypeDefinitionIndex = 48287;
 
 	class ShowB51RacingPerformanceDialogClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:
 		static ::System::String** StaticGet_UI_NAME()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ShowB51RacingPerformanceDialogClip_TypeDefinitionIndex)->GetStaticField(0x3F680);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ShowB51RacingPerformanceDialogClip_TypeDefinitionIndex)->GetStaticField(0x6FC80);
 		}
 		static ::System::String** StaticGet_UI_LUA_PATH()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ShowB51RacingPerformanceDialogClip_TypeDefinitionIndex)->GetStaticField(0x3F688);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ShowB51RacingPerformanceDialogClip_TypeDefinitionIndex)->GetStaticField(0x6FC88);
 		}
 		static ::RPG::Client::NotifyType* StaticGet_CLOSE_NOTIFY_TYPE()
 		{
-			return (::RPG::Client::NotifyType*)Il2CppClass::FromTypeDefinitionIndex(ShowB51RacingPerformanceDialogClip_TypeDefinitionIndex)->GetStaticField(0xFB00);
+			return (::RPG::Client::NotifyType*)Il2CppClass::FromTypeDefinitionIndex(ShowB51RacingPerformanceDialogClip_TypeDefinitionIndex)->GetStaticField(0x15B20);
 		}
 		::System::String* UILuaPath; // 0x18
 		::System::UInt32 TeamID; // 0x20

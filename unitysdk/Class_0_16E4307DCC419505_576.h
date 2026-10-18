@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/GameCore/FateRinKeywordEventType.h"
+#include "unitysdk/Struct_2_4BFB662CA8913AC0.h"
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_576_TypeDefinitionIndex = 56188;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_576_TypeDefinitionIndex = 53785;
 
 class Class_0_16E4307DCC419505_576
 {

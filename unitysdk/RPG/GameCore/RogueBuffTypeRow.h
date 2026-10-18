@@ -6,24 +6,24 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ROGUEBUFFTYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D9147E0)
-#define RPG_GAMECORE_ROGUEBUFFTYPEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D915070)
+#define RPG_GAMECORE_ROGUEBUFFTYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D9807E0)
+#define RPG_GAMECORE_ROGUEBUFFTYPEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D981030)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueBuffTypeRow_TypeDefinitionIndex = 14568;
+	inline static constexpr unsigned int RogueBuffTypeRow_TypeDefinitionIndex = 14733;
 
 	class RogueBuffTypeRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* RugueBuffTypeRewardQuestList; // 0x10
 		::System::String* RogueBuffTypeIcon; // 0x18
-		::RPG::Client::TextID RogueBuffTypeSubTitle; // 0x20
-		::System::UInt32 RogueBuffDisplayGod; // 0x30
-		::System::UInt32 RogueBuffType; // 0x34
-		::RPG::Client::TextID RogueBuffTypeTitle; // 0x38
-		::RPG::Client::TextID HintDesc; // 0x48
-		::RPG::Client::TextID RogueBuffTypeTextmapID; // 0x58
+		::RPG::Client::TextID HintDesc; // 0x20
+		::System::UInt32 RogueBuffType; // 0x30
+		::System::UInt32 RogueBuffDisplayGod; // 0x34
+		::RPG::Client::TextID RogueBuffTypeTextmapID; // 0x38
+		::RPG::Client::TextID RogueBuffTypeSubTitle; // 0x48
+		::RPG::Client::TextID RogueBuffTypeTitle; // 0x58
 
 		::System::Void _ctor()
 		{

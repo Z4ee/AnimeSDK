@@ -5,7 +5,7 @@
 
 namespace RPG::Client::TAUtils
 {
-	inline static constexpr unsigned int MeshSelfIntersectionDebugger_Struct_2_97AE06CE5D4F548E_2_TypeDefinitionIndex = 73528;
+	inline static constexpr unsigned int MeshSelfIntersectionDebugger_Struct_2_97AE06CE5D4F548E_2_TypeDefinitionIndex = 73635;
 
 	struct alignas(4) MeshSelfIntersectionDebugger_Struct_2_97AE06CE5D4F548E_2
 	{

@@ -6,19 +6,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define CLASS_1_1583652C74B6FEEC_METHOD_1_417A218C63D0B3DA_OFFSET UNITYSDK_OFFSET(0x1D1EB200)
-#define CLASS_1_1583652C74B6FEEC__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1EB490)
+#define CLASS_1_1583652C74B6FEEC_METHOD_1_417A218C63D0B3DA_OFFSET UNITYSDK_OFFSET(0x1D25D200)
+#define CLASS_1_1583652C74B6FEEC__CTOR_OFFSET UNITYSDK_OFFSET(0x1D25D490)
 
-inline static constexpr unsigned int Class_1_1583652C74B6FEEC_TypeDefinitionIndex = 12393;
+inline static constexpr unsigned int Class_1_1583652C74B6FEEC_TypeDefinitionIndex = 12479;
 
 class Class_1_1583652C74B6FEEC : public ::System::Object
 {
 public:
 	::Il2CppArray<::System::UInt32>* PBLPLDJKPEI; // 0x10
-	::System::UInt32 PHFMCACHFIJ; // 0x18
-	::System::Boolean GNLGHALIPLD; // 0x1C
-	::RPG::GameCore::TeamTowersStatisticType GMPGDEINODK; // 0x20
-	::RPG::Client::TextID NMAHGFAPENI; // 0x28
+	::System::Boolean GNLGHALIPLD; // 0x18
+	::RPG::GameCore::TeamTowersStatisticType GMPGDEINODK; // 0x1C
+	::RPG::Client::TextID NMAHGFAPENI; // 0x20
+	::System::UInt32 PHFMCACHFIJ; // 0x30
 
 	::System::Void _ctor()
 	{

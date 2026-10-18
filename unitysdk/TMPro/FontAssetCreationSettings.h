@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define TMPRO_FONTASSETCREATIONSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x3AE87F0)
+#define TMPRO_FONTASSETCREATIONSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x3C67AE0)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int FontAssetCreationSettings_TypeDefinitionIndex = 43382;
+	inline static constexpr unsigned int FontAssetCreationSettings_TypeDefinitionIndex = 44574;
 
 	struct alignas(8) FontAssetCreationSettings
 	{

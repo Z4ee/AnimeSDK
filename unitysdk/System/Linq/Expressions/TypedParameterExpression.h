@@ -5,12 +5,12 @@
 namespace System { class String; }
 namespace System { class Type; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_TYPEDPARAMETEREXPRESSION_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1DF518D0)
-#define SYSTEM_LINQ_EXPRESSIONS_TYPEDPARAMETEREXPRESSION__CTOR_OFFSET UNITYSDK_OFFSET(0x1DF4DE80)
+#define SYSTEM_LINQ_EXPRESSIONS_TYPEDPARAMETEREXPRESSION_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1EE06E90)
+#define SYSTEM_LINQ_EXPRESSIONS_TYPEDPARAMETEREXPRESSION__CTOR_OFFSET UNITYSDK_OFFSET(0x1EE03440)
 
 namespace System::Linq::Expressions
 {
-	inline static constexpr unsigned int TypedParameterExpression_TypeDefinitionIndex = 3269;
+	inline static constexpr unsigned int TypedParameterExpression_TypeDefinitionIndex = 3270;
 
 	class TypedParameterExpression : public ::System::Linq::Expressions::ParameterExpression
 	{

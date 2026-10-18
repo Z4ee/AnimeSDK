@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int ChimeraDuelMarkerType_TypeDefinitionIndex = 40369;
+	inline static constexpr unsigned int ChimeraDuelMarkerType_TypeDefinitionIndex = 41954;
 
 	enum class ChimeraDuelMarkerType : ::System::Int32
 	{

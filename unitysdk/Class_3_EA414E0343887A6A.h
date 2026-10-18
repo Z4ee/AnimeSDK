@@ -6,10 +6,10 @@ class Class_2_469A56953483CA0D;
 namespace RPG::GameCore { class ST_ByForceExitCombat; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_EA414E0343887A6A_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1A00F700)
-#define CLASS_3_EA414E0343887A6A__CTOR_OFFSET UNITYSDK_OFFSET(0x1A00F640)
+#define CLASS_3_EA414E0343887A6A_EVALUATE_OFFSET UNITYSDK_OFFSET(0x156A3F50)
+#define CLASS_3_EA414E0343887A6A__CTOR_OFFSET UNITYSDK_OFFSET(0x156A3E90)
 
-inline static constexpr unsigned int Class_3_EA414E0343887A6A_TypeDefinitionIndex = 52477;
+inline static constexpr unsigned int Class_3_EA414E0343887A6A_TypeDefinitionIndex = 52191;
 
 class Class_3_EA414E0343887A6A : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ST_ByForceExitCombat*>
 {

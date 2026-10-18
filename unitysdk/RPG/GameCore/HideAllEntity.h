@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ClearNpcDistanceTrigger; }
 
-#define RPG_GAMECORE_HIDEALLENTITY_METHOD_3_23840EB6F6E9BBDE_OFFSET UNITYSDK_OFFSET(0x1D3DE810)
-#define RPG_GAMECORE_HIDEALLENTITY_METHOD_3_D2E654C229E29501_OFFSET UNITYSDK_OFFSET(0x1D3DE850)
-#define RPG_GAMECORE_HIDEALLENTITY__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3DE840)
+#define RPG_GAMECORE_HIDEALLENTITY_METHOD_3_23840EB6F6E9BBDE_OFFSET UNITYSDK_OFFSET(0x1D739D80)
+#define RPG_GAMECORE_HIDEALLENTITY_METHOD_3_A91F4447CF0AF3D8_OFFSET UNITYSDK_OFFSET(0x1D739DC0)
+#define RPG_GAMECORE_HIDEALLENTITY__CTOR_OFFSET UNITYSDK_OFFSET(0x1D739DB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HideAllEntity_TypeDefinitionIndex = 21422;
+	inline static constexpr unsigned int HideAllEntity_TypeDefinitionIndex = 21668;
 
 	class HideAllEntity : public ::RPG::GameCore::TaskConfig
 	{
@@ -32,9 +32,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::HideAllEntity*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HIDEALLENTITY_METHOD_3_23840EB6F6E9BBDE_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_D2E654C229E29501(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::HideAllEntity* a2)
+		static ::System::Void Method_3_A91F4447CF0AF3D8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::HideAllEntity* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::HideAllEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HIDEALLENTITY_METHOD_3_D2E654C229E29501_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::HideAllEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HIDEALLENTITY_METHOD_3_A91F4447CF0AF3D8_OFFSET))(a1, a2);
 		}
 	};
 }

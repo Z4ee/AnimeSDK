@@ -7,10 +7,10 @@ namespace RPG::GameCore { class TargetFetchRogueMagicScepterList; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_3_C042602817EF9FC9_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15FFC0B0)
-#define CLASS_3_C042602817EF9FC9__CTOR_OFFSET UNITYSDK_OFFSET(0x15FFC060)
+#define CLASS_3_C042602817EF9FC9_EVALUATE_OFFSET UNITYSDK_OFFSET(0x11FF5D90)
+#define CLASS_3_C042602817EF9FC9__CTOR_OFFSET UNITYSDK_OFFSET(0x11FF5D40)
 
-inline static constexpr unsigned int Class_3_C042602817EF9FC9_TypeDefinitionIndex = 59276;
+inline static constexpr unsigned int Class_3_C042602817EF9FC9_TypeDefinitionIndex = 59129;
 
 class Class_3_C042602817EF9FC9 : public ::RPG::GameCore::TargetEvaluatorImpl_1<::RPG::GameCore::TargetFetchRogueMagicScepterList*>
 {

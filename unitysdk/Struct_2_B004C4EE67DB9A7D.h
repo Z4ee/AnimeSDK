@@ -4,16 +4,16 @@
 
 namespace RPG::Client::FateRin::Battle { class IFateRinBattleHudHandCardViewModel; }
 
-#define STRUCT_2_B004C4EE67DB9A7D_METHOD_2_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0x3AE54C0)
-#define STRUCT_2_B004C4EE67DB9A7D__CCTOR_OFFSET UNITYSDK_OFFSET(0x18862540)
+#define STRUCT_2_B004C4EE67DB9A7D_METHOD_2_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0x11D30)
+#define STRUCT_2_B004C4EE67DB9A7D__CCTOR_OFFSET UNITYSDK_OFFSET(0xB258140)
 
-inline static constexpr unsigned int Struct_2_B004C4EE67DB9A7D_TypeDefinitionIndex = 79639;
+inline static constexpr unsigned int Struct_2_B004C4EE67DB9A7D_TypeDefinitionIndex = 80963;
 
 struct alignas(8) Struct_2_B004C4EE67DB9A7D
 {
 	static ::Struct_2_B004C4EE67DB9A7D* StaticGet_GPKBJPNFGKI()
 	{
-		return (::Struct_2_B004C4EE67DB9A7D*)Il2CppClass::FromTypeDefinitionIndex(Struct_2_B004C4EE67DB9A7D_TypeDefinitionIndex)->GetStaticField(0xC600);
+		return (::Struct_2_B004C4EE67DB9A7D*)Il2CppClass::FromTypeDefinitionIndex(Struct_2_B004C4EE67DB9A7D_TypeDefinitionIndex)->GetStaticField(0x20000);
 	}
 	::RPG::Client::FateRin::Battle::IFateRinBattleHudHandCardViewModel* NBBACHCJOCL; // 0x10
 

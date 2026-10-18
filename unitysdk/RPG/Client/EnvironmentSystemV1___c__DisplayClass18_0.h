@@ -5,12 +5,12 @@
 namespace EnviromentSystem { class EnviromentClip_OnEnvironmentClipLoadDelegate; }
 namespace RPG::Client { class EnvironmentSystemV1; }
 
-#define RPG_CLIENT_ENVIRONMENTSYSTEMV1___C__DISPLAYCLASS18_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19926BA0)
-#define RPG_CLIENT_ENVIRONMENTSYSTEMV1___C__DISPLAYCLASS18_0___REFRESHACTIVEPROFILEASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x199319F0)
+#define RPG_CLIENT_ENVIRONMENTSYSTEMV1___C__DISPLAYCLASS18_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCDFD5D0)
+#define RPG_CLIENT_ENVIRONMENTSYSTEMV1___C__DISPLAYCLASS18_0___REFRESHACTIVEPROFILEASYNC_B__0_OFFSET UNITYSDK_OFFSET(0xCE082C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EnvironmentSystemV1___c__DisplayClass18_0_TypeDefinitionIndex = 69752;
+	inline static constexpr unsigned int EnvironmentSystemV1___c__DisplayClass18_0_TypeDefinitionIndex = 69786;
 
 	class EnvironmentSystemV1___c__DisplayClass18_0 : public ::System::Object
 	{

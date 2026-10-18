@@ -4,13 +4,13 @@
 
 class AkLogger_ErrorLoggerInteropDelegate;
 
-inline static constexpr unsigned int AkLogger___O_TypeDefinitionIndex = 43656;
+inline static constexpr unsigned int AkLogger___O_TypeDefinitionIndex = 44848;
 
 class AkLogger___O : public ::System::Object
 {
 public:
 	static ::AkLogger_ErrorLoggerInteropDelegate** StaticGet__0___WwiseInternalLogError()
 	{
-		return (::AkLogger_ErrorLoggerInteropDelegate**)Il2CppClass::FromTypeDefinitionIndex(AkLogger___O_TypeDefinitionIndex)->GetStaticField(0x11240);
+		return (::AkLogger_ErrorLoggerInteropDelegate**)Il2CppClass::FromTypeDefinitionIndex(AkLogger___O_TypeDefinitionIndex)->GetStaticField(0xCA80);
 	}
 };

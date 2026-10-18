@@ -6,23 +6,23 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_BOXINGCLUBCHALLENGESEASONCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1C2E9D30)
-#define RPG_GAMECORE_BOXINGCLUBCHALLENGESEASONCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1C2EAD20)
+#define RPG_GAMECORE_BOXINGCLUBCHALLENGESEASONCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D44DD30)
+#define RPG_GAMECORE_BOXINGCLUBCHALLENGESEASONCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D44ED20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BoxingClubChallengeSeasonConfigRow_TypeDefinitionIndex = 12806;
+	inline static constexpr unsigned int BoxingClubChallengeSeasonConfigRow_TypeDefinitionIndex = 12912;
 
 	class BoxingClubChallengeSeasonConfigRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* ActivityQuestID; // 0x10
-		::System::String* SeasonIconPath; // 0x18
-		::System::String* ActivityTitle; // 0x20
+		::Il2CppArray<::System::UInt32>* ChallengeIDList; // 0x10
+		::System::String* ActivityTitle; // 0x18
+		::System::String* SeasonIconPath; // 0x20
 		::System::String* SeasonTabPath; // 0x28
-		::Il2CppArray<::System::UInt32>* ChallengeIDList; // 0x30
-		::System::UInt32 SeasonID; // 0x38
-		::RPG::GameCore::BoxingClubActivityType SeasonType; // 0x3C
+		::Il2CppArray<::System::UInt32>* ActivityQuestID; // 0x30
+		::RPG::GameCore::BoxingClubActivityType SeasonType; // 0x38
+		::System::UInt32 SeasonID; // 0x3C
 
 		::System::Void _ctor()
 		{

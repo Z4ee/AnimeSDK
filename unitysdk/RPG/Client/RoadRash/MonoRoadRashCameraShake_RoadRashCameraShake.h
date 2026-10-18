@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace RPG::Client::RoadRash
 {
-	inline static constexpr unsigned int MonoRoadRashCameraShake_RoadRashCameraShake_TypeDefinitionIndex = 75428;
+	inline static constexpr unsigned int MonoRoadRashCameraShake_RoadRashCameraShake_TypeDefinitionIndex = 75843;
 
 	struct alignas(8) MonoRoadRashCameraShake_RoadRashCameraShake
 	{

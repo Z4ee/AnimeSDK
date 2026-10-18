@@ -7,12 +7,12 @@ namespace RPG::GameCore { class SerialBellsNoteConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_SERIALBELLSCONFIG_METHOD_2_2761D8737C514F54_OFFSET UNITYSDK_OFFSET(0x1DB4B6B0)
-#define RPG_GAMECORE_SERIALBELLSCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB4B880)
+#define RPG_GAMECORE_SERIALBELLSCONFIG_METHOD_2_2761D8737C514F54_OFFSET UNITYSDK_OFFSET(0x1DA5F330)
+#define RPG_GAMECORE_SERIALBELLSCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1DA5F500)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SerialBellsConfig_TypeDefinitionIndex = 16208;
+	inline static constexpr unsigned int SerialBellsConfig_TypeDefinitionIndex = 16381;
 
 	class SerialBellsConfig : public ::RPG::GameCore::JsonConfig
 	{

@@ -8,11 +8,11 @@ namespace RPG::Client::FateRin::Battle { class IFateRinBattleHudHandCardDisplayV
 namespace RPG::Client::FateRin::Battle { class IFateRinBattleHudHandCardViewModel; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-#define RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEHUDCARDAREAVIEWMODEL_CARDPRESENTATIONTRANSITION__CTOR_OFFSET UNITYSDK_OFFSET(0x1CA30DB0)
+#define RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEHUDCARDAREAVIEWMODEL_CARDPRESENTATIONTRANSITION__CTOR_OFFSET UNITYSDK_OFFSET(0xCEB5CF0)
 
 namespace RPG::Client::FateRin::Battle
 {
-	inline static constexpr unsigned int FateRinBattleHudCardAreaViewModel_CardPresentationTransition_TypeDefinitionIndex = 79563;
+	inline static constexpr unsigned int FateRinBattleHudCardAreaViewModel_CardPresentationTransition_TypeDefinitionIndex = 80887;
 
 	class FateRinBattleHudCardAreaViewModel_CardPresentationTransition : public ::System::Object
 	{

@@ -11,45 +11,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_SCORINGGROUPEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1DB48610)
-#define RPG_GAMECORE_SCORINGGROUPEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1DB484A0)
-#define RPG_GAMECORE_SCORINGGROUPEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1DB48190)
-#define RPG_GAMECORE_SCORINGGROUPEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1DB48440)
-#define RPG_GAMECORE_SCORINGGROUPEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1DB48760)
-#define RPG_GAMECORE_SCORINGGROUPEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1DB48210)
-#define RPG_GAMECORE_SCORINGGROUPEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1DB487A0)
-#define RPG_GAMECORE_SCORINGGROUPEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DB48970)
-#define RPG_GAMECORE_SCORINGGROUPEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1DB48BC0)
-#define RPG_GAMECORE_SCORINGGROUPEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DB48EE0)
-#define RPG_GAMECORE_SCORINGGROUPEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1DB488D0)
-#define RPG_GAMECORE_SCORINGGROUPEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1DB48830)
+#define RPG_GAMECORE_SCORINGGROUPEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1DA5C290)
+#define RPG_GAMECORE_SCORINGGROUPEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1DA5C120)
+#define RPG_GAMECORE_SCORINGGROUPEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1DA5BE10)
+#define RPG_GAMECORE_SCORINGGROUPEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1DA5C0C0)
+#define RPG_GAMECORE_SCORINGGROUPEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1DA5C3E0)
+#define RPG_GAMECORE_SCORINGGROUPEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1DA5BE90)
+#define RPG_GAMECORE_SCORINGGROUPEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1DA5C420)
+#define RPG_GAMECORE_SCORINGGROUPEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DA5C5F0)
+#define RPG_GAMECORE_SCORINGGROUPEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1DA5C840)
+#define RPG_GAMECORE_SCORINGGROUPEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DA5CB60)
+#define RPG_GAMECORE_SCORINGGROUPEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1DA5C550)
+#define RPG_GAMECORE_SCORINGGROUPEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1DA5C4B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ScoringGroupExcelTable_TypeDefinitionIndex = 12790;
+	inline static constexpr unsigned int ScoringGroupExcelTable_TypeDefinitionIndex = 12885;
 
 	class ScoringGroupExcelTable : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
-		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(ScoringGroupExcelTable_TypeDefinitionIndex)->GetStaticField(0x16C40);
-		}
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ScoringGroupRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ScoringGroupRow*>**)Il2CppClass::FromTypeDefinitionIndex(ScoringGroupExcelTable_TypeDefinitionIndex)->GetStaticField(0x16C48);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ScoringGroupRow*>**)Il2CppClass::FromTypeDefinitionIndex(ScoringGroupExcelTable_TypeDefinitionIndex)->GetStaticField(0x136D0);
 		}
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ScoringGroupExcelTable_TypeDefinitionIndex)->GetStaticField(0x16C50);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ScoringGroupExcelTable_TypeDefinitionIndex)->GetStaticField(0x136D8);
 		}
-		static ::System::Byte* StaticGet_HashIndex()
+		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(ScoringGroupExcelTable_TypeDefinitionIndex)->GetStaticField(0x8910);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(ScoringGroupExcelTable_TypeDefinitionIndex)->GetStaticField(0x136E0);
 		}
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ScoringGroupExcelTable_TypeDefinitionIndex)->GetStaticField(0x8911);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ScoringGroupExcelTable_TypeDefinitionIndex)->GetStaticField(0x3FB0);
+		}
+		static ::System::Byte* StaticGet_HashIndex()
+		{
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(ScoringGroupExcelTable_TypeDefinitionIndex)->GetStaticField(0x3FB1);
 		}
 
 		static ::System::Void _cctor()

@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_BATTLELINEUPEQUIPMENTCONFIG_METHOD_2_7D3B139F2D449D3D_OFFSET UNITYSDK_OFFSET(0x1B2FE120)
-#define RPG_GAMECORE_BATTLELINEUPEQUIPMENTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B2FE290)
+#define RPG_GAMECORE_BATTLELINEUPEQUIPMENTCONFIG_METHOD_2_FD949D9BD0CC2034_OFFSET UNITYSDK_OFFSET(0x1D432770)
+#define RPG_GAMECORE_BATTLELINEUPEQUIPMENTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D4328B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleLineupEquipmentConfig_TypeDefinitionIndex = 17910;
+	inline static constexpr unsigned int BattleLineupEquipmentConfig_TypeDefinitionIndex = 18122;
 
 	class BattleLineupEquipmentConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLELINEUPEQUIPMENTCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_7D3B139F2D449D3D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BattleLineupEquipmentConfig*& a2)
+		static ::System::Void Method_2_FD949D9BD0CC2034(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BattleLineupEquipmentConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BattleLineupEquipmentConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLELINEUPEQUIPMENTCONFIG_METHOD_2_7D3B139F2D449D3D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BattleLineupEquipmentConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLELINEUPEQUIPMENTCONFIG_METHOD_2_FD949D9BD0CC2034_OFFSET))(a1, a2);
 		}
 	};
 }

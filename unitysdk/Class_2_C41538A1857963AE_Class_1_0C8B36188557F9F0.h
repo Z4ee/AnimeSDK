@@ -6,16 +6,16 @@
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define CLASS_2_C41538A1857963AE_CLASS_1_0C8B36188557F9F0__CTOR_OFFSET UNITYSDK_OFFSET(0x1728FAB0)
+#define CLASS_2_C41538A1857963AE_CLASS_1_0C8B36188557F9F0__CTOR_OFFSET UNITYSDK_OFFSET(0x15999790)
 
-inline static constexpr unsigned int Class_2_C41538A1857963AE_Class_1_0C8B36188557F9F0_TypeDefinitionIndex = 48383;
+inline static constexpr unsigned int Class_2_C41538A1857963AE_Class_1_0C8B36188557F9F0_TypeDefinitionIndex = 47923;
 
 class Class_2_C41538A1857963AE_Class_1_0C8B36188557F9F0 : public ::System::Object
 {
 public:
-	::UnityEngine::GameObject* OLPPHJJNMEA; // 0x10
+	::System::String* IEMJLAKHBJJ; // 0x10
 	::System::String* EALNBEBALJM; // 0x18
-	::System::String* IEMJLAKHBJJ; // 0x20
+	::UnityEngine::GameObject* OLPPHJJNMEA; // 0x20
 	::UnityEngine::Vector3 AANHLKFFGFE; // 0x28
 
 	::System::Void _ctor()

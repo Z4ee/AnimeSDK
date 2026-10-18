@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/TextID.h"
 
-namespace System { class String; }
+class Class_1_D3CC73B16B410533;
+namespace UnityEngine { class Collider; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_246_TypeDefinitionIndex = 41011;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_246_TypeDefinitionIndex = 43648;
 
 class Class_0_16E4307DCC419505_246
 {

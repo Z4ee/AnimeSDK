@@ -9,7 +9,7 @@ namespace System { class String; }
 namespace System { class Type; }
 namespace System::Xml { class IXmlNamespaceResolver; }
 
-#define SYSTEM_XML_SCHEMA_XMLVALUECONVERTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B066100)
+#define SYSTEM_XML_SCHEMA_XMLVALUECONVERTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EEA6D90)
 
 namespace System::Xml::Schema
 {

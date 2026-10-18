@@ -10,22 +10,22 @@ namespace System { template <typename T1, typename T2, typename T3> class Func_3
 
 namespace RPG::Client::Challenge::Tierce
 {
-	inline static constexpr unsigned int ChallengeTierceTargetsViewModel___O_TypeDefinitionIndex = 80254;
+	inline static constexpr unsigned int ChallengeTierceTargetsViewModel___O_TypeDefinitionIndex = 81582;
 
 	class ChallengeTierceTargetsViewModel___O : public ::System::Object
 	{
 	public:
-		static ::System::Func_3<::Class_1_5EBDCA5E10FB9D5A*, ::RPG::Client::BaseChallengeTargetData*, ::RPG::Client::ChallengeTargetState>** StaticGet__2____DetermineStateForEngagementSettle()
+		static ::System::Func_3<::Class_1_5EBDCA5E10FB9D5A*, ::RPG::Client::BaseChallengeTargetData*, ::RPG::Client::ChallengeTargetState>** StaticGet__1____DetermineStateForEngagementMazeOrBattle()
 		{
-			return (::System::Func_3<::Class_1_5EBDCA5E10FB9D5A*, ::RPG::Client::BaseChallengeTargetData*, ::RPG::Client::ChallengeTargetState>**)Il2CppClass::FromTypeDefinitionIndex(ChallengeTierceTargetsViewModel___O_TypeDefinitionIndex)->GetStaticField(0x1E810);
+			return (::System::Func_3<::Class_1_5EBDCA5E10FB9D5A*, ::RPG::Client::BaseChallengeTargetData*, ::RPG::Client::ChallengeTargetState>**)Il2CppClass::FromTypeDefinitionIndex(ChallengeTierceTargetsViewModel___O_TypeDefinitionIndex)->GetStaticField(0x6A980);
 		}
 		static ::System::Func_3<::Class_1_06E38C65842C3B24*, ::RPG::Client::BaseChallengeTargetData*, ::RPG::Client::ChallengeTargetState>** StaticGet__0____DetermineStateForOutOfEngagement()
 		{
-			return (::System::Func_3<::Class_1_06E38C65842C3B24*, ::RPG::Client::BaseChallengeTargetData*, ::RPG::Client::ChallengeTargetState>**)Il2CppClass::FromTypeDefinitionIndex(ChallengeTierceTargetsViewModel___O_TypeDefinitionIndex)->GetStaticField(0x1E818);
+			return (::System::Func_3<::Class_1_06E38C65842C3B24*, ::RPG::Client::BaseChallengeTargetData*, ::RPG::Client::ChallengeTargetState>**)Il2CppClass::FromTypeDefinitionIndex(ChallengeTierceTargetsViewModel___O_TypeDefinitionIndex)->GetStaticField(0x6A988);
 		}
-		static ::System::Func_3<::Class_1_5EBDCA5E10FB9D5A*, ::RPG::Client::BaseChallengeTargetData*, ::RPG::Client::ChallengeTargetState>** StaticGet__1____DetermineStateForEngagementMazeOrBattle()
+		static ::System::Func_3<::Class_1_5EBDCA5E10FB9D5A*, ::RPG::Client::BaseChallengeTargetData*, ::RPG::Client::ChallengeTargetState>** StaticGet__2____DetermineStateForEngagementSettle()
 		{
-			return (::System::Func_3<::Class_1_5EBDCA5E10FB9D5A*, ::RPG::Client::BaseChallengeTargetData*, ::RPG::Client::ChallengeTargetState>**)Il2CppClass::FromTypeDefinitionIndex(ChallengeTierceTargetsViewModel___O_TypeDefinitionIndex)->GetStaticField(0x1E820);
+			return (::System::Func_3<::Class_1_5EBDCA5E10FB9D5A*, ::RPG::Client::BaseChallengeTargetData*, ::RPG::Client::ChallengeTargetState>**)Il2CppClass::FromTypeDefinitionIndex(ChallengeTierceTargetsViewModel___O_TypeDefinitionIndex)->GetStaticField(0x6A990);
 		}
 	};
 }

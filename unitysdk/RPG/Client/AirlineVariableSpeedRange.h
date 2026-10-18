@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_AIRLINEVARIABLESPEEDRANGE__CTOR_OFFSET UNITYSDK_OFFSET(0x19C4EC30)
+#define RPG_CLIENT_AIRLINEVARIABLESPEEDRANGE__CTOR_OFFSET UNITYSDK_OFFSET(0xC63A270)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AirlineVariableSpeedRange_TypeDefinitionIndex = 59907;
+	inline static constexpr unsigned int AirlineVariableSpeedRange_TypeDefinitionIndex = 59770;
 
 	class AirlineVariableSpeedRange : public ::System::Object
 	{

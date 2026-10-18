@@ -7,34 +7,34 @@ namespace MiHoYo::SDK::PC::OS { class HoYoChannelRecentPlayersResult; }
 namespace MiHoYo::SDK::PC::OS { class HoYoChannelStatisticsResult; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_PC_OS_HOYOCHANNEL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A26FC20)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNEL___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A26FC60)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNEL___C__UPDATEACHIEVEMENT_B__29_0_OFFSET UNITYSDK_OFFSET(0x1A26FC70)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNEL___C__UPDATERECENTPLAYERS_B__48_0_OFFSET UNITYSDK_OFFSET(0x1A26FC90)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNEL___C__UPDATESTATISTICS_B__31_0_OFFSET UNITYSDK_OFFSET(0x1A26FC80)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNEL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BEF3380)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNEL___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1BEF33C0)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNEL___C__UPDATEACHIEVEMENT_B__29_0_OFFSET UNITYSDK_OFFSET(0x1BEF33D0)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNEL___C__UPDATERECENTPLAYERS_B__48_0_OFFSET UNITYSDK_OFFSET(0x1BEF33F0)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNEL___C__UPDATESTATISTICS_B__31_0_OFFSET UNITYSDK_OFFSET(0x1BEF33E0)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int HoYoChannel___c_TypeDefinitionIndex = 8464;
+	inline static constexpr unsigned int HoYoChannel___c_TypeDefinitionIndex = 8507;
 
 	class HoYoChannel___c : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelStatisticsResult*>** StaticGet___9__31_0()
-		{
-			return (::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelStatisticsResult*>**)Il2CppClass::FromTypeDefinitionIndex(HoYoChannel___c_TypeDefinitionIndex)->GetStaticField(0x1BF70);
-		}
 		static ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelRecentPlayersResult*>** StaticGet___9__48_0()
 		{
-			return (::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelRecentPlayersResult*>**)Il2CppClass::FromTypeDefinitionIndex(HoYoChannel___c_TypeDefinitionIndex)->GetStaticField(0x1BF78);
+			return (::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelRecentPlayersResult*>**)Il2CppClass::FromTypeDefinitionIndex(HoYoChannel___c_TypeDefinitionIndex)->GetStaticField(0x190E0);
 		}
 		static ::MiHoYo::SDK::PC::OS::HoYoChannel___c** StaticGet___9()
 		{
-			return (::MiHoYo::SDK::PC::OS::HoYoChannel___c**)Il2CppClass::FromTypeDefinitionIndex(HoYoChannel___c_TypeDefinitionIndex)->GetStaticField(0x1BF80);
+			return (::MiHoYo::SDK::PC::OS::HoYoChannel___c**)Il2CppClass::FromTypeDefinitionIndex(HoYoChannel___c_TypeDefinitionIndex)->GetStaticField(0x190E8);
 		}
 		static ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelAchievementsResult*>** StaticGet___9__29_0()
 		{
-			return (::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelAchievementsResult*>**)Il2CppClass::FromTypeDefinitionIndex(HoYoChannel___c_TypeDefinitionIndex)->GetStaticField(0x1BF88);
+			return (::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelAchievementsResult*>**)Il2CppClass::FromTypeDefinitionIndex(HoYoChannel___c_TypeDefinitionIndex)->GetStaticField(0x190F0);
+		}
+		static ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelStatisticsResult*>** StaticGet___9__31_0()
+		{
+			return (::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelStatisticsResult*>**)Il2CppClass::FromTypeDefinitionIndex(HoYoChannel___c_TypeDefinitionIndex)->GetStaticField(0x190F8);
 		}
 
 		static ::System::Void _cctor()

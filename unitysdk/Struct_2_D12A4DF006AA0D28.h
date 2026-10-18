@@ -5,9 +5,9 @@
 namespace System { class String; }
 namespace UnityEngine { class Gradient; }
 
-#define STRUCT_2_D12A4DF006AA0D28_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3AE8310)
+#define STRUCT_2_D12A4DF006AA0D28_TOSTRING_OFFSET UNITYSDK_OFFSET(0x2E782D0)
 
-inline static constexpr unsigned int Struct_2_D12A4DF006AA0D28_TypeDefinitionIndex = 49701;
+inline static constexpr unsigned int Struct_2_D12A4DF006AA0D28_TypeDefinitionIndex = 49275;
 
 struct alignas(8) Struct_2_D12A4DF006AA0D28
 {

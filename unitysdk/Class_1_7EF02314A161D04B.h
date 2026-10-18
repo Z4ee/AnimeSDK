@@ -1,0 +1,63 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_0879774509EC1AA6;
+class Class_1_0A511EC341C76F1D;
+class Class_1_33136053BC9FF00F;
+class Class_1_7237858DE9116C90;
+namespace RPG::AvatarSystem { class IAvatar; }
+namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+
+#define CLASS_1_7EF02314A161D04B_METHOD_1_169C9AE8F88E4F64_OFFSET UNITYSDK_OFFSET(0xC3609A0)
+#define CLASS_1_7EF02314A161D04B_METHOD_1_889E15060A54A5A2_OFFSET UNITYSDK_OFFSET(0xC360BB0)
+#define CLASS_1_7EF02314A161D04B_METHOD_1_89D1F247B9D324EE_OFFSET UNITYSDK_OFFSET(0xC360C40)
+#define CLASS_1_7EF02314A161D04B_METHOD_1_AE820609FCF1C095_OFFSET UNITYSDK_OFFSET(0xC360A60)
+#define CLASS_1_7EF02314A161D04B_METHOD_1_B93C158B36A41475_OFFSET UNITYSDK_OFFSET(0xC360B30)
+#define CLASS_1_7EF02314A161D04B_METHOD_1_F90BFA6E58E54190_OFFSET UNITYSDK_OFFSET(0xC360820)
+#define CLASS_1_7EF02314A161D04B__CTOR_OFFSET UNITYSDK_OFFSET(0xC360730)
+
+inline static constexpr unsigned int Class_1_7EF02314A161D04B_TypeDefinitionIndex = 62692;
+
+class Class_1_7EF02314A161D04B : public ::System::Object
+{
+public:
+	::Class_1_0A511EC341C76F1D* MEGLBLIJGCF; // 0x10
+	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::AvatarSystem::IAvatar*>* KMDPIALJFHP; // 0x18
+	::Class_1_0879774509EC1AA6* CEFLLELKFOP; // 0x20
+
+	::System::Void _ctor(::Class_1_0879774509EC1AA6* a1, ::Class_1_0A511EC341C76F1D* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_0879774509EC1AA6*, ::Class_1_0A511EC341C76F1D*))((::PBYTE)hIl2Cpp + CLASS_1_7EF02314A161D04B__CTOR_OFFSET))(this, a1, a2);
+	}
+
+	::RPG::AvatarSystem::IAvatar* Method_1_F90BFA6E58E54190(::System::UInt32 a1)
+	{
+		return ((::RPG::AvatarSystem::IAvatar*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_7EF02314A161D04B_METHOD_1_F90BFA6E58E54190_OFFSET))(this, a1);
+	}
+
+	::RPG::AvatarSystem::IAvatar* Method_1_AE820609FCF1C095(::System::UInt32 a1)
+	{
+		return ((::RPG::AvatarSystem::IAvatar*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_7EF02314A161D04B_METHOD_1_AE820609FCF1C095_OFFSET))(this, a1);
+	}
+
+	::RPG::AvatarSystem::IAvatar* Method_1_B93C158B36A41475(::Class_1_33136053BC9FF00F* a1)
+	{
+		return ((::RPG::AvatarSystem::IAvatar*(*)(::PVOID, ::Class_1_33136053BC9FF00F*))((::PBYTE)hIl2Cpp + CLASS_1_7EF02314A161D04B_METHOD_1_B93C158B36A41475_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_889E15060A54A5A2(::System::UInt32 a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_7EF02314A161D04B_METHOD_1_889E15060A54A5A2_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_89D1F247B9D324EE()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_7EF02314A161D04B_METHOD_1_89D1F247B9D324EE_OFFSET))(this);
+	}
+
+	static ::Class_1_7237858DE9116C90* Method_1_169C9AE8F88E4F64(::Class_1_33136053BC9FF00F* a1)
+	{
+		return ((::Class_1_7237858DE9116C90*(*)(::Class_1_33136053BC9FF00F*))((::PBYTE)hIl2Cpp + CLASS_1_7EF02314A161D04B_METHOD_1_169C9AE8F88E4F64_OFFSET))(a1);
+	}
+};

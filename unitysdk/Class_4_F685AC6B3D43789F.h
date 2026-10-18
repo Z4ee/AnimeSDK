@@ -5,9 +5,9 @@
 namespace RPG::GameCore { class SetDynamicValueByProperty; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_4_F685AC6B3D43789F__CTOR_OFFSET UNITYSDK_OFFSET(0x1A7E9CD0)
+#define CLASS_4_F685AC6B3D43789F__CTOR_OFFSET UNITYSDK_OFFSET(0xBA2D1B0)
 
-inline static constexpr unsigned int Class_4_F685AC6B3D43789F_TypeDefinitionIndex = 55652;
+inline static constexpr unsigned int Class_4_F685AC6B3D43789F_TypeDefinitionIndex = 55460;
 
 class Class_4_F685AC6B3D43789F : public ::Class_3_306CBF67F25314F9
 {

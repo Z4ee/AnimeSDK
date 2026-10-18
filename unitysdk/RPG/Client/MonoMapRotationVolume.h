@@ -5,11 +5,11 @@
 namespace UnityEngine { class Collider; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_MONOMAPROTATIONVOLUME__CTOR_OFFSET UNITYSDK_OFFSET(0x1ACF54E0)
+#define RPG_CLIENT_MONOMAPROTATIONVOLUME__CTOR_OFFSET UNITYSDK_OFFSET(0xD841FB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoMapRotationVolume_TypeDefinitionIndex = 68575;
+	inline static constexpr unsigned int MonoMapRotationVolume_TypeDefinitionIndex = 68609;
 
 	class MonoMapRotationVolume : public ::UnityEngine::MonoBehaviour
 	{

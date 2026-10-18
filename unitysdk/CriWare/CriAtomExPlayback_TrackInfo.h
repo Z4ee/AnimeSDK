@@ -5,7 +5,7 @@
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExPlayback_TrackInfo_TypeDefinitionIndex = 38758;
+	inline static constexpr unsigned int CriAtomExPlayback_TrackInfo_TypeDefinitionIndex = 40055;
 
 	struct alignas(8) CriAtomExPlayback_TrackInfo
 	{

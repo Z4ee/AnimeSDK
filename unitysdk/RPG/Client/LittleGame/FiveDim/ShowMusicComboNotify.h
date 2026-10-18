@@ -5,11 +5,11 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_SHOWMUSICCOMBONOTIFY__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1BA670)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_SHOWMUSICCOMBONOTIFY__CTOR_OFFSET UNITYSDK_OFFSET(0xD453900)
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int ShowMusicComboNotify_TypeDefinitionIndex = 76418;
+	inline static constexpr unsigned int ShowMusicComboNotify_TypeDefinitionIndex = 76895;
 
 	class ShowMusicComboNotify : public ::System::Object
 	{

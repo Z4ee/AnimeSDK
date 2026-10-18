@@ -1,0 +1,54 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_6241E1C44338E6DB;
+class Class_1_CC3D59C36CF212FC;
+class Class_1_D3359DF62696519E_Class_1_B05D53BC59F9523D;
+namespace RPG::Client::MechCraft::ViewModel { class MechCraftCraftProgressAttrRadarViewModel_Factory; }
+
+#define CLASS_1_CC3D59C36CF212FC_CLASS_1_9D4751117BD02F5F_GET_RADARFACTORY_OFFSET UNITYSDK_OFFSET(0xDFD9850)
+#define CLASS_1_CC3D59C36CF212FC_CLASS_1_9D4751117BD02F5F_GET_TARGETFACTORY_OFFSET UNITYSDK_OFFSET(0xDFD9830)
+#define CLASS_1_CC3D59C36CF212FC_CLASS_1_9D4751117BD02F5F_METHOD_1_BE83AC88877F7054_OFFSET UNITYSDK_OFFSET(0xDFD9870)
+#define CLASS_1_CC3D59C36CF212FC_CLASS_1_9D4751117BD02F5F_SET_RADARFACTORY_OFFSET UNITYSDK_OFFSET(0xDFD9860)
+#define CLASS_1_CC3D59C36CF212FC_CLASS_1_9D4751117BD02F5F_SET_TARGETFACTORY_OFFSET UNITYSDK_OFFSET(0xDFD9840)
+#define CLASS_1_CC3D59C36CF212FC_CLASS_1_9D4751117BD02F5F__CTOR_OFFSET UNITYSDK_OFFSET(0xDFD9950)
+
+inline static constexpr unsigned int Class_1_CC3D59C36CF212FC_Class_1_9D4751117BD02F5F_TypeDefinitionIndex = 79553;
+
+class Class_1_CC3D59C36CF212FC_Class_1_9D4751117BD02F5F : public ::System::Object
+{
+public:
+	::RPG::Client::MechCraft::ViewModel::MechCraftCraftProgressAttrRadarViewModel_Factory* _RadarFactory_k__BackingField; // 0x10
+	::Class_1_D3359DF62696519E_Class_1_B05D53BC59F9523D* _TargetFactory_k__BackingField; // 0x18
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_CC3D59C36CF212FC_CLASS_1_9D4751117BD02F5F__CTOR_OFFSET))(this);
+	}
+
+	::Class_1_D3359DF62696519E_Class_1_B05D53BC59F9523D* get_TargetFactory()
+	{
+		return ((::Class_1_D3359DF62696519E_Class_1_B05D53BC59F9523D*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_CC3D59C36CF212FC_CLASS_1_9D4751117BD02F5F_GET_TARGETFACTORY_OFFSET))(this);
+	}
+
+	::System::Void set_TargetFactory(::Class_1_D3359DF62696519E_Class_1_B05D53BC59F9523D* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_D3359DF62696519E_Class_1_B05D53BC59F9523D*))((::PBYTE)hIl2Cpp + CLASS_1_CC3D59C36CF212FC_CLASS_1_9D4751117BD02F5F_SET_TARGETFACTORY_OFFSET))(this, a1);
+	}
+
+	::RPG::Client::MechCraft::ViewModel::MechCraftCraftProgressAttrRadarViewModel_Factory* get_RadarFactory()
+	{
+		return ((::RPG::Client::MechCraft::ViewModel::MechCraftCraftProgressAttrRadarViewModel_Factory*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_CC3D59C36CF212FC_CLASS_1_9D4751117BD02F5F_GET_RADARFACTORY_OFFSET))(this);
+	}
+
+	::System::Void set_RadarFactory(::RPG::Client::MechCraft::ViewModel::MechCraftCraftProgressAttrRadarViewModel_Factory* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::MechCraft::ViewModel::MechCraftCraftProgressAttrRadarViewModel_Factory*))((::PBYTE)hIl2Cpp + CLASS_1_CC3D59C36CF212FC_CLASS_1_9D4751117BD02F5F_SET_RADARFACTORY_OFFSET))(this, a1);
+	}
+
+	::Class_1_CC3D59C36CF212FC* Method_1_BE83AC88877F7054(::Class_1_6241E1C44338E6DB* a1)
+	{
+		return ((::Class_1_CC3D59C36CF212FC*(*)(::PVOID, ::Class_1_6241E1C44338E6DB*))((::PBYTE)hIl2Cpp + CLASS_1_CC3D59C36CF212FC_CLASS_1_9D4751117BD02F5F_METHOD_1_BE83AC88877F7054_OFFSET))(this, a1);
+	}
+};

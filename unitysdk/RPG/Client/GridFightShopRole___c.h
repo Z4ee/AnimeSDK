@@ -5,29 +5,29 @@
 namespace RPG::Client { class GridFightTraitConfig; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_GRIDFIGHTSHOPROLE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C5B3E60)
-#define RPG_CLIENT_GRIDFIGHTSHOPROLE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1C5B3EA0)
-#define RPG_CLIENT_GRIDFIGHTSHOPROLE___C__GET_ISTRAITTRACKED_B__20_0_OFFSET UNITYSDK_OFFSET(0x1C5B3EB0)
-#define RPG_CLIENT_GRIDFIGHTSHOPROLE___C__GET_TRAITS_B__42_0_OFFSET UNITYSDK_OFFSET(0x1C5B3F80)
+#define RPG_CLIENT_GRIDFIGHTSHOPROLE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD2777F0)
+#define RPG_CLIENT_GRIDFIGHTSHOPROLE___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD277830)
+#define RPG_CLIENT_GRIDFIGHTSHOPROLE___C__GET_ISTRAITTRACKED_B__20_0_OFFSET UNITYSDK_OFFSET(0xD277840)
+#define RPG_CLIENT_GRIDFIGHTSHOPROLE___C__GET_TRAITS_B__42_0_OFFSET UNITYSDK_OFFSET(0xD277910)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightShopRole___c_TypeDefinitionIndex = 65299;
+	inline static constexpr unsigned int GridFightShopRole___c_TypeDefinitionIndex = 65239;
 
 	class GridFightShopRole___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::System::UInt32, ::System::Boolean>** StaticGet___9__20_0()
 		{
-			return (::System::Func_2<::System::UInt32, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(GridFightShopRole___c_TypeDefinitionIndex)->GetStaticField(0x446F0);
+			return (::System::Func_2<::System::UInt32, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(GridFightShopRole___c_TypeDefinitionIndex)->GetStaticField(0x6EC70);
 		}
 		static ::RPG::Client::GridFightShopRole___c** StaticGet___9()
 		{
-			return (::RPG::Client::GridFightShopRole___c**)Il2CppClass::FromTypeDefinitionIndex(GridFightShopRole___c_TypeDefinitionIndex)->GetStaticField(0x446F8);
+			return (::RPG::Client::GridFightShopRole___c**)Il2CppClass::FromTypeDefinitionIndex(GridFightShopRole___c_TypeDefinitionIndex)->GetStaticField(0x6EC78);
 		}
 		static ::System::Func_2<::System::UInt32, ::RPG::Client::GridFightTraitConfig*>** StaticGet___9__42_0()
 		{
-			return (::System::Func_2<::System::UInt32, ::RPG::Client::GridFightTraitConfig*>**)Il2CppClass::FromTypeDefinitionIndex(GridFightShopRole___c_TypeDefinitionIndex)->GetStaticField(0x44700);
+			return (::System::Func_2<::System::UInt32, ::RPG::Client::GridFightTraitConfig*>**)Il2CppClass::FromTypeDefinitionIndex(GridFightShopRole___c_TypeDefinitionIndex)->GetStaticField(0x6EC80);
 		}
 
 		static ::System::Void _cctor()

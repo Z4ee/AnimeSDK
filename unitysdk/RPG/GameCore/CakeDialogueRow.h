@@ -5,19 +5,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_CAKEDIALOGUEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CDD1FD0)
-#define RPG_GAMECORE_CAKEDIALOGUEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CDD2190)
+#define RPG_GAMECORE_CAKEDIALOGUEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D518F00)
+#define RPG_GAMECORE_CAKEDIALOGUEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5190C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CakeDialogueRow_TypeDefinitionIndex = 12826;
+	inline static constexpr unsigned int CakeDialogueRow_TypeDefinitionIndex = 12932;
 
 	class CakeDialogueRow : public ::System::Object
 	{
 	public:
 		::RPG::Client::TextID RuanMadeCakeDialogue; // 0x10
-		::System::UInt32 CatID; // 0x20
-		::System::UInt32 ID; // 0x24
+		::System::UInt32 ID; // 0x20
+		::System::UInt32 CatID; // 0x24
 
 		::System::Void _ctor()
 		{

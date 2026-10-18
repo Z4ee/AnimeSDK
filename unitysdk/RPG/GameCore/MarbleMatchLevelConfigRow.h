@@ -6,21 +6,21 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MARBLEMATCHLEVELCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D4AC400)
-#define RPG_GAMECORE_MARBLEMATCHLEVELCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D4AC640)
+#define RPG_GAMECORE_MARBLEMATCHLEVELCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D813D80)
+#define RPG_GAMECORE_MARBLEMATCHLEVELCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D813FC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MarbleMatchLevelConfigRow_TypeDefinitionIndex = 11840;
+	inline static constexpr unsigned int MarbleMatchLevelConfigRow_TypeDefinitionIndex = 11863;
 
 	class MarbleMatchLevelConfigRow : public ::System::Object
 	{
 	public:
 		::System::String* JsonConfigPath; // 0x10
 		::System::UInt32 TotalScore; // 0x18
-		::RPG::Client::TextID LevelDesc; // 0x20
-		::System::UInt32 TutorialGroupID; // 0x30
-		::System::UInt32 ID; // 0x34
+		::System::UInt32 TutorialGroupID; // 0x1C
+		::System::UInt32 ID; // 0x20
+		::RPG::Client::TextID LevelDesc; // 0x28
 
 		::System::Void _ctor()
 		{

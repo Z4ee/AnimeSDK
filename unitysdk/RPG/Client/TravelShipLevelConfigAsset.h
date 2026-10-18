@@ -4,12 +4,12 @@
 
 class Class_1_C84A84118567060F;
 
-#define RPG_CLIENT_TRAVELSHIPLEVELCONFIGASSET_METHOD_4_7E9AC3FFDA4606D5_OFFSET UNITYSDK_OFFSET(0x1B2B7B50)
-#define RPG_CLIENT_TRAVELSHIPLEVELCONFIGASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x1B2B7BE0)
+#define RPG_CLIENT_TRAVELSHIPLEVELCONFIGASSET_METHOD_4_7E9AC3FFDA4606D5_OFFSET UNITYSDK_OFFSET(0xE30C090)
+#define RPG_CLIENT_TRAVELSHIPLEVELCONFIGASSET__CTOR_OFFSET UNITYSDK_OFFSET(0xE30C120)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TravelShipLevelConfigAsset_TypeDefinitionIndex = 68766;
+	inline static constexpr unsigned int TravelShipLevelConfigAsset_TypeDefinitionIndex = 68800;
 
 	class TravelShipLevelConfigAsset : public ::RPGTools::Octree::Generation::OctreeAsset
 	{

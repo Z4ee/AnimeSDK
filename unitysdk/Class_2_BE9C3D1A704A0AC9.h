@@ -12,80 +12,80 @@ class Class_3_912CC478F2B21832;
 namespace RPG::Client { class RPGProfilerMarker; }
 namespace RPG::Client { class RPGProfilerMarkerWithIntData; }
 
-#define CLASS_2_BE9C3D1A704A0AC9_CLEAR_OFFSET UNITYSDK_OFFSET(0x18CFC9B0)
-#define CLASS_2_BE9C3D1A704A0AC9_GET_CURRENTSTATE_OFFSET UNITYSDK_OFFSET(0x18CFCC60)
-#define CLASS_2_BE9C3D1A704A0AC9_GET_OWNERSYSTEM_OFFSET UNITYSDK_OFFSET(0x18CFDB40)
-#define CLASS_2_BE9C3D1A704A0AC9_GET_PREVSTATE_OFFSET UNITYSDK_OFFSET(0x18CFDB90)
-#define CLASS_2_BE9C3D1A704A0AC9_METHOD_2_0E8145F30BCFEF73_OFFSET UNITYSDK_OFFSET(0x18CFC7B0)
-#define CLASS_2_BE9C3D1A704A0AC9_METHOD_2_358A144584A5DBFC_OFFSET UNITYSDK_OFFSET(0x18CFCCC0)
-#define CLASS_2_BE9C3D1A704A0AC9_METHOD_2_57E9EA809B95083F_OFFSET UNITYSDK_OFFSET(0x18CFD580)
-#define CLASS_2_BE9C3D1A704A0AC9_METHOD_2_64B6514CFF8F8D76_OFFSET UNITYSDK_OFFSET(0x18CFDB60)
-#define CLASS_2_BE9C3D1A704A0AC9_METHOD_2_755870B55A8B3AFF_OFFSET UNITYSDK_OFFSET(0x18CFD9B0)
-#define CLASS_2_BE9C3D1A704A0AC9_METHOD_2_C145705A054F47D2_OFFSET UNITYSDK_OFFSET(0x18CFD630)
-#define CLASS_2_BE9C3D1A704A0AC9_METHOD_2_CB74603E77CF9AD9_OFFSET UNITYSDK_OFFSET(0x18CFCD30)
-#define CLASS_2_BE9C3D1A704A0AC9_METHOD_2_EC12CBA750BC5897_OFFSET UNITYSDK_OFFSET(0x18CFCA10)
-#define CLASS_2_BE9C3D1A704A0AC9_METHOD_2_F6D71BB9DFA2BE91_OFFSET UNITYSDK_OFFSET(0x18CFD740)
-#define CLASS_2_BE9C3D1A704A0AC9_SET_CURRENTSTATE_OFFSET UNITYSDK_OFFSET(0x18CFC8F0)
-#define CLASS_2_BE9C3D1A704A0AC9_SET_OWNERSYSTEM_OFFSET UNITYSDK_OFFSET(0x18CFDB50)
-#define CLASS_2_BE9C3D1A704A0AC9_SET_PREVSTATE_OFFSET UNITYSDK_OFFSET(0x18CFC950)
-#define CLASS_2_BE9C3D1A704A0AC9__CCTOR_OFFSET UNITYSDK_OFFSET(0x18CFDC70)
-#define CLASS_2_BE9C3D1A704A0AC9__CTOR_OFFSET UNITYSDK_OFFSET(0x18CFDBF0)
+#define CLASS_2_BE9C3D1A704A0AC9_CLEAR_OFFSET UNITYSDK_OFFSET(0xE4E3DE0)
+#define CLASS_2_BE9C3D1A704A0AC9_GET_CURRENTSTATE_OFFSET UNITYSDK_OFFSET(0xE4E4090)
+#define CLASS_2_BE9C3D1A704A0AC9_GET_OWNERSYSTEM_OFFSET UNITYSDK_OFFSET(0xE4E4F60)
+#define CLASS_2_BE9C3D1A704A0AC9_GET_PREVSTATE_OFFSET UNITYSDK_OFFSET(0xE4E4FB0)
+#define CLASS_2_BE9C3D1A704A0AC9_METHOD_2_0E8145F30BCFEF73_OFFSET UNITYSDK_OFFSET(0xE4E3BE0)
+#define CLASS_2_BE9C3D1A704A0AC9_METHOD_2_358A144584A5DBFC_OFFSET UNITYSDK_OFFSET(0xE4E40F0)
+#define CLASS_2_BE9C3D1A704A0AC9_METHOD_2_57E9EA809B95083F_OFFSET UNITYSDK_OFFSET(0xE4E49A0)
+#define CLASS_2_BE9C3D1A704A0AC9_METHOD_2_64B6514CFF8F8D76_OFFSET UNITYSDK_OFFSET(0xE4E4F80)
+#define CLASS_2_BE9C3D1A704A0AC9_METHOD_2_755870B55A8B3AFF_OFFSET UNITYSDK_OFFSET(0xE4E4DD0)
+#define CLASS_2_BE9C3D1A704A0AC9_METHOD_2_C145705A054F47D2_OFFSET UNITYSDK_OFFSET(0xE4E4A50)
+#define CLASS_2_BE9C3D1A704A0AC9_METHOD_2_CB74603E77CF9AD9_OFFSET UNITYSDK_OFFSET(0xE4E4160)
+#define CLASS_2_BE9C3D1A704A0AC9_METHOD_2_EC12CBA750BC5897_OFFSET UNITYSDK_OFFSET(0xE4E3E40)
+#define CLASS_2_BE9C3D1A704A0AC9_METHOD_2_F6D71BB9DFA2BE91_OFFSET UNITYSDK_OFFSET(0xE4E4B60)
+#define CLASS_2_BE9C3D1A704A0AC9_SET_CURRENTSTATE_OFFSET UNITYSDK_OFFSET(0xE4E3D20)
+#define CLASS_2_BE9C3D1A704A0AC9_SET_OWNERSYSTEM_OFFSET UNITYSDK_OFFSET(0xE4E4F70)
+#define CLASS_2_BE9C3D1A704A0AC9_SET_PREVSTATE_OFFSET UNITYSDK_OFFSET(0xE4E3D80)
+#define CLASS_2_BE9C3D1A704A0AC9__CCTOR_OFFSET UNITYSDK_OFFSET(0xE4E5090)
+#define CLASS_2_BE9C3D1A704A0AC9__CTOR_OFFSET UNITYSDK_OFFSET(0xE4E5010)
 
-inline static constexpr unsigned int Class_2_BE9C3D1A704A0AC9_TypeDefinitionIndex = 76306;
+inline static constexpr unsigned int Class_2_BE9C3D1A704A0AC9_TypeDefinitionIndex = 76783;
 
 class Class_2_BE9C3D1A704A0AC9 : public ::Class_1_BAF6F107F0961F34
 {
 public:
-	static ::RPG::Client::RPGProfilerMarker** StaticGet_GEINNMNCAJO()
+	static ::RPG::Client::RPGProfilerMarker** StaticGet_LDBPLFDPPBC()
 	{
-		return (::RPG::Client::RPGProfilerMarker**)Il2CppClass::FromTypeDefinitionIndex(Class_2_BE9C3D1A704A0AC9_TypeDefinitionIndex)->GetStaticField(0x67300);
-	}
-	static ::RPG::Client::RPGProfilerMarkerWithIntData** StaticGet_BHANKJBINMJ()
-	{
-		return (::RPG::Client::RPGProfilerMarkerWithIntData**)Il2CppClass::FromTypeDefinitionIndex(Class_2_BE9C3D1A704A0AC9_TypeDefinitionIndex)->GetStaticField(0x67308);
-	}
-	static ::RPG::Client::RPGProfilerMarker** StaticGet_NJLGFOLCOBE()
-	{
-		return (::RPG::Client::RPGProfilerMarker**)Il2CppClass::FromTypeDefinitionIndex(Class_2_BE9C3D1A704A0AC9_TypeDefinitionIndex)->GetStaticField(0x67310);
-	}
-	static ::RPG::Client::RPGProfilerMarker** StaticGet_DNJIDIGLAFN()
-	{
-		return (::RPG::Client::RPGProfilerMarker**)Il2CppClass::FromTypeDefinitionIndex(Class_2_BE9C3D1A704A0AC9_TypeDefinitionIndex)->GetStaticField(0x67318);
-	}
-	static ::RPG::Client::RPGProfilerMarker** StaticGet_EEAJFDAIBBN()
-	{
-		return (::RPG::Client::RPGProfilerMarker**)Il2CppClass::FromTypeDefinitionIndex(Class_2_BE9C3D1A704A0AC9_TypeDefinitionIndex)->GetStaticField(0x67320);
+		return (::RPG::Client::RPGProfilerMarker**)Il2CppClass::FromTypeDefinitionIndex(Class_2_BE9C3D1A704A0AC9_TypeDefinitionIndex)->GetStaticField(0x5D860);
 	}
 	static ::RPG::Client::RPGProfilerMarker** StaticGet_BAEDMJDKMOA()
 	{
-		return (::RPG::Client::RPGProfilerMarker**)Il2CppClass::FromTypeDefinitionIndex(Class_2_BE9C3D1A704A0AC9_TypeDefinitionIndex)->GetStaticField(0x67328);
+		return (::RPG::Client::RPGProfilerMarker**)Il2CppClass::FromTypeDefinitionIndex(Class_2_BE9C3D1A704A0AC9_TypeDefinitionIndex)->GetStaticField(0x5D868);
 	}
-	static ::RPG::Client::RPGProfilerMarker** StaticGet_MOFPCGMIJHK()
+	static ::RPG::Client::RPGProfilerMarkerWithIntData** StaticGet_BHANKJBINMJ()
 	{
-		return (::RPG::Client::RPGProfilerMarker**)Il2CppClass::FromTypeDefinitionIndex(Class_2_BE9C3D1A704A0AC9_TypeDefinitionIndex)->GetStaticField(0x67330);
+		return (::RPG::Client::RPGProfilerMarkerWithIntData**)Il2CppClass::FromTypeDefinitionIndex(Class_2_BE9C3D1A704A0AC9_TypeDefinitionIndex)->GetStaticField(0x5D870);
+	}
+	static ::RPG::Client::RPGProfilerMarker** StaticGet_DNJIDIGLAFN()
+	{
+		return (::RPG::Client::RPGProfilerMarker**)Il2CppClass::FromTypeDefinitionIndex(Class_2_BE9C3D1A704A0AC9_TypeDefinitionIndex)->GetStaticField(0x5D878);
 	}
 	static ::RPG::Client::RPGProfilerMarker** StaticGet_GNPEKAIBIHJ()
 	{
-		return (::RPG::Client::RPGProfilerMarker**)Il2CppClass::FromTypeDefinitionIndex(Class_2_BE9C3D1A704A0AC9_TypeDefinitionIndex)->GetStaticField(0x67338);
+		return (::RPG::Client::RPGProfilerMarker**)Il2CppClass::FromTypeDefinitionIndex(Class_2_BE9C3D1A704A0AC9_TypeDefinitionIndex)->GetStaticField(0x5D880);
+	}
+	static ::RPG::Client::RPGProfilerMarker** StaticGet_NJLGFOLCOBE()
+	{
+		return (::RPG::Client::RPGProfilerMarker**)Il2CppClass::FromTypeDefinitionIndex(Class_2_BE9C3D1A704A0AC9_TypeDefinitionIndex)->GetStaticField(0x5D888);
+	}
+	static ::RPG::Client::RPGProfilerMarker** StaticGet_MOFPCGMIJHK()
+	{
+		return (::RPG::Client::RPGProfilerMarker**)Il2CppClass::FromTypeDefinitionIndex(Class_2_BE9C3D1A704A0AC9_TypeDefinitionIndex)->GetStaticField(0x5D890);
+	}
+	static ::RPG::Client::RPGProfilerMarker** StaticGet_GEINNMNCAJO()
+	{
+		return (::RPG::Client::RPGProfilerMarker**)Il2CppClass::FromTypeDefinitionIndex(Class_2_BE9C3D1A704A0AC9_TypeDefinitionIndex)->GetStaticField(0x5D898);
 	}
 	static ::RPG::Client::RPGProfilerMarker** StaticGet_JGKEEJCCBCO()
 	{
-		return (::RPG::Client::RPGProfilerMarker**)Il2CppClass::FromTypeDefinitionIndex(Class_2_BE9C3D1A704A0AC9_TypeDefinitionIndex)->GetStaticField(0x67340);
-	}
-	static ::RPG::Client::RPGProfilerMarkerWithIntData** StaticGet_NKGJLELHIOP()
-	{
-		return (::RPG::Client::RPGProfilerMarkerWithIntData**)Il2CppClass::FromTypeDefinitionIndex(Class_2_BE9C3D1A704A0AC9_TypeDefinitionIndex)->GetStaticField(0x67348);
+		return (::RPG::Client::RPGProfilerMarker**)Il2CppClass::FromTypeDefinitionIndex(Class_2_BE9C3D1A704A0AC9_TypeDefinitionIndex)->GetStaticField(0x5D8A0);
 	}
 	static ::RPG::Client::RPGProfilerMarker** StaticGet_LAAGPIPAJIP()
 	{
-		return (::RPG::Client::RPGProfilerMarker**)Il2CppClass::FromTypeDefinitionIndex(Class_2_BE9C3D1A704A0AC9_TypeDefinitionIndex)->GetStaticField(0x67350);
+		return (::RPG::Client::RPGProfilerMarker**)Il2CppClass::FromTypeDefinitionIndex(Class_2_BE9C3D1A704A0AC9_TypeDefinitionIndex)->GetStaticField(0x5D8A8);
 	}
-	static ::RPG::Client::RPGProfilerMarker** StaticGet_LDBPLFDPPBC()
+	static ::RPG::Client::RPGProfilerMarker** StaticGet_EEAJFDAIBBN()
 	{
-		return (::RPG::Client::RPGProfilerMarker**)Il2CppClass::FromTypeDefinitionIndex(Class_2_BE9C3D1A704A0AC9_TypeDefinitionIndex)->GetStaticField(0x67358);
+		return (::RPG::Client::RPGProfilerMarker**)Il2CppClass::FromTypeDefinitionIndex(Class_2_BE9C3D1A704A0AC9_TypeDefinitionIndex)->GetStaticField(0x5D8B0);
 	}
-	::Class_1_4B60FC7D14C678F6* _OwnerSystem_k__BackingField; // 0x40
-	::Class_1_2CDF619C23140440* FKINCGODJEP; // 0x48
+	static ::RPG::Client::RPGProfilerMarkerWithIntData** StaticGet_NKGJLELHIOP()
+	{
+		return (::RPG::Client::RPGProfilerMarkerWithIntData**)Il2CppClass::FromTypeDefinitionIndex(Class_2_BE9C3D1A704A0AC9_TypeDefinitionIndex)->GetStaticField(0x5D8B8);
+	}
+	::Class_1_2CDF619C23140440* FKINCGODJEP; // 0x40
+	::Class_1_4B60FC7D14C678F6* _OwnerSystem_k__BackingField; // 0x48
 	::Class_3_912CC478F2B21832* PDENFEFCAGN; // 0x50
 
 	::System::Void _ctor()

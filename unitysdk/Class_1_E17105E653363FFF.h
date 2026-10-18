@@ -9,9 +9,9 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class JsonEnum; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_1_E17105E653363FFF__CTOR_OFFSET UNITYSDK_OFFSET(0x18823DA0)
+#define CLASS_1_E17105E653363FFF__CTOR_OFFSET UNITYSDK_OFFSET(0x1330ABB0)
 
-inline static constexpr unsigned int Class_1_E17105E653363FFF_TypeDefinitionIndex = 53882;
+inline static constexpr unsigned int Class_1_E17105E653363FFF_TypeDefinitionIndex = 53668;
 
 class Class_1_E17105E653363FFF : public ::System::Object
 {
@@ -20,10 +20,10 @@ public:
 	::RPG::GameCore::GameEntity* FNDHDEOILCK; // 0x18
 	::RPG::GameCore::TaskContext* GPKCGOLOJKC; // 0x20
 	::Il2CppArray<::RPG::GameCore::JsonEnum*>* DCLGGMAEMAO; // 0x28
-	::RPG::GameCore::FixVec3 PECPBEOHOJC; // 0x30
-	::System::UInt32 DFEJABODPGM; // 0x48
-	::RPG::GameCore::TeamType BEGKIKOGEOD; // 0x4C
-	::RPG::GameCore::FixPoint EPFPKBLIIOI; // 0x50
+	::RPG::GameCore::FixPoint EPFPKBLIIOI; // 0x30
+	::System::UInt32 DFEJABODPGM; // 0x38
+	::RPG::GameCore::TeamType BEGKIKOGEOD; // 0x3C
+	::RPG::GameCore::FixVec3 PECPBEOHOJC; // 0x40
 
 	::System::Void _ctor()
 	{

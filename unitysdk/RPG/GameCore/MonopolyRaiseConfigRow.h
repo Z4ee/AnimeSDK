@@ -4,19 +4,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MONOPOLYRAISECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D1CF1D0)
-#define RPG_GAMECORE_MONOPOLYRAISECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1CF830)
+#define RPG_GAMECORE_MONOPOLYRAISECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D87D520)
+#define RPG_GAMECORE_MONOPOLYRAISECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D87DB80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MonopolyRaiseConfigRow_TypeDefinitionIndex = 11990;
+	inline static constexpr unsigned int MonopolyRaiseConfigRow_TypeDefinitionIndex = 12071;
 
 	class MonopolyRaiseConfigRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 Cost; // 0x10
-		::System::UInt32 RaiseCurveID; // 0x14
-		::System::UInt32 RaiseValue; // 0x18
+		::System::UInt32 RaiseValue; // 0x10
+		::System::UInt32 Cost; // 0x14
+		::System::UInt32 RaiseCurveID; // 0x18
 
 		::System::Void _ctor()
 		{

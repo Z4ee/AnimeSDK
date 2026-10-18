@@ -5,9 +5,9 @@
 class Class_1_B8FF829EFDD29B81;
 namespace RPG::GameCore { class BaseChenLingBattleEffect; }
 
-#define CLASS_2_273479CBCB67F53F__CTOR_OFFSET UNITYSDK_OFFSET(0x18DB57D0)
+#define CLASS_2_273479CBCB67F53F__CTOR_OFFSET UNITYSDK_OFFSET(0x15DC4B90)
 
-inline static constexpr unsigned int Class_2_273479CBCB67F53F_TypeDefinitionIndex = 77387;
+inline static constexpr unsigned int Class_2_273479CBCB67F53F_TypeDefinitionIndex = 77858;
 
 class Class_2_273479CBCB67F53F : public ::Class_1_634284739E90CAFA
 {

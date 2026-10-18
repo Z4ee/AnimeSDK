@@ -3,7 +3,7 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2HexColor_TypeDefinitionIndex = 35997;
+	inline static constexpr unsigned int B2HexColor_TypeDefinitionIndex = 36684;
 
 	enum class B2HexColor : ::System::Int32
 	{

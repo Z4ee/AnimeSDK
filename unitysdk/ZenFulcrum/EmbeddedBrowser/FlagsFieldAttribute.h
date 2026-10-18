@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/PropertyAttribute.h"
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_FLAGSFIELDATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C7ED9B0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_FLAGSFIELDATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F630580)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int FlagsFieldAttribute_TypeDefinitionIndex = 38032;
+	inline static constexpr unsigned int FlagsFieldAttribute_TypeDefinitionIndex = 39329;
 
 	class FlagsFieldAttribute : public ::UnityEngine::PropertyAttribute
 	{

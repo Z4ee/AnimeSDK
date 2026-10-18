@@ -6,10 +6,10 @@ class Class_3_4C2B27AA8CEA8CC6;
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class PropSpecialVisionConfig; }
 
-#define CLASS_3_4C2B27AA8CEA8CC6___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1780A7B0)
-#define CLASS_3_4C2B27AA8CEA8CC6___C__DISPLAYCLASS1_0__ONTASKBEGIN_B__0_OFFSET UNITYSDK_OFFSET(0x1780ADD0)
+#define CLASS_3_4C2B27AA8CEA8CC6___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC9EF5A0)
+#define CLASS_3_4C2B27AA8CEA8CC6___C__DISPLAYCLASS1_0__ONTASKBEGIN_B__0_OFFSET UNITYSDK_OFFSET(0xC9EFBC0)
 
-inline static constexpr unsigned int Class_3_4C2B27AA8CEA8CC6___c__DisplayClass1_0_TypeDefinitionIndex = 58720;
+inline static constexpr unsigned int Class_3_4C2B27AA8CEA8CC6___c__DisplayClass1_0_TypeDefinitionIndex = 58572;
 
 class Class_3_4C2B27AA8CEA8CC6___c__DisplayClass1_0 : public ::System::Object
 {

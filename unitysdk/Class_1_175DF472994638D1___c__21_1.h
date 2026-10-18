@@ -7,7 +7,7 @@ namespace RPG::Client { class CustomButton_VoidDelegate; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 template <typename T> class Class_1_175DF472994638D1___c__21_1;
 
-inline static constexpr unsigned int Class_1_175DF472994638D1___c__21_1_TypeDefinitionIndex = 50229;
+inline static constexpr unsigned int Class_1_175DF472994638D1___c__21_1_TypeDefinitionIndex = 49892;
 
 template <typename TViewModel>
 class Class_1_175DF472994638D1___c__21_1 : public ::System::Object

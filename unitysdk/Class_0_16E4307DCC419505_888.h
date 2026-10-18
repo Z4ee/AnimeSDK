@@ -1,7 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/Struct_2_D645B4E0B73852B6_1.h"
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_888_TypeDefinitionIndex = 65658;
+namespace RPG::Client::Promises { class IPromise; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+inline static constexpr unsigned int Class_0_16E4307DCC419505_888_TypeDefinitionIndex = 62768;
 
 class Class_0_16E4307DCC419505_888
 {

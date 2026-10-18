@@ -5,18 +5,18 @@
 
 namespace UnityEngine::ProBuilder { class SharedVertex; }
 
-#define UNITYENGINE_PROBUILDER_SELECTIONPICKERRENDERER___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1921C410)
-#define UNITYENGINE_PROBUILDER_SELECTIONPICKERRENDERER___C__DISPLAYCLASS19_0__PICKVERTICESINRECT_B__0_OFFSET UNITYSDK_OFFSET(0x1921FA00)
+#define UNITYENGINE_PROBUILDER_SELECTIONPICKERRENDERER___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1F23A610)
+#define UNITYENGINE_PROBUILDER_SELECTIONPICKERRENDERER___C__DISPLAYCLASS19_0__PICKVERTICESINRECT_B__0_OFFSET UNITYSDK_OFFSET(0x1F23DBE0)
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int SelectionPickerRenderer___c__DisplayClass19_0_TypeDefinitionIndex = 43233;
+	inline static constexpr unsigned int SelectionPickerRenderer___c__DisplayClass19_0_TypeDefinitionIndex = 44425;
 
 	class SelectionPickerRenderer___c__DisplayClass19_0 : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::UnityEngine::Vector3>* positions; // 0x10
-		::Il2CppArray<::UnityEngine::ProBuilder::SharedVertex*>* sharedVertices; // 0x18
+		::Il2CppArray<::UnityEngine::ProBuilder::SharedVertex*>* sharedVertices; // 0x10
+		::Il2CppArray<::UnityEngine::Vector3>* positions; // 0x18
 
 		::System::Void _ctor()
 		{

@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_RECOLORCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DB7A830)
-#define RPG_GAMECORE_RECOLORCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB7A980)
+#define RPG_GAMECORE_RECOLORCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D944BD0)
+#define RPG_GAMECORE_RECOLORCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D944D20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RecolorConfigRow_TypeDefinitionIndex = 12564;
+	inline static constexpr unsigned int RecolorConfigRow_TypeDefinitionIndex = 12654;
 
 	class RecolorConfigRow : public ::System::Object
 	{

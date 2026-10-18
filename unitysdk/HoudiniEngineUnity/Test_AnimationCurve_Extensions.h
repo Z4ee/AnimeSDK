@@ -6,13 +6,13 @@ namespace HoudiniEngineUnity { class Test_AnimationCurve; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define HOUDINIENGINEUNITY_TEST_ANIMATIONCURVE_EXTENSIONS_TOTESTOBJECT_1_OFFSET UNITYSDK_OFFSET(0x1EEE9BF0)
-#define HOUDINIENGINEUNITY_TEST_ANIMATIONCURVE_EXTENSIONS_TOTESTOBJECT_2_OFFSET UNITYSDK_OFFSET(0x1EEE9D10)
-#define HOUDINIENGINEUNITY_TEST_ANIMATIONCURVE_EXTENSIONS_TOTESTOBJECT_OFFSET UNITYSDK_OFFSET(0x1EEE9BB0)
+#define HOUDINIENGINEUNITY_TEST_ANIMATIONCURVE_EXTENSIONS_TOTESTOBJECT_1_OFFSET UNITYSDK_OFFSET(0x1B98ED60)
+#define HOUDINIENGINEUNITY_TEST_ANIMATIONCURVE_EXTENSIONS_TOTESTOBJECT_2_OFFSET UNITYSDK_OFFSET(0x1B98EE80)
+#define HOUDINIENGINEUNITY_TEST_ANIMATIONCURVE_EXTENSIONS_TOTESTOBJECT_OFFSET UNITYSDK_OFFSET(0x1B98ED20)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int Test_AnimationCurve_Extensions_TypeDefinitionIndex = 39452;
+	inline static constexpr unsigned int Test_AnimationCurve_Extensions_TypeDefinitionIndex = 40749;
 
 	class Test_AnimationCurve_Extensions : public ::System::Object
 	{

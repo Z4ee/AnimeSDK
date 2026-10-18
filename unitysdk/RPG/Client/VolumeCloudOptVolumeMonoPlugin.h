@@ -7,12 +7,12 @@ namespace RPG::Client { class VolumeData; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_VOLUMECLOUDOPTVOLUMEMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x1C8179B0)
-#define RPG_CLIENT_VOLUMECLOUDOPTVOLUMEMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x1C817A00)
+#define RPG_CLIENT_VOLUMECLOUDOPTVOLUMEMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xE44EB80)
+#define RPG_CLIENT_VOLUMECLOUDOPTVOLUMEMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xE44EBD0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int VolumeCloudOptVolumeMonoPlugin_TypeDefinitionIndex = 70800;
+	inline static constexpr unsigned int VolumeCloudOptVolumeMonoPlugin_TypeDefinitionIndex = 70838;
 
 	class VolumeCloudOptVolumeMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::VolumeCloudOptVolumeBehavior*>
 	{

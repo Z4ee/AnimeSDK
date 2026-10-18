@@ -2,28 +2,28 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_7B4E9156998275BE;
+class Class_1_C6F4C4ABEDB8B5E9;
 namespace System { class Action; }
 
-#define RPG_CLIENT_FATERIN_FATERINHOST___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B5A7A40)
-#define RPG_CLIENT_FATERIN_FATERINHOST___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5A7A70)
-#define RPG_CLIENT_FATERIN_FATERINHOST___C__TRANSFERANDAUTOSHOWHOUGUMAPPAGE_B__21_0_OFFSET UNITYSDK_OFFSET(0x1B5A7AB0)
-#define RPG_CLIENT_FATERIN_FATERINHOST___C___CCTOR_B__0_0_OFFSET UNITYSDK_OFFSET(0x1B5A7A80)
+#define RPG_CLIENT_FATERIN_FATERINHOST___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xCF9DB80)
+#define RPG_CLIENT_FATERIN_FATERINHOST___C__CTOR_OFFSET UNITYSDK_OFFSET(0xCF9DBB0)
+#define RPG_CLIENT_FATERIN_FATERINHOST___C__TRANSFERANDAUTOSHOWHOUGUMAPPAGE_B__21_0_OFFSET UNITYSDK_OFFSET(0xCF9DBF0)
+#define RPG_CLIENT_FATERIN_FATERINHOST___C___CCTOR_B__0_0_OFFSET UNITYSDK_OFFSET(0xCF9DBC0)
 
 namespace RPG::Client::FateRin
 {
-	inline static constexpr unsigned int FateRinHost___c_TypeDefinitionIndex = 79199;
+	inline static constexpr unsigned int FateRinHost___c_TypeDefinitionIndex = 80523;
 
 	class FateRinHost___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__21_0()
-		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(FateRinHost___c_TypeDefinitionIndex)->GetStaticField(0xA640);
-		}
 		static ::RPG::Client::FateRin::FateRinHost___c** StaticGet___9()
 		{
-			return (::RPG::Client::FateRin::FateRinHost___c**)Il2CppClass::FromTypeDefinitionIndex(FateRinHost___c_TypeDefinitionIndex)->GetStaticField(0xA648);
+			return (::RPG::Client::FateRin::FateRinHost___c**)Il2CppClass::FromTypeDefinitionIndex(FateRinHost___c_TypeDefinitionIndex)->GetStaticField(0x569A0);
+		}
+		static ::System::Action** StaticGet___9__21_0()
+		{
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(FateRinHost___c_TypeDefinitionIndex)->GetStaticField(0x569A8);
 		}
 
 		static ::System::Void _cctor()
@@ -36,9 +36,9 @@ namespace RPG::Client::FateRin
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_FATERINHOST___C__CTOR_OFFSET))(this);
 		}
 
-		::Class_1_7B4E9156998275BE* __cctor_b__0_0()
+		::Class_1_C6F4C4ABEDB8B5E9* __cctor_b__0_0()
 		{
-			return ((::Class_1_7B4E9156998275BE*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_FATERINHOST___C___CCTOR_B__0_0_OFFSET))(this);
+			return ((::Class_1_C6F4C4ABEDB8B5E9*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_FATERINHOST___C___CCTOR_B__0_0_OFFSET))(this);
 		}
 
 		::System::Void _TransferAndAutoShowHouguMapPage_b__21_0()

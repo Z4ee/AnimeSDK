@@ -7,7 +7,7 @@ namespace R3 { template <typename T> class ReactiveProperty_1; }
 namespace RPG::UINavigation { class UINavigationButton; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-inline static constexpr unsigned int Class_1_44553DE30EE572D6_TypeDefinitionIndex = 50200;
+inline static constexpr unsigned int Class_1_44553DE30EE572D6_TypeDefinitionIndex = 49827;
 
 template <typename TViewModel>
 class Class_1_44553DE30EE572D6 : public ::System::Object

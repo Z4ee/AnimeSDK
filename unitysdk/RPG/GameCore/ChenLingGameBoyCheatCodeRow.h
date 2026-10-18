@@ -5,20 +5,20 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHENLINGGAMEBOYCHEATCODEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E019130)
-#define RPG_GAMECORE_CHENLINGGAMEBOYCHEATCODEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1E0197B0)
+#define RPG_GAMECORE_CHENLINGGAMEBOYCHEATCODEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D564A50)
+#define RPG_GAMECORE_CHENLINGGAMEBOYCHEATCODEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5650D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingGameBoyCheatCodeRow_TypeDefinitionIndex = 13998;
+	inline static constexpr unsigned int ChenLingGameBoyCheatCodeRow_TypeDefinitionIndex = 14105;
 
 	class ChenLingGameBoyCheatCodeRow : public ::System::Object
 	{
 	public:
 		::System::String* GameBoyCheatCodeString; // 0x10
 		::System::String* CorrectmapPath; // 0x18
-		::System::String* WrongmapPath; // 0x20
-		::System::String* BasemapPath; // 0x28
+		::System::String* BasemapPath; // 0x20
+		::System::String* WrongmapPath; // 0x28
 
 		::System::Void _ctor()
 		{

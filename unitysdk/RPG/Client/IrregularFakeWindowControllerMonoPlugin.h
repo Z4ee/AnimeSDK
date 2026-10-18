@@ -5,11 +5,11 @@
 namespace RPG::Client { class IrregularFakeWindowControllerBehavior; }
 namespace UnityEngine { class Renderer; }
 
-#define RPG_CLIENT_IRREGULARFAKEWINDOWCONTROLLERMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x194DEB60)
+#define RPG_CLIENT_IRREGULARFAKEWINDOWCONTROLLERMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xD36DB40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IrregularFakeWindowControllerMonoPlugin_TypeDefinitionIndex = 70824;
+	inline static constexpr unsigned int IrregularFakeWindowControllerMonoPlugin_TypeDefinitionIndex = 70862;
 
 	class IrregularFakeWindowControllerMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::IrregularFakeWindowControllerBehavior*>
 	{

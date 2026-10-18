@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_ED790DAC948A65A9_31.h"
+#include "unitysdk/Enum_3_ED790DAC948A65A9_36.h"
 
 namespace RPG::Client::Tutorial { class TutorialGuideCategoryInfo; }
 namespace RPG::Client::Tutorial { class TutorialGuideGroupData; }
@@ -10,7 +10,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::Tutorial
 {
-	inline static constexpr unsigned int ITutorialGuideCollection_TypeDefinitionIndex = 78523;
+	inline static constexpr unsigned int ITutorialGuideCollection_TypeDefinitionIndex = 78994;
 
 	class ITutorialGuideCollection
 	{

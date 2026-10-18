@@ -7,29 +7,29 @@ namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_TRANSLATESERVICE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CD44910)
-#define MIHOYO_SDK_TRANSLATESERVICE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD44950)
-#define MIHOYO_SDK_TRANSLATESERVICE___C__INIT_B__33_0_OFFSET UNITYSDK_OFFSET(0x1CD44960)
-#define MIHOYO_SDK_TRANSLATESERVICE___C__INIT_B__33_1_OFFSET UNITYSDK_OFFSET(0x1CD44A10)
+#define MIHOYO_SDK_TRANSLATESERVICE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xB05A7A0)
+#define MIHOYO_SDK_TRANSLATESERVICE___C__CTOR_OFFSET UNITYSDK_OFFSET(0xB05A7E0)
+#define MIHOYO_SDK_TRANSLATESERVICE___C__INIT_B__33_0_OFFSET UNITYSDK_OFFSET(0xB05A7F0)
+#define MIHOYO_SDK_TRANSLATESERVICE___C__INIT_B__33_1_OFFSET UNITYSDK_OFFSET(0xB05A8A0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int TranslateService___c_TypeDefinitionIndex = 47043;
+	inline static constexpr unsigned int TranslateService___c_TypeDefinitionIndex = 46583;
 
 	class TranslateService___c : public ::System::Object
 	{
 	public:
-		static ::System::Action_2<::System::Int32, ::System::String*>** StaticGet___9__33_1()
+		static ::System::Action_1<::MiHoYo::SDK::BabelfishConfig*>** StaticGet___9__33_0()
 		{
-			return (::System::Action_2<::System::Int32, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(TranslateService___c_TypeDefinitionIndex)->GetStaticField(0x5E190);
+			return (::System::Action_1<::MiHoYo::SDK::BabelfishConfig*>**)Il2CppClass::FromTypeDefinitionIndex(TranslateService___c_TypeDefinitionIndex)->GetStaticField(0x33D60);
 		}
 		static ::MiHoYo::SDK::TranslateService___c** StaticGet___9()
 		{
-			return (::MiHoYo::SDK::TranslateService___c**)Il2CppClass::FromTypeDefinitionIndex(TranslateService___c_TypeDefinitionIndex)->GetStaticField(0x5E198);
+			return (::MiHoYo::SDK::TranslateService___c**)Il2CppClass::FromTypeDefinitionIndex(TranslateService___c_TypeDefinitionIndex)->GetStaticField(0x33D68);
 		}
-		static ::System::Action_1<::MiHoYo::SDK::BabelfishConfig*>** StaticGet___9__33_0()
+		static ::System::Action_2<::System::Int32, ::System::String*>** StaticGet___9__33_1()
 		{
-			return (::System::Action_1<::MiHoYo::SDK::BabelfishConfig*>**)Il2CppClass::FromTypeDefinitionIndex(TranslateService___c_TypeDefinitionIndex)->GetStaticField(0x5E1A0);
+			return (::System::Action_2<::System::Int32, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(TranslateService___c_TypeDefinitionIndex)->GetStaticField(0x33D70);
 		}
 
 		static ::System::Void _cctor()

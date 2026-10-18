@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_STAGELODMAPCONFIG_METHOD_2_DA10B7CFBEE9C221_OFFSET UNITYSDK_OFFSET(0x1CAE7520)
-#define RPG_GAMECORE_STAGELODMAPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CAE7660)
+#define RPG_GAMECORE_STAGELODMAPCONFIG_METHOD_2_DA10B7CFBEE9C221_OFFSET UNITYSDK_OFFSET(0x1DAE3080)
+#define RPG_GAMECORE_STAGELODMAPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1DAE31C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StageLodMapConfig_TypeDefinitionIndex = 18977;
+	inline static constexpr unsigned int StageLodMapConfig_TypeDefinitionIndex = 19204;
 
 	class StageLodMapConfig : public ::RPG::GameCore::JsonConfig
 	{

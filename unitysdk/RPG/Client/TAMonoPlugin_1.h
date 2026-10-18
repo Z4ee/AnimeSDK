@@ -5,10 +5,11 @@
 #include "unitysdk/UnityEngine/Bounds.h"
 
 namespace System { class String; }
+namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TAMonoPlugin_1_TypeDefinitionIndex = 70736;
+	inline static constexpr unsigned int TAMonoPlugin_1_TypeDefinitionIndex = 70772;
 
 	template <typename TBehavior>
 	class TAMonoPlugin_1 : public ::RPG::Client::TAMonoBase

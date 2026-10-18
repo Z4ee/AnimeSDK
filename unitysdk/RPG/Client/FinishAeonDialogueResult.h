@@ -7,20 +7,20 @@ namespace RPG::Client { class ItemDisplayData; }
 namespace RPG::Client { class RogueAeonData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_FINISHAEONDIALOGUERESULT_CREATE_OFFSET UNITYSDK_OFFSET(0x1AE66A50)
-#define RPG_CLIENT_FINISHAEONDIALOGUERESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE66B00)
+#define RPG_CLIENT_FINISHAEONDIALOGUERESULT_CREATE_OFFSET UNITYSDK_OFFSET(0xCFFF150)
+#define RPG_CLIENT_FINISHAEONDIALOGUERESULT__CTOR_OFFSET UNITYSDK_OFFSET(0xCFFF200)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FinishAeonDialogueResult_TypeDefinitionIndex = 67465;
+	inline static constexpr unsigned int FinishAeonDialogueResult_TypeDefinitionIndex = 67467;
 
 	class FinishAeonDialogueResult : public ::System::Object
 	{
 	public:
 		::RPG::Client::RogueAeonData* AeonData; // 0x10
 		::System::Collections::Generic::List_1<::RPG::Client::ItemDisplayData*>* RewardItemList; // 0x18
-		::System::UInt32 OldExp; // 0x20
-		::System::UInt32 OldLevel; // 0x24
+		::System::UInt32 OldLevel; // 0x20
+		::System::UInt32 OldExp; // 0x24
 
 		::System::Void _ctor()
 		{

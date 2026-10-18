@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ANIMSPEEDNOTIFYCONFIG_METHOD_2_C54CDE49DFAEBB6C_OFFSET UNITYSDK_OFFSET(0x1C56BD60)
-#define RPG_GAMECORE_ANIMSPEEDNOTIFYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C56BF20)
+#define RPG_GAMECORE_ANIMSPEEDNOTIFYCONFIG_METHOD_2_C54CDE49DFAEBB6C_OFFSET UNITYSDK_OFFSET(0x1D3C5470)
+#define RPG_GAMECORE_ANIMSPEEDNOTIFYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3C5630)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AnimSpeedNotifyConfig_TypeDefinitionIndex = 16765;
+	inline static constexpr unsigned int AnimSpeedNotifyConfig_TypeDefinitionIndex = 16959;
 
 	class AnimSpeedNotifyConfig : public ::RPG::GameCore::JsonConfig
 	{

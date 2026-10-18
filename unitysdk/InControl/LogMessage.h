@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace InControl
 {
-	inline static constexpr unsigned int LogMessage_TypeDefinitionIndex = 39536;
+	inline static constexpr unsigned int LogMessage_TypeDefinitionIndex = 40833;
 
 	struct alignas(8) LogMessage
 	{

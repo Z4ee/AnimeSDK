@@ -5,9 +5,9 @@
 class HipplenBuilderBuffAsset_BuffConfig;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define HIPPLENBUILDERBUFFASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x18DC6E90)
+#define HIPPLENBUILDERBUFFASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x15DD66B0)
 
-inline static constexpr unsigned int HipplenBuilderBuffAsset_TypeDefinitionIndex = 47685;
+inline static constexpr unsigned int HipplenBuilderBuffAsset_TypeDefinitionIndex = 47225;
 
 class HipplenBuilderBuffAsset : public ::UnityEngine::ScriptableObject
 {

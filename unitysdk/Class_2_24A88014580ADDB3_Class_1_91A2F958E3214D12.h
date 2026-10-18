@@ -1,0 +1,56 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/MVector3.h"
+#include "unitysdk/System/Object.h"
+
+namespace RPG::GameCore { class FloatCurve; }
+namespace RPG::GameCore { class TransformComponent; }
+
+#define CLASS_2_24A88014580ADDB3_CLASS_1_91A2F958E3214D12_METHOD_1_2D0C0838C76C624D_OFFSET UNITYSDK_OFFSET(0xB4650A0)
+#define CLASS_2_24A88014580ADDB3_CLASS_1_91A2F958E3214D12_METHOD_1_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0xB4653A0)
+#define CLASS_2_24A88014580ADDB3_CLASS_1_91A2F958E3214D12_METHOD_1_A36150C5DCC8409E_OFFSET UNITYSDK_OFFSET(0xB4658B0)
+#define CLASS_2_24A88014580ADDB3_CLASS_1_91A2F958E3214D12_METHOD_1_CC4DDEEB549C9978_OFFSET UNITYSDK_OFFSET(0xB465410)
+#define CLASS_2_24A88014580ADDB3_CLASS_1_91A2F958E3214D12__CTOR_OFFSET UNITYSDK_OFFSET(0xB465910)
+
+inline static constexpr unsigned int Class_2_24A88014580ADDB3_Class_1_91A2F958E3214D12_TypeDefinitionIndex = 56958;
+
+class Class_2_24A88014580ADDB3_Class_1_91A2F958E3214D12 : public ::System::Object
+{
+public:
+	::RPG::GameCore::FloatCurve* LMHCCNBFNCD; // 0x10
+	::RPG::GameCore::FloatCurve* ECILNMHCMMM; // 0x18
+	::RPG::MVector3 JHNOOAKMEOI; // 0x20
+	::System::Single LFAJGAMKMNN; // 0x2C
+	::System::Single LJPDKMHJFMM; // 0x30
+	::RPG::MVector3 PAINPEOBBHE; // 0x34
+	::RPG::MVector3 PIOKEAJGMPB; // 0x40
+	::System::Single IEHPFADHJFD; // 0x4C
+	::RPG::MVector3 IAPGKPKKOOA; // 0x50
+	::System::Boolean OOMAMFDJJPM; // 0x5C
+	::System::Single IOFDOOCFJBE; // 0x60
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_24A88014580ADDB3_CLASS_1_91A2F958E3214D12__CTOR_OFFSET))(this);
+	}
+
+	::System::Single Method_1_A36150C5DCC8409E()
+	{
+		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_24A88014580ADDB3_CLASS_1_91A2F958E3214D12_METHOD_1_A36150C5DCC8409E_OFFSET))(this);
+	}
+
+	::System::Boolean Method_1_391A84BCD9F51317()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_24A88014580ADDB3_CLASS_1_91A2F958E3214D12_METHOD_1_391A84BCD9F51317_OFFSET))(this);
+	}
+
+	::System::Void Method_1_2D0C0838C76C624D(::RPG::GameCore::TransformComponent* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TransformComponent*))((::PBYTE)hIl2Cpp + CLASS_2_24A88014580ADDB3_CLASS_1_91A2F958E3214D12_METHOD_1_2D0C0838C76C624D_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_CC4DDEEB549C9978(::System::Single a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_2_24A88014580ADDB3_CLASS_1_91A2F958E3214D12_METHOD_1_CC4DDEEB549C9978_OFFSET))(this, a1);
+	}
+};

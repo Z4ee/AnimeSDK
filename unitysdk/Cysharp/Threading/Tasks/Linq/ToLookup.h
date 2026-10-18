@@ -12,7 +12,7 @@ namespace System::Linq { template <typename T1, typename T2> class ILookup_2; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int ToLookup_TypeDefinitionIndex = 44547;
+	inline static constexpr unsigned int ToLookup_TypeDefinitionIndex = 45686;
 
 	class ToLookup : public ::System::Object
 	{

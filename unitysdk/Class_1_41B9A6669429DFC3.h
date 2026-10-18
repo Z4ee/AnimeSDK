@@ -4,9 +4,9 @@
 
 namespace RPG::Client { class BaseGachaPoolData; }
 
-#define CLASS_1_41B9A6669429DFC3_METHOD_1_012C3B084700F5E5_OFFSET UNITYSDK_OFFSET(0x15FEFC80)
+#define CLASS_1_41B9A6669429DFC3_METHOD_1_012C3B084700F5E5_OFFSET UNITYSDK_OFFSET(0x11FE7ED0)
 
-inline static constexpr unsigned int Class_1_41B9A6669429DFC3_TypeDefinitionIndex = 64381;
+inline static constexpr unsigned int Class_1_41B9A6669429DFC3_TypeDefinitionIndex = 64321;
 
 class Class_1_41B9A6669429DFC3 : public ::System::Object
 {

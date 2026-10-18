@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimBtnType_TypeDefinitionIndex = 18296;
+	inline static constexpr unsigned int FiveDimBtnType_TypeDefinitionIndex = 18511;
 
 	enum class FiveDimBtnType : ::System::Int32
 	{

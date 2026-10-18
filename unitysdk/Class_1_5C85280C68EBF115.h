@@ -6,17 +6,17 @@ namespace System { class String; }
 namespace UnityEngine { class Animation; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_1_5C85280C68EBF115__CTOR_OFFSET UNITYSDK_OFFSET(0x18F71970)
+#define CLASS_1_5C85280C68EBF115__CTOR_OFFSET UNITYSDK_OFFSET(0x15946420)
 
-inline static constexpr unsigned int Class_1_5C85280C68EBF115_TypeDefinitionIndex = 60049;
+inline static constexpr unsigned int Class_1_5C85280C68EBF115_TypeDefinitionIndex = 59912;
 
 class Class_1_5C85280C68EBF115 : public ::System::Object
 {
 public:
-	::UnityEngine::Transform* KAMHKPALGEG; // 0x10
-	::UnityEngine::Animation* FOPCFKFAGPM; // 0x18
-	::System::String* CNJCEOEHOIP; // 0x20
-	::System::String* CONJJBPOJEE; // 0x28
+	::System::String* CONJJBPOJEE; // 0x10
+	::UnityEngine::Transform* KAMHKPALGEG; // 0x18
+	::UnityEngine::Animation* FOPCFKFAGPM; // 0x20
+	::System::String* CNJCEOEHOIP; // 0x28
 	::System::Boolean NFNOPGABILG; // 0x30
 
 	::System::Void _ctor()

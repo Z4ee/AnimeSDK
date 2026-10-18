@@ -4,19 +4,19 @@
 #include "unitysdk/RPG/Client/TAMonoPlugin_1.h"
 
 namespace RPG::Client { class CharacterArtModelEffectBehavior; }
-namespace RPG::Client { class CharacterArtModelEffectBehavior_Class_0_16E7307DCC43CB2C_22; }
+namespace RPG::Client { class CharacterArtModelEffectBehavior_Class_0_16E7307DCC43CB2C_30; }
 
-#define RPG_CLIENT_CHARACTERARTMODELEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD74E70)
+#define RPG_CLIENT_CHARACTERARTMODELEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0xC9BC8B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CharacterArtModelEffect_TypeDefinitionIndex = 70215;
+	inline static constexpr unsigned int CharacterArtModelEffect_TypeDefinitionIndex = 70251;
 
 	class CharacterArtModelEffect : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::CharacterArtModelEffectBehavior*>
 	{
 	public:
 		::Il2CppArray<::RPG::Client::CharacterArtModelEffectBehavior_EffectFollow>* ModelEffectFollows; // 0x30
-		::Il2CppArray<::RPG::Client::CharacterArtModelEffectBehavior_Class_0_16E7307DCC43CB2C_22*>* ModelEffectAnimators; // 0x38
+		::Il2CppArray<::RPG::Client::CharacterArtModelEffectBehavior_Class_0_16E7307DCC43CB2C_30*>* ModelEffectAnimators; // 0x38
 		::System::Boolean SyncAnimatorSpeed; // 0x40
 		::System::Single TimeScale; // 0x44
 

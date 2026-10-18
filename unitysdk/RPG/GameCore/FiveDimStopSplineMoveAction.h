@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_FIVEDIMSTOPSPLINEMOVEACTION_METHOD_3_2C8ED0E9B9E359FB_OFFSET UNITYSDK_OFFSET(0x1D87E120)
-#define RPG_GAMECORE_FIVEDIMSTOPSPLINEMOVEACTION_METHOD_3_CD6DF8C18994B7DA_OFFSET UNITYSDK_OFFSET(0x1D87E1A0)
-#define RPG_GAMECORE_FIVEDIMSTOPSPLINEMOVEACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D87E190)
+#define RPG_GAMECORE_FIVEDIMSTOPSPLINEMOVEACTION_METHOD_4_67300F6416F064A8_OFFSET UNITYSDK_OFFSET(0x1D6B17B0)
+#define RPG_GAMECORE_FIVEDIMSTOPSPLINEMOVEACTION_METHOD_4_FAA4575D0A92240D_OFFSET UNITYSDK_OFFSET(0x1D6B1830)
+#define RPG_GAMECORE_FIVEDIMSTOPSPLINEMOVEACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6B1820)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimStopSplineMoveAction_TypeDefinitionIndex = 18447;
+	inline static constexpr unsigned int FiveDimStopSplineMoveAction_TypeDefinitionIndex = 18656;
 
 	class FiveDimStopSplineMoveAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
@@ -20,14 +20,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMSTOPSPLINEMOVEACTION__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_2C8ED0E9B9E359FB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimStopSplineMoveAction*& a2)
+		static ::System::Void Method_4_67300F6416F064A8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimStopSplineMoveAction*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimStopSplineMoveAction*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMSTOPSPLINEMOVEACTION_METHOD_3_2C8ED0E9B9E359FB_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimStopSplineMoveAction*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMSTOPSPLINEMOVEACTION_METHOD_4_67300F6416F064A8_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_CD6DF8C18994B7DA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimStopSplineMoveAction* a2)
+		static ::System::Void Method_4_FAA4575D0A92240D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimStopSplineMoveAction* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimStopSplineMoveAction*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMSTOPSPLINEMOVEACTION_METHOD_3_CD6DF8C18994B7DA_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimStopSplineMoveAction*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMSTOPSPLINEMOVEACTION_METHOD_4_FAA4575D0A92240D_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PamChatConditionType_TypeDefinitionIndex = 14207;
+	inline static constexpr unsigned int PamChatConditionType_TypeDefinitionIndex = 14314;
 
 	enum class PamChatConditionType : ::System::Int32
 	{

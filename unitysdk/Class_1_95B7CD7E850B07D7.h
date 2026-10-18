@@ -9,19 +9,19 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define CLASS_1_95B7CD7E850B07D7_METHOD_1_89D1F247B9D324EE_OFFSET UNITYSDK_OFFSET(0x17EC57B0)
-#define CLASS_1_95B7CD7E850B07D7_METHOD_1_E326E610AE10C438_OFFSET UNITYSDK_OFFSET(0x17EC5560)
-#define CLASS_1_95B7CD7E850B07D7__CCTOR_OFFSET UNITYSDK_OFFSET(0x17EC58C0)
-#define CLASS_1_95B7CD7E850B07D7__CTOR_OFFSET UNITYSDK_OFFSET(0x17EC5840)
+#define CLASS_1_95B7CD7E850B07D7_METHOD_1_89D1F247B9D324EE_OFFSET UNITYSDK_OFFSET(0xB1456D0)
+#define CLASS_1_95B7CD7E850B07D7_METHOD_1_E326E610AE10C438_OFFSET UNITYSDK_OFFSET(0xB145480)
+#define CLASS_1_95B7CD7E850B07D7__CCTOR_OFFSET UNITYSDK_OFFSET(0xB1457E0)
+#define CLASS_1_95B7CD7E850B07D7__CTOR_OFFSET UNITYSDK_OFFSET(0xB145760)
 
-inline static constexpr unsigned int Class_1_95B7CD7E850B07D7_TypeDefinitionIndex = 73643;
+inline static constexpr unsigned int Class_1_95B7CD7E850B07D7_TypeDefinitionIndex = 73750;
 
 class Class_1_95B7CD7E850B07D7 : public ::System::Object
 {
 public:
 	static ::System::Collections::Generic::HashSet_1<::System::String*>** StaticGet_OEHLFICEHCO()
 	{
-		return (::System::Collections::Generic::HashSet_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_95B7CD7E850B07D7_TypeDefinitionIndex)->GetStaticField(0x6AF0);
+		return (::System::Collections::Generic::HashSet_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_95B7CD7E850B07D7_TypeDefinitionIndex)->GetStaticField(0x46C50);
 	}
 	::System::Collections::Generic::Dictionary_2<::System::String*, ::Class_1_B5A9DA083406A268*>* BEHHICMOFIE; // 0x10
 

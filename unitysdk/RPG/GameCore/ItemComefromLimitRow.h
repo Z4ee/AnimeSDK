@@ -5,20 +5,20 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ITEMCOMEFROMLIMITROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D225720)
-#define RPG_GAMECORE_ITEMCOMEFROMLIMITROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D226550)
+#define RPG_GAMECORE_ITEMCOMEFROMLIMITROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D7623B0)
+#define RPG_GAMECORE_ITEMCOMEFROMLIMITROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7631E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ItemComefromLimitRow_TypeDefinitionIndex = 13760;
+	inline static constexpr unsigned int ItemComefromLimitRow_TypeDefinitionIndex = 13867;
 
 	class ItemComefromLimitRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* OpenParaList; // 0x10
-		::System::UInt32 ID; // 0x18
-		::System::UInt32 ComefromID; // 0x1C
-		::RPG::GameCore::ComefromOpenType OpenType; // 0x20
+		::System::UInt32 ComefromID; // 0x18
+		::RPG::GameCore::ComefromOpenType OpenType; // 0x1C
+		::System::UInt32 ID; // 0x20
 
 		::System::Void _ctor()
 		{

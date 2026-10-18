@@ -4,9 +4,9 @@
 
 namespace RPG::GameCore { class FourRotateVoxel2DPlatformConfig; }
 
-#define CLASS_1_7B86092D7C457046__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE364E0)
+#define CLASS_1_7B86092D7C457046__CTOR_OFFSET UNITYSDK_OFFSET(0x1CB619A0)
 
-inline static constexpr unsigned int Class_1_7B86092D7C457046_TypeDefinitionIndex = 41592;
+inline static constexpr unsigned int Class_1_7B86092D7C457046_TypeDefinitionIndex = 43186;
 
 class Class_1_7B86092D7C457046 : public ::System::Object
 {

@@ -14,12 +14,12 @@ namespace RPG::GameCore { class GameObjectPoolSetting; }
 namespace RPG::GameCore { class MonsterAssetPreloadConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_DEVICESETTINGCONFIG_METHOD_2_2CFC3B65E8D36458_OFFSET UNITYSDK_OFFSET(0x1D81A470)
-#define RPG_GAMECORE_DEVICESETTINGCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D81A980)
+#define RPG_GAMECORE_DEVICESETTINGCONFIG_METHOD_2_2CFC3B65E8D36458_OFFSET UNITYSDK_OFFSET(0x1D5D21D0)
+#define RPG_GAMECORE_DEVICESETTINGCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5D26E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DeviceSettingConfig_TypeDefinitionIndex = 16305;
+	inline static constexpr unsigned int DeviceSettingConfig_TypeDefinitionIndex = 16478;
 
 	class DeviceSettingConfig : public ::RPG::GameCore::JsonConfig
 	{

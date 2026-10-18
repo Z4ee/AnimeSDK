@@ -4,9 +4,9 @@
 
 namespace RPG::GameCore { class FiveDimLadderConfig; }
 
-#define CLASS_1_9413F01298D60E98__CTOR_OFFSET UNITYSDK_OFFSET(0x1CDEEA20)
+#define CLASS_1_9413F01298D60E98__CTOR_OFFSET UNITYSDK_OFFSET(0x1CB5C6D0)
 
-inline static constexpr unsigned int Class_1_9413F01298D60E98_TypeDefinitionIndex = 41806;
+inline static constexpr unsigned int Class_1_9413F01298D60E98_TypeDefinitionIndex = 43448;
 
 class Class_1_9413F01298D60E98 : public ::System::Object
 {

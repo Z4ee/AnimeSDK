@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IRoutePointList_1_TypeDefinitionIndex = 62397;
+	inline static constexpr unsigned int IRoutePointList_1_TypeDefinitionIndex = 62314;
 
 	template <typename T>
 	class IRoutePointList_1

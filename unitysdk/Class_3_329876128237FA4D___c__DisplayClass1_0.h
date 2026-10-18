@@ -7,10 +7,10 @@ class Class_3_329876128237FA4D;
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define CLASS_3_329876128237FA4D___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18BA6020)
-#define CLASS_3_329876128237FA4D___C__DISPLAYCLASS1_0___ONAFTERFIREEFFECTCOMPLETED_B__0_OFFSET UNITYSDK_OFFSET(0x18BA6030)
+#define CLASS_3_329876128237FA4D___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB96A6B0)
+#define CLASS_3_329876128237FA4D___C__DISPLAYCLASS1_0___ONAFTERFIREEFFECTCOMPLETED_B__0_OFFSET UNITYSDK_OFFSET(0xB96A6C0)
 
-inline static constexpr unsigned int Class_3_329876128237FA4D___c__DisplayClass1_0_TypeDefinitionIndex = 55917;
+inline static constexpr unsigned int Class_3_329876128237FA4D___c__DisplayClass1_0_TypeDefinitionIndex = 55727;
 
 class Class_3_329876128237FA4D___c__DisplayClass1_0 : public ::System::Object
 {

@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/MonoDroneAirwallControl.h"
 
-#define RPG_CLIENT_MONOTRAVELAIRWALLCONTROL_UPDATE_OFFSET UNITYSDK_OFFSET(0x1C289A70)
-#define RPG_CLIENT_MONOTRAVELAIRWALLCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x1C289B20)
+#define RPG_CLIENT_MONOTRAVELAIRWALLCONTROL_UPDATE_OFFSET UNITYSDK_OFFSET(0xD866510)
+#define RPG_CLIENT_MONOTRAVELAIRWALLCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0xD8665C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoTravelAirwallControl_TypeDefinitionIndex = 68585;
+	inline static constexpr unsigned int MonoTravelAirwallControl_TypeDefinitionIndex = 68619;
 
 	class MonoTravelAirwallControl : public ::RPG::Client::MonoDroneAirwallControl
 	{

@@ -7,12 +7,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class JsonEnum; }
 
-#define RPG_GAMECORE_MODIFIERCUSTOMEVENTCONFIG_METHOD_2_CE1718586B91F924_OFFSET UNITYSDK_OFFSET(0x1D1B24B0)
-#define RPG_GAMECORE_MODIFIERCUSTOMEVENTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1B2650)
+#define RPG_GAMECORE_MODIFIERCUSTOMEVENTCONFIG_METHOD_2_CE1718586B91F924_OFFSET UNITYSDK_OFFSET(0x1D860240)
+#define RPG_GAMECORE_MODIFIERCUSTOMEVENTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D8603E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ModifierCustomEventConfig_TypeDefinitionIndex = 16907;
+	inline static constexpr unsigned int ModifierCustomEventConfig_TypeDefinitionIndex = 17101;
 
 	class ModifierCustomEventConfig : public ::RPG::GameCore::JsonConfig
 	{

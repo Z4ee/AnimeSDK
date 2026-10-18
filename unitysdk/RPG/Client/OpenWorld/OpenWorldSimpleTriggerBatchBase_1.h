@@ -10,7 +10,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::OpenWorld
 {
-	inline static constexpr unsigned int OpenWorldSimpleTriggerBatchBase_1_TypeDefinitionIndex = 73866;
+	inline static constexpr unsigned int OpenWorldSimpleTriggerBatchBase_1_TypeDefinitionIndex = 73973;
 
 	template <typename TTrigger>
 	class OpenWorldSimpleTriggerBatchBase_1 : public ::System::Object

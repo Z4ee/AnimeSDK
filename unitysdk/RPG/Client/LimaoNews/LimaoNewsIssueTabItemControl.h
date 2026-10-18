@@ -7,21 +7,21 @@ namespace RPG::Client::LimaoNews { class LimaoNewsIssueTabViewModel; }
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI { class Text; }
 
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSISSUETABITEMCONTROL_GET__VIEWMODEL_OFFSET UNITYSDK_OFFSET(0x1C5435F0)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSISSUETABITEMCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x1C5437C0)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSISSUETABITEMCONTROL__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x1C542F90)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSISSUETABITEMCONTROL__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0x1C542ED0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSISSUETABITEMCONTROL_GET__VIEWMODEL_OFFSET UNITYSDK_OFFSET(0xD3B0AF0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSISSUETABITEMCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0xD3B0CF0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSISSUETABITEMCONTROL__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0xD3B0640)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSISSUETABITEMCONTROL__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0xD3B0580)
 
 namespace RPG::Client::LimaoNews
 {
-	inline static constexpr unsigned int LimaoNewsIssueTabItemControl_TypeDefinitionIndex = 79068;
+	inline static constexpr unsigned int LimaoNewsIssueTabItemControl_TypeDefinitionIndex = 80391;
 
 	class LimaoNewsIssueTabItemControl : public ::Sofa::BaseSofaControl
 	{
 	public:
-		::RPG::Client::AnimatorButton* _Btn; // 0x38
-		::UnityEngine::UI::Text* _Text; // 0x40
-		::UnityEngine::Transform* _NodeRedDot; // 0x48
+		::RPG::Client::AnimatorButton* _Btn; // 0x40
+		::UnityEngine::UI::Text* _Text; // 0x48
+		::UnityEngine::Transform* _NodeRedDot; // 0x50
 
 		::System::Void _ctor()
 		{

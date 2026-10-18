@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_SIGNALCURVEPOOLENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF867A0)
+#define RPG_CLIENT_SIGNALCURVEPOOLENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0xE0B6EA0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SignalCurvePoolEntry_TypeDefinitionIndex = 70929;
+	inline static constexpr unsigned int SignalCurvePoolEntry_TypeDefinitionIndex = 70961;
 
 	class SignalCurvePoolEntry : public ::System::Object
 	{

@@ -1,7 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_1145_TypeDefinitionIndex = 72365;
+namespace Spine { class AnimationState; }
+namespace Spine { class Skeleton; }
+namespace Spine { class TrackEntry; }
+namespace Spine::Unity { class SkeletonDataAsset; }
+namespace System { class String; }
+
+inline static constexpr unsigned int Class_0_16E4307DCC419505_1145_TypeDefinitionIndex = 69019;
 
 class Class_0_16E4307DCC419505_1145
 {

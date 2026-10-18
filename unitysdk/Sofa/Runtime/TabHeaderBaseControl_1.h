@@ -10,7 +10,7 @@ template <typename T> class Class_1_D90286A3143EECEC;
 
 namespace Sofa::Runtime
 {
-	inline static constexpr unsigned int TabHeaderBaseControl_1_TypeDefinitionIndex = 50125;
+	inline static constexpr unsigned int TabHeaderBaseControl_1_TypeDefinitionIndex = 49729;
 
 	template <typename TViewModel>
 	class TabHeaderBaseControl_1 : public ::Sofa::BaseSofaControl_1<TViewModel>

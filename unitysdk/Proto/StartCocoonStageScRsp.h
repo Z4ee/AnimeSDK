@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_61216D16FF425F39;
+class Class_1_F3A1DCCA590EDEAE;
 namespace Google::Protobuf { class CodedInputStream; }
 namespace Google::Protobuf { class CodedOutputStream; }
 namespace Google::Protobuf { class UnknownFieldSet; }
@@ -10,57 +10,57 @@ namespace Google::Protobuf { template <typename T> class MessageParser_1; }
 namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 namespace System { class String; }
 
-#define PROTO_STARTCOCOONSTAGESCRSP_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1DD55010)
-#define PROTO_STARTCOCOONSTAGESCRSP_CLONE_OFFSET UNITYSDK_OFFSET(0x1DD54990)
-#define PROTO_STARTCOCOONSTAGESCRSP_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1DD54C00)
-#define PROTO_STARTCOCOONSTAGESCRSP_EQUALS_OFFSET UNITYSDK_OFFSET(0x1DD54AE0)
-#define PROTO_STARTCOCOONSTAGESCRSP_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1DD54D10)
-#define PROTO_STARTCOCOONSTAGESCRSP_GET_BATTLEINFO_OFFSET UNITYSDK_OFFSET(0x1DD54A60)
-#define PROTO_STARTCOCOONSTAGESCRSP_GET_CHALLENGECNT_OFFSET UNITYSDK_OFFSET(0x1DD54A80)
-#define PROTO_STARTCOCOONSTAGESCRSP_GET_COCOONID_OFFSET UNITYSDK_OFFSET(0x1DD54AC0)
-#define PROTO_STARTCOCOONSTAGESCRSP_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x1DD548C0)
-#define PROTO_STARTCOCOONSTAGESCRSP_GET_PROPENTITYID_OFFSET UNITYSDK_OFFSET(0x1DD54AA0)
-#define PROTO_STARTCOCOONSTAGESCRSP_GET_RETCODE_OFFSET UNITYSDK_OFFSET(0x1DD54A40)
-#define PROTO_STARTCOCOONSTAGESCRSP_GET_WAVE_OFFSET UNITYSDK_OFFSET(0x1DD54A20)
-#define PROTO_STARTCOCOONSTAGESCRSP_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1DD55380)
-#define PROTO_STARTCOCOONSTAGESCRSP_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1DD552D0)
-#define PROTO_STARTCOCOONSTAGESCRSP_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1DD548F0)
-#define PROTO_STARTCOCOONSTAGESCRSP_SET_BATTLEINFO_OFFSET UNITYSDK_OFFSET(0x1DD54A70)
-#define PROTO_STARTCOCOONSTAGESCRSP_SET_CHALLENGECNT_OFFSET UNITYSDK_OFFSET(0x1DD54A90)
-#define PROTO_STARTCOCOONSTAGESCRSP_SET_COCOONID_OFFSET UNITYSDK_OFFSET(0x1DD54AD0)
-#define PROTO_STARTCOCOONSTAGESCRSP_SET_PROPENTITYID_OFFSET UNITYSDK_OFFSET(0x1DD54AB0)
-#define PROTO_STARTCOCOONSTAGESCRSP_SET_RETCODE_OFFSET UNITYSDK_OFFSET(0x1DD54A50)
-#define PROTO_STARTCOCOONSTAGESCRSP_SET_WAVE_OFFSET UNITYSDK_OFFSET(0x1DD54A30)
-#define PROTO_STARTCOCOONSTAGESCRSP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DD54D60)
-#define PROTO_STARTCOCOONSTAGESCRSP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DD54DC0)
-#define PROTO_STARTCOCOONSTAGESCRSP__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DD55480)
-#define PROTO_STARTCOCOONSTAGESCRSP__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1DD54910)
-#define PROTO_STARTCOCOONSTAGESCRSP__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD54900)
+#define PROTO_STARTCOCOONSTAGESCRSP_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1DFE68B0)
+#define PROTO_STARTCOCOONSTAGESCRSP_CLONE_OFFSET UNITYSDK_OFFSET(0x1DFE6230)
+#define PROTO_STARTCOCOONSTAGESCRSP_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1DFE64A0)
+#define PROTO_STARTCOCOONSTAGESCRSP_EQUALS_OFFSET UNITYSDK_OFFSET(0x1DFE6380)
+#define PROTO_STARTCOCOONSTAGESCRSP_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1DFE65B0)
+#define PROTO_STARTCOCOONSTAGESCRSP_GET_BATTLEINFO_OFFSET UNITYSDK_OFFSET(0x1DFE62C0)
+#define PROTO_STARTCOCOONSTAGESCRSP_GET_CHALLENGECNT_OFFSET UNITYSDK_OFFSET(0x1DFE6340)
+#define PROTO_STARTCOCOONSTAGESCRSP_GET_COCOONID_OFFSET UNITYSDK_OFFSET(0x1DFE6320)
+#define PROTO_STARTCOCOONSTAGESCRSP_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x1DFE6160)
+#define PROTO_STARTCOCOONSTAGESCRSP_GET_PROPENTITYID_OFFSET UNITYSDK_OFFSET(0x1DFE62E0)
+#define PROTO_STARTCOCOONSTAGESCRSP_GET_RETCODE_OFFSET UNITYSDK_OFFSET(0x1DFE6300)
+#define PROTO_STARTCOCOONSTAGESCRSP_GET_WAVE_OFFSET UNITYSDK_OFFSET(0x1DFE6360)
+#define PROTO_STARTCOCOONSTAGESCRSP_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1DFE6C20)
+#define PROTO_STARTCOCOONSTAGESCRSP_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1DFE6B70)
+#define PROTO_STARTCOCOONSTAGESCRSP_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1DFE6190)
+#define PROTO_STARTCOCOONSTAGESCRSP_SET_BATTLEINFO_OFFSET UNITYSDK_OFFSET(0x1DFE62D0)
+#define PROTO_STARTCOCOONSTAGESCRSP_SET_CHALLENGECNT_OFFSET UNITYSDK_OFFSET(0x1DFE6350)
+#define PROTO_STARTCOCOONSTAGESCRSP_SET_COCOONID_OFFSET UNITYSDK_OFFSET(0x1DFE6330)
+#define PROTO_STARTCOCOONSTAGESCRSP_SET_PROPENTITYID_OFFSET UNITYSDK_OFFSET(0x1DFE62F0)
+#define PROTO_STARTCOCOONSTAGESCRSP_SET_RETCODE_OFFSET UNITYSDK_OFFSET(0x1DFE6310)
+#define PROTO_STARTCOCOONSTAGESCRSP_SET_WAVE_OFFSET UNITYSDK_OFFSET(0x1DFE6370)
+#define PROTO_STARTCOCOONSTAGESCRSP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DFE6600)
+#define PROTO_STARTCOCOONSTAGESCRSP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DFE6660)
+#define PROTO_STARTCOCOONSTAGESCRSP__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DFE6D20)
+#define PROTO_STARTCOCOONSTAGESCRSP__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1DFE61B0)
+#define PROTO_STARTCOCOONSTAGESCRSP__CTOR_OFFSET UNITYSDK_OFFSET(0x1DFE61A0)
 
 namespace Proto
 {
-	inline static constexpr unsigned int StartCocoonStageScRsp_TypeDefinitionIndex = 33383;
+	inline static constexpr unsigned int StartCocoonStageScRsp_TypeDefinitionIndex = 34033;
 
 	class StartCocoonStageScRsp : public ::System::Object
 	{
 	public:
 		static ::Google::Protobuf::MessageParser_1<::Proto::StartCocoonStageScRsp*>** StaticGet__parser()
 		{
-			return (::Google::Protobuf::MessageParser_1<::Proto::StartCocoonStageScRsp*>**)Il2CppClass::FromTypeDefinitionIndex(StartCocoonStageScRsp_TypeDefinitionIndex)->GetStaticField(0x254D0);
+			return (::Google::Protobuf::MessageParser_1<::Proto::StartCocoonStageScRsp*>**)Il2CppClass::FromTypeDefinitionIndex(StartCocoonStageScRsp_TypeDefinitionIndex)->GetStaticField(0x4ECC0);
 		}
-		// static const ::System::Int32 WaveFieldNumber = 0x3; // 0x0
-		// static const ::System::Int32 RetcodeFieldNumber = 0xD; // 0x0
-		// static const ::System::Int32 BattleInfoFieldNumber = 0xF; // 0x0
-		// static const ::System::Int32 ChallengeCntFieldNumber = 0xE; // 0x0
-		// static const ::System::Int32 PropEntityIdFieldNumber = 0xB; // 0x0
-		// static const ::System::Int32 CocoonIdFieldNumber = 0x6; // 0x0
-		::Class_1_61216D16FF425F39* battleInfo_; // 0x10
-		::Google::Protobuf::UnknownFieldSet* _unknownFields; // 0x18
-		::System::UInt32 wave_; // 0x20
-		::System::UInt32 retcode_; // 0x24
-		::System::UInt32 cocoonId_; // 0x28
-		::System::UInt32 challengeCnt_; // 0x2C
-		::System::UInt32 propEntityId_; // 0x30
+		// static const ::System::Int32 BattleInfoFieldNumber = 0x4; // 0x0
+		// static const ::System::Int32 PropEntityIdFieldNumber = 0x1; // 0x0
+		// static const ::System::Int32 RetcodeFieldNumber = 0x9; // 0x0
+		// static const ::System::Int32 CocoonIdFieldNumber = 0xD; // 0x0
+		// static const ::System::Int32 ChallengeCntFieldNumber = 0xF; // 0x0
+		// static const ::System::Int32 WaveFieldNumber = 0x8; // 0x0
+		::Google::Protobuf::UnknownFieldSet* _unknownFields; // 0x10
+		::Class_1_F3A1DCCA590EDEAE* battleInfo_; // 0x18
+		::System::UInt32 cocoonId_; // 0x20
+		::System::UInt32 challengeCnt_; // 0x24
+		::System::UInt32 wave_; // 0x28
+		::System::UInt32 propEntityId_; // 0x2C
+		::System::UInt32 retcode_; // 0x30
 
 		::System::Void _ctor()
 		{
@@ -92,44 +92,14 @@ namespace Proto
 			return ((::Proto::StartCocoonStageScRsp*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_STARTCOCOONSTAGESCRSP_CLONE_OFFSET))(this);
 		}
 
-		::System::UInt32 get_Wave()
+		::Class_1_F3A1DCCA590EDEAE* get_BattleInfo()
 		{
-			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_STARTCOCOONSTAGESCRSP_GET_WAVE_OFFSET))(this);
+			return ((::Class_1_F3A1DCCA590EDEAE*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_STARTCOCOONSTAGESCRSP_GET_BATTLEINFO_OFFSET))(this);
 		}
 
-		::System::Void set_Wave(::System::UInt32 a1)
+		::System::Void set_BattleInfo(::Class_1_F3A1DCCA590EDEAE* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_STARTCOCOONSTAGESCRSP_SET_WAVE_OFFSET))(this, a1);
-		}
-
-		::System::UInt32 get_Retcode()
-		{
-			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_STARTCOCOONSTAGESCRSP_GET_RETCODE_OFFSET))(this);
-		}
-
-		::System::Void set_Retcode(::System::UInt32 a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_STARTCOCOONSTAGESCRSP_SET_RETCODE_OFFSET))(this, a1);
-		}
-
-		::Class_1_61216D16FF425F39* get_BattleInfo()
-		{
-			return ((::Class_1_61216D16FF425F39*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_STARTCOCOONSTAGESCRSP_GET_BATTLEINFO_OFFSET))(this);
-		}
-
-		::System::Void set_BattleInfo(::Class_1_61216D16FF425F39* a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_61216D16FF425F39*))((::PBYTE)hIl2Cpp + PROTO_STARTCOCOONSTAGESCRSP_SET_BATTLEINFO_OFFSET))(this, a1);
-		}
-
-		::System::UInt32 get_ChallengeCnt()
-		{
-			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_STARTCOCOONSTAGESCRSP_GET_CHALLENGECNT_OFFSET))(this);
-		}
-
-		::System::Void set_ChallengeCnt(::System::UInt32 a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_STARTCOCOONSTAGESCRSP_SET_CHALLENGECNT_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Class_1_F3A1DCCA590EDEAE*))((::PBYTE)hIl2Cpp + PROTO_STARTCOCOONSTAGESCRSP_SET_BATTLEINFO_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_PropEntityId()
@@ -142,6 +112,16 @@ namespace Proto
 			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_STARTCOCOONSTAGESCRSP_SET_PROPENTITYID_OFFSET))(this, a1);
 		}
 
+		::System::UInt32 get_Retcode()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_STARTCOCOONSTAGESCRSP_GET_RETCODE_OFFSET))(this);
+		}
+
+		::System::Void set_Retcode(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_STARTCOCOONSTAGESCRSP_SET_RETCODE_OFFSET))(this, a1);
+		}
+
 		::System::UInt32 get_CocoonId()
 		{
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_STARTCOCOONSTAGESCRSP_GET_COCOONID_OFFSET))(this);
@@ -150,6 +130,26 @@ namespace Proto
 		::System::Void set_CocoonId(::System::UInt32 a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_STARTCOCOONSTAGESCRSP_SET_COCOONID_OFFSET))(this, a1);
+		}
+
+		::System::UInt32 get_ChallengeCnt()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_STARTCOCOONSTAGESCRSP_GET_CHALLENGECNT_OFFSET))(this);
+		}
+
+		::System::Void set_ChallengeCnt(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_STARTCOCOONSTAGESCRSP_SET_CHALLENGECNT_OFFSET))(this, a1);
+		}
+
+		::System::UInt32 get_Wave()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_STARTCOCOONSTAGESCRSP_GET_WAVE_OFFSET))(this);
+		}
+
+		::System::Void set_Wave(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_STARTCOCOONSTAGESCRSP_SET_WAVE_OFFSET))(this, a1);
 		}
 
 		::System::Boolean Equals(::System::Object* a1)

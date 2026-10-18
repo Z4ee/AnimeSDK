@@ -4,7 +4,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BitFlag_1_TypeDefinitionIndex = 60101;
+	inline static constexpr unsigned int BitFlag_1_TypeDefinitionIndex = 59964;
 
 	template <typename BitEnum>
 	struct BitFlag_1

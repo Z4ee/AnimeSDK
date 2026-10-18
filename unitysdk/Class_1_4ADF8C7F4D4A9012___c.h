@@ -5,37 +5,37 @@
 class Class_1_9DB6F6BB628BF86A;
 namespace System { template <typename T> class Comparison_1; }
 
-#define CLASS_1_4ADF8C7F4D4A9012___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CE00CB0)
-#define CLASS_1_4ADF8C7F4D4A9012___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE00CF0)
-#define CLASS_1_4ADF8C7F4D4A9012___C__GETAUXILIARYLINE_B__12_0_OFFSET UNITYSDK_OFFSET(0x1CE00D00)
-#define CLASS_1_4ADF8C7F4D4A9012___C__GETAUXILIARYLINE_B__12_1_OFFSET UNITYSDK_OFFSET(0x1CE00D40)
-#define CLASS_1_4ADF8C7F4D4A9012___C___SIMULATEONEFRAME_B__14_0_OFFSET UNITYSDK_OFFSET(0x1CE00D80)
-#define CLASS_1_4ADF8C7F4D4A9012___C___TESTCIRCLE2RECT_B__16_0_OFFSET UNITYSDK_OFFSET(0x1CE00DC0)
+#define CLASS_1_4ADF8C7F4D4A9012___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CB70370)
+#define CLASS_1_4ADF8C7F4D4A9012___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1CB703B0)
+#define CLASS_1_4ADF8C7F4D4A9012___C__GETAUXILIARYLINE_B__13_0_OFFSET UNITYSDK_OFFSET(0x1CB703C0)
+#define CLASS_1_4ADF8C7F4D4A9012___C__GETAUXILIARYLINE_B__13_1_OFFSET UNITYSDK_OFFSET(0x1CB70400)
+#define CLASS_1_4ADF8C7F4D4A9012___C___SIMULATEONEFRAME_B__16_0_OFFSET UNITYSDK_OFFSET(0x1CB70440)
+#define CLASS_1_4ADF8C7F4D4A9012___C___TESTCIRCLE2RECT_B__18_0_OFFSET UNITYSDK_OFFSET(0x1CB70480)
 
-inline static constexpr unsigned int Class_1_4ADF8C7F4D4A9012___c_TypeDefinitionIndex = 41461;
+inline static constexpr unsigned int Class_1_4ADF8C7F4D4A9012___c_TypeDefinitionIndex = 43084;
 
 class Class_1_4ADF8C7F4D4A9012___c : public ::System::Object
 {
 public:
-	static ::System::Comparison_1<::Class_1_9DB6F6BB628BF86A*>** StaticGet___9__12_0()
+	static ::System::Comparison_1<::Class_1_9DB6F6BB628BF86A*>** StaticGet___9__16_0()
 	{
-		return (::System::Comparison_1<::Class_1_9DB6F6BB628BF86A*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_4ADF8C7F4D4A9012___c_TypeDefinitionIndex)->GetStaticField(0x568A0);
+		return (::System::Comparison_1<::Class_1_9DB6F6BB628BF86A*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_4ADF8C7F4D4A9012___c_TypeDefinitionIndex)->GetStaticField(0x45BA0);
 	}
-	static ::System::Comparison_1<::Class_1_9DB6F6BB628BF86A*>** StaticGet___9__14_0()
+	static ::System::Comparison_1<::Class_1_9DB6F6BB628BF86A*>** StaticGet___9__18_0()
 	{
-		return (::System::Comparison_1<::Class_1_9DB6F6BB628BF86A*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_4ADF8C7F4D4A9012___c_TypeDefinitionIndex)->GetStaticField(0x568A8);
+		return (::System::Comparison_1<::Class_1_9DB6F6BB628BF86A*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_4ADF8C7F4D4A9012___c_TypeDefinitionIndex)->GetStaticField(0x45BA8);
+	}
+	static ::System::Comparison_1<::Class_1_9DB6F6BB628BF86A*>** StaticGet___9__13_0()
+	{
+		return (::System::Comparison_1<::Class_1_9DB6F6BB628BF86A*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_4ADF8C7F4D4A9012___c_TypeDefinitionIndex)->GetStaticField(0x45BB0);
 	}
 	static ::Class_1_4ADF8C7F4D4A9012___c** StaticGet___9()
 	{
-		return (::Class_1_4ADF8C7F4D4A9012___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_4ADF8C7F4D4A9012___c_TypeDefinitionIndex)->GetStaticField(0x568B0);
+		return (::Class_1_4ADF8C7F4D4A9012___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_4ADF8C7F4D4A9012___c_TypeDefinitionIndex)->GetStaticField(0x45BB8);
 	}
-	static ::System::Comparison_1<::Class_1_9DB6F6BB628BF86A*>** StaticGet___9__12_1()
+	static ::System::Comparison_1<::Class_1_9DB6F6BB628BF86A*>** StaticGet___9__13_1()
 	{
-		return (::System::Comparison_1<::Class_1_9DB6F6BB628BF86A*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_4ADF8C7F4D4A9012___c_TypeDefinitionIndex)->GetStaticField(0x568B8);
-	}
-	static ::System::Comparison_1<::Class_1_9DB6F6BB628BF86A*>** StaticGet___9__16_0()
-	{
-		return (::System::Comparison_1<::Class_1_9DB6F6BB628BF86A*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_4ADF8C7F4D4A9012___c_TypeDefinitionIndex)->GetStaticField(0x568C0);
+		return (::System::Comparison_1<::Class_1_9DB6F6BB628BF86A*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_4ADF8C7F4D4A9012___c_TypeDefinitionIndex)->GetStaticField(0x45BC0);
 	}
 
 	static ::System::Void _cctor()
@@ -48,23 +48,23 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_4ADF8C7F4D4A9012___C__CTOR_OFFSET))(this);
 	}
 
-	::System::Int32 _GetAuxiliaryLine_b__12_0(::Class_1_9DB6F6BB628BF86A* a1, ::Class_1_9DB6F6BB628BF86A* a2)
+	::System::Int32 _GetAuxiliaryLine_b__13_0(::Class_1_9DB6F6BB628BF86A* a1, ::Class_1_9DB6F6BB628BF86A* a2)
 	{
-		return ((::System::Int32(*)(::PVOID, ::Class_1_9DB6F6BB628BF86A*, ::Class_1_9DB6F6BB628BF86A*))((::PBYTE)hIl2Cpp + CLASS_1_4ADF8C7F4D4A9012___C__GETAUXILIARYLINE_B__12_0_OFFSET))(this, a1, a2);
+		return ((::System::Int32(*)(::PVOID, ::Class_1_9DB6F6BB628BF86A*, ::Class_1_9DB6F6BB628BF86A*))((::PBYTE)hIl2Cpp + CLASS_1_4ADF8C7F4D4A9012___C__GETAUXILIARYLINE_B__13_0_OFFSET))(this, a1, a2);
 	}
 
-	::System::Int32 _GetAuxiliaryLine_b__12_1(::Class_1_9DB6F6BB628BF86A* a1, ::Class_1_9DB6F6BB628BF86A* a2)
+	::System::Int32 _GetAuxiliaryLine_b__13_1(::Class_1_9DB6F6BB628BF86A* a1, ::Class_1_9DB6F6BB628BF86A* a2)
 	{
-		return ((::System::Int32(*)(::PVOID, ::Class_1_9DB6F6BB628BF86A*, ::Class_1_9DB6F6BB628BF86A*))((::PBYTE)hIl2Cpp + CLASS_1_4ADF8C7F4D4A9012___C__GETAUXILIARYLINE_B__12_1_OFFSET))(this, a1, a2);
+		return ((::System::Int32(*)(::PVOID, ::Class_1_9DB6F6BB628BF86A*, ::Class_1_9DB6F6BB628BF86A*))((::PBYTE)hIl2Cpp + CLASS_1_4ADF8C7F4D4A9012___C__GETAUXILIARYLINE_B__13_1_OFFSET))(this, a1, a2);
 	}
 
-	::System::Int32 __SimulateOneFrame_b__14_0(::Class_1_9DB6F6BB628BF86A* a1, ::Class_1_9DB6F6BB628BF86A* a2)
+	::System::Int32 __SimulateOneFrame_b__16_0(::Class_1_9DB6F6BB628BF86A* a1, ::Class_1_9DB6F6BB628BF86A* a2)
 	{
-		return ((::System::Int32(*)(::PVOID, ::Class_1_9DB6F6BB628BF86A*, ::Class_1_9DB6F6BB628BF86A*))((::PBYTE)hIl2Cpp + CLASS_1_4ADF8C7F4D4A9012___C___SIMULATEONEFRAME_B__14_0_OFFSET))(this, a1, a2);
+		return ((::System::Int32(*)(::PVOID, ::Class_1_9DB6F6BB628BF86A*, ::Class_1_9DB6F6BB628BF86A*))((::PBYTE)hIl2Cpp + CLASS_1_4ADF8C7F4D4A9012___C___SIMULATEONEFRAME_B__16_0_OFFSET))(this, a1, a2);
 	}
 
-	::System::Int32 __TestCircle2Rect_b__16_0(::Class_1_9DB6F6BB628BF86A* a1, ::Class_1_9DB6F6BB628BF86A* a2)
+	::System::Int32 __TestCircle2Rect_b__18_0(::Class_1_9DB6F6BB628BF86A* a1, ::Class_1_9DB6F6BB628BF86A* a2)
 	{
-		return ((::System::Int32(*)(::PVOID, ::Class_1_9DB6F6BB628BF86A*, ::Class_1_9DB6F6BB628BF86A*))((::PBYTE)hIl2Cpp + CLASS_1_4ADF8C7F4D4A9012___C___TESTCIRCLE2RECT_B__16_0_OFFSET))(this, a1, a2);
+		return ((::System::Int32(*)(::PVOID, ::Class_1_9DB6F6BB628BF86A*, ::Class_1_9DB6F6BB628BF86A*))((::PBYTE)hIl2Cpp + CLASS_1_4ADF8C7F4D4A9012___C___TESTCIRCLE2RECT_B__18_0_OFFSET))(this, a1, a2);
 	}
 };

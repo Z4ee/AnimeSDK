@@ -3,24 +3,24 @@
 #include "unitysdk/RPG/Client/GamePlayLockTargetFunc.h"
 #include "unitysdk/System/Nullable_1.h"
 
-class Class_0_16E4307DCC419505_359;
+class Class_0_16E4307DCC419505_440;
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_79B2C08CB904DE40_LOCK_OFFSET UNITYSDK_OFFSET(0x1849AF60)
-#define CLASS_2_79B2C08CB904DE40_UNLOCK_OFFSET UNITYSDK_OFFSET(0x1AF1A670)
-#define CLASS_2_79B2C08CB904DE40__CTOR_OFFSET UNITYSDK_OFFSET(0x1849AF50)
+#define CLASS_2_79B2C08CB904DE40_LOCK_OFFSET UNITYSDK_OFFSET(0xB5DFB90)
+#define CLASS_2_79B2C08CB904DE40_UNLOCK_OFFSET UNITYSDK_OFFSET(0xB5DFC50)
+#define CLASS_2_79B2C08CB904DE40__CTOR_OFFSET UNITYSDK_OFFSET(0xB5DFB80)
 
-inline static constexpr unsigned int Class_2_79B2C08CB904DE40_TypeDefinitionIndex = 74651;
+inline static constexpr unsigned int Class_2_79B2C08CB904DE40_TypeDefinitionIndex = 74795;
 
 class Class_2_79B2C08CB904DE40 : public ::RPG::Client::GamePlayLockTargetFunc
 {
 public:
 	::System::Nullable_1<::System::UInt32> IPMICIJLDBJ; // 0x28
 
-	::System::Void _ctor(::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_359*>* a1)
+	::System::Void _ctor(::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_440*>* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_359*>*))((::PBYTE)hIl2Cpp + CLASS_2_79B2C08CB904DE40__CTOR_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_440*>*))((::PBYTE)hIl2Cpp + CLASS_2_79B2C08CB904DE40__CTOR_OFFSET))(this, a1);
 	}
 
 	::System::Void Lock(::Il2CppArray<::System::Object*>* a1)

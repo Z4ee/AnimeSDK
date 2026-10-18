@@ -6,27 +6,27 @@ namespace RPG::Client { class BlendConfig; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define CLASS_1_D29CDF22C49A3230___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17241460)
-#define CLASS_1_D29CDF22C49A3230___C__CTOR_OFFSET UNITYSDK_OFFSET(0x172414A0)
-#define CLASS_1_D29CDF22C49A3230___C___ENSUREBLENDCONFIGSLOADED_B__13_0_OFFSET UNITYSDK_OFFSET(0x172414B0)
-#define CLASS_1_D29CDF22C49A3230___C___ENSUREBLENDCONFIGSLOADED_B__13_1_OFFSET UNITYSDK_OFFSET(0x172414D0)
+#define CLASS_1_D29CDF22C49A3230___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1451BA60)
+#define CLASS_1_D29CDF22C49A3230___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1451BAA0)
+#define CLASS_1_D29CDF22C49A3230___C___ENSUREBLENDCONFIGSLOADED_B__13_0_OFFSET UNITYSDK_OFFSET(0x1451BAB0)
+#define CLASS_1_D29CDF22C49A3230___C___ENSUREBLENDCONFIGSLOADED_B__13_1_OFFSET UNITYSDK_OFFSET(0x1451BAD0)
 
-inline static constexpr unsigned int Class_1_D29CDF22C49A3230___c_TypeDefinitionIndex = 80434;
+inline static constexpr unsigned int Class_1_D29CDF22C49A3230___c_TypeDefinitionIndex = 81762;
 
 class Class_1_D29CDF22C49A3230___c : public ::System::Object
 {
 public:
+	static ::Class_1_D29CDF22C49A3230___c** StaticGet___9()
+	{
+		return (::Class_1_D29CDF22C49A3230___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_D29CDF22C49A3230___c_TypeDefinitionIndex)->GetStaticField(0x30A0);
+	}
 	static ::System::Func_2<::RPG::Client::BlendConfig*, ::RPG::Client::BlendConfig*>** StaticGet___9__13_1()
 	{
-		return (::System::Func_2<::RPG::Client::BlendConfig*, ::RPG::Client::BlendConfig*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_D29CDF22C49A3230___c_TypeDefinitionIndex)->GetStaticField(0x61040);
+		return (::System::Func_2<::RPG::Client::BlendConfig*, ::RPG::Client::BlendConfig*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_D29CDF22C49A3230___c_TypeDefinitionIndex)->GetStaticField(0x30A8);
 	}
 	static ::System::Func_2<::RPG::Client::BlendConfig*, ::System::String*>** StaticGet___9__13_0()
 	{
-		return (::System::Func_2<::RPG::Client::BlendConfig*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_D29CDF22C49A3230___c_TypeDefinitionIndex)->GetStaticField(0x61048);
-	}
-	static ::Class_1_D29CDF22C49A3230___c** StaticGet___9()
-	{
-		return (::Class_1_D29CDF22C49A3230___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_D29CDF22C49A3230___c_TypeDefinitionIndex)->GetStaticField(0x61050);
+		return (::System::Func_2<::RPG::Client::BlendConfig*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_D29CDF22C49A3230___c_TypeDefinitionIndex)->GetStaticField(0x30B0);
 	}
 
 	static ::System::Void _cctor()

@@ -5,12 +5,12 @@
 namespace MiHoYo::SDK { class AccountModel; }
 namespace MiHoYo::SDK::Win { class OverseaGrantMail; }
 
-#define MIHOYO_SDK_WIN_OVERSEAGRANTMAIL___C__DISPLAYCLASS39_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18B21580)
-#define MIHOYO_SDK_WIN_OVERSEAGRANTMAIL___C__DISPLAYCLASS39_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x18B21A80)
+#define MIHOYO_SDK_WIN_OVERSEAGRANTMAIL___C__DISPLAYCLASS39_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD876E0)
+#define MIHOYO_SDK_WIN_OVERSEAGRANTMAIL___C__DISPLAYCLASS39_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1BD87C50)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int OverseaGrantMail___c__DisplayClass39_0_TypeDefinitionIndex = 9473;
+	inline static constexpr unsigned int OverseaGrantMail___c__DisplayClass39_0_TypeDefinitionIndex = 9531;
 
 	class OverseaGrantMail___c__DisplayClass39_0 : public ::System::Object
 	{

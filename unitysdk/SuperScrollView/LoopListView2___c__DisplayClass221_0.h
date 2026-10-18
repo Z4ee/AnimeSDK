@@ -7,12 +7,12 @@ namespace SuperScrollView { class LoopListViewItem2; }
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
 namespace XLua { class LuaTable; }
 
-#define SUPERSCROLLVIEW_LOOPLISTVIEW2___C__DISPLAYCLASS221_0__CTOR_OFFSET UNITYSDK_OFFSET(0x104DC6F0)
-#define SUPERSCROLLVIEW_LOOPLISTVIEW2___C__DISPLAYCLASS221_0__SAFEINITLISTVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x104E1EC0)
+#define SUPERSCROLLVIEW_LOOPLISTVIEW2___C__DISPLAYCLASS221_0__CTOR_OFFSET UNITYSDK_OFFSET(0xE9C0530)
+#define SUPERSCROLLVIEW_LOOPLISTVIEW2___C__DISPLAYCLASS221_0__SAFEINITLISTVIEW_B__0_OFFSET UNITYSDK_OFFSET(0xE9C5910)
 
 namespace SuperScrollView
 {
-	inline static constexpr unsigned int LoopListView2___c__DisplayClass221_0_TypeDefinitionIndex = 48127;
+	inline static constexpr unsigned int LoopListView2___c__DisplayClass221_0_TypeDefinitionIndex = 47667;
 
 	class LoopListView2___c__DisplayClass221_0 : public ::System::Object
 	{

@@ -6,13 +6,13 @@ namespace HoudiniEngineUnity { class Test_MeshFilter; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class MeshFilter; }
 
-#define HOUDINIENGINEUNITY_TEST_MESHFILTER_EXTENSIONS_TOTESTOBJECT_1_OFFSET UNITYSDK_OFFSET(0x1EEEEBA0)
-#define HOUDINIENGINEUNITY_TEST_MESHFILTER_EXTENSIONS_TOTESTOBJECT_2_OFFSET UNITYSDK_OFFSET(0x1EEEECC0)
-#define HOUDINIENGINEUNITY_TEST_MESHFILTER_EXTENSIONS_TOTESTOBJECT_OFFSET UNITYSDK_OFFSET(0x1EEEEB60)
+#define HOUDINIENGINEUNITY_TEST_MESHFILTER_EXTENSIONS_TOTESTOBJECT_1_OFFSET UNITYSDK_OFFSET(0x1B993D10)
+#define HOUDINIENGINEUNITY_TEST_MESHFILTER_EXTENSIONS_TOTESTOBJECT_2_OFFSET UNITYSDK_OFFSET(0x1B993E30)
+#define HOUDINIENGINEUNITY_TEST_MESHFILTER_EXTENSIONS_TOTESTOBJECT_OFFSET UNITYSDK_OFFSET(0x1B993CD0)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int Test_MeshFilter_Extensions_TypeDefinitionIndex = 39444;
+	inline static constexpr unsigned int Test_MeshFilter_Extensions_TypeDefinitionIndex = 40741;
 
 	class Test_MeshFilter_Extensions : public ::System::Object
 	{

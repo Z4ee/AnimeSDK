@@ -8,9 +8,9 @@ namespace System { class Type; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_A052F48AC136DF88__CTOR_OFFSET UNITYSDK_OFFSET(0x18DBF130)
+#define CLASS_1_A052F48AC136DF88__CTOR_OFFSET UNITYSDK_OFFSET(0x15DCEA50)
 
-inline static constexpr unsigned int Class_1_A052F48AC136DF88_TypeDefinitionIndex = 64389;
+inline static constexpr unsigned int Class_1_A052F48AC136DF88_TypeDefinitionIndex = 64329;
 
 class Class_1_A052F48AC136DF88 : public ::System::Object
 {

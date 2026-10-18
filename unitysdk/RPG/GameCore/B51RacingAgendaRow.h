@@ -5,18 +5,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_B51RACINGAGENDAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B2E27F0)
-#define RPG_GAMECORE_B51RACINGAGENDAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B2E2970)
+#define RPG_GAMECORE_B51RACINGAGENDAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D405290)
+#define RPG_GAMECORE_B51RACINGAGENDAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D405410)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int B51RacingAgendaRow_TypeDefinitionIndex = 10938;
+	inline static constexpr unsigned int B51RacingAgendaRow_TypeDefinitionIndex = 10954;
 
 	class B51RacingAgendaRow : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::B51RacingContentType ContentType; // 0x10
-		::System::UInt32 Day; // 0x14
+		::System::UInt32 Day; // 0x10
+		::RPG::GameCore::B51RacingContentType ContentType; // 0x14
 		::System::UInt32 CycleID; // 0x18
 
 		::System::Void _ctor()

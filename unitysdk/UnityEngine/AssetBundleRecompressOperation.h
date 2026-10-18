@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/AsyncOperation.h"
 
-#define UNITYENGINE_ASSETBUNDLERECOMPRESSOPERATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1F0078D0)
+#define UNITYENGINE_ASSETBUNDLERECOMPRESSOPERATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1F393BC0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int AssetBundleRecompressOperation_TypeDefinitionIndex = 5758;
+	inline static constexpr unsigned int AssetBundleRecompressOperation_TypeDefinitionIndex = 5766;
 
 	class AssetBundleRecompressOperation : public ::UnityEngine::AsyncOperation
 	{

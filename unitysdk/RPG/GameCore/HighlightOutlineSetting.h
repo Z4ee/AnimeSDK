@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_HIGHLIGHTOUTLINESETTING_METHOD_2_12123BF3F4A917BA_OFFSET UNITYSDK_OFFSET(0x1D3E1360)
-#define RPG_GAMECORE_HIGHLIGHTOUTLINESETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3E1580)
+#define RPG_GAMECORE_HIGHLIGHTOUTLINESETTING_METHOD_2_12123BF3F4A917BA_OFFSET UNITYSDK_OFFSET(0x1D73C8A0)
+#define RPG_GAMECORE_HIGHLIGHTOUTLINESETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x1D73CAC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HighlightOutlineSetting_TypeDefinitionIndex = 16952;
+	inline static constexpr unsigned int HighlightOutlineSetting_TypeDefinitionIndex = 17147;
 
 	class HighlightOutlineSetting : public ::RPG::GameCore::JsonConfig
 	{

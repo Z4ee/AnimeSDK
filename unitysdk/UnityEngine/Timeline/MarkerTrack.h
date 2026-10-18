@@ -5,12 +5,12 @@
 
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define UNITYENGINE_TIMELINE_MARKERTRACK_GET_OUTPUTS_OFFSET UNITYSDK_OFFSET(0x1BF67C80)
-#define UNITYENGINE_TIMELINE_MARKERTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF67FF0)
+#define UNITYENGINE_TIMELINE_MARKERTRACK_GET_OUTPUTS_OFFSET UNITYSDK_OFFSET(0x1F35F0D0)
+#define UNITYENGINE_TIMELINE_MARKERTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1F35F440)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int MarkerTrack_TypeDefinitionIndex = 37533;
+	inline static constexpr unsigned int MarkerTrack_TypeDefinitionIndex = 38830;
 
 	class MarkerTrack : public ::UnityEngine::Timeline::TrackAsset
 	{

@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-class Class_1_21C7581DFE99F091_4;
+namespace RPG::GameCore { class JsonEnum; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_724_TypeDefinitionIndex = 61881;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_724_TypeDefinitionIndex = 57829;
 
 class Class_0_16E4307DCC419505_724
 {

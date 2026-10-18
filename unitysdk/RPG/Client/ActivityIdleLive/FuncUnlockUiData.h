@@ -7,12 +7,12 @@
 namespace RPG::GameCore { class IdleLiveFuncUnlockHintRow; }
 namespace System { class String; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_FUNCUNLOCKUIDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x1B9095F0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_FUNCUNLOCKUIDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9096B0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_FUNCUNLOCKUIDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xC4515E0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_FUNCUNLOCKUIDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xC4516A0)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int FuncUnlockUiData_TypeDefinitionIndex = 75123;
+	inline static constexpr unsigned int FuncUnlockUiData_TypeDefinitionIndex = 75423;
 
 	class FuncUnlockUiData : public ::System::Object
 	{

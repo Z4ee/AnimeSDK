@@ -5,19 +5,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_TAROTEXPERIMENTFILESROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E1C8D80)
-#define RPG_GAMECORE_TAROTEXPERIMENTFILESROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1E1C8F40)
+#define RPG_GAMECORE_TAROTEXPERIMENTFILESROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DB4A180)
+#define RPG_GAMECORE_TAROTEXPERIMENTFILESROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB4A340)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TarotExperimentFilesRow_TypeDefinitionIndex = 15070;
+	inline static constexpr unsigned int TarotExperimentFilesRow_TypeDefinitionIndex = 15241;
 
 	class TarotExperimentFilesRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 ID; // 0x10
-		::System::UInt32 VoiceID; // 0x14
-		::RPG::Client::TextID Sentence; // 0x18
+		::RPG::Client::TextID Sentence; // 0x10
+		::System::UInt32 VoiceID; // 0x20
+		::System::UInt32 ID; // 0x24
 
 		::System::Void _ctor()
 		{

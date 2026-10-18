@@ -4,14 +4,14 @@
 
 namespace Collections::Pooled
 {
-	inline static constexpr unsigned int PooledDictionaryConfig_TypeDefinitionIndex = 5102;
+	inline static constexpr unsigned int PooledDictionaryConfig_TypeDefinitionIndex = 5109;
 
 	class PooledDictionaryConfig : public ::System::Object
 	{
 	public:
 		static ::System::Boolean* StaticGet_PooledDictionary_Clear_Fix()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(PooledDictionaryConfig_TypeDefinitionIndex)->GetStaticField(0x1780);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(PooledDictionaryConfig_TypeDefinitionIndex)->GetStaticField(0x13FD0);
 		}
 	};
 }

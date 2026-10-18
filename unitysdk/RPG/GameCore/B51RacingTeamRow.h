@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_B51RACINGTEAMROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B2E4B20)
-#define RPG_GAMECORE_B51RACINGTEAMROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B2E4D20)
+#define RPG_GAMECORE_B51RACINGTEAMROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D407560)
+#define RPG_GAMECORE_B51RACINGTEAMROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D407760)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int B51RacingTeamRow_TypeDefinitionIndex = 10940;
+	inline static constexpr unsigned int B51RacingTeamRow_TypeDefinitionIndex = 10956;
 
 	class B51RacingTeamRow : public ::System::Object
 	{

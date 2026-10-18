@@ -6,18 +6,18 @@ namespace MiHoYo::SDK::PC::OS::CXHandheld { class AgeGateManager; }
 namespace MiHoYo::SDK::UI::OS { class IAgeGateParentalConsentDialog; }
 namespace MiHoYo::SDK::UI::OS { class IAgeGateParentalConsentProcessDialog; }
 
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_AGEGATEMANAGER___C__DISPLAYCLASS41_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A65F360)
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_AGEGATEMANAGER___C__DISPLAYCLASS41_0__ONSHOWPARENTALCONTROLPROCESSBUTTONPRESSED_B__0_OFFSET UNITYSDK_OFFSET(0x1A661FB0)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_AGEGATEMANAGER___C__DISPLAYCLASS41_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BEA4BB0)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_AGEGATEMANAGER___C__DISPLAYCLASS41_0__ONSHOWPARENTALCONTROLPROCESSBUTTONPRESSED_B__0_OFFSET UNITYSDK_OFFSET(0x1BEA7800)
 
 namespace MiHoYo::SDK::PC::OS::CXHandheld
 {
-	inline static constexpr unsigned int AgeGateManager___c__DisplayClass41_0_TypeDefinitionIndex = 8669;
+	inline static constexpr unsigned int AgeGateManager___c__DisplayClass41_0_TypeDefinitionIndex = 8730;
 
 	class AgeGateManager___c__DisplayClass41_0 : public ::System::Object
 	{
 	public:
-		::MiHoYo::SDK::PC::OS::CXHandheld::AgeGateManager* __4__this; // 0x10
-		::MiHoYo::SDK::UI::OS::IAgeGateParentalConsentDialog* dialog; // 0x18
+		::MiHoYo::SDK::UI::OS::IAgeGateParentalConsentDialog* dialog; // 0x10
+		::MiHoYo::SDK::PC::OS::CXHandheld::AgeGateManager* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

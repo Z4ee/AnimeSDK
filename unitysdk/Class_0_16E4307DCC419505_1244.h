@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/ElationTimeAtmosphereType.h"
 
-namespace RPG::Client::ActivityIdleLive { class IdleLiveNode; }
-namespace RPG::Client::ActivityIdleLive { class StoryLine; }
+namespace System { class String; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_1244_TypeDefinitionIndex = 74842;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_1244_TypeDefinitionIndex = 72194;
 
 class Class_0_16E4307DCC419505_1244
 {

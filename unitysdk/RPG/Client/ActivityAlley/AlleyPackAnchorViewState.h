@@ -3,7 +3,7 @@
 
 namespace RPG::Client::ActivityAlley
 {
-	inline static constexpr unsigned int AlleyPackAnchorViewState_TypeDefinitionIndex = 73983;
+	inline static constexpr unsigned int AlleyPackAnchorViewState_TypeDefinitionIndex = 74082;
 
 	enum class AlleyPackAnchorViewState : ::System::Int32
 	{

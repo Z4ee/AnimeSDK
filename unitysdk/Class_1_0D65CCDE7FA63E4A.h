@@ -5,17 +5,17 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define CLASS_1_0D65CCDE7FA63E4A_METHOD_1_13A4856CD0BBDB3F_OFFSET UNITYSDK_OFFSET(0x16F23710)
-#define CLASS_1_0D65CCDE7FA63E4A__CTOR_OFFSET UNITYSDK_OFFSET(0x16F238C0)
+#define CLASS_1_0D65CCDE7FA63E4A_METHOD_1_13A4856CD0BBDB3F_OFFSET UNITYSDK_OFFSET(0x1D9BBB60)
+#define CLASS_1_0D65CCDE7FA63E4A__CTOR_OFFSET UNITYSDK_OFFSET(0x1D9BBD10)
 
-inline static constexpr unsigned int Class_1_0D65CCDE7FA63E4A_TypeDefinitionIndex = 14973;
+inline static constexpr unsigned int Class_1_0D65CCDE7FA63E4A_TypeDefinitionIndex = 15140;
 
 class Class_1_0D65CCDE7FA63E4A : public ::System::Object
 {
 public:
-	::RPG::GameCore::BattleResultConditionType LOAGIPDPLFM; // 0x10
-	::System::UInt32 JCDIEKGKCPP; // 0x14
-	::System::UInt32 ONPPBOKMMKL; // 0x18
+	::System::UInt32 JCDIEKGKCPP; // 0x10
+	::System::UInt32 ONPPBOKMMKL; // 0x14
+	::RPG::GameCore::BattleResultConditionType LOAGIPDPLFM; // 0x18
 	::System::UInt32 KJJEEBJNAAA; // 0x1C
 
 	::System::Void _ctor()

@@ -7,12 +7,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_AVATARULTRASKILLCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B2E1020)
-#define RPG_GAMECORE_AVATARULTRASKILLCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B2E1200)
+#define RPG_GAMECORE_AVATARULTRASKILLCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D403AC0)
+#define RPG_GAMECORE_AVATARULTRASKILLCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D403CA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AvatarUltraSkillConfigRow_TypeDefinitionIndex = 12653;
+	inline static constexpr unsigned int AvatarUltraSkillConfigRow_TypeDefinitionIndex = 12743;
 
 	class AvatarUltraSkillConfigRow : public ::System::Object
 	{

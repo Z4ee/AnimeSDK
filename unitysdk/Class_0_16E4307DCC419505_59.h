@@ -6,7 +6,7 @@ namespace Google::Protobuf { class IMessage; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_59_TypeDefinitionIndex = 36263;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_59_TypeDefinitionIndex = 36950;
 
 class Class_0_16E4307DCC419505_59
 {

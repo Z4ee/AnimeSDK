@@ -5,18 +5,18 @@
 
 namespace Cysharp::Threading::Tasks { template <typename T> class IUniTaskAsyncEnumerator_1; }
 
-#define CYSHARP_THREADING_TASKS_LINQ_RANGE_GETASYNCENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1CE5E6E0)
-#define CYSHARP_THREADING_TASKS_LINQ_RANGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE5E6D0)
+#define CYSHARP_THREADING_TASKS_LINQ_RANGE_GETASYNCENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1F0DD460)
+#define CYSHARP_THREADING_TASKS_LINQ_RANGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F0DD450)
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int Range_TypeDefinitionIndex = 44403;
+	inline static constexpr unsigned int Range_TypeDefinitionIndex = 45542;
 
 	class Range : public ::System::Object
 	{
 	public:
-		::System::Int32 start; // 0x10
-		::System::Int32 end; // 0x14
+		::System::Int32 end; // 0x10
+		::System::Int32 start; // 0x14
 
 		::System::Void _ctor(::System::Int32 a1, ::System::Int32 a2)
 		{

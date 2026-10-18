@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_EVOLVEBUILDSCMIXDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x19959EC0)
+#define RPG_CLIENT_EVOLVEBUILDSCMIXDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xCE2F870)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EvolveBuildScMixData_TypeDefinitionIndex = 63887;
+	inline static constexpr unsigned int EvolveBuildScMixData_TypeDefinitionIndex = 63825;
 
 	class EvolveBuildScMixData : public ::System::Object
 	{

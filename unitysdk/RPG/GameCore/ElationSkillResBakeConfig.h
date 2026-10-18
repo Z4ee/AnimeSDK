@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class SingleElationSkillResBakeConfig; }
 
-#define RPG_GAMECORE_ELATIONSKILLRESBAKECONFIG_METHOD_3_88420910F28438FF_OFFSET UNITYSDK_OFFSET(0x1DB26B10)
-#define RPG_GAMECORE_ELATIONSKILLRESBAKECONFIG_METHOD_3_D304FEFB75704FDF_OFFSET UNITYSDK_OFFSET(0x1DB26B70)
-#define RPG_GAMECORE_ELATIONSKILLRESBAKECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB26B60)
+#define RPG_GAMECORE_ELATIONSKILLRESBAKECONFIG_METHOD_3_831235FDA70605F6_OFFSET UNITYSDK_OFFSET(0x1D605DA0)
+#define RPG_GAMECORE_ELATIONSKILLRESBAKECONFIG_METHOD_3_FBF9ACFB413B9585_OFFSET UNITYSDK_OFFSET(0x1D605D60)
+#define RPG_GAMECORE_ELATIONSKILLRESBAKECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D605D90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ElationSkillResBakeConfig_TypeDefinitionIndex = 16172;
+	inline static constexpr unsigned int ElationSkillResBakeConfig_TypeDefinitionIndex = 16345;
 
 	class ElationSkillResBakeConfig : public ::RPG::GameCore::CharacterCustomPreloadConfigBase
 	{
@@ -23,14 +23,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ELATIONSKILLRESBAKECONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_88420910F28438FF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ElationSkillResBakeConfig*& a2)
+		static ::System::Void Method_3_FBF9ACFB413B9585(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ElationSkillResBakeConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ElationSkillResBakeConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ELATIONSKILLRESBAKECONFIG_METHOD_3_88420910F28438FF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ElationSkillResBakeConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ELATIONSKILLRESBAKECONFIG_METHOD_3_FBF9ACFB413B9585_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_D304FEFB75704FDF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ElationSkillResBakeConfig* a2)
+		static ::System::Void Method_3_831235FDA70605F6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ElationSkillResBakeConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ElationSkillResBakeConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ELATIONSKILLRESBAKECONFIG_METHOD_3_D304FEFB75704FDF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ElationSkillResBakeConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ELATIONSKILLRESBAKECONFIG_METHOD_3_831235FDA70605F6_OFFSET))(a1, a2);
 		}
 	};
 }

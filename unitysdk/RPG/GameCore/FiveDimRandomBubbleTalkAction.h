@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class FiveDimActionRandomBubbleTalkInfoGroup; }
 
-#define RPG_GAMECORE_FIVEDIMRANDOMBUBBLETALKACTION_METHOD_3_26BCED3E66228E34_OFFSET UNITYSDK_OFFSET(0x1D876460)
-#define RPG_GAMECORE_FIVEDIMRANDOMBUBBLETALKACTION_METHOD_3_AF44C1856300F8B3_OFFSET UNITYSDK_OFFSET(0x1D876410)
-#define RPG_GAMECORE_FIVEDIMRANDOMBUBBLETALKACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D876450)
+#define RPG_GAMECORE_FIVEDIMRANDOMBUBBLETALKACTION_METHOD_4_881D44CA49161AFD_OFFSET UNITYSDK_OFFSET(0x1D6A9350)
+#define RPG_GAMECORE_FIVEDIMRANDOMBUBBLETALKACTION_METHOD_4_D5058A5C86D8008A_OFFSET UNITYSDK_OFFSET(0x1D6A9300)
+#define RPG_GAMECORE_FIVEDIMRANDOMBUBBLETALKACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6A9340)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimRandomBubbleTalkAction_TypeDefinitionIndex = 18564;
+	inline static constexpr unsigned int FiveDimRandomBubbleTalkAction_TypeDefinitionIndex = 18774;
 
 	class FiveDimRandomBubbleTalkAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
@@ -25,14 +25,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMRANDOMBUBBLETALKACTION__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_AF44C1856300F8B3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimRandomBubbleTalkAction*& a2)
+		static ::System::Void Method_4_D5058A5C86D8008A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimRandomBubbleTalkAction*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimRandomBubbleTalkAction*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMRANDOMBUBBLETALKACTION_METHOD_3_AF44C1856300F8B3_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimRandomBubbleTalkAction*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMRANDOMBUBBLETALKACTION_METHOD_4_D5058A5C86D8008A_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_26BCED3E66228E34(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimRandomBubbleTalkAction* a2)
+		static ::System::Void Method_4_881D44CA49161AFD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimRandomBubbleTalkAction* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimRandomBubbleTalkAction*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMRANDOMBUBBLETALKACTION_METHOD_3_26BCED3E66228E34_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimRandomBubbleTalkAction*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMRANDOMBUBBLETALKACTION_METHOD_4_881D44CA49161AFD_OFFSET))(a1, a2);
 		}
 	};
 }

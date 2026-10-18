@@ -8,12 +8,12 @@
 namespace System { class Action; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define CYSHARP_THREADING_TASKS_UNITASKEXTENSIONS__CONTINUEWITH_D__58_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x3BB8120)
-#define CYSHARP_THREADING_TASKS_UNITASKEXTENSIONS__CONTINUEWITH_D__58_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x10F00)
+#define CYSHARP_THREADING_TASKS_UNITASKEXTENSIONS__CONTINUEWITH_D__58_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x3C5F900)
+#define CYSHARP_THREADING_TASKS_UNITASKEXTENSIONS__CONTINUEWITH_D__58_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x10B0)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UniTaskExtensions__ContinueWith_d__58_TypeDefinitionIndex = 42833;
+	inline static constexpr unsigned int UniTaskExtensions__ContinueWith_d__58_TypeDefinitionIndex = 38418;
 
 	struct alignas(8) UniTaskExtensions__ContinueWith_d__58
 	{

@@ -5,29 +5,29 @@
 namespace RPG::Client::PixAir { class PixAirStageData; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_PIXAIR_PIXAIRLEVELPROGRESSVIEW___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BD03910)
-#define RPG_CLIENT_PIXAIR_PIXAIRLEVELPROGRESSVIEW___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD03950)
-#define RPG_CLIENT_PIXAIR_PIXAIRLEVELPROGRESSVIEW___C___GETSORTEDCOMMONSTAGEDATA_B__8_0_OFFSET UNITYSDK_OFFSET(0x1BD03960)
-#define RPG_CLIENT_PIXAIR_PIXAIRLEVELPROGRESSVIEW___C___GETSORTEDCOMMONSTAGEDATA_B__8_1_OFFSET UNITYSDK_OFFSET(0x1BD03A30)
+#define RPG_CLIENT_PIXAIR_PIXAIRLEVELPROGRESSVIEW___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xDB4F2D0)
+#define RPG_CLIENT_PIXAIR_PIXAIRLEVELPROGRESSVIEW___C__CTOR_OFFSET UNITYSDK_OFFSET(0xDB4F310)
+#define RPG_CLIENT_PIXAIR_PIXAIRLEVELPROGRESSVIEW___C___GETSORTEDCOMMONSTAGEDATA_B__8_0_OFFSET UNITYSDK_OFFSET(0xDB4F320)
+#define RPG_CLIENT_PIXAIR_PIXAIRLEVELPROGRESSVIEW___C___GETSORTEDCOMMONSTAGEDATA_B__8_1_OFFSET UNITYSDK_OFFSET(0xDB4F3F0)
 
 namespace RPG::Client::PixAir
 {
-	inline static constexpr unsigned int PixAirLevelProgressView___c_TypeDefinitionIndex = 78908;
+	inline static constexpr unsigned int PixAirLevelProgressView___c_TypeDefinitionIndex = 79389;
 
 	class PixAirLevelProgressView___c : public ::System::Object
 	{
 	public:
+		static ::RPG::Client::PixAir::PixAirLevelProgressView___c** StaticGet___9()
+		{
+			return (::RPG::Client::PixAir::PixAirLevelProgressView___c**)Il2CppClass::FromTypeDefinitionIndex(PixAirLevelProgressView___c_TypeDefinitionIndex)->GetStaticField(0x20920);
+		}
 		static ::System::Func_2<::RPG::Client::PixAir::PixAirStageData*, ::System::UInt32>** StaticGet___9__8_1()
 		{
-			return (::System::Func_2<::RPG::Client::PixAir::PixAirStageData*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(PixAirLevelProgressView___c_TypeDefinitionIndex)->GetStaticField(0x60010);
+			return (::System::Func_2<::RPG::Client::PixAir::PixAirStageData*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(PixAirLevelProgressView___c_TypeDefinitionIndex)->GetStaticField(0x20928);
 		}
 		static ::System::Func_2<::RPG::Client::PixAir::PixAirStageData*, ::System::Boolean>** StaticGet___9__8_0()
 		{
-			return (::System::Func_2<::RPG::Client::PixAir::PixAirStageData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(PixAirLevelProgressView___c_TypeDefinitionIndex)->GetStaticField(0x60018);
-		}
-		static ::RPG::Client::PixAir::PixAirLevelProgressView___c** StaticGet___9()
-		{
-			return (::RPG::Client::PixAir::PixAirLevelProgressView___c**)Il2CppClass::FromTypeDefinitionIndex(PixAirLevelProgressView___c_TypeDefinitionIndex)->GetStaticField(0x60020);
+			return (::System::Func_2<::RPG::Client::PixAir::PixAirStageData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(PixAirLevelProgressView___c_TypeDefinitionIndex)->GetStaticField(0x20930);
 		}
 
 		static ::System::Void _cctor()

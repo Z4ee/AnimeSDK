@@ -2,22 +2,22 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_963;
+class Class_0_16E4307DCC419505_1067;
 namespace RPG::Client { class IRogueTournUnderlineParam; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ROGUETOURNUNDERLINEPARAMINFO_CREATE_OFFSET UNITYSDK_OFFSET(0x169FB8F0)
-#define RPG_CLIENT_ROGUETOURNUNDERLINEPARAMINFO_GET_ISAVAILABLE_OFFSET UNITYSDK_OFFSET(0x169FB890)
-#define RPG_CLIENT_ROGUETOURNUNDERLINEPARAMINFO_GET_PARAMS_OFFSET UNITYSDK_OFFSET(0x169FB790)
-#define RPG_CLIENT_ROGUETOURNUNDERLINEPARAMINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x169FB9A0)
-#define RPG_CLIENT_ROGUETOURNUNDERLINEPARAMINFO__INIT_OFFSET UNITYSDK_OFFSET(0x169FB9E0)
-#define RPG_CLIENT_ROGUETOURNUNDERLINEPARAMINFO__PARSEHYPERPARAMS_OFFSET UNITYSDK_OFFSET(0x169FBA30)
-#define RPG_CLIENT_ROGUETOURNUNDERLINEPARAMINFO__PARSEHYPERPARAM_OFFSET UNITYSDK_OFFSET(0x169FC430)
+#define RPG_CLIENT_ROGUETOURNUNDERLINEPARAMINFO_CREATE_OFFSET UNITYSDK_OFFSET(0xE041B20)
+#define RPG_CLIENT_ROGUETOURNUNDERLINEPARAMINFO_GET_ISAVAILABLE_OFFSET UNITYSDK_OFFSET(0xE041AC0)
+#define RPG_CLIENT_ROGUETOURNUNDERLINEPARAMINFO_GET_PARAMS_OFFSET UNITYSDK_OFFSET(0xE0419C0)
+#define RPG_CLIENT_ROGUETOURNUNDERLINEPARAMINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xE041BD0)
+#define RPG_CLIENT_ROGUETOURNUNDERLINEPARAMINFO__INIT_OFFSET UNITYSDK_OFFSET(0xE041C10)
+#define RPG_CLIENT_ROGUETOURNUNDERLINEPARAMINFO__PARSEHYPERPARAMS_OFFSET UNITYSDK_OFFSET(0xE041C60)
+#define RPG_CLIENT_ROGUETOURNUNDERLINEPARAMINFO__PARSEHYPERPARAM_OFFSET UNITYSDK_OFFSET(0xE042660)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournUnderlineParamInfo_TypeDefinitionIndex = 67875;
+	inline static constexpr unsigned int RogueTournUnderlineParamInfo_TypeDefinitionIndex = 67877;
 
 	class RogueTournUnderlineParamInfo : public ::System::Object
 	{
@@ -39,24 +39,24 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNUNDERLINEPARAMINFO_GET_ISAVAILABLE_OFFSET))(this);
 		}
 
-		static ::RPG::Client::RogueTournUnderlineParamInfo* Create(::System::Collections::Generic::IReadOnlyList_1<::Class_0_16E4307DCC419505_963*>* a1)
+		static ::RPG::Client::RogueTournUnderlineParamInfo* Create(::System::Collections::Generic::IReadOnlyList_1<::Class_0_16E4307DCC419505_1067*>* a1)
 		{
-			return ((::RPG::Client::RogueTournUnderlineParamInfo*(*)(::System::Collections::Generic::IReadOnlyList_1<::Class_0_16E4307DCC419505_963*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNUNDERLINEPARAMINFO_CREATE_OFFSET))(a1);
+			return ((::RPG::Client::RogueTournUnderlineParamInfo*(*)(::System::Collections::Generic::IReadOnlyList_1<::Class_0_16E4307DCC419505_1067*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNUNDERLINEPARAMINFO_CREATE_OFFSET))(a1);
 		}
 
-		::System::Void _Init(::System::Collections::Generic::IReadOnlyList_1<::Class_0_16E4307DCC419505_963*>* a1)
+		::System::Void _Init(::System::Collections::Generic::IReadOnlyList_1<::Class_0_16E4307DCC419505_1067*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IReadOnlyList_1<::Class_0_16E4307DCC419505_963*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNUNDERLINEPARAMINFO__INIT_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IReadOnlyList_1<::Class_0_16E4307DCC419505_1067*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNUNDERLINEPARAMINFO__INIT_OFFSET))(this, a1);
 		}
 
-		::System::Void _ParseHyperParams(::System::Collections::Generic::IReadOnlyList_1<::Class_0_16E4307DCC419505_963*>* a1)
+		::System::Void _ParseHyperParams(::System::Collections::Generic::IReadOnlyList_1<::Class_0_16E4307DCC419505_1067*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IReadOnlyList_1<::Class_0_16E4307DCC419505_963*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNUNDERLINEPARAMINFO__PARSEHYPERPARAMS_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IReadOnlyList_1<::Class_0_16E4307DCC419505_1067*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNUNDERLINEPARAMINFO__PARSEHYPERPARAMS_OFFSET))(this, a1);
 		}
 
-		::System::Collections::Generic::IReadOnlyList_1<::RPG::Client::IRogueTournUnderlineParam*>* _ParseHyperParam(::Class_0_16E4307DCC419505_963* a1)
+		::System::Collections::Generic::IReadOnlyList_1<::RPG::Client::IRogueTournUnderlineParam*>* _ParseHyperParam(::Class_0_16E4307DCC419505_1067* a1)
 		{
-			return ((::System::Collections::Generic::IReadOnlyList_1<::RPG::Client::IRogueTournUnderlineParam*>*(*)(::PVOID, ::Class_0_16E4307DCC419505_963*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNUNDERLINEPARAMINFO__PARSEHYPERPARAM_OFFSET))(this, a1);
+			return ((::System::Collections::Generic::IReadOnlyList_1<::RPG::Client::IRogueTournUnderlineParam*>*(*)(::PVOID, ::Class_0_16E4307DCC419505_1067*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNUNDERLINEPARAMINFO__PARSEHYPERPARAM_OFFSET))(this, a1);
 		}
 	};
 }

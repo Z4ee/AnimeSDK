@@ -7,22 +7,22 @@ namespace RPG::GameCore { class JsonEnum; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define CLASS_3_F18F1D8CA2B3C9DB_METHOD_3_28DFC52A1206DD2C_OFFSET UNITYSDK_OFFSET(0x1A4067A0)
-#define CLASS_3_F18F1D8CA2B3C9DB_METHOD_3_B291FB5C41D58000_OFFSET UNITYSDK_OFFSET(0x1A4067F0)
-#define CLASS_3_F18F1D8CA2B3C9DB__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4067E0)
+#define CLASS_3_F18F1D8CA2B3C9DB_METHOD_3_28DFC52A1206DD2C_OFFSET UNITYSDK_OFFSET(0x1DC82300)
+#define CLASS_3_F18F1D8CA2B3C9DB_METHOD_3_B291FB5C41D58000_OFFSET UNITYSDK_OFFSET(0x1DC82350)
+#define CLASS_3_F18F1D8CA2B3C9DB__CTOR_OFFSET UNITYSDK_OFFSET(0x1DC82340)
 
-inline static constexpr unsigned int Class_3_F18F1D8CA2B3C9DB_TypeDefinitionIndex = 23447;
+inline static constexpr unsigned int Class_3_F18F1D8CA2B3C9DB_TypeDefinitionIndex = 23720;
 
 class Class_3_F18F1D8CA2B3C9DB : public ::RPG::GameCore::TaskConfig
 {
 public:
-	::RPG::GameCore::TargetEvaluator* KBFPDJJLDFA; // 0x18
+	::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x18
 	::RPG::GameCore::JsonEnum* HMHJNMGOCLC; // 0x20
-	::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x28
-	::System::String* HDHCKOKMAGF; // 0x30
-	::System::String* OFLNJBCADMN; // 0x38
-	::System::Int32 NALMBOOCCIN; // 0x40
-	::System::Boolean ICADPILMFPK; // 0x44
+	::System::String* HDHCKOKMAGF; // 0x28
+	::System::String* OFLNJBCADMN; // 0x30
+	::RPG::GameCore::TargetEvaluator* KBFPDJJLDFA; // 0x38
+	::System::Boolean ICADPILMFPK; // 0x40
+	::System::Int32 NALMBOOCCIN; // 0x44
 
 	::System::Void _ctor()
 	{

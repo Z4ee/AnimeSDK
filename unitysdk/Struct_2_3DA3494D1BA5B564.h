@@ -5,7 +5,7 @@
 namespace System { class String; }
 namespace UnityEngine { class RuntimeAnimatorController; }
 
-inline static constexpr unsigned int Struct_2_3DA3494D1BA5B564_TypeDefinitionIndex = 68323;
+inline static constexpr unsigned int Struct_2_3DA3494D1BA5B564_TypeDefinitionIndex = 68356;
 
 struct alignas(8) Struct_2_3DA3494D1BA5B564
 {

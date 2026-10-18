@@ -5,19 +5,19 @@
 namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_CLIENT_LITTLEGAMESHARE_RPCFORMATTERRESOLVER_CLASS_1_ED84B02E82830B3C_1_METHOD_1_A8321956C56DDC2A_OFFSET UNITYSDK_OFFSET(0xC2C6D40)
-#define RPG_CLIENT_LITTLEGAMESHARE_RPCFORMATTERRESOLVER_CLASS_1_ED84B02E82830B3C_1__CCTOR_OFFSET UNITYSDK_OFFSET(0xC2C6EE0)
+#define RPG_CLIENT_LITTLEGAMESHARE_RPCFORMATTERRESOLVER_CLASS_1_ED84B02E82830B3C_1_METHOD_1_A8321956C56DDC2A_OFFSET UNITYSDK_OFFSET(0x1C7CA2A0)
+#define RPG_CLIENT_LITTLEGAMESHARE_RPCFORMATTERRESOLVER_CLASS_1_ED84B02E82830B3C_1__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C7CA440)
 
 namespace RPG::Client::LittleGameShare
 {
-	inline static constexpr unsigned int RpcFormatterResolver_Class_1_ED84B02E82830B3C_1_TypeDefinitionIndex = 36376;
+	inline static constexpr unsigned int RpcFormatterResolver_Class_1_ED84B02E82830B3C_1_TypeDefinitionIndex = 37063;
 
 	class RpcFormatterResolver_Class_1_ED84B02E82830B3C_1 : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Int32>** StaticGet_PJHNAIJGAOI()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(RpcFormatterResolver_Class_1_ED84B02E82830B3C_1_TypeDefinitionIndex)->GetStaticField(0x25BE0);
+			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(RpcFormatterResolver_Class_1_ED84B02E82830B3C_1_TypeDefinitionIndex)->GetStaticField(0x1E5C0);
 		}
 
 		static ::System::Void _cctor()

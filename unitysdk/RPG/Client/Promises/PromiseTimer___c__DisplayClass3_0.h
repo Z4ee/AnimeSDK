@@ -3,12 +3,12 @@
 #include "unitysdk/RPG/Client/Promises/TimeData.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_PROMISES_PROMISETIMER___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1EFDABE0)
-#define RPG_CLIENT_PROMISES_PROMISETIMER___C__DISPLAYCLASS3_0__WAITFOR_B__0_OFFSET UNITYSDK_OFFSET(0x1EFDB2F0)
+#define RPG_CLIENT_PROMISES_PROMISETIMER___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1CBB64B0)
+#define RPG_CLIENT_PROMISES_PROMISETIMER___C__DISPLAYCLASS3_0__WAITFOR_B__0_OFFSET UNITYSDK_OFFSET(0x1CBB6BC0)
 
 namespace RPG::Client::Promises
 {
-	inline static constexpr unsigned int PromiseTimer___c__DisplayClass3_0_TypeDefinitionIndex = 9847;
+	inline static constexpr unsigned int PromiseTimer___c__DisplayClass3_0_TypeDefinitionIndex = 9905;
 
 	class PromiseTimer___c__DisplayClass3_0 : public ::System::Object
 	{

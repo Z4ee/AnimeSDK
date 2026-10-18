@@ -5,12 +5,12 @@
 namespace RPG::Client { class ChimeraDuelAchievementDataGroup; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_CHIMERADUELACHIEVEMENTDATAMANAGER_GETCHIMERADUELACHIEVEMENTDATAGROUPS_OFFSET UNITYSDK_OFFSET(0x1C1BC310)
-#define RPG_CLIENT_CHIMERADUELACHIEVEMENTDATAMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C1BC480)
+#define RPG_CLIENT_CHIMERADUELACHIEVEMENTDATAMANAGER_GETCHIMERADUELACHIEVEMENTDATAGROUPS_OFFSET UNITYSDK_OFFSET(0xCB0F850)
+#define RPG_CLIENT_CHIMERADUELACHIEVEMENTDATAMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0xCB0F9C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraDuelAchievementDataManager_TypeDefinitionIndex = 63355;
+	inline static constexpr unsigned int ChimeraDuelAchievementDataManager_TypeDefinitionIndex = 63293;
 
 	class ChimeraDuelAchievementDataManager : public ::System::Object
 	{

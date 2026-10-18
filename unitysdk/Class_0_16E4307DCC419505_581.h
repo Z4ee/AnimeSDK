@@ -1,8 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Struct_2_126FCF6D29887CE8.h"
+#include "unitysdk/RPG/GameCore/FixPoint.h"
+#include "unitysdk/RPG/GameCore/FixVec3.h"
+#include "unitysdk/RPG/GameCore/RtMoveStopReason.h"
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_581_TypeDefinitionIndex = 56193;
+namespace RPG::GameCore { class GameEntity; }
+
+inline static constexpr unsigned int Class_0_16E4307DCC419505_581_TypeDefinitionIndex = 54036;
 
 class Class_0_16E4307DCC419505_581
 {

@@ -3,7 +3,7 @@
 
 namespace RPG::Client::B51Racing
 {
-	inline static constexpr unsigned int RoadRashGameHitTargetType_TypeDefinitionIndex = 80350;
+	inline static constexpr unsigned int RoadRashGameHitTargetType_TypeDefinitionIndex = 81678;
 
 	enum class RoadRashGameHitTargetType : ::System::Int32
 	{

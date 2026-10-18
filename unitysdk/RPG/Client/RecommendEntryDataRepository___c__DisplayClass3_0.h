@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class RecommendEntryData; }
 
-#define RPG_CLIENT_RECOMMENDENTRYDATAREPOSITORY___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6547C0)
-#define RPG_CLIENT_RECOMMENDENTRYDATAREPOSITORY___C__DISPLAYCLASS3_0__GETBYID_B__0_OFFSET UNITYSDK_OFFSET(0x1B6547D0)
+#define RPG_CLIENT_RECOMMENDENTRYDATAREPOSITORY___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0xDE56EA0)
+#define RPG_CLIENT_RECOMMENDENTRYDATAREPOSITORY___C__DISPLAYCLASS3_0__GETBYID_B__0_OFFSET UNITYSDK_OFFSET(0xDE56FB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RecommendEntryDataRepository___c__DisplayClass3_0_TypeDefinitionIndex = 66807;
+	inline static constexpr unsigned int RecommendEntryDataRepository___c__DisplayClass3_0_TypeDefinitionIndex = 66808;
 
 	class RecommendEntryDataRepository___c__DisplayClass3_0 : public ::System::Object
 	{

@@ -5,18 +5,18 @@
 namespace RPG::Client { class GridFightGameRef; }
 namespace System { class String; }
 
-#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS98_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA13DD0)
-#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS98_0__READUPDATE_B__0_OFFSET UNITYSDK_OFFSET(0x1BA170B0)
+#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS98_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD15B2C0)
+#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS98_0__READUPDATE_B__0_OFFSET UNITYSDK_OFFSET(0xD15E410)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightGameRef___c__DisplayClass98_0_TypeDefinitionIndex = 64783;
+	inline static constexpr unsigned int GridFightGameRef___c__DisplayClass98_0_TypeDefinitionIndex = 64723;
 
 	class GridFightGameRef___c__DisplayClass98_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::GridFightGameRef* __4__this; // 0x10
-		::System::String* id; // 0x18
+		::System::String* id; // 0x10
+		::RPG::Client::GridFightGameRef* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

@@ -7,37 +7,37 @@ namespace System { class Object; }
 namespace UnityEngine { class Animation; }
 namespace UnityEngine { class RectTransform; }
 
-#define RPG_CLIENT_CHIMERADUEL_CHIMERADUELBATTLECHIMERACONTROL_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1C1B8880)
-#define RPG_CLIENT_CHIMERADUEL_CHIMERADUELBATTLECHIMERACONTROL_SHOWATKVALUECHANGE_OFFSET UNITYSDK_OFFSET(0x1C1B8E30)
-#define RPG_CLIENT_CHIMERADUEL_CHIMERADUELBATTLECHIMERACONTROL_SHOWHPVALUECHANGE_OFFSET UNITYSDK_OFFSET(0x1C1B8A40)
-#define RPG_CLIENT_CHIMERADUEL_CHIMERADUELBATTLECHIMERACONTROL_UPDATE_OFFSET UNITYSDK_OFFSET(0x1C1B9220)
-#define RPG_CLIENT_CHIMERADUEL_CHIMERADUELBATTLECHIMERACONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x1C1B9550)
-#define RPG_CLIENT_CHIMERADUEL_CHIMERADUELBATTLECHIMERACONTROL__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x1C1B7D60)
-#define RPG_CLIENT_CHIMERADUEL_CHIMERADUELBATTLECHIMERACONTROL__ONCHIMERAATTRIBUTECHANGE_OFFSET UNITYSDK_OFFSET(0x1C1B8900)
-#define RPG_CLIENT_CHIMERADUEL_CHIMERADUELBATTLECHIMERACONTROL__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0x1C1B7B50)
+#define RPG_CLIENT_CHIMERADUEL_CHIMERADUELBATTLECHIMERACONTROL_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xCB0BCE0)
+#define RPG_CLIENT_CHIMERADUEL_CHIMERADUELBATTLECHIMERACONTROL_SHOWATKVALUECHANGE_OFFSET UNITYSDK_OFFSET(0xCB0C290)
+#define RPG_CLIENT_CHIMERADUEL_CHIMERADUELBATTLECHIMERACONTROL_SHOWHPVALUECHANGE_OFFSET UNITYSDK_OFFSET(0xCB0BEA0)
+#define RPG_CLIENT_CHIMERADUEL_CHIMERADUELBATTLECHIMERACONTROL_UPDATE_OFFSET UNITYSDK_OFFSET(0xCB0C690)
+#define RPG_CLIENT_CHIMERADUEL_CHIMERADUELBATTLECHIMERACONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0xCB0C9C0)
+#define RPG_CLIENT_CHIMERADUEL_CHIMERADUELBATTLECHIMERACONTROL__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0xCB0B1C0)
+#define RPG_CLIENT_CHIMERADUEL_CHIMERADUELBATTLECHIMERACONTROL__ONCHIMERAATTRIBUTECHANGE_OFFSET UNITYSDK_OFFSET(0xCB0BD60)
+#define RPG_CLIENT_CHIMERADUEL_CHIMERADUELBATTLECHIMERACONTROL__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0xCB0AFA0)
 
 namespace RPG::Client::ChimeraDuel
 {
-	inline static constexpr unsigned int ChimeraDuelBattleChimeraControl_TypeDefinitionIndex = 79921;
+	inline static constexpr unsigned int ChimeraDuelBattleChimeraControl_TypeDefinitionIndex = 81249;
 
 	class ChimeraDuelBattleChimeraControl : public ::Sofa::BaseSofaControl
 	{
 	public:
-		::RPG::Client::LocalizedText* _ChimeraName; // 0x38
-		::RPG::Client::LocalizedText* _ChimeraLevel; // 0x40
-		::RPG::Client::LocalizedText* _ChimeraHp; // 0x48
-		::RPG::Client::LocalizedText* _ChimeraHpChange; // 0x50
-		::RPG::Client::LocalizedText* _ChimeraHPWhenIncreased; // 0x58
-		::RPG::Client::LocalizedText* _ChimeraHPWhenDecreased; // 0x60
-		::RPG::Client::LocalizedText* _ChimeraAtk; // 0x68
-		::RPG::Client::LocalizedText* _ChimeraAtkChange; // 0x70
-		::RPG::Client::LocalizedText* _ChimeraAtkWhenIncreased; // 0x78
-		::RPG::Client::LocalizedText* _ChimeraAtkWhenDecreased; // 0x80
-		::UnityEngine::Animation* _ChimeraHpChangeAnimation; // 0x88
-		::UnityEngine::Animation* _ChimeraAtkChangeAnimation; // 0x90
-		::UnityEngine::RectTransform* _ChimeraHpChangeRoot; // 0x98
-		::UnityEngine::RectTransform* _UIRoot; // 0xA0
-		::System::Boolean _IsInitialized; // 0xA8
+		::RPG::Client::LocalizedText* _ChimeraName; // 0x40
+		::RPG::Client::LocalizedText* _ChimeraLevel; // 0x48
+		::RPG::Client::LocalizedText* _ChimeraHp; // 0x50
+		::RPG::Client::LocalizedText* _ChimeraHpChange; // 0x58
+		::RPG::Client::LocalizedText* _ChimeraHPWhenIncreased; // 0x60
+		::RPG::Client::LocalizedText* _ChimeraHPWhenDecreased; // 0x68
+		::RPG::Client::LocalizedText* _ChimeraAtk; // 0x70
+		::RPG::Client::LocalizedText* _ChimeraAtkChange; // 0x78
+		::RPG::Client::LocalizedText* _ChimeraAtkWhenIncreased; // 0x80
+		::RPG::Client::LocalizedText* _ChimeraAtkWhenDecreased; // 0x88
+		::UnityEngine::Animation* _ChimeraHpChangeAnimation; // 0x90
+		::UnityEngine::Animation* _ChimeraAtkChangeAnimation; // 0x98
+		::UnityEngine::RectTransform* _ChimeraHpChangeRoot; // 0xA0
+		::UnityEngine::RectTransform* _UIRoot; // 0xA8
+		::System::Boolean _IsInitialized; // 0xB0
 
 		::System::Void _ctor()
 		{

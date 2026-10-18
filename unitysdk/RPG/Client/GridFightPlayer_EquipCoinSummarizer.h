@@ -6,22 +6,22 @@
 namespace RPG::Client { class GridFightGameModifier; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 
-#define RPG_CLIENT_GRIDFIGHTPLAYER_EQUIPCOINSUMMARIZER_ISCONCERNEDWITH_OFFSET UNITYSDK_OFFSET(0x1CA542A0)
-#define RPG_CLIENT_GRIDFIGHTPLAYER_EQUIPCOINSUMMARIZER_UPDATEBEFORE_OFFSET UNITYSDK_OFFSET(0x1CA542F0)
-#define RPG_CLIENT_GRIDFIGHTPLAYER_EQUIPCOINSUMMARIZER_UPDATECOIN_OFFSET UNITYSDK_OFFSET(0x1CA54700)
-#define RPG_CLIENT_GRIDFIGHTPLAYER_EQUIPCOINSUMMARIZER__CTOR_OFFSET UNITYSDK_OFFSET(0x1CA54850)
+#define RPG_CLIENT_GRIDFIGHTPLAYER_EQUIPCOINSUMMARIZER_ISCONCERNEDWITH_OFFSET UNITYSDK_OFFSET(0xD1D41F0)
+#define RPG_CLIENT_GRIDFIGHTPLAYER_EQUIPCOINSUMMARIZER_UPDATEBEFORE_OFFSET UNITYSDK_OFFSET(0xD1D4240)
+#define RPG_CLIENT_GRIDFIGHTPLAYER_EQUIPCOINSUMMARIZER_UPDATECOIN_OFFSET UNITYSDK_OFFSET(0xD1D4650)
+#define RPG_CLIENT_GRIDFIGHTPLAYER_EQUIPCOINSUMMARIZER__CTOR_OFFSET UNITYSDK_OFFSET(0xD1D47A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightPlayer_EquipCoinSummarizer_TypeDefinitionIndex = 65132;
+	inline static constexpr unsigned int GridFightPlayer_EquipCoinSummarizer_TypeDefinitionIndex = 65072;
 
 	class GridFightPlayer_EquipCoinSummarizer : public ::Class_1_41E07A9DDAB7FC78
 	{
 	public:
 		::RPG::Client::GridFightGameModifier* _CurModifier; // 0x10
-		::System::UInt32 _EquipUID; // 0x18
-		::System::Int32 _LastCoin; // 0x1C
-		::System::UInt32 _EquipID; // 0x20
+		::System::Int32 _LastCoin; // 0x18
+		::System::UInt32 _EquipID; // 0x1C
+		::System::UInt32 _EquipUID; // 0x20
 
 		::System::Void _ctor()
 		{

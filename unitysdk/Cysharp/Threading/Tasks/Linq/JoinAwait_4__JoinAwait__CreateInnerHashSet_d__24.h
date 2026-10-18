@@ -10,7 +10,7 @@ namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int JoinAwait_4__JoinAwait__CreateInnerHashSet_d__24_TypeDefinitionIndex = 44267;
+	inline static constexpr unsigned int JoinAwait_4__JoinAwait__CreateInnerHashSet_d__24_TypeDefinitionIndex = 45406;
 
 	template <typename TOuter, typename TInner, typename TKey, typename TResult>
 	struct JoinAwait_4__JoinAwait__CreateInnerHashSet_d__24

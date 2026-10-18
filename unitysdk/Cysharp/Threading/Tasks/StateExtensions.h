@@ -8,7 +8,7 @@ namespace Cysharp::Threading::Tasks { template <typename T> class ReadOnlyAsyncR
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int StateExtensions_TypeDefinitionIndex = 42546;
+	inline static constexpr unsigned int StateExtensions_TypeDefinitionIndex = 38131;
 
 	class StateExtensions : public ::System::Object
 	{

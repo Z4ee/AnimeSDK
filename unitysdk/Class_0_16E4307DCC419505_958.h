@@ -1,11 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/GameCore/RogueBuffAeonType.h"
-#include "unitysdk/RPG/GameCore/RogueBuffCategory.h"
 
-namespace System { class String; }
+namespace RPG::Client { class GridFightBonusResultData; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_958_TypeDefinitionIndex = 67197;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_958_TypeDefinitionIndex = 64452;
 
 class Class_0_16E4307DCC419505_958
 {

@@ -4,7 +4,7 @@
 
 namespace System::Runtime::InteropServices
 {
-	inline static constexpr unsigned int CollectionsMarshal_ListDummy_1_TypeDefinitionIndex = 35223;
+	inline static constexpr unsigned int CollectionsMarshal_ListDummy_1_TypeDefinitionIndex = 35897;
 
 	template <typename T>
 	class CollectionsMarshal_ListDummy_1 : public ::System::Object

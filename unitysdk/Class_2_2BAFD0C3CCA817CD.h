@@ -8,17 +8,17 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_2BAFD0C3CCA817CD_METHOD_2_CD9F3CEFB366C27A_OFFSET UNITYSDK_OFFSET(0x19542BF0)
-#define CLASS_2_2BAFD0C3CCA817CD__CTOR_OFFSET UNITYSDK_OFFSET(0x195442F0)
+#define CLASS_2_2BAFD0C3CCA817CD_METHOD_2_CD9F3CEFB366C27A_OFFSET UNITYSDK_OFFSET(0xDA4B3F0)
+#define CLASS_2_2BAFD0C3CCA817CD__CTOR_OFFSET UNITYSDK_OFFSET(0xDA4CAF0)
 
-inline static constexpr unsigned int Class_2_2BAFD0C3CCA817CD_TypeDefinitionIndex = 70595;
+inline static constexpr unsigned int Class_2_2BAFD0C3CCA817CD_TypeDefinitionIndex = 70631;
 
 class Class_2_2BAFD0C3CCA817CD : public ::Class_1_648258D77F597F54
 {
 public:
-	::System::Collections::Generic::List_1<::System::Single>* GLOIAGHEBML; // 0x30
-	::System::Collections::Generic::List_1<::UnityEngine::Matrix4x4>* GINMNCLNFCF; // 0x38
-	::System::Collections::Generic::List_1<::RPG::Client::TAUtils::SimpleTransform>* IKJPLHINJMH; // 0x40
+	::System::Collections::Generic::List_1<::UnityEngine::Matrix4x4>* GINMNCLNFCF; // 0x30
+	::System::Collections::Generic::List_1<::RPG::Client::TAUtils::SimpleTransform>* IKJPLHINJMH; // 0x38
+	::System::Collections::Generic::List_1<::System::Single>* GLOIAGHEBML; // 0x40
 	::System::String* EINFJLDMHOA; // 0x48
 	::System::Single FDODPACHCFE; // 0x50
 	::Class_2_2BAFD0C3CCA817CD_CustomDataChannel IHGCIPOANNK; // 0x54

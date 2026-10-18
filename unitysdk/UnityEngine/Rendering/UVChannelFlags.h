@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int UVChannelFlags_TypeDefinitionIndex = 5285;
+	inline static constexpr unsigned int UVChannelFlags_TypeDefinitionIndex = 5292;
 
 	enum class UVChannelFlags : ::System::Int32
 	{

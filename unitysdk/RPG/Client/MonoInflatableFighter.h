@@ -7,11 +7,11 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class Collider; }
 
-#define RPG_CLIENT_MONOINFLATABLEFIGHTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1ACEAC40)
+#define RPG_CLIENT_MONOINFLATABLEFIGHTER__CTOR_OFFSET UNITYSDK_OFFSET(0xD8376A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoInflatableFighter_TypeDefinitionIndex = 68648;
+	inline static constexpr unsigned int MonoInflatableFighter_TypeDefinitionIndex = 68682;
 
 	class MonoInflatableFighter : public ::UnityEngine::MonoBehaviour
 	{

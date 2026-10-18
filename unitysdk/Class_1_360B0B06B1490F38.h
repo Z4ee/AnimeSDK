@@ -6,9 +6,9 @@
 class Class_1_70697F531F566942_1;
 namespace RPG::GameCore { class ComplexSkillAIFactorGroup; }
 
-#define CLASS_1_360B0B06B1490F38_METHOD_1_4D60A580D6632E42_OFFSET UNITYSDK_OFFSET(0x17BCC1F0)
+#define CLASS_1_360B0B06B1490F38_METHOD_1_4D60A580D6632E42_OFFSET UNITYSDK_OFFSET(0x15CC9620)
 
-inline static constexpr unsigned int Class_1_360B0B06B1490F38_TypeDefinitionIndex = 54561;
+inline static constexpr unsigned int Class_1_360B0B06B1490F38_TypeDefinitionIndex = 54347;
 
 class Class_1_360B0B06B1490F38 : public ::System::Object
 {

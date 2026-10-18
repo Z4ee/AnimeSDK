@@ -5,11 +5,11 @@
 namespace UnityEngine { class Sprite; }
 namespace UnityEngine { class Texture2D; }
 
-#define COFFEE_UIPARTICLEINTERNAL_SPRITEEXTENSIONS_GETACTUALTEXTURE_OFFSET UNITYSDK_OFFSET(0x1EE82DC0)
+#define COFFEE_UIPARTICLEINTERNAL_SPRITEEXTENSIONS_GETACTUALTEXTURE_OFFSET UNITYSDK_OFFSET(0x166B69F0)
 
 namespace Coffee::UIParticleInternal
 {
-	inline static constexpr unsigned int SpriteExtensions_TypeDefinitionIndex = 43932;
+	inline static constexpr unsigned int SpriteExtensions_TypeDefinitionIndex = 45124;
 
 	class SpriteExtensions : public ::System::Object
 	{

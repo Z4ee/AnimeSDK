@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define AKUTILITIES_FIXSLASHES_1_OFFSET UNITYSDK_OFFSET(0x1D2D7CD0)
-#define AKUTILITIES_FIXSLASHES_OFFSET UNITYSDK_OFFSET(0x1D2D7910)
-#define AKUTILITIES__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2D7ED0)
+#define AKUTILITIES_FIXSLASHES_1_OFFSET UNITYSDK_OFFSET(0x1F5EC1E0)
+#define AKUTILITIES_FIXSLASHES_OFFSET UNITYSDK_OFFSET(0x1F5EBE20)
+#define AKUTILITIES__CTOR_OFFSET UNITYSDK_OFFSET(0x1F5EC3E0)
 
-inline static constexpr unsigned int AkUtilities_TypeDefinitionIndex = 43660;
+inline static constexpr unsigned int AkUtilities_TypeDefinitionIndex = 44852;
 
 class AkUtilities : public ::System::Object
 {

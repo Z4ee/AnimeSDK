@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ChangeAnimEventConfig; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_BA4B7FB3B116E8FD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16B16C90)
-#define CLASS_3_BA4B7FB3B116E8FD__CTOR_OFFSET UNITYSDK_OFFSET(0x16B16C60)
+#define CLASS_3_BA4B7FB3B116E8FD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB9CF2D0)
+#define CLASS_3_BA4B7FB3B116E8FD__CTOR_OFFSET UNITYSDK_OFFSET(0xB9CF2A0)
 
-inline static constexpr unsigned int Class_3_BA4B7FB3B116E8FD_TypeDefinitionIndex = 55120;
+inline static constexpr unsigned int Class_3_BA4B7FB3B116E8FD_TypeDefinitionIndex = 54913;
 
 class Class_3_BA4B7FB3B116E8FD : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ChangeAnimEventConfig*>
 {

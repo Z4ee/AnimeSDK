@@ -9,27 +9,27 @@ namespace RPG::GameCore { class FateRinStageSpecifiedDeckEntry; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_2_706B35913BBE04FF_METHOD_2_6A8A97495A142AD1_OFFSET UNITYSDK_OFFSET(0x1D842E20)
-#define CLASS_2_706B35913BBE04FF__CTOR_OFFSET UNITYSDK_OFFSET(0x1D8432B0)
+#define CLASS_2_706B35913BBE04FF_METHOD_2_6A8A97495A142AD1_OFFSET UNITYSDK_OFFSET(0x1CCC0F60)
+#define CLASS_2_706B35913BBE04FF__CTOR_OFFSET UNITYSDK_OFFSET(0x1CCC13F0)
 
-inline static constexpr unsigned int Class_2_706B35913BBE04FF_TypeDefinitionIndex = 17938;
+inline static constexpr unsigned int Class_2_706B35913BBE04FF_TypeDefinitionIndex = 18152;
 
 class Class_2_706B35913BBE04FF : public ::RPG::GameCore::JsonConfig
 {
 public:
-	::System::String* HOHBFFNDIKF; // 0x10
-	::System::String* HCLJHPDOFKH; // 0x18
-	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::FateRinMonsterHitBoxOffsetEntry*>* KAKOEADOGFO; // 0x20
-	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Class_2_558C0D911459BA9F*>* EECOOEBAPEB; // 0x28
+	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::FateRinMonsterHitBoxOffsetEntry*>* KAKOEADOGFO; // 0x10
+	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Class_2_558C0D911459BA9F*>* EECOOEBAPEB; // 0x18
+	::System::String* HOHBFFNDIKF; // 0x20
+	::System::String* HCLJHPDOFKH; // 0x28
 	::System::String* KHFBNGDEJGK; // 0x30
-	::Il2CppArray<::System::UInt32>* JFKAEFCAEGN; // 0x38
+	::Il2CppArray<::System::UInt32>* DLPLLLENNHN; // 0x38
 	::Il2CppArray<::RPG::GameCore::FateRinStageSpecifiedDeckEntry*>* MLDEGKEPEJB; // 0x40
-	::Il2CppArray<::System::UInt32>* DLPLLLENNHN; // 0x48
-	::System::UInt32 AAFBCHNAKNJ; // 0x50
-	::System::UInt32 BMFPFMDJOMO; // 0x54
-	::System::Single JFMJJKDBCEC; // 0x58
-	::System::Single BMKPADMOOCP; // 0x5C
-	::System::UInt32 AAPBHIJNEMM; // 0x60
+	::Il2CppArray<::System::UInt32>* JFKAEFCAEGN; // 0x48
+	::System::Single BMKPADMOOCP; // 0x50
+	::System::Single JFMJJKDBCEC; // 0x54
+	::System::UInt32 AAPBHIJNEMM; // 0x58
+	::System::UInt32 AAFBCHNAKNJ; // 0x5C
+	::System::UInt32 BMFPFMDJOMO; // 0x60
 
 	::System::Void _ctor()
 	{

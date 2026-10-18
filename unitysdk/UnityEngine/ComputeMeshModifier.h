@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class ComputeMeshModifierAsset; }
 
-#define UNITYENGINE_COMPUTEMESHMODIFIER_GET_COMPUTEMESHMODIFIERASSET_OFFSET UNITYSDK_OFFSET(0x1DECA520)
+#define UNITYENGINE_COMPUTEMESHMODIFIER_GET_COMPUTEMESHMODIFIERASSET_OFFSET UNITYSDK_OFFSET(0x1F3AD540)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ComputeMeshModifier_TypeDefinitionIndex = 4108;
+	inline static constexpr unsigned int ComputeMeshModifier_TypeDefinitionIndex = 4109;
 
 	class ComputeMeshModifier : public ::UnityEngine::Behaviour
 	{

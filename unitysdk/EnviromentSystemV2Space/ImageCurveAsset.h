@@ -7,11 +7,11 @@
 namespace EnviromentSystemV2Space { class ImageKeyFrameConfig; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define ENVIROMENTSYSTEMV2SPACE_IMAGECURVEASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x106E8130)
+#define ENVIROMENTSYSTEMV2SPACE_IMAGECURVEASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x15647EF0)
 
 namespace EnviromentSystemV2Space
 {
-	inline static constexpr unsigned int ImageCurveAsset_TypeDefinitionIndex = 49910;
+	inline static constexpr unsigned int ImageCurveAsset_TypeDefinitionIndex = 49485;
 
 	class ImageCurveAsset : public ::UnityEngine::ScriptableObject
 	{

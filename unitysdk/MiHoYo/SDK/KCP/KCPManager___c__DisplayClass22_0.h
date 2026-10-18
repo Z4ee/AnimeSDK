@@ -5,20 +5,20 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_KCP_KCPMANAGER___C__DISPLAYCLASS22_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C6FCA20)
-#define MIHOYO_SDK_KCP_KCPMANAGER___C__DISPLAYCLASS22_0__KCPKIBANAREPORT_B__0_OFFSET UNITYSDK_OFFSET(0x1C6FD8D0)
+#define MIHOYO_SDK_KCP_KCPMANAGER___C__DISPLAYCLASS22_0__CTOR_OFFSET UNITYSDK_OFFSET(0xAFB31C0)
+#define MIHOYO_SDK_KCP_KCPMANAGER___C__DISPLAYCLASS22_0__KCPKIBANAREPORT_B__0_OFFSET UNITYSDK_OFFSET(0xAFB4070)
 
 namespace MiHoYo::SDK::KCP
 {
-	inline static constexpr unsigned int KCPManager___c__DisplayClass22_0_TypeDefinitionIndex = 47156;
+	inline static constexpr unsigned int KCPManager___c__DisplayClass22_0_TypeDefinitionIndex = 46696;
 
 	class KCPManager___c__DisplayClass22_0 : public ::System::Object
 	{
 	public:
-		::System::String* msg; // 0x10
-		::System::String* eventStr; // 0x18
-		::System::Int32 code; // 0x20
-		::MiHoYo::SDK::KCP::KCPLogLevel logLevel; // 0x24
+		::System::String* eventStr; // 0x10
+		::System::String* msg; // 0x18
+		::MiHoYo::SDK::KCP::KCPLogLevel logLevel; // 0x20
+		::System::Int32 code; // 0x24
 
 		::System::Void _ctor()
 		{

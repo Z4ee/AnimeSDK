@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TutorialB51RacingGameButtonType_TypeDefinitionIndex = 24541;
+	inline static constexpr unsigned int TutorialB51RacingGameButtonType_TypeDefinitionIndex = 24823;
 
 	enum class TutorialB51RacingGameButtonType : ::System::Int32
 	{

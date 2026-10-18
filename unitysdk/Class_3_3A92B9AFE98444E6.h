@@ -9,19 +9,19 @@ namespace RPG::GameCore { class JsonEnum; }
 namespace RPG::GameCore { class ValueEvaluatorConfig; }
 namespace System { class String; }
 
-#define CLASS_3_3A92B9AFE98444E6_METHOD_3_1F96CACAEB5EDB64_OFFSET UNITYSDK_OFFSET(0x1CB51A70)
-#define CLASS_3_3A92B9AFE98444E6_METHOD_3_A6F54A9E721BB5D2_OFFSET UNITYSDK_OFFSET(0x1CB51AB0)
-#define CLASS_3_3A92B9AFE98444E6__CTOR_OFFSET UNITYSDK_OFFSET(0x1CB51AA0)
+#define CLASS_3_3A92B9AFE98444E6_METHOD_3_1F96CACAEB5EDB64_OFFSET UNITYSDK_OFFSET(0x1D1D09B0)
+#define CLASS_3_3A92B9AFE98444E6_METHOD_3_A6F54A9E721BB5D2_OFFSET UNITYSDK_OFFSET(0x1D1D09F0)
+#define CLASS_3_3A92B9AFE98444E6__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1D09E0)
 
-inline static constexpr unsigned int Class_3_3A92B9AFE98444E6_TypeDefinitionIndex = 23948;
+inline static constexpr unsigned int Class_3_3A92B9AFE98444E6_TypeDefinitionIndex = 24223;
 
 class Class_3_3A92B9AFE98444E6 : public ::RPG::GameCore::TaskConfig
 {
 public:
-	::RPG::GameCore::ValueEvaluatorConfig* MNDFOPKBHKP; // 0x18
-	::Il2CppArray<::RPG::GameCore::SkillType>* OOOPJAECBIN; // 0x20
-	::Il2CppArray<::RPG::GameCore::JsonEnum*>* KGIDDABCHON; // 0x28
-	::Il2CppArray<::System::String*>* COIKNMHIEPK; // 0x30
+	::Il2CppArray<::System::String*>* COIKNMHIEPK; // 0x18
+	::RPG::GameCore::ValueEvaluatorConfig* MNDFOPKBHKP; // 0x20
+	::Il2CppArray<::RPG::GameCore::SkillType>* OOOPJAECBIN; // 0x28
+	::Il2CppArray<::RPG::GameCore::JsonEnum*>* KGIDDABCHON; // 0x30
 	::RPG::GameCore::RtSkillPropertyType ACHILGIPGKL; // 0x38
 
 	::System::Void _ctor()

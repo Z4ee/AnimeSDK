@@ -3,7 +3,7 @@
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveBaseTechTreeRowType_TypeDefinitionIndex = 75102;
+	inline static constexpr unsigned int IdleLiveBaseTechTreeRowType_TypeDefinitionIndex = 75402;
 
 	enum class IdleLiveBaseTechTreeRowType : ::System::Int32
 	{

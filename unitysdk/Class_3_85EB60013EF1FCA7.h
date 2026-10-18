@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class HideAllEntity; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_85EB60013EF1FCA7_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18C932F0)
-#define CLASS_3_85EB60013EF1FCA7__CTOR_OFFSET UNITYSDK_OFFSET(0x18C932C0)
+#define CLASS_3_85EB60013EF1FCA7_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x13A2CFE0)
+#define CLASS_3_85EB60013EF1FCA7__CTOR_OFFSET UNITYSDK_OFFSET(0x13A2CFB0)
 
-inline static constexpr unsigned int Class_3_85EB60013EF1FCA7_TypeDefinitionIndex = 55296;
+inline static constexpr unsigned int Class_3_85EB60013EF1FCA7_TypeDefinitionIndex = 55090;
 
 class Class_3_85EB60013EF1FCA7 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::HideAllEntity*>
 {

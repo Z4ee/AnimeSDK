@@ -4,11 +4,11 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_B51RACING_B51RACINGRESIDENTREWARDPAGEVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6CB790)
+#define RPG_CLIENT_B51RACING_B51RACINGRESIDENTREWARDPAGEVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xC7AE8B0)
 
 namespace RPG::Client::B51Racing
 {
-	inline static constexpr unsigned int B51RacingResidentRewardPageViewModel_TypeDefinitionIndex = 80722;
+	inline static constexpr unsigned int B51RacingResidentRewardPageViewModel_TypeDefinitionIndex = 82050;
 
 	class B51RacingResidentRewardPageViewModel : public ::System::Object
 	{

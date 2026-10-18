@@ -5,12 +5,12 @@
 namespace RPG::Client::HimekoNovaSpecialSkill { class HimekoNovaSpecialSkillDisplayViewModel; }
 namespace RPG::Client::HimekoNovaSpecialSkill { class HimekoNovaSpecialSkillTabViewModel; }
 
-#define RPG_CLIENT_HIMEKONOVASPECIALSKILL_HIMEKONOVASPECIALSKILLDISPLAYVIEWMODEL___C__DISPLAYCLASS67_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1981D230)
-#define RPG_CLIENT_HIMEKONOVASPECIALSKILL_HIMEKONOVASPECIALSKILLDISPLAYVIEWMODEL___C__DISPLAYCLASS67_0___CTOR_B__0_OFFSET UNITYSDK_OFFSET(0x1981F400)
+#define RPG_CLIENT_HIMEKONOVASPECIALSKILL_HIMEKONOVASPECIALSKILLDISPLAYVIEWMODEL___C__DISPLAYCLASS67_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD320540)
+#define RPG_CLIENT_HIMEKONOVASPECIALSKILL_HIMEKONOVASPECIALSKILLDISPLAYVIEWMODEL___C__DISPLAYCLASS67_0___CTOR_B__0_OFFSET UNITYSDK_OFFSET(0xD3226E0)
 
 namespace RPG::Client::HimekoNovaSpecialSkill
 {
-	inline static constexpr unsigned int HimekoNovaSpecialSkillDisplayViewModel___c__DisplayClass67_0_TypeDefinitionIndex = 79171;
+	inline static constexpr unsigned int HimekoNovaSpecialSkillDisplayViewModel___c__DisplayClass67_0_TypeDefinitionIndex = 80494;
 
 	class HimekoNovaSpecialSkillDisplayViewModel___c__DisplayClass67_0 : public ::System::Object
 	{

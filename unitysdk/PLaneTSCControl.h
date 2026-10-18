@@ -7,34 +7,34 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Renderer; }
 
-#define PLANETSCCONTROL_CLEARRENDERERS_OFFSET UNITYSDK_OFFSET(0x18507710)
-#define PLANETSCCONTROL_COLLECTRENDERERS_OFFSET UNITYSDK_OFFSET(0x18507610)
-#define PLANETSCCONTROL_STARTCLIP_OFFSET UNITYSDK_OFFSET(0x18507780)
-#define PLANETSCCONTROL_STOPCLIP_OFFSET UNITYSDK_OFFSET(0x185079F0)
-#define PLANETSCCONTROL_UPDATE_OFFSET UNITYSDK_OFFSET(0x18507150)
-#define PLANETSCCONTROL__CCTOR_OFFSET UNITYSDK_OFFSET(0x18507CA0)
-#define PLANETSCCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x18507C40)
+#define PLANETSCCONTROL_CLEARRENDERERS_OFFSET UNITYSDK_OFFSET(0xC309910)
+#define PLANETSCCONTROL_COLLECTRENDERERS_OFFSET UNITYSDK_OFFSET(0xC309810)
+#define PLANETSCCONTROL_STARTCLIP_OFFSET UNITYSDK_OFFSET(0xC309980)
+#define PLANETSCCONTROL_STOPCLIP_OFFSET UNITYSDK_OFFSET(0xC309BF0)
+#define PLANETSCCONTROL_UPDATE_OFFSET UNITYSDK_OFFSET(0xC309350)
+#define PLANETSCCONTROL__CCTOR_OFFSET UNITYSDK_OFFSET(0xC309EA0)
+#define PLANETSCCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0xC309E40)
 
-inline static constexpr unsigned int PLaneTSCControl_TypeDefinitionIndex = 47739;
+inline static constexpr unsigned int PLaneTSCControl_TypeDefinitionIndex = 47279;
 
 class PLaneTSCControl : public ::UnityEngine::MonoBehaviour
 {
 public:
-	static ::System::Int32* StaticGet_ELBNMMKNPFJ()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PLaneTSCControl_TypeDefinitionIndex)->GetStaticField(0x12980);
-	}
-	static ::System::Int32* StaticGet_JDIOPOAEGGM()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PLaneTSCControl_TypeDefinitionIndex)->GetStaticField(0x12984);
-	}
 	static ::System::Int32* StaticGet_CCEADALFFEM()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PLaneTSCControl_TypeDefinitionIndex)->GetStaticField(0x12988);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PLaneTSCControl_TypeDefinitionIndex)->GetStaticField(0x15C60);
+	}
+	static ::System::Int32* StaticGet_ELBNMMKNPFJ()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PLaneTSCControl_TypeDefinitionIndex)->GetStaticField(0x15C64);
 	}
 	static ::System::Int32* StaticGet_NEPFNFJCJFD()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PLaneTSCControl_TypeDefinitionIndex)->GetStaticField(0x1298C);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PLaneTSCControl_TypeDefinitionIndex)->GetStaticField(0x15C68);
+	}
+	static ::System::Int32* StaticGet_JDIOPOAEGGM()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PLaneTSCControl_TypeDefinitionIndex)->GetStaticField(0x15C6C);
 	}
 	::System::Single width; // 0x18
 	::System::Single height; // 0x1C

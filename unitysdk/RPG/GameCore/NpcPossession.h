@@ -9,13 +9,13 @@ namespace RPG::GameCore { class NpcPossessionEffectConfig; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_NPCPOSSESSION_METHOD_3_5B8D283D398889CE_OFFSET UNITYSDK_OFFSET(0x1CE93510)
-#define RPG_GAMECORE_NPCPOSSESSION_METHOD_3_9D8C85501AC534A7_OFFSET UNITYSDK_OFFSET(0x1CE934D0)
-#define RPG_GAMECORE_NPCPOSSESSION__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE93500)
+#define RPG_GAMECORE_NPCPOSSESSION_METHOD_3_5B8D283D398889CE_OFFSET UNITYSDK_OFFSET(0x1D8AFC60)
+#define RPG_GAMECORE_NPCPOSSESSION_METHOD_3_9D8C85501AC534A7_OFFSET UNITYSDK_OFFSET(0x1D8AFC20)
+#define RPG_GAMECORE_NPCPOSSESSION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D8AFC50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int NpcPossession_TypeDefinitionIndex = 22148;
+	inline static constexpr unsigned int NpcPossession_TypeDefinitionIndex = 22397;
 
 	class NpcPossession : public ::RPG::GameCore::TaskConfig
 	{

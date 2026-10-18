@@ -5,19 +5,19 @@
 namespace RPG::Client { class IRogueTournPersonaRoomCardInGame; }
 namespace System { class String; }
 
-#define CLASS_1_1AA7C889AB82E323_GET_ROOMCARDBEFORE_OFFSET UNITYSDK_OFFSET(0x184FBDE0)
-#define CLASS_1_1AA7C889AB82E323_GET_ROOMCARD_OFFSET UNITYSDK_OFFSET(0x184FBDD0)
-#define CLASS_1_1AA7C889AB82E323_TOSTRING_OFFSET UNITYSDK_OFFSET(0x184FBB60)
-#define CLASS_1_1AA7C889AB82E323_TRIGGERACTION_OFFSET UNITYSDK_OFFSET(0x184FBC00)
-#define CLASS_1_1AA7C889AB82E323__CTOR_OFFSET UNITYSDK_OFFSET(0x184FBB50)
+#define CLASS_1_1AA7C889AB82E323_GET_ROOMCARDBEFORE_OFFSET UNITYSDK_OFFSET(0xC2FDDE0)
+#define CLASS_1_1AA7C889AB82E323_GET_ROOMCARD_OFFSET UNITYSDK_OFFSET(0xC2FDDD0)
+#define CLASS_1_1AA7C889AB82E323_TOSTRING_OFFSET UNITYSDK_OFFSET(0xC2FDB90)
+#define CLASS_1_1AA7C889AB82E323_TRIGGERACTION_OFFSET UNITYSDK_OFFSET(0xC2FDC30)
+#define CLASS_1_1AA7C889AB82E323__CTOR_OFFSET UNITYSDK_OFFSET(0xC2FDB80)
 
-inline static constexpr unsigned int Class_1_1AA7C889AB82E323_TypeDefinitionIndex = 67047;
+inline static constexpr unsigned int Class_1_1AA7C889AB82E323_TypeDefinitionIndex = 67049;
 
 class Class_1_1AA7C889AB82E323 : public ::System::Object
 {
 public:
-	::RPG::Client::IRogueTournPersonaRoomCardInGame* _RoomCard_k__BackingField; // 0x10
-	::RPG::Client::IRogueTournPersonaRoomCardInGame* _RoomCardBefore_k__BackingField; // 0x18
+	::RPG::Client::IRogueTournPersonaRoomCardInGame* _RoomCardBefore_k__BackingField; // 0x10
+	::RPG::Client::IRogueTournPersonaRoomCardInGame* _RoomCard_k__BackingField; // 0x18
 
 	::System::Void _ctor(::RPG::Client::IRogueTournPersonaRoomCardInGame* a1, ::RPG::Client::IRogueTournPersonaRoomCardInGame* a2)
 	{

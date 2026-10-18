@@ -5,20 +5,20 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_TRAINPARTYMTCATEGORYCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D5371C0)
-#define RPG_GAMECORE_TRAINPARTYMTCATEGORYCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D537460)
+#define RPG_GAMECORE_TRAINPARTYMTCATEGORYCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DC05330)
+#define RPG_GAMECORE_TRAINPARTYMTCATEGORYCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1DC055D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrainPartyMtCategoryConfigRow_TypeDefinitionIndex = 15160;
+	inline static constexpr unsigned int TrainPartyMtCategoryConfigRow_TypeDefinitionIndex = 15331;
 
 	class TrainPartyMtCategoryConfigRow : public ::System::Object
 	{
 	public:
-		::RPG::Client::TextID CategoryName; // 0x10
-		::RPG::Client::TextID CategoryTableName; // 0x20
-		::RPG::Client::TextID CategoryDesc; // 0x30
-		::System::UInt32 CategoryID; // 0x40
+		::RPG::Client::TextID CategoryDesc; // 0x10
+		::RPG::Client::TextID CategoryName; // 0x20
+		::System::UInt32 CategoryID; // 0x30
+		::RPG::Client::TextID CategoryTableName; // 0x38
 
 		::System::Void _ctor()
 		{

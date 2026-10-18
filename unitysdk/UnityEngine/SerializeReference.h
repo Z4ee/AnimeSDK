@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define UNITYENGINE_SERIALIZEREFERENCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1DCDA360)
+#define UNITYENGINE_SERIALIZEREFERENCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F3FE3B0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int SerializeReference_TypeDefinitionIndex = 4371;
+	inline static constexpr unsigned int SerializeReference_TypeDefinitionIndex = 4374;
 
 	class SerializeReference : public ::System::Attribute
 	{

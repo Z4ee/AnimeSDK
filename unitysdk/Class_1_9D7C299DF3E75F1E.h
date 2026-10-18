@@ -8,17 +8,17 @@ class Class_3_F4528A5C0F861AF2;
 namespace Entitas { template <typename T> class IGroup_1; }
 namespace RPG::Client::LittleGame { class ElfRestaurantGameEntity; }
 
-#define CLASS_1_9D7C299DF3E75F1E_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1161EE90)
-#define CLASS_1_9D7C299DF3E75F1E__CTOR_OFFSET UNITYSDK_OFFSET(0x1161EDC0)
+#define CLASS_1_9D7C299DF3E75F1E_EXECUTE_OFFSET UNITYSDK_OFFSET(0xC02B800)
+#define CLASS_1_9D7C299DF3E75F1E__CTOR_OFFSET UNITYSDK_OFFSET(0xC02B730)
 
-inline static constexpr unsigned int Class_1_9D7C299DF3E75F1E_TypeDefinitionIndex = 76802;
+inline static constexpr unsigned int Class_1_9D7C299DF3E75F1E_TypeDefinitionIndex = 77273;
 
 class Class_1_9D7C299DF3E75F1E : public ::System::Object
 {
 public:
-	::Class_3_F4528A5C0F861AF2* PDENFEFCAGN; // 0x10
+	::Class_2_80F8710F847F1248* EEFMDEHLLFI; // 0x10
 	::Entitas::IGroup_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>* JPKEBGGDFPL; // 0x18
-	::Class_2_80F8710F847F1248* EEFMDEHLLFI; // 0x20
+	::Class_3_F4528A5C0F861AF2* PDENFEFCAGN; // 0x20
 
 	::System::Void _ctor(::Class_1_D33B7D6901AE39E9* a1, ::Class_3_F4528A5C0F861AF2* a2)
 	{

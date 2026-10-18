@@ -4,18 +4,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ROGUEMAGICLAYERROOMROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D93B230)
-#define RPG_GAMECORE_ROGUEMAGICLAYERROOMROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D93B350)
+#define RPG_GAMECORE_ROGUEMAGICLAYERROOMROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D9A71B0)
+#define RPG_GAMECORE_ROGUEMAGICLAYERROOMROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D9A72D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueMagicLayerRoomRow_TypeDefinitionIndex = 14691;
+	inline static constexpr unsigned int RogueMagicLayerRoomRow_TypeDefinitionIndex = 14856;
 
 	class RogueMagicLayerRoomRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 LayerID; // 0x10
-		::System::UInt32 RoomIndex; // 0x14
+		::System::UInt32 RoomIndex; // 0x10
+		::System::UInt32 LayerID; // 0x14
 
 		::System::Void _ctor()
 		{

@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class FindAnchorConfig; }
 
-#define RPG_GAMECORE_PHOTOGRAPHCONTROLCONFIG_METHOD_2_3BD79762A15F28DD_OFFSET UNITYSDK_OFFSET(0x1D4340D0)
-#define RPG_GAMECORE_PHOTOGRAPHCONTROLCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D4343C0)
+#define RPG_GAMECORE_PHOTOGRAPHCONTROLCONFIG_METHOD_2_3BD79762A15F28DD_OFFSET UNITYSDK_OFFSET(0x1D8E2BF0)
+#define RPG_GAMECORE_PHOTOGRAPHCONTROLCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D8E2EE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PhotoGraphControlConfig_TypeDefinitionIndex = 21385;
+	inline static constexpr unsigned int PhotoGraphControlConfig_TypeDefinitionIndex = 21631;
 
 	class PhotoGraphControlConfig : public ::RPG::GameCore::JsonConfig
 	{

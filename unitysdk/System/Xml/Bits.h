@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_XML_BITS_COUNT_OFFSET UNITYSDK_OFFSET(0x1BABB430)
-#define SYSTEM_XML_BITS_LEASTPOSITION_OFFSET UNITYSDK_OFFSET(0x1BABB4D0)
-#define SYSTEM_XML_BITS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BABB5F0)
+#define SYSTEM_XML_BITS_COUNT_OFFSET UNITYSDK_OFFSET(0x1EE65CF0)
+#define SYSTEM_XML_BITS_LEASTPOSITION_OFFSET UNITYSDK_OFFSET(0x1EE65D90)
+#define SYSTEM_XML_BITS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EE65EB0)
 
 namespace System::Xml
 {
@@ -15,23 +15,23 @@ namespace System::Xml
 	public:
 		static ::System::UInt32* StaticGet_MASK_0000000011111111()
 		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(Bits_TypeDefinitionIndex)->GetStaticField(0x9190);
-		}
-		static ::System::UInt32* StaticGet_MASK_1111111111111111()
-		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(Bits_TypeDefinitionIndex)->GetStaticField(0x9194);
-		}
-		static ::System::UInt32* StaticGet_MASK_0000111100001111()
-		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(Bits_TypeDefinitionIndex)->GetStaticField(0x9198);
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(Bits_TypeDefinitionIndex)->GetStaticField(0x9490);
 		}
 		static ::System::UInt32* StaticGet_MASK_0101010101010101()
 		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(Bits_TypeDefinitionIndex)->GetStaticField(0x919C);
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(Bits_TypeDefinitionIndex)->GetStaticField(0x9494);
+		}
+		static ::System::UInt32* StaticGet_MASK_1111111111111111()
+		{
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(Bits_TypeDefinitionIndex)->GetStaticField(0x9498);
 		}
 		static ::System::UInt32* StaticGet_MASK_0011001100110011()
 		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(Bits_TypeDefinitionIndex)->GetStaticField(0x91A0);
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(Bits_TypeDefinitionIndex)->GetStaticField(0x949C);
+		}
+		static ::System::UInt32* StaticGet_MASK_0000111100001111()
+		{
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(Bits_TypeDefinitionIndex)->GetStaticField(0x94A0);
 		}
 
 		static ::System::Void _cctor()

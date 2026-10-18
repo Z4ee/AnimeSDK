@@ -5,11 +5,11 @@
 namespace RPG::Client { class BookContentComponent_BookContentData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_BOOKCONTENTCOMPONENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD92B40)
+#define RPG_CLIENT_BOOKCONTENTCOMPONENT__CTOR_OFFSET UNITYSDK_OFFSET(0xC8A7590)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BookContentComponent_TypeDefinitionIndex = 72435;
+	inline static constexpr unsigned int BookContentComponent_TypeDefinitionIndex = 72508;
 
 	class BookContentComponent : public ::UnityEngine::MonoBehaviour
 	{

@@ -5,12 +5,12 @@
 namespace MiHoYo::SDK::PC::OS { class XboxSocialUpdateExtension; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELSOCIALUPDATERESULT_TOJSON_OFFSET UNITYSDK_OFFSET(0x1ABCFB20)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELSOCIALUPDATERESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x1ABCFB30)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELSOCIALUPDATERESULT_TOJSON_OFFSET UNITYSDK_OFFSET(0x1BF061E0)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELSOCIALUPDATERESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF061F0)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int HoYoChannelSocialUpdateResult_TypeDefinitionIndex = 8566;
+	inline static constexpr unsigned int HoYoChannelSocialUpdateResult_TypeDefinitionIndex = 8627;
 
 	class HoYoChannelSocialUpdateResult : public ::MiHoYo::SDK::PC::OS::HoYoChannelBaseResult
 	{

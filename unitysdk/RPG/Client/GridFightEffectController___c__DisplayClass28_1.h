@@ -5,19 +5,19 @@
 namespace RPG::Client { class GridFightEffectController___c__DisplayClass28_0; }
 namespace RPG::Client { class GridFightUpgradeFlyEffect; }
 
-#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER___C__DISPLAYCLASS28_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1C969480)
-#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER___C__DISPLAYCLASS28_1__PLAYUPGRADEEFFECT_B__1_OFFSET UNITYSDK_OFFSET(0x1C96B010)
-#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER___C__DISPLAYCLASS28_1__PLAYUPGRADEEFFECT_B__2_OFFSET UNITYSDK_OFFSET(0x1C96B080)
+#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER___C__DISPLAYCLASS28_1__CTOR_OFFSET UNITYSDK_OFFSET(0xD0F8890)
+#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER___C__DISPLAYCLASS28_1__PLAYUPGRADEEFFECT_B__1_OFFSET UNITYSDK_OFFSET(0xD0FA420)
+#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER___C__DISPLAYCLASS28_1__PLAYUPGRADEEFFECT_B__2_OFFSET UNITYSDK_OFFSET(0xD0FA490)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightEffectController___c__DisplayClass28_1_TypeDefinitionIndex = 64547;
+	inline static constexpr unsigned int GridFightEffectController___c__DisplayClass28_1_TypeDefinitionIndex = 64487;
 
 	class GridFightEffectController___c__DisplayClass28_1 : public ::System::Object
 	{
 	public:
-		::RPG::Client::GridFightUpgradeFlyEffect* fly; // 0x10
-		::RPG::Client::GridFightEffectController___c__DisplayClass28_0* CS___8__locals1; // 0x18
+		::RPG::Client::GridFightEffectController___c__DisplayClass28_0* CS___8__locals1; // 0x10
+		::RPG::Client::GridFightUpgradeFlyEffect* fly; // 0x18
 
 		::System::Void _ctor()
 		{

@@ -2,24 +2,32 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/ImmediateTaskBase_1.h"
 
-class Class_3_7BA01DB1D8CEE96E_1;
+class Class_3_8283A71771D5D945;
+namespace RPG { template <typename T> class PoolList_1; }
+namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_27518451A20BB161_212_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x184CE0F0)
-#define CLASS_3_27518451A20BB161_212__CTOR_OFFSET UNITYSDK_OFFSET(0x184CE0C0)
+#define CLASS_3_27518451A20BB161_212_METHOD_3_BCE9BF3965BE8B02_OFFSET UNITYSDK_OFFSET(0x159BC2A0)
+#define CLASS_3_27518451A20BB161_212_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x159BBC20)
+#define CLASS_3_27518451A20BB161_212__CTOR_OFFSET UNITYSDK_OFFSET(0x159BBBF0)
 
-inline static constexpr unsigned int Class_3_27518451A20BB161_212_TypeDefinitionIndex = 55483;
+inline static constexpr unsigned int Class_3_27518451A20BB161_212_TypeDefinitionIndex = 55224;
 
-class Class_3_27518451A20BB161_212 : public ::RPG::GameCore::ImmediateTaskBase_1<::Class_3_7BA01DB1D8CEE96E_1*>
+class Class_3_27518451A20BB161_212 : public ::RPG::GameCore::ImmediateTaskBase_1<::Class_3_8283A71771D5D945*>
 {
 public:
-	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::Class_3_7BA01DB1D8CEE96E_1* a2)
+	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::Class_3_8283A71771D5D945* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::Class_3_7BA01DB1D8CEE96E_1*))((::PBYTE)hIl2Cpp + CLASS_3_27518451A20BB161_212__CTOR_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::Class_3_8283A71771D5D945*))((::PBYTE)hIl2Cpp + CLASS_3_27518451A20BB161_212__CTOR_OFFSET))(this, a1, a2);
 	}
 
 	::System::Void OnTaskBegin()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_27518451A20BB161_212_ONTASKBEGIN_OFFSET))(this);
+	}
+
+	static ::RPG::PoolList_1<::RPG::GameCore::GameEntity*>* Method_3_BCE9BF3965BE8B02(::RPG::GameCore::GameEntity* a1)
+	{
+		return ((::RPG::PoolList_1<::RPG::GameCore::GameEntity*>*(*)(::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + CLASS_3_27518451A20BB161_212_METHOD_3_BCE9BF3965BE8B02_OFFSET))(a1);
 	}
 };

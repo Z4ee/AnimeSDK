@@ -8,11 +8,11 @@
 
 class Class_2_AF3AF723C478F113_ExtraExportData;
 
-#define SCENENLIGHTMANAGER_BILLBOARDCONTROLLER_EXPORTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF40C50)
+#define SCENENLIGHTMANAGER_BILLBOARDCONTROLLER_EXPORTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xE956C50)
 
 namespace ScenenLightManager
 {
-	inline static constexpr unsigned int BillboardController_ExportData_TypeDefinitionIndex = 49529;
+	inline static constexpr unsigned int BillboardController_ExportData_TypeDefinitionIndex = 49103;
 
 	class BillboardController_ExportData : public ::ScenenLightManager::BaseComponentExportData
 	{

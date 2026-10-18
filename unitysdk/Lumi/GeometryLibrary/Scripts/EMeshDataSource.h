@@ -3,7 +3,7 @@
 
 namespace Lumi::GeometryLibrary::Scripts
 {
-	inline static constexpr unsigned int EMeshDataSource_TypeDefinitionIndex = 48159;
+	inline static constexpr unsigned int EMeshDataSource_TypeDefinitionIndex = 47700;
 
 	enum class EMeshDataSource : ::System::Int32
 	{

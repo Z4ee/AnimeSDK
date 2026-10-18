@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define CINEMACHINE_CINEMACHINEPIPELINE__CTOR_OFFSET UNITYSDK_OFFSET(0x18C709D0)
+#define CINEMACHINE_CINEMACHINEPIPELINE__CTOR_OFFSET UNITYSDK_OFFSET(0x1668CE60)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachinePipeline_TypeDefinitionIndex = 38449;
+	inline static constexpr unsigned int CinemachinePipeline_TypeDefinitionIndex = 39746;
 
 	class CinemachinePipeline : public ::UnityEngine::MonoBehaviour
 	{

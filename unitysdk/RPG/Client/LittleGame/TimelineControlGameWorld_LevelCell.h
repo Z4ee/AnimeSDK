@@ -4,17 +4,17 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector3Int.h"
 
-class Class_0_16E4307DCC419505_254;
+class Class_0_16E4307DCC419505_253;
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int TimelineControlGameWorld_LevelCell_TypeDefinitionIndex = 41225;
+	inline static constexpr unsigned int TimelineControlGameWorld_LevelCell_TypeDefinitionIndex = 42514;
 
 	struct alignas(8) TimelineControlGameWorld_LevelCell
 	{
 		::System::Boolean Visible; // 0x10
 		::UnityEngine::Vector3Int LocalPosition; // 0x14
 		::RPG::Client::LittleGame::ETimelineControlGameLevelFloor Floor; // 0x20
-		::Class_0_16E4307DCC419505_254* Debug; // 0x28
+		::Class_0_16E4307DCC419505_253* Debug; // 0x28
 	};
 }

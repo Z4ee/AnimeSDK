@@ -6,13 +6,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_HIPPLENGAMECHARACTERATTACHTOMINI_METHOD_3_140540ACF5B57E59_OFFSET UNITYSDK_OFFSET(0x1D3E23E0)
-#define RPG_GAMECORE_HIPPLENGAMECHARACTERATTACHTOMINI_METHOD_3_99372F6CA5F8FB04_OFFSET UNITYSDK_OFFSET(0x1D2015F0)
-#define RPG_GAMECORE_HIPPLENGAMECHARACTERATTACHTOMINI__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2017F0)
+#define RPG_GAMECORE_HIPPLENGAMECHARACTERATTACHTOMINI_METHOD_3_213837C602759F36_OFFSET UNITYSDK_OFFSET(0x1D73DA60)
+#define RPG_GAMECORE_HIPPLENGAMECHARACTERATTACHTOMINI_METHOD_3_EBACCEB3BF4065C3_OFFSET UNITYSDK_OFFSET(0x1D73DA20)
+#define RPG_GAMECORE_HIPPLENGAMECHARACTERATTACHTOMINI__CTOR_OFFSET UNITYSDK_OFFSET(0x1D73DA50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HipplenGameCharacterAttachToMini_TypeDefinitionIndex = 21072;
+	inline static constexpr unsigned int HipplenGameCharacterAttachToMini_TypeDefinitionIndex = 21318;
 
 	class HipplenGameCharacterAttachToMini : public ::RPG::GameCore::TaskConfig
 	{
@@ -27,14 +27,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HIPPLENGAMECHARACTERATTACHTOMINI__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_140540ACF5B57E59(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::HipplenGameCharacterAttachToMini*& a2)
+		static ::System::Void Method_3_EBACCEB3BF4065C3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::HipplenGameCharacterAttachToMini*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::HipplenGameCharacterAttachToMini*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HIPPLENGAMECHARACTERATTACHTOMINI_METHOD_3_140540ACF5B57E59_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::HipplenGameCharacterAttachToMini*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HIPPLENGAMECHARACTERATTACHTOMINI_METHOD_3_EBACCEB3BF4065C3_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_99372F6CA5F8FB04(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::HipplenGameCharacterAttachToMini* a2)
+		static ::System::Void Method_3_213837C602759F36(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::HipplenGameCharacterAttachToMini* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::HipplenGameCharacterAttachToMini*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HIPPLENGAMECHARACTERATTACHTOMINI_METHOD_3_99372F6CA5F8FB04_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::HipplenGameCharacterAttachToMini*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HIPPLENGAMECHARACTERATTACHTOMINI_METHOD_3_213837C602759F36_OFFSET))(a1, a2);
 		}
 	};
 }

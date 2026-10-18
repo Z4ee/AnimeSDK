@@ -5,12 +5,12 @@
 #include "unitysdk/RPG/Client/Effect_TransformToMaterialBehavior_TransformPropertyScale_ScaleWMode.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
-#define RPG_CLIENT_EFFECT_TRANSFORMTOMATERIALBEHAVIOR_TRANSFORMPROPERTYSCALE_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x15EA6020)
-#define RPG_CLIENT_EFFECT_TRANSFORMTOMATERIALBEHAVIOR_TRANSFORMPROPERTYSCALE__CTOR_OFFSET UNITYSDK_OFFSET(0x15EA6150)
+#define RPG_CLIENT_EFFECT_TRANSFORMTOMATERIALBEHAVIOR_TRANSFORMPROPERTYSCALE_GET_VALUE_OFFSET UNITYSDK_OFFSET(0xCD6C6D0)
+#define RPG_CLIENT_EFFECT_TRANSFORMTOMATERIALBEHAVIOR_TRANSFORMPROPERTYSCALE__CTOR_OFFSET UNITYSDK_OFFSET(0xCD6C800)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_TransformToMaterialBehavior_TransformPropertyScale_TypeDefinitionIndex = 70541;
+	inline static constexpr unsigned int Effect_TransformToMaterialBehavior_TransformPropertyScale_TypeDefinitionIndex = 70577;
 
 	class Effect_TransformToMaterialBehavior_TransformPropertyScale : public ::RPG::Client::Effect_TransformToMaterialBehavior_TransformProperty
 	{

@@ -6,12 +6,12 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_LIGHTCONTROLTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x1B59AC80)
-#define RPGTOOLS_TIMELINE_LIGHTCONTROLTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1B59B2E0)
+#define RPGTOOLS_TIMELINE_LIGHTCONTROLTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xE8FFE70)
+#define RPGTOOLS_TIMELINE_LIGHTCONTROLTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xE9004D0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int LightControlTrack_TypeDefinitionIndex = 48897;
+	inline static constexpr unsigned int LightControlTrack_TypeDefinitionIndex = 48443;
 
 	class LightControlTrack : public ::UnityEngine::Timeline::TrackAsset
 	{

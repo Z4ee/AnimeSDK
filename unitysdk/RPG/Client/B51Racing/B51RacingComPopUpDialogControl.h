@@ -6,21 +6,21 @@ namespace RPG::Client { class LocalizedText; }
 namespace RPG::Client::B51Racing { class B51RacingCarTargetPartIconLiteControl; }
 namespace RPG::Client::B51Racing { class B51RacingComPopUpDialogViewModel; }
 
-#define RPG_CLIENT_B51RACING_B51RACINGCOMPOPUPDIALOGCONTROL_SETUPVIEW_OFFSET UNITYSDK_OFFSET(0x19EEC500)
-#define RPG_CLIENT_B51RACING_B51RACINGCOMPOPUPDIALOGCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x19EEC860)
-#define RPG_CLIENT_B51RACING_B51RACINGCOMPOPUPDIALOGCONTROL__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0x19EEC440)
-#define RPG_CLIENT_B51RACING_B51RACINGCOMPOPUPDIALOGCONTROL__REFRESHBUFFDETAIL_OFFSET UNITYSDK_OFFSET(0x19EEC5A0)
+#define RPG_CLIENT_B51RACING_B51RACINGCOMPOPUPDIALOGCONTROL_SETUPVIEW_OFFSET UNITYSDK_OFFSET(0xC72ACA0)
+#define RPG_CLIENT_B51RACING_B51RACINGCOMPOPUPDIALOGCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0xC72B000)
+#define RPG_CLIENT_B51RACING_B51RACINGCOMPOPUPDIALOGCONTROL__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0xC72ABE0)
+#define RPG_CLIENT_B51RACING_B51RACINGCOMPOPUPDIALOGCONTROL__REFRESHBUFFDETAIL_OFFSET UNITYSDK_OFFSET(0xC72AD40)
 
 namespace RPG::Client::B51Racing
 {
-	inline static constexpr unsigned int B51RacingComPopUpDialogControl_TypeDefinitionIndex = 80492;
+	inline static constexpr unsigned int B51RacingComPopUpDialogControl_TypeDefinitionIndex = 81820;
 
 	class B51RacingComPopUpDialogControl : public ::Sofa::BaseSofaControl
 	{
 	public:
-		::RPG::Client::B51Racing::B51RacingCarTargetPartIconLiteControl* _Icon; // 0x38
-		::RPG::Client::LocalizedText* _BuffNameText; // 0x40
-		::RPG::Client::LocalizedText* _BuffDescText; // 0x48
+		::RPG::Client::B51Racing::B51RacingCarTargetPartIconLiteControl* _Icon; // 0x40
+		::RPG::Client::LocalizedText* _BuffNameText; // 0x48
+		::RPG::Client::LocalizedText* _BuffDescText; // 0x50
 
 		::System::Void _ctor()
 		{

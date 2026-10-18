@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define RPG_CLIENT_TALKMODULE_DIALOGUEEVENTKEY_CLEAR_OFFSET UNITYSDK_OFFSET(0x3B7C550)
-#define RPG_CLIENT_TALKMODULE_DIALOGUEEVENTKEY_EQUALS_OFFSET UNITYSDK_OFFSET(0x3B7C5A0)
-#define RPG_CLIENT_TALKMODULE_DIALOGUEEVENTKEY__CTOR_OFFSET UNITYSDK_OFFSET(0x18A0)
+#define RPG_CLIENT_TALKMODULE_DIALOGUEEVENTKEY_CLEAR_OFFSET UNITYSDK_OFFSET(0xF2710)
+#define RPG_CLIENT_TALKMODULE_DIALOGUEEVENTKEY_EQUALS_OFFSET UNITYSDK_OFFSET(0xF2760)
+#define RPG_CLIENT_TALKMODULE_DIALOGUEEVENTKEY__CTOR_OFFSET UNITYSDK_OFFSET(0xFDE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TalkModule_DialogueEventKey_TypeDefinitionIndex = 68029;
+	inline static constexpr unsigned int TalkModule_DialogueEventKey_TypeDefinitionIndex = 68034;
 
 	struct alignas(4) TalkModule_DialogueEventKey
 	{

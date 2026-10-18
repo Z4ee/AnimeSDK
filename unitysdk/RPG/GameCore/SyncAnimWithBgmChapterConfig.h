@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class SyncAnimWithBgmPhaseConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SYNCANIMWITHBGMCHAPTERCONFIG_METHOD_2_C3F83F803B4B404F_OFFSET UNITYSDK_OFFSET(0x1E15C780)
-#define RPG_GAMECORE_SYNCANIMWITHBGMCHAPTERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1E15C920)
+#define RPG_GAMECORE_SYNCANIMWITHBGMCHAPTERCONFIG_METHOD_2_C3F83F803B4B404F_OFFSET UNITYSDK_OFFSET(0x1DB22410)
+#define RPG_GAMECORE_SYNCANIMWITHBGMCHAPTERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB225B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SyncAnimWithBgmChapterConfig_TypeDefinitionIndex = 22143;
+	inline static constexpr unsigned int SyncAnimWithBgmChapterConfig_TypeDefinitionIndex = 22392;
 
 	class SyncAnimWithBgmChapterConfig : public ::RPG::GameCore::JsonConfig
 	{

@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_1095;
+class Class_0_16E4307DCC419505_1208;
 namespace RPG::GameCore { class GameEntity; }
 
-#define CLASS_2_EE0DC3ED43797D75___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A76C970)
-#define CLASS_2_EE0DC3ED43797D75___C__DISPLAYCLASS14_0___CREATEBATTLEEVENTPANEL_B__0_OFFSET UNITYSDK_OFFSET(0x1A76D690)
+#define CLASS_2_EE0DC3ED43797D75___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC19FC10)
+#define CLASS_2_EE0DC3ED43797D75___C__DISPLAYCLASS14_0___CREATEBATTLEEVENTPANEL_B__0_OFFSET UNITYSDK_OFFSET(0xC1A0930)
 
-inline static constexpr unsigned int Class_2_EE0DC3ED43797D75___c__DisplayClass14_0_TypeDefinitionIndex = 71570;
+inline static constexpr unsigned int Class_2_EE0DC3ED43797D75___c__DisplayClass14_0_TypeDefinitionIndex = 71620;
 
 class Class_2_EE0DC3ED43797D75___c__DisplayClass14_0 : public ::System::Object
 {
 public:
 	::RPG::GameCore::GameEntity* entity; // 0x10
-	::Class_0_16E4307DCC419505_1095* battleEventPanel; // 0x18
+	::Class_0_16E4307DCC419505_1208* battleEventPanel; // 0x18
 	::System::UInt32 slotIndex; // 0x20
 
 	::System::Void _ctor()

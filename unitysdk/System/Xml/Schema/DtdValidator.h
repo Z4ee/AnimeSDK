@@ -6,8 +6,8 @@ namespace System::Xml { class IDtdParserAdapter; }
 namespace System::Xml::Schema { class DtdValidator_NamespaceManager; }
 namespace System::Xml::Schema { class SchemaAttDef; }
 
-#define SYSTEM_XML_SCHEMA_DTDVALIDATOR_SETDEFAULTTYPEDVALUE_OFFSET UNITYSDK_OFFSET(0x1BAC2B80)
-#define SYSTEM_XML_SCHEMA_DTDVALIDATOR__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BAE6840)
+#define SYSTEM_XML_SCHEMA_DTDVALIDATOR_SETDEFAULTTYPEDVALUE_OFFSET UNITYSDK_OFFSET(0x1EE6D240)
+#define SYSTEM_XML_SCHEMA_DTDVALIDATOR__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EE90E30)
 
 namespace System::Xml::Schema
 {
@@ -18,7 +18,7 @@ namespace System::Xml::Schema
 	public:
 		static ::System::Xml::Schema::DtdValidator_NamespaceManager** StaticGet_namespaceManager()
 		{
-			return (::System::Xml::Schema::DtdValidator_NamespaceManager**)Il2CppClass::FromTypeDefinitionIndex(DtdValidator_TypeDefinitionIndex)->GetStaticField(0x1C9A0);
+			return (::System::Xml::Schema::DtdValidator_NamespaceManager**)Il2CppClass::FromTypeDefinitionIndex(DtdValidator_TypeDefinitionIndex)->GetStaticField(0x2DF90);
 		}
 
 		static ::System::Void _cctor()

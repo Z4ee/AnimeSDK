@@ -6,27 +6,27 @@ namespace MessagePack { class IFormatterResolver; }
 namespace MessagePack { class MessagePackSerializerOptions; }
 namespace MessagePack::Formatters { template <typename T> class IMessagePackFormatter_1; }
 
-#define MESSAGEPACK_RESOLVERS_STANDARDRESOLVER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D572B10)
-#define MESSAGEPACK_RESOLVERS_STANDARDRESOLVER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D572E50)
+#define MESSAGEPACK_RESOLVERS_STANDARDRESOLVER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BBB4BD0)
+#define MESSAGEPACK_RESOLVERS_STANDARDRESOLVER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BBB4F10)
 
 namespace MessagePack::Resolvers
 {
-	inline static constexpr unsigned int StandardResolver_TypeDefinitionIndex = 7221;
+	inline static constexpr unsigned int StandardResolver_TypeDefinitionIndex = 7275;
 
 	class StandardResolver : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::MessagePack::IFormatterResolver*>** StaticGet_Resolvers()
 		{
-			return (::Il2CppArray<::MessagePack::IFormatterResolver*>**)Il2CppClass::FromTypeDefinitionIndex(StandardResolver_TypeDefinitionIndex)->GetStaticField(0x3B640);
+			return (::Il2CppArray<::MessagePack::IFormatterResolver*>**)Il2CppClass::FromTypeDefinitionIndex(StandardResolver_TypeDefinitionIndex)->GetStaticField(0x4E600);
 		}
 		static ::MessagePack::Resolvers::StandardResolver** StaticGet_Instance()
 		{
-			return (::MessagePack::Resolvers::StandardResolver**)Il2CppClass::FromTypeDefinitionIndex(StandardResolver_TypeDefinitionIndex)->GetStaticField(0x3B648);
+			return (::MessagePack::Resolvers::StandardResolver**)Il2CppClass::FromTypeDefinitionIndex(StandardResolver_TypeDefinitionIndex)->GetStaticField(0x4E608);
 		}
 		static ::MessagePack::MessagePackSerializerOptions** StaticGet_Options()
 		{
-			return (::MessagePack::MessagePackSerializerOptions**)Il2CppClass::FromTypeDefinitionIndex(StandardResolver_TypeDefinitionIndex)->GetStaticField(0x3B650);
+			return (::MessagePack::MessagePackSerializerOptions**)Il2CppClass::FromTypeDefinitionIndex(StandardResolver_TypeDefinitionIndex)->GetStaticField(0x4E610);
 		}
 
 		static ::System::Void _cctor()

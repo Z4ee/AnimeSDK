@@ -4,12 +4,12 @@
 
 namespace RPG::GameCore { class GameEntity; }
 
-#define RPG_QA_DEBUGANIMATORINFOPANEL_SHOWENTITY_OFFSET UNITYSDK_OFFSET(0x1A3742E0)
-#define RPG_QA_DEBUGANIMATORINFOPANEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1A3742F0)
+#define RPG_QA_DEBUGANIMATORINFOPANEL_SHOWENTITY_OFFSET UNITYSDK_OFFSET(0xE871950)
+#define RPG_QA_DEBUGANIMATORINFOPANEL__CTOR_OFFSET UNITYSDK_OFFSET(0xE871960)
 
 namespace RPG::QA
 {
-	inline static constexpr unsigned int DebugAnimatorInfoPanel_TypeDefinitionIndex = 52115;
+	inline static constexpr unsigned int DebugAnimatorInfoPanel_TypeDefinitionIndex = 51821;
 
 	class DebugAnimatorInfoPanel : public ::UnityEngine::MonoBehaviour
 	{

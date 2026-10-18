@@ -6,9 +6,9 @@ class Class_2_291F7DA21A504FC4;
 class Class_3_0F021ECA96048DC9;
 namespace RPG::GameCore { class TaskContext; }
 
-#define STRUCT_2_7CAA93E3FEB7B3D6_EQUALS_OFFSET UNITYSDK_OFFSET(0x3B38F80)
+#define STRUCT_2_7CAA93E3FEB7B3D6_EQUALS_OFFSET UNITYSDK_OFFSET(0x12B90)
 
-inline static constexpr unsigned int Struct_2_7CAA93E3FEB7B3D6_TypeDefinitionIndex = 53940;
+inline static constexpr unsigned int Struct_2_7CAA93E3FEB7B3D6_TypeDefinitionIndex = 53726;
 
 struct alignas(8) Struct_2_7CAA93E3FEB7B3D6
 {

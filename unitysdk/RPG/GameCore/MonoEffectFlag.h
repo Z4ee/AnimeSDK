@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MonoEffectFlag_TypeDefinitionIndex = 18083;
+	inline static constexpr unsigned int MonoEffectFlag_TypeDefinitionIndex = 18298;
 
 	enum class MonoEffectFlag : ::System::Int32
 	{

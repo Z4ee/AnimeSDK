@@ -5,24 +5,24 @@
 namespace RPG::AvatarSystem { class IAvatar; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_CHESSROGUESENDPACKETCMD___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C1ACE90)
-#define RPG_CLIENT_CHESSROGUESENDPACKETCMD___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1C1ACED0)
-#define RPG_CLIENT_CHESSROGUESENDPACKETCMD___C__SENDREVIVEROGUEAVATARCSREQ_B__1_0_OFFSET UNITYSDK_OFFSET(0x1C1ACEE0)
+#define RPG_CLIENT_CHESSROGUESENDPACKETCMD___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xCB001E0)
+#define RPG_CLIENT_CHESSROGUESENDPACKETCMD___C__CTOR_OFFSET UNITYSDK_OFFSET(0xCB00220)
+#define RPG_CLIENT_CHESSROGUESENDPACKETCMD___C__SENDREVIVEROGUEAVATARCSREQ_B__1_0_OFFSET UNITYSDK_OFFSET(0xCB00230)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChessRogueSendPacketCmd___c_TypeDefinitionIndex = 67320;
+	inline static constexpr unsigned int ChessRogueSendPacketCmd___c_TypeDefinitionIndex = 67322;
 
 	class ChessRogueSendPacketCmd___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::ChessRogueSendPacketCmd___c** StaticGet___9()
-		{
-			return (::RPG::Client::ChessRogueSendPacketCmd___c**)Il2CppClass::FromTypeDefinitionIndex(ChessRogueSendPacketCmd___c_TypeDefinitionIndex)->GetStaticField(0x52490);
-		}
 		static ::System::Func_2<::RPG::AvatarSystem::IAvatar*, ::System::UInt32>** StaticGet___9__1_0()
 		{
-			return (::System::Func_2<::RPG::AvatarSystem::IAvatar*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(ChessRogueSendPacketCmd___c_TypeDefinitionIndex)->GetStaticField(0x52498);
+			return (::System::Func_2<::RPG::AvatarSystem::IAvatar*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(ChessRogueSendPacketCmd___c_TypeDefinitionIndex)->GetStaticField(0xEFF0);
+		}
+		static ::RPG::Client::ChessRogueSendPacketCmd___c** StaticGet___9()
+		{
+			return (::RPG::Client::ChessRogueSendPacketCmd___c**)Il2CppClass::FromTypeDefinitionIndex(ChessRogueSendPacketCmd___c_TypeDefinitionIndex)->GetStaticField(0xEFF8);
 		}
 
 		static ::System::Void _cctor()

@@ -6,12 +6,12 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_CRPCAMERABACKGROUNDTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x1D131F60)
-#define RPGTOOLS_TIMELINE_CRPCAMERABACKGROUNDTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1320E0)
+#define RPGTOOLS_TIMELINE_CRPCAMERABACKGROUNDTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xE8B2970)
+#define RPGTOOLS_TIMELINE_CRPCAMERABACKGROUNDTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xE8B2AC0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int CRPCameraBackgroundTrack_TypeDefinitionIndex = 48340;
+	inline static constexpr unsigned int CRPCameraBackgroundTrack_TypeDefinitionIndex = 47881;
 
 	class CRPCameraBackgroundTrack : public ::UnityEngine::Timeline::TrackAsset
 	{

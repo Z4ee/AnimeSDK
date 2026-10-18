@@ -6,10 +6,10 @@ namespace System { class String; }
 namespace System { class WeakReference; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define SYSTEM_DIAGNOSTICS_SWITCH__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AB315D0)
-#define SYSTEM_DIAGNOSTICS_SWITCH__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1AB30DC0)
-#define SYSTEM_DIAGNOSTICS_SWITCH__CTOR_OFFSET UNITYSDK_OFFSET(0x1AB29590)
-#define SYSTEM_DIAGNOSTICS_SWITCH__PRUNECACHEDSWITCHES_OFFSET UNITYSDK_OFFSET(0x1AB30F90)
+#define SYSTEM_DIAGNOSTICS_SWITCH__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EFE2CC0)
+#define SYSTEM_DIAGNOSTICS_SWITCH__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1EFE24B0)
+#define SYSTEM_DIAGNOSTICS_SWITCH__CTOR_OFFSET UNITYSDK_OFFSET(0x1EFDABC0)
+#define SYSTEM_DIAGNOSTICS_SWITCH__PRUNECACHEDSWITCHES_OFFSET UNITYSDK_OFFSET(0x1EFE2680)
 
 namespace System::Diagnostics
 {
@@ -20,14 +20,14 @@ namespace System::Diagnostics
 	public:
 		static ::System::Collections::Generic::List_1<::System::WeakReference*>** StaticGet_switches()
 		{
-			return (::System::Collections::Generic::List_1<::System::WeakReference*>**)Il2CppClass::FromTypeDefinitionIndex(Switch_TypeDefinitionIndex)->GetStaticField(0x36060);
+			return (::System::Collections::Generic::List_1<::System::WeakReference*>**)Il2CppClass::FromTypeDefinitionIndex(Switch_TypeDefinitionIndex)->GetStaticField(0x2CD40);
 		}
 		static ::System::Int32* StaticGet_s_LastCollectionCount()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Switch_TypeDefinitionIndex)->GetStaticField(0xE170);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Switch_TypeDefinitionIndex)->GetStaticField(0x9620);
 		}
-		::System::String* description; // 0x10
-		::System::String* displayName; // 0x18
+		::System::String* displayName; // 0x10
+		::System::String* description; // 0x18
 		::System::String* defaultValue; // 0x20
 		::System::String* switchValueString; // 0x28
 

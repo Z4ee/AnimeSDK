@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByHasBillboard; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_3534E8A8587ABE54_EVALUATE_OFFSET UNITYSDK_OFFSET(0x19153930)
-#define CLASS_3_3534E8A8587ABE54__CTOR_OFFSET UNITYSDK_OFFSET(0x19153900)
+#define CLASS_3_3534E8A8587ABE54_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15A860E0)
+#define CLASS_3_3534E8A8587ABE54__CTOR_OFFSET UNITYSDK_OFFSET(0x15A860B0)
 
-inline static constexpr unsigned int Class_3_3534E8A8587ABE54_TypeDefinitionIndex = 54823;
+inline static constexpr unsigned int Class_3_3534E8A8587ABE54_TypeDefinitionIndex = 54611;
 
 class Class_3_3534E8A8587ABE54 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByHasBillboard*>
 {

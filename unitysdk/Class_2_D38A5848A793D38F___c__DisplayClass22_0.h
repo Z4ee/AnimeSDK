@@ -6,16 +6,16 @@ class Class_2_B8E38BF47138A2E5;
 class Class_2_D38A5848A793D38F;
 namespace RPG::GameCore { class FourRotateVoxelFinishPointConfig; }
 
-#define CLASS_2_D38A5848A793D38F___C__DISPLAYCLASS22_0__CTOR_OFFSET UNITYSDK_OFFSET(0x199FC640)
-#define CLASS_2_D38A5848A793D38F___C__DISPLAYCLASS22_0__SETUPFINISHPOINTREWARDINTERACT_B__0_OFFSET UNITYSDK_OFFSET(0x19A02880)
+#define CLASS_2_D38A5848A793D38F___C__DISPLAYCLASS22_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15667370)
+#define CLASS_2_D38A5848A793D38F___C__DISPLAYCLASS22_0__SETUPFINISHPOINTREWARDINTERACT_B__0_OFFSET UNITYSDK_OFFSET(0x1566D640)
 
-inline static constexpr unsigned int Class_2_D38A5848A793D38F___c__DisplayClass22_0_TypeDefinitionIndex = 76261;
+inline static constexpr unsigned int Class_2_D38A5848A793D38F___c__DisplayClass22_0_TypeDefinitionIndex = 76738;
 
 class Class_2_D38A5848A793D38F___c__DisplayClass22_0 : public ::System::Object
 {
 public:
-	::RPG::GameCore::FourRotateVoxelFinishPointConfig* finishPropConfig; // 0x10
-	::Class_2_D38A5848A793D38F* __4__this; // 0x18
+	::Class_2_D38A5848A793D38F* __4__this; // 0x10
+	::RPG::GameCore::FourRotateVoxelFinishPointConfig* finishPropConfig; // 0x18
 
 	::System::Void _ctor()
 	{

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPGTOOLS_TIMELINE_AUDIO_WWISEMUTESTAGEPROPINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1D128D40)
+#define RPGTOOLS_TIMELINE_AUDIO_WWISEMUTESTAGEPROPINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xE8A95B0)
 
 namespace RPGTools::Timeline::Audio
 {
-	inline static constexpr unsigned int WwiseMuteStagePropInfo_TypeDefinitionIndex = 49300;
+	inline static constexpr unsigned int WwiseMuteStagePropInfo_TypeDefinitionIndex = 48854;
 
 	class WwiseMuteStagePropInfo : public ::System::Object
 	{

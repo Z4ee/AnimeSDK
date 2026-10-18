@@ -11,7 +11,7 @@ namespace System::Threading::Tasks { template <typename T> class Task_1; }
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UniTaskExtensions__Unwrap_d__64_1_TypeDefinitionIndex = 42845;
+	inline static constexpr unsigned int UniTaskExtensions__Unwrap_d__64_1_TypeDefinitionIndex = 38430;
 
 	template <typename T>
 	struct UniTaskExtensions__Unwrap_d__64_1

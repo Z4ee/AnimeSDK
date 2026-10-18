@@ -2,21 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_1245;
+class Class_0_16E4307DCC419505_1380;
 class Class_1_5E091DCE98E3035C;
 namespace System { class Exception; }
 
-#define CLASS_1_5E091DCE98E3035C___C__DISPLAYCLASS26_0__CTOR_OFFSET UNITYSDK_OFFSET(0x164CAFD0)
-#define CLASS_1_5E091DCE98E3035C___C__DISPLAYCLASS26_0___ENTERNODE_B__0_OFFSET UNITYSDK_OFFSET(0x164CC700)
-#define CLASS_1_5E091DCE98E3035C___C__DISPLAYCLASS26_0___ENTERNODE_B__1_OFFSET UNITYSDK_OFFSET(0x164CC890)
+#define CLASS_1_5E091DCE98E3035C___C__DISPLAYCLASS26_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBC178A0)
+#define CLASS_1_5E091DCE98E3035C___C__DISPLAYCLASS26_0___ENTERNODE_B__0_OFFSET UNITYSDK_OFFSET(0xBC18F40)
+#define CLASS_1_5E091DCE98E3035C___C__DISPLAYCLASS26_0___ENTERNODE_B__1_OFFSET UNITYSDK_OFFSET(0xBC190D0)
 
-inline static constexpr unsigned int Class_1_5E091DCE98E3035C___c__DisplayClass26_0_TypeDefinitionIndex = 74855;
+inline static constexpr unsigned int Class_1_5E091DCE98E3035C___c__DisplayClass26_0_TypeDefinitionIndex = 75155;
 
 class Class_1_5E091DCE98E3035C___c__DisplayClass26_0 : public ::System::Object
 {
 public:
-	::Class_0_16E4307DCC419505_1245* service; // 0x10
-	::Class_1_5E091DCE98E3035C* __4__this; // 0x18
+	::Class_1_5E091DCE98E3035C* __4__this; // 0x10
+	::Class_0_16E4307DCC419505_1380* service; // 0x18
 
 	::System::Void _ctor()
 	{

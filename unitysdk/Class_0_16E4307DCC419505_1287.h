@@ -1,12 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/Struct_2_A0005A7419DEF7CE.h"
 
-class Class_2_B66C1067C0468FBB;
+class Class_0_16E4307DCC419505_1059;
+class Class_1_B38D05F57D395ACE;
 namespace System { class String; }
-namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
-namespace System::Collections::Generic { template <typename T> class List_1; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_1287_TypeDefinitionIndex = 77116;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_1287_TypeDefinitionIndex = 73354;
 
 class Class_0_16E4307DCC419505_1287
 {

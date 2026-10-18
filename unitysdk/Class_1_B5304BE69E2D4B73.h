@@ -6,17 +6,17 @@ class Class_1_B5304BE69E2D4B73_Class_3_A09093250D8C682A;
 namespace RPG::Client { class NetPacket; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_B5304BE69E2D4B73_METHOD_1_89DFCAC1ECC61A7F_OFFSET UNITYSDK_OFFSET(0x16E7E4F0)
-#define CLASS_1_B5304BE69E2D4B73__CCTOR_OFFSET UNITYSDK_OFFSET(0x16E4B480)
+#define CLASS_1_B5304BE69E2D4B73_METHOD_1_89DFCAC1ECC61A7F_OFFSET UNITYSDK_OFFSET(0xD2450E0)
+#define CLASS_1_B5304BE69E2D4B73__CCTOR_OFFSET UNITYSDK_OFFSET(0xD2103C0)
 
-inline static constexpr unsigned int Class_1_B5304BE69E2D4B73_TypeDefinitionIndex = 59439;
+inline static constexpr unsigned int Class_1_B5304BE69E2D4B73_TypeDefinitionIndex = 59294;
 
 class Class_1_B5304BE69E2D4B73 : public ::System::Object
 {
 public:
 	static ::System::Collections::Generic::Dictionary_2<::System::UInt16, ::Class_1_B5304BE69E2D4B73_Class_3_A09093250D8C682A*>** StaticGet_IBBEEEIHJEJ()
 	{
-		return (::System::Collections::Generic::Dictionary_2<::System::UInt16, ::Class_1_B5304BE69E2D4B73_Class_3_A09093250D8C682A*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_B5304BE69E2D4B73_TypeDefinitionIndex)->GetStaticField(0x63280);
+		return (::System::Collections::Generic::Dictionary_2<::System::UInt16, ::Class_1_B5304BE69E2D4B73_Class_3_A09093250D8C682A*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_B5304BE69E2D4B73_TypeDefinitionIndex)->GetStaticField(0x344B0);
 	}
 
 	static ::System::Void _cctor()

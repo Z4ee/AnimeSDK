@@ -3,10 +3,10 @@
 #include "unitysdk/WwiseObjectReference.h"
 #include "unitysdk/WwiseObjectType.h"
 
-#define WWISERTPCREFERENCE_GET_WWISEOBJECTTYPE_OFFSET UNITYSDK_OFFSET(0x1D2F4EE0)
-#define WWISERTPCREFERENCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2F4EF0)
+#define WWISERTPCREFERENCE_GET_WWISEOBJECTTYPE_OFFSET UNITYSDK_OFFSET(0x1F609410)
+#define WWISERTPCREFERENCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F609420)
 
-inline static constexpr unsigned int WwiseRtpcReference_TypeDefinitionIndex = 43696;
+inline static constexpr unsigned int WwiseRtpcReference_TypeDefinitionIndex = 44888;
 
 class WwiseRtpcReference : public ::WwiseObjectReference
 {

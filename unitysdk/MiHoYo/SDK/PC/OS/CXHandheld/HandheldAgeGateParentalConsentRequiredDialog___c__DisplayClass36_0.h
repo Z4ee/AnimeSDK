@@ -6,12 +6,12 @@
 namespace MiHoYo::SDK::PC::OS::CXHandheld { class HandheldAgeGateParentalConsentRequiredDialog; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDAGEGATEPARENTALCONSENTREQUIREDDIALOG___C__DISPLAYCLASS36_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A236ED0)
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDAGEGATEPARENTALCONSENTREQUIREDDIALOG___C__DISPLAYCLASS36_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1A237120)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDAGEGATEPARENTALCONSENTREQUIREDDIALOG___C__DISPLAYCLASS36_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BEB9710)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDAGEGATEPARENTALCONSENTREQUIREDDIALOG___C__DISPLAYCLASS36_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1BEB9980)
 
 namespace MiHoYo::SDK::PC::OS::CXHandheld
 {
-	inline static constexpr unsigned int HandheldAgeGateParentalConsentRequiredDialog___c__DisplayClass36_0_TypeDefinitionIndex = 8733;
+	inline static constexpr unsigned int HandheldAgeGateParentalConsentRequiredDialog___c__DisplayClass36_0_TypeDefinitionIndex = 8794;
 
 	class HandheldAgeGateParentalConsentRequiredDialog___c__DisplayClass36_0 : public ::System::Object
 	{

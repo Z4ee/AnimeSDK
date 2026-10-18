@@ -5,22 +5,22 @@
 class Car;
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define CARFLOWMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A86BC00)
-#define CARFLOWMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A86BC40)
-#define CARFLOWMANAGER___C__GETRANDOMCARPREFAB_B__28_0_OFFSET UNITYSDK_OFFSET(0x1A86BC50)
+#define CARFLOWMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xDCDFE60)
+#define CARFLOWMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0xDCDFEA0)
+#define CARFLOWMANAGER___C__GETRANDOMCARPREFAB_B__28_0_OFFSET UNITYSDK_OFFSET(0xDCDFEB0)
 
-inline static constexpr unsigned int CarFlowManager___c_TypeDefinitionIndex = 47533;
+inline static constexpr unsigned int CarFlowManager___c_TypeDefinitionIndex = 47073;
 
 class CarFlowManager___c : public ::System::Object
 {
 public:
 	static ::CarFlowManager___c** StaticGet___9()
 	{
-		return (::CarFlowManager___c**)Il2CppClass::FromTypeDefinitionIndex(CarFlowManager___c_TypeDefinitionIndex)->GetStaticField(0x66840);
+		return (::CarFlowManager___c**)Il2CppClass::FromTypeDefinitionIndex(CarFlowManager___c_TypeDefinitionIndex)->GetStaticField(0x54340);
 	}
 	static ::System::Func_2<::Car*, ::System::Single>** StaticGet___9__28_0()
 	{
-		return (::System::Func_2<::Car*, ::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(CarFlowManager___c_TypeDefinitionIndex)->GetStaticField(0x66848);
+		return (::System::Func_2<::Car*, ::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(CarFlowManager___c_TypeDefinitionIndex)->GetStaticField(0x54348);
 	}
 
 	static ::System::Void _cctor()

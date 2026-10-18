@@ -1,8 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/B51Racing/ERacingMatchFlowState.h"
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_1420_TypeDefinitionIndex = 80531;
+class Class_1_43BD383C98B4C0C5_209;
+class Class_1_A92BC063ED2379EB;
+class Class_2_B66C1067C0468FBB;
+namespace RPG::GameCore { class ChimeraDuelEffectConfig; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+inline static constexpr unsigned int Class_0_16E4307DCC419505_1420_TypeDefinitionIndex = 77499;
 
 class Class_0_16E4307DCC419505_1420
 {

@@ -11,20 +11,20 @@ namespace MiHoYo::SDK::Protobuf::Reflection { class MessageDescriptor; }
 namespace MiHoYo::SDK::Protobuf::Reflection { class ServiceDescriptor; }
 namespace MiHoYo::SDK::Protobuf::Reflection { class ServiceDescriptorProto; }
 
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_FILEDESCRIPTOR___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0EF9A0)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_FILEDESCRIPTOR___C__DISPLAYCLASS0_0___CTOR_B__0_OFFSET UNITYSDK_OFFSET(0x1B0F1F50)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_FILEDESCRIPTOR___C__DISPLAYCLASS0_0___CTOR_B__1_OFFSET UNITYSDK_OFFSET(0x1B0F2400)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_FILEDESCRIPTOR___C__DISPLAYCLASS0_0___CTOR_B__2_OFFSET UNITYSDK_OFFSET(0x1B0F24B0)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_FILEDESCRIPTOR___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BBDEAD0)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_FILEDESCRIPTOR___C__DISPLAYCLASS0_0___CTOR_B__0_OFFSET UNITYSDK_OFFSET(0x1BBE1080)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_FILEDESCRIPTOR___C__DISPLAYCLASS0_0___CTOR_B__1_OFFSET UNITYSDK_OFFSET(0x1BBE1530)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_FILEDESCRIPTOR___C__DISPLAYCLASS0_0___CTOR_B__2_OFFSET UNITYSDK_OFFSET(0x1BBE15E0)
 
 namespace MiHoYo::SDK::Protobuf::Reflection
 {
-	inline static constexpr unsigned int FileDescriptor___c__DisplayClass0_0_TypeDefinitionIndex = 35164;
+	inline static constexpr unsigned int FileDescriptor___c__DisplayClass0_0_TypeDefinitionIndex = 35833;
 
 	class FileDescriptor___c__DisplayClass0_0 : public ::System::Object
 	{
 	public:
-		::MiHoYo::SDK::Protobuf::Reflection::GeneratedClrTypeInfo* generatedCodeInfo; // 0x10
-		::MiHoYo::SDK::Protobuf::Reflection::FileDescriptor* __4__this; // 0x18
+		::MiHoYo::SDK::Protobuf::Reflection::FileDescriptor* __4__this; // 0x10
+		::MiHoYo::SDK::Protobuf::Reflection::GeneratedClrTypeInfo* generatedCodeInfo; // 0x18
 
 		::System::Void _ctor()
 		{

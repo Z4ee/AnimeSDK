@@ -4,11 +4,11 @@
 
 namespace RPG::Client { class PropSelectionMaterialConfig; }
 
-#define RPG_CLIENT_PROPSELECTIONSTATECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17B4C0F0)
+#define RPG_CLIENT_PROPSELECTIONSTATECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xDDF0460)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PropSelectionStateConfig_TypeDefinitionIndex = 60367;
+	inline static constexpr unsigned int PropSelectionStateConfig_TypeDefinitionIndex = 60255;
 
 	class PropSelectionStateConfig : public ::System::Object
 	{

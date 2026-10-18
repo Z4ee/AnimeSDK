@@ -4,145 +4,153 @@
 
 namespace System { class String; }
 
-#define CLASS_1_54A71F2B374F1F5D_8__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C50DE10)
-#define CLASS_1_54A71F2B374F1F5D_8__CTOR_OFFSET UNITYSDK_OFFSET(0x1C50DE00)
+#define CLASS_1_54A71F2B374F1F5D_8__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C9ECD20)
+#define CLASS_1_54A71F2B374F1F5D_8__CTOR_OFFSET UNITYSDK_OFFSET(0x1C9ECD10)
 
-inline static constexpr unsigned int Class_1_54A71F2B374F1F5D_8_TypeDefinitionIndex = 41452;
+inline static constexpr unsigned int Class_1_54A71F2B374F1F5D_8_TypeDefinitionIndex = 43066;
 
 class Class_1_54A71F2B374F1F5D_8 : public ::System::Object
 {
 public:
-	static ::System::String** StaticGet_NKMIDHBFGCG()
+	static ::System::String** StaticGet_EHFCDIEOBAP()
 	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_54A71F2B374F1F5D_8_TypeDefinitionIndex)->GetStaticField(0x11E50);
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_54A71F2B374F1F5D_8_TypeDefinitionIndex)->GetStaticField(0x18160);
 	}
-	static ::System::String** StaticGet_KPKFGMHHMII()
+	static ::System::String** StaticGet_IIFPLEMBANA()
 	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_54A71F2B374F1F5D_8_TypeDefinitionIndex)->GetStaticField(0x11E58);
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_54A71F2B374F1F5D_8_TypeDefinitionIndex)->GetStaticField(0x18168);
 	}
 	static ::System::String** StaticGet_PJLIJFLOIPO()
 	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_54A71F2B374F1F5D_8_TypeDefinitionIndex)->GetStaticField(0x11E60);
-	}
-	static ::System::String** StaticGet_ELIECDGEHEJ()
-	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_54A71F2B374F1F5D_8_TypeDefinitionIndex)->GetStaticField(0x11E68);
-	}
-	static ::System::String** StaticGet_HPGBPLCKNHA()
-	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_54A71F2B374F1F5D_8_TypeDefinitionIndex)->GetStaticField(0x11E70);
-	}
-	static ::System::String** StaticGet_NHJBJNFFAMH()
-	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_54A71F2B374F1F5D_8_TypeDefinitionIndex)->GetStaticField(0x11E78);
-	}
-	static ::System::String** StaticGet_JJICBPOCADO()
-	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_54A71F2B374F1F5D_8_TypeDefinitionIndex)->GetStaticField(0x11E80);
-	}
-	static ::System::String** StaticGet_FABCBHIMBLB()
-	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_54A71F2B374F1F5D_8_TypeDefinitionIndex)->GetStaticField(0x11E88);
-	}
-	static ::System::String** StaticGet_OMJJKIKJEAA()
-	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_54A71F2B374F1F5D_8_TypeDefinitionIndex)->GetStaticField(0x11E90);
-	}
-	static ::System::String** StaticGet_OECOHCFJAJE()
-	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_54A71F2B374F1F5D_8_TypeDefinitionIndex)->GetStaticField(0x11E98);
-	}
-	static ::System::String** StaticGet_JINAEPCJDEG()
-	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_54A71F2B374F1F5D_8_TypeDefinitionIndex)->GetStaticField(0x11EA0);
-	}
-	static ::System::String** StaticGet_NDMOFPILDDJ()
-	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_54A71F2B374F1F5D_8_TypeDefinitionIndex)->GetStaticField(0x11EA8);
-	}
-	static ::System::String** StaticGet_EHFCDIEOBAP()
-	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_54A71F2B374F1F5D_8_TypeDefinitionIndex)->GetStaticField(0x11EB0);
-	}
-	static ::System::String** StaticGet_ANMCGGEAOIG()
-	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_54A71F2B374F1F5D_8_TypeDefinitionIndex)->GetStaticField(0x11EB8);
-	}
-	static ::System::String** StaticGet_PCOIKNAMAIA()
-	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_54A71F2B374F1F5D_8_TypeDefinitionIndex)->GetStaticField(0x11EC0);
-	}
-	static ::System::String** StaticGet_KCBKJMLCKBF()
-	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_54A71F2B374F1F5D_8_TypeDefinitionIndex)->GetStaticField(0x11EC8);
-	}
-	static ::System::String** StaticGet_PDIBEEBBIID()
-	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_54A71F2B374F1F5D_8_TypeDefinitionIndex)->GetStaticField(0x11ED0);
-	}
-	static ::System::String** StaticGet_BFIFFPFFNNN()
-	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_54A71F2B374F1F5D_8_TypeDefinitionIndex)->GetStaticField(0x11ED8);
-	}
-	static ::System::String** StaticGet_GPKJKFKMEPJ()
-	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_54A71F2B374F1F5D_8_TypeDefinitionIndex)->GetStaticField(0x11EE0);
-	}
-	static ::System::String** StaticGet_EBCOCFMPLFI()
-	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_54A71F2B374F1F5D_8_TypeDefinitionIndex)->GetStaticField(0x11EE8);
-	}
-	static ::System::String** StaticGet_OAIGLGPBKBG()
-	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_54A71F2B374F1F5D_8_TypeDefinitionIndex)->GetStaticField(0x11EF0);
-	}
-	static ::System::String** StaticGet_ICIHLJKHGHD()
-	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_54A71F2B374F1F5D_8_TypeDefinitionIndex)->GetStaticField(0x11EF8);
-	}
-	static ::System::String** StaticGet_KNEEGMDJGPP()
-	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_54A71F2B374F1F5D_8_TypeDefinitionIndex)->GetStaticField(0x11F00);
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_54A71F2B374F1F5D_8_TypeDefinitionIndex)->GetStaticField(0x18170);
 	}
 	static ::System::String** StaticGet_ENADJABKBIO()
 	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_54A71F2B374F1F5D_8_TypeDefinitionIndex)->GetStaticField(0x11F08);
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_54A71F2B374F1F5D_8_TypeDefinitionIndex)->GetStaticField(0x18178);
 	}
-	static ::System::UInt32* StaticGet_OCDFFONJNHI()
+	static ::System::String** StaticGet_PCOIKNAMAIA()
 	{
-		return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_54A71F2B374F1F5D_8_TypeDefinitionIndex)->GetStaticField(0x78A0);
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_54A71F2B374F1F5D_8_TypeDefinitionIndex)->GetStaticField(0x18180);
 	}
-	static ::System::UInt32* StaticGet_HENFEMLJHKB()
+	static ::System::String** StaticGet_PDIBEEBBIID()
 	{
-		return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_54A71F2B374F1F5D_8_TypeDefinitionIndex)->GetStaticField(0x78A4);
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_54A71F2B374F1F5D_8_TypeDefinitionIndex)->GetStaticField(0x18188);
 	}
-	static ::System::UInt32* StaticGet_GGMMJLNPLCH()
+	static ::System::String** StaticGet_JJICBPOCADO()
 	{
-		return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_54A71F2B374F1F5D_8_TypeDefinitionIndex)->GetStaticField(0x78A8);
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_54A71F2B374F1F5D_8_TypeDefinitionIndex)->GetStaticField(0x18190);
 	}
-	static ::System::UInt32* StaticGet_PHKKMPPMOHP()
+	static ::System::String** StaticGet_KPKFGMHHMII()
 	{
-		return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_54A71F2B374F1F5D_8_TypeDefinitionIndex)->GetStaticField(0x78AC);
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_54A71F2B374F1F5D_8_TypeDefinitionIndex)->GetStaticField(0x18198);
 	}
-	static ::System::UInt32* StaticGet_FHBLKJNAFHB()
+	static ::System::String** StaticGet_FABCBHIMBLB()
 	{
-		return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_54A71F2B374F1F5D_8_TypeDefinitionIndex)->GetStaticField(0x78B0);
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_54A71F2B374F1F5D_8_TypeDefinitionIndex)->GetStaticField(0x181A0);
 	}
-	static ::System::Single* StaticGet_PAOALMBMKPL()
+	static ::System::String** StaticGet_JINAEPCJDEG()
 	{
-		return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(Class_1_54A71F2B374F1F5D_8_TypeDefinitionIndex)->GetStaticField(0x78B4);
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_54A71F2B374F1F5D_8_TypeDefinitionIndex)->GetStaticField(0x181A8);
 	}
-	static ::System::UInt32* StaticGet_BCKIFPLDAGI()
+	static ::System::String** StaticGet_ICIHLJKHGHD()
 	{
-		return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_54A71F2B374F1F5D_8_TypeDefinitionIndex)->GetStaticField(0x78B8);
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_54A71F2B374F1F5D_8_TypeDefinitionIndex)->GetStaticField(0x181B0);
+	}
+	static ::System::String** StaticGet_BFIFFPFFNNN()
+	{
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_54A71F2B374F1F5D_8_TypeDefinitionIndex)->GetStaticField(0x181B8);
+	}
+	static ::System::String** StaticGet_KNEEGMDJGPP()
+	{
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_54A71F2B374F1F5D_8_TypeDefinitionIndex)->GetStaticField(0x181C0);
+	}
+	static ::System::String** StaticGet_NKMIDHBFGCG()
+	{
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_54A71F2B374F1F5D_8_TypeDefinitionIndex)->GetStaticField(0x181C8);
+	}
+	static ::System::String** StaticGet_GPKJKFKMEPJ()
+	{
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_54A71F2B374F1F5D_8_TypeDefinitionIndex)->GetStaticField(0x181D0);
+	}
+	static ::System::String** StaticGet_EBCOCFMPLFI()
+	{
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_54A71F2B374F1F5D_8_TypeDefinitionIndex)->GetStaticField(0x181D8);
+	}
+	static ::System::String** StaticGet_ELIECDGEHEJ()
+	{
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_54A71F2B374F1F5D_8_TypeDefinitionIndex)->GetStaticField(0x181E0);
+	}
+	static ::System::String** StaticGet_NDMOFPILDDJ()
+	{
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_54A71F2B374F1F5D_8_TypeDefinitionIndex)->GetStaticField(0x181E8);
+	}
+	static ::System::String** StaticGet_IBFEHACBCIA()
+	{
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_54A71F2B374F1F5D_8_TypeDefinitionIndex)->GetStaticField(0x181F0);
+	}
+	static ::System::String** StaticGet_NHJBJNFFAMH()
+	{
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_54A71F2B374F1F5D_8_TypeDefinitionIndex)->GetStaticField(0x181F8);
+	}
+	static ::System::String** StaticGet_KCBKJMLCKBF()
+	{
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_54A71F2B374F1F5D_8_TypeDefinitionIndex)->GetStaticField(0x18200);
+	}
+	static ::System::String** StaticGet_OMJJKIKJEAA()
+	{
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_54A71F2B374F1F5D_8_TypeDefinitionIndex)->GetStaticField(0x18208);
+	}
+	static ::System::String** StaticGet_OAIGLGPBKBG()
+	{
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_54A71F2B374F1F5D_8_TypeDefinitionIndex)->GetStaticField(0x18210);
+	}
+	static ::System::String** StaticGet_HPGBPLCKNHA()
+	{
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_54A71F2B374F1F5D_8_TypeDefinitionIndex)->GetStaticField(0x18218);
+	}
+	static ::System::String** StaticGet_OECOHCFJAJE()
+	{
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_54A71F2B374F1F5D_8_TypeDefinitionIndex)->GetStaticField(0x18220);
+	}
+	static ::System::String** StaticGet_ANMCGGEAOIG()
+	{
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_54A71F2B374F1F5D_8_TypeDefinitionIndex)->GetStaticField(0x18228);
 	}
 	static ::System::UInt32* StaticGet_PABNPBMCMPN()
 	{
-		return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_54A71F2B374F1F5D_8_TypeDefinitionIndex)->GetStaticField(0x78BC);
+		return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_54A71F2B374F1F5D_8_TypeDefinitionIndex)->GetStaticField(0x52B0);
+	}
+	static ::System::UInt32* StaticGet_OCDFFONJNHI()
+	{
+		return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_54A71F2B374F1F5D_8_TypeDefinitionIndex)->GetStaticField(0x52B4);
+	}
+	static ::System::UInt32* StaticGet_GGMMJLNPLCH()
+	{
+		return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_54A71F2B374F1F5D_8_TypeDefinitionIndex)->GetStaticField(0x52B8);
+	}
+	static ::System::UInt32* StaticGet_HENFEMLJHKB()
+	{
+		return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_54A71F2B374F1F5D_8_TypeDefinitionIndex)->GetStaticField(0x52BC);
 	}
 	static ::System::Single* StaticGet_MPHAPLMNFHL()
 	{
-		return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(Class_1_54A71F2B374F1F5D_8_TypeDefinitionIndex)->GetStaticField(0x78C0);
+		return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(Class_1_54A71F2B374F1F5D_8_TypeDefinitionIndex)->GetStaticField(0x52C0);
+	}
+	static ::System::UInt32* StaticGet_BCKIFPLDAGI()
+	{
+		return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_54A71F2B374F1F5D_8_TypeDefinitionIndex)->GetStaticField(0x52C4);
+	}
+	static ::System::Single* StaticGet_PAOALMBMKPL()
+	{
+		return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(Class_1_54A71F2B374F1F5D_8_TypeDefinitionIndex)->GetStaticField(0x52C8);
+	}
+	static ::System::UInt32* StaticGet_PHKKMPPMOHP()
+	{
+		return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_54A71F2B374F1F5D_8_TypeDefinitionIndex)->GetStaticField(0x52CC);
+	}
+	static ::System::UInt32* StaticGet_FHBLKJNAFHB()
+	{
+		return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_54A71F2B374F1F5D_8_TypeDefinitionIndex)->GetStaticField(0x52D0);
 	}
 
 	::System::Void _ctor()

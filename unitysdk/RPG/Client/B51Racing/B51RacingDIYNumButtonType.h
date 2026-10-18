@@ -3,7 +3,7 @@
 
 namespace RPG::Client::B51Racing
 {
-	inline static constexpr unsigned int B51RacingDIYNumButtonType_TypeDefinitionIndex = 80665;
+	inline static constexpr unsigned int B51RacingDIYNumButtonType_TypeDefinitionIndex = 81993;
 
 	enum class B51RacingDIYNumButtonType : ::System::Int32
 	{

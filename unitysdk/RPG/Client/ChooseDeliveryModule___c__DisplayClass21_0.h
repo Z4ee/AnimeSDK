@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class ChooseDeliveryEntry; }
 
-#define RPG_CLIENT_CHOOSEDELIVERYMODULE___C__DISPLAYCLASS21_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BBFAEF0)
-#define RPG_CLIENT_CHOOSEDELIVERYMODULE___C__DISPLAYCLASS21_0___DOPENDNOTICE_B__0_OFFSET UNITYSDK_OFFSET(0x1BBFBA90)
+#define RPG_CLIENT_CHOOSEDELIVERYMODULE___C__DISPLAYCLASS21_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCB67850)
+#define RPG_CLIENT_CHOOSEDELIVERYMODULE___C__DISPLAYCLASS21_0___DOPENDNOTICE_B__0_OFFSET UNITYSDK_OFFSET(0xCB684C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChooseDeliveryModule___c__DisplayClass21_0_TypeDefinitionIndex = 63587;
+	inline static constexpr unsigned int ChooseDeliveryModule___c__DisplayClass21_0_TypeDefinitionIndex = 63525;
 
 	class ChooseDeliveryModule___c__DisplayClass21_0 : public ::System::Object
 	{

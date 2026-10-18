@@ -8,23 +8,23 @@ namespace RPG::GameCore { class NewProjectileConfig; }
 namespace RPG::GameCore { class ProjectileData; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define CLASS_3_EA28AF149A7A819C_METHOD_3_BE513DA00D254FDB_OFFSET UNITYSDK_OFFSET(0x1D7130B0)
-#define CLASS_3_EA28AF149A7A819C_METHOD_3_F73DE1E21818E48C_OFFSET UNITYSDK_OFFSET(0x1D713060)
-#define CLASS_3_EA28AF149A7A819C__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7130A0)
+#define CLASS_3_EA28AF149A7A819C_METHOD_3_BE513DA00D254FDB_OFFSET UNITYSDK_OFFSET(0x1CD66780)
+#define CLASS_3_EA28AF149A7A819C_METHOD_3_F73DE1E21818E48C_OFFSET UNITYSDK_OFFSET(0x1CD66730)
+#define CLASS_3_EA28AF149A7A819C__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD66770)
 
-inline static constexpr unsigned int Class_3_EA28AF149A7A819C_TypeDefinitionIndex = 23862;
+inline static constexpr unsigned int Class_3_EA28AF149A7A819C_TypeDefinitionIndex = 24137;
 
 class Class_3_EA28AF149A7A819C : public ::RPG::GameCore::TaskConfig
 {
 public:
-	::Il2CppArray<::RPG::GameCore::TaskConfig*>* BKNDLCGHANK; // 0x18
+	::RPG::GameCore::NewProjectileConfig* FJFCBBOCICK; // 0x18
 	::RPG::GameCore::TargetEvaluator* FHMKCLNLGOP; // 0x20
-	::RPG::GameCore::ProjectileData* PJCICCBNBEI; // 0x28
-	::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x30
-	::RPG::GameCore::NewProjectileConfig* FJFCBBOCICK; // 0x38
-	::RPG::GameCore::FixPoint JKDFIMCIKFJ; // 0x40
-	::System::Boolean FKJPBMMCHFL; // 0x48
-	::System::Int32 HCDEOKNIGKG; // 0x4C
+	::Il2CppArray<::RPG::GameCore::TaskConfig*>* BKNDLCGHANK; // 0x28
+	::RPG::GameCore::ProjectileData* PJCICCBNBEI; // 0x30
+	::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x38
+	::System::Int32 HCDEOKNIGKG; // 0x40
+	::System::Boolean FKJPBMMCHFL; // 0x44
+	::RPG::GameCore::FixPoint JKDFIMCIKFJ; // 0x48
 
 	::System::Void _ctor()
 	{

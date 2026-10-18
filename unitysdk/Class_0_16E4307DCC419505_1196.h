@@ -1,10 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Bounds.h"
+#include "unitysdk/RPG/GameCore/CharacterHUDType.h"
 
-namespace System { template <typename T1, typename T2> class Tuple_2; }
+class Class_1_34917908B7833130;
+namespace RPG::GameCore { class GameEntity; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_1196_TypeDefinitionIndex = 73997;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_1196_TypeDefinitionIndex = 71429;
 
 class Class_0_16E4307DCC419505_1196
 {

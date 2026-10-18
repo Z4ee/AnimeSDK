@@ -5,12 +5,12 @@
 namespace RPG::Client { class MonsterData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_MONSTER_MONSTERDATAPROVIDERVIEWMODELBASE_GET_ISSHOWWAVEINDEX_OFFSET UNITYSDK_OFFSET(0x19608B10)
-#define RPG_CLIENT_MONSTER_MONSTERDATAPROVIDERVIEWMODELBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x19608B50)
+#define RPG_CLIENT_MONSTER_MONSTERDATAPROVIDERVIEWMODELBASE_GET_ISSHOWWAVEINDEX_OFFSET UNITYSDK_OFFSET(0xD8AF780)
+#define RPG_CLIENT_MONSTER_MONSTERDATAPROVIDERVIEWMODELBASE__CTOR_OFFSET UNITYSDK_OFFSET(0xD8AF7C0)
 
 namespace RPG::Client::Monster
 {
-	inline static constexpr unsigned int MonsterDataProviderViewModelBase_TypeDefinitionIndex = 78928;
+	inline static constexpr unsigned int MonsterDataProviderViewModelBase_TypeDefinitionIndex = 79409;
 
 	class MonsterDataProviderViewModelBase : public ::System::Object
 	{

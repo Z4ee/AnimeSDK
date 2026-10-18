@@ -7,17 +7,17 @@ class Class_2_F1C3EBA366E084A2;
 namespace RPG::GameCore { class ST_ByDistanceToEnchantTarget; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_D0A38D25CC86A1C0_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1A4556A0)
-#define CLASS_3_D0A38D25CC86A1C0_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1A4552C0)
-#define CLASS_3_D0A38D25CC86A1C0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A455140)
+#define CLASS_3_D0A38D25CC86A1C0_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBA7AAA0)
+#define CLASS_3_D0A38D25CC86A1C0_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBA7A6C0)
+#define CLASS_3_D0A38D25CC86A1C0__CTOR_OFFSET UNITYSDK_OFFSET(0xBA7A540)
 
-inline static constexpr unsigned int Class_3_D0A38D25CC86A1C0_TypeDefinitionIndex = 52473;
+inline static constexpr unsigned int Class_3_D0A38D25CC86A1C0_TypeDefinitionIndex = 52187;
 
 class Class_3_D0A38D25CC86A1C0 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ST_ByDistanceToEnchantTarget*>
 {
 public:
-	::Class_1_5F51D4049EA87B7B* LJLLGOEGPIM; // 0x28
-	::Class_2_F1C3EBA366E084A2* KDKKFJKEIAA; // 0x30
+	::Class_2_F1C3EBA366E084A2* KDKKFJKEIAA; // 0x28
+	::Class_1_5F51D4049EA87B7B* LJLLGOEGPIM; // 0x30
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ST_ByDistanceToEnchantTarget* a2)
 	{

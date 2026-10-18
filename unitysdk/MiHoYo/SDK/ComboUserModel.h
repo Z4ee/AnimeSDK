@@ -5,11 +5,11 @@
 namespace MiHoYo::SDK { class JSONNode; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_COMBOUSERMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1B1020)
+#define MIHOYO_SDK_COMBOUSERMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC27800)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ComboUserModel_TypeDefinitionIndex = 7825;
+	inline static constexpr unsigned int ComboUserModel_TypeDefinitionIndex = 7869;
 
 	class ComboUserModel : public ::System::Object
 	{

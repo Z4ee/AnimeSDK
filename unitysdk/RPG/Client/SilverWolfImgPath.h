@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_SILVERWOLFIMGPATH__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1AF89FE0)
-#define RPG_CLIENT_SILVERWOLFIMGPATH__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF8A7A0)
+#define RPG_CLIENT_SILVERWOLFIMGPATH__CTOR_1_OFFSET UNITYSDK_OFFSET(0xE0BA830)
+#define RPG_CLIENT_SILVERWOLFIMGPATH__CTOR_OFFSET UNITYSDK_OFFSET(0xE0BB4C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SilverWolfImgPath_TypeDefinitionIndex = 67957;
+	inline static constexpr unsigned int SilverWolfImgPath_TypeDefinitionIndex = 67962;
 
 	class SilverWolfImgPath : public ::System::Object
 	{

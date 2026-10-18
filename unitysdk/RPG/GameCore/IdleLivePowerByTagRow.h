@@ -6,19 +6,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_IDLELIVEPOWERBYTAGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D213220)
-#define RPG_GAMECORE_IDLELIVEPOWERBYTAGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D213460)
+#define RPG_GAMECORE_IDLELIVEPOWERBYTAGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D74FE60)
+#define RPG_GAMECORE_IDLELIVEPOWERBYTAGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7500A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLivePowerByTagRow_TypeDefinitionIndex = 11691;
+	inline static constexpr unsigned int IdleLivePowerByTagRow_TypeDefinitionIndex = 11714;
 
 	class IdleLivePowerByTagRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 Num; // 0x10
-		::RPG::GameCore::ILBattleAvatarTag AvatarTag; // 0x14
-		::RPG::GameCore::FixPoint TagPowerFactor; // 0x18
+		::RPG::GameCore::FixPoint TagPowerFactor; // 0x10
+		::System::UInt32 Num; // 0x18
+		::RPG::GameCore::ILBattleAvatarTag AvatarTag; // 0x1C
 		::RPG::GameCore::FixPoint TagAddPower; // 0x20
 
 		::System::Void _ctor()

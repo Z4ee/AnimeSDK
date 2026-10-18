@@ -8,11 +8,11 @@ namespace UnityEngine { class Animator; }
 namespace UnityEngine { class Collider; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_ENTITYCOLLISIONBODYPARTS_COLLISIONBODYPART__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1808B0)
+#define RPG_CLIENT_ENTITYCOLLISIONBODYPARTS_COLLISIONBODYPART__CTOR_OFFSET UNITYSDK_OFFSET(0xCDE9C40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EntityCollisionBodyParts_CollisionBodyPart_TypeDefinitionIndex = 68382;
+	inline static constexpr unsigned int EntityCollisionBodyParts_CollisionBodyPart_TypeDefinitionIndex = 68415;
 
 	class EntityCollisionBodyParts_CollisionBodyPart : public ::System::Object
 	{

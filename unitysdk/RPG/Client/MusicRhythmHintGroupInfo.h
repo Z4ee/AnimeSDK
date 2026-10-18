@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_MUSICRHYTHMHINTGROUPINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1B71E330)
+#define RPG_CLIENT_MUSICRHYTHMHINTGROUPINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xD908540)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MusicRhythmHintGroupInfo_TypeDefinitionIndex = 60305;
+	inline static constexpr unsigned int MusicRhythmHintGroupInfo_TypeDefinitionIndex = 60169;
 
 	class MusicRhythmHintGroupInfo : public ::System::Object
 	{
@@ -14,9 +14,9 @@ namespace RPG::Client
 		::Il2CppArray<::System::Int32>* InputBeats; // 0x10
 		::System::Boolean HasInput; // 0x18
 		::System::Int32 GroupIndex; // 0x1C
-		::System::Int32 NoteIndex; // 0x20
-		::System::Int32 HintIndex; // 0x24
-		::System::Single StartTime; // 0x28
+		::System::Single StartTime; // 0x20
+		::System::Int32 NoteIndex; // 0x24
+		::System::Int32 HintIndex; // 0x28
 
 		::System::Void _ctor()
 		{

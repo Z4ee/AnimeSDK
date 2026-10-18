@@ -5,9 +5,9 @@
 
 namespace RPG::Client { class CameraBlendCurve; }
 
-#define CLASS_1_4194FD1D0EB8BE87__CTOR_OFFSET UNITYSDK_OFFSET(0x184E10F0)
+#define CLASS_1_4194FD1D0EB8BE87__CTOR_OFFSET UNITYSDK_OFFSET(0xE228850)
 
-inline static constexpr unsigned int Class_1_4194FD1D0EB8BE87_TypeDefinitionIndex = 69607;
+inline static constexpr unsigned int Class_1_4194FD1D0EB8BE87_TypeDefinitionIndex = 69643;
 
 class Class_1_4194FD1D0EB8BE87 : public ::System::Object
 {

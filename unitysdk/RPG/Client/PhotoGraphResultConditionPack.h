@@ -9,24 +9,24 @@ namespace RPG::Client { class PhotoGraphResultCondition; }
 namespace RPG::GameCore { class PhotoGraphShotResultCondition; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define RPG_CLIENT_PHOTOGRAPHRESULTCONDITIONPACK_CHECKRESULT_OFFSET UNITYSDK_OFFSET(0x186737F0)
-#define RPG_CLIENT_PHOTOGRAPHRESULTCONDITIONPACK_DISPOSE_OFFSET UNITYSDK_OFFSET(0x18673880)
-#define RPG_CLIENT_PHOTOGRAPHRESULTCONDITIONPACK_TICK_OFFSET UNITYSDK_OFFSET(0x186736C0)
-#define RPG_CLIENT_PHOTOGRAPHRESULTCONDITIONPACK__CTOR_OFFSET UNITYSDK_OFFSET(0x18673530)
+#define RPG_CLIENT_PHOTOGRAPHRESULTCONDITIONPACK_CHECKRESULT_OFFSET UNITYSDK_OFFSET(0xDAF8AD0)
+#define RPG_CLIENT_PHOTOGRAPHRESULTCONDITIONPACK_DISPOSE_OFFSET UNITYSDK_OFFSET(0xDAF8B60)
+#define RPG_CLIENT_PHOTOGRAPHRESULTCONDITIONPACK_TICK_OFFSET UNITYSDK_OFFSET(0xDAF89A0)
+#define RPG_CLIENT_PHOTOGRAPHRESULTCONDITIONPACK__CTOR_OFFSET UNITYSDK_OFFSET(0xDAF8810)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PhotoGraphResultConditionPack_TypeDefinitionIndex = 69420;
+	inline static constexpr unsigned int PhotoGraphResultConditionPack_TypeDefinitionIndex = 69456;
 
 	class PhotoGraphResultConditionPack : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::RPG::Client::PhotoGraphResultCondition*>* PhotoGraphResultSingleConditions; // 0x10
-		::Class_3_B8A086DB341E9298* _ResultChange; // 0x18
+		::Class_3_B8A086DB341E9298* _ResultChange; // 0x10
+		::Il2CppArray<::RPG::Client::PhotoGraphResultCondition*>* PhotoGraphResultSingleConditions; // 0x18
 		::RPG::Client::TextID ConditionName; // 0x20
-		::System::Boolean AutoSnapFovLevel; // 0x30
-		::System::Boolean _LastResult; // 0x31
-		::RPG::GameCore::PhotoGraphFovLevel TargetFovLevel; // 0x34
+		::RPG::GameCore::PhotoGraphFovLevel TargetFovLevel; // 0x30
+		::System::Boolean AutoSnapFovLevel; // 0x34
+		::System::Boolean _LastResult; // 0x35
 
 		::System::Void _ctor(::RPG::GameCore::PhotoGraphShotResultCondition* a1, ::RPG::GameCore::TaskContext* a2, ::Class_3_B8A086DB341E9298* a3)
 		{

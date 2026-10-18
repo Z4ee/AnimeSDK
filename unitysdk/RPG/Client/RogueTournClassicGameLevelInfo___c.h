@@ -5,24 +5,24 @@
 namespace RPG::Client { class IRogueTournClassicGameLevelLayer; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_ROGUETOURNCLASSICGAMELEVELINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AF089C0)
-#define RPG_CLIENT_ROGUETOURNCLASSICGAMELEVELINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF08A00)
-#define RPG_CLIENT_ROGUETOURNCLASSICGAMELEVELINFO___C___SYNCLAYERSFULL_B__8_0_OFFSET UNITYSDK_OFFSET(0x1AF08A10)
+#define RPG_CLIENT_ROGUETOURNCLASSICGAMELEVELINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xDF8A480)
+#define RPG_CLIENT_ROGUETOURNCLASSICGAMELEVELINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0xDF8A4C0)
+#define RPG_CLIENT_ROGUETOURNCLASSICGAMELEVELINFO___C___SYNCLAYERSFULL_B__8_0_OFFSET UNITYSDK_OFFSET(0xDF8A4D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournClassicGameLevelInfo___c_TypeDefinitionIndex = 67627;
+	inline static constexpr unsigned int RogueTournClassicGameLevelInfo___c_TypeDefinitionIndex = 67629;
 
 	class RogueTournClassicGameLevelInfo___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::RogueTournClassicGameLevelInfo___c** StaticGet___9()
-		{
-			return (::RPG::Client::RogueTournClassicGameLevelInfo___c**)Il2CppClass::FromTypeDefinitionIndex(RogueTournClassicGameLevelInfo___c_TypeDefinitionIndex)->GetStaticField(0x10F00);
-		}
 		static ::System::Comparison_1<::RPG::Client::IRogueTournClassicGameLevelLayer*>** StaticGet___9__8_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::IRogueTournClassicGameLevelLayer*>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournClassicGameLevelInfo___c_TypeDefinitionIndex)->GetStaticField(0x10F08);
+			return (::System::Comparison_1<::RPG::Client::IRogueTournClassicGameLevelLayer*>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournClassicGameLevelInfo___c_TypeDefinitionIndex)->GetStaticField(0x69D20);
+		}
+		static ::RPG::Client::RogueTournClassicGameLevelInfo___c** StaticGet___9()
+		{
+			return (::RPG::Client::RogueTournClassicGameLevelInfo___c**)Il2CppClass::FromTypeDefinitionIndex(RogueTournClassicGameLevelInfo___c_TypeDefinitionIndex)->GetStaticField(0x69D28);
 		}
 
 		static ::System::Void _cctor()

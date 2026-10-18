@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_BOOKCONTENTCOMPONENT_BOOKCONTENTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD92B50)
+#define RPG_CLIENT_BOOKCONTENTCOMPONENT_BOOKCONTENTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xC8A75A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BookContentComponent_BookContentData_TypeDefinitionIndex = 72436;
+	inline static constexpr unsigned int BookContentComponent_BookContentData_TypeDefinitionIndex = 72509;
 
 	class BookContentComponent_BookContentData : public ::System::Object
 	{

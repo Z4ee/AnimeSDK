@@ -5,7 +5,7 @@
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
-inline static constexpr unsigned int Class_2_822F78B02509E354_Struct_2_6E17407C21482385_TypeDefinitionIndex = 76402;
+inline static constexpr unsigned int Class_2_822F78B02509E354_Struct_2_6E17407C21482385_TypeDefinitionIndex = 76879;
 
 struct alignas(8) Class_2_822F78B02509E354_Struct_2_6E17407C21482385
 {

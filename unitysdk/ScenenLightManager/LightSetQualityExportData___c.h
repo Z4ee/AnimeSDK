@@ -5,49 +5,49 @@
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define SCENENLIGHTMANAGER_LIGHTSETQUALITYEXPORTDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BF45690)
-#define SCENENLIGHTMANAGER_LIGHTSETQUALITYEXPORTDATA___C__COMPAREDATATOOTHER_B__3_0_OFFSET UNITYSDK_OFFSET(0x1BF456E0)
-#define SCENENLIGHTMANAGER_LIGHTSETQUALITYEXPORTDATA___C__COMPAREDATATOOTHER_B__3_1_OFFSET UNITYSDK_OFFSET(0x1BF456F0)
-#define SCENENLIGHTMANAGER_LIGHTSETQUALITYEXPORTDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF456D0)
-#define SCENENLIGHTMANAGER_LIGHTSETQUALITYEXPORTDATA___C__EQUALS_B__4_0_OFFSET UNITYSDK_OFFSET(0x1BF45700)
-#define SCENENLIGHTMANAGER_LIGHTSETQUALITYEXPORTDATA___C__EQUALS_B__4_1_OFFSET UNITYSDK_OFFSET(0x1BF45710)
-#define SCENENLIGHTMANAGER_LIGHTSETQUALITYEXPORTDATA___C__GETHASHCODE_B__5_0_OFFSET UNITYSDK_OFFSET(0x1BF45720)
-#define SCENENLIGHTMANAGER_LIGHTSETQUALITYEXPORTDATA___C__GETHASHCODE_B__5_1_OFFSET UNITYSDK_OFFSET(0x1BF45730)
+#define SCENENLIGHTMANAGER_LIGHTSETQUALITYEXPORTDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xE95B6D0)
+#define SCENENLIGHTMANAGER_LIGHTSETQUALITYEXPORTDATA___C__COMPAREDATATOOTHER_B__3_0_OFFSET UNITYSDK_OFFSET(0xE95B720)
+#define SCENENLIGHTMANAGER_LIGHTSETQUALITYEXPORTDATA___C__COMPAREDATATOOTHER_B__3_1_OFFSET UNITYSDK_OFFSET(0xE95B730)
+#define SCENENLIGHTMANAGER_LIGHTSETQUALITYEXPORTDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0xE95B710)
+#define SCENENLIGHTMANAGER_LIGHTSETQUALITYEXPORTDATA___C__EQUALS_B__4_0_OFFSET UNITYSDK_OFFSET(0xE95B740)
+#define SCENENLIGHTMANAGER_LIGHTSETQUALITYEXPORTDATA___C__EQUALS_B__4_1_OFFSET UNITYSDK_OFFSET(0xE95B750)
+#define SCENENLIGHTMANAGER_LIGHTSETQUALITYEXPORTDATA___C__GETHASHCODE_B__5_0_OFFSET UNITYSDK_OFFSET(0xE95B760)
+#define SCENENLIGHTMANAGER_LIGHTSETQUALITYEXPORTDATA___C__GETHASHCODE_B__5_1_OFFSET UNITYSDK_OFFSET(0xE95B770)
 
 namespace ScenenLightManager
 {
-	inline static constexpr unsigned int LightSetQualityExportData___c_TypeDefinitionIndex = 49589;
+	inline static constexpr unsigned int LightSetQualityExportData___c_TypeDefinitionIndex = 49163;
 
 	class LightSetQualityExportData___c : public ::System::Object
 	{
 	public:
-		static ::ScenenLightManager::LightSetQualityExportData___c** StaticGet___9()
-		{
-			return (::ScenenLightManager::LightSetQualityExportData___c**)Il2CppClass::FromTypeDefinitionIndex(LightSetQualityExportData___c_TypeDefinitionIndex)->GetStaticField(0x52A10);
-		}
 		static ::System::Func_2<::System::Int32, ::System::Int32>** StaticGet___9__3_0()
 		{
-			return (::System::Func_2<::System::Int32, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(LightSetQualityExportData___c_TypeDefinitionIndex)->GetStaticField(0x52A18);
-		}
-		static ::System::Func_2<::System::Int32, ::System::Int32>** StaticGet___9__4_1()
-		{
-			return (::System::Func_2<::System::Int32, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(LightSetQualityExportData___c_TypeDefinitionIndex)->GetStaticField(0x52A20);
+			return (::System::Func_2<::System::Int32, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(LightSetQualityExportData___c_TypeDefinitionIndex)->GetStaticField(0x2FD0);
 		}
 		static ::System::Func_2<::System::Int32, ::System::Int32>** StaticGet___9__4_0()
 		{
-			return (::System::Func_2<::System::Int32, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(LightSetQualityExportData___c_TypeDefinitionIndex)->GetStaticField(0x52A28);
+			return (::System::Func_2<::System::Int32, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(LightSetQualityExportData___c_TypeDefinitionIndex)->GetStaticField(0x2FD8);
 		}
-		static ::System::Func_3<::System::Int32, ::System::Int32, ::System::Int32>** StaticGet___9__5_1()
+		static ::ScenenLightManager::LightSetQualityExportData___c** StaticGet___9()
 		{
-			return (::System::Func_3<::System::Int32, ::System::Int32, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(LightSetQualityExportData___c_TypeDefinitionIndex)->GetStaticField(0x52A30);
+			return (::ScenenLightManager::LightSetQualityExportData___c**)Il2CppClass::FromTypeDefinitionIndex(LightSetQualityExportData___c_TypeDefinitionIndex)->GetStaticField(0x2FE0);
+		}
+		static ::System::Func_2<::System::Int32, ::System::Int32>** StaticGet___9__4_1()
+		{
+			return (::System::Func_2<::System::Int32, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(LightSetQualityExportData___c_TypeDefinitionIndex)->GetStaticField(0x2FE8);
 		}
 		static ::System::Func_2<::System::Int32, ::System::Int32>** StaticGet___9__5_0()
 		{
-			return (::System::Func_2<::System::Int32, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(LightSetQualityExportData___c_TypeDefinitionIndex)->GetStaticField(0x52A38);
+			return (::System::Func_2<::System::Int32, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(LightSetQualityExportData___c_TypeDefinitionIndex)->GetStaticField(0x2FF0);
+		}
+		static ::System::Func_3<::System::Int32, ::System::Int32, ::System::Int32>** StaticGet___9__5_1()
+		{
+			return (::System::Func_3<::System::Int32, ::System::Int32, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(LightSetQualityExportData___c_TypeDefinitionIndex)->GetStaticField(0x2FF8);
 		}
 		static ::System::Func_2<::System::Int32, ::System::Int32>** StaticGet___9__3_1()
 		{
-			return (::System::Func_2<::System::Int32, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(LightSetQualityExportData___c_TypeDefinitionIndex)->GetStaticField(0x52A40);
+			return (::System::Func_2<::System::Int32, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(LightSetQualityExportData___c_TypeDefinitionIndex)->GetStaticField(0x3000);
 		}
 
 		static ::System::Void _cctor()

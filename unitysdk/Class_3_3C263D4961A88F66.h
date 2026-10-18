@@ -8,13 +8,13 @@ namespace RPG::Client::LittleGame { class ElfRestaurantGameEntity; }
 namespace RPG::GameCore { class ST_Side_ElfInteractCurrentSlot; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_3C263D4961A88F66_METHOD_3_DE21204480B88394_OFFSET UNITYSDK_OFFSET(0x1160CF60)
-#define CLASS_3_3C263D4961A88F66_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1160CA20)
-#define CLASS_3_3C263D4961A88F66_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1160D260)
-#define CLASS_3_3C263D4961A88F66_TICK_OFFSET UNITYSDK_OFFSET(0x1160D2B0)
-#define CLASS_3_3C263D4961A88F66__CTOR_OFFSET UNITYSDK_OFFSET(0x1160C9F0)
+#define CLASS_3_3C263D4961A88F66_METHOD_3_DE21204480B88394_OFFSET UNITYSDK_OFFSET(0xC017670)
+#define CLASS_3_3C263D4961A88F66_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC017130)
+#define CLASS_3_3C263D4961A88F66_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC017970)
+#define CLASS_3_3C263D4961A88F66_TICK_OFFSET UNITYSDK_OFFSET(0xC0179C0)
+#define CLASS_3_3C263D4961A88F66__CTOR_OFFSET UNITYSDK_OFFSET(0xC017100)
 
-inline static constexpr unsigned int Class_3_3C263D4961A88F66_TypeDefinitionIndex = 52464;
+inline static constexpr unsigned int Class_3_3C263D4961A88F66_TypeDefinitionIndex = 52177;
 
 class Class_3_3C263D4961A88F66 : public ::RPG::GameCore::ST_Task_1<::RPG::GameCore::ST_Side_ElfInteractCurrentSlot*>
 {
@@ -23,9 +23,9 @@ public:
 	::UnityEngine::Vector3 OIMMGKNHKOA; // 0x30
 	::UnityEngine::Quaternion ACDOFFNEDEF; // 0x3C
 	::UnityEngine::Quaternion HBAIICJGPGC; // 0x4C
-	::System::Single PGMIOKKLHIE; // 0x5C
-	::System::Single KLBFFEFFJID; // 0x60
-	::UnityEngine::Vector3 FCAOOKFEOHC; // 0x64
+	::UnityEngine::Vector3 FCAOOKFEOHC; // 0x5C
+	::System::Single KLBFFEFFJID; // 0x68
+	::System::Single PGMIOKKLHIE; // 0x6C
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ST_Side_ElfInteractCurrentSlot* a2)
 	{

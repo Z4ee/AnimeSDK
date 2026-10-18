@@ -11,50 +11,50 @@ namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MIHOYO_SDK_HOYOCHANNELONLINESERVICES_CHECKPERMISSION_OFFSET UNITYSDK_OFFSET(0x1C6E2C00)
-#define MIHOYO_SDK_HOYOCHANNELONLINESERVICES_CHECKPRIVILEGE_OFFSET UNITYSDK_OFFSET(0x1C6E2130)
-#define MIHOYO_SDK_HOYOCHANNELONLINESERVICES_CLEANUPTIMEDOUTCALLBACKS_OFFSET UNITYSDK_OFFSET(0x1C6DC180)
-#define MIHOYO_SDK_HOYOCHANNELONLINESERVICES_ONCHECKPERMISSIONCALLBACK_OFFSET UNITYSDK_OFFSET(0x1C6E1CE0)
-#define MIHOYO_SDK_HOYOCHANNELONLINESERVICES_ONCHECKPRIVILEGECALLBACK_OFFSET UNITYSDK_OFFSET(0x1C6E17E0)
-#define MIHOYO_SDK_HOYOCHANNELONLINESERVICES_ONRESOLVEPRIVILEGECALLBACK_OFFSET UNITYSDK_OFFSET(0x1C6E1890)
-#define MIHOYO_SDK_HOYOCHANNELONLINESERVICES_RESOLVEPRIVILEGE_OFFSET UNITYSDK_OFFSET(0x1C6E24B0)
-#define MIHOYO_SDK_HOYOCHANNELONLINESERVICES__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C6E3370)
-#define MIHOYO_SDK_HOYOCHANNELONLINESERVICES__CTOR_OFFSET UNITYSDK_OFFSET(0x1C6D21E0)
+#define MIHOYO_SDK_HOYOCHANNELONLINESERVICES_CHECKPERMISSION_OFFSET UNITYSDK_OFFSET(0xAF99810)
+#define MIHOYO_SDK_HOYOCHANNELONLINESERVICES_CHECKPRIVILEGE_OFFSET UNITYSDK_OFFSET(0xAF98D40)
+#define MIHOYO_SDK_HOYOCHANNELONLINESERVICES_CLEANUPTIMEDOUTCALLBACKS_OFFSET UNITYSDK_OFFSET(0xAF92E10)
+#define MIHOYO_SDK_HOYOCHANNELONLINESERVICES_ONCHECKPERMISSIONCALLBACK_OFFSET UNITYSDK_OFFSET(0xAF988F0)
+#define MIHOYO_SDK_HOYOCHANNELONLINESERVICES_ONCHECKPRIVILEGECALLBACK_OFFSET UNITYSDK_OFFSET(0xAF983F0)
+#define MIHOYO_SDK_HOYOCHANNELONLINESERVICES_ONRESOLVEPRIVILEGECALLBACK_OFFSET UNITYSDK_OFFSET(0xAF984A0)
+#define MIHOYO_SDK_HOYOCHANNELONLINESERVICES_RESOLVEPRIVILEGE_OFFSET UNITYSDK_OFFSET(0xAF990C0)
+#define MIHOYO_SDK_HOYOCHANNELONLINESERVICES__CCTOR_OFFSET UNITYSDK_OFFSET(0xAF99F80)
+#define MIHOYO_SDK_HOYOCHANNELONLINESERVICES__CTOR_OFFSET UNITYSDK_OFFSET(0xAF89A30)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int HoYoChannelOnlineServices_TypeDefinitionIndex = 46998;
+	inline static constexpr unsigned int HoYoChannelOnlineServices_TypeDefinitionIndex = 46538;
 
 	class HoYoChannelOnlineServices : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet_s_checkPermissionLock()
-		{
-			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(HoYoChannelOnlineServices_TypeDefinitionIndex)->GetStaticField(0x51700);
-		}
 		static ::MiHoYo::SDK::PC::OS::HoYoChannelPrivilegeResult** StaticGet_s_checkPrivilegeResult()
 		{
-			return (::MiHoYo::SDK::PC::OS::HoYoChannelPrivilegeResult**)Il2CppClass::FromTypeDefinitionIndex(HoYoChannelOnlineServices_TypeDefinitionIndex)->GetStaticField(0x51708);
-		}
-		static ::System::Object** StaticGet_s_privilegeLock()
-		{
-			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(HoYoChannelOnlineServices_TypeDefinitionIndex)->GetStaticField(0x51710);
-		}
-		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelPrivilegeResult*>*>** StaticGet_s_privilegeCallbacks()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelPrivilegeResult*>*>**)Il2CppClass::FromTypeDefinitionIndex(HoYoChannelOnlineServices_TypeDefinitionIndex)->GetStaticField(0x51718);
-		}
-		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::DateTime>** StaticGet_s_privilegeTimeouts()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::DateTime>**)Il2CppClass::FromTypeDefinitionIndex(HoYoChannelOnlineServices_TypeDefinitionIndex)->GetStaticField(0x51720);
-		}
-		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelCheckPermissionResult*>*>** StaticGet_s_checkPermissionCallbacks()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelCheckPermissionResult*>*>**)Il2CppClass::FromTypeDefinitionIndex(HoYoChannelOnlineServices_TypeDefinitionIndex)->GetStaticField(0x51728);
+			return (::MiHoYo::SDK::PC::OS::HoYoChannelPrivilegeResult**)Il2CppClass::FromTypeDefinitionIndex(HoYoChannelOnlineServices_TypeDefinitionIndex)->GetStaticField(0x23590);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::DateTime>** StaticGet_s_checkPermissionTimeouts()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::DateTime>**)Il2CppClass::FromTypeDefinitionIndex(HoYoChannelOnlineServices_TypeDefinitionIndex)->GetStaticField(0x51730);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::DateTime>**)Il2CppClass::FromTypeDefinitionIndex(HoYoChannelOnlineServices_TypeDefinitionIndex)->GetStaticField(0x23598);
+		}
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::DateTime>** StaticGet_s_privilegeTimeouts()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::DateTime>**)Il2CppClass::FromTypeDefinitionIndex(HoYoChannelOnlineServices_TypeDefinitionIndex)->GetStaticField(0x235A0);
+		}
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelCheckPermissionResult*>*>** StaticGet_s_checkPermissionCallbacks()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelCheckPermissionResult*>*>**)Il2CppClass::FromTypeDefinitionIndex(HoYoChannelOnlineServices_TypeDefinitionIndex)->GetStaticField(0x235A8);
+		}
+		static ::System::Object** StaticGet_s_checkPermissionLock()
+		{
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(HoYoChannelOnlineServices_TypeDefinitionIndex)->GetStaticField(0x235B0);
+		}
+		static ::System::Object** StaticGet_s_privilegeLock()
+		{
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(HoYoChannelOnlineServices_TypeDefinitionIndex)->GetStaticField(0x235B8);
+		}
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelPrivilegeResult*>*>** StaticGet_s_privilegeCallbacks()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelPrivilegeResult*>*>**)Il2CppClass::FromTypeDefinitionIndex(HoYoChannelOnlineServices_TypeDefinitionIndex)->GetStaticField(0x235C0);
 		}
 		// static const ::System::Double PRIVILEGE_TIMEOUT_SECONDS; // 0x0
 		// static const ::System::Double CHECK_PERMISSION_TIMEOUT_SECONDS; // 0x0

@@ -2,32 +2,32 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_1142;
+class Class_0_16E4307DCC419505_1255;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_DB2D61E7A20DFB38_3_GET_STEPS_OFFSET UNITYSDK_OFFSET(0x14C773A0)
-#define CLASS_1_DB2D61E7A20DFB38_3_SET_STEPS_OFFSET UNITYSDK_OFFSET(0x14C773B0)
-#define CLASS_1_DB2D61E7A20DFB38_3__CTOR_OFFSET UNITYSDK_OFFSET(0x14C773C0)
+#define CLASS_1_DB2D61E7A20DFB38_3_GET_STEPS_OFFSET UNITYSDK_OFFSET(0xB48EC30)
+#define CLASS_1_DB2D61E7A20DFB38_3_SET_STEPS_OFFSET UNITYSDK_OFFSET(0xB48EC40)
+#define CLASS_1_DB2D61E7A20DFB38_3__CTOR_OFFSET UNITYSDK_OFFSET(0xB48EC50)
 
-inline static constexpr unsigned int Class_1_DB2D61E7A20DFB38_3_TypeDefinitionIndex = 72328;
+inline static constexpr unsigned int Class_1_DB2D61E7A20DFB38_3_TypeDefinitionIndex = 72401;
 
 class Class_1_DB2D61E7A20DFB38_3 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_1142*>* _Steps_k__BackingField; // 0x10
+	::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_1255*>* _Steps_k__BackingField; // 0x10
 
-	::System::Void _ctor(::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_1142*>* a1)
+	::System::Void _ctor(::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_1255*>* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_1142*>*))((::PBYTE)hIl2Cpp + CLASS_1_DB2D61E7A20DFB38_3__CTOR_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_1255*>*))((::PBYTE)hIl2Cpp + CLASS_1_DB2D61E7A20DFB38_3__CTOR_OFFSET))(this, a1);
 	}
 
-	::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_1142*>* get_Steps()
+	::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_1255*>* get_Steps()
 	{
-		return ((::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_1142*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_DB2D61E7A20DFB38_3_GET_STEPS_OFFSET))(this);
+		return ((::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_1255*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_DB2D61E7A20DFB38_3_GET_STEPS_OFFSET))(this);
 	}
 
-	::System::Void set_Steps(::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_1142*>* a1)
+	::System::Void set_Steps(::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_1255*>* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_1142*>*))((::PBYTE)hIl2Cpp + CLASS_1_DB2D61E7A20DFB38_3_SET_STEPS_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_1255*>*))((::PBYTE)hIl2Cpp + CLASS_1_DB2D61E7A20DFB38_3_SET_STEPS_OFFSET))(this, a1);
 	}
 };

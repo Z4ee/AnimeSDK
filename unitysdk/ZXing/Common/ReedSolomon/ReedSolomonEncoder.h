@@ -6,19 +6,19 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace ZXing::Common::ReedSolomon { class GenericGF; }
 namespace ZXing::Common::ReedSolomon { class GenericGFPoly; }
 
-#define ZXING_COMMON_REEDSOLOMON_REEDSOLOMONENCODER_BUILDGENERATOR_OFFSET UNITYSDK_OFFSET(0x16D47D80)
-#define ZXING_COMMON_REEDSOLOMON_REEDSOLOMONENCODER_ENCODE_OFFSET UNITYSDK_OFFSET(0x16D3E480)
-#define ZXING_COMMON_REEDSOLOMON_REEDSOLOMONENCODER__CTOR_OFFSET UNITYSDK_OFFSET(0x16D3E140)
+#define ZXING_COMMON_REEDSOLOMON_REEDSOLOMONENCODER_BUILDGENERATOR_OFFSET UNITYSDK_OFFSET(0x1F67A660)
+#define ZXING_COMMON_REEDSOLOMON_REEDSOLOMONENCODER_ENCODE_OFFSET UNITYSDK_OFFSET(0x1F670D70)
+#define ZXING_COMMON_REEDSOLOMON_REEDSOLOMONENCODER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F670A30)
 
 namespace ZXing::Common::ReedSolomon
 {
-	inline static constexpr unsigned int ReedSolomonEncoder_TypeDefinitionIndex = 6970;
+	inline static constexpr unsigned int ReedSolomonEncoder_TypeDefinitionIndex = 6979;
 
 	class ReedSolomonEncoder : public ::System::Object
 	{
 	public:
-		::ZXing::Common::ReedSolomon::GenericGF* field; // 0x10
-		::System::Collections::Generic::IList_1<::ZXing::Common::ReedSolomon::GenericGFPoly*>* cachedGenerators; // 0x18
+		::System::Collections::Generic::IList_1<::ZXing::Common::ReedSolomon::GenericGFPoly*>* cachedGenerators; // 0x10
+		::ZXing::Common::ReedSolomon::GenericGF* field; // 0x18
 
 		::System::Void _ctor(::ZXing::Common::ReedSolomon::GenericGF* a1)
 		{

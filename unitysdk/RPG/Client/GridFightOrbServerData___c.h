@@ -7,34 +7,34 @@ namespace RPG::Client { class GridFightOrbEntityData; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_GRIDFIGHTORBSERVERDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BC5A620)
-#define RPG_CLIENT_GRIDFIGHTORBSERVERDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC5A660)
-#define RPG_CLIENT_GRIDFIGHTORBSERVERDATA___C__GETORBCOUNTBYTYPE_B__11_1_OFFSET UNITYSDK_OFFSET(0x1BC5A670)
-#define RPG_CLIENT_GRIDFIGHTORBSERVERDATA___C__GET_ORBLISTWITHOUTBATTLERESULT_B__24_0_OFFSET UNITYSDK_OFFSET(0x1BC5A700)
-#define RPG_CLIENT_GRIDFIGHTORBSERVERDATA___C___GETORBLIST_B__14_0_OFFSET UNITYSDK_OFFSET(0x1BC5A6C0)
+#define RPG_CLIENT_GRIDFIGHTORBSERVERDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD1C3D90)
+#define RPG_CLIENT_GRIDFIGHTORBSERVERDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD1C3DD0)
+#define RPG_CLIENT_GRIDFIGHTORBSERVERDATA___C__GETORBCOUNTBYTYPE_B__11_1_OFFSET UNITYSDK_OFFSET(0xD1C3DE0)
+#define RPG_CLIENT_GRIDFIGHTORBSERVERDATA___C__GET_ORBLISTWITHOUTBATTLERESULT_B__24_0_OFFSET UNITYSDK_OFFSET(0xD1C3E70)
+#define RPG_CLIENT_GRIDFIGHTORBSERVERDATA___C___GETORBLIST_B__14_0_OFFSET UNITYSDK_OFFSET(0xD1C3E30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightOrbServerData___c_TypeDefinitionIndex = 64506;
+	inline static constexpr unsigned int GridFightOrbServerData___c_TypeDefinitionIndex = 64446;
 
 	class GridFightOrbServerData___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::GridFightOrbEntityData*>, ::System::Int32>** StaticGet___9__11_1()
-		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::GridFightOrbEntityData*>, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(GridFightOrbServerData___c_TypeDefinitionIndex)->GetStaticField(0x39760);
-		}
 		static ::System::Comparison_1<::RPG::Client::GridFightOrbEntityData*>** StaticGet___9__14_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::GridFightOrbEntityData*>**)Il2CppClass::FromTypeDefinitionIndex(GridFightOrbServerData___c_TypeDefinitionIndex)->GetStaticField(0x39768);
+			return (::System::Comparison_1<::RPG::Client::GridFightOrbEntityData*>**)Il2CppClass::FromTypeDefinitionIndex(GridFightOrbServerData___c_TypeDefinitionIndex)->GetStaticField(0x6B550);
 		}
 		static ::RPG::Client::GridFightOrbServerData___c** StaticGet___9()
 		{
-			return (::RPG::Client::GridFightOrbServerData___c**)Il2CppClass::FromTypeDefinitionIndex(GridFightOrbServerData___c_TypeDefinitionIndex)->GetStaticField(0x39770);
+			return (::RPG::Client::GridFightOrbServerData___c**)Il2CppClass::FromTypeDefinitionIndex(GridFightOrbServerData___c_TypeDefinitionIndex)->GetStaticField(0x6B558);
+		}
+		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::GridFightOrbEntityData*>, ::System::Int32>** StaticGet___9__11_1()
+		{
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::GridFightOrbEntityData*>, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(GridFightOrbServerData___c_TypeDefinitionIndex)->GetStaticField(0x6B560);
 		}
 		static ::System::Func_2<::RPG::Client::GridFightOrbEntityData*, ::System::Boolean>** StaticGet___9__24_0()
 		{
-			return (::System::Func_2<::RPG::Client::GridFightOrbEntityData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(GridFightOrbServerData___c_TypeDefinitionIndex)->GetStaticField(0x39778);
+			return (::System::Func_2<::RPG::Client::GridFightOrbEntityData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(GridFightOrbServerData___c_TypeDefinitionIndex)->GetStaticField(0x6B568);
 		}
 
 		static ::System::Void _cctor()

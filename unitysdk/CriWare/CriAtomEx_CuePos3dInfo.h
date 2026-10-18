@@ -3,11 +3,11 @@
 #include "unitysdk/CriWare/CriAtomEx_Randomize3dConfig.h"
 #include "unitysdk/System/ValueType.h"
 
-#define CRIWARE_CRIATOMEX_CUEPOS3DINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x3BAE480)
+#define CRIWARE_CRIATOMEX_CUEPOS3DINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x2E89F70)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomEx_CuePos3dInfo_TypeDefinitionIndex = 38673;
+	inline static constexpr unsigned int CriAtomEx_CuePos3dInfo_TypeDefinitionIndex = 39970;
 
 	struct alignas(8) CriAtomEx_CuePos3dInfo
 	{

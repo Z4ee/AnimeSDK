@@ -7,6 +7,7 @@
 #include "unitysdk/UnityEngine/Vector4.h"
 
 namespace RPG::Client { class Scene_InstanceArrayBehavior_Class_1_64A9CAC73C6C32F4; }
+namespace RPG::Client { class Scene_InstanceArrayElementDataMonoBase; }
 namespace RPG::Client { class Scene_InstanceArrayMonoPlugin; }
 namespace RPG::Client { class Scene_InstanceArrayMonoPlugin_IndexedMaterial; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
@@ -16,147 +17,150 @@ namespace UnityEngine { class Camera; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class Mesh; }
+namespace UnityEngine { class MeshRenderer; }
 namespace UnityEngine { class Renderer; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_ENDOFLATETICK_OFFSET UNITYSDK_OFFSET(0x1AF60000)
-#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_GET__ISBAKEDATACONTAINERMODE_OFFSET UNITYSDK_OFFSET(0x1AF5D0F0)
-#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_GET__OWNERMONOPLUGIN_OFFSET UNITYSDK_OFFSET(0x1AF5D180)
-#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_LATETICK_OFFSET UNITYSDK_OFFSET(0x1AF5EC50)
-#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_METHOD_3_11CA03F4DCCAD111_OFFSET UNITYSDK_OFFSET(0x1AF60880)
-#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_METHOD_3_148111C1B03E7741_OFFSET UNITYSDK_OFFSET(0x1AF63CA0)
-#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_METHOD_3_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0x1AF60470)
-#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_METHOD_3_41A074549EF25F63_OFFSET UNITYSDK_OFFSET(0x1AF60260)
-#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_METHOD_3_4307B2A4B4A12C1A_OFFSET UNITYSDK_OFFSET(0x1AF604B0)
-#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_METHOD_3_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x1AF605A0)
-#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_METHOD_3_4BE99DDCF7F1FD88_OFFSET UNITYSDK_OFFSET(0x1AF61290)
-#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_METHOD_3_4D048E895C608EDE_OFFSET UNITYSDK_OFFSET(0x1AF61A40)
-#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_METHOD_3_4EA6B1791DACA9CC_OFFSET UNITYSDK_OFFSET(0x1AF60330)
-#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_METHOD_3_6916CB2AB9451DD7_OFFSET UNITYSDK_OFFSET(0x1AF61D70)
-#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_METHOD_3_7B411317D337F87A_OFFSET UNITYSDK_OFFSET(0x1AF5D550)
-#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_METHOD_3_7F29568EA964E563_OFFSET UNITYSDK_OFFSET(0x1AF610A0)
-#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_METHOD_3_8542E37E74FDE1B5_OFFSET UNITYSDK_OFFSET(0x1AF614A0)
-#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_METHOD_3_8A09D13ACB455A27_OFFSET UNITYSDK_OFFSET(0x1AF5EE70)
-#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_METHOD_3_8F347AAA4EB5B4FA_OFFSET UNITYSDK_OFFSET(0x1AF61AD0)
-#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_METHOD_3_905CF6772C26FD13_OFFSET UNITYSDK_OFFSET(0x1AF60DC0)
-#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_METHOD_3_97D83E4CB3B11935_OFFSET UNITYSDK_OFFSET(0x1AF5D420)
-#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_METHOD_3_9B2459E153911241_OFFSET UNITYSDK_OFFSET(0x1AF621B0)
-#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_METHOD_3_A1ADC999CFACEB89_OFFSET UNITYSDK_OFFSET(0x1AF5D320)
-#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_METHOD_3_A9F6594EA869CA9D_OFFSET UNITYSDK_OFFSET(0x1AF5ED50)
-#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_METHOD_3_B1936CE4DA97AA45_OFFSET UNITYSDK_OFFSET(0x1AF63DC0)
-#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_METHOD_3_B768DA94E3FD91D9_OFFSET UNITYSDK_OFFSET(0x1AF5D1D0)
-#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_METHOD_3_C12B7C41ED13FF06_OFFSET UNITYSDK_OFFSET(0x1AF60600)
-#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_METHOD_3_D38692167A58B9DA_OFFSET UNITYSDK_OFFSET(0x1AF60740)
-#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_TICK_OFFSET UNITYSDK_OFFSET(0x1AF5EBC0)
-#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AF64420)
-#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF63E20)
+#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_ENDOFLATETICK_OFFSET UNITYSDK_OFFSET(0xE08E2A0)
+#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_GET__ISBAKEDATACONTAINERMODE_OFFSET UNITYSDK_OFFSET(0xE08B240)
+#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_GET__OWNERMONOPLUGIN_OFFSET UNITYSDK_OFFSET(0xE08B2D0)
+#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_LATETICK_OFFSET UNITYSDK_OFFSET(0xE08CF70)
+#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_METHOD_3_11CA03F4DCCAD111_OFFSET UNITYSDK_OFFSET(0xE08EB20)
+#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_METHOD_3_148111C1B03E7741_OFFSET UNITYSDK_OFFSET(0xE092320)
+#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_METHOD_3_292435743009A063_1_OFFSET UNITYSDK_OFFSET(0xE08FDD0)
+#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_METHOD_3_292435743009A063_OFFSET UNITYSDK_OFFSET(0xE08EC00)
+#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_METHOD_3_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0xE08E710)
+#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_METHOD_3_39EC74DF0F8B053E_OFFSET UNITYSDK_OFFSET(0xE090160)
+#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_METHOD_3_41A074549EF25F63_OFFSET UNITYSDK_OFFSET(0xE08E500)
+#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_METHOD_3_4307B2A4B4A12C1A_OFFSET UNITYSDK_OFFSET(0xE08E750)
+#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_METHOD_3_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0xE08E840)
+#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_METHOD_3_4BE99DDCF7F1FD88_OFFSET UNITYSDK_OFFSET(0xE08F630)
+#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_METHOD_3_4EA6B1791DACA9CC_OFFSET UNITYSDK_OFFSET(0xE08E5D0)
+#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_METHOD_3_6916CB2AB9451DD7_OFFSET UNITYSDK_OFFSET(0xE0903F0)
+#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_METHOD_3_6EACE7B13393544A_OFFSET UNITYSDK_OFFSET(0xE08D190)
+#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_METHOD_3_7B411317D337F87A_OFFSET UNITYSDK_OFFSET(0xE08B6A0)
+#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_METHOD_3_7F29568EA964E563_OFFSET UNITYSDK_OFFSET(0xE08F440)
+#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_METHOD_3_905CF6772C26FD13_OFFSET UNITYSDK_OFFSET(0xE08F160)
+#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_METHOD_3_97D83E4CB3B11935_OFFSET UNITYSDK_OFFSET(0xE08B570)
+#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_METHOD_3_9B2459E153911241_OFFSET UNITYSDK_OFFSET(0xE090830)
+#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_METHOD_3_A1ADC999CFACEB89_OFFSET UNITYSDK_OFFSET(0xE08B470)
+#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_METHOD_3_A27DC2C5A103933A_OFFSET UNITYSDK_OFFSET(0xE08FED0)
+#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_METHOD_3_A9F6594EA869CA9D_OFFSET UNITYSDK_OFFSET(0xE08D070)
+#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_METHOD_3_B1936CE4DA97AA45_OFFSET UNITYSDK_OFFSET(0xE092440)
+#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_METHOD_3_B768DA94E3FD91D9_OFFSET UNITYSDK_OFFSET(0xE08B320)
+#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_METHOD_3_C12B7C41ED13FF06_OFFSET UNITYSDK_OFFSET(0xE08E8A0)
+#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_METHOD_3_D38692167A58B9DA_OFFSET UNITYSDK_OFFSET(0xE08E9E0)
+#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_METHOD_3_FD3B916300F77FDA_OFFSET UNITYSDK_OFFSET(0xE08F840)
+#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_TICK_OFFSET UNITYSDK_OFFSET(0xE08CEE0)
+#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR__CCTOR_OFFSET UNITYSDK_OFFSET(0xE092BD0)
+#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR__CTOR_OFFSET UNITYSDK_OFFSET(0xE0924A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Scene_InstanceArrayBehavior_TypeDefinitionIndex = 70807;
+	inline static constexpr unsigned int Scene_InstanceArrayBehavior_TypeDefinitionIndex = 70845;
 
 	class Scene_InstanceArrayBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:
-		static ::System::Int32* StaticGet__PropID_LinXY1()
+		static ::System::Int32* StaticGet__PropID_LTZ()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Scene_InstanceArrayBehavior_TypeDefinitionIndex)->GetStaticField(0xA4B0);
-		}
-		static ::System::Int32* StaticGet__Poly_IsLodSwitching()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Scene_InstanceArrayBehavior_TypeDefinitionIndex)->GetStaticField(0xA4B4);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Scene_InstanceArrayBehavior_TypeDefinitionIndex)->GetStaticField(0x156F0);
 		}
 		static ::System::Int32* StaticGet__PropID_LinZY2()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Scene_InstanceArrayBehavior_TypeDefinitionIndex)->GetStaticField(0xA4B8);
-		}
-		static ::System::Int32* StaticGet__PropID_LinYZ1()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Scene_InstanceArrayBehavior_TypeDefinitionIndex)->GetStaticField(0xA4BC);
-		}
-		static ::System::Int32* StaticGet__PropID_RTX()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Scene_InstanceArrayBehavior_TypeDefinitionIndex)->GetStaticField(0xA4C0);
-		}
-		static ::System::Int32* StaticGet__PropID_LinYZ2()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Scene_InstanceArrayBehavior_TypeDefinitionIndex)->GetStaticField(0xA4C4);
-		}
-		static ::System::Int32* StaticGet__Poly_DitherAlpha()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Scene_InstanceArrayBehavior_TypeDefinitionIndex)->GetStaticField(0xA4C8);
-		}
-		static ::System::Int32* StaticGet__Poly_AdjustAlbedo()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Scene_InstanceArrayBehavior_TypeDefinitionIndex)->GetStaticField(0xA4CC);
-		}
-		static ::System::Int32* StaticGet__PropID_LinXZ1()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Scene_InstanceArrayBehavior_TypeDefinitionIndex)->GetStaticField(0xA4D0);
-		}
-		static ::System::Int32* StaticGet__PropID_LinYX1()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Scene_InstanceArrayBehavior_TypeDefinitionIndex)->GetStaticField(0xA4D4);
-		}
-		static ::System::Int32* StaticGet__PropID_LinMainUVScale()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Scene_InstanceArrayBehavior_TypeDefinitionIndex)->GetStaticField(0xA4D8);
-		}
-		static ::System::Int32* StaticGet__PropID_LinXZ2()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Scene_InstanceArrayBehavior_TypeDefinitionIndex)->GetStaticField(0xA4DC);
-		}
-		static ::System::Int32* StaticGet__PropID_LTZ()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Scene_InstanceArrayBehavior_TypeDefinitionIndex)->GetStaticField(0xA4E0);
-		}
-		static ::System::Int32* StaticGet__Poly_TerrainRate()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Scene_InstanceArrayBehavior_TypeDefinitionIndex)->GetStaticField(0xA4E4);
-		}
-		static ::System::Int32* StaticGet__Poly_DitherFadeIn()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Scene_InstanceArrayBehavior_TypeDefinitionIndex)->GetStaticField(0xA4E8);
-		}
-		static ::System::Int32* StaticGet__PropID_UseAtlas()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Scene_InstanceArrayBehavior_TypeDefinitionIndex)->GetStaticField(0xA4EC);
-		}
-		static ::System::Int32* StaticGet__PropID_LinForceUpN()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Scene_InstanceArrayBehavior_TypeDefinitionIndex)->GetStaticField(0xA4F0);
-		}
-		static ::System::Int32* StaticGet__PropID_RTZ()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Scene_InstanceArrayBehavior_TypeDefinitionIndex)->GetStaticField(0xA4F4);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Scene_InstanceArrayBehavior_TypeDefinitionIndex)->GetStaticField(0x156F4);
 		}
 		static ::System::Int32* StaticGet__Poly_DitherOn()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Scene_InstanceArrayBehavior_TypeDefinitionIndex)->GetStaticField(0xA4F8);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Scene_InstanceArrayBehavior_TypeDefinitionIndex)->GetStaticField(0x156F8);
 		}
-		static ::System::Int32* StaticGet__PropID_InstanceScale()
+		static ::System::Int32* StaticGet__Poly_IsLodSwitching()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Scene_InstanceArrayBehavior_TypeDefinitionIndex)->GetStaticField(0xA4FC);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Scene_InstanceArrayBehavior_TypeDefinitionIndex)->GetStaticField(0x156FC);
 		}
-		static ::System::Int32* StaticGet__PropID_ModuleSize()
+		static ::System::Int32* StaticGet__PropID_LinYX1()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Scene_InstanceArrayBehavior_TypeDefinitionIndex)->GetStaticField(0xA500);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Scene_InstanceArrayBehavior_TypeDefinitionIndex)->GetStaticField(0x15700);
 		}
-		static ::System::Int32* StaticGet__PropID_AtlasID()
+		static ::System::Int32* StaticGet__PropID_LinXZ1()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Scene_InstanceArrayBehavior_TypeDefinitionIndex)->GetStaticField(0xA504);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Scene_InstanceArrayBehavior_TypeDefinitionIndex)->GetStaticField(0x15704);
 		}
-		static ::System::Int32* StaticGet__Poly_DistanceType()
+		static ::System::Int32* StaticGet__PropID_LinMainUVScale()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Scene_InstanceArrayBehavior_TypeDefinitionIndex)->GetStaticField(0xA508);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Scene_InstanceArrayBehavior_TypeDefinitionIndex)->GetStaticField(0x15708);
 		}
-		static ::System::Int32* StaticGet__PropID_LinUVOffset()
+		static ::System::Int32* StaticGet__PropID_UseAtlas()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Scene_InstanceArrayBehavior_TypeDefinitionIndex)->GetStaticField(0xA50C);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Scene_InstanceArrayBehavior_TypeDefinitionIndex)->GetStaticField(0x1570C);
+		}
+		static ::System::Int32* StaticGet__PropID_LinForceUpN()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Scene_InstanceArrayBehavior_TypeDefinitionIndex)->GetStaticField(0x15710);
 		}
 		static ::System::Int32* StaticGet__PropID_RTY()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Scene_InstanceArrayBehavior_TypeDefinitionIndex)->GetStaticField(0xA510);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Scene_InstanceArrayBehavior_TypeDefinitionIndex)->GetStaticField(0x15714);
+		}
+		static ::System::Int32* StaticGet__PropID_LinUVOffset()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Scene_InstanceArrayBehavior_TypeDefinitionIndex)->GetStaticField(0x15718);
+		}
+		static ::System::Int32* StaticGet__PropID_ModuleSize()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Scene_InstanceArrayBehavior_TypeDefinitionIndex)->GetStaticField(0x1571C);
+		}
+		static ::System::Int32* StaticGet__PropID_InstanceScale()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Scene_InstanceArrayBehavior_TypeDefinitionIndex)->GetStaticField(0x15720);
+		}
+		static ::System::Int32* StaticGet__PropID_LinYZ1()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Scene_InstanceArrayBehavior_TypeDefinitionIndex)->GetStaticField(0x15724);
+		}
+		static ::System::Int32* StaticGet__Poly_TerrainRate()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Scene_InstanceArrayBehavior_TypeDefinitionIndex)->GetStaticField(0x15728);
+		}
+		static ::System::Int32* StaticGet__Poly_DitherAlpha()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Scene_InstanceArrayBehavior_TypeDefinitionIndex)->GetStaticField(0x1572C);
+		}
+		static ::System::Int32* StaticGet__PropID_LinXY1()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Scene_InstanceArrayBehavior_TypeDefinitionIndex)->GetStaticField(0x15730);
+		}
+		static ::System::Int32* StaticGet__PropID_RTX()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Scene_InstanceArrayBehavior_TypeDefinitionIndex)->GetStaticField(0x15734);
+		}
+		static ::System::Int32* StaticGet__PropID_LinXZ2()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Scene_InstanceArrayBehavior_TypeDefinitionIndex)->GetStaticField(0x15738);
+		}
+		static ::System::Int32* StaticGet__Poly_DitherFadeIn()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Scene_InstanceArrayBehavior_TypeDefinitionIndex)->GetStaticField(0x1573C);
+		}
+		static ::System::Int32* StaticGet__PropID_AtlasID()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Scene_InstanceArrayBehavior_TypeDefinitionIndex)->GetStaticField(0x15740);
+		}
+		static ::System::Int32* StaticGet__PropID_RTZ()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Scene_InstanceArrayBehavior_TypeDefinitionIndex)->GetStaticField(0x15744);
+		}
+		static ::System::Int32* StaticGet__Poly_DistanceType()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Scene_InstanceArrayBehavior_TypeDefinitionIndex)->GetStaticField(0x15748);
+		}
+		static ::System::Int32* StaticGet__Poly_AdjustAlbedo()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Scene_InstanceArrayBehavior_TypeDefinitionIndex)->GetStaticField(0x1574C);
+		}
+		static ::System::Int32* StaticGet__PropID_LinYZ2()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Scene_InstanceArrayBehavior_TypeDefinitionIndex)->GetStaticField(0x15750);
 		}
 		// static const ::System::Int32 kMaxBatchSize = 0x3FF; // 0x0
 		::UnityEngine::Renderer* _polymerProbeRenderer; // 0x38
@@ -186,14 +190,16 @@ namespace RPG::Client
 		::System::Collections::Generic::List_1<::System::Single>* _TmpUseAtlas; // 0x120
 		::System::Collections::Generic::List_1<::System::Single>* _TmpAtlasID; // 0x128
 		::System::Collections::Generic::List_1<::UnityEngine::Vector4>* _TmpInstanceScale; // 0x130
-		::System::Boolean _NeedRefreshMatrices; // 0x138
-		::System::Int32 _RuntimeLastRebuildFrame; // 0x13C
-		::System::Int32 _RuntimeLastRefreshFrame; // 0x140
-		::System::Int32 _RuntimeLastDrawFrame; // 0x144
-		::System::Int32 _RuntimeStructureHash; // 0x148
-		::System::Int32 _RuntimeLastStructureHashFrame; // 0x14C
-		::UnityEngine::Animator* _CachedAnimator; // 0x150
-		::System::Boolean _AnimatorCacheValid; // 0x158
+		::System::Collections::Generic::List_1<::RPG::Client::Scene_InstanceArrayElementDataMonoBase*>* _ScratchElements; // 0x138
+		::System::Collections::Generic::List_1<::UnityEngine::MeshRenderer*>* _ScratchMeshRenderers; // 0x140
+		::System::Boolean _NeedRefreshMatrices; // 0x148
+		::System::Int32 _RuntimeLastRebuildFrame; // 0x14C
+		::System::Int32 _RuntimeLastRefreshFrame; // 0x150
+		::System::Int32 _RuntimeLastDrawFrame; // 0x154
+		::System::Int32 _RuntimeStructureHash; // 0x158
+		::System::Int32 _RuntimeLastStructureHashFrame; // 0x15C
+		::UnityEngine::Animator* _CachedAnimator; // 0x160
+		::System::Boolean _AnimatorCacheValid; // 0x168
 
 		::System::Void _ctor()
 		{
@@ -290,24 +296,24 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_METHOD_3_7B411317D337F87A_OFFSET))(this);
 		}
 
-		::System::Void Method_3_8542E37E74FDE1B5()
+		::System::Void Method_3_FD3B916300F77FDA()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_METHOD_3_8542E37E74FDE1B5_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_METHOD_3_FD3B916300F77FDA_OFFSET))(this);
 		}
 
-		::System::Void Method_3_4D048E895C608EDE()
+		::System::Void Method_3_A27DC2C5A103933A()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_METHOD_3_4D048E895C608EDE_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_METHOD_3_A27DC2C5A103933A_OFFSET))(this);
 		}
 
-		::System::Void Method_3_8A09D13ACB455A27(::UnityEngine::Camera* a1)
+		::System::Void Method_3_6EACE7B13393544A(::UnityEngine::Camera* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Camera*))((::PBYTE)hIl2Cpp + RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_METHOD_3_8A09D13ACB455A27_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Camera*))((::PBYTE)hIl2Cpp + RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_METHOD_3_6EACE7B13393544A_OFFSET))(this, a1);
 		}
 
-		::System::Int32 Method_3_8F347AAA4EB5B4FA()
+		::System::Int32 Method_3_39EC74DF0F8B053E()
 		{
-			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_METHOD_3_8F347AAA4EB5B4FA_OFFSET))(this);
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_METHOD_3_39EC74DF0F8B053E_OFFSET))(this);
 		}
 
 		::System::Void Method_3_9B2459E153911241(::RPG::Client::Scene_InstanceArrayBehavior_Class_1_64A9CAC73C6C32F4* a1, ::UnityEngine::Camera* a2, ::System::Boolean a3)
@@ -338,6 +344,16 @@ namespace RPG::Client
 		::System::Void Method_3_148111C1B03E7741(::UnityEngine::MaterialPropertyBlock* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::MaterialPropertyBlock*))((::PBYTE)hIl2Cpp + RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_METHOD_3_148111C1B03E7741_OFFSET))(this, a1);
+		}
+
+		::System::Void Method_3_292435743009A063(::System::Boolean a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_METHOD_3_292435743009A063_OFFSET))(this, a1);
+		}
+
+		::System::Void Method_3_292435743009A063_1(::System::Boolean a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_METHOD_3_292435743009A063_1_OFFSET))(this, a1);
 		}
 
 		static ::UnityEngine::Matrix4x4 Method_3_905CF6772C26FD13(::UnityEngine::Transform* a1)

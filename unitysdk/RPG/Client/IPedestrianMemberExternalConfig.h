@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/Client/EPedestrianMemberSpecialTag.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_IPEDESTRIANMEMBEREXTERNALCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1982EF90)
+#define RPG_CLIENT_IPEDESTRIANMEMBEREXTERNALCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xD332800)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IPedestrianMemberExternalConfig_TypeDefinitionIndex = 69210;
+	inline static constexpr unsigned int IPedestrianMemberExternalConfig_TypeDefinitionIndex = 69246;
 
 	class IPedestrianMemberExternalConfig : public ::System::Object
 	{

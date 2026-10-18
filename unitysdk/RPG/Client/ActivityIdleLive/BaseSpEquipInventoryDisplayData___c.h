@@ -6,29 +6,29 @@ namespace RPG::Client::ActivityIdleLive { class IdleLiveTeamAvatarData; }
 namespace RPG::Client::ActivityIdleLive { class SpecialEquip; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_BASESPEQUIPINVENTORYDISPLAYDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B903BF0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_BASESPEQUIPINVENTORYDISPLAYDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B903C30)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_BASESPEQUIPINVENTORYDISPLAYDATA___C___CTOR_B__19_0_OFFSET UNITYSDK_OFFSET(0x1B903C40)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_BASESPEQUIPINVENTORYDISPLAYDATA___C___GETSTRONGESTEQUIPLIST_B__35_1_OFFSET UNITYSDK_OFFSET(0x1B903D50)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_BASESPEQUIPINVENTORYDISPLAYDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC44BBE0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_BASESPEQUIPINVENTORYDISPLAYDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC44BC20)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_BASESPEQUIPINVENTORYDISPLAYDATA___C___CTOR_B__19_0_OFFSET UNITYSDK_OFFSET(0xC44BC30)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_BASESPEQUIPINVENTORYDISPLAYDATA___C___GETSTRONGESTEQUIPLIST_B__35_1_OFFSET UNITYSDK_OFFSET(0xC44BD40)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int BaseSpEquipInventoryDisplayData___c_TypeDefinitionIndex = 75134;
+	inline static constexpr unsigned int BaseSpEquipInventoryDisplayData___c_TypeDefinitionIndex = 75434;
 
 	class BaseSpEquipInventoryDisplayData___c : public ::System::Object
 	{
 	public:
+		static ::System::Comparison_1<::RPG::Client::ActivityIdleLive::IdleLiveTeamAvatarData*>** StaticGet___9__35_1()
+		{
+			return (::System::Comparison_1<::RPG::Client::ActivityIdleLive::IdleLiveTeamAvatarData*>**)Il2CppClass::FromTypeDefinitionIndex(BaseSpEquipInventoryDisplayData___c_TypeDefinitionIndex)->GetStaticField(0x1BD20);
+		}
 		static ::System::Comparison_1<::RPG::Client::ActivityIdleLive::SpecialEquip*>** StaticGet___9__19_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::ActivityIdleLive::SpecialEquip*>**)Il2CppClass::FromTypeDefinitionIndex(BaseSpEquipInventoryDisplayData___c_TypeDefinitionIndex)->GetStaticField(0x567D0);
+			return (::System::Comparison_1<::RPG::Client::ActivityIdleLive::SpecialEquip*>**)Il2CppClass::FromTypeDefinitionIndex(BaseSpEquipInventoryDisplayData___c_TypeDefinitionIndex)->GetStaticField(0x1BD28);
 		}
 		static ::RPG::Client::ActivityIdleLive::BaseSpEquipInventoryDisplayData___c** StaticGet___9()
 		{
-			return (::RPG::Client::ActivityIdleLive::BaseSpEquipInventoryDisplayData___c**)Il2CppClass::FromTypeDefinitionIndex(BaseSpEquipInventoryDisplayData___c_TypeDefinitionIndex)->GetStaticField(0x567D8);
-		}
-		static ::System::Comparison_1<::RPG::Client::ActivityIdleLive::IdleLiveTeamAvatarData*>** StaticGet___9__35_1()
-		{
-			return (::System::Comparison_1<::RPG::Client::ActivityIdleLive::IdleLiveTeamAvatarData*>**)Il2CppClass::FromTypeDefinitionIndex(BaseSpEquipInventoryDisplayData___c_TypeDefinitionIndex)->GetStaticField(0x567E0);
+			return (::RPG::Client::ActivityIdleLive::BaseSpEquipInventoryDisplayData___c**)Il2CppClass::FromTypeDefinitionIndex(BaseSpEquipInventoryDisplayData___c_TypeDefinitionIndex)->GetStaticField(0x1BD30);
 		}
 
 		static ::System::Void _cctor()

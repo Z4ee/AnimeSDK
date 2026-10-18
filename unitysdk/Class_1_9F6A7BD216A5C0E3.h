@@ -5,16 +5,16 @@
 namespace RPG::Client { class CameraNamedDynamicOffset; }
 namespace RPG::GameCore { class GameEntity; }
 
-#define CLASS_1_9F6A7BD216A5C0E3_METHOD_1_707355BB5CCD728C_OFFSET UNITYSDK_OFFSET(0x17DFC800)
-#define CLASS_1_9F6A7BD216A5C0E3__CTOR_OFFSET UNITYSDK_OFFSET(0x17DFC930)
+#define CLASS_1_9F6A7BD216A5C0E3_METHOD_1_707355BB5CCD728C_OFFSET UNITYSDK_OFFSET(0x15500FD0)
+#define CLASS_1_9F6A7BD216A5C0E3__CTOR_OFFSET UNITYSDK_OFFSET(0x15501100)
 
-inline static constexpr unsigned int Class_1_9F6A7BD216A5C0E3_TypeDefinitionIndex = 69534;
+inline static constexpr unsigned int Class_1_9F6A7BD216A5C0E3_TypeDefinitionIndex = 69570;
 
 class Class_1_9F6A7BD216A5C0E3 : public ::System::Object
 {
 public:
-	::RPG::Client::CameraNamedDynamicOffset* EABKOHGCHFP; // 0x10
-	::RPG::GameCore::GameEntity* NELOEEMKHND; // 0x18
+	::RPG::GameCore::GameEntity* NELOEEMKHND; // 0x10
+	::RPG::Client::CameraNamedDynamicOffset* EABKOHGCHFP; // 0x18
 
 	::System::Void _ctor()
 	{

@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/CustomRP/Quality.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CUSTOMRP_CRPGRAPHICSSETTINGSDATA_CRPPOSTPROCESSSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x192AEBA0)
+#define RPG_CUSTOMRP_CRPGRAPHICSSETTINGSDATA_CRPPOSTPROCESSSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1CBD4F00)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int CRPGraphicsSettingsData_CRPPostProcessSettings_TypeDefinitionIndex = 36973;
+	inline static constexpr unsigned int CRPGraphicsSettingsData_CRPPostProcessSettings_TypeDefinitionIndex = 37658;
 
 	class CRPGraphicsSettingsData_CRPPostProcessSettings : public ::System::Object
 	{

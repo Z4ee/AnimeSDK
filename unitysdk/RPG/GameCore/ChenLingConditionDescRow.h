@@ -6,18 +6,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_CHENLINGCONDITIONDESCROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E011CE0)
-#define RPG_GAMECORE_CHENLINGCONDITIONDESCROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1E011E60)
+#define RPG_GAMECORE_CHENLINGCONDITIONDESCROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D55D390)
+#define RPG_GAMECORE_CHENLINGCONDITIONDESCROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D55D510)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingConditionDescRow_TypeDefinitionIndex = 11016;
+	inline static constexpr unsigned int ChenLingConditionDescRow_TypeDefinitionIndex = 11032;
 
 	class ChenLingConditionDescRow : public ::System::Object
 	{
 	public:
-		::RPG::Client::TextID Desc; // 0x10
-		::RPG::GameCore::ChenLingConditionType Type; // 0x20
+		::RPG::GameCore::ChenLingConditionType Type; // 0x10
+		::RPG::Client::TextID Desc; // 0x18
 
 		::System::Void _ctor()
 		{

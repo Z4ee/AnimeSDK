@@ -4,20 +4,22 @@
 #include "unitysdk/RPG/GameCore/MarblePredicateConfig.h"
 
 class Class_1_7A22A3DBEEDD1F80;
+namespace System { class String; }
 
-#define RPG_GAMECORE_MARBLEBYCOMPARESKILLROUND_METHOD_4_B04319FDA56F829A_OFFSET UNITYSDK_OFFSET(0x1D4A4E40)
-#define RPG_GAMECORE_MARBLEBYCOMPARESKILLROUND_METHOD_4_E8E90F04883F7BD6_OFFSET UNITYSDK_OFFSET(0x1D4A4EA0)
-#define RPG_GAMECORE_MARBLEBYCOMPARESKILLROUND__CTOR_OFFSET UNITYSDK_OFFSET(0x1D4A4E90)
+#define RPG_GAMECORE_MARBLEBYCOMPARESKILLROUND_METHOD_4_95ABFE52173764BF_OFFSET UNITYSDK_OFFSET(0x1D80B7F0)
+#define RPG_GAMECORE_MARBLEBYCOMPARESKILLROUND_METHOD_4_B04319FDA56F829A_OFFSET UNITYSDK_OFFSET(0x1D80B790)
+#define RPG_GAMECORE_MARBLEBYCOMPARESKILLROUND__CTOR_OFFSET UNITYSDK_OFFSET(0x1D80B7E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MarbleByCompareSkillRound_TypeDefinitionIndex = 16696;
+	inline static constexpr unsigned int MarbleByCompareSkillRound_TypeDefinitionIndex = 16885;
 
 	class MarbleByCompareSkillRound : public ::RPG::GameCore::MarblePredicateConfig
 	{
 	public:
 		::RPG::GameCore::MarbleCompare CompareType; // 0x28
 		::System::Int32 Value; // 0x2C
+		::System::String* ValueDynamic; // 0x30
 
 		::System::Void _ctor()
 		{
@@ -29,9 +31,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MarbleByCompareSkillRound*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLEBYCOMPARESKILLROUND_METHOD_4_B04319FDA56F829A_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_E8E90F04883F7BD6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MarbleByCompareSkillRound* a2)
+		static ::System::Void Method_4_95ABFE52173764BF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MarbleByCompareSkillRound* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MarbleByCompareSkillRound*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLEBYCOMPARESKILLROUND_METHOD_4_E8E90F04883F7BD6_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MarbleByCompareSkillRound*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLEBYCOMPARESKILLROUND_METHOD_4_95ABFE52173764BF_OFFSET))(a1, a2);
 		}
 	};
 }

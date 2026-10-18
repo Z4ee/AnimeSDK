@@ -6,20 +6,20 @@ namespace RPG::Client::PixAir { class PixAirBagEquipsViewModel; }
 namespace RPG::Client::PixAir { class PixAirBagSlotItemControl; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_PIXAIR_PIXAIRBAGSLOTLISTCONTROL_GET__VIEWMODEL_OFFSET UNITYSDK_OFFSET(0x1C830950)
-#define RPG_CLIENT_PIXAIR_PIXAIRBAGSLOTLISTCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x1C830A00)
-#define RPG_CLIENT_PIXAIR_PIXAIRBAGSLOTLISTCONTROL__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x1C830820)
-#define RPG_CLIENT_PIXAIR_PIXAIRBAGSLOTLISTCONTROL__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0x1C8306C0)
+#define RPG_CLIENT_PIXAIR_PIXAIRBAGSLOTLISTCONTROL_GET__VIEWMODEL_OFFSET UNITYSDK_OFFSET(0xDB29C10)
+#define RPG_CLIENT_PIXAIR_PIXAIRBAGSLOTLISTCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0xDB29CC0)
+#define RPG_CLIENT_PIXAIR_PIXAIRBAGSLOTLISTCONTROL__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0xDB29AE0)
+#define RPG_CLIENT_PIXAIR_PIXAIRBAGSLOTLISTCONTROL__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0xDB29980)
 
 namespace RPG::Client::PixAir
 {
-	inline static constexpr unsigned int PixAirBagSlotListControl_TypeDefinitionIndex = 78745;
+	inline static constexpr unsigned int PixAirBagSlotListControl_TypeDefinitionIndex = 79226;
 
 	class PixAirBagSlotListControl : public ::Sofa::BaseSofaControl
 	{
 	public:
 		// static const ::System::UInt32 _MaxSlotSize = 0xA; // 0x0
-		::System::Collections::Generic::List_1<::RPG::Client::PixAir::PixAirBagSlotItemControl*>* _SlotItemControls; // 0x38
+		::System::Collections::Generic::List_1<::RPG::Client::PixAir::PixAirBagSlotItemControl*>* _SlotItemControls; // 0x40
 
 		::System::Void _ctor()
 		{

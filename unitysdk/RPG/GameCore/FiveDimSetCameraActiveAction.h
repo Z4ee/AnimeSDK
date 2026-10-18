@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_FIVEDIMSETCAMERAACTIVEACTION_METHOD_3_5A74C665AA7AE3A6_OFFSET UNITYSDK_OFFSET(0x1D8784C0)
-#define RPG_GAMECORE_FIVEDIMSETCAMERAACTIVEACTION_METHOD_3_DEFC5F375773BAA3_OFFSET UNITYSDK_OFFSET(0x1D8783E0)
-#define RPG_GAMECORE_FIVEDIMSETCAMERAACTIVEACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D8784B0)
+#define RPG_GAMECORE_FIVEDIMSETCAMERAACTIVEACTION_METHOD_4_740BB2F2A7C8955B_OFFSET UNITYSDK_OFFSET(0x1D6AB760)
+#define RPG_GAMECORE_FIVEDIMSETCAMERAACTIVEACTION_METHOD_4_934F7725EB0A0A5E_OFFSET UNITYSDK_OFFSET(0x1D6AB680)
+#define RPG_GAMECORE_FIVEDIMSETCAMERAACTIVEACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6AB750)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimSetCameraActiveAction_TypeDefinitionIndex = 18525;
+	inline static constexpr unsigned int FiveDimSetCameraActiveAction_TypeDefinitionIndex = 18735;
 
 	class FiveDimSetCameraActiveAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
@@ -22,14 +22,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMSETCAMERAACTIVEACTION__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_DEFC5F375773BAA3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimSetCameraActiveAction*& a2)
+		static ::System::Void Method_4_934F7725EB0A0A5E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimSetCameraActiveAction*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimSetCameraActiveAction*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMSETCAMERAACTIVEACTION_METHOD_3_DEFC5F375773BAA3_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimSetCameraActiveAction*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMSETCAMERAACTIVEACTION_METHOD_4_934F7725EB0A0A5E_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_5A74C665AA7AE3A6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimSetCameraActiveAction* a2)
+		static ::System::Void Method_4_740BB2F2A7C8955B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimSetCameraActiveAction* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimSetCameraActiveAction*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMSETCAMERAACTIVEACTION_METHOD_3_5A74C665AA7AE3A6_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimSetCameraActiveAction*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMSETCAMERAACTIVEACTION_METHOD_4_740BB2F2A7C8955B_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -5,24 +5,24 @@
 namespace RPG::Client { class MatchThreeV2BirdData; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_MATCHTHREEV2BIRDINFOS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C996CD0)
-#define RPG_CLIENT_MATCHTHREEV2BIRDINFOS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1C996D00)
-#define RPG_CLIENT_MATCHTHREEV2BIRDINFOS___C__GET_ALLSHOWBIRDDATALIST_B__4_0_OFFSET UNITYSDK_OFFSET(0x1C996D10)
+#define RPG_CLIENT_MATCHTHREEV2BIRDINFOS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD5AEA70)
+#define RPG_CLIENT_MATCHTHREEV2BIRDINFOS___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD5AEAA0)
+#define RPG_CLIENT_MATCHTHREEV2BIRDINFOS___C__GET_ALLSHOWBIRDDATALIST_B__4_0_OFFSET UNITYSDK_OFFSET(0xD5AEAB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MatchThreeV2BirdInfos___c_TypeDefinitionIndex = 66043;
+	inline static constexpr unsigned int MatchThreeV2BirdInfos___c_TypeDefinitionIndex = 65997;
 
 	class MatchThreeV2BirdInfos___c : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::MatchThreeV2BirdInfos___c** StaticGet___9()
 		{
-			return (::RPG::Client::MatchThreeV2BirdInfos___c**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeV2BirdInfos___c_TypeDefinitionIndex)->GetStaticField(0x66070);
+			return (::RPG::Client::MatchThreeV2BirdInfos___c**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeV2BirdInfos___c_TypeDefinitionIndex)->GetStaticField(0x412E0);
 		}
 		static ::System::Func_2<::RPG::Client::MatchThreeV2BirdData*, ::System::Boolean>** StaticGet___9__4_0()
 		{
-			return (::System::Func_2<::RPG::Client::MatchThreeV2BirdData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeV2BirdInfos___c_TypeDefinitionIndex)->GetStaticField(0x66078);
+			return (::System::Func_2<::RPG::Client::MatchThreeV2BirdData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeV2BirdInfos___c_TypeDefinitionIndex)->GetStaticField(0x412E8);
 		}
 
 		static ::System::Void _cctor()

@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_CUSTOMCAMERABATTLETRANSITIONSHOTCONFIG_METHOD_2_D736503E9C4EB0EE_OFFSET UNITYSDK_OFFSET(0x1D803FA0)
-#define RPG_GAMECORE_CUSTOMCAMERABATTLETRANSITIONSHOTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D8046E0)
+#define RPG_GAMECORE_CUSTOMCAMERABATTLETRANSITIONSHOTCONFIG_METHOD_2_A790CAFF00A6D6F1_OFFSET UNITYSDK_OFFSET(0x1D5BB680)
+#define RPG_GAMECORE_CUSTOMCAMERABATTLETRANSITIONSHOTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5BBED0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CustomCameraBattleTransitionShotConfig_TypeDefinitionIndex = 20186;
+	inline static constexpr unsigned int CustomCameraBattleTransitionShotConfig_TypeDefinitionIndex = 20424;
 
 	class CustomCameraBattleTransitionShotConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -45,9 +45,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CUSTOMCAMERABATTLETRANSITIONSHOTCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_D736503E9C4EB0EE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CustomCameraBattleTransitionShotConfig*& a2)
+		static ::System::Void Method_2_A790CAFF00A6D6F1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CustomCameraBattleTransitionShotConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CustomCameraBattleTransitionShotConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CUSTOMCAMERABATTLETRANSITIONSHOTCONFIG_METHOD_2_D736503E9C4EB0EE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CustomCameraBattleTransitionShotConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CUSTOMCAMERABATTLETRANSITIONSHOTCONFIG_METHOD_2_A790CAFF00A6D6F1_OFFSET))(a1, a2);
 		}
 	};
 }

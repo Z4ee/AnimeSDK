@@ -13,21 +13,21 @@ namespace System { template <typename T> class Func_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_73078F35019A0216_METHOD_1_4053E3F9F429CA86_1_OFFSET UNITYSDK_OFFSET(0x1D011350)
-#define CLASS_1_73078F35019A0216_METHOD_1_4053E3F9F429CA86_OFFSET UNITYSDK_OFFSET(0x1CFFDF20)
-#define CLASS_1_73078F35019A0216_METHOD_1_707CBBF03337EFF7_OFFSET UNITYSDK_OFFSET(0x1D011120)
-#define CLASS_1_73078F35019A0216_METHOD_1_83144F56A9B0C10F_OFFSET UNITYSDK_OFFSET(0x1D010EF0)
-#define CLASS_1_73078F35019A0216_METHOD_1_BD4BE10C2036A781_OFFSET UNITYSDK_OFFSET(0x1D010D30)
-#define CLASS_1_73078F35019A0216_METHOD_1_FFE8006EE5A4CCE2_OFFSET UNITYSDK_OFFSET(0x1CFF1220)
+#define CLASS_1_73078F35019A0216_METHOD_1_4053E3F9F429CA86_1_OFFSET UNITYSDK_OFFSET(0x1D2C30E0)
+#define CLASS_1_73078F35019A0216_METHOD_1_4053E3F9F429CA86_OFFSET UNITYSDK_OFFSET(0x1D2C2FA0)
+#define CLASS_1_73078F35019A0216_METHOD_1_707CBBF03337EFF7_OFFSET UNITYSDK_OFFSET(0x1D2C2D70)
+#define CLASS_1_73078F35019A0216_METHOD_1_83144F56A9B0C10F_OFFSET UNITYSDK_OFFSET(0x1D2C2B40)
+#define CLASS_1_73078F35019A0216_METHOD_1_9F8FBC77C4D1CF52_OFFSET UNITYSDK_OFFSET(0x1D2C2960)
+#define CLASS_1_73078F35019A0216_METHOD_1_FFE8006EE5A4CCE2_OFFSET UNITYSDK_OFFSET(0x1D2BC020)
 
-inline static constexpr unsigned int Class_1_73078F35019A0216_TypeDefinitionIndex = 10812;
+inline static constexpr unsigned int Class_1_73078F35019A0216_TypeDefinitionIndex = 10828;
 
 class Class_1_73078F35019A0216 : public ::System::Object
 {
 public:
-	static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>* Method_1_BD4BE10C2036A781(::System::String* a1)
+	static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>* Method_1_9F8FBC77C4D1CF52(::System::String* a1)
 	{
-		return ((::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>*(*)(::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_73078F35019A0216_METHOD_1_BD4BE10C2036A781_OFFSET))(a1);
+		return ((::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>*(*)(::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_73078F35019A0216_METHOD_1_9F8FBC77C4D1CF52_OFFSET))(a1);
 	}
 
 	static ::System::Byte Method_1_FFE8006EE5A4CCE2(::System::String* a1, ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>* a2, ::System::Boolean a3, ::System::Boolean a4)

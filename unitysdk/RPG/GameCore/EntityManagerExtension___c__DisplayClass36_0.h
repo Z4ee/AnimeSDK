@@ -1,0 +1,38 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+namespace RPG::Client::Pet { class IPetAppearance; }
+namespace RPG::GameCore { class CharacterModelComponent; }
+namespace RPG::GameCore { class GameEntity; }
+
+#define RPG_GAMECORE_ENTITYMANAGEREXTENSION___C__DISPLAYCLASS36_0__CLIENTCREATEUI3DPETENTITY_B__0_OFFSET UNITYSDK_OFFSET(0xE6592A0)
+#define RPG_GAMECORE_ENTITYMANAGEREXTENSION___C__DISPLAYCLASS36_0__CLIENTCREATEUI3DPETENTITY_B__1_OFFSET UNITYSDK_OFFSET(0xE659420)
+#define RPG_GAMECORE_ENTITYMANAGEREXTENSION___C__DISPLAYCLASS36_0__CTOR_OFFSET UNITYSDK_OFFSET(0xE63E920)
+
+namespace RPG::GameCore
+{
+	inline static constexpr unsigned int EntityManagerExtension___c__DisplayClass36_0_TypeDefinitionIndex = 57781;
+
+	class EntityManagerExtension___c__DisplayClass36_0 : public ::System::Object
+	{
+	public:
+		::RPG::Client::Pet::IPetAppearance* appearance; // 0x10
+		::RPG::GameCore::CharacterModelComponent* modelCmpt; // 0x18
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTITYMANAGEREXTENSION___C__DISPLAYCLASS36_0__CTOR_OFFSET))(this);
+		}
+
+		::System::Void _ClientCreateUI3DPetEntity_b__0(::RPG::GameCore::GameEntity* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTITYMANAGEREXTENSION___C__DISPLAYCLASS36_0__CLIENTCREATEUI3DPETENTITY_B__0_OFFSET))(this, a1);
+		}
+
+		::System::Void _ClientCreateUI3DPetEntity_b__1(::RPG::GameCore::GameEntity* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTITYMANAGEREXTENSION___C__DISPLAYCLASS36_0__CLIENTCREATEUI3DPETENTITY_B__1_OFFSET))(this, a1);
+		}
+	};
+}

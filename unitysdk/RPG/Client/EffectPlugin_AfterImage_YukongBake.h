@@ -7,13 +7,13 @@ namespace RPG::Client { class Effect_AfterImageNew; }
 namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
 
-#define RPG_CLIENT_EFFECTPLUGIN_AFTERIMAGE_YUKONGBAKE_ALLOWBAKEMESH_OFFSET UNITYSDK_OFFSET(0x1A6A8480)
-#define RPG_CLIENT_EFFECTPLUGIN_AFTERIMAGE_YUKONGBAKE_AWAKE_OFFSET UNITYSDK_OFFSET(0x1A6A8390)
-#define RPG_CLIENT_EFFECTPLUGIN_AFTERIMAGE_YUKONGBAKE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A6A86B0)
+#define RPG_CLIENT_EFFECTPLUGIN_AFTERIMAGE_YUKONGBAKE_ALLOWBAKEMESH_OFFSET UNITYSDK_OFFSET(0xCD0EB40)
+#define RPG_CLIENT_EFFECTPLUGIN_AFTERIMAGE_YUKONGBAKE_AWAKE_OFFSET UNITYSDK_OFFSET(0xCD0EA50)
+#define RPG_CLIENT_EFFECTPLUGIN_AFTERIMAGE_YUKONGBAKE__CTOR_OFFSET UNITYSDK_OFFSET(0xCD0ED70)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EffectPlugin_AfterImage_YukongBake_TypeDefinitionIndex = 70382;
+	inline static constexpr unsigned int EffectPlugin_AfterImage_YukongBake_TypeDefinitionIndex = 70418;
 
 	class EffectPlugin_AfterImage_YukongBake : public ::UnityEngine::MonoBehaviour
 	{

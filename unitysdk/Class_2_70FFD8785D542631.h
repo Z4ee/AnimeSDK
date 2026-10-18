@@ -1,0 +1,93 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_34917908B7833130.h"
+#include "unitysdk/Struct_2_96F8F0A04B900A9E.h"
+
+class Class_0_16E4307DCC419505_1191;
+class Class_2_414EF9ACF8FDCBAE;
+class Class_2_B99B007CE74C0CA3_1;
+class Class_2_FC4474B61FC03225;
+namespace RPG::GameCore { class GameEntity; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define CLASS_2_70FFD8785D542631_METHOD_2_9C2A65574448D201_OFFSET UNITYSDK_OFFSET(0x15A9D980)
+#define CLASS_2_70FFD8785D542631_METHOD_2_A693F2E8D4F4A766_OFFSET UNITYSDK_OFFSET(0x15A9D6E0)
+#define CLASS_2_70FFD8785D542631_METHOD_2_CA373AA1C7054598_1_OFFSET UNITYSDK_OFFSET(0x15A9D820)
+#define CLASS_2_70FFD8785D542631_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x15A9D8E0)
+#define CLASS_2_70FFD8785D542631_METHOD_2_EDE104A2956E181A_OFFSET UNITYSDK_OFFSET(0x15A9D9F0)
+#define CLASS_2_70FFD8785D542631_METHOD_2_F289A5A170401D6B_OFFSET UNITYSDK_OFFSET(0x15A9D610)
+#define CLASS_2_70FFD8785D542631_ONACQUIRE_OFFSET UNITYSDK_OFFSET(0x15A9D730)
+#define CLASS_2_70FFD8785D542631_ONRETURN_OFFSET UNITYSDK_OFFSET(0x15A9D860)
+#define CLASS_2_70FFD8785D542631__CTOR_OFFSET UNITYSDK_OFFSET(0x15A9DA80)
+#define CLASS_2_70FFD8785D542631__ONBIND_OFFSET UNITYSDK_OFFSET(0x15A9D190)
+#define CLASS_2_70FFD8785D542631__ONDISPOSE_OFFSET UNITYSDK_OFFSET(0x15A9D920)
+
+inline static constexpr unsigned int Class_2_70FFD8785D542631_TypeDefinitionIndex = 71760;
+
+class Class_2_70FFD8785D542631 : public ::Class_1_34917908B7833130
+{
+public:
+	// static const ::System::Int32 HIABDJIMFLO = 0x1; // 0x0
+	// static const ::System::Int32 FDBMFLDGEAL = 0x2; // 0x0
+	// static const ::System::Int32 FIEOAECBMLH = 0x3; // 0x0
+	::Class_2_414EF9ACF8FDCBAE* HPBPBEEKHKN; // 0x60
+	::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_1191*>* FOFHDIOPKED; // 0x68
+	::Class_2_B99B007CE74C0CA3_1* EIPPIIAKNJO; // 0x70
+	::RPG::GameCore::GameEntity* KAKEIDJDNHJ; // 0x78
+	::Class_2_FC4474B61FC03225* PJEBEIBGIBG; // 0x80
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_70FFD8785D542631__CTOR_OFFSET))(this);
+	}
+
+	::System::Void _OnBind()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_70FFD8785D542631__ONBIND_OFFSET))(this);
+	}
+
+	::System::Void Method_2_F289A5A170401D6B(::Struct_2_96F8F0A04B900A9E a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Struct_2_96F8F0A04B900A9E))((::PBYTE)hIl2Cpp + CLASS_2_70FFD8785D542631_METHOD_2_F289A5A170401D6B_OFFSET))(this, a1);
+	}
+
+	::System::Void OnAcquire(::RPG::GameCore::GameEntity* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + CLASS_2_70FFD8785D542631_ONACQUIRE_OFFSET))(this, a1);
+	}
+
+	::System::Void OnReturn()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_70FFD8785D542631_ONRETURN_OFFSET))(this);
+	}
+
+	::System::Void Method_2_CA373AA1C7054598()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_70FFD8785D542631_METHOD_2_CA373AA1C7054598_OFFSET))(this);
+	}
+
+	::System::Void Method_2_CA373AA1C7054598_1()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_70FFD8785D542631_METHOD_2_CA373AA1C7054598_1_OFFSET))(this);
+	}
+
+	::System::Void _OnDispose()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_70FFD8785D542631__ONDISPOSE_OFFSET))(this);
+	}
+
+	::System::Void Method_2_A693F2E8D4F4A766(::RPG::GameCore::GameEntity* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + CLASS_2_70FFD8785D542631_METHOD_2_A693F2E8D4F4A766_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_9C2A65574448D201()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_70FFD8785D542631_METHOD_2_9C2A65574448D201_OFFSET))(this);
+	}
+
+	::System::Void Method_2_EDE104A2956E181A(::System::Boolean a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_2_70FFD8785D542631_METHOD_2_EDE104A2956E181A_OFFSET))(this, a1);
+	}
+};

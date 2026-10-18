@@ -5,10 +5,10 @@
 
 namespace System { template <typename T> class Action_1; }
 
-#define CLASS_1_CEA03E94A3669701_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C522E70)
-#define CLASS_1_CEA03E94A3669701__CTOR_OFFSET UNITYSDK_OFFSET(0x1C522EC0)
+#define CLASS_1_CEA03E94A3669701_CLEAR_OFFSET UNITYSDK_OFFSET(0x1CA04F00)
+#define CLASS_1_CEA03E94A3669701__CTOR_OFFSET UNITYSDK_OFFSET(0x1CA04F50)
 
-inline static constexpr unsigned int Class_1_CEA03E94A3669701_TypeDefinitionIndex = 41741;
+inline static constexpr unsigned int Class_1_CEA03E94A3669701_TypeDefinitionIndex = 43383;
 
 class Class_1_CEA03E94A3669701 : public ::System::Object
 {

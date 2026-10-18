@@ -5,9 +5,9 @@
 
 namespace RPG::Client::ActivityAlley { class AlleyPackGoodData; }
 
-#define CLASS_1_7622BCA9FBE661B1__CTOR_OFFSET UNITYSDK_OFFSET(0x17A41C50)
+#define CLASS_1_7622BCA9FBE661B1__CTOR_OFFSET UNITYSDK_OFFSET(0x15B66570)
 
-inline static constexpr unsigned int Class_1_7622BCA9FBE661B1_TypeDefinitionIndex = 74008;
+inline static constexpr unsigned int Class_1_7622BCA9FBE661B1_TypeDefinitionIndex = 74107;
 
 class Class_1_7622BCA9FBE661B1 : public ::System::Object
 {

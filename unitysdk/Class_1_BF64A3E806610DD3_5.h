@@ -2,11 +2,14 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-inline static constexpr unsigned int Class_1_BF64A3E806610DD3_5_TypeDefinitionIndex = 76222;
+class Class_0_16E4307DCC419505_1331;
+class Class_1_F1278B810B98680F;
+namespace RPG::Client::NavMap { template <typename T1, typename T2> class IGraph_2; }
+
+inline static constexpr unsigned int Class_1_BF64A3E806610DD3_5_TypeDefinitionIndex = 74535;
 
 class Class_1_BF64A3E806610DD3_5 : public ::System::Object
 {
 public:
-	// static const ::System::Int32 NLCDGIPGFDJ = 0x0; // 0x0
-	// static const ::System::Int32 LHOJKFMGJKL = 0x1; // 0x0
+	// static const ::System::Int32 ENNJBBCIEKA = 0x2710; // 0x0
 };

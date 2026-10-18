@@ -4,7 +4,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int SSRSettings_TypeDefinitionIndex = 4841;
+	inline static constexpr unsigned int SSRSettings_TypeDefinitionIndex = 4847;
 
 	struct alignas(4) SSRSettings
 	{
@@ -20,8 +20,10 @@ namespace UnityEngine::Rendering
 		::System::Boolean UsePreviousFrameColor; // 0x30
 		::System::Boolean EnableSpatialFilter; // 0x31
 		::System::Boolean EnableBilateralFilter; // 0x32
-		::System::Single TemporalStaticWeight; // 0x34
-		::System::Single TemporalDynamicWeight; // 0x38
-		::System::Single Thickness; // 0x3C
+		::System::Boolean EnableSDFTrace; // 0x33
+		::System::Int32 MaxRaysPerPixel; // 0x34
+		::System::Single TemporalStaticWeight; // 0x38
+		::System::Single TemporalDynamicWeight; // 0x3C
+		::System::Single Thickness; // 0x40
 	};
 }

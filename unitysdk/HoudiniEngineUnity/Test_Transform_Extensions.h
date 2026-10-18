@@ -6,13 +6,13 @@ namespace HoudiniEngineUnity { class Test_Transform; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-#define HOUDINIENGINEUNITY_TEST_TRANSFORM_EXTENSIONS_TOTESTOBJECT_1_OFFSET UNITYSDK_OFFSET(0x1EEF1E30)
-#define HOUDINIENGINEUNITY_TEST_TRANSFORM_EXTENSIONS_TOTESTOBJECT_2_OFFSET UNITYSDK_OFFSET(0x1EEF1F50)
-#define HOUDINIENGINEUNITY_TEST_TRANSFORM_EXTENSIONS_TOTESTOBJECT_OFFSET UNITYSDK_OFFSET(0x1EEF1DF0)
+#define HOUDINIENGINEUNITY_TEST_TRANSFORM_EXTENSIONS_TOTESTOBJECT_1_OFFSET UNITYSDK_OFFSET(0x1B996FA0)
+#define HOUDINIENGINEUNITY_TEST_TRANSFORM_EXTENSIONS_TOTESTOBJECT_2_OFFSET UNITYSDK_OFFSET(0x1B9970C0)
+#define HOUDINIENGINEUNITY_TEST_TRANSFORM_EXTENSIONS_TOTESTOBJECT_OFFSET UNITYSDK_OFFSET(0x1B996F60)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int Test_Transform_Extensions_TypeDefinitionIndex = 39417;
+	inline static constexpr unsigned int Test_Transform_Extensions_TypeDefinitionIndex = 40714;
 
 	class Test_Transform_Extensions : public ::System::Object
 	{

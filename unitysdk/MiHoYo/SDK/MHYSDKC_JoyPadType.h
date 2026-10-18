@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MHYSDKC_JoyPadType_TypeDefinitionIndex = 46655;
+	inline static constexpr unsigned int MHYSDKC_JoyPadType_TypeDefinitionIndex = 46206;
 
 	class MHYSDKC_JoyPadType : public ::System::Object
 	{

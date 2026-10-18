@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TriggerHitPropClientMode_TypeDefinitionIndex = 24207;
+	inline static constexpr unsigned int TriggerHitPropClientMode_TypeDefinitionIndex = 24486;
 
 	enum class TriggerHitPropClientMode : ::System::Int32
 	{

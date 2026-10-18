@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int TextAsset_CreateOptions_TypeDefinitionIndex = 4348;
+	inline static constexpr unsigned int TextAsset_CreateOptions_TypeDefinitionIndex = 4351;
 
 	enum class TextAsset_CreateOptions : ::System::Int32
 	{

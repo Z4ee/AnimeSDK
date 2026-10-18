@@ -4,20 +4,20 @@
 
 namespace MiHoYo::SDK::Protobuf::Reflection { class DescriptorProto_Types_ReservedRange; }
 
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_DESCRIPTORPROTO_TYPES_RESERVEDRANGE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B0E37A0)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_DESCRIPTORPROTO_TYPES_RESERVEDRANGE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0E37E0)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_DESCRIPTORPROTO_TYPES_RESERVEDRANGE___C___CCTOR_B__29_0_OFFSET UNITYSDK_OFFSET(0x1B0E37F0)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_DESCRIPTORPROTO_TYPES_RESERVEDRANGE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BBD28C0)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_DESCRIPTORPROTO_TYPES_RESERVEDRANGE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1BBD2900)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_DESCRIPTORPROTO_TYPES_RESERVEDRANGE___C___CCTOR_B__29_0_OFFSET UNITYSDK_OFFSET(0x1BBD2910)
 
 namespace MiHoYo::SDK::Protobuf::Reflection
 {
-	inline static constexpr unsigned int DescriptorProto_Types_ReservedRange___c_TypeDefinitionIndex = 35098;
+	inline static constexpr unsigned int DescriptorProto_Types_ReservedRange___c_TypeDefinitionIndex = 35767;
 
 	class DescriptorProto_Types_ReservedRange___c : public ::System::Object
 	{
 	public:
 		static ::MiHoYo::SDK::Protobuf::Reflection::DescriptorProto_Types_ReservedRange___c** StaticGet___9()
 		{
-			return (::MiHoYo::SDK::Protobuf::Reflection::DescriptorProto_Types_ReservedRange___c**)Il2CppClass::FromTypeDefinitionIndex(DescriptorProto_Types_ReservedRange___c_TypeDefinitionIndex)->GetStaticField(0x490B0);
+			return (::MiHoYo::SDK::Protobuf::Reflection::DescriptorProto_Types_ReservedRange___c**)Il2CppClass::FromTypeDefinitionIndex(DescriptorProto_Types_ReservedRange___c_TypeDefinitionIndex)->GetStaticField(0x5D8D0);
 		}
 
 		static ::System::Void _cctor()

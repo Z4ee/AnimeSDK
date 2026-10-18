@@ -5,9 +5,9 @@
 namespace System { template <typename T> class Func_1; }
 namespace System::Threading { class ManualResetEvent; }
 
-#define SYSTEM_IO_STREAM_SYNCHRONOUSASYNCRESULT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D46F640)
-#define SYSTEM_IO_STREAM_SYNCHRONOUSASYNCRESULT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1D46F680)
-#define SYSTEM_IO_STREAM_SYNCHRONOUSASYNCRESULT___C__GET_ASYNCWAITHANDLE_B__12_0_OFFSET UNITYSDK_OFFSET(0x1D46F690)
+#define SYSTEM_IO_STREAM_SYNCHRONOUSASYNCRESULT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C23BA50)
+#define SYSTEM_IO_STREAM_SYNCHRONOUSASYNCRESULT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1C23BA90)
+#define SYSTEM_IO_STREAM_SYNCHRONOUSASYNCRESULT___C__GET_ASYNCWAITHANDLE_B__12_0_OFFSET UNITYSDK_OFFSET(0x1C23BAA0)
 
 namespace System::IO
 {
@@ -18,11 +18,11 @@ namespace System::IO
 	public:
 		static ::System::IO::Stream_SynchronousAsyncResult___c** StaticGet___9()
 		{
-			return (::System::IO::Stream_SynchronousAsyncResult___c**)Il2CppClass::FromTypeDefinitionIndex(Stream_SynchronousAsyncResult___c_TypeDefinitionIndex)->GetStaticField(0xC850);
+			return (::System::IO::Stream_SynchronousAsyncResult___c**)Il2CppClass::FromTypeDefinitionIndex(Stream_SynchronousAsyncResult___c_TypeDefinitionIndex)->GetStaticField(0x1AA70);
 		}
 		static ::System::Func_1<::System::Threading::ManualResetEvent*>** StaticGet___9__12_0()
 		{
-			return (::System::Func_1<::System::Threading::ManualResetEvent*>**)Il2CppClass::FromTypeDefinitionIndex(Stream_SynchronousAsyncResult___c_TypeDefinitionIndex)->GetStaticField(0xC858);
+			return (::System::Func_1<::System::Threading::ManualResetEvent*>**)Il2CppClass::FromTypeDefinitionIndex(Stream_SynchronousAsyncResult___c_TypeDefinitionIndex)->GetStaticField(0x1AA78);
 		}
 
 		static ::System::Void _cctor()

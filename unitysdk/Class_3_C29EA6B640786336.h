@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetEmoGraphAlwaysEvaluate; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_C29EA6B640786336_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x186CD500)
-#define CLASS_3_C29EA6B640786336__CTOR_OFFSET UNITYSDK_OFFSET(0x186CD4D0)
+#define CLASS_3_C29EA6B640786336_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16409670)
+#define CLASS_3_C29EA6B640786336__CTOR_OFFSET UNITYSDK_OFFSET(0x16409640)
 
-inline static constexpr unsigned int Class_3_C29EA6B640786336_TypeDefinitionIndex = 56080;
+inline static constexpr unsigned int Class_3_C29EA6B640786336_TypeDefinitionIndex = 55892;
 
 class Class_3_C29EA6B640786336 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetEmoGraphAlwaysEvaluate*>
 {

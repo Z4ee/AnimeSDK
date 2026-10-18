@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Security/Cryptography/AsymmetricSignatureFormatter.h"
 
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_RSAPKCS1SIGNATUREFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x166BB720)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_RSAPKCS1SIGNATUREFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C0A7570)
 
 namespace System::Security::Cryptography
 {

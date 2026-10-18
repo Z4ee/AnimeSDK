@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_SERVERSTOPINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF79240)
+#define RPG_CLIENT_SERVERSTOPINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xE0A7CB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ServerStopInfo_TypeDefinitionIndex = 69377;
+	inline static constexpr unsigned int ServerStopInfo_TypeDefinitionIndex = 69413;
 
 	class ServerStopInfo : public ::System::Object
 	{

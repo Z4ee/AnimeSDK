@@ -2,34 +2,34 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_176971BF7FCA1F10;
+class Class_2_F9D2DAC0C372386C;
 namespace RPG::GameCore { class AIGlobalVarsConfig; }
 namespace RPG::GameCore { class ComplexSkillAIFactorGroup; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_289B583C0168995C_METHOD_1_12340FD2FA41D544_OFFSET UNITYSDK_OFFSET(0x177C44E0)
-#define CLASS_1_289B583C0168995C_METHOD_1_33ACA6CB2ABC73F7_OFFSET UNITYSDK_OFFSET(0x177C4730)
-#define CLASS_1_289B583C0168995C_METHOD_1_33BE208E9812B600_OFFSET UNITYSDK_OFFSET(0x177C4A00)
-#define CLASS_1_289B583C0168995C_METHOD_1_518C6F1B8C5A6FFD_OFFSET UNITYSDK_OFFSET(0x177C4B00)
-#define CLASS_1_289B583C0168995C_METHOD_1_5B678B7A7A41603D_OFFSET UNITYSDK_OFFSET(0x177C4540)
-#define CLASS_1_289B583C0168995C_METHOD_1_82E992240300FB30_OFFSET UNITYSDK_OFFSET(0x177C4350)
-#define CLASS_1_289B583C0168995C_METHOD_1_CE18697B63E52504_OFFSET UNITYSDK_OFFSET(0x177C4D50)
-#define CLASS_1_289B583C0168995C_METHOD_1_FCB175EE4400634C_OFFSET UNITYSDK_OFFSET(0x177C4800)
-#define CLASS_1_289B583C0168995C__CCTOR_OFFSET UNITYSDK_OFFSET(0x177C4DD0)
+#define CLASS_1_289B583C0168995C_METHOD_1_33ACA6CB2ABC73F7_OFFSET UNITYSDK_OFFSET(0x16563FE0)
+#define CLASS_1_289B583C0168995C_METHOD_1_4FBF7C35D211BF3B_OFFSET UNITYSDK_OFFSET(0x165642B0)
+#define CLASS_1_289B583C0168995C_METHOD_1_518C6F1B8C5A6FFD_OFFSET UNITYSDK_OFFSET(0x16564440)
+#define CLASS_1_289B583C0168995C_METHOD_1_5B678B7A7A41603D_OFFSET UNITYSDK_OFFSET(0x16563DF0)
+#define CLASS_1_289B583C0168995C_METHOD_1_82E992240300FB30_OFFSET UNITYSDK_OFFSET(0x16563C00)
+#define CLASS_1_289B583C0168995C_METHOD_1_BBDFC34BA3BAC7CD_OFFSET UNITYSDK_OFFSET(0x16563D90)
+#define CLASS_1_289B583C0168995C_METHOD_1_CE18697B63E52504_OFFSET UNITYSDK_OFFSET(0x16564640)
+#define CLASS_1_289B583C0168995C_METHOD_1_FCB175EE4400634C_OFFSET UNITYSDK_OFFSET(0x165640B0)
+#define CLASS_1_289B583C0168995C__CCTOR_OFFSET UNITYSDK_OFFSET(0x165646C0)
 
-inline static constexpr unsigned int Class_1_289B583C0168995C_TypeDefinitionIndex = 56669;
+inline static constexpr unsigned int Class_1_289B583C0168995C_TypeDefinitionIndex = 56484;
 
 class Class_1_289B583C0168995C : public ::System::Object
 {
 public:
-	static ::System::Collections::Generic::Dictionary_2<::System::String*, ::Class_1_176971BF7FCA1F10*>** StaticGet_ENICAPCDPEK()
-	{
-		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::Class_1_176971BF7FCA1F10*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_289B583C0168995C_TypeDefinitionIndex)->GetStaticField(0x3D9E0);
-	}
 	static ::RPG::GameCore::AIGlobalVarsConfig** StaticGet_PBMPIJFLNIA()
 	{
-		return (::RPG::GameCore::AIGlobalVarsConfig**)Il2CppClass::FromTypeDefinitionIndex(Class_1_289B583C0168995C_TypeDefinitionIndex)->GetStaticField(0x3D9E8);
+		return (::RPG::GameCore::AIGlobalVarsConfig**)Il2CppClass::FromTypeDefinitionIndex(Class_1_289B583C0168995C_TypeDefinitionIndex)->GetStaticField(0x69F30);
+	}
+	static ::System::Collections::Generic::Dictionary_2<::System::String*, ::Class_2_F9D2DAC0C372386C*>** StaticGet_ENICAPCDPEK()
+	{
+		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::Class_2_F9D2DAC0C372386C*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_289B583C0168995C_TypeDefinitionIndex)->GetStaticField(0x69F38);
 	}
 
 	static ::System::Void _cctor()
@@ -52,9 +52,9 @@ public:
 		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CLASS_1_289B583C0168995C_METHOD_1_33ACA6CB2ABC73F7_OFFSET))();
 	}
 
-	static ::RPG::GameCore::ComplexSkillAIFactorGroup* Method_1_33BE208E9812B600(::System::String* a1)
+	static ::RPG::GameCore::ComplexSkillAIFactorGroup* Method_1_4FBF7C35D211BF3B(::System::String* a1)
 	{
-		return ((::RPG::GameCore::ComplexSkillAIFactorGroup*(*)(::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_289B583C0168995C_METHOD_1_33BE208E9812B600_OFFSET))(a1);
+		return ((::RPG::GameCore::ComplexSkillAIFactorGroup*(*)(::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_289B583C0168995C_METHOD_1_4FBF7C35D211BF3B_OFFSET))(a1);
 	}
 
 	static ::System::Void Method_1_FCB175EE4400634C()
@@ -62,9 +62,9 @@ public:
 		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CLASS_1_289B583C0168995C_METHOD_1_FCB175EE4400634C_OFFSET))();
 	}
 
-	static ::System::Void Method_1_12340FD2FA41D544(::System::String* a1)
+	static ::System::Void Method_1_BBDFC34BA3BAC7CD(::System::String* a1)
 	{
-		return ((::System::Void(*)(::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_289B583C0168995C_METHOD_1_12340FD2FA41D544_OFFSET))(a1);
+		return ((::System::Void(*)(::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_289B583C0168995C_METHOD_1_BBDFC34BA3BAC7CD_OFFSET))(a1);
 	}
 
 	static ::System::Void Method_1_518C6F1B8C5A6FFD(::System::String* a1)

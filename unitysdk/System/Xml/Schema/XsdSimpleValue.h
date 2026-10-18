@@ -4,8 +4,8 @@
 
 namespace System::Xml::Schema { class XmlSchemaSimpleType; }
 
-#define SYSTEM_XML_SCHEMA_XSDSIMPLEVALUE_GET_TYPEDVALUE_OFFSET UNITYSDK_OFFSET(0x1B084C40)
-#define SYSTEM_XML_SCHEMA_XSDSIMPLEVALUE_GET_XMLTYPE_OFFSET UNITYSDK_OFFSET(0x1B084C30)
+#define SYSTEM_XML_SCHEMA_XSDSIMPLEVALUE_GET_TYPEDVALUE_OFFSET UNITYSDK_OFFSET(0x1EEC58C0)
+#define SYSTEM_XML_SCHEMA_XSDSIMPLEVALUE_GET_XMLTYPE_OFFSET UNITYSDK_OFFSET(0x1EEC58B0)
 
 namespace System::Xml::Schema
 {
@@ -14,8 +14,8 @@ namespace System::Xml::Schema
 	class XsdSimpleValue : public ::System::Object
 	{
 	public:
-		::System::Xml::Schema::XmlSchemaSimpleType* xmlType; // 0x10
-		::System::Object* typedValue; // 0x18
+		::System::Object* typedValue; // 0x10
+		::System::Xml::Schema::XmlSchemaSimpleType* xmlType; // 0x18
 
 		::System::Xml::Schema::XmlSchemaSimpleType* get_XmlType()
 		{

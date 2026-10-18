@@ -5,17 +5,17 @@
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class SkillData; }
 
-#define CLASS_1_A647891BD35413FE_CLEAR_OFFSET UNITYSDK_OFFSET(0x178BC680)
-#define CLASS_1_A647891BD35413FE_METHOD_1_7A2DB6C2ED8E8BBA_OFFSET UNITYSDK_OFFSET(0x178BC620)
-#define CLASS_1_A647891BD35413FE__CTOR_OFFSET UNITYSDK_OFFSET(0x178BC6D0)
+#define CLASS_1_A647891BD35413FE_CLEAR_OFFSET UNITYSDK_OFFSET(0xBE89840)
+#define CLASS_1_A647891BD35413FE_METHOD_1_7A2DB6C2ED8E8BBA_OFFSET UNITYSDK_OFFSET(0xBE897E0)
+#define CLASS_1_A647891BD35413FE__CTOR_OFFSET UNITYSDK_OFFSET(0xBE89890)
 
-inline static constexpr unsigned int Class_1_A647891BD35413FE_TypeDefinitionIndex = 55447;
+inline static constexpr unsigned int Class_1_A647891BD35413FE_TypeDefinitionIndex = 55246;
 
 class Class_1_A647891BD35413FE : public ::System::Object
 {
 public:
-	::RPG::GameCore::GameEntity* MCLLALGABAB; // 0x10
-	::RPG::GameCore::SkillData* IJGAPCNDIAG; // 0x18
+	::RPG::GameCore::SkillData* IJGAPCNDIAG; // 0x10
+	::RPG::GameCore::GameEntity* MCLLALGABAB; // 0x18
 
 	::System::Void _ctor()
 	{

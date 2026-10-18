@@ -6,12 +6,12 @@ namespace RPG::CustomRP { class CustomPostProcessData_CustomShaderResources; }
 namespace RPG::CustomRP { class CustomPostProcessData_CustomTextureResources; }
 namespace RPG::CustomRP { class CustomPostProcessData_CustomUIShaderResources; }
 
-#define RPG_CUSTOMRP_CUSTOMPOSTPROCESSDATA_RELOADRES_OFFSET UNITYSDK_OFFSET(0x192CEE10)
-#define RPG_CUSTOMRP_CUSTOMPOSTPROCESSDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x192CEE20)
+#define RPG_CUSTOMRP_CUSTOMPOSTPROCESSDATA_RELOADRES_OFFSET UNITYSDK_OFFSET(0x1CBF4EB0)
+#define RPG_CUSTOMRP_CUSTOMPOSTPROCESSDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1CBF4EC0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int CustomPostProcessData_TypeDefinitionIndex = 37084;
+	inline static constexpr unsigned int CustomPostProcessData_TypeDefinitionIndex = 37769;
 
 	class CustomPostProcessData : public ::UnityEngine::ScriptableObject
 	{

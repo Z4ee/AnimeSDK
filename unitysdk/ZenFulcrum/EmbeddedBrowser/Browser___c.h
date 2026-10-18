@@ -12,106 +12,106 @@ namespace UnityEngine { class Texture2D; }
 namespace ZenFulcrum::EmbeddedBrowser { class Browser; }
 namespace ZenFulcrum::EmbeddedBrowser { class JSONNode; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C__AWAKE_B__158_1_OFFSET UNITYSDK_OFFSET(0x1C7D6980)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C7D6940)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1C7D6970)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CCTOR_B__252_0_OFFSET UNITYSDK_OFFSET(0x1C7D6A90)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CCTOR_B__252_1_OFFSET UNITYSDK_OFFSET(0x1C7D6AA0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CTOR_B__251_0_OFFSET UNITYSDK_OFFSET(0x1C7D6990)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CTOR_B__251_10_OFFSET UNITYSDK_OFFSET(0x1C7D6A30)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CTOR_B__251_11_OFFSET UNITYSDK_OFFSET(0x1C7D6A40)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CTOR_B__251_12_OFFSET UNITYSDK_OFFSET(0x1C7D6A50)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CTOR_B__251_13_OFFSET UNITYSDK_OFFSET(0x1C7D6A60)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CTOR_B__251_14_OFFSET UNITYSDK_OFFSET(0x1C7D6A70)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CTOR_B__251_15_OFFSET UNITYSDK_OFFSET(0x1C7D6A80)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CTOR_B__251_1_OFFSET UNITYSDK_OFFSET(0x1C7D69A0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CTOR_B__251_2_OFFSET UNITYSDK_OFFSET(0x1C7D69B0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CTOR_B__251_3_OFFSET UNITYSDK_OFFSET(0x1C7D69C0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CTOR_B__251_4_OFFSET UNITYSDK_OFFSET(0x1C7D69D0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CTOR_B__251_5_OFFSET UNITYSDK_OFFSET(0x1C7D69E0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CTOR_B__251_6_OFFSET UNITYSDK_OFFSET(0x1C7D69F0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CTOR_B__251_7_OFFSET UNITYSDK_OFFSET(0x1C7D6A00)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CTOR_B__251_8_OFFSET UNITYSDK_OFFSET(0x1C7D6A10)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CTOR_B__251_9_OFFSET UNITYSDK_OFFSET(0x1C7D6A20)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C__AWAKE_B__158_1_OFFSET UNITYSDK_OFFSET(0x1F618E20)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F618DE0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1F618E10)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CCTOR_B__255_0_OFFSET UNITYSDK_OFFSET(0x1F618F30)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CCTOR_B__255_1_OFFSET UNITYSDK_OFFSET(0x1F618F40)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CTOR_B__254_0_OFFSET UNITYSDK_OFFSET(0x1F618E30)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CTOR_B__254_10_OFFSET UNITYSDK_OFFSET(0x1F618ED0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CTOR_B__254_11_OFFSET UNITYSDK_OFFSET(0x1F618EE0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CTOR_B__254_12_OFFSET UNITYSDK_OFFSET(0x1F618EF0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CTOR_B__254_13_OFFSET UNITYSDK_OFFSET(0x1F618F00)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CTOR_B__254_14_OFFSET UNITYSDK_OFFSET(0x1F618F10)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CTOR_B__254_15_OFFSET UNITYSDK_OFFSET(0x1F618F20)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CTOR_B__254_1_OFFSET UNITYSDK_OFFSET(0x1F618E40)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CTOR_B__254_2_OFFSET UNITYSDK_OFFSET(0x1F618E50)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CTOR_B__254_3_OFFSET UNITYSDK_OFFSET(0x1F618E60)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CTOR_B__254_4_OFFSET UNITYSDK_OFFSET(0x1F618E70)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CTOR_B__254_5_OFFSET UNITYSDK_OFFSET(0x1F618E80)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CTOR_B__254_6_OFFSET UNITYSDK_OFFSET(0x1F618E90)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CTOR_B__254_7_OFFSET UNITYSDK_OFFSET(0x1F618EA0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CTOR_B__254_8_OFFSET UNITYSDK_OFFSET(0x1F618EB0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CTOR_B__254_9_OFFSET UNITYSDK_OFFSET(0x1F618EC0)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int Browser___c_TypeDefinitionIndex = 38040;
+	inline static constexpr unsigned int Browser___c_TypeDefinitionIndex = 39337;
 
 	class Browser___c : public ::System::Object
 	{
 	public:
-		static ::System::Action_4<::System::Int32, ::System::Int32, ::System::Int64, ::System::Int64>** StaticGet___9__251_10()
+		static ::System::Action** StaticGet___9__254_8()
 		{
-			return (::System::Action_4<::System::Int32, ::System::Int32, ::System::Int64, ::System::Int64>**)Il2CppClass::FromTypeDefinitionIndex(Browser___c_TypeDefinitionIndex)->GetStaticField(0x472B0);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(Browser___c_TypeDefinitionIndex)->GetStaticField(0x413B0);
 		}
-		static ::System::Action_3<::System::String*, ::System::Boolean, ::System::String*>** StaticGet___9__251_12()
+		static ::System::Action_2<::System::Boolean, ::System::Boolean>** StaticGet___9__254_15()
 		{
-			return (::System::Action_3<::System::String*, ::System::Boolean, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Browser___c_TypeDefinitionIndex)->GetStaticField(0x472B8);
+			return (::System::Action_2<::System::Boolean, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Browser___c_TypeDefinitionIndex)->GetStaticField(0x413B8);
 		}
-		static ::System::Action_2<::System::String*, ::System::String*>** StaticGet___9__251_0()
+		static ::System::Action_2<::System::Int32, ::ZenFulcrum::EmbeddedBrowser::JSONNode*>** StaticGet___9__254_11()
 		{
-			return (::System::Action_2<::System::String*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Browser___c_TypeDefinitionIndex)->GetStaticField(0x472C0);
+			return (::System::Action_2<::System::Int32, ::ZenFulcrum::EmbeddedBrowser::JSONNode*>**)Il2CppClass::FromTypeDefinitionIndex(Browser___c_TypeDefinitionIndex)->GetStaticField(0x413C0);
+		}
+		static ::System::Action_2<::System::String*, ::System::String*>** StaticGet___9__254_0()
+		{
+			return (::System::Action_2<::System::String*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Browser___c_TypeDefinitionIndex)->GetStaticField(0x413C8);
+		}
+		static ::System::Action_1<::ZenFulcrum::EmbeddedBrowser::JSONNode*>** StaticGet___9__254_2()
+		{
+			return (::System::Action_1<::ZenFulcrum::EmbeddedBrowser::JSONNode*>**)Il2CppClass::FromTypeDefinitionIndex(Browser___c_TypeDefinitionIndex)->GetStaticField(0x413D0);
 		}
 		static ::ZenFulcrum::EmbeddedBrowser::Browser___c** StaticGet___9()
 		{
-			return (::ZenFulcrum::EmbeddedBrowser::Browser___c**)Il2CppClass::FromTypeDefinitionIndex(Browser___c_TypeDefinitionIndex)->GetStaticField(0x472C8);
+			return (::ZenFulcrum::EmbeddedBrowser::Browser___c**)Il2CppClass::FromTypeDefinitionIndex(Browser___c_TypeDefinitionIndex)->GetStaticField(0x413D8);
+		}
+		static ::System::Action_1<::ZenFulcrum::EmbeddedBrowser::JSONNode*>** StaticGet___9__254_14()
+		{
+			return (::System::Action_1<::ZenFulcrum::EmbeddedBrowser::JSONNode*>**)Il2CppClass::FromTypeDefinitionIndex(Browser___c_TypeDefinitionIndex)->GetStaticField(0x413E0);
+		}
+		static ::System::Action_1<::UnityEngine::Texture2D*>** StaticGet___9__254_1()
+		{
+			return (::System::Action_1<::UnityEngine::Texture2D*>**)Il2CppClass::FromTypeDefinitionIndex(Browser___c_TypeDefinitionIndex)->GetStaticField(0x413E8);
+		}
+		static ::System::Action_1<::ZenFulcrum::EmbeddedBrowser::JSONNode*>** StaticGet___9__254_5()
+		{
+			return (::System::Action_1<::ZenFulcrum::EmbeddedBrowser::JSONNode*>**)Il2CppClass::FromTypeDefinitionIndex(Browser___c_TypeDefinitionIndex)->GetStaticField(0x413F0);
+		}
+		static ::System::Action_1<::ZenFulcrum::EmbeddedBrowser::JSONNode*>** StaticGet___9__254_6()
+		{
+			return (::System::Action_1<::ZenFulcrum::EmbeddedBrowser::JSONNode*>**)Il2CppClass::FromTypeDefinitionIndex(Browser___c_TypeDefinitionIndex)->GetStaticField(0x413F8);
+		}
+		static ::System::Action_1<::ZenFulcrum::EmbeddedBrowser::JSONNode*>** StaticGet___9__254_3()
+		{
+			return (::System::Action_1<::ZenFulcrum::EmbeddedBrowser::JSONNode*>**)Il2CppClass::FromTypeDefinitionIndex(Browser___c_TypeDefinitionIndex)->GetStaticField(0x41400);
+		}
+		static ::System::Action_4<::System::Int32, ::System::Int32, ::System::Int64, ::System::Int64>** StaticGet___9__254_10()
+		{
+			return (::System::Action_4<::System::Int32, ::System::Int32, ::System::Int64, ::System::Int64>**)Il2CppClass::FromTypeDefinitionIndex(Browser___c_TypeDefinitionIndex)->GetStaticField(0x41408);
+		}
+		static ::System::Action_1<::ZenFulcrum::EmbeddedBrowser::JSONNode*>** StaticGet___9__254_13()
+		{
+			return (::System::Action_1<::ZenFulcrum::EmbeddedBrowser::JSONNode*>**)Il2CppClass::FromTypeDefinitionIndex(Browser___c_TypeDefinitionIndex)->GetStaticField(0x41410);
+		}
+		static ::System::Action_3<::System::String*, ::System::Boolean, ::System::String*>** StaticGet___9__254_12()
+		{
+			return (::System::Action_3<::System::String*, ::System::Boolean, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Browser___c_TypeDefinitionIndex)->GetStaticField(0x41418);
+		}
+		static ::System::Action** StaticGet___9__254_7()
+		{
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(Browser___c_TypeDefinitionIndex)->GetStaticField(0x41420);
+		}
+		static ::System::Action_1<::ZenFulcrum::EmbeddedBrowser::JSONNode*>** StaticGet___9__254_4()
+		{
+			return (::System::Action_1<::ZenFulcrum::EmbeddedBrowser::JSONNode*>**)Il2CppClass::FromTypeDefinitionIndex(Browser___c_TypeDefinitionIndex)->GetStaticField(0x41428);
 		}
 		static ::System::Action_2<::System::String*, ::System::String*>** StaticGet___9__158_1()
 		{
-			return (::System::Action_2<::System::String*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Browser___c_TypeDefinitionIndex)->GetStaticField(0x472D0);
+			return (::System::Action_2<::System::String*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Browser___c_TypeDefinitionIndex)->GetStaticField(0x41430);
 		}
-		static ::System::Action_2<::System::Boolean, ::System::Boolean>** StaticGet___9__251_15()
+		static ::System::Action** StaticGet___9__254_9()
 		{
-			return (::System::Action_2<::System::Boolean, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Browser___c_TypeDefinitionIndex)->GetStaticField(0x472D8);
-		}
-		static ::System::Action** StaticGet___9__251_7()
-		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(Browser___c_TypeDefinitionIndex)->GetStaticField(0x472E0);
-		}
-		static ::System::Action** StaticGet___9__251_9()
-		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(Browser___c_TypeDefinitionIndex)->GetStaticField(0x472E8);
-		}
-		static ::System::Action_1<::ZenFulcrum::EmbeddedBrowser::JSONNode*>** StaticGet___9__251_3()
-		{
-			return (::System::Action_1<::ZenFulcrum::EmbeddedBrowser::JSONNode*>**)Il2CppClass::FromTypeDefinitionIndex(Browser___c_TypeDefinitionIndex)->GetStaticField(0x472F0);
-		}
-		static ::System::Action_1<::ZenFulcrum::EmbeddedBrowser::JSONNode*>** StaticGet___9__251_6()
-		{
-			return (::System::Action_1<::ZenFulcrum::EmbeddedBrowser::JSONNode*>**)Il2CppClass::FromTypeDefinitionIndex(Browser___c_TypeDefinitionIndex)->GetStaticField(0x472F8);
-		}
-		static ::System::Action_1<::ZenFulcrum::EmbeddedBrowser::JSONNode*>** StaticGet___9__251_2()
-		{
-			return (::System::Action_1<::ZenFulcrum::EmbeddedBrowser::JSONNode*>**)Il2CppClass::FromTypeDefinitionIndex(Browser___c_TypeDefinitionIndex)->GetStaticField(0x47300);
-		}
-		static ::System::Action_1<::ZenFulcrum::EmbeddedBrowser::JSONNode*>** StaticGet___9__251_4()
-		{
-			return (::System::Action_1<::ZenFulcrum::EmbeddedBrowser::JSONNode*>**)Il2CppClass::FromTypeDefinitionIndex(Browser___c_TypeDefinitionIndex)->GetStaticField(0x47308);
-		}
-		static ::System::Action_1<::UnityEngine::Texture2D*>** StaticGet___9__251_1()
-		{
-			return (::System::Action_1<::UnityEngine::Texture2D*>**)Il2CppClass::FromTypeDefinitionIndex(Browser___c_TypeDefinitionIndex)->GetStaticField(0x47310);
-		}
-		static ::System::Action_1<::ZenFulcrum::EmbeddedBrowser::JSONNode*>** StaticGet___9__251_13()
-		{
-			return (::System::Action_1<::ZenFulcrum::EmbeddedBrowser::JSONNode*>**)Il2CppClass::FromTypeDefinitionIndex(Browser___c_TypeDefinitionIndex)->GetStaticField(0x47318);
-		}
-		static ::System::Action_2<::System::Int32, ::ZenFulcrum::EmbeddedBrowser::JSONNode*>** StaticGet___9__251_11()
-		{
-			return (::System::Action_2<::System::Int32, ::ZenFulcrum::EmbeddedBrowser::JSONNode*>**)Il2CppClass::FromTypeDefinitionIndex(Browser___c_TypeDefinitionIndex)->GetStaticField(0x47320);
-		}
-		static ::System::Action** StaticGet___9__251_8()
-		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(Browser___c_TypeDefinitionIndex)->GetStaticField(0x47328);
-		}
-		static ::System::Action_1<::ZenFulcrum::EmbeddedBrowser::JSONNode*>** StaticGet___9__251_5()
-		{
-			return (::System::Action_1<::ZenFulcrum::EmbeddedBrowser::JSONNode*>**)Il2CppClass::FromTypeDefinitionIndex(Browser___c_TypeDefinitionIndex)->GetStaticField(0x47330);
-		}
-		static ::System::Action_1<::ZenFulcrum::EmbeddedBrowser::JSONNode*>** StaticGet___9__251_14()
-		{
-			return (::System::Action_1<::ZenFulcrum::EmbeddedBrowser::JSONNode*>**)Il2CppClass::FromTypeDefinitionIndex(Browser___c_TypeDefinitionIndex)->GetStaticField(0x47338);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(Browser___c_TypeDefinitionIndex)->GetStaticField(0x41438);
 		}
 
 		static ::System::Void _cctor()
@@ -129,94 +129,94 @@ namespace ZenFulcrum::EmbeddedBrowser
 			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C__AWAKE_B__158_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void __ctor_b__251_0(::System::String* a1, ::System::String* a2)
+		::System::Void __ctor_b__254_0(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CTOR_B__251_0_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CTOR_B__254_0_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void __ctor_b__251_1(::UnityEngine::Texture2D* a1)
+		::System::Void __ctor_b__254_1(::UnityEngine::Texture2D* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Texture2D*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CTOR_B__251_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Texture2D*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CTOR_B__254_1_OFFSET))(this, a1);
 		}
 
-		::System::Void __ctor_b__251_2(::ZenFulcrum::EmbeddedBrowser::JSONNode* a1)
+		::System::Void __ctor_b__254_2(::ZenFulcrum::EmbeddedBrowser::JSONNode* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::ZenFulcrum::EmbeddedBrowser::JSONNode*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CTOR_B__251_2_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::ZenFulcrum::EmbeddedBrowser::JSONNode*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CTOR_B__254_2_OFFSET))(this, a1);
 		}
 
-		::System::Void __ctor_b__251_3(::ZenFulcrum::EmbeddedBrowser::JSONNode* a1)
+		::System::Void __ctor_b__254_3(::ZenFulcrum::EmbeddedBrowser::JSONNode* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::ZenFulcrum::EmbeddedBrowser::JSONNode*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CTOR_B__251_3_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::ZenFulcrum::EmbeddedBrowser::JSONNode*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CTOR_B__254_3_OFFSET))(this, a1);
 		}
 
-		::System::Void __ctor_b__251_4(::ZenFulcrum::EmbeddedBrowser::JSONNode* a1)
+		::System::Void __ctor_b__254_4(::ZenFulcrum::EmbeddedBrowser::JSONNode* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::ZenFulcrum::EmbeddedBrowser::JSONNode*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CTOR_B__251_4_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::ZenFulcrum::EmbeddedBrowser::JSONNode*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CTOR_B__254_4_OFFSET))(this, a1);
 		}
 
-		::System::Void __ctor_b__251_5(::ZenFulcrum::EmbeddedBrowser::JSONNode* a1)
+		::System::Void __ctor_b__254_5(::ZenFulcrum::EmbeddedBrowser::JSONNode* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::ZenFulcrum::EmbeddedBrowser::JSONNode*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CTOR_B__251_5_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::ZenFulcrum::EmbeddedBrowser::JSONNode*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CTOR_B__254_5_OFFSET))(this, a1);
 		}
 
-		::System::Void __ctor_b__251_6(::ZenFulcrum::EmbeddedBrowser::JSONNode* a1)
+		::System::Void __ctor_b__254_6(::ZenFulcrum::EmbeddedBrowser::JSONNode* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::ZenFulcrum::EmbeddedBrowser::JSONNode*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CTOR_B__251_6_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::ZenFulcrum::EmbeddedBrowser::JSONNode*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CTOR_B__254_6_OFFSET))(this, a1);
 		}
 
-		::System::Void __ctor_b__251_7()
+		::System::Void __ctor_b__254_7()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CTOR_B__251_7_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CTOR_B__254_7_OFFSET))(this);
 		}
 
-		::System::Void __ctor_b__251_8()
+		::System::Void __ctor_b__254_8()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CTOR_B__251_8_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CTOR_B__254_8_OFFSET))(this);
 		}
 
-		::System::Void __ctor_b__251_9()
+		::System::Void __ctor_b__254_9()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CTOR_B__251_9_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CTOR_B__254_9_OFFSET))(this);
 		}
 
-		::System::Void __ctor_b__251_10(::System::Int32 a1, ::System::Int32 a2, ::System::Int64 a3, ::System::Int64 a4)
+		::System::Void __ctor_b__254_10(::System::Int32 a1, ::System::Int32 a2, ::System::Int64 a3, ::System::Int64 a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int64, ::System::Int64))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CTOR_B__251_10_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int64, ::System::Int64))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CTOR_B__254_10_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void __ctor_b__251_11(::System::Int32 a1, ::ZenFulcrum::EmbeddedBrowser::JSONNode* a2)
+		::System::Void __ctor_b__254_11(::System::Int32 a1, ::ZenFulcrum::EmbeddedBrowser::JSONNode* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::ZenFulcrum::EmbeddedBrowser::JSONNode*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CTOR_B__251_11_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::ZenFulcrum::EmbeddedBrowser::JSONNode*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CTOR_B__254_11_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void __ctor_b__251_12(::System::String* a1, ::System::Boolean a2, ::System::String* a3)
+		::System::Void __ctor_b__254_12(::System::String* a1, ::System::Boolean a2, ::System::String* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Boolean, ::System::String*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CTOR_B__251_12_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Boolean, ::System::String*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CTOR_B__254_12_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void __ctor_b__251_13(::ZenFulcrum::EmbeddedBrowser::JSONNode* a1)
+		::System::Void __ctor_b__254_13(::ZenFulcrum::EmbeddedBrowser::JSONNode* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::ZenFulcrum::EmbeddedBrowser::JSONNode*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CTOR_B__251_13_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::ZenFulcrum::EmbeddedBrowser::JSONNode*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CTOR_B__254_13_OFFSET))(this, a1);
 		}
 
-		::System::Void __ctor_b__251_14(::ZenFulcrum::EmbeddedBrowser::JSONNode* a1)
+		::System::Void __ctor_b__254_14(::ZenFulcrum::EmbeddedBrowser::JSONNode* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::ZenFulcrum::EmbeddedBrowser::JSONNode*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CTOR_B__251_14_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::ZenFulcrum::EmbeddedBrowser::JSONNode*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CTOR_B__254_14_OFFSET))(this, a1);
 		}
 
-		::System::Void __ctor_b__251_15(::System::Boolean a1, ::System::Boolean a2)
+		::System::Void __ctor_b__254_15(::System::Boolean a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CTOR_B__251_15_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CTOR_B__254_15_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void __cctor_b__252_0(::ZenFulcrum::EmbeddedBrowser::Browser* a1)
+		::System::Void __cctor_b__255_0(::ZenFulcrum::EmbeddedBrowser::Browser* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::ZenFulcrum::EmbeddedBrowser::Browser*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CCTOR_B__252_0_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::ZenFulcrum::EmbeddedBrowser::Browser*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CCTOR_B__255_0_OFFSET))(this, a1);
 		}
 
-		::System::Void __cctor_b__252_1(::ZenFulcrum::EmbeddedBrowser::Browser* a1)
+		::System::Void __cctor_b__255_1(::ZenFulcrum::EmbeddedBrowser::Browser* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::ZenFulcrum::EmbeddedBrowser::Browser*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CCTOR_B__252_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::ZenFulcrum::EmbeddedBrowser::Browser*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CCTOR_B__255_1_OFFSET))(this, a1);
 		}
 	};
 }

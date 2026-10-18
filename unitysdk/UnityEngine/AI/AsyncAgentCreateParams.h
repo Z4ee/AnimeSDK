@@ -6,7 +6,7 @@
 
 namespace UnityEngine::AI
 {
-	inline static constexpr unsigned int AsyncAgentCreateParams_TypeDefinitionIndex = 5660;
+	inline static constexpr unsigned int AsyncAgentCreateParams_TypeDefinitionIndex = 5668;
 
 	struct alignas(4) AsyncAgentCreateParams
 	{

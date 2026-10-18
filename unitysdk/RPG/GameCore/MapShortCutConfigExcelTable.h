@@ -11,45 +11,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_MAPSHORTCUTCONFIGEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1D49D600)
-#define RPG_GAMECORE_MAPSHORTCUTCONFIGEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1D49D4D0)
-#define RPG_GAMECORE_MAPSHORTCUTCONFIGEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1D49D1C0)
-#define RPG_GAMECORE_MAPSHORTCUTCONFIGEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1D49D470)
-#define RPG_GAMECORE_MAPSHORTCUTCONFIGEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1D49D790)
-#define RPG_GAMECORE_MAPSHORTCUTCONFIGEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D49D240)
-#define RPG_GAMECORE_MAPSHORTCUTCONFIGEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1D49D7D0)
-#define RPG_GAMECORE_MAPSHORTCUTCONFIGEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D49D9A0)
-#define RPG_GAMECORE_MAPSHORTCUTCONFIGEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1D49DCE0)
-#define RPG_GAMECORE_MAPSHORTCUTCONFIGEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D49E000)
-#define RPG_GAMECORE_MAPSHORTCUTCONFIGEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1D49D900)
-#define RPG_GAMECORE_MAPSHORTCUTCONFIGEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D49D860)
+#define RPG_GAMECORE_MAPSHORTCUTCONFIGEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1D803920)
+#define RPG_GAMECORE_MAPSHORTCUTCONFIGEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1D8037B0)
+#define RPG_GAMECORE_MAPSHORTCUTCONFIGEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1D8034A0)
+#define RPG_GAMECORE_MAPSHORTCUTCONFIGEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1D803750)
+#define RPG_GAMECORE_MAPSHORTCUTCONFIGEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1D803AB0)
+#define RPG_GAMECORE_MAPSHORTCUTCONFIGEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D803520)
+#define RPG_GAMECORE_MAPSHORTCUTCONFIGEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1D803AF0)
+#define RPG_GAMECORE_MAPSHORTCUTCONFIGEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D803CC0)
+#define RPG_GAMECORE_MAPSHORTCUTCONFIGEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1D804030)
+#define RPG_GAMECORE_MAPSHORTCUTCONFIGEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D8043A0)
+#define RPG_GAMECORE_MAPSHORTCUTCONFIGEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1D803C20)
+#define RPG_GAMECORE_MAPSHORTCUTCONFIGEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D803B80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MapShortCutConfigExcelTable_TypeDefinitionIndex = 12483;
+	inline static constexpr unsigned int MapShortCutConfigExcelTable_TypeDefinitionIndex = 12573;
 
 	class MapShortCutConfigExcelTable : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(MapShortCutConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x2B3D0);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(MapShortCutConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x44E80);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MapShortCutConfigRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MapShortCutConfigRow*>**)Il2CppClass::FromTypeDefinitionIndex(MapShortCutConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x2B3D8);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MapShortCutConfigRow*>**)Il2CppClass::FromTypeDefinitionIndex(MapShortCutConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x44E88);
 		}
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MapShortCutConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x2B3E0);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MapShortCutConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x44E90);
 		}
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(MapShortCutConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0xC840);
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(MapShortCutConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x10450);
 		}
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MapShortCutConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0xC841);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MapShortCutConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x10451);
 		}
 
 		static ::System::Void _cctor()

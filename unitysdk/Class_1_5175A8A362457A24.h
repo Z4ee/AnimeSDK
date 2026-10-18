@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_1264;
+class Class_0_16E4307DCC419505_1404;
 class Class_1_5175A8A362457A24_Class_3_50D343C44D28BEFB_12;
 namespace RPG::GameCore { class BaseLittleGameAbilityTargetSelectorConfig; }
 namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_5175A8A362457A24_DISPOSE_OFFSET UNITYSDK_OFFSET(0x17D31F60)
-#define CLASS_1_5175A8A362457A24_METHOD_1_A239DF324AF4215D_OFFSET UNITYSDK_OFFSET(0x17D311A0)
-#define CLASS_1_5175A8A362457A24_METHOD_1_D5526020BD3CD9F3_OFFSET UNITYSDK_OFFSET(0x17D32000)
-#define CLASS_1_5175A8A362457A24__CTOR_OFFSET UNITYSDK_OFFSET(0x17D31100)
+#define CLASS_1_5175A8A362457A24_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBF84290)
+#define CLASS_1_5175A8A362457A24_METHOD_1_A239DF324AF4215D_OFFSET UNITYSDK_OFFSET(0xBF834D0)
+#define CLASS_1_5175A8A362457A24_METHOD_1_D5526020BD3CD9F3_OFFSET UNITYSDK_OFFSET(0xBF84330)
+#define CLASS_1_5175A8A362457A24__CTOR_OFFSET UNITYSDK_OFFSET(0xBF83430)
 
-inline static constexpr unsigned int Class_1_5175A8A362457A24_TypeDefinitionIndex = 76894;
+inline static constexpr unsigned int Class_1_5175A8A362457A24_TypeDefinitionIndex = 77365;
 
 class Class_1_5175A8A362457A24 : public ::System::Object
 {
@@ -36,8 +36,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_5175A8A362457A24_DISPOSE_OFFSET))(this);
 	}
 
-	::Class_0_16E4307DCC419505_1264* Method_1_D5526020BD3CD9F3(::RPG::GameCore::BaseLittleGameAbilityTargetSelectorConfig* a1)
+	::Class_0_16E4307DCC419505_1404* Method_1_D5526020BD3CD9F3(::RPG::GameCore::BaseLittleGameAbilityTargetSelectorConfig* a1)
 	{
-		return ((::Class_0_16E4307DCC419505_1264*(*)(::PVOID, ::RPG::GameCore::BaseLittleGameAbilityTargetSelectorConfig*))((::PBYTE)hIl2Cpp + CLASS_1_5175A8A362457A24_METHOD_1_D5526020BD3CD9F3_OFFSET))(this, a1);
+		return ((::Class_0_16E4307DCC419505_1404*(*)(::PVOID, ::RPG::GameCore::BaseLittleGameAbilityTargetSelectorConfig*))((::PBYTE)hIl2Cpp + CLASS_1_5175A8A362457A24_METHOD_1_D5526020BD3CD9F3_OFFSET))(this, a1);
 	}
 };

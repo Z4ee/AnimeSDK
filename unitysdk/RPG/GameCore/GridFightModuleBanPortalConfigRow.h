@@ -4,18 +4,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_GRIDFIGHTMODULEBANPORTALCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EE6FA50)
-#define RPG_GAMECORE_GRIDFIGHTMODULEBANPORTALCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1EE6FB70)
+#define RPG_GAMECORE_GRIDFIGHTMODULEBANPORTALCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D7089E0)
+#define RPG_GAMECORE_GRIDFIGHTMODULEBANPORTALCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D708B00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightModuleBanPortalConfigRow_TypeDefinitionIndex = 13372;
+	inline static constexpr unsigned int GridFightModuleBanPortalConfigRow_TypeDefinitionIndex = 13479;
 
 	class GridFightModuleBanPortalConfigRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 ModuleId; // 0x10
-		::System::UInt32 BanPortalId; // 0x14
+		::System::UInt32 BanPortalId; // 0x10
+		::System::UInt32 ModuleId; // 0x14
 
 		::System::Void _ctor()
 		{

@@ -5,19 +5,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ACTIVITYRAIDCOLLECTIONQUESTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CA1A7B0)
-#define RPG_GAMECORE_ACTIVITYRAIDCOLLECTIONQUESTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CA1AE50)
+#define RPG_GAMECORE_ACTIVITYRAIDCOLLECTIONQUESTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D34BED0)
+#define RPG_GAMECORE_ACTIVITYRAIDCOLLECTIONQUESTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D34C570)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityRaidCollectionQuestRow_TypeDefinitionIndex = 12245;
+	inline static constexpr unsigned int ActivityRaidCollectionQuestRow_TypeDefinitionIndex = 12326;
 
 	class ActivityRaidCollectionQuestRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* QuestList; // 0x10
-		::RPG::Client::TextID QuestTabName; // 0x18
-		::System::UInt32 QuestTabID; // 0x28
+		::System::UInt32 QuestTabID; // 0x18
+		::RPG::Client::TextID QuestTabName; // 0x20
 
 		::System::Void _ctor()
 		{

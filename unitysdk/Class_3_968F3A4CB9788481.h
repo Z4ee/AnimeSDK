@@ -9,22 +9,22 @@ namespace RPG::GameCore { class DamageDisplayData; }
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define CLASS_3_968F3A4CB9788481_METHOD_3_7DC061678298D63E_OFFSET UNITYSDK_OFFSET(0xCA51080)
-#define CLASS_3_968F3A4CB9788481_METHOD_3_FCE92D332F1E367F_OFFSET UNITYSDK_OFFSET(0xCA50F60)
-#define CLASS_3_968F3A4CB9788481__CTOR_OFFSET UNITYSDK_OFFSET(0xCA51000)
+#define CLASS_3_968F3A4CB9788481_METHOD_3_7DC061678298D63E_OFFSET UNITYSDK_OFFSET(0x1CF04990)
+#define CLASS_3_968F3A4CB9788481_METHOD_3_FCE92D332F1E367F_OFFSET UNITYSDK_OFFSET(0x1CF04870)
+#define CLASS_3_968F3A4CB9788481__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF04910)
 
-inline static constexpr unsigned int Class_3_968F3A4CB9788481_TypeDefinitionIndex = 23890;
+inline static constexpr unsigned int Class_3_968F3A4CB9788481_TypeDefinitionIndex = 24165;
 
 class Class_3_968F3A4CB9788481 : public ::RPG::GameCore::TaskConfig
 {
 public:
-	::RPG::GameCore::DynamicFloat* JOKLPMNDMAJ; // 0x18
-	::RPG::GameCore::TargetEvaluator* NFMKOFNEKLA; // 0x20
-	::RPG::GameCore::DynamicFloat* AJHHCOHFIFA; // 0x28
-	::RPG::GameCore::DamageDisplayData* AIMHHKODFJN; // 0x30
-	::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x38
-	::RPG::GameCore::AttackDamageType PAIECOBACKB; // 0x40
-	::RPG::GameCore::AttackType HIFKEKCELFB; // 0x44
+	::RPG::GameCore::DynamicFloat* AJHHCOHFIFA; // 0x18
+	::RPG::GameCore::DynamicFloat* JOKLPMNDMAJ; // 0x20
+	::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x28
+	::RPG::GameCore::TargetEvaluator* NFMKOFNEKLA; // 0x30
+	::RPG::GameCore::DamageDisplayData* AIMHHKODFJN; // 0x38
+	::RPG::GameCore::AttackType HIFKEKCELFB; // 0x40
+	::RPG::GameCore::AttackDamageType PAIECOBACKB; // 0x44
 	::System::Boolean AELFMDGFAIK; // 0x48
 
 	::System::Void _ctor()

@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_IDLELIVEEQUIPDISCARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D20FB20)
-#define RPG_GAMECORE_IDLELIVEEQUIPDISCARDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D20FD10)
+#define RPG_GAMECORE_IDLELIVEEQUIPDISCARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D74C760)
+#define RPG_GAMECORE_IDLELIVEEQUIPDISCARDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D74C950)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveEquipDiscardRow_TypeDefinitionIndex = 11727;
+	inline static constexpr unsigned int IdleLiveEquipDiscardRow_TypeDefinitionIndex = 11750;
 
 	class IdleLiveEquipDiscardRow : public ::System::Object
 	{

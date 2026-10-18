@@ -5,20 +5,20 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_RECHARGEGIFTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DB79FA0)
-#define RPG_GAMECORE_RECHARGEGIFTCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB7A610)
+#define RPG_GAMECORE_RECHARGEGIFTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D944380)
+#define RPG_GAMECORE_RECHARGEGIFTCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D9449B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RechargeGiftConfigRow_TypeDefinitionIndex = 14457;
+	inline static constexpr unsigned int RechargeGiftConfigRow_TypeDefinitionIndex = 14622;
 
 	class RechargeGiftConfigRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* GiftIDList; // 0x10
-		::Il2CppArray<::System::String*>* DiscountForFiat; // 0x18
-		::System::UInt32 GiftType; // 0x20
-		::System::Single Discount; // 0x24
+		::Il2CppArray<::System::String*>* DiscountForFiat; // 0x10
+		::Il2CppArray<::System::UInt32>* GiftIDList; // 0x18
+		::System::Single Discount; // 0x20
+		::System::UInt32 GiftType; // 0x24
 
 		::System::Void _ctor()
 		{

@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/GameCore/GotoType.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_GOTOBYTYPEPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1ADA3700)
+#define RPG_CLIENT_GOTOBYTYPEPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xD0B8160)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GotoByTypeParam_TypeDefinitionIndex = 65590;
+	inline static constexpr unsigned int GotoByTypeParam_TypeDefinitionIndex = 65530;
 
 	class GotoByTypeParam : public ::System::Object
 	{

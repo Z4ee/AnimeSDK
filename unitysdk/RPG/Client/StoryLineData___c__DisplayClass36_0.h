@@ -4,12 +4,12 @@
 
 class Class_1_1AF243935D06EF67;
 
-#define RPG_CLIENT_STORYLINEDATA___C__DISPLAYCLASS36_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A514C30)
-#define RPG_CLIENT_STORYLINEDATA___C__DISPLAYCLASS36_0__GETSTORYLINEFLOOR_B__0_OFFSET UNITYSDK_OFFSET(0x1A5151E0)
+#define RPG_CLIENT_STORYLINEDATA___C__DISPLAYCLASS36_0__CTOR_OFFSET UNITYSDK_OFFSET(0xE138570)
+#define RPG_CLIENT_STORYLINEDATA___C__DISPLAYCLASS36_0__GETSTORYLINEFLOOR_B__0_OFFSET UNITYSDK_OFFSET(0xE138B00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int StoryLineData___c__DisplayClass36_0_TypeDefinitionIndex = 67984;
+	inline static constexpr unsigned int StoryLineData___c__DisplayClass36_0_TypeDefinitionIndex = 67989;
 
 	class StoryLineData___c__DisplayClass36_0 : public ::System::Object
 	{

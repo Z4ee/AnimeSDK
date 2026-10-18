@@ -3,7 +3,7 @@
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_AssetTypeWrapper_TypeDefinitionIndex = 39262;
+	inline static constexpr unsigned int HEU_AssetTypeWrapper_TypeDefinitionIndex = 40559;
 
 	enum class HEU_AssetTypeWrapper : ::System::Int32
 	{

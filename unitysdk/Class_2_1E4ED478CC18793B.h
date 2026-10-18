@@ -8,26 +8,26 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class RtModifierConfig; }
 namespace System { class String; }
 
-#define CLASS_2_1E4ED478CC18793B_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x195A6C40)
-#define CLASS_2_1E4ED478CC18793B_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x195A6BF0)
-#define CLASS_2_1E4ED478CC18793B_METHOD_2_01B86EDCA4314B2B_OFFSET UNITYSDK_OFFSET(0x195A6AD0)
-#define CLASS_2_1E4ED478CC18793B__CTOR_OFFSET UNITYSDK_OFFSET(0x195A6C90)
+#define CLASS_2_1E4ED478CC18793B_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xB7D0160)
+#define CLASS_2_1E4ED478CC18793B_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xB7D0110)
+#define CLASS_2_1E4ED478CC18793B_METHOD_2_01B86EDCA4314B2B_OFFSET UNITYSDK_OFFSET(0xB7CFFF0)
+#define CLASS_2_1E4ED478CC18793B__CTOR_OFFSET UNITYSDK_OFFSET(0xB7D01B0)
 
-inline static constexpr unsigned int Class_2_1E4ED478CC18793B_TypeDefinitionIndex = 54290;
+inline static constexpr unsigned int Class_2_1E4ED478CC18793B_TypeDefinitionIndex = 54076;
 
 class Class_2_1E4ED478CC18793B : public ::Class_1_BF7A075734D15E98
 {
 public:
-	::RPG::GameCore::GameEntity* GDCCJFKJGPD; // 0x18
-	::System::String* KBKOGLCAEKG; // 0x20
+	::System::String* KBKOGLCAEKG; // 0x18
+	::System::String* IFNAGLOMHBK; // 0x20
 	::RPG::GameCore::GameEntity* DOAPLIILBKP; // 0x28
-	::RPG::GameCore::RtModifierConfig* ALMAIAIDFHM; // 0x30
-	::System::String* IFNAGLOMHBK; // 0x38
-	::RPG::GameCore::FixPoint KAHOALBCMNE; // 0x40
-	::RPG::GameCore::FixPoint LKFNPPCHCII; // 0x48
+	::RPG::GameCore::GameEntity* GDCCJFKJGPD; // 0x30
+	::RPG::GameCore::RtModifierConfig* ALMAIAIDFHM; // 0x38
+	::RPG::GameCore::FixPoint LKFNPPCHCII; // 0x40
+	::RPG::GameCore::FixPoint KAHOALBCMNE; // 0x48
 	::System::Boolean NGDAIHFFEBC; // 0x50
-	::System::Boolean EBFMNCJNMPF; // 0x51
-	::System::Boolean EIIMAEHCGBC; // 0x52
+	::System::Boolean EIIMAEHCGBC; // 0x51
+	::System::Boolean EBFMNCJNMPF; // 0x52
 	::RPG::GameCore::FixPoint KIPAGNCANAJ; // 0x58
 
 	::System::Void _ctor()

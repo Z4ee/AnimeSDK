@@ -7,12 +7,12 @@ namespace RPG::Client { class MapRotationInfo; }
 namespace RPG::Client::NavMap { class ICartography3D; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_NAVMAP_ICONCOLLECTOR3DERAFLIP__CREATEPOSEIDS_OFFSET UNITYSDK_OFFSET(0x1A33F5C0)
-#define RPG_CLIENT_NAVMAP_ICONCOLLECTOR3DERAFLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x1A328250)
+#define RPG_CLIENT_NAVMAP_ICONCOLLECTOR3DERAFLIP__CREATEPOSEIDS_OFFSET UNITYSDK_OFFSET(0xD945340)
+#define RPG_CLIENT_NAVMAP_ICONCOLLECTOR3DERAFLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xD92CD70)
 
 namespace RPG::Client::NavMap
 {
-	inline static constexpr unsigned int IconCollector3DEraFlip_TypeDefinitionIndex = 74397;
+	inline static constexpr unsigned int IconCollector3DEraFlip_TypeDefinitionIndex = 74524;
 
 	class IconCollector3DEraFlip : public ::RPG::Client::NavMap::IconCollector3DBase
 	{

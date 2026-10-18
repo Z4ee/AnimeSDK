@@ -2,29 +2,29 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_90889A2023AB884E_10_GET_CLOSEWINDOW_OFFSET UNITYSDK_OFFSET(0x18176060)
-#define CLASS_1_90889A2023AB884E_10_SET_CLOSEWINDOW_OFFSET UNITYSDK_OFFSET(0x18176070)
-#define CLASS_1_90889A2023AB884E_10__CTOR_OFFSET UNITYSDK_OFFSET(0x18176050)
+#define CLASS_1_90889A2023AB884E_10_GET_ISACTIVE_OFFSET UNITYSDK_OFFSET(0x1642FAC0)
+#define CLASS_1_90889A2023AB884E_10_SET_ISACTIVE_OFFSET UNITYSDK_OFFSET(0x1642FAD0)
+#define CLASS_1_90889A2023AB884E_10__CTOR_OFFSET UNITYSDK_OFFSET(0x1642FAE0)
 
-inline static constexpr unsigned int Class_1_90889A2023AB884E_10_TypeDefinitionIndex = 78953;
+inline static constexpr unsigned int Class_1_90889A2023AB884E_10_TypeDefinitionIndex = 79676;
 
 class Class_1_90889A2023AB884E_10 : public ::System::Object
 {
 public:
-	::System::Boolean _CloseWindow_k__BackingField; // 0x10
+	::System::Boolean _IsActive_k__BackingField; // 0x10
 
 	::System::Void _ctor(::System::Boolean a1)
 	{
 		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_90889A2023AB884E_10__CTOR_OFFSET))(this, a1);
 	}
 
-	::System::Boolean get_CloseWindow()
+	::System::Boolean get_IsActive()
 	{
-		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_90889A2023AB884E_10_GET_CLOSEWINDOW_OFFSET))(this);
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_90889A2023AB884E_10_GET_ISACTIVE_OFFSET))(this);
 	}
 
-	::System::Void set_CloseWindow(::System::Boolean a1)
+	::System::Void set_IsActive(::System::Boolean a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_90889A2023AB884E_10_SET_CLOSEWINDOW_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_90889A2023AB884E_10_SET_ISACTIVE_OFFSET))(this, a1);
 	}
 };

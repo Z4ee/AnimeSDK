@@ -5,7 +5,7 @@
 namespace System { class Object; }
 namespace System::Xml { class XmlNode; }
 
-#define SYSTEM_XML_SERIALIZATION_XMLNODEEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x17C3AE00)
+#define SYSTEM_XML_SERIALIZATION_XMLNODEEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1EED9B10)
 
 namespace System::Xml::Serialization
 {
@@ -14,8 +14,8 @@ namespace System::Xml::Serialization
 	class XmlNodeEventArgs : public ::System::EventArgs
 	{
 	public:
-		::System::Xml::XmlNode* xmlNode; // 0x10
-		::System::Object* o; // 0x18
+		::System::Object* o; // 0x10
+		::System::Xml::XmlNode* xmlNode; // 0x18
 		::System::Int32 linePosition; // 0x20
 		::System::Int32 lineNumber; // 0x24
 

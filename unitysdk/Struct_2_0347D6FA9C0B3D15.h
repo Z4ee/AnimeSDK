@@ -3,10 +3,10 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-class Class_1_43BD383C98B4C0C5_107;
+class Class_1_43BD383C98B4C0C5_109;
 namespace RPG::GameCore { class LittleGameEntityPreset; }
 
-inline static constexpr unsigned int Struct_2_0347D6FA9C0B3D15_TypeDefinitionIndex = 41846;
+inline static constexpr unsigned int Struct_2_0347D6FA9C0B3D15_TypeDefinitionIndex = 43488;
 
 struct alignas(8) Struct_2_0347D6FA9C0B3D15
 {
@@ -18,5 +18,5 @@ struct alignas(8) Struct_2_0347D6FA9C0B3D15
 	::System::Boolean GLNOJDADBLO; // 0x29
 	::System::Single NDFDHHICKOL; // 0x2C
 	::System::Single NPBOCBKJFCE; // 0x30
-	::Class_1_43BD383C98B4C0C5_107* PBPGIIJPBPG; // 0x38
+	::Class_1_43BD383C98B4C0C5_109* PBPGIIJPBPG; // 0x38
 };

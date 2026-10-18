@@ -6,20 +6,20 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ROGUEHANDBOOKTYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D935280)
-#define RPG_GAMECORE_ROGUEHANDBOOKTYPEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D9359A0)
+#define RPG_GAMECORE_ROGUEHANDBOOKTYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D9A1240)
+#define RPG_GAMECORE_ROGUEHANDBOOKTYPEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D9A1960)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueHandbookTypeRow_TypeDefinitionIndex = 14663;
+	inline static constexpr unsigned int RogueHandbookTypeRow_TypeDefinitionIndex = 14828;
 
 	class RogueHandbookTypeRow : public ::System::Object
 	{
 	public:
 		::System::String* HandBookIconPath; // 0x10
-		::RPG::Client::TextID RogueHandBookDesc; // 0x18
-		::System::UInt32 HandBookType; // 0x28
-		::RPG::Client::TextID RogueHandBookType; // 0x30
+		::System::UInt32 HandBookType; // 0x18
+		::RPG::Client::TextID RogueHandBookType; // 0x20
+		::RPG::Client::TextID RogueHandBookDesc; // 0x30
 
 		::System::Void _ctor()
 		{

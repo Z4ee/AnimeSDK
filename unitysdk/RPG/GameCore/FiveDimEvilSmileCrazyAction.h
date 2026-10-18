@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_FIVEDIMEVILSMILECRAZYACTION_METHOD_3_515F2405AF3C9273_OFFSET UNITYSDK_OFFSET(0x1D85CD10)
-#define RPG_GAMECORE_FIVEDIMEVILSMILECRAZYACTION_METHOD_3_7EC19B542D410DF2_OFFSET UNITYSDK_OFFSET(0x1D85CC90)
-#define RPG_GAMECORE_FIVEDIMEVILSMILECRAZYACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D85CD00)
+#define RPG_GAMECORE_FIVEDIMEVILSMILECRAZYACTION_METHOD_4_82585705019F504C_OFFSET UNITYSDK_OFFSET(0x1D68ED00)
+#define RPG_GAMECORE_FIVEDIMEVILSMILECRAZYACTION_METHOD_4_DD1669C529A59EE1_OFFSET UNITYSDK_OFFSET(0x1D68EC80)
+#define RPG_GAMECORE_FIVEDIMEVILSMILECRAZYACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D68ECF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimEvilSmileCrazyAction_TypeDefinitionIndex = 18576;
+	inline static constexpr unsigned int FiveDimEvilSmileCrazyAction_TypeDefinitionIndex = 18786;
 
 	class FiveDimEvilSmileCrazyAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
@@ -20,14 +20,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMEVILSMILECRAZYACTION__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_7EC19B542D410DF2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimEvilSmileCrazyAction*& a2)
+		static ::System::Void Method_4_DD1669C529A59EE1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimEvilSmileCrazyAction*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimEvilSmileCrazyAction*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMEVILSMILECRAZYACTION_METHOD_3_7EC19B542D410DF2_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimEvilSmileCrazyAction*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMEVILSMILECRAZYACTION_METHOD_4_DD1669C529A59EE1_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_515F2405AF3C9273(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimEvilSmileCrazyAction* a2)
+		static ::System::Void Method_4_82585705019F504C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimEvilSmileCrazyAction* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimEvilSmileCrazyAction*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMEVILSMILECRAZYACTION_METHOD_3_515F2405AF3C9273_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimEvilSmileCrazyAction*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMEVILSMILECRAZYACTION_METHOD_4_82585705019F504C_OFFSET))(a1, a2);
 		}
 	};
 }

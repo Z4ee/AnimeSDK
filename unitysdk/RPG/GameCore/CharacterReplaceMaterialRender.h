@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class CharacterReplaceMaterialPartShow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHARACTERREPLACEMATERIALRENDER_METHOD_2_8D1907BFE8AD15C4_OFFSET UNITYSDK_OFFSET(0x1DFFF9B0)
-#define RPG_GAMECORE_CHARACTERREPLACEMATERIALRENDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1DFFFB60)
+#define RPG_GAMECORE_CHARACTERREPLACEMATERIALRENDER_METHOD_2_8D1907BFE8AD15C4_OFFSET UNITYSDK_OFFSET(0x1D54AA00)
+#define RPG_GAMECORE_CHARACTERREPLACEMATERIALRENDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D54ABB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterReplaceMaterialRender_TypeDefinitionIndex = 17243;
+	inline static constexpr unsigned int CharacterReplaceMaterialRender_TypeDefinitionIndex = 17439;
 
 	class CharacterReplaceMaterialRender : public ::RPG::GameCore::JsonConfig
 	{

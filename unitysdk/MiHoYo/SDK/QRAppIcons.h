@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_QRAPPICONS__CTOR_OFFSET UNITYSDK_OFFSET(0x19EBBDF0)
+#define MIHOYO_SDK_QRAPPICONS__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF94420)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int QRAppIcons_TypeDefinitionIndex = 7867;
+	inline static constexpr unsigned int QRAppIcons_TypeDefinitionIndex = 7911;
 
 	class QRAppIcons : public ::System::Object
 	{

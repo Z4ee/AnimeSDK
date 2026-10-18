@@ -2,24 +2,42 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_83665B095F1535B5_23__CTOR_OFFSET UNITYSDK_OFFSET(0x19FE3200)
+#define CLASS_1_83665B095F1535B5_23_METHOD_1_F0088C88851A7DFB_1_OFFSET UNITYSDK_OFFSET(0x15B22CF0)
+#define CLASS_1_83665B095F1535B5_23_METHOD_1_F0088C88851A7DFB_OFFSET UNITYSDK_OFFSET(0x15B22CE0)
+#define CLASS_1_83665B095F1535B5_23_METHOD_1_F8C7231308CD2C82_OFFSET UNITYSDK_OFFSET(0x15B22C60)
+#define CLASS_1_83665B095F1535B5_23__CTOR_OFFSET UNITYSDK_OFFSET(0x15B22D00)
 
-inline static constexpr unsigned int Class_1_83665B095F1535B5_23_TypeDefinitionIndex = 60827;
+inline static constexpr unsigned int Class_1_83665B095F1535B5_23_TypeDefinitionIndex = 57570;
 
 class Class_1_83665B095F1535B5_23 : public ::System::Object
 {
 public:
-	::System::Boolean IIJDIHKILAL; // 0x10
-	::System::Boolean KMOILBNBOLB; // 0x11
-	::System::Boolean NOLOAHJOPND; // 0x12
-	::System::Boolean KEDBGFHAKLO; // 0x13
-	::System::Boolean GDFAPFFBCIP; // 0x14
-	::System::Boolean JEDDEBMGLOE; // 0x15
-	::System::Boolean DHKGDNFOKMK; // 0x16
-	::System::Boolean GKOJACPKGMA; // 0x17
+	static ::System::Boolean* StaticGet_LGECFPPLDMH()
+	{
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_83665B095F1535B5_23_TypeDefinitionIndex)->GetStaticField(0x15490);
+	}
+	static ::System::Boolean* StaticGet_JHNDMPFIKCE()
+	{
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_83665B095F1535B5_23_TypeDefinitionIndex)->GetStaticField(0x15491);
+	}
 
 	::System::Void _ctor()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_83665B095F1535B5_23__CTOR_OFFSET))(this);
+	}
+
+	static ::System::Void Method_1_F8C7231308CD2C82()
+	{
+		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CLASS_1_83665B095F1535B5_23_METHOD_1_F8C7231308CD2C82_OFFSET))();
+	}
+
+	static ::System::Boolean Method_1_F0088C88851A7DFB()
+	{
+		return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + CLASS_1_83665B095F1535B5_23_METHOD_1_F0088C88851A7DFB_OFFSET))();
+	}
+
+	static ::System::Boolean Method_1_F0088C88851A7DFB_1()
+	{
+		return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + CLASS_1_83665B095F1535B5_23_METHOD_1_F0088C88851A7DFB_1_OFFSET))();
 	}
 };

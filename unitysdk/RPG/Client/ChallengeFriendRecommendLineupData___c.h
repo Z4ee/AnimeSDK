@@ -2,43 +2,43 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_21DCD4640D389503_24;
+class Class_1_21DCD4640D389503_31;
 class Class_1_6D0244BBBB07BA13_1;
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_CHALLENGEFRIENDRECOMMENDLINEUPDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18C185C0)
-#define RPG_CLIENT_CHALLENGEFRIENDRECOMMENDLINEUPDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18C18600)
-#define RPG_CLIENT_CHALLENGEFRIENDRECOMMENDLINEUPDATA___C___CREATERECOMMENDCHALLENGELINEUPSINFO_B__29_0_OFFSET UNITYSDK_OFFSET(0x18C18610)
-#define RPG_CLIENT_CHALLENGEFRIENDRECOMMENDLINEUPDATA___C___CREATERECOMMENDCHALLENGELINEUPSINFO_B__29_1_OFFSET UNITYSDK_OFFSET(0x18C186F0)
-#define RPG_CLIENT_CHALLENGEFRIENDRECOMMENDLINEUPDATA___C___CREATERECOMMENDCHALLENGELINEUPSINFO_B__29_2_OFFSET UNITYSDK_OFFSET(0x18C187D0)
-#define RPG_CLIENT_CHALLENGEFRIENDRECOMMENDLINEUPDATA___C___CREATERECOMMENDCHALLENGELINEUPSINFO_B__29_3_OFFSET UNITYSDK_OFFSET(0x18C18840)
+#define RPG_CLIENT_CHALLENGEFRIENDRECOMMENDLINEUPDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC97B360)
+#define RPG_CLIENT_CHALLENGEFRIENDRECOMMENDLINEUPDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC97B3A0)
+#define RPG_CLIENT_CHALLENGEFRIENDRECOMMENDLINEUPDATA___C___CREATERECOMMENDCHALLENGELINEUPSINFO_B__29_0_OFFSET UNITYSDK_OFFSET(0xC97B3B0)
+#define RPG_CLIENT_CHALLENGEFRIENDRECOMMENDLINEUPDATA___C___CREATERECOMMENDCHALLENGELINEUPSINFO_B__29_1_OFFSET UNITYSDK_OFFSET(0xC97B480)
+#define RPG_CLIENT_CHALLENGEFRIENDRECOMMENDLINEUPDATA___C___CREATERECOMMENDCHALLENGELINEUPSINFO_B__29_2_OFFSET UNITYSDK_OFFSET(0xC97B560)
+#define RPG_CLIENT_CHALLENGEFRIENDRECOMMENDLINEUPDATA___C___CREATERECOMMENDCHALLENGELINEUPSINFO_B__29_3_OFFSET UNITYSDK_OFFSET(0xC97B5D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChallengeFriendRecommendLineupData___c_TypeDefinitionIndex = 63200;
+	inline static constexpr unsigned int ChallengeFriendRecommendLineupData___c_TypeDefinitionIndex = 63133;
 
 	class ChallengeFriendRecommendLineupData___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::Class_1_6D0244BBBB07BA13_1*, ::System::Boolean>** StaticGet___9__29_0()
-		{
-			return (::System::Func_2<::Class_1_6D0244BBBB07BA13_1*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ChallengeFriendRecommendLineupData___c_TypeDefinitionIndex)->GetStaticField(0x1F940);
-		}
 		static ::RPG::Client::ChallengeFriendRecommendLineupData___c** StaticGet___9()
 		{
-			return (::RPG::Client::ChallengeFriendRecommendLineupData___c**)Il2CppClass::FromTypeDefinitionIndex(ChallengeFriendRecommendLineupData___c_TypeDefinitionIndex)->GetStaticField(0x1F948);
+			return (::RPG::Client::ChallengeFriendRecommendLineupData___c**)Il2CppClass::FromTypeDefinitionIndex(ChallengeFriendRecommendLineupData___c_TypeDefinitionIndex)->GetStaticField(0x6ACA0);
+		}
+		static ::System::Func_2<::Class_1_6D0244BBBB07BA13_1*, ::Class_1_21DCD4640D389503_31*>** StaticGet___9__29_3()
+		{
+			return (::System::Func_2<::Class_1_6D0244BBBB07BA13_1*, ::Class_1_21DCD4640D389503_31*>**)Il2CppClass::FromTypeDefinitionIndex(ChallengeFriendRecommendLineupData___c_TypeDefinitionIndex)->GetStaticField(0x6ACA8);
+		}
+		static ::System::Func_2<::Class_1_6D0244BBBB07BA13_1*, ::System::Boolean>** StaticGet___9__29_0()
+		{
+			return (::System::Func_2<::Class_1_6D0244BBBB07BA13_1*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ChallengeFriendRecommendLineupData___c_TypeDefinitionIndex)->GetStaticField(0x6ACB0);
+		}
+		static ::System::Func_2<::Class_1_6D0244BBBB07BA13_1*, ::Class_1_21DCD4640D389503_31*>** StaticGet___9__29_2()
+		{
+			return (::System::Func_2<::Class_1_6D0244BBBB07BA13_1*, ::Class_1_21DCD4640D389503_31*>**)Il2CppClass::FromTypeDefinitionIndex(ChallengeFriendRecommendLineupData___c_TypeDefinitionIndex)->GetStaticField(0x6ACB8);
 		}
 		static ::System::Func_2<::Class_1_6D0244BBBB07BA13_1*, ::System::Boolean>** StaticGet___9__29_1()
 		{
-			return (::System::Func_2<::Class_1_6D0244BBBB07BA13_1*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ChallengeFriendRecommendLineupData___c_TypeDefinitionIndex)->GetStaticField(0x1F950);
-		}
-		static ::System::Func_2<::Class_1_6D0244BBBB07BA13_1*, ::Class_1_21DCD4640D389503_24*>** StaticGet___9__29_3()
-		{
-			return (::System::Func_2<::Class_1_6D0244BBBB07BA13_1*, ::Class_1_21DCD4640D389503_24*>**)Il2CppClass::FromTypeDefinitionIndex(ChallengeFriendRecommendLineupData___c_TypeDefinitionIndex)->GetStaticField(0x1F958);
-		}
-		static ::System::Func_2<::Class_1_6D0244BBBB07BA13_1*, ::Class_1_21DCD4640D389503_24*>** StaticGet___9__29_2()
-		{
-			return (::System::Func_2<::Class_1_6D0244BBBB07BA13_1*, ::Class_1_21DCD4640D389503_24*>**)Il2CppClass::FromTypeDefinitionIndex(ChallengeFriendRecommendLineupData___c_TypeDefinitionIndex)->GetStaticField(0x1F960);
+			return (::System::Func_2<::Class_1_6D0244BBBB07BA13_1*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ChallengeFriendRecommendLineupData___c_TypeDefinitionIndex)->GetStaticField(0x6ACC0);
 		}
 
 		static ::System::Void _cctor()
@@ -61,14 +61,14 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID, ::Class_1_6D0244BBBB07BA13_1*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGEFRIENDRECOMMENDLINEUPDATA___C___CREATERECOMMENDCHALLENGELINEUPSINFO_B__29_1_OFFSET))(this, a1);
 		}
 
-		::Class_1_21DCD4640D389503_24* __CreateRecommendChallengeLineupsInfo_b__29_2(::Class_1_6D0244BBBB07BA13_1* a1)
+		::Class_1_21DCD4640D389503_31* __CreateRecommendChallengeLineupsInfo_b__29_2(::Class_1_6D0244BBBB07BA13_1* a1)
 		{
-			return ((::Class_1_21DCD4640D389503_24*(*)(::PVOID, ::Class_1_6D0244BBBB07BA13_1*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGEFRIENDRECOMMENDLINEUPDATA___C___CREATERECOMMENDCHALLENGELINEUPSINFO_B__29_2_OFFSET))(this, a1);
+			return ((::Class_1_21DCD4640D389503_31*(*)(::PVOID, ::Class_1_6D0244BBBB07BA13_1*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGEFRIENDRECOMMENDLINEUPDATA___C___CREATERECOMMENDCHALLENGELINEUPSINFO_B__29_2_OFFSET))(this, a1);
 		}
 
-		::Class_1_21DCD4640D389503_24* __CreateRecommendChallengeLineupsInfo_b__29_3(::Class_1_6D0244BBBB07BA13_1* a1)
+		::Class_1_21DCD4640D389503_31* __CreateRecommendChallengeLineupsInfo_b__29_3(::Class_1_6D0244BBBB07BA13_1* a1)
 		{
-			return ((::Class_1_21DCD4640D389503_24*(*)(::PVOID, ::Class_1_6D0244BBBB07BA13_1*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGEFRIENDRECOMMENDLINEUPDATA___C___CREATERECOMMENDCHALLENGELINEUPSINFO_B__29_3_OFFSET))(this, a1);
+			return ((::Class_1_21DCD4640D389503_31*(*)(::PVOID, ::Class_1_6D0244BBBB07BA13_1*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGEFRIENDRECOMMENDLINEUPDATA___C___CREATERECOMMENDCHALLENGELINEUPSINFO_B__29_3_OFFSET))(this, a1);
 		}
 	};
 }

@@ -4,7 +4,7 @@
 #include "unitysdk/System/Net/NetworkInformation/Win32_IP_ADAPTER_ADDRESSES.h"
 #include "unitysdk/System/Net/NetworkInformation/Win32_MIB_IFROW.h"
 
-#define SYSTEM_NET_NETWORKINFORMATION_WIN32IPINTERFACEPROPERTIES2__CTOR_OFFSET UNITYSDK_OFFSET(0x1B04CF20)
+#define SYSTEM_NET_NETWORKINFORMATION_WIN32IPINTERFACEPROPERTIES2__CTOR_OFFSET UNITYSDK_OFFSET(0x1F0436F0)
 
 namespace System::Net::NetworkInformation
 {
@@ -13,8 +13,8 @@ namespace System::Net::NetworkInformation
 	class Win32IPInterfaceProperties2 : public ::System::Net::NetworkInformation::IPInterfaceProperties
 	{
 	public:
-		::System::Net::NetworkInformation::Win32_MIB_IFROW mib6; // 0x10
-		::System::Net::NetworkInformation::Win32_MIB_IFROW mib4; // 0x80
+		::System::Net::NetworkInformation::Win32_MIB_IFROW mib4; // 0x10
+		::System::Net::NetworkInformation::Win32_MIB_IFROW mib6; // 0x80
 		::System::Net::NetworkInformation::Win32_IP_ADAPTER_ADDRESSES addr; // 0xF0
 
 		::System::Void _ctor(::System::Net::NetworkInformation::Win32_IP_ADAPTER_ADDRESSES a1, ::System::Net::NetworkInformation::Win32_MIB_IFROW a2, ::System::Net::NetworkInformation::Win32_MIB_IFROW a3)

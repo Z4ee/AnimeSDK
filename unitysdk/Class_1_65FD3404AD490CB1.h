@@ -7,25 +7,25 @@ class Class_1_D459106EFEFB0716;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_65FD3404AD490CB1_METHOD_1_EBEE0D0A222A8264_OFFSET UNITYSDK_OFFSET(0x163D90A0)
-#define CLASS_1_65FD3404AD490CB1__CTOR_OFFSET UNITYSDK_OFFSET(0x163D9140)
+#define CLASS_1_65FD3404AD490CB1_METHOD_1_EBEE0D0A222A8264_OFFSET UNITYSDK_OFFSET(0xC207A10)
+#define CLASS_1_65FD3404AD490CB1__CTOR_OFFSET UNITYSDK_OFFSET(0xC207AB0)
 
-inline static constexpr unsigned int Class_1_65FD3404AD490CB1_TypeDefinitionIndex = 54406;
+inline static constexpr unsigned int Class_1_65FD3404AD490CB1_TypeDefinitionIndex = 54192;
 
 class Class_1_65FD3404AD490CB1 : public ::System::Object
 {
 public:
-	::System::String* ONOAKCNFMBC; // 0x10
-	::System::Collections::Generic::List_1<::Class_1_D459106EFEFB0716*>* JONGMMPJEIA; // 0x18
+	::System::Collections::Generic::List_1<::Class_1_D459106EFEFB0716*>* JONGMMPJEIA; // 0x10
+	::System::String* ONOAKCNFMBC; // 0x18
 	::System::Single CDJLMJDEPJA; // 0x20
 	::System::Int32 NOIIIOKMIIN; // 0x24
-	::System::Single CNHMBFIHLPC; // 0x28
-	::System::Boolean KPHIFEFPPDD; // 0x2C
+	::System::Single GJGKKECHEHH; // 0x28
+	::System::Boolean PPFBBBJIODA; // 0x2C
 	::System::Boolean JJOMBGLMEBL; // 0x2D
-	::System::Boolean PPFBBBJIODA; // 0x2E
-	::UnityEngine::Vector3 DCJFFIAPJME; // 0x30
-	::System::Single PIMDCJGDHMG; // 0x3C
-	::System::Single GJGKKECHEHH; // 0x40
+	::System::Boolean KPHIFEFPPDD; // 0x2E
+	::System::Single PIMDCJGDHMG; // 0x30
+	::UnityEngine::Vector3 DCJFFIAPJME; // 0x34
+	::System::Single CNHMBFIHLPC; // 0x40
 
 	::System::Void _ctor()
 	{

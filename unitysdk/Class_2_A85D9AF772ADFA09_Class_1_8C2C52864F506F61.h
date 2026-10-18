@@ -5,16 +5,16 @@
 namespace RPG::Client { class BaseShaderPropertyTransition; }
 namespace RPG::GameCore { class GameEntity; }
 
-#define CLASS_2_A85D9AF772ADFA09_CLASS_1_8C2C52864F506F61_CLEAR_OFFSET UNITYSDK_OFFSET(0x18487F80)
-#define CLASS_2_A85D9AF772ADFA09_CLASS_1_8C2C52864F506F61__CTOR_OFFSET UNITYSDK_OFFSET(0x18487FE0)
+#define CLASS_2_A85D9AF772ADFA09_CLASS_1_8C2C52864F506F61_CLEAR_OFFSET UNITYSDK_OFFSET(0xB5C9300)
+#define CLASS_2_A85D9AF772ADFA09_CLASS_1_8C2C52864F506F61__CTOR_OFFSET UNITYSDK_OFFSET(0xB5C9360)
 
-inline static constexpr unsigned int Class_2_A85D9AF772ADFA09_Class_1_8C2C52864F506F61_TypeDefinitionIndex = 73243;
+inline static constexpr unsigned int Class_2_A85D9AF772ADFA09_Class_1_8C2C52864F506F61_TypeDefinitionIndex = 73339;
 
 class Class_2_A85D9AF772ADFA09_Class_1_8C2C52864F506F61 : public ::System::Object
 {
 public:
-	::RPG::Client::BaseShaderPropertyTransition* LGNNAOLPNIP; // 0x10
-	::RPG::GameCore::GameEntity* GGKGFABFGFE; // 0x18
+	::RPG::GameCore::GameEntity* GGKGFABFGFE; // 0x10
+	::RPG::Client::BaseShaderPropertyTransition* LGNNAOLPNIP; // 0x18
 	::System::Int32 OJIPAAEFANF; // 0x20
 	::System::Single IEHPFADHJFD; // 0x24
 	::System::Int32 DOPGIAJMFFO; // 0x28

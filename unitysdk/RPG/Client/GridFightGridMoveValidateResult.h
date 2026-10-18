@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_GRIDFIGHTGRIDMOVEVALIDATERESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA42420)
+#define RPG_CLIENT_GRIDFIGHTGRIDMOVEVALIDATERESULT__CTOR_OFFSET UNITYSDK_OFFSET(0xD18A0C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightGridMoveValidateResult_TypeDefinitionIndex = 64915;
+	inline static constexpr unsigned int GridFightGridMoveValidateResult_TypeDefinitionIndex = 64855;
 
 	class GridFightGridMoveValidateResult : public ::System::Object
 	{

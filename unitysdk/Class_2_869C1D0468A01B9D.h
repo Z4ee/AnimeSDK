@@ -3,16 +3,16 @@
 #include "unitysdk/Class_1_05B2DA0FB841F389.h"
 #include "unitysdk/RPG/GameCore/FiveDimOrthoDirection.h"
 
-#define CLASS_2_869C1D0468A01B9D_CLEAR_OFFSET UNITYSDK_OFFSET(0x1A5D4CA0)
-#define CLASS_2_869C1D0468A01B9D__CTOR_OFFSET UNITYSDK_OFFSET(0x1A5D4D50)
+#define CLASS_2_869C1D0468A01B9D_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C8FFF30)
+#define CLASS_2_869C1D0468A01B9D__CTOR_OFFSET UNITYSDK_OFFSET(0x1C8FFFD0)
 
-inline static constexpr unsigned int Class_2_869C1D0468A01B9D_TypeDefinitionIndex = 41889;
+inline static constexpr unsigned int Class_2_869C1D0468A01B9D_TypeDefinitionIndex = 43531;
 
 class Class_2_869C1D0468A01B9D : public ::Class_1_05B2DA0FB841F389
 {
 public:
-	::RPG::GameCore::FiveDimOrthoDirection FFHIEMCJDJJ; // 0x100
-	::System::Boolean NBKDDFNGGBP; // 0x104
+	::System::Boolean NBKDDFNGGBP; // 0x100
+	::RPG::GameCore::FiveDimOrthoDirection FFHIEMCJDJJ; // 0x104
 
 	::System::Void _ctor()
 	{

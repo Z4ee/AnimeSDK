@@ -17,16 +17,16 @@ namespace System::Security::Cryptography::X509Certificates { class X509Certifica
 namespace System::Security::Cryptography::X509Certificates { class X509CertificateCollection; }
 namespace System::Security::Cryptography::X509Certificates { class X509Chain; }
 
-#define MONO_NET_SECURITY_CHAINVALIDATIONHELPER_CREATE_OFFSET UNITYSDK_OFFSET(0x1C4770E0)
-#define MONO_NET_SECURITY_CHAINVALIDATIONHELPER_DEFAULTSELECTIONCALLBACK_OFFSET UNITYSDK_OFFSET(0x1C4772F0)
-#define MONO_NET_SECURITY_CHAINVALIDATIONHELPER_GETINTERNALVALIDATOR_OFFSET UNITYSDK_OFFSET(0x1C476CD0)
-#define MONO_NET_SECURITY_CHAINVALIDATIONHELPER_GET_SETTINGS_OFFSET UNITYSDK_OFFSET(0x1C477440)
-#define MONO_NET_SECURITY_CHAINVALIDATIONHELPER_SELECTCLIENTCERTIFICATE_OFFSET UNITYSDK_OFFSET(0x1C477450)
-#define MONO_NET_SECURITY_CHAINVALIDATIONHELPER_VALIDATECERTIFICATE_1_OFFSET UNITYSDK_OFFSET(0x1C477750)
-#define MONO_NET_SECURITY_CHAINVALIDATIONHELPER_VALIDATECERTIFICATE_OFFSET UNITYSDK_OFFSET(0x1C4774A0)
-#define MONO_NET_SECURITY_CHAINVALIDATIONHELPER_VALIDATECHAIN_1_OFFSET UNITYSDK_OFFSET(0x1C4778D0)
-#define MONO_NET_SECURITY_CHAINVALIDATIONHELPER_VALIDATECHAIN_OFFSET UNITYSDK_OFFSET(0x1C477680)
-#define MONO_NET_SECURITY_CHAINVALIDATIONHELPER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C476D40)
+#define MONO_NET_SECURITY_CHAINVALIDATIONHELPER_CREATE_OFFSET UNITYSDK_OFFSET(0x1EF96840)
+#define MONO_NET_SECURITY_CHAINVALIDATIONHELPER_DEFAULTSELECTIONCALLBACK_OFFSET UNITYSDK_OFFSET(0x1EF96A50)
+#define MONO_NET_SECURITY_CHAINVALIDATIONHELPER_GETINTERNALVALIDATOR_OFFSET UNITYSDK_OFFSET(0x1EF963D0)
+#define MONO_NET_SECURITY_CHAINVALIDATIONHELPER_GET_SETTINGS_OFFSET UNITYSDK_OFFSET(0x1EF96BA0)
+#define MONO_NET_SECURITY_CHAINVALIDATIONHELPER_SELECTCLIENTCERTIFICATE_OFFSET UNITYSDK_OFFSET(0x1EF96BB0)
+#define MONO_NET_SECURITY_CHAINVALIDATIONHELPER_VALIDATECERTIFICATE_1_OFFSET UNITYSDK_OFFSET(0x1EF96EB0)
+#define MONO_NET_SECURITY_CHAINVALIDATIONHELPER_VALIDATECERTIFICATE_OFFSET UNITYSDK_OFFSET(0x1EF96C00)
+#define MONO_NET_SECURITY_CHAINVALIDATIONHELPER_VALIDATECHAIN_1_OFFSET UNITYSDK_OFFSET(0x1EF97030)
+#define MONO_NET_SECURITY_CHAINVALIDATIONHELPER_VALIDATECHAIN_OFFSET UNITYSDK_OFFSET(0x1EF96DE0)
+#define MONO_NET_SECURITY_CHAINVALIDATIONHELPER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF96440)
 
 namespace Mono::Net::Security
 {
@@ -35,14 +35,14 @@ namespace Mono::Net::Security
 	class ChainValidationHelper : public ::System::Object
 	{
 	public:
-		::Mono::Security::Interface::MonoTlsProvider* provider; // 0x10
-		::System::Net::HttpWebRequest* request; // 0x18
-		::Mono::Security::Interface::MonoTlsSettings* settings; // 0x20
+		::System::Net::ServerCertValidationCallback* certValidationCallback; // 0x10
+		::Mono::Net::Security::ServerCertValidationCallbackWrapper* callbackWrapper; // 0x18
+		::Mono::Security::Interface::MonoTlsProvider* provider; // 0x20
 		::Mono::Net::Security::MonoTlsStream* tlsStream; // 0x28
-		::System::Net::Security::LocalCertSelectionCallback* certSelectionCallback; // 0x30
-		::System::Net::ServerCertValidationCallback* certValidationCallback; // 0x38
-		::Mono::Net::Security::ServerCertValidationCallbackWrapper* callbackWrapper; // 0x40
-		::System::Object* sender; // 0x48
+		::System::Object* sender; // 0x30
+		::Mono::Security::Interface::MonoTlsSettings* settings; // 0x38
+		::System::Net::Security::LocalCertSelectionCallback* certSelectionCallback; // 0x40
+		::System::Net::HttpWebRequest* request; // 0x48
 
 		::System::Void _ctor(::Mono::Security::Interface::MonoTlsProvider* a1, ::Mono::Security::Interface::MonoTlsSettings* a2, ::System::Boolean a3, ::Mono::Net::Security::MonoTlsStream* a4, ::Mono::Net::Security::ServerCertValidationCallbackWrapper* a5)
 		{

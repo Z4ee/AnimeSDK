@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class MissionIDPair; }
 
-#define RPG_GAMECORE_MISSIONIDPAIRLIST_METHOD_2_A20ADB627B2B206E_OFFSET UNITYSDK_OFFSET(0x1D1ABD90)
-#define RPG_GAMECORE_MISSIONIDPAIRLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1ABE50)
+#define RPG_GAMECORE_MISSIONIDPAIRLIST_METHOD_2_A20ADB627B2B206E_OFFSET UNITYSDK_OFFSET(0x1D859AB0)
+#define RPG_GAMECORE_MISSIONIDPAIRLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x1D859B70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MissionIDPairList_TypeDefinitionIndex = 18800;
+	inline static constexpr unsigned int MissionIDPairList_TypeDefinitionIndex = 19024;
 
 	class MissionIDPairList : public ::RPG::GameCore::JsonConfig
 	{

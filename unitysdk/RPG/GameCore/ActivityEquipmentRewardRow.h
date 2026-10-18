@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ACTIVITYEQUIPMENTREWARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1C9F6840)
-#define RPG_GAMECORE_ACTIVITYEQUIPMENTREWARDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1C9F6A60)
+#define RPG_GAMECORE_ACTIVITYEQUIPMENTREWARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3275C0)
+#define RPG_GAMECORE_ACTIVITYEQUIPMENTREWARDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3277E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityEquipmentRewardRow_TypeDefinitionIndex = 11378;
+	inline static constexpr unsigned int ActivityEquipmentRewardRow_TypeDefinitionIndex = 11394;
 
 	class ActivityEquipmentRewardRow : public ::System::Object
 	{

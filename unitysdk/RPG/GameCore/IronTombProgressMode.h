@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IronTombProgressMode_TypeDefinitionIndex = 24379;
+	inline static constexpr unsigned int IronTombProgressMode_TypeDefinitionIndex = 24659;
 
 	enum class IronTombProgressMode : ::System::Int32
 	{

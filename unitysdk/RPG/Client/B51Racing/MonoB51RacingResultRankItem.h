@@ -9,17 +9,17 @@ namespace System { class String; }
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI { class Image; }
 
-#define RPG_CLIENT_B51RACING_MONOB51RACINGRESULTRANKITEM_SETUPVIEW_OFFSET UNITYSDK_OFFSET(0x1B6CC5E0)
-#define RPG_CLIENT_B51RACING_MONOB51RACINGRESULTRANKITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6E0900)
-#define RPG_CLIENT_B51RACING_MONOB51RACINGRESULTRANKITEM__GETPLAYERSTATENAME_OFFSET UNITYSDK_OFFSET(0x1B6E0790)
-#define RPG_CLIENT_B51RACING_MONOB51RACINGRESULTRANKITEM__GETRANKSTATENAME_OFFSET UNITYSDK_OFFSET(0x1B6E06B0)
-#define RPG_CLIENT_B51RACING_MONOB51RACINGRESULTRANKITEM__ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1B6E08B0)
-#define RPG_CLIENT_B51RACING_MONOB51RACINGRESULTRANKITEM__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0x1B6E0380)
-#define RPG_CLIENT_B51RACING_MONOB51RACINGRESULTRANKITEM__SHOULDSHOWSCORE_OFFSET UNITYSDK_OFFSET(0x1B6E0830)
+#define RPG_CLIENT_B51RACING_MONOB51RACINGRESULTRANKITEM_SETUPVIEW_OFFSET UNITYSDK_OFFSET(0xC7C2F10)
+#define RPG_CLIENT_B51RACING_MONOB51RACINGRESULTRANKITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xC7C4520)
+#define RPG_CLIENT_B51RACING_MONOB51RACINGRESULTRANKITEM__GETPLAYERSTATENAME_OFFSET UNITYSDK_OFFSET(0xC7C43B0)
+#define RPG_CLIENT_B51RACING_MONOB51RACINGRESULTRANKITEM__GETRANKSTATENAME_OFFSET UNITYSDK_OFFSET(0xC7C42D0)
+#define RPG_CLIENT_B51RACING_MONOB51RACINGRESULTRANKITEM__ONDESTROY_OFFSET UNITYSDK_OFFSET(0xC7C44D0)
+#define RPG_CLIENT_B51RACING_MONOB51RACINGRESULTRANKITEM__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0xC7C3FA0)
+#define RPG_CLIENT_B51RACING_MONOB51RACINGRESULTRANKITEM__SHOULDSHOWSCORE_OFFSET UNITYSDK_OFFSET(0xC7C4450)
 
 namespace RPG::Client::B51Racing
 {
-	inline static constexpr unsigned int MonoB51RacingResultRankItem_TypeDefinitionIndex = 80621;
+	inline static constexpr unsigned int MonoB51RacingResultRankItem_TypeDefinitionIndex = 81949;
 
 	class MonoB51RacingResultRankItem : public ::Sofa::BaseSofaControl
 	{
@@ -33,21 +33,21 @@ namespace RPG::Client::B51Racing
 		// static const ::System::String* PLAYER_STATE_NORMAL; // 0x0
 		// static const ::System::String* INFO_STATE_RESULT; // 0x0
 		// static const ::System::String* INFO_STATE_READY; // 0x0
-		::RPG::Client::UIStateCtrl* _RankStateCtrl; // 0x38
-		::RPG::Client::UIStateCtrl* _PlayerStateCtrl; // 0x40
-		::RPG::Client::UIStateCtrl* _InfoStateCtrl; // 0x48
-		::RPG::Client::LocalizedText* _RankText; // 0x50
-		::RPG::Client::LocalizedText* _PlayerRankText; // 0x58
-		::UnityEngine::Transform* _RankFrame; // 0x60
-		::UnityEngine::Transform* _RankIconPanel; // 0x68
-		::RPG::Client::LocalizedText* _PlayerNameText; // 0x70
-		::RPG::Client::LocalizedText* _TimeText; // 0x78
-		::UnityEngine::Transform* _NewRecordPanel; // 0x80
-		::RPG::Client::LocalizedText* _ScoreText; // 0x88
-		::UnityEngine::Transform* _ScorePanel; // 0x90
-		::UnityEngine::Transform* _LineNode; // 0x98
-		::UnityEngine::UI::Image* _TeamIconImage; // 0xA0
-		::RPG::Client::LocalizedText* _PlayerTagText; // 0xA8
+		::RPG::Client::UIStateCtrl* _RankStateCtrl; // 0x40
+		::RPG::Client::UIStateCtrl* _PlayerStateCtrl; // 0x48
+		::RPG::Client::UIStateCtrl* _InfoStateCtrl; // 0x50
+		::RPG::Client::LocalizedText* _RankText; // 0x58
+		::RPG::Client::LocalizedText* _PlayerRankText; // 0x60
+		::UnityEngine::Transform* _RankFrame; // 0x68
+		::UnityEngine::Transform* _RankIconPanel; // 0x70
+		::RPG::Client::LocalizedText* _PlayerNameText; // 0x78
+		::RPG::Client::LocalizedText* _TimeText; // 0x80
+		::UnityEngine::Transform* _NewRecordPanel; // 0x88
+		::RPG::Client::LocalizedText* _ScoreText; // 0x90
+		::UnityEngine::Transform* _ScorePanel; // 0x98
+		::UnityEngine::Transform* _LineNode; // 0xA0
+		::UnityEngine::UI::Image* _TeamIconImage; // 0xA8
+		::RPG::Client::LocalizedText* _PlayerTagText; // 0xB0
 
 		::System::Void _ctor()
 		{

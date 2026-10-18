@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_PINGPONGENEMYSHOOTCONFIG_METHOD_2_5B16C4A6BB5DA8FB_OFFSET UNITYSDK_OFFSET(0x1D78D900)
-#define RPG_GAMECORE_PINGPONGENEMYSHOOTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D78DAE0)
+#define RPG_GAMECORE_PINGPONGENEMYSHOOTCONFIG_METHOD_2_5B16C4A6BB5DA8FB_OFFSET UNITYSDK_OFFSET(0x1D8E9080)
+#define RPG_GAMECORE_PINGPONGENEMYSHOOTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D8E9260)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PingPongEnemyShootConfig_TypeDefinitionIndex = 16800;
+	inline static constexpr unsigned int PingPongEnemyShootConfig_TypeDefinitionIndex = 16994;
 
 	class PingPongEnemyShootConfig : public ::RPG::GameCore::JsonConfig
 	{

@@ -3,12 +3,12 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/ZenFulcrum/VR/OpenVRBinding/VRControllerAxis_t.h"
 
-#define ZENFULCRUM_VR_OPENVRBINDING_VRCONTROLLERSTATE_T_PACKED_UNPACK_OFFSET UNITYSDK_OFFSET(0x3C98DA0)
-#define ZENFULCRUM_VR_OPENVRBINDING_VRCONTROLLERSTATE_T_PACKED__CTOR_OFFSET UNITYSDK_OFFSET(0x3C98D70)
+#define ZENFULCRUM_VR_OPENVRBINDING_VRCONTROLLERSTATE_T_PACKED_UNPACK_OFFSET UNITYSDK_OFFSET(0x3C955B0)
+#define ZENFULCRUM_VR_OPENVRBINDING_VRCONTROLLERSTATE_T_PACKED__CTOR_OFFSET UNITYSDK_OFFSET(0x3C95580)
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int VRControllerState_t_Packed_TypeDefinitionIndex = 38010;
+	inline static constexpr unsigned int VRControllerState_t_Packed_TypeDefinitionIndex = 39307;
 
 	struct alignas(4) VRControllerState_t_Packed
 	{

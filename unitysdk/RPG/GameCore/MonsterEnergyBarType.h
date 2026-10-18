@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MonsterEnergyBarType_TypeDefinitionIndex = 24486;
+	inline static constexpr unsigned int MonsterEnergyBarType_TypeDefinitionIndex = 24768;
 
 	enum class MonsterEnergyBarType : ::System::Int32
 	{

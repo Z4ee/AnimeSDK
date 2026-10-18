@@ -4,9 +4,9 @@
 
 namespace System { class Action; }
 
-#define CLASS_1_95BCA8EECFBAC876_CLASS_1_ACB700F0EE23EB47___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16AFB030)
+#define CLASS_1_95BCA8EECFBAC876_CLASS_1_ACB700F0EE23EB47___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB9B2B20)
 
-inline static constexpr unsigned int Class_1_95BCA8EECFBAC876_Class_1_ACB700F0EE23EB47___c__DisplayClass10_0_TypeDefinitionIndex = 49601;
+inline static constexpr unsigned int Class_1_95BCA8EECFBAC876_Class_1_ACB700F0EE23EB47___c__DisplayClass10_0_TypeDefinitionIndex = 49175;
 
 class Class_1_95BCA8EECFBAC876_Class_1_ACB700F0EE23EB47___c__DisplayClass10_0 : public ::System::Object
 {

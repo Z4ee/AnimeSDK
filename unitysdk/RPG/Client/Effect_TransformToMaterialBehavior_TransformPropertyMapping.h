@@ -6,12 +6,12 @@ namespace RPG::Client { class Effect_TransformToMaterialBehavior_TransformProper
 namespace RPG::Client::TAUtils { class RendererSlots; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_EFFECT_TRANSFORMTOMATERIALBEHAVIOR_TRANSFORMPROPERTYMAPPING_METHOD_1_FD3B916300F77FDA_OFFSET UNITYSDK_OFFSET(0x15EA4D40)
-#define RPG_CLIENT_EFFECT_TRANSFORMTOMATERIALBEHAVIOR_TRANSFORMPROPERTYMAPPING__CTOR_OFFSET UNITYSDK_OFFSET(0x15EA5BD0)
+#define RPG_CLIENT_EFFECT_TRANSFORMTOMATERIALBEHAVIOR_TRANSFORMPROPERTYMAPPING_METHOD_1_FD3B916300F77FDA_OFFSET UNITYSDK_OFFSET(0xCD6B3F0)
+#define RPG_CLIENT_EFFECT_TRANSFORMTOMATERIALBEHAVIOR_TRANSFORMPROPERTYMAPPING__CTOR_OFFSET UNITYSDK_OFFSET(0xCD6C280)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_TransformToMaterialBehavior_TransformPropertyMapping_TypeDefinitionIndex = 70546;
+	inline static constexpr unsigned int Effect_TransformToMaterialBehavior_TransformPropertyMapping_TypeDefinitionIndex = 70582;
 
 	class Effect_TransformToMaterialBehavior_TransformPropertyMapping : public ::System::Object
 	{

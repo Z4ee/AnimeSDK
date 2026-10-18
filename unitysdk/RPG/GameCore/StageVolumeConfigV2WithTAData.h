@@ -7,13 +7,13 @@ namespace RPG::GameCore { class FilterVolumeData; }
 namespace RPG::GameCore { class StageVolumeComponentData; }
 namespace RPG::GameCore { class StreamingSceneObjLodScaleVolumeComponentData; }
 
-#define RPG_GAMECORE_STAGEVOLUMECONFIGV2WITHTADATA_METHOD_3_3B81F4ADDE81A666_OFFSET UNITYSDK_OFFSET(0x1CAEF580)
-#define RPG_GAMECORE_STAGEVOLUMECONFIGV2WITHTADATA_METHOD_3_B515B547F4B6196B_OFFSET UNITYSDK_OFFSET(0x1CAEF210)
-#define RPG_GAMECORE_STAGEVOLUMECONFIGV2WITHTADATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1CAEF200)
+#define RPG_GAMECORE_STAGEVOLUMECONFIGV2WITHTADATA_METHOD_3_04696D5700EBC262_OFFSET UNITYSDK_OFFSET(0x1DAE93B0)
+#define RPG_GAMECORE_STAGEVOLUMECONFIGV2WITHTADATA_METHOD_3_86EE26856ECD1EFD_OFFSET UNITYSDK_OFFSET(0x1DAE9870)
+#define RPG_GAMECORE_STAGEVOLUMECONFIGV2WITHTADATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1DAE93A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StageVolumeConfigV2WithTAData_TypeDefinitionIndex = 18925;
+	inline static constexpr unsigned int StageVolumeConfigV2WithTAData_TypeDefinitionIndex = 19152;
 
 	class StageVolumeConfigV2WithTAData : public ::RPG::GameCore::StageVolumeConfigV2
 	{
@@ -27,14 +27,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STAGEVOLUMECONFIGV2WITHTADATA__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_3B81F4ADDE81A666(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StageVolumeConfigV2WithTAData*& a2)
+		static ::System::Void Method_3_86EE26856ECD1EFD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StageVolumeConfigV2WithTAData*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StageVolumeConfigV2WithTAData*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STAGEVOLUMECONFIGV2WITHTADATA_METHOD_3_3B81F4ADDE81A666_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StageVolumeConfigV2WithTAData*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STAGEVOLUMECONFIGV2WITHTADATA_METHOD_3_86EE26856ECD1EFD_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_B515B547F4B6196B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StageVolumeConfigV2WithTAData* a2)
+		static ::System::Void Method_3_04696D5700EBC262(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StageVolumeConfigV2WithTAData* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StageVolumeConfigV2WithTAData*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STAGEVOLUMECONFIGV2WITHTADATA_METHOD_3_B515B547F4B6196B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StageVolumeConfigV2WithTAData*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STAGEVOLUMECONFIGV2WITHTADATA_METHOD_3_04696D5700EBC262_OFFSET))(a1, a2);
 		}
 	};
 }

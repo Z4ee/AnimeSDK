@@ -5,24 +5,24 @@
 namespace System { template <typename T> class Predicate_1; }
 namespace System::Net::Http::Headers { class NameValueHeaderValue; }
 
-#define SYSTEM_NET_HTTP_HEADERS_MEDIATYPEHEADERVALUE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E7E1E30)
-#define SYSTEM_NET_HTTP_HEADERS_MEDIATYPEHEADERVALUE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7E1E70)
-#define SYSTEM_NET_HTTP_HEADERS_MEDIATYPEHEADERVALUE___C__GET_CHARSET_B__6_0_OFFSET UNITYSDK_OFFSET(0x1E7E1E80)
+#define SYSTEM_NET_HTTP_HEADERS_MEDIATYPEHEADERVALUE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EE28C30)
+#define SYSTEM_NET_HTTP_HEADERS_MEDIATYPEHEADERVALUE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1EE28C70)
+#define SYSTEM_NET_HTTP_HEADERS_MEDIATYPEHEADERVALUE___C__GET_CHARSET_B__6_0_OFFSET UNITYSDK_OFFSET(0x1EE28C80)
 
 namespace System::Net::Http::Headers
 {
-	inline static constexpr unsigned int MediaTypeHeaderValue___c_TypeDefinitionIndex = 3803;
+	inline static constexpr unsigned int MediaTypeHeaderValue___c_TypeDefinitionIndex = 3804;
 
 	class MediaTypeHeaderValue___c : public ::System::Object
 	{
 	public:
 		static ::System::Net::Http::Headers::MediaTypeHeaderValue___c** StaticGet___9()
 		{
-			return (::System::Net::Http::Headers::MediaTypeHeaderValue___c**)Il2CppClass::FromTypeDefinitionIndex(MediaTypeHeaderValue___c_TypeDefinitionIndex)->GetStaticField(0x8440);
+			return (::System::Net::Http::Headers::MediaTypeHeaderValue___c**)Il2CppClass::FromTypeDefinitionIndex(MediaTypeHeaderValue___c_TypeDefinitionIndex)->GetStaticField(0x2760);
 		}
 		static ::System::Predicate_1<::System::Net::Http::Headers::NameValueHeaderValue*>** StaticGet___9__6_0()
 		{
-			return (::System::Predicate_1<::System::Net::Http::Headers::NameValueHeaderValue*>**)Il2CppClass::FromTypeDefinitionIndex(MediaTypeHeaderValue___c_TypeDefinitionIndex)->GetStaticField(0x8448);
+			return (::System::Predicate_1<::System::Net::Http::Headers::NameValueHeaderValue*>**)Il2CppClass::FromTypeDefinitionIndex(MediaTypeHeaderValue___c_TypeDefinitionIndex)->GetStaticField(0x2768);
 		}
 
 		static ::System::Void _cctor()

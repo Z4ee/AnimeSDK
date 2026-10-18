@@ -4,11 +4,11 @@
 
 namespace RPG::GameCore { class TriggerEffectList; }
 
-#define RPGTOOLS_STORY_SIMULATETRIGGEREFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B529560)
+#define RPGTOOLS_STORY_SIMULATETRIGGEREFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0xE89E6C0)
 
 namespace RPGTools::Story
 {
-	inline static constexpr unsigned int SimulateTriggerEffect_TypeDefinitionIndex = 49394;
+	inline static constexpr unsigned int SimulateTriggerEffect_TypeDefinitionIndex = 48968;
 
 	class SimulateTriggerEffect : public ::RPGTools::Story::CapturePropConfig
 	{

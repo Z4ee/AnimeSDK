@@ -9,7 +9,7 @@ namespace MessagePack { class MessagePackSerializerOptions; }
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int ValueTupleFormatter_1_TypeDefinitionIndex = 7460;
+	inline static constexpr unsigned int ValueTupleFormatter_1_TypeDefinitionIndex = 7514;
 
 	template <typename T1>
 	class ValueTupleFormatter_1 : public ::System::Object

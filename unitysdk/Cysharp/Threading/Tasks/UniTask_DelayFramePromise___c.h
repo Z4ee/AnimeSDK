@@ -4,25 +4,25 @@
 
 namespace System { template <typename T> class Action_1; }
 
-#define CYSHARP_THREADING_TASKS_UNITASK_DELAYFRAMEPROMISE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CE0DE20)
-#define CYSHARP_THREADING_TASKS_UNITASK_DELAYFRAMEPROMISE___C__CREATE_B__13_0_OFFSET UNITYSDK_OFFSET(0x1CE0DED0)
-#define CYSHARP_THREADING_TASKS_UNITASK_DELAYFRAMEPROMISE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE0DE60)
-#define CYSHARP_THREADING_TASKS_UNITASK_DELAYFRAMEPROMISE___C___CCTOR_B__4_0_OFFSET UNITYSDK_OFFSET(0x1CE0DE70)
+#define CYSHARP_THREADING_TASKS_UNITASK_DELAYFRAMEPROMISE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F119CF0)
+#define CYSHARP_THREADING_TASKS_UNITASK_DELAYFRAMEPROMISE___C__CREATE_B__13_0_OFFSET UNITYSDK_OFFSET(0x1F119DA0)
+#define CYSHARP_THREADING_TASKS_UNITASK_DELAYFRAMEPROMISE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1F119D30)
+#define CYSHARP_THREADING_TASKS_UNITASK_DELAYFRAMEPROMISE___C___CCTOR_B__4_0_OFFSET UNITYSDK_OFFSET(0x1F119D40)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UniTask_DelayFramePromise___c_TypeDefinitionIndex = 42650;
+	inline static constexpr unsigned int UniTask_DelayFramePromise___c_TypeDefinitionIndex = 38235;
 
 	class UniTask_DelayFramePromise___c : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::System::Object*>** StaticGet___9__13_0()
-		{
-			return (::System::Action_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(UniTask_DelayFramePromise___c_TypeDefinitionIndex)->GetStaticField(0x62580);
-		}
 		static ::Cysharp::Threading::Tasks::UniTask_DelayFramePromise___c** StaticGet___9()
 		{
-			return (::Cysharp::Threading::Tasks::UniTask_DelayFramePromise___c**)Il2CppClass::FromTypeDefinitionIndex(UniTask_DelayFramePromise___c_TypeDefinitionIndex)->GetStaticField(0x62588);
+			return (::Cysharp::Threading::Tasks::UniTask_DelayFramePromise___c**)Il2CppClass::FromTypeDefinitionIndex(UniTask_DelayFramePromise___c_TypeDefinitionIndex)->GetStaticField(0x39C50);
+		}
+		static ::System::Action_1<::System::Object*>** StaticGet___9__13_0()
+		{
+			return (::System::Action_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(UniTask_DelayFramePromise___c_TypeDefinitionIndex)->GetStaticField(0x39C58);
 		}
 
 		static ::System::Void _cctor()

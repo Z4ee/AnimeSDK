@@ -5,11 +5,12 @@
 
 namespace R3 { template <typename T> class Observer_1; }
 namespace R3 { template <typename T> class Subject_1_ObserverNode; }
+namespace System { class Exception; }
 namespace System { class IDisposable; }
 
 namespace R3
 {
-	inline static constexpr unsigned int Subject_1_TypeDefinitionIndex = 35285;
+	inline static constexpr unsigned int Subject_1_TypeDefinitionIndex = 35972;
 
 	template <typename T>
 	class Subject_1 : public ::R3::Observable_1<T>

@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_EQUIPMENTEXPTYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D7CAFA0)
-#define RPG_GAMECORE_EQUIPMENTEXPTYPEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7CB600)
+#define RPG_GAMECORE_EQUIPMENTEXPTYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D650980)
+#define RPG_GAMECORE_EQUIPMENTEXPTYPEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D650FE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EquipmentExpTypeRow_TypeDefinitionIndex = 13136;
+	inline static constexpr unsigned int EquipmentExpTypeRow_TypeDefinitionIndex = 13242;
 
 	class EquipmentExpTypeRow : public ::System::Object
 	{

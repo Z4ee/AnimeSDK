@@ -12,7 +12,7 @@ namespace System::Collections::Generic { template <typename T> class IEqualityCo
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int GroupJoin_4_TypeDefinitionIndex = 44251;
+	inline static constexpr unsigned int GroupJoin_4_TypeDefinitionIndex = 45390;
 
 	template <typename TOuter, typename TInner, typename TKey, typename TResult>
 	class GroupJoin_4 : public ::System::Object

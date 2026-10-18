@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AdvByContainBehaviorFlag; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_7DE56A9F88D6FF93_EVALUATE_OFFSET UNITYSDK_OFFSET(0x198FAE60)
-#define CLASS_3_7DE56A9F88D6FF93__CTOR_OFFSET UNITYSDK_OFFSET(0x198FAE30)
+#define CLASS_3_7DE56A9F88D6FF93_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC261720)
+#define CLASS_3_7DE56A9F88D6FF93__CTOR_OFFSET UNITYSDK_OFFSET(0xC2616F0)
 
-inline static constexpr unsigned int Class_3_7DE56A9F88D6FF93_TypeDefinitionIndex = 54666;
+inline static constexpr unsigned int Class_3_7DE56A9F88D6FF93_TypeDefinitionIndex = 54453;
 
 class Class_3_7DE56A9F88D6FF93 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::AdvByContainBehaviorFlag*>
 {

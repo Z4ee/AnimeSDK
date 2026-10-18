@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_ROGUEMAGICGAMESCOREPREVIEWDATAITEM_GET_ISEMPTY_OFFSET UNITYSDK_OFFSET(0x1B694BC0)
-#define RPG_CLIENT_ROGUEMAGICGAMESCOREPREVIEWDATAITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1B694C10)
+#define RPG_CLIENT_ROGUEMAGICGAMESCOREPREVIEWDATAITEM_GET_ISEMPTY_OFFSET UNITYSDK_OFFSET(0xDF1C430)
+#define RPG_CLIENT_ROGUEMAGICGAMESCOREPREVIEWDATAITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xDF1C480)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueMagicGameScorePreviewDataItem_TypeDefinitionIndex = 67392;
+	inline static constexpr unsigned int RogueMagicGameScorePreviewDataItem_TypeDefinitionIndex = 67394;
 
 	class RogueMagicGameScorePreviewDataItem : public ::System::Object
 	{
 	public:
-		::System::UInt32 Value; // 0x10
-		::System::Boolean IsReachLimit; // 0x14
+		::System::Boolean IsReachLimit; // 0x10
+		::System::UInt32 Value; // 0x14
 
 		::System::Void _ctor()
 		{

@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_UICAMERACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD702E0)
+#define MIHOYO_SDK_UICAMERACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BFE40A0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int UICameraConfig_TypeDefinitionIndex = 7887;
+	inline static constexpr unsigned int UICameraConfig_TypeDefinitionIndex = 7931;
 
 	class UICameraConfig : public ::System::Object
 	{

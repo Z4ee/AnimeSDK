@@ -6,28 +6,28 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_CAKECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CDD1B30)
-#define RPG_GAMECORE_CAKECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CDD1FC0)
+#define RPG_GAMECORE_CAKECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D518A60)
+#define RPG_GAMECORE_CAKECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D518EF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CakeConfigRow_TypeDefinitionIndex = 12822;
+	inline static constexpr unsigned int CakeConfigRow_TypeDefinitionIndex = 12928;
 
 	class CakeConfigRow : public ::System::Object
 	{
 	public:
-		::System::String* CatCakeHeadIcon; // 0x10
+		::System::String* CatCakeMiniIcon; // 0x10
 		::Il2CppArray<::System::UInt32>* CatMissedLines; // 0x18
-		::System::String* CakeDarkMatPath; // 0x20
-		::System::String* CatCakeMiniIcon; // 0x28
-		::System::String* CatMatPath; // 0x30
+		::System::String* CatMatPath; // 0x20
+		::System::String* CakeDarkMatPath; // 0x28
+		::Il2CppArray<::System::UInt32>* CatCaughtLines; // 0x30
 		::System::String* CatCakeTailPath; // 0x38
-		::Il2CppArray<::System::UInt32>* CatCaughtLines; // 0x40
+		::System::String* CatCakeHeadIcon; // 0x40
 		::System::UInt32 NPCID; // 0x48
-		::System::UInt32 CatTailColour; // 0x4C
-		::RPG::Client::TextID RuanMadeCakeStory; // 0x50
-		::System::UInt32 ID; // 0x60
-		::RPG::Client::TextID RuanMadeCakeName; // 0x68
+		::RPG::Client::TextID RuanMadeCakeName; // 0x50
+		::System::UInt32 CatTailColour; // 0x60
+		::System::UInt32 ID; // 0x64
+		::RPG::Client::TextID RuanMadeCakeStory; // 0x68
 
 		::System::Void _ctor()
 		{

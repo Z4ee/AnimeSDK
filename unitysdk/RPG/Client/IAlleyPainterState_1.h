@@ -6,7 +6,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IAlleyPainterState_1_TypeDefinitionIndex = 62408;
+	inline static constexpr unsigned int IAlleyPainterState_1_TypeDefinitionIndex = 62325;
 
 	template <typename T>
 	class IAlleyPainterState_1

@@ -5,18 +5,18 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ROGUEDLCCHESSBOARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D925E90)
-#define RPG_GAMECORE_ROGUEDLCCHESSBOARDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D926050)
+#define RPG_GAMECORE_ROGUEDLCCHESSBOARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D991E50)
+#define RPG_GAMECORE_ROGUEDLCCHESSBOARDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D992010)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueDLCChessBoardRow_TypeDefinitionIndex = 14605;
+	inline static constexpr unsigned int RogueDLCChessBoardRow_TypeDefinitionIndex = 14770;
 
 	class RogueDLCChessBoardRow : public ::System::Object
 	{
 	public:
-		::System::String* ChessBoardConfiguration; // 0x10
-		::Il2CppArray<::System::UInt32>* ChessBoardEventList; // 0x18
+		::Il2CppArray<::System::UInt32>* ChessBoardEventList; // 0x10
+		::System::String* ChessBoardConfiguration; // 0x18
 		::System::UInt32 BlockCreatGroupID; // 0x20
 		::System::UInt32 ChessBoardID; // 0x24
 

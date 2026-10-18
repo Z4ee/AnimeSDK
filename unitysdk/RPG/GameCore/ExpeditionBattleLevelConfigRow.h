@@ -4,18 +4,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_EXPEDITIONBATTLELEVELCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D7DBD40)
-#define RPG_GAMECORE_EXPEDITIONBATTLELEVELCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7DBE60)
+#define RPG_GAMECORE_EXPEDITIONBATTLELEVELCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D661870)
+#define RPG_GAMECORE_EXPEDITIONBATTLELEVELCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D661990)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ExpeditionBattleLevelConfigRow_TypeDefinitionIndex = 11430;
+	inline static constexpr unsigned int ExpeditionBattleLevelConfigRow_TypeDefinitionIndex = 11446;
 
 	class ExpeditionBattleLevelConfigRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 ID; // 0x10
-		::System::UInt32 StageID; // 0x14
+		::System::UInt32 StageID; // 0x10
+		::System::UInt32 ID; // 0x14
 
 		::System::Void _ctor()
 		{

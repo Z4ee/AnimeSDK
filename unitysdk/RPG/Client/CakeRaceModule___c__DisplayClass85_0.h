@@ -5,12 +5,12 @@
 namespace RPG::Client { class CakeRaceModule; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_CAKERACEMODULE___C__DISPLAYCLASS85_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C652640)
-#define RPG_CLIENT_CAKERACEMODULE___C__DISPLAYCLASS85_0__TRYACCEPTINVITED_B__0_OFFSET UNITYSDK_OFFSET(0x1C654890)
+#define RPG_CLIENT_CAKERACEMODULE___C__DISPLAYCLASS85_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC91BFA0)
+#define RPG_CLIENT_CAKERACEMODULE___C__DISPLAYCLASS85_0__TRYACCEPTINVITED_B__0_OFFSET UNITYSDK_OFFSET(0xC91E660)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CakeRaceModule___c__DisplayClass85_0_TypeDefinitionIndex = 63077;
+	inline static constexpr unsigned int CakeRaceModule___c__DisplayClass85_0_TypeDefinitionIndex = 63010;
 
 	class CakeRaceModule___c__DisplayClass85_0 : public ::System::Object
 	{

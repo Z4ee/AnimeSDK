@@ -5,29 +5,29 @@
 namespace RPG::Client { class MonopolyFriendRankingDisplayDataItem; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_MONOPOLYFRIENDINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C2A7660)
-#define RPG_CLIENT_MONOPOLYFRIENDINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1C2A76A0)
-#define RPG_CLIENT_MONOPOLYFRIENDINFO___C__SORTFRIENDRANKDATA_B__8_0_OFFSET UNITYSDK_OFFSET(0x1C2A76B0)
-#define RPG_CLIENT_MONOPOLYFRIENDINFO___C__SORTFRIENDRANKDATA_B__8_1_OFFSET UNITYSDK_OFFSET(0x1C2A76D0)
+#define RPG_CLIENT_MONOPOLYFRIENDINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD883FF0)
+#define RPG_CLIENT_MONOPOLYFRIENDINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD884030)
+#define RPG_CLIENT_MONOPOLYFRIENDINFO___C__SORTFRIENDRANKDATA_B__8_0_OFFSET UNITYSDK_OFFSET(0xD884040)
+#define RPG_CLIENT_MONOPOLYFRIENDINFO___C__SORTFRIENDRANKDATA_B__8_1_OFFSET UNITYSDK_OFFSET(0xD884060)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonopolyFriendInfo___c_TypeDefinitionIndex = 66297;
+	inline static constexpr unsigned int MonopolyFriendInfo___c_TypeDefinitionIndex = 66258;
 
 	class MonopolyFriendInfo___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::RPG::Client::MonopolyFriendRankingDisplayDataItem*, ::System::UInt32>** StaticGet___9__8_1()
 		{
-			return (::System::Func_2<::RPG::Client::MonopolyFriendRankingDisplayDataItem*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(MonopolyFriendInfo___c_TypeDefinitionIndex)->GetStaticField(0x1C250);
+			return (::System::Func_2<::RPG::Client::MonopolyFriendRankingDisplayDataItem*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(MonopolyFriendInfo___c_TypeDefinitionIndex)->GetStaticField(0x6A860);
 		}
 		static ::RPG::Client::MonopolyFriendInfo___c** StaticGet___9()
 		{
-			return (::RPG::Client::MonopolyFriendInfo___c**)Il2CppClass::FromTypeDefinitionIndex(MonopolyFriendInfo___c_TypeDefinitionIndex)->GetStaticField(0x1C258);
+			return (::RPG::Client::MonopolyFriendInfo___c**)Il2CppClass::FromTypeDefinitionIndex(MonopolyFriendInfo___c_TypeDefinitionIndex)->GetStaticField(0x6A868);
 		}
 		static ::System::Func_2<::RPG::Client::MonopolyFriendRankingDisplayDataItem*, ::System::UInt32>** StaticGet___9__8_0()
 		{
-			return (::System::Func_2<::RPG::Client::MonopolyFriendRankingDisplayDataItem*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(MonopolyFriendInfo___c_TypeDefinitionIndex)->GetStaticField(0x1C260);
+			return (::System::Func_2<::RPG::Client::MonopolyFriendRankingDisplayDataItem*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(MonopolyFriendInfo___c_TypeDefinitionIndex)->GetStaticField(0x6A870);
 		}
 
 		static ::System::Void _cctor()

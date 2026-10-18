@@ -1,15 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/CameraModuleType.h"
 #include "unitysdk/System/Object.h"
 
-namespace RPG::Client { class CameraDataAndFlags; }
-namespace RPG::Client { class CameraModuleConfigCollection; }
-namespace RPG::Client { class PipelineCameraEngine; }
-namespace RPG::Client { class PipelineCameraGlobalConfig; }
+template <typename T> class Class_0_16E4307DCC419505_419;
 
-inline static constexpr unsigned int Class_1_534AF681CC2BD5FD_123_TypeDefinitionIndex = 69696;
+inline static constexpr unsigned int Class_1_534AF681CC2BD5FD_123_TypeDefinitionIndex = 49965;
 
+template <typename TView>
 class Class_1_534AF681CC2BD5FD_123 : public ::System::Object
 {
 public:

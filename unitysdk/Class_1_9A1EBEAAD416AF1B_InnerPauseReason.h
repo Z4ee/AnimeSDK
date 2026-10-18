@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Class_1_9A1EBEAAD416AF1B_InnerPauseReason_TypeDefinitionIndex = 36467;
+inline static constexpr unsigned int Class_1_9A1EBEAAD416AF1B_InnerPauseReason_TypeDefinitionIndex = 37154;
 
 enum class Class_1_9A1EBEAAD416AF1B_InnerPauseReason : ::System::Byte
 {

@@ -1,23 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_DB663931210BBC27_38.h"
+#include "unitysdk/Enum_3_DB663931210BBC27_48.h"
 #include "unitysdk/System/Object.h"
 
 namespace RPG::Client { class GridFightEquipTrack; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 
-#define RPG_CLIENT_GRIDFIGHTEQUIPTRACKDATA___C__DISPLAYCLASS25_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD364E0)
-#define RPG_CLIENT_GRIDFIGHTEQUIPTRACKDATA___C__DISPLAYCLASS25_0__ISTRACKSAME_B__0_OFFSET UNITYSDK_OFFSET(0x1BD39E50)
+#define RPG_CLIENT_GRIDFIGHTEQUIPTRACKDATA___C__DISPLAYCLASS25_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD11E780)
+#define RPG_CLIENT_GRIDFIGHTEQUIPTRACKDATA___C__DISPLAYCLASS25_0__ISTRACKSAME_B__0_OFFSET UNITYSDK_OFFSET(0xD122050)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightEquipTrackData___c__DisplayClass25_0_TypeDefinitionIndex = 65392;
+	inline static constexpr unsigned int GridFightEquipTrackData___c__DisplayClass25_0_TypeDefinitionIndex = 65332;
 
 	class GridFightEquipTrackData___c__DisplayClass25_0 : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::IList_1<::System::UInt32>* trackEquipIDList; // 0x10
-		::Enum_3_DB663931210BBC27_38 trackSource; // 0x18
+		::Enum_3_DB663931210BBC27_48 trackSource; // 0x18
 		::System::UInt32 roleID; // 0x1C
 
 		::System::Void _ctor()

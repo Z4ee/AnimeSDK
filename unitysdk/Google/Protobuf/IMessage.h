@@ -7,7 +7,7 @@ namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 
 namespace Google::Protobuf
 {
-	inline static constexpr unsigned int IMessage_TypeDefinitionIndex = 5392;
+	inline static constexpr unsigned int IMessage_TypeDefinitionIndex = 5399;
 
 	class IMessage
 	{

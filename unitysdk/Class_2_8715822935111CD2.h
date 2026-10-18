@@ -7,17 +7,17 @@ namespace RPG::Client::LittleGame::PixAir { class PixAirLevelController; }
 namespace RPG::Client::PixAir { class IPixAirBattleAction; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_2_8715822935111CD2__CTOR_OFFSET UNITYSDK_OFFSET(0x19AD6D50)
+#define CLASS_2_8715822935111CD2__CTOR_OFFSET UNITYSDK_OFFSET(0x159F47F0)
 
-inline static constexpr unsigned int Class_2_8715822935111CD2_TypeDefinitionIndex = 76820;
+inline static constexpr unsigned int Class_2_8715822935111CD2_TypeDefinitionIndex = 77291;
 
 class Class_2_8715822935111CD2 : public ::Class_1_4CD8A1ACD565F336
 {
 public:
 	::Il2CppArray<::Class_1_6E6FEE1E26FFD7A8*>* DDAOEANOKCK; // 0x28
-	::Class_1_6E6FEE1E26FFD7A8* CJBIMPODIFN; // 0x30
+	::UnityEngine::Transform* OMELIJLJMME; // 0x30
 	::RPG::Client::PixAir::IPixAirBattleAction* NCPOBICNFCH; // 0x38
-	::UnityEngine::Transform* OMELIJLJMME; // 0x40
+	::Class_1_6E6FEE1E26FFD7A8* CJBIMPODIFN; // 0x40
 	::RPG::Client::LittleGame::PixAir::PixAirLevelController* JGCADGDDNCK; // 0x48
 
 	::System::Void _ctor()

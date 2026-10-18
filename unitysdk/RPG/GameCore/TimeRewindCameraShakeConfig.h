@@ -7,12 +7,12 @@ namespace RPG::GameCore { class VCameraOverrideShakeV2; }
 namespace RPG::GameCore { class VCameraShakeV2; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TIMEREWINDCAMERASHAKECONFIG_METHOD_2_4EFF71903B2FB69A_OFFSET UNITYSDK_OFFSET(0x1D5274C0)
-#define RPG_GAMECORE_TIMEREWINDCAMERASHAKECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D527640)
+#define RPG_GAMECORE_TIMEREWINDCAMERASHAKECONFIG_METHOD_2_4EFF71903B2FB69A_OFFSET UNITYSDK_OFFSET(0x1DB595B0)
+#define RPG_GAMECORE_TIMEREWINDCAMERASHAKECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB59730)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TimeRewindCameraShakeConfig_TypeDefinitionIndex = 16430;
+	inline static constexpr unsigned int TimeRewindCameraShakeConfig_TypeDefinitionIndex = 16606;
 
 	class TimeRewindCameraShakeConfig : public ::RPG::GameCore::JsonConfig
 	{

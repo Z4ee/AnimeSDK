@@ -6,10 +6,10 @@
 
 class WaveFloating;
 
-#define INTERACTPROXY__CTOR_1_OFFSET UNITYSDK_OFFSET(0x18E707B0)
-#define INTERACTPROXY__CTOR_OFFSET UNITYSDK_OFFSET(0x18E70790)
+#define INTERACTPROXY__CTOR_1_OFFSET UNITYSDK_OFFSET(0x16529A20)
+#define INTERACTPROXY__CTOR_OFFSET UNITYSDK_OFFSET(0x16529A00)
 
-inline static constexpr unsigned int InteractProxy_TypeDefinitionIndex = 47953;
+inline static constexpr unsigned int InteractProxy_TypeDefinitionIndex = 47493;
 
 class InteractProxy : public ::System::Object
 {

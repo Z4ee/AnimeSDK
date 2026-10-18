@@ -11,9 +11,9 @@ namespace System::Runtime::Remoting::Messaging
 	class Header : public ::System::Object
 	{
 	public:
-		::System::Object* Value; // 0x10
-		::System::String* Name; // 0x18
-		::System::String* HeaderNamespace; // 0x20
+		::System::String* Name; // 0x10
+		::System::String* HeaderNamespace; // 0x18
+		::System::Object* Value; // 0x20
 		::System::Boolean MustUnderstand; // 0x28
 	};
 }

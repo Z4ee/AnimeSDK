@@ -6,11 +6,11 @@
 class SceneLightStageData;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define SCENENLIGHTMANAGER_SCENELIGHTMANAGERCONFIGDATANEW__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF45FB0)
+#define SCENENLIGHTMANAGER_SCENELIGHTMANAGERCONFIGDATANEW__CTOR_OFFSET UNITYSDK_OFFSET(0xE95BFF0)
 
 namespace ScenenLightManager
 {
-	inline static constexpr unsigned int SceneLightManagerConfigDataNew_TypeDefinitionIndex = 49556;
+	inline static constexpr unsigned int SceneLightManagerConfigDataNew_TypeDefinitionIndex = 49130;
 
 	class SceneLightManagerConfigDataNew : public ::UnityEngine::ScriptableObject
 	{
@@ -29,6 +29,7 @@ namespace ScenenLightManager
 		::System::Single loadingDelayUpdateSpeed; // 0x44
 		::System::Boolean enablePVS; // 0x48
 		::System::Boolean enableNewLightVolume; // 0x49
+		::System::Boolean enableLightVolumeExportOrder; // 0x4A
 		::System::Collections::Generic::List_1<::SceneLightStageData*>* enableV2WhiteList; // 0x50
 
 		::System::Void _ctor()

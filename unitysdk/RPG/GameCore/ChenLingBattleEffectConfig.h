@@ -8,12 +8,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ChenLingBattleEffectTier; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHENLINGBATTLEEFFECTCONFIG_METHOD_2_F22C727D81B7294B_OFFSET UNITYSDK_OFFSET(0x1E006E20)
-#define RPG_GAMECORE_CHENLINGBATTLEEFFECTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1E00AB00)
+#define RPG_GAMECORE_CHENLINGBATTLEEFFECTCONFIG_METHOD_2_98571FF721E8BAF3_OFFSET UNITYSDK_OFFSET(0x1D551CF0)
+#define RPG_GAMECORE_CHENLINGBATTLEEFFECTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D555A40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingBattleEffectConfig_TypeDefinitionIndex = 15534;
+	inline static constexpr unsigned int ChenLingBattleEffectConfig_TypeDefinitionIndex = 15707;
 
 	class ChenLingBattleEffectConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -35,9 +35,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLEEFFECTCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_F22C727D81B7294B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChenLingBattleEffectConfig*& a2)
+		static ::System::Void Method_2_98571FF721E8BAF3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChenLingBattleEffectConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChenLingBattleEffectConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLEEFFECTCONFIG_METHOD_2_F22C727D81B7294B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChenLingBattleEffectConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLEEFFECTCONFIG_METHOD_2_98571FF721E8BAF3_OFFSET))(a1, a2);
 		}
 	};
 }

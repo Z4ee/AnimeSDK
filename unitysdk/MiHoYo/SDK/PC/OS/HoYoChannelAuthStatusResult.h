@@ -2,9 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MiHoYo/SDK/PC/OS/HoYoChannelBaseResult.h"
 
-namespace System { class String; }
+namespace MiHoYo::SDK::PC::OS { class EpicAuthStatusExtension; }
+namespace MiHoYo::SDK::PC::OS { class XboxAuthStatusExtension; }
 
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELAUTHSTATUSRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A2737B0)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELAUTHSTATUSRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x1BEF6F10)
 
 namespace MiHoYo::SDK::PC::OS
 {
@@ -14,7 +15,8 @@ namespace MiHoYo::SDK::PC::OS
 	{
 	public:
 		::System::Int32 status; // 0x30
-		::System::String* xuid; // 0x38
+		::MiHoYo::SDK::PC::OS::XboxAuthStatusExtension* xbox; // 0x38
+		::MiHoYo::SDK::PC::OS::EpicAuthStatusExtension* epic; // 0x40
 
 		::System::Void _ctor()
 		{

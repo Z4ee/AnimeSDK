@@ -5,7 +5,7 @@
 class Class_1_A139A18477C7681A;
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-inline static constexpr unsigned int Struct_2_F1DDB6E36FBC609F_TypeDefinitionIndex = 64287;
+inline static constexpr unsigned int Struct_2_F1DDB6E36FBC609F_TypeDefinitionIndex = 64225;
 
 struct alignas(8) Struct_2_F1DDB6E36FBC609F
 {

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TimeRewindControlSwitcherState_TypeDefinitionIndex = 57643;
+	inline static constexpr unsigned int TimeRewindControlSwitcherState_TypeDefinitionIndex = 57488;
 
 	enum class TimeRewindControlSwitcherState : ::System::Int32
 	{

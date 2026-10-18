@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ItemFoodSubType_TypeDefinitionIndex = 13745;
+	inline static constexpr unsigned int ItemFoodSubType_TypeDefinitionIndex = 13852;
 
 	enum class ItemFoodSubType : ::System::Int32
 	{

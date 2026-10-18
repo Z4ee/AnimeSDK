@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define COMPOUNDUNIT__CTOR_OFFSET UNITYSDK_OFFSET(0x1849C810)
+#define COMPOUNDUNIT__CTOR_OFFSET UNITYSDK_OFFSET(0xDF97ED0)
 
-inline static constexpr unsigned int CompoundUnit_TypeDefinitionIndex = 47638;
+inline static constexpr unsigned int CompoundUnit_TypeDefinitionIndex = 47178;
 
 class CompoundUnit : public ::System::Object
 {

@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_LEVELPEDESTRIANV2INTERSECTIONMECHAWAREHOUSEINFO_METHOD_3_BB6BB428FECD2D85_OFFSET UNITYSDK_OFFSET(0x1C12CC50)
-#define RPG_GAMECORE_LEVELPEDESTRIANV2INTERSECTIONMECHAWAREHOUSEINFO_METHOD_3_DA0546E2F04BDA32_OFFSET UNITYSDK_OFFSET(0x1C12D5D0)
-#define RPG_GAMECORE_LEVELPEDESTRIANV2INTERSECTIONMECHAWAREHOUSEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1C12CC40)
+#define RPG_GAMECORE_LEVELPEDESTRIANV2INTERSECTIONMECHAWAREHOUSEINFO_METHOD_3_6A35BA447E646AEC_OFFSET UNITYSDK_OFFSET(0x1D79A2C0)
+#define RPG_GAMECORE_LEVELPEDESTRIANV2INTERSECTIONMECHAWAREHOUSEINFO_METHOD_3_8B0EDA5814D3619C_OFFSET UNITYSDK_OFFSET(0x1D79AE50)
+#define RPG_GAMECORE_LEVELPEDESTRIANV2INTERSECTIONMECHAWAREHOUSEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1D79A2B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelPedestrianV2IntersectionMechaWarehouseInfo_TypeDefinitionIndex = 17107;
+	inline static constexpr unsigned int LevelPedestrianV2IntersectionMechaWarehouseInfo_TypeDefinitionIndex = 17302;
 
 	class LevelPedestrianV2IntersectionMechaWarehouseInfo : public ::RPG::GameCore::LevelPedestrianV2IntersectionInfo
 	{
@@ -31,14 +31,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPEDESTRIANV2INTERSECTIONMECHAWAREHOUSEINFO__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_DA0546E2F04BDA32(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelPedestrianV2IntersectionMechaWarehouseInfo*& a2)
+		static ::System::Void Method_3_8B0EDA5814D3619C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelPedestrianV2IntersectionMechaWarehouseInfo*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelPedestrianV2IntersectionMechaWarehouseInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPEDESTRIANV2INTERSECTIONMECHAWAREHOUSEINFO_METHOD_3_DA0546E2F04BDA32_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelPedestrianV2IntersectionMechaWarehouseInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPEDESTRIANV2INTERSECTIONMECHAWAREHOUSEINFO_METHOD_3_8B0EDA5814D3619C_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_BB6BB428FECD2D85(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelPedestrianV2IntersectionMechaWarehouseInfo* a2)
+		static ::System::Void Method_3_6A35BA447E646AEC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelPedestrianV2IntersectionMechaWarehouseInfo* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelPedestrianV2IntersectionMechaWarehouseInfo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPEDESTRIANV2INTERSECTIONMECHAWAREHOUSEINFO_METHOD_3_BB6BB428FECD2D85_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelPedestrianV2IntersectionMechaWarehouseInfo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPEDESTRIANV2INTERSECTIONMECHAWAREHOUSEINFO_METHOD_3_6A35BA447E646AEC_OFFSET))(a1, a2);
 		}
 	};
 }

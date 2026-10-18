@@ -6,22 +6,22 @@
 
 class Class_1_D2B8D50DD9833CFC;
 
-#define CLASS_1_5C3804B21DF947F4_METHOD_1_CB7604B59F367726_OFFSET UNITYSDK_OFFSET(0x163E82C0)
-#define CLASS_1_5C3804B21DF947F4__CTOR_OFFSET UNITYSDK_OFFSET(0x163E8390)
+#define CLASS_1_5C3804B21DF947F4_METHOD_1_CB7604B59F367726_OFFSET UNITYSDK_OFFSET(0xC218620)
+#define CLASS_1_5C3804B21DF947F4__CTOR_OFFSET UNITYSDK_OFFSET(0xC218710)
 
-inline static constexpr unsigned int Class_1_5C3804B21DF947F4_TypeDefinitionIndex = 68260;
+inline static constexpr unsigned int Class_1_5C3804B21DF947F4_TypeDefinitionIndex = 68291;
 
 class Class_1_5C3804B21DF947F4 : public ::System::Object
 {
 public:
 	::Class_1_D2B8D50DD9833CFC* MLNKEFHLILL; // 0x10
-	::UnityEngine::Vector2Int JKFNNOAMDIM; // 0x18
-	::UnityEngine::Vector2 LMEFBDLNLOG; // 0x20
-	::UnityEngine::Vector2 JLHCFHJOBEI; // 0x28
+	::UnityEngine::Vector2Int HKIGCKAEJOH; // 0x18
+	::System::Boolean ADHKECBDCPC; // 0x20
+	::System::Int32 IIDICHNBHGI; // 0x24
+	::UnityEngine::Vector2 LMEFBDLNLOG; // 0x28
 	::System::Single GBELCIENEBE; // 0x30
-	::System::Int32 IIDICHNBHGI; // 0x34
-	::UnityEngine::Vector2Int HKIGCKAEJOH; // 0x38
-	::System::Boolean ADHKECBDCPC; // 0x40
+	::UnityEngine::Vector2Int JKFNNOAMDIM; // 0x34
+	::UnityEngine::Vector2 JLHCFHJOBEI; // 0x3C
 
 	::System::Void _ctor()
 	{

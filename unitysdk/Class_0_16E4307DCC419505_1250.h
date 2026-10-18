@@ -1,11 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/ActivityIdleLive/EquipSelectUiData.h"
-#include "unitysdk/RPG/Client/ActivityIdleLive/IdleLiveDecimal.h"
 
-class Class_0_16E4307DCC419505_714;
+class Class_0_16E4307DCC419505_1249;
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_1250_TypeDefinitionIndex = 74927;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_1250_TypeDefinitionIndex = 72455;
 
 class Class_0_16E4307DCC419505_1250
 {

@@ -5,9 +5,9 @@
 
 namespace RPG::GameCore { class GameEntity; }
 
-#define STRUCT_2_BAFD362D8FC4BA51_METHOD_2_E812D6FF10E8B583_OFFSET UNITYSDK_OFFSET(0x1A481130)
+#define STRUCT_2_BAFD362D8FC4BA51_METHOD_2_E812D6FF10E8B583_OFFSET UNITYSDK_OFFSET(0xB836D90)
 
-inline static constexpr unsigned int Struct_2_BAFD362D8FC4BA51_TypeDefinitionIndex = 56159;
+inline static constexpr unsigned int Struct_2_BAFD362D8FC4BA51_TypeDefinitionIndex = 55971;
 
 struct alignas(8) Struct_2_BAFD362D8FC4BA51
 {

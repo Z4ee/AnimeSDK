@@ -6,7 +6,7 @@
 
 namespace RPG::GameCore { class AdventureModifierInstance; }
 
-inline static constexpr unsigned int Struct_2_A98C406BD653F8E9_TypeDefinitionIndex = 57163;
+inline static constexpr unsigned int Struct_2_A98C406BD653F8E9_TypeDefinitionIndex = 56996;
 
 struct alignas(8) Struct_2_A98C406BD653F8E9
 {

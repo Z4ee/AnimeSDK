@@ -4,12 +4,12 @@
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define RPG_CLIENT_PARKOURGAME_MONOPARKOURCURVEMOVEITEM_SETPOSANDROT_OFFSET UNITYSDK_OFFSET(0x1C4DB050)
-#define RPG_CLIENT_PARKOURGAME_MONOPARKOURCURVEMOVEITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4DB110)
+#define RPG_CLIENT_PARKOURGAME_MONOPARKOURCURVEMOVEITEM_SETPOSANDROT_OFFSET UNITYSDK_OFFSET(0xDA6AEC0)
+#define RPG_CLIENT_PARKOURGAME_MONOPARKOURCURVEMOVEITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xDA6AF80)
 
 namespace RPG::Client::ParkourGame
 {
-	inline static constexpr unsigned int MonoParkourCurveMoveItem_TypeDefinitionIndex = 74036;
+	inline static constexpr unsigned int MonoParkourCurveMoveItem_TypeDefinitionIndex = 74135;
 
 	class MonoParkourCurveMoveItem : public ::UnityEngine::MonoBehaviour
 	{

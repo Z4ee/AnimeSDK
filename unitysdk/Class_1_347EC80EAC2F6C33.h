@@ -8,35 +8,35 @@ namespace RPG::GameCore { class TaskListTemplate; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_347EC80EAC2F6C33_METHOD_1_00F1CA52F505B86F_OFFSET UNITYSDK_OFFSET(0x19C1B210)
-#define CLASS_1_347EC80EAC2F6C33_METHOD_1_14EDD416CCB7D2D3_OFFSET UNITYSDK_OFFSET(0x19C1B470)
-#define CLASS_1_347EC80EAC2F6C33_METHOD_1_218124418542E081_OFFSET UNITYSDK_OFFSET(0x19C1B1A0)
-#define CLASS_1_347EC80EAC2F6C33_METHOD_1_3DFCA4C89D58D97F_OFFSET UNITYSDK_OFFSET(0x19C1AC00)
-#define CLASS_1_347EC80EAC2F6C33_METHOD_1_85AF042CEF6D8F22_OFFSET UNITYSDK_OFFSET(0x19C1B340)
-#define CLASS_1_347EC80EAC2F6C33_METHOD_1_96E5183035CB50D7_OFFSET UNITYSDK_OFFSET(0x19C1B5A0)
-#define CLASS_1_347EC80EAC2F6C33_METHOD_1_A5D8042757FF6C0E_OFFSET UNITYSDK_OFFSET(0x19C1B140)
-#define CLASS_1_347EC80EAC2F6C33_METHOD_1_B7F8E0B4AF22DEA3_OFFSET UNITYSDK_OFFSET(0x19C1AF20)
-#define CLASS_1_347EC80EAC2F6C33_METHOD_1_CB8E229BDF290D41_OFFSET UNITYSDK_OFFSET(0x19C1A720)
-#define CLASS_1_347EC80EAC2F6C33_METHOD_1_D9B29857F7344FDA_OFFSET UNITYSDK_OFFSET(0x19C1AA40)
-#define CLASS_1_347EC80EAC2F6C33_METHOD_1_E2F3CA84DC4138D8_OFFSET UNITYSDK_OFFSET(0x19C1B0D0)
-#define CLASS_1_347EC80EAC2F6C33__CCTOR_OFFSET UNITYSDK_OFFSET(0x19C1B690)
+#define CLASS_1_347EC80EAC2F6C33_METHOD_1_00F1CA52F505B86F_OFFSET UNITYSDK_OFFSET(0xB3334D0)
+#define CLASS_1_347EC80EAC2F6C33_METHOD_1_14EDD416CCB7D2D3_OFFSET UNITYSDK_OFFSET(0xB333730)
+#define CLASS_1_347EC80EAC2F6C33_METHOD_1_218124418542E081_OFFSET UNITYSDK_OFFSET(0xB333460)
+#define CLASS_1_347EC80EAC2F6C33_METHOD_1_3DFCA4C89D58D97F_OFFSET UNITYSDK_OFFSET(0xB332EC0)
+#define CLASS_1_347EC80EAC2F6C33_METHOD_1_85AF042CEF6D8F22_OFFSET UNITYSDK_OFFSET(0xB333600)
+#define CLASS_1_347EC80EAC2F6C33_METHOD_1_96E5183035CB50D7_OFFSET UNITYSDK_OFFSET(0xB333860)
+#define CLASS_1_347EC80EAC2F6C33_METHOD_1_A5D8042757FF6C0E_OFFSET UNITYSDK_OFFSET(0xB333400)
+#define CLASS_1_347EC80EAC2F6C33_METHOD_1_B7F8E0B4AF22DEA3_OFFSET UNITYSDK_OFFSET(0xB3331E0)
+#define CLASS_1_347EC80EAC2F6C33_METHOD_1_CB8E229BDF290D41_OFFSET UNITYSDK_OFFSET(0xB3329E0)
+#define CLASS_1_347EC80EAC2F6C33_METHOD_1_D9B29857F7344FDA_OFFSET UNITYSDK_OFFSET(0xB332D00)
+#define CLASS_1_347EC80EAC2F6C33_METHOD_1_E2F3CA84DC4138D8_OFFSET UNITYSDK_OFFSET(0xB333390)
+#define CLASS_1_347EC80EAC2F6C33__CCTOR_OFFSET UNITYSDK_OFFSET(0xB333950)
 
-inline static constexpr unsigned int Class_1_347EC80EAC2F6C33_TypeDefinitionIndex = 56708;
+inline static constexpr unsigned int Class_1_347EC80EAC2F6C33_TypeDefinitionIndex = 56527;
 
 class Class_1_347EC80EAC2F6C33 : public ::System::Object
 {
 public:
 	static ::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::RtModifierConfig*>** StaticGet_OECPOEALKGF()
 	{
-		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::RtModifierConfig*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_347EC80EAC2F6C33_TypeDefinitionIndex)->GetStaticField(0x5D590);
-	}
-	static ::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::RtAbilityConfig*>** StaticGet_CALBNDOIHAE()
-	{
-		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::RtAbilityConfig*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_347EC80EAC2F6C33_TypeDefinitionIndex)->GetStaticField(0x5D598);
+		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::RtModifierConfig*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_347EC80EAC2F6C33_TypeDefinitionIndex)->GetStaticField(0x34F70);
 	}
 	static ::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::TaskListTemplate*>** StaticGet_NJILLIKILGL()
 	{
-		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::TaskListTemplate*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_347EC80EAC2F6C33_TypeDefinitionIndex)->GetStaticField(0x5D5A0);
+		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::TaskListTemplate*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_347EC80EAC2F6C33_TypeDefinitionIndex)->GetStaticField(0x34F78);
+	}
+	static ::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::RtAbilityConfig*>** StaticGet_CALBNDOIHAE()
+	{
+		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::RtAbilityConfig*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_347EC80EAC2F6C33_TypeDefinitionIndex)->GetStaticField(0x34F80);
 	}
 
 	static ::System::Void _cctor()

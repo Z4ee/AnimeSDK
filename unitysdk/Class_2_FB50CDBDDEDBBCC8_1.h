@@ -1,40 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_D019640AABA5E1A8.h"
-#include "unitysdk/RPG/Client/SwordTraining/SwordTrainingGameStateType.h"
+#include "unitysdk/Class_1_09F1E5C0FD9FCAB7.h"
 
-class Class_1_21C7581DFE99F091_130;
-namespace RPG::Client { class SwordTrainingGameInstance; }
+class Class_0_16E4307DCC419505_1055;
+class Class_1_C22769E5B6B38BE7;
 
-#define CLASS_2_FB50CDBDDEDBBCC8_1_METHOD_2_7C2C2820B36B9508_OFFSET UNITYSDK_OFFSET(0x179C82A0)
-#define CLASS_2_FB50CDBDDEDBBCC8_1_METHOD_2_8E23425F959FF044_OFFSET UNITYSDK_OFFSET(0x179C8190)
-#define CLASS_2_FB50CDBDDEDBBCC8_1_METHOD_2_9E16668DCD80C475_OFFSET UNITYSDK_OFFSET(0x179C81E0)
-#define CLASS_2_FB50CDBDDEDBBCC8_1__CTOR_OFFSET UNITYSDK_OFFSET(0x179C8180)
+#define CLASS_2_FB50CDBDDEDBBCC8_1_METHOD_2_1F5C9C60D1DE580B_OFFSET UNITYSDK_OFFSET(0xC9DC130)
+#define CLASS_2_FB50CDBDDEDBBCC8_1__CTOR_OFFSET UNITYSDK_OFFSET(0xC9DC120)
 
-inline static constexpr unsigned int Class_2_FB50CDBDDEDBBCC8_1_TypeDefinitionIndex = 74749;
+inline static constexpr unsigned int Class_2_FB50CDBDDEDBBCC8_1_TypeDefinitionIndex = 67189;
 
-class Class_2_FB50CDBDDEDBBCC8_1 : public ::Class_1_D019640AABA5E1A8
+class Class_2_FB50CDBDDEDBBCC8_1 : public ::Class_1_09F1E5C0FD9FCAB7
 {
 public:
-	::Class_1_21C7581DFE99F091_130* HCCBPCJNJMH; // 0x28
+	::Class_1_C22769E5B6B38BE7* OFKHJNMELII; // 0x10
 
-	::System::Void _ctor(::Class_1_21C7581DFE99F091_130* a1)
+	::System::Void _ctor(::Class_1_C22769E5B6B38BE7* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_1_21C7581DFE99F091_130*))((::PBYTE)hIl2Cpp + CLASS_2_FB50CDBDDEDBBCC8_1__CTOR_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::Class_1_C22769E5B6B38BE7*))((::PBYTE)hIl2Cpp + CLASS_2_FB50CDBDDEDBBCC8_1__CTOR_OFFSET))(this, a1);
 	}
 
-	::RPG::Client::SwordTraining::SwordTrainingGameStateType Method_2_8E23425F959FF044()
+	::Class_0_16E4307DCC419505_1055* Method_2_1F5C9C60D1DE580B()
 	{
-		return ((::RPG::Client::SwordTraining::SwordTrainingGameStateType(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_FB50CDBDDEDBBCC8_1_METHOD_2_8E23425F959FF044_OFFSET))(this);
-	}
-
-	::System::Void Method_2_9E16668DCD80C475(::RPG::Client::SwordTrainingGameInstance* a1)
-	{
-		return ((::System::Void(*)(::PVOID, ::RPG::Client::SwordTrainingGameInstance*))((::PBYTE)hIl2Cpp + CLASS_2_FB50CDBDDEDBBCC8_1_METHOD_2_9E16668DCD80C475_OFFSET))(this, a1);
-	}
-
-	::System::Void Method_2_7C2C2820B36B9508()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_FB50CDBDDEDBBCC8_1_METHOD_2_7C2C2820B36B9508_OFFSET))(this);
+		return ((::Class_0_16E4307DCC419505_1055*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_FB50CDBDDEDBBCC8_1_METHOD_2_1F5C9C60D1DE580B_OFFSET))(this);
 	}
 };

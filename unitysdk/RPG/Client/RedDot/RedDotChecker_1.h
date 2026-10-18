@@ -4,7 +4,7 @@
 #include "unitysdk/Struct_2_E783A7CB5DB08322.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_338;
+class Class_0_16E4307DCC419505_409;
 class Class_1_6045926B515B7744;
 class Class_1_F512C5C8F4EF9039;
 namespace RPG::Client::RedDot { template <typename T> class RedDotState_1; }
@@ -13,7 +13,7 @@ namespace System { template <typename T> class Action_1; }
 
 namespace RPG::Client::RedDot
 {
-	inline static constexpr unsigned int RedDotChecker_1_TypeDefinitionIndex = 78677;
+	inline static constexpr unsigned int RedDotChecker_1_TypeDefinitionIndex = 79156;
 
 	template <typename TInstanceKey>
 	class RedDotChecker_1 : public ::System::Object

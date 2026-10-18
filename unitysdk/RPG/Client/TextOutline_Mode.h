@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TextOutline_Mode_TypeDefinitionIndex = 72610;
+	inline static constexpr unsigned int TextOutline_Mode_TypeDefinitionIndex = 72685;
 
 	enum class TextOutline_Mode : ::System::Int32
 	{

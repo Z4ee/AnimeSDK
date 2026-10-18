@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CakeValidAreaType_TypeDefinitionIndex = 12829;
+	inline static constexpr unsigned int CakeValidAreaType_TypeDefinitionIndex = 12935;
 
 	enum class CakeValidAreaType : ::System::Int32
 	{

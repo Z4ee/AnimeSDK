@@ -11,15 +11,15 @@ namespace System
 	public:
 		static ::System::Boolean* StaticGet_ThrowExceptionIfDisposedCancellationTokenSource()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(AppContextSwitches_TypeDefinitionIndex)->GetStaticField(0x3BB0);
-		}
-		static ::System::Boolean* StaticGet_SetActorAsReferenceWhenCopyingClaimsIdentity()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(AppContextSwitches_TypeDefinitionIndex)->GetStaticField(0x3BB1);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(AppContextSwitches_TypeDefinitionIndex)->GetStaticField(0x4100);
 		}
 		static ::System::Boolean* StaticGet_PreserveEventListnerObjectIdentity()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(AppContextSwitches_TypeDefinitionIndex)->GetStaticField(0x3BB2);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(AppContextSwitches_TypeDefinitionIndex)->GetStaticField(0x4101);
+		}
+		static ::System::Boolean* StaticGet_SetActorAsReferenceWhenCopyingClaimsIdentity()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(AppContextSwitches_TypeDefinitionIndex)->GetStaticField(0x4102);
 		}
 	};
 }

@@ -2,14 +2,14 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_28D410CCE235575F_6;
+class Class_1_28D410CCE235575F_9;
 class Class_2_2677292940697014;
 namespace RPG::Client::Promises { class IPromise; }
 
-#define CLASS_2_2677292940697014___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17ECF1A0)
-#define CLASS_2_2677292940697014___C__DISPLAYCLASS8_0__SENDSETLINEUPCSREQ_B__0_OFFSET UNITYSDK_OFFSET(0x17ECF6E0)
+#define CLASS_2_2677292940697014___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB14F0A0)
+#define CLASS_2_2677292940697014___C__DISPLAYCLASS8_0__SENDSETLINEUPCSREQ_B__0_OFFSET UNITYSDK_OFFSET(0xB14F5E0)
 
-inline static constexpr unsigned int Class_2_2677292940697014___c__DisplayClass8_0_TypeDefinitionIndex = 64001;
+inline static constexpr unsigned int Class_2_2677292940697014___c__DisplayClass8_0_TypeDefinitionIndex = 63939;
 
 class Class_2_2677292940697014___c__DisplayClass8_0 : public ::System::Object
 {
@@ -22,8 +22,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_2677292940697014___C__DISPLAYCLASS8_0__CTOR_OFFSET))(this);
 	}
 
-	::RPG::Client::Promises::IPromise* _SendSetLineupCsReq_b__0(::Class_1_28D410CCE235575F_6* a1)
+	::RPG::Client::Promises::IPromise* _SendSetLineupCsReq_b__0(::Class_1_28D410CCE235575F_9* a1)
 	{
-		return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::Class_1_28D410CCE235575F_6*))((::PBYTE)hIl2Cpp + CLASS_2_2677292940697014___C__DISPLAYCLASS8_0__SENDSETLINEUPCSREQ_B__0_OFFSET))(this, a1);
+		return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::Class_1_28D410CCE235575F_9*))((::PBYTE)hIl2Cpp + CLASS_2_2677292940697014___C__DISPLAYCLASS8_0__SENDSETLINEUPCSREQ_B__0_OFFSET))(this, a1);
 	}
 };

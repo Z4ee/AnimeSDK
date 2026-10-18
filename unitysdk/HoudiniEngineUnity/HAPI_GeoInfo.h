@@ -4,11 +4,11 @@
 #include "unitysdk/HoudiniEngineUnity/HAPI_GroupType.h"
 #include "unitysdk/System/ValueType.h"
 
-#define HOUDINIENGINEUNITY_HAPI_GEOINFO_GETGROUPCOUNTBYTYPE_OFFSET UNITYSDK_OFFSET(0x3A96460)
+#define HOUDINIENGINEUNITY_HAPI_GEOINFO_GETGROUPCOUNTBYTYPE_OFFSET UNITYSDK_OFFSET(0x304B690)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HAPI_GeoInfo_TypeDefinitionIndex = 39207;
+	inline static constexpr unsigned int HAPI_GeoInfo_TypeDefinitionIndex = 40504;
 
 	struct alignas(4) HAPI_GeoInfo
 	{

@@ -1,9 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-namespace UnityEngine::Timeline { class TimelineClip; }
+class Class_0_16E4307DCC419505_329;
+namespace Entitas { class IEntity; }
+namespace RPG::GameCore { class BaseLittleGameAbilityEffectConfig; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_363_TypeDefinitionIndex = 48687;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_363_TypeDefinitionIndex = 43699;
 
 class Class_0_16E4307DCC419505_363
 {

@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_EXPEDITIONBATTLEDISPLAYCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D7DB3B0)
-#define RPG_GAMECORE_EXPEDITIONBATTLEDISPLAYCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7DB6D0)
+#define RPG_GAMECORE_EXPEDITIONBATTLEDISPLAYCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D660EE0)
+#define RPG_GAMECORE_EXPEDITIONBATTLEDISPLAYCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D661200)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ExpeditionBattleDisplayConfigRow_TypeDefinitionIndex = 11438;
+	inline static constexpr unsigned int ExpeditionBattleDisplayConfigRow_TypeDefinitionIndex = 11454;
 
 	class ExpeditionBattleDisplayConfigRow : public ::System::Object
 	{

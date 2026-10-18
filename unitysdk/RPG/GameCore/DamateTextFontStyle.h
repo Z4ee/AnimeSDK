@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DamateTextFontStyle_TypeDefinitionIndex = 24428;
+	inline static constexpr unsigned int DamateTextFontStyle_TypeDefinitionIndex = 24709;
 
 	enum class DamateTextFontStyle : ::System::Int32
 	{

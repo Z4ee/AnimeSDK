@@ -3,7 +3,7 @@
 
 namespace RPG::Client::DiceCombat
 {
-	inline static constexpr unsigned int DiceCombatV2StageState_TypeDefinitionIndex = 75697;
+	inline static constexpr unsigned int DiceCombatV2StageState_TypeDefinitionIndex = 76174;
 
 	enum class DiceCombatV2StageState : ::System::Int32
 	{

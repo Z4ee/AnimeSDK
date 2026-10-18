@@ -6,21 +6,21 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_IDLELIVEBOSSDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D20DFE0)
-#define RPG_GAMECORE_IDLELIVEBOSSDATAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D20E280)
+#define RPG_GAMECORE_IDLELIVEBOSSDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D74AC20)
+#define RPG_GAMECORE_IDLELIVEBOSSDATAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D74AEC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveBossDataRow_TypeDefinitionIndex = 11680;
+	inline static constexpr unsigned int IdleLiveBossDataRow_TypeDefinitionIndex = 11703;
 
 	class IdleLiveBossDataRow : public ::System::Object
 	{
 	public:
 		::System::String* ImagePath; // 0x10
 		::System::String* NodeIcon; // 0x18
-		::System::UInt32 BossID; // 0x20
-		::RPG::Client::TextID Desc; // 0x28
-		::RPG::Client::TextID Name; // 0x38
+		::RPG::Client::TextID Name; // 0x20
+		::RPG::Client::TextID Desc; // 0x30
+		::System::UInt32 BossID; // 0x40
 
 		::System::Void _ctor()
 		{

@@ -4,21 +4,21 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_AETHERDIVIDEOVERFLOWCHUNKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CBC76B0)
-#define RPG_GAMECORE_AETHERDIVIDEOVERFLOWCHUNKROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CBC78D0)
+#define RPG_GAMECORE_AETHERDIVIDEOVERFLOWCHUNKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3A8E10)
+#define RPG_GAMECORE_AETHERDIVIDEOVERFLOWCHUNKROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3A9030)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AetherDivideOverflowChunkRow_TypeDefinitionIndex = 10904;
+	inline static constexpr unsigned int AetherDivideOverflowChunkRow_TypeDefinitionIndex = 10920;
 
 	class AetherDivideOverflowChunkRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 SpiritID; // 0x10
-		::System::UInt32 BattleAreaID; // 0x14
-		::System::UInt32 MazeBuffID; // 0x18
-		::System::UInt32 GroupID; // 0x1C
-		::System::UInt32 EventID; // 0x20
+		::System::UInt32 GroupID; // 0x10
+		::System::UInt32 MazeBuffID; // 0x14
+		::System::UInt32 BattleAreaID; // 0x18
+		::System::UInt32 EventID; // 0x1C
+		::System::UInt32 SpiritID; // 0x20
 		::System::UInt32 ID; // 0x24
 
 		::System::Void _ctor()

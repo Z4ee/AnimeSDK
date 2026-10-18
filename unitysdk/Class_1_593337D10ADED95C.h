@@ -7,10 +7,10 @@ class Class_2_465A9E6CC2B0EF21;
 namespace UnityEngine { class Camera; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_1_593337D10ADED95C_METHOD_1_861847764EF24B10_OFFSET UNITYSDK_OFFSET(0x18855C60)
-#define CLASS_1_593337D10ADED95C__CTOR_OFFSET UNITYSDK_OFFSET(0x18855C50)
+#define CLASS_1_593337D10ADED95C_METHOD_1_861847764EF24B10_OFFSET UNITYSDK_OFFSET(0xB24A430)
+#define CLASS_1_593337D10ADED95C__CTOR_OFFSET UNITYSDK_OFFSET(0xB24A420)
 
-inline static constexpr unsigned int Class_1_593337D10ADED95C_TypeDefinitionIndex = 78627;
+inline static constexpr unsigned int Class_1_593337D10ADED95C_TypeDefinitionIndex = 79098;
 
 class Class_1_593337D10ADED95C : public ::System::Object
 {

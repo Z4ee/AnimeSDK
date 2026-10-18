@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_LEVELNPCPOSSESSIONINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1C10F3E0)
-#define RPG_GAMECORE_LEVELNPCPOSSESSIONINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1C11EC50)
+#define RPG_GAMECORE_LEVELNPCPOSSESSIONINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D7896A0)
+#define RPG_GAMECORE_LEVELNPCPOSSESSIONINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1D78AE80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelNPCPossessionInfo_TypeDefinitionIndex = 17083;
+	inline static constexpr unsigned int LevelNPCPossessionInfo_TypeDefinitionIndex = 17278;
 
 	class LevelNPCPossessionInfo : public ::RPG::GameCore::JsonConfig
 	{

@@ -6,13 +6,13 @@ namespace MiHoYo::SDK::UI { class Confirm_OnConfirmDelegate; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_UI_CONFIRM___C__DISPLAYCLASS23_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9CCBD0)
-#define MIHOYO_SDK_UI_CONFIRM___C__DISPLAYCLASS23_0__SHOWPLUGINUI_B__0_OFFSET UNITYSDK_OFFSET(0x1B9CD690)
-#define MIHOYO_SDK_UI_CONFIRM___C__DISPLAYCLASS23_0__SHOWPLUGINUI_B__1_OFFSET UNITYSDK_OFFSET(0x1B9CD700)
+#define MIHOYO_SDK_UI_CONFIRM___C__DISPLAYCLASS23_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BFC8B20)
+#define MIHOYO_SDK_UI_CONFIRM___C__DISPLAYCLASS23_0__SHOWPLUGINUI_B__0_OFFSET UNITYSDK_OFFSET(0x1BFC95C0)
+#define MIHOYO_SDK_UI_CONFIRM___C__DISPLAYCLASS23_0__SHOWPLUGINUI_B__1_OFFSET UNITYSDK_OFFSET(0x1BFC9630)
 
 namespace MiHoYo::SDK::UI
 {
-	inline static constexpr unsigned int Confirm___c__DisplayClass23_0_TypeDefinitionIndex = 8360;
+	inline static constexpr unsigned int Confirm___c__DisplayClass23_0_TypeDefinitionIndex = 8403;
 
 	class Confirm___c__DisplayClass23_0 : public ::System::Object
 	{

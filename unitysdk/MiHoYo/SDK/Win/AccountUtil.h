@@ -7,20 +7,20 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine::UI { class Image; }
 
-#define MIHOYO_SDK_WIN_ACCOUNTUTIL_UPDATETHIRDPARTYICON_OFFSET UNITYSDK_OFFSET(0x15CD7FB0)
-#define MIHOYO_SDK_WIN_ACCOUNTUTIL__CCTOR_OFFSET UNITYSDK_OFFSET(0x15CD8340)
-#define MIHOYO_SDK_WIN_ACCOUNTUTIL__CTOR_OFFSET UNITYSDK_OFFSET(0x15CD8330)
+#define MIHOYO_SDK_WIN_ACCOUNTUTIL_UPDATETHIRDPARTYICON_OFFSET UNITYSDK_OFFSET(0x1BCBB3F0)
+#define MIHOYO_SDK_WIN_ACCOUNTUTIL__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BCBB760)
+#define MIHOYO_SDK_WIN_ACCOUNTUTIL__CTOR_OFFSET UNITYSDK_OFFSET(0x1BCBB750)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int AccountUtil_TypeDefinitionIndex = 9236;
+	inline static constexpr unsigned int AccountUtil_TypeDefinitionIndex = 9298;
 
 	class AccountUtil : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::MiHoYo::SDK::AuthTicketThirdParty, ::System::String*>** StaticGet_ThirdPartyIconPaths()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::MiHoYo::SDK::AuthTicketThirdParty, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(AccountUtil_TypeDefinitionIndex)->GetStaticField(0x25E70);
+			return (::System::Collections::Generic::Dictionary_2<::MiHoYo::SDK::AuthTicketThirdParty, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(AccountUtil_TypeDefinitionIndex)->GetStaticField(0x2C260);
 		}
 
 		::System::Void _ctor()

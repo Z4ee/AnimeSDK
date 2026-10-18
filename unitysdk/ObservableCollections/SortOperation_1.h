@@ -6,7 +6,7 @@ namespace System::Collections::Generic { template <typename T> class IComparer_1
 
 namespace ObservableCollections
 {
-	inline static constexpr unsigned int SortOperation_1_TypeDefinitionIndex = 35209;
+	inline static constexpr unsigned int SortOperation_1_TypeDefinitionIndex = 35880;
 
 	template <typename T>
 	struct SortOperation_1

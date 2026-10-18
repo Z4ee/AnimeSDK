@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_EFFECTPRELOADLINKCONFIG_METHOD_2_4D5433D7DA61872D_OFFSET UNITYSDK_OFFSET(0x1DB246C0)
-#define RPG_GAMECORE_EFFECTPRELOADLINKCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB247D0)
+#define RPG_GAMECORE_EFFECTPRELOADLINKCONFIG_METHOD_2_4D5433D7DA61872D_OFFSET UNITYSDK_OFFSET(0x1D603890)
+#define RPG_GAMECORE_EFFECTPRELOADLINKCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6039A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EffectPreloadLinkConfig_TypeDefinitionIndex = 16175;
+	inline static constexpr unsigned int EffectPreloadLinkConfig_TypeDefinitionIndex = 16348;
 
 	class EffectPreloadLinkConfig : public ::RPG::GameCore::JsonConfig
 	{

@@ -3,26 +3,26 @@
 #include "unitysdk/RPG/Client/NavMap/NavNodeConditionParamType.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_1222;
+class Class_0_16E4307DCC419505_1346;
 namespace RPG::Client::NavMap { class IMapDataSource; }
 namespace RPG::GameCore { class LevelNavNodeConditionInfo; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_6B14D0631D156EC3_METHOD_1_13119A4EA31B735D_OFFSET UNITYSDK_OFFSET(0x177F6110)
-#define CLASS_1_6B14D0631D156EC3_METHOD_1_649C3F0ABF636A99_OFFSET UNITYSDK_OFFSET(0x177F5E90)
-#define CLASS_1_6B14D0631D156EC3_METHOD_1_B7512089642D5F1C_OFFSET UNITYSDK_OFFSET(0x177F5C50)
-#define CLASS_1_6B14D0631D156EC3_METHOD_1_F05BB774F3080AE5_OFFSET UNITYSDK_OFFSET(0x177F5D40)
-#define CLASS_1_6B14D0631D156EC3__CTOR_OFFSET UNITYSDK_OFFSET(0x177F5D00)
+#define CLASS_1_6B14D0631D156EC3_METHOD_1_13119A4EA31B735D_OFFSET UNITYSDK_OFFSET(0xC9DAFF0)
+#define CLASS_1_6B14D0631D156EC3_METHOD_1_649C3F0ABF636A99_OFFSET UNITYSDK_OFFSET(0xC9DAD70)
+#define CLASS_1_6B14D0631D156EC3_METHOD_1_B7512089642D5F1C_OFFSET UNITYSDK_OFFSET(0xC9DAB30)
+#define CLASS_1_6B14D0631D156EC3_METHOD_1_F05BB774F3080AE5_OFFSET UNITYSDK_OFFSET(0xC9DAC20)
+#define CLASS_1_6B14D0631D156EC3__CTOR_OFFSET UNITYSDK_OFFSET(0xC9DABE0)
 
-inline static constexpr unsigned int Class_1_6B14D0631D156EC3_TypeDefinitionIndex = 74472;
+inline static constexpr unsigned int Class_1_6B14D0631D156EC3_TypeDefinitionIndex = 74599;
 
 class Class_1_6B14D0631D156EC3 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_1222*>* GGGKAACPPJF; // 0x10
-	::RPG::Client::NavMap::IMapDataSource* PBDGDLLLHMA; // 0x18
-	::System::Collections::Generic::Dictionary_2<::RPG::Client::NavMap::NavNodeConditionParamType, ::System::Object*>* ILDKEOAMPAO; // 0x20
+	::RPG::Client::NavMap::IMapDataSource* PBDGDLLLHMA; // 0x10
+	::System::Collections::Generic::Dictionary_2<::RPG::Client::NavMap::NavNodeConditionParamType, ::System::Object*>* ILDKEOAMPAO; // 0x18
+	::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_1346*>* GGGKAACPPJF; // 0x20
 
 	::System::Void _ctor()
 	{

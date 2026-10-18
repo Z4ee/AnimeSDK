@@ -4,7 +4,7 @@
 
 namespace UnityEngine::PlayerLoop
 {
-	inline static constexpr unsigned int PreUpdate_UpdateVideo_TypeDefinitionIndex = 4601;
+	inline static constexpr unsigned int PreUpdate_UpdateVideo_TypeDefinitionIndex = 4605;
 
 	struct alignas(1) PreUpdate_UpdateVideo
 	{

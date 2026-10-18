@@ -3,19 +3,19 @@
 #include "unitysdk/System/MulticastDelegate.h"
 #include "unitysdk/System/Numerics/BigInteger.h"
 
-class Class_1_075C34D03AFA1215_81;
+class Class_1_075C34D03AFA1215_85;
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_1D548213_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x12B20E10)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_1D548213_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x12B20E40)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_1D548213_INVOKE_OFFSET UNITYSDK_OFFSET(0x12B20DF0)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_1D548213__CTOR_OFFSET UNITYSDK_OFFSET(0x12B20D80)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_1D548213_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x14DA3560)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_1D548213_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x14DA3590)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_1D548213_INVOKE_OFFSET UNITYSDK_OFFSET(0x14DA3540)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_1D548213__CTOR_OFFSET UNITYSDK_OFFSET(0x14DA34D0)
 
 namespace XLua
 {
-	inline static constexpr unsigned int InternalGlobals___GEN_DELEGATE_B00_1D548213_TypeDefinitionIndex = 50469;
+	inline static constexpr unsigned int InternalGlobals___GEN_DELEGATE_B00_1D548213_TypeDefinitionIndex = 50098;
 
 	class InternalGlobals___GEN_DELEGATE_B00_1D548213 : public ::System::MulticastDelegate
 	{
@@ -25,14 +25,14 @@ namespace XLua
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_1D548213__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Numerics::BigInteger Invoke(::Class_1_075C34D03AFA1215_81* a1)
+		::System::Numerics::BigInteger Invoke(::Class_1_075C34D03AFA1215_85* a1)
 		{
-			return ((::System::Numerics::BigInteger(*)(::PVOID, ::Class_1_075C34D03AFA1215_81*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_1D548213_INVOKE_OFFSET))(this, a1);
+			return ((::System::Numerics::BigInteger(*)(::PVOID, ::Class_1_075C34D03AFA1215_85*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_1D548213_INVOKE_OFFSET))(this, a1);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::Class_1_075C34D03AFA1215_81* a1, ::System::AsyncCallback* a2, ::System::Object* a3)
+		::System::IAsyncResult* BeginInvoke(::Class_1_075C34D03AFA1215_85* a1, ::System::AsyncCallback* a2, ::System::Object* a3)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::Class_1_075C34D03AFA1215_81*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_1D548213_BEGININVOKE_OFFSET))(this, a1, a2, a3);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::Class_1_075C34D03AFA1215_85*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_1D548213_BEGININVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Numerics::BigInteger EndInvoke(::System::IAsyncResult* a1)

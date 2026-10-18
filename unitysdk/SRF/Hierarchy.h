@@ -6,26 +6,26 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class Transform; }
 
-#define SRF_HIERARCHY_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x1EC39890)
-#define SRF_HIERARCHY_GET_OFFSET UNITYSDK_OFFSET(0x1EC398C0)
-#define SRF_HIERARCHY_RUNTIMEINITIALIZE_OFFSET UNITYSDK_OFFSET(0x1EC39BD0)
-#define SRF_HIERARCHY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EC39C70)
-#define SRF_HIERARCHY__CTOR_OFFSET UNITYSDK_OFFSET(0x1EC39C60)
+#define SRF_HIERARCHY_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x1ED43E80)
+#define SRF_HIERARCHY_GET_OFFSET UNITYSDK_OFFSET(0x1ED43EB0)
+#define SRF_HIERARCHY_RUNTIMEINITIALIZE_OFFSET UNITYSDK_OFFSET(0x1ED441C0)
+#define SRF_HIERARCHY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1ED44260)
+#define SRF_HIERARCHY__CTOR_OFFSET UNITYSDK_OFFSET(0x1ED44250)
 
 namespace SRF
 {
-	inline static constexpr unsigned int Hierarchy_TypeDefinitionIndex = 34705;
+	inline static constexpr unsigned int Hierarchy_TypeDefinitionIndex = 35374;
 
 	class Hierarchy : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::Char>** StaticGet_Seperator()
-		{
-			return (::Il2CppArray<::System::Char>**)Il2CppClass::FromTypeDefinitionIndex(Hierarchy_TypeDefinitionIndex)->GetStaticField(0x5F240);
-		}
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::Transform*>** StaticGet_Cache()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::Transform*>**)Il2CppClass::FromTypeDefinitionIndex(Hierarchy_TypeDefinitionIndex)->GetStaticField(0x5F248);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::Transform*>**)Il2CppClass::FromTypeDefinitionIndex(Hierarchy_TypeDefinitionIndex)->GetStaticField(0x56B50);
+		}
+		static ::Il2CppArray<::System::Char>** StaticGet_Seperator()
+		{
+			return (::Il2CppArray<::System::Char>**)Il2CppClass::FromTypeDefinitionIndex(Hierarchy_TypeDefinitionIndex)->GetStaticField(0x56B58);
 		}
 
 		::System::Void _ctor()

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class RtStopMove; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_8CEE2A0BE7A57AB4_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x195BD020)
-#define CLASS_3_8CEE2A0BE7A57AB4__CTOR_OFFSET UNITYSDK_OFFSET(0x195BCFF0)
+#define CLASS_3_8CEE2A0BE7A57AB4_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB7E6AA0)
+#define CLASS_3_8CEE2A0BE7A57AB4__CTOR_OFFSET UNITYSDK_OFFSET(0xB7E6A70)
 
-inline static constexpr unsigned int Class_3_8CEE2A0BE7A57AB4_TypeDefinitionIndex = 54392;
+inline static constexpr unsigned int Class_3_8CEE2A0BE7A57AB4_TypeDefinitionIndex = 54178;
 
 class Class_3_8CEE2A0BE7A57AB4 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::RtStopMove*>
 {

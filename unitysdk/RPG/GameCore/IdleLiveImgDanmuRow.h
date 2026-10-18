@@ -5,25 +5,25 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_IDLELIVEIMGDANMUROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D212220)
-#define RPG_GAMECORE_IDLELIVEIMGDANMUROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D212530)
+#define RPG_GAMECORE_IDLELIVEIMGDANMUROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D74EE60)
+#define RPG_GAMECORE_IDLELIVEIMGDANMUROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D74F170)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveImgDanmuRow_TypeDefinitionIndex = 11763;
+	inline static constexpr unsigned int IdleLiveImgDanmuRow_TypeDefinitionIndex = 11786;
 
 	class IdleLiveImgDanmuRow : public ::System::Object
 	{
 	public:
 		::System::String* ImagePath; // 0x10
-		::System::Single Interval; // 0x18
-		::System::UInt32 TriggerID; // 0x1C
-		::System::UInt32 RepeatCount; // 0x20
-		::System::Single FlySpeed; // 0x24
+		::System::Single FlySpeed; // 0x18
+		::System::UInt32 ID; // 0x1C
+		::System::UInt16 SizeType; // 0x20
+		::System::Boolean IsExclusive; // 0x22
+		::System::Single Interval; // 0x24
 		::System::UInt32 UnlockID; // 0x28
-		::System::UInt32 ID; // 0x2C
-		::System::UInt16 SizeType; // 0x30
-		::System::Boolean IsExclusive; // 0x32
+		::System::UInt32 RepeatCount; // 0x2C
+		::System::UInt32 TriggerID; // 0x30
 
 		::System::Void _ctor()
 		{

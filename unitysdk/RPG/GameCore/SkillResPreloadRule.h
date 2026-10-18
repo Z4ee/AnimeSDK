@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SkillResPreloadRule_TypeDefinitionIndex = 17974;
+	inline static constexpr unsigned int SkillResPreloadRule_TypeDefinitionIndex = 18188;
 
 	enum class SkillResPreloadRule : ::System::Int32
 	{

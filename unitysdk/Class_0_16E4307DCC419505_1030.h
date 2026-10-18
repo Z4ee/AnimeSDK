@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-class Class_1_849EE5CF9026AE9F;
-namespace RPG::Client { class MonoDanmuItem; }
+namespace RPG::Client { class RogueFormulaData; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_1030_TypeDefinitionIndex = 68906;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_1030_TypeDefinitionIndex = 66989;
 
 class Class_0_16E4307DCC419505_1030
 {

@@ -6,7 +6,7 @@ namespace UnityEngine::ProBuilder::KdTree { template <typename T> class ITypeMat
 
 namespace UnityEngine::ProBuilder::KdTree
 {
-	inline static constexpr unsigned int HyperRect_1_TypeDefinitionIndex = 37422;
+	inline static constexpr unsigned int HyperRect_1_TypeDefinitionIndex = 38719;
 
 	template <typename T>
 	struct HyperRect_1

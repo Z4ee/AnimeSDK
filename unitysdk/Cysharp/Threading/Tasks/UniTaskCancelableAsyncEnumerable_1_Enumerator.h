@@ -6,7 +6,7 @@ namespace Cysharp::Threading::Tasks { template <typename T> class IUniTaskAsyncE
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UniTaskCancelableAsyncEnumerable_1_Enumerator_TypeDefinitionIndex = 42583;
+	inline static constexpr unsigned int UniTaskCancelableAsyncEnumerable_1_Enumerator_TypeDefinitionIndex = 38168;
 
 	template <typename T>
 	struct UniTaskCancelableAsyncEnumerable_1_Enumerator

@@ -12,43 +12,43 @@ namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 namespace Proto { class Tutorial; }
 namespace System { class String; }
 
-#define PROTO_GETTUTORIALSCRSP_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1DD3C2C0)
-#define PROTO_GETTUTORIALSCRSP_CLONE_OFFSET UNITYSDK_OFFSET(0x1DD3BE20)
-#define PROTO_GETTUTORIALSCRSP_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1DD3BFD0)
-#define PROTO_GETTUTORIALSCRSP_EQUALS_OFFSET UNITYSDK_OFFSET(0x1DD3BE80)
-#define PROTO_GETTUTORIALSCRSP_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1DD3C0F0)
-#define PROTO_GETTUTORIALSCRSP_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x1DD3BD10)
-#define PROTO_GETTUTORIALSCRSP_GET_RETCODE_OFFSET UNITYSDK_OFFSET(0x1DD3BE60)
-#define PROTO_GETTUTORIALSCRSP_GET_TUTORIALLIST_OFFSET UNITYSDK_OFFSET(0x1DD3BE50)
-#define PROTO_GETTUTORIALSCRSP_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1DD3C490)
-#define PROTO_GETTUTORIALSCRSP_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1DD3C3F0)
-#define PROTO_GETTUTORIALSCRSP_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1DD3BD40)
-#define PROTO_GETTUTORIALSCRSP_SET_RETCODE_OFFSET UNITYSDK_OFFSET(0x1DD3BE70)
-#define PROTO_GETTUTORIALSCRSP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DD3C160)
-#define PROTO_GETTUTORIALSCRSP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DD3C1C0)
-#define PROTO_GETTUTORIALSCRSP__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DD3C650)
-#define PROTO_GETTUTORIALSCRSP__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1DD3BD90)
-#define PROTO_GETTUTORIALSCRSP__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD3BD50)
+#define PROTO_GETTUTORIALSCRSP_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1DFCD520)
+#define PROTO_GETTUTORIALSCRSP_CLONE_OFFSET UNITYSDK_OFFSET(0x1DFCD080)
+#define PROTO_GETTUTORIALSCRSP_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1DFCD230)
+#define PROTO_GETTUTORIALSCRSP_EQUALS_OFFSET UNITYSDK_OFFSET(0x1DFCD0E0)
+#define PROTO_GETTUTORIALSCRSP_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1DFCD350)
+#define PROTO_GETTUTORIALSCRSP_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x1DFCCF70)
+#define PROTO_GETTUTORIALSCRSP_GET_RETCODE_OFFSET UNITYSDK_OFFSET(0x1DFCD0C0)
+#define PROTO_GETTUTORIALSCRSP_GET_TUTORIALLIST_OFFSET UNITYSDK_OFFSET(0x1DFCD0B0)
+#define PROTO_GETTUTORIALSCRSP_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1DFCD6F0)
+#define PROTO_GETTUTORIALSCRSP_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1DFCD650)
+#define PROTO_GETTUTORIALSCRSP_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1DFCCFA0)
+#define PROTO_GETTUTORIALSCRSP_SET_RETCODE_OFFSET UNITYSDK_OFFSET(0x1DFCD0D0)
+#define PROTO_GETTUTORIALSCRSP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DFCD3C0)
+#define PROTO_GETTUTORIALSCRSP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DFCD420)
+#define PROTO_GETTUTORIALSCRSP__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DFCD8B0)
+#define PROTO_GETTUTORIALSCRSP__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1DFCCFF0)
+#define PROTO_GETTUTORIALSCRSP__CTOR_OFFSET UNITYSDK_OFFSET(0x1DFCCFB0)
 
 namespace Proto
 {
-	inline static constexpr unsigned int GetTutorialScRsp_TypeDefinitionIndex = 34378;
+	inline static constexpr unsigned int GetTutorialScRsp_TypeDefinitionIndex = 35042;
 
 	class GetTutorialScRsp : public ::System::Object
 	{
 	public:
-		static ::Google::Protobuf::MessageParser_1<::Proto::GetTutorialScRsp*>** StaticGet__parser()
-		{
-			return (::Google::Protobuf::MessageParser_1<::Proto::GetTutorialScRsp*>**)Il2CppClass::FromTypeDefinitionIndex(GetTutorialScRsp_TypeDefinitionIndex)->GetStaticField(0x5B600);
-		}
 		static ::Google::Protobuf::FieldCodec_1<::Proto::Tutorial*>** StaticGet__repeated_tutorialList_codec()
 		{
-			return (::Google::Protobuf::FieldCodec_1<::Proto::Tutorial*>**)Il2CppClass::FromTypeDefinitionIndex(GetTutorialScRsp_TypeDefinitionIndex)->GetStaticField(0x5B608);
+			return (::Google::Protobuf::FieldCodec_1<::Proto::Tutorial*>**)Il2CppClass::FromTypeDefinitionIndex(GetTutorialScRsp_TypeDefinitionIndex)->GetStaticField(0x4B6D0);
 		}
-		// static const ::System::Int32 TutorialListFieldNumber = 0xD; // 0x0
-		// static const ::System::Int32 RetcodeFieldNumber = 0x6; // 0x0
-		::Google::Protobuf::UnknownFieldSet* _unknownFields; // 0x10
-		::Google::Protobuf::Collections::RepeatedField_1<::Proto::Tutorial*>* tutorialList_; // 0x18
+		static ::Google::Protobuf::MessageParser_1<::Proto::GetTutorialScRsp*>** StaticGet__parser()
+		{
+			return (::Google::Protobuf::MessageParser_1<::Proto::GetTutorialScRsp*>**)Il2CppClass::FromTypeDefinitionIndex(GetTutorialScRsp_TypeDefinitionIndex)->GetStaticField(0x4B6D8);
+		}
+		// static const ::System::Int32 TutorialListFieldNumber = 0xA; // 0x0
+		// static const ::System::Int32 RetcodeFieldNumber = 0x4; // 0x0
+		::Google::Protobuf::Collections::RepeatedField_1<::Proto::Tutorial*>* tutorialList_; // 0x10
+		::Google::Protobuf::UnknownFieldSet* _unknownFields; // 0x18
 		::System::UInt32 retcode_; // 0x20
 
 		::System::Void _ctor()

@@ -6,11 +6,11 @@ namespace RPG::GameCore { class HoyoTagContainer; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPGTOOLS_STORY_SETBLOCKVISIBLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B529550)
+#define RPGTOOLS_STORY_SETBLOCKVISIBLE__CTOR_OFFSET UNITYSDK_OFFSET(0xE89E6B0)
 
 namespace RPGTools::Story
 {
-	inline static constexpr unsigned int SetBlockVisible_TypeDefinitionIndex = 49395;
+	inline static constexpr unsigned int SetBlockVisible_TypeDefinitionIndex = 48969;
 
 	class SetBlockVisible : public ::System::Object
 	{

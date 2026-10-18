@@ -6,18 +6,18 @@ namespace Proto { class ItemCost; }
 namespace RPG::Client { class LightConeQuickGrowCalculator; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_LIGHTCONEQUICKGROWCALCULATOR___C__DISPLAYCLASS27_0__CTOR_OFFSET UNITYSDK_OFFSET(0x194FF530)
-#define RPG_CLIENT_LIGHTCONEQUICKGROWCALCULATOR___C__DISPLAYCLASS27_0___BUILDPROMOTIONCOSTLIST_B__0_OFFSET UNITYSDK_OFFSET(0x19501240)
+#define RPG_CLIENT_LIGHTCONEQUICKGROWCALCULATOR___C__DISPLAYCLASS27_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD38FB50)
+#define RPG_CLIENT_LIGHTCONEQUICKGROWCALCULATOR___C__DISPLAYCLASS27_0___BUILDPROMOTIONCOSTLIST_B__0_OFFSET UNITYSDK_OFFSET(0xD3918E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LightConeQuickGrowCalculator___c__DisplayClass27_0_TypeDefinitionIndex = 65792;
+	inline static constexpr unsigned int LightConeQuickGrowCalculator___c__DisplayClass27_0_TypeDefinitionIndex = 65728;
 
 	class LightConeQuickGrowCalculator___c__DisplayClass27_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::LightConeQuickGrowCalculator* __4__this; // 0x10
-		::System::Collections::Generic::List_1<::Proto::ItemCost*>* result; // 0x18
+		::System::Collections::Generic::List_1<::Proto::ItemCost*>* result; // 0x10
+		::RPG::Client::LightConeQuickGrowCalculator* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

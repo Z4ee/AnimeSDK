@@ -14,7 +14,7 @@ namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int ToObservable_1__RunAsync_d__3_TypeDefinitionIndex = 44562;
+	inline static constexpr unsigned int ToObservable_1__RunAsync_d__3_TypeDefinitionIndex = 45701;
 
 	template <typename T>
 	struct ToObservable_1__RunAsync_d__3

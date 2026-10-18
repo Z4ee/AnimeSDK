@@ -2,21 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TargetEvaluatorImpl_1.h"
 
-class Class_0_16E4307DCC419505_550;
+class Class_0_16E4307DCC419505_638;
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TargetAlias; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_3_4E04D870AF1B6113_EVALUATE_OFFSET UNITYSDK_OFFSET(0x169C50E0)
-#define CLASS_3_4E04D870AF1B6113__CTOR_OFFSET UNITYSDK_OFFSET(0x169C4F80)
+#define CLASS_3_4E04D870AF1B6113_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBD9F4A0)
+#define CLASS_3_4E04D870AF1B6113__CTOR_OFFSET UNITYSDK_OFFSET(0xBD9F340)
 
-inline static constexpr unsigned int Class_3_4E04D870AF1B6113_TypeDefinitionIndex = 59344;
+inline static constexpr unsigned int Class_3_4E04D870AF1B6113_TypeDefinitionIndex = 59197;
 
 class Class_3_4E04D870AF1B6113 : public ::RPG::GameCore::TargetEvaluatorImpl_1<::RPG::GameCore::TargetAlias*>
 {
 public:
-	::Class_0_16E4307DCC419505_550* IEPCIODGJJD; // 0x18
+	::Class_0_16E4307DCC419505_638* IEPCIODGJJD; // 0x18
 
 	::System::Void _ctor(::RPG::GameCore::TargetAlias* a1)
 	{

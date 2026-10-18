@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EntityClassifyType_TypeDefinitionIndex = 57949;
+	inline static constexpr unsigned int EntityClassifyType_TypeDefinitionIndex = 57796;
 
 	enum class EntityClassifyType : ::System::Int32
 	{

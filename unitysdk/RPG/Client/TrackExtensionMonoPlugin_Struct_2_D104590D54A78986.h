@@ -3,17 +3,17 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define RPG_CLIENT_TRACKEXTENSIONMONOPLUGIN_STRUCT_2_D104590D54A78986__CCTOR_OFFSET UNITYSDK_OFFSET(0x197BFE10)
+#define RPG_CLIENT_TRACKEXTENSIONMONOPLUGIN_STRUCT_2_D104590D54A78986__CCTOR_OFFSET UNITYSDK_OFFSET(0xE2AB9F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TrackExtensionMonoPlugin_Struct_2_D104590D54A78986_TypeDefinitionIndex = 70998;
+	inline static constexpr unsigned int TrackExtensionMonoPlugin_Struct_2_D104590D54A78986_TypeDefinitionIndex = 71030;
 
 	struct alignas(4) TrackExtensionMonoPlugin_Struct_2_D104590D54A78986
 	{
 		static ::RPG::Client::TrackExtensionMonoPlugin_Struct_2_D104590D54A78986* StaticGet_KPJGDHLENIP()
 		{
-			return (::RPG::Client::TrackExtensionMonoPlugin_Struct_2_D104590D54A78986*)Il2CppClass::FromTypeDefinitionIndex(TrackExtensionMonoPlugin_Struct_2_D104590D54A78986_TypeDefinitionIndex)->GetStaticField(0x12840);
+			return (::RPG::Client::TrackExtensionMonoPlugin_Struct_2_D104590D54A78986*)Il2CppClass::FromTypeDefinitionIndex(TrackExtensionMonoPlugin_Struct_2_D104590D54A78986_TypeDefinitionIndex)->GetStaticField(0x5C40);
 		}
 		::UnityEngine::Vector3 PECPBEOHOJC; // 0x10
 		::UnityEngine::Vector3 HLENMDAPAGH; // 0x1C

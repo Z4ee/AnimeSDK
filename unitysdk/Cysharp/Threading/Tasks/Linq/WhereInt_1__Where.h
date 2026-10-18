@@ -13,7 +13,7 @@ namespace System { template <typename T1, typename T2, typename T3> class Func_3
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int WhereInt_1__Where_TypeDefinitionIndex = 44591;
+	inline static constexpr unsigned int WhereInt_1__Where_TypeDefinitionIndex = 45730;
 
 	template <typename TSource>
 	class WhereInt_1__Where : public ::Cysharp::Threading::Tasks::MoveNextSource

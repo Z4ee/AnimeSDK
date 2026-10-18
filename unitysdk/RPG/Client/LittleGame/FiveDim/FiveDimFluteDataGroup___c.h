@@ -5,24 +5,24 @@
 namespace RPG::Client::LittleGame::FiveDim { class FiveDimFluteData; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMFLUTEDATAGROUP___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AC44CA0)
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMFLUTEDATAGROUP___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1AC44CE0)
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMFLUTEDATAGROUP___C__GETFLUTEDATALIST_B__9_0_OFFSET UNITYSDK_OFFSET(0x1AC44CF0)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMFLUTEDATAGROUP___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD42E360)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMFLUTEDATAGROUP___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD42E3A0)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMFLUTEDATAGROUP___C__GETFLUTEDATALIST_B__9_0_OFFSET UNITYSDK_OFFSET(0xD42E3B0)
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int FiveDimFluteDataGroup___c_TypeDefinitionIndex = 76741;
+	inline static constexpr unsigned int FiveDimFluteDataGroup___c_TypeDefinitionIndex = 77212;
 
 	class FiveDimFluteDataGroup___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::RPG::Client::LittleGame::FiveDim::FiveDimFluteData*>** StaticGet___9__9_0()
-		{
-			return (::System::Comparison_1<::RPG::Client::LittleGame::FiveDim::FiveDimFluteData*>**)Il2CppClass::FromTypeDefinitionIndex(FiveDimFluteDataGroup___c_TypeDefinitionIndex)->GetStaticField(0x60590);
-		}
 		static ::RPG::Client::LittleGame::FiveDim::FiveDimFluteDataGroup___c** StaticGet___9()
 		{
-			return (::RPG::Client::LittleGame::FiveDim::FiveDimFluteDataGroup___c**)Il2CppClass::FromTypeDefinitionIndex(FiveDimFluteDataGroup___c_TypeDefinitionIndex)->GetStaticField(0x60598);
+			return (::RPG::Client::LittleGame::FiveDim::FiveDimFluteDataGroup___c**)Il2CppClass::FromTypeDefinitionIndex(FiveDimFluteDataGroup___c_TypeDefinitionIndex)->GetStaticField(0x24EC0);
+		}
+		static ::System::Comparison_1<::RPG::Client::LittleGame::FiveDim::FiveDimFluteData*>** StaticGet___9__9_0()
+		{
+			return (::System::Comparison_1<::RPG::Client::LittleGame::FiveDim::FiveDimFluteData*>**)Il2CppClass::FromTypeDefinitionIndex(FiveDimFluteDataGroup___c_TypeDefinitionIndex)->GetStaticField(0x24EC8);
 		}
 
 		static ::System::Void _cctor()

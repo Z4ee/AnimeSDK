@@ -5,12 +5,12 @@
 namespace System { class String; }
 namespace UnityEngine { class Collision; }
 
-#define RPG_CLIENT_MONODICECOMBATDICECOLLISIONSOUND_ONCOLLISIONENTER_OFFSET UNITYSDK_OFFSET(0x11665AF0)
-#define RPG_CLIENT_MONODICECOMBATDICECOLLISIONSOUND__CTOR_OFFSET UNITYSDK_OFFSET(0x11665CC0)
+#define RPG_CLIENT_MONODICECOMBATDICECOLLISIONSOUND_ONCOLLISIONENTER_OFFSET UNITYSDK_OFFSET(0xD7464D0)
+#define RPG_CLIENT_MONODICECOMBATDICECOLLISIONSOUND__CTOR_OFFSET UNITYSDK_OFFSET(0xD7466A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoDiceCombatDiceCollisionSound_TypeDefinitionIndex = 63628;
+	inline static constexpr unsigned int MonoDiceCombatDiceCollisionSound_TypeDefinitionIndex = 63566;
 
 	class MonoDiceCombatDiceCollisionSound : public ::UnityEngine::MonoBehaviour
 	{

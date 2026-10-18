@@ -5,7 +5,7 @@ namespace Entitas { template <typename T> class IMatcher_1; }
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int IRendererMoveContext_1_TypeDefinitionIndex = 40691;
+	inline static constexpr unsigned int IRendererMoveContext_1_TypeDefinitionIndex = 42742;
 
 	template <typename TEntity>
 	class IRendererMoveContext_1

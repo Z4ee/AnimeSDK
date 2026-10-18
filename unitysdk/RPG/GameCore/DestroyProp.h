@@ -8,13 +8,13 @@ namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class GroupEntityInfo; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_DESTROYPROP_METHOD_3_1D3AABE840F65A56_OFFSET UNITYSDK_OFFSET(0x1D817930)
-#define RPG_GAMECORE_DESTROYPROP_METHOD_3_409C0C5BB977EA60_OFFSET UNITYSDK_OFFSET(0x1D8178B0)
-#define RPG_GAMECORE_DESTROYPROP__CTOR_OFFSET UNITYSDK_OFFSET(0x1D817900)
+#define RPG_GAMECORE_DESTROYPROP_METHOD_3_1D3AABE840F65A56_OFFSET UNITYSDK_OFFSET(0x1D5CF690)
+#define RPG_GAMECORE_DESTROYPROP_METHOD_3_409C0C5BB977EA60_OFFSET UNITYSDK_OFFSET(0x1D5CF610)
+#define RPG_GAMECORE_DESTROYPROP__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5CF660)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DestroyProp_TypeDefinitionIndex = 21701;
+	inline static constexpr unsigned int DestroyProp_TypeDefinitionIndex = 21949;
 
 	class DestroyProp : public ::RPG::GameCore::TaskConfig
 	{

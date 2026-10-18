@@ -6,13 +6,13 @@
 namespace HedgehogTeam::EasyTouch { class Gesture; }
 namespace HedgehogTeam::EasyTouch { class QuickTap_OnTap; }
 
-#define HEDGEHOGTEAM_EASYTOUCH_QUICKTAP_DOACTION_OFFSET UNITYSDK_OFFSET(0x1D16C2C0)
-#define HEDGEHOGTEAM_EASYTOUCH_QUICKTAP_UPDATE_OFFSET UNITYSDK_OFFSET(0x1D16C1D0)
-#define HEDGEHOGTEAM_EASYTOUCH_QUICKTAP__CTOR_OFFSET UNITYSDK_OFFSET(0x1D16C140)
+#define HEDGEHOGTEAM_EASYTOUCH_QUICKTAP_DOACTION_OFFSET UNITYSDK_OFFSET(0x167472E0)
+#define HEDGEHOGTEAM_EASYTOUCH_QUICKTAP_UPDATE_OFFSET UNITYSDK_OFFSET(0x16747200)
+#define HEDGEHOGTEAM_EASYTOUCH_QUICKTAP__CTOR_OFFSET UNITYSDK_OFFSET(0x16747170)
 
 namespace HedgehogTeam::EasyTouch
 {
-	inline static constexpr unsigned int QuickTap_TypeDefinitionIndex = 38976;
+	inline static constexpr unsigned int QuickTap_TypeDefinitionIndex = 40273;
 
 	class QuickTap : public ::HedgehogTeam::EasyTouch::QuickBase
 	{

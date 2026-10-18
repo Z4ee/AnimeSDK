@@ -4,7 +4,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CharacterMotionParamData_TypeDefinitionIndex = 73159;
+	inline static constexpr unsigned int CharacterMotionParamData_TypeDefinitionIndex = 73255;
 
 	struct alignas(8) CharacterMotionParamData
 	{

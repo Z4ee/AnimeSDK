@@ -9,24 +9,24 @@ namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MIHOYO_SDK_UGCINTERFACE___C__DISPLAYCLASS24_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD46D50)
-#define MIHOYO_SDK_UGCINTERFACE___C__DISPLAYCLASS24_0__RETRYEXCHANGETOKEN_B__0_OFFSET UNITYSDK_OFFSET(0x1CD4B300)
-#define MIHOYO_SDK_UGCINTERFACE___C__DISPLAYCLASS24_0__RETRYEXCHANGETOKEN_B__1_OFFSET UNITYSDK_OFFSET(0x1CD4B3A0)
-#define MIHOYO_SDK_UGCINTERFACE___C__DISPLAYCLASS24_0__RETRYEXCHANGETOKEN_B__2_OFFSET UNITYSDK_OFFSET(0x1CD4B610)
+#define MIHOYO_SDK_UGCINTERFACE___C__DISPLAYCLASS24_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB05CBF0)
+#define MIHOYO_SDK_UGCINTERFACE___C__DISPLAYCLASS24_0__RETRYEXCHANGETOKEN_B__0_OFFSET UNITYSDK_OFFSET(0xB061230)
+#define MIHOYO_SDK_UGCINTERFACE___C__DISPLAYCLASS24_0__RETRYEXCHANGETOKEN_B__1_OFFSET UNITYSDK_OFFSET(0xB0612D0)
+#define MIHOYO_SDK_UGCINTERFACE___C__DISPLAYCLASS24_0__RETRYEXCHANGETOKEN_B__2_OFFSET UNITYSDK_OFFSET(0xB061540)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int UGCInterface___c__DisplayClass24_0_TypeDefinitionIndex = 46903;
+	inline static constexpr unsigned int UGCInterface___c__DisplayClass24_0_TypeDefinitionIndex = 46443;
 
 	class UGCInterface___c__DisplayClass24_0 : public ::System::Object
 	{
 	public:
-		::System::Action* checkNeedRetry; // 0x10
-		::System::String* strUrl; // 0x18
+		::System::String* strUrl; // 0x10
+		::MiHoYo::SDK::NetworkResponseModel* originResponse; // 0x18
 		::System::String* strAuthKey; // 0x20
 		::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* callback; // 0x28
-		::MiHoYo::SDK::UGCInterface* __4__this; // 0x30
-		::MiHoYo::SDK::NetworkResponseModel* originResponse; // 0x38
+		::System::Action* checkNeedRetry; // 0x30
+		::MiHoYo::SDK::UGCInterface* __4__this; // 0x38
 		::System::Int32 nRetryCount; // 0x40
 
 		::System::Void _ctor()

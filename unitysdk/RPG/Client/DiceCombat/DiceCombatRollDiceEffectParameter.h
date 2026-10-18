@@ -3,11 +3,11 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATROLLDICEEFFECTPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4192C0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATROLLDICEEFFECTPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0xCC2C5A0)
 
 namespace RPG::Client::DiceCombat
 {
-	inline static constexpr unsigned int DiceCombatRollDiceEffectParameter_TypeDefinitionIndex = 75551;
+	inline static constexpr unsigned int DiceCombatRollDiceEffectParameter_TypeDefinitionIndex = 76028;
 
 	class DiceCombatRollDiceEffectParameter : public ::UnityEngine::MonoBehaviour
 	{

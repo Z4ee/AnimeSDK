@@ -13,13 +13,13 @@ namespace RPG::GameCore { class FiveDimCameraObserveConfig; }
 namespace RPG::GameCore { class FiveDimCameraSimpleOverrideFollow; }
 namespace RPG::GameCore { class FiveDimVCameraBlendConfig; }
 
-#define RPG_GAMECORE_FIVEDIMBASECAMERACONFIG_METHOD_3_81D2B07201F30288_OFFSET UNITYSDK_OFFSET(0x1E0E2E80)
-#define RPG_GAMECORE_FIVEDIMBASECAMERACONFIG_METHOD_3_ED9C06CF4EA81F79_OFFSET UNITYSDK_OFFSET(0x1E0E31C0)
-#define RPG_GAMECORE_FIVEDIMBASECAMERACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1E0E3190)
+#define RPG_GAMECORE_FIVEDIMBASECAMERACONFIG_METHOD_3_81D2B07201F30288_OFFSET UNITYSDK_OFFSET(0x1D682E20)
+#define RPG_GAMECORE_FIVEDIMBASECAMERACONFIG_METHOD_3_F78C17FBF26BE1DF_OFFSET UNITYSDK_OFFSET(0x1D683160)
+#define RPG_GAMECORE_FIVEDIMBASECAMERACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D683130)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimBaseCameraConfig_TypeDefinitionIndex = 18413;
+	inline static constexpr unsigned int FiveDimBaseCameraConfig_TypeDefinitionIndex = 18624;
 
 	class FiveDimBaseCameraConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
@@ -55,9 +55,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimBaseCameraConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASECAMERACONFIG_METHOD_3_81D2B07201F30288_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_ED9C06CF4EA81F79(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimBaseCameraConfig* a2)
+		static ::System::Void Method_3_F78C17FBF26BE1DF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimBaseCameraConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimBaseCameraConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASECAMERACONFIG_METHOD_3_ED9C06CF4EA81F79_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimBaseCameraConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASECAMERACONFIG_METHOD_3_F78C17FBF26BE1DF_OFFSET))(a1, a2);
 		}
 	};
 }

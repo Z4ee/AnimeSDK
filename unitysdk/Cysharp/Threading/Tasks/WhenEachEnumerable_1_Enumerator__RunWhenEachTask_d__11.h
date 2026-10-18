@@ -10,7 +10,7 @@ namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int WhenEachEnumerable_1_Enumerator__RunWhenEachTask_d__11_TypeDefinitionIndex = 42795;
+	inline static constexpr unsigned int WhenEachEnumerable_1_Enumerator__RunWhenEachTask_d__11_TypeDefinitionIndex = 38380;
 
 	template <typename T>
 	struct WhenEachEnumerable_1_Enumerator__RunWhenEachTask_d__11

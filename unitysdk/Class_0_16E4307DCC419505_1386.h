@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/FateRin/Card/FateRinHandbookCardTabType.h"
-#include "unitysdk/RPG/GameCore/FateRinHouguOwnerType.h"
 
-namespace RPG::Client::FateRin::Card { class IFateRinHandbookCardTabViewModel; }
+class Class_0_16E4307DCC419505_1387;
+namespace System::Collections::Generic { template <typename T> class HashSet_1; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_1386_TypeDefinitionIndex = 79861;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_1386_TypeDefinitionIndex = 75265;
 
 class Class_0_16E4307DCC419505_1386
 {

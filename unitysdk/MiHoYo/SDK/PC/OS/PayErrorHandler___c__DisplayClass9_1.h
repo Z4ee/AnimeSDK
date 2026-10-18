@@ -6,18 +6,18 @@
 namespace MiHoYo::SDK::PC::OS { class PayErrorHandler___c__DisplayClass9_0; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_PAYERRORHANDLER___C__DISPLAYCLASS9_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1ABE0E70)
-#define MIHOYO_SDK_PC_OS_PAYERRORHANDLER___C__DISPLAYCLASS9_1__SHOWPAYAGELIMITNEWFLOW_B__1_OFFSET UNITYSDK_OFFSET(0x1ABE0E80)
+#define MIHOYO_SDK_PC_OS_PAYERRORHANDLER___C__DISPLAYCLASS9_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF17580)
+#define MIHOYO_SDK_PC_OS_PAYERRORHANDLER___C__DISPLAYCLASS9_1__SHOWPAYAGELIMITNEWFLOW_B__1_OFFSET UNITYSDK_OFFSET(0x1BF17590)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int PayErrorHandler___c__DisplayClass9_1_TypeDefinitionIndex = 8658;
+	inline static constexpr unsigned int PayErrorHandler___c__DisplayClass9_1_TypeDefinitionIndex = 8719;
 
 	class PayErrorHandler___c__DisplayClass9_1 : public ::System::Object
 	{
 	public:
-		::System::String* cookieToken; // 0x10
-		::MiHoYo::SDK::PC::OS::PayErrorHandler___c__DisplayClass9_0* CS___8__locals1; // 0x18
+		::MiHoYo::SDK::PC::OS::PayErrorHandler___c__DisplayClass9_0* CS___8__locals1; // 0x10
+		::System::String* cookieToken; // 0x18
 		::MiHoYo::SDK::HoYoPass::HoYoPassSDK_ErrorCode ret; // 0x20
 
 		::System::Void _ctor()

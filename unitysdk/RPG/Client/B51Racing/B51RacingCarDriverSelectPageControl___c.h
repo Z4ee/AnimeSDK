@@ -5,24 +5,24 @@
 namespace RPG::Client::B51Racing { class B51RacingDriverTabViewModel; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_B51RACING_B51RACINGCARDRIVERSELECTPAGECONTROL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19EE6470)
-#define RPG_CLIENT_B51RACING_B51RACINGCARDRIVERSELECTPAGECONTROL___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19EE64B0)
-#define RPG_CLIENT_B51RACING_B51RACINGCARDRIVERSELECTPAGECONTROL___C___REFRESHBTNARROWVIEW_B__19_0_OFFSET UNITYSDK_OFFSET(0x19EE64C0)
+#define RPG_CLIENT_B51RACING_B51RACINGCARDRIVERSELECTPAGECONTROL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC724BB0)
+#define RPG_CLIENT_B51RACING_B51RACINGCARDRIVERSELECTPAGECONTROL___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC724BF0)
+#define RPG_CLIENT_B51RACING_B51RACINGCARDRIVERSELECTPAGECONTROL___C___REFRESHBTNARROWVIEW_B__19_0_OFFSET UNITYSDK_OFFSET(0xC724C00)
 
 namespace RPG::Client::B51Racing
 {
-	inline static constexpr unsigned int B51RacingCarDriverSelectPageControl___c_TypeDefinitionIndex = 80505;
+	inline static constexpr unsigned int B51RacingCarDriverSelectPageControl___c_TypeDefinitionIndex = 81833;
 
 	class B51RacingCarDriverSelectPageControl___c : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::B51Racing::B51RacingCarDriverSelectPageControl___c** StaticGet___9()
 		{
-			return (::RPG::Client::B51Racing::B51RacingCarDriverSelectPageControl___c**)Il2CppClass::FromTypeDefinitionIndex(B51RacingCarDriverSelectPageControl___c_TypeDefinitionIndex)->GetStaticField(0x66250);
+			return (::RPG::Client::B51Racing::B51RacingCarDriverSelectPageControl___c**)Il2CppClass::FromTypeDefinitionIndex(B51RacingCarDriverSelectPageControl___c_TypeDefinitionIndex)->GetStaticField(0x53550);
 		}
 		static ::System::Func_2<::RPG::Client::B51Racing::B51RacingDriverTabViewModel*, ::System::Boolean>** StaticGet___9__19_0()
 		{
-			return (::System::Func_2<::RPG::Client::B51Racing::B51RacingDriverTabViewModel*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(B51RacingCarDriverSelectPageControl___c_TypeDefinitionIndex)->GetStaticField(0x66258);
+			return (::System::Func_2<::RPG::Client::B51Racing::B51RacingDriverTabViewModel*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(B51RacingCarDriverSelectPageControl___c_TypeDefinitionIndex)->GetStaticField(0x53558);
 		}
 
 		static ::System::Void _cctor()

@@ -9,12 +9,12 @@ namespace System::IO { class Stream; }
 namespace System::Net { class HttpWebRequest; }
 namespace System::Net { class WebHeaderCollection; }
 
-#define SYSTEM_NET_WEBCONNECTIONDATA_GET_READSTATE_OFFSET UNITYSDK_OFFSET(0x1B980340)
-#define SYSTEM_NET_WEBCONNECTIONDATA_GET_REQUEST_OFFSET UNITYSDK_OFFSET(0x1B980320)
-#define SYSTEM_NET_WEBCONNECTIONDATA_SET_READSTATE_OFFSET UNITYSDK_OFFSET(0x1B97BEA0)
-#define SYSTEM_NET_WEBCONNECTIONDATA_SET_REQUEST_OFFSET UNITYSDK_OFFSET(0x1B980330)
-#define SYSTEM_NET_WEBCONNECTIONDATA__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B97CD60)
-#define SYSTEM_NET_WEBCONNECTIONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9774B0)
+#define SYSTEM_NET_WEBCONNECTIONDATA_GET_READSTATE_OFFSET UNITYSDK_OFFSET(0x1F069A70)
+#define SYSTEM_NET_WEBCONNECTIONDATA_GET_REQUEST_OFFSET UNITYSDK_OFFSET(0x1F069A50)
+#define SYSTEM_NET_WEBCONNECTIONDATA_SET_READSTATE_OFFSET UNITYSDK_OFFSET(0x1F065630)
+#define SYSTEM_NET_WEBCONNECTIONDATA_SET_REQUEST_OFFSET UNITYSDK_OFFSET(0x1F069A60)
+#define SYSTEM_NET_WEBCONNECTIONDATA__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F0664E0)
+#define SYSTEM_NET_WEBCONNECTIONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1F060D00)
 
 namespace System::Net
 {
@@ -23,15 +23,15 @@ namespace System::Net
 	class WebConnectionData : public ::System::Object
 	{
 	public:
-		::System::Version* ProxyVersion; // 0x10
+		::System::Version* Version; // 0x10
 		::System::String* StatusDescription; // 0x18
-		::System::Net::HttpWebRequest* _request; // 0x20
-		::System::Version* Version; // 0x28
-		::System::Net::WebHeaderCollection* Headers; // 0x30
-		::System::IO::Stream* stream; // 0x38
-		::Il2CppArray<::System::String*>* Challenge; // 0x40
-		::System::Int32 StatusCode; // 0x48
-		::System::Net::ReadState _readState; // 0x4C
+		::System::Net::WebHeaderCollection* Headers; // 0x20
+		::System::IO::Stream* stream; // 0x28
+		::System::Net::HttpWebRequest* _request; // 0x30
+		::Il2CppArray<::System::String*>* Challenge; // 0x38
+		::System::Version* ProxyVersion; // 0x40
+		::System::Net::ReadState _readState; // 0x48
+		::System::Int32 StatusCode; // 0x4C
 
 		::System::Void _ctor()
 		{

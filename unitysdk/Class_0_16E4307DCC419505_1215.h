@@ -1,7 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_1215_TypeDefinitionIndex = 74429;
+namespace RPG::Client { class BattleShowUIPageParam; }
+namespace System { class String; }
+
+inline static constexpr unsigned int Class_0_16E4307DCC419505_1215_TypeDefinitionIndex = 71696;
 
 class Class_0_16E4307DCC419505_1215
 {

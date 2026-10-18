@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Class_1_225F859A4891E6CB_FiveDimRenderingPanelBoundsGroup_TypeDefinitionIndex = 47585;
+inline static constexpr unsigned int Class_1_225F859A4891E6CB_FiveDimRenderingPanelBoundsGroup_TypeDefinitionIndex = 47125;
 
 enum class Class_1_225F859A4891E6CB_FiveDimRenderingPanelBoundsGroup : ::System::Byte
 {

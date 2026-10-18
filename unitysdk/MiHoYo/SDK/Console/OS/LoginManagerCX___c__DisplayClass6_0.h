@@ -5,18 +5,18 @@
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_CONSOLE_OS_LOGINMANAGERCX___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1736E3C0)
-#define MIHOYO_SDK_CONSOLE_OS_LOGINMANAGERCX___C__DISPLAYCLASS6_0__GENERATEACCESSTOKEN_B__0_OFFSET UNITYSDK_OFFSET(0x1736E930)
+#define MIHOYO_SDK_CONSOLE_OS_LOGINMANAGERCX___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BCA09F0)
+#define MIHOYO_SDK_CONSOLE_OS_LOGINMANAGERCX___C__DISPLAYCLASS6_0__GENERATEACCESSTOKEN_B__0_OFFSET UNITYSDK_OFFSET(0x1BCA0F60)
 
 namespace MiHoYo::SDK::Console::OS
 {
-	inline static constexpr unsigned int LoginManagerCX___c__DisplayClass6_0_TypeDefinitionIndex = 9029;
+	inline static constexpr unsigned int LoginManagerCX___c__DisplayClass6_0_TypeDefinitionIndex = 9090;
 
 	class LoginManagerCX___c__DisplayClass6_0 : public ::System::Object
 	{
 	public:
-		::System::String* xuid; // 0x10
-		::System::Action_1<::System::String*>* callback; // 0x18
+		::System::Action_1<::System::String*>* callback; // 0x10
+		::System::String* xuid; // 0x18
 
 		::System::Void _ctor()
 		{

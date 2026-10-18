@@ -10,21 +10,21 @@ namespace UnityEngine::ProBuilder { class Face; }
 namespace UnityEngine::ProBuilder { class ProBuilderMesh; }
 namespace UnityEngine::ProBuilder { class Vertex; }
 
-#define UNITYENGINE_PROBUILDER_FACEREBUILDDATA_APPLY_1_OFFSET UNITYSDK_OFFSET(0xCF97E00)
-#define UNITYENGINE_PROBUILDER_FACEREBUILDDATA_APPLY_OFFSET UNITYSDK_OFFSET(0xCF96FD0)
-#define UNITYENGINE_PROBUILDER_FACEREBUILDDATA_OFFSET_OFFSET UNITYSDK_OFFSET(0xCF96F20)
-#define UNITYENGINE_PROBUILDER_FACEREBUILDDATA_TOSTRING_OFFSET UNITYSDK_OFFSET(0xCF96F30)
-#define UNITYENGINE_PROBUILDER_FACEREBUILDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xCF99430)
+#define UNITYENGINE_PROBUILDER_FACEREBUILDDATA_APPLY_1_OFFSET UNITYSDK_OFFSET(0x1F1ADDF0)
+#define UNITYENGINE_PROBUILDER_FACEREBUILDDATA_APPLY_OFFSET UNITYSDK_OFFSET(0x1F1ACFC0)
+#define UNITYENGINE_PROBUILDER_FACEREBUILDDATA_OFFSET_OFFSET UNITYSDK_OFFSET(0x1F1ACF10)
+#define UNITYENGINE_PROBUILDER_FACEREBUILDDATA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1F1ACF20)
+#define UNITYENGINE_PROBUILDER_FACEREBUILDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1F1AF420)
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int FaceRebuildData_TypeDefinitionIndex = 43167;
+	inline static constexpr unsigned int FaceRebuildData_TypeDefinitionIndex = 44359;
 
 	class FaceRebuildData : public ::System::Object
 	{
 	public:
-		::UnityEngine::ProBuilder::Face* face; // 0x10
-		::System::Collections::Generic::List_1<::System::Int32>* sharedIndexesUV; // 0x18
+		::System::Collections::Generic::List_1<::System::Int32>* sharedIndexesUV; // 0x10
+		::UnityEngine::ProBuilder::Face* face; // 0x18
 		::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* vertices; // 0x20
 		::System::Collections::Generic::List_1<::System::Int32>* sharedIndexes; // 0x28
 		::System::Int32 _appliedOffset; // 0x30

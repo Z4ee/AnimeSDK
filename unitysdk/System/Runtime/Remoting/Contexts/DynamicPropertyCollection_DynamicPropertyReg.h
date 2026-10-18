@@ -5,7 +5,7 @@
 namespace System::Runtime::Remoting::Contexts { class IDynamicMessageSink; }
 namespace System::Runtime::Remoting::Contexts { class IDynamicProperty; }
 
-#define SYSTEM_RUNTIME_REMOTING_CONTEXTS_DYNAMICPROPERTYCOLLECTION_DYNAMICPROPERTYREG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C46C5B0)
+#define SYSTEM_RUNTIME_REMOTING_CONTEXTS_DYNAMICPROPERTYCOLLECTION_DYNAMICPROPERTYREG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C2AEE10)
 
 namespace System::Runtime::Remoting::Contexts
 {
@@ -14,8 +14,8 @@ namespace System::Runtime::Remoting::Contexts
 	class DynamicPropertyCollection_DynamicPropertyReg : public ::System::Object
 	{
 	public:
-		::System::Runtime::Remoting::Contexts::IDynamicProperty* Property; // 0x10
-		::System::Runtime::Remoting::Contexts::IDynamicMessageSink* Sink; // 0x18
+		::System::Runtime::Remoting::Contexts::IDynamicMessageSink* Sink; // 0x10
+		::System::Runtime::Remoting::Contexts::IDynamicProperty* Property; // 0x18
 
 		::System::Void _ctor()
 		{

@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Class_1_011EDB1B31A91730_RF_WindSkillComponent_TypeDefinitionIndex = 36417;
+inline static constexpr unsigned int Class_1_011EDB1B31A91730_RF_WindSkillComponent_TypeDefinitionIndex = 37104;
 
 enum class Class_1_011EDB1B31A91730_RF_WindSkillComponent : ::System::Byte
 {

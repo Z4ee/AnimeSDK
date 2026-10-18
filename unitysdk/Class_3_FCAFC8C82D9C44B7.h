@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AdvOnTargetLost; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_FCAFC8C82D9C44B7_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x157D5D30)
-#define CLASS_3_FCAFC8C82D9C44B7__CTOR_OFFSET UNITYSDK_OFFSET(0x157D5D00)
+#define CLASS_3_FCAFC8C82D9C44B7_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCC45EE0)
+#define CLASS_3_FCAFC8C82D9C44B7__CTOR_OFFSET UNITYSDK_OFFSET(0xCC45EB0)
 
-inline static constexpr unsigned int Class_3_FCAFC8C82D9C44B7_TypeDefinitionIndex = 52734;
+inline static constexpr unsigned int Class_3_FCAFC8C82D9C44B7_TypeDefinitionIndex = 52459;
 
 class Class_3_FCAFC8C82D9C44B7 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AdvOnTargetLost*>
 {

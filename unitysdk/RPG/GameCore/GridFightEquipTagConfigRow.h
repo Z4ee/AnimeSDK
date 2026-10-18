@@ -5,18 +5,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_GRIDFIGHTEQUIPTAGCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EE66220)
-#define RPG_GAMECORE_GRIDFIGHTEQUIPTAGCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1EE663A0)
+#define RPG_GAMECORE_GRIDFIGHTEQUIPTAGCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D6FF0A0)
+#define RPG_GAMECORE_GRIDFIGHTEQUIPTAGCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6FF220)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightEquipTagConfigRow_TypeDefinitionIndex = 13356;
+	inline static constexpr unsigned int GridFightEquipTagConfigRow_TypeDefinitionIndex = 13463;
 
 	class GridFightEquipTagConfigRow : public ::System::Object
 	{
 	public:
-		::RPG::Client::TextID EquipTagDesc; // 0x10
-		::System::UInt32 TagID; // 0x20
+		::System::UInt32 TagID; // 0x10
+		::RPG::Client::TextID EquipTagDesc; // 0x18
 
 		::System::Void _ctor()
 		{

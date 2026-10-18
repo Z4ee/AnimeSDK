@@ -7,18 +7,18 @@ namespace RPG::Client { class ChimeraTeamTalkRowWrapper; }
 namespace RPG::Client { class ChimeraWorkRoundData; }
 namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 
-#define RPG_CLIENT_CHIMERATEAMRANKMANAGER___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BBF1FC0)
-#define RPG_CLIENT_CHIMERATEAMRANKMANAGER___C__DISPLAYCLASS10_0__GETCURRENTROUNDTEAMTALKROWDATA_B__0_OFFSET UNITYSDK_OFFSET(0x1BBF28C0)
+#define RPG_CLIENT_CHIMERATEAMRANKMANAGER___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCB5E930)
+#define RPG_CLIENT_CHIMERATEAMRANKMANAGER___C__DISPLAYCLASS10_0__GETCURRENTROUNDTEAMTALKROWDATA_B__0_OFFSET UNITYSDK_OFFSET(0xCB5F230)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraTeamRankManager___c__DisplayClass10_0_TypeDefinitionIndex = 63501;
+	inline static constexpr unsigned int ChimeraTeamRankManager___c__DisplayClass10_0_TypeDefinitionIndex = 63439;
 
 	class ChimeraTeamRankManager___c__DisplayClass10_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::ChimeraTeamRankManager* __4__this; // 0x10
-		::RPG::Client::Promises::Promise_1<::RPG::Client::ChimeraTeamTalkRowWrapper*>* promise; // 0x18
+		::RPG::Client::Promises::Promise_1<::RPG::Client::ChimeraTeamTalkRowWrapper*>* promise; // 0x10
+		::RPG::Client::ChimeraTeamRankManager* __4__this; // 0x18
 		::System::UInt32 teamID; // 0x20
 
 		::System::Void _ctor()

@@ -4,12 +4,12 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_TRACKPHOTOREDDOTFILTER_GETNEWSTAGEIDS_OFFSET UNITYSDK_OFFSET(0x197C0230)
-#define RPG_CLIENT_TRACKPHOTOREDDOTFILTER__CTOR_OFFSET UNITYSDK_OFFSET(0x197C0440)
+#define RPG_CLIENT_TRACKPHOTOREDDOTFILTER_GETNEWSTAGEIDS_OFFSET UNITYSDK_OFFSET(0xE2ABE10)
+#define RPG_CLIENT_TRACKPHOTOREDDOTFILTER__CTOR_OFFSET UNITYSDK_OFFSET(0xE2AC020)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TrackPhotoRedDotFilter_TypeDefinitionIndex = 66851;
+	inline static constexpr unsigned int TrackPhotoRedDotFilter_TypeDefinitionIndex = 66853;
 
 	class TrackPhotoRedDotFilter : public ::RPG::Client::BaseRedDotFilter
 	{

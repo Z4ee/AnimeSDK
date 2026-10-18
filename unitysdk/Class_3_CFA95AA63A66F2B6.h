@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetMonsterHUDVisibleType; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_CFA95AA63A66F2B6_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x19F94290)
-#define CLASS_3_CFA95AA63A66F2B6__CTOR_OFFSET UNITYSDK_OFFSET(0x19F94260)
+#define CLASS_3_CFA95AA63A66F2B6_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1647A580)
+#define CLASS_3_CFA95AA63A66F2B6__CTOR_OFFSET UNITYSDK_OFFSET(0x1647A550)
 
-inline static constexpr unsigned int Class_3_CFA95AA63A66F2B6_TypeDefinitionIndex = 55737;
+inline static constexpr unsigned int Class_3_CFA95AA63A66F2B6_TypeDefinitionIndex = 55545;
 
 class Class_3_CFA95AA63A66F2B6 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetMonsterHUDVisibleType*>
 {

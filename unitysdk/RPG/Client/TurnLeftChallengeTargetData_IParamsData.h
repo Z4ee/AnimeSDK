@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TurnLeftChallengeTargetData_IParamsData_TypeDefinitionIndex = 63186;
+	inline static constexpr unsigned int TurnLeftChallengeTargetData_IParamsData_TypeDefinitionIndex = 63119;
 
 	class TurnLeftChallengeTargetData_IParamsData
 	{

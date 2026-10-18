@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlanetFesUnitType_TypeDefinitionIndex = 12095;
+	inline static constexpr unsigned int PlanetFesUnitType_TypeDefinitionIndex = 12176;
 
 	enum class PlanetFesUnitType : ::System::Int32
 	{

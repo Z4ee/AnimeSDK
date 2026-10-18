@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByPamNormalActionSwitch; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_3156191DD3E32F85_EVALUATE_OFFSET UNITYSDK_OFFSET(0x176C5230)
-#define CLASS_3_3156191DD3E32F85__CTOR_OFFSET UNITYSDK_OFFSET(0x176C5200)
+#define CLASS_3_3156191DD3E32F85_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBCC3AF0)
+#define CLASS_3_3156191DD3E32F85__CTOR_OFFSET UNITYSDK_OFFSET(0xBCC3AC0)
 
-inline static constexpr unsigned int Class_3_3156191DD3E32F85_TypeDefinitionIndex = 53416;
+inline static constexpr unsigned int Class_3_3156191DD3E32F85_TypeDefinitionIndex = 53159;
 
 class Class_3_3156191DD3E32F85 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByPamNormalActionSwitch*>
 {

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByAngle; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_2C52E5EE3F36D42E_EVALUATE_OFFSET UNITYSDK_OFFSET(0x18E21FD0)
-#define CLASS_3_2C52E5EE3F36D42E__CTOR_OFFSET UNITYSDK_OFFSET(0x18E21FA0)
+#define CLASS_3_2C52E5EE3F36D42E_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB693AA0)
+#define CLASS_3_2C52E5EE3F36D42E__CTOR_OFFSET UNITYSDK_OFFSET(0xB693A70)
 
-inline static constexpr unsigned int Class_3_2C52E5EE3F36D42E_TypeDefinitionIndex = 54693;
+inline static constexpr unsigned int Class_3_2C52E5EE3F36D42E_TypeDefinitionIndex = 54480;
 
 class Class_3_2C52E5EE3F36D42E : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByAngle*>
 {

@@ -3,7 +3,7 @@
 
 namespace RPG::Client::RelicSmartSuit
 {
-	inline static constexpr unsigned int RankType_TypeDefinitionIndex = 74316;
+	inline static constexpr unsigned int RankType_TypeDefinitionIndex = 74415;
 
 	enum class RankType : ::System::Int32
 	{

@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class PerformanceSortedItem; }
 
-#define RPG_GAMECORE_SUBMISSIONSORTEDITEM_METHOD_2_1468540DAE5C4EA0_OFFSET UNITYSDK_OFFSET(0x1CB0EB70)
-#define RPG_GAMECORE_SUBMISSIONSORTEDITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1CB0ECC0)
+#define RPG_GAMECORE_SUBMISSIONSORTEDITEM_METHOD_2_5EA5466AA149EC67_OFFSET UNITYSDK_OFFSET(0x1DB09CC0)
+#define RPG_GAMECORE_SUBMISSIONSORTEDITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB09DE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SubMissionSortedItem_TypeDefinitionIndex = 18808;
+	inline static constexpr unsigned int SubMissionSortedItem_TypeDefinitionIndex = 19032;
 
 	class SubMissionSortedItem : public ::RPG::GameCore::JsonConfig
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SUBMISSIONSORTEDITEM__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_1468540DAE5C4EA0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SubMissionSortedItem*& a2)
+		static ::System::Void Method_2_5EA5466AA149EC67(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SubMissionSortedItem*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SubMissionSortedItem*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SUBMISSIONSORTEDITEM_METHOD_2_1468540DAE5C4EA0_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SubMissionSortedItem*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SUBMISSIONSORTEDITEM_METHOD_2_5EA5466AA149EC67_OFFSET))(a1, a2);
 		}
 	};
 }

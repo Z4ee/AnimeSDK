@@ -2,14 +2,14 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_D17272E82AE804C2_699;
+class Class_1_D17272E82AE804C2_731;
 
-#define RPG_CLIENT_MONOPOLYOPTIONALEVENTDISPLAYDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x195FB340)
-#define RPG_CLIENT_MONOPOLYOPTIONALEVENTDISPLAYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x195FB3D0)
+#define RPG_CLIENT_MONOPOLYOPTIONALEVENTDISPLAYDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xD8A24D0)
+#define RPG_CLIENT_MONOPOLYOPTIONALEVENTDISPLAYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xD8A2560)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonopolyOptionalEventDisplayData_TypeDefinitionIndex = 66326;
+	inline static constexpr unsigned int MonopolyOptionalEventDisplayData_TypeDefinitionIndex = 66287;
 
 	class MonopolyOptionalEventDisplayData : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYOPTIONALEVENTDISPLAYDATA__CTOR_OFFSET))(this);
 		}
 
-		static ::RPG::Client::MonopolyOptionalEventDisplayData* Create(::Class_1_D17272E82AE804C2_699* a1)
+		static ::RPG::Client::MonopolyOptionalEventDisplayData* Create(::Class_1_D17272E82AE804C2_731* a1)
 		{
-			return ((::RPG::Client::MonopolyOptionalEventDisplayData*(*)(::Class_1_D17272E82AE804C2_699*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYOPTIONALEVENTDISPLAYDATA_CREATE_OFFSET))(a1);
+			return ((::RPG::Client::MonopolyOptionalEventDisplayData*(*)(::Class_1_D17272E82AE804C2_731*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYOPTIONALEVENTDISPLAYDATA_CREATE_OFFSET))(a1);
 		}
 	};
 }

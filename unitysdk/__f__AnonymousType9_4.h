@@ -4,7 +4,7 @@
 
 namespace System { class String; }
 
-inline static constexpr unsigned int __f__AnonymousType9_4_TypeDefinitionIndex = 47513;
+inline static constexpr unsigned int __f__AnonymousType9_4_TypeDefinitionIndex = 47053;
 
 template <typename _doc_id_j__TPar, typename _sheet_id_j__TPar, typename _range_address_j__TPar, typename _resource_j__TPar>
 class __f__AnonymousType9_4 : public ::System::Object

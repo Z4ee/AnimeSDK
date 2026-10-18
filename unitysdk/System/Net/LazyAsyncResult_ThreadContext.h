@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_NET_LAZYASYNCRESULT_THREADCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0449B0)
+#define SYSTEM_NET_LAZYASYNCRESULT_THREADCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1F03B060)
 
 namespace System::Net
 {

@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BillboardShowType_TypeDefinitionIndex = 60596;
+	inline static constexpr unsigned int BillboardShowType_TypeDefinitionIndex = 60497;
 
 	enum class BillboardShowType : ::System::Int32
 	{

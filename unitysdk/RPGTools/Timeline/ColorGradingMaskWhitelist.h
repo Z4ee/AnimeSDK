@@ -9,7 +9,7 @@ namespace RPGTools::Timeline { class ColorGradingMaskWhitelist_StoryCharacter; }
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int ColorGradingMaskWhitelist_TypeDefinitionIndex = 48916;
+	inline static constexpr unsigned int ColorGradingMaskWhitelist_TypeDefinitionIndex = 48462;
 
 	struct alignas(8) ColorGradingMaskWhitelist
 	{

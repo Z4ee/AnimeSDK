@@ -4,12 +4,12 @@
 
 class Class_1_50210DAEB46E0CD5;
 
-#define RPG_CLIENT_GRIDFIGHTREFTRAITLAYERCALCULATOR___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1CA65E90)
-#define RPG_CLIENT_GRIDFIGHTREFTRAITLAYERCALCULATOR___C__DISPLAYCLASS5_0___CTOR_B__0_OFFSET UNITYSDK_OFFSET(0x1CA67080)
+#define RPG_CLIENT_GRIDFIGHTREFTRAITLAYERCALCULATOR___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD1E5790)
+#define RPG_CLIENT_GRIDFIGHTREFTRAITLAYERCALCULATOR___C__DISPLAYCLASS5_0___CTOR_B__0_OFFSET UNITYSDK_OFFSET(0xD1E6980)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightRefTraitLayerCalculator___c__DisplayClass5_0_TypeDefinitionIndex = 64881;
+	inline static constexpr unsigned int GridFightRefTraitLayerCalculator___c__DisplayClass5_0_TypeDefinitionIndex = 64821;
 
 	class GridFightRefTraitLayerCalculator___c__DisplayClass5_0 : public ::System::Object
 	{

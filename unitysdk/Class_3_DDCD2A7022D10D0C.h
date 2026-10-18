@@ -5,10 +5,10 @@
 class Class_1_D93F8AE271D8A728;
 namespace RPG::Client::LittleGameShare { class ST_CakeRaceByIsAIState; }
 
-#define CLASS_3_DDCD2A7022D10D0C_EVALUATE_OFFSET UNITYSDK_OFFSET(0x16272D50)
-#define CLASS_3_DDCD2A7022D10D0C__CTOR_OFFSET UNITYSDK_OFFSET(0x16272D30)
+#define CLASS_3_DDCD2A7022D10D0C_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1C591650)
+#define CLASS_3_DDCD2A7022D10D0C__CTOR_OFFSET UNITYSDK_OFFSET(0x1C591630)
 
-inline static constexpr unsigned int Class_3_DDCD2A7022D10D0C_TypeDefinitionIndex = 36291;
+inline static constexpr unsigned int Class_3_DDCD2A7022D10D0C_TypeDefinitionIndex = 36978;
 
 class Class_3_DDCD2A7022D10D0C : public ::RPG::Client::LittleGameShare::STPredicateTask_1<::RPG::Client::LittleGameShare::ST_CakeRaceByIsAIState*>
 {

@@ -9,20 +9,20 @@
 namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define CYSHARP_THREADING_TASKS_DELTATIMEPLAYERLOOPTIMER_MOVENEXTCORE_OFFSET UNITYSDK_OFFSET(0x1D747C70)
-#define CYSHARP_THREADING_TASKS_DELTATIMEPLAYERLOOPTIMER_RESETCORE_OFFSET UNITYSDK_OFFSET(0x1D747AF0)
-#define CYSHARP_THREADING_TASKS_DELTATIMEPLAYERLOOPTIMER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D747A80)
+#define CYSHARP_THREADING_TASKS_DELTATIMEPLAYERLOOPTIMER_MOVENEXTCORE_OFFSET UNITYSDK_OFFSET(0x1F0E9960)
+#define CYSHARP_THREADING_TASKS_DELTATIMEPLAYERLOOPTIMER_RESETCORE_OFFSET UNITYSDK_OFFSET(0x1F0E97E0)
+#define CYSHARP_THREADING_TASKS_DELTATIMEPLAYERLOOPTIMER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F0E9760)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int DeltaTimePlayerLoopTimer_TypeDefinitionIndex = 42627;
+	inline static constexpr unsigned int DeltaTimePlayerLoopTimer_TypeDefinitionIndex = 38212;
 
 	class DeltaTimePlayerLoopTimer : public ::Cysharp::Threading::Tasks::PlayerLoopTimer
 	{
 	public:
 		::System::Single elapsed; // 0x30
-		::System::Single interval; // 0x34
-		::System::Int32 initialFrame; // 0x38
+		::System::Int32 initialFrame; // 0x34
+		::System::Single interval; // 0x38
 
 		::System::Void _ctor(::System::TimeSpan a1, ::System::Boolean a2, ::Cysharp::Threading::Tasks::PlayerLoopTiming a3, ::System::Threading::CancellationToken a4, ::System::Action_1<::System::Object*>* a5, ::System::Object* a6)
 		{

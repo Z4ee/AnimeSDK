@@ -5,8 +5,8 @@
 namespace System { class String; }
 namespace System::Runtime::Remoting::Messaging { class IMethodMessage; }
 
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_MCMDICTIONARY__CCTOR_OFFSET UNITYSDK_OFFSET(0x19440880)
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_MCMDICTIONARY__CTOR_OFFSET UNITYSDK_OFFSET(0x19440810)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_MCMDICTIONARY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C2BF590)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_MCMDICTIONARY__CTOR_OFFSET UNITYSDK_OFFSET(0x1C2BF520)
 
 namespace System::Runtime::Remoting::Messaging
 {
@@ -17,7 +17,7 @@ namespace System::Runtime::Remoting::Messaging
 	public:
 		static ::Il2CppArray<::System::String*>** StaticGet_InternalKeys()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MCMDictionary_TypeDefinitionIndex)->GetStaticField(0x12CA0);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MCMDictionary_TypeDefinitionIndex)->GetStaticField(0x1CD50);
 		}
 
 		::System::Void _ctor(::System::Runtime::Remoting::Messaging::IMethodMessage* a1)

@@ -5,11 +5,11 @@
 namespace RPG::Client { class AnimatorButton; }
 namespace UnityEngine { class RectTransform; }
 
-#define RPG_CLIENT_CHALLENGE_STORY_CHALLENGESTORYFEVERMAZEBUFFICONGROUPCONTROL_BUFFBINDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C863FD0)
+#define RPG_CLIENT_CHALLENGE_STORY_CHALLENGESTORYFEVERMAZEBUFFICONGROUPCONTROL_BUFFBINDER__CTOR_OFFSET UNITYSDK_OFFSET(0xC93AF70)
 
 namespace RPG::Client::Challenge::Story
 {
-	inline static constexpr unsigned int ChallengeStoryFeverMazeBuffIconGroupControl_BuffBinder_TypeDefinitionIndex = 80308;
+	inline static constexpr unsigned int ChallengeStoryFeverMazeBuffIconGroupControl_BuffBinder_TypeDefinitionIndex = 81636;
 
 	class ChallengeStoryFeverMazeBuffIconGroupControl_BuffBinder : public ::System::Object
 	{

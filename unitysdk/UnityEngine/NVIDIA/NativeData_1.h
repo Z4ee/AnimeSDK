@@ -4,7 +4,7 @@
 
 namespace UnityEngine::NVIDIA
 {
-	inline static constexpr unsigned int NativeData_1_TypeDefinitionIndex = 5022;
+	inline static constexpr unsigned int NativeData_1_TypeDefinitionIndex = 5029;
 
 	template <typename T>
 	class NativeData_1 : public ::System::Object

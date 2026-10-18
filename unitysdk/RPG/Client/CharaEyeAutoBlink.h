@@ -3,21 +3,21 @@
 #include "unitysdk/RPG/Client/CharaEyeBlinkStateType.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-class Class_0_16E4307DCC419505_1015;
+class Class_0_16E4307DCC419505_1124;
 namespace RPG::Client { class CharaEyeBlinkStateRandom; }
 namespace RPG::Client { class CharaEyeBlinkStateStop; }
 namespace RPG::Client { class CharaEyeBlinkStateVoiceLoudness; }
 namespace RPG::Client { class CharaEyeLight; }
 
-#define RPG_CLIENT_CHARAEYEAUTOBLINK_AWAKE_OFFSET UNITYSDK_OFFSET(0x1AD73940)
-#define RPG_CLIENT_CHARAEYEAUTOBLINK_ENTERSTATE_OFFSET UNITYSDK_OFFSET(0x1AD73530)
-#define RPG_CLIENT_CHARAEYEAUTOBLINK_METHOD_5_52CA0F45BC3414DC_OFFSET UNITYSDK_OFFSET(0x1AD73AE0)
-#define RPG_CLIENT_CHARAEYEAUTOBLINK_UPDATE_OFFSET UNITYSDK_OFFSET(0x1AD73BE0)
-#define RPG_CLIENT_CHARAEYEAUTOBLINK__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD73E30)
+#define RPG_CLIENT_CHARAEYEAUTOBLINK_AWAKE_OFFSET UNITYSDK_OFFSET(0xC9BB380)
+#define RPG_CLIENT_CHARAEYEAUTOBLINK_ENTERSTATE_OFFSET UNITYSDK_OFFSET(0xC9BAF70)
+#define RPG_CLIENT_CHARAEYEAUTOBLINK_METHOD_5_52CA0F45BC3414DC_OFFSET UNITYSDK_OFFSET(0xC9BB520)
+#define RPG_CLIENT_CHARAEYEAUTOBLINK_UPDATE_OFFSET UNITYSDK_OFFSET(0xC9BB620)
+#define RPG_CLIENT_CHARAEYEAUTOBLINK__CTOR_OFFSET UNITYSDK_OFFSET(0xC9BB870)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CharaEyeAutoBlink_TypeDefinitionIndex = 68340;
+	inline static constexpr unsigned int CharaEyeAutoBlink_TypeDefinitionIndex = 68373;
 
 	class CharaEyeAutoBlink : public ::UnityEngine::MonoBehaviour
 	{
@@ -29,7 +29,7 @@ namespace RPG::Client
 		::RPG::Client::CharaEyeBlinkStateRandom* RandomState; // 0x30
 		::RPG::Client::CharaEyeBlinkStateVoiceLoudness* VoiceLoudnessState; // 0x38
 		::RPG::Client::CharaEyeBlinkStateType DEBGCJFNKDD; // 0x40
-		::Class_0_16E4307DCC419505_1015* JBDFMDNIPAD; // 0x48
+		::Class_0_16E4307DCC419505_1124* JBDFMDNIPAD; // 0x48
 
 		::System::Void _ctor()
 		{

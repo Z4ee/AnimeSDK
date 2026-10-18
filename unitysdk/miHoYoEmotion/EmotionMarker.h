@@ -3,11 +3,11 @@
 #include "unitysdk/miHoYoEmotion/BaseMarker.h"
 #include "unitysdk/miHoYoEmotion/BaseMarker_POST_TYPE.h"
 
-#define MIHOYOEMOTION_EMOTIONMARKER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EFEB940)
+#define MIHOYOEMOTION_EMOTIONMARKER__CTOR_OFFSET UNITYSDK_OFFSET(0xB0BE0A0)
 
 namespace miHoYoEmotion
 {
-	inline static constexpr unsigned int EmotionMarker_TypeDefinitionIndex = 44824;
+	inline static constexpr unsigned int EmotionMarker_TypeDefinitionIndex = 45963;
 
 	class EmotionMarker : public ::miHoYoEmotion::BaseMarker
 	{

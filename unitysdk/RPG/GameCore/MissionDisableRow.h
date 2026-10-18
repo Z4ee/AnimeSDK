@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MISSIONDISABLEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D1AAC10)
-#define RPG_GAMECORE_MISSIONDISABLEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1AAE50)
+#define RPG_GAMECORE_MISSIONDISABLEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D858930)
+#define RPG_GAMECORE_MISSIONDISABLEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D858B70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MissionDisableRow_TypeDefinitionIndex = 14053;
+	inline static constexpr unsigned int MissionDisableRow_TypeDefinitionIndex = 14160;
 
 	class MissionDisableRow : public ::System::Object
 	{

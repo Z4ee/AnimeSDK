@@ -8,21 +8,21 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_CAKERACEPERFORMANCEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D103630)
-#define RPG_GAMECORE_CAKERACEPERFORMANCEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1038B0)
+#define RPG_GAMECORE_CAKERACEPERFORMANCEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D524380)
+#define RPG_GAMECORE_CAKERACEPERFORMANCEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D524600)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CakeRacePerformanceRow_TypeDefinitionIndex = 11007;
+	inline static constexpr unsigned int CakeRacePerformanceRow_TypeDefinitionIndex = 11023;
 
 	class CakeRacePerformanceRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::String*>* PerformanceParam; // 0x10
-		::RPG::Client::TextID PerformTextmap; // 0x18
-		::RPG::GameCore::CakeRaceTriggerPerformanceType PerformType; // 0x28
-		::RPG::GameCore::CakeRacePerformenceAudioTagType AudioTag; // 0x2C
-		::System::UInt32 Priority; // 0x30
+		::RPG::GameCore::CakeRacePerformenceAudioTagType AudioTag; // 0x18
+		::System::UInt32 Priority; // 0x1C
+		::RPG::Client::TextID PerformTextmap; // 0x20
+		::RPG::GameCore::CakeRaceTriggerPerformanceType PerformType; // 0x30
 		::System::UInt32 PerformanceID; // 0x34
 
 		::System::Void _ctor()

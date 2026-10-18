@@ -6,29 +6,29 @@ namespace HoudiniEngineUnity { class Test_Texture2D; }
 namespace System { template <typename T1, typename T2> class Converter_2; }
 namespace UnityEngine { class Texture2D; }
 
-#define HOUDINIENGINEUNITY_TEST_TEXTURE2D_EXTENSIONS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EEF1AF0)
-#define HOUDINIENGINEUNITY_TEST_TEXTURE2D_EXTENSIONS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1EEF1B30)
-#define HOUDINIENGINEUNITY_TEST_TEXTURE2D_EXTENSIONS___C__TOTESTOBJECT_B__1_0_OFFSET UNITYSDK_OFFSET(0x1EEF1B40)
-#define HOUDINIENGINEUNITY_TEST_TEXTURE2D_EXTENSIONS___C__TOTESTOBJECT_B__2_0_OFFSET UNITYSDK_OFFSET(0x1EEF1B80)
+#define HOUDINIENGINEUNITY_TEST_TEXTURE2D_EXTENSIONS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B996C60)
+#define HOUDINIENGINEUNITY_TEST_TEXTURE2D_EXTENSIONS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B996CA0)
+#define HOUDINIENGINEUNITY_TEST_TEXTURE2D_EXTENSIONS___C__TOTESTOBJECT_B__1_0_OFFSET UNITYSDK_OFFSET(0x1B996CB0)
+#define HOUDINIENGINEUNITY_TEST_TEXTURE2D_EXTENSIONS___C__TOTESTOBJECT_B__2_0_OFFSET UNITYSDK_OFFSET(0x1B996CF0)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int Test_Texture2D_Extensions___c_TypeDefinitionIndex = 39459;
+	inline static constexpr unsigned int Test_Texture2D_Extensions___c_TypeDefinitionIndex = 40756;
 
 	class Test_Texture2D_Extensions___c : public ::System::Object
 	{
 	public:
-		static ::HoudiniEngineUnity::Test_Texture2D_Extensions___c** StaticGet___9()
-		{
-			return (::HoudiniEngineUnity::Test_Texture2D_Extensions___c**)Il2CppClass::FromTypeDefinitionIndex(Test_Texture2D_Extensions___c_TypeDefinitionIndex)->GetStaticField(0x5D0D0);
-		}
 		static ::System::Converter_2<::UnityEngine::Texture2D*, ::HoudiniEngineUnity::Test_Texture2D*>** StaticGet___9__1_0()
 		{
-			return (::System::Converter_2<::UnityEngine::Texture2D*, ::HoudiniEngineUnity::Test_Texture2D*>**)Il2CppClass::FromTypeDefinitionIndex(Test_Texture2D_Extensions___c_TypeDefinitionIndex)->GetStaticField(0x5D0D8);
+			return (::System::Converter_2<::UnityEngine::Texture2D*, ::HoudiniEngineUnity::Test_Texture2D*>**)Il2CppClass::FromTypeDefinitionIndex(Test_Texture2D_Extensions___c_TypeDefinitionIndex)->GetStaticField(0x644D0);
 		}
 		static ::System::Converter_2<::UnityEngine::Texture2D*, ::HoudiniEngineUnity::Test_Texture2D*>** StaticGet___9__2_0()
 		{
-			return (::System::Converter_2<::UnityEngine::Texture2D*, ::HoudiniEngineUnity::Test_Texture2D*>**)Il2CppClass::FromTypeDefinitionIndex(Test_Texture2D_Extensions___c_TypeDefinitionIndex)->GetStaticField(0x5D0E0);
+			return (::System::Converter_2<::UnityEngine::Texture2D*, ::HoudiniEngineUnity::Test_Texture2D*>**)Il2CppClass::FromTypeDefinitionIndex(Test_Texture2D_Extensions___c_TypeDefinitionIndex)->GetStaticField(0x644D8);
+		}
+		static ::HoudiniEngineUnity::Test_Texture2D_Extensions___c** StaticGet___9()
+		{
+			return (::HoudiniEngineUnity::Test_Texture2D_Extensions___c**)Il2CppClass::FromTypeDefinitionIndex(Test_Texture2D_Extensions___c_TypeDefinitionIndex)->GetStaticField(0x644E0);
 		}
 
 		static ::System::Void _cctor()

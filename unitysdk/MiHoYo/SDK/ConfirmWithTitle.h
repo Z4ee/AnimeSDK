@@ -8,28 +8,28 @@ namespace System { class String; }
 namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class Text; }
 
-#define MIHOYO_SDK_CONFIRMWITHTITLE_AWAKE_OFFSET UNITYSDK_OFFSET(0x1A1C9330)
-#define MIHOYO_SDK_CONFIRMWITHTITLE_HIDE_OFFSET UNITYSDK_OFFSET(0x1A1C9E90)
-#define MIHOYO_SDK_CONFIRMWITHTITLE_ONTAPCANCEL_OFFSET UNITYSDK_OFFSET(0x1A1C9ED0)
-#define MIHOYO_SDK_CONFIRMWITHTITLE_ONTAPCONFIRM_OFFSET UNITYSDK_OFFSET(0x1A1C9F30)
-#define MIHOYO_SDK_CONFIRMWITHTITLE_SHOW_OFFSET UNITYSDK_OFFSET(0x1A1C9C60)
-#define MIHOYO_SDK_CONFIRMWITHTITLE_START_OFFSET UNITYSDK_OFFSET(0x1A1C9A00)
-#define MIHOYO_SDK_CONFIRMWITHTITLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1C9FA0)
+#define MIHOYO_SDK_CONFIRMWITHTITLE_AWAKE_OFFSET UNITYSDK_OFFSET(0x1BC3FE20)
+#define MIHOYO_SDK_CONFIRMWITHTITLE_HIDE_OFFSET UNITYSDK_OFFSET(0x1BC40980)
+#define MIHOYO_SDK_CONFIRMWITHTITLE_ONTAPCANCEL_OFFSET UNITYSDK_OFFSET(0x1BC409C0)
+#define MIHOYO_SDK_CONFIRMWITHTITLE_ONTAPCONFIRM_OFFSET UNITYSDK_OFFSET(0x1BC40A20)
+#define MIHOYO_SDK_CONFIRMWITHTITLE_SHOW_OFFSET UNITYSDK_OFFSET(0x1BC40750)
+#define MIHOYO_SDK_CONFIRMWITHTITLE_START_OFFSET UNITYSDK_OFFSET(0x1BC404F0)
+#define MIHOYO_SDK_CONFIRMWITHTITLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC40A90)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ConfirmWithTitle_TypeDefinitionIndex = 7959;
+	inline static constexpr unsigned int ConfirmWithTitle_TypeDefinitionIndex = 8002;
 
 	class ConfirmWithTitle : public ::MiHoYo::SDK::UIElement
 	{
 	public:
-		static ::MiHoYo::SDK::ConfirmWithTitle** StaticGet_Instance()
-		{
-			return (::MiHoYo::SDK::ConfirmWithTitle**)Il2CppClass::FromTypeDefinitionIndex(ConfirmWithTitle_TypeDefinitionIndex)->GetStaticField(0x72E0);
-		}
 		static ::MiHoYo::SDK::UIManager** StaticGet_manager()
 		{
-			return (::MiHoYo::SDK::UIManager**)Il2CppClass::FromTypeDefinitionIndex(ConfirmWithTitle_TypeDefinitionIndex)->GetStaticField(0x72E8);
+			return (::MiHoYo::SDK::UIManager**)Il2CppClass::FromTypeDefinitionIndex(ConfirmWithTitle_TypeDefinitionIndex)->GetStaticField(0x53990);
+		}
+		static ::MiHoYo::SDK::ConfirmWithTitle** StaticGet_Instance()
+		{
+			return (::MiHoYo::SDK::ConfirmWithTitle**)Il2CppClass::FromTypeDefinitionIndex(ConfirmWithTitle_TypeDefinitionIndex)->GetStaticField(0x53998);
 		}
 		// static const ::System::String* PrefabName; // 0x0
 		// static const ::System::String* DialogPath; // 0x0

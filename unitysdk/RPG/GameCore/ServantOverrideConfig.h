@@ -6,13 +6,13 @@ class Class_1_1C30CE192ABE4C54;
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_SERVANTOVERRIDECONFIG_METHOD_4_17C9D91BCCD5AAD3_OFFSET UNITYSDK_OFFSET(0x1DB4DD80)
-#define RPG_GAMECORE_SERVANTOVERRIDECONFIG_METHOD_4_EB901D234E8D349C_OFFSET UNITYSDK_OFFSET(0x1DB4FC90)
-#define RPG_GAMECORE_SERVANTOVERRIDECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB4DC60)
+#define RPG_GAMECORE_SERVANTOVERRIDECONFIG_METHOD_4_8B58BC9F4E16E2AC_OFFSET UNITYSDK_OFFSET(0x1DA61C20)
+#define RPG_GAMECORE_SERVANTOVERRIDECONFIG_METHOD_4_EB901D234E8D349C_OFFSET UNITYSDK_OFFSET(0x1DA63D50)
+#define RPG_GAMECORE_SERVANTOVERRIDECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1DA61B00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ServantOverrideConfig_TypeDefinitionIndex = 16349;
+	inline static constexpr unsigned int ServantOverrideConfig_TypeDefinitionIndex = 16522;
 
 	class ServantOverrideConfig : public ::RPG::GameCore::ServantConfig
 	{
@@ -32,9 +32,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ServantOverrideConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SERVANTOVERRIDECONFIG_METHOD_4_EB901D234E8D349C_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_17C9D91BCCD5AAD3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ServantOverrideConfig* a2)
+		static ::System::Void Method_4_8B58BC9F4E16E2AC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ServantOverrideConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ServantOverrideConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SERVANTOVERRIDECONFIG_METHOD_4_17C9D91BCCD5AAD3_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ServantOverrideConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SERVANTOVERRIDECONFIG_METHOD_4_8B58BC9F4E16E2AC_OFFSET))(a1, a2);
 		}
 	};
 }

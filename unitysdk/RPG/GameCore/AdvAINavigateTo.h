@@ -9,13 +9,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_ADVAINAVIGATETO_METHOD_3_824DBF1ED57B2245_OFFSET UNITYSDK_OFFSET(0x1D6A69D0)
-#define RPG_GAMECORE_ADVAINAVIGATETO_METHOD_3_D17736E5B6275209_OFFSET UNITYSDK_OFFSET(0x1D6A6980)
-#define RPG_GAMECORE_ADVAINAVIGATETO__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6A69C0)
+#define RPG_GAMECORE_ADVAINAVIGATETO_METHOD_3_A94C7CB2555FE040_OFFSET UNITYSDK_OFFSET(0x1D35FC50)
+#define RPG_GAMECORE_ADVAINAVIGATETO_METHOD_3_C4B89D561CC05EC1_OFFSET UNITYSDK_OFFSET(0x1D35FCA0)
+#define RPG_GAMECORE_ADVAINAVIGATETO__CTOR_OFFSET UNITYSDK_OFFSET(0x1D35FC90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvAINavigateTo_TypeDefinitionIndex = 19769;
+	inline static constexpr unsigned int AdvAINavigateTo_TypeDefinitionIndex = 20003;
 
 	class AdvAINavigateTo : public ::RPG::GameCore::TaskConfig
 	{
@@ -35,14 +35,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVAINAVIGATETO__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_D17736E5B6275209(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvAINavigateTo*& a2)
+		static ::System::Void Method_3_A94C7CB2555FE040(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvAINavigateTo*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvAINavigateTo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVAINAVIGATETO_METHOD_3_D17736E5B6275209_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvAINavigateTo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVAINAVIGATETO_METHOD_3_A94C7CB2555FE040_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_824DBF1ED57B2245(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvAINavigateTo* a2)
+		static ::System::Void Method_3_C4B89D561CC05EC1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvAINavigateTo* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvAINavigateTo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVAINAVIGATETO_METHOD_3_824DBF1ED57B2245_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvAINavigateTo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVAINAVIGATETO_METHOD_3_C4B89D561CC05EC1_OFFSET))(a1, a2);
 		}
 	};
 }

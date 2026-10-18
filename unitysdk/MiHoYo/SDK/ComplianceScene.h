@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_COMPLIANCESCENE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1B70C0)
+#define MIHOYO_SDK_COMPLIANCESCENE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC2D790)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ComplianceScene_TypeDefinitionIndex = 7854;
+	inline static constexpr unsigned int ComplianceScene_TypeDefinitionIndex = 7898;
 
 	class ComplianceScene : public ::System::Object
 	{

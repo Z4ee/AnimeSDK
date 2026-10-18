@@ -1,20 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_43BD383C98B4C0C5_17.h"
+#include "unitysdk/Class_1_43BD383C98B4C0C5_16.h"
 
 class Class_3_F65294BF89CA0784;
 namespace RPG::GameCore { class DiceCombatAIEffectEvaluatorConfig_DicePointInSpecificRange; }
 
-#define CLASS_2_66AFC3E20E37F24A_METHOD_2_861970C5F2C21AB2_OFFSET UNITYSDK_OFFSET(0x1B250510)
-#define CLASS_2_66AFC3E20E37F24A__CTOR_OFFSET UNITYSDK_OFFSET(0x1B250500)
+#define CLASS_2_66AFC3E20E37F24A_METHOD_2_861970C5F2C21AB2_OFFSET UNITYSDK_OFFSET(0x1C639110)
+#define CLASS_2_66AFC3E20E37F24A__CTOR_OFFSET UNITYSDK_OFFSET(0x1C639100)
 
-inline static constexpr unsigned int Class_2_66AFC3E20E37F24A_TypeDefinitionIndex = 35531;
+inline static constexpr unsigned int Class_2_66AFC3E20E37F24A_TypeDefinitionIndex = 36218;
 
-class Class_2_66AFC3E20E37F24A : public ::Class_1_43BD383C98B4C0C5_17
+class Class_2_66AFC3E20E37F24A : public ::Class_1_43BD383C98B4C0C5_16
 {
 public:
-	::Class_3_F65294BF89CA0784* EEFMDEHLLFI; // 0x10
-	::RPG::GameCore::DiceCombatAIEffectEvaluatorConfig_DicePointInSpecificRange* IGHAHBNLIJA; // 0x18
+	::RPG::GameCore::DiceCombatAIEffectEvaluatorConfig_DicePointInSpecificRange* IGHAHBNLIJA; // 0x10
+	::Class_3_F65294BF89CA0784* EEFMDEHLLFI; // 0x18
 
 	::System::Void _ctor(::RPG::GameCore::DiceCombatAIEffectEvaluatorConfig_DicePointInSpecificRange* a1, ::Class_3_F65294BF89CA0784* a2)
 	{

@@ -8,24 +8,24 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAEFFECTBASE_CLASS_1_0875A0359D7C8064_DISPOSE_OFFSET UNITYSDK_OFFSET(0x116A4450)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAEFFECTBASE_CLASS_1_0875A0359D7C8064_METHOD_1_6E3C7DCF81428CB3_OFFSET UNITYSDK_OFFSET(0x116A4380)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAEFFECTBASE_CLASS_1_0875A0359D7C8064_METHOD_1_935E29CBA8DD617B_OFFSET UNITYSDK_OFFSET(0x116A41E0)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAEFFECTBASE_CLASS_1_0875A0359D7C8064__CTOR_OFFSET UNITYSDK_OFFSET(0x1169F7A0)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAEFFECTBASE_CLASS_1_0875A0359D7C8064_DISPOSE_OFFSET UNITYSDK_OFFSET(0xD7C7D40)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAEFFECTBASE_CLASS_1_0875A0359D7C8064_METHOD_1_6E3C7DCF81428CB3_OFFSET UNITYSDK_OFFSET(0xD7C7C70)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAEFFECTBASE_CLASS_1_0875A0359D7C8064_METHOD_1_935E29CBA8DD617B_OFFSET UNITYSDK_OFFSET(0xD7C7AD0)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAEFFECTBASE_CLASS_1_0875A0359D7C8064__CTOR_OFFSET UNITYSDK_OFFSET(0xD7C3080)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginCharaEffectBase_Class_1_0875A0359D7C8064_TypeDefinitionIndex = 69907;
+	inline static constexpr unsigned int MonoEffectPluginCharaEffectBase_Class_1_0875A0359D7C8064_TypeDefinitionIndex = 69941;
 
 	class MonoEffectPluginCharaEffectBase_Class_1_0875A0359D7C8064 : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::UnityEngine::Material*>* CNMOOKIKPLF; // 0x10
-		::UnityEngine::MaterialPropertyBlock* OBINDGFMHIH; // 0x18
-		::RPG::GameCore::CharacterReplaceMaterialRender* DLHNEGPIONF; // 0x20
-		::System::String* OAKGHGGKALA; // 0x28
-		::System::Collections::Generic::List_1<::UnityEngine::Material*>* HPLODFKEHED; // 0x30
-		::Il2CppArray<::System::UInt32>* DMNJNFCPGHM; // 0x38
+		::System::Collections::Generic::List_1<::UnityEngine::Material*>* HPLODFKEHED; // 0x10
+		::RPG::GameCore::CharacterReplaceMaterialRender* DLHNEGPIONF; // 0x18
+		::Il2CppArray<::UnityEngine::Material*>* CNMOOKIKPLF; // 0x20
+		::Il2CppArray<::System::UInt32>* DMNJNFCPGHM; // 0x28
+		::UnityEngine::MaterialPropertyBlock* OBINDGFMHIH; // 0x30
+		::System::String* OAKGHGGKALA; // 0x38
 		::System::UInt32 KJJNDIDPEMH; // 0x40
 
 		::System::Void _ctor()

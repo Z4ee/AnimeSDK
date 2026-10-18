@@ -3,7 +3,7 @@
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int AppendPrepend_1__AppendPrepend_State_TypeDefinitionIndex = 44086;
+	inline static constexpr unsigned int AppendPrepend_1__AppendPrepend_State_TypeDefinitionIndex = 45225;
 
 	enum class AppendPrepend_1__AppendPrepend_State : ::System::Byte
 	{

@@ -6,21 +6,21 @@
 class Class_1_5F51D4049EA87B7B;
 namespace RPG::GameCore { class GameEntity; }
 
-#define CLASS_1_B3122B2B681EA91E__CTOR_OFFSET UNITYSDK_OFFSET(0x189428D0)
+#define CLASS_1_B3122B2B681EA91E__CTOR_OFFSET UNITYSDK_OFFSET(0xEB9B320)
 
-inline static constexpr unsigned int Class_1_B3122B2B681EA91E_TypeDefinitionIndex = 55962;
+inline static constexpr unsigned int Class_1_B3122B2B681EA91E_TypeDefinitionIndex = 55774;
 
 class Class_1_B3122B2B681EA91E : public ::System::Object
 {
 public:
-	::Class_1_5F51D4049EA87B7B* IBCHKLLMADD; // 0x10
-	::Class_1_5F51D4049EA87B7B* COCMPJEBMKP; // 0x18
-	::RPG::GameCore::GameEntity* NKKGKNFDPPH; // 0x20
-	::RPG::GameCore::GameEntity* GNOCBLOMLAC; // 0x28
-	::RPG::GameCore::GameEntity* DOCIPOEABOM; // 0x30
-	::Class_1_5F51D4049EA87B7B* DLAKDMCEKNO; // 0x38
-	::System::Int32 KBAPBCNJHDB; // 0x40
-	::RPG::GameCore::TriggerAidState BBCODJDANCH; // 0x44
+	::Class_1_5F51D4049EA87B7B* COCMPJEBMKP; // 0x10
+	::Class_1_5F51D4049EA87B7B* IBCHKLLMADD; // 0x18
+	::RPG::GameCore::GameEntity* DOCIPOEABOM; // 0x20
+	::Class_1_5F51D4049EA87B7B* DLAKDMCEKNO; // 0x28
+	::RPG::GameCore::GameEntity* NKKGKNFDPPH; // 0x30
+	::RPG::GameCore::GameEntity* GNOCBLOMLAC; // 0x38
+	::RPG::GameCore::TriggerAidState BBCODJDANCH; // 0x40
+	::System::Int32 KBAPBCNJHDB; // 0x44
 
 	::System::Void _ctor()
 	{

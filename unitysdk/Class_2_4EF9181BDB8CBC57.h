@@ -7,7 +7,7 @@ namespace System { class Action; }
 namespace System { class IDisposable; }
 namespace UnityEngine { class Transform; }
 
-inline static constexpr unsigned int Class_2_4EF9181BDB8CBC57_TypeDefinitionIndex = 50300;
+inline static constexpr unsigned int Class_2_4EF9181BDB8CBC57_TypeDefinitionIndex = 49974;
 
 template <typename TComponent>
 class Class_2_4EF9181BDB8CBC57 : public ::Class_1_1C6C366B8555A29F<TComponent>

@@ -2,28 +2,28 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_TIMEPROVIDER_GET_SYSTEM_OFFSET UNITYSDK_OFFSET(0x1F014C10)
-#define SYSTEM_TIMEPROVIDER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F014C80)
-#define SYSTEM_TIMEPROVIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F014C70)
+#define SYSTEM_TIMEPROVIDER_GET_SYSTEM_OFFSET UNITYSDK_OFFSET(0x1BBBDDD0)
+#define SYSTEM_TIMEPROVIDER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BBBDE40)
+#define SYSTEM_TIMEPROVIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BBBDE30)
 
 namespace System
 {
-	inline static constexpr unsigned int TimeProvider_TypeDefinitionIndex = 10160;
+	inline static constexpr unsigned int TimeProvider_TypeDefinitionIndex = 10173;
 
 	class TimeProvider : public ::System::Object
 	{
 	public:
 		static ::System::TimeProvider** StaticGet__System_k__BackingField()
 		{
-			return (::System::TimeProvider**)Il2CppClass::FromTypeDefinitionIndex(TimeProvider_TypeDefinitionIndex)->GetStaticField(0x7E0);
+			return (::System::TimeProvider**)Il2CppClass::FromTypeDefinitionIndex(TimeProvider_TypeDefinitionIndex)->GetStaticField(0x7D0);
 		}
 		static ::System::Int64* StaticGet_s_maxDateTicks()
 		{
-			return (::System::Int64*)Il2CppClass::FromTypeDefinitionIndex(TimeProvider_TypeDefinitionIndex)->GetStaticField(0x4A0);
+			return (::System::Int64*)Il2CppClass::FromTypeDefinitionIndex(TimeProvider_TypeDefinitionIndex)->GetStaticField(0x4B0);
 		}
 		static ::System::Int64* StaticGet_s_minDateTicks()
 		{
-			return (::System::Int64*)Il2CppClass::FromTypeDefinitionIndex(TimeProvider_TypeDefinitionIndex)->GetStaticField(0x4A8);
+			return (::System::Int64*)Il2CppClass::FromTypeDefinitionIndex(TimeProvider_TypeDefinitionIndex)->GetStaticField(0x4B8);
 		}
 
 		::System::Void _ctor()

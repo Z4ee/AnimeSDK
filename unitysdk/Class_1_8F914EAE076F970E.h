@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/MVector3.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_8F914EAE076F970E__CTOR_OFFSET UNITYSDK_OFFSET(0x18F91AD0)
+#define CLASS_1_8F914EAE076F970E__CTOR_OFFSET UNITYSDK_OFFSET(0x159661B0)
 
-inline static constexpr unsigned int Class_1_8F914EAE076F970E_TypeDefinitionIndex = 56118;
+inline static constexpr unsigned int Class_1_8F914EAE076F970E_TypeDefinitionIndex = 55930;
 
 class Class_1_8F914EAE076F970E : public ::System::Object
 {

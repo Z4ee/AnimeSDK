@@ -6,11 +6,11 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_DEBUGGING_LOCATIONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x192DFB60)
+#define RPG_CLIENT_DEBUGGING_LOCATIONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xCBE49C0)
 
 namespace RPG::Client::Debugging
 {
-	inline static constexpr unsigned int LocationData_TypeDefinitionIndex = 80745;
+	inline static constexpr unsigned int LocationData_TypeDefinitionIndex = 82125;
 
 	class LocationData : public ::System::Object
 	{

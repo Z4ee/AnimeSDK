@@ -4,9 +4,9 @@
 
 namespace RPG::GameCore { class LevelTriggerInfo; }
 
-#define CLASS_1_C65FB61BCA66847A__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF86600)
+#define CLASS_1_C65FB61BCA66847A__CTOR_OFFSET UNITYSDK_OFFSET(0x1CB74C90)
 
-inline static constexpr unsigned int Class_1_C65FB61BCA66847A_TypeDefinitionIndex = 42008;
+inline static constexpr unsigned int Class_1_C65FB61BCA66847A_TypeDefinitionIndex = 43650;
 
 class Class_1_C65FB61BCA66847A : public ::System::Object
 {

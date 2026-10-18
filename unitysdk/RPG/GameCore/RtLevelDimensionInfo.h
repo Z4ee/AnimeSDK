@@ -13,12 +13,12 @@ namespace RPG::GameCore { class SavedValueDimensionConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_RTLEVELDIMENSIONINFO_METHOD_2_7159EDB58142B4CA_OFFSET UNITYSDK_OFFSET(0x1CCE7BF0)
-#define RPG_GAMECORE_RTLEVELDIMENSIONINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1CCE8160)
+#define RPG_GAMECORE_RTLEVELDIMENSIONINFO_METHOD_2_7159EDB58142B4CA_OFFSET UNITYSDK_OFFSET(0x1DA30870)
+#define RPG_GAMECORE_RTLEVELDIMENSIONINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1DA30DE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtLevelDimensionInfo_TypeDefinitionIndex = 17153;
+	inline static constexpr unsigned int RtLevelDimensionInfo_TypeDefinitionIndex = 17348;
 
 	class RtLevelDimensionInfo : public ::RPG::GameCore::JsonConfig
 	{

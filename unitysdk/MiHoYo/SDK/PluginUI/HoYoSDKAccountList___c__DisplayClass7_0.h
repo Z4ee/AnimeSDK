@@ -5,12 +5,12 @@
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_PLUGINUI_HOYOSDKACCOUNTLIST___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C69F060)
-#define MIHOYO_SDK_PLUGINUI_HOYOSDKACCOUNTLIST___C__DISPLAYCLASS7_0__REGISTERDELEGATE_B__6_OFFSET UNITYSDK_OFFSET(0x1C69F1B0)
+#define MIHOYO_SDK_PLUGINUI_HOYOSDKACCOUNTLIST___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB015080)
+#define MIHOYO_SDK_PLUGINUI_HOYOSDKACCOUNTLIST___C__DISPLAYCLASS7_0__REGISTERDELEGATE_B__6_OFFSET UNITYSDK_OFFSET(0xB0151D0)
 
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int HoYoSDKAccountList___c__DisplayClass7_0_TypeDefinitionIndex = 47199;
+	inline static constexpr unsigned int HoYoSDKAccountList___c__DisplayClass7_0_TypeDefinitionIndex = 46739;
 
 	class HoYoSDKAccountList___c__DisplayClass7_0 : public ::System::Object
 	{

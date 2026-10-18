@@ -5,12 +5,12 @@
 class Class_2_0107C8345F1C32B7;
 class Class_2_06CF2E0419A9C5D6;
 class Class_2_155795594C9D7C9E;
-class Class_2_2B9847232031B19F;
 class Class_2_2F5DB4F817BF5D46;
 class Class_2_338A7DDAE8C6895E;
 class Class_2_3AB0B9DDFA5DEB99;
 class Class_2_5A4AFD388E3B75C3;
 class Class_2_5A737687604D62BC;
+class Class_2_63010B734F822273;
 class Class_2_6C27481E1C47C2A6;
 class Class_2_7B009D98D0E6C113;
 class Class_2_7F8437B064FFBB24;
@@ -21,6 +21,7 @@ class Class_2_9CBD4BFD2FAC2556;
 class Class_2_A3837635D64D850C;
 class Class_2_A7D2BFB62240EE4C;
 class Class_2_A8C50969F0064A7C;
+class Class_2_B1897D3A6DDB5B50;
 class Class_2_D5D6F6FAE588B104;
 class Class_2_F5D4F9378AC076E0;
 class Class_2_FA12D1638ECEF6BC;
@@ -133,10 +134,10 @@ namespace RPG::Client { class PamSkinModule; }
 namespace RPG::Client { class PayModule; }
 namespace RPG::Client { class PerformanceRecallModule; }
 namespace RPG::Client { class PersonalizeModule; }
-namespace RPG::Client { class PetModule; }
 namespace RPG::Client { class PhotoGraphModule; }
 namespace RPG::Client { class PingPongModule; }
 namespace RPG::Client { class PlanetFesModule; }
+namespace RPG::Client { class PlayerForbidModule; }
 namespace RPG::Client { class PlayerModule; }
 namespace RPG::Client { class PunkLordModule; }
 namespace RPG::Client { class QteCatchGhostModule; }
@@ -180,11 +181,18 @@ namespace RPG::Client { class TutorialSupportModule; }
 namespace RPG::Client { class VoracityInvasionModule; }
 namespace RPG::Client { class WolfBroShootingModule; }
 namespace RPG::Client { class WorldShop4ThModule; }
+namespace RPG::Client::Badge { class BadgeModule; }
+namespace RPG::Client::BlindBox::Pool { class BlindBoxPoolModule; }
+namespace RPG::Client::BlindBox::Recycle { class BlindBoxRecycleModule; }
+namespace RPG::Client::BlindBox::Trade { class BlindBoxTradeModule; }
+namespace RPG::Client::Compliance { class ComplianceModule; }
 namespace RPG::Client::FateRin { class FateRinModule; }
 namespace RPG::Client::FateRin { class FateRinSupportModule; }
 namespace RPG::Client::LimaoNews { class LimaoNewsModule; }
 namespace RPG::Client::NavMap { class MapConnectivityModule; }
 namespace RPG::Client::NavMap { class NavMapModule; }
+namespace RPG::Client::Pet { class PetModule; }
+namespace RPG::Client::PetMarble { class PetMarbleModule; }
 namespace RPG::Client::PixAir { class PixAirModule; }
 namespace RPG::Client::Recommend { class RecommendModule; }
 namespace RPG::Client::RelicBox { class RelicBoxModule; }
@@ -192,217 +200,225 @@ namespace System { class Action; }
 namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_MODULEMANAGER_ASYNCINIT_OFFSET UNITYSDK_OFFSET(0x19E26CB0)
-#define RPG_CLIENT_MODULEMANAGER_CLEARMODULEINITREQUEST_OFFSET UNITYSDK_OFFSET(0x19E26FD0)
-#define RPG_CLIENT_MODULEMANAGER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x19E26D20)
-#define RPG_CLIENT_MODULEMANAGER_GET_ISINITED_OFFSET UNITYSDK_OFFSET(0x19E259F0)
-#define RPG_CLIENT_MODULEMANAGER_INIT_OFFSET UNITYSDK_OFFSET(0x19E26B00)
-#define RPG_CLIENT_MODULEMANAGER_ISLUAMODULEINITED_OFFSET UNITYSDK_OFFSET(0x19E275A0)
-#define RPG_CLIENT_MODULEMANAGER_ONLOGINFINISH_OFFSET UNITYSDK_OFFSET(0x19E27400)
-#define RPG_CLIENT_MODULEMANAGER_ONNETWORKRECONNECTED_OFFSET UNITYSDK_OFFSET(0x19E27260)
-#define RPG_CLIENT_MODULEMANAGER_PREINIT_OFFSET UNITYSDK_OFFSET(0x19E26AC0)
-#define RPG_CLIENT_MODULEMANAGER_REGISTERMODULEINITREQUEST_OFFSET UNITYSDK_OFFSET(0x19E27070)
-#define RPG_CLIENT_MODULEMANAGER_SENDMODULEINITREQUEST_OFFSET UNITYSDK_OFFSET(0x19E27180)
-#define RPG_CLIENT_MODULEMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x19E25A40)
+#define RPG_CLIENT_MODULEMANAGER_ASYNCINIT_OFFSET UNITYSDK_OFFSET(0xD7223B0)
+#define RPG_CLIENT_MODULEMANAGER_CLEARMODULEINITREQUEST_OFFSET UNITYSDK_OFFSET(0xD7226C0)
+#define RPG_CLIENT_MODULEMANAGER_DISPOSE_OFFSET UNITYSDK_OFFSET(0xD722420)
+#define RPG_CLIENT_MODULEMANAGER_GET_ISINITED_OFFSET UNITYSDK_OFFSET(0xD721060)
+#define RPG_CLIENT_MODULEMANAGER_INIT_OFFSET UNITYSDK_OFFSET(0xD722200)
+#define RPG_CLIENT_MODULEMANAGER_ISLUAMODULEINITED_OFFSET UNITYSDK_OFFSET(0xD722C90)
+#define RPG_CLIENT_MODULEMANAGER_ONLOGINFINISH_OFFSET UNITYSDK_OFFSET(0xD722AF0)
+#define RPG_CLIENT_MODULEMANAGER_ONNETWORKRECONNECTED_OFFSET UNITYSDK_OFFSET(0xD722950)
+#define RPG_CLIENT_MODULEMANAGER_PREINIT_OFFSET UNITYSDK_OFFSET(0xD7221C0)
+#define RPG_CLIENT_MODULEMANAGER_REGISTERMODULEINITREQUEST_OFFSET UNITYSDK_OFFSET(0xD722760)
+#define RPG_CLIENT_MODULEMANAGER_SENDMODULEINITREQUEST_OFFSET UNITYSDK_OFFSET(0xD722870)
+#define RPG_CLIENT_MODULEMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0xD7210B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ModuleManager_TypeDefinitionIndex = 66249;
+	inline static constexpr unsigned int ModuleManager_TypeDefinitionIndex = 66210;
 
 	class ModuleManager : public ::System::Object
 	{
 	public:
 		static ::System::Boolean* StaticGet_IsInModuleCheck()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ModuleManager_TypeDefinitionIndex)->GetStaticField(0x15610);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ModuleManager_TypeDefinitionIndex)->GetStaticField(0x14FC0);
 		}
-		::RPG::Client::FightFestModule* FightFestModule; // 0x10
-		::RPG::Client::GrowthModule* GrowthModule; // 0x18
-		::RPG::Client::BattleModule* BattleModule; // 0x20
-		::RPG::Client::TutorialSupportModule* TutorialSupportModule; // 0x28
-		::RPG::Client::MonopolyModule* MonopolyModule; // 0x30
-		::RPG::Client::SpaceZooModule* SpaceZooModule; // 0x38
-		::RPG::Client::MessageModule* MessageModule; // 0x40
-		::RPG::Client::TalkModule* TalkModule; // 0x48
-		::Class_2_F5D4F9378AC076E0* ActivityBenefitV2Module; // 0x50
-		::RPG::Client::VoracityInvasionModule* VoracityInvasionModule; // 0x58
-		::Class_2_7B009D98D0E6C113* ServerPrefsModule; // 0x60
-		::RPG::Client::WolfBroShootingModule* WolfBroShootingModule; // 0x68
-		::RPG::Client::GamePlayLockModule* GamePlayLockModule; // 0x70
-		::RPG::Client::SwitchMascotModule* SwitchMascotModule; // 0x78
-		::RPG::Client::RoleTrialModule* RoleTrialModule; // 0x80
-		::RPG::Client::QuestModule* QuestModule; // 0x88
-		::RPG::Client::OperationModule* OperationModule; // 0x90
-		::RPG::Client::PersonalizeModule* PersonalizeModule; // 0x98
-		::Class_2_155795594C9D7C9E* GameManagedQuitModule; // 0xA0
-		::RPG::Client::MultiplayerCareerDataModule* MultiplayerCareerDataModule; // 0xA8
-		::RPG::Client::ScheduleModule* ScheduleModule; // 0xB0
-		::RPG::Client::NovelModule* NovelModule; // 0xB8
-		::RPG::Client::ExpeditionBattleModule* ExpeditionBattleModule; // 0xC0
-		::RPG::Client::MatchThreeModule* MatchThreeModule; // 0xC8
-		::RPG::Client::ActivityPhotoExhibitionModule* ActivityPhotoExhibitionModule; // 0xD0
-		::RPG::Client::ActivityPlayerReturnModule* ActivityPlayerReturnModule; // 0xD8
-		::RPG::Client::FarmModule* FarmModule; // 0xE0
-		::RPG::Client::MultiPlayerActivityModule* MultiPlayerActivityModule; // 0xE8
-		::RPG::Client::PingPongModule* PingPongModule; // 0xF0
-		::RPG::Client::OnlinePlayRoomModule* OnlinePlayRoomModule; // 0xF8
-		::RPG::Client::HeliobusModule* HeliobusModule; // 0x100
-		::RPG::Client::OfferingModule* OfferingModule; // 0x108
-		::RPG::Client::AchievementModule* AchievementModule; // 0x110
-		::RPG::Client::FightActivityModule* FightActivityModule; // 0x118
-		::Class_2_D5D6F6FAE588B104* EraFlipperModule; // 0x120
-		::RPG::Client::MissionChronicleModule* MissionChronicleModule; // 0x128
-		::Class_2_3AB0B9DDFA5DEB99* FormationMoveModule; // 0x130
-		::RPG::Client::MusicAlbumModule* MusicAlbumModule; // 0x138
-		::RPG::Client::MissionReplayModule* MissionReplayModule; // 0x140
-		::RPG::Client::BattlePassModule* BattlePassModule; // 0x148
-		::RPG::Client::FateModule* FateModule; // 0x150
-		::RPG::Client::NavMap::MapConnectivityModule* MapConnectivityModule; // 0x158
-		::RPG::Client::ChallengeModule* ChallengeModule; // 0x160
-		::RPG::Client::MuseumModule* MuseumModule; // 0x168
-		::RPG::Client::ChimeraDuelModule* ChimeraDuelModule; // 0x170
-		::RPG::Client::RelicBox::RelicBoxModule* RelicBoxModule; // 0x178
-		::Class_2_A7D2BFB62240EE4C* FloorConnectivityModule; // 0x180
-		::RPG::Client::PamSkinModule* PamSkinModule; // 0x188
-		::RPG::Client::AdventureModule* AdventureModule; // 0x190
-		::RPG::Client::FeatureSwitchModule* FeatureSwitchModule; // 0x198
-		::Class_2_93B185FAC6857365* LuaDataModule; // 0x1A0
-		::RPG::Client::SystemOpenModule* SystemOpenModule; // 0x1A8
-		::RPG::Client::ActivityActiveModule* ActivityActiveModule; // 0x1B0
-		::RPG::Client::SwitchHandModule* SwitchHandModule; // 0x1B8
-		::RPG::Client::TravelShipModule* TravelShipModule; // 0x1C0
-		::RPG::Client::StoryLineModule* StoryLineModule; // 0x1C8
-		::RPG::Client::ChallengePeakModule* ChallengePeakModule; // 0x1D0
-		::RPG::Client::TransferModule* TransferModule; // 0x1D8
-		::RPG::Client::TitanAtlasModule* TitanAtlasModule; // 0x1E0
-		::RPG::Client::CakeRaceModule* CakeRaceModule; // 0x1E8
-		::RPG::Client::DrinkMakerModule* DrinkMakerModule; // 0x1F0
-		::RPG::Client::PlanetFesModule* PlanetFesModule; // 0x1F8
-		::RPG::Client::WorldShop4ThModule* WorldShop4ThModule; // 0x200
-		::RPG::Client::AnniversaryCollectionModule* AnniversaryCollectionModule; // 0x208
-		::RPG::Client::ActivityClockParkModule* ActivityClockParkModule; // 0x210
-		::RPG::Client::AnniversaryAvatarDeliverModule* AnniversaryAvatarDeliverModule; // 0x218
-		::RPG::Client::TravelBrochureModule* TravelBrochureModule; // 0x220
-		::RPG::Client::ShareModule* ShareModule; // 0x228
-		::RPG::Client::DifficultyAdjustModule* DifficultyAdjustModule; // 0x230
-		::Class_2_5A737687604D62BC* MapPropOverrideConditionModule; // 0x238
-		::RPG::Client::SilverWolfModule* SilverWolfModule; // 0x240
-		::RPG::Client::TrainPartyModule* TrainPartyModule; // 0x248
-		::RPG::Client::ActivityMusicRhythmModule* ActivityMusicRhythmModule; // 0x250
-		::Class_2_5A4AFD388E3B75C3* BattleTipsModule; // 0x258
-		::RPG::Client::ActivityModule* ActivityModule; // 0x260
-		::RPG::Client::ActivityTelevisionModule* ActivityTelevisionModule; // 0x268
-		::RPG::Client::ChimeraModule* ChimeraModule; // 0x270
-		::RPG::Client::ActivityFeverTimeModule* ActivityFeverTimeModule; // 0x278
-		::RPG::Client::RogueModule* RogueModule; // 0x280
-		::Class_2_2F5DB4F817BF5D46* EntityScoreModule; // 0x288
-		::RPG::Client::ActivityIdleLiveModule* ActivityIdleLiveModule; // 0x290
-		::RPG::Client::ActivityStrongChallengeModule* ActivityStrongChallengeModule; // 0x298
-		::RPG::Client::FiveDimModule* FiveDimModule; // 0x2A0
-		::RPG::Client::CompanionMissionActivityModule* CompanionMissionActivityModule; // 0x2A8
-		::Class_2_882A38110396CC46* EntityTimeRewindModule; // 0x2B0
-		::RPG::Client::AetherDivideModule* AetherDivideModule; // 0x2B8
-		::Class_2_2B9847232031B19F* MapRotationModule; // 0x2C0
-		::RPG::Client::PetModule* PetModule; // 0x2C8
-		::RPG::Client::HandbookModule* HandbookModule; // 0x2D0
-		::Class_2_7F8437B064FFBB24* BattleEventModule; // 0x2D8
-		::RPG::Client::TrainModule* TrainModule; // 0x2E0
-		::RPG::Client::DirectDeliveryNoticeModule* DirectDeliveryNoticeModule; // 0x2E8
-		::Class_2_FA12D1638ECEF6BC* WorldShopModule; // 0x2F0
-		::RPG::Client::PlayerModule* PlayerModule; // 0x2F8
-		::RPG::Client::InventoryModule* InventoryModule; // 0x300
-		::RPG::Client::GachaModule* GachaModule; // 0x308
-		::Class_2_A3837635D64D850C* AntiAddictionModule; // 0x310
-		::RPG::Client::HeartDialModule* HeartDialModule; // 0x318
-		::RPG::Client::MultiplayerGameModule* MultiplayerGameModule; // 0x320
-		::RPG::Client::PixAir::PixAirModule* PixAirModule; // 0x328
-		::RPG::Client::FriendModule* FriendModule; // 0x330
-		::RPG::Client::RPGDemoModule* RPGDemoModule; // 0x338
-		::RPG::Client::MaterialSubmissionModule* MaterialSubmissionModule; // 0x340
-		::RPG::Client::DiceCombatModule* DiceCombatModule; // 0x348
-		::RPG::Client::MatchThreeV2Module* MatchThreeV2Module; // 0x350
-		::RPG::Client::RogueArcadeModule* RogueArcadeModule; // 0x358
-		::RPG::Client::ActivityParkourModule* ActivityParkourModule; // 0x360
-		::RPG::Client::ActivityStartHintModule* ActivityStartHintModule; // 0x368
-		::RPG::Client::ActivityAetherDivideModule* ActivityAetherDivideModule; // 0x370
-		::RPG::Client::PhotoGraphModule* PhotoGraphModule; // 0x378
-		::RPG::Client::RelicModule* RelicModule; // 0x380
-		::RPG::Client::FateSupportModule* FateSupportModule; // 0x388
-		::RPG::Client::RogueMagicModule* RogueMagicModule; // 0x390
-		::Class_2_A8C50969F0064A7C* CocoonModule; // 0x398
-		::RPG::Client::ActivityQuestTimeLimitModule* ActivityQuestTimeLimitModule; // 0x3A0
-		::Class_2_338A7DDAE8C6895E* PamModule; // 0x3A8
-		::Class_2_956BB4F58C2F2914* ColonyCollectionPuzzleModule; // 0x3B0
-		::RPG::Client::MissionTimelineModule* MissionTimelineModule; // 0x3B8
-		::RPG::Client::RogueHandbookModule* RogueHandbookModule; // 0x3C0
-		::RPG::Client::TeamModule* TeamModule; // 0x3C8
-		::RPG::Client::TreasureDungeonModule* TreasureDungeonModule; // 0x3D0
-		::RPG::Client::ToastQueueModule* ToastQueueModule; // 0x3D8
-		::RPG::Client::LimaoNews::LimaoNewsModule* LimaoNewsModule; // 0x3E0
-		::RPG::Client::AssistantModule* AssistantModule; // 0x3E8
-		::RPG::Client::MultipleDropModule* MultipleDropModule; // 0x3F0
-		::RPG::Client::ActivityGuessTheSilhouetteModule* ActivityGuessTheSilhouetteModule; // 0x3F8
-		::RPG::Client::PerformanceRecallModule* PerformanceRecallModule; // 0x400
-		::Class_2_06CF2E0419A9C5D6* WhiteListInteractUploadModule; // 0x408
-		::RPG::Client::BattleCollegeModule* BattleCollegeModule; // 0x410
-		::RPG::Client::LobbyModule* LobbyModule; // 0x418
-		::RPG::Client::StarFightModule* StarFightModule; // 0x420
-		::RPG::Client::ChessRogueModule* ChessRogueModule; // 0x428
-		::RPG::Client::TarotBookModule* TarotBookModule; // 0x430
-		::RPG::Client::ChenLingBattleModule* ChenLingBattleModule; // 0x438
-		::Class_2_0107C8345F1C32B7* StoryTokenModule; // 0x440
-		::RPG::Client::EarlyAccessModule* EarlyAccessModule; // 0x448
-		::RPG::Client::RollShopModule* RollShopModule; // 0x450
-		::System::Collections::Generic::List_1<::RPG::Client::BaseModule*>* modules; // 0x458
-		::RPG::Client::ItemComposeModule* ItemComposeModule; // 0x460
-		::RPG::Client::EvolveBuildModule* EvolveBuildModule; // 0x468
-		::RPG::Client::RaidCollectionModule* RaidCollectionModule; // 0x470
-		::RPG::Client::BigMapModule* BigMapModule; // 0x478
+		::RPG::Client::AnniversaryAvatarDeliverModule* AnniversaryAvatarDeliverModule; // 0x10
+		::RPG::Client::ActivityTelevisionModule* ActivityTelevisionModule; // 0x18
+		::RPG::Client::InventoryModule* InventoryModule; // 0x20
+		::RPG::Client::MonopolyModule* MonopolyModule; // 0x28
+		::RPG::Client::RaidModule* RaidModule; // 0x30
+		::RPG::Client::AssistantModule* AssistantModule; // 0x38
+		::RPG::Client::ChallengeModule* ChallengeModule; // 0x40
+		::RPG::Client::DirectDeliveryNoticeModule* DirectDeliveryNoticeModule; // 0x48
+		::RPG::Client::ActivityPhotoExhibitionModule* ActivityPhotoExhibitionModule; // 0x50
+		::RPG::Client::TrainModule* TrainModule; // 0x58
+		::RPG::Client::TravelBrochureModule* TravelBrochureModule; // 0x60
+		::RPG::Client::MatchThreeModule* MatchThreeModule; // 0x68
+		::RPG::Client::ChimeraDuelModule* ChimeraDuelModule; // 0x70
+		::RPG::Client::ActivityQuestTimeLimitModule* ActivityQuestTimeLimitModule; // 0x78
+		::RPG::Client::OnlinePlayRoomModule* OnlinePlayRoomModule; // 0x80
+		::RPG::Client::SystemOpenModule* SystemOpenModule; // 0x88
+		::RPG::Client::TalkModule* TalkModule; // 0x90
+		::RPG::Client::BattlePassModule* BattlePassModule; // 0x98
+		::Class_2_7B009D98D0E6C113* ServerPrefsModule; // 0xA0
+		::RPG::Client::DifficultyAdjustModule* DifficultyAdjustModule; // 0xA8
+		::RPG::Client::MovieRacingModule* MovieRacingModule; // 0xB0
+		::RPG::Client::PamSkinModule* PamSkinModule; // 0xB8
+		::RPG::Client::Pet::PetModule* PetModule; // 0xC0
+		::RPG::Client::BlindBox::Recycle::BlindBoxRecycleModule* BlindBoxRecycleModule; // 0xC8
+		::RPG::Client::HeliobusModule* HeliobusModule; // 0xD0
+		::RPG::Client::GridFightModule* GridFightModule; // 0xD8
+		::Class_2_A8C50969F0064A7C* CocoonModule; // 0xE0
+		::RPG::Client::ActivityHipplenModule* ActivityHipplenModule; // 0xE8
+		::RPG::Client::MissionChronicleModule* MissionChronicleModule; // 0xF0
+		::Class_2_6C27481E1C47C2A6* GameStateServiceModule; // 0xF8
+		::Class_2_2F5DB4F817BF5D46* EntityScoreModule; // 0x100
+		::RPG::Client::CumulativeConsumptionModule* CumulativeConsumptionModule; // 0x108
+		::RPG::Client::RollShopModule* RollShopModule; // 0x110
+		::RPG::Client::BlindBox::Pool::BlindBoxPoolModule* BlindBoxPoolModule; // 0x118
+		::RPG::Client::VoracityInvasionModule* VoracityInvasionModule; // 0x120
+		::RPG::Client::PingPongModule* PingPongModule; // 0x128
+		::RPG::Client::MuseumModule* MuseumModule; // 0x130
+		::RPG::Client::RelicBox::RelicBoxModule* RelicBoxModule; // 0x138
+		::RPG::Client::PlayerModule* PlayerModule; // 0x140
+		::RPG::Client::MultiplayerGameModule* MultiplayerGameModule; // 0x148
+		::RPG::Client::ShopModule* ShopModule; // 0x150
+		::Class_2_F5D4F9378AC076E0* ActivityBenefitV2Module; // 0x158
+		::Class_2_3AB0B9DDFA5DEB99* FormationMoveModule; // 0x160
+		::RPG::Client::TravelShipModule* TravelShipModule; // 0x168
+		::RPG::Client::ElfRestaurantModule* ElfRestaurantModule; // 0x170
+		::RPG::Client::ScheduleModule* ScheduleModule; // 0x178
+		::RPG::Client::RogueMagicModule* RogueMagicModule; // 0x180
+		::RPG::Client::BigMapModule* BigMapModule; // 0x188
+		::RPG::Client::ActivitySummonModule* ActivitySummonModule; // 0x190
+		::RPG::Client::BattleModule* BattleModule; // 0x198
+		::RPG::Client::FriendModule* FriendModule; // 0x1A0
+		::RPG::Client::FiveDimModule* FiveDimModule; // 0x1A8
+		::Class_2_FA12D1638ECEF6BC* WorldShopModule; // 0x1B0
+		::RPG::Client::RoleTrialModule* RoleTrialModule; // 0x1B8
+		::RPG::Client::ChatModule* ChatModule; // 0x1C0
+		::RPG::Client::MultiFloorConflictModule* MultiFloorConflictModule; // 0x1C8
+		::Class_2_5A4AFD388E3B75C3* BattleTipsModule; // 0x1D0
+		::RPG::Client::ChimeraModule* ChimeraModule; // 0x1D8
+		::RPG::Client::FateModule* FateModule; // 0x1E0
+		::RPG::Client::ChooseDeliveryModule* ChooseDeliveryModule; // 0x1E8
+		::RPG::Client::TextJoinModule* TextJoinModule; // 0x1F0
+		::RPG::Client::ExpeditionModule* ExpeditionModule; // 0x1F8
+		::RPG::Client::ActivityAetherDivideModule* ActivityAetherDivideModule; // 0x200
+		::RPG::Client::ActivityIdleLiveModule* ActivityIdleLiveModule; // 0x208
+		::RPG::Client::FindChestModule* FindChestModule; // 0x210
+		::RPG::Client::SwitchMascotModule* SwitchMascotModule; // 0x218
+		::System::Collections::Generic::List_1<::RPG::Client::BaseModule*>* modules; // 0x220
+		::RPG::Client::BoxingClubModule* BoxingClubModule; // 0x228
+		::Class_2_155795594C9D7C9E* GameManagedQuitModule; // 0x230
+		::RPG::Client::PlayerForbidModule* PlayerForbidModule; // 0x238
+		::RPG::Client::StarFightModule* StarFightModule; // 0x240
+		::RPG::Client::Badge::BadgeModule* BadgeModule; // 0x248
+		::RPG::Client::DrinkMakerModule* DrinkMakerModule; // 0x250
+		::RPG::Client::RogueArcadeModule* RogueArcadeModule; // 0x258
+		::RPG::Client::ItemComposeModule* ItemComposeModule; // 0x260
+		::RPG::Client::RogueModule* RogueModule; // 0x268
+		::RPG::Client::TitanAtlasModule* TitanAtlasModule; // 0x270
+		::RPG::Client::PerformanceRecallModule* PerformanceRecallModule; // 0x278
+		::RPG::Client::WorldShop4ThModule* WorldShop4ThModule; // 0x280
+		::RPG::Client::MarbleModule* MarbleModule; // 0x288
+		::RPG::Client::SwitchHandModule* SwitchHandModule; // 0x290
+		::RPG::Client::QteCatchGhostModule* CatchGhostModule; // 0x298
+		::Class_2_06CF2E0419A9C5D6* WhiteListInteractUploadModule; // 0x2A0
+		::RPG::Client::FightFestModule* FightFestModule; // 0x2A8
+		::Class_2_A7D2BFB62240EE4C* FloorConnectivityModule; // 0x2B0
+		::RPG::Client::RaidCollectionModule* RaidCollectionModule; // 0x2B8
+		::RPG::Client::WolfBroShootingModule* WolfBroShootingModule; // 0x2C0
+		::RPG::Client::RechargeShopModule* RechargeShopModule; // 0x2C8
+		::RPG::Client::PlanetFesModule* PlanetFesModule; // 0x2D0
+		::RPG::Client::ActivityParkourModule* ActivityParkourModule; // 0x2D8
+		::RPG::Client::HeartDialModule* HeartDialModule; // 0x2E0
+		::RPG::Client::LimaoNews::LimaoNewsModule* LimaoNewsModule; // 0x2E8
+		::RPG::Client::ActivityTrackPhotoModule* ActivityTrackPhotoModule; // 0x2F0
+		::RPG::Client::GachaModule* GachaModule; // 0x2F8
+		::RPG::Client::BlindBox::Trade::BlindBoxTradeModule* BlindBoxTradeModule; // 0x300
+		::Class_2_882A38110396CC46* EntityTimeRewindModule; // 0x308
+		::RPG::Client::ActivityStrongChallengeModule* ActivityStrongChallengeModule; // 0x310
+		::RPG::Client::TransferModule* TransferModule; // 0x318
+		::Class_2_338A7DDAE8C6895E* PamModule; // 0x320
+		::RPG::Client::TarotBookModule* TarotBookModule; // 0x328
+		::RPG::Client::TutorialSupportModule* TutorialSupportModule; // 0x330
+		::RPG::Client::NovelModule* NovelModule; // 0x338
+		::RPG::Client::MusicAlbumModule* MusicAlbumModule; // 0x340
+		::RPG::Client::OperationModule* OperationModule; // 0x348
+		::RPG::Client::AdventureModule* AdventureModule; // 0x350
+		::RPG::Client::ActivityPlayerReturnModule* ActivityPlayerReturnModule; // 0x358
+		::RPG::Client::StoryLineModule* StoryLineModule; // 0x360
+		::RPG::Client::ShareModule* ShareModule; // 0x368
+		::RPG::Client::FarmModule* FarmModule; // 0x370
+		::RPG::Client::CakeRaceModule* CakeRaceModule; // 0x378
+		::RPG::Client::FateSupportModule* FateSupportModule; // 0x380
+		::RPG::Client::ArchiveModule* ArchiveModule; // 0x388
+		::RPG::Client::ChenLingBattleModule* ChenLingBattleModule; // 0x390
+		::RPG::Client::ExpeditionBattleModule* ExpeditionBattleModule; // 0x398
+		::RPG::Client::ActivityActiveModule* ActivityActiveModule; // 0x3A0
+		::RPG::Client::BattleCollegeModule* BattleCollegeModule; // 0x3A8
+		::RPG::Client::TrainPartyModule* TrainPartyModule; // 0x3B0
+		::RPG::Client::ActivityClockParkModule* ActivityClockParkModule; // 0x3B8
+		::RPG::Client::ActivityBenefitModule* ActivityBenefitModule; // 0x3C0
+		::RPG::Client::TreasureDungeonModule* TreasureDungeonModule; // 0x3C8
+		::RPG::Client::Compliance::ComplianceModule* ComplianceModule; // 0x3D0
+		::RPG::Client::RelicModule* RelicModule; // 0x3D8
+		::RPG::Client::ActivityMusicRhythmModule* ActivityMusicRhythmModule; // 0x3E0
+		::RPG::Client::Recommend::RecommendModule* RecommendModule; // 0x3E8
+		::RPG::Client::EvolveBuildModule* EvolveBuildModule; // 0x3F0
+		::RPG::Client::ActivityModule* ActivityModule; // 0x3F8
+		::RPG::Client::ActivityElationModule* ActivityElationModule; // 0x400
+		::Class_2_63010B734F822273* MapRotationModule; // 0x408
+		::Class_2_7F8437B064FFBB24* BattleEventModule; // 0x410
+		::RPG::Client::RogueAdventureModule* RogueAdventureModule; // 0x418
+		::RPG::Client::CakeCatchModule* CakeCatchModule; // 0x420
+		::RPG::Client::PhotoGraphModule* PhotoGraphModule; // 0x428
+		::RPG::Client::CompanionMissionActivityModule* CompanionMissionActivityModule; // 0x430
+		::Class_2_0107C8345F1C32B7* StoryTokenModule; // 0x438
+		::Class_2_D5D6F6FAE588B104* EraFlipperModule; // 0x440
+		::RPG::Client::ActivityStartHintModule* ActivityStartHintModule; // 0x448
+		::Class_2_A3837635D64D850C* AntiAddictionModule; // 0x450
+		::RPG::Client::MissionTimelineModule* MissionTimelineModule; // 0x458
+		::RPG::Client::DialogueModule* DialogueModule; // 0x460
+		::Class_2_B1897D3A6DDB5B50* ActivityRebateModule; // 0x468
+		::RPG::Client::LoginModule* LoginModule; // 0x470
+		::RPG::Client::NavMap::NavMapModule* NavMapModule; // 0x478
 		::RPG::Client::RogueTournModule* RogueTournModule; // 0x480
-		::RPG::Client::FateRin::FateRinSupportModule* FateRinSupportModule; // 0x488
-		::RPG::Client::QteCatchGhostModule* CatchGhostModule; // 0x490
-		::RPG::Client::GridFightModule* GridFightModule; // 0x498
-		::RPG::Client::ExpeditionModule* ExpeditionModule; // 0x4A0
-		::System::Collections::Generic::List_1<::RPG::Client::ModuleManager_OneRequest*>* _ModuleInitRequestList; // 0x4A8
-		::RPG::Client::PunkLordModule* PunkLordModule; // 0x4B0
-		::RPG::Client::LoginModule* LoginModule; // 0x4B8
-		::RPG::Client::ShopModule* ShopModule; // 0x4C0
-		::RPG::Client::LoadingTipsModule* LoadingTipsModule; // 0x4C8
-		::RPG::Client::CakeCatchModule* CakeCatchModule; // 0x4D0
-		::RPG::Client::NavMap::NavMapModule* NavMapModule; // 0x4D8
-		::Class_2_9CBD4BFD2FAC2556* UnreleasedBlockModule; // 0x4E0
-		::RPG::Client::FateRin::FateRinModule* FateRinModule; // 0x4E8
-		::RPG::Client::BoxingClubModule* BoxingClubModule; // 0x4F0
-		::RPG::Client::MissionModule* MissionModule; // 0x4F8
-		::RPG::Client::ChenLingFesModule* ChenLingFesModule; // 0x500
-		::RPG::Client::ActivityBenefitModule* ActivityBenefitModule; // 0x508
-		::RPG::Client::ActivityLocalLegendModule* ActivityLocalLegendModule; // 0x510
-		::RPG::Client::ChooseDeliveryModule* ChooseDeliveryModule; // 0x518
-		::RPG::Client::PayModule* PayModule; // 0x520
-		::RPG::Client::ChatModule* ChatModule; // 0x528
-		::RPG::Client::CumulativeConsumptionModule* CumulativeConsumptionModule; // 0x530
-		::RPG::Client::ArchiveModule* ArchiveModule; // 0x538
-		::RPG::Client::MovieRacingModule* MovieRacingModule; // 0x540
-		::RPG::Client::RaidModule* RaidModule; // 0x548
-		::RPG::Client::RogueAdventureModule* RogueAdventureModule; // 0x550
-		::RPG::Client::RechargeShopModule* RechargeShopModule; // 0x558
-		::RPG::Client::ActivitySummonModule* ActivitySummonModule; // 0x560
-		::RPG::Client::ActivitySwordTrainingModule* ActivitySwordTrainingModule; // 0x568
-		::RPG::Client::ElfRestaurantModule* ElfRestaurantModule; // 0x570
-		::RPG::Client::ActivityElationModule* ActivityElationModule; // 0x578
-		::RPG::Client::ActivityTrackPhotoModule* ActivityTrackPhotoModule; // 0x580
-		::RPG::Client::MultiFloorConflictModule* MultiFloorConflictModule; // 0x588
-		::RPG::Client::FindChestModule* FindChestModule; // 0x590
-		::RPG::Client::AlleyModule* AlleyModule; // 0x598
-		::RPG::Client::FantasticStoryActivityModule* FantasticStoryActivityModule; // 0x5A0
-		::Class_2_6C27481E1C47C2A6* GameStateServiceModule; // 0x5A8
-		::RPG::Client::Recommend::RecommendModule* RecommendModule; // 0x5B0
-		::RPG::Client::ActivityHotModule* ActivityHotModule; // 0x5B8
-		::RPG::Client::TextJoinModule* TextJoinModule; // 0x5C0
-		::RPG::Client::MarbleModule* MarbleModule; // 0x5C8
-		::RPG::Client::ActivityHipplenModule* ActivityHipplenModule; // 0x5D0
-		::RPG::Client::DialogueModule* DialogueModule; // 0x5D8
-		::System::Boolean isInited; // 0x5E0
+		::RPG::Client::DiceCombatModule* DiceCombatModule; // 0x488
+		::RPG::Client::MatchThreeV2Module* MatchThreeV2Module; // 0x490
+		::RPG::Client::FantasticStoryActivityModule* FantasticStoryActivityModule; // 0x498
+		::RPG::Client::MultiPlayerActivityModule* MultiPlayerActivityModule; // 0x4A0
+		::Class_2_5A737687604D62BC* MapPropOverrideConditionModule; // 0x4A8
+		::RPG::Client::NavMap::MapConnectivityModule* MapConnectivityModule; // 0x4B0
+		::RPG::Client::AetherDivideModule* AetherDivideModule; // 0x4B8
+		::RPG::Client::RogueHandbookModule* RogueHandbookModule; // 0x4C0
+		::RPG::Client::EarlyAccessModule* EarlyAccessModule; // 0x4C8
+		::RPG::Client::PetMarble::PetMarbleModule* PetMarbleModule; // 0x4D0
+		::RPG::Client::ChessRogueModule* ChessRogueModule; // 0x4D8
+		::RPG::Client::PunkLordModule* PunkLordModule; // 0x4E0
+		::RPG::Client::LobbyModule* LobbyModule; // 0x4E8
+		::RPG::Client::MultipleDropModule* MultipleDropModule; // 0x4F0
+		::RPG::Client::OfferingModule* OfferingModule; // 0x4F8
+		::RPG::Client::GamePlayLockModule* GamePlayLockModule; // 0x500
+		::RPG::Client::FightActivityModule* FightActivityModule; // 0x508
+		::Class_2_9CBD4BFD2FAC2556* UnreleasedBlockModule; // 0x510
+		::RPG::Client::MessageModule* MessageModule; // 0x518
+		::RPG::Client::SpaceZooModule* SpaceZooModule; // 0x520
+		::RPG::Client::FateRin::FateRinSupportModule* FateRinSupportModule; // 0x528
+		::RPG::Client::ChenLingFesModule* ChenLingFesModule; // 0x530
+		::RPG::Client::FeatureSwitchModule* FeatureSwitchModule; // 0x538
+		::RPG::Client::ActivitySwordTrainingModule* ActivitySwordTrainingModule; // 0x540
+		::RPG::Client::GrowthModule* GrowthModule; // 0x548
+		::RPG::Client::QuestModule* QuestModule; // 0x550
+		::RPG::Client::MultiplayerCareerDataModule* MultiplayerCareerDataModule; // 0x558
+		::RPG::Client::AlleyModule* AlleyModule; // 0x560
+		::RPG::Client::PixAir::PixAirModule* PixAirModule; // 0x568
+		::System::Collections::Generic::List_1<::RPG::Client::ModuleManager_OneRequest*>* _ModuleInitRequestList; // 0x570
+		::RPG::Client::MissionModule* MissionModule; // 0x578
+		::RPG::Client::ActivityHotModule* ActivityHotModule; // 0x580
+		::RPG::Client::MissionReplayModule* MissionReplayModule; // 0x588
+		::RPG::Client::RPGDemoModule* RPGDemoModule; // 0x590
+		::RPG::Client::ActivityFeverTimeModule* ActivityFeverTimeModule; // 0x598
+		::RPG::Client::ToastQueueModule* ToastQueueModule; // 0x5A0
+		::RPG::Client::AnniversaryCollectionModule* AnniversaryCollectionModule; // 0x5A8
+		::RPG::Client::ChallengePeakModule* ChallengePeakModule; // 0x5B0
+		::RPG::Client::SilverWolfModule* SilverWolfModule; // 0x5B8
+		::RPG::Client::TeamModule* TeamModule; // 0x5C0
+		::RPG::Client::PayModule* PayModule; // 0x5C8
+		::RPG::Client::FateRin::FateRinModule* FateRinModule; // 0x5D0
+		::RPG::Client::ActivityGuessTheSilhouetteModule* ActivityGuessTheSilhouetteModule; // 0x5D8
+		::Class_2_93B185FAC6857365* LuaDataModule; // 0x5E0
+		::RPG::Client::LoadingTipsModule* LoadingTipsModule; // 0x5E8
+		::RPG::Client::PersonalizeModule* PersonalizeModule; // 0x5F0
+		::Class_2_956BB4F58C2F2914* ColonyCollectionPuzzleModule; // 0x5F8
+		::RPG::Client::AchievementModule* AchievementModule; // 0x600
+		::RPG::Client::ActivityLocalLegendModule* ActivityLocalLegendModule; // 0x608
+		::RPG::Client::HandbookModule* HandbookModule; // 0x610
+		::RPG::Client::MaterialSubmissionModule* MaterialSubmissionModule; // 0x618
+		::System::Boolean isInited; // 0x620
 
 		::System::Void _ctor()
 		{

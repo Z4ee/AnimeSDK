@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class PausePropMoveTo; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_CD99557EFFA9FB98_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A83C6D0)
-#define CLASS_3_CD99557EFFA9FB98__CTOR_OFFSET UNITYSDK_OFFSET(0x1A83C6A0)
+#define CLASS_3_CD99557EFFA9FB98_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xDCB0210)
+#define CLASS_3_CD99557EFFA9FB98__CTOR_OFFSET UNITYSDK_OFFSET(0xDCB01E0)
 
-inline static constexpr unsigned int Class_3_CD99557EFFA9FB98_TypeDefinitionIndex = 53334;
+inline static constexpr unsigned int Class_3_CD99557EFFA9FB98_TypeDefinitionIndex = 53060;
 
 class Class_3_CD99557EFFA9FB98 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::PausePropMoveTo*>
 {

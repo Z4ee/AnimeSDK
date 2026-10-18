@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TimeRewindGlobalUnselectableReason_TypeDefinitionIndex = 60928;
+	inline static constexpr unsigned int TimeRewindGlobalUnselectableReason_TypeDefinitionIndex = 60831;
 
 	enum class TimeRewindGlobalUnselectableReason : ::System::Int32
 	{

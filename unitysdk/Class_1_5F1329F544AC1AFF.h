@@ -5,15 +5,15 @@
 
 namespace System { class String; }
 
-#define CLASS_1_5F1329F544AC1AFF__CTOR_OFFSET UNITYSDK_OFFSET(0x1CDDB7A0)
+#define CLASS_1_5F1329F544AC1AFF__CTOR_OFFSET UNITYSDK_OFFSET(0x1CB494D0)
 
-inline static constexpr unsigned int Class_1_5F1329F544AC1AFF_TypeDefinitionIndex = 42045;
+inline static constexpr unsigned int Class_1_5F1329F544AC1AFF_TypeDefinitionIndex = 43687;
 
 class Class_1_5F1329F544AC1AFF : public ::System::Object
 {
 public:
-	::Il2CppArray<::RPG::GameCore::FixPoint>* PBLPLDJKPEI; // 0x10
-	::System::String* GINFOPOAKHK; // 0x18
+	::System::String* GINFOPOAKHK; // 0x10
+	::Il2CppArray<::RPG::GameCore::FixPoint>* PBLPLDJKPEI; // 0x18
 	::System::UInt32 BOKJJKFCFME; // 0x20
 
 	::System::Void _ctor()

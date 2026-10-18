@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_WEBVIEWMODEL_GET_RENDERMETHOD_OFFSET UNITYSDK_OFFSET(0x15CD33C0)
-#define MIHOYO_SDK_WEBVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x15CD3500)
+#define MIHOYO_SDK_WEBVIEWMODEL_GET_RENDERMETHOD_OFFSET UNITYSDK_OFFSET(0x1BCB6810)
+#define MIHOYO_SDK_WEBVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1BCB6950)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int WebViewModel_TypeDefinitionIndex = 7886;
+	inline static constexpr unsigned int WebViewModel_TypeDefinitionIndex = 7930;
 
 	class WebViewModel : public ::System::Object
 	{

@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define NERDBANK_STREAMS_VERIFY_OPERATION_OFFSET UNITYSDK_OFFSET(0x1D576610)
+#define NERDBANK_STREAMS_VERIFY_OPERATION_OFFSET UNITYSDK_OFFSET(0x1BBB8770)
 
 namespace Nerdbank::Streams
 {
-	inline static constexpr unsigned int Verify_TypeDefinitionIndex = 7104;
+	inline static constexpr unsigned int Verify_TypeDefinitionIndex = 7158;
 
 	class Verify : public ::System::Object
 	{

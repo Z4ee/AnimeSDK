@@ -5,11 +5,11 @@
 namespace RPG::GameCore { class EvolveBuildGearEquipInfo; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_SORTEDEVOLVEBUILDGEAREQUIPINFOLISTS__CTOR_OFFSET UNITYSDK_OFFSET(0x196D7660)
+#define RPG_CLIENT_SORTEDEVOLVEBUILDGEAREQUIPINFOLISTS__CTOR_OFFSET UNITYSDK_OFFSET(0xE0E4760)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SortedEvolveBuildGearEquipInfoLists_TypeDefinitionIndex = 63885;
+	inline static constexpr unsigned int SortedEvolveBuildGearEquipInfoLists_TypeDefinitionIndex = 63823;
 
 	class SortedEvolveBuildGearEquipInfoLists : public ::System::Object
 	{

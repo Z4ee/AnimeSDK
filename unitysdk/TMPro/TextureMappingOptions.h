@@ -3,7 +3,7 @@
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TextureMappingOptions_TypeDefinitionIndex = 43460;
+	inline static constexpr unsigned int TextureMappingOptions_TypeDefinitionIndex = 44652;
 
 	enum class TextureMappingOptions : ::System::Int32
 	{

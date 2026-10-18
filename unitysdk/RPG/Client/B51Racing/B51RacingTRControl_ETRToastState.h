@@ -3,7 +3,7 @@
 
 namespace RPG::Client::B51Racing
 {
-	inline static constexpr unsigned int B51RacingTRControl_ETRToastState_TypeDefinitionIndex = 80577;
+	inline static constexpr unsigned int B51RacingTRControl_ETRToastState_TypeDefinitionIndex = 81905;
 
 	enum class B51RacingTRControl_ETRToastState : ::System::Int32
 	{

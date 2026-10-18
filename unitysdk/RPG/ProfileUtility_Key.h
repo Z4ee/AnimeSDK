@@ -4,22 +4,22 @@
 
 namespace System { class String; }
 
-#define RPG_PROFILEUTILITY_KEY_EQUALS_OFFSET UNITYSDK_OFFSET(0x3AAA580)
-#define RPG_PROFILEUTILITY_KEY_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3C99FC0)
-#define RPG_PROFILEUTILITY_KEY_GET_DETAIL_OFFSET UNITYSDK_OFFSET(0x7846F0)
-#define RPG_PROFILEUTILITY_KEY_GET_SAMPLENAME_OFFSET UNITYSDK_OFFSET(0x161E0)
-#define RPG_PROFILEUTILITY_KEY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EF96570)
-#define RPG_PROFILEUTILITY_KEY__CTOR_OFFSET UNITYSDK_OFFSET(0x3C99F90)
+#define RPG_PROFILEUTILITY_KEY_EQUALS_OFFSET UNITYSDK_OFFSET(0x3C25F30)
+#define RPG_PROFILEUTILITY_KEY_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3C50160)
+#define RPG_PROFILEUTILITY_KEY_GET_DETAIL_OFFSET UNITYSDK_OFFSET(0x1D40)
+#define RPG_PROFILEUTILITY_KEY_GET_SAMPLENAME_OFFSET UNITYSDK_OFFSET(0x1D30)
+#define RPG_PROFILEUTILITY_KEY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EB8DC90)
+#define RPG_PROFILEUTILITY_KEY__CTOR_OFFSET UNITYSDK_OFFSET(0x3C50130)
 
 namespace RPG
 {
-	inline static constexpr unsigned int ProfileUtility_Key_TypeDefinitionIndex = 34486;
+	inline static constexpr unsigned int ProfileUtility_Key_TypeDefinitionIndex = 35150;
 
 	struct alignas(8) ProfileUtility_Key
 	{
 		static ::RPG::ProfileUtility_Key* StaticGet_Null()
 		{
-			return (::RPG::ProfileUtility_Key*)Il2CppClass::FromTypeDefinitionIndex(ProfileUtility_Key_TypeDefinitionIndex)->GetStaticField(0xAD0);
+			return (::RPG::ProfileUtility_Key*)Il2CppClass::FromTypeDefinitionIndex(ProfileUtility_Key_TypeDefinitionIndex)->GetStaticField(0x860);
 		}
 		::System::String* m_SampleName; // 0x10
 		::System::String* m_Detail; // 0x18

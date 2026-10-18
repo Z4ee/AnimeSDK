@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ChangeDynamicOptionalBlock; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_65AC11E9A625BC12_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x190FE550)
-#define CLASS_3_65AC11E9A625BC12__CTOR_OFFSET UNITYSDK_OFFSET(0x190FE520)
+#define CLASS_3_65AC11E9A625BC12_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15904B70)
+#define CLASS_3_65AC11E9A625BC12__CTOR_OFFSET UNITYSDK_OFFSET(0x15904B40)
 
-inline static constexpr unsigned int Class_3_65AC11E9A625BC12_TypeDefinitionIndex = 52912;
+inline static constexpr unsigned int Class_3_65AC11E9A625BC12_TypeDefinitionIndex = 52638;
 
 class Class_3_65AC11E9A625BC12 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ChangeDynamicOptionalBlock*>
 {

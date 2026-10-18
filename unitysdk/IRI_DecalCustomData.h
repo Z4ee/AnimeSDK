@@ -5,10 +5,10 @@
 
 namespace System { class String; }
 
-#define IRI_DECALCUSTOMDATA_ONENABLE_OFFSET UNITYSDK_OFFSET(0x18E6C300)
-#define IRI_DECALCUSTOMDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x18E6C340)
+#define IRI_DECALCUSTOMDATA_ONENABLE_OFFSET UNITYSDK_OFFSET(0x16525570)
+#define IRI_DECALCUSTOMDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x165255B0)
 
-inline static constexpr unsigned int IRI_DecalCustomData_TypeDefinitionIndex = 47630;
+inline static constexpr unsigned int IRI_DecalCustomData_TypeDefinitionIndex = 47170;
 
 class IRI_DecalCustomData : public ::UnityEngine::MonoBehaviour
 {

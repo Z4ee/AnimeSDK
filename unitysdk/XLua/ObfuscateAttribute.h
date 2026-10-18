@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define XLUA_OBFUSCATEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F014710)
+#define XLUA_OBFUSCATEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4B4920)
 
 namespace XLua
 {
-	inline static constexpr unsigned int ObfuscateAttribute_TypeDefinitionIndex = 5595;
+	inline static constexpr unsigned int ObfuscateAttribute_TypeDefinitionIndex = 5602;
 
 	class ObfuscateAttribute : public ::System::Attribute
 	{

@@ -6,19 +6,19 @@
 namespace RPGTools::Timeline { class LifeCycleEventArgument; }
 namespace System { class String; }
 
-#define CLASS_1_0ECA722A6AF95D2B_METHOD_1_C9823790D19BABA2_OFFSET UNITYSDK_OFFSET(0x179FE8C0)
-#define CLASS_1_0ECA722A6AF95D2B_METHOD_1_E9FCF388D6AA24B1_OFFSET UNITYSDK_OFFSET(0x179FE7A0)
-#define CLASS_1_0ECA722A6AF95D2B__CTOR_OFFSET UNITYSDK_OFFSET(0x179FEA40)
+#define CLASS_1_0ECA722A6AF95D2B_METHOD_1_C9823790D19BABA2_OFFSET UNITYSDK_OFFSET(0xBEF8810)
+#define CLASS_1_0ECA722A6AF95D2B_METHOD_1_E9FCF388D6AA24B1_OFFSET UNITYSDK_OFFSET(0xBEF86F0)
+#define CLASS_1_0ECA722A6AF95D2B__CTOR_OFFSET UNITYSDK_OFFSET(0xBEF8990)
 
-inline static constexpr unsigned int Class_1_0ECA722A6AF95D2B_TypeDefinitionIndex = 48614;
+inline static constexpr unsigned int Class_1_0ECA722A6AF95D2B_TypeDefinitionIndex = 48154;
 
 class Class_1_0ECA722A6AF95D2B : public ::System::Object
 {
 public:
 	::System::String* KNAPCKONKFE; // 0x10
-	::UnityEngine::Color AALKAGBOONM; // 0x18
+	::UnityEngine::Color ILBNGMLDGJG; // 0x18
 	::System::Single DIJAPAFKAIC; // 0x28
-	::UnityEngine::Color ILBNGMLDGJG; // 0x2C
+	::UnityEngine::Color AALKAGBOONM; // 0x2C
 
 	::System::Void _ctor()
 	{

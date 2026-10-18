@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/GameCore/FateRinBattleHudAreaType.h"
 #include "unitysdk/System/ValueType.h"
 
-#define STRUCT_2_9FA3242DFB880D5B__CTOR_OFFSET UNITYSDK_OFFSET(0x6BA310)
+#define STRUCT_2_9FA3242DFB880D5B__CTOR_OFFSET UNITYSDK_OFFSET(0x1ED10)
 
-inline static constexpr unsigned int Struct_2_9FA3242DFB880D5B_TypeDefinitionIndex = 79251;
+inline static constexpr unsigned int Struct_2_9FA3242DFB880D5B_TypeDefinitionIndex = 80575;
 
 struct alignas(4) Struct_2_9FA3242DFB880D5B
 {

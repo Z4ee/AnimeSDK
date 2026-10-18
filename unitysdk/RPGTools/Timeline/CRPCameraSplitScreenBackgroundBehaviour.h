@@ -5,12 +5,12 @@
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 
-#define RPGTOOLS_TIMELINE_CRPCAMERASPLITSCREENBACKGROUNDBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x1D136410)
-#define RPGTOOLS_TIMELINE_CRPCAMERASPLITSCREENBACKGROUNDBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1365E0)
+#define RPGTOOLS_TIMELINE_CRPCAMERASPLITSCREENBACKGROUNDBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xE8B6D40)
+#define RPGTOOLS_TIMELINE_CRPCAMERASPLITSCREENBACKGROUNDBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xE8B6F10)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int CRPCameraSplitScreenBackgroundBehaviour_TypeDefinitionIndex = 48366;
+	inline static constexpr unsigned int CRPCameraSplitScreenBackgroundBehaviour_TypeDefinitionIndex = 47906;
 
 	class CRPCameraSplitScreenBackgroundBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{

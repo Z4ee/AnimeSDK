@@ -7,27 +7,27 @@ namespace RPG { template <typename T1, typename T2> class PoolDictionary_2; }
 namespace RPG { template <typename T> class PoolList_1; }
 namespace System { class String; }
 
-#define CLASS_1_B8CD4F1CB8207431_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C134510)
-#define CLASS_1_B8CD4F1CB8207431_ONALLOC_OFFSET UNITYSDK_OFFSET(0x1C1345E0)
-#define CLASS_1_B8CD4F1CB8207431_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x1C1346C0)
-#define CLASS_1_B8CD4F1CB8207431__CTOR_OFFSET UNITYSDK_OFFSET(0x1C134700)
+#define CLASS_1_B8CD4F1CB8207431_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C84B980)
+#define CLASS_1_B8CD4F1CB8207431_ONALLOC_OFFSET UNITYSDK_OFFSET(0x1C84BA60)
+#define CLASS_1_B8CD4F1CB8207431_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x1C84BB40)
+#define CLASS_1_B8CD4F1CB8207431__CTOR_OFFSET UNITYSDK_OFFSET(0x1C84BB80)
 
-inline static constexpr unsigned int Class_1_B8CD4F1CB8207431_TypeDefinitionIndex = 41865;
+inline static constexpr unsigned int Class_1_B8CD4F1CB8207431_TypeDefinitionIndex = 43507;
 
 class Class_1_B8CD4F1CB8207431 : public ::System::Object
 {
 public:
-	::RPG::PoolDictionary_2<::System::Int32, ::System::Boolean>* KEHMJBHPNKG; // 0x10
-	::System::String* ODMGJKCAICF; // 0x18
-	::System::String* CDHCPDPPKPH; // 0x20
-	::RPG::PoolList_1<::System::Int32>* OPOCBLDANJG; // 0x28
-	::System::String* LOPPEGGELBJ; // 0x30
-	::System::Int32 OBJCCAHJONF; // 0x38
-	::System::Int32 MNMHMECGDAK; // 0x3C
-	::UnityEngine::Vector3 LONPDOGOIEG; // 0x40
-	::UnityEngine::Vector3 PCMJLKGLLDH; // 0x4C
-	::System::Boolean KMGIHDHMBJB; // 0x58
-	::System::Boolean CAGCHKJHMPD; // 0x59
+	::RPG::PoolList_1<::System::Int32>* OPOCBLDANJG; // 0x10
+	::RPG::PoolDictionary_2<::System::Int32, ::System::Boolean>* KEHMJBHPNKG; // 0x18
+	::System::String* LOPPEGGELBJ; // 0x20
+	::System::String* ODMGJKCAICF; // 0x28
+	::System::String* CDHCPDPPKPH; // 0x30
+	::UnityEngine::Vector3 PCMJLKGLLDH; // 0x38
+	::System::Int32 MNMHMECGDAK; // 0x44
+	::System::Boolean CAGCHKJHMPD; // 0x48
+	::System::Boolean KMGIHDHMBJB; // 0x49
+	::UnityEngine::Vector3 LONPDOGOIEG; // 0x4C
+	::System::Int32 OBJCCAHJONF; // 0x58
 
 	::System::Void _ctor()
 	{

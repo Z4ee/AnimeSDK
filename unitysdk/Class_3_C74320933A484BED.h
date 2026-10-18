@@ -8,18 +8,18 @@ namespace RPG::GameCore { class TaskContext; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_3_C74320933A484BED_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x19514120)
-#define CLASS_3_C74320933A484BED__CCTOR_OFFSET UNITYSDK_OFFSET(0x195144D0)
-#define CLASS_3_C74320933A484BED__CTOR_OFFSET UNITYSDK_OFFSET(0x195140F0)
+#define CLASS_3_C74320933A484BED_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xDA1BC50)
+#define CLASS_3_C74320933A484BED__CCTOR_OFFSET UNITYSDK_OFFSET(0xDA1C000)
+#define CLASS_3_C74320933A484BED__CTOR_OFFSET UNITYSDK_OFFSET(0xDA1BC20)
 
-inline static constexpr unsigned int Class_3_C74320933A484BED_TypeDefinitionIndex = 56610;
+inline static constexpr unsigned int Class_3_C74320933A484BED_TypeDefinitionIndex = 56425;
 
 class Class_3_C74320933A484BED : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetSkillTextDialogType*>
 {
 public:
 	static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::SkillTextDialogType, ::System::String*>** StaticGet_APFIEOGGDIG()
 	{
-		return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::SkillTextDialogType, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Class_3_C74320933A484BED_TypeDefinitionIndex)->GetStaticField(0x65880);
+		return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::SkillTextDialogType, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Class_3_C74320933A484BED_TypeDefinitionIndex)->GetStaticField(0x4A920);
 	}
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SetSkillTextDialogType* a2)

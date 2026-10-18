@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/Client/NotifyType.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_AFA032BCA5DAB27D__CTOR_OFFSET UNITYSDK_OFFSET(0x1A7ADCC0)
+#define CLASS_1_AFA032BCA5DAB27D__CTOR_OFFSET UNITYSDK_OFFSET(0xB2BA200)
 
-inline static constexpr unsigned int Class_1_AFA032BCA5DAB27D_TypeDefinitionIndex = 62280;
+inline static constexpr unsigned int Class_1_AFA032BCA5DAB27D_TypeDefinitionIndex = 62197;
 
 class Class_1_AFA032BCA5DAB27D : public ::System::Object
 {

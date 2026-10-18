@@ -1,10 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-class Class_1_D8203AFB32E9259C;
-namespace RPG::GameCore { class GameEntity; }
+class Class_0_16E4307DCC419505_525;
+class Class_0_16E4307DCC419505_530;
+class Class_0_16E4307DCC419505_532;
+class Class_0_16E4307DCC419505_533;
+namespace RPG::AvatarSystem { class AvatarServant; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_534_TypeDefinitionIndex = 54356;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_534_TypeDefinitionIndex = 51932;
 
 class Class_0_16E4307DCC419505_534
 {

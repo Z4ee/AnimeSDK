@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetNpcStatus; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_B75C3DE4C27B1A17_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17A94690)
-#define CLASS_3_B75C3DE4C27B1A17__CTOR_OFFSET UNITYSDK_OFFSET(0x17A94660)
+#define CLASS_3_B75C3DE4C27B1A17_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB86B820)
+#define CLASS_3_B75C3DE4C27B1A17__CTOR_OFFSET UNITYSDK_OFFSET(0xB86B7F0)
 
-inline static constexpr unsigned int Class_3_B75C3DE4C27B1A17_TypeDefinitionIndex = 53507;
+inline static constexpr unsigned int Class_3_B75C3DE4C27B1A17_TypeDefinitionIndex = 53250;
 
 class Class_3_B75C3DE4C27B1A17 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetNpcStatus*>
 {

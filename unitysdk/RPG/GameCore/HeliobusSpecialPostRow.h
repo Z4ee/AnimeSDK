@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 class Class_1_A88C3AAF0DD46F4C_11;
 
-#define RPG_GAMECORE_HELIOBUSSPECIALPOSTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3DC6E0)
-#define RPG_GAMECORE_HELIOBUSSPECIALPOSTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3DC8F0)
+#define RPG_GAMECORE_HELIOBUSSPECIALPOSTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D737C50)
+#define RPG_GAMECORE_HELIOBUSSPECIALPOSTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D737E60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HeliobusSpecialPostRow_TypeDefinitionIndex = 13638;
+	inline static constexpr unsigned int HeliobusSpecialPostRow_TypeDefinitionIndex = 13745;
 
 	class HeliobusSpecialPostRow : public ::System::Object
 	{

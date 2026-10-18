@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_DIALOGUEEVENTINFO_METHOD_2_829EA1350BF74F1E_OFFSET UNITYSDK_OFFSET(0x1D81B540)
-#define RPG_GAMECORE_DIALOGUEEVENTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1D81B690)
+#define RPG_GAMECORE_DIALOGUEEVENTINFO_METHOD_2_829EA1350BF74F1E_OFFSET UNITYSDK_OFFSET(0x1D5D32A0)
+#define RPG_GAMECORE_DIALOGUEEVENTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5D33F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DialogueEventInfo_TypeDefinitionIndex = 20880;
+	inline static constexpr unsigned int DialogueEventInfo_TypeDefinitionIndex = 21126;
 
 	class DialogueEventInfo : public ::RPG::GameCore::JsonConfig
 	{

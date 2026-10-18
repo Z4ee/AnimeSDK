@@ -3,17 +3,17 @@
 #include "unitysdk/System/Object.h"
 
 class Class_1_97E659ED8D5D259C_18;
-class Class_1_FDFA365FE186E8F2_30;
+class Class_1_FDFA365FE186E8F2_29;
 namespace RPG::Client::TrainParty { class TrainPartyPassengerData; }
 namespace RPG::Client::TrainParty { class TrainPartyPassengerManager; }
 
-#define CLASS_1_EF59CD31B46DB57C_GET_PASSENGERDATA_OFFSET UNITYSDK_OFFSET(0x18CF9FA0)
-#define CLASS_1_EF59CD31B46DB57C_METHOD_1_9DD9D45193F07058_OFFSET UNITYSDK_OFFSET(0x18CF9F10)
-#define CLASS_1_EF59CD31B46DB57C_METHOD_1_E9A575D18A0748D9_OFFSET UNITYSDK_OFFSET(0x18CF9F50)
-#define CLASS_1_EF59CD31B46DB57C_SET_PASSENGERDATA_OFFSET UNITYSDK_OFFSET(0x18CF9FB0)
-#define CLASS_1_EF59CD31B46DB57C__CTOR_OFFSET UNITYSDK_OFFSET(0x18CF9D30)
+#define CLASS_1_EF59CD31B46DB57C_GET_PASSENGERDATA_OFFSET UNITYSDK_OFFSET(0xE4DE5A0)
+#define CLASS_1_EF59CD31B46DB57C_METHOD_1_9DD9D45193F07058_OFFSET UNITYSDK_OFFSET(0xE262EF0)
+#define CLASS_1_EF59CD31B46DB57C_METHOD_1_E9A575D18A0748D9_OFFSET UNITYSDK_OFFSET(0xE262F30)
+#define CLASS_1_EF59CD31B46DB57C_SET_PASSENGERDATA_OFFSET UNITYSDK_OFFSET(0xE4DE5B0)
+#define CLASS_1_EF59CD31B46DB57C__CTOR_OFFSET UNITYSDK_OFFSET(0xE262D10)
 
-inline static constexpr unsigned int Class_1_EF59CD31B46DB57C_TypeDefinitionIndex = 74250;
+inline static constexpr unsigned int Class_1_EF59CD31B46DB57C_TypeDefinitionIndex = 74349;
 
 class Class_1_EF59CD31B46DB57C : public ::System::Object
 {
@@ -21,9 +21,9 @@ public:
 	::RPG::Client::TrainParty::TrainPartyPassengerData* _PassengerData_k__BackingField; // 0x10
 	::Il2CppArray<::Class_1_97E659ED8D5D259C_18*>* HAOIHBMMHDB; // 0x18
 
-	::System::Void _ctor(::Class_1_FDFA365FE186E8F2_30* a1, ::RPG::Client::TrainParty::TrainPartyPassengerManager* a2)
+	::System::Void _ctor(::Class_1_FDFA365FE186E8F2_29* a1, ::RPG::Client::TrainParty::TrainPartyPassengerManager* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_1_FDFA365FE186E8F2_30*, ::RPG::Client::TrainParty::TrainPartyPassengerManager*))((::PBYTE)hIl2Cpp + CLASS_1_EF59CD31B46DB57C__CTOR_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::Class_1_FDFA365FE186E8F2_29*, ::RPG::Client::TrainParty::TrainPartyPassengerManager*))((::PBYTE)hIl2Cpp + CLASS_1_EF59CD31B46DB57C__CTOR_OFFSET))(this, a1, a2);
 	}
 
 	::Il2CppArray<::Class_1_97E659ED8D5D259C_18*>* Method_1_9DD9D45193F07058()

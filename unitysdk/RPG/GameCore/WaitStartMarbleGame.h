@@ -6,13 +6,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_WAITSTARTMARBLEGAME_METHOD_3_B4D04122F1DE59C9_OFFSET UNITYSDK_OFFSET(0x1DEC2410)
-#define RPG_GAMECORE_WAITSTARTMARBLEGAME_METHOD_3_DBDC9F51050060A8_OFFSET UNITYSDK_OFFSET(0x1DEC2450)
-#define RPG_GAMECORE_WAITSTARTMARBLEGAME__CTOR_OFFSET UNITYSDK_OFFSET(0x1DEC2440)
+#define RPG_GAMECORE_WAITSTARTMARBLEGAME_METHOD_3_244A1108D22A6B66_OFFSET UNITYSDK_OFFSET(0x1DC74BB0)
+#define RPG_GAMECORE_WAITSTARTMARBLEGAME_METHOD_3_526BC2826A6E863E_OFFSET UNITYSDK_OFFSET(0x1DC74B70)
+#define RPG_GAMECORE_WAITSTARTMARBLEGAME__CTOR_OFFSET UNITYSDK_OFFSET(0x1DC74BA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaitStartMarbleGame_TypeDefinitionIndex = 21793;
+	inline static constexpr unsigned int WaitStartMarbleGame_TypeDefinitionIndex = 22041;
 
 	class WaitStartMarbleGame : public ::RPG::GameCore::TaskConfig
 	{
@@ -27,14 +27,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITSTARTMARBLEGAME__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_B4D04122F1DE59C9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitStartMarbleGame*& a2)
+		static ::System::Void Method_3_526BC2826A6E863E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitStartMarbleGame*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitStartMarbleGame*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITSTARTMARBLEGAME_METHOD_3_B4D04122F1DE59C9_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitStartMarbleGame*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITSTARTMARBLEGAME_METHOD_3_526BC2826A6E863E_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_DBDC9F51050060A8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitStartMarbleGame* a2)
+		static ::System::Void Method_3_244A1108D22A6B66(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitStartMarbleGame* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitStartMarbleGame*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITSTARTMARBLEGAME_METHOD_3_DBDC9F51050060A8_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitStartMarbleGame*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITSTARTMARBLEGAME_METHOD_3_244A1108D22A6B66_OFFSET))(a1, a2);
 		}
 	};
 }

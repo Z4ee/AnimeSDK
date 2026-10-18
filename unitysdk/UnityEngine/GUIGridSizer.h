@@ -7,13 +7,13 @@ namespace UnityEngine { class GUIContent; }
 namespace UnityEngine { class GUILayoutOption; }
 namespace UnityEngine { class GUIStyle; }
 
-#define UNITYENGINE_GUIGRIDSIZER_GETRECT_OFFSET UNITYSDK_OFFSET(0x1CAC9050)
-#define UNITYENGINE_GUIGRIDSIZER_GET_ROWS_OFFSET UNITYSDK_OFFSET(0x1CACA370)
-#define UNITYENGINE_GUIGRIDSIZER__CTOR_OFFSET UNITYSDK_OFFSET(0x1CAC9250)
+#define UNITYENGINE_GUIGRIDSIZER_GETRECT_OFFSET UNITYSDK_OFFSET(0x1F424B50)
+#define UNITYENGINE_GUIGRIDSIZER_GET_ROWS_OFFSET UNITYSDK_OFFSET(0x1F425E70)
+#define UNITYENGINE_GUIGRIDSIZER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F424D50)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int GUIGridSizer_TypeDefinitionIndex = 5183;
+	inline static constexpr unsigned int GUIGridSizer_TypeDefinitionIndex = 5190;
 
 	class GUIGridSizer : public ::UnityEngine::GUILayoutEntry
 	{

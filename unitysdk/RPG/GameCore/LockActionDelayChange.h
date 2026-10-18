@@ -8,13 +8,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_LOCKACTIONDELAYCHANGE_METHOD_3_C77AF668774D8C1B_OFFSET UNITYSDK_OFFSET(0x1DD770E0)
-#define RPG_GAMECORE_LOCKACTIONDELAYCHANGE_METHOD_3_D1E8990498BF3AAA_OFFSET UNITYSDK_OFFSET(0x1DD77090)
-#define RPG_GAMECORE_LOCKACTIONDELAYCHANGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD770D0)
+#define RPG_GAMECORE_LOCKACTIONDELAYCHANGE_METHOD_3_C77AF668774D8C1B_OFFSET UNITYSDK_OFFSET(0x1D7C1F70)
+#define RPG_GAMECORE_LOCKACTIONDELAYCHANGE_METHOD_3_D1E8990498BF3AAA_OFFSET UNITYSDK_OFFSET(0x1D7C1F20)
+#define RPG_GAMECORE_LOCKACTIONDELAYCHANGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7C1F60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LockActionDelayChange_TypeDefinitionIndex = 23013;
+	inline static constexpr unsigned int LockActionDelayChange_TypeDefinitionIndex = 23277;
 
 	class LockActionDelayChange : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,8 +25,9 @@ namespace RPG::GameCore
 		::RPG::GameCore::TargetEvaluator* WhitelistSourceEntity; // 0x30
 		::RPG::GameCore::ActionDelayChangeReasonMask WhitelistChangeReason; // 0x38
 		::RPG::GameCore::ActionDelayChangeTypeMask WhitelistChangeType; // 0x3A
-		::RPG::GameCore::ActionDelayChangeTypeMask WhitelistRedirectChangeType; // 0x3C
-		::System::Boolean Preshow_UnlockOnBreak; // 0x3E
+		::System::Boolean IsDynamicCalculateWhitelistChangeType; // 0x3C
+		::RPG::GameCore::ActionDelayChangeTypeMask WhitelistRedirectChangeType; // 0x3E
+		::System::Boolean Preshow_UnlockOnBreak; // 0x40
 
 		::System::Void _ctor()
 		{

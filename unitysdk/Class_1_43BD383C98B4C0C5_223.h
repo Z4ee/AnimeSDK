@@ -2,9 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_43BD383C98B4C0C5_223__CTOR_OFFSET UNITYSDK_OFFSET(0x17A79140)
+namespace RPG::GameCore { class RedDotGraphConfig; }
 
-inline static constexpr unsigned int Class_1_43BD383C98B4C0C5_223_TypeDefinitionIndex = 78720;
+#define CLASS_1_43BD383C98B4C0C5_223_METHOD_1_CEE559F34785E6D4_OFFSET UNITYSDK_OFFSET(0x159F7870)
+#define CLASS_1_43BD383C98B4C0C5_223__CTOR_OFFSET UNITYSDK_OFFSET(0x159F7910)
+
+inline static constexpr unsigned int Class_1_43BD383C98B4C0C5_223_TypeDefinitionIndex = 79164;
 
 class Class_1_43BD383C98B4C0C5_223 : public ::System::Object
 {
@@ -12,5 +15,10 @@ public:
 	::System::Void _ctor()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_43BD383C98B4C0C5_223__CTOR_OFFSET))(this);
+	}
+
+	::RPG::GameCore::RedDotGraphConfig* Method_1_CEE559F34785E6D4()
+	{
+		return ((::RPG::GameCore::RedDotGraphConfig*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_43BD383C98B4C0C5_223_METHOD_1_CEE559F34785E6D4_OFFSET))(this);
 	}
 };

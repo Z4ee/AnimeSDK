@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/CustomRP/CustomVolumeComponent.h"
 
-#define RPG_CUSTOMRP_RPGLENSFLARE__CTOR_OFFSET UNITYSDK_OFFSET(0x185A0A60)
+#define RPG_CUSTOMRP_RPGLENSFLARE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC29A40)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int RPGLensFlare_TypeDefinitionIndex = 37134;
+	inline static constexpr unsigned int RPGLensFlare_TypeDefinitionIndex = 37820;
 
 	class RPGLensFlare : public ::RPG::CustomRP::CustomVolumeComponent
 	{

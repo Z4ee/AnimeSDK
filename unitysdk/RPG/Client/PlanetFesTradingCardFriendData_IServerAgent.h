@@ -6,7 +6,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlanetFesTradingCardFriendData_IServerAgent_TypeDefinitionIndex = 66616;
+	inline static constexpr unsigned int PlanetFesTradingCardFriendData_IServerAgent_TypeDefinitionIndex = 66584;
 
 	class PlanetFesTradingCardFriendData_IServerAgent
 	{

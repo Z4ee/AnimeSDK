@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraDuelCustomStringPresetType_TypeDefinitionIndex = 63373;
+	inline static constexpr unsigned int ChimeraDuelCustomStringPresetType_TypeDefinitionIndex = 63311;
 
 	enum class ChimeraDuelCustomStringPresetType : ::System::Int32
 	{

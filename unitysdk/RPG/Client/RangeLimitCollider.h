@@ -7,13 +7,13 @@ namespace RPG::Client { class ConeCollider; }
 namespace UnityEngine { class MeshCollider; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_RANGELIMITCOLLIDER_INIT_OFFSET UNITYSDK_OFFSET(0x1B6457B0)
-#define RPG_CLIENT_RANGELIMITCOLLIDER_SETUPRANGELIMITCOLLIDER_OFFSET UNITYSDK_OFFSET(0x1B645910)
-#define RPG_CLIENT_RANGELIMITCOLLIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B645BD0)
+#define RPG_CLIENT_RANGELIMITCOLLIDER_INIT_OFFSET UNITYSDK_OFFSET(0xDE48AF0)
+#define RPG_CLIENT_RANGELIMITCOLLIDER_SETUPRANGELIMITCOLLIDER_OFFSET UNITYSDK_OFFSET(0xDE48C50)
+#define RPG_CLIENT_RANGELIMITCOLLIDER__CTOR_OFFSET UNITYSDK_OFFSET(0xDE48F10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RangeLimitCollider_TypeDefinitionIndex = 68868;
+	inline static constexpr unsigned int RangeLimitCollider_TypeDefinitionIndex = 68903;
 
 	class RangeLimitCollider : public ::UnityEngine::MonoBehaviour
 	{

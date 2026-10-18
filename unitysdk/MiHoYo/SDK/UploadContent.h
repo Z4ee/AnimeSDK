@@ -8,11 +8,11 @@ namespace MiHoYo::SDK { class UserInfo; }
 namespace MiHoYo::SDK { class VersionInfo; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_UPLOADCONTENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD74440)
+#define MIHOYO_SDK_UPLOADCONTENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1BFE81E0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int UploadContent_TypeDefinitionIndex = 7829;
+	inline static constexpr unsigned int UploadContent_TypeDefinitionIndex = 7873;
 
 	class UploadContent : public ::System::Object
 	{

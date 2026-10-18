@@ -7,27 +7,27 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ROGUETOURNCURSECHESTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E5526B0)
-#define RPG_GAMECORE_ROGUETOURNCURSECHESTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1E552FF0)
+#define RPG_GAMECORE_ROGUETOURNCURSECHESTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DA0A0A0)
+#define RPG_GAMECORE_ROGUETOURNCURSECHESTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1DA0A9E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueTournCurseChestRow_TypeDefinitionIndex = 14881;
+	inline static constexpr unsigned int RogueTournCurseChestRow_TypeDefinitionIndex = 15046;
 
 	class RogueTournCurseChestRow : public ::System::Object
 	{
 	public:
 		::System::String* IconPath; // 0x10
-		::System::UInt32 SubTitleDisplayID; // 0x18
-		::RPG::GameCore::RogueTournCurseChestType Type; // 0x1C
-		::RPG::GameCore::FixPoint ParamValue2; // 0x20
-		::System::UInt32 MainTitleDisplayID; // 0x28
-		::System::UInt32 MainDescDisplayID; // 0x2C
+		::RPG::GameCore::FixPoint ParamValue3; // 0x18
+		::RPG::GameCore::RogueTournCurseChestType Type; // 0x20
+		::System::UInt32 MainDescDisplayID; // 0x24
+		::RPG::GameCore::FixPoint ParamValue4; // 0x28
 		::System::UInt32 SubDescDisplayID; // 0x30
-		::System::UInt32 ChestID; // 0x34
-		::RPG::GameCore::FixPoint ParamValue1; // 0x38
-		::RPG::GameCore::FixPoint ParamValue4; // 0x40
-		::RPG::GameCore::FixPoint ParamValue3; // 0x48
+		::System::UInt32 SubTitleDisplayID; // 0x34
+		::RPG::GameCore::FixPoint ParamValue2; // 0x38
+		::RPG::GameCore::FixPoint ParamValue1; // 0x40
+		::System::UInt32 ChestID; // 0x48
+		::System::UInt32 MainTitleDisplayID; // 0x4C
 
 		::System::Void _ctor()
 		{

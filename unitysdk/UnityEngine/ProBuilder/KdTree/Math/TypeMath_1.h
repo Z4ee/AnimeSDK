@@ -4,7 +4,7 @@
 
 namespace UnityEngine::ProBuilder::KdTree::Math
 {
-	inline static constexpr unsigned int TypeMath_1_TypeDefinitionIndex = 37434;
+	inline static constexpr unsigned int TypeMath_1_TypeDefinitionIndex = 38731;
 
 	template <typename T>
 	class TypeMath_1 : public ::System::Object

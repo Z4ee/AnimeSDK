@@ -4,7 +4,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int HableCurve_DirectParams_TypeDefinitionIndex = 34933;
+	inline static constexpr unsigned int HableCurve_DirectParams_TypeDefinitionIndex = 35602;
 
 	struct alignas(4) HableCurve_DirectParams
 	{

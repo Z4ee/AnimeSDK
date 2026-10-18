@@ -3,7 +3,7 @@
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineConfiner_Mode_TypeDefinitionIndex = 38434;
+	inline static constexpr unsigned int CinemachineConfiner_Mode_TypeDefinitionIndex = 39731;
 
 	enum class CinemachineConfiner_Mode : ::System::Int32
 	{

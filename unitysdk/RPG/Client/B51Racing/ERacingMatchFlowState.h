@@ -3,7 +3,7 @@
 
 namespace RPG::Client::B51Racing
 {
-	inline static constexpr unsigned int ERacingMatchFlowState_TypeDefinitionIndex = 80533;
+	inline static constexpr unsigned int ERacingMatchFlowState_TypeDefinitionIndex = 81861;
 
 	enum class ERacingMatchFlowState : ::System::Int32
 	{

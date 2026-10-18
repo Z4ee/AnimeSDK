@@ -5,19 +5,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_BOXINGBREAKBUFFSELECTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1C2E7A40)
-#define RPG_GAMECORE_BOXINGBREAKBUFFSELECTCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1C2E8090)
+#define RPG_GAMECORE_BOXINGBREAKBUFFSELECTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D44BA40)
+#define RPG_GAMECORE_BOXINGBREAKBUFFSELECTCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D44C090)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BoxingBreakBuffSelectConfigRow_TypeDefinitionIndex = 12814;
+	inline static constexpr unsigned int BoxingBreakBuffSelectConfigRow_TypeDefinitionIndex = 12920;
 
 	class BoxingBreakBuffSelectConfigRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* ExtraEffectIDList; // 0x10
-		::System::UInt32 BoxingClubBuffID; // 0x18
-		::RPG::GameCore::AttackDamageType BoxingClubNatureType; // 0x1C
+		::RPG::GameCore::AttackDamageType BoxingClubNatureType; // 0x18
+		::System::UInt32 BoxingClubBuffID; // 0x1C
 
 		::System::Void _ctor()
 		{

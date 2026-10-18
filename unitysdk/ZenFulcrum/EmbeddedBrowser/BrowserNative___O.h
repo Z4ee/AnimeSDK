@@ -7,18 +7,18 @@ namespace ZenFulcrum::EmbeddedBrowser { class BrowserNative_NewRequestFunc; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int BrowserNative___O_TypeDefinitionIndex = 38164;
+	inline static constexpr unsigned int BrowserNative___O_TypeDefinitionIndex = 39461;
 
 	class BrowserNative___O : public ::System::Object
 	{
 	public:
 		static ::ZenFulcrum::EmbeddedBrowser::BrowserNative_MessageFunc** StaticGet__0___LogCallback()
 		{
-			return (::ZenFulcrum::EmbeddedBrowser::BrowserNative_MessageFunc**)Il2CppClass::FromTypeDefinitionIndex(BrowserNative___O_TypeDefinitionIndex)->GetStaticField(0x48660);
+			return (::ZenFulcrum::EmbeddedBrowser::BrowserNative_MessageFunc**)Il2CppClass::FromTypeDefinitionIndex(BrowserNative___O_TypeDefinitionIndex)->GetStaticField(0x426E0);
 		}
 		static ::ZenFulcrum::EmbeddedBrowser::BrowserNative_NewRequestFunc** StaticGet__1___NewRequestCallback()
 		{
-			return (::ZenFulcrum::EmbeddedBrowser::BrowserNative_NewRequestFunc**)Il2CppClass::FromTypeDefinitionIndex(BrowserNative___O_TypeDefinitionIndex)->GetStaticField(0x48668);
+			return (::ZenFulcrum::EmbeddedBrowser::BrowserNative_NewRequestFunc**)Il2CppClass::FromTypeDefinitionIndex(BrowserNative___O_TypeDefinitionIndex)->GetStaticField(0x426E8);
 		}
 	};
 }

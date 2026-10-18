@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define RPG_GAMECORE_MODIFYDAMAGEDATA_METHOD_3_12B426185D634608_OFFSET UNITYSDK_OFFSET(0x1D1B7D40)
-#define RPG_GAMECORE_MODIFYDAMAGEDATA_METHOD_3_9FE61590282F36CD_OFFSET UNITYSDK_OFFSET(0x1D1B61B0)
-#define RPG_GAMECORE_MODIFYDAMAGEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1B61F0)
+#define RPG_GAMECORE_MODIFYDAMAGEDATA_METHOD_3_12B426185D634608_OFFSET UNITYSDK_OFFSET(0x1D865D50)
+#define RPG_GAMECORE_MODIFYDAMAGEDATA_METHOD_3_9FE61590282F36CD_OFFSET UNITYSDK_OFFSET(0x1D864180)
+#define RPG_GAMECORE_MODIFYDAMAGEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1D8641C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ModifyDamageData_TypeDefinitionIndex = 23302;
+	inline static constexpr unsigned int ModifyDamageData_TypeDefinitionIndex = 23568;
 
 	class ModifyDamageData : public ::RPG::GameCore::TaskConfig
 	{
@@ -113,6 +113,7 @@ namespace RPG::GameCore
 		::RPG::GameCore::DynamicFloat* Defender_ExtraDefenceAddedRatio4; // 0x308
 		::RPG::GameCore::DynamicFloat* Attacker_ExtraLuckChance; // 0x310
 		::RPG::GameCore::DynamicFloat* Attacker_ExtraLuckDamage; // 0x318
+		::RPG::GameCore::DynamicFloat* AttackData_CanIgnoreAttackTypeLuckCritical; // 0x320
 
 		::System::Void _ctor()
 		{

@@ -5,9 +5,9 @@
 class Class_1_7E82D879A57075A7;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_9525838A9E2C7378__CTOR_OFFSET UNITYSDK_OFFSET(0x1AAF8DE0)
+#define CLASS_1_9525838A9E2C7378__CTOR_OFFSET UNITYSDK_OFFSET(0x1C6C6760)
 
-inline static constexpr unsigned int Class_1_9525838A9E2C7378_TypeDefinitionIndex = 36479;
+inline static constexpr unsigned int Class_1_9525838A9E2C7378_TypeDefinitionIndex = 37166;
 
 class Class_1_9525838A9E2C7378 : public ::System::Object
 {

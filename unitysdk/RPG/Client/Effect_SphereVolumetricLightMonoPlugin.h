@@ -17,21 +17,21 @@ namespace UnityEngine { class RenderTexture; }
 namespace UnityEngine { class Texture2D; }
 namespace UnityEngine { class Texture; }
 
-#define RPG_CLIENT_EFFECT_SPHEREVOLUMETRICLIGHTMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x15E9CF50)
-#define RPG_CLIENT_EFFECT_SPHEREVOLUMETRICLIGHTMONOPLUGIN_GETVOLUMETRICLIGHTRESULTRT_OFFSET UNITYSDK_OFFSET(0x15E9CED0)
-#define RPG_CLIENT_EFFECT_SPHEREVOLUMETRICLIGHTMONOPLUGIN__CCTOR_OFFSET UNITYSDK_OFFSET(0x15E9D210)
-#define RPG_CLIENT_EFFECT_SPHEREVOLUMETRICLIGHTMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x15E9CFA0)
+#define RPG_CLIENT_EFFECT_SPHEREVOLUMETRICLIGHTMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xCD634F0)
+#define RPG_CLIENT_EFFECT_SPHEREVOLUMETRICLIGHTMONOPLUGIN_GETVOLUMETRICLIGHTRESULTRT_OFFSET UNITYSDK_OFFSET(0xCD63470)
+#define RPG_CLIENT_EFFECT_SPHEREVOLUMETRICLIGHTMONOPLUGIN__CCTOR_OFFSET UNITYSDK_OFFSET(0xCD637B0)
+#define RPG_CLIENT_EFFECT_SPHEREVOLUMETRICLIGHTMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xCD63540)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_SphereVolumetricLightMonoPlugin_TypeDefinitionIndex = 70522;
+	inline static constexpr unsigned int Effect_SphereVolumetricLightMonoPlugin_TypeDefinitionIndex = 70558;
 
 	class Effect_SphereVolumetricLightMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::Effect_SphereVolumetricLightBehavior*>
 	{
 	public:
 		static ::Il2CppArray<::System::Int32>** StaticGet_IAJGOMMCFBE()
 		{
-			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Effect_SphereVolumetricLightMonoPlugin_TypeDefinitionIndex)->GetStaticField(0x612E0);
+			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Effect_SphereVolumetricLightMonoPlugin_TypeDefinitionIndex)->GetStaticField(0x34740);
 		}
 		::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* Blockers; // 0x30
 		::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* Holes; // 0x38

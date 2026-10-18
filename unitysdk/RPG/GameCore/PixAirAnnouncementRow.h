@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_PIXAIRANNOUNCEMENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D78FD20)
-#define RPG_GAMECORE_PIXAIRANNOUNCEMENTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D78FEA0)
+#define RPG_GAMECORE_PIXAIRANNOUNCEMENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D8EB4A0)
+#define RPG_GAMECORE_PIXAIRANNOUNCEMENTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D8EB620)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PixAirAnnouncementRow_TypeDefinitionIndex = 12090;
+	inline static constexpr unsigned int PixAirAnnouncementRow_TypeDefinitionIndex = 12171;
 
 	class PixAirAnnouncementRow : public ::System::Object
 	{

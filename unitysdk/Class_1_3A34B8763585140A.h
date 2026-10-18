@@ -8,36 +8,36 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace TMPro { class TMP_FontAsset; }
 namespace UnityEngine { class Material; }
 
-#define CLASS_1_3A34B8763585140A_METHOD_1_030E55659D50FD54_OFFSET UNITYSDK_OFFSET(0x1894EE60)
-#define CLASS_1_3A34B8763585140A_METHOD_1_1AD0D38367EB201A_OFFSET UNITYSDK_OFFSET(0x1894E360)
-#define CLASS_1_3A34B8763585140A_METHOD_1_79C760213F83AEB2_OFFSET UNITYSDK_OFFSET(0x1894EC00)
-#define CLASS_1_3A34B8763585140A_METHOD_1_972F203BE0A312B2_OFFSET UNITYSDK_OFFSET(0x1894E5E0)
-#define CLASS_1_3A34B8763585140A_METHOD_1_980D4F94D57B1A88_OFFSET UNITYSDK_OFFSET(0x1894E790)
-#define CLASS_1_3A34B8763585140A_METHOD_1_A71CC0D167A2B228_OFFSET UNITYSDK_OFFSET(0x1894E830)
-#define CLASS_1_3A34B8763585140A_METHOD_1_A88B36294D55B85C_OFFSET UNITYSDK_OFFSET(0x1894E060)
-#define CLASS_1_3A34B8763585140A_METHOD_1_AD8191495E1E2027_OFFSET UNITYSDK_OFFSET(0x1894EA50)
-#define CLASS_1_3A34B8763585140A__CCTOR_OFFSET UNITYSDK_OFFSET(0x1894F080)
+#define CLASS_1_3A34B8763585140A_METHOD_1_3C3A2B3153073CE6_OFFSET UNITYSDK_OFFSET(0xEBA8170)
+#define CLASS_1_3A34B8763585140A_METHOD_1_4A4A5C26D746CA31_OFFSET UNITYSDK_OFFSET(0xEBA7920)
+#define CLASS_1_3A34B8763585140A_METHOD_1_63449EEC6B308260_OFFSET UNITYSDK_OFFSET(0xEBA7FE0)
+#define CLASS_1_3A34B8763585140A_METHOD_1_972F203BE0A312B2_OFFSET UNITYSDK_OFFSET(0xEBA7B70)
+#define CLASS_1_3A34B8763585140A_METHOD_1_980D4F94D57B1A88_OFFSET UNITYSDK_OFFSET(0xEBA7D20)
+#define CLASS_1_3A34B8763585140A_METHOD_1_A71CC0D167A2B228_OFFSET UNITYSDK_OFFSET(0xEBA7DC0)
+#define CLASS_1_3A34B8763585140A_METHOD_1_B84897AE509F782F_OFFSET UNITYSDK_OFFSET(0xEBA83A0)
+#define CLASS_1_3A34B8763585140A_METHOD_1_F206290BA342BA13_OFFSET UNITYSDK_OFFSET(0xEBA7660)
+#define CLASS_1_3A34B8763585140A__CCTOR_OFFSET UNITYSDK_OFFSET(0xEBA8580)
 
-inline static constexpr unsigned int Class_1_3A34B8763585140A_TypeDefinitionIndex = 72453;
+inline static constexpr unsigned int Class_1_3A34B8763585140A_TypeDefinitionIndex = 72526;
 
 class Class_1_3A34B8763585140A : public ::System::Object
 {
 public:
 	static ::System::Collections::Generic::Dictionary_2<::TMPro::TMP_FontAsset*, ::System::Int32>** StaticGet_PMEMCMCAOPC()
 	{
-		return (::System::Collections::Generic::Dictionary_2<::TMPro::TMP_FontAsset*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_3A34B8763585140A_TypeDefinitionIndex)->GetStaticField(0x13AE0);
+		return (::System::Collections::Generic::Dictionary_2<::TMPro::TMP_FontAsset*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_3A34B8763585140A_TypeDefinitionIndex)->GetStaticField(0x54320);
 	}
 	static ::System::Collections::Generic::Dictionary_2<::RPG::Client::FontAssetConfig*, ::TMPro::TMP_FontAsset*>** StaticGet_MMHNLDCEDNO()
 	{
-		return (::System::Collections::Generic::Dictionary_2<::RPG::Client::FontAssetConfig*, ::TMPro::TMP_FontAsset*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_3A34B8763585140A_TypeDefinitionIndex)->GetStaticField(0x13AE8);
-	}
-	static ::System::Boolean* StaticGet_JLPIKFOJPBJ()
-	{
-		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_3A34B8763585140A_TypeDefinitionIndex)->GetStaticField(0x7E20);
+		return (::System::Collections::Generic::Dictionary_2<::RPG::Client::FontAssetConfig*, ::TMPro::TMP_FontAsset*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_3A34B8763585140A_TypeDefinitionIndex)->GetStaticField(0x54328);
 	}
 	static ::System::Boolean* StaticGet_ECFACLNOKFG()
 	{
-		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_3A34B8763585140A_TypeDefinitionIndex)->GetStaticField(0x7E21);
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_3A34B8763585140A_TypeDefinitionIndex)->GetStaticField(0x12B80);
+	}
+	static ::System::Boolean* StaticGet_JLPIKFOJPBJ()
+	{
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_3A34B8763585140A_TypeDefinitionIndex)->GetStaticField(0x12B81);
 	}
 	// static const ::System::String* NFNCFMABGCC; // 0x0
 	// static const ::System::String* IINJBIGPJDL; // 0x0
@@ -47,14 +47,14 @@ public:
 		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CLASS_1_3A34B8763585140A__CCTOR_OFFSET))();
 	}
 
-	static ::System::Void Method_1_A88B36294D55B85C()
+	static ::System::Void Method_1_F206290BA342BA13()
 	{
-		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CLASS_1_3A34B8763585140A_METHOD_1_A88B36294D55B85C_OFFSET))();
+		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CLASS_1_3A34B8763585140A_METHOD_1_F206290BA342BA13_OFFSET))();
 	}
 
-	static ::TMPro::TMP_FontAsset* Method_1_1AD0D38367EB201A(::RPG::Client::FontAssetConfig* a1)
+	static ::TMPro::TMP_FontAsset* Method_1_4A4A5C26D746CA31(::RPG::Client::FontAssetConfig* a1)
 	{
-		return ((::TMPro::TMP_FontAsset*(*)(::RPG::Client::FontAssetConfig*))((::PBYTE)hIl2Cpp + CLASS_1_3A34B8763585140A_METHOD_1_1AD0D38367EB201A_OFFSET))(a1);
+		return ((::TMPro::TMP_FontAsset*(*)(::RPG::Client::FontAssetConfig*))((::PBYTE)hIl2Cpp + CLASS_1_3A34B8763585140A_METHOD_1_4A4A5C26D746CA31_OFFSET))(a1);
 	}
 
 	static ::System::Void Method_1_980D4F94D57B1A88(::TMPro::TMP_FontAsset* a1, ::System::String* a2)
@@ -62,19 +62,19 @@ public:
 		return ((::System::Void(*)(::TMPro::TMP_FontAsset*, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_3A34B8763585140A_METHOD_1_980D4F94D57B1A88_OFFSET))(a1, a2);
 	}
 
-	static ::System::Void Method_1_AD8191495E1E2027(::TMPro::TMP_FontAsset* a1)
+	static ::System::Void Method_1_63449EEC6B308260(::TMPro::TMP_FontAsset* a1)
 	{
-		return ((::System::Void(*)(::TMPro::TMP_FontAsset*))((::PBYTE)hIl2Cpp + CLASS_1_3A34B8763585140A_METHOD_1_AD8191495E1E2027_OFFSET))(a1);
+		return ((::System::Void(*)(::TMPro::TMP_FontAsset*))((::PBYTE)hIl2Cpp + CLASS_1_3A34B8763585140A_METHOD_1_63449EEC6B308260_OFFSET))(a1);
 	}
 
-	static ::System::Void Method_1_79C760213F83AEB2(::TMPro::TMP_FontAsset* a1)
+	static ::System::Void Method_1_3C3A2B3153073CE6(::TMPro::TMP_FontAsset* a1)
 	{
-		return ((::System::Void(*)(::TMPro::TMP_FontAsset*))((::PBYTE)hIl2Cpp + CLASS_1_3A34B8763585140A_METHOD_1_79C760213F83AEB2_OFFSET))(a1);
+		return ((::System::Void(*)(::TMPro::TMP_FontAsset*))((::PBYTE)hIl2Cpp + CLASS_1_3A34B8763585140A_METHOD_1_3C3A2B3153073CE6_OFFSET))(a1);
 	}
 
-	static ::System::Void Method_1_030E55659D50FD54(::TMPro::TMP_FontAsset* a1)
+	static ::System::Void Method_1_B84897AE509F782F(::TMPro::TMP_FontAsset* a1)
 	{
-		return ((::System::Void(*)(::TMPro::TMP_FontAsset*))((::PBYTE)hIl2Cpp + CLASS_1_3A34B8763585140A_METHOD_1_030E55659D50FD54_OFFSET))(a1);
+		return ((::System::Void(*)(::TMPro::TMP_FontAsset*))((::PBYTE)hIl2Cpp + CLASS_1_3A34B8763585140A_METHOD_1_B84897AE509F782F_OFFSET))(a1);
 	}
 
 	static ::System::Void Method_1_972F203BE0A312B2(::TMPro::TMP_FontAsset* a1, ::UnityEngine::Material* a2)

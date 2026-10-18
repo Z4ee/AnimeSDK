@@ -15,121 +15,121 @@ namespace UnityEngine { class RenderTexture; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 template <typename T> class Class_4_4BB9EBAAE168F465;
 
-#define CLASS_2_D865BB63FE6CF6EB_EXECUTE_OFFSET UNITYSDK_OFFSET(0x185CD3E0)
-#define CLASS_2_D865BB63FE6CF6EB_GET_KEY_OFFSET UNITYSDK_OFFSET(0x185CE860)
-#define CLASS_2_D865BB63FE6CF6EB_METHOD_2_228E3444D290BEE7_OFFSET UNITYSDK_OFFSET(0x185CC550)
-#define CLASS_2_D865BB63FE6CF6EB_METHOD_2_33ACA6CB2ABC73F7_OFFSET UNITYSDK_OFFSET(0x185CC5B0)
-#define CLASS_2_D865BB63FE6CF6EB_METHOD_2_42BA9D7CE19718CB_OFFSET UNITYSDK_OFFSET(0x185CD370)
-#define CLASS_2_D865BB63FE6CF6EB_METHOD_2_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x185CD290)
-#define CLASS_2_D865BB63FE6CF6EB_METHOD_2_49AA86D9F19FB057_OFFSET UNITYSDK_OFFSET(0x185CD030)
-#define CLASS_2_D865BB63FE6CF6EB_METHOD_2_84B92802FDAFF6C8_OFFSET UNITYSDK_OFFSET(0x185CCA70)
-#define CLASS_2_D865BB63FE6CF6EB_METHOD_2_95780ED94B90ED36_1_OFFSET UNITYSDK_OFFSET(0x185CC760)
-#define CLASS_2_D865BB63FE6CF6EB_METHOD_2_95780ED94B90ED36_OFFSET UNITYSDK_OFFSET(0x185CC700)
-#define CLASS_2_D865BB63FE6CF6EB_METHOD_2_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0x185CD2F0)
-#define CLASS_2_D865BB63FE6CF6EB_METHOD_2_9AC6CF729C0A70E0_OFFSET UNITYSDK_OFFSET(0x185CC7C0)
-#define CLASS_2_D865BB63FE6CF6EB_METHOD_2_B1936CE4DA97AA45_OFFSET UNITYSDK_OFFSET(0x185CCDE0)
-#define CLASS_2_D865BB63FE6CF6EB_METHOD_2_C436A2848092EB88_OFFSET UNITYSDK_OFFSET(0x185CC4F0)
-#define CLASS_2_D865BB63FE6CF6EB_METHOD_2_CA373AA1C7054598_1_OFFSET UNITYSDK_OFFSET(0x185CC4B0)
-#define CLASS_2_D865BB63FE6CF6EB_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x185CC470)
-#define CLASS_2_D865BB63FE6CF6EB_METHOD_2_CBC2443440B894D4_OFFSET UNITYSDK_OFFSET(0x185CE470)
-#define CLASS_2_D865BB63FE6CF6EB_METHOD_2_CD37BA088172EEF7_OFFSET UNITYSDK_OFFSET(0x185CC960)
-#define CLASS_2_D865BB63FE6CF6EB_METHOD_2_E3DE31A03057E055_OFFSET UNITYSDK_OFFSET(0x185CCED0)
-#define CLASS_2_D865BB63FE6CF6EB_METHOD_2_EB44EFCB44CBA9C1_OFFSET UNITYSDK_OFFSET(0x185CE410)
-#define CLASS_2_D865BB63FE6CF6EB_METHOD_2_F978A1D172468895_OFFSET UNITYSDK_OFFSET(0x185CE5D0)
-#define CLASS_2_D865BB63FE6CF6EB__CCTOR_OFFSET UNITYSDK_OFFSET(0x185CEBA0)
-#define CLASS_2_D865BB63FE6CF6EB__CTOR_OFFSET UNITYSDK_OFFSET(0x185CE870)
-#define CLASS_2_D865BB63FE6CF6EB__POSTINIT_B__32_0_OFFSET UNITYSDK_OFFSET(0x185CEC80)
-#define CLASS_2_D865BB63FE6CF6EB__POSTINIT_B__32_1_OFFSET UNITYSDK_OFFSET(0x185CEC90)
+#define CLASS_2_D865BB63FE6CF6EB_EXECUTE_OFFSET UNITYSDK_OFFSET(0xE4FFBE0)
+#define CLASS_2_D865BB63FE6CF6EB_GET_KEY_OFFSET UNITYSDK_OFFSET(0xE501050)
+#define CLASS_2_D865BB63FE6CF6EB_METHOD_2_228E3444D290BEE7_OFFSET UNITYSDK_OFFSET(0xE4FED70)
+#define CLASS_2_D865BB63FE6CF6EB_METHOD_2_33ACA6CB2ABC73F7_OFFSET UNITYSDK_OFFSET(0xE4FEDD0)
+#define CLASS_2_D865BB63FE6CF6EB_METHOD_2_42BA9D7CE19718CB_OFFSET UNITYSDK_OFFSET(0xE4FFB70)
+#define CLASS_2_D865BB63FE6CF6EB_METHOD_2_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0xE4FFA90)
+#define CLASS_2_D865BB63FE6CF6EB_METHOD_2_49AA86D9F19FB057_OFFSET UNITYSDK_OFFSET(0xE4FF830)
+#define CLASS_2_D865BB63FE6CF6EB_METHOD_2_5E93572F9B9C3F30_OFFSET UNITYSDK_OFFSET(0xE4FEFE0)
+#define CLASS_2_D865BB63FE6CF6EB_METHOD_2_84B92802FDAFF6C8_OFFSET UNITYSDK_OFFSET(0xE4FF270)
+#define CLASS_2_D865BB63FE6CF6EB_METHOD_2_95780ED94B90ED36_1_OFFSET UNITYSDK_OFFSET(0xE4FEF80)
+#define CLASS_2_D865BB63FE6CF6EB_METHOD_2_95780ED94B90ED36_OFFSET UNITYSDK_OFFSET(0xE4FEF20)
+#define CLASS_2_D865BB63FE6CF6EB_METHOD_2_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0xE4FFAF0)
+#define CLASS_2_D865BB63FE6CF6EB_METHOD_2_B1936CE4DA97AA45_OFFSET UNITYSDK_OFFSET(0xE4FF5E0)
+#define CLASS_2_D865BB63FE6CF6EB_METHOD_2_C436A2848092EB88_OFFSET UNITYSDK_OFFSET(0xE4FED10)
+#define CLASS_2_D865BB63FE6CF6EB_METHOD_2_CA373AA1C7054598_1_OFFSET UNITYSDK_OFFSET(0xE4FECD0)
+#define CLASS_2_D865BB63FE6CF6EB_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xE4FEC90)
+#define CLASS_2_D865BB63FE6CF6EB_METHOD_2_CBC2443440B894D4_OFFSET UNITYSDK_OFFSET(0xE500C70)
+#define CLASS_2_D865BB63FE6CF6EB_METHOD_2_CD37BA088172EEF7_OFFSET UNITYSDK_OFFSET(0xE4FF170)
+#define CLASS_2_D865BB63FE6CF6EB_METHOD_2_E3DE31A03057E055_OFFSET UNITYSDK_OFFSET(0xE4FF6D0)
+#define CLASS_2_D865BB63FE6CF6EB_METHOD_2_EB44EFCB44CBA9C1_OFFSET UNITYSDK_OFFSET(0xE500C10)
+#define CLASS_2_D865BB63FE6CF6EB_METHOD_2_F978A1D172468895_OFFSET UNITYSDK_OFFSET(0xE500DD0)
+#define CLASS_2_D865BB63FE6CF6EB__CCTOR_OFFSET UNITYSDK_OFFSET(0xE501390)
+#define CLASS_2_D865BB63FE6CF6EB__CTOR_OFFSET UNITYSDK_OFFSET(0xE501060)
+#define CLASS_2_D865BB63FE6CF6EB__POSTINIT_B__32_0_OFFSET UNITYSDK_OFFSET(0xE501470)
+#define CLASS_2_D865BB63FE6CF6EB__POSTINIT_B__32_1_OFFSET UNITYSDK_OFFSET(0xE501480)
 
-inline static constexpr unsigned int Class_2_D865BB63FE6CF6EB_TypeDefinitionIndex = 49744;
+inline static constexpr unsigned int Class_2_D865BB63FE6CF6EB_TypeDefinitionIndex = 49318;
 
 class Class_2_D865BB63FE6CF6EB : public ::Class_1_952A7C560FC1CD4B
 {
 public:
-	static ::System::String** StaticGet_BLFAJPJPCNE()
-	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_2_D865BB63FE6CF6EB_TypeDefinitionIndex)->GetStaticField(0x67640);
-	}
 	static ::Class_1_2F95775169BD5203_Class_1_5AA8656D6075F04F** StaticGet_OPHBGKOHPHJ()
 	{
-		return (::Class_1_2F95775169BD5203_Class_1_5AA8656D6075F04F**)Il2CppClass::FromTypeDefinitionIndex(Class_2_D865BB63FE6CF6EB_TypeDefinitionIndex)->GetStaticField(0x67648);
-	}
-	static ::Class_1_2F95775169BD5203_Class_1_5AA8656D6075F04F** StaticGet_GAOAKEEBNKH()
-	{
-		return (::Class_1_2F95775169BD5203_Class_1_5AA8656D6075F04F**)Il2CppClass::FromTypeDefinitionIndex(Class_2_D865BB63FE6CF6EB_TypeDefinitionIndex)->GetStaticField(0x67650);
-	}
-	static ::UnityEngine::ComputeShader** StaticGet_FBPMEEMNPAA()
-	{
-		return (::UnityEngine::ComputeShader**)Il2CppClass::FromTypeDefinitionIndex(Class_2_D865BB63FE6CF6EB_TypeDefinitionIndex)->GetStaticField(0x67658);
-	}
-	static ::Class_1_2F95775169BD5203_Class_1_5AA8656D6075F04F** StaticGet_NLAAGKMBBGA()
-	{
-		return (::Class_1_2F95775169BD5203_Class_1_5AA8656D6075F04F**)Il2CppClass::FromTypeDefinitionIndex(Class_2_D865BB63FE6CF6EB_TypeDefinitionIndex)->GetStaticField(0x67660);
-	}
-	static ::Class_1_2F95775169BD5203_Class_1_5AA8656D6075F04F** StaticGet_JJIFDGMBPCE()
-	{
-		return (::Class_1_2F95775169BD5203_Class_1_5AA8656D6075F04F**)Il2CppClass::FromTypeDefinitionIndex(Class_2_D865BB63FE6CF6EB_TypeDefinitionIndex)->GetStaticField(0x67668);
+		return (::Class_1_2F95775169BD5203_Class_1_5AA8656D6075F04F**)Il2CppClass::FromTypeDefinitionIndex(Class_2_D865BB63FE6CF6EB_TypeDefinitionIndex)->GetStaticField(0x5ED60);
 	}
 	static ::Class_1_2F95775169BD5203_Class_1_5AA8656D6075F04F** StaticGet_OEKPBMNBGJD()
 	{
-		return (::Class_1_2F95775169BD5203_Class_1_5AA8656D6075F04F**)Il2CppClass::FromTypeDefinitionIndex(Class_2_D865BB63FE6CF6EB_TypeDefinitionIndex)->GetStaticField(0x67670);
+		return (::Class_1_2F95775169BD5203_Class_1_5AA8656D6075F04F**)Il2CppClass::FromTypeDefinitionIndex(Class_2_D865BB63FE6CF6EB_TypeDefinitionIndex)->GetStaticField(0x5ED68);
 	}
-	static ::System::Int32* StaticGet_CMIIDBNECIF()
+	static ::Class_1_2F95775169BD5203_Class_1_5AA8656D6075F04F** StaticGet_NLAAGKMBBGA()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_2_D865BB63FE6CF6EB_TypeDefinitionIndex)->GetStaticField(0x155E0);
+		return (::Class_1_2F95775169BD5203_Class_1_5AA8656D6075F04F**)Il2CppClass::FromTypeDefinitionIndex(Class_2_D865BB63FE6CF6EB_TypeDefinitionIndex)->GetStaticField(0x5ED70);
 	}
-	static ::System::Int32* StaticGet_HCNJOPANMCA()
+	static ::System::String** StaticGet_BLFAJPJPCNE()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_2_D865BB63FE6CF6EB_TypeDefinitionIndex)->GetStaticField(0x155E4);
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_2_D865BB63FE6CF6EB_TypeDefinitionIndex)->GetStaticField(0x5ED78);
 	}
-	static ::System::Int32* StaticGet_NKAEPHKDPAL()
+	static ::Class_1_2F95775169BD5203_Class_1_5AA8656D6075F04F** StaticGet_JJIFDGMBPCE()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_2_D865BB63FE6CF6EB_TypeDefinitionIndex)->GetStaticField(0x155E8);
+		return (::Class_1_2F95775169BD5203_Class_1_5AA8656D6075F04F**)Il2CppClass::FromTypeDefinitionIndex(Class_2_D865BB63FE6CF6EB_TypeDefinitionIndex)->GetStaticField(0x5ED80);
 	}
-	static ::System::Int32* StaticGet_LAPNEPDOOFI()
+	static ::UnityEngine::ComputeShader** StaticGet_FBPMEEMNPAA()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_2_D865BB63FE6CF6EB_TypeDefinitionIndex)->GetStaticField(0x155EC);
+		return (::UnityEngine::ComputeShader**)Il2CppClass::FromTypeDefinitionIndex(Class_2_D865BB63FE6CF6EB_TypeDefinitionIndex)->GetStaticField(0x5ED88);
 	}
-	static ::System::Int32* StaticGet_OFGLFIJPPNH()
+	static ::Class_1_2F95775169BD5203_Class_1_5AA8656D6075F04F** StaticGet_GAOAKEEBNKH()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_2_D865BB63FE6CF6EB_TypeDefinitionIndex)->GetStaticField(0x155F0);
-	}
-	static ::System::Int32* StaticGet_HGOANFGOMEM()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_2_D865BB63FE6CF6EB_TypeDefinitionIndex)->GetStaticField(0x155F4);
-	}
-	static ::System::Int32* StaticGet_LPAGAPECEKP()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_2_D865BB63FE6CF6EB_TypeDefinitionIndex)->GetStaticField(0x155F8);
-	}
-	static ::System::Int32* StaticGet_OCFFFCJNEFC()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_2_D865BB63FE6CF6EB_TypeDefinitionIndex)->GetStaticField(0x155FC);
-	}
-	static ::System::Int32* StaticGet_LEONMLEJGDP()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_2_D865BB63FE6CF6EB_TypeDefinitionIndex)->GetStaticField(0x15600);
+		return (::Class_1_2F95775169BD5203_Class_1_5AA8656D6075F04F**)Il2CppClass::FromTypeDefinitionIndex(Class_2_D865BB63FE6CF6EB_TypeDefinitionIndex)->GetStaticField(0x5ED90);
 	}
 	static ::System::Int32* StaticGet_PBAJGFDCOHJ()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_2_D865BB63FE6CF6EB_TypeDefinitionIndex)->GetStaticField(0x15604);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_2_D865BB63FE6CF6EB_TypeDefinitionIndex)->GetStaticField(0x142C0);
 	}
-	::Class_4_4BB9EBAAE168F465<::System::Single>* IAFIPOGFHBC; // 0x28
-	::Class_2_D865BB63FE6CF6EB_1* PANGKOPAOML; // 0x30
+	static ::System::Int32* StaticGet_OCFFFCJNEFC()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_2_D865BB63FE6CF6EB_TypeDefinitionIndex)->GetStaticField(0x142C4);
+	}
+	static ::System::Int32* StaticGet_NKAEPHKDPAL()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_2_D865BB63FE6CF6EB_TypeDefinitionIndex)->GetStaticField(0x142C8);
+	}
+	static ::System::Int32* StaticGet_LAPNEPDOOFI()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_2_D865BB63FE6CF6EB_TypeDefinitionIndex)->GetStaticField(0x142CC);
+	}
+	static ::System::Int32* StaticGet_LEONMLEJGDP()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_2_D865BB63FE6CF6EB_TypeDefinitionIndex)->GetStaticField(0x142D0);
+	}
+	static ::System::Int32* StaticGet_HCNJOPANMCA()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_2_D865BB63FE6CF6EB_TypeDefinitionIndex)->GetStaticField(0x142D4);
+	}
+	static ::System::Int32* StaticGet_CMIIDBNECIF()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_2_D865BB63FE6CF6EB_TypeDefinitionIndex)->GetStaticField(0x142D8);
+	}
+	static ::System::Int32* StaticGet_HGOANFGOMEM()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_2_D865BB63FE6CF6EB_TypeDefinitionIndex)->GetStaticField(0x142DC);
+	}
+	static ::System::Int32* StaticGet_OFGLFIJPPNH()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_2_D865BB63FE6CF6EB_TypeDefinitionIndex)->GetStaticField(0x142E0);
+	}
+	static ::System::Int32* StaticGet_LPAGAPECEKP()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_2_D865BB63FE6CF6EB_TypeDefinitionIndex)->GetStaticField(0x142E4);
+	}
+	::Class_4_4BB9EBAAE168F465<::System::Single>* ABJMMCNPKHO; // 0x28
+	::Class_4_4BB9EBAAE168F465<::System::Single>* EIGMMFGILLJ; // 0x30
 	::UnityEngine::RenderTexture* MIAJNJNECOG; // 0x38
-	::UnityEngine::RenderTexture* MCLLALGABAB; // 0x40
-	::Class_4_4BB9EBAAE168F465<::System::Single>* ABJMMCNPKHO; // 0x48
-	::Class_4_4BB9EBAAE168F465<::System::Single>* EIGMMFGILLJ; // 0x50
-	::Class_4_4BB9EBAAE168F465<::System::Single>* NBANDDGPPIP; // 0x58
-	::Class_4_4BB9EBAAE168F465<::System::Single>* EMKCPIJDAAA; // 0x60
-	::Class_4_4BB9EBAAE168F465<::System::Boolean>* MOEGGPBHFFB; // 0x68
-	::Class_4_4BB9EBAAE168F465<::System::Single>* HDCGOONKMEP; // 0x70
-	::System::Int32 FCDCIOPHPOL; // 0x78
+	::Class_4_4BB9EBAAE168F465<::System::Single>* EMKCPIJDAAA; // 0x40
+	::Class_4_4BB9EBAAE168F465<::System::Single>* IAFIPOGFHBC; // 0x48
+	::Class_4_4BB9EBAAE168F465<::System::Boolean>* MOEGGPBHFFB; // 0x50
+	::Class_2_D865BB63FE6CF6EB_1* PANGKOPAOML; // 0x58
+	::Class_4_4BB9EBAAE168F465<::System::Single>* HDCGOONKMEP; // 0x60
+	::UnityEngine::RenderTexture* MCLLALGABAB; // 0x68
+	::Class_4_4BB9EBAAE168F465<::System::Single>* NBANDDGPPIP; // 0x70
+	::System::Int32 BEGPELCEFGE; // 0x78
 	::System::Int32 CEOHHLMMCBH; // 0x7C
-	::System::Int32 OHPAEFIPFOF; // 0x80
-	::System::Int32 LAPDCPGELLC; // 0x84
-	::UnityEngine::Vector2 LNCLEEHAHHE; // 0x88
-	::System::Int32 BEGPELCEFGE; // 0x90
+	::UnityEngine::Vector2 LNCLEEHAHHE; // 0x80
+	::System::Int32 FCDCIOPHPOL; // 0x88
+	::System::Int32 LAPDCPGELLC; // 0x8C
+	::System::Int32 OHPAEFIPFOF; // 0x90
 	::UnityEngine::Vector4 AFDCFKHNNJH; // 0x94
 
 	::System::Void _ctor()
@@ -177,9 +177,9 @@ public:
 		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_D865BB63FE6CF6EB_METHOD_2_95780ED94B90ED36_1_OFFSET))(this);
 	}
 
-	::System::Void Method_2_9AC6CF729C0A70E0()
+	::System::Void Method_2_5E93572F9B9C3F30()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_D865BB63FE6CF6EB_METHOD_2_9AC6CF729C0A70E0_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_D865BB63FE6CF6EB_METHOD_2_5E93572F9B9C3F30_OFFSET))(this);
 	}
 
 	static ::System::Void Method_2_84B92802FDAFF6C8()

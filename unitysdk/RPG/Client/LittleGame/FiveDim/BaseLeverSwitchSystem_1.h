@@ -11,12 +11,12 @@ namespace RPG::Client::LittleGame::FiveDim { template <typename T> class BaseLev
 namespace RPG::Client::LittleGame::FiveDim { template <typename T> class IEntityVarServices_1; }
 namespace RPG::Client::LittleGame::FiveDim { template <typename T> class IFiveDimEventService_1; }
 namespace RPG::Client::LittleGame::FiveDim { template <typename T> class IFiveDimLevelVarService_1; }
-namespace RPG::GameCore { class FiveDimDynamicVar; }
+namespace RPG::GameCore { class LittleGameDynamicVar; }
 namespace System { class String; }
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int BaseLeverSwitchSystem_1_TypeDefinitionIndex = 76652;
+	inline static constexpr unsigned int BaseLeverSwitchSystem_1_TypeDefinitionIndex = 77123;
 
 	template <typename T>
 	class BaseLeverSwitchSystem_1 : public ::System::Object

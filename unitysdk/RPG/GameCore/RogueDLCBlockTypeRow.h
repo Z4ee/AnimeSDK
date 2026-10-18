@@ -6,22 +6,22 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ROGUEDLCBLOCKTYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D9224F0)
-#define RPG_GAMECORE_ROGUEDLCBLOCKTYPEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D922C40)
+#define RPG_GAMECORE_ROGUEDLCBLOCKTYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D98E4B0)
+#define RPG_GAMECORE_ROGUEDLCBLOCKTYPEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D98EC00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueDLCBlockTypeRow_TypeDefinitionIndex = 14616;
+	inline static constexpr unsigned int RogueDLCBlockTypeRow_TypeDefinitionIndex = 14781;
 
 	class RogueDLCBlockTypeRow : public ::System::Object
 	{
 	public:
-		::System::String* BlockTypeChessBoardColor; // 0x10
-		::System::String* BlockTypeChessBoardIcon; // 0x18
-		::System::String* BlockTypeIcon; // 0x20
+		::System::String* BlockTypeIcon; // 0x10
+		::System::String* BlockTypeChessBoardColor; // 0x18
+		::System::String* BlockTypeChessBoardIcon; // 0x20
 		::RPG::Client::TextID BlockTypeNameID; // 0x28
-		::System::UInt32 BlockTypeID; // 0x38
-		::System::UInt32 BlockIntroID; // 0x3C
+		::System::UInt32 BlockIntroID; // 0x38
+		::System::UInt32 BlockTypeID; // 0x3C
 
 		::System::Void _ctor()
 		{

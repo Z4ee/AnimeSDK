@@ -9,7 +9,7 @@ namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int Reverse_1__Reverse__MoveNextAsync_d__9_TypeDefinitionIndex = 44411;
+	inline static constexpr unsigned int Reverse_1__Reverse__MoveNextAsync_d__9_TypeDefinitionIndex = 45550;
 
 	template <typename TSource>
 	struct Reverse_1__Reverse__MoveNextAsync_d__9

@@ -7,12 +7,12 @@
 namespace RPG::GameCore { class AdventureSkillData; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ADVENTURESKILLSLOTDATA_GET_SKILLINDEX_OFFSET UNITYSDK_OFFSET(0x19408F40)
-#define RPG_GAMECORE_ADVENTURESKILLSLOTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1940E200)
+#define RPG_GAMECORE_ADVENTURESKILLSLOTDATA_GET_SKILLINDEX_OFFSET UNITYSDK_OFFSET(0xE578FF0)
+#define RPG_GAMECORE_ADVENTURESKILLSLOTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xE5780C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureSkillSlotData_TypeDefinitionIndex = 57039;
+	inline static constexpr unsigned int AdventureSkillSlotData_TypeDefinitionIndex = 56861;
 
 	class AdventureSkillSlotData : public ::System::Object
 	{

@@ -5,12 +5,12 @@
 namespace System { class String; }
 namespace System::Reflection { class MethodInfo; }
 
-#define XLUA_UTILS___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCDECF10)
-#define XLUA_UTILS___C__DISPLAYCLASS16_0__LAZYREFLECTIONCALL_B__0_OFFSET UNITYSDK_OFFSET(0xCDF7C60)
+#define XLUA_UTILS___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0x153BE430)
+#define XLUA_UTILS___C__DISPLAYCLASS16_0__LAZYREFLECTIONCALL_B__0_OFFSET UNITYSDK_OFFSET(0x153C9190)
 
 namespace XLua
 {
-	inline static constexpr unsigned int Utils___c__DisplayClass16_0_TypeDefinitionIndex = 50601;
+	inline static constexpr unsigned int Utils___c__DisplayClass16_0_TypeDefinitionIndex = 50270;
 
 	class Utils___c__DisplayClass16_0 : public ::System::Object
 	{

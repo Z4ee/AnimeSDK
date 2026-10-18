@@ -9,7 +9,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace MiHoYo::SDK::UI::OS
 {
-	inline static constexpr unsigned int IAccountListDialog_TypeDefinitionIndex = 8424;
+	inline static constexpr unsigned int IAccountListDialog_TypeDefinitionIndex = 8467;
 
 	class IAccountListDialog
 	{

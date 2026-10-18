@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MIHOYO_SDK_CODEDEFINE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1B0420)
+#define MIHOYO_SDK_CODEDEFINE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC26C00)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int CodeDefine_TypeDefinitionIndex = 7513;
+	inline static constexpr unsigned int CodeDefine_TypeDefinitionIndex = 7567;
 
 	class CodeDefine : public ::System::Object
 	{
@@ -45,6 +45,7 @@ namespace MiHoYo::SDK
 		// static const ::System::Int32 GOOGLE_PC_SDK_INIT_FAILED = 0xFFFFFC14; // 0x0
 		// static const ::System::Int32 STEAM_PC_SDK_INIT_FAILED = 0xFFFFFC13; // 0x0
 		// static const ::System::Int32 XBOX_PC_SDK_INIT_FAILED = 0xFFFFFC12; // 0x0
+		// static const ::System::Int32 EPIC_PC_SDK_INIT_FAILED = 0xFFFFFC11; // 0x0
 		// static const ::System::Int32 WEBVIEW_ASYNC_INIT_FAIL = 0xFFFFF82F; // 0x0
 		// static const ::System::Int32 WEBVIEW_ASYNC_INIT_FALLBACK = 0xFFFFF82E; // 0x0
 		// static const ::System::Int32 BILIBILI_REJECT_PROTOCOL_ERROR = 0xFFFFC94F; // 0x0

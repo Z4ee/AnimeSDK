@@ -5,10 +5,10 @@
 class Class_1_CBFDD23EBD586710;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_CBFDD23EBD586710___C__DISPLAYCLASS17_0__COLLECTINCOME_B__0_OFFSET UNITYSDK_OFFSET(0x18FD9300)
-#define CLASS_1_CBFDD23EBD586710___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18FD7A60)
+#define CLASS_1_CBFDD23EBD586710___C__DISPLAYCLASS17_0__COLLECTINCOME_B__0_OFFSET UNITYSDK_OFFSET(0xB5784A0)
+#define CLASS_1_CBFDD23EBD586710___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB576C10)
 
-inline static constexpr unsigned int Class_1_CBFDD23EBD586710___c__DisplayClass17_0_TypeDefinitionIndex = 75002;
+inline static constexpr unsigned int Class_1_CBFDD23EBD586710___c__DisplayClass17_0_TypeDefinitionIndex = 75302;
 
 class Class_1_CBFDD23EBD586710___c__DisplayClass17_0 : public ::System::Object
 {

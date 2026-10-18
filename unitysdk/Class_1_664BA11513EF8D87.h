@@ -6,18 +6,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define CLASS_1_664BA11513EF8D87_METHOD_1_13A4856CD0BBDB3F_OFFSET UNITYSDK_OFFSET(0x1CFC74B0)
-#define CLASS_1_664BA11513EF8D87__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFC76B0)
+#define CLASS_1_664BA11513EF8D87_METHOD_1_13A4856CD0BBDB3F_OFFSET UNITYSDK_OFFSET(0x1CE97A60)
+#define CLASS_1_664BA11513EF8D87__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE97C60)
 
-inline static constexpr unsigned int Class_1_664BA11513EF8D87_TypeDefinitionIndex = 11567;
+inline static constexpr unsigned int Class_1_664BA11513EF8D87_TypeDefinitionIndex = 11583;
 
 class Class_1_664BA11513EF8D87 : public ::System::Object
 {
 public:
-	::System::UInt32 GNIFLCBGAAA; // 0x10
-	::RPG::GameCore::FateRinSwitchDayTalker PFNEMONCJFE; // 0x14
-	::System::UInt32 EOAGGGKKHLN; // 0x18
-	::RPG::Client::TextID IBGNNBCPHFO; // 0x20
+	::RPG::GameCore::FateRinSwitchDayTalker PFNEMONCJFE; // 0x10
+	::RPG::Client::TextID IBGNNBCPHFO; // 0x18
+	::System::UInt32 EOAGGGKKHLN; // 0x28
+	::System::UInt32 GNIFLCBGAAA; // 0x2C
 
 	::System::Void _ctor()
 	{

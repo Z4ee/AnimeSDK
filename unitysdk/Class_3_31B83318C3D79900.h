@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class WriteFsvToDynamicValue; }
 
-#define CLASS_3_31B83318C3D79900_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x179E3E20)
-#define CLASS_3_31B83318C3D79900__CTOR_OFFSET UNITYSDK_OFFSET(0x179E3DF0)
+#define CLASS_3_31B83318C3D79900_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15787910)
+#define CLASS_3_31B83318C3D79900__CTOR_OFFSET UNITYSDK_OFFSET(0x157878E0)
 
-inline static constexpr unsigned int Class_3_31B83318C3D79900_TypeDefinitionIndex = 53755;
+inline static constexpr unsigned int Class_3_31B83318C3D79900_TypeDefinitionIndex = 53499;
 
 class Class_3_31B83318C3D79900 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::WriteFsvToDynamicValue*>
 {

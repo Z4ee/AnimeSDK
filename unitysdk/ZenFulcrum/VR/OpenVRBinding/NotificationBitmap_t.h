@@ -4,7 +4,7 @@
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int NotificationBitmap_t_TypeDefinitionIndex = 38028;
+	inline static constexpr unsigned int NotificationBitmap_t_TypeDefinitionIndex = 39325;
 
 	struct alignas(8) NotificationBitmap_t
 	{

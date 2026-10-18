@@ -5,18 +5,18 @@
 namespace RPG::Client { class UIController; }
 namespace System { class String; }
 
-#define RPG_CLIENT_BATTLESHOWMESSAGEMANAGER_MESSAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD6BE70)
+#define RPG_CLIENT_BATTLESHOWMESSAGEMANAGER_MESSAGE__CTOR_OFFSET UNITYSDK_OFFSET(0xC8580E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BattleShowMessageManager_Message_TypeDefinitionIndex = 71791;
+	inline static constexpr unsigned int BattleShowMessageManager_Message_TypeDefinitionIndex = 71856;
 
 	class BattleShowMessageManager_Message : public ::System::Object
 	{
 	public:
-		::System::String* ImagePath; // 0x10
+		::System::String* Text; // 0x10
 		::RPG::Client::UIController* UI; // 0x18
-		::System::String* Text; // 0x20
+		::System::String* ImagePath; // 0x20
 		::System::Single Begin; // 0x28
 		::System::Single LifetimeMin; // 0x2C
 		::System::Single LifetimeNormal; // 0x30

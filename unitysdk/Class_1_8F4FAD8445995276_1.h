@@ -7,10 +7,10 @@ namespace RPG::Client { class IFateGameMasterInfoItem; }
 namespace RPG::Client { class IFateGameRoundSettleDmgSourceItem; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_8F4FAD8445995276_1_METHOD_1_2CF48CF499425706_OFFSET UNITYSDK_OFFSET(0x19ADB790)
-#define CLASS_1_8F4FAD8445995276_1__CTOR_OFFSET UNITYSDK_OFFSET(0x19ADBE80)
+#define CLASS_1_8F4FAD8445995276_1_METHOD_1_2CF48CF499425706_OFFSET UNITYSDK_OFFSET(0x159F9260)
+#define CLASS_1_8F4FAD8445995276_1__CTOR_OFFSET UNITYSDK_OFFSET(0x159F9950)
 
-inline static constexpr unsigned int Class_1_8F4FAD8445995276_1_TypeDefinitionIndex = 64127;
+inline static constexpr unsigned int Class_1_8F4FAD8445995276_1_TypeDefinitionIndex = 64065;
 
 class Class_1_8F4FAD8445995276_1 : public ::System::Object
 {

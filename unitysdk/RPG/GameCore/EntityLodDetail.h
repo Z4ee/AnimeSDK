@@ -5,21 +5,21 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ENTITYLODDETAIL_METHOD_3_E76D05529CFD88F3_OFFSET UNITYSDK_OFFSET(0x1D7C4500)
-#define RPG_GAMECORE_ENTITYLODDETAIL_METHOD_3_F3FEA28E85EB8189_OFFSET UNITYSDK_OFFSET(0x1D7C4470)
-#define RPG_GAMECORE_ENTITYLODDETAIL__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D7C4B90)
-#define RPG_GAMECORE_ENTITYLODDETAIL__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7C44E0)
+#define RPG_GAMECORE_ENTITYLODDETAIL_METHOD_3_E76D05529CFD88F3_OFFSET UNITYSDK_OFFSET(0x1D6188B0)
+#define RPG_GAMECORE_ENTITYLODDETAIL_METHOD_3_F3FEA28E85EB8189_OFFSET UNITYSDK_OFFSET(0x1D618820)
+#define RPG_GAMECORE_ENTITYLODDETAIL__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D618F40)
+#define RPG_GAMECORE_ENTITYLODDETAIL__CTOR_OFFSET UNITYSDK_OFFSET(0x1D618890)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EntityLodDetail_TypeDefinitionIndex = 18982;
+	inline static constexpr unsigned int EntityLodDetail_TypeDefinitionIndex = 19209;
 
 	class EntityLodDetail : public ::RPG::GameCore::LodDetail
 	{
 	public:
 		static ::RPG::GameCore::EntityLodDetail** StaticGet_InvisibleLodDetail()
 		{
-			return (::RPG::GameCore::EntityLodDetail**)Il2CppClass::FromTypeDefinitionIndex(EntityLodDetail_TypeDefinitionIndex)->GetStaticField(0x15B30);
+			return (::RPG::GameCore::EntityLodDetail**)Il2CppClass::FromTypeDefinitionIndex(EntityLodDetail_TypeDefinitionIndex)->GetStaticField(0x23500);
 		}
 		::System::Boolean Render; // 0x30
 		::System::Boolean Shadow; // 0x31

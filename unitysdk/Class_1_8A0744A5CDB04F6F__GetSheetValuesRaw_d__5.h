@@ -12,21 +12,21 @@ namespace System::Net::Http { class HttpRequestMessage; }
 namespace System::Net::Http { class HttpResponseMessage; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define CLASS_1_8A0744A5CDB04F6F__GETSHEETVALUESRAW_D__5_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x3A4D970)
-#define CLASS_1_8A0744A5CDB04F6F__GETSHEETVALUESRAW_D__5_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x1B79770)
+#define CLASS_1_8A0744A5CDB04F6F__GETSHEETVALUESRAW_D__5_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x10B10)
+#define CLASS_1_8A0744A5CDB04F6F__GETSHEETVALUESRAW_D__5_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x10B20)
 
-inline static constexpr unsigned int Class_1_8A0744A5CDB04F6F__GetSheetValuesRaw_d__5_TypeDefinitionIndex = 50409;
+inline static constexpr unsigned int Class_1_8A0744A5CDB04F6F__GetSheetValuesRaw_d__5_TypeDefinitionIndex = 50038;
 
 struct alignas(8) Class_1_8A0744A5CDB04F6F__GetSheetValuesRaw_d__5
 {
-	::System::Net::Http::HttpClient* _client_5__3; // 0x10
-	::Class_1_8A0744A5CDB04F6F* __4__this; // 0x18
-	::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::String*> __t__builder; // 0x20
-	::System::Runtime::CompilerServices::TaskAwaiter_1<::System::String*> __u__1; // 0x38
-	::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Net::Http::HttpResponseMessage*> __u__2; // 0x40
-	::System::String* range; // 0x50
-	::System::Net::Http::HttpRequestMessage* _request_5__2; // 0x58
-	::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::String*> __u__3; // 0x60
+	::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Net::Http::HttpResponseMessage*> __u__2; // 0x10
+	::System::Net::Http::HttpClient* _client_5__3; // 0x20
+	::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::String*> __t__builder; // 0x28
+	::System::Runtime::CompilerServices::TaskAwaiter_1<::System::String*> __u__1; // 0x40
+	::System::Net::Http::HttpRequestMessage* _request_5__2; // 0x48
+	::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::String*> __u__3; // 0x50
+	::System::String* range; // 0x60
+	::Class_1_8A0744A5CDB04F6F* __4__this; // 0x68
 	::System::String* docID; // 0x70
 	::System::Int32 __1__state; // 0x78
 

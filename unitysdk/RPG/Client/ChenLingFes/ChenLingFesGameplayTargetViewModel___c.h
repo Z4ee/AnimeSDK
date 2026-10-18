@@ -5,34 +5,34 @@
 namespace RPG::Client::ChenLingFes { class ChenLingFesGameplayTargetItemViewModel; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYTARGETVIEWMODEL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B743220)
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYTARGETVIEWMODEL___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B743260)
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYTARGETVIEWMODEL___C__GET_PROGRESSBEFORE_B__22_0_OFFSET UNITYSDK_OFFSET(0x1B7432B0)
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYTARGETVIEWMODEL___C__GET_PROGRESS_B__20_0_OFFSET UNITYSDK_OFFSET(0x1B743290)
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYTARGETVIEWMODEL___C___SYNCGAMEWEEKDATA_B__2_0_OFFSET UNITYSDK_OFFSET(0x1B743270)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYTARGETVIEWMODEL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xCAA7460)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYTARGETVIEWMODEL___C__CTOR_OFFSET UNITYSDK_OFFSET(0xCAA74A0)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYTARGETVIEWMODEL___C__GET_PROGRESSBEFORE_B__22_0_OFFSET UNITYSDK_OFFSET(0xCAA74F0)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYTARGETVIEWMODEL___C__GET_PROGRESS_B__20_0_OFFSET UNITYSDK_OFFSET(0xCAA74D0)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYTARGETVIEWMODEL___C___SYNCGAMEWEEKDATA_B__2_0_OFFSET UNITYSDK_OFFSET(0xCAA74B0)
 
 namespace RPG::Client::ChenLingFes
 {
-	inline static constexpr unsigned int ChenLingFesGameplayTargetViewModel___c_TypeDefinitionIndex = 80063;
+	inline static constexpr unsigned int ChenLingFesGameplayTargetViewModel___c_TypeDefinitionIndex = 81391;
 
 	class ChenLingFesGameplayTargetViewModel___c : public ::System::Object
 	{
 	public:
 		static ::System::Predicate_1<::RPG::Client::ChenLingFes::ChenLingFesGameplayTargetItemViewModel*>** StaticGet___9__22_0()
 		{
-			return (::System::Predicate_1<::RPG::Client::ChenLingFes::ChenLingFesGameplayTargetItemViewModel*>**)Il2CppClass::FromTypeDefinitionIndex(ChenLingFesGameplayTargetViewModel___c_TypeDefinitionIndex)->GetStaticField(0x3E640);
-		}
-		static ::System::Predicate_1<::RPG::Client::ChenLingFes::ChenLingFesGameplayTargetItemViewModel*>** StaticGet___9__2_0()
-		{
-			return (::System::Predicate_1<::RPG::Client::ChenLingFes::ChenLingFesGameplayTargetItemViewModel*>**)Il2CppClass::FromTypeDefinitionIndex(ChenLingFesGameplayTargetViewModel___c_TypeDefinitionIndex)->GetStaticField(0x3E648);
+			return (::System::Predicate_1<::RPG::Client::ChenLingFes::ChenLingFesGameplayTargetItemViewModel*>**)Il2CppClass::FromTypeDefinitionIndex(ChenLingFesGameplayTargetViewModel___c_TypeDefinitionIndex)->GetStaticField(0x6F7A0);
 		}
 		static ::RPG::Client::ChenLingFes::ChenLingFesGameplayTargetViewModel___c** StaticGet___9()
 		{
-			return (::RPG::Client::ChenLingFes::ChenLingFesGameplayTargetViewModel___c**)Il2CppClass::FromTypeDefinitionIndex(ChenLingFesGameplayTargetViewModel___c_TypeDefinitionIndex)->GetStaticField(0x3E650);
+			return (::RPG::Client::ChenLingFes::ChenLingFesGameplayTargetViewModel___c**)Il2CppClass::FromTypeDefinitionIndex(ChenLingFesGameplayTargetViewModel___c_TypeDefinitionIndex)->GetStaticField(0x6F7A8);
+		}
+		static ::System::Predicate_1<::RPG::Client::ChenLingFes::ChenLingFesGameplayTargetItemViewModel*>** StaticGet___9__2_0()
+		{
+			return (::System::Predicate_1<::RPG::Client::ChenLingFes::ChenLingFesGameplayTargetItemViewModel*>**)Il2CppClass::FromTypeDefinitionIndex(ChenLingFesGameplayTargetViewModel___c_TypeDefinitionIndex)->GetStaticField(0x6F7B0);
 		}
 		static ::System::Predicate_1<::RPG::Client::ChenLingFes::ChenLingFesGameplayTargetItemViewModel*>** StaticGet___9__20_0()
 		{
-			return (::System::Predicate_1<::RPG::Client::ChenLingFes::ChenLingFesGameplayTargetItemViewModel*>**)Il2CppClass::FromTypeDefinitionIndex(ChenLingFesGameplayTargetViewModel___c_TypeDefinitionIndex)->GetStaticField(0x3E658);
+			return (::System::Predicate_1<::RPG::Client::ChenLingFes::ChenLingFesGameplayTargetItemViewModel*>**)Il2CppClass::FromTypeDefinitionIndex(ChenLingFesGameplayTargetViewModel___c_TypeDefinitionIndex)->GetStaticField(0x6F7B8);
 		}
 
 		static ::System::Void _cctor()

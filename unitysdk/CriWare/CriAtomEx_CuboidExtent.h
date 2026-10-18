@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define CRIWARE_CRIATOMEX_CUBOIDEXTENT_DEFAULT_OFFSET UNITYSDK_OFFSET(0x1CB7FE00)
+#define CRIWARE_CRIATOMEX_CUBOIDEXTENT_DEFAULT_OFFSET UNITYSDK_OFFSET(0x166C2040)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomEx_CuboidExtent_TypeDefinitionIndex = 38672;
+	inline static constexpr unsigned int CriAtomEx_CuboidExtent_TypeDefinitionIndex = 39969;
 
 	struct alignas(4) CriAtomEx_CuboidExtent
 	{

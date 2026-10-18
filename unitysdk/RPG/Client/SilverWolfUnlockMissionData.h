@@ -4,11 +4,11 @@
 #include "unitysdk/RPG/GameCore/MainMissionType.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_SILVERWOLFUNLOCKMISSIONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x196B6030)
+#define RPG_CLIENT_SILVERWOLFUNLOCKMISSIONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xE0BED00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SilverWolfUnlockMissionData_TypeDefinitionIndex = 67951;
+	inline static constexpr unsigned int SilverWolfUnlockMissionData_TypeDefinitionIndex = 67956;
 
 	class SilverWolfUnlockMissionData : public ::System::Object
 	{

@@ -11,12 +11,12 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class Sprite; }
 
-#define RPG_GAMECORE_LEVELMINIMAPVOLUME_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1C11A4A0)
-#define RPG_GAMECORE_LEVELMINIMAPVOLUME__CTOR_OFFSET UNITYSDK_OFFSET(0x1C11A960)
+#define RPG_GAMECORE_LEVELMINIMAPVOLUME_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D785B80)
+#define RPG_GAMECORE_LEVELMINIMAPVOLUME__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7861A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelMinimapVolume_TypeDefinitionIndex = 17027;
+	inline static constexpr unsigned int LevelMinimapVolume_TypeDefinitionIndex = 17222;
 
 	class LevelMinimapVolume : public ::RPG::GameCore::JsonConfig
 	{

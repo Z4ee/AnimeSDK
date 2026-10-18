@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DiceCombatDiceSelectorConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MARKRECOMMENDDICEITEM_METHOD_2_6661CD32BB42EF5F_OFFSET UNITYSDK_OFFSET(0x1D25C800)
-#define RPG_GAMECORE_MARKRECOMMENDDICEITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1D25C900)
+#define RPG_GAMECORE_MARKRECOMMENDDICEITEM_METHOD_2_6661CD32BB42EF5F_OFFSET UNITYSDK_OFFSET(0x1D81BF60)
+#define RPG_GAMECORE_MARKRECOMMENDDICEITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1D81C060)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MarkRecommendDiceItem_TypeDefinitionIndex = 15982;
+	inline static constexpr unsigned int MarkRecommendDiceItem_TypeDefinitionIndex = 16155;
 
 	class MarkRecommendDiceItem : public ::RPG::GameCore::JsonConfig
 	{

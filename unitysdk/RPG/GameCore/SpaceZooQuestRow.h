@@ -6,12 +6,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_SPACEZOOQUESTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D0AD230)
-#define RPG_GAMECORE_SPACEZOOQUESTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0AD8A0)
+#define RPG_GAMECORE_SPACEZOOQUESTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DAC9F10)
+#define RPG_GAMECORE_SPACEZOOQUESTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1DACA5C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SpaceZooQuestRow_TypeDefinitionIndex = 12295;
+	inline static constexpr unsigned int SpaceZooQuestRow_TypeDefinitionIndex = 12381;
 
 	class SpaceZooQuestRow : public ::System::Object
 	{

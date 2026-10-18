@@ -4,7 +4,7 @@
 
 namespace UnityEngine::PlayerLoop
 {
-	inline static constexpr unsigned int EarlyUpdate_ProfilerStartFrame_TypeDefinitionIndex = 4548;
+	inline static constexpr unsigned int EarlyUpdate_ProfilerStartFrame_TypeDefinitionIndex = 4552;
 
 	struct alignas(1) EarlyUpdate_ProfilerStartFrame
 	{

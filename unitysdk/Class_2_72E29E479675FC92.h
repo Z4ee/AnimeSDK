@@ -2,25 +2,25 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Class_1_3713064DEE761936.h"
 
-class Class_1_0A99AF1699F7F17E_6;
-class Class_1_D2520FBD61B50E07;
+class Class_1_0A99AF1699F7F17E_9;
+class Class_1_BB4B99DE4C2501EC_6;
 namespace RPG::Client::ChenLingBattle { class ChenLingBattleGameContext; }
 
-#define CLASS_2_72E29E479675FC92_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x15972600)
-#define CLASS_2_72E29E479675FC92__CTOR_OFFSET UNITYSDK_OFFSET(0x15972870)
+#define CLASS_2_72E29E479675FC92_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1659A510)
+#define CLASS_2_72E29E479675FC92__CTOR_OFFSET UNITYSDK_OFFSET(0x1659A780)
 
-inline static constexpr unsigned int Class_2_72E29E479675FC92_TypeDefinitionIndex = 75770;
+inline static constexpr unsigned int Class_2_72E29E479675FC92_TypeDefinitionIndex = 76247;
 
 class Class_2_72E29E479675FC92 : public ::Class_1_3713064DEE761936
 {
 public:
-	::Class_1_D2520FBD61B50E07* KCLPMCMIALP; // 0x20
-	::Class_1_0A99AF1699F7F17E_6* IFKKOHJDCCF; // 0x28
-	::RPG::Client::ChenLingBattle::ChenLingBattleGameContext* FGHLCBFGPEE; // 0x30
+	::Class_1_0A99AF1699F7F17E_9* IFKKOHJDCCF; // 0x20
+	::RPG::Client::ChenLingBattle::ChenLingBattleGameContext* FGHLCBFGPEE; // 0x28
+	::Class_1_BB4B99DE4C2501EC_6* KCLPMCMIALP; // 0x30
 
-	::System::Void _ctor(::RPG::Client::ChenLingBattle::ChenLingBattleGameContext* a1, ::Class_1_0A99AF1699F7F17E_6* a2, ::Class_1_D2520FBD61B50E07* a3)
+	::System::Void _ctor(::RPG::Client::ChenLingBattle::ChenLingBattleGameContext* a1, ::Class_1_0A99AF1699F7F17E_9* a2, ::Class_1_BB4B99DE4C2501EC_6* a3)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::Client::ChenLingBattle::ChenLingBattleGameContext*, ::Class_1_0A99AF1699F7F17E_6*, ::Class_1_D2520FBD61B50E07*))((::PBYTE)hIl2Cpp + CLASS_2_72E29E479675FC92__CTOR_OFFSET))(this, a1, a2, a3);
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::ChenLingBattle::ChenLingBattleGameContext*, ::Class_1_0A99AF1699F7F17E_9*, ::Class_1_BB4B99DE4C2501EC_6*))((::PBYTE)hIl2Cpp + CLASS_2_72E29E479675FC92__CTOR_OFFSET))(this, a1, a2, a3);
 	}
 
 	::System::Void OnExecute()

@@ -10,7 +10,7 @@ namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int TakeUntil_1__TakeUntil__RunOther_d__17_TypeDefinitionIndex = 44517;
+	inline static constexpr unsigned int TakeUntil_1__TakeUntil__RunOther_d__17_TypeDefinitionIndex = 45656;
 
 	template <typename TSource>
 	struct TakeUntil_1__TakeUntil__RunOther_d__17

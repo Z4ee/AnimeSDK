@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIGHTFESTSCOREPHASEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E0D7BC0)
-#define RPG_GAMECORE_FIGHTFESTSCOREPHASEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1E0D7EF0)
+#define RPG_GAMECORE_FIGHTFESTSCOREPHASEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D677B00)
+#define RPG_GAMECORE_FIGHTFESTSCOREPHASEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D677E30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FightFestScorePhaseRow_TypeDefinitionIndex = 13171;
+	inline static constexpr unsigned int FightFestScorePhaseRow_TypeDefinitionIndex = 13277;
 
 	class FightFestScorePhaseRow : public ::System::Object
 	{
@@ -19,10 +19,10 @@ namespace RPG::GameCore
 		::System::String* TargetAvatarMiniIcon; // 0x10
 		::System::String* TargetAvatarIcon; // 0x18
 		::RPG::Client::TextID TargetTip; // 0x20
-		::System::UInt32 PhaseID; // 0x30
-		::System::UInt32 AvatarInfoID; // 0x34
-		::RPG::Client::TextID TargetAvatarName; // 0x38
-		::System::UInt32 RewardID; // 0x48
+		::RPG::Client::TextID TargetAvatarName; // 0x30
+		::System::UInt32 RewardID; // 0x40
+		::System::UInt32 PhaseID; // 0x44
+		::System::UInt32 AvatarInfoID; // 0x48
 		::System::UInt32 TargetScore; // 0x4C
 
 		::System::Void _ctor()

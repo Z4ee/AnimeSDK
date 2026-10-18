@@ -4,12 +4,12 @@
 
 namespace RPG::GameCore { class LineUpCharacter; }
 
-#define RPG_CLIENT_GLOBALBUFFSERVICE___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD9A6D0)
-#define RPG_CLIENT_GLOBALBUFFSERVICE___C__DISPLAYCLASS0_0__GETAVATARFORGLOBALBUFFPROVIDER_B__0_OFFSET UNITYSDK_OFFSET(0x1AD9A6F0)
+#define RPG_CLIENT_GLOBALBUFFSERVICE___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD0AF210)
+#define RPG_CLIENT_GLOBALBUFFSERVICE___C__DISPLAYCLASS0_0__GETAVATARFORGLOBALBUFFPROVIDER_B__0_OFFSET UNITYSDK_OFFSET(0xD0AF230)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GlobalBuffService___c__DisplayClass0_0_TypeDefinitionIndex = 62830;
+	inline static constexpr unsigned int GlobalBuffService___c__DisplayClass0_0_TypeDefinitionIndex = 62763;
 
 	class GlobalBuffService___c__DisplayClass0_0 : public ::System::Object
 	{

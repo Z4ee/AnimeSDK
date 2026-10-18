@@ -4,11 +4,11 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MIHOYO_SDK_CONFIGMANAGER_DEVICELIMITCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1C4DD0)
+#define MIHOYO_SDK_CONFIGMANAGER_DEVICELIMITCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC3B900)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ConfigManager_DeviceLimitConfig_TypeDefinitionIndex = 8167;
+	inline static constexpr unsigned int ConfigManager_DeviceLimitConfig_TypeDefinitionIndex = 8210;
 
 	class ConfigManager_DeviceLimitConfig : public ::System::Object
 	{

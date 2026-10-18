@@ -6,10 +6,10 @@
 namespace RPG::GameCore { class SetDynamicValueByShield; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_DE80468DEC30830D_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18DB58D0)
-#define CLASS_3_DE80468DEC30830D__CTOR_OFFSET UNITYSDK_OFFSET(0x18DB57F0)
+#define CLASS_3_DE80468DEC30830D_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15DC4C90)
+#define CLASS_3_DE80468DEC30830D__CTOR_OFFSET UNITYSDK_OFFSET(0x15DC4BB0)
 
-inline static constexpr unsigned int Class_3_DE80468DEC30830D_TypeDefinitionIndex = 55657;
+inline static constexpr unsigned int Class_3_DE80468DEC30830D_TypeDefinitionIndex = 55465;
 
 class Class_3_DE80468DEC30830D : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetDynamicValueByShield*>
 {

@@ -4,12 +4,12 @@
 
 namespace System { class Random; }
 
-#define RPG_CLIENT_FATEGAMEMASTERTALKINFOEXT___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C18B5B0)
-#define RPG_CLIENT_FATEGAMEMASTERTALKINFOEXT___C__DISPLAYCLASS1_0__GETRANDOMITEMSONOVERVIEWPAGE_B__1_OFFSET UNITYSDK_OFFSET(0x1C18B620)
+#define RPG_CLIENT_FATEGAMEMASTERTALKINFOEXT___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCE8F460)
+#define RPG_CLIENT_FATEGAMEMASTERTALKINFOEXT___C__DISPLAYCLASS1_0__GETRANDOMITEMSONOVERVIEWPAGE_B__1_OFFSET UNITYSDK_OFFSET(0xCE8F4D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FateGameMasterTalkInfoExt___c__DisplayClass1_0_TypeDefinitionIndex = 64169;
+	inline static constexpr unsigned int FateGameMasterTalkInfoExt___c__DisplayClass1_0_TypeDefinitionIndex = 64107;
 
 	class FateGameMasterTalkInfoExt___c__DisplayClass1_0 : public ::System::Object
 	{

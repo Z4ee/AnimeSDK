@@ -5,19 +5,19 @@
 namespace RPG::Client { class LocalizedText; }
 namespace RPG::Client { class UIStateCtrl; }
 
-#define RPG_CLIENT_B51RACING_B51RACINGDIYNUMINPUTITEMCONTROL_SETUPVIEW_OFFSET UNITYSDK_OFFSET(0x19EEF710)
-#define RPG_CLIENT_B51RACING_B51RACINGDIYNUMINPUTITEMCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x19EEF830)
-#define RPG_CLIENT_B51RACING_B51RACINGDIYNUMINPUTITEMCONTROL__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0x19EEF670)
+#define RPG_CLIENT_B51RACING_B51RACINGDIYNUMINPUTITEMCONTROL_SETUPVIEW_OFFSET UNITYSDK_OFFSET(0xC72DEB0)
+#define RPG_CLIENT_B51RACING_B51RACINGDIYNUMINPUTITEMCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0xC72DFD0)
+#define RPG_CLIENT_B51RACING_B51RACINGDIYNUMINPUTITEMCONTROL__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0xC72DE10)
 
 namespace RPG::Client::B51Racing
 {
-	inline static constexpr unsigned int B51RacingDIYNumInputItemControl_TypeDefinitionIndex = 80446;
+	inline static constexpr unsigned int B51RacingDIYNumInputItemControl_TypeDefinitionIndex = 81774;
 
 	class B51RacingDIYNumInputItemControl : public ::Sofa::BaseSofaControl
 	{
 	public:
-		::RPG::Client::LocalizedText* _DigitText; // 0x38
-		::RPG::Client::UIStateCtrl* _BlinkEffStateCtrl; // 0x40
+		::RPG::Client::LocalizedText* _DigitText; // 0x40
+		::RPG::Client::UIStateCtrl* _BlinkEffStateCtrl; // 0x48
 
 		::System::Void _ctor()
 		{

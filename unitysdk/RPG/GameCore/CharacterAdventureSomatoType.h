@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterAdventureSomatoType_TypeDefinitionIndex = 16380;
+	inline static constexpr unsigned int CharacterAdventureSomatoType_TypeDefinitionIndex = 16555;
 
 	enum class CharacterAdventureSomatoType : ::System::Int32
 	{

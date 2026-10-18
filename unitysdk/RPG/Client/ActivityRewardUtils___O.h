@@ -7,26 +7,26 @@ namespace RPG::Client { class ActivityRewardUtils_QuestCheckerFunc; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityRewardUtils___O_TypeDefinitionIndex = 61838;
+	inline static constexpr unsigned int ActivityRewardUtils___O_TypeDefinitionIndex = 61748;
 
 	class ActivityRewardUtils___O : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::ActivityRewardUtils_QuestCheckerFunc** StaticGet__3____IsQuestRewardTaken()
-		{
-			return (::RPG::Client::ActivityRewardUtils_QuestCheckerFunc**)Il2CppClass::FromTypeDefinitionIndex(ActivityRewardUtils___O_TypeDefinitionIndex)->GetStaticField(0x62BC0);
-		}
 		static ::RPG::Client::ActivityRewardUtils_QuestCheckerFunc** StaticGet__1____IsQuestShowRedDot()
 		{
-			return (::RPG::Client::ActivityRewardUtils_QuestCheckerFunc**)Il2CppClass::FromTypeDefinitionIndex(ActivityRewardUtils___O_TypeDefinitionIndex)->GetStaticField(0x62BC8);
+			return (::RPG::Client::ActivityRewardUtils_QuestCheckerFunc**)Il2CppClass::FromTypeDefinitionIndex(ActivityRewardUtils___O_TypeDefinitionIndex)->GetStaticField(0x323E0);
+		}
+		static ::RPG::Client::ActivityRewardUtils_QuestCheckerFunc** StaticGet__3____IsQuestRewardTaken()
+		{
+			return (::RPG::Client::ActivityRewardUtils_QuestCheckerFunc**)Il2CppClass::FromTypeDefinitionIndex(ActivityRewardUtils___O_TypeDefinitionIndex)->GetStaticField(0x323E8);
 		}
 		static ::RPG::Client::ActivityRewardUtils_MultiIDCheckerFunc** StaticGet__0____CheckMultiIDOr()
 		{
-			return (::RPG::Client::ActivityRewardUtils_MultiIDCheckerFunc**)Il2CppClass::FromTypeDefinitionIndex(ActivityRewardUtils___O_TypeDefinitionIndex)->GetStaticField(0x62BD0);
+			return (::RPG::Client::ActivityRewardUtils_MultiIDCheckerFunc**)Il2CppClass::FromTypeDefinitionIndex(ActivityRewardUtils___O_TypeDefinitionIndex)->GetStaticField(0x323F0);
 		}
 		static ::RPG::Client::ActivityRewardUtils_MultiIDCheckerFunc** StaticGet__2____CheckMultiIDAnd()
 		{
-			return (::RPG::Client::ActivityRewardUtils_MultiIDCheckerFunc**)Il2CppClass::FromTypeDefinitionIndex(ActivityRewardUtils___O_TypeDefinitionIndex)->GetStaticField(0x62BD8);
+			return (::RPG::Client::ActivityRewardUtils_MultiIDCheckerFunc**)Il2CppClass::FromTypeDefinitionIndex(ActivityRewardUtils___O_TypeDefinitionIndex)->GetStaticField(0x323F8);
 		}
 	};
 }

@@ -11,7 +11,7 @@ namespace System
 	public:
 		static ::System::Int32* StaticGet_hash_code_of_ptr_seed()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ValueType_Internal_TypeDefinitionIndex)->GetStaticField(0x8B00);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ValueType_Internal_TypeDefinitionIndex)->GetStaticField(0x9380);
 		}
 	};
 }

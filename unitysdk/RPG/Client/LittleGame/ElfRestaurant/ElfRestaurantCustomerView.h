@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/LittleGame/ElfRestaurant/ElfRestaurantNPCView.h"
 
-#define RPG_CLIENT_LITTLEGAME_ELFRESTAURANT_ELFRESTAURANTCUSTOMERVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0x1AC39750)
+#define RPG_CLIENT_LITTLEGAME_ELFRESTAURANT_ELFRESTAURANTCUSTOMERVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0xD422F80)
 
 namespace RPG::Client::LittleGame::ElfRestaurant
 {
-	inline static constexpr unsigned int ElfRestaurantCustomerView_TypeDefinitionIndex = 76806;
+	inline static constexpr unsigned int ElfRestaurantCustomerView_TypeDefinitionIndex = 77277;
 
 	class ElfRestaurantCustomerView : public ::RPG::Client::LittleGame::ElfRestaurant::ElfRestaurantNPCView
 	{

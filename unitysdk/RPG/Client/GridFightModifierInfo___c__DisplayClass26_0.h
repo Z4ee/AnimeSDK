@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class GridFightGameModifier; }
 
-#define RPG_CLIENT_GRIDFIGHTMODIFIERINFO___C__DISPLAYCLASS26_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC2FC10)
-#define RPG_CLIENT_GRIDFIGHTMODIFIERINFO___C__DISPLAYCLASS26_0__GETMODIFIERBYUID_B__0_OFFSET UNITYSDK_OFFSET(0x1BC30DE0)
+#define RPG_CLIENT_GRIDFIGHTMODIFIERINFO___C__DISPLAYCLASS26_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD198AB0)
+#define RPG_CLIENT_GRIDFIGHTMODIFIERINFO___C__DISPLAYCLASS26_0__GETMODIFIERBYUID_B__0_OFFSET UNITYSDK_OFFSET(0xD199C90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightModifierInfo___c__DisplayClass26_0_TypeDefinitionIndex = 65107;
+	inline static constexpr unsigned int GridFightModifierInfo___c__DisplayClass26_0_TypeDefinitionIndex = 65047;
 
 	class GridFightModifierInfo___c__DisplayClass26_0 : public ::System::Object
 	{

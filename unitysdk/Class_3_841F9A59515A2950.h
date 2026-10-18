@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class FiveDimAddGlobalTimeScale; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_841F9A59515A2950_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18809590)
-#define CLASS_3_841F9A59515A2950__CTOR_OFFSET UNITYSDK_OFFSET(0x18809560)
+#define CLASS_3_841F9A59515A2950_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB163110)
+#define CLASS_3_841F9A59515A2950__CTOR_OFFSET UNITYSDK_OFFSET(0xB1630E0)
 
-inline static constexpr unsigned int Class_3_841F9A59515A2950_TypeDefinitionIndex = 53100;
+inline static constexpr unsigned int Class_3_841F9A59515A2950_TypeDefinitionIndex = 52826;
 
 class Class_3_841F9A59515A2950 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::FiveDimAddGlobalTimeScale*>
 {

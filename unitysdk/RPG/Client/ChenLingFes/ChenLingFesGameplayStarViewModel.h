@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Sofa/BaseViewModel.h"
 
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYSTARVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1B73FE60)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYSTARVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xCAA40A0)
 
 namespace RPG::Client::ChenLingFes
 {
-	inline static constexpr unsigned int ChenLingFesGameplayStarViewModel_TypeDefinitionIndex = 80059;
+	inline static constexpr unsigned int ChenLingFesGameplayStarViewModel_TypeDefinitionIndex = 81387;
 
 	class ChenLingFesGameplayStarViewModel : public ::Sofa::BaseViewModel
 	{

@@ -5,9 +5,9 @@
 namespace RPG::GameCore { class GameWorld; }
 namespace RPG::GameCore { class SkillData; }
 
-#define CLASS_1_35A20A2C62F30D8B_METHOD_1_4A7143CA942AD4FA_OFFSET UNITYSDK_OFFSET(0x1927D200)
+#define CLASS_1_35A20A2C62F30D8B_METHOD_1_4A7143CA942AD4FA_OFFSET UNITYSDK_OFFSET(0xBFBD5E0)
 
-inline static constexpr unsigned int Class_1_35A20A2C62F30D8B_TypeDefinitionIndex = 57823;
+inline static constexpr unsigned int Class_1_35A20A2C62F30D8B_TypeDefinitionIndex = 57669;
 
 class Class_1_35A20A2C62F30D8B : public ::System::Object
 {

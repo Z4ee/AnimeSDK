@@ -6,12 +6,12 @@ class Class_1_06E38C65842C3B24;
 namespace RPG::Client { class ChallengeGroupData; }
 namespace RPG::Client::Challenge::Tierce { class ChallengeTierceFriendLineupRecommendationViewModel; }
 
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEFRIENDLINEUPRECOMMENDATIONVIEWMODEL_FACTORY_CREATE_OFFSET UNITYSDK_OFFSET(0x1C86A100)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEFRIENDLINEUPRECOMMENDATIONVIEWMODEL_FACTORY__CTOR_OFFSET UNITYSDK_OFFSET(0x1C86A260)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEFRIENDLINEUPRECOMMENDATIONVIEWMODEL_FACTORY_CREATE_OFFSET UNITYSDK_OFFSET(0xC940FA0)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEFRIENDLINEUPRECOMMENDATIONVIEWMODEL_FACTORY__CTOR_OFFSET UNITYSDK_OFFSET(0xC941100)
 
 namespace RPG::Client::Challenge::Tierce
 {
-	inline static constexpr unsigned int ChallengeTierceFriendLineupRecommendationViewModel_Factory_TypeDefinitionIndex = 80273;
+	inline static constexpr unsigned int ChallengeTierceFriendLineupRecommendationViewModel_Factory_TypeDefinitionIndex = 81601;
 
 	class ChallengeTierceFriendLineupRecommendationViewModel_Factory : public ::System::Object
 	{

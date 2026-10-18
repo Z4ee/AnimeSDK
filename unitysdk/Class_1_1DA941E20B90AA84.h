@@ -6,16 +6,16 @@
 namespace RPG::GameCore { class MultithreadConfig; }
 namespace RPG::GameCore { class ThreadTaskConfig; }
 
-#define CLASS_1_1DA941E20B90AA84_METHOD_1_680F1D3D1CC13596_OFFSET UNITYSDK_OFFSET(0x1A02B4F0)
+#define CLASS_1_1DA941E20B90AA84_METHOD_1_680F1D3D1CC13596_OFFSET UNITYSDK_OFFSET(0x156C3110)
 
-inline static constexpr unsigned int Class_1_1DA941E20B90AA84_TypeDefinitionIndex = 53816;
+inline static constexpr unsigned int Class_1_1DA941E20B90AA84_TypeDefinitionIndex = 53600;
 
 class Class_1_1DA941E20B90AA84 : public ::System::Object
 {
 public:
 	static ::RPG::GameCore::MultithreadConfig** StaticGet_KHEDFLAEHLP()
 	{
-		return (::RPG::GameCore::MultithreadConfig**)Il2CppClass::FromTypeDefinitionIndex(Class_1_1DA941E20B90AA84_TypeDefinitionIndex)->GetStaticField(0x65F10);
+		return (::RPG::GameCore::MultithreadConfig**)Il2CppClass::FromTypeDefinitionIndex(Class_1_1DA941E20B90AA84_TypeDefinitionIndex)->GetStaticField(0x55790);
 	}
 
 	static ::RPG::GameCore::ThreadTaskConfig* Method_1_680F1D3D1CC13596(::RPG::GameCore::ThreadTaskType a1)

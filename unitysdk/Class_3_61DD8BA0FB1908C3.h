@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AdvClientChangePropState; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_61DD8BA0FB1908C3_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17115F20)
-#define CLASS_3_61DD8BA0FB1908C3__CTOR_OFFSET UNITYSDK_OFFSET(0x17115EF0)
+#define CLASS_3_61DD8BA0FB1908C3_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBE35C30)
+#define CLASS_3_61DD8BA0FB1908C3__CTOR_OFFSET UNITYSDK_OFFSET(0xBE35C00)
 
-inline static constexpr unsigned int Class_3_61DD8BA0FB1908C3_TypeDefinitionIndex = 52618;
+inline static constexpr unsigned int Class_3_61DD8BA0FB1908C3_TypeDefinitionIndex = 52343;
 
 class Class_3_61DD8BA0FB1908C3 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AdvClientChangePropState*>
 {

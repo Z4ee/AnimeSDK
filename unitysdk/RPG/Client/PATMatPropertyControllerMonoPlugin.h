@@ -9,12 +9,12 @@ class PATRenderer;
 namespace RPG::Client { class PATMatPropertyControllerBehavior; }
 namespace System { class String; }
 
-#define RPG_CLIENT_PATMATPROPERTYCONTROLLERMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x191FF1B0)
-#define RPG_CLIENT_PATMATPROPERTYCONTROLLERMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x191FF200)
+#define RPG_CLIENT_PATMATPROPERTYCONTROLLERMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xDA12C90)
+#define RPG_CLIENT_PATMATPROPERTYCONTROLLERMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xDA12CE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PATMatPropertyControllerMonoPlugin_TypeDefinitionIndex = 70657;
+	inline static constexpr unsigned int PATMatPropertyControllerMonoPlugin_TypeDefinitionIndex = 70693;
 
 	class PATMatPropertyControllerMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::PATMatPropertyControllerBehavior*>
 	{

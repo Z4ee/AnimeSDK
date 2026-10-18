@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIProceduralShapeStrokeAlignment_TypeDefinitionIndex = 72626;
+	inline static constexpr unsigned int UIProceduralShapeStrokeAlignment_TypeDefinitionIndex = 72701;
 
 	enum class UIProceduralShapeStrokeAlignment : ::System::Int32
 	{

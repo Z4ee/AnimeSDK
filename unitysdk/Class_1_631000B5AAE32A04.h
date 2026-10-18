@@ -4,31 +4,31 @@
 
 namespace System { class String; }
 
-#define CLASS_1_631000B5AAE32A04_METHOD_1_019433AA5F044915_OFFSET UNITYSDK_OFFSET(0x1A087800)
-#define CLASS_1_631000B5AAE32A04_METHOD_1_71F0872EB31B61BD_OFFSET UNITYSDK_OFFSET(0x1A087BA0)
-#define CLASS_1_631000B5AAE32A04_METHOD_1_7BE812B945CF0498_OFFSET UNITYSDK_OFFSET(0x1A087A00)
-#define CLASS_1_631000B5AAE32A04__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A087C20)
+#define CLASS_1_631000B5AAE32A04_METHOD_1_019433AA5F044915_OFFSET UNITYSDK_OFFSET(0xC1BC0F0)
+#define CLASS_1_631000B5AAE32A04_METHOD_1_71F0872EB31B61BD_OFFSET UNITYSDK_OFFSET(0xC1BC490)
+#define CLASS_1_631000B5AAE32A04_METHOD_1_7BE812B945CF0498_OFFSET UNITYSDK_OFFSET(0xC1BC2F0)
+#define CLASS_1_631000B5AAE32A04__CCTOR_OFFSET UNITYSDK_OFFSET(0xC1BC510)
 
-inline static constexpr unsigned int Class_1_631000B5AAE32A04_TypeDefinitionIndex = 61450;
+inline static constexpr unsigned int Class_1_631000B5AAE32A04_TypeDefinitionIndex = 61356;
 
 class Class_1_631000B5AAE32A04 : public ::System::Object
 {
 public:
 	static ::System::String** StaticGet_ACLDOADLKGE()
 	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_631000B5AAE32A04_TypeDefinitionIndex)->GetStaticField(0x604C0);
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_631000B5AAE32A04_TypeDefinitionIndex)->GetStaticField(0xDD40);
 	}
 	static ::System::String** StaticGet_HKODCLIDLAI()
 	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_631000B5AAE32A04_TypeDefinitionIndex)->GetStaticField(0x604C8);
-	}
-	static ::System::String** StaticGet_EDMGDJLAOLP()
-	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_631000B5AAE32A04_TypeDefinitionIndex)->GetStaticField(0x604D0);
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_631000B5AAE32A04_TypeDefinitionIndex)->GetStaticField(0xDD48);
 	}
 	static ::System::String** StaticGet_NJBINOCOCED()
 	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_631000B5AAE32A04_TypeDefinitionIndex)->GetStaticField(0x604D8);
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_631000B5AAE32A04_TypeDefinitionIndex)->GetStaticField(0xDD50);
+	}
+	static ::System::String** StaticGet_EDMGDJLAOLP()
+	{
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_631000B5AAE32A04_TypeDefinitionIndex)->GetStaticField(0xDD58);
 	}
 
 	static ::System::Void _cctor()

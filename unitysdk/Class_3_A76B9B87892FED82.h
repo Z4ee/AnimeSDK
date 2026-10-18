@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ReleaseCharacterHUDVisibleControl; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_A76B9B87892FED82_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1AA52630)
-#define CLASS_3_A76B9B87892FED82__CTOR_OFFSET UNITYSDK_OFFSET(0x1AA52600)
+#define CLASS_3_A76B9B87892FED82_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15F0C630)
+#define CLASS_3_A76B9B87892FED82__CTOR_OFFSET UNITYSDK_OFFSET(0x15F0C600)
 
-inline static constexpr unsigned int Class_3_A76B9B87892FED82_TypeDefinitionIndex = 55497;
+inline static constexpr unsigned int Class_3_A76B9B87892FED82_TypeDefinitionIndex = 55296;
 
 class Class_3_A76B9B87892FED82 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ReleaseCharacterHUDVisibleControl*>
 {

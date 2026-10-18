@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LockHoyoGroupRule_TypeDefinitionIndex = 62159;
+	inline static constexpr unsigned int LockHoyoGroupRule_TypeDefinitionIndex = 62075;
 
 	enum class LockHoyoGroupRule : ::System::Int32
 	{

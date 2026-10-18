@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_WEBVIEWREPORTBOXCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x15CD36E0)
+#define MIHOYO_SDK_WEBVIEWREPORTBOXCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BCB6B30)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int WebViewReportBoxConfig_TypeDefinitionIndex = 7877;
+	inline static constexpr unsigned int WebViewReportBoxConfig_TypeDefinitionIndex = 7921;
 
 	class WebViewReportBoxConfig : public ::System::Object
 	{

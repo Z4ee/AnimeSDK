@@ -7,21 +7,21 @@ namespace Google::Protobuf { class IMessage; }
 namespace Google::Protobuf::Reflection { class FieldDescriptor; }
 namespace Google::Protobuf::Reflection { class ReflectionUtil_IExtensionReflectionHelper; }
 
-#define GOOGLE_PROTOBUF_REFLECTION_EXTENSIONACCESSOR_GETVALUE_OFFSET UNITYSDK_OFFSET(0x1AA9B780)
-#define GOOGLE_PROTOBUF_REFLECTION_EXTENSIONACCESSOR_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1AA9B640)
-#define GOOGLE_PROTOBUF_REFLECTION_EXTENSIONACCESSOR_HASVALUE_OFFSET UNITYSDK_OFFSET(0x1AA9B650)
-#define GOOGLE_PROTOBUF_REFLECTION_EXTENSIONACCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1AA9B5D0)
+#define GOOGLE_PROTOBUF_REFLECTION_EXTENSIONACCESSOR_GETVALUE_OFFSET UNITYSDK_OFFSET(0x1B854C80)
+#define GOOGLE_PROTOBUF_REFLECTION_EXTENSIONACCESSOR_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1B854B40)
+#define GOOGLE_PROTOBUF_REFLECTION_EXTENSIONACCESSOR_HASVALUE_OFFSET UNITYSDK_OFFSET(0x1B854B50)
+#define GOOGLE_PROTOBUF_REFLECTION_EXTENSIONACCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1B854AD0)
 
 namespace Google::Protobuf::Reflection
 {
-	inline static constexpr unsigned int ExtensionAccessor_TypeDefinitionIndex = 5528;
+	inline static constexpr unsigned int ExtensionAccessor_TypeDefinitionIndex = 5535;
 
 	class ExtensionAccessor : public ::System::Object
 	{
 	public:
-		::Google::Protobuf::Reflection::ReflectionUtil_IExtensionReflectionHelper* helper; // 0x10
+		::Google::Protobuf::Extension* extension; // 0x10
 		::Google::Protobuf::Reflection::FieldDescriptor* _Descriptor_k__BackingField; // 0x18
-		::Google::Protobuf::Extension* extension; // 0x20
+		::Google::Protobuf::Reflection::ReflectionUtil_IExtensionReflectionHelper* helper; // 0x20
 
 		::System::Void _ctor(::Google::Protobuf::Reflection::FieldDescriptor* a1)
 		{

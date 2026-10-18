@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class MuteTargetTimeSlow; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_EAA7C9811CC4546E_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x130A8040)
-#define CLASS_3_EAA7C9811CC4546E__CTOR_OFFSET UNITYSDK_OFFSET(0x130A8010)
+#define CLASS_3_EAA7C9811CC4546E_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x157247F0)
+#define CLASS_3_EAA7C9811CC4546E__CTOR_OFFSET UNITYSDK_OFFSET(0x157247C0)
 
-inline static constexpr unsigned int Class_3_EAA7C9811CC4546E_TypeDefinitionIndex = 55431;
+inline static constexpr unsigned int Class_3_EAA7C9811CC4546E_TypeDefinitionIndex = 55230;
 
 class Class_3_EAA7C9811CC4546E : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::MuteTargetTimeSlow*>
 {

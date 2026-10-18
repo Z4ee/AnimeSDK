@@ -8,7 +8,7 @@ namespace UnityEngine::Rendering { template <typename T> class ObjectPool_1; }
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int ListPool_1_TypeDefinitionIndex = 34824;
+	inline static constexpr unsigned int ListPool_1_TypeDefinitionIndex = 35493;
 
 	template <typename T>
 	class ListPool_1 : public ::System::Object

@@ -7,22 +7,22 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_B51RACINGSTATROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B2E4420)
-#define RPG_GAMECORE_B51RACINGSTATROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B2E4720)
+#define RPG_GAMECORE_B51RACINGSTATROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D406E60)
+#define RPG_GAMECORE_B51RACINGSTATROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D407160)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int B51RacingStatRow_TypeDefinitionIndex = 10950;
+	inline static constexpr unsigned int B51RacingStatRow_TypeDefinitionIndex = 10966;
 
 	class B51RacingStatRow : public ::System::Object
 	{
 	public:
-		::System::String* IconPath; // 0x10
-		::Il2CppArray<::System::UInt32>* TierRequireValueList; // 0x18
-		::RPG::Client::TextID Name; // 0x20
-		::System::Single ExtraRatio; // 0x30
-		::RPG::GameCore::B51RacingStatType ID; // 0x34
-		::RPG::Client::TextID Desc; // 0x38
+		::Il2CppArray<::System::UInt32>* TierRequireValueList; // 0x10
+		::System::String* IconPath; // 0x18
+		::RPG::Client::TextID Desc; // 0x20
+		::RPG::Client::TextID Name; // 0x30
+		::RPG::GameCore::B51RacingStatType ID; // 0x40
+		::System::Single ExtraRatio; // 0x44
 
 		::System::Void _ctor()
 		{

@@ -11,7 +11,7 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int Aggregate_TypeDefinitionIndex = 44065;
+	inline static constexpr unsigned int Aggregate_TypeDefinitionIndex = 45204;
 
 	class Aggregate : public ::System::Object
 	{

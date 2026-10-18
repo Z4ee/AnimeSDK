@@ -8,12 +8,12 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Animator; }
 
-#define RPG_CLIENT_MATERIALANIMATIONBINDINGSYNCMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x1B210350)
-#define RPG_CLIENT_MATERIALANIMATIONBINDINGSYNCMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x1B2103A0)
+#define RPG_CLIENT_MATERIALANIMATIONBINDINGSYNCMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xD5CA100)
+#define RPG_CLIENT_MATERIALANIMATIONBINDINGSYNCMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xD5CA150)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MaterialAnimationBindingSyncMonoPlugin_TypeDefinitionIndex = 70258;
+	inline static constexpr unsigned int MaterialAnimationBindingSyncMonoPlugin_TypeDefinitionIndex = 70294;
 
 	class MaterialAnimationBindingSyncMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::MaterialAnimationBindingSyncBehavior*>
 	{

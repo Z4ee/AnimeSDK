@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_FATERIN_CASEBOARD_CASEBOARDSETUPSCALEPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x1CBF8900)
+#define RPG_CLIENT_FATERIN_CASEBOARD_CASEBOARDSETUPSCALEPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0xCEF6F00)
 
 namespace RPG::Client::FateRin::CaseBoard
 {
-	inline static constexpr unsigned int CaseBoardSetupScaleParams_TypeDefinitionIndex = 79478;
+	inline static constexpr unsigned int CaseBoardSetupScaleParams_TypeDefinitionIndex = 80802;
 
 	class CaseBoardSetupScaleParams : public ::System::Object
 	{

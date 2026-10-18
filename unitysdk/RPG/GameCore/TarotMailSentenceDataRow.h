@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_TAROTMAILSENTENCEDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E1C9450)
-#define RPG_GAMECORE_TAROTMAILSENTENCEDATAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1E1C95D0)
+#define RPG_GAMECORE_TAROTMAILSENTENCEDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DB4A850)
+#define RPG_GAMECORE_TAROTMAILSENTENCEDATAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB4A9D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TarotMailSentenceDataRow_TypeDefinitionIndex = 15077;
+	inline static constexpr unsigned int TarotMailSentenceDataRow_TypeDefinitionIndex = 15248;
 
 	class TarotMailSentenceDataRow : public ::System::Object
 	{

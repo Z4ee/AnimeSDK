@@ -6,10 +6,10 @@
 namespace RPG::GameCore { class DynamicValue; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class SortedDictionary_2; }
 
-#define CLASS_1_CDD2EAFBD3BB1707___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16592170)
-#define CLASS_1_CDD2EAFBD3BB1707___C__DISPLAYCLASS14_0__GETACTIONSTATBONUSLEVELMAP_B__0_OFFSET UNITYSDK_OFFSET(0x16593660)
+#define CLASS_1_CDD2EAFBD3BB1707___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCF672E0)
+#define CLASS_1_CDD2EAFBD3BB1707___C__DISPLAYCLASS14_0__GETACTIONSTATBONUSLEVELMAP_B__0_OFFSET UNITYSDK_OFFSET(0xCF687D0)
 
-inline static constexpr unsigned int Class_1_CDD2EAFBD3BB1707___c__DisplayClass14_0_TypeDefinitionIndex = 80410;
+inline static constexpr unsigned int Class_1_CDD2EAFBD3BB1707___c__DisplayClass14_0_TypeDefinitionIndex = 81738;
 
 class Class_1_CDD2EAFBD3BB1707___c__DisplayClass14_0 : public ::System::Object
 {

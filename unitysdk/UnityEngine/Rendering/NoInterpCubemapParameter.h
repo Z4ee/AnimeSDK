@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class Cubemap; }
 
-#define UNITYENGINE_RENDERING_NOINTERPCUBEMAPPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD1FDE0)
+#define UNITYENGINE_RENDERING_NOINTERPCUBEMAPPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F297300)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int NoInterpCubemapParameter_TypeDefinitionIndex = 34987;
+	inline static constexpr unsigned int NoInterpCubemapParameter_TypeDefinitionIndex = 35656;
 
 	class NoInterpCubemapParameter : public ::UnityEngine::Rendering::VolumeParameter_1<::UnityEngine::Cubemap*>
 	{

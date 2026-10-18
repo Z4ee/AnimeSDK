@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_EFFECTDURATIONCONFIG_METHOD_2_B6C8BA000EBBDF8D_OFFSET UNITYSDK_OFFSET(0x1DB232B0)
-#define RPG_GAMECORE_EFFECTDURATIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB233E0)
+#define RPG_GAMECORE_EFFECTDURATIONCONFIG_METHOD_2_D976D797CAFD5E72_OFFSET UNITYSDK_OFFSET(0x1D602320)
+#define RPG_GAMECORE_EFFECTDURATIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D602430)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EffectDurationConfig_TypeDefinitionIndex = 16174;
+	inline static constexpr unsigned int EffectDurationConfig_TypeDefinitionIndex = 16347;
 
 	class EffectDurationConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EFFECTDURATIONCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_B6C8BA000EBBDF8D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::EffectDurationConfig*& a2)
+		static ::System::Void Method_2_D976D797CAFD5E72(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::EffectDurationConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::EffectDurationConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EFFECTDURATIONCONFIG_METHOD_2_B6C8BA000EBBDF8D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::EffectDurationConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EFFECTDURATIONCONFIG_METHOD_2_D976D797CAFD5E72_OFFSET))(a1, a2);
 		}
 	};
 }

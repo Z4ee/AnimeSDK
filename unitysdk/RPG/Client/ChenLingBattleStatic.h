@@ -12,13 +12,13 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_CHENLINGBATTLESTATIC_CLOSESOLDIERCOLLIDER_OFFSET UNITYSDK_OFFSET(0x1CC460A0)
-#define RPG_CLIENT_CHENLINGBATTLESTATIC_ENTERGAMEFLOW_OFFSET UNITYSDK_OFFSET(0x1CC46000)
-#define RPG_CLIENT_CHENLINGBATTLESTATIC_STARTCHENLINGGAME_OFFSET UNITYSDK_OFFSET(0x1CC45ED0)
+#define RPG_CLIENT_CHENLINGBATTLESTATIC_CLOSESOLDIERCOLLIDER_OFFSET UNITYSDK_OFFSET(0xCA6D3C0)
+#define RPG_CLIENT_CHENLINGBATTLESTATIC_ENTERGAMEFLOW_OFFSET UNITYSDK_OFFSET(0xCA6D320)
+#define RPG_CLIENT_CHENLINGBATTLESTATIC_STARTCHENLINGGAME_OFFSET UNITYSDK_OFFSET(0xCA6D1F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChenLingBattleStatic_TypeDefinitionIndex = 61516;
+	inline static constexpr unsigned int ChenLingBattleStatic_TypeDefinitionIndex = 61422;
 
 	class ChenLingBattleStatic : public ::System::Object
 	{

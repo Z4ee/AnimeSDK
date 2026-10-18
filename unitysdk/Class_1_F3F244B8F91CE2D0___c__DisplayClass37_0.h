@@ -6,17 +6,17 @@ class Class_1_F3F244B8F91CE2D0;
 namespace RPG::Client::DiceCombat { class DiceCombatPVPStartMatchParam; }
 namespace System { class Exception; }
 
-#define CLASS_1_F3F244B8F91CE2D0___C__DISPLAYCLASS37_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF37A70)
-#define CLASS_1_F3F244B8F91CE2D0___C__DISPLAYCLASS37_0__STARTPVPMATCH_B__0_OFFSET UNITYSDK_OFFSET(0x1AF396F0)
-#define CLASS_1_F3F244B8F91CE2D0___C__DISPLAYCLASS37_0__STARTPVPMATCH_B__1_OFFSET UNITYSDK_OFFSET(0x1AF39810)
+#define CLASS_1_F3F244B8F91CE2D0___C__DISPLAYCLASS37_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB5FE940)
+#define CLASS_1_F3F244B8F91CE2D0___C__DISPLAYCLASS37_0__STARTPVPMATCH_B__0_OFFSET UNITYSDK_OFFSET(0xB600620)
+#define CLASS_1_F3F244B8F91CE2D0___C__DISPLAYCLASS37_0__STARTPVPMATCH_B__1_OFFSET UNITYSDK_OFFSET(0xB600740)
 
-inline static constexpr unsigned int Class_1_F3F244B8F91CE2D0___c__DisplayClass37_0_TypeDefinitionIndex = 75636;
+inline static constexpr unsigned int Class_1_F3F244B8F91CE2D0___c__DisplayClass37_0_TypeDefinitionIndex = 76113;
 
 class Class_1_F3F244B8F91CE2D0___c__DisplayClass37_0 : public ::System::Object
 {
 public:
-	::RPG::Client::DiceCombat::DiceCombatPVPStartMatchParam* param; // 0x10
-	::Class_1_F3F244B8F91CE2D0* __4__this; // 0x18
+	::Class_1_F3F244B8F91CE2D0* __4__this; // 0x10
+	::RPG::Client::DiceCombat::DiceCombatPVPStartMatchParam* param; // 0x18
 
 	::System::Void _ctor()
 	{

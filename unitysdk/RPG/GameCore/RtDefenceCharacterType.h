@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtDefenceCharacterType_TypeDefinitionIndex = 17847;
+	inline static constexpr unsigned int RtDefenceCharacterType_TypeDefinitionIndex = 18059;
 
 	enum class RtDefenceCharacterType : ::System::Int32
 	{

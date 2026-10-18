@@ -3,10 +3,10 @@
 #include "unitysdk/RPG/GameCore/B51RacingDisplayCarType.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_98AEF78BF463A759_GET_DIAPLAYCARTYPE_OFFSET UNITYSDK_OFFSET(0x184E6F10)
-#define CLASS_1_98AEF78BF463A759__CTOR_OFFSET UNITYSDK_OFFSET(0x184E6F00)
+#define CLASS_1_98AEF78BF463A759_GET_DIAPLAYCARTYPE_OFFSET UNITYSDK_OFFSET(0xC2E8EC0)
+#define CLASS_1_98AEF78BF463A759__CTOR_OFFSET UNITYSDK_OFFSET(0xC2E8EB0)
 
-inline static constexpr unsigned int Class_1_98AEF78BF463A759_TypeDefinitionIndex = 80371;
+inline static constexpr unsigned int Class_1_98AEF78BF463A759_TypeDefinitionIndex = 81699;
 
 class Class_1_98AEF78BF463A759 : public ::System::Object
 {

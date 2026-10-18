@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SwitchAlertValueModulePriority_TypeDefinitionIndex = 57295;
+	inline static constexpr unsigned int SwitchAlertValueModulePriority_TypeDefinitionIndex = 57131;
 
 	enum class SwitchAlertValueModulePriority : ::System::Int32
 	{

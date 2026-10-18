@@ -5,11 +5,11 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define RPG_EDITOR_SKILLPOINTASSETCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16848BE0)
+#define RPG_EDITOR_SKILLPOINTASSETCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xE4A27C0)
 
 namespace RPG::Editor
 {
-	inline static constexpr unsigned int SkillPointAssetConfig_TypeDefinitionIndex = 52323;
+	inline static constexpr unsigned int SkillPointAssetConfig_TypeDefinitionIndex = 52036;
 
 	class SkillPointAssetConfig : public ::System::Object
 	{

@@ -2,96 +2,96 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_426391BD841CEF9C;
-class Class_1_84DA91D3CFCB2E68;
-class Class_1_A8AC1AB191A5FBF8;
-class Class_1_B9D6E7E76075C6E2_2;
-class Class_1_FF80A1ACD786CECB_9;
+class Class_1_C55AEAF8486FB7B9;
 
-#define CLASS_1_B26E06FC40F846CD_GET_BATTLEDECKID_OFFSET UNITYSDK_OFFSET(0x16041AC0)
-#define CLASS_1_B26E06FC40F846CD_GET_CARDGAMESTATE_OFFSET UNITYSDK_OFFSET(0x16041AF0)
-#define CLASS_1_B26E06FC40F846CD_GET_DAMAGESTATISTICSSTATE_OFFSET UNITYSDK_OFFSET(0x16041B10)
-#define CLASS_1_B26E06FC40F846CD_GET_ENEMYSTATE_OFFSET UNITYSDK_OFFSET(0x16041B00)
-#define CLASS_1_B26E06FC40F846CD_GET_FRIENDSTATE_OFFSET UNITYSDK_OFFSET(0x16041AE0)
-#define CLASS_1_B26E06FC40F846CD_GET_ISPLAYERACTION_OFFSET UNITYSDK_OFFSET(0x16041A80)
-#define CLASS_1_B26E06FC40F846CD_GET_WAITINGULTRAORDERAVATARID_OFFSET UNITYSDK_OFFSET(0x16041AA0)
-#define CLASS_1_B26E06FC40F846CD_GET_WAVEINFOSTATE_OFFSET UNITYSDK_OFFSET(0x16041B20)
-#define CLASS_1_B26E06FC40F846CD_SET_BATTLEDECKID_OFFSET UNITYSDK_OFFSET(0x16041AD0)
-#define CLASS_1_B26E06FC40F846CD_SET_ISPLAYERACTION_OFFSET UNITYSDK_OFFSET(0x16041A90)
-#define CLASS_1_B26E06FC40F846CD_SET_WAITINGULTRAORDERAVATARID_OFFSET UNITYSDK_OFFSET(0x16041AB0)
-#define CLASS_1_B26E06FC40F846CD__CTOR_OFFSET UNITYSDK_OFFSET(0x16041B30)
+#define CLASS_1_B26E06FC40F846CD_GET_CURREVENUE_OFFSET UNITYSDK_OFFSET(0x1654E8E0)
+#define CLASS_1_B26E06FC40F846CD_GET_GAINREVENUE_OFFSET UNITYSDK_OFFSET(0x1654E920)
+#define CLASS_1_B26E06FC40F846CD_GET_ISLEVELMAX_OFFSET UNITYSDK_OFFSET(0x1654E940)
+#define CLASS_1_B26E06FC40F846CD_GET_LASTREVENUE_OFFSET UNITYSDK_OFFSET(0x1654E8C0)
+#define CLASS_1_B26E06FC40F846CD_GET_REVENUECURRENCY_OFFSET UNITYSDK_OFFSET(0x1654E8A0)
+#define CLASS_1_B26E06FC40F846CD_GET_TARGETREVENUE_OFFSET UNITYSDK_OFFSET(0x1654E900)
+#define CLASS_1_B26E06FC40F846CD_SET_CURREVENUE_OFFSET UNITYSDK_OFFSET(0x1654E8F0)
+#define CLASS_1_B26E06FC40F846CD_SET_GAINREVENUE_OFFSET UNITYSDK_OFFSET(0x1654E930)
+#define CLASS_1_B26E06FC40F846CD_SET_ISLEVELMAX_OFFSET UNITYSDK_OFFSET(0x1654E950)
+#define CLASS_1_B26E06FC40F846CD_SET_LASTREVENUE_OFFSET UNITYSDK_OFFSET(0x1654E8D0)
+#define CLASS_1_B26E06FC40F846CD_SET_REVENUECURRENCY_OFFSET UNITYSDK_OFFSET(0x1654E8B0)
+#define CLASS_1_B26E06FC40F846CD_SET_TARGETREVENUE_OFFSET UNITYSDK_OFFSET(0x1654E910)
+#define CLASS_1_B26E06FC40F846CD__CTOR_OFFSET UNITYSDK_OFFSET(0x1654E960)
 
-inline static constexpr unsigned int Class_1_B26E06FC40F846CD_TypeDefinitionIndex = 79497;
+inline static constexpr unsigned int Class_1_B26E06FC40F846CD_TypeDefinitionIndex = 79747;
 
 class Class_1_B26E06FC40F846CD : public ::System::Object
 {
 public:
-	::Class_1_FF80A1ACD786CECB_9* _WaveInfoState_k__BackingField; // 0x10
-	::Class_1_A8AC1AB191A5FBF8* _DamageStatisticsState_k__BackingField; // 0x18
-	::Class_1_426391BD841CEF9C* _CardGameState_k__BackingField; // 0x20
-	::Class_1_84DA91D3CFCB2E68* _FriendState_k__BackingField; // 0x28
-	::Class_1_B9D6E7E76075C6E2_2* _EnemyState_k__BackingField; // 0x30
-	::System::UInt32 _BattleDeckID_k__BackingField; // 0x38
-	::System::UInt32 _WaitingUltraOrderAvatarID_k__BackingField; // 0x3C
-	::System::Boolean _IsPlayerAction_k__BackingField; // 0x40
+	::Class_1_C55AEAF8486FB7B9* _RevenueCurrency_k__BackingField; // 0x10
+	::System::UInt32 _GainRevenue_k__BackingField; // 0x18
+	::System::Boolean _IsLevelMax_k__BackingField; // 0x1C
+	::System::UInt32 _CurRevenue_k__BackingField; // 0x20
+	::System::UInt32 _TargetRevenue_k__BackingField; // 0x24
+	::System::UInt32 _LastRevenue_k__BackingField; // 0x28
 
 	::System::Void _ctor()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_B26E06FC40F846CD__CTOR_OFFSET))(this);
 	}
 
-	::System::Boolean get_IsPlayerAction()
+	::Class_1_C55AEAF8486FB7B9* get_RevenueCurrency()
 	{
-		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_B26E06FC40F846CD_GET_ISPLAYERACTION_OFFSET))(this);
+		return ((::Class_1_C55AEAF8486FB7B9*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_B26E06FC40F846CD_GET_REVENUECURRENCY_OFFSET))(this);
 	}
 
-	::System::Void set_IsPlayerAction(::System::Boolean a1)
+	::System::Void set_RevenueCurrency(::Class_1_C55AEAF8486FB7B9* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_B26E06FC40F846CD_SET_ISPLAYERACTION_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::Class_1_C55AEAF8486FB7B9*))((::PBYTE)hIl2Cpp + CLASS_1_B26E06FC40F846CD_SET_REVENUECURRENCY_OFFSET))(this, a1);
 	}
 
-	::System::UInt32 get_WaitingUltraOrderAvatarID()
+	::System::UInt32 get_LastRevenue()
 	{
-		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_B26E06FC40F846CD_GET_WAITINGULTRAORDERAVATARID_OFFSET))(this);
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_B26E06FC40F846CD_GET_LASTREVENUE_OFFSET))(this);
 	}
 
-	::System::Void set_WaitingUltraOrderAvatarID(::System::UInt32 a1)
+	::System::Void set_LastRevenue(::System::UInt32 a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_B26E06FC40F846CD_SET_WAITINGULTRAORDERAVATARID_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_B26E06FC40F846CD_SET_LASTREVENUE_OFFSET))(this, a1);
 	}
 
-	::System::UInt32 get_BattleDeckID()
+	::System::UInt32 get_CurRevenue()
 	{
-		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_B26E06FC40F846CD_GET_BATTLEDECKID_OFFSET))(this);
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_B26E06FC40F846CD_GET_CURREVENUE_OFFSET))(this);
 	}
 
-	::System::Void set_BattleDeckID(::System::UInt32 a1)
+	::System::Void set_CurRevenue(::System::UInt32 a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_B26E06FC40F846CD_SET_BATTLEDECKID_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_B26E06FC40F846CD_SET_CURREVENUE_OFFSET))(this, a1);
 	}
 
-	::Class_1_84DA91D3CFCB2E68* get_FriendState()
+	::System::UInt32 get_TargetRevenue()
 	{
-		return ((::Class_1_84DA91D3CFCB2E68*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_B26E06FC40F846CD_GET_FRIENDSTATE_OFFSET))(this);
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_B26E06FC40F846CD_GET_TARGETREVENUE_OFFSET))(this);
 	}
 
-	::Class_1_426391BD841CEF9C* get_CardGameState()
+	::System::Void set_TargetRevenue(::System::UInt32 a1)
 	{
-		return ((::Class_1_426391BD841CEF9C*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_B26E06FC40F846CD_GET_CARDGAMESTATE_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_B26E06FC40F846CD_SET_TARGETREVENUE_OFFSET))(this, a1);
 	}
 
-	::Class_1_B9D6E7E76075C6E2_2* get_EnemyState()
+	::System::UInt32 get_GainRevenue()
 	{
-		return ((::Class_1_B9D6E7E76075C6E2_2*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_B26E06FC40F846CD_GET_ENEMYSTATE_OFFSET))(this);
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_B26E06FC40F846CD_GET_GAINREVENUE_OFFSET))(this);
 	}
 
-	::Class_1_A8AC1AB191A5FBF8* get_DamageStatisticsState()
+	::System::Void set_GainRevenue(::System::UInt32 a1)
 	{
-		return ((::Class_1_A8AC1AB191A5FBF8*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_B26E06FC40F846CD_GET_DAMAGESTATISTICSSTATE_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_B26E06FC40F846CD_SET_GAINREVENUE_OFFSET))(this, a1);
 	}
 
-	::Class_1_FF80A1ACD786CECB_9* get_WaveInfoState()
+	::System::Boolean get_IsLevelMax()
 	{
-		return ((::Class_1_FF80A1ACD786CECB_9*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_B26E06FC40F846CD_GET_WAVEINFOSTATE_OFFSET))(this);
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_B26E06FC40F846CD_GET_ISLEVELMAX_OFFSET))(this);
+	}
+
+	::System::Void set_IsLevelMax(::System::Boolean a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_B26E06FC40F846CD_SET_ISLEVELMAX_OFFSET))(this, a1);
 	}
 };

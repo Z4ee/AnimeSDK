@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ACTIVITYRAIDCOLLECTIONGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CA174E0)
-#define RPG_GAMECORE_ACTIVITYRAIDCOLLECTIONGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CA181B0)
+#define RPG_GAMECORE_ACTIVITYRAIDCOLLECTIONGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D348C10)
+#define RPG_GAMECORE_ACTIVITYRAIDCOLLECTIONGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D349910)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityRaidCollectionGroupRow_TypeDefinitionIndex = 12241;
+	inline static constexpr unsigned int ActivityRaidCollectionGroupRow_TypeDefinitionIndex = 12322;
 
 	class ActivityRaidCollectionGroupRow : public ::System::Object
 	{
@@ -19,8 +19,8 @@ namespace RPG::GameCore
 		::System::String* GroupEntrancePrefabPath; // 0x10
 		::Il2CppArray<::System::UInt32>* RaidCollectionList; // 0x18
 		::System::UInt32 UnlockGroupID; // 0x20
-		::System::UInt32 RaidCollectionGroupID; // 0x24
-		::System::Boolean RaidCollectionGroupNextEnable; // 0x28
+		::System::Boolean RaidCollectionGroupNextEnable; // 0x24
+		::System::UInt32 RaidCollectionGroupID; // 0x28
 		::RPG::Client::TextID RaidCollectionGroupName; // 0x30
 
 		::System::Void _ctor()

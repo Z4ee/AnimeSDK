@@ -1,33 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/RPGTools/Timeline/CharacterTrack.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
-#include "unitysdk/UnityEngine/Timeline/TrackAsset.h"
 
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_BPCHARACTERTIMESLOWTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1D129E90)
-#define RPGTOOLS_TIMELINE_BPCHARACTERTIMESLOWTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x1D129FD0)
-#define RPGTOOLS_TIMELINE_BPCHARACTERTIMESLOWTRACK_GET_USEUNIQUECHARACTERNAME_OFFSET UNITYSDK_OFFSET(0x1D129E10)
-#define RPGTOOLS_TIMELINE_BPCHARACTERTIMESLOWTRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0x1D129E20)
-#define RPGTOOLS_TIMELINE_BPCHARACTERTIMESLOWTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1D12A150)
+#define RPGTOOLS_TIMELINE_BPCHARACTERTIMESLOWTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8AA540)
+#define RPGTOOLS_TIMELINE_BPCHARACTERTIMESLOWTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xE8AA680)
+#define RPGTOOLS_TIMELINE_BPCHARACTERTIMESLOWTRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0xE8AA4D0)
+#define RPGTOOLS_TIMELINE_BPCHARACTERTIMESLOWTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xE8AA800)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int BPCharacterTimeSlowTrack_TypeDefinitionIndex = 48265;
+	inline static constexpr unsigned int BPCharacterTimeSlowTrack_TypeDefinitionIndex = 47806;
 
-	class BPCharacterTimeSlowTrack : public ::UnityEngine::Timeline::TrackAsset
+	class BPCharacterTimeSlowTrack : public ::RPGTools::Timeline::CharacterTrack
 	{
 	public:
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_BPCHARACTERTIMESLOWTRACK__CTOR_OFFSET))(this);
-		}
-
-		::System::Boolean get_UseUniqueCharacterName()
-		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_BPCHARACTERTIMESLOWTRACK_GET_USEUNIQUECHARACTERNAME_OFFSET))(this);
 		}
 
 		::System::Void OnCreateClip(::UnityEngine::Timeline::TimelineClip* a1)

@@ -11,7 +11,7 @@ namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int Publish_1__ConsumeEnumerator_d__8_TypeDefinitionIndex = 44398;
+	inline static constexpr unsigned int Publish_1__ConsumeEnumerator_d__8_TypeDefinitionIndex = 45537;
 
 	template <typename TSource>
 	struct Publish_1__ConsumeEnumerator_d__8

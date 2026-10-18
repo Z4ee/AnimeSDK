@@ -5,11 +5,11 @@
 namespace RPG::Client::LimaoNews { class LimaoNewsMainLimaoControl_LimaoItem; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSMAINLIMAOCONTROL_LIMAOGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1C54A520)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSMAINLIMAOCONTROL_LIMAOGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0xD3B7A90)
 
 namespace RPG::Client::LimaoNews
 {
-	inline static constexpr unsigned int LimaoNewsMainLimaoControl_LimaoGroup_TypeDefinitionIndex = 79042;
+	inline static constexpr unsigned int LimaoNewsMainLimaoControl_LimaoGroup_TypeDefinitionIndex = 80365;
 
 	class LimaoNewsMainLimaoControl_LimaoGroup : public ::System::Object
 	{

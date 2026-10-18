@@ -7,10 +7,10 @@ namespace System::Security::Cryptography { class AsymmetricAlgorithm; }
 namespace System::Security::Cryptography { class RSA; }
 namespace System::Security::Cryptography { class RandomNumberGenerator; }
 
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_RSAPKCS1KEYEXCHANGEFORMATTER_CREATEKEYEXCHANGE_OFFSET UNITYSDK_OFFSET(0x166BADE0)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_RSAPKCS1KEYEXCHANGEFORMATTER_GET_OVERRIDESENCRYPT_OFFSET UNITYSDK_OFFSET(0x166BB2A0)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_RSAPKCS1KEYEXCHANGEFORMATTER_GET_RNG_OFFSET UNITYSDK_OFFSET(0x166BADD0)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_RSAPKCS1KEYEXCHANGEFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x166B7F10)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_RSAPKCS1KEYEXCHANGEFORMATTER_CREATEKEYEXCHANGE_OFFSET UNITYSDK_OFFSET(0x1C0A6C30)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_RSAPKCS1KEYEXCHANGEFORMATTER_GET_OVERRIDESENCRYPT_OFFSET UNITYSDK_OFFSET(0x1C0A70F0)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_RSAPKCS1KEYEXCHANGEFORMATTER_GET_RNG_OFFSET UNITYSDK_OFFSET(0x1C0A6C20)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_RSAPKCS1KEYEXCHANGEFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C0A3D60)
 
 namespace System::Security::Cryptography
 {
@@ -19,8 +19,8 @@ namespace System::Security::Cryptography
 	class RSAPKCS1KeyExchangeFormatter : public ::System::Security::Cryptography::AsymmetricKeyExchangeFormatter
 	{
 	public:
-		::System::Security::Cryptography::RSA* _rsaKey; // 0x10
-		::System::Security::Cryptography::RandomNumberGenerator* RngValue; // 0x18
+		::System::Security::Cryptography::RandomNumberGenerator* RngValue; // 0x10
+		::System::Security::Cryptography::RSA* _rsaKey; // 0x18
 		::System::Nullable_1<::System::Boolean> _rsaOverridesEncrypt; // 0x20
 
 		::System::Void _ctor(::System::Security::Cryptography::AsymmetricAlgorithm* a1)

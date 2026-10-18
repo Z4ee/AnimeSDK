@@ -6,15 +6,15 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_B5B8C0745497F797_CLASS_1_FA4172D5B6616996__CTOR_OFFSET UNITYSDK_OFFSET(0x1A75E020)
+#define CLASS_2_B5B8C0745497F797_CLASS_1_FA4172D5B6616996__CTOR_OFFSET UNITYSDK_OFFSET(0xC18FC50)
 
-inline static constexpr unsigned int Class_2_B5B8C0745497F797_Class_1_FA4172D5B6616996_TypeDefinitionIndex = 69855;
+inline static constexpr unsigned int Class_2_B5B8C0745497F797_Class_1_FA4172D5B6616996_TypeDefinitionIndex = 69889;
 
 class Class_2_B5B8C0745497F797_Class_1_FA4172D5B6616996 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::UnityEngine::Vector4>* MODHBNJHAEP; // 0x10
-	::Il2CppArray<::UnityEngine::ParticleSystem_Particle>* BDIAMMKNGLA; // 0x18
+	::Il2CppArray<::UnityEngine::ParticleSystem_Particle>* BDIAMMKNGLA; // 0x10
+	::System::Collections::Generic::List_1<::UnityEngine::Vector4>* MODHBNJHAEP; // 0x18
 	::System::Collections::Generic::List_1<::UnityEngine::Vector4>* MBMPMMMJGGC; // 0x20
 
 	::System::Void _ctor(::System::Int32 a1)

@@ -6,12 +6,12 @@ namespace RPG::Client::FateRin::View::Card { class FateRinCardPosControlView; }
 namespace RPG::Client::Promises { class IPendingPromise; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 
-#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINFIREOUTCARDFLOWVIEW___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5CE860)
-#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINFIREOUTCARDFLOWVIEW___C__DISPLAYCLASS4_0___PLAYFIREOUTFLOW_B__0_OFFSET UNITYSDK_OFFSET(0x1B5CE890)
+#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINFIREOUTCARDFLOWVIEW___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCFC4630)
+#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINFIREOUTCARDFLOWVIEW___C__DISPLAYCLASS4_0___PLAYFIREOUTFLOW_B__0_OFFSET UNITYSDK_OFFSET(0xCFC4660)
 
 namespace RPG::Client::FateRin::View::Battle
 {
-	inline static constexpr unsigned int FateRinFireOutCardFlowView___c__DisplayClass4_0_TypeDefinitionIndex = 79369;
+	inline static constexpr unsigned int FateRinFireOutCardFlowView___c__DisplayClass4_0_TypeDefinitionIndex = 80693;
 
 	class FateRinFireOutCardFlowView___c__DisplayClass4_0 : public ::System::Object
 	{

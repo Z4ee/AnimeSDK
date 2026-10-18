@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_FIVEDIMENABLEINTERVALSPAWNACTION_METHOD_3_CDC5B3E7B605A44D_OFFSET UNITYSDK_OFFSET(0x1D85B350)
-#define RPG_GAMECORE_FIVEDIMENABLEINTERVALSPAWNACTION_METHOD_3_FDCB759A46A0B218_OFFSET UNITYSDK_OFFSET(0x1D85B3A0)
-#define RPG_GAMECORE_FIVEDIMENABLEINTERVALSPAWNACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D85B390)
+#define RPG_GAMECORE_FIVEDIMENABLEINTERVALSPAWNACTION_METHOD_4_0016D04CC393C9C3_OFFSET UNITYSDK_OFFSET(0x1D68D660)
+#define RPG_GAMECORE_FIVEDIMENABLEINTERVALSPAWNACTION_METHOD_4_5C8F1EB0F09E78CA_OFFSET UNITYSDK_OFFSET(0x1D68D610)
+#define RPG_GAMECORE_FIVEDIMENABLEINTERVALSPAWNACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D68D650)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimEnableIntervalSpawnAction_TypeDefinitionIndex = 18464;
+	inline static constexpr unsigned int FiveDimEnableIntervalSpawnAction_TypeDefinitionIndex = 18673;
 
 	class FiveDimEnableIntervalSpawnAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
@@ -24,14 +24,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMENABLEINTERVALSPAWNACTION__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_CDC5B3E7B605A44D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimEnableIntervalSpawnAction*& a2)
+		static ::System::Void Method_4_5C8F1EB0F09E78CA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimEnableIntervalSpawnAction*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimEnableIntervalSpawnAction*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMENABLEINTERVALSPAWNACTION_METHOD_3_CDC5B3E7B605A44D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimEnableIntervalSpawnAction*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMENABLEINTERVALSPAWNACTION_METHOD_4_5C8F1EB0F09E78CA_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_FDCB759A46A0B218(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimEnableIntervalSpawnAction* a2)
+		static ::System::Void Method_4_0016D04CC393C9C3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimEnableIntervalSpawnAction* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimEnableIntervalSpawnAction*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMENABLEINTERVALSPAWNACTION_METHOD_3_FDCB759A46A0B218_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimEnableIntervalSpawnAction*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMENABLEINTERVALSPAWNACTION_METHOD_4_0016D04CC393C9C3_OFFSET))(a1, a2);
 		}
 	};
 }

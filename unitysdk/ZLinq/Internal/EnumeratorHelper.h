@@ -4,11 +4,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/ReadOnlySpan_1.h"
 
-#define ZLINQ_INTERNAL_ENUMERATORHELPER_TRYGETSLICERANGE_OFFSET UNITYSDK_OFFSET(0x1F007F70)
+#define ZLINQ_INTERNAL_ENUMERATORHELPER_TRYGETSLICERANGE_OFFSET UNITYSDK_OFFSET(0x1F6636F0)
 
 namespace ZLinq::Internal
 {
-	inline static constexpr unsigned int EnumeratorHelper_TypeDefinitionIndex = 6139;
+	inline static constexpr unsigned int EnumeratorHelper_TypeDefinitionIndex = 6148;
 
 	class EnumeratorHelper : public ::System::Object
 	{

@@ -6,18 +6,18 @@ namespace MiHoYo::SDK::PC::OS { class HoYoChannelShowMessageDialogResult; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_HOYOCHANNELSYSTEMFUNCTIONS___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C6E9460)
-#define MIHOYO_SDK_HOYOCHANNELSYSTEMFUNCTIONS___C__DISPLAYCLASS17_0__ONSHOWMESSAGEDIALOGCALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0x1C6EA030)
+#define MIHOYO_SDK_HOYOCHANNELSYSTEMFUNCTIONS___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0xAF9FCB0)
+#define MIHOYO_SDK_HOYOCHANNELSYSTEMFUNCTIONS___C__DISPLAYCLASS17_0__ONSHOWMESSAGEDIALOGCALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0xAFA0880)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int HoYoChannelSystemFunctions___c__DisplayClass17_0_TypeDefinitionIndex = 47021;
+	inline static constexpr unsigned int HoYoChannelSystemFunctions___c__DisplayClass17_0_TypeDefinitionIndex = 46561;
 
 	class HoYoChannelSystemFunctions___c__DisplayClass17_0 : public ::System::Object
 	{
 	public:
-		::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelShowMessageDialogResult*>* callback; // 0x10
-		::System::String* jsonResponse; // 0x18
+		::System::String* jsonResponse; // 0x10
+		::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelShowMessageDialogResult*>* callback; // 0x18
 		::System::Int32 resultCode; // 0x20
 
 		::System::Void _ctor()

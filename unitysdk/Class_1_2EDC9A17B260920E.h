@@ -4,22 +4,22 @@
 #include "unitysdk/RPG/Client/ActivityHipplen/ActivityHipplenEffectSource.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_1257;
+class Class_0_16E4307DCC419505_1392;
 class Class_1_69DB8A72C044FA28;
 namespace RPG::Client::ActivityHipplen { class ActivityHipplenEffectResultData; }
 
-#define CLASS_1_2EDC9A17B260920E_METHOD_1_305B4442D66C9E90_OFFSET UNITYSDK_OFFSET(0x195D6BF0)
-#define CLASS_1_2EDC9A17B260920E_METHOD_1_534268D509DDB1E3_1_OFFSET UNITYSDK_OFFSET(0x195D6E20)
-#define CLASS_1_2EDC9A17B260920E_METHOD_1_534268D509DDB1E3_2_OFFSET UNITYSDK_OFFSET(0x195D6F00)
-#define CLASS_1_2EDC9A17B260920E_METHOD_1_534268D509DDB1E3_3_OFFSET UNITYSDK_OFFSET(0x195D6FE0)
-#define CLASS_1_2EDC9A17B260920E_METHOD_1_534268D509DDB1E3_4_OFFSET UNITYSDK_OFFSET(0x195D70C0)
-#define CLASS_1_2EDC9A17B260920E_METHOD_1_534268D509DDB1E3_5_OFFSET UNITYSDK_OFFSET(0x195D71A0)
-#define CLASS_1_2EDC9A17B260920E_METHOD_1_534268D509DDB1E3_OFFSET UNITYSDK_OFFSET(0x195D6D40)
-#define CLASS_1_2EDC9A17B260920E_METHOD_1_61BBA76CF09AFE5B_OFFSET UNITYSDK_OFFSET(0x195D7310)
-#define CLASS_1_2EDC9A17B260920E_METHOD_1_FABEAA0371E0AC4C_OFFSET UNITYSDK_OFFSET(0x195D7280)
-#define CLASS_1_2EDC9A17B260920E__CTOR_OFFSET UNITYSDK_OFFSET(0x195D6BE0)
+#define CLASS_1_2EDC9A17B260920E_METHOD_1_305B4442D66C9E90_OFFSET UNITYSDK_OFFSET(0xB8006B0)
+#define CLASS_1_2EDC9A17B260920E_METHOD_1_534268D509DDB1E3_1_OFFSET UNITYSDK_OFFSET(0xB8008E0)
+#define CLASS_1_2EDC9A17B260920E_METHOD_1_534268D509DDB1E3_2_OFFSET UNITYSDK_OFFSET(0xB8009C0)
+#define CLASS_1_2EDC9A17B260920E_METHOD_1_534268D509DDB1E3_3_OFFSET UNITYSDK_OFFSET(0xB800AA0)
+#define CLASS_1_2EDC9A17B260920E_METHOD_1_534268D509DDB1E3_4_OFFSET UNITYSDK_OFFSET(0xB800B80)
+#define CLASS_1_2EDC9A17B260920E_METHOD_1_534268D509DDB1E3_5_OFFSET UNITYSDK_OFFSET(0xB800C60)
+#define CLASS_1_2EDC9A17B260920E_METHOD_1_534268D509DDB1E3_OFFSET UNITYSDK_OFFSET(0xB800800)
+#define CLASS_1_2EDC9A17B260920E_METHOD_1_61BBA76CF09AFE5B_OFFSET UNITYSDK_OFFSET(0xB800DD0)
+#define CLASS_1_2EDC9A17B260920E_METHOD_1_FABEAA0371E0AC4C_OFFSET UNITYSDK_OFFSET(0xB800D40)
+#define CLASS_1_2EDC9A17B260920E__CTOR_OFFSET UNITYSDK_OFFSET(0xB8006A0)
 
-inline static constexpr unsigned int Class_1_2EDC9A17B260920E_TypeDefinitionIndex = 75193;
+inline static constexpr unsigned int Class_1_2EDC9A17B260920E_TypeDefinitionIndex = 75493;
 
 class Class_1_2EDC9A17B260920E : public ::System::Object
 {
@@ -32,44 +32,44 @@ public:
 		return ((::System::Void(*)(::PVOID, ::Class_1_69DB8A72C044FA28*, ::RPG::Client::ActivityHipplen::ActivityHipplenEffectSource))((::PBYTE)hIl2Cpp + CLASS_1_2EDC9A17B260920E__CTOR_OFFSET))(this, a1, a2);
 	}
 
-	::System::Boolean Method_1_305B4442D66C9E90(::Class_0_16E4307DCC419505_1257* a1, ::RPG::Client::ActivityHipplen::ActivityHipplenEffectResultData* a2)
+	::System::Boolean Method_1_305B4442D66C9E90(::Class_0_16E4307DCC419505_1392* a1, ::RPG::Client::ActivityHipplen::ActivityHipplenEffectResultData* a2)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::Class_0_16E4307DCC419505_1257*, ::RPG::Client::ActivityHipplen::ActivityHipplenEffectResultData*))((::PBYTE)hIl2Cpp + CLASS_1_2EDC9A17B260920E_METHOD_1_305B4442D66C9E90_OFFSET))(this, a1, a2);
+		return ((::System::Boolean(*)(::PVOID, ::Class_0_16E4307DCC419505_1392*, ::RPG::Client::ActivityHipplen::ActivityHipplenEffectResultData*))((::PBYTE)hIl2Cpp + CLASS_1_2EDC9A17B260920E_METHOD_1_305B4442D66C9E90_OFFSET))(this, a1, a2);
 	}
 
-	::System::Void Method_1_534268D509DDB1E3(::Class_0_16E4307DCC419505_1257* a1, ::RPG::Client::ActivityHipplen::ActivityHipplenEffectResultData* a2)
+	::System::Void Method_1_534268D509DDB1E3(::Class_0_16E4307DCC419505_1392* a1, ::RPG::Client::ActivityHipplen::ActivityHipplenEffectResultData* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_1257*, ::RPG::Client::ActivityHipplen::ActivityHipplenEffectResultData*))((::PBYTE)hIl2Cpp + CLASS_1_2EDC9A17B260920E_METHOD_1_534268D509DDB1E3_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_1392*, ::RPG::Client::ActivityHipplen::ActivityHipplenEffectResultData*))((::PBYTE)hIl2Cpp + CLASS_1_2EDC9A17B260920E_METHOD_1_534268D509DDB1E3_OFFSET))(this, a1, a2);
 	}
 
-	::System::Void Method_1_534268D509DDB1E3_1(::Class_0_16E4307DCC419505_1257* a1, ::RPG::Client::ActivityHipplen::ActivityHipplenEffectResultData* a2)
+	::System::Void Method_1_534268D509DDB1E3_1(::Class_0_16E4307DCC419505_1392* a1, ::RPG::Client::ActivityHipplen::ActivityHipplenEffectResultData* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_1257*, ::RPG::Client::ActivityHipplen::ActivityHipplenEffectResultData*))((::PBYTE)hIl2Cpp + CLASS_1_2EDC9A17B260920E_METHOD_1_534268D509DDB1E3_1_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_1392*, ::RPG::Client::ActivityHipplen::ActivityHipplenEffectResultData*))((::PBYTE)hIl2Cpp + CLASS_1_2EDC9A17B260920E_METHOD_1_534268D509DDB1E3_1_OFFSET))(this, a1, a2);
 	}
 
-	::System::Void Method_1_534268D509DDB1E3_2(::Class_0_16E4307DCC419505_1257* a1, ::RPG::Client::ActivityHipplen::ActivityHipplenEffectResultData* a2)
+	::System::Void Method_1_534268D509DDB1E3_2(::Class_0_16E4307DCC419505_1392* a1, ::RPG::Client::ActivityHipplen::ActivityHipplenEffectResultData* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_1257*, ::RPG::Client::ActivityHipplen::ActivityHipplenEffectResultData*))((::PBYTE)hIl2Cpp + CLASS_1_2EDC9A17B260920E_METHOD_1_534268D509DDB1E3_2_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_1392*, ::RPG::Client::ActivityHipplen::ActivityHipplenEffectResultData*))((::PBYTE)hIl2Cpp + CLASS_1_2EDC9A17B260920E_METHOD_1_534268D509DDB1E3_2_OFFSET))(this, a1, a2);
 	}
 
-	::System::Void Method_1_534268D509DDB1E3_3(::Class_0_16E4307DCC419505_1257* a1, ::RPG::Client::ActivityHipplen::ActivityHipplenEffectResultData* a2)
+	::System::Void Method_1_534268D509DDB1E3_3(::Class_0_16E4307DCC419505_1392* a1, ::RPG::Client::ActivityHipplen::ActivityHipplenEffectResultData* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_1257*, ::RPG::Client::ActivityHipplen::ActivityHipplenEffectResultData*))((::PBYTE)hIl2Cpp + CLASS_1_2EDC9A17B260920E_METHOD_1_534268D509DDB1E3_3_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_1392*, ::RPG::Client::ActivityHipplen::ActivityHipplenEffectResultData*))((::PBYTE)hIl2Cpp + CLASS_1_2EDC9A17B260920E_METHOD_1_534268D509DDB1E3_3_OFFSET))(this, a1, a2);
 	}
 
-	::System::Void Method_1_534268D509DDB1E3_4(::Class_0_16E4307DCC419505_1257* a1, ::RPG::Client::ActivityHipplen::ActivityHipplenEffectResultData* a2)
+	::System::Void Method_1_534268D509DDB1E3_4(::Class_0_16E4307DCC419505_1392* a1, ::RPG::Client::ActivityHipplen::ActivityHipplenEffectResultData* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_1257*, ::RPG::Client::ActivityHipplen::ActivityHipplenEffectResultData*))((::PBYTE)hIl2Cpp + CLASS_1_2EDC9A17B260920E_METHOD_1_534268D509DDB1E3_4_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_1392*, ::RPG::Client::ActivityHipplen::ActivityHipplenEffectResultData*))((::PBYTE)hIl2Cpp + CLASS_1_2EDC9A17B260920E_METHOD_1_534268D509DDB1E3_4_OFFSET))(this, a1, a2);
 	}
 
-	::System::Void Method_1_534268D509DDB1E3_5(::Class_0_16E4307DCC419505_1257* a1, ::RPG::Client::ActivityHipplen::ActivityHipplenEffectResultData* a2)
+	::System::Void Method_1_534268D509DDB1E3_5(::Class_0_16E4307DCC419505_1392* a1, ::RPG::Client::ActivityHipplen::ActivityHipplenEffectResultData* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_1257*, ::RPG::Client::ActivityHipplen::ActivityHipplenEffectResultData*))((::PBYTE)hIl2Cpp + CLASS_1_2EDC9A17B260920E_METHOD_1_534268D509DDB1E3_5_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_1392*, ::RPG::Client::ActivityHipplen::ActivityHipplenEffectResultData*))((::PBYTE)hIl2Cpp + CLASS_1_2EDC9A17B260920E_METHOD_1_534268D509DDB1E3_5_OFFSET))(this, a1, a2);
 	}
 
-	::System::Boolean Method_1_FABEAA0371E0AC4C(::Class_0_16E4307DCC419505_1257* a1, ::RPG::Client::ActivityHipplen::ActivityHipplenEffectResultData* a2)
+	::System::Boolean Method_1_FABEAA0371E0AC4C(::Class_0_16E4307DCC419505_1392* a1, ::RPG::Client::ActivityHipplen::ActivityHipplenEffectResultData* a2)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::Class_0_16E4307DCC419505_1257*, ::RPG::Client::ActivityHipplen::ActivityHipplenEffectResultData*))((::PBYTE)hIl2Cpp + CLASS_1_2EDC9A17B260920E_METHOD_1_FABEAA0371E0AC4C_OFFSET))(this, a1, a2);
+		return ((::System::Boolean(*)(::PVOID, ::Class_0_16E4307DCC419505_1392*, ::RPG::Client::ActivityHipplen::ActivityHipplenEffectResultData*))((::PBYTE)hIl2Cpp + CLASS_1_2EDC9A17B260920E_METHOD_1_FABEAA0371E0AC4C_OFFSET))(this, a1, a2);
 	}
 
 	::RPG::Client::ActivityHipplen::ActivityHipplenEffectSource Method_1_61BBA76CF09AFE5B()

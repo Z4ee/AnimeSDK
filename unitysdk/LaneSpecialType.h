@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int LaneSpecialType_TypeDefinitionIndex = 47541;
+inline static constexpr unsigned int LaneSpecialType_TypeDefinitionIndex = 47081;
 
 enum class LaneSpecialType : ::System::Int32
 {

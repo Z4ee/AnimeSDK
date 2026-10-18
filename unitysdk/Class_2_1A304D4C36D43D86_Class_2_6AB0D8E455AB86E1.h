@@ -1,0 +1,34 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_8A6989C352B0F0F0.h"
+
+class Class_2_1A304D4C36D43D86;
+namespace RPG::Client::OpenWorld { class StreamingItemData; }
+namespace UnityEngine { class GameObject; }
+
+#define CLASS_2_1A304D4C36D43D86_CLASS_2_6AB0D8E455AB86E1_METHOD_2_3B7145E79424FB75_OFFSET UNITYSDK_OFFSET(0xBDB9500)
+#define CLASS_2_1A304D4C36D43D86_CLASS_2_6AB0D8E455AB86E1_METHOD_2_ED1A059B0F45E55F_OFFSET UNITYSDK_OFFSET(0xBDB93C0)
+#define CLASS_2_1A304D4C36D43D86_CLASS_2_6AB0D8E455AB86E1__CTOR_OFFSET UNITYSDK_OFFSET(0xBDB2100)
+
+inline static constexpr unsigned int Class_2_1A304D4C36D43D86_Class_2_6AB0D8E455AB86E1_TypeDefinitionIndex = 73876;
+
+class Class_2_1A304D4C36D43D86_Class_2_6AB0D8E455AB86E1 : public ::Class_1_8A6989C352B0F0F0
+{
+public:
+	::Class_2_1A304D4C36D43D86* PPNBGHOPMNB; // 0x80
+
+	::System::Void _ctor(::Class_2_1A304D4C36D43D86* a1, ::RPG::Client::OpenWorld::StreamingItemData* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_2_1A304D4C36D43D86*, ::RPG::Client::OpenWorld::StreamingItemData*))((::PBYTE)hIl2Cpp + CLASS_2_1A304D4C36D43D86_CLASS_2_6AB0D8E455AB86E1__CTOR_OFFSET))(this, a1, a2);
+	}
+
+	::UnityEngine::GameObject* Method_2_ED1A059B0F45E55F()
+	{
+		return ((::UnityEngine::GameObject*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_1A304D4C36D43D86_CLASS_2_6AB0D8E455AB86E1_METHOD_2_ED1A059B0F45E55F_OFFSET))(this);
+	}
+
+	::System::Void Method_2_3B7145E79424FB75()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_1A304D4C36D43D86_CLASS_2_6AB0D8E455AB86E1_METHOD_2_3B7145E79424FB75_OFFSET))(this);
+	}
+};

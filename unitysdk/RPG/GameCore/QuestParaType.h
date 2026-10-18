@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int QuestParaType_TypeDefinitionIndex = 10409;
+	inline static constexpr unsigned int QuestParaType_TypeDefinitionIndex = 10424;
 
 	enum class QuestParaType : ::System::Int32
 	{

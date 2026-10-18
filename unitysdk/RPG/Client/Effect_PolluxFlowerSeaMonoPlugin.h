@@ -13,12 +13,12 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class Mesh; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_EFFECT_POLLUXFLOWERSEAMONOPLUGIN_GET_EDITMODE_OFFSET UNITYSDK_OFFSET(0x15E917E0)
-#define RPG_CLIENT_EFFECT_POLLUXFLOWERSEAMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x15E917F0)
+#define RPG_CLIENT_EFFECT_POLLUXFLOWERSEAMONOPLUGIN_GET_EDITMODE_OFFSET UNITYSDK_OFFSET(0xCD580F0)
+#define RPG_CLIENT_EFFECT_POLLUXFLOWERSEAMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xCD58100)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_PolluxFlowerSeaMonoPlugin_TypeDefinitionIndex = 70501;
+	inline static constexpr unsigned int Effect_PolluxFlowerSeaMonoPlugin_TypeDefinitionIndex = 70537;
 
 	class Effect_PolluxFlowerSeaMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::Effect_PolluxFlowerSeaBehavior*>
 	{

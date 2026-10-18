@@ -6,20 +6,20 @@ namespace RPG::Client::ActivityIdleLive { class FailGuide; }
 namespace RPG::Client::ActivityIdleLive { class IdleLiveNode; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEFAILGUIDESERVICE_GETACTIVEFAILGUIDE_OFFSET UNITYSDK_OFFSET(0x1C0E14A0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEFAILGUIDESERVICE_ISCATCHUPGUIDE_OFFSET UNITYSDK_OFFSET(0x1C0E1700)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEFAILGUIDESERVICE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C0E0E80)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEFAILGUIDESERVICE__INITCHAIN_OFFSET UNITYSDK_OFFSET(0x1C0E0EF0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEFAILGUIDESERVICE_GETACTIVEFAILGUIDE_OFFSET UNITYSDK_OFFSET(0xC4C8470)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEFAILGUIDESERVICE_ISCATCHUPGUIDE_OFFSET UNITYSDK_OFFSET(0xC4C86D0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEFAILGUIDESERVICE__CTOR_OFFSET UNITYSDK_OFFSET(0xC4C7E50)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEFAILGUIDESERVICE__INITCHAIN_OFFSET UNITYSDK_OFFSET(0xC4C7EC0)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveFailGuideService_TypeDefinitionIndex = 75089;
+	inline static constexpr unsigned int IdleLiveFailGuideService_TypeDefinitionIndex = 75389;
 
 	class IdleLiveFailGuideService : public ::System::Object
 	{
 	public:
-		::RPG::Client::ActivityIdleLive::IdleLiveNode* _Node; // 0x10
-		::System::Collections::Generic::List_1<::RPG::Client::ActivityIdleLive::FailGuide*>* _failGuideChain; // 0x18
+		::System::Collections::Generic::List_1<::RPG::Client::ActivityIdleLive::FailGuide*>* _failGuideChain; // 0x10
+		::RPG::Client::ActivityIdleLive::IdleLiveNode* _Node; // 0x18
 		::System::UInt64 _TotalGotCrystalNum; // 0x20
 
 		::System::Void _ctor(::System::UInt64 a1, ::RPG::Client::ActivityIdleLive::IdleLiveNode* a2)

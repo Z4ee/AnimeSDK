@@ -7,23 +7,23 @@ namespace System { class String; }
 namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class Text; }
 
-#define MIHOYO_SDK_UI_BINDINGSUCCESS_AWAKE_OFFSET UNITYSDK_OFFSET(0x1B9C78F0)
-#define MIHOYO_SDK_UI_BINDINGSUCCESS_CLOSE_OFFSET UNITYSDK_OFFSET(0x1B9C83F0)
-#define MIHOYO_SDK_UI_BINDINGSUCCESS_CONFIRMDIALOG_OFFSET UNITYSDK_OFFSET(0x1B9C8410)
-#define MIHOYO_SDK_UI_BINDINGSUCCESS_HIDE_OFFSET UNITYSDK_OFFSET(0x1B9C8540)
-#define MIHOYO_SDK_UI_BINDINGSUCCESS_SHOW_OFFSET UNITYSDK_OFFSET(0x1B9C8430)
-#define MIHOYO_SDK_UI_BINDINGSUCCESS__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9C85B0)
+#define MIHOYO_SDK_UI_BINDINGSUCCESS_AWAKE_OFFSET UNITYSDK_OFFSET(0x1BFC3870)
+#define MIHOYO_SDK_UI_BINDINGSUCCESS_CLOSE_OFFSET UNITYSDK_OFFSET(0x1BFC4370)
+#define MIHOYO_SDK_UI_BINDINGSUCCESS_CONFIRMDIALOG_OFFSET UNITYSDK_OFFSET(0x1BFC4390)
+#define MIHOYO_SDK_UI_BINDINGSUCCESS_HIDE_OFFSET UNITYSDK_OFFSET(0x1BFC44C0)
+#define MIHOYO_SDK_UI_BINDINGSUCCESS_SHOW_OFFSET UNITYSDK_OFFSET(0x1BFC43B0)
+#define MIHOYO_SDK_UI_BINDINGSUCCESS__CTOR_OFFSET UNITYSDK_OFFSET(0x1BFC4530)
 
 namespace MiHoYo::SDK::UI
 {
-	inline static constexpr unsigned int BindingSuccess_TypeDefinitionIndex = 8343;
+	inline static constexpr unsigned int BindingSuccess_TypeDefinitionIndex = 8386;
 
 	class BindingSuccess : public ::MiHoYo::SDK::UIElement
 	{
 	public:
 		static ::MiHoYo::SDK::UI::BindingSuccess** StaticGet_Instance()
 		{
-			return (::MiHoYo::SDK::UI::BindingSuccess**)Il2CppClass::FromTypeDefinitionIndex(BindingSuccess_TypeDefinitionIndex)->GetStaticField(0x20B00);
+			return (::MiHoYo::SDK::UI::BindingSuccess**)Il2CppClass::FromTypeDefinitionIndex(BindingSuccess_TypeDefinitionIndex)->GetStaticField(0x2AD30);
 		}
 		// static const ::System::String* PrefabName; // 0x0
 		// static const ::System::String* closeBtnPath; // 0x0

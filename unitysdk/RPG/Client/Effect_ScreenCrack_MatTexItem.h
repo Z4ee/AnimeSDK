@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace UnityEngine { class Renderer; }
 
-#define RPG_CLIENT_EFFECT_SCREENCRACK_MATTEXITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x15E97440)
+#define RPG_CLIENT_EFFECT_SCREENCRACK_MATTEXITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xCD5DA60)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_ScreenCrack_MatTexItem_TypeDefinitionIndex = 70515;
+	inline static constexpr unsigned int Effect_ScreenCrack_MatTexItem_TypeDefinitionIndex = 70551;
 
 	class Effect_ScreenCrack_MatTexItem : public ::System::Object
 	{

@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class LevelDimensionFilterExpression; }
 
-#define RPG_GAMECORE_LEVELDIMENSIONFILTEREXPRESSIONSET_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1C110E90)
-#define RPG_GAMECORE_LEVELDIMENSIONFILTEREXPRESSIONSET__CTOR_OFFSET UNITYSDK_OFFSET(0x1C111710)
+#define RPG_GAMECORE_LEVELDIMENSIONFILTEREXPRESSIONSET_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D77BD80)
+#define RPG_GAMECORE_LEVELDIMENSIONFILTEREXPRESSIONSET__CTOR_OFFSET UNITYSDK_OFFSET(0x1D77C600)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelDimensionFilterExpressionSet_TypeDefinitionIndex = 17004;
+	inline static constexpr unsigned int LevelDimensionFilterExpressionSet_TypeDefinitionIndex = 17199;
 
 	class LevelDimensionFilterExpressionSet : public ::RPG::GameCore::JsonConfig
 	{

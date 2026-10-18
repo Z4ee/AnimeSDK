@@ -6,23 +6,23 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define CLASS_1_BB80FE65B52E74F2_METHOD_1_1FAE1389D4EFD9B1_OFFSET UNITYSDK_OFFSET(0xCA41300)
-#define CLASS_1_BB80FE65B52E74F2__CTOR_OFFSET UNITYSDK_OFFSET(0xCA41610)
+#define CLASS_1_BB80FE65B52E74F2_METHOD_1_1FAE1389D4EFD9B1_OFFSET UNITYSDK_OFFSET(0x1CEF2D80)
+#define CLASS_1_BB80FE65B52E74F2__CTOR_OFFSET UNITYSDK_OFFSET(0x1CEF3090)
 
-inline static constexpr unsigned int Class_1_BB80FE65B52E74F2_TypeDefinitionIndex = 11240;
+inline static constexpr unsigned int Class_1_BB80FE65B52E74F2_TypeDefinitionIndex = 11256;
 
 class Class_1_BB80FE65B52E74F2 : public ::System::Object
 {
 public:
-	::System::String* CLCFMLOGBAN; // 0x10
+	::System::String* CGANPPICDAM; // 0x10
 	::System::String* KOIJMGCHFII; // 0x18
-	::System::String* BDACPPLKLGL; // 0x20
+	::System::String* BBDAFOAINPD; // 0x20
 	::System::String* HAEBLLPPDHO; // 0x28
-	::System::String* CGANPPICDAM; // 0x30
-	::System::String* BBDAFOAINPD; // 0x38
-	::System::UInt32 NIDFIGFJJLL; // 0x40
-	::System::Single KIPAGNCANAJ; // 0x44
-	::RPG::GameCore::DiceCombatAnchorType HPLKADFDFAI; // 0x48
+	::System::String* BDACPPLKLGL; // 0x30
+	::System::String* CLCFMLOGBAN; // 0x38
+	::RPG::GameCore::DiceCombatAnchorType HPLKADFDFAI; // 0x40
+	::System::UInt32 NIDFIGFJJLL; // 0x44
+	::System::Single KIPAGNCANAJ; // 0x48
 
 	::System::Void _ctor()
 	{

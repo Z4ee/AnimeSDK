@@ -5,24 +5,24 @@
 namespace MiHoYo::SDK::Win { class LogoutConfirm; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_WIN_LOGOUTCONFIRM___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18AFF3F0)
-#define MIHOYO_SDK_WIN_LOGOUTCONFIRM___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18AFF430)
-#define MIHOYO_SDK_WIN_LOGOUTCONFIRM___C__SHOW_B__21_0_OFFSET UNITYSDK_OFFSET(0x18AFF440)
+#define MIHOYO_SDK_WIN_LOGOUTCONFIRM___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BD65620)
+#define MIHOYO_SDK_WIN_LOGOUTCONFIRM___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD65660)
+#define MIHOYO_SDK_WIN_LOGOUTCONFIRM___C__SHOW_B__21_0_OFFSET UNITYSDK_OFFSET(0x1BD65670)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int LogoutConfirm___c_TypeDefinitionIndex = 9240;
+	inline static constexpr unsigned int LogoutConfirm___c_TypeDefinitionIndex = 9302;
 
 	class LogoutConfirm___c : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::MiHoYo::SDK::Win::LogoutConfirm*>** StaticGet___9__21_0()
-		{
-			return (::System::Action_1<::MiHoYo::SDK::Win::LogoutConfirm*>**)Il2CppClass::FromTypeDefinitionIndex(LogoutConfirm___c_TypeDefinitionIndex)->GetStaticField(0x347E0);
-		}
 		static ::MiHoYo::SDK::Win::LogoutConfirm___c** StaticGet___9()
 		{
-			return (::MiHoYo::SDK::Win::LogoutConfirm___c**)Il2CppClass::FromTypeDefinitionIndex(LogoutConfirm___c_TypeDefinitionIndex)->GetStaticField(0x347E8);
+			return (::MiHoYo::SDK::Win::LogoutConfirm___c**)Il2CppClass::FromTypeDefinitionIndex(LogoutConfirm___c_TypeDefinitionIndex)->GetStaticField(0x34840);
+		}
+		static ::System::Action_1<::MiHoYo::SDK::Win::LogoutConfirm*>** StaticGet___9__21_0()
+		{
+			return (::System::Action_1<::MiHoYo::SDK::Win::LogoutConfirm*>**)Il2CppClass::FromTypeDefinitionIndex(LogoutConfirm___c_TypeDefinitionIndex)->GetStaticField(0x34848);
 		}
 
 		static ::System::Void _cctor()

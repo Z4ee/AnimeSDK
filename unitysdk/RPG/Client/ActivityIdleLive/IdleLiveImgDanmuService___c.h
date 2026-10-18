@@ -5,24 +5,24 @@
 class Class_1_7B630EA0921A5074;
 namespace System { template <typename T> class Predicate_1; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEIMGDANMUSERVICE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C0F5E90)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEIMGDANMUSERVICE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1C0F5ED0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEIMGDANMUSERVICE___C___CLEARENDEDIMAGEDANMUS_B__13_0_OFFSET UNITYSDK_OFFSET(0x1C0F5EE0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEIMGDANMUSERVICE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC4DCB70)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEIMGDANMUSERVICE___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC4DCBB0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEIMGDANMUSERVICE___C___CLEARENDEDIMAGEDANMUS_B__13_0_OFFSET UNITYSDK_OFFSET(0xC4DCBC0)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveImgDanmuService___c_TypeDefinitionIndex = 75050;
+	inline static constexpr unsigned int IdleLiveImgDanmuService___c_TypeDefinitionIndex = 75350;
 
 	class IdleLiveImgDanmuService___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::ActivityIdleLive::IdleLiveImgDanmuService___c** StaticGet___9()
-		{
-			return (::RPG::Client::ActivityIdleLive::IdleLiveImgDanmuService___c**)Il2CppClass::FromTypeDefinitionIndex(IdleLiveImgDanmuService___c_TypeDefinitionIndex)->GetStaticField(0x5A300);
-		}
 		static ::System::Predicate_1<::Class_1_7B630EA0921A5074*>** StaticGet___9__13_0()
 		{
-			return (::System::Predicate_1<::Class_1_7B630EA0921A5074*>**)Il2CppClass::FromTypeDefinitionIndex(IdleLiveImgDanmuService___c_TypeDefinitionIndex)->GetStaticField(0x5A308);
+			return (::System::Predicate_1<::Class_1_7B630EA0921A5074*>**)Il2CppClass::FromTypeDefinitionIndex(IdleLiveImgDanmuService___c_TypeDefinitionIndex)->GetStaticField(0x214C0);
+		}
+		static ::RPG::Client::ActivityIdleLive::IdleLiveImgDanmuService___c** StaticGet___9()
+		{
+			return (::RPG::Client::ActivityIdleLive::IdleLiveImgDanmuService___c**)Il2CppClass::FromTypeDefinitionIndex(IdleLiveImgDanmuService___c_TypeDefinitionIndex)->GetStaticField(0x214C8);
 		}
 
 		static ::System::Void _cctor()

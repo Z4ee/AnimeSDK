@@ -7,18 +7,18 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ACTIVITYHIPPLENSTATCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CA09B30)
-#define RPG_GAMECORE_ACTIVITYHIPPLENSTATCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CA09DD0)
+#define RPG_GAMECORE_ACTIVITYHIPPLENSTATCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D33B2E0)
+#define RPG_GAMECORE_ACTIVITYHIPPLENSTATCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D33B580)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityHipplenStatConfigRow_TypeDefinitionIndex = 11640;
+	inline static constexpr unsigned int ActivityHipplenStatConfigRow_TypeDefinitionIndex = 11663;
 
 	class ActivityHipplenStatConfigRow : public ::System::Object
 	{
 	public:
-		::System::String* OutlineIconPath; // 0x10
-		::System::String* IconPath; // 0x18
+		::System::String* IconPath; // 0x10
+		::System::String* OutlineIconPath; // 0x18
 		::System::String* BgColor; // 0x20
 		::System::String* SmallIconPath; // 0x28
 		::RPG::GameCore::HipplenStatType StatType; // 0x30

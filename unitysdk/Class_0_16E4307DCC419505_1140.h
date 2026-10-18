@@ -1,7 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_1140_TypeDefinitionIndex = 72379;
+class Class_1_849EE5CF9026AE9F;
+namespace RPG::Client { class MonoDanmuItem; }
+
+inline static constexpr unsigned int Class_0_16E4307DCC419505_1140_TypeDefinitionIndex = 68942;
 
 class Class_0_16E4307DCC419505_1140
 {

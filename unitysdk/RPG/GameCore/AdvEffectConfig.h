@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ADVEFFECTCONFIG_METHOD_2_DD859B42BC2A07CD_OFFSET UNITYSDK_OFFSET(0x1D6B4D60)
-#define RPG_GAMECORE_ADVEFFECTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6B50B0)
+#define RPG_GAMECORE_ADVEFFECTCONFIG_METHOD_2_EE7302164762D916_OFFSET UNITYSDK_OFFSET(0x1D36E320)
+#define RPG_GAMECORE_ADVEFFECTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D36E880)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvEffectConfig_TypeDefinitionIndex = 22068;
+	inline static constexpr unsigned int AdvEffectConfig_TypeDefinitionIndex = 22316;
 
 	class AdvEffectConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -31,9 +31,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVEFFECTCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_DD859B42BC2A07CD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvEffectConfig*& a2)
+		static ::System::Void Method_2_EE7302164762D916(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvEffectConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvEffectConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVEFFECTCONFIG_METHOD_2_DD859B42BC2A07CD_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvEffectConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVEFFECTCONFIG_METHOD_2_EE7302164762D916_OFFSET))(a1, a2);
 		}
 	};
 }

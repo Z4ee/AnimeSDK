@@ -5,10 +5,10 @@
 class Class_1_B8CD4F1CB8207431;
 namespace RPG::GameCore { class FiveDimGravitySwitchLineConfig; }
 
-#define CLASS_1_358F5D52EF111F36_CLEAR_OFFSET UNITYSDK_OFFSET(0x1A5E7060)
-#define CLASS_1_358F5D52EF111F36__CTOR_OFFSET UNITYSDK_OFFSET(0x1A5E70F0)
+#define CLASS_1_358F5D52EF111F36_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C9155E0)
+#define CLASS_1_358F5D52EF111F36__CTOR_OFFSET UNITYSDK_OFFSET(0x1C915670)
 
-inline static constexpr unsigned int Class_1_358F5D52EF111F36_TypeDefinitionIndex = 41866;
+inline static constexpr unsigned int Class_1_358F5D52EF111F36_TypeDefinitionIndex = 43508;
 
 class Class_1_358F5D52EF111F36 : public ::System::Object
 {

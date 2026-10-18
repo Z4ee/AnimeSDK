@@ -6,12 +6,12 @@ namespace RPG::Client { class MainMissionData; }
 namespace RPG::Client::Promises { class Promise; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ALLEYMODULE___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19C66E10)
-#define RPG_CLIENT_ALLEYMODULE___C__DISPLAYCLASS17_0__REFRESHALLMISSIONDATA_B__0_OFFSET UNITYSDK_OFFSET(0x19C82A70)
+#define RPG_CLIENT_ALLEYMODULE___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC6523C0)
+#define RPG_CLIENT_ALLEYMODULE___C__DISPLAYCLASS17_0__REFRESHALLMISSIONDATA_B__0_OFFSET UNITYSDK_OFFSET(0xC66E080)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AlleyModule___c__DisplayClass17_0_TypeDefinitionIndex = 62333;
+	inline static constexpr unsigned int AlleyModule___c__DisplayClass17_0_TypeDefinitionIndex = 62250;
 
 	class AlleyModule___c__DisplayClass17_0 : public ::System::Object
 	{

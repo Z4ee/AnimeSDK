@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PunkLordGroupType_TypeDefinitionIndex = 12204;
+	inline static constexpr unsigned int PunkLordGroupType_TypeDefinitionIndex = 12285;
 
 	enum class PunkLordGroupType : ::System::Int32
 	{

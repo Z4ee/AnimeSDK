@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_IDLELIVEAVATARRARITYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D20DAA0)
-#define RPG_GAMECORE_IDLELIVEAVATARRARITYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D20DC20)
+#define RPG_GAMECORE_IDLELIVEAVATARRARITYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D74A6E0)
+#define RPG_GAMECORE_IDLELIVEAVATARRARITYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D74A860)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveAvatarRarityRow_TypeDefinitionIndex = 11699;
+	inline static constexpr unsigned int IdleLiveAvatarRarityRow_TypeDefinitionIndex = 11722;
 
 	class IdleLiveAvatarRarityRow : public ::System::Object
 	{

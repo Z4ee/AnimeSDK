@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class DetachAvatarChange; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_8E92DFEA11D7692B_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x184903F0)
-#define CLASS_3_8E92DFEA11D7692B__CTOR_OFFSET UNITYSDK_OFFSET(0x184903C0)
+#define CLASS_3_8E92DFEA11D7692B_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB5D4500)
+#define CLASS_3_8E92DFEA11D7692B__CTOR_OFFSET UNITYSDK_OFFSET(0xB5D44D0)
 
-inline static constexpr unsigned int Class_3_8E92DFEA11D7692B_TypeDefinitionIndex = 55049;
+inline static constexpr unsigned int Class_3_8E92DFEA11D7692B_TypeDefinitionIndex = 54839;
 
 class Class_3_8E92DFEA11D7692B : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::DetachAvatarChange*>
 {

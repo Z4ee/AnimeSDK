@@ -10,16 +10,16 @@ namespace RPG::Client::PixAir { class PixAirGameBattleRoundData; }
 namespace RPG::GameCore { class PixAirEquipmentPresetConfig; }
 namespace System { class String; }
 
-#define RPG_CLIENT_PIXAIR_PIXAIRCOMMANDBATTLEACTION_CREATEENEMYPLANESNAPSHOTS_OFFSET UNITYSDK_OFFSET(0x1C834500)
-#define RPG_CLIENT_PIXAIR_PIXAIRCOMMANDBATTLEACTION_CREATEPLAYERPLANESNAPSHOT_OFFSET UNITYSDK_OFFSET(0x1C834260)
-#define RPG_CLIENT_PIXAIR_PIXAIRCOMMANDBATTLEACTION_GET_BATTLEROUNDINFO_OFFSET UNITYSDK_OFFSET(0x1C834250)
-#define RPG_CLIENT_PIXAIR_PIXAIRCOMMANDBATTLEACTION_RESOLVEBATTLE_OFFSET UNITYSDK_OFFSET(0x1C834640)
-#define RPG_CLIENT_PIXAIR_PIXAIRCOMMANDBATTLEACTION__CREATEPLANESNAPSHOT_OFFSET UNITYSDK_OFFSET(0x1C834320)
-#define RPG_CLIENT_PIXAIR_PIXAIRCOMMANDBATTLEACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1C834230)
+#define RPG_CLIENT_PIXAIR_PIXAIRCOMMANDBATTLEACTION_CREATEENEMYPLANESNAPSHOTS_OFFSET UNITYSDK_OFFSET(0xDB2D800)
+#define RPG_CLIENT_PIXAIR_PIXAIRCOMMANDBATTLEACTION_CREATEPLAYERPLANESNAPSHOT_OFFSET UNITYSDK_OFFSET(0xDB2D560)
+#define RPG_CLIENT_PIXAIR_PIXAIRCOMMANDBATTLEACTION_GET_BATTLEROUNDINFO_OFFSET UNITYSDK_OFFSET(0xDB2D550)
+#define RPG_CLIENT_PIXAIR_PIXAIRCOMMANDBATTLEACTION_RESOLVEBATTLE_OFFSET UNITYSDK_OFFSET(0xDB2D940)
+#define RPG_CLIENT_PIXAIR_PIXAIRCOMMANDBATTLEACTION__CREATEPLANESNAPSHOT_OFFSET UNITYSDK_OFFSET(0xDB2D620)
+#define RPG_CLIENT_PIXAIR_PIXAIRCOMMANDBATTLEACTION__CTOR_OFFSET UNITYSDK_OFFSET(0xDB2D530)
 
 namespace RPG::Client::PixAir
 {
-	inline static constexpr unsigned int PixAirCommandBattleAction_TypeDefinitionIndex = 78802;
+	inline static constexpr unsigned int PixAirCommandBattleAction_TypeDefinitionIndex = 79283;
 
 	class PixAirCommandBattleAction : public ::System::Object
 	{
@@ -29,9 +29,9 @@ namespace RPG::Client::PixAir
 		// static const ::System::Int32 EnemyPlaneID = 0x2; // 0x0
 		// static const ::System::UInt32 DefaultEnemyDisplayID = 0x2BD; // 0x0
 		// static const ::System::String* DefaultViewResPath; // 0x0
-		::RPG::Client::PixAir::PixAirGameBattleRoundData* _BattleRoundInfo_k__BackingField; // 0x10
-		::Il2CppArray<::RPG::GameCore::PixAirEquipmentPresetConfig*>* _PlayerSlots; // 0x18
-		::Il2CppArray<::RPG::GameCore::PixAirEquipmentPresetConfig*>* _EnemySlots; // 0x20
+		::Il2CppArray<::RPG::GameCore::PixAirEquipmentPresetConfig*>* _PlayerSlots; // 0x10
+		::Il2CppArray<::RPG::GameCore::PixAirEquipmentPresetConfig*>* _EnemySlots; // 0x18
+		::RPG::Client::PixAir::PixAirGameBattleRoundData* _BattleRoundInfo_k__BackingField; // 0x20
 		::RPG::GameCore::FixPoint _PlayerHP; // 0x28
 		::RPG::GameCore::FixPoint _EnemyHP; // 0x30
 

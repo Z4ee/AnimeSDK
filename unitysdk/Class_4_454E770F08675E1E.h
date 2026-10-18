@@ -7,15 +7,15 @@ namespace RPG::GameCore { class OptionTriggerInfo; }
 namespace System { class Action; }
 namespace System { template <typename T> class Func_1; }
 
-#define CLASS_4_454E770F08675E1E_METHOD_4_B135E486730FDDA8_OFFSET UNITYSDK_OFFSET(0x165B0220)
-#define CLASS_4_454E770F08675E1E__CTOR_OFFSET UNITYSDK_OFFSET(0x165B0190)
+#define CLASS_4_454E770F08675E1E_METHOD_4_B135E486730FDDA8_OFFSET UNITYSDK_OFFSET(0xCF85850)
+#define CLASS_4_454E770F08675E1E__CTOR_OFFSET UNITYSDK_OFFSET(0xCF857C0)
 
-inline static constexpr unsigned int Class_4_454E770F08675E1E_TypeDefinitionIndex = 78402;
+inline static constexpr unsigned int Class_4_454E770F08675E1E_TypeDefinitionIndex = 78873;
 
 class Class_4_454E770F08675E1E : public ::Class_3_3100354E684764E9_2
 {
 public:
-	::System::Int32 OMBNKBLHNFG; // 0xD0
+	::System::Int32 OMBNKBLHNFG; // 0xD8
 
 	::System::Void _ctor(::RPG::GameCore::GameEntity* a1, ::System::Int32 a2, ::Il2CppArray<::RPG::GameCore::OptionTriggerInfo*>* a3, ::Il2CppArray<::System::Action*>* a4, ::System::Func_1<::System::Boolean>* a5)
 	{

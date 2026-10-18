@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_TAROTBOOKTALKINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E1C8CB0)
-#define RPG_GAMECORE_TAROTBOOKTALKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1E1C8D70)
+#define RPG_GAMECORE_TAROTBOOKTALKINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DB4A0B0)
+#define RPG_GAMECORE_TAROTBOOKTALKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB4A170)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TarotBookTalkInfo_TypeDefinitionIndex = 20896;
+	inline static constexpr unsigned int TarotBookTalkInfo_TypeDefinitionIndex = 21142;
 
 	class TarotBookTalkInfo : public ::RPG::GameCore::JsonConfig
 	{

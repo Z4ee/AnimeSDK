@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 
 namespace RPG::Client { class PrefabLoadMeta; }
-template <typename T> class Class_0_16E4307DCC41950C;
+template <typename T> class Class_0_16E4307DCC41950C_2;
 
-inline static constexpr unsigned int Class_1_E3DF6287677BF62B_TypeDefinitionIndex = 50299;
+inline static constexpr unsigned int Class_1_E3DF6287677BF62B_TypeDefinitionIndex = 49973;
 
 template <typename TComponent>
 class Class_1_E3DF6287677BF62B : public ::System::Object

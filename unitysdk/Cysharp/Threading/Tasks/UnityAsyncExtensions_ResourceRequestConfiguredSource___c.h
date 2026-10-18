@@ -4,25 +4,25 @@
 
 namespace System { template <typename T> class Action_1; }
 
-#define CYSHARP_THREADING_TASKS_UNITYASYNCEXTENSIONS_RESOURCEREQUESTCONFIGUREDSOURCE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CE27110)
-#define CYSHARP_THREADING_TASKS_UNITYASYNCEXTENSIONS_RESOURCEREQUESTCONFIGUREDSOURCE___C__CREATE_B__14_0_OFFSET UNITYSDK_OFFSET(0x1CE271C0)
-#define CYSHARP_THREADING_TASKS_UNITYASYNCEXTENSIONS_RESOURCEREQUESTCONFIGUREDSOURCE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE27150)
-#define CYSHARP_THREADING_TASKS_UNITYASYNCEXTENSIONS_RESOURCEREQUESTCONFIGUREDSOURCE___C___CCTOR_B__4_0_OFFSET UNITYSDK_OFFSET(0x1CE27160)
+#define CYSHARP_THREADING_TASKS_UNITYASYNCEXTENSIONS_RESOURCEREQUESTCONFIGUREDSOURCE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F132DE0)
+#define CYSHARP_THREADING_TASKS_UNITYASYNCEXTENSIONS_RESOURCEREQUESTCONFIGUREDSOURCE___C__CREATE_B__14_0_OFFSET UNITYSDK_OFFSET(0x1F132E90)
+#define CYSHARP_THREADING_TASKS_UNITYASYNCEXTENSIONS_RESOURCEREQUESTCONFIGUREDSOURCE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1F132E20)
+#define CYSHARP_THREADING_TASKS_UNITYASYNCEXTENSIONS_RESOURCEREQUESTCONFIGUREDSOURCE___C___CCTOR_B__4_0_OFFSET UNITYSDK_OFFSET(0x1F132E30)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UnityAsyncExtensions_ResourceRequestConfiguredSource___c_TypeDefinitionIndex = 42876;
+	inline static constexpr unsigned int UnityAsyncExtensions_ResourceRequestConfiguredSource___c_TypeDefinitionIndex = 38461;
 
 	class UnityAsyncExtensions_ResourceRequestConfiguredSource___c : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::System::Object*>** StaticGet___9__14_0()
 		{
-			return (::System::Action_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(UnityAsyncExtensions_ResourceRequestConfiguredSource___c_TypeDefinitionIndex)->GetStaticField(0x62FB0);
+			return (::System::Action_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(UnityAsyncExtensions_ResourceRequestConfiguredSource___c_TypeDefinitionIndex)->GetStaticField(0x3BF80);
 		}
 		static ::Cysharp::Threading::Tasks::UnityAsyncExtensions_ResourceRequestConfiguredSource___c** StaticGet___9()
 		{
-			return (::Cysharp::Threading::Tasks::UnityAsyncExtensions_ResourceRequestConfiguredSource___c**)Il2CppClass::FromTypeDefinitionIndex(UnityAsyncExtensions_ResourceRequestConfiguredSource___c_TypeDefinitionIndex)->GetStaticField(0x62FB8);
+			return (::Cysharp::Threading::Tasks::UnityAsyncExtensions_ResourceRequestConfiguredSource___c**)Il2CppClass::FromTypeDefinitionIndex(UnityAsyncExtensions_ResourceRequestConfiguredSource___c_TypeDefinitionIndex)->GetStaticField(0x3BF88);
 		}
 
 		static ::System::Void _cctor()

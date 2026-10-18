@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightPrepTutorialPopupPanelType_TypeDefinitionIndex = 24179;
+	inline static constexpr unsigned int GridFightPrepTutorialPopupPanelType_TypeDefinitionIndex = 24458;
 
 	enum class GridFightPrepTutorialPopupPanelType : ::System::Int32
 	{

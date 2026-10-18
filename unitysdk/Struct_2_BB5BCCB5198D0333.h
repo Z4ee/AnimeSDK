@@ -6,7 +6,7 @@ namespace RPG::GameCore { class FiveDimEffectItem; }
 namespace RPG::GameCore { class LittleGameEvent; }
 namespace System { class String; }
 
-inline static constexpr unsigned int Struct_2_BB5BCCB5198D0333_TypeDefinitionIndex = 41732;
+inline static constexpr unsigned int Struct_2_BB5BCCB5198D0333_TypeDefinitionIndex = 43374;
 
 struct alignas(8) Struct_2_BB5BCCB5198D0333
 {

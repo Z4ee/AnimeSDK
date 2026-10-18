@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ST_InitVariableType_TypeDefinitionIndex = 15327;
+	inline static constexpr unsigned int ST_InitVariableType_TypeDefinitionIndex = 15498;
 
 	enum class ST_InitVariableType : ::System::Int32
 	{

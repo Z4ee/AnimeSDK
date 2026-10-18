@@ -9,20 +9,20 @@ namespace MiHoYo::SDK::Console::OS { class PayManagerPS; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 
-#define MIHOYO_SDK_CONSOLE_OS_PAYMANAGERPS___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1737E2C0)
-#define MIHOYO_SDK_CONSOLE_OS_PAYMANAGERPS___C__DISPLAYCLASS19_0__GETGOODSPLATFORMPRODUCTS_B__0_OFFSET UNITYSDK_OFFSET(0x1737F220)
-#define MIHOYO_SDK_CONSOLE_OS_PAYMANAGERPS___C__DISPLAYCLASS19_0__GETGOODSPLATFORMPRODUCTS_B__1_OFFSET UNITYSDK_OFFSET(0x1737F3A0)
+#define MIHOYO_SDK_CONSOLE_OS_PAYMANAGERPS___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BCB0870)
+#define MIHOYO_SDK_CONSOLE_OS_PAYMANAGERPS___C__DISPLAYCLASS19_0__GETGOODSPLATFORMPRODUCTS_B__0_OFFSET UNITYSDK_OFFSET(0x1BCB17C0)
+#define MIHOYO_SDK_CONSOLE_OS_PAYMANAGERPS___C__DISPLAYCLASS19_0__GETGOODSPLATFORMPRODUCTS_B__1_OFFSET UNITYSDK_OFFSET(0x1BCB1940)
 
 namespace MiHoYo::SDK::Console::OS
 {
-	inline static constexpr unsigned int PayManagerPS___c__DisplayClass19_0_TypeDefinitionIndex = 9035;
+	inline static constexpr unsigned int PayManagerPS___c__DisplayClass19_0_TypeDefinitionIndex = 9096;
 
 	class PayManagerPS___c__DisplayClass19_0 : public ::System::Object
 	{
 	public:
-		::MiHoYo::SDK::Console::OS::PayManagerPS* __4__this; // 0x10
+		::System::Action_2<::Il2CppArray<::MiHoYo::SDK::Console::ConsoleProduct>*, ::System::Int32>* callback; // 0x10
 		::MiHoYo::SDK::PSDelegate_ProductsCallback* __9__1; // 0x18
-		::System::Action_2<::Il2CppArray<::MiHoYo::SDK::Console::ConsoleProduct>*, ::System::Int32>* callback; // 0x20
+		::MiHoYo::SDK::Console::OS::PayManagerPS* __4__this; // 0x20
 		::Il2CppArray<::System::String*>* idList; // 0x28
 
 		::System::Void _ctor()

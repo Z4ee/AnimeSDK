@@ -2,18 +2,24 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
+class Class_1_EE60750735AAF463;
+namespace RPG::Client { class AssemNPC; }
 namespace RPG::Client { class BAPartVariantRes; }
+namespace System { class String; }
 namespace UnityEngine::Rendering { class BatchAnimationInstance; }
 
-#define CLASS_1_EE60750735AAF463___C__DISPLAYCLASS18_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18A199D0)
-#define CLASS_1_EE60750735AAF463___C__DISPLAYCLASS18_0___LOADMEMBERS_B__0_OFFSET UNITYSDK_OFFSET(0x18A19F60)
+#define CLASS_1_EE60750735AAF463___C__DISPLAYCLASS18_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15E33540)
+#define CLASS_1_EE60750735AAF463___C__DISPLAYCLASS18_0___LOADMEMBERS_B__0_OFFSET UNITYSDK_OFFSET(0x15E33AD0)
 
-inline static constexpr unsigned int Class_1_EE60750735AAF463___c__DisplayClass18_0_TypeDefinitionIndex = 80827;
+inline static constexpr unsigned int Class_1_EE60750735AAF463___c__DisplayClass18_0_TypeDefinitionIndex = 82207;
 
 class Class_1_EE60750735AAF463___c__DisplayClass18_0 : public ::System::Object
 {
 public:
-	::RPG::Client::BAPartVariantRes* handler; // 0x10
+	::System::String* memberType; // 0x10
+	::Class_1_EE60750735AAF463* __4__this; // 0x18
+	::RPG::Client::BAPartVariantRes* handler; // 0x20
+	::RPG::Client::AssemNPC* parts; // 0x28
 
 	::System::Void _ctor()
 	{

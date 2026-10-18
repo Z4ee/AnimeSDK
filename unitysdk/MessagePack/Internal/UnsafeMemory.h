@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MESSAGEPACK_INTERNAL_UNSAFEMEMORY__CCTOR_OFFSET UNITYSDK_OFFSET(0x166AAC50)
+#define MESSAGEPACK_INTERNAL_UNSAFEMEMORY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BB8C070)
 
 namespace MessagePack::Internal
 {
-	inline static constexpr unsigned int UnsafeMemory_TypeDefinitionIndex = 7251;
+	inline static constexpr unsigned int UnsafeMemory_TypeDefinitionIndex = 7305;
 
 	class UnsafeMemory : public ::System::Object
 	{
 	public:
 		static ::System::Boolean* StaticGet_Is32Bit()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(UnsafeMemory_TypeDefinitionIndex)->GetStaticField(0xE670);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(UnsafeMemory_TypeDefinitionIndex)->GetStaticField(0x111B0);
 		}
 
 		static ::System::Void _cctor()

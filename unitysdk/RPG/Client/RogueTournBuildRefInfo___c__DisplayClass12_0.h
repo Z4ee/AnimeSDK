@@ -5,18 +5,18 @@
 namespace RPG::Client { class RogueTournBuildRefInfo; }
 namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 
-#define RPG_CLIENT_ROGUETOURNBUILDREFINFO___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1AEF7AD0)
-#define RPG_CLIENT_ROGUETOURNBUILDREFINFO___C__DISPLAYCLASS12_0___ADJUSTFAVORITEBUILDREFS_B__0_OFFSET UNITYSDK_OFFSET(0x1AEF9860)
+#define RPG_CLIENT_ROGUETOURNBUILDREFINFO___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0xDF798D0)
+#define RPG_CLIENT_ROGUETOURNBUILDREFINFO___C__DISPLAYCLASS12_0___ADJUSTFAVORITEBUILDREFS_B__0_OFFSET UNITYSDK_OFFSET(0xDF7B660)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournBuildRefInfo___c__DisplayClass12_0_TypeDefinitionIndex = 67527;
+	inline static constexpr unsigned int RogueTournBuildRefInfo___c__DisplayClass12_0_TypeDefinitionIndex = 67529;
 
 	class RogueTournBuildRefInfo___c__DisplayClass12_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::Promises::Promise_1<::System::Boolean>* promise; // 0x10
-		::RPG::Client::RogueTournBuildRefInfo* __4__this; // 0x18
+		::RPG::Client::RogueTournBuildRefInfo* __4__this; // 0x10
+		::RPG::Client::Promises::Promise_1<::System::Boolean>* promise; // 0x18
 
 		::System::Void _ctor()
 		{

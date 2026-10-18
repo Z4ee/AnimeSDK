@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/LittleGameShare/HoyoPhysics/PhysicsCollider2DConfig.h"
 #include "unitysdk/RPG/MVector2.h"
 
-#define CLASS_2_22A6199E0CD7C9E4__CTOR_OFFSET UNITYSDK_OFFSET(0x1AAE5930)
+#define CLASS_2_22A6199E0CD7C9E4__CTOR_OFFSET UNITYSDK_OFFSET(0x1C6B3610)
 
-inline static constexpr unsigned int Class_2_22A6199E0CD7C9E4_TypeDefinitionIndex = 35882;
+inline static constexpr unsigned int Class_2_22A6199E0CD7C9E4_TypeDefinitionIndex = 36569;
 
 class Class_2_22A6199E0CD7C9E4 : public ::RPG::LittleGameShare::HoyoPhysics::PhysicsCollider2DConfig
 {

@@ -5,19 +5,19 @@
 namespace UnityEngine::UI { class Image; }
 namespace UnityEngine::UI { class Text; }
 
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSLIMAOCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x1C544C70)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSLIMAOCONTROL__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x1C544A90)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSLIMAOCONTROL__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0x1C5449F0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSLIMAOCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0xD3B2270)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSLIMAOCONTROL__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0xD3B2090)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSLIMAOCONTROL__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0xD3B1FF0)
 
 namespace RPG::Client::LimaoNews
 {
-	inline static constexpr unsigned int LimaoNewsLimaoControl_TypeDefinitionIndex = 79033;
+	inline static constexpr unsigned int LimaoNewsLimaoControl_TypeDefinitionIndex = 80356;
 
 	class LimaoNewsLimaoControl : public ::Sofa::BaseSofaControl
 	{
 	public:
-		::UnityEngine::UI::Image* _Image; // 0x38
-		::UnityEngine::UI::Text* _Text; // 0x40
+		::UnityEngine::UI::Image* _Image; // 0x40
+		::UnityEngine::UI::Text* _Text; // 0x48
 
 		::System::Void _ctor()
 		{

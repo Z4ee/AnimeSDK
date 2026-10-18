@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define RPG_GAMECORE_LEVELDATACOMPONENT_BATTLESCORINGDATA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3C0BD60)
+#define RPG_GAMECORE_LEVELDATACOMPONENT_BATTLESCORINGDATA_TOSTRING_OFFSET UNITYSDK_OFFSET(0xF60D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelDataComponent_BattleScoringData_TypeDefinitionIndex = 57752;
+	inline static constexpr unsigned int LevelDataComponent_BattleScoringData_TypeDefinitionIndex = 57598;
 
 	struct alignas(8) LevelDataComponent_BattleScoringData
 	{

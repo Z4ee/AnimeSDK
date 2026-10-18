@@ -11,29 +11,29 @@ namespace UnityEngine::UI { class Image; }
 namespace UnityEngine::UI { class Text; }
 namespace XLua { class LuaTable; }
 
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSCOMMENTWITHREPLYCONTROL_SETSHOWLINENODE_OFFSET UNITYSDK_OFFSET(0x195087B0)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSCOMMENTWITHREPLYCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x1950AF90)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSCOMMENTWITHREPLYCONTROL__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x1950A6B0)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSCOMMENTWITHREPLYCONTROL__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0x1950A500)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSCOMMENTWITHREPLYCONTROL__ONNEWSUBCOMMENT_OFFSET UNITYSDK_OFFSET(0x1950AC00)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSCOMMENTWITHREPLYCONTROL__PLAYFADEINANIMATION_OFFSET UNITYSDK_OFFSET(0x1950AA50)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSCOMMENTWITHREPLYCONTROL_SETSHOWLINENODE_OFFSET UNITYSDK_OFFSET(0xD399000)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSCOMMENTWITHREPLYCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0xD39BBB0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSCOMMENTWITHREPLYCONTROL__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0xD39B270)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSCOMMENTWITHREPLYCONTROL__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0xD39B090)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSCOMMENTWITHREPLYCONTROL__ONNEWSUBCOMMENT_OFFSET UNITYSDK_OFFSET(0xD39B7F0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSCOMMENTWITHREPLYCONTROL__PLAYFADEINANIMATION_OFFSET UNITYSDK_OFFSET(0xD39B640)
 
 namespace RPG::Client::LimaoNews
 {
-	inline static constexpr unsigned int LimaoNewsCommentWithReplyControl_TypeDefinitionIndex = 79029;
+	inline static constexpr unsigned int LimaoNewsCommentWithReplyControl_TypeDefinitionIndex = 80352;
 
 	class LimaoNewsCommentWithReplyControl : public ::Sofa::BaseSofaControl
 	{
 	public:
-		::UnityEngine::Animation* _Animation; // 0x38
-		::UnityEngine::UI::Image* _ImageUser; // 0x40
-		::UnityEngine::UI::Text* _TextUserName; // 0x48
-		::UnityEngine::UI::Text* _TextDesc; // 0x50
-		::UnityEngine::Transform* _NodeTagBanned; // 0x58
-		::UnityEngine::Transform* _NodeTagOfficial; // 0x60
-		::UnityEngine::Transform* _NodeLine; // 0x68
-		::UnityEngine::Transform* _NodeSubComment; // 0x70
-		::RPG::Client::StaticListView* _ListSubComments; // 0x78
+		::UnityEngine::Animation* _Animation; // 0x40
+		::UnityEngine::UI::Image* _ImageUser; // 0x48
+		::UnityEngine::UI::Text* _TextUserName; // 0x50
+		::UnityEngine::UI::Text* _TextDesc; // 0x58
+		::UnityEngine::Transform* _NodeTagBanned; // 0x60
+		::UnityEngine::Transform* _NodeTagOfficial; // 0x68
+		::UnityEngine::Transform* _NodeLine; // 0x70
+		::UnityEngine::Transform* _NodeSubComment; // 0x78
+		::RPG::Client::StaticListView* _ListSubComments; // 0x80
 
 		::System::Void _ctor()
 		{

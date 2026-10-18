@@ -1,18 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_D17272E82AE804C2_282_Class_1_534EF681CC2FBEA4_Enum_3_0076592102B61814.h"
+#include "unitysdk/Class_1_D17272E82AE804C2_304_Class_1_534EF681CC2FBEA4_Enum_3_0076592102B61814.h"
 #include "unitysdk/RPG/GameCore/GenderType.h"
 #include "unitysdk/System/Object.h"
 
+class Class_0_16E4307DCC419505_503;
 namespace RPG::Client::TrainParty { class TrainPartyBuildDIYBadgeItem; }
 namespace RPG::Client::TrainParty { class TrainPartyBuildDIYNormalItem; }
 namespace RPG::Client::TrainParty { class TrainPartyBuildDIYPhotoItem; }
 
-#define CLASS_1_D5F9EE6089A58315_METHOD_1_604DC100022D68B5_OFFSET UNITYSDK_OFFSET(0x198ED4C0)
-#define CLASS_1_D5F9EE6089A58315_METHOD_1_A14373DB6278AA2B_OFFSET UNITYSDK_OFFSET(0x198ED420)
-#define CLASS_1_D5F9EE6089A58315_METHOD_1_DCCAD9E64EF566D9_OFFSET UNITYSDK_OFFSET(0x198ED3B0)
+#define CLASS_1_D5F9EE6089A58315_METHOD_1_604DC100022D68B5_OFFSET UNITYSDK_OFFSET(0xC252260)
+#define CLASS_1_D5F9EE6089A58315_METHOD_1_D6A3CE50272441A2_OFFSET UNITYSDK_OFFSET(0xC2520B0)
+#define CLASS_1_D5F9EE6089A58315_METHOD_1_DCCAD9E64EF566D9_OFFSET UNITYSDK_OFFSET(0xC252040)
+#define CLASS_1_D5F9EE6089A58315_METHOD_1_E3D29E1984E7690E_OFFSET UNITYSDK_OFFSET(0xC252180)
 
-inline static constexpr unsigned int Class_1_D5F9EE6089A58315_TypeDefinitionIndex = 68155;
+inline static constexpr unsigned int Class_1_D5F9EE6089A58315_TypeDefinitionIndex = 68163;
 
 class Class_1_D5F9EE6089A58315 : public ::System::Object
 {
@@ -22,13 +24,18 @@ public:
 		return ((::RPG::Client::TrainParty::TrainPartyBuildDIYNormalItem*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_D5F9EE6089A58315_METHOD_1_DCCAD9E64EF566D9_OFFSET))(a1);
 	}
 
-	static ::RPG::Client::TrainParty::TrainPartyBuildDIYBadgeItem* Method_1_A14373DB6278AA2B(::System::UInt32 a1, ::System::Int64 a2)
+	static ::RPG::Client::TrainParty::TrainPartyBuildDIYBadgeItem* Method_1_D6A3CE50272441A2(::Class_0_16E4307DCC419505_503* a1)
 	{
-		return ((::RPG::Client::TrainParty::TrainPartyBuildDIYBadgeItem*(*)(::System::UInt32, ::System::Int64))((::PBYTE)hIl2Cpp + CLASS_1_D5F9EE6089A58315_METHOD_1_A14373DB6278AA2B_OFFSET))(a1, a2);
+		return ((::RPG::Client::TrainParty::TrainPartyBuildDIYBadgeItem*(*)(::Class_0_16E4307DCC419505_503*))((::PBYTE)hIl2Cpp + CLASS_1_D5F9EE6089A58315_METHOD_1_D6A3CE50272441A2_OFFSET))(a1);
 	}
 
-	static ::RPG::Client::TrainParty::TrainPartyBuildDIYPhotoItem* Method_1_604DC100022D68B5(::Class_1_D17272E82AE804C2_282_Class_1_534EF681CC2FBEA4_Enum_3_0076592102B61814 a1, ::System::UInt32 a2, ::RPG::GameCore::GenderType a3)
+	static ::RPG::Client::TrainParty::TrainPartyBuildDIYBadgeItem* Method_1_E3D29E1984E7690E(::System::UInt32 a1, ::System::Int64 a2)
 	{
-		return ((::RPG::Client::TrainParty::TrainPartyBuildDIYPhotoItem*(*)(::Class_1_D17272E82AE804C2_282_Class_1_534EF681CC2FBEA4_Enum_3_0076592102B61814, ::System::UInt32, ::RPG::GameCore::GenderType))((::PBYTE)hIl2Cpp + CLASS_1_D5F9EE6089A58315_METHOD_1_604DC100022D68B5_OFFSET))(a1, a2, a3);
+		return ((::RPG::Client::TrainParty::TrainPartyBuildDIYBadgeItem*(*)(::System::UInt32, ::System::Int64))((::PBYTE)hIl2Cpp + CLASS_1_D5F9EE6089A58315_METHOD_1_E3D29E1984E7690E_OFFSET))(a1, a2);
+	}
+
+	static ::RPG::Client::TrainParty::TrainPartyBuildDIYPhotoItem* Method_1_604DC100022D68B5(::Class_1_D17272E82AE804C2_304_Class_1_534EF681CC2FBEA4_Enum_3_0076592102B61814 a1, ::System::UInt32 a2, ::RPG::GameCore::GenderType a3)
+	{
+		return ((::RPG::Client::TrainParty::TrainPartyBuildDIYPhotoItem*(*)(::Class_1_D17272E82AE804C2_304_Class_1_534EF681CC2FBEA4_Enum_3_0076592102B61814, ::System::UInt32, ::RPG::GameCore::GenderType))((::PBYTE)hIl2Cpp + CLASS_1_D5F9EE6089A58315_METHOD_1_604DC100022D68B5_OFFSET))(a1, a2, a3);
 	}
 };

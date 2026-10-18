@@ -6,20 +6,20 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_PHOTOEXHIBITIONCOMMENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D430690)
-#define RPG_GAMECORE_PHOTOEXHIBITIONCOMMENTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D4308C0)
+#define RPG_GAMECORE_PHOTOEXHIBITIONCOMMENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D8DED90)
+#define RPG_GAMECORE_PHOTOEXHIBITIONCOMMENTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D8DEFC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PhotoExhibitionCommentRow_TypeDefinitionIndex = 12039;
+	inline static constexpr unsigned int PhotoExhibitionCommentRow_TypeDefinitionIndex = 12120;
 
 	class PhotoExhibitionCommentRow : public ::System::Object
 	{
 	public:
 		::System::String* NpcHandIcon; // 0x10
-		::System::UInt32 ID; // 0x18
-		::RPG::Client::TextID Reply; // 0x20
-		::RPG::Client::TextID Name; // 0x30
+		::RPG::Client::TextID Name; // 0x18
+		::RPG::Client::TextID Reply; // 0x28
+		::System::UInt32 ID; // 0x38
 
 		::System::Void _ctor()
 		{

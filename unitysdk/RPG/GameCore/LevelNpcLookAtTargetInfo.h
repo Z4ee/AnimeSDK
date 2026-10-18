@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_LEVELNPCLOOKATTARGETINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1C11B500)
-#define RPG_GAMECORE_LEVELNPCLOOKATTARGETINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1C1255F0)
+#define RPG_GAMECORE_LEVELNPCLOOKATTARGETINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D7870B0)
+#define RPG_GAMECORE_LEVELNPCLOOKATTARGETINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1D791C10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelNpcLookAtTargetInfo_TypeDefinitionIndex = 17163;
+	inline static constexpr unsigned int LevelNpcLookAtTargetInfo_TypeDefinitionIndex = 17358;
 
 	class LevelNpcLookAtTargetInfo : public ::RPG::GameCore::JsonConfig
 	{

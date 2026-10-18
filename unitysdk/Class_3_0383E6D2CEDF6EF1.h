@@ -1,0 +1,25 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/PredicateTaskBase_1.h"
+
+namespace RPG::GameCore { class ByIsForbidChangeOthersActionDelay; }
+namespace RPG::GameCore { class TaskContext; }
+
+#define CLASS_3_0383E6D2CEDF6EF1_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15E365D0)
+#define CLASS_3_0383E6D2CEDF6EF1__CTOR_OFFSET UNITYSDK_OFFSET(0x15E365A0)
+
+inline static constexpr unsigned int Class_3_0383E6D2CEDF6EF1_TypeDefinitionIndex = 55070;
+
+class Class_3_0383E6D2CEDF6EF1 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByIsForbidChangeOthersActionDelay*>
+{
+public:
+	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ByIsForbidChangeOthersActionDelay* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::ByIsForbidChangeOthersActionDelay*))((::PBYTE)hIl2Cpp + CLASS_3_0383E6D2CEDF6EF1__CTOR_OFFSET))(this, a1, a2);
+	}
+
+	::System::Boolean Evaluate()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_0383E6D2CEDF6EF1_EVALUATE_OFFSET))(this);
+	}
+};

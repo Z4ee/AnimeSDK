@@ -4,18 +4,18 @@
 
 namespace System { class String; }
 
-#define CLASS_3_C8FD4C1D4B4F5A99__CCTOR_OFFSET UNITYSDK_OFFSET(0x18D26E40)
-#define CLASS_3_C8FD4C1D4B4F5A99__CTOR_OFFSET UNITYSDK_OFFSET(0x18D26E10)
-#define CLASS_3_C8FD4C1D4B4F5A99__ONBIND_OFFSET UNITYSDK_OFFSET(0x18D26AF0)
+#define CLASS_3_C8FD4C1D4B4F5A99__CCTOR_OFFSET UNITYSDK_OFFSET(0xB42D6E0)
+#define CLASS_3_C8FD4C1D4B4F5A99__CTOR_OFFSET UNITYSDK_OFFSET(0xB42D6B0)
+#define CLASS_3_C8FD4C1D4B4F5A99__ONBIND_OFFSET UNITYSDK_OFFSET(0xB42D390)
 
-inline static constexpr unsigned int Class_3_C8FD4C1D4B4F5A99_TypeDefinitionIndex = 71455;
+inline static constexpr unsigned int Class_3_C8FD4C1D4B4F5A99_TypeDefinitionIndex = 71497;
 
 class Class_3_C8FD4C1D4B4F5A99 : public ::Class_2_99AE43441189916F
 {
 public:
 	static ::System::String** StaticGet_JFCMCPFPDFP()
 	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_3_C8FD4C1D4B4F5A99_TypeDefinitionIndex)->GetStaticField(0x5B990);
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_3_C8FD4C1D4B4F5A99_TypeDefinitionIndex)->GetStaticField(0x2BD90);
 	}
 
 	::System::Void _ctor()

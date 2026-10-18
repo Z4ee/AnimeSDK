@@ -9,7 +9,7 @@ namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int ToUniTaskAsyncEnumerableTask_1__ToUniTaskAsyncEnumerableTask__MoveNextAsync_d__7_TypeDefinitionIndex = 44567;
+	inline static constexpr unsigned int ToUniTaskAsyncEnumerableTask_1__ToUniTaskAsyncEnumerableTask__MoveNextAsync_d__7_TypeDefinitionIndex = 45706;
 
 	template <typename T>
 	struct ToUniTaskAsyncEnumerableTask_1__ToUniTaskAsyncEnumerableTask__MoveNextAsync_d__7

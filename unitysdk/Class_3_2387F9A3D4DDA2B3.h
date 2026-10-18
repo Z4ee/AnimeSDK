@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ChimePuzzleLockChime; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_2387F9A3D4DDA2B3_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x19A9C490)
-#define CLASS_3_2387F9A3D4DDA2B3__CTOR_OFFSET UNITYSDK_OFFSET(0x19A9C460)
+#define CLASS_3_2387F9A3D4DDA2B3_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB94CC30)
+#define CLASS_3_2387F9A3D4DDA2B3__CTOR_OFFSET UNITYSDK_OFFSET(0xB94CC00)
 
-inline static constexpr unsigned int Class_3_2387F9A3D4DDA2B3_TypeDefinitionIndex = 58172;
+inline static constexpr unsigned int Class_3_2387F9A3D4DDA2B3_TypeDefinitionIndex = 58020;
 
 class Class_3_2387F9A3D4DDA2B3 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ChimePuzzleLockChime*>
 {

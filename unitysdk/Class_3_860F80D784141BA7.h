@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AdvByCompareInvasionLevel; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_860F80D784141BA7_EVALUATE_OFFSET UNITYSDK_OFFSET(0x198AD570)
-#define CLASS_3_860F80D784141BA7__CTOR_OFFSET UNITYSDK_OFFSET(0x198AD540)
+#define CLASS_3_860F80D784141BA7_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB4A4920)
+#define CLASS_3_860F80D784141BA7__CTOR_OFFSET UNITYSDK_OFFSET(0xB4A48F0)
 
-inline static constexpr unsigned int Class_3_860F80D784141BA7_TypeDefinitionIndex = 54665;
+inline static constexpr unsigned int Class_3_860F80D784141BA7_TypeDefinitionIndex = 54452;
 
 class Class_3_860F80D784141BA7 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::AdvByCompareInvasionLevel*>
 {

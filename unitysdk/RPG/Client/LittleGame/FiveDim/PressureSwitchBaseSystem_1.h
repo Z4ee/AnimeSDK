@@ -10,13 +10,13 @@ namespace RPG::Client::LittleGame::FiveDim { template <typename T> class IEntity
 namespace RPG::Client::LittleGame::FiveDim { template <typename T> class IFiveDimEventService_1; }
 namespace RPG::Client::LittleGame::FiveDim { template <typename T> class IFiveDimLevelVarService_1; }
 namespace RPG::Client::LittleGame::FiveDim { template <typename T> class PressureSwitchBaseSystem_1_LevelVarCallbackCache; }
-namespace RPG::GameCore { class FiveDimDynamicVar; }
+namespace RPG::GameCore { class LittleGameDynamicVar; }
 namespace System { class String; }
 namespace UnityEngine { class Collider; }
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int PressureSwitchBaseSystem_1_TypeDefinitionIndex = 76671;
+	inline static constexpr unsigned int PressureSwitchBaseSystem_1_TypeDefinitionIndex = 77142;
 
 	template <typename T>
 	class PressureSwitchBaseSystem_1 : public ::System::Object

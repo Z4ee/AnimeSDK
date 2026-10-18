@@ -11,20 +11,20 @@ namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 namespace Google::Protobuf::Reflection { class ServiceDescriptor; }
 namespace Google::Protobuf::Reflection { class ServiceDescriptorProto; }
 
-#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1AAA40E0)
-#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR___C__DISPLAYCLASS2_0___CTOR_B__0_OFFSET UNITYSDK_OFFSET(0x1AAA7BE0)
-#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR___C__DISPLAYCLASS2_0___CTOR_B__1_OFFSET UNITYSDK_OFFSET(0x1AAA80E0)
-#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR___C__DISPLAYCLASS2_0___CTOR_B__2_OFFSET UNITYSDK_OFFSET(0x1AAA8190)
+#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B85D5E0)
+#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR___C__DISPLAYCLASS2_0___CTOR_B__0_OFFSET UNITYSDK_OFFSET(0x1B861110)
+#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR___C__DISPLAYCLASS2_0___CTOR_B__1_OFFSET UNITYSDK_OFFSET(0x1B861610)
+#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR___C__DISPLAYCLASS2_0___CTOR_B__2_OFFSET UNITYSDK_OFFSET(0x1B8616C0)
 
 namespace Google::Protobuf::Reflection
 {
-	inline static constexpr unsigned int FileDescriptor___c__DisplayClass2_0_TypeDefinitionIndex = 5538;
+	inline static constexpr unsigned int FileDescriptor___c__DisplayClass2_0_TypeDefinitionIndex = 5545;
 
 	class FileDescriptor___c__DisplayClass2_0 : public ::System::Object
 	{
 	public:
-		::Google::Protobuf::Reflection::FileDescriptor* __4__this; // 0x10
-		::Google::Protobuf::Reflection::GeneratedClrTypeInfo* generatedCodeInfo; // 0x18
+		::Google::Protobuf::Reflection::GeneratedClrTypeInfo* generatedCodeInfo; // 0x10
+		::Google::Protobuf::Reflection::FileDescriptor* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class LockMainStreamSourceToSwitchAnchorPos; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_87EEE808EDBD5715_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x188BDE00)
-#define CLASS_3_87EEE808EDBD5715__CTOR_OFFSET UNITYSDK_OFFSET(0x188BDDD0)
+#define CLASS_3_87EEE808EDBD5715_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB90E760)
+#define CLASS_3_87EEE808EDBD5715__CTOR_OFFSET UNITYSDK_OFFSET(0xB90E730)
 
-inline static constexpr unsigned int Class_3_87EEE808EDBD5715_TypeDefinitionIndex = 58357;
+inline static constexpr unsigned int Class_3_87EEE808EDBD5715_TypeDefinitionIndex = 58205;
 
 class Class_3_87EEE808EDBD5715 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::LockMainStreamSourceToSwitchAnchorPos*>
 {

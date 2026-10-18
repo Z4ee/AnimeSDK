@@ -3,7 +3,7 @@
 
 namespace RPG::Client::Tween
 {
-	inline static constexpr unsigned int Ease_TypeDefinitionIndex = 73379;
+	inline static constexpr unsigned int Ease_TypeDefinitionIndex = 73486;
 
 	enum class Ease : ::System::Int32
 	{

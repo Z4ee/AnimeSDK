@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByInTurnBasedGameModeState; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_A64D6E5B36D6E184_EVALUATE_OFFSET UNITYSDK_OFFSET(0x18370F60)
-#define CLASS_3_A64D6E5B36D6E184__CTOR_OFFSET UNITYSDK_OFFSET(0x18370F30)
+#define CLASS_3_A64D6E5B36D6E184_EVALUATE_OFFSET UNITYSDK_OFFSET(0x164D6200)
+#define CLASS_3_A64D6E5B36D6E184__CTOR_OFFSET UNITYSDK_OFFSET(0x164D61D0)
 
-inline static constexpr unsigned int Class_3_A64D6E5B36D6E184_TypeDefinitionIndex = 54844;
+inline static constexpr unsigned int Class_3_A64D6E5B36D6E184_TypeDefinitionIndex = 54632;
 
 class Class_3_A64D6E5B36D6E184 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByInTurnBasedGameModeState*>
 {

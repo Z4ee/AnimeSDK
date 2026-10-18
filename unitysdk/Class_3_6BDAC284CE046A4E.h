@@ -7,10 +7,10 @@ namespace RPG::GameCore { class RemoveBehaviorFlagForModifier; }
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 
-#define CLASS_3_6BDAC284CE046A4E_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17D33330)
-#define CLASS_3_6BDAC284CE046A4E__CTOR_OFFSET UNITYSDK_OFFSET(0x17D33300)
+#define CLASS_3_6BDAC284CE046A4E_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBF85640)
+#define CLASS_3_6BDAC284CE046A4E__CTOR_OFFSET UNITYSDK_OFFSET(0xBF85610)
 
-inline static constexpr unsigned int Class_3_6BDAC284CE046A4E_TypeDefinitionIndex = 55381;
+inline static constexpr unsigned int Class_3_6BDAC284CE046A4E_TypeDefinitionIndex = 55178;
 
 class Class_3_6BDAC284CE046A4E : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::RemoveBehaviorFlagForModifier*>
 {

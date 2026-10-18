@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_RUNTIME_VERSIONING_BINARYCOMPATIBILITY_GET_TARGETSATLEAST_DESKTOP_V4_5_2_OFFSET UNITYSDK_OFFSET(0x19B9D120)
-#define SYSTEM_RUNTIME_VERSIONING_BINARYCOMPATIBILITY__CCTOR_OFFSET UNITYSDK_OFFSET(0x19B9D130)
+#define SYSTEM_RUNTIME_VERSIONING_BINARYCOMPATIBILITY_GET_TARGETSATLEAST_DESKTOP_V4_5_2_OFFSET UNITYSDK_OFFSET(0x1C3129C0)
+#define SYSTEM_RUNTIME_VERSIONING_BINARYCOMPATIBILITY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C3129D0)
 
 namespace System::Runtime::Versioning
 {
@@ -14,11 +14,11 @@ namespace System::Runtime::Versioning
 	public:
 		static ::System::Boolean* StaticGet_TargetsAtLeast_Desktop_V4_5()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(BinaryCompatibility_TypeDefinitionIndex)->GetStaticField(0x21B0);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(BinaryCompatibility_TypeDefinitionIndex)->GetStaticField(0x4C90);
 		}
 		static ::System::Boolean* StaticGet_TargetsAtLeast_Desktop_V4_5_1()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(BinaryCompatibility_TypeDefinitionIndex)->GetStaticField(0x21B1);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(BinaryCompatibility_TypeDefinitionIndex)->GetStaticField(0x4C91);
 		}
 
 		static ::System::Void _cctor()

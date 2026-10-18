@@ -10,22 +10,22 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class ModifierHint; }
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 
-#define CLASS_1_52DF42E136544C98_METHOD_1_53701A90DF3011E8_OFFSET UNITYSDK_OFFSET(0x1817EDD0)
-#define CLASS_1_52DF42E136544C98_METHOD_1_B751F95C5831C42B_OFFSET UNITYSDK_OFFSET(0x1817EF60)
-#define CLASS_1_52DF42E136544C98__CTOR_OFFSET UNITYSDK_OFFSET(0x1817EDC0)
+#define CLASS_1_52DF42E136544C98_METHOD_1_53701A90DF3011E8_OFFSET UNITYSDK_OFFSET(0xB8B6920)
+#define CLASS_1_52DF42E136544C98_METHOD_1_B751F95C5831C42B_OFFSET UNITYSDK_OFFSET(0xB8B6AB0)
+#define CLASS_1_52DF42E136544C98__CTOR_OFFSET UNITYSDK_OFFSET(0xB8B6910)
 
-inline static constexpr unsigned int Class_1_52DF42E136544C98_TypeDefinitionIndex = 71288;
+inline static constexpr unsigned int Class_1_52DF42E136544C98_TypeDefinitionIndex = 71326;
 
 class Class_1_52DF42E136544C98 : public ::System::Object
 {
 public:
-	::RPG::GameCore::TurnBasedModifierInstance* ILIIOLJMKME; // 0x10
+	::Il2CppArray<::RPG::GameCore::DynamicFloat*>* PFGICILMFPD; // 0x10
 	::Il2CppArray<::RPG::GameCore::FixPoint>* HLJCDHMCPAI; // 0x18
-	::Il2CppArray<::RPG::GameCore::DynamicFloat*>* PFGICILMFPD; // 0x20
-	::System::Int32 NALMBOOCCIN; // 0x28
-	::System::Int32 CKOIMOLALEH; // 0x2C
-	::RPG::GameCore::ModifierHintType INAHCAEDLEA; // 0x30
-	::RPG::Client::TextID NMAHGFAPENI; // 0x38
+	::RPG::GameCore::TurnBasedModifierInstance* ILIIOLJMKME; // 0x20
+	::System::Int32 CKOIMOLALEH; // 0x28
+	::System::Int32 NALMBOOCCIN; // 0x2C
+	::RPG::Client::TextID NMAHGFAPENI; // 0x30
+	::RPG::GameCore::ModifierHintType INAHCAEDLEA; // 0x40
 
 	::System::Void _ctor()
 	{

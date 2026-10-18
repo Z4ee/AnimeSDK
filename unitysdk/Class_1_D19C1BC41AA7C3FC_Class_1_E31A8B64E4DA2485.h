@@ -2,17 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_D19C1BC41AA7C3FC_CLASS_1_E31A8B64E4DA2485__CTOR_OFFSET UNITYSDK_OFFSET(0x1875E290)
+#define CLASS_1_D19C1BC41AA7C3FC_CLASS_1_E31A8B64E4DA2485__CTOR_OFFSET UNITYSDK_OFFSET(0xB77CF50)
 
-inline static constexpr unsigned int Class_1_D19C1BC41AA7C3FC_Class_1_E31A8B64E4DA2485_TypeDefinitionIndex = 64757;
+inline static constexpr unsigned int Class_1_D19C1BC41AA7C3FC_Class_1_E31A8B64E4DA2485_TypeDefinitionIndex = 64697;
 
 class Class_1_D19C1BC41AA7C3FC_Class_1_E31A8B64E4DA2485 : public ::System::Object
 {
 public:
 	::Il2CppArray<::System::UInt32>* EquipIDs; // 0x10
-	::System::UInt32 Pos; // 0x18
+	::System::UInt32 Star; // 0x18
 	::System::UInt32 RoleID; // 0x1C
-	::System::UInt32 Star; // 0x20
+	::System::UInt32 Pos; // 0x20
 
 	::System::Void _ctor()
 	{

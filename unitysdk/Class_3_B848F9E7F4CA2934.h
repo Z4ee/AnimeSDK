@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class WolfBroGunPlayPuzzleSetupStartupMode; }
 
-#define CLASS_3_B848F9E7F4CA2934_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x179BCA20)
-#define CLASS_3_B848F9E7F4CA2934__CTOR_OFFSET UNITYSDK_OFFSET(0x179BC9F0)
+#define CLASS_3_B848F9E7F4CA2934_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1575BA30)
+#define CLASS_3_B848F9E7F4CA2934__CTOR_OFFSET UNITYSDK_OFFSET(0x1575BA00)
 
-inline static constexpr unsigned int Class_3_B848F9E7F4CA2934_TypeDefinitionIndex = 59105;
+inline static constexpr unsigned int Class_3_B848F9E7F4CA2934_TypeDefinitionIndex = 58957;
 
 class Class_3_B848F9E7F4CA2934 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::WolfBroGunPlayPuzzleSetupStartupMode*>
 {

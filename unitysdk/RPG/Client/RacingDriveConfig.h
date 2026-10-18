@@ -5,11 +5,11 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_RACINGDRIVECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18059EC0)
+#define RPG_CLIENT_RACINGDRIVECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xDE35000)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RacingDriveConfig_TypeDefinitionIndex = 59910;
+	inline static constexpr unsigned int RacingDriveConfig_TypeDefinitionIndex = 59773;
 
 	class RacingDriveConfig : public ::System::Object
 	{

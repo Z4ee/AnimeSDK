@@ -2,31 +2,24 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class SceneLightVolume;
 namespace System { class Action; }
-namespace System { template <typename T> class Comparison_1; }
 
-#define CLASS_3_BC5A8D236BEA30C1___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A791DA0)
-#define CLASS_3_BC5A8D236BEA30C1___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A791DE0)
-#define CLASS_3_BC5A8D236BEA30C1___C__GETACTIVESCENELIGHTVOLUME_B__25_0_OFFSET UNITYSDK_OFFSET(0x1A791E00)
-#define CLASS_3_BC5A8D236BEA30C1___C__RESETLIGHTV1_B__13_0_OFFSET UNITYSDK_OFFSET(0x1A791DF0)
+#define CLASS_3_BC5A8D236BEA30C1___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xB29D4D0)
+#define CLASS_3_BC5A8D236BEA30C1___C__CTOR_OFFSET UNITYSDK_OFFSET(0xB29D510)
+#define CLASS_3_BC5A8D236BEA30C1___C__RESETLIGHTV1_B__13_0_OFFSET UNITYSDK_OFFSET(0xB29D520)
 
-inline static constexpr unsigned int Class_3_BC5A8D236BEA30C1___c_TypeDefinitionIndex = 49767;
+inline static constexpr unsigned int Class_3_BC5A8D236BEA30C1___c_TypeDefinitionIndex = 49342;
 
 class Class_3_BC5A8D236BEA30C1___c : public ::System::Object
 {
 public:
 	static ::Class_3_BC5A8D236BEA30C1___c** StaticGet___9()
 	{
-		return (::Class_3_BC5A8D236BEA30C1___c**)Il2CppClass::FromTypeDefinitionIndex(Class_3_BC5A8D236BEA30C1___c_TypeDefinitionIndex)->GetStaticField(0x54400);
-	}
-	static ::System::Comparison_1<::SceneLightVolume*>** StaticGet___9__25_0()
-	{
-		return (::System::Comparison_1<::SceneLightVolume*>**)Il2CppClass::FromTypeDefinitionIndex(Class_3_BC5A8D236BEA30C1___c_TypeDefinitionIndex)->GetStaticField(0x54408);
+		return (::Class_3_BC5A8D236BEA30C1___c**)Il2CppClass::FromTypeDefinitionIndex(Class_3_BC5A8D236BEA30C1___c_TypeDefinitionIndex)->GetStaticField(0x24B10);
 	}
 	static ::System::Action** StaticGet___9__13_0()
 	{
-		return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(Class_3_BC5A8D236BEA30C1___c_TypeDefinitionIndex)->GetStaticField(0x54410);
+		return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(Class_3_BC5A8D236BEA30C1___c_TypeDefinitionIndex)->GetStaticField(0x24B18);
 	}
 
 	static ::System::Void _cctor()
@@ -42,10 +35,5 @@ public:
 	::System::Void _ResetLightV1_b__13_0()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_BC5A8D236BEA30C1___C__RESETLIGHTV1_B__13_0_OFFSET))(this);
-	}
-
-	::System::Int32 _GetActiveSceneLightVolume_b__25_0(::SceneLightVolume* a1, ::SceneLightVolume* a2)
-	{
-		return ((::System::Int32(*)(::PVOID, ::SceneLightVolume*, ::SceneLightVolume*))((::PBYTE)hIl2Cpp + CLASS_3_BC5A8D236BEA30C1___C__GETACTIVESCENELIGHTVOLUME_B__25_0_OFFSET))(this, a1, a2);
 	}
 };

@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define ENVIROMENTSYSTEMV2SPACE_LAYOUTPROPERTYDATABASE__CTOR_OFFSET UNITYSDK_OFFSET(0x106EA020)
+#define ENVIROMENTSYSTEMV2SPACE_LAYOUTPROPERTYDATABASE__CTOR_OFFSET UNITYSDK_OFFSET(0x15649DE0)
 
 namespace EnviromentSystemV2Space
 {
-	inline static constexpr unsigned int LayoutPropertyDataBase_TypeDefinitionIndex = 49790;
+	inline static constexpr unsigned int LayoutPropertyDataBase_TypeDefinitionIndex = 49365;
 
 	class LayoutPropertyDataBase : public ::EnviromentSystemV2Space::PropertyDataBase
 	{

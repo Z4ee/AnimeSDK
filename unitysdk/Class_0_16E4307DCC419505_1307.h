@@ -1,10 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Rect.h"
 
-namespace RPG::Client::Prop { class DuelChimeraProxy; }
-namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
-
-inline static constexpr unsigned int Class_0_16E4307DCC419505_1307_TypeDefinitionIndex = 77919;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_1307_TypeDefinitionIndex = 73798;
 
 class Class_0_16E4307DCC419505_1307
 {

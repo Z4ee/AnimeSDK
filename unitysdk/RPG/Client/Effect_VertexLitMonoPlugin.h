@@ -9,13 +9,13 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Light; }
 namespace UnityEngine { class ParticleSystem; }
 
-#define RPG_CLIENT_EFFECT_VERTEXLITMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x1AC526B0)
-#define RPG_CLIENT_EFFECT_VERTEXLITMONOPLUGIN_GET_BEHAVIOR_OFFSET UNITYSDK_OFFSET(0x1AC52620)
-#define RPG_CLIENT_EFFECT_VERTEXLITMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x1AC52700)
+#define RPG_CLIENT_EFFECT_VERTEXLITMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xCD6EAF0)
+#define RPG_CLIENT_EFFECT_VERTEXLITMONOPLUGIN_GET_BEHAVIOR_OFFSET UNITYSDK_OFFSET(0xCD6EA60)
+#define RPG_CLIENT_EFFECT_VERTEXLITMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xCD6EB40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_VertexLitMonoPlugin_TypeDefinitionIndex = 70550;
+	inline static constexpr unsigned int Effect_VertexLitMonoPlugin_TypeDefinitionIndex = 70586;
 
 	class Effect_VertexLitMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::Effect_VertexLitBehavior*>
 	{

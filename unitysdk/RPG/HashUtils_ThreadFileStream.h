@@ -4,18 +4,18 @@
 
 namespace System { class String; }
 
-#define RPG_HASHUTILS_THREADFILESTREAM_READ_OFFSET UNITYSDK_OFFSET(0x163BC4A0)
-#define RPG_HASHUTILS_THREADFILESTREAM__CTOR_OFFSET UNITYSDK_OFFSET(0x163BB3D0)
+#define RPG_HASHUTILS_THREADFILESTREAM_READ_OFFSET UNITYSDK_OFFSET(0x1DD5E840)
+#define RPG_HASHUTILS_THREADFILESTREAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD5D730)
 
 namespace RPG
 {
-	inline static constexpr unsigned int HashUtils_ThreadFileStream_TypeDefinitionIndex = 6364;
+	inline static constexpr unsigned int HashUtils_ThreadFileStream_TypeDefinitionIndex = 6373;
 
 	class HashUtils_ThreadFileStream : public ::System::IO::FileStream
 	{
 	public:
-		::System::Int32 _SleepFreq; // 0x68
-		::System::Int32 _ReadCount; // 0x6C
+		::System::Int32 _ReadCount; // 0x68
+		::System::Int32 _SleepFreq; // 0x6C
 		::System::Int32 _SleepMS; // 0x70
 
 		::System::Void _ctor(::System::String* a1, ::System::Int32 a2, ::System::Int32 a3)

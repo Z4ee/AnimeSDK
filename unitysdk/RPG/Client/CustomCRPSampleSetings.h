@@ -6,11 +6,11 @@
 namespace System { class String; }
 namespace UnityEngine { class Camera; }
 
-#define RPG_CLIENT_CUSTOMCRPSAMPLESETINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x192D3720)
+#define RPG_CLIENT_CUSTOMCRPSAMPLESETINGS__CTOR_OFFSET UNITYSDK_OFFSET(0xCBD7D70)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CustomCRPSampleSetings_TypeDefinitionIndex = 70077;
+	inline static constexpr unsigned int CustomCRPSampleSetings_TypeDefinitionIndex = 70112;
 
 	class CustomCRPSampleSetings : public ::System::Object
 	{

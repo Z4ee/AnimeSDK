@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_PROP_CHIMERADUELSHOPCHIMERAINSTANCEVIEW_VFXCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1A8E4320)
+#define RPG_CLIENT_PROP_CHIMERADUELSHOPCHIMERAINSTANCEVIEW_VFXCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xDC68A50)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraDuelShopChimeraInstanceView_VfxConfig_TypeDefinitionIndex = 77871;
+	inline static constexpr unsigned int ChimeraDuelShopChimeraInstanceView_VfxConfig_TypeDefinitionIndex = 78342;
 
 	class ChimeraDuelShopChimeraInstanceView_VfxConfig : public ::System::Object
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattlePerformanceCondition_TypeDefinitionIndex = 10483;
+	inline static constexpr unsigned int BattlePerformanceCondition_TypeDefinitionIndex = 10499;
 
 	enum class BattlePerformanceCondition : ::System::Int32
 	{

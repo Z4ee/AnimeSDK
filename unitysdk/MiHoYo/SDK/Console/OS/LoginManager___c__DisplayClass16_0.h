@@ -5,18 +5,18 @@
 namespace MiHoYo::SDK::Console::OS { class LoginManager; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_CONSOLE_OS_LOGINMANAGER___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17369A50)
-#define MIHOYO_SDK_CONSOLE_OS_LOGINMANAGER___C__DISPLAYCLASS16_0__HANDLEAGEGATECOMPLETEDCALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0x1736BE80)
+#define MIHOYO_SDK_CONSOLE_OS_LOGINMANAGER___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC9C080)
+#define MIHOYO_SDK_CONSOLE_OS_LOGINMANAGER___C__DISPLAYCLASS16_0__HANDLEAGEGATECOMPLETEDCALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0x1BC9E4B0)
 
 namespace MiHoYo::SDK::Console::OS
 {
-	inline static constexpr unsigned int LoginManager___c__DisplayClass16_0_TypeDefinitionIndex = 9017;
+	inline static constexpr unsigned int LoginManager___c__DisplayClass16_0_TypeDefinitionIndex = 9078;
 
 	class LoginManager___c__DisplayClass16_0 : public ::System::Object
 	{
 	public:
-		::System::String* ticket; // 0x10
-		::MiHoYo::SDK::Console::OS::LoginManager* __4__this; // 0x18
+		::MiHoYo::SDK::Console::OS::LoginManager* __4__this; // 0x10
+		::System::String* ticket; // 0x18
 
 		::System::Void _ctor()
 		{

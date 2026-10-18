@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/GameCore/EventType.h"
 #include "unitysdk/System/Attribute.h"
 
-#define CLASS_2_E55AE8831AAE79EB_2__CTOR_OFFSET UNITYSDK_OFFSET(0x17EB2830)
+#define CLASS_2_E55AE8831AAE79EB_2__CTOR_OFFSET UNITYSDK_OFFSET(0xB131BE0)
 
-inline static constexpr unsigned int Class_2_E55AE8831AAE79EB_2_TypeDefinitionIndex = 70204;
+inline static constexpr unsigned int Class_2_E55AE8831AAE79EB_2_TypeDefinitionIndex = 70240;
 
 class Class_2_E55AE8831AAE79EB_2 : public ::System::Attribute
 {

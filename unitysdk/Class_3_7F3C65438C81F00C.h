@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByCompareSpecialAvatarType; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_7F3C65438C81F00C_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1A8DEE10)
-#define CLASS_3_7F3C65438C81F00C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A8DEDE0)
+#define CLASS_3_7F3C65438C81F00C_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15C22250)
+#define CLASS_3_7F3C65438C81F00C__CTOR_OFFSET UNITYSDK_OFFSET(0x15C22220)
 
-inline static constexpr unsigned int Class_3_7F3C65438C81F00C_TypeDefinitionIndex = 54781;
+inline static constexpr unsigned int Class_3_7F3C65438C81F00C_TypeDefinitionIndex = 54569;
 
 class Class_3_7F3C65438C81F00C : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByCompareSpecialAvatarType*>
 {

@@ -7,18 +7,18 @@
 
 namespace Cysharp::Threading::Tasks { template <typename T> class IUniTaskAsyncEnumerator_1; }
 
-#define CYSHARP_THREADING_TASKS_LINQ_EVERYUPDATE_GETASYNCENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1CE51880)
-#define CYSHARP_THREADING_TASKS_LINQ_EVERYUPDATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE51870)
+#define CYSHARP_THREADING_TASKS_LINQ_EVERYUPDATE_GETASYNCENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1F0D0520)
+#define CYSHARP_THREADING_TASKS_LINQ_EVERYUPDATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F0D0510)
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int EveryUpdate_TypeDefinitionIndex = 44573;
+	inline static constexpr unsigned int EveryUpdate_TypeDefinitionIndex = 45712;
 
 	class EveryUpdate : public ::System::Object
 	{
 	public:
-		::Cysharp::Threading::Tasks::PlayerLoopTiming updateTiming; // 0x10
-		::System::Boolean cancelImmediately; // 0x14
+		::System::Boolean cancelImmediately; // 0x10
+		::Cysharp::Threading::Tasks::PlayerLoopTiming updateTiming; // 0x14
 
 		::System::Void _ctor(::Cysharp::Threading::Tasks::PlayerLoopTiming a1, ::System::Boolean a2)
 		{

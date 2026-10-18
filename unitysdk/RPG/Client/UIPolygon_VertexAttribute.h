@@ -4,11 +4,11 @@
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define RPG_CLIENT_UIPOLYGON_VERTEXATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x3AB3DE0)
+#define RPG_CLIENT_UIPOLYGON_VERTEXATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0xF3420)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIPolygon_VertexAttribute_TypeDefinitionIndex = 72621;
+	inline static constexpr unsigned int UIPolygon_VertexAttribute_TypeDefinitionIndex = 72696;
 
 	struct alignas(4) UIPolygon_VertexAttribute
 	{

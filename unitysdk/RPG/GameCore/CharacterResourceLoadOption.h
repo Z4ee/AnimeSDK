@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterResourceLoadOption_TypeDefinitionIndex = 16351;
+	inline static constexpr unsigned int CharacterResourceLoadOption_TypeDefinitionIndex = 16524;
 
 	enum class CharacterResourceLoadOption : ::System::Int32
 	{

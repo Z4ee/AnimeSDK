@@ -3,17 +3,17 @@
 #include "unitysdk/RPG/GameCore/TurnBasedModifierEventScope.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_C9374C34A234A2B9_METHOD_1_9A263B7DE0D16163_OFFSET UNITYSDK_OFFSET(0x17926390)
-#define CLASS_1_C9374C34A234A2B9__CCTOR_OFFSET UNITYSDK_OFFSET(0x17926360)
+#define CLASS_1_C9374C34A234A2B9_METHOD_1_9A263B7DE0D16163_OFFSET UNITYSDK_OFFSET(0x154D65A0)
+#define CLASS_1_C9374C34A234A2B9__CCTOR_OFFSET UNITYSDK_OFFSET(0x154D6570)
 
-inline static constexpr unsigned int Class_1_C9374C34A234A2B9_TypeDefinitionIndex = 56012;
+inline static constexpr unsigned int Class_1_C9374C34A234A2B9_TypeDefinitionIndex = 55824;
 
 class Class_1_C9374C34A234A2B9 : public ::System::Object
 {
 public:
 	static ::Il2CppArray<::RPG::GameCore::TurnBasedModifierEventScope>** StaticGet_NOAMHEEOGHP()
 	{
-		return (::Il2CppArray<::RPG::GameCore::TurnBasedModifierEventScope>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_C9374C34A234A2B9_TypeDefinitionIndex)->GetStaticField(0x1BA50);
+		return (::Il2CppArray<::RPG::GameCore::TurnBasedModifierEventScope>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_C9374C34A234A2B9_TypeDefinitionIndex)->GetStaticField(0x32EB0);
 	}
 
 	static ::System::Void _cctor()

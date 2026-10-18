@@ -14,7 +14,7 @@ namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int Aggregate__AggregateAsync_d__1_2_TypeDefinitionIndex = 44067;
+	inline static constexpr unsigned int Aggregate__AggregateAsync_d__1_2_TypeDefinitionIndex = 45206;
 
 	template <typename TSource, typename TAccumulate>
 	struct Aggregate__AggregateAsync_d__1_2

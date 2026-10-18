@@ -6,17 +6,17 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class RtCharacterFlagVisual; }
 namespace RPG::GameCore { class RtCharacterVisual; }
 
-#define CLASS_3_CAD83FC079AAC20A_METHOD_3_B0B66673456EDDF6_OFFSET UNITYSDK_OFFSET(0x1D6F20A0)
-#define CLASS_3_CAD83FC079AAC20A_METHOD_3_C17C5E1EBAECCBCD_OFFSET UNITYSDK_OFFSET(0x1D6F20E0)
-#define CLASS_3_CAD83FC079AAC20A__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6F20D0)
+#define CLASS_3_CAD83FC079AAC20A_METHOD_3_B0B66673456EDDF6_OFFSET UNITYSDK_OFFSET(0x1CD42EC0)
+#define CLASS_3_CAD83FC079AAC20A_METHOD_3_C17C5E1EBAECCBCD_OFFSET UNITYSDK_OFFSET(0x1CD42F00)
+#define CLASS_3_CAD83FC079AAC20A__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD42EF0)
 
-inline static constexpr unsigned int Class_3_CAD83FC079AAC20A_TypeDefinitionIndex = 23815;
+inline static constexpr unsigned int Class_3_CAD83FC079AAC20A_TypeDefinitionIndex = 24090;
 
 class Class_3_CAD83FC079AAC20A : public ::RPG::GameCore::TaskConfig
 {
 public:
-	::RPG::GameCore::RtCharacterVisual* FAHLGFCIDMN; // 0x18
-	::Il2CppArray<::RPG::GameCore::RtCharacterFlagVisual*>* CKEEENLAOGF; // 0x20
+	::Il2CppArray<::RPG::GameCore::RtCharacterFlagVisual*>* CKEEENLAOGF; // 0x18
+	::RPG::GameCore::RtCharacterVisual* FAHLGFCIDMN; // 0x20
 
 	::System::Void _ctor()
 	{

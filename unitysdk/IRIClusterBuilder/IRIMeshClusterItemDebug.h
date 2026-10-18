@@ -6,11 +6,11 @@ namespace IRIClusterBuilder { class IRIMeshClusterItemDebug_MeshletBounds; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Mesh; }
 
-#define IRICLUSTERBUILDER_IRIMESHCLUSTERITEMDEBUG__CTOR_OFFSET UNITYSDK_OFFSET(0x18E65D70)
+#define IRICLUSTERBUILDER_IRIMESHCLUSTERITEMDEBUG__CTOR_OFFSET UNITYSDK_OFFSET(0x1651EF90)
 
 namespace IRIClusterBuilder
 {
-	inline static constexpr unsigned int IRIMeshClusterItemDebug_TypeDefinitionIndex = 48207;
+	inline static constexpr unsigned int IRIMeshClusterItemDebug_TypeDefinitionIndex = 47748;
 
 	class IRIMeshClusterItemDebug : public ::IRIClusterBuilder::IRIMeshClusterItem
 	{

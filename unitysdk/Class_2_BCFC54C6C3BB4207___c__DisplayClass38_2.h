@@ -9,18 +9,18 @@ class Class_2_BCFC54C6C3BB4207___c__DisplayClass38_1;
 namespace Cinemachine { class CinemachineVirtualCamera; }
 namespace RPG::Client::LittleGame::FiveDim { class FiveDimMonoCamera; }
 
-#define CLASS_2_BCFC54C6C3BB4207___C__DISPLAYCLASS38_2__CTOR_OFFSET UNITYSDK_OFFSET(0x17E81860)
-#define CLASS_2_BCFC54C6C3BB4207___C__DISPLAYCLASS38_2__EXECUTE_B__4_OFFSET UNITYSDK_OFFSET(0x17E839A0)
+#define CLASS_2_BCFC54C6C3BB4207___C__DISPLAYCLASS38_2__CTOR_OFFSET UNITYSDK_OFFSET(0xB73E340)
+#define CLASS_2_BCFC54C6C3BB4207___C__DISPLAYCLASS38_2__EXECUTE_B__4_OFFSET UNITYSDK_OFFSET(0xB740450)
 
-inline static constexpr unsigned int Class_2_BCFC54C6C3BB4207___c__DisplayClass38_2_TypeDefinitionIndex = 76286;
+inline static constexpr unsigned int Class_2_BCFC54C6C3BB4207___c__DisplayClass38_2_TypeDefinitionIndex = 76763;
 
 class Class_2_BCFC54C6C3BB4207___c__DisplayClass38_2 : public ::System::Object
 {
 public:
 	::Class_2_BCFC54C6C3BB4207___c__DisplayClass38_1* CS___8__locals1; // 0x10
-	::UnityEngine::Quaternion ed; // 0x18
-	::UnityEngine::Vector3 settleAnchor; // 0x28
-	::UnityEngine::Vector3 canonicalPos; // 0x34
+	::UnityEngine::Vector3 canonicalPos; // 0x18
+	::UnityEngine::Vector3 settleAnchor; // 0x24
+	::UnityEngine::Quaternion ed; // 0x30
 
 	::System::Void _ctor()
 	{

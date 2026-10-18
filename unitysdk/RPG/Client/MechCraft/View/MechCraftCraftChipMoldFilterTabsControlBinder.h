@@ -1,0 +1,65 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/MechCraft/View/MechCraftBinderBase.h"
+
+namespace RPG::Client { class AnimatorButton; }
+namespace RPG::Client::MechCraft::View { class MechCraftCraftChipMoldFilterTabControl; }
+namespace UnityEngine { class Animation; }
+
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTCHIPMOLDFILTERTABSCONTROLBINDER_GET_ANIMATION_OFFSET UNITYSDK_OFFSET(0xD601CA0)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTCHIPMOLDFILTERTABSCONTROLBINDER_GET_BTNNEXT_OFFSET UNITYSDK_OFFSET(0xD601820)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTCHIPMOLDFILTERTABSCONTROLBINDER_GET_BTNPREV_OFFSET UNITYSDK_OFFSET(0xD601770)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTCHIPMOLDFILTERTABSCONTROLBINDER_GET_TABRARITY1_OFFSET UNITYSDK_OFFSET(0xD601AE0)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTCHIPMOLDFILTERTABSCONTROLBINDER_GET_TABRARITY2_OFFSET UNITYSDK_OFFSET(0xD601A30)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTCHIPMOLDFILTERTABSCONTROLBINDER_GET_TABRARITY3_OFFSET UNITYSDK_OFFSET(0xD601980)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTCHIPMOLDFILTERTABSCONTROLBINDER_GET_TABSHOWALL_OFFSET UNITYSDK_OFFSET(0xD6018D0)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTCHIPMOLDFILTERTABSCONTROLBINDER__CTOR_OFFSET UNITYSDK_OFFSET(0xD602030)
+
+namespace RPG::Client::MechCraft::View
+{
+	inline static constexpr unsigned int MechCraftCraftChipMoldFilterTabsControlBinder_TypeDefinitionIndex = 79864;
+
+	class MechCraftCraftChipMoldFilterTabsControlBinder : public ::RPG::Client::MechCraft::View::MechCraftBinderBase
+	{
+	public:
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTCHIPMOLDFILTERTABSCONTROLBINDER__CTOR_OFFSET))(this);
+		}
+
+		::RPG::Client::MechCraft::View::MechCraftCraftChipMoldFilterTabControl* get_TabShowAll()
+		{
+			return ((::RPG::Client::MechCraft::View::MechCraftCraftChipMoldFilterTabControl*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTCHIPMOLDFILTERTABSCONTROLBINDER_GET_TABSHOWALL_OFFSET))(this);
+		}
+
+		::RPG::Client::MechCraft::View::MechCraftCraftChipMoldFilterTabControl* get_TabRarity3()
+		{
+			return ((::RPG::Client::MechCraft::View::MechCraftCraftChipMoldFilterTabControl*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTCHIPMOLDFILTERTABSCONTROLBINDER_GET_TABRARITY3_OFFSET))(this);
+		}
+
+		::RPG::Client::MechCraft::View::MechCraftCraftChipMoldFilterTabControl* get_TabRarity2()
+		{
+			return ((::RPG::Client::MechCraft::View::MechCraftCraftChipMoldFilterTabControl*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTCHIPMOLDFILTERTABSCONTROLBINDER_GET_TABRARITY2_OFFSET))(this);
+		}
+
+		::RPG::Client::MechCraft::View::MechCraftCraftChipMoldFilterTabControl* get_TabRarity1()
+		{
+			return ((::RPG::Client::MechCraft::View::MechCraftCraftChipMoldFilterTabControl*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTCHIPMOLDFILTERTABSCONTROLBINDER_GET_TABRARITY1_OFFSET))(this);
+		}
+
+		::UnityEngine::Animation* get_Animation()
+		{
+			return ((::UnityEngine::Animation*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTCHIPMOLDFILTERTABSCONTROLBINDER_GET_ANIMATION_OFFSET))(this);
+		}
+
+		::RPG::Client::AnimatorButton* get_BtnPrev()
+		{
+			return ((::RPG::Client::AnimatorButton*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTCHIPMOLDFILTERTABSCONTROLBINDER_GET_BTNPREV_OFFSET))(this);
+		}
+
+		::RPG::Client::AnimatorButton* get_BtnNext()
+		{
+			return ((::RPG::Client::AnimatorButton*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTCHIPMOLDFILTERTABSCONTROLBINDER_GET_BTNNEXT_OFFSET))(this);
+		}
+	};
+}

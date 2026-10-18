@@ -5,24 +5,24 @@
 namespace RPG::Client { class GridFightEquipItemData; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_GRIDFIGHTSEASONROLE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C5A25A0)
-#define RPG_CLIENT_GRIDFIGHTSEASONROLE___C__CREATE_B__66_0_OFFSET UNITYSDK_OFFSET(0x1C5A25F0)
-#define RPG_CLIENT_GRIDFIGHTSEASONROLE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1C5A25E0)
+#define RPG_CLIENT_GRIDFIGHTSEASONROLE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD2675C0)
+#define RPG_CLIENT_GRIDFIGHTSEASONROLE___C__CREATE_B__66_0_OFFSET UNITYSDK_OFFSET(0xD267610)
+#define RPG_CLIENT_GRIDFIGHTSEASONROLE___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD267600)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightSeasonRole___c_TypeDefinitionIndex = 65209;
+	inline static constexpr unsigned int GridFightSeasonRole___c_TypeDefinitionIndex = 65149;
 
 	class GridFightSeasonRole___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::GridFightSeasonRole___c** StaticGet___9()
-		{
-			return (::RPG::Client::GridFightSeasonRole___c**)Il2CppClass::FromTypeDefinitionIndex(GridFightSeasonRole___c_TypeDefinitionIndex)->GetStaticField(0x425C0);
-		}
 		static ::System::Func_2<::System::UInt32, ::RPG::Client::GridFightEquipItemData*>** StaticGet___9__66_0()
 		{
-			return (::System::Func_2<::System::UInt32, ::RPG::Client::GridFightEquipItemData*>**)Il2CppClass::FromTypeDefinitionIndex(GridFightSeasonRole___c_TypeDefinitionIndex)->GetStaticField(0x425C8);
+			return (::System::Func_2<::System::UInt32, ::RPG::Client::GridFightEquipItemData*>**)Il2CppClass::FromTypeDefinitionIndex(GridFightSeasonRole___c_TypeDefinitionIndex)->GetStaticField(0x6EAC0);
+		}
+		static ::RPG::Client::GridFightSeasonRole___c** StaticGet___9()
+		{
+			return (::RPG::Client::GridFightSeasonRole___c**)Il2CppClass::FromTypeDefinitionIndex(GridFightSeasonRole___c_TypeDefinitionIndex)->GetStaticField(0x6EAC8);
 		}
 
 		static ::System::Void _cctor()

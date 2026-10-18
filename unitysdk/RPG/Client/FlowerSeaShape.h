@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FlowerSeaShape_TypeDefinitionIndex = 70440;
+	inline static constexpr unsigned int FlowerSeaShape_TypeDefinitionIndex = 70476;
 
 	enum class FlowerSeaShape : ::System::Int32
 	{

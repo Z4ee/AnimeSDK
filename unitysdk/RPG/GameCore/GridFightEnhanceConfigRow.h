@@ -8,25 +8,25 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_GRIDFIGHTENHANCECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D966CD0)
-#define RPG_GAMECORE_GRIDFIGHTENHANCECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D9670E0)
+#define RPG_GAMECORE_GRIDFIGHTENHANCECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D6FE360)
+#define RPG_GAMECORE_GRIDFIGHTENHANCECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6FE770)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightEnhanceConfigRow_TypeDefinitionIndex = 13496;
+	inline static constexpr unsigned int GridFightEnhanceConfigRow_TypeDefinitionIndex = 13603;
 
 	class GridFightEnhanceConfigRow : public ::System::Object
 	{
 	public:
 		::System::String* IconPath; // 0x10
 		::Il2CppArray<::RPG::GameCore::FixPoint>* EffectParamList; // 0x18
-		::RPG::Client::TextID EnhanceName; // 0x20
-		::RPG::Client::TextID EnhanceSimpleDesc; // 0x30
-		::System::UInt32 Cost; // 0x40
-		::System::UInt32 ID; // 0x44
-		::RPG::Client::TextID EnhanceDesc; // 0x48
-		::System::UInt32 GroupID; // 0x58
-		::RPG::GameCore::GridFightSelectEnhanceConditionType SelectCondition; // 0x5C
+		::System::UInt32 ID; // 0x20
+		::RPG::GameCore::GridFightSelectEnhanceConditionType SelectCondition; // 0x24
+		::System::UInt32 GroupID; // 0x28
+		::System::UInt32 Cost; // 0x2C
+		::RPG::Client::TextID EnhanceName; // 0x30
+		::RPG::Client::TextID EnhanceSimpleDesc; // 0x40
+		::RPG::Client::TextID EnhanceDesc; // 0x50
 
 		::System::Void _ctor()
 		{

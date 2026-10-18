@@ -5,27 +5,27 @@
 class Class_1_C5CEA8DD589BD643;
 namespace System { template <typename T> class Comparison_1; }
 
-#define CLASS_1_EED86084E14016BB___C__BUILDVIEWMODEL_B__0_0_OFFSET UNITYSDK_OFFSET(0x16EC57F0)
-#define CLASS_1_EED86084E14016BB___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x16EC57A0)
-#define CLASS_1_EED86084E14016BB___C__CTOR_OFFSET UNITYSDK_OFFSET(0x16EC57E0)
-#define CLASS_1_EED86084E14016BB___C___GETPLAYERRANK_B__3_0_OFFSET UNITYSDK_OFFSET(0x16EC5860)
+#define CLASS_1_EED86084E14016BB___C__BUILDVIEWMODEL_B__0_0_OFFSET UNITYSDK_OFFSET(0x158DC210)
+#define CLASS_1_EED86084E14016BB___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x158DC1C0)
+#define CLASS_1_EED86084E14016BB___C__CTOR_OFFSET UNITYSDK_OFFSET(0x158DC200)
+#define CLASS_1_EED86084E14016BB___C___GETPLAYERRANK_B__3_0_OFFSET UNITYSDK_OFFSET(0x158DC280)
 
-inline static constexpr unsigned int Class_1_EED86084E14016BB___c_TypeDefinitionIndex = 80642;
+inline static constexpr unsigned int Class_1_EED86084E14016BB___c_TypeDefinitionIndex = 81970;
 
 class Class_1_EED86084E14016BB___c : public ::System::Object
 {
 public:
+	static ::Class_1_EED86084E14016BB___c** StaticGet___9()
+	{
+		return (::Class_1_EED86084E14016BB___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_EED86084E14016BB___c_TypeDefinitionIndex)->GetStaticField(0x51610);
+	}
 	static ::System::Comparison_1<::Class_1_C5CEA8DD589BD643*>** StaticGet___9__3_0()
 	{
-		return (::System::Comparison_1<::Class_1_C5CEA8DD589BD643*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_EED86084E14016BB___c_TypeDefinitionIndex)->GetStaticField(0x117B0);
+		return (::System::Comparison_1<::Class_1_C5CEA8DD589BD643*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_EED86084E14016BB___c_TypeDefinitionIndex)->GetStaticField(0x51618);
 	}
 	static ::System::Comparison_1<::Class_1_C5CEA8DD589BD643*>** StaticGet___9__0_0()
 	{
-		return (::System::Comparison_1<::Class_1_C5CEA8DD589BD643*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_EED86084E14016BB___c_TypeDefinitionIndex)->GetStaticField(0x117B8);
-	}
-	static ::Class_1_EED86084E14016BB___c** StaticGet___9()
-	{
-		return (::Class_1_EED86084E14016BB___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_EED86084E14016BB___c_TypeDefinitionIndex)->GetStaticField(0x117C0);
+		return (::System::Comparison_1<::Class_1_C5CEA8DD589BD643*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_EED86084E14016BB___c_TypeDefinitionIndex)->GetStaticField(0x51620);
 	}
 
 	static ::System::Void _cctor()

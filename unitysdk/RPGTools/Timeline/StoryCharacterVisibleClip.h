@@ -10,13 +10,13 @@ namespace RPGTools::Timeline { class StoryCharacterVisibleBehaviour; }
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_STORYCHARACTERVISIBLECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1B0C6000)
-#define RPGTOOLS_TIMELINE_STORYCHARACTERVISIBLECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1B0C5FF0)
-#define RPGTOOLS_TIMELINE_STORYCHARACTERVISIBLECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0C6190)
+#define RPGTOOLS_TIMELINE_STORYCHARACTERVISIBLECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE932890)
+#define RPGTOOLS_TIMELINE_STORYCHARACTERVISIBLECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE932880)
+#define RPGTOOLS_TIMELINE_STORYCHARACTERVISIBLECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xE932A00)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int StoryCharacterVisibleClip_TypeDefinitionIndex = 48783;
+	inline static constexpr unsigned int StoryCharacterVisibleClip_TypeDefinitionIndex = 48323;
 
 	class StoryCharacterVisibleClip : public ::UnityEngine::Playables::PlayableAsset
 	{

@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_EFFECTSURFACEOVERRIDE_METHOD_2_1B12FC3E381EF97D_OFFSET UNITYSDK_OFFSET(0x1DB247E0)
-#define RPG_GAMECORE_EFFECTSURFACEOVERRIDE__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB24910)
+#define RPG_GAMECORE_EFFECTSURFACEOVERRIDE_METHOD_2_1B12FC3E381EF97D_OFFSET UNITYSDK_OFFSET(0x1D6039B0)
+#define RPG_GAMECORE_EFFECTSURFACEOVERRIDE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D603AE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EffectSurfaceOverride_TypeDefinitionIndex = 16312;
+	inline static constexpr unsigned int EffectSurfaceOverride_TypeDefinitionIndex = 16485;
 
 	class EffectSurfaceOverride : public ::RPG::GameCore::JsonConfig
 	{

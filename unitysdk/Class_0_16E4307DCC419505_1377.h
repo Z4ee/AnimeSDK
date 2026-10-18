@@ -1,11 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/GameCore/AttackDamageType.h"
 
-namespace RPG::GameCore { class DamageTypeRow; }
-namespace System { class String; }
+namespace RPG::Client { class SwordTrainingStatusChangeInfo; }
+namespace System::Collections::Generic { template <typename T> class IList_1; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_1377_TypeDefinitionIndex = 79717;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_1377_TypeDefinitionIndex = 75011;
 
 class Class_0_16E4307DCC419505_1377
 {

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int QuestFinishType_TypeDefinitionIndex = 10408;
+	inline static constexpr unsigned int QuestFinishType_TypeDefinitionIndex = 10423;
 
 	enum class QuestFinishType : ::System::Int32
 	{
@@ -988,5 +988,16 @@ namespace RPG::GameCore
 		B51RacingChallengeFinishCnt = 450014,
 		B51RacingMatchSlamCnt = 450015,
 		B51RacingChallengeBeatNpcTrackNum = 450016,
+		MechCraftFinishOrderCnt = 460000,
+		MechCraftIncome = 460001,
+		MechCraftUnlockTalentCnt = 460002,
+		MechCraftWorkshopLevel = 460003,
+		FinalityBattleLevelFinish = 460004,
+		FinalityBattleHardLevelPerfectFinishCnt = 460005,
+		MechCraftDiyChange = 460006,
+		MechCraftAttributeLevelReach = 460007,
+		MechCraftDesignLevel = 460008,
+		MarbleCoopBossModeWinCnt = 460020,
+		ActivityVoracityInvasionTotalScore = 460050,
 	};
 }

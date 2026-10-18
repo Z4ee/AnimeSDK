@@ -6,10 +6,10 @@
 class Class_1_96F671E4E83A73C0;
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define CLASS_1_F9FBCC956DFCF137_2_METHOD_1_4ECDFE53EE41D31A_OFFSET UNITYSDK_OFFSET(0x1E760300)
-#define CLASS_1_F9FBCC956DFCF137_2__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7602F0)
+#define CLASS_1_F9FBCC956DFCF137_2_METHOD_1_4ECDFE53EE41D31A_OFFSET UNITYSDK_OFFSET(0x1EC39A00)
+#define CLASS_1_F9FBCC956DFCF137_2__CTOR_OFFSET UNITYSDK_OFFSET(0x1EC399F0)
 
-inline static constexpr unsigned int Class_1_F9FBCC956DFCF137_2_TypeDefinitionIndex = 42477;
+inline static constexpr unsigned int Class_1_F9FBCC956DFCF137_2_TypeDefinitionIndex = 44284;
 
 class Class_1_F9FBCC956DFCF137_2 : public ::System::Object
 {

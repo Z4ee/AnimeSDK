@@ -4,11 +4,11 @@
 #include "unitysdk/Unity/Jobs/JobHandle.h"
 #include "unitysdk/Unity/Jobs/LowLevel/Unsafe/ScheduleMode.h"
 
-#define UNITY_JOBS_LOWLEVEL_UNSAFE_JOBSUTILITY_JOBSCHEDULEPARAMETERS__CTOR_OFFSET UNITYSDK_OFFSET(0x3C562E0)
+#define UNITY_JOBS_LOWLEVEL_UNSAFE_JOBSUTILITY_JOBSCHEDULEPARAMETERS__CTOR_OFFSET UNITYSDK_OFFSET(0x3C6B650)
 
 namespace Unity::Jobs::LowLevel::Unsafe
 {
-	inline static constexpr unsigned int JobsUtility_JobScheduleParameters_TypeDefinitionIndex = 3967;
+	inline static constexpr unsigned int JobsUtility_JobScheduleParameters_TypeDefinitionIndex = 3968;
 
 	struct alignas(8) JobsUtility_JobScheduleParameters
 	{

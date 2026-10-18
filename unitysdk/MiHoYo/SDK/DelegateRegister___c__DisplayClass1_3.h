@@ -5,12 +5,12 @@
 namespace MiHoYo::SDK { class MiHoYoSDKWebView; }
 namespace MiHoYo::SDK { class Web; }
 
-#define MIHOYO_SDK_DELEGATEREGISTER___C__DISPLAYCLASS1_3__CTOR_OFFSET UNITYSDK_OFFSET(0x16A96260)
-#define MIHOYO_SDK_DELEGATEREGISTER___C__DISPLAYCLASS1_3__REGISTERWEBFUNC_B__45_OFFSET UNITYSDK_OFFSET(0x16A992F0)
+#define MIHOYO_SDK_DELEGATEREGISTER___C__DISPLAYCLASS1_3__CTOR_OFFSET UNITYSDK_OFFSET(0xAF6E4F0)
+#define MIHOYO_SDK_DELEGATEREGISTER___C__DISPLAYCLASS1_3__REGISTERWEBFUNC_B__45_OFFSET UNITYSDK_OFFSET(0xAF71E80)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int DelegateRegister___c__DisplayClass1_3_TypeDefinitionIndex = 46727;
+	inline static constexpr unsigned int DelegateRegister___c__DisplayClass1_3_TypeDefinitionIndex = 46279;
 
 	class DelegateRegister___c__DisplayClass1_3 : public ::System::Object
 	{

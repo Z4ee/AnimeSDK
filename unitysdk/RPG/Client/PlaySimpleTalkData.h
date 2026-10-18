@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_PLAYSIMPLETALKDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1C2D7750)
+#define RPG_CLIENT_PLAYSIMPLETALKDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xDBD5390)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlaySimpleTalkData_TypeDefinitionIndex = 68039;
+	inline static constexpr unsigned int PlaySimpleTalkData_TypeDefinitionIndex = 68044;
 
 	class PlaySimpleTalkData : public ::System::Object
 	{

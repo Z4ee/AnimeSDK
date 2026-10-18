@@ -1,11 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/ActivityIdleLive/IdleLiveDecimal.h"
 
-class Class_1_A0F414D2CF643E56_4;
-namespace RPG::Client::Promises { class IPromise; }
+namespace RPG::Client { class IBookletView; }
+namespace RPG::GameCore::Booklet { class ElementConfig; }
+namespace UnityEngine { class GameObject; }
+namespace UnityEngine { class Transform; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_1249_TypeDefinitionIndex = 74926;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_1249_TypeDefinitionIndex = 72439;
 
 class Class_0_16E4307DCC419505_1249
 {

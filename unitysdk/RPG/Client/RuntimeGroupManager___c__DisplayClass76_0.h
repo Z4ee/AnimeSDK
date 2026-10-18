@@ -5,12 +5,12 @@
 namespace RPG::Client { class Map_RefreshEntitiesExtraInfo; }
 namespace RPG::Client { class RuntimeGroupManager; }
 
-#define RPG_CLIENT_RUNTIMEGROUPMANAGER___C__DISPLAYCLASS76_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16A27B70)
-#define RPG_CLIENT_RUNTIMEGROUPMANAGER___C__DISPLAYCLASS76_0___TRIGGERHOYOGROUPENTITIESREFRESHWITHSCREENTRANSFER_B__0_OFFSET UNITYSDK_OFFSET(0x16A33B90)
+#define RPG_CLIENT_RUNTIMEGROUPMANAGER___C__DISPLAYCLASS76_0__CTOR_OFFSET UNITYSDK_OFFSET(0xE06DE20)
+#define RPG_CLIENT_RUNTIMEGROUPMANAGER___C__DISPLAYCLASS76_0___TRIGGERHOYOGROUPENTITIESREFRESHWITHSCREENTRANSFER_B__0_OFFSET UNITYSDK_OFFSET(0xE07A040)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RuntimeGroupManager___c__DisplayClass76_0_TypeDefinitionIndex = 62157;
+	inline static constexpr unsigned int RuntimeGroupManager___c__DisplayClass76_0_TypeDefinitionIndex = 62073;
 
 	class RuntimeGroupManager___c__DisplayClass76_0 : public ::System::Object
 	{

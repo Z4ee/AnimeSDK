@@ -4,11 +4,11 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_MISSIONMODULE_PLAYMESSAGE_CLEAR_OFFSET UNITYSDK_OFFSET(0x3A9A850)
+#define RPG_CLIENT_MISSIONMODULE_PLAYMESSAGE_CLEAR_OFFSET UNITYSDK_OFFSET(0xEB070)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MissionModule_PlayMessage_TypeDefinitionIndex = 66185;
+	inline static constexpr unsigned int MissionModule_PlayMessage_TypeDefinitionIndex = 66139;
 
 	struct alignas(8) MissionModule_PlayMessage
 	{

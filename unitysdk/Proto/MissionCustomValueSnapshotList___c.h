@@ -4,20 +4,20 @@
 
 namespace Proto { class MissionCustomValueSnapshotList; }
 
-#define PROTO_MISSIONCUSTOMVALUESNAPSHOTLIST___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DD45A90)
-#define PROTO_MISSIONCUSTOMVALUESNAPSHOTLIST___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD45AD0)
-#define PROTO_MISSIONCUSTOMVALUESNAPSHOTLIST___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1DD45AE0)
+#define PROTO_MISSIONCUSTOMVALUESNAPSHOTLIST___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DFD6FD0)
+#define PROTO_MISSIONCUSTOMVALUESNAPSHOTLIST___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1DFD7010)
+#define PROTO_MISSIONCUSTOMVALUESNAPSHOTLIST___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1DFD7020)
 
 namespace Proto
 {
-	inline static constexpr unsigned int MissionCustomValueSnapshotList___c_TypeDefinitionIndex = 25490;
+	inline static constexpr unsigned int MissionCustomValueSnapshotList___c_TypeDefinitionIndex = 25833;
 
 	class MissionCustomValueSnapshotList___c : public ::System::Object
 	{
 	public:
 		static ::Proto::MissionCustomValueSnapshotList___c** StaticGet___9()
 		{
-			return (::Proto::MissionCustomValueSnapshotList___c**)Il2CppClass::FromTypeDefinitionIndex(MissionCustomValueSnapshotList___c_TypeDefinitionIndex)->GetStaticField(0x5C0A0);
+			return (::Proto::MissionCustomValueSnapshotList___c**)Il2CppClass::FromTypeDefinitionIndex(MissionCustomValueSnapshotList___c_TypeDefinitionIndex)->GetStaticField(0x4CE40);
 		}
 
 		static ::System::Void _cctor()

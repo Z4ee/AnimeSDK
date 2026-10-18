@@ -6,13 +6,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_SETLOCALOFFSETASMOVETARGET_METHOD_3_88AA60530F936F8E_OFFSET UNITYSDK_OFFSET(0x1E084110)
-#define RPG_GAMECORE_SETLOCALOFFSETASMOVETARGET_METHOD_3_D0C20DD97E80B9D9_OFFSET UNITYSDK_OFFSET(0x1E0840D0)
-#define RPG_GAMECORE_SETLOCALOFFSETASMOVETARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x1E084100)
+#define RPG_GAMECORE_SETLOCALOFFSETASMOVETARGET_METHOD_3_27C749EA6639A943_OFFSET UNITYSDK_OFFSET(0x1DA8A990)
+#define RPG_GAMECORE_SETLOCALOFFSETASMOVETARGET_METHOD_3_68A799B9A154194E_OFFSET UNITYSDK_OFFSET(0x1DA8A950)
+#define RPG_GAMECORE_SETLOCALOFFSETASMOVETARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x1DA8A980)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetLocalOffsetAsMoveTarget_TypeDefinitionIndex = 22219;
+	inline static constexpr unsigned int SetLocalOffsetAsMoveTarget_TypeDefinitionIndex = 22468;
 
 	class SetLocalOffsetAsMoveTarget : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,14 +25,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETLOCALOFFSETASMOVETARGET__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_D0C20DD97E80B9D9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetLocalOffsetAsMoveTarget*& a2)
+		static ::System::Void Method_3_68A799B9A154194E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetLocalOffsetAsMoveTarget*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetLocalOffsetAsMoveTarget*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETLOCALOFFSETASMOVETARGET_METHOD_3_D0C20DD97E80B9D9_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetLocalOffsetAsMoveTarget*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETLOCALOFFSETASMOVETARGET_METHOD_3_68A799B9A154194E_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_88AA60530F936F8E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetLocalOffsetAsMoveTarget* a2)
+		static ::System::Void Method_3_27C749EA6639A943(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetLocalOffsetAsMoveTarget* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetLocalOffsetAsMoveTarget*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETLOCALOFFSETASMOVETARGET_METHOD_3_88AA60530F936F8E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetLocalOffsetAsMoveTarget*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETLOCALOFFSETASMOVETARGET_METHOD_3_27C749EA6639A943_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -22,82 +22,82 @@ namespace UnityEngine { class Texture2D; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 namespace UnityEngine::Rendering { class HableCurve; }
 
-#define RPG_CUSTOMRP_RPGFINALCOMPOSE_CACHELUTPARAMS_OFFSET UNITYSDK_OFFSET(0x1859CAF0)
-#define RPG_CUSTOMRP_RPGFINALCOMPOSE_DUMPTONEMAPPINGDATA_OFFSET UNITYSDK_OFFSET(0x185955B0)
-#define RPG_CUSTOMRP_RPGFINALCOMPOSE_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x18595430)
-#define RPG_CUSTOMRP_RPGFINALCOMPOSE_GET_CURRENTHDRHEADROOM_OFFSET UNITYSDK_OFFSET(0x1859CAC0)
-#define RPG_CUSTOMRP_RPGFINALCOMPOSE_INNEREXECUTE_OFFSET UNITYSDK_OFFSET(0x18596660)
-#define RPG_CUSTOMRP_RPGFINALCOMPOSE_ISADDITIONALCOLORGRADINGENABLED_OFFSET UNITYSDK_OFFSET(0x185959E0)
-#define RPG_CUSTOMRP_RPGFINALCOMPOSE_ISLUTDIRTY_OFFSET UNITYSDK_OFFSET(0x1859C140)
-#define RPG_CUSTOMRP_RPGFINALCOMPOSE_ISRARELYUSEDEFFECTSENABLED_OFFSET UNITYSDK_OFFSET(0x18595AE0)
-#define RPG_CUSTOMRP_RPGFINALCOMPOSE_RELEASE_OFFSET UNITYSDK_OFFSET(0x18595520)
-#define RPG_CUSTOMRP_RPGFINALCOMPOSE_SETUPFINALOUTPUT_OFFSET UNITYSDK_OFFSET(0x18595510)
-#define RPG_CUSTOMRP_RPGFINALCOMPOSE_UPDATE_OFFSET UNITYSDK_OFFSET(0x18595420)
-#define RPG_CUSTOMRP_RPGFINALCOMPOSE__CTOR_OFFSET UNITYSDK_OFFSET(0x185953C0)
-#define RPG_CUSTOMRP_RPGFINALCOMPOSE__GENERATELUTIFNEEDED_OFFSET UNITYSDK_OFFSET(0x18599EB0)
-#define RPG_CUSTOMRP_RPGFINALCOMPOSE__GENERATELUT_OFFSET UNITYSDK_OFFSET(0x1859D490)
-#define RPG_CUSTOMRP_RPGFINALCOMPOSE__ISCOLORGRADINGBAKELUT_OFFSET UNITYSDK_OFFSET(0x18597860)
-#define RPG_CUSTOMRP_RPGFINALCOMPOSE__SETUPADDITIONALCOLORGRADING_OFFSET UNITYSDK_OFFSET(0x18595B50)
-#define RPG_CUSTOMRP_RPGFINALCOMPOSE__SETUPBLINK_OFFSET UNITYSDK_OFFSET(0x185991B0)
-#define RPG_CUSTOMRP_RPGFINALCOMPOSE__SETUPCHROMATICABERRATION_OFFSET UNITYSDK_OFFSET(0x1859A100)
-#define RPG_CUSTOMRP_RPGFINALCOMPOSE__SETUPCOLORGRADING_OFFSET UNITYSDK_OFFSET(0x185978A0)
-#define RPG_CUSTOMRP_RPGFINALCOMPOSE__SETUPFXAA_OFFSET UNITYSDK_OFFSET(0x1859BF60)
-#define RPG_CUSTOMRP_RPGFINALCOMPOSE__SETUPLENSDISTORTION_OFFSET UNITYSDK_OFFSET(0x1859B330)
-#define RPG_CUSTOMRP_RPGFINALCOMPOSE__SETUPPOLAROID_OFFSET UNITYSDK_OFFSET(0x185989A0)
-#define RPG_CUSTOMRP_RPGFINALCOMPOSE__SETUPSPEEDLINE_OFFSET UNITYSDK_OFFSET(0x1859A3E0)
-#define RPG_CUSTOMRP_RPGFINALCOMPOSE__SETUPTONEMAPPING_OFFSET UNITYSDK_OFFSET(0x1859DA50)
-#define RPG_CUSTOMRP_RPGFINALCOMPOSE__SETUPVIGNETTE_OFFSET UNITYSDK_OFFSET(0x1859A250)
-#define RPG_CUSTOMRP_RPGFINALCOMPOSE__UBERBLIT_OFFSET UNITYSDK_OFFSET(0x1859BA90)
+#define RPG_CUSTOMRP_RPGFINALCOMPOSE_CACHELUTPARAMS_OFFSET UNITYSDK_OFFSET(0x1CC25B30)
+#define RPG_CUSTOMRP_RPGFINALCOMPOSE_DUMPTONEMAPPINGDATA_OFFSET UNITYSDK_OFFSET(0x1CC1E680)
+#define RPG_CUSTOMRP_RPGFINALCOMPOSE_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1CC1E500)
+#define RPG_CUSTOMRP_RPGFINALCOMPOSE_GET_CURRENTHDRHEADROOM_OFFSET UNITYSDK_OFFSET(0x1CC25B00)
+#define RPG_CUSTOMRP_RPGFINALCOMPOSE_INNEREXECUTE_OFFSET UNITYSDK_OFFSET(0x1CC1F690)
+#define RPG_CUSTOMRP_RPGFINALCOMPOSE_ISADDITIONALCOLORGRADINGENABLED_OFFSET UNITYSDK_OFFSET(0x1CC1EA10)
+#define RPG_CUSTOMRP_RPGFINALCOMPOSE_ISLUTDIRTY_OFFSET UNITYSDK_OFFSET(0x1CC25180)
+#define RPG_CUSTOMRP_RPGFINALCOMPOSE_ISRARELYUSEDEFFECTSENABLED_OFFSET UNITYSDK_OFFSET(0x1CC1EB10)
+#define RPG_CUSTOMRP_RPGFINALCOMPOSE_RELEASE_OFFSET UNITYSDK_OFFSET(0x1CC1E5F0)
+#define RPG_CUSTOMRP_RPGFINALCOMPOSE_SETUPFINALOUTPUT_OFFSET UNITYSDK_OFFSET(0x1CC1E5E0)
+#define RPG_CUSTOMRP_RPGFINALCOMPOSE_UPDATE_OFFSET UNITYSDK_OFFSET(0x1CC1E4F0)
+#define RPG_CUSTOMRP_RPGFINALCOMPOSE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC1E480)
+#define RPG_CUSTOMRP_RPGFINALCOMPOSE__GENERATELUTIFNEEDED_OFFSET UNITYSDK_OFFSET(0x1CC22EF0)
+#define RPG_CUSTOMRP_RPGFINALCOMPOSE__GENERATELUT_OFFSET UNITYSDK_OFFSET(0x1CC264D0)
+#define RPG_CUSTOMRP_RPGFINALCOMPOSE__ISCOLORGRADINGBAKELUT_OFFSET UNITYSDK_OFFSET(0x1CC208A0)
+#define RPG_CUSTOMRP_RPGFINALCOMPOSE__SETUPADDITIONALCOLORGRADING_OFFSET UNITYSDK_OFFSET(0x1CC1EB80)
+#define RPG_CUSTOMRP_RPGFINALCOMPOSE__SETUPBLINK_OFFSET UNITYSDK_OFFSET(0x1CC221F0)
+#define RPG_CUSTOMRP_RPGFINALCOMPOSE__SETUPCHROMATICABERRATION_OFFSET UNITYSDK_OFFSET(0x1CC23140)
+#define RPG_CUSTOMRP_RPGFINALCOMPOSE__SETUPCOLORGRADING_OFFSET UNITYSDK_OFFSET(0x1CC208E0)
+#define RPG_CUSTOMRP_RPGFINALCOMPOSE__SETUPFXAA_OFFSET UNITYSDK_OFFSET(0x1CC24FA0)
+#define RPG_CUSTOMRP_RPGFINALCOMPOSE__SETUPLENSDISTORTION_OFFSET UNITYSDK_OFFSET(0x1CC24370)
+#define RPG_CUSTOMRP_RPGFINALCOMPOSE__SETUPPOLAROID_OFFSET UNITYSDK_OFFSET(0x1CC219E0)
+#define RPG_CUSTOMRP_RPGFINALCOMPOSE__SETUPSPEEDLINE_OFFSET UNITYSDK_OFFSET(0x1CC23420)
+#define RPG_CUSTOMRP_RPGFINALCOMPOSE__SETUPTONEMAPPING_OFFSET UNITYSDK_OFFSET(0x1CC26A90)
+#define RPG_CUSTOMRP_RPGFINALCOMPOSE__SETUPVIGNETTE_OFFSET UNITYSDK_OFFSET(0x1CC23290)
+#define RPG_CUSTOMRP_RPGFINALCOMPOSE__UBERBLIT_OFFSET UNITYSDK_OFFSET(0x1CC24AD0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int RPGFinalCompose_TypeDefinitionIndex = 37126;
+	inline static constexpr unsigned int RPGFinalCompose_TypeDefinitionIndex = 37812;
 
 	class RPGFinalCompose : public ::RPG::CustomRP::CRPPostprocessSubPass2
 	{
 	public:
-		::UnityEngine::Material* _Fxaa; // 0x28
-		::RPG::CustomRP::RPGBloomRenderer* _BloomRenderer; // 0x30
-		::UnityEngine::Rendering::HableCurve* _HableCurve; // 0x38
-		::UnityEngine::Texture2D* _InternalSpectralLut; // 0x40
-		::UnityEngine::Material* _LutBake; // 0x48
+		::UnityEngine::Texture2D* _InternalSpeedlineSeed; // 0x28
+		::UnityEngine::Material* _Fxaa; // 0x30
+		::RPG::CustomRP::RPGBloomRenderer* _BloomRenderer; // 0x38
+		::UnityEngine::Material* _LutBake; // 0x40
+		::UnityEngine::RenderTexture* _CachedLutRT; // 0x48
 		::UnityEngine::Material* _Uber; // 0x50
-		::UnityEngine::Texture2D* _InternalSpeedlineSeed; // 0x58
-		::UnityEngine::RenderTexture* _CachedLutRT; // 0x60
-		::System::Single _CachedExpandGamut; // 0x68
-		::System::Single _CachedToeLength; // 0x6C
-		::UnityEngine::Vector4 _CachedColorContrastGlobal; // 0x70
-		::UnityEngine::Vector4 _CachedColorGainShadow; // 0x80
-		::UnityEngine::Vector4 _CachedColorSaturationHighlight; // 0x90
-		::UnityEngine::Color _CachedLevelColor; // 0xA0
-		::System::Single _CachedColorCorrectionHighlightMin; // 0xB0
-		::UnityEngine::Vector4 _CachedColorGainHighlight; // 0xB4
-		::UnityEngine::Vector4 _CachedColorSaturationMidtone; // 0xC4
-		::System::Single _CachedLevelShadowTone; // 0xD4
-		::System::Single _CachedShoulderStrength; // 0xD8
-		::UnityEngine::Vector4 _LutParam; // 0xDC
-		::UnityEngine::Vector4 _CachedColorGainGlobal; // 0xEC
-		::System::Single _CachedHDRHeadroom; // 0xFC
-		::UnityEngine::Vector4 _CachedColorSaturationShadow; // 0x100
-		::UnityEngine::Vector4 _CachedColorGainMidtone; // 0x110
-		::UnityEngine::Vector4 _CachedColorSaturationGlobal; // 0x120
-		::System::Single _CachedShoulderAngle; // 0x130
-		::System::Int32 _OutputRT; // 0x134
-		::System::Boolean _CachedDebugEnableGamutClipping; // 0x138
-		::System::Boolean _CachedHDRActive; // 0x139
-		::System::Single _CachedColorCorrectionShadowMax; // 0x13C
-		::System::Int32 _GenerateFrameCount; // 0x140
-		::System::Single _CachedShoulderLength; // 0x144
-		::System::Single _CachedLevelHighTone; // 0x148
-		::UnityEngine::Vector4 _CachedColorContrastHighlight; // 0x14C
-		::System::Boolean _CachedForceDisableToneMapping; // 0x15C
-		::System::Boolean _CachedColorGradingEnable; // 0x15D
-		::System::Boolean _CachedTonemappingEnable; // 0x15E
-		::System::Boolean _CachedDebugHDROutputIntermediate; // 0x15F
-		::System::Single _CachedToeStrength; // 0x160
-		::UnityEngine::Vector4 _CachedColorContrastShadow; // 0x164
-		::UnityEngine::Vector4 _CachedColorContrastMidtone; // 0x174
-		::System::Single _CachedGamma; // 0x184
+		::UnityEngine::Rendering::HableCurve* _HableCurve; // 0x58
+		::UnityEngine::Texture2D* _InternalSpectralLut; // 0x60
+		::System::Single _CachedHDRHeadroom; // 0x68
+		::System::Single _CachedToeStrength; // 0x6C
+		::UnityEngine::Vector4 _CachedColorGainHighlight; // 0x70
+		::UnityEngine::Vector4 _CachedColorContrastMidtone; // 0x80
+		::System::Single _CachedToeLength; // 0x90
+		::System::Single _CachedShoulderLength; // 0x94
+		::UnityEngine::Vector4 _CachedColorGainGlobal; // 0x98
+		::UnityEngine::Vector4 _CachedColorSaturationMidtone; // 0xA8
+		::System::Single _CachedShoulderAngle; // 0xB8
+		::System::Boolean _CachedHDRActive; // 0xBC
+		::System::Boolean _CachedTonemappingEnable; // 0xBD
+		::UnityEngine::Vector4 _CachedColorGainShadow; // 0xC0
+		::UnityEngine::Vector4 _CachedColorSaturationHighlight; // 0xD0
+		::System::Int32 _OutputRT; // 0xE0
+		::System::Single _CachedShoulderStrength; // 0xE4
+		::UnityEngine::Vector4 _LutParam; // 0xE8
+		::System::Single _CachedLevelShadowTone; // 0xF8
+		::UnityEngine::Color _CachedLevelColor; // 0xFC
+		::UnityEngine::Vector4 _CachedColorSaturationShadow; // 0x10C
+		::UnityEngine::Vector4 _CachedColorGainMidtone; // 0x11C
+		::System::Int32 _GenerateFrameCount; // 0x12C
+		::System::Boolean _CachedDebugEnableGamutClipping; // 0x130
+		::System::Boolean _CachedDebugHDROutputIntermediate; // 0x131
+		::System::Boolean _CachedForceDisableToneMapping; // 0x132
+		::System::Boolean _CachedColorGradingEnable; // 0x133
+		::System::Single _CachedGamma; // 0x134
+		::UnityEngine::Vector4 _CachedColorContrastGlobal; // 0x138
+		::System::Single _CachedColorCorrectionShadowMax; // 0x148
+		::System::Single _CachedColorCorrectionHighlightMin; // 0x14C
+		::System::Single _CachedLevelHighTone; // 0x150
+		::UnityEngine::Vector4 _CachedColorContrastShadow; // 0x154
+		::UnityEngine::Vector4 _CachedColorSaturationGlobal; // 0x164
+		::System::Single _CachedExpandGamut; // 0x174
+		::UnityEngine::Vector4 _CachedColorContrastHighlight; // 0x178
 
 		::System::Void _ctor(::RPG::CustomRP::MaterialLibrary* a1, ::RPG::CustomRP::RPGBloomRenderer* a2)
 		{

@@ -6,20 +6,20 @@
 
 namespace System { class String; }
 
-#define CLASS_2_B89B6FA9A31F6A91_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x17AE8F10)
-#define CLASS_2_B89B6FA9A31F6A91__CTOR_OFFSET UNITYSDK_OFFSET(0x17AE9020)
+#define CLASS_2_B89B6FA9A31F6A91_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xF875640)
+#define CLASS_2_B89B6FA9A31F6A91__CTOR_OFFSET UNITYSDK_OFFSET(0xF875750)
 
-inline static constexpr unsigned int Class_2_B89B6FA9A31F6A91_TypeDefinitionIndex = 48716;
+inline static constexpr unsigned int Class_2_B89B6FA9A31F6A91_TypeDefinitionIndex = 48256;
 
 class Class_2_B89B6FA9A31F6A91 : public ::UnityEngine::Playables::PlayableBehaviour
 {
 public:
-	::System::String* PODFJDMHFMK; // 0x10
-	::System::String* BJCBMNHOAGO; // 0x18
-	::System::Single JIHLNPHKEEP; // 0x20
-	::System::Single CCAOGMEFNLB; // 0x24
-	::System::Boolean BMANOLMNHBK; // 0x28
-	::System::Int32 BIKLAFLEIOC; // 0x2C
+	::System::String* BJCBMNHOAGO; // 0x10
+	::System::String* PODFJDMHFMK; // 0x18
+	::System::Boolean BMANOLMNHBK; // 0x20
+	::System::Single JIHLNPHKEEP; // 0x24
+	::System::Int32 BIKLAFLEIOC; // 0x28
+	::System::Single CCAOGMEFNLB; // 0x2C
 
 	::System::Void _ctor()
 	{

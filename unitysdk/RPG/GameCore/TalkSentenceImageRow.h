@@ -5,19 +5,19 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_TALKSENTENCEIMAGEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E163D30)
-#define RPG_GAMECORE_TALKSENTENCEIMAGEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1E164760)
+#define RPG_GAMECORE_TALKSENTENCEIMAGEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DB29EB0)
+#define RPG_GAMECORE_TALKSENTENCEIMAGEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB2A8E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TalkSentenceImageRow_TypeDefinitionIndex = 15051;
+	inline static constexpr unsigned int TalkSentenceImageRow_TypeDefinitionIndex = 15222;
 
 	class TalkSentenceImageRow : public ::System::Object
 	{
 	public:
-		::System::String* ImagePath; // 0x10
-		::System::String* Speaker; // 0x18
-		::System::String* Comment; // 0x20
+		::System::String* Comment; // 0x10
+		::System::String* ImagePath; // 0x18
+		::System::String* Speaker; // 0x20
 
 		::System::Void _ctor()
 		{

@@ -17,22 +17,23 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define SCENELIGHTVOLUME_AWAKE_OFFSET UNITYSDK_OFFSET(0x1BF3EA60)
-#define SCENELIGHTVOLUME_GETLIGHTMODE_OFFSET UNITYSDK_OFFSET(0x1BF3F5F0)
-#define SCENELIGHTVOLUME_GET_GAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x1BF3EA50)
-#define SCENELIGHTVOLUME_INVOLUME_OFFSET UNITYSDK_OFFSET(0x1BF3F4F0)
-#define SCENELIGHTVOLUME_ISALLHIDEOBJECTS_OFFSET UNITYSDK_OFFSET(0x1BF3EEF0)
-#define SCENELIGHTVOLUME_ISHIDEOBJECTS_OFFSET UNITYSDK_OFFSET(0x1BF3EE10)
-#define SCENELIGHTVOLUME_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1BF3EDB0)
-#define SCENELIGHTVOLUME_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1BF3F230)
-#define SCENELIGHTVOLUME_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1BF3F180)
-#define SCENELIGHTVOLUME_ONMAPROTATED_OFFSET UNITYSDK_OFFSET(0x1BF3F2E0)
-#define SCENELIGHTVOLUME_ONRESET_OFFSET UNITYSDK_OFFSET(0x1BF3EFC0)
-#define SCENELIGHTVOLUME_REGENINDEXER_OFFSET UNITYSDK_OFFSET(0x1BF3EB60)
-#define SCENELIGHTVOLUME_SETBLOCKS_OFFSET UNITYSDK_OFFSET(0x1BF3F6C0)
-#define SCENELIGHTVOLUME__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF3FB70)
+#define SCENELIGHTVOLUME_AWAKE_OFFSET UNITYSDK_OFFSET(0xE954960)
+#define SCENELIGHTVOLUME_COMPAREFORSELECTION_OFFSET UNITYSDK_OFFSET(0xE9553F0)
+#define SCENELIGHTVOLUME_GETLIGHTMODE_OFFSET UNITYSDK_OFFSET(0xE9555E0)
+#define SCENELIGHTVOLUME_GET_GAMEOBJECT_OFFSET UNITYSDK_OFFSET(0xE954950)
+#define SCENELIGHTVOLUME_INVOLUME_OFFSET UNITYSDK_OFFSET(0xE9554E0)
+#define SCENELIGHTVOLUME_ISALLHIDEOBJECTS_OFFSET UNITYSDK_OFFSET(0xE954DF0)
+#define SCENELIGHTVOLUME_ISHIDEOBJECTS_OFFSET UNITYSDK_OFFSET(0xE954D10)
+#define SCENELIGHTVOLUME_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xE954CB0)
+#define SCENELIGHTVOLUME_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xE955130)
+#define SCENELIGHTVOLUME_ONENABLE_OFFSET UNITYSDK_OFFSET(0xE955080)
+#define SCENELIGHTVOLUME_ONMAPROTATED_OFFSET UNITYSDK_OFFSET(0xE9551E0)
+#define SCENELIGHTVOLUME_ONRESET_OFFSET UNITYSDK_OFFSET(0xE954EC0)
+#define SCENELIGHTVOLUME_REGENINDEXER_OFFSET UNITYSDK_OFFSET(0xE954A60)
+#define SCENELIGHTVOLUME_SETBLOCKS_OFFSET UNITYSDK_OFFSET(0xE9556B0)
+#define SCENELIGHTVOLUME__CTOR_OFFSET UNITYSDK_OFFSET(0xE955B60)
 
-inline static constexpr unsigned int SceneLightVolume_TypeDefinitionIndex = 47857;
+inline static constexpr unsigned int SceneLightVolume_TypeDefinitionIndex = 47397;
 
 class SceneLightVolume : public ::UnityEngine::MonoBehaviour
 {
@@ -40,15 +41,16 @@ public:
 	::GeometryEdit::Prism* HBNMNEMEGNL; // 0x18
 	::UnityEngine::GameObject* NGOPGBACPFM; // 0x20
 	::System::Int32 Priority; // 0x28
-	::System::Boolean _SetPrismForMainCameraOnReset; // 0x2C
-	::System::Collections::Generic::List_1<::VolumeData*>* BlockVolumeList; // 0x30
-	::System::Collections::Generic::Dictionary_2<::System::String*, ::VolumeData*>* PCOOEGDCMNJ; // 0x38
-	::UnityEngine::Transform* mainBlock; // 0x40
-	::System::String* mainBlockName; // 0x48
-	::System::Boolean isParamVolume; // 0x50
-	::SceneLightManagerConfigData_StageData* OverrideParam; // 0x58
-	::Class_3_6C792A3AC4426A91* KILJDBOGKNI; // 0x60
-	::UnityEngine::Matrix4x4 OPDNLJOHHCB; // 0x68
+	::System::Int32 ExportOrder; // 0x2C
+	::System::Boolean _SetPrismForMainCameraOnReset; // 0x30
+	::System::Collections::Generic::List_1<::VolumeData*>* BlockVolumeList; // 0x38
+	::System::Collections::Generic::Dictionary_2<::System::String*, ::VolumeData*>* PCOOEGDCMNJ; // 0x40
+	::UnityEngine::Transform* mainBlock; // 0x48
+	::System::String* mainBlockName; // 0x50
+	::System::Boolean isParamVolume; // 0x58
+	::SceneLightManagerConfigData_StageData* OverrideParam; // 0x60
+	::Class_3_6C792A3AC4426A91* KILJDBOGKNI; // 0x68
+	::UnityEngine::Matrix4x4 OPDNLJOHHCB; // 0x70
 
 	::System::Void _ctor()
 	{
@@ -103,6 +105,11 @@ public:
 	::System::Void RegenIndexer()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SCENELIGHTVOLUME_REGENINDEXER_OFFSET))(this);
+	}
+
+	static ::System::Int32 CompareForSelection(::SceneLightVolume* a1, ::SceneLightVolume* a2)
+	{
+		return ((::System::Int32(*)(::SceneLightVolume*, ::SceneLightVolume*))((::PBYTE)hIl2Cpp + SCENELIGHTVOLUME_COMPAREFORSELECTION_OFFSET))(a1, a2);
 	}
 
 	::System::Boolean InVolume(::UnityEngine::Vector3 a1)

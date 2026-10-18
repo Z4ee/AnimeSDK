@@ -4,22 +4,22 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ROGUEMAPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EEF4570)
-#define RPG_GAMECORE_ROGUEMAPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1EEF52B0)
+#define RPG_GAMECORE_ROGUEMAPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D9AC7D0)
+#define RPG_GAMECORE_ROGUEMAPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D9AD510)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueMapRow_TypeDefinitionIndex = 14542;
+	inline static constexpr unsigned int RogueMapRow_TypeDefinitionIndex = 14707;
 
 	class RogueMapRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* NextSiteIDList; // 0x10
-		::System::Boolean IsStart; // 0x18
+		::System::Single PosY; // 0x18
 		::System::UInt32 SiteID; // 0x1C
-		::System::UInt32 RogueMapID; // 0x20
-		::System::Single PosX; // 0x24
-		::System::Single PosY; // 0x28
+		::System::Single PosX; // 0x20
+		::System::UInt32 RogueMapID; // 0x24
+		::System::Boolean IsStart; // 0x28
 		::System::Single MonsterWarningRatio; // 0x2C
 
 		::System::Void _ctor()

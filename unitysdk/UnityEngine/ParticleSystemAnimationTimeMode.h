@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ParticleSystemAnimationTimeMode_TypeDefinitionIndex = 5254;
+	inline static constexpr unsigned int ParticleSystemAnimationTimeMode_TypeDefinitionIndex = 5261;
 
 	enum class ParticleSystemAnimationTimeMode : ::System::Int32
 	{

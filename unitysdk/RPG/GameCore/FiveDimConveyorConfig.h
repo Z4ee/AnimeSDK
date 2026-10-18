@@ -4,23 +4,23 @@
 #include "unitysdk/RPG/GameCore/LittleGameComponentConfig.h"
 
 class Class_1_7A22A3DBEEDD1F80;
-namespace RPG::GameCore { class FiveDimDynamicVar; }
+namespace RPG::GameCore { class LittleGameDynamicVar; }
 namespace RPG::GameCore { class LittleGameEvent; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIVEDIMCONVEYORCONFIG_METHOD_3_24070B1A1F9DAE85_OFFSET UNITYSDK_OFFSET(0x1E0E7730)
-#define RPG_GAMECORE_FIVEDIMCONVEYORCONFIG_METHOD_3_42A09DD4111C5B32_OFFSET UNITYSDK_OFFSET(0x1E0E76F0)
-#define RPG_GAMECORE_FIVEDIMCONVEYORCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1E0E7720)
+#define RPG_GAMECORE_FIVEDIMCONVEYORCONFIG_METHOD_3_24070B1A1F9DAE85_OFFSET UNITYSDK_OFFSET(0x1D688810)
+#define RPG_GAMECORE_FIVEDIMCONVEYORCONFIG_METHOD_3_42A09DD4111C5B32_OFFSET UNITYSDK_OFFSET(0x1D6887D0)
+#define RPG_GAMECORE_FIVEDIMCONVEYORCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D688800)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimConveyorConfig_TypeDefinitionIndex = 18382;
+	inline static constexpr unsigned int FiveDimConveyorConfig_TypeDefinitionIndex = 18597;
 
 	class FiveDimConveyorConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:
 		::System::Boolean IsConveyor; // 0x10
-		::RPG::GameCore::FiveDimDynamicVar* BindLevelVarName; // 0x18
+		::RPG::GameCore::LittleGameDynamicVar* BindLevelVarName; // 0x18
 		::Il2CppArray<::System::Int16>* ActiveValues; // 0x20
 		::Il2CppArray<::System::Int16>* InactiveValues; // 0x28
 		::System::String* ActiveRIState; // 0x30

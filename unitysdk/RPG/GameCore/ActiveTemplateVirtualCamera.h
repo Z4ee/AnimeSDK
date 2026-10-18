@@ -7,13 +7,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicString; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ACTIVETEMPLATEVIRTUALCAMERA_METHOD_3_994635DDA4585E1E_OFFSET UNITYSDK_OFFSET(0x1C9EC650)
-#define RPG_GAMECORE_ACTIVETEMPLATEVIRTUALCAMERA_METHOD_3_D472540401E2D54E_OFFSET UNITYSDK_OFFSET(0x1C9EC6A0)
-#define RPG_GAMECORE_ACTIVETEMPLATEVIRTUALCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x1C9EC690)
+#define RPG_GAMECORE_ACTIVETEMPLATEVIRTUALCAMERA_METHOD_3_1D3B7793A929DC39_OFFSET UNITYSDK_OFFSET(0x1D31D330)
+#define RPG_GAMECORE_ACTIVETEMPLATEVIRTUALCAMERA_METHOD_3_3B5E29CAC772C16B_OFFSET UNITYSDK_OFFSET(0x1D31D380)
+#define RPG_GAMECORE_ACTIVETEMPLATEVIRTUALCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x1D31D370)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActiveTemplateVirtualCamera_TypeDefinitionIndex = 20588;
+	inline static constexpr unsigned int ActiveTemplateVirtualCamera_TypeDefinitionIndex = 20827;
 
 	class ActiveTemplateVirtualCamera : public ::RPG::GameCore::TaskConfig
 	{
@@ -36,14 +36,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVETEMPLATEVIRTUALCAMERA__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_994635DDA4585E1E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ActiveTemplateVirtualCamera*& a2)
+		static ::System::Void Method_3_1D3B7793A929DC39(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ActiveTemplateVirtualCamera*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ActiveTemplateVirtualCamera*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVETEMPLATEVIRTUALCAMERA_METHOD_3_994635DDA4585E1E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ActiveTemplateVirtualCamera*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVETEMPLATEVIRTUALCAMERA_METHOD_3_1D3B7793A929DC39_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_D472540401E2D54E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ActiveTemplateVirtualCamera* a2)
+		static ::System::Void Method_3_3B5E29CAC772C16B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ActiveTemplateVirtualCamera* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ActiveTemplateVirtualCamera*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVETEMPLATEVIRTUALCAMERA_METHOD_3_D472540401E2D54E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ActiveTemplateVirtualCamera*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVETEMPLATEVIRTUALCAMERA_METHOD_3_3B5E29CAC772C16B_OFFSET))(a1, a2);
 		}
 	};
 }

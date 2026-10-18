@@ -4,13 +4,22 @@
 
 namespace RPG::Client { class RegisterToPlanarReflectionBehavior; }
 namespace System { class String; }
+namespace System::Collections::Generic { template <typename T> class IList_1; }
+namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace UnityEngine { class Renderer; }
 
-#define RPG_CLIENT_REGISTERTOPLANARREFLECTIONMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x1B65C3D0)
+#define RPG_CLIENT_REGISTERTOPLANARREFLECTIONMONOPLUGIN_ADDRENDERERS_OFFSET UNITYSDK_OFFSET(0xDE5E9D0)
+#define RPG_CLIENT_REGISTERTOPLANARREFLECTIONMONOPLUGIN_ADDRENDERER_OFFSET UNITYSDK_OFFSET(0xDE5E940)
+#define RPG_CLIENT_REGISTERTOPLANARREFLECTIONMONOPLUGIN_CLEARRENDERERS_OFFSET UNITYSDK_OFFSET(0xDE5EB80)
+#define RPG_CLIENT_REGISTERTOPLANARREFLECTIONMONOPLUGIN_GET_CURRENTRENDERERS_OFFSET UNITYSDK_OFFSET(0xDE5ECC0)
+#define RPG_CLIENT_REGISTERTOPLANARREFLECTIONMONOPLUGIN_REFRESHREGISTER_OFFSET UNITYSDK_OFFSET(0xDE5EC10)
+#define RPG_CLIENT_REGISTERTOPLANARREFLECTIONMONOPLUGIN_REMOVERENDERERS_OFFSET UNITYSDK_OFFSET(0xDE5EAF0)
+#define RPG_CLIENT_REGISTERTOPLANARREFLECTIONMONOPLUGIN_REMOVERENDERER_OFFSET UNITYSDK_OFFSET(0xDE5EA60)
+#define RPG_CLIENT_REGISTERTOPLANARREFLECTIONMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xDE5ED50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RegisterToPlanarReflectionMonoPlugin_TypeDefinitionIndex = 70673;
+	inline static constexpr unsigned int RegisterToPlanarReflectionMonoPlugin_TypeDefinitionIndex = 70709;
 
 	class RegisterToPlanarReflectionMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::RegisterToPlanarReflectionBehavior*>
 	{
@@ -22,6 +31,41 @@ namespace RPG::Client
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_REGISTERTOPLANARREFLECTIONMONOPLUGIN__CTOR_OFFSET))(this);
+		}
+
+		::System::Boolean AddRenderer(::UnityEngine::Renderer* a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Renderer*))((::PBYTE)hIl2Cpp + RPG_CLIENT_REGISTERTOPLANARREFLECTIONMONOPLUGIN_ADDRENDERER_OFFSET))(this, a1);
+		}
+
+		::System::Void AddRenderers(::System::Collections::Generic::IList_1<::UnityEngine::Renderer*>* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IList_1<::UnityEngine::Renderer*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_REGISTERTOPLANARREFLECTIONMONOPLUGIN_ADDRENDERERS_OFFSET))(this, a1);
+		}
+
+		::System::Boolean RemoveRenderer(::UnityEngine::Renderer* a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Renderer*))((::PBYTE)hIl2Cpp + RPG_CLIENT_REGISTERTOPLANARREFLECTIONMONOPLUGIN_REMOVERENDERER_OFFSET))(this, a1);
+		}
+
+		::System::Void RemoveRenderers(::System::Collections::Generic::IList_1<::UnityEngine::Renderer*>* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IList_1<::UnityEngine::Renderer*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_REGISTERTOPLANARREFLECTIONMONOPLUGIN_REMOVERENDERERS_OFFSET))(this, a1);
+		}
+
+		::System::Void ClearRenderers()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_REGISTERTOPLANARREFLECTIONMONOPLUGIN_CLEARRENDERERS_OFFSET))(this);
+		}
+
+		::System::Void RefreshRegister()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_REGISTERTOPLANARREFLECTIONMONOPLUGIN_REFRESHREGISTER_OFFSET))(this);
+		}
+
+		::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::Renderer*>* get_CurrentRenderers()
+		{
+			return ((::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::Renderer*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_REGISTERTOPLANARREFLECTIONMONOPLUGIN_GET_CURRENTRENDERERS_OFFSET))(this);
 		}
 	};
 }

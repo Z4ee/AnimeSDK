@@ -5,20 +5,20 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_BATTLEEVENTBUTTONTYPECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B2F6310)
-#define RPG_GAMECORE_BATTLEEVENTBUTTONTYPECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B2F64F0)
+#define RPG_GAMECORE_BATTLEEVENTBUTTONTYPECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D42A470)
+#define RPG_GAMECORE_BATTLEEVENTBUTTONTYPECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D42A650)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleEventButtonTypeConfigRow_TypeDefinitionIndex = 12768;
+	inline static constexpr unsigned int BattleEventButtonTypeConfigRow_TypeDefinitionIndex = 12862;
 
 	class BattleEventButtonTypeConfigRow : public ::System::Object
 	{
 	public:
-		::System::String* ButtonReadyPath; // 0x10
-		::System::String* CutinPath; // 0x18
-		::System::String* ButtonPath; // 0x20
-		::System::String* SkillButtonEffPath; // 0x28
+		::System::String* ButtonPath; // 0x10
+		::System::String* ButtonReadyPath; // 0x18
+		::System::String* SkillButtonEffPath; // 0x20
+		::System::String* CutinPath; // 0x28
 		::System::UInt32 ID; // 0x30
 
 		::System::Void _ctor()

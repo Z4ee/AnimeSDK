@@ -6,7 +6,7 @@ namespace System { template <typename T> class IProgress_1; }
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int Progress_NullProgress_1_TypeDefinitionIndex = 42631;
+	inline static constexpr unsigned int Progress_NullProgress_1_TypeDefinitionIndex = 38216;
 
 	template <typename T>
 	class Progress_NullProgress_1 : public ::System::Object

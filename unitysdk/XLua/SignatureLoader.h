@@ -7,20 +7,20 @@ namespace System::Security::Cryptography { class RSACryptoServiceProvider; }
 namespace System::Security::Cryptography { class SHA1; }
 namespace XLua { class LuaEnv_CustomLoader; }
 
-#define XLUA_SIGNATURELOADER_LOAD_AND_VERIFY_OFFSET UNITYSDK_OFFSET(0xFA013F0)
-#define XLUA_SIGNATURELOADER_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0xFA01580)
-#define XLUA_SIGNATURELOADER__CTOR_OFFSET UNITYSDK_OFFSET(0xFA01320)
+#define XLUA_SIGNATURELOADER_LOAD_AND_VERIFY_OFFSET UNITYSDK_OFFSET(0x152BAB30)
+#define XLUA_SIGNATURELOADER_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x152BACC0)
+#define XLUA_SIGNATURELOADER__CTOR_OFFSET UNITYSDK_OFFSET(0x152BAA60)
 
 namespace XLua
 {
-	inline static constexpr unsigned int SignatureLoader_TypeDefinitionIndex = 50586;
+	inline static constexpr unsigned int SignatureLoader_TypeDefinitionIndex = 50255;
 
 	class SignatureLoader : public ::System::Object
 	{
 	public:
-		::System::Security::Cryptography::RSACryptoServiceProvider* rsa; // 0x10
+		::XLua::LuaEnv_CustomLoader* userLoader; // 0x10
 		::System::Security::Cryptography::SHA1* sha; // 0x18
-		::XLua::LuaEnv_CustomLoader* userLoader; // 0x20
+		::System::Security::Cryptography::RSACryptoServiceProvider* rsa; // 0x20
 
 		::System::Void _ctor(::System::String* a1, ::XLua::LuaEnv_CustomLoader* a2)
 		{

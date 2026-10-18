@@ -11,25 +11,25 @@ namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define CYSHARP_THREADING_TASKS_UNITASKEXTENSIONS__FORGETCOREWITHCATCH_D__50_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x3BB8140)
-#define CYSHARP_THREADING_TASKS_UNITASKEXTENSIONS__FORGETCOREWITHCATCH_D__50_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x10F00)
+#define CYSHARP_THREADING_TASKS_UNITASKEXTENSIONS__FORGETCOREWITHCATCH_D__50_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x3C5F920)
+#define CYSHARP_THREADING_TASKS_UNITASKEXTENSIONS__FORGETCOREWITHCATCH_D__50_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x10B0)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UniTaskExtensions__ForgetCoreWithCatch_d__50_TypeDefinitionIndex = 42837;
+	inline static constexpr unsigned int UniTaskExtensions__ForgetCoreWithCatch_d__50_TypeDefinitionIndex = 38422;
 
 	struct alignas(8) UniTaskExtensions__ForgetCoreWithCatch_d__50
 	{
 		::System::Exception* _ex_5__4; // 0x10
-		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskVoidMethodBuilder __t__builder; // 0x18
-		::Cysharp::Threading::Tasks::UniTask task; // 0x20
-		::System::Action_1<::System::Exception*>* exceptionHandler; // 0x30
-		::System::Object* __7__wrap1; // 0x38
-		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x40
-		::Cysharp::Threading::Tasks::SwitchToMainThreadAwaitable_Awaiter __u__2; // 0x50
-		::System::Int32 __7__wrap2; // 0x60
+		::System::Action_1<::System::Exception*>* exceptionHandler; // 0x18
+		::Cysharp::Threading::Tasks::SwitchToMainThreadAwaitable_Awaiter __u__2; // 0x20
+		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x30
+		::System::Object* __7__wrap1; // 0x40
+		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskVoidMethodBuilder __t__builder; // 0x48
+		::Cysharp::Threading::Tasks::UniTask task; // 0x50
+		::System::Boolean handleExceptionOnMainThread; // 0x60
 		::System::Int32 __1__state; // 0x64
-		::System::Boolean handleExceptionOnMainThread; // 0x68
+		::System::Int32 __7__wrap2; // 0x68
 
 		::System::Void MoveNext()
 		{

@@ -6,34 +6,34 @@
 class Class_1_E2FB7E5A9E3705C7_1;
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_EXPEDITIONBATTLEFLOWTEAMVIEWMODEL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B88C960)
-#define RPG_CLIENT_EXPEDITIONBATTLEFLOWTEAMVIEWMODEL___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B88C9A0)
-#define RPG_CLIENT_EXPEDITIONBATTLEFLOWTEAMVIEWMODEL___C__GETCOMMONTALK_B__21_0_OFFSET UNITYSDK_OFFSET(0x1B88C9D0)
-#define RPG_CLIENT_EXPEDITIONBATTLEFLOWTEAMVIEWMODEL___C__GETSTARTTALK_B__20_0_OFFSET UNITYSDK_OFFSET(0x1B88C9B0)
-#define RPG_CLIENT_EXPEDITIONBATTLEFLOWTEAMVIEWMODEL___C__GETVICTORYTALK_B__22_0_OFFSET UNITYSDK_OFFSET(0x1B88C9F0)
+#define RPG_CLIENT_EXPEDITIONBATTLEFLOWTEAMVIEWMODEL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xCE3F5A0)
+#define RPG_CLIENT_EXPEDITIONBATTLEFLOWTEAMVIEWMODEL___C__CTOR_OFFSET UNITYSDK_OFFSET(0xCE3F5E0)
+#define RPG_CLIENT_EXPEDITIONBATTLEFLOWTEAMVIEWMODEL___C__GETCOMMONTALK_B__21_0_OFFSET UNITYSDK_OFFSET(0xCE3F610)
+#define RPG_CLIENT_EXPEDITIONBATTLEFLOWTEAMVIEWMODEL___C__GETSTARTTALK_B__20_0_OFFSET UNITYSDK_OFFSET(0xCE3F5F0)
+#define RPG_CLIENT_EXPEDITIONBATTLEFLOWTEAMVIEWMODEL___C__GETVICTORYTALK_B__22_0_OFFSET UNITYSDK_OFFSET(0xCE3F630)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ExpeditionBattleFlowTeamViewModel___c_TypeDefinitionIndex = 63979;
+	inline static constexpr unsigned int ExpeditionBattleFlowTeamViewModel___c_TypeDefinitionIndex = 63917;
 
 	class ExpeditionBattleFlowTeamViewModel___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::Class_1_E2FB7E5A9E3705C7_1*, ::RPG::Client::TextID>** StaticGet___9__21_0()
+		static ::RPG::Client::ExpeditionBattleFlowTeamViewModel___c** StaticGet___9()
 		{
-			return (::System::Func_2<::Class_1_E2FB7E5A9E3705C7_1*, ::RPG::Client::TextID>**)Il2CppClass::FromTypeDefinitionIndex(ExpeditionBattleFlowTeamViewModel___c_TypeDefinitionIndex)->GetStaticField(0x64810);
+			return (::RPG::Client::ExpeditionBattleFlowTeamViewModel___c**)Il2CppClass::FromTypeDefinitionIndex(ExpeditionBattleFlowTeamViewModel___c_TypeDefinitionIndex)->GetStaticField(0x46B70);
 		}
 		static ::System::Func_2<::Class_1_E2FB7E5A9E3705C7_1*, ::RPG::Client::TextID>** StaticGet___9__22_0()
 		{
-			return (::System::Func_2<::Class_1_E2FB7E5A9E3705C7_1*, ::RPG::Client::TextID>**)Il2CppClass::FromTypeDefinitionIndex(ExpeditionBattleFlowTeamViewModel___c_TypeDefinitionIndex)->GetStaticField(0x64818);
+			return (::System::Func_2<::Class_1_E2FB7E5A9E3705C7_1*, ::RPG::Client::TextID>**)Il2CppClass::FromTypeDefinitionIndex(ExpeditionBattleFlowTeamViewModel___c_TypeDefinitionIndex)->GetStaticField(0x46B78);
+		}
+		static ::System::Func_2<::Class_1_E2FB7E5A9E3705C7_1*, ::RPG::Client::TextID>** StaticGet___9__21_0()
+		{
+			return (::System::Func_2<::Class_1_E2FB7E5A9E3705C7_1*, ::RPG::Client::TextID>**)Il2CppClass::FromTypeDefinitionIndex(ExpeditionBattleFlowTeamViewModel___c_TypeDefinitionIndex)->GetStaticField(0x46B80);
 		}
 		static ::System::Func_2<::Class_1_E2FB7E5A9E3705C7_1*, ::RPG::Client::TextID>** StaticGet___9__20_0()
 		{
-			return (::System::Func_2<::Class_1_E2FB7E5A9E3705C7_1*, ::RPG::Client::TextID>**)Il2CppClass::FromTypeDefinitionIndex(ExpeditionBattleFlowTeamViewModel___c_TypeDefinitionIndex)->GetStaticField(0x64820);
-		}
-		static ::RPG::Client::ExpeditionBattleFlowTeamViewModel___c** StaticGet___9()
-		{
-			return (::RPG::Client::ExpeditionBattleFlowTeamViewModel___c**)Il2CppClass::FromTypeDefinitionIndex(ExpeditionBattleFlowTeamViewModel___c_TypeDefinitionIndex)->GetStaticField(0x64828);
+			return (::System::Func_2<::Class_1_E2FB7E5A9E3705C7_1*, ::RPG::Client::TextID>**)Il2CppClass::FromTypeDefinitionIndex(ExpeditionBattleFlowTeamViewModel___c_TypeDefinitionIndex)->GetStaticField(0x46B88);
 		}
 
 		static ::System::Void _cctor()

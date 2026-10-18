@@ -5,12 +5,12 @@
 namespace RPG::GameCore { class CommonSkill; }
 namespace RPG::GameCore { class ICharacterSkillRowData; }
 
-#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT___C__DISPLAYCLASS62_0__ADDSKILLFROMCOMMONSKILLPOOL_B__1_OFFSET UNITYSDK_OFFSET(0x119AFFE0)
-#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT___C__DISPLAYCLASS62_0__CTOR_OFFSET UNITYSDK_OFFSET(0x119A4E10)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT___C__DISPLAYCLASS62_0__ADDSKILLFROMCOMMONSKILLPOOL_B__1_OFFSET UNITYSDK_OFFSET(0xE75AC70)
+#define RPG_GAMECORE_SKILLCHARACTERCOMPONENT___C__DISPLAYCLASS62_0__CTOR_OFFSET UNITYSDK_OFFSET(0xE75AC60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SkillCharacterComponent___c__DisplayClass62_0_TypeDefinitionIndex = 55076;
+	inline static constexpr unsigned int SkillCharacterComponent___c__DisplayClass62_0_TypeDefinitionIndex = 54867;
 
 	class SkillCharacterComponent___c__DisplayClass62_0 : public ::System::Object
 	{

@@ -9,28 +9,28 @@ namespace System::Collections::ObjectModel { template <typename T> class ReadOnl
 namespace System::Linq::Expressions { class CatchBlock; }
 namespace System::Linq::Expressions { class ExpressionVisitor; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_TRYEXPRESSION_ACCEPT_OFFSET UNITYSDK_OFFSET(0x1DF516D0)
-#define SYSTEM_LINQ_EXPRESSIONS_TRYEXPRESSION_GET_BODY_OFFSET UNITYSDK_OFFSET(0x1DF51690)
-#define SYSTEM_LINQ_EXPRESSIONS_TRYEXPRESSION_GET_FAULT_OFFSET UNITYSDK_OFFSET(0x1DF516C0)
-#define SYSTEM_LINQ_EXPRESSIONS_TRYEXPRESSION_GET_FINALLY_OFFSET UNITYSDK_OFFSET(0x1DF516B0)
-#define SYSTEM_LINQ_EXPRESSIONS_TRYEXPRESSION_GET_HANDLERS_OFFSET UNITYSDK_OFFSET(0x1DF516A0)
-#define SYSTEM_LINQ_EXPRESSIONS_TRYEXPRESSION_GET_NODETYPE_OFFSET UNITYSDK_OFFSET(0x1DF51680)
-#define SYSTEM_LINQ_EXPRESSIONS_TRYEXPRESSION_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1DF51670)
-#define SYSTEM_LINQ_EXPRESSIONS_TRYEXPRESSION_UPDATE_OFFSET UNITYSDK_OFFSET(0x1DF51760)
-#define SYSTEM_LINQ_EXPRESSIONS_TRYEXPRESSION__CTOR_OFFSET UNITYSDK_OFFSET(0x1DF515F0)
+#define SYSTEM_LINQ_EXPRESSIONS_TRYEXPRESSION_ACCEPT_OFFSET UNITYSDK_OFFSET(0x1EE06C90)
+#define SYSTEM_LINQ_EXPRESSIONS_TRYEXPRESSION_GET_BODY_OFFSET UNITYSDK_OFFSET(0x1EE06C50)
+#define SYSTEM_LINQ_EXPRESSIONS_TRYEXPRESSION_GET_FAULT_OFFSET UNITYSDK_OFFSET(0x1EE06C80)
+#define SYSTEM_LINQ_EXPRESSIONS_TRYEXPRESSION_GET_FINALLY_OFFSET UNITYSDK_OFFSET(0x1EE06C70)
+#define SYSTEM_LINQ_EXPRESSIONS_TRYEXPRESSION_GET_HANDLERS_OFFSET UNITYSDK_OFFSET(0x1EE06C60)
+#define SYSTEM_LINQ_EXPRESSIONS_TRYEXPRESSION_GET_NODETYPE_OFFSET UNITYSDK_OFFSET(0x1EE06C40)
+#define SYSTEM_LINQ_EXPRESSIONS_TRYEXPRESSION_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1EE06C30)
+#define SYSTEM_LINQ_EXPRESSIONS_TRYEXPRESSION_UPDATE_OFFSET UNITYSDK_OFFSET(0x1EE06D20)
+#define SYSTEM_LINQ_EXPRESSIONS_TRYEXPRESSION__CTOR_OFFSET UNITYSDK_OFFSET(0x1EE06BB0)
 
 namespace System::Linq::Expressions
 {
-	inline static constexpr unsigned int TryExpression_TypeDefinitionIndex = 3278;
+	inline static constexpr unsigned int TryExpression_TypeDefinitionIndex = 3279;
 
 	class TryExpression : public ::System::Linq::Expressions::Expression
 	{
 	public:
-		::System::Linq::Expressions::Expression* _Finally_k__BackingField; // 0x10
-		::System::Linq::Expressions::Expression* _Body_k__BackingField; // 0x18
-		::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::CatchBlock*>* _Handlers_k__BackingField; // 0x20
+		::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::CatchBlock*>* _Handlers_k__BackingField; // 0x10
+		::System::Type* _Type_k__BackingField; // 0x18
+		::System::Linq::Expressions::Expression* _Body_k__BackingField; // 0x20
 		::System::Linq::Expressions::Expression* _Fault_k__BackingField; // 0x28
-		::System::Type* _Type_k__BackingField; // 0x30
+		::System::Linq::Expressions::Expression* _Finally_k__BackingField; // 0x30
 
 		::System::Void _ctor(::System::Type* a1, ::System::Linq::Expressions::Expression* a2, ::System::Linq::Expressions::Expression* a3, ::System::Linq::Expressions::Expression* a4, ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::CatchBlock*>* a5)
 		{

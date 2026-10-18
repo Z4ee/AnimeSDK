@@ -6,7 +6,7 @@ namespace System { template <typename T> class Action_1; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PendingRspEntry_1___O_TypeDefinitionIndex = 69372;
+	inline static constexpr unsigned int PendingRspEntry_1___O_TypeDefinitionIndex = 69408;
 
 	template <typename TRsp>
 	class PendingRspEntry_1___O : public ::System::Object

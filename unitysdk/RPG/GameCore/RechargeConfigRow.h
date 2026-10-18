@@ -6,26 +6,26 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_RECHARGECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D19E7B0)
-#define RPG_GAMECORE_RECHARGECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB797A0)
+#define RPG_GAMECORE_RECHARGECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D943750)
+#define RPG_GAMECORE_RECHARGECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D943B80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RechargeConfigRow_TypeDefinitionIndex = 14447;
+	inline static constexpr unsigned int RechargeConfigRow_TypeDefinitionIndex = 14612;
 
 	class RechargeConfigRow : public ::System::Object
 	{
 	public:
-		::System::String* TierID; // 0x10
+		::System::String* GiftImage; // 0x10
 		::System::String* ProductID; // 0x18
-		::System::String* GiftImage; // 0x20
-		::System::UInt32 NormalCharge; // 0x28
-		::System::UInt32 FirstCharge; // 0x2C
-		::System::UInt32 ListOrder; // 0x30
-		::System::UInt32 GiftType; // 0x34
-		::RPG::Client::TextID NormalRechargeConfirm; // 0x38
-		::RPG::Client::TextID GiftName; // 0x48
-		::RPG::Client::TextID FirstRechangeConfirm; // 0x58
+		::System::String* TierID; // 0x20
+		::RPG::Client::TextID NormalRechargeConfirm; // 0x28
+		::System::UInt32 GiftType; // 0x38
+		::System::UInt32 NormalCharge; // 0x3C
+		::RPG::Client::TextID FirstRechangeConfirm; // 0x40
+		::RPG::Client::TextID GiftName; // 0x50
+		::System::UInt32 ListOrder; // 0x60
+		::System::UInt32 FirstCharge; // 0x64
 
 		::System::Void _ctor()
 		{

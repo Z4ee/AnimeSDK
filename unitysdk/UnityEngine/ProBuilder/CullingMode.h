@@ -3,7 +3,7 @@
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int CullingMode_TypeDefinitionIndex = 43205;
+	inline static constexpr unsigned int CullingMode_TypeDefinitionIndex = 44397;
 
 	enum class CullingMode : ::System::Int32
 	{

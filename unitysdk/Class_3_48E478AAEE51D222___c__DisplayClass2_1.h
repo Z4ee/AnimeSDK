@@ -5,16 +5,16 @@
 class Class_3_48E478AAEE51D222___c__DisplayClass2_0;
 namespace RPG::GameCore { class ChimeraDuelStatusConfig; }
 
-#define CLASS_3_48E478AAEE51D222___C__DISPLAYCLASS2_1__CTOR_OFFSET UNITYSDK_OFFSET(0x17D5A770)
-#define CLASS_3_48E478AAEE51D222___C__DISPLAYCLASS2_1___TRYAPPLY_B__0_OFFSET UNITYSDK_OFFSET(0x17D5A7F0)
+#define CLASS_3_48E478AAEE51D222___C__DISPLAYCLASS2_1__CTOR_OFFSET UNITYSDK_OFFSET(0xBFAC440)
+#define CLASS_3_48E478AAEE51D222___C__DISPLAYCLASS2_1___TRYAPPLY_B__0_OFFSET UNITYSDK_OFFSET(0xBFAC4C0)
 
-inline static constexpr unsigned int Class_3_48E478AAEE51D222___c__DisplayClass2_1_TypeDefinitionIndex = 76990;
+inline static constexpr unsigned int Class_3_48E478AAEE51D222___c__DisplayClass2_1_TypeDefinitionIndex = 77461;
 
 class Class_3_48E478AAEE51D222___c__DisplayClass2_1 : public ::System::Object
 {
 public:
-	::RPG::GameCore::ChimeraDuelStatusConfig* statusConfig; // 0x10
-	::Class_3_48E478AAEE51D222___c__DisplayClass2_0* CS___8__locals1; // 0x18
+	::Class_3_48E478AAEE51D222___c__DisplayClass2_0* CS___8__locals1; // 0x10
+	::RPG::GameCore::ChimeraDuelStatusConfig* statusConfig; // 0x18
 
 	::System::Void _ctor()
 	{

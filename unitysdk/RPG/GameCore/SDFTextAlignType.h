@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SDFTextAlignType_TypeDefinitionIndex = 24264;
+	inline static constexpr unsigned int SDFTextAlignType_TypeDefinitionIndex = 24543;
 
 	enum class SDFTextAlignType : ::System::Int32
 	{

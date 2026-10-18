@@ -5,16 +5,16 @@
 class Class_1_2A97E60807F449E7;
 class Class_3_EF33E2FECBC6ECB0;
 
-#define CLASS_3_EF33E2FECBC6ECB0___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17ADEDC0)
-#define CLASS_3_EF33E2FECBC6ECB0___C__DISPLAYCLASS8_0__ONDETAILCHANGE_B__0_OFFSET UNITYSDK_OFFSET(0x17ADF870)
+#define CLASS_3_EF33E2FECBC6ECB0___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0xF24E310)
+#define CLASS_3_EF33E2FECBC6ECB0___C__DISPLAYCLASS8_0__ONDETAILCHANGE_B__0_OFFSET UNITYSDK_OFFSET(0xF24ED70)
 
-inline static constexpr unsigned int Class_3_EF33E2FECBC6ECB0___c__DisplayClass8_0_TypeDefinitionIndex = 71259;
+inline static constexpr unsigned int Class_3_EF33E2FECBC6ECB0___c__DisplayClass8_0_TypeDefinitionIndex = 71298;
 
 class Class_3_EF33E2FECBC6ECB0___c__DisplayClass8_0 : public ::System::Object
 {
 public:
-	::Class_3_EF33E2FECBC6ECB0* __4__this; // 0x10
-	::Class_1_2A97E60807F449E7* detail; // 0x18
+	::Class_1_2A97E60807F449E7* detail; // 0x10
+	::Class_3_EF33E2FECBC6ECB0* __4__this; // 0x18
 
 	::System::Void _ctor()
 	{

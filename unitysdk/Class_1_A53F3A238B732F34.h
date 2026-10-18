@@ -3,17 +3,17 @@
 #include "unitysdk/RPG/Client/AdvEffectParamSource.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_A53F3A238B732F34__CTOR_OFFSET UNITYSDK_OFFSET(0x152202A0)
+#define CLASS_1_A53F3A238B732F34__CTOR_OFFSET UNITYSDK_OFFSET(0xC2B3050)
 
-inline static constexpr unsigned int Class_1_A53F3A238B732F34_TypeDefinitionIndex = 69882;
+inline static constexpr unsigned int Class_1_A53F3A238B732F34_TypeDefinitionIndex = 69916;
 
 class Class_1_A53F3A238B732F34 : public ::System::Object
 {
 public:
-	::RPG::Client::AdvEffectParamSource DDGHHBLOCLO; // 0x10
+	::System::Boolean JJDDNOMCCLB; // 0x10
 	::System::UInt32 NIKDDAOHOKL; // 0x14
-	::System::Boolean JJDDNOMCCLB; // 0x18
-	::System::UInt32 IHHIOGFBMJK; // 0x1C
+	::System::UInt32 IHHIOGFBMJK; // 0x18
+	::RPG::Client::AdvEffectParamSource DDGHHBLOCLO; // 0x1C
 
 	::System::Void _ctor()
 	{

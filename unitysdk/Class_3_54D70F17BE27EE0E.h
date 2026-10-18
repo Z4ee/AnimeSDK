@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByUsedFiveDimHoldDash; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_54D70F17BE27EE0E_EVALUATE_OFFSET UNITYSDK_OFFSET(0x189F99E0)
-#define CLASS_3_54D70F17BE27EE0E__CTOR_OFFSET UNITYSDK_OFFSET(0x189F99B0)
+#define CLASS_3_54D70F17BE27EE0E_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15E128C0)
+#define CLASS_3_54D70F17BE27EE0E__CTOR_OFFSET UNITYSDK_OFFSET(0x15E12890)
 
-inline static constexpr unsigned int Class_3_54D70F17BE27EE0E_TypeDefinitionIndex = 53098;
+inline static constexpr unsigned int Class_3_54D70F17BE27EE0E_TypeDefinitionIndex = 52824;
 
 class Class_3_54D70F17BE27EE0E : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByUsedFiveDimHoldDash*>
 {

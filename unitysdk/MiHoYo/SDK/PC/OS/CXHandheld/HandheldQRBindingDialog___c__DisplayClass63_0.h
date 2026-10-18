@@ -4,12 +4,12 @@
 
 namespace System { class Action; }
 
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDQRBINDINGDIALOG___C__DISPLAYCLASS63_0__ADDBUTTONCLICK_B__0_OFFSET UNITYSDK_OFFSET(0x1A2477F0)
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDQRBINDINGDIALOG___C__DISPLAYCLASS63_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A2476B0)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDQRBINDINGDIALOG___C__DISPLAYCLASS63_0__ADDBUTTONCLICK_B__0_OFFSET UNITYSDK_OFFSET(0x1BECA0F0)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDQRBINDINGDIALOG___C__DISPLAYCLASS63_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BEC9FB0)
 
 namespace MiHoYo::SDK::PC::OS::CXHandheld
 {
-	inline static constexpr unsigned int HandheldQRBindingDialog___c__DisplayClass63_0_TypeDefinitionIndex = 8757;
+	inline static constexpr unsigned int HandheldQRBindingDialog___c__DisplayClass63_0_TypeDefinitionIndex = 8818;
 
 	class HandheldQRBindingDialog___c__DisplayClass63_0 : public ::System::Object
 	{

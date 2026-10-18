@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetLevelFinish; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_6586E01B3DDD054D_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18558E70)
-#define CLASS_3_6586E01B3DDD054D__CTOR_OFFSET UNITYSDK_OFFSET(0x18558E40)
+#define CLASS_3_6586E01B3DDD054D_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x166435C0)
+#define CLASS_3_6586E01B3DDD054D__CTOR_OFFSET UNITYSDK_OFFSET(0x16643590)
 
-inline static constexpr unsigned int Class_3_6586E01B3DDD054D_TypeDefinitionIndex = 58699;
+inline static constexpr unsigned int Class_3_6586E01B3DDD054D_TypeDefinitionIndex = 58551;
 
 class Class_3_6586E01B3DDD054D : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetLevelFinish*>
 {

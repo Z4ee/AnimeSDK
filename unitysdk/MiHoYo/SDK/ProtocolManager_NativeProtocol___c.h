@@ -5,24 +5,24 @@
 namespace MiHoYo::SDK { class AccountPlatformPlugin_MessageHandler; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_PROTOCOLMANAGER_NATIVEPROTOCOL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19EB8880)
-#define MIHOYO_SDK_PROTOCOLMANAGER_NATIVEPROTOCOL___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19EB88C0)
-#define MIHOYO_SDK_PROTOCOLMANAGER_NATIVEPROTOCOL___C__TRYSHOWLAUNCHERPROTOCOLCOMPLIANCE_B__13_0_OFFSET UNITYSDK_OFFSET(0x19EB88D0)
+#define MIHOYO_SDK_PROTOCOLMANAGER_NATIVEPROTOCOL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BF90F30)
+#define MIHOYO_SDK_PROTOCOLMANAGER_NATIVEPROTOCOL___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF90F70)
+#define MIHOYO_SDK_PROTOCOLMANAGER_NATIVEPROTOCOL___C__TRYSHOWLAUNCHERPROTOCOLCOMPLIANCE_B__13_0_OFFSET UNITYSDK_OFFSET(0x1BF90F80)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ProtocolManager_NativeProtocol___c_TypeDefinitionIndex = 8001;
+	inline static constexpr unsigned int ProtocolManager_NativeProtocol___c_TypeDefinitionIndex = 8044;
 
 	class ProtocolManager_NativeProtocol___c : public ::System::Object
 	{
 	public:
-		static ::MiHoYo::SDK::ProtocolManager_NativeProtocol___c** StaticGet___9()
-		{
-			return (::MiHoYo::SDK::ProtocolManager_NativeProtocol___c**)Il2CppClass::FromTypeDefinitionIndex(ProtocolManager_NativeProtocol___c_TypeDefinitionIndex)->GetStaticField(0x1D020);
-		}
 		static ::MiHoYo::SDK::AccountPlatformPlugin_MessageHandler** StaticGet___9__13_0()
 		{
-			return (::MiHoYo::SDK::AccountPlatformPlugin_MessageHandler**)Il2CppClass::FromTypeDefinitionIndex(ProtocolManager_NativeProtocol___c_TypeDefinitionIndex)->GetStaticField(0x1D028);
+			return (::MiHoYo::SDK::AccountPlatformPlugin_MessageHandler**)Il2CppClass::FromTypeDefinitionIndex(ProtocolManager_NativeProtocol___c_TypeDefinitionIndex)->GetStaticField(0x243C0);
+		}
+		static ::MiHoYo::SDK::ProtocolManager_NativeProtocol___c** StaticGet___9()
+		{
+			return (::MiHoYo::SDK::ProtocolManager_NativeProtocol___c**)Il2CppClass::FromTypeDefinitionIndex(ProtocolManager_NativeProtocol___c_TypeDefinitionIndex)->GetStaticField(0x243C8);
 		}
 
 		static ::System::Void _cctor()

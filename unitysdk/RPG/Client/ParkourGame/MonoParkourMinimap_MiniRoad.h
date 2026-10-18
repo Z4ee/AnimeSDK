@@ -4,11 +4,11 @@
 
 namespace BansheeGz::BGSpline::Curve { class BGCurve; }
 
-#define RPG_CLIENT_PARKOURGAME_MONOPARKOURMINIMAP_MINIROAD__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4DD280)
+#define RPG_CLIENT_PARKOURGAME_MONOPARKOURMINIMAP_MINIROAD__CTOR_OFFSET UNITYSDK_OFFSET(0xDA6D0F0)
 
 namespace RPG::Client::ParkourGame
 {
-	inline static constexpr unsigned int MonoParkourMinimap_MiniRoad_TypeDefinitionIndex = 74053;
+	inline static constexpr unsigned int MonoParkourMinimap_MiniRoad_TypeDefinitionIndex = 74152;
 
 	class MonoParkourMinimap_MiniRoad : public ::System::Object
 	{

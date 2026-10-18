@@ -27,9 +27,9 @@
 #include "unitysdk/_PrivateImplementationDetails____StaticArrayInitTypeSize_6.h"
 #include "unitysdk/_PrivateImplementationDetails____StaticArrayInitTypeSize_80.h"
 
-#define _PRIVATEIMPLEMENTATIONDETAILS__THROWINVALIDOPERATIONEXCEPTION_OFFSET UNITYSDK_OFFSET(0x17C8CC20)
+#define _PRIVATEIMPLEMENTATIONDETAILS__THROWINVALIDOPERATIONEXCEPTION_OFFSET UNITYSDK_OFFSET(0xB0BE9D0)
 
-inline static constexpr unsigned int _PrivateImplementationDetails__TypeDefinitionIndex = 80924;
+inline static constexpr unsigned int _PrivateImplementationDetails__TypeDefinitionIndex = 82304;
 
 class _PrivateImplementationDetails_ : public ::System::Object
 {
@@ -141,6 +141,10 @@ public:
 	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_6* StaticGet_40AE2D0932F1E381C2D74CC90C0CDB9E9B281F32D52EC31C9F1B51CDCB209C19()
 	{
 		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_6*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
+	}
+	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_12* StaticGet_41710C8DB0D75B65EF8E0FAEEFB5A8D2611F9D97CB6262F86404B33932AB645C()
+	{
+		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_12*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
 	}
 	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_40* StaticGet_45128F706B910588CE57D78F623E86FAC34220D4AB5AB3D841360F279FC3B281()
 	{
@@ -334,10 +338,6 @@ public:
 	{
 		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_4104*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
 	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_144* StaticGet_C70F5E496017BE125D961097CCF48F30F1BED1523FF514342C44062F8858C9EF()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_144*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
 	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_28* StaticGet_C7C66004E1519F34E755EBB0CFBC2400654FF2C4ECB853ED9523B406D128667B()
 	{
 		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_28*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
@@ -367,6 +367,10 @@ public:
 		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_12*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
 	}
 	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_16* StaticGet_CE18F5C9B62E24ECE371F92F5BBDB067A5A59A86E5D0F3ECFFF02E17DA6446D2()
+	{
+		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_16*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
+	}
+	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_16* StaticGet_CEDA3398BDE8F4BB2FCF45ECB514D6A58DFB8147400A98D03E4F13B847B7E8E3()
 	{
 		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_16*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
 	}

@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Class_1_D2CCD41744F83728_RF_RaceModeInfoComponent_TypeDefinitionIndex = 36415;
+inline static constexpr unsigned int Class_1_D2CCD41744F83728_RF_RaceModeInfoComponent_TypeDefinitionIndex = 37102;
 
 enum class Class_1_D2CCD41744F83728_RF_RaceModeInfoComponent : ::System::Byte
 {

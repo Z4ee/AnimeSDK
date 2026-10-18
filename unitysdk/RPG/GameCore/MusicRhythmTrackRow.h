@@ -6,18 +6,18 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MUSICRHYTHMTRACKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CE863E0)
-#define RPG_GAMECORE_MUSICRHYTHMTRACKROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE86640)
+#define RPG_GAMECORE_MUSICRHYTHMTRACKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D8A1A90)
+#define RPG_GAMECORE_MUSICRHYTHMTRACKROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D8A1CF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MusicRhythmTrackRow_TypeDefinitionIndex = 14164;
+	inline static constexpr unsigned int MusicRhythmTrackRow_TypeDefinitionIndex = 14271;
 
 	class MusicRhythmTrackRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* EmptyGridList; // 0x10
-		::System::String* IconPath; // 0x18
+		::System::String* IconPath; // 0x10
+		::Il2CppArray<::System::UInt32>* EmptyGridList; // 0x18
 		::RPG::Client::TextID TrackName; // 0x20
 		::System::UInt32 UnlockSubMissionID; // 0x30
 		::System::UInt32 ID; // 0x34

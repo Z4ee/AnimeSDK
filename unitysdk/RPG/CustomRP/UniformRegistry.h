@@ -9,24 +9,24 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CUSTOMRP_UNIFORMREGISTRY_APPLYVALUE_OFFSET UNITYSDK_OFFSET(0x1EE5A670)
-#define RPG_CUSTOMRP_UNIFORMREGISTRY_CLEAR_OFFSET UNITYSDK_OFFSET(0x1EE59980)
-#define RPG_CUSTOMRP_UNIFORMREGISTRY_GETINITIALVALUE_OFFSET UNITYSDK_OFFSET(0x1EE5A2E0)
-#define RPG_CUSTOMRP_UNIFORMREGISTRY_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x1EE59900)
-#define RPG_CUSTOMRP_UNIFORMREGISTRY_REBUILDFROMROOT_OFFSET UNITYSDK_OFFSET(0x1EE59A20)
-#define RPG_CUSTOMRP_UNIFORMREGISTRY_TRYGETENTRY_OFFSET UNITYSDK_OFFSET(0x1EE5A180)
-#define RPG_CUSTOMRP_UNIFORMREGISTRY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EE5AB60)
+#define RPG_CUSTOMRP_UNIFORMREGISTRY_APPLYVALUE_OFFSET UNITYSDK_OFFSET(0x1CC4C3E0)
+#define RPG_CUSTOMRP_UNIFORMREGISTRY_CLEAR_OFFSET UNITYSDK_OFFSET(0x1CC4B6F0)
+#define RPG_CUSTOMRP_UNIFORMREGISTRY_GETINITIALVALUE_OFFSET UNITYSDK_OFFSET(0x1CC4C050)
+#define RPG_CUSTOMRP_UNIFORMREGISTRY_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x1CC4B670)
+#define RPG_CUSTOMRP_UNIFORMREGISTRY_REBUILDFROMROOT_OFFSET UNITYSDK_OFFSET(0x1CC4B790)
+#define RPG_CUSTOMRP_UNIFORMREGISTRY_TRYGETENTRY_OFFSET UNITYSDK_OFFSET(0x1CC4BEF0)
+#define RPG_CUSTOMRP_UNIFORMREGISTRY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CC4C8D0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int UniformRegistry_TypeDefinitionIndex = 37073;
+	inline static constexpr unsigned int UniformRegistry_TypeDefinitionIndex = 37758;
 
 	class UniformRegistry : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::List_1<::RPG::CustomRP::UniformEntry>** StaticGet__entries()
 		{
-			return (::System::Collections::Generic::List_1<::RPG::CustomRP::UniformEntry>**)Il2CppClass::FromTypeDefinitionIndex(UniformRegistry_TypeDefinitionIndex)->GetStaticField(0x3BE90);
+			return (::System::Collections::Generic::List_1<::RPG::CustomRP::UniformEntry>**)Il2CppClass::FromTypeDefinitionIndex(UniformRegistry_TypeDefinitionIndex)->GetStaticField(0x31730);
 		}
 		// static const ::System::Reflection::BindingFlags k_FieldFlags; // 0x0
 

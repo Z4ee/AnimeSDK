@@ -8,26 +8,26 @@ namespace System { class Action; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_3C323C92D149BEA3_GET_ISFINISHED_OFFSET UNITYSDK_OFFSET(0x18704F20)
-#define CLASS_1_3C323C92D149BEA3_METHOD_1_36E9BAC1A53462F7_OFFSET UNITYSDK_OFFSET(0x18704980)
-#define CLASS_1_3C323C92D149BEA3_METHOD_1_A44A18C9451109E4_OFFSET UNITYSDK_OFFSET(0x187047C0)
-#define CLASS_1_3C323C92D149BEA3_METHOD_1_EAC2737A96E071C9_OFFSET UNITYSDK_OFFSET(0x18704D80)
-#define CLASS_1_3C323C92D149BEA3_METHOD_1_EDFD49C942C75D6C_OFFSET UNITYSDK_OFFSET(0x18704C80)
-#define CLASS_1_3C323C92D149BEA3_SET_ISFINISHED_OFFSET UNITYSDK_OFFSET(0x18704F30)
-#define CLASS_1_3C323C92D149BEA3__CTOR_OFFSET UNITYSDK_OFFSET(0x18704540)
+#define CLASS_1_3C323C92D149BEA3_GET_ISFINISHED_OFFSET UNITYSDK_OFFSET(0x12CE8F40)
+#define CLASS_1_3C323C92D149BEA3_METHOD_1_36E9BAC1A53462F7_OFFSET UNITYSDK_OFFSET(0x12CE89A0)
+#define CLASS_1_3C323C92D149BEA3_METHOD_1_A44A18C9451109E4_OFFSET UNITYSDK_OFFSET(0x12CE87E0)
+#define CLASS_1_3C323C92D149BEA3_METHOD_1_EAC2737A96E071C9_OFFSET UNITYSDK_OFFSET(0x12CE8DA0)
+#define CLASS_1_3C323C92D149BEA3_METHOD_1_EDFD49C942C75D6C_OFFSET UNITYSDK_OFFSET(0x12CE8CA0)
+#define CLASS_1_3C323C92D149BEA3_SET_ISFINISHED_OFFSET UNITYSDK_OFFSET(0x12CE8F50)
+#define CLASS_1_3C323C92D149BEA3__CTOR_OFFSET UNITYSDK_OFFSET(0x12CE8560)
 
-inline static constexpr unsigned int Class_1_3C323C92D149BEA3_TypeDefinitionIndex = 77972;
+inline static constexpr unsigned int Class_1_3C323C92D149BEA3_TypeDefinitionIndex = 78443;
 
 class Class_1_3C323C92D149BEA3 : public ::System::Object
 {
 public:
-	::System::Action* MECKBKLEHAN; // 0x10
-	::RPG::Client::Prop::ChimeraBattlePuzzleBoard* NHNHKBJJKPP; // 0x18
-	::System::Collections::Generic::List_1<::UnityEngine::Vector3>* PNHFIJMPEKH; // 0x20
-	::System::Collections::Generic::HashSet_1<::System::UInt32>* ECJADDMLLPJ; // 0x28
-	::System::Single FOMCKBAHCFM; // 0x30
-	::System::Boolean _IsFinished_k__BackingField; // 0x34
-	::System::Single MFLNKDOADDG; // 0x38
+	::System::Collections::Generic::HashSet_1<::System::UInt32>* ECJADDMLLPJ; // 0x10
+	::System::Collections::Generic::List_1<::UnityEngine::Vector3>* PNHFIJMPEKH; // 0x18
+	::RPG::Client::Prop::ChimeraBattlePuzzleBoard* NHNHKBJJKPP; // 0x20
+	::System::Action* MECKBKLEHAN; // 0x28
+	::System::Single MFLNKDOADDG; // 0x30
+	::System::Single FOMCKBAHCFM; // 0x34
+	::System::Boolean _IsFinished_k__BackingField; // 0x38
 
 	::System::Void _ctor(::System::Collections::Generic::HashSet_1<::System::UInt32>* a1, ::System::Action* a2, ::RPG::Client::Prop::ChimeraBattlePuzzleBoard* a3, ::System::Single a4)
 	{

@@ -4,7 +4,7 @@
 
 namespace SRDebugger::UI::Controls::Data
 {
-	inline static constexpr unsigned int NumberControl_ValueRange_TypeDefinitionIndex = 37352;
+	inline static constexpr unsigned int NumberControl_ValueRange_TypeDefinitionIndex = 38045;
 
 	struct alignas(8) NumberControl_ValueRange
 	{

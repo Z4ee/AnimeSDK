@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T> class IEqualityCo
 
 namespace R3::Internal
 {
-	inline static constexpr unsigned int WeakDictionary_2_TypeDefinitionIndex = 35290;
+	inline static constexpr unsigned int WeakDictionary_2_TypeDefinitionIndex = 35977;
 
 	template <typename TKey, typename TValue>
 	class WeakDictionary_2 : public ::System::Object

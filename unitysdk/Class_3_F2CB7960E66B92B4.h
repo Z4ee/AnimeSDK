@@ -9,19 +9,19 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_3_F2CB7960E66B92B4_METHOD_3_128774387667156B_OFFSET UNITYSDK_OFFSET(0x18F4AF00)
-#define CLASS_3_F2CB7960E66B92B4_METHOD_3_56CD335BB2D53E2C_OFFSET UNITYSDK_OFFSET(0x18F4AF40)
-#define CLASS_3_F2CB7960E66B92B4__CTOR_OFFSET UNITYSDK_OFFSET(0x18F4B000)
+#define CLASS_3_F2CB7960E66B92B4_METHOD_3_128774387667156B_OFFSET UNITYSDK_OFFSET(0x15A3B9D0)
+#define CLASS_3_F2CB7960E66B92B4_METHOD_3_56CD335BB2D53E2C_OFFSET UNITYSDK_OFFSET(0x15A3BA10)
+#define CLASS_3_F2CB7960E66B92B4__CTOR_OFFSET UNITYSDK_OFFSET(0x15A3BAD0)
 
-inline static constexpr unsigned int Class_3_F2CB7960E66B92B4_TypeDefinitionIndex = 77881;
+inline static constexpr unsigned int Class_3_F2CB7960E66B92B4_TypeDefinitionIndex = 78352;
 
 class Class_3_F2CB7960E66B92B4 : public ::Class_2_5EB97EDC6B57E120
 {
 public:
 	::Class_2_BE316F2570FA4FE3* HCABGOKDFJB; // 0x28
 	::System::Collections::Generic::List_1<::System::Int32>* OEKDLELNKPP; // 0x30
-	::System::Nullable_1<::System::Int32> OHBJMAGBEEF; // 0x38
-	::System::Nullable_1<::System::Int32> HPGPKEPIBBP; // 0x40
+	::System::Nullable_1<::System::Int32> HPGPKEPIBBP; // 0x38
+	::System::Nullable_1<::System::Int32> OHBJMAGBEEF; // 0x40
 
 	::System::Void _ctor()
 	{

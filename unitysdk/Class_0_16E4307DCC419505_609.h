@@ -1,7 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/RtSkillState.h"
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_609_TypeDefinitionIndex = 57367;
+class Class_1_D8203AFB32E9259C;
+
+inline static constexpr unsigned int Class_0_16E4307DCC419505_609_TypeDefinitionIndex = 54059;
 
 class Class_0_16E4307DCC419505_609
 {

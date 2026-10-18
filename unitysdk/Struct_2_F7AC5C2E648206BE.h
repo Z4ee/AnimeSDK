@@ -8,7 +8,7 @@ class Class_0_16E4307DCC419505_38;
 namespace Entitas { class IComponent; }
 namespace Entitas { class IEntity; }
 
-inline static constexpr unsigned int Struct_2_F7AC5C2E648206BE_TypeDefinitionIndex = 36169;
+inline static constexpr unsigned int Struct_2_F7AC5C2E648206BE_TypeDefinitionIndex = 36856;
 
 struct alignas(8) Struct_2_F7AC5C2E648206BE
 {

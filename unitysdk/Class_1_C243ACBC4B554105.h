@@ -6,10 +6,10 @@
 namespace Entitas { class IInitializeSystem; }
 namespace Entitas { class ISystem; }
 
-#define CLASS_1_C243ACBC4B554105_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x17F8ABC0)
-#define CLASS_1_C243ACBC4B554105__CTOR_OFFSET UNITYSDK_OFFSET(0x17F8AAF0)
+#define CLASS_1_C243ACBC4B554105_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x15B22700)
+#define CLASS_1_C243ACBC4B554105__CTOR_OFFSET UNITYSDK_OFFSET(0x15B22630)
 
-inline static constexpr unsigned int Class_1_C243ACBC4B554105_TypeDefinitionIndex = 76293;
+inline static constexpr unsigned int Class_1_C243ACBC4B554105_TypeDefinitionIndex = 76770;
 
 class Class_1_C243ACBC4B554105 : public ::System::Object
 {

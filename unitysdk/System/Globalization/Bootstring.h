@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define SYSTEM_GLOBALIZATION_BOOTSTRING_ADAPT_OFFSET UNITYSDK_OFFSET(0x18D66DD0)
-#define SYSTEM_GLOBALIZATION_BOOTSTRING_DECODEDIGIT_OFFSET UNITYSDK_OFFSET(0x18D66E50)
-#define SYSTEM_GLOBALIZATION_BOOTSTRING_DECODE_OFFSET UNITYSDK_OFFSET(0x18D66E80)
-#define SYSTEM_GLOBALIZATION_BOOTSTRING_ENCODEDIGIT_OFFSET UNITYSDK_OFFSET(0x18D66DC0)
-#define SYSTEM_GLOBALIZATION_BOOTSTRING_ENCODE_OFFSET UNITYSDK_OFFSET(0x18D664A0)
-#define SYSTEM_GLOBALIZATION_BOOTSTRING__CTOR_OFFSET UNITYSDK_OFFSET(0x18D66460)
+#define SYSTEM_GLOBALIZATION_BOOTSTRING_ADAPT_OFFSET UNITYSDK_OFFSET(0x1C1E0EC0)
+#define SYSTEM_GLOBALIZATION_BOOTSTRING_DECODEDIGIT_OFFSET UNITYSDK_OFFSET(0x1C1E0F40)
+#define SYSTEM_GLOBALIZATION_BOOTSTRING_DECODE_OFFSET UNITYSDK_OFFSET(0x1C1E0F70)
+#define SYSTEM_GLOBALIZATION_BOOTSTRING_ENCODEDIGIT_OFFSET UNITYSDK_OFFSET(0x1C1E0EB0)
+#define SYSTEM_GLOBALIZATION_BOOTSTRING_ENCODE_OFFSET UNITYSDK_OFFSET(0x1C1E0590)
+#define SYSTEM_GLOBALIZATION_BOOTSTRING__CTOR_OFFSET UNITYSDK_OFFSET(0x1C1E0550)
 
 namespace System::Globalization
 {
@@ -18,14 +18,14 @@ namespace System::Globalization
 	class Bootstring : public ::System::Object
 	{
 	public:
-		::System::Int32 initial_bias; // 0x10
-		::System::Int32 tmax; // 0x14
-		::System::Int32 initial_n; // 0x18
-		::System::Int32 base_num; // 0x1C
-		::System::Char delimiter; // 0x20
-		::System::Int32 tmin; // 0x24
+		::System::Int32 tmax; // 0x10
+		::System::Int32 damp; // 0x14
+		::System::Int32 initial_bias; // 0x18
+		::System::Int32 initial_n; // 0x1C
+		::System::Int32 tmin; // 0x20
+		::System::Char delimiter; // 0x24
 		::System::Int32 skew; // 0x28
-		::System::Int32 damp; // 0x2C
+		::System::Int32 base_num; // 0x2C
 
 		::System::Void _ctor(::System::Char a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Int32 a5, ::System::Int32 a6, ::System::Int32 a7, ::System::Int32 a8)
 		{

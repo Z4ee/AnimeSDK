@@ -8,13 +8,13 @@ namespace RPG::GameCore { class LittleGameEvent; }
 namespace RPG::GameCore { class PropButtonConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FOURROTATEVOXEL2DPLATFORMCONFIG_METHOD_3_57AF3ACA12CCB092_OFFSET UNITYSDK_OFFSET(0x1DCB3F50)
-#define RPG_GAMECORE_FOURROTATEVOXEL2DPLATFORMCONFIG_METHOD_3_69EDDAA07DFE3054_OFFSET UNITYSDK_OFFSET(0x1DCB3F10)
-#define RPG_GAMECORE_FOURROTATEVOXEL2DPLATFORMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1DCB3F40)
+#define RPG_GAMECORE_FOURROTATEVOXEL2DPLATFORMCONFIG_METHOD_3_350BB699A520302D_OFFSET UNITYSDK_OFFSET(0x1D6BEBF0)
+#define RPG_GAMECORE_FOURROTATEVOXEL2DPLATFORMCONFIG_METHOD_3_EB1ED33457629174_OFFSET UNITYSDK_OFFSET(0x1D6BEBB0)
+#define RPG_GAMECORE_FOURROTATEVOXEL2DPLATFORMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6BEBE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FourRotateVoxel2DPlatformConfig_TypeDefinitionIndex = 16582;
+	inline static constexpr unsigned int FourRotateVoxel2DPlatformConfig_TypeDefinitionIndex = 16758;
 
 	class FourRotateVoxel2DPlatformConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
@@ -35,14 +35,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FOURROTATEVOXEL2DPLATFORMCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_69EDDAA07DFE3054(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FourRotateVoxel2DPlatformConfig*& a2)
+		static ::System::Void Method_3_EB1ED33457629174(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FourRotateVoxel2DPlatformConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FourRotateVoxel2DPlatformConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FOURROTATEVOXEL2DPLATFORMCONFIG_METHOD_3_69EDDAA07DFE3054_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FourRotateVoxel2DPlatformConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FOURROTATEVOXEL2DPLATFORMCONFIG_METHOD_3_EB1ED33457629174_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_57AF3ACA12CCB092(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FourRotateVoxel2DPlatformConfig* a2)
+		static ::System::Void Method_3_350BB699A520302D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FourRotateVoxel2DPlatformConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FourRotateVoxel2DPlatformConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FOURROTATEVOXEL2DPLATFORMCONFIG_METHOD_3_57AF3ACA12CCB092_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FourRotateVoxel2DPlatformConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FOURROTATEVOXEL2DPLATFORMCONFIG_METHOD_3_350BB699A520302D_OFFSET))(a1, a2);
 		}
 	};
 }

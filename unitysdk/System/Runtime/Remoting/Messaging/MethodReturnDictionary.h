@@ -5,8 +5,8 @@
 namespace System { class String; }
 namespace System::Runtime::Remoting::Messaging { class IMethodReturnMessage; }
 
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_METHODRETURNDICTIONARY__CCTOR_OFFSET UNITYSDK_OFFSET(0x19446EE0)
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_METHODRETURNDICTIONARY__CTOR_OFFSET UNITYSDK_OFFSET(0x19446360)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_METHODRETURNDICTIONARY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C2C5B60)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_METHODRETURNDICTIONARY__CTOR_OFFSET UNITYSDK_OFFSET(0x1C2C4FE0)
 
 namespace System::Runtime::Remoting::Messaging
 {
@@ -17,11 +17,11 @@ namespace System::Runtime::Remoting::Messaging
 	public:
 		static ::Il2CppArray<::System::String*>** StaticGet_InternalReturnKeys()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MethodReturnDictionary_TypeDefinitionIndex)->GetStaticField(0x13030);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MethodReturnDictionary_TypeDefinitionIndex)->GetStaticField(0x1D050);
 		}
 		static ::Il2CppArray<::System::String*>** StaticGet_InternalExceptionKeys()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MethodReturnDictionary_TypeDefinitionIndex)->GetStaticField(0x13038);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MethodReturnDictionary_TypeDefinitionIndex)->GetStaticField(0x1D058);
 		}
 
 		::System::Void _ctor(::System::Runtime::Remoting::Messaging::IMethodReturnMessage* a1)

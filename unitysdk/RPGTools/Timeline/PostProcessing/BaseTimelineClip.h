@@ -4,11 +4,11 @@
 
 namespace UnityEngine::Timeline { class TrackAsset; }
 
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_BASETIMELINECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0A2D50)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_BASETIMELINECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xE90FF80)
 
 namespace RPGTools::Timeline::PostProcessing
 {
-	inline static constexpr unsigned int BaseTimelineClip_TypeDefinitionIndex = 48988;
+	inline static constexpr unsigned int BaseTimelineClip_TypeDefinitionIndex = 48534;
 
 	class BaseTimelineClip : public ::UnityEngine::Playables::PlayableAsset
 	{

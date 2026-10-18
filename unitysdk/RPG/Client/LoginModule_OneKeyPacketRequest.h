@@ -5,11 +5,11 @@
 namespace RPG::Client { class RspHandler; }
 namespace System { class Action; }
 
-#define RPG_CLIENT_LOGINMODULE_ONEKEYPACKETREQUEST__CTOR_OFFSET UNITYSDK_OFFSET(0x186287E0)
+#define RPG_CLIENT_LOGINMODULE_ONEKEYPACKETREQUEST__CTOR_OFFSET UNITYSDK_OFFSET(0xD49F5D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LoginModule_OneKeyPacketRequest_TypeDefinitionIndex = 65846;
+	inline static constexpr unsigned int LoginModule_OneKeyPacketRequest_TypeDefinitionIndex = 65784;
 
 	class LoginModule_OneKeyPacketRequest : public ::System::Object
 	{

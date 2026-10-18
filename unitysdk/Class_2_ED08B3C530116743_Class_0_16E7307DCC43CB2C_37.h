@@ -1,0 +1,15 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+
+class Class_1_2860A093D0C9EE46;
+class Class_1_2860A093D0C9EE46_Class_0_16E7307DCC43CB2C_36;
+class Class_1_45CA56C59C8BBBC0;
+class Class_2_7AAFD4D5C55BC1B4_Class_0_16E7307DCC43CB2C_39;
+class Class_2_CF06A63D80B01EAC_Class_0_16E7307DCC43CB2C_38;
+
+inline static constexpr unsigned int Class_2_ED08B3C530116743_Class_0_16E7307DCC43CB2C_37_TypeDefinitionIndex = 79515;
+
+class Class_2_ED08B3C530116743_Class_0_16E7307DCC43CB2C_37
+{
+public:
+};

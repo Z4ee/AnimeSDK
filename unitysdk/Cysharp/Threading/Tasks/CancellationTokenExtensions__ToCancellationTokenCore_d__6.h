@@ -8,19 +8,19 @@
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 namespace System::Threading { class CancellationTokenSource; }
 
-#define CYSHARP_THREADING_TASKS_CANCELLATIONTOKENEXTENSIONS__TOCANCELLATIONTOKENCORE_D__6_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x3BDEA90)
-#define CYSHARP_THREADING_TASKS_CANCELLATIONTOKENEXTENSIONS__TOCANCELLATIONTOKENCORE_D__6_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x10F00)
+#define CYSHARP_THREADING_TASKS_CANCELLATIONTOKENEXTENSIONS__TOCANCELLATIONTOKENCORE_D__6_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x3C5EF50)
+#define CYSHARP_THREADING_TASKS_CANCELLATIONTOKENEXTENSIONS__TOCANCELLATIONTOKENCORE_D__6_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x10B0)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int CancellationTokenExtensions__ToCancellationTokenCore_d__6_TypeDefinitionIndex = 42550;
+	inline static constexpr unsigned int CancellationTokenExtensions__ToCancellationTokenCore_d__6_TypeDefinitionIndex = 38135;
 
 	struct alignas(8) CancellationTokenExtensions__ToCancellationTokenCore_d__6
 	{
-		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x10
-		::System::Threading::CancellationTokenSource* cts; // 0x20
-		::Cysharp::Threading::Tasks::UniTask task; // 0x28
-		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskVoidMethodBuilder __t__builder; // 0x38
+		::System::Threading::CancellationTokenSource* cts; // 0x10
+		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskVoidMethodBuilder __t__builder; // 0x18
+		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x20
+		::Cysharp::Threading::Tasks::UniTask task; // 0x30
 		::System::Int32 __1__state; // 0x40
 
 		::System::Void MoveNext()

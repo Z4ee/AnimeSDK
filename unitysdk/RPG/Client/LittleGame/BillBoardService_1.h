@@ -10,7 +10,7 @@ namespace RPG::GameCore { class LittleGameBillboardConfig; }
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int BillBoardService_1_TypeDefinitionIndex = 75999;
+	inline static constexpr unsigned int BillBoardService_1_TypeDefinitionIndex = 76476;
 
 	template <typename TEntity>
 	class BillBoardService_1 : public ::System::Object

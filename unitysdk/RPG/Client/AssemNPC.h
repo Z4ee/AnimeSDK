@@ -5,17 +5,17 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ASSEMNPC_METHOD_1_92D59DB27A2254BC_OFFSET UNITYSDK_OFFSET(0x1B32D290)
-#define RPG_CLIENT_ASSEMNPC_METHOD_1_9656213C005E9904_OFFSET UNITYSDK_OFFSET(0x1B32CF20)
-#define RPG_CLIENT_ASSEMNPC_METHOD_1_ABD5B53377E7C191_OFFSET UNITYSDK_OFFSET(0x1B32D0F0)
-#define RPG_CLIENT_ASSEMNPC_ONAFTERDESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1B32D480)
-#define RPG_CLIENT_ASSEMNPC_ONBEFORESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1B32D440)
-#define RPG_CLIENT_ASSEMNPC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1B32D370)
-#define RPG_CLIENT_ASSEMNPC__CTOR_OFFSET UNITYSDK_OFFSET(0x1B32D330)
+#define RPG_CLIENT_ASSEMNPC_METHOD_1_92D59DB27A2254BC_OFFSET UNITYSDK_OFFSET(0xC6941A0)
+#define RPG_CLIENT_ASSEMNPC_METHOD_1_9656213C005E9904_OFFSET UNITYSDK_OFFSET(0xC693E40)
+#define RPG_CLIENT_ASSEMNPC_METHOD_1_ABD5B53377E7C191_OFFSET UNITYSDK_OFFSET(0xC694000)
+#define RPG_CLIENT_ASSEMNPC_ONAFTERDESERIALIZE_OFFSET UNITYSDK_OFFSET(0xC694390)
+#define RPG_CLIENT_ASSEMNPC_ONBEFORESERIALIZE_OFFSET UNITYSDK_OFFSET(0xC694350)
+#define RPG_CLIENT_ASSEMNPC_TOSTRING_OFFSET UNITYSDK_OFFSET(0xC694280)
+#define RPG_CLIENT_ASSEMNPC__CTOR_OFFSET UNITYSDK_OFFSET(0xC694240)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AssemNPC_TypeDefinitionIndex = 60140;
+	inline static constexpr unsigned int AssemNPC_TypeDefinitionIndex = 60003;
 
 	class AssemNPC : public ::System::Object
 	{
@@ -30,12 +30,11 @@ namespace RPG::Client
 		::System::String* HairMat; // 0x48
 		::System::String* Item; // 0x50
 		::System::String* ItemMat; // 0x58
-		::System::Single AssemScore; // 0x60
-		::System::Collections::Generic::List_1<::System::String*>* MatVariantKeys; // 0x68
-		::System::String* AnimatorPath; // 0x70
-		::System::Int32 BodySizeInt; // 0x78
-		::System::String* FreeStyleCharacterID; // 0x80
-		::System::String* FreeStyleCharacterConfigPath; // 0x88
+		::System::Collections::Generic::List_1<::System::String*>* MatVariantKeys; // 0x60
+		::System::String* AnimatorPath; // 0x68
+		::System::Int32 BodySizeInt; // 0x70
+		::System::String* FreeStyleCharacterID; // 0x78
+		::System::String* FreeStyleCharacterConfigPath; // 0x80
 
 		::System::Void _ctor()
 		{

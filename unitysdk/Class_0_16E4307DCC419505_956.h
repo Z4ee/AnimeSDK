@@ -1,9 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-class Class_2_053E31F1D019C7FA;
+namespace RPG::Client { class GridFightConsumableItemData; }
+namespace RPG::Client { class GridFightEquipItemData; }
+namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_956_TypeDefinitionIndex = 67181;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_956_TypeDefinitionIndex = 64534;
 
 class Class_0_16E4307DCC419505_956
 {

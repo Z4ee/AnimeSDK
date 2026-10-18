@@ -5,19 +5,19 @@
 namespace MiHoYo::SDK::Win { class OverseaConfirmWithTitle; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_WIN_OVERSEACONFIRMWITHTITLE___C__DISPLAYCLASS22_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18B1F7E0)
-#define MIHOYO_SDK_WIN_OVERSEACONFIRMWITHTITLE___C__DISPLAYCLASS22_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x18B1FBA0)
+#define MIHOYO_SDK_WIN_OVERSEACONFIRMWITHTITLE___C__DISPLAYCLASS22_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD85940)
+#define MIHOYO_SDK_WIN_OVERSEACONFIRMWITHTITLE___C__DISPLAYCLASS22_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1BD85D00)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int OverseaConfirmWithTitle___c__DisplayClass22_0_TypeDefinitionIndex = 9249;
+	inline static constexpr unsigned int OverseaConfirmWithTitle___c__DisplayClass22_0_TypeDefinitionIndex = 9311;
 
 	class OverseaConfirmWithTitle___c__DisplayClass22_0 : public ::System::Object
 	{
 	public:
-		::System::String* cancelButtonText; // 0x10
-		::System::String* confirmButtonText; // 0x18
-		::System::String* content; // 0x20
+		::System::String* confirmButtonText; // 0x10
+		::System::String* content; // 0x18
+		::System::String* cancelButtonText; // 0x20
 		::System::String* title; // 0x28
 
 		::System::Void _ctor()

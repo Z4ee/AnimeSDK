@@ -6,33 +6,33 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MUSICRHYTHMSONGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CE85330)
-#define RPG_GAMECORE_MUSICRHYTHMSONGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE85900)
+#define RPG_GAMECORE_MUSICRHYTHMSONGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D8A09E0)
+#define RPG_GAMECORE_MUSICRHYTHMSONGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D8A0FB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MusicRhythmSongRow_TypeDefinitionIndex = 14160;
+	inline static constexpr unsigned int MusicRhythmSongRow_TypeDefinitionIndex = 14267;
 
 	class MusicRhythmSongRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* TrackIDList; // 0x10
-		::Il2CppArray<::System::UInt32>* PresetIDList; // 0x18
-		::System::String* MixingWaveMatPath; // 0x20
-		::Il2CppArray<::System::UInt32>* SoundEffectIDList; // 0x28
-		::System::String* BGMMenuState; // 0x30
-		::Il2CppArray<::System::Int32>* GridNumList; // 0x38
-		::System::String* BGMStageState; // 0x40
-		::System::UInt32 SoundEffectUnlockSubMission; // 0x48
-		::System::UInt32 LimitSubMission; // 0x4C
-		::System::UInt32 GridNum; // 0x50
-		::RPG::Client::TextID SongName; // 0x58
-		::System::UInt32 GridTransitionTime; // 0x68
-		::System::Int32 PresetEndGrid; // 0x6C
+		::System::String* MixingWaveMatPath; // 0x10
+		::Il2CppArray<::System::UInt32>* SoundEffectIDList; // 0x18
+		::Il2CppArray<::System::UInt32>* PresetIDList; // 0x20
+		::Il2CppArray<::System::Int32>* GridNumList; // 0x28
+		::System::String* BGMStageState; // 0x30
+		::Il2CppArray<::System::UInt32>* TrackIDList; // 0x38
+		::System::String* BGMMenuState; // 0x40
+		::System::UInt32 GridNum; // 0x48
+		::System::Int32 PresetEndGrid; // 0x4C
+		::System::UInt32 ID; // 0x50
+		::System::UInt32 UnlockType; // 0x54
+		::System::UInt32 LimitSubMission; // 0x58
+		::System::UInt32 GridTransitionTime; // 0x5C
+		::RPG::Client::TextID SongName; // 0x60
 		::System::UInt32 UnlockTypeParam; // 0x70
-		::System::Int32 PresetStartGrid; // 0x74
-		::System::UInt32 UnlockType; // 0x78
-		::System::UInt32 ID; // 0x7C
+		::System::UInt32 SoundEffectUnlockSubMission; // 0x74
+		::System::Int32 PresetStartGrid; // 0x78
 
 		::System::Void _ctor()
 		{

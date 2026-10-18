@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SignalTransformProcessor_SignalDrivenMode_TypeDefinitionIndex = 70955;
+	inline static constexpr unsigned int SignalTransformProcessor_SignalDrivenMode_TypeDefinitionIndex = 70987;
 
 	enum class SignalTransformProcessor_SignalDrivenMode : ::System::Int32
 	{

@@ -6,28 +6,28 @@ namespace RPG::Client { class RPGAnimationEvent; }
 namespace RPG::GameCore { class MonopolyClickContentConfigRow; }
 namespace UnityEngine { class Animator; }
 
-#define RPG_CLIENT_UI3DGAME_MONOPOLYBILLBOARD_CLICK_OFFSET UNITYSDK_OFFSET(0x1B12EF50)
-#define RPG_CLIENT_UI3DGAME_MONOPOLYBILLBOARD_METHOD_7_64501B5CB67A94C3_OFFSET UNITYSDK_OFFSET(0x1B12F270)
-#define RPG_CLIENT_UI3DGAME_MONOPOLYBILLBOARD_METHOD_7_7C051F64D5D93174_OFFSET UNITYSDK_OFFSET(0x1B12F210)
-#define RPG_CLIENT_UI3DGAME_MONOPOLYBILLBOARD_PLAYFINALANIM_OFFSET UNITYSDK_OFFSET(0x1B12F3B0)
-#define RPG_CLIENT_UI3DGAME_MONOPOLYBILLBOARD_START_OFFSET UNITYSDK_OFFSET(0x1B12EEA0)
-#define RPG_CLIENT_UI3DGAME_MONOPOLYBILLBOARD__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B12F460)
-#define RPG_CLIENT_UI3DGAME_MONOPOLYBILLBOARD__CTOR_OFFSET UNITYSDK_OFFSET(0x1B12F450)
+#define RPG_CLIENT_UI3DGAME_MONOPOLYBILLBOARD_CLICK_OFFSET UNITYSDK_OFFSET(0xE3508E0)
+#define RPG_CLIENT_UI3DGAME_MONOPOLYBILLBOARD_METHOD_7_64501B5CB67A94C3_OFFSET UNITYSDK_OFFSET(0xE350C00)
+#define RPG_CLIENT_UI3DGAME_MONOPOLYBILLBOARD_METHOD_7_7C051F64D5D93174_OFFSET UNITYSDK_OFFSET(0xE350BA0)
+#define RPG_CLIENT_UI3DGAME_MONOPOLYBILLBOARD_PLAYFINALANIM_OFFSET UNITYSDK_OFFSET(0xE350D40)
+#define RPG_CLIENT_UI3DGAME_MONOPOLYBILLBOARD_START_OFFSET UNITYSDK_OFFSET(0xE350830)
+#define RPG_CLIENT_UI3DGAME_MONOPOLYBILLBOARD__CCTOR_OFFSET UNITYSDK_OFFSET(0xE350DF0)
+#define RPG_CLIENT_UI3DGAME_MONOPOLYBILLBOARD__CTOR_OFFSET UNITYSDK_OFFSET(0xE350DE0)
 
 namespace RPG::Client::UI3DGame
 {
-	inline static constexpr unsigned int MonopolyBillboard_TypeDefinitionIndex = 75395;
+	inline static constexpr unsigned int MonopolyBillboard_TypeDefinitionIndex = 75810;
 
 	class MonopolyBillboard : public ::RPG::Client::UI3DGame::MonoUI3DGameView
 	{
 	public:
-		static ::System::Int32* StaticGet_MEPFOEEGBEA()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonopolyBillboard_TypeDefinitionIndex)->GetStaticField(0x13440);
-		}
 		static ::System::Int32* StaticGet_FACBDJMIOCH()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonopolyBillboard_TypeDefinitionIndex)->GetStaticField(0x13444);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonopolyBillboard_TypeDefinitionIndex)->GetStaticField(0x93D0);
+		}
+		static ::System::Int32* StaticGet_MEPFOEEGBEA()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonopolyBillboard_TypeDefinitionIndex)->GetStaticField(0x93D4);
 		}
 		::UnityEngine::Animator* AnimController; // 0x30
 		::RPG::Client::RPGAnimationEvent* RPGAnimEvent; // 0x38

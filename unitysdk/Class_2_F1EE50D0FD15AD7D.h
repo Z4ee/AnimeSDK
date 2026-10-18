@@ -1,16 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_FD893FD36F6A3A6D_2.h"
+#include "unitysdk/Class_1_FD893FD36F6A3A6D_4.h"
 
 class Class_1_D33B7D6901AE39E9;
 namespace UnityEngine { class AnimationCurve; }
 
-#define CLASS_2_F1EE50D0FD15AD7D_METHOD_2_D437D090E63BE8A7_OFFSET UNITYSDK_OFFSET(0x17F871D0)
-#define CLASS_2_F1EE50D0FD15AD7D__CTOR_OFFSET UNITYSDK_OFFSET(0x17F871C0)
+#define CLASS_2_F1EE50D0FD15AD7D_METHOD_2_D437D090E63BE8A7_OFFSET UNITYSDK_OFFSET(0x15B1ED20)
+#define CLASS_2_F1EE50D0FD15AD7D__CTOR_OFFSET UNITYSDK_OFFSET(0x15B1ED10)
 
-inline static constexpr unsigned int Class_2_F1EE50D0FD15AD7D_TypeDefinitionIndex = 76139;
+inline static constexpr unsigned int Class_2_F1EE50D0FD15AD7D_TypeDefinitionIndex = 76616;
 
-class Class_2_F1EE50D0FD15AD7D : public ::Class_1_FD893FD36F6A3A6D_2
+class Class_2_F1EE50D0FD15AD7D : public ::Class_1_FD893FD36F6A3A6D_4
 {
 public:
 	::UnityEngine::AnimationCurve* PNOHBBMHGLB; // 0x18

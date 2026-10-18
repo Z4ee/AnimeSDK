@@ -9,11 +9,11 @@ namespace RPG::GameCore { class SetDynamicValueByHardLevelProperty; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class String; }
 
-#define CLASS_3_06004916717A0FA6_METHOD_3_28E526D2335C4C71_OFFSET UNITYSDK_OFFSET(0x19264980)
-#define CLASS_3_06004916717A0FA6_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x19264730)
-#define CLASS_3_06004916717A0FA6__CTOR_OFFSET UNITYSDK_OFFSET(0x19264650)
+#define CLASS_3_06004916717A0FA6_METHOD_3_28E526D2335C4C71_OFFSET UNITYSDK_OFFSET(0xBFDA220)
+#define CLASS_3_06004916717A0FA6_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBFD9FD0)
+#define CLASS_3_06004916717A0FA6__CTOR_OFFSET UNITYSDK_OFFSET(0xBFD9EF0)
 
-inline static constexpr unsigned int Class_3_06004916717A0FA6_TypeDefinitionIndex = 55639;
+inline static constexpr unsigned int Class_3_06004916717A0FA6_TypeDefinitionIndex = 55447;
 
 class Class_3_06004916717A0FA6 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetDynamicValueByHardLevelProperty*>
 {

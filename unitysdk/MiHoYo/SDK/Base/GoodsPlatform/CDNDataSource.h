@@ -3,18 +3,19 @@
 #include "unitysdk/System/Object.h"
 
 namespace MiHoYo::SDK { class JSONArray; }
+namespace MiHoYo::SDK { class JSONNode; }
 namespace MiHoYo::SDK { class JSONObject; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 
-#define MIHOYO_SDK_BASE_GOODSPLATFORM_CDNDATASOURCE_FILTERGOODSLIST_OFFSET UNITYSDK_OFFSET(0x1A19C8A0)
-#define MIHOYO_SDK_BASE_GOODSPLATFORM_CDNDATASOURCE_REQUESTALLSONYPRODUCTID_OFFSET UNITYSDK_OFFSET(0x1A19C690)
-#define MIHOYO_SDK_BASE_GOODSPLATFORM_CDNDATASOURCE_REQUESTGOODSLIST_OFFSET UNITYSDK_OFFSET(0x1A19BDC0)
-#define MIHOYO_SDK_BASE_GOODSPLATFORM_CDNDATASOURCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A19CD50)
+#define MIHOYO_SDK_BASE_GOODSPLATFORM_CDNDATASOURCE_FILTERGOODSLIST_OFFSET UNITYSDK_OFFSET(0x1BC12710)
+#define MIHOYO_SDK_BASE_GOODSPLATFORM_CDNDATASOURCE_REQUESTALLSONYPRODUCTID_OFFSET UNITYSDK_OFFSET(0x1BC12500)
+#define MIHOYO_SDK_BASE_GOODSPLATFORM_CDNDATASOURCE_REQUESTGOODSLIST_OFFSET UNITYSDK_OFFSET(0x1BC11C00)
+#define MIHOYO_SDK_BASE_GOODSPLATFORM_CDNDATASOURCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC12BB0)
 
 namespace MiHoYo::SDK::Base::GoodsPlatform
 {
-	inline static constexpr unsigned int CDNDataSource_TypeDefinitionIndex = 8776;
+	inline static constexpr unsigned int CDNDataSource_TypeDefinitionIndex = 8837;
 
 	class CDNDataSource : public ::System::Object
 	{
@@ -28,9 +29,9 @@ namespace MiHoYo::SDK::Base::GoodsPlatform
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BASE_GOODSPLATFORM_CDNDATASOURCE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void RequestGoodsList(::MiHoYo::SDK::JSONObject* a1, ::System::Action_3<::System::Int32, ::System::String*, ::MiHoYo::SDK::JSONArray*>* a2)
+		static ::System::Void RequestGoodsList(::MiHoYo::SDK::JSONObject* a1, ::System::Action_3<::System::Int32, ::System::String*, ::MiHoYo::SDK::JSONNode*>* a2)
 		{
-			return ((::System::Void(*)(::MiHoYo::SDK::JSONObject*, ::System::Action_3<::System::Int32, ::System::String*, ::MiHoYo::SDK::JSONArray*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BASE_GOODSPLATFORM_CDNDATASOURCE_REQUESTGOODSLIST_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::MiHoYo::SDK::JSONObject*, ::System::Action_3<::System::Int32, ::System::String*, ::MiHoYo::SDK::JSONNode*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BASE_GOODSPLATFORM_CDNDATASOURCE_REQUESTGOODSLIST_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void RequestAllSonyProductID(::System::Action_3<::System::Int32, ::System::String*, ::MiHoYo::SDK::JSONArray*>* a1)

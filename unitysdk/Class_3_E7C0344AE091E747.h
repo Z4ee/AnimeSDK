@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ModifyCurrentSkillDelayCost; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_E7C0344AE091E747_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x170729E0)
-#define CLASS_3_E7C0344AE091E747__CTOR_OFFSET UNITYSDK_OFFSET(0x170729B0)
+#define CLASS_3_E7C0344AE091E747_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBB6AC00)
+#define CLASS_3_E7C0344AE091E747__CTOR_OFFSET UNITYSDK_OFFSET(0xBB6ABD0)
 
-inline static constexpr unsigned int Class_3_E7C0344AE091E747_TypeDefinitionIndex = 55394;
+inline static constexpr unsigned int Class_3_E7C0344AE091E747_TypeDefinitionIndex = 55191;
 
 class Class_3_E7C0344AE091E747 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ModifyCurrentSkillDelayCost*>
 {

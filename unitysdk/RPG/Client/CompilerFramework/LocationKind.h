@@ -3,7 +3,7 @@
 
 namespace RPG::Client::CompilerFramework
 {
-	inline static constexpr unsigned int LocationKind_TypeDefinitionIndex = 40317;
+	inline static constexpr unsigned int LocationKind_TypeDefinitionIndex = 41615;
 
 	enum class LocationKind : ::System::Int32
 	{

@@ -4,22 +4,22 @@
 
 namespace System { class String; }
 
-#define SIRENIX_ODININSPECTOR_PROPERTYGROUPATTRIBUTE_COMBINEVALUESWITH_OFFSET UNITYSDK_OFFSET(0x1F0153F0)
-#define SIRENIX_ODININSPECTOR_PROPERTYGROUPATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F015380)
-#define SIRENIX_ODININSPECTOR_PROPERTYGROUPATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F015310)
+#define SIRENIX_ODININSPECTOR_PROPERTYGROUPATTRIBUTE_COMBINEVALUESWITH_OFFSET UNITYSDK_OFFSET(0x1EC34E00)
+#define SIRENIX_ODININSPECTOR_PROPERTYGROUPATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1EC34D90)
+#define SIRENIX_ODININSPECTOR_PROPERTYGROUPATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EC34D20)
 
 namespace Sirenix::OdinInspector
 {
-	inline static constexpr unsigned int PropertyGroupAttribute_TypeDefinitionIndex = 9915;
+	inline static constexpr unsigned int PropertyGroupAttribute_TypeDefinitionIndex = 9973;
 
 	class PropertyGroupAttribute : public ::System::Attribute
 	{
 	public:
-		::System::String* GroupName; // 0x10
-		::System::String* GroupID; // 0x18
-		::System::Boolean AnimateVisibility; // 0x20
-		::System::Boolean HideWhenChildrenAreInvisible; // 0x21
-		::System::Single Order; // 0x24
+		::System::String* GroupID; // 0x10
+		::System::String* GroupName; // 0x18
+		::System::Single Order; // 0x20
+		::System::Boolean AnimateVisibility; // 0x24
+		::System::Boolean HideWhenChildrenAreInvisible; // 0x25
 
 		::System::Void _ctor(::System::String* a1, ::System::Single a2)
 		{

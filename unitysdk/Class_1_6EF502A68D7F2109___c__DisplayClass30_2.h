@@ -8,10 +8,10 @@
 class Class_1_6EF502A68D7F2109___c__DisplayClass30_0;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_6EF502A68D7F2109___C__DISPLAYCLASS30_2__CTOR_OFFSET UNITYSDK_OFFSET(0x17068350)
-#define CLASS_1_6EF502A68D7F2109___C__DISPLAYCLASS30_2___BUILDPOINTLAYOUT_B__1_OFFSET UNITYSDK_OFFSET(0x170690C0)
+#define CLASS_1_6EF502A68D7F2109___C__DISPLAYCLASS30_2__CTOR_OFFSET UNITYSDK_OFFSET(0xBB60550)
+#define CLASS_1_6EF502A68D7F2109___C__DISPLAYCLASS30_2___BUILDPOINTLAYOUT_B__1_OFFSET UNITYSDK_OFFSET(0xBB612C0)
 
-inline static constexpr unsigned int Class_1_6EF502A68D7F2109___c__DisplayClass30_2_TypeDefinitionIndex = 69263;
+inline static constexpr unsigned int Class_1_6EF502A68D7F2109___c__DisplayClass30_2_TypeDefinitionIndex = 69299;
 
 class Class_1_6EF502A68D7F2109___c__DisplayClass30_2 : public ::System::Object
 {

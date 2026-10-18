@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define RPG_CLIENT_ACTIVITYTELEVISIONMODULE__TREASUREQUESTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x6B4C20)
+#define RPG_CLIENT_ACTIVITYTELEVISIONMODULE__TREASUREQUESTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x11150)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityTelevisionModule__TreasureQuestInfo_TypeDefinitionIndex = 62083;
+	inline static constexpr unsigned int ActivityTelevisionModule__TreasureQuestInfo_TypeDefinitionIndex = 61999;
 
 	struct alignas(4) ActivityTelevisionModule__TreasureQuestInfo
 	{

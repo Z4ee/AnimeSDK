@@ -1,0 +1,42 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_67683F6A256780AF;
+namespace RPG::Client::MechCraft::ViewModel { class MechCraftTalentTreeEntranceViewModel; }
+
+#define RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTTALENTTREEENTRANCEVIEWMODEL_FACTORY_CREATE_OFFSET UNITYSDK_OFFSET(0xD67F6A0)
+#define RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTTALENTTREEENTRANCEVIEWMODEL_FACTORY_GET_REDDOT_OFFSET UNITYSDK_OFFSET(0xD67F680)
+#define RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTTALENTTREEENTRANCEVIEWMODEL_FACTORY_SET_REDDOT_OFFSET UNITYSDK_OFFSET(0xD67F690)
+#define RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTTALENTTREEENTRANCEVIEWMODEL_FACTORY__CTOR_OFFSET UNITYSDK_OFFSET(0xD67F730)
+
+namespace RPG::Client::MechCraft::ViewModel
+{
+	inline static constexpr unsigned int MechCraftTalentTreeEntranceViewModel_Factory_TypeDefinitionIndex = 79673;
+
+	class MechCraftTalentTreeEntranceViewModel_Factory : public ::System::Object
+	{
+	public:
+		::Class_1_67683F6A256780AF* _RedDot_k__BackingField; // 0x10
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTTALENTTREEENTRANCEVIEWMODEL_FACTORY__CTOR_OFFSET))(this);
+		}
+
+		::Class_1_67683F6A256780AF* get_RedDot()
+		{
+			return ((::Class_1_67683F6A256780AF*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTTALENTTREEENTRANCEVIEWMODEL_FACTORY_GET_REDDOT_OFFSET))(this);
+		}
+
+		::System::Void set_RedDot(::Class_1_67683F6A256780AF* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_67683F6A256780AF*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTTALENTTREEENTRANCEVIEWMODEL_FACTORY_SET_REDDOT_OFFSET))(this, a1);
+		}
+
+		::RPG::Client::MechCraft::ViewModel::MechCraftTalentTreeEntranceViewModel* Create()
+		{
+			return ((::RPG::Client::MechCraft::ViewModel::MechCraftTalentTreeEntranceViewModel*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTTALENTTREEENTRANCEVIEWMODEL_FACTORY_CREATE_OFFSET))(this);
+		}
+	};
+}

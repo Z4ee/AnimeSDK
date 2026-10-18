@@ -3,12 +3,12 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Color.h"
 
-#define RPG_CUSTOMRP_PPFILTERSTACK_CHROMATICABERRATIONPARAMETER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x3A98650)
-#define RPG_CUSTOMRP_PPFILTERSTACK_CHROMATICABERRATIONPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x3A98610)
+#define RPG_CUSTOMRP_PPFILTERSTACK_CHROMATICABERRATIONPARAMETER__CTOR_1_OFFSET UNITYSDK_OFFSET(0xF4240)
+#define RPG_CUSTOMRP_PPFILTERSTACK_CHROMATICABERRATIONPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0xF4200)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int PPFilterStack_ChromaticAberrationParameter_TypeDefinitionIndex = 52152;
+	inline static constexpr unsigned int PPFilterStack_ChromaticAberrationParameter_TypeDefinitionIndex = 51858;
 
 	struct alignas(4) PPFilterStack_ChromaticAberrationParameter
 	{

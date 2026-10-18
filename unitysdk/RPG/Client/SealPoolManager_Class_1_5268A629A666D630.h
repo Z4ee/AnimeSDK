@@ -5,11 +5,11 @@
 class MarbleTransformAnimationHandle;
 namespace UnityEngine { class Rigidbody; }
 
-#define RPG_CLIENT_SEALPOOLMANAGER_CLASS_1_5268A629A666D630__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF72350)
+#define RPG_CLIENT_SEALPOOLMANAGER_CLASS_1_5268A629A666D630__CTOR_OFFSET UNITYSDK_OFFSET(0xE0A0CF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SealPoolManager_Class_1_5268A629A666D630_TypeDefinitionIndex = 60524;
+	inline static constexpr unsigned int SealPoolManager_Class_1_5268A629A666D630_TypeDefinitionIndex = 60424;
 
 	class SealPoolManager_Class_1_5268A629A666D630 : public ::System::Object
 	{

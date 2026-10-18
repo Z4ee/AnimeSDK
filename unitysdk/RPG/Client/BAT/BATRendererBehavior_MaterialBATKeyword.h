@@ -3,7 +3,7 @@
 
 namespace RPG::Client::BAT
 {
-	inline static constexpr unsigned int BATRendererBehavior_MaterialBATKeyword_TypeDefinitionIndex = 73568;
+	inline static constexpr unsigned int BATRendererBehavior_MaterialBATKeyword_TypeDefinitionIndex = 73675;
 
 	enum class BATRendererBehavior_MaterialBATKeyword : ::System::Int32
 	{

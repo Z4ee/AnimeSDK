@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SUBLEVELGRAPHDYNAMICFLOATOVERRIDE_METHOD_2_423B53F6AF4B71F1_OFFSET UNITYSDK_OFFSET(0x1CB068B0)
-#define RPG_GAMECORE_SUBLEVELGRAPHDYNAMICFLOATOVERRIDE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CB069E0)
+#define RPG_GAMECORE_SUBLEVELGRAPHDYNAMICFLOATOVERRIDE_METHOD_2_423B53F6AF4B71F1_OFFSET UNITYSDK_OFFSET(0x1DB01A00)
+#define RPG_GAMECORE_SUBLEVELGRAPHDYNAMICFLOATOVERRIDE__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB01B30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SubLevelGraphDynamicFloatOverride_TypeDefinitionIndex = 20477;
+	inline static constexpr unsigned int SubLevelGraphDynamicFloatOverride_TypeDefinitionIndex = 20716;
 
 	class SubLevelGraphDynamicFloatOverride : public ::RPG::GameCore::JsonConfig
 	{

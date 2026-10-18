@@ -6,18 +6,18 @@
 namespace MiHoYo::SDK { class SecurityTunnel; }
 namespace MiHoYo::SDK { class SecurityTunnel_Packet; }
 
-#define MIHOYO_SDK_SECURITYTUNNEL___C__DISPLAYCLASS31_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C6C4E30)
-#define MIHOYO_SDK_SECURITYTUNNEL___C__DISPLAYCLASS31_0__EXCHANGESECRETKEY_B__0_OFFSET UNITYSDK_OFFSET(0x1C6CDEB0)
+#define MIHOYO_SDK_SECURITYTUNNEL___C__DISPLAYCLASS31_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB03B950)
+#define MIHOYO_SDK_SECURITYTUNNEL___C__DISPLAYCLASS31_0__EXCHANGESECRETKEY_B__0_OFFSET UNITYSDK_OFFSET(0xB047D20)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int SecurityTunnel___c__DisplayClass31_0_TypeDefinitionIndex = 46878;
+	inline static constexpr unsigned int SecurityTunnel___c__DisplayClass31_0_TypeDefinitionIndex = 46418;
 
 	class SecurityTunnel___c__DisplayClass31_0 : public ::System::Object
 	{
 	public:
-		::MiHoYo::SDK::SecurityTunnel_AuthInfo info; // 0x10
-		::MiHoYo::SDK::SecurityTunnel* __4__this; // 0x50
+		::MiHoYo::SDK::SecurityTunnel* __4__this; // 0x10
+		::MiHoYo::SDK::SecurityTunnel_AuthInfo info; // 0x18
 
 		::System::Void _ctor()
 		{

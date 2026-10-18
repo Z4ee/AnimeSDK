@@ -8,27 +8,27 @@ namespace System { class String; }
 namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_41247AE36FE8E03B_METHOD_1_443209CCA2CC4D13_OFFSET UNITYSDK_OFFSET(0x17CD3870)
-#define CLASS_1_41247AE36FE8E03B_METHOD_1_B20B4A5343A4561F_OFFSET UNITYSDK_OFFSET(0x17CD35F0)
-#define CLASS_1_41247AE36FE8E03B_METHOD_1_D7C68144747E5ADE_OFFSET UNITYSDK_OFFSET(0x17CD3730)
-#define CLASS_1_41247AE36FE8E03B__CCTOR_OFFSET UNITYSDK_OFFSET(0x17CD39B0)
+#define CLASS_1_41247AE36FE8E03B_METHOD_1_443209CCA2CC4D13_OFFSET UNITYSDK_OFFSET(0xB106510)
+#define CLASS_1_41247AE36FE8E03B_METHOD_1_B20B4A5343A4561F_OFFSET UNITYSDK_OFFSET(0xB106290)
+#define CLASS_1_41247AE36FE8E03B_METHOD_1_D7C68144747E5ADE_OFFSET UNITYSDK_OFFSET(0xB1063D0)
+#define CLASS_1_41247AE36FE8E03B__CCTOR_OFFSET UNITYSDK_OFFSET(0xB106650)
 
-inline static constexpr unsigned int Class_1_41247AE36FE8E03B_TypeDefinitionIndex = 80030;
+inline static constexpr unsigned int Class_1_41247AE36FE8E03B_TypeDefinitionIndex = 81358;
 
 class Class_1_41247AE36FE8E03B : public ::System::Object
 {
 public:
+	static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::ChenLingFesDialogStyleType, ::System::String*>** StaticGet_KILMAKECMBL()
+	{
+		return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::ChenLingFesDialogStyleType, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_41247AE36FE8E03B_TypeDefinitionIndex)->GetStaticField(0x40C50);
+	}
 	static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Type*>** StaticGet_KCJKPDBIIBK()
 	{
-		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_41247AE36FE8E03B_TypeDefinitionIndex)->GetStaticField(0x61F60);
+		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_41247AE36FE8E03B_TypeDefinitionIndex)->GetStaticField(0x40C58);
 	}
 	static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::ChenLingFesToastStyleType, ::System::String*>** StaticGet_KFELEMDFEGK()
 	{
-		return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::ChenLingFesToastStyleType, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_41247AE36FE8E03B_TypeDefinitionIndex)->GetStaticField(0x61F68);
-	}
-	static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::ChenLingFesDialogStyleType, ::System::String*>** StaticGet_KILMAKECMBL()
-	{
-		return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::ChenLingFesDialogStyleType, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_41247AE36FE8E03B_TypeDefinitionIndex)->GetStaticField(0x61F70);
+		return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::ChenLingFesToastStyleType, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_41247AE36FE8E03B_TypeDefinitionIndex)->GetStaticField(0x40C60);
 	}
 
 	static ::System::Void _cctor()

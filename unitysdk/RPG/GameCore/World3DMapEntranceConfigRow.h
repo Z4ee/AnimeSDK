@@ -6,22 +6,22 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_WORLD3DMAPENTRANCECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EFA9730)
-#define RPG_GAMECORE_WORLD3DMAPENTRANCECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1EFA9940)
+#define RPG_GAMECORE_WORLD3DMAPENTRANCECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DC7C1A0)
+#define RPG_GAMECORE_WORLD3DMAPENTRANCECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1DC7C3B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int World3DMapEntranceConfigRow_TypeDefinitionIndex = 13917;
+	inline static constexpr unsigned int World3DMapEntranceConfigRow_TypeDefinitionIndex = 14024;
 
 	class World3DMapEntranceConfigRow : public ::System::Object
 	{
 	public:
 		::System::String* Anchor; // 0x10
-		::System::UInt32 ConditionParamInt; // 0x18
-		::System::UInt32 Priority; // 0x1C
-		::System::UInt32 ID; // 0x20
-		::RPG::GameCore::World3DMapEntranceCheckType ConditionType; // 0x24
-		::System::UInt32 FormID; // 0x28
+		::System::UInt32 FormID; // 0x18
+		::RPG::GameCore::World3DMapEntranceCheckType ConditionType; // 0x1C
+		::System::UInt32 ConditionParamInt; // 0x20
+		::System::UInt32 Priority; // 0x24
+		::System::UInt32 ID; // 0x28
 
 		::System::Void _ctor()
 		{

@@ -6,11 +6,11 @@ class Class_1_F91AD0C5A85E4AFA_5;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_PAMCHATQUESTIONRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4D5C00)
+#define RPG_CLIENT_PAMCHATQUESTIONRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0xDA65A80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PamChatQuestionResult_TypeDefinitionIndex = 63347;
+	inline static constexpr unsigned int PamChatQuestionResult_TypeDefinitionIndex = 63285;
 
 	class PamChatQuestionResult : public ::System::Object
 	{

@@ -5,9 +5,9 @@
 
 namespace RPG::GameCore { class FiveDimSpikeConfig; }
 
-#define CLASS_1_F8DD202AA81EAB8E__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA96960)
+#define CLASS_1_F8DD202AA81EAB8E__CTOR_OFFSET UNITYSDK_OFFSET(0x1C8DA740)
 
-inline static constexpr unsigned int Class_1_F8DD202AA81EAB8E_TypeDefinitionIndex = 41829;
+inline static constexpr unsigned int Class_1_F8DD202AA81EAB8E_TypeDefinitionIndex = 43471;
 
 class Class_1_F8DD202AA81EAB8E : public ::System::Object
 {

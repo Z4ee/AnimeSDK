@@ -3,12 +3,12 @@
 #include "unitysdk/UnityEngine/Joint2D.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define UNITYENGINE_ANCHOREDJOINT2D_GET_CONNECTEDANCHOR_INJECTED_OFFSET UNITYSDK_OFFSET(0x1EFB10F0)
-#define UNITYENGINE_ANCHOREDJOINT2D_GET_CONNECTEDANCHOR_OFFSET UNITYSDK_OFFSET(0x1EFB10C0)
+#define UNITYENGINE_ANCHOREDJOINT2D_GET_CONNECTEDANCHOR_INJECTED_OFFSET UNITYSDK_OFFSET(0x1F451090)
+#define UNITYENGINE_ANCHOREDJOINT2D_GET_CONNECTEDANCHOR_OFFSET UNITYSDK_OFFSET(0x1F451060)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int AnchoredJoint2D_TypeDefinitionIndex = 5811;
+	inline static constexpr unsigned int AnchoredJoint2D_TypeDefinitionIndex = 5819;
 
 	class AnchoredJoint2D : public ::UnityEngine::Joint2D
 	{

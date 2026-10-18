@@ -8,13 +8,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicString; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ADVNPCFACETO_METHOD_3_61A32E4441B12701_OFFSET UNITYSDK_OFFSET(0x1D6BE9C0)
-#define RPG_GAMECORE_ADVNPCFACETO_METHOD_3_D533B012BBFECA4F_OFFSET UNITYSDK_OFFSET(0x1D6BE970)
-#define RPG_GAMECORE_ADVNPCFACETO__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6BE9B0)
+#define RPG_GAMECORE_ADVNPCFACETO_METHOD_3_AB94DEF148DCD6FF_OFFSET UNITYSDK_OFFSET(0x1D378210)
+#define RPG_GAMECORE_ADVNPCFACETO_METHOD_3_D533B012BBFECA4F_OFFSET UNITYSDK_OFFSET(0x1D3781C0)
+#define RPG_GAMECORE_ADVNPCFACETO__CTOR_OFFSET UNITYSDK_OFFSET(0x1D378200)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvNpcFaceTo_TypeDefinitionIndex = 20101;
+	inline static constexpr unsigned int AdvNpcFaceTo_TypeDefinitionIndex = 20338;
 
 	class AdvNpcFaceTo : public ::RPG::GameCore::TaskConfig
 	{
@@ -41,9 +41,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvNpcFaceTo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVNPCFACETO_METHOD_3_D533B012BBFECA4F_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_61A32E4441B12701(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvNpcFaceTo* a2)
+		static ::System::Void Method_3_AB94DEF148DCD6FF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvNpcFaceTo* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvNpcFaceTo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVNPCFACETO_METHOD_3_61A32E4441B12701_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvNpcFaceTo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVNPCFACETO_METHOD_3_AB94DEF148DCD6FF_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -6,21 +6,21 @@
 namespace RPG::GameCore { class DriftComponentData; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_1_D5302483370BD7FF_METHOD_1_E19BD20D85758F6D_OFFSET UNITYSDK_OFFSET(0x15972D60)
-#define CLASS_1_D5302483370BD7FF__CTOR_OFFSET UNITYSDK_OFFSET(0x159734B0)
+#define CLASS_1_D5302483370BD7FF_METHOD_1_E19BD20D85758F6D_OFFSET UNITYSDK_OFFSET(0x1659AC70)
+#define CLASS_1_D5302483370BD7FF__CTOR_OFFSET UNITYSDK_OFFSET(0x1659B3C0)
 
-inline static constexpr unsigned int Class_1_D5302483370BD7FF_TypeDefinitionIndex = 73673;
+inline static constexpr unsigned int Class_1_D5302483370BD7FF_TypeDefinitionIndex = 73780;
 
 class Class_1_D5302483370BD7FF : public ::System::Object
 {
 public:
 	::RPG::GameCore::DriftComponentData* FJCAKOIDONG; // 0x10
 	::UnityEngine::Vector3 LBJIJPLBKDF; // 0x18
-	::UnityEngine::Vector3 NIAEHDLDOJO; // 0x24
+	::UnityEngine::Vector3 DNFLHFPODGF; // 0x24
 	::System::Single EJMDKHOJILJ; // 0x30
 	::UnityEngine::Vector3 EDLHLKAFDFA; // 0x34
 	::UnityEngine::Vector3 GMAEEGJGDJH; // 0x40
-	::UnityEngine::Vector3 DNFLHFPODGF; // 0x4C
+	::UnityEngine::Vector3 NIAEHDLDOJO; // 0x4C
 
 	::System::Void _ctor()
 	{

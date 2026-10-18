@@ -12,30 +12,30 @@ namespace UnityEngine::UI { class Image; }
 namespace UnityEngine::UI { class Slider; }
 namespace UnityEngine::UI { class Text; }
 
-#define RPG_CLIENT_PIXAIR_PIXAIREQUIPCONTROL_GET__VIEWMODEL_OFFSET UNITYSDK_OFFSET(0x1C83B880)
-#define RPG_CLIENT_PIXAIR_PIXAIREQUIPCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x1C83BEF0)
-#define RPG_CLIENT_PIXAIR_PIXAIREQUIPCONTROL__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x1C83A2A0)
-#define RPG_CLIENT_PIXAIR_PIXAIREQUIPCONTROL__ONGHOSTPROPERTYCHANGED_OFFSET UNITYSDK_OFFSET(0x1C83BA60)
-#define RPG_CLIENT_PIXAIR_PIXAIREQUIPCONTROL__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0x1C839C30)
-#define RPG_CLIENT_PIXAIR_PIXAIREQUIPCONTROL__UPDATESTARS_OFFSET UNITYSDK_OFFSET(0x1C83B730)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPCONTROL_GET__VIEWMODEL_OFFSET UNITYSDK_OFFSET(0xDB34D10)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0xDB35380)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPCONTROL__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0xDB33740)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPCONTROL__ONGHOSTPROPERTYCHANGED_OFFSET UNITYSDK_OFFSET(0xDB34EF0)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPCONTROL__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0xDB330C0)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPCONTROL__UPDATESTARS_OFFSET UNITYSDK_OFFSET(0xDB34BD0)
 
 namespace RPG::Client::PixAir
 {
-	inline static constexpr unsigned int PixAirEquipControl_TypeDefinitionIndex = 78760;
+	inline static constexpr unsigned int PixAirEquipControl_TypeDefinitionIndex = 79241;
 
 	class PixAirEquipControl : public ::Sofa::BaseSofaControl
 	{
 	public:
-		::UnityEngine::UI::Image* _Icon; // 0x38
-		::UnityEngine::UI::Slider* _CDBar; // 0x40
-		::UnityEngine::UI::Text* _TextDamagePower; // 0x48
-		::UnityEngine::UI::Text* _TextShieldPower; // 0x50
-		::UnityEngine::UI::Text* _TextBurnPower; // 0x58
-		::UnityEngine::GameObject* _TextDamageRoot; // 0x60
-		::UnityEngine::GameObject* _TextShieldRoot; // 0x68
-		::UnityEngine::GameObject* _TextBurnRoot; // 0x70
-		::UnityEngine::UI::Button* _ClickBtn; // 0x78
-		::Il2CppArray<::UnityEngine::Transform*>* _StarNodes; // 0x80
+		::UnityEngine::UI::Image* _Icon; // 0x40
+		::UnityEngine::UI::Slider* _CDBar; // 0x48
+		::UnityEngine::UI::Text* _TextDamagePower; // 0x50
+		::UnityEngine::UI::Text* _TextShieldPower; // 0x58
+		::UnityEngine::UI::Text* _TextBurnPower; // 0x60
+		::UnityEngine::GameObject* _TextDamageRoot; // 0x68
+		::UnityEngine::GameObject* _TextShieldRoot; // 0x70
+		::UnityEngine::GameObject* _TextBurnRoot; // 0x78
+		::UnityEngine::UI::Button* _ClickBtn; // 0x80
+		::Il2CppArray<::UnityEngine::Transform*>* _StarNodes; // 0x88
 
 		::System::Void _ctor()
 		{

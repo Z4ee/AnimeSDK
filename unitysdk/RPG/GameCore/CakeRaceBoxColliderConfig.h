@@ -5,13 +5,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_CAKERACEBOXCOLLIDERCONFIG_METHOD_3_2B2A142A9BB55F66_OFFSET UNITYSDK_OFFSET(0x1D0FE2C0)
-#define RPG_GAMECORE_CAKERACEBOXCOLLIDERCONFIG_METHOD_3_80A2F5EAA3C80AC6_OFFSET UNITYSDK_OFFSET(0x1D0FE260)
-#define RPG_GAMECORE_CAKERACEBOXCOLLIDERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0FE2B0)
+#define RPG_GAMECORE_CAKERACEBOXCOLLIDERCONFIG_METHOD_3_D21BE92B8358129D_OFFSET UNITYSDK_OFFSET(0x1D51EF50)
+#define RPG_GAMECORE_CAKERACEBOXCOLLIDERCONFIG_METHOD_3_ED934E259B622FE9_OFFSET UNITYSDK_OFFSET(0x1D51EFB0)
+#define RPG_GAMECORE_CAKERACEBOXCOLLIDERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D51EFA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CakeRaceBoxColliderConfig_TypeDefinitionIndex = 18207;
+	inline static constexpr unsigned int CakeRaceBoxColliderConfig_TypeDefinitionIndex = 18422;
 
 	class CakeRaceBoxColliderConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
@@ -24,14 +24,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAKERACEBOXCOLLIDERCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_80A2F5EAA3C80AC6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CakeRaceBoxColliderConfig*& a2)
+		static ::System::Void Method_3_D21BE92B8358129D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CakeRaceBoxColliderConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CakeRaceBoxColliderConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAKERACEBOXCOLLIDERCONFIG_METHOD_3_80A2F5EAA3C80AC6_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CakeRaceBoxColliderConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAKERACEBOXCOLLIDERCONFIG_METHOD_3_D21BE92B8358129D_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_2B2A142A9BB55F66(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CakeRaceBoxColliderConfig* a2)
+		static ::System::Void Method_3_ED934E259B622FE9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CakeRaceBoxColliderConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CakeRaceBoxColliderConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAKERACEBOXCOLLIDERCONFIG_METHOD_3_2B2A142A9BB55F66_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CakeRaceBoxColliderConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAKERACEBOXCOLLIDERCONFIG_METHOD_3_ED934E259B622FE9_OFFSET))(a1, a2);
 		}
 	};
 }

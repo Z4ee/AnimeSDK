@@ -6,14 +6,15 @@
 #include "unitysdk/RPG/GameCore/MarbleValue.h"
 
 class Class_1_7A22A3DBEEDD1F80;
+namespace System { class String; }
 
-#define RPG_GAMECORE_MARBLEBYCOMPAREVALUE_METHOD_4_63DD0894C599BCD6_OFFSET UNITYSDK_OFFSET(0x1D4A5100)
-#define RPG_GAMECORE_MARBLEBYCOMPAREVALUE_METHOD_4_7377D7A3666B3500_OFFSET UNITYSDK_OFFSET(0x1D4A5160)
-#define RPG_GAMECORE_MARBLEBYCOMPAREVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D4A5150)
+#define RPG_GAMECORE_MARBLEBYCOMPAREVALUE_METHOD_4_63DD0894C599BCD6_OFFSET UNITYSDK_OFFSET(0x1D80BA90)
+#define RPG_GAMECORE_MARBLEBYCOMPAREVALUE_METHOD_4_7377D7A3666B3500_OFFSET UNITYSDK_OFFSET(0x1D80BAF0)
+#define RPG_GAMECORE_MARBLEBYCOMPAREVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D80BAE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MarbleByCompareValue_TypeDefinitionIndex = 16693;
+	inline static constexpr unsigned int MarbleByCompareValue_TypeDefinitionIndex = 16882;
 
 	class MarbleByCompareValue : public ::RPG::GameCore::MarblePredicateConfig
 	{
@@ -22,7 +23,8 @@ namespace RPG::GameCore
 		::RPG::GameCore::MarbleValue ValueType; // 0x2C
 		::RPG::GameCore::MarbleCompare CompareType; // 0x30
 		::System::Int32 Value; // 0x34
-		::RPG::GameCore::MarbleValue CompareValueType; // 0x38
+		::System::String* ValueDynamic; // 0x38
+		::RPG::GameCore::MarbleValue CompareValueType; // 0x40
 
 		::System::Void _ctor()
 		{

@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_E40337C55D87F197;
+class Class_1_0B11561D9E13149E;
 class Class_2_54CCD44980580DB7;
 class Class_2_BF47C01E9CFEA39C;
 
-#define CLASS_2_54CCD44980580DB7___C__DISPLAYCLASS28_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18D43F80)
-#define CLASS_2_54CCD44980580DB7___C__DISPLAYCLASS28_0___ONITEMFAILEDBYTHREAD_B__0_OFFSET UNITYSDK_OFFSET(0x18D48590)
+#define CLASS_2_54CCD44980580DB7___C__DISPLAYCLASS28_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB44B0D0)
+#define CLASS_2_54CCD44980580DB7___C__DISPLAYCLASS28_0___ONITEMFAILEDBYTHREAD_B__0_OFFSET UNITYSDK_OFFSET(0xB44F6A0)
 
-inline static constexpr unsigned int Class_2_54CCD44980580DB7___c__DisplayClass28_0_TypeDefinitionIndex = 59741;
+inline static constexpr unsigned int Class_2_54CCD44980580DB7___c__DisplayClass28_0_TypeDefinitionIndex = 59596;
 
 class Class_2_54CCD44980580DB7___c__DisplayClass28_0 : public ::System::Object
 {
 public:
-	::Class_1_E40337C55D87F197* item; // 0x10
+	::Class_1_0B11561D9E13149E* item; // 0x10
 	::Class_2_54CCD44980580DB7* __4__this; // 0x18
 	::Class_2_BF47C01E9CFEA39C* ex; // 0x20
 

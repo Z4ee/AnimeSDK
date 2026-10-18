@@ -4,20 +4,20 @@
 
 namespace Proto { class GroupSnapshot; }
 
-#define PROTO_GROUPSNAPSHOT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DD3E450)
-#define PROTO_GROUPSNAPSHOT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD3E490)
-#define PROTO_GROUPSNAPSHOT___C___CCTOR_B__48_0_OFFSET UNITYSDK_OFFSET(0x1DD3E4A0)
+#define PROTO_GROUPSNAPSHOT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DFCF6A0)
+#define PROTO_GROUPSNAPSHOT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1DFCF6E0)
+#define PROTO_GROUPSNAPSHOT___C___CCTOR_B__48_0_OFFSET UNITYSDK_OFFSET(0x1DFCF6F0)
 
 namespace Proto
 {
-	inline static constexpr unsigned int GroupSnapshot___c_TypeDefinitionIndex = 25484;
+	inline static constexpr unsigned int GroupSnapshot___c_TypeDefinitionIndex = 25827;
 
 	class GroupSnapshot___c : public ::System::Object
 	{
 	public:
 		static ::Proto::GroupSnapshot___c** StaticGet___9()
 		{
-			return (::Proto::GroupSnapshot___c**)Il2CppClass::FromTypeDefinitionIndex(GroupSnapshot___c_TypeDefinitionIndex)->GetStaticField(0x5B970);
+			return (::Proto::GroupSnapshot___c**)Il2CppClass::FromTypeDefinitionIndex(GroupSnapshot___c_TypeDefinitionIndex)->GetStaticField(0x4C070);
 		}
 
 		static ::System::Void _cctor()

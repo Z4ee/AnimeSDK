@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_GRASSDATA_METHOD_2_DF32A8DA9D5E4EB6_OFFSET UNITYSDK_OFFSET(0x1D95E030)
-#define RPG_GAMECORE_GRASSDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1D95E320)
+#define RPG_GAMECORE_GRASSDATA_METHOD_2_2F7D11238DDB20BD_OFFSET UNITYSDK_OFFSET(0x1D6F53A0)
+#define RPG_GAMECORE_GRASSDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6F5790)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GrassData_TypeDefinitionIndex = 18889;
+	inline static constexpr unsigned int GrassData_TypeDefinitionIndex = 19116;
 
 	class GrassData : public ::RPG::GameCore::JsonConfig
 	{
@@ -29,9 +29,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRASSDATA__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_DF32A8DA9D5E4EB6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GrassData*& a2)
+		static ::System::Void Method_2_2F7D11238DDB20BD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GrassData*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GrassData*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRASSDATA_METHOD_2_DF32A8DA9D5E4EB6_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GrassData*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRASSDATA_METHOD_2_2F7D11238DDB20BD_OFFSET))(a1, a2);
 		}
 	};
 }

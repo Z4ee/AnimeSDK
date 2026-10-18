@@ -1,0 +1,91 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/TextID.h"
+#include "unitysdk/System/Object.h"
+
+namespace System { class String; }
+
+#define RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEANONYMOUSPLAYERINFO_GET_DISPLAYNAME_OFFSET UNITYSDK_OFFSET(0xC88C020)
+#define RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEANONYMOUSPLAYERINFO_GET_HEADICONID_OFFSET UNITYSDK_OFFSET(0xC88C100)
+#define RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEANONYMOUSPLAYERINFO_GET_HEADICONPATH_OFFSET UNITYSDK_OFFSET(0xC88C140)
+#define RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEANONYMOUSPLAYERINFO_GET_ISFRIEND_OFFSET UNITYSDK_OFFSET(0xC88C1F0)
+#define RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEANONYMOUSPLAYERINFO_GET_ISMINE_OFFSET UNITYSDK_OFFSET(0xC88C1B0)
+#define RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEANONYMOUSPLAYERINFO_GET_LEVEL_OFFSET UNITYSDK_OFFSET(0xC88C0C0)
+#define RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEANONYMOUSPLAYERINFO_GET_NICKNAME_OFFSET UNITYSDK_OFFSET(0xC88BED0)
+#define RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEANONYMOUSPLAYERINFO_GET_UID_OFFSET UNITYSDK_OFFSET(0xC88BE90)
+#define RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEANONYMOUSPLAYERINFO__CCTOR_OFFSET UNITYSDK_OFFSET(0xC88C230)
+#define RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEANONYMOUSPLAYERINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xC88BE80)
+#define RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEANONYMOUSPLAYERINFO__GETNICKNAME_OFFSET UNITYSDK_OFFSET(0xC88BF60)
+
+namespace RPG::Client::BlindBox::Trade
+{
+	inline static constexpr unsigned int BlindBoxTradeAnonymousPlayerInfo_TypeDefinitionIndex = 74879;
+
+	class BlindBoxTradeAnonymousPlayerInfo : public ::System::Object
+	{
+	public:
+		static ::RPG::Client::BlindBox::Trade::BlindBoxTradeAnonymousPlayerInfo** StaticGet_Instance()
+		{
+			return (::RPG::Client::BlindBox::Trade::BlindBoxTradeAnonymousPlayerInfo**)Il2CppClass::FromTypeDefinitionIndex(BlindBoxTradeAnonymousPlayerInfo_TypeDefinitionIndex)->GetStaticField(0x63CA0);
+		}
+		static ::RPG::Client::TextID* StaticGet__NicknameTextID()
+		{
+			return (::RPG::Client::TextID*)Il2CppClass::FromTypeDefinitionIndex(BlindBoxTradeAnonymousPlayerInfo_TypeDefinitionIndex)->GetStaticField(0x14A20);
+		}
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEANONYMOUSPLAYERINFO__CTOR_OFFSET))(this);
+		}
+
+		static ::System::Void _cctor()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEANONYMOUSPLAYERINFO__CCTOR_OFFSET))();
+		}
+
+		::System::UInt32 get_UID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEANONYMOUSPLAYERINFO_GET_UID_OFFSET))(this);
+		}
+
+		::System::String* get_Nickname()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEANONYMOUSPLAYERINFO_GET_NICKNAME_OFFSET))(this);
+		}
+
+		::System::String* get_DisplayName()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEANONYMOUSPLAYERINFO_GET_DISPLAYNAME_OFFSET))(this);
+		}
+
+		::System::UInt32 get_Level()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEANONYMOUSPLAYERINFO_GET_LEVEL_OFFSET))(this);
+		}
+
+		::System::UInt32 get_HeadIconID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEANONYMOUSPLAYERINFO_GET_HEADICONID_OFFSET))(this);
+		}
+
+		::System::String* get_HeadIconPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEANONYMOUSPLAYERINFO_GET_HEADICONPATH_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsMine()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEANONYMOUSPLAYERINFO_GET_ISMINE_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsFriend()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEANONYMOUSPLAYERINFO_GET_ISFRIEND_OFFSET))(this);
+		}
+
+		static ::System::String* _GetNickname()
+		{
+			return ((::System::String*(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEANONYMOUSPLAYERINFO__GETNICKNAME_OFFSET))();
+		}
+	};
+}

@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/GameCore/MonsterEnergyBarNumColor.h"
 
-namespace System { class String; }
+namespace RPG::Client { class SwordTrainingStatusChangeInfo; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_1376_TypeDefinitionIndex = 79719;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_1376_TypeDefinitionIndex = 75010;
 
 class Class_0_16E4307DCC419505_1376
 {

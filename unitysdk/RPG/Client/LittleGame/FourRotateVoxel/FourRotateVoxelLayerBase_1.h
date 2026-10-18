@@ -7,7 +7,7 @@ namespace RPG::Client::LittleGame::FourRotateVoxel { template <typename T> class
 
 namespace RPG::Client::LittleGame::FourRotateVoxel
 {
-	inline static constexpr unsigned int FourRotateVoxelLayerBase_1_TypeDefinitionIndex = 41541;
+	inline static constexpr unsigned int FourRotateVoxelLayerBase_1_TypeDefinitionIndex = 43181;
 
 	template <typename T>
 	class FourRotateVoxelLayerBase_1 : public ::System::Object

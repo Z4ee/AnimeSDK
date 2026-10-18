@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Class_1_681685FAADA1782B_DebugStage_TypeDefinitionIndex = 52059;
+inline static constexpr unsigned int Class_1_681685FAADA1782B_DebugStage_TypeDefinitionIndex = 51765;
 
 enum class Class_1_681685FAADA1782B_DebugStage : ::System::Int32
 {

@@ -5,24 +5,24 @@
 namespace RPG::Client::HimekoNovaSpecialSkill { class HimekoNovaSpecialSkillData; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_HIMEKONOVASPECIALSKILL_HIMEKONOVASPECIALSKILLDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1981AA10)
-#define RPG_CLIENT_HIMEKONOVASPECIALSKILL_HIMEKONOVASPECIALSKILLDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1981AA50)
-#define RPG_CLIENT_HIMEKONOVASPECIALSKILL_HIMEKONOVASPECIALSKILLDATA___C__LOADALL_B__27_0_OFFSET UNITYSDK_OFFSET(0x1981AA60)
+#define RPG_CLIENT_HIMEKONOVASPECIALSKILL_HIMEKONOVASPECIALSKILLDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD31DD10)
+#define RPG_CLIENT_HIMEKONOVASPECIALSKILL_HIMEKONOVASPECIALSKILLDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD31DD50)
+#define RPG_CLIENT_HIMEKONOVASPECIALSKILL_HIMEKONOVASPECIALSKILLDATA___C__LOADALL_B__27_0_OFFSET UNITYSDK_OFFSET(0xD31DD60)
 
 namespace RPG::Client::HimekoNovaSpecialSkill
 {
-	inline static constexpr unsigned int HimekoNovaSpecialSkillData___c_TypeDefinitionIndex = 79160;
+	inline static constexpr unsigned int HimekoNovaSpecialSkillData___c_TypeDefinitionIndex = 80483;
 
 	class HimekoNovaSpecialSkillData___c : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::HimekoNovaSpecialSkill::HimekoNovaSpecialSkillData___c** StaticGet___9()
 		{
-			return (::RPG::Client::HimekoNovaSpecialSkill::HimekoNovaSpecialSkillData___c**)Il2CppClass::FromTypeDefinitionIndex(HimekoNovaSpecialSkillData___c_TypeDefinitionIndex)->GetStaticField(0x592F0);
+			return (::RPG::Client::HimekoNovaSpecialSkill::HimekoNovaSpecialSkillData___c**)Il2CppClass::FromTypeDefinitionIndex(HimekoNovaSpecialSkillData___c_TypeDefinitionIndex)->GetStaticField(0x134D0);
 		}
 		static ::System::Comparison_1<::RPG::Client::HimekoNovaSpecialSkill::HimekoNovaSpecialSkillData*>** StaticGet___9__27_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::HimekoNovaSpecialSkill::HimekoNovaSpecialSkillData*>**)Il2CppClass::FromTypeDefinitionIndex(HimekoNovaSpecialSkillData___c_TypeDefinitionIndex)->GetStaticField(0x592F8);
+			return (::System::Comparison_1<::RPG::Client::HimekoNovaSpecialSkill::HimekoNovaSpecialSkillData*>**)Il2CppClass::FromTypeDefinitionIndex(HimekoNovaSpecialSkillData___c_TypeDefinitionIndex)->GetStaticField(0x134D8);
 		}
 
 		static ::System::Void _cctor()

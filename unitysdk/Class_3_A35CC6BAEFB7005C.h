@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByIsScepter; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_A35CC6BAEFB7005C_EVALUATE_OFFSET UNITYSDK_OFFSET(0x17A2B0F0)
-#define CLASS_3_A35CC6BAEFB7005C__CTOR_OFFSET UNITYSDK_OFFSET(0x17A2B0C0)
+#define CLASS_3_A35CC6BAEFB7005C_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBF28720)
+#define CLASS_3_A35CC6BAEFB7005C__CTOR_OFFSET UNITYSDK_OFFSET(0xBF286F0)
 
-inline static constexpr unsigned int Class_3_A35CC6BAEFB7005C_TypeDefinitionIndex = 55098;
+inline static constexpr unsigned int Class_3_A35CC6BAEFB7005C_TypeDefinitionIndex = 54889;
 
 class Class_3_A35CC6BAEFB7005C : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByIsScepter*>
 {

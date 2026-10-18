@@ -5,12 +5,12 @@
 namespace HoudiniEngineUnity { class HEU_GeneratedOutput; }
 namespace System { class String; }
 
-#define HOUDINIENGINEUNITY_HEU_LOADBUFFERBASE_INITIALIZEBUFFER_OFFSET UNITYSDK_OFFSET(0x11A66EA0)
-#define HOUDINIENGINEUNITY_HEU_LOADBUFFERBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x11A66EC0)
+#define HOUDINIENGINEUNITY_HEU_LOADBUFFERBASE_INITIALIZEBUFFER_OFFSET UNITYSDK_OFFSET(0x1B924C40)
+#define HOUDINIENGINEUNITY_HEU_LOADBUFFERBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B924C60)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_LoadBufferBase_TypeDefinitionIndex = 39310;
+	inline static constexpr unsigned int HEU_LoadBufferBase_TypeDefinitionIndex = 40607;
 
 	class HEU_LoadBufferBase : public ::System::Object
 	{

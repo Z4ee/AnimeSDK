@@ -3,7 +3,7 @@
 #include "unitysdk/RPG/GameCore/ChimeraDuelBuffType.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_43BD383C98B4C0C5_213;
+class Class_1_43BD383C98B4C0C5_215;
 class Class_1_E518B582305CCAFF;
 class Class_1_F9FBCC956DFCF137_27;
 class Class_2_B66C1067C0468FBB;
@@ -12,19 +12,19 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_61B783805992B721_EXECUTE_OFFSET UNITYSDK_OFFSET(0x176D91A0)
-#define CLASS_1_61B783805992B721_METHOD_1_F8B73ECE7F883AC1_OFFSET UNITYSDK_OFFSET(0x176D93E0)
-#define CLASS_1_61B783805992B721_TICK_OFFSET UNITYSDK_OFFSET(0x176D9370)
-#define CLASS_1_61B783805992B721__CTOR_OFFSET UNITYSDK_OFFSET(0x176D8F20)
+#define CLASS_1_61B783805992B721_EXECUTE_OFFSET UNITYSDK_OFFSET(0xBCD8770)
+#define CLASS_1_61B783805992B721_METHOD_1_F8B73ECE7F883AC1_OFFSET UNITYSDK_OFFSET(0xBCD89B0)
+#define CLASS_1_61B783805992B721_TICK_OFFSET UNITYSDK_OFFSET(0xBCD8940)
+#define CLASS_1_61B783805992B721__CTOR_OFFSET UNITYSDK_OFFSET(0xBCD84F0)
 
-inline static constexpr unsigned int Class_1_61B783805992B721_TypeDefinitionIndex = 77176;
+inline static constexpr unsigned int Class_1_61B783805992B721_TypeDefinitionIndex = 77647;
 
 class Class_1_61B783805992B721 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::Class_1_43BD383C98B4C0C5_213*>* OJFECHILFHG; // 0x10
-	::Class_1_E518B582305CCAFF* HFOFIODMFGB; // 0x18
-	::System::Collections::Generic::Dictionary_2<::RPG::GameCore::ChimeraDuelBuffType, ::System::String*>* IMGOJOKFAMK; // 0x20
+	::System::Collections::Generic::List_1<::Class_1_43BD383C98B4C0C5_215*>* OJFECHILFHG; // 0x10
+	::System::Collections::Generic::Dictionary_2<::RPG::GameCore::ChimeraDuelBuffType, ::System::String*>* IMGOJOKFAMK; // 0x18
+	::Class_1_E518B582305CCAFF* HFOFIODMFGB; // 0x20
 
 	::System::Void _ctor(::Class_2_B66C1067C0468FBB* a1, ::Class_2_B66C1067C0468FBB* a2, ::Class_2_B66C1067C0468FBB* a3)
 	{

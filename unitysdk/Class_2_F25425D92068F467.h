@@ -8,23 +8,23 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class PropFastDeliverSwitchTarget; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_2_F25425D92068F467_DISPOSE_OFFSET UNITYSDK_OFFSET(0x179C6EF0)
-#define CLASS_2_F25425D92068F467_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x179C6570)
-#define CLASS_2_F25425D92068F467_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x179C6EA0)
-#define CLASS_2_F25425D92068F467_TICK_OFFSET UNITYSDK_OFFSET(0x179C6F50)
-#define CLASS_2_F25425D92068F467__CTOR_OFFSET UNITYSDK_OFFSET(0x179C6560)
+#define CLASS_2_F25425D92068F467_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15766120)
+#define CLASS_2_F25425D92068F467_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x157657A0)
+#define CLASS_2_F25425D92068F467_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x157660D0)
+#define CLASS_2_F25425D92068F467_TICK_OFFSET UNITYSDK_OFFSET(0x15766180)
+#define CLASS_2_F25425D92068F467__CTOR_OFFSET UNITYSDK_OFFSET(0x15765790)
 
-inline static constexpr unsigned int Class_2_F25425D92068F467_TypeDefinitionIndex = 58476;
+inline static constexpr unsigned int Class_2_F25425D92068F467_TypeDefinitionIndex = 58327;
 
 class Class_2_F25425D92068F467 : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::RPG::Client::Prop::FastDeliverPuzzleEntityData* CFNOKPLDCGM; // 0x18
+	::RPG::Client::Prop::FastDeliverPuzzleEntityData* NFHPANNPJLG; // 0x18
 	::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
-	::RPG::Client::Prop::FastDeliverPuzzleEntityData* NFHPANNPJLG; // 0x28
-	::RPG::GameCore::PropFastDeliverSwitchTarget* OFKGLJOAMLD; // 0x30
-	::RPG::GameCore::GameEntity* KCKEHDGBGGG; // 0x38
-	::RPG::GameCore::GameEntity* JBLCDCPMAHA; // 0x40
+	::RPG::GameCore::GameEntity* JBLCDCPMAHA; // 0x28
+	::RPG::GameCore::GameEntity* KCKEHDGBGGG; // 0x30
+	::RPG::Client::Prop::FastDeliverPuzzleEntityData* CFNOKPLDCGM; // 0x38
+	::RPG::GameCore::PropFastDeliverSwitchTarget* OFKGLJOAMLD; // 0x40
 	::UnityEngine::Vector3 CCNHAICHLBK; // 0x48
 	::UnityEngine::Vector3 KOGCFJCMFLD; // 0x54
 

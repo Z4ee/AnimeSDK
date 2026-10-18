@@ -5,19 +5,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_STAGEMONSTERINVASIONPARAMROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CAE7670)
-#define RPG_GAMECORE_STAGEMONSTERINVASIONPARAMROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CAE77F0)
+#define RPG_GAMECORE_STAGEMONSTERINVASIONPARAMROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DAE31D0)
+#define RPG_GAMECORE_STAGEMONSTERINVASIONPARAMROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1DAE3320)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StageMonsterInvasionParamRow_TypeDefinitionIndex = 14993;
+	inline static constexpr unsigned int StageMonsterInvasionParamRow_TypeDefinitionIndex = 15160;
 
 	class StageMonsterInvasionParamRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::RPG::GameCore::FixPoint>* ParamList; // 0x10
-		::System::UInt32 InvasionID; // 0x18
-		::System::UInt32 MonsterID; // 0x1C
+		::System::UInt32 MonsterID; // 0x18
+		::System::UInt32 InvasionID; // 0x1C
 
 		::System::Void _ctor()
 		{

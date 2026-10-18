@@ -6,16 +6,16 @@ class Class_1_BFF1DA2C4D50F81F;
 namespace RPG::Client { class ActivityBenefitV2Round; }
 namespace RPG::Client { class ScheduleData; }
 
-#define CLASS_1_BFF1DA2C4D50F81F___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1850ED40)
-#define CLASS_1_BFF1DA2C4D50F81F___C__DISPLAYCLASS8_0___ONSCHEDULECONFIGREFRESHFINISH_B__0_OFFSET UNITYSDK_OFFSET(0x1850F2D0)
+#define CLASS_1_BFF1DA2C4D50F81F___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC311570)
+#define CLASS_1_BFF1DA2C4D50F81F___C__DISPLAYCLASS8_0___ONSCHEDULECONFIGREFRESHFINISH_B__0_OFFSET UNITYSDK_OFFSET(0xC311B00)
 
-inline static constexpr unsigned int Class_1_BFF1DA2C4D50F81F___c__DisplayClass8_0_TypeDefinitionIndex = 61500;
+inline static constexpr unsigned int Class_1_BFF1DA2C4D50F81F___c__DisplayClass8_0_TypeDefinitionIndex = 61406;
 
 class Class_1_BFF1DA2C4D50F81F___c__DisplayClass8_0 : public ::System::Object
 {
 public:
-	::RPG::Client::ActivityBenefitV2Round* round; // 0x10
-	::Class_1_BFF1DA2C4D50F81F* __4__this; // 0x18
+	::Class_1_BFF1DA2C4D50F81F* __4__this; // 0x10
+	::RPG::Client::ActivityBenefitV2Round* round; // 0x18
 	::System::UInt32 activityModuleID; // 0x20
 
 	::System::Void _ctor()

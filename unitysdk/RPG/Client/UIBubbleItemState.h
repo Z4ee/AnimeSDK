@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIBubbleItemState_TypeDefinitionIndex = 68879;
+	inline static constexpr unsigned int UIBubbleItemState_TypeDefinitionIndex = 68914;
 
 	enum class UIBubbleItemState : ::System::Int32
 	{

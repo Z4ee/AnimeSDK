@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MusicRhythmSongUnlockType_TypeDefinitionIndex = 14153;
+	inline static constexpr unsigned int MusicRhythmSongUnlockType_TypeDefinitionIndex = 14260;
 
 	enum class MusicRhythmSongUnlockType : ::System::Int32
 	{

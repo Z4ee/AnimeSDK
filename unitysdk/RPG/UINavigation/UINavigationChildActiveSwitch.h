@@ -1,0 +1,67 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/MonoBehaviour.h"
+
+namespace RPG::UINavigation { class UINavigation; }
+
+#define RPG_UINAVIGATION_UINAVIGATIONCHILDACTIVESWITCH_GET_CHILDBUTTONSACTIVE_OFFSET UNITYSDK_OFFSET(0xE88A650)
+#define RPG_UINAVIGATION_UINAVIGATIONCHILDACTIVESWITCH_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xE88ABC0)
+#define RPG_UINAVIGATION_UINAVIGATIONCHILDACTIVESWITCH_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xE88AAB0)
+#define RPG_UINAVIGATION_UINAVIGATIONCHILDACTIVESWITCH_ONENABLE_OFFSET UNITYSDK_OFFSET(0xE88A900)
+#define RPG_UINAVIGATION_UINAVIGATIONCHILDACTIVESWITCH_SET_CHILDBUTTONSACTIVE_OFFSET UNITYSDK_OFFSET(0xE88A690)
+#define RPG_UINAVIGATION_UINAVIGATIONCHILDACTIVESWITCH__APPLYTODIRECTCHILDBUTTONS_OFFSET UNITYSDK_OFFSET(0xE88A6E0)
+#define RPG_UINAVIGATION_UINAVIGATIONCHILDACTIVESWITCH__CTOR_OFFSET UNITYSDK_OFFSET(0xE88AC60)
+#define RPG_UINAVIGATION_UINAVIGATIONCHILDACTIVESWITCH__ONCHILDRENINVALIDATED_OFFSET UNITYSDK_OFFSET(0xE88AC20)
+
+namespace RPG::UINavigation
+{
+	inline static constexpr unsigned int UINavigationChildActiveSwitch_TypeDefinitionIndex = 51734;
+
+	class UINavigationChildActiveSwitch : public ::UnityEngine::MonoBehaviour
+	{
+	public:
+		::System::Boolean _ChildButtonsActive; // 0x18
+		::RPG::UINavigation::UINavigation* _Node; // 0x20
+		::System::Boolean _ShouldReapply; // 0x28
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_UINAVIGATION_UINAVIGATIONCHILDACTIVESWITCH__CTOR_OFFSET))(this);
+		}
+
+		::System::Boolean get_ChildButtonsActive()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_UINAVIGATION_UINAVIGATIONCHILDACTIVESWITCH_GET_CHILDBUTTONSACTIVE_OFFSET))(this);
+		}
+
+		::System::Void set_ChildButtonsActive(::System::Boolean a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_UINAVIGATION_UINAVIGATIONCHILDACTIVESWITCH_SET_CHILDBUTTONSACTIVE_OFFSET))(this, a1);
+		}
+
+		::System::Void OnEnable()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_UINAVIGATION_UINAVIGATIONCHILDACTIVESWITCH_ONENABLE_OFFSET))(this);
+		}
+
+		::System::Void OnDisable()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_UINAVIGATION_UINAVIGATIONCHILDACTIVESWITCH_ONDISABLE_OFFSET))(this);
+		}
+
+		::System::Void LateUpdate()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_UINAVIGATION_UINAVIGATIONCHILDACTIVESWITCH_LATEUPDATE_OFFSET))(this);
+		}
+
+		::System::Void _OnChildrenInvalidated()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_UINAVIGATION_UINAVIGATIONCHILDACTIVESWITCH__ONCHILDRENINVALIDATED_OFFSET))(this);
+		}
+
+		::System::Void _ApplyToDirectChildButtons()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_UINAVIGATION_UINAVIGATIONCHILDACTIVESWITCH__APPLYTODIRECTCHILDBUTTONS_OFFSET))(this);
+		}
+	};
+}

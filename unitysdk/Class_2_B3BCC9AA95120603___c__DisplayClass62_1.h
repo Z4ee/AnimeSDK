@@ -3,21 +3,21 @@
 #include "unitysdk/Class_2_B3BCC9AA95120603_Struct_2_749864A93B6EEBBE.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_374;
+class Class_0_16E4307DCC419505_455;
 class Class_2_B3BCC9AA95120603___c__DisplayClass62_0;
 namespace UnityEngine { class Object; }
 
-#define CLASS_2_B3BCC9AA95120603___C__DISPLAYCLASS62_1__CTOR_OFFSET UNITYSDK_OFFSET(0x19856FE0)
-#define CLASS_2_B3BCC9AA95120603___C__DISPLAYCLASS62_1__PRELOADPROPERTYRESOURCES1_B__3_OFFSET UNITYSDK_OFFSET(0x19856FF0)
+#define CLASS_2_B3BCC9AA95120603___C__DISPLAYCLASS62_1__CTOR_OFFSET UNITYSDK_OFFSET(0xBD01130)
+#define CLASS_2_B3BCC9AA95120603___C__DISPLAYCLASS62_1__PRELOADPROPERTYRESOURCES1_B__3_OFFSET UNITYSDK_OFFSET(0xBD05380)
 
-inline static constexpr unsigned int Class_2_B3BCC9AA95120603___c__DisplayClass62_1_TypeDefinitionIndex = 49860;
+inline static constexpr unsigned int Class_2_B3BCC9AA95120603___c__DisplayClass62_1_TypeDefinitionIndex = 49435;
 
 class Class_2_B3BCC9AA95120603___c__DisplayClass62_1 : public ::System::Object
 {
 public:
 	::Class_2_B3BCC9AA95120603_Struct_2_749864A93B6EEBBE plpath; // 0x10
-	::Class_0_16E4307DCC419505_374* hs; // 0x20
-	::Class_2_B3BCC9AA95120603___c__DisplayClass62_0* CS___8__locals1; // 0x28
+	::Class_2_B3BCC9AA95120603___c__DisplayClass62_0* CS___8__locals1; // 0x20
+	::Class_0_16E4307DCC419505_455* hs; // 0x28
 
 	::System::Void _ctor()
 	{

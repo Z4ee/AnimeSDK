@@ -4,7 +4,7 @@
 
 namespace AstraFX::Fireworks
 {
-	inline static constexpr unsigned int AstraFX_FireworksBehavior_Struct_2_F7C243F317D8E44A_1_TypeDefinitionIndex = 49449;
+	inline static constexpr unsigned int AstraFX_FireworksBehavior_Struct_2_F7C243F317D8E44A_1_TypeDefinitionIndex = 49023;
 
 	struct alignas(4) AstraFX_FireworksBehavior_Struct_2_F7C243F317D8E44A_1
 	{

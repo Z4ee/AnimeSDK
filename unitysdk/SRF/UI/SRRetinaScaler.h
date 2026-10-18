@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/SRF/SRMonoBehaviour.h"
 
-#define SRF_UI_SRRETINASCALER_APPLYSCALING_OFFSET UNITYSDK_OFFSET(0x1EC49500)
-#define SRF_UI_SRRETINASCALER_START_OFFSET UNITYSDK_OFFSET(0x1EC494F0)
-#define SRF_UI_SRRETINASCALER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EC49510)
+#define SRF_UI_SRRETINASCALER_APPLYSCALING_OFFSET UNITYSDK_OFFSET(0x1ED53EF0)
+#define SRF_UI_SRRETINASCALER_START_OFFSET UNITYSDK_OFFSET(0x1ED53EE0)
+#define SRF_UI_SRRETINASCALER__CTOR_OFFSET UNITYSDK_OFFSET(0x1ED53F00)
 
 namespace SRF::UI
 {
-	inline static constexpr unsigned int SRRetinaScaler_TypeDefinitionIndex = 34723;
+	inline static constexpr unsigned int SRRetinaScaler_TypeDefinitionIndex = 35392;
 
 	class SRRetinaScaler : public ::SRF::SRMonoBehaviour
 	{

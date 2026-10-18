@@ -3,7 +3,7 @@
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HAPI_PDG_EventType_TypeDefinitionIndex = 39188;
+	inline static constexpr unsigned int HAPI_PDG_EventType_TypeDefinitionIndex = 40485;
 
 	enum class HAPI_PDG_EventType : ::System::Int32
 	{

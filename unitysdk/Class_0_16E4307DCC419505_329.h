@@ -1,10 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Collections/Generic/Dictionary_2_Enumerator.h"
+#include "unitysdk/RPG/GameCore/FixPoint.h"
+#include "unitysdk/RPG/GameCore/LittleGameTargetMemoryType.h"
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_329_TypeDefinitionIndex = 42421;
+class Class_0_16E4307DCC419505_363;
+namespace Entitas { class IContext; }
+namespace Entitas { class IEntity; }
+namespace RPG::GameCore { class BaseLittleGameAbilityEffectConfig; }
+namespace RPG::GameCore { class BaseLittleGameAbilityTargetSelectorConfig; }
+namespace RPG::GameCore { class BaseLittleGameAbilityValueGetterConfig; }
+namespace System { class String; }
+namespace System::Collections::Generic { template <typename T1, typename T2> class IReadOnlyDictionary_2; }
+namespace System::Collections::Generic { template <typename T> class HashSet_1; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
 
-template <typename TKey, typename TValue>
+inline static constexpr unsigned int Class_0_16E4307DCC419505_329_TypeDefinitionIndex = 43700;
+
 class Class_0_16E4307DCC419505_329
 {
 public:

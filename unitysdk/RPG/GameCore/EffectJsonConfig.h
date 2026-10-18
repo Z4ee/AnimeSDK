@@ -15,12 +15,12 @@ namespace RPG::GameCore { class ModifierBindEffectConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_EFFECTJSONCONFIG_METHOD_2_EE07C13025A521B8_OFFSET UNITYSDK_OFFSET(0x1DB23690)
-#define RPG_GAMECORE_EFFECTJSONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB23E10)
+#define RPG_GAMECORE_EFFECTJSONCONFIG_METHOD_2_EE07C13025A521B8_OFFSET UNITYSDK_OFFSET(0x1D6026E0)
+#define RPG_GAMECORE_EFFECTJSONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D602E60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EffectJsonConfig_TypeDefinitionIndex = 16316;
+	inline static constexpr unsigned int EffectJsonConfig_TypeDefinitionIndex = 16489;
 
 	class EffectJsonConfig : public ::RPG::GameCore::JsonConfig
 	{

@@ -5,12 +5,12 @@
 namespace RPG::Client { class ChallengeGroupData; }
 namespace RPG::GameCore { class DynamicValue; }
 
-#define RPG_CLIENT_CHALLENGEWARNINGHINTHELPER___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD72180)
-#define RPG_CLIENT_CHALLENGEWARNINGHINTHELPER___C__DISPLAYCLASS6_0___TRYGET5WEEKDURATION_B__0_OFFSET UNITYSDK_OFFSET(0x1AD723A0)
+#define RPG_CLIENT_CHALLENGEWARNINGHINTHELPER___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC9B9BC0)
+#define RPG_CLIENT_CHALLENGEWARNINGHINTHELPER___C__DISPLAYCLASS6_0___TRYGET5WEEKDURATION_B__0_OFFSET UNITYSDK_OFFSET(0xC9B9DE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChallengeWarningHintHelper___c__DisplayClass6_0_TypeDefinitionIndex = 63188;
+	inline static constexpr unsigned int ChallengeWarningHintHelper___c__DisplayClass6_0_TypeDefinitionIndex = 63121;
 
 	class ChallengeWarningHintHelper___c__DisplayClass6_0 : public ::System::Object
 	{

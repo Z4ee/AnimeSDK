@@ -6,17 +6,17 @@ class Class_1_6770BC9DDC5C458C;
 class Class_1_CC4789213986EBB7_1;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_2839EDE8633A54DD_2_GET_FUNS_OFFSET UNITYSDK_OFFSET(0x1781D190)
-#define CLASS_1_2839EDE8633A54DD_2_METHOD_1_CA99028638214CFF_OFFSET UNITYSDK_OFFSET(0x1781D220)
-#define CLASS_1_2839EDE8633A54DD_2__CTOR_OFFSET UNITYSDK_OFFSET(0x1781D1A0)
+#define CLASS_1_2839EDE8633A54DD_2_GET_FUNS_OFFSET UNITYSDK_OFFSET(0xCA03590)
+#define CLASS_1_2839EDE8633A54DD_2_METHOD_1_CA99028638214CFF_OFFSET UNITYSDK_OFFSET(0xCA03620)
+#define CLASS_1_2839EDE8633A54DD_2__CTOR_OFFSET UNITYSDK_OFFSET(0xCA035A0)
 
-inline static constexpr unsigned int Class_1_2839EDE8633A54DD_2_TypeDefinitionIndex = 63987;
+inline static constexpr unsigned int Class_1_2839EDE8633A54DD_2_TypeDefinitionIndex = 63925;
 
 class Class_1_2839EDE8633A54DD_2 : public ::System::Object
 {
 public:
-	::Class_1_CC4789213986EBB7_1* JKOCLNODAJD; // 0x10
-	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Class_1_6770BC9DDC5C458C*>* _Funs_k__BackingField; // 0x18
+	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Class_1_6770BC9DDC5C458C*>* _Funs_k__BackingField; // 0x10
+	::Class_1_CC4789213986EBB7_1* JKOCLNODAJD; // 0x18
 
 	::System::Void _ctor(::Class_1_CC4789213986EBB7_1* a1)
 	{

@@ -4,19 +4,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MULTIFLOORCONFLICTGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CE75B60)
-#define RPG_GAMECORE_MULTIFLOORCONFLICTGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE75CB0)
+#define RPG_GAMECORE_MULTIFLOORCONFLICTGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D891270)
+#define RPG_GAMECORE_MULTIFLOORCONFLICTGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D8913C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MultiFloorConflictGroupRow_TypeDefinitionIndex = 13949;
+	inline static constexpr unsigned int MultiFloorConflictGroupRow_TypeDefinitionIndex = 14056;
 
 	class MultiFloorConflictGroupRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* FloorIDList; // 0x10
-		::System::UInt32 PlaneID; // 0x18
-		::System::UInt32 GroupID; // 0x1C
+		::System::UInt32 GroupID; // 0x18
+		::System::UInt32 PlaneID; // 0x1C
 
 		::System::Void _ctor()
 		{

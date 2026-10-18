@@ -8,7 +8,7 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CharacterArtModelEffectBehavior_EffectFollow_TypeDefinitionIndex = 70218;
+	inline static constexpr unsigned int CharacterArtModelEffectBehavior_EffectFollow_TypeDefinitionIndex = 70254;
 
 	struct alignas(8) CharacterArtModelEffectBehavior_EffectFollow
 	{

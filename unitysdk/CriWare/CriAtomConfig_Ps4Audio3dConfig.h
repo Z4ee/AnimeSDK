@@ -4,11 +4,11 @@
 
 namespace CriWare { class CriAtomConfig_Ps4Audio3dConfig_VoicePoolConfig; }
 
-#define CRIWARE_CRIATOMCONFIG_PS4AUDIO3DCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CB7C2B0)
+#define CRIWARE_CRIATOMCONFIG_PS4AUDIO3DCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x166BE4F0)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomConfig_Ps4Audio3dConfig_TypeDefinitionIndex = 38869;
+	inline static constexpr unsigned int CriAtomConfig_Ps4Audio3dConfig_TypeDefinitionIndex = 40166;
 
 	class CriAtomConfig_Ps4Audio3dConfig : public ::System::Object
 	{

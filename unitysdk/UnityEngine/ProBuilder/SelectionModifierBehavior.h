@@ -3,7 +3,7 @@
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int SelectionModifierBehavior_TypeDefinitionIndex = 43225;
+	inline static constexpr unsigned int SelectionModifierBehavior_TypeDefinitionIndex = 44417;
 
 	enum class SelectionModifierBehavior : ::System::Int32
 	{

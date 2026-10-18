@@ -6,54 +6,54 @@ namespace Coffee::UIExtensions { class UIParticleRenderer; }
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class ParticleSystem; }
 
-#define COFFEE_UIEXTENSIONS_UIPARTICLE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EE78010)
-#define COFFEE_UIEXTENSIONS_UIPARTICLE___C__CLEAR_B__116_0_OFFSET UNITYSDK_OFFSET(0x1EE78160)
-#define COFFEE_UIEXTENSIONS_UIPARTICLE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1EE78040)
-#define COFFEE_UIEXTENSIONS_UIPARTICLE___C__ONDISABLE_B__106_0_OFFSET UNITYSDK_OFFSET(0x1EE78050)
-#define COFFEE_UIEXTENSIONS_UIPARTICLE___C__PAUSE_B__111_0_OFFSET UNITYSDK_OFFSET(0x1EE780A0)
-#define COFFEE_UIEXTENSIONS_UIPARTICLE___C__PLAY_B__110_0_OFFSET UNITYSDK_OFFSET(0x1EE78070)
-#define COFFEE_UIEXTENSIONS_UIPARTICLE___C__STARTEMISSION_B__114_0_OFFSET UNITYSDK_OFFSET(0x1EE78100)
-#define COFFEE_UIEXTENSIONS_UIPARTICLE___C__STOPEMISSION_B__115_0_OFFSET UNITYSDK_OFFSET(0x1EE78130)
-#define COFFEE_UIEXTENSIONS_UIPARTICLE___C__STOP_B__113_0_OFFSET UNITYSDK_OFFSET(0x1EE780D0)
+#define COFFEE_UIEXTENSIONS_UIPARTICLE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x166ABC40)
+#define COFFEE_UIEXTENSIONS_UIPARTICLE___C__CLEAR_B__116_0_OFFSET UNITYSDK_OFFSET(0x166ABD90)
+#define COFFEE_UIEXTENSIONS_UIPARTICLE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x166ABC70)
+#define COFFEE_UIEXTENSIONS_UIPARTICLE___C__ONDISABLE_B__106_0_OFFSET UNITYSDK_OFFSET(0x166ABC80)
+#define COFFEE_UIEXTENSIONS_UIPARTICLE___C__PAUSE_B__111_0_OFFSET UNITYSDK_OFFSET(0x166ABCD0)
+#define COFFEE_UIEXTENSIONS_UIPARTICLE___C__PLAY_B__110_0_OFFSET UNITYSDK_OFFSET(0x166ABCA0)
+#define COFFEE_UIEXTENSIONS_UIPARTICLE___C__STARTEMISSION_B__114_0_OFFSET UNITYSDK_OFFSET(0x166ABD30)
+#define COFFEE_UIEXTENSIONS_UIPARTICLE___C__STOPEMISSION_B__115_0_OFFSET UNITYSDK_OFFSET(0x166ABD60)
+#define COFFEE_UIEXTENSIONS_UIPARTICLE___C__STOP_B__113_0_OFFSET UNITYSDK_OFFSET(0x166ABD00)
 
 namespace Coffee::UIExtensions
 {
-	inline static constexpr unsigned int UIParticle___c_TypeDefinitionIndex = 43962;
+	inline static constexpr unsigned int UIParticle___c_TypeDefinitionIndex = 45154;
 
 	class UIParticle___c : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::UnityEngine::ParticleSystem*>** StaticGet___9__115_0()
-		{
-			return (::System::Action_1<::UnityEngine::ParticleSystem*>**)Il2CppClass::FromTypeDefinitionIndex(UIParticle___c_TypeDefinitionIndex)->GetStaticField(0x1260);
-		}
-		static ::System::Action_1<::UnityEngine::ParticleSystem*>** StaticGet___9__111_0()
-		{
-			return (::System::Action_1<::UnityEngine::ParticleSystem*>**)Il2CppClass::FromTypeDefinitionIndex(UIParticle___c_TypeDefinitionIndex)->GetStaticField(0x1268);
-		}
-		static ::System::Action_1<::Coffee::UIExtensions::UIParticleRenderer*>** StaticGet___9__106_0()
-		{
-			return (::System::Action_1<::Coffee::UIExtensions::UIParticleRenderer*>**)Il2CppClass::FromTypeDefinitionIndex(UIParticle___c_TypeDefinitionIndex)->GetStaticField(0x1270);
-		}
-		static ::System::Action_1<::UnityEngine::ParticleSystem*>** StaticGet___9__116_0()
-		{
-			return (::System::Action_1<::UnityEngine::ParticleSystem*>**)Il2CppClass::FromTypeDefinitionIndex(UIParticle___c_TypeDefinitionIndex)->GetStaticField(0x1278);
-		}
-		static ::System::Action_1<::UnityEngine::ParticleSystem*>** StaticGet___9__110_0()
-		{
-			return (::System::Action_1<::UnityEngine::ParticleSystem*>**)Il2CppClass::FromTypeDefinitionIndex(UIParticle___c_TypeDefinitionIndex)->GetStaticField(0x1280);
-		}
 		static ::System::Action_1<::UnityEngine::ParticleSystem*>** StaticGet___9__114_0()
 		{
-			return (::System::Action_1<::UnityEngine::ParticleSystem*>**)Il2CppClass::FromTypeDefinitionIndex(UIParticle___c_TypeDefinitionIndex)->GetStaticField(0x1288);
+			return (::System::Action_1<::UnityEngine::ParticleSystem*>**)Il2CppClass::FromTypeDefinitionIndex(UIParticle___c_TypeDefinitionIndex)->GetStaticField(0xFC0);
+		}
+		static ::System::Action_1<::UnityEngine::ParticleSystem*>** StaticGet___9__115_0()
+		{
+			return (::System::Action_1<::UnityEngine::ParticleSystem*>**)Il2CppClass::FromTypeDefinitionIndex(UIParticle___c_TypeDefinitionIndex)->GetStaticField(0xFC8);
 		}
 		static ::System::Action_1<::UnityEngine::ParticleSystem*>** StaticGet___9__113_0()
 		{
-			return (::System::Action_1<::UnityEngine::ParticleSystem*>**)Il2CppClass::FromTypeDefinitionIndex(UIParticle___c_TypeDefinitionIndex)->GetStaticField(0x1290);
+			return (::System::Action_1<::UnityEngine::ParticleSystem*>**)Il2CppClass::FromTypeDefinitionIndex(UIParticle___c_TypeDefinitionIndex)->GetStaticField(0xFD0);
+		}
+		static ::System::Action_1<::Coffee::UIExtensions::UIParticleRenderer*>** StaticGet___9__106_0()
+		{
+			return (::System::Action_1<::Coffee::UIExtensions::UIParticleRenderer*>**)Il2CppClass::FromTypeDefinitionIndex(UIParticle___c_TypeDefinitionIndex)->GetStaticField(0xFD8);
 		}
 		static ::Coffee::UIExtensions::UIParticle___c** StaticGet___9()
 		{
-			return (::Coffee::UIExtensions::UIParticle___c**)Il2CppClass::FromTypeDefinitionIndex(UIParticle___c_TypeDefinitionIndex)->GetStaticField(0x1298);
+			return (::Coffee::UIExtensions::UIParticle___c**)Il2CppClass::FromTypeDefinitionIndex(UIParticle___c_TypeDefinitionIndex)->GetStaticField(0xFE0);
+		}
+		static ::System::Action_1<::UnityEngine::ParticleSystem*>** StaticGet___9__110_0()
+		{
+			return (::System::Action_1<::UnityEngine::ParticleSystem*>**)Il2CppClass::FromTypeDefinitionIndex(UIParticle___c_TypeDefinitionIndex)->GetStaticField(0xFE8);
+		}
+		static ::System::Action_1<::UnityEngine::ParticleSystem*>** StaticGet___9__116_0()
+		{
+			return (::System::Action_1<::UnityEngine::ParticleSystem*>**)Il2CppClass::FromTypeDefinitionIndex(UIParticle___c_TypeDefinitionIndex)->GetStaticField(0xFF0);
+		}
+		static ::System::Action_1<::UnityEngine::ParticleSystem*>** StaticGet___9__111_0()
+		{
+			return (::System::Action_1<::UnityEngine::ParticleSystem*>**)Il2CppClass::FromTypeDefinitionIndex(UIParticle___c_TypeDefinitionIndex)->GetStaticField(0xFF8);
 		}
 
 		static ::System::Void _cctor()

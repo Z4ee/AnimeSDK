@@ -11,48 +11,48 @@ namespace Google::Protobuf::Collections { template <typename T> class RepeatedFi
 namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 namespace System { class String; }
 
-#define PROTO_HELIOBUSCHALLENGELINEUP_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1DD3EAA0)
-#define PROTO_HELIOBUSCHALLENGELINEUP_CLONE_OFFSET UNITYSDK_OFFSET(0x1DD3E610)
-#define PROTO_HELIOBUSCHALLENGELINEUP_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1DD3E710)
-#define PROTO_HELIOBUSCHALLENGELINEUP_EQUALS_OFFSET UNITYSDK_OFFSET(0x1DD3E690)
-#define PROTO_HELIOBUSCHALLENGELINEUP_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1DD3E810)
-#define PROTO_HELIOBUSCHALLENGELINEUP_GET_AVATARIDLIST_OFFSET UNITYSDK_OFFSET(0x1DD3E640)
-#define PROTO_HELIOBUSCHALLENGELINEUP_GET_GROUPID_OFFSET UNITYSDK_OFFSET(0x1DD3E650)
-#define PROTO_HELIOBUSCHALLENGELINEUP_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x1DD3E4F0)
-#define PROTO_HELIOBUSCHALLENGELINEUP_GET_SKILLID_OFFSET UNITYSDK_OFFSET(0x1DD3E670)
-#define PROTO_HELIOBUSCHALLENGELINEUP_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1DD3EC70)
-#define PROTO_HELIOBUSCHALLENGELINEUP_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1DD3EC10)
-#define PROTO_HELIOBUSCHALLENGELINEUP_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1DD3E520)
-#define PROTO_HELIOBUSCHALLENGELINEUP_SET_GROUPID_OFFSET UNITYSDK_OFFSET(0x1DD3E660)
-#define PROTO_HELIOBUSCHALLENGELINEUP_SET_SKILLID_OFFSET UNITYSDK_OFFSET(0x1DD3E680)
-#define PROTO_HELIOBUSCHALLENGELINEUP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DD3E910)
-#define PROTO_HELIOBUSCHALLENGELINEUP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DD3E970)
-#define PROTO_HELIOBUSCHALLENGELINEUP__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DD3ED40)
-#define PROTO_HELIOBUSCHALLENGELINEUP__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1DD3E580)
-#define PROTO_HELIOBUSCHALLENGELINEUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD3E530)
+#define PROTO_HELIOBUSCHALLENGELINEUP_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1DFCFCF0)
+#define PROTO_HELIOBUSCHALLENGELINEUP_CLONE_OFFSET UNITYSDK_OFFSET(0x1DFCF860)
+#define PROTO_HELIOBUSCHALLENGELINEUP_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1DFCF960)
+#define PROTO_HELIOBUSCHALLENGELINEUP_EQUALS_OFFSET UNITYSDK_OFFSET(0x1DFCF8E0)
+#define PROTO_HELIOBUSCHALLENGELINEUP_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1DFCFA60)
+#define PROTO_HELIOBUSCHALLENGELINEUP_GET_AVATARIDLIST_OFFSET UNITYSDK_OFFSET(0x1DFCF8D0)
+#define PROTO_HELIOBUSCHALLENGELINEUP_GET_GROUPID_OFFSET UNITYSDK_OFFSET(0x1DFCF890)
+#define PROTO_HELIOBUSCHALLENGELINEUP_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x1DFCF740)
+#define PROTO_HELIOBUSCHALLENGELINEUP_GET_SKILLID_OFFSET UNITYSDK_OFFSET(0x1DFCF8B0)
+#define PROTO_HELIOBUSCHALLENGELINEUP_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1DFCFEB0)
+#define PROTO_HELIOBUSCHALLENGELINEUP_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1DFCFE50)
+#define PROTO_HELIOBUSCHALLENGELINEUP_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1DFCF770)
+#define PROTO_HELIOBUSCHALLENGELINEUP_SET_GROUPID_OFFSET UNITYSDK_OFFSET(0x1DFCF8A0)
+#define PROTO_HELIOBUSCHALLENGELINEUP_SET_SKILLID_OFFSET UNITYSDK_OFFSET(0x1DFCF8C0)
+#define PROTO_HELIOBUSCHALLENGELINEUP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DFCFB60)
+#define PROTO_HELIOBUSCHALLENGELINEUP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DFCFBC0)
+#define PROTO_HELIOBUSCHALLENGELINEUP__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DFCFF80)
+#define PROTO_HELIOBUSCHALLENGELINEUP__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1DFCF7D0)
+#define PROTO_HELIOBUSCHALLENGELINEUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1DFCF780)
 
 namespace Proto
 {
-	inline static constexpr unsigned int HeliobusChallengeLineup_TypeDefinitionIndex = 29244;
+	inline static constexpr unsigned int HeliobusChallengeLineup_TypeDefinitionIndex = 29769;
 
 	class HeliobusChallengeLineup : public ::System::Object
 	{
 	public:
-		static ::Google::Protobuf::MessageParser_1<::Proto::HeliobusChallengeLineup*>** StaticGet__parser()
-		{
-			return (::Google::Protobuf::MessageParser_1<::Proto::HeliobusChallengeLineup*>**)Il2CppClass::FromTypeDefinitionIndex(HeliobusChallengeLineup_TypeDefinitionIndex)->GetStaticField(0x254C0);
-		}
 		static ::Google::Protobuf::FieldCodec_1<::System::UInt32>** StaticGet__repeated_avatarIdList_codec()
 		{
-			return (::Google::Protobuf::FieldCodec_1<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(HeliobusChallengeLineup_TypeDefinitionIndex)->GetStaticField(0x254C8);
+			return (::Google::Protobuf::FieldCodec_1<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(HeliobusChallengeLineup_TypeDefinitionIndex)->GetStaticField(0x4C130);
 		}
-		// static const ::System::Int32 AvatarIdListFieldNumber = 0x2; // 0x0
-		// static const ::System::Int32 GroupIdFieldNumber = 0x8; // 0x0
-		// static const ::System::Int32 SkillIdFieldNumber = 0xF; // 0x0
-		::Google::Protobuf::UnknownFieldSet* _unknownFields; // 0x10
-		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* avatarIdList_; // 0x18
-		::System::UInt32 skillId_; // 0x20
-		::System::UInt32 groupId_; // 0x24
+		static ::Google::Protobuf::MessageParser_1<::Proto::HeliobusChallengeLineup*>** StaticGet__parser()
+		{
+			return (::Google::Protobuf::MessageParser_1<::Proto::HeliobusChallengeLineup*>**)Il2CppClass::FromTypeDefinitionIndex(HeliobusChallengeLineup_TypeDefinitionIndex)->GetStaticField(0x4C138);
+		}
+		// static const ::System::Int32 GroupIdFieldNumber = 0x5; // 0x0
+		// static const ::System::Int32 SkillIdFieldNumber = 0x3; // 0x0
+		// static const ::System::Int32 AvatarIdListFieldNumber = 0xE; // 0x0
+		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* avatarIdList_; // 0x10
+		::Google::Protobuf::UnknownFieldSet* _unknownFields; // 0x18
+		::System::UInt32 groupId_; // 0x20
+		::System::UInt32 skillId_; // 0x24
 
 		::System::Void _ctor()
 		{
@@ -84,11 +84,6 @@ namespace Proto
 			return ((::Proto::HeliobusChallengeLineup*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_HELIOBUSCHALLENGELINEUP_CLONE_OFFSET))(this);
 		}
 
-		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* get_AvatarIdList()
-		{
-			return ((::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_HELIOBUSCHALLENGELINEUP_GET_AVATARIDLIST_OFFSET))(this);
-		}
-
 		::System::UInt32 get_GroupId()
 		{
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_HELIOBUSCHALLENGELINEUP_GET_GROUPID_OFFSET))(this);
@@ -107,6 +102,11 @@ namespace Proto
 		::System::Void set_SkillId(::System::UInt32 a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_HELIOBUSCHALLENGELINEUP_SET_SKILLID_OFFSET))(this, a1);
+		}
+
+		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* get_AvatarIdList()
+		{
+			return ((::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_HELIOBUSCHALLENGELINEUP_GET_AVATARIDLIST_OFFSET))(this);
 		}
 
 		::System::Boolean Equals(::System::Object* a1)

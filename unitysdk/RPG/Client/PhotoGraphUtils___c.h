@@ -4,24 +4,24 @@
 
 namespace System { class Action; }
 
-#define RPG_CLIENT_PHOTOGRAPHUTILS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C81FF50)
-#define RPG_CLIENT_PHOTOGRAPHUTILS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1C81FF90)
-#define RPG_CLIENT_PHOTOGRAPHUTILS___C__TRIGGERIDLESHOW_B__35_0_OFFSET UNITYSDK_OFFSET(0x1C81FFA0)
+#define RPG_CLIENT_PHOTOGRAPHUTILS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xDB193B0)
+#define RPG_CLIENT_PHOTOGRAPHUTILS___C__CTOR_OFFSET UNITYSDK_OFFSET(0xDB193F0)
+#define RPG_CLIENT_PHOTOGRAPHUTILS___C__TRIGGERIDLESHOW_B__34_0_OFFSET UNITYSDK_OFFSET(0xDB19400)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PhotoGraphUtils___c_TypeDefinitionIndex = 69428;
+	inline static constexpr unsigned int PhotoGraphUtils___c_TypeDefinitionIndex = 69464;
 
 	class PhotoGraphUtils___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__35_0()
+		static ::System::Action** StaticGet___9__34_0()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(PhotoGraphUtils___c_TypeDefinitionIndex)->GetStaticField(0x5B760);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(PhotoGraphUtils___c_TypeDefinitionIndex)->GetStaticField(0x1A580);
 		}
 		static ::RPG::Client::PhotoGraphUtils___c** StaticGet___9()
 		{
-			return (::RPG::Client::PhotoGraphUtils___c**)Il2CppClass::FromTypeDefinitionIndex(PhotoGraphUtils___c_TypeDefinitionIndex)->GetStaticField(0x5B768);
+			return (::RPG::Client::PhotoGraphUtils___c**)Il2CppClass::FromTypeDefinitionIndex(PhotoGraphUtils___c_TypeDefinitionIndex)->GetStaticField(0x1A588);
 		}
 
 		static ::System::Void _cctor()
@@ -34,9 +34,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHOTOGRAPHUTILS___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _TriggerIdleShow_b__35_0()
+		::System::Void _TriggerIdleShow_b__34_0()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHOTOGRAPHUTILS___C__TRIGGERIDLESHOW_B__35_0_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHOTOGRAPHUTILS___C__TRIGGERIDLESHOW_B__34_0_OFFSET))(this);
 		}
 	};
 }

@@ -14,29 +14,29 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_BASEPHASECONTEXT_ADDCOMPONENT_OFFSET UNITYSDK_OFFSET(0x19F1A040)
-#define RPG_CLIENT_BASEPHASECONTEXT_CLEARNOTIFYHANDLER_OFFSET UNITYSDK_OFFSET(0x19F1A320)
-#define RPG_CLIENT_BASEPHASECONTEXT_DISPOSE_OFFSET UNITYSDK_OFFSET(0x19F1A580)
-#define RPG_CLIENT_BASEPHASECONTEXT_FOREACHCOMPONENT_OFFSET UNITYSDK_OFFSET(0x19F19EF0)
-#define RPG_CLIENT_BASEPHASECONTEXT_INIT_OFFSET UNITYSDK_OFFSET(0x19F19D50)
-#define RPG_CLIENT_BASEPHASECONTEXT_ONDISPOSE_OFFSET UNITYSDK_OFFSET(0x19F1A9B0)
-#define RPG_CLIENT_BASEPHASECONTEXT_ONINIT_OFFSET UNITYSDK_OFFSET(0x19F1A000)
-#define RPG_CLIENT_BASEPHASECONTEXT_ONTICK_OFFSET UNITYSDK_OFFSET(0x19F1A950)
-#define RPG_CLIENT_BASEPHASECONTEXT_TICK_OFFSET UNITYSDK_OFFSET(0x19F1A7B0)
-#define RPG_CLIENT_BASEPHASECONTEXT__ADDNOTIFYHANDLER_OFFSET UNITYSDK_OFFSET(0x19F1A220)
-#define RPG_CLIENT_BASEPHASECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x19F19B60)
+#define RPG_CLIENT_BASEPHASECONTEXT_ADDCOMPONENT_OFFSET UNITYSDK_OFFSET(0xC7E9DA0)
+#define RPG_CLIENT_BASEPHASECONTEXT_CLEARNOTIFYHANDLER_OFFSET UNITYSDK_OFFSET(0xC7EA080)
+#define RPG_CLIENT_BASEPHASECONTEXT_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC7EA2F0)
+#define RPG_CLIENT_BASEPHASECONTEXT_FOREACHCOMPONENT_OFFSET UNITYSDK_OFFSET(0xC7E9C50)
+#define RPG_CLIENT_BASEPHASECONTEXT_INIT_OFFSET UNITYSDK_OFFSET(0xC7E9AB0)
+#define RPG_CLIENT_BASEPHASECONTEXT_ONDISPOSE_OFFSET UNITYSDK_OFFSET(0xC7EA720)
+#define RPG_CLIENT_BASEPHASECONTEXT_ONINIT_OFFSET UNITYSDK_OFFSET(0xC7E9D60)
+#define RPG_CLIENT_BASEPHASECONTEXT_ONTICK_OFFSET UNITYSDK_OFFSET(0xC7EA6C0)
+#define RPG_CLIENT_BASEPHASECONTEXT_TICK_OFFSET UNITYSDK_OFFSET(0xC7EA520)
+#define RPG_CLIENT_BASEPHASECONTEXT__ADDNOTIFYHANDLER_OFFSET UNITYSDK_OFFSET(0xC7E9F80)
+#define RPG_CLIENT_BASEPHASECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xC7E98C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BasePhaseContext_TypeDefinitionIndex = 61208;
+	inline static constexpr unsigned int BasePhaseContext_TypeDefinitionIndex = 61113;
 
 	class BasePhaseContext : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::Class_1_C0259C461ECB54D1*>* componentDict; // 0x10
-		::System::Collections::Generic::List_1<::Class_1_C0259C461ECB54D1*>* components; // 0x18
-		::System::Collections::Generic::HashSet_1<::System::Tuple_2<::RPG::Client::NotifyType, ::RPG::Client::NotifyHandler*>*>* normalHandlers; // 0x20
-		::RPG::Client::GamePhaseManager* Manager; // 0x28
+		::System::Collections::Generic::List_1<::Class_1_C0259C461ECB54D1*>* components; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::Class_1_C0259C461ECB54D1*>* componentDict; // 0x18
+		::RPG::Client::GamePhaseManager* Manager; // 0x20
+		::System::Collections::Generic::HashSet_1<::System::Tuple_2<::RPG::Client::NotifyType, ::RPG::Client::NotifyHandler*>*>* normalHandlers; // 0x28
 		::System::Collections::Generic::HashSet_1<::System::Tuple_2<::System::UInt16, ::RPG::Client::RspHandler*>*>* packetHandlers; // 0x30
 		::System::Boolean isInit; // 0x38
 

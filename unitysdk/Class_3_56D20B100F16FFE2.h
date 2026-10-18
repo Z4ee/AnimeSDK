@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class RefreshMunicipalPedestrian; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_56D20B100F16FFE2_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18CEC2B0)
-#define CLASS_3_56D20B100F16FFE2__CTOR_OFFSET UNITYSDK_OFFSET(0x18CEC280)
+#define CLASS_3_56D20B100F16FFE2_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE255290)
+#define CLASS_3_56D20B100F16FFE2__CTOR_OFFSET UNITYSDK_OFFSET(0xE255260)
 
-inline static constexpr unsigned int Class_3_56D20B100F16FFE2_TypeDefinitionIndex = 58526;
+inline static constexpr unsigned int Class_3_56D20B100F16FFE2_TypeDefinitionIndex = 58377;
 
 class Class_3_56D20B100F16FFE2 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::RefreshMunicipalPedestrian*>
 {

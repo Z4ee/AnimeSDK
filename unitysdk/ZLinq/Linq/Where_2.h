@@ -6,7 +6,7 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace ZLinq::Linq
 {
-	inline static constexpr unsigned int Where_2_TypeDefinitionIndex = 6134;
+	inline static constexpr unsigned int Where_2_TypeDefinitionIndex = 6143;
 
 	template <typename TEnumerator, typename TSource>
 	struct Where_2

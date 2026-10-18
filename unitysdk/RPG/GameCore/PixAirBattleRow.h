@@ -5,20 +5,20 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_PIXAIRBATTLEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D78FFD0)
-#define RPG_GAMECORE_PIXAIRBATTLEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D790250)
+#define RPG_GAMECORE_PIXAIRBATTLEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D8EB750)
+#define RPG_GAMECORE_PIXAIRBATTLEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D8EB9D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PixAirBattleRow_TypeDefinitionIndex = 12062;
+	inline static constexpr unsigned int PixAirBattleRow_TypeDefinitionIndex = 12143;
 
 	class PixAirBattleRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* EnemyIDList; // 0x10
 		::RPG::GameCore::FixPoint EnemyHealthPercentage; // 0x18
-		::System::UInt32 ContentID; // 0x20
-		::System::UInt32 EnemyShow; // 0x24
+		::System::UInt32 EnemyShow; // 0x20
+		::System::UInt32 ContentID; // 0x24
 		::RPG::GameCore::FixPoint PlayerHealthPercentage; // 0x28
 
 		::System::Void _ctor()

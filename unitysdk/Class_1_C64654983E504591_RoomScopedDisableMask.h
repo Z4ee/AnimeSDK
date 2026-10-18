@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Class_1_C64654983E504591_RoomScopedDisableMask_TypeDefinitionIndex = 76241;
+inline static constexpr unsigned int Class_1_C64654983E504591_RoomScopedDisableMask_TypeDefinitionIndex = 76718;
 
 enum class Class_1_C64654983E504591_RoomScopedDisableMask : ::System::Int32
 {

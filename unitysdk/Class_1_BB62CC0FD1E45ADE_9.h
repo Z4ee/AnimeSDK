@@ -4,16 +4,16 @@
 
 namespace System { class String; }
 
-#define CLASS_1_BB62CC0FD1E45ADE_9__CTOR_OFFSET UNITYSDK_OFFSET(0x16EBE700)
+#define CLASS_1_BB62CC0FD1E45ADE_9__CTOR_OFFSET UNITYSDK_OFFSET(0x158D4DA0)
 
-inline static constexpr unsigned int Class_1_BB62CC0FD1E45ADE_9_TypeDefinitionIndex = 58765;
+inline static constexpr unsigned int Class_1_BB62CC0FD1E45ADE_9_TypeDefinitionIndex = 58617;
 
 class Class_1_BB62CC0FD1E45ADE_9 : public ::System::Object
 {
 public:
 	::System::String* NNLJDEBAKHO; // 0x10
-	::System::Boolean BLKJNPHHBED; // 0x18
-	::System::Boolean BKCNAAMGHKJ; // 0x19
+	::System::Boolean BKCNAAMGHKJ; // 0x18
+	::System::Boolean BLKJNPHHBED; // 0x19
 
 	::System::Void _ctor()
 	{

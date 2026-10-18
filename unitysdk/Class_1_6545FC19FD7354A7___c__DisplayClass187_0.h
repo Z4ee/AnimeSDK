@@ -5,16 +5,16 @@
 class Class_1_6545FC19FD7354A7;
 namespace System { class Action; }
 
-#define CLASS_1_6545FC19FD7354A7___C__DISPLAYCLASS187_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18C82370)
-#define CLASS_1_6545FC19FD7354A7___C__DISPLAYCLASS187_0___RELOADINVISIBLERESOURCE_B__0_OFFSET UNITYSDK_OFFSET(0x18C8E000)
+#define CLASS_1_6545FC19FD7354A7___C__DISPLAYCLASS187_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1333BC00)
+#define CLASS_1_6545FC19FD7354A7___C__DISPLAYCLASS187_0___RELOADINVISIBLERESOURCE_B__0_OFFSET UNITYSDK_OFFSET(0x13347760)
 
-inline static constexpr unsigned int Class_1_6545FC19FD7354A7___c__DisplayClass187_0_TypeDefinitionIndex = 60822;
+inline static constexpr unsigned int Class_1_6545FC19FD7354A7___c__DisplayClass187_0_TypeDefinitionIndex = 60723;
 
 class Class_1_6545FC19FD7354A7___c__DisplayClass187_0 : public ::System::Object
 {
 public:
-	::System::Action* onAllFinish; // 0x10
-	::Class_1_6545FC19FD7354A7* __4__this; // 0x18
+	::Class_1_6545FC19FD7354A7* __4__this; // 0x10
+	::System::Action* onAllFinish; // 0x18
 
 	::System::Void _ctor()
 	{

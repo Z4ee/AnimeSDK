@@ -7,26 +7,26 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_PARKOURTRIGGEREVENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D415DD0)
-#define RPG_GAMECORE_PARKOURTRIGGEREVENTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D416150)
+#define RPG_GAMECORE_PARKOURTRIGGEREVENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D8C28E0)
+#define RPG_GAMECORE_PARKOURTRIGGEREVENTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D8C2C60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ParkourTriggerEventRow_TypeDefinitionIndex = 12029;
+	inline static constexpr unsigned int ParkourTriggerEventRow_TypeDefinitionIndex = 12110;
 
 	class ParkourTriggerEventRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* LimitLevelID; // 0x10
-		::Il2CppArray<::System::UInt32>* DisplayContentIDList; // 0x18
-		::Il2CppArray<::RPG::GameCore::FixPoint>* Param; // 0x20
-		::System::UInt32 LimitRepeatTimeOverride; // 0x28
-		::RPG::GameCore::EParkourEventEntityType TargetType; // 0x2C
-		::System::UInt32 OriginID; // 0x30
-		::RPG::GameCore::EParkourEventType TriggerEventType; // 0x34
+		::Il2CppArray<::RPG::GameCore::FixPoint>* Param; // 0x18
+		::Il2CppArray<::System::UInt32>* DisplayContentIDList; // 0x20
+		::RPG::GameCore::EParkourEventEntityType TargetType; // 0x28
+		::System::UInt32 TargetID; // 0x2C
+		::RPG::GameCore::EParkourEventType TriggerEventType; // 0x30
+		::System::UInt32 LimitRepeatTimeOverride; // 0x34
 		::System::UInt32 EventID; // 0x38
-		::RPG::GameCore::EParkourEventEntityType OriginType; // 0x3C
-		::System::UInt32 TargetID; // 0x40
+		::System::UInt32 OriginID; // 0x3C
+		::RPG::GameCore::EParkourEventEntityType OriginType; // 0x40
 
 		::System::Void _ctor()
 		{

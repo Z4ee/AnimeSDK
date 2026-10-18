@@ -7,7 +7,7 @@ namespace RPG::Client { class MonsterGuideData; }
 
 namespace RPG::Client::Challenge
 {
-	inline static constexpr unsigned int IChallengeBossEnvironmentHintViewModel_TypeDefinitionIndex = 80105;
+	inline static constexpr unsigned int IChallengeBossEnvironmentHintViewModel_TypeDefinitionIndex = 81433;
 
 	class IChallengeBossEnvironmentHintViewModel
 	{

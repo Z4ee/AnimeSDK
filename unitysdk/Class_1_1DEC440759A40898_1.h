@@ -5,20 +5,20 @@
 
 namespace System { class String; }
 
-#define CLASS_1_1DEC440759A40898_1__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B277160)
+#define CLASS_1_1DEC440759A40898_1__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C65FD50)
 
-inline static constexpr unsigned int Class_1_1DEC440759A40898_1_TypeDefinitionIndex = 36369;
+inline static constexpr unsigned int Class_1_1DEC440759A40898_1_TypeDefinitionIndex = 37054;
 
 class Class_1_1DEC440759A40898_1 : public ::System::Object
 {
 public:
 	static ::Il2CppArray<::System::String*>** StaticGet_MLFGMEBDJLD()
 	{
-		return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_1DEC440759A40898_1_TypeDefinitionIndex)->GetStaticField(0xF770);
+		return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_1DEC440759A40898_1_TypeDefinitionIndex)->GetStaticField(0xAF20);
 	}
 	static ::Il2CppArray<::System::RuntimeTypeHandle>** StaticGet_FJFMMIIMAGL()
 	{
-		return (::Il2CppArray<::System::RuntimeTypeHandle>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_1DEC440759A40898_1_TypeDefinitionIndex)->GetStaticField(0xF778);
+		return (::Il2CppArray<::System::RuntimeTypeHandle>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_1DEC440759A40898_1_TypeDefinitionIndex)->GetStaticField(0xAF28);
 	}
 	// static const ::System::Int32 KFAJCPCHJBF = 0x0; // 0x0
 	// static const ::System::Int32 IDCJNCIOAJK = 0x1; // 0x0

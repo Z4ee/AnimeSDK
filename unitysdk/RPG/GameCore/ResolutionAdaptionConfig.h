@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TeamFormationTemplateSingleConfig; }
 
-#define RPG_GAMECORE_RESOLUTIONADAPTIONCONFIG_METHOD_2_32BB4B7DC074E5C3_OFFSET UNITYSDK_OFFSET(0x1DB95330)
-#define RPG_GAMECORE_RESOLUTIONADAPTIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB954E0)
+#define RPG_GAMECORE_RESOLUTIONADAPTIONCONFIG_METHOD_2_0E3393D98FDBAFD5_OFFSET UNITYSDK_OFFSET(0x1D95F910)
+#define RPG_GAMECORE_RESOLUTIONADAPTIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D95FBC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ResolutionAdaptionConfig_TypeDefinitionIndex = 16943;
+	inline static constexpr unsigned int ResolutionAdaptionConfig_TypeDefinitionIndex = 17138;
 
 	class ResolutionAdaptionConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RESOLUTIONADAPTIONCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_32BB4B7DC074E5C3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ResolutionAdaptionConfig*& a2)
+		static ::System::Void Method_2_0E3393D98FDBAFD5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ResolutionAdaptionConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ResolutionAdaptionConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RESOLUTIONADAPTIONCONFIG_METHOD_2_32BB4B7DC074E5C3_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ResolutionAdaptionConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RESOLUTIONADAPTIONCONFIG_METHOD_2_0E3393D98FDBAFD5_OFFSET))(a1, a2);
 		}
 	};
 }

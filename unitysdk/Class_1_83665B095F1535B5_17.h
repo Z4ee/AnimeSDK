@@ -2,17 +2,25 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_83665B095F1535B5_17__CTOR_OFFSET UNITYSDK_OFFSET(0x1A445ED0)
+#define CLASS_1_83665B095F1535B5_17__CTOR_OFFSET UNITYSDK_OFFSET(0x1C8AF3D0)
 
-inline static constexpr unsigned int Class_1_83665B095F1535B5_17_TypeDefinitionIndex = 53256;
+inline static constexpr unsigned int Class_1_83665B095F1535B5_17_TypeDefinitionIndex = 42919;
 
 class Class_1_83665B095F1535B5_17 : public ::System::Object
 {
 public:
-	::System::Boolean FIFMMCANPIO; // 0x10
-	::System::Boolean IBAMGDKKJFI; // 0x11
-	::System::Boolean ADJOCGJOHHB; // 0x12
-	::System::Boolean EAEOKODMBHD; // 0x13
+	::System::Boolean ABHOBELFLJC; // 0x10
+	::System::Boolean IJACLNBDMEN; // 0x11
+	::System::Boolean JPIJBFIMPKM; // 0x12
+	::System::Boolean CFBHMEKHNBL; // 0x13
+	::System::Boolean INLDKKJGLIG; // 0x14
+	::System::Boolean IEAMLFEGOEG; // 0x15
+	::System::Boolean COIIENEOGAE; // 0x16
+	::System::Boolean PGGKKFDNKKL; // 0x17
+	::System::Boolean AKLBONNKHFK; // 0x18
+	::System::Boolean KDMKIHLMOBN; // 0x19
+	::System::Boolean DABEFMAGJLD; // 0x1A
+	::System::Boolean AIBPPOEIHLD; // 0x1B
 
 	::System::Void _ctor()
 	{

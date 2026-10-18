@@ -11,34 +11,34 @@ namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_PROP_CHIMERADUELFIREBULLETMANAGER_CLASS_1_26BE6DE297B5BB4E_CLEAR_OFFSET UNITYSDK_OFFSET(0x189E5B20)
-#define RPG_CLIENT_PROP_CHIMERADUELFIREBULLETMANAGER_CLASS_1_26BE6DE297B5BB4E_METHOD_1_50896BDA13FD77D3_OFFSET UNITYSDK_OFFSET(0x189E5D70)
-#define RPG_CLIENT_PROP_CHIMERADUELFIREBULLETMANAGER_CLASS_1_26BE6DE297B5BB4E_METHOD_1_B1936CE4DA97AA45_OFFSET UNITYSDK_OFFSET(0x189E6C80)
-#define RPG_CLIENT_PROP_CHIMERADUELFIREBULLETMANAGER_CLASS_1_26BE6DE297B5BB4E_METHOD_1_E52129E82CD2D7F8_OFFSET UNITYSDK_OFFSET(0x189E6E10)
-#define RPG_CLIENT_PROP_CHIMERADUELFIREBULLETMANAGER_CLASS_1_26BE6DE297B5BB4E__CTOR_OFFSET UNITYSDK_OFFSET(0x189E6BB0)
+#define RPG_CLIENT_PROP_CHIMERADUELFIREBULLETMANAGER_CLASS_1_26BE6DE297B5BB4E_CLEAR_OFFSET UNITYSDK_OFFSET(0xDC55320)
+#define RPG_CLIENT_PROP_CHIMERADUELFIREBULLETMANAGER_CLASS_1_26BE6DE297B5BB4E_METHOD_1_50896BDA13FD77D3_OFFSET UNITYSDK_OFFSET(0xDC55570)
+#define RPG_CLIENT_PROP_CHIMERADUELFIREBULLETMANAGER_CLASS_1_26BE6DE297B5BB4E_METHOD_1_B1936CE4DA97AA45_OFFSET UNITYSDK_OFFSET(0xDC56480)
+#define RPG_CLIENT_PROP_CHIMERADUELFIREBULLETMANAGER_CLASS_1_26BE6DE297B5BB4E_METHOD_1_E52129E82CD2D7F8_OFFSET UNITYSDK_OFFSET(0xDC56610)
+#define RPG_CLIENT_PROP_CHIMERADUELFIREBULLETMANAGER_CLASS_1_26BE6DE297B5BB4E__CTOR_OFFSET UNITYSDK_OFFSET(0xDC563B0)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraDuelFireBulletManager_Class_1_26BE6DE297B5BB4E_TypeDefinitionIndex = 77828;
+	inline static constexpr unsigned int ChimeraDuelFireBulletManager_Class_1_26BE6DE297B5BB4E_TypeDefinitionIndex = 78299;
 
 	class ChimeraDuelFireBulletManager_Class_1_26BE6DE297B5BB4E : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::ChimeraDuelFireBulletNode* JKLBAAHFJDJ; // 0x10
+		::UnityEngine::AnimationCurve* EKBEMMMNOFI; // 0x10
 		::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelAnimatorView* LBLGJLNJMDL; // 0x18
-		::UnityEngine::Transform* ONLEMJPMBDH; // 0x20
-		::RPG::Client::Prop::ChimeraDuelModelVfxPlayer* AHDAHAAGNCL; // 0x28
-		::UnityEngine::AnimationCurve* NPFCIFDPHPP; // 0x30
-		::UnityEngine::Transform* GLDEBFOKEMJ; // 0x38
-		::UnityEngine::AnimationCurve* EKBEMMMNOFI; // 0x40
-		::System::Action_1<::System::Int32>* EGMGFMKIOHL; // 0x48
-		::RPG::Client::LittleGame::ChimeraDuel::DuelChimeraBattleView* MMAHLODIDCB; // 0x50
-		::UnityEngine::Transform* DEIMGIGLHLK; // 0x58
-		::System::Single LLNIGIGFCEA; // 0x60
-		::System::Boolean BNBMIBGDDNE; // 0x64
-		::System::Boolean MABFMALCGKF; // 0x65
-		::System::Boolean HCPFCJBJLHG; // 0x66
-		::UnityEngine::Quaternion PACGNNNBPEI; // 0x68
+		::RPG::Client::Prop::ChimeraDuelModelVfxPlayer* AHDAHAAGNCL; // 0x20
+		::System::Action_1<::System::Int32>* EGMGFMKIOHL; // 0x28
+		::UnityEngine::Transform* ONLEMJPMBDH; // 0x30
+		::UnityEngine::AnimationCurve* NPFCIFDPHPP; // 0x38
+		::RPG::GameCore::ChimeraDuelFireBulletNode* JKLBAAHFJDJ; // 0x40
+		::RPG::Client::LittleGame::ChimeraDuel::DuelChimeraBattleView* MMAHLODIDCB; // 0x48
+		::UnityEngine::Transform* DEIMGIGLHLK; // 0x50
+		::UnityEngine::Transform* GLDEBFOKEMJ; // 0x58
+		::UnityEngine::Quaternion PACGNNNBPEI; // 0x60
+		::System::Single LLNIGIGFCEA; // 0x70
+		::System::Boolean HCPFCJBJLHG; // 0x74
+		::System::Boolean MABFMALCGKF; // 0x75
+		::System::Boolean BNBMIBGDDNE; // 0x76
 		::System::Int32 CGDICMBIBPP; // 0x78
 		::System::Single KKPEIMJKION; // 0x7C
 

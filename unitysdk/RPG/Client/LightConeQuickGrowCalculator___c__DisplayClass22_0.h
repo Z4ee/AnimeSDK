@@ -5,21 +5,21 @@
 class Class_1_E0B808936AD386AC;
 namespace RPG::Client { class LightConeQuickGrowCalculator; }
 
-#define RPG_CLIENT_LIGHTCONEQUICKGROWCALCULATOR___C__DISPLAYCLASS22_0__CTOR_OFFSET UNITYSDK_OFFSET(0x194FEE30)
-#define RPG_CLIENT_LIGHTCONEQUICKGROWCALCULATOR___C__DISPLAYCLASS22_0___FILLREQCOSTLISTS_B__0_OFFSET UNITYSDK_OFFSET(0x19500F40)
-#define RPG_CLIENT_LIGHTCONEQUICKGROWCALCULATOR___C__DISPLAYCLASS22_0___FILLREQCOSTLISTS_B__1_OFFSET UNITYSDK_OFFSET(0x19500FB0)
+#define RPG_CLIENT_LIGHTCONEQUICKGROWCALCULATOR___C__DISPLAYCLASS22_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD38F450)
+#define RPG_CLIENT_LIGHTCONEQUICKGROWCALCULATOR___C__DISPLAYCLASS22_0___FILLREQCOSTLISTS_B__0_OFFSET UNITYSDK_OFFSET(0xD3915E0)
+#define RPG_CLIENT_LIGHTCONEQUICKGROWCALCULATOR___C__DISPLAYCLASS22_0___FILLREQCOSTLISTS_B__1_OFFSET UNITYSDK_OFFSET(0xD391650)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LightConeQuickGrowCalculator___c__DisplayClass22_0_TypeDefinitionIndex = 65788;
+	inline static constexpr unsigned int LightConeQuickGrowCalculator___c__DisplayClass22_0_TypeDefinitionIndex = 65724;
 
 	class LightConeQuickGrowCalculator___c__DisplayClass22_0 : public ::System::Object
 	{
 	public:
-		::Class_1_E0B808936AD386AC* actualTotal; // 0x10
-		::Class_1_E0B808936AD386AC* actualPromotion; // 0x18
-		::RPG::Client::LightConeQuickGrowCalculator* __4__this; // 0x20
-		::Class_1_E0B808936AD386AC* nonPileCosts; // 0x28
+		::RPG::Client::LightConeQuickGrowCalculator* __4__this; // 0x10
+		::Class_1_E0B808936AD386AC* actualTotal; // 0x18
+		::Class_1_E0B808936AD386AC* nonPileCosts; // 0x20
+		::Class_1_E0B808936AD386AC* actualPromotion; // 0x28
 
 		::System::Void _ctor()
 		{

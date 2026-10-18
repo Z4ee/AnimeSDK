@@ -7,7 +7,7 @@ namespace RPG::Client { template <typename T> class BattleReturnReusablePanelVis
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BattleReturnReusablePanelVisitor_1_TypeDefinitionIndex = 72228;
+	inline static constexpr unsigned int BattleReturnReusablePanelVisitor_1_TypeDefinitionIndex = 72301;
 
 	template <typename T>
 	class BattleReturnReusablePanelVisitor_1 : public ::System::Object

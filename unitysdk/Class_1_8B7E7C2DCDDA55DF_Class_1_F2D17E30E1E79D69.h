@@ -4,9 +4,9 @@
 
 namespace RPG::Client::LittleGame::FourRotateVoxel { class FourRotateVoxelStructGameView; }
 
-#define CLASS_1_8B7E7C2DCDDA55DF_CLASS_1_F2D17E30E1E79D69__CTOR_OFFSET UNITYSDK_OFFSET(0x1596DB40)
+#define CLASS_1_8B7E7C2DCDDA55DF_CLASS_1_F2D17E30E1E79D69__CTOR_OFFSET UNITYSDK_OFFSET(0x16595A70)
 
-inline static constexpr unsigned int Class_1_8B7E7C2DCDDA55DF_Class_1_F2D17E30E1E79D69_TypeDefinitionIndex = 76341;
+inline static constexpr unsigned int Class_1_8B7E7C2DCDDA55DF_Class_1_F2D17E30E1E79D69_TypeDefinitionIndex = 76818;
 
 class Class_1_8B7E7C2DCDDA55DF_Class_1_F2D17E30E1E79D69 : public ::System::Object
 {

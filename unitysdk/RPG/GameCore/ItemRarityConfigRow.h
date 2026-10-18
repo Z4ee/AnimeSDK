@@ -6,23 +6,23 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ITEMRARITYCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D230AA0)
-#define RPG_GAMECORE_ITEMRARITYCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D231210)
+#define RPG_GAMECORE_ITEMRARITYCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D76D780)
+#define RPG_GAMECORE_ITEMRARITYCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D76DEF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ItemRarityConfigRow_TypeDefinitionIndex = 13750;
+	inline static constexpr unsigned int ItemRarityConfigRow_TypeDefinitionIndex = 13857;
 
 	class ItemRarityConfigRow : public ::System::Object
 	{
 	public:
-		::System::String* ItemShowBgPath; // 0x10
-		::System::String* ItemRarityStarImgPath; // 0x18
-		::System::String* FrameItemRarityBgPath; // 0x20
-		::System::String* FrameItemRarityColor; // 0x28
-		::System::String* LineItemRarityColor; // 0x30
-		::System::String* FrameIconRarityPath; // 0x38
-		::System::String* FrameItemRarityPath; // 0x40
+		::System::String* FrameItemRarityPath; // 0x10
+		::System::String* FrameItemRarityBgPath; // 0x18
+		::System::String* FrameIconRarityPath; // 0x20
+		::System::String* ItemShowBgPath; // 0x28
+		::System::String* ItemRarityStarImgPath; // 0x30
+		::System::String* FrameItemRarityColor; // 0x38
+		::System::String* LineItemRarityColor; // 0x40
 		::System::String* AvatarShowBgPath; // 0x48
 		::RPG::GameCore::ItemRarity Rarity; // 0x50
 

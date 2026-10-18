@@ -7,29 +7,29 @@ namespace RPG::Client::Promises { class IPromise; }
 namespace System { template <typename T1, typename T2> class Converter_2; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_EARLYACCESSCONTENT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A69A2F0)
-#define RPG_CLIENT_EARLYACCESSCONTENT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A69A320)
-#define RPG_CLIENT_EARLYACCESSCONTENT___C__GETALLFLOORIDS_B__23_0_OFFSET UNITYSDK_OFFSET(0x1A69A330)
-#define RPG_CLIENT_EARLYACCESSCONTENT___C___PREPAREFLOORDATA_B__36_0_OFFSET UNITYSDK_OFFSET(0x1A69A390)
+#define RPG_CLIENT_EARLYACCESSCONTENT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xCD01580)
+#define RPG_CLIENT_EARLYACCESSCONTENT___C__CTOR_OFFSET UNITYSDK_OFFSET(0xCD015B0)
+#define RPG_CLIENT_EARLYACCESSCONTENT___C__GETALLFLOORIDS_B__25_0_OFFSET UNITYSDK_OFFSET(0xCD015C0)
+#define RPG_CLIENT_EARLYACCESSCONTENT___C___PREPAREFLOORDATA_B__38_0_OFFSET UNITYSDK_OFFSET(0xCD01620)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EarlyAccessContent___c_TypeDefinitionIndex = 63704;
+	inline static constexpr unsigned int EarlyAccessContent___c_TypeDefinitionIndex = 63642;
 
 	class EarlyAccessContent___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::Class_1_F730B69FCB9EE042*, ::RPG::Client::Promises::IPromise*>** StaticGet___9__36_0()
+		static ::System::Converter_2<::Class_1_F730B69FCB9EE042*, ::System::UInt32>** StaticGet___9__25_0()
 		{
-			return (::System::Func_2<::Class_1_F730B69FCB9EE042*, ::RPG::Client::Promises::IPromise*>**)Il2CppClass::FromTypeDefinitionIndex(EarlyAccessContent___c_TypeDefinitionIndex)->GetStaticField(0x5F410);
-		}
-		static ::System::Converter_2<::Class_1_F730B69FCB9EE042*, ::System::UInt32>** StaticGet___9__23_0()
-		{
-			return (::System::Converter_2<::Class_1_F730B69FCB9EE042*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(EarlyAccessContent___c_TypeDefinitionIndex)->GetStaticField(0x5F418);
+			return (::System::Converter_2<::Class_1_F730B69FCB9EE042*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(EarlyAccessContent___c_TypeDefinitionIndex)->GetStaticField(0x2EB60);
 		}
 		static ::RPG::Client::EarlyAccessContent___c** StaticGet___9()
 		{
-			return (::RPG::Client::EarlyAccessContent___c**)Il2CppClass::FromTypeDefinitionIndex(EarlyAccessContent___c_TypeDefinitionIndex)->GetStaticField(0x5F420);
+			return (::RPG::Client::EarlyAccessContent___c**)Il2CppClass::FromTypeDefinitionIndex(EarlyAccessContent___c_TypeDefinitionIndex)->GetStaticField(0x2EB68);
+		}
+		static ::System::Func_2<::Class_1_F730B69FCB9EE042*, ::RPG::Client::Promises::IPromise*>** StaticGet___9__38_0()
+		{
+			return (::System::Func_2<::Class_1_F730B69FCB9EE042*, ::RPG::Client::Promises::IPromise*>**)Il2CppClass::FromTypeDefinitionIndex(EarlyAccessContent___c_TypeDefinitionIndex)->GetStaticField(0x2EB70);
 		}
 
 		static ::System::Void _cctor()
@@ -42,14 +42,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EARLYACCESSCONTENT___C__CTOR_OFFSET))(this);
 		}
 
-		::System::UInt32 _GetAllFloorIDs_b__23_0(::Class_1_F730B69FCB9EE042* a1)
+		::System::UInt32 _GetAllFloorIDs_b__25_0(::Class_1_F730B69FCB9EE042* a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::Class_1_F730B69FCB9EE042*))((::PBYTE)hIl2Cpp + RPG_CLIENT_EARLYACCESSCONTENT___C__GETALLFLOORIDS_B__23_0_OFFSET))(this, a1);
+			return ((::System::UInt32(*)(::PVOID, ::Class_1_F730B69FCB9EE042*))((::PBYTE)hIl2Cpp + RPG_CLIENT_EARLYACCESSCONTENT___C__GETALLFLOORIDS_B__25_0_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::Promises::IPromise* __PrepareFloorData_b__36_0(::Class_1_F730B69FCB9EE042* a1)
+		::RPG::Client::Promises::IPromise* __PrepareFloorData_b__38_0(::Class_1_F730B69FCB9EE042* a1)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::Class_1_F730B69FCB9EE042*))((::PBYTE)hIl2Cpp + RPG_CLIENT_EARLYACCESSCONTENT___C___PREPAREFLOORDATA_B__36_0_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::Class_1_F730B69FCB9EE042*))((::PBYTE)hIl2Cpp + RPG_CLIENT_EARLYACCESSCONTENT___C___PREPAREFLOORDATA_B__38_0_OFFSET))(this, a1);
 		}
 	};
 }

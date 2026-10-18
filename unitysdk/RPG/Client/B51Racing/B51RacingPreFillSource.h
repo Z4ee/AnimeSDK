@@ -3,7 +3,7 @@
 
 namespace RPG::Client::B51Racing
 {
-	inline static constexpr unsigned int B51RacingPreFillSource_TypeDefinitionIndex = 80691;
+	inline static constexpr unsigned int B51RacingPreFillSource_TypeDefinitionIndex = 82019;
 
 	enum class B51RacingPreFillSource : ::System::Int32
 	{

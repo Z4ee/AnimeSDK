@@ -7,11 +7,11 @@
 class Class_1_671780733A8844ED;
 namespace System { class String; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_AFFIXUIDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9008C0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_AFFIXUIDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xC448890)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int AffixUiData_TypeDefinitionIndex = 75110;
+	inline static constexpr unsigned int AffixUiData_TypeDefinitionIndex = 75410;
 
 	class AffixUiData : public ::System::Object
 	{

@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_1397;
+class Class_0_16E4307DCC419505_1600;
 namespace RPG::Client { class ItemDisplayData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_115E551636659526___C__DISPLAYCLASS53_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19901400)
-#define CLASS_1_115E551636659526___C__DISPLAYCLASS53_0___CTOR_B__1_OFFSET UNITYSDK_OFFSET(0x19901DB0)
+#define CLASS_1_115E551636659526___C__DISPLAYCLASS53_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC267EB0)
+#define CLASS_1_115E551636659526___C__DISPLAYCLASS53_0___CTOR_B__1_OFFSET UNITYSDK_OFFSET(0xC268860)
 
-inline static constexpr unsigned int Class_1_115E551636659526___c__DisplayClass53_0_TypeDefinitionIndex = 80285;
+inline static constexpr unsigned int Class_1_115E551636659526___c__DisplayClass53_0_TypeDefinitionIndex = 81613;
 
 class Class_1_115E551636659526___c__DisplayClass53_0 : public ::System::Object
 {
 public:
-	::Class_0_16E4307DCC419505_1397* windowService; // 0x10
+	::Class_0_16E4307DCC419505_1600* windowService; // 0x10
 	::System::Collections::Generic::List_1<::RPG::Client::ItemDisplayData*>* rewardItems; // 0x18
 
 	::System::Void _ctor()

@@ -5,7 +5,7 @@
 namespace UnityEngine::Events { template <typename T> class UnityAction_1; }
 namespace UnityEngine::Events { template <typename T> class UnityEvent_1; }
 
-inline static constexpr unsigned int Class_1_732931E6BE289922___c__DisplayClass1_0_1_TypeDefinitionIndex = 50316;
+inline static constexpr unsigned int Class_1_732931E6BE289922___c__DisplayClass1_0_1_TypeDefinitionIndex = 49990;
 
 template <typename T>
 class Class_1_732931E6BE289922___c__DisplayClass1_0_1 : public ::System::Object

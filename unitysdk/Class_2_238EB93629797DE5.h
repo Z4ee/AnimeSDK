@@ -7,23 +7,23 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 template <typename T1, typename T2> class Class_1_534AF681CC2BD5FD_1;
 
-#define CLASS_2_238EB93629797DE5_CREATENATIVEDICTIONARY_OFFSET UNITYSDK_OFFSET(0x1CECC180)
-#define CLASS_2_238EB93629797DE5_READROW_OFFSET UNITYSDK_OFFSET(0x1CECC1E0)
-#define CLASS_2_238EB93629797DE5__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CECC240)
-#define CLASS_2_238EB93629797DE5__CTOR_OFFSET UNITYSDK_OFFSET(0x1CECC130)
+#define CLASS_2_238EB93629797DE5_CREATENATIVEDICTIONARY_OFFSET UNITYSDK_OFFSET(0x1D23C4B0)
+#define CLASS_2_238EB93629797DE5_READROW_OFFSET UNITYSDK_OFFSET(0x1D23C510)
+#define CLASS_2_238EB93629797DE5__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D23C570)
+#define CLASS_2_238EB93629797DE5__CTOR_OFFSET UNITYSDK_OFFSET(0x1D23C460)
 
-inline static constexpr unsigned int Class_2_238EB93629797DE5_TypeDefinitionIndex = 10814;
+inline static constexpr unsigned int Class_2_238EB93629797DE5_TypeDefinitionIndex = 10830;
 
 class Class_2_238EB93629797DE5 : public ::RPG::GameCore::BaseConfigHeader_1<::System::Int32>
 {
 public:
 	static ::Class_1_534AF681CC2BD5FD_1<::System::Int32, ::RPG::GameCore::BaseConfigHeader_1_NativeRowInfo<::System::Int32>>** StaticGet_LLFPDGEEGCD()
 	{
-		return (::Class_1_534AF681CC2BD5FD_1<::System::Int32, ::RPG::GameCore::BaseConfigHeader_1_NativeRowInfo<::System::Int32>>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_238EB93629797DE5_TypeDefinitionIndex)->GetStaticField(0x2F10);
+		return (::Class_1_534AF681CC2BD5FD_1<::System::Int32, ::RPG::GameCore::BaseConfigHeader_1_NativeRowInfo<::System::Int32>>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_238EB93629797DE5_TypeDefinitionIndex)->GetStaticField(0x14940);
 	}
 	static ::Class_2_238EB93629797DE5** StaticGet_OBNANPFLCOO()
 	{
-		return (::Class_2_238EB93629797DE5**)Il2CppClass::FromTypeDefinitionIndex(Class_2_238EB93629797DE5_TypeDefinitionIndex)->GetStaticField(0x2F18);
+		return (::Class_2_238EB93629797DE5**)Il2CppClass::FromTypeDefinitionIndex(Class_2_238EB93629797DE5_TypeDefinitionIndex)->GetStaticField(0x14948);
 	}
 
 	::System::Void _ctor(::System::String* a1)

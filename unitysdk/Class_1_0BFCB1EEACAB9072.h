@@ -13,17 +13,17 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_0BFCB1EEACAB9072_METHOD_1_5A095F0618903421_OFFSET UNITYSDK_OFFSET(0x19FDA700)
-#define CLASS_1_0BFCB1EEACAB9072_METHOD_1_6475A02AD37A8BE6_OFFSET UNITYSDK_OFFSET(0x19FD9F20)
-#define CLASS_1_0BFCB1EEACAB9072__CTOR_OFFSET UNITYSDK_OFFSET(0x19FD9E70)
+#define CLASS_1_0BFCB1EEACAB9072_METHOD_1_5A095F0618903421_OFFSET UNITYSDK_OFFSET(0x155829B0)
+#define CLASS_1_0BFCB1EEACAB9072_METHOD_1_6475A02AD37A8BE6_OFFSET UNITYSDK_OFFSET(0x155821D0)
+#define CLASS_1_0BFCB1EEACAB9072__CTOR_OFFSET UNITYSDK_OFFSET(0x15582120)
 
-inline static constexpr unsigned int Class_1_0BFCB1EEACAB9072_TypeDefinitionIndex = 79780;
+inline static constexpr unsigned int Class_1_0BFCB1EEACAB9072_TypeDefinitionIndex = 81104;
 
 class Class_1_0BFCB1EEACAB9072 : public ::System::Object
 {
 public:
-	::Class_1_32498A3DD9CD63CE* JJANKLBLJBG; // 0x10
-	::Class_1_AD02BB4198B22C6F* IDHHCHBHALO; // 0x18
+	::Class_1_AD02BB4198B22C6F* IDHHCHBHALO; // 0x10
+	::Class_1_32498A3DD9CD63CE* JJANKLBLJBG; // 0x18
 
 	::System::Void _ctor(::Class_1_AD02BB4198B22C6F* a1, ::Class_1_32498A3DD9CD63CE* a2)
 	{

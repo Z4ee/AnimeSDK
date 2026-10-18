@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_LAUNCHDEFINE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A627CE0)
+#define MIHOYO_SDK_LAUNCHDEFINE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE6BED0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int LaunchDefine_TypeDefinitionIndex = 7530;
+	inline static constexpr unsigned int LaunchDefine_TypeDefinitionIndex = 7584;
 
 	class LaunchDefine : public ::System::Object
 	{

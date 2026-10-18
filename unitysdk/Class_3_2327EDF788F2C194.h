@@ -7,19 +7,19 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define CLASS_3_2327EDF788F2C194_METHOD_3_400CD15A8456AED9_OFFSET UNITYSDK_OFFSET(0x1D3440A0)
-#define CLASS_3_2327EDF788F2C194_METHOD_3_7F22A781A9156478_OFFSET UNITYSDK_OFFSET(0x1D3440E0)
-#define CLASS_3_2327EDF788F2C194__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3440D0)
+#define CLASS_3_2327EDF788F2C194_METHOD_3_400CD15A8456AED9_OFFSET UNITYSDK_OFFSET(0x1CD8EB60)
+#define CLASS_3_2327EDF788F2C194_METHOD_3_7F22A781A9156478_OFFSET UNITYSDK_OFFSET(0x1CD8EBA0)
+#define CLASS_3_2327EDF788F2C194__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD8EB90)
 
-inline static constexpr unsigned int Class_3_2327EDF788F2C194_TypeDefinitionIndex = 22584;
+inline static constexpr unsigned int Class_3_2327EDF788F2C194_TypeDefinitionIndex = 22840;
 
 class Class_3_2327EDF788F2C194 : public ::RPG::GameCore::TaskConfig
 {
 public:
-	::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x18
-	::System::String* CIDCEJCGOGB; // 0x20
-	::System::Boolean NMMJBGFDNAI; // 0x28
-	::RPG::GameCore::SkillSPProgressType IGGMDBOEPCN; // 0x2C
+	::System::String* CIDCEJCGOGB; // 0x18
+	::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x20
+	::RPG::GameCore::SkillSPProgressType IGGMDBOEPCN; // 0x28
+	::System::Boolean NMMJBGFDNAI; // 0x2C
 
 	::System::Void _ctor()
 	{

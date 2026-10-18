@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MANIKINMONSTERCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D4946E0)
-#define RPG_GAMECORE_MANIKINMONSTERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D4949C0)
+#define RPG_GAMECORE_MANIKINMONSTERCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D7FA7F0)
+#define RPG_GAMECORE_MANIKINMONSTERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7FAAE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ManikinMonsterConfig_TypeDefinitionIndex = 17284;
+	inline static constexpr unsigned int ManikinMonsterConfig_TypeDefinitionIndex = 17480;
 
 	class ManikinMonsterConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -21,7 +21,7 @@ namespace RPG::GameCore
 		::System::Single OutlineWidth; // 0x1C
 		::Il2CppArray<::System::String*>* AbilityList; // 0x20
 		::System::Boolean EnableFloor; // 0x28
-		::System::String* ResidentEffectKey; // 0x30
+		::Il2CppArray<::System::String*>* ResidentEffectKey; // 0x30
 		::System::String* ResidentPossessionKey; // 0x38
 
 		::System::Void _ctor()

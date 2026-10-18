@@ -8,18 +8,18 @@ namespace RPG::Client::B51Racing { class MonoB51RacingSeasonProgressDialog; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 namespace System::Threading { class CancellationTokenSource; }
 
-#define RPG_CLIENT_B51RACING_MONOB51RACINGSEASONPROGRESSDIALOG___WAITCALENDARADVANCEPREVIEWASYNC_D__48_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x3B17E80)
-#define RPG_CLIENT_B51RACING_MONOB51RACINGSEASONPROGRESSDIALOG___WAITCALENDARADVANCEPREVIEWASYNC_D__48_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x10F00)
+#define RPG_CLIENT_B51RACING_MONOB51RACINGSEASONPROGRESSDIALOG___WAITCALENDARADVANCEPREVIEWASYNC_D__48_MOVENEXT_OFFSET UNITYSDK_OFFSET(0xE2DB0)
+#define RPG_CLIENT_B51RACING_MONOB51RACINGSEASONPROGRESSDIALOG___WAITCALENDARADVANCEPREVIEWASYNC_D__48_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x10B0)
 
 namespace RPG::Client::B51Racing
 {
-	inline static constexpr unsigned int MonoB51RacingSeasonProgressDialog___WaitCalendarAdvancePreviewAsync_d__48_TypeDefinitionIndex = 80653;
+	inline static constexpr unsigned int MonoB51RacingSeasonProgressDialog___WaitCalendarAdvancePreviewAsync_d__48_TypeDefinitionIndex = 81981;
 
 	struct alignas(8) MonoB51RacingSeasonProgressDialog___WaitCalendarAdvancePreviewAsync_d__48
 	{
-		::RPG::Client::B51Racing::MonoB51RacingSeasonProgressDialog* __4__this; // 0x10
-		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x18
-		::System::Threading::CancellationTokenSource* cts; // 0x28
+		::System::Threading::CancellationTokenSource* cts; // 0x10
+		::RPG::Client::B51Racing::MonoB51RacingSeasonProgressDialog* __4__this; // 0x18
+		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x20
 		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder __t__builder; // 0x30
 		::System::Int32 __1__state; // 0x40
 		::System::Single _targetTime_5__2; // 0x44

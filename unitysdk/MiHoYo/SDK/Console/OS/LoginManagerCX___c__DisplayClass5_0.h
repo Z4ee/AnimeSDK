@@ -5,11 +5,11 @@
 namespace MiHoYo::SDK { class NetworkResponseModel; }
 namespace MiHoYo::SDK::Console::OS { class LoginManagerCX; }
 
-#define MIHOYO_SDK_CONSOLE_OS_LOGINMANAGERCX___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1736E160)
+#define MIHOYO_SDK_CONSOLE_OS_LOGINMANAGERCX___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BCA0790)
 
 namespace MiHoYo::SDK::Console::OS
 {
-	inline static constexpr unsigned int LoginManagerCX___c__DisplayClass5_0_TypeDefinitionIndex = 9027;
+	inline static constexpr unsigned int LoginManagerCX___c__DisplayClass5_0_TypeDefinitionIndex = 9088;
 
 	class LoginManagerCX___c__DisplayClass5_0 : public ::System::Object
 	{

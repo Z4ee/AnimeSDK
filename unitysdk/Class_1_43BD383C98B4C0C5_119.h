@@ -1,15 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Struct_2_A143022D1701BC76.h"
-#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_365;
-namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
+#define CLASS_1_43BD383C98B4C0C5_119__CTOR_OFFSET UNITYSDK_OFFSET(0xBBB8270)
 
-#define CLASS_1_43BD383C98B4C0C5_119__CTOR_OFFSET UNITYSDK_OFFSET(0x17A1DA50)
-
-inline static constexpr unsigned int Class_1_43BD383C98B4C0C5_119_TypeDefinitionIndex = 49353;
+inline static constexpr unsigned int Class_1_43BD383C98B4C0C5_119_TypeDefinitionIndex = 47774;
 
 class Class_1_43BD383C98B4C0C5_119 : public ::System::Object
 {

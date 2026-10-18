@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ModifierStackingFlag_TypeDefinitionIndex = 24400;
+	inline static constexpr unsigned int ModifierStackingFlag_TypeDefinitionIndex = 24680;
 
 	enum class ModifierStackingFlag : ::System::Int32
 	{

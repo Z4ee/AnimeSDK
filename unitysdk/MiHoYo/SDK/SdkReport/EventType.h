@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK::SdkReport
 {
-	inline static constexpr unsigned int EventType_TypeDefinitionIndex = 47092;
+	inline static constexpr unsigned int EventType_TypeDefinitionIndex = 46632;
 
 	enum class EventType : ::System::Int32
 	{

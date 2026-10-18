@@ -8,12 +8,12 @@ namespace RPGTools::Timeline { class ArchiveAsset; }
 namespace System { class String; }
 namespace UnityEngine::Playables { class PlayableDirector; }
 
-#define RPGTOOLS_TIMELINE_BINDINGDATA_METHOD_3_05ACC7784C84BBE4_OFFSET UNITYSDK_OFFSET(0x1D130370)
-#define RPGTOOLS_TIMELINE_BINDINGDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1305D0)
+#define RPGTOOLS_TIMELINE_BINDINGDATA_METHOD_3_05ACC7784C84BBE4_OFFSET UNITYSDK_OFFSET(0xE8B0DE0)
+#define RPGTOOLS_TIMELINE_BINDINGDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xE8B1040)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int BindingData_TypeDefinitionIndex = 48964;
+	inline static constexpr unsigned int BindingData_TypeDefinitionIndex = 48510;
 
 	class BindingData : public ::UnityEngine::ScriptableObject
 	{

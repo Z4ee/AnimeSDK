@@ -9,7 +9,7 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoAnimatorDefaultValueConfigure_DefaultValueConfigure_TypeDefinitionIndex = 68481;
+	inline static constexpr unsigned int MonoAnimatorDefaultValueConfigure_DefaultValueConfigure_TypeDefinitionIndex = 68515;
 
 	struct alignas(8) MonoAnimatorDefaultValueConfigure_DefaultValueConfigure
 	{

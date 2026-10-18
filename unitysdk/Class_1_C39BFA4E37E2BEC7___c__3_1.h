@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_1176;
+class Class_0_16E4307DCC419505_1289;
 namespace System { template <typename T> class Predicate_1; }
 template <typename T> class Class_1_C39BFA4E37E2BEC7___c__3_1;
 
-inline static constexpr unsigned int Class_1_C39BFA4E37E2BEC7___c__3_1_TypeDefinitionIndex = 73295;
+inline static constexpr unsigned int Class_1_C39BFA4E37E2BEC7___c__3_1_TypeDefinitionIndex = 73391;
 
 template <typename T>
 class Class_1_C39BFA4E37E2BEC7___c__3_1 : public ::System::Object
@@ -16,8 +16,8 @@ public:
 	{
 		return (::Class_1_C39BFA4E37E2BEC7___c__3_1<T>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_C39BFA4E37E2BEC7___c__3_1_TypeDefinitionIndex)->GetStaticField(0x0);
 	}
-	static ::System::Predicate_1<::Class_0_16E4307DCC419505_1176*>** StaticGet___9__3_0()
+	static ::System::Predicate_1<::Class_0_16E4307DCC419505_1289*>** StaticGet___9__3_0()
 	{
-		return (::System::Predicate_1<::Class_0_16E4307DCC419505_1176*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_C39BFA4E37E2BEC7___c__3_1_TypeDefinitionIndex)->GetStaticField(0x0);
+		return (::System::Predicate_1<::Class_0_16E4307DCC419505_1289*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_C39BFA4E37E2BEC7___c__3_1_TypeDefinitionIndex)->GetStaticField(0x0);
 	}
 };

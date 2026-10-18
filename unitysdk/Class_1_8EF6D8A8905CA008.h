@@ -5,9 +5,9 @@
 
 namespace UnityEngine { class Rigidbody; }
 
-#define CLASS_1_8EF6D8A8905CA008__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA9A4B0)
+#define CLASS_1_8EF6D8A8905CA008__CTOR_OFFSET UNITYSDK_OFFSET(0x1C8DE4A0)
 
-inline static constexpr unsigned int Class_1_8EF6D8A8905CA008_TypeDefinitionIndex = 41556;
+inline static constexpr unsigned int Class_1_8EF6D8A8905CA008_TypeDefinitionIndex = 43196;
 
 class Class_1_8EF6D8A8905CA008 : public ::System::Object
 {
@@ -15,8 +15,8 @@ public:
 	::UnityEngine::Rigidbody* LLBAAKBKFLC; // 0x10
 	::System::Single NGFAGMJHKJO; // 0x18
 	::UnityEngine::Vector3 EAHFKEGAHKE; // 0x1C
-	::UnityEngine::Vector3 NIBGNGICDOO; // 0x28
-	::UnityEngine::Vector3 IKNAAOPEKFP; // 0x34
+	::UnityEngine::Vector3 IKNAAOPEKFP; // 0x28
+	::UnityEngine::Vector3 NIBGNGICDOO; // 0x34
 
 	::System::Void _ctor()
 	{

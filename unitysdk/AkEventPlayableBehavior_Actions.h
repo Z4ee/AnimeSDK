@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int AkEventPlayableBehavior_Actions_TypeDefinitionIndex = 43735;
+inline static constexpr unsigned int AkEventPlayableBehavior_Actions_TypeDefinitionIndex = 44927;
 
 enum class AkEventPlayableBehavior_Actions : ::System::Int32
 {

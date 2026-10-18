@@ -3,7 +3,7 @@
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int INotifyPropertyChanging_TypeDefinitionIndex = 9514;
+	inline static constexpr unsigned int INotifyPropertyChanging_TypeDefinitionIndex = 9572;
 
 	class INotifyPropertyChanging
 	{

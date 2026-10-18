@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetupRotatableRegionAirlock; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_EF7C3248C8398A1B_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x11602320)
-#define CLASS_3_EF7C3248C8398A1B__CTOR_OFFSET UNITYSDK_OFFSET(0x116022F0)
+#define CLASS_3_EF7C3248C8398A1B_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC00CA40)
+#define CLASS_3_EF7C3248C8398A1B__CTOR_OFFSET UNITYSDK_OFFSET(0xC00CA10)
 
-inline static constexpr unsigned int Class_3_EF7C3248C8398A1B_TypeDefinitionIndex = 53277;
+inline static constexpr unsigned int Class_3_EF7C3248C8398A1B_TypeDefinitionIndex = 53003;
 
 class Class_3_EF7C3248C8398A1B : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetupRotatableRegionAirlock*>
 {

@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_HELIOBUSMODULE___C__DISPLAYCLASS67_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19810380)
-#define RPG_CLIENT_HELIOBUSMODULE___C__DISPLAYCLASS67_0___GETHELIOBUSSKILLDATA_B__0_OFFSET UNITYSDK_OFFSET(0x19810390)
+#define RPG_CLIENT_HELIOBUSMODULE___C__DISPLAYCLASS67_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD312AF0)
+#define RPG_CLIENT_HELIOBUSMODULE___C__DISPLAYCLASS67_0___GETHELIOBUSSKILLDATA_B__0_OFFSET UNITYSDK_OFFSET(0xD315C10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int HeliobusModule___c__DisplayClass67_0_TypeDefinitionIndex = 65731;
+	inline static constexpr unsigned int HeliobusModule___c__DisplayClass67_0_TypeDefinitionIndex = 65666;
 
 	class HeliobusModule___c__DisplayClass67_0 : public ::System::Object
 	{

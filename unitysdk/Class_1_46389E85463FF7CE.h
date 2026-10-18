@@ -8,24 +8,24 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define CLASS_1_46389E85463FF7CE_METHOD_1_417A218C63D0B3DA_OFFSET UNITYSDK_OFFSET(0x1CEE6D40)
-#define CLASS_1_46389E85463FF7CE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CEE7190)
+#define CLASS_1_46389E85463FF7CE_METHOD_1_417A218C63D0B3DA_OFFSET UNITYSDK_OFFSET(0x1CFEC400)
+#define CLASS_1_46389E85463FF7CE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFEC850)
 
-inline static constexpr unsigned int Class_1_46389E85463FF7CE_TypeDefinitionIndex = 14898;
+inline static constexpr unsigned int Class_1_46389E85463FF7CE_TypeDefinitionIndex = 15063;
 
 class Class_1_46389E85463FF7CE : public ::System::Object
 {
 public:
-	::Il2CppArray<::System::UInt32>* NIKKAPEIDJO; // 0x10
+	::Il2CppArray<::RPG::GameCore::FixPoint>* PBLPLDJKPEI; // 0x10
 	::System::String* OLOIFNNLKJP; // 0x18
-	::Il2CppArray<::RPG::GameCore::FixPoint>* PBLPLDJKPEI; // 0x20
+	::Il2CppArray<::System::UInt32>* NIKKAPEIDJO; // 0x20
 	::RPG::Client::TextID MJOOFPBABEA; // 0x28
-	::RPG::GameCore::RogueTournPersonaStyleGiftRarityType PMIEAEGJNMJ; // 0x38
-	::System::UInt32 KGOEAGHJFKD; // 0x3C
-	::RPG::Client::TextID NMAHGFAPENI; // 0x40
-	::RPG::Client::TextID DEGHFCJNECP; // 0x50
-	::System::Boolean HILFNIOLPHN; // 0x60
-	::System::UInt32 FMDMDDCBPAM; // 0x64
+	::RPG::Client::TextID DEGHFCJNECP; // 0x38
+	::System::Boolean HILFNIOLPHN; // 0x48
+	::System::UInt32 FMDMDDCBPAM; // 0x4C
+	::RPG::Client::TextID NMAHGFAPENI; // 0x50
+	::System::UInt32 KGOEAGHJFKD; // 0x60
+	::RPG::GameCore::RogueTournPersonaStyleGiftRarityType PMIEAEGJNMJ; // 0x64
 
 	::System::Void _ctor()
 	{

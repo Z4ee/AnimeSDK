@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Struct_2_4127FF4C06B070D3.h"
-#include "unitysdk/Struct_2_DF3F1B8142DB3648.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_61FE1266BA6576AD;
+class Class_1_3A66EF8194C962E2;
+class Class_1_46AC29DEBE45F8A8_1;
+class Class_1_F207DD86BFC196EF;
 namespace Entitas { class IComponent; }
 namespace Entitas { class IContext; }
 namespace Entitas { class IEntity; }
@@ -15,14 +15,14 @@ namespace RPG::Client::LittleGame { template <typename T> class IEntityScaledTim
 namespace RPG::Client::LittleGame::FiveDim { template <typename T> class BaseEventActionSystem_1_EventCallbackCache; }
 namespace RPG::Client::LittleGame::FiveDim { template <typename T> class IFiveDimEventActionService_1; }
 namespace RPG::Client::LittleGame::FiveDim { template <typename T> class IFiveDimEventService_1; }
-namespace RPG::GameCore { class FiveDimBaseEventAction; }
+namespace RPG::GameCore { class LittleGameBaseEventAction; }
 namespace RPG::GameCore { class LittleGameEvent; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int BaseEventActionSystem_1_TypeDefinitionIndex = 76615;
+	inline static constexpr unsigned int BaseEventActionSystem_1_TypeDefinitionIndex = 77086;
 
 	template <typename T>
 	class BaseEventActionSystem_1 : public ::System::Object

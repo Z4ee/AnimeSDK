@@ -3,24 +3,24 @@
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_AVATARGROWUPBEFOREDATA_COPYTO_OFFSET UNITYSDK_OFFSET(0x193DD1B0)
-#define RPG_CLIENT_AVATARGROWUPBEFOREDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x193DD230)
+#define RPG_CLIENT_AVATARGROWUPBEFOREDATA_COPYTO_OFFSET UNITYSDK_OFFSET(0xC6E8170)
+#define RPG_CLIENT_AVATARGROWUPBEFOREDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xC6E81F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AvatarGrowUpBeforeData_TypeDefinitionIndex = 62548;
+	inline static constexpr unsigned int AvatarGrowUpBeforeData_TypeDefinitionIndex = 62465;
 
 	class AvatarGrowUpBeforeData : public ::System::Object
 	{
 	public:
-		::System::UInt32 LevelBefore; // 0x10
-		::System::UInt32 ExpBefore; // 0x14
-		::RPG::GameCore::FixPoint HpMaxBefore; // 0x18
-		::RPG::GameCore::FixPoint DefenseBefore; // 0x20
-		::RPG::GameCore::FixPoint AttackBefore; // 0x28
-		::RPG::GameCore::FixPoint SpeedBefore; // 0x30
-		::System::UInt32 MaxLevelBefore; // 0x38
-		::System::UInt32 PromotionBefore; // 0x3C
+		::RPG::GameCore::FixPoint HpMaxBefore; // 0x10
+		::RPG::GameCore::FixPoint SpeedBefore; // 0x18
+		::RPG::GameCore::FixPoint AttackBefore; // 0x20
+		::RPG::GameCore::FixPoint DefenseBefore; // 0x28
+		::System::UInt32 ExpBefore; // 0x30
+		::System::UInt32 LevelBefore; // 0x34
+		::System::UInt32 PromotionBefore; // 0x38
+		::System::UInt32 MaxLevelBefore; // 0x3C
 
 		::System::Void _ctor()
 		{

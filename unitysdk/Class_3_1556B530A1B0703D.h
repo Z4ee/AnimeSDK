@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByIsFirstChallengeBattle; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_1556B530A1B0703D_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1A7FBC00)
-#define CLASS_3_1556B530A1B0703D__CTOR_OFFSET UNITYSDK_OFFSET(0x1A7FBBD0)
+#define CLASS_3_1556B530A1B0703D_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBA3F0A0)
+#define CLASS_3_1556B530A1B0703D__CTOR_OFFSET UNITYSDK_OFFSET(0xBA3F070)
 
-inline static constexpr unsigned int Class_3_1556B530A1B0703D_TypeDefinitionIndex = 54870;
+inline static constexpr unsigned int Class_3_1556B530A1B0703D_TypeDefinitionIndex = 54658;
 
 class Class_3_1556B530A1B0703D : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByIsFirstChallengeBattle*>
 {

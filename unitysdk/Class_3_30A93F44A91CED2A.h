@@ -6,10 +6,10 @@
 namespace RPG::GameCore { class LoseHPByRatio; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_30A93F44A91CED2A_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16E985B0)
-#define CLASS_3_30A93F44A91CED2A__CTOR_OFFSET UNITYSDK_OFFSET(0x16E984E0)
+#define CLASS_3_30A93F44A91CED2A_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x158681E0)
+#define CLASS_3_30A93F44A91CED2A__CTOR_OFFSET UNITYSDK_OFFSET(0x15868110)
 
-inline static constexpr unsigned int Class_3_30A93F44A91CED2A_TypeDefinitionIndex = 55367;
+inline static constexpr unsigned int Class_3_30A93F44A91CED2A_TypeDefinitionIndex = 55164;
 
 class Class_3_30A93F44A91CED2A : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::LoseHPByRatio*>
 {

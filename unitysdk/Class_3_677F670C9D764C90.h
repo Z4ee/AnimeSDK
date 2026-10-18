@@ -8,11 +8,11 @@ namespace RPG::GameCore { class RtTargetFetchModifierBindSnapshot; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_3_677F670C9D764C90_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15826950)
-#define CLASS_3_677F670C9D764C90_METHOD_3_387B824AB83D263D_OFFSET UNITYSDK_OFFSET(0x15826D40)
-#define CLASS_3_677F670C9D764C90__CTOR_OFFSET UNITYSDK_OFFSET(0x158268E0)
+#define CLASS_3_677F670C9D764C90_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15E592C0)
+#define CLASS_3_677F670C9D764C90_METHOD_3_387B824AB83D263D_OFFSET UNITYSDK_OFFSET(0x15E596A0)
+#define CLASS_3_677F670C9D764C90__CTOR_OFFSET UNITYSDK_OFFSET(0x15E59250)
 
-inline static constexpr unsigned int Class_3_677F670C9D764C90_TypeDefinitionIndex = 54014;
+inline static constexpr unsigned int Class_3_677F670C9D764C90_TypeDefinitionIndex = 53800;
 
 class Class_3_677F670C9D764C90 : public ::RPG::GameCore::TargetEvaluatorImpl_1<::RPG::GameCore::RtTargetFetchModifierBindSnapshot*>
 {

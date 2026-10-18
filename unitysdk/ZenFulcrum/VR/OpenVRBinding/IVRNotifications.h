@@ -7,7 +7,7 @@ namespace ZenFulcrum::VR::OpenVRBinding { class IVRNotifications__RemoveNotifica
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVRNotifications_TypeDefinitionIndex = 37862;
+	inline static constexpr unsigned int IVRNotifications_TypeDefinitionIndex = 39159;
 
 	struct alignas(8) IVRNotifications
 	{

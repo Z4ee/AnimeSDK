@@ -4,25 +4,25 @@
 #include "unitysdk/RPG/GameCore/LittleGameComponentConfig.h"
 
 class Class_1_7A22A3DBEEDD1F80;
-namespace RPG::GameCore { class FiveDimDynamicVar; }
 namespace RPG::GameCore { class FiveDimEffectItem; }
 namespace RPG::GameCore { class FiveDimTriggerShape; }
+namespace RPG::GameCore { class LittleGameDynamicVar; }
 namespace RPG::GameCore { class LittleGameEvent; }
 namespace RPG::GameCore { class PropButtonConfig; }
 
-#define RPG_GAMECORE_FIVEDIMLEVERSWITCHCONFIG_METHOD_3_0C9AF094AEF91A8A_OFFSET UNITYSDK_OFFSET(0x1D8681E0)
-#define RPG_GAMECORE_FIVEDIMLEVERSWITCHCONFIG_METHOD_3_D3C9AA4C63F4EFB4_OFFSET UNITYSDK_OFFSET(0x1D8681A0)
-#define RPG_GAMECORE_FIVEDIMLEVERSWITCHCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D8681D0)
+#define RPG_GAMECORE_FIVEDIMLEVERSWITCHCONFIG_METHOD_3_0C9AF094AEF91A8A_OFFSET UNITYSDK_OFFSET(0x1D6991F0)
+#define RPG_GAMECORE_FIVEDIMLEVERSWITCHCONFIG_METHOD_3_D3C9AA4C63F4EFB4_OFFSET UNITYSDK_OFFSET(0x1D6991B0)
+#define RPG_GAMECORE_FIVEDIMLEVERSWITCHCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6991E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimLeverSwitchConfig_TypeDefinitionIndex = 18339;
+	inline static constexpr unsigned int FiveDimLeverSwitchConfig_TypeDefinitionIndex = 18554;
 
 	class FiveDimLeverSwitchConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:
 		::System::Boolean IsLeverSwitch; // 0x10
-		::RPG::GameCore::FiveDimDynamicVar* BindLevelVarName; // 0x18
+		::RPG::GameCore::LittleGameDynamicVar* BindLevelVarName; // 0x18
 		::Il2CppArray<::System::Int16>* LeftValues; // 0x20
 		::Il2CppArray<::System::Int16>* RightValues; // 0x28
 		::RPG::GameCore::FiveDimLeverSwitchState DefautState; // 0x30

@@ -3,7 +3,7 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int PipelineDebugCamera_TypeDefinitionIndex = 36889;
+	inline static constexpr unsigned int PipelineDebugCamera_TypeDefinitionIndex = 37574;
 
 	enum class PipelineDebugCamera : ::System::Int32
 	{

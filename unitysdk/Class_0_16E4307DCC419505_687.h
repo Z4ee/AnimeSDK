@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-class Class_1_9C8BB23B0435A836;
-namespace RPG::Client::DiceCombat { class DiceCombatBattleDiceDisplayInfo; }
+class Class_1_6C30C65EACF8D014;
+namespace RPG::GameCore { class GameEntity; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_687_TypeDefinitionIndex = 75561;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_687_TypeDefinitionIndex = 56974;
 
 class Class_0_16E4307DCC419505_687
 {

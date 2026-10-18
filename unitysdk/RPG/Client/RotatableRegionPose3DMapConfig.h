@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_ROTATABLEREGIONPOSE3DMAPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16A1DA80)
+#define RPG_CLIENT_ROTATABLEREGIONPOSE3DMAPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xE063C40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RotatableRegionPose3DMapConfig_TypeDefinitionIndex = 69010;
+	inline static constexpr unsigned int RotatableRegionPose3DMapConfig_TypeDefinitionIndex = 69046;
 
 	class RotatableRegionPose3DMapConfig : public ::System::Object
 	{

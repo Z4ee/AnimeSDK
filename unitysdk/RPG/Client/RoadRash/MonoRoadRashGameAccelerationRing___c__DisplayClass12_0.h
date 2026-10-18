@@ -6,12 +6,12 @@
 namespace RPG::Client { class MonoEffect; }
 namespace RPG::Client::RoadRash { class MonoRoadRashGameAccelerationRing; }
 
-#define RPG_CLIENT_ROADRASH_MONOROADRASHGAMEACCELERATIONRING___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17993D10)
-#define RPG_CLIENT_ROADRASH_MONOROADRASHGAMEACCELERATIONRING___C__DISPLAYCLASS12_0__TRIGGEREFFECT_B__0_OFFSET UNITYSDK_OFFSET(0x17993EA0)
+#define RPG_CLIENT_ROADRASH_MONOROADRASHGAMEACCELERATIONRING___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0xDEC5170)
+#define RPG_CLIENT_ROADRASH_MONOROADRASHGAMEACCELERATIONRING___C__DISPLAYCLASS12_0__TRIGGEREFFECT_B__0_OFFSET UNITYSDK_OFFSET(0xDEC5300)
 
 namespace RPG::Client::RoadRash
 {
-	inline static constexpr unsigned int MonoRoadRashGameAccelerationRing___c__DisplayClass12_0_TypeDefinitionIndex = 75433;
+	inline static constexpr unsigned int MonoRoadRashGameAccelerationRing___c__DisplayClass12_0_TypeDefinitionIndex = 75848;
 
 	class MonoRoadRashGameAccelerationRing___c__DisplayClass12_0 : public ::System::Object
 	{

@@ -4,18 +4,18 @@
 
 namespace System { class Action; }
 
-#define RPG_CLIENT_FATESUPPORTNOVOICEPART_FATEMISSIONTRACKINGPRECAUTIONSTRATEGY___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE3A830)
-#define RPG_CLIENT_FATESUPPORTNOVOICEPART_FATEMISSIONTRACKINGPRECAUTIONSTRATEGY___C__DISPLAYCLASS0_0__TRYCHECK_B__0_OFFSET UNITYSDK_OFFSET(0x1AE3A840)
+#define RPG_CLIENT_FATESUPPORTNOVOICEPART_FATEMISSIONTRACKINGPRECAUTIONSTRATEGY___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCFD30D0)
+#define RPG_CLIENT_FATESUPPORTNOVOICEPART_FATEMISSIONTRACKINGPRECAUTIONSTRATEGY___C__DISPLAYCLASS0_0__TRYCHECK_B__0_OFFSET UNITYSDK_OFFSET(0xCFD30E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FateSupportNoVoicePart_FateMissionTrackingPrecautionStrategy___c__DisplayClass0_0_TypeDefinitionIndex = 64225;
+	inline static constexpr unsigned int FateSupportNoVoicePart_FateMissionTrackingPrecautionStrategy___c__DisplayClass0_0_TypeDefinitionIndex = 64163;
 
 	class FateSupportNoVoicePart_FateMissionTrackingPrecautionStrategy___c__DisplayClass0_0 : public ::System::Object
 	{
 	public:
-		::System::Action* onReject; // 0x10
-		::System::Action* onApprove; // 0x18
+		::System::Action* onApprove; // 0x10
+		::System::Action* onReject; // 0x18
 
 		::System::Void _ctor()
 		{

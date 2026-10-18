@@ -5,19 +5,19 @@
 namespace Newtonsoft::Json::Serialization { class ErrorContext; }
 namespace System { class Object; }
 
-#define NEWTONSOFT_JSON_SERIALIZATION_ERROREVENTARGS_SET_CURRENTOBJECT_OFFSET UNITYSDK_OFFSET(0x172E40A0)
-#define NEWTONSOFT_JSON_SERIALIZATION_ERROREVENTARGS_SET_ERRORCONTEXT_OFFSET UNITYSDK_OFFSET(0x172E40B0)
-#define NEWTONSOFT_JSON_SERIALIZATION_ERROREVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x172E40C0)
+#define NEWTONSOFT_JSON_SERIALIZATION_ERROREVENTARGS_SET_CURRENTOBJECT_OFFSET UNITYSDK_OFFSET(0x1C3B17C0)
+#define NEWTONSOFT_JSON_SERIALIZATION_ERROREVENTARGS_SET_ERRORCONTEXT_OFFSET UNITYSDK_OFFSET(0x1C3B17D0)
+#define NEWTONSOFT_JSON_SERIALIZATION_ERROREVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1C3B17E0)
 
 namespace Newtonsoft::Json::Serialization
 {
-	inline static constexpr unsigned int ErrorEventArgs_TypeDefinitionIndex = 9642;
+	inline static constexpr unsigned int ErrorEventArgs_TypeDefinitionIndex = 9700;
 
 	class ErrorEventArgs : public ::System::EventArgs
 	{
 	public:
-		::System::Object* _CurrentObject_k__BackingField; // 0x10
-		::Newtonsoft::Json::Serialization::ErrorContext* _ErrorContext_k__BackingField; // 0x18
+		::Newtonsoft::Json::Serialization::ErrorContext* _ErrorContext_k__BackingField; // 0x10
+		::System::Object* _CurrentObject_k__BackingField; // 0x18
 
 		::System::Void _ctor(::System::Object* a1, ::Newtonsoft::Json::Serialization::ErrorContext* a2)
 		{

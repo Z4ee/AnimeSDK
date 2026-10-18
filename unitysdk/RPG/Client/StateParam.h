@@ -8,12 +8,12 @@
 namespace System { class String; }
 namespace UnityEngine { class Animator; }
 
-#define RPG_CLIENT_STATEPARAM_METHOD_1_6553931566A72DFA_OFFSET UNITYSDK_OFFSET(0x1A500F60)
-#define RPG_CLIENT_STATEPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1A501190)
+#define RPG_CLIENT_STATEPARAM_METHOD_1_6553931566A72DFA_OFFSET UNITYSDK_OFFSET(0xE124890)
+#define RPG_CLIENT_STATEPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xE124AC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int StateParam_TypeDefinitionIndex = 68800;
+	inline static constexpr unsigned int StateParam_TypeDefinitionIndex = 68834;
 
 	class StateParam : public ::System::Object
 	{

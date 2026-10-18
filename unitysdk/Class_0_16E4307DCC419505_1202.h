@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-namespace RPG::Client { class IMapIcon; }
-namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
+namespace System { class String; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_1202_TypeDefinitionIndex = 74391;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_1202_TypeDefinitionIndex = 72051;
 
 class Class_0_16E4307DCC419505_1202
 {

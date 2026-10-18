@@ -2,22 +2,22 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_260;
+class Class_0_16E4307DCC419505_335;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_7EB5E36440B089F5__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA9B530)
+#define CLASS_1_7EB5E36440B089F5__CTOR_OFFSET UNITYSDK_OFFSET(0x1C8DF380)
 
-inline static constexpr unsigned int Class_1_7EB5E36440B089F5_TypeDefinitionIndex = 41550;
+inline static constexpr unsigned int Class_1_7EB5E36440B089F5_TypeDefinitionIndex = 43190;
 
 class Class_1_7EB5E36440B089F5 : public ::System::Object
 {
 public:
-	::Class_0_16E4307DCC419505_260* MKOJHNDJAJC; // 0x10
-	::Class_0_16E4307DCC419505_260* MPBILLMIJFB; // 0x18
-	::Class_0_16E4307DCC419505_260* APIKHHFLDJE; // 0x20
-	::Class_0_16E4307DCC419505_260* PACHKOJNGDM; // 0x28
-	::System::Collections::Generic::Dictionary_2<::System::String*, ::Class_0_16E4307DCC419505_260*>* HJLNFLFCKJP; // 0x30
+	::Class_0_16E4307DCC419505_335* PACHKOJNGDM; // 0x10
+	::Class_0_16E4307DCC419505_335* APIKHHFLDJE; // 0x18
+	::Class_0_16E4307DCC419505_335* MKOJHNDJAJC; // 0x20
+	::Class_0_16E4307DCC419505_335* MPBILLMIJFB; // 0x28
+	::System::Collections::Generic::Dictionary_2<::System::String*, ::Class_0_16E4307DCC419505_335*>* HJLNFLFCKJP; // 0x30
 
 	::System::Void _ctor()
 	{

@@ -6,10 +6,10 @@ class Class_2_CF642B8D18D8F5C0;
 namespace RPG::Client { class PartialFlipDeviceComponent; }
 namespace RPG::GameCore { class GameEntity; }
 
-#define CLASS_2_CF642B8D18D8F5C0___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18F26AD0)
-#define CLASS_2_CF642B8D18D8F5C0___C__DISPLAYCLASS1_0__ONTASKBEGIN_B__0_OFFSET UNITYSDK_OFFSET(0x18F26D80)
+#define CLASS_2_CF642B8D18D8F5C0___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15A15E20)
+#define CLASS_2_CF642B8D18D8F5C0___C__DISPLAYCLASS1_0__ONTASKBEGIN_B__0_OFFSET UNITYSDK_OFFSET(0x15A160D0)
 
-inline static constexpr unsigned int Class_2_CF642B8D18D8F5C0___c__DisplayClass1_0_TypeDefinitionIndex = 53047;
+inline static constexpr unsigned int Class_2_CF642B8D18D8F5C0___c__DisplayClass1_0_TypeDefinitionIndex = 52773;
 
 class Class_2_CF642B8D18D8F5C0___c__DisplayClass1_0 : public ::System::Object
 {

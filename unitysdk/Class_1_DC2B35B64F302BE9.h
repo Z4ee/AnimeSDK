@@ -6,16 +6,16 @@ class Class_2_C097D1ED3AEF29E9_1;
 class Class_2_E541610CE7338ECE;
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define CLASS_1_DC2B35B64F302BE9_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1627C3A0)
-#define CLASS_1_DC2B35B64F302BE9__CTOR_OFFSET UNITYSDK_OFFSET(0x1627C2D0)
+#define CLASS_1_DC2B35B64F302BE9_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1C59AA00)
+#define CLASS_1_DC2B35B64F302BE9__CTOR_OFFSET UNITYSDK_OFFSET(0x1C59A930)
 
-inline static constexpr unsigned int Class_1_DC2B35B64F302BE9_TypeDefinitionIndex = 36504;
+inline static constexpr unsigned int Class_1_DC2B35B64F302BE9_TypeDefinitionIndex = 37191;
 
 class Class_1_DC2B35B64F302BE9 : public ::System::Object
 {
 public:
-	::Class_2_E541610CE7338ECE* PDENFEFCAGN; // 0x10
-	::System::Collections::Generic::HashSet_1<::Class_2_C097D1ED3AEF29E9_1*>* CMKEBEGLOCA; // 0x18
+	::System::Collections::Generic::HashSet_1<::Class_2_C097D1ED3AEF29E9_1*>* CMKEBEGLOCA; // 0x10
+	::Class_2_E541610CE7338ECE* PDENFEFCAGN; // 0x18
 
 	::System::Void _ctor(::Class_2_E541610CE7338ECE* a1)
 	{

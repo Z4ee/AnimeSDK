@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PositionFollowOption_TypeDefinitionIndex = 70026;
+	inline static constexpr unsigned int PositionFollowOption_TypeDefinitionIndex = 70061;
 
 	enum class PositionFollowOption : ::System::Int32
 	{

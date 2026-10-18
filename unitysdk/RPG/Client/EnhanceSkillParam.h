@@ -6,19 +6,19 @@
 class Class_1_A474572029D08468;
 namespace RPG::GameCore { class GameEntity; }
 
-#define RPG_CLIENT_ENHANCESKILLPARAM_GETSHOWENHANCEEFFECT_OFFSET UNITYSDK_OFFSET(0x1A17A070)
-#define RPG_CLIENT_ENHANCESKILLPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1A17A180)
+#define RPG_CLIENT_ENHANCESKILLPARAM_GETSHOWENHANCEEFFECT_OFFSET UNITYSDK_OFFSET(0xCDE33B0)
+#define RPG_CLIENT_ENHANCESKILLPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xCDE34C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EnhanceSkillParam_TypeDefinitionIndex = 71879;
+	inline static constexpr unsigned int EnhanceSkillParam_TypeDefinitionIndex = 71944;
 
 	class EnhanceSkillParam : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::GameEntity* Entity; // 0x10
-		::System::Boolean RefreshImmediate; // 0x18
-		::System::Boolean IsShow; // 0x19
+		::System::Boolean IsShow; // 0x18
+		::System::Boolean RefreshImmediate; // 0x19
 		::RPG::Client::UISkillIndex SkillIndex; // 0x1C
 
 		::System::Void _ctor()

@@ -4,12 +4,12 @@
 
 namespace EnviromentSystem { class EnviromentProfile; }
 
-#define ENVIROMENTSYSTEM_ENVIROPOINTLIGHTPROPERTY__CTOR_1_OFFSET UNITYSDK_OFFSET(0x106AA6D0)
-#define ENVIROMENTSYSTEM_ENVIROPOINTLIGHTPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x106A2740)
+#define ENVIROMENTSYSTEM_ENVIROPOINTLIGHTPROPERTY__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1560A1F0)
+#define ENVIROMENTSYSTEM_ENVIROPOINTLIGHTPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x15602260)
 
 namespace EnviromentSystem
 {
-	inline static constexpr unsigned int EnviroPointLightProperty_TypeDefinitionIndex = 50035;
+	inline static constexpr unsigned int EnviroPointLightProperty_TypeDefinitionIndex = 49610;
 
 	class EnviroPointLightProperty : public ::EnviromentSystem::EnviroProperty
 	{

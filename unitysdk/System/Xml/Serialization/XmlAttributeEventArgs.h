@@ -6,7 +6,7 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System::Xml { class XmlAttribute; }
 
-#define SYSTEM_XML_SERIALIZATION_XMLATTRIBUTEEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1B095C60)
+#define SYSTEM_XML_SERIALIZATION_XMLATTRIBUTEEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1EED68E0)
 
 namespace System::Xml::Serialization
 {

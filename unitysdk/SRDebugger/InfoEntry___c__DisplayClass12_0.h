@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SRDEBUGGER_INFOENTRY___C__DISPLAYCLASS12_0__CREATE_B__0_OFFSET UNITYSDK_OFFSET(0x1BD98B90)
-#define SRDEBUGGER_INFOENTRY___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD98B80)
+#define SRDEBUGGER_INFOENTRY___C__DISPLAYCLASS12_0__CREATE_B__0_OFFSET UNITYSDK_OFFSET(0x1ED09530)
+#define SRDEBUGGER_INFOENTRY___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1ED09520)
 
 namespace SRDebugger
 {
-	inline static constexpr unsigned int InfoEntry___c__DisplayClass12_0_TypeDefinitionIndex = 37276;
+	inline static constexpr unsigned int InfoEntry___c__DisplayClass12_0_TypeDefinitionIndex = 37969;
 
 	class InfoEntry___c__DisplayClass12_0 : public ::System::Object
 	{

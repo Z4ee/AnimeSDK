@@ -5,30 +5,30 @@
 
 namespace UnityEngine::ProBuilder { class ProBuilderMesh; }
 
-#define UNITYENGINE_PROBUILDER_NORMALS_CALCULATEHARDNORMALS_OFFSET UNITYSDK_OFFSET(0xD007C40)
-#define UNITYENGINE_PROBUILDER_NORMALS_CALCULATENORMALS_OFFSET UNITYSDK_OFFSET(0xCF9CF00)
-#define UNITYENGINE_PROBUILDER_NORMALS_CALCULATETANGENTS_OFFSET UNITYSDK_OFFSET(0xCF9D970)
-#define UNITYENGINE_PROBUILDER_NORMALS_CLEARINTARRAY_OFFSET UNITYSDK_OFFSET(0xD007A60)
-#define UNITYENGINE_PROBUILDER_NORMALS__CCTOR_OFFSET UNITYSDK_OFFSET(0xD0082C0)
+#define UNITYENGINE_PROBUILDER_NORMALS_CALCULATEHARDNORMALS_OFFSET UNITYSDK_OFFSET(0x1F21DB00)
+#define UNITYENGINE_PROBUILDER_NORMALS_CALCULATENORMALS_OFFSET UNITYSDK_OFFSET(0x1F1B2EF0)
+#define UNITYENGINE_PROBUILDER_NORMALS_CALCULATETANGENTS_OFFSET UNITYSDK_OFFSET(0x1F1B3940)
+#define UNITYENGINE_PROBUILDER_NORMALS_CLEARINTARRAY_OFFSET UNITYSDK_OFFSET(0x1F21D920)
+#define UNITYENGINE_PROBUILDER_NORMALS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F21E180)
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int Normals_TypeDefinitionIndex = 43188;
+	inline static constexpr unsigned int Normals_TypeDefinitionIndex = 44380;
 
 	class Normals : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::UnityEngine::Vector3>** StaticGet_s_SmoothAvg()
+		static ::Il2CppArray<::System::Single>** StaticGet_s_SmoothAvgCount()
 		{
-			return (::Il2CppArray<::UnityEngine::Vector3>**)Il2CppClass::FromTypeDefinitionIndex(Normals_TypeDefinitionIndex)->GetStaticField(0x64470);
+			return (::Il2CppArray<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(Normals_TypeDefinitionIndex)->GetStaticField(0x4F910);
 		}
 		static ::Il2CppArray<::System::Int32>** StaticGet_s_CachedIntArray()
 		{
-			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Normals_TypeDefinitionIndex)->GetStaticField(0x64478);
+			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Normals_TypeDefinitionIndex)->GetStaticField(0x4F918);
 		}
-		static ::Il2CppArray<::System::Single>** StaticGet_s_SmoothAvgCount()
+		static ::Il2CppArray<::UnityEngine::Vector3>** StaticGet_s_SmoothAvg()
 		{
-			return (::Il2CppArray<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(Normals_TypeDefinitionIndex)->GetStaticField(0x64480);
+			return (::Il2CppArray<::UnityEngine::Vector3>**)Il2CppClass::FromTypeDefinitionIndex(Normals_TypeDefinitionIndex)->GetStaticField(0x4F920);
 		}
 
 		static ::System::Void _cctor()

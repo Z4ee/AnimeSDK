@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class StartReShaSceneSelection; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_CDD93E49A2B797D7_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17EA63B0)
-#define CLASS_3_CDD93E49A2B797D7__CTOR_OFFSET UNITYSDK_OFFSET(0x17EA6380)
+#define CLASS_3_CDD93E49A2B797D7_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB125600)
+#define CLASS_3_CDD93E49A2B797D7__CTOR_OFFSET UNITYSDK_OFFSET(0xB1255D0)
 
-inline static constexpr unsigned int Class_3_CDD93E49A2B797D7_TypeDefinitionIndex = 53548;
+inline static constexpr unsigned int Class_3_CDD93E49A2B797D7_TypeDefinitionIndex = 53291;
 
 class Class_3_CDD93E49A2B797D7 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::StartReShaSceneSelection*>
 {

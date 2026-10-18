@@ -4,7 +4,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int RenderBuffer_TypeDefinitionIndex = 4119;
+	inline static constexpr unsigned int RenderBuffer_TypeDefinitionIndex = 4120;
 
 	struct alignas(8) RenderBuffer
 	{

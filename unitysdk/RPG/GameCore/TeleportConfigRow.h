@@ -4,22 +4,22 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_TELEPORTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E1D0180)
-#define RPG_GAMECORE_TELEPORTCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1E1D0820)
+#define RPG_GAMECORE_TELEPORTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DB516A0)
+#define RPG_GAMECORE_TELEPORTCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB51D40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TeleportConfigRow_TypeDefinitionIndex = 12490;
+	inline static constexpr unsigned int TeleportConfigRow_TypeDefinitionIndex = 12580;
 
 	class TeleportConfigRow : public ::System::Object
 	{
 	public:
-		::System::Boolean InitialEnable; // 0x10
-		::System::UInt32 PlaneID; // 0x14
-		::System::UInt32 ID; // 0x18
-		::System::UInt32 GroupID; // 0x1C
-		::System::UInt32 ConfigID; // 0x20
-		::System::UInt32 FloorID; // 0x24
+		::System::UInt32 ConfigID; // 0x10
+		::System::UInt32 FloorID; // 0x14
+		::System::UInt32 GroupID; // 0x18
+		::System::UInt32 ID; // 0x1C
+		::System::UInt32 PlaneID; // 0x20
+		::System::Boolean InitialEnable; // 0x24
 
 		::System::Void _ctor()
 		{

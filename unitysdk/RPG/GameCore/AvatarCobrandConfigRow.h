@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_AVATARCOBRANDCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1C5863D0)
-#define RPG_GAMECORE_AVATARCOBRANDCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1C5865B0)
+#define RPG_GAMECORE_AVATARCOBRANDCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3DFC20)
+#define RPG_GAMECORE_AVATARCOBRANDCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3DFE00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AvatarCobrandConfigRow_TypeDefinitionIndex = 12615;
+	inline static constexpr unsigned int AvatarCobrandConfigRow_TypeDefinitionIndex = 12705;
 
 	class AvatarCobrandConfigRow : public ::System::Object
 	{

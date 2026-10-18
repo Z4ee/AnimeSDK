@@ -6,16 +6,16 @@
 namespace RPG::GameCore { class LittleGameAbilityConfig; }
 namespace RPG::GameCore { class PixAirCastCondition; }
 
-#define CLASS_1_45D6DE6073A1FCE3__CTOR_OFFSET UNITYSDK_OFFSET(0x16C1D780)
+#define CLASS_1_45D6DE6073A1FCE3__CTOR_OFFSET UNITYSDK_OFFSET(0xBEC89B0)
 
-inline static constexpr unsigned int Class_1_45D6DE6073A1FCE3_TypeDefinitionIndex = 78915;
+inline static constexpr unsigned int Class_1_45D6DE6073A1FCE3_TypeDefinitionIndex = 79396;
 
 class Class_1_45D6DE6073A1FCE3 : public ::System::Object
 {
 public:
 	::RPG::GameCore::PixAirCastCondition* OPJCGMMGPOF; // 0x10
-	::RPG::GameCore::LittleGameAbilityConfig* IJLBBLFFADO; // 0x18
-	::Il2CppArray<::RPG::GameCore::FixPoint>* EPHECEILCCA; // 0x20
+	::Il2CppArray<::RPG::GameCore::FixPoint>* EPHECEILCCA; // 0x18
+	::RPG::GameCore::LittleGameAbilityConfig* IJLBBLFFADO; // 0x20
 	::System::UInt32 BOKJJKFCFME; // 0x28
 
 	::System::Void _ctor()

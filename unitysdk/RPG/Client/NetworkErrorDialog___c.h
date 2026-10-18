@@ -4,24 +4,24 @@
 
 namespace System { class Action; }
 
-#define RPG_CLIENT_NETWORKERRORDIALOG___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18272840)
-#define RPG_CLIENT_NETWORKERRORDIALOG___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18272880)
-#define RPG_CLIENT_NETWORKERRORDIALOG___C__SHOWNETWORKERROR_B__0_0_OFFSET UNITYSDK_OFFSET(0x18272890)
+#define RPG_CLIENT_NETWORKERRORDIALOG___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD9756D0)
+#define RPG_CLIENT_NETWORKERRORDIALOG___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD975710)
+#define RPG_CLIENT_NETWORKERRORDIALOG___C__SHOWNETWORKERROR_B__0_0_OFFSET UNITYSDK_OFFSET(0xD975720)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int NetworkErrorDialog___c_TypeDefinitionIndex = 72648;
+	inline static constexpr unsigned int NetworkErrorDialog___c_TypeDefinitionIndex = 72723;
 
 	class NetworkErrorDialog___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__0_0()
-		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(NetworkErrorDialog___c_TypeDefinitionIndex)->GetStaticField(0x36320);
-		}
 		static ::RPG::Client::NetworkErrorDialog___c** StaticGet___9()
 		{
-			return (::RPG::Client::NetworkErrorDialog___c**)Il2CppClass::FromTypeDefinitionIndex(NetworkErrorDialog___c_TypeDefinitionIndex)->GetStaticField(0x36328);
+			return (::RPG::Client::NetworkErrorDialog___c**)Il2CppClass::FromTypeDefinitionIndex(NetworkErrorDialog___c_TypeDefinitionIndex)->GetStaticField(0x6F3D0);
+		}
+		static ::System::Action** StaticGet___9__0_0()
+		{
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(NetworkErrorDialog___c_TypeDefinitionIndex)->GetStaticField(0x6F3D8);
 		}
 
 		static ::System::Void _cctor()

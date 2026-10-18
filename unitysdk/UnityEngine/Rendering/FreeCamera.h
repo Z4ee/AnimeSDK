@@ -4,50 +4,50 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_RENDERING_FREECAMERA_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1CD1CB20)
-#define UNITYENGINE_RENDERING_FREECAMERA_REGISTERINPUTS_OFFSET UNITYSDK_OFFSET(0x1CD1CB30)
-#define UNITYENGINE_RENDERING_FREECAMERA_UPDATE_OFFSET UNITYSDK_OFFSET(0x1CD1CB40)
-#define UNITYENGINE_RENDERING_FREECAMERA__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CD1D5A0)
-#define UNITYENGINE_RENDERING_FREECAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD1D580)
+#define UNITYENGINE_RENDERING_FREECAMERA_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1F2940B0)
+#define UNITYENGINE_RENDERING_FREECAMERA_REGISTERINPUTS_OFFSET UNITYSDK_OFFSET(0x1F2940C0)
+#define UNITYENGINE_RENDERING_FREECAMERA_UPDATE_OFFSET UNITYSDK_OFFSET(0x1F2940D0)
+#define UNITYENGINE_RENDERING_FREECAMERA__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F294B30)
+#define UNITYENGINE_RENDERING_FREECAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x1F294B10)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int FreeCamera_TypeDefinitionIndex = 34800;
+	inline static constexpr unsigned int FreeCamera_TypeDefinitionIndex = 35469;
 
 	class FreeCamera : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::System::String** StaticGet_kVertical()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(FreeCamera_TypeDefinitionIndex)->GetStaticField(0x60B00);
-		}
-		static ::System::String** StaticGet_kMouseX()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(FreeCamera_TypeDefinitionIndex)->GetStaticField(0x60B08);
-		}
-		static ::System::String** StaticGet_kRightStickY()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(FreeCamera_TypeDefinitionIndex)->GetStaticField(0x60B10);
-		}
 		static ::System::String** StaticGet_kRightStickX()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(FreeCamera_TypeDefinitionIndex)->GetStaticField(0x60B18);
-		}
-		static ::System::String** StaticGet_kSpeedAxis()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(FreeCamera_TypeDefinitionIndex)->GetStaticField(0x60B20);
-		}
-		static ::System::String** StaticGet_kHorizontal()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(FreeCamera_TypeDefinitionIndex)->GetStaticField(0x60B28);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(FreeCamera_TypeDefinitionIndex)->GetStaticField(0x5AC60);
 		}
 		static ::System::String** StaticGet_kMouseY()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(FreeCamera_TypeDefinitionIndex)->GetStaticField(0x60B30);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(FreeCamera_TypeDefinitionIndex)->GetStaticField(0x5AC68);
+		}
+		static ::System::String** StaticGet_kHorizontal()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(FreeCamera_TypeDefinitionIndex)->GetStaticField(0x5AC70);
+		}
+		static ::System::String** StaticGet_kSpeedAxis()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(FreeCamera_TypeDefinitionIndex)->GetStaticField(0x5AC78);
+		}
+		static ::System::String** StaticGet_kRightStickY()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(FreeCamera_TypeDefinitionIndex)->GetStaticField(0x5AC80);
+		}
+		static ::System::String** StaticGet_kVertical()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(FreeCamera_TypeDefinitionIndex)->GetStaticField(0x5AC88);
+		}
+		static ::System::String** StaticGet_kMouseX()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(FreeCamera_TypeDefinitionIndex)->GetStaticField(0x5AC90);
 		}
 		static ::System::String** StaticGet_kYAxis()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(FreeCamera_TypeDefinitionIndex)->GetStaticField(0x60B38);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(FreeCamera_TypeDefinitionIndex)->GetStaticField(0x5AC98);
 		}
 		::System::Single m_LookSpeedController; // 0x18
 		::System::Single m_LookSpeedMouse; // 0x1C

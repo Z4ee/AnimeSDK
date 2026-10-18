@@ -11,12 +11,12 @@ namespace System::Diagnostics::Tracing { class EventSource; }
 namespace System::Diagnostics::Tracing { class EventSourceCreatedEventArgs; }
 namespace System::Diagnostics::Tracing { class EventWrittenEventArgs; }
 
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTLISTENER_ADDEVENTSOURCE_OFFSET UNITYSDK_OFFSET(0x1AB5AFE0)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTLISTENER_DISPOSEONSHUTDOWN_OFFSET UNITYSDK_OFFSET(0x1AB5BA00)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTLISTENER_GET_EVENTLISTENERSLOCK_OFFSET UNITYSDK_OFFSET(0x1AB5B6F0)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTLISTENER_ONEVENTSOURCECREATED_OFFSET UNITYSDK_OFFSET(0x1AB5AF00)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTLISTENER_ONEVENTWRITTEN_OFFSET UNITYSDK_OFFSET(0x1AB5AFC0)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTLISTENER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AB5BDA0)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTLISTENER_ADDEVENTSOURCE_OFFSET UNITYSDK_OFFSET(0x1C1ACFD0)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTLISTENER_DISPOSEONSHUTDOWN_OFFSET UNITYSDK_OFFSET(0x1C1AD9F0)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTLISTENER_GET_EVENTLISTENERSLOCK_OFFSET UNITYSDK_OFFSET(0x1C1AD6E0)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTLISTENER_ONEVENTSOURCECREATED_OFFSET UNITYSDK_OFFSET(0x1C1ACEF0)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTLISTENER_ONEVENTWRITTEN_OFFSET UNITYSDK_OFFSET(0x1C1ACFB0)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTLISTENER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C1ADD90)
 
 namespace System::Diagnostics::Tracing
 {
@@ -25,29 +25,29 @@ namespace System::Diagnostics::Tracing
 	class EventListener : public ::System::Object
 	{
 	public:
-		static ::System::Diagnostics::Tracing::EventListener** StaticGet_s_Listeners()
+		static ::System::Object** StaticGet_s_EventSourceCreatedLock()
 		{
-			return (::System::Diagnostics::Tracing::EventListener**)Il2CppClass::FromTypeDefinitionIndex(EventListener_TypeDefinitionIndex)->GetStaticField(0xB6B0);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(EventListener_TypeDefinitionIndex)->GetStaticField(0x13770);
 		}
 		static ::System::Collections::Generic::List_1<::System::WeakReference*>** StaticGet_s_EventSources()
 		{
-			return (::System::Collections::Generic::List_1<::System::WeakReference*>**)Il2CppClass::FromTypeDefinitionIndex(EventListener_TypeDefinitionIndex)->GetStaticField(0xB6B8);
+			return (::System::Collections::Generic::List_1<::System::WeakReference*>**)Il2CppClass::FromTypeDefinitionIndex(EventListener_TypeDefinitionIndex)->GetStaticField(0x13778);
 		}
-		static ::System::Object** StaticGet_s_EventSourceCreatedLock()
+		static ::System::Diagnostics::Tracing::EventListener** StaticGet_s_Listeners()
 		{
-			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(EventListener_TypeDefinitionIndex)->GetStaticField(0xB6C0);
-		}
-		static ::System::Boolean* StaticGet_s_EventSourceShutdownRegistered()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(EventListener_TypeDefinitionIndex)->GetStaticField(0x2790);
+			return (::System::Diagnostics::Tracing::EventListener**)Il2CppClass::FromTypeDefinitionIndex(EventListener_TypeDefinitionIndex)->GetStaticField(0x13780);
 		}
 		static ::System::Boolean* StaticGet_s_CreatingListener()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(EventListener_TypeDefinitionIndex)->GetStaticField(0x2791);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(EventListener_TypeDefinitionIndex)->GetStaticField(0x3FD0);
 		}
-		::System::EventHandler_1<::System::Diagnostics::Tracing::EventSourceCreatedEventArgs*>* _EventSourceCreated; // 0x10
+		static ::System::Boolean* StaticGet_s_EventSourceShutdownRegistered()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(EventListener_TypeDefinitionIndex)->GetStaticField(0x3FD1);
+		}
+		::System::Diagnostics::Tracing::ActivityFilter* m_activityFilter; // 0x10
 		::System::EventHandler_1<::System::Diagnostics::Tracing::EventWrittenEventArgs*>* EventWritten; // 0x18
-		::System::Diagnostics::Tracing::ActivityFilter* m_activityFilter; // 0x20
+		::System::EventHandler_1<::System::Diagnostics::Tracing::EventSourceCreatedEventArgs*>* _EventSourceCreated; // 0x20
 		::System::Diagnostics::Tracing::EventListener* m_Next; // 0x28
 
 		static ::System::Void _cctor()

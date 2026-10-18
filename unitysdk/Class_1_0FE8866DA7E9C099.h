@@ -7,19 +7,19 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class Texture; }
 namespace UnityEngine::UI { class RuntimeAtlasManager; }
 
-#define CLASS_1_0FE8866DA7E9C099_DISPOSE_OFFSET UNITYSDK_OFFSET(0x18A59830)
-#define CLASS_1_0FE8866DA7E9C099_METHOD_1_81A66FB988DFA6AA_OFFSET UNITYSDK_OFFSET(0x18A59690)
-#define CLASS_1_0FE8866DA7E9C099_METHOD_1_AA7E3074254D484A_OFFSET UNITYSDK_OFFSET(0x18A598C0)
-#define CLASS_1_0FE8866DA7E9C099__CTOR_OFFSET UNITYSDK_OFFSET(0x18A59680)
+#define CLASS_1_0FE8866DA7E9C099_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15E99DB0)
+#define CLASS_1_0FE8866DA7E9C099_METHOD_1_81A66FB988DFA6AA_OFFSET UNITYSDK_OFFSET(0x15E99C10)
+#define CLASS_1_0FE8866DA7E9C099_METHOD_1_AA7E3074254D484A_OFFSET UNITYSDK_OFFSET(0x15E99E40)
+#define CLASS_1_0FE8866DA7E9C099__CTOR_OFFSET UNITYSDK_OFFSET(0x15E99C00)
 
-inline static constexpr unsigned int Class_1_0FE8866DA7E9C099_TypeDefinitionIndex = 72565;
+inline static constexpr unsigned int Class_1_0FE8866DA7E9C099_TypeDefinitionIndex = 72640;
 
 class Class_1_0FE8866DA7E9C099 : public ::System::Object
 {
 public:
-	::UnityEngine::UI::RuntimeAtlasManager* NECFCKBGIIJ; // 0x10
-	::UnityEngine::Material* ILKIEOPBAGE; // 0x18
-	::UnityEngine::Texture* JCPDDABHJPI; // 0x20
+	::UnityEngine::Material* ILKIEOPBAGE; // 0x10
+	::UnityEngine::Texture* JCPDDABHJPI; // 0x18
+	::UnityEngine::UI::RuntimeAtlasManager* NECFCKBGIIJ; // 0x20
 	::UnityEngine::ComputeShader* AAFAJOFGPCN; // 0x28
 
 	::System::Void _ctor()

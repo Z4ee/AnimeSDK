@@ -4,19 +4,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_STAGEINFINITEMONSTERGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D0C2750)
-#define RPG_GAMECORE_STAGEINFINITEMONSTERGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0C28A0)
+#define RPG_GAMECORE_STAGEINFINITEMONSTERGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DAE0750)
+#define RPG_GAMECORE_STAGEINFINITEMONSTERGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1DAE08A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StageInfiniteMonsterGroupRow_TypeDefinitionIndex = 14984;
+	inline static constexpr unsigned int StageInfiniteMonsterGroupRow_TypeDefinitionIndex = 15151;
 
 	class StageInfiniteMonsterGroupRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* MonsterList; // 0x10
-		::System::UInt32 EliteGroup; // 0x18
-		::System::UInt32 InfiniteMonsterGroupID; // 0x1C
+		::System::UInt32 InfiniteMonsterGroupID; // 0x18
+		::System::UInt32 EliteGroup; // 0x1C
 
 		::System::Void _ctor()
 		{

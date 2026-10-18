@@ -5,19 +5,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_PAMCHATQUICKFUNCTIONCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D411070)
-#define RPG_GAMECORE_PAMCHATQUICKFUNCTIONCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D411280)
+#define RPG_GAMECORE_PAMCHATQUICKFUNCTIONCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D8BE6D0)
+#define RPG_GAMECORE_PAMCHATQUICKFUNCTIONCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D8BE8E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PamChatQuickFunctionConfigRow_TypeDefinitionIndex = 14205;
+	inline static constexpr unsigned int PamChatQuickFunctionConfigRow_TypeDefinitionIndex = 14312;
 
 	class PamChatQuickFunctionConfigRow : public ::System::Object
 	{
 	public:
-		::RPG::Client::TextID PlayerInputText; // 0x10
+		::RPG::Client::TextID BtnName; // 0x10
 		::System::UInt32 ID; // 0x20
-		::RPG::Client::TextID BtnName; // 0x28
+		::RPG::Client::TextID PlayerInputText; // 0x28
 
 		::System::Void _ctor()
 		{

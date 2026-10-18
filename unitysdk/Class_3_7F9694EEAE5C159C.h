@@ -5,10 +5,10 @@
 namespace RPG::Client { class RoadRashGameAbility_UltimateV2; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_7F9694EEAE5C159C_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1883E950)
-#define CLASS_3_7F9694EEAE5C159C__CTOR_OFFSET UNITYSDK_OFFSET(0x1883E920)
+#define CLASS_3_7F9694EEAE5C159C_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x133257E0)
+#define CLASS_3_7F9694EEAE5C159C__CTOR_OFFSET UNITYSDK_OFFSET(0x133257B0)
 
-inline static constexpr unsigned int Class_3_7F9694EEAE5C159C_TypeDefinitionIndex = 58560;
+inline static constexpr unsigned int Class_3_7F9694EEAE5C159C_TypeDefinitionIndex = 58411;
 
 class Class_3_7F9694EEAE5C159C : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::Client::RoadRashGameAbility_UltimateV2*>
 {

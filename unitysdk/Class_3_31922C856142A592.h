@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AdventureSkillTriggerAbility; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_31922C856142A592_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18D34760)
-#define CLASS_3_31922C856142A592__CTOR_OFFSET UNITYSDK_OFFSET(0x18D34730)
+#define CLASS_3_31922C856142A592_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB43B020)
+#define CLASS_3_31922C856142A592__CTOR_OFFSET UNITYSDK_OFFSET(0xB43AFF0)
 
-inline static constexpr unsigned int Class_3_31922C856142A592_TypeDefinitionIndex = 58067;
+inline static constexpr unsigned int Class_3_31922C856142A592_TypeDefinitionIndex = 57914;
 
 class Class_3_31922C856142A592 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AdventureSkillTriggerAbility*>
 {

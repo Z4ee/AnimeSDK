@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class StopAnimatorLayerEmotion; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_A2217257BE1A6EB5_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x19FB9760)
-#define CLASS_3_A2217257BE1A6EB5__CTOR_OFFSET UNITYSDK_OFFSET(0x19FB9730)
+#define CLASS_3_A2217257BE1A6EB5_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x164A2C80)
+#define CLASS_3_A2217257BE1A6EB5__CTOR_OFFSET UNITYSDK_OFFSET(0x164A2C50)
 
-inline static constexpr unsigned int Class_3_A2217257BE1A6EB5_TypeDefinitionIndex = 56088;
+inline static constexpr unsigned int Class_3_A2217257BE1A6EB5_TypeDefinitionIndex = 55900;
 
 class Class_3_A2217257BE1A6EB5 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::StopAnimatorLayerEmotion*>
 {

@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class ExpeditionBattleRoute; }
 
-#define RPG_CLIENT_EXPEDITIONBATTLEFLOWVIEWMODEL___C__DISPLAYCLASS43_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B88E130)
-#define RPG_CLIENT_EXPEDITIONBATTLEFLOWVIEWMODEL___C__DISPLAYCLASS43_0__GETCURRENTLEVELROUTEENDDATA_B__0_OFFSET UNITYSDK_OFFSET(0x1B88EA70)
+#define RPG_CLIENT_EXPEDITIONBATTLEFLOWVIEWMODEL___C__DISPLAYCLASS43_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCE40D70)
+#define RPG_CLIENT_EXPEDITIONBATTLEFLOWVIEWMODEL___C__DISPLAYCLASS43_0__GETCURRENTLEVELROUTEENDDATA_B__0_OFFSET UNITYSDK_OFFSET(0xCE416B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ExpeditionBattleFlowViewModel___c__DisplayClass43_0_TypeDefinitionIndex = 63981;
+	inline static constexpr unsigned int ExpeditionBattleFlowViewModel___c__DisplayClass43_0_TypeDefinitionIndex = 63919;
 
 	class ExpeditionBattleFlowViewModel___c__DisplayClass43_0 : public ::System::Object
 	{

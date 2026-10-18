@@ -6,12 +6,12 @@
 
 namespace System { class Object; }
 
-#define RPGTOOLS_TIMELINE_HIDEPROMIXER_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x1B590E90)
-#define RPGTOOLS_TIMELINE_HIDEPROMIXER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5913E0)
+#define RPGTOOLS_TIMELINE_HIDEPROMIXER_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xE8F6160)
+#define RPGTOOLS_TIMELINE_HIDEPROMIXER__CTOR_OFFSET UNITYSDK_OFFSET(0xE8F66B0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int HideProMixer_TypeDefinitionIndex = 48599;
+	inline static constexpr unsigned int HideProMixer_TypeDefinitionIndex = 48139;
 
 	class HideProMixer : public ::UnityEngine::Playables::PlayableBehaviour
 	{

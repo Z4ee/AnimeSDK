@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int IObjPool_TypeDefinitionIndex = 34835;
+	inline static constexpr unsigned int IObjPool_TypeDefinitionIndex = 35504;
 
 	class IObjPool
 	{

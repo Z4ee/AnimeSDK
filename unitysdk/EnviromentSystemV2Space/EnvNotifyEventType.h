@@ -3,7 +3,7 @@
 
 namespace EnviromentSystemV2Space
 {
-	inline static constexpr unsigned int EnvNotifyEventType_TypeDefinitionIndex = 49721;
+	inline static constexpr unsigned int EnvNotifyEventType_TypeDefinitionIndex = 49295;
 
 	enum class EnvNotifyEventType : ::System::Int32
 	{

@@ -7,26 +7,26 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define CLASS_3_6C3A22ADE2EA45C7_METHOD_3_28DFC52A1206DD2C_OFFSET UNITYSDK_OFFSET(0x1D1F88D0)
-#define CLASS_3_6C3A22ADE2EA45C7_METHOD_3_7DC061678298D63E_OFFSET UNITYSDK_OFFSET(0x1D1F8910)
-#define CLASS_3_6C3A22ADE2EA45C7__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1F8900)
+#define CLASS_3_6C3A22ADE2EA45C7_METHOD_3_28DFC52A1206DD2C_OFFSET UNITYSDK_OFFSET(0x1D26A9F0)
+#define CLASS_3_6C3A22ADE2EA45C7_METHOD_3_7DC061678298D63E_OFFSET UNITYSDK_OFFSET(0x1D26AA30)
+#define CLASS_3_6C3A22ADE2EA45C7__CTOR_OFFSET UNITYSDK_OFFSET(0x1D26AA20)
 
-inline static constexpr unsigned int Class_3_6C3A22ADE2EA45C7_TypeDefinitionIndex = 21255;
+inline static constexpr unsigned int Class_3_6C3A22ADE2EA45C7_TypeDefinitionIndex = 21501;
 
 class Class_3_6C3A22ADE2EA45C7 : public ::RPG::GameCore::TaskConfig
 {
 public:
 	::System::String* BPLDECIIJBE; // 0x18
-	::System::String* BJALGDJKGFP; // 0x20
-	::System::String* LGCAAFFFBHJ; // 0x28
-	::System::String* MLMILNIODBB; // 0x30
-	::RPG::GameCore::ChenLingFesCointFormulaTerm MLAKOIDJHJF; // 0x38
+	::System::String* MLMILNIODBB; // 0x20
+	::System::String* BJALGDJKGFP; // 0x28
+	::System::String* LGCAAFFFBHJ; // 0x30
+	::System::UInt32 CMNOEFFFNPE; // 0x38
 	::System::UInt32 BADKEABAEMP; // 0x3C
-	::System::Boolean MHGBOBLCBIB; // 0x40
-	::System::Boolean OIAKOCEKFAH; // 0x41
-	::System::Boolean CEAPGCBPBCK; // 0x42
-	::System::UInt32 CMNOEFFFNPE; // 0x44
-	::RPG::GameCore::ChenLingFesCointFormulaTerm GEPGCCLFKCF; // 0x48
+	::System::Boolean CEAPGCBPBCK; // 0x40
+	::System::Boolean MHGBOBLCBIB; // 0x41
+	::System::Boolean OIAKOCEKFAH; // 0x42
+	::RPG::GameCore::ChenLingFesCointFormulaTerm GEPGCCLFKCF; // 0x44
+	::RPG::GameCore::ChenLingFesCointFormulaTerm MLAKOIDJHJF; // 0x48
 	::RPG::GameCore::ChenLingFesItemFilterType CADEJOOMKOI; // 0x4C
 
 	::System::Void _ctor()

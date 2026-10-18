@@ -1,10 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/TeamType.h"
 
-namespace RPG::Client { class IChestIcon; }
-namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
+class Class_1_34917908B7833130;
+namespace RPG::GameCore { class GameEntity; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_1205_TypeDefinitionIndex = 74394;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_1205_TypeDefinitionIndex = 71562;
 
 class Class_0_16E4307DCC419505_1205
 {

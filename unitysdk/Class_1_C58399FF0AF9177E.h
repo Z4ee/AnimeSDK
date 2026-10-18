@@ -8,21 +8,21 @@ namespace R3 { template <typename T> class ReactiveProperty_1; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_C58399FF0AF9177E_GET_FOCUSENTERCOUNT_OFFSET UNITYSDK_OFFSET(0x18FCF5A0)
-#define CLASS_1_C58399FF0AF9177E_GET_INITIALFOCUSITEM_OFFSET UNITYSDK_OFFSET(0x18FCF780)
-#define CLASS_1_C58399FF0AF9177E_GET_ISFOCUSED_OFFSET UNITYSDK_OFFSET(0x18FCF580)
-#define CLASS_1_C58399FF0AF9177E_GET_ISSELECTED_OFFSET UNITYSDK_OFFSET(0x18FCF590)
-#define CLASS_1_C58399FF0AF9177E_GET_ITEMS_OFFSET UNITYSDK_OFFSET(0x18FCF770)
-#define CLASS_1_C58399FF0AF9177E_METHOD_1_325FB2092638A4A6_OFFSET UNITYSDK_OFFSET(0x18FCF5B0)
-#define CLASS_1_C58399FF0AF9177E__CTOR_OFFSET UNITYSDK_OFFSET(0x18FCF790)
+#define CLASS_1_C58399FF0AF9177E_GET_FOCUSENTERCOUNT_OFFSET UNITYSDK_OFFSET(0xB56E750)
+#define CLASS_1_C58399FF0AF9177E_GET_INITIALFOCUSITEM_OFFSET UNITYSDK_OFFSET(0xB56E930)
+#define CLASS_1_C58399FF0AF9177E_GET_ISFOCUSED_OFFSET UNITYSDK_OFFSET(0xB56E730)
+#define CLASS_1_C58399FF0AF9177E_GET_ISSELECTED_OFFSET UNITYSDK_OFFSET(0xB56E740)
+#define CLASS_1_C58399FF0AF9177E_GET_ITEMS_OFFSET UNITYSDK_OFFSET(0xB56E920)
+#define CLASS_1_C58399FF0AF9177E_METHOD_1_325FB2092638A4A6_OFFSET UNITYSDK_OFFSET(0xB56E760)
+#define CLASS_1_C58399FF0AF9177E__CTOR_OFFSET UNITYSDK_OFFSET(0xB56E940)
 
-inline static constexpr unsigned int Class_1_C58399FF0AF9177E_TypeDefinitionIndex = 73368;
+inline static constexpr unsigned int Class_1_C58399FF0AF9177E_TypeDefinitionIndex = 73474;
 
 class Class_1_C58399FF0AF9177E : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::Class_1_1B1C1CCEF5791333*>* _Items_k__BackingField; // 0x10
-	::R3::ReactiveProperty_1<::System::Boolean>* _IsFocused_k__BackingField; // 0x18
+	::R3::ReactiveProperty_1<::System::Boolean>* _IsFocused_k__BackingField; // 0x10
+	::System::Collections::Generic::List_1<::Class_1_1B1C1CCEF5791333*>* _Items_k__BackingField; // 0x18
 	::R3::ReactiveProperty_1<::System::Int32>* _FocusEnterCount_k__BackingField; // 0x20
 	::R3::ReactiveProperty_1<::System::Boolean>* _IsSelected_k__BackingField; // 0x28
 	::R3::ReactiveProperty_1<::Class_1_1B1C1CCEF5791333*>* _InitialFocusItem_k__BackingField; // 0x30

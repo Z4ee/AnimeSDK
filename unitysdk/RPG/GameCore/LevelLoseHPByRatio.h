@@ -7,14 +7,14 @@
 
 namespace RPG::GameCore { class GameEntity; }
 
-#define RPG_GAMECORE_LEVELLOSEHPBYRATIO_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x1DD29830)
-#define RPG_GAMECORE_LEVELLOSEHPBYRATIO_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x1DD297E0)
-#define RPG_GAMECORE_LEVELLOSEHPBYRATIO_INIT_OFFSET UNITYSDK_OFFSET(0x1DD29770)
-#define RPG_GAMECORE_LEVELLOSEHPBYRATIO__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD29880)
+#define RPG_GAMECORE_LEVELLOSEHPBYRATIO_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE6E90F0)
+#define RPG_GAMECORE_LEVELLOSEHPBYRATIO_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE6E90A0)
+#define RPG_GAMECORE_LEVELLOSEHPBYRATIO_INIT_OFFSET UNITYSDK_OFFSET(0xE6E9030)
+#define RPG_GAMECORE_LEVELLOSEHPBYRATIO__CTOR_OFFSET UNITYSDK_OFFSET(0xE6E9140)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelLoseHPByRatio_TypeDefinitionIndex = 56967;
+	inline static constexpr unsigned int LevelLoseHPByRatio_TypeDefinitionIndex = 56788;
 
 	class LevelLoseHPByRatio : public ::Class_1_BF7A075734D15E98
 	{
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 		::RPG::GameCore::GameEntity* Target; // 0x18
 		::RPG::GameCore::GameEntity* Attacker; // 0x20
 		::RPG::MVector3 HitPos; // 0x28
-		::RPG::GameCore::FixPoint Damage; // 0x38
-		::System::Single DitherRangeA; // 0x40
-		::System::Single DitherRangeB; // 0x44
+		::System::Single DitherRangeB; // 0x34
+		::System::Single DitherRangeA; // 0x38
+		::RPG::GameCore::FixPoint Damage; // 0x40
 
 		::System::Void _ctor()
 		{

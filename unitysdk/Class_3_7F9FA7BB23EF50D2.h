@@ -6,10 +6,10 @@
 namespace RPG::GameCore { class SetDynamicValueByAdsorption; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_7F9FA7BB23EF50D2_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17DF43E0)
-#define CLASS_3_7F9FA7BB23EF50D2__CTOR_OFFSET UNITYSDK_OFFSET(0x17DF4300)
+#define CLASS_3_7F9FA7BB23EF50D2_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF21FD40)
+#define CLASS_3_7F9FA7BB23EF50D2__CTOR_OFFSET UNITYSDK_OFFSET(0xF21FC60)
 
-inline static constexpr unsigned int Class_3_7F9FA7BB23EF50D2_TypeDefinitionIndex = 55598;
+inline static constexpr unsigned int Class_3_7F9FA7BB23EF50D2_TypeDefinitionIndex = 55405;
 
 class Class_3_7F9FA7BB23EF50D2 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetDynamicValueByAdsorption*>
 {

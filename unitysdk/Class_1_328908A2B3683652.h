@@ -8,16 +8,16 @@
 class Class_2_197CC3E8889A3449;
 namespace UnityEngine { class Transform; }
 
-#define CLASS_1_328908A2B3683652__CTOR_OFFSET UNITYSDK_OFFSET(0x1C756BE0)
+#define CLASS_1_328908A2B3683652__CTOR_OFFSET UNITYSDK_OFFSET(0x1CA86A30)
 
-inline static constexpr unsigned int Class_1_328908A2B3683652_TypeDefinitionIndex = 41207;
+inline static constexpr unsigned int Class_1_328908A2B3683652_TypeDefinitionIndex = 42496;
 
 class Class_1_328908A2B3683652 : public ::System::Object
 {
 public:
-	::UnityEngine::Transform* HPKFMJOMHFI; // 0x10
-	::Class_2_197CC3E8889A3449* FNPCCACIFBF; // 0x18
-	::System::Nullable_1<::Struct_2_882A7D00DFE0F598> FJGJDPKCKLK; // 0x20
+	::System::Nullable_1<::Struct_2_882A7D00DFE0F598> FJGJDPKCKLK; // 0x10
+	::UnityEngine::Transform* HPKFMJOMHFI; // 0x28
+	::Class_2_197CC3E8889A3449* FNPCCACIFBF; // 0x30
 	::UnityEngine::Vector3Int IGDPLGAGAHF; // 0x38
 
 	::System::Void _ctor()

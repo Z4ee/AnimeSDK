@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK::UI::OS
 {
-	inline static constexpr unsigned int ChannelProtocolDisplayType_TypeDefinitionIndex = 8411;
+	inline static constexpr unsigned int ChannelProtocolDisplayType_TypeDefinitionIndex = 8454;
 
 	enum class ChannelProtocolDisplayType : ::System::Int32
 	{

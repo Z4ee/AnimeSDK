@@ -8,26 +8,26 @@ namespace UnityEngine { class ComputeShader; }
 namespace UnityEngine { class Mesh; }
 namespace UnityEngine { class Texture2D; }
 
-#define CLASS_1_FEB155D0266B65E2_METHOD_1_3BC9430E920E18AE_OFFSET UNITYSDK_OFFSET(0x19181130)
-#define CLASS_1_FEB155D0266B65E2_METHOD_1_8B50C99A62E03A3E_OFFSET UNITYSDK_OFFSET(0x191810D0)
-#define CLASS_1_FEB155D0266B65E2__CCTOR_OFFSET UNITYSDK_OFFSET(0x19181820)
+#define CLASS_1_FEB155D0266B65E2_METHOD_1_3BC9430E920E18AE_OFFSET UNITYSDK_OFFSET(0x158A06B0)
+#define CLASS_1_FEB155D0266B65E2_METHOD_1_8B50C99A62E03A3E_OFFSET UNITYSDK_OFFSET(0x158A0650)
+#define CLASS_1_FEB155D0266B65E2__CCTOR_OFFSET UNITYSDK_OFFSET(0x158A0D40)
 
-inline static constexpr unsigned int Class_1_FEB155D0266B65E2_TypeDefinitionIndex = 73620;
+inline static constexpr unsigned int Class_1_FEB155D0266B65E2_TypeDefinitionIndex = 73727;
 
 class Class_1_FEB155D0266B65E2 : public ::System::Object
 {
 public:
-	static ::System::Boolean* StaticGet_DPHNNDMOCPJ()
-	{
-		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_FEB155D0266B65E2_TypeDefinitionIndex)->GetStaticField(0xA580);
-	}
 	static ::System::Boolean* StaticGet_EEEMBMAHNMJ()
 	{
-		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_FEB155D0266B65E2_TypeDefinitionIndex)->GetStaticField(0xA581);
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_FEB155D0266B65E2_TypeDefinitionIndex)->GetStaticField(0x5B50);
+	}
+	static ::System::Boolean* StaticGet_DPHNNDMOCPJ()
+	{
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_FEB155D0266B65E2_TypeDefinitionIndex)->GetStaticField(0x5B51);
 	}
 	static ::System::Int32* StaticGet_NNADHCHDDBE()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_FEB155D0266B65E2_TypeDefinitionIndex)->GetStaticField(0xA584);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_FEB155D0266B65E2_TypeDefinitionIndex)->GetStaticField(0x5B54);
 	}
 	// static const ::System::String* HOAFODJBPLL; // 0x0
 	// static const ::System::String* HKIMHMBFNBB; // 0x0

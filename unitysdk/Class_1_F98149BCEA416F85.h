@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_1326;
+class Class_0_16E4307DCC419505_1471;
 class Class_1_9245418C99B6B18D;
 namespace RPG::GameCore { class RedDotNodeConfig; }
 namespace System { class String; }
@@ -10,21 +10,21 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_F98149BCEA416F85_METHOD_1_782A264ADCCFDB63_OFFSET UNITYSDK_OFFSET(0x19B76D60)
-#define CLASS_1_F98149BCEA416F85_METHOD_1_C14A23B3DEF26748_OFFSET UNITYSDK_OFFSET(0x19B774F0)
-#define CLASS_1_F98149BCEA416F85_METHOD_1_D23E7A68A365DA99_OFFSET UNITYSDK_OFFSET(0x19B76550)
-#define CLASS_1_F98149BCEA416F85__CTOR_OFFSET UNITYSDK_OFFSET(0x19B76500)
+#define CLASS_1_F98149BCEA416F85_METHOD_1_782A264ADCCFDB63_OFFSET UNITYSDK_OFFSET(0xBC5DD10)
+#define CLASS_1_F98149BCEA416F85_METHOD_1_C14A23B3DEF26748_OFFSET UNITYSDK_OFFSET(0xBC5E4A0)
+#define CLASS_1_F98149BCEA416F85_METHOD_1_D23E7A68A365DA99_OFFSET UNITYSDK_OFFSET(0xBC5D4C0)
+#define CLASS_1_F98149BCEA416F85__CTOR_OFFSET UNITYSDK_OFFSET(0xBC5D470)
 
-inline static constexpr unsigned int Class_1_F98149BCEA416F85_TypeDefinitionIndex = 78683;
+inline static constexpr unsigned int Class_1_F98149BCEA416F85_TypeDefinitionIndex = 79162;
 
 class Class_1_F98149BCEA416F85 : public ::System::Object
 {
 public:
-	::Class_0_16E4307DCC419505_1326* AHDMPIOFBLD; // 0x10
+	::Class_0_16E4307DCC419505_1471* AHDMPIOFBLD; // 0x10
 
-	::System::Void _ctor(::Class_0_16E4307DCC419505_1326* a1)
+	::System::Void _ctor(::Class_0_16E4307DCC419505_1471* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_1326*))((::PBYTE)hIl2Cpp + CLASS_1_F98149BCEA416F85__CTOR_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_1471*))((::PBYTE)hIl2Cpp + CLASS_1_F98149BCEA416F85__CTOR_OFFSET))(this, a1);
 	}
 
 	::Class_1_9245418C99B6B18D* Method_1_D23E7A68A365DA99()

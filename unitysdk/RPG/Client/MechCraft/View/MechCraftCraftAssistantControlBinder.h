@@ -1,0 +1,74 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/MechCraft/View/MechCraftBinderBase.h"
+
+namespace RPG::Client { class AnimatorButton; }
+namespace RPG::Client { class LocalizedText; }
+namespace UnityEngine { class Animation; }
+namespace UnityEngine { class CanvasGroup; }
+namespace UnityEngine { class RectTransform; }
+namespace UnityEngine::UI { class Image; }
+
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTASSISTANTCONTROLBINDER_GET_ANIMTALK_OFFSET UNITYSDK_OFFSET(0xD5EEF50)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTASSISTANTCONTROLBINDER_GET_BTNTALK_OFFSET UNITYSDK_OFFSET(0xD5EE110)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTASSISTANTCONTROLBINDER_GET_CANVASGROUPTALK_OFFSET UNITYSDK_OFFSET(0xD5EE540)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTASSISTANTCONTROLBINDER_GET_HINTCANCLICK1_OFFSET UNITYSDK_OFFSET(0xD5EE8B0)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTASSISTANTCONTROLBINDER_GET_HINTCANCLICK2_OFFSET UNITYSDK_OFFSET(0xD5EE960)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTASSISTANTCONTROLBINDER_GET_IMAGEACTOR_OFFSET UNITYSDK_OFFSET(0xD5EE1C0)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTASSISTANTCONTROLBINDER_GET_NODETALK_OFFSET UNITYSDK_OFFSET(0xD5EE490)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTASSISTANTCONTROLBINDER_GET_TEXTTALKCONTENT_OFFSET UNITYSDK_OFFSET(0xD5EEEA0)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTASSISTANTCONTROLBINDER__CTOR_OFFSET UNITYSDK_OFFSET(0xD5EF1A0)
+
+namespace RPG::Client::MechCraft::View
+{
+	inline static constexpr unsigned int MechCraftCraftAssistantControlBinder_TypeDefinitionIndex = 79839;
+
+	class MechCraftCraftAssistantControlBinder : public ::RPG::Client::MechCraft::View::MechCraftBinderBase
+	{
+	public:
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTASSISTANTCONTROLBINDER__CTOR_OFFSET))(this);
+		}
+
+		::UnityEngine::RectTransform* get_NodeTalk()
+		{
+			return ((::UnityEngine::RectTransform*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTASSISTANTCONTROLBINDER_GET_NODETALK_OFFSET))(this);
+		}
+
+		::UnityEngine::UI::Image* get_ImageActor()
+		{
+			return ((::UnityEngine::UI::Image*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTASSISTANTCONTROLBINDER_GET_IMAGEACTOR_OFFSET))(this);
+		}
+
+		::RPG::Client::LocalizedText* get_TextTalkContent()
+		{
+			return ((::RPG::Client::LocalizedText*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTASSISTANTCONTROLBINDER_GET_TEXTTALKCONTENT_OFFSET))(this);
+		}
+
+		::RPG::Client::AnimatorButton* get_BtnTalk()
+		{
+			return ((::RPG::Client::AnimatorButton*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTASSISTANTCONTROLBINDER_GET_BTNTALK_OFFSET))(this);
+		}
+
+		::UnityEngine::Animation* get_AnimTalk()
+		{
+			return ((::UnityEngine::Animation*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTASSISTANTCONTROLBINDER_GET_ANIMTALK_OFFSET))(this);
+		}
+
+		::UnityEngine::CanvasGroup* get_CanvasGroupTalk()
+		{
+			return ((::UnityEngine::CanvasGroup*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTASSISTANTCONTROLBINDER_GET_CANVASGROUPTALK_OFFSET))(this);
+		}
+
+		::UnityEngine::RectTransform* get_HintCanClick1()
+		{
+			return ((::UnityEngine::RectTransform*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTASSISTANTCONTROLBINDER_GET_HINTCANCLICK1_OFFSET))(this);
+		}
+
+		::UnityEngine::RectTransform* get_HintCanClick2()
+		{
+			return ((::UnityEngine::RectTransform*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTASSISTANTCONTROLBINDER_GET_HINTCANCLICK2_OFFSET))(this);
+		}
+	};
+}

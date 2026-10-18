@@ -13,7 +13,7 @@ namespace System::Collections::Generic { template <typename T> class IEqualityCo
 
 namespace R3
 {
-	inline static constexpr unsigned int ObservableExtensions_TypeDefinitionIndex = 35225;
+	inline static constexpr unsigned int ObservableExtensions_TypeDefinitionIndex = 35899;
 
 	class ObservableExtensions : public ::System::Object
 	{

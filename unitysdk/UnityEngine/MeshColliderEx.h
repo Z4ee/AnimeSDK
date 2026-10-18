@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MeshCollider.h"
 
-#define UNITYENGINE_MESHCOLLIDEREX_GET_MULTILAYERMASK_OFFSET UNITYSDK_OFFSET(0x1E8E4EA0)
+#define UNITYENGINE_MESHCOLLIDEREX_GET_MULTILAYERMASK_OFFSET UNITYSDK_OFFSET(0x1F455FE0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int MeshColliderEx_TypeDefinitionIndex = 5310;
+	inline static constexpr unsigned int MeshColliderEx_TypeDefinitionIndex = 5317;
 
 	class MeshColliderEx : public ::UnityEngine::MeshCollider
 	{

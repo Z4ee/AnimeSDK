@@ -7,22 +7,22 @@ namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_AAC15A8C76AF280B_DISPOSE_OFFSET UNITYSDK_OFFSET(0x18BCD7B0)
-#define CLASS_2_AAC15A8C76AF280B_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18BCD860)
-#define CLASS_2_AAC15A8C76AF280B_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x18BCE660)
-#define CLASS_2_AAC15A8C76AF280B_TICK_OFFSET UNITYSDK_OFFSET(0x18BCE6B0)
-#define CLASS_2_AAC15A8C76AF280B__CTOR_OFFSET UNITYSDK_OFFSET(0x18BCD6B0)
+#define CLASS_2_AAC15A8C76AF280B_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB992F40)
+#define CLASS_2_AAC15A8C76AF280B_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB992FF0)
+#define CLASS_2_AAC15A8C76AF280B_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB993DE0)
+#define CLASS_2_AAC15A8C76AF280B_TICK_OFFSET UNITYSDK_OFFSET(0xB993E30)
+#define CLASS_2_AAC15A8C76AF280B__CTOR_OFFSET UNITYSDK_OFFSET(0xB992E40)
 
-inline static constexpr unsigned int Class_2_AAC15A8C76AF280B_TypeDefinitionIndex = 55212;
+inline static constexpr unsigned int Class_2_AAC15A8C76AF280B_TypeDefinitionIndex = 55005;
 
 class Class_2_AAC15A8C76AF280B : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::System::Collections::Generic::List_1<::RPG::GameCore::TurnBasedModifierInstance*>* FABICEFOKHC; // 0x18
-	::System::Collections::Generic::List_1<::RPG::GameCore::TurnBasedModifierInstance*>* BNLAOKGEFLK; // 0x20
+	::Class_1_5F51D4049EA87B7B* LLHKOFLJFCH; // 0x18
+	::RPG::GameCore::DispelStatus* OFKGLJOAMLD; // 0x20
 	::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x28
-	::RPG::GameCore::DispelStatus* OFKGLJOAMLD; // 0x30
-	::Class_1_5F51D4049EA87B7B* LLHKOFLJFCH; // 0x38
+	::System::Collections::Generic::List_1<::RPG::GameCore::TurnBasedModifierInstance*>* FABICEFOKHC; // 0x30
+	::System::Collections::Generic::List_1<::RPG::GameCore::TurnBasedModifierInstance*>* BNLAOKGEFLK; // 0x38
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::DispelStatus* a2)
 	{

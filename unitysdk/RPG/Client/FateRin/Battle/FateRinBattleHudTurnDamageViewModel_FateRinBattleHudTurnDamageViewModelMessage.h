@@ -3,7 +3,7 @@
 
 namespace RPG::Client::FateRin::Battle
 {
-	inline static constexpr unsigned int FateRinBattleHudTurnDamageViewModel_FateRinBattleHudTurnDamageViewModelMessage_TypeDefinitionIndex = 79615;
+	inline static constexpr unsigned int FateRinBattleHudTurnDamageViewModel_FateRinBattleHudTurnDamageViewModelMessage_TypeDefinitionIndex = 80939;
 
 	enum class FateRinBattleHudTurnDamageViewModel_FateRinBattleHudTurnDamageViewModelMessage : ::System::Int32
 	{

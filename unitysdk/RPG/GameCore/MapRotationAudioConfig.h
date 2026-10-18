@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MAPROTATIONAUDIOCONFIG_METHOD_2_BFB3C00067290EC5_OFFSET UNITYSDK_OFFSET(0x1D49AEC0)
-#define RPG_GAMECORE_MAPROTATIONAUDIOCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D49AFD0)
+#define RPG_GAMECORE_MAPROTATIONAUDIOCONFIG_METHOD_2_BFB3C00067290EC5_OFFSET UNITYSDK_OFFSET(0x1D8011A0)
+#define RPG_GAMECORE_MAPROTATIONAUDIOCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D8012B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MapRotationAudioConfig_TypeDefinitionIndex = 16843;
+	inline static constexpr unsigned int MapRotationAudioConfig_TypeDefinitionIndex = 17037;
 
 	class MapRotationAudioConfig : public ::RPG::GameCore::JsonConfig
 	{

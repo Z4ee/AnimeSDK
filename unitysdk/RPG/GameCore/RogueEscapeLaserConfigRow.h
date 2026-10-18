@@ -4,23 +4,23 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ROGUEESCAPELASERCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D931530)
-#define RPG_GAMECORE_ROGUEESCAPELASERCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D931C80)
+#define RPG_GAMECORE_ROGUEESCAPELASERCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D99D4F0)
+#define RPG_GAMECORE_ROGUEESCAPELASERCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D99DC40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueEscapeLaserConfigRow_TypeDefinitionIndex = 14507;
+	inline static constexpr unsigned int RogueEscapeLaserConfigRow_TypeDefinitionIndex = 14672;
 
 	class RogueEscapeLaserConfigRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* ScoreperRound; // 0x10
 		::Il2CppArray<::System::UInt32>* ScoreRange; // 0x18
-		::System::UInt32 ParamGroupID; // 0x20
+		::System::UInt32 GameTimeperRound; // 0x20
 		::System::UInt32 ScoreperWave; // 0x24
 		::System::UInt32 TotalRounds; // 0x28
 		::System::UInt32 PrepareTime; // 0x2C
-		::System::UInt32 GameTimeperRound; // 0x30
+		::System::UInt32 ParamGroupID; // 0x30
 
 		::System::Void _ctor()
 		{

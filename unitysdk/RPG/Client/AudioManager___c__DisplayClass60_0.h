@@ -5,18 +5,18 @@
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_AUDIOMANAGER___C__DISPLAYCLASS60_0__CTOR_OFFSET UNITYSDK_OFFSET(0x193B3B20)
-#define RPG_CLIENT_AUDIOMANAGER___C__DISPLAYCLASS60_0__PAUSEEVENT_B__0_OFFSET UNITYSDK_OFFSET(0x193B3B30)
+#define RPG_CLIENT_AUDIOMANAGER___C__DISPLAYCLASS60_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC6B5B90)
+#define RPG_CLIENT_AUDIOMANAGER___C__DISPLAYCLASS60_0__PAUSEEVENT_B__0_OFFSET UNITYSDK_OFFSET(0xC6BECE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AudioManager___c__DisplayClass60_0_TypeDefinitionIndex = 59876;
+	inline static constexpr unsigned int AudioManager___c__DisplayClass60_0_TypeDefinitionIndex = 59733;
 
 	class AudioManager___c__DisplayClass60_0 : public ::System::Object
 	{
 	public:
-		::System::String* eventName; // 0x10
-		::UnityEngine::GameObject* obj; // 0x18
+		::UnityEngine::GameObject* obj; // 0x10
+		::System::String* eventName; // 0x18
 
 		::System::Void _ctor()
 		{

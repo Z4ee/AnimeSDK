@@ -5,26 +5,26 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_DRINKMAKERCHEERSGUESTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DB0F420)
-#define RPG_GAMECORE_DRINKMAKERCHEERSGUESTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB0F7C0)
+#define RPG_GAMECORE_DRINKMAKERCHEERSGUESTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D5EE180)
+#define RPG_GAMECORE_DRINKMAKERCHEERSGUESTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5EE520)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DrinkMakerCheersGuestRow_TypeDefinitionIndex = 13107;
+	inline static constexpr unsigned int DrinkMakerCheersGuestRow_TypeDefinitionIndex = 13213;
 
 	class DrinkMakerCheersGuestRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* NextPerformanceID; // 0x10
-		::Il2CppArray<::System::UInt32>* SurpriseCommentList; // 0x18
-		::RPG::Client::TextID SurpriseRequest; // 0x20
-		::System::UInt32 OneMoreDrinkPerformanceID; // 0x30
+		::Il2CppArray<::System::UInt32>* SurpriseCommentList; // 0x10
+		::Il2CppArray<::System::UInt32>* NextPerformanceID; // 0x18
+		::System::UInt32 PerformanceID; // 0x20
+		::System::UInt32 GroupID; // 0x24
+		::System::UInt32 DrinkID; // 0x28
+		::System::UInt32 OneMoreDrinkPerformanceID; // 0x2C
+		::System::UInt32 ID; // 0x30
 		::System::UInt32 DrinkNamePerformanceID; // 0x34
-		::System::UInt32 ID; // 0x38
-		::System::UInt32 DrinkID; // 0x3C
-		::System::UInt32 FinishSettlementPerformanceID; // 0x40
-		::System::UInt32 GroupID; // 0x44
-		::System::UInt32 PerformanceID; // 0x48
+		::System::UInt32 FinishSettlementPerformanceID; // 0x38
+		::RPG::Client::TextID SurpriseRequest; // 0x40
 
 		::System::Void _ctor()
 		{

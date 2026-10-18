@@ -6,11 +6,11 @@ namespace RPG::Client { class AnimStateDebugItem; }
 namespace RPG::GameCore { class GameEntity; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ANIMSTATEDEBUGINFOPANEL__CTOR_OFFSET UNITYSDK_OFFSET(0x19C8D160)
+#define RPG_CLIENT_ANIMSTATEDEBUGINFOPANEL__CTOR_OFFSET UNITYSDK_OFFSET(0xC678910)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AnimStateDebugInfoPanel_TypeDefinitionIndex = 72655;
+	inline static constexpr unsigned int AnimStateDebugInfoPanel_TypeDefinitionIndex = 72730;
 
 	class AnimStateDebugInfoPanel : public ::UnityEngine::MonoBehaviour
 	{

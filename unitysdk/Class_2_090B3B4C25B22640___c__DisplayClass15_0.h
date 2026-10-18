@@ -6,10 +6,10 @@ class Class_2_090B3B4C25B22640;
 namespace RPG::Client { class MonoEffect; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_2_090B3B4C25B22640___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1872CDE0)
-#define CLASS_2_090B3B4C25B22640___C__DISPLAYCLASS15_0___DRAWLIGHTNINGRAY_B__0_OFFSET UNITYSDK_OFFSET(0x1872CE30)
+#define CLASS_2_090B3B4C25B22640___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0x12D08AD0)
+#define CLASS_2_090B3B4C25B22640___C__DISPLAYCLASS15_0___DRAWLIGHTNINGRAY_B__0_OFFSET UNITYSDK_OFFSET(0x12D08B20)
 
-inline static constexpr unsigned int Class_2_090B3B4C25B22640___c__DisplayClass15_0_TypeDefinitionIndex = 77424;
+inline static constexpr unsigned int Class_2_090B3B4C25B22640___c__DisplayClass15_0_TypeDefinitionIndex = 77895;
 
 class Class_2_090B3B4C25B22640___c__DisplayClass15_0 : public ::System::Object
 {

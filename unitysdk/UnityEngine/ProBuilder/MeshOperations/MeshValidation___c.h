@@ -7,34 +7,34 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace UnityEngine::ProBuilder { class Face; }
 
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHVALIDATION___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xCFF2FE0)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHVALIDATION___C__CTOR_OFFSET UNITYSDK_OFFSET(0xCFF3020)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHVALIDATION___C__ENSUREFACESARECOMPOSEDOFCONTIGUOUSTRIANGLES_B__4_0_OFFSET UNITYSDK_OFFSET(0xCFF3030)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHVALIDATION___C__ENSUREFACESARECOMPOSEDOFCONTIGUOUSTRIANGLES_B__4_1_OFFSET UNITYSDK_OFFSET(0xCFF3090)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHVALIDATION___C__REMOVEUNUSEDVERTICES_B__7_0_OFFSET UNITYSDK_OFFSET(0xCFF30F0)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHVALIDATION___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F208DB0)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHVALIDATION___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1F208DF0)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHVALIDATION___C__ENSUREFACESARECOMPOSEDOFCONTIGUOUSTRIANGLES_B__4_0_OFFSET UNITYSDK_OFFSET(0x1F208E00)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHVALIDATION___C__ENSUREFACESARECOMPOSEDOFCONTIGUOUSTRIANGLES_B__4_1_OFFSET UNITYSDK_OFFSET(0x1F208E60)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHVALIDATION___C__REMOVEUNUSEDVERTICES_B__7_0_OFFSET UNITYSDK_OFFSET(0x1F208EC0)
 
 namespace UnityEngine::ProBuilder::MeshOperations
 {
-	inline static constexpr unsigned int MeshValidation___c_TypeDefinitionIndex = 43317;
+	inline static constexpr unsigned int MeshValidation___c_TypeDefinitionIndex = 44509;
 
 	class MeshValidation___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::IEnumerable_1<::System::Int32>*>** StaticGet___9__7_0()
-		{
-			return (::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::IEnumerable_1<::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(MeshValidation___c_TypeDefinitionIndex)->GetStaticField(0x641C0);
-		}
-		static ::UnityEngine::ProBuilder::MeshOperations::MeshValidation___c** StaticGet___9()
-		{
-			return (::UnityEngine::ProBuilder::MeshOperations::MeshValidation___c**)Il2CppClass::FromTypeDefinitionIndex(MeshValidation___c_TypeDefinitionIndex)->GetStaticField(0x641C8);
-		}
 		static ::System::Func_2<::UnityEngine::ProBuilder::Triangle, ::System::Collections::Generic::IEnumerable_1<::System::Int32>*>** StaticGet___9__4_1()
 		{
-			return (::System::Func_2<::UnityEngine::ProBuilder::Triangle, ::System::Collections::Generic::IEnumerable_1<::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(MeshValidation___c_TypeDefinitionIndex)->GetStaticField(0x641D0);
+			return (::System::Func_2<::UnityEngine::ProBuilder::Triangle, ::System::Collections::Generic::IEnumerable_1<::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(MeshValidation___c_TypeDefinitionIndex)->GetStaticField(0x4F740);
+		}
+		static ::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::IEnumerable_1<::System::Int32>*>** StaticGet___9__7_0()
+		{
+			return (::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::IEnumerable_1<::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(MeshValidation___c_TypeDefinitionIndex)->GetStaticField(0x4F748);
 		}
 		static ::System::Func_2<::UnityEngine::ProBuilder::Triangle, ::System::Collections::Generic::IEnumerable_1<::System::Int32>*>** StaticGet___9__4_0()
 		{
-			return (::System::Func_2<::UnityEngine::ProBuilder::Triangle, ::System::Collections::Generic::IEnumerable_1<::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(MeshValidation___c_TypeDefinitionIndex)->GetStaticField(0x641D8);
+			return (::System::Func_2<::UnityEngine::ProBuilder::Triangle, ::System::Collections::Generic::IEnumerable_1<::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(MeshValidation___c_TypeDefinitionIndex)->GetStaticField(0x4F750);
+		}
+		static ::UnityEngine::ProBuilder::MeshOperations::MeshValidation___c** StaticGet___9()
+		{
+			return (::UnityEngine::ProBuilder::MeshOperations::MeshValidation___c**)Il2CppClass::FromTypeDefinitionIndex(MeshValidation___c_TypeDefinitionIndex)->GetStaticField(0x4F758);
 		}
 
 		static ::System::Void _cctor()

@@ -6,7 +6,7 @@ namespace System { template <typename T> class Action_1; }
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int SingleConsumerUnboundedChannel_1_SingleConsumerUnboundedChannelReader_ReadAllAsyncEnumerable___O_TypeDefinitionIndex = 42565;
+	inline static constexpr unsigned int SingleConsumerUnboundedChannel_1_SingleConsumerUnboundedChannelReader_ReadAllAsyncEnumerable___O_TypeDefinitionIndex = 38150;
 
 	template <typename T>
 	class SingleConsumerUnboundedChannel_1_SingleConsumerUnboundedChannelReader_ReadAllAsyncEnumerable___O : public ::System::Object

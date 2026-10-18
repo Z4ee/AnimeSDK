@@ -7,17 +7,17 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define CLASS_1_E8C259E730C95D15_METHOD_1_13A4856CD0BBDB3F_OFFSET UNITYSDK_OFFSET(0x1CF5C350)
-#define CLASS_1_E8C259E730C95D15__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF5C590)
+#define CLASS_1_E8C259E730C95D15_METHOD_1_13A4856CD0BBDB3F_OFFSET UNITYSDK_OFFSET(0x1CE1E030)
+#define CLASS_1_E8C259E730C95D15__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE1E270)
 
-inline static constexpr unsigned int Class_1_E8C259E730C95D15_TypeDefinitionIndex = 12961;
+inline static constexpr unsigned int Class_1_E8C259E730C95D15_TypeDefinitionIndex = 13067;
 
 class Class_1_E8C259E730C95D15 : public ::System::Object
 {
 public:
 	::RPG::GameCore::FixPoint PIBDDOGGDKL; // 0x10
-	::RPG::GameCore::HealFormulaType POAHAIDOOKL; // 0x18
-	::RPG::GameCore::SkillDamageRange HJNEHAAIIGI; // 0x1C
+	::RPG::GameCore::SkillDamageRange HJNEHAAIIGI; // 0x18
+	::RPG::GameCore::HealFormulaType POAHAIDOOKL; // 0x1C
 	::RPG::GameCore::FixPoint ABINBKACLJK; // 0x20
 
 	::System::Void _ctor()

@@ -2,21 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_EXPEDITIONBATTLEAVATARDAMAGEVIEWMODEL_GET_AVATARID_OFFSET UNITYSDK_OFFSET(0x1B88AD00)
-#define RPG_CLIENT_EXPEDITIONBATTLEAVATARDAMAGEVIEWMODEL_GET_DAMAGEPERCENT_OFFSET UNITYSDK_OFFSET(0x1B88AD20)
-#define RPG_CLIENT_EXPEDITIONBATTLEAVATARDAMAGEVIEWMODEL_GET_DAMAGE_OFFSET UNITYSDK_OFFSET(0x1B88AD10)
-#define RPG_CLIENT_EXPEDITIONBATTLEAVATARDAMAGEVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1B88AD30)
+#define RPG_CLIENT_EXPEDITIONBATTLEAVATARDAMAGEVIEWMODEL_GET_AVATARID_OFFSET UNITYSDK_OFFSET(0xCE3D930)
+#define RPG_CLIENT_EXPEDITIONBATTLEAVATARDAMAGEVIEWMODEL_GET_DAMAGEPERCENT_OFFSET UNITYSDK_OFFSET(0xCE3D950)
+#define RPG_CLIENT_EXPEDITIONBATTLEAVATARDAMAGEVIEWMODEL_GET_DAMAGE_OFFSET UNITYSDK_OFFSET(0xCE3D940)
+#define RPG_CLIENT_EXPEDITIONBATTLEAVATARDAMAGEVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xCE3D960)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ExpeditionBattleAvatarDamageViewModel_TypeDefinitionIndex = 64015;
+	inline static constexpr unsigned int ExpeditionBattleAvatarDamageViewModel_TypeDefinitionIndex = 63953;
 
 	class ExpeditionBattleAvatarDamageViewModel : public ::System::Object
 	{
 	public:
-		::System::UInt64 _Damage_k__BackingField; // 0x10
-		::System::Single _DamagePercent_k__BackingField; // 0x18
-		::System::UInt32 _AvatarID_k__BackingField; // 0x1C
+		::System::UInt32 _AvatarID_k__BackingField; // 0x10
+		::System::Single _DamagePercent_k__BackingField; // 0x14
+		::System::UInt64 _Damage_k__BackingField; // 0x18
 
 		::System::Void _ctor(::System::UInt32 a1, ::System::UInt64 a2, ::System::UInt64 a3)
 		{

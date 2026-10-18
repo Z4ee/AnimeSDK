@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_LOOPCGCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D489470)
-#define RPG_GAMECORE_LOOPCGCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D489E40)
+#define RPG_GAMECORE_LOOPCGCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D7C7020)
+#define RPG_GAMECORE_LOOPCGCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7C7AA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LoopCGConfigRow_TypeDefinitionIndex = 15243;
+	inline static constexpr unsigned int LoopCGConfigRow_TypeDefinitionIndex = 15414;
 
 	class LoopCGConfigRow : public ::System::Object
 	{

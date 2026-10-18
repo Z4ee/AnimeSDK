@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore::Booklet
 {
-	inline static constexpr unsigned int ContainerAnchor_TypeDefinitionIndex = 24675;
+	inline static constexpr unsigned int ContainerAnchor_TypeDefinitionIndex = 24957;
 
 	enum class ContainerAnchor : ::System::Int32
 	{

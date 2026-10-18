@@ -4,7 +4,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int WolfBroGunPlayTargetActionTemplate_1_TypeDefinitionIndex = 68657;
+	inline static constexpr unsigned int WolfBroGunPlayTargetActionTemplate_1_TypeDefinitionIndex = 68691;
 
 	template <typename T>
 	class WolfBroGunPlayTargetActionTemplate_1 : public ::Class_1_482F3423DE650EAD

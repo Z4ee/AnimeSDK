@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class UniversalHotFixPredicateC; }
 
-#define CLASS_4_F4713CD948CB0CA6_EVALUATE_OFFSET UNITYSDK_OFFSET(0x17EBFF80)
-#define CLASS_4_F4713CD948CB0CA6__CTOR_OFFSET UNITYSDK_OFFSET(0x17EBFF00)
+#define CLASS_4_F4713CD948CB0CA6_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB13F960)
+#define CLASS_4_F4713CD948CB0CA6__CTOR_OFFSET UNITYSDK_OFFSET(0xB13F8E0)
 
-inline static constexpr unsigned int Class_4_F4713CD948CB0CA6_TypeDefinitionIndex = 55980;
+inline static constexpr unsigned int Class_4_F4713CD948CB0CA6_TypeDefinitionIndex = 55792;
 
 class Class_4_F4713CD948CB0CA6 : public ::Class_3_75DBBBC880985ABC
 {

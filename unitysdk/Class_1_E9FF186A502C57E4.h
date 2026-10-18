@@ -6,21 +6,21 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define CLASS_1_E9FF186A502C57E4_METHOD_1_BA928C31B09C0D39_OFFSET UNITYSDK_OFFSET(0x1D5C7860)
-#define CLASS_1_E9FF186A502C57E4__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5C7C30)
+#define CLASS_1_E9FF186A502C57E4_METHOD_1_BA928C31B09C0D39_OFFSET UNITYSDK_OFFSET(0x1D1B0110)
+#define CLASS_1_E9FF186A502C57E4__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1B04E0)
 
-inline static constexpr unsigned int Class_1_E9FF186A502C57E4_TypeDefinitionIndex = 11530;
+inline static constexpr unsigned int Class_1_E9FF186A502C57E4_TypeDefinitionIndex = 11546;
 
 class Class_1_E9FF186A502C57E4 : public ::System::Object
 {
 public:
-	::RPG::Client::TextID KJGFIMDLFHF; // 0x10
-	::RPG::GameCore::FateRinHouguOwnerType LOALOLNACOA; // 0x20
-	::System::UInt32 LIPCDDAPHNF; // 0x24
-	::RPG::Client::TextID NMPFJBDGGDE; // 0x28
-	::System::UInt32 ENKMNJDEMJE; // 0x38
-	::System::UInt32 PHFMCACHFIJ; // 0x3C
-	::RPG::Client::TextID DHJDDBMCNKJ; // 0x40
+	::RPG::Client::TextID NMPFJBDGGDE; // 0x10
+	::RPG::Client::TextID KJGFIMDLFHF; // 0x20
+	::RPG::Client::TextID DHJDDBMCNKJ; // 0x30
+	::System::UInt32 LIPCDDAPHNF; // 0x40
+	::System::UInt32 PHFMCACHFIJ; // 0x44
+	::RPG::GameCore::FateRinHouguOwnerType LOALOLNACOA; // 0x48
+	::System::UInt32 ENKMNJDEMJE; // 0x4C
 	::RPG::Client::TextID NMAHGFAPENI; // 0x50
 
 	::System::Void _ctor()

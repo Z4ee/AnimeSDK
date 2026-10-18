@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-namespace RPG::Client { class AvatarOutfit; }
+namespace RPG::Client { class MonoPlayerAttachmentController; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_774_TypeDefinitionIndex = 62758;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_774_TypeDefinitionIndex = 60144;
 
 class Class_0_16E4307DCC419505_774
 {

@@ -5,24 +5,24 @@
 namespace RPG::Client { class RogueTournTitanTalentNodeData; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_ROGUETOURNTITANTALENTINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C7C6E60)
-#define RPG_CLIENT_ROGUETOURNTITANTALENTINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1C7C6E90)
-#define RPG_CLIENT_ROGUETOURNTITANTALENTINFO___C__INIT_B__1_0_OFFSET UNITYSDK_OFFSET(0x1C7C6EA0)
+#define RPG_CLIENT_ROGUETOURNTITANTALENTINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xE040450)
+#define RPG_CLIENT_ROGUETOURNTITANTALENTINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0xE040480)
+#define RPG_CLIENT_ROGUETOURNTITANTALENTINFO___C__INIT_B__1_0_OFFSET UNITYSDK_OFFSET(0xE040490)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournTitanTalentInfo___c_TypeDefinitionIndex = 67861;
+	inline static constexpr unsigned int RogueTournTitanTalentInfo___c_TypeDefinitionIndex = 67863;
 
 	class RogueTournTitanTalentInfo___c : public ::System::Object
 	{
 	public:
 		static ::System::Comparison_1<::RPG::Client::RogueTournTitanTalentNodeData*>** StaticGet___9__1_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::RogueTournTitanTalentNodeData*>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournTitanTalentInfo___c_TypeDefinitionIndex)->GetStaticField(0x188B0);
+			return (::System::Comparison_1<::RPG::Client::RogueTournTitanTalentNodeData*>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournTitanTalentInfo___c_TypeDefinitionIndex)->GetStaticField(0x6B530);
 		}
 		static ::RPG::Client::RogueTournTitanTalentInfo___c** StaticGet___9()
 		{
-			return (::RPG::Client::RogueTournTitanTalentInfo___c**)Il2CppClass::FromTypeDefinitionIndex(RogueTournTitanTalentInfo___c_TypeDefinitionIndex)->GetStaticField(0x188B8);
+			return (::RPG::Client::RogueTournTitanTalentInfo___c**)Il2CppClass::FromTypeDefinitionIndex(RogueTournTitanTalentInfo___c_TypeDefinitionIndex)->GetStaticField(0x6B538);
 		}
 
 		static ::System::Void _cctor()

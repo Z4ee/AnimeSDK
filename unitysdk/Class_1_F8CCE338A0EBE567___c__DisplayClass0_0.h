@@ -5,10 +5,10 @@
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine::UI { class Button; }
 
-#define CLASS_1_F8CCE338A0EBE567___C__DISPLAYCLASS0_0__BIND_B__0_OFFSET UNITYSDK_OFFSET(0x1692D930)
-#define CLASS_1_F8CCE338A0EBE567___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1692D0F0)
+#define CLASS_1_F8CCE338A0EBE567___C__DISPLAYCLASS0_0__BIND_B__0_OFFSET UNITYSDK_OFFSET(0xB21F030)
+#define CLASS_1_F8CCE338A0EBE567___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB21E800)
 
-inline static constexpr unsigned int Class_1_F8CCE338A0EBE567___c__DisplayClass0_0_TypeDefinitionIndex = 72944;
+inline static constexpr unsigned int Class_1_F8CCE338A0EBE567___c__DisplayClass0_0_TypeDefinitionIndex = 73027;
 
 class Class_1_F8CCE338A0EBE567___c__DisplayClass0_0 : public ::System::Object
 {

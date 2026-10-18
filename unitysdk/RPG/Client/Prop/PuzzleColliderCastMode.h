@@ -3,7 +3,7 @@
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int PuzzleColliderCastMode_TypeDefinitionIndex = 78142;
+	inline static constexpr unsigned int PuzzleColliderCastMode_TypeDefinitionIndex = 78613;
 
 	enum class PuzzleColliderCastMode : ::System::Int32
 	{

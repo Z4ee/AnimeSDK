@@ -15,7 +15,7 @@ namespace System { template <typename T> class Action_1; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int Concat_1__Concat_TypeDefinitionIndex = 44179;
+	inline static constexpr unsigned int Concat_1__Concat_TypeDefinitionIndex = 45318;
 
 	template <typename TSource>
 	class Concat_1__Concat : public ::Cysharp::Threading::Tasks::MoveNextSource

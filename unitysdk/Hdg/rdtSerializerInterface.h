@@ -8,7 +8,7 @@ namespace System::IO { class BinaryWriter; }
 
 namespace Hdg
 {
-	inline static constexpr unsigned int rdtSerializerInterface_TypeDefinitionIndex = 47420;
+	inline static constexpr unsigned int rdtSerializerInterface_TypeDefinitionIndex = 46960;
 
 	class rdtSerializerInterface
 	{

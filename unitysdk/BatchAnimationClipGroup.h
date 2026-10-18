@@ -5,9 +5,9 @@
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::Rendering { class BatchAnimationClip; }
 
-#define BATCHANIMATIONCLIPGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x19291AD0)
+#define BATCHANIMATIONCLIPGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1CBB7BC0)
 
-inline static constexpr unsigned int BatchAnimationClipGroup_TypeDefinitionIndex = 36795;
+inline static constexpr unsigned int BatchAnimationClipGroup_TypeDefinitionIndex = 37482;
 
 class BatchAnimationClipGroup : public ::UnityEngine::ScriptableObject
 {

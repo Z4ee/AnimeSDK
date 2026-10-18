@@ -4,19 +4,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_SHOPGIFTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E09EBA0)
-#define RPG_GAMECORE_SHOPGIFTCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1E09ECE0)
+#define RPG_GAMECORE_SHOPGIFTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DAA5AB0)
+#define RPG_GAMECORE_SHOPGIFTCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1DAA5BF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShopGiftConfigRow_TypeDefinitionIndex = 14940;
+	inline static constexpr unsigned int ShopGiftConfigRow_TypeDefinitionIndex = 15105;
 
 	class ShopGiftConfigRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 GiftSortID; // 0x10
-		::System::UInt32 GiftID; // 0x14
-		::System::UInt32 ShopID; // 0x18
+		::System::UInt32 GiftID; // 0x10
+		::System::UInt32 ShopID; // 0x14
+		::System::UInt32 GiftSortID; // 0x18
 
 		::System::Void _ctor()
 		{

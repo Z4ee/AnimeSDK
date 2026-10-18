@@ -5,11 +5,11 @@
 class MiniMapClipper;
 namespace UnityEngine { class RectTransform; }
 
-#define RPG_CLIENT_UIADVENTUREMINIMAP_INSTANCEDZONE__CTOR_OFFSET UNITYSDK_OFFSET(0x16FF5210)
+#define RPG_CLIENT_UIADVENTUREMINIMAP_INSTANCEDZONE__CTOR_OFFSET UNITYSDK_OFFSET(0xE36C8D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIAdventureMinimap_InstancedZone_TypeDefinitionIndex = 69024;
+	inline static constexpr unsigned int UIAdventureMinimap_InstancedZone_TypeDefinitionIndex = 69060;
 
 	class UIAdventureMinimap_InstancedZone : public ::System::Object
 	{

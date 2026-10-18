@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int IMECompositionMode_TypeDefinitionIndex = 5771;
+	inline static constexpr unsigned int IMECompositionMode_TypeDefinitionIndex = 5779;
 
 	enum class IMECompositionMode : ::System::Int32
 	{

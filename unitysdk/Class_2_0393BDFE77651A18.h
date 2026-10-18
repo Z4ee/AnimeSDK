@@ -1,22 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_43BD383C98B4C0C5_213.h"
+#include "unitysdk/Class_1_43BD383C98B4C0C5_215.h"
 
 class Class_1_F9FBCC956DFCF137_27;
 class Class_1_FD611945730E269E;
 namespace RPG::GameCore { class ChimeraDuelPlayEyeAnimationNode; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_0393BDFE77651A18_METHOD_2_98FE8344617B99D4_OFFSET UNITYSDK_OFFSET(0x1AF44AE0)
-#define CLASS_2_0393BDFE77651A18__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF44B80)
+#define CLASS_2_0393BDFE77651A18_METHOD_2_98FE8344617B99D4_OFFSET UNITYSDK_OFFSET(0xB60BD20)
+#define CLASS_2_0393BDFE77651A18__CTOR_OFFSET UNITYSDK_OFFSET(0xB60BDC0)
 
-inline static constexpr unsigned int Class_2_0393BDFE77651A18_TypeDefinitionIndex = 77220;
+inline static constexpr unsigned int Class_2_0393BDFE77651A18_TypeDefinitionIndex = 77691;
 
-class Class_2_0393BDFE77651A18 : public ::Class_1_43BD383C98B4C0C5_213
+class Class_2_0393BDFE77651A18 : public ::Class_1_43BD383C98B4C0C5_215
 {
 public:
-	::RPG::GameCore::ChimeraDuelPlayEyeAnimationNode* EABKOHGCHFP; // 0x10
-	::System::Collections::Generic::List_1<::System::Int32>* KPJHIOKBJEI; // 0x18
+	::System::Collections::Generic::List_1<::System::Int32>* KPJHIOKBJEI; // 0x10
+	::RPG::GameCore::ChimeraDuelPlayEyeAnimationNode* EABKOHGCHFP; // 0x18
 
 	::System::Void _ctor()
 	{

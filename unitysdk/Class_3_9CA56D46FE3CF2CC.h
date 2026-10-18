@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class LockAnimatorSpeed; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_9CA56D46FE3CF2CC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x19A95360)
-#define CLASS_3_9CA56D46FE3CF2CC__CTOR_OFFSET UNITYSDK_OFFSET(0x19A95330)
+#define CLASS_3_9CA56D46FE3CF2CC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB9459F0)
+#define CLASS_3_9CA56D46FE3CF2CC__CTOR_OFFSET UNITYSDK_OFFSET(0xB9459C0)
 
-inline static constexpr unsigned int Class_3_9CA56D46FE3CF2CC_TypeDefinitionIndex = 55349;
+inline static constexpr unsigned int Class_3_9CA56D46FE3CF2CC_TypeDefinitionIndex = 55146;
 
 class Class_3_9CA56D46FE3CF2CC : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::LockAnimatorSpeed*>
 {

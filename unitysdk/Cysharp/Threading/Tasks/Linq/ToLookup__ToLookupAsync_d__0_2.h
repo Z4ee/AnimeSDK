@@ -17,7 +17,7 @@ namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int ToLookup__ToLookupAsync_d__0_2_TypeDefinitionIndex = 44554;
+	inline static constexpr unsigned int ToLookup__ToLookupAsync_d__0_2_TypeDefinitionIndex = 45693;
 
 	template <typename TSource, typename TKey>
 	struct ToLookup__ToLookupAsync_d__0_2

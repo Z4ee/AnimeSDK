@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_EMOTION_EMOBAKEDPOSE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B57A930)
+#define RPGTOOLS_TIMELINE_EMOTION_EMOBAKEDPOSE__CTOR_OFFSET UNITYSDK_OFFSET(0xE8DF940)
 
 namespace RPGTools::Timeline::Emotion
 {
-	inline static constexpr unsigned int EmoBakedPose_TypeDefinitionIndex = 49200;
+	inline static constexpr unsigned int EmoBakedPose_TypeDefinitionIndex = 48746;
 
 	class EmoBakedPose : public ::System::Object
 	{

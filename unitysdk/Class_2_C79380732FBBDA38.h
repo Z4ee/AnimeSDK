@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/GameCore/LevelGraphType.h"
 #include "unitysdk/System/Attribute.h"
 
-#define CLASS_2_C79380732FBBDA38__CTOR_OFFSET UNITYSDK_OFFSET(0x1CAAF400)
+#define CLASS_2_C79380732FBBDA38__CTOR_OFFSET UNITYSDK_OFFSET(0x1D116630)
 
-inline static constexpr unsigned int Class_2_C79380732FBBDA38_TypeDefinitionIndex = 24578;
+inline static constexpr unsigned int Class_2_C79380732FBBDA38_TypeDefinitionIndex = 24860;
 
 class Class_2_C79380732FBBDA38 : public ::System::Attribute
 {

@@ -7,12 +7,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHENLINGFESAWARDTYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E014250)
-#define RPG_GAMECORE_CHENLINGFESAWARDTYPEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1E014430)
+#define RPG_GAMECORE_CHENLINGFESAWARDTYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D55F900)
+#define RPG_GAMECORE_CHENLINGFESAWARDTYPEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D55FAE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingFesAwardTypeRow_TypeDefinitionIndex = 11093;
+	inline static constexpr unsigned int ChenLingFesAwardTypeRow_TypeDefinitionIndex = 11109;
 
 	class ChenLingFesAwardTypeRow : public ::System::Object
 	{

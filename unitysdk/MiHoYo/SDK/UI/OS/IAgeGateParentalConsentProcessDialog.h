@@ -5,7 +5,7 @@ namespace System { template <typename T> class Action_1; }
 
 namespace MiHoYo::SDK::UI::OS
 {
-	inline static constexpr unsigned int IAgeGateParentalConsentProcessDialog_TypeDefinitionIndex = 8416;
+	inline static constexpr unsigned int IAgeGateParentalConsentProcessDialog_TypeDefinitionIndex = 8459;
 
 	class IAgeGateParentalConsentProcessDialog
 	{

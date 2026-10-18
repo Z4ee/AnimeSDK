@@ -5,16 +5,16 @@
 
 namespace System { class String; }
 
-#define CLASS_1_2A8A7F9C322BA9B7__CTOR_OFFSET UNITYSDK_OFFSET(0x162DB980)
+#define CLASS_1_2A8A7F9C322BA9B7__CTOR_OFFSET UNITYSDK_OFFSET(0xB1E9580)
 
-inline static constexpr unsigned int Class_1_2A8A7F9C322BA9B7_TypeDefinitionIndex = 62209;
+inline static constexpr unsigned int Class_1_2A8A7F9C322BA9B7_TypeDefinitionIndex = 62125;
 
 class Class_1_2A8A7F9C322BA9B7 : public ::System::Object
 {
 public:
 	::System::String* CEGADPFLPGM; // 0x10
-	::System::Single AALPICLABCO; // 0x18
-	::RPG::GameCore::AnimatorParameterType JBPNBECLGKN; // 0x1C
+	::RPG::GameCore::AnimatorParameterType JBPNBECLGKN; // 0x18
+	::System::Single AALPICLABCO; // 0x1C
 
 	::System::Void _ctor()
 	{

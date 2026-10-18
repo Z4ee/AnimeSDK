@@ -4,17 +4,17 @@
 
 namespace Proto { class Item; }
 
-#define CLASS_1_9E75A6F37EAB58DE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x165DE470)
-#define CLASS_1_9E75A6F37EAB58DE__CTOR_OFFSET UNITYSDK_OFFSET(0x165DE460)
+#define CLASS_1_9E75A6F37EAB58DE__CTOR_1_OFFSET UNITYSDK_OFFSET(0xB6D45F0)
+#define CLASS_1_9E75A6F37EAB58DE__CTOR_OFFSET UNITYSDK_OFFSET(0xB6D45E0)
 
-inline static constexpr unsigned int Class_1_9E75A6F37EAB58DE_TypeDefinitionIndex = 62951;
+inline static constexpr unsigned int Class_1_9E75A6F37EAB58DE_TypeDefinitionIndex = 62884;
 
 class Class_1_9E75A6F37EAB58DE : public ::System::Object
 {
 public:
-	::System::UInt32 CMNOEFFFNPE; // 0x10
-	::System::UInt32 PBELLGFMILM; // 0x14
-	::System::UInt32 PJAAGEPKBMM; // 0x18
+	::System::UInt32 PJAAGEPKBMM; // 0x10
+	::System::UInt32 CMNOEFFFNPE; // 0x14
+	::System::UInt32 PBELLGFMILM; // 0x18
 
 	::System::Void _ctor(::System::UInt32 a1, ::System::UInt32 a2, ::System::UInt32 a3)
 	{

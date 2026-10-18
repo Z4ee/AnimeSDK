@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_GEETESTV4MODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1A262340)
+#define MIHOYO_SDK_PC_OS_GEETESTV4MODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1BEE58B0)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int GeetestV4Model_TypeDefinitionIndex = 8449;
+	inline static constexpr unsigned int GeetestV4Model_TypeDefinitionIndex = 8492;
 
 	class GeetestV4Model : public ::System::Object
 	{

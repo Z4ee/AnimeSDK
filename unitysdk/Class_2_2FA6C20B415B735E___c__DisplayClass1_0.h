@@ -5,16 +5,16 @@
 class Class_2_2FA6C20B415B735E;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_2FA6C20B415B735E___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A76DF00)
-#define CLASS_2_2FA6C20B415B735E___C__DISPLAYCLASS1_0__ONTASKBEGIN_B__0_OFFSET UNITYSDK_OFFSET(0x1A76E410)
+#define CLASS_2_2FA6C20B415B735E___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC1A11A0)
+#define CLASS_2_2FA6C20B415B735E___C__DISPLAYCLASS1_0__ONTASKBEGIN_B__0_OFFSET UNITYSDK_OFFSET(0xC1A16C0)
 
-inline static constexpr unsigned int Class_2_2FA6C20B415B735E___c__DisplayClass1_0_TypeDefinitionIndex = 55887;
+inline static constexpr unsigned int Class_2_2FA6C20B415B735E___c__DisplayClass1_0_TypeDefinitionIndex = 55697;
 
 class Class_2_2FA6C20B415B735E___c__DisplayClass1_0 : public ::System::Object
 {
 public:
-	::Class_2_2FA6C20B415B735E* __4__this; // 0x10
-	::System::Collections::Generic::List_1<::System::UInt32>* mainMissionIDList; // 0x18
+	::System::Collections::Generic::List_1<::System::UInt32>* mainMissionIDList; // 0x10
+	::Class_2_2FA6C20B415B735E* __4__this; // 0x18
 
 	::System::Void _ctor()
 	{

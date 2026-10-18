@@ -6,20 +6,20 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_B51RACINGLIVERYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B2E3650)
-#define RPG_GAMECORE_B51RACINGLIVERYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B2E3860)
+#define RPG_GAMECORE_B51RACINGLIVERYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D4060D0)
+#define RPG_GAMECORE_B51RACINGLIVERYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D4062C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int B51RacingLiveryRow_TypeDefinitionIndex = 10936;
+	inline static constexpr unsigned int B51RacingLiveryRow_TypeDefinitionIndex = 10952;
 
 	class B51RacingLiveryRow : public ::System::Object
 	{
 	public:
 		::System::String* IconPath; // 0x10
 		::System::String* AssetPath; // 0x18
-		::RPG::Client::TextID Name; // 0x20
-		::System::UInt32 ID; // 0x30
+		::System::UInt32 ID; // 0x20
+		::RPG::Client::TextID Name; // 0x28
 
 		::System::Void _ctor()
 		{

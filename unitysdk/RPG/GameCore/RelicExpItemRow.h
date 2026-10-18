@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_RELICEXPITEMROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DB848C0)
-#define RPG_GAMECORE_RELICEXPITEMROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB84EF0)
+#define RPG_GAMECORE_RELICEXPITEMROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D94EC10)
+#define RPG_GAMECORE_RELICEXPITEMROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D94F240)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RelicExpItemRow_TypeDefinitionIndex = 14481;
+	inline static constexpr unsigned int RelicExpItemRow_TypeDefinitionIndex = 14646;
 
 	class RelicExpItemRow : public ::System::Object
 	{

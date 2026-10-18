@@ -3,7 +3,7 @@
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int UpdateTracker_UpdateClock_TypeDefinitionIndex = 38557;
+	inline static constexpr unsigned int UpdateTracker_UpdateClock_TypeDefinitionIndex = 39854;
 
 	enum class UpdateTracker_UpdateClock : ::System::Int32
 	{

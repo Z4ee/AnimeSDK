@@ -3,12 +3,12 @@
 #include "unitysdk/RPG/Client/MonoEffectPluginCharaReplaceMatBase.h"
 #include "unitysdk/UnityEngine/Color.h"
 
-#define RPG_CLIENT_MONOEFFECTPLUGINHOLOGRAM_METHOD_8_52607DE4C357D269_OFFSET UNITYSDK_OFFSET(0x1B38B8F0)
-#define RPG_CLIENT_MONOEFFECTPLUGINHOLOGRAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1B38BBD0)
+#define RPG_CLIENT_MONOEFFECTPLUGINHOLOGRAM_METHOD_8_52607DE4C357D269_OFFSET UNITYSDK_OFFSET(0xD7F6E20)
+#define RPG_CLIENT_MONOEFFECTPLUGINHOLOGRAM__CTOR_OFFSET UNITYSDK_OFFSET(0xD7F7100)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginHologram_TypeDefinitionIndex = 69974;
+	inline static constexpr unsigned int MonoEffectPluginHologram_TypeDefinitionIndex = 70008;
 
 	class MonoEffectPluginHologram : public ::RPG::Client::MonoEffectPluginCharaReplaceMatBase
 	{

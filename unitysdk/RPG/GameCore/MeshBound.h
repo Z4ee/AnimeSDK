@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MESHBOUND_METHOD_2_13BBD19F92B6C9CF_OFFSET UNITYSDK_OFFSET(0x1D2864E0)
-#define RPG_GAMECORE_MESHBOUND__CTOR_OFFSET UNITYSDK_OFFSET(0x1D286660)
+#define RPG_GAMECORE_MESHBOUND_METHOD_2_CEFE841A3BAD6432_OFFSET UNITYSDK_OFFSET(0x1D845FD0)
+#define RPG_GAMECORE_MESHBOUND__CTOR_OFFSET UNITYSDK_OFFSET(0x1D846250)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MeshBound_TypeDefinitionIndex = 18888;
+	inline static constexpr unsigned int MeshBound_TypeDefinitionIndex = 19115;
 
 	class MeshBound : public ::RPG::GameCore::JsonConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MESHBOUND__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_13BBD19F92B6C9CF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MeshBound*& a2)
+		static ::System::Void Method_2_CEFE841A3BAD6432(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MeshBound*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MeshBound*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MESHBOUND_METHOD_2_13BBD19F92B6C9CF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MeshBound*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MESHBOUND_METHOD_2_CEFE841A3BAD6432_OFFSET))(a1, a2);
 		}
 	};
 }

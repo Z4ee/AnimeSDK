@@ -5,19 +5,19 @@
 #include "unitysdk/RPG/GameCore/ChenLingSoldierScale.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_D754901113CDE1E2__CTOR_OFFSET UNITYSDK_OFFSET(0x1AA2B500)
+#define CLASS_1_D754901113CDE1E2__CTOR_OFFSET UNITYSDK_OFFSET(0x1CA73D80)
 
-inline static constexpr unsigned int Class_1_D754901113CDE1E2_TypeDefinitionIndex = 42124;
+inline static constexpr unsigned int Class_1_D754901113CDE1E2_TypeDefinitionIndex = 43766;
 
 class Class_1_D754901113CDE1E2 : public ::System::Object
 {
 public:
-	::RPG::GameCore::ChenLingSoldierScale NEMDKBKDFDN; // 0x10
-	::System::Boolean HFINPNHFENI; // 0x14
-	::RPG::Client::LittleGame::ChenLing::ChenLingSoldierState MEPFOEEGBEA; // 0x18
-	::RPG::GameCore::ChenLingBattleInitPosition LDDBFJDDNJO; // 0x1C
-	::System::UInt32 BHDDBJBGENI; // 0x20
-	::System::UInt32 GJKEMDINKGO; // 0x24
+	::RPG::Client::LittleGame::ChenLing::ChenLingSoldierState MEPFOEEGBEA; // 0x10
+	::System::UInt32 BHDDBJBGENI; // 0x14
+	::RPG::GameCore::ChenLingSoldierScale NEMDKBKDFDN; // 0x18
+	::System::UInt32 GJKEMDINKGO; // 0x1C
+	::RPG::GameCore::ChenLingBattleInitPosition LDDBFJDDNJO; // 0x20
+	::System::Boolean HFINPNHFENI; // 0x24
 
 	::System::Void _ctor()
 	{

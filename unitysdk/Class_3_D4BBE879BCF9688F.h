@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetComfortZoneWidthOverride; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_D4BBE879BCF9688F_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1286C140)
-#define CLASS_3_D4BBE879BCF9688F__CTOR_OFFSET UNITYSDK_OFFSET(0x1286C110)
+#define CLASS_3_D4BBE879BCF9688F_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC1EBF70)
+#define CLASS_3_D4BBE879BCF9688F__CTOR_OFFSET UNITYSDK_OFFSET(0xC1EBF40)
 
-inline static constexpr unsigned int Class_3_D4BBE879BCF9688F_TypeDefinitionIndex = 55572;
+inline static constexpr unsigned int Class_3_D4BBE879BCF9688F_TypeDefinitionIndex = 55376;
 
 class Class_3_D4BBE879BCF9688F : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetComfortZoneWidthOverride*>
 {

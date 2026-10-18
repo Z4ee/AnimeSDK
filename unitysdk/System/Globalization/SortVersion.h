@@ -10,7 +10,7 @@ namespace System::Globalization
 	class SortVersion : public ::System::Object
 	{
 	public:
-		::System::Int32 m_NlsVersion; // 0x10
-		::System::Guid m_SortId; // 0x14
+		::System::Guid m_SortId; // 0x10
+		::System::Int32 m_NlsVersion; // 0x20
 	};
 }

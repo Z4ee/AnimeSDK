@@ -4,18 +4,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_CHALLENGEPEAKREWARDORROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D113500)
-#define RPG_GAMECORE_CHALLENGEPEAKREWARDORROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D113670)
+#define RPG_GAMECORE_CHALLENGEPEAKREWARDORROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D534790)
+#define RPG_GAMECORE_CHALLENGEPEAKREWARDORROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D534900)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChallengePeakRewardORRow_TypeDefinitionIndex = 12880;
+	inline static constexpr unsigned int ChallengePeakRewardORRow_TypeDefinitionIndex = 12986;
 
 	class ChallengePeakRewardORRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 PeakGroupID; // 0x10
-		::System::UInt32 ID; // 0x14
+		::System::UInt32 ID; // 0x10
+		::System::UInt32 PeakGroupID; // 0x14
 		::System::UInt32 RewardID; // 0x18
 
 		::System::Void _ctor()

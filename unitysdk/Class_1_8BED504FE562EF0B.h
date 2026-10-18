@@ -5,19 +5,19 @@
 
 namespace RPG::Client::LittleGame::ChenLing { class ChenLingHPMemoryInfo; }
 
-#define CLASS_1_8BED504FE562EF0B__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE0EF10)
+#define CLASS_1_8BED504FE562EF0B__CTOR_OFFSET UNITYSDK_OFFSET(0x1C88E1A0)
 
-inline static constexpr unsigned int Class_1_8BED504FE562EF0B_TypeDefinitionIndex = 42105;
+inline static constexpr unsigned int Class_1_8BED504FE562EF0B_TypeDefinitionIndex = 43747;
 
 class Class_1_8BED504FE562EF0B : public ::System::Object
 {
 public:
 	::RPG::Client::LittleGame::ChenLing::ChenLingHPMemoryInfo* ILEEBALHOPM; // 0x10
-	::System::Boolean BJNABCCHDFJ; // 0x18
-	::RPG::MVector2 MFGPNLOLMAJ; // 0x1C
+	::RPG::MVector2 NOFMIGAKELG; // 0x18
+	::System::Boolean BJNABCCHDFJ; // 0x20
 	::System::Int32 AIFJEHFDMPD; // 0x24
-	::System::Int32 PLNFOGFFGCK; // 0x28
-	::RPG::MVector2 NOFMIGAKELG; // 0x2C
+	::RPG::MVector2 MFGPNLOLMAJ; // 0x28
+	::System::Int32 PLNFOGFFGCK; // 0x30
 
 	::System::Void _ctor()
 	{

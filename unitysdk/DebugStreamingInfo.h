@@ -5,10 +5,10 @@
 class Class_1_D70A30D666F20D90;
 namespace RPG::Client { class Stage; }
 
-#define DEBUGSTREAMINGINFO_INITCMPT_OFFSET UNITYSDK_OFFSET(0x160304F0)
-#define DEBUGSTREAMINGINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x16030550)
+#define DEBUGSTREAMINGINFO_INITCMPT_OFFSET UNITYSDK_OFFSET(0x12661D90)
+#define DEBUGSTREAMINGINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x12661DF0)
 
-inline static constexpr unsigned int DebugStreamingInfo_TypeDefinitionIndex = 47705;
+inline static constexpr unsigned int DebugStreamingInfo_TypeDefinitionIndex = 47245;
 
 class DebugStreamingInfo : public ::UnityEngine::MonoBehaviour
 {

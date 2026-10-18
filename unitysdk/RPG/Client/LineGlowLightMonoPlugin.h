@@ -10,12 +10,12 @@ class Class_4_E87F0EF9CD288BB9;
 namespace System { class String; }
 namespace UnityEngine { class Material; }
 
-#define RPG_CLIENT_LINEGLOWLIGHTMONOPLUGIN_SETTSC_OFFSET UNITYSDK_OFFSET(0x1C4C02E0)
-#define RPG_CLIENT_LINEGLOWLIGHTMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4C0360)
+#define RPG_CLIENT_LINEGLOWLIGHTMONOPLUGIN_SETTSC_OFFSET UNITYSDK_OFFSET(0xD3EF650)
+#define RPG_CLIENT_LINEGLOWLIGHTMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xD3EF6D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LineGlowLightMonoPlugin_TypeDefinitionIndex = 70753;
+	inline static constexpr unsigned int LineGlowLightMonoPlugin_TypeDefinitionIndex = 70790;
 
 	class LineGlowLightMonoPlugin : public ::ScenenLightManager::SceneManagedLightTAMonoPluginBase_1<::Class_4_E87F0EF9CD288BB9*>
 	{

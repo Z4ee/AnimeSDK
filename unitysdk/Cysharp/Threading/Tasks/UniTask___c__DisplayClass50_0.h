@@ -6,18 +6,18 @@
 
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define CYSHARP_THREADING_TASKS_UNITASK___C__DISPLAYCLASS50_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE08FE0)
-#define CYSHARP_THREADING_TASKS_UNITASK___C__DISPLAYCLASS50_0__UNITYACTION_B__0_OFFSET UNITYSDK_OFFSET(0x1CE0B970)
+#define CYSHARP_THREADING_TASKS_UNITASK___C__DISPLAYCLASS50_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1F114E90)
+#define CYSHARP_THREADING_TASKS_UNITASK___C__DISPLAYCLASS50_0__UNITYACTION_B__0_OFFSET UNITYSDK_OFFSET(0x1F117810)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UniTask___c__DisplayClass50_0_TypeDefinitionIndex = 42756;
+	inline static constexpr unsigned int UniTask___c__DisplayClass50_0_TypeDefinitionIndex = 38341;
 
 	class UniTask___c__DisplayClass50_0 : public ::System::Object
 	{
 	public:
-		::System::Threading::CancellationToken cancellationToken; // 0x10
-		::System::Func_2<::System::Threading::CancellationToken, ::Cysharp::Threading::Tasks::UniTaskVoid>* asyncAction; // 0x18
+		::System::Func_2<::System::Threading::CancellationToken, ::Cysharp::Threading::Tasks::UniTaskVoid>* asyncAction; // 0x10
+		::System::Threading::CancellationToken cancellationToken; // 0x18
 
 		::System::Void _ctor()
 		{

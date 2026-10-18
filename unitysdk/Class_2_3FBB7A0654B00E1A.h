@@ -1,0 +1,112 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/BehaviorBase.h"
+#include "unitysdk/RPG/Client/MonoEmoAnimMouthShapeLayerController_AnimMouthShapeParams.h"
+#include "unitysdk/RPGTools/Timeline/Emotion/EmoMouthBakedBlendShapes_LipType.h"
+
+namespace RPG::Client { class MonoEmoAnimMouthShapeLayerController; }
+namespace RPGTools::Timeline::Emotion { class EmoMouthBakedBlendShapesData; }
+namespace System { class String; }
+namespace UnityEngine { class MonoBehaviour; }
+
+#define CLASS_2_3FBB7A0654B00E1A_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB92C810)
+#define CLASS_2_3FBB7A0654B00E1A_METHOD_2_060F49243079A0A4_OFFSET UNITYSDK_OFFSET(0xB92CF30)
+#define CLASS_2_3FBB7A0654B00E1A_METHOD_2_0BA368DCED6D0A56_OFFSET UNITYSDK_OFFSET(0xB92D590)
+#define CLASS_2_3FBB7A0654B00E1A_METHOD_2_19B6311C06D9EFFF_OFFSET UNITYSDK_OFFSET(0xB92C740)
+#define CLASS_2_3FBB7A0654B00E1A_METHOD_2_2685B6183E614529_OFFSET UNITYSDK_OFFSET(0xB92CCF0)
+#define CLASS_2_3FBB7A0654B00E1A_METHOD_2_397374046D61F348_OFFSET UNITYSDK_OFFSET(0xB92CD50)
+#define CLASS_2_3FBB7A0654B00E1A_METHOD_2_5323F2DF46A044DA_OFFSET UNITYSDK_OFFSET(0xB92C720)
+#define CLASS_2_3FBB7A0654B00E1A_METHOD_2_59DA3287D0FD427E_OFFSET UNITYSDK_OFFSET(0xB92C9C0)
+#define CLASS_2_3FBB7A0654B00E1A_METHOD_2_69C79642B17F54D3_OFFSET UNITYSDK_OFFSET(0xB92C730)
+#define CLASS_2_3FBB7A0654B00E1A_METHOD_2_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0xB92C8E0)
+#define CLASS_2_3FBB7A0654B00E1A_METHOD_2_B1936CE4DA97AA45_OFFSET UNITYSDK_OFFSET(0xB92C950)
+#define CLASS_2_3FBB7A0654B00E1A_METHOD_2_D4D972BF7EE430F8_OFFSET UNITYSDK_OFFSET(0xB92C6D0)
+#define CLASS_2_3FBB7A0654B00E1A_METHOD_2_F9C6E2E39DD5763D_OFFSET UNITYSDK_OFFSET(0xB92CC20)
+#define CLASS_2_3FBB7A0654B00E1A__CTOR_OFFSET UNITYSDK_OFFSET(0xB92D730)
+
+inline static constexpr unsigned int Class_2_3FBB7A0654B00E1A_TypeDefinitionIndex = 71143;
+
+class Class_2_3FBB7A0654B00E1A : public ::RPG::Client::BehaviorBase
+{
+public:
+	::System::String* GPMCKOJDADG; // 0x18
+	::RPGTools::Timeline::Emotion::EmoMouthBakedBlendShapesData* AMMBPPIHFBM; // 0x20
+	::System::Single AKGLAFOODBA; // 0x28
+	::System::Boolean GMOBMDCCOOF; // 0x2C
+	::System::Boolean OFEPHLEKKCD; // 0x2D
+	::RPG::Client::MonoEmoAnimMouthShapeLayerController_AnimMouthShapeParams GKEODJGEDMB; // 0x30
+	::System::Single HFJJFMBPDFD; // 0x40
+	::System::Single DDPJNLAFNAN; // 0x44
+	::System::Single GHHNHNKAIBK; // 0x48
+	::System::Single FDICGAEIANB; // 0x4C
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_3FBB7A0654B00E1A__CTOR_OFFSET))(this);
+	}
+
+	::RPG::Client::MonoEmoAnimMouthShapeLayerController* Method_2_D4D972BF7EE430F8()
+	{
+		return ((::RPG::Client::MonoEmoAnimMouthShapeLayerController*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_3FBB7A0654B00E1A_METHOD_2_D4D972BF7EE430F8_OFFSET))(this);
+	}
+
+	::System::Single Method_2_5323F2DF46A044DA()
+	{
+		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_3FBB7A0654B00E1A_METHOD_2_5323F2DF46A044DA_OFFSET))(this);
+	}
+
+	::RPG::Client::MonoEmoAnimMouthShapeLayerController_AnimMouthShapeParams Method_2_69C79642B17F54D3()
+	{
+		return ((::RPG::Client::MonoEmoAnimMouthShapeLayerController_AnimMouthShapeParams(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_3FBB7A0654B00E1A_METHOD_2_69C79642B17F54D3_OFFSET))(this);
+	}
+
+	::System::Void Method_2_19B6311C06D9EFFF(::UnityEngine::MonoBehaviour* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::MonoBehaviour*))((::PBYTE)hIl2Cpp + CLASS_2_3FBB7A0654B00E1A_METHOD_2_19B6311C06D9EFFF_OFFSET))(this, a1);
+	}
+
+	::System::Void Dispose()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_3FBB7A0654B00E1A_DISPOSE_OFFSET))(this);
+	}
+
+	::System::Void Method_2_B1936CE4DA97AA45()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_3FBB7A0654B00E1A_METHOD_2_B1936CE4DA97AA45_OFFSET))(this);
+	}
+
+	::System::Void Method_2_F9C6E2E39DD5763D(::System::UInt32 a1, ::System::Single a2, ::System::Single a3)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_2_3FBB7A0654B00E1A_METHOD_2_F9C6E2E39DD5763D_OFFSET))(this, a1, a2, a3);
+	}
+
+	::System::Void Method_2_59DA3287D0FD427E(::System::String* a1, ::System::Boolean a2, ::System::Single a3, ::System::Single a4)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Boolean, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_2_3FBB7A0654B00E1A_METHOD_2_59DA3287D0FD427E_OFFSET))(this, a1, a2, a3, a4);
+	}
+
+	::System::Void Method_2_9681042564541CD6()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_3FBB7A0654B00E1A_METHOD_2_9681042564541CD6_OFFSET))(this);
+	}
+
+	::System::Void Method_2_2685B6183E614529(::System::Single a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_2_3FBB7A0654B00E1A_METHOD_2_2685B6183E614529_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_397374046D61F348(::System::Single a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_2_3FBB7A0654B00E1A_METHOD_2_397374046D61F348_OFFSET))(this, a1);
+	}
+
+	::RPG::Client::MonoEmoAnimMouthShapeLayerController_AnimMouthShapeParams Method_2_0BA368DCED6D0A56(::RPGTools::Timeline::Emotion::EmoMouthBakedBlendShapes_LipType a1)
+	{
+		return ((::RPG::Client::MonoEmoAnimMouthShapeLayerController_AnimMouthShapeParams(*)(::PVOID, ::RPGTools::Timeline::Emotion::EmoMouthBakedBlendShapes_LipType))((::PBYTE)hIl2Cpp + CLASS_2_3FBB7A0654B00E1A_METHOD_2_0BA368DCED6D0A56_OFFSET))(this, a1);
+	}
+
+	::RPG::Client::MonoEmoAnimMouthShapeLayerController_AnimMouthShapeParams Method_2_060F49243079A0A4()
+	{
+		return ((::RPG::Client::MonoEmoAnimMouthShapeLayerController_AnimMouthShapeParams(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_3FBB7A0654B00E1A_METHOD_2_060F49243079A0A4_OFFSET))(this);
+	}
+};

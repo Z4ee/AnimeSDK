@@ -8,16 +8,16 @@ namespace RPG::Client { class EmotionData; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_BB7FD600EF1881BC_CLASS_1_8CE566E805114ABA__CTOR_OFFSET UNITYSDK_OFFSET(0x19A91690)
+#define CLASS_1_BB7FD600EF1881BC_CLASS_1_8CE566E805114ABA__CTOR_OFFSET UNITYSDK_OFFSET(0xB941790)
 
-inline static constexpr unsigned int Class_1_BB7FD600EF1881BC_Class_1_8CE566E805114ABA_TypeDefinitionIndex = 69386;
+inline static constexpr unsigned int Class_1_BB7FD600EF1881BC_Class_1_8CE566E805114ABA_TypeDefinitionIndex = 69422;
 
 class Class_1_BB7FD600EF1881BC_Class_1_8CE566E805114ABA : public ::System::Object
 {
 public:
-	::System::Collections::Generic::Dictionary_2<::RPG::GameCore::EmotionID, ::RPG::Client::EmotionData*>* AKNFCDPDNFF; // 0x10
-	::RPG::Client::AvatarEmotionClipConfig* GOKEDCLBHIJ; // 0x18
-	::System::Collections::Generic::List_1<::RPG::Client::EmotionData*>* PLNAPDCODIB; // 0x20
+	::RPG::Client::AvatarEmotionClipConfig* GOKEDCLBHIJ; // 0x10
+	::System::Collections::Generic::List_1<::RPG::Client::EmotionData*>* PLNAPDCODIB; // 0x18
+	::System::Collections::Generic::Dictionary_2<::RPG::GameCore::EmotionID, ::RPG::Client::EmotionData*>* AKNFCDPDNFF; // 0x20
 
 	::System::Void _ctor()
 	{

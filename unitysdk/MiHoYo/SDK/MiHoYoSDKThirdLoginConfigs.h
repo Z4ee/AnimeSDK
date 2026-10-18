@@ -4,11 +4,11 @@
 
 namespace MiHoYo::SDK { class MiHoYoSDKThirdLoginConfig; }
 
-#define MIHOYO_SDK_MIHOYOSDKTHIRDLOGINCONFIGS__CTOR_OFFSET UNITYSDK_OFFSET(0x194ACC50)
+#define MIHOYO_SDK_MIHOYOSDKTHIRDLOGINCONFIGS__CTOR_OFFSET UNITYSDK_OFFSET(0xAFDF9C0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MiHoYoSDKThirdLoginConfigs_TypeDefinitionIndex = 46797;
+	inline static constexpr unsigned int MiHoYoSDKThirdLoginConfigs_TypeDefinitionIndex = 46337;
 
 	class MiHoYoSDKThirdLoginConfigs : public ::System::Object
 	{

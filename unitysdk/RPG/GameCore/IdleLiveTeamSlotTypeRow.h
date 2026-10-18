@@ -7,19 +7,19 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_IDLELIVETEAMSLOTTYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D2169F0)
-#define RPG_GAMECORE_IDLELIVETEAMSLOTTYPEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D216BD0)
+#define RPG_GAMECORE_IDLELIVETEAMSLOTTYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D753630)
+#define RPG_GAMECORE_IDLELIVETEAMSLOTTYPEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D753810)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveTeamSlotTypeRow_TypeDefinitionIndex = 11701;
+	inline static constexpr unsigned int IdleLiveTeamSlotTypeRow_TypeDefinitionIndex = 11724;
 
 	class IdleLiveTeamSlotTypeRow : public ::System::Object
 	{
 	public:
 		::System::String* ImagePath; // 0x10
-		::RPG::Client::TextID Name; // 0x18
-		::RPG::GameCore::ILBattleCharacterLocation Type; // 0x28
+		::RPG::GameCore::ILBattleCharacterLocation Type; // 0x18
+		::RPG::Client::TextID Name; // 0x20
 
 		::System::Void _ctor()
 		{

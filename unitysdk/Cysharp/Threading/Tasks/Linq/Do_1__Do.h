@@ -15,7 +15,7 @@ namespace System { template <typename T> class Action_1; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int Do_1__Do_TypeDefinitionIndex = 44214;
+	inline static constexpr unsigned int Do_1__Do_TypeDefinitionIndex = 45353;
 
 	template <typename TSource>
 	class Do_1__Do : public ::Cysharp::Threading::Tasks::MoveNextSource

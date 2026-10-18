@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EntityTypeMask_TypeDefinitionIndex = 10422;
+	inline static constexpr unsigned int EntityTypeMask_TypeDefinitionIndex = 10437;
 
 	enum class EntityTypeMask : ::System::UInt64
 	{

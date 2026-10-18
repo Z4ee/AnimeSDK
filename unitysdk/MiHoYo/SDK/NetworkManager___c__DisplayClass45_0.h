@@ -8,13 +8,13 @@ namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MIHOYO_SDK_NETWORKMANAGER___C__DISPLAYCLASS45_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A641C90)
-#define MIHOYO_SDK_NETWORKMANAGER___C__DISPLAYCLASS45_0__POSTREQUESTEX_G__ONGETRESPONSE_0_OFFSET UNITYSDK_OFFSET(0x1A6447D0)
-#define MIHOYO_SDK_NETWORKMANAGER___C__DISPLAYCLASS45_0__POSTREQUESTEX_G__ONGETTIMEOUT_1_OFFSET UNITYSDK_OFFSET(0x1A644820)
+#define MIHOYO_SDK_NETWORKMANAGER___C__DISPLAYCLASS45_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE86230)
+#define MIHOYO_SDK_NETWORKMANAGER___C__DISPLAYCLASS45_0__POSTREQUESTEX_G__ONGETRESPONSE_0_OFFSET UNITYSDK_OFFSET(0x1BE88D70)
+#define MIHOYO_SDK_NETWORKMANAGER___C__DISPLAYCLASS45_0__POSTREQUESTEX_G__ONGETTIMEOUT_1_OFFSET UNITYSDK_OFFSET(0x1BE88DC0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int NetworkManager___c__DisplayClass45_0_TypeDefinitionIndex = 8125;
+	inline static constexpr unsigned int NetworkManager___c__DisplayClass45_0_TypeDefinitionIndex = 8168;
 
 	class NetworkManager___c__DisplayClass45_0 : public ::System::Object
 	{

@@ -6,17 +6,17 @@
 class Class_1_B59DA5C573056D23;
 namespace RPG::Client::Promises { class Promise; }
 
-#define CLASS_1_B59DA5C573056D23___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1764E020)
-#define CLASS_1_B59DA5C573056D23___C__DISPLAYCLASS12_0___SHOWNEWPARTHINTDIALOGASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x1764EAB0)
+#define CLASS_1_B59DA5C573056D23___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15BA79D0)
+#define CLASS_1_B59DA5C573056D23___C__DISPLAYCLASS12_0___SHOWNEWPARTHINTDIALOGASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x15BA8460)
 
-inline static constexpr unsigned int Class_1_B59DA5C573056D23___c__DisplayClass12_0_TypeDefinitionIndex = 80480;
+inline static constexpr unsigned int Class_1_B59DA5C573056D23___c__DisplayClass12_0_TypeDefinitionIndex = 81808;
 
 class Class_1_B59DA5C573056D23___c__DisplayClass12_0 : public ::System::Object
 {
 public:
-	::Class_1_B59DA5C573056D23* __4__this; // 0x10
+	::RPG::Client::Promises::Promise* promise; // 0x10
 	::Class_1_B59DA5C573056D23_Struct_2_BEE76773838D4608 syncResult; // 0x18
-	::RPG::Client::Promises::Promise* promise; // 0x28
+	::Class_1_B59DA5C573056D23* __4__this; // 0x28
 
 	::System::Void _ctor()
 	{

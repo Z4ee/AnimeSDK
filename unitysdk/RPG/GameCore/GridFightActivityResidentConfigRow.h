@@ -7,28 +7,28 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ItemConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_GRIDFIGHTACTIVITYRESIDENTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D960110)
-#define RPG_GAMECORE_GRIDFIGHTACTIVITYRESIDENTCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D9605E0)
+#define RPG_GAMECORE_GRIDFIGHTACTIVITYRESIDENTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D6F7580)
+#define RPG_GAMECORE_GRIDFIGHTACTIVITYRESIDENTCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6F7A50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightActivityResidentConfigRow_TypeDefinitionIndex = 13330;
+	inline static constexpr unsigned int GridFightActivityResidentConfigRow_TypeDefinitionIndex = 13437;
 
 	class GridFightActivityResidentConfigRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::RPG::GameCore::ItemConfig*>* DisplayItemList; // 0x10
-		::Il2CppArray<::System::UInt32>* ActivityTagList; // 0x18
+		::Il2CppArray<::System::UInt32>* ActivityTagList; // 0x10
+		::Il2CppArray<::RPG::GameCore::ItemConfig*>* DisplayItemList; // 0x18
 		::System::String* TitleIconPath; // 0x20
 		::System::String* IntroGuideImg; // 0x28
-		::System::UInt32 SortWeight; // 0x30
-		::RPG::Client::TextID ResidentDesc; // 0x38
-		::System::UInt32 ActivityModuleID; // 0x48
-		::System::UInt32 ActivityID; // 0x4C
-		::RPG::Client::TextID ResidentBrief; // 0x50
-		::System::UInt32 RelatedActivityPanelID; // 0x60
-		::System::Boolean IsShowRemainTime; // 0x64
-		::RPG::Client::TextID ResidentName; // 0x68
+		::System::UInt32 RelatedActivityPanelID; // 0x30
+		::System::UInt32 ActivityModuleID; // 0x34
+		::System::UInt32 SortWeight; // 0x38
+		::RPG::Client::TextID ResidentName; // 0x40
+		::System::Boolean IsShowRemainTime; // 0x50
+		::System::UInt32 ActivityID; // 0x54
+		::RPG::Client::TextID ResidentDesc; // 0x58
+		::RPG::Client::TextID ResidentBrief; // 0x68
 
 		::System::Void _ctor()
 		{

@@ -8,23 +8,23 @@ namespace System { class String; }
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI { class Text; }
 
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESBUFFITEMCONTROL_GET__VIEWMODEL_OFFSET UNITYSDK_OFFSET(0x1CC4EAC0)
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESBUFFITEMCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC4ECD0)
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESBUFFITEMCONTROL__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x1CC4E570)
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESBUFFITEMCONTROL__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0x1CC4E490)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESBUFFITEMCONTROL_GET__VIEWMODEL_OFFSET UNITYSDK_OFFSET(0xCA75E70)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESBUFFITEMCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0xCA76080)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESBUFFITEMCONTROL__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0xCA75920)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESBUFFITEMCONTROL__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0xCA75840)
 
 namespace RPG::Client::ChenLingFes
 {
-	inline static constexpr unsigned int ChenLingFesBuffItemControl_TypeDefinitionIndex = 79972;
+	inline static constexpr unsigned int ChenLingFesBuffItemControl_TypeDefinitionIndex = 81300;
 
 	class ChenLingFesBuffItemControl : public ::Sofa::BaseSofaControl
 	{
 	public:
 		// static const ::System::String* PrefabPath; // 0x0
-		::RPG::Client::ChenLingFes::ChenLingFesBuffIconControl* _IconControl; // 0x38
-		::UnityEngine::UI::Text* _TextName; // 0x40
-		::UnityEngine::UI::Text* _TextDesc; // 0x48
-		::UnityEngine::Transform* _NodeSplitLine; // 0x50
+		::RPG::Client::ChenLingFes::ChenLingFesBuffIconControl* _IconControl; // 0x40
+		::UnityEngine::UI::Text* _TextName; // 0x48
+		::UnityEngine::UI::Text* _TextDesc; // 0x50
+		::UnityEngine::Transform* _NodeSplitLine; // 0x58
 
 		::System::Void _ctor()
 		{

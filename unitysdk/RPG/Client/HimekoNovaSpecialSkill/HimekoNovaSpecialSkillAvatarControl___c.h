@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_HIMEKONOVASPECIALSKILL_HIMEKONOVASPECIALSKILLAVATARCONTROL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19819810)
-#define RPG_CLIENT_HIMEKONOVASPECIALSKILL_HIMEKONOVASPECIALSKILLAVATARCONTROL___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19819850)
+#define RPG_CLIENT_HIMEKONOVASPECIALSKILL_HIMEKONOVASPECIALSKILLAVATARCONTROL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD31CB90)
+#define RPG_CLIENT_HIMEKONOVASPECIALSKILL_HIMEKONOVASPECIALSKILLAVATARCONTROL___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD31CBD0)
 
 namespace RPG::Client::HimekoNovaSpecialSkill
 {
-	inline static constexpr unsigned int HimekoNovaSpecialSkillAvatarControl___c_TypeDefinitionIndex = 79163;
+	inline static constexpr unsigned int HimekoNovaSpecialSkillAvatarControl___c_TypeDefinitionIndex = 80486;
 
 	class HimekoNovaSpecialSkillAvatarControl___c : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::HimekoNovaSpecialSkill::HimekoNovaSpecialSkillAvatarControl___c** StaticGet___9()
 		{
-			return (::RPG::Client::HimekoNovaSpecialSkill::HimekoNovaSpecialSkillAvatarControl___c**)Il2CppClass::FromTypeDefinitionIndex(HimekoNovaSpecialSkillAvatarControl___c_TypeDefinitionIndex)->GetStaticField(0x59220);
+			return (::RPG::Client::HimekoNovaSpecialSkill::HimekoNovaSpecialSkillAvatarControl___c**)Il2CppClass::FromTypeDefinitionIndex(HimekoNovaSpecialSkillAvatarControl___c_TypeDefinitionIndex)->GetStaticField(0x133F0);
 		}
 
 		static ::System::Void _cctor()

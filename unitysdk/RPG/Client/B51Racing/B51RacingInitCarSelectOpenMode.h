@@ -3,7 +3,7 @@
 
 namespace RPG::Client::B51Racing
 {
-	inline static constexpr unsigned int B51RacingInitCarSelectOpenMode_TypeDefinitionIndex = 80675;
+	inline static constexpr unsigned int B51RacingInitCarSelectOpenMode_TypeDefinitionIndex = 82003;
 
 	enum class B51RacingInitCarSelectOpenMode : ::System::Int32
 	{

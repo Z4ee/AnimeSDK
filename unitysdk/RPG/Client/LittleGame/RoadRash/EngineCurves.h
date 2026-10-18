@@ -6,7 +6,7 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace RPG::Client::LittleGame::RoadRash
 {
-	inline static constexpr unsigned int EngineCurves_TypeDefinitionIndex = 41297;
+	inline static constexpr unsigned int EngineCurves_TypeDefinitionIndex = 42909;
 
 	struct alignas(8) EngineCurves
 	{

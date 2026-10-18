@@ -1,9 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/VerseParam.h"
 
-class Class_1_491E50B6E3A58276_1;
-
-inline static constexpr unsigned int Class_0_16E4307DCC419505_1007_TypeDefinitionIndex = 68270;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_1007_TypeDefinitionIndex = 66325;
 
 class Class_0_16E4307DCC419505_1007
 {

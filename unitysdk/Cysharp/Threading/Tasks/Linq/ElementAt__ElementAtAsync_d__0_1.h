@@ -13,7 +13,7 @@ namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int ElementAt__ElementAtAsync_d__0_1_TypeDefinitionIndex = 44216;
+	inline static constexpr unsigned int ElementAt__ElementAtAsync_d__0_1_TypeDefinitionIndex = 45355;
 
 	template <typename TSource>
 	struct ElementAt__ElementAtAsync_d__0_1

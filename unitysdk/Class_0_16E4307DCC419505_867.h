@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-namespace RPG::Client { class GridFightRole; }
-namespace System::Collections::Generic { template <typename T> class IList_1; }
+class Class_1_ED80D3EC77F13F93;
+namespace System { class Type; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_867_TypeDefinitionIndex = 64888;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_867_TypeDefinitionIndex = 62579;
 
 class Class_0_16E4307DCC419505_867
 {

@@ -4,24 +4,24 @@
 #include "unitysdk/RPG/GameCore/LittleGameComponentConfig.h"
 
 class Class_1_7A22A3DBEEDD1F80;
-namespace RPG::GameCore { class FiveDimDynamicVar; }
 namespace RPG::GameCore { class FiveDimTriggerShape; }
+namespace RPG::GameCore { class LittleGameDynamicVar; }
 namespace RPG::GameCore { class LittleGameEvent; }
 namespace RPG::GameCore { class PropButtonConfig; }
 
-#define RPG_GAMECORE_FIVEDIMCHESTCONFIG_METHOD_3_3DEFB08F23F9C189_OFFSET UNITYSDK_OFFSET(0x1E0E5B70)
-#define RPG_GAMECORE_FIVEDIMCHESTCONFIG_METHOD_3_92011626DCD17226_OFFSET UNITYSDK_OFFSET(0x1E0E5BC0)
-#define RPG_GAMECORE_FIVEDIMCHESTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1E0E5BB0)
+#define RPG_GAMECORE_FIVEDIMCHESTCONFIG_METHOD_3_3DEFB08F23F9C189_OFFSET UNITYSDK_OFFSET(0x1D686AC0)
+#define RPG_GAMECORE_FIVEDIMCHESTCONFIG_METHOD_3_92011626DCD17226_OFFSET UNITYSDK_OFFSET(0x1D686B10)
+#define RPG_GAMECORE_FIVEDIMCHESTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D686B00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimChestConfig_TypeDefinitionIndex = 18341;
+	inline static constexpr unsigned int FiveDimChestConfig_TypeDefinitionIndex = 18556;
 
 	class FiveDimChestConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:
 		::System::Boolean IsChest; // 0x10
-		::RPG::GameCore::FiveDimDynamicVar* BindLevelVarName; // 0x18
+		::RPG::GameCore::LittleGameDynamicVar* BindLevelVarName; // 0x18
 		::RPG::GameCore::FiveDimChestState DefaultState; // 0x20
 		::System::Boolean IsSidePuzzleChest; // 0x24
 		::System::Int16 LockValue; // 0x26

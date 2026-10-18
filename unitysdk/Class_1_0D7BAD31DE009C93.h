@@ -2,27 +2,27 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_550;
-class Class_0_16E4307DCC419505_573;
+class Class_0_16E4307DCC419505_638;
+class Class_0_16E4307DCC419505_661;
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_0D7BAD31DE009C93_EVALUATE_OFFSET UNITYSDK_OFFSET(0x105D7260)
-#define CLASS_1_0D7BAD31DE009C93_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x105D71D0)
-#define CLASS_1_0D7BAD31DE009C93__CTOR_OFFSET UNITYSDK_OFFSET(0x105D71C0)
+#define CLASS_1_0D7BAD31DE009C93_EVALUATE_OFFSET UNITYSDK_OFFSET(0xFEB45B0)
+#define CLASS_1_0D7BAD31DE009C93_TRANSFORM_OFFSET UNITYSDK_OFFSET(0xFEB4520)
+#define CLASS_1_0D7BAD31DE009C93__CTOR_OFFSET UNITYSDK_OFFSET(0xFEB4510)
 
-inline static constexpr unsigned int Class_1_0D7BAD31DE009C93_TypeDefinitionIndex = 59220;
+inline static constexpr unsigned int Class_1_0D7BAD31DE009C93_TypeDefinitionIndex = 59072;
 
 class Class_1_0D7BAD31DE009C93 : public ::System::Object
 {
 public:
-	::Class_0_16E4307DCC419505_550* JBFFLCHOKKO; // 0x10
-	::Class_0_16E4307DCC419505_573* LEMBIAHABFA; // 0x18
+	::Class_0_16E4307DCC419505_638* JBFFLCHOKKO; // 0x10
+	::Class_0_16E4307DCC419505_661* LEMBIAHABFA; // 0x18
 
-	::System::Void _ctor(::Class_0_16E4307DCC419505_550* a1, ::Class_0_16E4307DCC419505_573* a2)
+	::System::Void _ctor(::Class_0_16E4307DCC419505_638* a1, ::Class_0_16E4307DCC419505_661* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_550*, ::Class_0_16E4307DCC419505_573*))((::PBYTE)hIl2Cpp + CLASS_1_0D7BAD31DE009C93__CTOR_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_638*, ::Class_0_16E4307DCC419505_661*))((::PBYTE)hIl2Cpp + CLASS_1_0D7BAD31DE009C93__CTOR_OFFSET))(this, a1, a2);
 	}
 
 	::System::Void Transform(::RPG::GameCore::TaskContext* a1, ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* a2)

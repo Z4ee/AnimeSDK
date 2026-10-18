@@ -5,7 +5,7 @@
 
 namespace RPG::Client::RoadRash
 {
-	inline static constexpr unsigned int SpeedEffectPartOffset_TypeDefinitionIndex = 75466;
+	inline static constexpr unsigned int SpeedEffectPartOffset_TypeDefinitionIndex = 75881;
 
 	struct alignas(4) SpeedEffectPartOffset
 	{

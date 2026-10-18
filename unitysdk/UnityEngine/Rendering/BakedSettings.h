@@ -4,7 +4,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int BakedSettings_TypeDefinitionIndex = 4882;
+	inline static constexpr unsigned int BakedSettings_TypeDefinitionIndex = 4888;
 
 	struct alignas(4) BakedSettings
 	{

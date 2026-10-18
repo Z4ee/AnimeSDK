@@ -7,13 +7,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CALCPITCHANGLE_METHOD_3_35B9D3D4278759CA_OFFSET UNITYSDK_OFFSET(0x1D105EB0)
-#define RPG_GAMECORE_CALCPITCHANGLE_METHOD_3_D18007096DDFE63B_OFFSET UNITYSDK_OFFSET(0x1D105EF0)
-#define RPG_GAMECORE_CALCPITCHANGLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D105EE0)
+#define RPG_GAMECORE_CALCPITCHANGLE_METHOD_3_40BF37BBC7D9CD9E_OFFSET UNITYSDK_OFFSET(0x1D526D40)
+#define RPG_GAMECORE_CALCPITCHANGLE_METHOD_3_49BC42DD4F93F504_OFFSET UNITYSDK_OFFSET(0x1D526D00)
+#define RPG_GAMECORE_CALCPITCHANGLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D526D30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CalcPitchAngle_TypeDefinitionIndex = 20007;
+	inline static constexpr unsigned int CalcPitchAngle_TypeDefinitionIndex = 20244;
 
 	class CalcPitchAngle : public ::RPG::GameCore::TaskConfig
 	{
@@ -31,14 +31,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CALCPITCHANGLE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_35B9D3D4278759CA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CalcPitchAngle*& a2)
+		static ::System::Void Method_3_49BC42DD4F93F504(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CalcPitchAngle*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CalcPitchAngle*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CALCPITCHANGLE_METHOD_3_35B9D3D4278759CA_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CalcPitchAngle*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CALCPITCHANGLE_METHOD_3_49BC42DD4F93F504_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_D18007096DDFE63B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CalcPitchAngle* a2)
+		static ::System::Void Method_3_40BF37BBC7D9CD9E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CalcPitchAngle* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CalcPitchAngle*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CALCPITCHANGLE_METHOD_3_D18007096DDFE63B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CalcPitchAngle*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CALCPITCHANGLE_METHOD_3_40BF37BBC7D9CD9E_OFFSET))(a1, a2);
 		}
 	};
 }

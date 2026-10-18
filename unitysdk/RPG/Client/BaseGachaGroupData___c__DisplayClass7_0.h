@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class BaseGachaPoolData; }
 
-#define RPG_CLIENT_BASEGACHAGROUPDATA___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19F10330)
-#define RPG_CLIENT_BASEGACHAGROUPDATA___C__DISPLAYCLASS7_0__HASGACHAPOOL_B__0_OFFSET UNITYSDK_OFFSET(0x19F10640)
+#define RPG_CLIENT_BASEGACHAGROUPDATA___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC7E0130)
+#define RPG_CLIENT_BASEGACHAGROUPDATA___C__DISPLAYCLASS7_0__HASGACHAPOOL_B__0_OFFSET UNITYSDK_OFFSET(0xC7E0440)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BaseGachaGroupData___c__DisplayClass7_0_TypeDefinitionIndex = 64369;
+	inline static constexpr unsigned int BaseGachaGroupData___c__DisplayClass7_0_TypeDefinitionIndex = 64309;
 
 	class BaseGachaGroupData___c__DisplayClass7_0 : public ::System::Object
 	{

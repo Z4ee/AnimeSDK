@@ -3,7 +3,7 @@
 #include "unitysdk/System/BRECORD.h"
 #include "unitysdk/System/ValueType.h"
 
-#define SYSTEM_VARIANT_CLEAR_OFFSET UNITYSDK_OFFSET(0x3C8D530)
+#define SYSTEM_VARIANT_CLEAR_OFFSET UNITYSDK_OFFSET(0x3C1AA90)
 
 namespace System
 {

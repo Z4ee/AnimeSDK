@@ -5,18 +5,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_AVATARBREAKDAMAGEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1C585F20)
-#define RPG_GAMECORE_AVATARBREAKDAMAGEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1C586060)
+#define RPG_GAMECORE_AVATARBREAKDAMAGEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3DF770)
+#define RPG_GAMECORE_AVATARBREAKDAMAGEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3DF8B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AvatarBreakDamageRow_TypeDefinitionIndex = 12668;
+	inline static constexpr unsigned int AvatarBreakDamageRow_TypeDefinitionIndex = 12758;
 
 	class AvatarBreakDamageRow : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::FixPoint BreakBaseDamage; // 0x10
-		::System::UInt32 Level; // 0x18
+		::System::UInt32 Level; // 0x10
+		::RPG::GameCore::FixPoint BreakBaseDamage; // 0x18
 
 		::System::Void _ctor()
 		{

@@ -1,23 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/AbilityPropertyChangeReason.h"
 #include "unitysdk/RPG/GameCore/ActionDelayChangeReason.h"
 #include "unitysdk/Struct_2_3A335394524C9E44.h"
 #include "unitysdk/System/ValueType.h"
 
-class Class_0_16E4307DCC419505_415;
+class Class_0_16E4307DCC419505_501;
+class Class_1_843DD6330B22E422;
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class JsonEnum; }
 namespace System { class String; }
 
-#define STRUCT_2_5909FD7779934CCA__CCTOR_OFFSET UNITYSDK_OFFSET(0x165832A0)
+#define STRUCT_2_5909FD7779934CCA__CCTOR_OFFSET UNITYSDK_OFFSET(0xCF58460)
 
-inline static constexpr unsigned int Struct_2_5909FD7779934CCA_TypeDefinitionIndex = 57882;
+inline static constexpr unsigned int Struct_2_5909FD7779934CCA_TypeDefinitionIndex = 57728;
 
 struct alignas(8) Struct_2_5909FD7779934CCA
 {
 	static ::Struct_2_5909FD7779934CCA* StaticGet_HGLIFJGHADE()
 	{
-		return (::Struct_2_5909FD7779934CCA*)Il2CppClass::FromTypeDefinitionIndex(Struct_2_5909FD7779934CCA_TypeDefinitionIndex)->GetStaticField(0xE3A0);
+		return (::Struct_2_5909FD7779934CCA*)Il2CppClass::FromTypeDefinitionIndex(Struct_2_5909FD7779934CCA_TypeDefinitionIndex)->GetStaticField(0x4BA40);
 	}
 	::System::Boolean OLEAPFHOLBJ; // 0x10
 	::System::Boolean LEHGCAGLIJB; // 0x11
@@ -37,14 +39,15 @@ struct alignas(8) Struct_2_5909FD7779934CCA
 	::RPG::GameCore::ActionDelayChangeReason KDBCDFCDILE; // 0x28
 	::System::Boolean FKILJLOJDNH; // 0x2C
 	::System::Boolean IJNCCJFDING; // 0x2D
-	::System::String* GMKICMIMAAB; // 0x30
+	::RPG::GameCore::AbilityPropertyChangeReason GMKICMIMAAB; // 0x30
 	::RPG::GameCore::GameEntity* AAEBCMJLHMA; // 0x38
-	::Class_0_16E4307DCC419505_415* NGBAPOEDIOJ; // 0x40
+	::Class_0_16E4307DCC419505_501* NGBAPOEDIOJ; // 0x40
 	::RPG::GameCore::GameEntity* EJCOCNJPBEF; // 0x48
-	::RPG::GameCore::JsonEnum* NHALJPDONCP; // 0x50
-	::System::Boolean CFBPHCJAFPG; // 0x58
-	::System::Boolean HNGEDNBEDKB; // 0x59
-	::Struct_2_3A335394524C9E44 BDAFAHKLKAC; // 0x60
+	::Class_1_843DD6330B22E422* GNHAPABLMDF; // 0x50
+	::RPG::GameCore::JsonEnum* NHALJPDONCP; // 0x58
+	::System::Boolean CFBPHCJAFPG; // 0x60
+	::System::Boolean HNGEDNBEDKB; // 0x61
+	::Struct_2_3A335394524C9E44 BDAFAHKLKAC; // 0x68
 
 	static ::System::Void _cctor()
 	{

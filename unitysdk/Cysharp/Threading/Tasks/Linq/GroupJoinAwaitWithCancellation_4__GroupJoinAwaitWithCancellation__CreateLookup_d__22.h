@@ -10,7 +10,7 @@ namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int GroupJoinAwaitWithCancellation_4__GroupJoinAwaitWithCancellation__CreateLookup_d__22_TypeDefinitionIndex = 44259;
+	inline static constexpr unsigned int GroupJoinAwaitWithCancellation_4__GroupJoinAwaitWithCancellation__CreateLookup_d__22_TypeDefinitionIndex = 45398;
 
 	template <typename TOuter, typename TInner, typename TKey, typename TResult>
 	struct GroupJoinAwaitWithCancellation_4__GroupJoinAwaitWithCancellation__CreateLookup_d__22

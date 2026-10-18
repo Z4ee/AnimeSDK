@@ -4,12 +4,12 @@
 
 namespace RPG::Client::PixAir { class PixAirNodeInstance; }
 
-#define RPG_CLIENT_PIXAIR_PIXAIRAREAINSTANCE___C__DISPLAYCLASS23_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C82C560)
-#define RPG_CLIENT_PIXAIR_PIXAIRAREAINSTANCE___C__DISPLAYCLASS23_0__GETNODEINSTANCE_B__0_OFFSET UNITYSDK_OFFSET(0x1C82C600)
+#define RPG_CLIENT_PIXAIR_PIXAIRAREAINSTANCE___C__DISPLAYCLASS23_0__CTOR_OFFSET UNITYSDK_OFFSET(0xDB25820)
+#define RPG_CLIENT_PIXAIR_PIXAIRAREAINSTANCE___C__DISPLAYCLASS23_0__GETNODEINSTANCE_B__0_OFFSET UNITYSDK_OFFSET(0xDB258C0)
 
 namespace RPG::Client::PixAir
 {
-	inline static constexpr unsigned int PixAirAreaInstance___c__DisplayClass23_0_TypeDefinitionIndex = 78830;
+	inline static constexpr unsigned int PixAirAreaInstance___c__DisplayClass23_0_TypeDefinitionIndex = 79311;
 
 	class PixAirAreaInstance___c__DisplayClass23_0 : public ::System::Object
 	{

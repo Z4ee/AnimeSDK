@@ -8,23 +8,23 @@ class Class_1_584A0EBB2813A76B;
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define CLASS_1_DC8CD0AF4501857E_METHOD_1_BA928C31B09C0D39_OFFSET UNITYSDK_OFFSET(0x1CF12A60)
-#define CLASS_1_DC8CD0AF4501857E__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF12E50)
+#define CLASS_1_DC8CD0AF4501857E_METHOD_1_BA928C31B09C0D39_OFFSET UNITYSDK_OFFSET(0x1D019470)
+#define CLASS_1_DC8CD0AF4501857E__CTOR_OFFSET UNITYSDK_OFFSET(0x1D019860)
 
-inline static constexpr unsigned int Class_1_DC8CD0AF4501857E_TypeDefinitionIndex = 13854;
+inline static constexpr unsigned int Class_1_DC8CD0AF4501857E_TypeDefinitionIndex = 13961;
 
 class Class_1_DC8CD0AF4501857E : public ::System::Object
 {
 public:
-	::System::String* OOKONGHCFBP; // 0x10
+	::System::String* FBKAMIHGLFK; // 0x10
 	::Il2CppArray<::Class_1_584A0EBB2813A76B*>* OJBEKHJBIHL; // 0x18
-	::System::String* FBKAMIHGLFK; // 0x20
-	::RPG::Client::TextID CCHLHJCMFGM; // 0x28
+	::System::String* OOKONGHCFBP; // 0x20
+	::RPG::Client::TextID AIFCBBLPHHI; // 0x28
 	::RPG::GameCore::LimaoNewsPlanPhaseType ABPCHBOBLNB; // 0x38
 	::System::UInt32 OPOPKLGBNKB; // 0x3C
 	::System::UInt32 NFIKDONNJMD; // 0x40
-	::RPG::Client::TextID AIFCBBLPHHI; // 0x48
-	::RPG::Client::TextID JEJGIFKGBCO; // 0x58
+	::RPG::Client::TextID JEJGIFKGBCO; // 0x48
+	::RPG::Client::TextID CCHLHJCMFGM; // 0x58
 
 	::System::Void _ctor()
 	{

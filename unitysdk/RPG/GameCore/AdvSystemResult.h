@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvSystemResult_TypeDefinitionIndex = 52543;
+	inline static constexpr unsigned int AdvSystemResult_TypeDefinitionIndex = 52260;
 
 	enum class AdvSystemResult : ::System::Int32
 	{

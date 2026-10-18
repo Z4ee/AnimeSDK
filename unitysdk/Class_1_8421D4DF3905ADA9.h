@@ -7,17 +7,17 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_1_8421D4DF3905ADA9_CREATE_OFFSET UNITYSDK_OFFSET(0x17C93DA0)
-#define CLASS_1_8421D4DF3905ADA9_ONRECYCLEDITEMREUSED_OFFSET UNITYSDK_OFFSET(0x17C93F60)
-#define CLASS_1_8421D4DF3905ADA9__CTOR_OFFSET UNITYSDK_OFFSET(0x17C93D90)
+#define CLASS_1_8421D4DF3905ADA9_CREATE_OFFSET UNITYSDK_OFFSET(0xB0C5AC0)
+#define CLASS_1_8421D4DF3905ADA9_ONRECYCLEDITEMREUSED_OFFSET UNITYSDK_OFFSET(0xB0C5C80)
+#define CLASS_1_8421D4DF3905ADA9__CTOR_OFFSET UNITYSDK_OFFSET(0xB0C5AB0)
 
-inline static constexpr unsigned int Class_1_8421D4DF3905ADA9_TypeDefinitionIndex = 68960;
+inline static constexpr unsigned int Class_1_8421D4DF3905ADA9_TypeDefinitionIndex = 68996;
 
 class Class_1_8421D4DF3905ADA9 : public ::System::Object
 {
 public:
-	::UnityEngine::GameObject* PGKENBMKDKA; // 0x10
-	::UnityEngine::Transform* GDHDOCGMACL; // 0x18
+	::UnityEngine::Transform* GDHDOCGMACL; // 0x10
+	::UnityEngine::GameObject* PGKENBMKDKA; // 0x18
 
 	::System::Void _ctor(::UnityEngine::GameObject* a1, ::UnityEngine::Transform* a2)
 	{

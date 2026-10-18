@@ -19,7 +19,7 @@ namespace System::Linq { template <typename T1, typename T2> class ILookup_2; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int JoinAwait_4__JoinAwait_TypeDefinitionIndex = 44266;
+	inline static constexpr unsigned int JoinAwait_4__JoinAwait_TypeDefinitionIndex = 45405;
 
 	template <typename TOuter, typename TInner, typename TKey, typename TResult>
 	class JoinAwait_4__JoinAwait : public ::Cysharp::Threading::Tasks::MoveNextSource

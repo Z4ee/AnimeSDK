@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define RPG_CLIENT_NETWORKMANAGER_STRUCT_2_C9A1D71437FA34FD__CTOR_OFFSET UNITYSDK_OFFSET(0x6B7260)
+#define RPG_CLIENT_NETWORKMANAGER_STRUCT_2_C9A1D71437FA34FD__CTOR_OFFSET UNITYSDK_OFFSET(0xECF70)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int NetworkManager_Struct_2_C9A1D71437FA34FD_TypeDefinitionIndex = 69333;
+	inline static constexpr unsigned int NetworkManager_Struct_2_C9A1D71437FA34FD_TypeDefinitionIndex = 69369;
 
 	struct alignas(4) NetworkManager_Struct_2_C9A1D71437FA34FD
 	{

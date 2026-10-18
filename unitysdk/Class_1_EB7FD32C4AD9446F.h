@@ -4,17 +4,17 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_EB7FD32C4AD9446F__CTOR_OFFSET UNITYSDK_OFFSET(0x19D48500)
+#define CLASS_1_EB7FD32C4AD9446F__CTOR_OFFSET UNITYSDK_OFFSET(0x1C7BE940)
 
-inline static constexpr unsigned int Class_1_EB7FD32C4AD9446F_TypeDefinitionIndex = 35761;
+inline static constexpr unsigned int Class_1_EB7FD32C4AD9446F_TypeDefinitionIndex = 36448;
 
 class Class_1_EB7FD32C4AD9446F : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::System::Int32>* NOPNDBOAOMN; // 0x10
-	::System::Collections::Generic::List_1<::System::Int32>* HJFGABKPGHD; // 0x18
-	::System::Collections::Generic::List_1<::System::Int32>* LGKPONDOKJC; // 0x20
-	::System::Collections::Generic::List_1<::System::Int32>* GPLAFNGCCMA; // 0x28
+	::System::Collections::Generic::List_1<::System::Int32>* LGKPONDOKJC; // 0x10
+	::System::Collections::Generic::List_1<::System::Int32>* NOPNDBOAOMN; // 0x18
+	::System::Collections::Generic::List_1<::System::Int32>* GPLAFNGCCMA; // 0x20
+	::System::Collections::Generic::List_1<::System::Int32>* HJFGABKPGHD; // 0x28
 
 	::System::Void _ctor()
 	{

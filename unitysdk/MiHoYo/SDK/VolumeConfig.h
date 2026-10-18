@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_VOLUMECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD74FC0)
+#define MIHOYO_SDK_VOLUMECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BFE8D60)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int VolumeConfig_TypeDefinitionIndex = 7524;
+	inline static constexpr unsigned int VolumeConfig_TypeDefinitionIndex = 7578;
 
 	class VolumeConfig : public ::System::Object
 	{

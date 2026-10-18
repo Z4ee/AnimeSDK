@@ -8,16 +8,16 @@ namespace RPG::GameCore { class MoveToTargetPosition; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_3_0A156D9FB6497A89_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x19FD8910)
-#define CLASS_3_0A156D9FB6497A89__CTOR_OFFSET UNITYSDK_OFFSET(0x19FD87C0)
+#define CLASS_3_0A156D9FB6497A89_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15580C30)
+#define CLASS_3_0A156D9FB6497A89__CTOR_OFFSET UNITYSDK_OFFSET(0x15580AE0)
 
-inline static constexpr unsigned int Class_3_0A156D9FB6497A89_TypeDefinitionIndex = 55430;
+inline static constexpr unsigned int Class_3_0A156D9FB6497A89_TypeDefinitionIndex = 55229;
 
 class Class_3_0A156D9FB6497A89 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::MoveToTargetPosition*>
 {
 public:
-	::System::Collections::Generic::List_1<::Struct_2_3C72212260A8C076>* LOGMLFEHDGO; // 0x28
-	::Il2CppArray<::RPG::GameCore::AnimationMoveRange*>* KPENGHPHMFF; // 0x30
+	::Il2CppArray<::RPG::GameCore::AnimationMoveRange*>* KPENGHPHMFF; // 0x28
+	::System::Collections::Generic::List_1<::Struct_2_3C72212260A8C076>* LOGMLFEHDGO; // 0x30
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::MoveToTargetPosition* a2)
 	{

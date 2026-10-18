@@ -8,29 +8,29 @@ namespace Google::Protobuf { class Extension; }
 namespace System { class Type; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define GOOGLE_PROTOBUF_EXTENSIONREGISTRY___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AA7B890)
-#define GOOGLE_PROTOBUF_EXTENSIONREGISTRY___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1AA7B8D0)
-#define GOOGLE_PROTOBUF_EXTENSIONREGISTRY___C___CTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0x1AA7B8E0)
-#define GOOGLE_PROTOBUF_EXTENSIONREGISTRY___C___CTOR_B__2_1_OFFSET UNITYSDK_OFFSET(0x1AA7B8F0)
+#define GOOGLE_PROTOBUF_EXTENSIONREGISTRY___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B834E20)
+#define GOOGLE_PROTOBUF_EXTENSIONREGISTRY___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B834E60)
+#define GOOGLE_PROTOBUF_EXTENSIONREGISTRY___C___CTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0x1B834E70)
+#define GOOGLE_PROTOBUF_EXTENSIONREGISTRY___C___CTOR_B__2_1_OFFSET UNITYSDK_OFFSET(0x1B834E80)
 
 namespace Google::Protobuf
 {
-	inline static constexpr unsigned int ExtensionRegistry___c_TypeDefinitionIndex = 5366;
+	inline static constexpr unsigned int ExtensionRegistry___c_TypeDefinitionIndex = 5373;
 
 	class ExtensionRegistry___c : public ::System::Object
 	{
 	public:
-		static ::Google::Protobuf::ExtensionRegistry___c** StaticGet___9()
+		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::Google::Protobuf::ObjectIntPair_1<::System::Type*>, ::Google::Protobuf::Extension*>, ::Google::Protobuf::ObjectIntPair_1<::System::Type*>>** StaticGet___9__2_0()
 		{
-			return (::Google::Protobuf::ExtensionRegistry___c**)Il2CppClass::FromTypeDefinitionIndex(ExtensionRegistry___c_TypeDefinitionIndex)->GetStaticField(0x1DE00);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::Google::Protobuf::ObjectIntPair_1<::System::Type*>, ::Google::Protobuf::Extension*>, ::Google::Protobuf::ObjectIntPair_1<::System::Type*>>**)Il2CppClass::FromTypeDefinitionIndex(ExtensionRegistry___c_TypeDefinitionIndex)->GetStaticField(0x1DF90);
 		}
 		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::Google::Protobuf::ObjectIntPair_1<::System::Type*>, ::Google::Protobuf::Extension*>, ::Google::Protobuf::Extension*>** StaticGet___9__2_1()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::Google::Protobuf::ObjectIntPair_1<::System::Type*>, ::Google::Protobuf::Extension*>, ::Google::Protobuf::Extension*>**)Il2CppClass::FromTypeDefinitionIndex(ExtensionRegistry___c_TypeDefinitionIndex)->GetStaticField(0x1DE08);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::Google::Protobuf::ObjectIntPair_1<::System::Type*>, ::Google::Protobuf::Extension*>, ::Google::Protobuf::Extension*>**)Il2CppClass::FromTypeDefinitionIndex(ExtensionRegistry___c_TypeDefinitionIndex)->GetStaticField(0x1DF98);
 		}
-		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::Google::Protobuf::ObjectIntPair_1<::System::Type*>, ::Google::Protobuf::Extension*>, ::Google::Protobuf::ObjectIntPair_1<::System::Type*>>** StaticGet___9__2_0()
+		static ::Google::Protobuf::ExtensionRegistry___c** StaticGet___9()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::Google::Protobuf::ObjectIntPair_1<::System::Type*>, ::Google::Protobuf::Extension*>, ::Google::Protobuf::ObjectIntPair_1<::System::Type*>>**)Il2CppClass::FromTypeDefinitionIndex(ExtensionRegistry___c_TypeDefinitionIndex)->GetStaticField(0x1DE10);
+			return (::Google::Protobuf::ExtensionRegistry___c**)Il2CppClass::FromTypeDefinitionIndex(ExtensionRegistry___c_TypeDefinitionIndex)->GetStaticField(0x1DFA0);
 		}
 
 		static ::System::Void _cctor()

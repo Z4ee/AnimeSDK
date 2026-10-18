@@ -3,10 +3,10 @@
 #include "unitysdk/RPG/GameCore/EventType.h"
 #include "unitysdk/System/ValueType.h"
 
-#define STRUCT_2_2F6AC431AAB2D4A6_EQUALS_OFFSET UNITYSDK_OFFSET(0x3AEF8A0)
-#define STRUCT_2_2F6AC431AAB2D4A6_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3AEF900)
+#define STRUCT_2_2F6AC431AAB2D4A6_EQUALS_OFFSET UNITYSDK_OFFSET(0x18FF0)
+#define STRUCT_2_2F6AC431AAB2D4A6_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x19050)
 
-inline static constexpr unsigned int Struct_2_2F6AC431AAB2D4A6_TypeDefinitionIndex = 56868;
+inline static constexpr unsigned int Struct_2_2F6AC431AAB2D4A6_TypeDefinitionIndex = 56689;
 
 struct alignas(4) Struct_2_2F6AC431AAB2D4A6
 {

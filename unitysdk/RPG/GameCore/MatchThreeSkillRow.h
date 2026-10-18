@@ -6,21 +6,21 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MATCHTHREESKILLROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D26DD50)
-#define RPG_GAMECORE_MATCHTHREESKILLROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D26E040)
+#define RPG_GAMECORE_MATCHTHREESKILLROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D82D4D0)
+#define RPG_GAMECORE_MATCHTHREESKILLROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D82D7C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MatchThreeSkillRow_TypeDefinitionIndex = 11882;
+	inline static constexpr unsigned int MatchThreeSkillRow_TypeDefinitionIndex = 11905;
 
 	class MatchThreeSkillRow : public ::System::Object
 	{
 	public:
-		::System::String* SkillChargedImg; // 0x10
-		::System::String* SkillUnchangedImg; // 0x18
-		::System::String* BirdSkillTrailEffectPath; // 0x20
+		::System::String* SkillUnchangedImg; // 0x10
+		::System::String* SkillChargedImg; // 0x18
+		::System::String* SkillJson; // 0x20
 		::System::String* DescFigure; // 0x28
-		::System::String* SkillJson; // 0x30
+		::System::String* BirdSkillTrailEffectPath; // 0x30
 		::System::UInt32 VideoID; // 0x38
 		::System::UInt32 SkillID; // 0x3C
 		::RPG::Client::TextID Desc; // 0x40

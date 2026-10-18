@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define SYSTEM_DIAGNOSTICS_CODEANALYSIS_MEMBERNOTNULLATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F007A50)
+#define SYSTEM_DIAGNOSTICS_CODEANALYSIS_MEMBERNOTNULLATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F6631D0)
 
 namespace System::Diagnostics::CodeAnalysis
 {
-	inline static constexpr unsigned int MemberNotNullAttribute_TypeDefinitionIndex = 6068;
+	inline static constexpr unsigned int MemberNotNullAttribute_TypeDefinitionIndex = 6076;
 
 	class MemberNotNullAttribute : public ::System::Attribute
 	{

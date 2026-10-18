@@ -3,35 +3,35 @@
 #include "unitysdk/Class_1_BF7A075734D15E98.h"
 #include "unitysdk/RPG/GameCore/EventType.h"
 
-class Class_0_16E4307DCC419505_417;
+class Class_0_16E4307DCC419505_504;
 namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_LEVELUSEABILITY_CLEAR_OFFSET UNITYSDK_OFFSET(0x18FF02A0)
-#define RPG_GAMECORE_LEVELUSEABILITY_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x18FF0360)
-#define RPG_GAMECORE_LEVELUSEABILITY_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x18FF0310)
-#define RPG_GAMECORE_LEVELUSEABILITY_GET_ABILITYNAME_OFFSET UNITYSDK_OFFSET(0x18FF03B0)
-#define RPG_GAMECORE_LEVELUSEABILITY_INIT_OFFSET UNITYSDK_OFFSET(0x18FF0240)
-#define RPG_GAMECORE_LEVELUSEABILITY__CTOR_OFFSET UNITYSDK_OFFSET(0x18FF0410)
+#define RPG_GAMECORE_LEVELUSEABILITY_CLEAR_OFFSET UNITYSDK_OFFSET(0xE6F4F00)
+#define RPG_GAMECORE_LEVELUSEABILITY_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE6F4FC0)
+#define RPG_GAMECORE_LEVELUSEABILITY_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE6F4F70)
+#define RPG_GAMECORE_LEVELUSEABILITY_GET_ABILITYNAME_OFFSET UNITYSDK_OFFSET(0xE6F5010)
+#define RPG_GAMECORE_LEVELUSEABILITY_INIT_OFFSET UNITYSDK_OFFSET(0xE6F4EA0)
+#define RPG_GAMECORE_LEVELUSEABILITY__CTOR_OFFSET UNITYSDK_OFFSET(0xE6F5070)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelUseAbility_TypeDefinitionIndex = 56992;
+	inline static constexpr unsigned int LevelUseAbility_TypeDefinitionIndex = 56813;
 
 	class LevelUseAbility : public ::Class_1_BF7A075734D15E98
 	{
 	public:
-		::RPG::GameCore::GameEntity* AbilityCater; // 0x18
-		::Class_0_16E4307DCC419505_417* AbilityInstance; // 0x20
+		::Class_0_16E4307DCC419505_504* AbilityInstance; // 0x18
+		::RPG::GameCore::GameEntity* AbilityCater; // 0x20
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELUSEABILITY__CTOR_OFFSET))(this);
 		}
 
-		::RPG::GameCore::LevelUseAbility* Init(::RPG::GameCore::GameEntity* a1, ::Class_0_16E4307DCC419505_417* a2)
+		::RPG::GameCore::LevelUseAbility* Init(::RPG::GameCore::GameEntity* a1, ::Class_0_16E4307DCC419505_504* a2)
 		{
-			return ((::RPG::GameCore::LevelUseAbility*(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::Class_0_16E4307DCC419505_417*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELUSEABILITY_INIT_OFFSET))(this, a1, a2);
+			return ((::RPG::GameCore::LevelUseAbility*(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::Class_0_16E4307DCC419505_504*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELUSEABILITY_INIT_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Clear()

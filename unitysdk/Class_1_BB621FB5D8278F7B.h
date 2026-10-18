@@ -6,16 +6,16 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define CLASS_1_BB621FB5D8278F7B_METHOD_1_975B9AC31CF05C24_OFFSET UNITYSDK_OFFSET(0x1CEB6810)
-#define CLASS_1_BB621FB5D8278F7B__CTOR_OFFSET UNITYSDK_OFFSET(0x1CEB6990)
+#define CLASS_1_BB621FB5D8278F7B_METHOD_1_975B9AC31CF05C24_OFFSET UNITYSDK_OFFSET(0x1D226820)
+#define CLASS_1_BB621FB5D8278F7B__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2269A0)
 
-inline static constexpr unsigned int Class_1_BB621FB5D8278F7B_TypeDefinitionIndex = 11535;
+inline static constexpr unsigned int Class_1_BB621FB5D8278F7B_TypeDefinitionIndex = 11551;
 
 class Class_1_BB621FB5D8278F7B : public ::System::Object
 {
 public:
-	::RPG::Client::TextID OENAMINOLLF; // 0x10
-	::RPG::GameCore::FateRinHouguOwnerType PHFMCACHFIJ; // 0x20
+	::RPG::GameCore::FateRinHouguOwnerType PHFMCACHFIJ; // 0x10
+	::RPG::Client::TextID OENAMINOLLF; // 0x18
 
 	::System::Void _ctor()
 	{

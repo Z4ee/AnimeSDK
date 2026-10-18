@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MatchThreeOpponentType_TypeDefinitionIndex = 66021;
+	inline static constexpr unsigned int MatchThreeOpponentType_TypeDefinitionIndex = 65975;
 
 	enum class MatchThreeOpponentType : ::System::Int32
 	{

@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_FIVEDIMPAUSEMUSICACTION_METHOD_3_64C15A810288E0F1_OFFSET UNITYSDK_OFFSET(0x1D86FE90)
-#define RPG_GAMECORE_FIVEDIMPAUSEMUSICACTION_METHOD_3_94F500745B78EA9C_OFFSET UNITYSDK_OFFSET(0x1D86FE10)
-#define RPG_GAMECORE_FIVEDIMPAUSEMUSICACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D86FE80)
+#define RPG_GAMECORE_FIVEDIMPAUSEMUSICACTION_METHOD_4_533BCBCE23B28327_OFFSET UNITYSDK_OFFSET(0x1D6A2030)
+#define RPG_GAMECORE_FIVEDIMPAUSEMUSICACTION_METHOD_4_EB6DFC633495B2B6_OFFSET UNITYSDK_OFFSET(0x1D6A20B0)
+#define RPG_GAMECORE_FIVEDIMPAUSEMUSICACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6A20A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimPauseMusicAction_TypeDefinitionIndex = 18490;
+	inline static constexpr unsigned int FiveDimPauseMusicAction_TypeDefinitionIndex = 18700;
 
 	class FiveDimPauseMusicAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
@@ -20,14 +20,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMPAUSEMUSICACTION__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_94F500745B78EA9C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimPauseMusicAction*& a2)
+		static ::System::Void Method_4_533BCBCE23B28327(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimPauseMusicAction*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimPauseMusicAction*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMPAUSEMUSICACTION_METHOD_3_94F500745B78EA9C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimPauseMusicAction*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMPAUSEMUSICACTION_METHOD_4_533BCBCE23B28327_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_64C15A810288E0F1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimPauseMusicAction* a2)
+		static ::System::Void Method_4_EB6DFC633495B2B6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimPauseMusicAction* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimPauseMusicAction*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMPAUSEMUSICACTION_METHOD_3_64C15A810288E0F1_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimPauseMusicAction*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMPAUSEMUSICACTION_METHOD_4_EB6DFC633495B2B6_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -9,7 +9,7 @@ namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int OrderedAsyncEnumerable_1__OrderedAsyncEnumerator__CreateSortSource_d__11_TypeDefinitionIndex = 44389;
+	inline static constexpr unsigned int OrderedAsyncEnumerable_1__OrderedAsyncEnumerator__CreateSortSource_d__11_TypeDefinitionIndex = 45528;
 
 	template <typename TElement>
 	struct OrderedAsyncEnumerable_1__OrderedAsyncEnumerator__CreateSortSource_d__11

@@ -3,9 +3,9 @@
 #include "unitysdk/BatchAnimPlayState.h"
 #include "unitysdk/System/Object.h"
 
-#define BATCHANIMATIONGRAPHPLAYABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x19293350)
+#define BATCHANIMATIONGRAPHPLAYABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CBB9470)
 
-inline static constexpr unsigned int BatchAnimationGraphPlayable_TypeDefinitionIndex = 36773;
+inline static constexpr unsigned int BatchAnimationGraphPlayable_TypeDefinitionIndex = 37460;
 
 class BatchAnimationGraphPlayable : public ::System::Object
 {

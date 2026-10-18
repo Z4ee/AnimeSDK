@@ -10,7 +10,7 @@ namespace System { class IDisposable; }
 
 namespace ObservableCollections
 {
-	inline static constexpr unsigned int ObservableCollectionChanged_1_TypeDefinitionIndex = 40068;
+	inline static constexpr unsigned int ObservableCollectionChanged_1_TypeDefinitionIndex = 41365;
 
 	template <typename T>
 	class ObservableCollectionChanged_1 : public ::R3::Observable_1<::ObservableCollections::CollectionChangedEvent_1<T>>

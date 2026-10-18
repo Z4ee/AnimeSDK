@@ -1,11 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/AvatarPropertyType.h"
+#include "unitysdk/RPG/GameCore/FixPoint.h"
 
-namespace RPG::Client { class GridFightRole; }
-namespace RPG::Client { class GridFightTrait; }
-namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
-
-inline static constexpr unsigned int Class_0_16E4307DCC419505_858_TypeDefinitionIndex = 64595;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_858_TypeDefinitionIndex = 62525;
 
 class Class_0_16E4307DCC419505_858
 {

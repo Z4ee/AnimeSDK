@@ -6,22 +6,22 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MUSICRHYTHMPHASEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CE84E50)
-#define RPG_GAMECORE_MUSICRHYTHMPHASEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE850D0)
+#define RPG_GAMECORE_MUSICRHYTHMPHASEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D8A0500)
+#define RPG_GAMECORE_MUSICRHYTHMPHASEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D8A0780)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MusicRhythmPhaseRow_TypeDefinitionIndex = 14158;
+	inline static constexpr unsigned int MusicRhythmPhaseRow_TypeDefinitionIndex = 14265;
 
 	class MusicRhythmPhaseRow : public ::System::Object
 	{
 	public:
-		::System::String* PostImgPath; // 0x10
-		::Il2CppArray<::System::UInt32>* TrackIDList; // 0x18
-		::System::UInt32 SongID; // 0x20
-		::System::UInt32 Phase; // 0x24
+		::Il2CppArray<::System::UInt32>* TrackIDList; // 0x10
+		::System::String* PostImgPath; // 0x18
+		::System::UInt32 FinishMissionID; // 0x20
+		::System::UInt32 SongID; // 0x24
 		::RPG::Client::TextID LiveName; // 0x28
-		::System::UInt32 FinishMissionID; // 0x38
+		::System::UInt32 Phase; // 0x38
 
 		::System::Void _ctor()
 		{

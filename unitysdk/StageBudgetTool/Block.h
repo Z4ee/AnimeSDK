@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define STAGEBUDGETTOOL_BLOCK__CTOR_OFFSET UNITYSDK_OFFSET(0x197E4D60)
+#define STAGEBUDGETTOOL_BLOCK__CTOR_OFFSET UNITYSDK_OFFSET(0xE97FEE0)
 
 namespace StageBudgetTool
 {
-	inline static constexpr unsigned int Block_TypeDefinitionIndex = 48180;
+	inline static constexpr unsigned int Block_TypeDefinitionIndex = 47721;
 
 	class Block : public ::System::Object
 	{

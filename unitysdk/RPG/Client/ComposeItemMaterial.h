@@ -2,17 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_COMPOSEITEMMATERIAL__CTOR_OFFSET UNITYSDK_OFFSET(0x1A28E1B0)
+#define RPG_CLIENT_COMPOSEITEMMATERIAL__CTOR_OFFSET UNITYSDK_OFFSET(0xCBAF370)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ComposeItemMaterial_TypeDefinitionIndex = 65819;
+	inline static constexpr unsigned int ComposeItemMaterial_TypeDefinitionIndex = 65757;
 
 	class ComposeItemMaterial : public ::System::Object
 	{
 	public:
-		::System::UInt32 ItemID; // 0x10
-		::System::UInt32 AllCostCount; // 0x14
+		::System::UInt32 AllCostCount; // 0x10
+		::System::UInt32 ItemID; // 0x14
 		::System::UInt32 CostCount; // 0x18
 
 		::System::Void _ctor()

@@ -9,21 +9,21 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class Renderer; }
 
-#define RPG_CLIENT_MATERIALBLOCKEFFECTBASE_CLASS_1_00B8630D1668D264_METHOD_1_0865E94460F11643_OFFSET UNITYSDK_OFFSET(0x1B212420)
-#define RPG_CLIENT_MATERIALBLOCKEFFECTBASE_CLASS_1_00B8630D1668D264__CTOR_OFFSET UNITYSDK_OFFSET(0x1B211020)
+#define RPG_CLIENT_MATERIALBLOCKEFFECTBASE_CLASS_1_00B8630D1668D264_METHOD_1_0865E94460F11643_OFFSET UNITYSDK_OFFSET(0xD5CC1F0)
+#define RPG_CLIENT_MATERIALBLOCKEFFECTBASE_CLASS_1_00B8630D1668D264__CTOR_OFFSET UNITYSDK_OFFSET(0xD5CADD0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MaterialBlockEffectBase_Class_1_00B8630D1668D264_TypeDefinitionIndex = 70614;
+	inline static constexpr unsigned int MaterialBlockEffectBase_Class_1_00B8630D1668D264_TypeDefinitionIndex = 70650;
 
 	class MaterialBlockEffectBase_Class_1_00B8630D1668D264 : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Object*>* BIEBFDCAFOP; // 0x10
-		::RPG::Client::RendererMaterialCache* KFEPMPHNMPG; // 0x18
-		::UnityEngine::Material* FNJBFPALOAO; // 0x20
+		::RPG::Client::RendererMaterialCache* KFEPMPHNMPG; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Object*>* BIEBFDCAFOP; // 0x18
+		::UnityEngine::MaterialPropertyBlock* OOFKPGNKMJK; // 0x20
 		::UnityEngine::Renderer* NDACGJCNDFF; // 0x28
-		::UnityEngine::MaterialPropertyBlock* OOFKPGNKMJK; // 0x30
+		::UnityEngine::Material* FNJBFPALOAO; // 0x30
 		::System::String* BOMIJODMJOE; // 0x38
 		::System::Int32 MEOADCBLHLH; // 0x40
 

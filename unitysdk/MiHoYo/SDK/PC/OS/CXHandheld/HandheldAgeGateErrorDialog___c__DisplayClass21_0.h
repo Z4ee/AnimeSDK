@@ -5,12 +5,12 @@
 namespace MiHoYo::SDK::PC::OS::CXHandheld { class HandheldAgeGateErrorDialog; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDAGEGATEERRORDIALOG___C__DISPLAYCLASS21_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A22F6D0)
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDAGEGATEERRORDIALOG___C__DISPLAYCLASS21_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1A22FA60)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDAGEGATEERRORDIALOG___C__DISPLAYCLASS21_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BEB2230)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDAGEGATEERRORDIALOG___C__DISPLAYCLASS21_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1BEB2240)
 
 namespace MiHoYo::SDK::PC::OS::CXHandheld
 {
-	inline static constexpr unsigned int HandheldAgeGateErrorDialog___c__DisplayClass21_0_TypeDefinitionIndex = 8724;
+	inline static constexpr unsigned int HandheldAgeGateErrorDialog___c__DisplayClass21_0_TypeDefinitionIndex = 8785;
 
 	class HandheldAgeGateErrorDialog___c__DisplayClass21_0 : public ::System::Object
 	{

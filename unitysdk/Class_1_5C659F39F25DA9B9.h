@@ -9,25 +9,25 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define CLASS_1_5C659F39F25DA9B9_METHOD_1_BA928C31B09C0D39_OFFSET UNITYSDK_OFFSET(0x1CF95CD0)
-#define CLASS_1_5C659F39F25DA9B9__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF96170)
+#define CLASS_1_5C659F39F25DA9B9_METHOD_1_BA928C31B09C0D39_OFFSET UNITYSDK_OFFSET(0x1CD18040)
+#define CLASS_1_5C659F39F25DA9B9__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD184E0)
 
-inline static constexpr unsigned int Class_1_5C659F39F25DA9B9_TypeDefinitionIndex = 14888;
+inline static constexpr unsigned int Class_1_5C659F39F25DA9B9_TypeDefinitionIndex = 15053;
 
 class Class_1_5C659F39F25DA9B9 : public ::System::Object
 {
 public:
-	::System::String* CILPGJAFCOK; // 0x10
-	::Il2CppArray<::RPG::GameCore::RogueCompositionTypeDisableOperation>* ENFPMJCLEON; // 0x18
-	::System::String* OLOIFNNLKJP; // 0x20
-	::RPG::Client::TextID LJPBJNANBLB; // 0x28
-	::RPG::Client::TextID NMAHGFAPENI; // 0x38
-	::RPG::Client::TextID BAAOGIMCALN; // 0x48
-	::System::UInt32 LLICIMBCNPF; // 0x58
-	::System::Boolean LOBGFEKCOHM; // 0x5C
-	::System::UInt32 HCBADDHNIDG; // 0x60
-	::RPG::GameCore::RogueTournPersonaRoomBgColorType JPLIONFJGCL; // 0x64
-	::RPG::GameCore::RogueTournRoomType LHLKJIDFLIN; // 0x68
+	::System::String* OLOIFNNLKJP; // 0x10
+	::System::String* CILPGJAFCOK; // 0x18
+	::Il2CppArray<::RPG::GameCore::RogueCompositionTypeDisableOperation>* ENFPMJCLEON; // 0x20
+	::RPG::Client::TextID BAAOGIMCALN; // 0x28
+	::System::UInt32 HCBADDHNIDG; // 0x38
+	::System::UInt32 LLICIMBCNPF; // 0x3C
+	::RPG::Client::TextID LJPBJNANBLB; // 0x40
+	::RPG::Client::TextID NMAHGFAPENI; // 0x50
+	::System::Boolean LOBGFEKCOHM; // 0x60
+	::RPG::GameCore::RogueTournRoomType LHLKJIDFLIN; // 0x64
+	::RPG::GameCore::RogueTournPersonaRoomBgColorType JPLIONFJGCL; // 0x68
 
 	::System::Void _ctor()
 	{

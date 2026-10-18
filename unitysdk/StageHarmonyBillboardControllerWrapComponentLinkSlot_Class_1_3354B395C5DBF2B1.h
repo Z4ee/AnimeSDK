@@ -4,9 +4,9 @@
 
 namespace RPG::Client { class BillboardController; }
 
-#define STAGEHARMONYBILLBOARDCONTROLLERWRAPCOMPONENTLINKSLOT_CLASS_1_3354B395C5DBF2B1__CTOR_OFFSET UNITYSDK_OFFSET(0x197E7D30)
+#define STAGEHARMONYBILLBOARDCONTROLLERWRAPCOMPONENTLINKSLOT_CLASS_1_3354B395C5DBF2B1__CTOR_OFFSET UNITYSDK_OFFSET(0xE982EA0)
 
-inline static constexpr unsigned int StageHarmonyBillboardControllerWrapComponentLinkSlot_Class_1_3354B395C5DBF2B1_TypeDefinitionIndex = 47820;
+inline static constexpr unsigned int StageHarmonyBillboardControllerWrapComponentLinkSlot_Class_1_3354B395C5DBF2B1_TypeDefinitionIndex = 47360;
 
 class StageHarmonyBillboardControllerWrapComponentLinkSlot_Class_1_3354B395C5DBF2B1 : public ::System::Object
 {

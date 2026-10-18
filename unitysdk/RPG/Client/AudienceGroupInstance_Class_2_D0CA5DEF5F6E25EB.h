@@ -7,19 +7,19 @@
 namespace RPG::Client { class AudienceLayoutConfig; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_AUDIENCEGROUPINSTANCE_CLASS_2_D0CA5DEF5F6E25EB_METHOD_2_B0351A8151A472A4_OFFSET UNITYSDK_OFFSET(0x1B3438A0)
-#define RPG_CLIENT_AUDIENCEGROUPINSTANCE_CLASS_2_D0CA5DEF5F6E25EB__CTOR_OFFSET UNITYSDK_OFFSET(0x1B343880)
+#define RPG_CLIENT_AUDIENCEGROUPINSTANCE_CLASS_2_D0CA5DEF5F6E25EB_METHOD_2_B0351A8151A472A4_OFFSET UNITYSDK_OFFSET(0xC6AB460)
+#define RPG_CLIENT_AUDIENCEGROUPINSTANCE_CLASS_2_D0CA5DEF5F6E25EB__CTOR_OFFSET UNITYSDK_OFFSET(0xC6AB440)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AudienceGroupInstance_Class_2_D0CA5DEF5F6E25EB_TypeDefinitionIndex = 69108;
+	inline static constexpr unsigned int AudienceGroupInstance_Class_2_D0CA5DEF5F6E25EB_TypeDefinitionIndex = 69144;
 
 	class AudienceGroupInstance_Class_2_D0CA5DEF5F6E25EB : public ::RPG::Client::AudienceGroupInstance_Class_1_9A90CD018E72DF20_14
 	{
 	public:
 		::RPG::Client::AudienceLayoutConfig* EABKOHGCHFP; // 0x10
-		::UnityEngine::Vector3 BHCMCMADHBF; // 0x18
-		::UnityEngine::Vector2 IBKFEHNBIFF; // 0x24
+		::UnityEngine::Vector2 IBKFEHNBIFF; // 0x18
+		::UnityEngine::Vector3 BHCMCMADHBF; // 0x20
 
 		::System::Void _ctor(::RPG::Client::AudienceLayoutConfig* a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector2 a3)
 		{

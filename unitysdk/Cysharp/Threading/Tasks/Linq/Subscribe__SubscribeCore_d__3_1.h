@@ -18,7 +18,7 @@ namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int Subscribe__SubscribeCore_d__3_1_TypeDefinitionIndex = 44467;
+	inline static constexpr unsigned int Subscribe__SubscribeCore_d__3_1_TypeDefinitionIndex = 45606;
 
 	template <typename TSource>
 	struct Subscribe__SubscribeCore_d__3_1

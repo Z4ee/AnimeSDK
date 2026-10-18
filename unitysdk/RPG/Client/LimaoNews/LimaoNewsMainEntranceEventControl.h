@@ -6,28 +6,28 @@ namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class Text; }
 
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSMAINENTRANCEEVENTCONTROL_SETFINISHTIP_OFFSET UNITYSDK_OFFSET(0x1C5467A0)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSMAINENTRANCEEVENTCONTROL_UPDATE_OFFSET UNITYSDK_OFFSET(0x1C545CE0)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSMAINENTRANCEEVENTCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x1C546B60)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSMAINENTRANCEEVENTCONTROL__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x1C545D60)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSMAINENTRANCEEVENTCONTROL__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0x1C545B80)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSMAINENTRANCEEVENTCONTROL_SETFINISHTIP_OFFSET UNITYSDK_OFFSET(0xD3B3D10)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSMAINENTRANCEEVENTCONTROL_UPDATE_OFFSET UNITYSDK_OFFSET(0xD3B3240)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSMAINENTRANCEEVENTCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0xD3B40D0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSMAINENTRANCEEVENTCONTROL__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0xD3B32D0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSMAINENTRANCEEVENTCONTROL__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0xD3B30E0)
 
 namespace RPG::Client::LimaoNews
 {
-	inline static constexpr unsigned int LimaoNewsMainEntranceEventControl_TypeDefinitionIndex = 79038;
+	inline static constexpr unsigned int LimaoNewsMainEntranceEventControl_TypeDefinitionIndex = 80361;
 
 	class LimaoNewsMainEntranceEventControl : public ::Sofa::BaseSofaControl
 	{
 	public:
-		::UnityEngine::Transform* _NodeBigEvent; // 0x38
-		::UnityEngine::UI::Button* _BtnBigEvent; // 0x40
-		::UnityEngine::UI::Text* _TextBigEvent; // 0x48
-		::UnityEngine::Transform* _NodeBigEventBg; // 0x50
-		::UnityEngine::Transform* _NodeEventFinishBg; // 0x58
-		::UnityEngine::Transform* _NodeBigEventKeyMap; // 0x60
-		::UnityEngine::Transform* _NodeNormalEvent; // 0x68
-		::UnityEngine::UI::Button* _BtnNormalEvent; // 0x70
-		::System::Single _OpenTime; // 0x78
+		::UnityEngine::Transform* _NodeBigEvent; // 0x40
+		::UnityEngine::UI::Button* _BtnBigEvent; // 0x48
+		::UnityEngine::UI::Text* _TextBigEvent; // 0x50
+		::UnityEngine::Transform* _NodeBigEventBg; // 0x58
+		::UnityEngine::Transform* _NodeEventFinishBg; // 0x60
+		::UnityEngine::Transform* _NodeBigEventKeyMap; // 0x68
+		::UnityEngine::Transform* _NodeNormalEvent; // 0x70
+		::UnityEngine::UI::Button* _BtnNormalEvent; // 0x78
+		::System::Single _OpenTime; // 0x80
 
 		::System::Void _ctor()
 		{

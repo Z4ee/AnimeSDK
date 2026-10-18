@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int SDKReportType_TypeDefinitionIndex = 7543;
+	inline static constexpr unsigned int SDKReportType_TypeDefinitionIndex = 7597;
 
 	enum class SDKReportType : ::System::Int32
 	{

@@ -5,7 +5,7 @@
 
 namespace RPG::Client::Timeline
 {
-	inline static constexpr unsigned int ManaVideoClip_Struct_2_521121E86E6D773E_TypeDefinitionIndex = 73251;
+	inline static constexpr unsigned int ManaVideoClip_Struct_2_521121E86E6D773E_TypeDefinitionIndex = 73347;
 
 	struct alignas(4) ManaVideoClip_Struct_2_521121E86E6D773E
 	{

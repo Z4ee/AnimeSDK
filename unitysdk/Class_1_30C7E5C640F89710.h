@@ -1,0 +1,75 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/MechCraft/MechCraftChipTraitType.h"
+#include "unitysdk/System/Object.h"
+
+class Class_0_16E4307DCC419505_129;
+class Class_0_16E4307DCC419505_162;
+class Class_1_9D997F29A74633CD;
+class Class_2_A7E2DE5AF6E7784F;
+namespace System { class Action; }
+namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
+
+#define CLASS_1_30C7E5C640F89710_GET_TARGETTRAITTYPES_OFFSET UNITYSDK_OFFSET(0x1C51F250)
+#define CLASS_1_30C7E5C640F89710_GET_TRAITSTRACKER_OFFSET UNITYSDK_OFFSET(0x1C51F260)
+#define CLASS_1_30C7E5C640F89710_METHOD_1_518980BC46693300_1_OFFSET UNITYSDK_OFFSET(0x1C51F440)
+#define CLASS_1_30C7E5C640F89710_METHOD_1_518980BC46693300_OFFSET UNITYSDK_OFFSET(0x1C51F340)
+#define CLASS_1_30C7E5C640F89710_METHOD_1_73FD5BBE218B4242_OFFSET UNITYSDK_OFFSET(0x1C51F2C0)
+#define CLASS_1_30C7E5C640F89710_METHOD_1_9B39F7D7C1FF70D6_OFFSET UNITYSDK_OFFSET(0x1C51F270)
+#define CLASS_1_30C7E5C640F89710_METHOD_1_A3FAE12D7B6ACD62_OFFSET UNITYSDK_OFFSET(0x1C51F540)
+#define CLASS_1_30C7E5C640F89710_METHOD_1_EDB5E2C647937779_OFFSET UNITYSDK_OFFSET(0x1C51F5D0)
+#define CLASS_1_30C7E5C640F89710__CTOR_OFFSET UNITYSDK_OFFSET(0x1C515D90)
+
+inline static constexpr unsigned int Class_1_30C7E5C640F89710_TypeDefinitionIndex = 41838;
+
+class Class_1_30C7E5C640F89710 : public ::System::Object
+{
+public:
+	::Class_2_A7E2DE5AF6E7784F* _TraitsTracker_k__BackingField; // 0x10
+	::Class_0_16E4307DCC419505_129* _TargetTraitTypes_k__BackingField; // 0x18
+
+	::System::Void _ctor(::Class_0_16E4307DCC419505_129* a1, ::Class_1_9D997F29A74633CD* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_129*, ::Class_1_9D997F29A74633CD*))((::PBYTE)hIl2Cpp + CLASS_1_30C7E5C640F89710__CTOR_OFFSET))(this, a1, a2);
+	}
+
+	::Class_0_16E4307DCC419505_129* get_TargetTraitTypes()
+	{
+		return ((::Class_0_16E4307DCC419505_129*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_30C7E5C640F89710_GET_TARGETTRAITTYPES_OFFSET))(this);
+	}
+
+	::Class_2_A7E2DE5AF6E7784F* get_TraitsTracker()
+	{
+		return ((::Class_2_A7E2DE5AF6E7784F*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_30C7E5C640F89710_GET_TRAITSTRACKER_OFFSET))(this);
+	}
+
+	::Class_1_9D997F29A74633CD* Method_1_9B39F7D7C1FF70D6()
+	{
+		return ((::Class_1_9D997F29A74633CD*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_30C7E5C640F89710_METHOD_1_9B39F7D7C1FF70D6_OFFSET))(this);
+	}
+
+	::Class_0_16E4307DCC419505_162* Method_1_73FD5BBE218B4242()
+	{
+		return ((::Class_0_16E4307DCC419505_162*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_30C7E5C640F89710_METHOD_1_73FD5BBE218B4242_OFFSET))(this);
+	}
+
+	::System::Void Method_1_518980BC46693300(::System::Action* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + CLASS_1_30C7E5C640F89710_METHOD_1_518980BC46693300_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_518980BC46693300_1(::System::Action* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + CLASS_1_30C7E5C640F89710_METHOD_1_518980BC46693300_1_OFFSET))(this, a1);
+	}
+
+	::System::Boolean Method_1_A3FAE12D7B6ACD62()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_30C7E5C640F89710_METHOD_1_A3FAE12D7B6ACD62_OFFSET))(this);
+	}
+
+	::System::Collections::Generic::IEnumerable_1<::RPG::Client::MechCraft::MechCraftChipTraitType>* Method_1_EDB5E2C647937779()
+	{
+		return ((::System::Collections::Generic::IEnumerable_1<::RPG::Client::MechCraft::MechCraftChipTraitType>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_30C7E5C640F89710_METHOD_1_EDB5E2C647937779_OFFSET))(this);
+	}
+};

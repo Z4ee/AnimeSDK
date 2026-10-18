@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AdvPlayerRemoveAttachment; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_F42E1DFC6AF37429_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18113D90)
-#define CLASS_3_F42E1DFC6AF37429__CTOR_OFFSET UNITYSDK_OFFSET(0x18113D60)
+#define CLASS_3_F42E1DFC6AF37429_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15D2E1E0)
+#define CLASS_3_F42E1DFC6AF37429__CTOR_OFFSET UNITYSDK_OFFSET(0x15D2E1B0)
 
-inline static constexpr unsigned int Class_3_F42E1DFC6AF37429_TypeDefinitionIndex = 52748;
+inline static constexpr unsigned int Class_3_F42E1DFC6AF37429_TypeDefinitionIndex = 52473;
 
 class Class_3_F42E1DFC6AF37429 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AdvPlayerRemoveAttachment*>
 {

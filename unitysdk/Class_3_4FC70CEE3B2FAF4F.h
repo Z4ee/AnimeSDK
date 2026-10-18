@@ -3,17 +3,17 @@
 #include "unitysdk/RPG/Client/OpenWorld/VolumeParameter_1.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define CLASS_3_4FC70CEE3B2FAF4F_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x198645B0)
-#define CLASS_3_4FC70CEE3B2FAF4F_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x198645C0)
-#define CLASS_3_4FC70CEE3B2FAF4F__CTOR_OFFSET UNITYSDK_OFFSET(0x19864630)
+#define CLASS_3_4FC70CEE3B2FAF4F_GET_VALUE_OFFSET UNITYSDK_OFFSET(0xBD140D0)
+#define CLASS_3_4FC70CEE3B2FAF4F_SET_VALUE_OFFSET UNITYSDK_OFFSET(0xBD140E0)
+#define CLASS_3_4FC70CEE3B2FAF4F__CTOR_OFFSET UNITYSDK_OFFSET(0xBD14150)
 
-inline static constexpr unsigned int Class_3_4FC70CEE3B2FAF4F_TypeDefinitionIndex = 73915;
+inline static constexpr unsigned int Class_3_4FC70CEE3B2FAF4F_TypeDefinitionIndex = 74022;
 
 class Class_3_4FC70CEE3B2FAF4F : public ::RPG::Client::OpenWorld::VolumeParameter_1<::UnityEngine::Vector2>
 {
 public:
-	::System::Single ENMIPOPKOOL; // 0x18
-	::System::Single PJKFLONMKED; // 0x1C
+	::System::Single PJKFLONMKED; // 0x18
+	::System::Single ENMIPOPKOOL; // 0x1C
 
 	::System::Void _ctor(::UnityEngine::Vector2 a1, ::System::Single a2, ::System::Single a3)
 	{

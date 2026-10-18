@@ -2,15 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define STRUCT_2_9B0F70AC3183FFF8__CCTOR_OFFSET UNITYSDK_OFFSET(0x19AD15A0)
+#define STRUCT_2_9B0F70AC3183FFF8__CCTOR_OFFSET UNITYSDK_OFFSET(0x159EEEA0)
 
-inline static constexpr unsigned int Struct_2_9B0F70AC3183FFF8_TypeDefinitionIndex = 79640;
+inline static constexpr unsigned int Struct_2_9B0F70AC3183FFF8_TypeDefinitionIndex = 80964;
 
 struct alignas(4) Struct_2_9B0F70AC3183FFF8
 {
 	static ::Struct_2_9B0F70AC3183FFF8* StaticGet_GPKBJPNFGKI()
 	{
-		return (::Struct_2_9B0F70AC3183FFF8*)Il2CppClass::FromTypeDefinitionIndex(Struct_2_9B0F70AC3183FFF8_TypeDefinitionIndex)->GetStaticField(0x3D60);
+		return (::Struct_2_9B0F70AC3183FFF8*)Il2CppClass::FromTypeDefinitionIndex(Struct_2_9B0F70AC3183FFF8_TypeDefinitionIndex)->GetStaticField(0x135B0);
 	}
 	::System::Boolean HPGAOBONHOK; // 0x10
 	::System::UInt32 CEGOPEIKDLA; // 0x14

@@ -5,22 +5,22 @@
 namespace RPG::Client::LimaoNews { class LimaoNewsRewardNumControl; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSSTATETAGCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4ACDD0)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSSTATETAGCONTROL__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x1C4ACB20)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSSTATETAGCONTROL__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0x1C4ACA40)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSSTATETAGCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0xD3DE000)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSSTATETAGCONTROL__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0xD3DDD30)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSSTATETAGCONTROL__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0xD3DDC30)
 
 namespace RPG::Client::LimaoNews
 {
-	inline static constexpr unsigned int LimaoNewsStateTagControl_TypeDefinitionIndex = 79037;
+	inline static constexpr unsigned int LimaoNewsStateTagControl_TypeDefinitionIndex = 80360;
 
 	class LimaoNewsStateTagControl : public ::Sofa::BaseSofaControl
 	{
 	public:
-		::UnityEngine::Transform* _NodeUnSearch; // 0x38
-		::UnityEngine::Transform* _NodeInProgress; // 0x40
-		::UnityEngine::Transform* _NodeFinish; // 0x48
-		::UnityEngine::Transform* _NodePublish; // 0x50
-		::RPG::Client::LimaoNews::LimaoNewsRewardNumControl* _RewardNumControl; // 0x58
+		::UnityEngine::Transform* _NodeUnSearch; // 0x40
+		::UnityEngine::Transform* _NodeInProgress; // 0x48
+		::UnityEngine::Transform* _NodeFinish; // 0x50
+		::UnityEngine::Transform* _NodePublish; // 0x58
+		::RPG::Client::LimaoNews::LimaoNewsRewardNumControl* _RewardNumControl; // 0x60
 
 		::System::Void _ctor()
 		{

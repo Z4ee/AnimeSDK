@@ -8,7 +8,7 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AimEvaluator_2_TypeDefinitionIndex = 68332;
+	inline static constexpr unsigned int AimEvaluator_2_TypeDefinitionIndex = 68365;
 
 	template <typename U, typename V>
 	class AimEvaluator_2 : public ::System::MulticastDelegate

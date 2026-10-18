@@ -9,7 +9,7 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int Buffer_1_TypeDefinitionIndex = 44130;
+	inline static constexpr unsigned int Buffer_1_TypeDefinitionIndex = 45269;
 
 	template <typename TSource>
 	class Buffer_1 : public ::System::Object

@@ -4,21 +4,21 @@
 
 namespace System::Collections::Generic { template <typename T> class IEqualityComparer_1; }
 
-#define SPINE_UNITY_SKELETONMECANIM_MECANIMTRANSLATOR_INTEQUALITYCOMPARER_EQUALS_OFFSET UNITYSDK_OFFSET(0x1832F460)
-#define SPINE_UNITY_SKELETONMECANIM_MECANIMTRANSLATOR_INTEQUALITYCOMPARER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1832F470)
-#define SPINE_UNITY_SKELETONMECANIM_MECANIMTRANSLATOR_INTEQUALITYCOMPARER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1832F490)
-#define SPINE_UNITY_SKELETONMECANIM_MECANIMTRANSLATOR_INTEQUALITYCOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x1832F480)
+#define SPINE_UNITY_SKELETONMECANIM_MECANIMTRANSLATOR_INTEQUALITYCOMPARER_EQUALS_OFFSET UNITYSDK_OFFSET(0x1ECF4270)
+#define SPINE_UNITY_SKELETONMECANIM_MECANIMTRANSLATOR_INTEQUALITYCOMPARER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1ECF4280)
+#define SPINE_UNITY_SKELETONMECANIM_MECANIMTRANSLATOR_INTEQUALITYCOMPARER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1ECF42A0)
+#define SPINE_UNITY_SKELETONMECANIM_MECANIMTRANSLATOR_INTEQUALITYCOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x1ECF4290)
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int SkeletonMecanim_MecanimTranslator_IntEqualityComparer_TypeDefinitionIndex = 43849;
+	inline static constexpr unsigned int SkeletonMecanim_MecanimTranslator_IntEqualityComparer_TypeDefinitionIndex = 45041;
 
 	class SkeletonMecanim_MecanimTranslator_IntEqualityComparer : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::IEqualityComparer_1<::System::Int32>** StaticGet_Instance()
 		{
-			return (::System::Collections::Generic::IEqualityComparer_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(SkeletonMecanim_MecanimTranslator_IntEqualityComparer_TypeDefinitionIndex)->GetStaticField(0x1B2F0);
+			return (::System::Collections::Generic::IEqualityComparer_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(SkeletonMecanim_MecanimTranslator_IntEqualityComparer_TypeDefinitionIndex)->GetStaticField(0x15530);
 		}
 
 		::System::Void _ctor()

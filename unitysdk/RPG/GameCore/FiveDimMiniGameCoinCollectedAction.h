@@ -6,13 +6,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIVEDIMMINIGAMECOINCOLLECTEDACTION_METHOD_3_A36AA2BC1913634F_OFFSET UNITYSDK_OFFSET(0x1D869130)
-#define RPG_GAMECORE_FIVEDIMMINIGAMECOINCOLLECTEDACTION_METHOD_3_B7A476335291129A_OFFSET UNITYSDK_OFFSET(0x1D8690F0)
-#define RPG_GAMECORE_FIVEDIMMINIGAMECOINCOLLECTEDACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D869120)
+#define RPG_GAMECORE_FIVEDIMMINIGAMECOINCOLLECTEDACTION_METHOD_4_470FD82836DCB890_OFFSET UNITYSDK_OFFSET(0x1D69A270)
+#define RPG_GAMECORE_FIVEDIMMINIGAMECOINCOLLECTEDACTION_METHOD_4_BF033FAA08CDA3F9_OFFSET UNITYSDK_OFFSET(0x1D69A230)
+#define RPG_GAMECORE_FIVEDIMMINIGAMECOINCOLLECTEDACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D69A260)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimMiniGameCoinCollectedAction_TypeDefinitionIndex = 18537;
+	inline static constexpr unsigned int FiveDimMiniGameCoinCollectedAction_TypeDefinitionIndex = 18747;
 
 	class FiveDimMiniGameCoinCollectedAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
@@ -26,14 +26,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMMINIGAMECOINCOLLECTEDACTION__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_B7A476335291129A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimMiniGameCoinCollectedAction*& a2)
+		static ::System::Void Method_4_BF033FAA08CDA3F9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimMiniGameCoinCollectedAction*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimMiniGameCoinCollectedAction*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMMINIGAMECOINCOLLECTEDACTION_METHOD_3_B7A476335291129A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimMiniGameCoinCollectedAction*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMMINIGAMECOINCOLLECTEDACTION_METHOD_4_BF033FAA08CDA3F9_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_A36AA2BC1913634F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimMiniGameCoinCollectedAction* a2)
+		static ::System::Void Method_4_470FD82836DCB890(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimMiniGameCoinCollectedAction* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimMiniGameCoinCollectedAction*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMMINIGAMECOINCOLLECTEDACTION_METHOD_3_A36AA2BC1913634F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimMiniGameCoinCollectedAction*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMMINIGAMECOINCOLLECTEDACTION_METHOD_4_470FD82836DCB890_OFFSET))(a1, a2);
 		}
 	};
 }

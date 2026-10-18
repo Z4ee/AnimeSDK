@@ -6,27 +6,27 @@ namespace System { class String; }
 namespace UnityEngine { class ComputeShader; }
 namespace UnityEngine { class Object; }
 
-#define CLASS_1_73C8737BBC515635_METHOD_1_88FC2BD4BA0B1192_OFFSET UNITYSDK_OFFSET(0x1875F520)
-#define CLASS_1_73C8737BBC515635_METHOD_1_8B50C99A62E03A3E_OFFSET UNITYSDK_OFFSET(0x1875F4C0)
-#define CLASS_1_73C8737BBC515635_METHOD_1_E55199F4E71DB1AE_OFFSET UNITYSDK_OFFSET(0x1875F440)
-#define CLASS_1_73C8737BBC515635__CCTOR_OFFSET UNITYSDK_OFFSET(0x1875F420)
+#define CLASS_1_73C8737BBC515635_METHOD_1_88FC2BD4BA0B1192_OFFSET UNITYSDK_OFFSET(0xB77E1E0)
+#define CLASS_1_73C8737BBC515635_METHOD_1_8B50C99A62E03A3E_OFFSET UNITYSDK_OFFSET(0xB77E180)
+#define CLASS_1_73C8737BBC515635_METHOD_1_E55199F4E71DB1AE_OFFSET UNITYSDK_OFFSET(0xB77E100)
+#define CLASS_1_73C8737BBC515635__CCTOR_OFFSET UNITYSDK_OFFSET(0xB77E0E0)
 
-inline static constexpr unsigned int Class_1_73C8737BBC515635_TypeDefinitionIndex = 73605;
+inline static constexpr unsigned int Class_1_73C8737BBC515635_TypeDefinitionIndex = 73712;
 
 class Class_1_73C8737BBC515635 : public ::System::Object
 {
 public:
-	static ::System::Int32* StaticGet_LIPHEJCBPBD()
+	static ::System::Boolean* StaticGet_GKNCPKCLMPJ()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_73C8737BBC515635_TypeDefinitionIndex)->GetStaticField(0xAE50);
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_73C8737BBC515635_TypeDefinitionIndex)->GetStaticField(0xEE50);
 	}
 	static ::System::Boolean* StaticGet_DFKKLPMLNGH()
 	{
-		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_73C8737BBC515635_TypeDefinitionIndex)->GetStaticField(0xAE54);
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_73C8737BBC515635_TypeDefinitionIndex)->GetStaticField(0xEE51);
 	}
-	static ::System::Boolean* StaticGet_GKNCPKCLMPJ()
+	static ::System::Int32* StaticGet_LIPHEJCBPBD()
 	{
-		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_73C8737BBC515635_TypeDefinitionIndex)->GetStaticField(0xAE55);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_73C8737BBC515635_TypeDefinitionIndex)->GetStaticField(0xEE54);
 	}
 	// static const ::System::Single HEFNCMFOKLG; // 0x0
 	// static const ::System::Single ABCJMLEBDMF; // 0x0

@@ -10,21 +10,21 @@ namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define CLASS_4_DF6C1BC2963BF275_GETDYNAMICKEY_OFFSET UNITYSDK_OFFSET(0x1ADFF0B0)
-#define CLASS_4_DF6C1BC2963BF275_METHOD_4_0C2DE072D09B1F26_OFFSET UNITYSDK_OFFSET(0x1ADFEE60)
-#define CLASS_4_DF6C1BC2963BF275_METHOD_4_61ACBD6DF6FE15E4_OFFSET UNITYSDK_OFFSET(0x1ADFED80)
-#define CLASS_4_DF6C1BC2963BF275__CTOR_OFFSET UNITYSDK_OFFSET(0x1ADFEE00)
+#define CLASS_4_DF6C1BC2963BF275_GETDYNAMICKEY_OFFSET UNITYSDK_OFFSET(0x1D7D96F0)
+#define CLASS_4_DF6C1BC2963BF275_METHOD_4_0C2DE072D09B1F26_OFFSET UNITYSDK_OFFSET(0x1D7D94A0)
+#define CLASS_4_DF6C1BC2963BF275_METHOD_4_61ACBD6DF6FE15E4_OFFSET UNITYSDK_OFFSET(0x1D7D93C0)
+#define CLASS_4_DF6C1BC2963BF275__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7D9440)
 
-inline static constexpr unsigned int Class_4_DF6C1BC2963BF275_TypeDefinitionIndex = 22733;
+inline static constexpr unsigned int Class_4_DF6C1BC2963BF275_TypeDefinitionIndex = 22990;
 
 class Class_4_DF6C1BC2963BF275 : public ::RPG::GameCore::SetDynamicValueBase
 {
 public:
-	::RPG::GameCore::DynamicFloat* CKFBELANALF; // 0x18
-	::RPG::GameCore::TargetEvaluator* OLPAJJAEEHH; // 0x20
-	::System::String* FHLJGDGMMHK; // 0x28
-	::RPG::GameCore::HPDetailParamType IMOPHAJMIFO; // 0x30
-	::RPG::GameCore::DynamicValueContextScope AMEKHLANFKP; // 0x34
+	::RPG::GameCore::TargetEvaluator* OLPAJJAEEHH; // 0x18
+	::System::String* FHLJGDGMMHK; // 0x20
+	::RPG::GameCore::DynamicFloat* CKFBELANALF; // 0x28
+	::RPG::GameCore::DynamicValueContextScope AMEKHLANFKP; // 0x30
+	::RPG::GameCore::HPDetailParamType IMOPHAJMIFO; // 0x34
 
 	::System::Void _ctor()
 	{

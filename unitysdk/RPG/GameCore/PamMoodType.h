@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PamMoodType_TypeDefinitionIndex = 14194;
+	inline static constexpr unsigned int PamMoodType_TypeDefinitionIndex = 14301;
 
 	enum class PamMoodType : ::System::Int32
 	{

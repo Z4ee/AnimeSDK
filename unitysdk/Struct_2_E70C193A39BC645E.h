@@ -1,0 +1,81 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/ValueType.h"
+
+class Class_0_16E4307DCC419505_409;
+class Class_0_16E4307DCC419505_425;
+class Class_1_17B92CF4857957F9;
+class Class_1_F41BA62BC88DE172;
+namespace UnityEngine { class Camera; }
+
+#define STRUCT_2_E70C193A39BC645E_GET_APPLYGATEMANAGER_OFFSET UNITYSDK_OFFSET(0xAD00)
+#define STRUCT_2_E70C193A39BC645E_GET_DEPENDENCYRESOLVER_OFFSET UNITYSDK_OFFSET(0x1D40)
+#define STRUCT_2_E70C193A39BC645E_GET_MESSENGER_OFFSET UNITYSDK_OFFSET(0x1D30)
+#define STRUCT_2_E70C193A39BC645E_GET_STAGECRAFTENVIRONMENT_OFFSET UNITYSDK_OFFSET(0x94F0)
+#define STRUCT_2_E70C193A39BC645E_GET_UI3DCAMERA_OFFSET UNITYSDK_OFFSET(0x94D0)
+#define STRUCT_2_E70C193A39BC645E_SET_APPLYGATEMANAGER_OFFSET UNITYSDK_OFFSET(0xAD10)
+#define STRUCT_2_E70C193A39BC645E_SET_DEPENDENCYRESOLVER_OFFSET UNITYSDK_OFFSET(0x94C0)
+#define STRUCT_2_E70C193A39BC645E_SET_MESSENGER_OFFSET UNITYSDK_OFFSET(0x94B0)
+#define STRUCT_2_E70C193A39BC645E_SET_STAGECRAFTENVIRONMENT_OFFSET UNITYSDK_OFFSET(0x9500)
+#define STRUCT_2_E70C193A39BC645E_SET_UI3DCAMERA_OFFSET UNITYSDK_OFFSET(0x94E0)
+
+inline static constexpr unsigned int Struct_2_E70C193A39BC645E_TypeDefinitionIndex = 44236;
+
+struct alignas(8) Struct_2_E70C193A39BC645E
+{
+	::Class_0_16E4307DCC419505_409* _Messenger_k__BackingField; // 0x10
+	::Class_0_16E4307DCC419505_425* _DependencyResolver_k__BackingField; // 0x18
+	::UnityEngine::Camera* _UI3DCamera_k__BackingField; // 0x20
+	::Class_1_F41BA62BC88DE172* _StagecraftEnvironment_k__BackingField; // 0x28
+	::Class_1_17B92CF4857957F9* _ApplyGateManager_k__BackingField; // 0x30
+
+	::Class_0_16E4307DCC419505_409* get_Messenger()
+	{
+		return ((::Class_0_16E4307DCC419505_409*(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_E70C193A39BC645E_GET_MESSENGER_OFFSET))(this);
+	}
+
+	::System::Void set_Messenger(::Class_0_16E4307DCC419505_409* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_409*))((::PBYTE)hIl2Cpp + STRUCT_2_E70C193A39BC645E_SET_MESSENGER_OFFSET))(this, a1);
+	}
+
+	::Class_0_16E4307DCC419505_425* get_DependencyResolver()
+	{
+		return ((::Class_0_16E4307DCC419505_425*(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_E70C193A39BC645E_GET_DEPENDENCYRESOLVER_OFFSET))(this);
+	}
+
+	::System::Void set_DependencyResolver(::Class_0_16E4307DCC419505_425* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_425*))((::PBYTE)hIl2Cpp + STRUCT_2_E70C193A39BC645E_SET_DEPENDENCYRESOLVER_OFFSET))(this, a1);
+	}
+
+	::UnityEngine::Camera* get_UI3DCamera()
+	{
+		return ((::UnityEngine::Camera*(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_E70C193A39BC645E_GET_UI3DCAMERA_OFFSET))(this);
+	}
+
+	::System::Void set_UI3DCamera(::UnityEngine::Camera* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::Camera*))((::PBYTE)hIl2Cpp + STRUCT_2_E70C193A39BC645E_SET_UI3DCAMERA_OFFSET))(this, a1);
+	}
+
+	::Class_1_F41BA62BC88DE172* get_StagecraftEnvironment()
+	{
+		return ((::Class_1_F41BA62BC88DE172*(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_E70C193A39BC645E_GET_STAGECRAFTENVIRONMENT_OFFSET))(this);
+	}
+
+	::System::Void set_StagecraftEnvironment(::Class_1_F41BA62BC88DE172* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_F41BA62BC88DE172*))((::PBYTE)hIl2Cpp + STRUCT_2_E70C193A39BC645E_SET_STAGECRAFTENVIRONMENT_OFFSET))(this, a1);
+	}
+
+	::Class_1_17B92CF4857957F9* get_ApplyGateManager()
+	{
+		return ((::Class_1_17B92CF4857957F9*(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_E70C193A39BC645E_GET_APPLYGATEMANAGER_OFFSET))(this);
+	}
+
+	::System::Void set_ApplyGateManager(::Class_1_17B92CF4857957F9* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_17B92CF4857957F9*))((::PBYTE)hIl2Cpp + STRUCT_2_E70C193A39BC645E_SET_APPLYGATEMANAGER_OFFSET))(this, a1);
+	}
+};

@@ -4,12 +4,12 @@
 #include "unitysdk/UnityEngine/Rendering/CRPCaptureDesc.h"
 #include "unitysdk/UnityEngine/Rendering/CRPGlobalMutationStats.h"
 
-#define UNITYENGINE_RENDERING_CAPTUREGLOBALMUTATIONDESC_GETCAPTURERESULT_OFFSET UNITYSDK_OFFSET(0x1DCCD6F0)
-#define UNITYENGINE_RENDERING_CAPTUREGLOBALMUTATIONDESC_UPDATEMANUAL_OFFSET UNITYSDK_OFFSET(0x1DCCD6E0)
+#define UNITYENGINE_RENDERING_CAPTUREGLOBALMUTATIONDESC_GETCAPTURERESULT_OFFSET UNITYSDK_OFFSET(0x1F3F1530)
+#define UNITYENGINE_RENDERING_CAPTUREGLOBALMUTATIONDESC_UPDATEMANUAL_OFFSET UNITYSDK_OFFSET(0x1F3F1520)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int CaptureGlobalMutationDesc_TypeDefinitionIndex = 4830;
+	inline static constexpr unsigned int CaptureGlobalMutationDesc_TypeDefinitionIndex = 4836;
 
 	struct alignas(8) CaptureGlobalMutationDesc
 	{

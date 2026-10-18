@@ -4,11 +4,11 @@
 
 namespace RPGCamera { class CameraBlendState; }
 
-#define RPGCAMERA_CAMERASTATEFACTORY_CREATEBLENDSTATE_OFFSET UNITYSDK_OFFSET(0x19673490)
+#define RPGCAMERA_CAMERASTATEFACTORY_CREATEBLENDSTATE_OFFSET UNITYSDK_OFFSET(0xB079FA0)
 
 namespace RPGCamera
 {
-	inline static constexpr unsigned int CameraStateFactory_TypeDefinitionIndex = 44806;
+	inline static constexpr unsigned int CameraStateFactory_TypeDefinitionIndex = 45945;
 
 	class CameraStateFactory : public ::System::Object
 	{

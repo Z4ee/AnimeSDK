@@ -5,12 +5,12 @@
 
 namespace System::Threading { class SynchronizationContext; }
 
-#define CYSHARP_THREADING_TASKS_SWITCHTOSYNCHRONIZATIONCONTEXTAWAITABLE_GETAWAITER_OFFSET UNITYSDK_OFFSET(0x14A80)
-#define CYSHARP_THREADING_TASKS_SWITCHTOSYNCHRONIZATIONCONTEXTAWAITABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x6B85C0)
+#define CYSHARP_THREADING_TASKS_SWITCHTOSYNCHRONIZATIONCONTEXTAWAITABLE_GETAWAITER_OFFSET UNITYSDK_OFFSET(0x2E88BC0)
+#define CYSHARP_THREADING_TASKS_SWITCHTOSYNCHRONIZATIONCONTEXTAWAITABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x10400)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int SwitchToSynchronizationContextAwaitable_TypeDefinitionIndex = 42786;
+	inline static constexpr unsigned int SwitchToSynchronizationContextAwaitable_TypeDefinitionIndex = 38371;
 
 	struct alignas(8) SwitchToSynchronizationContextAwaitable
 	{

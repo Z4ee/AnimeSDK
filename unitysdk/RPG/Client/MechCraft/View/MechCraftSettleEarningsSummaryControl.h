@@ -1,0 +1,67 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/MonoBehaviour.h"
+
+class Class_0_16E4307DCC419505_1509;
+class Class_1_E3C2EEB93C1BBB05;
+namespace ObservableCollections { template <typename T> class ObservableList_1; }
+namespace RPG::Client { class StaticListView; }
+namespace RPG::Client { class StaticListViewItem; }
+namespace RPG::Client::MechCraft::View { class MechCraftSettleEarningsSummaryControlBinder; }
+
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTSETTLEEARNINGSSUMMARYCONTROL_GET_CONTENT_OFFSET UNITYSDK_OFFSET(0xD659520)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTSETTLEEARNINGSSUMMARYCONTROL_METHOD_5_0260A0278150AE9F_OFFSET UNITYSDK_OFFSET(0xD659560)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTSETTLEEARNINGSSUMMARYCONTROL_METHOD_5_9C2E8CD204BDC5E8_OFFSET UNITYSDK_OFFSET(0xD659B50)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTSETTLEEARNINGSSUMMARYCONTROL_METHOD_5_DF426AB3FB55B294_OFFSET UNITYSDK_OFFSET(0xD6596F0)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTSETTLEEARNINGSSUMMARYCONTROL_PLAYITEMFADEIN_OFFSET UNITYSDK_OFFSET(0xD6578B0)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTSETTLEEARNINGSSUMMARYCONTROL_SET_CONTENT_OFFSET UNITYSDK_OFFSET(0xD657360)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTSETTLEEARNINGSSUMMARYCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0xD659CE0)
+
+namespace RPG::Client::MechCraft::View
+{
+	inline static constexpr unsigned int MechCraftSettleEarningsSummaryControl_TypeDefinitionIndex = 80032;
+
+	class MechCraftSettleEarningsSummaryControl : public ::UnityEngine::MonoBehaviour
+	{
+	public:
+		::Class_0_16E4307DCC419505_1509* LFGMLJCCPCH; // 0x18
+		::ObservableCollections::ObservableList_1<::Class_1_E3C2EEB93C1BBB05*>* GCIKKMGIPIO; // 0x20
+		::System::Boolean PHBCJPCHDHC; // 0x28
+		::RPG::Client::MechCraft::View::MechCraftSettleEarningsSummaryControlBinder* _Binder; // 0x30
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTSETTLEEARNINGSSUMMARYCONTROL__CTOR_OFFSET))(this);
+		}
+
+		::Class_0_16E4307DCC419505_1509* get_Content()
+		{
+			return ((::Class_0_16E4307DCC419505_1509*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTSETTLEEARNINGSSUMMARYCONTROL_GET_CONTENT_OFFSET))(this);
+		}
+
+		::System::Void set_Content(::Class_0_16E4307DCC419505_1509* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_1509*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTSETTLEEARNINGSSUMMARYCONTROL_SET_CONTENT_OFFSET))(this, a1);
+		}
+
+		::System::Void Method_5_0260A0278150AE9F(::Class_0_16E4307DCC419505_1509* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_1509*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTSETTLEEARNINGSSUMMARYCONTROL_METHOD_5_0260A0278150AE9F_OFFSET))(this, a1);
+		}
+
+		::System::Void Method_5_DF426AB3FB55B294(::ObservableCollections::ObservableList_1<::Class_1_E3C2EEB93C1BBB05*>* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::ObservableCollections::ObservableList_1<::Class_1_E3C2EEB93C1BBB05*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTSETTLEEARNINGSSUMMARYCONTROL_METHOD_5_DF426AB3FB55B294_OFFSET))(this, a1);
+		}
+
+		::RPG::Client::StaticListViewItem* Method_5_9C2E8CD204BDC5E8(::RPG::Client::StaticListView* a1, ::System::Int32 a2)
+		{
+			return ((::RPG::Client::StaticListViewItem*(*)(::PVOID, ::RPG::Client::StaticListView*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTSETTLEEARNINGSSUMMARYCONTROL_METHOD_5_9C2E8CD204BDC5E8_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void PlayItemFadeIn()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTSETTLEEARNINGSSUMMARYCONTROL_PLAYITEMFADEIN_OFFSET))(this);
+		}
+	};
+}

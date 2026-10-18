@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MIHOYO_SDK_PROCESSTHREADUTILS_GETTHREADCOUNT_OFFSET UNITYSDK_OFFSET(0x19E7D790)
+#define MIHOYO_SDK_PROCESSTHREADUTILS_GETTHREADCOUNT_OFFSET UNITYSDK_OFFSET(0x1BF55A70)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ProcessThreadUtils_TypeDefinitionIndex = 7929;
+	inline static constexpr unsigned int ProcessThreadUtils_TypeDefinitionIndex = 7972;
 
 	class ProcessThreadUtils : public ::System::Object
 	{

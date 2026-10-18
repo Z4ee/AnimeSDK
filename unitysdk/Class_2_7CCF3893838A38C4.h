@@ -8,10 +8,10 @@ namespace RPG::GameCore { class RtTargetMapEntityInGrid; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_7CCF3893838A38C4_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x17D33750)
-#define CLASS_2_7CCF3893838A38C4__CTOR_OFFSET UNITYSDK_OFFSET(0x17D33730)
+#define CLASS_2_7CCF3893838A38C4_TRANSFORM_OFFSET UNITYSDK_OFFSET(0xBF85A60)
+#define CLASS_2_7CCF3893838A38C4__CTOR_OFFSET UNITYSDK_OFFSET(0xBF85A40)
 
-inline static constexpr unsigned int Class_2_7CCF3893838A38C4_TypeDefinitionIndex = 54028;
+inline static constexpr unsigned int Class_2_7CCF3893838A38C4_TypeDefinitionIndex = 53814;
 
 class Class_2_7CCF3893838A38C4 : public ::RPG::GameCore::TargetSeqOperationImpl_1<::RPG::GameCore::RtTargetMapEntityInGrid*>
 {

@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define ENVIRONMENTSYSTEMTEST__CTOR_OFFSET UNITYSDK_OFFSET(0x199E80C0)
+#define ENVIRONMENTSYSTEMTEST__CTOR_OFFSET UNITYSDK_OFFSET(0x1564D950)
 
-inline static constexpr unsigned int EnvironmentSystemTest_TypeDefinitionIndex = 47760;
+inline static constexpr unsigned int EnvironmentSystemTest_TypeDefinitionIndex = 47300;
 
 class EnvironmentSystemTest : public ::UnityEngine::MonoBehaviour
 {

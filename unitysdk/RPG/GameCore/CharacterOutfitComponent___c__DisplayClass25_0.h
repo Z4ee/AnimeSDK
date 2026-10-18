@@ -8,12 +8,12 @@ namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_GAMECORE_CHARACTEROUTFITCOMPONENT___C__DISPLAYCLASS25_0__CTOR_OFFSET UNITYSDK_OFFSET(0x12243D40)
-#define RPG_GAMECORE_CHARACTEROUTFITCOMPONENT___C__DISPLAYCLASS25_0__TRIGGERDEFAULTCHANGEMODELEFFECTS_B__0_OFFSET UNITYSDK_OFFSET(0x12246640)
+#define RPG_GAMECORE_CHARACTEROUTFITCOMPONENT___C__DISPLAYCLASS25_0__CTOR_OFFSET UNITYSDK_OFFSET(0xE5F8570)
+#define RPG_GAMECORE_CHARACTEROUTFITCOMPONENT___C__DISPLAYCLASS25_0__TRIGGERDEFAULTCHANGEMODELEFFECTS_B__0_OFFSET UNITYSDK_OFFSET(0xE5FA880)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterOutfitComponent___c__DisplayClass25_0_TypeDefinitionIndex = 57377;
+	inline static constexpr unsigned int CharacterOutfitComponent___c__DisplayClass25_0_TypeDefinitionIndex = 57213;
 
 	class CharacterOutfitComponent___c__DisplayClass25_0 : public ::System::Object
 	{

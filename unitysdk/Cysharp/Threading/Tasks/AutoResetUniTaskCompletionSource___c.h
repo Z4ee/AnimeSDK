@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CYSHARP_THREADING_TASKS_AUTORESETUNITASKCOMPLETIONSOURCE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D7456F0)
-#define CYSHARP_THREADING_TASKS_AUTORESETUNITASKCOMPLETIONSOURCE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1D745730)
-#define CYSHARP_THREADING_TASKS_AUTORESETUNITASKCOMPLETIONSOURCE___C___CCTOR_B__4_0_OFFSET UNITYSDK_OFFSET(0x1D745740)
+#define CYSHARP_THREADING_TASKS_AUTORESETUNITASKCOMPLETIONSOURCE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F0E73F0)
+#define CYSHARP_THREADING_TASKS_AUTORESETUNITASKCOMPLETIONSOURCE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1F0E7430)
+#define CYSHARP_THREADING_TASKS_AUTORESETUNITASKCOMPLETIONSOURCE___C___CCTOR_B__4_0_OFFSET UNITYSDK_OFFSET(0x1F0E7440)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int AutoResetUniTaskCompletionSource___c_TypeDefinitionIndex = 42811;
+	inline static constexpr unsigned int AutoResetUniTaskCompletionSource___c_TypeDefinitionIndex = 38396;
 
 	class AutoResetUniTaskCompletionSource___c : public ::System::Object
 	{
 	public:
 		static ::Cysharp::Threading::Tasks::AutoResetUniTaskCompletionSource___c** StaticGet___9()
 		{
-			return (::Cysharp::Threading::Tasks::AutoResetUniTaskCompletionSource___c**)Il2CppClass::FromTypeDefinitionIndex(AutoResetUniTaskCompletionSource___c_TypeDefinitionIndex)->GetStaticField(0x61930);
+			return (::Cysharp::Threading::Tasks::AutoResetUniTaskCompletionSource___c**)Il2CppClass::FromTypeDefinitionIndex(AutoResetUniTaskCompletionSource___c_TypeDefinitionIndex)->GetStaticField(0x36750);
 		}
 
 		static ::System::Void _cctor()

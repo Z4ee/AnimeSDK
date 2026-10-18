@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/Client/MonoSpineStoryController_Dialog.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_43CAD76A5B44BF76_CLASS_1_851E42474B6C53CF__CTOR_OFFSET UNITYSDK_OFFSET(0x19538540)
+#define CLASS_1_43CAD76A5B44BF76_CLASS_1_851E42474B6C53CF__CTOR_OFFSET UNITYSDK_OFFSET(0xDA40C60)
 
-inline static constexpr unsigned int Class_1_43CAD76A5B44BF76_Class_1_851E42474B6C53CF_TypeDefinitionIndex = 60397;
+inline static constexpr unsigned int Class_1_43CAD76A5B44BF76_Class_1_851E42474B6C53CF_TypeDefinitionIndex = 60285;
 
 class Class_1_43CAD76A5B44BF76_Class_1_851E42474B6C53CF : public ::System::Object
 {

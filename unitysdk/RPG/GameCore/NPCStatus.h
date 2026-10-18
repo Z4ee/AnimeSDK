@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int NPCStatus_TypeDefinitionIndex = 15409;
+	inline static constexpr unsigned int NPCStatus_TypeDefinitionIndex = 15580;
 
 	enum class NPCStatus : ::System::Int32
 	{

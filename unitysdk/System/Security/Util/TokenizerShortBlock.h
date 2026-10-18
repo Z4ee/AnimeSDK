@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_SECURITY_UTIL_TOKENIZERSHORTBLOCK__CTOR_OFFSET UNITYSDK_OFFSET(0x166DE4D0)
+#define SYSTEM_SECURITY_UTIL_TOKENIZERSHORTBLOCK__CTOR_OFFSET UNITYSDK_OFFSET(0x1C0CA310)
 
 namespace System::Security::Util
 {

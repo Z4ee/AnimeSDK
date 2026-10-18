@@ -7,22 +7,22 @@ namespace RPG::Client { class GridFightUpgradeFlyEffect; }
 namespace System { class Action; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER___C__DISPLAYCLASS27_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C968D20)
-#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER___C__DISPLAYCLASS27_0__PLAYUPGRADEEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0x1C96AED0)
-#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER___C__DISPLAYCLASS27_0__PLAYUPGRADEEFFECT_B__1_OFFSET UNITYSDK_OFFSET(0x1C96AF10)
-#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER___C__DISPLAYCLASS27_0__PLAYUPGRADEEFFECT_B__2_OFFSET UNITYSDK_OFFSET(0x1C96AF60)
+#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER___C__DISPLAYCLASS27_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD0F8130)
+#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER___C__DISPLAYCLASS27_0__PLAYUPGRADEEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0xD0FA2E0)
+#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER___C__DISPLAYCLASS27_0__PLAYUPGRADEEFFECT_B__1_OFFSET UNITYSDK_OFFSET(0xD0FA320)
+#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER___C__DISPLAYCLASS27_0__PLAYUPGRADEEFFECT_B__2_OFFSET UNITYSDK_OFFSET(0xD0FA370)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightEffectController___c__DisplayClass27_0_TypeDefinitionIndex = 64545;
+	inline static constexpr unsigned int GridFightEffectController___c__DisplayClass27_0_TypeDefinitionIndex = 64485;
 
 	class GridFightEffectController___c__DisplayClass27_0 : public ::System::Object
 	{
 	public:
-		::UnityEngine::Transform* end; // 0x10
+		::System::Action* onFinished; // 0x10
 		::RPG::Client::GridFightEffectController* __4__this; // 0x18
-		::RPG::Client::GridFightUpgradeFlyEffect* fly1; // 0x20
-		::System::Action* onFinished; // 0x28
+		::UnityEngine::Transform* end; // 0x20
+		::RPG::Client::GridFightUpgradeFlyEffect* fly1; // 0x28
 		::RPG::Client::GridFightUpgradeFlyEffect* fly2; // 0x30
 		::System::Boolean isEndPerspective; // 0x38
 		::System::Int32 star; // 0x3C

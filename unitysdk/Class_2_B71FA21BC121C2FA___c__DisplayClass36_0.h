@@ -6,16 +6,16 @@ class Class_2_B71FA21BC121C2FA;
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class SkillData; }
 
-#define CLASS_2_B71FA21BC121C2FA___C__DISPLAYCLASS36_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16B5A3D0)
-#define CLASS_2_B71FA21BC121C2FA___C__DISPLAYCLASS36_0__SETUPSKILL_B__0_OFFSET UNITYSDK_OFFSET(0x16B5CE30)
+#define CLASS_2_B71FA21BC121C2FA___C__DISPLAYCLASS36_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB2DB790)
+#define CLASS_2_B71FA21BC121C2FA___C__DISPLAYCLASS36_0__SETUPSKILL_B__0_OFFSET UNITYSDK_OFFSET(0xB2DE1F0)
 
-inline static constexpr unsigned int Class_2_B71FA21BC121C2FA___c__DisplayClass36_0_TypeDefinitionIndex = 71832;
+inline static constexpr unsigned int Class_2_B71FA21BC121C2FA___c__DisplayClass36_0_TypeDefinitionIndex = 71897;
 
 class Class_2_B71FA21BC121C2FA___c__DisplayClass36_0 : public ::System::Object
 {
 public:
-	::RPG::GameCore::SkillData* skillData; // 0x10
-	::Class_2_B71FA21BC121C2FA* __4__this; // 0x18
+	::Class_2_B71FA21BC121C2FA* __4__this; // 0x10
+	::RPG::GameCore::SkillData* skillData; // 0x18
 	::RPG::GameCore::GameEntity* entity; // 0x20
 
 	::System::Void _ctor()

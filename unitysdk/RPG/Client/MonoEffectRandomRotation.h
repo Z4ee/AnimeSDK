@@ -6,12 +6,12 @@
 namespace RPG::Client { class MonoEffectRandomRotationContorlBehaviorlBehavior; }
 namespace System { class String; }
 
-#define RPG_CLIENT_MONOEFFECTRANDOMROTATION_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x1B39DA80)
-#define RPG_CLIENT_MONOEFFECTRANDOMROTATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1B39DAD0)
+#define RPG_CLIENT_MONOEFFECTRANDOMROTATION_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xD809030)
+#define RPG_CLIENT_MONOEFFECTRANDOMROTATION__CTOR_OFFSET UNITYSDK_OFFSET(0xD809080)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectRandomRotation_TypeDefinitionIndex = 68552;
+	inline static constexpr unsigned int MonoEffectRandomRotation_TypeDefinitionIndex = 68586;
 
 	class MonoEffectRandomRotation : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::MonoEffectRandomRotationContorlBehaviorlBehavior*>
 	{

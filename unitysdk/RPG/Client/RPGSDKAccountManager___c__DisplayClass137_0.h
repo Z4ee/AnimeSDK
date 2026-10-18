@@ -3,12 +3,12 @@
 #include "unitysdk/MiHoYo/SDK/MiHoYoSDKUniWebViewMessage.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_RPGSDKACCOUNTMANAGER___C__DISPLAYCLASS137_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18055930)
-#define RPG_CLIENT_RPGSDKACCOUNTMANAGER___C__DISPLAYCLASS137_0___ONUNIWEBVIEWMESSAGEOPENITEMDETAILDIALOG_B__0_OFFSET UNITYSDK_OFFSET(0x18059AC0)
+#define RPG_CLIENT_RPGSDKACCOUNTMANAGER___C__DISPLAYCLASS137_0__CTOR_OFFSET UNITYSDK_OFFSET(0xDE30A70)
+#define RPG_CLIENT_RPGSDKACCOUNTMANAGER___C__DISPLAYCLASS137_0___ONUNIWEBVIEWMESSAGEOPENITEMDETAILDIALOG_B__0_OFFSET UNITYSDK_OFFSET(0xDE34C00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RPGSDKAccountManager___c__DisplayClass137_0_TypeDefinitionIndex = 61185;
+	inline static constexpr unsigned int RPGSDKAccountManager___c__DisplayClass137_0_TypeDefinitionIndex = 61090;
 
 	class RPGSDKAccountManager___c__DisplayClass137_0 : public ::System::Object
 	{

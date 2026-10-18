@@ -6,12 +6,12 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_AUDIO_WWISEEVENTTIMELINETRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x1B533290)
-#define RPGTOOLS_TIMELINE_AUDIO_WWISEEVENTTIMELINETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1B533490)
+#define RPGTOOLS_TIMELINE_AUDIO_WWISEEVENTTIMELINETRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xE8A83E0)
+#define RPGTOOLS_TIMELINE_AUDIO_WWISEEVENTTIMELINETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xE8A85E0)
 
 namespace RPGTools::Timeline::Audio
 {
-	inline static constexpr unsigned int WwiseEventTimelineTrack_TypeDefinitionIndex = 49285;
+	inline static constexpr unsigned int WwiseEventTimelineTrack_TypeDefinitionIndex = 48839;
 
 	class WwiseEventTimelineTrack : public ::UnityEngine::Timeline::TrackAsset
 	{

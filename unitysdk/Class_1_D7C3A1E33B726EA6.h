@@ -1,0 +1,58 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/MechCraft/MechCraftAttributeType.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/System/ValueTuple_2.h"
+
+class Class_0_16E4307DCC419505_131;
+class Class_0_16E4307DCC419505_133;
+class Class_0_16E4307DCC419505_137;
+class Class_0_16E4307DCC419505_138;
+class Class_0_16E4307DCC419505_1528;
+namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+
+#define CLASS_1_D7C3A1E33B726EA6_METHOD_1_1F2F77E2FC4EADC8_OFFSET UNITYSDK_OFFSET(0x164ED660)
+#define CLASS_1_D7C3A1E33B726EA6_METHOD_1_966CDD76643F51CE_OFFSET UNITYSDK_OFFSET(0x164ED600)
+#define CLASS_1_D7C3A1E33B726EA6_METHOD_1_D6D24B618C347D26_1_OFFSET UNITYSDK_OFFSET(0x164ED540)
+#define CLASS_1_D7C3A1E33B726EA6_METHOD_1_D6D24B618C347D26_2_OFFSET UNITYSDK_OFFSET(0x164ED5A0)
+#define CLASS_1_D7C3A1E33B726EA6_METHOD_1_D6D24B618C347D26_OFFSET UNITYSDK_OFFSET(0x164ED4E0)
+#define CLASS_1_D7C3A1E33B726EA6__CTOR_OFFSET UNITYSDK_OFFSET(0x164ED460)
+
+inline static constexpr unsigned int Class_1_D7C3A1E33B726EA6_TypeDefinitionIndex = 80124;
+
+class Class_1_D7C3A1E33B726EA6 : public ::System::Object
+{
+public:
+	::Class_0_16E4307DCC419505_1528* CEFLLELKFOP; // 0x10
+	::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::Class_0_16E4307DCC419505_133*>* IIGHALBPJBM; // 0x18
+
+	::System::Void _ctor(::Class_0_16E4307DCC419505_1528* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_1528*))((::PBYTE)hIl2Cpp + CLASS_1_D7C3A1E33B726EA6__CTOR_OFFSET))(this, a1);
+	}
+
+	::Class_0_16E4307DCC419505_137* Method_1_D6D24B618C347D26(::System::UInt32 a1)
+	{
+		return ((::Class_0_16E4307DCC419505_137*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_D7C3A1E33B726EA6_METHOD_1_D6D24B618C347D26_OFFSET))(this, a1);
+	}
+
+	::Class_0_16E4307DCC419505_138* Method_1_D6D24B618C347D26_1(::System::UInt32 a1)
+	{
+		return ((::Class_0_16E4307DCC419505_138*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_D7C3A1E33B726EA6_METHOD_1_D6D24B618C347D26_1_OFFSET))(this, a1);
+	}
+
+	::Class_0_16E4307DCC419505_131* Method_1_D6D24B618C347D26_2(::System::UInt32 a1)
+	{
+		return ((::Class_0_16E4307DCC419505_131*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_D7C3A1E33B726EA6_METHOD_1_D6D24B618C347D26_2_OFFSET))(this, a1);
+	}
+
+	::Class_0_16E4307DCC419505_131* Method_1_966CDD76643F51CE(::RPG::Client::MechCraft::MechCraftAttributeType a1)
+	{
+		return ((::Class_0_16E4307DCC419505_131*(*)(::PVOID, ::RPG::Client::MechCraft::MechCraftAttributeType))((::PBYTE)hIl2Cpp + CLASS_1_D7C3A1E33B726EA6_METHOD_1_966CDD76643F51CE_OFFSET))(this, a1);
+	}
+
+	::Class_0_16E4307DCC419505_133* Method_1_1F2F77E2FC4EADC8(::System::UInt32 a1, ::System::UInt32 a2)
+	{
+		return ((::Class_0_16E4307DCC419505_133*(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_D7C3A1E33B726EA6_METHOD_1_1F2F77E2FC4EADC8_OFFSET))(this, a1, a2);
+	}
+};

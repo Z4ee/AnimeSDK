@@ -6,19 +6,19 @@ namespace MiHoYo::SDK { class NetworkResponseModelEx; }
 namespace MiHoYo::SDK::Win { class SteamManager; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_WIN_STEAMMANAGER___C__DISPLAYCLASS22_0__CTOR_OFFSET UNITYSDK_OFFSET(0x187AFCE0)
-#define MIHOYO_SDK_WIN_STEAMMANAGER___C__DISPLAYCLASS22_0__ONCREATEORDER_G__CANCELCALLBACK_0_OFFSET UNITYSDK_OFFSET(0x187B1EC0)
-#define MIHOYO_SDK_WIN_STEAMMANAGER___C__DISPLAYCLASS22_0__ONCREATEORDER_G__FAILEDCALLBACK_1_OFFSET UNITYSDK_OFFSET(0x187B1F10)
+#define MIHOYO_SDK_WIN_STEAMMANAGER___C__DISPLAYCLASS22_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDCF300)
+#define MIHOYO_SDK_WIN_STEAMMANAGER___C__DISPLAYCLASS22_0__ONCREATEORDER_G__CANCELCALLBACK_0_OFFSET UNITYSDK_OFFSET(0x1BDD14E0)
+#define MIHOYO_SDK_WIN_STEAMMANAGER___C__DISPLAYCLASS22_0__ONCREATEORDER_G__FAILEDCALLBACK_1_OFFSET UNITYSDK_OFFSET(0x1BDD1530)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int SteamManager___c__DisplayClass22_0_TypeDefinitionIndex = 9311;
+	inline static constexpr unsigned int SteamManager___c__DisplayClass22_0_TypeDefinitionIndex = 9369;
 
 	class SteamManager___c__DisplayClass22_0 : public ::System::Object
 	{
 	public:
-		::MiHoYo::SDK::NetworkResponseModelEx* response; // 0x10
-		::MiHoYo::SDK::Win::SteamManager* __4__this; // 0x18
+		::MiHoYo::SDK::Win::SteamManager* __4__this; // 0x10
+		::MiHoYo::SDK::NetworkResponseModelEx* response; // 0x18
 
 		::System::Void _ctor()
 		{

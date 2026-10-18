@@ -9,27 +9,27 @@ namespace RPG::GameCore { class TransformComponent; }
 namespace System { class String; }
 namespace UnityEngine { class Animator; }
 
-#define CLASS_1_5713C98DC6CE30C7_CLASS_1_48C90F3FD8FAFE86_METHOD_1_23286C4E1BC884C6_OFFSET UNITYSDK_OFFSET(0x1A797D50)
-#define CLASS_1_5713C98DC6CE30C7_CLASS_1_48C90F3FD8FAFE86_METHOD_1_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x1A7975D0)
-#define CLASS_1_5713C98DC6CE30C7_CLASS_1_48C90F3FD8FAFE86__CTOR_OFFSET UNITYSDK_OFFSET(0x1A7978C0)
+#define CLASS_1_5713C98DC6CE30C7_CLASS_1_48C90F3FD8FAFE86_METHOD_1_23286C4E1BC884C6_OFFSET UNITYSDK_OFFSET(0xB2A3FB0)
+#define CLASS_1_5713C98DC6CE30C7_CLASS_1_48C90F3FD8FAFE86_METHOD_1_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0xB2A3830)
+#define CLASS_1_5713C98DC6CE30C7_CLASS_1_48C90F3FD8FAFE86__CTOR_OFFSET UNITYSDK_OFFSET(0xB2A3B20)
 
-inline static constexpr unsigned int Class_1_5713C98DC6CE30C7_Class_1_48C90F3FD8FAFE86_TypeDefinitionIndex = 60318;
+inline static constexpr unsigned int Class_1_5713C98DC6CE30C7_Class_1_48C90F3FD8FAFE86_TypeDefinitionIndex = 60182;
 
 class Class_1_5713C98DC6CE30C7_Class_1_48C90F3FD8FAFE86 : public ::System::Object
 {
 public:
-	::RPG::GameCore::GameEntity* EOBLJJBOBIN; // 0x10
-	::UnityEngine::Animator* FOPCFKFAGPM; // 0x18
-	::System::String* OENAMINOLLF; // 0x20
-	::RPG::GameCore::TransformComponent* BKLBJFJHOLF; // 0x28
-	::System::Boolean CAGCHKJHMPD; // 0x30
-	::System::UInt32 EMNLCPDHLFF; // 0x34
-	::RPG::Client::Prop::MusicRhythmPropType GMPGDEINODK; // 0x38
-	::System::UInt32 AMMPNOLLCIN; // 0x3C
-	::System::UInt32 DJHILJPDNPP; // 0x40
-	::UnityEngine::Vector3 EDLHLKAFDFA; // 0x44
-	::System::Single EBDMPMAPMOB; // 0x50
-	::System::UInt32 DOLFIMKHDPI; // 0x54
+	::UnityEngine::Animator* FOPCFKFAGPM; // 0x10
+	::RPG::GameCore::TransformComponent* BKLBJFJHOLF; // 0x18
+	::RPG::GameCore::GameEntity* EOBLJJBOBIN; // 0x20
+	::System::String* OENAMINOLLF; // 0x28
+	::System::UInt32 DJHILJPDNPP; // 0x30
+	::System::UInt32 AMMPNOLLCIN; // 0x34
+	::System::UInt32 DOLFIMKHDPI; // 0x38
+	::System::Boolean CAGCHKJHMPD; // 0x3C
+	::UnityEngine::Vector3 EDLHLKAFDFA; // 0x40
+	::RPG::Client::Prop::MusicRhythmPropType GMPGDEINODK; // 0x4C
+	::System::UInt32 EMNLCPDHLFF; // 0x50
+	::System::Single EBDMPMAPMOB; // 0x54
 
 	::System::Void _ctor()
 	{

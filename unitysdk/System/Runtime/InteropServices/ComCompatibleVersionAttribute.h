@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SYSTEM_RUNTIME_INTEROPSERVICES_COMCOMPATIBLEVERSIONATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C457960)
+#define SYSTEM_RUNTIME_INTEROPSERVICES_COMCOMPATIBLEVERSIONATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C29A370)
 
 namespace System::Runtime::InteropServices
 {
@@ -11,10 +11,10 @@ namespace System::Runtime::InteropServices
 	class ComCompatibleVersionAttribute : public ::System::Attribute
 	{
 	public:
-		::System::Int32 _major; // 0x10
+		::System::Int32 _build; // 0x10
 		::System::Int32 _revision; // 0x14
-		::System::Int32 _build; // 0x18
-		::System::Int32 _minor; // 0x1C
+		::System::Int32 _minor; // 0x18
+		::System::Int32 _major; // 0x1C
 
 		::System::Void _ctor(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4)
 		{

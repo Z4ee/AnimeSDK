@@ -8,15 +8,15 @@ namespace System { class String; }
 namespace UnityEngine { class Camera; }
 namespace UnityEngine::UI { class RawImage; }
 
-#define RPG_CLIENT_RENDERIMAGE_AWAKE_OFFSET UNITYSDK_OFFSET(0x17963530)
-#define RPG_CLIENT_RENDERIMAGE_INIT_OFFSET UNITYSDK_OFFSET(0x179636D0)
-#define RPG_CLIENT_RENDERIMAGE_METHOD_5_41A63971A1741915_OFFSET UNITYSDK_OFFSET(0x17963910)
-#define RPG_CLIENT_RENDERIMAGE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x17963630)
-#define RPG_CLIENT_RENDERIMAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x17963BE0)
+#define RPG_CLIENT_RENDERIMAGE_AWAKE_OFFSET UNITYSDK_OFFSET(0xDE926A0)
+#define RPG_CLIENT_RENDERIMAGE_INIT_OFFSET UNITYSDK_OFFSET(0xDE92840)
+#define RPG_CLIENT_RENDERIMAGE_METHOD_5_527C5DFCBC152C0E_OFFSET UNITYSDK_OFFSET(0xDE92A80)
+#define RPG_CLIENT_RENDERIMAGE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xDE927A0)
+#define RPG_CLIENT_RENDERIMAGE__CTOR_OFFSET UNITYSDK_OFFSET(0xDE92CE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RenderImage_TypeDefinitionIndex = 72564;
+	inline static constexpr unsigned int RenderImage_TypeDefinitionIndex = 72639;
 
 	class RenderImage : public ::UnityEngine::MonoBehaviour
 	{
@@ -45,9 +45,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Camera*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RENDERIMAGE_INIT_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::Vector2Int Method_5_41A63971A1741915()
+		::UnityEngine::Vector2Int Method_5_527C5DFCBC152C0E()
 		{
-			return ((::UnityEngine::Vector2Int(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RENDERIMAGE_METHOD_5_41A63971A1741915_OFFSET))(this);
+			return ((::UnityEngine::Vector2Int(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RENDERIMAGE_METHOD_5_527C5DFCBC152C0E_OFFSET))(this);
 		}
 	};
 }

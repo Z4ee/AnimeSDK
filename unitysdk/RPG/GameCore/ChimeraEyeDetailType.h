@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraEyeDetailType_TypeDefinitionIndex = 12905;
+	inline static constexpr unsigned int ChimeraEyeDetailType_TypeDefinitionIndex = 13011;
 
 	enum class ChimeraEyeDetailType : ::System::Int32
 	{

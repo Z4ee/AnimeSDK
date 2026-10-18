@@ -3,7 +3,7 @@
 #include "unitysdk/RPG/GameCore/B51RacingTREventType.h"
 #include "unitysdk/System/ValueType.h"
 
-inline static constexpr unsigned int Struct_2_5B95EFC62CEAE6E1_TypeDefinitionIndex = 41326;
+inline static constexpr unsigned int Struct_2_5B95EFC62CEAE6E1_TypeDefinitionIndex = 42938;
 
 struct alignas(4) Struct_2_5B95EFC62CEAE6E1
 {

@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ILELITEGROUPCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D20C8E0)
-#define RPG_GAMECORE_ILELITEGROUPCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D20CB50)
+#define RPG_GAMECORE_ILELITEGROUPCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D749520)
+#define RPG_GAMECORE_ILELITEGROUPCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D749790)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ILEliteGroupConfigRow_TypeDefinitionIndex = 13694;
+	inline static constexpr unsigned int ILEliteGroupConfigRow_TypeDefinitionIndex = 13801;
 
 	class ILEliteGroupConfigRow : public ::System::Object
 	{

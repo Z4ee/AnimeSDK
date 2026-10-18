@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIProceduralShapeFillMethod_TypeDefinitionIndex = 72624;
+	inline static constexpr unsigned int UIProceduralShapeFillMethod_TypeDefinitionIndex = 72699;
 
 	enum class UIProceduralShapeFillMethod : ::System::Int32
 	{

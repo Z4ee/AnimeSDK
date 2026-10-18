@@ -4,7 +4,7 @@
 
 namespace UnityEngine::Playables
 {
-	inline static constexpr unsigned int IPlayable_TypeDefinitionIndex = 4900;
+	inline static constexpr unsigned int IPlayable_TypeDefinitionIndex = 4907;
 
 	class IPlayable
 	{

@@ -6,7 +6,7 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace RPG::Client::RoadRash
 {
-	inline static constexpr unsigned int RoadRashGameSettingsConfigure_SlamLateralImpactConfig_TypeDefinitionIndex = 75483;
+	inline static constexpr unsigned int RoadRashGameSettingsConfigure_SlamLateralImpactConfig_TypeDefinitionIndex = 75898;
 
 	struct alignas(8) RoadRashGameSettingsConfigure_SlamLateralImpactConfig
 	{

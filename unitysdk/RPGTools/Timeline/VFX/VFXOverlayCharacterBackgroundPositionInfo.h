@@ -3,11 +3,11 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define RPGTOOLS_TIMELINE_VFX_VFXOVERLAYCHARACTERBACKGROUNDPOSITIONINFO_METHOD_2_347449E9BE9C6843_OFFSET UNITYSDK_OFFSET(0x1BF35830)
+#define RPGTOOLS_TIMELINE_VFX_VFXOVERLAYCHARACTERBACKGROUNDPOSITIONINFO_METHOD_2_347449E9BE9C6843_OFFSET UNITYSDK_OFFSET(0xE94B800)
 
 namespace RPGTools::Timeline::VFX
 {
-	inline static constexpr unsigned int VFXOverlayCharacterBackgroundPositionInfo_TypeDefinitionIndex = 49124;
+	inline static constexpr unsigned int VFXOverlayCharacterBackgroundPositionInfo_TypeDefinitionIndex = 48670;
 
 	struct alignas(4) VFXOverlayCharacterBackgroundPositionInfo
 	{

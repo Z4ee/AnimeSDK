@@ -7,7 +7,7 @@ namespace System { class IDisposable; }
 
 namespace R3
 {
-	inline static constexpr unsigned int AppendPrepend_1_TypeDefinitionIndex = 35251;
+	inline static constexpr unsigned int AppendPrepend_1_TypeDefinitionIndex = 35931;
 
 	template <typename T>
 	class AppendPrepend_1 : public ::R3::Observable_1<T>

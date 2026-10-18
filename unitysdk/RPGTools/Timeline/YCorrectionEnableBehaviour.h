@@ -7,12 +7,12 @@
 namespace RPG::GameCore { class GameWorld; }
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_YCORRECTIONENABLEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x1BF3C0C0)
-#define RPGTOOLS_TIMELINE_YCORRECTIONENABLEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF3C140)
+#define RPGTOOLS_TIMELINE_YCORRECTIONENABLEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xE951F90)
+#define RPGTOOLS_TIMELINE_YCORRECTIONENABLEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xE952010)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int YCorrectionEnableBehaviour_TypeDefinitionIndex = 48871;
+	inline static constexpr unsigned int YCorrectionEnableBehaviour_TypeDefinitionIndex = 48417;
 
 	class YCorrectionEnableBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{

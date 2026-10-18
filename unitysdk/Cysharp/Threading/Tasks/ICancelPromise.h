@@ -4,7 +4,7 @@
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int ICancelPromise_TypeDefinitionIndex = 42804;
+	inline static constexpr unsigned int ICancelPromise_TypeDefinitionIndex = 38389;
 
 	class ICancelPromise
 	{

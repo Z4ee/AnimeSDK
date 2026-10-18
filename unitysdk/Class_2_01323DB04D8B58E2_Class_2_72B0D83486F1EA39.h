@@ -1,15 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_43BD383C98B4C0C5_207.h"
+#include "unitysdk/Class_1_43BD383C98B4C0C5_209.h"
 
 class Class_2_01323DB04D8B58E2_Class_2_72B0D83486F1EA39_Class_1_8230E0B6788EA5F5;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_01323DB04D8B58E2_CLASS_2_72B0D83486F1EA39__CTOR_OFFSET UNITYSDK_OFFSET(0x1A8402D0)
+#define CLASS_2_01323DB04D8B58E2_CLASS_2_72B0D83486F1EA39__CTOR_OFFSET UNITYSDK_OFFSET(0xDCB3DE0)
 
-inline static constexpr unsigned int Class_2_01323DB04D8B58E2_Class_2_72B0D83486F1EA39_TypeDefinitionIndex = 76985;
+inline static constexpr unsigned int Class_2_01323DB04D8B58E2_Class_2_72B0D83486F1EA39_TypeDefinitionIndex = 77456;
 
-class Class_2_01323DB04D8B58E2_Class_2_72B0D83486F1EA39 : public ::Class_1_43BD383C98B4C0C5_207
+class Class_2_01323DB04D8B58E2_Class_2_72B0D83486F1EA39 : public ::Class_1_43BD383C98B4C0C5_209
 {
 public:
 	::System::Collections::Generic::List_1<::Class_2_01323DB04D8B58E2_Class_2_72B0D83486F1EA39_Class_1_8230E0B6788EA5F5*>* BCEFDINCEMD; // 0x10

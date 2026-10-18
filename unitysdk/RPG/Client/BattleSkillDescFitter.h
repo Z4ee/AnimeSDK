@@ -8,23 +8,23 @@ namespace RPG::Client { class BattleSkillDescItemFitterParamCollector; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class RectTransform; }
 
-#define RPG_CLIENT_BATTLESKILLDESCFITTER_ADDITEMFITTER_OFFSET UNITYSDK_OFFSET(0x1BD6C9D0)
-#define RPG_CLIENT_BATTLESKILLDESCFITTER_CREATE_OFFSET UNITYSDK_OFFSET(0x1BD6C880)
-#define RPG_CLIENT_BATTLESKILLDESCFITTER_TRYFIT_OFFSET UNITYSDK_OFFSET(0x1BD6CC20)
-#define RPG_CLIENT_BATTLESKILLDESCFITTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD6C980)
-#define RPG_CLIENT_BATTLESKILLDESCFITTER__TRYFITITEMS_OFFSET UNITYSDK_OFFSET(0x1BD6CC80)
-#define RPG_CLIENT_BATTLESKILLDESCFITTER__TRYUPDATEPOS_OFFSET UNITYSDK_OFFSET(0x1BD6CDC0)
+#define RPG_CLIENT_BATTLESKILLDESCFITTER_ADDITEMFITTER_OFFSET UNITYSDK_OFFSET(0xC858BB0)
+#define RPG_CLIENT_BATTLESKILLDESCFITTER_CREATE_OFFSET UNITYSDK_OFFSET(0xC858A60)
+#define RPG_CLIENT_BATTLESKILLDESCFITTER_TRYFIT_OFFSET UNITYSDK_OFFSET(0xC858E10)
+#define RPG_CLIENT_BATTLESKILLDESCFITTER__CTOR_OFFSET UNITYSDK_OFFSET(0xC858B60)
+#define RPG_CLIENT_BATTLESKILLDESCFITTER__TRYFITITEMS_OFFSET UNITYSDK_OFFSET(0xC858E70)
+#define RPG_CLIENT_BATTLESKILLDESCFITTER__TRYUPDATEPOS_OFFSET UNITYSDK_OFFSET(0xC858FB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BattleSkillDescFitter_TypeDefinitionIndex = 71824;
+	inline static constexpr unsigned int BattleSkillDescFitter_TypeDefinitionIndex = 71889;
 
 	class BattleSkillDescFitter : public ::System::Object
 	{
 	public:
-		::UnityEngine::RectTransform* _PosChangeTransform; // 0x10
-		::Class_1_3AF00C13A1E953CE* _RootTransformCornerData; // 0x18
-		::UnityEngine::RectTransform* _NeedRefreshFitterTransform; // 0x20
+		::UnityEngine::RectTransform* _NeedRefreshFitterTransform; // 0x10
+		::UnityEngine::RectTransform* _PosChangeTransform; // 0x18
+		::Class_1_3AF00C13A1E953CE* _RootTransformCornerData; // 0x20
 		::System::Collections::Generic::List_1<::RPG::Client::BattleSkillDescItemFitter*>* _ItemFitterList; // 0x28
 
 		::System::Void _ctor()

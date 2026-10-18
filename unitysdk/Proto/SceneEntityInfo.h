@@ -3,12 +3,12 @@
 #include "unitysdk/Proto/SceneEntityInfo_EntityOneofCase.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_1CBA230307F9C289_90;
+class Class_1_1CBA230307F9C289_91;
 class Class_1_20D743894CDF214D_1;
-class Class_1_419A79D235B9417C_10;
+class Class_1_419A79D235B9417C_8;
 class Class_1_4A900B1EABCF9FBE_1;
-class Class_1_BB4B99DE4C2501EC_12;
-class Class_1_D8CC61AD64FF9091_50;
+class Class_1_BB4B99DE4C2501EC_10;
+class Class_1_D8CC61AD64FF9091_55;
 namespace Google::Protobuf { class CodedInputStream; }
 namespace Google::Protobuf { class CodedOutputStream; }
 namespace Google::Protobuf { class UnknownFieldSet; }
@@ -16,68 +16,68 @@ namespace Google::Protobuf { template <typename T> class MessageParser_1; }
 namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 namespace System { class String; }
 
-#define PROTO_SCENEENTITYINFO_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1DD52B20)
-#define PROTO_SCENEENTITYINFO_CLEARENTITY_OFFSET UNITYSDK_OFFSET(0x1DD52100)
-#define PROTO_SCENEENTITYINFO_CLONE_OFFSET UNITYSDK_OFFSET(0x1DD52040)
-#define PROTO_SCENEENTITYINFO_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1DD52140)
-#define PROTO_SCENEENTITYINFO_EQUALS_OFFSET UNITYSDK_OFFSET(0x1DD52110)
-#define PROTO_SCENEENTITYINFO_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1DD523E0)
-#define PROTO_SCENEENTITYINFO_GET_ACTOR_OFFSET UNITYSDK_OFFSET(0x1DD51E60)
-#define PROTO_SCENEENTITYINFO_GET_ENTITYCASE_OFFSET UNITYSDK_OFFSET(0x1DD520F0)
-#define PROTO_SCENEENTITYINFO_GET_ENTITYID_OFFSET UNITYSDK_OFFSET(0x1DD52070)
-#define PROTO_SCENEENTITYINFO_GET_GROUPID_OFFSET UNITYSDK_OFFSET(0x1DD520D0)
-#define PROTO_SCENEENTITYINFO_GET_INSTID_OFFSET UNITYSDK_OFFSET(0x1DD52090)
-#define PROTO_SCENEENTITYINFO_GET_MOTION_OFFSET UNITYSDK_OFFSET(0x1DD520B0)
-#define PROTO_SCENEENTITYINFO_GET_NPCMONSTER_OFFSET UNITYSDK_OFFSET(0x1DD51EC0)
-#define PROTO_SCENEENTITYINFO_GET_NPC_OFFSET UNITYSDK_OFFSET(0x1DD51F20)
-#define PROTO_SCENEENTITYINFO_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x1DD51BD0)
-#define PROTO_SCENEENTITYINFO_GET_PROP_OFFSET UNITYSDK_OFFSET(0x1DD51F80)
-#define PROTO_SCENEENTITYINFO_GET_SUMMONUNIT_OFFSET UNITYSDK_OFFSET(0x1DD51FE0)
-#define PROTO_SCENEENTITYINFO_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1DD53340)
-#define PROTO_SCENEENTITYINFO_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1DD52E60)
-#define PROTO_SCENEENTITYINFO_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1DD51C00)
-#define PROTO_SCENEENTITYINFO_SET_ACTOR_OFFSET UNITYSDK_OFFSET(0x1DD51EA0)
-#define PROTO_SCENEENTITYINFO_SET_ENTITYID_OFFSET UNITYSDK_OFFSET(0x1DD52080)
-#define PROTO_SCENEENTITYINFO_SET_GROUPID_OFFSET UNITYSDK_OFFSET(0x1DD520E0)
-#define PROTO_SCENEENTITYINFO_SET_INSTID_OFFSET UNITYSDK_OFFSET(0x1DD520A0)
-#define PROTO_SCENEENTITYINFO_SET_MOTION_OFFSET UNITYSDK_OFFSET(0x1DD520C0)
-#define PROTO_SCENEENTITYINFO_SET_NPCMONSTER_OFFSET UNITYSDK_OFFSET(0x1DD51F00)
-#define PROTO_SCENEENTITYINFO_SET_NPC_OFFSET UNITYSDK_OFFSET(0x1DD51F60)
-#define PROTO_SCENEENTITYINFO_SET_PROP_OFFSET UNITYSDK_OFFSET(0x1DD51FC0)
-#define PROTO_SCENEENTITYINFO_SET_SUMMONUNIT_OFFSET UNITYSDK_OFFSET(0x1DD52020)
-#define PROTO_SCENEENTITYINFO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DD526B0)
-#define PROTO_SCENEENTITYINFO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DD52710)
-#define PROTO_SCENEENTITYINFO__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DD53750)
-#define PROTO_SCENEENTITYINFO__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1DD51C20)
-#define PROTO_SCENEENTITYINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD51C10)
+#define PROTO_SCENEENTITYINFO_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1DFE43D0)
+#define PROTO_SCENEENTITYINFO_CLEARENTITY_OFFSET UNITYSDK_OFFSET(0x1DFE39C0)
+#define PROTO_SCENEENTITYINFO_CLONE_OFFSET UNITYSDK_OFFSET(0x1DFE3900)
+#define PROTO_SCENEENTITYINFO_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1DFE3A00)
+#define PROTO_SCENEENTITYINFO_EQUALS_OFFSET UNITYSDK_OFFSET(0x1DFE39D0)
+#define PROTO_SCENEENTITYINFO_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1DFE3CA0)
+#define PROTO_SCENEENTITYINFO_GET_ACTOR_OFFSET UNITYSDK_OFFSET(0x1DFE3720)
+#define PROTO_SCENEENTITYINFO_GET_ENTITYCASE_OFFSET UNITYSDK_OFFSET(0x1DFE39B0)
+#define PROTO_SCENEENTITYINFO_GET_ENTITYID_OFFSET UNITYSDK_OFFSET(0x1DFE3990)
+#define PROTO_SCENEENTITYINFO_GET_GROUPID_OFFSET UNITYSDK_OFFSET(0x1DFE3950)
+#define PROTO_SCENEENTITYINFO_GET_INSTID_OFFSET UNITYSDK_OFFSET(0x1DFE3930)
+#define PROTO_SCENEENTITYINFO_GET_MOTION_OFFSET UNITYSDK_OFFSET(0x1DFE3970)
+#define PROTO_SCENEENTITYINFO_GET_NPCMONSTER_OFFSET UNITYSDK_OFFSET(0x1DFE3780)
+#define PROTO_SCENEENTITYINFO_GET_NPC_OFFSET UNITYSDK_OFFSET(0x1DFE37E0)
+#define PROTO_SCENEENTITYINFO_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x1DFE3490)
+#define PROTO_SCENEENTITYINFO_GET_PROP_OFFSET UNITYSDK_OFFSET(0x1DFE3840)
+#define PROTO_SCENEENTITYINFO_GET_SUMMONUNIT_OFFSET UNITYSDK_OFFSET(0x1DFE38A0)
+#define PROTO_SCENEENTITYINFO_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1DFE4C10)
+#define PROTO_SCENEENTITYINFO_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1DFE4710)
+#define PROTO_SCENEENTITYINFO_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1DFE34C0)
+#define PROTO_SCENEENTITYINFO_SET_ACTOR_OFFSET UNITYSDK_OFFSET(0x1DFE3760)
+#define PROTO_SCENEENTITYINFO_SET_ENTITYID_OFFSET UNITYSDK_OFFSET(0x1DFE39A0)
+#define PROTO_SCENEENTITYINFO_SET_GROUPID_OFFSET UNITYSDK_OFFSET(0x1DFE3960)
+#define PROTO_SCENEENTITYINFO_SET_INSTID_OFFSET UNITYSDK_OFFSET(0x1DFE3940)
+#define PROTO_SCENEENTITYINFO_SET_MOTION_OFFSET UNITYSDK_OFFSET(0x1DFE3980)
+#define PROTO_SCENEENTITYINFO_SET_NPCMONSTER_OFFSET UNITYSDK_OFFSET(0x1DFE37C0)
+#define PROTO_SCENEENTITYINFO_SET_NPC_OFFSET UNITYSDK_OFFSET(0x1DFE3820)
+#define PROTO_SCENEENTITYINFO_SET_PROP_OFFSET UNITYSDK_OFFSET(0x1DFE3880)
+#define PROTO_SCENEENTITYINFO_SET_SUMMONUNIT_OFFSET UNITYSDK_OFFSET(0x1DFE38E0)
+#define PROTO_SCENEENTITYINFO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DFE3F70)
+#define PROTO_SCENEENTITYINFO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DFE3FD0)
+#define PROTO_SCENEENTITYINFO__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DFE5020)
+#define PROTO_SCENEENTITYINFO__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1DFE34E0)
+#define PROTO_SCENEENTITYINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1DFE34D0)
 
 namespace Proto
 {
-	inline static constexpr unsigned int SceneEntityInfo_TypeDefinitionIndex = 33287;
+	inline static constexpr unsigned int SceneEntityInfo_TypeDefinitionIndex = 33939;
 
 	class SceneEntityInfo : public ::System::Object
 	{
 	public:
 		static ::Google::Protobuf::MessageParser_1<::Proto::SceneEntityInfo*>** StaticGet__parser()
 		{
-			return (::Google::Protobuf::MessageParser_1<::Proto::SceneEntityInfo*>**)Il2CppClass::FromTypeDefinitionIndex(SceneEntityInfo_TypeDefinitionIndex)->GetStaticField(0x1FE00);
+			return (::Google::Protobuf::MessageParser_1<::Proto::SceneEntityInfo*>**)Il2CppClass::FromTypeDefinitionIndex(SceneEntityInfo_TypeDefinitionIndex)->GetStaticField(0x17200);
 		}
-		// static const ::System::Int32 EntityIdFieldNumber = 0xA; // 0x0
-		// static const ::System::Int32 InstIdFieldNumber = 0x2; // 0x0
-		// static const ::System::Int32 MotionFieldNumber = 0x1; // 0x0
-		// static const ::System::Int32 GroupIdFieldNumber = 0xD; // 0x0
-		// static const ::System::Int32 ActorFieldNumber = 0x8; // 0x0
-		// static const ::System::Int32 NpcMonsterFieldNumber = 0xE; // 0x0
-		// static const ::System::Int32 NpcFieldNumber = 0x4; // 0x0
-		// static const ::System::Int32 PropFieldNumber = 0x9; // 0x0
-		// static const ::System::Int32 SummonUnitFieldNumber = 0xF; // 0x0
-		::System::Object* entity_; // 0x10
+		// static const ::System::Int32 InstIdFieldNumber = 0x6; // 0x0
+		// static const ::System::Int32 GroupIdFieldNumber = 0xB; // 0x0
+		// static const ::System::Int32 MotionFieldNumber = 0xF; // 0x0
+		// static const ::System::Int32 EntityIdFieldNumber = 0xE; // 0x0
+		// static const ::System::Int32 ActorFieldNumber = 0xC; // 0x0
+		// static const ::System::Int32 NpcMonsterFieldNumber = 0x9; // 0x0
+		// static const ::System::Int32 NpcFieldNumber = 0xD; // 0x0
+		// static const ::System::Int32 PropFieldNumber = 0x2; // 0x0
+		// static const ::System::Int32 SummonUnitFieldNumber = 0x4; // 0x0
+		::Class_1_20D743894CDF214D_1* motion_; // 0x10
 		::Google::Protobuf::UnknownFieldSet* _unknownFields; // 0x18
-		::Class_1_20D743894CDF214D_1* motion_; // 0x20
+		::System::Object* entity_; // 0x20
 		::System::UInt32 groupId_; // 0x28
-		::System::UInt32 instId_; // 0x2C
+		::Proto::SceneEntityInfo_EntityOneofCase entityCase_; // 0x2C
 		::System::UInt32 entityId_; // 0x30
-		::Proto::SceneEntityInfo_EntityOneofCase entityCase_; // 0x34
+		::System::UInt32 instId_; // 0x34
 
 		::System::Void _ctor()
 		{
@@ -109,16 +109,6 @@ namespace Proto
 			return ((::Proto::SceneEntityInfo*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_SCENEENTITYINFO_CLONE_OFFSET))(this);
 		}
 
-		::System::UInt32 get_EntityId()
-		{
-			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_SCENEENTITYINFO_GET_ENTITYID_OFFSET))(this);
-		}
-
-		::System::Void set_EntityId(::System::UInt32 a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_SCENEENTITYINFO_SET_ENTITYID_OFFSET))(this, a1);
-		}
-
 		::System::UInt32 get_InstId()
 		{
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_SCENEENTITYINFO_GET_INSTID_OFFSET))(this);
@@ -127,16 +117,6 @@ namespace Proto
 		::System::Void set_InstId(::System::UInt32 a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_SCENEENTITYINFO_SET_INSTID_OFFSET))(this, a1);
-		}
-
-		::Class_1_20D743894CDF214D_1* get_Motion()
-		{
-			return ((::Class_1_20D743894CDF214D_1*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_SCENEENTITYINFO_GET_MOTION_OFFSET))(this);
-		}
-
-		::System::Void set_Motion(::Class_1_20D743894CDF214D_1* a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_20D743894CDF214D_1*))((::PBYTE)hIl2Cpp + PROTO_SCENEENTITYINFO_SET_MOTION_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_GroupId()
@@ -149,14 +129,34 @@ namespace Proto
 			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_SCENEENTITYINFO_SET_GROUPID_OFFSET))(this, a1);
 		}
 
-		::Class_1_1CBA230307F9C289_90* get_Actor()
+		::Class_1_20D743894CDF214D_1* get_Motion()
 		{
-			return ((::Class_1_1CBA230307F9C289_90*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_SCENEENTITYINFO_GET_ACTOR_OFFSET))(this);
+			return ((::Class_1_20D743894CDF214D_1*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_SCENEENTITYINFO_GET_MOTION_OFFSET))(this);
 		}
 
-		::System::Void set_Actor(::Class_1_1CBA230307F9C289_90* a1)
+		::System::Void set_Motion(::Class_1_20D743894CDF214D_1* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_1CBA230307F9C289_90*))((::PBYTE)hIl2Cpp + PROTO_SCENEENTITYINFO_SET_ACTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Class_1_20D743894CDF214D_1*))((::PBYTE)hIl2Cpp + PROTO_SCENEENTITYINFO_SET_MOTION_OFFSET))(this, a1);
+		}
+
+		::System::UInt32 get_EntityId()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_SCENEENTITYINFO_GET_ENTITYID_OFFSET))(this);
+		}
+
+		::System::Void set_EntityId(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_SCENEENTITYINFO_SET_ENTITYID_OFFSET))(this, a1);
+		}
+
+		::Class_1_1CBA230307F9C289_91* get_Actor()
+		{
+			return ((::Class_1_1CBA230307F9C289_91*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_SCENEENTITYINFO_GET_ACTOR_OFFSET))(this);
+		}
+
+		::System::Void set_Actor(::Class_1_1CBA230307F9C289_91* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_1CBA230307F9C289_91*))((::PBYTE)hIl2Cpp + PROTO_SCENEENTITYINFO_SET_ACTOR_OFFSET))(this, a1);
 		}
 
 		::Class_1_4A900B1EABCF9FBE_1* get_NpcMonster()
@@ -169,34 +169,34 @@ namespace Proto
 			return ((::System::Void(*)(::PVOID, ::Class_1_4A900B1EABCF9FBE_1*))((::PBYTE)hIl2Cpp + PROTO_SCENEENTITYINFO_SET_NPCMONSTER_OFFSET))(this, a1);
 		}
 
-		::Class_1_D8CC61AD64FF9091_50* get_Npc()
+		::Class_1_D8CC61AD64FF9091_55* get_Npc()
 		{
-			return ((::Class_1_D8CC61AD64FF9091_50*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_SCENEENTITYINFO_GET_NPC_OFFSET))(this);
+			return ((::Class_1_D8CC61AD64FF9091_55*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_SCENEENTITYINFO_GET_NPC_OFFSET))(this);
 		}
 
-		::System::Void set_Npc(::Class_1_D8CC61AD64FF9091_50* a1)
+		::System::Void set_Npc(::Class_1_D8CC61AD64FF9091_55* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_D8CC61AD64FF9091_50*))((::PBYTE)hIl2Cpp + PROTO_SCENEENTITYINFO_SET_NPC_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Class_1_D8CC61AD64FF9091_55*))((::PBYTE)hIl2Cpp + PROTO_SCENEENTITYINFO_SET_NPC_OFFSET))(this, a1);
 		}
 
-		::Class_1_419A79D235B9417C_10* get_Prop()
+		::Class_1_419A79D235B9417C_8* get_Prop()
 		{
-			return ((::Class_1_419A79D235B9417C_10*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_SCENEENTITYINFO_GET_PROP_OFFSET))(this);
+			return ((::Class_1_419A79D235B9417C_8*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_SCENEENTITYINFO_GET_PROP_OFFSET))(this);
 		}
 
-		::System::Void set_Prop(::Class_1_419A79D235B9417C_10* a1)
+		::System::Void set_Prop(::Class_1_419A79D235B9417C_8* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_419A79D235B9417C_10*))((::PBYTE)hIl2Cpp + PROTO_SCENEENTITYINFO_SET_PROP_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Class_1_419A79D235B9417C_8*))((::PBYTE)hIl2Cpp + PROTO_SCENEENTITYINFO_SET_PROP_OFFSET))(this, a1);
 		}
 
-		::Class_1_BB4B99DE4C2501EC_12* get_SummonUnit()
+		::Class_1_BB4B99DE4C2501EC_10* get_SummonUnit()
 		{
-			return ((::Class_1_BB4B99DE4C2501EC_12*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_SCENEENTITYINFO_GET_SUMMONUNIT_OFFSET))(this);
+			return ((::Class_1_BB4B99DE4C2501EC_10*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_SCENEENTITYINFO_GET_SUMMONUNIT_OFFSET))(this);
 		}
 
-		::System::Void set_SummonUnit(::Class_1_BB4B99DE4C2501EC_12* a1)
+		::System::Void set_SummonUnit(::Class_1_BB4B99DE4C2501EC_10* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_BB4B99DE4C2501EC_12*))((::PBYTE)hIl2Cpp + PROTO_SCENEENTITYINFO_SET_SUMMONUNIT_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Class_1_BB4B99DE4C2501EC_10*))((::PBYTE)hIl2Cpp + PROTO_SCENEENTITYINFO_SET_SUMMONUNIT_OFFSET))(this, a1);
 		}
 
 		::Proto::SceneEntityInfo_EntityOneofCase get_EntityCase()

@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_8EF622B523DA284F_METHOD_1_3E7178C5ECF017DB_OFFSET UNITYSDK_OFFSET(0x1926DBA0)
-#define CLASS_1_8EF622B523DA284F_METHOD_1_9C06C768B25E4E13_OFFSET UNITYSDK_OFFSET(0x1926DB20)
-#define CLASS_1_8EF622B523DA284F__CTOR_OFFSET UNITYSDK_OFFSET(0x1926DB90)
+#define CLASS_1_8EF622B523DA284F_METHOD_1_3E7178C5ECF017DB_OFFSET UNITYSDK_OFFSET(0xBFE3030)
+#define CLASS_1_8EF622B523DA284F_METHOD_1_9C06C768B25E4E13_OFFSET UNITYSDK_OFFSET(0xBFE2FB0)
+#define CLASS_1_8EF622B523DA284F__CTOR_OFFSET UNITYSDK_OFFSET(0xBFE3020)
 
-inline static constexpr unsigned int Class_1_8EF622B523DA284F_TypeDefinitionIndex = 71761;
+inline static constexpr unsigned int Class_1_8EF622B523DA284F_TypeDefinitionIndex = 71820;
 
 class Class_1_8EF622B523DA284F : public ::System::Object
 {
 public:
 	static ::Class_1_8EF622B523DA284F** StaticGet_FLMODBLFAGD()
 	{
-		return (::Class_1_8EF622B523DA284F**)Il2CppClass::FromTypeDefinitionIndex(Class_1_8EF622B523DA284F_TypeDefinitionIndex)->GetStaticField(0x183B0);
+		return (::Class_1_8EF622B523DA284F**)Il2CppClass::FromTypeDefinitionIndex(Class_1_8EF622B523DA284F_TypeDefinitionIndex)->GetStaticField(0x68CD0);
 	}
 
 	::System::Void _ctor()

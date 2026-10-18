@@ -5,12 +5,12 @@
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace UnityEngine::ProBuilder { class WingedEdge; }
 
-#define UNITYENGINE_PROBUILDER_WINGEDEDGE___C__DISPLAYCLASS32_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1924F1E0)
-#define UNITYENGINE_PROBUILDER_WINGEDEDGE___C__DISPLAYCLASS32_0__SORTCOMMONINDEXESBYADJACENCY_B__0_OFFSET UNITYSDK_OFFSET(0x1924F310)
+#define UNITYENGINE_PROBUILDER_WINGEDEDGE___C__DISPLAYCLASS32_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1F26D710)
+#define UNITYENGINE_PROBUILDER_WINGEDEDGE___C__DISPLAYCLASS32_0__SORTCOMMONINDEXESBYADJACENCY_B__0_OFFSET UNITYSDK_OFFSET(0x1F26D840)
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int WingedEdge___c__DisplayClass32_0_TypeDefinitionIndex = 43264;
+	inline static constexpr unsigned int WingedEdge___c__DisplayClass32_0_TypeDefinitionIndex = 44456;
 
 	class WingedEdge___c__DisplayClass32_0 : public ::System::Object
 	{

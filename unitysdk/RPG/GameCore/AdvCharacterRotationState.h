@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvCharacterRotationState_TypeDefinitionIndex = 57219;
+	inline static constexpr unsigned int AdvCharacterRotationState_TypeDefinitionIndex = 57052;
 
 	enum class AdvCharacterRotationState : ::System::Int32
 	{

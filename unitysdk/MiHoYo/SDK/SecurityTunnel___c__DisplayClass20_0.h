@@ -6,20 +6,20 @@
 
 namespace MiHoYo::SDK { class SecurityTunnel; }
 
-#define MIHOYO_SDK_SECURITYTUNNEL___C__DISPLAYCLASS20_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C6C1C50)
-#define MIHOYO_SDK_SECURITYTUNNEL___C__DISPLAYCLASS20_0__TRYCONNECT_B__0_OFFSET UNITYSDK_OFFSET(0x1C6CD570)
-#define MIHOYO_SDK_SECURITYTUNNEL___C__DISPLAYCLASS20_0__TRYCONNECT_B__1_OFFSET UNITYSDK_OFFSET(0x1C6CD660)
+#define MIHOYO_SDK_SECURITYTUNNEL___C__DISPLAYCLASS20_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB0380B0)
+#define MIHOYO_SDK_SECURITYTUNNEL___C__DISPLAYCLASS20_0__TRYCONNECT_B__0_OFFSET UNITYSDK_OFFSET(0xB047320)
+#define MIHOYO_SDK_SECURITYTUNNEL___C__DISPLAYCLASS20_0__TRYCONNECT_B__1_OFFSET UNITYSDK_OFFSET(0xB047440)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int SecurityTunnel___c__DisplayClass20_0_TypeDefinitionIndex = 46875;
+	inline static constexpr unsigned int SecurityTunnel___c__DisplayClass20_0_TypeDefinitionIndex = 46415;
 
 	class SecurityTunnel___c__DisplayClass20_0 : public ::System::Object
 	{
 	public:
-		::MiHoYo::SDK::SecurityTunnel* __4__this; // 0x10
+		::Il2CppArray<::MiHoYo::SDK::SecurityTunnel_ServerAddress>* addresses; // 0x10
 		::MiHoYo::SDK::SecurityTunnel_AuthInfo info; // 0x18
-		::Il2CppArray<::MiHoYo::SDK::SecurityTunnel_ServerAddress>* addresses; // 0x58
+		::MiHoYo::SDK::SecurityTunnel* __4__this; // 0x58
 
 		::System::Void _ctor()
 		{

@@ -7,20 +7,20 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define CLASS_3_0062005ACF71ED36_METHOD_3_18338215AC7BEB04_OFFSET UNITYSDK_OFFSET(0x1B49EE80)
-#define CLASS_3_0062005ACF71ED36_METHOD_3_F32CA7BD1D486055_OFFSET UNITYSDK_OFFSET(0x1B49EE30)
-#define CLASS_3_0062005ACF71ED36__CTOR_OFFSET UNITYSDK_OFFSET(0x1B49EE70)
+#define CLASS_3_0062005ACF71ED36_METHOD_3_18338215AC7BEB04_OFFSET UNITYSDK_OFFSET(0x1D12B510)
+#define CLASS_3_0062005ACF71ED36_METHOD_3_F32CA7BD1D486055_OFFSET UNITYSDK_OFFSET(0x1D12B4C0)
+#define CLASS_3_0062005ACF71ED36__CTOR_OFFSET UNITYSDK_OFFSET(0x1D12B500)
 
-inline static constexpr unsigned int Class_3_0062005ACF71ED36_TypeDefinitionIndex = 22367;
+inline static constexpr unsigned int Class_3_0062005ACF71ED36_TypeDefinitionIndex = 22620;
 
 class Class_3_0062005ACF71ED36 : public ::RPG::GameCore::TaskConfig
 {
 public:
 	::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x18
-	::RPG::GameCore::ElationTimeAtmosphereType GMPGDEINODK; // 0x20
-	::RPG::GameCore::ElationTimeAtmosphereShowNumberType CBFGKOPANAK; // 0x24
-	::System::Boolean FGFILICHKOH; // 0x28
-	::System::Boolean GNDCCBNILML; // 0x29
+	::RPG::GameCore::ElationTimeAtmosphereShowNumberType CBFGKOPANAK; // 0x20
+	::RPG::GameCore::ElationTimeAtmosphereType GMPGDEINODK; // 0x24
+	::System::Boolean GNDCCBNILML; // 0x28
+	::System::Boolean FGFILICHKOH; // 0x29
 
 	::System::Void _ctor()
 	{

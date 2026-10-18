@@ -7,12 +7,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ColliderConfig; }
 
-#define RPG_GAMECORE_ADVENTURECHARACTERIDLESHOWSHAPECONFIG_METHOD_2_60F347222505ACF0_OFFSET UNITYSDK_OFFSET(0x1CBB8630)
-#define RPG_GAMECORE_ADVENTURECHARACTERIDLESHOWSHAPECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CBB87C0)
+#define RPG_GAMECORE_ADVENTURECHARACTERIDLESHOWSHAPECONFIG_METHOD_2_9430CBCA66D56A5A_OFFSET UNITYSDK_OFFSET(0x1D399A60)
+#define RPG_GAMECORE_ADVENTURECHARACTERIDLESHOWSHAPECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D399C80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureCharacterIdleShowShapeConfig_TypeDefinitionIndex = 17241;
+	inline static constexpr unsigned int AdventureCharacterIdleShowShapeConfig_TypeDefinitionIndex = 17437;
 
 	class AdventureCharacterIdleShowShapeConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURECHARACTERIDLESHOWSHAPECONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_60F347222505ACF0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdventureCharacterIdleShowShapeConfig*& a2)
+		static ::System::Void Method_2_9430CBCA66D56A5A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdventureCharacterIdleShowShapeConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdventureCharacterIdleShowShapeConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURECHARACTERIDLESHOWSHAPECONFIG_METHOD_2_60F347222505ACF0_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdventureCharacterIdleShowShapeConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURECHARACTERIDLESHOWSHAPECONFIG_METHOD_2_9430CBCA66D56A5A_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -5,7 +5,7 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2PrismaticJointDef_TypeDefinitionIndex = 36042;
+	inline static constexpr unsigned int B2PrismaticJointDef_TypeDefinitionIndex = 36729;
 
 	struct alignas(8) B2PrismaticJointDef
 	{

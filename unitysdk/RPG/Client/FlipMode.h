@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FlipMode_TypeDefinitionIndex = 71027;
+	inline static constexpr unsigned int FlipMode_TypeDefinitionIndex = 71059;
 
 	enum class FlipMode : ::System::Int32
 	{

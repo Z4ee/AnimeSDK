@@ -5,10 +5,10 @@
 namespace RPG { template <typename T> class PoolList_1; }
 namespace RPG::GameCore { class ChenLingBattleAnimEventConfig; }
 
-#define CLASS_2_03116A69433FA129___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18D181B0)
-#define CLASS_2_03116A69433FA129___C__DISPLAYCLASS12_0___TRYAPPLYEVENT_B__0_OFFSET UNITYSDK_OFFSET(0x18D18470)
+#define CLASS_2_03116A69433FA129___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB4147F0)
+#define CLASS_2_03116A69433FA129___C__DISPLAYCLASS12_0___TRYAPPLYEVENT_B__0_OFFSET UNITYSDK_OFFSET(0xB414AB0)
 
-inline static constexpr unsigned int Class_2_03116A69433FA129___c__DisplayClass12_0_TypeDefinitionIndex = 77440;
+inline static constexpr unsigned int Class_2_03116A69433FA129___c__DisplayClass12_0_TypeDefinitionIndex = 77911;
 
 class Class_2_03116A69433FA129___c__DisplayClass12_0 : public ::System::Object
 {

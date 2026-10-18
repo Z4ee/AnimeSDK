@@ -4,38 +4,38 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-class Class_1_D27BF54F25500E5F;
+class Class_1_5DF5F62C68EF718F;
 namespace RPG::Client { class DecalPuzzle; }
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_FREEDECAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x190E7710)
-#define RPG_CLIENT_FREEDECAL_GET_ISFINISH_OFFSET UNITYSDK_OFFSET(0x190E7DB0)
-#define RPG_CLIENT_FREEDECAL_GET_SPEED_OFFSET UNITYSDK_OFFSET(0x190E7DD0)
-#define RPG_CLIENT_FREEDECAL_ISMOVED_OFFSET UNITYSDK_OFFSET(0x190E78C0)
-#define RPG_CLIENT_FREEDECAL_PLAYFADEIN_OFFSET UNITYSDK_OFFSET(0x190E7A60)
-#define RPG_CLIENT_FREEDECAL_SETCHECKLIST_OFFSET UNITYSDK_OFFSET(0x190E7760)
-#define RPG_CLIENT_FREEDECAL_SETFINISH_OFFSET UNITYSDK_OFFSET(0x190E7BE0)
-#define RPG_CLIENT_FREEDECAL_SET_ISFINISH_OFFSET UNITYSDK_OFFSET(0x190E7DA0)
-#define RPG_CLIENT_FREEDECAL_SET_SPEED_OFFSET UNITYSDK_OFFSET(0x190E7DC0)
-#define RPG_CLIENT_FREEDECAL_UPDATE_OFFSET UNITYSDK_OFFSET(0x190E7610)
-#define RPG_CLIENT_FREEDECAL__CCTOR_OFFSET UNITYSDK_OFFSET(0x190E7E30)
-#define RPG_CLIENT_FREEDECAL__CTOR_OFFSET UNITYSDK_OFFSET(0x190E7DE0)
+#define RPG_CLIENT_FREEDECAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0xD045DC0)
+#define RPG_CLIENT_FREEDECAL_GET_ISFINISH_OFFSET UNITYSDK_OFFSET(0xD045E20)
+#define RPG_CLIENT_FREEDECAL_GET_SPEED_OFFSET UNITYSDK_OFFSET(0xD045E40)
+#define RPG_CLIENT_FREEDECAL_ISMOVED_OFFSET UNITYSDK_OFFSET(0xD045890)
+#define RPG_CLIENT_FREEDECAL_PLAYFADEIN_OFFSET UNITYSDK_OFFSET(0xD045A30)
+#define RPG_CLIENT_FREEDECAL_SETCHECKLIST_OFFSET UNITYSDK_OFFSET(0xD045730)
+#define RPG_CLIENT_FREEDECAL_SETFINISH_OFFSET UNITYSDK_OFFSET(0xD045BB0)
+#define RPG_CLIENT_FREEDECAL_SET_ISFINISH_OFFSET UNITYSDK_OFFSET(0xD045E10)
+#define RPG_CLIENT_FREEDECAL_SET_SPEED_OFFSET UNITYSDK_OFFSET(0xD045E30)
+#define RPG_CLIENT_FREEDECAL_UPDATE_OFFSET UNITYSDK_OFFSET(0xD0455D0)
+#define RPG_CLIENT_FREEDECAL__CCTOR_OFFSET UNITYSDK_OFFSET(0xD045EE0)
+#define RPG_CLIENT_FREEDECAL__CTOR_OFFSET UNITYSDK_OFFSET(0xD045E50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FreeDecal_TypeDefinitionIndex = 68829;
+	inline static constexpr unsigned int FreeDecal_TypeDefinitionIndex = 68863;
 
 	class FreeDecal : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::System::String** StaticGet_EHJFHMEKFDI()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(FreeDecal_TypeDefinitionIndex)->GetStaticField(0x15320);
-		}
 		static ::System::String** StaticGet_INHDCOPAFPF()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(FreeDecal_TypeDefinitionIndex)->GetStaticField(0x15328);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(FreeDecal_TypeDefinitionIndex)->GetStaticField(0x60510);
+		}
+		static ::System::String** StaticGet_EHJFHMEKFDI()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(FreeDecal_TypeDefinitionIndex)->GetStaticField(0x60518);
 		}
 		::System::Boolean _IsFinish_k__BackingField; // 0x18
 		::System::Single _Speed_k__BackingField; // 0x1C
@@ -45,7 +45,7 @@ namespace RPG::Client
 		::RPG::Client::DecalPuzzle* OwnerDecalPuzzle; // 0x30
 		::Il2CppArray<::UnityEngine::GameObject*>* CheckList; // 0x38
 		::Il2CppArray<::UnityEngine::Vector3>* OriginPosList; // 0x40
-		::Class_1_D27BF54F25500E5F* DHEHFOHPELI; // 0x48
+		::Class_1_5DF5F62C68EF718F* DHEHFOHPELI; // 0x48
 
 		::System::Void _ctor()
 		{

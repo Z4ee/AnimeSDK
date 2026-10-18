@@ -4,7 +4,7 @@
 
 namespace RPG::Embree
 {
-	inline static constexpr unsigned int EmbreeWrapperUnsafe_RTCHit_TypeDefinitionIndex = 47487;
+	inline static constexpr unsigned int EmbreeWrapperUnsafe_RTCHit_TypeDefinitionIndex = 47027;
 
 	struct alignas(4) EmbreeWrapperUnsafe_RTCHit
 	{

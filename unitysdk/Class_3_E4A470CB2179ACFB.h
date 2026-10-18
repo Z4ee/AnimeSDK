@@ -3,7 +3,7 @@
 #include "unitysdk/Class_2_120CA39A4C9D57C0.h"
 #include "unitysdk/EnviromentSystemV2Space/PropertyType.h"
 
-class Class_0_16E4307DCC419505_379;
+class Class_0_16E4307DCC419505_460;
 class Class_1_39155512A8777971;
 class Class_1_9B39BF4ECCAD98D9;
 class Class_1_EAF7984A8FAD6BE4;
@@ -12,7 +12,7 @@ namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 template <typename T> class Class_3_E4A470CB2179ACFB_Class_3_B6136C2F127116DF;
 
-inline static constexpr unsigned int Class_3_E4A470CB2179ACFB_TypeDefinitionIndex = 49891;
+inline static constexpr unsigned int Class_3_E4A470CB2179ACFB_TypeDefinitionIndex = 49466;
 
 template <typename T>
 class Class_3_E4A470CB2179ACFB : public ::Class_2_120CA39A4C9D57C0

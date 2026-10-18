@@ -4,9 +4,9 @@
 #include "unitysdk/SubwayScheduleData_SubwayMemberTypeWeightConfig.h"
 #include "unitysdk/System/Object.h"
 
-#define SUBWAYSCHEDULEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x197F3AB0)
+#define SUBWAYSCHEDULEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xE98EC20)
 
-inline static constexpr unsigned int SubwayScheduleData_TypeDefinitionIndex = 47553;
+inline static constexpr unsigned int SubwayScheduleData_TypeDefinitionIndex = 47093;
 
 class SubwayScheduleData : public ::System::Object
 {

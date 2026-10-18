@@ -3,7 +3,7 @@
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int IGraphicEnabledDisabled_TypeDefinitionIndex = 6715;
+	inline static constexpr unsigned int IGraphicEnabledDisabled_TypeDefinitionIndex = 6724;
 
 	class IGraphicEnabledDisabled
 	{

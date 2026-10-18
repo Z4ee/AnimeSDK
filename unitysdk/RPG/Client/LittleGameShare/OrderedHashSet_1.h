@@ -10,7 +10,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::LittleGameShare
 {
-	inline static constexpr unsigned int OrderedHashSet_1_TypeDefinitionIndex = 36373;
+	inline static constexpr unsigned int OrderedHashSet_1_TypeDefinitionIndex = 37014;
 
 	template <typename T>
 	class OrderedHashSet_1 : public ::System::Object

@@ -10,22 +10,22 @@ namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_3_17B95EC4AA1CE2AE_METHOD_3_14F2FC46FC687955_OFFSET UNITYSDK_OFFSET(0x1CEFF6C0)
-#define CLASS_3_17B95EC4AA1CE2AE_METHOD_3_5C675B92235EC69F_OFFSET UNITYSDK_OFFSET(0x1CEFF700)
-#define CLASS_3_17B95EC4AA1CE2AE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CEFF6F0)
+#define CLASS_3_17B95EC4AA1CE2AE_METHOD_3_14F2FC46FC687955_OFFSET UNITYSDK_OFFSET(0x1D006110)
+#define CLASS_3_17B95EC4AA1CE2AE_METHOD_3_5C675B92235EC69F_OFFSET UNITYSDK_OFFSET(0x1D006150)
+#define CLASS_3_17B95EC4AA1CE2AE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D006140)
 
-inline static constexpr unsigned int Class_3_17B95EC4AA1CE2AE_TypeDefinitionIndex = 23882;
+inline static constexpr unsigned int Class_3_17B95EC4AA1CE2AE_TypeDefinitionIndex = 24157;
 
 class Class_3_17B95EC4AA1CE2AE : public ::RPG::GameCore::TaskConfig
 {
 public:
-	::Il2CppArray<::RPG::GameCore::TaskConfig*>* ELGMGKGMCCM; // 0x18
-	::RPG::GameCore::RtLifeBindingConfig* ECNHHNDAHKB; // 0x20
-	::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::DynamicString*>* BGCBMIGIAMM; // 0x28
+	::RPG::GameCore::TargetEvaluator* CGNJAJMEKOI; // 0x18
+	::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::DynamicFloat*>* FMCJJBALBEN; // 0x20
+	::Il2CppArray<::RPG::GameCore::TaskConfig*>* ELGMGKGMCCM; // 0x28
 	::Il2CppArray<::RPG::GameCore::TaskConfig*>* AIBLKCJHCCC; // 0x30
 	::RPG::GameCore::TargetEvaluator* BBOFFGLPHCJ; // 0x38
-	::RPG::GameCore::TargetEvaluator* CGNJAJMEKOI; // 0x40
-	::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::DynamicFloat*>* FMCJJBALBEN; // 0x48
+	::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::DynamicString*>* BGCBMIGIAMM; // 0x40
+	::RPG::GameCore::RtLifeBindingConfig* ECNHHNDAHKB; // 0x48
 	::RPG::GameCore::TargetEvaluator* BCJFPLDEDJE; // 0x50
 
 	::System::Void _ctor()

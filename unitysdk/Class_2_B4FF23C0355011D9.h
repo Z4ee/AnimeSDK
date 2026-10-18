@@ -6,21 +6,21 @@ namespace System { class String; }
 namespace UnityEngine { class ParticleSystem; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_2_B4FF23C0355011D9_METHOD_2_1B9CC121BDC8766D_OFFSET UNITYSDK_OFFSET(0x18191DF0)
-#define CLASS_2_B4FF23C0355011D9_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x18191D90)
-#define CLASS_2_B4FF23C0355011D9__CTOR_OFFSET UNITYSDK_OFFSET(0x18191E80)
-#define CLASS_2_B4FF23C0355011D9__ONBIND_OFFSET UNITYSDK_OFFSET(0x18191C80)
+#define CLASS_2_B4FF23C0355011D9_METHOD_2_1B9CC121BDC8766D_OFFSET UNITYSDK_OFFSET(0xB8C9BF0)
+#define CLASS_2_B4FF23C0355011D9_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xB8C9B90)
+#define CLASS_2_B4FF23C0355011D9__CTOR_OFFSET UNITYSDK_OFFSET(0xB8C9C80)
+#define CLASS_2_B4FF23C0355011D9__ONBIND_OFFSET UNITYSDK_OFFSET(0xB8C9A80)
 
-inline static constexpr unsigned int Class_2_B4FF23C0355011D9_TypeDefinitionIndex = 72233;
+inline static constexpr unsigned int Class_2_B4FF23C0355011D9_TypeDefinitionIndex = 72306;
 
 class Class_2_B4FF23C0355011D9 : public ::Class_1_34917908B7833130
 {
 public:
 	// static const ::System::String* DJCBDJMACFH; // 0x0
 	// static const ::System::String* PCANCCCAJHL; // 0x0
-	::UnityEngine::ParticleSystem* MBJJHPKBCCC; // 0x60
+	::UnityEngine::Transform* AOKHJDHAAKP; // 0x60
 	::UnityEngine::Transform* DCCOIAKMMEE; // 0x68
-	::UnityEngine::Transform* AOKHJDHAAKP; // 0x70
+	::UnityEngine::ParticleSystem* MBJJHPKBCCC; // 0x70
 	::System::Boolean DAKHCIHNGBK; // 0x78
 
 	::System::Void _ctor()

@@ -1,14 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-class Class_1_9F306F8F208CB043;
-class Class_1_A4088D9A55CD220E;
-namespace RPG::Client { class AnimatorButton; }
-namespace RPG::Client { class LocalizedText; }
-namespace RPG::Client { class UIStateCtrl; }
-namespace UnityEngine::UI { class Image; }
+class Class_1_A92BC063ED2379EB;
+class Class_2_B66C1067C0468FBB;
+namespace RPG::GameCore { class BaseChimeraDuelEntitiesSelectorConfig; }
+namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_1424_TypeDefinitionIndex = 80556;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_1424_TypeDefinitionIndex = 77549;
 
 class Class_0_16E4307DCC419505_1424
 {

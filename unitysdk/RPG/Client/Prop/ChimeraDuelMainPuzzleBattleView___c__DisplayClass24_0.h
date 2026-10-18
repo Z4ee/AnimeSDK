@@ -5,19 +5,19 @@
 namespace RPG::Client { class ChimeraDuelMasterData; }
 namespace RPG::Client::Prop { class ChimeraDuelMainPuzzleBattleView; }
 
-#define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLEBATTLEVIEW___C__DISPLAYCLASS24_0__CTOR_OFFSET UNITYSDK_OFFSET(0x189EB620)
-#define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLEBATTLEVIEW___C__DISPLAYCLASS24_0__LOADMASTERGROUP_B__0_OFFSET UNITYSDK_OFFSET(0x189EC4B0)
+#define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLEBATTLEVIEW___C__DISPLAYCLASS24_0__CTOR_OFFSET UNITYSDK_OFFSET(0xDC5A510)
+#define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLEBATTLEVIEW___C__DISPLAYCLASS24_0__LOADMASTERGROUP_B__0_OFFSET UNITYSDK_OFFSET(0xDC5B390)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraDuelMainPuzzleBattleView___c__DisplayClass24_0_TypeDefinitionIndex = 77902;
+	inline static constexpr unsigned int ChimeraDuelMainPuzzleBattleView___c__DisplayClass24_0_TypeDefinitionIndex = 78373;
 
 	class ChimeraDuelMainPuzzleBattleView___c__DisplayClass24_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::ChimeraDuelMasterData* allyMasterData; // 0x10
-		::RPG::Client::Prop::ChimeraDuelMainPuzzleBattleView* __4__this; // 0x18
-		::RPG::Client::ChimeraDuelMasterData* enemyMasterData; // 0x20
+		::RPG::Client::Prop::ChimeraDuelMainPuzzleBattleView* __4__this; // 0x10
+		::RPG::Client::ChimeraDuelMasterData* enemyMasterData; // 0x18
+		::RPG::Client::ChimeraDuelMasterData* allyMasterData; // 0x20
 		::System::UInt32 groupID; // 0x28
 
 		::System::Void _ctor()

@@ -6,12 +6,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_TEAMLIMITTYPEEVENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E1CC500)
-#define RPG_GAMECORE_TEAMLIMITTYPEEVENTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1E1CC720)
+#define RPG_GAMECORE_TEAMLIMITTYPEEVENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DB4D900)
+#define RPG_GAMECORE_TEAMLIMITTYPEEVENTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB4DB20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TeamLimitTypeEventRow_TypeDefinitionIndex = 15107;
+	inline static constexpr unsigned int TeamLimitTypeEventRow_TypeDefinitionIndex = 15278;
 
 	class TeamLimitTypeEventRow : public ::System::Object
 	{

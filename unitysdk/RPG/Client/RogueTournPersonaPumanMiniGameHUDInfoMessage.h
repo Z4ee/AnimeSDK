@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournPersonaPumanMiniGameHUDInfoMessage_TypeDefinitionIndex = 72831;
+	inline static constexpr unsigned int RogueTournPersonaPumanMiniGameHUDInfoMessage_TypeDefinitionIndex = 72914;
 
 	enum class RogueTournPersonaPumanMiniGameHUDInfoMessage : ::System::Int32
 	{

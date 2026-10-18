@@ -10,13 +10,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_SERVANTCONFIG_METHOD_3_B889F2F56102372C_OFFSET UNITYSDK_OFFSET(0x1DB4BED0)
-#define RPG_GAMECORE_SERVANTCONFIG_METHOD_3_FB8141C3AC00DE88_OFFSET UNITYSDK_OFFSET(0x1DB4BA40)
-#define RPG_GAMECORE_SERVANTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB4BDB0)
+#define RPG_GAMECORE_SERVANTCONFIG_METHOD_3_4CAC3985E4A68E67_OFFSET UNITYSDK_OFFSET(0x1DA5FB50)
+#define RPG_GAMECORE_SERVANTCONFIG_METHOD_3_FB8141C3AC00DE88_OFFSET UNITYSDK_OFFSET(0x1DA5F6C0)
+#define RPG_GAMECORE_SERVANTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1DA5FA30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ServantConfig_TypeDefinitionIndex = 16355;
+	inline static constexpr unsigned int ServantConfig_TypeDefinitionIndex = 16528;
 
 	class ServantConfig : public ::RPG::GameCore::CharacterConfig
 	{
@@ -42,9 +42,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ServantConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SERVANTCONFIG_METHOD_3_FB8141C3AC00DE88_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_B889F2F56102372C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ServantConfig* a2)
+		static ::System::Void Method_3_4CAC3985E4A68E67(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ServantConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ServantConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SERVANTCONFIG_METHOD_3_B889F2F56102372C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ServantConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SERVANTCONFIG_METHOD_3_4CAC3985E4A68E67_OFFSET))(a1, a2);
 		}
 	};
 }

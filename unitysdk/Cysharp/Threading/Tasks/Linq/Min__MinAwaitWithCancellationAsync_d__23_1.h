@@ -16,7 +16,7 @@ namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int Min__MinAwaitWithCancellationAsync_d__23_1_TypeDefinitionIndex = 44367;
+	inline static constexpr unsigned int Min__MinAwaitWithCancellationAsync_d__23_1_TypeDefinitionIndex = 45506;
 
 	template <typename TSource>
 	struct Min__MinAwaitWithCancellationAsync_d__23_1

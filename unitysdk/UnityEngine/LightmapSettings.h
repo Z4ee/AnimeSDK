@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class LightmapData; }
 
-#define UNITYENGINE_LIGHTMAPSETTINGS_SET_LIGHTMAPS_OFFSET UNITYSDK_OFFSET(0x1EDFB810)
+#define UNITYENGINE_LIGHTMAPSETTINGS_SET_LIGHTMAPS_OFFSET UNITYSDK_OFFSET(0x1F3C6DC0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int LightmapSettings_TypeDefinitionIndex = 4127;
+	inline static constexpr unsigned int LightmapSettings_TypeDefinitionIndex = 4128;
 
 	class LightmapSettings : public ::UnityEngine::Object
 	{

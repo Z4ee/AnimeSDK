@@ -7,11 +7,11 @@
 namespace UnityEngine { class Texture2D; }
 namespace UnityEngine { class Texture; }
 
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_ADDITIONALCOLORGRADINGPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x3B772F0)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_ADDITIONALCOLORGRADINGPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0xF80C0)
 
 namespace RPGTools::Timeline::PostProcessing
 {
-	inline static constexpr unsigned int AdditionalColorGradingParameter_TypeDefinitionIndex = 48982;
+	inline static constexpr unsigned int AdditionalColorGradingParameter_TypeDefinitionIndex = 48528;
 
 	struct alignas(8) AdditionalColorGradingParameter
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ColliderEnableReason_TypeDefinitionIndex = 57390;
+	inline static constexpr unsigned int ColliderEnableReason_TypeDefinitionIndex = 57226;
 
 	enum class ColliderEnableReason : ::System::Int32
 	{

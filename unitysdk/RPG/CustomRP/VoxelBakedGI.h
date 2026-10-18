@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define RPG_CUSTOMRP_VOXELBAKEDGI__CTOR_OFFSET UNITYSDK_OFFSET(0x16832800)
+#define RPG_CUSTOMRP_VOXELBAKEDGI__CTOR_OFFSET UNITYSDK_OFFSET(0xE48C420)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int VoxelBakedGI_TypeDefinitionIndex = 52144;
+	inline static constexpr unsigned int VoxelBakedGI_TypeDefinitionIndex = 51850;
 
 	class VoxelBakedGI : public ::UnityEngine::MonoBehaviour
 	{

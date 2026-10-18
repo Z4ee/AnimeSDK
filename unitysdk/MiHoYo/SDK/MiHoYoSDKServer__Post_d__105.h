@@ -7,29 +7,29 @@ namespace System { class Action; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_MIHOYOSDKSERVER__POST_D__105_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x194AC860)
-#define MIHOYO_SDK_MIHOYOSDKSERVER__POST_D__105_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x194AC930)
-#define MIHOYO_SDK_MIHOYOSDKSERVER__POST_D__105_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x194AC990)
-#define MIHOYO_SDK_MIHOYOSDKSERVER__POST_D__105_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x194AC940)
-#define MIHOYO_SDK_MIHOYOSDKSERVER__POST_D__105_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x194AC850)
-#define MIHOYO_SDK_MIHOYOSDKSERVER__POST_D__105__CTOR_OFFSET UNITYSDK_OFFSET(0x194A89C0)
+#define MIHOYO_SDK_MIHOYOSDKSERVER__POST_D__105_MOVENEXT_OFFSET UNITYSDK_OFFSET(0xAFDE560)
+#define MIHOYO_SDK_MIHOYOSDKSERVER__POST_D__105_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xAFDE630)
+#define MIHOYO_SDK_MIHOYOSDKSERVER__POST_D__105_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xAFDE690)
+#define MIHOYO_SDK_MIHOYOSDKSERVER__POST_D__105_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0xAFDE640)
+#define MIHOYO_SDK_MIHOYOSDKSERVER__POST_D__105_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xAFDE550)
+#define MIHOYO_SDK_MIHOYOSDKSERVER__POST_D__105__CTOR_OFFSET UNITYSDK_OFFSET(0xAFDE540)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MiHoYoSDKServer__Post_d__105_TypeDefinitionIndex = 46791;
+	inline static constexpr unsigned int MiHoYoSDKServer__Post_d__105_TypeDefinitionIndex = 46331;
 
 	class MiHoYoSDKServer__Post_d__105 : public ::System::Object
 	{
 	public:
 		::MiHoYo::SDK::MiHoYoSDKServer* __4__this; // 0x10
 		::System::Object* __2__current; // 0x18
-		::System::String* bodyString; // 0x20
-		::System::Action_1<::System::String*>* callback; // 0x28
-		::System::Action* timeoutCallback; // 0x30
+		::System::Action_1<::System::String*>* callback; // 0x20
+		::System::Action* timeoutCallback; // 0x28
+		::System::String* bodyString; // 0x30
 		::System::String* requestUrl; // 0x38
 		::System::Int32 retryTime; // 0x40
-		::System::Int32 __1__state; // 0x44
-		::System::Single timeoutSecond; // 0x48
+		::System::Single timeoutSecond; // 0x44
+		::System::Int32 __1__state; // 0x48
 
 		::System::Void _ctor(::System::Int32 a1)
 		{

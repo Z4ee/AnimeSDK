@@ -4,12 +4,12 @@
 
 namespace RPG::Client::TrainParty { class TrainPartyBuildSubArea; }
 
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDMANAGER___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDDEEF0)
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDMANAGER___C__DISPLAYCLASS3_0__GETSUBAREALIST_B__0_OFFSET UNITYSDK_OFFSET(0x1BDE93F0)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDMANAGER___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0xE2CD330)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDMANAGER___C__DISPLAYCLASS3_0__GETSUBAREALIST_B__0_OFFSET UNITYSDK_OFFSET(0xE2D6790)
 
 namespace RPG::Client::TrainParty
 {
-	inline static constexpr unsigned int TrainPartyBuildManager___c__DisplayClass3_0_TypeDefinitionIndex = 74203;
+	inline static constexpr unsigned int TrainPartyBuildManager___c__DisplayClass3_0_TypeDefinitionIndex = 74302;
 
 	class TrainPartyBuildManager___c__DisplayClass3_0 : public ::System::Object
 	{

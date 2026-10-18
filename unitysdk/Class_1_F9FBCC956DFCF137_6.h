@@ -2,38 +2,25 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_2B4C9D5EFCB958DD;
-namespace System { class String; }
+class Class_1_64D890C466F37235;
 
-#define CLASS_1_F9FBCC956DFCF137_6_METHOD_1_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0x16CD7900)
-#define CLASS_1_F9FBCC956DFCF137_6_METHOD_1_C2DA14976E70EEE4_OFFSET UNITYSDK_OFFSET(0x16CD7940)
-#define CLASS_1_F9FBCC956DFCF137_6_TOSTRING_OFFSET UNITYSDK_OFFSET(0x16CD79A0)
-#define CLASS_1_F9FBCC956DFCF137_6__CTOR_OFFSET UNITYSDK_OFFSET(0x16CD78F0)
+#define CLASS_1_F9FBCC956DFCF137_6_METHOD_1_A7957CDB95DAF72B_OFFSET UNITYSDK_OFFSET(0xBE872C0)
+#define CLASS_1_F9FBCC956DFCF137_6__CTOR_OFFSET UNITYSDK_OFFSET(0xBE872B0)
 
-inline static constexpr unsigned int Class_1_F9FBCC956DFCF137_6_TypeDefinitionIndex = 59539;
+inline static constexpr unsigned int Class_1_F9FBCC956DFCF137_6_TypeDefinitionIndex = 60631;
 
 class Class_1_F9FBCC956DFCF137_6 : public ::System::Object
 {
 public:
-	::Class_1_2B4C9D5EFCB958DD* FKKNLHAEGOL; // 0x10
+	::Class_1_64D890C466F37235* KGCNPIEDOCA; // 0x10
 
-	::System::Void _ctor(::Class_1_2B4C9D5EFCB958DD* a1)
+	::System::Void _ctor(::Class_1_64D890C466F37235* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_1_2B4C9D5EFCB958DD*))((::PBYTE)hIl2Cpp + CLASS_1_F9FBCC956DFCF137_6__CTOR_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::Class_1_64D890C466F37235*))((::PBYTE)hIl2Cpp + CLASS_1_F9FBCC956DFCF137_6__CTOR_OFFSET))(this, a1);
 	}
 
-	::System::Boolean Method_1_391A84BCD9F51317()
+	::System::Boolean Method_1_A7957CDB95DAF72B()
 	{
-		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F9FBCC956DFCF137_6_METHOD_1_391A84BCD9F51317_OFFSET))(this);
-	}
-
-	::System::Boolean Method_1_C2DA14976E70EEE4()
-	{
-		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F9FBCC956DFCF137_6_METHOD_1_C2DA14976E70EEE4_OFFSET))(this);
-	}
-
-	::System::String* ToString()
-	{
-		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F9FBCC956DFCF137_6_TOSTRING_OFFSET))(this);
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F9FBCC956DFCF137_6_METHOD_1_A7957CDB95DAF72B_OFFSET))(this);
 	}
 };

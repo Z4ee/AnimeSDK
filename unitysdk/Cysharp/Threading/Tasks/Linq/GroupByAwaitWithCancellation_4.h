@@ -13,7 +13,7 @@ namespace System::Collections::Generic { template <typename T> class IEqualityCo
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int GroupByAwaitWithCancellation_4_TypeDefinitionIndex = 44248;
+	inline static constexpr unsigned int GroupByAwaitWithCancellation_4_TypeDefinitionIndex = 45387;
 
 	template <typename TSource, typename TKey, typename TElement, typename TResult>
 	class GroupByAwaitWithCancellation_4 : public ::System::Object

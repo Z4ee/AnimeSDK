@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EraStateTypeEnum_TypeDefinitionIndex = 16438;
+	inline static constexpr unsigned int EraStateTypeEnum_TypeDefinitionIndex = 16614;
 
 	enum class EraStateTypeEnum : ::System::Int32
 	{

@@ -6,21 +6,21 @@ namespace RPG::Client::LittleGame { class ChimeraUseAbilityCommand; }
 namespace RPG::Client::Prop { class ChimeraBattlePuzzleBoard; }
 namespace System { class Action; }
 
-#define RPG_CLIENT_LITTLEGAME_CHIMERAUSEABILITYCOMMAND___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1AC323A0)
-#define RPG_CLIENT_LITTLEGAME_CHIMERAUSEABILITYCOMMAND___C__DISPLAYCLASS1_0__EXECUTE_B__0_OFFSET UNITYSDK_OFFSET(0x1AC323B0)
-#define RPG_CLIENT_LITTLEGAME_CHIMERAUSEABILITYCOMMAND___C__DISPLAYCLASS1_0__EXECUTE_B__1_OFFSET UNITYSDK_OFFSET(0x1AC32480)
-#define RPG_CLIENT_LITTLEGAME_CHIMERAUSEABILITYCOMMAND___C__DISPLAYCLASS1_0__EXECUTE_B__2_OFFSET UNITYSDK_OFFSET(0x1AC325C0)
+#define RPG_CLIENT_LITTLEGAME_CHIMERAUSEABILITYCOMMAND___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD41C260)
+#define RPG_CLIENT_LITTLEGAME_CHIMERAUSEABILITYCOMMAND___C__DISPLAYCLASS1_0__EXECUTE_B__0_OFFSET UNITYSDK_OFFSET(0xD41C270)
+#define RPG_CLIENT_LITTLEGAME_CHIMERAUSEABILITYCOMMAND___C__DISPLAYCLASS1_0__EXECUTE_B__1_OFFSET UNITYSDK_OFFSET(0xD41C340)
+#define RPG_CLIENT_LITTLEGAME_CHIMERAUSEABILITYCOMMAND___C__DISPLAYCLASS1_0__EXECUTE_B__2_OFFSET UNITYSDK_OFFSET(0xD41C480)
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int ChimeraUseAbilityCommand___c__DisplayClass1_0_TypeDefinitionIndex = 76150;
+	inline static constexpr unsigned int ChimeraUseAbilityCommand___c__DisplayClass1_0_TypeDefinitionIndex = 76627;
 
 	class ChimeraUseAbilityCommand___c__DisplayClass1_0 : public ::System::Object
 	{
 	public:
-		::System::Action* __9__2; // 0x10
-		::RPG::Client::Prop::ChimeraBattlePuzzleBoard* puzzle; // 0x18
-		::RPG::Client::LittleGame::ChimeraUseAbilityCommand* __4__this; // 0x20
+		::RPG::Client::Prop::ChimeraBattlePuzzleBoard* puzzle; // 0x10
+		::RPG::Client::LittleGame::ChimeraUseAbilityCommand* __4__this; // 0x18
+		::System::Action* __9__2; // 0x20
 
 		::System::Void _ctor()
 		{

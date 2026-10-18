@@ -4,18 +4,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_GROWTHTARGETTIMELIMITTOPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3C4490)
-#define RPG_GAMECORE_GROWTHTARGETTIMELIMITTOPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3C45B0)
+#define RPG_GAMECORE_GROWTHTARGETTIMELIMITTOPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D71F5B0)
+#define RPG_GAMECORE_GROWTHTARGETTIMELIMITTOPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D71F6D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GrowthTargetTimeLimitTopRow_TypeDefinitionIndex = 13263;
+	inline static constexpr unsigned int GrowthTargetTimeLimitTopRow_TypeDefinitionIndex = 13369;
 
 	class GrowthTargetTimeLimitTopRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 GachaID; // 0x10
-		::System::UInt32 ActivityModule; // 0x14
+		::System::UInt32 ActivityModule; // 0x10
+		::System::UInt32 GachaID; // 0x14
 
 		::System::Void _ctor()
 		{

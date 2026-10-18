@@ -7,18 +7,18 @@ namespace RPG::Client::Prop { class ChimeraDuelBubbleEvent; }
 namespace System { class Action; }
 namespace System { template <typename T> class Func_1; }
 
-#define CLASS_1_9FD0E960CE8A2D6B_EXECUTE_OFFSET UNITYSDK_OFFSET(0x17922DE0)
-#define CLASS_1_9FD0E960CE8A2D6B_TICK_OFFSET UNITYSDK_OFFSET(0x17922EC0)
-#define CLASS_1_9FD0E960CE8A2D6B__CTOR_OFFSET UNITYSDK_OFFSET(0x17922DD0)
+#define CLASS_1_9FD0E960CE8A2D6B_EXECUTE_OFFSET UNITYSDK_OFFSET(0x154D5320)
+#define CLASS_1_9FD0E960CE8A2D6B_TICK_OFFSET UNITYSDK_OFFSET(0x154D5400)
+#define CLASS_1_9FD0E960CE8A2D6B__CTOR_OFFSET UNITYSDK_OFFSET(0x154D5310)
 
-inline static constexpr unsigned int Class_1_9FD0E960CE8A2D6B_TypeDefinitionIndex = 77196;
+inline static constexpr unsigned int Class_1_9FD0E960CE8A2D6B_TypeDefinitionIndex = 77667;
 
 class Class_1_9FD0E960CE8A2D6B : public ::System::Object
 {
 public:
-	::RPG::Client::Prop::ChimeraDuelBubbleEvent* FLPMDDEMIBJ; // 0x10
-	::System::Action* LGAOOKPFIMF; // 0x18
-	::System::Func_1<::RPG::Client::Prop::ChimeraDuelBubbleEvent*>* PHKEALDENKI; // 0x20
+	::System::Action* LGAOOKPFIMF; // 0x10
+	::System::Func_1<::RPG::Client::Prop::ChimeraDuelBubbleEvent*>* PHKEALDENKI; // 0x18
+	::RPG::Client::Prop::ChimeraDuelBubbleEvent* FLPMDDEMIBJ; // 0x20
 	::System::Boolean LNPALNBIBFK; // 0x28
 	::System::Boolean OELBLBCINNB; // 0x29
 	::System::Single HBDJCFFDGDD; // 0x2C

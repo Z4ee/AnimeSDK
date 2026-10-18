@@ -6,12 +6,12 @@ namespace RPG::GameCore { class SimpleTalkInfo; }
 namespace System { class String; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_MOUTHINFO_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x1B5A0380)
-#define RPGTOOLS_TIMELINE_MOUTHINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5A03C0)
+#define RPGTOOLS_TIMELINE_MOUTHINFO_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xE905580)
+#define RPGTOOLS_TIMELINE_MOUTHINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xE9055C0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int MouthInfo_TypeDefinitionIndex = 48685;
+	inline static constexpr unsigned int MouthInfo_TypeDefinitionIndex = 48225;
 
 	class MouthInfo : public ::System::Object
 	{

@@ -6,21 +6,21 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_MONOROGUEHEXCHESSBOARD_ITEMPOOL_GETITEM_OFFSET UNITYSDK_OFFSET(0x1AD0B0F0)
-#define RPG_CLIENT_MONOROGUEHEXCHESSBOARD_ITEMPOOL_HIDEUNUSEDITEMS_OFFSET UNITYSDK_OFFSET(0x1AD0B390)
-#define RPG_CLIENT_MONOROGUEHEXCHESSBOARD_ITEMPOOL_RESETUSEDCOUNT_OFFSET UNITYSDK_OFFSET(0x1AD0B0A0)
-#define RPG_CLIENT_MONOROGUEHEXCHESSBOARD_ITEMPOOL__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD0B090)
-#define RPG_CLIENT_MONOROGUEHEXCHESSBOARD_ITEMPOOL__SETITEMACTIVE_OFFSET UNITYSDK_OFFSET(0x1AD0B6D0)
+#define RPG_CLIENT_MONOROGUEHEXCHESSBOARD_ITEMPOOL_GETITEM_OFFSET UNITYSDK_OFFSET(0xD857DE0)
+#define RPG_CLIENT_MONOROGUEHEXCHESSBOARD_ITEMPOOL_HIDEUNUSEDITEMS_OFFSET UNITYSDK_OFFSET(0xD858080)
+#define RPG_CLIENT_MONOROGUEHEXCHESSBOARD_ITEMPOOL_RESETUSEDCOUNT_OFFSET UNITYSDK_OFFSET(0xD857D90)
+#define RPG_CLIENT_MONOROGUEHEXCHESSBOARD_ITEMPOOL__CTOR_OFFSET UNITYSDK_OFFSET(0xD857D80)
+#define RPG_CLIENT_MONOROGUEHEXCHESSBOARD_ITEMPOOL__SETITEMACTIVE_OFFSET UNITYSDK_OFFSET(0xD8583C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoRogueHexChessBoard_ItemPool_TypeDefinitionIndex = 68886;
+	inline static constexpr unsigned int MonoRogueHexChessBoard_ItemPool_TypeDefinitionIndex = 68922;
 
 	class MonoRogueHexChessBoard_ItemPool : public ::System::Object
 	{
 	public:
-		::UnityEngine::GameObject* _Prefab; // 0x10
-		::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* _ItemList; // 0x18
+		::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* _ItemList; // 0x10
+		::UnityEngine::GameObject* _Prefab; // 0x18
 		::System::Int32 _UsedCount; // 0x20
 
 		::System::Void _ctor(::UnityEngine::GameObject* a1)

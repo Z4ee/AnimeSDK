@@ -5,7 +5,7 @@ namespace System { class Exception; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int IRejectable_TypeDefinitionIndex = 38217;
+	inline static constexpr unsigned int IRejectable_TypeDefinitionIndex = 39514;
 
 	class IRejectable
 	{

@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class RenderTexture; }
 
-#define UNITYENGINE_RENDERING_RENDERTEXTUREPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x1DE253E0)
+#define UNITYENGINE_RENDERING_RENDERTEXTUREPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F29C490)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int RenderTextureParameter_TypeDefinitionIndex = 34984;
+	inline static constexpr unsigned int RenderTextureParameter_TypeDefinitionIndex = 35653;
 
 	class RenderTextureParameter : public ::UnityEngine::Rendering::VolumeParameter_1<::UnityEngine::RenderTexture*>
 	{

@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define RPG_EDITOR_SKILLDECOASSETCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16849410)
+#define RPG_EDITOR_SKILLDECOASSETCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xE4A2FF0)
 
 namespace RPG::Editor
 {
-	inline static constexpr unsigned int SkillDecoAssetConfig_TypeDefinitionIndex = 52327;
+	inline static constexpr unsigned int SkillDecoAssetConfig_TypeDefinitionIndex = 52040;
 
 	class SkillDecoAssetConfig : public ::System::Object
 	{

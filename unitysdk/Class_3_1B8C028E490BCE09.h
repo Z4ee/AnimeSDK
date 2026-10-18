@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class PropSetHP; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_1B8C028E490BCE09_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16C0C9C0)
-#define CLASS_3_1B8C028E490BCE09__CTOR_OFFSET UNITYSDK_OFFSET(0x16C0C990)
+#define CLASS_3_1B8C028E490BCE09_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBEB6740)
+#define CLASS_3_1B8C028E490BCE09__CTOR_OFFSET UNITYSDK_OFFSET(0xBEB6710)
 
-inline static constexpr unsigned int Class_3_1B8C028E490BCE09_TypeDefinitionIndex = 58496;
+inline static constexpr unsigned int Class_3_1B8C028E490BCE09_TypeDefinitionIndex = 58347;
 
 class Class_3_1B8C028E490BCE09 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::PropSetHP*>
 {

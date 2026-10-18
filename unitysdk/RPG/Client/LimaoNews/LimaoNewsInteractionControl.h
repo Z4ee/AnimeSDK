@@ -6,21 +6,21 @@ namespace RPG::Client { class AnimatorButton; }
 namespace UnityEngine { class Animator; }
 namespace UnityEngine::UI { class Text; }
 
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSINTERACTIONCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x1C5343B0)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSINTERACTIONCONTROL__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x1C533D10)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSINTERACTIONCONTROL__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0x1C533C60)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSINTERACTIONCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0xD3A1CF0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSINTERACTIONCONTROL__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0xD3A1650)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSINTERACTIONCONTROL__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0xD3A1570)
 
 namespace RPG::Client::LimaoNews
 {
-	inline static constexpr unsigned int LimaoNewsInteractionControl_TypeDefinitionIndex = 79031;
+	inline static constexpr unsigned int LimaoNewsInteractionControl_TypeDefinitionIndex = 80354;
 
 	class LimaoNewsInteractionControl : public ::Sofa::BaseSofaControl
 	{
 	public:
-		::RPG::Client::AnimatorButton* _BtnLike; // 0x38
-		::UnityEngine::Animator* _AnimtorLike; // 0x40
-		::UnityEngine::UI::Text* _TextLikeNum; // 0x48
-		::UnityEngine::UI::Text* _TextCommentNum; // 0x50
+		::RPG::Client::AnimatorButton* _BtnLike; // 0x40
+		::UnityEngine::Animator* _AnimtorLike; // 0x48
+		::UnityEngine::UI::Text* _TextLikeNum; // 0x50
+		::UnityEngine::UI::Text* _TextCommentNum; // 0x58
 
 		::System::Void _ctor()
 		{

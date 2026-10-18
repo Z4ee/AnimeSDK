@@ -5,12 +5,12 @@
 namespace MiHoYo::SDK::Console { class PS4BindResultDialog; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_CONSOLE_PS4BINDRESULTDIALOG___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C5D3FC0)
-#define MIHOYO_SDK_CONSOLE_PS4BINDRESULTDIALOG___C__DISPLAYCLASS11_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1C5D4BE0)
+#define MIHOYO_SDK_CONSOLE_PS4BINDRESULTDIALOG___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDF0270)
+#define MIHOYO_SDK_CONSOLE_PS4BINDRESULTDIALOG___C__DISPLAYCLASS11_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1BDF0E90)
 
 namespace MiHoYo::SDK::Console
 {
-	inline static constexpr unsigned int PS4BindResultDialog___c__DisplayClass11_0_TypeDefinitionIndex = 8961;
+	inline static constexpr unsigned int PS4BindResultDialog___c__DisplayClass11_0_TypeDefinitionIndex = 9022;
 
 	class PS4BindResultDialog___c__DisplayClass11_0 : public ::System::Object
 	{

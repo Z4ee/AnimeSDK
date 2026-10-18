@@ -4,9 +4,9 @@
 
 class Class_2_5014C1D05DF4029A;
 
-#define CLASS_2_89A568F03F22D371_2__CTOR_OFFSET UNITYSDK_OFFSET(0x1A8C3DA0)
+#define CLASS_2_89A568F03F22D371_2__CTOR_OFFSET UNITYSDK_OFFSET(0x15C06E00)
 
-inline static constexpr unsigned int Class_2_89A568F03F22D371_2_TypeDefinitionIndex = 75416;
+inline static constexpr unsigned int Class_2_89A568F03F22D371_2_TypeDefinitionIndex = 75831;
 
 class Class_2_89A568F03F22D371_2 : public ::RPG::Client::RoadRash::CarControlConfig_1<::Class_2_5014C1D05DF4029A*>
 {

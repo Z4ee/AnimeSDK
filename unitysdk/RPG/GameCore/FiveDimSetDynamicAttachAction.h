@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIVEDIMSETDYNAMICATTACHACTION_METHOD_3_04B76EDE182844F0_OFFSET UNITYSDK_OFFSET(0x1D878A60)
-#define RPG_GAMECORE_FIVEDIMSETDYNAMICATTACHACTION_METHOD_3_7ABA1531DC9270CD_OFFSET UNITYSDK_OFFSET(0x1D878A20)
-#define RPG_GAMECORE_FIVEDIMSETDYNAMICATTACHACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D878A50)
+#define RPG_GAMECORE_FIVEDIMSETDYNAMICATTACHACTION_METHOD_4_8A8AAD319AF57E27_OFFSET UNITYSDK_OFFSET(0x1D6ABD00)
+#define RPG_GAMECORE_FIVEDIMSETDYNAMICATTACHACTION_METHOD_4_EB899CCA0AEE74D6_OFFSET UNITYSDK_OFFSET(0x1D6ABCC0)
+#define RPG_GAMECORE_FIVEDIMSETDYNAMICATTACHACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6ABCF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimSetDynamicAttachAction_TypeDefinitionIndex = 18550;
+	inline static constexpr unsigned int FiveDimSetDynamicAttachAction_TypeDefinitionIndex = 18760;
 
 	class FiveDimSetDynamicAttachAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
@@ -26,14 +26,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMSETDYNAMICATTACHACTION__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_7ABA1531DC9270CD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimSetDynamicAttachAction*& a2)
+		static ::System::Void Method_4_EB899CCA0AEE74D6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimSetDynamicAttachAction*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimSetDynamicAttachAction*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMSETDYNAMICATTACHACTION_METHOD_3_7ABA1531DC9270CD_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimSetDynamicAttachAction*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMSETDYNAMICATTACHACTION_METHOD_4_EB899CCA0AEE74D6_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_04B76EDE182844F0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimSetDynamicAttachAction* a2)
+		static ::System::Void Method_4_8A8AAD319AF57E27(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimSetDynamicAttachAction* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimSetDynamicAttachAction*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMSETDYNAMICATTACHACTION_METHOD_3_04B76EDE182844F0_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimSetDynamicAttachAction*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMSETDYNAMICATTACHACTION_METHOD_4_8A8AAD319AF57E27_OFFSET))(a1, a2);
 		}
 	};
 }

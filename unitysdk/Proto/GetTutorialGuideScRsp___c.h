@@ -4,20 +4,20 @@
 
 namespace Proto { class GetTutorialGuideScRsp; }
 
-#define PROTO_GETTUTORIALGUIDESCRSP___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DD3BC80)
-#define PROTO_GETTUTORIALGUIDESCRSP___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD3BCB0)
-#define PROTO_GETTUTORIALGUIDESCRSP___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1DD3BCC0)
+#define PROTO_GETTUTORIALGUIDESCRSP___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DFCCEE0)
+#define PROTO_GETTUTORIALGUIDESCRSP___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1DFCCF10)
+#define PROTO_GETTUTORIALGUIDESCRSP___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1DFCCF20)
 
 namespace Proto
 {
-	inline static constexpr unsigned int GetTutorialGuideScRsp___c_TypeDefinitionIndex = 34383;
+	inline static constexpr unsigned int GetTutorialGuideScRsp___c_TypeDefinitionIndex = 35047;
 
 	class GetTutorialGuideScRsp___c : public ::System::Object
 	{
 	public:
 		static ::Proto::GetTutorialGuideScRsp___c** StaticGet___9()
 		{
-			return (::Proto::GetTutorialGuideScRsp___c**)Il2CppClass::FromTypeDefinitionIndex(GetTutorialGuideScRsp___c_TypeDefinitionIndex)->GetStaticField(0x5B5F0);
+			return (::Proto::GetTutorialGuideScRsp___c**)Il2CppClass::FromTypeDefinitionIndex(GetTutorialGuideScRsp___c_TypeDefinitionIndex)->GetStaticField(0x4B6C0);
 		}
 
 		static ::System::Void _cctor()

@@ -3,25 +3,25 @@
 #include "unitysdk/RPG/Client/FateRin/BaseViewModel.h"
 #include "unitysdk/RPG/Client/TextID.h"
 
-class Class_1_3E8412A97A3D0DF7;
+class Class_1_3E8412A97A3D0DF7_2;
 namespace System { class String; }
 
-#define RPG_CLIENT_FATERIN_FATERINEXTRAEFFECTVIEWMODEL_GET_DESC_OFFSET UNITYSDK_OFFSET(0x1B5A3980)
-#define RPG_CLIENT_FATERIN_FATERINEXTRAEFFECTVIEWMODEL_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1B5A3920)
-#define RPG_CLIENT_FATERIN_FATERINEXTRAEFFECTVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5A38A0)
+#define RPG_CLIENT_FATERIN_FATERINEXTRAEFFECTVIEWMODEL_GET_DESC_OFFSET UNITYSDK_OFFSET(0xCF99D10)
+#define RPG_CLIENT_FATERIN_FATERINEXTRAEFFECTVIEWMODEL_GET_NAME_OFFSET UNITYSDK_OFFSET(0xCF99CB0)
+#define RPG_CLIENT_FATERIN_FATERINEXTRAEFFECTVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xCF99C30)
 
 namespace RPG::Client::FateRin
 {
-	inline static constexpr unsigned int FateRinExtraEffectViewModel_TypeDefinitionIndex = 79302;
+	inline static constexpr unsigned int FateRinExtraEffectViewModel_TypeDefinitionIndex = 80626;
 
 	class FateRinExtraEffectViewModel : public ::RPG::Client::FateRin::BaseViewModel
 	{
 	public:
-		::Class_1_3E8412A97A3D0DF7* _Model; // 0x20
+		::Class_1_3E8412A97A3D0DF7_2* _Model; // 0x20
 
-		::System::Void _ctor(::Class_1_3E8412A97A3D0DF7* a1)
+		::System::Void _ctor(::Class_1_3E8412A97A3D0DF7_2* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_3E8412A97A3D0DF7*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_FATERINEXTRAEFFECTVIEWMODEL__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Class_1_3E8412A97A3D0DF7_2*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_FATERINEXTRAEFFECTVIEWMODEL__CTOR_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::TextID get_Name()

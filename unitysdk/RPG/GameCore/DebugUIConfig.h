@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_DEBUGUICONFIG_METHOD_2_A56C048941E5BE52_OFFSET UNITYSDK_OFFSET(0x1D811590)
-#define RPG_GAMECORE_DEBUGUICONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D811770)
+#define RPG_GAMECORE_DEBUGUICONFIG_METHOD_2_A56C048941E5BE52_OFFSET UNITYSDK_OFFSET(0x1D5C92B0)
+#define RPG_GAMECORE_DEBUGUICONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5C9490)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DebugUIConfig_TypeDefinitionIndex = 16284;
+	inline static constexpr unsigned int DebugUIConfig_TypeDefinitionIndex = 16457;
 
 	class DebugUIConfig : public ::RPG::GameCore::JsonConfig
 	{

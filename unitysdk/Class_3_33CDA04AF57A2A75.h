@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetImmediateAction; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_33CDA04AF57A2A75_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x163E6CA0)
-#define CLASS_3_33CDA04AF57A2A75__CTOR_OFFSET UNITYSDK_OFFSET(0x163E6C70)
+#define CLASS_3_33CDA04AF57A2A75_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC215620)
+#define CLASS_3_33CDA04AF57A2A75__CTOR_OFFSET UNITYSDK_OFFSET(0xC2155F0)
 
-inline static constexpr unsigned int Class_3_33CDA04AF57A2A75_TypeDefinitionIndex = 55713;
+inline static constexpr unsigned int Class_3_33CDA04AF57A2A75_TypeDefinitionIndex = 55521;
 
 class Class_3_33CDA04AF57A2A75 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetImmediateAction*>
 {

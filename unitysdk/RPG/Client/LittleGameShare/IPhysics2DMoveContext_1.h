@@ -5,7 +5,7 @@ namespace Entitas { template <typename T> class IMatcher_1; }
 
 namespace RPG::Client::LittleGameShare
 {
-	inline static constexpr unsigned int IPhysics2DMoveContext_1_TypeDefinitionIndex = 36349;
+	inline static constexpr unsigned int IPhysics2DMoveContext_1_TypeDefinitionIndex = 37040;
 
 	template <typename TEntity>
 	class IPhysics2DMoveContext_1

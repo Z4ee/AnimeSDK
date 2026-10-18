@@ -4,20 +4,20 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_CLOUDSAVEIMAGEMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1A9730)
+#define MIHOYO_SDK_CLOUDSAVEIMAGEMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC1FEE0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int CloudSaveImageModel_TypeDefinitionIndex = 8025;
+	inline static constexpr unsigned int CloudSaveImageModel_TypeDefinitionIndex = 8068;
 
 	class CloudSaveImageModel : public ::System::Object
 	{
 	public:
-		::System::String* imageName; // 0x10
-		::System::String* imageData; // 0x18
-		::System::Int32 totalPart; // 0x20
-		::System::Int32 callbackIndex; // 0x24
-		::System::Int32 imageSize; // 0x28
+		::System::String* imageData; // 0x10
+		::System::String* imageName; // 0x18
+		::System::Int32 imageSize; // 0x20
+		::System::Int32 totalPart; // 0x24
+		::System::Int32 callbackIndex; // 0x28
 
 		::System::Void _ctor()
 		{

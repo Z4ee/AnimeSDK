@@ -4,19 +4,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_GRIDFIGHTROLEGAMEREFCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3B5030)
-#define RPG_GAMECORE_GRIDFIGHTROLEGAMEREFCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3B51C0)
+#define RPG_GAMECORE_GRIDFIGHTROLEGAMEREFCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D70FF40)
+#define RPG_GAMECORE_GRIDFIGHTROLEGAMEREFCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7100D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightRoleGameRefConfigRow_TypeDefinitionIndex = 13442;
+	inline static constexpr unsigned int GridFightRoleGameRefConfigRow_TypeDefinitionIndex = 13549;
 
 	class GridFightRoleGameRefConfigRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 RoleID; // 0x10
-		::System::Int32 RoleInGameRefScore; // 0x14
-		::System::UInt32 SeasonID; // 0x18
+		::System::UInt32 SeasonID; // 0x10
+		::System::UInt32 RoleID; // 0x14
+		::System::Int32 RoleInGameRefScore; // 0x18
 
 		::System::Void _ctor()
 		{

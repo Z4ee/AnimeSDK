@@ -8,15 +8,15 @@ namespace RPG::Client { class CustomButton_VoidDelegate; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace UnityEngine { class GameObject; }
-template <typename T> class Class_0_16E4307DCC419505_320;
+template <typename T> class Class_0_16E4307DCC419505_399;
 
-inline static constexpr unsigned int Class_1_175DF472994638D1_Class_1_4554F60E8CACB6D0_TypeDefinitionIndex = 50216;
+inline static constexpr unsigned int Class_1_175DF472994638D1_Class_1_4554F60E8CACB6D0_TypeDefinitionIndex = 49879;
 
 template <typename TViewModel>
 class Class_1_175DF472994638D1_Class_1_4554F60E8CACB6D0 : public ::System::Object
 {
 public:
-	::System::Func_2<TViewModel, ::Class_0_16E4307DCC419505_320<::UnityEngine::GameObject*>*>* LMDHPABCOAB; // 0x0
+	::System::Func_2<TViewModel, ::Class_0_16E4307DCC419505_399<::UnityEngine::GameObject*>*>* LMDHPABCOAB; // 0x0
 	::System::Action_2<::RPG::Client::AnimatorButton*, ::RPG::Client::CustomButton_VoidDelegate*>* DBCJCOGGODF; // 0x0
 	::System::Action_2<::RPG::Client::AnimatorButton*, ::RPG::Client::CustomButton_VoidDelegate*>* GBMLHDDJMJM; // 0x0
 };

@@ -5,10 +5,10 @@
 class HipplenBuilderActivityAsset_Activity;
 class HipplenBuilderUIMan;
 
-#define HIPPLENBUILDERUIMAN___C__DISPLAYCLASS52_0__CREATEACTIVITYITEM_B__0_OFFSET UNITYSDK_OFFSET(0x18DD94A0)
-#define HIPPLENBUILDERUIMAN___C__DISPLAYCLASS52_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18DD8B60)
+#define HIPPLENBUILDERUIMAN___C__DISPLAYCLASS52_0__CREATEACTIVITYITEM_B__0_OFFSET UNITYSDK_OFFSET(0x15DE8C60)
+#define HIPPLENBUILDERUIMAN___C__DISPLAYCLASS52_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15DE8320)
 
-inline static constexpr unsigned int HipplenBuilderUIMan___c__DisplayClass52_0_TypeDefinitionIndex = 47679;
+inline static constexpr unsigned int HipplenBuilderUIMan___c__DisplayClass52_0_TypeDefinitionIndex = 47219;
 
 class HipplenBuilderUIMan___c__DisplayClass52_0 : public ::System::Object
 {

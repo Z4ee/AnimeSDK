@@ -5,10 +5,10 @@
 
 namespace RPG::GameCore { class FloorCustomFloatConfig; }
 
-#define CLASS_3_DEDE2BB5E33D1535_ISVALUEEQUALSTO_OFFSET UNITYSDK_OFFSET(0x1524F0D0)
-#define CLASS_3_DEDE2BB5E33D1535__CTOR_OFFSET UNITYSDK_OFFSET(0x1524EFE0)
+#define CLASS_3_DEDE2BB5E33D1535_ISVALUEEQUALSTO_OFFSET UNITYSDK_OFFSET(0xC2E4C10)
+#define CLASS_3_DEDE2BB5E33D1535__CTOR_OFFSET UNITYSDK_OFFSET(0xC2E4B20)
 
-inline static constexpr unsigned int Class_3_DEDE2BB5E33D1535_TypeDefinitionIndex = 62169;
+inline static constexpr unsigned int Class_3_DEDE2BB5E33D1535_TypeDefinitionIndex = 62085;
 
 class Class_3_DEDE2BB5E33D1535 : public ::RPG::Client::FloorCustomValue_1<::RPG::GameCore::FixPoint>
 {

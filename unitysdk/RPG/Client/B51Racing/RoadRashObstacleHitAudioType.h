@@ -3,7 +3,7 @@
 
 namespace RPG::Client::B51Racing
 {
-	inline static constexpr unsigned int RoadRashObstacleHitAudioType_TypeDefinitionIndex = 80351;
+	inline static constexpr unsigned int RoadRashObstacleHitAudioType_TypeDefinitionIndex = 81679;
 
 	enum class RoadRashObstacleHitAudioType : ::System::Int32
 	{

@@ -7,7 +7,7 @@ namespace RPG::GameCore { class MazeBuffData; }
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AvatarGlobalBuffData_TypeDefinitionIndex = 57755;
+	inline static constexpr unsigned int AvatarGlobalBuffData_TypeDefinitionIndex = 57601;
 
 	struct alignas(8) AvatarGlobalBuffData
 	{

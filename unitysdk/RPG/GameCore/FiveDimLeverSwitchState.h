@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimLeverSwitchState_TypeDefinitionIndex = 18338;
+	inline static constexpr unsigned int FiveDimLeverSwitchState_TypeDefinitionIndex = 18553;
 
 	enum class FiveDimLeverSwitchState : ::System::Int32
 	{

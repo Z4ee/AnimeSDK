@@ -7,29 +7,29 @@ namespace System { template <typename T> class Action_1; }
 namespace UnityEngine::Rendering { class DebugUI_Widget; }
 namespace UnityEngine::Rendering::UI { class DebugUIHandlerPanel; }
 
-#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERCANVAS___C__ACTIVATEPANEL_B__14_0_OFFSET UNITYSDK_OFFSET(0x1DE2C350)
-#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERCANVAS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DE2C2E0)
-#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERCANVAS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1DE2C320)
-#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERCANVAS___C__REBUILD_B__11_0_OFFSET UNITYSDK_OFFSET(0x1DE2C330)
+#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERCANVAS___C__ACTIVATEPANEL_B__14_0_OFFSET UNITYSDK_OFFSET(0x1F2A3370)
+#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERCANVAS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F2A3300)
+#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERCANVAS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1F2A3340)
+#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERCANVAS___C__REBUILD_B__11_0_OFFSET UNITYSDK_OFFSET(0x1F2A3350)
 
 namespace UnityEngine::Rendering::UI
 {
-	inline static constexpr unsigned int DebugUIHandlerCanvas___c_TypeDefinitionIndex = 35007;
+	inline static constexpr unsigned int DebugUIHandlerCanvas___c_TypeDefinitionIndex = 35676;
 
 	class DebugUIHandlerCanvas___c : public ::System::Object
 	{
 	public:
+		static ::UnityEngine::Rendering::UI::DebugUIHandlerCanvas___c** StaticGet___9()
+		{
+			return (::UnityEngine::Rendering::UI::DebugUIHandlerCanvas___c**)Il2CppClass::FromTypeDefinitionIndex(DebugUIHandlerCanvas___c_TypeDefinitionIndex)->GetStaticField(0x5C420);
+		}
 		static ::System::Func_2<::UnityEngine::Rendering::DebugUI_Widget*, ::System::Boolean>** StaticGet___9__11_0()
 		{
-			return (::System::Func_2<::UnityEngine::Rendering::DebugUI_Widget*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(DebugUIHandlerCanvas___c_TypeDefinitionIndex)->GetStaticField(0x45540);
+			return (::System::Func_2<::UnityEngine::Rendering::DebugUI_Widget*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(DebugUIHandlerCanvas___c_TypeDefinitionIndex)->GetStaticField(0x5C428);
 		}
 		static ::System::Action_1<::UnityEngine::Rendering::UI::DebugUIHandlerPanel*>** StaticGet___9__14_0()
 		{
-			return (::System::Action_1<::UnityEngine::Rendering::UI::DebugUIHandlerPanel*>**)Il2CppClass::FromTypeDefinitionIndex(DebugUIHandlerCanvas___c_TypeDefinitionIndex)->GetStaticField(0x45548);
-		}
-		static ::UnityEngine::Rendering::UI::DebugUIHandlerCanvas___c** StaticGet___9()
-		{
-			return (::UnityEngine::Rendering::UI::DebugUIHandlerCanvas___c**)Il2CppClass::FromTypeDefinitionIndex(DebugUIHandlerCanvas___c_TypeDefinitionIndex)->GetStaticField(0x45550);
+			return (::System::Action_1<::UnityEngine::Rendering::UI::DebugUIHandlerPanel*>**)Il2CppClass::FromTypeDefinitionIndex(DebugUIHandlerCanvas___c_TypeDefinitionIndex)->GetStaticField(0x5C430);
 		}
 
 		static ::System::Void _cctor()

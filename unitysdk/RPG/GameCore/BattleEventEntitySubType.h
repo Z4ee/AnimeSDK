@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleEventEntitySubType_TypeDefinitionIndex = 10424;
+	inline static constexpr unsigned int BattleEventEntitySubType_TypeDefinitionIndex = 10439;
 
 	enum class BattleEventEntitySubType : ::System::Int32
 	{

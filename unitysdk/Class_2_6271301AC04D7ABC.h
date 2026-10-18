@@ -8,10 +8,10 @@ class Class_2_D84B4578A743B6D7;
 namespace RPG::GameCore { class DiceCombatTaskConfig_MarkRecommendDiceEX; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_6271301AC04D7ABC_METHOD_2_33E2FA8E6403B93D_OFFSET UNITYSDK_OFFSET(0x19D50410)
-#define CLASS_2_6271301AC04D7ABC__CTOR_OFFSET UNITYSDK_OFFSET(0x19D50220)
+#define CLASS_2_6271301AC04D7ABC_METHOD_2_33E2FA8E6403B93D_OFFSET UNITYSDK_OFFSET(0x1C7C68B0)
+#define CLASS_2_6271301AC04D7ABC__CTOR_OFFSET UNITYSDK_OFFSET(0x1C7C66C0)
 
-inline static constexpr unsigned int Class_2_6271301AC04D7ABC_TypeDefinitionIndex = 35604;
+inline static constexpr unsigned int Class_2_6271301AC04D7ABC_TypeDefinitionIndex = 36291;
 
 class Class_2_6271301AC04D7ABC : public ::Class_1_B55037134F9E6688
 {

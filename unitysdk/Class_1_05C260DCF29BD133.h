@@ -5,9 +5,9 @@
 class Class_1_426391BD841CEF9C;
 namespace RPG::Client::FateRin { class CardStateChangeContext; }
 
-#define CLASS_1_05C260DCF29BD133__CTOR_OFFSET UNITYSDK_OFFSET(0x163EC4B0)
+#define CLASS_1_05C260DCF29BD133__CTOR_OFFSET UNITYSDK_OFFSET(0xC21C8D0)
 
-inline static constexpr unsigned int Class_1_05C260DCF29BD133_TypeDefinitionIndex = 79220;
+inline static constexpr unsigned int Class_1_05C260DCF29BD133_TypeDefinitionIndex = 80544;
 
 class Class_1_05C260DCF29BD133 : public ::System::Object
 {

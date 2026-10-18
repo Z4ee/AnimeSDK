@@ -4,22 +4,22 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define CLASS_1_AD8F43CFA051369E_METHOD_1_1F29F81CADD13A09_OFFSET UNITYSDK_OFFSET(0x1D83B570)
-#define CLASS_1_AD8F43CFA051369E__CTOR_OFFSET UNITYSDK_OFFSET(0x1D83B8F0)
+#define CLASS_1_AD8F43CFA051369E_METHOD_1_1F29F81CADD13A09_OFFSET UNITYSDK_OFFSET(0x1CCB9360)
+#define CLASS_1_AD8F43CFA051369E__CTOR_OFFSET UNITYSDK_OFFSET(0x1CCB96E0)
 
-inline static constexpr unsigned int Class_1_AD8F43CFA051369E_TypeDefinitionIndex = 11272;
+inline static constexpr unsigned int Class_1_AD8F43CFA051369E_TypeDefinitionIndex = 11288;
 
 class Class_1_AD8F43CFA051369E : public ::System::Object
 {
 public:
 	::Il2CppArray<::System::UInt32>* DJGJIPEMIGE; // 0x10
-	::Il2CppArray<::System::UInt32>* KLGMFBFNALH; // 0x18
-	::Il2CppArray<::System::UInt32>* JPOEFHLLNIK; // 0x20
-	::Il2CppArray<::System::UInt32>* OGDLLCOBDNB; // 0x28
+	::Il2CppArray<::System::UInt32>* AANFAMJILOB; // 0x18
+	::Il2CppArray<::System::UInt32>* ENIJMCCMFFJ; // 0x20
+	::Il2CppArray<::System::UInt32>* HDJGBKABEKF; // 0x28
 	::Il2CppArray<::System::UInt32>* NOIDIGCCPEJ; // 0x30
-	::Il2CppArray<::System::UInt32>* AANFAMJILOB; // 0x38
-	::Il2CppArray<::System::UInt32>* ENIJMCCMFFJ; // 0x40
-	::Il2CppArray<::System::UInt32>* HDJGBKABEKF; // 0x48
+	::Il2CppArray<::System::UInt32>* JPOEFHLLNIK; // 0x38
+	::Il2CppArray<::System::UInt32>* OGDLLCOBDNB; // 0x40
+	::Il2CppArray<::System::UInt32>* KLGMFBFNALH; // 0x48
 	::System::UInt32 OGMFNGPLDOB; // 0x50
 
 	::System::Void _ctor()

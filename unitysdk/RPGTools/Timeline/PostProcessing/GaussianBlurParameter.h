@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/CustomRP/GaussianBlurGradual.h"
 #include "unitysdk/System/ValueType.h"
 
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_GAUSSIANBLURPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x3B77EE0)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_GAUSSIANBLURPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0xF8CB0)
 
 namespace RPGTools::Timeline::PostProcessing
 {
-	inline static constexpr unsigned int GaussianBlurParameter_TypeDefinitionIndex = 49026;
+	inline static constexpr unsigned int GaussianBlurParameter_TypeDefinitionIndex = 48572;
 
 	struct alignas(4) GaussianBlurParameter
 	{

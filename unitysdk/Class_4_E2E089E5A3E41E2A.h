@@ -12,24 +12,24 @@ namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define CLASS_4_E2E089E5A3E41E2A_GETDYNAMICKEY_OFFSET UNITYSDK_OFFSET(0x1A3EB8E0)
-#define CLASS_4_E2E089E5A3E41E2A_METHOD_4_8A8F5F95C1040BAA_OFFSET UNITYSDK_OFFSET(0x1A3EB480)
-#define CLASS_4_E2E089E5A3E41E2A_METHOD_4_9CD365AE07B8A27E_OFFSET UNITYSDK_OFFSET(0x1A3EB5C0)
-#define CLASS_4_E2E089E5A3E41E2A__CTOR_OFFSET UNITYSDK_OFFSET(0x1A3EB530)
+#define CLASS_4_E2E089E5A3E41E2A_GETDYNAMICKEY_OFFSET UNITYSDK_OFFSET(0x1DBDDD30)
+#define CLASS_4_E2E089E5A3E41E2A_METHOD_4_8A8F5F95C1040BAA_OFFSET UNITYSDK_OFFSET(0x1DBDD8D0)
+#define CLASS_4_E2E089E5A3E41E2A_METHOD_4_9CD365AE07B8A27E_OFFSET UNITYSDK_OFFSET(0x1DBDDA10)
+#define CLASS_4_E2E089E5A3E41E2A__CTOR_OFFSET UNITYSDK_OFFSET(0x1DBDD980)
 
-inline static constexpr unsigned int Class_4_E2E089E5A3E41E2A_TypeDefinitionIndex = 23925;
+inline static constexpr unsigned int Class_4_E2E089E5A3E41E2A_TypeDefinitionIndex = 24200;
 
 class Class_4_E2E089E5A3E41E2A : public ::RPG::GameCore::SetDynamicValueBase
 {
 public:
 	::RPG::GameCore::DynamicString* IFNAGLOMHBK; // 0x18
-	::RPG::GameCore::TargetEvaluator* OLPAJJAEEHH; // 0x20
+	::Il2CppArray<::RPG::GameCore::DynamicFloat*>* CAAJDHDLEHI; // 0x20
 	::RPG::GameCore::DynamicFloat* PBLCIKOCKPB; // 0x28
-	::Il2CppArray<::RPG::GameCore::DynamicFloat*>* CAAJDHDLEHI; // 0x30
+	::RPG::GameCore::TargetEvaluator* OLPAJJAEEHH; // 0x30
 	::System::String* FHLJGDGMMHK; // 0x38
 	::RPG::GameCore::NumOperationType PLPPPCEPBDO; // 0x40
-	::RPG::GameCore::DynamicValueContextScope AMEKHLANFKP; // 0x44
-	::RPG::GameCore::RtModifierPropertyType FODBMMCKAEN; // 0x48
+	::RPG::GameCore::RtModifierPropertyType FODBMMCKAEN; // 0x44
+	::RPG::GameCore::DynamicValueContextScope AMEKHLANFKP; // 0x48
 
 	::System::Void _ctor()
 	{

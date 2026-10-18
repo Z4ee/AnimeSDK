@@ -6,9 +6,9 @@ namespace RPG::GameCore { class MatchThreeScoreCurveRow; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_46D0E2083D210D6D__CTOR_OFFSET UNITYSDK_OFFSET(0x1BAB52D0)
+#define CLASS_1_46D0E2083D210D6D__CTOR_OFFSET UNITYSDK_OFFSET(0x1C8FC930)
 
-inline static constexpr unsigned int Class_1_46D0E2083D210D6D_TypeDefinitionIndex = 40966;
+inline static constexpr unsigned int Class_1_46D0E2083D210D6D_TypeDefinitionIndex = 42251;
 
 class Class_1_46D0E2083D210D6D : public ::System::Object
 {

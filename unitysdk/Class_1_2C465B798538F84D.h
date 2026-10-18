@@ -5,18 +5,18 @@
 namespace System { class String; }
 namespace UnityEngine { class Renderer; }
 
-#define CLASS_1_2C465B798538F84D_METHOD_1_479759059E440327_OFFSET UNITYSDK_OFFSET(0x1887D430)
-#define CLASS_1_2C465B798538F84D_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1887D4D0)
-#define CLASS_1_2C465B798538F84D__CTOR_OFFSET UNITYSDK_OFFSET(0x1887D3D0)
+#define CLASS_1_2C465B798538F84D_METHOD_1_479759059E440327_OFFSET UNITYSDK_OFFSET(0xB2735C0)
+#define CLASS_1_2C465B798538F84D_TOSTRING_OFFSET UNITYSDK_OFFSET(0xB273660)
+#define CLASS_1_2C465B798538F84D__CTOR_OFFSET UNITYSDK_OFFSET(0xB273560)
 
-inline static constexpr unsigned int Class_1_2C465B798538F84D_TypeDefinitionIndex = 70142;
+inline static constexpr unsigned int Class_1_2C465B798538F84D_TypeDefinitionIndex = 70178;
 
 class Class_1_2C465B798538F84D : public ::System::Object
 {
 public:
 	::UnityEngine::Renderer* JAMDAALMOAL; // 0x10
-	::System::Int32 LAPPEBCGDEG; // 0x18
-	::System::Single NEHMFKCDKDI; // 0x1C
+	::System::Single NEHMFKCDKDI; // 0x18
+	::System::Int32 LAPPEBCGDEG; // 0x1C
 	::System::Single NHGFCDCCBNL; // 0x20
 
 	::System::Void _ctor(::UnityEngine::Renderer* a1, ::System::String* a2, ::System::Single a3)

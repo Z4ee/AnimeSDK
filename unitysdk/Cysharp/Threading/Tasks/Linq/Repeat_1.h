@@ -7,7 +7,7 @@ namespace Cysharp::Threading::Tasks { template <typename T> class IUniTaskAsyncE
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int Repeat_1_TypeDefinitionIndex = 44405;
+	inline static constexpr unsigned int Repeat_1_TypeDefinitionIndex = 45544;
 
 	template <typename TElement>
 	class Repeat_1 : public ::System::Object

@@ -7,20 +7,20 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_EMOJIGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D7BB740)
-#define RPG_GAMECORE_EMOJIGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7BBE20)
+#define RPG_GAMECORE_EMOJIGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D60F9C0)
+#define RPG_GAMECORE_EMOJIGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6100A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EmojiGroupRow_TypeDefinitionIndex = 13116;
+	inline static constexpr unsigned int EmojiGroupRow_TypeDefinitionIndex = 13222;
 
 	class EmojiGroupRow : public ::System::Object
 	{
 	public:
 		::System::String* ImgPath; // 0x10
-		::System::UInt32 EmojiGroupID; // 0x18
-		::RPG::GameCore::EmojiGroupTypeEnum EmojiGroupType; // 0x1C
-		::RPG::Client::TextID GroupName; // 0x20
+		::RPG::Client::TextID GroupName; // 0x18
+		::RPG::GameCore::EmojiGroupTypeEnum EmojiGroupType; // 0x28
+		::System::UInt32 EmojiGroupID; // 0x2C
 
 		::System::Void _ctor()
 		{

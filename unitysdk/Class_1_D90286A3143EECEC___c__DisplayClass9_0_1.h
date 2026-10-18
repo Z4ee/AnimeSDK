@@ -4,7 +4,7 @@
 
 namespace System { template <typename T> class Func_1; }
 
-inline static constexpr unsigned int Class_1_D90286A3143EECEC___c__DisplayClass9_0_1_TypeDefinitionIndex = 42443;
+inline static constexpr unsigned int Class_1_D90286A3143EECEC___c__DisplayClass9_0_1_TypeDefinitionIndex = 44249;
 
 template <typename TViewModel, typename TMessage>
 class Class_1_D90286A3143EECEC___c__DisplayClass9_0_1 : public ::System::Object

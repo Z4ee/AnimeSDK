@@ -7,13 +7,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class SmellPathEdge; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PROPSMELLPATHCOMPONENT_METHOD_3_C202060F4C38A359_OFFSET UNITYSDK_OFFSET(0x1D1852A0)
-#define RPG_GAMECORE_PROPSMELLPATHCOMPONENT_METHOD_3_DF63B75236DD757E_OFFSET UNITYSDK_OFFSET(0x1D185210)
-#define RPG_GAMECORE_PROPSMELLPATHCOMPONENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D185270)
+#define RPG_GAMECORE_PROPSMELLPATHCOMPONENT_METHOD_3_04614BF7AAC5D207_OFFSET UNITYSDK_OFFSET(0x1D9297C0)
+#define RPG_GAMECORE_PROPSMELLPATHCOMPONENT_METHOD_3_E1D0F8A1E2102BCE_OFFSET UNITYSDK_OFFSET(0x1D929860)
+#define RPG_GAMECORE_PROPSMELLPATHCOMPONENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D929830)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropSmellPathComponent_TypeDefinitionIndex = 17368;
+	inline static constexpr unsigned int PropSmellPathComponent_TypeDefinitionIndex = 17579;
 
 	class PropSmellPathComponent : public ::RPG::GameCore::PropTagComponent
 	{
@@ -38,14 +38,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPSMELLPATHCOMPONENT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_DF63B75236DD757E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropSmellPathComponent*& a2)
+		static ::System::Void Method_3_04614BF7AAC5D207(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropSmellPathComponent*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropSmellPathComponent*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPSMELLPATHCOMPONENT_METHOD_3_DF63B75236DD757E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropSmellPathComponent*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPSMELLPATHCOMPONENT_METHOD_3_04614BF7AAC5D207_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_C202060F4C38A359(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropSmellPathComponent* a2)
+		static ::System::Void Method_3_E1D0F8A1E2102BCE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropSmellPathComponent* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropSmellPathComponent*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPSMELLPATHCOMPONENT_METHOD_3_C202060F4C38A359_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropSmellPathComponent*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPSMELLPATHCOMPONENT_METHOD_3_E1D0F8A1E2102BCE_OFFSET))(a1, a2);
 		}
 	};
 }

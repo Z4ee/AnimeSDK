@@ -1,0 +1,35 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_0_16E4307DCC419505_954;
+namespace RPG::Client { class GridFightTrait; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define CLASS_1_92E9F3B4488308D9_1_METHOD_1_5236A16DF83B87FA_OFFSET UNITYSDK_OFFSET(0xB854720)
+#define CLASS_1_92E9F3B4488308D9_1_METHOD_1_95A0E0610BE8317B_OFFSET UNITYSDK_OFFSET(0xB854D90)
+#define CLASS_1_92E9F3B4488308D9_1__CTOR_OFFSET UNITYSDK_OFFSET(0xB854710)
+
+inline static constexpr unsigned int Class_1_92E9F3B4488308D9_1_TypeDefinitionIndex = 65458;
+
+class Class_1_92E9F3B4488308D9_1 : public ::System::Object
+{
+public:
+	::Class_0_16E4307DCC419505_954* BABBJILOOAL; // 0x10
+	::System::UInt32 FKFJBEKKKNI; // 0x18
+
+	::System::Void _ctor(::System::UInt32 a1, ::Class_0_16E4307DCC419505_954* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32, ::Class_0_16E4307DCC419505_954*))((::PBYTE)hIl2Cpp + CLASS_1_92E9F3B4488308D9_1__CTOR_OFFSET))(this, a1, a2);
+	}
+
+	::System::Collections::Generic::List_1<::RPG::Client::GridFightTrait*>* Method_1_5236A16DF83B87FA()
+	{
+		return ((::System::Collections::Generic::List_1<::RPG::Client::GridFightTrait*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_92E9F3B4488308D9_1_METHOD_1_5236A16DF83B87FA_OFFSET))(this);
+	}
+
+	::RPG::Client::GridFightTrait* Method_1_95A0E0610BE8317B(::System::UInt32 a1)
+	{
+		return ((::RPG::Client::GridFightTrait*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_92E9F3B4488308D9_1_METHOD_1_95A0E0610BE8317B_OFFSET))(this, a1);
+	}
+};

@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define XLUA_XLUATABLEOPTIMIZEARRAYSETREGISTRATIONATTRIBUTE_GET_TYPEFULLNAME_OFFSET UNITYSDK_OFFSET(0xCDFAED0)
-#define XLUA_XLUATABLEOPTIMIZEARRAYSETREGISTRATIONATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0xCDFAEE0)
+#define XLUA_XLUATABLEOPTIMIZEARRAYSETREGISTRATIONATTRIBUTE_GET_TYPEFULLNAME_OFFSET UNITYSDK_OFFSET(0x153CC400)
+#define XLUA_XLUATABLEOPTIMIZEARRAYSETREGISTRATIONATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x153CC410)
 
 namespace XLua
 {
-	inline static constexpr unsigned int XLuaTableOptimizeArraySetRegistrationAttribute_TypeDefinitionIndex = 50614;
+	inline static constexpr unsigned int XLuaTableOptimizeArraySetRegistrationAttribute_TypeDefinitionIndex = 50283;
 
 	class XLuaTableOptimizeArraySetRegistrationAttribute : public ::System::Attribute
 	{

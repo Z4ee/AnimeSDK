@@ -4,11 +4,11 @@
 
 namespace RPG::Client { class MiniMapZone; }
 
-#define RPG_CLIENT_UIADVENTUREMINIMAP_SECTIONHANDLE__CTOR_OFFSET UNITYSDK_OFFSET(0x6B82D0)
+#define RPG_CLIENT_UIADVENTUREMINIMAP_SECTIONHANDLE__CTOR_OFFSET UNITYSDK_OFFSET(0x140C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIAdventureMinimap_SectionHandle_TypeDefinitionIndex = 69032;
+	inline static constexpr unsigned int UIAdventureMinimap_SectionHandle_TypeDefinitionIndex = 69068;
 
 	struct alignas(8) UIAdventureMinimap_SectionHandle
 	{

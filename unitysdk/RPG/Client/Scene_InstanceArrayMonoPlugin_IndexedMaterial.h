@@ -5,11 +5,11 @@
 
 namespace UnityEngine { class Material; }
 
-#define RPG_CLIENT_SCENE_INSTANCEARRAYMONOPLUGIN_INDEXEDMATERIAL__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF677C0)
+#define RPG_CLIENT_SCENE_INSTANCEARRAYMONOPLUGIN_INDEXEDMATERIAL__CTOR_OFFSET UNITYSDK_OFFSET(0xE095FA0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Scene_InstanceArrayMonoPlugin_IndexedMaterial_TypeDefinitionIndex = 70822;
+	inline static constexpr unsigned int Scene_InstanceArrayMonoPlugin_IndexedMaterial_TypeDefinitionIndex = 70860;
 
 	class Scene_InstanceArrayMonoPlugin_IndexedMaterial : public ::System::Object
 	{

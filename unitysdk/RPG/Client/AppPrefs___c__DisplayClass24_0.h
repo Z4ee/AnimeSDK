@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_APPPREFS___C__DISPLAYCLASS24_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B322880)
-#define RPG_CLIENT_APPPREFS___C__DISPLAYCLASS24_0__UPDATERECENTSERVER_B__0_OFFSET UNITYSDK_OFFSET(0x1B322E60)
+#define RPG_CLIENT_APPPREFS___C__DISPLAYCLASS24_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC689810)
+#define RPG_CLIENT_APPPREFS___C__DISPLAYCLASS24_0__UPDATERECENTSERVER_B__0_OFFSET UNITYSDK_OFFSET(0xC689DF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AppPrefs___c__DisplayClass24_0_TypeDefinitionIndex = 59496;
+	inline static constexpr unsigned int AppPrefs___c__DisplayClass24_0_TypeDefinitionIndex = 59351;
 
 	class AppPrefs___c__DisplayClass24_0 : public ::System::Object
 	{

@@ -4,7 +4,7 @@
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int VREvent_EditingCameraSurface_t_TypeDefinitionIndex = 38002;
+	inline static constexpr unsigned int VREvent_EditingCameraSurface_t_TypeDefinitionIndex = 39299;
 
 	struct alignas(8) VREvent_EditingCameraSurface_t
 	{

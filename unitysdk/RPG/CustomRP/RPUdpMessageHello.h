@@ -6,20 +6,20 @@ namespace System { class String; }
 namespace System::IO { class BinaryReader; }
 namespace System::IO { class BinaryWriter; }
 
-#define RPG_CUSTOMRP_RPUDPMESSAGEHELLO_GETMESSAGETYPE_OFFSET UNITYSDK_OFFSET(0x185AE530)
-#define RPG_CUSTOMRP_RPUDPMESSAGEHELLO_READ_OFFSET UNITYSDK_OFFSET(0x185AE340)
-#define RPG_CUSTOMRP_RPUDPMESSAGEHELLO_WRITE_OFFSET UNITYSDK_OFFSET(0x185AE120)
-#define RPG_CUSTOMRP_RPUDPMESSAGEHELLO__CTOR_OFFSET UNITYSDK_OFFSET(0x185AE570)
+#define RPG_CUSTOMRP_RPUDPMESSAGEHELLO_GETMESSAGETYPE_OFFSET UNITYSDK_OFFSET(0x1CC375C0)
+#define RPG_CUSTOMRP_RPUDPMESSAGEHELLO_READ_OFFSET UNITYSDK_OFFSET(0x1CC373D0)
+#define RPG_CUSTOMRP_RPUDPMESSAGEHELLO_WRITE_OFFSET UNITYSDK_OFFSET(0x1CC371B0)
+#define RPG_CUSTOMRP_RPUDPMESSAGEHELLO__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC37600)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int RPUdpMessageHello_TypeDefinitionIndex = 37225;
+	inline static constexpr unsigned int RPUdpMessageHello_TypeDefinitionIndex = 37917;
 
 	class RPUdpMessageHello : public ::System::Object
 	{
 	public:
-		::System::String* deviceName; // 0x10
-		::System::String* deviceType; // 0x18
+		::System::String* deviceType; // 0x10
+		::System::String* deviceName; // 0x18
 		::System::String* devicePlatform; // 0x20
 		::System::Int32 serverPort; // 0x28
 

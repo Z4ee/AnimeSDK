@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DrawType_TypeDefinitionIndex = 13240;
+	inline static constexpr unsigned int DrawType_TypeDefinitionIndex = 13346;
 
 	enum class DrawType : ::System::Int32
 	{

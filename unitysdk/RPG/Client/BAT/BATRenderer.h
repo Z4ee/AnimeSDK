@@ -11,13 +11,13 @@ namespace RPG::Client::BAT { class BATRendererBehavior; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Camera; }
 
-#define RPG_CLIENT_BAT_BATRENDERER_GET_ARTBOUNDFULL_OFFSET UNITYSDK_OFFSET(0x19F032F0)
-#define RPG_CLIENT_BAT_BATRENDERER_GET_ARTBOUND_OFFSET UNITYSDK_OFFSET(0x19F03240)
-#define RPG_CLIENT_BAT_BATRENDERER__CTOR_OFFSET UNITYSDK_OFFSET(0x19F03420)
+#define RPG_CLIENT_BAT_BATRENDERER_GET_ARTBOUNDFULL_OFFSET UNITYSDK_OFFSET(0xC7CEE80)
+#define RPG_CLIENT_BAT_BATRENDERER_GET_ARTBOUND_OFFSET UNITYSDK_OFFSET(0xC7CEDD0)
+#define RPG_CLIENT_BAT_BATRENDERER__CTOR_OFFSET UNITYSDK_OFFSET(0xC7CEFB0)
 
 namespace RPG::Client::BAT
 {
-	inline static constexpr unsigned int BATRenderer_TypeDefinitionIndex = 73565;
+	inline static constexpr unsigned int BATRenderer_TypeDefinitionIndex = 73672;
 
 	class BATRenderer : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::BAT::BATRendererBehavior*>
 	{

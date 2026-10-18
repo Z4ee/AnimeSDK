@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int OfferingRewardType_TypeDefinitionIndex = 14183;
+	inline static constexpr unsigned int OfferingRewardType_TypeDefinitionIndex = 14290;
 
 	enum class OfferingRewardType : ::System::Int32
 	{

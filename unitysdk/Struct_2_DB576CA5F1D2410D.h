@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/GameCore/PropertyModifyFunction.h"
 #include "unitysdk/System/ValueType.h"
 
-#define STRUCT_2_DB576CA5F1D2410D_METHOD_2_7588156DD6071C11_OFFSET UNITYSDK_OFFSET(0x3AB7DA0)
+#define STRUCT_2_DB576CA5F1D2410D_METHOD_2_7588156DD6071C11_OFFSET UNITYSDK_OFFSET(0x2E80800)
 
-inline static constexpr unsigned int Struct_2_DB576CA5F1D2410D_TypeDefinitionIndex = 56151;
+inline static constexpr unsigned int Struct_2_DB576CA5F1D2410D_TypeDefinitionIndex = 55963;
 
 struct alignas(4) Struct_2_DB576CA5F1D2410D
 {

@@ -5,12 +5,12 @@
 namespace RPG::Client { class BattleGamePhase; }
 namespace RPG::Client { class BattleGamePhaseInitParams; }
 
-#define RPG_CLIENT_BATTLEGAMEPHASE___C__DISPLAYCLASS67_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19F52A80)
-#define RPG_CLIENT_BATTLEGAMEPHASE___C__DISPLAYCLASS67_0___RESTARTIMP_B__0_OFFSET UNITYSDK_OFFSET(0x19F64D90)
+#define RPG_CLIENT_BATTLEGAMEPHASE___C__DISPLAYCLASS67_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC823130)
+#define RPG_CLIENT_BATTLEGAMEPHASE___C__DISPLAYCLASS67_0___RESTARTIMP_B__0_OFFSET UNITYSDK_OFFSET(0xC834FA0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BattleGamePhase___c__DisplayClass67_0_TypeDefinitionIndex = 61067;
+	inline static constexpr unsigned int BattleGamePhase___c__DisplayClass67_0_TypeDefinitionIndex = 60970;
 
 	class BattleGamePhase___c__DisplayClass67_0 : public ::System::Object
 	{

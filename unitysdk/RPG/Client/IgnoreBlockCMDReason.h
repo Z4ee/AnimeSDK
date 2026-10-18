@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IgnoreBlockCMDReason_TypeDefinitionIndex = 69359;
+	inline static constexpr unsigned int IgnoreBlockCMDReason_TypeDefinitionIndex = 69395;
 
 	enum class IgnoreBlockCMDReason : ::System::Int32
 	{

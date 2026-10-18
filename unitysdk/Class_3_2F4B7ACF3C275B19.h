@@ -6,11 +6,11 @@ namespace RPG::GameCore { class PropComponent; }
 namespace RPG::GameCore { class PropSetupTrigger; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_2F4B7ACF3C275B19_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1B444DF0)
-#define CLASS_3_2F4B7ACF3C275B19_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1B444E80)
-#define CLASS_3_2F4B7ACF3C275B19__CTOR_OFFSET UNITYSDK_OFFSET(0x1B444DC0)
+#define CLASS_3_2F4B7ACF3C275B19_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15C811F0)
+#define CLASS_3_2F4B7ACF3C275B19_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15C81280)
+#define CLASS_3_2F4B7ACF3C275B19__CTOR_OFFSET UNITYSDK_OFFSET(0x15C811C0)
 
-inline static constexpr unsigned int Class_3_2F4B7ACF3C275B19_TypeDefinitionIndex = 58503;
+inline static constexpr unsigned int Class_3_2F4B7ACF3C275B19_TypeDefinitionIndex = 58354;
 
 class Class_3_2F4B7ACF3C275B19 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::PropSetupTrigger*>
 {

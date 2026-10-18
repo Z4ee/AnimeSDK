@@ -7,18 +7,18 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Text { class StringBuilder; }
 
-#define CLASS_1_786B812390913964_CLASS_1_D286C645543D4D03_METHOD_1_7270F3D01B9345B3_OFFSET UNITYSDK_OFFSET(0x19BFCC10)
-#define CLASS_1_786B812390913964_CLASS_1_D286C645543D4D03__CCTOR_OFFSET UNITYSDK_OFFSET(0x19BFCEF0)
-#define CLASS_1_786B812390913964_CLASS_1_D286C645543D4D03__CTOR_OFFSET UNITYSDK_OFFSET(0x19BFC730)
+#define CLASS_1_786B812390913964_CLASS_1_D286C645543D4D03_METHOD_1_7270F3D01B9345B3_OFFSET UNITYSDK_OFFSET(0x1555A890)
+#define CLASS_1_786B812390913964_CLASS_1_D286C645543D4D03__CCTOR_OFFSET UNITYSDK_OFFSET(0x1555AB70)
+#define CLASS_1_786B812390913964_CLASS_1_D286C645543D4D03__CTOR_OFFSET UNITYSDK_OFFSET(0x1555A3B0)
 
-inline static constexpr unsigned int Class_1_786B812390913964_Class_1_D286C645543D4D03_TypeDefinitionIndex = 50418;
+inline static constexpr unsigned int Class_1_786B812390913964_Class_1_D286C645543D4D03_TypeDefinitionIndex = 50047;
 
 class Class_1_786B812390913964_Class_1_D286C645543D4D03 : public ::System::Object
 {
 public:
 	static ::System::Text::StringBuilder** StaticGet_JFCLFJPCNKM()
 	{
-		return (::System::Text::StringBuilder**)Il2CppClass::FromTypeDefinitionIndex(Class_1_786B812390913964_Class_1_D286C645543D4D03_TypeDefinitionIndex)->GetStaticField(0x188A0);
+		return (::System::Text::StringBuilder**)Il2CppClass::FromTypeDefinitionIndex(Class_1_786B812390913964_Class_1_D286C645543D4D03_TypeDefinitionIndex)->GetStaticField(0x5AFE0);
 	}
 	::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::String*, ::System::Int64>>* LDGBEDOGGEP; // 0x10
 

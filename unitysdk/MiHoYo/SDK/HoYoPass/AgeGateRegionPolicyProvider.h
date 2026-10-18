@@ -7,22 +7,22 @@ namespace System { class String; }
 namespace System { template <typename T> class Func_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MIHOYO_SDK_HOYOPASS_AGEGATEREGIONPOLICYPROVIDER_GETCUSTOMDATETIMEFORMAT_OFFSET UNITYSDK_OFFSET(0x1AE7C3B0)
-#define MIHOYO_SDK_HOYOPASS_AGEGATEREGIONPOLICYPROVIDER_GETPOLICY_OFFSET UNITYSDK_OFFSET(0x1AE79E60)
-#define MIHOYO_SDK_HOYOPASS_AGEGATEREGIONPOLICYPROVIDER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1AE79DE0)
-#define MIHOYO_SDK_HOYOPASS_AGEGATEREGIONPOLICYPROVIDER_TRYGETCUSTOMDATETIMEFORMAT_OFFSET UNITYSDK_OFFSET(0x1AE7B260)
-#define MIHOYO_SDK_HOYOPASS_AGEGATEREGIONPOLICYPROVIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE7BF90)
+#define MIHOYO_SDK_HOYOPASS_AGEGATEREGIONPOLICYPROVIDER_GETCUSTOMDATETIMEFORMAT_OFFSET UNITYSDK_OFFSET(0x1BE234D0)
+#define MIHOYO_SDK_HOYOPASS_AGEGATEREGIONPOLICYPROVIDER_GETPOLICY_OFFSET UNITYSDK_OFFSET(0x1BE20F80)
+#define MIHOYO_SDK_HOYOPASS_AGEGATEREGIONPOLICYPROVIDER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1BE20F00)
+#define MIHOYO_SDK_HOYOPASS_AGEGATEREGIONPOLICYPROVIDER_TRYGETCUSTOMDATETIMEFORMAT_OFFSET UNITYSDK_OFFSET(0x1BE22380)
+#define MIHOYO_SDK_HOYOPASS_AGEGATEREGIONPOLICYPROVIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE230B0)
 
 namespace MiHoYo::SDK::HoYoPass
 {
-	inline static constexpr unsigned int AgeGateRegionPolicyProvider_TypeDefinitionIndex = 8228;
+	inline static constexpr unsigned int AgeGateRegionPolicyProvider_TypeDefinitionIndex = 8271;
 
 	class AgeGateRegionPolicyProvider : public ::System::Object
 	{
 	public:
 		static ::MiHoYo::SDK::HoYoPass::AgeGateRegionPolicyProvider** StaticGet_sm_instance()
 		{
-			return (::MiHoYo::SDK::HoYoPass::AgeGateRegionPolicyProvider**)Il2CppClass::FromTypeDefinitionIndex(AgeGateRegionPolicyProvider_TypeDefinitionIndex)->GetStaticField(0x124B0);
+			return (::MiHoYo::SDK::HoYoPass::AgeGateRegionPolicyProvider**)Il2CppClass::FromTypeDefinitionIndex(AgeGateRegionPolicyProvider_TypeDefinitionIndex)->GetStaticField(0xE8B0);
 		}
 		// static const ::System::String* CHINESE_DATETIME_FORMAT; // 0x0
 		// static const ::System::String* SPANISH_DATETIME_FORMAT; // 0x0

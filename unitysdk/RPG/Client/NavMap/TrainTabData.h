@@ -6,12 +6,12 @@ namespace RPG::Client::NavMap { class SubTabData; }
 namespace RPG::Client::NavMap { class WorldData; }
 namespace RPG::GameCore { class NavMapTabRow; }
 
-#define RPG_CLIENT_NAVMAP_TRAINTABDATA_GETDEFAULTSUBTABANDLAYER_OFFSET UNITYSDK_OFFSET(0x18269710)
-#define RPG_CLIENT_NAVMAP_TRAINTABDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x182696C0)
+#define RPG_CLIENT_NAVMAP_TRAINTABDATA_GETDEFAULTSUBTABANDLAYER_OFFSET UNITYSDK_OFFSET(0xD96C060)
+#define RPG_CLIENT_NAVMAP_TRAINTABDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xD96C010)
 
 namespace RPG::Client::NavMap
 {
-	inline static constexpr unsigned int TrainTabData_TypeDefinitionIndex = 74407;
+	inline static constexpr unsigned int TrainTabData_TypeDefinitionIndex = 74534;
 
 	class TrainTabData : public ::RPG::Client::NavMap::ComposedTabData
 	{

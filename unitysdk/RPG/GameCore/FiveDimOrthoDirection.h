@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimOrthoDirection_TypeDefinitionIndex = 18360;
+	inline static constexpr unsigned int FiveDimOrthoDirection_TypeDefinitionIndex = 18575;
 
 	enum class FiveDimOrthoDirection : ::System::Int32
 	{

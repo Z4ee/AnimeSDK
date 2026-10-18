@@ -1,12 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Struct_2_62DA72730C4B8385.h"
+#include "unitysdk/Struct_2_E70C193A39BC645E.h"
 #include "unitysdk/System/Object.h"
 
-namespace System { template <typename T1, typename T2> class Func_2; }
+namespace RPG::Client { class TabView; }
+namespace Sofa { class BaseSofaControl; }
+namespace System { class IDisposable; }
 
-inline static constexpr unsigned int Class_1_534AF681CC2BD5FD_93_TypeDefinitionIndex = 50252;
+inline static constexpr unsigned int Class_1_534AF681CC2BD5FD_93_TypeDefinitionIndex = 49808;
 
+template <typename TViewModel, typename TTabVM>
 class Class_1_534AF681CC2BD5FD_93 : public ::System::Object
 {
 public:

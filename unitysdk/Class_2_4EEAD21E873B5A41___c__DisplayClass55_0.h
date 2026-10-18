@@ -9,23 +9,23 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_2_4EEAD21E873B5A41___C__DISPLAYCLASS55_0__CTOR_OFFSET UNITYSDK_OFFSET(0x170D67D0)
-#define CLASS_2_4EEAD21E873B5A41___C__DISPLAYCLASS55_0___BUILDENTITIES_B__1_OFFSET UNITYSDK_OFFSET(0x170D86F0)
-#define CLASS_2_4EEAD21E873B5A41___C__DISPLAYCLASS55_0___BUILDENTITIES_B__2_OFFSET UNITYSDK_OFFSET(0x170D8430)
-#define CLASS_2_4EEAD21E873B5A41___C__DISPLAYCLASS55_0___BUILDENTITIES_B__3_OFFSET UNITYSDK_OFFSET(0x170D84C0)
-#define CLASS_2_4EEAD21E873B5A41___C__DISPLAYCLASS55_0___BUILDENTITIES_G__GETHIERARCHYDEPTH_0_OFFSET UNITYSDK_OFFSET(0x170D84F0)
+#define CLASS_2_4EEAD21E873B5A41___C__DISPLAYCLASS55_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBDF5650)
+#define CLASS_2_4EEAD21E873B5A41___C__DISPLAYCLASS55_0___BUILDENTITIES_B__1_OFFSET UNITYSDK_OFFSET(0xBDF75C0)
+#define CLASS_2_4EEAD21E873B5A41___C__DISPLAYCLASS55_0___BUILDENTITIES_B__2_OFFSET UNITYSDK_OFFSET(0xBDF7300)
+#define CLASS_2_4EEAD21E873B5A41___C__DISPLAYCLASS55_0___BUILDENTITIES_B__3_OFFSET UNITYSDK_OFFSET(0xBDF7390)
+#define CLASS_2_4EEAD21E873B5A41___C__DISPLAYCLASS55_0___BUILDENTITIES_G__GETHIERARCHYDEPTH_0_OFFSET UNITYSDK_OFFSET(0xBDF73C0)
 
-inline static constexpr unsigned int Class_2_4EEAD21E873B5A41___c__DisplayClass55_0_TypeDefinitionIndex = 60516;
+inline static constexpr unsigned int Class_2_4EEAD21E873B5A41___c__DisplayClass55_0_TypeDefinitionIndex = 60404;
 
 class Class_2_4EEAD21E873B5A41___c__DisplayClass55_0 : public ::System::Object
 {
 public:
 	::Class_2_4EEAD21E873B5A41* __4__this; // 0x10
-	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Int32>* hierarchyDepthCache; // 0x18
+	::System::Func_2<::RPG::GameCore::LittleGameEntityConfig*, ::System::Boolean>* __9__3; // 0x18
 	::Class_1_5F949FB82A9B0DFD* entityLoadingContextData; // 0x20
-	::System::Func_2<::RPG::GameCore::LittleGameEntityConfig*, ::System::Boolean>* __9__3; // 0x28
+	::System::Action_1<::RPG::GameCore::LittleGameEntityConfig*>* __9__2; // 0x28
 	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::LittleGameEntityConfig*>* configByEntityID; // 0x30
-	::System::Action_1<::RPG::GameCore::LittleGameEntityConfig*>* __9__2; // 0x38
+	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Int32>* hierarchyDepthCache; // 0x38
 
 	::System::Void _ctor()
 	{

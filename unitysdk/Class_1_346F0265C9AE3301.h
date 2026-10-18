@@ -6,18 +6,18 @@ class Class_1_0AD6ED58055B81A2;
 class Class_1_811C21B122C8082C;
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-#define CLASS_1_346F0265C9AE3301_GET_LEVELENDDATA_OFFSET UNITYSDK_OFFSET(0x1854E470)
-#define CLASS_1_346F0265C9AE3301_GET_LEVELINDEX_OFFSET UNITYSDK_OFFSET(0x1854E460)
-#define CLASS_1_346F0265C9AE3301_GET_ROUTECONTEXTS_OFFSET UNITYSDK_OFFSET(0x1854E480)
-#define CLASS_1_346F0265C9AE3301__CTOR_OFFSET UNITYSDK_OFFSET(0x1854E490)
+#define CLASS_1_346F0265C9AE3301_GET_LEVELENDDATA_OFFSET UNITYSDK_OFFSET(0x16638570)
+#define CLASS_1_346F0265C9AE3301_GET_LEVELINDEX_OFFSET UNITYSDK_OFFSET(0x16638560)
+#define CLASS_1_346F0265C9AE3301_GET_ROUTECONTEXTS_OFFSET UNITYSDK_OFFSET(0x16638580)
+#define CLASS_1_346F0265C9AE3301__CTOR_OFFSET UNITYSDK_OFFSET(0x16638590)
 
-inline static constexpr unsigned int Class_1_346F0265C9AE3301_TypeDefinitionIndex = 63938;
+inline static constexpr unsigned int Class_1_346F0265C9AE3301_TypeDefinitionIndex = 63876;
 
 class Class_1_346F0265C9AE3301 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::IReadOnlyList_1<::Class_1_811C21B122C8082C*>* _RouteContexts_k__BackingField; // 0x10
-	::Class_1_0AD6ED58055B81A2* _LevelEndData_k__BackingField; // 0x18
+	::Class_1_0AD6ED58055B81A2* _LevelEndData_k__BackingField; // 0x10
+	::System::Collections::Generic::IReadOnlyList_1<::Class_1_811C21B122C8082C*>* _RouteContexts_k__BackingField; // 0x18
 	::System::UInt32 _LevelIndex_k__BackingField; // 0x20
 
 	::System::Void _ctor(::System::UInt32 a1, ::Class_1_0AD6ED58055B81A2* a2, ::System::Collections::Generic::IReadOnlyList_1<::Class_1_811C21B122C8082C*>* a3)

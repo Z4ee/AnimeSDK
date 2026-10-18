@@ -6,17 +6,17 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class GameWorld; }
 namespace System { class String; }
 
-#define CLASS_1_59DD159DBF887CCC_DISPOSE_OFFSET UNITYSDK_OFFSET(0x179E81D0)
-#define CLASS_1_59DD159DBF887CCC_METHOD_1_FE05356E47D9A94A_OFFSET UNITYSDK_OFFSET(0x179E8010)
-#define CLASS_1_59DD159DBF887CCC__CTOR_OFFSET UNITYSDK_OFFSET(0x179E7F10)
+#define CLASS_1_59DD159DBF887CCC_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBEE2190)
+#define CLASS_1_59DD159DBF887CCC_METHOD_1_FE05356E47D9A94A_OFFSET UNITYSDK_OFFSET(0xBEE1FD0)
+#define CLASS_1_59DD159DBF887CCC__CTOR_OFFSET UNITYSDK_OFFSET(0xBEE1ED0)
 
-inline static constexpr unsigned int Class_1_59DD159DBF887CCC_TypeDefinitionIndex = 60359;
+inline static constexpr unsigned int Class_1_59DD159DBF887CCC_TypeDefinitionIndex = 60247;
 
 class Class_1_59DD159DBF887CCC : public ::System::Object
 {
 public:
-	::RPG::GameCore::GameEntity* OALILMALLAI; // 0x10
-	::RPG::GameCore::GameWorld* JEOADHBDKMO; // 0x18
+	::RPG::GameCore::GameWorld* JEOADHBDKMO; // 0x10
+	::RPG::GameCore::GameEntity* OALILMALLAI; // 0x18
 
 	::System::Void _ctor(::RPG::GameCore::GameWorld* a1)
 	{

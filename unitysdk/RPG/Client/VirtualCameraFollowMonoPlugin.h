@@ -8,13 +8,13 @@ namespace System { class String; }
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::Rendering { class CRPVirtualCamera; }
 
-#define RPG_CLIENT_VIRTUALCAMERAFOLLOWMONOPLUGIN_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C812320)
-#define RPG_CLIENT_VIRTUALCAMERAFOLLOWMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x1C812380)
-#define RPG_CLIENT_VIRTUALCAMERAFOLLOWMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x1C8123D0)
+#define RPG_CLIENT_VIRTUALCAMERAFOLLOWMONOPLUGIN_CLEAR_OFFSET UNITYSDK_OFFSET(0xE4493B0)
+#define RPG_CLIENT_VIRTUALCAMERAFOLLOWMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xE449410)
+#define RPG_CLIENT_VIRTUALCAMERAFOLLOWMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xE449460)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int VirtualCameraFollowMonoPlugin_TypeDefinitionIndex = 70313;
+	inline static constexpr unsigned int VirtualCameraFollowMonoPlugin_TypeDefinitionIndex = 70349;
 
 	class VirtualCameraFollowMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::VirtualCameraFollowBehavior*>
 	{

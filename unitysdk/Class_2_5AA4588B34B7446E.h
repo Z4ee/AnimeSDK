@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_43BD383C98B4C0C5_213.h"
+#include "unitysdk/Class_1_43BD383C98B4C0C5_215.h"
 
 class Class_1_F9FBCC956DFCF137_27;
 class Class_1_FD611945730E269E;
 namespace RPG::Client::Prop { class ChimeraDuelBubbleEvent; }
 namespace System { template <typename T> class Func_1; }
 
-#define CLASS_2_5AA4588B34B7446E_METHOD_2_3DC36319CC97F5E9_OFFSET UNITYSDK_OFFSET(0x1705ACC0)
-#define CLASS_2_5AA4588B34B7446E__CTOR_OFFSET UNITYSDK_OFFSET(0x1705ACB0)
+#define CLASS_2_5AA4588B34B7446E_METHOD_2_3DC36319CC97F5E9_OFFSET UNITYSDK_OFFSET(0xBB52BA0)
+#define CLASS_2_5AA4588B34B7446E__CTOR_OFFSET UNITYSDK_OFFSET(0xBB52B90)
 
-inline static constexpr unsigned int Class_2_5AA4588B34B7446E_TypeDefinitionIndex = 77227;
+inline static constexpr unsigned int Class_2_5AA4588B34B7446E_TypeDefinitionIndex = 77698;
 
-class Class_2_5AA4588B34B7446E : public ::Class_1_43BD383C98B4C0C5_213
+class Class_2_5AA4588B34B7446E : public ::Class_1_43BD383C98B4C0C5_215
 {
 public:
 	::System::Func_1<::RPG::Client::Prop::ChimeraDuelBubbleEvent*>* PHKEALDENKI; // 0x10

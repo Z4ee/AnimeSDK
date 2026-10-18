@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class RtDefenceBatchMonsterInfo; }
 
-#define RPG_GAMECORE_RTDEFENCEWAVEMONSTERINFO_METHOD_2_9D40FD1D4B65BFF1_OFFSET UNITYSDK_OFFSET(0x1CCE6490)
-#define RPG_GAMECORE_RTDEFENCEWAVEMONSTERINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1CCE6620)
+#define RPG_GAMECORE_RTDEFENCEWAVEMONSTERINFO_METHOD_2_9D40FD1D4B65BFF1_OFFSET UNITYSDK_OFFSET(0x1DA2F110)
+#define RPG_GAMECORE_RTDEFENCEWAVEMONSTERINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1DA2F2A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtDefenceWaveMonsterInfo_TypeDefinitionIndex = 17857;
+	inline static constexpr unsigned int RtDefenceWaveMonsterInfo_TypeDefinitionIndex = 18069;
 
 	class RtDefenceWaveMonsterInfo : public ::RPG::GameCore::JsonConfig
 	{

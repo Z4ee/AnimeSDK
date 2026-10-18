@@ -6,9 +6,9 @@
 class StageHarmonyDemodulatorUsrInfo;
 namespace System { class String; }
 
-#define STAGEHARMONYDEMODULATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x197E7F50)
+#define STAGEHARMONYDEMODULATOR__CTOR_OFFSET UNITYSDK_OFFSET(0xE9830C0)
 
-inline static constexpr unsigned int StageHarmonyDemodulator_TypeDefinitionIndex = 47983;
+inline static constexpr unsigned int StageHarmonyDemodulator_TypeDefinitionIndex = 47523;
 
 class StageHarmonyDemodulator : public ::System::Object
 {

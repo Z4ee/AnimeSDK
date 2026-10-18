@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DynamicStringContextScope_TypeDefinitionIndex = 24504;
+	inline static constexpr unsigned int DynamicStringContextScope_TypeDefinitionIndex = 24786;
 
 	enum class DynamicStringContextScope : ::System::Int32
 	{

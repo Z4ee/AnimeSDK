@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_CONFIGMANIFESTPATH_METHOD_2_E6048DD50E1B3CCC_OFFSET UNITYSDK_OFFSET(0x1D9B04D0)
-#define RPG_GAMECORE_CONFIGMANIFESTPATH__CTOR_OFFSET UNITYSDK_OFFSET(0x1D9B0B20)
+#define RPG_GAMECORE_CONFIGMANIFESTPATH_METHOD_2_E6048DD50E1B3CCC_OFFSET UNITYSDK_OFFSET(0x1D5A7C30)
+#define RPG_GAMECORE_CONFIGMANIFESTPATH__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5A82E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ConfigManifestPath_TypeDefinitionIndex = 16933;
+	inline static constexpr unsigned int ConfigManifestPath_TypeDefinitionIndex = 17128;
 
 	class ConfigManifestPath : public ::RPG::GameCore::JsonConfig
 	{
@@ -23,15 +23,16 @@ namespace RPG::GameCore
 		::Il2CppArray<::System::String*>* BattleLineupMazeBuffConfig; // 0x38
 		::Il2CppArray<::System::String*>* BattleLineupSkillTreePresetConfig; // 0x40
 		::Il2CppArray<::System::String*>* BattleLineupCEPresetConfig; // 0x48
-		::Il2CppArray<::System::String*>* GlobalModifierConfig; // 0x50
-		::Il2CppArray<::System::String*>* AdventureModifierConfig; // 0x58
-		::Il2CppArray<::System::String*>* GlobalRtModifierConfig; // 0x60
-		::Il2CppArray<::System::String*>* ComplexSkillAIGlobalGroupConfig; // 0x68
-		::Il2CppArray<::System::String*>* GlobalTaskTemplate; // 0x70
-		::Il2CppArray<::System::String*>* CommonSkillPoolConfig; // 0x78
-		::Il2CppArray<::System::String*>* GlobalFormationAsset; // 0x80
-		::Il2CppArray<::System::String*>* TargetAliasConfig; // 0x88
-		::Il2CppArray<::System::String*>* TargetOperationConfig; // 0x90
+		::Il2CppArray<::System::String*>* BattleLineupDevPresetConfig; // 0x50
+		::Il2CppArray<::System::String*>* GlobalModifierConfig; // 0x58
+		::Il2CppArray<::System::String*>* AdventureModifierConfig; // 0x60
+		::Il2CppArray<::System::String*>* GlobalRtModifierConfig; // 0x68
+		::Il2CppArray<::System::String*>* ComplexSkillAIGlobalGroupConfig; // 0x70
+		::Il2CppArray<::System::String*>* GlobalTaskTemplate; // 0x78
+		::Il2CppArray<::System::String*>* CommonSkillPoolConfig; // 0x80
+		::Il2CppArray<::System::String*>* GlobalFormationAsset; // 0x88
+		::Il2CppArray<::System::String*>* TargetAliasConfig; // 0x90
+		::Il2CppArray<::System::String*>* TargetOperationConfig; // 0x98
 
 		::System::Void _ctor()
 		{

@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-inline static constexpr unsigned int AudioTriggerInfo_TypeDefinitionIndex = 47977;
+inline static constexpr unsigned int AudioTriggerInfo_TypeDefinitionIndex = 47517;
 
 struct alignas(4) AudioTriggerInfo
 {

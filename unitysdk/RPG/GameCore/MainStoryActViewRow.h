@@ -6,23 +6,23 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MAINSTORYACTVIEWROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D4928E0)
-#define RPG_GAMECORE_MAINSTORYACTVIEWROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D4930B0)
+#define RPG_GAMECORE_MAINSTORYACTVIEWROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D7D0820)
+#define RPG_GAMECORE_MAINSTORYACTVIEWROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7D0FF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MainStoryActViewRow_TypeDefinitionIndex = 13890;
+	inline static constexpr unsigned int MainStoryActViewRow_TypeDefinitionIndex = 13997;
 
 	class MainStoryActViewRow : public ::System::Object
 	{
 	public:
 		::System::String* BannerPicPath; // 0x10
-		::RPG::Client::TextID Name; // 0x18
+		::System::UInt32 ID; // 0x18
+		::System::UInt32 IsCompleted; // 0x1C
+		::System::UInt32 SortID; // 0x20
+		::System::UInt32 IsCompletionOverride; // 0x24
 		::RPG::Client::TextID ChronicleChapterName; // 0x28
-		::System::UInt32 IsCompletionOverride; // 0x38
-		::System::UInt32 IsCompleted; // 0x3C
-		::System::UInt32 SortID; // 0x40
-		::System::UInt32 ID; // 0x44
+		::RPG::Client::TextID Name; // 0x38
 
 		::System::Void _ctor()
 		{

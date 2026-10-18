@@ -6,24 +6,24 @@ class Class_1_CDF807379B3F27B3;
 class Class_1_E08DCD252AEE7AEA;
 namespace System { class String; }
 
-#define RPG_CLIENT_BATTLEELATIONSTARTTOASTDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x19F42D60)
-#define RPG_CLIENT_BATTLEELATIONSTARTTOASTDATA_GETAUDIOEVENTNAME_OFFSET UNITYSDK_OFFSET(0x19F43280)
-#define RPG_CLIENT_BATTLEELATIONSTARTTOASTDATA_GETPREFABPATH_OFFSET UNITYSDK_OFFSET(0x19F43000)
-#define RPG_CLIENT_BATTLEELATIONSTARTTOASTDATA_GET_POINTNUM_OFFSET UNITYSDK_OFFSET(0x19F43150)
-#define RPG_CLIENT_BATTLEELATIONSTARTTOASTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x19F42EE0)
+#define RPG_CLIENT_BATTLEELATIONSTARTTOASTDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xC813660)
+#define RPG_CLIENT_BATTLEELATIONSTARTTOASTDATA_GETAUDIOEVENTNAME_OFFSET UNITYSDK_OFFSET(0xC813B30)
+#define RPG_CLIENT_BATTLEELATIONSTARTTOASTDATA_GETPREFABPATH_OFFSET UNITYSDK_OFFSET(0xC8138F0)
+#define RPG_CLIENT_BATTLEELATIONSTARTTOASTDATA_GET_POINTNUM_OFFSET UNITYSDK_OFFSET(0xC813A00)
+#define RPG_CLIENT_BATTLEELATIONSTARTTOASTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xC8137D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BattleElationStartToastData_TypeDefinitionIndex = 72081;
+	inline static constexpr unsigned int BattleElationStartToastData_TypeDefinitionIndex = 72154;
 
 	class BattleElationStartToastData : public ::System::Object
 	{
 	public:
-		::Class_1_E08DCD252AEE7AEA* _LevelSetting; // 0x10
-		::Class_1_CDF807379B3F27B3* _ElationPointManager; // 0x18
-		::Il2CppArray<::System::String*>* _PrefabPaths; // 0x20
-		::Il2CppArray<::System::String*>* _AudioEventNames; // 0x28
-		::Il2CppArray<::System::String*>* _FastAudioEventNames; // 0x30
+		::Il2CppArray<::System::String*>* _PrefabPaths; // 0x10
+		::Il2CppArray<::System::String*>* _FastAudioEventNames; // 0x18
+		::Class_1_CDF807379B3F27B3* _ElationPointManager; // 0x20
+		::Class_1_E08DCD252AEE7AEA* _LevelSetting; // 0x28
+		::Il2CppArray<::System::String*>* _AudioEventNames; // 0x30
 
 		::System::Void _ctor()
 		{

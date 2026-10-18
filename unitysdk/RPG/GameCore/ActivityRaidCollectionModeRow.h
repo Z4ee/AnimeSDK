@@ -6,12 +6,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ACTIVITYRAIDCOLLECTIONMODEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CA19890)
-#define RPG_GAMECORE_ACTIVITYRAIDCOLLECTIONMODEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CA19F30)
+#define RPG_GAMECORE_ACTIVITYRAIDCOLLECTIONMODEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D34AFF0)
+#define RPG_GAMECORE_ACTIVITYRAIDCOLLECTIONMODEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D34B650)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityRaidCollectionModeRow_TypeDefinitionIndex = 12239;
+	inline static constexpr unsigned int ActivityRaidCollectionModeRow_TypeDefinitionIndex = 12320;
 
 	class ActivityRaidCollectionModeRow : public ::System::Object
 	{

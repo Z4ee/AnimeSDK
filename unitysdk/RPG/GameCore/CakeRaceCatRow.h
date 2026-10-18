@@ -6,35 +6,35 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_CAKERACECATROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D0FF040)
-#define RPG_GAMECORE_CAKERACECATROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0FF830)
+#define RPG_GAMECORE_CAKERACECATROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D51FD90)
+#define RPG_GAMECORE_CAKERACECATROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D520580)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CakeRaceCatRow_TypeDefinitionIndex = 10979;
+	inline static constexpr unsigned int CakeRaceCatRow_TypeDefinitionIndex = 10995;
 
 	class CakeRaceCatRow : public ::System::Object
 	{
 	public:
-		::System::String* CatPrefabPath; // 0x10
-		::System::String* CatIcon; // 0x18
-		::Il2CppArray<::System::UInt32>* TitlePerformanceIDList; // 0x20
-		::Il2CppArray<::System::UInt32>* ChampionPerformanceIDList; // 0x28
-		::System::String* CatMiniIcon; // 0x30
-		::System::String* CatAIJson; // 0x38
-		::Il2CppArray<::System::UInt32>* StartPerformanceIDList; // 0x40
-		::Il2CppArray<::System::UInt32>* BetPerformanceIDList; // 0x48
-		::System::String* CatAbilityJson; // 0x50
-		::System::String* CatMiddleIcon; // 0x58
-		::System::String* CatMatPath; // 0x60
-		::Il2CppArray<::System::UInt32>* RunnerupPerformanceIDList; // 0x68
-		::RPG::Client::TextID CakeTips; // 0x70
+		::Il2CppArray<::System::UInt32>* RunnerupPerformanceIDList; // 0x10
+		::Il2CppArray<::System::UInt32>* ChampionPerformanceIDList; // 0x18
+		::System::String* CatIcon; // 0x20
+		::Il2CppArray<::System::UInt32>* BetPerformanceIDList; // 0x28
+		::System::String* CatMatPath; // 0x30
+		::System::String* CatAbilityJson; // 0x38
+		::Il2CppArray<::System::UInt32>* TitlePerformanceIDList; // 0x40
+		::System::String* CatMiddleIcon; // 0x48
+		::System::String* CatAIJson; // 0x50
+		::Il2CppArray<::System::UInt32>* StartPerformanceIDList; // 0x58
+		::System::String* CatMiniIcon; // 0x60
+		::System::String* CatPrefabPath; // 0x68
+		::RPG::Client::TextID CatSkillDesc; // 0x70
 		::RPG::Client::TextID CatPersonalityDesc; // 0x80
-		::RPG::Client::TextID CatSkillDesc; // 0x90
+		::RPG::Client::TextID CatPersonalityTitle; // 0x90
 		::RPG::Client::TextID CatName; // 0xA0
-		::RPG::Client::TextID CatPersonalityTitle; // 0xB0
-		::System::UInt32 CatID; // 0xC0
-		::RPG::Client::TextID CatSkillTitle; // 0xC8
+		::RPG::Client::TextID CatSkillTitle; // 0xB0
+		::RPG::Client::TextID CakeTips; // 0xC0
+		::System::UInt32 CatID; // 0xD0
 
 		::System::Void _ctor()
 		{

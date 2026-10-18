@@ -5,18 +5,18 @@
 namespace RPG::Client { class AdventurePhase; }
 namespace System { class String; }
 
-#define RPG_CLIENT_MUSEUMMODULE___C__DISPLAYCLASS191_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B70FF40)
-#define RPG_CLIENT_MUSEUMMODULE___C__DISPLAYCLASS191_0___TRIGGERPERFORMANCEANDEXITMUSEUM_B__0_OFFSET UNITYSDK_OFFSET(0x1B710D00)
+#define RPG_CLIENT_MUSEUMMODULE___C__DISPLAYCLASS191_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD8F9EA0)
+#define RPG_CLIENT_MUSEUMMODULE___C__DISPLAYCLASS191_0___TRIGGERPERFORMANCEANDEXITMUSEUM_B__0_OFFSET UNITYSDK_OFFSET(0xD8FAC50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MuseumModule___c__DisplayClass191_0_TypeDefinitionIndex = 66377;
+	inline static constexpr unsigned int MuseumModule___c__DisplayClass191_0_TypeDefinitionIndex = 66337;
 
 	class MuseumModule___c__DisplayClass191_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::AdventurePhase* adventurePhase; // 0x10
-		::System::String* customString; // 0x18
+		::System::String* customString; // 0x10
+		::RPG::Client::AdventurePhase* adventurePhase; // 0x18
 
 		::System::Void _ctor()
 		{

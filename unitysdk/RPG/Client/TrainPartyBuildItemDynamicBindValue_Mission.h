@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/TrainPartyBuildItemDynamicBindValue.h"
 
-#define RPG_CLIENT_TRAINPARTYBUILDITEMDYNAMICBINDVALUE_MISSION_METHOD_2_A3FAE12D7B6ACD62_OFFSET UNITYSDK_OFFSET(0x1B29EB20)
-#define RPG_CLIENT_TRAINPARTYBUILDITEMDYNAMICBINDVALUE_MISSION__CTOR_OFFSET UNITYSDK_OFFSET(0x1B29EBC0)
+#define RPG_CLIENT_TRAINPARTYBUILDITEMDYNAMICBINDVALUE_MISSION_METHOD_2_A3FAE12D7B6ACD62_OFFSET UNITYSDK_OFFSET(0xE2F32D0)
+#define RPG_CLIENT_TRAINPARTYBUILDITEMDYNAMICBINDVALUE_MISSION__CTOR_OFFSET UNITYSDK_OFFSET(0xE2F3370)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TrainPartyBuildItemDynamicBindValue_Mission_TypeDefinitionIndex = 68846;
+	inline static constexpr unsigned int TrainPartyBuildItemDynamicBindValue_Mission_TypeDefinitionIndex = 68880;
 
 	class TrainPartyBuildItemDynamicBindValue_Mission : public ::RPG::Client::TrainPartyBuildItemDynamicBindValue
 	{

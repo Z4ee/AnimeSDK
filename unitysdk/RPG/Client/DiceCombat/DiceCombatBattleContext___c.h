@@ -5,29 +5,29 @@
 class Class_1_D508B1981C147C96;
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLECONTEXT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1930D540)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLECONTEXT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1930D580)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLECONTEXT___C___DOFORCEREFRESHDICEBATTLEGAMEPAGE_B__5_0_OFFSET UNITYSDK_OFFSET(0x1930D590)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLECONTEXT___C___DOFORCEREFRESHDICEBATTLEGAMEPAGE_B__5_1_OFFSET UNITYSDK_OFFSET(0x1930D5B0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLECONTEXT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xCC11A30)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLECONTEXT___C__CTOR_OFFSET UNITYSDK_OFFSET(0xCC11A70)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLECONTEXT___C___DOFORCEREFRESHDICEBATTLEGAMEPAGE_B__5_0_OFFSET UNITYSDK_OFFSET(0xCC11A80)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLECONTEXT___C___DOFORCEREFRESHDICEBATTLEGAMEPAGE_B__5_1_OFFSET UNITYSDK_OFFSET(0xCC11AA0)
 
 namespace RPG::Client::DiceCombat
 {
-	inline static constexpr unsigned int DiceCombatBattleContext___c_TypeDefinitionIndex = 75557;
+	inline static constexpr unsigned int DiceCombatBattleContext___c_TypeDefinitionIndex = 76034;
 
 	class DiceCombatBattleContext___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::DiceCombat::DiceCombatBattleContext___c** StaticGet___9()
-		{
-			return (::RPG::Client::DiceCombat::DiceCombatBattleContext___c**)Il2CppClass::FromTypeDefinitionIndex(DiceCombatBattleContext___c_TypeDefinitionIndex)->GetStaticField(0x5B8D0);
-		}
 		static ::System::Func_2<::Class_1_D508B1981C147C96*, ::System::Boolean>** StaticGet___9__5_1()
 		{
-			return (::System::Func_2<::Class_1_D508B1981C147C96*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(DiceCombatBattleContext___c_TypeDefinitionIndex)->GetStaticField(0x5B8D8);
+			return (::System::Func_2<::Class_1_D508B1981C147C96*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(DiceCombatBattleContext___c_TypeDefinitionIndex)->GetStaticField(0x1DFD0);
+		}
+		static ::RPG::Client::DiceCombat::DiceCombatBattleContext___c** StaticGet___9()
+		{
+			return (::RPG::Client::DiceCombat::DiceCombatBattleContext___c**)Il2CppClass::FromTypeDefinitionIndex(DiceCombatBattleContext___c_TypeDefinitionIndex)->GetStaticField(0x1DFD8);
 		}
 		static ::System::Func_2<::Class_1_D508B1981C147C96*, ::System::Boolean>** StaticGet___9__5_0()
 		{
-			return (::System::Func_2<::Class_1_D508B1981C147C96*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(DiceCombatBattleContext___c_TypeDefinitionIndex)->GetStaticField(0x5B8E0);
+			return (::System::Func_2<::Class_1_D508B1981C147C96*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(DiceCombatBattleContext___c_TypeDefinitionIndex)->GetStaticField(0x1DFE0);
 		}
 
 		static ::System::Void _cctor()

@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DistrictAreaSoundTransform; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_DISTRICTAREASOUNDCONFIG_METHOD_2_367E62EC66A1DB1F_OFFSET UNITYSDK_OFFSET(0x1DB0BB50)
-#define RPG_GAMECORE_DISTRICTAREASOUNDCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB0BD40)
+#define RPG_GAMECORE_DISTRICTAREASOUNDCONFIG_METHOD_2_D9F56816016B9899_OFFSET UNITYSDK_OFFSET(0x1D5EA6E0)
+#define RPG_GAMECORE_DISTRICTAREASOUNDCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5EA910)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DistrictAreaSoundConfig_TypeDefinitionIndex = 17069;
+	inline static constexpr unsigned int DistrictAreaSoundConfig_TypeDefinitionIndex = 17264;
 
 	class DistrictAreaSoundConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -21,15 +21,16 @@ namespace RPG::GameCore
 		::System::String* StopEventName; // 0x20
 		::System::Single StopEventCD; // 0x28
 		::Il2CppArray<::RPG::GameCore::DistrictAreaSoundTransform*>* TransformList; // 0x30
+		::System::UInt32 SoundAttenuationConfigID; // 0x38
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DISTRICTAREASOUNDCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_367E62EC66A1DB1F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DistrictAreaSoundConfig*& a2)
+		static ::System::Void Method_2_D9F56816016B9899(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DistrictAreaSoundConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DistrictAreaSoundConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DISTRICTAREASOUNDCONFIG_METHOD_2_367E62EC66A1DB1F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DistrictAreaSoundConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DISTRICTAREASOUNDCONFIG_METHOD_2_D9F56816016B9899_OFFSET))(a1, a2);
 		}
 	};
 }

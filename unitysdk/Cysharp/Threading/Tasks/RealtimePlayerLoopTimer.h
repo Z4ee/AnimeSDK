@@ -10,19 +10,19 @@
 namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define CYSHARP_THREADING_TASKS_REALTIMEPLAYERLOOPTIMER_MOVENEXTCORE_OFFSET UNITYSDK_OFFSET(0x1D754460)
-#define CYSHARP_THREADING_TASKS_REALTIMEPLAYERLOOPTIMER_RESETCORE_OFFSET UNITYSDK_OFFSET(0x1D754340)
-#define CYSHARP_THREADING_TASKS_REALTIMEPLAYERLOOPTIMER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D753E90)
+#define CYSHARP_THREADING_TASKS_REALTIMEPLAYERLOOPTIMER_MOVENEXTCORE_OFFSET UNITYSDK_OFFSET(0x1F0F6150)
+#define CYSHARP_THREADING_TASKS_REALTIMEPLAYERLOOPTIMER_RESETCORE_OFFSET UNITYSDK_OFFSET(0x1F0F6030)
+#define CYSHARP_THREADING_TASKS_REALTIMEPLAYERLOOPTIMER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F0F5B80)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int RealtimePlayerLoopTimer_TypeDefinitionIndex = 42629;
+	inline static constexpr unsigned int RealtimePlayerLoopTimer_TypeDefinitionIndex = 38214;
 
 	class RealtimePlayerLoopTimer : public ::Cysharp::Threading::Tasks::PlayerLoopTimer
 	{
 	public:
-		::System::Int64 intervalTicks; // 0x30
-		::Cysharp::Threading::Tasks::Internal::ValueStopwatch stopwatch; // 0x38
+		::Cysharp::Threading::Tasks::Internal::ValueStopwatch stopwatch; // 0x30
+		::System::Int64 intervalTicks; // 0x38
 
 		::System::Void _ctor(::System::TimeSpan a1, ::System::Boolean a2, ::Cysharp::Threading::Tasks::PlayerLoopTiming a3, ::System::Threading::CancellationToken a4, ::System::Action_1<::System::Object*>* a5, ::System::Object* a6)
 		{

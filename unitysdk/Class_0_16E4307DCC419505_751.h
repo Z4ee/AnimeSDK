@@ -1,7 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/MVector3.h"
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_751_TypeDefinitionIndex = 62425;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_751_TypeDefinitionIndex = 59756;
 
 class Class_0_16E4307DCC419505_751
 {

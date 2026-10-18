@@ -1,10 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/GameCore/EnumStatusType.h"
 
-namespace System { class String; }
-
-inline static constexpr unsigned int Class_0_16E4307DCC419505_1089_TypeDefinitionIndex = 71474;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_1089_TypeDefinitionIndex = 67541;
 
 class Class_0_16E4307DCC419505_1089
 {

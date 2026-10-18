@@ -11,45 +11,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_BELOBOGSHOPUICONFIGEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1B3089F0)
-#define RPG_GAMECORE_BELOBOGSHOPUICONFIGEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1B308880)
-#define RPG_GAMECORE_BELOBOGSHOPUICONFIGEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1B308570)
-#define RPG_GAMECORE_BELOBOGSHOPUICONFIGEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1B308820)
-#define RPG_GAMECORE_BELOBOGSHOPUICONFIGEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1B308B80)
-#define RPG_GAMECORE_BELOBOGSHOPUICONFIGEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1B3085F0)
-#define RPG_GAMECORE_BELOBOGSHOPUICONFIGEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1B308BC0)
-#define RPG_GAMECORE_BELOBOGSHOPUICONFIGEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B308D90)
-#define RPG_GAMECORE_BELOBOGSHOPUICONFIGEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1B3090D0)
-#define RPG_GAMECORE_BELOBOGSHOPUICONFIGEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B309440)
-#define RPG_GAMECORE_BELOBOGSHOPUICONFIGEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1B308CF0)
-#define RPG_GAMECORE_BELOBOGSHOPUICONFIGEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1B308C50)
+#define RPG_GAMECORE_BELOBOGSHOPUICONFIGEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1D43CF30)
+#define RPG_GAMECORE_BELOBOGSHOPUICONFIGEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1D43CDC0)
+#define RPG_GAMECORE_BELOBOGSHOPUICONFIGEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1D43CAB0)
+#define RPG_GAMECORE_BELOBOGSHOPUICONFIGEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1D43CD60)
+#define RPG_GAMECORE_BELOBOGSHOPUICONFIGEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1D43D0C0)
+#define RPG_GAMECORE_BELOBOGSHOPUICONFIGEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D43CB30)
+#define RPG_GAMECORE_BELOBOGSHOPUICONFIGEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1D43D100)
+#define RPG_GAMECORE_BELOBOGSHOPUICONFIGEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D43D2D0)
+#define RPG_GAMECORE_BELOBOGSHOPUICONFIGEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1D43D610)
+#define RPG_GAMECORE_BELOBOGSHOPUICONFIGEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D43D980)
+#define RPG_GAMECORE_BELOBOGSHOPUICONFIGEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1D43D230)
+#define RPG_GAMECORE_BELOBOGSHOPUICONFIGEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D43D190)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BelobogShopUIConfigExcelTable_TypeDefinitionIndex = 11943;
+	inline static constexpr unsigned int BelobogShopUIConfigExcelTable_TypeDefinitionIndex = 11966;
 
 	class BelobogShopUIConfigExcelTable : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(BelobogShopUIConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0xB5D0);
-		}
-		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
-		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(BelobogShopUIConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0xB5D8);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(BelobogShopUIConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x62940);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::BelobogShopUIConfigRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::BelobogShopUIConfigRow*>**)Il2CppClass::FromTypeDefinitionIndex(BelobogShopUIConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0xB5E0);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::BelobogShopUIConfigRow*>**)Il2CppClass::FromTypeDefinitionIndex(BelobogShopUIConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x62948);
 		}
-		static ::System::Byte* StaticGet_HashIndex()
+		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(BelobogShopUIConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x2740);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(BelobogShopUIConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x62950);
 		}
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(BelobogShopUIConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x2741);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(BelobogShopUIConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x14690);
+		}
+		static ::System::Byte* StaticGet_HashIndex()
+		{
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(BelobogShopUIConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x14691);
 		}
 
 		static ::System::Void _cctor()

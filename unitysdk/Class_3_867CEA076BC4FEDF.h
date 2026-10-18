@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AdventureCameraToOrthographic; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_867CEA076BC4FEDF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1B4346C0)
-#define CLASS_3_867CEA076BC4FEDF__CTOR_OFFSET UNITYSDK_OFFSET(0x1B434690)
+#define CLASS_3_867CEA076BC4FEDF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15C70520)
+#define CLASS_3_867CEA076BC4FEDF__CTOR_OFFSET UNITYSDK_OFFSET(0x15C704F0)
 
-inline static constexpr unsigned int Class_3_867CEA076BC4FEDF_TypeDefinitionIndex = 55043;
+inline static constexpr unsigned int Class_3_867CEA076BC4FEDF_TypeDefinitionIndex = 54833;
 
 class Class_3_867CEA076BC4FEDF : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AdventureCameraToOrthographic*>
 {

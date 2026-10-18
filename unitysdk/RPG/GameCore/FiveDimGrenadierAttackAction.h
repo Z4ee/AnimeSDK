@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_FIVEDIMGRENADIERATTACKACTION_METHOD_3_3CFF1935919D4915_OFFSET UNITYSDK_OFFSET(0x1D863A70)
-#define RPG_GAMECORE_FIVEDIMGRENADIERATTACKACTION_METHOD_3_8BF9C0D5B17E6E10_OFFSET UNITYSDK_OFFSET(0x1D8639F0)
-#define RPG_GAMECORE_FIVEDIMGRENADIERATTACKACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D863A60)
+#define RPG_GAMECORE_FIVEDIMGRENADIERATTACKACTION_METHOD_4_94B83BDF7D0A3823_OFFSET UNITYSDK_OFFSET(0x1D6951B0)
+#define RPG_GAMECORE_FIVEDIMGRENADIERATTACKACTION_METHOD_4_D9851D1D8006D0A2_OFFSET UNITYSDK_OFFSET(0x1D695230)
+#define RPG_GAMECORE_FIVEDIMGRENADIERATTACKACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D695220)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimGrenadierAttackAction_TypeDefinitionIndex = 18574;
+	inline static constexpr unsigned int FiveDimGrenadierAttackAction_TypeDefinitionIndex = 18784;
 
 	class FiveDimGrenadierAttackAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
@@ -20,14 +20,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMGRENADIERATTACKACTION__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_8BF9C0D5B17E6E10(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimGrenadierAttackAction*& a2)
+		static ::System::Void Method_4_94B83BDF7D0A3823(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimGrenadierAttackAction*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimGrenadierAttackAction*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMGRENADIERATTACKACTION_METHOD_3_8BF9C0D5B17E6E10_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimGrenadierAttackAction*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMGRENADIERATTACKACTION_METHOD_4_94B83BDF7D0A3823_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_3CFF1935919D4915(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimGrenadierAttackAction* a2)
+		static ::System::Void Method_4_D9851D1D8006D0A2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimGrenadierAttackAction* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimGrenadierAttackAction*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMGRENADIERATTACKACTION_METHOD_3_3CFF1935919D4915_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimGrenadierAttackAction*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMGRENADIERATTACKACTION_METHOD_4_D9851D1D8006D0A2_OFFSET))(a1, a2);
 		}
 	};
 }

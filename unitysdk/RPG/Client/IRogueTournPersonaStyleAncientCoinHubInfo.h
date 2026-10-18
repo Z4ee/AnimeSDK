@@ -6,7 +6,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IRogueTournPersonaStyleAncientCoinHubInfo_TypeDefinitionIndex = 67688;
+	inline static constexpr unsigned int IRogueTournPersonaStyleAncientCoinHubInfo_TypeDefinitionIndex = 67690;
 
 	class IRogueTournPersonaStyleAncientCoinHubInfo
 	{

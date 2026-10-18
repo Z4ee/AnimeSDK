@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_GUIDETEXTPC_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3C83B0)
-#define RPG_GAMECORE_GUIDETEXTPC__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3C8840)
+#define RPG_GAMECORE_GUIDETEXTPC_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D7234F0)
+#define RPG_GAMECORE_GUIDETEXTPC__CTOR_OFFSET UNITYSDK_OFFSET(0x1D723980)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GuideTextPC_TypeDefinitionIndex = 24054;
+	inline static constexpr unsigned int GuideTextPC_TypeDefinitionIndex = 24333;
 
 	class GuideTextPC : public ::RPG::GameCore::JsonConfig
 	{

@@ -5,15 +5,15 @@
 namespace RPG::GameCore { class ChimeraDuelBuffDisplayConfig; }
 namespace System { class String; }
 
-#define CLASS_2_01323DB04D8B58E2_CLASS_2_72B0D83486F1EA39_CLASS_1_8230E0B6788EA5F5__CTOR_OFFSET UNITYSDK_OFFSET(0x1A8404C0)
+#define CLASS_2_01323DB04D8B58E2_CLASS_2_72B0D83486F1EA39_CLASS_1_8230E0B6788EA5F5__CTOR_OFFSET UNITYSDK_OFFSET(0xDCB3FD0)
 
-inline static constexpr unsigned int Class_2_01323DB04D8B58E2_Class_2_72B0D83486F1EA39_Class_1_8230E0B6788EA5F5_TypeDefinitionIndex = 76986;
+inline static constexpr unsigned int Class_2_01323DB04D8B58E2_Class_2_72B0D83486F1EA39_Class_1_8230E0B6788EA5F5_TypeDefinitionIndex = 77457;
 
 class Class_2_01323DB04D8B58E2_Class_2_72B0D83486F1EA39_Class_1_8230E0B6788EA5F5 : public ::System::Object
 {
 public:
-	::RPG::GameCore::ChimeraDuelBuffDisplayConfig* EHPIGHAFEMN; // 0x10
-	::Il2CppArray<::System::Int32>* HPGOFLEEEFD; // 0x18
+	::Il2CppArray<::System::Int32>* HPGOFLEEEFD; // 0x10
+	::RPG::GameCore::ChimeraDuelBuffDisplayConfig* EHPIGHAFEMN; // 0x18
 	::System::String* GFNAPNFFGPJ; // 0x20
 	::System::Int32 MCLLALGABAB; // 0x28
 

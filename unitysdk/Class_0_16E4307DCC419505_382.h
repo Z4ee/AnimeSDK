@@ -1,10 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/ScenenLightManager/FadingState.h"
+#include "unitysdk/RPG/Network/SessionType.h"
 
-namespace UnityEngine::Rendering { class CommandBuffer; }
+class Class_0_16E4307DCC419505_380;
+class Class_1_2978C3AFB9C9E5D0;
+namespace RPG::Client { class NetPacket; }
+namespace System { class Object; }
+namespace System { class String; }
+namespace System::Net { class EndPoint; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_382_TypeDefinitionIndex = 49772;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_382_TypeDefinitionIndex = 43938;
 
 class Class_0_16E4307DCC419505_382
 {

@@ -1,11 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Vector2Int.h"
 
-class Class_0_16E4307DCC419505_735;
-namespace System::Collections::Generic { template <typename T> class IList_1; }
+class Class_0_16E4307DCC419505_741;
+class Class_0_16E4307DCC419505_743;
+class Class_2_BF47C01E9CFEA39C;
+namespace RPG::Client { template <typename T1, typename T2> class ActionEvent_2; }
+namespace RPG::Client { template <typename T> class ActionEvent_1; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_746_TypeDefinitionIndex = 62418;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_746_TypeDefinitionIndex = 59541;
 
 class Class_0_16E4307DCC419505_746
 {

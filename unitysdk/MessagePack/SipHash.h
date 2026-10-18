@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/ReadOnlySpan_1.h"
 
-#define MESSAGEPACK_SIPHASH_COMPUTE_OFFSET UNITYSDK_OFFSET(0x1D55D6A0)
-#define MESSAGEPACK_SIPHASH__CTOR_OFFSET UNITYSDK_OFFSET(0x1D55E240)
+#define MESSAGEPACK_SIPHASH_COMPUTE_OFFSET UNITYSDK_OFFSET(0x1BB9FE90)
+#define MESSAGEPACK_SIPHASH__CTOR_OFFSET UNITYSDK_OFFSET(0x1BBA0A30)
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int SipHash_TypeDefinitionIndex = 7190;
+	inline static constexpr unsigned int SipHash_TypeDefinitionIndex = 7244;
 
 	class SipHash : public ::System::Object
 	{

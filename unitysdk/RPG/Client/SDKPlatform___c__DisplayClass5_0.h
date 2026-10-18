@@ -6,18 +6,18 @@ namespace RPG::Client { class SDKPlatform; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_SDKPLATFORM___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF58EF0)
-#define RPG_CLIENT_SDKPLATFORM___C__DISPLAYCLASS5_0__TRYGETITEMINFO_B__0_OFFSET UNITYSDK_OFFSET(0x1AF596C0)
+#define RPG_CLIENT_SDKPLATFORM___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0xE087010)
+#define RPG_CLIENT_SDKPLATFORM___C__DISPLAYCLASS5_0__TRYGETITEMINFO_B__0_OFFSET UNITYSDK_OFFSET(0xE0877E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SDKPlatform___c__DisplayClass5_0_TypeDefinitionIndex = 60109;
+	inline static constexpr unsigned int SDKPlatform___c__DisplayClass5_0_TypeDefinitionIndex = 59972;
 
 	class SDKPlatform___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:
-		::System::Action_1<::System::Boolean>* callback; // 0x10
-		::RPG::Client::SDKPlatform* __4__this; // 0x18
+		::RPG::Client::SDKPlatform* __4__this; // 0x10
+		::System::Action_1<::System::Boolean>* callback; // 0x18
 
 		::System::Void _ctor()
 		{

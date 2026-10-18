@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int StageHarmonySignalDemodulatorBehavior_StateCurve_ToOtherStateType_TypeDefinitionIndex = 70960;
+	inline static constexpr unsigned int StageHarmonySignalDemodulatorBehavior_StateCurve_ToOtherStateType_TypeDefinitionIndex = 70992;
 
 	enum class StageHarmonySignalDemodulatorBehavior_StateCurve_ToOtherStateType : ::System::Int32
 	{

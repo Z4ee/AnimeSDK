@@ -24,12 +24,12 @@ namespace RPG::GameCore { class VibrationConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_AUDIOCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1C57E3D0)
-#define RPG_GAMECORE_AUDIOCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C5818B0)
+#define RPG_GAMECORE_AUDIOCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3D7C20)
+#define RPG_GAMECORE_AUDIOCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3DB100)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AudioConfig_TypeDefinitionIndex = 16206;
+	inline static constexpr unsigned int AudioConfig_TypeDefinitionIndex = 16379;
 
 	class AudioConfig : public ::RPG::GameCore::JsonConfig
 	{

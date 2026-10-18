@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_TransformToMaterialBehavior_TransformPropertyRotation_RotationMode_TypeDefinitionIndex = 70540;
+	inline static constexpr unsigned int Effect_TransformToMaterialBehavior_TransformPropertyRotation_RotationMode_TypeDefinitionIndex = 70576;
 
 	enum class Effect_TransformToMaterialBehavior_TransformPropertyRotation_RotationMode : ::System::Int32
 	{

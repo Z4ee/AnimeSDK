@@ -4,10 +4,10 @@
 
 namespace RPG::GameCore { class TaskContext; }
 
-#define STRUCT_2_6CD45B4DE10DC892_METHOD_2_FF35922B674791EC_OFFSET UNITYSDK_OFFSET(0x3AA94A0)
-#define STRUCT_2_6CD45B4DE10DC892__CTOR_OFFSET UNITYSDK_OFFSET(0x3AA9470)
+#define STRUCT_2_6CD45B4DE10DC892_METHOD_2_A91086AED8314DB5_OFFSET UNITYSDK_OFFSET(0x2E7B710)
+#define STRUCT_2_6CD45B4DE10DC892__CTOR_OFFSET UNITYSDK_OFFSET(0x2E7B6E0)
 
-inline static constexpr unsigned int Struct_2_6CD45B4DE10DC892_TypeDefinitionIndex = 56370;
+inline static constexpr unsigned int Struct_2_6CD45B4DE10DC892_TypeDefinitionIndex = 56183;
 
 struct alignas(8) Struct_2_6CD45B4DE10DC892
 {
@@ -19,8 +19,8 @@ struct alignas(8) Struct_2_6CD45B4DE10DC892
 		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*))((::PBYTE)hIl2Cpp + STRUCT_2_6CD45B4DE10DC892__CTOR_OFFSET))(this, a1);
 	}
 
-	::System::Void Method_2_FF35922B674791EC()
+	::System::Void Method_2_A91086AED8314DB5()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_6CD45B4DE10DC892_METHOD_2_FF35922B674791EC_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_6CD45B4DE10DC892_METHOD_2_A91086AED8314DB5_OFFSET))(this);
 	}
 };

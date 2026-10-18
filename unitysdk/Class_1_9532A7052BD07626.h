@@ -1,0 +1,56 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_0_16E4307DCC419505_102;
+class Class_0_16E4307DCC419505_114;
+class Class_0_16E4307DCC419505_128;
+
+#define CLASS_1_9532A7052BD07626_GET_ASSISTANTACTORCONFIG_OFFSET UNITYSDK_OFFSET(0x1C524F10)
+#define CLASS_1_9532A7052BD07626_GET_CONFIG_OFFSET UNITYSDK_OFFSET(0x1C524EE0)
+#define CLASS_1_9532A7052BD07626_GET_EXAMINERACTORCONFIG_OFFSET UNITYSDK_OFFSET(0x1C524F00)
+#define CLASS_1_9532A7052BD07626_GET_IDENTIFIER_OFFSET UNITYSDK_OFFSET(0x1C524ED0)
+#define CLASS_1_9532A7052BD07626_GET_REQUIREMENTCONFIG_OFFSET UNITYSDK_OFFSET(0x1C524EF0)
+#define CLASS_1_9532A7052BD07626__CTOR_OFFSET UNITYSDK_OFFSET(0x1C524F20)
+
+inline static constexpr unsigned int Class_1_9532A7052BD07626_TypeDefinitionIndex = 41860;
+
+class Class_1_9532A7052BD07626 : public ::System::Object
+{
+public:
+	::Class_0_16E4307DCC419505_102* _AssistantActorConfig_k__BackingField; // 0x10
+	::Class_0_16E4307DCC419505_114* _Config_k__BackingField; // 0x18
+	::Class_0_16E4307DCC419505_102* _ExaminerActorConfig_k__BackingField; // 0x20
+	::Class_0_16E4307DCC419505_128* _RequirementConfig_k__BackingField; // 0x28
+	::System::UInt32 _Identifier_k__BackingField; // 0x30
+
+	::System::Void _ctor(::System::UInt32 a1, ::Class_0_16E4307DCC419505_114* a2, ::Class_0_16E4307DCC419505_128* a3, ::Class_0_16E4307DCC419505_102* a4, ::Class_0_16E4307DCC419505_102* a5)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32, ::Class_0_16E4307DCC419505_114*, ::Class_0_16E4307DCC419505_128*, ::Class_0_16E4307DCC419505_102*, ::Class_0_16E4307DCC419505_102*))((::PBYTE)hIl2Cpp + CLASS_1_9532A7052BD07626__CTOR_OFFSET))(this, a1, a2, a3, a4, a5);
+	}
+
+	::System::UInt32 get_Identifier()
+	{
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_9532A7052BD07626_GET_IDENTIFIER_OFFSET))(this);
+	}
+
+	::Class_0_16E4307DCC419505_114* get_Config()
+	{
+		return ((::Class_0_16E4307DCC419505_114*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_9532A7052BD07626_GET_CONFIG_OFFSET))(this);
+	}
+
+	::Class_0_16E4307DCC419505_128* get_RequirementConfig()
+	{
+		return ((::Class_0_16E4307DCC419505_128*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_9532A7052BD07626_GET_REQUIREMENTCONFIG_OFFSET))(this);
+	}
+
+	::Class_0_16E4307DCC419505_102* get_ExaminerActorConfig()
+	{
+		return ((::Class_0_16E4307DCC419505_102*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_9532A7052BD07626_GET_EXAMINERACTORCONFIG_OFFSET))(this);
+	}
+
+	::Class_0_16E4307DCC419505_102* get_AssistantActorConfig()
+	{
+		return ((::Class_0_16E4307DCC419505_102*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_9532A7052BD07626_GET_ASSISTANTACTORCONFIG_OFFSET))(this);
+	}
+};

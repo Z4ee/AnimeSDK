@@ -1,0 +1,72 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/FixPoint.h"
+#include "unitysdk/System/Object.h"
+
+namespace Google::Protobuf::Collections { template <typename T1, typename T2> class MapField_2; }
+namespace System { class String; }
+namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+
+#define CLASS_1_671DC0E69EA9EC51_METHOD_1_2CD49A0EAC7162BE_OFFSET UNITYSDK_OFFSET(0xB19EDF0)
+#define CLASS_1_671DC0E69EA9EC51_METHOD_1_30486951A69C066B_OFFSET UNITYSDK_OFFSET(0xB19F2A0)
+#define CLASS_1_671DC0E69EA9EC51_METHOD_1_580B926F5C52ECD8_OFFSET UNITYSDK_OFFSET(0xB19FB60)
+#define CLASS_1_671DC0E69EA9EC51_METHOD_1_8A5D97B1DC91D305_OFFSET UNITYSDK_OFFSET(0xB19EE30)
+#define CLASS_1_671DC0E69EA9EC51_METHOD_1_A9BAA3AD9E6B744D_OFFSET UNITYSDK_OFFSET(0xB19F360)
+#define CLASS_1_671DC0E69EA9EC51_METHOD_1_E7EF6BC52B28648C_OFFSET UNITYSDK_OFFSET(0xB19F1B0)
+#define CLASS_1_671DC0E69EA9EC51_METHOD_1_F3EED4A2062C5ADB_OFFSET UNITYSDK_OFFSET(0xB19F400)
+#define CLASS_1_671DC0E69EA9EC51_METHOD_1_F631551F6BB1870F_OFFSET UNITYSDK_OFFSET(0xB19F6B0)
+#define CLASS_1_671DC0E69EA9EC51__CTOR_OFFSET UNITYSDK_OFFSET(0xB19FC80)
+
+inline static constexpr unsigned int Class_1_671DC0E69EA9EC51_TypeDefinitionIndex = 56294;
+
+class Class_1_671DC0E69EA9EC51 : public ::System::Object
+{
+public:
+	::System::Collections::Generic::Dictionary_2<::System::String*, ::System::UInt32>* GJJBKFGELLP; // 0x10
+	::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::FixPoint>* IHFMCMFBHLH; // 0x18
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_671DC0E69EA9EC51__CTOR_OFFSET))(this);
+	}
+
+	::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::FixPoint>* Method_1_2CD49A0EAC7162BE()
+	{
+		return ((::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::FixPoint>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_671DC0E69EA9EC51_METHOD_1_2CD49A0EAC7162BE_OFFSET))(this);
+	}
+
+	::System::Void Method_1_8A5D97B1DC91D305(::Class_1_671DC0E69EA9EC51* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_671DC0E69EA9EC51*))((::PBYTE)hIl2Cpp + CLASS_1_671DC0E69EA9EC51_METHOD_1_8A5D97B1DC91D305_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_E7EF6BC52B28648C()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_671DC0E69EA9EC51_METHOD_1_E7EF6BC52B28648C_OFFSET))(this);
+	}
+
+	::RPG::GameCore::FixPoint Method_1_30486951A69C066B(::System::String* a1)
+	{
+		return ((::RPG::GameCore::FixPoint(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_671DC0E69EA9EC51_METHOD_1_30486951A69C066B_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_A9BAA3AD9E6B744D(::System::String* a1, ::RPG::GameCore::FixPoint a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::String*, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + CLASS_1_671DC0E69EA9EC51_METHOD_1_A9BAA3AD9E6B744D_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_1_F3EED4A2062C5ADB(::Google::Protobuf::Collections::MapField_2<::System::String*, ::System::UInt32>* a1, ::System::Boolean a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::Google::Protobuf::Collections::MapField_2<::System::String*, ::System::UInt32>*, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_671DC0E69EA9EC51_METHOD_1_F3EED4A2062C5ADB_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_1_F631551F6BB1870F(::Google::Protobuf::Collections::MapField_2<::System::String*, ::System::UInt32>* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Google::Protobuf::Collections::MapField_2<::System::String*, ::System::UInt32>*))((::PBYTE)hIl2Cpp + CLASS_1_671DC0E69EA9EC51_METHOD_1_F631551F6BB1870F_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_580B926F5C52ECD8(::System::String* a1, ::System::UInt32 a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::String*, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_671DC0E69EA9EC51_METHOD_1_580B926F5C52ECD8_OFFSET))(this, a1, a2);
+	}
+};

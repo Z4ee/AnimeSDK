@@ -3,7 +3,7 @@
 
 namespace RPG
 {
-	inline static constexpr unsigned int IReferenceEx_TypeDefinitionIndex = 5622;
+	inline static constexpr unsigned int IReferenceEx_TypeDefinitionIndex = 5629;
 
 	class IReferenceEx
 	{

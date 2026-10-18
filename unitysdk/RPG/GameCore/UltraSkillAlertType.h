@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int UltraSkillAlertType_TypeDefinitionIndex = 24391;
+	inline static constexpr unsigned int UltraSkillAlertType_TypeDefinitionIndex = 24671;
 
 	enum class UltraSkillAlertType : ::System::Int32
 	{

@@ -5,12 +5,12 @@
 
 namespace System { template <typename T> class Predicate_1; }
 
-#define RPG_EDITOR_BGCURVEPCG_ROAD___C__DISPLAYCLASS27_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16845F80)
-#define RPG_EDITOR_BGCURVEPCG_ROAD___C__DISPLAYCLASS27_0__MERGELINEARMODULEGROUP_B__0_OFFSET UNITYSDK_OFFSET(0x168467C0)
+#define RPG_EDITOR_BGCURVEPCG_ROAD___C__DISPLAYCLASS27_0__CTOR_OFFSET UNITYSDK_OFFSET(0xE49FB60)
+#define RPG_EDITOR_BGCURVEPCG_ROAD___C__DISPLAYCLASS27_0__MERGELINEARMODULEGROUP_B__0_OFFSET UNITYSDK_OFFSET(0xE4A03A0)
 
 namespace RPG::Editor
 {
-	inline static constexpr unsigned int BGCurvePCG_Road___c__DisplayClass27_0_TypeDefinitionIndex = 52304;
+	inline static constexpr unsigned int BGCurvePCG_Road___c__DisplayClass27_0_TypeDefinitionIndex = 52017;
 
 	class BGCurvePCG_Road___c__DisplayClass27_0 : public ::System::Object
 	{

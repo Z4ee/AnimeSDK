@@ -7,7 +7,7 @@ namespace System { class Exception; }
 
 namespace Cysharp::Threading::Tasks::Internal
 {
-	inline static constexpr unsigned int ThrowObserver_1_TypeDefinitionIndex = 43114;
+	inline static constexpr unsigned int ThrowObserver_1_TypeDefinitionIndex = 38699;
 
 	template <typename T>
 	class ThrowObserver_1 : public ::System::Object

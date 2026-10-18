@@ -6,15 +6,15 @@
 class Class_1_961B0CA014B1FC95;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_13F74058D18673AD__CTOR_OFFSET UNITYSDK_OFFSET(0x1705AAC0)
+#define CLASS_1_13F74058D18673AD__CTOR_OFFSET UNITYSDK_OFFSET(0xBB529D0)
 
-inline static constexpr unsigned int Class_1_13F74058D18673AD_TypeDefinitionIndex = 80673;
+inline static constexpr unsigned int Class_1_13F74058D18673AD_TypeDefinitionIndex = 82001;
 
 class Class_1_13F74058D18673AD : public ::System::Object
 {
 public:
-	::System::Collections::Generic::Dictionary_2<::RPG::GameCore::B51RacingPartType, ::Il2CppArray<::Class_1_961B0CA014B1FC95*>*>* AMCAMCIAIHJ; // 0x10
-	::System::Collections::Generic::Dictionary_2<::RPG::GameCore::B51RacingPartType, ::System::UInt32>* LJOLMNOBPCG; // 0x18
+	::System::Collections::Generic::Dictionary_2<::RPG::GameCore::B51RacingPartType, ::System::UInt32>* LJOLMNOBPCG; // 0x10
+	::System::Collections::Generic::Dictionary_2<::RPG::GameCore::B51RacingPartType, ::Il2CppArray<::Class_1_961B0CA014B1FC95*>*>* AMCAMCIAIHJ; // 0x18
 	::RPG::GameCore::B51RacingPartType HBADGMPANOE; // 0x20
 
 	::System::Void _ctor()

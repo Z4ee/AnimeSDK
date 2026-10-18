@@ -7,27 +7,27 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MONOPOLYEVENTOPTIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D1C3BB0)
-#define RPG_GAMECORE_MONOPOLYEVENTOPTIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1C4500)
+#define RPG_GAMECORE_MONOPOLYEVENTOPTIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D871CE0)
+#define RPG_GAMECORE_MONOPOLYEVENTOPTIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D872630)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MonopolyEventOptionRow_TypeDefinitionIndex = 11958;
+	inline static constexpr unsigned int MonopolyEventOptionRow_TypeDefinitionIndex = 12039;
 
 	class MonopolyEventOptionRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* EffectIDList; // 0x10
-		::System::String* EffectContentText; // 0x18
-		::Il2CppArray<::System::UInt32>* NextOptionList; // 0x20
-		::RPG::Client::TextID OptionContent; // 0x28
-		::RPG::Client::TextID OptionBubbleTalk; // 0x38
-		::RPG::Client::TextID EffectContent; // 0x48
-		::System::UInt32 TextDisplayParam2; // 0x58
-		::System::UInt32 TextDisplayParam1; // 0x5C
-		::System::UInt32 DiceScoreRequirement; // 0x60
-		::RPG::GameCore::MonopolyOptionType OptionType; // 0x64
-		::System::Boolean IsHideEffect; // 0x68
+		::Il2CppArray<::System::UInt32>* NextOptionList; // 0x10
+		::Il2CppArray<::System::UInt32>* EffectIDList; // 0x18
+		::System::String* EffectContentText; // 0x20
+		::RPG::Client::TextID EffectContent; // 0x28
+		::RPG::Client::TextID OptionContent; // 0x38
+		::System::UInt32 TextDisplayParam1; // 0x48
+		::RPG::GameCore::MonopolyOptionType OptionType; // 0x4C
+		::RPG::Client::TextID OptionBubbleTalk; // 0x50
+		::System::UInt32 TextDisplayParam2; // 0x60
+		::System::Boolean IsHideEffect; // 0x64
+		::System::UInt32 DiceScoreRequirement; // 0x68
 		::System::UInt32 EventOptionID; // 0x6C
 
 		::System::Void _ctor()

@@ -3,54 +3,54 @@
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_400;
+class Class_0_16E4307DCC419505_482;
 namespace R3 { template <typename T> class Observable_1; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define SOFA_RUNTIME_TABHEADERIMAGETEXTWITHSTATUSCONTROL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x197DAA20)
-#define SOFA_RUNTIME_TABHEADERIMAGETEXTWITHSTATUSCONTROL___C__CTOR_OFFSET UNITYSDK_OFFSET(0x197DAA60)
-#define SOFA_RUNTIME_TABHEADERIMAGETEXTWITHSTATUSCONTROL___C___BINDING_B__6_0_OFFSET UNITYSDK_OFFSET(0x197DAA70)
-#define SOFA_RUNTIME_TABHEADERIMAGETEXTWITHSTATUSCONTROL___C___BINDING_B__6_1_OFFSET UNITYSDK_OFFSET(0x197DAA90)
-#define SOFA_RUNTIME_TABHEADERIMAGETEXTWITHSTATUSCONTROL___C___BINDING_B__6_2_OFFSET UNITYSDK_OFFSET(0x197DABA0)
-#define SOFA_RUNTIME_TABHEADERIMAGETEXTWITHSTATUSCONTROL___C___BINDING_B__6_3_OFFSET UNITYSDK_OFFSET(0x197DABC0)
-#define SOFA_RUNTIME_TABHEADERIMAGETEXTWITHSTATUSCONTROL___C___BINDING_B__6_4_OFFSET UNITYSDK_OFFSET(0x197DABE0)
-#define SOFA_RUNTIME_TABHEADERIMAGETEXTWITHSTATUSCONTROL___C___BINDING_B__6_5_OFFSET UNITYSDK_OFFSET(0x197DAC00)
+#define SOFA_RUNTIME_TABHEADERIMAGETEXTWITHSTATUSCONTROL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xE975C00)
+#define SOFA_RUNTIME_TABHEADERIMAGETEXTWITHSTATUSCONTROL___C__CTOR_OFFSET UNITYSDK_OFFSET(0xE975C40)
+#define SOFA_RUNTIME_TABHEADERIMAGETEXTWITHSTATUSCONTROL___C___BINDING_B__6_0_OFFSET UNITYSDK_OFFSET(0xE975C50)
+#define SOFA_RUNTIME_TABHEADERIMAGETEXTWITHSTATUSCONTROL___C___BINDING_B__6_1_OFFSET UNITYSDK_OFFSET(0xE975C70)
+#define SOFA_RUNTIME_TABHEADERIMAGETEXTWITHSTATUSCONTROL___C___BINDING_B__6_2_OFFSET UNITYSDK_OFFSET(0xE975D80)
+#define SOFA_RUNTIME_TABHEADERIMAGETEXTWITHSTATUSCONTROL___C___BINDING_B__6_3_OFFSET UNITYSDK_OFFSET(0xE975DA0)
+#define SOFA_RUNTIME_TABHEADERIMAGETEXTWITHSTATUSCONTROL___C___BINDING_B__6_4_OFFSET UNITYSDK_OFFSET(0xE975DC0)
+#define SOFA_RUNTIME_TABHEADERIMAGETEXTWITHSTATUSCONTROL___C___BINDING_B__6_5_OFFSET UNITYSDK_OFFSET(0xE975DE0)
 
 namespace Sofa::Runtime
 {
-	inline static constexpr unsigned int TabHeaderImageTextWithStatusControl___c_TypeDefinitionIndex = 50129;
+	inline static constexpr unsigned int TabHeaderImageTextWithStatusControl___c_TypeDefinitionIndex = 49733;
 
 	class TabHeaderImageTextWithStatusControl___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::Class_0_16E4307DCC419505_400*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__6_3()
+		static ::System::Func_2<::Class_0_16E4307DCC419505_482*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__6_4()
 		{
-			return (::System::Func_2<::Class_0_16E4307DCC419505_400*, ::R3::Observable_1<::System::Boolean>*>**)Il2CppClass::FromTypeDefinitionIndex(TabHeaderImageTextWithStatusControl___c_TypeDefinitionIndex)->GetStaticField(0x55810);
+			return (::System::Func_2<::Class_0_16E4307DCC419505_482*, ::R3::Observable_1<::System::Boolean>*>**)Il2CppClass::FromTypeDefinitionIndex(TabHeaderImageTextWithStatusControl___c_TypeDefinitionIndex)->GetStaticField(0xD0D0);
 		}
-		static ::System::Func_2<::Class_0_16E4307DCC419505_400*, ::R3::Observable_1<::System::String*>*>** StaticGet___9__6_0()
+		static ::System::Func_2<::Class_0_16E4307DCC419505_482*, ::R3::Observable_1<::System::String*>*>** StaticGet___9__6_0()
 		{
-			return (::System::Func_2<::Class_0_16E4307DCC419505_400*, ::R3::Observable_1<::System::String*>*>**)Il2CppClass::FromTypeDefinitionIndex(TabHeaderImageTextWithStatusControl___c_TypeDefinitionIndex)->GetStaticField(0x55818);
+			return (::System::Func_2<::Class_0_16E4307DCC419505_482*, ::R3::Observable_1<::System::String*>*>**)Il2CppClass::FromTypeDefinitionIndex(TabHeaderImageTextWithStatusControl___c_TypeDefinitionIndex)->GetStaticField(0xD0D8);
 		}
-		static ::System::Func_2<::Class_0_16E4307DCC419505_400*, ::R3::Observable_1<::RPG::Client::TextID>*>** StaticGet___9__6_1()
+		static ::System::Func_2<::Class_0_16E4307DCC419505_482*, ::R3::Observable_1<::System::String*>*>** StaticGet___9__6_5()
 		{
-			return (::System::Func_2<::Class_0_16E4307DCC419505_400*, ::R3::Observable_1<::RPG::Client::TextID>*>**)Il2CppClass::FromTypeDefinitionIndex(TabHeaderImageTextWithStatusControl___c_TypeDefinitionIndex)->GetStaticField(0x55820);
+			return (::System::Func_2<::Class_0_16E4307DCC419505_482*, ::R3::Observable_1<::System::String*>*>**)Il2CppClass::FromTypeDefinitionIndex(TabHeaderImageTextWithStatusControl___c_TypeDefinitionIndex)->GetStaticField(0xD0E0);
 		}
-		static ::System::Func_2<::Class_0_16E4307DCC419505_400*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__6_2()
+		static ::System::Func_2<::Class_0_16E4307DCC419505_482*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__6_3()
 		{
-			return (::System::Func_2<::Class_0_16E4307DCC419505_400*, ::R3::Observable_1<::System::Boolean>*>**)Il2CppClass::FromTypeDefinitionIndex(TabHeaderImageTextWithStatusControl___c_TypeDefinitionIndex)->GetStaticField(0x55828);
+			return (::System::Func_2<::Class_0_16E4307DCC419505_482*, ::R3::Observable_1<::System::Boolean>*>**)Il2CppClass::FromTypeDefinitionIndex(TabHeaderImageTextWithStatusControl___c_TypeDefinitionIndex)->GetStaticField(0xD0E8);
 		}
 		static ::Sofa::Runtime::TabHeaderImageTextWithStatusControl___c** StaticGet___9()
 		{
-			return (::Sofa::Runtime::TabHeaderImageTextWithStatusControl___c**)Il2CppClass::FromTypeDefinitionIndex(TabHeaderImageTextWithStatusControl___c_TypeDefinitionIndex)->GetStaticField(0x55830);
+			return (::Sofa::Runtime::TabHeaderImageTextWithStatusControl___c**)Il2CppClass::FromTypeDefinitionIndex(TabHeaderImageTextWithStatusControl___c_TypeDefinitionIndex)->GetStaticField(0xD0F0);
 		}
-		static ::System::Func_2<::Class_0_16E4307DCC419505_400*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__6_4()
+		static ::System::Func_2<::Class_0_16E4307DCC419505_482*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__6_2()
 		{
-			return (::System::Func_2<::Class_0_16E4307DCC419505_400*, ::R3::Observable_1<::System::Boolean>*>**)Il2CppClass::FromTypeDefinitionIndex(TabHeaderImageTextWithStatusControl___c_TypeDefinitionIndex)->GetStaticField(0x55838);
+			return (::System::Func_2<::Class_0_16E4307DCC419505_482*, ::R3::Observable_1<::System::Boolean>*>**)Il2CppClass::FromTypeDefinitionIndex(TabHeaderImageTextWithStatusControl___c_TypeDefinitionIndex)->GetStaticField(0xD0F8);
 		}
-		static ::System::Func_2<::Class_0_16E4307DCC419505_400*, ::R3::Observable_1<::System::String*>*>** StaticGet___9__6_5()
+		static ::System::Func_2<::Class_0_16E4307DCC419505_482*, ::R3::Observable_1<::RPG::Client::TextID>*>** StaticGet___9__6_1()
 		{
-			return (::System::Func_2<::Class_0_16E4307DCC419505_400*, ::R3::Observable_1<::System::String*>*>**)Il2CppClass::FromTypeDefinitionIndex(TabHeaderImageTextWithStatusControl___c_TypeDefinitionIndex)->GetStaticField(0x55840);
+			return (::System::Func_2<::Class_0_16E4307DCC419505_482*, ::R3::Observable_1<::RPG::Client::TextID>*>**)Il2CppClass::FromTypeDefinitionIndex(TabHeaderImageTextWithStatusControl___c_TypeDefinitionIndex)->GetStaticField(0xD100);
 		}
 
 		static ::System::Void _cctor()
@@ -63,34 +63,34 @@ namespace Sofa::Runtime
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SOFA_RUNTIME_TABHEADERIMAGETEXTWITHSTATUSCONTROL___C__CTOR_OFFSET))(this);
 		}
 
-		::R3::Observable_1<::System::String*>* __Binding_b__6_0(::Class_0_16E4307DCC419505_400* a1)
+		::R3::Observable_1<::System::String*>* __Binding_b__6_0(::Class_0_16E4307DCC419505_482* a1)
 		{
-			return ((::R3::Observable_1<::System::String*>*(*)(::PVOID, ::Class_0_16E4307DCC419505_400*))((::PBYTE)hIl2Cpp + SOFA_RUNTIME_TABHEADERIMAGETEXTWITHSTATUSCONTROL___C___BINDING_B__6_0_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::String*>*(*)(::PVOID, ::Class_0_16E4307DCC419505_482*))((::PBYTE)hIl2Cpp + SOFA_RUNTIME_TABHEADERIMAGETEXTWITHSTATUSCONTROL___C___BINDING_B__6_0_OFFSET))(this, a1);
 		}
 
-		::R3::Observable_1<::RPG::Client::TextID>* __Binding_b__6_1(::Class_0_16E4307DCC419505_400* a1)
+		::R3::Observable_1<::RPG::Client::TextID>* __Binding_b__6_1(::Class_0_16E4307DCC419505_482* a1)
 		{
-			return ((::R3::Observable_1<::RPG::Client::TextID>*(*)(::PVOID, ::Class_0_16E4307DCC419505_400*))((::PBYTE)hIl2Cpp + SOFA_RUNTIME_TABHEADERIMAGETEXTWITHSTATUSCONTROL___C___BINDING_B__6_1_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::RPG::Client::TextID>*(*)(::PVOID, ::Class_0_16E4307DCC419505_482*))((::PBYTE)hIl2Cpp + SOFA_RUNTIME_TABHEADERIMAGETEXTWITHSTATUSCONTROL___C___BINDING_B__6_1_OFFSET))(this, a1);
 		}
 
-		::R3::Observable_1<::System::Boolean>* __Binding_b__6_2(::Class_0_16E4307DCC419505_400* a1)
+		::R3::Observable_1<::System::Boolean>* __Binding_b__6_2(::Class_0_16E4307DCC419505_482* a1)
 		{
-			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID, ::Class_0_16E4307DCC419505_400*))((::PBYTE)hIl2Cpp + SOFA_RUNTIME_TABHEADERIMAGETEXTWITHSTATUSCONTROL___C___BINDING_B__6_2_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID, ::Class_0_16E4307DCC419505_482*))((::PBYTE)hIl2Cpp + SOFA_RUNTIME_TABHEADERIMAGETEXTWITHSTATUSCONTROL___C___BINDING_B__6_2_OFFSET))(this, a1);
 		}
 
-		::R3::Observable_1<::System::Boolean>* __Binding_b__6_3(::Class_0_16E4307DCC419505_400* a1)
+		::R3::Observable_1<::System::Boolean>* __Binding_b__6_3(::Class_0_16E4307DCC419505_482* a1)
 		{
-			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID, ::Class_0_16E4307DCC419505_400*))((::PBYTE)hIl2Cpp + SOFA_RUNTIME_TABHEADERIMAGETEXTWITHSTATUSCONTROL___C___BINDING_B__6_3_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID, ::Class_0_16E4307DCC419505_482*))((::PBYTE)hIl2Cpp + SOFA_RUNTIME_TABHEADERIMAGETEXTWITHSTATUSCONTROL___C___BINDING_B__6_3_OFFSET))(this, a1);
 		}
 
-		::R3::Observable_1<::System::Boolean>* __Binding_b__6_4(::Class_0_16E4307DCC419505_400* a1)
+		::R3::Observable_1<::System::Boolean>* __Binding_b__6_4(::Class_0_16E4307DCC419505_482* a1)
 		{
-			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID, ::Class_0_16E4307DCC419505_400*))((::PBYTE)hIl2Cpp + SOFA_RUNTIME_TABHEADERIMAGETEXTWITHSTATUSCONTROL___C___BINDING_B__6_4_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID, ::Class_0_16E4307DCC419505_482*))((::PBYTE)hIl2Cpp + SOFA_RUNTIME_TABHEADERIMAGETEXTWITHSTATUSCONTROL___C___BINDING_B__6_4_OFFSET))(this, a1);
 		}
 
-		::R3::Observable_1<::System::String*>* __Binding_b__6_5(::Class_0_16E4307DCC419505_400* a1)
+		::R3::Observable_1<::System::String*>* __Binding_b__6_5(::Class_0_16E4307DCC419505_482* a1)
 		{
-			return ((::R3::Observable_1<::System::String*>*(*)(::PVOID, ::Class_0_16E4307DCC419505_400*))((::PBYTE)hIl2Cpp + SOFA_RUNTIME_TABHEADERIMAGETEXTWITHSTATUSCONTROL___C___BINDING_B__6_5_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::String*>*(*)(::PVOID, ::Class_0_16E4307DCC419505_482*))((::PBYTE)hIl2Cpp + SOFA_RUNTIME_TABHEADERIMAGETEXTWITHSTATUSCONTROL___C___BINDING_B__6_5_OFFSET))(this, a1);
 		}
 	};
 }

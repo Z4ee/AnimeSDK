@@ -8,7 +8,7 @@ namespace System { template <typename T> class IObserver_1; }
 
 namespace Cysharp::Threading::Tasks::Internal
 {
-	inline static constexpr unsigned int AsyncSubject_1_TypeDefinitionIndex = 43110;
+	inline static constexpr unsigned int AsyncSubject_1_TypeDefinitionIndex = 38695;
 
 	template <typename T>
 	class AsyncSubject_1 : public ::System::Object

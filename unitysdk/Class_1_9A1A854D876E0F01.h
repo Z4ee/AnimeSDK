@@ -5,9 +5,9 @@
 namespace Entitas { class ISystem; }
 namespace System { class String; }
 
-#define CLASS_1_9A1A854D876E0F01_METHOD_1_B30D4C3C993C69C9_OFFSET UNITYSDK_OFFSET(0x16E92D70)
+#define CLASS_1_9A1A854D876E0F01_METHOD_1_B30D4C3C993C69C9_OFFSET UNITYSDK_OFFSET(0x15862830)
 
-inline static constexpr unsigned int Class_1_9A1A854D876E0F01_TypeDefinitionIndex = 76292;
+inline static constexpr unsigned int Class_1_9A1A854D876E0F01_TypeDefinitionIndex = 76769;
 
 class Class_1_9A1A854D876E0F01 : public ::System::Object
 {

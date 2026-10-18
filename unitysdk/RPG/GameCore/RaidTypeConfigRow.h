@@ -8,20 +8,20 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_RAIDTYPECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D198D50)
-#define RPG_GAMECORE_RAIDTYPECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D198F70)
+#define RPG_GAMECORE_RAIDTYPECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D93D960)
+#define RPG_GAMECORE_RAIDTYPECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D93DB80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RaidTypeConfigRow_TypeDefinitionIndex = 14440;
+	inline static constexpr unsigned int RaidTypeConfigRow_TypeDefinitionIndex = 14605;
 
 	class RaidTypeConfigRow : public ::System::Object
 	{
 	public:
 		::System::UInt32 FinishCountDown; // 0x10
-		::RPG::GameCore::RaidFailedType FailedType; // 0x14
-		::RPG::GameCore::RaidConfigType RaidType; // 0x18
-		::RPG::GameCore::RaidFailedResult FailedResult; // 0x1C
+		::RPG::GameCore::RaidConfigType RaidType; // 0x14
+		::RPG::GameCore::RaidFailedResult FailedResult; // 0x18
+		::RPG::GameCore::RaidFailedType FailedType; // 0x1C
 		::RPG::GameCore::RaidFinishType FinishType; // 0x20
 
 		::System::Void _ctor()

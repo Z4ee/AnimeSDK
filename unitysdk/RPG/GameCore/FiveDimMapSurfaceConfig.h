@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_FIVEDIMMAPSURFACECONFIG_METHOD_2_390E4AC85311BFAB_OFFSET UNITYSDK_OFFSET(0x1D868DD0)
-#define RPG_GAMECORE_FIVEDIMMAPSURFACECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D869090)
+#define RPG_GAMECORE_FIVEDIMMAPSURFACECONFIG_METHOD_2_41F25DC377C4B6FD_OFFSET UNITYSDK_OFFSET(0x1D699EB0)
+#define RPG_GAMECORE_FIVEDIMMAPSURFACECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D69A1D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimMapSurfaceConfig_TypeDefinitionIndex = 18309;
+	inline static constexpr unsigned int FiveDimMapSurfaceConfig_TypeDefinitionIndex = 18524;
 
 	class FiveDimMapSurfaceConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -29,9 +29,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMMAPSURFACECONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_390E4AC85311BFAB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimMapSurfaceConfig*& a2)
+		static ::System::Void Method_2_41F25DC377C4B6FD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimMapSurfaceConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimMapSurfaceConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMMAPSURFACECONFIG_METHOD_2_390E4AC85311BFAB_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimMapSurfaceConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMMAPSURFACECONFIG_METHOD_2_41F25DC377C4B6FD_OFFSET))(a1, a2);
 		}
 	};
 }

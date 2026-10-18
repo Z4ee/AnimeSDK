@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SwitchCommandType_TypeDefinitionIndex = 18008;
+	inline static constexpr unsigned int SwitchCommandType_TypeDefinitionIndex = 18222;
 
 	enum class SwitchCommandType : ::System::Int32
 	{

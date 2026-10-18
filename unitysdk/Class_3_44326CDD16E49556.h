@@ -8,11 +8,11 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { template <typename T> class Action_1; }
 
-#define CLASS_3_44326CDD16E49556_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15CC0280)
-#define CLASS_3_44326CDD16E49556_METHOD_3_AD69C1A85F86BF14_OFFSET UNITYSDK_OFFSET(0x15CC01A0)
-#define CLASS_3_44326CDD16E49556__CTOR_OFFSET UNITYSDK_OFFSET(0x15CC0110)
+#define CLASS_3_44326CDD16E49556_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBB0AC60)
+#define CLASS_3_44326CDD16E49556_METHOD_3_A043BA529334F3E6_OFFSET UNITYSDK_OFFSET(0xBB0ABA0)
+#define CLASS_3_44326CDD16E49556__CTOR_OFFSET UNITYSDK_OFFSET(0xBB0AB10)
 
-inline static constexpr unsigned int Class_3_44326CDD16E49556_TypeDefinitionIndex = 54797;
+inline static constexpr unsigned int Class_3_44326CDD16E49556_TypeDefinitionIndex = 54585;
 
 class Class_3_44326CDD16E49556 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByCompareUnusedInsertAbilityCount*>
 {
@@ -26,9 +26,9 @@ public:
 		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::ByCompareUnusedInsertAbilityCount*))((::PBYTE)hIl2Cpp + CLASS_3_44326CDD16E49556__CTOR_OFFSET))(this, a1, a2);
 	}
 
-	::System::Void Method_3_AD69C1A85F86BF14(::Class_1_1CB8CBC69B962B41* a1)
+	::System::Void Method_3_A043BA529334F3E6(::Class_1_1CB8CBC69B962B41* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_1_1CB8CBC69B962B41*))((::PBYTE)hIl2Cpp + CLASS_3_44326CDD16E49556_METHOD_3_AD69C1A85F86BF14_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::Class_1_1CB8CBC69B962B41*))((::PBYTE)hIl2Cpp + CLASS_3_44326CDD16E49556_METHOD_3_A043BA529334F3E6_OFFSET))(this, a1);
 	}
 
 	::System::Boolean Evaluate()

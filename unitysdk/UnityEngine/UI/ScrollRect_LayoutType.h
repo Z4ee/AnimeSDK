@@ -3,7 +3,7 @@
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int ScrollRect_LayoutType_TypeDefinitionIndex = 6821;
+	inline static constexpr unsigned int ScrollRect_LayoutType_TypeDefinitionIndex = 6830;
 
 	enum class ScrollRect_LayoutType : ::System::Int32
 	{

@@ -3,7 +3,7 @@
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/RPG/GameCore/AttackDamageType.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
-#include "unitysdk/Struct_2_2D4CFA76DB950A9A.h"
+#include "unitysdk/Struct_2_745D1E9BCE174BE1.h"
 #include "unitysdk/Struct_2_88A74A9E9AE5BA51.h"
 
 namespace RPG::GameCore { class CharacterConfig; }
@@ -15,7 +15,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ICharacterRowData_TypeDefinitionIndex = 57090;
+	inline static constexpr unsigned int ICharacterRowData_TypeDefinitionIndex = 56921;
 
 	class ICharacterRowData
 	{

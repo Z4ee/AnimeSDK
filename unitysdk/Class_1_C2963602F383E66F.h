@@ -8,9 +8,9 @@
 
 namespace UnityEngine { class Transform; }
 
-#define CLASS_1_C2963602F383E66F__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE2E660)
+#define CLASS_1_C2963602F383E66F__CTOR_OFFSET UNITYSDK_OFFSET(0x1C8AEAB0)
 
-inline static constexpr unsigned int Class_1_C2963602F383E66F_TypeDefinitionIndex = 41229;
+inline static constexpr unsigned int Class_1_C2963602F383E66F_TypeDefinitionIndex = 42518;
 
 class Class_1_C2963602F383E66F : public ::System::Object
 {
@@ -18,11 +18,11 @@ public:
 	::UnityEngine::Transform* GNOKDJHJJAB; // 0x10
 	::System::Nullable_1<::Struct_2_06297BD58B1627CC> LAPJCIBMPIH; // 0x18
 	::UnityEngine::Vector3 CLMKNFILOLB; // 0x50
-	::UnityEngine::Vector3 HFOMPEEAPCG; // 0x5C
-	::UnityEngine::Vector3 IJPLNPNAMBJ; // 0x68
+	::UnityEngine::Vector3 IJPLNPNAMBJ; // 0x5C
+	::UnityEngine::Vector3 OIHGPMFDIEA; // 0x68
 	::RPG::Client::LittleGame::ETimelineControlGameLevelRotation NMELCPIOKNO; // 0x74
-	::UnityEngine::Vector3 OIHGPMFDIEA; // 0x78
-	::UnityEngine::Vector3 KONBAMDOGDH; // 0x84
+	::UnityEngine::Vector3 KONBAMDOGDH; // 0x78
+	::UnityEngine::Vector3 HFOMPEEAPCG; // 0x84
 
 	::System::Void _ctor()
 	{

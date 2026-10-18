@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/CustomRP/GaussianBlurGradual.h"
 #include "unitysdk/UnityEngine/Rendering/VolumeParameter_1.h"
 
-#define RPG_CUSTOMRP_GAUSSIANBLURGRADUALPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x1857C540)
+#define RPG_CUSTOMRP_GAUSSIANBLURGRADUALPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC04E10)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int GaussianBlurGradualParameter_TypeDefinitionIndex = 37128;
+	inline static constexpr unsigned int GaussianBlurGradualParameter_TypeDefinitionIndex = 37814;
 
 	class GaussianBlurGradualParameter : public ::UnityEngine::Rendering::VolumeParameter_1<::RPG::CustomRP::GaussianBlurGradual>
 	{

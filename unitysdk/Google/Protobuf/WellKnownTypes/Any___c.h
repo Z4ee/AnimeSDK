@@ -4,20 +4,20 @@
 
 namespace Google::Protobuf::WellKnownTypes { class Any; }
 
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_ANY___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DBBD270)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_ANY___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1DBBD2B0)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_ANY___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1DBBD2C0)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_ANY___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B886400)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_ANY___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B886440)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_ANY___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1B886450)
 
 namespace Google::Protobuf::WellKnownTypes
 {
-	inline static constexpr unsigned int Any___c_TypeDefinitionIndex = 5412;
+	inline static constexpr unsigned int Any___c_TypeDefinitionIndex = 5419;
 
 	class Any___c : public ::System::Object
 	{
 	public:
 		static ::Google::Protobuf::WellKnownTypes::Any___c** StaticGet___9()
 		{
-			return (::Google::Protobuf::WellKnownTypes::Any___c**)Il2CppClass::FromTypeDefinitionIndex(Any___c_TypeDefinitionIndex)->GetStaticField(0x18F70);
+			return (::Google::Protobuf::WellKnownTypes::Any___c**)Il2CppClass::FromTypeDefinitionIndex(Any___c_TypeDefinitionIndex)->GetStaticField(0x247F0);
 		}
 
 		static ::System::Void _cctor()

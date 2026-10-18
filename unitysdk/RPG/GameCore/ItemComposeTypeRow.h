@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ITEMCOMPOSETYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D228F30)
-#define RPG_GAMECORE_ITEMCOMPOSETYPEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2296A0)
+#define RPG_GAMECORE_ITEMCOMPOSETYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D765BC0)
+#define RPG_GAMECORE_ITEMCOMPOSETYPEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D766330)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ItemComposeTypeRow_TypeDefinitionIndex = 13733;
+	inline static constexpr unsigned int ItemComposeTypeRow_TypeDefinitionIndex = 13840;
 
 	class ItemComposeTypeRow : public ::System::Object
 	{
@@ -20,8 +20,8 @@ namespace RPG::GameCore
 		::System::String* TypeIconPath; // 0x20
 		::System::UInt32 MainTypeOrder; // 0x28
 		::System::UInt32 UnlockID; // 0x2C
-		::System::UInt32 TypeID; // 0x30
-		::System::Boolean IsMainType; // 0x34
+		::System::Boolean IsMainType; // 0x30
+		::System::UInt32 TypeID; // 0x34
 		::System::UInt32 MainTypeID; // 0x38
 
 		::System::Void _ctor()

@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_2_E00ED5CEE1C3E244.h"
+#include "unitysdk/Class_2_BCFFA8AF684999EB.h"
 
 class Class_1_843DD6330B22E422;
 class Class_4_C2AAEF1698C1444C;
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_04A7CAAFD50F142D_METHOD_3_330EACA37EC6A275_OFFSET UNITYSDK_OFFSET(0x15E46E20)
-#define CLASS_3_04A7CAAFD50F142D__CTOR_OFFSET UNITYSDK_OFFSET(0x15E46E10)
+#define CLASS_3_04A7CAAFD50F142D_METHOD_3_330EACA37EC6A275_OFFSET UNITYSDK_OFFSET(0xC7735B0)
+#define CLASS_3_04A7CAAFD50F142D__CTOR_OFFSET UNITYSDK_OFFSET(0xC7735A0)
 
-inline static constexpr unsigned int Class_3_04A7CAAFD50F142D_TypeDefinitionIndex = 56163;
+inline static constexpr unsigned int Class_3_04A7CAAFD50F142D_TypeDefinitionIndex = 55975;
 
-class Class_3_04A7CAAFD50F142D : public ::Class_2_E00ED5CEE1C3E244
+class Class_3_04A7CAAFD50F142D : public ::Class_2_BCFFA8AF684999EB
 {
 public:
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::Class_4_C2AAEF1698C1444C* a2)

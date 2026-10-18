@@ -7,28 +7,28 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MISSIONCHAPTERCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D1A8230)
-#define RPG_GAMECORE_MISSIONCHAPTERCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1A8AD0)
+#define RPG_GAMECORE_MISSIONCHAPTERCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D856120)
+#define RPG_GAMECORE_MISSIONCHAPTERCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D856AA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MissionChapterConfigRow_TypeDefinitionIndex = 14047;
+	inline static constexpr unsigned int MissionChapterConfigRow_TypeDefinitionIndex = 14154;
 
 	class MissionChapterConfigRow : public ::System::Object
 	{
 	public:
-		::System::String* ChapterIconPath; // 0x10
-		::Il2CppArray<::System::UInt32>* LinkChapterList; // 0x18
-		::System::String* ChapterName; // 0x20
-		::System::String* ChapterFigureIconPath; // 0x28
-		::System::String* StageName; // 0x30
-		::System::String* ChapterDesc; // 0x38
-		::RPG::GameCore::MissionChapterType ChapterType; // 0x40
-		::System::UInt32 ChapterDisplayPriority; // 0x44
-		::RPG::Client::TextID ChapterSequence; // 0x48
-		::System::UInt32 OriginMainMission; // 0x58
-		::System::UInt32 ID; // 0x5C
-		::System::UInt32 FinalMainMission; // 0x60
+		::Il2CppArray<::System::UInt32>* LinkChapterList; // 0x10
+		::System::String* ChapterFigureIconPath; // 0x18
+		::System::String* ChapterIconPath; // 0x20
+		::RPG::Client::TextID ChapterDesc; // 0x28
+		::System::UInt32 FinalMainMission; // 0x38
+		::RPG::Client::TextID StageName; // 0x40
+		::RPG::Client::TextID ChapterSequence; // 0x50
+		::RPG::Client::TextID ChapterName; // 0x60
+		::System::UInt32 ChapterDisplayPriority; // 0x70
+		::RPG::GameCore::MissionChapterType ChapterType; // 0x74
+		::System::UInt32 OriginMainMission; // 0x78
+		::System::UInt32 ID; // 0x7C
 
 		::System::Void _ctor()
 		{

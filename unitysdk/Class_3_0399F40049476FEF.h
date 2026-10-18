@@ -7,19 +7,19 @@ namespace RPG::GameCore { class PlayNPCBubbleTalk; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define CLASS_3_0399F40049476FEF_METHOD_3_0EA31FDFD4AC3DFF_OFFSET UNITYSDK_OFFSET(0x1D5C8B40)
-#define CLASS_3_0399F40049476FEF_METHOD_3_F39F86C4A9457EE8_OFFSET UNITYSDK_OFFSET(0x1D5C8AA0)
-#define CLASS_3_0399F40049476FEF__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5C8B00)
+#define CLASS_3_0399F40049476FEF_METHOD_3_0EA31FDFD4AC3DFF_OFFSET UNITYSDK_OFFSET(0x1D1B13F0)
+#define CLASS_3_0399F40049476FEF_METHOD_3_F39F86C4A9457EE8_OFFSET UNITYSDK_OFFSET(0x1D1B1350)
+#define CLASS_3_0399F40049476FEF__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1B13B0)
 
-inline static constexpr unsigned int Class_3_0399F40049476FEF_TypeDefinitionIndex = 20830;
+inline static constexpr unsigned int Class_3_0399F40049476FEF_TypeDefinitionIndex = 21068;
 
 class Class_3_0399F40049476FEF : public ::RPG::GameCore::TaskConfig
 {
 public:
-	::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x18
-	::RPG::GameCore::PlayNPCBubbleTalk* AAMIHCPFPIF; // 0x20
+	::System::String* GFNAPNFFGPJ; // 0x18
+	::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x20
 	::Il2CppArray<::System::UInt32>* EGGCADJJJOD; // 0x28
-	::System::String* GFNAPNFFGPJ; // 0x30
+	::RPG::GameCore::PlayNPCBubbleTalk* AAMIHCPFPIF; // 0x30
 
 	::System::Void _ctor()
 	{

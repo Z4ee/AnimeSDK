@@ -6,11 +6,11 @@
 namespace RPG::Client::B51Racing { class B51RacingReadyDriverDetailViewModel; }
 namespace RPG::Client::B51Racing { class B51RacingReadyVehicleDetailViewModel; }
 
-#define RPG_CLIENT_B51RACING_B51RACINGREADYDRIVERPANELVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6CB470)
+#define RPG_CLIENT_B51RACING_B51RACINGREADYDRIVERPANELVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xC7AE590)
 
 namespace RPG::Client::B51Racing
 {
-	inline static constexpr unsigned int B51RacingReadyDriverPanelViewModel_TypeDefinitionIndex = 80718;
+	inline static constexpr unsigned int B51RacingReadyDriverPanelViewModel_TypeDefinitionIndex = 82046;
 
 	class B51RacingReadyDriverPanelViewModel : public ::System::Object
 	{

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Object.h"
 
-#define UNITYENGINE_PRELOADDATA_PRELOADDATADONTSTRIPME_OFFSET UNITYSDK_OFFSET(0x1ECC99E0)
+#define UNITYENGINE_PRELOADDATA_PRELOADDATADONTSTRIPME_OFFSET UNITYSDK_OFFSET(0x1F3E0A60)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int PreloadData_TypeDefinitionIndex = 4386;
+	inline static constexpr unsigned int PreloadData_TypeDefinitionIndex = 4389;
 
 	class PreloadData : public ::UnityEngine::Object
 	{

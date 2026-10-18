@@ -4,21 +4,21 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_2C6D34DD4E26476D_METHOD_2_1BC72208CAFF7D4E_OFFSET UNITYSDK_OFFSET(0x1CDF3820)
-#define CLASS_2_2C6D34DD4E26476D_METHOD_2_585E2EA201FDE7ED_OFFSET UNITYSDK_OFFSET(0x1CDF32D0)
-#define CLASS_2_2C6D34DD4E26476D__CTOR_OFFSET UNITYSDK_OFFSET(0x1CDF32C0)
+#define CLASS_2_2C6D34DD4E26476D_METHOD_2_1BC72208CAFF7D4E_OFFSET UNITYSDK_OFFSET(0x1CB614E0)
+#define CLASS_2_2C6D34DD4E26476D_METHOD_2_585E2EA201FDE7ED_OFFSET UNITYSDK_OFFSET(0x1CB60F90)
+#define CLASS_2_2C6D34DD4E26476D__CTOR_OFFSET UNITYSDK_OFFSET(0x1CB60F80)
 
-inline static constexpr unsigned int Class_2_2C6D34DD4E26476D_TypeDefinitionIndex = 41192;
+inline static constexpr unsigned int Class_2_2C6D34DD4E26476D_TypeDefinitionIndex = 42481;
 
 class Class_2_2C6D34DD4E26476D : public ::Class_1_5BE136E515AF9A61_1
 {
 public:
 	::System::Collections::Generic::List_1<::System::Single>* EMMEMAEJKAN; // 0x18
-	::System::Int32 GAGEBMIOEGN; // 0x20
-	::System::UInt32 NLLGCHPLDCG; // 0x24
-	::System::Single PGMIOKKLHIE; // 0x28
+	::System::UInt32 NLLGCHPLDCG; // 0x20
+	::System::Int32 GAGEBMIOEGN; // 0x24
+	::System::Boolean JBBMHHEAIPK; // 0x28
 	::System::Single HBDJCFFDGDD; // 0x2C
-	::System::Boolean JBBMHHEAIPK; // 0x30
+	::System::Single PGMIOKKLHIE; // 0x30
 
 	::System::Void _ctor(::System::Boolean a1, ::System::UInt32 a2)
 	{

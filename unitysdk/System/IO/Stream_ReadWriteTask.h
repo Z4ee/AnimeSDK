@@ -10,10 +10,10 @@ namespace System::Threading { class ContextCallback; }
 namespace System::Threading { class ExecutionContext; }
 namespace System::Threading::Tasks { class Task; }
 
-#define SYSTEM_IO_STREAM_READWRITETASK_CLEARBEGINSTATE_OFFSET UNITYSDK_OFFSET(0x1D46E4E0)
-#define SYSTEM_IO_STREAM_READWRITETASK_INVOKEASYNCCALLBACK_OFFSET UNITYSDK_OFFSET(0x1D46F1A0)
-#define SYSTEM_IO_STREAM_READWRITETASK_SYSTEM_THREADING_TASKS_ITASKCOMPLETIONACTION_INVOKE_OFFSET UNITYSDK_OFFSET(0x1D46F220)
-#define SYSTEM_IO_STREAM_READWRITETASK__CTOR_OFFSET UNITYSDK_OFFSET(0x1D46D050)
+#define SYSTEM_IO_STREAM_READWRITETASK_CLEARBEGINSTATE_OFFSET UNITYSDK_OFFSET(0x1C23A8D0)
+#define SYSTEM_IO_STREAM_READWRITETASK_INVOKEASYNCCALLBACK_OFFSET UNITYSDK_OFFSET(0x1C23B5B0)
+#define SYSTEM_IO_STREAM_READWRITETASK_SYSTEM_THREADING_TASKS_ITASKCOMPLETIONACTION_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C23B630)
+#define SYSTEM_IO_STREAM_READWRITETASK__CTOR_OFFSET UNITYSDK_OFFSET(0x1C239430)
 
 namespace System::IO
 {
@@ -24,15 +24,15 @@ namespace System::IO
 	public:
 		static ::System::Threading::ContextCallback** StaticGet_s_invokeAsyncCallback()
 		{
-			return (::System::Threading::ContextCallback**)Il2CppClass::FromTypeDefinitionIndex(Stream_ReadWriteTask_TypeDefinitionIndex)->GetStaticField(0xC6D0);
+			return (::System::Threading::ContextCallback**)Il2CppClass::FromTypeDefinitionIndex(Stream_ReadWriteTask_TypeDefinitionIndex)->GetStaticField(0x1AA50);
 		}
 		::Il2CppArray<::System::Byte>* _buffer; // 0x50
-		::System::IO::Stream* _stream; // 0x58
-		::System::AsyncCallback* _callback; // 0x60
-		::System::Threading::ExecutionContext* _context; // 0x68
-		::System::Int32 _count; // 0x70
+		::System::AsyncCallback* _callback; // 0x58
+		::System::Threading::ExecutionContext* _context; // 0x60
+		::System::IO::Stream* _stream; // 0x68
+		::System::Boolean _isRead; // 0x70
 		::System::Int32 _offset; // 0x74
-		::System::Boolean _isRead; // 0x78
+		::System::Int32 _count; // 0x78
 
 		::System::Void _ctor(::System::Boolean a1, ::System::Func_2<::System::Object*, ::System::Int32>* a2, ::System::Object* a3, ::System::IO::Stream* a4, ::Il2CppArray<::System::Byte>* a5, ::System::Int32 a6, ::System::Int32 a7, ::System::AsyncCallback* a8)
 		{

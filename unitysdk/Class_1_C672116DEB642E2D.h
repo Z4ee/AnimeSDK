@@ -6,21 +6,21 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define CLASS_1_C672116DEB642E2D_METHOD_1_95FA3048B3F79507_OFFSET UNITYSDK_OFFSET(0x1D844550)
-#define CLASS_1_C672116DEB642E2D__CTOR_OFFSET UNITYSDK_OFFSET(0x1D844800)
+#define CLASS_1_C672116DEB642E2D_METHOD_1_95FA3048B3F79507_OFFSET UNITYSDK_OFFSET(0x1CCC26D0)
+#define CLASS_1_C672116DEB642E2D__CTOR_OFFSET UNITYSDK_OFFSET(0x1CCC2980)
 
-inline static constexpr unsigned int Class_1_C672116DEB642E2D_TypeDefinitionIndex = 11552;
+inline static constexpr unsigned int Class_1_C672116DEB642E2D_TypeDefinitionIndex = 11568;
 
 class Class_1_C672116DEB642E2D : public ::System::Object
 {
 public:
-	::System::String* BFMNOLGCCKH; // 0x10
-	::Il2CppArray<::System::UInt32>* FOHHOOKJPIM; // 0x18
-	::RPG::Client::TextID OENAMINOLLF; // 0x20
-	::System::UInt32 PHFMCACHFIJ; // 0x30
-	::System::UInt32 DOBKKDIECDO; // 0x34
-	::System::UInt32 JFDHFPIIGCC; // 0x38
-	::System::UInt32 HNEIIAGADGO; // 0x3C
+	::Il2CppArray<::System::UInt32>* FOHHOOKJPIM; // 0x10
+	::System::String* BFMNOLGCCKH; // 0x18
+	::System::UInt32 HNEIIAGADGO; // 0x20
+	::System::UInt32 JFDHFPIIGCC; // 0x24
+	::System::UInt32 DOBKKDIECDO; // 0x28
+	::System::UInt32 PHFMCACHFIJ; // 0x2C
+	::RPG::Client::TextID OENAMINOLLF; // 0x30
 
 	::System::Void _ctor()
 	{

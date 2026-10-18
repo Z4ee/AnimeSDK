@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class LevelEntityRef; }
 
-#define RPG_GAMECORE_LEVELVALIDNAVMAPSUBMAPCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DD59A00)
-#define RPG_GAMECORE_LEVELVALIDNAVMAPSUBMAPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD59B60)
+#define RPG_GAMECORE_LEVELVALIDNAVMAPSUBMAPCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D7A16B0)
+#define RPG_GAMECORE_LEVELVALIDNAVMAPSUBMAPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7A1810)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelValidNavmapSubmapConfig_TypeDefinitionIndex = 17147;
+	inline static constexpr unsigned int LevelValidNavmapSubmapConfig_TypeDefinitionIndex = 17342;
 
 	class LevelValidNavmapSubmapConfig : public ::RPG::GameCore::JsonConfig
 	{

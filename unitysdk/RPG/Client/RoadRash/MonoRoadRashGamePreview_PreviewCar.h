@@ -5,11 +5,11 @@
 namespace RPG::Client::RoadRash { class MonoRoadRashGamePreviewCar; }
 namespace RPG::Client::RoadRash { class MonoRoadRashGameRoad; }
 
-#define RPG_CLIENT_ROADRASH_MONOROADRASHGAMEPREVIEW_PREVIEWCAR__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC64230)
+#define RPG_CLIENT_ROADRASH_MONOROADRASHGAMEPREVIEW_PREVIEWCAR__CTOR_OFFSET UNITYSDK_OFFSET(0xDED47D0)
 
 namespace RPG::Client::RoadRash
 {
-	inline static constexpr unsigned int MonoRoadRashGamePreview_PreviewCar_TypeDefinitionIndex = 75441;
+	inline static constexpr unsigned int MonoRoadRashGamePreview_PreviewCar_TypeDefinitionIndex = 75856;
 
 	class MonoRoadRashGamePreview_PreviewCar : public ::System::Object
 	{

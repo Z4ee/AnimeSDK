@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BattleRecordDisplayType_TypeDefinitionIndex = 64321;
+	inline static constexpr unsigned int BattleRecordDisplayType_TypeDefinitionIndex = 64259;
 
 	enum class BattleRecordDisplayType : ::System::Int32
 	{

@@ -5,22 +5,22 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_SWORDTRAININGEFFECTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E155CC0)
-#define RPG_GAMECORE_SWORDTRAININGEFFECTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1E155F20)
+#define RPG_GAMECORE_SWORDTRAININGEFFECTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DB1B8D0)
+#define RPG_GAMECORE_SWORDTRAININGEFFECTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB1BB30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SwordTrainingEffectRow_TypeDefinitionIndex = 12338;
+	inline static constexpr unsigned int SwordTrainingEffectRow_TypeDefinitionIndex = 12424;
 
 	class SwordTrainingEffectRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* ParamList; // 0x10
 		::Il2CppArray<::System::UInt32>* EnhanceActionList; // 0x18
-		::System::UInt32 Count; // 0x20
+		::RPG::GameCore::SwordTrainingEffectType EffectType; // 0x20
 		::System::UInt32 Condition; // 0x24
 		::System::UInt32 ID; // 0x28
-		::RPG::GameCore::SwordTrainingEffectType EffectType; // 0x2C
+		::System::UInt32 Count; // 0x2C
 
 		::System::Void _ctor()
 		{

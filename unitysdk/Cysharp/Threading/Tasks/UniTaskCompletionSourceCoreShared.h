@@ -4,19 +4,19 @@
 
 namespace System { template <typename T> class Action_1; }
 
-#define CYSHARP_THREADING_TASKS_UNITASKCOMPLETIONSOURCECORESHARED_COMPLETIONSENTINEL_OFFSET UNITYSDK_OFFSET(0x1CE14300)
-#define CYSHARP_THREADING_TASKS_UNITASKCOMPLETIONSOURCECORESHARED__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CE14350)
+#define CYSHARP_THREADING_TASKS_UNITASKCOMPLETIONSOURCECORESHARED_COMPLETIONSENTINEL_OFFSET UNITYSDK_OFFSET(0x1F1201E0)
+#define CYSHARP_THREADING_TASKS_UNITASKCOMPLETIONSOURCECORESHARED__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F120230)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UniTaskCompletionSourceCoreShared_TypeDefinitionIndex = 42809;
+	inline static constexpr unsigned int UniTaskCompletionSourceCoreShared_TypeDefinitionIndex = 38394;
 
 	class UniTaskCompletionSourceCoreShared : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::System::Object*>** StaticGet_s_sentinel()
 		{
-			return (::System::Action_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(UniTaskCompletionSourceCoreShared_TypeDefinitionIndex)->GetStaticField(0x62130);
+			return (::System::Action_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(UniTaskCompletionSourceCoreShared_TypeDefinitionIndex)->GetStaticField(0x380C0);
 		}
 
 		static ::System::Void _cctor()

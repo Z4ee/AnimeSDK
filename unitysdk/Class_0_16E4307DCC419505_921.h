@@ -1,11 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_ED790DAC948A65A9_10.h"
-#include "unitysdk/RPG/Client/TextID.h"
 
-namespace System { class String; }
+namespace RPG::Client { class ChimeraDuelGameData; }
+namespace RPG::Client { class ChimeraDuelGameSessionCurrentRound; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_921_TypeDefinitionIndex = 66942;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_921_TypeDefinitionIndex = 63325;
 
 class Class_0_16E4307DCC419505_921
 {

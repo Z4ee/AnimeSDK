@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T> class IEqualityCo
 
 namespace R3
 {
-	inline static constexpr unsigned int DistinctUntilChanged_1_TypeDefinitionIndex = 35259;
+	inline static constexpr unsigned int DistinctUntilChanged_1_TypeDefinitionIndex = 35939;
 
 	template <typename T>
 	class DistinctUntilChanged_1 : public ::R3::Observable_1<T>

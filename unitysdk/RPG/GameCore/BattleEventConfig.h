@@ -13,13 +13,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_BATTLEEVENTCONFIG_METHOD_3_6AA35509C73FAB96_OFFSET UNITYSDK_OFFSET(0x1B2F6500)
-#define RPG_GAMECORE_BATTLEEVENTCONFIG_METHOD_3_71435E9C52426DA5_OFFSET UNITYSDK_OFFSET(0x1B2F6740)
-#define RPG_GAMECORE_BATTLEEVENTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B2F6630)
+#define RPG_GAMECORE_BATTLEEVENTCONFIG_METHOD_3_096AF8FD90995CF6_OFFSET UNITYSDK_OFFSET(0x1D42A8A0)
+#define RPG_GAMECORE_BATTLEEVENTCONFIG_METHOD_3_6AA35509C73FAB96_OFFSET UNITYSDK_OFFSET(0x1D42A660)
+#define RPG_GAMECORE_BATTLEEVENTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D42A790)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleEventConfig_TypeDefinitionIndex = 16352;
+	inline static constexpr unsigned int BattleEventConfig_TypeDefinitionIndex = 16525;
 
 	class BattleEventConfig : public ::RPG::GameCore::CharacterConfig
 	{
@@ -50,9 +50,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BattleEventConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEEVENTCONFIG_METHOD_3_6AA35509C73FAB96_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_71435E9C52426DA5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BattleEventConfig* a2)
+		static ::System::Void Method_3_096AF8FD90995CF6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BattleEventConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BattleEventConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEEVENTCONFIG_METHOD_3_71435E9C52426DA5_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BattleEventConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEEVENTCONFIG_METHOD_3_096AF8FD90995CF6_OFFSET))(a1, a2);
 		}
 	};
 }

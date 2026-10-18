@@ -5,7 +5,7 @@
 
 namespace System { template <typename T> class Action_1; }
 
-inline static constexpr unsigned int Class_1_256587CDAC604F22_TypeDefinitionIndex = 50207;
+inline static constexpr unsigned int Class_1_256587CDAC604F22_TypeDefinitionIndex = 49835;
 
 template <typename TViewModel, typename TNavigation>
 class Class_1_256587CDAC604F22 : public ::System::Object

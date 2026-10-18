@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class FateBuffShopGoodsItem; }
 
-#define RPG_CLIENT_FATEBUFFSHOPDATA___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C172900)
-#define RPG_CLIENT_FATEBUFFSHOPDATA___C__DISPLAYCLASS11_0__ISCANBUYBUFF_B__0_OFFSET UNITYSDK_OFFSET(0x1C1738B0)
+#define RPG_CLIENT_FATEBUFFSHOPDATA___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCE76900)
+#define RPG_CLIENT_FATEBUFFSHOPDATA___C__DISPLAYCLASS11_0__ISCANBUYBUFF_B__0_OFFSET UNITYSDK_OFFSET(0xCE77870)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FateBuffShopData___c__DisplayClass11_0_TypeDefinitionIndex = 64186;
+	inline static constexpr unsigned int FateBuffShopData___c__DisplayClass11_0_TypeDefinitionIndex = 64124;
 
 	class FateBuffShopData___c__DisplayClass11_0 : public ::System::Object
 	{

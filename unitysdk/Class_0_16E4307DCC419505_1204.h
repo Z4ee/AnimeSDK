@@ -1,10 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-namespace RPG::Client { class IMissionIcon; }
-namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
+class Class_1_95EEF67A826E14FF;
+namespace RPG::Client { class BattleBuffToastNotify; }
+namespace RPG::GameCore { class TurnBasedModifierInstance; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_1204_TypeDefinitionIndex = 74393;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_1204_TypeDefinitionIndex = 71548;
 
 class Class_0_16E4307DCC419505_1204
 {

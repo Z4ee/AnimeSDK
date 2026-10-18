@@ -2,6 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/EntityType.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
+#include "unitysdk/RPG/GameCore/UnitTriggerDetectColliderType.h"
 #include "unitysdk/RPG/MVector3.h"
 
 class Class_1_7A22A3DBEEDD1F80;
@@ -10,12 +11,12 @@ namespace RPG::GameCore { class PredicateConfig; }
 namespace RPG::GameCore { class TaskConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_UNITCUSTOMTRIGGERCONFIG_METHOD_2_0D53C204AEEC360A_OFFSET UNITYSDK_OFFSET(0x1D2AE290)
-#define RPG_GAMECORE_UNITCUSTOMTRIGGERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2AEF30)
+#define RPG_GAMECORE_UNITCUSTOMTRIGGERCONFIG_METHOD_2_CE4BFE3569D33244_OFFSET UNITYSDK_OFFSET(0x1DC45650)
+#define RPG_GAMECORE_UNITCUSTOMTRIGGERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1DC463D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int UnitCustomTriggerConfig_TypeDefinitionIndex = 17388;
+	inline static constexpr unsigned int UnitCustomTriggerConfig_TypeDefinitionIndex = 17600;
 
 	class UnitCustomTriggerConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -34,34 +35,35 @@ namespace RPG::GameCore
 		::System::Boolean ForceSyncTargetToSever; // 0x48
 		::System::Boolean DependOnServerTarget; // 0x49
 		::System::Boolean IsSingle; // 0x4A
-		::RPG::GameCore::EntityType TargetEntityType; // 0x4C
-		::RPG::GameCore::DynamicFloat* TargetGroupID; // 0x50
-		::RPG::GameCore::DynamicFloat* TargetID; // 0x58
-		::Il2CppArray<::RPG::GameCore::EntityType>* TargetTypes; // 0x60
-		::RPG::GameCore::PredicateConfig* TargetFilter; // 0x68
-		::System::Boolean OnlyCheckFilterOnEnter; // 0x70
-		::System::Boolean DontExitAfterEnter; // 0x71
-		::System::String* ColliderRelativePath; // 0x78
-		::System::Boolean DestroyAfterTriggered; // 0x80
-		::System::Boolean DisableAfterTriggered; // 0x81
-		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnTriggerEnable; // 0x88
-		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnTriggerDisable; // 0x90
-		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnTriggerEnter; // 0x98
-		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnTriggerExit; // 0xA0
-		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnTriggerEnterRollback; // 0xA8
-		::System::Boolean BlockDialogueInRange; // 0xB0
-		::System::Boolean DestroyAfterGraphEnd; // 0xB1
-		::System::Boolean TriggerByFakeAvatar; // 0xB2
-		::System::Boolean SkipFakeAvatar; // 0xB3
+		::RPG::GameCore::UnitTriggerDetectColliderType DetectColliderType; // 0x4C
+		::RPG::GameCore::EntityType TargetEntityType; // 0x50
+		::RPG::GameCore::DynamicFloat* TargetGroupID; // 0x58
+		::RPG::GameCore::DynamicFloat* TargetID; // 0x60
+		::Il2CppArray<::RPG::GameCore::EntityType>* TargetTypes; // 0x68
+		::RPG::GameCore::PredicateConfig* TargetFilter; // 0x70
+		::System::Boolean OnlyCheckFilterOnEnter; // 0x78
+		::System::Boolean DontExitAfterEnter; // 0x79
+		::System::String* ColliderRelativePath; // 0x80
+		::System::Boolean DestroyAfterTriggered; // 0x88
+		::System::Boolean DisableAfterTriggered; // 0x89
+		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnTriggerEnable; // 0x90
+		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnTriggerDisable; // 0x98
+		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnTriggerEnter; // 0xA0
+		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnTriggerExit; // 0xA8
+		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnTriggerEnterRollback; // 0xB0
+		::System::Boolean BlockDialogueInRange; // 0xB8
+		::System::Boolean DestroyAfterGraphEnd; // 0xB9
+		::System::Boolean TriggerByFakeAvatar; // 0xBA
+		::System::Boolean SkipFakeAvatar; // 0xBB
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UNITCUSTOMTRIGGERCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_0D53C204AEEC360A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::UnitCustomTriggerConfig*& a2)
+		static ::System::Void Method_2_CE4BFE3569D33244(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::UnitCustomTriggerConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::UnitCustomTriggerConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UNITCUSTOMTRIGGERCONFIG_METHOD_2_0D53C204AEEC360A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::UnitCustomTriggerConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UNITCUSTOMTRIGGERCONFIG_METHOD_2_CE4BFE3569D33244_OFFSET))(a1, a2);
 		}
 	};
 }

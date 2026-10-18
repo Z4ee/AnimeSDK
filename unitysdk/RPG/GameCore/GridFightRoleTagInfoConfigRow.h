@@ -6,18 +6,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_GRIDFIGHTROLETAGINFOCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3B7660)
-#define RPG_GAMECORE_GRIDFIGHTROLETAGINFOCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3B77E0)
+#define RPG_GAMECORE_GRIDFIGHTROLETAGINFOCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D712560)
+#define RPG_GAMECORE_GRIDFIGHTROLETAGINFOCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7126E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightRoleTagInfoConfigRow_TypeDefinitionIndex = 13418;
+	inline static constexpr unsigned int GridFightRoleTagInfoConfigRow_TypeDefinitionIndex = 13525;
 
 	class GridFightRoleTagInfoConfigRow : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::GridFightRoleSkillTag ID; // 0x10
-		::RPG::Client::TextID TagDesc; // 0x18
+		::RPG::Client::TextID TagDesc; // 0x10
+		::RPG::GameCore::GridFightRoleSkillTag ID; // 0x20
 
 		::System::Void _ctor()
 		{

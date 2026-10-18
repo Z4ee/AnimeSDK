@@ -5,11 +5,11 @@
 
 namespace RPG::GameCore { class SubMissionInfoConfig; }
 
-#define RPG_CLIENT_MISSIONUTILS_SUBMISSIONSORTITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x19E17F60)
+#define RPG_CLIENT_MISSIONUTILS_SUBMISSIONSORTITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xD713590)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MissionUtils_SubMissionSortItem_TypeDefinitionIndex = 66230;
+	inline static constexpr unsigned int MissionUtils_SubMissionSortItem_TypeDefinitionIndex = 66191;
 
 	class MissionUtils_SubMissionSortItem : public ::System::Object
 	{

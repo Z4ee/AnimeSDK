@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/GameCore/ExpeditionBattleFlowStateType.h"
 
-namespace RPG::GameCore { class BaseExpeditionBattleAction; }
+class Class_0_16E4307DCC419505_842;
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_834_TypeDefinitionIndex = 63963;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_834_TypeDefinitionIndex = 62332;
 
 class Class_0_16E4307DCC419505_834
 {

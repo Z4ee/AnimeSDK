@@ -3,18 +3,19 @@
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_49DA0019D59F36B2__CTOR_OFFSET UNITYSDK_OFFSET(0x180A6880)
+#define CLASS_1_49DA0019D59F36B2__CTOR_OFFSET UNITYSDK_OFFSET(0x15D52160)
 
-inline static constexpr unsigned int Class_1_49DA0019D59F36B2_TypeDefinitionIndex = 55554;
+inline static constexpr unsigned int Class_1_49DA0019D59F36B2_TypeDefinitionIndex = 55354;
 
 class Class_1_49DA0019D59F36B2 : public ::System::Object
 {
 public:
-	::RPG::Client::TextID NFCHLOMEGFA; // 0x10
-	::System::Int32 HCDEOKNIGKG; // 0x20
-	::System::Single FIJLEDEKBJP; // 0x24
-	::System::Boolean BJKJILAKNFD; // 0x28
-	::System::Boolean INFEKIKKPCB; // 0x29
+	::System::Single FIJLEDEKBJP; // 0x10
+	::System::Boolean INFEKIKKPCB; // 0x14
+	::System::Boolean BJKJILAKNFD; // 0x15
+	::System::Boolean GNDCCBNILML; // 0x16
+	::RPG::Client::TextID NFCHLOMEGFA; // 0x18
+	::System::Int32 HCDEOKNIGKG; // 0x28
 
 	::System::Void _ctor()
 	{

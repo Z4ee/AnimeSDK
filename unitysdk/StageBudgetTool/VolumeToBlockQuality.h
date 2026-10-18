@@ -3,7 +3,7 @@
 
 namespace StageBudgetTool
 {
-	inline static constexpr unsigned int VolumeToBlockQuality_TypeDefinitionIndex = 48173;
+	inline static constexpr unsigned int VolumeToBlockQuality_TypeDefinitionIndex = 47714;
 
 	enum class VolumeToBlockQuality : ::System::Int32
 	{

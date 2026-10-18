@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_OFFLINECULLINGDATA_METHOD_2_3BEAB2D3CD3239E9_OFFSET UNITYSDK_OFFSET(0x1CE95AD0)
-#define RPG_GAMECORE_OFFLINECULLINGDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE95CB0)
+#define RPG_GAMECORE_OFFLINECULLINGDATA_METHOD_2_3BEAB2D3CD3239E9_OFFSET UNITYSDK_OFFSET(0x1D8B2220)
+#define RPG_GAMECORE_OFFLINECULLINGDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1D8B2510)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int OfflineCullingData_TypeDefinitionIndex = 18942;
+	inline static constexpr unsigned int OfflineCullingData_TypeDefinitionIndex = 19169;
 
 	class OfflineCullingData : public ::RPG::GameCore::JsonConfig
 	{

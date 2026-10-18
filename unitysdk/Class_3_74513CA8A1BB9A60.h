@@ -6,10 +6,10 @@
 namespace RPG::GameCore { class SetDynamicValueByFateContentCount; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_74513CA8A1BB9A60_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A4402C0)
-#define CLASS_3_74513CA8A1BB9A60__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4401E0)
+#define CLASS_3_74513CA8A1BB9A60_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBA62E40)
+#define CLASS_3_74513CA8A1BB9A60__CTOR_OFFSET UNITYSDK_OFFSET(0xBA62D60)
 
-inline static constexpr unsigned int Class_3_74513CA8A1BB9A60_TypeDefinitionIndex = 55627;
+inline static constexpr unsigned int Class_3_74513CA8A1BB9A60_TypeDefinitionIndex = 55435;
 
 class Class_3_74513CA8A1BB9A60 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetDynamicValueByFateContentCount*>
 {

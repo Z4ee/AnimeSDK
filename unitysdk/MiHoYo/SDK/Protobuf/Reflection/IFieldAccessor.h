@@ -7,7 +7,7 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK::Protobuf::Reflection
 {
-	inline static constexpr unsigned int IFieldAccessor_TypeDefinitionIndex = 35167;
+	inline static constexpr unsigned int IFieldAccessor_TypeDefinitionIndex = 35836;
 
 	class IFieldAccessor
 	{

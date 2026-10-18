@@ -7,21 +7,21 @@ namespace Cysharp::Threading::Tasks { class IUniTaskSource; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Runtime::ExceptionServices { class ExceptionDispatchInfo; }
 
-#define CYSHARP_THREADING_TASKS_UNITASK_MEMOIZESOURCE_GETRESULT_OFFSET UNITYSDK_OFFSET(0x1CE10130)
-#define CYSHARP_THREADING_TASKS_UNITASK_MEMOIZESOURCE_GETSTATUS_OFFSET UNITYSDK_OFFSET(0x1CE10380)
-#define CYSHARP_THREADING_TASKS_UNITASK_MEMOIZESOURCE_ONCOMPLETED_OFFSET UNITYSDK_OFFSET(0x1CE104B0)
-#define CYSHARP_THREADING_TASKS_UNITASK_MEMOIZESOURCE_UNSAFEGETSTATUS_OFFSET UNITYSDK_OFFSET(0x1CE10610)
-#define CYSHARP_THREADING_TASKS_UNITASK_MEMOIZESOURCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE0B450)
+#define CYSHARP_THREADING_TASKS_UNITASK_MEMOIZESOURCE_GETRESULT_OFFSET UNITYSDK_OFFSET(0x1F11C040)
+#define CYSHARP_THREADING_TASKS_UNITASK_MEMOIZESOURCE_GETSTATUS_OFFSET UNITYSDK_OFFSET(0x1F11C290)
+#define CYSHARP_THREADING_TASKS_UNITASK_MEMOIZESOURCE_ONCOMPLETED_OFFSET UNITYSDK_OFFSET(0x1F11C3C0)
+#define CYSHARP_THREADING_TASKS_UNITASK_MEMOIZESOURCE_UNSAFEGETSTATUS_OFFSET UNITYSDK_OFFSET(0x1F11C520)
+#define CYSHARP_THREADING_TASKS_UNITASK_MEMOIZESOURCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F1172F0)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UniTask_MemoizeSource_TypeDefinitionIndex = 42749;
+	inline static constexpr unsigned int UniTask_MemoizeSource_TypeDefinitionIndex = 38334;
 
 	class UniTask_MemoizeSource : public ::System::Object
 	{
 	public:
-		::Cysharp::Threading::Tasks::IUniTaskSource* source; // 0x10
-		::System::Runtime::ExceptionServices::ExceptionDispatchInfo* exception; // 0x18
+		::System::Runtime::ExceptionServices::ExceptionDispatchInfo* exception; // 0x10
+		::Cysharp::Threading::Tasks::IUniTaskSource* source; // 0x18
 		::Cysharp::Threading::Tasks::UniTaskStatus status; // 0x20
 
 		::System::Void _ctor(::Cysharp::Threading::Tasks::IUniTaskSource* a1)

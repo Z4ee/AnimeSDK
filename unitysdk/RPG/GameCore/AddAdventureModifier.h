@@ -8,13 +8,13 @@ namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_ADDADVENTUREMODIFIER_METHOD_3_2F909BE83A0AFD50_OFFSET UNITYSDK_OFFSET(0x1D69E480)
-#define RPG_GAMECORE_ADDADVENTUREMODIFIER_METHOD_3_D6F7D2A623CC3B15_OFFSET UNITYSDK_OFFSET(0x1D69E4C0)
-#define RPG_GAMECORE_ADDADVENTUREMODIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D69E4B0)
+#define RPG_GAMECORE_ADDADVENTUREMODIFIER_METHOD_3_2F909BE83A0AFD50_OFFSET UNITYSDK_OFFSET(0x1D3576C0)
+#define RPG_GAMECORE_ADDADVENTUREMODIFIER_METHOD_3_D6F7D2A623CC3B15_OFFSET UNITYSDK_OFFSET(0x1D357700)
+#define RPG_GAMECORE_ADDADVENTUREMODIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3576F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AddAdventureModifier_TypeDefinitionIndex = 20189;
+	inline static constexpr unsigned int AddAdventureModifier_TypeDefinitionIndex = 20427;
 
 	class AddAdventureModifier : public ::RPG::GameCore::TaskConfig
 	{

@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Class_1_92B0B8C84327961B_CanUseAbilityRet_TypeDefinitionIndex = 36673;
+inline static constexpr unsigned int Class_1_92B0B8C84327961B_CanUseAbilityRet_TypeDefinitionIndex = 37360;
 
 enum class Class_1_92B0B8C84327961B_CanUseAbilityRet : ::System::Int32
 {

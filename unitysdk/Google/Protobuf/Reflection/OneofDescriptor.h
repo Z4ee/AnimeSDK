@@ -10,24 +10,24 @@ namespace Google::Protobuf::Reflection { class OneofDescriptorProto; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 
-#define GOOGLE_PROTOBUF_REFLECTION_ONEOFDESCRIPTOR_CREATEACCESSOR_OFFSET UNITYSDK_OFFSET(0x1DBAB6E0)
-#define GOOGLE_PROTOBUF_REFLECTION_ONEOFDESCRIPTOR_CROSSLINK_OFFSET UNITYSDK_OFFSET(0x1DBAB910)
-#define GOOGLE_PROTOBUF_REFLECTION_ONEOFDESCRIPTOR_GET_ACCESSOR_OFFSET UNITYSDK_OFFSET(0x1DBAB900)
-#define GOOGLE_PROTOBUF_REFLECTION_ONEOFDESCRIPTOR_GET_CONTAININGTYPE_OFFSET UNITYSDK_OFFSET(0x1DBAB8F0)
-#define GOOGLE_PROTOBUF_REFLECTION_ONEOFDESCRIPTOR_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1DBAB880)
-#define GOOGLE_PROTOBUF_REFLECTION_ONEOFDESCRIPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1DBAB590)
+#define GOOGLE_PROTOBUF_REFLECTION_ONEOFDESCRIPTOR_CREATEACCESSOR_OFFSET UNITYSDK_OFFSET(0x1B874910)
+#define GOOGLE_PROTOBUF_REFLECTION_ONEOFDESCRIPTOR_CROSSLINK_OFFSET UNITYSDK_OFFSET(0x1B874B40)
+#define GOOGLE_PROTOBUF_REFLECTION_ONEOFDESCRIPTOR_GET_ACCESSOR_OFFSET UNITYSDK_OFFSET(0x1B874B30)
+#define GOOGLE_PROTOBUF_REFLECTION_ONEOFDESCRIPTOR_GET_CONTAININGTYPE_OFFSET UNITYSDK_OFFSET(0x1B874B20)
+#define GOOGLE_PROTOBUF_REFLECTION_ONEOFDESCRIPTOR_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1B874AB0)
+#define GOOGLE_PROTOBUF_REFLECTION_ONEOFDESCRIPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8747C0)
 
 namespace Google::Protobuf::Reflection
 {
-	inline static constexpr unsigned int OneofDescriptor_TypeDefinitionIndex = 5549;
+	inline static constexpr unsigned int OneofDescriptor_TypeDefinitionIndex = 5556;
 
 	class OneofDescriptor : public ::Google::Protobuf::Reflection::DescriptorBase
 	{
 	public:
-		::Google::Protobuf::Reflection::OneofAccessor* accessor; // 0x28
+		::System::Collections::Generic::IList_1<::Google::Protobuf::Reflection::FieldDescriptor*>* fields; // 0x28
 		::Google::Protobuf::Reflection::OneofDescriptorProto* proto; // 0x30
 		::Google::Protobuf::Reflection::MessageDescriptor* containingType; // 0x38
-		::System::Collections::Generic::IList_1<::Google::Protobuf::Reflection::FieldDescriptor*>* fields; // 0x40
+		::Google::Protobuf::Reflection::OneofAccessor* accessor; // 0x40
 
 		::System::Void _ctor(::Google::Protobuf::Reflection::OneofDescriptorProto* a1, ::Google::Protobuf::Reflection::FileDescriptor* a2, ::Google::Protobuf::Reflection::MessageDescriptor* a3, ::System::Int32 a4, ::System::String* a5)
 		{

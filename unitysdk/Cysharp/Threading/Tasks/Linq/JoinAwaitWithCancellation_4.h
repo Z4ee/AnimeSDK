@@ -12,7 +12,7 @@ namespace System::Collections::Generic { template <typename T> class IEqualityCo
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int JoinAwaitWithCancellation_4_TypeDefinitionIndex = 44268;
+	inline static constexpr unsigned int JoinAwaitWithCancellation_4_TypeDefinitionIndex = 45407;
 
 	template <typename TOuter, typename TInner, typename TKey, typename TResult>
 	class JoinAwaitWithCancellation_4 : public ::System::Object

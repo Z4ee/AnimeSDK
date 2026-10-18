@@ -4,12 +4,12 @@
 
 namespace TMPro { class KerningPair; }
 
-#define TMPRO_KERNINGTABLE___C__DISPLAYCLASS4_0__ADDGLYPHPAIRADJUSTMENTRECORD_B__0_OFFSET UNITYSDK_OFFSET(0x18B25350)
-#define TMPRO_KERNINGTABLE___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18B24DB0)
+#define TMPRO_KERNINGTABLE___C__DISPLAYCLASS4_0__ADDGLYPHPAIRADJUSTMENTRECORD_B__0_OFFSET UNITYSDK_OFFSET(0x1F2B8BF0)
+#define TMPRO_KERNINGTABLE___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1F2B8650)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int KerningTable___c__DisplayClass4_0_TypeDefinitionIndex = 43390;
+	inline static constexpr unsigned int KerningTable___c__DisplayClass4_0_TypeDefinitionIndex = 44582;
 
 	class KerningTable___c__DisplayClass4_0 : public ::System::Object
 	{

@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class Shader; }
 
-#define RPG_CUSTOMRP_CUSTOMPOSTPROCESSDATA_CUSTOMSHADERRESOURCES__CTOR_OFFSET UNITYSDK_OFFSET(0x192CEE30)
+#define RPG_CUSTOMRP_CUSTOMPOSTPROCESSDATA_CUSTOMSHADERRESOURCES__CTOR_OFFSET UNITYSDK_OFFSET(0x1CBF4ED0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int CustomPostProcessData_CustomShaderResources_TypeDefinitionIndex = 37085;
+	inline static constexpr unsigned int CustomPostProcessData_CustomShaderResources_TypeDefinitionIndex = 37770;
 
 	class CustomPostProcessData_CustomShaderResources : public ::System::Object
 	{

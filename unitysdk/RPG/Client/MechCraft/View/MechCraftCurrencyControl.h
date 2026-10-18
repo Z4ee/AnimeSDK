@@ -1,0 +1,43 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/MonoBehaviour.h"
+
+class Class_1_C55AEAF8486FB7B9;
+namespace RPG::Client::MechCraft::View { class MechCraftCurrencyControlBinder; }
+
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCURRENCYCONTROL_METHOD_5_909D3C5E0F691F8B_OFFSET UNITYSDK_OFFSET(0xD631860)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCURRENCYCONTROL_METHOD_5_A8458C1526636349_OFFSET UNITYSDK_OFFSET(0xD6318C0)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCURRENCYCONTROL_METHOD_5_F8B73ECE7F883AC1_OFFSET UNITYSDK_OFFSET(0xD631820)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCURRENCYCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0xD631CC0)
+
+namespace RPG::Client::MechCraft::View
+{
+	inline static constexpr unsigned int MechCraftCurrencyControl_TypeDefinitionIndex = 79814;
+
+	class MechCraftCurrencyControl : public ::UnityEngine::MonoBehaviour
+	{
+	public:
+		::Class_1_C55AEAF8486FB7B9* LFGMLJCCPCH; // 0x18
+		::RPG::Client::MechCraft::View::MechCraftCurrencyControlBinder* _Binder; // 0x20
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCURRENCYCONTROL__CTOR_OFFSET))(this);
+		}
+
+		::Class_1_C55AEAF8486FB7B9* Method_5_F8B73ECE7F883AC1()
+		{
+			return ((::Class_1_C55AEAF8486FB7B9*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCURRENCYCONTROL_METHOD_5_F8B73ECE7F883AC1_OFFSET))(this);
+		}
+
+		::System::Void Method_5_909D3C5E0F691F8B(::Class_1_C55AEAF8486FB7B9* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_C55AEAF8486FB7B9*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCURRENCYCONTROL_METHOD_5_909D3C5E0F691F8B_OFFSET))(this, a1);
+		}
+
+		::System::Void Method_5_A8458C1526636349(::Class_1_C55AEAF8486FB7B9* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_C55AEAF8486FB7B9*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCURRENCYCONTROL_METHOD_5_A8458C1526636349_OFFSET))(this, a1);
+		}
+	};
+}

@@ -8,21 +8,21 @@ namespace RPG::Client { class ExpeditionBattleMapItemViewModel; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_EXPEDITIONBATTLEMAPOVERVIEWVIEWMODEL_CREATE_OFFSET UNITYSDK_OFFSET(0x1B8907F0)
-#define RPG_CLIENT_EXPEDITIONBATTLEMAPOVERVIEWVIEWMODEL_GETITEM_OFFSET UNITYSDK_OFFSET(0x1B890740)
-#define RPG_CLIENT_EXPEDITIONBATTLEMAPOVERVIEWVIEWMODEL_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x1B890570)
-#define RPG_CLIENT_EXPEDITIONBATTLEMAPOVERVIEWVIEWMODEL_GET_MAPIDS_OFFSET UNITYSDK_OFFSET(0x1B890560)
-#define RPG_CLIENT_EXPEDITIONBATTLEMAPOVERVIEWVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8905C0)
+#define RPG_CLIENT_EXPEDITIONBATTLEMAPOVERVIEWVIEWMODEL_CREATE_OFFSET UNITYSDK_OFFSET(0xCE43870)
+#define RPG_CLIENT_EXPEDITIONBATTLEMAPOVERVIEWVIEWMODEL_GETITEM_OFFSET UNITYSDK_OFFSET(0xCE437C0)
+#define RPG_CLIENT_EXPEDITIONBATTLEMAPOVERVIEWVIEWMODEL_GET_COUNT_OFFSET UNITYSDK_OFFSET(0xCE435F0)
+#define RPG_CLIENT_EXPEDITIONBATTLEMAPOVERVIEWVIEWMODEL_GET_MAPIDS_OFFSET UNITYSDK_OFFSET(0xCE435E0)
+#define RPG_CLIENT_EXPEDITIONBATTLEMAPOVERVIEWVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xCE43640)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ExpeditionBattleMapOverviewViewModel_TypeDefinitionIndex = 64007;
+	inline static constexpr unsigned int ExpeditionBattleMapOverviewViewModel_TypeDefinitionIndex = 63945;
 
 	class ExpeditionBattleMapOverviewViewModel : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::ExpeditionBattleMapItemViewModel*>* _Items; // 0x10
-		::System::Collections::Generic::List_1<::System::UInt32>* _MapIDs_k__BackingField; // 0x18
+		::System::Collections::Generic::List_1<::System::UInt32>* _MapIDs_k__BackingField; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::ExpeditionBattleMapItemViewModel*>* _Items; // 0x18
 
 		::System::Void _ctor(::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::ExpeditionBattleMapItemViewModel*>* a1)
 		{

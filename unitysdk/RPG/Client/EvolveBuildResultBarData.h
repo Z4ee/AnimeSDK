@@ -4,11 +4,11 @@
 
 namespace RPG::Client { class EvolveBuildCollectionGear; }
 
-#define RPG_CLIENT_EVOLVEBUILDRESULTBARDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1994B1E0)
+#define RPG_CLIENT_EVOLVEBUILDRESULTBARDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xCE21A60)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EvolveBuildResultBarData_TypeDefinitionIndex = 63861;
+	inline static constexpr unsigned int EvolveBuildResultBarData_TypeDefinitionIndex = 63799;
 
 	class EvolveBuildResultBarData : public ::System::Object
 	{

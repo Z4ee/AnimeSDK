@@ -6,18 +6,18 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define CLASS_1_5CB63181E7A1F6C2_METHOD_1_81F3FEDEB8077FC5_OFFSET UNITYSDK_OFFSET(0x1CCB97C0)
-#define CLASS_1_5CB63181E7A1F6C2__CTOR_OFFSET UNITYSDK_OFFSET(0x1CCB9980)
+#define CLASS_1_5CB63181E7A1F6C2_METHOD_1_81F3FEDEB8077FC5_OFFSET UNITYSDK_OFFSET(0x1CDD10F0)
+#define CLASS_1_5CB63181E7A1F6C2__CTOR_OFFSET UNITYSDK_OFFSET(0x1CDD12B0)
 
-inline static constexpr unsigned int Class_1_5CB63181E7A1F6C2_TypeDefinitionIndex = 11620;
+inline static constexpr unsigned int Class_1_5CB63181E7A1F6C2_TypeDefinitionIndex = 11643;
 
 class Class_1_5CB63181E7A1F6C2 : public ::System::Object
 {
 public:
 	::System::String* BLKFELPDINH; // 0x10
 	::System::UInt32 IHDKMCABFBO; // 0x18
-	::RPG::GameCore::HipplenMiniGameType GMPGDEINODK; // 0x1C
-	::System::UInt32 LLGEOLMFMAB; // 0x20
+	::System::UInt32 LLGEOLMFMAB; // 0x1C
+	::RPG::GameCore::HipplenMiniGameType GMPGDEINODK; // 0x20
 
 	::System::Void _ctor()
 	{

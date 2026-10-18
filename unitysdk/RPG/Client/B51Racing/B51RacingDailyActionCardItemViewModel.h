@@ -5,20 +5,20 @@
 
 namespace RPG::Client::B51Racing { class B51RacingDevelopValueIconListViewModel; }
 
-#define RPG_CLIENT_B51RACING_B51RACINGDAILYACTIONCARDITEMVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x19EFC2D0)
+#define RPG_CLIENT_B51RACING_B51RACINGDAILYACTIONCARDITEMVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xC78BD40)
 
 namespace RPG::Client::B51Racing
 {
-	inline static constexpr unsigned int B51RacingDailyActionCardItemViewModel_TypeDefinitionIndex = 80694;
+	inline static constexpr unsigned int B51RacingDailyActionCardItemViewModel_TypeDefinitionIndex = 82022;
 
 	class B51RacingDailyActionCardItemViewModel : public ::System::Object
 	{
 	public:
 		::RPG::Client::B51Racing::B51RacingDevelopValueIconListViewModel* ValueIconList; // 0x10
-		::System::UInt32 ActionID; // 0x18
-		::System::Boolean IsRecommended; // 0x1C
-		::System::Boolean IsSelected; // 0x1D
-		::RPG::Client::TextID ActionName; // 0x20
+		::RPG::Client::TextID ActionName; // 0x18
+		::System::UInt32 ActionID; // 0x28
+		::System::Boolean IsRecommended; // 0x2C
+		::System::Boolean IsSelected; // 0x2D
 
 		::System::Void _ctor()
 		{

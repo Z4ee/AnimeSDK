@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 class Class_1_981D4BAE18B257E9;
 
-#define RPG_GAMECORE_IDLELIVEEMOJICONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D20F6F0)
-#define RPG_GAMECORE_IDLELIVEEMOJICONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D20F840)
+#define RPG_GAMECORE_IDLELIVEEMOJICONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D74C330)
+#define RPG_GAMECORE_IDLELIVEEMOJICONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D74C480)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveEmojiConfigRow_TypeDefinitionIndex = 11674;
+	inline static constexpr unsigned int IdleLiveEmojiConfigRow_TypeDefinitionIndex = 11697;
 
 	class IdleLiveEmojiConfigRow : public ::System::Object
 	{

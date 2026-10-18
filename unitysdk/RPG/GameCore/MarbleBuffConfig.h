@@ -8,13 +8,14 @@
 #include "unitysdk/RPG/GameCore/MarbleValue.h"
 
 class Class_1_7A22A3DBEEDD1F80;
+namespace System { class String; }
 
-#define RPG_GAMECORE_MARBLEBUFFCONFIG_METHOD_2_065CC8A25FF1E45C_OFFSET UNITYSDK_OFFSET(0x1D4A34D0)
-#define RPG_GAMECORE_MARBLEBUFFCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D4A3840)
+#define RPG_GAMECORE_MARBLEBUFFCONFIG_METHOD_2_065CC8A25FF1E45C_OFFSET UNITYSDK_OFFSET(0x1D809C50)
+#define RPG_GAMECORE_MARBLEBUFFCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D80A070)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MarbleBuffConfig_TypeDefinitionIndex = 16711;
+	inline static constexpr unsigned int MarbleBuffConfig_TypeDefinitionIndex = 16904;
 
 	class MarbleBuffConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -28,6 +29,8 @@ namespace RPG::GameCore
 		::RPG::GameCore::MarbleValue ValueType; // 0x28
 		::RPG::GameCore::MarbleOperation Operation; // 0x2C
 		::System::Single Value; // 0x30
+		::System::String* ValueDynamic; // 0x38
+		::System::Boolean RemoveOnSourceDeath; // 0x40
 
 		::System::Void _ctor()
 		{

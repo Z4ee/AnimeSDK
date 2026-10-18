@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetDamageSharedTarget; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_39780FD3001F56F1_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x188092D0)
-#define CLASS_3_39780FD3001F56F1__CTOR_OFFSET UNITYSDK_OFFSET(0x188092A0)
+#define CLASS_3_39780FD3001F56F1_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB162E50)
+#define CLASS_3_39780FD3001F56F1__CTOR_OFFSET UNITYSDK_OFFSET(0xB162E20)
 
-inline static constexpr unsigned int Class_3_39780FD3001F56F1_TypeDefinitionIndex = 55581;
+inline static constexpr unsigned int Class_3_39780FD3001F56F1_TypeDefinitionIndex = 55385;
 
 class Class_3_39780FD3001F56F1 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetDamageSharedTarget*>
 {

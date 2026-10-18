@@ -5,23 +5,23 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_HELIOBUSCHALLENGEPHASEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3D2AC0)
-#define RPG_GAMECORE_HELIOBUSCHALLENGEPHASEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3D3230)
+#define RPG_GAMECORE_HELIOBUSCHALLENGEPHASEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D72DFB0)
+#define RPG_GAMECORE_HELIOBUSCHALLENGEPHASEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D72E760)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HeliobusChallengePhaseRow_TypeDefinitionIndex = 13658;
+	inline static constexpr unsigned int HeliobusChallengePhaseRow_TypeDefinitionIndex = 13765;
 
 	class HeliobusChallengePhaseRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* ChallengeGroupList; // 0x10
-		::RPG::Client::TextID ChallengePhaseUnlock; // 0x18
+		::System::UInt32 ChallengePhaseID; // 0x18
+		::System::UInt32 UnlockMissionID; // 0x1C
+		::System::UInt32 MapEntranceID; // 0x20
+		::System::UInt32 MappingInfoID; // 0x24
 		::RPG::Client::TextID ChallengePhaseName; // 0x28
-		::System::UInt32 ChallengePhaseID; // 0x38
-		::System::UInt32 MappingInfoID; // 0x3C
-		::System::UInt32 UnlockMissionID; // 0x40
-		::System::UInt32 MapEntranceID; // 0x44
+		::RPG::Client::TextID ChallengePhaseUnlock; // 0x38
 
 		::System::Void _ctor()
 		{

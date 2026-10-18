@@ -9,12 +9,12 @@ namespace RPG::Client { class BatchAnimationGraphMaskLayerConfig; }
 namespace System { class String; }
 namespace UnityEngine { class ScriptableObject; }
 
-#define RPG_CLIENT_PEDESTRIANMEMBEREXTERNALCONFIG_BATCHANIMATION_GET_SPECIALTAG_OFFSET UNITYSDK_OFFSET(0x1C4FCF10)
-#define RPG_CLIENT_PEDESTRIANMEMBEREXTERNALCONFIG_BATCHANIMATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4FCF20)
+#define RPG_CLIENT_PEDESTRIANMEMBEREXTERNALCONFIG_BATCHANIMATION_GET_SPECIALTAG_OFFSET UNITYSDK_OFFSET(0xDA8CEE0)
+#define RPG_CLIENT_PEDESTRIANMEMBEREXTERNALCONFIG_BATCHANIMATION__CTOR_OFFSET UNITYSDK_OFFSET(0xDA8CEF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PedestrianMemberExternalConfig_BatchAnimation_TypeDefinitionIndex = 69213;
+	inline static constexpr unsigned int PedestrianMemberExternalConfig_BatchAnimation_TypeDefinitionIndex = 69249;
 
 	class PedestrianMemberExternalConfig_BatchAnimation : public ::RPG::Client::IPedestrianMemberExternalConfig
 	{

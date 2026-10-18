@@ -1,68 +1,81 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/CustomRP/CustomProfileCounter.h"
+#include "unitysdk/RPG/CustomRP/RuntimeProfiler_AndroidMemoryMetricType.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CUSTOMRP_RUNTIMEPROFILER_ENABLEPROFILEQUERY_OFFSET UNITYSDK_OFFSET(0x185BA320)
-#define RPG_CUSTOMRP_RUNTIMEPROFILER_ENABLETRANSPARENTQUERY_OFFSET UNITYSDK_OFFSET(0x185BA560)
-#define RPG_CUSTOMRP_RUNTIMEPROFILER_ENABLEUIEFFECT_OFFSET UNITYSDK_OFFSET(0x185BA580)
-#define RPG_CUSTOMRP_RUNTIMEPROFILER_GETCUSTOMPROFILEAVGTIME_1_OFFSET UNITYSDK_OFFSET(0x185BA310)
-#define RPG_CUSTOMRP_RUNTIMEPROFILER_GETCUSTOMPROFILEAVGTIME_OFFSET UNITYSDK_OFFSET(0x185BA300)
-#define RPG_CUSTOMRP_RUNTIMEPROFILER_GETTOTALMAINLIGHTOVERDRAW_OFFSET UNITYSDK_OFFSET(0x185BA810)
-#define RPG_CUSTOMRP_RUNTIMEPROFILER_GETTOTALPROBEOVERDRAW_OFFSET UNITYSDK_OFFSET(0x185BA7A0)
-#define RPG_CUSTOMRP_RUNTIMEPROFILER_GETVISIBLERATIOGAME_OFFSET UNITYSDK_OFFSET(0x185BA630)
-#define RPG_CUSTOMRP_RUNTIMEPROFILER_GETVISIBLERATIOSCENE_OFFSET UNITYSDK_OFFSET(0x185BA670)
-#define RPG_CUSTOMRP_RUNTIMEPROFILER_GETWEIGHTEDLIGHTOVERDRAW_OFFSET UNITYSDK_OFFSET(0x185BA680)
-#define RPG_CUSTOMRP_RUNTIMEPROFILER_GET_CLUSTEREDLIGHTCOUNT_OFFSET UNITYSDK_OFFSET(0x185BA880)
-#define RPG_CUSTOMRP_RUNTIMEPROFILER_GET_DEBUGINFOWIDGETENABLEPROFILER_OFFSET UNITYSDK_OFFSET(0x185BA9E0)
-#define RPG_CUSTOMRP_RUNTIMEPROFILER_GET_DEBUGUIENABLEPROFILER_OFFSET UNITYSDK_OFFSET(0x185BA8E0)
-#define RPG_CUSTOMRP_RUNTIMEPROFILER_GET_ENABLELIGHTRATIO_OFFSET UNITYSDK_OFFSET(0x185BA8C0)
-#define RPG_CUSTOMRP_RUNTIMEPROFILER_GET_LIGHTCOUNT_OFFSET UNITYSDK_OFFSET(0x185BA860)
-#define RPG_CUSTOMRP_RUNTIMEPROFILER_GET_STENCILLIGHTCOUNT_OFFSET UNITYSDK_OFFSET(0x185BA8A0)
-#define RPG_CUSTOMRP_RUNTIMEPROFILER_INIT_OFFSET UNITYSDK_OFFSET(0x185BA2E0)
-#define RPG_CUSTOMRP_RUNTIMEPROFILER_SET_CLUSTEREDLIGHTCOUNT_OFFSET UNITYSDK_OFFSET(0x185BA890)
-#define RPG_CUSTOMRP_RUNTIMEPROFILER_SET_DEBUGINFOWIDGETENABLEPROFILER_OFFSET UNITYSDK_OFFSET(0x185BA9F0)
-#define RPG_CUSTOMRP_RUNTIMEPROFILER_SET_DEBUGUIENABLEPROFILER_OFFSET UNITYSDK_OFFSET(0x185BA8F0)
-#define RPG_CUSTOMRP_RUNTIMEPROFILER_SET_ENABLELIGHTRATIO_OFFSET UNITYSDK_OFFSET(0x185BA8D0)
-#define RPG_CUSTOMRP_RUNTIMEPROFILER_SET_LIGHTCOUNT_OFFSET UNITYSDK_OFFSET(0x185BA870)
-#define RPG_CUSTOMRP_RUNTIMEPROFILER_SET_STENCILLIGHTCOUNT_OFFSET UNITYSDK_OFFSET(0x185BA8B0)
-#define RPG_CUSTOMRP_RUNTIMEPROFILER_UPDATE_OFFSET UNITYSDK_OFFSET(0x185BA2F0)
-#define RPG_CUSTOMRP_RUNTIMEPROFILER__UPDATEPROFILERSTATE_OFFSET UNITYSDK_OFFSET(0x185BA970)
+#define RPG_CUSTOMRP_RUNTIMEPROFILER_ENABLEPROFILEQUERY_OFFSET UNITYSDK_OFFSET(0x1CC43480)
+#define RPG_CUSTOMRP_RUNTIMEPROFILER_ENABLETRANSPARENTQUERY_OFFSET UNITYSDK_OFFSET(0x1CC436C0)
+#define RPG_CUSTOMRP_RUNTIMEPROFILER_ENABLEUIEFFECT_OFFSET UNITYSDK_OFFSET(0x1CC436E0)
+#define RPG_CUSTOMRP_RUNTIMEPROFILER_GETCUSTOMPROFILEAVGTIME_1_OFFSET UNITYSDK_OFFSET(0x1CC43470)
+#define RPG_CUSTOMRP_RUNTIMEPROFILER_GETCUSTOMPROFILEAVGTIME_OFFSET UNITYSDK_OFFSET(0x1CC43460)
+#define RPG_CUSTOMRP_RUNTIMEPROFILER_GETTOTALMAINLIGHTOVERDRAW_OFFSET UNITYSDK_OFFSET(0x1CC43970)
+#define RPG_CUSTOMRP_RUNTIMEPROFILER_GETTOTALPROBEOVERDRAW_OFFSET UNITYSDK_OFFSET(0x1CC43900)
+#define RPG_CUSTOMRP_RUNTIMEPROFILER_GETVISIBLERATIOGAME_OFFSET UNITYSDK_OFFSET(0x1CC43790)
+#define RPG_CUSTOMRP_RUNTIMEPROFILER_GETVISIBLERATIOSCENE_OFFSET UNITYSDK_OFFSET(0x1CC437D0)
+#define RPG_CUSTOMRP_RUNTIMEPROFILER_GETWEIGHTEDLIGHTOVERDRAW_OFFSET UNITYSDK_OFFSET(0x1CC437E0)
+#define RPG_CUSTOMRP_RUNTIMEPROFILER_GET_ANDROIDMEMORYTYPE_OFFSET UNITYSDK_OFFSET(0x1CC43A60)
+#define RPG_CUSTOMRP_RUNTIMEPROFILER_GET_CLUSTEREDLIGHTCOUNT_OFFSET UNITYSDK_OFFSET(0x1CC439E0)
+#define RPG_CUSTOMRP_RUNTIMEPROFILER_GET_DEBUGINFOWIDGETENABLEPROFILER_OFFSET UNITYSDK_OFFSET(0x1CC43B80)
+#define RPG_CUSTOMRP_RUNTIMEPROFILER_GET_DEBUGUIENABLEPROFILER_OFFSET UNITYSDK_OFFSET(0x1CC43A80)
+#define RPG_CUSTOMRP_RUNTIMEPROFILER_GET_ENABLELIGHTRATIO_OFFSET UNITYSDK_OFFSET(0x1CC43A20)
+#define RPG_CUSTOMRP_RUNTIMEPROFILER_GET_LIGHTCOUNT_OFFSET UNITYSDK_OFFSET(0x1CC439C0)
+#define RPG_CUSTOMRP_RUNTIMEPROFILER_GET_MEMORYSENSITIVE_OFFSET UNITYSDK_OFFSET(0x1CC43A40)
+#define RPG_CUSTOMRP_RUNTIMEPROFILER_GET_STENCILLIGHTCOUNT_OFFSET UNITYSDK_OFFSET(0x1CC43A00)
+#define RPG_CUSTOMRP_RUNTIMEPROFILER_INIT_OFFSET UNITYSDK_OFFSET(0x1CC43440)
+#define RPG_CUSTOMRP_RUNTIMEPROFILER_SET_ANDROIDMEMORYTYPE_OFFSET UNITYSDK_OFFSET(0x1CC43A70)
+#define RPG_CUSTOMRP_RUNTIMEPROFILER_SET_CLUSTEREDLIGHTCOUNT_OFFSET UNITYSDK_OFFSET(0x1CC439F0)
+#define RPG_CUSTOMRP_RUNTIMEPROFILER_SET_DEBUGINFOWIDGETENABLEPROFILER_OFFSET UNITYSDK_OFFSET(0x1CC43B90)
+#define RPG_CUSTOMRP_RUNTIMEPROFILER_SET_DEBUGUIENABLEPROFILER_OFFSET UNITYSDK_OFFSET(0x1CC43A90)
+#define RPG_CUSTOMRP_RUNTIMEPROFILER_SET_ENABLELIGHTRATIO_OFFSET UNITYSDK_OFFSET(0x1CC43A30)
+#define RPG_CUSTOMRP_RUNTIMEPROFILER_SET_LIGHTCOUNT_OFFSET UNITYSDK_OFFSET(0x1CC439D0)
+#define RPG_CUSTOMRP_RUNTIMEPROFILER_SET_MEMORYSENSITIVE_OFFSET UNITYSDK_OFFSET(0x1CC43A50)
+#define RPG_CUSTOMRP_RUNTIMEPROFILER_SET_STENCILLIGHTCOUNT_OFFSET UNITYSDK_OFFSET(0x1CC43A10)
+#define RPG_CUSTOMRP_RUNTIMEPROFILER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1CC43450)
+#define RPG_CUSTOMRP_RUNTIMEPROFILER__UPDATEPROFILERSTATE_OFFSET UNITYSDK_OFFSET(0x1CC43B10)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int RuntimeProfiler_TypeDefinitionIndex = 37233;
+	inline static constexpr unsigned int RuntimeProfiler_TypeDefinitionIndex = 37925;
 
 	class RuntimeProfiler : public ::System::Object
 	{
 	public:
-		static ::System::Boolean* StaticGet__DebugInfoWidgetEnableProfiler()
+		static ::System::Int32* StaticGet__LightCount_k__BackingField()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RuntimeProfiler_TypeDefinitionIndex)->GetStaticField(0xE750);
-		}
-		static ::System::Boolean* StaticGet__EnableLightRatio_k__BackingField()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RuntimeProfiler_TypeDefinitionIndex)->GetStaticField(0xE751);
-		}
-		static ::System::Boolean* StaticGet__FinalEnableProfiler()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RuntimeProfiler_TypeDefinitionIndex)->GetStaticField(0xE752);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(RuntimeProfiler_TypeDefinitionIndex)->GetStaticField(0x9140);
 		}
 		static ::System::Boolean* StaticGet__DebugUIEnableProfiler()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RuntimeProfiler_TypeDefinitionIndex)->GetStaticField(0xE753);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RuntimeProfiler_TypeDefinitionIndex)->GetStaticField(0x9144);
 		}
-		static ::System::Int32* StaticGet__ClusteredLightCount_k__BackingField()
+		static ::System::Boolean* StaticGet__MemorySensitive_k__BackingField()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(RuntimeProfiler_TypeDefinitionIndex)->GetStaticField(0xE754);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RuntimeProfiler_TypeDefinitionIndex)->GetStaticField(0x9145);
 		}
 		static ::System::Int32* StaticGet__StencilLightCount_k__BackingField()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(RuntimeProfiler_TypeDefinitionIndex)->GetStaticField(0xE758);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(RuntimeProfiler_TypeDefinitionIndex)->GetStaticField(0x9148);
 		}
-		static ::System::Int32* StaticGet__LightCount_k__BackingField()
+		static ::RPG::CustomRP::RuntimeProfiler_AndroidMemoryMetricType* StaticGet__AndroidMemoryType_k__BackingField()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(RuntimeProfiler_TypeDefinitionIndex)->GetStaticField(0xE75C);
+			return (::RPG::CustomRP::RuntimeProfiler_AndroidMemoryMetricType*)Il2CppClass::FromTypeDefinitionIndex(RuntimeProfiler_TypeDefinitionIndex)->GetStaticField(0x914C);
+		}
+		static ::System::Boolean* StaticGet__EnableLightRatio_k__BackingField()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RuntimeProfiler_TypeDefinitionIndex)->GetStaticField(0x9150);
+		}
+		static ::System::Boolean* StaticGet__FinalEnableProfiler()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RuntimeProfiler_TypeDefinitionIndex)->GetStaticField(0x9151);
+		}
+		static ::System::Boolean* StaticGet__DebugInfoWidgetEnableProfiler()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RuntimeProfiler_TypeDefinitionIndex)->GetStaticField(0x9152);
+		}
+		static ::System::Int32* StaticGet__ClusteredLightCount_k__BackingField()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(RuntimeProfiler_TypeDefinitionIndex)->GetStaticField(0x9154);
 		}
 
 		static ::System::Void Init()
@@ -163,6 +176,26 @@ namespace RPG::CustomRP
 		static ::System::Void set_EnableLightRatio(::System::Boolean a1)
 		{
 			return ((::System::Void(*)(::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RUNTIMEPROFILER_SET_ENABLELIGHTRATIO_OFFSET))(a1);
+		}
+
+		static ::System::Boolean get_MemorySensitive()
+		{
+			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RUNTIMEPROFILER_GET_MEMORYSENSITIVE_OFFSET))();
+		}
+
+		static ::System::Void set_MemorySensitive(::System::Boolean a1)
+		{
+			return ((::System::Void(*)(::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RUNTIMEPROFILER_SET_MEMORYSENSITIVE_OFFSET))(a1);
+		}
+
+		static ::RPG::CustomRP::RuntimeProfiler_AndroidMemoryMetricType get_AndroidMemoryType()
+		{
+			return ((::RPG::CustomRP::RuntimeProfiler_AndroidMemoryMetricType(*)())((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RUNTIMEPROFILER_GET_ANDROIDMEMORYTYPE_OFFSET))();
+		}
+
+		static ::System::Void set_AndroidMemoryType(::RPG::CustomRP::RuntimeProfiler_AndroidMemoryMetricType a1)
+		{
+			return ((::System::Void(*)(::RPG::CustomRP::RuntimeProfiler_AndroidMemoryMetricType))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RUNTIMEPROFILER_SET_ANDROIDMEMORYTYPE_OFFSET))(a1);
 		}
 
 		static ::System::Boolean get_DebugUIEnableProfiler()

@@ -5,20 +5,20 @@
 namespace MessagePack { class MessagePackSerializer_CompiledMethods; }
 namespace System { class Type; }
 
-#define MESSAGEPACK_MESSAGEPACKSERIALIZER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D562580)
-#define MESSAGEPACK_MESSAGEPACKSERIALIZER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5625B0)
-#define MESSAGEPACK_MESSAGEPACKSERIALIZER___C___CCTOR_B__42_0_OFFSET UNITYSDK_OFFSET(0x1D5625C0)
+#define MESSAGEPACK_MESSAGEPACKSERIALIZER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BBA4D00)
+#define MESSAGEPACK_MESSAGEPACKSERIALIZER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1BBA4D30)
+#define MESSAGEPACK_MESSAGEPACKSERIALIZER___C___CCTOR_B__42_0_OFFSET UNITYSDK_OFFSET(0x1BBA4D40)
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int MessagePackSerializer___c_TypeDefinitionIndex = 7175;
+	inline static constexpr unsigned int MessagePackSerializer___c_TypeDefinitionIndex = 7229;
 
 	class MessagePackSerializer___c : public ::System::Object
 	{
 	public:
 		static ::MessagePack::MessagePackSerializer___c** StaticGet___9()
 		{
-			return (::MessagePack::MessagePackSerializer___c**)Il2CppClass::FromTypeDefinitionIndex(MessagePackSerializer___c_TypeDefinitionIndex)->GetStaticField(0x3B200);
+			return (::MessagePack::MessagePackSerializer___c**)Il2CppClass::FromTypeDefinitionIndex(MessagePackSerializer___c_TypeDefinitionIndex)->GetStaticField(0x4E0E0);
 		}
 
 		static ::System::Void _cctor()

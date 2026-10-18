@@ -5,24 +5,24 @@
 class Class_1_EF079561C804F2A6;
 namespace System { template <typename T> class Predicate_1; }
 
-#define RPG_CLIENT_B51RACING_B51RACINGDIYSUBSKILLPANELCONTROL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19EFBCD0)
-#define RPG_CLIENT_B51RACING_B51RACINGDIYSUBSKILLPANELCONTROL___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19EFBD10)
-#define RPG_CLIENT_B51RACING_B51RACINGDIYSUBSKILLPANELCONTROL___C___GETSELECTEDITEMINDEX_B__25_0_OFFSET UNITYSDK_OFFSET(0x19EFBD20)
+#define RPG_CLIENT_B51RACING_B51RACINGDIYSUBSKILLPANELCONTROL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC78B0B0)
+#define RPG_CLIENT_B51RACING_B51RACINGDIYSUBSKILLPANELCONTROL___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC78B0F0)
+#define RPG_CLIENT_B51RACING_B51RACINGDIYSUBSKILLPANELCONTROL___C___GETSELECTEDITEMINDEX_B__25_0_OFFSET UNITYSDK_OFFSET(0xC78B100)
 
 namespace RPG::Client::B51Racing
 {
-	inline static constexpr unsigned int B51RacingDIYSubSkillPanelControl___c_TypeDefinitionIndex = 80456;
+	inline static constexpr unsigned int B51RacingDIYSubSkillPanelControl___c_TypeDefinitionIndex = 81784;
 
 	class B51RacingDIYSubSkillPanelControl___c : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::B51Racing::B51RacingDIYSubSkillPanelControl___c** StaticGet___9()
 		{
-			return (::RPG::Client::B51Racing::B51RacingDIYSubSkillPanelControl___c**)Il2CppClass::FromTypeDefinitionIndex(B51RacingDIYSubSkillPanelControl___c_TypeDefinitionIndex)->GetStaticField(0x66450);
+			return (::RPG::Client::B51Racing::B51RacingDIYSubSkillPanelControl___c**)Il2CppClass::FromTypeDefinitionIndex(B51RacingDIYSubSkillPanelControl___c_TypeDefinitionIndex)->GetStaticField(0x54B70);
 		}
 		static ::System::Predicate_1<::Class_1_EF079561C804F2A6*>** StaticGet___9__25_0()
 		{
-			return (::System::Predicate_1<::Class_1_EF079561C804F2A6*>**)Il2CppClass::FromTypeDefinitionIndex(B51RacingDIYSubSkillPanelControl___c_TypeDefinitionIndex)->GetStaticField(0x66458);
+			return (::System::Predicate_1<::Class_1_EF079561C804F2A6*>**)Il2CppClass::FromTypeDefinitionIndex(B51RacingDIYSubSkillPanelControl___c_TypeDefinitionIndex)->GetStaticField(0x54B78);
 		}
 
 		static ::System::Void _cctor()

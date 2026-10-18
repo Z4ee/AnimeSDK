@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class GroupToMemberEntityDataAdapter; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_27576F9E10A0C6FF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1891EC00)
-#define CLASS_3_27576F9E10A0C6FF__CTOR_OFFSET UNITYSDK_OFFSET(0x1891EBD0)
+#define CLASS_3_27576F9E10A0C6FF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBD91EB0)
+#define CLASS_3_27576F9E10A0C6FF__CTOR_OFFSET UNITYSDK_OFFSET(0xBD91E80)
 
-inline static constexpr unsigned int Class_3_27576F9E10A0C6FF_TypeDefinitionIndex = 53195;
+inline static constexpr unsigned int Class_3_27576F9E10A0C6FF_TypeDefinitionIndex = 52921;
 
 class Class_3_27576F9E10A0C6FF : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::GroupToMemberEntityDataAdapter*>
 {

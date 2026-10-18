@@ -5,16 +5,16 @@
 class Class_2_48488E8DBD9F6BCE;
 namespace RPG::GameCore { class DiceCombatTaskConfig_DirectDamage; }
 
-#define CLASS_2_FFEC16FF315D02F0_METHOD_2_8CA88D55ECEFAD59_OFFSET UNITYSDK_OFFSET(0x15460430)
-#define CLASS_2_FFEC16FF315D02F0__CTOR_OFFSET UNITYSDK_OFFSET(0x15460420)
+#define CLASS_2_FFEC16FF315D02F0_METHOD_2_8CA88D55ECEFAD59_OFFSET UNITYSDK_OFFSET(0x1C76E1F0)
+#define CLASS_2_FFEC16FF315D02F0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C76E1E0)
 
-inline static constexpr unsigned int Class_2_FFEC16FF315D02F0_TypeDefinitionIndex = 35626;
+inline static constexpr unsigned int Class_2_FFEC16FF315D02F0_TypeDefinitionIndex = 36313;
 
 class Class_2_FFEC16FF315D02F0 : public ::Class_1_B55037134F9E6688
 {
 public:
-	::RPG::GameCore::DiceCombatTaskConfig_DirectDamage* IGHAHBNLIJA; // 0x18
-	::Class_2_48488E8DBD9F6BCE* EEFMDEHLLFI; // 0x20
+	::Class_2_48488E8DBD9F6BCE* EEFMDEHLLFI; // 0x18
+	::RPG::GameCore::DiceCombatTaskConfig_DirectDamage* IGHAHBNLIJA; // 0x20
 
 	::System::Void _ctor(::RPG::GameCore::DiceCombatTaskConfig_DirectDamage* a1, ::Class_2_48488E8DBD9F6BCE* a2)
 	{

@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SUPERSCROLLVIEW_GRIDVIEWLAYOUTPARAM_CHECKPARAM_OFFSET UNITYSDK_OFFSET(0x197F8580)
-#define SUPERSCROLLVIEW_GRIDVIEWLAYOUTPARAM_INITFROM_OFFSET UNITYSDK_OFFSET(0x197F8630)
-#define SUPERSCROLLVIEW_GRIDVIEWLAYOUTPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x197F86F0)
+#define SUPERSCROLLVIEW_GRIDVIEWLAYOUTPARAM_CHECKPARAM_OFFSET UNITYSDK_OFFSET(0xE993500)
+#define SUPERSCROLLVIEW_GRIDVIEWLAYOUTPARAM_INITFROM_OFFSET UNITYSDK_OFFSET(0xE9935B0)
+#define SUPERSCROLLVIEW_GRIDVIEWLAYOUTPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xE993670)
 
 namespace SuperScrollView
 {
-	inline static constexpr unsigned int GridViewLayoutParam_TypeDefinitionIndex = 48136;
+	inline static constexpr unsigned int GridViewLayoutParam_TypeDefinitionIndex = 47676;
 
 	class GridViewLayoutParam : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::Single>* mCustomColumnOrRowOffsetArray; // 0x10
-		::System::Single mPadding1; // 0x18
-		::System::Single mItemWidthOrHeight; // 0x1C
+		::System::Single mItemWidthOrHeight; // 0x18
+		::System::Single mPadding1; // 0x1C
 		::System::Single mPadding2; // 0x20
 		::System::Int32 mColumnOrRowCount; // 0x24
 

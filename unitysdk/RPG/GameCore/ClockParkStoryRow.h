@@ -6,20 +6,20 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_CLOCKPARKSTORYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D9A0070)
-#define RPG_GAMECORE_CLOCKPARKSTORYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D9A07D0)
+#define RPG_GAMECORE_CLOCKPARKSTORYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D597600)
+#define RPG_GAMECORE_CLOCKPARKSTORYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D597D60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ClockParkStoryRow_TypeDefinitionIndex = 11162;
+	inline static constexpr unsigned int ClockParkStoryRow_TypeDefinitionIndex = 11178;
 
 	class ClockParkStoryRow : public ::System::Object
 	{
 	public:
 		::System::String* StoryJsonPath; // 0x10
 		::System::String* ImgPath; // 0x18
-		::RPG::Client::TextID StoryDesc; // 0x20
-		::RPG::Client::TextID StoryTitle; // 0x30
+		::RPG::Client::TextID StoryTitle; // 0x20
+		::RPG::Client::TextID StoryDesc; // 0x30
 		::System::UInt32 StoryID; // 0x40
 
 		::System::Void _ctor()

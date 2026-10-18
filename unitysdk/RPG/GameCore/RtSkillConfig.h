@@ -14,12 +14,12 @@ namespace RPG::GameCore { class RtSkillPropertyConfig; }
 namespace RPG::GameCore { class RtSkillTargetInfo; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_RTSKILLCONFIG_METHOD_2_6DFCEE77CB09009A_OFFSET UNITYSDK_OFFSET(0x1CCED2E0)
-#define RPG_GAMECORE_RTSKILLCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CCED8D0)
+#define RPG_GAMECORE_RTSKILLCONFIG_METHOD_2_6DFCEE77CB09009A_OFFSET UNITYSDK_OFFSET(0x1DA35F60)
+#define RPG_GAMECORE_RTSKILLCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1DA36550)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtSkillConfig_TypeDefinitionIndex = 17461;
+	inline static constexpr unsigned int RtSkillConfig_TypeDefinitionIndex = 17673;
 
 	class RtSkillConfig : public ::RPG::GameCore::JsonConfig
 	{

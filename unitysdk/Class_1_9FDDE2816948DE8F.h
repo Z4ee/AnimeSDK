@@ -7,17 +7,17 @@ namespace ObservableCollections { template <typename T> class ObservableList_1; 
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_9FDDE2816948DE8F_GET_ITEMS_OFFSET UNITYSDK_OFFSET(0x177F2CB0)
-#define CLASS_1_9FDDE2816948DE8F_SET_ITEMS_OFFSET UNITYSDK_OFFSET(0x177F2CC0)
-#define CLASS_1_9FDDE2816948DE8F__CTOR_OFFSET UNITYSDK_OFFSET(0x177F2CD0)
+#define CLASS_1_9FDDE2816948DE8F_GET_ITEMS_OFFSET UNITYSDK_OFFSET(0xC9D7B90)
+#define CLASS_1_9FDDE2816948DE8F_SET_ITEMS_OFFSET UNITYSDK_OFFSET(0xC9D7BA0)
+#define CLASS_1_9FDDE2816948DE8F__CTOR_OFFSET UNITYSDK_OFFSET(0xC9D7BB0)
 
-inline static constexpr unsigned int Class_1_9FDDE2816948DE8F_TypeDefinitionIndex = 73332;
+inline static constexpr unsigned int Class_1_9FDDE2816948DE8F_TypeDefinitionIndex = 73430;
 
 class Class_1_9FDDE2816948DE8F : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::System::String*>* LNAEGNAAGII; // 0x10
-	::ObservableCollections::ObservableList_1<::Class_1_4D3F3A9A29F5DD81*>* _Items_k__BackingField; // 0x18
+	::ObservableCollections::ObservableList_1<::Class_1_4D3F3A9A29F5DD81*>* _Items_k__BackingField; // 0x10
+	::System::Collections::Generic::List_1<::System::String*>* LNAEGNAAGII; // 0x18
 
 	::System::Void _ctor()
 	{

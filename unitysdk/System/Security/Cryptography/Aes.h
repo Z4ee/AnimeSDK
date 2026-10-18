@@ -4,8 +4,8 @@
 
 namespace System::Security::Cryptography { class KeySizes; }
 
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_AES__CCTOR_OFFSET UNITYSDK_OFFSET(0x19BB32F0)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_AES__CTOR_OFFSET UNITYSDK_OFFSET(0x19BB3260)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_AES__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C328BA0)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_AES__CTOR_OFFSET UNITYSDK_OFFSET(0x1C328B10)
 
 namespace System::Security::Cryptography
 {
@@ -16,11 +16,11 @@ namespace System::Security::Cryptography
 	public:
 		static ::Il2CppArray<::System::Security::Cryptography::KeySizes*>** StaticGet_s_legalBlockSizes()
 		{
-			return (::Il2CppArray<::System::Security::Cryptography::KeySizes*>**)Il2CppClass::FromTypeDefinitionIndex(Aes_TypeDefinitionIndex)->GetStaticField(0x16E80);
+			return (::Il2CppArray<::System::Security::Cryptography::KeySizes*>**)Il2CppClass::FromTypeDefinitionIndex(Aes_TypeDefinitionIndex)->GetStaticField(0x21AF0);
 		}
 		static ::Il2CppArray<::System::Security::Cryptography::KeySizes*>** StaticGet_s_legalKeySizes()
 		{
-			return (::Il2CppArray<::System::Security::Cryptography::KeySizes*>**)Il2CppClass::FromTypeDefinitionIndex(Aes_TypeDefinitionIndex)->GetStaticField(0x16E88);
+			return (::Il2CppArray<::System::Security::Cryptography::KeySizes*>**)Il2CppClass::FromTypeDefinitionIndex(Aes_TypeDefinitionIndex)->GetStaticField(0x21AF8);
 		}
 
 		::System::Void _ctor()
